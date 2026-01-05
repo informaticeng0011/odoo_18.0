@@ -2,22 +2,29 @@
 # This file contains the translation of the following modules:
 # 	* hr_work_entry_contract
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Malaz Abuidris <msea@odoo.com>, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Malaz Abuidris <msea@odoo.com>, 2024
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -29,6 +36,8 @@ msgstr ""
 "Language: ar\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Malaz Abuidris <msea@odoo.com>, 2024\n"
@@ -39,6 +48,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_work_entry_contract
@@ -49,16 +61,22 @@ msgid ""
 "        Defines the source for work entries generation\n"
 "\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Working Schedule: Work entries will be generated from the working hours below.\n"
 "        Attendances: Work entries will be generated from the employee's attendances. (requires Attendance app)\n"
 "        Planning: Work entries will be generated from the employee's planning. (requires Planning app)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        Working Schedule: Work entries will be generated from the working "
 "hours below.\n"
 "        Attendances: Work entries will be generated from the employee's "
 "attendances. (requires Attendance app)\n"
 "        Planning: Work entries will be generated from the employee's "
 "planning. (requires Planning app)\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "    "
 msgstr ""
@@ -67,13 +85,19 @@ msgstr ""
 "\n"
 "        جدول العمل: سيتم إنشاء قيود العمل من ساعات العمل أدناه.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        الحضور: سيتم إنشاء قيود العمل من سجل حضور الموظف. (يتطلب تطبيق الحضور)\n"
 "        التخطيط: سيتم إنشاء قيود العمل من تخطيط الموظف. (يتطلب تطبيق التخطيط)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        الحضور: سيتم إنشاء قيود العمل من سجل حضور الموظف. (يتطلب تطبيق "
 "الحضور)\n"
 "        التخطيط: سيتم إنشاء قيود العمل من تخطيط الموظف. (يتطلب تطبيق "
 "التخطيط)\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "    "
 
@@ -244,8 +268,13 @@ msgstr "المُعرف"
 #: code:addons/hr_work_entry_contract/wizard/hr_work_entry_regeneration_wizard.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In order to regenerate the work entries, you need to provide the wizard with"
 " an employee_id, a date_from and a date_to. In addition to that, the time "
+=======
+"In order to regenerate the work entries, you need to provide the wizard with "
+"an employee_id, a date_from and a date_to. In addition to that, the time "
+>>>>>>> upstream/18.0
 =======
 "In order to regenerate the work entries, you need to provide the wizard with "
 "an employee_id, a date_from and a date_to. In addition to that, the time "
@@ -334,8 +363,12 @@ msgstr "الإجازة المرضية "
 #. odoo-python
 #: code:addons/hr_work_entry_contract/models/hr_contract.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Sorry, generating work entries from cancelled contracts is not allowed."
+=======
+msgid "Sorry, generating work entries from cancelled contracts is not allowed."
+>>>>>>> upstream/18.0
 =======
 msgid "Sorry, generating work entries from cancelled contracts is not allowed."
 >>>>>>> upstream/18.0

@@ -115,7 +115,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* project
+=======
+# * project
+>>>>>>> upstream/18.0
 =======
 # * project
 >>>>>>> upstream/18.0
@@ -467,6 +471,7 @@
 # Uros Kalajdzic <ukalajdzic@gmail.com>, 2022
 # Djordje Marjanovic <djvmarjanovic@gmail.com>, 2022
 # Martin Trigaux, 2023
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -972,10 +977,15 @@
 # Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2023, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2023, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-06-03 08:43+0000\n"
 <<<<<<< HEAD
@@ -1420,6 +1430,11 @@ msgstr ""
 "PO-Revision-Date: 2025-12-31 16:34+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:36+0000\n"
+"PO-Revision-Date: 2025-12-31 16:34+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Serbian (Latin script) <https://translate.odoo.com/projects/"
 "odoo-18/project/sr_Latn/>\n"
 "Language: sr@latin\n"
@@ -1428,6 +1443,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "X-Generator: Weblate 5.12.2\n"
 <<<<<<< HEAD
@@ -1773,6 +1789,9 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-python
@@ -1796,7 +1815,12 @@ msgid ""
 ");\n"
 "\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "export class ProjectTaskFormController extends FormController {\n"
+=======
+"export class ProjectTaskFormController extends "
+"FormControllerWithHTMLExpander {\n"
+>>>>>>> upstream/18.0
 =======
 "export class ProjectTaskFormController extends "
 "FormControllerWithHTMLExpander {\n"
@@ -1816,7 +1840,11 @@ msgid ""
 "                sequence: 50,\n"
 "                icon: \"fa fa-history\",\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                description: _t(\"Restore History\"),\n"
+=======
+"                description: _t(\"Version History\"),\n"
+>>>>>>> upstream/18.0
 =======
 "                description: _t(\"Version History\"),\n"
 >>>>>>> upstream/18.0
@@ -1827,8 +1855,13 @@ msgid ""
 "\n"
 "    get deleteConfirmationDialogProps() {\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        const deleteConfirmationDialogProps = super."
 "deleteConfirmationDialogProps;\n"
+=======
+"        const deleteConfirmationDialogProps = "
+"super.deleteConfirmationDialogProps;\n"
+>>>>>>> upstream/18.0
 =======
 "        const deleteConfirmationDialogProps = "
 "super.deleteConfirmationDialogProps;\n"
@@ -1846,8 +1879,13 @@ msgid ""
 "        const record = this.model.root;\n"
 "        const versionedFieldName = 'description';\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        const historyMetadata = record."
 "data[\"html_field_history_metadata\"]?.[versionedFieldName];\n"
+=======
+"        const historyMetadata = "
+"record.data[\"html_field_history_metadata\"]?.[versionedFieldName];\n"
+>>>>>>> upstream/18.0
 =======
 "        const historyMetadata = "
 "record.data[\"html_field_history_metadata\"]?.[versionedFieldName];\n"
@@ -1879,7 +1917,10 @@ msgstr "# Ocena"
 #. odoo-javascript
 #: code:addons/project/static/src/views/burndown_chart/burndown_chart_model.js:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:project.field_project_milestone__task_count
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:project.field_report_project_task_user__nbr
@@ -1890,8 +1931,13 @@ msgstr "# Zadataka"
 #: model_terms:ir.ui.view,arch_db:project.view_project_kanban
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "#{record.milestone_count_reached.value} Milestones reached out of #{record."
 "milestone_count.value}"
+=======
+"#{record.milestone_count_reached.value} Milestones reached out of "
+"#{record.milestone_count.value}"
+>>>>>>> upstream/18.0
 =======
 "#{record.milestone_count_reached.value} Milestones reached out of "
 "#{record.milestone_count.value}"
@@ -1931,13 +1977,19 @@ msgstr ""
 #. odoo-python
 #: code:addons/project/models/project_project.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 msgid "%(name)s Dashboard"
 msgstr ""
 
 #. module: project
 #. odoo-python
 #: code:addons/project/models/project_project.py:0
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "%(name)s's Burndown Chart"
 msgstr ""
@@ -1963,12 +2015,15 @@ msgstr ""
 #. module: project
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/project/models/project_project.py:0
 msgid "%(name)s's Updates"
 msgstr ""
 
 #. module: project
 #. odoo-python
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: code:addons/project/models/res_partner.py:0
@@ -1986,13 +2041,19 @@ msgstr "%s (kopija)"
 
 #. module: project
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/project/static/src/components/notebook_task_one2many_field/notebook_task_list_renderer.js:0
 msgid "%s closed tasks"
 msgstr ""
 
 #. module: project
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:project.milestone_deadline
 msgid "(due"
@@ -2043,9 +2104,15 @@ msgstr ""
 msgid ""
 "<div>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    <t t-set=\"access_token\" t-value=\"object."
 "_rating_get_access_token()\"></t>\n"
 "    <t t-set=\"partner\" t-value=\"object._rating_get_partner()\"></t>\n"
+=======
+"    <t t-set=\"access_token\" t-value=\"object._rating_get_access_token()\"/"
+">\n"
+"    <t t-set=\"partner\" t-value=\"object._rating_get_partner()\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "    <t t-set=\"access_token\" t-value=\"object._rating_get_access_token()\"/"
 ">\n"
@@ -2058,20 +2125,27 @@ msgid ""
 "            <t t-if=\"partner.name\">\n"
 "                Hello <t t-out=\"partner.name or ''\">Brandon Freeman</t>,"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<br><br>\n"
 "            </t>\n"
 "            <t t-else=\"\">\n"
 "                Hello,<br><br>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "<br/><br/>\n"
 "            </t>\n"
 "            <t t-else=\"\">\n"
 "                Hello,<br/><br/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            </t>\n"
 "            Please take a moment to rate our services related to the <strong "
 "t-out=\"object.name or ''\">Planning and budget</strong> task\n"
 "            <t t-if=\"object._rating_get_operator().name\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                assigned to <strong t-out=\"object._rating_get_operator()."
 "name or ''\">Mitchell Admin</strong>.<br>\n"
@@ -2079,17 +2153,23 @@ msgid ""
 "            <t t-else=\"\">\n"
 "                .<br>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                assigned to <strong t-"
 "out=\"object._rating_get_operator().name or ''\">Mitchell Admin</strong>.<br/"
 ">\n"
 "            </t>\n"
 "            <t t-else=\"\">\n"
 "                .<br/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            </t>\n"
 "        </td></tr>\n"
 "        <tr><td style=\"text-align: center;\">\n"
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" "
+<<<<<<< HEAD
 <<<<<<< HEAD
 "width=\"590\" summary=\"o_mail_notification\" style=\"width:100%; margin: "
 "32px 0px 32px 0px;\">\n"
@@ -2097,11 +2177,16 @@ msgid ""
 "                    <strong>Tell us how you feel about our services</"
 "strong><br>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "width=\"590\" style=\"width:100%; margin: 32px 0px 32px 0px; display: inline-"
 "table;\">\n"
 "                <tr><td style=\"font-size: 13px;text-align:center;\">\n"
 "                    <strong>Tell us how you feel about our services</"
 "strong><br/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                    <span style=\"font-size: 12px; opacity: 0.5; color: "
 "#454748;\">(click on one of these smileys)</span>\n"
@@ -2111,6 +2196,7 @@ msgid ""
 "top:2rem;\">\n"
 "                        <tr>\n"
 "                            <td>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                                <a t-attf-href=\"/rate/"
 "{{ access_token }}/5\">\n"
@@ -2131,6 +2217,8 @@ msgid ""
 "                                    <img alt=\"Dissatisfied\" src=\"/rating/"
 "static/src/img/rating_1.png\" title=\"Dissatisfied\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                <a t-attf-href=\"/rate/{{ access_token }}/"
 "5\" t-att-class=\"'pe-none' if object._rating_get_operator() else ''\">\n"
 "                                    <img alt=\"Satisfied\" src=\"/rating/"
@@ -2149,6 +2237,9 @@ msgid ""
 "1\" t-att-class=\"'pe-none' if object._rating_get_operator() else ''\">\n"
 "                                    <img alt=\"Dissatisfied\" src=\"/rating/"
 "static/src/img/rating_1.png\" title=\"Dissatisfied\"/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                </a>\n"
 "                            </td>\n"
@@ -2161,7 +2252,11 @@ msgid ""
 "            We appreciate your feedback. It helps us improve continuously.\n"
 "            <t t-if=\"object.project_id.rating_status == 'stage'\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                <br><span style=\"margin: 0; font-size: 12px; opacity: 0.5; "
+=======
+"                <br/><span style=\"margin: 0; font-size: 12px; opacity: 0.5; "
+>>>>>>> upstream/18.0
 =======
 "                <br/><span style=\"margin: 0; font-size: 12px; opacity: 0.5; "
 >>>>>>> upstream/18.0
@@ -2171,6 +2266,7 @@ msgid ""
 "            </t>\n"
 "            <t t-if=\"object.project_id.rating_status == 'periodic'\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                <br><span style=\"margin: 0; font-size: 12px; opacity: 0.5; "
 "color: #454748;\">This satisfaction survey is sent <b t-out=\"object."
 "project_id.rating_status_period or ''\">weekly</b> as long as the task is in "
@@ -2179,6 +2275,8 @@ msgid ""
 "        </td></tr>\n"
 "        <tr><td><br>Best regards,</td></tr>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                <br/><span style=\"margin: 0; font-size: 12px; opacity: 0.5; "
 "color: #454748;\">This satisfaction survey is sent <b t-"
 "out=\"object.project_id.rating_status_period or ''\">weekly</b> as long as "
@@ -2187,6 +2285,9 @@ msgid ""
 "            </t>\n"
 "        </td></tr>\n"
 "        <tr><td><br/>Best regards,</td></tr>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "        <tr><td>\n"
 "           <t t-out=\"object.project_id.company_id.name or ''\">YourCompany</"
@@ -2197,6 +2298,7 @@ msgid ""
 "650-123-4567</t>\n"
 "            <t t-if=\"object.project_id.company_id.email\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                | <a t-attf-href=\"mailto:{{ object.project_id.company_id."
 "email }}\" style=\"text-decoration:none; color: #454748;\" t-out=\"object."
 "project_id.company_id.email or ''\">info@yourcompany.com</a>\n"
@@ -2206,6 +2308,8 @@ msgid ""
 "website }}\" style=\"text-decoration:none; color: #454748;\" t-out=\"object."
 "project_id.company_id.website or ''\">http://www.example.com</a>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                | <a t-attf-href=\"mailto:"
 "{{ object.project_id.company_id.email }}\" style=\"text-decoration:none; "
 "color: #454748;\" t-out=\"object.project_id.company_id.email or "
@@ -2216,6 +2320,9 @@ msgid ""
 "\" style=\"text-decoration:none; color: #454748;\" t-"
 "out=\"object.project_id.company_id.website or ''\">http://www.example.com</"
 "a>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            </t>\n"
 "        </td></tr>\n"
@@ -2231,6 +2338,7 @@ msgid ""
 "<div>\n"
 "    Dear <t t-out=\"object.partner_id.name or 'customer'\">Brandon Freeman</"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "t>,<br>\n"
 "    It is my pleasure to let you know that we have successfully completed "
 "the project \"<strong t-out=\"object.name or ''\">Renovations</strong>\".\n"
@@ -2241,6 +2349,8 @@ msgid ""
 "</div>\n"
 "<br><span style=\"margin: 0px 0px 0px 0px; font-size: 12px; opacity: 0.5; "
 =======
+=======
+>>>>>>> upstream/18.0
 "t>,<br/>\n"
 "    It is my pleasure to let you know that we have successfully completed "
 "the project \"<strong t-out=\"object.name or ''\">Renovations</strong>\".\n"
@@ -2251,6 +2361,9 @@ msgid ""
 "    </t>\n"
 "</div>\n"
 "<br/><span style=\"margin: 0px 0px 0px 0px; font-size: 12px; opacity: 0.5; "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "color: #454748;\" groups=\"project.group_project_stages\">You are receiving "
 "this email because your project has been moved to the stage <b t-"
@@ -2263,6 +2376,7 @@ msgstr ""
 msgid ""
 "<div>\n"
 "    Dear <t t-out=\"object.partner_id.name or 'customer'\">Brandon Freeman</"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "t>,<br><br>\n"
 "    Thank you for contacting us. We appreciate your interest in our products/"
@@ -2277,6 +2391,8 @@ msgid ""
 "        <br>\n"
 "        <t t-out=\"user.signature or ''\">--<br>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "t>,<br/><br/>\n"
 "    Thank you for contacting us. We appreciate your interest in our products/"
 "services.<br/>\n"
@@ -2290,6 +2406,9 @@ msgid ""
 "        <br/>\n"
 "        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-"
 "o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "    </t>\n"
 "</div>\n"
@@ -2376,7 +2495,11 @@ msgid "<i class=\"oi oi-arrow-right me-1\"/>Back to edit mode"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"oi oi-arrow-right me-1\"/>Nazad na uređivački mod"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"oi oi-arrow-right me-1\"/>Nazad na uređivački mod"
 >>>>>>> upstream/18.0
@@ -2557,6 +2680,7 @@ msgstr ""
 
 #. module: project
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
 msgid "<span class=\"o_stat_text order-2\">Closed</span>"
 msgstr ""
@@ -2569,6 +2693,10 @@ msgstr ""
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_form
 msgid "<span class=\"o_stat_text\">Blocking Tasks</span>"
+=======
+#: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_form
+msgid "<span class=\"o_stat_text\">Blocked Tasks</span>"
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_form
 msgid "<span class=\"o_stat_text\">Blocked Tasks</span>"
@@ -2588,7 +2716,10 @@ msgstr ""
 
 #. module: project
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
 msgid "<span class=\"o_stat_text\">Sub-tasks</span>"
 msgstr ""
@@ -2599,6 +2730,9 @@ msgid "<span class=\"o_stat_text\">Tasks</span>"
 msgstr ""
 
 #. module: project
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:project.edit_project
 msgid ""
@@ -2805,7 +2939,11 @@ msgid "Activity Plans"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Planovi aktivnosti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Planovi aktivnosti"
 >>>>>>> upstream/18.0
@@ -2959,7 +3097,10 @@ msgstr "Vrste aktivnosti"
 #. module: project
 #: model_terms:ir.actions.act_window,help:project.mail_activity_plan_action_config_project_task_plan
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.actions.act_window,help:project.mail_activity_plan_action_config_task_plan
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid ""
@@ -2995,6 +3136,10 @@ msgstr ""
 
 #. module: project
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_form
 >>>>>>> upstream/18.0
@@ -3009,7 +3154,10 @@ msgstr "Dodajte dopunski sadržaj za prikazivanje u email-u"
 
 #. module: project
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_3
 msgid ""
 "Add project-specific property fields on tasks to customize your project "
@@ -3017,6 +3165,9 @@ msgid ""
 msgstr ""
 
 #. module: project
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/project/static/src/js/tours/project.js:0
@@ -3090,7 +3241,11 @@ msgid "Alias Domain"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alias domen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alias domen"
 >>>>>>> upstream/18.0
@@ -3267,7 +3422,11 @@ msgid "Alias Domain Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naziv alias domena"
+>>>>>>> upstream/18.0
 =======
 msgstr "Naziv alias domena"
 >>>>>>> upstream/18.0
@@ -3444,7 +3603,11 @@ msgid "Alias Email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alias Email"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alias Email"
 >>>>>>> upstream/18.0
@@ -3626,7 +3789,11 @@ msgid "Alias Status"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Status aliasa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Status aliasa"
 >>>>>>> upstream/18.0
@@ -3803,7 +3970,11 @@ msgid "Alias status assessed on the last message received."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Status aliasa procenjen na osnovu poslednje primljene poruke."
+>>>>>>> upstream/18.0
 =======
 msgstr "Status aliasa procenjen na osnovu poslednje primljene poruke."
 >>>>>>> upstream/18.0
@@ -3970,10 +4141,13 @@ msgstr ""
 
 #. module: project
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model,name:project.model_account_analytic_account
 #: model:ir.model.fields,field_description:project.field_project_project__analytic_account_id
 #: model:ir.model.fields,field_description:project.field_project_task__analytic_account_id
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:project.edit_project
 msgid "Analytic"
 msgstr "Analitika"
@@ -3981,11 +4155,15 @@ msgstr "Analitika"
 #. module: project
 #: model:ir.model,name:project.model_account_analytic_account
 #: model:ir.model.fields,field_description:project.field_project_project__auto_account_id
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "Analytic Account"
 msgstr "Račun analitike"
 
 #. module: project
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.model.fields,field_description:project.field_res_config_settings__analytic_plan_id
 msgid "Analytic Plan"
@@ -4018,6 +4196,8 @@ msgstr ""
 #. module: project
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:project.edit_project
 #: model_terms:ir.ui.view,arch_db:project.res_config_settings_view_form
 msgid "Analytics"
@@ -4039,6 +4219,7 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,help:project.field_project_share_wizard__share_link
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Anyone with this link can access the project in read-only mode."
 msgstr ""
 
@@ -4046,10 +4227,15 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/project/static/src/components/project_task_state_selection/project_task_state_selection.js:0
 =======
+=======
+>>>>>>> upstream/18.0
 msgid "Anyone with this link can access the project in read mode."
 msgstr ""
 
 #. module: project
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:project.selection__project_task__state__03_approved
 #: model:ir.model.fields.selection,name:project.selection__project_task_burndown_chart_report__state__03_approved
@@ -4098,7 +4284,11 @@ msgid "Approved"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odobreno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odobreno"
 >>>>>>> upstream/18.0
@@ -4275,7 +4465,11 @@ msgid "Architecture"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Arhitektura"
+>>>>>>> upstream/18.0
 =======
 msgstr "Arhitektura"
 >>>>>>> upstream/18.0
@@ -4498,8 +4692,11 @@ msgstr ""
 
 #. module: project
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/project/controllers/portal.py:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:project.field_project_task__user_ids
@@ -4510,7 +4707,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_form
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_tree
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form_base
+=======
+#: model_terms:ir.ui.view,arch_db:project.view_task_search_form_project_fsm_base
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form_project_fsm_base
 >>>>>>> upstream/18.0
@@ -4602,6 +4803,7 @@ msgid "Attachments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Prilozi"
@@ -4730,12 +4932,17 @@ msgstr "Prilozi"
 msgstr "Prilozi"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Prilozi"
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task__attachment_ids
 msgid "Attachments that don't come from a message"
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -4759,15 +4966,21 @@ msgid ""
 "Automatically modify the state when the customer replies to the feedback for "
 "this stage.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 " * Good feedback from the customer will update the state to "
 "'Approved' (green bullet).\n"
 " * Neutral or bad feedback will set the kanban state to 'Changes "
 "Requested' (orange bullet).\n"
 =======
+=======
+>>>>>>> upstream/18.0
 " * Good feedback from the customer will update the state to 'Approved' "
 "(green bullet).\n"
 " * Neutral or bad feedback will set the kanban state to 'Changes Requested' "
 "(orange bullet).\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -4856,6 +5069,7 @@ msgstr ""
 
 #. module: project
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.actions.act_window,name:project.project_sharing_project_task_action_blocking_tasks
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form_base
 msgid "Blocking"
@@ -4865,6 +5079,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
 msgid "Blocking Tasks"
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
 msgid "Blocked Tasks"
 msgstr ""
@@ -4873,6 +5089,9 @@ msgstr ""
 #: model:ir.actions.act_window,name:project.project_sharing_project_task_action_blocking_tasks
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form_base
 msgid "Blocking"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -4900,10 +5119,15 @@ msgstr ""
 
 #. module: project
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #. odoo-python
 #: code:addons/project/models/project_task.py:0
 #: code:addons/project/static/src/components/project_task_state_selection/project_task_state_selection.js:0
+=======
+#. odoo-python
+#: code:addons/project/models/project_task.py:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-python
 #: code:addons/project/models/project_task.py:0
@@ -4959,6 +5183,7 @@ msgid "Cancelled"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Otkazano"
@@ -5095,6 +5320,11 @@ msgstr "Otkazano"
 
 #. module: project
 >>>>>>> upstream/18.0
+=======
+msgstr "Otkazano"
+
+#. module: project
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:project.selection__project_task__state__02_changes_requested
 #: model:ir.model.fields.selection,name:project.selection__project_task_burndown_chart_report__state__02_changes_requested
 #: model:ir.model.fields.selection,name:project.selection__report_project_task_user__state__02_changes_requested
@@ -5138,12 +5368,18 @@ msgstr ""
 
 #. module: project
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:project.field_project_task__closed_depend_on_count
 msgid "Closed Depending on Tasks"
 msgstr ""
 
 #. module: project
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form_base
 msgid "Closed On"
@@ -5262,8 +5498,12 @@ msgstr ""
 
 #. module: project
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/project/static/src/js/tours/project.js:0
+=======
+#: model_terms:web_tour.tour,rainbow_man_message:project.project_tour
+>>>>>>> upstream/18.0
 =======
 #: model_terms:web_tour.tour,rainbow_man_message:project.project_tour
 >>>>>>> upstream/18.0
@@ -5357,7 +5597,11 @@ msgid "Cover Image"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naslovna slika"
+>>>>>>> upstream/18.0
 =======
 msgstr "Naslovna slika"
 >>>>>>> upstream/18.0
@@ -5508,7 +5752,10 @@ msgstr ""
 #. module: project
 #: model_terms:ir.actions.act_window,help:project.mail_activity_plan_action_config_project_task_plan
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.actions.act_window,help:project.mail_activity_plan_action_config_task_plan
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "Create a Task Activity Plan"
@@ -5741,6 +5988,7 @@ msgid "Daily"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Dnevno"
@@ -5869,6 +6117,8 @@ msgstr "Dnevno"
 msgstr "Dnevno"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Dnevno"
 
 #. module: project
@@ -5877,6 +6127,9 @@ msgstr "Dnevno"
 #: model_terms:ir.ui.view,arch_db:project.project_view_kanban_inherit_project
 msgid "Dashboard"
 msgstr "Kontrolna tabla"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -5932,6 +6185,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:project.field_project_task_burndown_chart_report__date_deadline
 #: model:ir.model.fields,field_description:project.field_report_project_task_user__date_deadline
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_search
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_search
 >>>>>>> upstream/18.0
@@ -6078,7 +6335,11 @@ msgstr ""
 #. module: project
 #. odoo-javascript
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/project/static/src/components/project_chatter/project_follower_list.js:0
+=======
+#: code:addons/project/static/src/core/web/follower_list_patch.js:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/project/static/src/core/web/follower_list_patch.js:0
 >>>>>>> upstream/18.0
@@ -6117,12 +6378,18 @@ msgstr "Naziv za prikaz"
 
 #. module: project
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
 msgid "Display the sub-task in your pipeline"
 msgstr ""
 
 #. module: project
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/project/models/digest_digest.py:0
@@ -6134,7 +6401,10 @@ msgstr "Nema pristup, preskočite ove podatke za korisnički email pregled"
 #. odoo-python
 #: code:addons/project/models/project_task.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/project/static/src/components/project_task_state_selection/project_task_state_selection.js:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: code:addons/project/static/src/views/project_task_kanban/project_task_kanban_examples.js:0
@@ -6158,13 +6428,19 @@ msgstr "Priprema"
 
 #. module: project
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:project.view_project_kanban
 #: model_terms:ir.ui.view,arch_db:project.view_task_kanban
 msgid "Duplicate"
 msgstr "Dupliraj"
 
 #. module: project
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/project/models/project_task_type.py:0
@@ -6249,7 +6525,11 @@ msgid "Email Alias"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Email Alias"
+>>>>>>> upstream/18.0
 =======
 msgstr "Email Alias"
 >>>>>>> upstream/18.0
@@ -6445,7 +6725,11 @@ msgid "Email domain e.g. 'example.com' in 'odoo@example.com'"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Email domen npr. 'example.com' u 'odoo@example.com'"
+>>>>>>> upstream/18.0
 =======
 msgstr "Email domen npr. 'example.com' u 'odoo@example.com'"
 >>>>>>> upstream/18.0
@@ -6669,6 +6953,7 @@ msgstr "Savijeno u Kanban-u"
 #. module: project
 #. odoo-javascript
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/project/static/src/project_sharing/components/chatter/chatter_container.xml:0
 msgid "Follow"
 <<<<<<< HEAD
@@ -6841,10 +7126,15 @@ msgstr "Prati"
 msgstr "Prati"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/project/static/src/project_sharing/chatter/portal_chatter_patch.xml:0
 #: code:addons/project/static/src/project_sharing/components/chatter/chatter_container.xml:0
 msgid "Follow"
 msgstr "Prati"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -6903,6 +7193,7 @@ msgstr ""
 
 #. module: project
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form_project_base
 msgid "Future"
 <<<<<<< HEAD
@@ -7075,10 +7366,15 @@ msgstr "Buduće"
 msgstr "Buduće"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_search
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form_project_base
 msgid "Future"
 msgstr "Buduće"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -7151,7 +7447,11 @@ msgid "Grant Portal Access"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odobri pristup Portalu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odobri pristup Portalu"
 >>>>>>> upstream/18.0
@@ -7341,7 +7641,10 @@ msgstr ""
 
 #. module: project
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/project/static/src/components/notebook_task_one2many_field/notebook_task_list_renderer.js:0
 msgid "Hide closed tasks"
@@ -7353,6 +7656,9 @@ msgid "Hide the sub-task in your pipeline"
 msgstr ""
 
 #. module: project
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:project.selection__project_task__priority__1
 #: model:ir.model.fields.selection,name:project.selection__report_project_task_user__priority__1
@@ -7420,7 +7726,11 @@ msgid "Home"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Početak"
+>>>>>>> upstream/18.0
 =======
 msgstr "Početak"
 >>>>>>> upstream/18.0
@@ -7684,7 +7994,10 @@ msgstr ""
 #. module: project
 #. odoo-javascript
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/project/static/src/components/project_task_state_selection/project_task_state_selection.js:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: code:addons/project/static/src/components/project_task_state_selection/project_task_state_selection.xml:0
@@ -7841,7 +8154,11 @@ msgid "JSON that maps ids from a many2one field to seconds spent"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "JSON koji mapira id-eve iz polja tipa many2one u potrošene sekunde"
+>>>>>>> upstream/18.0
 =======
 msgstr "JSON koji mapira id-eve iz polja tipa many2one u potrošene sekunde"
 >>>>>>> upstream/18.0
@@ -8039,7 +8356,11 @@ msgid "Last 30 Days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poslednjih 30 dana"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poslednjih 30 dana"
 >>>>>>> upstream/18.0
@@ -8217,7 +8538,11 @@ msgid "Last 365 Days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poslednjih 365 dana"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poslednjih 365 dana"
 >>>>>>> upstream/18.0
@@ -8394,7 +8719,11 @@ msgid "Last 7 Days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poslednjih 7 dana"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poslednjih 7 dana"
 >>>>>>> upstream/18.0
@@ -8705,7 +9034,11 @@ msgid "Local-part based incoming detection"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dolazna detekcija zasnovana na lokalnim delovima"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dolazna detekcija zasnovana na lokalnim delovima"
 >>>>>>> upstream/18.0
@@ -8871,6 +9204,7 @@ msgstr "Proizvodnja"
 
 #. module: project
 #. odoo-javascript
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: code:addons/project/static/src/components/project_right_side_panel/components/project_profitability.xml:0
 msgid "Margin"
@@ -9054,6 +9388,11 @@ msgstr "Označi kao završeno"
 msgid "Mark as done"
 msgstr "Označi kao završeno"
 >>>>>>> upstream/18.0
+=======
+#: code:addons/project/static/src/components/project_task_state_selection/project_task_state_selection.xml:0
+msgid "Mark as done"
+msgstr "Označi kao završeno"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-javascript
@@ -9132,7 +9471,11 @@ msgid "Meeting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sastanak"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sastanak"
 >>>>>>> upstream/18.0
@@ -9378,7 +9721,11 @@ msgid "My Deadline"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Moj rok"
+>>>>>>> upstream/18.0
 =======
 msgstr "Moj rok"
 >>>>>>> upstream/18.0
@@ -9729,7 +10076,11 @@ msgid "No activity types found. Let's create one!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nije pronađen nijedan tip aktivnosti. Hajde da napravimo jedan!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nije pronađen nijedan tip aktivnosti. Hajde da napravimo jedan!"
 >>>>>>> upstream/18.0
@@ -9993,7 +10344,11 @@ msgid "Number of messages requiring action"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj poruka koje zahtevaju akciju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Broj poruka koje zahtevaju akciju"
 >>>>>>> upstream/18.0
@@ -10185,7 +10540,11 @@ msgid "Office"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kancelarija"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kancelarija"
 >>>>>>> upstream/18.0
@@ -10349,13 +10708,19 @@ msgstr ""
 
 #. module: project
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/project/controllers/portal.py:0
 msgid "Only jpeg, png, bmp and tiff images are allowed as attachments."
 msgstr ""
 
 #. module: project
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/project/static/src/project_sharing/components/chatter/chatter_composer.xml:0
@@ -10429,7 +10794,11 @@ msgid "Operation not supported"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Operacija nije podržana"
+>>>>>>> upstream/18.0
 =======
 msgstr "Operacija nije podržana"
 >>>>>>> upstream/18.0
@@ -10595,6 +10964,7 @@ msgstr ""
 
 #. module: project
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form_project_base
 msgid "Overdue"
 <<<<<<< HEAD
@@ -10767,10 +11137,15 @@ msgstr "Van valute"
 msgstr "Van valute"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_search
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form_project_base
 msgid "Overdue"
 msgstr "Van valute"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -11005,11 +11380,16 @@ msgstr "Napredak"
 
 #. module: project
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #. odoo-python
 #: code:addons/project/controllers/portal.py:0
 #: code:addons/project/static/src/views/project_rating_graph/project_rating_graph_view.js:0
 #: code:addons/project/static/src/views/project_rating_pivot/project_rating_pivot_view.js:0
+=======
+#. odoo-python
+#: code:addons/project/controllers/portal.py:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-python
 #: code:addons/project/controllers/portal.py:0
@@ -11038,10 +11418,13 @@ msgstr "Projekat"
 
 #. module: project
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:project.field_project_project__user_id
 #: model_terms:ir.ui.view,arch_db:project.edit_project
 #: model_terms:ir.ui.view,arch_db:project.project_view_kanban
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:project.field_project_project__account_id
 msgid "Project Account"
 msgstr "Projektni račun"
@@ -11049,6 +11432,9 @@ msgstr "Projektni račun"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__user_id
 #: model_terms:ir.ui.view,arch_db:project.edit_project
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:project.view_project
 #: model_terms:ir.ui.view,arch_db:project.view_project_project_filter
@@ -11142,6 +11528,7 @@ msgstr ""
 
 #. module: project
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.actions.act_window,name:project.project_update_all_action
 #: model:ir.embedded.actions,name:project.project_embedded_action_project_updates
 #: model_terms:ir.ui.view,arch_db:project.project_view_kanban_inherit_project
@@ -11149,6 +11536,8 @@ msgid "Project Updates"
 msgstr ""
 
 #. module: project
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:project.field_project_task__project_privacy_visibility
@@ -11297,7 +11686,11 @@ msgid "Published on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Objavljeno dana"
+>>>>>>> upstream/18.0
 =======
 msgstr "Objavljeno dana"
 >>>>>>> upstream/18.0
@@ -11480,7 +11873,11 @@ msgid "Quarterly"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kvartalno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kvartalno"
 >>>>>>> upstream/18.0
@@ -11627,9 +12024,12 @@ msgstr "Ocene"
 
 #. module: project
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/project/static/src/views/project_rating_graph/project_rating_graph_view.js:0
 #: code:addons/project/static/src/views/project_rating_pivot/project_rating_pivot_view.js:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:project.view_project_task_graph
@@ -11638,13 +12038,19 @@ msgstr ""
 
 #. module: project
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:project.rating_rating_view_graph
 #: model_terms:ir.ui.view,arch_db:project.rating_rating_view_pivot
 msgid "Rating (1-5)"
 msgstr ""
 
 #. module: project
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:project.field_project_task__rating_avg_text
 msgid "Rating Avg Text"
@@ -11709,7 +12115,11 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_share_collaborator_wizard__access_mode__read
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Read-only"
+=======
+msgid "Read"
+>>>>>>> upstream/18.0
 =======
 msgid "Read"
 >>>>>>> upstream/18.0
@@ -11718,7 +12128,11 @@ msgstr ""
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_share_wizard_view_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Read-only: collaborators can view tasks but cannot edit them."
+=======
+msgid "Read: collaborators can view tasks but cannot edit them."
+>>>>>>> upstream/18.0
 =======
 msgid "Read: collaborators can view tasks but cannot edit them."
 >>>>>>> upstream/18.0
@@ -11728,7 +12142,11 @@ msgstr ""
 #: model:ir.model.fields,help:project.field_project_share_collaborator_wizard__access_mode
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Read-only: collaborators can view tasks but cannot edit them.\n"
+=======
+"Read: collaborators can view tasks but cannot edit them.\n"
+>>>>>>> upstream/18.0
 =======
 "Read: collaborators can view tasks but cannot edit them.\n"
 >>>>>>> upstream/18.0
@@ -11805,7 +12223,11 @@ msgstr "Model povezanog dokumenta"
 #. module: project
 #. odoo-javascript
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/project/static/src/components/project_chatter/project_follower_list.js:0
+=======
+#: code:addons/project/static/src/core/web/follower_list_patch.js:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/project/static/src/core/web/follower_list_patch.js:0
 >>>>>>> upstream/18.0
@@ -11893,7 +12315,11 @@ msgid "Research & Development"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Istraživanje & Razvoj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Istraživanje & Razvoj"
 >>>>>>> upstream/18.0
@@ -12096,7 +12522,11 @@ msgid "Restore"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obnovi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obnovi"
 >>>>>>> upstream/18.0
@@ -12264,7 +12694,10 @@ msgstr "Tužno lice"
 #. module: project
 #. odoo-javascript
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/project/static/src/project_sharing/views/form/project_sharing_form_controller.js:0
 msgid "Save the task to be able to drag images in description"
 msgstr ""
@@ -12277,6 +12710,9 @@ msgstr ""
 
 #. module: project
 #. odoo-javascript
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/project/static/src/js/tours/project.js:0
 msgid "Schedule your activity once it is ready."
@@ -12355,13 +12791,19 @@ msgstr "Sigurnosni token"
 #. module: project
 #. odoo-javascript
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/project/static/src/js/tours/project.js:0
 msgid "Select an assignee from the menu"
 msgstr ""
 
 #. module: project
 #. odoo-javascript
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/project/static/src/project_sharing/components/chatter/chatter_composer.xml:0
 msgid "Send"
@@ -12438,6 +12880,10 @@ msgstr "Podešavanje"
 #. odoo-python
 #: code:addons/project/models/project_project.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.actions.act_window,name:project.project_share_wizard_action
+>>>>>>> upstream/18.0
 =======
 #: model:ir.actions.act_window,name:project.project_share_wizard_action
 >>>>>>> upstream/18.0
@@ -12455,8 +12901,13 @@ msgstr ""
 
 #. module: project
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.actions.act_window,name:project.project_share_wizard_action
 msgid "Share a Project"
+=======
+#: model:ir.model.fields,field_description:project.field_project_task__show_display_in_project
+msgid "Show Display In Project"
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:project.field_project_task__show_display_in_project
 msgid "Show Display In Project"
@@ -12472,13 +12923,19 @@ msgstr ""
 
 #. module: project
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/project/static/src/components/notebook_task_one2many_field/notebook_task_list_renderer.js:0
 msgid "Show closed tasks"
 msgstr ""
 
 #. module: project
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:project.project_update_default_description
 msgid "Since"
@@ -12530,7 +12987,11 @@ msgid "Social"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Društvene mreže"
+>>>>>>> upstream/18.0
 =======
 msgstr "Društvene mreže"
 >>>>>>> upstream/18.0
@@ -12682,13 +13143,19 @@ msgstr ""
 
 #. module: project
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/project/models/project_task.py:0
 msgid "Sorry. You can't set a task as its parent task."
 msgstr ""
 
 #. module: project
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/project/static/src/xml/project_task_kanban_examples.xml:0
@@ -12821,6 +13288,7 @@ msgid "State"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Stanje"
@@ -12953,6 +13421,8 @@ msgstr "Stanje"
 #. odoo-python
 #: code:addons/project/controllers/portal.py:0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Stanje"
 
 #. module: project
@@ -12966,6 +13436,9 @@ msgstr ""
 #. odoo-python
 #: code:addons/project/controllers/portal.py:0
 #: code:addons/project/static/src/components/project_status_with_color_selection/project_status_with_color_selection_field.xml:0
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:project.view_project
 #: model_terms:ir.ui.view,arch_db:project.view_project_calendar
@@ -12977,7 +13450,11 @@ msgstr "Status"
 #. odoo-python
 #: code:addons/project/models/project_project.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Status Update - "
+=======
+msgid "Status Update - %(date)s"
+>>>>>>> upstream/18.0
 =======
 msgid "Status Update - %(date)s"
 >>>>>>> upstream/18.0
@@ -13045,7 +13522,11 @@ msgid "Status time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vreme statusa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vreme statusa"
 >>>>>>> upstream/18.0
@@ -13226,9 +13707,12 @@ msgstr "Oznake"
 
 #. module: project
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/project/static/src/views/project_rating_graph/project_rating_graph_view.js:0
 #: code:addons/project/static/src/views/project_rating_pivot/project_rating_pivot_view.js:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model,name:project.model_project_task
@@ -13303,11 +13787,14 @@ msgstr ""
 
 #. module: project
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.actions.act_window,name:project.mail_activity_plan_action_config_task_plan
 msgid "Task Plans"
 msgstr ""
 
 #. module: project
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:project.field_project_project__task_properties_definition
@@ -13360,7 +13847,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/project/models/project_task.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Task Transferred from Project %s"
+=======
+msgid ""
+"Task Transferred from Project %(source_project)s to %(destination_project)s"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "Task Transferred from Project %(source_project)s to %(destination_project)s"
@@ -13406,6 +13898,10 @@ msgstr ""
 #: model:ir.actions.act_window,name:project.action_view_task
 #: model:ir.actions.act_window,name:project.action_view_task_from_milestone
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.embedded.actions,name:project.project_embedded_action_all_tasks_dashboard
+>>>>>>> upstream/18.0
 =======
 #: model:ir.embedded.actions,name:project.project_embedded_action_all_tasks_dashboard
 >>>>>>> upstream/18.0
@@ -13417,7 +13913,10 @@ msgstr ""
 #: model:project.project,label_tasks:project.project_project_3
 #: model:project.project,label_tasks:project.project_project_4
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:project.edit_project
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:project.portal_layout
@@ -13511,7 +14010,11 @@ msgid "Tests"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Testovi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Testovi"
 >>>>>>> upstream/18.0
@@ -13661,13 +14164,19 @@ msgstr ""
 #. module: project
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/project/controllers/portal.py:0
 msgid "The document does not exist or you do not have the rights to access it."
 msgstr "Dokument ne postoji ili vi nemate prava da mu pristupite."
 
 #. module: project
 #. odoo-python
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/project/models/project_task_recurrence.py:0
 msgid "The end date should be in the future"
@@ -13785,7 +14294,11 @@ msgid "The search does not support operator %(operator)s or value %(value)s."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pretraga ne podržava operatora %(operator)s ili vrednost %(value)s."
+>>>>>>> upstream/18.0
 =======
 msgstr "Pretraga ne podržava operatora %(operator)s ili vrednost %(value)s."
 >>>>>>> upstream/18.0
@@ -13928,8 +14441,13 @@ msgstr ""
 msgid ""
 "The task cannot be shared with the recipient(s) because the privacy of the "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "project is too restricted. Set the privacy of the project to "
 "'%(visibility)s' in order to make it accessible by the recipient(s)."
+=======
+"project is too restricted. Set the privacy of the project to '%"
+"(visibility)s' in order to make it accessible by the recipient(s)."
+>>>>>>> upstream/18.0
 =======
 "project is too restricted. Set the privacy of the project to '%"
 "(visibility)s' in order to make it accessible by the recipient(s)."
@@ -13982,9 +14500,15 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project.project_share_wizard_confirm_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "They can edit shared project tasks and view specific documents in read-only "
 "mode on your website. This includes leads/opportunities, quotations/sales "
 "orders, purchase orders, invoices and bills, timesheets, and tickets."
+=======
+"They can edit shared project tasks and view specific documents in read mode "
+"on your website. This includes leads/opportunities, quotations/sales orders, "
+"purchase orders, invoices and bills, timesheets, and tickets."
+>>>>>>> upstream/18.0
 =======
 "They can edit shared project tasks and view specific documents in read mode "
 "on your website. This includes leads/opportunities, quotations/sales orders, "
@@ -14041,7 +14565,11 @@ msgid "This Month"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ovog meseca"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ovog meseca"
 >>>>>>> upstream/18.0
@@ -14178,6 +14706,10 @@ msgstr "Ovog meseca"
 #: model:project.task.type,name:project.project_personal_stage_admin_2
 #: model:project.task.type,name:project.project_personal_stage_demo_2
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_search
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_search
 >>>>>>> upstream/18.0
@@ -14201,7 +14733,11 @@ msgstr ""
 #. module: project
 #. odoo-javascript
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/project/static/src/components/project_chatter/project_follower_list.js:0
+=======
+#: code:addons/project/static/src/core/web/follower_list_patch.js:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/project/static/src/core/web/follower_list_patch.js:0
 >>>>>>> upstream/18.0
@@ -14249,13 +14785,19 @@ msgstr ""
 
 #. module: project
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/project/models/project_task.py:0
 msgid "This task has sub-tasks, so it can't be private."
 msgstr ""
 
 #. module: project
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/project/static/src/components/project_task_state_selection/project_task_state_selection.xml:0
@@ -14324,6 +14866,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"To predstavlja različite kategorije stvari koje morate da uradite (npr. "
+"„Pozovi“ ili „Pošalji email“)."
+>>>>>>> upstream/18.0
 =======
 "To predstavlja različite kategorije stvari koje morate da uradite (npr. "
 "„Pozovi“ ili „Pošalji email“)."
@@ -14511,13 +15058,19 @@ msgstr ""
 
 #. module: project
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:digest.tip,name:project.digest_tip_project_3
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_3
 msgid "Tip: Project-Specific Fields"
 msgstr ""
 
 #. module: project
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:digest.tip,name:project.digest_tip_project_0
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_0
@@ -14526,13 +15079,19 @@ msgstr ""
 
 #. module: project
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:digest.tip,name:project.digest_tip_project_2
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_2
 msgid "Tip: Your Own Personal Kanban"
 msgstr ""
 
 #. module: project
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/project/controllers/portal.py:0
@@ -14587,6 +15146,10 @@ msgstr ""
 #: model:project.task.type,name:project.project_personal_stage_admin_1
 #: model:project.task.type,name:project.project_personal_stage_demo_1
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_search
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_search
 >>>>>>> upstream/18.0
@@ -14608,7 +15171,10 @@ msgstr "Ukupno"
 
 #. module: project
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/project/static/src/components/project_right_side_panel/components/project_profitability.xml:0
 msgid "Total Costs"
@@ -14621,6 +15187,9 @@ msgid "Total Revenues"
 msgstr ""
 
 #. module: project
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:project.res_config_settings_view_form
 msgid "Track customer satisfaction on tasks"
@@ -14649,6 +15218,7 @@ msgstr ""
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.res_config_settings_view_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Track the profitability of your project with analytic accounting. Select the "
 "analytic plan for new projects:"
@@ -14664,6 +15234,8 @@ msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.res_config_settings_view_form
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "Track the progress of your projects"
@@ -14723,6 +15295,10 @@ msgstr "Nedodeljeno"
 #. module: project
 #. odoo-javascript
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/project/static/src/project_sharing/chatter/portal_chatter_patch.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/project/static/src/project_sharing/chatter/portal_chatter_patch.xml:0
 >>>>>>> upstream/18.0
@@ -14799,13 +15375,19 @@ msgstr ""
 
 #. module: project
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_2
 msgid ""
 "Use personal stages to organize your tasks and create your own workflow."
 msgstr ""
 
 #. module: project
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.actions.act_window,help:project.project_tags_action
 msgid "Use tags to categorize your tasks."
@@ -14923,7 +15505,11 @@ msgid "Waiting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Na Cekanju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Na Cekanju"
 >>>>>>> upstream/18.0
@@ -15128,7 +15714,11 @@ msgid "Weekly"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sedmično"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sedmično"
 >>>>>>> upstream/18.0
@@ -15311,7 +15901,11 @@ msgid "Work"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Posao"
+>>>>>>> upstream/18.0
 =======
 msgstr "Posao"
 >>>>>>> upstream/18.0
@@ -15609,7 +16203,11 @@ msgid "Write a message..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Napiši poruku..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Napiši poruku..."
 >>>>>>> upstream/18.0
@@ -16008,7 +16606,11 @@ msgid "Yearly"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Godišnje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Godišnje"
 >>>>>>> upstream/18.0
@@ -16151,8 +16753,13 @@ msgstr "Godine"
 msgid ""
 "You are not able to switch the company of this stage to %(company_name)s "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "since it currently includes projects associated with "
 "%(project_company_name)s. Please ensure that this stage exclusively consists "
+=======
+"since it currently includes projects associated with %"
+"(project_company_name)s. Please ensure that this stage exclusively consists "
+>>>>>>> upstream/18.0
 =======
 "since it currently includes projects associated with %"
 "(project_company_name)s. Please ensure that this stage exclusively consists "
@@ -16216,12 +16823,15 @@ msgstr ""
 #. odoo-python
 #: code:addons/project/models/project_task.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "You cannot set a task as its parent task."
 msgstr ""
 
 #. module: project
 #. odoo-python
 #: code:addons/project/models/project_task.py:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "You cannot write on the following fields on tasks: %(field_list)s"
@@ -16404,7 +17014,11 @@ msgid "e.g. mycompany.com"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. mojafirma.com"
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. mojafirma.com"
 >>>>>>> upstream/18.0
@@ -16620,12 +17234,15 @@ msgstr ""
 #. module: project
 #. odoo-javascript
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/project/static/src/project_sharing/components/chatter/chatter_composer.xml:0
 msgid "state.message"
 msgstr ""
 
 #. module: project
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: code:addons/project/static/src/components/project_task_name_with_subtask_count_char_field/project_task_name_with_subtask_count_char_field.xml:0
@@ -16701,6 +17318,12 @@ msgid "🔒 Private"
 msgstr ""
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#~ msgid "Margin"
+#~ msgstr "Marža"
+
+>>>>>>> upstream/18.0
 =======
 #~ msgid "Margin"
 #~ msgstr "Marža"

@@ -79,8 +79,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* stock_delivery
 # 
+=======
+# * stock_delivery
+#
+>>>>>>> upstream/18.0
 =======
 # * stock_delivery
 #
@@ -487,7 +492,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# Gustas Putvinskas <gustas@vialaurea.com>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Gustas Putvinskas <gustas@vialaurea.com>, 2025.
 >>>>>>> upstream/18.0
@@ -729,6 +738,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 <<<<<<< HEAD
@@ -975,6 +985,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-10-17 13:20+0000\n"
 "Last-Translator: Gustas Putvinskas <gustas@vialaurea.com>\n"
 "Language-Team: Lithuanian <https://translate.odoo.com/projects/odoo-18/"
@@ -984,6 +997,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < "
+<<<<<<< HEAD
 <<<<<<< HEAD
 "11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 :"
 " n % 1 != 0 ? 2: 3);\n"
@@ -1225,6 +1239,11 @@ msgstr ""
 "1 : n % 1 != 0 ? 2: 3);\n"
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
+=======
+"11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? "
+"1 : n % 1 != 0 ? 2: 3);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: stock_delivery
 #. odoo-python
@@ -1310,8 +1329,12 @@ msgstr "Atšaukti"
 #: model_terms:ir.ui.view,arch_db:stock_delivery.view_picking_withcarrier_out_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Cancelling a delivery may not be undoable. Are you sure you want to "
 "continue?"
+=======
+"Cancelling a delivery may not be undoable. Are you sure you want to continue?"
+>>>>>>> upstream/18.0
 =======
 "Cancelling a delivery may not be undoable. Are you sure you want to continue?"
 >>>>>>> upstream/18.0
@@ -1406,13 +1429,19 @@ msgstr "Rodyti sekimo nuorodas"
 #: model:ir.model.fields,help:stock_delivery.field_delivery_carrier__invoice_policy
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Estimated Cost: the customer will be invoiced the estimated cost of the shipping.\n"
 "Real Cost: the customer will be invoiced the real cost of the shipping, the cost of theshipping will be updated on the SO after the delivery."
 =======
+=======
+>>>>>>> upstream/18.0
 "Estimated Cost: the customer will be invoiced the estimated cost of the "
 "shipping.\n"
 "Real Cost: the customer will be invoiced the real cost of the shipping, the "
 "cost of theshipping will be updated on the SO after the delivery."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -1570,7 +1599,11 @@ msgid "Origin of Goods"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produkto kilmė"
+>>>>>>> upstream/18.0
 =======
 msgstr "Produkto kilmė"
 >>>>>>> upstream/18.0
@@ -1883,13 +1916,19 @@ msgstr "Maršrutai"
 #: model:ir.model.fields,help:stock_delivery.field_product_template__country_of_origin
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Rules of origin determine where goods originate, i.e. not where they have been shipped from, but where they have been produced or manufactured.\n"
 "As such, the ‘origin’ is the 'economic nationality' of goods traded in commerce."
 =======
+=======
+>>>>>>> upstream/18.0
 "Rules of origin determine where goods originate, i.e. not where they have "
 "been shipped from, but where they have been produced or manufactured.\n"
 "As such, the ‘origin’ is the 'economic nationality' of goods traded in "
 "commerce."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -1923,8 +1962,13 @@ msgstr "Siųsti siuntėjui"
 #: code:addons/stock_delivery/models/stock_picking.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Shipment sent to carrier %(carrier_name)s for shipping with tracking number "
 "%(ref)s"
+=======
+"Shipment sent to carrier %(carrier_name)s for shipping with tracking number %"
+"(ref)s"
+>>>>>>> upstream/18.0
 =======
 "Shipment sent to carrier %(carrier_name)s for shipping with tracking number %"
 "(ref)s"
@@ -2100,8 +2144,13 @@ msgstr ""
 msgid ""
 "You cannot pack products into the same package when they have different "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "carriers (i.e. check that all of their transfers have a carrier assigned and"
 " are using the same carrier)."
+=======
+"carriers (i.e. check that all of their transfers have a carrier assigned and "
+"are using the same carrier)."
+>>>>>>> upstream/18.0
 =======
 "carriers (i.e. check that all of their transfers have a carrier assigned and "
 "are using the same carrier)."

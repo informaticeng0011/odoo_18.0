@@ -2,7 +2,11 @@
 # This file contains the translation of the following modules:
 # 	* stock_delivery
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -11,7 +15,11 @@
 # Tiffany Chang, 2025
 # Naser mars, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -19,6 +27,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
@@ -29,6 +38,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: fa\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Naser mars, 2025\n"
@@ -37,6 +48,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
@@ -126,11 +140,17 @@ msgstr "لغو"
 #: model_terms:ir.ui.view,arch_db:stock_delivery.view_picking_withcarrier_out_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Cancelling a delivery may not be undoable. Are you sure you want to "
 "continue?"
 msgstr ""
 "آیا مطمئنید که می‌خواهید ادامه دهید؟ لغو یک تحویل ممکن است قابل بازگشت "
 "نباشد."
+=======
+"Cancelling a delivery may not be undoable. Are you sure you want to continue?"
+msgstr ""
+"آیا مطمئنید که می‌خواهید ادامه دهید؟ لغو یک تحویل ممکن است قابل بازگشت نباشد."
+>>>>>>> upstream/18.0
 =======
 "Cancelling a delivery may not be undoable. Are you sure you want to continue?"
 msgstr ""
@@ -226,12 +246,15 @@ msgstr "نمایش لینک‌های پیگیری"
 #: model:ir.model.fields,help:stock_delivery.field_delivery_carrier__invoice_policy
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Estimated Cost: the customer will be invoiced the estimated cost of the shipping.\n"
 "Real Cost: the customer will be invoiced the real cost of the shipping, the cost of theshipping will be updated on the SO after the delivery."
 msgstr ""
 "قیمت تخمینی: هزینه تخمینی حمل و نقل به مشتری فاکتور خواهد شد.\n"
 "هزینه واقعی: هزینه واقعی حمل و نقل به مشتری فاکتور خواهد شد، هزینه حمل و نقل پس از تحویل در سفارش فروش (SO) به‌روزرسانی خواهد شد."
 =======
+=======
+>>>>>>> upstream/18.0
 "Estimated Cost: the customer will be invoiced the estimated cost of the "
 "shipping.\n"
 "Real Cost: the customer will be invoiced the real cost of the shipping, the "
@@ -240,6 +263,9 @@ msgstr ""
 "قیمت تخمینی: هزینه تخمینی حمل و نقل به مشتری فاکتور خواهد شد.\n"
 "هزینه واقعی: هزینه واقعی حمل و نقل به مشتری فاکتور خواهد شد، هزینه حمل و نقل "
 "پس از تحویل در سفارش فروش (SO) به‌روزرسانی خواهد شد."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock_delivery
@@ -393,12 +419,15 @@ msgstr "مسیرها"
 #: model:ir.model.fields,help:stock_delivery.field_product_template__country_of_origin
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Rules of origin determine where goods originate, i.e. not where they have been shipped from, but where they have been produced or manufactured.\n"
 "As such, the ‘origin’ is the 'economic nationality' of goods traded in commerce."
 msgstr ""
 "قواعد مبدا تعیین می‌کنند که کالاها از کجا منشأ می‌گیرند، یعنی نه اینکه از کجا ارسال شده‌اند، بلکه از کجا تولید یا ساخته شده‌اند.\n"
 "به این ترتیب، \"مبدا\" همان 'ملیت اقتصادی' کالاهای داد و ستد شده در بازرگانی است."
 =======
+=======
+>>>>>>> upstream/18.0
 "Rules of origin determine where goods originate, i.e. not where they have "
 "been shipped from, but where they have been produced or manufactured.\n"
 "As such, the ‘origin’ is the 'economic nationality' of goods traded in "
@@ -408,6 +437,9 @@ msgstr ""
 "ارسال شده‌اند، بلکه از کجا تولید یا ساخته شده‌اند.\n"
 "به این ترتیب، \"مبدا\" همان 'ملیت اقتصادی' کالاهای داد و ستد شده در بازرگانی "
 "است."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock_delivery
@@ -440,8 +472,13 @@ msgstr "ارسال به حمل کننده"
 #: code:addons/stock_delivery/models/stock_picking.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Shipment sent to carrier %(carrier_name)s for shipping with tracking number "
 "%(ref)s"
+=======
+"Shipment sent to carrier %(carrier_name)s for shipping with tracking number %"
+"(ref)s"
+>>>>>>> upstream/18.0
 =======
 "Shipment sent to carrier %(carrier_name)s for shipping with tracking number %"
 "(ref)s"
@@ -533,8 +570,13 @@ msgid ""
 "this package type. Please choose another package type."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "وزن بسته شما بیشتر از مقدار تعیین شده برای این نوع از بسته‌ها است. لطفاً نوع"
 " بسته دیگری را انتخاب کنید."
+=======
+"وزن بسته شما بیشتر از مقدار تعیین شده برای این نوع از بسته‌ها است. لطفاً نوع "
+"بسته دیگری را انتخاب کنید."
+>>>>>>> upstream/18.0
 =======
 "وزن بسته شما بیشتر از مقدار تعیین شده برای این نوع از بسته‌ها است. لطفاً نوع "
 "بسته دیگری را انتخاب کنید."
@@ -623,8 +665,13 @@ msgstr "وزن:"
 msgid ""
 "You cannot pack products into the same package when they have different "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "carriers (i.e. check that all of their transfers have a carrier assigned and"
 " are using the same carrier)."
+=======
+"carriers (i.e. check that all of their transfers have a carrier assigned and "
+"are using the same carrier)."
+>>>>>>> upstream/18.0
 =======
 "carriers (i.e. check that all of their transfers have a carrier assigned and "
 "are using the same carrier)."

@@ -2,22 +2,29 @@
 # This file contains the translation of the following modules:
 # 	* stock_picking_batch
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Abe Manyo, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Abe Manyo, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2025-03-19 20:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
@@ -28,6 +35,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: id\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Abe Manyo, 2025\n"
@@ -36,6 +45,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
 
@@ -106,17 +118,23 @@ msgstr "<strong>→</strong>"
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__batch_max_lines
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A transfer will not be automatically added to batches that will exceed this number of lines if the transfer is added to it.\n"
 "Leave this value as '0' if no line limit."
 msgstr ""
 "Transfer akan secara otomatis ditambahkan ke batch yang memenuhi jumlah baris ini bila transfer ditambahkan ke batch tersebut.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "A transfer will not be automatically added to batches that will exceed this "
 "number of lines if the transfer is added to it.\n"
 "Leave this value as '0' if no line limit."
 msgstr ""
 "Transfer akan secara otomatis ditambahkan ke batch yang memenuhi jumlah "
 "baris ini bila transfer ditambahkan ke batch tersebut.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Berikan nilai '0' ke value ini bila tidak ada batasan baris."
 
@@ -124,17 +142,23 @@ msgstr ""
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__batch_max_pickings
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A transfer will not be automatically added to batches that will exceed this number of transfers.\n"
 "Leave this value as '0' if no transfer limit."
 msgstr ""
 "Transfer akan secara otomatis ditambahkan ke batch yang akan memenuhi jumlah transfer ini.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "A transfer will not be automatically added to batches that will exceed this "
 "number of transfers.\n"
 "Leave this value as '0' if no transfer limit."
 msgstr ""
 "Transfer akan secara otomatis ditambahkan ke batch yang akan memenuhi jumlah "
 "transfer ini.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Berikan nilai ini '0' bila tidak ada batasan transfer."
 
@@ -760,11 +784,17 @@ msgstr "Tipe Picking"
 #. odoo-python
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Please add 'Done' quantities to the batch picking to create a new pack."
 msgstr ""
 "Mohon tambahkan kuantitas 'Selesai' ke batch picking untuk membuat pack "
 "baru."
+=======
+msgid "Please add 'Done' quantities to the batch picking to create a new pack."
+msgstr ""
+"Mohon tambahkan kuantitas 'Selesai' ke batch picking untuk membuat pack baru."
+>>>>>>> upstream/18.0
 =======
 msgid "Please add 'Done' quantities to the batch picking to create a new pack."
 msgstr ""
@@ -851,8 +881,12 @@ msgstr "Rating"
 #: model_terms:ir.actions.act_window,help:stock_picking_batch.stock_picking_batch_action
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Regroup multiple orders into one picking and consolidate at the packing "
 "zone."
+=======
+"Regroup multiple orders into one picking and consolidate at the packing zone."
+>>>>>>> upstream/18.0
 =======
 "Regroup multiple orders into one picking and consolidate at the packing zone."
 >>>>>>> upstream/18.0
@@ -894,6 +928,7 @@ msgstr "Tanggal Terjadwal"
 msgid ""
 "Scheduled date for the transfers to be processed.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "              - If manually set then scheduled date for all transfers in batch will automatically update to this date.\n"
 "              - If not manually changed and transfers are added/removed/updated then this will be their earliest scheduled date\n"
 "                but this scheduled date will not be set for all transfers in batch."
@@ -903,6 +938,8 @@ msgstr ""
 "              - Bila tidak dirubah secara manual dan transfer ditambahkan/dihapus/diupdate maka ini akan menjadi tanggal terjadwal yang paling awal\n"
 "                namun tanggal terjadwal ini tidak akan ditetapkan untuk semua transfer di batch."
 =======
+=======
+>>>>>>> upstream/18.0
 "              - If manually set then scheduled date for all transfers in "
 "batch will automatically update to this date.\n"
 "              - If not manually changed and transfers are added/removed/"
@@ -917,6 +954,9 @@ msgstr ""
 "dihapus/diupdate maka ini akan menjadi tanggal terjadwal yang paling awal\n"
 "                namun tanggal terjadwal ini tidak akan ditetapkan untuk "
 "semua transfer di batch."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
@@ -971,8 +1011,13 @@ msgid ""
 "location."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Pisah transfer berdasarkan lokasi yang didefinisikan, lalu transfer kelompok"
 " dengan lokasi yang sama."
+=======
+"Pisah transfer berdasarkan lokasi yang didefinisikan, lalu transfer kelompok "
+"dengan lokasi yang sama."
+>>>>>>> upstream/18.0
 =======
 "Pisah transfer berdasarkan lokasi yang didefinisikan, lalu transfer kelompok "
 "dengan lokasi yang sama."
@@ -982,8 +1027,13 @@ msgstr ""
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__wave_group_by_category
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Split transfers by product category, then group transfers that have the same"
 " product category."
+=======
+"Split transfers by product category, then group transfers that have the same "
+"product category."
+>>>>>>> upstream/18.0
 =======
 "Split transfers by product category, then group transfers that have the same "
 "product category."
@@ -998,8 +1048,13 @@ msgid ""
 "Split transfers by product then group transfers that have the same product."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Pisah transfer berdasarkan produk lalu transfer kelompok yang masih memiliki"
 " produk yang sama."
+=======
+"Pisah transfer berdasarkan produk lalu transfer kelompok yang masih memiliki "
+"produk yang sama."
+>>>>>>> upstream/18.0
 =======
 "Pisah transfer berdasarkan produk lalu transfer kelompok yang masih memiliki "
 "produk yang sama."
@@ -1071,12 +1126,15 @@ msgstr "Ringkasan:"
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The following transfers cannot be added to batch transfer %(batch)s. Please check their states and operation types.\n"
 "\n"
 "Incompatibilities: %(incompatible_transfers)s"
 msgstr ""
 "Transfer berikut tidak dapat ditambahkan ke batch transfer %(batch)s. Silakan periksa tipe status dan operasi mereka.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "The following transfers cannot be added to batch transfer %(batch)s. Please "
 "check their states and operation types.\n"
 "\n"
@@ -1084,6 +1142,9 @@ msgstr ""
 msgstr ""
 "Transfer berikut tidak dapat ditambahkan ke batch transfer %(batch)s. "
 "Silakan periksa tipe status dan operasi mereka.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "\n"
 "Tidak kompatibel: %(incompatible_transfers)s"

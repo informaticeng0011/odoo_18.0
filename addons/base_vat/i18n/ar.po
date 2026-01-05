@@ -2,22 +2,29 @@
 # This file contains the translation of the following modules:
 # 	* base_vat
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Malaz Abuidris <msea@odoo.com>, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Malaz Abuidris <msea@odoo.com>, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2025-01-27 13:03+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -29,6 +36,8 @@ msgstr ""
 "Language: ar\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Malaz Abuidris <msea@odoo.com>, 2025\n"
@@ -39,14 +48,21 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_vat
 #. odoo-python
 #: code:addons/base_vat/models/res_partner.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "10XXXXXXXXY or 20XXXXXXXXY or 15XXXXXXXXY or 16XXXXXXXXY or 17XXXXXXXXY"
+=======
+msgid "10XXXXXXXXY or 20XXXXXXXXY or 15XXXXXXXXY or 16XXXXXXXXY or 17XXXXXXXXY"
+>>>>>>> upstream/18.0
 =======
 msgid "10XXXXXXXXY or 20XXXXXXXXY or 15XXXXXXXXY or 16XXXXXXXXY or 17XXXXXXXXY"
 >>>>>>> upstream/18.0
@@ -215,7 +231,12 @@ msgstr ""
 #: code:addons/base_vat/models/res_partner.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The %(vat_label)s number [%(wrong_vat)s] for %(record_label)s does not seem to be valid. \n"
+=======
+"The %(vat_label)s number [%(wrong_vat)s] for %(record_label)s does not seem "
+"to be valid. \n"
+>>>>>>> upstream/18.0
 =======
 "The %(vat_label)s number [%(wrong_vat)s] for %(record_label)s does not seem "
 "to be valid. \n"
@@ -239,8 +260,13 @@ msgid ""
 "countries composing the country group set on this fiscal position."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "لا تطابق الدولة التي تم رصدها لرقم ضريبة القيمة المضافة هذا أي من الدول التي"
 " تشكّل مجموعة الدولة التي تم تعيينها لهذا الوضع المالي. "
+=======
+"لا تطابق الدولة التي تم رصدها لرقم ضريبة القيمة المضافة هذا أي من الدول التي "
+"تشكّل مجموعة الدولة التي تم تعيينها لهذا الوضع المالي. "
+>>>>>>> upstream/18.0
 =======
 "لا تطابق الدولة التي تم رصدها لرقم ضريبة القيمة المضافة هذا أي من الدول التي "
 "تشكّل مجموعة الدولة التي تم تعيينها لهذا الوضع المالي. "
@@ -251,8 +277,13 @@ msgstr ""
 #: code:addons/base_vat/models/account_fiscal_position.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The country of the foreign VAT number could not be detected. Please assign a"
 " country to the fiscal position or set a country group"
+=======
+"The country of the foreign VAT number could not be detected. Please assign a "
+"country to the fiscal position or set a country group"
+>>>>>>> upstream/18.0
 =======
 "The country of the foreign VAT number could not be detected. Please assign a "
 "country to the fiscal position or set a country group"
@@ -266,17 +297,23 @@ msgstr ""
 #: code:addons/base_vat/models/res_partner.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The request for VAT validation was not processed. VIES service has responded"
 " with the following error: %s"
 msgstr ""
 "The request for VAT validation was not processed. VIES service has responded"
 " with the following error: %s"
 =======
+=======
+>>>>>>> upstream/18.0
 "The request for VAT validation was not processed. VIES service has responded "
 "with the following error: %s"
 msgstr ""
 "The request for VAT validation was not processed. VIES service has responded "
 "with the following error: %s"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_vat
@@ -307,8 +344,12 @@ msgstr "Vies Vat To Check"
 #: code:addons/base_vat/models/res_partner.py:0
 msgid "XXXXXXXXX [9 digits] and it should respect the Luhn algorithm checksum"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "XXXXXXXXX [9 أرقام] ويجب أن تضع بعين الاعتبار Luhn algorithm checksum "
+=======
+msgstr "XXXXXXXXX [9 أرقام] ويجب أن تضع بعين الاعتبار Luhn algorithm checksum "
+>>>>>>> upstream/18.0
 =======
 msgstr "XXXXXXXXX [9 أرقام] ويجب أن تضع بعين الاعتبار Luhn algorithm checksum "
 >>>>>>> upstream/18.0

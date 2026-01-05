@@ -37,6 +37,10 @@ import collections
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import collections.abc
+>>>>>>> upstream/18.0
 =======
 import collections.abc
 >>>>>>> upstream/18.0
@@ -718,9 +722,12 @@ class Form:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if result.get('warning'):
             _logger.getChild('onchange').warning("%(title)s %(message)s", result['warning'])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -817,6 +824,9 @@ class Form:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

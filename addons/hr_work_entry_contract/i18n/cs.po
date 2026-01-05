@@ -2,22 +2,29 @@
 # This file contains the translation of the following modules:
 # 	* hr_work_entry_contract
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2025
 # Stanislav Kurinec, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2025
 # Stanislav Kurinec, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -29,6 +36,8 @@ msgstr ""
 "Language: cs\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Stanislav Kurinec, 2025\n"
@@ -39,6 +48,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
 "<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_work_entry_contract
@@ -49,16 +61,22 @@ msgid ""
 "        Defines the source for work entries generation\n"
 "\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Working Schedule: Work entries will be generated from the working hours below.\n"
 "        Attendances: Work entries will be generated from the employee's attendances. (requires Attendance app)\n"
 "        Planning: Work entries will be generated from the employee's planning. (requires Planning app)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        Working Schedule: Work entries will be generated from the working "
 "hours below.\n"
 "        Attendances: Work entries will be generated from the employee's "
 "attendances. (requires Attendance app)\n"
 "        Planning: Work entries will be generated from the employee's "
 "planning. (requires Planning app)\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "    "
 msgstr ""
@@ -66,16 +84,22 @@ msgstr ""
 "        Definuje zdroj pro generování pracovních záznamů\n"
 "\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Pracovní plán: Pracovní záznamy budou generovány z pracovní doby níže.\n"
 "        Docházka: Pracovní záznamy budou generovány z  docházky zaměstnance. (vyžaduje aplikaci Docházka)\n"
 "        Plánování: Pracovní záznamy budou generovány z plánování zaměstnance. (vyžaduje aplikaci Plánování)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        Pracovní plán: Pracovní záznamy budou generovány z pracovní doby "
 "níže.\n"
 "        Docházka: Pracovní záznamy budou generovány z  docházky zaměstnance. "
 "(vyžaduje aplikaci Docházka)\n"
 "        Plánování: Pracovní záznamy budou generovány z plánování "
 "zaměstnance. (vyžaduje aplikaci Plánování)\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "    "
 
@@ -246,8 +270,13 @@ msgstr "ID"
 #: code:addons/hr_work_entry_contract/wizard/hr_work_entry_regeneration_wizard.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In order to regenerate the work entries, you need to provide the wizard with"
 " an employee_id, a date_from and a date_to. In addition to that, the time "
+=======
+"In order to regenerate the work entries, you need to provide the wizard with "
+"an employee_id, a date_from and a date_to. In addition to that, the time "
+>>>>>>> upstream/18.0
 =======
 "In order to regenerate the work entries, you need to provide the wizard with "
 "an employee_id, a date_from and a date_to. In addition to that, the time "
@@ -335,8 +364,12 @@ msgstr "Volné dny z důvodu nevolnosti"
 #. odoo-python
 #: code:addons/hr_work_entry_contract/models/hr_contract.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Sorry, generating work entries from cancelled contracts is not allowed."
+=======
+msgid "Sorry, generating work entries from cancelled contracts is not allowed."
+>>>>>>> upstream/18.0
 =======
 msgid "Sorry, generating work entries from cancelled contracts is not allowed."
 >>>>>>> upstream/18.0
@@ -353,9 +386,15 @@ msgid ""
 "entries time interval."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Datum od musí být >= '%(earliest_available_date)s' a datum do musí být <= "
 "'%(latest_available_date)s', které odpovídají časovému intervalu "
 "generovaných pracovních záznamů."
+=======
+"Datum od musí být >= '%(earliest_available_date)s' a datum do musí být <= '%"
+"(latest_available_date)s', které odpovídají časovému intervalu generovaných "
+"pracovních záznamů."
+>>>>>>> upstream/18.0
 =======
 "Datum od musí být >= '%(earliest_available_date)s' a datum do musí být <= '%"
 "(latest_available_date)s', které odpovídají časovému intervalu generovaných "

@@ -2,7 +2,11 @@
 # This file contains the translation of the following modules:
 # 	* payment_authorize
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -13,7 +17,11 @@
 # Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2024
 # Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -21,6 +29,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -31,6 +40,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: fi\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2025\n"
@@ -39,12 +50,16 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: payment_authorize
 #: model_terms:ir.ui.view,arch_db:payment_authorize.inline_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "<select id=\"o_authorize_account_type\" required=\"\" class=\"form-select\">\n"
 "                        <option value=\"checking\">Personal Checking</option>\n"
@@ -57,6 +72,8 @@ msgstr ""
 "                        <option value=\"savings\">Henkilökohtainen säästötili</option>\n"
 "                        <option value=\"businessChecking\">Business šekkitili</option>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "<select id=\"o_authorize_account_type\" required=\"\" class=\"form-"
 "select\">\n"
 "                        <option value=\"checking\">Personal Checking</"
@@ -74,6 +91,9 @@ msgstr ""
 "säästötili</option>\n"
 "                        <option value=\"businessChecking\">Business "
 "šekkitili</option>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                    </select>"
 
@@ -234,13 +254,19 @@ msgstr "Maksun käsittely epäonnistui"
 #. odoo-python
 #: code:addons/payment_authorize/models/payment_transaction.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Received data with status code \"%(status)s\" and error code \"%(error)s\""
 msgstr "Vastaanotettu data tilakoodilla \"%(status)s\" ja virhekoodilla \"%(error)s\""
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Received data with status code \"%(status)s\" and error code \"%(error)s\""
 msgstr ""
 "Vastaanotettu data tilakoodilla \"%(status)s\" ja virhekoodilla \"%(error)s\""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment_authorize
@@ -282,8 +308,13 @@ msgid ""
 "details: %(message)s)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Tapahtuma ei ole palautettavassa tilassa. (status: %(status)s, details: "
 "%(message)s)"
+=======
+"Tapahtuma ei ole palautettavassa tilassa. (status: %(status)s, details: %"
+"(message)s)"
+>>>>>>> upstream/18.0
 =======
 "Tapahtuma ei ole palautettavassa tilassa. (status: %(status)s, details: %"
 "(message)s)"

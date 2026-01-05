@@ -2,6 +2,7 @@
 # This file contains the translation of the following modules:
 # 	* stock_delivery
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2025
@@ -579,17 +580,23 @@
 >>>>>>> upstream/18.0
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2025
 # Felix Schubert <felix.schubert@go-erp.com>, 2025
 # Larissa Manderfeld, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
@@ -1056,6 +1063,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: de\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Larissa Manderfeld, 2025\n"
@@ -1064,6 +1073,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -1153,8 +1165,12 @@ msgstr "Abbrechen"
 #: model_terms:ir.ui.view,arch_db:stock_delivery.view_picking_withcarrier_out_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Cancelling a delivery may not be undoable. Are you sure you want to "
 "continue?"
+=======
+"Cancelling a delivery may not be undoable. Are you sure you want to continue?"
+>>>>>>> upstream/18.0
 =======
 "Cancelling a delivery may not be undoable. Are you sure you want to continue?"
 >>>>>>> upstream/18.0
@@ -1194,6 +1210,7 @@ msgstr "Kosten: %(price).2f %(currency)s"
 #. module: stock_delivery
 #: model:ir.model.fields,field_description:stock_delivery.field_choose_delivery_package__create_uid
 msgid "Created by"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1655,6 +1672,9 @@ msgstr "Erstellt von"
 =======
 msgstr "Erstellt von"
 >>>>>>> upstream/18.0
+=======
+msgstr "Erstellt von"
+>>>>>>> upstream/18.0
 
 #. module: stock_delivery
 #: model:ir.model.fields,field_description:stock_delivery.field_choose_delivery_package__create_date
@@ -1711,12 +1731,15 @@ msgstr "Sendungsverfolgungslinks anzeigen"
 #: model:ir.model.fields,help:stock_delivery.field_delivery_carrier__invoice_policy
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Estimated Cost: the customer will be invoiced the estimated cost of the shipping.\n"
 "Real Cost: the customer will be invoiced the real cost of the shipping, the cost of theshipping will be updated on the SO after the delivery."
 msgstr ""
 "Geschätzte Kosten: Dem Kunden werden die geschätzten Kosten für den Versand in Rechnung gestellt.\n"
 "Tatsächliche Kosten: Dem Kunden werden die tatsächlichen Kosten für den Versand in Rechnung gestellt, die Kosten für den Versand werden nach der Lieferung auf dem Verkaufsauftrag aktualisiert."
 =======
+=======
+>>>>>>> upstream/18.0
 "Estimated Cost: the customer will be invoiced the estimated cost of the "
 "shipping.\n"
 "Real Cost: the customer will be invoiced the real cost of the shipping, the "
@@ -1727,6 +1750,9 @@ msgstr ""
 "Tatsächliche Kosten: Dem Kunden werden die tatsächlichen Kosten für den "
 "Versand in Rechnung gestellt, die Kosten für den Versand werden nach der "
 "Lieferung auf dem Verkaufsauftrag aktualisiert."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock_delivery
@@ -1880,12 +1906,15 @@ msgstr "Routen"
 #: model:ir.model.fields,help:stock_delivery.field_product_template__country_of_origin
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Rules of origin determine where goods originate, i.e. not where they have been shipped from, but where they have been produced or manufactured.\n"
 "As such, the ‘origin’ is the 'economic nationality' of goods traded in commerce."
 msgstr ""
 "Die Ursprungsregeln bestimmen, woher die Waren stammen, d. h. nicht, woher sie versandt wurden, sondern wo sie produziert oder hergestellt wurden.\n"
 "Der „Ursprung“ ist somit die „wirtschaftliche Nationalität“ der im Handel befindlichen Waren."
 =======
+=======
+>>>>>>> upstream/18.0
 "Rules of origin determine where goods originate, i.e. not where they have "
 "been shipped from, but where they have been produced or manufactured.\n"
 "As such, the ‘origin’ is the 'economic nationality' of goods traded in "
@@ -1895,6 +1924,9 @@ msgstr ""
 "sie versandt wurden, sondern wo sie produziert oder hergestellt wurden.\n"
 "Der „Ursprung“ ist somit die „wirtschaftliche Nationalität“ der im Handel "
 "befindlichen Waren."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock_delivery
@@ -1927,17 +1959,23 @@ msgstr "An Zusteller senden"
 #: code:addons/stock_delivery/models/stock_picking.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Shipment sent to carrier %(carrier_name)s for shipping with tracking number "
 "%(ref)s"
 msgstr ""
 "Die Sendung mit der Sendungsnummer %(ref)s wurde an den Zusteller "
 "%(carrier_name)s übergeben."
 =======
+=======
+>>>>>>> upstream/18.0
 "Shipment sent to carrier %(carrier_name)s for shipping with tracking number %"
 "(ref)s"
 msgstr ""
 "Die Sendung mit der Sendungsnummer %(ref)s wurde an den Zusteller %"
 "(carrier_name)s übergeben."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock_delivery
@@ -1988,8 +2026,12 @@ msgstr "Typ des Lagerpakets"
 #: model:ir.model.fields,field_description:stock_delivery.field_stock_quant_package__weight_uom_rounding
 msgid "Technical field indicating weight's number of decimal places"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Technisches Feld zur Angabe der Anzahl der Dezimalstellen des Gewichts"
+=======
+msgstr "Technisches Feld zur Angabe der Anzahl der Dezimalstellen des Gewichts"
+>>>>>>> upstream/18.0
 =======
 msgstr "Technisches Feld zur Angabe der Anzahl der Dezimalstellen des Gewichts"
 >>>>>>> upstream/18.0
@@ -1999,8 +2041,13 @@ msgstr "Technisches Feld zur Angabe der Anzahl der Dezimalstellen des Gewichts"
 msgid "Technical field indicating whether weight uom is kg or not (i.e. lb)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Technisches Feld, das angibt, ob die Gewichtseinheit kg ist oder nicht (d.h."
 " lb)"
+=======
+"Technisches Feld, das angibt, ob die Gewichtseinheit kg ist oder nicht (d.h. "
+"lb)"
+>>>>>>> upstream/18.0
 =======
 "Technisches Feld, das angibt, ob die Gewichtseinheit kg ist oder nicht (d.h. "
 "lb)"
@@ -2125,8 +2172,13 @@ msgstr "Gewicht:"
 msgid ""
 "You cannot pack products into the same package when they have different "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "carriers (i.e. check that all of their transfers have a carrier assigned and"
 " are using the same carrier)."
+=======
+"carriers (i.e. check that all of their transfers have a carrier assigned and "
+"are using the same carrier)."
+>>>>>>> upstream/18.0
 =======
 "carriers (i.e. check that all of their transfers have a carrier assigned and "
 "are using the same carrier)."

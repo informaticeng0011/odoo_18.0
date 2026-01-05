@@ -2,7 +2,11 @@
 # This file contains the translation of the following modules:
 # 	* stock_picking_batch
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -12,7 +16,11 @@
 # Vojtěch Olšan, 2025
 # Marta Wacławek, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -20,6 +28,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2025-03-19 20:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
@@ -31,6 +40,8 @@ msgstr ""
 "Language: cs\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Marta Wacławek, 2025\n"
@@ -41,6 +52,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
 "<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
@@ -106,17 +120,23 @@ msgstr "<strong>→</strong>"
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__batch_max_lines
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A transfer will not be automatically added to batches that will exceed this number of lines if the transfer is added to it.\n"
 "Leave this value as '0' if no line limit."
 msgstr ""
 "K dávkám, které překročí tento počet řádků, se převod automaticky nepřidá, pokud je k nim přidán.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "A transfer will not be automatically added to batches that will exceed this "
 "number of lines if the transfer is added to it.\n"
 "Leave this value as '0' if no line limit."
 msgstr ""
 "K dávkám, které překročí tento počet řádků, se převod automaticky nepřidá, "
 "pokud je k nim přidán.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Pokud není limit řádků stanoven, ponechte tuto hodnotu jako \"0\"."
 
@@ -124,17 +144,23 @@ msgstr ""
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__batch_max_pickings
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A transfer will not be automatically added to batches that will exceed this number of transfers.\n"
 "Leave this value as '0' if no transfer limit."
 msgstr ""
 "K dávkám, které překročí tento počet převodů, se převod automaticky nepřidá.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "A transfer will not be automatically added to batches that will exceed this "
 "number of transfers.\n"
 "Leave this value as '0' if no transfer limit."
 msgstr ""
 "K dávkám, které překročí tento počet převodů, se převod automaticky "
 "nepřidá.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Pokud není limit přenosů stanoven, ponechte tuto hodnotu jako \"0\"."
 
@@ -751,8 +777,12 @@ msgstr "Typ skladové operace"
 #. odoo-python
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Please add 'Done' quantities to the batch picking to create a new pack."
+=======
+msgid "Please add 'Done' quantities to the batch picking to create a new pack."
+>>>>>>> upstream/18.0
 =======
 msgid "Please add 'Done' quantities to the batch picking to create a new pack."
 >>>>>>> upstream/18.0
@@ -838,8 +868,12 @@ msgstr "Hodnocení"
 #: model_terms:ir.actions.act_window,help:stock_picking_batch.stock_picking_batch_action
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Regroup multiple orders into one picking and consolidate at the packing "
 "zone."
+=======
+"Regroup multiple orders into one picking and consolidate at the packing zone."
+>>>>>>> upstream/18.0
 =======
 "Regroup multiple orders into one picking and consolidate at the packing zone."
 >>>>>>> upstream/18.0
@@ -879,16 +913,22 @@ msgstr "Plánované datum"
 msgid ""
 "Scheduled date for the transfers to be processed.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "              - If manually set then scheduled date for all transfers in batch will automatically update to this date.\n"
 "              - If not manually changed and transfers are added/removed/updated then this will be their earliest scheduled date\n"
 "                but this scheduled date will not be set for all transfers in batch."
 =======
+=======
+>>>>>>> upstream/18.0
 "              - If manually set then scheduled date for all transfers in "
 "batch will automatically update to this date.\n"
 "              - If not manually changed and transfers are added/removed/"
 "updated then this will be their earliest scheduled date\n"
 "                but this scheduled date will not be set for all transfers in "
 "batch."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -949,8 +989,13 @@ msgstr ""
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__wave_group_by_category
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Split transfers by product category, then group transfers that have the same"
 " product category."
+=======
+"Split transfers by product category, then group transfers that have the same "
+"product category."
+>>>>>>> upstream/18.0
 =======
 "Split transfers by product category, then group transfers that have the same "
 "product category."
@@ -1029,7 +1074,12 @@ msgstr "Shrnutí:"
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The following transfers cannot be added to batch transfer %(batch)s. Please check their states and operation types.\n"
+=======
+"The following transfers cannot be added to batch transfer %(batch)s. Please "
+"check their states and operation types.\n"
+>>>>>>> upstream/18.0
 =======
 "The following transfers cannot be added to batch transfer %(batch)s. Please "
 "check their states and operation types.\n"
@@ -1262,7 +1312,11 @@ msgid "Transfer Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zobrazovací název přesunu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zobrazovací název přesunu"
 >>>>>>> upstream/18.0

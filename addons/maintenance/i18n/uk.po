@@ -2,22 +2,29 @@
 # This file contains the translation of the following modules:
 # 	* maintenance
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -29,6 +36,8 @@ msgstr ""
 "Language: uk\n"
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2025\n"
@@ -41,6 +50,9 @@ msgstr ""
 "11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % "
 "100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || "
 "(n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: maintenance
@@ -703,17 +715,23 @@ msgstr "ID"
 #: model:ir.model.fields,help:maintenance.field_maintenance_equipment_category__alias_parent_thread_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "ID of the parent record holding the alias (example: project holding the task"
 " creation alias)"
 msgstr ""
 "ID батьківського запису, що містить псевдонім (наприклад: проєкт, що містить"
 " завдання створити псевдонім)."
 =======
+=======
+>>>>>>> upstream/18.0
 "ID of the parent record holding the alias (example: project holding the task "
 "creation alias)"
 msgstr ""
 "ID батьківського запису, що містить псевдонім (наприклад: проєкт, що містить "
 "завдання створити псевдонім)."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: maintenance
@@ -989,8 +1007,13 @@ msgid ""
 "Mean Time Between Failure, computed based on done corrective maintenances."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Середній час між помилками, обчислений на основі виконуваному коригувальному"
 " змісту."
+=======
+"Середній час між помилками, обчислений на основі виконуваному коригувальному "
+"змісту."
+>>>>>>> upstream/18.0
 =======
 "Середній час між помилками, обчислений на основі виконуваному коригувальному "
 "змісту."
@@ -1201,8 +1224,13 @@ msgstr "ID запису батьківської теми"
 #: model:ir.model.fields,help:maintenance.field_maintenance_equipment_category__alias_parent_model_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Parent model holding the alias. The model holding the alias reference is not"
 " necessarily the model given by alias_model_id (example: project "
+=======
+"Parent model holding the alias. The model holding the alias reference is not "
+"necessarily the model given by alias_model_id (example: project "
+>>>>>>> upstream/18.0
 =======
 "Parent model holding the alias. The model holding the alias reference is not "
 "necessarily the model given by alias_model_id (example: project "
@@ -1234,7 +1262,12 @@ msgid ""
 "- everyone: everyone can post\n"
 "- partners: only authenticated partners\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- followers: only followers of the related document or members of following channels\n"
+=======
+"- followers: only followers of the related document or members of following "
+"channels\n"
+>>>>>>> upstream/18.0
 =======
 "- followers: only followers of the related document or members of following "
 "channels\n"
@@ -1244,7 +1277,12 @@ msgstr ""
 "- всі: кожен може опублікувати\n"
 "- партнери: лише автентифіковані партнери\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- підписники: лише ті, хто підписаний на відповідний документ або учасники підписаних каналів\n"
+=======
+"- підписники: лише ті, хто підписаний на відповідний документ або учасники "
+"підписаних каналів\n"
+>>>>>>> upstream/18.0
 =======
 "- підписники: лише ті, хто підписаний на відповідний документ або учасники "
 "підписаних каналів\n"
@@ -1539,9 +1577,15 @@ msgstr "Текст"
 #: model:ir.model.fields,help:maintenance.field_maintenance_equipment_category__alias_model_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
+=======
+"The model (Odoo Document Kind) to which this alias corresponds. Any incoming "
+"email that does not reply to an existing record will cause the creation of a "
+"new record of this model (e.g. a Project Task)"
+>>>>>>> upstream/18.0
 =======
 "The model (Odoo Document Kind) to which this alias corresponds. Any incoming "
 "email that does not reply to an existing record will cause the creation of a "
@@ -1596,17 +1640,23 @@ msgstr "Найвищі пріоритети"
 msgid ""
 "Track equipment and link it to an employee or department.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                You will be able to manage allocations, issues and maintenance of your equipment."
 msgstr ""
 "Відстежуйте обладнання та зв’язуйте його зі співробітником або відділом.\n"
 "                Ви зможете керувати розподілом, проблемами та обслуговуванням вашого обладнання."
 =======
+=======
+>>>>>>> upstream/18.0
 "                You will be able to manage allocations, issues and "
 "maintenance of your equipment."
 msgstr ""
 "Відстежуйте обладнання та зв’язуйте його зі співробітником або відділом.\n"
 "                Ви зможете керувати розподілом, проблемами та "
 "обслуговуванням вашого обладнання."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: maintenance
@@ -1692,8 +1742,13 @@ msgid ""
 "requests."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ви не можете видалити категорію обладнання, що містить обладнання або запити"
 " на обслуговування."
+=======
+"Ви не можете видалити категорію обладнання, що містить обладнання або запити "
+"на обслуговування."
+>>>>>>> upstream/18.0
 =======
 "Ви не можете видалити категорію обладнання, що містить обладнання або запити "
 "на обслуговування."

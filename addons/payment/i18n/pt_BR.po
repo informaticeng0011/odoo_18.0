@@ -2,7 +2,11 @@
 # This file contains the translation of the following modules:
 # 	* payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -12,7 +16,11 @@
 # Wil Odoo, 2024
 # Maitê Dietze, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -20,6 +28,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -751,6 +760,8 @@ msgstr ""
 "Language: pt_BR\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Maitê Dietze, 2025\n"
@@ -762,6 +773,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
 "1000000 == 0 ? 1 : 2;\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment
@@ -785,6 +799,7 @@ msgstr "7Eleven"
 msgid ""
 "<h3>Please make a payment to: </h3><ul><li>Bank: %(bank)s</li><li>Account "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Number: %(account_number)s</li><li>Account Holder: "
 "%(account_holder)s</li></ul>"
 msgstr ""
@@ -792,18 +807,24 @@ msgstr ""
 "conta: %(account_number)s</li><li>Titular da conta: "
 "%(account_holder)s</li></ul>"
 =======
+=======
+>>>>>>> upstream/18.0
 "Number: %(account_number)s</li><li>Account Holder: %(account_holder)s</li></"
 "ul>"
 msgstr ""
 "<h3>Efetue o pagamento para: </h3><ul><li>Banco: %(bank)s</li><li>Número da "
 "conta: %(account_number)s</li><li>Titular da conta: %(account_holder)s</li></"
 "ul>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_method_form
 msgid ""
 "<i class=\"fa fa-exclamation-triangle\"/> These properties are set to\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                                match the behavior of providers and that of their integration with\n"
 "                                Odoo regarding this payment method. Any change may result in errors\n"
@@ -819,6 +840,8 @@ msgstr ""
 msgid "<i class=\"fa fa-home\" role=\"img\" title=\"Home\" aria-label=\"Home\"/>"
 msgstr "<i class=\"fa fa-home\" role=\"img\" title=\"Home\" aria-label=\"Home\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                match the behavior of providers and that of "
 "their integration with\n"
 "                                Odoo regarding this payment method. Any "
@@ -841,11 +864,15 @@ msgid ""
 "<i class=\"fa fa-home\" role=\"img\" title=\"Home\" aria-label=\"Home\"/>"
 msgstr ""
 "<i class=\"fa fa-home\" role=\"img\" title=\"Home\" aria-label=\"Home\"/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_capture_wizard_view_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "<i class=\"fa fa-info-circle oe_inline\" invisible=\"support_partial_capture"
 " != 'full_only'\" title=\"Some of the transactions you intend to capture can"
@@ -857,6 +884,8 @@ msgstr ""
 " only be captured in full. Handle the transactions individually to capture a"
 " partial amount.\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 "<i class=\"fa fa-info-circle oe_inline\" "
 "invisible=\"support_partial_capture != 'full_only'\" title=\"Some of the "
 "transactions you intend to capture can only be captured in full. Handle the "
@@ -866,6 +895,9 @@ msgstr ""
 "invisible=\"support_partial_capture != 'full_only'\" title=\"Some of the "
 "transactions you intend to capture can only be captured in full. Handle the "
 "transactions individually to capture a partial amount.\"/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment
@@ -896,7 +928,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:payment.method_form
 msgid "<small class=\"text-600\">Save my payment details</small>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<small class=\"text-600\">Salvar minhas informações de pagamento</small>"
+=======
+msgstr ""
+"<small class=\"text-600\">Salvar minhas informações de pagamento</small>"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "<small class=\"text-600\">Salvar minhas informações de pagamento</small>"
@@ -948,16 +985,22 @@ msgstr "<span><i class=\"fa fa-lock\"/> Protegido por</span>"
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.no_pms_available_warning
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<strong><i class=\"fa fa-file-text\"/> Show availability report</strong>"
 msgstr ""
 "<strong><i class=\"fa fa-file-text\"/>Mostrar relatório de "
 "disponibilidade</strong>"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "<strong><i class=\"fa fa-file-text\"/> Show availability report</strong>"
 msgstr ""
 "<strong><i class=\"fa fa-file-text\"/>Mostrar relatório de disponibilidade</"
 "strong>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment
@@ -969,7 +1012,12 @@ msgstr "<strong><i class=\"oi oi-arrow-right\"/> Formas de pagamento</strong>"
 #: model_terms:ir.ui.view,arch_db:payment.no_pms_available_warning
 msgid "<strong><i class=\"oi oi-arrow-right\"/> Payment Providers</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<strong><i class=\"oi oi-arrow-right\"/> Provedores de pagamento</strong>"
+=======
+msgstr ""
+"<strong><i class=\"oi oi-arrow-right\"/> Provedores de pagamento</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "<strong><i class=\"oi oi-arrow-right\"/> Provedores de pagamento</strong>"
@@ -985,12 +1033,15 @@ msgstr "<strong>Nenhuma forma de pagamento disponível</strong>"
 msgid ""
 "<strong>Warning!</strong> There is a partial capture pending. Please wait a\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    moment for it to be processed. Check your payment provider configuration if\n"
 "                    the capture is still pending after a few minutes."
 msgstr ""
 "<strong>Aviso:</strong> há uma captura parcial pendente. Espere até\n"
 "                    que seja processada. Verifique a configuração do seu provedor de pagamento se\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                    moment for it to be processed. Check your payment "
 "provider configuration if\n"
 "                    the capture is still pending after a few minutes."
@@ -998,6 +1049,9 @@ msgstr ""
 "<strong>Aviso:</strong> há uma captura parcial pendente. Espere até\n"
 "                    que seja processada. Verifique a configuração do seu "
 "provedor de pagamento se\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                    a captura ainda estiver pendente após alguns minutos."
 
@@ -1008,7 +1062,12 @@ msgid ""
 "                    than"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<strong>Aviso:</strong> não é possível capturar uma quantia negativa ou mais\n"
+=======
+"<strong>Aviso:</strong> não é possível capturar uma quantia negativa ou "
+"mais\n"
+>>>>>>> upstream/18.0
 =======
 "<strong>Aviso:</strong> não é possível capturar uma quantia negativa ou "
 "mais\n"
@@ -1019,17 +1078,23 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:payment.payment_provider_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<strong>Warning</strong> Creating a payment provider from the <em>CREATE</em> button is not supported.\n"
 "                        Please use the <em>Duplicate</em> action instead."
 msgstr ""
 "<strong>Aviso:</strong> A criação de um provedor de pagamento a partir do botão <em>CRIAR</em> não é suportada.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "<strong>Warning</strong> Creating a payment provider from the <em>CREATE</"
 "em> button is not supported.\n"
 "                        Please use the <em>Duplicate</em> action instead."
 msgstr ""
 "<strong>Aviso:</strong> A criação de um provedor de pagamento a partir do "
 "botão <em>CRIAR</em> não é suportada.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                        Utilize a ação <em>Duplicar</em>."
 
@@ -1038,17 +1103,23 @@ msgstr ""
 msgid ""
 "<strong>Warning</strong> Make sure you are logged in as the\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    correct partner before making this payment."
 msgstr ""
 "<strong>Aviso</strong> Certifique-se de estar conectado com o\n"
 "                                    usuário correto antes de fazer este pagamento."
 =======
+=======
+>>>>>>> upstream/18.0
 "                                    correct partner before making this "
 "payment."
 msgstr ""
 "<strong>Aviso</strong> Certifique-se de estar conectado com o\n"
 "                                    usuário correto antes de fazer este "
 "pagamento."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment
@@ -1069,9 +1140,15 @@ msgid ""
 "soon. Refund transaction reference: %(ref)s (%(provider_name)s)."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Uma solicitação de reembolso no valor de %(amount)s foi enviada. O pagamento"
 " será criado em breve. Referência de transação de reembolso: %(ref)s "
 "(%(provider_name)s)."
+=======
+"Uma solicitação de reembolso no valor de %(amount)s foi enviada. O pagamento "
+"será criado em breve. Referência de transação de reembolso: %(ref)s (%"
+"(provider_name)s)."
+>>>>>>> upstream/18.0
 =======
 "Uma solicitação de reembolso no valor de %(amount)s foi enviada. O pagamento "
 "será criado em breve. Referência de transação de reembolso: %(ref)s (%"
@@ -1976,8 +2053,13 @@ msgid ""
 msgstr ""
 "O check-out expresso permite que os clientes paguem mais rápido usando uma "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "forma de pagamento que fornece todas as informações de entrega e de cobrança"
 " necessárias, possibilitando assim pular o processo de checkout."
+=======
+"forma de pagamento que fornece todas as informações de entrega e de cobrança "
+"necessárias, possibilitando assim pular o processo de checkout."
+>>>>>>> upstream/18.0
 =======
 "forma de pagamento que fornece todas as informações de entrega e de cobrança "
 "necessárias, possibilitando assim pular o processo de checkout."
@@ -2143,8 +2225,12 @@ msgstr "ID"
 #: model_terms:ir.ui.view,arch_db:payment.no_pms_available_warning
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If you believe that it is an error, please contact the website "
 "administrator."
+=======
+"If you believe that it is an error, please contact the website administrator."
+>>>>>>> upstream/18.0
 =======
 "If you believe that it is an error, please contact the website administrator."
 >>>>>>> upstream/18.0
@@ -2165,7 +2251,12 @@ msgid ""
 "This mode is advised when setting up the provider."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "No modo de teste, um pagamento falso é processado por meio de uma interface de pagamento de teste.\n"
+=======
+"No modo de teste, um pagamento falso é processado por meio de uma interface "
+"de pagamento de teste.\n"
+>>>>>>> upstream/18.0
 =======
 "No modo de teste, um pagamento falso é processado por meio de uma interface "
 "de pagamento de teste.\n"
@@ -2544,8 +2635,13 @@ msgid ""
 "from the Payment Provider menu."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Nenhuma forma de pagamento manual foi encontrada para esta empresa. Crie uma"
 " no menu de provedores de serviços de pagamentos."
+=======
+"Nenhuma forma de pagamento manual foi encontrada para esta empresa. Crie uma "
+"no menu de provedores de serviços de pagamentos."
+>>>>>>> upstream/18.0
 =======
 "Nenhuma forma de pagamento manual foi encontrada para esta empresa. Crie uma "
 "no menu de provedores de serviços de pagamentos."
@@ -3168,8 +3264,13 @@ msgid ""
 "in Odoo."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "O reembolso é um recurso que permite reembolsar os clientes diretamente pelo"
 " pagamento no Odoo"
+=======
+"O reembolso é um recurso que permite reembolsar os clientes diretamente pelo "
+"pagamento no Odoo"
+>>>>>>> upstream/18.0
 =======
 "O reembolso é um recurso que permite reembolsar os clientes diretamente pelo "
 "pagamento no Odoo"
@@ -3298,17 +3399,23 @@ msgstr "Sofort"
 #: code:addons/payment/wizards/payment_capture_wizard.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Some of the transactions you intend to capture can only be captured in full."
 " Handle the transactions individually to capture a partial amount."
 msgstr ""
 "Algumas das transações que você pretende capturar só podem ser capturadas na"
 " íntegra. Processe as transações individualmente para capturar um valor "
 =======
+=======
+>>>>>>> upstream/18.0
 "Some of the transactions you intend to capture can only be captured in full. "
 "Handle the transactions individually to capture a partial amount."
 msgstr ""
 "Algumas das transações que você pretende capturar só podem ser capturadas na "
 "íntegra. Processe as transações individualmente para capturar um valor "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "parcial."
 
@@ -3432,11 +3539,17 @@ msgstr ""
 #: model:ir.model.fields,help:payment.field_payment_method__brand_ids
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The brands of the payment methods that will be displayed on the payment "
 "form."
 msgstr ""
 "As marcas da forma de pagamento que serão exibidas no formulário de "
 "pagamento"
+=======
+"The brands of the payment methods that will be displayed on the payment form."
+msgstr ""
+"As marcas da forma de pagamento que serão exibidas no formulário de pagamento"
+>>>>>>> upstream/18.0
 =======
 "The brands of the payment methods that will be displayed on the payment form."
 msgstr ""
@@ -3470,8 +3583,13 @@ msgid ""
 "make it available in all countries."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Os países nos quais esta forma de pagamento está disponível. Deixe em branco"
 " para disponibilizar a todos os países."
+=======
+"Os países nos quais esta forma de pagamento está disponível. Deixe em branco "
+"para disponibilizar a todos os países."
+>>>>>>> upstream/18.0
 =======
 "Os países nos quais esta forma de pagamento está disponível. Deixe em branco "
 "para disponibilizar a todos os países."
@@ -3518,9 +3636,15 @@ msgstr ""
 #: model:ir.model.fields,help:payment.field_payment_method__supported_currency_ids
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The list of currencies for that are supported by this payment method (if the"
 " provider allows it). When paying with another currency, this payment method"
 " is not available to customers."
+=======
+"The list of currencies for that are supported by this payment method (if the "
+"provider allows it). When paying with another currency, this payment method "
+"is not available to customers."
+>>>>>>> upstream/18.0
 =======
 "The list of currencies for that are supported by this payment method (if the "
 "provider allows it). When paying with another currency, this payment method "
@@ -3597,12 +3721,15 @@ msgstr ""
 #: model:ir.model.fields,help:payment.field_payment_method__primary_payment_method_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The primary payment method of the current payment method, if the latter is a brand.\n"
 "For example, \"Card\" is the primary payment method of the card brand \"VISA\"."
 msgstr ""
 "A forma de pagamento primária da forma de pagamento atual, se esta última for uma marca.\n"
 "Por exemplo, \"cartão\" é a forma de pagamento primária da marca de cartões \"VISA\"."
 =======
+=======
+>>>>>>> upstream/18.0
 "The primary payment method of the current payment method, if the latter is a "
 "brand.\n"
 "For example, \"Card\" is the primary payment method of the card brand "
@@ -3612,6 +3739,9 @@ msgstr ""
 "for uma marca.\n"
 "Por exemplo, \"cartão\" é a forma de pagamento primária da marca de cartões "
 "\"VISA\"."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment
@@ -3694,8 +3824,13 @@ msgstr ""
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The transaction with reference %(ref)s for %(amount)s encountered an error "
 "(%(provider_name)s)."
+=======
+"The transaction with reference %(ref)s for %(amount)s encountered an error (%"
+"(provider_name)s)."
+>>>>>>> upstream/18.0
 =======
 "The transaction with reference %(ref)s for %(amount)s encountered an error (%"
 "(provider_name)s)."
@@ -3709,17 +3844,23 @@ msgstr ""
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The transaction with reference %(ref)s for %(amount)s has been authorized "
 "(%(provider_name)s)."
 msgstr ""
 "A transação com a referência %(ref)s no valor de %(amount)s foi autorizada "
 "(%(provider_name)s)."
 =======
+=======
+>>>>>>> upstream/18.0
 "The transaction with reference %(ref)s for %(amount)s has been authorized (%"
 "(provider_name)s)."
 msgstr ""
 "A transação com a referência %(ref)s no valor de %(amount)s foi autorizada (%"
 "(provider_name)s)."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment
@@ -3727,17 +3868,23 @@ msgstr ""
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The transaction with reference %(ref)s for %(amount)s has been confirmed "
 "(%(provider_name)s)."
 msgstr ""
 "A transação com a referência %(ref)s no valor de %(amount)s foi confirmada "
 "(%(provider_name)s)."
 =======
+=======
+>>>>>>> upstream/18.0
 "The transaction with reference %(ref)s for %(amount)s has been confirmed (%"
 "(provider_name)s)."
 msgstr ""
 "A transação com a referência %(ref)s no valor de %(amount)s foi confirmada (%"
 "(provider_name)s)."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment
@@ -3769,8 +3916,13 @@ msgid ""
 "payment method."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Essa ação também arquivará %s tokens que estão registrados com essa forma de"
 " pagamento."
+=======
+"Essa ação também arquivará %s tokens que estão registrados com essa forma de "
+"pagamento."
+>>>>>>> upstream/18.0
 =======
 "Essa ação também arquivará %s tokens que estão registrados com essa forma de "
 "pagamento."
@@ -3784,8 +3936,13 @@ msgid ""
 "provider. "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Essa ação também arquivará %s tokens que estão registrados com essa forma de"
 " pagamento."
+=======
+"Essa ação também arquivará %s tokens que estão registrados com essa forma de "
+"pagamento."
+>>>>>>> upstream/18.0
 =======
 "Essa ação também arquivará %s tokens que estão registrados com essa forma de "
 "pagamento."
@@ -3795,6 +3952,7 @@ msgstr ""
 #: model:ir.model.fields,help:payment.field_payment_provider__allow_tokenization
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This controls whether customers can save their payment methods as payment tokens.\n"
 "A payment token is an anonymous link to the payment method details saved in the\n"
 "provider's database, allowing the customer to reuse it for a next purchase."
@@ -3803,6 +3961,8 @@ msgstr ""
 "Um token de pagamento é um link anônimo para as informações da forma de pagamento salva no\n"
 "banco de dados do provedor, permitindo que o cliente o reutilize em uma próxima compra."
 =======
+=======
+>>>>>>> upstream/18.0
 "This controls whether customers can save their payment methods as payment "
 "tokens.\n"
 "A payment token is an anonymous link to the payment method details saved in "
@@ -3815,6 +3975,9 @@ msgstr ""
 "pagamento salva no\n"
 "banco de dados do provedor, permitindo que o cliente o reutilize em uma "
 "próxima compra."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment
@@ -3826,8 +3989,13 @@ msgid ""
 msgstr ""
 "Isso controla se os clientes podem usar formas de pagamento expresso. O "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "checkout expresso permite que os clientes paguem com Google Pay e Apple Pay,"
 " de onde o endereço é coletado no momento do pagamento."
+=======
+"checkout expresso permite que os clientes paguem com Google Pay e Apple Pay, "
+"de onde o endereço é coletado no momento do pagamento."
+>>>>>>> upstream/18.0
 =======
 "checkout expresso permite que os clientes paguem com Google Pay e Apple Pay, "
 "de onde o endereço é coletado no momento do pagamento."
@@ -3837,17 +4005,23 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:payment.payment_link_wizard_view_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This partner has no email, which may cause issues with some payment providers.\n"
 "                     Setting an email for this partner is advised."
 msgstr ""
 "Este usuário não tem e-mail informado, o que pode causar problemas com alguns provedores de serviços de pagamento.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "This partner has no email, which may cause issues with some payment "
 "providers.\n"
 "                     Setting an email for this partner is advised."
 msgstr ""
 "Este usuário não tem e-mail informado, o que pode causar problemas com "
 "alguns provedores de serviços de pagamento.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                     É recomendado definir um e-mail para este usuário."
 
@@ -3859,8 +4033,13 @@ msgid ""
 "provider supporting this method first."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Esta forma de pagamento precisa de um parceiro; você deve primeiro habilitar"
 " um provedor de pagamentos que suporte este método."
+=======
+"Esta forma de pagamento precisa de um parceiro; você deve primeiro habilitar "
+"um provedor de pagamentos que suporte este método."
+>>>>>>> upstream/18.0
 =======
 "Esta forma de pagamento precisa de um parceiro; você deve primeiro habilitar "
 "um provedor de pagamentos que suporte este método."
@@ -3874,8 +4053,13 @@ msgid ""
 "capture and partial void transactions (%(provider)s)."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Esta transação foi confirmada em decorrência do processamento das transações"
 " de captura parcial e de cancelamento parcial (%(provider)s)."
+=======
+"Esta transação foi confirmada em decorrência do processamento das transações "
+"de captura parcial e de cancelamento parcial (%(provider)s)."
+>>>>>>> upstream/18.0
 =======
 "Esta transação foi confirmada em decorrência do processamento das transações "
 "de captura parcial e de cancelamento parcial (%(provider)s)."
@@ -4136,6 +4320,7 @@ msgstr ""
 
 #. module: payment
 #. odoo-python
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4789,6 +4974,8 @@ msgstr "You cannot delete the default payment method."
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/payment/models/payment_method.py:0
 msgid "You cannot delete the default payment method."
 msgstr "Não é possível excluir a forma de pagamento padrão."
@@ -4940,6 +5127,9 @@ msgstr "Não é possível excluir a forma de pagamento padrão."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5237,8 +5427,13 @@ msgid ""
 "instead."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Você não pode excluir o provedor de pagamento %s; em vez disso, desabilite-o"
 " ou desinstale-o."
+=======
+"Você não pode excluir o provedor de pagamento %s; em vez disso, desabilite-o "
+"ou desinstale-o."
+>>>>>>> upstream/18.0
 =======
 "Você não pode excluir o provedor de pagamento %s; em vez disso, desabilite-o "
 "ou desinstale-o."

@@ -43,8 +43,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sale_pdf_quote_builder
 # 
+=======
+# * sale_pdf_quote_builder
+#
+>>>>>>> upstream/18.0
 =======
 # * sale_pdf_quote_builder
 #
@@ -264,7 +269,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
@@ -442,6 +452,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -579,6 +590,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-21 02:35+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Thai <https://translate.odoo.com/projects/odoo-18/"
@@ -631,6 +645,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -724,8 +741,13 @@ msgid ""
 "'Order - %s' % (object.name)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "(object.state ใน ('ร่าง', 'ส่ง') และ 'ใบเสนอราคา - %s' % (object.name)) หรือ"
 " 'สั่งซื้อ - %s' % (object.name)"
+=======
+"(object.state ใน ('ร่าง', 'ส่ง') และ 'ใบเสนอราคา - %s' % (object.name)) หรือ "
+"'สั่งซื้อ - %s' % (object.name)"
+>>>>>>> upstream/18.0
 =======
 "(object.state ใน ('ร่าง', 'ส่ง') และ 'ใบเสนอราคา - %s' % (object.name)) หรือ "
 "'สั่งซื้อ - %s' % (object.name)"
@@ -746,10 +768,16 @@ msgstr ""
 #: code:addons/sale_pdf_quote_builder/models/sale_pdf_form_field.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A form field set as used in product documents can't be linked to a quotation"
 " document."
 msgstr ""
 "ฟิลด์ฟอร์มที่ใช้ในเอกสารผลิตภัณฑ์ไม่สามารถเชื่อมโยงกับเอกสารใบเสนอราคาได้"
+=======
+"A form field set as used in product documents can't be linked to a quotation "
+"document."
+msgstr "ฟิลด์ฟอร์มที่ใช้ในเอกสารผลิตภัณฑ์ไม่สามารถเชื่อมโยงกับเอกสารใบเสนอราคาได้"
+>>>>>>> upstream/18.0
 =======
 "A form field set as used in product documents can't be linked to a quotation "
 "document."
@@ -761,10 +789,16 @@ msgstr "ฟิลด์ฟอร์มที่ใช้ในเอกสาร
 #: code:addons/sale_pdf_quote_builder/models/sale_pdf_form_field.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A form field set as used in quotation documents can't be linked to a product"
 " document."
 msgstr ""
 "ฟิลด์ฟอร์มที่ใช้ในเอกสารใบเสนอราคาไม่สามารถเชื่อมโยงกับเอกสารผลิตภัณฑ์ได้"
+=======
+"A form field set as used in quotation documents can't be linked to a product "
+"document."
+msgstr "ฟิลด์ฟอร์มที่ใช้ในเอกสารใบเสนอราคาไม่สามารถเชื่อมโยงกับเอกสารผลิตภัณฑ์ได้"
+>>>>>>> upstream/18.0
 =======
 "A form field set as used in quotation documents can't be linked to a product "
 "document."
@@ -797,6 +831,7 @@ msgstr "อัปโหลดไฟล์ทั้งหมด"
 msgid ""
 "Allows you to share the document with your customers within a sale.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Leave it empty if you don't want to share this document with sales customer.\n"
 "On quote: the document will be sent to and accessible by customers at any time.\n"
 "e.g. this option can be useful to share Product description files.\n"
@@ -804,6 +839,8 @@ msgid ""
 "e.g. this option can be useful to share User Manual or digital content bought on ecommerce. \n"
 "Inside quote: The document will be included in the pdf of the quotation and sale order between the header pages and the quote table. "
 =======
+=======
+>>>>>>> upstream/18.0
 "Leave it empty if you don't want to share this document with sales "
 "customer.\n"
 "On quote: the document will be sent to and accessible by customers at any "
@@ -815,6 +852,9 @@ msgid ""
 "bought on ecommerce. \n"
 "Inside quote: The document will be included in the pdf of the quotation and "
 "sale order between the header pages and the quote table. "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 "ช่วยให้คุณสามารถแชร์เอกสารกับลูกค้าของคุณภายในการขาย\n"
@@ -824,7 +864,12 @@ msgstr ""
 "ในการยืนยันคำสั่งซื้อ: เอกสารจะถูกส่งถึงและลูกค้าสามารถเข้าถึงได้\n"
 "เช่น ตัวเลือกนี้อาจมีประโยชน์ในการแชร์คู่มือผู้ใช้หรือเนื้อหาดิจิทัลที่ซื้อจากอีคอมเมิร์ซ\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "ในใบเสนอราคา: เอกสารจะรวมอยู่ใน pdf ของใบเสนอราคาและใบสั่งขายระหว่างหน้าส่วนหัวและตารางใบเสนอราคา"
+=======
+"ในใบเสนอราคา: เอกสารจะรวมอยู่ใน pdf "
+"ของใบเสนอราคาและใบสั่งขายระหว่างหน้าส่วนหัวและตารางใบเสนอราคา"
+>>>>>>> upstream/18.0
 =======
 "ในใบเสนอราคา: เอกสารจะรวมอยู่ใน pdf "
 "ของใบเสนอราคาและใบสั่งขายระหว่างหน้าส่วนหัวและตารางใบเสนอราคา"
@@ -942,7 +987,11 @@ msgid "Customizable"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ปรับแต่งได้"
+>>>>>>> upstream/18.0
 =======
 msgstr "ปรับแต่งได้"
 >>>>>>> upstream/18.0
@@ -1256,8 +1305,13 @@ msgid ""
 "footer can not start with \"sol_id_\"."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "ชื่อฟิลด์ฟอร์มไม่ถูกต้อง %(field_name)s "
 "ชื่อฟิลด์ฟอร์มในส่วนหัวหรือส่วนท้ายไม่สามารถเริ่มต้นด้วย \"sol_id_\" ได้"
+=======
+"ชื่อฟิลด์ฟอร์มไม่ถูกต้อง %(field_name)s ชื่อฟิลด์ฟอร์มในส่วนหัวหรือส่วนท้ายไม่สามารถเริ่มต้นด้วย "
+"\"sol_id_\" ได้"
+>>>>>>> upstream/18.0
 =======
 "ชื่อฟิลด์ฟอร์มไม่ถูกต้อง %(field_name)s ชื่อฟิลด์ฟอร์มในส่วนหัวหรือส่วนท้ายไม่สามารถเริ่มต้นด้วย "
 "\"sol_id_\" ได้"
@@ -1271,8 +1325,13 @@ msgid ""
 "alphanumerics, hyphens or underscores."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "ชื่อฟิลด์ฟอร์มไม่ถูกต้อง %(field_name)s ควรประกอบด้วยตัวอักษรและตัวเลข "
 "เครื่องหมายขีดกลาง หรือเครื่องหมายขีดล่างเท่านั้น"
+=======
+"ชื่อฟิลด์ฟอร์มไม่ถูกต้อง %(field_name)s ควรประกอบด้วยตัวอักษรและตัวเลข เครื่องหมายขีดกลาง "
+"หรือเครื่องหมายขีดล่างเท่านั้น"
+>>>>>>> upstream/18.0
 =======
 "ชื่อฟิลด์ฟอร์มไม่ถูกต้อง %(field_name)s ควรประกอบด้วยตัวอักษรและตัวเลข เครื่องหมายขีดกลาง "
 "หรือเครื่องหมายขีดล่างเท่านั้น"
@@ -1286,8 +1345,13 @@ msgid ""
 "underscores or points."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "เส้นทาง %(path)s ไม่ถูกต้อง ควรประกอบด้วยตัวอักษรและตัวเลข "
 "เครื่องหมายยัติภังค์ เครื่องหมายขีดล่าง หรือจุดเท่านั้น"
+=======
+"เส้นทาง %(path)s ไม่ถูกต้อง ควรประกอบด้วยตัวอักษรและตัวเลข เครื่องหมายยัติภังค์ "
+"เครื่องหมายขีดล่าง หรือจุดเท่านั้น"
+>>>>>>> upstream/18.0
 =======
 "เส้นทาง %(path)s ไม่ถูกต้อง ควรประกอบด้วยตัวอักษรและตัวเลข เครื่องหมายยัติภังค์ "
 "เครื่องหมายขีดล่าง หรือจุดเท่านั้น"
@@ -1412,6 +1476,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.sale_order_template_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Provide header pages and footer pages to compose an attractive quotation with more information\n"
 "                        about your company, your products and you services. <br/>\n"
 "                        The pdf of your quotes will be built by putting together header pages, product descriptions,\n"
@@ -1422,6 +1487,8 @@ msgstr ""
 "                        เกี่ยวกับบริษัท ผลิตภัณฑ์ และบริการของคุณ<br/>\n"
 "                        PDF ของใบเสนอราคาของคุณจะถูกสร้างขึ้นโดยการรวมหน้าส่วนหัว คำอธิบายผลิตภัณฑ์\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "Provide header pages and footer pages to compose an attractive quotation "
 "with more information\n"
 "                        about your company, your products and you services. "
@@ -1437,6 +1504,9 @@ msgstr ""
 "                        เกี่ยวกับบริษัท ผลิตภัณฑ์ และบริการของคุณ<br/>\n"
 "                        PDF ของใบเสนอราคาของคุณจะถูกสร้างขึ้นโดยการรวมหน้าส่วนหัว "
 "คำอธิบายผลิตภัณฑ์\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                        รายละเอียดของใบเสนอราคา และหน้าส่วนท้ายเข้าด้วยกัน <br/>\n"
 "                        หากว่างเปล่า จะใช้สิ่งที่กำหนดไว้ในการตั้งค่าบริษัท <br/>"
@@ -1519,7 +1589,11 @@ msgid "Quote Builder"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ตัวสร้างใบเสนอราคา"
+>>>>>>> upstream/18.0
 =======
 msgstr "ตัวสร้างใบเสนอราคา"
 >>>>>>> upstream/18.0
@@ -1690,8 +1764,12 @@ msgstr "การขาย : มองเห็นได้ที่"
 msgid "Sale Pdf Quote Builder: assign form fields to documents post upgrade"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "โปรแกรมสร้างใบเสนอราคา PDF สำหรับการขาย: "
 "กำหนดฟิลด์ฟอร์มให้กับเอกสารหลังการอัปเกรด"
+=======
+"โปรแกรมสร้างใบเสนอราคา PDF สำหรับการขาย: กำหนดฟิลด์ฟอร์มให้กับเอกสารหลังการอัปเกรด"
+>>>>>>> upstream/18.0
 =======
 "โปรแกรมสร้างใบเสนอราคา PDF สำหรับการขาย: กำหนดฟิลด์ฟอร์มให้กับเอกสารหลังการอัปเกรด"
 >>>>>>> upstream/18.0
@@ -1802,8 +1880,12 @@ msgid ""
 "link to your file."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "คุณสามารถอัปโหลดไฟล์จากคอมพิวเตอร์ของคุณ "
 "หรือคัดลอก/วางอินเตอร์เน็ตลิงก์ไปยังไฟล์ของคุณ"
+=======
+"คุณสามารถอัปโหลดไฟล์จากคอมพิวเตอร์ของคุณ หรือคัดลอก/วางอินเตอร์เน็ตลิงก์ไปยังไฟล์ของคุณ"
+>>>>>>> upstream/18.0
 =======
 "คุณสามารถอัปโหลดไฟล์จากคอมพิวเตอร์ของคุณ หรือคัดลอก/วางอินเตอร์เน็ตลิงก์ไปยังไฟล์ของคุณ"
 >>>>>>> upstream/18.0

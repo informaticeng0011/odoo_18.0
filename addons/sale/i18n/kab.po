@@ -39,6 +39,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -151,6 +155,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2023-05-16 13:49+0000\n"
 <<<<<<< HEAD
@@ -369,11 +374,16 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2025-12-31 16:39+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Kabyle <https://translate.odoo.com/projects/odoo-18/sale/kab/>"
 "\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Language: kab\n"
 "MIME-Version: 1.0\n"
@@ -416,6 +426,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
@@ -457,6 +468,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
 =======
 "X-Generator: Weblate 5.14.3\n"
@@ -549,7 +563,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/sale/models/sale_order_line.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "%(line_description)s (Canceled)"
+=======
+msgid "%(attribute)s: %(values)s"
+>>>>>>> upstream/18.0
 =======
 msgid "%(attribute)s: %(values)s"
 >>>>>>> upstream/18.0
@@ -558,8 +576,13 @@ msgstr ""
 #. module: sale
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/sale/models/sale_order_line.py:0
 msgid "%(line_description)s (Draft)"
+=======
+#: code:addons/sale/wizard/sale_make_invoice_advance.py:0
+msgid "%s has been created"
+>>>>>>> upstream/18.0
 =======
 #: code:addons/sale/wizard/sale_make_invoice_advance.py:0
 msgid "%s has been created"
@@ -579,8 +602,11 @@ msgstr ""
 #. module: sale
 #: model:ir.actions.report,print_report_name:sale.action_report_saleorder
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "(object.state in ('draft', 'sent') and 'Quotation - %s' % (object.name)) or 'Order - %s' % (object.name)"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "(object.state in ('draft', 'sent') and 'Quotation - %s' % (object.name)) or "
 "'Order - %s' % (object.name)"
@@ -599,12 +625,16 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
 msgid "31.05"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sale
 #. odoo-javascript
 #: code:addons/sale/static/src/js/tours/sale.js:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgid "<b>Congratulations</b>, your first quotation is sent!<br>Check your email to validate the quote."
 msgstr ""
@@ -620,6 +650,8 @@ msgstr ""
 #: code:addons/sale/static/src/js/tours/sale.js:0
 msgid "<b>Set a price</b>."
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "<b>Send the quote</b> to yourself and check what the customer will receive."
 msgstr ""
@@ -685,6 +717,9 @@ msgid ""
 "    </p>\n"
 "</div>\n"
 "            "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -695,12 +730,15 @@ msgid ""
 "    <p style=\"margin: 0px; padding: 0px; font-size: 12px;\">\n"
 "        Hello,\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <br><br>\n"
 "        <t t-set=\"tx_sudo\" t-value=\"object.get_portal_last_transaction()\"></t>\n"
 "        Your order <span style=\"font-weight:bold;\" t-out=\"object.name or ''\">S00049</span> amounting in <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount_total, object.currency_id) or ''\">$ 10.00</span>\n"
 "        <t t-if=\"object.state == 'sale' or (tx_sudo and tx_sudo.state in ('done', 'authorized'))\">\n"
 "            has been confirmed.<br>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        <br/><br/>\n"
 "        <t t-set=\"tx_sudo\" t-value=\"object.get_portal_last_transaction()"
 "\"/>\n"
@@ -711,12 +749,16 @@ msgid ""
 "        <t t-if=\"object.state == 'sale' or (tx_sudo and tx_sudo.state in "
 "('done', 'authorized'))\">\n"
 "            has been confirmed.<br/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            Thank you for your trust!\n"
 "        </t>\n"
 "        <t t-elif=\"tx_sudo and tx_sudo.state == 'pending'\">\n"
 "            is pending. It will be confirmed when the payment is received.\n"
 "            <t t-if=\"object.reference\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                Your payment reference is <span style=\"font-weight:bold;\" t-out=\"object.reference or ''\"></span>.\n"
 "            </t>\n"
@@ -744,6 +786,8 @@ msgid ""
 "                        <t t-else=\"\">\n"
 "                            VAT Incl.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                Your payment reference is <span style=\"font-weight:bold;\" "
 "t-out=\"object.reference or ''\"/>.\n"
 "            </t>\n"
@@ -798,12 +842,16 @@ msgid ""
 "                        </t>\n"
 "                        <t t-else=\"\">\n"
 "                            Tax Incl.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                        </t>\n"
 "                    </span>\n"
 "                </td>\n"
 "            </tr>\n"
 "        </table>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "        <t t-foreach=\"object.order_line\" t-as=\"line\">\n"
 "            <t t-if=\"(not hasattr(line, 'is_delivery') or not line.is_delivery) and line.display_type in ['line_section', 'line_note']\">\n"
@@ -818,6 +866,8 @@ msgid ""
 "                            <t t-elif=\"line.display_type == 'line_note'\">\n"
 "                                <i t-out=\"line.name or ''\">Taking care of Trees Course</i>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        <t t-set=\"current_subtotal\" t-value=\"0\"/>\n"
 "        <t t-foreach=\"object.order_line\" t-as=\"line\">\n"
 "            <t t-set=\"line_subtotal\" t-value=\"                     "
@@ -852,12 +902,16 @@ msgid ""
 "                            <t t-elif=\"line.display_type == 'line_note'\">\n"
 "                                <i t-out=\"line.name or ''\">Taking care of "
 "Trees Course</i>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                            </t>\n"
 "                        </td>\n"
 "                    </tr>\n"
 "                </table>\n"
 "            </t>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "            <t t-elif=\"(not hasattr(line, 'is_delivery') or not line.is_delivery)\">\n"
 "                <table width=\"100%\" style=\"color: #454748; font-size: 12px; border-collapse: collapse;\">\n"
@@ -876,6 +930,8 @@ msgid ""
 "                        <t t-else=\"\">\n"
 "                            <t t-out=\"format_amount(line.price_reduce_taxinc, object.currency_id) or ''\">$ 10.00</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            <t t-elif=\"(not hasattr(line, 'is_delivery') or not "
 "line.is_delivery)\">\n"
 "                <table width=\"100%\" style=\"color: #454748; font-size: "
@@ -908,12 +964,16 @@ msgid ""
 "                            <t t-"
 "out=\"format_amount(line.price_reduce_taxinc, object.currency_id) or ''\">$ "
 "10.00</t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                        </t>\n"
 "                        </span></td>\n"
 "                    </tr>\n"
 "                </table>\n"
 "            </t>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "        </t>\n"
 "    </div>\n"
@@ -929,6 +989,8 @@ msgid ""
 "                <td style=\"width: 30%;\" align=\"right\"><span style=\"font-weight:bold;\">SubTotal:</span></td>\n"
 "                <td style=\"width: 10%;\" align=\"right\" t-out=\"format_amount(object.amount_untaxed, object.currency_id) or ''\">$ 10.00</td>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            <t t-if=\"current_section and "
 "(                     line_last                     or "
 "object.order_line[line_index+1].display_type == "
@@ -977,11 +1039,15 @@ msgid ""
 "                <td style=\"width: 10%;\" align=\"right\" t-"
 "out=\"format_amount(object.amount_untaxed, object.currency_id) or ''\">$ "
 "10.00</td>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            </tr>\n"
 "        </table>\n"
 "    </div>\n"
 "    <div style=\"margin: 0px; padding: 0px;\" t-else=\"\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "        <table width=\"100%\" style=\"color: #454748; font-size: 12px; border-spacing: 0px 4px;\" align=\"right\">\n"
 "            <tr>\n"
@@ -989,6 +1055,8 @@ msgid ""
 "                <td style=\"width: 30%; border-top: 1px solid #dee2e6;\" align=\"right\"><span style=\"font-weight:bold;\">SubTotal:</span></td>\n"
 "                <td style=\"width: 10%; border-top: 1px solid #dee2e6;\" align=\"right\" t-out=\"format_amount(object.amount_untaxed, object.currency_id) or ''\">$ 10.00</td>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        <table width=\"100%\" style=\"color: #454748; font-size: 12px; "
 "border-spacing: 0px 4px; white-space: nowrap;\" align=\"right\">\n"
 "            <tr>\n"
@@ -999,11 +1067,15 @@ msgid ""
 "                <td style=\"width: 10%; border-top: 1px solid #dee2e6;\" "
 "align=\"right\" t-out=\"format_amount(object.amount_untaxed, "
 "object.currency_id) or ''\">$ 10.00</td>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            </tr>\n"
 "        </table>\n"
 "    </div>\n"
 "    <div style=\"margin: 0px; padding: 0px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "        <table width=\"100%\" style=\"color: #454748; font-size: 12px; border-spacing: 0px 4px;\" align=\"right\">\n"
 "            <tr>\n"
@@ -1020,6 +1092,8 @@ msgid ""
 "    </div>\n"
 "    <div t-if=\"object.partner_invoice_id\" style=\"margin: 0px; padding: 0px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        <table width=\"100%\" style=\"color: #454748; font-size: 12px; "
 "border-spacing: 0px 4px; white-space: nowrap;\" align=\"right\">\n"
 "            <tr>\n"
@@ -1042,11 +1116,15 @@ msgid ""
 "    </div>\n"
 "    <div t-if=\"object.partner_invoice_id\" style=\"margin: 0px; padding: "
 "0px;\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "        <table width=\"100%\" style=\"color: #454748; font-size: 12px;\">\n"
 "            <tr>\n"
 "                <td style=\"padding-top: 10px;\">\n"
 "                    <span style=\"font-weight:bold;\">Bill to:</span>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                    <t t-out=\"object.partner_invoice_id.street or ''\">1201 S Figueroa St</t>\n"
 "                    <t t-out=\"object.partner_invoice_id.city or ''\">Los Angeles</t>\n"
@@ -1054,6 +1132,8 @@ msgid ""
 "                    <t t-out=\"object.partner_invoice_id.zip or ''\">90015</t>\n"
 "                    <t t-out=\"object.partner_invoice_id.country_id.name or ''\">United States</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                    <t t-out=\"object.partner_invoice_id.street or ''\">1201 "
 "S Figueroa St</t>\n"
 "                    <t t-out=\"object.partner_invoice_id.city or ''\">Los "
@@ -1064,11 +1144,15 @@ msgid ""
 "t>\n"
 "                    <t t-out=\"object.partner_invoice_id.country_id.name or "
 "''\">United States</t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                </td>\n"
 "            </tr>\n"
 "            <tr>\n"
 "                <td>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                    <span style=\"font-weight:bold;\">Payment Method:</span>\n"
 "                    <t t-if=\"tx_sudo.token_id\">\n"
@@ -1079,6 +1163,8 @@ msgid ""
 "                    </t>\n"
 "                    (<t t-out=\"format_amount(tx_sudo.amount, object.currency_id) or ''\">$ 10.00</t>)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                    <span style=\"font-weight:bold;\">Payment Method:</"
 "span>\n"
 "                    <t t-if=\"tx_sudo.token_id\">\n"
@@ -1090,11 +1176,15 @@ msgid ""
 "                    </t>\n"
 "                    (<t t-out=\"format_amount(tx_sudo.amount, "
 "object.currency_id) or ''\">$ 10.00</t>)\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                </td>\n"
 "            </tr>\n"
 "        </table>\n"
 "    </div>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "    <div t-if=\"object.partner_shipping_id and not object.only_services\" style=\"margin: 0px; padding: 0px;\">\n"
 "        <table width=\"100%\" style=\"color: #454748; font-size: 12px;\">\n"
@@ -1116,6 +1206,8 @@ msgid ""
 "                    <span style=\"font-weight:bold;\">Shipping Method:</span>\n"
 "                    <t t-out=\"object.carrier_id.name or ''\"></t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "    <div t-if=\"object.partner_shipping_id and not object.only_services\" "
 "style=\"margin: 0px; padding: 0px;\">\n"
 "        <table width=\"100%\" style=\"color: #454748; font-size: 12px;\">\n"
@@ -1143,13 +1235,21 @@ msgid ""
 "                    <span style=\"font-weight:bold;\">Shipping Method:</"
 "span>\n"
 "                    <t t-out=\"object.carrier_id.name or ''\"/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                    <t t-if=\"object.amount_delivery == 0.0\">\n"
 "                        (Free)\n"
 "                    </t>\n"
 "                    <t t-else=\"\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        (<t t-out=\"format_amount(object.amount_delivery, object.currency_id) or ''\">$ 10.00</t>)\n"
+=======
+"                        (<t t-out=\"format_amount(object.amount_delivery, "
+"object.currency_id) or ''\">$ 10.00</t>)\n"
+>>>>>>> upstream/18.0
 =======
 "                        (<t t-out=\"format_amount(object.amount_delivery, "
 "object.currency_id) or ''\">$ 10.00</t>)\n"
@@ -1161,7 +1261,11 @@ msgid ""
 "                <td>\n"
 "                    <strong>Shipping Description:</strong>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <t t-out=\"object.carrier_id.carrier_description\"></t>\n"
+=======
+"                    <t t-out=\"object.carrier_id.carrier_description\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                    <t t-out=\"object.carrier_id.carrier_description\"/>\n"
 >>>>>>> upstream/18.0
@@ -1178,6 +1282,7 @@ msgstr ""
 msgid ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "        <t t-set=\"doc_name\" t-value=\"'quotation' if object.state in ('draft', 'sent') else 'order'\"></t>\n"
 "        Hello,\n"
@@ -1205,6 +1310,8 @@ msgid ""
 "        </t>\n"
 "        <br><br>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        <t t-set=\"doc_name\" t-value=\"'quotation' if object.state in "
 "('draft', 'sent') else 'order'\"/>\n"
 "        Hello,\n"
@@ -1262,6 +1369,9 @@ msgid ""
 "quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 "        </t>\n"
 "        <br/><br/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "    </p>\n"
 "</div>\n"
@@ -1273,6 +1383,7 @@ msgstr ""
 msgid ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "        <t t-set=\"doc_name\" t-value=\"object.type_name\"></t>\n"
 "        Dear <t t-out=\"object.partner_id.name or ''\">user</t>,\n"
@@ -1288,6 +1399,8 @@ msgid ""
 "        Do not hesitate to contact us if you have any questions.\n"
 "        <br>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        <t t-set=\"doc_name\" t-value=\"object.type_name\"/>\n"
 "        Dear <t t-out=\"object.partner_id.name or ''\">user</t>,\n"
 "        <br/><br/>\n"
@@ -1304,6 +1417,9 @@ msgid ""
 "        <br/><br/>\n"
 "        Do not hesitate to contact us if you have any questions.\n"
 "        <br/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "    </p>\n"
 "</div>\n"
@@ -1321,6 +1437,7 @@ msgid "<i class=\"fa fa-comment\"/> Feedback"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "<i class=\"fa fa-comment\"/> Send message"
@@ -1478,12 +1595,20 @@ msgid "<i class=\"fa fa-fw fa-check\" role=\"img\" aria-label=\"Done\" title=\"D
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_content
 msgid "<i class=\"fa fa-fw fa-check\"/> Authorized"
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_content
+msgid "<i class=\"fa fa-fw fa-check\"/> Authorized"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_content
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-fw fa-check\"/> <b>Authorized</b>"
+=======
+msgid "<i class=\"fa fa-fw fa-check\"/> Paid"
+>>>>>>> upstream/18.0
 =======
 msgid "<i class=\"fa fa-fw fa-check\"/> Paid"
 >>>>>>> upstream/18.0
@@ -1492,12 +1617,16 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_content
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-fw fa-check\"/> <b>Paid</b>"
 msgstr ""
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_content
 msgid "<i class=\"fa fa-fw fa-clock-o\"/> <b>Waiting Payment</b>"
+=======
+msgid "<i class=\"fa fa-fw fa-check\"/> Reversed"
+>>>>>>> upstream/18.0
 =======
 msgid "<i class=\"fa fa-fw fa-check\"/> Reversed"
 >>>>>>> upstream/18.0
@@ -1510,9 +1639,12 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sale.utm_campaign_view_kanban
 msgid "<i class=\"fa fa-fw fa-money me-1\" aria-label=\"Quotations\" role=\"img\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_content
 msgid "<i class=\"fa fa-fw fa-clock-o\"/> Waiting Payment"
 msgstr ""
@@ -1521,6 +1653,9 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale.utm_campaign_view_kanban
 msgid ""
 "<i class=\"fa fa-fw fa-money me-1\" aria-label=\"Quotations\" role=\"img\"/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -1531,18 +1666,25 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sale.crm_lead_partner_kanban_view
 msgid "<i class=\"fa fa-fw fa-usd\" role=\"img\" aria-label=\"Sale orders\" title=\"Sales orders\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid ""
 "<i class=\"fa fa-lock\"/>\n"
 "                    Locked"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgid "<i class=\"fa fa-print\"/> Print"
 <<<<<<< HEAD
@@ -1690,6 +1832,10 @@ msgstr "<i class=\"fa fa-print\"/> Siggez"
 msgid "<i class=\"fa fa-print me-1\"/>View Details"
 msgstr ""
 >>>>>>> upstream/18.0
+=======
+msgid "<i class=\"fa fa-print me-1\"/>View Details"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
@@ -1697,6 +1843,7 @@ msgid "<i class=\"fa fa-times\"/> Reject"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
 <<<<<<< HEAD
 #. odoo-python
 #: code:addons/sale/models/sale_order_line.py:0
@@ -1708,17 +1855,26 @@ msgid ""
 "                whether it's a storable product, a consumable or a service.\n"
 "            </p>"
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.crm_lead_partner_kanban_view
 msgid ""
 "<i class=\"fa fa-usd me-1\" role=\"img\" aria-label=\"Sale orders\" "
 "title=\"Sales orders\"/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<small><b class=\"text-muted\">This offer expires on</b></small>"
+=======
+msgid "<small class=\"text-muted\">Your contact</small>"
+>>>>>>> upstream/18.0
 =======
 msgid "<small class=\"text-muted\">Your contact</small>"
 >>>>>>> upstream/18.0
@@ -1731,6 +1887,7 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sale.view_sale_advance_payment_inv
 msgid ""
 "<span attrs=\"{'invisible': [('advance_payment_method', '!=', 'percentage')]}\" class=\"oe_inline\">% </span>\n"
@@ -1742,6 +1899,8 @@ msgstr ""
 #. module: sale
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.portal_my_orders
 msgid ""
 "<span class=\"d-none d-md-inline\">Sales Order #</span>\n"
@@ -1750,7 +1909,10 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid ""
 "<span class=\"fa fa-exclamation-triangle text-warning me-1\" title=\"This "
@@ -1766,6 +1928,9 @@ msgid ""
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.crm_team_salesteams_view_form
 msgid "<span class=\"flex-grow-1\">/ Month</span>"
@@ -1773,12 +1938,18 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "<span class=\"mx-3\" invisible=\"not require_payment\">of</span>"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.product_form_view_sale_order_button
 #: model_terms:ir.ui.view,arch_db:sale.product_template_form_view_sale_order_button
@@ -1788,8 +1959,11 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<span>Accepted on the behalf of:</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "<span id=\"o_sale_portal_use_amount_total\">\n"
 "                                                By paying,\n"
@@ -1824,6 +1998,9 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_content
 msgid "<span>Amount</span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -1832,18 +2009,25 @@ msgstr ""
 msgid ""
 "<span>Are you sure you want to cancel this order? <br/></span>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <span id=\"display_invoice_alert\" attrs=\"{'invisible': [('display_invoice_alert', '=', False)]}\">\n"
 "                            Draft invoices for this order will be cancelled. <br/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                        <span id=\"display_invoice_alert\" invisible=\"not "
 "display_invoice_alert\">\n"
 "                            Draft invoices for this order will be cancelled. "
 "<br/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                        </span>"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "<span>By paying this proposal, I agree to the following terms:</span>"
@@ -1857,12 +2041,15 @@ msgstr ""
 #. module: sale
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_content
 msgid "<span>Disc.%</span>"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "<span>For an amount of:</span>"
@@ -1892,11 +2079,16 @@ msgid "<span>Tax incl.</span>"
 #: model_terms:ir.ui.view,arch_db:sale.product_document_kanban
 msgid "<span>Sales visibility</span>"
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:sale.product_document_kanban
+msgid "<span>Sales visibility</span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_content
 msgid "<span>Taxes</span>"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2057,6 +2249,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_content
 msgid "<strong class=\"d-block mb-1\">Invoices</strong>"
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "<span>Tiẓeṭṭaḍin</span>"
 
 #. module: sale
@@ -2072,6 +2266,9 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
 msgid "<strong class=\"d-block mt-3\">Shipping Address</strong>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -2082,6 +2279,7 @@ msgid "<strong class=\"mr16\">Subtotal</strong>"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "<strong class=\"text-muted\">Salesperson</strong>"
@@ -2099,6 +2297,10 @@ msgid "<strong>Expiration:</strong>"
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
 msgid "<strong>Expiration</strong>"
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
+msgid "<strong>Expiration</strong>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sale
@@ -2107,6 +2309,7 @@ msgid "<strong>Fiscal Position Remark:</strong>"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid ""
@@ -2136,6 +2339,10 @@ msgid "<strong>Shipping Address:</strong>"
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
 msgid "<strong>Salesperson</strong>"
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
+msgid "<strong>Salesperson</strong>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sale
@@ -2144,6 +2351,7 @@ msgid "<strong>Signature</strong>"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "<strong>Tax excl.: </strong>"
@@ -2155,6 +2363,8 @@ msgid "<strong>Tax incl.: </strong>"
 msgstr ""
 
 #. module: sale
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
@@ -2169,7 +2379,11 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<strong>This quotation has been canceled.</strong>"
+=======
+msgid "<strong>This quotation has been cancelled.</strong>"
+>>>>>>> upstream/18.0
 =======
 msgid "<strong>This quotation has been cancelled.</strong>"
 >>>>>>> upstream/18.0
@@ -2178,7 +2392,11 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<strong>Your Reference:</strong>"
+=======
+msgid "<strong>Your Reference</strong>"
+>>>>>>> upstream/18.0
 =======
 msgid "<strong>Your Reference</strong>"
 >>>>>>> upstream/18.0
@@ -2191,6 +2409,7 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,help:sale.field_sale_advance_payment_inv__advance_payment_method
 msgid "A standard invoice is issued with all the order lines ready for invoicing,according to their invoicing policy (based on ordered or delivered quantity)."
 msgstr ""
@@ -2202,6 +2421,8 @@ msgid ""
 "A consumable product is a product for which stock is not managed.\n"
 "A service is a non-material product you provide."
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/sale/models/sale_order.py:0
 msgid "A line on these orders missing a product, you cannot confirm it."
@@ -2237,6 +2458,9 @@ msgid ""
 "A standard invoice is issued with all the order lines ready for "
 "invoicing,according to their invoicing policy (based on ordered or delivered "
 "quantity)."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -2248,7 +2472,13 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Ability to select a package type in sales orders and to force a quantity that is a multiple of the number of units per package."
+=======
+msgid ""
+"Ability to select a package type in sales orders and to force a quantity "
+"that is a multiple of the number of units per package."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "Ability to select a package type in sales orders and to force a quantity "
@@ -2287,11 +2517,14 @@ msgstr ""
 #: model:ir.model.fields,help:sale.field_sale_order_line__qty_delivered_method
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "According to product configuration, the delivered quantity can be automatically computed by mechanism:\n"
 "  - Manual: the quantity is set manually on the line\n"
 "  - Analytic From expenses: the quantity is the quantity sum from posted expenses\n"
 "  - Timesheet: the quantity is the sum of hours recorded on tasks linked to this sale line\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "According to product configuration, the delivered quantity can be "
 "automatically computed by mechanism:\n"
 "  - Manual: the quantity is set manually on the line\n"
@@ -2299,18 +2532,27 @@ msgid ""
 "expenses\n"
 "  - Timesheet: the quantity is the sum of hours recorded on tasks linked to "
 "this sale line\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "  - Stock Moves: the quantity comes from confirmed pickings\n"
 msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:sale.model_account_chart_template
 msgid "Account Chart Template"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_sale_payment_provider_onboarding_wizard__acc_number
 msgid "Account Number"
@@ -2318,11 +2560,14 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,help:sale.field_sale_advance_payment_inv__deposit_account_id
 msgid "Account used for deposits"
 msgstr ""
 
 #. module: sale
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.actions.act_window,name:sale.action_accrued_revenue_entry
@@ -2368,6 +2613,7 @@ msgid "Action Needed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Tigawt taḍullit"
@@ -2620,6 +2866,8 @@ msgstr "Irmuden"
 msgstr "Irmuden"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Tigawt taḍullit"
 
 #. module: sale
@@ -2627,6 +2875,9 @@ msgstr "Tigawt taḍullit"
 #: model:ir.ui.menu,name:sale.sale_menu_config_activities
 msgid "Activities"
 msgstr "Irmuden"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale
@@ -2668,6 +2919,7 @@ msgid "Activity Exception Decoration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Abreqqes n tsureft n urmud"
@@ -2775,12 +3027,17 @@ msgstr "Abreqqes n tsureft n urmud"
 msgstr "Abreqqes n tsureft n urmud"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Abreqqes n tsureft n urmud"
 
 #. module: sale
 #: model:ir.ui.menu,name:sale.sale_menu_config_activity_plan
 msgid "Activity Plans"
 msgstr "Iɣawasen n urmud"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale
@@ -2822,7 +3079,11 @@ msgid "Activity State"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Addad n urmud"
+>>>>>>> upstream/18.0
 =======
 msgstr "Addad n urmud"
 >>>>>>> upstream/18.0
@@ -2971,7 +3232,11 @@ msgid "Activity Type Icon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tigniṭ n tewsit n urmud"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tigniṭ n tewsit n urmud"
 >>>>>>> upstream/18.0
@@ -3085,6 +3350,7 @@ msgstr "Tigniṭ n tewsit n urmud"
 #: model:ir.actions.act_window,name:sale.mail_activity_type_action_config_sale
 #: model:ir.ui.menu,name:sale.sale_menu_config_activity_type
 msgid "Activity Types"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3374,6 +3640,8 @@ msgstr "Rnu"
 msgstr "Rnu"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Tiwsatin n urmud"
 
 #. module: sale
@@ -3389,6 +3657,9 @@ msgstr ""
 #: code:addons/sale/static/src/js/product/product.xml:0
 msgid "Add"
 msgstr "Rnu"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale
@@ -3408,7 +3679,10 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Add note"
 msgstr ""
@@ -3436,6 +3710,9 @@ msgid "Add section"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Add several variants to an order from a grid"
@@ -3453,7 +3730,10 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:sale.field_product_document__attached_on_sale
 msgid ""
 "Allows you to share the document with your customers within a sale.\n"
@@ -3476,6 +3756,9 @@ msgid "Already Paid"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_sale_advance_payment_inv__amount_invoiced
 #: model:ir.model.fields,field_description:sale.field_sale_order__amount_invoiced
@@ -3489,7 +3772,10 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_sale_order_discount__discount_amount
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_line_view_form_readonly
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
@@ -3497,6 +3783,9 @@ msgid "Amount"
 msgstr "Azal"
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_sale_order__amount_undiscounted
 msgid "Amount Before Discount"
@@ -3510,7 +3799,10 @@ msgstr ""
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_advance_payment_inv__amount_to_invoice
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:sale.field_sale_order__amount_to_invoice
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "Amount to invoice"
@@ -3520,6 +3812,7 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:sale.action_orders_upselling
 msgid ""
 "An order is to upsell when delivered quantities are above initially\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "            ordered quantities, and the invoicing policy is based on ordered quantities."
 msgstr ""
@@ -3820,6 +4113,8 @@ msgstr "Anadi n Tiski Tusliḍt"
 msgstr "Anadi n Tiski Tusliḍt"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "            ordered quantities, and the invoicing policy is based on ordered "
 "quantities."
 msgstr ""
@@ -3828,6 +4123,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__analytic_distribution
 msgid "Analytic Distribution"
 msgstr "Tiski Tusliḍt"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale
@@ -3874,7 +4172,11 @@ msgid "Analytic Line"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ajerrid n tesleḍt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ajerrid n tesleḍt"
 >>>>>>> upstream/18.0
@@ -4028,7 +4330,11 @@ msgid "Analytic Precision"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tiseddi Tusliḍt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tiseddi Tusliḍt"
 >>>>>>> upstream/18.0
@@ -4145,9 +4451,12 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Apply manual discounts on sales order lines or display discounts computed from pricelists (option to activate in the pricelist configuration)."
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_line_wizard_form
 msgid "Apply"
 msgstr "Snes"
@@ -4157,6 +4466,9 @@ msgstr "Snes"
 msgid ""
 "Apply manual discounts on sales order lines or display discounts computed "
 "from pricelists (option to activate in the pricelist configuration)."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -4168,7 +4480,11 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.mass_cancel_orders_view_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Are you sure you want to cancel the selected quotation?"
+=======
+msgid "Are you sure you want to cancel the selected item?"
+>>>>>>> upstream/18.0
 =======
 msgid "Are you sure you want to cancel the selected item?"
 >>>>>>> upstream/18.0
@@ -4177,7 +4493,13 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Are you sure you want to void the authorized transaction? This action can't be undone."
+=======
+msgid ""
+"Are you sure you want to void the authorized transaction? This action can't "
+"be undone."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "Are you sure you want to void the authorized transaction? This action can't "
@@ -4200,6 +4522,7 @@ msgstr ""
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order__message_attachment_count
 msgid "Attachment Count"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4348,17 +4671,23 @@ msgstr "Asiḍen n Tsawit"
 msgid "Attribute Value"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Asiḍen n Tsawit"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__product_template_attribute_value_ids
 msgid "Attribute Values"
 msgstr "Azalen n imyerr"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale
 #: model:ir.ui.menu,name:sale.menu_product_attribute_action
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sale.sale_product_catalog_search_view
 msgid "Attributes"
@@ -4507,6 +4836,10 @@ msgstr "Imyerra"
 msgid "Attributes"
 msgstr "Imyerra"
 >>>>>>> upstream/18.0
+=======
+msgid "Attributes"
+msgstr "Imyerra"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_cancel__author_id
@@ -4547,7 +4880,11 @@ msgid "Author"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ameskar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ameskar"
 >>>>>>> upstream/18.0
@@ -4669,7 +5006,10 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.sale_report_view_tree
 msgid "Average"
 msgstr ""
@@ -4680,6 +5020,9 @@ msgid "Bacon Burger"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_sale_payment_provider_onboarding_wizard__journal_name
 msgid "Bank Name"
@@ -4697,13 +5040,19 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.actions.act_window,help:sale.action_quotations
 #: model_terms:ir.actions.act_window,help:sale.action_quotations_with_onboarding
 msgid "Beat competitors with stunning quotations!"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:sale.selection__product_template__sale_line_warn__block
 #: model:ir.model.fields.selection,name:sale.selection__res_partner__sale_warn__block
@@ -4713,8 +5062,11 @@ msgstr ""
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_cancel__body_has_template_value
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Body content is the same as tmeplate"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid "Body content is the same as the template"
 msgstr ""
 
@@ -4724,14 +5076,20 @@ msgstr ""
 msgid ""
 "Boost sales with online payments or signatures, upsells, and a great "
 "customer portal."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Boost your sales with multiple kinds of programs: Coupons, Promotions, Gift Card, Loyalty. Specific conditions can be set (products, customers, minimum purchase amount, period). Rewards can be discounts (% or amount) or free products."
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Boost your sales with multiple kinds of programs: Coupons, Promotions, Gift "
 "Card, Loyalty. Specific conditions can be set (products, customers, minimum "
@@ -4758,12 +5116,16 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "By signing, you confirm acceptance on behalf of"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_account_bank_statement_line__campaign_id
 #: model:ir.model.fields,field_description:sale.field_account_move__campaign_id
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.model.fields,field_description:sale.field_account_payment__campaign_id
 #: model:ir.model.fields,field_description:sale.field_sale_order__campaign_id
@@ -4911,10 +5273,15 @@ msgstr "Amzizzel"
 msgstr "Amzizzel"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_sale_order__campaign_id
 #: model:ir.model.fields,field_description:sale.field_sale_report__campaign_id
 msgid "Campaign"
 msgstr "Amzizzel"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale
@@ -4929,12 +5296,18 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/sale/static/src/js/combo_configurator_dialog/combo_configurator_dialog.xml:0
 #: code:addons/sale/static/src/js/product_configurator_dialog/product_configurator_dialog.xml:0
 #: model:ir.actions.act_window,name:sale.action_mass_cancel_orders
 #: model_terms:ir.ui.view,arch_db:sale.mass_cancel_orders_view_form
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_cancel_view_form
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
@@ -4956,7 +5329,10 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.actions.act_window,name:sale.action_mass_cancel_orders
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.mass_cancel_orders_view_form
@@ -4971,7 +5347,10 @@ msgstr "Ifsax"
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/sale/models/sale_order.py:0
 msgid ""
@@ -4990,6 +5369,9 @@ msgid ""
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Capture Transaction"
@@ -5039,6 +5421,7 @@ msgid "Category"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Taggayt"
@@ -5146,17 +5529,23 @@ msgstr "Taggayt"
 msgstr "Taggayt"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Taggayt"
 
 #. module: sale
 #: model:product.template,name:sale.product_product_1_product_template
 msgid "Chair floor protection"
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale
 #. odoo-python
 #: code:addons/sale/models/sale_order.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgid "Changing the company of an existing quotation might need some manual adjustments in the details of the lines. You might consider updating the prices."
 msgstr ""
@@ -5170,6 +5559,8 @@ msgstr ""
 #: model:ir.actions.act_window,name:sale.action_open_sale_payment_provider_onboarding_wizard
 msgid "Choose how to confirm quotations"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Changing the company of an existing quotation might need some manual "
 "adjustments in the details of the lines. You might consider updating the "
@@ -5180,6 +5571,9 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:sale.action_quotations
 #: model_terms:ir.actions.act_window,help:sale.action_quotations_with_onboarding
 msgid "Check a sample. It's clean!"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -5198,6 +5592,7 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "Close"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5486,6 +5881,8 @@ msgstr "Yemdel"
 msgstr "Yemdel"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Mdel"
 
 #. module: sale
@@ -5502,6 +5899,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__module_sale_commission
 msgid "Commissions"
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale
@@ -5511,12 +5911,18 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "Communication history"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model,name:sale.model_res_company
 msgid "Companies"
@@ -5526,6 +5932,10 @@ msgstr "Tikebbaniyin"
 #: model:ir.model.fields,field_description:sale.field_sale_advance_payment_inv__company_id
 #: model:ir.model.fields,field_description:sale.field_sale_order__company_id
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:sale.field_sale_order_discount__company_id
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:sale.field_sale_order_discount__company_id
 >>>>>>> upstream/18.0
@@ -5538,9 +5948,14 @@ msgstr "Takebbwanit"
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/sale/static/src/js/tours/sale.js:0
 msgid "Complete your company's data"
+=======
+#: model:ir.model,name:sale.model_base_document_layout
+msgid "Company Document Layout"
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model,name:sale.model_base_document_layout
 msgid "Company Document Layout"
@@ -5550,12 +5965,18 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Compute shipping costs and ship with DHL"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Compute shipping costs and ship with DHL<br/>\n"
 "                                    <strong>(please go to Home&gt;Apps to "
 "install)</strong>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -5567,12 +5988,18 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Compute shipping costs and ship with FedEx"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Compute shipping costs and ship with FedEx<br/>\n"
 "                                    <strong>(please go to Home&gt;Apps to "
 "install)</strong>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -5584,7 +6011,11 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Compute shipping costs and ship with UPS"
+=======
+msgid "Compute shipping costs and ship with Shiprocket"
+>>>>>>> upstream/18.0
 =======
 msgid "Compute shipping costs and ship with Shiprocket"
 >>>>>>> upstream/18.0
@@ -5593,8 +6024,11 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Compute shipping costs and ship with USPS"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid "Compute shipping costs and ship with Starshipit"
 msgstr ""
 
@@ -5612,6 +6046,9 @@ msgid ""
 "Compute shipping costs and ship with USPS<br/>\n"
 "                                    <strong>(please go to Home&gt;Apps to "
 "install)</strong>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -5664,7 +6101,11 @@ msgid "Config Settings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sefrek aɣewwaṛ"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sefrek aɣewwaṛ"
 >>>>>>> upstream/18.0
@@ -5813,6 +6254,7 @@ msgid "Configuration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Tawila"
@@ -6065,6 +6507,8 @@ msgstr "Sentem"
 msgstr "Sentem"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Tawila"
 
 #. module: sale
@@ -6085,6 +6529,9 @@ msgstr "Sentem"
 #: model:ir.model.fields,field_description:sale.field_payment_link_wizard__confirmation_message
 msgid "Confirmation Message"
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale
@@ -6093,6 +6540,7 @@ msgid "Connectors"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.model,name:sale.model_res_partner
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
@@ -6239,6 +6687,8 @@ msgstr "Anermis"
 msgstr "Anermis"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_sale_advance_payment_inv__consolidated_billing
 msgid "Consolidated Billing"
 msgstr ""
@@ -6247,11 +6697,15 @@ msgstr ""
 #: model:ir.model,name:sale.model_res_partner
 msgid "Contact"
 msgstr "Anermis"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_cancel__body
 msgid "Contents"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6399,6 +6853,8 @@ msgstr "Igburen"
 #: model:ir.model.fields,help:sale.field_sale_order_line__product_uom_category_id
 msgid "Conversion between Units of Measure can only occur if they belong to the same category. The conversion will be made based on the ratios."
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Igburen"
 
 #. module: sale
@@ -6406,6 +6862,9 @@ msgstr "Igburen"
 msgid ""
 "Conversion between Units of Measure can only occur if they belong to the "
 "same category. The conversion will be made based on the ratios."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -6422,6 +6881,7 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_view_search_inherit_quotation
 msgid "Create Date"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6569,11 +7029,16 @@ msgstr "Azemz n tmerna"
 #: model_terms:ir.ui.view,arch_db:sale.view_sale_advance_payment_inv
 msgid "Create Draft Invoice"
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Azemz n tmerna"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_sale_advance_payment_inv
 msgid "Create Draft"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -6590,12 +7055,18 @@ msgstr "Rnu tifaturin"
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.actions.act_window,help:sale.mail_activity_plan_action_sale_order
 msgid "Create a Sale Order Activity Plan"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.actions.act_window,help:sale.action_invoice_salesteams
 msgid "Create a customer invoice"
@@ -6640,7 +7111,11 @@ msgid "Create a new product"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rnu afaris amaynut"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rnu afaris amaynut"
 >>>>>>> upstream/18.0
@@ -6755,9 +7230,13 @@ msgstr "Rnu afaris amaynut"
 #: model_terms:ir.actions.act_window,help:sale.action_orders
 #: model_terms:ir.actions.act_window,help:sale.action_orders_salesteams
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.actions.act_window,help:sale.action_quotations
 #: model_terms:ir.actions.act_window,help:sale.action_quotations_salesteams
 #: model_terms:ir.actions.act_window,help:sale.action_quotations_with_onboarding
+=======
+#: model_terms:ir.actions.act_window,help:sale.action_quotations_salesteams
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.actions.act_window,help:sale.action_quotations_salesteams
 >>>>>>> upstream/18.0
@@ -6767,7 +7246,11 @@ msgstr ""
 #. module: sale
 #: model:ir.actions.act_window,name:sale.action_view_sale_advance_payment_inv
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Create invoices"
+=======
+msgid "Create invoice(s)"
+>>>>>>> upstream/18.0
 =======
 msgid "Create invoice(s)"
 >>>>>>> upstream/18.0
@@ -6776,8 +7259,11 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.actions.act_window,help:sale.action_invoice_salesteams
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Create invoices, register payments and keep track of the discussions with your customers."
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Create invoices, register payments and keep track of the discussions with "
 "your customers."
@@ -6793,6 +7279,9 @@ msgstr ""
 msgid ""
 "Create one invoice for all orders related to same customer and same "
 "invoicing address"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -6802,6 +7291,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale.field_sale_order__create_uid
 #: model:ir.model.fields,field_description:sale.field_sale_order_cancel__create_uid
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:sale.field_sale_order_discount__create_uid
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:sale.field_sale_order_discount__create_uid
 >>>>>>> upstream/18.0
@@ -6815,6 +7308,10 @@ msgstr "Yerna-t"
 #: model:ir.model.fields,field_description:sale.field_sale_mass_cancel_orders__create_date
 #: model:ir.model.fields,field_description:sale.field_sale_order_cancel__create_date
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:sale.field_sale_order_discount__create_date
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:sale.field_sale_order_discount__create_date
 >>>>>>> upstream/18.0
@@ -6845,6 +7342,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale.field_sale_advance_payment_inv__currency_id
 #: model:ir.model.fields,field_description:sale.field_sale_order__currency_id
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:sale.field_sale_order_discount__currency_id
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:sale.field_sale_order_discount__currency_id
 >>>>>>> upstream/18.0
@@ -6876,6 +7377,11 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/sale/models/sale_order.py:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-python
 #: code:addons/sale/models/sale_order.py:0
@@ -6921,6 +7427,7 @@ msgid "Customer Signature"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.model.fields,field_description:sale.field_sale_advance_payment_inv__deposit_taxes_id
 msgid "Customer Taxes"
@@ -7226,6 +7733,8 @@ msgstr ""
 #: code:addons/sale/static/src/js/tours/sale.js:0
 msgid "Customize your quotes and orders."
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_sale_report__state_id
 msgid "Customer State"
 msgstr ""
@@ -7250,6 +7759,9 @@ msgstr "Imsaɣen"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "DHL Connector"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -7297,7 +7809,11 @@ msgid "Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Azemz"
+>>>>>>> upstream/18.0
 =======
 msgstr "Azemz"
 >>>>>>> upstream/18.0
@@ -7446,7 +7962,11 @@ msgid "Date:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Azemz:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Azemz:"
 >>>>>>> upstream/18.0
@@ -7561,7 +8081,13 @@ msgstr "Azemz:"
 #: model:ir.model.fields,help:sale.field_res_config_settings__quotation_validity_days
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Days between quotation proposal and expiration. 0 days means automatic expiration is disabled"
+=======
+msgid ""
+"Days between quotation proposal and expiration. 0 days means automatic "
+"expiration is disabled"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "Days between quotation proposal and expiration. 0 days means automatic "
@@ -7582,10 +8108,13 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,help:sale.field_res_company__sale_down_payment_product_id
 #: model:ir.model.fields,help:sale.field_res_config_settings__deposit_default_product_id
 msgid "Default product used for down payments"
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_sale_order__company_price_include
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__company_price_include
 msgid "Default Sales Price Include"
@@ -7597,11 +8126,15 @@ msgstr ""
 msgid ""
 "Default on whether the sales price used on the product and invoices with "
 "this Company includes its taxes."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgid "Default values"
 msgstr ""
@@ -7610,6 +8143,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Default values used when creating new quotations. Those can still be changed on each quotation."
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Default period during which the quote is valid and can still be accepted by "
 "the customer. The default can be changed per order or template."
@@ -7618,6 +8153,9 @@ msgstr ""
 #. module: sale
 #: model:ir.model.fields,help:sale.field_res_company__sale_discount_product_id
 msgid "Default product used for discounts"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -7666,13 +8204,19 @@ msgstr ""
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_order__expected_date
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Delivery date you can promise to the customer, computed from the minimum lead time of the order lines in case of Service products. In case of shipping, the shipping policy of the order will be taken into account to either use the minimum or maximum lead time of the order lines."
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Delivery date you can promise to the customer, computed from the minimum "
 "lead time of the order lines in case of Service products. In case of "
 "shipping, the shipping policy of the order will be taken into account to "
 "either use the minimum or maximum lead time of the order lines."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -7683,12 +8227,15 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:sale.field_res_company__sale_down_payment_product_id
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__deposit_default_product_id
 msgid "Deposit Product"
 msgstr ""
 
 #. module: sale
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__name
@@ -7699,8 +8246,11 @@ msgstr "Aglam"
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/sale/static/src/js/product_discount_field.js:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
@@ -7710,6 +8260,7 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.mass_cancel_orders_view_form
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_cancel_view_form
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgid "Discard"
 <<<<<<< HEAD
@@ -7854,6 +8405,8 @@ msgstr "Sefsex"
 msgstr "Sefsex"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_line_wizard_form
 msgid "Discard"
 msgstr "Sefsex"
@@ -7866,6 +8419,9 @@ msgstr "Sefsex"
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Discount"
 msgstr "Tuǧǧit"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale
@@ -7875,7 +8431,10 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/sale/wizard/sale_order_discount.py:0
 msgid "Discount %(percent)s%%"
@@ -7888,6 +8447,9 @@ msgid "Discount %(percent)s%%- On products with the following taxes %(taxes)s"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__discount
 msgid "Discount (%)"
@@ -7900,12 +8462,15 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Discounts, Loyalty & Gift Card"
 msgstr ""
 
 #. module: sale
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_res_company__sale_discount_product_id
 msgid "Discount Product"
 msgstr "Afris n tuǧǧit"
@@ -7942,6 +8507,9 @@ msgid "Discounts"
 msgstr "Tuǧǧiyin"
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_sale_advance_payment_inv__display_draft_invoice_warning
 msgid "Display Draft Invoice Warning"
@@ -7958,6 +8526,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale.field_sale_order__display_name
 #: model:ir.model.fields,field_description:sale.field_sale_order_cancel__display_name
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:sale.field_sale_order_discount__display_name
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:sale.field_sale_order_discount__display_name
 >>>>>>> upstream/18.0
@@ -8001,7 +8573,11 @@ msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Isem n Ubeqqeḍ"
+>>>>>>> upstream/18.0
 =======
 msgstr "Isem n Ubeqqeḍ"
 >>>>>>> upstream/18.0
@@ -8118,9 +8694,14 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/sale/static/src/js/product_discount_field.js:0
 msgid "Do you want to apply this value to all lines?"
+=======
+#: model:ir.model.fields,field_description:sale.field_sale_order_line__distribution_analytic_account_ids
+msgid "Distribution Analytic Account"
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__distribution_analytic_account_ids
 msgid "Distribution Analytic Account"
@@ -8166,6 +8747,7 @@ msgid "Documentation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Tasemlit"
@@ -8273,17 +8855,23 @@ msgstr "Tasemlit"
 msgstr "Tasemlit"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Tasemlit"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_content
 msgid "Documents"
 msgstr "Arraten"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_account_analytic_applicability__business_domain
 msgid "Domain"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8438,6 +9026,8 @@ msgstr "Immed"
 #. odoo-python
 #: code:addons/sale/wizard/sale_make_invoice_advance.py:0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Taɣult"
 
 #. module: sale
@@ -8445,15 +9035,21 @@ msgstr "Taɣult"
 #: code:addons/sale/models/sale_order_line.py:0
 #: code:addons/sale/wizard/sale_make_invoice_advance.py:0
 #: model:ir.model.fields,field_description:sale.field_sale_advance_payment_inv__amount
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "Down Payment"
 msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:sale.field_sale_advance_payment_inv__amount
 msgid "Down Payment Amount"
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/sale/models/sale_order_line.py:0
 msgid "Down Payment (Cancelled)"
@@ -8463,6 +9059,9 @@ msgstr ""
 #. odoo-python
 #: code:addons/sale/models/sale_order_line.py:0
 msgid "Down Payment (ref: %(reference)s on %(date)s)"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -8472,6 +9071,7 @@ msgid "Down Payment Amount (Fixed)"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.model.fields,field_description:sale.field_sale_advance_payment_inv__product_id
 msgid "Down Payment Product"
@@ -8486,14 +9086,23 @@ msgid "Down Payment: %s (Draft)"
 #: code:addons/sale/models/sale_order_line.py:0
 msgid "Down Payment: %(date)s (Draft)"
 >>>>>>> upstream/18.0
+=======
+#. odoo-python
+#: code:addons/sale/models/sale_order_line.py:0
+msgid "Down Payment: %(date)s (Draft)"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sale
 #. odoo-python
 #: code:addons/sale/models/sale_order.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/sale/wizard/sale_make_invoice_advance.py:0
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
+=======
+#: code:addons/sale/models/sale_order_line.py:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/sale/models/sale_order_line.py:0
 >>>>>>> upstream/18.0
@@ -8502,12 +9111,15 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/sale/wizard/sale_make_invoice_advance.py:0
 msgid "Down payment"
 msgstr ""
 
 #. module: sale
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:sale.selection__sale_advance_payment_inv__advance_payment_method__fixed
@@ -8521,7 +9133,10 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "Down payment <br/>"
 msgstr ""
@@ -8533,6 +9148,9 @@ msgid "Down payment invoice"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/sale/wizard/sale_make_invoice_advance.py:0
@@ -8541,6 +9159,7 @@ msgstr ""
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_order_line__is_downpayment
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgid "Down payments are made when creating invoices from a sales order. They are not copied when duplicating a sales order."
 msgstr ""
@@ -8690,6 +9309,8 @@ msgstr "Zdem"
 msgstr "Zdem"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Down payments are made when creating invoices from a sales order. They are "
 "not copied when duplicating a sales order."
@@ -8699,6 +9320,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale.field_product_category__property_account_downpayment_categ_id
 msgid "Downpayment Account"
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale
@@ -8710,10 +9334,13 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:sale.selection__sale_report__state__draft
 msgid "Draft Quotation"
 msgstr "Asutar n ssuma arewway"
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Duplicated Documents"
 msgstr ""
@@ -8722,6 +9349,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale.field_sale_order__duplicated_order_ids
 msgid "Duplicated Order"
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale
@@ -8730,6 +9360,7 @@ msgid "Easypost Connector"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sale.sale_product_catalog_kanban_view
 msgid "Edit"
@@ -8878,6 +9509,8 @@ msgstr "Ẓreg"
 #. module: sale
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/sale/static/src/js/sale_product_field.js:0
 msgid "Edit Configuration"
@@ -8927,7 +9560,11 @@ msgid "Email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Imayl"
+>>>>>>> upstream/18.0
 =======
 msgstr "Imayl"
 >>>>>>> upstream/18.0
@@ -9049,7 +9686,10 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/sale/static/src/js/product_template_attribute_line/product_template_attribute_line.js:0
 msgid "Enter a customized value"
@@ -9063,6 +9703,9 @@ msgid ""
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_sale_order__expected_date
 msgid "Expected Date"
@@ -9075,9 +9718,14 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,help:sale.field_product_product__expense_policy
 #: model:ir.model.fields,help:sale.field_product_template__expense_policy
 msgid "Expenses and vendor bills can be re-invoiced to a customer.With this option, a validated expense can be re-invoice to a customer at its cost or sales price."
+=======
+#: model_terms:ir.ui.view,arch_db:sale.product_template_form_view
+msgid "Expense"
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:sale.product_template_form_view
 msgid "Expense"
@@ -9091,9 +9739,14 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/sale/models/sale_order.py:0
 msgid "Expires on %(date)s"
+=======
+#: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_content
+msgid "Expiration Date:"
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_content
 msgid "Expiration Date:"
@@ -9117,6 +9770,7 @@ msgid "Extra line with %s"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sale.sale_product_catalog_search_view
 msgid "Favorites"
@@ -9268,6 +9922,10 @@ msgstr "Ismenyifen"
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__module_delivery_fedex
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields,field_description:sale.field_res_config_settings__module_delivery_fedex
+#: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
+>>>>>>> upstream/18.0
 msgid "FedEx Connector"
 msgstr ""
 
@@ -9279,8 +9937,11 @@ msgstr "Imiḍanen n unhil amtewsan"
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_order__fiscal_position_id
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Fiscal positions are used to adapt taxes and accounts for particular customers or sales orders/invoices.The default value comes from the customer."
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Fiscal positions are used to adapt taxes and accounts for particular "
 "customers or sales orders/invoices.The default value comes from the customer."
@@ -9294,6 +9955,9 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.portal_my_home_sale
 msgid "Follow, view or pay your orders"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -9320,8 +9984,11 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.actions.act_window,help:sale.action_account_invoice_report_salesteam
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "From this report, you can have an overview of the amount invoiced to your customer. The search tool can also be used to personalise your Invoices reports and so, match this analysis to your needs."
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "From this report, you can have an overview of the amount invoiced to your "
 "customer. The search tool can also be used to personalise your Invoices "
@@ -9331,6 +9998,9 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "Full amount <br/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -9339,6 +10009,10 @@ msgstr ""
 #: model:ir.model.fields.selection,name:sale.selection__sale_order_line__invoice_status__invoiced
 #: model:ir.model.fields.selection,name:sale.selection__sale_report__invoice_status__invoiced
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:sale.selection__sale_report__line_invoice_status__invoiced
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields.selection,name:sale.selection__sale_report__line_invoice_status__invoiced
 >>>>>>> upstream/18.0
@@ -9368,13 +10042,19 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/sale/models/sale_order.py:0
 msgid "Generated Orders"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Get warnings in orders for products or customers"
@@ -9382,10 +10062,13 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/sale/static/src/js/tours/sale.js:0
 msgid "Good job, let's continue."
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:sale.selection__sale_order_discount__discount_type__so_discount
 msgid "Global Discount"
 msgstr ""
@@ -9401,6 +10084,9 @@ msgstr ""
 msgid ""
 "Goods are tangible materials and merchandise you provide.\n"
 "A service is a non-material product you provide."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -9416,7 +10102,10 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sale.sale_product_catalog_search_view
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.view_order_product_search
@@ -9432,12 +10121,18 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_sale_order__has_archived_products
 msgid "Has Archived Products"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_sale_mass_cancel_orders__has_confirmed_order
 msgid "Has Confirmed Order"
@@ -9464,6 +10159,7 @@ msgid "Has down payments"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "History"
@@ -9613,6 +10309,11 @@ msgstr "Amazray"
 msgid "Hidden"
 msgstr "Iffer"
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields.selection,name:sale.selection__product_document__attached_on_sale__hidden
+msgid "Hidden"
+msgstr "Iffer"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_advance_payment_inv__id
@@ -9620,6 +10321,10 @@ msgstr "Iffer"
 #: model:ir.model.fields,field_description:sale.field_sale_order__id
 #: model:ir.model.fields,field_description:sale.field_sale_order_cancel__id
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:sale.field_sale_order_discount__id
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:sale.field_sale_order_discount__id
 >>>>>>> upstream/18.0
@@ -9652,9 +10357,12 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sale.view_sales_order_auto_done_setting
 msgid "If the sale is locked, you can not modify it anymore. However, you will still be able to invoice or deliver."
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:sale.field_sale_order__journal_id
 msgid ""
 "If set, the SO will invoice in this journal; otherwise the sales journal "
@@ -9666,6 +10374,9 @@ msgstr ""
 msgid ""
 "If the sale is locked, you can not modify it anymore. However, you will "
 "still be able to invoice or deliver."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -9681,12 +10392,18 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Immediate"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Import Amazon orders and sync deliveries"
@@ -9700,7 +10417,11 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sale.sale_product_catalog_search_view
+=======
+#: model_terms:ir.ui.view,arch_db:sale.product_view_search_catalog
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:sale.product_view_search_catalog
 >>>>>>> upstream/18.0
@@ -9714,14 +10435,20 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:sale.field_sale_advance_payment_inv__deposit_account_id
 msgid "Income Account"
 msgstr "Compte de revenus"
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/sale/wizard/sale_order_discount.py:0
 msgid "Invalid discount amount"
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale
@@ -9786,7 +10513,11 @@ msgstr "Feter izirigen n tladna"
 #: model:ir.model.fields,field_description:sale.field_sale_order__invoice_status
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__invoice_status
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:sale.field_sale_report__invoice_status
+=======
+#: model:ir.model.fields,field_description:sale.field_sale_report__line_invoice_status
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:sale.field_sale_report__line_invoice_status
 >>>>>>> upstream/18.0
@@ -9795,7 +10526,12 @@ msgstr "Addad n ufeter"
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sale.product_template_form_view
+=======
+#. odoo-python
+#: code:addons/sale/models/product_template.py:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-python
 #: code:addons/sale/models/product_template.py:0
@@ -9805,9 +10541,12 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,help:sale.field_crm_team__invoiced
 msgid "Invoice revenue for the current month. This is the amount the sales channel has invoiced this month. It is used to compute the progression ratio of the current and target revenue on the kanban view."
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/sale/models/product_template.py:0
 msgid "Invoice ordered quantities as soon as this service is sold."
@@ -9819,6 +10558,9 @@ msgid ""
 "Invoice revenue for the current month. This is the amount the sales channel "
 "has invoiced this month. It is used to compute the progression ratio of the "
 "current and target revenue on the kanban view."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -9839,12 +10581,18 @@ msgstr "Ittufter"
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__amount_invoiced
 msgid "Invoiced Amount"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__qty_invoiced
 msgid "Invoiced Quantity"
@@ -9852,12 +10600,18 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__qty_invoiced_posted
 msgid "Invoiced Quantity (posted)"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/sale/models/sale_order_line.py:0
@@ -9891,6 +10645,10 @@ msgstr "Tidaddanin n tfaturin"
 #: model_terms:ir.ui.view,arch_db:sale.crm_team_view_kanban_dashboard
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:sale.view_order_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 >>>>>>> upstream/18.0
@@ -9901,14 +10659,20 @@ msgstr "Afeter"
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_content
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Invoicing Address:"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid "Invoicing Address"
 msgstr ""
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order__journal_id
 msgid "Invoicing Journal"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -9926,6 +10690,7 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Invoicing and Payments"
 msgstr ""
@@ -9934,6 +10699,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_content
 msgid "Invoicing and Shipping Address:"
+=======
+#: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
+#: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_content
+msgid "Invoicing and Shipping Address"
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_content
@@ -9963,12 +10733,18 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__is_product_archived
 msgid "Is Product Archived"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__is_downpayment
 msgid "Is a down payment"
@@ -9981,12 +10757,18 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__is_configurable_product
 msgid "Is the product configurable?"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,help:sale.field_sale_order_line__is_expense
 msgid "Is true if the sales order line comes from an expense or a vendor bills"
@@ -9994,12 +10776,18 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
 msgid "Issued Date"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/sale/models/sale_order_line.py:0
@@ -10009,6 +10797,7 @@ msgid ""
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
 <<<<<<< HEAD
 #. odoo-python
 #: code:addons/sale/models/sale_order.py:0
@@ -10164,10 +10953,16 @@ msgstr "Taceqquft n tsiḍent"
 msgid "Journal Entry"
 msgstr "Taceqquft n tsiḍent"
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model,name:sale.model_account_move
+msgid "Journal Entry"
+msgstr "Taceqquft n tsiḍent"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model:ir.model,name:sale.model_account_move_line
 msgid "Journal Item"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10320,6 +11115,9 @@ msgstr ""
 =======
 msgstr "Amagrad n uɣmis"
 >>>>>>> upstream/18.0
+=======
+msgstr "Amagrad n uɣmis"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_cancel__lang
@@ -10360,6 +11158,7 @@ msgid "Language"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Tutlayt"
@@ -10467,12 +11266,17 @@ msgstr "Tutlayt"
 msgstr "Tutlayt"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Tutlayt"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_content
 msgid "Last Invoices"
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale
@@ -10481,6 +11285,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale.field_sale_order__write_uid
 #: model:ir.model.fields,field_description:sale.field_sale_order_cancel__write_uid
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:sale.field_sale_order_discount__write_uid
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:sale.field_sale_order_discount__write_uid
 >>>>>>> upstream/18.0
@@ -10495,6 +11303,10 @@ msgstr "Aleqqem aneggaru sɣuṛ"
 #: model:ir.model.fields,field_description:sale.field_sale_order__write_date
 #: model:ir.model.fields,field_description:sale.field_sale_order_cancel__write_date
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:sale.field_sale_order_discount__write_date
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:sale.field_sale_order_discount__write_date
 >>>>>>> upstream/18.0
@@ -10522,6 +11334,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/sale/static/src/js/tours/sale.js:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Let's send the quote."
 msgstr ""
 
@@ -10534,6 +11347,8 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_sales_order_auto_done_setting
 =======
+=======
+>>>>>>> upstream/18.0
 msgid "Let’s create a beautiful quotation in a few clicks ."
 msgstr ""
 
@@ -10554,6 +11369,9 @@ msgstr ""
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "Lock"
 msgstr ""
@@ -10566,7 +11384,11 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:sale.selection__sale_order__state__done
+=======
+#: model:ir.model.fields,field_description:sale.field_sale_order__locked
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:sale.field_sale_order__locked
 >>>>>>> upstream/18.0
@@ -10574,6 +11396,7 @@ msgid "Locked"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
 <<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/sale/static/src/js/tours/sale.js:0
@@ -10583,6 +11406,10 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.onboarding_quotation_layout_step
 msgid "Looks great!"
+=======
+#: model:ir.model.fields,help:sale.field_sale_order__locked
+msgid "Locked orders cannot be modified."
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,help:sale.field_sale_order__locked
 msgid "Locked orders cannot be modified."
@@ -10597,8 +11424,11 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Manage Promotions, coupons, loyalty cards, Gift cards & eWallet"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Make your quote attractive by adding header pages, product descriptions and "
 "footer pages to your quote."
@@ -10612,6 +11442,9 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Manage Sales & teams targets and commissions"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -10654,7 +11487,11 @@ msgid "Manual"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "awfus"
+>>>>>>> upstream/18.0
 =======
 msgstr "awfus"
 >>>>>>> upstream/18.0
@@ -10779,16 +11616,22 @@ msgstr ""
 #: model:ir.model.fields,help:sale.field_product_template__service_type
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Manually set quantities on order: Invoice based on the manually entered quantity, without creating an analytic account.\n"
 "Timesheets on contract: Invoice based on the tracked hours on the related timesheet.\n"
 "Create a task and track hours: Create a task on the sales order validation and track the work hours."
 =======
+=======
+>>>>>>> upstream/18.0
 "Manually set quantities on order: Invoice based on the manually entered "
 "quantity, without creating an analytic account.\n"
 "Timesheets on contract: Invoice based on the tracked hours on the related "
 "timesheet.\n"
 "Create a task and track hours: Create a task on the sales order validation "
 "and track the work hours."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -10827,7 +11670,11 @@ msgid "Marketing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tasnezzit"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tasnezzit"
 >>>>>>> upstream/18.0
@@ -10899,7 +11746,10 @@ msgstr "Tasnezzit"
 #: model:ir.model.fields,field_description:sale.field_account_bank_statement_line__medium_id
 #: model:ir.model.fields,field_description:sale.field_account_move__medium_id
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:sale.field_account_payment__medium_id
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_sale_order__medium_id
@@ -10909,7 +11759,11 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sale.product_template_form_view_sale_order_button
+=======
+#: model_terms:ir.ui.view,arch_db:sale.product_template_form_view
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:sale.product_template_form_view
 >>>>>>> upstream/18.0
@@ -10973,7 +11827,11 @@ msgid "Messages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Iznan"
+>>>>>>> upstream/18.0
 =======
 msgstr "Iznan"
 >>>>>>> upstream/18.0
@@ -11122,7 +11980,11 @@ msgid "Method"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tarrayt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tarrayt"
 >>>>>>> upstream/18.0
@@ -11244,12 +12106,18 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
 msgid "Mitchell Admin"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_sale_order__my_activity_date_deadline
 msgid "My Activity Deadline"
@@ -11310,7 +12178,11 @@ msgid "New"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Amaynut"
+>>>>>>> upstream/18.0
 =======
 msgstr "Amaynut"
 >>>>>>> upstream/18.0
@@ -11484,7 +12356,11 @@ msgid "No"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ala"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ala"
 >>>>>>> upstream/18.0
@@ -11602,7 +12478,10 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/sale/models/sale_order.py:0
 msgid "No attachment was provided"
@@ -11614,6 +12493,9 @@ msgid "No further requirements for this payment"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "No longer edit orders once confirmed"
@@ -11630,6 +12512,7 @@ msgid "No orders to upsell found."
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.model.fields.selection,name:sale.selection__res_company__sale_onboarding_order_confirmation_state__not_done
 #: model:ir.model.fields.selection,name:sale.selection__res_company__sale_onboarding_sample_quotation_state__not_done
@@ -11783,10 +12666,15 @@ msgstr "Awennit"
 msgstr "Awennit"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:sale.selection__sale_order_line__display_type__line_note
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Note"
 msgstr "Awennit"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale
@@ -11794,6 +12682,10 @@ msgstr "Awennit"
 #: model:ir.model.fields.selection,name:sale.selection__sale_order_line__invoice_status__no
 #: model:ir.model.fields.selection,name:sale.selection__sale_report__invoice_status__no
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:sale.selection__sale_report__line_invoice_status__no
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields.selection,name:sale.selection__sale_report__line_invoice_status__no
 >>>>>>> upstream/18.0
@@ -11801,6 +12693,7 @@ msgid "Nothing to Invoice"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
 <<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/sale/static/src/js/tours/sale.js:0
@@ -11956,6 +12849,11 @@ msgstr "Uṭṭun"
 msgid "Number"
 msgstr "Uṭṭun"
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:sale.sale_order_tree
+msgid "Number"
+msgstr "Uṭṭun"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order__message_needaction_counter
@@ -11965,7 +12863,13 @@ msgstr ""
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_order_line__customer_lead
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Number of days between the order confirmation and the shipping of the products to the customer"
+=======
+msgid ""
+"Number of days between the order confirmation and the shipping of the "
+"products to the customer"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "Number of days between the order confirmation and the shipping of the "
@@ -11981,7 +12885,11 @@ msgstr ""
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_order__message_needaction_counter
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Number of messages which requires an action"
+=======
+msgid "Number of messages requiring action"
+>>>>>>> upstream/18.0
 =======
 msgid "Number of messages requiring action"
 >>>>>>> upstream/18.0
@@ -12004,6 +12912,7 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.actions.act_window,help:sale.act_res_partner_2_sale_order
 #: model_terms:ir.actions.act_window,help:sale.action_orders_salesteams
 #: model_terms:ir.actions.act_window,help:sale.action_quotations
@@ -12011,6 +12920,8 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:sale.action_quotations_with_onboarding
 msgid "Once the quotation is confirmed by the customer, it becomes a sales order.<br> You will be able to create an invoice and collect the payment."
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:product.template,description_sale:sale.product_product_1_product_template
 msgid "Office chairs can harm your floor: protect it."
 msgstr ""
@@ -12046,13 +12957,22 @@ msgstr ""
 msgid ""
 "Once the quotation is confirmed by the customer, it becomes a sales order."
 "<br> You will be able to create an invoice and collect the payment."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sale
 #: model_terms:ir.actions.act_window,help:sale.action_orders
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Once the quotation is confirmed, it becomes a sales order.<br> You will be able to create an invoice and collect the payment."
+=======
+msgid ""
+"Once the quotation is confirmed, it becomes a sales order.<br> You will be "
+"able to create an invoice and collect the payment."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "Once the quotation is confirmed, it becomes a sales order.<br> You will be "
@@ -12064,7 +12984,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale.field_res_company__portal_confirmation_pay
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__portal_confirmation_pay
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:sale.field_sale_order__require_payment
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "Online Payment"
@@ -12072,10 +12995,13 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:sale.field_res_company__portal_confirmation_sign
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__portal_confirmation_sign
 #: model:ir.model.fields,field_description:sale.field_sale_order__require_signature
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.ui.menu,name:sale.payment_menu
 msgid "Online Payments"
 msgstr ""
@@ -12083,15 +13009,21 @@ msgstr ""
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_res_company__portal_confirmation_sign
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__portal_confirmation_sign
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "Online Signature"
 msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Online confirmation"
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_sale_order__require_payment
 msgid "Online payment"
 msgstr ""
@@ -12099,6 +13031,9 @@ msgstr ""
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order__require_signature
 msgid "Online signature"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -12116,6 +13051,7 @@ msgstr ""
 #. module: sale
 #: model:ir.model.constraint,message:sale.constraint_product_attribute_custom_value_sol_custom_value_unique
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Only one Custom Value is allowed per Attribute Value per Sales Order Line."
 msgstr ""
 
@@ -12123,6 +13059,10 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/sale/static/src/js/tours/sale.js:0
 msgid "Open Sales app to send your first quotation in a few clicks."
+=======
+msgid ""
+"Only one Custom Value is allowed per Attribute Value per Sales Order Line."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "Only one Custom Value is allowed per Attribute Value per Sales Order Line."
@@ -12137,12 +13077,15 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,help:sale.field_sale_order_cancel__lang
 msgid "Optional translation language (ISO code) to select when sending out an email. If not set, the english version will be used. This should usually be a placeholder expression that provides the appropriate language, e.g. {{ object.partner_id.lang }}."
 msgstr ""
 
 #. module: sale
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/sale/models/sale_order_line.py:0
 msgid "Option for: %s"
@@ -12181,6 +13124,9 @@ msgstr ""
 #. odoo-python
 #: code:addons/sale/models/sale_order.py:0
 #: model:ir.model.fields,field_description:sale.field_sale_report__order_reference
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.view_sales_order_filter
 #: model_terms:ir.ui.view,arch_db:sale.view_sales_order_line_filter
@@ -12189,7 +13135,10 @@ msgstr "Taladna"
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:sale.field_sale_report__order_id
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
@@ -12198,11 +13147,14 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sale.sale_onboarding_order_confirmation_step
 msgid "Order Confirmation"
 msgstr ""
 
 #. module: sale
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_sale_advance_payment_inv__count
@@ -12216,6 +13168,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale.field_sale_report__date
 #: model_terms:ir.ui.view,arch_db:sale.portal_my_orders
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
 >>>>>>> upstream/18.0
@@ -12228,7 +13184,11 @@ msgstr "Azemz n tladna"
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
+=======
+#: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_content
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_content
 >>>>>>> upstream/18.0
@@ -12242,12 +13202,18 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_sale_report__invoice_status
 msgid "Order Invoice Status"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_sale_order__order_line
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
@@ -12341,7 +13307,11 @@ msgid "Orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tiludna"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tiludna"
 >>>>>>> upstream/18.0
@@ -12466,12 +13436,18 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
 msgid "Oscar Morgan"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Other Info"
@@ -12479,9 +13455,12 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:sale.field_sale_payment_provider_onboarding_wizard__paypal_pdt_token
 msgid "PDT Identity Token"
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.actions.report,name:sale.action_report_saleorder
 msgid "PDF Quote"
 msgstr ""
@@ -12490,6 +13469,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__module_sale_pdf_quote_builder
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "PDF Quote builder"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -12537,7 +13519,11 @@ msgid "Packaging"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tanagalt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tanagalt"
 >>>>>>> upstream/18.0
@@ -12664,11 +13650,14 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "Pay with"
 msgstr ""
 
 #. module: sale
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:sale.selection__res_company__sale_onboarding_payment_method__other
@@ -12683,12 +13672,18 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Payment"
 msgstr "Afru"
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_sale_payment_provider_onboarding_wizard__manual_post_msg
 msgid "Payment Instructions"
@@ -12701,12 +13696,18 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.ui.menu,name:sale.payment_method_menu
 msgid "Payment Methods"
 msgstr "Tarrayin n ufru"
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model,name:sale.model_payment_provider
 msgid "Payment Provider"
@@ -12714,6 +13715,10 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.ui.menu,name:sale.payment_provider_menu
+>>>>>>> upstream/18.0
 =======
 #: model:ir.ui.menu,name:sale.payment_provider_menu
 >>>>>>> upstream/18.0
@@ -12733,6 +13738,7 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model,name:sale.model_payment_transaction
 msgid "Payment Transaction"
 <<<<<<< HEAD
@@ -12877,6 +13883,8 @@ msgstr "Tanigawt n ufru"
 msgstr "Tanigawt n ufru"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.ui.menu,name:sale.payment_token_menu
 msgid "Payment Tokens"
 msgstr ""
@@ -12895,6 +13903,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale.field_sale_order__amount_paid
 msgid "Payment Transactions Amount"
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale
@@ -12904,18 +13915,25 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_sale_order_discount__discount_percentage
 msgid "Percentage"
 msgstr "afmiḍi"
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_sale_order__access_url
 msgid "Portal Access URL"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Preview"
@@ -13061,6 +14079,8 @@ msgstr "Timeẓriwt"
 msgstr "Timeẓriwt"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_res_company__prepayment_percent
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__prepayment_percent
 #: model:ir.model.fields,field_description:sale.field_sale_order__prepayment_percent
@@ -13084,6 +14104,9 @@ msgstr "Timeẓriwt"
 #: code:addons/sale/static/src/js/product_list/product_list.xml:0
 msgid "Price"
 msgstr "Ssuma"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale
@@ -13147,6 +14170,7 @@ msgid "Pricelists"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Tibdarin n ssuma"
@@ -13258,21 +14282,29 @@ msgstr "Tibdarin n ssuma"
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_content
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Tibdarin n ssuma"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "Pricing"
 msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "Print"
 msgstr "Siggez"
 
 #. module: sale
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__group_proforma_sales
@@ -13291,18 +14323,24 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model,name:sale.model_product_template
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__product_id
 #: model:ir.model.fields,field_description:sale.field_sale_report__product_tmpl_id
 #: model_terms:ir.ui.view,arch_db:sale.sale_product_catalog_kanban_view
 #: model_terms:ir.ui.view,arch_db:sale.sale_product_catalog_search_view
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/sale/static/src/js/product_list/product_list.xml:0
 #: model:ir.model,name:sale.model_product_template
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__product_id
 #: model:ir.model.fields,field_description:sale.field_sale_report__product_tmpl_id
 #: model_terms:ir.ui.view,arch_db:sale.sale_report_view_tree
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 #: model_terms:ir.ui.view,arch_db:sale.view_order_product_search
@@ -13312,6 +14350,7 @@ msgid "Product"
 msgstr "Afaris"
 
 #. module: sale
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.model,name:sale.model_product_attribute
 msgid "Product Attribute"
@@ -13460,6 +14499,8 @@ msgstr "Imyerr n ufaris"
 #. module: sale
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:sale.model_product_attribute_custom_value
 msgid "Product Attribute Custom Value"
 msgstr ""
@@ -13476,9 +14517,12 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:sale.field_sale_report__categ_id
 #: model_terms:ir.ui.view,arch_db:sale.sale_product_catalog_search_view
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.ui.menu,name:sale.menu_product_categories
 msgid "Product Categories"
 msgstr "Tiggayin n ifarisen"
@@ -13486,6 +14530,9 @@ msgstr "Tiggayin n ifarisen"
 #. module: sale
 #: model:ir.model,name:sale.model_product_category
 #: model:ir.model.fields,field_description:sale.field_sale_report__categ_id
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.view_order_product_search
 msgid "Product Category"
@@ -13493,7 +14540,10 @@ msgstr "Taggayt n ifarisen"
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:sale.model_product_document
 msgid "Product Document"
 msgstr ""
@@ -13506,6 +14556,9 @@ msgid "Product Image"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model,name:sale.model_product_packaging
 msgid "Product Packaging"
@@ -13513,21 +14566,28 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__product_template_id
 #: model_terms:ir.ui.view,arch_db:sale.sale_product_catalog_search_view
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.ui.menu,name:sale.menu_product_tags
 msgid "Product Tags"
 msgstr ""
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__product_template_id
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "Product Template"
 msgstr "Taneɣruft n ufaris"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__product_type
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sale.sale_product_catalog_search_view
 msgid "Product Type"
@@ -13670,6 +14730,10 @@ msgstr "Tawsit n ufaris"
 msgstr "Tawsit n ufaris"
 >>>>>>> upstream/18.0
 =======
+msgstr "Tawsit n ufaris"
+>>>>>>> upstream/18.0
+=======
+msgid "Product Type"
 msgstr "Tawsit n ufaris"
 >>>>>>> upstream/18.0
 =======
@@ -13686,6 +14750,7 @@ msgstr ""
 #: model:ir.model,name:sale.model_product_product
 #: model:ir.model.fields,field_description:sale.field_sale_report__product_id
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Product Variant"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13829,10 +14894,15 @@ msgstr "Tameskalt n ufaris"
 msgstr "Tameskalt n ufaris"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 #: model_terms:ir.ui.view,arch_db:sale.view_order_product_search
 msgid "Product Variant"
 msgstr "Tameskalt n ufaris"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale
@@ -13860,6 +14930,7 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Product used for down payments"
 msgstr ""
@@ -13874,24 +14945,35 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_content
 #: model_terms:ir.ui.view,arch_db:sale.sale_product_catalog_search_view
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.actions.act_window,name:sale.product_template_action
 #: model:ir.ui.menu,name:sale.menu_product_template_action
 #: model:ir.ui.menu,name:sale.menu_reporting_product
 #: model:ir.ui.menu,name:sale.prod_config_main
 #: model:ir.ui.menu,name:sale.product_menu_catalog
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_content
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "Products"
 msgstr "Ifarisen"
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Promotions, Loyalty & Gift Card"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.view_order_line_tree
 msgid "Qty"
@@ -13929,16 +15011,22 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__product_uom_qty
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_content
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/sale/static/src/js/product_list/product_list.xml:0
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__product_uom_qty
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_content
 #: model_terms:ir.ui.view,arch_db:sale.sale_report_view_tree
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "Quantity"
 msgstr "Tanecta"
@@ -13949,6 +15037,7 @@ msgid "Quantity To Invoice"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.model.fields,field_description:sale.field_product_product__visible_qty_configurator
 #: model:ir.model.fields,field_description:sale.field_product_template__visible_qty_configurator
@@ -14104,13 +15193,24 @@ msgstr "Tasmekta:"
 msgid "Quantity:"
 msgstr "Tasmekta:"
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:sale.view_order_form
+msgid "Quantity:"
+msgstr "Tasmekta:"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #. odoo-python
 #: code:addons/sale/models/sale_order.py:0
 #: model:ir.model.fields.selection,name:sale.selection__sale_order__state__draft
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sale.crm_team_view_kanban_dashboard
+=======
+#: model:ir.model.fields.selection,name:sale.selection__sale_report__state__draft
+#: model_terms:ir.ui.view,arch_db:sale.crm_team_view_kanban_dashboard
+#: model_terms:ir.ui.view,arch_db:sale.product_document_search
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields.selection,name:sale.selection__sale_report__state__draft
 #: model_terms:ir.ui.view,arch_db:sale.crm_team_view_kanban_dashboard
@@ -14127,11 +15227,14 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.actions.report,name:sale.action_report_saleorder
 msgid "Quotation / Order"
 msgstr "Asuter / Taladna"
 
 #. module: sale
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_utm_campaign__quotation_count
@@ -14141,6 +15244,10 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.portal_my_quotations
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
 >>>>>>> upstream/18.0
@@ -14149,6 +15256,7 @@ msgid "Quotation Date"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
 msgid "Quotation Date:"
@@ -14160,6 +15268,8 @@ msgid "Quotation Layout"
 msgstr ""
 
 #. module: sale
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:sale.selection__sale_order__state__sent
@@ -14175,13 +15285,19 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:mail.message.subtype,name:sale.mt_order_viewed
 #: model:mail.message.subtype,name:sale.mt_salesteam_order_viewed
 msgid "Quotation Viewed"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:mail.message.subtype,description:sale.mt_order_confirmed
 msgid "Quotation confirmed"
@@ -14208,7 +15324,10 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale.crm_team_view_kanban_dashboard
 #: model_terms:ir.ui.view,arch_db:sale.portal_my_home_menu_sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sale.portal_my_home_sale
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.portal_my_quotations
@@ -14237,12 +15356,18 @@ msgstr "Isutar n ssuma d tiludna uznuzu"
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.portal_my_home_sale
 msgid "Quotations to review"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_sale_order__rating_ids
 msgid "Ratings"
@@ -14252,7 +15377,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale.field_product_product__expense_policy
 #: model:ir.model.fields,field_description:sale.field_product_template__expense_policy
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Re-Invoice Expenses"
+=======
+msgid "Re-Invoice Costs"
+>>>>>>> upstream/18.0
 =======
 msgid "Re-Invoice Costs"
 >>>>>>> upstream/18.0
@@ -14271,12 +15400,18 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.product_template_view_form
 msgid "Recommend when 'Adding to Cart' or quotation"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Recompute all prices based on this pricelist"
@@ -14288,6 +15423,7 @@ msgid "Recompute all taxes based on this fiscal position"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
 <<<<<<< HEAD
 #. odoo-python
 #: code:addons/sale/controllers/portal.py:0
@@ -14437,17 +15573,22 @@ msgstr "Tamsisɣelt"
 #. module: sale
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:sale.field_sale_order__origin
 msgid "Reference of the document that generated this sales order request"
 msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model,name:sale.model_account_payment_register
 msgid "Register Payment"
 msgstr ""
 
 #. module: sale
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:sale.selection__sale_advance_payment_inv__advance_payment_method__delivered
@@ -14461,6 +15602,7 @@ msgstr ""
 
 #. module: sale
 #. odoo-javascript
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: code:addons/sale/static/src/js/product_catalog/sale_order_line/sale_order_line.xml:0
 msgid "Remove"
@@ -14606,6 +15748,8 @@ msgstr "Kkes"
 msgstr "Kkes"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/sale/static/src/js/product/product.xml:0
 msgid "Remove"
 msgstr "Kkes"
@@ -14615,6 +15759,9 @@ msgstr "Kkes"
 #: code:addons/sale/static/src/js/quantity_buttons/quantity_buttons.xml:0
 msgid "Remove one"
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale
@@ -14629,9 +15776,12 @@ msgstr "Assaɣen"
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,help:sale.field_sale_order__require_signature
 msgid "Request a online signature and/or payment to the customer in order to confirm orders automatically."
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:sale.field_sale_order__require_payment
 msgid "Request a online payment from the customer to confirm the order."
 msgstr ""
@@ -14639,13 +15789,22 @@ msgstr ""
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_order__require_signature
 msgid "Request a online signature from the customer to confirm the order."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Request an online payment to confirm orders"
+=======
+msgid ""
+"Request a payment to confirm orders, in full (100%) or partial. The default "
+"can be changed per order or template."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "Request a payment to confirm orders, in full (100%) or partial. The default "
@@ -14656,7 +15815,13 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Request an online signature to confirm orders"
+=======
+msgid ""
+"Request customers to sign quotations to validate orders. The default can be "
+"changed per order or template."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "Request customers to sign quotations to validate orders. The default can be "
@@ -14678,7 +15843,11 @@ msgstr ""
 #. module: sale
 #: model:ir.model.fields,help:sale.field_crm_team__invoiced_target
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Revenue target for the current month (untaxed total of confirmed invoices)."
+=======
+msgid "Revenue Target for the current month (untaxed total of paid invoices)."
+>>>>>>> upstream/18.0
 =======
 msgid "Revenue Target for the current month (untaxed total of paid invoices)."
 >>>>>>> upstream/18.0
@@ -14702,9 +15871,12 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:sale.field_sale_advance_payment_inv__sale_order_ids
 #: model:ir.model.fields,field_description:sale.field_sale_order_cancel__order_id
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
 msgid "SO0000"
 msgstr ""
@@ -14729,6 +15901,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale.field_sale_advance_payment_inv__sale_order_ids
 #: model:ir.model.fields,field_description:sale.field_sale_order_cancel__order_id
 #: model:ir.model.fields,field_description:sale.field_sale_order_discount__sale_order_id
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:sale.selection__account_analytic_applicability__business_domain__sale_order
 msgid "Sale Order"
@@ -14738,7 +15913,10 @@ msgstr "Taladna n uznuzu"
 #: model:ir.model.fields,field_description:sale.field_account_bank_statement_line__sale_order_count
 #: model:ir.model.fields,field_description:sale.field_account_move__sale_order_count
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:sale.field_account_payment__sale_order_count
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_res_partner__sale_order_count
@@ -14748,12 +15926,18 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.actions.act_window,name:sale.mail_activity_plan_action_sale_order
 msgid "Sale Order Plans"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__group_warning_sale
 msgid "Sale Order Warnings"
@@ -14792,13 +15976,19 @@ msgstr ""
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_product_packaging__sales
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.ui.menu,name:sale.sale_menu_root
 #: model_terms:ir.ui.view,arch_db:sale.crm_team_view_kanban_dashboard
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.ui.menu,name:sale.menu_reporting_sales
 #: model:ir.ui.menu,name:sale.sale_menu_root
 #: model_terms:ir.ui.view,arch_db:sale.crm_team_view_kanban_dashboard
 #: model_terms:ir.ui.view,arch_db:sale.product_document_form
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 #: model_terms:ir.ui.view,arch_db:sale.res_partner_view_buttons
@@ -14826,7 +16016,10 @@ msgstr "Tasleṭ n uznuzu"
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.actions.act_window,name:sale.action_order_report_customers
 msgid "Sales Analysis By Customers"
 msgstr ""
@@ -14842,6 +16035,9 @@ msgid "Sales Analysis By Salespersons"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model,name:sale.model_sale_report
 msgid "Sales Analysis Report"
@@ -14849,8 +16045,13 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:sale.selection__sale_report__state__done
 msgid "Sales Done"
+=======
+#: model:ir.model.fields,field_description:sale.field_res_config_settings__module_sale_product_matrix
+msgid "Sales Grid Entry"
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__module_sale_product_matrix
 msgid "Sales Grid Entry"
@@ -14865,12 +16066,18 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale.field_res_users__sale_order_ids
 #: model:ir.model.fields.selection,name:sale.selection__sale_order__state__sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:sale.selection__sale_report__state__sale
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:sale.selection__sale_report__order_reference__sale_order
 #: model:ir.model.fields.selection,name:sale.selection__sale_report__state__sale
 #: model_terms:ir.ui.view,arch_db:sale.product_document_search
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_view_activity
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Sales Order"
@@ -14934,10 +16141,14 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale.crm_team_view_kanban_dashboard
 #: model_terms:ir.ui.view,arch_db:sale.portal_my_home_menu_sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sale.portal_my_home_sale
 #: model_terms:ir.ui.view,arch_db:sale.portal_my_orders
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_tree
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_view_activity
+=======
+#: model_terms:ir.ui.view,arch_db:sale.sale_order_tree
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_tree
 >>>>>>> upstream/18.0
@@ -14956,7 +16167,10 @@ msgstr "Tiludna n uznuzu"
 #: model:ir.model.fields,field_description:sale.field_account_invoice_report__team_id
 #: model:ir.model.fields,field_description:sale.field_account_move__team_id
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:sale.field_account_payment__team_id
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_sale_order__team_id
@@ -15008,7 +16222,11 @@ msgid "Sales Teams"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tirebbaɛ n uzenzi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tirebbaɛ n uzenzi"
 >>>>>>> upstream/18.0
@@ -15127,12 +16345,18 @@ msgstr ""
 #. module: sale
 #: model:ir.model.fields,help:sale.field_account_analytic_line__so_line
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Sales order item to which the time spent will be added in order to be invoiced to your customer. Remove the sales order item for the timesheet entry to be non-billable."
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Sales order item to which the time spent will be added in order to be "
 "invoiced to your customer. Remove the sales order item for the timesheet "
 "entry to be non-billable."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -15153,12 +16377,18 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:mail.template,name:sale.mail_template_sale_payment_executed
 msgid "Sales: Payment Done"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:mail.template,name:sale.email_template_edi_sale
 msgid "Sales: Send Quotation"
@@ -15182,6 +16412,7 @@ msgstr "Amzenzi"
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/sale/models/res_company.py:0
 msgid "Sample Order Line"
@@ -15197,6 +16428,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale.sale_onboarding_sample_quotation_step
 msgid "Sample Quotation"
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.ui.menu,name:sale.menu_reporting_salespeople
 msgid "Salespersons"
 msgstr ""
@@ -15204,6 +16437,9 @@ msgstr ""
 #. module: sale
 #: model:ir.model,name:sale.model_mail_scheduled_message
 msgid "Scheduled Message"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -15215,13 +16451,19 @@ msgstr "Nadi tiludna n uznuzu"
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/sale/static/src/js/tours/sale.js:0
 msgid "Search a customer name, or create one on the fly."
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:sale.selection__sale_order_line__display_type__line_section
 msgid "Section"
@@ -15245,24 +16487,36 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__selected_combo_items
 msgid "Selected Combo Items"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,help:sale.field_product_product__sale_line_warn
 #: model:ir.model.fields,help:sale.field_product_template__sale_line_warn
 #: model:ir.model.fields,help:sale.field_res_partner__sale_warn
 #: model:ir.model.fields,help:sale.field_res_users__sale_warn
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Selecting the \"Warning\" option will notify user with the message, Selecting \"Blocking Message\" will throw an exception with the message and block the flow. The Message has to be written in the next field."
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Selecting the \"Warning\" option will notify user with the message, "
 "Selecting \"Blocking Message\" will throw an exception with the message and "
 "block the flow. The Message has to be written in the next field."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -15293,8 +16547,13 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sale.sale_onboarding_sample_quotation_step
 msgid "Send a quotation to test the customer portal."
+=======
+#: model:ir.actions.server,name:sale.model_sale_order_send_mail
+msgid "Send an email"
+>>>>>>> upstream/18.0
 =======
 #: model:ir.actions.server,name:sale.model_sale_order_send_mail
 msgid "Send an email"
@@ -15313,11 +16572,14 @@ msgstr "Azen s Imayl"
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sale.sale_onboarding_sample_quotation_step
 msgid "Send sample"
 msgstr ""
 
 #. module: sale
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__module_delivery_sendcloud
@@ -15327,12 +16589,18 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Sending an email is useful if you need to share specific information or content about a product (instructions, rules, links, media, etc.). Create and set the email template from the product detail form (in Accounting tab)."
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Sending an email is useful if you need to share specific information or "
 "content about a product (instructions, rules, links, media, etc.). Create "
 "and set the email template from the product detail form (in Accounting tab)."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -15348,7 +16616,10 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:mail.template,description:sale.mail_template_sale_payment_executed
 msgid ""
 "Sent to customers when a payment is received but doesn't immediately confirm "
@@ -15356,12 +16627,16 @@ msgid ""
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__sequence
 msgid "Sequence"
 msgstr "Agzum"
 
 #. module: sale
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sale.sale_product_catalog_search_view
 msgid "Services"
@@ -15510,17 +16785,22 @@ msgstr "Tinfawin"
 #. module: sale
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Set multiple prices per product, automated discounts, etc."
 msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sale.sale_onboarding_order_confirmation_step
 msgid "Set payments"
 msgstr ""
 
 #. module: sale
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
@@ -15567,7 +16847,11 @@ msgid "Settings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tawila"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tawila"
 >>>>>>> upstream/18.0
@@ -15716,6 +17000,7 @@ msgid "Share"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Bḍu"
@@ -15826,18 +17111,26 @@ msgstr "Bḍu"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Bḍu"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "Shipping"
 msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_content
 msgid "Shipping Address"
 msgstr ""
@@ -15848,6 +17141,9 @@ msgid "Shiprocket Connector"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.view_sales_order_filter
 msgid "Show all records which has next action date is before today"
@@ -15912,7 +17208,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale.mass_cancel_orders_view_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Some confirmed sale orders are selected. Their related documents might be\n"
+=======
+"Some confirmed orders are selected. Their related documents might be\n"
+>>>>>>> upstream/18.0
 =======
 "Some confirmed orders are selected. Their related documents might be\n"
 >>>>>>> upstream/18.0
@@ -15920,6 +17220,7 @@ msgid ""
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.model.fields,field_description:sale.field_account_bank_statement_line__source_id
 #: model:ir.model.fields,field_description:sale.field_account_move__source_id
@@ -16069,6 +17370,8 @@ msgstr "Aɣbalu"
 msgstr "Aɣbalu"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/sale/models/sale_order.py:0
 msgid "Some orders are not in a state requiring confirmation."
@@ -16081,6 +17384,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale.field_sale_report__source_id
 msgid "Source"
 msgstr "Aɣbalu"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale
@@ -16094,6 +17400,7 @@ msgid "Specific Email"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
 <<<<<<< HEAD
 #. odoo-python
 #: code:addons/sale/controllers/portal.py:0
@@ -16263,6 +17570,10 @@ msgid "State of the sale onboarding panel"
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__module_delivery_starshipit
 msgid "Starshipit Connector"
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields,field_description:sale.field_res_config_settings__module_delivery_starshipit
+msgid "Starshipit Connector"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sale
@@ -16300,12 +17611,18 @@ msgstr "Ad-asemday"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_report_view_tree
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 msgid "Sum of Quantity"
 msgstr ""
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_report_view_tree
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "Sum of Total"
 msgstr ""
@@ -16316,6 +17633,7 @@ msgid "Sum of Untaxed Total"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.model.fields,field_description:sale.field_sale_order__tag_ids
 #: model:ir.ui.menu,name:sale.menu_tag_config
@@ -16462,6 +17780,8 @@ msgstr "Tibzimin"
 msgstr "Tibzimin"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:sale.field_sale_order__amount_paid
 msgid ""
 "Sum of transactions made in through the online payment form that are in the "
@@ -16483,6 +17803,9 @@ msgstr "Tibzimin"
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
 msgid "Tax 15%"
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale
@@ -16493,6 +17816,10 @@ msgstr ""
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order__tax_country_id
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:sale.field_sale_order_line__tax_country_id
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__tax_country_id
 >>>>>>> upstream/18.0
@@ -16501,7 +17828,10 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Tax Excl."
 msgstr ""
@@ -16517,6 +17847,9 @@ msgid "Tax Incl."
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_tree
 msgid "Tax Total"
@@ -16534,6 +17867,7 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Tax excl."
 msgstr ""
@@ -16549,6 +17883,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale.field_sale_order__amount_tax
 #: model:ir.model.fields,field_description:sale.field_sale_order_discount__tax_ids
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields,field_description:sale.field_sale_order__amount_tax
+#: model:ir.model.fields,field_description:sale.field_sale_order_discount__tax_ids
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__tax_id
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
 msgid "Taxes"
@@ -16556,8 +17894,13 @@ msgstr "Tiẓeṭṭaḍin "
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,help:sale.field_sale_advance_payment_inv__deposit_taxes_id
 msgid "Taxes used for deposits"
+=======
+#: model:ir.model.fields,help:sale.field_sale_order_discount__tax_ids
+msgid "Taxes to add on the discount line."
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,help:sale.field_sale_order_discount__tax_ids
 msgid "Taxes to add on the discount line."
@@ -16568,8 +17911,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/sale/models/crm_team.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Team %(team_name)s has %(sale_order_count)s active sale orders. Consider canceling them or archiving the team instead."
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Team %(team_name)s has %(sale_order_count)s active sale orders. Consider "
 "cancelling them or archiving the team instead."
@@ -16578,13 +17924,22 @@ msgstr ""
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__technical_price_unit
 msgid "Technical Price Unit"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Tell us why you are refusing this quotation, this will help us improve our services."
+=======
+msgid ""
+"Tell us why you are refusing this quotation, this will help us improve our "
+"services."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "Tell us why you are refusing this quotation, this will help us improve our "
@@ -16610,11 +17965,14 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_content
 msgid "Terms &amp; Conditions:"
 msgstr ""
 
 #. module: sale
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_sale_order__note
@@ -16637,7 +17995,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/sale/models/account_move_line.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "The Sales Order %s linked to the Analytic Account %s is cancelled. You cannot register an expense on a cancelled Sales Order."
+=======
+msgid ""
+"The Sales Order %(order)s to be reinvoiced is cancelled. You cannot register "
+"an expense on a cancelled Sales Order."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "The Sales Order %(order)s to be reinvoiced is cancelled. You cannot register "
@@ -16649,7 +18013,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/sale/models/account_move_line.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "The Sales Order %s linked to the Analytic Account %s is currently locked. You cannot register an expense on a locked Sales Order. Please create a new SO linked to this Analytic Account."
+=======
+msgid ""
+"The Sales Order %(order)s to be reinvoiced is currently locked. You cannot "
+"register an expense on a locked Sales Order."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "The Sales Order %(order)s to be reinvoiced is currently locked. You cannot "
@@ -16661,7 +18031,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/sale/models/account_move_line.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "The Sales Order %s linked to the Analytic Account %s must be validated before registering expenses."
+=======
+msgid ""
+"The Sales Order %(order)s to be reinvoiced must be validated before "
+"registering expenses."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "The Sales Order %(order)s to be reinvoiced must be validated before "
@@ -16684,8 +18060,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/sale/models/sale_order.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "The delivery date is sooner than the expected date. You may be unable to honor the delivery date."
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "The company is required, please select one before making any other changes "
 "to the sale order."
@@ -16697,6 +18076,9 @@ msgstr ""
 msgid ""
 "The delivery date is sooner than the expected date. You may be unable to "
 "honor the delivery date."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -16710,16 +18092,22 @@ msgstr ""
 #: code:addons/sale/models/product_template.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The following products cannot be restricted to the company %s because they have already been used in quotations or sales orders in another company:\n"
 "%s\n"
 "You can archive these products and recreate them with your company restriction instead, or leave them as shared product."
 =======
+=======
+>>>>>>> upstream/18.0
 "The following products cannot be restricted to the company %(company)s "
 "because they have already been used in quotations or sales orders in another "
 "company:\n"
 "%(used_products)s\n"
 "You can archive these products and recreate them with your company "
 "restriction instead, or leave them as shared product."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -16727,23 +18115,35 @@ msgstr ""
 #: model:ir.model.fields,help:sale.field_res_config_settings__automatic_invoice
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The invoice is generated automatically and available in the customer portal when the transaction is confirmed by the payment provider.\n"
 "The invoice is marked as paid and the payment is registered in the payment journal defined in the configuration of the payment provider.\n"
 "This mode is advised if you issue the final invoice at the order and not after the delivery."
 =======
+=======
+>>>>>>> upstream/18.0
 "The invoice is generated automatically and available in the customer portal "
 "when the transaction is confirmed by the payment provider.\n"
 "The invoice is marked as paid and the payment is registered in the payment "
 "journal defined in the configuration of the payment provider.\n"
 "This mode is advised if you issue the final invoice at the order and not "
 "after the delivery."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "The margin is computed as the sum of product sales prices minus the cost set in their detail form."
+=======
+msgid ""
+"The margin is computed as the sum of product sales prices minus the cost set "
+"in their detail form."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "The margin is computed as the sum of product sales prices minus the cost set "
@@ -16758,7 +18158,10 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/sale/models/sale_order.py:0
 msgid ""
@@ -16767,6 +18170,9 @@ msgid ""
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "The order is not in a state requiring customer payment."
@@ -16791,12 +18197,18 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
 msgid "The payment should also be transmitted with love"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,help:sale.field_sale_advance_payment_inv__amount
 msgid "The percentage of amount to be invoiced in advance."
@@ -16804,10 +18216,13 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/sale/wizard/sale_make_invoice_advance.py:0
 msgid "The product used to invoice a down payment should be of type 'Service'. Please use another product or update this product."
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:sale.field_sale_order__prepayment_percent
 msgid ""
 "The percentage of the amount needed that must be paid by the customer to "
@@ -16818,14 +18233,22 @@ msgstr ""
 #: model:ir.model.fields,help:sale.field_res_company__prepayment_percent
 #: model:ir.model.fields,help:sale.field_res_config_settings__prepayment_percent
 msgid "The percentage of the amount needed to be paid to confirm quotations."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sale
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/sale/wizard/sale_make_invoice_advance.py:0
 msgid "The product used to invoice a down payment should have an invoice policyset to \"Ordered quantities\". Please update your deposit product to be able to create a deposit invoice."
+=======
+#: code:addons/sale/models/product_template.py:0
+msgid "The product (%(product)s) has incompatible values: %(value_list)s"
+>>>>>>> upstream/18.0
 =======
 #: code:addons/sale/models/product_template.py:0
 msgid "The product (%(product)s) has incompatible values: %(value_list)s"
@@ -16846,6 +18269,7 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sale.portal_my_orders
 msgid "There are currently no orders for your account."
 msgstr ""
@@ -16854,6 +18278,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale.portal_my_quotations
 msgid "There are currently no quotations for your account."
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.portal_my_quotations
 msgid "There are currently no quotations for your account."
 msgstr ""
@@ -16861,6 +18287,9 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.portal_my_orders
 msgid "There are currently no sales orders for your account."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -16872,6 +18301,7 @@ msgstr ""
 #. module: sale
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/sale/models/sale_order.py:0
 msgid ""
 "There is nothing to invoice!\n"
@@ -16880,6 +18310,8 @@ msgid ""
 "- You should deliver your products before invoicing them.\n"
 "- You should modify the invoicing policy of your product: Open the product, go to the \"Sales\" tab and modify invoicing policy from \"delivered quantities\" to \"ordered quantities\". For Services, you should modify the Service Invoicing Policy to 'Prepaid'."
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/sale/wizard/sale_order_discount.py:0
 msgid ""
 "There does not seem to be any discount product configured for this company "
@@ -16890,13 +18322,22 @@ msgstr ""
 #. module: sale
 #: model:ir.model.fields,help:sale.field_product_category__property_account_downpayment_categ_id
 msgid "This account will be used on Downpayment invoices."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "This default value is applied to any new product created. This can be changed in the product detail form."
+=======
+msgid ""
+"This default value is applied to any new product created. This can be "
+"changed in the product detail form."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "This default value is applied to any new product created. This can be "
@@ -16908,21 +18349,33 @@ msgstr ""
 #: model:ir.model.fields,help:sale.field_account_bank_statement_line__campaign_id
 #: model:ir.model.fields,help:sale.field_account_move__campaign_id
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,help:sale.field_account_payment__campaign_id
 #: model:ir.model.fields,help:sale.field_sale_order__campaign_id
 msgid "This is a name that helps you keep track of your different campaign efforts, e.g. Fall_Drive, Christmas_Special"
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:sale.field_sale_order__campaign_id
 msgid ""
 "This is a name that helps you keep track of your different campaign efforts, "
 "e.g. Fall_Drive, Christmas_Special"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_order__commitment_date
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "This is the delivery date promised to the customer. If set, the delivery order will be scheduled based on this date rather than product lead times."
+=======
+msgid ""
+"This is the delivery date promised to the customer. If set, the delivery "
+"order will be scheduled based on this date rather than product lead times."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "This is the delivery date promised to the customer. If set, the delivery "
@@ -16934,7 +18387,10 @@ msgstr ""
 #: model:ir.model.fields,help:sale.field_account_bank_statement_line__medium_id
 #: model:ir.model.fields,help:sale.field_account_move__medium_id
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,help:sale.field_account_payment__medium_id
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,help:sale.field_sale_order__medium_id
@@ -16945,10 +18401,13 @@ msgstr ""
 #: model:ir.model.fields,help:sale.field_account_bank_statement_line__source_id
 #: model:ir.model.fields,help:sale.field_account_move__source_id
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,help:sale.field_account_payment__source_id
 #: model:ir.model.fields,help:sale.field_sale_order__source_id
 msgid "This is the source of the link, e.g. Search Engine, another domain, or name of email list"
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:sale.field_sale_order__source_id
 msgid ""
 "This is the source of the link, e.g. Search Engine, another domain, or name "
@@ -16965,6 +18424,9 @@ msgstr ""
 #. odoo-python
 #: code:addons/sale/wizard/payment_link_wizard.py:0
 msgid "This payment will confirm the quotation."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -16972,7 +18434,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/sale/models/sale_order_line.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "This product is packaged by %(pack_size).2f %(pack_name)s. You should sell %(quantity).2f %(unit)s."
+=======
+msgid ""
+"This product is packaged by %(pack_size).2f %(pack_name)s. You should sell %"
+"(quantity).2f %(unit)s."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "This product is packaged by %(pack_size).2f %(pack_name)s. You should sell %"
@@ -16982,6 +18450,7 @@ msgstr ""
 
 #. module: sale
 #: model_terms:ir.actions.act_window,help:sale.action_order_report_all
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgid "This report performs analysis on your quotations and sales orders. Analysis check your sales revenues and sort it by different group criteria (salesman, partner, product, etc.) Use this report to perform analysis on sales not having invoiced yet. If you want to analyse your turnover, you should use the Invoice Analysis report in the Accounting application."
 msgstr "Assaɣ agi ad isleḍ isutar inek nssula ed tludna n uznuzu. Il vérifie les revenus liés aux ventes et les classifie selon différents critères (vendeur, partenaire, article, etc.). Tzemreḍ ad tesqedceḍ assaɣ agi i tesleṭ n uznuzu ur iftiren ara yakan.  Ma tebɣiḍ tasleṭ n uzwil  n  iwezla, tzemreḍ aţesqedceḍ Assaɣ  \"Tasleṭ n faturin n umsaɣ\" deg usnas n tsiḍent."
@@ -17000,6 +18469,8 @@ msgstr "Assaɣ agi ad isleḍ tiudna inek n uznuzu. Il vérifie les revenus lié
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "This will update all taxes based on the currently selected fiscal position."
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.actions.act_window,help:sale.action_order_report_customers
 #: model_terms:ir.actions.act_window,help:sale.action_order_report_products
 #: model_terms:ir.actions.act_window,help:sale.action_order_report_salesperson
@@ -17050,13 +18521,21 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid ""
 "This will update all taxes based on the currently selected fiscal position."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "This will update all unit prices based on the currently set pricelist."
+=======
+msgid ""
+"This will update the unit price of all products based on the new pricelist."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "This will update the unit price of all products based on the new pricelist."
@@ -17068,6 +18547,10 @@ msgstr ""
 #: model:ir.model.fields.selection,name:sale.selection__sale_order_line__invoice_status__to_invoice
 #: model:ir.model.fields.selection,name:sale.selection__sale_report__invoice_status__to_invoice
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:sale.selection__sale_report__line_invoice_status__to_invoice
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields.selection,name:sale.selection__sale_report__line_invoice_status__to_invoice
 >>>>>>> upstream/18.0
@@ -17086,6 +18569,7 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "To send invitations in B2B mode, open a contact or select several ones in list view and click on 'Portal Access Management' option in the dropdown menu *Action*."
 msgstr ""
 
@@ -17094,10 +18578,15 @@ msgstr ""
 #: code:addons/sale/static/src/js/tours/sale.js:0
 msgid "To speed up order confirmation, we can activate electronic signatures or payments."
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "To send invitations in B2B mode, open a contact or select several ones in "
 "list view and click on 'Portal Access Management' option in the dropdown "
 "menu *Action*."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -17133,7 +18622,10 @@ msgstr "Asemday t tẓeṭṭaḍin"
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/sale/static/src/js/combo_configurator_dialog/combo_configurator_dialog.js:0
 #: code:addons/sale/static/src/js/product_list/product_list.js:0
@@ -17141,6 +18633,9 @@ msgid "Total: %s"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_product_product__service_type
 #: model:ir.model.fields,field_description:sale.field_product_template__service_type
@@ -17159,12 +18654,18 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__translated_product_name
 msgid "Translated Product Name"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_sale_order__type_name
 msgid "Type Name"
@@ -17172,8 +18673,12 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sale.product_form_view_sale_order_button
 #: model_terms:ir.ui.view,arch_db:sale.product_template_form_view_sale_order_button
+=======
+#: model_terms:ir.ui.view,arch_db:sale.product_template_form_view
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:sale.product_template_form_view
 >>>>>>> upstream/18.0
@@ -17199,6 +18704,10 @@ msgstr ""
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__module_delivery_ups
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -17208,6 +18717,10 @@ msgstr ""
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__module_delivery_usps
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -17221,8 +18734,11 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__price_unit
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_sale_order__amount_to_invoice
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__amount_to_invoice
 msgid "Un-invoiced Balance"
@@ -17231,6 +18747,9 @@ msgstr ""
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__price_unit
 #: model:ir.model.fields,field_description:sale.field_sale_report__price_unit
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_content
@@ -17251,12 +18770,15 @@ msgstr "Aferdis"
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/sale/static/src/js/product_catalog/sale_order_line/sale_order_line.xml:0
 msgid "Unit price:"
 msgstr ""
 
 #. module: sale
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.ui.menu,name:sale.menu_product_uom_form_action
@@ -17299,7 +18821,11 @@ msgid "Units of Measure"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Iferdisen n usɣel"
+>>>>>>> upstream/18.0
 =======
 msgstr "Iferdisen n usɣel"
 >>>>>>> upstream/18.0
@@ -17416,7 +18942,11 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sale.view_sales_order_auto_done_setting
+=======
+#: model_terms:ir.ui.view,arch_db:sale.view_order_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 >>>>>>> upstream/18.0
@@ -17475,6 +19005,10 @@ msgstr ""
 #: model:ir.model.fields.selection,name:sale.selection__sale_order_line__invoice_status__upselling
 #: model:ir.model.fields.selection,name:sale.selection__sale_report__invoice_status__upselling
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:sale.selection__sale_report__line_invoice_status__upselling
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields.selection,name:sale.selection__sale_report__line_invoice_status__upselling
 >>>>>>> upstream/18.0
@@ -17498,7 +19032,10 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:sale.field_product_product__expense_policy
 #: model:ir.model.fields,help:sale.field_product_template__expense_policy
 msgid ""
@@ -17514,6 +19051,9 @@ msgid ""
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Variant Grid Entry"
@@ -17521,9 +19061,14 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/sale/models/sale_order.py:0
 msgid "View Order"
+=======
+#: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
+msgid "View Details"
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "View Details"
@@ -17538,12 +19083,18 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__virtual_id
 msgid "Virtual"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Void Transaction"
@@ -17588,7 +19139,11 @@ msgid "Volume"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ableɣ"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ableɣ"
 >>>>>>> upstream/18.0
@@ -17707,6 +19262,7 @@ msgstr "Ableɣ"
 #: model:ir.model.fields.selection,name:sale.selection__product_template__sale_line_warn__warning
 #: model:ir.model.fields.selection,name:sale.selection__res_partner__sale_warn__warning
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sale.product_template_form_view_sale_order_button
 msgid "Warning"
 <<<<<<< HEAD
@@ -17854,6 +19410,8 @@ msgstr "ɣuṛ-ek"
 #. module: sale
 #. odoo-python
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.product_template_form_view
 msgid "Warning"
 msgstr "ɣuṛ-ek"
@@ -17861,6 +19419,9 @@ msgstr "ɣuṛ-ek"
 #. module: sale
 #. odoo-python
 #: code:addons/sale/models/product_template.py:0
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/sale/models/sale_order.py:0
 #: code:addons/sale/models/sale_order_line.py:0
@@ -17880,8 +19441,12 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sale.product_form_view_sale_order_button
 #: model_terms:ir.ui.view,arch_db:sale.product_template_form_view_sale_order_button
+=======
+#: model_terms:ir.ui.view,arch_db:sale.product_template_form_view
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:sale.product_template_form_view
 >>>>>>> upstream/18.0
@@ -17927,7 +19492,11 @@ msgid "Website Messages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Iznan n n usmel  Web"
+>>>>>>> upstream/18.0
 =======
 msgstr "Iznan n n usmel  Web"
 >>>>>>> upstream/18.0
@@ -18040,6 +19609,7 @@ msgstr "Iznan n n usmel  Web"
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_order__website_message_ids
 msgid "Website communication history"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18193,18 +19763,24 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale.product_template_form_view
 msgid "You can invoice them before they are delivered."
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Amazray n Taywalt n usmel  Web"
 
 #. module: sale
 #. odoo-python
 #: code:addons/sale/models/product_template.py:0
 msgid "You can invoice goods before they are delivered."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sale
 #. odoo-python
 #: code:addons/sale/models/sale_order.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgid "You can not delete a sent quotation or a confirmed sales order. You must first cancel it."
 msgstr ""
@@ -18215,6 +19791,11 @@ msgstr ""
 msgid ""
 "You can not remove an order line once the sales order is confirmed.\n"
 "You should rather set the quantity to 0."
+=======
+msgid ""
+"You can not delete a sent quotation or a confirmed sales order. You must "
+"first cancel it."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "You can not delete a sent quotation or a confirmed sales order. You must "
@@ -18232,6 +19813,7 @@ msgstr ""
 #. module: sale
 #: model:ir.model.fields,help:sale.field_payment_provider__so_reference_type
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "You can set here the communication type that will appear on sales orders.The communication will be given to the customer when they choose the payment method."
 msgstr ""
 
@@ -18240,6 +19822,8 @@ msgstr ""
 #: code:addons/sale/static/src/js/product_catalog/sale_order_line/sale_order_line.xml:0
 msgid "You can't edit this product in the catalog."
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "You can set here the communication type that will appear on sales orders.The "
 "communication will be given to the customer when they choose the payment "
@@ -18256,6 +19840,9 @@ msgstr ""
 #. odoo-python
 #: code:addons/sale/models/sale_order.py:0
 msgid "You cannot change the pricelist of a confirmed order !"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -18264,7 +19851,13 @@ msgstr ""
 #: code:addons/sale/models/product_product.py:0
 #: code:addons/sale/models/product_template.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "You cannot change the product's type because it is already used in sales orders."
+=======
+msgid ""
+"You cannot change the product's type because it is already used in sales "
+"orders."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "You cannot change the product's type because it is already used in sales "
@@ -18276,8 +19869,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/sale/models/sale_order_line.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "You cannot change the type of a sale order line. Instead you should delete the current line and create a new line of the proper type."
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "You cannot change the type of a sale order line. Instead you should delete "
 "the current line and create a new line of the proper type."
@@ -18287,13 +19883,22 @@ msgstr ""
 #. odoo-python
 #: code:addons/sale/models/sale_order_line.py:0
 msgid "You cannot modify the product of this order line."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sale
 #: model:ir.model.constraint,message:sale.constraint_res_company_check_quotation_validity_days
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "You cannot set a negative number for the default quotation validity. Leave empty (or 0) to disable the automatic expiration of quotations."
+=======
+msgid ""
+"You cannot set a negative number for the default quotation validity. Leave "
+"empty (or 0) to disable the automatic expiration of quotations."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "You cannot set a negative number for the default quotation validity. Leave "
@@ -18310,7 +19915,10 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.portal_my_home_sale
 #: model_terms:ir.ui.view,arch_db:sale.portal_my_orders
 msgid "Your Orders"
@@ -18328,6 +19936,9 @@ msgid "Your browser does not support iframe."
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "Your feedback..."
@@ -18358,9 +19969,12 @@ msgstr ""
 #: code:addons/sale/models/sale_order.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Your quotation contains products from company %(product_company)s whereas your quotation belongs to company %(quote_company)s. \n"
 " Please change the company of your quotation or remove the products from other companies (%(bad_products)s)."
 =======
+=======
+>>>>>>> upstream/18.0
 "Your quotation contains products from company %(product_company)s whereas "
 "your quotation belongs to company %(quote_company)s. \n"
 " Please change the company of your quotation or remove the products from "
@@ -18371,6 +19985,9 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/sale/static/src/js/tours/sale.js:0
 msgid "add the price of your product."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -18397,12 +20014,18 @@ msgstr "Ussan"
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "for the"
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.view_sale_advance_payment_inv
 msgid "for this Sale Order."
@@ -18410,7 +20033,10 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/sale/static/src/js/tours/sale.js:0
 msgid "let's continue"
@@ -18422,6 +20048,9 @@ msgid "quote."
 msgstr ""
 
 #. module: sale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/sale/models/sale_order.py:0
@@ -18433,8 +20062,11 @@ msgstr ""
 msgid ""
 "selected\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    quotations?"
 =======
+=======
+>>>>>>> upstream/18.0
 "                    items?"
 msgstr ""
 
@@ -18446,40 +20078,58 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "you confirm acceptance on the behalf of"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sale
 #: model:mail.template,subject:sale.mail_template_sale_confirmation
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "{{ object.company_id.name }} {{ (object.get_portal_last_transaction().state == 'pending') and 'Pending Order' or 'Order' }} (Ref {{ object.name or 'n/a' }})"
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:mail.template,subject:sale.mail_template_sale_payment_executed
 msgid ""
 "{{ object.company_id.name }} {{ (object.get_portal_last_transaction().state "
 "== 'pending') and 'Pending Order' or 'Order' }} (Ref {{ object.name or 'n/"
 "a' }})"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sale
 #: model:mail.template,subject:sale.email_template_edi_sale
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "{{ object.company_id.name }} {{ object.state in ('draft', 'sent') and (ctx.get('proforma') and 'Proforma' or 'Quotation') or 'Order' }} (Ref {{ object.name or 'n/a' }})"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "{{ object.company_id.name }} {{ object.state in ('draft', 'sent') and "
 "(ctx.get('proforma') and 'Proforma' or 'Quotation') or 'Order' }} (Ref "
 "{{ object.name or 'n/a' }})"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sale
 #: model:mail.template,subject:sale.mail_template_sale_cancellation
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "{{ object.company_id.name }} {{ object.type_name }} Cancelled (Ref {{ object.name or 'n/a' }})"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "{{ object.company_id.name }} {{ object.type_name }} Cancelled (Ref "
 "{{ object.name or 'n/a' }})"
@@ -18547,4 +20197,7 @@ msgstr ""
 
 #~ msgid "Stage"
 #~ msgstr "Amecwaṛ"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

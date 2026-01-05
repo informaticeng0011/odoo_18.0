@@ -103,6 +103,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* hr_timesheet
 # 
 # Translators:
@@ -110,6 +111,8 @@
 # Tony Ng, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -423,6 +426,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -632,6 +638,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
 <<<<<<< HEAD
@@ -950,6 +957,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-09-23 18:56+0000\n"
 "Last-Translator: \"Tony Ng (ngto)\" <ngto@odoo.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://translate.odoo.com/"
@@ -1062,6 +1072,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1320,15 +1333,21 @@ msgstr "%(name)s 的工時表"
 #: code:addons/hr_timesheet/models/hr_timesheet.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "'%(missing_plan_names)s' analytic plan(s) required on the project "
 "'%(project_name)s' linked to the timesheet."
 msgstr "缺漏「%(missing_plan_names)s」。已連結至工時表的專案「%(project_name)s」，需要此分析計劃。"
 =======
+=======
+>>>>>>> upstream/18.0
 "'%(missing_plan_names)s' analytic plan(s) required on the project '%"
 "(project_name)s' linked to the timesheet."
 msgstr ""
 "缺漏「%(missing_plan_names)s」。已連結至工時表的專案「%(project_name)s」，需"
 "要此分析計劃。"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_timesheet
@@ -1372,15 +1391,21 @@ msgstr "<b class=\"tip_title\">提示: 更快的紀錄您的工時表</b>"
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.view_kanban_account_analytic_line
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-calendar me-1\" role=\"img\" aria-label=\"Date\" title=\"Date\"/>"
 msgstr "<i class=\"fa fa-calendar me-1\" role=\"img\" aria-label=\"日期\" title=\"日期\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "<i class=\"fa fa-calendar me-1\" role=\"img\" aria-label=\"Date\" "
 "title=\"Date\"/>"
 msgstr ""
 "<i class=\"fa fa-calendar me-1\" role=\"img\" aria-label=\"日期\" title=\"日"
 "期\"/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_timesheet
@@ -1406,15 +1431,21 @@ msgid ""
 "                        You cannot delete employees who have timesheets.\n"
 "                        <span invisible=\"not has_active_employee\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            You can either archive these employees or first delete all of their timesheets.\n"
 "                        </span>\n"
 "                        <span invisible=\"has_active_employee\" groups=\"hr_timesheet.group_hr_timesheet_approver\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                            You can either archive these employees or first "
 "delete all of their timesheets.\n"
 "                        </span>\n"
 "                        <span invisible=\"has_active_employee\" "
 "groups=\"hr_timesheet.group_hr_timesheet_approver\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                            Please first delete all of their timesheets.\n"
 "                        </span>\n"
@@ -1427,15 +1458,21 @@ msgstr ""
 "                        不能刪除有考勤表的員工。\n"
 "                       <span invisible=\"not has_active_employee\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            您可以將這些員工封存，或者先刪除他們的所有工時表。\n"
 "                       </span>\n"
 "                       <span invisible=\"has_active_employee\" groups=\"hr_timesheet.group_hr_timesheet_approver\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                            您可以將這些員工封存，或者先刪除他們的所有工時"
 "表。\n"
 "                       </span>\n"
 "                       <span invisible=\"has_active_employee\" "
 "groups=\"hr_timesheet.group_hr_timesheet_approver\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                            請先刪除所有工時表。\n"
 "                       </span>\n"
@@ -1560,7 +1597,12 @@ msgstr "分析計劃的適用性"
 #: model_terms:ir.actions.act_window,help:hr_timesheet.timesheet_action_report_by_task
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Analyze the projects and tasks on which your employees spend their time.<br>\n"
+=======
+"Analyze the projects and tasks on which your employees spend their time."
+"<br>\n"
+>>>>>>> upstream/18.0
 =======
 "Analyze the projects and tasks on which your employees spend their time."
 "<br>\n"
@@ -1709,7 +1751,12 @@ msgid ""
 "Deliver your services automatically when a milestone is reached by linking "
 "it to a sales order item."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "將里程碑連結至銷售訂單項目，當達到里程碑時，可以自動執行和提供你的服務。"
+=======
+msgstr ""
+"將里程碑連結至銷售訂單項目，當達到里程碑時，可以自動執行和提供你的服務。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "將里程碑連結至銷售訂單項目，當達到里程碑時，可以自動執行和提供你的服務。"
@@ -1808,8 +1855,12 @@ msgstr "額外工時"
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.res_config_settings_view_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Generate timesheets for validated time off requests and public holidays"
+=======
+msgid "Generate timesheets for validated time off requests and public holidays"
+>>>>>>> upstream/18.0
 =======
 msgid "Generate timesheets for validated time off requests and public holidays"
 >>>>>>> upstream/18.0
@@ -2182,7 +2233,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "通過按 Shift + 相應的快速鍵為您的專案添加 15 分鐘，立即記錄您的工時表。"
+=======
+msgstr "按下 Shift + 為專案增加 15 分鐘的對應快捷鍵，便可立即記錄你的工時表。"
+>>>>>>> upstream/18.0
 =======
 msgstr "按下 Shift + 為專案增加 15 分鐘的對應快捷鍵，便可立即記錄你的工時表。"
 >>>>>>> upstream/18.0
@@ -2618,8 +2673,13 @@ msgstr "該公司的休假用內部專案應該在這家公司。"
 #: code:addons/hr_timesheet/models/hr_timesheet.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The project, the task and the analytic accounts of the timesheet must belong"
 " to the same company."
+=======
+"The project, the task and the analytic accounts of the timesheet must belong "
+"to the same company."
+>>>>>>> upstream/18.0
 =======
 "The project, the task and the analytic accounts of the timesheet must belong "
 "to the same company."
@@ -2636,15 +2696,21 @@ msgstr "沒有工時表。"
 #: code:addons/hr_timesheet/models/project_project.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "These projects have some timesheet entries referencing them. Before removing"
 " these projects, you have to remove these timesheet entries."
 msgstr "這些專案有一些引用它們的工時表項目。在刪除這些專案之前，您必須刪除這些工時表。"
 =======
+=======
+>>>>>>> upstream/18.0
 "These projects have some timesheet entries referencing them. Before removing "
 "these projects, you have to remove these timesheet entries."
 msgstr ""
 "這些專案有一些引用它們的工時表項目。在刪除這些專案之前，您必須刪除這些工時"
 "表。"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_timesheet
@@ -2654,7 +2720,13 @@ msgid ""
 "These tasks have some timesheet entries referencing them. Before removing "
 "these tasks, you have to remove these timesheet entries."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "這些任務有一些引用它們的工時表項目。在刪除這些任務之前，您必須刪除這些工時表。"
+=======
+msgstr ""
+"這些任務有一些引用它們的工時表項目。在刪除這些任務之前，您必須刪除這些工時"
+"表。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "這些任務有一些引用它們的工時表項目。在刪除這些任務之前，您必須刪除這些工時"
@@ -2697,14 +2769,20 @@ msgstr "該搜尋方法不支援該運算符 %s。"
 #: code:addons/hr_timesheet/models/project_project.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This project has some timesheet entries referencing it. Before removing this"
 " project, you have to remove these timesheet entries."
 msgstr "該專案有一些引用它的工時表項目。在刪除此專案之前，您必須刪除這些工時表項目。"
 =======
+=======
+>>>>>>> upstream/18.0
 "This project has some timesheet entries referencing it. Before removing this "
 "project, you have to remove these timesheet entries."
 msgstr ""
 "該專案有一些引用它的工時表項目。在刪除此專案之前，您必須刪除這些工時表項目。"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_timesheet
@@ -2721,7 +2799,12 @@ msgid ""
 "This task has some timesheet entries referencing it. Before removing this "
 "task, you have to remove these timesheet entries."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "此任務有一些引用它的工時表項目。在刪除此任務之前，您必須刪除這些工時表項目。"
+=======
+msgstr ""
+"此任務有一些引用它的工時表項目。在刪除此任務之前，您必須刪除這些工時表項目。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "此任務有一些引用它的工時表項目。在刪除此任務之前，您必須刪除這些工時表項目。"
@@ -2733,7 +2816,12 @@ msgstr ""
 msgid ""
 "This will set the unit of measure used in projects and tasks.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If you use the timesheet linked to projects, don't forget to setup the right unit of measure in your employees."
+=======
+"If you use the timesheet linked to projects, don't forget to setup the right "
+"unit of measure in your employees."
+>>>>>>> upstream/18.0
 =======
 "If you use the timesheet linked to projects, don't forget to setup the right "
 "unit of measure in your employees."
@@ -2970,8 +3058,12 @@ msgstr "不能在私人任務上建立工時表。"
 #: code:addons/hr_timesheet/models/hr_timesheet.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Timesheets must be created with an active employee in the selected "
 "companies."
+=======
+"Timesheets must be created with an active employee in the selected companies."
+>>>>>>> upstream/18.0
 =======
 "Timesheets must be created with an active employee in the selected companies."
 >>>>>>> upstream/18.0
@@ -3004,7 +3096,13 @@ msgid ""
 "project. Please set one up in the plan '%(plan_name)s' or turn off the "
 "timesheets feature."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "要使用工時表功能，專案需要有一個分析賬戶。請為計劃「%(plan_name)s」設定一個分析賬戶，或關閉工時表功能。"
+=======
+msgstr ""
+"要使用工時表功能，專案需要有一個分析賬戶。請為計劃「%(plan_name)s」設定一個分"
+"析賬戶，或關閉工時表功能。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "要使用工時表功能，專案需要有一個分析賬戶。請為計劃「%(plan_name)s」設定一個分"
@@ -3055,8 +3153,13 @@ msgstr "總計:"
 #: model_terms:ir.actions.act_window,help:hr_timesheet.timesheet_action_all
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Track your working hours by projects every day and invoice this time to your"
 " customers."
+=======
+"Track your working hours by projects every day and invoice this time to your "
+"customers."
+>>>>>>> upstream/18.0
 =======
 "Track your working hours by projects every day and invoice this time to your "
 "customers."
@@ -3080,7 +3183,12 @@ msgid ""
 "        ! Set the task a high priority\n"
 "\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Make sure to use the right format and order e.g. Improve the configuration screen 5h #feature #v16 @Mitchell !"
+=======
+"        Make sure to use the right format and order e.g. Improve the "
+"configuration screen 5h #feature #v16 @Mitchell !"
+>>>>>>> upstream/18.0
 =======
 "        Make sure to use the right format and order e.g. Improve the "
 "configuration screen 5h #feature #v16 @Mitchell !"
@@ -3121,7 +3229,12 @@ msgstr "查看詳情"
 msgid ""
 "You can register and track your workings hours by project every\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    day. Every time spent on a project will become a cost and can be re-invoiced to\n"
+=======
+"                    day. Every time spent on a project will become a cost "
+"and can be re-invoiced to\n"
+>>>>>>> upstream/18.0
 =======
 "                    day. Every time spent on a project will become a cost "
 "and can be re-invoiced to\n"
@@ -3148,12 +3261,15 @@ msgstr "不能刪除有工時表的員工。"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.project_invoice_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot log timesheets on this project since it is linked to an inactive analytic account.<br/>\n"
 "                            Please switch to another account, or reactivate the current one to timesheet on the project."
 msgstr ""
 "你不可為此專案記錄工時表，因為它連結至非運作的分析帳戶。<br/>\n"
 "                            請切換至另一帳戶，或重新啟動此帳戶，以在專案中記錄工時表。"
 =======
+=======
+>>>>>>> upstream/18.0
 "You cannot log timesheets on this project since it is linked to an inactive "
 "analytic account.<br/>\n"
 "                            Please switch to another account, or reactivate "
@@ -3162,6 +3278,9 @@ msgstr ""
 "你不可為此專案記錄工時表，因為它連結至非運作的分析帳戶。<br/>\n"
 "                            請切換至另一帳戶，或重新啟動此帳戶，以在專案中記"
 "錄工時表。"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_timesheet
@@ -3169,15 +3288,21 @@ msgstr ""
 msgid ""
 "You cannot log timesheets on this project since it is linked to an inactive "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "analytic account.<br/> Please change this account, or reactivate the current"
 " one to timesheet on the project."
 msgstr "你不可為此專案記錄工時表，因為它連結至非運作的分析帳戶。<br/> 請更改此帳戶設定，或重新啟動此帳戶，以在專案中記錄工時表。"
 =======
+=======
+>>>>>>> upstream/18.0
 "analytic account.<br/> Please change this account, or reactivate the current "
 "one to timesheet on the project."
 msgstr ""
 "你不可為此專案記錄工時表，因為它連結至非運作的分析帳戶。<br/> 請更改此帳戶設"
 "定，或重新啟動此帳戶，以在專案中記錄工時表。"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_timesheet
@@ -3201,7 +3326,12 @@ msgstr "因"
 msgid ""
 "on\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <span class=\"fw-bold text-dark\"> Sub-tasks</span>)"
+=======
+"                            <span class=\"fw-bold text-dark\"> Sub-tasks</"
+"span>)"
+>>>>>>> upstream/18.0
 =======
 "                            <span class=\"fw-bold text-dark\"> Sub-tasks</"
 "span>)"

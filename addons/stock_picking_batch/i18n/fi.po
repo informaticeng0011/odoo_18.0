@@ -2,7 +2,11 @@
 # This file contains the translation of the following modules:
 # 	* stock_picking_batch
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -31,7 +35,11 @@
 # Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2025
 # Jessica Jakara, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -39,6 +47,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2025-03-19 20:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
@@ -49,6 +58,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: fi\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Jessica Jakara, 2025\n"
@@ -57,6 +68,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -127,17 +141,23 @@ msgstr "<strong>→</strong>"
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__batch_max_lines
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A transfer will not be automatically added to batches that will exceed this number of lines if the transfer is added to it.\n"
 "Leave this value as '0' if no line limit."
 msgstr ""
 "Siirtoa ei lisätä automaattisesti eriin, jotka ylittävät tämän rivimäärän, jos siirto lisätään siihen.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "A transfer will not be automatically added to batches that will exceed this "
 "number of lines if the transfer is added to it.\n"
 "Leave this value as '0' if no line limit."
 msgstr ""
 "Siirtoa ei lisätä automaattisesti eriin, jotka ylittävät tämän rivimäärän, "
 "jos siirto lisätään siihen.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Jätä tämä arvo arvoksi \"0\", jos rivirajoitusta ei ole."
 
@@ -145,17 +165,23 @@ msgstr ""
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__batch_max_pickings
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A transfer will not be automatically added to batches that will exceed this number of transfers.\n"
 "Leave this value as '0' if no transfer limit."
 msgstr ""
 "Siirtoa ei lisätä automaattisesti eriin, jotka ylittävät tämän siirtojen määrän.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "A transfer will not be automatically added to batches that will exceed this "
 "number of transfers.\n"
 "Leave this value as '0' if no transfer limit."
 msgstr ""
 "Siirtoa ei lisätä automaattisesti eriin, jotka ylittävät tämän siirtojen "
 "määrän.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Jätä tämä arvo arvoksi \"0\", jos siirtorajoitusta ei ole."
 
@@ -623,8 +649,13 @@ msgid ""
 "for large warehouses."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Käynnistä poimintatilaukset käytävittäin tai alueittain ja ryhmitä uudelleen"
 " pakkausvyöhykkeellä. Ihanteellinen suuriin varastoihin."
+=======
+"Käynnistä poimintatilaukset käytävittäin tai alueittain ja ryhmitä uudelleen "
+"pakkausvyöhykkeellä. Ihanteellinen suuriin varastoihin."
+>>>>>>> upstream/18.0
 =======
 "Käynnistä poimintatilaukset käytävittäin tai alueittain ja ryhmitä uudelleen "
 "pakkausvyöhykkeellä. Ihanteellinen suuriin varastoihin."
@@ -785,8 +816,12 @@ msgstr "Keräilyn tyyppi"
 #. odoo-python
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Please add 'Done' quantities to the batch picking to create a new pack."
+=======
+msgid "Please add 'Done' quantities to the batch picking to create a new pack."
+>>>>>>> upstream/18.0
 =======
 msgid "Please add 'Done' quantities to the batch picking to create a new pack."
 >>>>>>> upstream/18.0
@@ -872,8 +907,12 @@ msgstr "Arviointi"
 #: model_terms:ir.actions.act_window,help:stock_picking_batch.stock_picking_batch_action
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Regroup multiple orders into one picking and consolidate at the packing "
 "zone."
+=======
+"Regroup multiple orders into one picking and consolidate at the packing zone."
+>>>>>>> upstream/18.0
 =======
 "Regroup multiple orders into one picking and consolidate at the packing zone."
 >>>>>>> upstream/18.0
@@ -915,6 +954,7 @@ msgstr "Suunniteltu päivämäärä"
 msgid ""
 "Scheduled date for the transfers to be processed.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "              - If manually set then scheduled date for all transfers in batch will automatically update to this date.\n"
 "              - If not manually changed and transfers are added/removed/updated then this will be their earliest scheduled date\n"
 "                but this scheduled date will not be set for all transfers in batch."
@@ -924,6 +964,8 @@ msgstr ""
 "              - Jos sitä ei muuteta manuaalisesti ja siirtoja lisätään/poistetaan/päivitetään, tämä on niiden varhaisin suunniteltu päivämäärä\n"
 "                mutta tätä aikataulun mukaista päivämäärää ei aseteta kaikille erän siirroille."
 =======
+=======
+>>>>>>> upstream/18.0
 "              - If manually set then scheduled date for all transfers in "
 "batch will automatically update to this date.\n"
 "              - If not manually changed and transfers are added/removed/"
@@ -938,6 +980,9 @@ msgstr ""
 "poistetaan/päivitetään, tämä on niiden varhaisin suunniteltu päivämäärä\n"
 "                mutta tätä aikataulun mukaista päivämäärää ei aseteta "
 "kaikille erän siirroille."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
@@ -998,8 +1043,13 @@ msgstr ""
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__wave_group_by_category
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Split transfers by product category, then group transfers that have the same"
 " product category."
+=======
+"Split transfers by product category, then group transfers that have the same "
+"product category."
+>>>>>>> upstream/18.0
 =======
 "Split transfers by product category, then group transfers that have the same "
 "product category."
@@ -1081,12 +1131,15 @@ msgstr "Yhteenveto:"
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The following transfers cannot be added to batch transfer %(batch)s. Please check their states and operation types.\n"
 "\n"
 "Incompatibilities: %(incompatible_transfers)s"
 msgstr ""
 "Seuraavia siirtoja ei voi lisätä eräsiirtoon %(batch)s. Tarkista niiden tilat ja toimintatyypit.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "The following transfers cannot be added to batch transfer %(batch)s. Please "
 "check their states and operation types.\n"
 "\n"
@@ -1094,6 +1147,9 @@ msgstr ""
 msgstr ""
 "Seuraavia siirtoja ei voi lisätä eräsiirtoon %(batch)s. Tarkista niiden "
 "tilat ja toimintatyypit.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "\n"
 "Yhteensopimattomuudet: %(incompatible_transfers)s"

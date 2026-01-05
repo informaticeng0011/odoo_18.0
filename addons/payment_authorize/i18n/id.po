@@ -2,22 +2,29 @@
 # This file contains the translation of the following modules:
 # 	* payment_authorize
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Abe Manyo, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Abe Manyo, 2024
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -28,6 +35,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: id\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Abe Manyo, 2024\n"
@@ -36,12 +45,16 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: payment_authorize
 #: model_terms:ir.ui.view,arch_db:payment_authorize.inline_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "<select id=\"o_authorize_account_type\" required=\"\" class=\"form-select\">\n"
 "                        <option value=\"checking\">Personal Checking</option>\n"
@@ -54,6 +67,8 @@ msgstr ""
 "                        <option value=\"savings\">Tabungan Pribadi</option>\n"
 "                        <option value=\"businessChecking\">Rekening Giro Bisnis</option>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "<select id=\"o_authorize_account_type\" required=\"\" class=\"form-"
 "select\">\n"
 "                        <option value=\"checking\">Personal Checking</"
@@ -70,6 +85,9 @@ msgstr ""
 "                        <option value=\"savings\">Tabungan Pribadi</option>\n"
 "                        <option value=\"businessChecking\">Rekening Giro "
 "Bisnis</option>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                    </select>"
 
@@ -230,13 +248,19 @@ msgstr "Pemrosesan pembayaran gagal"
 #. odoo-python
 #: code:addons/payment_authorize/models/payment_transaction.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Received data with status code \"%(status)s\" and error code \"%(error)s\""
 msgstr "Menerima data dengan kode status \"%(status)s\" dan kode error \"%(error)s\" "
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Received data with status code \"%(status)s\" and error code \"%(error)s\""
 msgstr ""
 "Menerima data dengan kode status \"%(status)s\" dan kode error \"%(error)s\" "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment_authorize
@@ -278,8 +302,13 @@ msgid ""
 "details: %(message)s)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Transaksi tidak dalam status untuk di-refund. (status: %(status)s, detail: "
 "%(message)s)"
+=======
+"Transaksi tidak dalam status untuk di-refund. (status: %(status)s, detail: %"
+"(message)s)"
+>>>>>>> upstream/18.0
 =======
 "Transaksi tidak dalam status untuk di-refund. (status: %(status)s, detail: %"
 "(message)s)"
@@ -297,8 +326,12 @@ msgid ""
 "The unique reference for the partner/token combination in the Authorize.net "
 "backend."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Referensi unik untuk kombinasi partner/token di Authorize.net backend."
+=======
+msgstr "Referensi unik untuk kombinasi partner/token di Authorize.net backend."
+>>>>>>> upstream/18.0
 =======
 msgstr "Referensi unik untuk kombinasi partner/token di Authorize.net backend."
 >>>>>>> upstream/18.0

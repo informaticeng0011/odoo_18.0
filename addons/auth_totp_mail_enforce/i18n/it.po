@@ -2,6 +2,7 @@
 # This file contains the translation of the following modules:
 # 	* auth_totp_mail_enforce
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -464,17 +465,23 @@
 >>>>>>> upstream/18.0
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Friederike Fasterling-Nesselbosch, 2024
 # Sergio Zanchetta <primes2h@gmail.com>, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -942,6 +949,8 @@ msgstr ""
 "Language: it\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
@@ -952,6 +961,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
 "1 : 2;\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: auth_totp_mail_enforce
@@ -972,6 +984,7 @@ msgid ""
 "    <ul>\n"
 "        <t t-set=\"not_available\">N/A</t>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <li>Location: <t t-out=\"ctx.get('location') or not_available\"/></li>\n"
 "        <li>Device: <t t-out=\"ctx.get('device') or not_available\"/></li>\n"
 "        <li>Browser: <t t-out=\"ctx.get('browser') or not_available\"/></li>\n"
@@ -979,6 +992,8 @@ msgid ""
 "    </ul>\n"
 "    <p>If this is you, please enter the following code to complete the login:</p>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        <li>Location: <t t-out=\"ctx.get('location') or not_available\"/></"
 "li>\n"
 "        <li>Device: <t t-out=\"ctx.get('device') or not_available\"/></li>\n"
@@ -988,11 +1003,15 @@ msgid ""
 "    </ul>\n"
 "    <p>If this is you, please enter the following code to complete the login:"
 "</p>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "    <t t-set=\"code_expiration\" t-value=\"object._get_totp_mail_code()\"/>\n"
 "    <t t-set=\"code\" t-value=\"code_expiration[0]\"/>\n"
 "    <t t-set=\"expiration\" t-value=\"code_expiration[1]\"/>\n"
 "    <div style=\"margin: 16px 0px 16px 0px; text-align: center;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "        <span t-out=\"code\" style=\"background-color:#faf9fa; border: 1px solid #dad8de; padding: 8px 16px 8px 16px; font-size: 24px; color: #875A7B; border-radius: 5px;\"/>\n"
 "    </div>\n"
@@ -1010,6 +1029,8 @@ msgid ""
 "    <p style=\"margin: 16px 0px 16px 0px; text-align: center;\">\n"
 "        <a t-att-href=\"object.get_totp_invite_url()\" style=\"background-color:#875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        <span t-out=\"code\" style=\"background-color:#faf9fa; border: 1px "
 "solid #dad8de; padding: 8px 16px 8px 16px; font-size: 24px; color: #875A7B; "
 "border-radius: 5px;\"/>\n"
@@ -1032,6 +1053,9 @@ msgid ""
 "        <a t-att-href=\"object.get_totp_invite_url()\" style=\"background-"
 "color:#875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: "
 "#fff; border-radius: 5px;\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            Activate my two-factor authentication\n"
 "        </a>\n"
@@ -1042,6 +1066,7 @@ msgstr ""
 "<div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "    Ciao<t t-out=\"object.partner_id.name or ''\"/><br/><br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    <p>Qualcuno sta cercando di accedere al tuo account da un nuovo dispositivo.</p>\n"
 "    <ul>\n"
 "        <t t-set=\"not_available\">N/A</t>\n"
@@ -1050,6 +1075,8 @@ msgstr ""
 "        <li>Browser: <t t-out=\"ctx.get('browser') or not_available\"/></li>\n"
 "        <li>Indirizzo IP: <t t-out=\"ctx.get('ip') or not_available\"/></li>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "    <p>Qualcuno sta cercando di accedere al tuo account da un nuovo "
 "dispositivo.</p>\n"
 "    <ul>\n"
@@ -1062,6 +1089,9 @@ msgstr ""
 "li>\n"
 "        <li>Indirizzo IP: <t t-out=\"ctx.get('ip') or not_available\"/></"
 "li>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "    </ul>\n"
 "    <p>Se sei tu, inserisci il seguente codice per completare il login:</p>\n"
@@ -1069,6 +1099,7 @@ msgstr ""
 "    <t t-set=\"code\" t-value=\"code_expiration[0]\"/>\n"
 "    <t t-set=\"expiration\" t-value=\"code_expiration[1]\"/>\n"
 "    <div style=\"margin: 16px 0px 16px 0px; text-align: center;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "        <span t-out=\"code\" style=\"background-color:#faf9fa; border: 1px solid #dad8de; padding: 8px 16px 8px 16px; font-size: 24px; color: #875A7B; border-radius: 5px;\"/>\n"
 "    </div>\n"
@@ -1086,6 +1117,8 @@ msgstr ""
 "    <p style=\"margin: 16px 0px 16px 0px; text-align: center;\">\n"
 "        <a t-att-href=\"object.get_totp_invite_url()\" style=\"background-color:#875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        <span t-out=\"code\" style=\"background-color:#faf9fa; border: 1px "
 "solid #dad8de; padding: 8px 16px 8px 16px; font-size: 24px; color: #875A7B; "
 "border-radius: 5px;\"/>\n"
@@ -1109,6 +1142,9 @@ msgstr ""
 "        <a t-att-href=\"object.get_totp_invite_url()\" style=\"background-"
 "color:#875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: "
 "#fff; border-radius: 5px;\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "  Attivare la mia autenticazione a due fattori\n"
 "        </a>\n"
@@ -1120,17 +1156,23 @@ msgstr ""
 msgid ""
 "<i class=\"fa fa-envelope-o\"/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                To login, enter below the six-digit authentication code just sent via email to"
 msgstr ""
 "<i class=\"fa fa-envelope-o\"/>\n"
 "                Per accedere, inserire qui sotto il codice di autenticazione a sei cifre appena inviato via e-mail a"
 =======
+=======
+>>>>>>> upstream/18.0
 "                To login, enter below the six-digit authentication code just "
 "sent via email to"
 msgstr ""
 "<i class=\"fa fa-envelope-o\"/>\n"
 "                Per accedere, inserire qui sotto il codice di autenticazione "
 "a sei cifre appena inviato via e-mail a"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: auth_totp_mail_enforce
@@ -1199,6 +1241,7 @@ msgstr "ID"
 #. module: auth_totp_mail_enforce
 #: model:ir.model.fields,field_description:auth_totp_mail_enforce.field_auth_totp_rate_limit_log__ip
 msgid "Ip"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1660,6 +1703,9 @@ msgstr "IP"
 =======
 msgstr "IP"
 >>>>>>> upstream/18.0
+=======
+msgstr "IP"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp_mail_enforce
 #: model:ir.model.fields,field_description:auth_totp_mail_enforce.field_auth_totp_rate_limit_log__write_uid
@@ -1727,17 +1773,23 @@ msgstr "Verifica non riuscita, ricontrollare il codice a 6 cifre"
 #: model_terms:ir.ui.view,arch_db:auth_totp_mail_enforce.auth_totp_mail_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "We strongly recommend enabling the two-factor authentication using an authenticator app to help secure your account.\n"
 "                <br/>"
 msgstr ""
 "Raccomandiamo vivamente di attivare l'autenticazione a due fattori utilizzando un'app di autenticazione per rendere sicuro il tuo account.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "We strongly recommend enabling the two-factor authentication using an "
 "authenticator app to help secure your account.\n"
 "                <br/>"
 msgstr ""
 "Raccomandiamo vivamente di attivare l'autenticazione a due fattori "
 "utilizzando un'app di autenticazione per rendere sicuro il tuo account.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "<br/>"
 
@@ -1747,8 +1799,12 @@ msgstr ""
 msgid "You reached the limit of authentication mails sent for your account"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Hai raggiunto il limite di email di autenticazione inviate per il tuo "
 "account"
+=======
+"Hai raggiunto il limite di email di autenticazione inviate per il tuo account"
+>>>>>>> upstream/18.0
 =======
 "Hai raggiunto il limite di email di autenticazione inviate per il tuo account"
 >>>>>>> upstream/18.0

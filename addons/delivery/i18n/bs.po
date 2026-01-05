@@ -42,6 +42,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -154,6 +158,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2023-05-16 13:49+0000\n"
 <<<<<<< HEAD
@@ -371,16 +376,22 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2025-12-31 16:37+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Bosnian <https://translate.odoo.com/projects/odoo-18/delivery/"
 "bs/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Language: bs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -598,6 +609,11 @@ msgstr ""
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #. odoo-python
@@ -607,7 +623,10 @@ msgstr ""
 
 #. module: delivery
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/delivery/models/sale_order.py:0
 msgid ""
@@ -622,6 +641,9 @@ msgid "%s (copy)"
 msgstr "%s (kopija)"
 
 #. module: delivery
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:delivery.choose_delivery_carrier_view_form
 msgid "<i class=\"oi oi-arrow-right me-1\"/>Get rate"
@@ -641,7 +663,12 @@ msgstr ""
 msgid ""
 "<span class=\"o_stat_text o_warning_text fw-bold\">Test</span>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <span class=\"o_stat_text\">Environment</span>"
+=======
+"                                <span class=\"o_stat_text\">Environment</"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "                                <span class=\"o_stat_text\">Environment</"
 "span>"
@@ -663,7 +690,12 @@ msgstr ""
 msgid ""
 "<span class=\"text-success\">Production</span>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <span class=\"o_stat_text\">Environment</span>"
+=======
+"                                <span class=\"o_stat_text\">Environment</"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "                                <span class=\"o_stat_text\">Environment</"
 "span>"
@@ -673,7 +705,11 @@ msgstr ""
 #. module: delivery
 #: model_terms:ir.ui.view,arch_db:delivery.delivery_report_saleorder_document
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<strong>Shipping Description:</strong>"
+=======
+msgid "<strong>Shipping Description</strong>"
+>>>>>>> upstream/18.0
 =======
 msgid "<strong>Shipping Description</strong>"
 >>>>>>> upstream/18.0
@@ -682,12 +718,18 @@ msgstr ""
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__carrier_description
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "A description of the delivery method that you want to communicate to your customers on the Sales Order and sales confirmation email.E.g. instructions for customers to follow."
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "A description of the delivery method that you want to communicate to your "
 "customers on the Sales Order and sales confirmation email.E.g. instructions "
 "for customers to follow."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -740,7 +782,11 @@ msgid "Add"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodaj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodaj"
 >>>>>>> upstream/18.0
@@ -875,14 +921,20 @@ msgstr "Iznos"
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__amount
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Amount of the order to benefit from a free shipping, expressed in the company currency"
 msgstr "Iznos narudžbe da bi dostava bila besplatna, izražena u valuti kompanije"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Amount of the order to benefit from a free shipping, expressed in the "
 "company currency"
 msgstr ""
 "Iznos narudžbe da bi dostava bila besplatna, izražena u valuti kompanije"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: delivery
@@ -893,12 +945,18 @@ msgstr "Arhivirano"
 
 #. module: delivery
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid "Availability"
 msgstr "Raspoloživost"
 
 #. module: delivery
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:delivery.field_choose_delivery_carrier__available_carrier_ids
 msgid "Available Carriers"
@@ -924,7 +982,10 @@ msgstr "Prevoznik"
 
 #. module: delivery
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/delivery/models/delivery_carrier.py:0
 msgid ""
@@ -932,6 +993,9 @@ msgid ""
 msgstr ""
 
 #. module: delivery
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__carrier_description
 msgid "Carrier Description"
@@ -939,7 +1003,10 @@ msgstr ""
 
 #. module: delivery
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/delivery/static/src/js/location_selector/location_selector_dialog/location_selector_dialog.js:0
 msgid "Choose a pick-up point"
@@ -959,6 +1026,9 @@ msgid "Closed"
 msgstr "Zatvoreno"
 
 #. module: delivery
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:delivery.field_choose_delivery_carrier__company_id
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__company_id
@@ -976,6 +1046,7 @@ msgid "Contact"
 msgstr "Kontakt"
 
 #. module: delivery
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.model.fields,field_description:delivery.field_choose_delivery_carrier__display_price
 msgid "Cost"
@@ -1121,6 +1192,8 @@ msgstr "Cijena (Koštanje)"
 msgstr "Cijena (Koštanje)"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid "Content"
 msgstr "Sadržaj"
@@ -1129,6 +1202,9 @@ msgstr "Sadržaj"
 #: model:ir.model.fields,field_description:delivery.field_choose_delivery_carrier__display_price
 msgid "Cost"
 msgstr "Cijena (Koštanje)"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: delivery
@@ -1193,7 +1269,11 @@ msgid "Currency"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Valuta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valuta"
 >>>>>>> upstream/18.0
@@ -1342,7 +1422,11 @@ msgid "Customer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kupac"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kupac"
 >>>>>>> upstream/18.0
@@ -1495,6 +1579,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:delivery.field_res_users__property_delivery_carrier_id
 #: model:ir.model.fields,field_description:delivery.field_sale_order__carrier_id
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 >>>>>>> upstream/18.0
@@ -1503,13 +1591,19 @@ msgstr "Način isporuke"
 
 #. module: delivery
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.actions.act_window,name:delivery.action_delivery_carrier_form
 #: model:ir.ui.menu,name:delivery.sale_menu_action_delivery_carrier_form
 msgid "Delivery Methods"
 msgstr ""
 
 #. module: delivery
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:delivery.field_choose_delivery_carrier__delivery_price
 msgid "Delivery Price"
@@ -1527,11 +1621,14 @@ msgstr "Proizvod dostave"
 
 #. module: delivery
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:delivery.field_sale_order__delivery_rating_success
 msgid "Delivery Rating Success"
 msgstr ""
 
 #. module: delivery
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:delivery.field_sale_order__delivery_set
@@ -1559,6 +1656,7 @@ msgstr ""
 #. module: delivery
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid "Description"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1706,11 +1804,16 @@ msgstr "Opis"
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid "Destination Availability"
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Opis"
 
 #. module: delivery
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid "Destination"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -1753,11 +1856,14 @@ msgstr ""
 
 #. module: delivery
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__invoice_policy
 msgid ""
 "Estimated Cost: the customer will be invoiced the estimated cost of the shipping.\n"
 "Real Cost: the customer will be invoiced the real cost of the shipping, the cost of theshipping will be updated on the SO after the delivery."
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/delivery/models/delivery_carrier.py:0
 msgid "Error: this delivery method is not available."
@@ -1770,6 +1876,9 @@ msgid ""
 "shipping.\n"
 "Real Cost: the customer will be invoiced the real cost of the shipping, the "
 "cost of theshipping will be updated on the SO after the delivery."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -1780,6 +1889,7 @@ msgstr ""
 
 #. module: delivery
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,help:delivery.field_sale_order__carrier_id
 msgid "Fill this field if you plan to invoice the shipping based on picking."
 msgstr "Popunite ovo polje ako planirate da fakturišete isporuke bazirano na prikupljanjima."
@@ -1788,6 +1898,8 @@ msgstr "Popunite ovo polje ako planirate da fakturišete isporuke bazirano na pr
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid "Filling this form allows you to filter delivery carriers according to the delivery address of your customer."
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__excluded_tag_ids
 msgid "Excluded Tags"
 msgstr ""
@@ -1804,6 +1916,9 @@ msgstr ""
 msgid ""
 "Filling this form allows you to make the shipping method available according "
 "to the content of the order or its destination."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -1820,12 +1935,15 @@ msgstr "Fiksna cijena"
 
 #. module: delivery
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/delivery/models/sale_order.py:0
 msgid "Free Shipping"
 msgstr ""
 
 #. module: delivery
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__free_over
@@ -1863,8 +1981,11 @@ msgstr "ID"
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__free_over
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "If the order total amount (shipping excluded) is above or equal to this value, the customer benefits from a free shipping"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "If the order total amount (shipping excluded) is above or equal to this "
 "value, the customer benefits from a free shipping"
@@ -1882,6 +2003,9 @@ msgstr ""
 msgid ""
 "If the total weight of the order is over this weight, the method won't be "
 "available."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -1944,7 +2068,11 @@ msgid "Invoicing Policy"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pravilo fakturisanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pravilo fakturisanja"
 >>>>>>> upstream/18.0
@@ -2077,9 +2205,12 @@ msgstr "Zadnje ažurirano"
 
 #. module: delivery
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:delivery.carrier,name:delivery.delivery_local_delivery
 #: model:product.template,name:delivery.product_product_local_delivery_product_template
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/delivery/static/src/js/location_selector/location_selector_dialog/location_selector_dialog.js:0
 msgid "List view"
@@ -2093,6 +2224,9 @@ msgstr "Učitavam..."
 
 #. module: delivery
 #: model:delivery.carrier,name:delivery.delivery_local_delivery
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "Local Delivery"
 msgstr ""
@@ -2109,13 +2243,19 @@ msgstr ""
 
 #. module: delivery
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/delivery/static/src/js/location_selector/location_selector_dialog/location_selector_dialog.js:0
 msgid "Map view"
 msgstr ""
 
 #. module: delivery
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__margin
 msgid "Margin"
@@ -2133,7 +2273,10 @@ msgstr ""
 
 #. module: delivery
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__max_volume
 msgid "Max Volume"
 msgstr ""
@@ -2144,6 +2287,9 @@ msgid "Max Weight"
 msgstr ""
 
 #. module: delivery
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:delivery.field_delivery_price_rule__max_value
 msgid "Maximum Value"
@@ -2151,12 +2297,18 @@ msgstr "Maksimalna vrijednost"
 
 #. module: delivery
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__must_have_tag_ids
 msgid "Must Have Tags"
 msgstr ""
 
 #. module: delivery
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:delivery.field_delivery_price_rule__name
 msgid "Name"
@@ -2171,7 +2323,10 @@ msgstr ""
 #. module: delivery
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/delivery/models/sale_order.py:0
 msgid "No pick-up points are available for this delivery address."
 msgstr ""
@@ -2184,6 +2339,9 @@ msgstr ""
 
 #. module: delivery
 #. odoo-python
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/delivery/models/delivery_carrier.py:0
 msgid "Not available for current order"
@@ -2191,7 +2349,10 @@ msgstr ""
 
 #. module: delivery
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/delivery/static/src/js/location_selector/location/location.js:0
 #: code:addons/delivery/static/src/js/location_selector/map_container/map_container.js:0
@@ -2199,6 +2360,9 @@ msgid "Opening hours"
 msgstr ""
 
 #. module: delivery
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:delivery.field_delivery_price_rule__operator
 msgid "Operator"
@@ -2243,6 +2407,7 @@ msgid "Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Nalog"
@@ -2350,12 +2515,17 @@ msgstr "Nalog"
 msgstr "Nalog"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Nalog"
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_sale_order__pickup_location_data
 msgid "Pickup Location Data"
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: delivery
@@ -2402,7 +2572,11 @@ msgid "Prefix"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prefiks"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prefiks"
 >>>>>>> upstream/18.0
@@ -2520,13 +2694,19 @@ msgstr ""
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__zip_prefix_ids
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Prefixes of zip codes that this carrier applies to. Note that regular expressions can be used to support countries with varying zip code lengths, i.e. '$' can be added to end of prefix to match the exact zip (e.g. '100$' will only match '100' and not '1000')"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Prefixes of zip codes that this carrier applies to. Note that regular "
 "expressions can be used to support countries with varying zip code lengths, "
 "i.e. '$' can be added to end of prefix to match the exact zip (e.g. '100$' "
 "will only match '100' and not '1000')"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -2554,12 +2734,18 @@ msgstr "Cijenovna pravila"
 
 #. module: delivery
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:delivery.model_product_category
 msgid "Product Category"
 msgstr "Kategorija proizvoda"
 
 #. module: delivery
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:delivery.field_sale_order_line__product_qty
 msgid "Product Qty"
@@ -2632,7 +2818,11 @@ msgid "Sales Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prodajna narudžba"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prodajna narudžba"
 >>>>>>> upstream/18.0
@@ -2749,13 +2939,19 @@ msgstr "Stavka prodajne narudžbe"
 
 #. module: delivery
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/delivery/static/src/js/location_selector/location_selector_dialog/location_selector_dialog.xml:0
 msgid "Search"
 msgstr "Pretraži"
 
 #. module: delivery
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__sequence
 #: model:ir.model.fields,field_description:delivery.field_delivery_price_rule__sequence
@@ -2771,26 +2967,36 @@ msgstr ""
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__prod_environment
 msgid "Set to True if your credentials are certified for production."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Postavi na Tačno ako su vaši kredencijali certificirani za proizvodnju."
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_choose_delivery_carrier__carrier_id
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr ""
 "Postavi na Tačno ako su vaši kredencijali certificirani za proizvodnju."
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_choose_delivery_carrier__carrier_id
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "Shipping Method"
 msgstr ""
 
 #. module: delivery
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.actions.act_window,name:delivery.action_delivery_carrier_form
 #: model:ir.model,name:delivery.model_delivery_carrier
 #: model:ir.ui.menu,name:delivery.sale_menu_action_delivery_carrier_form
+=======
+#: model:ir.model,name:delivery.model_delivery_carrier
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model,name:delivery.model_delivery_carrier
 >>>>>>> upstream/18.0
@@ -2806,7 +3012,13 @@ msgstr "Težina isporuke"
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__shipping_insurance
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Shipping insurance is a service which may reimburse senders whose parcels are lost, stolen, and/or damaged in transit."
+=======
+msgid ""
+"Shipping insurance is a service which may reimburse senders whose parcels "
+"are lost, stolen, and/or damaged in transit."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "Shipping insurance is a service which may reimburse senders whose parcels "
@@ -2817,7 +3029,13 @@ msgstr ""
 #. module: delivery
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Shipping method details to be included at bottom sales orders and their confirmation emails. E.g. Instructions for customers to follow."
+=======
+msgid ""
+"Shipping method details to be included at bottom sales orders and their "
+"confirmation emails. E.g. Instructions for customers to follow."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "Shipping method details to be included at bottom sales orders and their "
@@ -2849,9 +3067,12 @@ msgstr "Brza pošta"
 
 #. module: delivery
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__get_return_label_from_portal
 msgid "The return label can be downloaded by the customer from the customer portal."
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__excluded_tag_ids
 msgid ""
 "The method is NOT available if at least one product of the order has one of "
@@ -2869,6 +3090,9 @@ msgstr ""
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__get_return_label_from_portal
 msgid ""
 "The return label can be downloaded by the customer from the customer portal."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -2890,13 +3114,19 @@ msgstr ""
 
 #. module: delivery
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/delivery/static/src/js/location_selector/map_container/map_container.js:0
 msgid "There was an error loading the map"
 msgstr ""
 
 #. module: delivery
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.actions.act_window,help:delivery.action_delivery_carrier_form
 msgid ""
@@ -2912,7 +3142,10 @@ msgstr ""
 
 #. module: delivery
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__tracking_url
 msgid ""
 "This option adds a link for the customer in the portal to track their "
@@ -2920,6 +3153,9 @@ msgid ""
 msgstr ""
 
 #. module: delivery
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__margin
 msgid "This percentage will be added to the shipping price."
@@ -2932,6 +3168,7 @@ msgstr ""
 
 #. module: delivery
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:delivery.choose_delivery_carrier_view_form
 msgid "Update"
 <<<<<<< HEAD
@@ -3076,6 +3313,8 @@ msgstr "Ažuriraj"
 msgstr "Ažuriraj"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__tracking_url
 msgid "Tracking Link"
 msgstr ""
@@ -3084,6 +3323,9 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:delivery.choose_delivery_carrier_view_form
 msgid "Update"
 msgstr "Ažuriraj"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: delivery
@@ -3111,12 +3353,18 @@ msgstr "Volumen"
 
 #. module: delivery
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__volume_uom_name
 msgid "Volume unit of measure label"
 msgstr ""
 
 #. module: delivery
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:delivery.selection__delivery_price_rule__variable__weight
 #: model:ir.model.fields.selection,name:delivery.selection__delivery_price_rule__variable_factor__weight
@@ -3136,6 +3384,7 @@ msgstr ""
 
 #. module: delivery
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/delivery/models/sale_order.py:0
 msgid ""
@@ -3143,6 +3392,8 @@ msgid ""
 "\n"
 "The following delivery lines (product, invoiced quantity and price) have already been processed:\n"
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__weight_uom_name
 msgid "Weight unit of measure label"
 msgstr ""
@@ -3156,13 +3407,19 @@ msgid ""
 "\n"
 "The following delivery lines (product, invoiced quantity and price) have "
 "already been processed:\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "\n"
 msgstr ""
 
 #. module: delivery
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/delivery/models/product_category.py:0
 msgid ""
@@ -3177,6 +3434,9 @@ msgid "Your postal code"
 msgstr ""
 
 #. module: delivery
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.actions.act_window,name:delivery.action_delivery_zip_prefix_list
 msgid "Zip Prefix"
@@ -3192,10 +3452,16 @@ msgstr ""
 msgid "e.g. UPS Express"
 msgstr "npr.: UPS Express"
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid "i.e. https://ekartlogistics.com/shipmenttrack/<shipmenttrackingnumber>"
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

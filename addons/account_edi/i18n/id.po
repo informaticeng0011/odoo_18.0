@@ -2,22 +2,29 @@
 # This file contains the translation of the following modules:
 # 	* account_edi
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Abe Manyo, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Abe Manyo, 2024
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -28,6 +35,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: id\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Abe Manyo, 2024\n"
@@ -36,6 +45,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
 
@@ -98,6 +110,7 @@ msgstr "Level Pembolkiran"
 #: model:ir.model.fields,help:account_edi.field_account_edi_document__blocking_level
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Blocks the current operation of the document depending on the error severity:\n"
 "  * Info: the document is not blocked and everything is working as it should.\n"
 "  * Warning: there is an error that doesn't prevent the current Electronic Invoicing operation to succeed.\n"
@@ -107,6 +120,8 @@ msgstr ""
 "  * Info: dokumen tidak diblokir dan semuanya bekerja seperti semestinya.\n"
 "  * Peringatan: terdapat error yang tidak mencegah operasi Faktur Elektronik untuk berhasil.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "Blocks the current operation of the document depending on the error "
 "severity:\n"
 "  * Info: the document is not blocked and everything is working as it "
@@ -120,6 +135,9 @@ msgstr ""
 "  * Info: dokumen tidak diblokir dan semuanya bekerja seperti semestinya.\n"
 "  * Peringatan: terdapat error yang tidak mencegah operasi Faktur Elektronik "
 "untuk berhasil.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "  * Error: terdapat error yang memblokir pengoperasian Faktur Elektronik."
 
@@ -409,8 +427,12 @@ msgstr "Status"
 #: model:ir.model.fields,help:account_edi.field_account_move__edi_state
 msgid "The aggregated state of all the EDIs with web-service of this move"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Status agregat untuk semua EDI dengan layanan-web untuk pergerakan ini"
+=======
+msgstr "Status agregat untuk semua EDI dengan layanan-web untuk pergerakan ini"
+>>>>>>> upstream/18.0
 =======
 msgstr "Status agregat untuk semua EDI dengan layanan-web untuk pergerakan ini"
 >>>>>>> upstream/18.0
@@ -441,8 +463,12 @@ msgstr "Faktur akan sebentar lagi dikirim ke"
 #: model:ir.model.fields,help:account_edi.field_account_edi_document__error
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The text of the last error that happened during Electronic Invoice "
 "operation."
+=======
+"The text of the last error that happened during Electronic Invoice operation."
+>>>>>>> upstream/18.0
 =======
 "The text of the last error that happened during Electronic Invoice operation."
 >>>>>>> upstream/18.0
@@ -464,8 +490,13 @@ msgstr "Dokumen ini sedang dikirim oleh proses yang lain."
 #: code:addons/account_edi/models/account_move.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This invoice was canceled while the EDIs %s still had a pending cancellation"
 " request."
+=======
+"This invoice was canceled while the EDIs %s still had a pending cancellation "
+"request."
+>>>>>>> upstream/18.0
 =======
 "This invoice was canceled while the EDIs %s still had a pending cancellation "
 "request."
@@ -497,8 +528,13 @@ msgstr "Peringatan"
 #: code:addons/account_edi/models/account_move.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can't edit the following journal entry %s because an electronic document"
 " has already been sent. Please use the 'Request EDI Cancellation' button "
+=======
+"You can't edit the following journal entry %s because an electronic document "
+"has already been sent. Please use the 'Request EDI Cancellation' button "
+>>>>>>> upstream/18.0
 =======
 "You can't edit the following journal entry %s because an electronic document "
 "has already been sent. Please use the 'Request EDI Cancellation' button "

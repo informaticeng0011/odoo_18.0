@@ -2,22 +2,29 @@
 # This file contains the translation of the following modules:
 # 	* auth_totp_mail_enforce
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Thi Huong Nguyen, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Thi Huong Nguyen, 2024
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -28,6 +35,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: vi\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Thi Huong Nguyen, 2024\n"
@@ -36,6 +45,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
 
@@ -57,6 +69,7 @@ msgid ""
 "    <ul>\n"
 "        <t t-set=\"not_available\">N/A</t>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <li>Location: <t t-out=\"ctx.get('location') or not_available\"/></li>\n"
 "        <li>Device: <t t-out=\"ctx.get('device') or not_available\"/></li>\n"
 "        <li>Browser: <t t-out=\"ctx.get('browser') or not_available\"/></li>\n"
@@ -64,6 +77,8 @@ msgid ""
 "    </ul>\n"
 "    <p>If this is you, please enter the following code to complete the login:</p>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        <li>Location: <t t-out=\"ctx.get('location') or not_available\"/></"
 "li>\n"
 "        <li>Device: <t t-out=\"ctx.get('device') or not_available\"/></li>\n"
@@ -73,11 +88,15 @@ msgid ""
 "    </ul>\n"
 "    <p>If this is you, please enter the following code to complete the login:"
 "</p>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "    <t t-set=\"code_expiration\" t-value=\"object._get_totp_mail_code()\"/>\n"
 "    <t t-set=\"code\" t-value=\"code_expiration[0]\"/>\n"
 "    <t t-set=\"expiration\" t-value=\"code_expiration[1]\"/>\n"
 "    <div style=\"margin: 16px 0px 16px 0px; text-align: center;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "        <span t-out=\"code\" style=\"background-color:#faf9fa; border: 1px solid #dad8de; padding: 8px 16px 8px 16px; font-size: 24px; color: #875A7B; border-radius: 5px;\"/>\n"
 "    </div>\n"
@@ -95,6 +114,8 @@ msgid ""
 "    <p style=\"margin: 16px 0px 16px 0px; text-align: center;\">\n"
 "        <a t-att-href=\"object.get_totp_invite_url()\" style=\"background-color:#875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        <span t-out=\"code\" style=\"background-color:#faf9fa; border: 1px "
 "solid #dad8de; padding: 8px 16px 8px 16px; font-size: 24px; color: #875A7B; "
 "border-radius: 5px;\"/>\n"
@@ -117,6 +138,9 @@ msgid ""
 "        <a t-att-href=\"object.get_totp_invite_url()\" style=\"background-"
 "color:#875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: "
 "#fff; border-radius: 5px;\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            Activate my two-factor authentication\n"
 "        </a>\n"
@@ -126,6 +150,7 @@ msgid ""
 msgstr ""
 "<div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "    Xin chào <t t-out=\"object.partner_id.name or ''\"/><br/><br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "    <p>Ai đó đang cố gắng đăng nhập vào tài khoản của bạn trên một thiết bị mới.</p>\n"
 "    <ul>\n"
@@ -137,6 +162,8 @@ msgstr ""
 "    </ul>\n"
 "    <p>Nếu đây là bạn, vui lòng nhập mã sau đây để hoàn tất quá trình đăng nhập:</p>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "    <p>Ai đó đang cố gắng đăng nhập vào tài khoản của bạn trên một thiết bị "
 "mới.</p>\n"
 "    <ul>\n"
@@ -151,22 +178,31 @@ msgstr ""
 "    </ul>\n"
 "    <p>Nếu đây là bạn, vui lòng nhập mã sau đây để hoàn tất quá trình đăng "
 "nhập:</p>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "    <t t-set=\"code_expiration\" t-value=\"object._get_totp_mail_code()\"/>\n"
 "    <t t-set=\"code\" t-value=\"code_expiration[0]\"/>\n"
 "    <t t-set=\"expiration\" t-value=\"code_expiration[1]\"/>\n"
 "    <div style=\"margin: 16px 0px 16px 0px; text-align: center;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <span t-out=\"code\" style=\"background-color:#faf9fa; border: 1px solid #dad8de; padding: 8px 16px 8px 16px; font-size: 24px; color: #875A7B; border-radius: 5px;\"/>\n"
 "    </div>\n"
 "    <small>Xin lưu ý rằng mã này sẽ hết hạn trong vòng <t t-out=\"expiration\"/>.</small>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        <span t-out=\"code\" style=\"background-color:#faf9fa; border: 1px "
 "solid #dad8de; padding: 8px 16px 8px 16px; font-size: 24px; color: #875A7B; "
 "border-radius: 5px;\"/>\n"
 "    </div>\n"
 "    <small>Xin lưu ý rằng mã này sẽ hết hạn trong vòng <t t-"
 "out=\"expiration\"/>.</small>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "\n"
 "    <p style=\"margin: 16px 0px 16px 0px;\">\n"
@@ -176,12 +212,15 @@ msgstr ""
 "\n"
 "    <p style=\"margin: 16px 0px 16px 0px;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Chúng tôi cũng chân thành khuyên bạn nên bật xác thực hai yếu tố bằng ứng dụng xác thực để giúp bảo mật tài khoản của bạn.\n"
 "    </p>\n"
 "\n"
 "    <p style=\"margin: 16px 0px 16px 0px; text-align: center;\">\n"
 "        <a t-att-href=\"object.get_totp_invite_url()\" style=\"background-color:#875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        Chúng tôi cũng chân thành khuyên bạn nên bật xác thực hai yếu tố "
 "bằng ứng dụng xác thực để giúp bảo mật tài khoản của bạn.\n"
 "    </p>\n"
@@ -190,6 +229,9 @@ msgstr ""
 "        <a t-att-href=\"object.get_totp_invite_url()\" style=\"background-"
 "color:#875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: "
 "#fff; border-radius: 5px;\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            Kích hoạt xác thực hai yếu tố của tôi\n"
 "        </a>\n"
@@ -202,17 +244,23 @@ msgstr ""
 msgid ""
 "<i class=\"fa fa-envelope-o\"/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                To login, enter below the six-digit authentication code just sent via email to"
 msgstr ""
 "<i class=\"fa fa-envelope-o\"/>\n"
 "                Để đăng nhập, hãy nhập mã xác thực gồm sáu chữ số vừa được gửi qua địa chỉ email"
 =======
+=======
+>>>>>>> upstream/18.0
 "                To login, enter below the six-digit authentication code just "
 "sent via email to"
 msgstr ""
 "<i class=\"fa fa-envelope-o\"/>\n"
 "                Để đăng nhập, hãy nhập mã xác thực gồm sáu chữ số vừa được "
 "gửi qua địa chỉ email"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: auth_totp_mail_enforce
@@ -348,17 +396,23 @@ msgstr "Xác minh không thành công, vui lòng kiểm tra lại mã gồm 6 ch
 #: model_terms:ir.ui.view,arch_db:auth_totp_mail_enforce.auth_totp_mail_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "We strongly recommend enabling the two-factor authentication using an authenticator app to help secure your account.\n"
 "                <br/>"
 msgstr ""
 "Chúng tôi chân thành khuyên bạn bật xác thực hai yếu tố bằng ứng dụng xác thực để giúp bảo mật tài khoản của bạn.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "We strongly recommend enabling the two-factor authentication using an "
 "authenticator app to help secure your account.\n"
 "                <br/>"
 msgstr ""
 "Chúng tôi chân thành khuyên bạn bật xác thực hai yếu tố bằng ứng dụng xác "
 "thực để giúp bảo mật tài khoản của bạn.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                <br/>"
 

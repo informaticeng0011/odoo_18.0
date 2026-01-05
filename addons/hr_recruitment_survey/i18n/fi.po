@@ -2,7 +2,11 @@
 # This file contains the translation of the following modules:
 # 	* hr_recruitment_survey
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -17,7 +21,11 @@
 # Martin Trigaux, 2024
 # Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -25,6 +33,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -35,6 +44,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: fi\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2025\n"
@@ -43,6 +54,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -52,6 +66,7 @@ msgid ""
 "<div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Dear <t t-out=\"object.partner_id.name or 'applicant'\">[applicant name]</t><br/><br/>\n"
 "        <t>\n"
 "            You've progressed through the recruitment process and we would like you to answer some questions.\n"
@@ -59,6 +74,8 @@ msgid ""
 "        </p><div style=\"margin: 16px 0px 16px 0px;\">\n"
 "            <a t-att-href=\"(object.get_start_url())\" style=\"background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        Dear <t t-out=\"object.partner_id.name or 'applicant'\">[applicant "
 "name]</t><br/><br/>\n"
 "        <t>\n"
@@ -69,6 +86,9 @@ msgid ""
 "            <a t-att-href=\"(object.get_start_url())\" style=\"background-"
 "color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: "
 "#fff; border-radius: 5px; font-size:13px;\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                <t>\n"
 "                    Start the written interview\n"
@@ -77,17 +97,23 @@ msgid ""
 "        </div>\n"
 "        <t t-if=\"object.deadline\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Please answer the interview for <t t-out=\"format_date(object.deadline)\">[deadline date]</t>.<br/><br/>\n"
 "        </t>\n"
 "        <t>\n"
 "            We wish you good luck! Thank you in advance for your participation.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            Please answer the interview for <t t-"
 "out=\"format_date(object.deadline)\">[deadline date]</t>.<br/><br/>\n"
 "        </t>\n"
 "        <t>\n"
 "            We wish you good luck! Thank you in advance for your "
 "participation.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "        </t>\n"
 "    \n"
@@ -97,6 +123,7 @@ msgstr ""
 "<div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Hyvä <t t-out=\"object.partner_id.name or 'applicant'\">[hakijan nimi]</t><br/><br/>\n"
 "       <t>\n"
 "            Olet edennyt rekrytointiprosessin läpi, ja haluaisimme sinun vastaavan joihinkin kysymyksiin.\n"
@@ -104,6 +131,8 @@ msgstr ""
 "        </p><div style=\"margin: 16px 0px 16px 0px;\">\n"
 "            <a t-att-href=\"(object.get_start_url())\" style=\"background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        Hyvä <t t-out=\"object.partner_id.name or 'applicant'\">[hakijan "
 "nimi]</t><br/><br/>\n"
 "       <t>\n"
@@ -114,6 +143,9 @@ msgstr ""
 "            <a t-att-href=\"(object.get_start_url())\" style=\"background-"
 "color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: "
 "#fff; border-radius: 5px; font-size:13px;\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                <t>\n"
 "                    Aloita kirjallinen haastattelu\n"
@@ -122,7 +154,12 @@ msgstr ""
 "        </div>\n"
 "        <t t-if=\"object.deadline\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Vastaa haastatteluun <t t-out=\"format_date(object.deadline)\">[määräpäivä]</t>.<br/><br/>\n"
+=======
+"            Vastaa haastatteluun <t t-out=\"format_date(object.deadline)"
+"\">[määräpäivä]</t>.<br/><br/>\n"
+>>>>>>> upstream/18.0
 =======
 "            Vastaa haastatteluun <t t-out=\"format_date(object.deadline)"
 "\">[määräpäivä]</t>.<br/><br/>\n"
@@ -181,8 +218,13 @@ msgstr "Hakija: Haastattelu"
 #: model:ir.model.fields,help:hr_recruitment_survey.field_hr_job__survey_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Choose an interview form for this job position and you will be able to "
 "print/answer this interview from all applicants who apply for this job"
+=======
+"Choose an interview form for this job position and you will be able to print/"
+"answer this interview from all applicants who apply for this job"
+>>>>>>> upstream/18.0
 =======
 "Choose an interview form for this job position and you will be able to print/"
 "answer this interview from all applicants who apply for this job"
@@ -303,8 +345,13 @@ msgid ""
 "your application."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Vastaa näihin kysymyksiin, jotta rekrytoinnista vastaavat virkamiehet voivat"
 " käsitellä hakemuksesi valmiiksi."
+=======
+"Vastaa näihin kysymyksiin, jotta rekrytoinnista vastaavat virkamiehet voivat "
+"käsitellä hakemuksesi valmiiksi."
+>>>>>>> upstream/18.0
 =======
 "Vastaa näihin kysymyksiin, jotta rekrytoinnista vastaavat virkamiehet voivat "
 "käsitellä hakemuksesi valmiiksi."
@@ -314,17 +361,23 @@ msgstr ""
 #: model_terms:survey.question,description:hr_recruitment_survey.survey_recruitment_form_p1
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Please fill information about you: who you are, what are your education, experience, and activities.\n"
 "    It will help us managing your application."
 msgstr ""
 "Täytä tiedot itsestäsi: kuka olet, mikä on koulutuksesi, kokemuksesi ja toimintasi.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "Please fill information about you: who you are, what are your education, "
 "experience, and activities.\n"
 "    It will help us managing your application."
 msgstr ""
 "Täytä tiedot itsestäsi: kuka olet, mikä on koulutuksesi, kokemuksesi ja "
 "toimintasi.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "    Se auttaa meitä hakemuksesi hallinnoinnissa."
 
@@ -341,8 +394,13 @@ msgid ""
 "Please summarize your education history: schools, location, diplomas, ..."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Kerro lyhyesti koulutushistoriastasi: koulut, sijainti, tutkintotodistukset,"
 " ..."
+=======
+"Kerro lyhyesti koulutushistoriastasi: koulut, sijainti, "
+"tutkintotodistukset, ..."
+>>>>>>> upstream/18.0
 =======
 "Kerro lyhyesti koulutushistoriastasi: koulut, sijainti, "
 "tutkintotodistukset, ..."
@@ -354,8 +412,12 @@ msgid ""
 "Please tell us a bit more about yourself: what are your main activities, ..."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Kerro meille hieman lisää itsestäsi: mitkä ovat pääasialliset toimintasi, "
 "..."
+=======
+"Kerro meille hieman lisää itsestäsi: mitkä ovat pääasialliset toimintasi, ..."
+>>>>>>> upstream/18.0
 =======
 "Kerro meille hieman lisää itsestäsi: mitkä ovat pääasialliset toimintasi, ..."
 >>>>>>> upstream/18.0
@@ -468,7 +530,12 @@ msgid ""
 "                send invitations and analyze answers."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Voit luoda kyselyitä, joita käytetään rekrytoinneissa. Suunnittele helposti haastattelusi,\n"
+=======
+"Voit luoda kyselyitä, joita käytetään rekrytoinneissa. Suunnittele helposti "
+"haastattelusi,\n"
+>>>>>>> upstream/18.0
 =======
 "Voit luoda kyselyitä, joita käytetään rekrytoinneissa. Suunnittele helposti "
 "haastattelusi,\n"

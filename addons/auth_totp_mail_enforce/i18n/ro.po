@@ -2,6 +2,7 @@
 # This file contains the translation of the following modules:
 # 	* auth_totp_mail_enforce
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Lyall Kindmurr, 2024
@@ -504,17 +505,23 @@
 >>>>>>> upstream/18.0
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Lyall Kindmurr, 2024
 # Wil Odoo, 2024
 # Larisa_nexterp, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -1022,6 +1029,8 @@ msgstr ""
 "Language: ro\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Larisa_nexterp, 2025\n"
@@ -1032,6 +1041,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
 "2:1));\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: auth_totp_mail_enforce
@@ -1052,6 +1064,7 @@ msgid ""
 "    <ul>\n"
 "        <t t-set=\"not_available\">N/A</t>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <li>Location: <t t-out=\"ctx.get('location') or not_available\"/></li>\n"
 "        <li>Device: <t t-out=\"ctx.get('device') or not_available\"/></li>\n"
 "        <li>Browser: <t t-out=\"ctx.get('browser') or not_available\"/></li>\n"
@@ -1059,6 +1072,8 @@ msgid ""
 "    </ul>\n"
 "    <p>If this is you, please enter the following code to complete the login:</p>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        <li>Location: <t t-out=\"ctx.get('location') or not_available\"/></"
 "li>\n"
 "        <li>Device: <t t-out=\"ctx.get('device') or not_available\"/></li>\n"
@@ -1068,11 +1083,15 @@ msgid ""
 "    </ul>\n"
 "    <p>If this is you, please enter the following code to complete the login:"
 "</p>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "    <t t-set=\"code_expiration\" t-value=\"object._get_totp_mail_code()\"/>\n"
 "    <t t-set=\"code\" t-value=\"code_expiration[0]\"/>\n"
 "    <t t-set=\"expiration\" t-value=\"code_expiration[1]\"/>\n"
 "    <div style=\"margin: 16px 0px 16px 0px; text-align: center;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "        <span t-out=\"code\" style=\"background-color:#faf9fa; border: 1px solid #dad8de; padding: 8px 16px 8px 16px; font-size: 24px; color: #875A7B; border-radius: 5px;\"/>\n"
 "    </div>\n"
@@ -1090,6 +1109,8 @@ msgid ""
 "    <p style=\"margin: 16px 0px 16px 0px; text-align: center;\">\n"
 "        <a t-att-href=\"object.get_totp_invite_url()\" style=\"background-color:#875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        <span t-out=\"code\" style=\"background-color:#faf9fa; border: 1px "
 "solid #dad8de; padding: 8px 16px 8px 16px; font-size: 24px; color: #875A7B; "
 "border-radius: 5px;\"/>\n"
@@ -1112,6 +1133,9 @@ msgid ""
 "        <a t-att-href=\"object.get_totp_invite_url()\" style=\"background-"
 "color:#875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: "
 "#fff; border-radius: 5px;\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            Activate my two-factor authentication\n"
 "        </a>\n"
@@ -1119,6 +1143,7 @@ msgid ""
 "</div>\n"
 "            "
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1503,6 +1528,8 @@ msgstr ""
 "    </ul>\n"
 "    <p>Dacă sunteți dvs., vă rugăm să introduceți următorul cod pentru a finaliza autentificarea:</p>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "<div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "    Stimate <t t-out=\"object.partner_id.name or ''\"/><br/><br/>\n"
 "    <p>Cineva încearcă să se autentifice în contul dvs. de pe un dispozitiv "
@@ -1519,11 +1546,15 @@ msgstr ""
 "    </ul>\n"
 "    <p>Dacă sunteți dvs., vă rugăm să introduceți următorul cod pentru a "
 "finaliza autentificarea:</p>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "    <t t-set=\"code_expiration\" t-value=\"object._get_totp_mail_code()\"/>\n"
 "    <t t-set=\"code\" t-value=\"code_expiration[0]\"/>\n"
 "    <t t-set=\"expiration\" t-value=\"code_expiration[1]\"/>\n"
 "    <div style=\"margin: 16px 0px 16px 0px; text-align: center;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "        <span t-out=\"code\" style=\"background-color:#faf9fa; border: 1px solid #dad8de; padding: 8px 16px 8px 16px; font-size: 24px; color: #875A7B; border-radius: 5px;\"/>\n"
 "    </div>\n"
@@ -1541,6 +1572,8 @@ msgstr ""
 "    <p style=\"margin: 16px 0px 16px 0px; text-align: center;\">\n"
 "        <a t-att-href=\"object.get_totp_invite_url()\" style=\"background-color:#875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        <span t-out=\"code\" style=\"background-color:#faf9fa; border: 1px "
 "solid #dad8de; padding: 8px 16px 8px 16px; font-size: 24px; color: #875A7B; "
 "border-radius: 5px;\"/>\n"
@@ -1563,6 +1596,9 @@ msgstr ""
 "        <a t-att-href=\"object.get_totp_invite_url()\" style=\"background-"
 "color:#875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: "
 "#fff; border-radius: 5px;\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            Activează autentificarea cu doi factori\n"
 "        </a>\n"
@@ -1693,6 +1729,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1948,17 +1987,23 @@ msgstr ""
 msgid ""
 "<i class=\"fa fa-envelope-o\"/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                To login, enter below the six-digit authentication code just sent via email to"
 msgstr ""
 "<i class=\"fa fa-envelope-o\"/>\n"
 "                Pentru a vă autentifica, introduceți mai jos codul de autentificare de șase cifre trimis recent prin e-mail la"
 =======
+=======
+>>>>>>> upstream/18.0
 "                To login, enter below the six-digit authentication code just "
 "sent via email to"
 msgstr ""
 "<i class=\"fa fa-envelope-o\"/>\n"
 "                Pentru a vă autentifica, introduceți mai jos codul de "
 "autentificare de șase cifre trimis recent prin e-mail la"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: auth_totp_mail_enforce
@@ -2094,17 +2139,23 @@ msgstr "Verificarea a eșuat, vă rugăm să verificați codul de 6 cifre"
 #: model_terms:ir.ui.view,arch_db:auth_totp_mail_enforce.auth_totp_mail_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "We strongly recommend enabling the two-factor authentication using an authenticator app to help secure your account.\n"
 "                <br/>"
 msgstr ""
 "Vă recomandăm să activați autentificarea cu doi factori utilizând o aplicație de autentificare pentru a vă ajuta să vă protejați contul.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "We strongly recommend enabling the two-factor authentication using an "
 "authenticator app to help secure your account.\n"
 "                <br/>"
 msgstr ""
 "Vă recomandăm să activați autentificarea cu doi factori utilizând o "
 "aplicație de autentificare pentru a vă ajuta să vă protejați contul.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                <br/>"
 

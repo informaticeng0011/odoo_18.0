@@ -2,22 +2,29 @@
 # This file contains the translation of the following modules:
 # 	* event_sms
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Fernanda Alvarez, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Fernanda Alvarez, 2024
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -29,6 +36,8 @@ msgstr ""
 "Language: es_419\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Fernanda Alvarez, 2024\n"
@@ -40,6 +49,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
 "1 : 2;\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: event_sms
@@ -67,11 +79,14 @@ msgstr "Programación de correo en la categoría de eventos"
 msgid ""
 "Ready for \"{{ object.event_id.name }}\" {{ object.event_date_range }}?\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "{{ 'It starts at %s' % format_time(time=object.event_begin_date, tz=object.event_id.date_tz, time_format='short', lang_code=object.partner_id.lang) + (', at %s' % object.event_id.address_inline if object.event_id.address_inline else '') + '.\\nSee you there!' if object.event_id.address_inline or 'website_published' not in object.event_id._fields else 'Join us on %s/event/%i!' % (object.get_base_url(), object.event_id.id) }}"
 msgstr ""
 "¿Todo listo para \"{{ object.event_id.name }}\" {{ object.event_date_range }}?\n"
 "{{ 'Empieza a las %s' % format_time(time=object.event_begin_date, tz=object.event_id.date_tz, time_format='short', lang_code=object.partner_id.lang) + (', en %s' % object.event_id.address_inline if object.event_id.address_inline else '') + '.\\n¡Nos vemos!' if object.event_id.address_inline or 'website_published' not in object.event_id._fields else 'Únase desde %s/event/%i' % (object.get_base_url(), object.event_id.id) }}"
 =======
+=======
+>>>>>>> upstream/18.0
 "{{ 'It starts at %s' % format_time(time=object.event_begin_date, "
 "tz=object.event_id.date_tz, time_format='short', "
 "lang_code=object.partner_id.lang) + (', at %s' % "
@@ -89,6 +104,9 @@ msgstr ""
 "'.\\n¡Nos vemos!' if object.event_id.address_inline or 'website_published' "
 "not in object.event_id._fields else 'Únase desde %s/event/%i' % "
 "(object.get_base_url(), object.event_id.id) }}"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: event_sms
@@ -132,8 +150,13 @@ msgid ""
 msgstr ""
 "{{ object.event_id.organizer_id.name or object.event_id.company_id.name or "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "user.env.company.name }}: Nos complace confirmar su registro al evento {{ "
 "object.event_id.name }}."
+=======
+"user.env.company.name }}: Nos complace confirmar su registro al evento "
+"{{ object.event_id.name }}."
+>>>>>>> upstream/18.0
 =======
 "user.env.company.name }}: Nos complace confirmar su registro al evento "
 "{{ object.event_id.name }}."

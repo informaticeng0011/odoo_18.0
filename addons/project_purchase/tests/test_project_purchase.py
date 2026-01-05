@@ -121,11 +121,14 @@ class TestProjectPurchase(TestProjectPurchaseProfitability):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     def test_compute_purchase_orders_count(self):
         project1 = self.env['project.project'].create({'name': 'Project'})
         project1.account_id = self.analytic_account  # Project with analytics
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -532,6 +535,9 @@ class TestProjectPurchase(TestProjectPurchaseProfitability):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -891,7 +897,11 @@ class TestProjectPurchase(TestProjectPurchaseProfitability):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'project_id': project1.id,
+=======
+                'project_id': self.project1.id,
+>>>>>>> upstream/18.0
 =======
                 'project_id': self.project1.id,
 >>>>>>> upstream/18.0
@@ -1357,12 +1367,15 @@ class TestProjectPurchase(TestProjectPurchaseProfitability):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'project_id': project1.id,
                 'order_line': [Command.create({**order_line_values, 'analytic_distribution': {self.analytic_account.id: 100}})]
             },
         ])
         self.assertEqual(project1.purchase_orders_count, 3, 'The number of purchase orders linked to project1 should be equal to 3.')
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1710,6 +1723,9 @@ class TestProjectPurchase(TestProjectPurchaseProfitability):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

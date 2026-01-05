@@ -2,22 +2,29 @@
 # This file contains the translation of the following modules:
 # 	* project
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -717,6 +724,8 @@ msgstr ""
 "Language: uk\n"
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2025\n"
@@ -729,6 +738,9 @@ msgstr ""
 "11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % "
 "100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || "
 "(n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -740,7 +752,12 @@ msgid ""
 "                    No milestones found. Let's create one!\n"
 "                </p><p>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    Track major progress points that must be reached to achieve success.\n"
+=======
+"                    Track major progress points that must be reached to "
+"achieve success.\n"
+>>>>>>> upstream/18.0
 =======
 "                    Track major progress points that must be reached to "
 "achieve success.\n"
@@ -753,7 +770,12 @@ msgstr ""
 "                    Не знайдено віх. Давайте створимо їх!\n"
 "                </p><p>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    Відстежуйте основні точки прогресу, які необхідно досягти, щоб досягти успіху.\n"
+=======
+"                    Відстежуйте основні точки прогресу, які необхідно "
+"досягти, щоб досягти успіху.\n"
+>>>>>>> upstream/18.0
 =======
 "                    Відстежуйте основні точки прогресу, які необхідно "
 "досягти, щоб досягти успіху.\n"
@@ -769,7 +791,12 @@ msgid ""
 ");\n"
 "\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "export class ProjectTaskFormController extends FormControllerWithHTMLExpander {\n"
+=======
+"export class ProjectTaskFormController extends "
+"FormControllerWithHTMLExpander {\n"
+>>>>>>> upstream/18.0
 =======
 "export class ProjectTaskFormController extends "
 "FormControllerWithHTMLExpander {\n"
@@ -796,7 +823,12 @@ msgid ""
 "\n"
 "    get deleteConfirmationDialogProps() {\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        const deleteConfirmationDialogProps = super.deleteConfirmationDialogProps;\n"
+=======
+"        const deleteConfirmationDialogProps = "
+"super.deleteConfirmationDialogProps;\n"
+>>>>>>> upstream/18.0
 =======
 "        const deleteConfirmationDialogProps = "
 "super.deleteConfirmationDialogProps;\n"
@@ -814,12 +846,15 @@ msgid ""
 "        const record = this.model.root;\n"
 "        const versionedFieldName = 'description';\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        const historyMetadata = record.data[\"html_field_history_metadata\"]?.[versionedFieldName];\n"
 "        if (!historyMetadata) {\n"
 "            this.notifications.add(\n"
 "                escape(_t(\n"
 "                    \"The task description lacks any past content that could be restored at the moment.\"\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        const historyMetadata = "
 "record.data[\"html_field_history_metadata\"]?.[versionedFieldName];\n"
 "        if (!historyMetadata) {\n"
@@ -827,6 +862,9 @@ msgid ""
 "                escape(_t(\n"
 "                    \"The task description lacks any past content that could "
 "be restored at the moment.\"\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                ))\n"
 "            );\n"
@@ -977,7 +1015,10 @@ msgstr "К-сть оцінювань"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:project.field_project_milestone__task_count
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1371,6 +1412,7 @@ msgid ""
 "<b>Log notes</b> for internal communications <i>(the people following this "
 "task won't be notified of the note you are logging unless you specifically "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "tag them)</i>. Use @ <b>mentions</b> to ping a colleague or # "
 "<b>mentions</b> to reach an entire team."
 msgstr ""
@@ -1378,12 +1420,17 @@ msgstr ""
 " це завдання, не отримають сповіщення про примітку, яку ви запишете, якщо ви"
 " спеціально не позначите їх)</i>. Використовуйте @ <b>згадування</b> для "
 =======
+=======
+>>>>>>> upstream/18.0
 "tag them)</i>. Use @ <b>mentions</b> to ping a colleague or # <b>mentions</"
 "b> to reach an entire team."
 msgstr ""
 "<b>Запишіть примітки</b> для внутрішньої комунікації <i>(люди, які виконують "
 "це завдання, не отримають сповіщення про примітку, яку ви запишете, якщо ви "
 "спеціально не позначите їх)</i>. Використовуйте @ <b>згадування</b> для "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "позначення колег # <b>згадування</b> для звернення до всієї команди."
 
@@ -1391,6 +1438,7 @@ msgstr ""
 #: model:mail.template,body_html:project.rating_project_request_email_template
 msgid ""
 "<div>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "    <t t-set=\"access_token\" t-value=\"object._rating_get_access_token()\"/>\n"
 "    <t t-set=\"partner\" t-value=\"object._rating_get_partner()\"/>\n"
@@ -1400,6 +1448,8 @@ msgid ""
 "            <t t-if=\"partner.name\">\n"
 "                Hello <t t-out=\"partner.name or ''\">Brandon Freeman</t>,<br/><br/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "    <t t-set=\"access_token\" t-value=\"object._rating_get_access_token()\"/"
 ">\n"
 "    <t t-set=\"partner\" t-value=\"object._rating_get_partner()\"/>\n"
@@ -1410,22 +1460,31 @@ msgid ""
 "            <t t-if=\"partner.name\">\n"
 "                Hello <t t-out=\"partner.name or ''\">Brandon Freeman</t>,"
 "<br/><br/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            </t>\n"
 "            <t t-else=\"\">\n"
 "                Hello,<br/><br/>\n"
 "            </t>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Please take a moment to rate our services related to the <strong t-out=\"object.name or ''\">Planning and budget</strong> task\n"
 "            <t t-if=\"object._rating_get_operator().name\">\n"
 "                assigned to <strong t-out=\"object._rating_get_operator().name or ''\">Mitchell Admin</strong>.<br/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            Please take a moment to rate our services related to the <strong "
 "t-out=\"object.name or ''\">Planning and budget</strong> task\n"
 "            <t t-if=\"object._rating_get_operator().name\">\n"
 "                assigned to <strong t-"
 "out=\"object._rating_get_operator().name or ''\">Mitchell Admin</strong>.<br/"
 ">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            </t>\n"
 "            <t t-else=\"\">\n"
@@ -1433,6 +1492,7 @@ msgid ""
 "            </t>\n"
 "        </td></tr>\n"
 "        <tr><td style=\"text-align: center;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"width:100%; margin: 32px 0px 32px 0px; display: inline-table;\">\n"
 "                <tr><td style=\"font-size: 13px;text-align:center;\">\n"
@@ -1456,6 +1516,8 @@ msgid ""
 "                                <a t-attf-href=\"/rate/{{ access_token }}/1\" t-att-class=\"'pe-none' if object._rating_get_operator() else ''\">\n"
 "                                    <img alt=\"Dissatisfied\" src=\"/rating/static/src/img/rating_1.png\" title=\"Dissatisfied\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" "
 "width=\"590\" style=\"width:100%; margin: 32px 0px 32px 0px; display: inline-"
 "table;\">\n"
@@ -1488,6 +1550,9 @@ msgid ""
 "1\" t-att-class=\"'pe-none' if object._rating_get_operator() else ''\">\n"
 "                                    <img alt=\"Dissatisfied\" src=\"/rating/"
 "static/src/img/rating_1.png\" title=\"Dissatisfied\"/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                </a>\n"
 "                            </td>\n"
@@ -1500,11 +1565,14 @@ msgid ""
 "            We appreciate your feedback. It helps us improve continuously.\n"
 "            <t t-if=\"object.project_id.rating_status == 'stage'\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                <br/><span style=\"margin: 0; font-size: 12px; opacity: 0.5; color: #454748;\">This satisfaction survey has been sent because your task has been moved to the <b t-out=\"object.stage_id.name or ''\">In progress</b> stage</span>\n"
 "            </t>\n"
 "            <t t-if=\"object.project_id.rating_status == 'periodic'\">\n"
 "                <br/><span style=\"margin: 0; font-size: 12px; opacity: 0.5; color: #454748;\">This satisfaction survey is sent <b t-out=\"object.project_id.rating_status_period or ''\">weekly</b> as long as the task is in the <b t-out=\"object.stage_id.name or ''\">In progress</b> stage.</span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                <br/><span style=\"margin: 0; font-size: 12px; opacity: 0.5; "
 "color: #454748;\">This satisfaction survey has been sent because your task "
 "has been moved to the <b t-out=\"object.stage_id.name or ''\">In progress</"
@@ -1516,11 +1584,15 @@ msgid ""
 "out=\"object.project_id.rating_status_period or ''\">weekly</b> as long as "
 "the task is in the <b t-out=\"object.stage_id.name or ''\">In progress</b> "
 "stage.</span>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            </t>\n"
 "        </td></tr>\n"
 "        <tr><td><br/>Best regards,</td></tr>\n"
 "        <tr><td>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "           <t t-out=\"object.project_id.company_id.name or ''\">YourCompany</t>\n"
 "        </td></tr>\n"
@@ -1532,6 +1604,8 @@ msgid ""
 "            <t t-if=\"object.project_id.company_id.website\">\n"
 "                | <a t-attf-href=\"{{ object.project_id.company_id.website }}\" style=\"text-decoration:none; color: #454748;\" t-out=\"object.project_id.company_id.website or ''\">http://www.example.com</a>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "           <t t-out=\"object.project_id.company_id.name or ''\">YourCompany</"
 "t>\n"
 "        </td></tr>\n"
@@ -1549,6 +1623,9 @@ msgid ""
 "\" style=\"text-decoration:none; color: #454748;\" t-"
 "out=\"object.project_id.company_id.website or ''\">http://www.example.com</"
 "a>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            </t>\n"
 "        </td></tr>\n"
@@ -1563,6 +1640,7 @@ msgstr ""
 msgid ""
 "<div>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    Dear <t t-out=\"object.partner_id.name or 'customer'\">Brandon Freeman</t>,<br/>\n"
 "    It is my pleasure to let you know that we have successfully completed the project \"<strong t-out=\"object.name or ''\">Renovations</strong>\".\n"
 "    <t t-if=\"user.signature\" data-o-mail-quote-container=\"1\">\n"
@@ -1572,6 +1650,8 @@ msgid ""
 "</div>\n"
 "<br/><span style=\"margin: 0px 0px 0px 0px; font-size: 12px; opacity: 0.5; color: #454748;\" groups=\"project.group_project_stages\">You are receiving this email because your project has been moved to the stage <b t-out=\"object.stage_id.name or ''\">Done</b></span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "    Dear <t t-out=\"object.partner_id.name or 'customer'\">Brandon Freeman</"
 "t>,<br/>\n"
 "    It is my pleasure to let you know that we have successfully completed "
@@ -1586,6 +1666,9 @@ msgid ""
 "color: #454748;\" groups=\"project.group_project_stages\">You are receiving "
 "this email because your project has been moved to the stage <b t-"
 "out=\"object.stage_id.name or ''\">Done</b></span>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            "
 msgstr ""
@@ -1595,11 +1678,14 @@ msgstr ""
 msgid ""
 "<div>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    Dear <t t-out=\"object.partner_id.name or 'customer'\">Brandon Freeman</t>,<br/><br/>\n"
 "    Thank you for contacting us. We appreciate your interest in our products/services.<br/>\n"
 "    Our team is currently reviewing your inquiry and will respond to your email as soon as possible.<br/>\n"
 "    If you have any further questions or concerns in the meantime, please do not hesitate to let us know. We are here to help.<br/><br/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "    Dear <t t-out=\"object.partner_id.name or 'customer'\">Brandon Freeman</"
 "t>,<br/><br/>\n"
 "    Thank you for contacting us. We appreciate your interest in our products/"
@@ -1608,13 +1694,21 @@ msgid ""
 "email as soon as possible.<br/>\n"
 "    If you have any further questions or concerns in the meantime, please do "
 "not hesitate to let us know. We are here to help.<br/><br/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "    Thank you for your patience.<br/>\n"
 "    Best regards,\n"
 "    <t t-if=\"user.signature\" data-o-mail-quote-container=\"1\">\n"
 "        <br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+=======
+"        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-"
+"o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+>>>>>>> upstream/18.0
 =======
 "        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-"
 "o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
@@ -1628,6 +1722,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-fw o_button_icon fa-smile-o text-success\" invisible=\"rating_avg &lt; 3.66\" title=\"Satisfied\"/>\n"
 "                            <i class=\"fa fa-fw o_button_icon fa-meh-o text-warning\" invisible=\"rating_avg &lt; 2.33 or rating_avg &gt;= 3.66\" title=\"Okay\"/>\n"
 "                            <i class=\"fa fa-fw o_button_icon fa-frown-o text-danger\" invisible=\"rating_avg &gt;= 2.33\" title=\"Dissatisfied\"/>"
@@ -1636,6 +1731,8 @@ msgstr ""
 "                            <i class=\"fa fa-fw o_button_icon fa-meh-o text-warning\" invisible=\"rating_avg &lt; 2.33 or rating_avg &gt;= 3.66\" title=\"Okay\"/>\n"
 "                            <i class=\"fa fa-fw o_button_icon fa-frown-o text-danger\" invisible=\"rating_avg &gt;= 2.33\" title=\"Dissatisfied\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 "<i class=\"fa fa-fw o_button_icon fa-smile-o text-success\" "
 "invisible=\"rating_avg &lt; 3.66\" title=\"Satisfied\"/>\n"
 "                            <i class=\"fa fa-fw o_button_icon fa-meh-o text-"
@@ -1651,6 +1748,9 @@ msgstr ""
 "title=\"Okay\"/>\n"
 "                            <i class=\"fa fa-fw o_button_icon fa-frown-o "
 "text-danger\" invisible=\"rating_avg &gt;= 2.33\" title=\"Dissatisfied\"/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -1719,13 +1819,19 @@ msgstr ""
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_project_kanban
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<span class=\"fa fa-user me-2\" aria-label=\"Partner\" title=\"Partner\"/>"
 msgstr "<span class=\"fa fa-user me-2\" aria-label=\"Partner\" title=\"Partner\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "<span class=\"fa fa-user me-2\" aria-label=\"Partner\" title=\"Partner\"/>"
 msgstr ""
 "<span class=\"fa fa-user me-2\" aria-label=\"Partner\" title=\"Partner\"/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -1767,22 +1873,29 @@ msgstr "<span class=\"o_stat_text\">Завдання</span>"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<span class=\"text-muted o_row ps-1 pb-3\">Send a rating request:</span>"
 msgstr ""
 "<span class=\"text-muted o_row ps-1 pb-3\">Надіслати запит на "
 "оцінювання:</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "<span class=\"text-muted o_row ps-1 pb-3\">Send a rating request:</span>"
 msgstr ""
 "<span class=\"text-muted o_row ps-1 pb-3\">Надіслати запит на оцінювання:</"
 "span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
 msgid ""
 "<span colspan=\"2\" class=\"text-muted o_row ps-1\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                                                    <i class=\"fa fa-lightbulb-o pe-2\"/>\n"
 "                                                    <span invisible=\"rating_status == 'periodic'\">A rating request will be sent as soon as the task reaches a stage on which a Rating Email Template is defined.</span>\n"
@@ -1794,6 +1907,8 @@ msgstr ""
 "                                                    <span invisible=\"rating_status == 'periodic'\">Запит на оцінку буде надіслано, щойно завдання досягне етапу, на якому визначено шаблон електронного листа з оцінкою.</span>\n"
 "                                                    <span invisible=\"rating_status == 'stage'\">Запити на оцінку надсилатимуться, поки завдання залишається на етапі, на якому визначено шаблон електронного листа з оцінкою.</span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                                    <i class=\"fa fa-"
 "lightbulb-o pe-2\"/>\n"
 "                                                    <span "
@@ -1817,6 +1932,9 @@ msgstr ""
 "invisible=\"rating_status == 'stage'\">Запити на оцінку надсилатимуться, "
 "поки завдання залишається на етапі, на якому визначено шаблон електронного "
 "листа з оцінкою.</span>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                                </span>"
 
@@ -1890,8 +2008,13 @@ msgstr ""
 #: code:addons/project/models/project_task_type.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A personal stage cannot be linked to a project because it is only visible to"
 " its corresponding user."
+=======
+"A personal stage cannot be linked to a project because it is only visible to "
+"its corresponding user."
+>>>>>>> upstream/18.0
 =======
 "A personal stage cannot be linked to a project because it is only visible to "
 "its corresponding user."
@@ -2356,6 +2479,7 @@ msgstr "Автоматичний статус канбану"
 #: model:ir.model.fields,help:project.field_project_task_type__auto_validation_state
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Automatically modify the state when the customer replies to the feedback for this stage.\n"
 " * Good feedback from the customer will update the state to 'Approved' (green bullet).\n"
 " * Neutral or bad feedback will set the kanban state to 'Changes Requested' (orange bullet).\n"
@@ -2364,6 +2488,8 @@ msgstr ""
 "  * Хороший відгук від клієнта оновить статус на \"Схвалено\" (зелена позначка).\n"
 "  * Нейтральний або поганий відгук встановить стан канбану на «Запит на зміни» (помаранчева позначка).\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "Automatically modify the state when the customer replies to the feedback for "
 "this stage.\n"
 " * Good feedback from the customer will update the state to 'Approved' "
@@ -2377,6 +2503,9 @@ msgstr ""
 "позначка).\n"
 "  * Нейтральний або поганий відгук встановить стан канбану на «Запит на "
 "зміни» (помаранчева позначка).\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -2524,8 +2653,12 @@ msgstr "Надіслано запит на зміни"
 msgid ""
 "Choose a <b>name</b> for your project. <i>It can be anything you want: the "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "name of a customer, of a product, of a team, of a construction site, "
 "etc.</i>"
+=======
+"name of a customer, of a product, of a team, of a construction site, etc.</i>"
+>>>>>>> upstream/18.0
 =======
 "name of a customer, of a product, of a team, of a construction site, etc.</i>"
 >>>>>>> upstream/18.0
@@ -2611,6 +2744,7 @@ msgstr "Співучасники проекту поділилися"
 #: model:ir.model.fields,help:project.field_project_project__rating_status
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Collect feedback from your customers by sending them a rating request when a task enters a certain stage. To do so, define a rating email template on the corresponding stages.\n"
 "Rating when changing stage: an email will be automatically sent when the task reaches the stage on which the rating email template is set.\n"
 "Periodic rating: an email will be automatically sent at regular intervals as long as the task remains in the stage in which the rating email template is set."
@@ -2619,6 +2753,8 @@ msgstr ""
 "Оцінка під час зміни етапу: електронний лист буде автоматично надіслано, коли завдання досягне етапу, на якому встановлено шаблон електронного листа з оцінюванням.\n"
 "Періодичне оцінювання: електронний лист автоматично надсилатиметься через регулярні проміжки часу, поки завдання залишається на етапі, на якому встановлено шаблон електронного листа з оцінюванням."
 =======
+=======
+>>>>>>> upstream/18.0
 "Collect feedback from your customers by sending them a rating request when a "
 "task enters a certain stage. To do so, define a rating email template on the "
 "corresponding stages.\n"
@@ -2637,6 +2773,9 @@ msgstr ""
 "Періодичне оцінювання: електронний лист автоматично надсилатиметься через "
 "регулярні проміжки часу, поки завдання залишається на етапі, на якому "
 "встановлено шаблон електронного листа з оцінюванням."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -2649,11 +2788,14 @@ msgstr "Колір"
 #: code:addons/project/static/src/xml/project_task_kanban_examples.xml:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Communicate with customers on the task using the email gateway. Attach logo designs to the task, so that information flows from\n"
 "      designers to the workers who print the t-shirt."
 msgstr ""
 "Спілкуйтеся з клієнтами щодо завдання за допомогою електронних листів. Додайте до завдання дизайн логотипу, щоб інформація надходила від дизайнерів\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "Communicate with customers on the task using the email gateway. Attach logo "
 "designs to the task, so that information flows from\n"
 "      designers to the workers who print the t-shirt."
@@ -2661,6 +2803,9 @@ msgstr ""
 "Спілкуйтеся з клієнтами щодо завдання за допомогою електронних листів. "
 "Додайте до завдання дизайн логотипу, щоб інформація надходила від "
 "дизайнерів\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 " до працівників, які друкують футболку."
 
@@ -2814,8 +2959,13 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:project.open_view_project_all
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Create projects to organize your tasks. Define a different workflow for each"
 " project."
+=======
+"Create projects to organize your tasks. Define a different workflow for each "
+"project."
+>>>>>>> upstream/18.0
 =======
 "Create projects to organize your tasks. Define a different workflow for each "
 "project."
@@ -2967,17 +3117,23 @@ msgstr "Статус рейтингу клієнта"
 #: code:addons/project/static/src/xml/project_task_kanban_examples.xml:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Customers propose feedbacks by email; Odoo creates tasks automatically, and you can\n"
 "      communicate on the task directly."
 msgstr ""
 "Клієнти пропонують відгуки електронною поштою; Odoo створює завдання автоматично, і ви можете\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "Customers propose feedbacks by email; Odoo creates tasks automatically, and "
 "you can\n"
 "      communicate on the task directly."
 msgstr ""
 "Клієнти пропонують відгуки електронною поштою; Odoo створює завдання "
 "автоматично, і ви можете\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 " безпосередньо спілкуватися щодо завдання."
 
@@ -3014,11 +3170,14 @@ msgstr "Дата"
 msgid ""
 "Date on which the state of your task has last been modified.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Based on this information you can identify tasks that are stalling and get statistics on the time it usually takes to move tasks from one stage/state to another."
 msgstr ""
 "Дата останньої зміни статусу вашого завдання.\n"
 "На основі цієї інформації ви можете визначити завдання, які зупиняються, і отримати статистичні дані про час, який зазвичай потрібен для переходу завдань з одного етапу/статусу в інший."
 =======
+=======
+>>>>>>> upstream/18.0
 "Based on this information you can identify tasks that are stalling and get "
 "statistics on the time it usually takes to move tasks from one stage/state "
 "to another."
@@ -3027,6 +3186,9 @@ msgstr ""
 "На основі цієї інформації ви можете визначити завдання, які зупиняються, і "
 "отримати статистичні дані про час, який зазвичай потрібен для переходу "
 "завдань з одного етапу/статусу в інший."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -3045,8 +3207,13 @@ msgid ""
 "you can get statistics on the time it usually takes to assign tasks."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Дата останнього призначення (або скасування) цього завдання. На основі цього"
 " ви можете отримати статистичні дані про час, який зазвичай витрачається на "
+=======
+"Дата останнього призначення (або скасування) цього завдання. На основі цього "
+"ви можете отримати статистичні дані про час, який зазвичай витрачається на "
+>>>>>>> upstream/18.0
 =======
 "Дата останнього призначення (або скасування) цього завдання. На основі цього "
 "ви можете отримати статистичні дані про час, який зазвичай витрачається на "
@@ -3092,7 +3259,12 @@ msgstr "Типові значення"
 msgid ""
 "Define the steps that will be used in the project from the\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                creation of the task, up to the closing of the task or issue.\n"
+=======
+"                creation of the task, up to the closing of the task or "
+"issue.\n"
+>>>>>>> upstream/18.0
 =======
 "                creation of the task, up to the closing of the task or "
 "issue.\n"
@@ -3541,8 +3713,13 @@ msgstr "Майбутні дії"
 #: model_terms:ir.actions.act_window,help:project.project_update_all_action
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Get a snapshot of the status of your project and share its progress with key"
 " stakeholders."
+=======
+"Get a snapshot of the status of your project and share its progress with key "
+"stakeholders."
+>>>>>>> upstream/18.0
 =======
 "Get a snapshot of the status of your project and share its progress with key "
 "stakeholders."
@@ -3555,8 +3732,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project.edit_project
 msgid "Get customer feedback and evaluate the performance of your employees"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Отримайте відгуки клієнтів і оцініть ефективність своїх співробітників"
+=======
+msgstr "Отримайте відгуки клієнтів і оцініть ефективність своїх співробітників"
+>>>>>>> upstream/18.0
 =======
 msgstr "Отримайте відгуки клієнтів і оцініть ефективність своїх співробітників"
 >>>>>>> upstream/18.0
@@ -3577,6 +3758,7 @@ msgstr "Надати доступ до порталу"
 #: code:addons/project/models/project_project.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Grant employees access to your project or tasks by adding them as followers."
 " Employees automatically get access to the tasks they are assigned to."
 msgstr ""
@@ -3584,12 +3766,17 @@ msgstr ""
 "підписників. Співробітники автоматично отримують доступ до покладених на них"
 " завдань."
 =======
+=======
+>>>>>>> upstream/18.0
 "Grant employees access to your project or tasks by adding them as followers. "
 "Employees automatically get access to the tasks they are assigned to."
 msgstr ""
 "Надайте співробітникам доступ до вашого проекту або завдань, додавши їх як "
 "підписників. Співробітники автоматично отримують доступ до покладених на них "
 "завдань."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -3598,8 +3785,13 @@ msgstr ""
 msgid ""
 "Grant portal users access to your project by adding them as followers (the "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "tasks of the project are not included). To grant access to tasks to a portal"
 " user, add them as followers for these tasks."
+=======
+"tasks of the project are not included). To grant access to tasks to a portal "
+"user, add them as followers for these tasks."
+>>>>>>> upstream/18.0
 =======
 "tasks of the project are not included). To grant access to tasks to a portal "
 "user, add them as followers for these tasks."
@@ -3618,8 +3810,13 @@ msgstr "Групувати за"
 #: code:addons/project/static/src/xml/project_task_kanban_examples.xml:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Handle your idea gathering within Tasks of your new Project and discuss them"
 " in the chatter of the tasks."
+=======
+"Handle your idea gathering within Tasks of your new Project and discuss them "
+"in the chatter of the tasks."
+>>>>>>> upstream/18.0
 =======
 "Handle your idea gathering within Tasks of your new Project and discuss them "
 "in the chatter of the tasks."
@@ -3734,17 +3931,23 @@ msgstr "ID"
 #: model:ir.model.fields,help:project.field_project_project__alias_parent_thread_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "ID of the parent record holding the alias (example: project holding the task"
 " creation alias)"
 msgstr ""
 "ID батьківського запису, що містить псевдонім (наприклад: проєкт, що містить"
 " завдання створити псевдонім)."
 =======
+=======
+>>>>>>> upstream/18.0
 "ID of the parent record holding the alias (example: project holding the task "
 "creation alias)"
 msgstr ""
 "ID батьківського запису, що містить псевдонім (наприклад: проєкт, що містить "
 "завдання створити псевдонім)."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -3800,6 +4003,7 @@ msgstr ""
 #: model:ir.model.fields,help:project.field_project_task_type__rating_template_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If set, a rating request will automatically be sent by email to the customer when the task reaches this stage. \n"
 "Alternatively, it will be sent at a regular interval as long as the task remains in this stage, depending on the configuration of your project. \n"
 "To use this feature make sure that the 'Customer Ratings' option is enabled on your project."
@@ -3808,6 +4012,8 @@ msgstr ""
 "Крім того, він надсилатиметься з регулярними інтервалами, поки завдання залишається на цьому етапі, залежно від конфігурації вашого проєкту.\n"
 "Щоб скористатися цією функцією, переконайтеся, що у вашому проєкті ввімкнено параметр «Рейтинги клієнтів»."
 =======
+=======
+>>>>>>> upstream/18.0
 "If set, a rating request will automatically be sent by email to the customer "
 "when the task reaches this stage. \n"
 "Alternatively, it will be sent at a regular interval as long as the task "
@@ -3821,14 +4027,22 @@ msgstr ""
 "залишається на цьому етапі, залежно від конфігурації вашого проєкту.\n"
 "Щоб скористатися цією функцією, переконайтеся, що у вашому проєкті ввімкнено "
 "параметр «Рейтинги клієнтів»."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project_stage__mail_template_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If set, an email will be automatically sent to the customer when the project"
 " reaches this stage."
+=======
+"If set, an email will be automatically sent to the customer when the project "
+"reaches this stage."
+>>>>>>> upstream/18.0
 =======
 "If set, an email will be automatically sent to the customer when the project "
 "reaches this stage."
@@ -3983,17 +4197,23 @@ msgstr ""
 msgid ""
 "Keep track of the progress of your tasks from creation to completion.<br>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    Collaborate efficiently by chatting in real-time or via email."
 msgstr ""
 "Слідкуйте за ходом виконання ваших завдань від створення до завершення.<br>\n"
 "                    Ефективно співпрацюйте, спілкуючись у режимі реального часу або електронною поштою."
 =======
+=======
+>>>>>>> upstream/18.0
 "                    Collaborate efficiently by chatting in real-time or via "
 "email."
 msgstr ""
 "Слідкуйте за ходом виконання ваших завдань від створення до завершення.<br>\n"
 "                    Ефективно співпрацюйте, спілкуючись у режимі реального "
 "часу або електронною поштою."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -4002,17 +4222,23 @@ msgstr ""
 msgid ""
 "Keep track of the progress of your tasks from creation to completion.<br>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                Collaborate efficiently by chatting in real-time or via email."
 msgstr ""
 "Слідкуйте за ходом виконання ваших завдань від створення до завершення.<br>\n"
 "                Ефективно співпрацюйте, спілкуючись у режимі реального часу або електронною поштою."
 =======
+=======
+>>>>>>> upstream/18.0
 "                Collaborate efficiently by chatting in real-time or via "
 "email."
 msgstr ""
 "Слідкуйте за ходом виконання ваших завдань від створення до завершення.<br>\n"
 "                Ефективно співпрацюйте, спілкуючись у режимі реального часу "
 "або електронною поштою."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -4195,17 +4421,23 @@ msgstr "Низький"
 #: code:addons/project/static/src/xml/project_task_kanban_examples.xml:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Manage the lifecycle of your project using the kanban view. Add newly acquired projects,\n"
 "      assign them and use the"
 msgstr ""
 "Керуйте життєвим циклом свого проєкту за допомогою перегляду у канбан. Додайте щойно отримані проєкти, призначте \n"
 =======
+=======
+>>>>>>> upstream/18.0
 "Manage the lifecycle of your project using the kanban view. Add newly "
 "acquired projects,\n"
 "      assign them and use the"
 msgstr ""
 "Керуйте життєвим циклом свого проєкту за допомогою перегляду у канбан. "
 "Додайте щойно отримані проєкти, призначте \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "їх і використовуйте"
 
@@ -4718,17 +4950,23 @@ msgstr "Організуйте пріоритети серед замовлен�
 msgid ""
 "Organize your tasks by dispatching them across the pipeline.<br>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    Collaborate efficiently by chatting in real-time or via email."
 msgstr ""
 "Організуйте свої завдання, розподіливши їх по конвеєру.<br>\n"
 "                    Ефективно співпрацюйте, спілкуючись у режимі реального часу або електронною поштою."
 =======
+=======
+>>>>>>> upstream/18.0
 "                    Collaborate efficiently by chatting in real-time or via "
 "email."
 msgstr ""
 "Організуйте свої завдання, розподіливши їх по конвеєру.<br>\n"
 "                    Ефективно співпрацюйте, спілкуючись у режимі реального "
 "часу або електронною поштою."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -4776,8 +5014,13 @@ msgstr "Батьківське завдання"
 #: model:ir.model.fields,help:project.field_project_project__alias_parent_model_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Parent model holding the alias. The model holding the alias reference is not"
 " necessarily the model given by alias_model_id (example: project "
+=======
+"Parent model holding the alias. The model holding the alias reference is not "
+"necessarily the model given by alias_model_id (example: project "
+>>>>>>> upstream/18.0
 =======
 "Parent model holding the alias. The model holding the alias reference is not "
 "necessarily the model given by alias_model_id (example: project "
@@ -4792,8 +5035,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/project/models/res_partner.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Partner company cannot be different from its assigned projects' company"
+=======
+msgid "Partner company cannot be different from its assigned projects' company"
+>>>>>>> upstream/18.0
 =======
 msgid "Partner company cannot be different from its assigned projects' company"
 >>>>>>> upstream/18.0
@@ -4818,8 +5065,12 @@ msgid ""
 "People invited to collaborate on the project will have portal access rights."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Люди, запрошені до співпраці над проєктом, матимуть права доступу до "
 "порталу."
+=======
+"Люди, запрошені до співпраці над проєктом, матимуть права доступу до порталу."
+>>>>>>> upstream/18.0
 =======
 "Люди, запрошені до співпраці над проєктом, матимуть права доступу до порталу."
 >>>>>>> upstream/18.0
@@ -4830,6 +5081,7 @@ msgstr ""
 msgid ""
 "People to whom this project and its tasks will be visible.\n"
 "\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "- Invited internal users: when following a project, internal users will get access to all of its tasks without distinction. Otherwise, they will only get access to the specific tasks they are following.\n"
 " A user with the project > administrator access right level can still access this project and its tasks, even if they are not explicitly part of the followers.\n"
@@ -4844,6 +5096,8 @@ msgid ""
 "\n"
 "In any case, an internal user with no project access rights can still access a task, provided that they are given the corresponding URL (and that they are part of the followers if the project is private)."
 =======
+=======
+>>>>>>> upstream/18.0
 "- Invited internal users: when following a project, internal users will get "
 "access to all of its tasks without distinction. Otherwise, they will only "
 "get access to the specific tasks they are following.\n"
@@ -4869,6 +5123,9 @@ msgid ""
 "In any case, an internal user with no project access rights can still access "
 "a task, provided that they are given the corresponding URL (and that they "
 "are part of the followers if the project is private)."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -4925,7 +5182,12 @@ msgid ""
 "- everyone: everyone can post\n"
 "- partners: only authenticated partners\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- followers: only followers of the related document or members of following channels\n"
+=======
+"- followers: only followers of the related document or members of following "
+"channels\n"
+>>>>>>> upstream/18.0
 =======
 "- followers: only followers of the related document or members of following "
 "channels\n"
@@ -4935,7 +5197,12 @@ msgstr ""
 "- всі: кожен може опублікувати\n"
 "- партнери: лише автентифіковані партнери\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- підписники: лише ті, хто підписаний на відповідний документ або учасники підписаних каналів\n"
+=======
+"- підписники: лише ті, хто підписаний на відповідний документ або учасники "
+"підписаних каналів\n"
+>>>>>>> upstream/18.0
 =======
 "- підписники: лише ті, хто підписаний на відповідний документ або учасники "
 "підписаних каналів\n"
@@ -4952,8 +5219,12 @@ msgstr "URL доступу до порталу"
 #: code:addons/project/models/project_project.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Portal users will be removed from the followers of the project and its "
 "tasks."
+=======
+"Portal users will be removed from the followers of the project and its tasks."
+>>>>>>> upstream/18.0
 =======
 "Portal users will be removed from the followers of the project and its tasks."
 >>>>>>> upstream/18.0
@@ -5227,8 +5498,13 @@ msgstr ""
 #: model:ir.model.fields,help:project.field_project_task_type__project_ids
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Projects in which this stage is present. If you follow a similar workflow in"
 " several projects, you can share this stage among them and get consolidated "
+=======
+"Projects in which this stage is present. If you follow a similar workflow in "
+"several projects, you can share this stage among them and get consolidated "
+>>>>>>> upstream/18.0
 =======
 "Projects in which this stage is present. If you follow a similar workflow in "
 "several projects, you can share this stage among them and get consolidated "
@@ -5378,13 +5654,19 @@ msgstr ""
 msgid ""
 "Read: collaborators can view tasks but cannot edit them.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Edit with limited access: collaborators can view and edit tasks they follow in the Kanban view.\n"
 "Edit: collaborators can view and edit all tasks in the Kanban view. Additionally, they can choose which tasks they want to follow."
 =======
+=======
+>>>>>>> upstream/18.0
 "Edit with limited access: collaborators can view and edit tasks they follow "
 "in the Kanban view.\n"
 "Edit: collaborators can view and edit all tasks in the Kanban view. "
 "Additionally, they can choose which tasks they want to follow."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -5568,8 +5850,12 @@ msgstr "Сумне обличчя"
 #: code:addons/project/static/src/project_sharing/views/form/project_sharing_form_controller.js:0
 msgid "Save the task to be able to drag images in description"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Збережіть завдання, щоб мати можливість перетягувати зображення в опис"
+=======
+msgstr "Збережіть завдання, щоб мати можливість перетягувати зображення в опис"
+>>>>>>> upstream/18.0
 =======
 msgstr "Збережіть завдання, щоб мати можливість перетягувати зображення в опис"
 >>>>>>> upstream/18.0
@@ -5706,16 +5992,22 @@ msgstr "Встановіть шаблон електронного листа о
 #: model:mail.template,description:project.project_done_email_template
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Set on project's stages to inform customers when a project reaches that "
 "stage"
 msgstr ""
 "Налаштуйте етапи проекту, щоб повідомити клієнтів, коли проект досягне цього"
 " етапу"
 =======
+=======
+>>>>>>> upstream/18.0
 "Set on project's stages to inform customers when a project reaches that stage"
 msgstr ""
 "Налаштуйте етапи проекту, щоб повідомити клієнтів, коли проект досягне цього "
 "етапу"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -5804,7 +6096,12 @@ msgid ""
 "%(accountList)s\n"
 "\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Archiving these accounts will remove the option to log timesheets for their respective projects.\n"
+=======
+"Archiving these accounts will remove the option to log timesheets for their "
+"respective projects.\n"
+>>>>>>> upstream/18.0
 =======
 "Archiving these accounts will remove the option to log timesheets for their "
 "respective projects.\n"
@@ -6247,8 +6544,12 @@ msgstr "Етап особистого завдання поточного кор
 #. odoo-python
 #: code:addons/project/controllers/portal.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "The document does not exist or you do not have the rights to access it."
+=======
+msgid "The document does not exist or you do not have the rights to access it."
+>>>>>>> upstream/18.0
 =======
 msgid "The document does not exist or you do not have the rights to access it."
 >>>>>>> upstream/18.0
@@ -6280,9 +6581,15 @@ msgstr "Інтервал має бути більше 0"
 #: model:ir.model.fields,help:project.field_project_project__alias_model_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
+=======
+"The model (Odoo Document Kind) to which this alias corresponds. Any incoming "
+"email that does not reply to an existing record will cause the creation of a "
+"new record of this model (e.g. a Project Task)"
+>>>>>>> upstream/18.0
 =======
 "The model (Odoo Document Kind) to which this alias corresponds. Any incoming "
 "email that does not reply to an existing record will cause the creation of a "
@@ -6315,8 +6622,13 @@ msgstr ""
 #: code:addons/project/models/project_project.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The project's company cannot be changed if its analytic account has analytic"
 " lines or if more than one project is linked to it."
+=======
+"The project's company cannot be changed if its analytic account has analytic "
+"lines or if more than one project is linked to it."
+>>>>>>> upstream/18.0
 =======
 "The project's company cannot be changed if its analytic account has analytic "
 "lines or if more than one project is linked to it."
@@ -6336,8 +6648,13 @@ msgstr "Дата початку проекту має передувати да�
 msgid ""
 "The report should be grouped either by \"Stage\" to represent a Burndown "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Chart or by \"Is Closed\" to represent a Burn-up chart. Without one of these"
 " groupings applied, the report will not provide relevant information."
+=======
+"Chart or by \"Is Closed\" to represent a Burn-up chart. Without one of these "
+"groupings applied, the report will not provide relevant information."
+>>>>>>> upstream/18.0
 =======
 "Chart or by \"Is Closed\" to represent a Burn-up chart. Without one of these "
 "groupings applied, the report will not provide relevant information."
@@ -6354,8 +6671,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/project/models/project_task.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "The task and the associated partner must be linked to the same company."
+=======
+msgid "The task and the associated partner must be linked to the same company."
+>>>>>>> upstream/18.0
 =======
 msgid "The task and the associated partner must be linked to the same company."
 >>>>>>> upstream/18.0
@@ -6368,8 +6689,13 @@ msgstr ""
 msgid ""
 "The task cannot be shared with the recipient(s) because the privacy of the "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "project is too restricted. Set the privacy of the project to "
 "'%(visibility)s' in order to make it accessible by the recipient(s)."
+=======
+"project is too restricted. Set the privacy of the project to '%"
+"(visibility)s' in order to make it accessible by the recipient(s)."
+>>>>>>> upstream/18.0
 =======
 "project is too restricted. Set the privacy of the project to '%"
 "(visibility)s' in order to make it accessible by the recipient(s)."
@@ -6423,8 +6749,13 @@ msgstr "Нічого немає для звіту."
 msgid ""
 "They can edit shared project tasks and view specific documents in read mode "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "on your website. This includes leads/opportunities, quotations/sales orders,"
 " purchase orders, invoices and bills, timesheets, and tickets."
+=======
+"on your website. This includes leads/opportunities, quotations/sales orders, "
+"purchase orders, invoices and bills, timesheets, and tickets."
+>>>>>>> upstream/18.0
 =======
 "on your website. This includes leads/opportunities, quotations/sales orders, "
 "purchase orders, invoices and bills, timesheets, and tickets."
@@ -6457,7 +6788,12 @@ msgid ""
 "%(projectList)s\n"
 "\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Archiving the account will remove the option to log timesheets for these projects.\n"
+=======
+"Archiving the account will remove the option to log timesheets for these "
+"projects.\n"
+>>>>>>> upstream/18.0
 =======
 "Archiving the account will remove the option to log timesheets for these "
 "projects.\n"
@@ -6471,8 +6807,13 @@ msgstr ""
 #: code:addons/project/static/src/core/web/follower_list_patch.js:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This follower is currently a project collaborator. Removing them will revoke"
 " their portal access to the project. Are you sure you want to proceed?"
+=======
+"This follower is currently a project collaborator. Removing them will revoke "
+"their portal access to the project. Are you sure you want to proceed?"
+>>>>>>> upstream/18.0
 =======
 "This follower is currently a project collaborator. Removing them will revoke "
 "their portal access to the project. Are you sure you want to proceed?"
@@ -6495,6 +6836,7 @@ msgid ""
 "This project is associated with %(project_company)s, whereas the selected "
 "stage belongs to %(stage_company)s. There are a couple of options to "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "consider: either remove the company designation from the project or from the"
 " stage. Alternatively, you can update the company information for these "
 "records to align them under the same company."
@@ -6502,12 +6844,17 @@ msgstr ""
 "Цей проєкт пов'язаний з %(project_company)s, до якого належить вибраний етап"
 " %(stage_company)s. Є кілька варіантів, які варто розглянути: або видалити "
 =======
+=======
+>>>>>>> upstream/18.0
 "consider: either remove the company designation from the project or from the "
 "stage. Alternatively, you can update the company information for these "
 "records to align them under the same company."
 msgstr ""
 "Цей проєкт пов'язаний з %(project_company)s, до якого належить вибраний етап "
 "%(stage_company)s. Є кілька варіантів, які варто розглянути: або видалити "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "назву компанії з проєкту, або з етапу. Крім того, ви можете оновити "
 "інформацію про компанію для цих записів, щоб узгодити їх з тією самою "
@@ -6528,8 +6875,13 @@ msgstr ""
 msgid ""
 "This project is not associated with any company, while the stage is "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "associated with %s. There are a couple of options to consider: either change"
 " the project's company to align with the stage's company or remove the "
+=======
+"associated with %s. There are a couple of options to consider: either change "
+"the project's company to align with the stage's company or remove the "
+>>>>>>> upstream/18.0
 =======
 "associated with %s. There are a couple of options to consider: either change "
 "the project's company to align with the stage's company or remove the "
@@ -6643,13 +6995,19 @@ msgid ""
 "                Chat in real time or by email to collaborate efficiently."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Щоб виконувати завдання вчасно, використовуйте дії статуси на завданнях.<br>\n"
 "                Спілкуйтеся в реальному часі або через email для ефективної співпраці."
 =======
+=======
+>>>>>>> upstream/18.0
 "Щоб виконувати завдання вчасно, використовуйте дії статуси на завданнях."
 "<br>\n"
 "                Спілкуйтеся в реальному часі або через email для ефективної "
 "співпраці."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -6660,9 +7018,15 @@ msgid ""
 "task."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Щоби перетворити завдання на підзавдання, виберіть батьківське завдання. Або"
 " залиште поле батьківського завдання порожнім, щоб перетворити підзавдання "
 "на окреме завдання."
+=======
+"Щоби перетворити завдання на підзавдання, виберіть батьківське завдання. Або "
+"залиште поле батьківського завдання порожнім, щоб перетворити підзавдання на "
+"окреме завдання."
+>>>>>>> upstream/18.0
 =======
 "Щоби перетворити завдання на підзавдання, виберіть батьківське завдання. Або "
 "залиште поле батьківського завдання порожнім, щоб перетворити підзавдання на "
@@ -6892,8 +7256,13 @@ msgid ""
 msgstr ""
 "Використовуйте чаттер для <b>надсилання електронних листіів</b> та "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "ефективної комунікації з вашими клієнтами. Додайте нових людей в підписники,"
 " щоб повідомити їм про основні зміни щодо цього завдання."
+=======
+"ефективної комунікації з вашими клієнтами. Додайте нових людей в підписники, "
+"щоб повідомити їм про основні зміни щодо цього завдання."
+>>>>>>> upstream/18.0
 =======
 "ефективної комунікації з вашими клієнтами. Додайте нових людей в підписники, "
 "щоб повідомити їм про основні зміни щодо цього завдання."
@@ -6910,7 +7279,12 @@ msgid ""
 "        ! Set the task a high priority\n"
 "\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Make sure to use the right format and order e.g. Improve the configuration screen 5h #feature #v16 @Mitchell !"
+=======
+"        Make sure to use the right format and order e.g. Improve the "
+"configuration screen 5h #feature #v16 @Mitchell !"
+>>>>>>> upstream/18.0
 =======
 "        Make sure to use the right format and order e.g. Improve the "
 "configuration screen 5h #feature #v16 @Mitchell !"
@@ -6924,7 +7298,12 @@ msgstr ""
 "        ! Встановіть на завданні високий пріоритет\n"
 "\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Переконайтеся, що ви використовуєте правильний формат і замовляєте, наприклад, Покращення конфігурації екрану 5h #feature #v16 @Mitchell !"
+=======
+"        Переконайтеся, що ви використовуєте правильний формат і замовляєте, "
+"наприклад, Покращення конфігурації екрану 5h #feature #v16 @Mitchell !"
+>>>>>>> upstream/18.0
 =======
 "        Переконайтеся, що ви використовуєте правильний формат і замовляєте, "
 "наприклад, Покращення конфігурації екрану 5h #feature #v16 @Mitchell !"
@@ -6979,8 +7358,13 @@ msgid ""
 "Want a better way to <b>manage your projects</b>? <i>It starts here.</i>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Хочете кращий шлях <b>керування вашими проектами</b>? <i>Це починається "
 "тут.</i>"
+=======
+"Хочете кращий шлях <b>керування вашими проектами</b>? <i>Це починається тут."
+"</i>"
+>>>>>>> upstream/18.0
 =======
 "Хочете кращий шлях <b>керування вашими проектами</b>? <i>Це починається тут."
 "</i>"
@@ -7061,8 +7445,13 @@ msgstr "Робочий час до завершення"
 #: model_terms:ir.ui.view,arch_db:project.view_project_project_stage_unarchive_wizard
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Would you like to unarchive all of the projects contained in these stages as"
 " well?"
+=======
+"Would you like to unarchive all of the projects contained in these stages as "
+"well?"
+>>>>>>> upstream/18.0
 =======
 "Would you like to unarchive all of the projects contained in these stages as "
 "well?"
@@ -7106,9 +7495,15 @@ msgstr "Роки"
 msgid ""
 "You are not able to switch the company of this stage to %(company_name)s "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "since it currently includes projects associated with "
 "%(project_company_name)s. Please ensure that this stage exclusively consists"
 " of projects linked to %(company_name)s."
+=======
+"since it currently includes projects associated with %"
+"(project_company_name)s. Please ensure that this stage exclusively consists "
+"of projects linked to %(company_name)s."
+>>>>>>> upstream/18.0
 =======
 "since it currently includes projects associated with %"
 "(project_company_name)s. Please ensure that this stage exclusively consists "
@@ -7142,25 +7537,36 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project.view_project_project_stage_delete_wizard
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot delete stages containing projects. You can either archive them or"
 " first delete all of their projects."
 msgstr ""
 "Ви не можете видалити етапи, що містять проекти. Ви можете або архівувати їх"
 " або спершу видалити всі їх проекти."
 =======
+=======
+>>>>>>> upstream/18.0
 "You cannot delete stages containing projects. You can either archive them or "
 "first delete all of their projects."
 msgstr ""
 "Ви не можете видалити етапи, що містять проекти. Ви можете або архівувати їх "
 "або спершу видалити всі їх проекти."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_project_project_stage_delete_wizard
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot delete stages containing projects. You should first delete all of"
 " their projects."
+=======
+"You cannot delete stages containing projects. You should first delete all of "
+"their projects."
+>>>>>>> upstream/18.0
 =======
 "You cannot delete stages containing projects. You should first delete all of "
 "their projects."
@@ -7225,8 +7631,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project.project_share_wizard_confirm_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You have full control and can revoke portal access anytime. Are you ready to"
 " proceed?"
+=======
+"You have full control and can revoke portal access anytime. Are you ready to "
+"proceed?"
+>>>>>>> upstream/18.0
 =======
 "You have full control and can revoke portal access anytime. Are you ready to "
 "proceed?"
@@ -7244,8 +7655,13 @@ msgid ""
 "your task.<br/>Let's save it manually."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "У вас є незбережені зміни – не хвилюйтеся! Odoo автоматично збереже його під"
 " час навігації.<br/> Ви можете скасувати ці зміни тут або вручну зберегти "
+=======
+"У вас є незбережені зміни – не хвилюйтеся! Odoo автоматично збереже його під "
+"час навігації.<br/> Ви можете скасувати ці зміни тут або вручну зберегти "
+>>>>>>> upstream/18.0
 =======
 "У вас є незбережені зміни – не хвилюйтеся! Odoo автоматично збереже його під "
 "час навігації.<br/> Ви можете скасувати ці зміни тут або вручну зберегти "
@@ -7438,6 +7854,7 @@ msgstr "стан, щоби позначити завдання як викона
 
 #. module: project
 #. odoo-javascript
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7963,6 +8380,8 @@ msgstr "state.message"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/project/static/src/components/project_task_name_with_subtask_count_char_field/project_task_name_with_subtask_count_char_field.xml:0
 msgid "sub-tasks)"
 msgstr "підзавдання)"
@@ -8022,8 +8441,13 @@ msgid ""
 "Satisfaction Survey"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "{{ object.project_id.company_id.name or user.env.company.name }}: Опитування"
 " вдоволеності"
+=======
+"{{ object.project_id.company_id.name or user.env.company.name }}: Опитування "
+"вдоволеності"
+>>>>>>> upstream/18.0
 =======
 "{{ object.project_id.company_id.name or user.env.company.name }}: Опитування "
 "вдоволеності"

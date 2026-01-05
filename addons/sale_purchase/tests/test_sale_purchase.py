@@ -484,7 +484,11 @@ class TestSalePurchase(TestCommonSalePurchaseNoChart):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(pol.name, f"{self.service_purchase_1.display_name}\n{product_attribute.name}: {product_attribute_value.name}: {custom_value}")
+=======
+        self.assertEqual(pol.name, f"{self.service_purchase_1.display_name}\n\n{product_attribute.name}: {product_attribute_value.name}: {custom_value}")
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(pol.name, f"{self.service_purchase_1.display_name}\n\n{product_attribute.name}: {product_attribute_value.name}: {custom_value}")
 >>>>>>> upstream/18.0
@@ -1209,7 +1213,10 @@ class TestSalePurchase(TestCommonSalePurchaseNoChart):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1786,6 +1793,9 @@ class TestSalePurchase(TestCommonSalePurchaseNoChart):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

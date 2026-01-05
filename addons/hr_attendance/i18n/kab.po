@@ -40,6 +40,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -152,6 +156,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2023-05-16 13:48+0000\n"
 <<<<<<< HEAD
@@ -369,17 +374,23 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2025-12-31 16:37+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Kabyle <https://translate.odoo.com/projects/odoo-18/"
 "hr_attendance/kab/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Language: kab\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -524,6 +535,9 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: hr_attendance
 #. odoo-python
@@ -535,6 +549,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_attendance/models/hr_attendance.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "%(empl_name)s from %(check_in)s"
 msgstr ""
 
@@ -545,10 +560,14 @@ msgid "%(empl_name)s from %(check_in)s to %(check_out)s"
 =======
 msgid "%(worked_hours)s (%(check_in)s-%(check_out)s)"
 >>>>>>> upstream/18.0
+=======
+msgid "%(worked_hours)s (%(check_in)s-%(check_out)s)"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_attendance
 #. odoo-javascript
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: code:addons/hr_attendance/static/src/client_action/greeting_message/greeting_message.js:0
 msgid "%(hours)s hours, %(minutes)s minutes"
@@ -562,13 +581,20 @@ msgid ": Your user should be linked to an employee to use attendance."
 #: code:addons/hr_attendance/static/src/public_kiosk/public_kiosk_app.xml:0
 msgid "'Documentation'"
 >>>>>>> upstream/18.0
+=======
+#: code:addons/hr_attendance/static/src/public_kiosk/public_kiosk_app.xml:0
+msgid "'Documentation'"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.view_hr_attendance_kanban
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-calendar\" aria-label=\"Period\" role=\"img\" title=\"Period\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "<i class=\"fa fa-calendar me-1\" aria-label=\"Period\" role=\"img\" "
 "title=\"Period\"/>"
@@ -620,6 +646,9 @@ msgid ""
 "<span class=\"ms-2\">Minutes</span>\n"
 "                                <br/>\n"
 "                                <br/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -629,7 +658,11 @@ msgstr ""
 msgid ""
 "<span class=\"o_stat_text\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            Last Month\n"
+=======
+"                            This Month\n"
+>>>>>>> upstream/18.0
 =======
 "                            This Month\n"
 >>>>>>> upstream/18.0
@@ -643,6 +676,7 @@ msgid "<span class=\"o_stat_text\">Extra Hours</span>"
 msgstr ""
 
 #. module: hr_attendance
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_employees_view_kanban
 msgid "<span id=\"oe_hr_attendance_status\" class=\"fa fa-circle text-success me-1\" role=\"img\" aria-label=\"Available\" title=\"Available\"/>"
@@ -658,12 +692,15 @@ msgstr ""
 #. module: hr_attendance
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 msgid "<span> Minutes</span>"
 msgstr ""
 
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgid ""
 "<span> Minutes</span>\n"
@@ -675,10 +712,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid "<span> seconds</span>"
 msgstr ""
 
 #. module: hr_attendance
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 msgid "<span>Time Period </span>"
@@ -688,6 +728,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 msgid "Activate the count of employees' extra hours."
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr_attendance.field_res_company__absence_management
 #: model:ir.model.fields,field_description:hr_attendance.field_res_config_settings__absence_management
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
@@ -703,6 +745,9 @@ msgstr "Tigawt taḍullit"
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_management_view_filter
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_filter
 msgid "Active Employees"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -710,7 +755,12 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:hr_attendance.hr_employee_attendance_action_kanban
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Add a few employees to be able to select an employee here and perform his check in / check out.\n"
+=======
+"Add a few employees to be able to select an employee here and perform his "
+"check in / check out.\n"
+>>>>>>> upstream/18.0
 =======
 "Add a few employees to be able to select an employee here and perform his "
 "check in / check out.\n"
@@ -726,6 +776,7 @@ msgstr ""
 #. module: hr_attendance
 #: model:res.groups,name:hr_attendance.group_hr_attendance_manager
 msgid "Administrator"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -873,6 +924,8 @@ msgstr "Anedbal"
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 msgid "Allow a period of time (around working hours) where extra time will not be counted, in benefit of the company"
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Anedbal"
 
 #. module: hr_attendance
@@ -885,14 +938,20 @@ msgstr "Akkw"
 #. odoo-javascript
 #: code:addons/hr_attendance/static/src/components/manual_selection/manual_selection.js:0
 msgid "All departments"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Allow a period of time (around working hours) where extra time will not be deducted, in benefit of the employee"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid "Allow Users to Check in/out from Odoo."
 msgstr ""
 
@@ -908,6 +967,9 @@ msgstr ""
 msgid ""
 "Allow a period of time (around working hours) where extra time will not be "
 "deducted, in benefit of the employee"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -917,6 +979,7 @@ msgid "Amount of extra hours"
 msgstr ""
 
 #. module: hr_attendance
+<<<<<<< HEAD
 <<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/hr_attendance/static/src/client_action/greeting_message/greeting_message.js:0
@@ -935,6 +998,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_employee__attendance_ids
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_report_view_pivot
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_form
 #: model_terms:ir.ui.view,arch_db:hr_attendance.view_attendance_tree_management
 msgid "Approve"
@@ -981,16 +1046,22 @@ msgstr "Asiḍen n Tsawit"
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_user_view_form
 #: model_terms:ir.ui.view,arch_db:hr_attendance.view_employee_form_inherit_hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.view_employee_tree_inherit_leave
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "Attendance"
 msgstr ""
 
 #. module: hr_attendance
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.actions.act_window,name:hr_attendance.hr_attendance_report_action
 #: model:ir.actions.act_window,name:hr_attendance.hr_attendance_report_action_filtered
 msgid "Attendance Analysis"
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr_attendance.field_res_company__attendance_from_systray
 #: model:ir.model.fields,field_description:hr_attendance.field_res_config_settings__attendance_from_systray
 msgid "Attendance From Systray"
@@ -999,6 +1070,9 @@ msgstr ""
 #. module: hr_attendance
 #: model:ir.actions.client,name:hr_attendance.hr_attendance_action_install_kiosk_pwa
 msgid "Attendance Kiosk"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -1010,7 +1084,10 @@ msgstr ""
 
 #. module: hr_attendance
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr_attendance.field_res_company__attendance_kiosk_key
 msgid "Attendance Kiosk Key"
 msgstr ""
@@ -1029,6 +1106,9 @@ msgid "Attendance Manager"
 msgstr ""
 
 #. module: hr_attendance
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr_attendance.field_res_company__attendance_kiosk_mode
 #: model:ir.model.fields,field_description:hr_attendance.field_res_config_settings__attendance_kiosk_mode
@@ -1042,12 +1122,15 @@ msgstr ""
 
 #. module: hr_attendance
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model,name:hr_attendance.model_hr_attendance_report
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_report_view_graph
 msgid "Attendance Statistics"
 msgstr ""
 
 #. module: hr_attendance
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_employee__attendance_state
@@ -1057,6 +1140,7 @@ msgid "Attendance Status"
 msgstr ""
 
 #. module: hr_attendance
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.actions.act_window,name:hr_attendance.hr_attendance_action
 #: model:ir.actions.act_window,name:hr_attendance.hr_attendance_action_employee
@@ -1210,6 +1294,8 @@ msgstr "Tihawin"
 msgstr "Tihawin"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/hr_attendance/static/src/public_kiosk/public_kiosk_app.xml:0
 msgid "Attendance with barcode"
@@ -1286,6 +1372,9 @@ msgstr ""
 #: code:addons/hr_attendance/static/src/components/manual_selection/manual_selection.xml:0
 msgid "Back"
 msgstr "Ɣer deffir"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_attendance
@@ -1295,6 +1384,7 @@ msgstr ""
 
 #. module: hr_attendance
 #. odoo-javascript
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: code:addons/hr_attendance/static/src/client_action/kiosk_mode/kiosk_mode.xml:0
 msgid "Barcode"
@@ -1440,6 +1530,8 @@ msgstr "Tangalt n tfeggagin"
 msgstr "Tangalt n tfeggagin"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/hr_attendance/static/src/public_kiosk/public_kiosk_app.xml:0
 msgid "Badge with Barcode"
 msgstr ""
@@ -1454,6 +1546,9 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_pivot
 msgid "Balance"
 msgstr "Awliwal"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_attendance
@@ -1474,10 +1569,13 @@ msgstr ""
 
 #. module: hr_attendance
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/hr_attendance/models/hr_attendance.py:0
 msgid "Cannot create new attendance record for %(empl_name)s, the employee hasn't checked out since %(datetime)s"
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:hr_attendance.field_hr_attendance__in_country_name
 #: model:ir.model.fields,help:hr_attendance.field_hr_attendance__out_country_name
 msgid "Based on IP Address"
@@ -1503,6 +1601,9 @@ msgstr ""
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 msgid "Can be converted as Time Off (cfr Time Off configuration)."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -1510,8 +1611,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_attendance/models/hr_attendance.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Cannot create new attendance record for %(empl_name)s, the employee was already checked in on %(datetime)s"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Cannot create new attendance record for %(empl_name)s, the employee hasn't "
 "checked out since %(datetime)s"
@@ -1523,6 +1627,9 @@ msgstr ""
 msgid ""
 "Cannot create new attendance record for %(empl_name)s, the employee was "
 "already checked in on %(datetime)s"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -1530,12 +1637,18 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_attendance/models/hr_employee.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Cannot perform check out on %(empl_name)s, could not find corresponding check in. Your attendances have probably been modified manually by human resources."
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Cannot perform check out on %(empl_name)s, could not find corresponding "
 "check in. Your attendances have probably been modified manually by human "
 "resources."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -1548,27 +1661,36 @@ msgstr ""
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance__check_in
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance_report__check_in
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_employee__last_check_in
 #: model:ir.model.fields,field_description:hr_attendance.field_res_users__last_check_in
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_report_view_search
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_filter
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_employee__last_check_in
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_employee_public__last_check_in
 #: model:ir.model.fields,field_description:hr_attendance.field_res_users__last_check_in
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_form
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "Check In"
 msgstr ""
 
 #. module: hr_attendance
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.ui.menu,name:hr_attendance.menu_hr_attendance_my_attendances
 msgid "Check In / Check Out"
 msgstr ""
 
 #. module: hr_attendance
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #. odoo-javascript
@@ -1580,8 +1702,14 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance__check_out
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_employee__last_check_out
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr_attendance.field_res_users__last_check_out
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_filter
+=======
+#: model:ir.model.fields,field_description:hr_attendance.field_hr_employee_public__last_check_out
+#: model:ir.model.fields,field_description:hr_attendance.field_res_users__last_check_out
+#: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_form
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_employee_public__last_check_out
 #: model:ir.model.fields,field_description:hr_attendance.field_res_users__last_check_out
@@ -1592,9 +1720,12 @@ msgstr ""
 
 #. module: hr_attendance
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 msgid "Check-In/Out in Kiosk Mode"
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/hr_attendance/static/src/components/attendance_menu/attendance_menu.xml:0
 msgid "Check in"
@@ -1604,6 +1735,9 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/hr_attendance/static/src/components/attendance_menu/attendance_menu.xml:0
 msgid "Check out"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -1614,13 +1748,19 @@ msgstr ""
 
 #. module: hr_attendance
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/hr_attendance/static/src/components/greetings/greetings.xml:0
 msgid "Checked in at"
 msgstr ""
 
 #. module: hr_attendance
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:hr_attendance.selection__hr_employee__attendance_state__checked_out
 msgid "Checked out"
@@ -1628,19 +1768,26 @@ msgstr ""
 
 #. module: hr_attendance
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/hr_attendance/static/src/components/greetings/greetings.xml:0
 msgid "Checked out at"
 msgstr ""
 
 #. module: hr_attendance
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 msgid "Choose how long the greeting message will be displayed."
 msgstr ""
 
 #. module: hr_attendance
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.model,name:hr_attendance.model_res_company
 msgid "Companies"
@@ -1942,6 +2089,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 msgid "Compare attendance with working hours set on employee."
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/hr_attendance/static/src/public_kiosk/public_kiosk_app.xml:0
 msgid "Choose how to record attendances"
@@ -1987,6 +2136,9 @@ msgstr "Takebbwanit"
 #. odoo-javascript
 #: code:addons/hr_attendance/static/src/public_kiosk/public_kiosk_app.xml:0
 msgid "Company Logo"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -2029,7 +2181,11 @@ msgid "Config Settings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sefrek aɣewwaṛ"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sefrek aɣewwaṛ"
 >>>>>>> upstream/18.0
@@ -2142,6 +2298,7 @@ msgstr "Sefrek aɣewwaṛ"
 #. module: hr_attendance
 #: model:ir.ui.menu,name:hr_attendance.menu_hr_attendance_settings
 msgid "Configuration"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2300,6 +2457,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 msgid "Count of extra hours is considered from this date. Potential extra hours prior to this date are not considered."
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Tawila"
 
 #. module: hr_attendance
@@ -2321,6 +2480,9 @@ msgstr ""
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.view_attendance_tree
 msgid "Country (Out)"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -2343,6 +2505,7 @@ msgstr "Yerna di"
 
 #. module: hr_attendance
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance_overtime__date
 msgid "Day"
 <<<<<<< HEAD
@@ -2487,6 +2650,8 @@ msgstr "Ass"
 msgstr "Ass"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_form
 msgid "Currently Working"
 msgstr ""
@@ -2501,6 +2666,9 @@ msgstr "Azemz"
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance_overtime__date
 msgid "Day"
 msgstr "Ass"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_attendance
@@ -2515,6 +2683,7 @@ msgstr ""
 
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance__department_id
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance_report__department_id
 msgid "Department"
@@ -2660,6 +2829,8 @@ msgstr "Agezdu"
 msgstr "Agezdu"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_filter
 msgid "Department"
 msgstr "Agezdu"
@@ -2686,11 +2857,15 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 msgid "Display Extra Hours."
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance__display_name
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance_overtime__display_name
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance_report__display_name
 msgid "Display Name"
@@ -2839,6 +3014,10 @@ msgstr "Isem n Ubeqqeḍ"
 msgid "Display Name"
 msgstr "Isem n Ubeqqeḍ"
 >>>>>>> upstream/18.0
+=======
+msgid "Display Name"
+msgstr "Isem n Ubeqqeḍ"
+>>>>>>> upstream/18.0
 
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
@@ -2848,6 +3027,7 @@ msgstr ""
 #. module: hr_attendance
 #. odoo-python
 #: code:addons/hr_attendance/models/hr_attendance.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgid "Do not have access, user cannot edit the attendances that are not his own."
 msgstr ""
@@ -2866,12 +3046,17 @@ msgid "Eat breakfast as a king, lunch as a merchant and supper as a beggar"
 msgid ""
 "Do not have access, user cannot edit the attendances that are not his own."
 >>>>>>> upstream/18.0
+=======
+msgid ""
+"Do not have access, user cannot edit the attendances that are not his own."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_attendance
 #: model:ir.model,name:hr_attendance.model_hr_employee
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance__employee_id
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance_overtime__employee_id
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance_report__employee_id
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_report_view_search
@@ -3024,6 +3209,8 @@ msgstr "Amaris"
 #: model:ir.model.fields,field_description:hr_attendance.field_res_config_settings__group_attendance_use_pin
 msgid "Employee PIN"
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_management_view_filter
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_filter
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_employees_view_kanban
@@ -3041,6 +3228,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_attendance.field_res_company__attendance_kiosk_use_pin
 #: model:ir.model.fields,field_description:hr_attendance.field_res_config_settings__attendance_kiosk_use_pin
 msgid "Employee PIN Identification"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -3048,6 +3238,10 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_form
 #: model_terms:ir.ui.view,arch_db:hr_attendance.view_attendance_tree
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:hr_attendance.view_attendance_tree_management
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:hr_attendance.view_attendance_tree_management
 >>>>>>> upstream/18.0
@@ -3057,6 +3251,7 @@ msgstr ""
 #. module: hr_attendance
 #: model:ir.actions.act_window,name:hr_attendance.hr_employee_attendance_action_kanban
 msgid "Employees"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3204,6 +3399,8 @@ msgstr "Imuras"
 #: model:res.groups,name:hr_attendance.group_hr_attendance_use_pin
 msgid "Enable PIN use"
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Imuras"
 
 #. module: hr_attendance
@@ -3220,16 +3417,22 @@ msgstr ""
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance__expected_hours
 msgid "Expected Hours"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_attendance
 #: model:ir.actions.act_window,name:hr_attendance.hr_attendance_overtime_action
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance_overtime__duration
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance_report__overtime_hours
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance__validated_overtime_hours
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance_overtime__duration
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_validated_hours_employee_simple_tree_view
@@ -3237,6 +3440,9 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 #: model_terms:ir.ui.view,arch_db:hr_attendance.view_attendance_tree
 #: model_terms:ir.ui.view,arch_db:hr_attendance.view_attendance_tree_management
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "Extra Hours"
 msgstr ""
@@ -3248,10 +3454,13 @@ msgstr ""
 
 #. module: hr_attendance
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr_attendance.field_res_company__overtime_start_date
 #: model:ir.model.fields,field_description:hr_attendance.field_res_config_settings__overtime_start_date
 msgid "Extra Hours Starting Date"
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr_attendance.field_res_company__attendance_overtime_validation
 #: model:ir.model.fields,field_description:hr_attendance.field_res_config_settings__attendance_overtime_validation
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
@@ -3262,6 +3471,9 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/hr_attendance/static/src/components/greetings/greetings.xml:0
 msgid "Extra hours"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -3272,10 +3484,13 @@ msgstr ""
 
 #. module: hr_attendance
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/hr_attendance/static/src/client_action/greeting_message/greeting_message.js:0
 msgid "First come, first served"
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance__message_follower_ids
 msgid "Followers"
 msgstr ""
@@ -3289,6 +3504,9 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_attendance/models/hr_attendance.py:0
 msgid "From %s"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -3299,10 +3517,13 @@ msgstr ""
 
 #. module: hr_attendance
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/hr_attendance/static/src/client_action/greeting_message/greeting_message.js:0
 msgid "Glad to have you back, it's been a while!"
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_form
 msgid "GPS Coordinates"
 msgstr ""
@@ -3310,25 +3531,35 @@ msgstr ""
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 msgid "Generate new URL"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_attendance
 #. odoo-javascript
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/hr_attendance/static/src/client_action/greeting_message/greeting_message.js:0
 msgid "Good afternoon"
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/hr_attendance/static/src/components/card_layout/card_layout.xml:0
 #: code:addons/hr_attendance/static/src/components/greetings/greetings.xml:0
 #: code:addons/hr_attendance/static/src/components/manual_selection/manual_selection.xml:0
 #: code:addons/hr_attendance/static/src/components/pin_code/pin_code.xml:0
 msgid "Go back"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_attendance
 #. odoo-javascript
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: code:addons/hr_attendance/static/src/client_action/greeting_message/greeting_message.js:0
 msgid "Good evening"
@@ -3350,6 +3581,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_report_view_search
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_filter
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/hr_attendance/static/src/components/greetings/greetings.xml:0
 msgid "Goodbye"
 msgstr ""
@@ -3358,11 +3591,15 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_management_view_filter
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_filter
 #: model_terms:ir.ui.view,arch_db:hr_attendance.view_attendance_overtime_search
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "Group By"
 msgstr "Sdukel s"
 
 #. module: hr_attendance
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_report_view_search
 msgid "HR Attendance Search"
@@ -3390,6 +3627,10 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/hr_attendance/static/src/client_action/greeting_message/greeting_message.js:0
 msgid "Have a nice lunch!"
+=======
+#: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance__has_message
+msgid "Has Message"
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance__has_message
 msgid "Has Message"
@@ -3436,7 +3677,11 @@ msgid "Hours"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Asragen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Asragen"
 >>>>>>> upstream/18.0
@@ -3560,7 +3805,10 @@ msgstr ""
 
 #. module: hr_attendance
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_employee__hours_previously_today
 msgid "Hours Previously Today"
 msgstr ""
@@ -3572,6 +3820,9 @@ msgid "Hours Previously Today:"
 msgstr ""
 
 #. module: hr_attendance
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_employee__hours_today
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_employee_public__hours_today
@@ -3580,8 +3831,14 @@ msgstr ""
 
 #. module: hr_attendance
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance_report__worked_hours
 msgid "Hours Worked"
+=======
+#. odoo-javascript
+#: code:addons/hr_attendance/static/src/components/greetings/greetings.xml:0
+msgid "Hours Today:"
+>>>>>>> upstream/18.0
 =======
 #. odoo-javascript
 #: code:addons/hr_attendance/static/src/components/greetings/greetings.xml:0
@@ -3598,7 +3855,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance__id
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance_overtime__id
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance_report__id
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "ID"
@@ -3606,9 +3866,12 @@ msgstr "Asulay"
 
 #. module: hr_attendance
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/hr_attendance/static/src/client_action/kiosk_mode/kiosk_mode.xml:0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance__in_ip_address
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_form
 msgid "IP Address"
@@ -3617,11 +3880,15 @@ msgstr "Tansa IP"
 #. module: hr_attendance
 #. odoo-javascript
 #: code:addons/hr_attendance/static/src/public_kiosk/public_kiosk_app.xml:0
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "Identify Manually"
 msgstr ""
 
 #. module: hr_attendance
+<<<<<<< HEAD
 <<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/hr_attendance/static/src/client_action/greeting_message/greeting_message.js:0
@@ -3631,6 +3898,8 @@ msgstr ""
 #. module: hr_attendance
 #: model:ir.ui.menu,name:hr_attendance.menu_hr_attendance_kiosk_no_user_mode
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 msgid ""
 "If checked, days not covered by an attendance will be visible in the Report. "
@@ -3684,13 +3953,19 @@ msgstr ""
 #. module: hr_attendance
 #: model:ir.ui.menu,name:hr_attendance.menu_action_open_form
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "Kiosk Mode"
 msgstr ""
 
 #. module: hr_attendance
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 msgid "Kiosk Mode Adress"
 msgstr ""
@@ -3707,6 +3982,9 @@ msgid "Last 3 Months"
 msgstr ""
 
 #. module: hr_attendance
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_employee__last_attendance_id
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_employee_public__last_attendance_id
@@ -3715,12 +3993,18 @@ msgstr ""
 
 #. module: hr_attendance
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_employee__last_attendance_worked_hours
 msgid "Last Attendance Worked Hours"
 msgstr ""
 
 #. module: hr_attendance
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance__write_uid
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance_overtime__write_uid
@@ -3735,7 +4019,10 @@ msgstr "Aleqqem aneggaru di"
 
 #. module: hr_attendance
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance__in_latitude
 msgid "Latitude"
 msgstr ""
@@ -3811,12 +4098,16 @@ msgid "Manual Attendance or with barcode"
 msgstr ""
 
 #. module: hr_attendance
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:hr_attendance.selection__res_company__attendance_kiosk_mode__manual
 msgid "Manual Selection"
 msgstr ""
 
 #. module: hr_attendance
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.model,name:hr_attendance.model_ir_ui_menu
 msgid "Menu"
@@ -3962,10 +4253,15 @@ msgstr "Umuɣ"
 msgstr "Umuɣ"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/hr_attendance/static/src/public_kiosk/public_kiosk_app.xml:0
 msgid "Manually (optional PIN)"
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_attendance
@@ -3975,7 +4271,10 @@ msgstr ""
 
 #. module: hr_attendance
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance__message_has_error
 msgid "Message Delivery error"
 msgstr ""
@@ -4003,12 +4302,16 @@ msgstr ""
 
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_management_view_filter
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_filter
 msgid "My Attendances"
 msgstr ""
 
 #. module: hr_attendance
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_filter
 msgid "No Check Out"
@@ -4044,14 +4347,22 @@ msgid "Overtime"
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_filter
 msgid "My Team"
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_management_view_filter
+#: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_filter
+msgid "My Team"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_attendance
 #. odoo-javascript
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/hr_attendance/static/src/client_action/my_attendances/my_attendances.xml:0
 msgid "Please contact your administrator."
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/hr_attendance/static/src/public_kiosk/public_kiosk_app.xml:0
 msgid "No Badge defined on employees. Set one to test."
 msgstr ""
@@ -4197,6 +4508,9 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/hr_attendance/static/src/public_kiosk/public_kiosk_app.xml:0
 msgid "Powered by"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -4207,8 +4521,11 @@ msgstr ""
 
 #. module: hr_attendance
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.ui.menu,name:hr_attendance.menu_hr_attendance_report
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/hr_attendance/static/src/public_kiosk/public_kiosk_app.xml:0
 msgid "RFID Token with reader"
@@ -4250,15 +4567,21 @@ msgstr "Yeţwagi"
 
 #. module: hr_attendance
 #: model:ir.ui.menu,name:hr_attendance.menu_hr_attendance_reporting
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "Reporting"
 msgstr "Assaɣen"
 
 #. module: hr_attendance
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/hr_attendance/static/src/client_action/kiosk_mode/kiosk_mode.xml:0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance__message_has_sms_error
 msgid "SMS Delivery error"
 msgstr ""
@@ -4266,6 +4589,9 @@ msgstr ""
 #. module: hr_attendance
 #. odoo-javascript
 #: code:addons/hr_attendance/static/src/public_kiosk/public_kiosk_app.xml:0
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "Scan your badge"
 msgstr ""
@@ -4277,7 +4603,10 @@ msgstr ""
 
 #. module: hr_attendance
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/hr_attendance/static/src/components/manual_selection/manual_selection.xml:0
 msgid "Search..."
@@ -4290,12 +4619,16 @@ msgid "Select on Tablet"
 msgstr ""
 
 #. module: hr_attendance
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 msgid "Set PIN codes in the employee detail form (in HR Settings tab)."
 msgstr ""
 
 #. module: hr_attendance
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.actions.act_window,name:hr_attendance.action_hr_attendance_settings
 msgid "Settings"
@@ -4450,6 +4783,8 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:hr_attendance.hr_attendance_action
 #: model_terms:ir.actions.act_window,help:hr_attendance.hr_attendance_action_employee
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/hr_attendance/static/src/public_kiosk/public_kiosk_app.xml:0
 msgid "Set my badge"
@@ -4487,11 +4822,15 @@ msgstr ""
 #. module: hr_attendance
 #. odoo-javascript
 #: code:addons/hr_attendance/static/src/views/attendance_helper_view.xml:0
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "The attendance records of your employees will be displayed here."
 msgstr ""
 
 #. module: hr_attendance
+<<<<<<< HEAD
 <<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/hr_attendance/static/src/client_action/greeting_message/greeting_message.js:0
@@ -4512,6 +4851,8 @@ msgstr ""
 #: model:res.groups,comment:hr_attendance.group_hr_attendance_use_pin
 msgid "The user will have to enter his PIN to check in and out manually at the company screen."
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.actions.act_window,help:hr_attendance.hr_attendance_management_action
 #: model_terms:ir.actions.act_window,help:hr_attendance.hr_attendance_reporting
 msgid "The attendance reporting of your employees will be displayed here."
@@ -4543,11 +4884,15 @@ msgstr ""
 msgid ""
 "The user will have access to the attendance records and reporting of "
 "employees where he's set as an attendance manager"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_attendance
 #. odoo-python
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: code:addons/hr_attendance/models/hr_employee.py:0
 msgid "To activate Kiosk mode without pin code, you must have access right as an Officer or above in the Attendance app. Please contact your administrator."
@@ -4561,6 +4906,8 @@ msgstr ""
 
 #. module: hr_attendance
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/hr_attendance/models/hr_attendance.py:0
 msgid ""
 "This attendance was automatically checked out because the employee exceeded "
@@ -4588,6 +4935,9 @@ msgid "Today"
 msgstr "Assa"
 
 #. module: hr_attendance
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr_attendance.field_res_company__overtime_company_threshold
 #: model:ir.model.fields,field_description:hr_attendance.field_res_config_settings__overtime_company_threshold
@@ -4604,13 +4954,19 @@ msgstr ""
 
 #. module: hr_attendance
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/hr_attendance/static/src/components/greetings/greetings.xml:0
 msgid "Total"
 msgstr "Asemday"
 
 #. module: hr_attendance
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_employee__total_overtime
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_employee_public__total_overtime
@@ -4620,7 +4976,10 @@ msgstr ""
 
 #. module: hr_attendance
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/hr_attendance/static/src/components/attendance_menu/attendance_menu.xml:0
 msgid "Total today"
@@ -4656,12 +5015,16 @@ msgid "Unknown"
 msgstr ""
 
 #. module: hr_attendance
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 msgid "Use PIN codes (defined on the Employee's profile) to check-in."
 msgstr ""
 
 #. module: hr_attendance
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.model,name:hr_attendance.model_res_users
 #: model:res.groups,name:hr_attendance.group_hr_attendance
@@ -4980,6 +5343,8 @@ msgstr ""
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.view_attendance_tree
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 msgid "Use this url to access your kiosk mode from any device."
 msgstr ""
@@ -5017,14 +5382,20 @@ msgstr ""
 
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_employee_simple_tree_view
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "Work Hours"
 msgstr ""
 
 #. module: hr_attendance
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance__worked_hours
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_form
 #: model_terms:ir.ui.view,arch_db:hr_attendance.view_attendance_tree
 #: model_terms:ir.ui.view,arch_db:hr_attendance.view_attendance_tree_management
@@ -5038,11 +5409,15 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_graph
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_pivot
 #: model_terms:ir.ui.view,arch_db:hr_attendance.view_attendance_tree
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "Worked Hours"
 msgstr ""
 
 #. module: hr_attendance
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_user_view_form
 #: model_terms:ir.ui.view,arch_db:hr_attendance.view_employee_form_inherit_hr_attendance
@@ -5054,6 +5429,8 @@ msgstr ""
 #: code:addons/hr_attendance/models/hr_employee.py:0
 msgid "Wrong PIN"
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_form
 #: model_terms:ir.ui.view,arch_db:hr_attendance.view_attendance_tree_management
 msgid "Worked Time"
@@ -5069,6 +5446,9 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/hr_attendance/static/src/public_kiosk/public_kiosk_app.js:0
 msgid "Wrong Pin"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -5080,10 +5460,13 @@ msgstr ""
 
 #. module: hr_attendance
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.actions.act_window,help:hr_attendance.hr_attendance_action_overview
 msgid "Your attendance records will be displayed here."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/hr_attendance/models/hr_attendance.py:0
 msgid "You don't have the rights to execute that action."
@@ -5145,4 +5528,7 @@ msgstr ""
 
 #~ msgid "Warning"
 #~ msgstr "ɣuṛ-ek"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

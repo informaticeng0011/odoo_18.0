@@ -2,22 +2,29 @@
 # This file contains the translation of the following modules:
 # 	* base_install_request
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Manon Rondou, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Manon Rondou, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2025-01-27 13:03+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -29,6 +36,8 @@ msgstr ""
 "Language: fr\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Manon Rondou, 2025\n"
@@ -39,6 +48,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
 "1000000 == 0 ? 1 : 2;\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_install_request
@@ -48,6 +60,7 @@ msgid ""
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        Hello,\n"
 "        <br/><br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "        <span style=\"font-weight: bold;\" t-out=\"object.user_id.name\"/> has requested to activate the <span style=\"font-weight: bold;\" t-out=\"object.module_id.shortdesc\"/> module. This module is included in your subscription. It has <span style=\"color: #875A7B; font-weight: bold;\">no extra cost</span>, but an administrator role is required to activate it.\n"
 "        <br/><br/>\n"
@@ -62,6 +75,8 @@ msgid ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        <span style=\"font-weight: bold;\" t-out=\"object.user_id.name\"/> "
 "has requested to activate the <span style=\"font-weight: bold;\" t-"
 "out=\"object.module_id.shortdesc\"/> module. This module is included in your "
@@ -85,6 +100,9 @@ msgid ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-"
 "quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "        </t>\n"
 "        <br/><br/>\n"
@@ -96,6 +114,7 @@ msgstr ""
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        Bonjour,\n"
 "        <br/><br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "        <span style=\"font-weight: bold;\" t-out=\"object.user_id.name\"/> a demandé l'activation du module <span style=\"font-weight: bold;\" t-out=\"object.module_id.shortdesc\"/>. Ce module est inclus dans votre abonnement. Il n'entraîne <span style=\"color: #875A7B; font-weight: bold;\">aucun coût supplémentaire</span>, mais un administrateur doit l'activer.\n"
 "        <br/><br/>\n"
@@ -110,6 +129,8 @@ msgstr ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        <span style=\"font-weight: bold;\" t-out=\"object.user_id.name\"/> a "
 "demandé l'activation du module <span style=\"font-weight: bold;\" t-"
 "out=\"object.module_id.shortdesc\"/>. Ce module est inclus dans votre "
@@ -133,6 +154,9 @@ msgstr ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-"
 "quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "        </t>\n"
 "        <br/><br/>\n"
@@ -224,7 +248,12 @@ msgstr "Demande d'activation de modules"
 #: model:mail.template,subject:base_install_request.mail_template_base_install_request
 msgid "Module Activation Request for \"{{ object.module_id.shortdesc }}\""
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Demande d'activation de modules pour \"{{ object.module_id.shortdesc }}\""
+=======
+msgstr ""
+"Demande d'activation de modules pour \"{{ object.module_id.shortdesc }}\""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Demande d'activation de modules pour \"{{ object.module_id.shortdesc }}\""

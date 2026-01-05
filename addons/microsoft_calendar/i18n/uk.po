@@ -2,20 +2,27 @@
 # This file contains the translation of the following modules:
 # 	* microsoft_calendar
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -655,6 +662,8 @@ msgstr ""
 "Language: uk\n"
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Odoo, 2025\n"
@@ -667,6 +676,9 @@ msgstr ""
 "11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % "
 "100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || "
 "(n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: microsoft_calendar
@@ -721,8 +733,13 @@ msgstr ""
 #: code:addons/microsoft_calendar/models/res_users.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "An error occurred while generating the token. Your authorization code may be"
 " invalid or has already expired [%s]. You should check your Client ID and "
+=======
+"An error occurred while generating the token. Your authorization code may be "
+"invalid or has already expired [%s]. You should check your Client ID and "
+>>>>>>> upstream/18.0
 =======
 "An error occurred while generating the token. Your authorization code may be "
 "invalid or has already expired [%s]. You should check your Client ID and "
@@ -833,12 +850,15 @@ msgstr ""
 #: code:addons/microsoft_calendar/models/calendar.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Due to an Outlook Calendar limitation, recurrence updates must be done directly in Outlook Calendar.\n"
 "If this recurrence is not shown in Outlook Calendar, you must delete it in Odoo Calendar and recreate it in Outlook Calendar."
 msgstr ""
 "Через обмеження календаря Outlook повторювані оновлення потрібно виконувати безпосередньо в календарі Outlook.\n"
 "Якщо це повторення не відображається в календарі Outlook, ви повинні видалити його в календарі Odoo і повторно створити в календарі Outlook."
 =======
+=======
+>>>>>>> upstream/18.0
 "Due to an Outlook Calendar limitation, recurrence updates must be done "
 "directly in Outlook Calendar.\n"
 "If this recurrence is not shown in Outlook Calendar, you must delete it in "
@@ -848,6 +868,9 @@ msgstr ""
 "безпосередньо в календарі Outlook.\n"
 "Якщо це повторення не відображається в календарі Outlook, ви повинні "
 "видалити його в календарі Odoo і повторно створити в календарі Outlook."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: microsoft_calendar
@@ -1019,7 +1042,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1457,6 +1483,9 @@ msgstr "Менеджер сповіщення про подію"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1781,12 +1810,15 @@ msgstr "Правило повторюваної події"
 #: code:addons/microsoft_calendar/models/calendar.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "For a correct synchronization between Odoo and Outlook Calendar, all attendees must have an email address. However, some events do not respect this condition. As long as the events are incorrect, the calendars will not be synchronized.\n"
 "Either update the events/attendees or archive these events %(details)s:\n"
 "%(invalid_events)s"
 msgstr ""
 "Для правильної синронізації між Odoo та календарем Outlook, усі учасники повинні мати адресу електронної пошти. Однак деякі події не вимагають цієї умови. Поки події не будуть налаштовані вірно, календарі не будуть синхронізовані.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "For a correct synchronization between Odoo and Outlook Calendar, all "
 "attendees must have an email address. However, some events do not respect "
 "this condition. As long as the events are incorrect, the calendars will not "
@@ -1798,6 +1830,9 @@ msgstr ""
 "повинні мати адресу електронної пошти. Однак деякі події не вимагають цієї "
 "умови. Поки події не будуть налаштовані вірно, календарі не будуть "
 "синхронізовані.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "%(details)sАбо оновіть події/учасників або архівуйте ці події:\n"
 "%(invalid_events)s"
@@ -2009,17 +2044,23 @@ msgstr "Синхронізувати лише нові події"
 #: code:addons/microsoft_calendar/static/src/views/microsoft_calendar/microsoft_calendar_controller.js:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The Outlook Synchronization needs to be configured before you can use it, do"
 " you want to do it now?"
 msgstr ""
 "Синхронізацію Outlook потрібно налаштувати перед тим, як використовувати її,"
 " хочете зробити це зараз?"
 =======
+=======
+>>>>>>> upstream/18.0
 "The Outlook Synchronization needs to be configured before you can use it, do "
 "you want to do it now?"
 msgstr ""
 "Синхронізацію Outlook потрібно налаштувати перед тим, як використовувати її, "
 "хочете зробити це зараз?"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: microsoft_calendar

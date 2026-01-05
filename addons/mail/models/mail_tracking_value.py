@@ -177,10 +177,13 @@ class MailTracking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             values.update({
                 'old_value_char': ', '.join(initial_value.mapped('display_name')) if initial_value else '',
                 'new_value_char': ', '.join(new_value.mapped('display_name')) if new_value else '',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -356,6 +359,9 @@ class MailTracking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -664,7 +670,11 @@ class MailTracking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             tracked_fields = TrackedModel.fields_get(self.field_id.mapped('name'), attributes={'string', 'type'})
+=======
+            tracked_fields = TrackedModel.fields_get(self.field_id.mapped('name'), attributes={'digits', 'string', 'type'})
+>>>>>>> upstream/18.0
 =======
             tracked_fields = TrackedModel.fields_get(self.field_id.mapped('name'), attributes={'digits', 'string', 'type'})
 >>>>>>> upstream/18.0
@@ -1313,6 +1323,10 @@ class MailTracking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    'floatPrecision': col_info.get('digits'),
+>>>>>>> upstream/18.0
 =======
                     'floatPrecision': col_info.get('digits'),
 >>>>>>> upstream/18.0
@@ -1937,6 +1951,10 @@ class MailTracking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    'floatPrecision': col_info.get('digits'),
+>>>>>>> upstream/18.0
 =======
                     'floatPrecision': col_info.get('digits'),
 >>>>>>> upstream/18.0

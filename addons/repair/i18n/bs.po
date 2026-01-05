@@ -42,6 +42,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -154,6 +158,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2023-05-16 13:48+0000\n"
 <<<<<<< HEAD
@@ -371,16 +376,22 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2025-12-31 16:39+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Bosnian <https://translate.odoo.com/projects/odoo-18/repair/"
 "bs/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Language: bs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -601,6 +612,8 @@ msgid ""
 "                object.state == 'draft' and 'Repair Quotation - %s' % (object.name) or\n"
 "                'Repair Order - %s' % (object.name))"
 =======
+=======
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.14.3\n"
@@ -625,6 +638,9 @@ msgstr ""
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
 msgid "(<i>Recycle</i>)"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -634,6 +650,7 @@ msgid "(<i>Remove</i>)"
 msgstr "(<i>Ukloni</i>)"
 
 #. module: repair
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
 msgid "(update)"
@@ -649,6 +666,8 @@ msgid ""
 "* The 'To be Invoiced' status is used to generate the invoice before or after repairing done.\n"
 "* The 'Done' status is set when repairing is completed.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:repair.field_repair_order__state
 msgid ""
 "* The 'New' status is used when a user is encoding a new and unconfirmed "
@@ -656,11 +675,15 @@ msgid ""
 "* The 'Confirmed' status is used when a user confirms the repair order.\n"
 "* The 'Under Repair' status is used when the repair is ongoing.\n"
 "* The 'Repaired' status is set when repairing is completed.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "* The 'Cancelled' status is used when user cancel repair order."
 msgstr ""
 
 #. module: repair
+<<<<<<< HEAD
 <<<<<<< HEAD
 #. odoo-python
 #: code:addons/repair/models/repair.py:0
@@ -694,11 +717,14 @@ msgstr ""
 #. module: repair
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
 msgid "<i>(Add)</i>"
 msgstr "<i>(Dodaj)</i>"
 
 #. module: repair
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
 msgid ""
@@ -710,6 +736,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
 msgid "<span class=\"o_stat_text\">Product Moves</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:repair.stock_repair_type_kanban
 msgid "<span class=\"col-6\">Confirmed</span>"
 msgstr ""
@@ -722,14 +750,20 @@ msgstr ""
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.stock_repair_type_kanban
 msgid "<span class=\"col-6\">Under Repair</span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.stock_production_lot_view_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<span class=\"o_stat_text\">Repairs</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid "<span class=\"o_stat_text\">Done:</span>"
 msgstr ""
 
@@ -751,11 +785,15 @@ msgstr ""
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.stock_repair_type_kanban
 msgid "<span>Orders</span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgid "<strong>Lot/Serial Number:</strong>"
 msgstr "<strong>Lot/Serijski broj:</strong>"
@@ -940,6 +978,8 @@ msgstr "<strong>Ukupno</strong>"
 msgid "<strong>Warranty:</strong>"
 msgstr "<strong>Garancija:</strong>"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid "<span>Repair Order #</span>"
 msgstr ""
 
@@ -967,6 +1007,9 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
 msgid "<strong>Status:</strong>"
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: repair
@@ -1001,14 +1044,20 @@ msgstr ""
 
 #. module: repair
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:repair.selection__repair_line__type__add
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:repair.repair_order_view_activity
 msgid "Activity view"
 msgstr ""
 
 #. module: repair
 #: model:ir.model.fields.selection,name:repair.selection__stock_move__repair_line_type__add
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "Add"
 msgstr "Dodaj"
@@ -1016,17 +1065,24 @@ msgstr "Dodaj"
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 msgid "Add a line"
 msgstr ""
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "Add internal notes."
 msgstr ""
 
 #. module: repair
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
 msgid "Add quotation notes."
@@ -1041,6 +1097,8 @@ msgstr "Poslije popravka"
 #: model:ir.model.fields,field_description:repair.field_repair_order__allowed_picking_type_ids
 msgid "Allowed Picking Type"
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:repair.field_repair_order__location_dest_id
 msgid "Added Parts Destination Location"
 msgstr ""
@@ -1079,6 +1137,9 @@ msgstr ""
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__is_parts_late
 msgid "Any Part is late"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -1089,6 +1150,7 @@ msgstr "Broj zakački"
 
 #. module: repair
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:repair.selection__repair_order__invoice_method__b4repair
 msgid "Before Repair"
 msgstr "Prije popravka"
@@ -1098,6 +1160,8 @@ msgstr "Prije popravka"
 msgid "Cancel"
 msgstr "Otkaži"
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/repair/models/repair.py:0
 #: model:ir.model.fields.selection,name:repair.selection__repair_order__parts_availability_state__available
@@ -1126,6 +1190,9 @@ msgstr "Komponente sastavnice"
 #: code:addons/repair/models/stock_warehouse.py:0
 msgid "Can't find any production location."
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: repair
@@ -1135,8 +1202,13 @@ msgstr "Otkaži popravak"
 
 #. module: repair
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:repair.selection__repair_line__state__cancel
 #: model:ir.model.fields.selection,name:repair.selection__repair_order__state__cancel
+=======
+#: model:ir.model.fields.selection,name:repair.selection__repair_order__state__cancel
+#: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form_filter
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields.selection,name:repair.selection__repair_order__state__cancel
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form_filter
@@ -1145,6 +1217,7 @@ msgid "Cancelled"
 msgstr "Otkazan"
 
 #. module: repair
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.model.fields,field_description:repair.field_repair_fee__product_uom_category_id
 #: model:ir.model.fields,field_description:repair.field_repair_line__product_uom_category_id
@@ -1296,6 +1369,8 @@ msgstr "Kategorija"
 #: model:ir.model.fields,help:repair.field_repair_order__partner_id
 msgid "Choose partner for whom the order will be invoiced and delivered. You can find a partner by its Name, TIN, Email or Internal Reference."
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
 msgid "Catalog"
 msgstr ""
@@ -1315,12 +1390,16 @@ msgstr "Provjeri dostupnost"
 msgid ""
 "Choose partner for whom the order will be invoiced and delivered. You can "
 "find a partner by its Name, TIN, Email or Internal Reference."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_tags__color
 msgid "Color Index"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1472,12 +1551,18 @@ msgstr "Indeks boje"
 
 #. module: repair
 >>>>>>> upstream/18.0
+=======
+msgstr "Indeks boje"
+
+#. module: repair
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:repair.field_repair_order__company_id
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form_filter
 msgid "Company"
 msgstr "Kompanija"
 
 #. module: repair
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.ui.menu,name:repair.repair_menu_config
 msgid "Configuration"
@@ -1623,6 +1708,8 @@ msgstr "Konfiguracija"
 msgstr "Konfiguracija"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:repair.repair_view_picking_type_form
 msgid "Component Destination Location"
 msgstr ""
@@ -1643,6 +1730,9 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:repair.stock_repair_type_kanban
 msgid "Configuration"
 msgstr "Konfiguracija"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: repair
@@ -1652,7 +1742,12 @@ msgstr "Potvrdi popravak"
 
 #. module: repair
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:repair.selection__repair_line__state__confirmed
+=======
+#. odoo-python
+#: code:addons/repair/models/stock_picking.py:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-python
 #: code:addons/repair/models/stock_picking.py:0
@@ -1663,6 +1758,7 @@ msgid "Confirmed"
 msgstr "Potvrđeno"
 
 #. module: repair
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.model.fields,help:repair.field_repair_fee__product_uom_category_id
 #: model:ir.model.fields,help:repair.field_repair_line__product_uom_category_id
@@ -1855,6 +1951,8 @@ msgstr "Kreriaj Fakturu"
 #: model:ir.model,name:repair.model_repair_order_make_invoice
 msgid "Create Mass Invoice (repair)"
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:repair.field_repair_order__product_uom_category_id
 msgid ""
 "Conversion between Units of Measure can only occur if they belong to the "
@@ -1866,6 +1964,9 @@ msgstr ""
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
 msgid "Create Quotation"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -1873,6 +1974,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/repair/models/stock_picking.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:repair.field_product_product__create_repair
+#: model:ir.model.fields,field_description:repair.field_product_template__create_repair
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:repair.field_product_product__create_repair
 #: model:ir.model.fields,field_description:repair.field_product_template__create_repair
@@ -1882,7 +1988,10 @@ msgstr ""
 
 #. module: repair
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:repair.field_stock_picking__is_repairable
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:repair.field_stock_picking_type__is_repairable
@@ -1891,7 +2000,10 @@ msgstr ""
 
 #. module: repair
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:repair.field_product_product__create_repair
 #: model:ir.model.fields,help:repair.field_product_template__create_repair
 msgid ""
@@ -1899,12 +2011,16 @@ msgid ""
 msgstr ""
 
 #. module: repair
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.actions.act_window,help:repair.action_repair_order_tag
 msgid "Create a new tag"
 msgstr ""
 
 #. module: repair
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.actions.act_window,name:repair.act_repair_invoice
 #: model_terms:ir.ui.view,arch_db:repair.view_make_invoice
@@ -1919,6 +2035,9 @@ msgstr "Kreiraj Fakturu"
 =======
 #: model:ir.model.fields,field_description:repair.field_repair_order__create_uid
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields,field_description:repair.field_repair_order__create_uid
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:repair.field_repair_tags__create_uid
 #: model:ir.model.fields,field_description:repair.field_stock_warn_insufficient_qty_repair__create_uid
 msgid "Created by"
@@ -1926,10 +2045,14 @@ msgstr "Kreirao"
 
 #. module: repair
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:repair.field_repair_fee__create_date
 #: model:ir.model.fields,field_description:repair.field_repair_line__create_date
 #: model:ir.model.fields,field_description:repair.field_repair_order__create_date
 #: model:ir.model.fields,field_description:repair.field_repair_order_make_invoice__create_date
+=======
+#: model:ir.model.fields,field_description:repair.field_repair_order__create_date
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:repair.field_repair_order__create_date
 >>>>>>> upstream/18.0
@@ -1939,6 +2062,7 @@ msgid "Created on"
 msgstr "Kreirano"
 
 #. module: repair
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.model.fields,field_description:repair.field_repair_fee__currency_id
 #: model:ir.model.fields,field_description:repair.field_repair_line__currency_id
@@ -2089,12 +2213,15 @@ msgstr "Valuta"
 #. module: repair
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:repair.field_repair_order__partner_id
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form_filter
 msgid "Customer"
 msgstr "Kupac"
 
 #. module: repair
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.model.fields,field_description:repair.field_repair_order__default_address_id
 msgid "Default Address"
@@ -2110,6 +2237,8 @@ msgstr "Adresa dostave"
 #: model:ir.model.fields,field_description:repair.field_repair_line__name
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:repair.field_repair_order__search_date_category
 msgid "Date Category"
 msgstr ""
@@ -2122,11 +2251,15 @@ msgstr ""
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "Description"
 msgstr "Opis"
 
 #. module: repair
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.model.fields,field_description:repair.field_repair_line__location_dest_id
 msgid "Dest. Location"
@@ -2138,12 +2271,17 @@ msgstr "Odredišna lokacija"
 #: model:ir.model.fields,field_description:repair.field_repair_order__display_name
 #: model:ir.model.fields,field_description:repair.field_repair_order_make_invoice__display_name
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
 msgid "Details"
 msgstr "Detalji"
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__display_name
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:repair.field_repair_tags__display_name
 #: model:ir.model.fields,field_description:repair.field_stock_warn_insufficient_qty_repair__display_name
@@ -2157,6 +2295,7 @@ msgstr ""
 
 #. module: repair
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:repair.view_make_invoice
 msgid "Do you really want to create the invoice(s)?"
 msgstr "Želite li zaista želite kreirati fakturu(e)?"
@@ -2166,10 +2305,14 @@ msgstr "Želite li zaista želite kreirati fakturu(e)?"
 =======
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
+>>>>>>> upstream/18.0
 msgid "Done"
 msgstr "Gotovo"
 
 #. module: repair
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.model.fields.selection,name:repair.selection__repair_line__state__draft
 msgid "Draft"
@@ -2183,13 +2326,18 @@ msgstr ""
 #. module: repair
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
 msgid "End Repair"
 msgstr "Završi popravak"
 
 #. module: repair
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,help:repair.field_repair_line__tracking
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,help:repair.field_repair_order__tracking
@@ -2197,6 +2345,7 @@ msgid "Ensure the traceability of a storable product in your warehouse."
 msgstr ""
 
 #. module: repair
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
 msgid "Extra Info"
@@ -2207,6 +2356,8 @@ msgstr "Dodatne informacije"
 msgid "Fees"
 msgstr "Nadoknada"
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/repair/models/repair.py:0
 msgid "Exp %s"
@@ -2216,6 +2367,9 @@ msgstr ""
 #: model:ir.model.fields.selection,name:repair.selection__repair_order__parts_availability_state__expected
 msgid "Expected"
 msgstr "Očekivano"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: repair
@@ -2235,7 +2389,10 @@ msgstr ""
 
 #. module: repair
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
 msgid ""
 "For some of the parts, there is a difference between the initial demand and "
@@ -2253,6 +2410,9 @@ msgid "Forecasted"
 msgstr ""
 
 #. module: repair
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form_filter
 msgid "Future Activities"
@@ -2265,6 +2425,7 @@ msgstr "Grupiši po"
 
 #. module: repair
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:repair.field_repair_order_make_invoice__group
 msgid "Group by partner invoice address"
 msgstr "Grupiraj po partnerovoj adresi fakture"
@@ -2272,11 +2433,14 @@ msgstr "Grupiraj po partnerovoj adresi fakture"
 #. module: repair
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:repair.field_repair_order__has_message
 msgid "Has Message"
 msgstr ""
 
 #. module: repair
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
 msgid "History"
@@ -2288,12 +2452,17 @@ msgstr "Istorija"
 #: model:ir.model.fields,field_description:repair.field_repair_order__id
 #: model:ir.model.fields,field_description:repair.field_repair_order_make_invoice__id
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:repair.field_repair_order__has_uncomplete_moves
 msgid "Has Uncomplete Moves"
 msgstr ""
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__id
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:repair.field_repair_tags__id
 #: model:ir.model.fields,field_description:repair.field_stock_warn_insufficient_qty_repair__id
@@ -2339,7 +2508,11 @@ msgid "Icon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Znak"
+>>>>>>> upstream/18.0
 =======
 msgstr "Znak"
 >>>>>>> upstream/18.0
@@ -2467,10 +2640,13 @@ msgstr ""
 
 #. module: repair
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,help:repair.field_stock_picking__is_repairable
 #: model:ir.model.fields,help:repair.field_stock_picking_type__is_repairable
 msgid "If ticked, you will be able to directly create repair orders from a return."
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:repair.field_repair_order__under_warranty
 msgid ""
 "If ticked, the sales price will be set to 0 for all products transferred "
@@ -2481,6 +2657,9 @@ msgstr ""
 #: model:ir.model.fields,help:repair.field_stock_picking_type__is_repairable
 msgid ""
 "If ticked, you will be able to directly create repair orders from a return."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -2489,7 +2668,12 @@ msgstr ""
 msgid ""
 "In a repair order, you can detail the components you remove,\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                add or replace and record the time you spent on the different\n"
+=======
+"                add or replace and record the time you spent on the "
+"different\n"
+>>>>>>> upstream/18.0
 =======
 "                add or replace and record the time you spent on the "
 "different\n"
@@ -2502,7 +2686,10 @@ msgstr ""
 
 #. module: repair
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:repair.field_stock_lot__in_repair_count
 msgid "In repair count"
 msgstr ""
@@ -2513,6 +2700,9 @@ msgid "In the Repair Order"
 msgstr ""
 
 #. module: repair
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:repair.field_repair_order__internal_notes
 msgid "Internal Notes"
@@ -2520,7 +2710,10 @@ msgstr "Interne zabilješke"
 
 #. module: repair
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:repair.field_repair_line__move_id
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:repair.field_repair_order__move_id
@@ -2530,6 +2723,7 @@ msgstr "Interno kretanje"
 #. module: repair
 #: model:ir.actions.act_window,name:repair.action_repair_move_lines
 msgid "Inventory Moves"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2865,6 +3059,9 @@ msgstr "Adresa za fakturu"
 =======
 msgstr "Kretanja zalihe"
 >>>>>>> upstream/18.0
+=======
+msgstr "Kretanja zalihe"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__message_is_follower
@@ -2872,6 +3069,7 @@ msgid "Is Follower"
 msgstr "Je pratilac"
 
 #. module: repair
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.model,name:repair.model_account_move
 msgid "Journal Entry"
@@ -3168,6 +3366,8 @@ msgstr "Stavka dnevnika"
 #: model:ir.model.fields,field_description:repair.field_repair_order__write_uid
 #: model:ir.model.fields,field_description:repair.field_repair_order_make_invoice__write_uid
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:repair.field_stock_picking__is_repairable
 msgid "Is Repairable"
 msgstr ""
@@ -3194,6 +3394,9 @@ msgstr ""
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__write_uid
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:repair.field_repair_tags__write_uid
 #: model:ir.model.fields,field_description:repair.field_stock_warn_insufficient_qty_repair__write_uid
@@ -3202,10 +3405,14 @@ msgstr "Zadnji ažurirao"
 
 #. module: repair
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:repair.field_repair_fee__write_date
 #: model:ir.model.fields,field_description:repair.field_repair_line__write_date
 #: model:ir.model.fields,field_description:repair.field_repair_order__write_date
 #: model:ir.model.fields,field_description:repair.field_repair_order_make_invoice__write_date
+=======
+#: model:ir.model.fields,field_description:repair.field_repair_order__write_date
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:repair.field_repair_order__write_date
 >>>>>>> upstream/18.0
@@ -3216,13 +3423,19 @@ msgstr "Zadnje ažurirano"
 
 #. module: repair
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:repair.selection__repair_order__parts_availability_state__late
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form_filter
 msgid "Late"
 msgstr "Kasni"
 
 #. module: repair
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form_filter
 msgid "Late Activities"
@@ -3230,8 +3443,11 @@ msgstr "Aktivnosti u kašnjenju"
 
 #. module: repair
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:repair.field_repair_order__location_id
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:repair.field_repair_order__parts_availability
 msgid ""
 "Latest parts availability status for this RO. If green, then the RO's "
@@ -3239,6 +3455,9 @@ msgid ""
 msgstr ""
 
 #. module: repair
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:repair.field_stock_warn_insufficient_qty_repair__location_id
 msgid "Location"
@@ -3246,9 +3465,12 @@ msgstr "Lokacija"
 
 #. module: repair
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model,name:repair.model_stock_lot
 #: model:ir.model.fields,field_description:repair.field_repair_line__lot_id
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:repair.repair_view_picking_type_form
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
 msgid "Locations"
@@ -3256,6 +3478,9 @@ msgstr "Lokacije"
 
 #. module: repair
 #: model:ir.model,name:repair.model_stock_lot
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:repair.field_repair_order__lot_id
 msgid "Lot/Serial"
@@ -3273,12 +3498,18 @@ msgstr "Poruke"
 
 #. module: repair
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
 msgid "Miscellaneous"
 msgstr "Ostalo"
 
 #. module: repair
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:repair.field_repair_order__my_activity_date_deadline
 msgid "My Activity Deadline"
@@ -3286,7 +3517,10 @@ msgstr ""
 
 #. module: repair
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:repair.selection__repair_order__state__draft
 #: model_terms:ir.ui.view,arch_db:repair.stock_repair_type_kanban
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form_filter
@@ -3294,6 +3528,9 @@ msgid "New"
 msgstr "Novi"
 
 #. module: repair
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:repair.field_repair_order__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
@@ -3316,6 +3553,7 @@ msgstr "Tip sljedeće aktivnosti"
 
 #. module: repair
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:repair.selection__repair_order__invoice_method__none
 msgid "No Invoice"
 msgstr "Nema fakture"
@@ -3333,6 +3571,8 @@ msgid "No product defined on fees."
 msgstr ""
 
 #. module: repair
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model_terms:ir.actions.act_window,help:repair.action_repair_order_tree
@@ -3378,7 +3618,11 @@ msgid "Normal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Normalan"
+>>>>>>> upstream/18.0
 =======
 msgstr "Normalan"
 >>>>>>> upstream/18.0
@@ -3492,8 +3736,11 @@ msgstr "Normalan"
 #. odoo-python
 #: code:addons/repair/models/repair.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Note that the warehouses of the return and repair locations don't match!"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid "Not Available"
 msgstr ""
 
@@ -3502,6 +3749,9 @@ msgstr ""
 #: code:addons/repair/models/repair.py:0
 msgid ""
 "Note that the warehouses of the return and repair locations don't match!"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -3512,7 +3762,10 @@ msgstr "Broj akcija"
 
 #. module: repair
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:repair.field_stock_picking_type__count_repair_late
 msgid "Number of Late Repair Orders"
 msgstr ""
@@ -3533,6 +3786,9 @@ msgid "Number of Repair Orders to Process"
 msgstr ""
 
 #. module: repair
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:repair.field_repair_order__message_has_error_counter
 msgid "Number of errors"
@@ -3541,8 +3797,13 @@ msgstr ""
 #. module: repair
 #: model:ir.model.fields,help:repair.field_repair_order__message_needaction_counter
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Number of messages which requires an action"
 msgstr "Broj poruka koje zahtjevaju neku akciju"
+=======
+msgid "Number of messages requiring action"
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgid "Number of messages requiring action"
 msgstr ""
@@ -3560,6 +3821,7 @@ msgstr ""
 
 #. module: repair
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/repair/models/repair.py:0
 msgid "Only draft repairs can be confirmed."
@@ -3568,6 +3830,8 @@ msgstr ""
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__fees_lines
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:repair.stock_repair_type_kanban
 msgid "Open"
 msgstr "Otvori"
@@ -3584,6 +3848,9 @@ msgid "Operation not supported"
 msgstr ""
 
 #. module: repair
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
 msgid "Operations"
@@ -3591,8 +3858,11 @@ msgstr "Operacije"
 
 #. module: repair
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:repair.field_repair_order__operations
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.ui.menu,name:repair.repair_order_menu
 msgid "Orders"
 msgstr "Narudžbe"
@@ -3605,12 +3875,16 @@ msgstr ""
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__move_ids
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
 msgid "Parts"
 msgstr "Dijelovi"
 
 #. module: repair
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.model,name:repair.model_stock_picking_type
 msgid "Picking Type"
@@ -3776,6 +4050,8 @@ msgstr "Cjenovnik odabranog partnera"
 msgid "Print Quotation"
 msgstr "Štampaj predračun"
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:repair.field_repair_order__parts_availability_state
 msgid "Parts Availability State"
 msgstr ""
@@ -3794,11 +4070,15 @@ msgstr ""
 #: model:ir.model,name:repair.model_stock_picking_type
 msgid "Picking Type"
 msgstr "Tip prikupljanja"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__priority
 msgid "Priority"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3946,6 +4226,8 @@ msgstr "Prioritet"
 #: model:ir.model.fields,field_description:repair.field_repair_fee__product_id
 #: model:ir.model.fields,field_description:repair.field_repair_line__product_id
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Prioritet"
 
 #. module: repair
@@ -3956,6 +4238,9 @@ msgstr "Grupa naručivanja"
 #. module: repair
 #: model:ir.model,name:repair.model_product_template
 #: model:ir.model.fields,field_description:repair.field_repair_order__picking_product_id
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:repair.field_stock_warn_insufficient_qty_repair__product_id
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form_filter
@@ -3964,7 +4249,10 @@ msgstr "Proizvod"
 
 #. module: repair
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
 msgid "Product A"
 msgstr ""
@@ -3986,6 +4274,9 @@ msgid "Product Destination Location"
 msgstr ""
 
 #. module: repair
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
 msgid "Product Moves"
@@ -3993,12 +4284,18 @@ msgstr ""
 
 #. module: repair
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:repair.model_stock_move_line
 msgid "Product Moves (Stock Move Line)"
 msgstr ""
 
 #. module: repair
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:repair.field_repair_order__product_qty
 msgid "Product Quantity"
@@ -4006,14 +4303,20 @@ msgstr "Količina proizvoda"
 
 #. module: repair
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:repair.field_repair_line__tracking
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:repair.field_repair_order__product_location_src_id
 #: model:ir.model.fields,field_description:repair.field_stock_picking_type__default_product_location_src_id
 msgid "Product Source Location"
 msgstr ""
 
 #. module: repair
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:repair.field_repair_order__tracking
 msgid "Product Tracking"
@@ -4021,8 +4324,11 @@ msgstr ""
 
 #. module: repair
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:repair.field_repair_fee__product_uom
 #: model:ir.model.fields,field_description:repair.field_repair_line__product_uom
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:repair.field_repair_order__product_uom
@@ -4068,6 +4374,7 @@ msgid "Product Variant"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Varijante proizvoda"
@@ -4175,12 +4482,17 @@ msgstr "Varijante proizvoda"
 msgstr "Varijante proizvoda"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Varijante proizvoda"
 
 #. module: repair
 #: model:ir.ui.menu,name:repair.repair_menu_product_product
 msgid "Product Variants"
 msgstr "Varijante proizvoda"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: repair
@@ -4190,12 +4502,18 @@ msgstr "Proizvodi za popravak"
 
 #. module: repair
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.ui.menu,name:repair.repair_menu_product_template
 msgid "Products"
 msgstr "Proizvodi"
 
 #. module: repair
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,help:repair.field_repair_order__lot_id
 msgid "Products repaired are all belonging to this lot"
@@ -4203,18 +4521,25 @@ msgstr "Proizvodi koji su popravljeni svi pripadaju ovom lotu"
 
 #. module: repair
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:repair.field_repair_order__repair_properties
 msgid "Properties"
 msgstr "Svojstva"
 
 #. module: repair
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:repair.field_stock_warn_insufficient_qty_repair__quant_ids
 msgid "Quant"
 msgstr ""
 
 #. module: repair
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.model.fields,field_description:repair.field_repair_fee__product_uom_qty
 #: model:ir.model.fields,field_description:repair.field_repair_line__product_uom_qty
@@ -4225,11 +4550,16 @@ msgstr ""
 #: model:ir.model.fields,field_description:repair.field_stock_warn_insufficient_qty_repair__quantity
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields,field_description:repair.field_stock_warn_insufficient_qty_repair__quantity
+#: model_terms:ir.ui.view,arch_db:repair.report_repairorder
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_tree
 msgid "Quantity"
 msgstr "Količina"
 
 #. module: repair
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.model.fields.selection,name:repair.selection__repair_order__state__draft
 msgid "Quotation"
@@ -4255,6 +4585,11 @@ msgstr "Predračuni"
 msgid "RO123456"
 msgstr ""
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:repair.report_repairorder
+msgid "RO123456"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__rating_ids
@@ -4262,6 +4597,7 @@ msgid "Ratings"
 msgstr ""
 
 #. module: repair
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form_filter
 msgid "Ready To Repair"
@@ -4275,6 +4611,8 @@ msgstr "Spremno za popravak"
 #. module: repair
 #: model:ir.model.fields.selection,name:repair.selection__repair_line__type__remove
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:repair.stock_repair_type_kanban
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form_filter
 msgid "Ready"
@@ -4297,11 +4635,15 @@ msgstr ""
 
 #. module: repair
 #: model:ir.model.fields.selection,name:repair.selection__stock_move__repair_line_type__remove
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "Remove"
 msgstr "Ukloni"
 
 #. module: repair
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.model.fields,field_description:repair.field_account_bank_statement_line__repair_ids
 #: model:ir.model.fields,field_description:repair.field_account_move__repair_ids
@@ -4310,6 +4652,8 @@ msgstr "Ukloni"
 #: model:ir.model.fields,field_description:repair.field_stock_picking__repair_ids
 #: model:ir.model.fields,field_description:repair.field_stock_warn_insufficient_qty_repair__repair_id
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:repair.field_stock_picking_type__default_remove_location_dest_id
 msgid "Remove Destination Location"
 msgstr ""
@@ -4324,12 +4668,16 @@ msgstr ""
 #: model:ir.model.fields,field_description:repair.field_stock_picking__repair_ids
 #: model:ir.model.fields,field_description:repair.field_stock_warn_insufficient_qty_repair__repair_id
 #: model:ir.model.fields.selection,name:repair.selection__stock_picking_type__code__repair_operation
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:repair.repair_view_picking_form
 msgid "Repair"
 msgstr "Popravi"
 
 #. module: repair
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.model.fields,field_description:repair.field_repair_order__description
 msgid "Repair Description"
@@ -4357,12 +4705,17 @@ msgstr ""
 
 #. module: repair
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:repair.field_stock_warehouse__repair_mto_pull_id
 msgid "Repair MTO Rule"
 msgstr ""
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
 msgid "Repair Notes"
@@ -4370,8 +4723,11 @@ msgstr ""
 
 #. module: repair
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model,name:repair.model_repair_order
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:repair.field_stock_warehouse__repair_type_id
 msgid "Repair Operation Type"
 msgstr ""
@@ -4380,6 +4736,9 @@ msgstr ""
 #: model:ir.actions.report,name:repair.action_report_repair_order
 #: model:ir.model,name:repair.model_repair_order
 #: model:ir.model.fields,field_description:repair.field_sale_order__repair_order_ids
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form_filter
@@ -4387,6 +4746,7 @@ msgid "Repair Order"
 msgstr "Nalog za popravak"
 
 #. module: repair
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
 msgid "Repair Order #:"
@@ -4405,6 +4765,8 @@ msgstr "Nalog za popravak br."
 #: model:ir.actions.act_window,name:repair.action_repair_order_tree
 #: model:ir.model.fields,field_description:repair.field_stock_lot__repair_order_ids
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:repair.field_sale_order__repair_count
 msgid "Repair Order(s)"
 msgstr ""
@@ -4419,6 +4781,9 @@ msgstr ""
 #: model:ir.actions.act_window,name:repair.action_repair_order_graph
 #: model:ir.actions.act_window,name:repair.action_repair_order_tree
 #: model:ir.model.fields,field_description:repair.field_stock_lot__repair_line_ids
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:repair.repair_view_picking_form
 #: model_terms:ir.ui.view,arch_db:repair.stock_production_lot_view_form
@@ -4434,10 +4799,13 @@ msgstr ""
 
 #. module: repair
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
 msgid "Repair Quotation #:"
 msgstr "Ponuda popravke #:"
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.actions.act_window,name:repair.action_repair_picking_type_kanban
 msgid "Repair Overview"
 msgstr ""
@@ -4446,6 +4814,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:repair.field_stock_picking_type__repair_properties_definition
 msgid "Repair Properties"
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: repair
@@ -4455,12 +4826,18 @@ msgstr "Popravak br."
 
 #. module: repair
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:repair.field_repair_order__repair_request
 msgid "Repair Request"
 msgstr ""
 
 #. module: repair
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:product.template,name:repair.product_service_order_repair_product_template
 msgid "Repair Services"
@@ -4475,6 +4852,7 @@ msgstr ""
 #. module: repair
 #. odoo-python
 #: code:addons/repair/models/repair.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgid "Repair must be canceled in order to reset it to draft."
 msgstr "Popravke moraju biti otkazane kako bi ih postavili u pripremu."
@@ -4496,16 +4874,21 @@ msgstr "Popravke moraju biti popravljene kako bi ste kreirali kretanja proizvoda
 #: code:addons/repair/models/repair.py:0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid "Repair must be under repair in order to end reparation."
 msgstr "Popravke moraju biti pod popravkom kako bi ste završili popravku."
 
 #. module: repair
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.model.fields,field_description:repair.field_stock_lot__repair_order_count
 msgid "Repair order count"
 msgstr ""
 
 #. module: repair
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #. odoo-python
@@ -4515,6 +4898,7 @@ msgstr ""
 
 #. module: repair
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:mail.template,name:repair.mail_template_repair_quotation
 msgid "Repair: Quotation"
 msgstr ""
@@ -4523,6 +4907,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:repair.field_repair_order__repaired
 #: model:ir.model.fields.selection,name:repair.selection__repair_order__state__done
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:repair.field_stock_lot__repair_part_count
 msgid "Repair part count"
 msgstr ""
@@ -4530,16 +4916,22 @@ msgstr ""
 #. module: repair
 #: model:ir.model.fields.selection,name:repair.selection__repair_order__state__done
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form_filter
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "Repaired"
 msgstr "Popravljeno"
 
 #. module: repair
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.ui.menu,name:repair.menu_repair_order
 #: model:ir.ui.menu,name:repair.repair_menu
 #: model_terms:ir.ui.view,arch_db:repair.repair_view_picking_type_form
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:repair.field_stock_lot__repaired_count
 msgid "Repaired count"
 msgstr ""
@@ -4552,6 +4944,9 @@ msgstr ""
 #: model:stock.picking.type,name:repair.picking_type_warehouse0_repair
 #: model_terms:ir.ui.view,arch_db:repair.repair_view_picking_type_form
 #: model_terms:ir.ui.view,arch_db:repair.view_sale_order_form_inherit_repair
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "Repairs"
 msgstr "Popravke"
@@ -4564,6 +4959,7 @@ msgstr "Nalozi za popravak"
 
 #. module: repair
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.ui.menu,name:repair.repair_menu_reporting
 msgid "Reporting"
 <<<<<<< HEAD
@@ -4708,6 +5104,8 @@ msgstr "Izvještavanje"
 msgstr "Izvještavanje"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/repair/models/stock_warehouse.py:0
 msgid "Replenish on Order (MTO)"
@@ -4718,6 +5116,9 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:repair.stock_repair_type_kanban
 msgid "Reporting"
 msgstr "Izvještavanje"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: repair
@@ -4759,7 +5160,11 @@ msgid "Responsible"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odgovoran"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odgovoran"
 >>>>>>> upstream/18.0
@@ -4913,7 +5318,11 @@ msgid "Return"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Povrati"
+>>>>>>> upstream/18.0
 =======
 msgstr "Povrati"
 >>>>>>> upstream/18.0
@@ -5073,7 +5482,11 @@ msgid "Returned"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vraćeno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vraćeno"
 >>>>>>> upstream/18.0
@@ -5190,6 +5603,7 @@ msgstr ""
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__sale_order_id
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgid "Sale Order"
 <<<<<<< HEAD
@@ -5484,6 +5898,8 @@ msgstr "Zakazani datum"
 msgstr "Zakazani datum"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
 msgid "Sale Order"
 msgstr "Prodajni nalog"
@@ -5522,6 +5938,9 @@ msgstr "Stavka prodajne narudžbe"
 #: model:ir.model.fields,field_description:repair.field_repair_order__schedule_date
 msgid "Scheduled Date"
 msgstr "Zakazani datum"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: repair
@@ -5530,6 +5949,7 @@ msgid "Search Repair Orders"
 msgstr "Pretraga naloga popravke"
 
 #. module: repair
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.model.fields,help:repair.field_repair_order__invoice_method
 msgid "Selecting 'Before Repair' or 'After Repair' will allow you to generate invoice before or after the repair is done respectively. 'No invoice' means you don't want to generate invoice for this repair order."
@@ -5554,6 +5974,11 @@ msgid "Serial number is required for operation lines with products: %s"
 #: code:addons/repair/models/repair.py:0
 msgid "Serial number is required for product to repair : %s"
 >>>>>>> upstream/18.0
+=======
+#. odoo-python
+#: code:addons/repair/models/repair.py:0
+msgid "Serial number is required for product to repair : %s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: repair
@@ -5568,11 +5993,14 @@ msgstr "Prikaži sve zapise koji imaju datum sljedeće akcije prije danas"
 
 #. module: repair
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:repair.field_repair_line__location_id
 msgid "Source Location"
 msgstr "Izvorna lokacija"
 
 #. module: repair
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
@@ -5581,7 +6009,10 @@ msgstr "Pokreni popravak"
 
 #. module: repair
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:repair.field_repair_line__state
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:repair.field_repair_order__state
@@ -5605,10 +6036,16 @@ msgstr "Kretanje zalihe"
 
 #. module: repair
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:repair.field_repair_fee__price_subtotal
 #: model:ir.model.fields,field_description:repair.field_repair_line__price_subtotal
 msgid "Subtotal"
 msgstr "Podukupno"
+=======
+#: model:ir.model,name:repair.model_stock_forecasted_product_product
+msgid "Stock Replenishment Report"
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model,name:repair.model_stock_forecasted_product_product
 msgid "Stock Replenishment Report"
@@ -5654,7 +6091,11 @@ msgid "Tag Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ime oznake"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ime oznake"
 >>>>>>> upstream/18.0
@@ -5775,6 +6216,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_tag_search
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_tag_tree
 msgid "Tags"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6106,6 +6548,8 @@ msgstr "Status stavke popravke je automatski postavljen na jednu od povezanih na
 #. module: repair
 #: model:ir.model.fields,help:repair.field_repair_order__location_id
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Oznake"
 
 #. module: repair
@@ -6173,16 +6617,22 @@ msgstr ""
 
 #. module: repair
 #: model:ir.model.fields,help:repair.field_repair_order__product_location_src_id
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "This is the location where the product to repair is located."
 msgstr ""
 
 #. module: repair
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:repair.selection__repair_order__state__2binvoiced
 msgid "To be Invoiced"
 msgstr "Za fakturisanje"
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:repair.field_repair_order__parts_location_id
 #: model:ir.model.fields,help:repair.field_repair_order__recycle_location_id
 msgid "This is the location where the repair parts are located."
@@ -6204,6 +6654,9 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form_filter
 msgid "Today"
 msgstr "Danas"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: repair
@@ -6212,6 +6665,7 @@ msgid "Today Activities"
 msgstr "Današnje aktivnosti"
 
 #. module: repair
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.model.fields,field_description:repair.field_repair_fee__price_total
 #: model:ir.model.fields,field_description:repair.field_repair_line__price_total
@@ -6224,10 +6678,15 @@ msgstr "Ukupno"
 msgid "Total amount"
 msgstr "Ukupni iznos"
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:repair.selection__repair_order__search_date_category__day_1
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form_filter
 msgid "Tomorrow"
 msgstr "Sutra"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: repair
@@ -6238,6 +6697,7 @@ msgstr "Izvještaj praćenja"
 #. module: repair
 #: model:ir.model,name:repair.model_stock_picking
 msgid "Transfer"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6389,6 +6849,8 @@ msgstr ""
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_line__type
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Prenos"
 
 #. module: repair
@@ -6400,18 +6862,27 @@ msgstr ""
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_stock_move__repair_line_type
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "Type"
 msgstr "Tip"
 
 #. module: repair
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:repair.field_stock_picking_type__code
 msgid "Type of Operation"
 msgstr "Tip operacije"
 
 #. module: repair
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,help:repair.field_repair_order__activity_exception_decoration
 msgid "Type of the exception activity on record."
@@ -6420,6 +6891,10 @@ msgstr ""
 #. module: repair
 #: model:ir.model.fields.selection,name:repair.selection__repair_order__state__under_repair
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form_filter
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form_filter
 >>>>>>> upstream/18.0
@@ -6428,11 +6903,17 @@ msgstr "U popravku"
 
 #. module: repair
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:repair.field_repair_fee__price_unit
 #: model:ir.model.fields,field_description:repair.field_repair_line__price_unit
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
 msgid "Unit Price"
 msgstr "Jedinična cijena"
+=======
+#: model:ir.model.fields,field_description:repair.field_repair_order__under_warranty
+msgid "Under Warranty"
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:repair.field_repair_order__under_warranty
 msgid "Under Warranty"
@@ -6447,6 +6928,7 @@ msgid "Unit of Measure"
 msgstr "Jedinica mjere"
 
 #. module: repair
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.model.fields,field_description:repair.field_repair_order__amount_untaxed
 msgid "Untaxed Amount"
@@ -6602,6 +7084,8 @@ msgstr "JM"
 msgstr "JM"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
 msgid "Units"
 msgstr ""
@@ -6610,6 +7094,9 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
 msgid "Unreserve"
 msgstr "Ukloni rezervaciju"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: repair
@@ -6651,6 +7138,7 @@ msgid "Urgent"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Hitno"
@@ -6758,6 +7246,8 @@ msgstr "Hitno"
 msgstr "Hitno"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Hitno"
 
 #. module: repair
@@ -6769,6 +7259,9 @@ msgstr ""
 #: model:ir.model,name:repair.model_stock_warehouse
 msgid "Warehouse"
 msgstr "Skladište"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: repair
@@ -6784,12 +7277,15 @@ msgstr "Upozorenje"
 
 #. module: repair
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:repair.field_repair_order__guarantee_limit
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form_filter
 msgid "Warranty Expiration"
 msgstr "Isticanje garancije"
 
 #. module: repair
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:repair.field_repair_order__website_message_ids
@@ -6803,6 +7299,7 @@ msgstr ""
 
 #. module: repair
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/repair/models/repair.py:0
 msgid "You can not delete a repair order once it has been confirmed. You must first cancel it."
@@ -6814,10 +7311,15 @@ msgstr ""
 msgid "You can not delete a repair order which is linked to an invoice which has been posted once."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:repair.selection__repair_order__search_date_category__yesterday
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form_filter
 msgid "Yesterday"
 msgstr "Jučer"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: repair
@@ -6830,7 +7332,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/repair/models/repair.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "You cannot cancel a completed repair order."
+=======
+msgid "You cannot cancel a Repair Order that's already been completed"
+>>>>>>> upstream/18.0
 =======
 msgid "You cannot cancel a Repair Order that's already been completed"
 >>>>>>> upstream/18.0
@@ -6840,13 +7346,19 @@ msgstr ""
 #. odoo-python
 #: code:addons/repair/models/repair.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "You cannot delete a completed repair order."
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "You cannot create a quotation for a repair order that is already linked to "
 "an existing sale order.\n"
 "Concerned repair order(s):\n"
 "%(ref_str)s"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -6854,13 +7366,19 @@ msgstr ""
 #. odoo-python
 #: code:addons/repair/models/repair.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "You have to select an invoice address in the repair form."
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "You need to define a customer for a repair order in order to create an "
 "associated quotation.\n"
 "Concerned repair order(s):\n"
 "%(ref_str)s"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -6871,10 +7389,13 @@ msgstr ""
 
 #. module: repair
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:mail.template,subject:repair.mail_template_repair_quotation
 msgid "{{ object.partner_id.name }} Repair Orders (Ref {{ object.name or 'n/a' }})"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.actions.server,name:repair.action_repair_overview
 msgid "stock.repair.type.overview"
 msgstr ""
@@ -7108,4 +7629,7 @@ msgstr ""
 
 #~ msgid "Warranty Expiration"
 #~ msgstr "Isticanje garancije"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

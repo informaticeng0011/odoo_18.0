@@ -32,7 +32,11 @@ import { clickCheckbox, pasteHtml } from "../_helpers/user_actions";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { click } from "@odoo/hoot-dom";
+=======
+import { click, manuallyDispatchProgrammaticEvent } from "@odoo/hoot-dom";
+>>>>>>> upstream/18.0
 =======
 import { click, manuallyDispatchProgrammaticEvent } from "@odoo/hoot-dom";
 >>>>>>> upstream/18.0
@@ -269,7 +273,11 @@ test("should check a simple item", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <li class="o_checked">1</li>
+=======
+                <li class="o_checked">[]1</li>
+>>>>>>> upstream/18.0
 =======
                 <li class="o_checked">[]1</li>
 >>>>>>> upstream/18.0
@@ -746,7 +754,11 @@ test("should uncheck a simple item", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <li>1</li>
+=======
+                    <li>[]1</li>
+>>>>>>> upstream/18.0
 =======
                     <li>[]1</li>
 >>>>>>> upstream/18.0
@@ -1223,7 +1235,11 @@ test("should check an empty item", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <li class="o_checked"><br></li>
+=======
+                <li class="o_checked">[]<br></li>
+>>>>>>> upstream/18.0
 =======
                 <li class="o_checked">[]<br></li>
 >>>>>>> upstream/18.0
@@ -1700,6 +1716,7 @@ test("should uncheck an empty item", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <li class="o_checked"><br></li>
 =======
                 <li class="o_checked">[]<br></li>
@@ -2015,6 +2032,8 @@ test("should uncheck an empty item", async () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 <li class="o_checked">[]<br></li>
             </ul>`),
     });
@@ -2077,6 +2096,9 @@ test("tripleclick on checkbox should not select the list content", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2280,7 +2302,11 @@ test("should check a nested item and the previous checklist item used as title",
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <li class="o_checked">2.2</li>
+=======
+                        <li class="o_checked">[]2.2</li>
+>>>>>>> upstream/18.0
 =======
                         <li class="o_checked">[]2.2</li>
 >>>>>>> upstream/18.0
@@ -2772,7 +2798,11 @@ test("should uncheck a nested item and the previous checklist item used as title
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <li>2.2</li>
+=======
+                        <li>[]2.2</li>
+>>>>>>> upstream/18.0
 =======
                         <li>[]2.2</li>
 >>>>>>> upstream/18.0
@@ -3272,7 +3302,11 @@ test("should check a nested item and the wrapper wrapper title", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <li class="o_checked">3.2.2</li>
+=======
+                                <li class="o_checked">[]3.2.2</li>
+>>>>>>> upstream/18.0
 =======
                                 <li class="o_checked">[]3.2.2</li>
 >>>>>>> upstream/18.0
@@ -3774,7 +3808,11 @@ test("should uncheck a nested item and the wrapper wrapper title", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <li>3.1.2</li>
+=======
+                                <li>[]3.1.2</li>
+>>>>>>> upstream/18.0
 =======
                                 <li>[]3.1.2</li>
 >>>>>>> upstream/18.0
@@ -4277,7 +4315,11 @@ test("should check all nested checklist item", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <li class="o_checked">3</li>
+=======
+                <li class="o_checked">[]3</li>
+>>>>>>> upstream/18.0
 =======
                 <li class="o_checked">[]3</li>
 >>>>>>> upstream/18.0
@@ -4790,7 +4832,11 @@ test("should uncheck all nested checklist item", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <li>3</li>
+=======
+                <li>[]3</li>
+>>>>>>> upstream/18.0
 =======
                 <li>[]3</li>
 >>>>>>> upstream/18.0
@@ -5298,7 +5344,11 @@ test("should check all nested checklist item and update wrapper title", async ()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <li class="o_checked">3.1</li>
+=======
+                        <li class="o_checked">[]3.1</li>
+>>>>>>> upstream/18.0
 =======
                         <li class="o_checked">[]3.1</li>
 >>>>>>> upstream/18.0
@@ -5800,7 +5850,11 @@ test("should uncheck all nested checklist items and update wrapper title", async
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <li>3.1</li>
+=======
+                        <li>[]3.1</li>
+>>>>>>> upstream/18.0
 =======
                         <li>[]3.1</li>
 >>>>>>> upstream/18.0

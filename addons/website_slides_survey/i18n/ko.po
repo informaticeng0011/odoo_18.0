@@ -2,22 +2,29 @@
 # This file contains the translation of the following modules:
 # 	* website_slides_survey
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Daye Jeong, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Daye Jeong, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:41+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
@@ -28,6 +35,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: ko\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Daye Jeong, 2025\n"
@@ -36,6 +45,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
 
@@ -65,12 +77,15 @@ msgid ""
 "<div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Dear <t t-out=\"object.partner_id.name or 'participant' or ''\">participant</t><br/><br/>\n"
 "        Unfortunately, you have failed the certification and are no longer a member of the course: <t t-out=\"object.slide_partner_id.channel_id.name or ''\">Basics of Gardening</t>.<br/><br/>\n"
 "        Don't hesitate to enroll again!\n"
 "        </p><div style=\"margin: 16px 0px 16px 0px;\">\n"
 "            <a t-att-href=\"(object.slide_partner_id.channel_id.website_url)\" style=\"background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        Dear <t t-out=\"object.partner_id.name or 'participant' or "
 "''\">participant</t><br/><br/>\n"
 "        Unfortunately, you have failed the certification and are no longer a "
@@ -81,6 +96,9 @@ msgid ""
 "            <a t-att-href=\"(object.slide_partner_id.channel_id.website_url)"
 "\" style=\"background-color: #875A7B; padding: 8px 16px 8px 16px; text-"
 "decoration: none; color: #fff; border-radius: 5px; font-size:13px;\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                Enroll now\n"
 "            </a>\n"
@@ -93,12 +111,15 @@ msgstr ""
 "<div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        안녕하세요, <t t-out=\"object.partner_id.name or 'participant' or ''\">participant</t>님.<br/><br/>\n"
 "        안타깝게도 인증 시험에 통과하지 못하여 <t t-out=\"object.slide_partner_id.channel_id.name or ''\">원예의 기초</t> 강좌에 참여하실 수 없게 되었습니다.<br/><br/>\n"
 "        강좌를 다시 듣고 싶으시다면 새로 등록하여 주세요!\n"
 "        </p><div style=\"margin: 16px 0px 16px 0px;\">\n"
 "            <a t-att-href=\"(object.slide_partner_id.channel_id.website_url)\" style=\"background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        안녕하세요, <t t-out=\"object.partner_id.name or 'participant' or "
 "''\">participant</t>님.<br/><br/>\n"
 "        안타깝게도 인증 시험에 통과하지 못하여 <t t-"
@@ -109,6 +130,9 @@ msgstr ""
 "            <a t-att-href=\"(object.slide_partner_id.channel_id.website_url)"
 "\" style=\"background-color: #875A7B; padding: 8px 16px 8px 16px; text-"
 "decoration: none; color: #fff; border-radius: 5px; font-size:13px;\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                지금 등록하기\n"
 "            </a>\n"
@@ -129,7 +153,13 @@ msgid ""
 "<i class=\"fa fa-download\" aria-label=\"Download certification\" "
 "title=\"Download Certification\"/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-download\" aria-label=\"인증서 다운로드\" title=\"인증서 다운로드\"/>"
+=======
+msgstr ""
+"<i class=\"fa fa-download\" aria-label=\"인증서 다운로드\" title=\"인증서 다"
+"운로드\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "<i class=\"fa fa-download\" aria-label=\"인증서 다운로드\" title=\"인증서 다"
@@ -149,17 +179,23 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.survey_fill_form_done_inherit_website_slides
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-share-alt\" aria-label=\"Share certification\" title=\"Share certification\"/>\n"
 "                        Share your certification"
 msgstr ""
 "<i class=\"fa fa-share-alt\" aria-label=\"인증서 공유하기\" title=\"인증서 공유하기\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "<i class=\"fa fa-share-alt\" aria-label=\"Share certification\" "
 "title=\"Share certification\"/>\n"
 "                        Share your certification"
 msgstr ""
 "<i class=\"fa fa-share-alt\" aria-label=\"인증서 공유하기\" title=\"인증서 공"
 "유하기\"/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                        인증서 공유하기"
 
@@ -211,14 +247,20 @@ msgstr "<span class=\"text-muted\">인증</span>"
 #. module: website_slides_survey
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.course_main
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<span>Start Now</span><i class=\"oi oi-chevron-right ms-2 align-middle\"/>"
 msgstr "<span>지금 시작하기</span><i class=\"oi oi-chevron-right ms-2 align-middle\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "<span>Start Now</span><i class=\"oi oi-chevron-right ms-2 align-middle\"/>"
 msgstr ""
 "<span>지금 시작하기</span><i class=\"oi oi-chevron-right ms-2 align-middle\"/"
 ">"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_slides_survey
@@ -259,7 +301,12 @@ msgstr "미리보기 허용"
 #: code:addons/website_slides_survey/models/survey_survey.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Any Survey listed below is currently used as a Course Certification and cannot be deleted:\n"
+=======
+"Any Survey listed below is currently used as a Course Certification and "
+"cannot be deleted:\n"
+>>>>>>> upstream/18.0
 =======
 "Any Survey listed below is currently used as a Course Certification and "
 "cannot be deleted:\n"
@@ -581,7 +628,13 @@ msgid ""
 "Select an existing certification from the list. Creating or editing a "
 "certification can be done from the backend."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "목록에서 기존 인증을 선택합니다. 백엔드에서 인증을 만들거나 편집할 수 있습니다."
+=======
+msgstr ""
+"목록에서 기존 인증을 선택합니다. 백엔드에서 인증을 만들거나 편집할 수 있습니"
+"다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "목록에서 기존 인증을 선택합니다. 백엔드에서 인증을 만들거나 편집할 수 있습니"
@@ -627,15 +680,21 @@ msgstr "구독자 정보"
 #: model:ir.model.fields,help:website_slides_survey.field_slide_slide__slide_type
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Subtype of the slide category, allows more precision on the actual file type"
 " / source type."
 msgstr "슬라이드 카테고리의 하위 유형으로, 실제 파일 / 소스 유형을 보다 정확하게 파악할 수 있습니다."
 =======
+=======
+>>>>>>> upstream/18.0
 "Subtype of the slide category, allows more precision on the actual file "
 "type / source type."
 msgstr ""
 "슬라이드 카테고리의 하위 유형으로, 실제 파일 / 소스 유형을 보다 정확하게 파악"
 "할 수 있습니다."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_slides_survey
@@ -687,6 +746,7 @@ msgid ""
 "The course is accessible by anyone : the users don't need to join the "
 "channel to access the content of the course."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "이 강좌는 누구나 접근할 수 있습니다. 사용자는 강좌 내용에 접근하기 위해 채널에 참여할 필요가 없습니다."
 
 #. module: website_slides_survey
@@ -694,6 +754,8 @@ msgstr "이 강좌는 누구나 접근할 수 있습니다. 사용자는 강좌 
 msgid ""
 "The courses this survey is linked to through the e-learning application"
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr ""
 "이 강좌는 누구나 접근할 수 있습니다. 사용자는 강좌 내용에 접근하기 위해 채널"
 "에 참여할 필요가 없습니다."
@@ -701,6 +763,9 @@ msgstr ""
 #. module: website_slides_survey
 #: model:ir.model.fields,help:website_slides_survey.field_survey_survey__slide_channel_ids
 msgid "The courses this survey is linked to through the e-learning application"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr "이 설문조사는 e-러닝 앱에 연결되어 있는 코스입니다."
 
@@ -745,12 +810,15 @@ msgstr "인증서를 연결할 수 없습니다."
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.badge_content
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can gain badges by passing certifications. Here is a list of all available certification badges.\n"
 "                            <br/>Follow the links to reach new heights and skill up!"
 msgstr ""
 "인증을 통과하면 배지가 부여됩니다. 사용 가능한 인증 배지 목록은 다음과 같습니다.\n"
 "                            <br/>링크를 클릭하여 새로운 지식과 기술을 습득해보세요!"
 =======
+=======
+>>>>>>> upstream/18.0
 "You can gain badges by passing certifications. Here is a list of all "
 "available certification badges.\n"
 "                            <br/>Follow the links to reach new heights and "
@@ -760,6 +828,9 @@ msgstr ""
 "다.\n"
 "                            <br/>링크를 클릭하여 새로운 지식과 기술을 습득해"
 "보세요!"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_slides_survey
@@ -767,7 +838,12 @@ msgstr ""
 msgid ""
 "You have failed the course: {{ object.slide_partner_id.channel_id.name }}"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "코스에 통과하지 못했습니다: {{ object.slide_partner_id.channel_id.name }}"
+=======
+msgstr ""
+"코스에 통과하지 못했습니다: {{ object.slide_partner_id.channel_id.name }}"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "코스에 통과하지 못했습니다: {{ object.slide_partner_id.channel_id.name }}"

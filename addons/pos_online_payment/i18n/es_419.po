@@ -2,22 +2,29 @@
 # This file contains the translation of the following modules:
 # 	* pos_online_payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Fernanda Alvarez, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Fernanda Alvarez, 2024
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -29,6 +36,8 @@ msgstr ""
 "Language: es_419\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Fernanda Alvarez, 2024\n"
@@ -40,6 +49,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
 "1 : 2;\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: pos_online_payment
@@ -50,8 +62,12 @@ msgstr "<strong>Error:</strong> Falta la moneda o no es válida."
 #. module: pos_online_payment
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pay_confirmation
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "<strong>Error:</strong> There was a problem during the payment process."
+=======
+msgid "<strong>Error:</strong> There was a problem during the payment process."
+>>>>>>> upstream/18.0
 =======
 msgid "<strong>Error:</strong> There was a problem during the payment process."
 >>>>>>> upstream/18.0
@@ -76,8 +92,12 @@ msgstr "Se debe especificar una opción de pago."
 #. odoo-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "A validation payment cannot be used for a Point of Sale online payment."
+=======
+msgid "A validation payment cannot be used for a Point of Sale online payment."
+>>>>>>> upstream/18.0
 =======
 msgid "A validation payment cannot be used for a Point of Sale online payment."
 >>>>>>> upstream/18.0
@@ -100,8 +120,13 @@ msgid ""
 msgstr ""
 "Todos los proveedores de pago que configure para un método de pago en línea "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "deben tener la misma divisa que el diario de ventas, la divisa de la empresa"
 " o, si eso no está configurado, la de la configuración del PdV."
+=======
+"deben tener la misma divisa que el diario de ventas, la divisa de la empresa "
+"o, si eso no está configurado, la de la configuración del PdV."
+>>>>>>> upstream/18.0
 =======
 "deben tener la misma divisa que el diario de ventas, la divisa de la empresa "
 "o, si eso no está configurado, la de la configuración del PdV."
@@ -407,8 +432,12 @@ msgstr "La orden no se guardó de manera correcta en el servidor."
 msgid "The partner of the POS online payment (id=%d) could not be found"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "El contacto del pago en línea del punto de venta (id=%d) no se pudo "
 "encontrar"
+=======
+"El contacto del pago en línea del punto de venta (id=%d) no se pudo encontrar"
+>>>>>>> upstream/18.0
 =======
 "El contacto del pago en línea del punto de venta (id=%d) no se pudo encontrar"
 >>>>>>> upstream/18.0

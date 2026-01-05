@@ -2,22 +2,29 @@
 # This file contains the translation of the following modules:
 # 	* stock_delivery
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2025
 # Rasareeyar Lappiam, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2025
 # Rasareeyar Lappiam, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
@@ -28,6 +35,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: th\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Rasareeyar Lappiam, 2025\n"
@@ -36,6 +45,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
 
@@ -125,8 +137,12 @@ msgstr "ยกเลิก"
 #: model_terms:ir.ui.view,arch_db:stock_delivery.view_picking_withcarrier_out_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Cancelling a delivery may not be undoable. Are you sure you want to "
 "continue?"
+=======
+"Cancelling a delivery may not be undoable. Are you sure you want to continue?"
+>>>>>>> upstream/18.0
 =======
 "Cancelling a delivery may not be undoable. Are you sure you want to continue?"
 >>>>>>> upstream/18.0
@@ -221,12 +237,15 @@ msgstr "แสดงลิงก์ติดตาม"
 #: model:ir.model.fields,help:stock_delivery.field_delivery_carrier__invoice_policy
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Estimated Cost: the customer will be invoiced the estimated cost of the shipping.\n"
 "Real Cost: the customer will be invoiced the real cost of the shipping, the cost of theshipping will be updated on the SO after the delivery."
 msgstr ""
 "ต้นทุนโดยประมาณ: ลูกค้าจะได้รับใบแจ้งหนี้ตามต้นทุนโดยประมาณของการจัดส่ง\n"
 "ต้นทุนจริง: ลูกค้าจะได้รับใบแจ้งหนี้ตามต้นทุนจริงของการจัดส่ง ต้นทุนของการจัดส่งจะได้รับการอัปเดตใน SO หลังการส่งมอบ"
 =======
+=======
+>>>>>>> upstream/18.0
 "Estimated Cost: the customer will be invoiced the estimated cost of the "
 "shipping.\n"
 "Real Cost: the customer will be invoiced the real cost of the shipping, the "
@@ -235,6 +254,9 @@ msgstr ""
 "ต้นทุนโดยประมาณ: ลูกค้าจะได้รับใบแจ้งหนี้ตามต้นทุนโดยประมาณของการจัดส่ง\n"
 "ต้นทุนจริง: ลูกค้าจะได้รับใบแจ้งหนี้ตามต้นทุนจริงของการจัดส่ง "
 "ต้นทุนของการจัดส่งจะได้รับการอัปเดตใน SO หลังการส่งมอบ"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock_delivery
@@ -388,11 +410,14 @@ msgstr "เส้นทาง"
 #: model:ir.model.fields,help:stock_delivery.field_product_template__country_of_origin
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Rules of origin determine where goods originate, i.e. not where they have been shipped from, but where they have been produced or manufactured.\n"
 "As such, the ‘origin’ is the 'economic nationality' of goods traded in commerce."
 msgstr ""
 "กฎของต้นกำเนิดสินค้าจะกำหนดแหล่งที่มาของสินค้า ซึ่งไม่ใช่แหล่งกำเนิดสินค้าโดยตรง แต่คือแหล่งผลิตหรือสถานที่ผลิต\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "Rules of origin determine where goods originate, i.e. not where they have "
 "been shipped from, but where they have been produced or manufactured.\n"
 "As such, the ‘origin’ is the 'economic nationality' of goods traded in "
@@ -400,6 +425,9 @@ msgstr ""
 msgstr ""
 "กฎของต้นกำเนิดสินค้าจะกำหนดแหล่งที่มาของสินค้า ซึ่งไม่ใช่แหล่งกำเนิดสินค้าโดยตรง "
 "แต่คือแหล่งผลิตหรือสถานที่ผลิต\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "ด้วยเหตุนี้ 'ต้นกำเนิด' จึงเป็น 'สัญชาติทางเศรษฐกิจ' ของสินค้าที่ซื้อขายในเชิงพาณิชย์"
 
@@ -433,17 +461,23 @@ msgstr "ส่งไปยังผู้จัดส่ง"
 #: code:addons/stock_delivery/models/stock_picking.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Shipment sent to carrier %(carrier_name)s for shipping with tracking number "
 "%(ref)s"
 msgstr ""
 "การจัดส่งที่ส่งไปยังผู้ให้บริการขนส่ง %(carrier_name)s "
 "สำหรับการจัดส่งโดยมีหมายเลขติดตาม %(ref)s"
 =======
+=======
+>>>>>>> upstream/18.0
 "Shipment sent to carrier %(carrier_name)s for shipping with tracking number %"
 "(ref)s"
 msgstr ""
 "การจัดส่งที่ส่งไปยังผู้ให้บริการขนส่ง %(carrier_name)s สำหรับการจัดส่งโดยมีหมายเลขติดตาม %"
 "(ref)s"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock_delivery
@@ -515,9 +549,13 @@ msgid ""
 "The package cannot be created because the total weight of the products in "
 "the picking is 0.0 %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "ไม่สามารถสร้างบรรจุภัณฑ์ได้ เนื่องจากน้ำหนักรวมของสินค้าในการเบิกสินค้าคือ "
 "0.0 %s"
+=======
+msgstr "ไม่สามารถสร้างบรรจุภัณฑ์ได้ เนื่องจากน้ำหนักรวมของสินค้าในการเบิกสินค้าคือ 0.0 %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "ไม่สามารถสร้างบรรจุภัณฑ์ได้ เนื่องจากน้ำหนักรวมของสินค้าในการเบิกสินค้าคือ 0.0 %s"
 >>>>>>> upstream/18.0
@@ -536,8 +574,13 @@ msgid ""
 "this package type. Please choose another package type."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "น้ำหนักของบรรจุภัณฑ์คุณสูงกว่าน้ำหนักสูงสุดที่อนุญาตสำหรับบรรจุภัณฑ์ประเภทนี้"
 " โปรดเลือกประเภทบรรจุภัณฑ์อื่น"
+=======
+"น้ำหนักของบรรจุภัณฑ์คุณสูงกว่าน้ำหนักสูงสุดที่อนุญาตสำหรับบรรจุภัณฑ์ประเภทนี้ "
+"โปรดเลือกประเภทบรรจุภัณฑ์อื่น"
+>>>>>>> upstream/18.0
 =======
 "น้ำหนักของบรรจุภัณฑ์คุณสูงกว่าน้ำหนักสูงสุดที่อนุญาตสำหรับบรรจุภัณฑ์ประเภทนี้ "
 "โปรดเลือกประเภทบรรจุภัณฑ์อื่น"
@@ -626,16 +669,22 @@ msgstr "น้ำหนัก:"
 msgid ""
 "You cannot pack products into the same package when they have different "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "carriers (i.e. check that all of their transfers have a carrier assigned and"
 " are using the same carrier)."
 msgstr ""
 "คุณไม่สามารถบรรจุผลิตภัณฑ์ลงในบรรจุภัณฑ์เดียวกันได้เมื่อมีผู้ให้บริการขนส่งที่แตกต่างกัน"
 " (เช่น "
 =======
+=======
+>>>>>>> upstream/18.0
 "carriers (i.e. check that all of their transfers have a carrier assigned and "
 "are using the same carrier)."
 msgstr ""
 "คุณไม่สามารถบรรจุผลิตภัณฑ์ลงในบรรจุภัณฑ์เดียวกันได้เมื่อมีผู้ให้บริการขนส่งที่แตกต่างกัน (เช่น "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "ตรวจสอบว่าการขนส่งทั้งหมดมีผู้ให้บริการที่กำหนดและใช้ผู้ให้บริการรายเดียวกัน)"
 
@@ -651,8 +700,12 @@ msgid ""
 "Your delivery method has no redirect on courier provider's website to track "
 "this order."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "วิธีการจัดส่งของคุณไม่มีการเปลี่ยนเส้นทางบนเว็บไซต์ของผู้ให้บริการจัดส่งเพื่อติดตามคำสั่งนี้"
+=======
+msgstr "วิธีการจัดส่งของคุณไม่มีการเปลี่ยนเส้นทางบนเว็บไซต์ของผู้ให้บริการจัดส่งเพื่อติดตามคำสั่งนี้"
+>>>>>>> upstream/18.0
 =======
 msgstr "วิธีการจัดส่งของคุณไม่มีการเปลี่ยนเส้นทางบนเว็บไซต์ของผู้ให้บริการจัดส่งเพื่อติดตามคำสั่งนี้"
 >>>>>>> upstream/18.0

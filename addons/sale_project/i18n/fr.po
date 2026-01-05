@@ -82,6 +82,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sale_project
 # 
 # Translators:
@@ -691,6 +692,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * sale_project
 #
 # Translators:
@@ -779,6 +782,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -946,6 +952,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1730,6 +1737,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-10-14 12:39+0000\n"
 "Last-Translator: \"Manon Rondou (ronm)\" <ronm@odoo.com>\n"
 "Language-Team: French <https://translate.odoo.com/projects/odoo-18/"
@@ -1822,6 +1832,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1995,7 +2008,12 @@ msgid ""
 "                    No milestones found. Let's create one!\n"
 "                </p><p>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    Track major progress points that must be reached to achieve success.\n"
+=======
+"                    Track major progress points that must be reached to "
+"achieve success.\n"
+>>>>>>> upstream/18.0
 =======
 "                    Track major progress points that must be reached to "
 "achieve success.\n"
@@ -2008,7 +2026,12 @@ msgstr ""
 "                    Aucuns jalons trouvés. Créons-en un!\n"
 "                </p><p>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    Suivez les points de progression majeurs qui doivent être atteints afin de réussir.\n"
+=======
+"                    Suivez les points de progression majeurs qui doivent "
+"être atteints afin de réussir.\n"
+>>>>>>> upstream/18.0
 =======
 "                    Suivez les points de progression majeurs qui doivent "
 "être atteints afin de réussir.\n"
@@ -2053,8 +2076,13 @@ msgid ""
 msgstr ""
 "<span class=\"fa fa-exclamation-triangle text-warning\" title=\"La commande "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "client associé à cette tâche a été annulé. Nous vous conseillons de mettre à"
 " jour l'article de commande ou d'annuler cette tâche en même temps que "
+=======
+"client associé à cette tâche a été annulé. Nous vous conseillons de mettre à "
+"jour l'article de commande ou d'annuler cette tâche en même temps que "
+>>>>>>> upstream/18.0
 =======
 "client associé à cette tâche a été annulé. Nous vous conseillons de mettre à "
 "jour l'article de commande ou d'annuler cette tâche en même temps que "
@@ -2066,7 +2094,12 @@ msgstr ""
 msgid ""
 "<span class=\"o_stat_text\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <span class=\"o_stat_value\">0</span> Sales Order\n"
+=======
+"                            <span class=\"o_stat_value\">0</span> Sales "
+"Order\n"
+>>>>>>> upstream/18.0
 =======
 "                            <span class=\"o_stat_value\">0</span> Sales "
 "Order\n"
@@ -2078,7 +2111,12 @@ msgid ""
 msgstr ""
 "<span class=\"o_stat_text\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <span class=\"o_stat_value\">0</span> Commande(s)\n"
+=======
+"                            <span class=\"o_stat_value\">0</span> "
+"Commande(s)\n"
+>>>>>>> upstream/18.0
 =======
 "                            <span class=\"o_stat_value\">0</span> "
 "Commande(s)\n"
@@ -2130,12 +2168,15 @@ msgstr "<span>)</span>"
 #: code:addons/sale_project/models/sale_order_line.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A project must be defined on the quotation %(order)s or on the form of products creating a task on order.\n"
 "The following product need a project in which to put its task: %(product_name)s"
 msgstr ""
 "Un projet doit être défini sur le devis %(order)s ou sur le formulaire des produits créant une tâche lors de la commande.\n"
 "Le produit suivant nécessite un projet dans lequel enregistrer sa tâche : %(product_name)s"
 =======
+=======
+>>>>>>> upstream/18.0
 "A project must be defined on the quotation %(order)s or on the form of "
 "products creating a task on order.\n"
 "The following product need a project in which to put its task: %"
@@ -2145,6 +2186,9 @@ msgstr ""
 "produits créant une tâche lors de la commande.\n"
 "Le produit suivant nécessite un projet dans lequel enregistrer sa tâche : %"
 "(product_name)s"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale_project
@@ -2161,6 +2205,7 @@ msgstr ""
 #. module: sale_project
 #: model:ir.model.fields,help:sale_project.field_sale_order_line__qty_delivered_method
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "According to product configuration, the delivered quantity can be automatically computed by mechanism:\n"
 "  - Manual: the quantity is set manually on the line\n"
@@ -2893,6 +2938,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 "- Feuille de temps : la quantité est la somme des heures enregistrées sur les tâches liées à cette commande\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "According to product configuration, the delivered quantity can be "
 "automatically computed by mechanism:\n"
 "  - Manual: the quantity is set manually on the line\n"
@@ -2909,6 +2956,9 @@ msgstr ""
 "comptabilisées\n"
 "- Feuille de temps : la quantité est la somme des heures enregistrées sur "
 "les tâches liées à cette commande\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "- Mouvements de stock : la quantité provient des transferts confirmés\n"
 
@@ -3112,7 +3162,10 @@ msgstr "Paramètres de configuration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3626,6 +3679,7 @@ msgstr "Coûts des marchandises vendues"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3668,6 +3722,8 @@ msgstr "Coûts des marchandises vendues"
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4118,6 +4174,9 @@ msgstr "Coût des marchandises vendues"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4477,8 +4536,13 @@ msgid ""
 "your vendors."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Créez des factures, enregistrez des paiements et suivez les discussions avec"
 " vos fournisseurs."
+=======
+"Créez des factures, enregistrez des paiements et suivez les discussions avec "
+"vos fournisseurs."
+>>>>>>> upstream/18.0
 =======
 "Créez des factures, enregistrez des paiements et suivez les discussions avec "
 "vos fournisseurs."
@@ -4595,6 +4659,7 @@ msgstr "Politique de facturation"
 #. module: sale_project
 #: model:ir.model,name:sale_project.model_account_move
 msgid "Journal Entry"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4924,6 +4989,9 @@ msgstr "Écriture comptable"
 =======
 msgstr "Écriture comptable"
 >>>>>>> upstream/18.0
+=======
+msgstr "Écriture comptable"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:ir.model,name:sale_project.model_account_move_line
@@ -4941,6 +5009,7 @@ msgstr "Charger plus"
 #: model:ir.model.fields,help:sale_project.field_product_template__service_type
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Manually set quantities on order: Invoice based on the manually entered quantity, without creating an analytic account.\n"
 "Timesheets on contract: Invoice based on the tracked hours on the related timesheet.\n"
 "Create a task and track hours: Create a task on the sales order validation and track the work hours."
@@ -4949,6 +5018,8 @@ msgstr ""
 "Feuilles de temps sur les contrats : facture basée sur les heures trackées sur la feuille de temps liée.\n"
 "Créer une tâche et suivre les heures : créer une tâche à la validation de la commande et effectuer un suivi du temps passé."
 =======
+=======
+>>>>>>> upstream/18.0
 "Manually set quantities on order: Invoice based on the manually entered "
 "quantity, without creating an analytic account.\n"
 "Timesheets on contract: Invoice based on the tracked hours on the related "
@@ -4962,6 +5033,9 @@ msgstr ""
 "sur la feuille de temps liée.\n"
 "Créer une tâche et suivre les heures : créer une tâche à la validation de la "
 "commande et effectuer un suivi du temps passé."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale_project
@@ -5029,8 +5103,13 @@ msgstr "Peinture"
 #: model:ir.model.fields,help:sale_project.field_project_milestone__quantity_percentage
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Percentage of the ordered quantity that will automatically be delivered once"
 " the milestone is reached."
+=======
+"Percentage of the ordered quantity that will automatically be delivered once "
+"the milestone is reached."
+>>>>>>> upstream/18.0
 =======
 "Percentage of the ordered quantity that will automatically be delivered once "
 "the milestone is reached."
@@ -5046,6 +5125,7 @@ msgstr "Services de plomberie"
 
 #. module: sale_project
 #. odoo-python
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5289,6 +5369,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5739,6 +5821,9 @@ msgstr "Commande client portail"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6055,6 +6140,7 @@ msgstr "Variante de produit"
 msgid ""
 "Products added to stock pickings, whose operation type is configured to "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "generate analytic costs, will be re-invoiced in this sales order if they are"
 " set up for it."
 msgstr ""
@@ -6062,12 +6148,17 @@ msgstr ""
 "configuré pour générer des coûts analytiques, seront facturés à nouveau dans"
 " cette commande client si cela est prévu."
 =======
+=======
+>>>>>>> upstream/18.0
 "generate analytic costs, will be re-invoiced in this sales order if they are "
 "set up for it."
 msgstr ""
 "Les produits ajoutés aux transferts de stock, dont le type d'opération est "
 "configuré pour générer des coûts analytiques, seront facturés à nouveau dans "
 "cette commande client si cela est prévu."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale_project
@@ -6178,6 +6269,7 @@ msgstr ""
 #: model:ir.model.fields,help:sale_project.field_project_task__sale_line_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Sales Order Item to which the time spent on this task will be added in order to be invoiced to your customer.\n"
 "By default the sales order item set on the project will be selected. In the absence of one, the last prepaid sales order item that has time remaining will be used.\n"
 "Remove the sales order item in order to make this task non billable. You can also change or remove the sales order item of each timesheet entry individually."
@@ -6186,6 +6278,8 @@ msgstr ""
 "Par défaut, l'article de la commande client défini sur le projet sera sélectionné. En son absence, le dernier article de la commande client prépayé qui a encore du temps sera utilisé.\n"
 "Supprimez l'article de la commande client afin de rendre cette tâche non facturable. Vous pouvez également modifier ou supprimer l'article de la commande client de chaque entrée de feuille de temps individuellement."
 =======
+=======
+>>>>>>> upstream/18.0
 "Sales Order Item to which the time spent on this task will be added in order "
 "to be invoiced to your customer.\n"
 "By default the sales order item set on the project will be selected. In the "
@@ -6203,6 +6297,9 @@ msgstr ""
 "Supprimez l'article de la commande client afin de rendre cette tâche non "
 "facturable. Vous pouvez également modifier ou supprimer l'article de la "
 "commande client de chaque entrée de feuille de temps individuellement."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale_project
@@ -6230,12 +6327,15 @@ msgstr "Commandes clients"
 #: model:ir.model.fields,help:sale_project.field_project_project__sale_line_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Sales order item that will be selected by default on the tasks and timesheets of this project, except if the employee set on the timesheets is explicitely linked to another sales order item on the project.\n"
 "It can be modified on each task and timesheet entry individually if necessary."
 msgstr ""
 "Article de la commande client qui sera sélectionné par défaut sur les tâches et feuilles de temps de ce projet, sauf si l'employé renseigné sur les feuilles de temps est explicitement lié à un article de la commande client sur le projet.\n"
 "Il peut être modifié sur chaque tâche et entrée de feuille de temps individuellement si nécessaire."
 =======
+=======
+>>>>>>> upstream/18.0
 "Sales order item that will be selected by default on the tasks and "
 "timesheets of this project, except if the employee set on the timesheets is "
 "explicitely linked to another sales order item on the project.\n"
@@ -6248,6 +6348,9 @@ msgstr ""
 "sur le projet.\n"
 "Il peut être modifié sur chaque tâche et entrée de feuille de temps "
 "individuellement si nécessaire."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale_project
@@ -6355,8 +6458,13 @@ msgid ""
 "task in a global project."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Le produit %s ne devrait pas avoir de modèle de projet car il va générer une"
 " tâche dans un projet global."
+=======
+"Le produit %s ne devrait pas avoir de modèle de projet car il va générer une "
+"tâche dans un projet global."
+>>>>>>> upstream/18.0
 =======
 "Le produit %s ne devrait pas avoir de modèle de projet car il va générer une "
 "tâche dans un projet global."
@@ -6370,8 +6478,13 @@ msgid ""
 "already linked to a project, or doesn't involve any services."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Impossible de créer le projet, car la commande doit être confirmée, est déjà"
 " associée à un projet ou n'implique pas de services."
+=======
+"Impossible de créer le projet, car la commande doit être confirmée, est déjà "
+"associée à un projet ou n'implique pas de services."
+>>>>>>> upstream/18.0
 =======
 "Impossible de créer le projet, car la commande doit être confirmée, est déjà "
 "associée à un projet ou n'implique pas de services."
@@ -6436,6 +6549,7 @@ msgid ""
 "You cannot link the order item %(order_id)s - %(product_id)s to this task "
 "because it is a re-invoiced expense."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "Vous ne pouvez pas lier la ligne de la commande %(order_id)s - "
 <<<<<<< HEAD
@@ -7158,6 +7272,10 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "%(product_id)s à cette tâche car il s'agit d'une dépense refacturée."
+>>>>>>> upstream/18.0
+=======
+"Vous ne pouvez pas lier la ligne de la commande %(order_id)s - %"
+"(product_id)s à cette tâche car il s'agit d'une dépense refacturée."
 >>>>>>> upstream/18.0
 =======
 "Vous ne pouvez pas lier la ligne de la commande %(order_id)s - %"

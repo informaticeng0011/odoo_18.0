@@ -2,7 +2,11 @@
 # This file contains the translation of the following modules:
 # 	* purchase_requisition
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -28,7 +32,11 @@
 # Martin Trigaux, 2024
 # Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -36,6 +44,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -46,6 +55,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: fi\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2025\n"
@@ -54,6 +65,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -361,6 +375,7 @@ msgstr "Luo vaihtoehto"
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.purchase_order_form_inherit
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Create a call for tender by adding alternative requests for quotation to different vendors.\n"
 "                            Make your choice by selecting the best combination of lead time, OTD and/or total amount.\n"
 "                            By comparing product lines you can also decide to order some products from one vendor and others from another vendor."
@@ -369,6 +384,8 @@ msgstr ""
 "                            Tee valintasi valitsemalla paras yhdistelmä läpimenoajasta, OTD:stä ja/tai kokonaissummasta.\n"
 "                            Vertailemalla tuotelinjoja voit myös päättää tilata joitakin tuotteita yhdeltä toimittajalta ja toisia tuotteita toiselta toimittajalta."
 =======
+=======
+>>>>>>> upstream/18.0
 "Create a call for tender by adding alternative requests for quotation to "
 "different vendors.\n"
 "                            Make your choice by selecting the best "
@@ -383,6 +400,9 @@ msgstr ""
 "                            Vertailemalla tuotelinjoja voit myös päättää "
 "tilata joitakin tuotteita yhdeltä toimittajalta ja toisia tuotteita toiselta "
 "toimittajalta."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: purchase_requisition
@@ -505,12 +525,15 @@ msgstr "Font awesome -ikoni esim.. fa-tasks"
 msgid ""
 "For a blanket order, you can record an agreement for a specific period\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            (e.g. a year) and you order products within this agreement to benefit\n"
 "            from the negotiated prices."
 msgstr ""
 "Yleistilausta varten voit kirjata sopimuksen tietyksi ajanjaksoksi\n"
 "            (esim. vuosi) ja tilaat tuotteita tämän sopimuksen puitteissa hyötyäksesi siinä\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            (e.g. a year) and you order products within this agreement to "
 "benefit\n"
 "            from the negotiated prices."
@@ -518,6 +541,9 @@ msgstr ""
 "Yleistilausta varten voit kirjata sopimuksen tietyksi ajanjaksoksi\n"
 "            (esim. vuosi) ja tilaat tuotteita tämän sopimuksen puitteissa "
 "hyötyäksesi siinä\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            neuvotelluista hinnoista."
 
@@ -578,6 +604,7 @@ msgstr "Jos valittu, joitakin viestejä ei ole toimitettu."
 msgid ""
 "If the chosen vendor or if any of the products in the original PO have a "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "blocking warning then we prevent creation of alternative PO. This is because"
 " normally these fields are cleared w/warning message within form view, but "
 "we cannot recreate that in this case."
@@ -587,6 +614,8 @@ msgstr ""
 "siitä, että normaalisti nämä kentät tyhjennetään varoitusviestillä lomakkeen"
 " näkymässä, mutta emme voi luoda sitä uudelleen tässä tapauksessa."
 =======
+=======
+>>>>>>> upstream/18.0
 "blocking warning then we prevent creation of alternative PO. This is because "
 "normally these fields are cleared w/warning message within form view, but we "
 "cannot recreate that in this case."
@@ -595,6 +624,9 @@ msgstr ""
 "on estovaroitus, estämme vaihtoehtoisen tilauksen luomisen. Tämä johtuu "
 "siitä, että normaalisti nämä kentät tyhjennetään varoitusviestillä lomakkeen "
 "näkymässä, mutta emme voi luoda sitä uudelleen tässä tapauksessa."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: purchase_requisition
@@ -1037,8 +1069,12 @@ msgstr "Toimitusehdot"
 #: model:ir.model.fields,help:purchase_requisition.field_purchase_requisition_create_alternative__origin_po_id
 msgid "The original PO that this alternative PO is being created for."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Alkuperäinen ostotilaus, jolle tämä vaihtoehtoinen ostotilaus luodaan."
+=======
+msgstr "Alkuperäinen ostotilaus, jolle tämä vaihtoehtoinen ostotilaus luodaan."
+>>>>>>> upstream/18.0
 =======
 msgstr "Alkuperäinen ostotilaus, jolle tämä vaihtoehtoinen ostotilaus luodaan."
 >>>>>>> upstream/18.0
@@ -1048,9 +1084,15 @@ msgstr "Alkuperäinen ostotilaus, jolle tämä vaihtoehtoinen ostotilaus luodaan
 #: code:addons/purchase_requisition/wizard/purchase_requisition_create_alternative.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The vendor you have selected or at least one of the products you are copying"
 " from the original order has a blocking warning on it and cannot be selected"
 " to create an alternative."
+=======
+"The vendor you have selected or at least one of the products you are copying "
+"from the original order has a blocking warning on it and cannot be selected "
+"to create an alternative."
+>>>>>>> upstream/18.0
 =======
 "The vendor you have selected or at least one of the products you are copying "
 "from the original order has a blocking warning on it and cannot be selected "
@@ -1091,12 +1133,15 @@ msgid ""
 "To close this purchase requisition, cancel related Requests for Quotation.\n"
 "\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Imagine the mess if someone confirms these duplicates: double the order, double the trouble :)"
 msgstr ""
 "Jos haluat sulkea tämän ostopyynnön, peruuta siihen liittyvät tarjouspyynnöt.\n"
 "\n"
 "Kuvittele, millainen sotku syntyy, jos joku vahvistaa päällekkäiset tilaukset - kaksinkertainen tilaus, kaksinkertainen vaiva"
 =======
+=======
+>>>>>>> upstream/18.0
 "Imagine the mess if someone confirms these duplicates: double the order, "
 "double the trouble :)"
 msgstr ""
@@ -1105,6 +1150,9 @@ msgstr ""
 "\n"
 "Kuvittele, millainen sotku syntyy, jos joku vahvistaa päällekkäiset "
 "tilaukset - kaksinkertainen tilaus, kaksinkertainen vaiva"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: purchase_requisition
@@ -1197,8 +1245,13 @@ msgstr "Entä vaihtoehtoiset tarjouspyynnöt?"
 #: model:ir.model.fields,help:purchase_requisition.field_purchase_order__has_alternatives
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Whether or not this purchase order is linked to another purchase order as an"
 " alternative."
+=======
+"Whether or not this purchase order is linked to another purchase order as an "
+"alternative."
+>>>>>>> upstream/18.0
 =======
 "Whether or not this purchase order is linked to another purchase order as an "
 "alternative."
@@ -1250,8 +1303,13 @@ msgstr "Et voi vahvistaa yleistilausta, jonka riveiltä puuttuu määrä."
 #: code:addons/purchase_requisition/models/purchase_requisition.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot confirm agreement '%(agreement)s' because it does not contain any"
 " product lines."
+=======
+"You cannot confirm agreement '%(agreement)s' because it does not contain any "
+"product lines."
+>>>>>>> upstream/18.0
 =======
 "You cannot confirm agreement '%(agreement)s' because it does not contain any "
 "product lines."

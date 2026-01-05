@@ -2,22 +2,29 @@
 # This file contains the translation of the following modules:
 # 	* base_sparse_field
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Manon Rondou, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Manon Rondou, 2024
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -29,6 +36,8 @@ msgstr ""
 "Language: fr\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Manon Rondou, 2024\n"
@@ -39,6 +48,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
 "1000000 == 0 ? 1 : 2;\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_sparse_field
@@ -56,7 +68,12 @@ msgstr "Booléen"
 #: code:addons/base_sparse_field/models/models.py:0
 msgid "Changing the storing system for field \"%s\" is not allowed."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Changer le système de stockage pour le champ \"%s\" n'est pas autorisé."
+=======
+msgstr ""
+"Changer le système de stockage pour le champ \"%s\" n'est pas autorisé."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Changer le système de stockage pour le champ \"%s\" n'est pas autorisé."
@@ -116,8 +133,13 @@ msgid ""
 msgstr ""
 "L'activation de cette option indique que ce champ sera stocké dans la "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "structure de sérialisation \"creuse\", plutôt que d'avoir une colonne dédiée"
 " dans la base de données. On ne peut pas changer cette option après la "
+=======
+"structure de sérialisation \"creuse\", plutôt que d'avoir une colonne dédiée "
+"dans la base de données. On ne peut pas changer cette option après la "
+>>>>>>> upstream/18.0
 =======
 "structure de sérialisation \"creuse\", plutôt que d'avoir une colonne dédiée "
 "dans la base de données. On ne peut pas changer cette option après la "
@@ -170,8 +192,13 @@ msgstr "Champ de sérialisation"
 #: code:addons/base_sparse_field/models/models.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Serialization field \"%(serialization_field)s\" not found for sparse field "
 "%(sparse_field)s!"
+=======
+"Serialization field \"%(serialization_field)s\" not found for sparse field %"
+"(sparse_field)s!"
+>>>>>>> upstream/18.0
 =======
 "Serialization field \"%(serialization_field)s\" not found for sparse field %"
 "(sparse_field)s!"

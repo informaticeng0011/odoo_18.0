@@ -2,22 +2,29 @@
 # This file contains the translation of the following modules:
 # 	* hr_work_entry_contract
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2024
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -28,6 +35,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: nl\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2024\n"
@@ -36,6 +45,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -47,16 +59,22 @@ msgid ""
 "        Defines the source for work entries generation\n"
 "\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Working Schedule: Work entries will be generated from the working hours below.\n"
 "        Attendances: Work entries will be generated from the employee's attendances. (requires Attendance app)\n"
 "        Planning: Work entries will be generated from the employee's planning. (requires Planning app)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        Working Schedule: Work entries will be generated from the working "
 "hours below.\n"
 "        Attendances: Work entries will be generated from the employee's "
 "attendances. (requires Attendance app)\n"
 "        Planning: Work entries will be generated from the employee's "
 "planning. (requires Planning app)\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "    "
 msgstr ""
@@ -64,16 +82,22 @@ msgstr ""
 "        Bepaalt de bron voor de werkboekinggeneratie\n"
 "\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Werkschema: Werkboekingen worden gegenereerd voor onderstaande werkuren.\n"
 "        Aanwezigheden: Werkboekingen worden gegenereerd op basis van de werknemer's aanwezigheden (Aanwezigheden app vereist)\n"
 "        Planning: Werkboekingen worden gegenereerd op basis van de werknemer's planning (Planning app vereist)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        Werkschema: Werkboekingen worden gegenereerd voor onderstaande "
 "werkuren.\n"
 "        Aanwezigheden: Werkboekingen worden gegenereerd op basis van de "
 "werknemer's aanwezigheden (Aanwezigheden app vereist)\n"
 "        Planning: Werkboekingen worden gegenereerd op basis van de "
 "werknemer's planning (Planning app vereist)\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "    "
 
@@ -92,8 +116,13 @@ msgid ""
 "work entry cannot overlap multiple contracts."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "%(employee)s hheeft meerdere contracten van %(date_start)s t/m %(date_end)s."
 " Een werkboeking mag niet meerdere contracten overlappen."
+=======
+"%(employee)s hheeft meerdere contracten van %(date_start)s t/m %(date_end)s. "
+"Een werkboeking mag niet meerdere contracten overlappen."
+>>>>>>> upstream/18.0
 =======
 "%(employee)s hheeft meerdere contracten van %(date_start)s t/m %(date_end)s. "
 "Een werkboeking mag niet meerdere contracten overlappen."
@@ -249,6 +278,7 @@ msgstr "ID"
 #: code:addons/hr_work_entry_contract/wizard/hr_work_entry_regeneration_wizard.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In order to regenerate the work entries, you need to provide the wizard with"
 " an employee_id, a date_from and a date_to. In addition to that, the time "
 "interval defined by date_from and date_to must not contain any validated "
@@ -257,6 +287,8 @@ msgstr ""
 "Om de werkboekingen opnieuw te genereren, moet je de wizard voorzien van een"
 " employee_id, een date_from en een date_to. Daarnaast mag het tijdsinterval "
 =======
+=======
+>>>>>>> upstream/18.0
 "In order to regenerate the work entries, you need to provide the wizard with "
 "an employee_id, a date_from and a date_to. In addition to that, the time "
 "interval defined by date_from and date_to must not contain any validated "
@@ -264,6 +296,9 @@ msgstr ""
 msgstr ""
 "Om de werkboekingen opnieuw te genereren, moet je de wizard voorzien van een "
 "employee_id, een date_from en een date_to. Daarnaast mag het tijdsinterval "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "gedefinieerd door date_from en date_to geen gevalideerde werkboekingen "
 "bevatten."
@@ -345,8 +380,12 @@ msgstr "Ziekteverlof"
 #. odoo-python
 #: code:addons/hr_work_entry_contract/models/hr_contract.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Sorry, generating work entries from cancelled contracts is not allowed."
+=======
+msgid "Sorry, generating work entries from cancelled contracts is not allowed."
+>>>>>>> upstream/18.0
 =======
 msgid "Sorry, generating work entries from cancelled contracts is not allowed."
 >>>>>>> upstream/18.0

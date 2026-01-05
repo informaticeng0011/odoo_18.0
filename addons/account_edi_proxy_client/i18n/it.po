@@ -2,6 +2,7 @@
 # This file contains the translation of the following modules:
 # 	* account_edi_proxy_client
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -464,17 +465,23 @@
 >>>>>>> upstream/18.0
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Marianna Ciofani, 2025
 # Sergio Zanchetta <primes2h@gmail.com>, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2025-03-19 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -942,6 +949,8 @@ msgstr ""
 "Language: it\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
@@ -952,6 +961,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
 "1 : 2;\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_edi_proxy_client
@@ -962,8 +974,13 @@ msgid ""
 "your information."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Sul nostro server, esiste già un utente con queste credenziali. Controlla le"
 " tue informazioni."
+=======
+"Sul nostro server, esiste già un utente con queste credenziali. Controlla le "
+"tue informazioni."
+>>>>>>> upstream/18.0
 =======
 "Sul nostro server, esiste già un utente con queste credenziali. Controlla le "
 "tue informazioni."
@@ -1042,6 +1059,7 @@ msgstr "Modalità di funzionamento EDI"
 #. module: account_edi_proxy_client
 #: model:ir.model.fields,field_description:account_edi_proxy_client.field_account_edi_proxy_client_user__edi_identification
 msgid "Edi Identification"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1503,6 +1521,9 @@ msgstr "Identificativo EDI"
 =======
 msgstr "Identificativo EDI"
 >>>>>>> upstream/18.0
+=======
+msgstr "Identificativo EDI"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_proxy_client
 #: model:ir.model.fields,field_description:account_edi_proxy_client.field_account_edi_proxy_client_user__id
@@ -1519,12 +1540,15 @@ msgstr "ID Cliente"
 #: code:addons/account_edi_proxy_client/models/account_edi_proxy_user.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Invalid signature for request. This might be due to another connection to odoo Access Point server. It can occur if you have duplicated your database. \n"
 "\n"
 "If you are not sure how to fix this, please contact our support."
 msgstr ""
 "Firma non valida per la richiesta. Potrebbe essere dovuto a un'altra connessione al server del punto di accesso di Odoo. Può succedere se hai duplicato il tuo database. \n"
 =======
+=======
+>>>>>>> upstream/18.0
 "Invalid signature for request. This might be due to another connection to "
 "odoo Access Point server. It can occur if you have duplicated your "
 "database. \n"
@@ -1534,6 +1558,9 @@ msgstr ""
 "Firma non valida per la richiesta. Potrebbe essere dovuto a un'altra "
 "connessione al server del punto di accesso di Odoo. Può succedere se hai "
 "duplicato il tuo database. \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "\n"
 "Se non sai come sistemarlo, contatta il supporto."
@@ -1576,6 +1603,7 @@ msgstr "Modalità di prova"
 #. module: account_edi_proxy_client
 #: model:ir.model.fields,help:account_edi_proxy_client.field_account_edi_proxy_client_user__private_key_id
 msgid "The key to encrypt all the user's data"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2037,6 +2065,9 @@ msgstr "La chiave per cifrare tutti i dati dell'utente"
 =======
 msgstr "La chiave per cifrare tutti i dati dell'utente"
 >>>>>>> upstream/18.0
+=======
+msgstr "La chiave per cifrare tutti i dati dell'utente"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_proxy_client
 #: model:ir.model.fields,help:account_edi_proxy_client.field_account_edi_proxy_client_user__edi_identification
@@ -2051,8 +2082,13 @@ msgid ""
 "contact was %(url)s. %(error_message)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "L'URL richiesto dal servizio ha restituito un errore. URL richiesto %(url)s."
 " %(error_message)s"
+=======
+"L'URL richiesto dal servizio ha restituito un errore. URL richiesto %(url)s. "
+"%(error_message)s"
+>>>>>>> upstream/18.0
 =======
 "L'URL richiesto dal servizio ha restituito un errore. URL richiesto %(url)s. "
 "%(error_message)s"
@@ -2180,8 +2216,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "L'url richiesto da questo servizio ha restituito un errore. L'url che ha "
 "cercato di contattare era %s"
+=======
+"L'URL richiesto dal servizio ha restituito un errore. URL richiesto: %s"
+>>>>>>> upstream/18.0
 =======
 "L'URL richiesto dal servizio ha restituito un errore. URL richiesto: %s"
 >>>>>>> upstream/18.0

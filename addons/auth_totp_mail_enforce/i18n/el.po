@@ -2,7 +2,11 @@
 # This file contains the translation of the following modules:
 # 	* auth_totp_mail_enforce
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -11,7 +15,11 @@
 # Kostas Goutoudis <goutoudis@gmail.com>, 2024
 # Martin Trigaux, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -19,6 +27,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -29,6 +38,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: el\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Martin Trigaux, 2024\n"
@@ -37,6 +48,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -56,6 +70,7 @@ msgid ""
 "    <ul>\n"
 "        <t t-set=\"not_available\">N/A</t>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <li>Location: <t t-out=\"ctx.get('location') or not_available\"/></li>\n"
 "        <li>Device: <t t-out=\"ctx.get('device') or not_available\"/></li>\n"
 "        <li>Browser: <t t-out=\"ctx.get('browser') or not_available\"/></li>\n"
@@ -63,6 +78,8 @@ msgid ""
 "    </ul>\n"
 "    <p>If this is you, please enter the following code to complete the login:</p>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        <li>Location: <t t-out=\"ctx.get('location') or not_available\"/></"
 "li>\n"
 "        <li>Device: <t t-out=\"ctx.get('device') or not_available\"/></li>\n"
@@ -72,11 +89,15 @@ msgid ""
 "    </ul>\n"
 "    <p>If this is you, please enter the following code to complete the login:"
 "</p>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "    <t t-set=\"code_expiration\" t-value=\"object._get_totp_mail_code()\"/>\n"
 "    <t t-set=\"code\" t-value=\"code_expiration[0]\"/>\n"
 "    <t t-set=\"expiration\" t-value=\"code_expiration[1]\"/>\n"
 "    <div style=\"margin: 16px 0px 16px 0px; text-align: center;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "        <span t-out=\"code\" style=\"background-color:#faf9fa; border: 1px solid #dad8de; padding: 8px 16px 8px 16px; font-size: 24px; color: #875A7B; border-radius: 5px;\"/>\n"
 "    </div>\n"
@@ -94,6 +115,8 @@ msgid ""
 "    <p style=\"margin: 16px 0px 16px 0px; text-align: center;\">\n"
 "        <a t-att-href=\"object.get_totp_invite_url()\" style=\"background-color:#875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        <span t-out=\"code\" style=\"background-color:#faf9fa; border: 1px "
 "solid #dad8de; padding: 8px 16px 8px 16px; font-size: 24px; color: #875A7B; "
 "border-radius: 5px;\"/>\n"
@@ -116,6 +139,9 @@ msgid ""
 "        <a t-att-href=\"object.get_totp_invite_url()\" style=\"background-"
 "color:#875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: "
 "#fff; border-radius: 5px;\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            Activate my two-factor authentication\n"
 "        </a>\n"
@@ -129,7 +155,12 @@ msgstr ""
 msgid ""
 "<i class=\"fa fa-envelope-o\"/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                To login, enter below the six-digit authentication code just sent via email to"
+=======
+"                To login, enter below the six-digit authentication code just "
+"sent via email to"
+>>>>>>> upstream/18.0
 =======
 "                To login, enter below the six-digit authentication code just "
 "sent via email to"
@@ -266,7 +297,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:auth_totp_mail_enforce.auth_totp_mail_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "We strongly recommend enabling the two-factor authentication using an authenticator app to help secure your account.\n"
+=======
+"We strongly recommend enabling the two-factor authentication using an "
+"authenticator app to help secure your account.\n"
+>>>>>>> upstream/18.0
 =======
 "We strongly recommend enabling the two-factor authentication using an "
 "authenticator app to help secure your account.\n"

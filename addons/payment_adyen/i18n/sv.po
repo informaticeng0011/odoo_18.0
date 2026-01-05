@@ -2,7 +2,11 @@
 # This file contains the translation of the following modules:
 # 	* payment_adyen
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -14,7 +18,11 @@
 # Lasse L, 2024
 # Jakob Krabbe <jakob.krabbe@vertel.se>, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -22,6 +30,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -32,6 +41,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: sv\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Jakob Krabbe <jakob.krabbe@vertel.se>, 2024\n"
@@ -40,6 +51,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -47,12 +61,15 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:payment_adyen.payment_provider_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<strong>Warning:</strong> To capture the amount manually, you also need to set\n"
 "                    the Capture Delay to manual on your Adyen account settings."
 msgstr ""
 "<strong>Varning:</strong> För att fånga beloppet manuellt måste du också ställa in\n"
 "                    Capture Delay till manuell i inställningarna för ditt Adyen-konto."
 =======
+=======
+>>>>>>> upstream/18.0
 "<strong>Warning:</strong> To capture the amount manually, you also need to "
 "set\n"
 "                    the Capture Delay to manual on your Adyen account "
@@ -62,6 +79,9 @@ msgstr ""
 "ställa in\n"
 "                    Capture Delay till manuell i inställningarna för ditt "
 "Adyen-konto."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment_adyen
@@ -69,17 +89,23 @@ msgstr ""
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A request was sent to void the transaction with reference %(reference)s "
 "(%(provider)s)."
 msgstr ""
 "En begäran skickades för att ogiltigförklara transaktionen med referens "
 "%(reference)s (%(provider)s)."
 =======
+=======
+>>>>>>> upstream/18.0
 "A request was sent to void the transaction with reference %(reference)s (%"
 "(provider)s)."
 msgstr ""
 "En begäran skickades för att ogiltigförklara transaktionen med referens %"
 "(reference)s (%(provider)s)."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment_adyen
@@ -104,8 +130,12 @@ msgid ""
 "An error occurred during the processing of your payment. Please try again."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ett fel inträffade under behandlingen av din betalning. Vänligen försök "
 "igen."
+=======
+"Ett fel inträffade under behandlingen av din betalning. Vänligen försök igen."
+>>>>>>> upstream/18.0
 =======
 "Ett fel inträffade under behandlingen av din betalning. Vänligen försök igen."
 >>>>>>> upstream/18.0
@@ -270,8 +300,13 @@ msgstr ""
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The capture request of %(amount)s for the transaction with reference %(ref)s"
 " has been requested (%(provider_name)s)."
+=======
+"The capture request of %(amount)s for the transaction with reference %(ref)s "
+"has been requested (%(provider_name)s)."
+>>>>>>> upstream/18.0
 =======
 "The capture request of %(amount)s for the transaction with reference %(ref)s "
 "has been requested (%(provider_name)s)."

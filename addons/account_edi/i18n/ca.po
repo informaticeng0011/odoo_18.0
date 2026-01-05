@@ -8,8 +8,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* account_edi
 # 
+=======
+# * account_edi
+#
+>>>>>>> upstream/18.0
 =======
 # * account_edi
 #
@@ -47,6 +52,7 @@
 # Manel Fernandez Ramirez <manelfera@outlook.com>, 2024
 # martioodo hola, 2024
 # Martin Trigaux, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -704,10 +710,14 @@
 =======
 # Harcogourmet, 2024
 >>>>>>> upstream/18.0
+=======
+# Harcogourmet, 2024
+>>>>>>> upstream/18.0
 # Eric Antones <eantones@users.noreply.github.com>, 2024
 # Josep Anton Belchi, 2024
 # marcescu, 2024
 # Noemi Pla, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -741,10 +751,14 @@
 =======
 # "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025.
 >>>>>>> upstream/18.0
+=======
+# "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 <<<<<<< HEAD
@@ -778,6 +792,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-12-26 13:59+0000\n"
 "Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@odoo.com>\n"
 "Language-Team: Catalan <https://translate.odoo.com/projects/odoo-18/"
@@ -795,6 +812,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -870,6 +890,7 @@ msgstr "Nivell de bloqueig"
 #: model:ir.model.fields,help:account_edi.field_account_edi_document__blocking_level
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Blocks the current operation of the document depending on the error severity:\n"
 "  * Info: the document is not blocked and everything is working as it should.\n"
 "  * Warning: there is an error that doesn't prevent the current Electronic Invoicing operation to succeed.\n"
@@ -880,6 +901,8 @@ msgstr ""
 "  * Advertiment: hi ha un error que no impedeix el funcionament de l'operació actual de facturació electrònica.\n"
 "  *Error: hi ha un error que bloqueja l'operació actual de facturació electrònica."
 =======
+=======
+>>>>>>> upstream/18.0
 "Blocks the current operation of the document depending on the error "
 "severity:\n"
 "  * Info: the document is not blocked and everything is working as it "
@@ -896,6 +919,9 @@ msgstr ""
 "l'operació actual de facturació electrònica.\n"
 "  *Error: hi ha un error que bloqueja l'operació actual de facturació "
 "electrònica."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_edi
@@ -917,8 +943,13 @@ msgid ""
 "synchronized"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "No es pot desactivar (%s) en aquest diari perquè no tots els documents estan"
 " sincronitzats"
+=======
+"No es pot desactivar (%s) en aquest diari perquè no tots els documents estan "
+"sincronitzats"
+>>>>>>> upstream/18.0
 =======
 "No es pot desactivar (%s) en aquest diari perquè no tots els documents estan "
 "sincronitzats"
@@ -958,7 +989,11 @@ msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nom de visualització"
+=======
+msgstr "Nom a mostrar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nom a mostrar"
 >>>>>>> upstream/18.0
@@ -1249,8 +1284,12 @@ msgstr "La factura aviat s'enviarà a"
 #: model:ir.model.fields,help:account_edi.field_account_edi_document__error
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The text of the last error that happened during Electronic Invoice "
 "operation."
+=======
+"The text of the last error that happened during Electronic Invoice operation."
+>>>>>>> upstream/18.0
 =======
 "The text of the last error that happened during Electronic Invoice operation."
 >>>>>>> upstream/18.0
@@ -1274,8 +1313,13 @@ msgstr "Aquest document ja és enviat per un altre procés."
 #: code:addons/account_edi/models/account_move.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This invoice was canceled while the EDIs %s still had a pending cancellation"
 " request."
+=======
+"This invoice was canceled while the EDIs %s still had a pending cancellation "
+"request."
+>>>>>>> upstream/18.0
 =======
 "This invoice was canceled while the EDIs %s still had a pending cancellation "
 "request."
@@ -1307,8 +1351,13 @@ msgstr "Avís"
 #: code:addons/account_edi/models/account_move.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can't edit the following journal entry %s because an electronic document"
 " has already been sent. Please use the 'Request EDI Cancellation' button "
+=======
+"You can't edit the following journal entry %s because an electronic document "
+"has already been sent. Please use the 'Request EDI Cancellation' button "
+>>>>>>> upstream/18.0
 =======
 "You can't edit the following journal entry %s because an electronic document "
 "has already been sent. Please use the 'Request EDI Cancellation' button "

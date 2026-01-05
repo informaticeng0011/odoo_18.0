@@ -2,22 +2,29 @@
 # This file contains the translation of the following modules:
 # 	* payment_authorize
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Rasareeyar Lappiam, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Rasareeyar Lappiam, 2024
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -28,6 +35,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: th\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Rasareeyar Lappiam, 2024\n"
@@ -36,12 +45,16 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: payment_authorize
 #: model_terms:ir.ui.view,arch_db:payment_authorize.inline_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "<select id=\"o_authorize_account_type\" required=\"\" class=\"form-select\">\n"
 "                        <option value=\"checking\">Personal Checking</option>\n"
@@ -54,6 +67,8 @@ msgstr ""
 "                        <option value=\"savings\">บัญชีออมทรัพย์ส่วนบุคคล</option>\n"
 "                        <option value=\"businessChecking\">บัญชีเงินฝากกระแสรายวันสำหรับธุรกิจ</option>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "<select id=\"o_authorize_account_type\" required=\"\" class=\"form-"
 "select\">\n"
 "                        <option value=\"checking\">Personal Checking</"
@@ -71,6 +86,9 @@ msgstr ""
 "option>\n"
 "                        <option "
 "value=\"businessChecking\">บัญชีเงินฝากกระแสรายวันสำหรับธุรกิจ</option>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                    </select>"
 
@@ -157,8 +175,13 @@ msgid ""
 "error_details: %(error_message)s)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "ไม่สามารถดึงรายละเอียดธุรกรรมได้ (รหัสข้อผิดพลาด: %(error_code)s; "
 "error_details: %(error_message)s)"
+=======
+"ไม่สามารถดึงรายละเอียดธุรกรรมได้ (รหัสข้อผิดพลาด: %(error_code)s; error_details: %"
+"(error_message)s)"
+>>>>>>> upstream/18.0
 =======
 "ไม่สามารถดึงรายละเอียดธุรกรรมได้ (รหัสข้อผิดพลาด: %(error_code)s; error_details: %"
 "(error_message)s)"
@@ -236,7 +259,12 @@ msgstr "การประมวลผลการชำระเงินล้
 #. odoo-python
 #: code:addons/payment_authorize/models/payment_transaction.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Received data with status code \"%(status)s\" and error code \"%(error)s\""
+=======
+msgid ""
+"Received data with status code \"%(status)s\" and error code \"%(error)s\""
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "Received data with status code \"%(status)s\" and error code \"%(error)s\""
@@ -266,8 +294,12 @@ msgid ""
 "backend."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "รหัสลูกค้าสาธารณะ เพื่อสร้างโดยตรงจาก Odoo หรือจากการทำงานเบื้องหลังของ "
 "Authorize.Net"
+=======
+"รหัสลูกค้าสาธารณะ เพื่อสร้างโดยตรงจาก Odoo หรือจากการทำงานเบื้องหลังของ Authorize.Net"
+>>>>>>> upstream/18.0
 =======
 "รหัสลูกค้าสาธารณะ เพื่อสร้างโดยตรงจาก Odoo หรือจากการทำงานเบื้องหลังของ Authorize.Net"
 >>>>>>> upstream/18.0
@@ -285,8 +317,13 @@ msgid ""
 "details: %(message)s)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "ธุรกรรมไม่ได้อยู่ในสถานะที่จะได้รับการคืนเงิน (สถานะ: %(status)s, "
 "รายละเอียด: %(message)s)"
+=======
+"ธุรกรรมไม่ได้อยู่ในสถานะที่จะได้รับการคืนเงิน (สถานะ: %(status)s, รายละเอียด: %"
+"(message)s)"
+>>>>>>> upstream/18.0
 =======
 "ธุรกรรมไม่ได้อยู่ในสถานะที่จะได้รับการคืนเงิน (สถานะ: %(status)s, รายละเอียด: %"
 "(message)s)"
@@ -304,8 +341,12 @@ msgid ""
 "The unique reference for the partner/token combination in the Authorize.net "
 "backend."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "ข้อมูลอ้างอิงเฉพาะสำหรับการรวม พาร์ทเนอร์/โทเค็น ในแบ็กเอนด์ Authorize.net"
+=======
+msgstr "ข้อมูลอ้างอิงเฉพาะสำหรับการรวม พาร์ทเนอร์/โทเค็น ในแบ็กเอนด์ Authorize.net"
+>>>>>>> upstream/18.0
 =======
 msgstr "ข้อมูลอ้างอิงเฉพาะสำหรับการรวม พาร์ทเนอร์/โทเค็น ในแบ็กเอนด์ Authorize.net"
 >>>>>>> upstream/18.0

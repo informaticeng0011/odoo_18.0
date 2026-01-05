@@ -29,12 +29,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* hr_gamification
 # 
 # Translators:
 # Wil Odoo, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -125,6 +128,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -186,6 +192,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 <<<<<<< HEAD
@@ -282,6 +289,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-12-02 17:05+0000\n"
 "Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
 "Language-Team: Polish <https://translate.odoo.com/projects/odoo-18/"
@@ -291,6 +301,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
+<<<<<<< HEAD
 <<<<<<< HEAD
 "(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || "
 "(n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
@@ -382,6 +393,11 @@ msgstr ""
 "n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
+"n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: hr_gamification
 #: model_terms:ir.actions.act_window,help:hr_gamification.goals_menu_groupby_action2
@@ -390,6 +406,7 @@ msgid ""
 "                    Goals can be created automatically by using challenges."
 msgstr ""
 "Cel i typ jest zdefiniowany przez użytkownika.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -536,6 +553,10 @@ msgstr ""
 "                    Cele mogą być utworzone automatycznie przez używanie "
 "wyzwań."
 >>>>>>> upstream/18.0
+=======
+"                    Cele mogą być utworzone automatycznie przez używanie "
+"wyzwań."
+>>>>>>> upstream/18.0
 
 #. module: hr_gamification
 #: model:ir.model.fields,help:hr_gamification.field_hr_employee__badge_ids
@@ -552,6 +573,7 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:hr_gamification.challenge_list_action2
 msgid ""
 "Assign a list of goals to chosen users to evaluate them.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                    The challenge can use a period (weekly, monthly...) for automatic creation of goals.\n"
 "                    The goals are created for the specified users or member of the group."
@@ -727,6 +749,8 @@ msgstr ""
 "automatycznego tworzenia celów.\n"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "                    The challenge can use a period (weekly, monthly...) for "
 "automatic creation of goals.\n"
 "                    The goals are created for the specified users or member "
@@ -735,6 +759,9 @@ msgstr ""
 "Przypisz listę celów do wybranych użytkowników, aby ich ocenić.\n"
 "Wyzwanie może wykorzystywać okres (tygodniowy, miesięczny...) do "
 "automatycznego tworzenia celów.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Cele są tworzone dla określonych użytkowników lub członków grupy."
 
@@ -856,7 +883,11 @@ msgid "Gamification User Badge"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Odznaka użytkownika gamifikacji"
+=======
+msgstr "Odznaka użytkownika grywalizacji"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odznaka użytkownika grywalizacji"
 >>>>>>> upstream/18.0
@@ -977,7 +1008,11 @@ msgid "Gamification User Badge Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Kreator odznaki użytkownika gamifikacji"
+=======
+msgstr "Kreator odznaki użytkownika grywalizacji"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kreator odznaki użytkownika grywalizacji"
 >>>>>>> upstream/18.0
@@ -1126,7 +1161,11 @@ msgid "Granted Employees Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Liczba pracowników którym przyznano"
+=======
+msgstr "Liczba pracowników, którym przyznano"
+>>>>>>> upstream/18.0
 =======
 msgstr "Liczba pracowników, którym przyznano"
 >>>>>>> upstream/18.0
@@ -1283,7 +1322,11 @@ msgid "What are you thankful for?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Za co dziękujesz?"
+=======
+msgstr "Za co jesteś wdzięczny?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Za co jesteś wdzięczny?"
 >>>>>>> upstream/18.0
@@ -1405,7 +1448,11 @@ msgid "You can not send a badge to yourself."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nie można wysłać odznaki do siebie."
+=======
+msgstr "Nie możesz przyznać odznaki sobie."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nie możesz przyznać odznaki sobie."
 >>>>>>> upstream/18.0

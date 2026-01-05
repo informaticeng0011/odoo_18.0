@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* payment_asiapay
 # 
+=======
+# * payment_asiapay
+#
+>>>>>>> upstream/18.0
 =======
 # * payment_asiapay
 #
@@ -12,7 +17,11 @@
 # Chloe Wang, 2024
 # 何彬 <vnsoft.he@gmail.com>, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -20,6 +29,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -31,6 +41,8 @@ msgstr ""
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2025-12-31 16:32+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -42,6 +54,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.14.3\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment_asiapay
@@ -49,16 +64,22 @@ msgstr ""
 #: code:addons/payment_asiapay/models/payment_transaction.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "An error occurred during the processing of your payment (success code "
 "%(success_code)s; primary response code %(response_code)s). Please try "
 "again."
 msgstr "在处理您的付款时发生错误（成功代码%(success_code)s；主要响应代码 %(response_code)s）。请重试。"
 =======
+=======
+>>>>>>> upstream/18.0
 "An error occurred during the processing of your payment (success code %"
 "(success_code)s; primary response code %(response_code)s). Please try again."
 msgstr ""
 "在处理您的付款时发生错误（成功代码%(success_code)s；主要响应代码 %"
 "(response_code)s）。请重试。"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment_asiapay
@@ -83,13 +104,19 @@ msgstr "AsiaPay 安全哈希密钥"
 
 #. module: payment_asiapay
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/payment_asiapay/models/payment_provider.py:0
 msgid "AsiaPay does not support the following currencies: %(currencies)s."
 msgstr "AsiaPay 不支持以下货币：%(currencies)s。"
 
 #. module: payment_asiapay
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:payment_asiapay.field_payment_provider__asiapay_brand
 msgid "Asiapay Brand"

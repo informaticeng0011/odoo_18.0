@@ -42,6 +42,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -154,6 +158,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2023-05-16 13:49+0000\n"
 <<<<<<< HEAD
@@ -371,16 +376,22 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2025-12-31 13:14+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Bosnian <https://translate.odoo.com/projects/odoo-18/sms/bs/>"
 "\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Language: bs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -598,6 +609,11 @@ msgstr ""
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: sms
 #: model:ir.model.fields,field_description:sms.field_sms_composer__recipient_invalid_count
@@ -612,6 +628,7 @@ msgstr ""
 #. module: sms
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/sms/models/sms_template.py:0
 msgid "%s (copy)"
 <<<<<<< HEAD
@@ -756,6 +773,8 @@ msgstr "%s (kopija)"
 msgstr "%s (kopija)"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/sms/models/sms_sms.py:0
 msgid ""
 "%(count)s out of the %(total)s selected SMS Text Messages have successfully "
@@ -767,6 +786,9 @@ msgstr ""
 #: code:addons/sms/models/sms_template.py:0
 msgid "%s (copy)"
 msgstr "%s (kopija)"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sms
@@ -777,10 +799,13 @@ msgstr ""
 
 #. module: sms
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/sms/models/sms_sms.py:0
 msgid "%s out of the %s selected SMS Text Messages have successfully been resent."
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sms.sms_account_phone_view_form
 msgid "+1 555-555-555"
 msgstr ""
@@ -817,6 +842,9 @@ msgstr ""
 msgid ""
 "<i class=\"oi oi-arrow-right\"/>\n"
 "                            Set Sender Name"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -825,7 +853,12 @@ msgstr ""
 msgid ""
 "<span class=\"o_stat_text\">Add</span>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <span class=\"o_stat_text\">Context Action</span>"
+=======
+"                                <span class=\"o_stat_text\">Context Action</"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "                                <span class=\"o_stat_text\">Context Action</"
 "span>"
@@ -842,7 +875,12 @@ msgstr ""
 msgid ""
 "<span class=\"o_stat_text\">Remove</span>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <span class=\"o_stat_text\">Context Action</span>"
+=======
+"                                <span class=\"o_stat_text\">Context Action</"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "                                <span class=\"o_stat_text\">Context Action</"
 "span>"
@@ -852,8 +890,11 @@ msgstr ""
 #. module: sms
 #: model_terms:ir.ui.view,arch_db:sms.sms_template_preview_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<span class=\"text-warning\" attrs=\"{'invisible': [('no_record', '=', False)]}\">No records</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "<span class=\"text-warning\" invisible=\"not no_record\">No records</span>"
 msgstr ""
@@ -879,6 +920,9 @@ msgid ""
 "internal note\n"
 "                                in the messaging history.\n"
 "                            </span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -895,6 +939,7 @@ msgid ""
 msgstr ""
 
 #. module: sms
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.model.fields,field_description:sms.field_res_partner__message_needaction
 msgid "Action Needed"
@@ -1191,6 +1236,8 @@ msgstr "Akcija za uraditi"
 #: model_terms:ir.ui.view,arch_db:sms.sms_template_view_form
 msgid "Add a contextual action on the related model to open a sms composer with this template"
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.constraint,message:sms.constraint_sms_tracker_sms_uuid_unique
 msgid "A record for this UUID already exists"
 msgstr ""
@@ -1217,13 +1264,20 @@ msgstr ""
 #. module: sms
 #: model:ir.model.fields,help:sms.field_sms_sms__uuid
 msgid "Alternate way to identify a SMS record, used for delivery reports"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sms
 #. odoo-javascript
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/sms/static/src/core/notification_group_model_patch.js:0
+=======
+#: code:addons/sms/static/src/core/failure_model_patch.js:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/sms/static/src/core/failure_model_patch.js:0
 >>>>>>> upstream/18.0
@@ -1231,6 +1285,7 @@ msgid "An error occurred when sending an SMS"
 msgstr ""
 
 #. module: sms
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.model.fields,field_description:sms.field_sms_template__model_id
 #: model:ir.model.fields,field_description:sms.field_sms_template_preview__model_id
@@ -1381,6 +1436,8 @@ msgstr "Odnosi se na"
 #: model_terms:ir.ui.view,arch_db:sms.sms_template_reset_view_form
 msgid "Are you sure you want to reset these sms templates to their original configuration? Changes and translations will be lost."
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/sms/static/src/core/failure_model_patch.js:0
 msgid "An error occurred when sending an SMS on “%(record_name)s”"
@@ -1405,6 +1462,9 @@ msgstr "Odnosi se na"
 msgid ""
 "Are you sure you want to reset these sms templates to their original "
 "configuration? Changes and translations will be lost."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -1447,6 +1507,7 @@ msgid "Attachment Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Broj zakački"
@@ -1554,12 +1615,17 @@ msgstr "Broj zakački"
 msgstr "Broj zakački"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Broj zakački"
 
 #. module: sms
 #: model:ir.model,name:sms.model_base
 msgid "Base"
 msgstr "Osnova"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sms
@@ -1618,7 +1684,11 @@ msgid "Body"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tijelo poruke"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tijelo poruke"
 >>>>>>> upstream/18.0
@@ -1736,7 +1806,11 @@ msgstr ""
 #. module: sms
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/sms/models/sms_api.py:0
+=======
+#: code:addons/sms/tools/sms_api.py:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/sms/tools/sms_api.py:0
 >>>>>>> upstream/18.0
@@ -1755,6 +1829,11 @@ msgstr ""
 
 #. module: sms
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:sms.sms_account_code_view_form
+#: model_terms:ir.ui.view,arch_db:sms.sms_account_phone_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:sms.sms_account_code_view_form
 #: model_terms:ir.ui.view,arch_db:sms.sms_account_phone_view_form
@@ -1767,6 +1846,7 @@ msgstr "Otkaži"
 
 #. module: sms
 #: model:ir.model.fields.selection,name:sms.selection__sms_sms__state__canceled
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgid "Canceled"
 <<<<<<< HEAD
@@ -1914,6 +1994,10 @@ msgstr "Otkazano"
 msgid "Cancelled"
 msgstr "Otkazan"
 >>>>>>> upstream/18.0
+=======
+msgid "Cancelled"
+msgstr "Otkazan"
+>>>>>>> upstream/18.0
 
 #. module: sms
 #: model_terms:ir.ui.view,arch_db:sms.sms_template_preview_form
@@ -1922,18 +2006,25 @@ msgstr ""
 
 #. module: sms
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sms.ir_actions_server_view_form
 msgid "Choose a template..."
 msgstr ""
 
 #. module: sms
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sms.sms_template_preview_form
 msgid "Choose an example"
 msgstr ""
 
 #. module: sms
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.model.fields,help:sms.field_base_automation__sms_method
 #: model:ir.model.fields,help:sms.field_ir_actions_server__sms_method
@@ -1944,11 +2035,16 @@ msgid ""
 "Post as Message: log on document\n"
 "Post as Note: mass SMS with archives"
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/sms/models/iap_account.py:0
 #: code:addons/sms/wizard/sms_account_code.py:0
 #: model_terms:ir.ui.view,arch_db:sms.sms_account_sender_view_form
 msgid "Choose your sender name"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -1992,6 +2088,7 @@ msgid "Close"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Zatvori"
@@ -2099,12 +2196,17 @@ msgstr "Zatvori"
 msgstr "Zatvori"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Zatvori"
 
 #. module: sms
 #: model:ir.model,name:sms.model_res_company
 msgid "Companies"
 msgstr "Kompanije"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sms
@@ -2157,6 +2259,7 @@ msgid "Content"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Sadržaj"
@@ -2266,6 +2369,8 @@ msgstr "Sadržaj"
 
 #. module: sms
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Sadržaj"
 
 #. module: sms
@@ -2290,6 +2395,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:sms.field_sms_account_code__create_uid
 #: model:ir.model.fields,field_description:sms.field_sms_account_phone__create_uid
 #: model:ir.model.fields,field_description:sms.field_sms_account_sender__create_uid
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sms.field_sms_composer__create_uid
 #: model:ir.model.fields,field_description:sms.field_sms_resend__create_uid
@@ -2299,6 +2407,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:sms.field_sms_template_preview__create_uid
 #: model:ir.model.fields,field_description:sms.field_sms_template_reset__create_uid
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:sms.field_sms_tracker__create_uid
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:sms.field_sms_tracker__create_uid
 >>>>>>> upstream/18.0
@@ -2307,6 +2419,12 @@ msgstr "Kreirao"
 
 #. module: sms
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:sms.field_sms_account_code__create_date
+#: model:ir.model.fields,field_description:sms.field_sms_account_phone__create_date
+#: model:ir.model.fields,field_description:sms.field_sms_account_sender__create_date
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:sms.field_sms_account_code__create_date
 #: model:ir.model.fields,field_description:sms.field_sms_account_phone__create_date
@@ -2320,6 +2438,10 @@ msgstr "Kreirao"
 #: model:ir.model.fields,field_description:sms.field_sms_template_preview__create_date
 #: model:ir.model.fields,field_description:sms.field_sms_template_reset__create_date
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:sms.field_sms_tracker__create_date
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:sms.field_sms_tracker__create_date
 >>>>>>> upstream/18.0
@@ -2328,6 +2450,7 @@ msgstr "Kreirano"
 
 #. module: sms
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:sms.field_sms_sms__partner_id
 msgid "Customer"
 <<<<<<< HEAD
@@ -2472,6 +2595,8 @@ msgstr "Kupac"
 msgstr "Kupac"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:iap.service,unit_name:sms.iap_service_sms
 msgid "Credits"
 msgstr ""
@@ -2480,6 +2605,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:sms.field_sms_sms__partner_id
 msgid "Customer"
 msgstr "Kupac"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sms
@@ -2494,6 +2622,7 @@ msgstr ""
 
 #. module: sms
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sms.sms_template_preview_form
 msgid "Discard"
 <<<<<<< HEAD
@@ -2640,6 +2769,8 @@ msgstr "Odbaci"
 
 #. module: sms
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:sms.selection__sms_sms__state__sent
 msgid "Delivered"
 msgstr "Dostavljeno"
@@ -2653,6 +2784,9 @@ msgstr "Odbaci"
 #: model:ir.model.fields,field_description:sms.field_sms_account_code__display_name
 #: model:ir.model.fields,field_description:sms.field_sms_account_phone__display_name
 #: model:ir.model.fields,field_description:sms.field_sms_account_sender__display_name
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sms.field_sms_composer__display_name
 #: model:ir.model.fields,field_description:sms.field_sms_resend__display_name
@@ -2662,6 +2796,10 @@ msgstr "Odbaci"
 #: model:ir.model.fields,field_description:sms.field_sms_template_preview__display_name
 #: model:ir.model.fields,field_description:sms.field_sms_template_reset__display_name
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:sms.field_sms_tracker__display_name
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:sms.field_sms_tracker__display_name
 >>>>>>> upstream/18.0
@@ -2707,7 +2845,11 @@ msgid "Document Followers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pratioci dokumenta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pratioci dokumenta"
 >>>>>>> upstream/18.0
@@ -2876,7 +3018,11 @@ msgid "Duplicate"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dupliciraj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dupliciraj"
 >>>>>>> upstream/18.0
@@ -3004,6 +3150,7 @@ msgstr ""
 
 #. module: sms
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:sms.selection__sms_sms__state__error
 msgid "Error"
 <<<<<<< HEAD
@@ -3148,6 +3295,8 @@ msgstr "Greška"
 msgstr "Greška"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sms.sms_account_phone_view_form
 msgid "Enter a phone number to get an SMS with a verification code."
 msgstr ""
@@ -3156,6 +3305,9 @@ msgstr ""
 #: model:ir.model.fields.selection,name:sms.selection__sms_sms__state__error
 msgid "Error"
 msgstr "Greška"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sms
@@ -3165,12 +3317,18 @@ msgstr ""
 
 #. module: sms
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:sms.selection__mail_notification__failure_type__sms_expired
 msgid "Expired"
 msgstr "Istekao"
 
 #. module: sms
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sms.field_sms_sms__failure_type
 msgid "Failure Type"
@@ -3184,7 +3342,13 @@ msgstr ""
 #. module: sms
 #: model:ir.model.fields,help:sms.field_res_partner__phone_sanitized
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Field used to store sanitized phone number. Helps speeding up searches and comparisons."
+=======
+msgid ""
+"Field used to store sanitized phone number. Helps speeding up searches and "
+"comparisons."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "Field used to store sanitized phone number. Helps speeding up searches and "
@@ -3236,7 +3400,11 @@ msgid "Followers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pratioci"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pratioci"
 >>>>>>> upstream/18.0
@@ -3385,7 +3553,11 @@ msgid "Followers (Partners)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pratioci (Partneri)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pratioci (Partneri)"
 >>>>>>> upstream/18.0
@@ -3524,7 +3696,10 @@ msgstr ""
 
 #. module: sms
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:sms.model_iap_account
 msgid "IAP Account"
 msgstr ""
@@ -3533,6 +3708,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:sms.field_sms_account_code__id
 #: model:ir.model.fields,field_description:sms.field_sms_account_phone__id
 #: model:ir.model.fields,field_description:sms.field_sms_account_sender__id
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sms.field_sms_composer__id
 #: model:ir.model.fields,field_description:sms.field_sms_resend__id
@@ -3542,6 +3720,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:sms.field_sms_template_preview__id
 #: model:ir.model.fields,field_description:sms.field_sms_template_reset__id
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:sms.field_sms_tracker__id
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:sms.field_sms_tracker__id
 >>>>>>> upstream/18.0
@@ -3587,7 +3769,11 @@ msgid "If checked, new messages require your attention."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ako je zakačeno, nove poruke će zahtjevati vašu pažnju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ako je zakačeno, nove poruke će zahtjevati vašu pažnju"
 >>>>>>> upstream/18.0
@@ -3707,6 +3893,7 @@ msgstr "Ako je zakačeno, nove poruke će zahtjevati vašu pažnju"
 #: model:ir.model.fields,help:sms.field_fleet_vehicle_log_contract__message_has_sms_error
 #: model:ir.model.fields,help:sms.field_fleet_vehicle_log_services__message_has_sms_error
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,help:sms.field_gamification_badge__message_has_sms_error
 #: model:ir.model.fields,help:sms.field_gamification_challenge__message_has_sms_error
 #: model:ir.model.fields,help:sms.field_hr_contract__message_has_sms_error
@@ -3718,10 +3905,15 @@ msgstr "Ako je zakačeno, nove poruke će zahtjevati vašu pažnju"
 #: model:ir.model.fields,help:sms.field_hr_plan_employee_activity__message_has_sms_error
 #: model:ir.model.fields,help:sms.field_loyalty_card__message_has_sms_error
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:sms.field_fleet_vehicle_model__message_has_sms_error
 #: model:ir.model.fields,help:sms.field_gamification_badge__message_has_sms_error
 #: model:ir.model.fields,help:sms.field_gamification_challenge__message_has_sms_error
 #: model:ir.model.fields,help:sms.field_iap_account__message_has_sms_error
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,help:sms.field_lunch_supplier__message_has_sms_error
 #: model:ir.model.fields,help:sms.field_mail_blacklist__message_has_sms_error
@@ -3734,8 +3926,14 @@ msgstr "Ako je zakačeno, nove poruke će zahtjevati vašu pažnju"
 #: model:ir.model.fields,help:sms.field_maintenance_equipment_category__message_has_sms_error
 #: model:ir.model.fields,help:sms.field_maintenance_request__message_has_sms_error
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,help:sms.field_note_note__message_has_sms_error
 #: model:ir.model.fields,help:sms.field_phone_blacklist__message_has_sms_error
+=======
+#: model:ir.model.fields,help:sms.field_phone_blacklist__message_has_sms_error
+#: model:ir.model.fields,help:sms.field_product_category__message_has_sms_error
+#: model:ir.model.fields,help:sms.field_product_pricelist__message_has_sms_error
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,help:sms.field_phone_blacklist__message_has_sms_error
 #: model:ir.model.fields,help:sms.field_product_category__message_has_sms_error
@@ -3753,7 +3951,13 @@ msgstr ""
 #. module: sms
 #: model:ir.model.fields,help:sms.field_res_partner__phone_sanitized_blacklisted
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "If the sanitized phone number is on the blacklist, the contact won't receive mass mailing sms anymore, from any list"
+=======
+msgid ""
+"If the sanitized phone number is on the blacklist, the contact won't receive "
+"mass mailing sms anymore, from any list"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "If the sanitized phone number is on the blacklist, the contact won't receive "
@@ -3774,24 +3978,36 @@ msgstr ""
 #. module: sms
 #: model:ir.model.fields,help:sms.field_res_partner__mobile_blacklisted
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Indicates if a blacklisted sanitized phone number is a mobile number. Helps distinguish which number is blacklisted             when there is both a mobile and phone field in a model."
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Indicates if a blacklisted sanitized phone number is a mobile number. Helps "
 "distinguish which number is blacklisted             when there is both a "
 "mobile and phone field in a model."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sms
 #: model:ir.model.fields,help:sms.field_res_partner__phone_blacklisted
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Indicates if a blacklisted sanitized phone number is a phone number. Helps distinguish which number is blacklisted             when there is both a mobile and phone field in a model."
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Indicates if a blacklisted sanitized phone number is a phone number. Helps "
 "distinguish which number is blacklisted             when there is both a "
 "mobile and phone field in a model."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -3808,7 +4024,10 @@ msgstr ""
 
 #. module: sms
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:sms.selection__mail_notification__failure_type__sms_invalid_destination
 msgid "Invalid Destination"
 msgstr ""
@@ -3823,6 +4042,9 @@ msgid ""
 msgstr ""
 
 #. module: sms
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/sms/wizard/sms_composer.py:0
@@ -3868,7 +4090,11 @@ msgid "Is Follower"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Je pratilac"
+>>>>>>> upstream/18.0
 =======
 msgstr "Je pratilac"
 >>>>>>> upstream/18.0
@@ -4027,6 +4253,7 @@ msgid "Language"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Jezik"
@@ -4136,12 +4363,17 @@ msgstr "Jezik"
 
 #. module: sms
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Jezik"
 
 #. module: sms
 #: model:ir.model.fields,field_description:sms.field_sms_account_code__write_uid
 #: model:ir.model.fields,field_description:sms.field_sms_account_phone__write_uid
 #: model:ir.model.fields,field_description:sms.field_sms_account_sender__write_uid
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sms.field_sms_composer__write_uid
 #: model:ir.model.fields,field_description:sms.field_sms_resend__write_uid
@@ -4151,6 +4383,10 @@ msgstr "Jezik"
 #: model:ir.model.fields,field_description:sms.field_sms_template_preview__write_uid
 #: model:ir.model.fields,field_description:sms.field_sms_template_reset__write_uid
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:sms.field_sms_tracker__write_uid
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:sms.field_sms_tracker__write_uid
 >>>>>>> upstream/18.0
@@ -4159,6 +4395,12 @@ msgstr "Zadnji ažurirao"
 
 #. module: sms
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:sms.field_sms_account_code__write_date
+#: model:ir.model.fields,field_description:sms.field_sms_account_phone__write_date
+#: model:ir.model.fields,field_description:sms.field_sms_account_sender__write_date
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:sms.field_sms_account_code__write_date
 #: model:ir.model.fields,field_description:sms.field_sms_account_phone__write_date
@@ -4172,6 +4414,10 @@ msgstr "Zadnji ažurirao"
 #: model:ir.model.fields,field_description:sms.field_sms_template_preview__write_date
 #: model:ir.model.fields,field_description:sms.field_sms_template_reset__write_date
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:sms.field_sms_tracker__write_date
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:sms.field_sms_tracker__write_date
 >>>>>>> upstream/18.0
@@ -4180,12 +4426,18 @@ msgstr "Zadnje ažurirano"
 
 #. module: sms
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:sms.model_sms_tracker
 msgid "Link SMS to mailing/sms tracking models"
 msgstr ""
 
 #. module: sms
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sms.field_sms_sms__mail_message_id
 msgid "Mail Message"
@@ -4193,12 +4445,18 @@ msgstr ""
 
 #. module: sms
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sms.field_sms_tracker__mail_notification_id
 msgid "Mail Notification"
 msgstr ""
 
 #. module: sms
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sms.field_ir_model__is_mail_thread_sms
 msgid "Mail Thread SMS"
@@ -4206,12 +4464,18 @@ msgstr ""
 
 #. module: sms
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sms.field_sms_sms__to_delete
 msgid "Marked for deletion"
 msgstr ""
 
 #. module: sms
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model,name:sms.model_mail_message
 #: model:ir.model.fields,field_description:sms.field_sms_composer__body
@@ -4228,6 +4492,7 @@ msgstr ""
 #. module: sms
 #: model:ir.model,name:sms.model_mail_notification
 msgid "Message Notifications"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4554,6 +4819,9 @@ msgstr ""
 =======
 msgstr "Obavještenja poruka"
 >>>>>>> upstream/18.0
+=======
+msgstr "Obavještenja poruka"
+>>>>>>> upstream/18.0
 
 #. module: sms
 #: model:ir.model.fields,field_description:sms.field_res_partner__message_ids
@@ -4594,7 +4862,11 @@ msgid "Messages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poruke"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poruke"
 >>>>>>> upstream/18.0
@@ -4749,7 +5021,11 @@ msgid "Models"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Modeli"
+>>>>>>> upstream/18.0
 =======
 msgstr "Modeli"
 >>>>>>> upstream/18.0
@@ -4898,7 +5174,11 @@ msgid "Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naziv:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Naziv:"
 >>>>>>> upstream/18.0
@@ -5015,6 +5295,7 @@ msgstr ""
 
 #. module: sms
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:sms.field_sms_resend_recipient__notification_id
 msgid "Notification"
 <<<<<<< HEAD
@@ -5159,6 +5440,8 @@ msgstr "Obavještenje"
 msgstr "Obavještenje"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:sms.selection__mail_notification__failure_type__sms_not_allowed
 msgid "Not Allowed"
 msgstr ""
@@ -5184,6 +5467,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:sms.field_sms_resend_recipient__notification_id
 msgid "Notification"
 msgstr "Obavještenje"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sms
@@ -5230,7 +5516,11 @@ msgid "Number"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Broj"
 >>>>>>> upstream/18.0
@@ -5384,7 +5674,11 @@ msgid "Number of Actions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj akcija"
+>>>>>>> upstream/18.0
 =======
 msgstr "Broj akcija"
 >>>>>>> upstream/18.0
@@ -5501,6 +5795,7 @@ msgstr ""
 
 #. module: sms
 #: model:ir.model.fields,help:sms.field_res_partner__message_needaction_counter
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgid "Number of messages which requires an action"
 <<<<<<< HEAD
@@ -5648,6 +5943,10 @@ msgstr "Broj poruka koje zahtjevaju neku akciju"
 msgid "Number of messages requiring action"
 msgstr ""
 >>>>>>> upstream/18.0
+=======
+msgid "Number of messages requiring action"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: sms
 #: model:ir.model.fields,help:sms.field_res_partner__message_has_error_counter
@@ -5657,7 +5956,13 @@ msgstr ""
 #. module: sms
 #: model:ir.model.fields,help:sms.field_sms_composer__res_ids_count
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Number of recipients that will receive the SMS if sent in mass mode, without applying the Active Domain value"
+=======
+msgid ""
+"Number of recipients that will receive the SMS if sent in mass mode, without "
+"applying the Active Domain value"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "Number of recipients that will receive the SMS if sent in mass mode, without "
@@ -5673,13 +5978,19 @@ msgstr ""
 #. module: sms
 #: model:ir.model.fields,help:sms.field_sms_template__lang
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Optional translation language (ISO code) to select when sending out an email. If not set, the english version will be used. This should usually be a placeholder expression that provides the appropriate language, e.g. {{ object.partner_id.lang }}."
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Optional translation language (ISO code) to select when sending out an "
 "email. If not set, the english version will be used. This should usually be "
 "a placeholder expression that provides the appropriate language, e.g. "
 "{{ object.partner_id.lang }}."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -5691,6 +6002,7 @@ msgstr ""
 #. module: sms
 #: model:ir.model.fields,field_description:sms.field_sms_resend_recipient__partner_id
 msgid "Partner"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5841,6 +6153,9 @@ msgstr ""
 =======
 msgstr "Partner"
 >>>>>>> upstream/18.0
+=======
+msgstr "Partner"
+>>>>>>> upstream/18.0
 
 #. module: sms
 #: model:ir.model.fields,field_description:sms.field_res_partner__phone_sanitized_blacklisted
@@ -5849,6 +6164,10 @@ msgstr ""
 
 #. module: sms
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:sms.field_sms_account_phone__phone_number
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:sms.field_sms_account_phone__phone_number
 >>>>>>> upstream/18.0
@@ -5859,7 +6178,13 @@ msgstr ""
 #. module: sms
 #: model:ir.model.fields,help:sms.field_sms_composer__recipient_single_number_itf
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Phone number of the recipient. If changed, it will be recorded on recipient's profile."
+=======
+msgid ""
+"Phone number of the recipient. If changed, it will be recorded on "
+"recipient's profile."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "Phone number of the recipient. If changed, it will be recorded on "
@@ -5874,6 +6199,7 @@ msgstr ""
 
 #. module: sms
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:sms.selection__ir_actions_server__sms_method__comment
 msgid "Post as Message"
 msgstr ""
@@ -5884,6 +6210,8 @@ msgid "Post as Note"
 msgstr ""
 
 #. module: sms
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:sms.selection__sms_composer__composition_mode__comment
@@ -5929,7 +6257,11 @@ msgid "Preview of"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pregled"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pregled"
 >>>>>>> upstream/18.0
@@ -6046,12 +6378,18 @@ msgstr ""
 
 #. module: sms
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:sms.selection__sms_sms__state__process
 msgid "Processing"
 msgstr ""
 
 #. module: sms
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sms.sms_composer_view_form
 msgid "Put in queue"
@@ -6101,7 +6439,11 @@ msgid "Reason"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razlog"
+>>>>>>> upstream/18.0
 =======
 msgstr "Razlog"
 >>>>>>> upstream/18.0
@@ -6251,7 +6593,11 @@ msgid "Recipient"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Primalac"
+>>>>>>> upstream/18.0
 =======
 msgstr "Primalac"
 >>>>>>> upstream/18.0
@@ -6393,6 +6739,7 @@ msgstr ""
 
 #. module: sms
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:sms.field_sms_template__model
 msgid "Related Document Model"
 <<<<<<< HEAD
@@ -6537,6 +6884,8 @@ msgstr "Povezani model dokumenta"
 msgstr "Povezani model dokumenta"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sms.sms_account_code_view_form
 msgid "Register"
 msgstr ""
@@ -6569,6 +6918,9 @@ msgstr "Odbijeno"
 #: model:ir.model.fields,field_description:sms.field_sms_template__model
 msgid "Related Document Model"
 msgstr "Povezani model dokumenta"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sms
@@ -6641,7 +6993,11 @@ msgid "Retry"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pokušaj ponovo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pokušaj ponovo"
 >>>>>>> upstream/18.0
@@ -6758,7 +7114,10 @@ msgstr "Pokušaj ponovo"
 #: model:ir.actions.act_window,name:sms.sms_sms_action
 #: model:ir.model.fields,field_description:sms.field_mail_notification__sms_id
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:sms.selection__ir_actions_server__sms_method__sms
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:sms.selection__mail_message__message_type__sms
@@ -6776,9 +7135,12 @@ msgstr ""
 
 #. module: sms
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model,name:sms.model_sms_api
 msgid "SMS API"
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:sms.selection__ir_actions_server__sms_method__comment
 msgid "SMS (with note)"
 msgstr ""
@@ -6801,6 +7163,9 @@ msgstr ""
 #. module: sms
 #: model:ir.model,name:sms.model_sms_account_code
 msgid "SMS Account Verification Code Wizard"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -6814,6 +7179,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:sms.field_fleet_vehicle_log_contract__message_has_sms_error
 #: model:ir.model.fields,field_description:sms.field_fleet_vehicle_log_services__message_has_sms_error
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:sms.field_gamification_badge__message_has_sms_error
 #: model:ir.model.fields,field_description:sms.field_gamification_challenge__message_has_sms_error
 #: model:ir.model.fields,field_description:sms.field_hr_contract__message_has_sms_error
@@ -6825,10 +7191,15 @@ msgstr ""
 #: model:ir.model.fields,field_description:sms.field_hr_plan_employee_activity__message_has_sms_error
 #: model:ir.model.fields,field_description:sms.field_loyalty_card__message_has_sms_error
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sms.field_fleet_vehicle_model__message_has_sms_error
 #: model:ir.model.fields,field_description:sms.field_gamification_badge__message_has_sms_error
 #: model:ir.model.fields,field_description:sms.field_gamification_challenge__message_has_sms_error
 #: model:ir.model.fields,field_description:sms.field_iap_account__message_has_sms_error
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sms.field_lunch_supplier__message_has_sms_error
 #: model:ir.model.fields,field_description:sms.field_mail_blacklist__message_has_sms_error
@@ -6841,8 +7212,14 @@ msgstr ""
 #: model:ir.model.fields,field_description:sms.field_maintenance_equipment_category__message_has_sms_error
 #: model:ir.model.fields,field_description:sms.field_maintenance_request__message_has_sms_error
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:sms.field_note_note__message_has_sms_error
 #: model:ir.model.fields,field_description:sms.field_phone_blacklist__message_has_sms_error
+=======
+#: model:ir.model.fields,field_description:sms.field_phone_blacklist__message_has_sms_error
+#: model:ir.model.fields,field_description:sms.field_product_category__message_has_sms_error
+#: model:ir.model.fields,field_description:sms.field_product_pricelist__message_has_sms_error
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:sms.field_phone_blacklist__message_has_sms_error
 #: model:ir.model.fields,field_description:sms.field_product_category__message_has_sms_error
@@ -6860,25 +7237,37 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/sms/static/src/messaging_menu/messaging_menu_patch.js:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 msgid "SMS Failure: %(modelName)s"
 msgstr ""
 
 #. module: sms
 #. odoo-javascript
 #: code:addons/sms/static/src/messaging_menu/messaging_menu_patch.js:0
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "SMS Failures"
 msgstr ""
 
 #. module: sms
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sms.field_mail_notification__sms_id_int
 msgid "SMS ID"
 msgstr ""
 
 #. module: sms
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sms.field_mail_notification__sms_number
 msgid "SMS Number"
@@ -6907,7 +7296,10 @@ msgstr ""
 
 #. module: sms
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:sms.field_base_automation__sms_template_id
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sms.field_ir_actions_server__sms_template_id
@@ -6943,12 +7335,18 @@ msgstr ""
 
 #. module: sms
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sms.field_mail_notification__sms_tracker_ids
 msgid "SMS Trackers"
 msgstr ""
 
 #. module: sms
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sms.sms_template_preview_form
 msgid "SMS content"
@@ -6956,7 +7354,10 @@ msgstr ""
 
 #. module: sms
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/sms/models/ir_actions_server.py:0
 msgid "SMS template model of %(action_name)s does not match action model."
@@ -6973,6 +7374,9 @@ msgid "SMS uuid"
 msgstr ""
 
 #. module: sms
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.actions.server,name:sms.ir_cron_sms_scheduler_action_ir_actions_server
 msgid "SMS: SMS Queue Manager"
@@ -7036,6 +7440,7 @@ msgid "Send Now"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Pošalji odmah"
@@ -7145,6 +7550,8 @@ msgstr "Pošalji odmah"
 
 #. module: sms
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Pošalji odmah"
 
 #. module: sms
@@ -7154,6 +7561,9 @@ msgstr "Pošalji odmah"
 #: model:ir.actions.act_window,name:sms.res_partner_act_window_sms_composer_single
 #: model:ir.actions.act_window,name:sms.sms_composer_action_form
 #: model:ir.model.fields.selection,name:sms.selection__ir_actions_server__state__sms
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sms.sms_composer_view_form
 msgid "Send SMS"
@@ -7167,6 +7577,7 @@ msgstr ""
 
 #. module: sms
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/sms/static/src/components/sms_button/sms_button.js:0
 #: model:ir.actions.act_window,name:sms.res_partner_act_window_sms_composer_multi
@@ -7174,6 +7585,11 @@ msgstr ""
 #: model:ir.actions.act_window,name:sms.sms_composer_action_form
 #: model:ir.model.fields.selection,name:sms.selection__ir_actions_server__state__sms
 msgid "Send SMS Text Message"
+=======
+#: model:ir.model.fields,field_description:sms.field_ir_actions_server__sms_method
+#: model:ir.model.fields,field_description:sms.field_ir_cron__sms_method
+msgid "Send SMS As"
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:sms.field_ir_actions_server__sms_method
 #: model:ir.model.fields,field_description:sms.field_ir_cron__sms_method
@@ -7193,18 +7609,25 @@ msgstr ""
 
 #. module: sms
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:iap.service,description:sms.iap_service_sms
 msgid "Send SMS to your contacts directly from your database."
 msgstr ""
 
 #. module: sms
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sms.sms_composer_view_form
 msgid "Send an SMS"
 msgstr ""
 
 #. module: sms
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sms.ir_actions_server_view_form
 msgid "Send as"
@@ -7220,6 +7643,8 @@ msgstr ""
 #. module: sms
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sms.field_sms_composer__mass_force_send
 msgid "Send directly"
 msgstr ""
@@ -7231,7 +7656,10 @@ msgstr ""
 
 #. module: sms
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sms.sms_account_phone_view_form
 msgid "Send verification code"
 msgstr ""
@@ -7243,6 +7671,9 @@ msgid "Sender Name"
 msgstr ""
 
 #. module: sms
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.actions.act_window,name:sms.sms_resend_action
 msgid "Sending Failures"
@@ -7251,6 +7682,7 @@ msgstr ""
 #. module: sms
 #. odoo-python
 #: code:addons/sms/models/ir_actions_server.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgid "Sending SMS can only be done on a mail.thread or a transient model"
 msgstr ""
@@ -7400,6 +7832,8 @@ msgstr "Poslano"
 msgstr "Poslano"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgid "Sending SMS can only be done on a not transient mail.thread model"
 msgstr ""
 
@@ -7407,6 +7841,9 @@ msgstr ""
 #: model:ir.model.fields.selection,name:sms.selection__sms_sms__state__pending
 msgid "Sent"
 msgstr "Poslano"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sms
@@ -7448,7 +7885,11 @@ msgid "Server Action"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Serverska akcija"
+>>>>>>> upstream/18.0
 =======
 msgstr "Serverska akcija"
 >>>>>>> upstream/18.0
@@ -7598,6 +8039,7 @@ msgid "Server Error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Serverska greška"
@@ -7705,12 +8147,17 @@ msgstr "Serverska greška"
 msgstr "Serverska greška"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Serverska greška"
 
 #. module: sms
 #: model_terms:ir.ui.view,arch_db:sms.sms_account_sender_view_form
 msgid "Set sender name"
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sms
@@ -7721,6 +8168,7 @@ msgstr ""
 #. module: sms
 #: model:ir.model.fields,field_description:sms.field_sms_template__sidebar_action_id
 msgid "Sidebar action"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8044,6 +8492,8 @@ msgstr ""
 "povezanog modela dokumenta"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Akcija sidebar-a"
 
 #. module: sms
@@ -8054,6 +8504,9 @@ msgid ""
 msgstr ""
 "Akcija sidebar-a za postavljanje ovog prijedloga dostupnog na akcijama "
 "povezanog modela dokumenta"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sms
@@ -8063,12 +8516,18 @@ msgstr ""
 
 #. module: sms
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sms.sms_account_sender_view_form
 msgid "Skip for now"
 msgstr ""
 
 #. module: sms
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sms.field_sms_resend_recipient__sms_resend_id
 msgid "Sms Resend"
@@ -8129,7 +8588,11 @@ msgid "Template"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prijedlog"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prijedlog"
 >>>>>>> upstream/18.0
@@ -8283,7 +8746,11 @@ msgid "Template Preview"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pregled predloška"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pregled predloška"
 >>>>>>> upstream/18.0
@@ -8437,6 +8904,7 @@ msgid "Templates"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Predlošci"
@@ -8544,6 +9012,8 @@ msgstr "Predlošci"
 msgstr "Predlošci"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Predlošci"
 
 #. module: sms
@@ -8553,6 +9023,9 @@ msgid ""
 "The SMS Service is currently unavailable for new users and new accounts "
 "registrations are suspended."
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sms
@@ -8564,8 +9037,11 @@ msgstr ""
 #. module: sms
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/sms/models/sms_api.py:0
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/sms/tools/sms_api.py:0
 msgid "The content of the message violates rules applied by our providers."
 msgstr ""
@@ -8579,6 +9055,9 @@ msgstr ""
 #. module: sms
 #. odoo-python
 #: code:addons/sms/tools/sms_api.py:0
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "The number you're trying to reach is not correctly formatted."
 msgstr ""
@@ -8592,13 +9071,19 @@ msgstr ""
 #. module: sms
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/sms/tools/sms_api.py:0
 msgid "The verification code is incorrect."
 msgstr ""
 
 #. module: sms
 #. odoo-python
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/sms/models/sms_sms.py:0
 msgid "There are no SMS Text Messages to resend."
@@ -8606,9 +9091,12 @@ msgstr ""
 
 #. module: sms
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sms.res_partner_view_form
 msgid "This phone number is blacklisted for SMS Marketing. Click to unblacklist."
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/sms/tools/sms_api.py:0
 msgid "This SMS has been removed as the number was already used."
@@ -8636,6 +9124,9 @@ msgstr ""
 #. odoo-python
 #: code:addons/sms/tools/sms_api.py:0
 msgid "This phone number/account has been banned from our service."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -8645,6 +9136,7 @@ msgid "Try Again"
 msgstr ""
 
 #. module: sms
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.model.fields,field_description:sms.field_mail_mail__message_type
 #: model:ir.model.fields,field_description:sms.field_mail_message__message_type
@@ -8794,6 +9286,8 @@ msgstr "Tip"
 #. module: sms
 #: model:ir.model.fields,help:sms.field_base_automation__state
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sms.field_ir_actions_server__state
 #: model:ir.model.fields,field_description:sms.field_ir_cron__state
 #: model:ir.model.fields,field_description:sms.field_mail_mail__message_type
@@ -8802,11 +9296,15 @@ msgid "Type"
 msgstr "Tip"
 
 #. module: sms
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,help:sms.field_ir_actions_server__state
 #: model:ir.model.fields,help:sms.field_ir_cron__state
 msgid ""
 "Type of server action. The following values are available:\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "- 'Execute Python Code': a block of python code that will be executed\n"
 "- 'Create a new Record': create a new record with new values\n"
@@ -8817,6 +9315,8 @@ msgid ""
 "- 'Create Next Activity': create an activity (Discuss)\n"
 "- 'Send SMS Text Message': send SMS, log them on documents (SMS)"
 =======
+=======
+>>>>>>> upstream/18.0
 "- 'Update a Record': update the values of a record\n"
 "- 'Create Activity': create an activity (Discuss)\n"
 "- 'Send Email': post a message, a note or send an email (Discuss)\n"
@@ -8843,6 +9343,9 @@ msgstr ""
 #. module: sms
 #: model:ir.model.fields.selection,name:sms.selection__sms_sms__failure_type__unknown
 msgid "Unknown error"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -8864,7 +9367,10 @@ msgstr ""
 
 #. module: sms
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:sms.field_mail_mail__message_type
 #: model:ir.model.fields,help:sms.field_mail_message__message_type
 msgid ""
@@ -8884,6 +9390,9 @@ msgid "Verification Code"
 msgstr ""
 
 #. module: sms
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sms.field_sms_composer__res_ids_count
 msgid "Visible records count"
@@ -8929,6 +9438,7 @@ msgid "Warning"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Upozorenje"
@@ -9036,6 +9546,8 @@ msgstr "Upozorenje"
 msgstr "Upozorenje"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Upozorenje"
 
 #. module: sms
@@ -9051,6 +9563,9 @@ msgid ""
 "We were not able to reach you via your phone number. If you have requested "
 "multiple codes recently, please retry later."
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sms
@@ -9092,7 +9607,11 @@ msgid "Website Messages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poruke sa website-a"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poruke sa website-a"
 >>>>>>> upstream/18.0
@@ -9214,7 +9733,10 @@ msgstr ""
 
 #. module: sms
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:sms.field_sms_sms__to_delete
 msgid ""
 "Will automatically be deleted, while notifications will not be deleted in "
@@ -9222,6 +9744,9 @@ msgid ""
 msgstr ""
 
 #. module: sms
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:sms.selection__mail_notification__failure_type__sms_number_format
 #: model:ir.model.fields.selection,name:sms.selection__sms_sms__failure_type__sms_number_format
@@ -9237,7 +9762,11 @@ msgstr ""
 #. module: sms
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/sms/models/sms_api.py:0
+=======
+#: code:addons/sms/tools/sms_api.py:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/sms/tools/sms_api.py:0
 >>>>>>> upstream/18.0
@@ -9247,7 +9776,11 @@ msgstr ""
 #. module: sms
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/sms/models/sms_api.py:0
+=======
+#: code:addons/sms/tools/sms_api.py:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/sms/tools/sms_api.py:0
 >>>>>>> upstream/18.0
@@ -9256,10 +9789,13 @@ msgstr ""
 
 #. module: sms
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/sms/static/src/components/sms_widget/fields_sms_widget.js:0
 msgid "Your SMS Text Message must include at least one non-whitespace character"
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/sms/tools/sms_api.py:0
 msgid "You tried too many times. Please retry later."
@@ -9299,6 +9835,9 @@ msgstr ""
 #. odoo-python
 #: code:addons/sms/tools/sms_api.py:0
 msgid "Your sms account has not been activated yet."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -9306,7 +9845,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/sms/static/src/components/sms_widget/fields_sms_widget.xml:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "characters, fits in"
+=======
+msgid "characters"
+>>>>>>> upstream/18.0
 =======
 msgid "characters"
 >>>>>>> upstream/18.0
@@ -9340,7 +9883,13 @@ msgstr ""
 #. module: sms
 #: model_terms:ir.ui.view,arch_db:sms.sms_composer_view_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "recipients have an invalid phone number and will not receive this text message."
+=======
+msgid ""
+"recipients have an invalid phone number and will not receive this text "
+"message."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "recipients have an invalid phone number and will not receive this text "
@@ -9353,7 +9902,10 @@ msgstr ""
 msgid "record:"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 #~ msgid "Action To Do"
 #~ msgstr "Akcija za uraditi"
@@ -9370,4 +9922,7 @@ msgstr ""
 
 #~ msgid "Number of messages which requires an action"
 #~ msgstr "Broj poruka koje zahtjevaju neku akciju"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

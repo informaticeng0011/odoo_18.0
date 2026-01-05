@@ -2,6 +2,7 @@
 # This file contains the translation of the following modules:
 # 	* delivery
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -969,17 +970,23 @@
 >>>>>>> upstream/18.0
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Manon Rondou, 2025
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2025-01-27 13:03+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -1758,6 +1765,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: nl\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2025\n"
@@ -1766,6 +1775,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -1813,7 +1825,12 @@ msgstr ""
 msgid ""
 "<span class=\"o_stat_text o_warning_text fw-bold\">Test</span>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <span class=\"o_stat_text\">Environment</span>"
+=======
+"                                <span class=\"o_stat_text\">Environment</"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "                                <span class=\"o_stat_text\">Environment</"
 "span>"
@@ -1837,7 +1854,12 @@ msgstr "<span class=\"text-success\">Debug aanvragen</span>"
 msgid ""
 "<span class=\"text-success\">Production</span>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <span class=\"o_stat_text\">Environment</span>"
+=======
+"                                <span class=\"o_stat_text\">Environment</"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "                                <span class=\"o_stat_text\">Environment</"
 "span>"
@@ -1859,9 +1881,15 @@ msgid ""
 "for customers to follow."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Een beschrijving van de leveringsmethode die je aan je klanten wilt meedelen"
 " op de verkooporder en de e-mail met de verkoopbevestiging. Bijv. "
 "instructies die klanten moeten volgen."
+=======
+"Een beschrijving van de leveringsmethode die je aan je klanten wilt meedelen "
+"op de verkooporder en de e-mail met de verkoopbevestiging. Bijv. instructies "
+"die klanten moeten volgen."
+>>>>>>> upstream/18.0
 =======
 "Een beschrijving van de leveringsmethode die je aan je klanten wilt meedelen "
 "op de verkooporder en de e-mail met de verkoopbevestiging. Bijv. instructies "
@@ -1912,8 +1940,13 @@ msgid ""
 "company currency"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Bedrag van de order wat kan profiteren van een gratis verzending, uitgedrukt"
 " in het bedrijfsvaluta"
+=======
+"Bedrag van de order wat kan profiteren van een gratis verzending, uitgedrukt "
+"in het bedrijfsvaluta"
+>>>>>>> upstream/18.0
 =======
 "Bedrag van de order wat kan profiteren van een gratis verzending, uitgedrukt "
 "in het bedrijfsvaluta"
@@ -1958,8 +1991,12 @@ msgstr "Vervoerder"
 #: code:addons/delivery/models/delivery_carrier.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Carrier %s cannot have the same tag in both Must Have Tags and Excluded "
 "Tags."
+=======
+"Carrier %s cannot have the same tag in both Must Have Tags and Excluded Tags."
+>>>>>>> upstream/18.0
 =======
 "Carrier %s cannot have the same tag in both Must Have Tags and Excluded Tags."
 >>>>>>> upstream/18.0
@@ -2293,7 +2330,11 @@ msgid "Delivery Methods"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Verzendwijzes"
+=======
+msgstr "Verzendmethoden"
+>>>>>>> upstream/18.0
 =======
 msgstr "Verzendmethoden"
 >>>>>>> upstream/18.0
@@ -3142,6 +3183,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Elke vervoerder (bijv. UPS) kan verschillende verzendwijzes hebben (bijv.\n"
 =======
 "Elke vervoerder (bijv. UPS) kan verschillende verzendmethoden hebben (bijv.\n"
@@ -3725,6 +3767,11 @@ msgstr ""
 "            UPS Express, UPS Standard) telkens gekoppeld aan een aantal "
 "regels\n"
 >>>>>>> upstream/18.0
+=======
+"Elke vervoerder (bijv. UPS) kan verschillende verzendmethoden hebben (bijv.\n"
+"            UPS Express, UPS Standard) telkens gekoppeld aan een aantal "
+"regels\n"
+>>>>>>> upstream/18.0
 "met prijsformules."
 
 #. module: delivery
@@ -3748,12 +3795,15 @@ msgstr "Fout: deze verzendwijze is niet beschikbaar."
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__invoice_policy
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Estimated Cost: the customer will be invoiced the estimated cost of the shipping.\n"
 "Real Cost: the customer will be invoiced the real cost of the shipping, the cost of theshipping will be updated on the SO after the delivery."
 msgstr ""
 "Geschatte kosten: de geschatte kosten van de levering zullen aan de klant gefactureerd worden. \n"
 "Werkelijke kosten: de werkelijke kosten van de levering zullen aan de klant gefactureerd worden, de verzendkosten worden bijgewerkt op het verkooporder na de levering."
 =======
+=======
+>>>>>>> upstream/18.0
 "Estimated Cost: the customer will be invoiced the estimated cost of the "
 "shipping.\n"
 "Real Cost: the customer will be invoiced the real cost of the shipping, the "
@@ -3764,6 +3814,9 @@ msgstr ""
 "Werkelijke kosten: de werkelijke kosten van de levering zullen aan de klant "
 "gefactureerd worden, de verzendkosten worden bijgewerkt op het verkooporder "
 "na de levering."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: delivery
@@ -3787,17 +3840,23 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Filling this form allows you to make the shipping method available according"
 " to the content of the order or its destination."
 msgstr ""
 "Vul dit formulier in om de verzendmethode aan te passen naargelang de inhoud"
 " van de order of de bestemming."
 =======
+=======
+>>>>>>> upstream/18.0
 "Filling this form allows you to make the shipping method available according "
 "to the content of the order or its destination."
 msgstr ""
 "Vul dit formulier in om de verzendmethode aan te passen naargelang de inhoud "
 "van de order of de bestemming."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: delivery
@@ -3869,8 +3928,13 @@ msgid ""
 "available."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "De methode is niet beschikbaar als het totale gewicht van de order groter is"
 " dan dit gewicht."
+=======
+"De methode is niet beschikbaar als het totale gewicht van de order groter is "
+"dan dit gewicht."
+>>>>>>> upstream/18.0
 =======
 "De methode is niet beschikbaar als het totale gewicht van de order groter is "
 "dan dit gewicht."
@@ -4066,9 +4130,15 @@ msgid ""
 "will only match '100' and not '1000')"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Voorvoegsels van postcodes waarop deze vervoerder van toepassing is. Merk op"
 " dat reguliere expressies kunnen worden gebruikt om landen met verschillende"
 " postcodelengtes te ondersteunen, d.w.z. '$' kan worden toegevoegd aan het "
+=======
+"Voorvoegsels van postcodes waarop deze vervoerder van toepassing is. Merk op "
+"dat reguliere expressies kunnen worden gebruikt om landen met verschillende "
+"postcodelengtes te ondersteunen, d.w.z. '$' kan worden toegevoegd aan het "
+>>>>>>> upstream/18.0
 =======
 "Voorvoegsels van postcodes waarop deze vervoerder van toepassing is. Merk op "
 "dat reguliere expressies kunnen worden gebruikt om landen met verschillende "
@@ -4179,6 +4249,7 @@ msgstr "Verzendwijze"
 #: model:ir.model,name:delivery.model_delivery_carrier
 #: model_terms:ir.ui.view,arch_db:delivery.res_config_settings_view_form
 msgid "Shipping Methods"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4952,6 +5023,9 @@ msgstr "Verzendmethoden"
 =======
 msgstr "Verzendmethoden"
 >>>>>>> upstream/18.0
+=======
+msgstr "Verzendmethoden"
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_sale_order__shipping_weight
@@ -4975,8 +5049,13 @@ msgid ""
 msgstr ""
 "Details van de verzendmethode die moeten worden opgenomen aan de onderkant "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "van de verkooporders en de bevestigingsmails. Bijv. Instructies voor klanten"
 " om te volgen."
+=======
+"van de verkooporders en de bevestigingsmails. Bijv. Instructies voor klanten "
+"om te volgen."
+>>>>>>> upstream/18.0
 =======
 "van de verkooporders en de bevestigingsmails. Bijv. Instructies voor klanten "
 "om te volgen."
@@ -5011,8 +5090,13 @@ msgid ""
 "these tags."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "De methode is NIET beschikbaar als er minstens een product van de order over"
 " een van deze labels beschikt."
+=======
+"De methode is NIET beschikbaar als er minstens een product van de order over "
+"een van deze labels beschikt."
+>>>>>>> upstream/18.0
 =======
 "De methode is NIET beschikbaar als er minstens een product van de order over "
 "een van deze labels beschikt."
@@ -5022,8 +5106,13 @@ msgstr ""
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__must_have_tag_ids
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The method is available only if at least one product of the order has one of"
 " these tags."
+=======
+"The method is available only if at least one product of the order has one of "
+"these tags."
+>>>>>>> upstream/18.0
 =======
 "The method is available only if at least one product of the order has one of "
 "these tags."
@@ -5095,6 +5184,7 @@ msgstr "Dit percentage wordt toegevoegd aan de afleverprijs."
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_choose_delivery_carrier__total_weight
 msgid "Total Order Weight"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5656,6 +5746,9 @@ msgstr "Totaal ordergewicht"
 =======
 msgstr "Totaal ordergewicht"
 >>>>>>> upstream/18.0
+=======
+msgstr "Totaal ordergewicht"
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__tracking_url
@@ -5722,6 +5815,7 @@ msgstr "Gewicht maateenheid label"
 #: code:addons/delivery/models/sale_order.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can not update the shipping costs on an order where it was already invoiced!\n"
 "\n"
 "The following delivery lines (product, invoiced quantity and price) have already been processed:\n"
@@ -5731,6 +5825,8 @@ msgstr ""
 "\n"
 "De volgende leveringsregels (product, gefactureerde aantal en prijs) zijn al verwerkt:\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "You can not update the shipping costs on an order where it was already "
 "invoiced!\n"
 "\n"
@@ -5743,6 +5839,9 @@ msgstr ""
 "\n"
 "De volgende leveringsregels (product, gefactureerde aantal en prijs) zijn al "
 "verwerkt:\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: delivery

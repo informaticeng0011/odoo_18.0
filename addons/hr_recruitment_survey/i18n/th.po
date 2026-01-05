@@ -2,22 +2,29 @@
 # This file contains the translation of the following modules:
 # 	* hr_recruitment_survey
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Rasareeyar Lappiam, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Rasareeyar Lappiam, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -28,6 +35,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: th\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Rasareeyar Lappiam, 2025\n"
@@ -36,6 +45,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
 
@@ -45,6 +57,7 @@ msgid ""
 "<div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Dear <t t-out=\"object.partner_id.name or 'applicant'\">[applicant name]</t><br/><br/>\n"
 "        <t>\n"
 "            You've progressed through the recruitment process and we would like you to answer some questions.\n"
@@ -52,6 +65,8 @@ msgid ""
 "        </p><div style=\"margin: 16px 0px 16px 0px;\">\n"
 "            <a t-att-href=\"(object.get_start_url())\" style=\"background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        Dear <t t-out=\"object.partner_id.name or 'applicant'\">[applicant "
 "name]</t><br/><br/>\n"
 "        <t>\n"
@@ -62,6 +77,9 @@ msgid ""
 "            <a t-att-href=\"(object.get_start_url())\" style=\"background-"
 "color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: "
 "#fff; border-radius: 5px; font-size:13px;\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                <t>\n"
 "                    Start the written interview\n"
@@ -70,17 +88,23 @@ msgid ""
 "        </div>\n"
 "        <t t-if=\"object.deadline\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Please answer the interview for <t t-out=\"format_date(object.deadline)\">[deadline date]</t>.<br/><br/>\n"
 "        </t>\n"
 "        <t>\n"
 "            We wish you good luck! Thank you in advance for your participation.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            Please answer the interview for <t t-"
 "out=\"format_date(object.deadline)\">[deadline date]</t>.<br/><br/>\n"
 "        </t>\n"
 "        <t>\n"
 "            We wish you good luck! Thank you in advance for your "
 "participation.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "        </t>\n"
 "    \n"
@@ -90,7 +114,12 @@ msgstr ""
 "<div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        เรียน <t t-out=\"object.partner_id.name or 'applicant'\">[ชื่อผู้สมัคร]</t><br/><br/>\n"
+=======
+"        เรียน <t t-out=\"object.partner_id.name or 'applicant'\">[ชื่อผู้สมัคร]</"
+"t><br/><br/>\n"
+>>>>>>> upstream/18.0
 =======
 "        เรียน <t t-out=\"object.partner_id.name or 'applicant'\">[ชื่อผู้สมัคร]</"
 "t><br/><br/>\n"
@@ -100,7 +129,13 @@ msgstr ""
 "        </t>\n"
 "        <div style=\"margin: 16px 0px 16px 0px;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <a t-att-href=\"(object.get_start_url())\" style=\"background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;\">\n"
+=======
+"            <a t-att-href=\"(object.get_start_url())\" style=\"background-"
+"color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: "
+"#fff; border-radius: 5px; font-size:13px;\">\n"
+>>>>>>> upstream/18.0
 =======
 "            <a t-att-href=\"(object.get_start_url())\" style=\"background-"
 "color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: "
@@ -113,7 +148,12 @@ msgstr ""
 "        </div>\n"
 "        <t t-if=\"object.deadline\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            กรุณาตอบคำถามสัมภาษณ์ภายในวันที่ <t t-out=\"format_date(object.deadline)\">[วันที่สิ้นสุด]</t><br/><br/>\n"
+=======
+"            กรุณาตอบคำถามสัมภาษณ์ภายในวันที่ <t t-"
+"out=\"format_date(object.deadline)\">[วันที่สิ้นสุด]</t><br/><br/>\n"
+>>>>>>> upstream/18.0
 =======
 "            กรุณาตอบคำถามสัมภาษณ์ภายในวันที่ <t t-"
 "out=\"format_date(object.deadline)\">[วันที่สิ้นสุด]</t><br/><br/>\n"
@@ -172,16 +212,22 @@ msgstr "ผู้สมัคร: สัมภาษณ์"
 #: model:ir.model.fields,help:hr_recruitment_survey.field_hr_job__survey_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Choose an interview form for this job position and you will be able to "
 "print/answer this interview from all applicants who apply for this job"
 msgstr ""
 "เลือกแบบสัมภาษณ์สำหรับตำแหน่งงานนี้แล้วคุณจะสามารถพิมพ์/ตอบสัมภาษณ์นี้ได้จากผู้สมัครทุกคนที่สมัครงานนี้"
 =======
+=======
+>>>>>>> upstream/18.0
 "Choose an interview form for this job position and you will be able to print/"
 "answer this interview from all applicants who apply for this job"
 msgstr ""
 "เลือกแบบสัมภาษณ์สำหรับตำแหน่งงานนี้แล้วคุณจะสามารถพิมพ์/"
 "ตอบสัมภาษณ์นี้ได้จากผู้สมัครทุกคนที่สมัครงานนี้"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_recruitment_survey
@@ -295,8 +341,12 @@ msgid ""
 "Please answer those questions to help recruitment officers to preprocess "
 "your application."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "โปรดตอบคำถามเหล่านี้เพื่อช่วยเจ้าหน้าที่สรรหาในการประมวลผลใบสมัครของคุณล่วงหน้า"
+=======
+msgstr "โปรดตอบคำถามเหล่านี้เพื่อช่วยเจ้าหน้าที่สรรหาในการประมวลผลใบสมัครของคุณล่วงหน้า"
+>>>>>>> upstream/18.0
 =======
 msgstr "โปรดตอบคำถามเหล่านี้เพื่อช่วยเจ้าหน้าที่สรรหาในการประมวลผลใบสมัครของคุณล่วงหน้า"
 >>>>>>> upstream/18.0
@@ -305,7 +355,12 @@ msgstr "โปรดตอบคำถามเหล่านี้เพื่
 #: model_terms:survey.question,description:hr_recruitment_survey.survey_recruitment_form_p1
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Please fill information about you: who you are, what are your education, experience, and activities.\n"
+=======
+"Please fill information about you: who you are, what are your education, "
+"experience, and activities.\n"
+>>>>>>> upstream/18.0
 =======
 "Please fill information about you: who you are, what are your education, "
 "experience, and activities.\n"
@@ -333,8 +388,12 @@ msgstr "กรุณาสรุปประวัติการศึกษา
 msgid ""
 "Please tell us a bit more about yourself: what are your main activities, ..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "โปรดเล่าให้เราฟังเพิ่มเติมเกี่ยวกับตัวคุณหน่อย: กิจกรรมหลักของคุณคืออะไร ..."
+=======
+msgstr "โปรดเล่าให้เราฟังเพิ่มเติมเกี่ยวกับตัวคุณหน่อย: กิจกรรมหลักของคุณคืออะไร ..."
+>>>>>>> upstream/18.0
 =======
 msgstr "โปรดเล่าให้เราฟังเพิ่มเติมเกี่ยวกับตัวคุณหน่อย: กิจกรรมหลักของคุณคืออะไร ..."
 >>>>>>> upstream/18.0

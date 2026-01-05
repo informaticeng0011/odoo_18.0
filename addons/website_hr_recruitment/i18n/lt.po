@@ -43,8 +43,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* website_hr_recruitment
 # 
+=======
+# * website_hr_recruitment
+#
+>>>>>>> upstream/18.0
 =======
 # * website_hr_recruitment
 #
@@ -227,6 +232,7 @@
 # digitouch UAB <digitouchagencyeur@gmail.com>, 2024
 # Jonas Zinkevicius <jozi@odoo.com>, 2024
 # Linas Versada <linaskrisiukenas@gmail.com>, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -791,10 +797,14 @@
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1714,6 +1724,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-21 06:38+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Lithuanian <https://translate.odoo.com/projects/odoo-18/"
@@ -1723,6 +1736,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < "
+<<<<<<< HEAD
 <<<<<<< HEAD
 "11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 :"
 " n % 1 != 0 ? 2: 3);\n"
@@ -1856,6 +1870,11 @@ msgstr ""
 "1 : n % 1 != 0 ? 2: 3);\n"
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
+=======
+"11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? "
+"1 : n % 1 != 0 ? 2: 3);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: website_hr_recruitment
 #. odoo-python
@@ -1943,7 +1962,12 @@ msgstr ""
 msgid ""
 "<span class=\"h5 fw-light\">In the meantime,</span><br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                            <span class=\"h3 mt8 mb32 fw-bold\">Take a look around our website:</span>"
+=======
+"                                            <span class=\"h3 mt8 mb32 fw-"
+"bold\">Take a look around our website:</span>"
+>>>>>>> upstream/18.0
 =======
 "                                            <span class=\"h3 mt8 mb32 fw-"
 "bold\">Take a look around our website:</span>"
@@ -1980,7 +2004,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.apply
 msgid "<span class=\"s_website_form_label_content\">Short Introduction</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span class=\"s_website_form_label_content\">Trumpas prisistatymas</span>"
+=======
+msgstr ""
+"<span class=\"s_website_form_label_content\">Trumpas prisistatymas</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "<span class=\"s_website_form_label_content\">Trumpas prisistatymas</span>"
@@ -1991,7 +2020,12 @@ msgstr ""
 msgid ""
 "<span class=\"s_website_form_label_content\">Your Email</span>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                                <span class=\"s_website_form_mark\"> *</span>"
+=======
+"                                                <span "
+"class=\"s_website_form_mark\"> *</span>"
+>>>>>>> upstream/18.0
 =======
 "                                                <span "
 "class=\"s_website_form_mark\"> *</span>"
@@ -2003,17 +2037,23 @@ msgstr ""
 msgid ""
 "<span class=\"s_website_form_label_content\">Your Name</span>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                                <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Jūsų vardas</span>\n"
 "                                                <span class=\"s_website_form_mark\"> *</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                                <span "
 "class=\"s_website_form_mark\"> *</span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Jūsų vardas</span>\n"
 "                                                <span "
 "class=\"s_website_form_mark\"> *</span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_hr_recruitment
@@ -2021,7 +2061,12 @@ msgstr ""
 msgid ""
 "<span class=\"s_website_form_label_content\">Your Phone Number</span>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                                <span class=\"s_website_form_mark\"> *</span>"
+=======
+"                                                <span "
+"class=\"s_website_form_mark\"> *</span>"
+>>>>>>> upstream/18.0
 =======
 "                                                <span "
 "class=\"s_website_form_mark\"> *</span>"
@@ -2122,8 +2167,13 @@ msgstr ""
 #: code:addons/website_hr_recruitment/controllers/main.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "An application already exists for %(value)s. Duplicates might be rejected. "
 "%(recruiter_contact)s"
+=======
+"An application already exists for %(value)s. Duplicates might be rejected. %"
+"(recruiter_contact)s"
+>>>>>>> upstream/18.0
 =======
 "An application already exists for %(value)s. Duplicates might be rejected. %"
 "(recruiter_contact)s"
@@ -2161,6 +2211,7 @@ msgstr "Kandidatuokite dabar!"
 msgid ""
 "As an employee of our company, you will <b>collaborate with each department\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        to create and deploy disruptive products.</b> Come work at a growing company\n"
 "                        that offers great benefits with opportunities to moving forward and learn\n"
 "                        alongside accomplished leaders. We're seeking an experienced and outstanding\n"
@@ -2170,6 +2221,8 @@ msgid ""
 "                        outside the box. We expect the candidate to be proactive and have a \"get it done\"\n"
 "                        spirit. To be successful, you will have solid solving problem skills."
 =======
+=======
+>>>>>>> upstream/18.0
 "                        to create and deploy disruptive products.</b> Come "
 "work at a growing company\n"
 "                        that offers great benefits with opportunities to "
@@ -2184,6 +2237,9 @@ msgid ""
 "proactive and have a \"get it done\"\n"
 "                        spirit. To be successful, you will have solid "
 "solving problem skills."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -2233,7 +2289,11 @@ msgid "Autonomy"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Autonomy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Autonomy"
 >>>>>>> upstream/18.0
@@ -2415,8 +2475,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.index
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Create new job pages from the <strong>+ <i>New</i></strong> top-right "
 "button."
+=======
+"Create new job pages from the <strong>+ <i>New</i></strong> top-right button."
+>>>>>>> upstream/18.0
 =======
 "Create new job pages from the <strong>+ <i>New</i></strong> top-right button."
 >>>>>>> upstream/18.0
@@ -2468,7 +2532,11 @@ msgid "Customer Relationship"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Customer Relationship"
+>>>>>>> upstream/18.0
 =======
 msgstr "Customer Relationship"
 >>>>>>> upstream/18.0
@@ -2631,11 +2699,14 @@ msgstr "Rodomas pavadinimas"
 msgid ""
 "Each employee has a chance to see the impact of his work.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    You can make a real contribution to the success of the company.\n"
 "                    <br/>\n"
 "                    Several activities are often organized all over the year, such as weekly\n"
 "                    sports sessions, team building events, monthly drink, and much more"
 =======
+=======
+>>>>>>> upstream/18.0
 "                    You can make a real contribution to the success of the "
 "company.\n"
 "                    <br/>\n"
@@ -2643,6 +2714,9 @@ msgid ""
 "year, such as weekly\n"
 "                    sports sessions, team building events, monthly drink, "
 "and much more"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -2707,11 +2781,14 @@ msgid ""
 "I usually <strong>answer applications within 3 days</strong>.\n"
 "                                                <br/><br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                                The next step is either a call or a meeting in our offices.\n"
 "                                                <br/><br/>\n"
 "                                                Feel free to <strong>contact me if you want a faster\n"
 "                                                feedback</strong> or if you don't get news from me\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                                The next step is either a "
 "call or a meeting in our offices.\n"
 "                                                <br/><br/>\n"
@@ -2719,6 +2796,9 @@ msgid ""
 "me if you want a faster\n"
 "                                                feedback</strong> or if you "
 "don't get news from me\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                                quickly enough."
 msgstr ""
@@ -2854,7 +2934,11 @@ msgid "LinkedIn Profile"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "LinkedIn profilis"
+>>>>>>> upstream/18.0
 =======
 msgstr "LinkedIn profilis"
 >>>>>>> upstream/18.0
@@ -3036,7 +3120,11 @@ msgid "Must Have"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Must Have"
+>>>>>>> upstream/18.0
 =======
 msgstr "Must Have"
 >>>>>>> upstream/18.0
@@ -3233,7 +3321,11 @@ msgid "No results found for '"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rezultatų nerasta pagal '"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rezultatų nerasta pagal '"
 >>>>>>> upstream/18.0
@@ -3371,6 +3463,7 @@ msgid ""
 msgstr ""
 
 #. module: website_hr_recruitment
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3896,6 +3989,8 @@ msgstr "Nepaskelbta"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.snippet_options
 msgid "Offices Filter"
 msgstr ""
@@ -3971,7 +4066,11 @@ msgid "Perks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Papildomos naudos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Papildomos naudos"
 >>>>>>> upstream/18.0
@@ -4148,7 +4247,11 @@ msgid "Personal Evolution"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Personal Evolution"
+>>>>>>> upstream/18.0
 =======
 msgstr "Personal Evolution"
 >>>>>>> upstream/18.0
@@ -4302,6 +4405,7 @@ msgid "Products"
 msgstr "Produktai"
 
 #. module: website_hr_recruitment
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4823,6 +4927,8 @@ msgstr "Produktai"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.hr_job_search_view_inherit
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.hr_job_website_inherit
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.view_hr_job_tree_inherit_website
@@ -4944,7 +5050,11 @@ msgid "Sidebar"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Šoninė juosta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Šoninė juosta"
 >>>>>>> upstream/18.0
@@ -5136,7 +5246,11 @@ msgid "Technical Expertise"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Techninė ekspertizė"
+>>>>>>> upstream/18.0
 =======
 msgstr "Techninė ekspertizė"
 >>>>>>> upstream/18.0
@@ -5295,7 +5409,12 @@ msgstr ""
 msgid ""
 "There are currently no open job opportunities,<br class=\"mb-2\"/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                            but feel free to <span class=\"fw-bold\">contact us</span> for a spontaneous application."
+=======
+"                                            but feel free to <span "
+"class=\"fw-bold\">contact us</span> for a spontaneous application."
+>>>>>>> upstream/18.0
 =======
 "                                            but feel free to <span "
 "class=\"fw-bold\">contact us</span> for a spontaneous application."
@@ -5359,7 +5478,11 @@ msgid "Trainings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Trainings"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trainings"
 >>>>>>> upstream/18.0
@@ -5509,13 +5632,19 @@ msgstr "Matomas dabartinėje svetainėje"
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.job_right_side_bar
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "We are a team of passionate people whose goal is to improve everyone's life through disruptive products.\n"
 "                                We build great products to solve your business problems."
 =======
+=======
+>>>>>>> upstream/18.0
 "We are a team of passionate people whose goal is to improve everyone's life "
 "through disruptive products.\n"
 "                                We build great products to solve your "
 "business problems."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 

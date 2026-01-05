@@ -2,6 +2,7 @@
 # This file contains the translation of the following modules:
 # 	* hr_work_entry_contract
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -464,17 +465,23 @@
 >>>>>>> upstream/18.0
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Marianna Ciofani, 2024
 # Sergio Zanchetta <primes2h@gmail.com>, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -942,6 +949,8 @@ msgstr ""
 "Language: it\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
@@ -952,6 +961,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
 "1 : 2;\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_work_entry_contract
@@ -962,16 +974,22 @@ msgid ""
 "        Defines the source for work entries generation\n"
 "\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Working Schedule: Work entries will be generated from the working hours below.\n"
 "        Attendances: Work entries will be generated from the employee's attendances. (requires Attendance app)\n"
 "        Planning: Work entries will be generated from the employee's planning. (requires Planning app)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        Working Schedule: Work entries will be generated from the working "
 "hours below.\n"
 "        Attendances: Work entries will be generated from the employee's "
 "attendances. (requires Attendance app)\n"
 "        Planning: Work entries will be generated from the employee's "
 "planning. (requires Planning app)\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "    "
 msgstr ""
@@ -979,16 +997,22 @@ msgstr ""
 "        Definisce la fonte per la generazione di voci di lavoro\n"
 "\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Pianificazione lavoro: le voci di lavoro verranno create a partire dalle seguenti ore lavorative.\n"
 "        Presenze: le voci di lavoro saranno generate a partire dalle presenze dei dipendenti. (App Presenze richiesta)\n"
 "        Pianificazione: le voci di lavoro saranno generate a partire dalla pianificazione dei dipendenti. (App Pianificazione richiesta)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        Pianificazione lavoro: le voci di lavoro verranno create a partire "
 "dalle seguenti ore lavorative.\n"
 "        Presenze: le voci di lavoro saranno generate a partire dalle "
 "presenze dei dipendenti. (App Presenze richiesta)\n"
 "        Pianificazione: le voci di lavoro saranno generate a partire dalla "
 "pianificazione dei dipendenti. (App Pianificazione richiesta)\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "    "
 
@@ -999,8 +1023,13 @@ msgid ""
 "%(employee)s does not have a contract from %(date_start)s to %(date_end)s."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Non esiste nessun contratto per %(employee)s dal %(date_start)s al "
 "%(date_end)s."
+=======
+"Non esiste nessun contratto per %(employee)s dal %(date_start)s al %"
+"(date_end)s."
+>>>>>>> upstream/18.0
 =======
 "Non esiste nessun contratto per %(employee)s dal %(date_start)s al %"
 "(date_end)s."
@@ -1014,8 +1043,13 @@ msgid ""
 "work entry cannot overlap multiple contracts."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Esiste più di un contratto per %(employee)s dal %(date_start)s al "
 "%(date_end)s. Una voce lavorativa non può sovrapporsi a più contratti."
+=======
+"Esiste più di un contratto per %(employee)s dal %(date_start)s al %"
+"(date_end)s. Una voce lavorativa non può sovrapporsi a più contratti."
+>>>>>>> upstream/18.0
 =======
 "Esiste più di un contratto per %(employee)s dal %(date_start)s al %"
 "(date_end)s. Una voce lavorativa non può sovrapporsi a più contratti."
@@ -1142,8 +1176,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-exclamation-triangle me-1\" title=\"Warning\"/>Non è "
 "consentito rigenerare voci di lavoro convalidate"
+=======
+"<i class=\"fa fa-exclamation-triangle me-1\" title=\"Avviso\"/>Non è "
+"consentito rigenerare voci lavorative convalidate"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-exclamation-triangle me-1\" title=\"Avviso\"/>Non è "
 "consentito rigenerare voci lavorative convalidate"
@@ -1723,7 +1762,11 @@ msgid "<i class=\"fa fa-info-circle me-1\" title=\"Hint\"/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-info-circle me-1\" title=\"Hint\"/>"
+=======
+msgstr "<i class=\"fa fa-info-circle me-1\" title=\"Suggerimento\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-info-circle me-1\" title=\"Suggerimento\"/>"
 >>>>>>> upstream/18.0
@@ -2235,7 +2278,11 @@ msgid "Earliest Available Date Message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Messaggio della prima data disponibile"
+=======
+msgstr "Messaggio di prima data disponibile"
+>>>>>>> upstream/18.0
 =======
 msgstr "Messaggio di prima data disponibile"
 >>>>>>> upstream/18.0
@@ -2727,7 +2774,11 @@ msgid "Extra Hours"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ore extra"
+=======
+msgstr "Ore aggiuntive"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ore aggiuntive"
 >>>>>>> upstream/18.0
@@ -3192,7 +3243,11 @@ msgid "From"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Da"
+=======
+msgstr "Dal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dal"
 >>>>>>> upstream/18.0
@@ -3667,7 +3722,11 @@ msgid "Generated From"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Generato da"
+=======
+msgstr "Generati dal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Generati dal"
 >>>>>>> upstream/18.0
@@ -4137,7 +4196,11 @@ msgid "Generic Time Off"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Congedo generico"
+=======
+msgstr "Ferie generiche"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ferie generiche"
 >>>>>>> upstream/18.0
@@ -4509,8 +4572,13 @@ msgstr "ID"
 #: code:addons/hr_work_entry_contract/wizard/hr_work_entry_regeneration_wizard.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In order to regenerate the work entries, you need to provide the wizard with"
 " an employee_id, a date_from and a date_to. In addition to that, the time "
+=======
+"In order to regenerate the work entries, you need to provide the wizard with "
+"an employee_id, a date_from and a date_to. In addition to that, the time "
+>>>>>>> upstream/18.0
 =======
 "In order to regenerate the work entries, you need to provide the wizard with "
 "an employee_id, a date_from and a date_to. In addition to that, the time "
@@ -4531,8 +4599,13 @@ msgid ""
 "be 'Working Hours'."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Opzione non valida: per calendari totalmente flessibili, la fonte della voce"
 " di lavoro non può essere \"Ore lavorative\"."
+=======
+"Opzione non valida: per calendari totalmente flessibili, la fonte della voce "
+"di lavoro non può essere \"Ore lavorative\"."
+>>>>>>> upstream/18.0
 =======
 "Opzione non valida: per calendari totalmente flessibili, la fonte della voce "
 "di lavoro non può essere \"Ore lavorative\"."
@@ -4671,7 +4744,11 @@ msgid "Latest Available Date Message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ultimo messaggio di data disponibile"
+=======
+msgstr "Messaggio di ultima data disponibile"
+>>>>>>> upstream/18.0
 =======
 msgstr "Messaggio di ultima data disponibile"
 >>>>>>> upstream/18.0
@@ -5141,7 +5218,11 @@ msgid "Long Term Time Off"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Congedo a lungo termine"
+=======
+msgstr "Ferie a lungo termine"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ferie a lungo termine"
 >>>>>>> upstream/18.0
@@ -5524,6 +5605,7 @@ msgstr "Malattia"
 #. module: hr_work_entry_contract
 #. odoo-python
 #: code:addons/hr_work_entry_contract/models/hr_contract.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgid ""
 "Sorry, generating work entries from cancelled contracts is not allowed."
@@ -5988,6 +6070,10 @@ msgstr "Non è consentito generare voci lavorative da contratti annullati."
 msgid "Sorry, generating work entries from cancelled contracts is not allowed."
 msgstr "Non è consentito generare voci lavorative da contratti annullati."
 >>>>>>> upstream/18.0
+=======
+msgid "Sorry, generating work entries from cancelled contracts is not allowed."
+msgstr "Non è consentito generare voci lavorative da contratti annullati."
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry_contract
 #. odoo-python
@@ -5998,8 +6084,13 @@ msgid ""
 "entries time interval."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "\"Data dal\" deve essere >= \"%(earliest_available_date)s\" e \"Data al\" <="
 " \"%(latest_available_date)s\", che corrisponde all'intervallo temporale "
+=======
+"\"Data dal\" deve essere >= \"%(earliest_available_date)s\" e \"Data al\" <= "
+"\"%(latest_available_date)s\", che corrisponde all'intervallo temporale "
+>>>>>>> upstream/18.0
 =======
 "\"Data dal\" deve essere >= \"%(earliest_available_date)s\" e \"Data al\" <= "
 "\"%(latest_available_date)s\", che corrisponde all'intervallo temporale "
@@ -6136,7 +6227,11 @@ msgid "To"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "A"
+=======
+msgstr "Al"
+>>>>>>> upstream/18.0
 =======
 msgstr "Al"
 >>>>>>> upstream/18.0
@@ -6637,7 +6732,11 @@ msgid "Working Schedule"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Programma di lavoro"
+=======
+msgstr "Orario lavorativo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Orario lavorativo"
 >>>>>>> upstream/18.0

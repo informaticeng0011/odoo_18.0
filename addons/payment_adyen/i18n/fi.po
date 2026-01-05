@@ -2,7 +2,11 @@
 # This file contains the translation of the following modules:
 # 	* payment_adyen
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -12,7 +16,11 @@
 # Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2024
 # Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -20,6 +28,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -30,6 +39,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: fi\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2025\n"
@@ -38,6 +49,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -45,12 +59,15 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:payment_adyen.payment_provider_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<strong>Warning:</strong> To capture the amount manually, you also need to set\n"
 "                    the Capture Delay to manual on your Adyen account settings."
 msgstr ""
 "<strong>Varoitus:</strong> Jos haluat lukea summan manuaalisesti, sinun on myös asetettava seuraavat asetukset\n"
 "                    adyen-tilisi asetuksissa Capture Delay -viiveeksi manuaalinen."
 =======
+=======
+>>>>>>> upstream/18.0
 "<strong>Warning:</strong> To capture the amount manually, you also need to "
 "set\n"
 "                    the Capture Delay to manual on your Adyen account "
@@ -60,6 +77,9 @@ msgstr ""
 "myös asetettava seuraavat asetukset\n"
 "                    adyen-tilisi asetuksissa Capture Delay -viiveeksi "
 "manuaalinen."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment_adyen
@@ -67,17 +87,23 @@ msgstr ""
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A request was sent to void the transaction with reference %(reference)s "
 "(%(provider)s)."
 msgstr ""
 "Lähetettiin pyyntö mitätöidä tapahtuma viitteellä %(reference)s "
 "(%(provider)s)."
 =======
+=======
+>>>>>>> upstream/18.0
 "A request was sent to void the transaction with reference %(reference)s (%"
 "(provider)s)."
 msgstr ""
 "Lähetettiin pyyntö mitätöidä tapahtuma viitteellä %(reference)s (%"
 "(provider)s)."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment_adyen
@@ -257,7 +283,12 @@ msgid ""
 msgstr ""
 "Tapahtuman lukeminen tai mitätöinti saattaa kestää muutaman hetken\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    ennen kuin Adyen on käsitellyt sen. Tämän jälkeen tapahtuma näkyy Odoossa."
+=======
+"                    ennen kuin Adyen on käsitellyt sen. Tämän jälkeen "
+"tapahtuma näkyy Odoossa."
+>>>>>>> upstream/18.0
 =======
 "                    ennen kuin Adyen on käsitellyt sen. Tämän jälkeen "
 "tapahtuma näkyy Odoossa."
@@ -268,17 +299,23 @@ msgstr ""
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The capture request of %(amount)s for the transaction with reference %(ref)s"
 " has been requested (%(provider_name)s)."
 msgstr ""
 "Viitteellä %(ref)s olevan tapahtuman %(amount)s lukupyyntö on pyydetty "
 "(%(provider_name)s)."
 =======
+=======
+>>>>>>> upstream/18.0
 "The capture request of %(amount)s for the transaction with reference %(ref)s "
 "has been requested (%(provider_name)s)."
 msgstr ""
 "Viitteellä %(ref)s olevan tapahtuman %(amount)s lukupyyntö on pyydetty (%"
 "(provider_name)s)."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment_adyen

@@ -115,8 +115,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sale_project
 # 
+=======
+# * sale_project
+#
+>>>>>>> upstream/18.0
 =======
 # * sale_project
 #
@@ -699,7 +704,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2024
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -939,6 +947,7 @@
 # Atte Isopuro <atte.isopuro@web-veistamo.fi>, 2024
 # Martin Trigaux, 2024
 # Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1550,6 +1559,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # Wil Odoo, 2025
 # Jessica Jakara, 2025
 # Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2025
@@ -1668,6 +1679,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1901,6 +1915,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2586,6 +2601,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-21 14:30+0000\n"
 "Last-Translator: \"Jessica Tuulia Sade Jäkärä (jtsj)\" <jtsj@odoo.com>\n"
 "Language-Team: Finnish <https://translate.odoo.com/projects/odoo-18/"
@@ -2710,6 +2728,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2949,7 +2970,12 @@ msgid ""
 "                    No milestones found. Let's create one!\n"
 "                </p><p>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    Track major progress points that must be reached to achieve success.\n"
+=======
+"                    Track major progress points that must be reached to "
+"achieve success.\n"
+>>>>>>> upstream/18.0
 =======
 "                    Track major progress points that must be reached to "
 "achieve success.\n"
@@ -2962,7 +2988,12 @@ msgstr ""
 "                    Virstanpylväitä ei löytynyt. Luodaan sellainen!\n"
 "                </p><p>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    Seuraa tärkeimpiä edistymiskohtia, jotka on saavutettava menestyksen saavuttamiseksi.\n"
+=======
+"                    Seuraa tärkeimpiä edistymiskohtia, jotka on saavutettava "
+"menestyksen saavuttamiseksi.\n"
+>>>>>>> upstream/18.0
 =======
 "                    Seuraa tärkeimpiä edistymiskohtia, jotka on saavutettava "
 "menestyksen saavuttamiseksi.\n"
@@ -3013,7 +3044,12 @@ msgstr ""
 msgid ""
 "<span class=\"o_stat_text\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <span class=\"o_stat_value\">0</span> Sales Order\n"
+=======
+"                            <span class=\"o_stat_value\">0</span> Sales "
+"Order\n"
+>>>>>>> upstream/18.0
 =======
 "                            <span class=\"o_stat_value\">0</span> Sales "
 "Order\n"
@@ -3025,7 +3061,12 @@ msgid ""
 msgstr ""
 "<span class=\"o_stat_text\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                           <span class=\"o_stat_value\">0</span> Myyntitilaus\n"
+=======
+"                           <span class=\"o_stat_value\">0</span> "
+"Myyntitilaus\n"
+>>>>>>> upstream/18.0
 =======
 "                           <span class=\"o_stat_value\">0</span> "
 "Myyntitilaus\n"
@@ -3076,6 +3117,7 @@ msgstr "<span>)</span>"
 #. odoo-python
 #: code:addons/sale_project/models/sale_order_line.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "A project must be defined on the quotation %(order)s or on the form of products creating a task on order.\n"
 "The following product need a project in which to put its task: %(product_name)s"
@@ -3881,6 +3923,8 @@ msgstr ""
 "Seuraava tuote tarvitsee projektin johon laittaa sen tehtävät: %(product_name)s"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "A project must be defined on the quotation %(order)s or on the form of "
 "products creating a task on order.\n"
 "The following product need a project in which to put its task: %"
@@ -3890,6 +3934,9 @@ msgstr ""
 "kun tilaukseen luodaan tehtävää.\n"
 "Seuraava tuote tarvitsee projektin johon laittaa sen tehtävät: %"
 "(product_name)s"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale_project
@@ -3907,6 +3954,7 @@ msgstr ""
 #: model:ir.model.fields,help:sale_project.field_sale_order_line__qty_delivered_method
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "According to product configuration, the delivered quantity can be automatically computed by mechanism:\n"
 "  - Manual: the quantity is set manually on the line\n"
 "  - Analytic From expenses: the quantity is the quantity sum from posted expenses\n"
@@ -3918,6 +3966,8 @@ msgstr ""
 "  - Analyyttinen kuluista: määrä on kirjattujen kulujen summa\n"
 "  - Työaikakirjaukset: määrä on tähän myyntiriviin liittyviin tehtäviin kirjattujen tuntien summa\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "According to product configuration, the delivered quantity can be "
 "automatically computed by mechanism:\n"
 "  - Manual: the quantity is set manually on the line\n"
@@ -3933,6 +3983,9 @@ msgstr ""
 "  - Analyyttinen kuluista: määrä on kirjattujen kulujen summa\n"
 "  - Työaikakirjaukset: määrä on tähän myyntiriviin liittyviin tehtäviin "
 "kirjattujen tuntien summa\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "  - Varastosiirrot: määrä tulee vahvistetuista poiminnoista\n"
 
@@ -4136,7 +4189,10 @@ msgstr "Asetukset"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4650,6 +4706,7 @@ msgstr "Myytyjen tavaroiden kustannukset"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4710,6 +4767,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5151,6 +5210,9 @@ msgstr "Myytyjen tuotteiden kustannukset"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5739,7 +5801,11 @@ msgid "Journal Item"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Päiväkirjatapahtuma"
+=======
+msgstr "Päiväkirjamerkintä"
+>>>>>>> upstream/18.0
 =======
 msgstr "Päiväkirjamerkintä"
 >>>>>>> upstream/18.0
@@ -6097,6 +6163,7 @@ msgstr "Näytä lisää"
 #: model:ir.model.fields,help:sale_project.field_product_template__service_type
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Manually set quantities on order: Invoice based on the manually entered quantity, without creating an analytic account.\n"
 "Timesheets on contract: Invoice based on the tracked hours on the related timesheet.\n"
 "Create a task and track hours: Create a task on the sales order validation and track the work hours."
@@ -6105,6 +6172,8 @@ msgstr ""
 "Sopimuksen aikataulut: Lasku perustuu siihen liittyvän aikataulun seurattuihin tunteihin.\n"
 "Luo tehtävä ja seuraa tunteja: Luo tehtävä myyntitilauksen vahvistukseen ja seuraa työtuntia."
 =======
+=======
+>>>>>>> upstream/18.0
 "Manually set quantities on order: Invoice based on the manually entered "
 "quantity, without creating an analytic account.\n"
 "Timesheets on contract: Invoice based on the tracked hours on the related "
@@ -6118,6 +6187,9 @@ msgstr ""
 "seurattuihin tunteihin.\n"
 "Luo tehtävä ja seuraa tunteja: Luo tehtävä myyntitilauksen vahvistukseen ja "
 "seuraa työtuntia."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale_project
@@ -6184,8 +6256,13 @@ msgstr "Maalaus"
 #: model:ir.model.fields,help:sale_project.field_project_milestone__quantity_percentage
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Percentage of the ordered quantity that will automatically be delivered once"
 " the milestone is reached."
+=======
+"Percentage of the ordered quantity that will automatically be delivered once "
+"the milestone is reached."
+>>>>>>> upstream/18.0
 =======
 "Percentage of the ordered quantity that will automatically be delivered once "
 "the milestone is reached."
@@ -6201,6 +6278,7 @@ msgstr "LVI-palvelut"
 
 #. module: sale_project
 #. odoo-python
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6414,6 +6492,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6882,6 +6962,9 @@ msgstr "Portaalin myyntitilaus"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7210,6 +7293,7 @@ msgstr "Tuotevariaatio"
 msgid ""
 "Products added to stock pickings, whose operation type is configured to "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "generate analytic costs, will be re-invoiced in this sales order if they are"
 " set up for it."
 msgstr ""
@@ -7217,12 +7301,17 @@ msgstr ""
 "määritetty tuottamaan analyyttisiä kustannuksia, laskutetaan uudelleen tässä"
 " myyntitilauksessa, jos ne on määritetty sitä varten."
 =======
+=======
+>>>>>>> upstream/18.0
 "generate analytic costs, will be re-invoiced in this sales order if they are "
 "set up for it."
 msgstr ""
 "Tuotteet, jotka on lisätty varastopoimintoihin ja joiden toimintatyyppi on "
 "määritetty tuottamaan analyyttisiä kustannuksia, laskutetaan uudelleen tässä "
 "myyntitilauksessa, jos ne on määritetty sitä varten."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale_project
@@ -7332,6 +7421,7 @@ msgstr "Myyntitilauserä, joka päivitetään, kun virstanpylväs on saavutettu.
 #: model:ir.model.fields,help:sale_project.field_project_task__sale_line_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Sales Order Item to which the time spent on this task will be added in order to be invoiced to your customer.\n"
 "By default the sales order item set on the project will be selected. In the absence of one, the last prepaid sales order item that has time remaining will be used.\n"
 "Remove the sales order item in order to make this task non billable. You can also change or remove the sales order item of each timesheet entry individually."
@@ -7340,6 +7430,8 @@ msgstr ""
 "Oletusarvoisesti valitaan projektille asetettu myyntitilauserä. Jos sellaista ei ole, käytetään viimeisintä ennakkoon maksettua myyntitilauserää, jolla on aikaa jäljellä.\n"
 "Poista myyntitilauserä, jotta tämä tehtävä ei ole laskutettava. Voit myös muuttaa tai poistaa myyntitilauserän kustakin työaikakirjanpidon merkinnästä erikseen."
 =======
+=======
+>>>>>>> upstream/18.0
 "Sales Order Item to which the time spent on this task will be added in order "
 "to be invoiced to your customer.\n"
 "By default the sales order item set on the project will be selected. In the "
@@ -7357,6 +7449,9 @@ msgstr ""
 "Poista myyntitilauserä, jotta tämä tehtävä ei ole laskutettava. Voit myös "
 "muuttaa tai poistaa myyntitilauserän kustakin työaikakirjanpidon merkinnästä "
 "erikseen."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale_project
@@ -7384,12 +7479,15 @@ msgstr "Myyntitilaukset"
 #: model:ir.model.fields,help:sale_project.field_project_project__sale_line_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Sales order item that will be selected by default on the tasks and timesheets of this project, except if the employee set on the timesheets is explicitely linked to another sales order item on the project.\n"
 "It can be modified on each task and timesheet entry individually if necessary."
 msgstr ""
 "Myyntitilauserä, joka valitaan oletusarvoisesti tämän projektin tehtäviin ja työaikatauluihin, paitsi jos työaikataulujen työntekijä on nimenomaisesti linkitetty toiseen projektin myyntitilauserään.\n"
 "Sitä voidaan tarvittaessa muuttaa jokaisessa tehtävässä ja työaikataulussa erikseen."
 =======
+=======
+>>>>>>> upstream/18.0
 "Sales order item that will be selected by default on the tasks and "
 "timesheets of this project, except if the employee set on the timesheets is "
 "explicitely linked to another sales order item on the project.\n"
@@ -7401,6 +7499,9 @@ msgstr ""
 "linkitetty toiseen projektin myyntitilauserään.\n"
 "Sitä voidaan tarvittaessa muuttaa jokaisessa tehtävässä ja työaikataulussa "
 "erikseen."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale_project
@@ -7639,7 +7740,11 @@ msgid "The Sale Order Item should contain a service product."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Myyntitilauksen rivillä tulisi olla palvelutuote."
+>>>>>>> upstream/18.0
 =======
 msgstr "Myyntitilauksen rivillä tulisi olla palvelutuote."
 >>>>>>> upstream/18.0
@@ -8141,8 +8246,13 @@ msgid ""
 "will not generate project."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Tuotteella %s ei pitäisi olla projektia eikä projektimallia, koska se ei luo"
 " projektia."
+=======
+"Tuotteella %s ei pitäisi olla projektia eikä projektimallia, koska se ei luo "
+"projektia."
+>>>>>>> upstream/18.0
 =======
 "Tuotteella %s ei pitäisi olla projektia eikä projektimallia, koska se ei luo "
 "projektia."

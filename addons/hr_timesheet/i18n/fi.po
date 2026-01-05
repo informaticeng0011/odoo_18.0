@@ -2,7 +2,11 @@
 # This file contains the translation of the following modules:
 # 	* hr_timesheet
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -22,7 +26,11 @@
 # Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2025
 # Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -30,6 +38,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -40,6 +49,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: fi\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2025\n"
@@ -48,6 +59,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -103,8 +117,13 @@ msgstr "%(name)s:n työaikakirjaukset"
 #: code:addons/hr_timesheet/models/hr_timesheet.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "'%(missing_plan_names)s' analytic plan(s) required on the project "
 "'%(project_name)s' linked to the timesheet."
+=======
+"'%(missing_plan_names)s' analytic plan(s) required on the project '%"
+"(project_name)s' linked to the timesheet."
+>>>>>>> upstream/18.0
 =======
 "'%(missing_plan_names)s' analytic plan(s) required on the project '%"
 "(project_name)s' linked to the timesheet."
@@ -151,6 +170,7 @@ msgstr "2021-09-01"
 #: model_terms:digest.tip,tip_description:hr_timesheet.digest_tip_hr_timesheet_0
 msgid "<b class=\"tip_title\">Tip: Record your Timesheets faster</b>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<b class=\"tip_title\">Vinkki: Tallenna työaikakirjauksesi nopeammin</b>"
 
 #. module: hr_timesheet
@@ -158,6 +178,8 @@ msgstr "<b class=\"tip_title\">Vinkki: Tallenna työaikakirjauksesi nopeammin</b
 msgid "<i class=\"fa fa-calendar me-1\" role=\"img\" aria-label=\"Date\" title=\"Date\"/>"
 msgstr "<i class=\"fa fa-calendar me-1\" role=\"img\" aria-label=\"Päivä\" title=\"Päivä\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr ""
 "<b class=\"tip_title\">Vinkki: Tallenna työaikakirjauksesi nopeammin</b>"
 
@@ -169,6 +191,9 @@ msgid ""
 msgstr ""
 "<i class=\"fa fa-calendar me-1\" role=\"img\" aria-label=\"Päivä\" "
 "title=\"Päivä\"/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_timesheet
@@ -194,15 +219,21 @@ msgid ""
 "                        You cannot delete employees who have timesheets.\n"
 "                        <span invisible=\"not has_active_employee\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            You can either archive these employees or first delete all of their timesheets.\n"
 "                        </span>\n"
 "                        <span invisible=\"has_active_employee\" groups=\"hr_timesheet.group_hr_timesheet_approver\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                            You can either archive these employees or first "
 "delete all of their timesheets.\n"
 "                        </span>\n"
 "                        <span invisible=\"has_active_employee\" "
 "groups=\"hr_timesheet.group_hr_timesheet_approver\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                            Please first delete all of their timesheets.\n"
 "                        </span>\n"
@@ -213,12 +244,15 @@ msgid ""
 msgstr ""
 "<span invisible=\"not has_timesheet\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        Et voi poistaa työntekijöitä, joilla on työaikakirjauksia.\n"
 "                       <span invisible=\"not has_active_employee\">\n"
 "                            Voit joko arkistoida nämä työntekijät tai poistaa ensin kaikki heidän työaikakirjauksensa.\n"
 "                       </span>\n"
 "                       <span invisible=\"has_active_employee\" groups=\"hr_timesheet.group_hr_timesheet_approver\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                        Et voi poistaa työntekijöitä, joilla on "
 "työaikakirjauksia.\n"
 "                       <span invisible=\"not has_active_employee\">\n"
@@ -227,6 +261,9 @@ msgstr ""
 "                       </span>\n"
 "                       <span invisible=\"has_active_employee\" "
 "groups=\"hr_timesheet.group_hr_timesheet_approver\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                            Poista ensin kaikki heidän työaikakirjauksensa.\n"
 "                       </span>\n"
@@ -351,12 +388,15 @@ msgstr "Analyysisuunnitelman sovellettavuus"
 #: model_terms:ir.actions.act_window,help:hr_timesheet.timesheet_action_report_by_task
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Analyze the projects and tasks on which your employees spend their time.<br>\n"
 "                Evaluate which part is billable and what costs it represents."
 msgstr ""
 "Analysoi hankkeet ja tehtävät, joihin työntekijäsi käyttävät aikaansa.<br>\n"
 "                Arvioi, mikä osa on laskutettavaa ja mitä kustannuksia se aiheuttaa."
 =======
+=======
+>>>>>>> upstream/18.0
 "Analyze the projects and tasks on which your employees spend their time."
 "<br>\n"
 "                Evaluate which part is billable and what costs it represents."
@@ -364,6 +404,9 @@ msgstr ""
 "Analysoi hankkeet ja tehtävät, joihin työntekijäsi käyttävät aikaansa.<br>\n"
 "                Arvioi, mikä osa on laskutettavaa ja mitä kustannuksia se "
 "aiheuttaa."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_timesheet
@@ -605,16 +648,22 @@ msgstr "Lisäaika"
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.res_config_settings_view_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Generate timesheets for validated time off requests and public holidays"
 msgstr ""
 "Luo työaikakirjaukset, joiden perusteena on hyväksytyt vapaa-ajan pyynnöt ja"
 " yleiset vapaapäivät"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid "Generate timesheets for validated time off requests and public holidays"
 msgstr ""
 "Luo työaikakirjaukset, joiden perusteena on hyväksytyt vapaa-ajan pyynnöt ja "
 "yleiset vapaapäivät"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_timesheet
@@ -1014,8 +1063,13 @@ msgstr "Yrityksen sisäisen hankkeen tulisi olla kyseisessä yrityksessä."
 #: code:addons/hr_timesheet/models/hr_timesheet.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The project, the task and the analytic accounts of the timesheet must belong"
 " to the same company."
+=======
+"The project, the task and the analytic accounts of the timesheet must belong "
+"to the same company."
+>>>>>>> upstream/18.0
 =======
 "The project, the task and the analytic accounts of the timesheet must belong "
 "to the same company."
@@ -1034,8 +1088,13 @@ msgstr "Työaikakirjauksia ei ole."
 #: code:addons/hr_timesheet/models/project_project.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "These projects have some timesheet entries referencing them. Before removing"
 " these projects, you have to remove these timesheet entries."
+=======
+"These projects have some timesheet entries referencing them. Before removing "
+"these projects, you have to remove these timesheet entries."
+>>>>>>> upstream/18.0
 =======
 "These projects have some timesheet entries referencing them. Before removing "
 "these projects, you have to remove these timesheet entries."
@@ -1090,8 +1149,13 @@ msgstr "Operaattoria %s ei voi käyttää tässä hakumenetelmässä."
 #: code:addons/hr_timesheet/models/project_project.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This project has some timesheet entries referencing it. Before removing this"
 " project, you have to remove these timesheet entries."
+=======
+"This project has some timesheet entries referencing it. Before removing this "
+"project, you have to remove these timesheet entries."
+>>>>>>> upstream/18.0
 =======
 "This project has some timesheet entries referencing it. Before removing this "
 "project, you have to remove these timesheet entries."
@@ -1125,17 +1189,23 @@ msgstr ""
 msgid ""
 "This will set the unit of measure used in projects and tasks.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If you use the timesheet linked to projects, don't forget to setup the right unit of measure in your employees."
 msgstr ""
 "Tässä asetetaan projekteilla ja tehtävillä käytettävä ajan yksikkö.\n"
 "Jos käytät projektiin liittyivä työaikakirjauksia, älä unohda asettaa myös työntekijöille oikeaa ajan yksikköä."
 =======
+=======
+>>>>>>> upstream/18.0
 "If you use the timesheet linked to projects, don't forget to setup the right "
 "unit of measure in your employees."
 msgstr ""
 "Tässä asetetaan projekteilla ja tehtävillä käytettävä ajan yksikkö.\n"
 "Jos käytät projektiin liittyivä työaikakirjauksia, älä unohda asettaa myös "
 "työntekijöille oikeaa ajan yksikköä."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_timesheet
@@ -1368,8 +1438,12 @@ msgstr "Työaikakirjauksia ei voi luoda yksityiselle tehtävälle."
 #: code:addons/hr_timesheet/models/hr_timesheet.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Timesheets must be created with an active employee in the selected "
 "companies."
+=======
+"Timesheets must be created with an active employee in the selected companies."
+>>>>>>> upstream/18.0
 =======
 "Timesheets must be created with an active employee in the selected companies."
 >>>>>>> upstream/18.0
@@ -1408,8 +1482,13 @@ msgid ""
 msgstr ""
 "Jotta voit käyttää työaikakirjaustoimintoa, tarvitset analyyttisen tilin "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "projektillesi. Ota sellainen käyttöön suunnitelmassa '%(plan_name)s' tai ota"
 " työaikakirjausket pois käytöstä."
+=======
+"projektillesi. Ota sellainen käyttöön suunnitelmassa '%(plan_name)s' tai ota "
+"työaikakirjausket pois käytöstä."
+>>>>>>> upstream/18.0
 =======
 "projektillesi. Ota sellainen käyttöön suunnitelmassa '%(plan_name)s' tai ota "
 "työaikakirjausket pois käytöstä."
@@ -1459,8 +1538,13 @@ msgstr "Summa:"
 #: model_terms:ir.actions.act_window,help:hr_timesheet.timesheet_action_all
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Track your working hours by projects every day and invoice this time to your"
 " customers."
+=======
+"Track your working hours by projects every day and invoice this time to your "
+"customers."
+>>>>>>> upstream/18.0
 =======
 "Track your working hours by projects every day and invoice this time to your "
 "customers."
@@ -1486,7 +1570,12 @@ msgid ""
 "        ! Set the task a high priority\n"
 "\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Make sure to use the right format and order e.g. Improve the configuration screen 5h #feature #v16 @Mitchell !"
+=======
+"        Make sure to use the right format and order e.g. Improve the "
+"configuration screen 5h #feature #v16 @Mitchell !"
+>>>>>>> upstream/18.0
 =======
 "        Make sure to use the right format and order e.g. Improve the "
 "configuration screen 5h #feature #v16 @Mitchell !"
@@ -1500,7 +1589,12 @@ msgstr ""
 "        ! Aseta tehtävälle korkea prioriteetti\n"
 "\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Varmista, että käytät oikeaa muotoa ja järjestystä esim. Paranna konfigurointinäyttöä 5h #feature #v16 @Mitchell !"
+=======
+"        Varmista, että käytät oikeaa muotoa ja järjestystä esim. Paranna "
+"konfigurointinäyttöä 5h #feature #v16 @Mitchell !"
+>>>>>>> upstream/18.0
 =======
 "        Varmista, että käytät oikeaa muotoa ja järjestystä esim. Paranna "
 "konfigurointinäyttöä 5h #feature #v16 @Mitchell !"
@@ -1532,12 +1626,15 @@ msgstr "Katso tiedot"
 msgid ""
 "You can register and track your workings hours by project every\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    day. Every time spent on a project will become a cost and can be re-invoiced to\n"
 "                    customers if required."
 msgstr ""
 "Voit kirjata ja seurata työtuntejasi projektikohtaisesti jokaista\n"
 "                    päivittäin. Jokaisesta projektiin käytetystä ajasta tulee kustannus, ja se voidaan laskuttaa uudelleen\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                    day. Every time spent on a project will become a cost "
 "and can be re-invoiced to\n"
 "                    customers if required."
@@ -1545,6 +1642,9 @@ msgstr ""
 "Voit kirjata ja seurata työtuntejasi projektikohtaisesti jokaista\n"
 "                    päivittäin. Jokaisesta projektiin käytetystä ajasta "
 "tulee kustannus, ja se voidaan laskuttaa uudelleen\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                    asiakkaille tarvittaessa."
 
@@ -1564,12 +1664,15 @@ msgstr "Et voi poistaa työntekijöitä, joilla on työaikakirjauksia."
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.project_invoice_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot log timesheets on this project since it is linked to an inactive analytic account.<br/>\n"
 "                            Please switch to another account, or reactivate the current one to timesheet on the project."
 msgstr ""
 "Et voi syöttää työaikakirjauksia tähän projektiin, koska se on liitetty inaktiiviseen analytiikkatiliin.<br/>\n"
 "                            Vaihda toiseen tiliin tai aktivoi nykyinen tilisi uudelleen, jotta voit tehdä työaikakirjanpitoa projektissa."
 =======
+=======
+>>>>>>> upstream/18.0
 "You cannot log timesheets on this project since it is linked to an inactive "
 "analytic account.<br/>\n"
 "                            Please switch to another account, or reactivate "
@@ -1579,6 +1682,9 @@ msgstr ""
 "inaktiiviseen analytiikkatiliin.<br/>\n"
 "                            Vaihda toiseen tiliin tai aktivoi nykyinen "
 "tilisi uudelleen, jotta voit tehdä työaikakirjanpitoa projektissa."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_timesheet
@@ -1586,8 +1692,13 @@ msgstr ""
 msgid ""
 "You cannot log timesheets on this project since it is linked to an inactive "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "analytic account.<br/> Please change this account, or reactivate the current"
 " one to timesheet on the project."
+=======
+"analytic account.<br/> Please change this account, or reactivate the current "
+"one to timesheet on the project."
+>>>>>>> upstream/18.0
 =======
 "analytic account.<br/> Please change this account, or reactivate the current "
 "one to timesheet on the project."
@@ -1603,8 +1714,12 @@ msgstr ""
 msgid "You cannot set an archived employee on existing timesheets."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Arkistoitua työntekijää ei voi asettaa olemassa oleville "
 "työaikakirjauksille."
+=======
+"Arkistoitua työntekijää ei voi asettaa olemassa oleville työaikakirjauksille."
+>>>>>>> upstream/18.0
 =======
 "Arkistoitua työntekijää ei voi asettaa olemassa oleville työaikakirjauksille."
 >>>>>>> upstream/18.0
@@ -1624,17 +1739,23 @@ msgstr "varten"
 msgid ""
 "on\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <span class=\"fw-bold text-dark\"> Sub-tasks</span>)"
 msgstr ""
 "osoitteessa\n"
 "                            <span class=\"fw-bold text-dark\"> Alatehtävät</span>)"
 =======
+=======
+>>>>>>> upstream/18.0
 "                            <span class=\"fw-bold text-dark\"> Sub-tasks</"
 "span>)"
 msgstr ""
 "osoitteessa\n"
 "                            <span class=\"fw-bold text-dark\"> Alatehtävät</"
 "span>)"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_timesheet
@@ -1645,7 +1766,12 @@ msgid ""
 msgstr ""
 "osoitteessa\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <span class=\"fw-bold text-dark\"> Alatehtävät</span>)"
+=======
+"                        <span class=\"fw-bold text-dark\"> Alatehtävät</"
+"span>)"
+>>>>>>> upstream/18.0
 =======
 "                        <span class=\"fw-bold text-dark\"> Alatehtävät</"
 "span>)"

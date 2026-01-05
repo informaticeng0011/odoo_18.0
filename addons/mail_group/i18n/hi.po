@@ -43,8 +43,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* mail_group
 # 
+=======
+# * mail_group
+#
+>>>>>>> upstream/18.0
 =======
 # * mail_group
 #
@@ -356,6 +361,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Ujjawal Pathak, 2025
 >>>>>>> upstream/18.0
@@ -845,10 +851,16 @@
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Ujjawal Pathak, 2025
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
 <<<<<<< HEAD
@@ -1388,6 +1400,10 @@ msgstr ""
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2025-12-31 13:10+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2025-12-31 13:10+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Hindi <https://translate.odoo.com/projects/odoo-18/mail_group/"
 "hi/>\n"
@@ -1396,6 +1412,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1539,12 +1556,19 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_message_reject_form
 msgid ") <span invisible=\"not send_email\">and send them an email</span>."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr ") <span invisible=\"not send_email\">और उन्हें एक ईमेल भेजें</span>।"
+>>>>>>> upstream/18.0
 =======
 msgstr ") <span invisible=\"not send_email\">और उन्हें एक ईमेल भेजें</span>।"
 >>>>>>> upstream/18.0
@@ -1553,7 +1577,11 @@ msgstr ") <span invisible=\"not send_email\">और उन्हें एक �
 #: model_terms:ir.ui.view,arch_db:mail_group.confirmation_subscription
 msgid "<br/> You'll be notified as soon as some new content is posted."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<br/> नया कॉन्टेंट पोस्ट होते ही आपको सूचना मिल जाएगी।"
+>>>>>>> upstream/18.0
 =======
 msgstr "<br/> नया कॉन्टेंट पोस्ट होते ही आपको सूचना मिल जाएगी।"
 >>>>>>> upstream/18.0
@@ -1564,6 +1592,7 @@ msgid ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "                Hello,<br/><br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                You have requested to be subscribed to the mailing list <strong t-out=\"object.name or ''\"/>.\n"
 "                <br/><br/>\n"
 "                To confirm, please visit the following link: <strong t-if=\"ctx.get('token_url')\"><a t-att-href=\"ctx['token_url']\"><t t-out=\"ctx['token_url'] or ''\"/></a></strong>\n"
@@ -1573,6 +1602,8 @@ msgid ""
 "        "
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "                You have requested to be subscribed to the mailing list "
 "<strong t-out=\"object.name or ''\"/>.\n"
 "                <br/><br/>\n"
@@ -1598,6 +1629,9 @@ msgstr ""
 "ध्यान ना दें.\n"
 "            </div>\n"
 "        "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mail_group
@@ -1605,6 +1639,7 @@ msgstr ""
 msgid ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "                Hello,<br/><br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                You have requested to be unsubscribed to the mailing list <strong t-out=\"object.name or ''\"/>.\n"
 "                <br/><br/>\n"
@@ -1615,6 +1650,8 @@ msgid ""
 "        "
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "                You have requested to be unsubscribed to the mailing list "
 "<strong t-out=\"object.name or ''\"/>.\n"
 "                <br/><br/>\n"
@@ -1640,6 +1677,9 @@ msgstr ""
 "कृपया इस मैसेज पर ध्यान ना दें.\n"
 "            </div>\n"
 "        "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mail_group
@@ -1647,6 +1687,7 @@ msgstr ""
 msgid ""
 "<div>\n"
 "                <p>Hello <t t-out=\"object.partner_id.name or ''\"/>,</p>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                <p>Please find below the guidelines of the <t t-out=\"object.mail_group_id.name\"/> mailing list.</p>\n"
 "                <p><t t-out=\"object.mail_group_id.moderation_guidelines_msg or ''\"/></p>\n"
@@ -1658,6 +1699,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mail_group.message_footer
 msgid "<i class=\"fa fa-calendar\" role=\"img\" aria-label=\"Date\" title=\"Date\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 "                <p>Please find below the guidelines of the <t t-"
 "out=\"object.mail_group_id.name\"/> mailing list.</p>\n"
 "                <p><t t-out=\"object.mail_group_id.moderation_guidelines_msg "
@@ -1678,13 +1721,22 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mail_group.message_footer
 msgid ""
 "<i class=\"fa fa-calendar\" role=\"img\" aria-label=\"Date\" title=\"Date\"/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_groups
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-envelope-o me-1\" role=\"img\" aria-label=\"Alias\" title=\"Alias\"/>"
+=======
+msgid ""
+"<i class=\"fa fa-envelope-o me-1\" role=\"img\" aria-label=\"Alias\" "
+"title=\"Alias\"/>"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "<i class=\"fa fa-envelope-o me-1\" role=\"img\" aria-label=\"Alias\" "
@@ -1695,7 +1747,13 @@ msgstr ""
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.group_name
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-envelope-o\" role=\"img\" aria-label=\"Alias\" title=\"Alias\"/>"
+=======
+msgid ""
+"<i class=\"fa fa-envelope-o\" role=\"img\" aria-label=\"Alias\" "
+"title=\"Alias\"/>"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "<i class=\"fa fa-envelope-o\" role=\"img\" aria-label=\"Alias\" "
@@ -1728,8 +1786,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mail_group.message_attachments
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"oi oi-chevron-down\" role=\"img\" aria-label=\"Show attachments\""
 " title=\"Show attachments\"/>"
+=======
+"<i class=\"oi oi-chevron-down\" role=\"img\" aria-label=\"Show attachments\" "
+"title=\"Show attachments\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"oi oi-chevron-down\" role=\"img\" aria-label=\"Show attachments\" "
 "title=\"Show attachments\"/>"
@@ -1761,7 +1824,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mail_group.messages_short
 msgid "<span class=\"bg-warning\">Pending</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"bg-warning\">पेंडिंग</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"bg-warning\">पेंडिंग</span>"
 >>>>>>> upstream/18.0
@@ -1770,10 +1837,13 @@ msgstr "<span class=\"bg-warning\">पेंडिंग</span>"
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_message_view_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"ms-2 badge text-bg-success\" invisible=\"author_moderation != 'allow'\">Whitelisted</span>\n"
 "                            <span class=\"ms-2 badge text-bg-danger\" invisible=\"author_moderation != 'ban'\">Banned</span>"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "<span class=\"ms-2 badge text-bg-success\" invisible=\"author_moderation != "
 "'allow'\">Whitelisted</span>\n"
 "                            <span class=\"ms-2 badge text-bg-danger\" "
@@ -1783,6 +1853,9 @@ msgstr ""
 "\"author_moderation != 'allow'\">व्हाइटलिस्टेड</span>\n"
 "                            <span class=\"ms-2 badge text-bg-danger\" "
 "invisible=\"author_moderation != 'ban'\">बैन किया गया</span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mail_group
@@ -1794,7 +1867,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mail_group.group_archive_menu
 msgid "<span>By thread</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>थ्रेड के अनुसार</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>थ्रेड के अनुसार</span>"
 >>>>>>> upstream/18.0
@@ -1806,6 +1883,11 @@ msgid ""
 "                    <br/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span>अभी तक कोई मेल ग्रुप नहीं.</span>\n"
+"                    <br/>"
+>>>>>>> upstream/18.0
 =======
 "<span>अभी तक कोई मेल ग्रुप नहीं.</span>\n"
 "                    <br/>"
@@ -1817,6 +1899,7 @@ msgid ""
 "A Python dictionary that will be evaluated to provide default values when "
 "creating new records for this alias."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2472,6 +2555,10 @@ msgstr ""
 "यह एक पायथन डिक्शनरी है. जब आप इस 'एलियास' के लिए कोई नया डेटा डालेंगे, तो यह "
 "डिक्शनरी अपने-आप कुछ खाली जगहें भर देगी."
 >>>>>>> upstream/18.0
+=======
+"यह एक पायथन डिक्शनरी है. जब आप इस 'एलियास' के लिए कोई नया डेटा डालेंगे, तो यह "
+"डिक्शनरी अपने-आप कुछ खाली जगहें भर देगी."
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_message_view_form
@@ -2598,7 +2685,11 @@ msgid "Accepted"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "स्वीकार किया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "स्वीकार किया गया"
 >>>>>>> upstream/18.0
@@ -2963,6 +3054,10 @@ msgid ""
 "messages from the same author."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"इस ईमेल एड्रेस को व्हाइट लिस्ट में जोड़ें और इसी लेखक के सभी पेंडिंग मैसेज स्वीकार करें।"
+>>>>>>> upstream/18.0
 =======
 "इस ईमेल एड्रेस को व्हाइट लिस्ट में जोड़ें और इसी लेखक के सभी पेंडिंग मैसेज स्वीकार करें।"
 >>>>>>> upstream/18.0
@@ -3102,7 +3197,11 @@ msgid "Alias"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एलियास"
+>>>>>>> upstream/18.0
 =======
 msgstr "एलियास"
 >>>>>>> upstream/18.0
@@ -3543,7 +3642,11 @@ msgid "Alias Contact Security"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपनाम संपर्क सुरक्षा"
+>>>>>>> upstream/18.0
 =======
 msgstr "उपनाम संपर्क सुरक्षा"
 >>>>>>> upstream/18.0
@@ -3808,7 +3911,11 @@ msgid "Alias Domain"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एलियास डोमेन"
+>>>>>>> upstream/18.0
 =======
 msgstr "एलियास डोमेन"
 >>>>>>> upstream/18.0
@@ -4337,7 +4444,11 @@ msgid "Alias Domain Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एलियास डोमेन नाम"
+>>>>>>> upstream/18.0
 =======
 msgstr "एलियास डोमेन नाम"
 >>>>>>> upstream/18.0
@@ -4778,7 +4889,11 @@ msgid "Alias Email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एलियास ईमेल"
+>>>>>>> upstream/18.0
 =======
 msgstr "एलियास ईमेल"
 >>>>>>> upstream/18.0
@@ -5043,7 +5158,11 @@ msgid "Alias Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एलियास नाम"
+>>>>>>> upstream/18.0
 =======
 msgstr "एलियास नाम"
 >>>>>>> upstream/18.0
@@ -5484,7 +5603,11 @@ msgid "Alias Status"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एलियास स्टेटस"
+>>>>>>> upstream/18.0
 =======
 msgstr "एलियास स्टेटस"
 >>>>>>> upstream/18.0
@@ -5661,7 +5784,11 @@ msgid "Alias status assessed on the last message received."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आखिरी मैसेज के आधार पर एलियास (उपनाम) की स्थिति जांची गई।"
+>>>>>>> upstream/18.0
 =======
 msgstr "आखिरी मैसेज के आधार पर एलियास (उपनाम) की स्थिति जांची गई।"
 >>>>>>> upstream/18.0
@@ -5838,7 +5965,11 @@ msgid "Aliased Model"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एलियास मॉडल"
+>>>>>>> upstream/18.0
 =======
 msgstr "एलियास मॉडल"
 >>>>>>> upstream/18.0
@@ -5973,7 +6104,11 @@ msgstr "एलियास मॉडल"
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_form
 msgid "All messages of this group"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस ग्रुप के सभी मैसेज"
+>>>>>>> upstream/18.0
 =======
 msgstr "इस ग्रुप के सभी मैसेज"
 >>>>>>> upstream/18.0
@@ -5982,7 +6117,11 @@ msgstr "इस ग्रुप के सभी मैसेज"
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_moderation_view_search
 msgid "Allowed Emails"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "स्वीकार किए गए ईमेल"
+>>>>>>> upstream/18.0
 =======
 msgstr "स्वीकार किए गए ईमेल"
 >>>>>>> upstream/18.0
@@ -5991,7 +6130,11 @@ msgstr "स्वीकार किए गए ईमेल"
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_groups
 msgid "Alone we can do so little, together we can do so much"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकेले हम बहुत कम कर सकते हैं, साथ मिलकर हम बहुत कुछ कर सकते हैं"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकेले हम बहुत कम कर सकते हैं, साथ मिलकर हम बहुत कुछ कर सकते हैं"
 >>>>>>> upstream/18.0
@@ -6000,7 +6143,11 @@ msgstr "अकेले हम बहुत कम कर सकते हैं
 #: model:ir.model.fields.selection,name:mail_group.selection__mail_group_moderation__status__allow
 msgid "Always Allow"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "हमेशा अनुमति दें"
+>>>>>>> upstream/18.0
 =======
 msgstr "हमेशा अनुमति दें"
 >>>>>>> upstream/18.0
@@ -6010,7 +6157,11 @@ msgstr "हमेशा अनुमति दें"
 #: code:addons/mail_group/static/src/js/mail_group.js:0
 msgid "An email with instructions has been sent."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "निर्देशों के साथ एक ईमेल भेज दिया गया है।"
+>>>>>>> upstream/18.0
 =======
 msgstr "निर्देशों के साथ एक ईमेल भेज दिया गया है।"
 >>>>>>> upstream/18.0
@@ -6149,7 +6300,11 @@ msgid "Archived"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "संग्रहीत किया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "संग्रहीत किया गया"
 >>>>>>> upstream/18.0
@@ -6548,7 +6703,11 @@ msgstr "संग्रहीत किया गया"
 #: model_terms:ir.ui.view,arch_db:mail_group.group_archive_menu
 msgid "Archives"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "संग्रहित किया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "संग्रहित किया गया"
 >>>>>>> upstream/18.0
@@ -6687,7 +6846,11 @@ msgid "Attachments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अटैचमेंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "अटैचमेंट"
 >>>>>>> upstream/18.0
@@ -7128,7 +7291,11 @@ msgid "Author"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लेखक"
+>>>>>>> upstream/18.0
 =======
 msgstr "लेखक"
 >>>>>>> upstream/18.0
@@ -7263,7 +7430,11 @@ msgstr "लेखक"
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message__author_moderation
 msgid "Author Moderation Status"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लेखक का मॉडरेशन स्टेटस"
+>>>>>>> upstream/18.0
 =======
 msgstr "लेखक का मॉडरेशन स्टेटस"
 >>>>>>> upstream/18.0
@@ -7272,15 +7443,21 @@ msgstr "लेखक का मॉडरेशन स्टेटस"
 #: model:ir.model.fields,help:mail_group.field_mail_group_message__author_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Author of the message. If not set, email_from may hold an email address that"
 " did not match any partner."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "Author of the message. If not set, email_from may hold an email address that "
 "did not match any partner."
 msgstr ""
 "मैसेज का लेखक. अगर यह सेट नहीं है, तो 'email_from' में वह ईमेल एड्रेस हो सकता है जो किसी पार्टनर से "
 "मेल नहीं खाता।"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mail_group
@@ -7329,7 +7506,11 @@ msgid "Authorized Group"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐसे ग्रुप जिनको अनुमति मिली है"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐसे ग्रुप जिनको अनुमति मिली है"
 >>>>>>> upstream/18.0
@@ -7464,7 +7645,11 @@ msgstr "ऐसे ग्रुप जिनको अनुमति मिल�
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__moderation_notify
 msgid "Automatic notification"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑटोमैटिक नोटिफ़िकेशन"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऑटोमैटिक नोटिफ़िकेशन"
 >>>>>>> upstream/18.0
@@ -7476,7 +7661,11 @@ msgstr "ऑटोमैटिक नोटिफ़िकेशन"
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_message_view_list
 msgid "Ban"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैन करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "बैन करें"
 >>>>>>> upstream/18.0
@@ -7485,7 +7674,11 @@ msgstr "बैन करें"
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_message_reject_form
 msgid "Ban the author of the message ("
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैसेज के लेखक को बैन करें ("
+>>>>>>> upstream/18.0
 =======
 msgstr "मैसेज के लेखक को बैन करें ("
 >>>>>>> upstream/18.0
@@ -7498,6 +7691,10 @@ msgid ""
 "and send an email to the author"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"इस ईमेल एड्रेस को बैन करें, इसी लेखक के सभी पेंडिंग मैसेज रिजेक्ट करें और उन्हें एक ईमेल भेजें"
+>>>>>>> upstream/18.0
 =======
 "इस ईमेल एड्रेस को बैन करें, इसी लेखक के सभी पेंडिंग मैसेज रिजेक्ट करें और उन्हें एक ईमेल भेजें"
 >>>>>>> upstream/18.0
@@ -7506,7 +7703,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:mail_group.selection__mail_group_message__author_moderation__ban
 msgid "Banned"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैन किया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "बैन किया गया"
 >>>>>>> upstream/18.0
@@ -7515,7 +7716,11 @@ msgstr "बैन किया गया"
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_moderation_view_search
 msgid "Banned Emails"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैन किए गए ईमेल"
+>>>>>>> upstream/18.0
 =======
 msgstr "बैन किए गए ईमेल"
 >>>>>>> upstream/18.0
@@ -7524,7 +7729,11 @@ msgstr "बैन किए गए ईमेल"
 #: model_terms:ir.ui.view,arch_db:mail_group.group_archive_menu
 msgid "By date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "तारीख के हिसाब से"
+>>>>>>> upstream/18.0
 =======
 msgstr "तारीख के हिसाब से"
 >>>>>>> upstream/18.0
@@ -7533,7 +7742,11 @@ msgstr "तारीख के हिसाब से"
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__can_manage_group
 msgid "Can Manage"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैनेज कर सकता है"
+>>>>>>> upstream/18.0
 =======
 msgstr "मैनेज कर सकता है"
 >>>>>>> upstream/18.0
@@ -7542,7 +7755,11 @@ msgstr "मैनेज कर सकता है"
 #: model:ir.model.fields,help:mail_group.field_mail_group__can_manage_group
 msgid "Can manage the members"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सदस्यों को मैनेज कर सकता है"
+>>>>>>> upstream/18.0
 =======
 msgstr "सदस्यों को मैनेज कर सकता है"
 >>>>>>> upstream/18.0
@@ -7669,7 +7886,11 @@ msgid "Children"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चिल्ड्रेन"
+>>>>>>> upstream/18.0
 =======
 msgstr "चिल्ड्रेन"
 >>>>>>> upstream/18.0
@@ -8032,7 +8253,11 @@ msgstr "चिल्ड्रेन"
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_form
 msgid "Choose or configure a custom domain"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एक कस्टम डोमेन चुने या कॉन्फ़िगर करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "एक कस्टम डोमेन चुने या कॉन्फ़िगर करें"
 >>>>>>> upstream/18.0
@@ -8041,7 +8266,11 @@ msgstr "एक कस्टम डोमेन चुने या कॉन्�
 #: model:mail.template,subject:mail_group.mail_template_list_subscribe
 msgid "Confirm subscription to {{ object.name }}"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "{{ object.name }} का सब्सक्रिप्शन कन्फ़र्म करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "{{ object.name }} का सब्सक्रिप्शन कन्फ़र्म करें"
 >>>>>>> upstream/18.0
@@ -8050,7 +8279,11 @@ msgstr "{{ object.name }} का सब्सक्रिप्शन कन्�
 #: model:mail.template,subject:mail_group.mail_template_list_unsubscribe
 msgid "Confirm unsubscription to {{ object.name }}"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "{{ object.name }} का अनसब्सक्रिप्शन कन्फ़र्म करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "{{ object.name }} का अनसब्सक्रिप्शन कन्फ़र्म करें"
 >>>>>>> upstream/18.0
@@ -8187,7 +8420,11 @@ msgid "Contents"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कॉन्टेंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "कॉन्टेंट"
 >>>>>>> upstream/18.0
@@ -8577,7 +8814,11 @@ msgstr "कॉन्टेंट"
 #: model_terms:ir.actions.act_window,help:mail_group.mail_group_action
 msgid "Create a Mail Group"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एक मेल ग्रुप बनाएं"
+>>>>>>> upstream/18.0
 =======
 msgstr "एक मेल ग्रुप बनाएं"
 >>>>>>> upstream/18.0
@@ -8586,7 +8827,11 @@ msgstr "एक मेल ग्रुप बनाएं"
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_groups
 msgid "Create a new group"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एक नया ग्रुप बनाएं"
+>>>>>>> upstream/18.0
 =======
 msgstr "एक नया ग्रुप बनाएं"
 >>>>>>> upstream/18.0
@@ -8734,7 +8979,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस तारीख को बनाया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इस तारीख को बनाया गया"
 >>>>>>> upstream/18.0
@@ -9124,7 +9373,11 @@ msgstr "इस तारीख को बनाया गया"
 #: model:ir.model.fields,help:mail_group.field_mail_group__is_moderator
 msgid "Current user is a moderator of the group"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वर्तमान यूज़र ग्रुप का मॉडरेटर है"
+>>>>>>> upstream/18.0
 =======
 msgstr "वर्तमान यूज़र ग्रुप का मॉडरेटर है"
 >>>>>>> upstream/18.0
@@ -9175,7 +9428,11 @@ msgid "Custom Bounced Message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कस्टम बाउंस मैसेज"
+>>>>>>> upstream/18.0
 =======
 msgstr "कस्टम बाउंस मैसेज"
 >>>>>>> upstream/18.0
@@ -9437,7 +9694,11 @@ msgid "Default Values"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिफ़ॉल्ट वैल्यू"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिफ़ॉल्ट वैल्यू"
 >>>>>>> upstream/18.0
@@ -9959,7 +10220,11 @@ msgid "Discard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "खारिज करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "खारिज करें"
 >>>>>>> upstream/18.0
@@ -10486,7 +10751,11 @@ msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिस्प्ले नाम"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिस्प्ले नाम"
 >>>>>>> upstream/18.0
@@ -10901,7 +11170,11 @@ msgstr "ईमेल"
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "Email %s is invalid"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ईमेल %s अमान्य है"
+>>>>>>> upstream/18.0
 =======
 msgstr "ईमेल %s अमान्य है"
 >>>>>>> upstream/18.0
@@ -11038,7 +11311,11 @@ msgid "Email Alias"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ईमेल एलियास"
+>>>>>>> upstream/18.0
 =======
 msgstr "ईमेल एलियास"
 >>>>>>> upstream/18.0
@@ -11428,7 +11705,11 @@ msgstr "ईमेल एलियास"
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message_reject__email_from_normalized
 msgid "Email From"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "भेजने वाले का ईमेल"
+>>>>>>> upstream/18.0
 =======
 msgstr "भेजने वाले का ईमेल"
 >>>>>>> upstream/18.0
@@ -11440,6 +11721,11 @@ msgid ""
 "found and replaces the author_id field in the chatter."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"भेजने वाले का ईमेल एड्रेस. जब कोई मैचिंग पार्टनर नहीं मिलता, तब यह फ़ील्ड सेट की जाती है और चैटर में "
+"'author_id' फ़ील्ड की जगह ले लेती है।"
+>>>>>>> upstream/18.0
 =======
 "भेजने वाले का ईमेल एड्रेस. जब कोई मैचिंग पार्टनर नहीं मिलता, तब यह फ़ील्ड सेट की जाती है और चैटर में "
 "'author_id' फ़ील्ड की जगह ले लेती है।"
@@ -11576,7 +11862,11 @@ msgid "Email domain e.g. 'example.com' in 'odoo@example.com'"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ईमेल डोमेन जैसे, 'odoo@example.com' में 'example.com'"
+>>>>>>> upstream/18.0
 =======
 msgstr "ईमेल डोमेन जैसे, 'odoo@example.com' में 'example.com'"
 >>>>>>> upstream/18.0
@@ -12093,7 +12383,11 @@ msgid "Emails"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ईमेल"
+>>>>>>> upstream/18.0
 =======
 msgstr "ईमेल"
 >>>>>>> upstream/18.0
@@ -12483,7 +12777,11 @@ msgstr "ईमेल"
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_form
 msgid "Emails waiting an action for this group"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस ग्रुप के लिए कार्रवाई का इंतज़ार कर रहे ईमेल"
+>>>>>>> upstream/18.0
 =======
 msgstr "इस ग्रुप के लिए कार्रवाई का इंतज़ार कर रहे ईमेल"
 >>>>>>> upstream/18.0
@@ -12534,7 +12832,11 @@ msgid "Everyone"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सभी"
+>>>>>>> upstream/18.0
 =======
 msgstr "सभी"
 >>>>>>> upstream/18.0
@@ -12669,7 +12971,11 @@ msgstr "सभी"
 #: model_terms:ir.ui.view,arch_db:mail_group.group_message
 msgid "Follow-Ups"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़ॉलो-अप"
+>>>>>>> upstream/18.0
 =======
 msgstr "फ़ॉलो-अप"
 >>>>>>> upstream/18.0
@@ -12812,7 +13118,11 @@ msgid "Group"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ग्रुप"
+>>>>>>> upstream/18.0
 =======
 msgstr "ग्रुप"
 >>>>>>> upstream/18.0
@@ -13318,7 +13628,11 @@ msgid "Group By"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इन्होंने ग्रुप किया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इन्होंने ग्रुप किया"
 >>>>>>> upstream/18.0
@@ -13699,7 +14013,11 @@ msgstr "इन्होंने ग्रुप किया"
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_message_view_form
 msgid "Group Message"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ग्रुप मैसेज"
+>>>>>>> upstream/18.0
 =======
 msgstr "ग्रुप मैसेज"
 >>>>>>> upstream/18.0
@@ -13822,7 +14140,11 @@ msgid "Group Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ग्रुप का नाम"
+>>>>>>> upstream/18.0
 =======
 msgstr "ग्रुप का नाम"
 >>>>>>> upstream/18.0
@@ -14174,7 +14496,11 @@ msgstr "ग्रुप का नाम"
 #: code:addons/mail_group/models/mail_group_message.py:0
 msgid "Group message can only be linked to mail group. Current model is %s."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ग्रुप मैसेज को सिर्फ मेल ग्रुप से जोड़ा जा सकता है. वर्तमान मॉडल %s है।"
+>>>>>>> upstream/18.0
 =======
 msgstr "ग्रुप मैसेज को सिर्फ मेल ग्रुप से जोड़ा जा सकता है. वर्तमान मॉडल %s है।"
 >>>>>>> upstream/18.0
@@ -14226,7 +14552,11 @@ msgid "Guidelines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गाइडलाइन"
+>>>>>>> upstream/18.0
 =======
 msgstr "गाइडलाइन"
 >>>>>>> upstream/18.0
@@ -14361,7 +14691,11 @@ msgstr "गाइडलाइन"
 #: model:mail.template,subject:mail_group.mail_template_guidelines
 msgid "Guidelines of group {{ object.mail_group_id.name }}"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ग्रुप {{ object.mail_group_id.name }} की गाइडलाइन"
+>>>>>>> upstream/18.0
 =======
 msgstr "ग्रुप {{ object.mail_group_id.name }} की गाइडलाइन"
 >>>>>>> upstream/18.0
@@ -14412,7 +14746,11 @@ msgid "Hello"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नमस्ते"
+>>>>>>> upstream/18.0
 =======
 msgstr "नमस्ते"
 >>>>>>> upstream/18.0
@@ -14684,7 +15022,11 @@ msgid "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आईडी"
+>>>>>>> upstream/18.0
 =======
 msgstr "आईडी"
 >>>>>>> upstream/18.0
@@ -15092,6 +15434,7 @@ msgstr "आईडी"
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_parent_thread_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "ID of the parent record holding the alias (example: project holding the task"
 " creation alias)"
 msgstr ""
@@ -15306,11 +15649,16 @@ msgstr ""
 "है)"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "ID of the parent record holding the alias (example: project holding the task "
 "creation alias)"
 msgstr ""
 "उपनाम रखने वाले पैरेंट रिकॉर्ड की आईडी (उदाहरण: वह प्रोजेक्ट जिसमें टास्क बनाने का उपनाम "
 "है)"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mail_group
@@ -15362,6 +15710,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"अगर यह सेट कर दिया जाए, तो जिन उपयोगकर्ताओं को अनुमति नहीं है, उन्हें सामान्य संदेश की "
+"जगह यह ख़ास संदेश खुद ही चला जाएगा।"
+>>>>>>> upstream/18.0
 =======
 "अगर यह सेट कर दिया जाए, तो जिन उपयोगकर्ताओं को अनुमति नहीं है, उन्हें सामान्य संदेश की "
 "जगह यह ख़ास संदेश खुद ही चला जाएगा।"
@@ -15653,7 +16006,11 @@ msgid "Image"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इमेज"
+>>>>>>> upstream/18.0
 =======
 msgstr "इमेज"
 >>>>>>> upstream/18.0
@@ -16005,7 +16362,11 @@ msgstr "इमेज"
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "Invalid action for URL generation (%s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यूआरएल जनरेशन के लिए अमान्य कार्रवाई (%s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "यूआरएल जनरेशन के लिए अमान्य कार्रवाई (%s)"
 >>>>>>> upstream/18.0
@@ -16015,7 +16376,11 @@ msgstr "यूआरएल जनरेशन के लिए अमान्�
 #: code:addons/mail_group/models/mail_group_moderation.py:0
 msgid "Invalid email address “%s”"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अमान्य ईमेल पता “%s”"
+>>>>>>> upstream/18.0
 =======
 msgstr "अमान्य ईमेल पता “%s”"
 >>>>>>> upstream/18.0
@@ -16024,7 +16389,11 @@ msgstr "अमान्य ईमेल पता “%s”"
 #: model_terms:ir.ui.view,arch_db:mail_group.invalid_token_subscription
 msgid "Invalid or expired confirmation link."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पुष्टि करने वाला लिंक अमान्य है या उसकी अवधि खत्म हो गई है।"
+>>>>>>> upstream/18.0
 =======
 msgstr "पुष्टि करने वाला लिंक अमान्य है या उसकी अवधि खत्म हो गई है।"
 >>>>>>> upstream/18.0
@@ -16033,7 +16402,11 @@ msgstr "पुष्टि करने वाला लिंक अमान�
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_moderation_view_search
 msgid "Is Allowed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अनुमति है"
+>>>>>>> upstream/18.0
 =======
 msgstr "अनुमति है"
 >>>>>>> upstream/18.0
@@ -16042,7 +16415,11 @@ msgstr "अनुमति है"
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_moderation_view_search
 msgid "Is Banned"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैन है"
+>>>>>>> upstream/18.0
 =======
 msgstr "बैन है"
 >>>>>>> upstream/18.0
@@ -16051,7 +16428,11 @@ msgstr "बैन है"
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message__is_group_moderated
 msgid "Is Group Moderated"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ग्रुप मॉडरेट किया गया है"
+>>>>>>> upstream/18.0
 =======
 msgstr "ग्रुप मॉडरेट किया गया है"
 >>>>>>> upstream/18.0
@@ -16060,7 +16441,11 @@ msgstr "ग्रुप मॉडरेट किया गया है"
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__is_member
 msgid "Is Member"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सदस्य है"
+>>>>>>> upstream/18.0
 =======
 msgstr "सदस्य है"
 >>>>>>> upstream/18.0
@@ -16084,7 +16469,11 @@ msgid "Join"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ज्वॉइन करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "ज्वॉइन करें"
 >>>>>>> upstream/18.0
@@ -16263,7 +16652,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इन्होंने आखिरी बार अपडेट किया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इन्होंने आखिरी बार अपडेट किया"
 >>>>>>> upstream/18.0
@@ -16772,7 +17165,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आखिरी बार अपडेट हुआ"
+>>>>>>> upstream/18.0
 =======
 msgstr "आखिरी बार अपडेट हुआ"
 >>>>>>> upstream/18.0
@@ -17196,7 +17593,11 @@ msgid "Leave"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लीव"
+>>>>>>> upstream/18.0
 =======
 msgstr "लीव"
 >>>>>>> upstream/18.0
@@ -17332,6 +17733,10 @@ msgstr "लीव"
 msgid "Let people subscribe to your list online or manually add them here."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"लोगों को ऑनलाइन अपनी लिस्ट सब्सक्राइब करने दें या उन्हें यहां मैन्युअल रूप से जोड़ें।"
+>>>>>>> upstream/18.0
 =======
 "लोगों को ऑनलाइन अपनी लिस्ट सब्सक्राइब करने दें या उन्हें यहां मैन्युअल रूप से जोड़ें।"
 >>>>>>> upstream/18.0
@@ -17382,7 +17787,11 @@ msgid "Local-part based incoming detection"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लोकल-पार्ट पर आधारित इनकमिंग पहचान"
+>>>>>>> upstream/18.0
 =======
 msgstr "लोकल-पार्ट पर आधारित इनकमिंग पहचान"
 >>>>>>> upstream/18.0
@@ -17518,7 +17927,11 @@ msgstr "लोकल-पार्ट पर आधारित इनकमि�
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_form
 msgid "Mail Group"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेल ग्रुप"
+>>>>>>> upstream/18.0
 =======
 msgstr "मेल ग्रुप"
 >>>>>>> upstream/18.0
@@ -17527,7 +17940,11 @@ msgstr "मेल ग्रुप"
 #: model:res.groups,name:mail_group.group_mail_group_manager
 msgid "Mail Group Administrator"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेल ग्रुप एडमिन"
+>>>>>>> upstream/18.0
 =======
 msgstr "मेल ग्रुप एडमिन"
 >>>>>>> upstream/18.0
@@ -17536,7 +17953,11 @@ msgstr "मेल ग्रुप एडमिन"
 #: model:mail.template,name:mail_group.mail_template_list_subscribe
 msgid "Mail Group: Mailing List Subscription"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेल ग्रुप: मेलिंग लिस्ट सब्सक्रिप्शन"
+>>>>>>> upstream/18.0
 =======
 msgstr "मेल ग्रुप: मेलिंग लिस्ट सब्सक्रिप्शन"
 >>>>>>> upstream/18.0
@@ -17545,7 +17966,11 @@ msgstr "मेल ग्रुप: मेलिंग लिस्ट सब्�
 #: model:mail.template,name:mail_group.mail_template_list_unsubscribe
 msgid "Mail Group: Mailing List Unsubscription"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेल ग्रुप: मेलिंग लिस्ट अनसब्सक्रिप्शन"
+>>>>>>> upstream/18.0
 =======
 msgstr "मेल ग्रुप: मेलिंग लिस्ट अनसब्सक्रिप्शन"
 >>>>>>> upstream/18.0
@@ -17554,7 +17979,11 @@ msgstr "मेल ग्रुप: मेलिंग लिस्ट अनस�
 #: model:mail.template,name:mail_group.mail_template_guidelines
 msgid "Mail Group: Send Guidelines"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेल ग्रुप: गाइडलाइन भेजें"
+>>>>>>> upstream/18.0
 =======
 msgstr "मेल ग्रुप: गाइडलाइन भेजें"
 >>>>>>> upstream/18.0
@@ -17565,7 +17994,11 @@ msgstr "मेल ग्रुप: गाइडलाइन भेजें"
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_kanban
 msgid "Mail Groups"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेल ग्रुप"
+>>>>>>> upstream/18.0
 =======
 msgstr "मेल ग्रुप"
 >>>>>>> upstream/18.0
@@ -17574,7 +18007,11 @@ msgstr "मेल ग्रुप"
 #: model:ir.actions.server,name:mail_group.ir_cron_mail_notify_group_moderators_ir_actions_server
 msgid "Mail List: Notify group moderators"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेल लिस्ट: ग्रुप मॉडरेटर को सूचना दें"
+>>>>>>> upstream/18.0
 =======
 msgstr "मेल लिस्ट: ग्रुप मॉडरेटर को सूचना दें"
 >>>>>>> upstream/18.0
@@ -17583,7 +18020,11 @@ msgstr "मेल लिस्ट: ग्रुप मॉडरेटर को 
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message__mail_message_id
 msgid "Mail Message"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेल मैसेज"
+>>>>>>> upstream/18.0
 =======
 msgstr "मेल मैसेज"
 >>>>>>> upstream/18.0
@@ -17592,7 +18033,11 @@ msgstr "मेल मैसेज"
 #: model:ir.model,name:mail_group.model_mail_group_member
 msgid "Mailing List Member"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेलिंग लिस्ट का सदस्य"
+>>>>>>> upstream/18.0
 =======
 msgstr "मेलिंग लिस्ट का सदस्य"
 >>>>>>> upstream/18.0
@@ -17601,7 +18046,11 @@ msgstr "मेलिंग लिस्ट का सदस्य"
 #: model:ir.model,name:mail_group.model_mail_group_message
 msgid "Mailing List Message"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेलिंग लिस्ट मैसेज"
+>>>>>>> upstream/18.0
 =======
 msgstr "मेलिंग लिस्ट मैसेज"
 >>>>>>> upstream/18.0
@@ -17610,7 +18059,11 @@ msgstr "मेलिंग लिस्ट मैसेज"
 #: model:ir.model,name:mail_group.model_mail_group_moderation
 msgid "Mailing List black/white list"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेलिंग लिस्ट ब्लैक/व्हाइट लिस्ट"
+>>>>>>> upstream/18.0
 =======
 msgstr "मेलिंग लिस्ट ब्लैक/व्हाइट लिस्ट"
 >>>>>>> upstream/18.0
@@ -17661,7 +18114,11 @@ msgid "Mailing Lists"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेलिंग लिस्ट"
+>>>>>>> upstream/18.0
 =======
 msgstr "मेलिंग लिस्ट"
 >>>>>>> upstream/18.0
@@ -17799,6 +18256,10 @@ msgid ""
 "together."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"मेलिंग ग्रुप्स उन लोगों के ग्रुप हैं जो किसी खास टॉपिक पर आपस में चर्चा करते हैं।"
+>>>>>>> upstream/18.0
 =======
 "मेलिंग ग्रुप्स उन लोगों के ग्रुप हैं जो किसी खास टॉपिक पर आपस में चर्चा करते हैं।"
 >>>>>>> upstream/18.0
@@ -17807,7 +18268,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_footer
 msgid "Mailing-List:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेलिंग-लिस्ट:"
+>>>>>>> upstream/18.0
 =======
 msgstr "मेलिंग-लिस्ट:"
 >>>>>>> upstream/18.0
@@ -17830,7 +18295,11 @@ msgid "Member"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सदस्य"
+>>>>>>> upstream/18.0
 =======
 msgstr "सदस्य"
 >>>>>>> upstream/18.0
@@ -17927,7 +18396,11 @@ msgid "Members"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सदस्य"
+>>>>>>> upstream/18.0
 =======
 msgstr "सदस्य"
 >>>>>>> upstream/18.0
@@ -18062,7 +18535,11 @@ msgstr "सदस्य"
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__member_count
 msgid "Members Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सदस्यों की संख्या"
+>>>>>>> upstream/18.0
 =======
 msgstr "सदस्यों की संख्या"
 >>>>>>> upstream/18.0
@@ -18071,7 +18548,11 @@ msgstr "सदस्यों की संख्या"
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_form
 msgid "Members of this group"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस ग्रुप के सदस्य"
+>>>>>>> upstream/18.0
 =======
 msgstr "इस ग्रुप के सदस्य"
 >>>>>>> upstream/18.0
@@ -18080,7 +18561,11 @@ msgstr "इस ग्रुप के सदस्य"
 #: model:ir.model.fields.selection,name:mail_group.selection__mail_group__access_mode__members
 msgid "Members only"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सिर्फ़ सदस्य"
+>>>>>>> upstream/18.0
 =======
 msgstr "सिर्फ़ सदस्य"
 >>>>>>> upstream/18.0
@@ -18213,7 +18698,11 @@ msgid "Message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैसेज"
+>>>>>>> upstream/18.0
 =======
 msgstr "मैसेज"
 >>>>>>> upstream/18.0
@@ -18594,7 +19083,11 @@ msgstr "मैसेज"
 #: model:ir.actions.act_window,name:mail_group.mail_group_message_reject_action
 msgid "Message Rejection Explanation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैसेज क्यों नहीं भेजा गया, इसकी वजह"
+>>>>>>> upstream/18.0
 =======
 msgstr "मैसेज क्यों नहीं भेजा गया, इसकी वजह"
 >>>>>>> upstream/18.0
@@ -18608,7 +19101,11 @@ msgstr "संदेश"
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__mail_group_message_count
 msgid "Messages Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैसेज की संख्या"
+>>>>>>> upstream/18.0
 =======
 msgstr "मैसेज की संख्या"
 >>>>>>> upstream/18.0
@@ -18617,7 +19114,11 @@ msgstr "मैसेज की संख्या"
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__mail_group_message_last_month_count
 msgid "Messages Per Month"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "हर महीने मैसेज"
+>>>>>>> upstream/18.0
 =======
 msgstr "हर महीने मैसेज"
 >>>>>>> upstream/18.0
@@ -18627,7 +19128,11 @@ msgstr "हर महीने मैसेज"
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "Messages are pending moderation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैसेज मॉडरेट होने का इंतज़ार कर रहे हैं"
+>>>>>>> upstream/18.0
 =======
 msgstr "मैसेज मॉडरेट होने का इंतज़ार कर रहे हैं"
 >>>>>>> upstream/18.0
@@ -18636,7 +19141,11 @@ msgstr "मैसेज मॉडरेट होने का इंतज़�
 #: model:ir.model.fields,help:mail_group.field_mail_group__mail_group_message_moderation_count
 msgid "Messages that need an action"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वह मैसेज जिस पर कार्रवाई करने की ज़रूरत है"
+>>>>>>> upstream/18.0
 =======
 msgstr "वह मैसेज जिस पर कार्रवाई करने की ज़रूरत है"
 >>>>>>> upstream/18.0
@@ -18645,7 +19154,11 @@ msgstr "वह मैसेज जिस पर कार्रवाई कर�
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_notify_moderation
 msgid "Moderate Messages"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैसेज मॉडरेट करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "मैसेज मॉडरेट करें"
 >>>>>>> upstream/18.0
@@ -18660,7 +19173,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_search
 msgid "Moderated"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मॉडरेट किया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "मॉडरेट किया गया"
 >>>>>>> upstream/18.0
@@ -18669,7 +19186,11 @@ msgstr "मॉडरेट किया गया"
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message__moderator_id
 msgid "Moderated By"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इन्होंने मॉडरेट किया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इन्होंने मॉडरेट किया"
 >>>>>>> upstream/18.0
@@ -18678,7 +19199,11 @@ msgstr "इन्होंने मॉडरेट किया"
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__moderation_rule_ids
 msgid "Moderated Emails"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मॉडरेट किए गए ईमेल"
+>>>>>>> upstream/18.0
 =======
 msgstr "मॉडरेट किए गए ईमेल"
 >>>>>>> upstream/18.0
@@ -18687,7 +19212,11 @@ msgstr "मॉडरेट किए गए ईमेल"
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__moderation_rule_count
 msgid "Moderated emails count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मॉडरेट किए गए ईमेल की संख्या"
+>>>>>>> upstream/18.0
 =======
 msgstr "मॉडरेट किए गए ईमेल की संख्या"
 >>>>>>> upstream/18.0
@@ -18696,7 +19225,11 @@ msgstr "मॉडरेट किए गए ईमेल की संख्य�
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_form
 msgid "Moderated emails in this group"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस ग्रुप में मॉडरेट किए गए ईमेल"
+>>>>>>> upstream/18.0
 =======
 msgstr "इस ग्रुप में मॉडरेट किए गए ईमेल"
 >>>>>>> upstream/18.0
@@ -18706,7 +19239,11 @@ msgstr "इस ग्रुप में मॉडरेट किए गए ई
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "Moderated group must have moderators."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मॉडरेट किए गए ग्रुप में मॉडरेटर होने चाहिए।"
+>>>>>>> upstream/18.0
 =======
 msgstr "मॉडरेट किए गए ग्रुप में मॉडरेटर होने चाहिए।"
 >>>>>>> upstream/18.0
@@ -18716,7 +19253,11 @@ msgstr "मॉडरेट किए गए ग्रुप में मॉड�
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_search
 msgid "Moderation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मॉडरेशन"
+>>>>>>> upstream/18.0
 =======
 msgstr "मॉडरेशन"
 >>>>>>> upstream/18.0
@@ -18725,7 +19266,11 @@ msgstr "मॉडरेशन"
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_moderation_view_tree
 msgid "Moderation Lists"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मॉडरेशन लिस्ट"
+>>>>>>> upstream/18.0
 =======
 msgstr "मॉडरेशन लिस्ट"
 >>>>>>> upstream/18.0
@@ -18734,7 +19279,11 @@ msgstr "मॉडरेशन लिस्ट"
 #: model:ir.ui.menu,name:mail_group.mail_group_moderation_menu
 msgid "Moderation Rules"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मॉडरेशन के नियम"
+>>>>>>> upstream/18.0
 =======
 msgstr "मॉडरेशन के नियम"
 >>>>>>> upstream/18.0
@@ -18743,7 +19292,11 @@ msgstr "मॉडरेशन के नियम"
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_form
 msgid "Moderations"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मॉडरेशन"
+>>>>>>> upstream/18.0
 =======
 msgstr "मॉडरेशन"
 >>>>>>> upstream/18.0
@@ -18752,7 +19305,11 @@ msgstr "मॉडरेशन"
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__is_moderator
 msgid "Moderator"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मॉडरेटर"
+>>>>>>> upstream/18.0
 =======
 msgstr "मॉडरेटर"
 >>>>>>> upstream/18.0
@@ -18762,7 +19319,11 @@ msgstr "मॉडरेटर"
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_form
 msgid "Moderators"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मॉडरेटर"
+>>>>>>> upstream/18.0
 =======
 msgstr "मॉडरेटर"
 >>>>>>> upstream/18.0
@@ -18772,7 +19333,11 @@ msgstr "मॉडरेटर"
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "Moderators must have an email address."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मॉडरेटर के पास एक ईमेल पता होना चाहिए।"
+>>>>>>> upstream/18.0
 =======
 msgstr "मॉडरेटर के पास एक ईमेल पता होना चाहिए।"
 >>>>>>> upstream/18.0
@@ -18781,7 +19346,11 @@ msgstr "मॉडरेटर के पास एक ईमेल पता ह
 #: model:mail.group,name:mail_group.mail_group_1
 msgid "My Company News"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेरी कंपनी की न्यूज़"
+>>>>>>> upstream/18.0
 =======
 msgstr "मेरी कंपनी की न्यूज़"
 >>>>>>> upstream/18.0
@@ -18798,6 +19367,12 @@ msgid ""
 "down float-end\" role=\"img\" aria-label=\"\" title=\"Read this !\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"अनसब्सक्राइब करना है? <br/>यहीं से करें! <span class="
+"\"oi fa-2x oi-arrow-down float-end\" role=\"img\" aria-label=\"\" title=\""
+"Read this !\"/>"
+>>>>>>> upstream/18.0
 =======
 "अनसब्सक्राइब करना है? <br/>यहीं से करें! <span class="
 "\"oi fa-2x oi-arrow-down float-end\" role=\"img\" aria-label=\"\" title=\""
@@ -18809,7 +19384,11 @@ msgstr ""
 msgid ""
 "Newcomers on this moderated group will automatically receive the guidelines."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस मॉडरेट किए गए ग्रुप के नए सदस्यों को नियम अपने-आप मिल जाएंगे।"
+>>>>>>> upstream/18.0
 =======
 msgstr "इस मॉडरेट किए गए ग्रुप के नए सदस्यों को नियम अपने-आप मिल जाएंगे।"
 >>>>>>> upstream/18.0
@@ -18818,7 +19397,11 @@ msgstr "इस मॉडरेट किए गए ग्रुप के नए
 #: model_terms:ir.actions.act_window,help:mail_group.mail_group_member_action
 msgid "No Members in this list yet!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस सूची में अभी कोई सदस्य नहीं है!"
+>>>>>>> upstream/18.0
 =======
 msgstr "इस सूची में अभी कोई सदस्य नहीं है!"
 >>>>>>> upstream/18.0
@@ -18827,7 +19410,11 @@ msgstr "इस सूची में अभी कोई सदस्य नह
 #: model_terms:ir.actions.act_window,help:mail_group.mail_group_message_action
 msgid "No Messages in this list yet!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस सूची में अभी कोई मैसेज नहीं है!"
+>>>>>>> upstream/18.0
 =======
 msgstr "इस सूची में अभी कोई मैसेज नहीं है!"
 >>>>>>> upstream/18.0
@@ -18871,7 +19458,11 @@ msgid "Normalized Email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सामान्य ईमेल"
+>>>>>>> upstream/18.0
 =======
 msgstr "सामान्य ईमेल"
 >>>>>>> upstream/18.0
@@ -18985,7 +19576,11 @@ msgstr "सामान्य ईमेल"
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message__email_from_normalized
 msgid "Normalized From"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "भेजने वाले का मानक रूप"
+>>>>>>> upstream/18.0
 =======
 msgstr "भेजने वाले का मानक रूप"
 >>>>>>> upstream/18.0
@@ -18994,7 +19589,11 @@ msgstr "भेजने वाले का मानक रूप"
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__moderation_notify_msg
 msgid "Notification message"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नोटिफ़िकेशन मैसेज"
+>>>>>>> upstream/18.0
 =======
 msgstr "नोटिफ़िकेशन मैसेज"
 >>>>>>> upstream/18.0
@@ -19003,7 +19602,11 @@ msgstr "नोटिफ़िकेशन मैसेज"
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_form
 msgid "Notify Members"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सदस्यों को सूचना दें"
+>>>>>>> upstream/18.0
 =======
 msgstr "सदस्यों को सूचना दें"
 >>>>>>> upstream/18.0
@@ -19012,7 +19615,11 @@ msgstr "सदस्यों को सूचना दें"
 #: model:ir.model.fields,help:mail_group.field_mail_group__mail_group_message_count
 msgid "Number of message in this group"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस ग्रुप में मैसेज की संख्या"
+>>>>>>> upstream/18.0
 =======
 msgstr "इस ग्रुप में मैसेज की संख्या"
 >>>>>>> upstream/18.0
@@ -19024,6 +19631,10 @@ msgid ""
 "Only an administrator or a moderator can send guidelines to group members."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"सिर्फ़ एक एडमिनिस्ट्रेटर या एक मॉडरेटर ही ग्रुप के सदस्यों को नियम भेज सकता है।"
+>>>>>>> upstream/18.0
 =======
 "सिर्फ़ एक एडमिनिस्ट्रेटर या एक मॉडरेटर ही ग्रुप के सदस्यों को नियम भेज सकता है।"
 >>>>>>> upstream/18.0
@@ -19033,7 +19644,11 @@ msgstr ""
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "Only members can send email to the mailing list."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सिर्फ़ सदस्य ही मेलिंग सूची को ईमेल भेज सकते हैं।"
+>>>>>>> upstream/18.0
 =======
 msgstr "सिर्फ़ सदस्य ही मेलिंग सूची को ईमेल भेज सकते हैं।"
 >>>>>>> upstream/18.0
@@ -19044,6 +19659,10 @@ msgstr "सिर्फ़ सदस्य ही मेलिंग सूच�
 msgid "Only selected groups of users can send email to the mailing list."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"सिर्फ़ उपयोगकर्ताओं के चुने हुए ग्रुप ही मेलिंग सूची को ईमेल भेज सकते हैं।"
+>>>>>>> upstream/18.0
 =======
 "सिर्फ़ उपयोगकर्ताओं के चुने हुए ग्रुप ही मेलिंग सूची को ईमेल भेज सकते हैं।"
 >>>>>>> upstream/18.0
@@ -19055,6 +19674,7 @@ msgid ""
 "attached, even if they did not reply to it. If set, this will disable the "
 "creation of new records completely."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19270,6 +19890,10 @@ msgstr ""
 "एक थ्रेड (रिकॉर्ड) की वैकल्पिक आईडी जिससे आने वाले सभी मैसेज जुड़ जाएंगे, भले ही वे उसका "
 "जवाब न हों. अगर यह सेट है, तो नए रिकॉर्ड बनाना पूरी तरह से बंद हो जाएगा।"
 >>>>>>> upstream/18.0
+=======
+"एक थ्रेड (रिकॉर्ड) की वैकल्पिक आईडी जिससे आने वाले सभी मैसेज जुड़ जाएंगे, भले ही वे उसका "
+"जवाब न हों. अगर यह सेट है, तो नए रिकॉर्ड बनाना पूरी तरह से बंद हो जाएगा।"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message__group_message_parent_id
@@ -19399,7 +20023,11 @@ msgid "Parent"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पैरेंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "पैरेंट"
 >>>>>>> upstream/18.0
@@ -19822,7 +20450,11 @@ msgid "Parent Model"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पैरंट मॉडल"
+>>>>>>> upstream/18.0
 =======
 msgstr "पैरंट मॉडल"
 >>>>>>> upstream/18.0
@@ -19999,7 +20631,11 @@ msgid "Parent Record Thread ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पैरेंट रिकॉर्ड थ्रेड आईडी"
+>>>>>>> upstream/18.0
 =======
 msgstr "पैरेंट रिकॉर्ड थ्रेड आईडी"
 >>>>>>> upstream/18.0
@@ -20133,6 +20769,7 @@ msgstr "पैरेंट रिकॉर्ड थ्रेड आईडी"
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_parent_model_id
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "Parent model holding the alias. The model holding the alias reference is not"
 " necessarily the model given by alias_model_id (example: project "
@@ -20391,6 +21028,8 @@ msgstr ""
 "मॉडल) और टास्क (मॉडल))"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "Parent model holding the alias. The model holding the alias reference is not "
 "necessarily the model given by alias_model_id (example: project "
 "(parent_model) and task (model))"
@@ -20398,6 +21037,9 @@ msgstr ""
 "उपनाम (alias) रखने वाला पैरेंट मॉडल. उपनाम संदर्भ (alias reference) रखने वाला मॉडल "
 "ज़रूरी नहीं कि वही हो जो alias_model_id द्वारा दिया गया है (उदाहरण: प्रोजेक्ट (पैरेंट "
 "मॉडल) और टास्क (मॉडल))"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mail_group
@@ -20409,7 +21051,11 @@ msgstr "साथी"
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__member_partner_ids
 msgid "Partners Member"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पार्टनर मेंबर"
+>>>>>>> upstream/18.0
 =======
 msgstr "पार्टनर मेंबर"
 >>>>>>> upstream/18.0
@@ -20418,7 +21064,11 @@ msgstr "पार्टनर मेंबर"
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__mail_group_message_ids
 msgid "Pending Messages"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पेंडिंग मैसेज"
+>>>>>>> upstream/18.0
 =======
 msgstr "पेंडिंग मैसेज"
 >>>>>>> upstream/18.0
@@ -20427,7 +21077,11 @@ msgstr "पेंडिंग मैसेज"
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__mail_group_message_moderation_count
 msgid "Pending Messages Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पेंडिंग मैसेज की संख्या"
+>>>>>>> upstream/18.0
 =======
 msgstr "पेंडिंग मैसेज की संख्या"
 >>>>>>> upstream/18.0
@@ -20436,7 +21090,11 @@ msgstr "पेंडिंग मैसेज की संख्या"
 #: model:ir.model.fields.selection,name:mail_group.selection__mail_group_message__moderation_status__pending_moderation
 msgid "Pending Moderation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पेंडिंग मॉडरेशन"
+>>>>>>> upstream/18.0
 =======
 msgstr "पेंडिंग मॉडरेशन"
 >>>>>>> upstream/18.0
@@ -20448,6 +21106,10 @@ msgid ""
 "for moderation."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"लोगों को अपने मैसेज के मॉडरेट होने के इंतज़ार की ऑटोमैटिक सूचना मिलती है।"
+>>>>>>> upstream/18.0
 =======
 "लोगों को अपने मैसेज के मॉडरेट होने के इंतज़ार की ऑटोमैटिक सूचना मिलती है।"
 >>>>>>> upstream/18.0
@@ -20456,7 +21118,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:mail_group.selection__mail_group_moderation__status__ban
 msgid "Permanent Ban"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "हमेशा के लिए बैन"
+>>>>>>> upstream/18.0
 =======
 msgstr "हमेशा के लिए बैन"
 >>>>>>> upstream/18.0
@@ -20467,6 +21133,7 @@ msgid ""
 "Policy to post a message on the document using the mailgateway.\n"
 "- everyone: everyone can post\n"
 "- partners: only authenticated partners\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "- followers: only followers of the related document or members of following channels\n"
 msgstr ""
@@ -20600,6 +21267,11 @@ msgstr ""
 "channels\n"
 msgstr ""
 >>>>>>> upstream/18.0
+=======
+"- followers: only followers of the related document or members of following "
+"channels\n"
+msgstr ""
+>>>>>>> upstream/18.0
 "मेलगेटवे का इस्तेमाल करके दस्तावेज़ पर मैसेज पोस्ट करने की नीति..\n"
 "- सभी लोग: कोई भी पोस्ट कर सकता है.\n"
 "- पार्टनर: सिर्फ़ प्रमाणित पार्टनर ही पोस्ट करें.\n"
@@ -20646,6 +21318,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20736,7 +21411,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_footer
 msgid "Post to:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यहां पोस्ट करें:"
+>>>>>>> upstream/18.0
 =======
 msgstr "यहां पोस्ट करें:"
 >>>>>>> upstream/18.0
@@ -20869,7 +21548,11 @@ msgid "Posted"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पोस्ट किया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "पोस्ट किया गया"
 >>>>>>> upstream/18.0
@@ -21293,7 +21976,11 @@ msgid "Privacy"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गोपनीयता"
+>>>>>>> upstream/18.0
 =======
 msgstr "गोपनीयता"
 >>>>>>> upstream/18.0
@@ -21428,7 +22115,11 @@ msgstr "गोपनीयता"
 #: model:mail.group,name:mail_group.mail_group_2
 msgid "Public Mailing List"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पब्लिक मेलिंग लिस्ट"
+>>>>>>> upstream/18.0
 =======
 msgstr "पब्लिक मेलिंग लिस्ट"
 >>>>>>> upstream/18.0
@@ -21438,7 +22129,11 @@ msgstr "पब्लिक मेलिंग लिस्ट"
 #: code:addons/mail_group/wizard/mail_group_message_reject.py:0
 msgid "Re: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जवाब: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "जवाब: %s"
 >>>>>>> upstream/18.0
@@ -21489,7 +22184,11 @@ msgid "Record Thread ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "थ्रेड आईडी रिकॉर्ड करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "थ्रेड आईडी रिकॉर्ड करें"
 >>>>>>> upstream/18.0
@@ -21756,7 +22455,11 @@ msgid "Reject"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अस्वीकार करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "अस्वीकार करें"
 >>>>>>> upstream/18.0
@@ -22137,7 +22840,11 @@ msgstr "अस्वीकार करें"
 #: model:ir.model,name:mail_group.model_mail_group_message_reject
 msgid "Reject Group Message"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ग्रुप मैसेज अस्वीकार करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "ग्रुप मैसेज अस्वीकार करें"
 >>>>>>> upstream/18.0
@@ -22146,7 +22853,11 @@ msgstr "ग्रुप मैसेज अस्वीकार करें"
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_message_reject_form
 msgid "Reject Silently"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बिना बताए मना करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "बिना बताए मना करें"
 >>>>>>> upstream/18.0
@@ -22155,7 +22866,11 @@ msgstr "बिना बताए मना करें"
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_message_reject_form
 msgid "Reject the message"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैसेज अस्वीकार करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "मैसेज अस्वीकार करें"
 >>>>>>> upstream/18.0
@@ -22289,7 +23004,11 @@ msgid "Rejected"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अस्वीकार किया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "अस्वीकार किया गया"
 >>>>>>> upstream/18.0
@@ -22671,7 +23390,11 @@ msgstr "अस्वीकार किया गया"
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_message_view_list
 msgid "Remove message with explanation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "स्पष्टीकरण के साथ मैसेज हटाएं"
+>>>>>>> upstream/18.0
 =======
 msgstr "स्पष्टीकरण के साथ मैसेज हटाएं"
 >>>>>>> upstream/18.0
@@ -22685,7 +23408,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_message_view_search
 msgid "Search Group Message"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ग्रुप मैसेज खोजें"
+>>>>>>> upstream/18.0
 =======
 msgstr "ग्रुप मैसेज खोजें"
 >>>>>>> upstream/18.0
@@ -22694,7 +23421,11 @@ msgstr "ग्रुप मैसेज खोजें"
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_member_view_search
 msgid "Search Mail Group Member"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेल ग्रुप के सदस्य को खोजें"
+>>>>>>> upstream/18.0
 =======
 msgstr "मेल ग्रुप के सदस्य को खोजें"
 >>>>>>> upstream/18.0
@@ -22703,7 +23434,11 @@ msgstr "मेल ग्रुप के सदस्य को खोजें"
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_search
 msgid "Search Mail group"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेल ग्रुप खोजें"
+>>>>>>> upstream/18.0
 =======
 msgstr "मेल ग्रुप खोजें"
 >>>>>>> upstream/18.0
@@ -22712,7 +23447,11 @@ msgstr "मेल ग्रुप खोजें"
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_moderation_view_search
 msgid "Search Moderation List"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मॉडरेशन लिस्ट खोजें"
+>>>>>>> upstream/18.0
 =======
 msgstr "मॉडरेशन लिस्ट खोजें"
 >>>>>>> upstream/18.0
@@ -22721,7 +23460,11 @@ msgstr "मॉडरेशन लिस्ट खोजें"
 #: model:ir.model.fields.selection,name:mail_group.selection__mail_group__access_mode__groups
 msgid "Selected group of users"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चुने गए उपयोगकर्ताओं का ग्रुप"
+>>>>>>> upstream/18.0
 =======
 msgstr "चुने गए उपयोगकर्ताओं का ग्रुप"
 >>>>>>> upstream/18.0
@@ -22855,7 +23598,11 @@ msgid "Send"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "भेजें"
+>>>>>>> upstream/18.0
 =======
 msgstr "भेजें"
 >>>>>>> upstream/18.0
@@ -23236,7 +23983,11 @@ msgstr "भेजें"
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_message_reject_form
 msgid "Send & Ban"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "भेजें और बैन करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "भेजें और बैन करें"
 >>>>>>> upstream/18.0
@@ -23245,7 +23996,11 @@ msgstr "भेजें और बैन करें"
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_message_reject_form
 msgid "Send & Reject"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "भेजें और अस्वीकार करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "भेजें और अस्वीकार करें"
 >>>>>>> upstream/18.0
@@ -23296,7 +24051,11 @@ msgid "Send Email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ईमेल भेजें"
+>>>>>>> upstream/18.0
 =======
 msgstr "ईमेल भेजें"
 >>>>>>> upstream/18.0
@@ -23436,7 +24195,11 @@ msgstr ""
 #: model:ir.model.fields,help:mail_group.field_mail_group_message_reject__send_email
 msgid "Send an email to the author of the message"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैसेज के लेखक को एक ईमेल भेजें"
+>>>>>>> upstream/18.0
 =======
 msgstr "मैसेज के लेखक को एक ईमेल भेजें"
 >>>>>>> upstream/18.0
@@ -23451,6 +24214,10 @@ msgstr ""
 msgid "Sent to people who subscribed to a mailing group with group guidelines"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"उन लोगों को भेजा गया जिन्होंने समूह के नियमों के साथ मेलिंग ग्रुप की सदस्यता ली है"
+>>>>>>> upstream/18.0
 =======
 "उन लोगों को भेजा गया जिन्होंने समूह के नियमों के साथ मेलिंग ग्रुप की सदस्यता ली है"
 >>>>>>> upstream/18.0
@@ -23459,7 +24226,11 @@ msgstr ""
 #: model:mail.template,description:mail_group.mail_template_list_unsubscribe
 msgid "Sent to people who unsubscribed from a mailing group"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उन लोगों को भेजा गया जिन्होंने मेलिंग ग्रुप की सदस्यता रद्द कर दी है"
+>>>>>>> upstream/18.0
 =======
 msgstr "उन लोगों को भेजा गया जिन्होंने मेलिंग ग्रुप की सदस्यता रद्द कर दी है"
 >>>>>>> upstream/18.0
@@ -23475,7 +24246,11 @@ msgstr "स्थिति"
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_groups
 msgid "Stay in touch with our Community"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "हमारे कम्यूनिटी के साथ जुड़े रहें"
+>>>>>>> upstream/18.0
 =======
 msgstr "हमारे कम्यूनिटी के साथ जुड़े रहें"
 >>>>>>> upstream/18.0
@@ -23492,7 +24267,11 @@ msgstr "विषय"
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_groups
 msgid "Subscribe"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सब्सक्राइब"
+>>>>>>> upstream/18.0
 =======
 msgstr "सब्सक्राइब"
 >>>>>>> upstream/18.0
@@ -23501,7 +24280,11 @@ msgstr "सब्सक्राइब"
 #: model:mail.template,description:mail_group.mail_template_list_subscribe
 msgid "Subscription confirmation to a mailing group"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेलिंग ग्रुप के लिए सब्सक्रिप्शन की पुष्टि"
+>>>>>>> upstream/18.0
 =======
 msgstr "मेलिंग ग्रुप के लिए सब्सक्रिप्शन की पुष्टि"
 >>>>>>> upstream/18.0
@@ -23511,15 +24294,21 @@ msgstr "मेलिंग ग्रुप के लिए सब्सक्�
 #: code:addons/mail_group/models/mail_group.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Template \"mail_group.mail_template_guidelines\" was not found. No email has"
 " been sent. Please contact an administrator to fix this issue."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "Template \"mail_group.mail_template_guidelines\" was not found. No email has "
 "been sent. Please contact an administrator to fix this issue."
 msgstr ""
 "टेम्पलेट \"mail\\_group.mail\\_template\\_guidelines\" नहीं मिला. कोई ईमेल नहीं भेजा गया है"
 ". इस समस्या को ठीक करने के लिए, कृपया एडमिन से संपर्क करें।"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mail_group
@@ -23568,7 +24357,11 @@ msgid "Thank you!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "धन्यवाद!"
+>>>>>>> upstream/18.0
 =======
 msgstr "धन्यवाद!"
 >>>>>>> upstream/18.0
@@ -23704,7 +24497,11 @@ msgstr "धन्यवाद!"
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "The \"Authorized Group\" is missing."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "\"अधिकृत ग्रुप\" नहीं मिल रहा है।"
+>>>>>>> upstream/18.0
 =======
 msgstr "\"अधिकृत ग्रुप\" नहीं मिल रहा है।"
 >>>>>>> upstream/18.0
@@ -23713,7 +24510,11 @@ msgstr "\"अधिकृत ग्रुप\" नहीं मिल रहा 
 #: model_terms:ir.ui.view,arch_db:mail_group.confirmation_subscription
 msgid "The email"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ईमेल"
+>>>>>>> upstream/18.0
 =======
 msgstr "ईमेल"
 >>>>>>> upstream/18.0
@@ -23723,7 +24524,11 @@ msgstr "ईमेल"
 #: code:addons/mail_group/models/mail_group_message.py:0
 msgid "The email \"%s\" is not valid."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ईमेल \"%s\" सही नहीं है।"
+>>>>>>> upstream/18.0
 =======
 msgstr "ईमेल \"%s\" सही नहीं है।"
 >>>>>>> upstream/18.0
@@ -23733,7 +24538,11 @@ msgstr "ईमेल \"%s\" सही नहीं है।"
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "The group of the message do not match."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैसेज का ग्रुप मेल नहीं खाता।"
+>>>>>>> upstream/18.0
 =======
 msgstr "मैसेज का ग्रुप मेल नहीं खाता।"
 >>>>>>> upstream/18.0
@@ -23743,7 +24552,11 @@ msgstr "मैसेज का ग्रुप मेल नहीं खात�
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "The guidelines description is empty."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "दिशा-निर्देशों का विवरण खाली है।"
+>>>>>>> upstream/18.0
 =======
 msgstr "दिशा-निर्देशों का विवरण खाली है।"
 >>>>>>> upstream/18.0
@@ -23753,7 +24566,11 @@ msgstr "दिशा-निर्देशों का विवरण खा�
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "The guidelines description is missing."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "दिशा-निर्देशों का विवरण खाली है।"
+>>>>>>> upstream/18.0
 =======
 msgstr "दिशा-निर्देशों का विवरण खाली है।"
 >>>>>>> upstream/18.0
@@ -23761,6 +24578,7 @@ msgstr "दिशा-निर्देशों का विवरण खा�
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_model_id
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
@@ -24019,6 +24837,8 @@ msgstr ""
 "टास्क)"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "The model (Odoo Document Kind) to which this alias corresponds. Any incoming "
 "email that does not reply to an existing record will cause the creation of a "
 "new record of this model (e.g. a Project Task)"
@@ -24026,6 +24846,9 @@ msgstr ""
 "वह मॉडल (Odoo दस्तावेज़ प्रकार) जिससे यह उपनाम जुड़ा है. कोई भी आने वाला ईमेल जो किसी "
 "मौजूदा रिकॉर्ड का जवाब नहीं है, इस मॉडल का एक नया रिकॉर्ड बनाएगा (जैसे कि एक प्रोजेक्ट "
 "टास्क)"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mail_group
@@ -24077,6 +24900,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ईमेल उपनाम का नाम, जैसे कि 'नौकरियां', अगर आप jobs@example.odoo.com के लिए ईमेल "
+"पाना चाहते हैं"
+>>>>>>> upstream/18.0
 =======
 "ईमेल उपनाम का नाम, जैसे कि 'नौकरियां', अगर आप jobs@example.odoo.com के लिए ईमेल "
 "पाना चाहते हैं"
@@ -24255,7 +25083,11 @@ msgstr ""
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "The notification message is missing."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नोटिफ़िकेशन मैसेज नहीं मिल रहा है।"
+>>>>>>> upstream/18.0
 =======
 msgstr "नोटिफ़िकेशन मैसेज नहीं मिल रहा है।"
 >>>>>>> upstream/18.0
@@ -24265,7 +25097,11 @@ msgstr "नोटिफ़िकेशन मैसेज नहीं मिल
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "The partner can not be found."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पार्टनर नहीं मिल सका।"
+>>>>>>> upstream/18.0
 =======
 msgstr "पार्टनर नहीं मिल सका।"
 >>>>>>> upstream/18.0
@@ -24275,7 +25111,11 @@ msgstr "पार्टनर नहीं मिल सका।"
 #: code:addons/mail_group/models/mail_group_message.py:0
 msgid "The record of the message should be the group."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैसेज का रिकॉर्ड ग्रुप से जुड़ा होना चाहिए।"
+>>>>>>> upstream/18.0
 =======
 msgstr "मैसेज का रिकॉर्ड ग्रुप से जुड़ा होना चाहिए।"
 >>>>>>> upstream/18.0
@@ -24285,7 +25125,11 @@ msgstr "मैसेज का रिकॉर्ड ग्रुप से ज�
 #: code:addons/mail_group/static/src/js/mail_group.js:0
 msgid "This email is already subscribed."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यह ईमेल पहले से ही सदस्य है।"
+>>>>>>> upstream/18.0
 =======
 msgstr "यह ईमेल पहले से ही सदस्य है।"
 >>>>>>> upstream/18.0
@@ -24295,7 +25139,11 @@ msgstr "यह ईमेल पहले से ही सदस्य है।
 #: code:addons/mail_group/static/src/js/mail_group.js:0
 msgid "This email is not subscribed."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यह ईमेल पहले से ही सदस्य नहीं है।"
+>>>>>>> upstream/18.0
 =======
 msgstr "यह ईमेल पहले से ही सदस्य नहीं है।"
 >>>>>>> upstream/18.0
@@ -24305,7 +25153,11 @@ msgstr "यह ईमेल पहले से ही सदस्य नही
 #: code:addons/mail_group/models/mail_group_message.py:0
 msgid "This message can not be moderated"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस मैसेज को मॉडरेट नहीं किया जा सका"
+>>>>>>> upstream/18.0
 =======
 msgstr "इस मैसेज को मॉडरेट नहीं किया जा सका"
 >>>>>>> upstream/18.0
@@ -24314,7 +25166,11 @@ msgstr "इस मैसेज को मॉडरेट नहीं किय�
 #: model:ir.model.constraint,message:mail_group.constraint_mail_group_member_unique_partner
 msgid "This partner is already subscribed to the group"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यह पार्टनर पहले से ही ग्रुप का सदस्य है"
+>>>>>>> upstream/18.0
 =======
 msgstr "यह पार्टनर पहले से ही ग्रुप का सदस्य है"
 >>>>>>> upstream/18.0
@@ -24324,7 +25180,11 @@ msgstr "यह पार्टनर पहले से ही ग्रुप 
 #: code:addons/mail_group/models/mail_group_message.py:0
 msgid "Those messages can not be moderated: %s."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वे मैसेज मॉडरेट नहीं किए जा सकते: %s।"
+>>>>>>> upstream/18.0
 =======
 msgstr "वे मैसेज मॉडरेट नहीं किए जा सकते: %s।"
 >>>>>>> upstream/18.0
@@ -24375,7 +25235,11 @@ msgid "To Review"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिव्यू करने के लिए"
+>>>>>>> upstream/18.0
 =======
 msgstr "रिव्यू करने के लिए"
 >>>>>>> upstream/18.0
@@ -24630,7 +25494,11 @@ msgid "Unsubscribe"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अनसब्सक्राइब करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "अनसब्सक्राइब करें"
 >>>>>>> upstream/18.0
@@ -24993,7 +25861,11 @@ msgstr "अनसब्सक्राइब करें"
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_footer
 msgid "Unsubscribe:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अनसब्सक्राइब करें:"
+>>>>>>> upstream/18.0
 =======
 msgstr "अनसब्सक्राइब करें:"
 >>>>>>> upstream/18.0
@@ -25003,7 +25875,11 @@ msgstr "अनसब्सक्राइब करें:"
 msgid ""
 "When people send an email to the alias of the list, they will appear here."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जब लोग लिस्ट के उपनाम पर ईमेल करेंगे, तो वे ईमेल यहां दिखेंगे।"
+>>>>>>> upstream/18.0
 =======
 msgstr "जब लोग लिस्ट के उपनाम पर ईमेल करेंगे, तो वे ईमेल यहां दिखेंगे।"
 >>>>>>> upstream/18.0
@@ -25013,7 +25889,11 @@ msgstr "जब लोग लिस्ट के उपनाम पर ईमे
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_message_view_list
 msgid "Whitelist"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "व्हाइटलिस्ट"
+>>>>>>> upstream/18.0
 =======
 msgstr "व्हाइटलिस्ट"
 >>>>>>> upstream/18.0
@@ -25022,7 +25902,11 @@ msgstr "व्हाइटलिस्ट"
 #: model:ir.model.fields.selection,name:mail_group.selection__mail_group_message__author_moderation__allow
 msgid "Whitelisted"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "व्हाइटलिस्टेड"
+>>>>>>> upstream/18.0
 =======
 msgstr "व्हाइटलिस्टेड"
 >>>>>>> upstream/18.0
@@ -25032,7 +25916,11 @@ msgstr "व्हाइटलिस्टेड"
 #: code:addons/mail_group/models/mail_group_message.py:0
 msgid "Wrong status (%s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गलत स्टेटस (%s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "गलत स्टेटस (%s)"
 >>>>>>> upstream/18.0
@@ -25041,7 +25929,11 @@ msgstr "गलत स्टेटस (%s)"
 #: model:ir.model.constraint,message:mail_group.constraint_mail_group_moderation_mail_group_email_uniq
 msgid "You can create only one rule for a given email address in a group."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आप एक ग्रुप में दिए गए ईमेल पते के लिए सिर्फ़ एक ही नियम बना सकते हैं।"
+>>>>>>> upstream/18.0
 =======
 msgstr "आप एक ग्रुप में दिए गए ईमेल पते के लिए सिर्फ़ एक ही नियम बना सकते हैं।"
 >>>>>>> upstream/18.0
@@ -25050,7 +25942,11 @@ msgstr "आप एक ग्रुप में दिए गए ईमेल �
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_notify_moderation
 msgid "You have messages to moderate, please go for the proceedings."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मॉडरेट करने के लिए आपके पास मैसेज हैं, कृपया आगे की कार्रवाई करें।"
+>>>>>>> upstream/18.0
 =======
 msgstr "मॉडरेट करने के लिए आपके पास मैसेज हैं, कृपया आगे की कार्रवाई करें।"
 >>>>>>> upstream/18.0
@@ -25182,7 +26078,11 @@ msgid "alias"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपनाम"
+>>>>>>> upstream/18.0
 =======
 msgstr "उपनाम"
 >>>>>>> upstream/18.0
@@ -25545,7 +26445,11 @@ msgstr "उपनाम"
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_message_reject_form
 msgid "and send an email to the author ("
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "और लेखक को एक ईमेल भेजें ("
+>>>>>>> upstream/18.0
 =======
 msgstr "और लेखक को एक ईमेल भेजें ("
 >>>>>>> upstream/18.0
@@ -25596,7 +26500,11 @@ msgid "attachments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अटैचमेंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "अटैचमेंट"
 >>>>>>> upstream/18.0
@@ -25731,7 +26639,11 @@ msgstr "अटैचमेंट"
 #: model_terms:ir.ui.view,arch_db:mail_group.message_footer
 msgid "by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "के ज़रिए"
+>>>>>>> upstream/18.0
 =======
 msgstr "के ज़रिए"
 >>>>>>> upstream/18.0
@@ -25740,7 +26652,11 @@ msgstr "के ज़रिए"
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_form
 msgid "e.g. \"Newsletter\""
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जैसे, \"न्यूज़लेटर\""
+>>>>>>> upstream/18.0
 =======
 msgstr "जैसे, \"न्यूज़लेटर\""
 >>>>>>> upstream/18.0
@@ -25867,7 +26783,11 @@ msgid "e.g. mycompany.com"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जैसे, mycompany.com"
+>>>>>>> upstream/18.0
 =======
 msgstr "जैसे, mycompany.com"
 >>>>>>> upstream/18.0
@@ -26230,7 +27150,11 @@ msgstr "जैसे, mycompany.com"
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_message_view_search
 msgid "group"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ग्रुप"
+>>>>>>> upstream/18.0
 =======
 msgstr "ग्रुप"
 >>>>>>> upstream/18.0
@@ -26239,7 +27163,11 @@ msgstr "ग्रुप"
 #: model_terms:ir.ui.view,arch_db:mail_group.confirmation_subscription
 msgid "has been"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रहा है"
+>>>>>>> upstream/18.0
 =======
 msgstr "रहा है"
 >>>>>>> upstream/18.0
@@ -26249,7 +27177,12 @@ msgstr "रहा है"
 msgid ""
 "members<br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <i class=\"fa fa-fw fa-envelope-o\" role=\"img\" aria-label=\"Traffic\" title=\"Traffic\"/>"
+=======
+"                        <i class=\"fa fa-fw fa-envelope-o\" role=\"img\" "
+"aria-label=\"Traffic\" title=\"Traffic\"/>"
+>>>>>>> upstream/18.0
 =======
 "                        <i class=\"fa fa-fw fa-envelope-o\" role=\"img\" "
 "aria-label=\"Traffic\" title=\"Traffic\"/>"
@@ -26260,7 +27193,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_groups
 msgid "messages / month"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैसेज / महीना"
+>>>>>>> upstream/18.0
 =======
 msgstr "मैसेज / महीना"
 >>>>>>> upstream/18.0
@@ -26269,7 +27206,11 @@ msgstr "मैसेज / महीना"
 #: model_terms:ir.ui.view,arch_db:mail_group.messages_short
 msgid "more replies"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ज़्यादा जवाब"
+>>>>>>> upstream/18.0
 =======
 msgstr "ज़्यादा जवाब"
 >>>>>>> upstream/18.0
@@ -26278,7 +27219,11 @@ msgstr "ज़्यादा जवाब"
 #: model_terms:ir.ui.view,arch_db:mail_group.messages_short
 msgid "replies"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जवाब"
+>>>>>>> upstream/18.0
 =======
 msgstr "जवाब"
 >>>>>>> upstream/18.0
@@ -26287,7 +27232,11 @@ msgstr "जवाब"
 #: model_terms:ir.ui.view,arch_db:mail_group.confirmation_subscription
 msgid "subscribed to"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सब्सक्राइब किया है"
+>>>>>>> upstream/18.0
 =======
 msgstr "सब्सक्राइब किया है"
 >>>>>>> upstream/18.0
@@ -26296,7 +27245,11 @@ msgstr "सब्सक्राइब किया है"
 #: model_terms:ir.ui.view,arch_db:mail_group.confirmation_subscription
 msgid "the list"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लिस्ट"
+>>>>>>> upstream/18.0
 =======
 msgstr "लिस्ट"
 >>>>>>> upstream/18.0
@@ -26305,7 +27258,11 @@ msgstr "लिस्ट"
 #: model_terms:ir.ui.view,arch_db:mail_group.confirmation_subscription
 msgid "unsubscribed from"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यहां से अनसब्सक्राइब किया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "यहां से अनसब्सक्राइब किया गया"
 >>>>>>> upstream/18.0
@@ -26314,7 +27271,11 @@ msgstr "यहां से अनसब्सक्राइब किया �
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_groups
 msgid "your email..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आपका ईमेल..।"
+>>>>>>> upstream/18.0
 =======
 msgstr "आपका ईमेल..।"
 >>>>>>> upstream/18.0

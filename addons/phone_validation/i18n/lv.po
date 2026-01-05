@@ -2,7 +2,11 @@
 # This file contains the translation of the following modules:
 # 	* phone_validation
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -13,7 +17,11 @@
 # Martin Trigaux, 2024
 # ievaputnina <ievai.putninai@gmail.com>, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -21,6 +29,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:57+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -32,6 +41,8 @@ msgstr ""
 "Language: lv\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: ievaputnina <ievai.putninai@gmail.com>, 2024\n"
@@ -42,6 +53,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
 "2);\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: phone_validation
@@ -75,13 +89,19 @@ msgstr "Arhivēts"
 #. module: phone_validation
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/phone_validation/models/mail_thread_phone.py:0
 msgid "Are you sure you want to unblacklist this Phone Number?"
 msgstr ""
 
 #. module: phone_validation
 #. odoo-python
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/phone_validation/models/phone_blacklist.py:0
 msgid "Are you sure you want to unblacklist this phone number?"
@@ -136,8 +156,13 @@ msgid ""
 "(#%(user_id)s)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Bloķēts, izdzēšot portāla kontu %(portal_user_name)s, ko veicis "
 "%(user_name)s(#%(user_id)s)"
+=======
+"Bloķēts, izdzēšot portāla kontu %(portal_user_name)s, ko veicis %"
+"(user_name)s(#%(user_id)s)"
+>>>>>>> upstream/18.0
 =======
 "Bloķēts, izdzēšot portāla kontu %(portal_user_name)s, ko veicis %"
 "(user_name)s(#%(user_id)s)"
@@ -218,8 +243,13 @@ msgstr "Ja atzīmēts, daži ziņojumi satur piegādes kļūdu."
 #: model:ir.model.fields,help:phone_validation.field_mail_thread_phone__phone_sanitized_blacklisted
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If the sanitized phone number is on the blacklist, the contact won't receive"
 " mass mailing sms anymore, from any list"
+=======
+"If the sanitized phone number is on the blacklist, the contact won't receive "
+"mass mailing sms anymore, from any list"
+>>>>>>> upstream/18.0
 =======
 "If the sanitized phone number is on the blacklist, the contact won't receive "
 "mass mailing sms anymore, from any list"
@@ -431,7 +461,10 @@ msgstr "Lietotājs"
 
 #. module: phone_validation
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/phone_validation/models/mail_thread_phone.py:0
 msgid ""
@@ -440,6 +473,9 @@ msgid ""
 msgstr ""
 
 #. module: phone_validation
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:phone_validation.phone_blacklist_remove_view_form
 msgid "e.g \"Asked to receive our next newsletters\""

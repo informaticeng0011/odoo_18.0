@@ -2,22 +2,29 @@
 # This file contains the translation of the following modules:
 # 	* repair
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Larissa Manderfeld, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Larissa Manderfeld, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -28,6 +35,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: de\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Larissa Manderfeld, 2025\n"
@@ -36,6 +45,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -70,7 +82,12 @@ msgstr "(<i>Entfernen</i>)"
 #: model:ir.model.fields,help:repair.field_repair_order__state
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "* The 'New' status is used when a user is encoding a new and unconfirmed repair order.\n"
+=======
+"* The 'New' status is used when a user is encoding a new and unconfirmed "
+"repair order.\n"
+>>>>>>> upstream/18.0
 =======
 "* The 'New' status is used when a user is encoding a new and unconfirmed "
 "repair order.\n"
@@ -81,12 +98,15 @@ msgid ""
 "* The 'Cancelled' status is used when user cancel repair order."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "* Der Status „Neu“ wird verwendet, wenn ein Benutzer einen neuen und unbestätigten Reparaturauftrag erfasst.\n"
 "* Der Status „Bestätigt“ wird verwendet, wenn ein Benutzer den Reparaturauftrag bestätigt.\n"
 "* Der Status „In Reparatur“ wird verwendet, wenn die Reparatur noch nicht abgeschlossen ist.\n"
 "* Der Status „Repariert“ wird gesetzt, wenn die Reparatur abgeschlossen ist.\n"
 "* Der Status „Abgebrochen“ wird verwendet, wenn der Benutzer den Reparaturauftrag abbricht."
 =======
+=======
+>>>>>>> upstream/18.0
 "* Der Status „Neu“ wird verwendet, wenn ein Benutzer einen neuen und "
 "unbestätigten Reparaturauftrag erfasst.\n"
 "* Der Status „Bestätigt“ wird verwendet, wenn ein Benutzer den "
@@ -97,6 +117,9 @@ msgstr ""
 "ist.\n"
 "* Der Status „Abgebrochen“ wird verwendet, wenn der Benutzer den "
 "Reparaturauftrag abbricht."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: repair
@@ -335,8 +358,13 @@ msgid ""
 msgstr ""
 "Wählen Sie einen Partner, für den der Auftrag in Rechnung gestellt und "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "geliefert wird. Sie finden einen Partner anhand seines Namens, seiner "
 "Steuer-ID, seiner E-Mail-Adresse oder seiner internen Referenz."
+=======
+"geliefert wird. Sie finden einen Partner anhand seines Namens, seiner Steuer-"
+"ID, seiner E-Mail-Adresse oder seiner internen Referenz."
+>>>>>>> upstream/18.0
 =======
 "geliefert wird. Sie finden einen Partner anhand seines Namens, seiner Steuer-"
 "ID, seiner E-Mail-Adresse oder seiner internen Referenz."
@@ -422,8 +450,13 @@ msgid ""
 "Create a linked Repair Order on Sale Order confirmation of this product."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Erstellen Sie einen verknüpften Reparaturauftrag auf der Auftragsbestätigung"
 " für dieses Produkt."
+=======
+"Erstellen Sie einen verknüpften Reparaturauftrag auf der Auftragsbestätigung "
+"für dieses Produkt."
+>>>>>>> upstream/18.0
 =======
 "Erstellen Sie einen verknüpften Reparaturauftrag auf der Auftragsbestätigung "
 "für dieses Produkt."
@@ -597,8 +630,12 @@ msgstr "Falls markiert, erfordern neue Nachrichten Ihre Aufmerksamkeit."
 #: model:ir.model.fields,help:repair.field_repair_order__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Falls markiert, weisen einige Nachrichten einen Zustellungsfehler auf."
+=======
+msgstr "Falls markiert, weisen einige Nachrichten einen Zustellungsfehler auf."
+>>>>>>> upstream/18.0
 =======
 msgstr "Falls markiert, weisen einige Nachrichten einen Zustellungsfehler auf."
 >>>>>>> upstream/18.0
@@ -625,12 +662,15 @@ msgstr ""
 msgid ""
 "In a repair order, you can detail the components you remove,\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                add or replace and record the time you spent on the different\n"
 "                operations."
 msgstr ""
 "In einem Reparaturauftrag können Sie die Komponenten, die Sie\n"
 "                entfernen, hinzufügen oder ersetzen und die Zeit, die Sie für die verschiedenen\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                add or replace and record the time you spent on the "
 "different\n"
 "                operations."
@@ -638,6 +678,9 @@ msgstr ""
 "In einem Reparaturauftrag können Sie die Komponenten, die Sie\n"
 "                entfernen, hinzufügen oder ersetzen und die Zeit, die Sie "
 "für die verschiedenen\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                 Vorgänge gebraucht haben, aufzeichnen."
 
@@ -877,8 +920,12 @@ msgstr "Vorgangsart"
 #. module: repair
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/repair/models/product.py:0
 #: code:addons/repair/models/repair.py:0
+=======
+#: code:addons/repair/models/product.py:0 code:addons/repair/models/repair.py:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/repair/models/product.py:0 code:addons/repair/models/repair.py:0
 >>>>>>> upstream/18.0
@@ -1393,8 +1440,12 @@ msgstr "Technisches Feld zum Prüfen, wann Mengen reserviert werden können"
 #: model:ir.model.fields,help:repair.field_repair_order__unreserve_visible
 msgid "Technical field to check when we can unreserve"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Technisches Feld zum Prüfen, wann wir die Reservierung aufheben können"
+=======
+msgstr "Technisches Feld zum Prüfen, wann wir die Reservierung aufheben können"
+>>>>>>> upstream/18.0
 =======
 msgstr "Technisches Feld zum Prüfen, wann wir die Reservierung aufheben können"
 >>>>>>> upstream/18.0
@@ -1413,8 +1464,13 @@ msgid ""
 "product unit of measure."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Die von Ihnen gewählte Maßeinheit des Produkts hat eine andere Kategorie als"
 " die Maßeinheit des Produkts."
+=======
+"Die von Ihnen gewählte Maßeinheit des Produkts hat eine andere Kategorie als "
+"die Maßeinheit des Produkts."
+>>>>>>> upstream/18.0
 =======
 "Die von Ihnen gewählte Maßeinheit des Produkts hat eine andere Kategorie als "
 "die Maßeinheit des Produkts."
@@ -1432,8 +1488,13 @@ msgid ""
 "repair orders with this operation type."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Dies ist der Standardzielstandort für das Produkt, das in Reparaturaufträgen"
 " mit dieser Vorgangsart repariert werden soll."
+=======
+"Dies ist der Standardzielstandort für das Produkt, das in Reparaturaufträgen "
+"mit dieser Vorgangsart repariert werden soll."
+>>>>>>> upstream/18.0
 =======
 "Dies ist der Standardzielstandort für das Produkt, das in Reparaturaufträgen "
 "mit dieser Vorgangsart repariert werden soll."
@@ -1461,8 +1522,13 @@ msgstr ""
 #: model:ir.model.fields,help:repair.field_stock_picking_type__default_product_location_src_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This is the default source location for the product to be repaired in repair"
 " orders with this operation type."
+=======
+"This is the default source location for the product to be repaired in repair "
+"orders with this operation type."
+>>>>>>> upstream/18.0
 =======
 "This is the default source location for the product to be repaired in repair "
 "orders with this operation type."
@@ -1640,12 +1706,15 @@ msgstr ""
 #: code:addons/repair/models/repair.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot create a quotation for a repair order that is already linked to an existing sale order.\n"
 "Concerned repair order(s):\n"
 "%(ref_str)s"
 msgstr ""
 "Sie können kein Angebot für einen Reparaturauftrag, der bereits mit einem bestehenden Verkaufsauftrag verknüpft ist, erstellen.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "You cannot create a quotation for a repair order that is already linked to "
 "an existing sale order.\n"
 "Concerned repair order(s):\n"
@@ -1653,6 +1722,9 @@ msgstr ""
 msgstr ""
 "Sie können kein Angebot für einen Reparaturauftrag, der bereits mit einem "
 "bestehenden Verkaufsauftrag verknüpft ist, erstellen.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Betroffene(r) Reparaturauftrag/-aufträge:\n"
 "%(ref_str)s"
@@ -1662,12 +1734,15 @@ msgstr ""
 #: code:addons/repair/models/repair.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You need to define a customer for a repair order in order to create an associated quotation.\n"
 "Concerned repair order(s):\n"
 "%(ref_str)s"
 msgstr ""
 "Sie müssen einen Kunden für einen Reparaturauftrag definieren, um ein zugehöriges Angebot erstellen zu können.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "You need to define a customer for a repair order in order to create an "
 "associated quotation.\n"
 "Concerned repair order(s):\n"
@@ -1675,6 +1750,9 @@ msgstr ""
 msgstr ""
 "Sie müssen einen Kunden für einen Reparaturauftrag definieren, um ein "
 "zugehöriges Angebot erstellen zu können.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Betroffene(r) Reparaturauftrag/-aufträge:\n"
 "%(ref_str)s"

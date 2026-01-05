@@ -2,7 +2,11 @@
 # This file contains the translation of the following modules:
 # 	* auth_totp
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -16,7 +20,11 @@
 # Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2024
 # Jesse Järvi <me@jessejarvi.net>, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -24,6 +32,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -34,6 +43,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: fi\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Jesse Järvi <me@jessejarvi.net>, 2024\n"
@@ -42,6 +53,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -67,22 +81,29 @@ msgstr "Kaksivaiheinen tunnistautuminen otettu käyttöön onnistuneesti."
 msgid ""
 "<span class=\"d-md-none d-block\">Or install an authenticator app</span>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                        <span class=\"d-none d-md-block\">Install an authenticator app on your mobile device</span>"
 msgstr ""
 "<span class=\"d-md-none d-block\">Tai asenna vahvistussovellus</span>\n"
 "                                        <span class=\"d-none d-md-block\">Asenna vahvistussovellus mobiililaitteeseesi</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                        <span class=\"d-none d-md-"
 "block\">Install an authenticator app on your mobile device</span>"
 msgstr ""
 "<span class=\"d-md-none d-block\">Tai asenna vahvistussovellus</span>\n"
 "                                        <span class=\"d-none d-md-"
 "block\">Asenna vahvistussovellus mobiililaitteeseesi</span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_wizard
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "<span class=\"d-none d-md-block\">When requested to do so, scan the barcode below</span>\n"
 "                                    <span class=\"d-block d-md-none\">When requested to do so, copy the key below</span>"
@@ -90,6 +111,8 @@ msgstr ""
 "<span class=\"d-none d-md-block\">Skannaa allaoleva QR-koodi sovelluksen pyytäessä sitä</span>\n"
 "                                    <span class=\"d-block d-md-none\">Kopioi alla oleva koodi sovelluksen pyytäessä sitä</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 "<span class=\"d-none d-md-block\">When requested to do so, scan the barcode "
 "below</span>\n"
 "                                    <span class=\"d-block d-md-none\">When "
@@ -99,6 +122,9 @@ msgstr ""
 "pyytäessä sitä</span>\n"
 "                                    <span class=\"d-block d-md-none\">Kopioi "
 "alla oleva koodi sovelluksen pyytäessä sitä</span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: auth_totp
@@ -108,8 +134,13 @@ msgid ""
 "or the Microsoft Authenticator.</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"text-muted\">Suosittuja sovelluksia ovat esimerkiksi Microsoft"
 " Authenticator, Authy tai Google Authenticator</span>"
+=======
+"<span class=\"text-muted\">Suosittuja sovelluksia ovat esimerkiksi Microsoft "
+"Authenticator, Authy tai Google Authenticator</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"text-muted\">Suosittuja sovelluksia ovat esimerkiksi Microsoft "
 "Authenticator, Authy tai Google Authenticator</span>"
@@ -131,8 +162,13 @@ msgid ""
 "protected!</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span invisible=\"not totp_enabled\" class=\"text-muted\">Tilisi on "
 "suojattu!</span>"
+=======
+"<span invisible=\"not totp_enabled\" class=\"text-muted\">Tilisi on suojattu!"
+"</span>"
+>>>>>>> upstream/18.0
 =======
 "<span invisible=\"not totp_enabled\" class=\"text-muted\">Tilisi on suojattu!"
 "</span>"
@@ -153,8 +189,13 @@ msgstr "Lisätty"
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Are you sure? The user may be asked to enter two-factor codes again on those"
 " devices"
+=======
+"Are you sure? The user may be asked to enter two-factor codes again on those "
+"devices"
+>>>>>>> upstream/18.0
 =======
 "Are you sure? The user may be asked to enter two-factor codes again on those "
 "devices"
@@ -170,8 +211,12 @@ msgid ""
 "devices"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Oletko varma? Saatat joutua syöttämään vahvistuskoodin uudelleen "
 "laitteessasi"
+=======
+"Oletko varma? Saatat joutua syöttämään vahvistuskoodin uudelleen laitteessasi"
+>>>>>>> upstream/18.0
 =======
 "Oletko varma? Saatat joutua syöttämään vahvistuskoodin uudelleen laitteessasi"
 >>>>>>> upstream/18.0
@@ -357,17 +402,23 @@ msgstr "Vahvistuskoodissa tulee olla pekkiä numeroita"
 #: model_terms:ir.ui.view,arch_db:auth_totp.auth_totp_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "To login, enter below the six-digit authentication code provided by your Authenticator app.\n"
 "                        <br/>"
 msgstr ""
 "Kirjautuaksesi sisään, syötä alle kuusinumeroinen vahvistuskoodi vahvistussovelluksestasi.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "To login, enter below the six-digit authentication code provided by your "
 "Authenticator app.\n"
 "                        <br/>"
 msgstr ""
 "Kirjautuaksesi sisään, syötä alle kuusinumeroinen vahvistuskoodi "
 "vahvistussovelluksestasi.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                        <br/>"
 
@@ -402,6 +453,7 @@ msgstr "Kaksivaiheinen tunnistautuminen"
 msgid ""
 "Two-factor Authentication (\"2FA\") is a system of double authentication.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        The first one is done with your password and the second one with a code you get from a dedicated mobile app.\n"
 "                        Popular ones include Authy, Google Authenticator or the Microsoft Authenticator."
 msgstr ""
@@ -409,6 +461,8 @@ msgstr ""
 "Kirjautuessa syötetään salasanan lisäksi koodi vahvistussovelluksesta.\n"
 "Suosittuja sovelluksia ovat esimerkiksi Microsoft Authenticator, Authy sekä Google Authenticator."
 =======
+=======
+>>>>>>> upstream/18.0
 "                        The first one is done with your password and the "
 "second one with a code you get from a dedicated mobile app.\n"
 "                        Popular ones include Authy, Google Authenticator or "
@@ -418,6 +472,9 @@ msgstr ""
 "Kirjautuessa syötetään salasanan lisäksi koodi vahvistussovelluksesta.\n"
 "Suosittuja sovelluksia ovat esimerkiksi Microsoft Authenticator, Authy sekä "
 "Google Authenticator."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: auth_totp

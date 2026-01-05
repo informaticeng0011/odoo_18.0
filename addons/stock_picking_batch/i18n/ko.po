@@ -2,7 +2,11 @@
 # This file contains the translation of the following modules:
 # 	* stock_picking_batch
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -11,7 +15,11 @@
 # Daye Jeong, 2024
 # Sarah Park, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -19,6 +27,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2025-03-19 20:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
@@ -29,6 +38,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: ko\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Sarah Park, 2025\n"
@@ -37,6 +48,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
 
@@ -66,8 +80,13 @@ msgid ""
 "Grouping</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"o_form_label fw-bold\" invisible=\"not auto_batch\">일괄 "
 "그룹화</span>"
+=======
+"<span class=\"o_form_label fw-bold\" invisible=\"not auto_batch\">일괄 그룹화"
+"</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_form_label fw-bold\" invisible=\"not auto_batch\">일괄 그룹화"
 "</span>"
@@ -112,17 +131,23 @@ msgstr "<strong>→</strong>"
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__batch_max_lines
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A transfer will not be automatically added to batches that will exceed this number of lines if the transfer is added to it.\n"
 "Leave this value as '0' if no line limit."
 msgstr ""
 "이 라인 수를 초과하여 전송 항목 추가 시 일괄 전송 항목에 자동으로 추가되지 않습니다. \n"
 =======
+=======
+>>>>>>> upstream/18.0
 "A transfer will not be automatically added to batches that will exceed this "
 "number of lines if the transfer is added to it.\n"
 "Leave this value as '0' if no line limit."
 msgstr ""
 "이 라인 수를 초과하여 전송 항목 추가 시 일괄 전송 항목에 자동으로 추가되지 않"
 "습니다. \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "라인 한도가 없는 경우 이 값을 '0'으로 두십시오."
 
@@ -130,7 +155,12 @@ msgstr ""
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__batch_max_pickings
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A transfer will not be automatically added to batches that will exceed this number of transfers.\n"
+=======
+"A transfer will not be automatically added to batches that will exceed this "
+"number of transfers.\n"
+>>>>>>> upstream/18.0
 =======
 "A transfer will not be automatically added to batches that will exceed this "
 "number of transfers.\n"
@@ -547,7 +577,13 @@ msgid ""
 "If the Automatic Batches feature is enabled, at least one 'Group by' option "
 "must be selected."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "자동 배치 기능이 활성화된 경우 하나 이상 '그룹화 기준' 옵션을 선택하셔야 합니다."
+=======
+msgstr ""
+"자동 배치 기능이 활성화된 경우 하나 이상 '그룹화 기준' 옵션을 선택하셔야 합니"
+"다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "자동 배치 기능이 활성화된 경우 하나 이상 '그룹화 기준' 옵션을 선택하셔야 합니"
@@ -605,7 +641,13 @@ msgid ""
 "Launch picking orders by aisle or area and regroup at packing zone. Ideal "
 "for large warehouses."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "통로 또는 구역별로 피킹 주문을 시작한 다음 포장 구역에서 재집결합니다. 이 방식은 대형 창고에 이상적입니다. "
+=======
+msgstr ""
+"통로 또는 구역별로 피킹 주문을 시작한 다음 포장 구역에서 재집결합니다. 이 방"
+"식은 대형 창고에 이상적입니다. "
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "통로 또는 구역별로 피킹 주문을 시작한 다음 포장 구역에서 재집결합니다. 이 방"
@@ -750,7 +792,13 @@ msgid ""
 "Pick multiple orders in one trip and prepare orders as you pick. This "
 "reduces packing time and is ideal for small products."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "한 번에 여러 주문을 피킹하고 피킹하면서 주문을 준비합니다. 이렇게 하면 포장 시간이 최소화되며 소형 제품에 이상적입니다."
+=======
+msgstr ""
+"한 번에 여러 주문을 피킹하고 피킹하면서 주문을 준비합니다. 이렇게 하면 포장 "
+"시간이 최소화되며 소형 제품에 이상적입니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "한 번에 여러 주문을 피킹하고 피킹하면서 주문을 준비합니다. 이렇게 하면 포장 "
@@ -771,8 +819,12 @@ msgstr "선별 유형"
 #. odoo-python
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Please add 'Done' quantities to the batch picking to create a new pack."
+=======
+msgid "Please add 'Done' quantities to the batch picking to create a new pack."
+>>>>>>> upstream/18.0
 =======
 msgid "Please add 'Done' quantities to the batch picking to create a new pack."
 >>>>>>> upstream/18.0
@@ -858,8 +910,12 @@ msgstr "평가"
 #: model_terms:ir.actions.act_window,help:stock_picking_batch.stock_picking_batch_action
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Regroup multiple orders into one picking and consolidate at the packing "
 "zone."
+=======
+"Regroup multiple orders into one picking and consolidate at the packing zone."
+>>>>>>> upstream/18.0
 =======
 "Regroup multiple orders into one picking and consolidate at the packing zone."
 >>>>>>> upstream/18.0
@@ -899,6 +955,7 @@ msgstr "예정일"
 msgid ""
 "Scheduled date for the transfers to be processed.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "              - If manually set then scheduled date for all transfers in batch will automatically update to this date.\n"
 "              - If not manually changed and transfers are added/removed/updated then this will be their earliest scheduled date\n"
 "                but this scheduled date will not be set for all transfers in batch."
@@ -908,6 +965,8 @@ msgstr ""
 "              - 수동으로 변경하지 않고 이체를 추가, 제거 또는 업데이트할 경우 이 날짜가 가장 빠른 예정일이 됩니다.\n"
 "                그러나 이 예정일이 이체 전체 항목에 대해 일괄적으로 설정되지는 않습니다."
 =======
+=======
+>>>>>>> upstream/18.0
 "              - If manually set then scheduled date for all transfers in "
 "batch will automatically update to this date.\n"
 "              - If not manually changed and transfers are added/removed/"
@@ -922,6 +981,9 @@ msgstr ""
 "우 이 날짜가 가장 빠른 예정일이 됩니다.\n"
 "                그러나 이 예정일이 이체 전체 항목에 대해 일괄적으로 설정되지"
 "는 않습니다."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
@@ -980,14 +1042,20 @@ msgstr "지정된 위치별로 배송을 분리한 다음 같은 위치의 배�
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__wave_group_by_category
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Split transfers by product category, then group transfers that have the same"
 " product category."
 msgstr "품목 카테고리별로 전송을 분리한 다음 같은 카테고리의 항목을 그룹화하세요."
 =======
+=======
+>>>>>>> upstream/18.0
 "Split transfers by product category, then group transfers that have the same "
 "product category."
 msgstr ""
 "품목 카테고리별로 전송을 분리한 다음 같은 카테고리의 항목을 그룹화하세요."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
@@ -1062,12 +1130,15 @@ msgstr "요약 :"
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The following transfers cannot be added to batch transfer %(batch)s. Please check their states and operation types.\n"
 "\n"
 "Incompatibilities: %(incompatible_transfers)s"
 msgstr ""
 "다음 전송은 일괄 전송 %(batch)s에 포함할 수 없습니다. 해당 전송의 상태 및 작업 유형에서 비호환성을 검토하세요:\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "The following transfers cannot be added to batch transfer %(batch)s. Please "
 "check their states and operation types.\n"
 "\n"
@@ -1075,6 +1146,9 @@ msgstr ""
 msgstr ""
 "다음 전송은 일괄 전송 %(batch)s에 포함할 수 없습니다. 해당 전송의 상태 및 작"
 "업 유형에서 비호환성을 검토하세요:\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "\n"
 "비호환성: %(incompatible_transfers)s"

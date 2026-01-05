@@ -2,22 +2,29 @@
 # This file contains the translation of the following modules:
 # 	* repair
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Maitê Dietze, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Maitê Dietze, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -29,6 +36,8 @@ msgstr ""
 "Language: pt_BR\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Maitê Dietze, 2025\n"
@@ -40,6 +49,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
 "1000000 == 0 ? 1 : 2;\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: repair
@@ -73,7 +85,12 @@ msgstr "(<i>Remover</i>)"
 #: model:ir.model.fields,help:repair.field_repair_order__state
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "* The 'New' status is used when a user is encoding a new and unconfirmed repair order.\n"
+=======
+"* The 'New' status is used when a user is encoding a new and unconfirmed "
+"repair order.\n"
+>>>>>>> upstream/18.0
 =======
 "* The 'New' status is used when a user is encoding a new and unconfirmed "
 "repair order.\n"
@@ -84,13 +101,19 @@ msgid ""
 "* The 'Cancelled' status is used when user cancel repair order."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "* O status 'Novo' é usado quando um usuário está codificando uma ordem de reparo nova e não confirmada.\n"
 "* O status 'Confirmado' é usado quando um usuário confirma a ordem de reparo.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "* O status 'Novo' é usado quando um usuário está codificando uma ordem de "
 "reparo nova e não confirmada.\n"
 "* O status 'Confirmado' é usado quando um usuário confirma a ordem de "
 "reparo.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "* O status 'Em reparo' é usado quando o reparo está em andamento.\n"
 "* O status 'Reparado' é definido quando o reparo foi concluído.\n"
@@ -603,7 +626,12 @@ msgstr ""
 msgid ""
 "In a repair order, you can detail the components you remove,\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                add or replace and record the time you spent on the different\n"
+=======
+"                add or replace and record the time you spent on the "
+"different\n"
+>>>>>>> upstream/18.0
 =======
 "                add or replace and record the time you spent on the "
 "different\n"
@@ -849,8 +877,12 @@ msgstr "Tipo de operação"
 #. module: repair
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/repair/models/product.py:0
 #: code:addons/repair/models/repair.py:0
+=======
+#: code:addons/repair/models/product.py:0 code:addons/repair/models/repair.py:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/repair/models/product.py:0 code:addons/repair/models/repair.py:0
 >>>>>>> upstream/18.0
@@ -1404,8 +1436,13 @@ msgid ""
 "order with this operation type."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Esse é o local de destino de reciclagem padrão quando você cria uma ordem de"
 " reparo com esse tipo de operação."
+=======
+"Esse é o local de destino de reciclagem padrão quando você cria uma ordem de "
+"reparo com esse tipo de operação."
+>>>>>>> upstream/18.0
 =======
 "Esse é o local de destino de reciclagem padrão quando você cria uma ordem de "
 "reparo com esse tipo de operação."
@@ -1424,8 +1461,13 @@ msgstr ""
 #: model:ir.model.fields,help:repair.field_stock_picking_type__default_product_location_src_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This is the default source location for the product to be repaired in repair"
 " orders with this operation type."
+=======
+"This is the default source location for the product to be repaired in repair "
+"orders with this operation type."
+>>>>>>> upstream/18.0
 =======
 "This is the default source location for the product to be repaired in repair "
 "orders with this operation type."
@@ -1601,12 +1643,15 @@ msgstr ""
 #: code:addons/repair/models/repair.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot create a quotation for a repair order that is already linked to an existing sale order.\n"
 "Concerned repair order(s):\n"
 "%(ref_str)s"
 msgstr ""
 "Não é possível criar uma cotação para uma ordem de reparo que já esteja vinculada a um pedido de venda existente.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "You cannot create a quotation for a repair order that is already linked to "
 "an existing sale order.\n"
 "Concerned repair order(s):\n"
@@ -1614,6 +1659,9 @@ msgstr ""
 msgstr ""
 "Não é possível criar uma cotação para uma ordem de reparo que já esteja "
 "vinculada a um pedido de venda existente.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Ordens de reparo em questão:\n"
 "%(ref_str)s"
@@ -1623,12 +1671,15 @@ msgstr ""
 #: code:addons/repair/models/repair.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You need to define a customer for a repair order in order to create an associated quotation.\n"
 "Concerned repair order(s):\n"
 "%(ref_str)s"
 msgstr ""
 "É necessário definir um cliente para uma ordem de reparo a fim de criar uma cotação associada.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "You need to define a customer for a repair order in order to create an "
 "associated quotation.\n"
 "Concerned repair order(s):\n"
@@ -1636,6 +1687,9 @@ msgstr ""
 msgstr ""
 "É necessário definir um cliente para uma ordem de reparo a fim de criar uma "
 "cotação associada.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Ordens de reparo em questão:\n"
 "%(ref_str)s"

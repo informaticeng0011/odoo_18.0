@@ -2,22 +2,29 @@
 # This file contains the translation of the following modules:
 # 	* mail_group
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Malaz Abuidris <msea@odoo.com>, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Malaz Abuidris <msea@odoo.com>, 2024
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -29,6 +36,8 @@ msgstr ""
 "Language: ar\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Malaz Abuidris <msea@odoo.com>, 2024\n"
@@ -39,6 +48,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mail_group
@@ -46,8 +58,13 @@ msgstr ""
 msgid ") <span invisible=\"not send_email\">and send them an email</span>."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 ") <span invisible=\"not send_email\">ثم قم بإرسال بريد إلكتروني "
 "إليهم</span>. "
+=======
+") <span invisible=\"not send_email\">ثم قم بإرسال بريد إلكتروني إليهم</"
+"span>. "
+>>>>>>> upstream/18.0
 =======
 ") <span invisible=\"not send_email\">ثم قم بإرسال بريد إلكتروني إليهم</"
 "span>. "
@@ -64,12 +81,15 @@ msgid ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "                Hello,<br/><br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                You have requested to be subscribed to the mailing list <strong t-out=\"object.name or ''\"/>.\n"
 "                <br/><br/>\n"
 "                To confirm, please visit the following link: <strong t-if=\"ctx.get('token_url')\"><a t-att-href=\"ctx['token_url']\"><t t-out=\"ctx['token_url'] or ''\"/></a></strong>\n"
 "                <br/><br/>\n"
 "                If this was a mistake or you did not requested this action, please ignore this message.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                You have requested to be subscribed to the mailing list "
 "<strong t-out=\"object.name or ''\"/>.\n"
 "                <br/><br/>\n"
@@ -79,6 +99,9 @@ msgid ""
 "                <br/><br/>\n"
 "                If this was a mistake or you did not requested this action, "
 "please ignore this message.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            </div>\n"
 "        "
@@ -86,12 +109,15 @@ msgstr ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "                مرحباً،<br/><br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                لقد طلبت الاشتراك في القائمة البريدية <strong t-out=\"object.name or ''\"/>.\n"
 "                <br/><br/>\n"
 "                للتأكيد، يرجى زيارة الرابط التالي: <strong t-if=\"ctx.get('token_url')\"><a t-att-href=\"ctx['token_url']\"><t t-out=\"ctx['token_url'] or ''\"/></a></strong>\n"
 "                <br/><br/>\n"
 "                إذا كان ذلك عن طريق الخطأ أو إذا لم تطلب تنفيذ هذا الإجراء، يرجى تجاهل هذه الرسالة.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                لقد طلبت الاشتراك في القائمة البريدية <strong t-"
 "out=\"object.name or ''\"/>.\n"
 "                <br/><br/>\n"
@@ -101,6 +127,9 @@ msgstr ""
 "                <br/><br/>\n"
 "                إذا كان ذلك عن طريق الخطأ أو إذا لم تطلب تنفيذ هذا الإجراء، "
 "يرجى تجاهل هذه الرسالة.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            </div>\n"
 "        "
@@ -111,12 +140,15 @@ msgid ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "                Hello,<br/><br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                You have requested to be unsubscribed to the mailing list <strong t-out=\"object.name or ''\"/>.\n"
 "                <br/><br/>\n"
 "                To confirm, please visit the following link: <strong t-if=\"ctx.get('token_url')\"><a t-att-href=\"ctx['token_url']\"><t t-out=\"ctx['token_url'] or ''\"/></a></strong>.\n"
 "                <br/><br/>\n"
 "                If this was a mistake or you did not requested this action, please ignore this message.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                You have requested to be unsubscribed to the mailing list "
 "<strong t-out=\"object.name or ''\"/>.\n"
 "                <br/><br/>\n"
@@ -126,6 +158,9 @@ msgid ""
 "                <br/><br/>\n"
 "                If this was a mistake or you did not requested this action, "
 "please ignore this message.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            </div>\n"
 "        "
@@ -133,12 +168,15 @@ msgstr ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "                مرحباً،<br/><br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                لقد طلبت إلغاء الاشتراك من القائمة البريدية <strong t-out=\"object.name or ''\"/>.\n"
 "                <br/><br/>\n"
 "                للتأكيد، يرجى زيارة الرابط التالي: <strong t-if=\"ctx.get('token_url')\"><a t-att-href=\"ctx['token_url']\"><t t-out=\"ctx['token_url'] or ''\"/></a></strong>\n"
 "                <br/><br/>\n"
 "                إذا كان ذلك عن طريق الخطأ أو إذا لم تطلب تنفيذ هذا الإجراء، يرجى تجاهل هذه الرسالة.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                لقد طلبت إلغاء الاشتراك من القائمة البريدية <strong t-"
 "out=\"object.name or ''\"/>.\n"
 "                <br/><br/>\n"
@@ -148,6 +186,9 @@ msgstr ""
 "                <br/><br/>\n"
 "                إذا كان ذلك عن طريق الخطأ أو إذا لم تطلب تنفيذ هذا الإجراء، "
 "يرجى تجاهل هذه الرسالة.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            </div>\n"
 "        "
@@ -158,13 +199,19 @@ msgid ""
 "<div>\n"
 "                <p>Hello <t t-out=\"object.partner_id.name or ''\"/>,</p>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                <p>Please find below the guidelines of the <t t-out=\"object.mail_group_id.name\"/> mailing list.</p>\n"
 "                <p><t t-out=\"object.mail_group_id.moderation_guidelines_msg or ''\"/></p>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                <p>Please find below the guidelines of the <t t-"
 "out=\"object.mail_group_id.name\"/> mailing list.</p>\n"
 "                <p><t t-out=\"object.mail_group_id.moderation_guidelines_msg "
 "or ''\"/></p>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            </div>\n"
 "        "
@@ -172,19 +219,26 @@ msgstr ""
 "<div>\n"
 "                <p>مرحباً <t t-out=\"object.partner_id.name or ''\"/>،</p>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                <p>ستجد أدناه لوائح <t t-out=\"object.mail_group_id.name\"/> القائمة البريدية.</p>\n"
 "                <p><t t-out=\"object.mail_group_id.moderation_guidelines_msg or ''\"/></p>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                <p>ستجد أدناه لوائح <t t-out=\"object.mail_group_id.name\"/> "
 "القائمة البريدية.</p>\n"
 "                <p><t t-out=\"object.mail_group_id.moderation_guidelines_msg "
 "or ''\"/></p>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            </div>\n"
 "        "
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.message_footer
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgid "<i class=\"fa fa-calendar\" role=\"img\" aria-label=\"Date\" title=\"Date\"/>"
 msgstr "<i class=\"fa fa-calendar\" role=\"img\" aria-label=\"Date\" title=\"التاريخ \"/>"
@@ -193,6 +247,8 @@ msgstr "<i class=\"fa fa-calendar\" role=\"img\" aria-label=\"Date\" title=\"ا�
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_groups
 msgid "<i class=\"fa fa-envelope-o me-1\" role=\"img\" aria-label=\"Alias\" title=\"Alias\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "<i class=\"fa fa-calendar\" role=\"img\" aria-label=\"Date\" title=\"Date\"/>"
 msgstr ""
@@ -204,6 +260,9 @@ msgstr ""
 msgid ""
 "<i class=\"fa fa-envelope-o me-1\" role=\"img\" aria-label=\"Alias\" "
 "title=\"Alias\"/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 "<i class=\"fa fa-envelope-o me-1\" role=\"img\" aria-label=\"Alias\" "
@@ -212,15 +271,21 @@ msgstr ""
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.group_name
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-envelope-o\" role=\"img\" aria-label=\"Alias\" title=\"Alias\"/>"
 msgstr "<i class=\"fa fa-envelope-o\" role=\"img\" aria-label=\"Alias\" title=\"اللقب \"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "<i class=\"fa fa-envelope-o\" role=\"img\" aria-label=\"Alias\" "
 "title=\"Alias\"/>"
 msgstr ""
 "<i class=\"fa fa-envelope-o\" role=\"img\" aria-label=\"Alias\" "
 "title=\"اللقب \"/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mail_group
@@ -254,17 +319,23 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mail_group.message_attachments
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"oi oi-chevron-down\" role=\"img\" aria-label=\"Show attachments\""
 " title=\"Show attachments\"/>"
 msgstr ""
 "<i class=\"oi oi-chevron-down\" role=\"img\" aria-label=\"Show attachments\""
 " title=\"إظهار المرفقات \"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 "<i class=\"oi oi-chevron-down\" role=\"img\" aria-label=\"Show attachments\" "
 "title=\"Show attachments\"/>"
 msgstr ""
 "<i class=\"oi oi-chevron-down\" role=\"img\" aria-label=\"Show attachments\" "
 "title=\"إظهار المرفقات \"/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mail_group
@@ -303,12 +374,15 @@ msgstr "<span class=\"bg-warning\">معلق</span>"
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_message_view_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"ms-2 badge text-bg-success\" invisible=\"author_moderation != 'allow'\">Whitelisted</span>\n"
 "                            <span class=\"ms-2 badge text-bg-danger\" invisible=\"author_moderation != 'ban'\">Banned</span>"
 msgstr ""
 "<span class=\"ms-2 badge text-bg-success\" invisible=\"author_moderation != 'allow'\">تم رفع الحظر</span>\n"
 "                            <span class=\"ms-2 badge text-bg-danger\" invisible=\"author_moderation != 'ban'\">محظور</span> "
 =======
+=======
+>>>>>>> upstream/18.0
 "<span class=\"ms-2 badge text-bg-success\" invisible=\"author_moderation != "
 "'allow'\">Whitelisted</span>\n"
 "                            <span class=\"ms-2 badge text-bg-danger\" "
@@ -318,6 +392,9 @@ msgstr ""
 "'allow'\">تم رفع الحظر</span>\n"
 "                            <span class=\"ms-2 badge text-bg-danger\" "
 "invisible=\"author_moderation != 'ban'\">محظور</span> "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mail_group
@@ -346,8 +423,13 @@ msgid ""
 "creating new records for this alias."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "قاموس بايثون الذي سيتم تقييمه لتوفير قيم افتراضية عند إنشاء سجلات جديدة لهذا"
 " اللقب. "
+=======
+"قاموس بايثون الذي سيتم تقييمه لتوفير قيم افتراضية عند إنشاء سجلات جديدة لهذا "
+"اللقب. "
+>>>>>>> upstream/18.0
 =======
 "قاموس بايثون الذي سيتم تقييمه لتوفير قيم افتراضية عند إنشاء سجلات جديدة لهذا "
 "اللقب. "
@@ -486,8 +568,13 @@ msgstr "حالة إشراف الكاتب "
 #: model:ir.model.fields,help:mail_group.field_mail_group_message__author_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Author of the message. If not set, email_from may hold an email address that"
 " did not match any partner."
+=======
+"Author of the message. If not set, email_from may hold an email address that "
+"did not match any partner."
+>>>>>>> upstream/18.0
 =======
 "Author of the message. If not set, email_from may hold an email address that "
 "did not match any partner."
@@ -765,8 +852,13 @@ msgstr "المُعرف"
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_parent_thread_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "ID of the parent record holding the alias (example: project holding the task"
 " creation alias)"
+=======
+"ID of the parent record holding the alias (example: project holding the task "
+"creation alias)"
+>>>>>>> upstream/18.0
 =======
 "ID of the parent record holding the alias (example: project holding the task "
 "creation alias)"
@@ -782,8 +874,13 @@ msgid ""
 "instead of the default message."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "إذا كان محدداً، سوف يتم إرسال هذا المحتوى تلقائياً إلى المستخدمين غير المصرح"
 " لهم عوضاً عن الرسالة الافتراضية. "
+=======
+"إذا كان محدداً، سوف يتم إرسال هذا المحتوى تلقائياً إلى المستخدمين غير المصرح "
+"لهم عوضاً عن الرسالة الافتراضية. "
+>>>>>>> upstream/18.0
 =======
 "إذا كان محدداً، سوف يتم إرسال هذا المحتوى تلقائياً إلى المستخدمين غير المصرح "
 "لهم عوضاً عن الرسالة الافتراضية. "
@@ -865,8 +962,12 @@ msgstr "مغادرة"
 #: model_terms:ir.actions.act_window,help:mail_group.mail_group_member_action
 msgid "Let people subscribe to your list online or manually add them here."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "أتح للأفراد الاشتراك في قائمتك عبر الإنترنت أو قم بإضافتهم هنا يدوياً "
+=======
+msgstr "أتح للأفراد الاشتراك في قائمتك عبر الإنترنت أو قم بإضافتهم هنا يدوياً "
+>>>>>>> upstream/18.0
 =======
 msgstr "أتح للأفراد الاشتراك في قائمتك عبر الإنترنت أو قم بإضافتهم هنا يدوياً "
 >>>>>>> upstream/18.0
@@ -1186,8 +1287,13 @@ msgid ""
 msgstr ""
 "معرف اختياري لمناقشة (سجل) سيتم إرفاق كافة رسائل البريد الإلكتروني الواردة "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "فيه، حتى لو لم يتم الرد عليها. إذا تم تعيين قيمة له، سيعطل هذا إنشاء السجلات"
 " الجديدة بالكامل. "
+=======
+"فيه، حتى لو لم يتم الرد عليها. إذا تم تعيين قيمة له، سيعطل هذا إنشاء السجلات "
+"الجديدة بالكامل. "
+>>>>>>> upstream/18.0
 =======
 "فيه، حتى لو لم يتم الرد عليها. إذا تم تعيين قيمة له، سيعطل هذا إنشاء السجلات "
 "الجديدة بالكامل. "
@@ -1212,8 +1318,13 @@ msgstr "معرف مناقشة السجل الرئيسي "
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_parent_model_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Parent model holding the alias. The model holding the alias reference is not"
 " necessarily the model given by alias_model_id (example: project "
+=======
+"Parent model holding the alias. The model holding the alias reference is not "
+"necessarily the model given by alias_model_id (example: project "
+>>>>>>> upstream/18.0
 =======
 "Parent model holding the alias. The model holding the alias reference is not "
 "necessarily the model given by alias_model_id (example: project "
@@ -1268,7 +1379,12 @@ msgid ""
 "- everyone: everyone can post\n"
 "- partners: only authenticated partners\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- followers: only followers of the related document or members of following channels\n"
+=======
+"- followers: only followers of the related document or members of following "
+"channels\n"
+>>>>>>> upstream/18.0
 =======
 "- followers: only followers of the related document or members of following "
 "channels\n"
@@ -1422,8 +1538,12 @@ msgstr "إرسال إرشادات للمشتركين الجدد"
 msgid "Sent to people who subscribed to a mailing group with group guidelines"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "يتم إرسالها إلى الأشخاص المشتركين في قائمة بريدية وتحوي على توجيهات المجموعة"
 " "
+=======
+"يتم إرسالها إلى الأشخاص المشتركين في قائمة بريدية وتحوي على توجيهات المجموعة "
+>>>>>>> upstream/18.0
 =======
 "يتم إرسالها إلى الأشخاص المشتركين في قائمة بريدية وتحوي على توجيهات المجموعة "
 >>>>>>> upstream/18.0
@@ -1468,17 +1588,23 @@ msgstr "رسالة تأكيد الاشتراك إلى مجموعة بريدية 
 #: code:addons/mail_group/models/mail_group.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Template \"mail_group.mail_template_guidelines\" was not found. No email has"
 " been sent. Please contact an administrator to fix this issue."
 msgstr ""
 "لم يتم العثور على القالب \"mail.mail_channel_send_guidelines\". لم يتم إرسال"
 " أي بريد إلكتروني. يرجى التواصل مع المسؤول لحل هذه المشكلة. "
 =======
+=======
+>>>>>>> upstream/18.0
 "Template \"mail_group.mail_template_guidelines\" was not found. No email has "
 "been sent. Please contact an administrator to fix this issue."
 msgstr ""
 "لم يتم العثور على القالب \"mail.mail_channel_send_guidelines\". لم يتم إرسال "
 "أي بريد إلكتروني. يرجى التواصل مع المسؤول لحل هذه المشكلة. "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mail_group
@@ -1525,9 +1651,15 @@ msgstr "وصف الإرشادات مفقود. "
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_model_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
+=======
+"The model (Odoo Document Kind) to which this alias corresponds. Any incoming "
+"email that does not reply to an existing record will cause the creation of a "
+"new record of this model (e.g. a Project Task)"
+>>>>>>> upstream/18.0
 =======
 "The model (Odoo Document Kind) to which this alias corresponds. Any incoming "
 "email that does not reply to an existing record will cause the creation of a "
@@ -1544,8 +1676,13 @@ msgid ""
 "<jobs@example.odoo.com>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "اسم لقب البريد الإلكتروني، مثلًا: 'وظائف' إذا كنت ترغب في جمع الرسائل "
 "المرسلة لـ<jobs@example.odoo.com> "
+=======
+"اسم لقب البريد الإلكتروني، مثلًا: 'وظائف' إذا كنت ترغب في جمع الرسائل المرسلة "
+"لـ<jobs@example.odoo.com> "
+>>>>>>> upstream/18.0
 =======
 "اسم لقب البريد الإلكتروني، مثلًا: 'وظائف' إذا كنت ترغب في جمع الرسائل المرسلة "
 "لـ<jobs@example.odoo.com> "
@@ -1698,17 +1835,23 @@ msgstr "كانت "
 msgid ""
 "members<br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <i class=\"fa fa-fw fa-envelope-o\" role=\"img\" aria-label=\"Traffic\" title=\"Traffic\"/>"
 msgstr ""
 "الأعضاء<br/>\n"
 "                        <i class=\"fa fa-fw fa-envelope-o\" role=\"img\" aria-label=\"Traffic\" title=\"الزيارات \"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 "                        <i class=\"fa fa-fw fa-envelope-o\" role=\"img\" "
 "aria-label=\"Traffic\" title=\"Traffic\"/>"
 msgstr ""
 "الأعضاء<br/>\n"
 "                        <i class=\"fa fa-fw fa-envelope-o\" role=\"img\" "
 "aria-label=\"Traffic\" title=\"الزيارات \"/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mail_group

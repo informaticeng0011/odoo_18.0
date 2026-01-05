@@ -2,7 +2,11 @@
 # This file contains the translation of the following modules:
 # 	* delivery
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -13,7 +17,11 @@
 # Martin Trigaux, 2024
 # Armīns Jeltajevs <armins.jeltajevs@gmail.com>, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -21,6 +29,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2025-01-27 13:03+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -32,6 +41,8 @@ msgstr ""
 "Language: lv\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Armīns Jeltajevs <armins.jeltajevs@gmail.com>, 2025\n"
@@ -42,6 +53,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
 "2);\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: delivery
@@ -79,7 +93,12 @@ msgid ""
 msgstr ""
 "<p class=\"o_view_nocontent\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    Iegādājaties Odoo Enterprise tagad, lai saņemt vairākus pakalpojumu sniedzējus.\n"
+=======
+"                    Iegādājaties Odoo Enterprise tagad, lai saņemt vairākus "
+"pakalpojumu sniedzējus.\n"
+>>>>>>> upstream/18.0
 =======
 "                    Iegādājaties Odoo Enterprise tagad, lai saņemt vairākus "
 "pakalpojumu sniedzējus.\n"
@@ -91,7 +110,12 @@ msgstr ""
 msgid ""
 "<span class=\"o_stat_text o_warning_text fw-bold\">Test</span>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <span class=\"o_stat_text\">Environment</span>"
+=======
+"                                <span class=\"o_stat_text\">Environment</"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "                                <span class=\"o_stat_text\">Environment</"
 "span>"
@@ -115,7 +139,12 @@ msgstr "<span class=\"text-success\">Atkļūdošanas pieprasījumi</span>"
 msgid ""
 "<span class=\"text-success\">Production</span>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <span class=\"o_stat_text\">Environment</span>"
+=======
+"                                <span class=\"o_stat_text\">Environment</"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "                                <span class=\"o_stat_text\">Environment</"
 "span>"
@@ -225,8 +254,12 @@ msgstr "Pārvadātājs"
 #: code:addons/delivery/models/delivery_carrier.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Carrier %s cannot have the same tag in both Must Have Tags and Excluded "
 "Tags."
+=======
+"Carrier %s cannot have the same tag in both Must Have Tags and Excluded Tags."
+>>>>>>> upstream/18.0
 =======
 "Carrier %s cannot have the same tag in both Must Have Tags and Excluded Tags."
 >>>>>>> upstream/18.0
@@ -465,12 +498,15 @@ msgstr "Kļūda: šis piegādes veids nav pieejams."
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__invoice_policy
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Estimated Cost: the customer will be invoiced the estimated cost of the shipping.\n"
 "Real Cost: the customer will be invoiced the real cost of the shipping, the cost of theshipping will be updated on the SO after the delivery."
 msgstr ""
 "Aptuvenās izmaksas: klientam tiks izrakstīts rēķins ar aptuvenām piegādes izmaksām.\n"
 "Īstāas izmaksas: klientam tiks izrakstīts rēķins ar īstajām piegādes izmaksām, piegādes izmaksas tiks atjaunotas pārdošanas pasūtījumā pēc piegādes."
 =======
+=======
+>>>>>>> upstream/18.0
 "Estimated Cost: the customer will be invoiced the estimated cost of the "
 "shipping.\n"
 "Real Cost: the customer will be invoiced the real cost of the shipping, the "
@@ -481,6 +517,9 @@ msgstr ""
 "Īstāas izmaksas: klientam tiks izrakstīts rēķins ar īstajām piegādes "
 "izmaksām, piegādes izmaksas tiks atjaunotas pārdošanas pasūtījumā pēc "
 "piegādes."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: delivery
@@ -504,8 +543,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Filling this form allows you to make the shipping method available according"
 " to the content of the order or its destination."
+=======
+"Filling this form allows you to make the shipping method available according "
+"to the content of the order or its destination."
+>>>>>>> upstream/18.0
 =======
 "Filling this form allows you to make the shipping method available according "
 "to the content of the order or its destination."
@@ -893,8 +937,13 @@ msgid ""
 "confirmation emails. E.g. Instructions for customers to follow."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Piegādes veidu informācija var tikt iekļauta pārdošanas pasūtījumu apakšā un"
 " viņu apstiprinājumu e-pastos. Piem., norādījumi, kas klientiem jāievēro."
+=======
+"Piegādes veidu informācija var tikt iekļauta pārdošanas pasūtījumu apakšā un "
+"viņu apstiprinājumu e-pastos. Piem., norādījumi, kas klientiem jāievēro."
+>>>>>>> upstream/18.0
 =======
 "Piegādes veidu informācija var tikt iekļauta pārdošanas pasūtījumu apakšā un "
 "viņu apstiprinājumu e-pastos. Piem., norādījumi, kas klientiem jāievēro."
@@ -933,8 +982,13 @@ msgstr ""
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__must_have_tag_ids
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The method is available only if at least one product of the order has one of"
 " these tags."
+=======
+"The method is available only if at least one product of the order has one of "
+"these tags."
+>>>>>>> upstream/18.0
 =======
 "The method is available only if at least one product of the order has one of "
 "these tags."
@@ -978,7 +1032,12 @@ msgid ""
 msgstr ""
 "Šie veidi ļauj automātiski izrēķināt piegādes izmaksas\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            atbilstoši Jūsu iestatījumiem; pārdošanas pasūtījumā (pamatojoties uz \n"
+=======
+"            atbilstoši Jūsu iestatījumiem; pārdošanas pasūtījumā "
+"(pamatojoties uz \n"
+>>>>>>> upstream/18.0
 =======
 "            atbilstoši Jūsu iestatījumiem; pārdošanas pasūtījumā "
 "(pamatojoties uz \n"
@@ -1072,6 +1131,7 @@ msgstr "Svara mērvienības cenuzīme"
 #: code:addons/delivery/models/sale_order.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can not update the shipping costs on an order where it was already invoiced!\n"
 "\n"
 "The following delivery lines (product, invoiced quantity and price) have already been processed:\n"
@@ -1081,6 +1141,8 @@ msgstr ""
 "\n"
 "Sekojošās piegādes rindas (prece, rēķinā norādītais daudzums un cena) jau ir apstrādātas:\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "You can not update the shipping costs on an order where it was already "
 "invoiced!\n"
 "\n"
@@ -1093,6 +1155,9 @@ msgstr ""
 "\n"
 "Sekojošās piegādes rindas (prece, rēķinā norādītais daudzums un cena) jau ir "
 "apstrādātas:\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "\n"
 

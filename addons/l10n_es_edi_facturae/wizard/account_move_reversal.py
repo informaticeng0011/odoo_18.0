@@ -38,7 +38,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import models, fields
+=======
+from odoo import models, fields, _
+>>>>>>> upstream/18.0
 =======
 from odoo import models, fields, _
 >>>>>>> upstream/18.0
@@ -215,7 +219,10 @@ class AccountMoveReversal(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -340,6 +347,9 @@ class AccountMoveReversal(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

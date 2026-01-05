@@ -36,8 +36,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* account_edi
 # 
+=======
+# * account_edi
+#
+>>>>>>> upstream/18.0
 =======
 # * account_edi
 #
@@ -224,7 +229,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -337,6 +346,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 <<<<<<< HEAD
@@ -454,6 +464,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-27 16:49+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Danish <https://translate.odoo.com/projects/odoo-18/"
@@ -499,6 +512,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -630,6 +646,7 @@ msgstr "Blokeringsniveau"
 #: model:ir.model.fields,help:account_edi.field_account_edi_document__blocking_level
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Blocks the current operation of the document depending on the error severity:\n"
 "  * Info: the document is not blocked and everything is working as it should.\n"
 "  * Warning: there is an error that doesn't prevent the current Electronic Invoicing operation to succeed.\n"
@@ -640,6 +657,8 @@ msgstr ""
 "* Advarsel: der er en fejl, der ikke forhindrer den aktuelle elektroniske Fakturering for at lykkes.\n"
 " * Fejl: der er en fejl, der blokerer for den aktuelle elektroniske fakturering."
 =======
+=======
+>>>>>>> upstream/18.0
 "Blocks the current operation of the document depending on the error "
 "severity:\n"
 "  * Info: the document is not blocked and everything is working as it "
@@ -655,6 +674,9 @@ msgstr ""
 "Fakturering for at lykkes.\n"
 " * Fejl: der er en fejl, der blokerer for den aktuelle elektroniske "
 "fakturering."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_edi
@@ -817,7 +839,11 @@ msgid "Edi Show Force Cancel Button"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vis EDI-knap \"Tving annullering\""
+>>>>>>> upstream/18.0
 =======
 msgstr "Vis EDI-knap \"Tving annullering\""
 >>>>>>> upstream/18.0
@@ -1013,7 +1039,11 @@ msgid "How many EDIs are in error for this move?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hvor mange EDI'er i denne proces er fejlbehæftede?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hvor mange EDI'er i denne proces er fejlbehæftede?"
 >>>>>>> upstream/18.0
@@ -1231,8 +1261,12 @@ msgstr "Status"
 #: model:ir.model.fields,help:account_edi.field_account_move__edi_state
 msgid "The aggregated state of all the EDIs with web-service of this move"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Den aggregerede tilstand for alle EDI'er med webservice for dette træk"
+=======
+msgstr "Den aggregerede tilstand for alle EDI'er med webservice for dette træk"
+>>>>>>> upstream/18.0
 =======
 msgstr "Den aggregerede tilstand for alle EDI'er med webservice for dette træk"
 >>>>>>> upstream/18.0
@@ -1262,8 +1296,12 @@ msgstr "Fakturaen vil snarest blive sendt til"
 #: model:ir.model.fields,help:account_edi.field_account_edi_document__error
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The text of the last error that happened during Electronic Invoice "
 "operation."
+=======
+"The text of the last error that happened during Electronic Invoice operation."
+>>>>>>> upstream/18.0
 =======
 "The text of the last error that happened during Electronic Invoice operation."
 >>>>>>> upstream/18.0
@@ -1287,8 +1325,13 @@ msgstr "Dette dokument sendes allerede af en anden proces."
 #: code:addons/account_edi/models/account_move.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This invoice was canceled while the EDIs %s still had a pending cancellation"
 " request."
+=======
+"This invoice was canceled while the EDIs %s still had a pending cancellation "
+"request."
+>>>>>>> upstream/18.0
 =======
 "This invoice was canceled while the EDIs %s still had a pending cancellation "
 "request."
@@ -1320,8 +1363,13 @@ msgstr "Advarsel"
 #: code:addons/account_edi/models/account_move.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can't edit the following journal entry %s because an electronic document"
 " has already been sent. Please use the 'Request EDI Cancellation' button "
+=======
+"You can't edit the following journal entry %s because an electronic document "
+"has already been sent. Please use the 'Request EDI Cancellation' button "
+>>>>>>> upstream/18.0
 =======
 "You can't edit the following journal entry %s because an electronic document "
 "has already been sent. Please use the 'Request EDI Cancellation' button "
@@ -1339,8 +1387,12 @@ msgid ""
 "You can't unlink an attachment being an EDI document sent to the government."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Du kan ikke fjerne en vedhæftelse som et EDI dokument afsendt til "
 "regeringen."
+=======
+"Du kan ikke fjerne en vedhæftelse som et EDI dokument afsendt til regeringen."
+>>>>>>> upstream/18.0
 =======
 "Du kan ikke fjerne en vedhæftelse som et EDI dokument afsendt til regeringen."
 >>>>>>> upstream/18.0

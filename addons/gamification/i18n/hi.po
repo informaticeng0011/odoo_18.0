@@ -43,8 +43,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* gamification
 # 
+=======
+# * gamification
+#
+>>>>>>> upstream/18.0
 =======
 # * gamification
 #
@@ -356,6 +361,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Ujjawal Pathak, 2025
 >>>>>>> upstream/18.0
@@ -845,10 +851,16 @@
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Ujjawal Pathak, 2025
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:41+0000\n"
 <<<<<<< HEAD
@@ -1353,6 +1365,10 @@ msgstr ""
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2025-12-31 16:32+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+"PO-Revision-Date: 2025-12-31 16:32+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Hindi <https://translate.odoo.com/projects/odoo-18/"
 "gamification/hi/>\n"
@@ -1361,6 +1377,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "X-Generator: Weblate 5.12.2\n"
 <<<<<<< HEAD
@@ -1490,6 +1507,9 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:mail.template,body_html:gamification.email_template_goal_reminder
@@ -1497,12 +1517,18 @@ msgid ""
 "\n"
 "    <strong>Reminder</strong><br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    You have not updated your progress for the goal <t t-out=\"object.definition_id.name or ''\"/> (currently reached at <t t-out=\"object.completeness or ''\"/>%) for at least <t t-out=\"object.remind_update_delay or ''\"/> days. Do not forget to do it.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "    You have not updated your progress for the goal <t t-"
 "out=\"object.definition_id.name or ''\"/> (currently reached at <t t-"
 "out=\"object.completeness or ''\"/>%) for at least <t t-"
 "out=\"object.remind_update_delay or ''\"/> days. Do not forget to do it.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "    <br/><br/>\n"
 "    Thank you,\n"
@@ -1559,7 +1585,11 @@ msgid "# Users"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "# उपयोगकर्ता"
+>>>>>>> upstream/18.0
 =======
 msgstr "# उपयोगकर्ता"
 >>>>>>> upstream/18.0
@@ -1737,7 +1767,11 @@ msgid "%s has joined the challenge"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s प्रतियोगिता में शामिल हो गए हैं"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s प्रतियोगिता में शामिल हो गए हैं"
 >>>>>>> upstream/18.0
@@ -1915,7 +1949,11 @@ msgid "%s has refused the challenge"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s ने प्रतियोगिता में शामिल होने से मना कर दिया"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s ने प्रतियोगिता में शामिल होने से मना कर दिया"
 >>>>>>> upstream/18.0
@@ -2050,13 +2088,19 @@ msgstr "%s ने प्रतियोगिता में शामिल �
 #: model:mail.template,body_html:gamification.mail_template_data_new_rank_reached
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<div style=\"color:#515166;padding:10px 0px;font-family:Arial,Helvetica,sans-serif;font-size:14px;\">\n"
 "<table style=\"width:600px;margin:0px auto;background:white;border:1px solid #e1e1e1;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "<div style=\"color:#515166;padding:10px 0px;font-family:Arial,Helvetica,sans-"
 "serif;font-size:14px;\">\n"
 "<table style=\"width:600px;margin:0px auto;background:white;border:1px solid "
 "#e1e1e1;\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "    <tbody>\n"
 "        <tr>\n"
@@ -2066,6 +2110,7 @@ msgid ""
 "                    <span t-out=\"object.name or ''\">Joel Willis</span>!\n"
 "                </p>\n"
 "                <p>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                    You just reached a new rank: <strong t-out=\"object.rank_id.name or ''\">Newbie</strong>\n"
 "                </p>\n"
@@ -2079,6 +2124,8 @@ msgid ""
 "                        <t t-set=\"label\" t-value=\"data['label']\"/>\n"
 "                        <a t-att-href=\"url\" style=\"background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;\" t-out=\"label or ''\">LABEL</a>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                    You just reached a new rank: <strong t-"
 "out=\"object.rank_id.name or ''\">Newbie</strong>\n"
 "                </p>\n"
@@ -2096,6 +2143,9 @@ msgid ""
 "                        <a t-att-href=\"url\" style=\"background-color: "
 "#875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; "
 "border-radius: 5px; font-size:13px;\" t-out=\"label or ''\">LABEL</a>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                    </t>\n"
 "                </div>\n"
@@ -2103,7 +2153,12 @@ msgid ""
 "            <td style=\"padding:15px 20px 10px 20px;\">\n"
 "                <p style=\"text-align: center;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <img t-attf-src=\"/web/image/gamification.karma.rank/{{ object.rank_id.id }}/image_128\"/>\n"
+=======
+"                    <img t-attf-src=\"/web/image/gamification.karma.rank/"
+"{{ object.rank_id.id }}/image_128\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                    <img t-attf-src=\"/web/image/gamification.karma.rank/"
 "{{ object.rank_id.id }}/image_128\"/>\n"
@@ -2113,13 +2168,19 @@ msgid ""
 "        </tr>\n"
 "        <tr>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <td t-if=\"not user.share and user.active\" style=\"padding:15px 20px 10px 20px;\" data-o-mail-quote-container=\"1\">\n"
 "                <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            <td t-if=\"not user.share and user.active\" style=\"padding:15px "
 "20px 10px 20px;\" data-o-mail-quote-container=\"1\">\n"
 "                <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--"
 "<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            </td>\n"
 "            <td t-else=\"\" style=\"padding:15px 20px 10px 20px;\">\n"
@@ -2198,7 +2259,11 @@ msgid "<span class=\"o_stat_text\">Related Goals</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">इससे जुड़े हुए लक्ष्य</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">इससे जुड़े हुए लक्ष्य</span>"
 >>>>>>> upstream/18.0
@@ -2375,7 +2440,11 @@ msgid "<span class=\"o_stat_text\">Users</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">उपयोगकर्ता</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">उपयोगकर्ता</span>"
 >>>>>>> upstream/18.0
@@ -2510,20 +2579,27 @@ msgstr "<span class=\"o_stat_text\">उपयोगकर्ता</span>"
 #: model:mail.template,body_html:gamification.email_template_badge_received
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<table border=\"0\" cellpadding=\"0\" style=\"padding-top: 16px; background-color: #F1F1F1; color: #454748; width: 100%; border-collapse:separate;\"><tr><td align=\"center\">\n"
 "<table border=\"0\" width=\"590\" cellpadding=\"0\" style=\"padding: 16px; background-color: white; color: #454748; border-collapse:separate;\" summary=\"o_mail_notification\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "<table border=\"0\" cellpadding=\"0\" style=\"padding-top: 16px; background-"
 "color: #F1F1F1; color: #454748; width: 100%; border-collapse:separate;"
 "\"><tr><td align=\"center\">\n"
 "<table border=\"0\" width=\"590\" cellpadding=\"0\" style=\"padding: 16px; "
 "background-color: white; color: #454748; border-collapse:separate;\" "
 "summary=\"o_mail_notification\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "<tbody>\n"
 "    <!-- HEADER -->\n"
 "    <tr>\n"
 "        <td align=\"center\" style=\"min-width: 590px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"middle\">\n"
@@ -2535,6 +2611,8 @@ msgid ""
 "                <tr><td colspan=\"2\" style=\"text-align:center;\">\n"
 "                  <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" style=\"min-"
 "width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-"
 "collapse:separate;\">\n"
@@ -2553,6 +2631,9 @@ msgid ""
 "                  <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
 "size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                </td></tr>\n"
 "            </table>\n"
@@ -2561,6 +2642,7 @@ msgid ""
 "    <!-- CONTENT -->\n"
 "    <tr>\n"
 "        <td align=\"center\" style=\"min-width: 590px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"top\" style=\"font-size: 14px;\">\n"
@@ -2575,6 +2657,8 @@ msgid ""
 "                                <td valign=\"center\">\n"
 "                                    <cite t-out=\"object.badge_id.description or ''\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" style=\"min-"
 "width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-"
 "collapse:separate;\">\n"
@@ -2597,6 +2681,9 @@ msgid ""
 "                                <td valign=\"center\">\n"
 "                                    <cite t-"
 "out=\"object.badge_id.description or ''\"/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                </td>\n"
 "                            </tr></tbody>\n"
@@ -2604,17 +2691,23 @@ msgid ""
 "                        <br/>\n"
 "                        <t t-if=\"object.sender_id\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            This badge was granted by <strong t-out=\"object.sender_id.name or ''\"/>.\n"
 "                        </t>\n"
 "                        <br/>\n"
 "                        <t t-if=\"object.comment\" t-out=\"object.comment or ''\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                            This badge was granted by <strong t-"
 "out=\"object.sender_id.name or ''\"/>.\n"
 "                        </t>\n"
 "                        <br/>\n"
 "                        <t t-if=\"object.comment\" t-out=\"object.comment or "
 "''\"/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                        <br/><br/>\n"
 "                        Thank you,\n"
@@ -2626,7 +2719,13 @@ msgid ""
 "                </td></tr>\n"
 "                <tr><td style=\"text-align:center;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                  <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                  <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                  <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -2640,6 +2739,7 @@ msgid ""
 "    <tr>\n"
 "        <td align=\"center\" style=\"min-width: 590px;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" style=\"min-width: 590px; background-color: white; font-size: 12px; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"middle\" align=\"left\">\n"
 "                    <t t-out=\"object.user_id.company_id.name or ''\">YourCompany</t>\n"
@@ -2652,6 +2752,8 @@ msgid ""
 "                    <t t-if=\"object.user_id.company_id.website\">\n"
 "                        | <a t-attf-href=\"'%s' % {{ object.user_id.company_id.website }}\" style=\"text-decoration:none; color: #454748;\" t-out=\"object.user_id.company_id.website or ''\">http://www.example.com</a>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" style=\"min-"
 "width: 590px; background-color: white; font-size: 12px; padding: 0px 8px 0px "
 "8px; border-collapse:separate;\">\n"
@@ -2674,6 +2776,9 @@ msgid ""
 "{{ object.user_id.company_id.website }}\" style=\"text-decoration:none; "
 "color: #454748;\" t-out=\"object.user_id.company_id.website or ''\">http://"
 "www.example.com</a>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                    </t>\n"
 "                </td></tr>\n"
@@ -2686,10 +2791,13 @@ msgid ""
 "<!-- POWERED BY -->\n"
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    <table width=\"590\" border=\"0\" cellpadding=\"0\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 14px;\">\n"
 "        Powered by <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=gamification\" style=\"color: #875A7B;\">Odoo</a>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "    <table width=\"590\" border=\"0\" cellpadding=\"0\" style=\"min-width: "
 "590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-"
 "collapse:separate;\">\n"
@@ -2697,6 +2805,9 @@ msgid ""
 "        Powered by <a target=\"_blank\" href=\"https://www.odoo.com?"
 "utm_source=db&amp;utm_medium=gamification\" style=\"color: #875A7B;\">Odoo</"
 "a>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "      </td></tr>\n"
 "    </table>\n"
@@ -2707,6 +2818,7 @@ msgstr ""
 #. module: gamification
 #: model:mail.template,body_html:gamification.simple_report_template
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "<table cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"background-color: #EEE; border-collapse: collapse;\">\n"
 "<tr>\n"
@@ -3028,11 +3140,14 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<table cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"background-"
 "color: #EEE; border-collapse: collapse;\">\n"
 "<tr>\n"
 "    <td valign=\"top\" align=\"center\">\n"
 "        <t t-set=\"object_ctx\" t-value=\"ctx.get('object')\"/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "        <t t-set=\"company\" t-value="
 "\"object_ctx and object_ctx.company_id or user.company_id\"/>\n"
@@ -3041,17 +3156,23 @@ msgstr ""
 "        <table cellspacing=\"0\" cellpadding=\"0\" width=\"600\" style="
 "\"margin: 0 auto; width: 570px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        <t t-set=\"company\" t-value=\"object_ctx and object_ctx.company_id "
 "or user.company_id\"/>\n"
 "        <t t-set=\"challenge_lines\" t-value=\"ctx.get('challenge_lines', [])"
 "\"/>\n"
 "        <table cellspacing=\"0\" cellpadding=\"0\" width=\"600\" "
 "style=\"margin: 0 auto; width: 570px;\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            <tr><td>\n"
 "                <table cellspacing=\"0\" cellpadding=\"0\" width=\"100%\">\n"
 "                    <tr>\n"
 "                        <div>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                            <t t-if=\"object.visibility_mode == 'ranking'\">"
 "\n"
@@ -3059,11 +3180,16 @@ msgstr ""
 "                                    <p style=\"font-size:20px;color:#666666;"
 "\" align=\"center\">लीडरबोर्ड</p>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                            <t t-if=\"object.visibility_mode == "
 "'ranking'\">\n"
 "                                <td style=\"padding:15px;\">\n"
 "                                    <p style=\"font-"
 "size:20px;color:#666666;\" align=\"center\">Leaderboard</p>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                </td>\n"
 "                            </t>\n"
@@ -3074,6 +3200,7 @@ msgstr ""
 "bgcolor=\"#fff\" style=\"background-color:#fff;\">\n"
 "                    <tr><td style=\"padding: 15px;\">\n"
 "                        <t t-if=\"object.visibility_mode == 'personal'\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                            <span style=\"color:#666666;font-size:13px;\""
 ">चुनौती में आपकी मौजूदा प्रगति यहां दी गई है <strong t-out=\"object.name or ''\""
@@ -3136,6 +3263,8 @@ msgstr ""
 "                                        <td colspan=\"5\" style="
 "\"height:1px;background-color:#e3e3e3;\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                            <span style=\"color:#666666;font-size:13px;"
 "\">Here is your current progress in the challenge <strong t-"
 "out=\"object.name or ''\"/>.</span>\n"
@@ -3196,6 +3325,9 @@ msgstr ""
 "                                    <tr>\n"
 "                                        <td colspan=\"5\" "
 "style=\"height:1px;background-color:#e3e3e3;\"/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                    </tr>\n"
 "                                </tbody>\n"
@@ -3204,8 +3336,13 @@ msgstr ""
 "                        <t t-else=\"\">\n"
 "                            <span style=\"color:#A8A8A8;font-size:13px;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                Challenge: <strong t-out="
 "\"object.name or ''\"/>.\n"
+=======
+"                                Challenge: <strong t-out=\"object.name or "
+"''\"/>.\n"
+>>>>>>> upstream/18.0
 =======
 "                                Challenge: <strong t-out=\"object.name or "
 "''\"/>.\n"
@@ -3218,8 +3355,13 @@ msgstr ""
 "                                    <tr>\n"
 "                                        <td width=\"50%\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                            <div>लक्ष्य को पाने में सबसे बेहतर प्रदर्"
 "शन करने वाले लोग <strong t-out=\"line['name'] or ''\"/></div>\n"
+=======
+"                                            <div>Top Achievers for goal "
+"<strong t-out=\"line['name'] or ''\"/></div>\n"
+>>>>>>> upstream/18.0
 =======
 "                                            <div>Top Achievers for goal "
 "<strong t-out=\"line['name'] or ''\"/></div>\n"
@@ -3230,8 +3372,13 @@ msgstr ""
 "                                <!-- Podium -->\n"
 "                                <t t-if=\"len(line['goals']) == 2\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <table cellspacing=\"0\" cellpadding="
 "\"0\" width=\"100%\" style=\"margin-top:10px;\">\n"
+=======
+"                                    <table cellspacing=\"0\" "
+"cellpadding=\"0\" width=\"100%\" style=\"margin-top:10px;\">\n"
+>>>>>>> upstream/18.0
 =======
 "                                    <table cellspacing=\"0\" "
 "cellpadding=\"0\" width=\"100%\" style=\"margin-top:10px;\">\n"
@@ -3240,6 +3387,7 @@ msgstr ""
 "                                            <table cellspacing=\"0\" "
 "cellpadding=\"0\" width=\"100%\" style=\"table-layout: fixed;\">\n"
 "                                                <tr>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                                                    <t t-set=\"top_goals\" "
 "t-value=\"line['goals'][:3]\"/>\n"
@@ -3301,6 +3449,8 @@ msgstr ""
 "                                                                    <t t-out="
 "\"extra_div or ''\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                                    <t t-set=\"top_goals\" t-"
 "value=\"line['goals'][:3]\"/>\n"
 "                                                    <t t-"
@@ -3360,11 +3510,15 @@ msgstr ""
 "style=\"height:{{ heightA }}px;\">\n"
 "                                                                    <t t-"
 "out=\"extra_div or ''\"/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                                                    <div "
 "style=\"height:55px;\">\n"
 "                                                                        <img "
 "style=\"margin-bottom:5px;width:50px;height:50px;border-radius:50%;object-"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "fit:cover;\" t-att-src=\"image_data_uri(object.env['res.users'].browse(goal"
 "['user_id']).partner_id.image_128)\" t-att-alt=\"goal['name']\"/>\n"
@@ -3374,6 +3528,8 @@ msgstr ""
 "                                                                        <t "
 "t-out=\"goal['name'] or ''\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "fit:cover;\" t-att-"
 "src=\"image_data_uri(object.env['res.users'].browse(goal['user_id']).partner_id.image_128)\" "
 "t-att-alt=\"goal['name']\"/>\n"
@@ -3382,11 +3538,15 @@ msgstr ""
 "align=\"center\" t-attf-style=\"color:{{ bgColor }};height:20px\">\n"
 "                                                                        <t t-"
 "out=\"goal['name'] or ''\"/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                                                    </div>\n"
 "                                                                </div>\n"
 "                                                                <div t-attf-"
 "style=\"background-color:{{ bgColor }};height:{{ heightB }}px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                                                                    "
 "<strong><span t-attf-style=\"color:#fff;font-size:{{ fontSize }}px;\" t-out="
@@ -3401,6 +3561,8 @@ msgstr ""
 "                                                                        <t "
 "t-out=\"line['full_suffix'] or ''\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                                                    <strong><span "
 "t-attf-style=\"color:#fff;font-size:{{ fontSize }}px;\" t-"
 "out=\"podiumPosition or ''\"/></strong>\n"
@@ -3413,6 +3575,9 @@ msgstr ""
 "if=\"line['suffix'] or line['monetary']\">\n"
 "                                                                        <t t-"
 "out=\"line['full_suffix'] or ''\"/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                                                    </t>\n"
 "                                                                </div>\n"
@@ -3434,6 +3599,7 @@ msgstr ""
 "cellpadding=\"0\" width=\"100%\" style=\"margin-top:30px;margin-"
 "bottom:5px;color:#666666;\">\n"
 "                                                <thead>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                                                    <tr style="
 "\"color:#9A6C8E; font-size:12px;\">\n"
@@ -3457,6 +3623,8 @@ msgstr ""
 "                                                        <th style="
 "\"width:30%;text-align:right;\">पूरा हुआ</th>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                                    <tr "
 "style=\"color:#9A6C8E; font-size:12px;\">\n"
 "                                                        <th "
@@ -3478,6 +3646,9 @@ msgstr ""
 "                                                        </th>\n"
 "                                                        <th "
 "style=\"width:30%;text-align:right;\">Completeness</th>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                                    </tr>\n"
 "                                                    <tr>\n"
@@ -3485,6 +3656,7 @@ msgstr ""
 "style=\"height:1px;background-color:#9A6C8E;\"/>\n"
 "                                                    </tr>\n"
 "                                                </thead>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                                                <tbody t-foreach="
 "\"line['goals']\" t-as=\"goal\">\n"
@@ -3517,6 +3689,8 @@ msgstr ""
 "}};padding-right:15px;font-size:22px;\" align=\"right\"><strong><t t-out="
 "\"int(goal['completeness']) or ''\"/>%</strong></td>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                                <tbody t-"
 "foreach=\"line['goals']\" t-as=\"goal\">\n"
 "                                                    <tr>\n"
@@ -3851,6 +4025,9 @@ msgstr ""
 "{{ tdBgColor }};padding-right:15px;font-size:22px;\" "
 "align=\"right\"><strong><t t-out=\"int(goal['completeness']) or ''\"/>%</"
 "strong></td>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                                    </tr>\n"
 "                                                    <tr>\n"
@@ -3914,6 +4091,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4004,6 +4184,7 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:gamification.badge_list_action
 msgid ""
 "A badge is a symbolic token granted to a user as a sign of reward.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                It can be deserved automatically when some conditions are met or manually by users.\n"
 "                Some badges are harder than others to get with specific conditions."
@@ -4261,6 +4442,8 @@ msgstr ""
 "कुछ बैज खास शर्तों के साथ दूसरों की तुलना में पाना ज़्यादा मुश्किल होते हैं।"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "                It can be deserved automatically when some conditions are "
 "met or manually by users.\n"
 "                Some badges are harder than others to get with specific "
@@ -4269,12 +4452,16 @@ msgstr ""
 "बैज एक प्रतीकात्मक टोकन है जो उपयोगकर्ता को इनाम के रूप में दिया जाता है. \n"
 "यह कुछ शर्तें पूरी होने पर अपने-आप या उपयोगकर्ताओं द्वारा मैन्युअल रूप से दिया जा सकता है. \n"
 "कुछ बैज खास शर्तों के साथ दूसरों की तुलना में पाना ज़्यादा मुश्किल होते हैं।"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.actions.act_window,help:gamification.goal_definition_list_action
 msgid ""
 "A goal definition is a technical specification of a condition to reach.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                The dates, values to reach or users are defined in goal instance."
 msgstr ""
@@ -4854,11 +5041,16 @@ msgstr ""
 "और गोल इंस्टेंस ये बताता है कि वो काम कब तक, कितना और किसके लिए करना है."
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "                The dates, values to reach or users are defined in goal "
 "instance."
 msgstr ""
 "गोल डेफिनेशन ये बताती है कि हमें क्या करना है. \n"
 "और गोल इंस्टेंस ये बताता है कि वो काम कब तक, कितना और किसके लिए करना है."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: gamification
@@ -4912,6 +5104,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"किसी लक्ष्य को पूरा हुआ तब माना जाता है जब आपने उस लक्ष्य के लिए जो काम किया है, उसकी "
+"तुलना उस काम से की जाती है जो आपको पूरा करना था"
+>>>>>>> upstream/18.0
 =======
 "किसी लक्ष्य को पूरा हुआ तब माना जाता है जब आपने उस लक्ष्य के लिए जो काम किया है, उसकी "
 "तुलना उस काम से की जाती है जो आपको पूरा करना था"
@@ -5134,6 +5331,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"किसी लक्ष्य को कोई उपयोगकर्ता परिभाषित करता है और उस लक्ष्य के लिए क्या-क्या करना है, "
+"उसकी परिभाषा भी दी जाती है. \n"
+"आप किसी चुनौती (चैलेंज) की मदद से इन लक्ष्यों को अपने आप भी बना सकते हैं।"
+>>>>>>> upstream/18.0
 =======
 "किसी लक्ष्य को कोई उपयोगकर्ता परिभाषित करता है और उस लक्ष्य के लिए क्या-क्या करना है, "
 "उसकी परिभाषा भी दी जाती है. \n"
@@ -5354,6 +5557,7 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:gamification.gamification_karma_ranks_action
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A rank correspond to a fixed karma level. The more you have karma, the more your rank is high.\n"
 "                    This is used to quickly know which user is new or old or highly or not active."
 msgstr ""
@@ -5483,11 +5687,16 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "A rank correspond to a fixed karma level. The more you have karma, the more "
 "your rank is high.\n"
 "                    This is used to quickly know which user is new or old or "
 "highly or not active."
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "किसी उपयोगकर्ता की रैंक उसके कर्मा पॉइंट के आधार पर तय होती है. जितने ज़्यादा कर्मा पॉइंट "
 "होंगे, रैंक उतनी ही ऊंची होगी. \n"
@@ -5535,6 +5744,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5667,7 +5879,11 @@ msgid "A selected list of users"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपयोगकर्ताओं की चुनी गई सूची"
+>>>>>>> upstream/18.0
 =======
 msgstr "उपयोगकर्ताओं की चुनी गई सूची"
 >>>>>>> upstream/18.0
@@ -5938,7 +6154,11 @@ msgid "Action Needed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कार्रवाई की ज़रूरत है"
+>>>>>>> upstream/18.0
 =======
 msgstr "कार्रवाई की ज़रूरत है"
 >>>>>>> upstream/18.0
@@ -6387,7 +6607,11 @@ msgid "Add Manually"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैन्युअल तौर पर जोड़ें"
+>>>>>>> upstream/18.0
 =======
 msgstr "मैन्युअल तौर पर जोड़ें"
 >>>>>>> upstream/18.0
@@ -6652,7 +6876,11 @@ msgid "Advanced Options"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐडवांस विकल्प"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐडवांस विकल्प"
 >>>>>>> upstream/18.0
@@ -7093,7 +7321,11 @@ msgid "Allowance to Grant"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अधिकार देने की अनुमति"
+>>>>>>> upstream/18.0
 =======
 msgstr "अधिकार देने की अनुमति"
 >>>>>>> upstream/18.0
@@ -7270,7 +7502,11 @@ msgid "Appears in"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इसमें दिखता है"
+>>>>>>> upstream/18.0
 =======
 msgstr "इसमें दिखता है"
 >>>>>>> upstream/18.0
@@ -7536,7 +7772,11 @@ msgid "Archived"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "संग्रहीत किया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "संग्रहीत किया गया"
 >>>>>>> upstream/18.0
@@ -7977,7 +8217,11 @@ msgid "Assign Challenge to"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चुनौती असाइन करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "चुनौती असाइन करें"
 >>>>>>> upstream/18.0
@@ -8113,6 +8357,7 @@ msgstr "चुनौती असाइन करें"
 msgid ""
 "Assign a list of goals to chosen users to evaluate them.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                The challenge can use a period (weekly, monthly...) for automatic creation of goals.\n"
 "                The goals are created for the specified users or member of the group."
 msgstr ""
@@ -8242,11 +8487,16 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "                The challenge can use a period (weekly, monthly...) for "
 "automatic creation of goals.\n"
 "                The goals are created for the specified users or member of "
 "the group."
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "चुने गए उपयोगकर्ताओं का मूल्यांकन करने के लिए उन्हें लक्ष्यों की एक सूची असाइन करें. \n"
 "चुनौती लक्ष्यों को अपने-आप बनाने के लिए एक अवधि (साप्ताहिक, मासिक...) का इस्तेमाल कर "
@@ -8294,6 +8544,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8515,7 +8768,11 @@ msgid "Attachment Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अटैचमेंट काउंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "अटैचमेंट काउंट"
 >>>>>>> upstream/18.0
@@ -8956,7 +9213,11 @@ msgid "Authorized Users"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐसे उपयोगकर्ता जिन्हें अनुमति मिली है"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐसे उपयोगकर्ता जिन्हें अनुमति मिली है"
 >>>>>>> upstream/18.0
@@ -9133,7 +9394,11 @@ msgid "Automatic: execute a specific Python code"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑटोमेटिक: एक खास Python कोड को चलाएं"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऑटोमेटिक: एक खास Python कोड को चलाएं"
 >>>>>>> upstream/18.0
@@ -9310,7 +9575,11 @@ msgid "Automatic: number of records"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑटोमेटिक: रिकॉर्ड की संख्या"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऑटोमेटिक: रिकॉर्ड की संख्या"
 >>>>>>> upstream/18.0
@@ -9487,7 +9756,11 @@ msgid "Automatic: sum on a field"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑटोमेटिक: एक फ़ील्ड पर जोड़ करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऑटोमेटिक: एक फ़ील्ड पर जोड़ करें"
 >>>>>>> upstream/18.0
@@ -9664,7 +9937,11 @@ msgid "Bachelor"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैचलर"
+>>>>>>> upstream/18.0
 =======
 msgstr "बैचलर"
 >>>>>>> upstream/18.0
@@ -9844,7 +10121,11 @@ msgid "Badge"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैज"
+>>>>>>> upstream/18.0
 =======
 msgstr "बैज"
 >>>>>>> upstream/18.0
@@ -10021,7 +10302,11 @@ msgid "Badge Description"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैज की जानकारी"
+>>>>>>> upstream/18.0
 =======
 msgstr "बैज की जानकारी"
 >>>>>>> upstream/18.0
@@ -10198,7 +10483,11 @@ msgid "Badge Level"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैज लेवल"
+>>>>>>> upstream/18.0
 =======
 msgstr "बैज लेवल"
 >>>>>>> upstream/18.0
@@ -10375,7 +10664,11 @@ msgid "Badge List"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैज लिस्ट"
+>>>>>>> upstream/18.0
 =======
 msgstr "बैज लिस्ट"
 >>>>>>> upstream/18.0
@@ -10552,7 +10845,11 @@ msgid "Badge Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैज का नाम"
+>>>>>>> upstream/18.0
 =======
 msgstr "बैज का नाम"
 >>>>>>> upstream/18.0
@@ -10731,7 +11028,11 @@ msgid "Badges"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैज"
+>>>>>>> upstream/18.0
 =======
 msgstr "बैज"
 >>>>>>> upstream/18.0
@@ -10870,6 +11171,7 @@ msgid ""
 "end date of a challenge (if no periodicity is set) or when the challenge is "
 "manually closed."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11128,6 +11430,11 @@ msgstr ""
 "की अवधि खत्म हो जाए (जैसे मासिक चैलेंज का महीना पूरा हो जाए), या अगर कोई समय तय नहीं "
 "है तो चैलेंज की अंतिम तारीख पर, या जब चैलेंज को जानबूझकर बंद किया जाए।"
 >>>>>>> upstream/18.0
+=======
+"किसी चैलेंज के पूरा होने पर इनाम के तौर पर बैज दिया जाता है. यह तब हो सकता है जब चैलेंज "
+"की अवधि खत्म हो जाए (जैसे मासिक चैलेंज का महीना पूरा हो जाए), या अगर कोई समय तय नहीं "
+"है तो चैलेंज की अंतिम तारीख पर, या जब चैलेंज को जानबूझकर बंद किया जाए।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__batch_mode
@@ -11175,7 +11482,11 @@ msgid "Batch Mode"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैच मोड"
+>>>>>>> upstream/18.0
 =======
 msgstr "बैच मोड"
 >>>>>>> upstream/18.0
@@ -11352,7 +11663,11 @@ msgid "Brilliant"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "शानदार"
+>>>>>>> upstream/18.0
 =======
 msgstr "शानदार"
 >>>>>>> upstream/18.0
@@ -11529,7 +11844,11 @@ msgid "Bronze"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ब्रॉन्ज़"
+>>>>>>> upstream/18.0
 =======
 msgstr "ब्रॉन्ज़"
 >>>>>>> upstream/18.0
@@ -11706,7 +12025,11 @@ msgid "Bronze badges count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ब्रॉन्ज़ बैज की संख्या"
+>>>>>>> upstream/18.0
 =======
 msgstr "ब्रॉन्ज़ बैज की संख्या"
 >>>>>>> upstream/18.0
@@ -11883,7 +12206,11 @@ msgid "Can not grant"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "देना संभव नहीं"
+>>>>>>> upstream/18.0
 =======
 msgstr "देना संभव नहीं"
 >>>>>>> upstream/18.0
@@ -12061,7 +12388,11 @@ msgid "Can not modify the configuration of a started goal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "शुरू किए गए लक्ष्य की सेटिंग नहीं बदल सकते"
+>>>>>>> upstream/18.0
 =======
 msgstr "शुरू किए गए लक्ष्य की सेटिंग नहीं बदल सकते"
 >>>>>>> upstream/18.0
@@ -12257,7 +12588,11 @@ msgid "Challenge"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चैलेंज"
+>>>>>>> upstream/18.0
 =======
 msgstr "चैलेंज"
 >>>>>>> upstream/18.0
@@ -12434,7 +12769,11 @@ msgid "Challenge Line"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चैलेंज लाइन"
+>>>>>>> upstream/18.0
 =======
 msgstr "चैलेंज लाइन"
 >>>>>>> upstream/18.0
@@ -12611,7 +12950,11 @@ msgid "Challenge Lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चैलेंज लाइन"
+>>>>>>> upstream/18.0
 =======
 msgstr "चैलेंज लाइन"
 >>>>>>> upstream/18.0
@@ -12788,7 +13131,11 @@ msgid "Challenge Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चैलेंज का नाम"
+>>>>>>> upstream/18.0
 =======
 msgstr "चैलेंज का नाम"
 >>>>>>> upstream/18.0
@@ -12968,6 +13315,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"जिस चैलेंज से यह लक्ष्य बना है, उसकी जानकारी दी गई है. आप यह चैलेंज उपयोगकर्ताओं को असाइन "
+"करें ताकि वे इस फ़ील्ड में वैल्यू डालकर नए लक्ष्य बना सकें।"
+>>>>>>> upstream/18.0
 =======
 "जिस चैलेंज से यह लक्ष्य बना है, उसकी जानकारी दी गई है. आप यह चैलेंज उपयोगकर्ताओं को असाइन "
 "करें ताकि वे इस फ़ील्ड में वैल्यू डालकर नए लक्ष्य बना सकें।"
@@ -13190,7 +13542,11 @@ msgid "Challenges"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चैलेंज"
+>>>>>>> upstream/18.0
 =======
 msgstr "चैलेंज"
 >>>>>>> upstream/18.0
@@ -13368,6 +13724,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"यह विकल्प चुनें, ताकि आप यह तय कर सकें कि कोई व्यक्ति एक महीने में यह बैज कितनी बार भेज "
+"सकता है"
+>>>>>>> upstream/18.0
 =======
 "यह विकल्प चुनें, ताकि आप यह तय कर सकें कि कोई व्यक्ति एक महीने में यह बैज कितनी बार भेज "
 "सकता है"
@@ -13587,7 +13948,11 @@ msgid "Clickable Goals"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "क्लिक करने योग्य लक्ष्य"
+>>>>>>> upstream/18.0
 =======
 msgstr "क्लिक करने योग्य लक्ष्य"
 >>>>>>> upstream/18.0
@@ -13764,7 +14129,11 @@ msgid "Closed goal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बंद किए गए लक्ष्य"
+>>>>>>> upstream/18.0
 =======
 msgstr "बंद किए गए लक्ष्य"
 >>>>>>> upstream/18.0
@@ -14026,7 +14395,11 @@ msgid "Color Index"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कलर इंडेक्स"
+>>>>>>> upstream/18.0
 =======
 msgstr "कलर इंडेक्स"
 >>>>>>> upstream/18.0
@@ -14459,7 +14832,11 @@ msgid "Comment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टिप्पणी"
+>>>>>>> upstream/18.0
 =======
 msgstr "टिप्पणी"
 >>>>>>> upstream/18.0
@@ -14636,7 +15013,11 @@ msgid "Complete your Profile"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अपनी प्रोफ़ाइल पूरी करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "अपनी प्रोफ़ाइल पूरी करें"
 >>>>>>> upstream/18.0
@@ -14813,7 +15194,11 @@ msgid "Completeness"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पूरा होना"
+>>>>>>> upstream/18.0
 =======
 msgstr "पूरा होना"
 >>>>>>> upstream/18.0
@@ -14992,7 +15377,11 @@ msgid "Computation Mode"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कंप्यूटेशन मोड"
+>>>>>>> upstream/18.0
 =======
 msgstr "कंप्यूटेशन मोड"
 >>>>>>> upstream/18.0
@@ -15169,7 +15558,11 @@ msgid "Condition"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "शर्त"
+>>>>>>> upstream/18.0
 =======
 msgstr "शर्त"
 >>>>>>> upstream/18.0
@@ -15347,7 +15740,11 @@ msgid "Consolidated"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एक साथ मिलाया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "एक साथ मिलाया गया"
 >>>>>>> upstream/18.0
@@ -15525,7 +15922,11 @@ msgid "Consolidation from %(from_date)s to %(end_date)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(from_date)s से %(end_date)s तक का डेटा एक साथ मिलाएं"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(from_date)s से %(end_date)s तक का डेटा एक साथ मिलाएं"
 >>>>>>> upstream/18.0
@@ -15702,7 +16103,11 @@ msgid "Create User"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपयोगकर्ता बनाएं"
+>>>>>>> upstream/18.0
 =======
 msgstr "उपयोगकर्ता बनाएं"
 >>>>>>> upstream/18.0
@@ -15879,7 +16284,11 @@ msgid "Create a new badge"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नया बैज बनाएं"
+>>>>>>> upstream/18.0
 =======
 msgstr "नया बैज बनाएं"
 >>>>>>> upstream/18.0
@@ -16056,7 +16465,11 @@ msgid "Create a new challenge"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नया चैलेंज बनाएं"
+>>>>>>> upstream/18.0
 =======
 msgstr "नया चैलेंज बनाएं"
 >>>>>>> upstream/18.0
@@ -16233,7 +16646,11 @@ msgid "Create a new goal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नया लक्ष्य बनाएं"
+>>>>>>> upstream/18.0
 =======
 msgstr "नया लक्ष्य बनाएं"
 >>>>>>> upstream/18.0
@@ -16410,7 +16827,11 @@ msgid "Create a new goal definition"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एक नई लक्ष्य परिभाषा बनाएं"
+>>>>>>> upstream/18.0
 =======
 msgstr "एक नई लक्ष्य परिभाषा बनाएं"
 >>>>>>> upstream/18.0
@@ -16587,7 +17008,11 @@ msgid "Create a new rank"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नया रैंक बनाएं"
+>>>>>>> upstream/18.0
 =======
 msgstr "नया रैंक बनाएं"
 >>>>>>> upstream/18.0
@@ -16726,6 +17151,7 @@ msgid ""
 "not connect to the system. You can assign them groups in order to give them "
 "specific access to the applications they need to use in the system."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16981,10 +17407,15 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "उन सभी लोगों का रिकॉर्ड बनाएं और मैनेज करें जो इस सिस्टम का इस्तेमाल करेंगे. अगर कोई "
 "व्यक्ति कुछ समय के लिए सिस्टम का उपयोग नहीं करता है, तो आप उसे निष्क्रिय (डिएक्टिवेट) कर "
 "सकते हैं। आप उन्हें अलग-अलग ग्रुप में शामिल कर सकते हैं, ताकि वे सिस्टम में सिर्फ़ उन ऐप्लिकेशन "
 "का इस्तेमाल कर सकें जिनकी उन्हें ज़रूरत है।"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: gamification
@@ -17141,7 +17572,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस तारीख को बनाया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इस तारीख को बनाया गया"
 >>>>>>> upstream/18.0
@@ -17649,7 +18084,11 @@ msgid "Current"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "करंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "करंट"
 >>>>>>> upstream/18.0
@@ -18054,7 +18493,11 @@ msgid "Current Value"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मौजूदा वैल्यू"
+>>>>>>> upstream/18.0
 =======
 msgstr "मौजूदा वैल्यू"
 >>>>>>> upstream/18.0
@@ -18232,7 +18675,11 @@ msgid "Daily"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "हर दिन"
+>>>>>>> upstream/18.0
 =======
 msgstr "हर दिन"
 >>>>>>> upstream/18.0
@@ -18409,7 +18856,11 @@ msgid "Data"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डेटा"
+>>>>>>> upstream/18.0
 =======
 msgstr "डेटा"
 >>>>>>> upstream/18.0
@@ -18591,7 +19042,11 @@ msgid "Date Field"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "तारीख वाली फ़ील्ड"
+>>>>>>> upstream/18.0
 =======
 msgstr "तारीख वाली फ़ील्ड"
 >>>>>>> upstream/18.0
@@ -18772,6 +19227,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"तय करें कि लक्ष्यों की गणना कैसे की जाएगी. ऑपरेशन का नतीजा 'मौजूदा' फ़ील्ड में सेव किया "
+"जाएगा।"
+>>>>>>> upstream/18.0
 =======
 "तय करें कि लक्ष्यों की गणना कैसे की जाएगी. ऑपरेशन का नतीजा 'मौजूदा' फ़ील्ड में सेव किया "
 "जाएगा।"
@@ -18949,6 +19409,7 @@ msgstr ""
 #: model:ir.model.fields,help:gamification.field_gamification_challenge__challenge_category
 msgid "Define the visibility of the challenge through menus"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19121,6 +19582,9 @@ msgstr ""
 =======
 msgstr "यह तय करें कि यह चुनौती (चैलेंज) सिस्टम के मेन्यू में कहां और किसे दिखाई देगी"
 >>>>>>> upstream/18.0
+=======
+msgstr "यह तय करें कि यह चुनौती (चैलेंज) सिस्टम के मेन्यू में कहां और किसे दिखाई देगी"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal__definition_condition
@@ -19168,7 +19632,11 @@ msgid "Definition Condition"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "शर्त तय करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "शर्त तय करें"
 >>>>>>> upstream/18.0
@@ -19345,7 +19813,11 @@ msgid "Definition Description"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "परिभाषा की जानकारी"
+>>>>>>> upstream/18.0
 =======
 msgstr "परिभाषा की जानकारी"
 >>>>>>> upstream/18.0
@@ -19479,6 +19951,7 @@ msgstr "परिभाषा की जानकारी"
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
 msgid "Depending on the Display mode, reports will be individual or shared."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19824,6 +20297,8 @@ msgstr ""
 "चुनौती का विवरण दें: यह क्या करती है, किसे लक्षित करती है, यह क्यों मायने रखती है..।"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "डिस्प्ले मोड के अनुसार, रिपोर्ट व्यक्तिगत या शेयर की जाएगी।"
 
 #. module: gamification
@@ -19831,6 +20306,9 @@ msgstr "डिस्प्ले मोड के अनुसार, रिप�
 msgid "Describe the challenge: what is does, who it targets, why it matters..."
 msgstr ""
 "चुनौती का विवरण दें: यह क्या करती है, किसे लक्षित करती है, यह क्यों मायने रखती है..।"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: gamification
@@ -19879,7 +20357,11 @@ msgid "Describe what they did and why it matters (will be public)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बताएं कि उन्होंने क्या किया और यह क्यों मायने रखता है (सार्वजनिक रहेगा)"
+>>>>>>> upstream/18.0
 =======
 msgstr "बताएं कि उन्होंने क्या किया और यह क्यों मायने रखता है (सार्वजनिक रहेगा)"
 >>>>>>> upstream/18.0
@@ -20066,7 +20548,11 @@ msgid "Display Mode"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिस्प्ले मोड"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिस्प्ले मोड"
 >>>>>>> upstream/18.0
@@ -20343,7 +20829,11 @@ msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिस्प्ले नाम"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिस्प्ले नाम"
 >>>>>>> upstream/18.0
@@ -20793,7 +21283,11 @@ msgid "Displayed as"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "के तौर पर दिखाया गया है"
+>>>>>>> upstream/18.0
 =======
 msgstr "के तौर पर दिखाया गया है"
 >>>>>>> upstream/18.0
@@ -20970,7 +21464,11 @@ msgid "Distinctive field for batch user"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैच उपयोगकर्ता के लिए खास फ़ील्ड"
+>>>>>>> upstream/18.0
 =======
 msgstr "बैच उपयोगकर्ता के लिए खास फ़ील्ड"
 >>>>>>> upstream/18.0
@@ -21147,7 +21645,11 @@ msgid "Doctor"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डॉक्टर"
+>>>>>>> upstream/18.0
 =======
 msgstr "डॉक्टर"
 >>>>>>> upstream/18.0
@@ -21285,6 +21787,7 @@ msgid ""
 "[('state', '=', 'done')]. The expression can contain reference to 'user' "
 "which is a browse record of the current user if not in batch mode."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21543,6 +22046,11 @@ msgstr ""
 "नहीं करता, जैसे [('state', '=', 'done')]. इस एक्सप्रेशन में 'user' का संदर्भ हो सकता "
 "है, जो बैच मोड में नहीं होने पर वर्तमान उपयोगकर्ता का ब्राउज़ रिकॉर्ड है।"
 >>>>>>> upstream/18.0
+=======
+"रिकॉर्ड को फ़िल्टर करने के लिए डोमेन. यह एक सामान्य नियम है, जो उपयोगकर्ता पर निर्भर "
+"नहीं करता, जैसे [('state', '=', 'done')]. इस एक्सप्रेशन में 'user' का संदर्भ हो सकता "
+"है, जो बैच मोड में नहीं होने पर वर्तमान उपयोगकर्ता का ब्राउज़ रिकॉर्ड है।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_challenge__state__done
@@ -21560,6 +22068,7 @@ msgstr "मसौदा"
 #. module: gamification
 #: model_terms:gamification.karma.rank,description_motivational:gamification.rank_newbie
 msgid "Earn your first points and join the adventure!"
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
@@ -21733,6 +22242,9 @@ msgstr ""
 =======
 msgstr "सबसे पहले अपने शुरुआती पॉइंट पाएं और फिर इस मज़ेदार प्रतियोगिता में हिस्सा लें!"
 >>>>>>> upstream/18.0
+=======
+msgstr "सबसे पहले अपने शुरुआती पॉइंट पाएं और फिर इस मज़ेदार प्रतियोगिता में हिस्सा लें!"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__end_date
@@ -21744,6 +22256,7 @@ msgstr "समाप्ति तिथि"
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_goal_definition__batch_mode
 msgid "Evaluate the expression in batch instead of once for each user"
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
@@ -21917,6 +22430,9 @@ msgstr ""
 =======
 msgstr "हर उपयोगकर्ता के लिए अलग-अलग के बजाय, एक्सप्रेशन का मूल्यांकन एक साथ (बैच में) करें"
 >>>>>>> upstream/18.0
+=======
+msgstr "हर उपयोगकर्ता के लिए अलग-अलग के बजाय, एक्सप्रेशन का मूल्यांकन एक साथ (बैच में) करें"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__batch_user_expression
@@ -21964,7 +22480,11 @@ msgid "Evaluated expression for batch mode"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैच मोड के लिए मूल्यांकन किया गया एक्सप्रेशन"
+>>>>>>> upstream/18.0
 =======
 msgstr "बैच मोड के लिए मूल्यांकन किया गया एक्सप्रेशन"
 >>>>>>> upstream/18.0
@@ -22141,7 +22661,11 @@ msgid "Everyone"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सभी"
+>>>>>>> upstream/18.0
 =======
 msgstr "सभी"
 >>>>>>> upstream/18.0
@@ -22318,7 +22842,11 @@ msgid "Exclusive (done or not-done)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एक्सक्लूसिव (किया गया या नहीं किया गया)"
+>>>>>>> upstream/18.0
 =======
 msgstr "एक्सक्लूसिव (किया गया या नहीं किया गया)"
 >>>>>>> upstream/18.0
@@ -22567,7 +23095,11 @@ msgid "Failed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "असफल"
+>>>>>>> upstream/18.0
 =======
 msgstr "असफल"
 >>>>>>> upstream/18.0
@@ -22960,7 +23492,11 @@ msgid "Field to Sum"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जोड़ने के लिए फ़ील्ड"
+>>>>>>> upstream/18.0
 =======
 msgstr "जोड़ने के लिए फ़ील्ड"
 >>>>>>> upstream/18.0
@@ -23137,7 +23673,11 @@ msgid "Filter Domain"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़िल्टर डोमेन"
+>>>>>>> upstream/18.0
 =======
 msgstr "फ़िल्टर डोमेन"
 >>>>>>> upstream/18.0
@@ -23397,7 +23937,11 @@ msgid "Followers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़ॉलोवर"
+>>>>>>> upstream/18.0
 =======
 msgstr "फ़ॉलोवर"
 >>>>>>> upstream/18.0
@@ -23903,7 +24447,11 @@ msgid "Followers (Partners)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़ॉलोवर (पार्टनर)"
+>>>>>>> upstream/18.0
 =======
 msgstr "फ़ॉलोवर (पार्टनर)"
 >>>>>>> upstream/18.0
@@ -24326,7 +24874,11 @@ msgid "For 1st user"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पहले उपयोगकर्ता के लिए"
+>>>>>>> upstream/18.0
 =======
 msgstr "पहले उपयोगकर्ता के लिए"
 >>>>>>> upstream/18.0
@@ -24503,7 +25055,11 @@ msgid "For 2nd user"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "दूसरे उपयोगकर्ता के लिए"
+>>>>>>> upstream/18.0
 =======
 msgstr "दूसरे उपयोगकर्ता के लिए"
 >>>>>>> upstream/18.0
@@ -24680,7 +25236,11 @@ msgid "For 3rd user"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "तीसरे उपयोगकर्ता के लिए"
+>>>>>>> upstream/18.0
 =======
 msgstr "तीसरे उपयोगकर्ता के लिए"
 >>>>>>> upstream/18.0
@@ -24857,7 +25417,11 @@ msgid "For Every Succeeding User"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "हर सफल उपयोगकर्ता के लिए"
+>>>>>>> upstream/18.0
 =======
 msgstr "हर सफल उपयोगकर्ता के लिए"
 >>>>>>> upstream/18.0
@@ -25034,7 +25598,11 @@ msgid "Formatting Options"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फॉर्मैटिंग के विकल्प"
+>>>>>>> upstream/18.0
 =======
 msgstr "फॉर्मैटिंग के विकल्प"
 >>>>>>> upstream/18.0
@@ -25211,7 +25779,11 @@ msgid "Forum Badge Level"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़ोरम बैज लेवल"
+>>>>>>> upstream/18.0
 =======
 msgstr "फ़ोरम बैज लेवल"
 >>>>>>> upstream/18.0
@@ -25393,7 +25965,11 @@ msgid "Full Suffix"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पूरा सफ़िक्स"
+>>>>>>> upstream/18.0
 =======
 msgstr "पूरा सफ़िक्स"
 >>>>>>> upstream/18.0
@@ -25652,7 +26228,11 @@ msgid "Gain"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लाभ"
+>>>>>>> upstream/18.0
 =======
 msgstr "लाभ"
 >>>>>>> upstream/18.0
@@ -26075,7 +26655,11 @@ msgid "Gamification Badge"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गेमिफ़िकेशन बैज"
+>>>>>>> upstream/18.0
 =======
 msgstr "गेमिफ़िकेशन बैज"
 >>>>>>> upstream/18.0
@@ -26252,7 +26836,11 @@ msgid "Gamification Challenge"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गेमिफ़िकेशन चैलेंज"
+>>>>>>> upstream/18.0
 =======
 msgstr "गेमिफ़िकेशन चैलेंज"
 >>>>>>> upstream/18.0
@@ -26429,7 +27017,11 @@ msgid "Gamification Goal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गेमिफ़िकेशन गोल"
+>>>>>>> upstream/18.0
 =======
 msgstr "गेमिफ़िकेशन गोल"
 >>>>>>> upstream/18.0
@@ -26606,7 +27198,11 @@ msgid "Gamification Goal Definition"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गेमिफ़िकेशन के लक्ष्य की परिभाषा"
+>>>>>>> upstream/18.0
 =======
 msgstr "गेमिफ़िकेशन के लक्ष्य की परिभाषा"
 >>>>>>> upstream/18.0
@@ -26783,7 +27379,11 @@ msgid "Gamification Goal Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गेमिफ़िकेशन गोल विज़ॉर्ड"
+>>>>>>> upstream/18.0
 =======
 msgstr "गेमिफ़िकेशन गोल विज़ॉर्ड"
 >>>>>>> upstream/18.0
@@ -26960,7 +27560,11 @@ msgid "Gamification Tools"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गेमिफ़िकेशन टूल्स"
+>>>>>>> upstream/18.0
 =======
 msgstr "गेमिफ़िकेशन टूल्स"
 >>>>>>> upstream/18.0
@@ -27137,7 +27741,11 @@ msgid "Gamification User Badge"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गेमिफ़िकेशन बैज यूज़र"
+>>>>>>> upstream/18.0
 =======
 msgstr "गेमिफ़िकेशन बैज यूज़र"
 >>>>>>> upstream/18.0
@@ -27314,7 +27922,11 @@ msgid "Gamification User Badge Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गेमिफ़िकेशन यूज़र बैज विज़ॉर्ड"
+>>>>>>> upstream/18.0
 =======
 msgstr "गेमिफ़िकेशन यूज़र बैज विज़ॉर्ड"
 >>>>>>> upstream/18.0
@@ -27491,7 +28103,11 @@ msgid "Gamification generic goal for challenge"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चैलेंज के लिए गेमिफ़िकेशन का सामान्य लक्ष्य"
+>>>>>>> upstream/18.0
 =======
 msgstr "चैलेंज के लिए गेमिफ़िकेशन का सामान्य लक्ष्य"
 >>>>>>> upstream/18.0
@@ -27668,7 +28284,11 @@ msgid "Gamification: Badge Received"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गेमिफ़िकेशन: बैज मिला"
+>>>>>>> upstream/18.0
 =======
 msgstr "गेमिफ़िकेशन: बैज मिला"
 >>>>>>> upstream/18.0
@@ -27845,7 +28465,11 @@ msgid "Gamification: Challenge Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गेमिफ़िकेशन: चैलेंज रिपोर्ट"
+>>>>>>> upstream/18.0
 =======
 msgstr "गेमिफ़िकेशन: चैलेंज रिपोर्ट"
 >>>>>>> upstream/18.0
@@ -28022,7 +28646,11 @@ msgid "Gamification: Goal Challenge Check"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गेमिफ़िकेशन: लक्ष्य चुनौती की जांच"
+>>>>>>> upstream/18.0
 =======
 msgstr "गेमिफ़िकेशन: लक्ष्य चुनौती की जांच"
 >>>>>>> upstream/18.0
@@ -28199,7 +28827,11 @@ msgid "Gamification: Karma tracking consolidation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गेमिफ़िकेशन: कर्मा पॉइंट की ट्रैकिंग को एक साथ मिलाना"
+>>>>>>> upstream/18.0
 =======
 msgstr "गेमिफ़िकेशन: कर्मा पॉइंट की ट्रैकिंग को एक साथ मिलाना"
 >>>>>>> upstream/18.0
@@ -28376,7 +29008,11 @@ msgid "Gamification: New Rank Reached"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गेमिफ़िकेशन: नई रैंक मिली"
+>>>>>>> upstream/18.0
 =======
 msgstr "गेमिफ़िकेशन: नई रैंक मिली"
 >>>>>>> upstream/18.0
@@ -28553,7 +29189,11 @@ msgid "Gamification: Reminder For Goal Update"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गेमिफ़िकेशन: लक्ष्य अपडेट के लिए रिमाइंडर"
+>>>>>>> upstream/18.0
 =======
 msgstr "गेमिफ़िकेशन: लक्ष्य अपडेट के लिए रिमाइंडर"
 >>>>>>> upstream/18.0
@@ -28731,7 +29371,11 @@ msgid "Goal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लक्ष्य"
+>>>>>>> upstream/18.0
 =======
 msgstr "लक्ष्य"
 >>>>>>> upstream/18.0
@@ -28911,7 +29555,11 @@ msgid "Goal Definition"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लक्ष्य की परिभाषा"
+>>>>>>> upstream/18.0
 =======
 msgstr "लक्ष्य की परिभाषा"
 >>>>>>> upstream/18.0
@@ -29090,7 +29738,11 @@ msgid "Goal Definitions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लक्ष्य की परिभाषाएं"
+>>>>>>> upstream/18.0
 =======
 msgstr "लक्ष्य की परिभाषाएं"
 >>>>>>> upstream/18.0
@@ -29267,7 +29919,11 @@ msgid "Goal Description"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लक्ष्य की जानकारी"
+>>>>>>> upstream/18.0
 =======
 msgstr "लक्ष्य की जानकारी"
 >>>>>>> upstream/18.0
@@ -29444,7 +30100,11 @@ msgid "Goal Failed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लक्ष्य हासिल नहीं हुआ"
+>>>>>>> upstream/18.0
 =======
 msgstr "लक्ष्य हासिल नहीं हुआ"
 >>>>>>> upstream/18.0
@@ -29621,7 +30281,11 @@ msgid "Goal List"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लक्ष्य की सूची"
+>>>>>>> upstream/18.0
 =======
 msgstr "लक्ष्य की सूची"
 >>>>>>> upstream/18.0
@@ -29798,7 +30462,11 @@ msgid "Goal Performance"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लक्ष्य का प्रदर्शन"
+>>>>>>> upstream/18.0
 =======
 msgstr "लक्ष्य का प्रदर्शन"
 >>>>>>> upstream/18.0
@@ -29975,7 +30643,11 @@ msgid "Goal Reached"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लक्ष्य हासिल हुआ"
+>>>>>>> upstream/18.0
 =======
 msgstr "लक्ष्य हासिल हुआ"
 >>>>>>> upstream/18.0
@@ -30152,7 +30824,11 @@ msgid "Goal definitions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लक्ष्य की परिभाषाएं"
+>>>>>>> upstream/18.0
 =======
 msgstr "लक्ष्य की परिभाषाएं"
 >>>>>>> upstream/18.0
@@ -30332,7 +31008,11 @@ msgid "Goals"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लक्ष्य"
+>>>>>>> upstream/18.0
 =======
 msgstr "लक्ष्य"
 >>>>>>> upstream/18.0
@@ -30509,7 +31189,11 @@ msgid "Gold"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गोल्ड"
+>>>>>>> upstream/18.0
 =======
 msgstr "गोल्ड"
 >>>>>>> upstream/18.0
@@ -30686,7 +31370,11 @@ msgid "Gold badges count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गोल्ड बैज की संख्या"
+>>>>>>> upstream/18.0
 =======
 msgstr "गोल्ड बैज की संख्या"
 >>>>>>> upstream/18.0
@@ -30863,7 +31551,11 @@ msgid "Good Job"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अच्छा काम"
+>>>>>>> upstream/18.0
 =======
 msgstr "अच्छा काम"
 >>>>>>> upstream/18.0
@@ -31040,7 +31732,11 @@ msgid "Grant"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ग्रान्ट"
+>>>>>>> upstream/18.0
 =======
 msgstr "ग्रान्ट"
 >>>>>>> upstream/18.0
@@ -31218,7 +31914,11 @@ msgid "Grant Badge"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैज दें"
+>>>>>>> upstream/18.0
 =======
 msgstr "बैज दें"
 >>>>>>> upstream/18.0
@@ -31396,7 +32096,11 @@ msgid "Grant Badge To"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैज इन को दें"
+>>>>>>> upstream/18.0
 =======
 msgstr "बैज इन को दें"
 >>>>>>> upstream/18.0
@@ -31573,7 +32277,11 @@ msgid "Grant this Badge"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस बैज को दें"
+>>>>>>> upstream/18.0
 =======
 msgstr "इस बैज को दें"
 >>>>>>> upstream/18.0
@@ -31750,7 +32458,11 @@ msgid "Granted By"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इन्होंने दिया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इन्होंने दिया"
 >>>>>>> upstream/18.0
@@ -31927,7 +32639,11 @@ msgid "Granted by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इनके ज़रिए अनुमति दी गई"
+>>>>>>> upstream/18.0
 =======
 msgstr "इनके ज़रिए अनुमति दी गई"
 >>>>>>> upstream/18.0
@@ -32104,7 +32820,11 @@ msgid "Granting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "दिया जा रहा है"
+>>>>>>> upstream/18.0
 =======
 msgstr "दिया जा रहा है"
 >>>>>>> upstream/18.0
@@ -32366,7 +33086,11 @@ msgid "Group By"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इन्होंने ग्रुप किया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इन्होंने ग्रुप किया"
 >>>>>>> upstream/18.0
@@ -32789,7 +33513,11 @@ msgid "Group that will receive a copy of the report in addition to the user"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वह समूह जिसे उपयोगकर्ता के अलावा रिपोर्ट की एक कॉपी मिलेगी"
+>>>>>>> upstream/18.0
 =======
 msgstr "वह समूह जिसे उपयोगकर्ता के अलावा रिपोर्ट की एक कॉपी मिलेगी"
 >>>>>>> upstream/18.0
@@ -32966,7 +33694,11 @@ msgid "HR Challenges"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एचआर चैलेंज"
+>>>>>>> upstream/18.0
 =======
 msgstr "एचआर चैलेंज"
 >>>>>>> upstream/18.0
@@ -33226,7 +33958,11 @@ msgid "Has Message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैसेज है"
+>>>>>>> upstream/18.0
 =======
 msgstr "मैसेज है"
 >>>>>>> upstream/18.0
@@ -33649,7 +34385,11 @@ msgid "Hidden"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "छिपाया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "छिपाया गया"
 >>>>>>> upstream/18.0
@@ -33826,7 +34566,11 @@ msgid "How is the goal computed?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लक्ष्य की गणना कैसे की जाती है?"
+>>>>>>> upstream/18.0
 =======
 msgstr "लक्ष्य की गणना कैसे की जाती है?"
 >>>>>>> upstream/18.0
@@ -34003,7 +34747,11 @@ msgid "Human Resources / Engagement"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मानव संसाधन / इंगेजमेंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "मानव संसाधन / इंगेजमेंट"
 >>>>>>> upstream/18.0
@@ -34280,7 +35028,11 @@ msgid "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आईडी"
+>>>>>>> upstream/18.0
 =======
 msgstr "आईडी"
 >>>>>>> upstream/18.0
@@ -34730,7 +35482,11 @@ msgid "ID Field of user"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यूज़र की आईडी फ़ील्ड"
+>>>>>>> upstream/18.0
 =======
 msgstr "यूज़र की आईडी फ़ील्ड"
 >>>>>>> upstream/18.0
@@ -34907,7 +35663,11 @@ msgid "If a maximum is set"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगर अधिकतम सीमा तय की गई है"
+>>>>>>> upstream/18.0
 =======
 msgstr "अगर अधिकतम सीमा तय की गई है"
 >>>>>>> upstream/18.0
@@ -35167,7 +35927,11 @@ msgid "If checked, new messages require your attention."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगर यह बॉक्स चेक है, तो नए मैसेज देखने ज़रूरी हैं."
+>>>>>>> upstream/18.0
 =======
 msgstr "अगर यह बॉक्स चेक है, तो नए मैसेज देखने ज़रूरी हैं."
 >>>>>>> upstream/18.0
@@ -35673,7 +36437,11 @@ msgid "If checked, some messages have a delivery error."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगर बॉक्स पर टिक है, तो कुछ मैसेज भेजने में गलती हुई है."
+>>>>>>> upstream/18.0
 =======
 msgstr "अगर बॉक्स पर टिक है, तो कुछ मैसेज भेजने में गलती हुई है."
 >>>>>>> upstream/18.0
@@ -36169,7 +36937,11 @@ msgid "Image"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इमेज"
+>>>>>>> upstream/18.0
 =======
 msgstr "इमेज"
 >>>>>>> upstream/18.0
@@ -36563,7 +37335,11 @@ msgid "Image 1024"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इमेज 1024"
+>>>>>>> upstream/18.0
 =======
 msgstr "इमेज 1024"
 >>>>>>> upstream/18.0
@@ -36741,7 +37517,11 @@ msgid "Image 128"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इमेज 128"
+>>>>>>> upstream/18.0
 =======
 msgstr "इमेज 128"
 >>>>>>> upstream/18.0
@@ -36919,7 +37699,11 @@ msgid "Image 256"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इमेज 256"
+>>>>>>> upstream/18.0
 =======
 msgstr "इमेज 256"
 >>>>>>> upstream/18.0
@@ -37097,7 +37881,11 @@ msgid "Image 512"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इमेज 512"
+>>>>>>> upstream/18.0
 =======
 msgstr "इमेज 512"
 >>>>>>> upstream/18.0
@@ -37282,6 +38070,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"बैच मोड में डोमेन एक साथ लागू होता है. अगर यह चालू है, तो ऊपर के फ़िल्टर में 'user' कीवर्ड "
+"का उपयोग न करें।"
+>>>>>>> upstream/18.0
 =======
 "बैच मोड में डोमेन एक साथ लागू होता है. अगर यह चालू है, तो ऊपर के फ़िल्टर में 'user' कीवर्ड "
 "का उपयोग न करें।"
@@ -37504,6 +38297,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "बैच मोड में, यह बताता है कि कौनसा फ़ील्ड एक उपयोगकर्ता को दूसरे से अलग करता है, उदाहरण के"
 " लिए user_id, partner_id..।"
@@ -37676,6 +38470,10 @@ msgstr ""
 "बैच मोड में, यह बताता है कि कौनसा फ़ील्ड एक उपयोगकर्ता को दूसरे से अलग करता है, उदाहरण "
 "के लिए user_id, partner_id..।"
 >>>>>>> upstream/18.0
+=======
+"बैच मोड में, यह बताता है कि कौनसा फ़ील्ड एक उपयोगकर्ता को दूसरे से अलग करता है, उदाहरण "
+"के लिए user_id, partner_id..।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_goal__last_update
@@ -37684,6 +38482,7 @@ msgid ""
 "for a while (defined in challenge). Ignored in case of non-manual goal or "
 "goal not linked to a challenge."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -37942,6 +38741,11 @@ msgstr ""
 "है), तो रिमाइंडर भेजे जाते हैं. मैन्युअल लक्ष्य न होने या चुनौती से न जुड़े लक्ष्य के मामले में इसे "
 "अनदेखा किया जाता है।"
 >>>>>>> upstream/18.0
+=======
+"मैन्युअल लक्ष्य के मामले में, अगर लक्ष्य कुछ समय से अपडेट नहीं हुआ है (चुनौती में तय किया गया "
+"है), तो रिमाइंडर भेजे जाते हैं. मैन्युअल लक्ष्य न होने या चुनौती से न जुड़े लक्ष्य के मामले में इसे "
+"अनदेखा किया जाता है।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_goal__state__inprogress
@@ -38061,7 +38865,11 @@ msgid "In progress"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रगति में है"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्रगति में है"
 >>>>>>> upstream/18.0
@@ -38454,7 +39262,11 @@ msgid "Individual Goals"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "व्यक्तिगत लक्ष्य"
+>>>>>>> upstream/18.0
 =======
 msgstr "व्यक्तिगत लक्ष्य"
 >>>>>>> upstream/18.0
@@ -38631,7 +39443,11 @@ msgid "Inherited models"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐसे डेटा मॉडल जो किसी दूसरे मूल मॉडल से बनाए गए हैं"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐसे डेटा मॉडल जो किसी दूसरे मूल मॉडल से बनाए गए हैं"
 >>>>>>> upstream/18.0
@@ -38808,7 +39624,11 @@ msgid "Invite new Users"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नए उपयोगकर्ताओं को न्योता दें"
+>>>>>>> upstream/18.0
 =======
 msgstr "नए उपयोगकर्ताओं को न्योता दें"
 >>>>>>> upstream/18.0
@@ -39068,7 +39888,11 @@ msgid "Is Follower"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़ॉलोवर है"
+>>>>>>> upstream/18.0
 =======
 msgstr "फ़ॉलोवर है"
 >>>>>>> upstream/18.0
@@ -39492,7 +40316,11 @@ msgid "Karma"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मा"
+>>>>>>> upstream/18.0
 =======
 msgstr "कर्मा"
 >>>>>>> upstream/18.0
@@ -39669,7 +40497,11 @@ msgid "Karma Changes"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मा में बदलाव"
+>>>>>>> upstream/18.0
 =======
 msgstr "कर्मा में बदलाव"
 >>>>>>> upstream/18.0
@@ -39848,7 +40680,11 @@ msgid "Karma Owner"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मा के मालिक"
+>>>>>>> upstream/18.0
 =======
 msgstr "कर्मा के मालिक"
 >>>>>>> upstream/18.0
@@ -40026,7 +40862,11 @@ msgid "Karma Tracking"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मा ट्रैकिंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "कर्मा ट्रैकिंग"
 >>>>>>> upstream/18.0
@@ -40204,7 +41044,11 @@ msgid "Karma Updates"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मा अपडेट"
+>>>>>>> upstream/18.0
 =======
 msgstr "कर्मा अपडेट"
 >>>>>>> upstream/18.0
@@ -40381,7 +41225,11 @@ msgid "Last Report Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिपोर्ट की आखिरी तारीख"
+>>>>>>> upstream/18.0
 =======
 msgstr "रिपोर्ट की आखिरी तारीख"
 >>>>>>> upstream/18.0
@@ -40558,7 +41406,11 @@ msgid "Last Update"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आखिरी बार अपडेट"
+>>>>>>> upstream/18.0
 =======
 msgstr "आखिरी बार अपडेट"
 >>>>>>> upstream/18.0
@@ -40826,7 +41678,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इन्होंने आखिरी बार अपडेट किया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इन्होंने आखिरी बार अपडेट किया"
 >>>>>>> upstream/18.0
@@ -41340,7 +42196,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आखिरी बार अपडेट हुआ"
+>>>>>>> upstream/18.0
 =======
 msgstr "आखिरी बार अपडेट हुआ"
 >>>>>>> upstream/18.0
@@ -41763,7 +42623,11 @@ msgid "Leader Board (Group Ranking)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लीडर बोर्ड (ग्रुप रैंकिंग)"
+>>>>>>> upstream/18.0
 =======
 msgstr "लीडर बोर्ड (ग्रुप रैंकिंग)"
 >>>>>>> upstream/18.0
@@ -41940,7 +42804,11 @@ msgid "Limitation Number"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लीमिटेशन नंबर"
+>>>>>>> upstream/18.0
 =======
 msgstr "लीमिटेशन नंबर"
 >>>>>>> upstream/18.0
@@ -42117,7 +42985,11 @@ msgid "Line List"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लाइन लिस्ट"
+>>>>>>> upstream/18.0
 =======
 msgstr "लाइन लिस्ट"
 >>>>>>> upstream/18.0
@@ -42376,7 +43248,11 @@ msgid "Lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लाइऩें"
+>>>>>>> upstream/18.0
 =======
 msgstr "लाइऩें"
 >>>>>>> upstream/18.0
@@ -42799,7 +43675,11 @@ msgid "List of goals that will be set"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उन लक्ष्यों की सूची जो सेट किए जाएंगे"
+>>>>>>> upstream/18.0
 =======
 msgstr "उन लक्ष्यों की सूची जो सेट किए जाएंगे"
 >>>>>>> upstream/18.0
@@ -43058,7 +43938,11 @@ msgid "Manual"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैन्युअल"
+>>>>>>> upstream/18.0
 =======
 msgstr "मैन्युअल"
 >>>>>>> upstream/18.0
@@ -43481,7 +44365,11 @@ msgid "Master"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मास्टर"
+>>>>>>> upstream/18.0
 =======
 msgstr "मास्टर"
 >>>>>>> upstream/18.0
@@ -43741,7 +44629,11 @@ msgid "Message Delivery error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैसेज डिलीवरी में गड़बड़ी"
+>>>>>>> upstream/18.0
 =======
 msgstr "मैसेज डिलीवरी में गड़बड़ी"
 >>>>>>> upstream/18.0
@@ -44262,7 +45154,11 @@ msgid "Model"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मॉडल"
+>>>>>>> upstream/18.0
 =======
 msgstr "मॉडल"
 >>>>>>> upstream/18.0
@@ -44794,7 +45690,11 @@ msgid "Monetary"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मॉनेटरी"
+>>>>>>> upstream/18.0
 =======
 msgstr "मॉनेटरी"
 >>>>>>> upstream/18.0
@@ -45217,7 +46117,11 @@ msgid "Monetary Value"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मौद्रिक मूल्य"
+>>>>>>> upstream/18.0
 =======
 msgstr "मौद्रिक मूल्य"
 >>>>>>> upstream/18.0
@@ -45477,7 +46381,11 @@ msgid "Monthly"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "महीने के हिसाब से"
+>>>>>>> upstream/18.0
 =======
 msgstr "महीने के हिसाब से"
 >>>>>>> upstream/18.0
@@ -45900,7 +46808,11 @@ msgid "Monthly Limited Sending"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एक महीने में एक तय और सीमित संख्या में ही भेजने की अनुमति देना"
+>>>>>>> upstream/18.0
 =======
 msgstr "एक महीने में एक तय और सीमित संख्या में ही भेजने की अनुमति देना"
 >>>>>>> upstream/18.0
@@ -46077,7 +46989,11 @@ msgid "Monthly total"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पूरे महीने का कुल योग"
+>>>>>>> upstream/18.0
 =======
 msgstr "पूरे महीने का कुल योग"
 >>>>>>> upstream/18.0
@@ -46255,7 +47171,11 @@ msgid "Motivational"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मोटिवेशनल"
+>>>>>>> upstream/18.0
 =======
 msgstr "मोटिवेशनल"
 >>>>>>> upstream/18.0
@@ -46432,7 +47352,11 @@ msgid "Motivational phrase to reach this rank on your profile page"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अपनी प्रोफ़ाइल पर यह रैंक पाने के लिए प्रेरक वाक्य"
+>>>>>>> upstream/18.0
 =======
 msgstr "अपनी प्रोफ़ाइल पर यह रैंक पाने के लिए प्रेरक वाक्य"
 >>>>>>> upstream/18.0
@@ -46609,7 +47533,11 @@ msgid "My Goals"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेरे लक्ष्य"
+>>>>>>> upstream/18.0
 =======
 msgstr "मेरे लक्ष्य"
 >>>>>>> upstream/18.0
@@ -46786,7 +47714,11 @@ msgid "My Karma"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेरा कर्मा"
+>>>>>>> upstream/18.0
 =======
 msgstr "मेरा कर्मा"
 >>>>>>> upstream/18.0
@@ -46963,7 +47895,11 @@ msgid "My Monthly Sending Total"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेरा हर महीने भेजने का कुल योग"
+>>>>>>> upstream/18.0
 =======
 msgstr "मेरा हर महीने भेजने का कुल योग"
 >>>>>>> upstream/18.0
@@ -47140,7 +48076,11 @@ msgid "My Monthly Total"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेरा मासिक कुल योग"
+>>>>>>> upstream/18.0
 =======
 msgstr "मेरा मासिक कुल योग"
 >>>>>>> upstream/18.0
@@ -47317,7 +48257,11 @@ msgid "My Total"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेरा कुल योग"
+>>>>>>> upstream/18.0
 =======
 msgstr "मेरा कुल योग"
 >>>>>>> upstream/18.0
@@ -47581,7 +48525,11 @@ msgid "Never"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कभी नहीं"
+>>>>>>> upstream/18.0
 =======
 msgstr "कभी नहीं"
 >>>>>>> upstream/18.0
@@ -48004,7 +48952,11 @@ msgid "Never reminded if no value or zero is specified."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगर कोई वैल्यू या शून्य तय नहीं है, तो याद नहीं दिलाया जाएगा।"
+>>>>>>> upstream/18.0
 =======
 msgstr "अगर कोई वैल्यू या शून्य तय नहीं है, तो याद नहीं दिलाया जाएगा।"
 >>>>>>> upstream/18.0
@@ -48181,7 +49133,11 @@ msgid "New Karma Value"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नया कर्मा वैल्यू"
+>>>>>>> upstream/18.0
 =======
 msgstr "नया कर्मा वैल्यू"
 >>>>>>> upstream/18.0
@@ -48358,7 +49314,11 @@ msgid "New badge {{ object.badge_id.name }} granted"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नया बैज {{ object.badge_id.name }} दिया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "नया बैज {{ object.badge_id.name }} दिया गया"
 >>>>>>> upstream/18.0
@@ -48535,7 +49495,11 @@ msgid "New rank: {{ object.rank_id.name }}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नया रैंक: {{ object.rank_id.name }}"
+>>>>>>> upstream/18.0
 =======
 msgstr "नया रैंक: {{ object.rank_id.name }}"
 >>>>>>> upstream/18.0
@@ -48712,7 +49676,11 @@ msgid "Newbie"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नौसिखिया"
+>>>>>>> upstream/18.0
 =======
 msgstr "नौसिखिया"
 >>>>>>> upstream/18.0
@@ -48889,7 +49857,11 @@ msgid "Next Rank"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगला रैंक"
+>>>>>>> upstream/18.0
 =======
 msgstr "अगला रैंक"
 >>>>>>> upstream/18.0
@@ -49066,7 +50038,11 @@ msgid "Next Report Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिपोर्ट की अगली तारीख"
+>>>>>>> upstream/18.0
 =======
 msgstr "रिपोर्ट की अगली तारीख"
 >>>>>>> upstream/18.0
@@ -49243,7 +50219,11 @@ msgid "No Karma Tracking"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मा पॉइंट ट्रैक नहीं होंगे"
+>>>>>>> upstream/18.0
 =======
 msgstr "कर्मा पॉइंट ट्रैक नहीं होंगे"
 >>>>>>> upstream/18.0
@@ -49420,7 +50400,11 @@ msgid "No goal found"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कोई लक्ष्य नहीं मिला"
+>>>>>>> upstream/18.0
 =======
 msgstr "कोई लक्ष्य नहीं मिला"
 >>>>>>> upstream/18.0
@@ -49597,7 +50581,11 @@ msgid "No monthly sending limit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मासिक भेजने की कोई सीमा नहीं"
+>>>>>>> upstream/18.0
 =======
 msgstr "मासिक भेजने की कोई सीमा नहीं"
 >>>>>>> upstream/18.0
@@ -49774,7 +50762,11 @@ msgid "No one can solve challenges like you do."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आपके जैसे चैलेंज को कोई हल नहीं कर सकता।"
+>>>>>>> upstream/18.0
 =======
 msgstr "आपके जैसे चैलेंज को कोई हल नहीं कर सकता।"
 >>>>>>> upstream/18.0
@@ -49951,7 +50943,11 @@ msgid "No one, assigned through challenges"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चुनौतियों के ज़रिए किसी को असाइन नहीं किया गया है"
+>>>>>>> upstream/18.0
 =======
 msgstr "चुनौतियों के ज़रिए किसी को असाइन नहीं किया गया है"
 >>>>>>> upstream/18.0
@@ -50132,6 +51128,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"किसी ने भी हर लक्ष्य को हासिल नहीं किया, इसलिए इस चैलेंज के लिए कोई बैज नहीं दिया गया।"
+>>>>>>> upstream/18.0
 =======
 "किसी ने भी हर लक्ष्य को हासिल नहीं किया, इसलिए इस चैलेंज के लिए कोई बैज नहीं दिया गया।"
 >>>>>>> upstream/18.0
@@ -50309,7 +51309,11 @@ msgid "Nobody reached the required conditions to receive special badges."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "किसी ने भी खास बैज पाने के लिए ज़रूरी शर्तें पूरी नहीं कीं।"
+>>>>>>> upstream/18.0
 =======
 msgstr "किसी ने भी खास बैज पाने के लिए ज़रूरी शर्तें पूरी नहीं कीं।"
 >>>>>>> upstream/18.0
@@ -50486,7 +51490,11 @@ msgid "Non recurring"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बार-बार नहीं होने वाला"
+>>>>>>> upstream/18.0
 =======
 msgstr "बार-बार नहीं होने वाला"
 >>>>>>> upstream/18.0
@@ -50663,7 +51671,11 @@ msgid "Non-updated manual goals will be reminded after"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अपडेट न किए गए मैन्युअल लक्ष्यों को इतने समय के बाद याद दिलाया जाएगा"
+>>>>>>> upstream/18.0
 =======
 msgstr "अपडेट न किए गए मैन्युअल लक्ष्यों को इतने समय के बाद याद दिलाया जाएगा"
 >>>>>>> upstream/18.0
@@ -50840,7 +51852,11 @@ msgid "Notification Messages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नोटिफ़िकेशन मैसेज"
+>>>>>>> upstream/18.0
 =======
 msgstr "नोटिफ़िकेशन मैसेज"
 >>>>>>> upstream/18.0
@@ -51100,7 +52116,11 @@ msgid "Number of Actions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कार्रवाई की संख्या"
+>>>>>>> upstream/18.0
 =======
 msgstr "कार्रवाई की संख्या"
 >>>>>>> upstream/18.0
@@ -51606,7 +52626,11 @@ msgid "Number of errors"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गलतियों की संख्या"
+>>>>>>> upstream/18.0
 =======
 msgstr "गलतियों की संख्या"
 >>>>>>> upstream/18.0
@@ -52112,7 +53136,11 @@ msgid "Number of messages requiring action"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐसे मैसेज की संख्या जिनपर कार्रवाई करना ज़रूरी है"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐसे मैसेज की संख्या जिनपर कार्रवाई करना ज़रूरी है"
 >>>>>>> upstream/18.0
@@ -52618,7 +53646,11 @@ msgid "Number of messages with delivery error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐसे मैसेज की संख्या जिनमें डिलीवरी की गड़बड़ी है"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐसे मैसेज की संख्या जिनमें डिलीवरी की गड़बड़ी है"
 >>>>>>> upstream/18.0
@@ -53041,7 +54073,11 @@ msgid "Number of users"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपयोगकर्ताओं की संख्या"
+>>>>>>> upstream/18.0
 =======
 msgstr "उपयोगकर्ताओं की संख्या"
 >>>>>>> upstream/18.0
@@ -53218,7 +54254,11 @@ msgid "Old Karma Value"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मा की पुरानी वैल्यू"
+>>>>>>> upstream/18.0
 =======
 msgstr "कर्मा की पुरानी वैल्यू"
 >>>>>>> upstream/18.0
@@ -53395,7 +54435,11 @@ msgid "On change"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बदलाव होने पर"
+>>>>>>> upstream/18.0
 =======
 msgstr "बदलाव होने पर"
 >>>>>>> upstream/18.0
@@ -53572,7 +54616,11 @@ msgid "Only the people having these badges can give this badge"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यह बैज सिर्फ़ वही लोग दे सकते हैं जिनके पास ये बैज हैं"
+>>>>>>> upstream/18.0
 =======
 msgstr "यह बैज सिर्फ़ वही लोग दे सकते हैं जिनके पास ये बैज हैं"
 >>>>>>> upstream/18.0
@@ -53749,7 +54797,11 @@ msgid "Only these people can give this badge"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सिर्फ़ ये लोग ही यह बैज दे सकते हैं"
+>>>>>>> upstream/18.0
 =======
 msgstr "सिर्फ़ ये लोग ही यह बैज दे सकते हैं"
 >>>>>>> upstream/18.0
@@ -53926,7 +54978,11 @@ msgid "Optimisation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑप्टमाइज़ेशन"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऑप्टमाइज़ेशन"
 >>>>>>> upstream/18.0
@@ -54103,7 +55159,11 @@ msgid "Owners"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मालिक"
+>>>>>>> upstream/18.0
 =======
 msgstr "मालिक"
 >>>>>>> upstream/18.0
@@ -54282,7 +55342,11 @@ msgid "Participants"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रतिभागी"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्रतिभागी"
 >>>>>>> upstream/18.0
@@ -54459,7 +55523,11 @@ msgid "People having some badges"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जिन लोगों के पास कुछ बैज हैं"
+>>>>>>> upstream/18.0
 =======
 msgstr "जिन लोगों के पास कुछ बैज हैं"
 >>>>>>> upstream/18.0
@@ -54718,7 +55786,11 @@ msgid "Period"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "समयावधि"
+>>>>>>> upstream/18.0
 =======
 msgstr "समयावधि"
 >>>>>>> upstream/18.0
@@ -55099,6 +56171,7 @@ msgstr "समयावधि"
 #: model:ir.model.fields,help:gamification.field_gamification_challenge__period
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Period of automatic goal assignment. If none is selected, should be launched"
 " manually."
 msgstr ""
@@ -55271,10 +56344,15 @@ msgstr ""
 "लक्ष्य अपने-आप असाइन होने की अवधि. अगर कोई अवधि नहीं चुनी जाती है, तो खुद ही शुरू करें।"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "Period of automatic goal assignment. If none is selected, should be launched "
 "manually."
 msgstr ""
 "लक्ष्य अपने-आप असाइन होने की अवधि. अगर कोई अवधि नहीं चुनी जाती है, तो खुद ही शुरू करें।"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: gamification
@@ -55395,7 +56473,11 @@ msgid "Periodicity"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "समयावधि"
+>>>>>>> upstream/18.0
 =======
 msgstr "समयावधि"
 >>>>>>> upstream/18.0
@@ -55788,7 +56870,11 @@ msgid "Previous Total"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पिछला कुल योग"
+>>>>>>> upstream/18.0
 =======
 msgstr "पिछला कुल योग"
 >>>>>>> upstream/18.0
@@ -55965,7 +57051,11 @@ msgid "Problem Solver"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रॉब्लम सॉल्वर"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्रॉब्लम सॉल्वर"
 >>>>>>> upstream/18.0
@@ -56142,7 +57232,11 @@ msgid "Progressive (using numerical values)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आगे बढ़ने वाला (संख्या का उपयोग करके)"
+>>>>>>> upstream/18.0
 =======
 msgstr "आगे बढ़ने वाला (संख्या का उपयोग करके)"
 >>>>>>> upstream/18.0
@@ -56319,7 +57413,11 @@ msgid "Python Code"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Python कोड"
+>>>>>>> upstream/18.0
 =======
 msgstr "Python कोड"
 >>>>>>> upstream/18.0
@@ -56499,6 +57597,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"हर उपयोगकर्ता के लिए चलाए जाने वाले Python कोड. 'परिणाम' में नई वर्तमान वैल्यू होनी "
+"चाहिए. जिस उपयोगकर्ता का मूल्यांकन किया जा रहा है, उस तक object.user_id के ज़रिए "
+"पहुंचा जा सकता है।"
+>>>>>>> upstream/18.0
 =======
 "हर उपयोगकर्ता के लिए चलाए जाने वाले Python कोड. 'परिणाम' में नई वर्तमान वैल्यू होनी "
 "चाहिए. जिस उपयोगकर्ता का मूल्यांकन किया जा रहा है, उस तक object.user_id के ज़रिए "
@@ -56762,7 +57866,11 @@ msgid "Rank"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रैंक"
+>>>>>>> upstream/18.0
 =======
 msgstr "रैंक"
 >>>>>>> upstream/18.0
@@ -56939,7 +58047,11 @@ msgid "Rank Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रैंक का नाम"
+>>>>>>> upstream/18.0
 =======
 msgstr "रैंक का नाम"
 >>>>>>> upstream/18.0
@@ -57116,7 +58228,11 @@ msgid "Rank based on karma"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मा के आधार पर रैंक"
+>>>>>>> upstream/18.0
 =======
 msgstr "कर्मा के आधार पर रैंक"
 >>>>>>> upstream/18.0
@@ -57294,7 +58410,11 @@ msgid "Ranks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रैंक्स"
+>>>>>>> upstream/18.0
 =======
 msgstr "रैंक्स"
 >>>>>>> upstream/18.0
@@ -57471,7 +58591,11 @@ msgid "Ranks List"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रैंक्स लिस्ट"
+>>>>>>> upstream/18.0
 =======
 msgstr "रैंक्स लिस्ट"
 >>>>>>> upstream/18.0
@@ -57648,7 +58772,11 @@ msgid "Reach the next rank and become a Master!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगली रैंक हासिल करें और एक मास्टर बनें!"
+>>>>>>> upstream/18.0
 =======
 msgstr "अगली रैंक हासिल करें और एक मास्टर बनें!"
 >>>>>>> upstream/18.0
@@ -57825,7 +58953,11 @@ msgid "Reach the next rank and become a powerful user!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगली रैंक पाएं और पॉवरफ़ुल उपयोगकर्ता बनें!"
+>>>>>>> upstream/18.0
 =======
 msgstr "अगली रैंक पाएं और पॉवरफ़ुल उपयोगकर्ता बनें!"
 >>>>>>> upstream/18.0
@@ -58002,7 +59134,11 @@ msgid "Reach the next rank and gain a very magic wand!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगली रैंक हासिल करें और एक बहुत जादुई छड़ी पाएं!"
+>>>>>>> upstream/18.0
 =======
 msgstr "अगली रैंक हासिल करें और एक बहुत जादुई छड़ी पाएं!"
 >>>>>>> upstream/18.0
@@ -58179,7 +59315,11 @@ msgid "Reach the next rank and gain a very nice hat!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगली रैंक हासिल करें और एक बहुत अच्छी टोपी पाएं!"
+>>>>>>> upstream/18.0
 =======
 msgstr "अगली रैंक हासिल करें और एक बहुत अच्छी टोपी पाएं!"
 >>>>>>> upstream/18.0
@@ -58356,7 +59496,11 @@ msgid "Reach the next rank and gain a very nice mug!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगली रैंक हासिल करें और एक बहुत अच्छा मग पाएं!"
+>>>>>>> upstream/18.0
 =======
 msgstr "अगली रैंक हासिल करें और एक बहुत अच्छा मग पाएं!"
 >>>>>>> upstream/18.0
@@ -58533,7 +59677,11 @@ msgid "Reach the next rank and gain a very nice unicorn!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगली रैंक हासिल करें और एक बहुत अच्छा यूनिकॉर्न पाएं!"
+>>>>>>> upstream/18.0
 =======
 msgstr "अगली रैंक हासिल करें और एक बहुत अच्छा यूनिकॉर्न पाएं!"
 >>>>>>> upstream/18.0
@@ -58710,7 +59858,11 @@ msgid "Reach the next rank to improve your status!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अपनी स्थिति को बेहतर बनाने के लिए अगली रैंक हासिल करें!"
+>>>>>>> upstream/18.0
 =======
 msgstr "अपनी स्थिति को बेहतर बनाने के लिए अगली रैंक हासिल करें!"
 >>>>>>> upstream/18.0
@@ -58887,7 +60039,11 @@ msgid "Reach the next rank to show the rest of the world you exist."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "दुनिया को यह दिखाने के लिए अगली रैंक हासिल करें कि आप मौजूद हैं।"
+>>>>>>> upstream/18.0
 =======
 msgstr "दुनिया को यह दिखाने के लिए अगली रैंक हासिल करें कि आप मौजूद हैं।"
 >>>>>>> upstream/18.0
@@ -59064,7 +60220,11 @@ msgid "Reached"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पहुंच गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "पहुंच गया"
 >>>>>>> upstream/18.0
@@ -59241,7 +60401,11 @@ msgid "Reached when current value is"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जब वर्तमान मूल्य इतना हो जाए तो हासिल किया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "जब वर्तमान मूल्य इतना हो जाए तो हासिल किया गया"
 >>>>>>> upstream/18.0
@@ -59418,7 +60582,11 @@ msgid "Recorded manually"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैन्युअल तौर पर रिकॉर्ड किया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "मैन्युअल तौर पर रिकॉर्ड किया गया"
 >>>>>>> upstream/18.0
@@ -59600,7 +60768,11 @@ msgid "Refresh Challenge"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चैलेंज रीफ्रेश करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "चैलेंज रीफ्रेश करें"
 >>>>>>> upstream/18.0
@@ -59777,7 +60949,11 @@ msgid "Related Goals"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "संबंधित लक्ष्य"
+>>>>>>> upstream/18.0
 =======
 msgstr "संबंधित लक्ष्य"
 >>>>>>> upstream/18.0
@@ -59954,7 +61130,11 @@ msgid "Remaining Sending Allowed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "भेजने की बची हुई संख्या"
+>>>>>>> upstream/18.0
 =======
 msgstr "भेजने की बची हुई संख्या"
 >>>>>>> upstream/18.0
@@ -60131,7 +61311,11 @@ msgid "Remind delay"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वह समय अवधि जिसके बाद रिमाइंडर भेजा जाएगा"
+>>>>>>> upstream/18.0
 =======
 msgstr "वह समय अवधि जिसके बाद रिमाइंडर भेजा जाएगा"
 >>>>>>> upstream/18.0
@@ -60308,7 +61492,11 @@ msgid "Reminders for Manual Goals"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैन्युअल लक्ष्यों के लिए रिमाइंडर"
+>>>>>>> upstream/18.0
 =======
 msgstr "मैन्युअल लक्ष्यों के लिए रिमाइंडर"
 >>>>>>> upstream/18.0
@@ -60485,7 +61673,11 @@ msgid "Report Frequency"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिपोर्ट की फ़्रीक्वेंसी"
+>>>>>>> upstream/18.0
 =======
 msgstr "रिपोर्ट की फ़्रीक्वेंसी"
 >>>>>>> upstream/18.0
@@ -60662,7 +61854,11 @@ msgid "Report Template"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिपोर्ट टेंप्लेट"
+>>>>>>> upstream/18.0
 =======
 msgstr "रिपोर्ट टेंप्लेट"
 >>>>>>> upstream/18.0
@@ -60839,7 +62035,11 @@ msgid "Required Badges"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ज़रूरी बैज"
+>>>>>>> upstream/18.0
 =======
 msgstr "ज़रूरी बैज"
 >>>>>>> upstream/18.0
@@ -61016,7 +62216,11 @@ msgid "Required Karma"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ज़रूरी कर्मा"
+>>>>>>> upstream/18.0
 =======
 msgstr "ज़रूरी कर्मा"
 >>>>>>> upstream/18.0
@@ -61193,7 +62397,11 @@ msgid "Reset Completion"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पूरा होने का रिकॉर्ड रीसेट करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "पूरा होने का रिकॉर्ड रीसेट करें"
 >>>>>>> upstream/18.0
@@ -61376,7 +62584,11 @@ msgid "Retrieving progress for personal challenge without user information"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपयोगकर्ता की जानकारी के बिना व्यक्तिगत चुनौती की प्रगति पाना"
+>>>>>>> upstream/18.0
 =======
 msgstr "उपयोगकर्ता की जानकारी के बिना व्यक्तिगत चुनौती की प्रगति पाना"
 >>>>>>> upstream/18.0
@@ -61553,7 +62765,11 @@ msgid "Reward"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इनाम"
+>>>>>>> upstream/18.0
 =======
 msgstr "इनाम"
 >>>>>>> upstream/18.0
@@ -61688,6 +62904,7 @@ msgstr "इनाम"
 #. odoo-python
 #: code:addons/gamification/models/gamification_challenge.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "Reward (badge %(badge_name)s) for every succeeding user was sent to "
 "%(users)s."
@@ -61903,11 +63120,16 @@ msgstr ""
 "गया।"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "Reward (badge %(badge_name)s) for every succeeding user was sent to %"
 "(users)s."
 msgstr ""
 "हर सफल उपयोगकर्ता को दिया जाने वाला इनाम (बैज %(badge_name)s) %(users)s को भेजा "
 "गया।"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: gamification
@@ -61956,7 +63178,11 @@ msgid "Reward Bests if not Succeeded?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सफल न होने पर भी, सबसे बेहतर को इनाम दें?"
+>>>>>>> upstream/18.0
 =======
 msgstr "सफल न होने पर भी, सबसे बेहतर को इनाम दें?"
 >>>>>>> upstream/18.0
@@ -62133,7 +63359,11 @@ msgid "Reward as soon as every goal is reached"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जैसे ही हर लक्ष्य हासिल हो जाए, इनाम दें"
+>>>>>>> upstream/18.0
 =======
 msgstr "जैसे ही हर लक्ष्य हासिल हो जाए, इनाम दें"
 >>>>>>> upstream/18.0
@@ -62310,7 +63540,11 @@ msgid "Reward of Challenges"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चैलेंज का इनाम"
+>>>>>>> upstream/18.0
 =======
 msgstr "चैलेंज का इनाम"
 >>>>>>> upstream/18.0
@@ -62487,7 +63721,11 @@ msgid "Rewarded by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इन्होंने इनाम दिया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इन्होंने इनाम दिया"
 >>>>>>> upstream/18.0
@@ -62664,7 +63902,11 @@ msgid "Rewards for challenges"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चैलेंज के लिए इनाम"
+>>>>>>> upstream/18.0
 =======
 msgstr "चैलेंज के लिए इनाम"
 >>>>>>> upstream/18.0
@@ -62846,7 +64088,11 @@ msgid "Running Challenges"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चल रहे चैलेंज"
+>>>>>>> upstream/18.0
 =======
 msgstr "चल रहे चैलेंज"
 >>>>>>> upstream/18.0
@@ -63023,7 +64269,11 @@ msgid "Schedule"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "शेड्यूल बनाने की सुविधा"
+>>>>>>> upstream/18.0
 =======
 msgstr "शेड्यूल बनाने की सुविधा"
 >>>>>>> upstream/18.0
@@ -63200,7 +64450,11 @@ msgid "Search Badge"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैज खोजें"
+>>>>>>> upstream/18.0
 =======
 msgstr "बैज खोजें"
 >>>>>>> upstream/18.0
@@ -63377,7 +64631,11 @@ msgid "Search Challenges"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चैलेंज खोजें"
+>>>>>>> upstream/18.0
 =======
 msgstr "चैलेंज खोजें"
 >>>>>>> upstream/18.0
@@ -63554,7 +64812,11 @@ msgid "Search Goal Definitions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लक्ष्य की परिभाषाएं खोजें"
+>>>>>>> upstream/18.0
 =======
 msgstr "लक्ष्य की परिभाषाएं खोजें"
 >>>>>>> upstream/18.0
@@ -63731,7 +64993,11 @@ msgid "Search Goals"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लक्ष्यों को खोजें"
+>>>>>>> upstream/18.0
 =======
 msgstr "लक्ष्यों को खोजें"
 >>>>>>> upstream/18.0
@@ -63908,7 +65174,11 @@ msgid "Search Ranks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रैंक खोजें"
+>>>>>>> upstream/18.0
 =======
 msgstr "रैंक खोजें"
 >>>>>>> upstream/18.0
@@ -64085,7 +65355,11 @@ msgid "Search Trackings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ट्रैकिंग खोजें"
+>>>>>>> upstream/18.0
 =======
 msgstr "ट्रैकिंग खोजें"
 >>>>>>> upstream/18.0
@@ -64222,6 +65496,7 @@ msgid ""
 "Security rules to define who is allowed to manually grant badges. Not "
 "enforced for administrator."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -64802,6 +66077,10 @@ msgstr ""
 "सुरक्षा नियम बताते हैं कि कौन बैज दे सकता है. एडमिन को इन नियमों का पालन नहीं करना "
 "पड़ता."
 >>>>>>> upstream/18.0
+=======
+"सुरक्षा नियम बताते हैं कि कौन बैज दे सकता है. एडमिन को इन नियमों का पालन नहीं करना "
+"पड़ता."
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
@@ -64849,7 +66128,11 @@ msgid "Send Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिपोर्ट भेजें"
+>>>>>>> upstream/18.0
 =======
 msgstr "रिपोर्ट भेजें"
 >>>>>>> upstream/18.0
@@ -65026,7 +66309,11 @@ msgid "Send a challenge report to all participants"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सभी प्रतिभागियों को चैलेंज रिपोर्ट भेजें"
+>>>>>>> upstream/18.0
 =======
 msgstr "सभी प्रतिभागियों को चैलेंज रिपोर्ट भेजें"
 >>>>>>> upstream/18.0
@@ -65203,7 +66490,11 @@ msgid "Send a copy to"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एक कॉपी भेजें"
+>>>>>>> upstream/18.0
 =======
 msgstr "एक कॉपी भेजें"
 >>>>>>> upstream/18.0
@@ -65380,7 +66671,11 @@ msgid "Sender"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "भेजने वाला"
+>>>>>>> upstream/18.0
 =======
 msgstr "भेजने वाला"
 >>>>>>> upstream/18.0
@@ -65514,6 +66809,7 @@ msgstr "भेजने वाला"
 #. module: gamification
 #: model:mail.template,description:gamification.email_template_goal_reminder
 msgid "Sent automatically to participant who haven't updated their goal"
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
@@ -65687,6 +66983,9 @@ msgstr ""
 =======
 msgstr "उन प्रतिभागियों को अपने-आप भेजा जाता है जिन्होंने अपना लक्ष्य अपडेट नहीं किया है"
 >>>>>>> upstream/18.0
+=======
+msgstr "उन प्रतिभागियों को अपने-आप भेजा जाता है जिन्होंने अपना लक्ष्य अपडेट नहीं किया है"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:mail.template,description:gamification.email_template_badge_received
@@ -65734,7 +67033,11 @@ msgid "Sent automatically to the user who received a badge"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उस उपयोगकर्ता को अपने-आप भेजा जाता है जिसे बैज मिला है"
+>>>>>>> upstream/18.0
 =======
 msgstr "उस उपयोगकर्ता को अपने-आप भेजा जाता है जिसे बैज मिला है"
 >>>>>>> upstream/18.0
@@ -65911,7 +67214,11 @@ msgid "Sent automatically when user reaches a new rank"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उस उपयोगकर्ता को अपने-आप भेजा जाता है जो नई रैंक पर पहुंच जाता है"
+>>>>>>> upstream/18.0
 =======
 msgstr "उस उपयोगकर्ता को अपने-आप भेजा जाता है जो नई रैंक पर पहुंच जाता है"
 >>>>>>> upstream/18.0
@@ -66093,7 +67400,11 @@ msgid "Set the current value you have reached for this goal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस लक्ष्य के लिए हासिल की गई मौजूदा वैल्यू सेट करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "इस लक्ष्य के लिए हासिल की गई मौजूदा वैल्यू सेट करें"
 >>>>>>> upstream/18.0
@@ -66270,7 +67581,11 @@ msgid "Set your Company Data"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अपनी कंपनी के लिए डेटा सेट करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "अपनी कंपनी के लिए डेटा सेट करें"
 >>>>>>> upstream/18.0
@@ -66447,7 +67762,11 @@ msgid "Set your Company Logo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अपनी कंपनी का लोगो सेट करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "अपनी कंपनी का लोगो सेट करें"
 >>>>>>> upstream/18.0
@@ -66624,7 +67943,11 @@ msgid "Set your Timezone"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अपना टाइमज़ोन सेट करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "अपना टाइमज़ोन सेट करें"
 >>>>>>> upstream/18.0
@@ -66801,7 +68124,11 @@ msgid "Settings / Gamification Tools"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सेटिंग / गेमिफ़िकेशन टूल"
+>>>>>>> upstream/18.0
 =======
 msgstr "सेटिंग / गेमिफ़िकेशन टूल"
 >>>>>>> upstream/18.0
@@ -66978,7 +68305,11 @@ msgid "Setup your Company"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अपनी कंपनी सेटअप करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "अपनी कंपनी सेटअप करें"
 >>>>>>> upstream/18.0
@@ -67155,7 +68486,11 @@ msgid "Silver"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सिल्वर"
+>>>>>>> upstream/18.0
 =======
 msgstr "सिल्वर"
 >>>>>>> upstream/18.0
@@ -67332,7 +68667,11 @@ msgid "Silver badges count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सिल्वर बैज की संख्या"
+>>>>>>> upstream/18.0
 =======
 msgstr "सिल्वर बैज की संख्या"
 >>>>>>> upstream/18.0
@@ -67509,7 +68848,11 @@ msgid "Source"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सोर्स"
+>>>>>>> upstream/18.0
 =======
 msgstr "सोर्स"
 >>>>>>> upstream/18.0
@@ -67687,7 +69030,11 @@ msgid "Source Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सोर्स टाइप"
+>>>>>>> upstream/18.0
 =======
 msgstr "सोर्स टाइप"
 >>>>>>> upstream/18.0
@@ -67868,6 +69215,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"सबसे बेहतर मुकाबला करने वाले उपयोगकर्ताओं को खास इनाम भेजे गए. इस चैलेंज की रैंकिंग है:"
+>>>>>>> upstream/18.0
 =======
 "सबसे बेहतर मुकाबला करने वाले उपयोगकर्ताओं को खास इनाम भेजे गए. इस चैलेंज की रैंकिंग है:"
 >>>>>>> upstream/18.0
@@ -68044,7 +69395,11 @@ msgid "Start Challenge"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चैलेंज शुरू करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "चैलेंज शुरू करें"
 >>>>>>> upstream/18.0
@@ -68227,7 +69582,11 @@ msgid "Start goal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लक्ष्य शुरू करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "लक्ष्य शुरू करें"
 >>>>>>> upstream/18.0
@@ -68412,7 +69771,11 @@ msgid "Statistics"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आंकड़ें"
+>>>>>>> upstream/18.0
 =======
 msgstr "आंकड़ें"
 >>>>>>> upstream/18.0
@@ -68589,7 +69952,11 @@ msgid "Student"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "छात्र"
+>>>>>>> upstream/18.0
 =======
 msgstr "छात्र"
 >>>>>>> upstream/18.0
@@ -68766,7 +70133,11 @@ msgid "Subscriptions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सब्सक्रिप्शन"
+>>>>>>> upstream/18.0
 =======
 msgstr "सब्सक्रिप्शन"
 >>>>>>> upstream/18.0
@@ -68945,7 +70316,11 @@ msgid "Suffix"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सफ़िक्स"
+>>>>>>> upstream/18.0
 =======
 msgstr "सफ़िक्स"
 >>>>>>> upstream/18.0
@@ -69122,7 +70497,11 @@ msgid "Suggest to users"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपयोगकर्ताओं के लिए सुझाव"
+>>>>>>> upstream/18.0
 =======
 msgstr "उपयोगकर्ताओं के लिए सुझाव"
 >>>>>>> upstream/18.0
@@ -69300,7 +70679,11 @@ msgid "Target"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टारगेट"
+>>>>>>> upstream/18.0
 =======
 msgstr "टारगेट"
 >>>>>>> upstream/18.0
@@ -69477,7 +70860,11 @@ msgid "Target Value to Reach"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पहुंचने के लिए टारगेट वैल्यू"
+>>>>>>> upstream/18.0
 =======
 msgstr "पहुंचने के लिए टारगेट वैल्यू"
 >>>>>>> upstream/18.0
@@ -69654,7 +71041,11 @@ msgid "Target: less than"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टारगेट: इससे कम"
+>>>>>>> upstream/18.0
 =======
 msgstr "टारगेट: इससे कम"
 >>>>>>> upstream/18.0
@@ -69832,7 +71223,11 @@ msgid "Test Reason"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टेस्ट की वजह"
+>>>>>>> upstream/18.0
 =======
 msgstr "टेस्ट की वजह"
 >>>>>>> upstream/18.0
@@ -70009,7 +71404,11 @@ msgid "The action that will be called to update the goal value."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वह ऐक्शन जो लक्ष्य की वैल्यू अपडेट करने के लिए कॉल होगी।"
+>>>>>>> upstream/18.0
 =======
 msgstr "वह ऐक्शन जो लक्ष्य की वैल्यू अपडेट करने के लिए कॉल होगी।"
 >>>>>>> upstream/18.0
@@ -70187,7 +71586,11 @@ msgid "The challenge %s is finished."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चैलेंज %s खत्म हो चुका है।"
+>>>>>>> upstream/18.0
 =======
 msgstr "चैलेंज %s खत्म हो चुका है।"
 >>>>>>> upstream/18.0
@@ -70366,7 +71769,11 @@ msgid "The currency and suffix field"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "करेंसी और सफ़िक्स फ़ील्ड"
+>>>>>>> upstream/18.0
 =======
 msgstr "करेंसी और सफ़िक्स फ़ील्ड"
 >>>>>>> upstream/18.0
@@ -70543,7 +71950,11 @@ msgid "The date to use for the time period evaluated"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "समय-सीमा के मूल्यांकन के लिए उपयोग की जाने वाली तारीख"
+>>>>>>> upstream/18.0
 =======
 msgstr "समय-सीमा के मूल्यांकन के लिए उपयोग की जाने वाली तारीख"
 >>>>>>> upstream/18.0
@@ -70723,6 +72134,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"वह दिन जब एक नई चुनौती अपने-आप बंद हो जाएगी. अगर कोई समयावधि सेट नहीं है, तो इस "
+"तारीख का उपयोग लक्ष्य की खत्म होने की तारीख के रूप में किया जाएगा।"
+>>>>>>> upstream/18.0
 =======
 "वह दिन जब एक नई चुनौती अपने-आप बंद हो जाएगी. अगर कोई समयावधि सेट नहीं है, तो इस "
 "तारीख का उपयोग लक्ष्य की खत्म होने की तारीख के रूप में किया जाएगा।"
@@ -70945,6 +72361,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "वह दिन जब नई चुनौती अपने-आप शुरू होगी. अगर कोई अवधि सेट नहीं है, तो इस तारीख को लक्ष्"
 "य की शुरुआत की तारीख माना जाएगा।"
@@ -71117,11 +72534,16 @@ msgstr ""
 "वह दिन जब नई चुनौती अपने-आप शुरू होगी. अगर कोई अवधि सेट नहीं है, तो इस तारीख को "
 "लक्ष्य की शुरुआत की तारीख माना जाएगा।"
 >>>>>>> upstream/18.0
+=======
+"वह दिन जब नई चुनौती अपने-आप शुरू होगी. अगर कोई अवधि सेट नहीं है, तो इस तारीख को "
+"लक्ष्य की शुरुआत की तारीख माना जाएगा।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #. odoo-python
 #: code:addons/gamification/models/gamification_goal_definition.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "The domain for the definition %(definition)s seems incorrect, please check it.\n"
 "\n"
@@ -71380,6 +72802,8 @@ msgstr ""
 "%(error_message)s"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "The domain for the definition %(definition)s seems incorrect, please check "
 "it.\n"
 "\n"
@@ -71388,6 +72812,9 @@ msgstr ""
 "परिभाषा %(definition)s के लिए डोमेन गलत लग रहा है, कृपया इसे जांचें.\n"
 "\n"
 "%(error_message)s"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: gamification
@@ -71439,6 +72866,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"उपयोगकर्ता प्रोफ़ाइल (res.users) पर वह फ़ील्ड नाम, जिसमें कार्रवाई (एक्शन) के लिए "
+"res_id का मान (वैल्यू) है।"
+>>>>>>> upstream/18.0
 =======
 "उपयोगकर्ता प्रोफ़ाइल (res.users) पर वह फ़ील्ड नाम, जिसमें कार्रवाई (एक्शन) के लिए "
 "res_id का मान (वैल्यू) है।"
@@ -71658,7 +73090,11 @@ msgid "The higher the better"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जितना ज़्यादा, उतना बेहतर"
+>>>>>>> upstream/18.0
 =======
 msgstr "जितना ज़्यादा, उतना बेहतर"
 >>>>>>> upstream/18.0
@@ -71835,7 +73271,11 @@ msgid "The list of instances of this badge granted to users"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपयोगकर्ताओं को दिए गए इस बैज के उदाहरणों की सूची"
+>>>>>>> upstream/18.0
 =======
 msgstr "उपयोगकर्ताओं को दिए गए इस बैज के उदाहरणों की सूची"
 >>>>>>> upstream/18.0
@@ -72012,7 +73452,11 @@ msgid "The list of models that extends the current model."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उन मॉडल की सूची जो मौजूदा मॉडल का विस्तार करते हैं।"
+>>>>>>> upstream/18.0
 =======
 msgstr "उन मॉडल की सूची जो मौजूदा मॉडल का विस्तार करते हैं।"
 >>>>>>> upstream/18.0
@@ -72189,7 +73633,11 @@ msgid "The list of unique users having received this badge."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यह बैज पाने वाले खास उपयोगकर्ताओं की सूची।"
+>>>>>>> upstream/18.0
 =======
 msgstr "यह बैज पाने वाले खास उपयोगकर्ताओं की सूची।"
 >>>>>>> upstream/18.0
@@ -72323,6 +73771,7 @@ msgstr "यह बैज पाने वाले खास उपयोगक�
 #. module: gamification
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_goal_definition__condition__lower
 msgid "The lower the better"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -72668,18 +74117,24 @@ msgstr "यह बैज प्रति माह प्रति व्यक�
 msgstr "यह बैज प्रति माह प्रति व्यक्ति अधिकतम कितनी बार भेजा जा सकता है।"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "जितना कम, उतना बेहतर"
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_badge__rule_max_number
 msgid "The maximum number of time this badge can be sent per month per person."
 msgstr "यह बैज प्रति माह प्रति व्यक्ति अधिकतम कितनी बार भेजा जा सकता है।"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: gamification
 #. odoo-python
 #: code:addons/gamification/models/gamification_goal_definition.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "The model configuration for the definition %(name)s seems incorrect, please check it.\n"
 "\n"
@@ -72938,6 +74393,8 @@ msgstr ""
 "%(error)s नहीं मिला"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "The model configuration for the definition %(name)s seems incorrect, please "
 "check it.\n"
 "\n"
@@ -72946,12 +74403,16 @@ msgstr ""
 "परिभाषा %(name)s के लिए मॉडल कॉन्फ़िगरेशन गलत लग रहा है, कृपया इसे जांचें.\n"
 "\n"
 "%(error)s नहीं मिला"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: gamification
 #. odoo-python
 #: code:addons/gamification/models/gamification_goal_definition.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "The model configuration for the definition %(name)s seems incorrect, please check it.\n"
 "\n"
@@ -73210,6 +74671,8 @@ msgstr ""
 "%(field_name)s स्टोर नहीं किया गया है"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "The model configuration for the definition %(name)s seems incorrect, please "
 "check it.\n"
 "\n"
@@ -73218,6 +74681,9 @@ msgstr ""
 "परिभाषा %(name)s के लिए मॉडल कॉन्फ़िगरेशन गलत लग रहा है, कृपया इसे जांचें\n"
 "\n"
 "%(field_name)s स्टोर नहीं किया गया है"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: gamification
@@ -73226,6 +74692,7 @@ msgid ""
 "The number of days after which the user assigned to a manual goal will be "
 "reminded. Never reminded if no value is specified."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -73612,6 +75079,8 @@ msgstr "इस महीने वर्तमान उपयोगकर्त
 msgstr "इस महीने वर्तमान उपयोगकर्ता को यह बैज कितनी बार मिला है।"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "दिनों की संख्या जिसके बाद मैन्युअल लक्ष्य को असाइन किए गए उपयोगकर्ता को याद दिलाया "
 "जाएगा. अगर कोई वैल्यू तय नहीं है, तो कभी याद नहीं दिलाया जाएगा।"
 
@@ -73619,6 +75088,9 @@ msgstr "इस महीने वर्तमान उपयोगकर्त
 #: model:ir.model.fields,help:gamification.field_gamification_badge__stat_my_this_month
 msgid "The number of time the current user has received this badge this month."
 msgstr "इस महीने वर्तमान उपयोगकर्ता को यह बैज कितनी बार मिला है।"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: gamification
@@ -73667,7 +75139,11 @@ msgid "The number of time the current user has received this badge."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वर्तमान उपयोगकर्ता को यह बैज कितनी बार मिला है।"
+>>>>>>> upstream/18.0
 =======
 msgstr "वर्तमान उपयोगकर्ता को यह बैज कितनी बार मिला है।"
 >>>>>>> upstream/18.0
@@ -73844,7 +75320,11 @@ msgid "The number of time the current user has sent this badge this month."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस महीने वर्तमान उपयोगकर्ता ने यह बैज कितनी बार भेजा है।"
+>>>>>>> upstream/18.0
 =======
 msgstr "इस महीने वर्तमान उपयोगकर्ता ने यह बैज कितनी बार भेजा है।"
 >>>>>>> upstream/18.0
@@ -74021,7 +75501,11 @@ msgid "The number of time this badge has been received by unique users."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "खास उपयोगकर्ताओं द्वारा यह बैज कितनी बार मिला है।"
+>>>>>>> upstream/18.0
 =======
 msgstr "खास उपयोगकर्ताओं द्वारा यह बैज कितनी बार मिला है।"
 >>>>>>> upstream/18.0
@@ -74198,7 +75682,11 @@ msgid "The number of time this badge has been received this month."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस महीने यह बैज कितनी बार मिला है।"
+>>>>>>> upstream/18.0
 =======
 msgstr "इस महीने यह बैज कितनी बार मिला है।"
 >>>>>>> upstream/18.0
@@ -74375,7 +75863,11 @@ msgid "The number of time this badge has been received."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यह बैज कितनी बार मिला है।"
+>>>>>>> upstream/18.0
 =======
 msgstr "यह बैज कितनी बार मिला है।"
 >>>>>>> upstream/18.0
@@ -74552,7 +76044,11 @@ msgid "The required karma has to be above 0."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ज़रूरी कर्मा 0 से ज़्यादा होना चाहिए।"
+>>>>>>> upstream/18.0
 =======
 msgstr "ज़रूरी कर्मा 0 से ज़्यादा होना चाहिए।"
 >>>>>>> upstream/18.0
@@ -74730,7 +76226,11 @@ msgid "The target and current value are defined in the company currency."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टारगेट और वर्तमान वैल्यू कंपनी की मुद्रा में तय किए जाते हैं।"
+>>>>>>> upstream/18.0
 =======
 msgstr "टारगेट और वर्तमान वैल्यू कंपनी की मुद्रा में तय किए जाते हैं।"
 >>>>>>> upstream/18.0
@@ -74908,7 +76408,11 @@ msgid "The unit of the target and current values"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टारगेट और वर्तमान वैल्यू की इकाई"
+>>>>>>> upstream/18.0
 =======
 msgstr "टारगेट और वर्तमान वैल्यू की इकाई"
 >>>>>>> upstream/18.0
@@ -75044,6 +76548,7 @@ msgstr "टारगेट और वर्तमान वैल्यू क�
 msgid ""
 "The users that have succeeded these goals will receive automatically the "
 "badge."
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
@@ -75217,6 +76722,9 @@ msgstr ""
 =======
 msgstr "जिन उपयोगकर्ताओं ने इन लक्ष्यों को हासिल किया है, उन्हें यह बैज अपने आप मिलेगा।"
 >>>>>>> upstream/18.0
+=======
+msgstr "जिन उपयोगकर्ताओं ने इन लक्ष्यों को हासिल किया है, उन्हें यह बैज अपने आप मिलेगा।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_goal_definition__batch_user_expression
@@ -75268,6 +76776,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"खास फ़ील्ड से तुलना करने के लिए वैल्यू. एक्सप्रेशन में 'user' की जानकारी (जैसे user.id) का "
+"इस्तेमाल किया जा सकता है. उदाहरण के लिए user.id, user.partner_id.id..।"
+>>>>>>> upstream/18.0
 =======
 "खास फ़ील्ड से तुलना करने के लिए वैल्यू. एक्सप्रेशन में 'user' की जानकारी (जैसे user.id) का "
 "इस्तेमाल किया जा सकता है. उदाहरण के लिए user.id, user.partner_id.id..।"
@@ -75445,6 +76958,7 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:gamification.goals_from_challenge_act
 msgid ""
 "There is no goal associated to this challenge matching your search.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "            Make sure that your challenge is active and assigned to at least one user."
 msgstr ""
@@ -75659,11 +77173,16 @@ msgstr ""
 "             पक्का करें कि चुनौती चालू है और कम से कम एक उपयोगकर्ता को दी गई है।"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "            Make sure that your challenge is active and assigned to at least "
 "one user."
 msgstr ""
 "इस चैलेंज से जुड़ा कोई लक्ष्य आपकी खोज से नहीं मिला.\n"
 "             पक्का करें कि चुनौती चालू है और कम से कम एक उपयोगकर्ता को दी गई है।"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: gamification
@@ -75713,7 +77232,11 @@ msgid "This badge can not be sent by users."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यह बैज उपयोगकर्ता भेज नहीं सकते।"
+>>>>>>> upstream/18.0
 =======
 msgstr "यह बैज उपयोगकर्ता भेज नहीं सकते।"
 >>>>>>> upstream/18.0
@@ -75969,7 +77492,11 @@ msgid "To"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "से"
+>>>>>>> upstream/18.0
 =======
 msgstr "से"
 >>>>>>> upstream/18.0
@@ -76383,7 +77910,11 @@ msgid "To Reach"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पहुंचने के लिए"
+>>>>>>> upstream/18.0
 =======
 msgstr "पहुंचने के लिए"
 >>>>>>> upstream/18.0
@@ -76560,7 +78091,11 @@ msgid "To update"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अपडेट करने के लिए"
+>>>>>>> upstream/18.0
 =======
 msgstr "अपडेट करने के लिए"
 >>>>>>> upstream/18.0
@@ -76817,7 +78352,11 @@ msgid "Total"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कुल"
+>>>>>>> upstream/18.0
 =======
 msgstr "कुल"
 >>>>>>> upstream/18.0
@@ -77231,7 +78770,11 @@ msgid "Track Karma Changes"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मा बदलावों को ट्रैक करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "कर्मा बदलावों को ट्रैक करें"
 >>>>>>> upstream/18.0
@@ -77408,7 +78951,11 @@ msgid "Track the sources of the users karma and monitor"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपयोगकर्ताओं के कर्मा के सोर्स को ट्रैक करें और उन पर नज़र रखें"
+>>>>>>> upstream/18.0
 =======
 msgstr "उपयोगकर्ताओं के कर्मा के सोर्स को ट्रैक करें और उन पर नज़र रखें"
 >>>>>>> upstream/18.0
@@ -77585,7 +79132,11 @@ msgid "Tracking"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ट्रैकिंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "ट्रैकिंग"
 >>>>>>> upstream/18.0
@@ -77762,7 +79313,11 @@ msgid "Tracking Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ट्रैकिंग की तारीख"
+>>>>>>> upstream/18.0
 =======
 msgstr "ट्रैकिंग की तारीख"
 >>>>>>> upstream/18.0
@@ -77939,7 +79494,11 @@ msgid "Trackings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ट्रैकिंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "ट्रैकिंग"
 >>>>>>> upstream/18.0
@@ -78116,7 +79675,11 @@ msgid "Unique Owners"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "खास मालिक"
+>>>>>>> upstream/18.0
 =======
 msgstr "खास मालिक"
 >>>>>>> upstream/18.0
@@ -78372,7 +79935,11 @@ msgid "Unit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यूनिट"
+>>>>>>> upstream/18.0
 =======
 msgstr "यूनिट"
 >>>>>>> upstream/18.0
@@ -78858,7 +80425,11 @@ msgid "Update"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अपडेट"
+>>>>>>> upstream/18.0
 =======
 msgstr "अपडेट"
 >>>>>>> upstream/18.0
@@ -79252,7 +80823,11 @@ msgid "Update %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अपडेट %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "अपडेट %s"
 >>>>>>> upstream/18.0
@@ -79442,7 +81017,11 @@ msgid "User Creation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नया उपयोगकर्ता बनाना"
+>>>>>>> upstream/18.0
 =======
 msgstr "नया उपयोगकर्ता बनाना"
 >>>>>>> upstream/18.0
@@ -79619,7 +81198,11 @@ msgid "User domain"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपयोगकर्ता का डोमेन"
+>>>>>>> upstream/18.0
 =======
 msgstr "उपयोगकर्ता का डोमेन"
 >>>>>>> upstream/18.0
@@ -79797,7 +81380,11 @@ msgid "Users"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपयोगकर्ता"
+>>>>>>> upstream/18.0
 =======
 msgstr "उपयोगकर्ता"
 >>>>>>> upstream/18.0
@@ -79975,7 +81562,11 @@ msgid "Weekly"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "साप्ताहिक"
+>>>>>>> upstream/18.0
 =======
 msgstr "साप्ताहिक"
 >>>>>>> upstream/18.0
@@ -80152,7 +81743,11 @@ msgid "Who can grant this badge"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यह बैज कौन दे सकता है"
+>>>>>>> upstream/18.0
 =======
 msgstr "यह बैज कौन दे सकता है"
 >>>>>>> upstream/18.0
@@ -80329,7 +81924,11 @@ msgid "Who would you like to reward?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आप किसे इनाम देना चाहेंगे?"
+>>>>>>> upstream/18.0
 =======
 msgstr "आप किसे इनाम देना चाहेंगे?"
 >>>>>>> upstream/18.0
@@ -80509,6 +82108,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"यह विकल्प चालू होने पर, उपयोगकर्ता को बैज सिर्फ़ एक बार मिल सकता है. टॉप 3 बैज चैलेंज के "
+"आखिर में ही दिए जाते हैं।"
+>>>>>>> upstream/18.0
 =======
 "यह विकल्प चालू होने पर, उपयोगकर्ता को बैज सिर्फ़ एक बार मिल सकता है. टॉप 3 बैज चैलेंज के "
 "आखिर में ही दिए जाते हैं।"
@@ -80686,6 +82290,7 @@ msgstr ""
 #: model_terms:gamification.badge,description:gamification.badge_idea
 msgid "With your brilliant ideas, you are an inspiration to others."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -80858,6 +82463,9 @@ msgstr ""
 =======
 msgstr "आपके बहुत अच्छे और बेहतरीन विचारों की वजह से, आप दूसरे लोगों को प्रेरित करते हैं।"
 >>>>>>> upstream/18.0
+=======
+msgstr "आपके बहुत अच्छे और बेहतरीन विचारों की वजह से, आप दूसरे लोगों को प्रेरित करते हैं।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_challenge__period__yearly
@@ -80982,7 +82590,11 @@ msgid "Yearly"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सालान"
+>>>>>>> upstream/18.0
 =======
 msgstr "सालान"
 >>>>>>> upstream/18.0
@@ -81388,7 +83000,11 @@ msgid "You are not in the user allowed list."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आप उपयोगकर्ता की अनुमति सूची में नहीं हैं।"
+>>>>>>> upstream/18.0
 =======
 msgstr "आप उपयोगकर्ता की अनुमति सूची में नहीं हैं।"
 >>>>>>> upstream/18.0
@@ -81566,7 +83182,11 @@ msgid "You can not grant a badge to yourself."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आप खुद को बैज नहीं दे सकते।"
+>>>>>>> upstream/18.0
 =======
 msgstr "आप खुद को बैज नहीं दे सकते।"
 >>>>>>> upstream/18.0
@@ -81744,7 +83364,11 @@ msgid "You can not reset a challenge with unfinished goals."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आप अधूरे लक्ष्यों वाले चैलेंज को रीसेट नहीं कर सकते।"
+>>>>>>> upstream/18.0
 =======
 msgstr "आप अधूरे लक्ष्यों वाले चैलेंज को रीसेट नहीं कर सकते।"
 >>>>>>> upstream/18.0
@@ -81921,7 +83545,11 @@ msgid "You can still grant"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आप अभी भी दे सकते हैं"
+>>>>>>> upstream/18.0
 =======
 msgstr "आप अभी भी दे सकते हैं"
 >>>>>>> upstream/18.0
@@ -82098,7 +83726,11 @@ msgid "You did great at your job."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आपने अपना काम बहुत अच्छे से किया।"
+>>>>>>> upstream/18.0
 =======
 msgstr "आपने अपना काम बहुत अच्छे से किया।"
 >>>>>>> upstream/18.0
@@ -82276,7 +83908,11 @@ msgid "You do not have the required badges."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आपके पास ज़रूरी बैज नहीं हैं।"
+>>>>>>> upstream/18.0
 =======
 msgstr "आपके पास ज़रूरी बैज नहीं हैं।"
 >>>>>>> upstream/18.0
@@ -82454,7 +84090,11 @@ msgid "You have already sent this badge too many time this month."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आपने इस महीने यह बैज बहुत बार भेज दिया है।"
+>>>>>>> upstream/18.0
 =======
 msgstr "आपने इस महीने यह बैज बहुत बार भेज दिया है।"
 >>>>>>> upstream/18.0
@@ -82631,7 +84271,11 @@ msgid "You have found the hidden badge"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आपने छिपा हुआ बैज ढूंढ़ लिया है"
+>>>>>>> upstream/18.0
 =======
 msgstr "आपने छिपा हुआ बैज ढूंढ़ लिया है"
 >>>>>>> upstream/18.0
@@ -82808,7 +84452,11 @@ msgid "You have reached the last rank. Congratulations!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आपने आखिरी रैंक हासिल कर ली है। बधाई हो!"
+>>>>>>> upstream/18.0
 =======
 msgstr "आपने आखिरी रैंक हासिल कर ली है। बधाई हो!"
 >>>>>>> upstream/18.0
@@ -82985,7 +84633,11 @@ msgid "You just began the adventure! Welcome!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आपने अभी-अभी शुरू किया! स्वागत है!"
+>>>>>>> upstream/18.0
 =======
 msgstr "आपने अभी-अभी शुरू किया! स्वागत है!"
 >>>>>>> upstream/18.0
@@ -83162,7 +84814,11 @@ msgid "You know what you are talking about. People learn from you."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आप जानते हैं कि आप किस बारे में बात कर रहे हैं. लोग आपसे सीखते हैं।"
+>>>>>>> upstream/18.0
 =======
 msgstr "आप जानते हैं कि आप किस बारे में बात कर रहे हैं. लोग आपसे सीखते हैं।"
 >>>>>>> upstream/18.0
@@ -83296,6 +84952,7 @@ msgstr "आप जानते हैं कि आप किस बारे �
 #. module: gamification
 #: model_terms:gamification.karma.rank,description:gamification.rank_bachelor
 msgid "You love learning things. Curiosity is a good way to progress."
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
@@ -83469,6 +85126,9 @@ msgstr ""
 =======
 msgstr "आपको चीज़ें सीखना पसंद है. किसी चीज़ को जानने की इच्छा रखना आपको आगे बढ़ाता है।"
 >>>>>>> upstream/18.0
+=======
+msgstr "आपको चीज़ें सीखना पसंद है. किसी चीज़ को जानने की इच्छा रखना आपको आगे बढ़ाता है।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:gamification.karma.rank,description:gamification.rank_student
@@ -83516,7 +85176,11 @@ msgid "You're a young padawan now. May the force be with you!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आप अब एक युवा पाडावन हैं. फ़ोर्स आपके साथ हो!"
+>>>>>>> upstream/18.0
 =======
 msgstr "आप अब एक युवा पाडावन हैं. फ़ोर्स आपके साथ हो!"
 >>>>>>> upstream/18.0
@@ -83693,7 +85357,11 @@ msgid "badges this month"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस महीने के बैज"
+>>>>>>> upstream/18.0
 =======
 msgstr "इस महीने के बैज"
 >>>>>>> upstream/18.0
@@ -83871,7 +85539,11 @@ msgid "days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "दिन"
+>>>>>>> upstream/18.0
 =======
 msgstr "दिन"
 >>>>>>> upstream/18.0
@@ -84005,6 +85677,7 @@ msgstr "दिन"
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_rank_view_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "e.g. A Master Chief knows quite everything on the forum! You cannot beat "
 "him!"
@@ -84220,10 +85893,15 @@ msgstr ""
 "सकते!"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "e.g. A Master Chief knows quite everything on the forum! You cannot beat him!"
 msgstr ""
 "उदाहरण के लिए: एक मास्टर चीफ़ फ़ोरम के बारे में लगभग सब कुछ जानते हैं! आप उन्हें हरा नहीं "
 "सकते!"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: gamification
@@ -84272,7 +85950,11 @@ msgid "e.g. Get started"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जैसे, शुरूआत करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "जैसे, शुरूआत करें"
 >>>>>>> upstream/18.0
@@ -84449,7 +86131,11 @@ msgid "e.g. Master Chief"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जैसे, मास्टर चीफ़"
+>>>>>>> upstream/18.0
 =======
 msgstr "जैसे, मास्टर चीफ़"
 >>>>>>> upstream/18.0
@@ -84626,7 +86312,11 @@ msgid "e.g. Monthly Sales Objectives"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उदाहरण के लिए: मासिक सेल्स के लक्ष्य"
+>>>>>>> upstream/18.0
 =======
 msgstr "उदाहरण के लिए: मासिक सेल्स के लक्ष्य"
 >>>>>>> upstream/18.0
@@ -84803,7 +86493,11 @@ msgid "e.g. Problem Solver"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उदाहरण के लिए: समस्या हल करने वाला"
+>>>>>>> upstream/18.0
 =======
 msgstr "उदाहरण के लिए: समस्या हल करने वाला"
 >>>>>>> upstream/18.0
@@ -84980,7 +86674,11 @@ msgid "e.g. Reach this rank to gain a free mug!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उदाहरण के लिए: एक मुफ़्त मग पाने के लिए यह रैंक हासिल करें!"
+>>>>>>> upstream/18.0
 =======
 msgstr "उदाहरण के लिए: एक मुफ़्त मग पाने के लिए यह रैंक हासिल करें!"
 >>>>>>> upstream/18.0
@@ -85157,7 +86855,11 @@ msgid "e.g. Register to the platform"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उदाहरण के लिए: प्लैटफ़ॉर्म पर रजिस्टर करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "उदाहरण के लिए: प्लैटफ़ॉर्म पर रजिस्टर करें"
 >>>>>>> upstream/18.0
@@ -85334,7 +87036,11 @@ msgid "e.g. days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उदाहरण के लिए दिन"
+>>>>>>> upstream/18.0
 =======
 msgstr "उदाहरण के लिए दिन"
 >>>>>>> upstream/18.0
@@ -85511,7 +87217,11 @@ msgid "e.g. user.partner_id.id"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जैसे, user.partner_id.id"
+>>>>>>> upstream/18.0
 =======
 msgstr "जैसे, user.partner_id.id"
 >>>>>>> upstream/18.0
@@ -85688,7 +87398,11 @@ msgid "granted,"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "दिया गया,"
+>>>>>>> upstream/18.0
 =======
 msgstr "दिया गया,"
 >>>>>>> upstream/18.0
@@ -85865,7 +87579,11 @@ msgid "refresh"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रीफ्रेश करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "रीफ्रेश करें"
 >>>>>>> upstream/18.0
@@ -86042,7 +87760,11 @@ msgid "than the target."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टारगेट से ज़्यादा।"
+>>>>>>> upstream/18.0
 =======
 msgstr "टारगेट से ज़्यादा।"
 >>>>>>> upstream/18.0
@@ -86177,7 +87899,11 @@ msgstr "टारगेट से ज़्यादा।"
 #: model_terms:ir.ui.view,arch_db:gamification.badge_user_kanban_view
 msgid "the"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "द"
+>>>>>>> upstream/18.0
 =======
 msgstr "द"
 >>>>>>> upstream/18.0
@@ -86228,7 +87954,11 @@ msgid "this month"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस महीने"
+>>>>>>> upstream/18.0
 =======
 msgstr "इस महीने"
 >>>>>>> upstream/18.0

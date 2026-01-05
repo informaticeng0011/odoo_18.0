@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* base_install_request
 # 
 # Translators:
@@ -8,17 +9,23 @@
 # Martin Trigaux, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 # * base_install_request
 #
 # Translators:
 # Sanne Kristensen <sanne@vkdata.dk>, 2024
 # Martin Trigaux, 2024
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2025-01-27 13:03+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -30,6 +37,8 @@ msgstr ""
 "Language: da\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2025-12-31 13:08+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -41,6 +50,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.14.3\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_install_request
@@ -50,6 +62,7 @@ msgid ""
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        Hello,\n"
 "        <br/><br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "        <span style=\"font-weight: bold;\" t-out=\"object.user_id.name\"/> has requested to activate the <span style=\"font-weight: bold;\" t-out=\"object.module_id.shortdesc\"/> module. This module is included in your subscription. It has <span style=\"color: #875A7B; font-weight: bold;\">no extra cost</span>, but an administrator role is required to activate it.\n"
 "        <br/><br/>\n"
@@ -64,6 +77,8 @@ msgid ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        <span style=\"font-weight: bold;\" t-out=\"object.user_id.name\"/> "
 "has requested to activate the <span style=\"font-weight: bold;\" t-"
 "out=\"object.module_id.shortdesc\"/> module. This module is included in your "
@@ -87,6 +102,9 @@ msgid ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-"
 "quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "        </t>\n"
 "        <br/><br/>\n"
@@ -100,7 +118,11 @@ msgstr ""
 #: code:addons/base_install_request/models/ir_module_module.py:0
 msgid "Activation Request of \"%s\""
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aktiveringsanmodning fra \"%s\""
+>>>>>>> upstream/18.0
 =======
 msgstr "Aktiveringsanmodning fra \"%s\""
 >>>>>>> upstream/18.0
@@ -132,7 +154,11 @@ msgstr "Oprettet den"
 #: model:ir.model.fields,field_description:base_install_request.field_base_module_install_review__module_ids
 msgid "Depending Apps"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Afhængige apps"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afhængige apps"
 >>>>>>> upstream/18.0
@@ -170,7 +196,11 @@ msgstr "Sidst opdateret den"
 #: model:mail.template,name:base_install_request.mail_template_base_install_request
 msgid "Mail: Install Request"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "E-mail: Installationsanmodning"
+>>>>>>> upstream/18.0
 =======
 msgstr "E-mail: Installationsanmodning"
 >>>>>>> upstream/18.0
@@ -186,7 +216,11 @@ msgstr "Modul"
 #: model:ir.model,name:base_install_request.model_base_module_install_request
 msgid "Module Activation Request"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Anmodning om aktivering af modul"
+>>>>>>> upstream/18.0
 =======
 msgstr "Anmodning om aktivering af modul"
 >>>>>>> upstream/18.0
@@ -196,6 +230,10 @@ msgstr "Anmodning om aktivering af modul"
 msgid "Module Activation Request for \"{{ object.module_id.shortdesc }}\""
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Anmodning om aktivering af modul for \"{{ object.module_id.shortdesc }}\""
+>>>>>>> upstream/18.0
 =======
 "Anmodning om aktivering af modul for \"{{ object.module_id.shortdesc }}\""
 >>>>>>> upstream/18.0
@@ -204,7 +242,11 @@ msgstr ""
 #: model:ir.model,name:base_install_request.model_base_module_install_review
 msgid "Module Activation Review"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gennemgang af modulaktivering"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gennemgang af modulaktivering"
 >>>>>>> upstream/18.0
@@ -213,7 +255,11 @@ msgstr "Gennemgang af modulaktivering"
 #: model:ir.model.fields,field_description:base_install_request.field_base_module_install_review__modules_description
 msgid "Modules Description"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Modulbeskrivelse"
+>>>>>>> upstream/18.0
 =======
 msgstr "Modulbeskrivelse"
 >>>>>>> upstream/18.0
@@ -228,7 +274,11 @@ msgstr ""
 #: code:addons/base_install_request/wizard/base_module_install_request.py:0
 msgid "No module selected."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Intet modul valgt."
+>>>>>>> upstream/18.0
 =======
 msgstr "Intet modul valgt."
 >>>>>>> upstream/18.0
@@ -237,7 +287,11 @@ msgstr "Intet modul valgt."
 #: model_terms:ir.ui.view,arch_db:base_install_request.ir_module_module_view_kanban
 msgid "Request Access"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Anmod om adgang"
+>>>>>>> upstream/18.0
 =======
 msgstr "Anmod om adgang"
 >>>>>>> upstream/18.0
@@ -246,7 +300,11 @@ msgstr "Anmod om adgang"
 #: model_terms:ir.ui.view,arch_db:base_install_request.base_module_install_request_view_form
 msgid "Request Activation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Anmod om aktivering"
+>>>>>>> upstream/18.0
 =======
 msgstr "Anmod om aktivering"
 >>>>>>> upstream/18.0
@@ -256,7 +314,11 @@ msgstr "Anmod om aktivering"
 #: model_terms:ir.ui.view,arch_db:base_install_request.base_module_install_request_view_form
 msgid "Send to:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Send til:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Send til:"
 >>>>>>> upstream/18.0
@@ -265,7 +327,11 @@ msgstr "Send til:"
 #: model_terms:ir.ui.view,arch_db:base_install_request.base_module_install_review_description
 msgid "The following apps will be installed:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Følgende apps installeres:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Følgende apps installeres:"
 >>>>>>> upstream/18.0
@@ -275,7 +341,11 @@ msgstr "Følgende apps installeres:"
 #: code:addons/base_install_request/wizard/base_module_install_request.py:0
 msgid "The module is already installed."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Modulet er allerede installeret."
+>>>>>>> upstream/18.0
 =======
 msgstr "Modulet er allerede installeret."
 >>>>>>> upstream/18.0
@@ -296,7 +366,11 @@ msgstr "Bruger"
 #: model_terms:ir.ui.view,arch_db:base_install_request.base_module_install_request_view_form
 msgid "Why do you need this module?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hvad skal dette modul bruges til?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hvad skal dette modul bruges til?"
 >>>>>>> upstream/18.0
@@ -305,7 +379,11 @@ msgstr "Hvad skal dette modul bruges til?"
 #: model:ir.actions.act_window,name:base_install_request.action_base_module_install_review
 msgid "You are about to install an extra application"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Du er ved at installere et ekstra program"
+>>>>>>> upstream/18.0
 =======
 msgstr "Du er ved at installere et ekstra program"
 >>>>>>> upstream/18.0
@@ -315,7 +393,11 @@ msgstr "Du er ved at installere et ekstra program"
 #: code:addons/base_install_request/wizard/base_module_install_request.py:0
 msgid "Your request has been successfully sent"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Din anmodning er blevet sendt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Din anmodning er blevet sendt"
 >>>>>>> upstream/18.0
@@ -327,6 +409,12 @@ msgid ""
 "our internal events, and exhibitions. I need access for 3 people of my team."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"f.eks. Jeg vil gerne bruge SMS-marketingmodulet til at organisere "
+"markedsføringen af interne arrangementer og udstillinger. Jeg har brug for, "
+"at tre personer fra mit team får adgang."
+>>>>>>> upstream/18.0
 =======
 "f.eks. Jeg vil gerne bruge SMS-marketingmodulet til at organisere "
 "markedsføringen af interne arrangementer og udstillinger. Jeg har brug for, "

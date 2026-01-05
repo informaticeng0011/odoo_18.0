@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* fleet
 # 
 # Translators:
@@ -584,6 +585,8 @@
 >>>>>>> upstream/18.0
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 # * fleet
 #
 # Translators:
@@ -592,11 +595,15 @@
 # Wil Odoo, 2025
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1298,6 +1305,8 @@ msgstr ""
 "Language: sk\n"
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-01-02 20:26+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -1310,6 +1319,9 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n "
 ">= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
 "X-Generator: Weblate 5.14.3\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: fleet
@@ -1545,7 +1557,10 @@ msgstr "Stav aktivity"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1896,6 +1911,9 @@ msgstr "Typ aktivity"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2177,6 +2195,10 @@ msgstr "Archivovať"
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_services_view_search
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_model_brand_view_search
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_model_view_search
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_model_view_search
 >>>>>>> upstream/18.0
@@ -2300,7 +2322,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_send_mail__body_has_template_value
 msgid "Body content is the same as the template"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obsah tela je rovnaký ako šablóna"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obsah tela je rovnaký ako šablóna"
 >>>>>>> upstream/18.0
@@ -2367,7 +2393,11 @@ msgstr "Kalkulácia výhody v triede"
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_send_mail__can_edit_body
 msgid "Can Edit Body"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Je možné upravovať telo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Je možné upravovať telo"
 >>>>>>> upstream/18.0
@@ -2424,8 +2454,13 @@ msgstr "Kategórie"
 #: model_terms:ir.actions.act_window,help:fleet.fleet_vehicle_model_category_action
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Categories will help you manage your fleet more efficiently and arrange your"
 " vehicles."
+=======
+"Categories will help you manage your fleet more efficiently and arrange your "
+"vehicles."
+>>>>>>> upstream/18.0
 =======
 "Categories will help you manage your fleet more efficiently and arrange your "
 "vehicles."
@@ -2474,8 +2509,12 @@ msgstr "Vyberte, či je zmluva stále platná alebo nie"
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_service_type__category
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Choose whether the service refer to contracts, vehicle services or both"
+=======
+msgid "Choose whether the service refer to contracts, vehicle services or both"
+>>>>>>> upstream/18.0
 =======
 msgid "Choose whether the service refer to contracts, vehicle services or both"
 >>>>>>> upstream/18.0
@@ -2759,8 +2798,13 @@ msgstr "Dátum kedy začína pokrytie zmluvy"
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract__expiration_date
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Date when the coverage of the contract expirates (by default, one year after"
 " begin date)"
+=======
+"Date when the coverage of the contract expirates (by default, one year after "
+"begin date)"
+>>>>>>> upstream/18.0
 =======
 "Date when the coverage of the contract expirates (by default, one year after "
 "begin date)"
@@ -3314,7 +3358,11 @@ msgstr "Výmena tesnenia sacieho potrubia"
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_send_mail__is_mail_template_editor
 msgid "Is Editor"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Je editor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Je editor"
 >>>>>>> upstream/18.0
@@ -3797,8 +3845,13 @@ msgid ""
 "Optional translation language (ISO code) to select when sending out an "
 "email. If not set, the english version will be used. This should usually be "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "a placeholder expression that provides the appropriate language, e.g. {{ "
 "object.partner_id.lang }}."
+=======
+"a placeholder expression that provides the appropriate language, e.g. "
+"{{ object.partner_id.lang }}."
+>>>>>>> upstream/18.0
 =======
 "a placeholder expression that provides the appropriate language, e.g. "
 "{{ object.partner_id.lang }}."
@@ -3959,7 +4012,11 @@ msgstr "Dátum registrácie"
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_send_mail__render_model
 msgid "Rendering Model"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Renderovací model"
+>>>>>>> upstream/18.0
 =======
 msgstr "Renderovací model"
 >>>>>>> upstream/18.0
@@ -4296,8 +4353,13 @@ msgid ""
 "available instantly"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Toto je dátum, kedy bude auto k dispozícii, ak nie je nastavené, znamená to,"
 " že je okamžite k dispozícii"
+=======
+"Toto je dátum, kedy bude auto k dispozícii, ak nie je nastavené, znamená to, "
+"že je okamžite k dispozícii"
+>>>>>>> upstream/18.0
 =======
 "Toto je dátum, kedy bude auto k dispozícii, ak nie je nastavené, znamená to, "
 "že je okamžite k dispozícii"
@@ -4354,7 +4416,12 @@ msgstr "Cestovná asistencia"
 msgid ""
 "Track all the services done on your vehicle.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Services can be of many types: occasional repair, fixed maintenance, etc."
+=======
+"            Services can be of many types: occasional repair, fixed "
+"maintenance, etc."
+>>>>>>> upstream/18.0
 =======
 "            Services can be of many types: occasional repair, fixed "
 "maintenance, etc."

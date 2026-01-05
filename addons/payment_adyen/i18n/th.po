@@ -2,22 +2,29 @@
 # This file contains the translation of the following modules:
 # 	* payment_adyen
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Rasareeyar Lappiam, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Rasareeyar Lappiam, 2024
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -28,6 +35,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: th\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Rasareeyar Lappiam, 2024\n"
@@ -36,6 +45,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
 
@@ -43,13 +55,19 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:payment_adyen.payment_provider_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<strong>Warning:</strong> To capture the amount manually, you also need to set\n"
 "                    the Capture Delay to manual on your Adyen account settings."
 =======
+=======
+>>>>>>> upstream/18.0
 "<strong>Warning:</strong> To capture the amount manually, you also need to "
 "set\n"
 "                    the Capture Delay to manual on your Adyen account "
 "settings."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 "<strong>คำเตือน:</strong> เพื่อทำการตัดวงเงินด้วยตนเอง คุณยังต้อง\n"
@@ -60,10 +78,16 @@ msgstr ""
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A request was sent to void the transaction with reference %(reference)s "
 "(%(provider)s)."
 msgstr ""
 "มีการส่งคำร้องขอให้ยกเลิกธุรกรรมที่มีการอ้างอิง %(reference)s (%(provider)s)"
+=======
+"A request was sent to void the transaction with reference %(reference)s (%"
+"(provider)s)."
+msgstr "มีการส่งคำร้องขอให้ยกเลิกธุรกรรมที่มีการอ้างอิง %(reference)s (%(provider)s)"
+>>>>>>> upstream/18.0
 =======
 "A request was sent to void the transaction with reference %(reference)s (%"
 "(provider)s)."
@@ -91,8 +115,12 @@ msgstr "Adyen"
 msgid ""
 "An error occurred during the processing of your payment. Please try again."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "เกิดข้อผิดพลาดระหว่างการประมวลผลการชำระเงินของคุณ กรุณาลองใหม่อีกครั้ง"
+=======
+msgstr "เกิดข้อผิดพลาดระหว่างการประมวลผลการชำระเงินของคุณ กรุณาลองใหม่อีกครั้ง"
+>>>>>>> upstream/18.0
 =======
 msgstr "เกิดข้อผิดพลาดระหว่างการประมวลผลการชำระเงินของคุณ กรุณาลองใหม่อีกครั้ง"
 >>>>>>> upstream/18.0
@@ -257,17 +285,23 @@ msgstr ""
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The capture request of %(amount)s for the transaction with reference %(ref)s"
 " has been requested (%(provider_name)s)."
 msgstr ""
 "ร้องขอการตัดวงเงินจำนวน %(amount)s สำหรับธุรกรรมที่มีการอ้างอิง %(ref)s แล้ว"
 " (%(provider_name)s)"
 =======
+=======
+>>>>>>> upstream/18.0
 "The capture request of %(amount)s for the transaction with reference %(ref)s "
 "has been requested (%(provider_name)s)."
 msgstr ""
 "ร้องขอการตัดวงเงินจำนวน %(amount)s สำหรับธุรกรรมที่มีการอ้างอิง %(ref)s แล้ว (%"
 "(provider_name)s)"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment_adyen

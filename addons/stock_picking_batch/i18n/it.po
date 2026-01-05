@@ -2,6 +2,7 @@
 # This file contains the translation of the following modules:
 # 	* stock_picking_batch
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -464,17 +465,23 @@
 >>>>>>> upstream/18.0
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Marianna Ciofani, 2025
 # Sergio Zanchetta <primes2h@gmail.com>, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2025-03-19 20:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
@@ -942,6 +949,8 @@ msgstr ""
 "Language: it\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
@@ -952,6 +961,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
 "1 : 2;\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
@@ -990,6 +1002,7 @@ msgstr "<strong>DA</strong>"
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "<strong>Lot/Serial Number</strong>"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1451,6 +1464,9 @@ msgstr "<strong>Numero di lotto/serie</strong>"
 =======
 msgstr "<strong>Numero di lotto/serie</strong>"
 >>>>>>> upstream/18.0
+=======
+msgstr "<strong>Numero di lotto/serie</strong>"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
@@ -1481,17 +1497,23 @@ msgstr "<strong>→</strong>"
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__batch_max_lines
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A transfer will not be automatically added to batches that will exceed this number of lines if the transfer is added to it.\n"
 "Leave this value as '0' if no line limit."
 msgstr ""
 "Un trasferimento non verrà aggiunto automaticamente ai lotti che supereranno il numero di righe se il trasferimento viene aggiunto.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "A transfer will not be automatically added to batches that will exceed this "
 "number of lines if the transfer is added to it.\n"
 "Leave this value as '0' if no line limit."
 msgstr ""
 "Un trasferimento non verrà aggiunto automaticamente ai lotti che supereranno "
 "il numero di righe se il trasferimento viene aggiunto.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Il valore può essere pari a \"0\" se non vi è alcun limite."
 
@@ -1499,17 +1521,23 @@ msgstr ""
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__batch_max_pickings
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A transfer will not be automatically added to batches that will exceed this number of transfers.\n"
 "Leave this value as '0' if no transfer limit."
 msgstr ""
 "Un trasferimento non verrà aggiunto automaticamente ai lotti che supereranno il numero di trasferimenti.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "A transfer will not be automatically added to batches that will exceed this "
 "number of transfers.\n"
 "Leave this value as '0' if no transfer limit."
 msgstr ""
 "Un trasferimento non verrà aggiunto automaticamente ai lotti che supereranno "
 "il numero di trasferimenti.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Il valore può essere pari a \"0\" se non vi è alcun limte."
 
@@ -1692,7 +1720,11 @@ msgid "Allocation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Allocazione"
+=======
+msgstr "Assegnazione"
+>>>>>>> upstream/18.0
 =======
 msgstr "Assegnazione"
 >>>>>>> upstream/18.0
@@ -2218,7 +2250,11 @@ msgid "Batch"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Gruppo"
+=======
+msgstr "Raggruppamento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Raggruppamento"
 >>>>>>> upstream/18.0
@@ -2742,7 +2778,11 @@ msgid "Batches"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Batch"
+=======
+msgstr "Raggruppamenti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Raggruppamenti"
 >>>>>>> upstream/18.0
@@ -3516,8 +3556,12 @@ msgstr "Tipologia prelievo"
 #. odoo-python
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Please add 'Done' quantities to the batch picking to create a new pack."
+=======
+msgid "Please add 'Done' quantities to the batch picking to create a new pack."
+>>>>>>> upstream/18.0
 =======
 msgid "Please add 'Done' quantities to the batch picking to create a new pack."
 >>>>>>> upstream/18.0
@@ -3662,7 +3706,11 @@ msgid "Print Labels"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Stampare etichette"
+=======
+msgstr "Stampa etichette"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stampa etichette"
 >>>>>>> upstream/18.0
@@ -4158,7 +4206,11 @@ msgid "Put in Pack"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Crea collo"
+=======
+msgstr "Confeziona"
+>>>>>>> upstream/18.0
 =======
 msgstr "Confeziona"
 >>>>>>> upstream/18.0
@@ -4525,8 +4577,12 @@ msgstr "Valutazioni"
 #: model_terms:ir.actions.act_window,help:stock_picking_batch.stock_picking_batch_action
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Regroup multiple orders into one picking and consolidate at the packing "
 "zone."
+=======
+"Regroup multiple orders into one picking and consolidate at the packing zone."
+>>>>>>> upstream/18.0
 =======
 "Regroup multiple orders into one picking and consolidate at the packing zone."
 >>>>>>> upstream/18.0
@@ -4567,6 +4623,7 @@ msgstr "Data programmata"
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_batch__scheduled_date
 msgid ""
 "Scheduled date for the transfers to be processed.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "              - If manually set then scheduled date for all transfers in batch will automatically update to this date.\n"
 "              - If not manually changed and transfers are added/removed/updated then this will be their earliest scheduled date\n"
@@ -5261,6 +5318,8 @@ msgstr ""
 "                Non viene però impostata per tutti i trasferimenti raggruppati."
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "              - If manually set then scheduled date for all transfers in "
 "batch will automatically update to this date.\n"
 "              - If not manually changed and transfers are added/removed/"
@@ -5277,6 +5336,9 @@ msgstr ""
 "programmata.\n"
 "                Non viene però impostata per tutti i trasferimenti "
 "raggruppati."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
@@ -5337,8 +5399,13 @@ msgstr ""
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__wave_group_by_category
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Split transfers by product category, then group transfers that have the same"
 " product category."
+=======
+"Split transfers by product category, then group transfers that have the same "
+"product category."
+>>>>>>> upstream/18.0
 =======
 "Split transfers by product category, then group transfers that have the same "
 "product category."
@@ -5421,12 +5488,15 @@ msgstr "Riepilogo:"
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The following transfers cannot be added to batch transfer %(batch)s. Please check their states and operation types.\n"
 "\n"
 "Incompatibilities: %(incompatible_transfers)s"
 msgstr ""
 "I seguenti trasferimenti non possono essere aggiunti al trasferimento raggruppato %(batch)s. Controlla lo stato e i tipi di operazione.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "The following transfers cannot be added to batch transfer %(batch)s. Please "
 "check their states and operation types.\n"
 "\n"
@@ -5434,6 +5504,9 @@ msgstr ""
 msgstr ""
 "I seguenti trasferimenti non possono essere aggiunti al trasferimento "
 "raggruppato %(batch)s. Controlla lo stato e i tipi di operazione.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "\n"
 "Incompatibilità: %(incompatible_transfers)s"
@@ -5624,7 +5697,11 @@ msgid "Type of Operation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tipo di operazione"
+=======
+msgstr "Operazione di tipo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Operazione di tipo"
 >>>>>>> upstream/18.0
@@ -6105,7 +6182,11 @@ msgid "Validate"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Convalida"
+=======
+msgstr "Valida"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valida"
 >>>>>>> upstream/18.0
@@ -6624,7 +6705,11 @@ msgid "You cannot delete Done batch transfers."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Non è possibile cancellare i trasferimenti raggruppati completati."
+=======
+msgstr "Impossibile eliminare i trasferimenti raggruppati completati."
+>>>>>>> upstream/18.0
 =======
 msgstr "Impossibile eliminare i trasferimenti raggruppati completati."
 >>>>>>> upstream/18.0
@@ -7090,7 +7175,11 @@ msgid "You have to set some pickings to batch."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Raggruppare alcuni prelievi."
+=======
+msgstr "Assegnare qualche prelievo al raggruppamento."
+>>>>>>> upstream/18.0
 =======
 msgstr "Assegnare qualche prelievo al raggruppamento."
 >>>>>>> upstream/18.0

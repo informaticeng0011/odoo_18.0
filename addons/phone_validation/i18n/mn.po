@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* phone_validation
 # 
+=======
+# * phone_validation
+#
+>>>>>>> upstream/18.0
 =======
 # * phone_validation
 #
@@ -17,7 +22,11 @@
 # hish, 2024
 # Baskhuu Lodoikhuu <baskhuujacara@gmail.com>, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -25,6 +34,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:57+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -36,6 +46,8 @@ msgstr ""
 "Language: mn\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2025-12-31 16:35+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -47,6 +59,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.14.3\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: phone_validation
@@ -80,13 +95,19 @@ msgstr "Архивласан"
 #. module: phone_validation
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/phone_validation/models/mail_thread_phone.py:0
 msgid "Are you sure you want to unblacklist this Phone Number?"
 msgstr ""
 
 #. module: phone_validation
 #. odoo-python
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/phone_validation/models/phone_blacklist.py:0
 msgid "Are you sure you want to unblacklist this phone number?"
@@ -117,7 +138,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:phone_validation.field_mail_thread_phone__mobile_blacklisted
 msgid "Blacklisted Phone Is Mobile"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Хар жагсаалтын дугаар нь гар утасных эсэх"
+>>>>>>> upstream/18.0
 =======
 msgstr "Хар жагсаалтын дугаар нь гар утасных эсэх"
 >>>>>>> upstream/18.0
@@ -131,7 +156,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:phone_validation.field_mail_thread_phone__phone_blacklisted
 msgid "Blacklisted Phone is Phone"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Хар жагсаалтын дугаар нь суурин утасных эсэх"
+>>>>>>> upstream/18.0
 =======
 msgstr "Хар жагсаалтын дугаар нь суурин утасных эсэх"
 >>>>>>> upstream/18.0
@@ -184,6 +213,11 @@ msgid ""
 "comparisons."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Утасны дугаарыг хэлбэршүүлэн хадгалах зорилготой талбар. Утасны дугаараар "
+"хайлт шүүлт хийхэд тусална."
+>>>>>>> upstream/18.0
 =======
 "Утасны дугаарыг хэлбэршүүлэн хадгалах зорилготой талбар. Утасны дугаараар "
 "хайлт шүүлт хийхэд тусална."
@@ -229,15 +263,21 @@ msgstr "Үүнийг сонговол алдаа үүсэх үед зурвас�
 #: model:ir.model.fields,help:phone_validation.field_mail_thread_phone__phone_sanitized_blacklisted
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If the sanitized phone number is on the blacklist, the contact won't receive"
 " mass mailing sms anymore, from any list"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "If the sanitized phone number is on the blacklist, the contact won't receive "
 "mass mailing sms anymore, from any list"
 msgstr ""
 "Хэрэв хэлбэршүүлсэн утасны дугаар нь хар жагсаалтанд орсон байвал, энэ "
 "харилцах хаягт ямар нэг автомат имэйл, SMS хүлээн авахгүй"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: phone_validation
@@ -272,11 +312,17 @@ msgid ""
 "mobile and phone field in a model."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Хар жагсаалтанд орсон дугаар нь гар утасны дугаар эсэхийг илтгэнэ. Улмаар "
 "гар утас болон суурин утасны дугаар аль аль нь "
 "бүртгэгдсэн                             тохиолдолд аль дугаар нь хар "
 "жагсаалтанд орсон эсэхийг ялгаж харахад тусална."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: phone_validation
@@ -287,11 +333,17 @@ msgid ""
 "mobile and phone field in a model."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Хар жагсаалтанд орсон дугаар нь суурин утасны дугаар эсэхийг илтгэнэ. Улмаар "
 "гар утас болон суурин утасны дугаар аль аль нь "
 "бүртгэгдсэн                              тохиолдолд аль дугаар нь хар "
 "жагсаалтанд орсон эсэхийг ялгаж харахад тусална."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: phone_validation
@@ -398,7 +450,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:phone_validation.field_mail_thread_phone__phone_sanitized_blacklisted
 msgid "Phone Blacklisted"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Утасны дугаар хар жагсаалтанд орсон"
+>>>>>>> upstream/18.0
 =======
 msgstr "Утасны дугаар хар жагсаалтанд орсон"
 >>>>>>> upstream/18.0
@@ -414,7 +470,11 @@ msgstr "Утасны дугаар"
 #: model:ir.model.fields,field_description:phone_validation.field_mail_thread_phone__phone_mobile_search
 msgid "Phone/Mobile"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Утас/Гар утас"
+>>>>>>> upstream/18.0
 =======
 msgstr "Утас/Гар утас"
 >>>>>>> upstream/18.0
@@ -442,7 +502,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:phone_validation.field_mail_thread_phone__phone_sanitized
 msgid "Sanitized Number"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Хэлбэршүүлсэн дугаар"
+>>>>>>> upstream/18.0
 =======
 msgstr "Хэлбэршүүлсэн дугаар"
 >>>>>>> upstream/18.0
@@ -471,7 +535,10 @@ msgstr "Хэрэглэгч"
 
 #. module: phone_validation
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/phone_validation/models/mail_thread_phone.py:0
 msgid ""
@@ -480,6 +547,9 @@ msgid ""
 msgstr ""
 
 #. module: phone_validation
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:phone_validation.phone_blacklist_remove_view_form
 msgid "e.g \"Asked to receive our next newsletters\""

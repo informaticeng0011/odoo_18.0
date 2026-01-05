@@ -66,6 +66,10 @@ from freezegun import freeze_time
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo import Command
+>>>>>>> upstream/18.0
 =======
 from odoo import Command
 >>>>>>> upstream/18.0
@@ -270,6 +274,7 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
         })
         cls.partner_a.write({
             'phone': '+886 123 456 789',
+<<<<<<< HEAD
             'contact_address': 'test address',
             'company_type': 'person',
         })
@@ -541,6 +546,23 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+            'street': 'street七美',
+            'city': '中正區',
+            'state_id': cls.env.ref('l10n_tw.state_tw_tpc').id,
+            'country_id': cls.env.ref('base.tw').id,
+            'company_type': 'person',
+        })
+        cls.partner_b.write({
+            'phone': '+886 123 456 789',
+            'street': 'street七美',
+            'city': '信義區',
+            'state_id': cls.env.ref('l10n_tw.state_tw_klc').id,
+            'country_id': cls.env.ref('base.tw').id,
+            'vat': '24153791',
+            'company_type': 'company',
+        })
+>>>>>>> upstream/18.0
         # We can reuse this invoice for the flow tests.
         cls.basic_invoice = cls.init_invoice(
             'out_invoice', partner=cls.partner_a, products=cls.product_a,
@@ -590,7 +612,10 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -724,6 +749,9 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -826,6 +854,10 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
         self.assertEqual(json_data.get("CustomerEmail"), "partner_a@tsointsoin")
         self.assertEqual(json_data.get("CustomerPhone"), "0123456789")
         self.assertEqual(json_data.get("SalesAmount"), 1050.0)
+<<<<<<< HEAD
+=======
+        self.assertEqual(json_data.get("CustomerAddr"), "street七美, 中正區 TPC, Taiwan")
+>>>>>>> upstream/18.0
 
     @freeze_time("2025-01-06 15:00:00")
     def test_02_basic_submission(self):
@@ -966,7 +998,13 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
         test_partner = self.env['res.partner'].create({
             'name': 'Test Partner',
             'phone': '+886 123 456 789',
+<<<<<<< HEAD
             'contact_address': 'test address',
+=======
+            'street': 'street七美',
+            'city': '中正區',
+            'state_id': self.env.ref('l10n_tw.state_tw_tpc').id,
+>>>>>>> upstream/18.0
             'company_type': 'company',
         })
         invoice_a = self.init_invoice(
@@ -1068,7 +1106,10 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1287,10 +1328,13 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1507,6 +1551,7 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1535,6 +1580,8 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1718,6 +1765,9 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2018,7 +2068,10 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2227,6 +2280,7 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2255,6 +2309,8 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2457,6 +2513,9 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

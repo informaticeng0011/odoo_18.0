@@ -377,7 +377,10 @@ class TestProductPricelist(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'base': 'pricelist',
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

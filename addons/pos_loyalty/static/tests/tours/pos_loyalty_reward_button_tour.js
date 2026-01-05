@@ -119,6 +119,11 @@ import { registry } from "@web/core/registry";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import * as ProductConfiguratorPopup from "@point_of_sale/../tests/tours/utils/product_configurator_util";
+import { negateStep } from "@point_of_sale/../tests/tours/utils/common";
+>>>>>>> upstream/18.0
 =======
 import * as ProductConfiguratorPopup from "@point_of_sale/../tests/tours/utils/product_configurator_util";
 import { negateStep } from "@point_of_sale/../tests/tours/utils/common";
@@ -691,6 +696,12 @@ registry.category("web_tour.tours").add("PosLoyaltyFreeProductTour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            ProductScreen.clickNumpad("9"),
+            ProductScreen.selectedOrderlineHas("Desk Organizer", "9.00"),
+            PosLoyalty.hasRewardLine("Free Product - Desk Organizer", "-15.30", "3.00"),
+>>>>>>> upstream/18.0
 =======
             ProductScreen.clickNumpad("9"),
             ProductScreen.selectedOrderlineHas("Desk Organizer", "9.00"),
@@ -1209,11 +1220,14 @@ registry.category("web_tour.tours").add("PosLoyaltyFreeProductTour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             PosLoyalty.hasRewardLine("Free Product - Whiteboard Pen", "-3.20", "1.00"),
             PosLoyalty.isRewardButtonHighlighted(false),
 
             PosLoyalty.orderTotalIs("9.14"),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1453,6 +1467,9 @@ registry.category("web_tour.tours").add("PosLoyaltyFreeProductTour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1754,6 +1771,10 @@ registry.category("web_tour.tours").add("test_loyalty_free_product_rewards_2", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            ProductScreen.clickDisplayedProduct("Desk Organizer"),
+>>>>>>> upstream/18.0
 =======
             ProductScreen.clickDisplayedProduct("Desk Organizer"),
 >>>>>>> upstream/18.0
@@ -2203,7 +2224,10 @@ registry.category("web_tour.tours").add("PosLoyaltySpecificDiscountWithRewardPro
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2685,6 +2709,9 @@ registry.category("web_tour.tours").add("PosLoyaltySpecificDiscountWithRewardPro
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3040,7 +3067,10 @@ registry.category("web_tour.tours").add("PosLoyaltySpecificDiscountWithRewardPro
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3122,6 +3152,9 @@ registry.category("web_tour.tours").add("PosLoyaltySpecificDiscountWithRewardPro
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3333,7 +3366,10 @@ registry.category("web_tour.tours").add("test_loyalty_on_order_with_fixed_tax", 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3720,6 +3756,9 @@ registry.category("web_tour.tours").add("test_multiple_reward_line_free_product"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

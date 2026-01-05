@@ -2,6 +2,7 @@
 # This file contains the translation of the following modules:
 # 	* pos_online_payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -816,16 +817,22 @@
 >>>>>>> upstream/18.0
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Larissa Manderfeld, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -1645,6 +1652,8 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Larissa Manderfeld, 2025\n"
@@ -1655,6 +1664,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
 "1 : 2;\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: pos_online_payment
@@ -1665,8 +1677,12 @@ msgstr "<strong>Error:</strong> la moneda falta o no es válida."
 #. module: pos_online_payment
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pay_confirmation
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "<strong>Error:</strong> There was a problem during the payment process."
+=======
+msgid "<strong>Error:</strong> There was a problem during the payment process."
+>>>>>>> upstream/18.0
 =======
 msgid "<strong>Error:</strong> There was a problem during the payment process."
 >>>>>>> upstream/18.0
@@ -1690,8 +1706,12 @@ msgstr "Se debe especificar una opción de pago."
 #. odoo-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "A validation payment cannot be used for a Point of Sale online payment."
+=======
+msgid "A validation payment cannot be used for a Point of Sale online payment."
+>>>>>>> upstream/18.0
 =======
 msgid "A validation payment cannot be used for a Point of Sale online payment."
 >>>>>>> upstream/18.0
@@ -1874,6 +1894,7 @@ msgstr "Pedido de TPV"
 #. module: pos_online_payment
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pos_payment_method_view_form_inherit_pos_online_payment
 msgid "Payment Providers"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2687,6 +2708,9 @@ msgstr "Proveedores de pago"
 =======
 msgstr "Proveedores de pago"
 >>>>>>> upstream/18.0
+=======
+msgstr "Proveedores de pago"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model:ir.model,name:pos_online_payment.model_payment_transaction
@@ -2767,8 +2791,13 @@ msgid ""
 "online payment method could not be found"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "El pago en línea del TPV (tx.id=%d) no se ha podido guardar correctamente ya"
 " que no fue posible encontrar el método de pago en línea"
+=======
+"El pago en línea del TPV (tx.id=%d) no se ha podido guardar correctamente ya "
+"que no fue posible encontrar el método de pago en línea"
+>>>>>>> upstream/18.0
 =======
 "El pago en línea del TPV (tx.id=%d) no se ha podido guardar correctamente ya "
 "que no fue posible encontrar el método de pago en línea"

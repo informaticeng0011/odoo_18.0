@@ -2,22 +2,29 @@
 # This file contains the translation of the following modules:
 # 	* auth_totp_mail_enforce
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Junko Augias, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Junko Augias, 2024
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -28,6 +35,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: ja\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Junko Augias, 2024\n"
@@ -36,6 +45,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
 
@@ -57,6 +69,7 @@ msgid ""
 "    <ul>\n"
 "        <t t-set=\"not_available\">N/A</t>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <li>Location: <t t-out=\"ctx.get('location') or not_available\"/></li>\n"
 "        <li>Device: <t t-out=\"ctx.get('device') or not_available\"/></li>\n"
 "        <li>Browser: <t t-out=\"ctx.get('browser') or not_available\"/></li>\n"
@@ -64,6 +77,8 @@ msgid ""
 "    </ul>\n"
 "    <p>If this is you, please enter the following code to complete the login:</p>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        <li>Location: <t t-out=\"ctx.get('location') or not_available\"/></"
 "li>\n"
 "        <li>Device: <t t-out=\"ctx.get('device') or not_available\"/></li>\n"
@@ -73,11 +88,15 @@ msgid ""
 "    </ul>\n"
 "    <p>If this is you, please enter the following code to complete the login:"
 "</p>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "    <t t-set=\"code_expiration\" t-value=\"object._get_totp_mail_code()\"/>\n"
 "    <t t-set=\"code\" t-value=\"code_expiration[0]\"/>\n"
 "    <t t-set=\"expiration\" t-value=\"code_expiration[1]\"/>\n"
 "    <div style=\"margin: 16px 0px 16px 0px; text-align: center;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "        <span t-out=\"code\" style=\"background-color:#faf9fa; border: 1px solid #dad8de; padding: 8px 16px 8px 16px; font-size: 24px; color: #875A7B; border-radius: 5px;\"/>\n"
 "    </div>\n"
@@ -95,6 +114,8 @@ msgid ""
 "    <p style=\"margin: 16px 0px 16px 0px; text-align: center;\">\n"
 "        <a t-att-href=\"object.get_totp_invite_url()\" style=\"background-color:#875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        <span t-out=\"code\" style=\"background-color:#faf9fa; border: 1px "
 "solid #dad8de; padding: 8px 16px 8px 16px; font-size: 24px; color: #875A7B; "
 "border-radius: 5px;\"/>\n"
@@ -117,6 +138,9 @@ msgid ""
 "        <a t-att-href=\"object.get_totp_invite_url()\" style=\"background-"
 "color:#875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: "
 "#fff; border-radius: 5px;\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            Activate my two-factor authentication\n"
 "        </a>\n"
@@ -130,16 +154,22 @@ msgstr ""
 "    <ul>\n"
 "        <t t-set=\"not_available\">N/A</t>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <li>ロケーション: <t t-out=\"ctx.get('location') or not_available\"/></li>\n"
 "        <li>デバイス: <t t-out=\"ctx.get('device') or not_available\"/></li>\n"
 "        <li>ブラウザ: <t t-out=\"ctx.get('browser') or not_available\"/></li>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        <li>ロケーション: <t t-out=\"ctx.get('location') or not_available\"/"
 "></li>\n"
 "        <li>デバイス: <t t-out=\"ctx.get('device') or not_available\"/></"
 "li>\n"
 "        <li>ブラウザ: <t t-out=\"ctx.get('browser') or not_available\"/></"
 "li>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "        <li>IPアドレス: <t t-out=\"ctx.get('ip') or not_available\"/></li>\n"
 "    </ul>\n"
@@ -149,7 +179,13 @@ msgstr ""
 "    <t t-set=\"expiration\" t-value=\"code_expiration[1]\"/>\n"
 "    <div style=\"margin: 16px 0px 16px 0px; text-align: center;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <span t-out=\"code\" style=\"background-color:#faf9fa; border: 1px solid #dad8de; padding: 8px 16px 8px 16px; font-size: 24px; color: #875A7B; border-radius: 5px;\"/>\n"
+=======
+"        <span t-out=\"code\" style=\"background-color:#faf9fa; border: 1px "
+"solid #dad8de; padding: 8px 16px 8px 16px; font-size: 24px; color: #875A7B; "
+"border-radius: 5px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "        <span t-out=\"code\" style=\"background-color:#faf9fa; border: 1px "
 "solid #dad8de; padding: 8px 16px 8px 16px; font-size: 24px; color: #875A7B; "
@@ -165,12 +201,15 @@ msgstr ""
 "\n"
 "    <p style=\"margin: 16px 0px 16px 0px;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        また、アカウントの安全性を高めるため、認証アプリを使用して2要素認証を有効にすることを強くお勧めします。\n"
 "    </p>\n"
 "\n"
 "    <p style=\"margin: 16px 0px 16px 0px; text-align: center;\">\n"
 "        <a t-att-href=\"object.get_totp_invite_url()\" style=\"background-color:#875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        また、アカウントの安全性を高めるため、認証アプリを使用して2要素認証を"
 "有効にすることを強くお勧めします。\n"
 "    </p>\n"
@@ -179,6 +218,9 @@ msgstr ""
 "        <a t-att-href=\"object.get_totp_invite_url()\" style=\"background-"
 "color:#875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: "
 "#fff; border-radius: 5px;\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            2要素承認を有効化する\n"
 "        </a>\n"
@@ -191,17 +233,23 @@ msgstr ""
 msgid ""
 "<i class=\"fa fa-envelope-o\"/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                To login, enter below the six-digit authentication code just sent via email to"
 msgstr ""
 "<i class=\"fa fa-envelope-o\"/>\n"
 "                ログインするには、電子メールで送信された6桁の認証コードを以下に入力して下さい。"
 =======
+=======
+>>>>>>> upstream/18.0
 "                To login, enter below the six-digit authentication code just "
 "sent via email to"
 msgstr ""
 "<i class=\"fa fa-envelope-o\"/>\n"
 "                ログインするには、電子メールで送信された6桁の認証コードを以下"
 "に入力して下さい。"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: auth_totp_mail_enforce
@@ -253,7 +301,12 @@ msgid ""
 "authentication method."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "従業員またはすべてのユーザー（ポータルユーザーを含む）に対して、他の2要素認証方法を有効にしていない場合、電子メールによる2要素認証を強制します。"
+=======
+"従業員またはすべてのユーザー（ポータルユーザーを含む）に対して、他の2要素認証"
+"方法を有効にしていない場合、電子メールによる2要素認証を強制します。"
+>>>>>>> upstream/18.0
 =======
 "従業員またはすべてのユーザー（ポータルユーザーを含む）に対して、他の2要素認証"
 "方法を有効にしていない場合、電子メールによる2要素認証を強制します。"
@@ -340,17 +393,23 @@ msgstr "認証が失敗しました。６桁のコードを再度確認してく
 #: model_terms:ir.ui.view,arch_db:auth_totp_mail_enforce.auth_totp_mail_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "We strongly recommend enabling the two-factor authentication using an authenticator app to help secure your account.\n"
 "                <br/>"
 msgstr ""
 "アカウントを保護するために、認証アプリを使用して2要素認証を有効にすることを強くお勧めします。\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "We strongly recommend enabling the two-factor authentication using an "
 "authenticator app to help secure your account.\n"
 "                <br/>"
 msgstr ""
 "アカウントを保護するために、認証アプリを使用して2要素認証を有効にすることを強"
 "くお勧めします。\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                <br/>"
 

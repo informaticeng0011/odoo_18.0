@@ -2,22 +2,29 @@
 # This file contains the translation of the following modules:
 # 	* stock_delivery
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Marianna Ciofani, 2025
 # Wil Odoo, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Marianna Ciofani, 2025
 # Wil Odoo, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
@@ -29,6 +36,8 @@ msgstr ""
 "Language: it\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Wil Odoo, 2025\n"
@@ -39,6 +48,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
 "1 : 2;\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock_delivery
@@ -127,8 +139,12 @@ msgstr "Annulla"
 #: model_terms:ir.ui.view,arch_db:stock_delivery.view_picking_withcarrier_out_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Cancelling a delivery may not be undoable. Are you sure you want to "
 "continue?"
+=======
+"Cancelling a delivery may not be undoable. Are you sure you want to continue?"
+>>>>>>> upstream/18.0
 =======
 "Cancelling a delivery may not be undoable. Are you sure you want to continue?"
 >>>>>>> upstream/18.0
@@ -223,12 +239,15 @@ msgstr "Elenco link tracciabilità"
 #: model:ir.model.fields,help:stock_delivery.field_delivery_carrier__invoice_policy
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Estimated Cost: the customer will be invoiced the estimated cost of the shipping.\n"
 "Real Cost: the customer will be invoiced the real cost of the shipping, the cost of theshipping will be updated on the SO after the delivery."
 msgstr ""
 "Costo stimato: al cliente verrà fatturato il costo stimato della spedizione.\n"
 "Costo reale: al cliente verrà fatturato il costo reale della spedizione, il costo della spedizione verrà aggiornato sull'ordine di acquisto in seguito alla consegna."
 =======
+=======
+>>>>>>> upstream/18.0
 "Estimated Cost: the customer will be invoiced the estimated cost of the "
 "shipping.\n"
 "Real Cost: the customer will be invoiced the real cost of the shipping, the "
@@ -239,6 +258,9 @@ msgstr ""
 "Costo reale: al cliente verrà fatturato il costo reale della spedizione, il "
 "costo della spedizione verrà aggiornato sull'ordine di acquisto in seguito "
 "alla consegna."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock_delivery
@@ -394,12 +416,15 @@ msgstr "Percorsi"
 #: model:ir.model.fields,help:stock_delivery.field_product_template__country_of_origin
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Rules of origin determine where goods originate, i.e. not where they have been shipped from, but where they have been produced or manufactured.\n"
 "As such, the ‘origin’ is the 'economic nationality' of goods traded in commerce."
 msgstr ""
 "Le norme di origine determinano l'origine dei beni, cioè non il luogo da cui sono stati spediti, ma quello in cui sono stati prodotti o fabbricati.\n"
 "In quanto tale, l'\"origine\" è la \"nazionalità economica\" dei beni scambiati in commercio."
 =======
+=======
+>>>>>>> upstream/18.0
 "Rules of origin determine where goods originate, i.e. not where they have "
 "been shipped from, but where they have been produced or manufactured.\n"
 "As such, the ‘origin’ is the 'economic nationality' of goods traded in "
@@ -409,6 +434,9 @@ msgstr ""
 "sono stati spediti, ma quello in cui sono stati prodotti o fabbricati.\n"
 "In quanto tale, l'\"origine\" è la \"nazionalità economica\" dei beni "
 "scambiati in commercio."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock_delivery
@@ -441,17 +469,23 @@ msgstr "Inviare al mittente"
 #: code:addons/stock_delivery/models/stock_picking.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Shipment sent to carrier %(carrier_name)s for shipping with tracking number "
 "%(ref)s"
 msgstr ""
 "Spedizione inviata al vettore %(carrier_name)s con numero di tracciabilità "
 "%(ref)s"
 =======
+=======
+>>>>>>> upstream/18.0
 "Shipment sent to carrier %(carrier_name)s for shipping with tracking number %"
 "(ref)s"
 msgstr ""
 "Spedizione inviata al vettore %(carrier_name)s con numero di tracciabilità %"
 "(ref)s"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock_delivery
@@ -628,8 +662,13 @@ msgstr "Peso:"
 msgid ""
 "You cannot pack products into the same package when they have different "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "carriers (i.e. check that all of their transfers have a carrier assigned and"
 " are using the same carrier)."
+=======
+"carriers (i.e. check that all of their transfers have a carrier assigned and "
+"are using the same carrier)."
+>>>>>>> upstream/18.0
 =======
 "carriers (i.e. check that all of their transfers have a carrier assigned and "
 "are using the same carrier)."
@@ -652,8 +691,13 @@ msgid ""
 "this order."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Impossibile tracciare l'ordine, nel metodo di consegna manca il collegamento"
 " al sito web del corriere."
+=======
+"Impossibile tracciare l'ordine, nel metodo di consegna manca il collegamento "
+"al sito web del corriere."
+>>>>>>> upstream/18.0
 =======
 "Impossibile tracciare l'ordine, nel metodo di consegna manca il collegamento "
 "al sito web del corriere."

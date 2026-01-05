@@ -2,7 +2,11 @@
 # This file contains the translation of the following modules:
 # 	* sale_pdf_quote_builder
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -11,7 +15,11 @@
 # Wil Odoo, 2024
 # Maitê Dietze, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -19,6 +27,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -30,6 +39,8 @@ msgstr ""
 "Language: pt_BR\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Maitê Dietze, 2024\n"
@@ -41,6 +52,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
 "1000000 == 0 ? 1 : 2;\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
@@ -67,17 +81,23 @@ msgstr "<span>Tipo de documento:</span>"
 #: code:addons/sale_pdf_quote_builder/models/sale_pdf_form_field.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A form field set as used in product documents can't be linked to a quotation"
 " document."
 msgstr ""
 "Um campo de formulário definido conforme usado em documentos de produtos não"
 " pode ser vinculado a um documento de cotação."
 =======
+=======
+>>>>>>> upstream/18.0
 "A form field set as used in product documents can't be linked to a quotation "
 "document."
 msgstr ""
 "Um campo de formulário definido conforme usado em documentos de produtos não "
 "pode ser vinculado a um documento de cotação."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
@@ -85,17 +105,23 @@ msgstr ""
 #: code:addons/sale_pdf_quote_builder/models/sale_pdf_form_field.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A form field set as used in quotation documents can't be linked to a product"
 " document."
 msgstr ""
 "Um campo de formulário definido como usado em documentos de cotação não pode"
 " ser vinculado a um documento de produto."
 =======
+=======
+>>>>>>> upstream/18.0
 "A form field set as used in quotation documents can't be linked to a product "
 "document."
 msgstr ""
 "Um campo de formulário definido como usado em documentos de cotação não pode "
 "ser vinculado a um documento de produto."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
@@ -124,6 +150,7 @@ msgstr "Todos os arquivos carregados"
 msgid ""
 "Allows you to share the document with your customers within a sale.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Leave it empty if you don't want to share this document with sales customer.\n"
 "On quote: the document will be sent to and accessible by customers at any time.\n"
 "e.g. this option can be useful to share Product description files.\n"
@@ -139,6 +166,8 @@ msgstr ""
 "por exemplo, essa opção pode ser útil para compartilhar o Manual do Usuário ou o conteúdo digital comprado no e-Commerce. \n"
 "Dentro da cotação: O documento será incluído no PDF da cotação e do pedido de venda entre as páginas de cabeçalho e a tabela de cotação."
 =======
+=======
+>>>>>>> upstream/18.0
 "Leave it empty if you don't want to share this document with sales "
 "customer.\n"
 "On quote: the document will be sent to and accessible by customers at any "
@@ -165,6 +194,9 @@ msgstr ""
 "ou o conteúdo digital comprado no e-Commerce. \n"
 "Dentro da cotação: O documento será incluído no PDF da cotação e do pedido "
 "de venda entre as páginas de cabeçalho e a tabela de cotação."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
@@ -335,8 +367,13 @@ msgstr "Campos de formulário incluídos"
 msgid "Form field name must be unique for a given document type."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "O nome do campo do formulário deve ser exclusivo para um determinado tipo de"
 " documento."
+=======
+"O nome do campo do formulário deve ser exclusivo para um determinado tipo de "
+"documento."
+>>>>>>> upstream/18.0
 =======
 "O nome do campo do formulário deve ser exclusivo para um determinado tipo de "
 "documento."
@@ -571,6 +608,7 @@ msgstr "Documentos do produto"
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.sale_order_template_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Provide header pages and footer pages to compose an attractive quotation with more information\n"
 "                        about your company, your products and you services. <br/>\n"
 "                        The pdf of your quotes will be built by putting together header pages, product descriptions,\n"
@@ -583,6 +621,8 @@ msgstr ""
 "                            as descrições de produto, os detalhes da cotação e, enfim, as páginas de rodapé.<br/>\n"
 "Se em em branco, serão utilizadas as configuradas nas definições da empresa.<br/>"
 =======
+=======
+>>>>>>> upstream/18.0
 "Provide header pages and footer pages to compose an attractive quotation "
 "with more information\n"
 "                        about your company, your products and you services. "
@@ -603,6 +643,9 @@ msgstr ""
 "e, enfim, as páginas de rodapé.<br/>\n"
 "Se em em branco, serão utilizadas as configuradas nas definições da empresa."
 "<br/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder

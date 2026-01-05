@@ -43,7 +43,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* payment
+=======
+# * payment
+>>>>>>> upstream/18.0
 =======
 # * payment
 >>>>>>> upstream/18.0
@@ -222,7 +226,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -356,6 +364,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-02-12 10:37+0000\n"
 <<<<<<< HEAD
@@ -498,6 +507,10 @@ msgstr ""
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2025-12-31 16:34+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2025-12-31 16:34+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Serbian (Latin script) <https://translate.odoo.com/projects/"
 "odoo-18/payment/sr_Latn/>\n"
@@ -507,6 +520,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "X-Generator: Weblate 5.12.2\n"
 <<<<<<< HEAD
@@ -636,6 +650,9 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_provider_onboarding_wizard___data_fetched
@@ -644,12 +661,15 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/payment/wizards/payment_onboarding_wizard.py:0
 msgid ""
 "<h3>Please make a payment to: </h3><ul><li>Bank: %s</li><li>Account Number: "
 "%s</li><li>Account Holder: %s</li></ul>"
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:payment.availability_report_records
 msgid "(ID:"
 msgstr ""
@@ -666,6 +686,9 @@ msgid ""
 "<h3>Please make a payment to: </h3><ul><li>Bank: %(bank)s</li><li>Account "
 "Number: %(account_number)s</li><li>Account Holder: %(account_holder)s</li></"
 "ul>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -759,6 +782,7 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:payment.payment_provider_onboarding_wizard_form
 msgid ""
 "<span><i class=\"oi oi-arrow-right\"/> How to configure your PayPal account</"
@@ -779,6 +803,8 @@ msgid ""
 "contact the website\n"
 "                                administrator."
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:payment.no_pms_available_warning
 msgid ""
 "<strong><i class=\"fa fa-file-text\"/> Show availability report</strong>"
@@ -797,6 +823,9 @@ msgstr ""
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.no_pms_available_warning
 msgid "<strong>No payment method available</strong>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -853,12 +882,15 @@ msgstr ""
 #. module: payment
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/payment/models/payment_token.py:0
 msgid "A token cannot be unarchived once it has been archived."
 msgstr ""
 
 #. module: payment
 #. odoo-python
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: code:addons/payment/models/payment_transaction.py:0
@@ -884,7 +916,10 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_ach_direct_debit
 msgid "ACH Direct Debit"
 msgstr ""
@@ -900,6 +935,9 @@ msgid "Abitab"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/payment/wizards/payment_onboarding_wizard.py:0
@@ -957,6 +995,7 @@ msgid "Activate"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Aktiviraj"
@@ -1085,12 +1124,17 @@ msgstr "Aktiviraj"
 msgstr "Aktiviraj"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Aktiviraj"
 
 #. module: payment
 #: model:ir.actions.server,name:payment.action_activate_stripe
 msgid "Activate Stripe"
 msgstr "Aktiviraj Stripe"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment
@@ -1112,7 +1156,10 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_affirm
 msgid "Affirm"
 msgstr ""
@@ -1148,6 +1195,9 @@ msgid "Alipay+"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:payment.field_payment_provider__allow_express_checkout
 msgid "Allow Express Checkout"
@@ -1160,12 +1210,18 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_alma
 msgid "Alma"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:payment.field_payment_capture_wizard__captured_amount
 msgid "Already Captured"
@@ -1178,12 +1234,18 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_amazon_pay
 msgid "Amazon Pay"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:payment.provider,name:payment.payment_provider_aps
 msgid "Amazon Payment Services"
@@ -1191,20 +1253,30 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/payment/static/src/xml/payment_post_processing.xml:0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_amex
 msgid "American Express"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:payment.field_payment_link_wizard__amount
 #: model:ir.model.fields,field_description:payment.field_payment_transaction__amount
 #: model_terms:ir.ui.view,arch_db:payment.confirm
 #: model_terms:ir.ui.view,arch_db:payment.pay
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:payment.payment_status
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:payment.payment_status
 >>>>>>> upstream/18.0
@@ -1223,7 +1295,11 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:payment.transaction_status
+=======
+#: model_terms:ir.ui.view,arch_db:payment.state_header
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:payment.state_header
 >>>>>>> upstream/18.0
@@ -1232,12 +1308,18 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:payment.state_header
 msgid "An error occurred while saving your payment method."
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:payment.payment_provider_onboarding_wizard_form
 msgid "Apply"
@@ -1266,12 +1348,18 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_argencard
 msgid "Argencard"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:payment.provider,name:payment.payment_provider_asiapay
 msgid "Asiapay"
@@ -1279,7 +1367,10 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_astropay
 msgid "Astropay TEF"
 msgstr ""
@@ -1290,6 +1381,9 @@ msgid "Atome"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:payment.field_payment_provider__auth_msg
 msgid "Authorize Message"
@@ -1317,12 +1411,18 @@ msgstr "Dostupnost"
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:payment.availability_report
 msgid "Availability report"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:payment.payment_method_search
 msgid "Available methods"
@@ -1330,7 +1430,10 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_axis
 msgid "Axis"
 msgstr ""
@@ -1406,6 +1509,9 @@ msgid "Bangkok Bank"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/payment/wizards/payment_onboarding_wizard.py:0
@@ -1413,6 +1519,7 @@ msgid "Bank"
 msgstr "Banka"
 
 #. module: payment
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.model.fields,field_description:payment.field_payment_provider_onboarding_wizard__journal_name
 msgid "Bank Name"
@@ -1586,6 +1693,8 @@ msgstr "Ime Banke"
 msgstr "Ime Banke"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_bank_account
 msgid "Bank Account"
 msgstr "Bankovni račun"
@@ -1669,6 +1778,9 @@ msgstr ""
 #: model:payment.method,name:payment.payment_method_boost
 msgid "Boost"
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment
@@ -1683,6 +1795,7 @@ msgid "Buckaroo"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.model.fields,field_description:payment.field_payment_transaction__callback_model_id
 msgid "Callback Document Model"
@@ -1707,6 +1820,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:payment.field_payment_transaction__callback_res_id
 msgid "Callback Record ID"
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_cimb_niaga
 msgid "CIMB Niaga"
 msgstr ""
@@ -1724,6 +1839,9 @@ msgstr ""
 #. module: payment
 #: model:payment.method,name:payment.payment_method_caixa
 msgid "Caixa"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -1781,7 +1899,10 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_card
 msgid "Card"
 msgstr ""
@@ -1817,6 +1938,9 @@ msgid "Cencosud"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:payment.field_payment_transaction__child_transaction_ids
 msgid "Child Transactions"
@@ -1840,12 +1964,18 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_cirrus
 msgid "Cirrus"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:payment.field_payment_transaction__partner_city
 #: model_terms:ir.ui.view,arch_db:payment.payment_transaction_form
@@ -1854,12 +1984,18 @@ msgstr "Grad"
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_clearpay
 msgid "Clearpay"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:payment.payment_capture_wizard_view_form
 #: model_terms:ir.ui.view,arch_db:payment.payment_link_wizard_view_form
@@ -1874,12 +2010,18 @@ msgstr "Kod"
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_codensa
 msgid "Codensa"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:payment.field_payment_provider__color
 msgid "Color"
@@ -1925,7 +2067,10 @@ msgstr "Kontakt"
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_cordial
 msgid "Cordial"
 msgstr ""
@@ -1936,6 +2081,9 @@ msgid "Cordobesa"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:payment.field_payment_provider__module_id
 msgid "Corresponding Module"
@@ -1943,6 +2091,10 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:payment.field_payment_method__supported_country_ids
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:payment.field_payment_method__supported_country_ids
 >>>>>>> upstream/18.0
@@ -1952,6 +2104,10 @@ msgstr "Zemlje"
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:payment.model_res_country
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model,name:payment.model_res_country
 >>>>>>> upstream/18.0
@@ -2011,6 +2167,7 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:payment.field_payment_provider__available_currency_ids
 msgid "Currencies"
 <<<<<<< HEAD
@@ -2183,6 +2340,8 @@ msgstr "Valute"
 msgstr "Valute"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_credit
 msgid "Credit Payment"
 msgstr ""
@@ -2192,6 +2351,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:payment.field_payment_provider__available_currency_ids
 msgid "Currencies"
 msgstr "Valute"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment
@@ -2215,7 +2377,10 @@ msgstr "Kupac"
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_dana
 msgid "Dana"
 msgstr ""
@@ -2231,6 +2396,9 @@ msgid "Davivienda"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,help:payment.field_payment_provider__sequence
 msgid "Define the display order"
@@ -2243,12 +2411,18 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_diners
 msgid "Diners Club International"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:payment.selection__payment_provider__state__disabled
 #: model_terms:ir.ui.view,arch_db:payment.payment_provider_form
@@ -2257,12 +2431,18 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_discover
 msgid "Discover"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:payment.field_payment_capture_wizard__display_name
 #: model:ir.model.fields,field_description:payment.field_payment_link_wizard__display_name
@@ -2276,7 +2456,10 @@ msgstr "Naziv za prikaz"
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_dolfin
 msgid "Dolfin"
 msgstr ""
@@ -2287,6 +2470,9 @@ msgid "Don't hesitate to contact us if you don't receive it."
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:payment.field_payment_provider__done_msg
 msgid "Done Message"
@@ -2299,7 +2485,10 @@ msgstr "Priprema"
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_duitnow
 msgid "DuitNow"
 msgstr ""
@@ -2320,6 +2509,9 @@ msgid "Elo"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:payment.field_payment_link_wizard__partner_email
 #: model:ir.model.fields,field_description:payment.field_payment_provider_onboarding_wizard__paypal_email_account
@@ -2351,6 +2543,7 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:payment.field_payment_provider__express_checkout_form_view_id
 msgid "Express Checkout Form Template"
 msgstr ""
@@ -2360,6 +2553,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:payment.field_payment_provider__support_express_checkout
 msgid "Express Checkout Supported"
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:payment.field_payment_method__support_express_checkout
 #: model:ir.model.fields,field_description:payment.field_payment_provider__support_express_checkout
 msgid "Express Checkout"
@@ -2368,6 +2563,9 @@ msgstr ""
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_provider__express_checkout_form_view_id
 msgid "Express Checkout Form Template"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -2381,7 +2579,10 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_fps
 msgid "FPS"
 msgstr ""
@@ -2402,6 +2603,9 @@ msgid "Floa Bank"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:payment.provider,name:payment.payment_provider_flutterwave
 msgid "Flutterwave"
@@ -2409,7 +2613,10 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_frafinance
 msgid "Frafinance"
 msgstr ""
@@ -2421,6 +2628,9 @@ msgid "Full & Partial"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:payment.selection__payment_method__support_refund__full_only
 #: model:ir.model.fields.selection,name:payment.selection__payment_provider__support_manual_capture__full_only
@@ -2469,6 +2679,7 @@ msgid "Full Only"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Samo ceo"
@@ -2597,12 +2808,17 @@ msgstr "Samo ceo"
 msgstr "Samo ceo"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Samo ceo"
 
 #. module: payment
 #: model:payment.method,name:payment.payment_method_gcash
 msgid "GCash"
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment
@@ -2622,12 +2838,18 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_giropay
 msgid "Giropay"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:payment.confirm
 msgid "Go to my Account <i class=\"oi oi-arrow-right ms-2\"/>"
@@ -2635,7 +2857,10 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_gopay
 msgid "GoPay"
 msgstr ""
@@ -2651,6 +2876,9 @@ msgid "GrabPay"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:payment.payment_provider_search
 #: model_terms:ir.ui.view,arch_db:payment.payment_token_search
@@ -2660,12 +2888,18 @@ msgstr "Grupiši po"
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_hd
 msgid "HD Bank"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model,name:payment.model_ir_http
 msgid "HTTP Routing"
@@ -2693,7 +2927,10 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_hipercard
 msgid "Hipercard"
 msgstr ""
@@ -2714,6 +2951,9 @@ msgid "Humm"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:payment.field_payment_capture_wizard__id
 #: model:ir.model.fields,field_description:payment.field_payment_link_wizard__id
@@ -2727,9 +2967,15 @@ msgstr "ID"
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/payment/static/src/xml/payment_post_processing.xml:0
 msgid "If the payment hasn't been confirmed you can contact us."
+=======
+#: model_terms:ir.ui.view,arch_db:payment.no_pms_available_warning
+msgid ""
+"If you believe that it is an error, please contact the website administrator."
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:payment.no_pms_available_warning
 msgid ""
@@ -2775,12 +3021,15 @@ msgstr "Instaliran"
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/payment/static/src/xml/payment_post_processing.xml:0
 msgid "Internal server error"
 msgstr ""
 
 #. module: payment
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:payment.field_payment_capture_wizard__is_amount_to_capture_valid
@@ -2799,12 +3048,18 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:payment.field_res_country__is_stripe_supported_country
 msgid "Is Stripe Supported Country"
 msgstr "Da li je zemlja podržana od strane Stripe provajdera"
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/payment/static/src/xml/payment_form_templates.xml:0
@@ -2813,7 +3068,10 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_jcb
 msgid "JCB"
 msgstr ""
@@ -2879,6 +3137,9 @@ msgid "LINE Pay"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:payment.field_payment_transaction__landing_route
 msgid "Landing Route"
@@ -2923,7 +3184,10 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_lider
 msgid "Lider"
 msgstr ""
@@ -2974,6 +3238,9 @@ msgid "Magna"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/payment/models/payment_transaction.py:0
@@ -2989,12 +3256,18 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_mandiri
 msgid "Mandiri"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:payment.selection__res_company__payment_onboarding_payment_method__manual
 msgid "Manual"
@@ -3007,12 +3280,18 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_mastercard
 msgid "MasterCard"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:payment.field_payment_provider__maximum_amount
 msgid "Maximum Amount"
@@ -3025,7 +3304,10 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_maya
 msgid "Maya"
 msgstr ""
@@ -3046,6 +3328,9 @@ msgid "Mercado Livre"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:payment.provider,name:payment.payment_provider_mercado_pago
 msgid "Mercado Pago"
@@ -3108,6 +3393,7 @@ msgid "Method"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Metod"
@@ -3236,6 +3522,8 @@ msgstr "Metod"
 msgstr "Metod"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Metod"
 
 #. module: payment
@@ -3252,6 +3540,9 @@ msgstr ""
 #: model:payment.method,name:payment.payment_method_mobile_pay
 msgid "MobilePay"
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment
@@ -3261,7 +3552,10 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_multibanco
 msgid "Multibanco"
 msgstr ""
@@ -3277,6 +3571,9 @@ msgid "NAPS"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:payment.field_payment_method__name
 #: model:ir.model.fields,field_description:payment.field_payment_provider__name
@@ -3288,7 +3585,10 @@ msgstr "Ime"
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_napas_card
 msgid "Napas Card"
 msgstr ""
@@ -3314,6 +3614,9 @@ msgid "Netbanking"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:payment.selection__payment_provider__code__none
 msgid "No Provider Set"
@@ -3334,12 +3637,18 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:payment.no_pms_available_warning
 msgid "No payment providers are configured."
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/payment/models/payment_token.py:0
@@ -3348,7 +3657,10 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:payment.no_pms_available_warning
 msgid "None is configured for:"
 msgstr ""
@@ -3374,6 +3686,9 @@ msgid "Octopus"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:payment.field_payment_provider__module_to_buy
 msgid "Odoo Enterprise Module"
@@ -3386,6 +3701,7 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model,name:payment.model_onboarding_onboarding_step
 msgid "Onboarding Step"
 <<<<<<< HEAD
@@ -3558,6 +3874,8 @@ msgstr "Onboarding korak"
 msgstr "Onboarding korak"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_omannet
 msgid "OmanNet"
 msgstr ""
@@ -3566,6 +3884,9 @@ msgstr ""
 #: model:ir.model,name:payment.model_onboarding_onboarding_step
 msgid "Onboarding Step"
 msgstr "Onboarding korak"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment
@@ -3574,6 +3895,7 @@ msgid "Onboarding Step Image"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:onboarding.onboarding.step,title:payment.onboarding_onboarding_step_payment_provider
 msgid "Online Payments"
@@ -3747,6 +4069,8 @@ msgstr "Online plaćanja"
 msgstr "Online plaćanja"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_online_banking_czech_republic
 msgid "Online Banking Czech Republic"
 msgstr ""
@@ -3770,6 +4094,9 @@ msgstr ""
 #: model:onboarding.onboarding.step,title:payment.onboarding_onboarding_step_payment_provider
 msgid "Online Payments"
 msgstr "Online plaćanja"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment
@@ -3807,12 +4134,18 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_open_banking
 msgid "Open banking"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:payment.field_payment_transaction__operation
 msgid "Operation"
@@ -3865,7 +4198,11 @@ msgid "Operation not supported."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Operacija nije podržana."
+>>>>>>> upstream/18.0
 =======
 msgstr "Operacija nije podržana."
 >>>>>>> upstream/18.0
@@ -4007,6 +4344,7 @@ msgid "Other payment methods"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.model.fields,field_description:payment.field_payment_provider_onboarding_wizard__paypal_pdt_token
 msgid "PDT Identity Token"
@@ -4187,6 +4525,8 @@ msgstr "Delimično"
 msgstr "Delimično"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_oxxopay
 msgid "Oxxo Pay"
 msgstr ""
@@ -4220,6 +4560,9 @@ msgstr ""
 #: model:ir.model.fields.selection,name:payment.selection__payment_provider__support_manual_capture__partial
 msgid "Partial"
 msgstr "Delimično"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment
@@ -4242,7 +4585,10 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_paylater_india
 msgid "Pay Later"
 msgstr ""
@@ -4273,6 +4619,9 @@ msgid "PayNow"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:payment.selection__payment_provider_onboarding_wizard__payment_method__paypal
 #: model:ir.model.fields.selection,name:payment.selection__res_company__payment_onboarding_payment_method__paypal
@@ -4283,7 +4632,10 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_paypay
 msgid "PayPay"
 msgstr ""
@@ -4304,6 +4656,9 @@ msgid "Paylib"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model,name:payment.model_payment_capture_wizard
 msgid "Payment Capture Wizard"
@@ -4326,12 +4681,18 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:payment.payment_link_wizard_view_form
 msgid "Payment Info"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:payment.field_payment_provider_onboarding_wizard__manual_post_msg
 msgid "Payment Instructions"
@@ -4425,13 +4786,19 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_unknown
 msgid "Payment method"
 msgstr ""
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.availability_report
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:payment.portal_my_home_payment
 msgid "Payment methods"
@@ -4484,7 +4851,11 @@ msgid "Payment processing failed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obrada plaćanja nije uspela"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obrada plaćanja nije uspela"
 >>>>>>> upstream/18.0
@@ -4627,7 +4998,10 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:payment.availability_report
 msgid "Payment providers"
 msgstr ""
@@ -4638,6 +5012,9 @@ msgid "Payment: Post-process transactions"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:payment.payment_token_form
 msgid "Payments"
@@ -4645,7 +5022,10 @@ msgstr "Placanja"
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_paypal
 msgid "Paypal"
 msgstr ""
@@ -4661,6 +5041,9 @@ msgid "Paytrail"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:payment.selection__payment_transaction__state__pending
 msgid "Pending"
@@ -4678,12 +5061,18 @@ msgstr "Telefon"
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_pix
 msgid "Pix"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/payment/models/payment_method.py:0
@@ -4709,7 +5098,10 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:payment.state_header
 msgid "Please wait..."
 msgstr ""
@@ -4730,6 +5122,9 @@ msgid "Presto"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:payment.field_payment_method__primary_payment_method_id
 msgid "Primary Payment Method"
@@ -4742,12 +5137,18 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_promptpay
 msgid "Prompt Pay"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:payment.field_payment_token__provider_id
 #: model:ir.model.fields,field_description:payment.field_payment_transaction__provider_id
@@ -4783,7 +5184,10 @@ msgstr "Objavljeno"
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_qris
 msgid "QRIS"
 msgstr ""
@@ -4799,6 +5203,9 @@ msgid "Ratepay"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:payment.provider,name:payment.payment_provider_razorpay
 msgid "Razorpay"
@@ -4806,12 +5213,18 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:payment.availability_report_records
 msgid "Reason:"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/payment/models/payment_transaction.py:0
@@ -4825,12 +5238,15 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/payment/static/src/xml/payment_post_processing.xml:0
 #: model:ir.model.fields,field_description:payment.field_payment_transaction__reference
 #: model_terms:ir.ui.view,arch_db:payment.confirm
 #: model_terms:ir.ui.view,arch_db:payment.pay
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_redpagos
 msgid "Redpagos"
 msgstr ""
@@ -4840,6 +5256,9 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:payment.confirm
 #: model_terms:ir.ui.view,arch_db:payment.pay
 #: model_terms:ir.ui.view,arch_db:payment.payment_status
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "Reference"
 msgstr "Referenca"
@@ -4853,6 +5272,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/payment/models/payment_transaction.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:payment.field_payment_method__support_refund
+#: model:ir.model.fields,field_description:payment.field_payment_provider__support_refund
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:payment.field_payment_method__support_refund
 #: model:ir.model.fields,field_description:payment.field_payment_provider__support_refund
@@ -4864,6 +5288,10 @@ msgstr "Povrat novca"
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_method__support_refund
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,help:payment.field_payment_provider__support_refund
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,help:payment.field_payment_provider__support_refund
 >>>>>>> upstream/18.0
@@ -4894,12 +5322,15 @@ msgstr "Model povezanog dokumenta"
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:payment.field_payment_provider__require_currency
 msgid "Require Currency"
 msgstr ""
 
 #. module: payment
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_revolut_pay
 msgid "Revolut Pay"
 msgstr ""
@@ -4911,12 +5342,16 @@ msgstr ""
 
 #. module: payment
 #: model:payment.method,name:payment.payment_method_sepa_direct_debit
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:payment.provider,name:payment.payment_provider_sepa_direct_debit
 msgid "SEPA Direct Debit"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:payment.form
 msgid "Save"
@@ -5090,6 +5525,8 @@ msgstr "Sačuvaj"
 msgstr "Sačuvaj"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_spei
 msgid "SPEI"
 msgstr ""
@@ -5108,6 +5545,9 @@ msgstr "Sačuvaj"
 #: model_terms:ir.ui.view,arch_db:payment.state_header
 msgid "Saving your payment method."
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment
@@ -5142,6 +5582,7 @@ msgid "Sequence"
 msgstr "Niz"
 
 #. module: payment
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.model.fields,field_description:payment.field_payment_provider__show_allow_express_checkout
 msgid "Show Allow Express Checkout"
@@ -5363,6 +5804,8 @@ msgstr "Preskoči"
 
 #. module: payment
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_shopback
 msgid "ShopBack"
 msgstr ""
@@ -5393,6 +5836,9 @@ msgid "Sofort"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/payment/wizards/payment_capture_wizard.py:0
@@ -5466,7 +5912,11 @@ msgid "Step Completed!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Korak je završen!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Korak je završen!"
 >>>>>>> upstream/18.0
@@ -5610,6 +6060,7 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:payment.field_payment_method__supported_country_ids
 msgid "Supported Countries"
 msgstr ""
@@ -5620,6 +6071,8 @@ msgid "Supported Currencies"
 msgstr ""
 
 #. module: payment
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:payment.field_payment_provider__payment_method_ids
@@ -5633,7 +6086,10 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:payment.availability_report_records
 msgid "Supported providers:"
 msgstr ""
@@ -5674,6 +6130,9 @@ msgid "TendoPay"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:payment.selection__payment_provider__state__test
 #: model_terms:ir.ui.view,arch_db:payment.payment_provider_form
@@ -5682,12 +6141,18 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:payment.state_header
 msgid "Thank you!"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/payment/controllers/portal.py:0
@@ -5862,12 +6327,18 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:payment.state_header
 msgid "The saving of your payment method has been canceled."
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,help:payment.field_payment_transaction__source_transaction_id
 msgid "The source transaction of the related child transactions"
@@ -5917,8 +6388,13 @@ msgstr ""
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The transaction with reference %(ref)s for %(amount)s encountered an error "
 "(%(provider_name)s)."
+=======
+"The transaction with reference %(ref)s for %(amount)s encountered an error (%"
+"(provider_name)s)."
+>>>>>>> upstream/18.0
 =======
 "The transaction with reference %(ref)s for %(amount)s encountered an error (%"
 "(provider_name)s)."
@@ -5930,8 +6406,13 @@ msgstr ""
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The transaction with reference %(ref)s for %(amount)s has been authorized "
 "(%(provider_name)s)."
+=======
+"The transaction with reference %(ref)s for %(amount)s has been authorized (%"
+"(provider_name)s)."
+>>>>>>> upstream/18.0
 =======
 "The transaction with reference %(ref)s for %(amount)s has been authorized (%"
 "(provider_name)s)."
@@ -5943,8 +6424,13 @@ msgstr ""
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The transaction with reference %(ref)s for %(amount)s has been confirmed "
 "(%(provider_name)s)."
+=======
+"The transaction with reference %(ref)s for %(amount)s has been confirmed (%"
+"(provider_name)s)."
+>>>>>>> upstream/18.0
 =======
 "The transaction with reference %(ref)s for %(amount)s has been confirmed (%"
 "(provider_name)s)."
@@ -5978,7 +6464,11 @@ msgstr "Nema šta da se plati."
 msgid ""
 "This action will also archive %s tokens that are registered with this "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "payment method. Archiving tokens is irreversible."
+=======
+"payment method."
+>>>>>>> upstream/18.0
 =======
 "payment method."
 >>>>>>> upstream/18.0
@@ -5990,7 +6480,11 @@ msgstr ""
 msgid ""
 "This action will also archive %s tokens that are registered with this "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "provider. Archiving tokens is irreversible."
+=======
+"provider. "
+>>>>>>> upstream/18.0
 =======
 "provider. "
 >>>>>>> upstream/18.0
@@ -6040,7 +6534,10 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_tienphong
 msgid "Tienphong"
 msgstr ""
@@ -6051,6 +6548,9 @@ msgid "Tinka"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:payment.field_payment_provider__token_inline_form_view_id
 msgid "Token Inline Form Template"
@@ -6060,7 +6560,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:payment.field_payment_method__support_tokenization
 #: model:ir.model.fields,field_description:payment.field_payment_provider__support_tokenization
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Tokenization Supported"
+=======
+msgid "Tokenization"
+>>>>>>> upstream/18.0
 =======
 msgid "Tokenization"
 >>>>>>> upstream/18.0
@@ -6075,6 +6579,7 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:payment.field_payment_capture_wizard__transaction_ids
 msgid "Transaction"
 <<<<<<< HEAD
@@ -6247,6 +6752,8 @@ msgstr "Transakcija"
 msgstr "Transakcija"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_toss_pay
 msgid "Toss Pay"
 msgstr ""
@@ -6260,6 +6767,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:payment.field_payment_capture_wizard__transaction_ids
 msgid "Transaction"
 msgstr "Transakcija"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment
@@ -6272,6 +6782,7 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:payment.field_payment_method__support_refund
 #: model:ir.model.fields,field_description:payment.field_payment_provider__support_refund
 msgid "Type of Refund Supported"
@@ -6282,6 +6793,8 @@ msgstr "Vrste povraćaja koje su podržane"
 #: code:addons/payment/static/src/xml/payment_post_processing.xml:0
 msgid "Unable to contact the server. Please wait."
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_truemoney
 msgid "TrueMoney"
 msgstr ""
@@ -6319,6 +6832,9 @@ msgstr ""
 #. module: payment
 #: model:payment.method,name:payment.payment_method_uatp
 msgid "Universal Air Travel Plan"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -6328,6 +6844,7 @@ msgid "Unpublished"
 msgstr "Neobjavljeno"
 
 #. module: payment
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:payment.payment_provider_form
 #: model_terms:ir.ui.view,arch_db:payment.payment_provider_kanban
@@ -6502,6 +7019,8 @@ msgstr "Nadogradi"
 msgstr "Nadogradi"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:payment.selection__payment_method__support_refund__none
 #: model:ir.model.fields.selection,name:payment.selection__payment_provider__support_refund__none
 msgid "Unsupported"
@@ -6522,6 +7041,9 @@ msgstr ""
 #: model:payment.method,name:payment.payment_method_visa
 msgid "VISA"
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment
@@ -6531,7 +7053,10 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_venmo
 msgid "Venmo"
 msgstr ""
@@ -6547,6 +7072,9 @@ msgid "Vipps"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:payment.field_payment_capture_wizard__void_remaining_amount
 msgid "Void Remaining Amount"
@@ -6559,7 +7087,10 @@ msgstr "Ništavna transakcija"
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_wallets_india
 msgid "Wallets India"
 msgstr ""
@@ -6570,6 +7101,9 @@ msgid "Walley"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/payment/models/payment_method.py:0
@@ -6590,6 +7124,7 @@ msgstr "Upozorenje!"
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/payment/static/src/xml/payment_post_processing.xml:0
 msgid "We are not able to find your payment, but don't worry."
@@ -6600,6 +7135,8 @@ msgstr ""
 #: code:addons/payment/static/src/js/post_processing.js:0
 msgid "We are processing your payment. Please wait."
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_wechat_pay
 msgid "WeChat Pay"
 msgstr ""
@@ -6612,6 +7149,9 @@ msgstr ""
 #. module: payment
 #: model:payment.method,name:payment.payment_method_webpay
 msgid "WebPay"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -6630,11 +7170,14 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,help:payment.field_payment_transaction__callback_is_done
 msgid "Whether the callback has already been executed"
 msgstr ""
 
 #. module: payment
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,help:payment.field_payment_provider__is_published
@@ -6650,12 +7193,18 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.provider,name:payment.payment_provider_worldline
 msgid "Worldline"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:payment.provider,name:payment.payment_provider_xendit
 msgid "Xendit"
@@ -6664,7 +7213,10 @@ msgstr ""
 #. module: payment
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/payment/models/payment_token.py:0
 msgid ""
 "You can't unarchive tokens linked to inactive payment methods or disabled "
@@ -6673,6 +7225,9 @@ msgstr ""
 
 #. module: payment
 #. odoo-python
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/payment/models/payment_provider.py:0
 msgid ""
@@ -6683,9 +7238,12 @@ msgstr ""
 #. module: payment
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/payment/models/payment_provider.py:0
 #, python-format
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/payment/models/payment_method.py:0
 msgid "You cannot delete the default payment method."
 msgstr ""
@@ -6693,6 +7251,9 @@ msgstr ""
 #. module: payment
 #. odoo-python
 #: code:addons/payment/models/payment_provider.py:0
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 "You cannot delete the payment provider %s; disable it or uninstall it "
@@ -6713,14 +7274,20 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/payment/static/src/xml/payment_post_processing.xml:0
 msgid "You should receive an email confirming your payment in a few minutes."
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:payment.payment_status
 msgid ""
 "You should receive an email confirming your payment within a few\n"
 "                                    minutes."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -6737,6 +7304,7 @@ msgstr ""
 #: model_terms:payment.provider,auth_msg:payment.payment_provider_mercado_pago
 #: model_terms:payment.provider,auth_msg:payment.payment_provider_mollie
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:payment.provider,auth_msg:payment.payment_provider_paypal
 #: model_terms:payment.provider,auth_msg:payment.payment_provider_razorpay
 #: model_terms:payment.provider,auth_msg:payment.payment_provider_sepa_direct_debit
@@ -6744,6 +7312,8 @@ msgstr ""
 #: model_terms:payment.provider,auth_msg:payment.payment_provider_stripe
 #: model_terms:payment.provider,auth_msg:payment.payment_provider_transfer
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:payment.provider,auth_msg:payment.payment_provider_nuvei
 #: model_terms:payment.provider,auth_msg:payment.payment_provider_paypal
 #: model_terms:payment.provider,auth_msg:payment.payment_provider_razorpay
@@ -6751,6 +7321,9 @@ msgstr ""
 #: model_terms:payment.provider,auth_msg:payment.payment_provider_stripe
 #: model_terms:payment.provider,auth_msg:payment.payment_provider_transfer
 #: model_terms:payment.provider,auth_msg:payment.payment_provider_worldline
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:payment.provider,auth_msg:payment.payment_provider_xendit
 msgid "Your payment has been authorized."
@@ -6769,6 +7342,7 @@ msgstr "Vaše plaćanje je autorizovano."
 #: model_terms:payment.provider,cancel_msg:payment.payment_provider_mercado_pago
 #: model_terms:payment.provider,cancel_msg:payment.payment_provider_mollie
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:payment.provider,cancel_msg:payment.payment_provider_paypal
 #: model_terms:payment.provider,cancel_msg:payment.payment_provider_razorpay
 #: model_terms:payment.provider,cancel_msg:payment.payment_provider_sepa_direct_debit
@@ -6776,6 +7350,8 @@ msgstr "Vaše plaćanje je autorizovano."
 #: model_terms:payment.provider,cancel_msg:payment.payment_provider_stripe
 #: model_terms:payment.provider,cancel_msg:payment.payment_provider_transfer
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:payment.provider,cancel_msg:payment.payment_provider_nuvei
 #: model_terms:payment.provider,cancel_msg:payment.payment_provider_paypal
 #: model_terms:payment.provider,cancel_msg:payment.payment_provider_razorpay
@@ -6783,6 +7359,9 @@ msgstr "Vaše plaćanje je autorizovano."
 #: model_terms:payment.provider,cancel_msg:payment.payment_provider_stripe
 #: model_terms:payment.provider,cancel_msg:payment.payment_provider_transfer
 #: model_terms:payment.provider,cancel_msg:payment.payment_provider_worldline
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:payment.provider,cancel_msg:payment.payment_provider_xendit
 msgid "Your payment has been cancelled."
@@ -6801,18 +7380,24 @@ msgstr ""
 #: model_terms:payment.provider,pending_msg:payment.payment_provider_mercado_pago
 #: model_terms:payment.provider,pending_msg:payment.payment_provider_mollie
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:payment.provider,pending_msg:payment.payment_provider_paypal
 #: model_terms:payment.provider,pending_msg:payment.payment_provider_razorpay
 #: model_terms:payment.provider,pending_msg:payment.payment_provider_sepa_direct_debit
 #: model_terms:payment.provider,pending_msg:payment.payment_provider_sips
 #: model_terms:payment.provider,pending_msg:payment.payment_provider_stripe
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:payment.provider,pending_msg:payment.payment_provider_nuvei
 #: model_terms:payment.provider,pending_msg:payment.payment_provider_paypal
 #: model_terms:payment.provider,pending_msg:payment.payment_provider_razorpay
 #: model_terms:payment.provider,pending_msg:payment.payment_provider_sepa_direct_debit
 #: model_terms:payment.provider,pending_msg:payment.payment_provider_stripe
 #: model_terms:payment.provider,pending_msg:payment.payment_provider_worldline
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:payment.provider,pending_msg:payment.payment_provider_xendit
 msgid ""
@@ -6832,6 +7417,7 @@ msgstr ""
 #: model_terms:payment.provider,done_msg:payment.payment_provider_mercado_pago
 #: model_terms:payment.provider,done_msg:payment.payment_provider_mollie
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:payment.provider,done_msg:payment.payment_provider_paypal
 #: model_terms:payment.provider,done_msg:payment.payment_provider_razorpay
 #: model_terms:payment.provider,done_msg:payment.payment_provider_sepa_direct_debit
@@ -6839,6 +7425,8 @@ msgstr ""
 #: model_terms:payment.provider,done_msg:payment.payment_provider_stripe
 #: model_terms:payment.provider,done_msg:payment.payment_provider_transfer
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:payment.provider,done_msg:payment.payment_provider_nuvei
 #: model_terms:payment.provider,done_msg:payment.payment_provider_paypal
 #: model_terms:payment.provider,done_msg:payment.payment_provider_razorpay
@@ -6846,6 +7434,9 @@ msgstr ""
 #: model_terms:payment.provider,done_msg:payment.payment_provider_stripe
 #: model_terms:payment.provider,done_msg:payment.payment_provider_transfer
 #: model_terms:payment.provider,done_msg:payment.payment_provider_worldline
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:payment.provider,done_msg:payment.payment_provider_xendit
 msgid "Your payment has been successfully processed."
@@ -6853,7 +7444,11 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:payment.transaction_status
+=======
+#: model_terms:ir.ui.view,arch_db:payment.state_header
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:payment.state_header
 >>>>>>> upstream/18.0
@@ -6862,7 +7457,10 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:payment.payment_status
 msgid "Your payment is on its way!"
 msgstr ""
@@ -6878,6 +7476,9 @@ msgid "Your payment methods"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:payment.payment_transaction_form
 msgid "ZIP"
@@ -6885,8 +7486,11 @@ msgstr "Poštanski broj"
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:payment.field_payment_transaction__partner_zip
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_zalopay
 msgid "Zalopay"
 msgstr ""
@@ -6894,11 +7498,15 @@ msgstr ""
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction__partner_zip
 #: model:payment.method,name:payment.payment_method_zip
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "Zip"
 msgstr "Poštanski broj"
 
 #. module: payment
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:payment.transaction_status
 msgid "danger"
@@ -6908,6 +7516,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:payment.transaction_status
 msgid "info"
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_cofidis
 msgid "cofidis"
 msgstr ""
@@ -6967,6 +7577,9 @@ msgstr ""
 #. odoo-python
 #: code:addons/payment/const.py:0
 msgid "no supported provider available"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -6977,11 +7590,14 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.actions.server,name:payment.cron_post_process_payment_tx_ir_actions_server
 msgid "payment: post-process transactions"
 msgstr ""
 
 #. module: payment
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:payment.payment_provider_kanban
@@ -6991,11 +7607,14 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:payment.transaction_status
 msgid "success"
 msgstr ""
 
 #. module: payment
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:payment.company_mismatch_warning
@@ -7006,11 +7625,14 @@ msgstr ""
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:payment.transaction_status
 msgid "warning"
 msgstr ""
 
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/payment/const.py:0
 msgid "tokenization not supported"
@@ -7028,6 +7650,9 @@ msgstr ""
 #~ msgid "Type of Refund Supported"
 #~ msgstr "Vrste povraćaja koje su podržane"
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #~ msgid ""
 #~ "<strong>No suitable payment option could be found.</strong><br/>\n"

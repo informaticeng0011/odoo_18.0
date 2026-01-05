@@ -57,8 +57,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* mail_group
 # 
+=======
+# * mail_group
+#
+>>>>>>> upstream/18.0
 =======
 # * mail_group
 #
@@ -417,6 +422,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Maitê Dietze, 2025
 # Wil Odoo, 2025
 <<<<<<< HEAD
@@ -1077,6 +1083,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # Wil Odoo, 2025
 # Daniel Reis, 2025
 # Maitê Dietze, 2025
@@ -1137,6 +1145,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1163,6 +1172,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
@@ -1297,6 +1309,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
 <<<<<<< HEAD
@@ -2041,6 +2054,11 @@ msgstr ""
 "PO-Revision-Date: 2025-11-18 13:13+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2025-11-18 13:13+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Portuguese <https://translate.odoo.com/projects/odoo-18/"
 "mail_group/pt/>\n"
 "Language: pt\n"
@@ -2106,6 +2124,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2266,7 +2287,11 @@ msgid ") <span invisible=\"not send_email\">and send them an email</span>."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr ") <span invisible=\"not send_email\">e enviar um e-mail</span>."
+>>>>>>> upstream/18.0
 =======
 msgstr ") <span invisible=\"not send_email\">e enviar um e-mail</span>."
 >>>>>>> upstream/18.0
@@ -2443,6 +2468,7 @@ msgid "<br/> You'll be notified as soon as some new content is posted."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "<br/> Você será notificado assim que algum conteúdo novo for publicado."
@@ -2574,12 +2600,17 @@ msgstr "<br/> Você será notificado assim que algum conteúdo novo for publicad
 msgstr ""
 "<br/> Você será notificado assim que algum conteúdo novo for publicado."
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"<br/> Você será notificado assim que algum conteúdo novo for publicado."
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:mail.template,body_html:mail_group.mail_template_list_subscribe
 msgid ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "                Hello,<br/><br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                You have requested to be subscribed to the mailing list <strong t-out=\"object.name or ''\"/>.\n"
 "                <br/><br/>\n"
@@ -3340,6 +3371,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "                You have requested to be subscribed to the mailing list "
 "<strong t-out=\"object.name or ''\"/>.\n"
 "                <br/><br/>\n"
@@ -3365,6 +3398,9 @@ msgstr ""
 "ação, basta ignorar a mensagem.\n"
 "            </div>\n"
 "        "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mail_group
@@ -3372,6 +3408,7 @@ msgstr ""
 msgid ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "                Hello,<br/><br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                You have requested to be unsubscribed to the mailing list <strong t-out=\"object.name or ''\"/>.\n"
 "                <br/><br/>\n"
@@ -4132,6 +4169,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "                You have requested to be unsubscribed to the mailing list "
 "<strong t-out=\"object.name or ''\"/>.\n"
 "                <br/><br/>\n"
@@ -4157,6 +4196,9 @@ msgstr ""
 "ação, basta ignorar a mensagem.\n"
 "            </div>\n"
 "        "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mail_group
@@ -4164,6 +4206,7 @@ msgstr ""
 msgid ""
 "<div>\n"
 "                <p>Hello <t t-out=\"object.partner_id.name or ''\"/>,</p>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                <p>Please find below the guidelines of the <t t-out=\"object.mail_group_id.name\"/> mailing list.</p>\n"
 "                <p><t t-out=\"object.mail_group_id.moderation_guidelines_msg or ''\"/></p>\n"
@@ -5521,6 +5564,8 @@ msgstr ""
 "\"Alias\"/>"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "                <p>Please find below the guidelines of the <t t-"
 "out=\"object.mail_group_id.name\"/> mailing list.</p>\n"
 "                <p><t t-out=\"object.mail_group_id.moderation_guidelines_msg "
@@ -5561,6 +5606,9 @@ msgid ""
 msgstr ""
 "<i class=\"fa fa-envelope-o\" role=\"img\" aria-label=\"Alias\" "
 "title=\"Alias\"/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mail_group
@@ -5612,6 +5660,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "<i class=\"fa fa-fw fa-user\" role=\"img\" aria-label=\"Recipients\" title="
 "\"Recipients\"/>"
@@ -5779,6 +5828,10 @@ msgstr ""
 =======
 "<i class=\"fa fa-fw fa-user\" role=\"img\" aria-label=\"Recipients\" title="
 "\"Recipients\"/>"
+>>>>>>> upstream/18.0
+=======
+"<i class=\"fa fa-fw fa-user\" role=\"img\" aria-label=\"Recipients\" "
+"title=\"Recipients\"/>"
 >>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-fw fa-user\" role=\"img\" aria-label=\"Recipients\" "
@@ -5834,6 +5887,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-arrow-left\" role=\"img\" aria-label=\"Previous message\" "
+"title=\"Previous message\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"oi oi-arrow-left\" role=\"img\" aria-label=\"Previous message\" "
 "title=\"Previous message\"/>"
@@ -6056,6 +6114,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-arrow-right\" role=\"img\" aria-label=\"Next message\" "
+"title=\"Next message\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"oi oi-arrow-right\" role=\"img\" aria-label=\"Next message\" "
 "title=\"Next message\"/>"
@@ -6232,6 +6295,7 @@ msgstr ""
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.message_attachments
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "<i class=\"oi oi-chevron-down\" role=\"img\" aria-label=\"Show attachments\""
 " title=\"Show attachments\"/>"
@@ -6447,11 +6511,16 @@ msgstr ""
 "title=\"Show attachments\"/>"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "<i class=\"oi oi-chevron-down\" role=\"img\" aria-label=\"Show attachments\" "
 "title=\"Show attachments\"/>"
 msgstr ""
 "<i class=\"oi oi-chevron-down\" role=\"img\" aria-label=\"Show attachments\" "
 "title=\"Show attachments\"/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mail_group
@@ -6503,6 +6572,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-chevron-down\" role=\"img\" aria-label=\"Show replies\" "
+"title=\"Show replies\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"oi oi-chevron-down\" role=\"img\" aria-label=\"Show replies\" "
 "title=\"Show replies\"/>"
@@ -6725,6 +6799,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "<i class=\"oi oi-chevron-right\" role=\"img\" aria-label=\"Hide attachments\""
 " title=\"Hide attachments\"/>"
@@ -6897,6 +6972,10 @@ msgstr ""
 "<i class=\"oi oi-chevron-right\" role=\"img\" aria-label=\"Hide "
 "attachments\" title=\"Hide attachments\"/>"
 >>>>>>> upstream/18.0
+=======
+"<i class=\"oi oi-chevron-right\" role=\"img\" aria-label=\"Hide "
+"attachments\" title=\"Hide attachments\"/>"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.messages_short
@@ -6947,6 +7026,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-chevron-right\" role=\"img\" aria-label=\"Hide replies\" "
+"title=\"Hide replies\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"oi oi-chevron-right\" role=\"img\" aria-label=\"Hide replies\" "
 "title=\"Hide replies\"/>"
@@ -7166,7 +7250,11 @@ msgid "<span class=\"bg-warning\">Pending</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"bg-warning\">Pendente</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"bg-warning\">Pendente</span>"
 >>>>>>> upstream/18.0
@@ -7300,6 +7388,7 @@ msgstr "<span class=\"bg-warning\">Pendente</span>"
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_message_view_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "<span class=\"ms-2 badge text-bg-success\" invisible=\"author_moderation != 'allow'\">Whitelisted</span>\n"
 "                            <span class=\"ms-2 badge text-bg-danger\" invisible=\"author_moderation != 'ban'\">Banned</span>"
@@ -7558,6 +7647,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "<span class=\"ms-2 badge text-bg-success\" invisible=\"author_moderation != "
 "'allow'\">Whitelisted</span>\n"
 "                            <span class=\"ms-2 badge text-bg-danger\" "
@@ -7567,6 +7658,9 @@ msgstr ""
 "'allow'\">Na lista de permissão</span>\n"
 "                            <span class=\"ms-2 badge text-bg-danger\" "
 "invisible=\"author_moderation != 'ban'\">Banidos</span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mail_group
@@ -7615,7 +7709,11 @@ msgid "<span class=\"mx-2\">-</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"mx-2\">-</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"mx-2\">-</span>"
 >>>>>>> upstream/18.0
@@ -7792,7 +7890,11 @@ msgid "<span>By thread</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Por thread</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Por thread</span>"
 >>>>>>> upstream/18.0
@@ -7972,6 +8074,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span>Nenhum grupo de e-mails ainda.</span>\n"
+"                    <br/>"
+>>>>>>> upstream/18.0
 =======
 "<span>Nenhum grupo de e-mails ainda.</span>\n"
 "                    <br/>"
@@ -8152,8 +8259,13 @@ msgid ""
 "creating new records for this alias."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Um dicionário de Python que será avaliado para fornecer valores predefinidos"
 " quando criar novos registos para este alias."
+=======
+"Um dicionário de Python que será avaliado para fornecer valores predefinidos "
+"quando criar novos registos para este alias."
+>>>>>>> upstream/18.0
 =======
 "Um dicionário de Python que será avaliado para fornecer valores predefinidos "
 "quando criar novos registos para este alias."
@@ -8231,6 +8343,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Adicione este endereço de e-mail à lista segura de pessoas e aceite todas as "
+"mensagens pendentes oriundas do mesmo autor."
+>>>>>>> upstream/18.0
 =======
 "Adicione este endereço de e-mail à lista segura de pessoas e aceite todas as "
 "mensagens pendentes oriundas do mesmo autor."
@@ -8496,7 +8613,11 @@ msgid "All messages of this group"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Todas as mensagens deste grupo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Todas as mensagens deste grupo"
 >>>>>>> upstream/18.0
@@ -8673,7 +8794,11 @@ msgid "Allowed Emails"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "E-mails permitidos"
+>>>>>>> upstream/18.0
 =======
 msgstr "E-mails permitidos"
 >>>>>>> upstream/18.0
@@ -8856,7 +8981,11 @@ msgid "Always Allow"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sempre permitir"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sempre permitir"
 >>>>>>> upstream/18.0
@@ -9034,7 +9163,11 @@ msgid "An email with instructions has been sent."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Um e-mail com instruções foi enviado."
+>>>>>>> upstream/18.0
 =======
 msgstr "Um e-mail com instruções foi enviado."
 >>>>>>> upstream/18.0
@@ -9231,7 +9364,11 @@ msgid "Author Moderation Status"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Status de moderação do autor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Status de moderação do autor"
 >>>>>>> upstream/18.0
@@ -9366,8 +9503,13 @@ msgstr "Status de moderação do autor"
 #: model:ir.model.fields,help:mail_group.field_mail_group_message__author_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Author of the message. If not set, email_from may hold an email address that"
 " did not match any partner."
+=======
+"Author of the message. If not set, email_from may hold an email address that "
+"did not match any partner."
+>>>>>>> upstream/18.0
 =======
 "Author of the message. If not set, email_from may hold an email address that "
 "did not match any partner."
@@ -9427,7 +9569,11 @@ msgid "Automatic notification"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Notificação automática"
+>>>>>>> upstream/18.0
 =======
 msgstr "Notificação automática"
 >>>>>>> upstream/18.0
@@ -9734,7 +9880,11 @@ msgid "Ban"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Banir"
+>>>>>>> upstream/18.0
 =======
 msgstr "Banir"
 >>>>>>> upstream/18.0
@@ -10292,7 +10442,11 @@ msgid "Ban the author of the message ("
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Banir o autor da mensagem ("
+>>>>>>> upstream/18.0
 =======
 msgstr "Banir o autor da mensagem ("
 >>>>>>> upstream/18.0
@@ -10473,6 +10627,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Banir este endereço de e-mail e rejeitar todas as mensagens pendentes do "
+"mesmo autor e enviar um e-mail a ele"
+>>>>>>> upstream/18.0
 =======
 "Banir este endereço de e-mail e rejeitar todas as mensagens pendentes do "
 "mesmo autor e enviar um e-mail a ele"
@@ -10819,7 +10978,11 @@ msgid "Banned"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Banido"
+>>>>>>> upstream/18.0
 =======
 msgstr "Banido"
 >>>>>>> upstream/18.0
@@ -11377,7 +11540,11 @@ msgid "Banned Emails"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "E-mails banidos"
+>>>>>>> upstream/18.0
 =======
 msgstr "E-mails banidos"
 >>>>>>> upstream/18.0
@@ -11559,7 +11726,11 @@ msgid "Can Manage"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pode gerenciar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pode gerenciar"
 >>>>>>> upstream/18.0
@@ -11736,7 +11907,11 @@ msgid "Can manage the members"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pode gerenciar usuários"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pode gerenciar usuários"
 >>>>>>> upstream/18.0
@@ -11918,7 +12093,11 @@ msgid "Choose or configure a custom domain"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Selecione ou configure um domínio personalizado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Selecione ou configure um domínio personalizado"
 >>>>>>> upstream/18.0
@@ -12095,7 +12274,11 @@ msgid "Confirm subscription to {{ object.name }}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Confirmar inscrição a {{ object.name }}"
+>>>>>>> upstream/18.0
 =======
 msgstr "Confirmar inscrição a {{ object.name }}"
 >>>>>>> upstream/18.0
@@ -12272,7 +12455,11 @@ msgid "Confirm unsubscription to {{ object.name }}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Confirmar cancelamento da inscrição a {{ object.name }}"
+>>>>>>> upstream/18.0
 =======
 msgstr "Confirmar cancelamento da inscrição a {{ object.name }}"
 >>>>>>> upstream/18.0
@@ -12455,7 +12642,11 @@ msgid "Create a Mail Group"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Criar grupo de e-mail"
+>>>>>>> upstream/18.0
 =======
 msgstr "Criar grupo de e-mail"
 >>>>>>> upstream/18.0
@@ -12632,7 +12823,11 @@ msgid "Create a new group"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Criar um novo grupo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Criar um novo grupo"
 >>>>>>> upstream/18.0
@@ -12826,7 +13021,11 @@ msgid "Current user is a moderator of the group"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O usuário atual é um moderador do grupo"
+>>>>>>> upstream/18.0
 =======
 msgstr "O usuário atual é um moderador do grupo"
 >>>>>>> upstream/18.0
@@ -13039,7 +13238,11 @@ msgid "Email %s is invalid"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O e-mail %s é inválido"
+>>>>>>> upstream/18.0
 =======
 msgstr "O e-mail %s é inválido"
 >>>>>>> upstream/18.0
@@ -13247,7 +13450,11 @@ msgid "Emails waiting an action for this group"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "E-mails aguardando uma ação para esse grupo"
+>>>>>>> upstream/18.0
 =======
 msgstr "E-mails aguardando uma ação para esse grupo"
 >>>>>>> upstream/18.0
@@ -13455,7 +13662,11 @@ msgid "Group Message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mensagem de grupo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mensagem de grupo"
 >>>>>>> upstream/18.0
@@ -13639,6 +13850,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Mensagem de grupo só pode estar vinculado a grupo de e-mails. O modelo atual "
+"é %s."
+>>>>>>> upstream/18.0
 =======
 "Mensagem de grupo só pode estar vinculado a grupo de e-mails. O modelo atual "
 "é %s."
@@ -13864,7 +14080,11 @@ msgid "Guidelines of group {{ object.mail_group_id.name }}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Orientações do grupo {{ object.mail_group_id.name }}"
+>>>>>>> upstream/18.0
 =======
 msgstr "Orientações do grupo {{ object.mail_group_id.name }}"
 >>>>>>> upstream/18.0
@@ -14171,7 +14391,11 @@ msgid "Hello"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Olá"
+>>>>>>> upstream/18.0
 =======
 msgstr "Olá"
 >>>>>>> upstream/18.0
@@ -14705,8 +14929,13 @@ msgstr "Id."
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_parent_thread_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "ID of the parent record holding the alias (example: project holding the task"
 " creation alias)"
+=======
+"ID of the parent record holding the alias (example: project holding the task "
+"creation alias)"
+>>>>>>> upstream/18.0
 =======
 "ID of the parent record holding the alias (example: project holding the task "
 "creation alias)"
@@ -14776,7 +15005,11 @@ msgid "Invalid action for URL generation (%s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ação inválida para geração de URL (%s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ação inválida para geração de URL (%s)"
 >>>>>>> upstream/18.0
@@ -14954,7 +15187,11 @@ msgid "Invalid email address “%s”"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Endereço de e-mail inválido “%s”"
+>>>>>>> upstream/18.0
 =======
 msgstr "Endereço de e-mail inválido “%s”"
 >>>>>>> upstream/18.0
@@ -15136,7 +15373,11 @@ msgid "Is Allowed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Está permitido"
+>>>>>>> upstream/18.0
 =======
 msgstr "Está permitido"
 >>>>>>> upstream/18.0
@@ -15313,7 +15554,11 @@ msgid "Is Banned"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Está banido"
+>>>>>>> upstream/18.0
 =======
 msgstr "Está banido"
 >>>>>>> upstream/18.0
@@ -15490,7 +15735,11 @@ msgid "Is Group Moderated"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O grupo é moderado"
+>>>>>>> upstream/18.0
 =======
 msgstr "O grupo é moderado"
 >>>>>>> upstream/18.0
@@ -15703,6 +15952,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Permita que as pessoas se inscrevam à sua lista online ou adicione-as "
+"manualmente."
+>>>>>>> upstream/18.0
 =======
 "Permita que as pessoas se inscrevam à sua lista online ou adicione-as "
 "manualmente."
@@ -15922,7 +16176,11 @@ msgid "Local-part based incoming detection"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Detecção de entrada baseada na parte local"
+>>>>>>> upstream/18.0
 =======
 msgstr "Detecção de entrada baseada na parte local"
 >>>>>>> upstream/18.0
@@ -16100,7 +16358,11 @@ msgid "Mail Group"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Grupo de distribuição"
+>>>>>>> upstream/18.0
 =======
 msgstr "Grupo de distribuição"
 >>>>>>> upstream/18.0
@@ -16277,7 +16539,11 @@ msgid "Mail Group Administrator"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Administrador do grupo de e-mails"
+>>>>>>> upstream/18.0
 =======
 msgstr "Administrador do grupo de e-mails"
 >>>>>>> upstream/18.0
@@ -16454,7 +16720,11 @@ msgid "Mail Group: Mailing List Subscription"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Grupo de e-mails: inscrição à lista de distribuição"
+>>>>>>> upstream/18.0
 =======
 msgstr "Grupo de e-mails: inscrição à lista de distribuição"
 >>>>>>> upstream/18.0
@@ -16631,7 +16901,11 @@ msgid "Mail Group: Mailing List Unsubscription"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Grupo de e-mails: cancelamento de inscrição à lista de distribuição"
+>>>>>>> upstream/18.0
 =======
 msgstr "Grupo de e-mails: cancelamento de inscrição à lista de distribuição"
 >>>>>>> upstream/18.0
@@ -16808,7 +17082,11 @@ msgid "Mail Group: Send Guidelines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Grupo de e-mails: enviar orientações"
+>>>>>>> upstream/18.0
 =======
 msgstr "Grupo de e-mails: enviar orientações"
 >>>>>>> upstream/18.0
@@ -16987,7 +17265,11 @@ msgid "Mail Groups"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Grupos de e-mails"
+>>>>>>> upstream/18.0
 =======
 msgstr "Grupos de e-mails"
 >>>>>>> upstream/18.0
@@ -17164,7 +17446,11 @@ msgid "Mail List: Notify group moderators"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lista de e-mails: notificar moderadores do grupo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lista de e-mails: notificar moderadores do grupo"
 >>>>>>> upstream/18.0
@@ -17341,7 +17627,11 @@ msgid "Mail Message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mensagem de e-mail"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mensagem de e-mail"
 >>>>>>> upstream/18.0
@@ -17518,7 +17808,11 @@ msgid "Mailing List Member"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Membro da lista de distribuição"
+>>>>>>> upstream/18.0
 =======
 msgstr "Membro da lista de distribuição"
 >>>>>>> upstream/18.0
@@ -17695,7 +17989,11 @@ msgid "Mailing List Message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mensagem da lista de distribuição"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mensagem da lista de distribuição"
 >>>>>>> upstream/18.0
@@ -17872,7 +18170,11 @@ msgid "Mailing List black/white list"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lista de bloqueio/lista segura da lista da distribuição"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lista de bloqueio/lista segura da lista da distribuição"
 >>>>>>> upstream/18.0
@@ -18057,6 +18359,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Grupos de e-mail são comunidades de pessoas que gostam de discutir um "
+"assunto específico juntas."
+>>>>>>> upstream/18.0
 =======
 "Grupos de e-mail são comunidades de pessoas que gostam de discutir um "
 "assunto específico juntas."
@@ -18403,7 +18710,11 @@ msgid "Mailing-List:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lista de distribuição:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lista de distribuição:"
 >>>>>>> upstream/18.0
@@ -18975,7 +19286,11 @@ msgid "Members Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Contagem de membros"
+>>>>>>> upstream/18.0
 =======
 msgstr "Contagem de membros"
 >>>>>>> upstream/18.0
@@ -19152,7 +19467,11 @@ msgid "Members of this group"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Membros deste grupo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Membros deste grupo"
 >>>>>>> upstream/18.0
@@ -19329,7 +19648,11 @@ msgid "Members only"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Apenas membros"
+>>>>>>> upstream/18.0
 =======
 msgstr "Apenas membros"
 >>>>>>> upstream/18.0
@@ -19511,7 +19834,11 @@ msgid "Message Rejection Explanation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Explicação da rejeição de mensagem"
+>>>>>>> upstream/18.0
 =======
 msgstr "Explicação da rejeição de mensagem"
 >>>>>>> upstream/18.0
@@ -19693,7 +20020,11 @@ msgid "Messages Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Total de mensagens"
+>>>>>>> upstream/18.0
 =======
 msgstr "Total de mensagens"
 >>>>>>> upstream/18.0
@@ -19870,7 +20201,11 @@ msgid "Messages Per Month"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mensagens por mês"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mensagens por mês"
 >>>>>>> upstream/18.0
@@ -20048,7 +20383,11 @@ msgid "Messages are pending moderation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "As mensagens necessitam de moderação"
+>>>>>>> upstream/18.0
 =======
 msgstr "As mensagens necessitam de moderação"
 >>>>>>> upstream/18.0
@@ -20225,7 +20564,11 @@ msgid "Messages that need an action"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mensagens que requerem uma ação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mensagens que requerem uma ação"
 >>>>>>> upstream/18.0
@@ -20402,7 +20745,11 @@ msgid "Moderate Messages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Moderar mensagens"
+>>>>>>> upstream/18.0
 =======
 msgstr "Moderar mensagens"
 >>>>>>> upstream/18.0
@@ -20712,7 +21059,11 @@ msgid "Moderated"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Moderado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Moderado"
 >>>>>>> upstream/18.0
@@ -21270,7 +21621,11 @@ msgid "Moderated By"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Moderado por"
+>>>>>>> upstream/18.0
 =======
 msgstr "Moderado por"
 >>>>>>> upstream/18.0
@@ -21447,7 +21802,11 @@ msgid "Moderated Emails"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "E-mails moderados"
+>>>>>>> upstream/18.0
 =======
 msgstr "E-mails moderados"
 >>>>>>> upstream/18.0
@@ -21624,7 +21983,11 @@ msgid "Moderated emails count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Contagem de e-mails moderados"
+>>>>>>> upstream/18.0
 =======
 msgstr "Contagem de e-mails moderados"
 >>>>>>> upstream/18.0
@@ -21801,7 +22164,11 @@ msgid "Moderated emails in this group"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "E-mails moderados neste grupo"
+>>>>>>> upstream/18.0
 =======
 msgstr "E-mails moderados neste grupo"
 >>>>>>> upstream/18.0
@@ -21979,7 +22346,11 @@ msgid "Moderated group must have moderators."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Um grupo moderado deve ter moderadores."
+>>>>>>> upstream/18.0
 =======
 msgstr "Um grupo moderado deve ter moderadores."
 >>>>>>> upstream/18.0
@@ -22284,7 +22655,11 @@ msgid "Moderation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Moderação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Moderação"
 >>>>>>> upstream/18.0
@@ -22842,7 +23217,11 @@ msgid "Moderation Lists"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Listas de moderação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Listas de moderação"
 >>>>>>> upstream/18.0
@@ -23019,7 +23398,11 @@ msgid "Moderation Rules"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Regras de moderação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Regras de moderação"
 >>>>>>> upstream/18.0
@@ -23323,7 +23706,11 @@ msgid "Moderations"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Moderações"
+>>>>>>> upstream/18.0
 =======
 msgstr "Moderações"
 >>>>>>> upstream/18.0
@@ -24008,7 +24395,11 @@ msgid "Moderator"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Moderador"
+>>>>>>> upstream/18.0
 =======
 msgstr "Moderador"
 >>>>>>> upstream/18.0
@@ -24694,7 +25085,11 @@ msgid "Moderators"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Moderadores"
+>>>>>>> upstream/18.0
 =======
 msgstr "Moderadores"
 >>>>>>> upstream/18.0
@@ -25253,7 +25648,11 @@ msgid "Moderators must have an email address."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Moderadores devem ter um endereço de e-mail."
+>>>>>>> upstream/18.0
 =======
 msgstr "Moderadores devem ter um endereço de e-mail."
 >>>>>>> upstream/18.0
@@ -25430,7 +25829,11 @@ msgid "My Company News"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Notícias da minha empresa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Notícias da minha empresa"
 >>>>>>> upstream/18.0
@@ -25572,6 +25975,7 @@ msgid ""
 "Need to unsubscribe? <br/>It's right here! <span class=\"oi fa-2x oi-arrow-"
 "down float-end\" role=\"img\" aria-label=\"\" title=\"Read this !\"/>"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25829,6 +26233,10 @@ msgstr ""
 "Deseja cancelar a inscrição? <br/>É por aqui! <span class=\"oi fa-2x oi-"
 "arrow-down float-end\" role=\"img\" aria-label=\"\" title=\"Read this !\"/>"
 >>>>>>> upstream/18.0
+=======
+"Deseja cancelar a inscrição? <br/>É por aqui! <span class=\"oi fa-2x oi-"
+"arrow-down float-end\" role=\"img\" aria-label=\"\" title=\"Read this !\"/>"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__moderation_guidelines
@@ -25878,6 +26286,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Novos membros neste grupo moderado automaticamente receberão as orientações."
+>>>>>>> upstream/18.0
 =======
 "Novos membros neste grupo moderado automaticamente receberão as orientações."
 >>>>>>> upstream/18.0
@@ -26054,7 +26466,11 @@ msgid "No Members in this list yet!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nenhum membro nesta lista ainda."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nenhum membro nesta lista ainda."
 >>>>>>> upstream/18.0
@@ -26231,7 +26647,11 @@ msgid "No Messages in this list yet!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nenhuma mensagem nesta lista ainda."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nenhuma mensagem nesta lista ainda."
 >>>>>>> upstream/18.0
@@ -26408,7 +26828,11 @@ msgid "Normalized Email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "E-mail normalizado"
+>>>>>>> upstream/18.0
 =======
 msgstr "E-mail normalizado"
 >>>>>>> upstream/18.0
@@ -26585,7 +27009,11 @@ msgid "Normalized From"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Normalizado a partir de"
+>>>>>>> upstream/18.0
 =======
 msgstr "Normalizado a partir de"
 >>>>>>> upstream/18.0
@@ -26762,7 +27190,11 @@ msgid "Notification message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mensagem de notificação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mensagem de notificação"
 >>>>>>> upstream/18.0
@@ -26939,7 +27371,11 @@ msgid "Notify Members"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Notificar membros"
+>>>>>>> upstream/18.0
 =======
 msgstr "Notificar membros"
 >>>>>>> upstream/18.0
@@ -27116,7 +27552,11 @@ msgid "Number of message in this group"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Número de mensagens neste grupo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Número de mensagens neste grupo"
 >>>>>>> upstream/18.0
@@ -27296,6 +27736,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Somente um administrador ou moderador pode enviar orientações para membros "
+"do grupo."
+>>>>>>> upstream/18.0
 =======
 "Somente um administrador ou moderador pode enviar orientações para membros "
 "do grupo."
@@ -27516,7 +27961,11 @@ msgid "Only members can send email to the mailing list."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Somente membros podem enviar um e-mail para a lista de distribuição."
+>>>>>>> upstream/18.0
 =======
 msgstr "Somente membros podem enviar um e-mail para a lista de distribuição."
 >>>>>>> upstream/18.0
@@ -27695,6 +28144,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Somente grupos selecionados de usuários podem enviar e-mails para a lista de "
+"distribuição."
+>>>>>>> upstream/18.0
 =======
 "Somente grupos selecionados de usuários podem enviar e-mails para a lista de "
 "distribuição."
@@ -27898,6 +28352,7 @@ msgstr "ID da Linha do Registo pai"
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_parent_model_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Parent model holding the alias. The model holding the alias reference is not"
 " necessarily the model given by alias_model_id (example: project "
 "(parent_model) and task (model))"
@@ -27905,12 +28360,17 @@ msgstr ""
 "Modelo pai que detém o alias. O modelo que detém a referência ao alias não é"
 " necessariamente o modelo determinado por alias_model_id (Ex.: project "
 =======
+=======
+>>>>>>> upstream/18.0
 "Parent model holding the alias. The model holding the alias reference is not "
 "necessarily the model given by alias_model_id (example: project "
 "(parent_model) and task (model))"
 msgstr ""
 "Modelo pai que detém o alias. O modelo que detém a referência ao alias não é "
 "necessariamente o modelo determinado por alias_model_id (Ex.: project "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "(parent_model) e task (model))"
 
@@ -27965,7 +28425,11 @@ msgid "Partners Member"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Membro usuário"
+>>>>>>> upstream/18.0
 =======
 msgstr "Membro usuário"
 >>>>>>> upstream/18.0
@@ -28142,7 +28606,11 @@ msgid "Pending Messages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mensagens pendentes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mensagens pendentes"
 >>>>>>> upstream/18.0
@@ -28319,7 +28787,11 @@ msgid "Pending Messages Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Contagem de mensagens pendentes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Contagem de mensagens pendentes"
 >>>>>>> upstream/18.0
@@ -28496,7 +28968,11 @@ msgid "Pending Moderation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Moderação pendente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Moderação pendente"
 >>>>>>> upstream/18.0
@@ -28676,6 +29152,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"As pessoas recebem uma notificação automática sobre suas mensagens "
+"aguardando moderação."
+>>>>>>> upstream/18.0
 =======
 "As pessoas recebem uma notificação automática sobre suas mensagens "
 "aguardando moderação."
@@ -28895,7 +29376,11 @@ msgid "Permanent Ban"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Banimento permanente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Banimento permanente"
 >>>>>>> upstream/18.0
@@ -29033,7 +29518,12 @@ msgid ""
 "- everyone: everyone can post\n"
 "- partners: only authenticated partners\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- followers: only followers of the related document or members of following channels\n"
+=======
+"- followers: only followers of the related document or members of following "
+"channels\n"
+>>>>>>> upstream/18.0
 =======
 "- followers: only followers of the related document or members of following "
 "channels\n"
@@ -29043,7 +29533,12 @@ msgstr ""
 "- todos: todos podem publicar\n"
 "- parceiros: apenas parceiros autenticados\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- seguidores: apenas seguidores do documento relacionado ou membros de canais seguidores\n"
+=======
+"- seguidores: apenas seguidores do documento relacionado ou membros de "
+"canais seguidores\n"
+>>>>>>> upstream/18.0
 =======
 "- seguidores: apenas seguidores do documento relacionado ou membros de "
 "canais seguidores\n"
@@ -29095,7 +29590,11 @@ msgid "Post to:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Publicar em:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Publicar em:"
 >>>>>>> upstream/18.0
@@ -29283,7 +29782,11 @@ msgid "Public Mailing List"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lista de distribuição pública"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lista de distribuição pública"
 >>>>>>> upstream/18.0
@@ -29484,7 +29987,11 @@ msgid "Reject Group Message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rejeitar mensagem de grupo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rejeitar mensagem de grupo"
 >>>>>>> upstream/18.0
@@ -29661,7 +30168,11 @@ msgid "Reject Silently"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rejeitar silenciosamente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rejeitar silenciosamente"
 >>>>>>> upstream/18.0
@@ -29838,7 +30349,11 @@ msgid "Reject the message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rejeitar a mensagem"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rejeitar a mensagem"
 >>>>>>> upstream/18.0
@@ -30022,7 +30537,11 @@ msgid "Remove message with explanation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Remover mensagem com explicação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Remover mensagem com explicação"
 >>>>>>> upstream/18.0
@@ -30204,7 +30723,11 @@ msgid "Search Group Message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Buscar mensagem no grupo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Buscar mensagem no grupo"
 >>>>>>> upstream/18.0
@@ -30381,7 +30904,11 @@ msgid "Search Mail Group Member"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Buscar membro do grupo de e-mail"
+>>>>>>> upstream/18.0
 =======
 msgstr "Buscar membro do grupo de e-mail"
 >>>>>>> upstream/18.0
@@ -30558,7 +31085,11 @@ msgid "Search Mail group"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Buscar grupo de e-mail"
+>>>>>>> upstream/18.0
 =======
 msgstr "Buscar grupo de e-mail"
 >>>>>>> upstream/18.0
@@ -30735,7 +31266,11 @@ msgid "Search Moderation List"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Buscar na lista de moderação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Buscar na lista de moderação"
 >>>>>>> upstream/18.0
@@ -30923,7 +31458,11 @@ msgid "Send & Ban"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Enviar e banir"
+>>>>>>> upstream/18.0
 =======
 msgstr "Enviar e banir"
 >>>>>>> upstream/18.0
@@ -31100,7 +31639,11 @@ msgid "Send & Reject"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Enviar e rejeitar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Enviar e rejeitar"
 >>>>>>> upstream/18.0
@@ -31287,7 +31830,11 @@ msgid "Send an email to the author of the message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Enviar um e-mail ao autor da mensagem"
+>>>>>>> upstream/18.0
 =======
 msgstr "Enviar um e-mail ao autor da mensagem"
 >>>>>>> upstream/18.0
@@ -31470,6 +32017,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Enviado a pessoas que se inscreveram a um grupo de e-mail com orientações de "
+"grupo"
+>>>>>>> upstream/18.0
 =======
 "Enviado a pessoas que se inscreveram a um grupo de e-mail com orientações de "
 "grupo"
@@ -31689,7 +32241,11 @@ msgid "Sent to people who unsubscribed from a mailing group"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Enviado a pessoas que cancelaram inscrição a um grupo de e-mail"
+>>>>>>> upstream/18.0
 =======
 msgstr "Enviado a pessoas que cancelaram inscrição a um grupo de e-mail"
 >>>>>>> upstream/18.0
@@ -31891,7 +32447,11 @@ msgid "Subscription confirmation to a mailing group"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Confirmação de inscrição a um grupo de e-mail"
+>>>>>>> upstream/18.0
 =======
 msgstr "Confirmação de inscrição a um grupo de e-mail"
 >>>>>>> upstream/18.0
@@ -32026,6 +32586,7 @@ msgstr "Confirmação de inscrição a um grupo de e-mail"
 #. odoo-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "Template \"mail_group.mail_template_guidelines\" was not found. No email has"
 " been sent. Please contact an administrator to fix this issue."
@@ -32241,11 +32802,16 @@ msgstr ""
 "mail foi enviado. Contate o administrador para resolver este problema."
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "Template \"mail_group.mail_template_guidelines\" was not found. No email has "
 "been sent. Please contact an administrator to fix this issue."
 msgstr ""
 "O modelo “mail_group.mail_template_guidelines” não foi encontrado. Nenhum e-"
 "mail foi enviado. Contate o administrador para resolver este problema."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mail_group
@@ -32300,7 +32866,11 @@ msgid "The \"Authorized Group\" is missing."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não há “grupo autorizado”."
+>>>>>>> upstream/18.0
 =======
 msgstr "Não há “grupo autorizado”."
 >>>>>>> upstream/18.0
@@ -32477,7 +33047,11 @@ msgid "The email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O e-mail"
+>>>>>>> upstream/18.0
 =======
 msgstr "O e-mail"
 >>>>>>> upstream/18.0
@@ -32655,7 +33229,11 @@ msgid "The email \"%s\" is not valid."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O e-mail “%s” não é válido."
+>>>>>>> upstream/18.0
 =======
 msgstr "O e-mail “%s” não é válido."
 >>>>>>> upstream/18.0
@@ -32833,7 +33411,11 @@ msgid "The group of the message do not match."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O grupo da mensagem não corresponde."
+>>>>>>> upstream/18.0
 =======
 msgstr "O grupo da mensagem não corresponde."
 >>>>>>> upstream/18.0
@@ -33011,7 +33593,11 @@ msgid "The guidelines description is empty."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A descrição das orientações está em branco."
+>>>>>>> upstream/18.0
 =======
 msgstr "A descrição das orientações está em branco."
 >>>>>>> upstream/18.0
@@ -33189,7 +33775,11 @@ msgid "The guidelines description is missing."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A descrição das orientações está ausente."
+>>>>>>> upstream/18.0
 =======
 msgstr "A descrição das orientações está ausente."
 >>>>>>> upstream/18.0
@@ -33324,6 +33914,7 @@ msgstr "A descrição das orientações está ausente."
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_model_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
@@ -33331,12 +33922,17 @@ msgstr ""
 "O modelo (Odoo Document Kind) ao qual esta alias corresponde. Qualquer email"
 " de entrada que não responda a um registo existente criará um novo registo "
 =======
+=======
+>>>>>>> upstream/18.0
 "The model (Odoo Document Kind) to which this alias corresponds. Any incoming "
 "email that does not reply to an existing record will cause the creation of a "
 "new record of this model (e.g. a Project Task)"
 msgstr ""
 "O modelo (Odoo Document Kind) ao qual esta alias corresponde. Qualquer email "
 "de entrada que não responda a um registo existente criará um novo registo "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "deste modelo (Ex.: uma Tarefa de Projeto)"
 
@@ -33396,7 +33992,11 @@ msgid "The notification message is missing."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A mensagem de notificação está ausente."
+>>>>>>> upstream/18.0
 =======
 msgstr "A mensagem de notificação está ausente."
 >>>>>>> upstream/18.0
@@ -33574,7 +34174,11 @@ msgid "The partner can not be found."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O usuário não foi encontrado."
+>>>>>>> upstream/18.0
 =======
 msgstr "O usuário não foi encontrado."
 >>>>>>> upstream/18.0
@@ -33752,7 +34356,11 @@ msgid "The record of the message should be the group."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O registro da mensagem deve ser o grupo."
+>>>>>>> upstream/18.0
 =======
 msgstr "O registro da mensagem deve ser o grupo."
 >>>>>>> upstream/18.0
@@ -33930,7 +34538,11 @@ msgid "This email is already subscribed."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Este e-mail já está inscrito."
+>>>>>>> upstream/18.0
 =======
 msgstr "Este e-mail já está inscrito."
 >>>>>>> upstream/18.0
@@ -34108,7 +34720,11 @@ msgid "This email is not subscribed."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Este e-mail não está inscrito."
+>>>>>>> upstream/18.0
 =======
 msgstr "Este e-mail não está inscrito."
 >>>>>>> upstream/18.0
@@ -34286,7 +34902,11 @@ msgid "This message can not be moderated"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Esta mensagem não pode ser moderada"
+>>>>>>> upstream/18.0
 =======
 msgstr "Esta mensagem não pode ser moderada"
 >>>>>>> upstream/18.0
@@ -34463,7 +35083,11 @@ msgid "This partner is already subscribed to the group"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Este usuário já está inscrito no grupo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Este usuário já está inscrito no grupo"
 >>>>>>> upstream/18.0
@@ -34641,7 +35265,11 @@ msgid "Those messages can not be moderated: %s."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "As seguintes mensagens não podem ser moderadas: %s."
+>>>>>>> upstream/18.0
 =======
 msgstr "As seguintes mensagens não podem ser moderadas: %s."
 >>>>>>> upstream/18.0
@@ -34957,6 +35585,7 @@ msgid "Unsubscribe:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Cancelar Subscrição"
@@ -35296,6 +35925,9 @@ msgstr "Cancelar Subscrição"
 >>>>>>> upstream/18.0
 =======
 msgstr "Cancelar Subscrição"
+>>>>>>> upstream/18.0
+=======
+msgstr "Cancelar Subscrição:"
 >>>>>>> upstream/18.0
 =======
 msgstr "Cancelar Subscrição:"
@@ -35517,6 +36149,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Quando as pessoas mandarem um e-mail para o alias da lista, elas aparecerão "
+"aqui."
+>>>>>>> upstream/18.0
 =======
 "Quando as pessoas mandarem um e-mail para o alias da lista, elas aparecerão "
 "aqui."
@@ -35864,7 +36501,11 @@ msgid "Whitelist"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lista segura"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lista segura"
 >>>>>>> upstream/18.0
@@ -36549,7 +37190,11 @@ msgid "Whitelisted"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Na lista segura"
+>>>>>>> upstream/18.0
 =======
 msgstr "Na lista segura"
 >>>>>>> upstream/18.0
@@ -37108,7 +37753,11 @@ msgid "Wrong status (%s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Status incorreto (%s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Status incorreto (%s)"
 >>>>>>> upstream/18.0
@@ -37285,7 +37934,11 @@ msgid "You can create only one rule for a given email address in a group."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Só é possível criar uma regra para um endereço de e-mail em um grupo."
+>>>>>>> upstream/18.0
 =======
 msgstr "Só é possível criar uma regra para um endereço de e-mail em um grupo."
 >>>>>>> upstream/18.0
@@ -37462,7 +38115,11 @@ msgid "You have messages to moderate, please go for the proceedings."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Você tem mensagens para moderar. Acesse as suas atividades."
+>>>>>>> upstream/18.0
 =======
 msgstr "Você tem mensagens para moderar. Acesse as suas atividades."
 >>>>>>> upstream/18.0
@@ -37766,7 +38423,11 @@ msgid "_______________________________________________"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "_______________________________________________"
+>>>>>>> upstream/18.0
 =======
 msgstr "_______________________________________________"
 >>>>>>> upstream/18.0
@@ -38457,7 +39118,11 @@ msgid "alias"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "alias"
+>>>>>>> upstream/18.0
 =======
 msgstr "alias"
 >>>>>>> upstream/18.0
@@ -39033,7 +39698,11 @@ msgid "and send an email to the author ("
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "e enviar um e-mail ao autor ("
+>>>>>>> upstream/18.0
 =======
 msgstr "e enviar um e-mail ao autor ("
 >>>>>>> upstream/18.0
@@ -39220,7 +39889,11 @@ msgid "e.g. \"Newsletter\""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ex., “Newsletter”"
+>>>>>>> upstream/18.0
 =======
 msgstr "ex., “Newsletter”"
 >>>>>>> upstream/18.0
@@ -39397,7 +40070,11 @@ msgid "e.g. mycompany.com"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ex.: minhaempresa.com"
+>>>>>>> upstream/18.0
 =======
 msgstr "ex.: minhaempresa.com"
 >>>>>>> upstream/18.0
@@ -39701,7 +40378,11 @@ msgid "group"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "grupo"
+>>>>>>> upstream/18.0
 =======
 msgstr "grupo"
 >>>>>>> upstream/18.0
@@ -40259,7 +40940,11 @@ msgid "has been"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "foi"
+>>>>>>> upstream/18.0
 =======
 msgstr "foi"
 >>>>>>> upstream/18.0
@@ -40395,7 +41080,12 @@ msgstr "foi"
 msgid ""
 "members<br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <i class=\"fa fa-fw fa-envelope-o\" role=\"img\" aria-label=\"Traffic\" title=\"Traffic\"/>"
+=======
+"                        <i class=\"fa fa-fw fa-envelope-o\" role=\"img\" "
+"aria-label=\"Traffic\" title=\"Traffic\"/>"
+>>>>>>> upstream/18.0
 =======
 "                        <i class=\"fa fa-fw fa-envelope-o\" role=\"img\" "
 "aria-label=\"Traffic\" title=\"Traffic\"/>"
@@ -40463,7 +41153,11 @@ msgid "subscribed to"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "inscrito à"
+>>>>>>> upstream/18.0
 =======
 msgstr "inscrito à"
 >>>>>>> upstream/18.0
@@ -40640,7 +41334,11 @@ msgid "the list"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "lista"
+>>>>>>> upstream/18.0
 =======
 msgstr "lista"
 >>>>>>> upstream/18.0
@@ -40817,7 +41515,11 @@ msgid "unsubscribed from"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "removido da"
+>>>>>>> upstream/18.0
 =======
 msgstr "removido da"
 >>>>>>> upstream/18.0

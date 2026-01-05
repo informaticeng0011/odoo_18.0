@@ -2,22 +2,29 @@
 # This file contains the translation of the following modules:
 # 	* payment_demo
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Fernanda Alvarez, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Fernanda Alvarez, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -29,6 +36,8 @@ msgstr ""
 "Language: es_419\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Fernanda Alvarez, 2025\n"
@@ -40,6 +49,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
 "1 : 2;\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment_demo
@@ -53,7 +65,12 @@ msgid ""
 "                        Pending\n"
 "                    </option>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <option value=\"cancel\" title=\"Payment cancelled by customer\">\n"
+=======
+"                    <option value=\"cancel\" title=\"Payment cancelled by "
+"customer\">\n"
+>>>>>>> upstream/18.0
 =======
 "                    <option value=\"cancel\" title=\"Payment cancelled by "
 "customer\">\n"
@@ -73,17 +90,23 @@ msgstr ""
 "                        Pendiente\n"
 "                    </option>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <option value=\"cancel\" title=\"El cliente canceló el pago\">\n"
 "                        Cancelado\n"
 "                    </option>\n"
 "                    <option value=\"error\" title=\"Ocurrió un error al procesar el pago\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                    <option value=\"cancel\" title=\"El cliente canceló el "
 "pago\">\n"
 "                        Cancelado\n"
 "                    </option>\n"
 "                    <option value=\"error\" title=\"Ocurrió un error al "
 "procesar el pago\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                        Error\n"
 "                    </option>\n"
@@ -152,6 +175,7 @@ msgstr "Cancelada"
 #. module: payment_demo
 #: model:ir.model.fields,field_description:payment_demo.field_payment_transaction__capture_manually
 msgid "Capture Amount Manually"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -913,6 +937,9 @@ msgstr "Capturar el importe de forma manual"
 =======
 msgstr "Capturar el importe de forma manual"
 >>>>>>> upstream/18.0
+=======
+msgstr "Capturar el importe de forma manual"
+>>>>>>> upstream/18.0
 
 #. module: payment_demo
 #: model:ir.model.fields,help:payment_demo.field_payment_transaction__capture_manually
@@ -1019,8 +1046,13 @@ msgstr "Los pagos con este método de pago serán <b>exitosos</b>."
 #: model_terms:ir.ui.view,arch_db:payment_demo.token_inline_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Payments made with this payment method will be automatically "
 "<b>cancelled</b>."
+=======
+"Payments made with this payment method will be automatically <b>cancelled</"
+"b>."
+>>>>>>> upstream/18.0
 =======
 "Payments made with this payment method will be automatically <b>cancelled</"
 "b>."
@@ -1038,8 +1070,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:payment_demo.token_inline_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Payments made with this payment method will simulate a processing "
 "<b>error</b>."
+=======
+"Payments made with this payment method will simulate a processing <b>error</"
+"b>."
+>>>>>>> upstream/18.0
 =======
 "Payments made with this payment method will simulate a processing <b>error</"
 "b>."

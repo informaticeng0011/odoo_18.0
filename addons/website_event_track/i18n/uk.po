@@ -2,22 +2,29 @@
 # This file contains the translation of the following modules:
 # 	* website_event_track
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2024
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:41+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
@@ -29,6 +36,8 @@ msgstr ""
 "Language: uk\n"
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2024\n"
@@ -41,12 +50,16 @@ msgstr ""
 "11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % "
 "100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || "
 "(n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:mail.template,body_html:website_event_track.mail_template_data_track_confirmation
 msgid ""
 "\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "    Dear <t t-out=\"object.partner_id.name or object.partner_name or ''\">Brandon Freeman</t><br/>\n"
 "    We are pleased to inform you that your proposal <t t-out=\"object.name or ''\">What This Event Is All About</t> has been accepted and confirmed for the event <t t-out=\"object.event_id.name or ''\">OpenWood Collection Online Reveal</t>.\n"
@@ -55,6 +68,8 @@ msgid ""
 "    <div style=\"margin: 16px 0px 16px 0px;\">\n"
 "        <a t-attf-href=\"/event/{{ object.event_id.id }}/track/{{ object.id }}\" style=\"padding: 8px 16px 8px 16px; font-size: 14px; color: #FFFFFF; text-decoration: none !important; background-color: #875A7B; border: 0px solid #875A7B; border-radius:3px\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "    Dear <t t-out=\"object.partner_id.name or object.partner_name or "
 "''\">Brandon Freeman</t><br/>\n"
 "    We are pleased to inform you that your proposal <t t-out=\"object.name "
@@ -68,6 +83,9 @@ msgid ""
 "{{ object.id }}\" style=\"padding: 8px 16px 8px 16px; font-size: 14px; "
 "color: #FFFFFF; text-decoration: none !important; background-color: #875A7B; "
 "border: 0px solid #875A7B; border-radius:3px\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            View Talk\n"
 "        </a>\n"
@@ -77,7 +95,12 @@ msgid ""
 "    <t t-if=\"user.signature\" data-o-mail-quote-container=\"1\">\n"
 "        <br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+=======
+"        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-"
+"o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+>>>>>>> upstream/18.0
 =======
 "        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-"
 "o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
@@ -197,13 +220,19 @@ msgstr "<span class=\"fa fa-plus me-1\"/> Запланувати завданн�
 msgid ""
 "<span class=\"o_wetrack_proposal_error_section text-danger d-none ml8\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <i class=\"fa fa-close mr4\" role=\"img\" aria-label=\"Error\" title=\"Error\"/>\n"
 "                                    <span class=\"o_wetrack_proposal_error_message\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                    <i class=\"fa fa-close mr4\" "
 "role=\"img\" aria-label=\"Error\" title=\"Error\"/>\n"
 "                                    <span "
 "class=\"o_wetrack_proposal_error_message\"/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                </span>"
 msgstr ""
@@ -266,8 +295,12 @@ msgstr "<strong>Розташування:</strong>"
 msgid "A technical explanation of how to use computer design apps"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Технічне пояснення того, як використовувати додатки для комп'ютерного "
 "дизайну"
+=======
+"Технічне пояснення того, як використовувати додатки для комп'ютерного дизайну"
+>>>>>>> upstream/18.0
 =======
 "Технічне пояснення того, як використовувати додатки для комп'ютерного дизайну"
 >>>>>>> upstream/18.0
@@ -425,6 +458,7 @@ msgstr ""
 #: model_terms:event.track,description:website_event_track.event_7_track_17
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "As you may have heard before, making your own furniture is actually not as difficult or as complicated as you think.\n"
 "    In fact, some projects are so easy anyone could successfully complete them. For example, making a cute stool out of\n"
 "    a old tire is a real piece of cake and if you’re in need of a coffee table you can easily put one together using\n"
@@ -434,6 +468,8 @@ msgstr ""
 "    Насправді, деякі проекти настільки прості, що кожен може успішно їх виконати. Наприклад, зробити милий табурет зі\n"
 " старої шини — справжня штука, і якщо вам потрібен журнальний столик, ви можете легко зібрати його, використовуючи дерев’яні ящики."
 =======
+=======
+>>>>>>> upstream/18.0
 "As you may have heard before, making your own furniture is actually not as "
 "difficult or as complicated as you think.\n"
 "    In fact, some projects are so easy anyone could successfully complete "
@@ -448,6 +484,9 @@ msgstr ""
 "виконати. Наприклад, зробити милий табурет зі\n"
 " старої шини — справжня штука, і якщо вам потрібен журнальний столик, ви "
 "можете легко зібрати його, використовуючи дерев’яні ящики."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_event_track
@@ -1195,17 +1234,23 @@ msgstr ""
 #: model:ir.model.fields,help:website_event_track.field_event_track__wishlisted_by_default
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If set, the talk will be set as favorite for each attendee registered to the"
 " event."
 msgstr ""
 "Якщо налаштовано, виступ буде встановлено як улюблений для кожного учасника,"
 " зареєстрованого на подію."
 =======
+=======
+>>>>>>> upstream/18.0
 "If set, the talk will be set as favorite for each attendee registered to the "
 "event."
 msgstr ""
 "Якщо налаштовано, виступ буде встановлено як улюблений для кожного учасника, "
 "зареєстрованого на подію."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_event_track
@@ -1856,8 +1901,13 @@ msgid ""
 "right stage)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Відправлено спікерам, чий запит на виступ підтверджено (встановіть шаблон на"
 " правильному етапі)"
+=======
+"Відправлено спікерам, чий запит на виступ підтверджено (встановіть шаблон на "
+"правильному етапі)"
+>>>>>>> upstream/18.0
 =======
 "Відправлено спікерам, чий запит на виступ підтверджено (встановіть шаблон на "
 "правильному етапі)"
@@ -2092,13 +2142,19 @@ msgstr ""
 #: model_terms:event.track,description:website_event_track.event_7_track_5
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "There are several variants of wood is available in the world but we are talking about most expensive\n"
 "    ones in the world and keeping to the point we have arranged ten most expensive wood."
 =======
+=======
+>>>>>>> upstream/18.0
 "There are several variants of wood is available in the world but we are "
 "talking about most expensive\n"
 "    ones in the world and keeping to the point we have arranged ten most "
 "expensive wood."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 "У світі існує кілька варіантів деревини, але ми говоримо про найдорожчі \n"
@@ -2122,8 +2178,12 @@ msgstr "Це стандартні доповіді зі слайдами, роз
 #: model_terms:ir.actions.act_window,help:website_event_track.event_track_visitor_action
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "They will be created automatically once attendees start browsing your "
 "events."
+=======
+"They will be created automatically once attendees start browsing your events."
+>>>>>>> upstream/18.0
 =======
 "They will be created automatically once attendees start browsing your events."
 >>>>>>> upstream/18.0
@@ -2138,8 +2198,13 @@ msgid ""
 "format)."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "У цьому полі міститься зображення, яке використовується як значок мобільного"
 " додатка на веб-сайті (формат PNG)."
+=======
+"У цьому полі міститься зображення, яке використовується як значок мобільного "
+"додатка на веб-сайті (формат PNG)."
+>>>>>>> upstream/18.0
 =======
 "У цьому полі міститься зображення, яке використовується як значок мобільного "
 "додатка на веб-сайті (формат PNG)."
@@ -2213,12 +2278,15 @@ msgstr "Топ-10 найдорожчої деревини у світі"
 #: model_terms:event.track,description:website_event_track.event_7_track_5
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Top most expensive wood in the world is quite interesting topic and several people may be surprised\n"
 "    that there are hundreds of wood types exist around the globe following different properties and use."
 msgstr ""
 "Найдорожча деревина у світі є досить цікавою темою, і деякі люди можуть бути здивовані, що в усьому світі \n"
 "існують сотні видів деревини, які відрізняються властивостями та використанням."
 =======
+=======
+>>>>>>> upstream/18.0
 "Top most expensive wood in the world is quite interesting topic and several "
 "people may be surprised\n"
 "    that there are hundreds of wood types exist around the globe following "
@@ -2228,6 +2296,9 @@ msgstr ""
 "здивовані, що в усьому світі \n"
 "існують сотні видів деревини, які відрізняються властивостями та "
 "використанням."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_event_track
@@ -2408,6 +2479,7 @@ msgstr "Непрочитані повідомлення"
 
 #. module: website_event_track
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:event.track,description:website_event_track.event_7_track_6
 msgid ""
 "Use these simple steps to easily haul LONG lumber in a short box pickup truck.  A dose of carpenter's\n"
@@ -2418,22 +2490,30 @@ msgstr ""
 " теслі разом із парою дощок, міцним ремінцем і кількома шурупами — це все, що я використовую, щоб легко перетягувати\n"
 " довгі дошки з лісоскладу до наступного рівня столярного цеху або на робоче місце."
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/website_event_track/models/event_track.py:0
 #: code:addons/website_event_track/models/website_visitor.py:0
 msgid "Unsupported 'Not In' operation on track wishlist visitors"
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:event.track,description:website_event_track.event_7_track_6
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Using a unique wrapping method for a tie down strap (NOT Bungee cords!!!) allows lumber to be\n"
 "    cinched securely WITHOUT the need to tie and untie tricky or complicated knots."
 msgstr ""
 "Використання унікального методу обгортання ремінця (НЕ шнурів Bungee!!!) дозволяє надійно закріплювати пиломатеріали \n"
 =======
+=======
+>>>>>>> upstream/18.0
 "Use these simple steps to easily haul LONG lumber in a short box pickup "
 "truck.  A dose of carpenter's\n"
 "    ingenuity along with a couple boards, a sturdy strap and a few screws "
@@ -2458,6 +2538,9 @@ msgid ""
 msgstr ""
 "Використання унікального методу обгортання ремінця (НЕ шнурів Bungee!!!) "
 "дозволяє надійно закріплювати пиломатеріали \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "БЕЗ необхідності зав’язувати та розв’язувати складні вузли."
 
@@ -2630,8 +2713,12 @@ msgid ""
 "talk."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Хто виступатиме? Ми покажемо це учасникам, щоб продемонструвати вашу "
 "промову."
+=======
+"Хто виступатиме? Ми покажемо це учасникам, щоб продемонструвати вашу промову."
+>>>>>>> upstream/18.0
 =======
 "Хто виступатиме? Ми покажемо це учасникам, щоб продемонструвати вашу промову."
 >>>>>>> upstream/18.0

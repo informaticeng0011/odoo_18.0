@@ -2,7 +2,11 @@
 # This file contains the translation of the following modules:
 # 	* website_event_track
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -169,6 +173,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Raymond Yu <cl_yu@hotmail.com>, 2025
 >>>>>>> upstream/18.0
@@ -645,10 +650,15 @@
 # Raymond Yu <cl_yu@hotmail.com>, 2025
 #
 >>>>>>> upstream/18.0
+=======
+# Raymond Yu <cl_yu@hotmail.com>, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1601,6 +1611,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: zh_CN\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Raymond Yu <cl_yu@hotmail.com>, 2025\n"
@@ -1610,6 +1622,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
 
@@ -1618,6 +1633,7 @@ msgstr ""
 msgid ""
 "\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    Dear <t t-out=\"object.partner_id.name or object.partner_name or ''\">Brandon Freeman</t><br/>\n"
 "    We are pleased to inform you that your proposal <t t-out=\"object.name or ''\">What This Event Is All About</t> has been accepted and confirmed for the event <t t-out=\"object.event_id.name or ''\">OpenWood Collection Online Reveal</t>.\n"
 "    <br/>\n"
@@ -1625,6 +1641,8 @@ msgid ""
 "    <div style=\"margin: 16px 0px 16px 0px;\">\n"
 "        <a t-attf-href=\"/event/{{ object.event_id.id }}/track/{{ object.id }}\" style=\"padding: 8px 16px 8px 16px; font-size: 14px; color: #FFFFFF; text-decoration: none !important; background-color: #875A7B; border: 0px solid #875A7B; border-radius:3px\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "    Dear <t t-out=\"object.partner_id.name or object.partner_name or "
 "''\">Brandon Freeman</t><br/>\n"
 "    We are pleased to inform you that your proposal <t t-out=\"object.name "
@@ -1638,6 +1656,9 @@ msgid ""
 "{{ object.id }}\" style=\"padding: 8px 16px 8px 16px; font-size: 14px; "
 "color: #FFFFFF; text-decoration: none !important; background-color: #875A7B; "
 "border: 0px solid #875A7B; border-radius:3px\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            View Talk\n"
 "        </a>\n"
@@ -1646,6 +1667,7 @@ msgid ""
 "    Thank you,\n"
 "    <t t-if=\"user.signature\" data-o-mail-quote-container=\"1\">\n"
 "        <br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 "    </t>\n"
@@ -1658,6 +1680,8 @@ msgstr ""
 "    <div style=\"margin: 16px 0px 16px 0px;\">\n"
 "        <a t-attf-href=\"/event/{{ object.event_id.id }}/track/{{ object.id }}\" style=\"padding: 8px 16px 8px 16px; font-size: 14px; color: #FFFFFF; text-decoration: none !important; background-color: #875A7B; border: 0px solid #875A7B; border-radius:3px\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-"
 "o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 "    </t>\n"
@@ -1675,6 +1699,9 @@ msgstr ""
 "{{ object.id }}\" style=\"padding: 8px 16px 8px 16px; font-size: 14px; "
 "color: #FFFFFF; text-decoration: none !important; background-color: #875A7B; "
 "border: 0px solid #875A7B; border-radius:3px\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            查看演讲\n"
 "        </a>\n"
@@ -1684,7 +1711,12 @@ msgstr ""
 "    <t t-if=\"user.signature\" data-o-mail-quote-container=\"1\">\n"
 "        <br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+=======
+"        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-"
+"o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+>>>>>>> upstream/18.0
 =======
 "        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-"
 "o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
@@ -1803,6 +1835,7 @@ msgstr "<span class=\"fa fa-plus me-1\"/> 排期音轨"
 msgid ""
 "<span class=\"o_wetrack_proposal_error_section text-danger d-none ml8\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <i class=\"fa fa-close mr4\" role=\"img\" aria-label=\"Error\" title=\"Error\"/>\n"
 "                                    <span class=\"o_wetrack_proposal_error_message\"/>\n"
 "                                </span>"
@@ -1811,6 +1844,8 @@ msgstr ""
 "                                    <i class=\"fa fa-close mr4\" role=\"img\" aria-label=\"错误\" title=\"错误\"/>\n"
 "                                    <span class=\"o_wetrack_proposal_error_message\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                    <i class=\"fa fa-close mr4\" "
 "role=\"img\" aria-label=\"Error\" title=\"Error\"/>\n"
 "                                    <span "
@@ -1822,6 +1857,9 @@ msgstr ""
 "role=\"img\" aria-label=\"错误\" title=\"错误\"/>\n"
 "                                    <span "
 "class=\"o_wetrack_proposal_error_message\"/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                </span>"
 
@@ -2035,6 +2073,7 @@ msgstr "由于关键追踪不能被取消，这个字段存储了伙伴选择删
 #: model_terms:event.track,description:website_event_track.event_7_track_17
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "As you may have heard before, making your own furniture is actually not as difficult or as complicated as you think.\n"
 "    In fact, some projects are so easy anyone could successfully complete them. For example, making a cute stool out of\n"
 "    a old tire is a real piece of cake and if you’re in need of a coffee table you can easily put one together using\n"
@@ -2043,6 +2082,8 @@ msgstr ""
 "正如您以前可能听说过的那样，自己制作家具实际上并不像您想象的那样困难或复杂。\n"
 "    事实上，有些项目非常容易，任何人都可以成功完成。例如，用一个旧轮胎做一个可爱的凳子是小菜一碟。\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "As you may have heard before, making your own furniture is actually not as "
 "difficult or as complicated as you think.\n"
 "    In fact, some projects are so easy anyone could successfully complete "
@@ -2055,6 +2096,9 @@ msgstr ""
 "杂。\n"
 "    事实上，有些项目非常容易，任何人都可以成功完成。例如，用一个旧轮胎做一个"
 "可爱的凳子是小菜一碟。\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "    如果您需要一个咖啡桌，您可以很容易地用木箱把它拼起来。\n"
 "    木板条箱。"
@@ -2233,7 +2277,13 @@ msgid ""
 "information about a construction process and final result. Step by step "
 "simple explanation! Interested?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "考虑建造一座木制房屋？请看这个视频，了解更多关于施工过程和最终结果的信息。一步一步的简单解释!有兴趣吗？"
+=======
+msgstr ""
+"考虑建造一座木制房屋？请看这个视频，了解更多关于施工过程和最终结果的信息。一"
+"步一步的简单解释!有兴趣吗？"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "考虑建造一座木制房屋？请看这个视频，了解更多关于施工过程和最终结果的信息。一"
@@ -2799,8 +2849,13 @@ msgstr "如果在专题到达这一步时，设置发送EMail给客户。"
 #: model:ir.model.fields,help:website_event_track.field_event_track__wishlisted_by_default
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If set, the talk will be set as favorite for each attendee registered to the"
 " event."
+=======
+"If set, the talk will be set as favorite for each attendee registered to the "
+"event."
+>>>>>>> upstream/18.0
 =======
 "If set, the talk will be set as favorite for each attendee registered to the "
 "event."
@@ -3012,7 +3067,13 @@ msgid ""
 "Link to Q&amp;A here! The time has come to hide those old block walls. Love "
 "simple and transformation type projects like this! :)-"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "在这里链接到Q&amp;A!是时候把那些旧的砖墙藏起来了。我喜欢这样的简单和改造型项目。:)-"
+=======
+msgstr ""
+"在这里链接到Q&amp;A!是时候把那些旧的砖墙藏起来了。我喜欢这样的简单和改造型项"
+"目。:)-"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "在这里链接到Q&amp;A!是时候把那些旧的砖墙藏起来了。我喜欢这样的简单和改造型项"
@@ -3311,7 +3372,13 @@ msgid ""
 "furniture!"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "我收到的最多的问题之一可能是我是如何开始做木工的！在这个视频中，我分享了我是如何/为什么开始做家具的。在这段视频中，我与您分享了我是如何/为什么开始制作家具的!"
+=======
+"我收到的最多的问题之一可能是我是如何开始做木工的！在这个视频中，我分享了我是"
+"如何/为什么开始做家具的。在这段视频中，我与您分享了我是如何/为什么开始制作家"
+"具的!"
+>>>>>>> upstream/18.0
 =======
 "我收到的最多的问题之一可能是我是如何开始做木工的！在这个视频中，我分享了我是"
 "如何/为什么开始做家具的。在这段视频中，我与您分享了我是如何/为什么开始制作家"
@@ -3679,12 +3746,15 @@ msgstr "有很多想法值得探索，所以从适合绝对初学者的10个DIY�
 #: model_terms:event.track,description:website_event_track.event_7_track_5
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "There are several variants of wood is available in the world but we are talking about most expensive\n"
 "    ones in the world and keeping to the point we have arranged ten most expensive wood."
 msgstr ""
 "世界上有几种不同的木材，但我们讨论的是世界上最昂贵的木材。\n"
 "    但我们谈论的是世界上最昂贵的木材，为了保持这一点，我们安排了十种最昂贵的木材。"
 =======
+=======
+>>>>>>> upstream/18.0
 "There are several variants of wood is available in the world but we are "
 "talking about most expensive\n"
 "    ones in the world and keeping to the point we have arranged ten most "
@@ -3693,6 +3763,9 @@ msgstr ""
 "世界上有几种不同的木材，但我们讨论的是世界上最昂贵的木材。\n"
 "    但我们谈论的是世界上最昂贵的木材，为了保持这一点，我们安排了十种最昂贵的"
 "木材。"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_event_track
@@ -3701,7 +3774,12 @@ msgid ""
 "These are 30 minutes talks on many different topics. Most topics are "
 "accepted in lightning talks."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "这些演讲时间为 30 分钟，涉及许多不同的主题。大多数主题都可以参加闪电讲座。"
+=======
+msgstr ""
+"这些演讲时间为 30 分钟，涉及许多不同的主题。大多数主题都可以参加闪电讲座。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "这些演讲时间为 30 分钟，涉及许多不同的主题。大多数主题都可以参加闪电讲座。"
@@ -3716,8 +3794,12 @@ msgstr "这些都是配有幻灯片的标准讲座，时间段为 60 分钟。"
 #: model_terms:ir.actions.act_window,help:website_event_track.event_track_visitor_action
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "They will be created automatically once attendees start browsing your "
 "events."
+=======
+"They will be created automatically once attendees start browsing your events."
+>>>>>>> upstream/18.0
 =======
 "They will be created automatically once attendees start browsing your events."
 >>>>>>> upstream/18.0
@@ -3793,11 +3875,14 @@ msgstr "世界上最昂贵的10种木材"
 #: model_terms:event.track,description:website_event_track.event_7_track_5
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Top most expensive wood in the world is quite interesting topic and several people may be surprised\n"
 "    that there are hundreds of wood types exist around the globe following different properties and use."
 msgstr ""
 "世界上最昂贵的木材是一个相当有趣的话题，一些人可能会感到惊讶，全球有数百种不同性质和用途的木材。\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "Top most expensive wood in the world is quite interesting topic and several "
 "people may be surprised\n"
 "    that there are hundreds of wood types exist around the globe following "
@@ -3805,6 +3890,9 @@ msgstr ""
 msgstr ""
 "世界上最昂贵的木材是一个相当有趣的话题，一些人可能会感到惊讶，全球有数百种不"
 "同性质和用途的木材。\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "    全球有数百种不同性质和用途的木材。"
 
@@ -4139,7 +4227,10 @@ msgstr "未读消息"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4461,6 +4552,7 @@ msgid "Unsupported 'Not In' operation on track wishlist visitors"
 msgstr "不支持在跟踪列表访客上执行 “不在 ”操作"
 
 #. module: website_event_track
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4940,6 +5032,8 @@ msgstr ""
 "使用这些简单的步骤，可以轻松地用短箱皮卡拖运长条形木材。  一剂木匠的\n"
 "    巧，加上几块木板、一条结实的带子和几颗螺丝钉，我就可以轻松地把长木板从木场拖到下一级木工车间或工地。\n"
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:event.track,description:website_event_track.event_7_track_6
 msgid ""
 "Use these simple steps to easily haul LONG lumber in a short box pickup "
@@ -4952,6 +5046,9 @@ msgstr ""
 "使用这些简单的步骤，可以轻松地用短箱皮卡拖运长条形木材。  一剂木匠的\n"
 "    巧，加上几块木板、一条结实的带子和几颗螺丝钉，我就可以轻松地把长木板从木"
 "场拖到下一级木工车间或工地。\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "    长木板从木材厂运到下一级木工车间或工作现场。"
 
@@ -4959,11 +5056,14 @@ msgstr ""
 #: model_terms:event.track,description:website_event_track.event_7_track_6
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Using a unique wrapping method for a tie down strap (NOT Bungee cords!!!) allows lumber to be\n"
 "    cinched securely WITHOUT the need to tie and untie tricky or complicated knots."
 msgstr ""
 "使用独特的捆扎带包裹方法（不是蹦极绳！！），可以将木材牢牢捆住，而不需要打上或解开复杂的结。\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "Using a unique wrapping method for a tie down strap (NOT Bungee cords!!!) "
 "allows lumber to be\n"
 "    cinched securely WITHOUT the need to tie and untie tricky or complicated "
@@ -4971,6 +5071,9 @@ msgstr ""
 msgstr ""
 "使用独特的捆扎带包裹方法（不是蹦极绳！！），可以将木材牢牢捆住，而不需要打上"
 "或解开复杂的结。\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "    牢牢地束缚住木材，而不需要打和解复杂的绳结。"
 

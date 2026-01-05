@@ -2,22 +2,29 @@
 # This file contains the translation of the following modules:
 # 	* payment_authorize
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Malaz Abuidris <msea@odoo.com>, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Malaz Abuidris <msea@odoo.com>, 2024
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -29,6 +36,8 @@ msgstr ""
 "Language: ar\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Malaz Abuidris <msea@odoo.com>, 2024\n"
@@ -39,11 +48,15 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment_authorize
 #: model_terms:ir.ui.view,arch_db:payment_authorize.inline_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "<select id=\"o_authorize_account_type\" required=\"\" class=\"form-select\">\n"
 "                        <option value=\"checking\">Personal Checking</option>\n"
@@ -56,6 +69,8 @@ msgstr ""
 "                        <option value=\"savings\">حساب توفير شخصي</option>\n"
 "                        <option value=\"businessChecking\">حساب جاري للأعمال</option>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "<select id=\"o_authorize_account_type\" required=\"\" class=\"form-"
 "select\">\n"
 "                        <option value=\"checking\">Personal Checking</"
@@ -71,6 +86,9 @@ msgstr ""
 "                        <option value=\"savings\">حساب توفير شخصي</option>\n"
 "                        <option value=\"businessChecking\">حساب جاري "
 "للأعمال</option>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                    </select>"
 
@@ -157,8 +175,13 @@ msgid ""
 "error_details: %(error_message)s)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "تعذر جلب تفاصيل المعاملة. (كود الخطأ: %(error_code)s؛ rror_details: "
 "%(error_message)s) "
+=======
+"تعذر جلب تفاصيل المعاملة. (كود الخطأ: %(error_code)s؛ rror_details: %"
+"(error_message)s) "
+>>>>>>> upstream/18.0
 =======
 "تعذر جلب تفاصيل المعاملة. (كود الخطأ: %(error_code)s؛ rror_details: %"
 "(error_message)s) "
@@ -236,7 +259,12 @@ msgstr "فشلت معالجة عملية الدفع "
 #. odoo-python
 #: code:addons/payment_authorize/models/payment_transaction.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Received data with status code \"%(status)s\" and error code \"%(error)s\""
+=======
+msgid ""
+"Received data with status code \"%(status)s\" and error code \"%(error)s\""
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "Received data with status code \"%(status)s\" and error code \"%(error)s\""
@@ -281,8 +309,13 @@ msgid ""
 "details: %(message)s)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "المعاملة ليست في حالة تسمح برد الأموال. (الحالة: %(status)s، التفاصيل: "
 "%(message)s) "
+=======
+"المعاملة ليست في حالة تسمح برد الأموال. (الحالة: %(status)s، التفاصيل: %"
+"(message)s) "
+>>>>>>> upstream/18.0
 =======
 "المعاملة ليست في حالة تسمح برد الأموال. (الحالة: %(status)s، التفاصيل: %"
 "(message)s) "

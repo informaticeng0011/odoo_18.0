@@ -2,6 +2,7 @@
 # This file contains the translation of the following modules:
 # 	* pos_online_payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -816,17 +817,23 @@
 >>>>>>> upstream/18.0
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Marianna Ciofani, 2024
 # Sergio Zanchetta <primes2h@gmail.com>, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -1646,6 +1653,8 @@ msgstr ""
 "Language: it\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
@@ -1656,6 +1665,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
 "1 : 2;\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: pos_online_payment
@@ -1666,16 +1678,22 @@ msgstr "<strong>Attenzione</strong> La valuta manca o non è valida."
 #. module: pos_online_payment
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pay_confirmation
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "<strong>Error:</strong> There was a problem during the payment process."
 msgstr ""
 "<strong>Errore:</strong> si è verificato un problema durante la procedura di"
 " pagamento."
 =======
+=======
+>>>>>>> upstream/18.0
 msgid "<strong>Error:</strong> There was a problem during the payment process."
 msgstr ""
 "<strong>Errore:</strong> si è verificato un problema durante la procedura di "
 "pagamento."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: pos_online_payment
@@ -1696,8 +1714,12 @@ msgstr "È necessario specificare un'opzione di pagamento."
 #. odoo-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "A validation payment cannot be used for a Point of Sale online payment."
+=======
+msgid "A validation payment cannot be used for a Point of Sale online payment."
+>>>>>>> upstream/18.0
 =======
 msgid "A validation payment cannot be used for a Point of Sale online payment."
 >>>>>>> upstream/18.0
@@ -1719,10 +1741,16 @@ msgid ""
 "set, of the POS config."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Tutti i fornitori di pagamento configurati per un metodo di pagamento online"
 " devono utilizzare la stessa valuta come indicato nel registro vendite "
 "oppure la valuta dell'azienda se non è configurata, nella configurazione del"
 " POS."
+=======
+"Tutti i fornitori di pagamento configurati per un metodo di pagamento online "
+"devono utilizzare la stessa valuta come indicato nel registro vendite oppure "
+"la valuta dell'azienda se non è configurata, nella configurazione del POS."
+>>>>>>> upstream/18.0
 =======
 "Tutti i fornitori di pagamento configurati per un metodo di pagamento online "
 "devono utilizzare la stessa valuta come indicato nel registro vendite oppure "
@@ -1772,8 +1800,12 @@ msgstr ""
 #: code:addons/pos_online_payment/models/pos_payment.py:0
 msgid "Cannot edit a POS online payment essential data."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Impossibile modificare i dati essenziali del pagamento online del POS."
+=======
+msgstr "Impossibile modificare i dati essenziali del pagamento online del POS."
+>>>>>>> upstream/18.0
 =======
 msgstr "Impossibile modificare i dati essenziali del pagamento online del POS."
 >>>>>>> upstream/18.0
@@ -1786,8 +1818,13 @@ msgid ""
 "pos_config_id=%(pos_config_id)d)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Impossibile creare un metodo di pagamento online "
 "(company_id=%(company_id)d+, pos_config_id=%(pos_config_id)d)"
+=======
+"Impossibile creare un metodo di pagamento online (company_id=%"
+"(company_id)d+, pos_config_id=%(pos_config_id)d)"
+>>>>>>> upstream/18.0
 =======
 "Impossibile creare un metodo di pagamento online (company_id=%"
 "(company_id)d+, pos_config_id=%(pos_config_id)d)"
@@ -2099,7 +2136,11 @@ msgid "Payment Providers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Fornitori di pagamenti"
+=======
+msgstr "Fornitori di pagamento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fornitori di pagamento"
 >>>>>>> upstream/18.0

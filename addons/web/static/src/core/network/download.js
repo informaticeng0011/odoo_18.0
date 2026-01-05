@@ -274,7 +274,11 @@ function decodefield(str) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 function parse(string) {
+=======
+export function parse(string) {
+>>>>>>> upstream/18.0
 =======
 export function parse(string) {
 >>>>>>> upstream/18.0

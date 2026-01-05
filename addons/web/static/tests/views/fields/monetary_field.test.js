@@ -445,7 +445,11 @@ test("basic flow in editable list view - float field", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const noCurrencyValues = Array.from(queryAll("td.o_data_cell")).filter(
+=======
+    const noCurrencyValues = queryAll("td.o_data_cell").filter(
+>>>>>>> upstream/18.0
 =======
     const noCurrencyValues = queryAll("td.o_data_cell").filter(
 >>>>>>> upstream/18.0
@@ -1072,7 +1076,11 @@ test("basic flow in editable list view - monetary field", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const noCurrencyValues = Array.from(queryAll("td.o_data_cell")).filter(
+=======
+    const noCurrencyValues = queryAll("td.o_data_cell").filter(
+>>>>>>> upstream/18.0
 =======
     const noCurrencyValues = queryAll("td.o_data_cell").filter(
 >>>>>>> upstream/18.0

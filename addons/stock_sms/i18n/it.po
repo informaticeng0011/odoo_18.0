@@ -2,6 +2,7 @@
 # This file contains the translation of the following modules:
 # 	* stock_sms
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -463,16 +464,22 @@
 >>>>>>> upstream/18.0
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Sergio Zanchetta <primes2h@gmail.com>, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2023-10-26 21:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
@@ -940,6 +947,8 @@ msgstr ""
 "Language: it\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
@@ -950,12 +959,16 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
 "1 : 2;\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock_sms
 #: model:sms.template,body:stock_sms.sms_template_data_stock_delivery
 msgid ""
 "\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                {{ (object.company_id.name + ': We are glad to inform you that your order n° ' + object.origin + ' has been shipped.' if object.origin else object.company_id.name + ': We are glad to inform you that your order has been shipped.') + (' Your tracking reference is ' + (object.carrier_tracking_ref) + '.' if hasattr(object, 'carrier_tracking_ref') and object.carrier_tracking_ref else '') }}\n"
 "            "
@@ -1419,6 +1432,8 @@ msgstr ""
 "                {{ (object.company_id.name + ': siamo lieti di informarLa che l'ordine n° ' + object.origin + ' è stato spedito.' if object.origin else object.company_id.name + ': siamo lieti di informarLa che l'ordine è stato spedito.') + (' Il codice di rintracciabilità è ' + (object.carrier_tracking_ref) + '.' if hasattr(object, 'carrier_tracking_ref') and object.carrier_tracking_ref else '') }}\n"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "                {{ (object.company_id.name + ': We are glad to inform you "
 "that your order n° ' + object.origin + ' has been shipped.' if object.origin "
 "else object.company_id.name + ': We are glad to inform you that your order "
@@ -1434,6 +1449,9 @@ msgstr ""
 "stato spedito.') + (' Il codice di rintracciabilità è ' + "
 "(object.carrier_tracking_ref) + '.' if hasattr(object, "
 "'carrier_tracking_ref') and object.carrier_tracking_ref else '') }}\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            "
 
@@ -1541,6 +1559,7 @@ msgstr "Conferma via SMS dal movimento di magazzino "
 #: model:ir.model.fields,help:stock_sms.field_res_company__stock_sms_confirmation_template_id
 #: model:ir.model.fields,help:stock_sms.field_res_config_settings__stock_sms_confirmation_template_id
 msgid "SMS sent to the customer once the order is delivered."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2002,6 +2021,9 @@ msgstr "SMS inviato al cliente dopo la consegna dell'ordine."
 =======
 msgstr "SMS inviato al cliente dopo la consegna dell'ordine."
 >>>>>>> upstream/18.0
+=======
+msgstr "SMS inviato al cliente dopo la consegna dell'ordine."
+>>>>>>> upstream/18.0
 
 #. module: stock_sms
 #: model:ir.model,name:stock_sms.model_stock_picking
@@ -2012,6 +2034,7 @@ msgstr "Trasferimento"
 #: model_terms:ir.ui.view,arch_db:stock_sms.view_confirm_stock_sms
 msgid ""
 "You are about to confirm this Delivery Order by SMS Text Message.<br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                This feature can easily be disabled from the Settings of Inventory or by clicking on \"Disable SMS\".<br/>"
 msgstr ""
@@ -2474,6 +2497,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 "                Questa funzionalità può essere disattivata in modo semplice dalle impostazioni del magazzino oppure con un clic su \"Disattiva SMS\".<br/>"
 =======
+=======
+>>>>>>> upstream/18.0
 "                This feature can easily be disabled from the Settings of "
 "Inventory or by clicking on \"Disable SMS\".<br/>"
 msgstr ""
@@ -2481,4 +2506,7 @@ msgstr ""
 "                Questa funzionalità può essere disattivata in modo semplice "
 "dalle impostazioni del magazzino oppure con un clic su \"Disattiva SMS\".<br/"
 ">"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

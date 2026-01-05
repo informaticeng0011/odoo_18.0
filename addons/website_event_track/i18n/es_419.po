@@ -2,6 +2,7 @@
 # This file contains the translation of the following modules:
 # 	* website_event_track
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 <<<<<<< HEAD
@@ -1143,17 +1144,23 @@
 >>>>>>> upstream/18.0
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2024
 # Fernanda Alvarez, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2247,6 +2254,8 @@ msgstr ""
 "Language: es_419\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Fernanda Alvarez, 2025\n"
@@ -2258,12 +2267,16 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
 "1 : 2;\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:mail.template,body_html:website_event_track.mail_template_data_track_confirmation
 msgid ""
 "\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "    Dear <t t-out=\"object.partner_id.name or object.partner_name or ''\">Brandon Freeman</t><br/>\n"
 "    We are pleased to inform you that your proposal <t t-out=\"object.name or ''\">What This Event Is All About</t> has been accepted and confirmed for the event <t t-out=\"object.event_id.name or ''\">OpenWood Collection Online Reveal</t>.\n"
@@ -2272,6 +2285,8 @@ msgid ""
 "    <div style=\"margin: 16px 0px 16px 0px;\">\n"
 "        <a t-attf-href=\"/event/{{ object.event_id.id }}/track/{{ object.id }}\" style=\"padding: 8px 16px 8px 16px; font-size: 14px; color: #FFFFFF; text-decoration: none !important; background-color: #875A7B; border: 0px solid #875A7B; border-radius:3px\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "    Dear <t t-out=\"object.partner_id.name or object.partner_name or "
 "''\">Brandon Freeman</t><br/>\n"
 "    We are pleased to inform you that your proposal <t t-out=\"object.name "
@@ -2285,6 +2300,9 @@ msgid ""
 "{{ object.id }}\" style=\"padding: 8px 16px 8px 16px; font-size: 14px; "
 "color: #FFFFFF; text-decoration: none !important; background-color: #875A7B; "
 "border: 0px solid #875A7B; border-radius:3px\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            View Talk\n"
 "        </a>\n"
@@ -2293,6 +2311,7 @@ msgid ""
 "    Thank you,\n"
 "    <t t-if=\"user.signature\" data-o-mail-quote-container=\"1\">\n"
 "        <br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 "    </t>\n"
@@ -3005,6 +3024,8 @@ msgstr ""
 "    <div style=\"margin: 16px 0px 16px 0px;\">\n"
 "        <a t-attf-href=\"/event/{{ object.event_id.id }}/track/{{ object.id }}\" style=\"padding: 8px 16px 8px 16px; font-size: 14px; color: #FFFFFF; text-decoration: none !important; background-color: #875A7B; border: 0px solid #875A7B; border-radius:3px\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-"
 "o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 "    </t>\n"
@@ -3023,6 +3044,9 @@ msgstr ""
 "{{ object.id }}\" style=\"padding: 8px 16px 8px 16px; font-size: 14px; "
 "color: #FFFFFF; text-decoration: none !important; background-color: #875A7B; "
 "border: 0px solid #875A7B; border-radius:3px\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            Ver plática\n"
 "        </a>\n"
@@ -3032,7 +3056,12 @@ msgstr ""
 "    <t t-if=\"user.signature\" data-o-mail-quote-container=\"1\">\n"
 "        <br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+=======
+"        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-"
+"o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+>>>>>>> upstream/18.0
 =======
 "        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-"
 "o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
@@ -3151,6 +3180,7 @@ msgstr "<span class=\"fa fa-plus me-1\"/> Programar sesiones"
 msgid ""
 "<span class=\"o_wetrack_proposal_error_section text-danger d-none ml8\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <i class=\"fa fa-close mr4\" role=\"img\" aria-label=\"Error\" title=\"Error\"/>\n"
 "                                    <span class=\"o_wetrack_proposal_error_message\"/>\n"
 "                                </span>"
@@ -3159,6 +3189,8 @@ msgstr ""
 "                                    <i class=\"fa fa-close mr4\" role=\"img\" aria-label=\"Error\" title=\"Error\"/>\n"
 "                                    <span class=\"o_wetrack_proposal_error_message\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                    <i class=\"fa fa-close mr4\" "
 "role=\"img\" aria-label=\"Error\" title=\"Error\"/>\n"
 "                                    <span "
@@ -3170,6 +3202,9 @@ msgstr ""
 "role=\"img\" aria-label=\"Error\" title=\"Error\"/>\n"
 "                                    <span "
 "class=\"o_wetrack_proposal_error_message\"/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                </span>"
 
@@ -3180,7 +3215,12 @@ msgid ""
 "                                        <span>*</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"o_wetrack_proposal_label_content\">Plática de introducción</span>\n"
+=======
+"<span class=\"o_wetrack_proposal_label_content\">Plática de introducción</"
+"span>\n"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_wetrack_proposal_label_content\">Plática de introducción</"
 "span>\n"
@@ -3194,7 +3234,12 @@ msgid ""
 "                                        <span>*</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"o_wetrack_proposal_label_content\">Título de la plática</span>\n"
+=======
+"<span class=\"o_wetrack_proposal_label_content\">Título de la plática</"
+"span>\n"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_wetrack_proposal_label_content\">Título de la plática</"
 "span>\n"
@@ -3256,7 +3301,12 @@ msgid ""
 " * Green indicates the track is ready to be pulled to the next stage"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "El estado kanban de una sesión señala las situaciones especiales que la afectan:\n"
+=======
+"El estado kanban de una sesión señala las situaciones especiales que la "
+"afectan:\n"
+>>>>>>> upstream/18.0
 =======
 "El estado kanban de una sesión señala las situaciones especiales que la "
 "afectan:\n"
@@ -3342,6 +3392,7 @@ msgstr "Agenda"
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__color
 msgid "Agenda Color"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4103,6 +4154,9 @@ msgstr "Color en la agenda"
 =======
 msgstr "Color en la agenda"
 >>>>>>> upstream/18.0
+=======
+msgstr "Color en la agenda"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_main
@@ -4129,7 +4183,12 @@ msgid ""
 msgstr ""
 "Permita que se grabe el audio y video de su\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            presentación para publicarla en nuestro sitio web."
+=======
+"                            presentación para publicarla en nuestro sitio "
+"web."
+>>>>>>> upstream/18.0
 =======
 "                            presentación para publicarla en nuestro sitio "
 "web."
@@ -4329,7 +4388,11 @@ msgid "Always Wishlisted"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Siempre en lista de deseos"
+=======
+msgstr "Siempre en la lista de deseos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Siempre en la lista de deseos"
 >>>>>>> upstream/18.0
@@ -5094,7 +5157,11 @@ msgid "Announced"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Anunciado"
+=======
+msgstr "Anunciada"
+>>>>>>> upstream/18.0
 =======
 msgstr "Anunciada"
 >>>>>>> upstream/18.0
@@ -5686,8 +5753,13 @@ msgid ""
 msgstr ""
 "Como la sesión principal no se puede quitar de la lista de favoritos, este "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "campo almacena la elección del contacto de eliminar el recordatorio para las"
 " sesiones principales."
+=======
+"campo almacena la elección del contacto de eliminar el recordatorio para las "
+"sesiones principales."
+>>>>>>> upstream/18.0
 =======
 "campo almacena la elección del contacto de eliminar el recordatorio para las "
 "sesiones principales."
@@ -5696,6 +5768,7 @@ msgstr ""
 #. module: website_event_track
 #: model_terms:event.track,description:website_event_track.event_7_track_17
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "As you may have heard before, making your own furniture is actually not as difficult or as complicated as you think.\n"
 "    In fact, some projects are so easy anyone could successfully complete them. For example, making a cute stool out of\n"
@@ -5706,6 +5779,8 @@ msgstr ""
 "De hecho, algunos proyectos son tan fáciles que cualquiera podría completarlos con éxito. Por ejemplo, construir un bonito banquillo con\n"
 "una llanta vieja es muy fácil, y si lo que necesita es una mesa de centro, puede construirla fácilmente con solo\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "As you may have heard before, making your own furniture is actually not as "
 "difficult or as complicated as you think.\n"
 "    In fact, some projects are so easy anyone could successfully complete "
@@ -5720,6 +5795,9 @@ msgstr ""
 "completarlos con éxito. Por ejemplo, construir un bonito banquillo con\n"
 "una llanta vieja es muy fácil, y si lo que necesita es una mesa de centro, "
 "puede construirla fácilmente con solo\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "cajas de madera."
 
@@ -6006,7 +6084,11 @@ msgid "Cancelled"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cancelado"
+=======
+msgstr "Cancelada"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cancelada"
 >>>>>>> upstream/18.0
@@ -6837,7 +6919,11 @@ msgid "Confirmed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Confirmado"
+=======
+msgstr "Confirmada"
+>>>>>>> upstream/18.0
 =======
 msgstr "Confirmada"
 >>>>>>> upstream/18.0
@@ -8081,8 +8167,12 @@ msgid "If checked, new messages require your attention."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Si se encuentra seleccionado, hay nuevos mensajes que requieren su atención."
+=======
+msgstr "Si está seleccionado, hay nuevos mensajes que requieren tu atención."
+>>>>>>> upstream/18.0
 =======
 msgstr "Si está seleccionado, hay nuevos mensajes que requieren tu atención."
 >>>>>>> upstream/18.0
@@ -8564,7 +8654,11 @@ msgid "If checked, some messages have a delivery error."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Si se encuentra seleccionado, algunos mensajes tienen error de envío."
+=======
+msgstr "Si está seleccionado, algunos mensajes tienen error de envío."
+>>>>>>> upstream/18.0
 =======
 msgstr "Si está seleccionado, algunos mensajes tienen error de envío."
 >>>>>>> upstream/18.0
@@ -8943,8 +9037,13 @@ msgstr ""
 #: model:ir.model.fields,help:website_event_track.field_event_track__wishlisted_by_default
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If set, the talk will be set as favorite for each attendee registered to the"
 " event."
+=======
+"If set, the talk will be set as favorite for each attendee registered to the "
+"event."
+>>>>>>> upstream/18.0
 =======
 "If set, the talk will be set as favorite for each attendee registered to the "
 "event."
@@ -9162,7 +9261,11 @@ msgid "Is Track Today"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "¿Hoy es la sesión?"
+=======
+msgstr "¿La sesión es hoy?"
+>>>>>>> upstream/18.0
 =======
 msgstr "¿La sesión es hoy?"
 >>>>>>> upstream/18.0
@@ -10136,7 +10239,11 @@ msgid "Published"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Publicado"
+=======
+msgstr "Publicada"
+>>>>>>> upstream/18.0
 =======
 msgstr "Publicada"
 >>>>>>> upstream/18.0
@@ -10933,7 +11040,11 @@ msgid "Refused"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rechazado"
+=======
+msgstr "Rechazada"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rechazada"
 >>>>>>> upstream/18.0
@@ -11815,12 +11926,15 @@ msgstr ""
 #: model_terms:event.track,description:website_event_track.event_7_track_5
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "There are several variants of wood is available in the world but we are talking about most expensive\n"
 "    ones in the world and keeping to the point we have arranged ten most expensive wood."
 msgstr ""
 "Hay muchas variantes de madera disponibles en el mundo, pero estamos hablando de las más caras\n"
 "y, tomando esto en cuenta, hemos seleccionado las diez maderas más caras del mundo."
 =======
+=======
+>>>>>>> upstream/18.0
 "There are several variants of wood is available in the world but we are "
 "talking about most expensive\n"
 "    ones in the world and keeping to the point we have arranged ten most "
@@ -11830,6 +11944,9 @@ msgstr ""
 "hablando de las más caras\n"
 "y, tomando esto en cuenta, hemos seleccionado las diez maderas más caras del "
 "mundo."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_event_track
@@ -11839,8 +11956,13 @@ msgid ""
 "accepted in lightning talks."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Estas son pláticas de 30 minutos sobre varios temas distintos. Se aceptan la"
 " mayoría de los temas mientras se puedan resumir a pláticas rápidas."
+=======
+"Estas son pláticas de 30 minutos sobre varios temas distintos. Se aceptan la "
+"mayoría de los temas mientras se puedan resumir a pláticas rápidas."
+>>>>>>> upstream/18.0
 =======
 "Estas son pláticas de 30 minutos sobre varios temas distintos. Se aceptan la "
 "mayoría de los temas mientras se puedan resumir a pláticas rápidas."
@@ -11857,16 +11979,22 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:website_event_track.event_track_visitor_action
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "They will be created automatically once attendees start browsing your "
 "events."
 msgstr ""
 "Se crearán automáticamente una vez que los asistentes empiecen a navegar por"
 " sus eventos."
 =======
+=======
+>>>>>>> upstream/18.0
 "They will be created automatically once attendees start browsing your events."
 msgstr ""
 "Se crearán automáticamente una vez que los asistentes empiecen a navegar por "
 "sus eventos."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_event_track
@@ -11876,8 +12004,13 @@ msgid ""
 "format)."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Este campo contiene la imagen utilizada como icono de la aplicación móvil en"
 " el sitio web (formato PNG)."
+=======
+"Este campo contiene la imagen utilizada como icono de la aplicación móvil en "
+"el sitio web (formato PNG)."
+>>>>>>> upstream/18.0
 =======
 "Este campo contiene la imagen utilizada como icono de la aplicación móvil en "
 "el sitio web (formato PNG)."
@@ -11952,12 +12085,15 @@ msgstr "Las 10 maderas más caras del mundo"
 #: model_terms:event.track,description:website_event_track.event_7_track_5
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Top most expensive wood in the world is quite interesting topic and several people may be surprised\n"
 "    that there are hundreds of wood types exist around the globe following different properties and use."
 msgstr ""
 "La madera más cara del mundo puede ser un tema muy interesante. A mucha gente le puede sorprender\n"
 "    que hay cientos tipos de madera en el mundo y cada una tiene diferentes usos y propiedades."
 =======
+=======
+>>>>>>> upstream/18.0
 "Top most expensive wood in the world is quite interesting topic and several "
 "people may be surprised\n"
 "    that there are hundreds of wood types exist around the globe following "
@@ -11967,6 +12103,9 @@ msgstr ""
 "gente le puede sorprender\n"
 "    que hay cientos tipos de madera en el mundo y cada una tiene diferentes "
 "usos y propiedades."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_event_track
@@ -12115,8 +12254,13 @@ msgid ""
 "similar activity."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Las sesiones definen el programa de su evento. Pueden ser pláticas, talleres"
 " o cualquier actividad similar."
+=======
+"Las sesiones definen el programa de su evento. Pueden ser pláticas, talleres "
+"o cualquier actividad similar."
+>>>>>>> upstream/18.0
 =======
 "Las sesiones definen el programa de su evento. Pueden ser pláticas, talleres "
 "o cualquier actividad similar."
@@ -12315,7 +12459,10 @@ msgstr "Mensajes sin leer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12814,6 +12961,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13149,6 +13297,8 @@ msgstr ""
 "para transportar tablas largas de madera desde el aserradero hasta el taller de Next Level Carpentry o el lugar de trabajo es \n"
 "una dosis de ingenio de carpintero junto con un par de tablas, una correa resistente y unos tornillos."
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:event.track,description:website_event_track.event_7_track_6
 msgid ""
 "Use these simple steps to easily haul LONG lumber in a short box pickup "
@@ -13164,11 +13314,15 @@ msgstr ""
 "de Next Level Carpentry o el lugar de trabajo es \n"
 "una dosis de ingenio de carpintero junto con un par de tablas, una correa "
 "resistente y unos tornillos."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:event.track,description:website_event_track.event_7_track_6
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "Using a unique wrapping method for a tie down strap (NOT Bungee cords!!!) allows lumber to be\n"
 "    cinched securely WITHOUT the need to tie and untie tricky or complicated knots."
@@ -13176,6 +13330,8 @@ msgstr ""
 "Si lo que quiere es sujetar la madera de forma segura SIN necesidad de atar y desatar nudos difíciles\n"
 "o complicados, use este método de envoltura único para correas de carga (¡NO para cuerdas elásticas!)."
 =======
+=======
+>>>>>>> upstream/18.0
 "Using a unique wrapping method for a tie down strap (NOT Bungee cords!!!) "
 "allows lumber to be\n"
 "    cinched securely WITHOUT the need to tie and untie tricky or complicated "
@@ -13185,6 +13341,9 @@ msgstr ""
 "y desatar nudos difíciles\n"
 "o complicados, use este método de envoltura único para correas de carga (¡NO "
 "para cuerdas elásticas!)."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_event_track
@@ -13442,7 +13601,11 @@ msgid "Website meta description"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Meta descripción del sitio web"
+=======
+msgstr "Metadescripción del sitio web"
+>>>>>>> upstream/18.0
 =======
 msgstr "Metadescripción del sitio web"
 >>>>>>> upstream/18.0

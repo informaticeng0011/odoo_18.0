@@ -82,6 +82,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* account_edi
 # 
 # Translators:
@@ -89,6 +90,8 @@
 # Manon Rondou, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -339,6 +342,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -506,6 +512,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 <<<<<<< HEAD
@@ -761,6 +768,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-10-14 12:39+0000\n"
 "Last-Translator: \"Manon Rondou (ronm)\" <ronm@odoo.com>\n"
 "Language-Team: French <https://translate.odoo.com/projects/odoo-18/"
@@ -853,6 +863,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1059,8 +1072,13 @@ msgid ""
 "document to be canceled?"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Êtes-vous sûr de vouloir annuler cette facture sans attendre l'annulation du"
 " document EDI ?"
+=======
+"Êtes-vous sûr de vouloir annuler cette facture sans attendre l'annulation du "
+"document EDI ?"
+>>>>>>> upstream/18.0
 =======
 "Êtes-vous sûr de vouloir annuler cette facture sans attendre l'annulation du "
 "document EDI ?"
@@ -1081,6 +1099,7 @@ msgstr "Niveau de blocage"
 #: model:ir.model.fields,help:account_edi.field_account_edi_document__blocking_level
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Blocks the current operation of the document depending on the error severity:\n"
 "  * Info: the document is not blocked and everything is working as it should.\n"
 "  * Warning: there is an error that doesn't prevent the current Electronic Invoicing operation to succeed.\n"
@@ -1091,6 +1110,8 @@ msgstr ""
 "* Attention : il y a une erreur qui n'empêche pas l'opération de facturation électronique en cours de réussir.\n"
 "* Erreur : il y a une erreur qui bloque l'opération de facturation électronique en cours."
 =======
+=======
+>>>>>>> upstream/18.0
 "Blocks the current operation of the document depending on the error "
 "severity:\n"
 "  * Info: the document is not blocked and everything is working as it "
@@ -1107,6 +1128,9 @@ msgstr ""
 "électronique en cours de réussir.\n"
 "* Erreur : il y a une erreur qui bloque l'opération de facturation "
 "électronique en cours."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_edi
@@ -1401,7 +1425,11 @@ msgid "Journal Entry"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pièce comptable"
+=======
+msgstr "Écriture comptable"
+>>>>>>> upstream/18.0
 =======
 msgstr "Écriture comptable"
 >>>>>>> upstream/18.0
@@ -1751,8 +1779,12 @@ msgstr "La facture sera bientôt envoyée à"
 #: model:ir.model.fields,help:account_edi.field_account_edi_document__error
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The text of the last error that happened during Electronic Invoice "
 "operation."
+=======
+"The text of the last error that happened during Electronic Invoice operation."
+>>>>>>> upstream/18.0
 =======
 "The text of the last error that happened during Electronic Invoice operation."
 >>>>>>> upstream/18.0
@@ -1776,8 +1808,13 @@ msgstr "Ce document est déjà envoyé via un autre processus. "
 #: code:addons/account_edi/models/account_move.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This invoice was canceled while the EDIs %s still had a pending cancellation"
 " request."
+=======
+"This invoice was canceled while the EDIs %s still had a pending cancellation "
+"request."
+>>>>>>> upstream/18.0
 =======
 "This invoice was canceled while the EDIs %s still had a pending cancellation "
 "request."
@@ -1808,6 +1845,7 @@ msgstr "Avertissement"
 #. odoo-python
 #: code:addons/account_edi/models/account_move.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "You can't edit the following journal entry %s because an electronic document"
 " has already been sent. Please use the 'Request EDI Cancellation' button "
@@ -2139,11 +2177,16 @@ msgstr ""
 "Vous ne pouvez pas modifier l'écriture comptable suivante %s car un document "
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "You can't edit the following journal entry %s because an electronic document "
 "has already been sent. Please use the 'Request EDI Cancellation' button "
 "instead."
 msgstr ""
 "Vous ne pouvez pas modifier l'écriture comptable suivante %s car un document "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "électronique a déjà été envoyé. Veuillez plutôt utiliser le bouton 'Demande "
 "d'annulation EDI'."
@@ -2155,8 +2198,13 @@ msgid ""
 "You can't unlink an attachment being an EDI document sent to the government."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Vous ne pouvez pas délier une pièce jointe qui est un document EDI envoyé au"
 " gouvernement."
+=======
+"Vous ne pouvez pas délier une pièce jointe qui est un document EDI envoyé au "
+"gouvernement."
+>>>>>>> upstream/18.0
 =======
 "Vous ne pouvez pas délier une pièce jointe qui est un document EDI envoyé au "
 "gouvernement."

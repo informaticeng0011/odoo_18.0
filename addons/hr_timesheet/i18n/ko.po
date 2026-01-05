@@ -2,7 +2,11 @@
 # This file contains the translation of the following modules:
 # 	* hr_timesheet
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -11,7 +15,11 @@
 # Daye Jeong, 2024
 # Wil Odoo, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -19,6 +27,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -29,6 +38,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: ko\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Odoo, 2025\n"
@@ -37,6 +48,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
 
@@ -92,16 +106,22 @@ msgstr "%(name)s 작업시간표"
 #: code:addons/hr_timesheet/models/hr_timesheet.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "'%(missing_plan_names)s' analytic plan(s) required on the project "
 "'%(project_name)s' linked to the timesheet."
 msgstr ""
 "'%(missing_plan_names)s'의 분석 계획이 작업표에 연결된 프로젝트 '%(project_name)s'에  필요합니다."
 =======
+=======
+>>>>>>> upstream/18.0
 "'%(missing_plan_names)s' analytic plan(s) required on the project '%"
 "(project_name)s' linked to the timesheet."
 msgstr ""
 "'%(missing_plan_names)s'의 분석 계획이 작업표에 연결된 프로젝트 '%"
 "(project_name)s'에  필요합니다."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_timesheet
@@ -145,15 +165,21 @@ msgstr "<b class=\"tip_title\">팁: 작업시간표를 빠르게 기록할 수 �
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.view_kanban_account_analytic_line
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-calendar me-1\" role=\"img\" aria-label=\"Date\" title=\"Date\"/>"
 msgstr "<i class=\"fa fa-calendar me-1\" role=\"img\" aria-label=\"날ㅉ\" title=\"날짜\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "<i class=\"fa fa-calendar me-1\" role=\"img\" aria-label=\"Date\" "
 "title=\"Date\"/>"
 msgstr ""
 "<i class=\"fa fa-calendar me-1\" role=\"img\" aria-label=\"날ㅉ\" title=\"날"
 "짜\"/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_timesheet
@@ -179,15 +205,21 @@ msgid ""
 "                        You cannot delete employees who have timesheets.\n"
 "                        <span invisible=\"not has_active_employee\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            You can either archive these employees or first delete all of their timesheets.\n"
 "                        </span>\n"
 "                        <span invisible=\"has_active_employee\" groups=\"hr_timesheet.group_hr_timesheet_approver\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                            You can either archive these employees or first "
 "delete all of their timesheets.\n"
 "                        </span>\n"
 "                        <span invisible=\"has_active_employee\" "
 "groups=\"hr_timesheet.group_hr_timesheet_approver\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                            Please first delete all of their timesheets.\n"
 "                        </span>\n"
@@ -200,15 +232,21 @@ msgstr ""
 "                        작업기록이 있는 직원은 삭제할 수 없습니다.\n"
 "                        <span invisible=\"not has_active_employee\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                           해당 직원을 보관함으로 이동시키거나 작업기록을 삭제할 수 있습니다.\n"
 "                        </span>\n"
 "                        <span invisible=\"has_active_employee\" groups=\"hr_timesheet.group_hr_timesheet_approver\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                           해당 직원을 보관함으로 이동시키거나 작업기록을 삭"
 "제할 수 있습니다.\n"
 "                        </span>\n"
 "                        <span invisible=\"has_active_employee\" "
 "groups=\"hr_timesheet.group_hr_timesheet_approver\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                           먼저 모든 작업기록을 삭제해주십시오.\n"
 "                        </span>\n"
@@ -333,7 +371,12 @@ msgstr "분석 계획에 대한 적용 가능성"
 #: model_terms:ir.actions.act_window,help:hr_timesheet.timesheet_action_report_by_task
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Analyze the projects and tasks on which your employees spend their time.<br>\n"
+=======
+"Analyze the projects and tasks on which your employees spend their time."
+"<br>\n"
+>>>>>>> upstream/18.0
 =======
 "Analyze the projects and tasks on which your employees spend their time."
 "<br>\n"
@@ -482,7 +525,13 @@ msgid ""
 "Deliver your services automatically when a milestone is reached by linking "
 "it to a sales order item."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "판매주문서의 항목과 연결하여 마일스톤에 도달하면 자동으로 서비스를 제공합니다."
+=======
+msgstr ""
+"판매주문서의 항목과 연결하여 마일스톤에 도달하면 자동으로 서비스를 제공합니"
+"다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "판매주문서의 항목과 연결하여 마일스톤에 도달하면 자동으로 서비스를 제공합니"
@@ -582,8 +631,12 @@ msgstr "추가 시간"
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.res_config_settings_view_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Generate timesheets for validated time off requests and public holidays"
+=======
+msgid "Generate timesheets for validated time off requests and public holidays"
+>>>>>>> upstream/18.0
 =======
 msgid "Generate timesheets for validated time off requests and public holidays"
 >>>>>>> upstream/18.0
@@ -854,7 +907,12 @@ msgid ""
 "Record your timesheets in an instant by pressing Shift + the corresponding "
 "hotkey to add 15min to your projects."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Shift + 해당 단축키를 누르면 프로젝트의 작업기록에 15분을 추가할 수 있습니다."
+=======
+msgstr ""
+"Shift + 해당 단축키를 누르면 프로젝트의 작업기록에 15분을 추가할 수 있습니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Shift + 해당 단축키를 누르면 프로젝트의 작업기록에 15분을 추가할 수 있습니다."
@@ -928,7 +986,12 @@ msgid ""
 "Send a periodical email reminder to timesheets approvers that still have "
 "timesheets to validate"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "승인할 작업기록이 남아있는 결재권자에게 정기적으로 이메일 알림을 전송합니다."
+=======
+msgstr ""
+"승인할 작업기록이 남아있는 결재권자에게 정기적으로 이메일 알림을 전송합니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "승인할 작업기록이 남아있는 결재권자에게 정기적으로 이메일 알림을 전송합니다."
@@ -940,7 +1003,12 @@ msgid ""
 "Send a periodical email reminder to timesheets users that still have "
 "timesheets to encode"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "인코딩할 작업기록이 남아있는 사용자에게 정기적으로 이메일 알림을 전송합니다."
+=======
+msgstr ""
+"인코딩할 작업기록이 남아있는 사용자에게 정기적으로 이메일 알림을 전송합니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "인코딩할 작업기록이 남아있는 사용자에게 정기적으로 이메일 알림을 전송합니다."
@@ -995,15 +1063,21 @@ msgstr "회사의 내부 프로젝트는 해당 회사에 있어야 합니다."
 #: code:addons/hr_timesheet/models/hr_timesheet.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The project, the task and the analytic accounts of the timesheet must belong"
 " to the same company."
 msgstr "작업표에 연결된 프로젝트, 작업 및 분석 계정은 모두 같은 회사에 속해 있어야 합니다."
 =======
+=======
+>>>>>>> upstream/18.0
 "The project, the task and the analytic accounts of the timesheet must belong "
 "to the same company."
 msgstr ""
 "작업표에 연결된 프로젝트, 작업 및 분석 계정은 모두 같은 회사에 속해 있어야 합"
 "니다."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_timesheet
@@ -1016,16 +1090,22 @@ msgstr "작업 기록이 없습니다."
 #: code:addons/hr_timesheet/models/project_project.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "These projects have some timesheet entries referencing them. Before removing"
 " these projects, you have to remove these timesheet entries."
 msgstr ""
 "이 프로젝트에는 다른 곳에서 참조되고 있는 일부 작업기록 항목이 있습니다. 프로젝트를 삭제하기 전에 작업기록 항목을 먼저 제거하십시오."
 =======
+=======
+>>>>>>> upstream/18.0
 "These projects have some timesheet entries referencing them. Before removing "
 "these projects, you have to remove these timesheet entries."
 msgstr ""
 "이 프로젝트에는 다른 곳에서 참조되고 있는 일부 작업기록 항목이 있습니다. 프로"
 "젝트를 삭제하기 전에 작업기록 항목을 먼저 제거하십시오."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_timesheet
@@ -1036,7 +1116,12 @@ msgid ""
 "these tasks, you have to remove these timesheet entries."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "이 작업에는 다른 곳에서 참조되고 있는 일부 작업기록 항목이 있습니다. 작업을 삭제하기 전에 작업기록 항목을 먼저 제거하십시오."
+=======
+"이 작업에는 다른 곳에서 참조되고 있는 일부 작업기록 항목이 있습니다. 작업을 "
+"삭제하기 전에 작업기록 항목을 먼저 제거하십시오."
+>>>>>>> upstream/18.0
 =======
 "이 작업에는 다른 곳에서 참조되고 있는 일부 작업기록 항목이 있습니다. 작업을 "
 "삭제하기 전에 작업기록 항목을 먼저 제거하십시오."
@@ -1078,16 +1163,22 @@ msgstr "이 검색 방법에서는 해당 운영자 %s 가 지원되지 않습�
 #: code:addons/hr_timesheet/models/project_project.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This project has some timesheet entries referencing it. Before removing this"
 " project, you have to remove these timesheet entries."
 msgstr ""
 "이 프로젝트에는 다른 곳에서 참조되고 있는 일부 작업기록 항목이 있습니다. 프로젝트를 삭제하기 전에 작업기록 항목을 먼저 제거하십시오."
 =======
+=======
+>>>>>>> upstream/18.0
 "This project has some timesheet entries referencing it. Before removing this "
 "project, you have to remove these timesheet entries."
 msgstr ""
 "이 프로젝트에는 다른 곳에서 참조되고 있는 일부 작업기록 항목이 있습니다. 프로"
 "젝트를 삭제하기 전에 작업기록 항목을 먼저 제거하십시오."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_timesheet
@@ -1096,7 +1187,13 @@ msgstr ""
 msgid ""
 "This task cannot be private because there are some timesheets linked to it."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "이 작업의 일부 기록이 작업기록표와 연결되어 있으므로 비공개로 변경할 수 없습니다."
+=======
+msgstr ""
+"이 작업의 일부 기록이 작업기록표와 연결되어 있으므로 비공개로 변경할 수 없습"
+"니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "이 작업의 일부 기록이 작업기록표와 연결되어 있으므로 비공개로 변경할 수 없습"
@@ -1111,7 +1208,12 @@ msgid ""
 "task, you have to remove these timesheet entries."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "이 작업에는 다른 곳에서 참조되고 있는 일부 작업기록 항목이 있습니다. 작업을 삭제하기 전에 작업기록 항목을 먼저 제거하십시오."
+=======
+"이 작업에는 다른 곳에서 참조되고 있는 일부 작업기록 항목이 있습니다. 작업을 "
+"삭제하기 전에 작업기록 항목을 먼저 제거하십시오."
+>>>>>>> upstream/18.0
 =======
 "이 작업에는 다른 곳에서 참조되고 있는 일부 작업기록 항목이 있습니다. 작업을 "
 "삭제하기 전에 작업기록 항목을 먼저 제거하십시오."
@@ -1123,17 +1225,23 @@ msgstr ""
 msgid ""
 "This will set the unit of measure used in projects and tasks.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If you use the timesheet linked to projects, don't forget to setup the right unit of measure in your employees."
 msgstr ""
 "프로젝트 및 작업에 사용되는 측정 단위가 설정됩니다.\n"
 "만약 프로젝트에 연결된 작업 기록을 사용하는 경우, 직원에게 올바른 측정 단위를 설정하는 것을 잊지 마십시오."
 =======
+=======
+>>>>>>> upstream/18.0
 "If you use the timesheet linked to projects, don't forget to setup the right "
 "unit of measure in your employees."
 msgstr ""
 "프로젝트 및 작업에 사용되는 측정 단위가 설정됩니다.\n"
 "만약 프로젝트에 연결된 작업 기록을 사용하는 경우, 직원에게 올바른 측정 단위"
 "를 설정하는 것을 잊지 마십시오."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_timesheet
@@ -1364,8 +1472,12 @@ msgstr "비공개 작업에는 작업기록을 생성할 수 없습니다."
 #: code:addons/hr_timesheet/models/hr_timesheet.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Timesheets must be created with an active employee in the selected "
 "companies."
+=======
+"Timesheets must be created with an active employee in the selected companies."
+>>>>>>> upstream/18.0
 =======
 "Timesheets must be created with an active employee in the selected companies."
 >>>>>>> upstream/18.0
@@ -1378,7 +1490,13 @@ msgid ""
 "Timesheets must be created with at least an active analytic account defined "
 "in the plan '%(plan_name)s'."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "작업표는 '%(plan_name)s' 계획에 정의된 하나 이상의 활성 분석 계정으로 만들어야 합니다."
+=======
+msgstr ""
+"작업표는 '%(plan_name)s' 계획에 정의된 하나 이상의 활성 분석 계정으로 만들어"
+"야 합니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "작업표는 '%(plan_name)s' 계획에 정의된 하나 이상의 활성 분석 계정으로 만들어"
@@ -1405,8 +1523,13 @@ msgid ""
 "timesheets feature."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "작업표 기능을 사용하려면 프로젝트에 분석 계정이 필요합니다. '%(plan_name)s' 계획에서 계정을 설정하거나 작업표 기능을 "
 "비활성화하세요."
+=======
+"작업표 기능을 사용하려면 프로젝트에 분석 계정이 필요합니다. '%(plan_name)s' "
+"계획에서 계정을 설정하거나 작업표 기능을 비활성화하세요."
+>>>>>>> upstream/18.0
 =======
 "작업표 기능을 사용하려면 프로젝트에 분석 계정이 필요합니다. '%(plan_name)s' "
 "계획에서 계정을 설정하거나 작업표 기능을 비활성화하세요."
@@ -1456,8 +1579,13 @@ msgstr "합계 :"
 #: model_terms:ir.actions.act_window,help:hr_timesheet.timesheet_action_all
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Track your working hours by projects every day and invoice this time to your"
 " customers."
+=======
+"Track your working hours by projects every day and invoice this time to your "
+"customers."
+>>>>>>> upstream/18.0
 =======
 "Track your working hours by projects every day and invoice this time to your "
 "customers."
@@ -1481,7 +1609,12 @@ msgid ""
 "        ! Set the task a high priority\n"
 "\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Make sure to use the right format and order e.g. Improve the configuration screen 5h #feature #v16 @Mitchell !"
+=======
+"        Make sure to use the right format and order e.g. Improve the "
+"configuration screen 5h #feature #v16 @Mitchell !"
+>>>>>>> upstream/18.0
 =======
 "        Make sure to use the right format and order e.g. Improve the "
 "configuration screen 5h #feature #v16 @Mitchell !"
@@ -1495,7 +1628,12 @@ msgstr ""
 "        ! 작업에 우선 순위를 설정\n"
 "\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        올바른 형식과 순서를 사용했는지 확인하십시오. 예. 환경 설정 화면 개선 5h #feature #v16 @Mitchell !"
+=======
+"        올바른 형식과 순서를 사용했는지 확인하십시오. 예. 환경 설정 화면 개"
+"선 5h #feature #v16 @Mitchell !"
+>>>>>>> upstream/18.0
 =======
 "        올바른 형식과 순서를 사용했는지 확인하십시오. 예. 환경 설정 화면 개"
 "선 5h #feature #v16 @Mitchell !"
@@ -1527,12 +1665,15 @@ msgstr "세부 사항 보기"
 msgid ""
 "You can register and track your workings hours by project every\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    day. Every time spent on a project will become a cost and can be re-invoiced to\n"
 "                    customers if required."
 msgstr ""
 "매일 프로젝트별로 작업 시간을 등록하고 추적할 수 있습니다.\n"
 "                    프로젝트에 소요된 각 시간은 비용으로 기록되며 필요한 경우 고객에게\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                    day. Every time spent on a project will become a cost "
 "and can be re-invoiced to\n"
 "                    customers if required."
@@ -1540,6 +1681,9 @@ msgstr ""
 "매일 프로젝트별로 작업 시간을 등록하고 추적할 수 있습니다.\n"
 "                    프로젝트에 소요된 각 시간은 비용으로 기록되며 필요한 경"
 "우 고객에게\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                    다시 청구할 수 있습니다."
 
@@ -1559,12 +1703,15 @@ msgstr "작업 기록이 있는 직원은 삭제할 수 없습니다."
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.project_invoice_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot log timesheets on this project since it is linked to an inactive analytic account.<br/>\n"
 "                            Please switch to another account, or reactivate the current one to timesheet on the project."
 msgstr ""
 "이 프로젝트는 비활성 분석 계정에 연결되어 있으므로 작업 시간을 기록할 수 없습니다.<br/>\n"
 "                            다른 계정으로 변경하거나 현재 계정의 프로젝트 작업 기록을 다시 활성화하십시오."
 =======
+=======
+>>>>>>> upstream/18.0
 "You cannot log timesheets on this project since it is linked to an inactive "
 "analytic account.<br/>\n"
 "                            Please switch to another account, or reactivate "
@@ -1574,6 +1721,9 @@ msgstr ""
 "니다.<br/>\n"
 "                            다른 계정으로 변경하거나 현재 계정의 프로젝트 작"
 "업 기록을 다시 활성화하십시오."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_timesheet
@@ -1581,18 +1731,24 @@ msgstr ""
 msgid ""
 "You cannot log timesheets on this project since it is linked to an inactive "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "analytic account.<br/> Please change this account, or reactivate the current"
 " one to timesheet on the project."
 msgstr ""
 "이 프로젝트는 비활성 분석 계정에 연결되어 있으므로 작업 시간을 기록할 수 없습니다.<br/> 다른 계정으로 변경하거나 현재 계정의 "
 "프로젝트 작업 기록을 다시 활성화하십시오."
 =======
+=======
+>>>>>>> upstream/18.0
 "analytic account.<br/> Please change this account, or reactivate the current "
 "one to timesheet on the project."
 msgstr ""
 "이 프로젝트는 비활성 분석 계정에 연결되어 있으므로 작업 시간을 기록할 수 없습"
 "니다.<br/> 다른 계정으로 변경하거나 현재 계정의 프로젝트 작업 기록을 다시 활"
 "성화하십시오."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_timesheet
@@ -1616,17 +1772,23 @@ msgstr "for the"
 msgid ""
 "on\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <span class=\"fw-bold text-dark\"> Sub-tasks</span>)"
 msgstr ""
 ".\n"
 "                            <span class=\"fw-bold text-dark\"> 하위 작업</span>)"
 =======
+=======
+>>>>>>> upstream/18.0
 "                            <span class=\"fw-bold text-dark\"> Sub-tasks</"
 "span>)"
 msgstr ""
 ".\n"
 "                            <span class=\"fw-bold text-dark\"> 하위 작업</"
 "span>)"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_timesheet

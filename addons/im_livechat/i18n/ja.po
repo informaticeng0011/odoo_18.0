@@ -115,6 +115,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* im_livechat
 # 
 # Translators:
@@ -122,6 +123,8 @@
 # Junko Augias, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -471,6 +474,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -704,6 +710,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2025-01-27 13:02+0000\n"
 <<<<<<< HEAD
@@ -1134,6 +1141,10 @@ msgstr ""
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2025-10-21 22:20+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2025-10-21 22:20+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-18/"
 "im_livechat/ja/>\n"
@@ -1257,6 +1268,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1535,8 +1549,12 @@ msgstr "%s (コピー)"
 #: code:addons/im_livechat/models/discuss_channel.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "'%(input_email)s' does not look like a valid email. Can you please try "
 "again?"
+=======
+"'%(input_email)s' does not look like a valid email. Can you please try again?"
+>>>>>>> upstream/18.0
 =======
 "'%(input_email)s' does not look like a valid email. Can you please try again?"
 >>>>>>> upstream/18.0
@@ -1546,6 +1564,7 @@ msgstr "'%(input_email)s' は有効なEメールではないようです。再�
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel_rule__action
 msgid ""
 "* 'Show' displays the chat button on the pages.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "* 'Show with notification' is 'Show' in addition to a floating text just next to the button.\n"
 "* 'Open automatically' displays the button and automatically opens the conversation pane.\n"
@@ -2238,6 +2257,8 @@ msgstr ""
 "します。\n"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "* 'Show with notification' is 'Show' in addition to a floating text just "
 "next to the button.\n"
 "* 'Open automatically' displays the button and automatically opens the "
@@ -2247,6 +2268,9 @@ msgstr ""
 "* '表示' はページ上にチャットボタンを表示します。\n"
 "* '通知付きで表示'は'表示'に加え、ボタンのすぐ横にフローティングテキストを表"
 "示します。\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "* '自動的に開く'はボタンを表示し、自動的に会話ペインを開きます。\n"
 "* '隠す'はページ上のチャットボタンを隠します。\n"
@@ -2304,6 +2328,7 @@ msgstr "<span>こんにちは</span><br/>あなたの以下との会話のコピ
 #: model_terms:ir.ui.view,arch_db:im_livechat.chatbot_script_step_view_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span>Reminder: This step will only be played if no operator is "
 "available.</span>"
 msgstr "<span>リマインダ：このステップは、オペレーターが不在の場合のみ再生されます。</span>"
@@ -2317,11 +2342,16 @@ msgstr ""
 "<span>ヒント: ボットがより複雑なアクション(オペレータに転送、...)を実行する前に、少なくとも1回の対話(質問、Eメール、...)が必要です。 </span>\n"
 "                    <span>オペレータが利用できない場合にのみボットに訪問者と対話させたい場合は、チャネル規則を使用します。</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 "<span>Reminder: This step will only be played if no operator is available.</"
 "span>"
 msgstr ""
 "<span>リマインダ：このステップは、オペレーターが不在の場合のみ再生されます。"
 "</span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: im_livechat
@@ -2329,12 +2359,15 @@ msgstr ""
 msgid ""
 "<span>Tip: At least one interaction (Question, Email, ...) is needed before "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "the Bot can perform more complex actions (Forward to an Operator, "
 "...).</span>"
 msgstr ""
 "<span>ヒント: "
 "ボットがより複雑なアクション(オペレータに転送、...)を実行する前に、少なくとも1回の対話(質問、Eメール、...)が必要です。</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 "the Bot can perform more complex actions (Forward to an Operator, ...). </"
 "span>\n"
 "                    <span>Use Channel Rules if you want the Bot to interact "
@@ -2354,21 +2387,30 @@ msgid ""
 msgstr ""
 "<span>ヒント: ボットがより複雑なアクション(オペレータに転送、...)を実行する前"
 "に、少なくとも1回の対話(質問、Eメール、...)が必要です。</span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.chatbot_script_step_view_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span>Tip: Plan further steps for the Bot in case no operator is "
 "available.</span>"
 msgstr "<span>ヒント: オペレーターがいない場合に備えて、ボットのさらなる手順を計画しましょう。</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 "<span>Tip: Plan further steps for the Bot in case no operator is available.</"
 "span>"
 msgstr ""
 "<span>ヒント: オペレーターがいない場合に備えて、ボットのさらなる手順を計画し"
 "ましょう。</span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: im_livechat
@@ -2386,17 +2428,23 @@ msgstr "mail.messageは1つのチャットボットメッセージにのみリ�
 msgid ""
 "A session is without answer if the operator did not answer. \n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                       If the visitor is also the operator, the session will always be answered."
 msgstr ""
 "オペレータが応答しなかった場合、セッションには応答がありません。\n"
 "　　　　　　　　　　訪問者がオペレータでもある場合、セッションには必ず応答があります。"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                       If the visitor is also the operator, "
 "the session will always be answered."
 msgstr ""
 "オペレータが応答しなかった場合、セッションには応答がありません。\n"
 "　　　　　　　　　　訪問者がオペレータでもある場合、セッションには必ず応答が"
 "あります。"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: im_livechat
@@ -2407,6 +2455,7 @@ msgstr "要アクション"
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_chatbot_script__active
 msgid "Active"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3156,12 +3205,20 @@ msgstr "アクティブ"
 =======
 msgstr "アクティブ"
 >>>>>>> upstream/18.0
+=======
+msgstr "アクティブ"
+>>>>>>> upstream/18.0
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "Add the following code to the &lt;head&gt; section of your website:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ウェブサイトの &lt;head&gt; セクションに以下のコードを追加してください。"
+=======
+msgstr ""
+"ウェブサイトの &lt;head&gt; セクションに以下のコードを追加してください。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "ウェブサイトの &lt;head&gt; セクションに以下のコードを追加してください。"
@@ -3345,6 +3402,7 @@ msgstr "チャネル"
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel__input_placeholder
 msgid "Chat Input Placeholder"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3806,21 +3864,30 @@ msgstr "チャット入力プレースホルダ"
 =======
 msgstr "チャット入力プレースホルダ"
 >>>>>>> upstream/18.0
+=======
+msgstr "チャット入力プレースホルダ"
+>>>>>>> upstream/18.0
 
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_discuss_channel__channel_type
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "Chat is private and unique between 2 persons. Group is private among invited"
 " persons. Channel can be freely joined (depending on its configuration)."
 msgstr ""
 "チャットは2人だけのプライベートなものです。グループは招待された人だけのプライベートなものです。チャネルは (設定により)自由に参加できます。"
 =======
+=======
+>>>>>>> upstream/18.0
 "Chat is private and unique between 2 persons. Group is private among invited "
 "persons. Channel can be freely joined (depending on its configuration)."
 msgstr ""
 "チャットは2人だけのプライベートなものです。グループは招待された人だけのプライ"
 "ベートなものです。チャネルは (設定により)自由に参加できます。"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: im_livechat
@@ -4136,7 +4203,11 @@ msgid "Default background color of the Livechat button"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Webチャットボタンのデフォルト背景色"
+=======
+msgstr "ライブチャットボタンのデフォルト背景色"
+>>>>>>> upstream/18.0
 =======
 msgstr "ライブチャットボタンのデフォルト背景色"
 >>>>>>> upstream/18.0
@@ -4606,7 +4677,11 @@ msgid "Default text color of the Livechat button"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Webチャットボタンのデフォルト文字色"
+=======
+msgstr "ライブチャットボタンのデフォルト文字色"
+>>>>>>> upstream/18.0
 =======
 msgstr "ライブチャットボタンのデフォルト文字色"
 >>>>>>> upstream/18.0
@@ -5071,7 +5146,11 @@ msgid "Default text displayed on the Livechat Support Button"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Webチャットサポートボタンに表示されるデフォルトテキスト"
+=======
+msgstr "ライブチャットサポートボタンに表示されるデフォルトテキスト"
+>>>>>>> upstream/18.0
 =======
 msgstr "ライブチャットサポートボタンに表示されるデフォルトテキスト"
 >>>>>>> upstream/18.0
@@ -5536,7 +5615,11 @@ msgid "Default title color of the channel once open"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "チャネルを開いたときのデフォルトタイトル色"
+=======
+msgstr "チャネルを開いたときのデフォルト件名色"
+>>>>>>> upstream/18.0
 =======
 msgstr "チャネルを開いたときのデフォルト件名色"
 >>>>>>> upstream/18.0
@@ -5897,7 +5980,13 @@ msgid ""
 "taken into account."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "ライブサポートチャネルの規則を定義します。与えられたURLと国ごとにアクションを適用することができます。<br/>国を特定するには、GeoIPをサーバーにインストールする必要があります。そうでない場合は、規則上の国が考慮されません。"
+=======
+"ライブサポートチャネルの規則を定義します。与えられたURLと国ごとにアクションを"
+"適用することができます。<br/>国を特定するには、GeoIPをサーバーにインストール"
+"する必要があります。そうでない場合は、規則上の国が考慮されません。"
+>>>>>>> upstream/18.0
 =======
 "ライブサポートチャネルの規則を定義します。与えられたURLと国ごとにアクションを"
 "適用することができます。<br/>国を特定するには、GeoIPをサーバーにインストール"
@@ -5911,7 +6000,13 @@ msgid ""
 "selected action must be 'Open automatically' otherwise this parameter will "
 "not be taken into account."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "会話ウィンドウを自動的に開くまでの遅延時間（秒）。注：選択したアクションが「自動で開く」でなければ、このパラメータは考慮されません。"
+=======
+msgstr ""
+"会話ウィンドウを自動的に開くまでの遅延時間（秒）。注：選択したアクションが"
+"「自動で開く」でなければ、このパラメータは考慮されません。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "会話ウィンドウを自動的に開くまでの遅延時間（秒）。注：選択したアクションが"
@@ -6000,6 +6095,7 @@ msgstr "オペレータが対応不可能な場合のみボットを有効にし
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_rule__chatbot_only_if_no_operator
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_rule_view_form
 msgid "Enabled only if no operator"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6461,6 +6557,9 @@ msgstr "オペレータが不在の場合のみ有効"
 =======
 msgstr "オペレータが不在の場合のみ有効"
 >>>>>>> upstream/18.0
+=======
+msgstr "オペレータが不在の場合のみ有効"
+>>>>>>> upstream/18.0
 
 #. module: im_livechat
 #. odoo-javascript
@@ -6524,7 +6623,13 @@ msgid ""
 "Given the order to find a matching rule. If 2 rules are matching for the "
 "given url/country, the one with the lowest sequence will be chosen."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "一致する規則を見つけるための順序が与えられます。与えられた URL/国に一致する規則が2つある場合、順序が最も低いものが選択されます。"
+=======
+msgstr ""
+"一致する規則を見つけるための順序が与えられます。与えられた URL/国に一致する規"
+"則が2つある場合、順序が最も低いものが選択されます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "一致する規則を見つけるための順序が与えられます。与えられた URL/国に一致する規"
@@ -6539,9 +6644,15 @@ msgid ""
 "<strong>Marketing.</strong>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<strong>ウェブサイト</strong>へ移動 &gt; <strong>設定</strong> &gt; "
 "<strong>管理設定</strong> &gt; <strong>Eメール</strong> &amp; "
 "<strong>マーケティング</strong>"
+=======
+"<strong>ウェブサイト</strong>へ移動 &gt; <strong>設定</strong> &gt; <strong>"
+"管理設定</strong> &gt; <strong>Eメール</strong> &amp; <strong>マーケティング"
+"</strong>"
+>>>>>>> upstream/18.0
 =======
 "<strong>ウェブサイト</strong>へ移動 &gt; <strong>設定</strong> &gt; <strong>"
 "管理設定</strong> &gt; <strong>Eメール</strong> &amp; <strong>マーケティング"
@@ -6779,7 +6890,13 @@ msgid ""
 "Learn how to display a live chat bubble on your website and start chatting "
 "with visitors in a few easy steps."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ウェブサイトにライブチャットの吹き出しを表示する方法を学び、簡単なステップで訪問者とのチャットを開始しましょう。"
+=======
+msgstr ""
+"ウェブサイトにライブチャットの吹き出しを表示する方法を学び、簡単なステップで"
+"訪問者とのチャットを開始しましょう。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "ウェブサイトにライブチャットの吹き出しを表示する方法を学び、簡単なステップで"
@@ -6922,7 +7039,11 @@ msgid "Live Chat"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Webチャット"
+=======
+msgstr "ライブチャット"
+>>>>>>> upstream/18.0
 =======
 msgstr "ライブチャット"
 >>>>>>> upstream/18.0
@@ -7387,7 +7508,11 @@ msgid "Live Chat Button"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Webチャットボタン"
+=======
+msgstr "ライブチャットボタン"
+>>>>>>> upstream/18.0
 =======
 msgstr "ライブチャットボタン"
 >>>>>>> upstream/18.0
@@ -7866,7 +7991,11 @@ msgid "Livechat Button"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Webチャットボタン"
+=======
+msgstr "ライブチャットボタン"
+>>>>>>> upstream/18.0
 =======
 msgstr "ライブチャットボタン"
 >>>>>>> upstream/18.0
@@ -8331,7 +8460,11 @@ msgid "Livechat Button Color"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Webチャットボタン色"
+=======
+msgstr "ライブチャットボタン色"
+>>>>>>> upstream/18.0
 =======
 msgstr "ライブチャットボタン色"
 >>>>>>> upstream/18.0
@@ -8797,7 +8930,11 @@ msgid "Livechat Channel"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Webチャットチャネル"
+=======
+msgstr "ライブチャットチャネル"
+>>>>>>> upstream/18.0
 =======
 msgstr "ライブチャットチャネル"
 >>>>>>> upstream/18.0
@@ -9272,7 +9409,11 @@ msgid "Livechat Conversation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Webチャットの会話"
+=======
+msgstr "ライブチャットの会話"
+>>>>>>> upstream/18.0
 =======
 msgstr "ライブチャットの会話"
 >>>>>>> upstream/18.0
@@ -9633,7 +9774,12 @@ msgstr "ライブチャット言語"
 #: model:ir.model.constraint,message:im_livechat.constraint_discuss_channel_livechat_operator_id
 msgid "Livechat Operator ID is required for a channel of type livechat."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "タイプライブチャットのチャネル用にライブチャットオペレータIDが必要です。"
+=======
+msgstr ""
+"タイプライブチャットのチャネル用にライブチャットオペレータIDが必要です。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "タイプライブチャットのチャネル用にライブチャットオペレータIDが必要です。"
@@ -9653,7 +9799,13 @@ msgid ""
 "missed sessions, the audience, the duration of a session, etc."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "ライブチャットサポートチャネル統計は、会社のライブチャットセッションのパフォーマンスを簡単に確認し、分析することができます。見逃したセッション、視聴者、セッション時間などの情報を抽出します。"
+=======
+"ライブチャットサポートチャネル統計は、会社のライブチャットセッションのパ"
+"フォーマンスを簡単に確認し、分析することができます。見逃したセッション、視聴"
+"者、セッション時間などの情報を抽出します。"
+>>>>>>> upstream/18.0
 =======
 "ライブチャットサポートチャネル統計は、会社のライブチャットセッションのパ"
 "フォーマンスを簡単に確認し、分析することができます。見逃したセッション、視聴"
@@ -9786,7 +9938,11 @@ msgid "Livechat Support Statistics"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Webチャットサポート統計"
+=======
+msgstr "ライブチャットサポート統計"
+>>>>>>> upstream/18.0
 =======
 msgstr "ライブチャットサポート統計"
 >>>>>>> upstream/18.0
@@ -10257,7 +10413,11 @@ msgid "Livechat Window"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Webチャットウィンドウ"
+=======
+msgstr "ライブチャットウィンドウ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ライブチャットウィンドウ"
 >>>>>>> upstream/18.0
@@ -10788,7 +10948,13 @@ msgid ""
 "Operators that do not show any activity In Odoo for more than 30 minutes "
 "will be considered as disconnected."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "30分以上、Odooで何の活動も見られないオペレーターは、切断されたものとみなされます。"
+=======
+msgstr ""
+"30分以上、Odooで何の活動も見られないオペレーターは、切断されたものとみなされ"
+"ます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "30分以上、Odooで何の活動も見られないオペレーターは、切断されたものとみなされ"
@@ -10855,7 +11021,12 @@ msgstr "以下にご連絡下さい:"
 #: model:chatbot.script.step,message:im_livechat.chatbot_script_welcome_step_just_looking
 msgid "Please do! If there is anything we can help with, let us know"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "どうぞ見て回ってください。何かお手伝いできることがあれば、お知らせください"
+=======
+msgstr ""
+"どうぞ見て回ってください。何かお手伝いできることがあれば、お知らせください"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "どうぞ見て回ってください。何かお手伝いできることがあれば、お知らせください"
@@ -11058,7 +11229,11 @@ msgid "SMS Delivery error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "SMS配信エラー"
+=======
+msgstr "SMS送信エラー"
+>>>>>>> upstream/18.0
 =======
 msgstr "SMS送信エラー"
 >>>>>>> upstream/18.0
@@ -11532,7 +11707,11 @@ msgid "Show with notification"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "通知と表示する"
+=======
+msgstr "通知付きで表示"
+>>>>>>> upstream/18.0
 =======
 msgstr "通知付きで表示"
 >>>>>>> upstream/18.0
@@ -11956,6 +12135,7 @@ msgid ""
 "The rule will only be applied for these countries. Example: if you select "
 "'Belgium' and 'United States' and that you set the action to 'Hide', the "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "chat button will be hidden on the specified URL from the visitors located in"
 " these 2 countries. This feature requires GeoIP installed on your server."
 msgstr ""
@@ -11963,6 +12143,8 @@ msgstr ""
 "つの国にいる訪問者に対しては指定されたURLのチャットボタンが非表示になります。この機能を使用するには、サーバに GeoIP "
 "がインストールされている必要があります。"
 =======
+=======
+>>>>>>> upstream/18.0
 "chat button will be hidden on the specified URL from the visitors located in "
 "these 2 countries. This feature requires GeoIP installed on your server."
 msgstr ""
@@ -11970,6 +12152,9 @@ msgstr ""
 "ションを '隠す' に設定した場合、これらの 2 つの国にいる訪問者に対しては指定さ"
 "れたURLのチャットボタンが非表示になります。この機能を使用するには、サーバに "
 "GeoIP がインストールされている必要があります。"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: im_livechat
@@ -11989,7 +12174,13 @@ msgid ""
 "that the script will end if the link is external to the livechat website)."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "訪問者は、オプションをクリックすると、このリンクにリダイレクトされます(リンクがライブチャットウェブサイトの外部である場合、スクリプトは終了することに注意して下さい)。"
+=======
+"訪問者は、オプションをクリックすると、このリンクにリダイレクトされます(リンク"
+"がライブチャットウェブサイトの外部である場合、スクリプトは終了することに注意"
+"して下さい)。"
+>>>>>>> upstream/18.0
 =======
 "訪問者は、オプションをクリックすると、このリンクにリダイレクトされます(リンク"
 "がライブチャットウェブサイトの外部である場合、スクリプトは終了することに注意"
@@ -12007,7 +12198,13 @@ msgid ""
 "These languages, in addition to your main language, will be used to assign "
 "you to Live Chat sessions."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "これらの言語は、メイン言語に加えて、ライブチャットセッションの割当に使用されます。"
+=======
+msgstr ""
+"これらの言語は、メイン言語に加えて、ライブチャットセッションの割当に使用され"
+"ます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "これらの言語は、メイン言語に加えて、ライブチャットセッションの割当に使用され"
@@ -12032,7 +12229,13 @@ msgid ""
 "This is an automated 'welcome' message that your visitor will see when they "
 "initiate a new conversation."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "これは、訪問者が新しい会話を始めたときに表示される自動の’ウェルカム'メッセージです。"
+=======
+msgstr ""
+"これは、訪問者が新しい会話を始めたときに表示される自動の’ウェルカム'メッセー"
+"ジです。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "これは、訪問者が新しい会話を始めたときに表示される自動の’ウェルカム'メッセー"
@@ -12179,7 +12382,11 @@ msgid "Title"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "タイトル"
+=======
+msgstr "件名"
+>>>>>>> upstream/18.0
 =======
 msgstr "件名"
 >>>>>>> upstream/18.0
@@ -12644,7 +12851,11 @@ msgid "Title Color"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "タイトル色"
+=======
+msgstr "件名色"
+>>>>>>> upstream/18.0
 =======
 msgstr "件名色"
 >>>>>>> upstream/18.0
@@ -13027,6 +13238,7 @@ msgstr "未評価"
 #: model_terms:digest.tip,tip_description:im_livechat.digest_tip_im_livechat_0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Use canned responses to define templates of messages in the livechat app. To"
 " load a canned response, start your sentence with ':' and select the "
 "template."
@@ -13034,12 +13246,17 @@ msgstr ""
 "定型応答を使用して、ライブチャットアプリでメッセージのテンプレートを定義します。定型応答を読み込むには、テキストを ' : ' "
 "で開始し、テンプレートを選択します。"
 =======
+=======
+>>>>>>> upstream/18.0
 "Use canned responses to define templates of messages in the livechat app. To "
 "load a canned response, start your sentence with ':' and select the template."
 msgstr ""
 "定型応答を使用して、ライブチャットアプリでメッセージのテンプレートを定義しま"
 "す。定型応答を読み込むには、テキストを ' : ' で開始し、テンプレートを選択しま"
 "す。"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: im_livechat
@@ -13098,6 +13315,7 @@ msgstr "ウェブページ"
 #. module: im_livechat
 #: model:ir.actions.act_window,name:im_livechat.im_livechat_channel_action
 msgid "Website Live Chat Channels"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13559,6 +13777,9 @@ msgstr "ウェブサイトライブチャットチャネル"
 =======
 msgstr "ウェブサイトライブチャットチャネル"
 >>>>>>> upstream/18.0
+=======
+msgstr "ウェブサイトライブチャットチャネル"
+>>>>>>> upstream/18.0
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_discuss_channel__website_message_ids
@@ -13600,7 +13821,13 @@ msgstr "ウィジェット"
 msgid ""
 "Would you mind leaving your email address so that we can reach you back?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "折り返しご連絡させていただきますので、メールアドレスを教えていただけますでしょうか？"
+=======
+msgstr ""
+"折り返しご連絡させていただきますので、メールアドレスを教えていただけますで"
+"しょうか？"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "折り返しご連絡させていただきますので、メールアドレスを教えていただけますで"
@@ -13630,7 +13857,13 @@ msgid ""
 "You can create a new Chatbot with a defined script to speak to your website "
 "visitors."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "定義されたスクリプトで新しいチャットボットを作成し、ウェブサイトの訪問者に話しかけることができます。"
+=======
+msgstr ""
+"定義されたスクリプトで新しいチャットボットを作成し、ウェブサイトの訪問者に話"
+"しかけることができます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "定義されたスクリプトで新しいチャットボットを作成し、ウェブサイトの訪問者に話"
@@ -13642,7 +13875,12 @@ msgstr ""
 msgid ""
 "You can create channels for each website on which you want\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                to integrate the website live chat widget, allowing your website\n"
+=======
+"                to integrate the website live chat widget, allowing your "
+"website\n"
+>>>>>>> upstream/18.0
 =======
 "                to integrate the website live chat widget, allowing your "
 "website\n"
@@ -13652,7 +13890,12 @@ msgstr ""
 "ウェブサイトライブチャットウィジェットを統合したい各ウェブサイトに\n"
 "チャネルを作成することができます。\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "これにより、ウェブサイト訪問者は、オペレータとリアルタイムで会話することができます。"
+=======
+"これにより、ウェブサイト訪問者は、オペレータとリアルタイムで会話することがで"
+"きます。"
+>>>>>>> upstream/18.0
 =======
 "これにより、ウェブサイト訪問者は、オペレータとリアルタイムで会話することがで"
 "きます。"

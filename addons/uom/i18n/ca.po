@@ -2,7 +2,11 @@
 # This file contains the translation of the following modules:
 # 	* uom
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -192,6 +196,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Santiago Payà <santiagopim@gmail.com>, 2025
 >>>>>>> upstream/18.0
@@ -722,10 +727,15 @@
 # Santiago Payà <santiagopim@gmail.com>, 2025
 #
 >>>>>>> upstream/18.0
+=======
+# Santiago Payà <santiagopim@gmail.com>, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
@@ -1436,6 +1446,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: ca\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Santiago Payà <santiagopim@gmail.com>, 2025\n"
@@ -1444,6 +1456,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -1452,12 +1467,15 @@ msgstr ""
 msgid ""
 "<span class=\"oe_grey oe_inline\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    e.g: 1*(reference unit)=ratio*(this unit)\n"
 "                                </span>"
 msgstr ""
 "<span class=\"oe_grey oe_inline\">\n"
 "                                  per exemple: 1(unitat de referència)=ratio(aquesta unitat)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                    e.g: 1*(reference unit)=ratio*(this "
 "unit)\n"
 "                                </span>"
@@ -1465,6 +1483,9 @@ msgstr ""
 "<span class=\"oe_grey oe_inline\">\n"
 "                                  per exemple: 1(unitat de "
 "referència)=ratio(aquesta unitat)\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                </span>"
 
@@ -1473,12 +1494,15 @@ msgstr ""
 msgid ""
 "<span class=\"oe_grey oe_inline\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    e.g: 1*(this unit)=ratio*(reference unit)\n"
 "                                </span>"
 msgstr ""
 "<span class=\"oe_grey oe_inline\">\n"
 "                                   per exemple: 1(aquesta unitat)=ratio(unitat de referència)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                    e.g: 1*(this unit)=ratio*(reference "
 "unit)\n"
 "                                </span>"
@@ -1486,6 +1510,9 @@ msgstr ""
 "<span class=\"oe_grey oe_inline\">\n"
 "                                   per exemple: 1(aquesta "
 "unitat)=ratio(unitat de referència)\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                </span>"
 
@@ -1502,6 +1529,7 @@ msgstr "Afegeix una nova unitat de mesura"
 #. module: uom
 #: model_terms:ir.actions.act_window,help:uom.product_uom_categ_form_action
 msgid "Add a new unit of measure category"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2207,6 +2235,9 @@ msgstr "Afegeix una nova categoria d'unitat de mesura"
 =======
 msgstr "Afegeix una nova categoria d'unitat de mesura"
 >>>>>>> upstream/18.0
+=======
+msgstr "Afegeix una nova categoria d'unitat de mesura"
+>>>>>>> upstream/18.0
 
 #. module: uom
 #: model_terms:ir.ui.view,arch_db:uom.uom_uom_view_search
@@ -2246,8 +2277,13 @@ msgid ""
 "same category. The conversion will be made based on the ratios."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "La conversió entre les unitats de mesura només és possible si pertanyen a la"
 " mateixa categoria. La conversió es basarà en les ràtios establertes."
+=======
+"La conversió entre les unitats de mesura només és possible si pertanyen a la "
+"mateixa categoria. La conversió es basarà en les ràtios establertes."
+>>>>>>> upstream/18.0
 =======
 "La conversió entre les unitats de mesura només és possible si pertanyen a la "
 "mateixa categoria. La conversió es basarà en les ràtios establertes."
@@ -2393,6 +2429,7 @@ msgid ""
 "Note that existing data WON'T be updated by this change.\n"
 "\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "As units of measure impact the whole system, this may cause critical issues.\n"
 "E.g. modifying the rounding could disturb your inventory balance.\n"
 "\n"
@@ -2406,6 +2443,8 @@ msgstr ""
 "\n"
 "Per tant, no es recomana canviar les unitats de mesura del nucli en una base de dades en execució."
 =======
+=======
+>>>>>>> upstream/18.0
 "As units of measure impact the whole system, this may cause critical "
 "issues.\n"
 "E.g. modifying the rounding could disturb your inventory balance.\n"
@@ -2424,6 +2463,9 @@ msgstr ""
 "\n"
 "Per tant, no es recomana canviar les unitats de mesura del nucli en una base "
 "de dades en execució."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: uom
@@ -2450,17 +2492,23 @@ msgstr "El ràtio de conversió per a una unitat de mesura no pot ser 0!"
 #: code:addons/uom/models/uom_uom.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The following units of measure are used by the system and cannot be deleted: %s\n"
 "You can archive them instead."
 msgstr ""
 "Les següents unitats de mesura són utilitzades pel sistema i no poden ser eliminades: %s\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "The following units of measure are used by the system and cannot be deleted: "
 "%s\n"
 "You can archive them instead."
 msgstr ""
 "Les següents unitats de mesura són utilitzades pel sistema i no poden ser "
 "eliminades: %s\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "En lloc d'això, els podeu arxivar."
 
@@ -2479,8 +2527,13 @@ msgstr "La precisió d'arrodoniment ha d'ésser positiva."
 #: code:addons/uom/models/uom_uom.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The unit of measure %(unit)s defined on the order line doesn't belong to the"
 " same category as the unit of measure %(product_unit)s defined on the "
+=======
+"The unit of measure %(unit)s defined on the order line doesn't belong to the "
+"same category as the unit of measure %(product_unit)s defined on the "
+>>>>>>> upstream/18.0
 =======
 "The unit of measure %(unit)s defined on the order line doesn't belong to the "
 "same category as the unit of measure %(product_unit)s defined on the "

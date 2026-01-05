@@ -2,22 +2,29 @@
 # This file contains the translation of the following modules:
 # 	* pos_online_payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Malaz Abuidris <msea@odoo.com>, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Malaz Abuidris <msea@odoo.com>, 2024
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -29,6 +36,8 @@ msgstr ""
 "Language: ar\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Malaz Abuidris <msea@odoo.com>, 2024\n"
@@ -39,6 +48,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: pos_online_payment
@@ -49,8 +61,12 @@ msgstr "<strong>خطأ:</strong> العملة غير موجودة أو غير ص
 #. module: pos_online_payment
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pay_confirmation
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "<strong>Error:</strong> There was a problem during the payment process."
+=======
+msgid "<strong>Error:</strong> There was a problem during the payment process."
+>>>>>>> upstream/18.0
 =======
 msgid "<strong>Error:</strong> There was a problem during the payment process."
 >>>>>>> upstream/18.0
@@ -73,8 +89,12 @@ msgstr "يجب أن يتم تحديد خيار دفع. "
 #. odoo-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "A validation payment cannot be used for a Point of Sale online payment."
+=======
+msgid "A validation payment cannot be used for a Point of Sale online payment."
+>>>>>>> upstream/18.0
 =======
 msgid "A validation payment cannot be used for a Point of Sale online payment."
 >>>>>>> upstream/18.0
@@ -133,8 +153,13 @@ msgid ""
 "accounting payment."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "لا يمكن إنشاء دفع في نقطة البيع باستخدام دفع غير أونلاين مع طريقة دفع محاسبة"
 " أونلاين. "
+=======
+"لا يمكن إنشاء دفع في نقطة البيع باستخدام دفع غير أونلاين مع طريقة دفع محاسبة "
+"أونلاين. "
+>>>>>>> upstream/18.0
 =======
 "لا يمكن إنشاء دفع في نقطة البيع باستخدام دفع غير أونلاين مع طريقة دفع محاسبة "
 "أونلاين. "
@@ -154,8 +179,13 @@ msgid ""
 "pos_config_id=%(pos_config_id)d)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "تعذر إنشاء طريقة دفع عبر الإنترنت (company_id=%(company_id)d، "
 "pos_config_id=%(pos_config_id)d) "
+=======
+"تعذر إنشاء طريقة دفع عبر الإنترنت (company_id=%(company_id)d، pos_config_id=%"
+"(pos_config_id)d) "
+>>>>>>> upstream/18.0
 =======
 "تعذر إنشاء طريقة دفع عبر الإنترنت (company_id=%(company_id)d، pos_config_id=%"
 "(pos_config_id)d) "
@@ -335,8 +365,12 @@ msgstr "خطأ في الخادم "
 #: code:addons/pos_online_payment/models/payment_transaction.py:0
 msgid "The POS online payment (tx.id=%d) could not be saved correctly"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "لم نتمكن من حفظ الدفع عبر الإنترنت في نقطة البيع (tx.id=%d) بشكل صحيح "
+=======
+msgstr "لم نتمكن من حفظ الدفع عبر الإنترنت في نقطة البيع (tx.id=%d) بشكل صحيح "
+>>>>>>> upstream/18.0
 =======
 msgstr "لم نتمكن من حفظ الدفع عبر الإنترنت في نقطة البيع (tx.id=%d) بشكل صحيح "
 >>>>>>> upstream/18.0

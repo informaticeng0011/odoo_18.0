@@ -43,6 +43,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* hr_timesheet
 # 
 # Translators:
@@ -851,6 +852,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * hr_timesheet
 #
 # Translators:
@@ -901,6 +904,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -990,6 +996,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
 <<<<<<< HEAD
@@ -1740,6 +1747,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-21 02:28+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Czech <https://translate.odoo.com/projects/odoo-18/"
@@ -1793,6 +1803,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2085,7 +2098,11 @@ msgid "%(hours)sh"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(hours)sh"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(hours)sh"
 >>>>>>> upstream/18.0
@@ -2783,7 +2800,11 @@ msgid "%(hours)sh%(minutes)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(hours)sh%(minutes)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(hours)sh%(minutes)s"
 >>>>>>> upstream/18.0
@@ -3315,8 +3336,13 @@ msgstr ""
 #: code:addons/hr_timesheet/models/hr_timesheet.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "'%(missing_plan_names)s' analytic plan(s) required on the project "
 "'%(project_name)s' linked to the timesheet."
+=======
+"'%(missing_plan_names)s' analytic plan(s) required on the project '%"
+"(project_name)s' linked to the timesheet."
+>>>>>>> upstream/18.0
 =======
 "'%(missing_plan_names)s' analytic plan(s) required on the project '%"
 "(project_name)s' linked to the timesheet."
@@ -3364,7 +3390,13 @@ msgstr ""
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.view_kanban_account_analytic_line
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-calendar me-1\" role=\"img\" aria-label=\"Date\" title=\"Date\"/>"
+=======
+msgid ""
+"<i class=\"fa fa-calendar me-1\" role=\"img\" aria-label=\"Date\" "
+"title=\"Date\"/>"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "<i class=\"fa fa-calendar me-1\" role=\"img\" aria-label=\"Date\" "
@@ -3395,15 +3427,21 @@ msgid ""
 "                        You cannot delete employees who have timesheets.\n"
 "                        <span invisible=\"not has_active_employee\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            You can either archive these employees or first delete all of their timesheets.\n"
 "                        </span>\n"
 "                        <span invisible=\"has_active_employee\" groups=\"hr_timesheet.group_hr_timesheet_approver\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                            You can either archive these employees or first "
 "delete all of their timesheets.\n"
 "                        </span>\n"
 "                        <span invisible=\"has_active_employee\" "
 "groups=\"hr_timesheet.group_hr_timesheet_approver\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                            Please first delete all of their timesheets.\n"
 "                        </span>\n"
@@ -3412,6 +3450,7 @@ msgid ""
 "                        Are you sure you want to delete these employees?\n"
 "                    </span>"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4455,6 +4494,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "<span invisible=\"not has_timesheet\">\n"
 "                        Nemůžete smazat zaměstnance, kteří mají pracovní "
 "výkazy.\n"
@@ -4472,6 +4513,9 @@ msgstr ""
 "                        Jste si jisti, že chcete smazat všechny tyto "
 "zaměstnance?\n"
 "                    </span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_timesheet
@@ -4656,7 +4700,11 @@ msgid "<strong>Progress:</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Progres:</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Progres:</strong>"
 >>>>>>> upstream/18.0
@@ -5257,7 +5305,11 @@ msgid "<strong>Time Remaining: </strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Zbývající čas:</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Zbývající čas:</strong>"
 >>>>>>> upstream/18.0
@@ -5873,7 +5925,11 @@ msgid "<strong>Total Time Spent: </strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Celkový strávený čas:</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Celkový strávený čas:</strong>"
 >>>>>>> upstream/18.0
@@ -6378,7 +6434,12 @@ msgstr "Uplatnění analytického plánu"
 #: model_terms:ir.actions.act_window,help:hr_timesheet.timesheet_action_report_by_task
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Analyze the projects and tasks on which your employees spend their time.<br>\n"
+=======
+"Analyze the projects and tasks on which your employees spend their time."
+"<br>\n"
+>>>>>>> upstream/18.0
 =======
 "Analyze the projects and tasks on which your employees spend their time."
 "<br>\n"
@@ -6624,8 +6685,12 @@ msgstr ""
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.res_config_settings_view_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Generate timesheets for validated time off requests and public holidays"
+=======
+msgid "Generate timesheets for validated time off requests and public holidays"
+>>>>>>> upstream/18.0
 =======
 msgid "Generate timesheets for validated time off requests and public holidays"
 >>>>>>> upstream/18.0
@@ -6835,7 +6900,11 @@ msgid "Has Department Manager Access"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Má přístup manažera oddělení"
+>>>>>>> upstream/18.0
 =======
 msgstr "Má přístup manažera oddělení"
 >>>>>>> upstream/18.0
@@ -7808,8 +7877,13 @@ msgstr "Interní projekt společnosti by měl být v této společnosti."
 #: code:addons/hr_timesheet/models/hr_timesheet.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The project, the task and the analytic accounts of the timesheet must belong"
 " to the same company."
+=======
+"The project, the task and the analytic accounts of the timesheet must belong "
+"to the same company."
+>>>>>>> upstream/18.0
 =======
 "The project, the task and the analytic accounts of the timesheet must belong "
 "to the same company."
@@ -7826,8 +7900,13 @@ msgstr "Neexistují žádné časové výkazy."
 #: code:addons/hr_timesheet/models/project_project.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "These projects have some timesheet entries referencing them. Before removing"
 " these projects, you have to remove these timesheet entries."
+=======
+"These projects have some timesheet entries referencing them. Before removing "
+"these projects, you have to remove these timesheet entries."
+>>>>>>> upstream/18.0
 =======
 "These projects have some timesheet entries referencing them. Before removing "
 "these projects, you have to remove these timesheet entries."
@@ -7844,8 +7923,13 @@ msgid ""
 "these tasks, you have to remove these timesheet entries."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Tyto úkoly mají některé položky časového rozvrhu, které na ně odkazují. Před"
 " odebráním těchto úkolů musíte tyto záznamy časového rozvrhu odstranit."
+=======
+"Tyto úkoly mají některé položky časového rozvrhu, které na ně odkazují. Před "
+"odebráním těchto úkolů musíte tyto záznamy časového rozvrhu odstranit."
+>>>>>>> upstream/18.0
 =======
 "Tyto úkoly mají některé položky časového rozvrhu, které na ně odkazují. Před "
 "odebráním těchto úkolů musíte tyto záznamy časového rozvrhu odstranit."
@@ -7887,8 +7971,13 @@ msgstr ""
 #: code:addons/hr_timesheet/models/project_project.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This project has some timesheet entries referencing it. Before removing this"
 " project, you have to remove these timesheet entries."
+=======
+"This project has some timesheet entries referencing it. Before removing this "
+"project, you have to remove these timesheet entries."
+>>>>>>> upstream/18.0
 =======
 "This project has some timesheet entries referencing it. Before removing this "
 "project, you have to remove these timesheet entries."
@@ -7922,17 +8011,23 @@ msgstr ""
 msgid ""
 "This will set the unit of measure used in projects and tasks.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If you use the timesheet linked to projects, don't forget to setup the right unit of measure in your employees."
 msgstr ""
 "Tím se nastaví měrná jednotka použitá v projektech a úkolech.\n"
 "Pokud používáte časový rozvrh spojený s projekty, nezapomeňte ve svých zaměstnancích nastavit správnou měrnou jednotku."
 =======
+=======
+>>>>>>> upstream/18.0
 "If you use the timesheet linked to projects, don't forget to setup the right "
 "unit of measure in your employees."
 msgstr ""
 "Tím se nastaví měrná jednotka použitá v projektech a úkolech.\n"
 "Pokud používáte časový rozvrh spojený s projekty, nezapomeňte ve svých "
 "zaměstnancích nastavit správnou měrnou jednotku."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_timesheet
@@ -8038,7 +8133,11 @@ msgid "Time Spent on Sub-tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čas strávený na pod-úkolech"
+>>>>>>> upstream/18.0
 =======
 msgstr "Čas strávený na pod-úkolech"
 >>>>>>> upstream/18.0
@@ -8337,8 +8436,12 @@ msgstr ""
 #: code:addons/hr_timesheet/models/hr_timesheet.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Timesheets must be created with an active employee in the selected "
 "companies."
+=======
+"Timesheets must be created with an active employee in the selected companies."
+>>>>>>> upstream/18.0
 =======
 "Timesheets must be created with an active employee in the selected companies."
 >>>>>>> upstream/18.0
@@ -8418,8 +8521,13 @@ msgstr "Celkem:"
 #: model_terms:ir.actions.act_window,help:hr_timesheet.timesheet_action_all
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Track your working hours by projects every day and invoice this time to your"
 " customers."
+=======
+"Track your working hours by projects every day and invoice this time to your "
+"customers."
+>>>>>>> upstream/18.0
 =======
 "Track your working hours by projects every day and invoice this time to your "
 "customers."
@@ -8445,7 +8553,12 @@ msgid ""
 "        ! Set the task a high priority\n"
 "\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Make sure to use the right format and order e.g. Improve the configuration screen 5h #feature #v16 @Mitchell !"
+=======
+"        Make sure to use the right format and order e.g. Improve the "
+"configuration screen 5h #feature #v16 @Mitchell !"
+>>>>>>> upstream/18.0
 =======
 "        Make sure to use the right format and order e.g. Improve the "
 "configuration screen 5h #feature #v16 @Mitchell !"
@@ -8459,7 +8572,12 @@ msgstr ""
 "        ! Nastavte úkolu vysokou prioritu\n"
 "\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Dbejte na správný formát a pořadí, např. vylepšit konfigurační obrazovku 5h #funkce #v16 @Mitchell !"
+=======
+"        Dbejte na správný formát a pořadí, např. vylepšit konfigurační "
+"obrazovku 5h #funkce #v16 @Mitchell !"
+>>>>>>> upstream/18.0
 =======
 "        Dbejte na správný formát a pořadí, např. vylepšit konfigurační "
 "obrazovku 5h #funkce #v16 @Mitchell !"
@@ -8491,7 +8609,12 @@ msgstr "Zobrazit podrobnosti"
 msgid ""
 "You can register and track your workings hours by project every\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    day. Every time spent on a project will become a cost and can be re-invoiced to\n"
+=======
+"                    day. Every time spent on a project will become a cost "
+"and can be re-invoiced to\n"
+>>>>>>> upstream/18.0
 =======
 "                    day. Every time spent on a project will become a cost "
 "and can be re-invoiced to\n"
@@ -8515,13 +8638,19 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.project_invoice_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot log timesheets on this project since it is linked to an inactive analytic account.<br/>\n"
 "                            Please switch to another account, or reactivate the current one to timesheet on the project."
 =======
+=======
+>>>>>>> upstream/18.0
 "You cannot log timesheets on this project since it is linked to an inactive "
 "analytic account.<br/>\n"
 "                            Please switch to another account, or reactivate "
 "the current one to timesheet on the project."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -8530,8 +8659,13 @@ msgstr ""
 msgid ""
 "You cannot log timesheets on this project since it is linked to an inactive "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "analytic account.<br/> Please change this account, or reactivate the current"
 " one to timesheet on the project."
+=======
+"analytic account.<br/> Please change this account, or reactivate the current "
+"one to timesheet on the project."
+>>>>>>> upstream/18.0
 =======
 "analytic account.<br/> Please change this account, or reactivate the current "
 "one to timesheet on the project."
@@ -8559,7 +8693,12 @@ msgstr "pro"
 msgid ""
 "on\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <span class=\"fw-bold text-dark\"> Sub-tasks</span>)"
+=======
+"                            <span class=\"fw-bold text-dark\"> Sub-tasks</"
+"span>)"
+>>>>>>> upstream/18.0
 =======
 "                            <span class=\"fw-bold text-dark\"> Sub-tasks</"
 "span>)"

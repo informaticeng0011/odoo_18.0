@@ -2,22 +2,29 @@
 # This file contains the translation of the following modules:
 # 	* account_edi
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Rasareeyar Lappiam, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Rasareeyar Lappiam, 2024
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -28,6 +35,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: th\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Rasareeyar Lappiam, 2024\n"
@@ -36,6 +45,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
 
@@ -80,9 +92,13 @@ msgid ""
 "Are you sure you want to cancel this invoice without waiting for the EDI "
 "document to be canceled?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "คุณแน่ใจหรือไม่ว่าต้องการยกเลิกใบแจ้งหนี้ฉบับนี้โดยไม่ต้องรอให้เอกสาร EDI "
 "ถูกยกเลิก?"
+=======
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการยกเลิกใบแจ้งหนี้ฉบับนี้โดยไม่ต้องรอให้เอกสาร EDI ถูกยกเลิก?"
+>>>>>>> upstream/18.0
 =======
 msgstr "คุณแน่ใจหรือไม่ว่าต้องการยกเลิกใบแจ้งหนี้ฉบับนี้โดยไม่ต้องรอให้เอกสาร EDI ถูกยกเลิก?"
 >>>>>>> upstream/18.0
@@ -102,11 +118,14 @@ msgstr "ระดับการปิดกั้น"
 #: model:ir.model.fields,help:account_edi.field_account_edi_document__blocking_level
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Blocks the current operation of the document depending on the error severity:\n"
 "  * Info: the document is not blocked and everything is working as it should.\n"
 "  * Warning: there is an error that doesn't prevent the current Electronic Invoicing operation to succeed.\n"
 "  * Error: there is an error that blocks the current Electronic Invoicing operation."
 =======
+=======
+>>>>>>> upstream/18.0
 "Blocks the current operation of the document depending on the error "
 "severity:\n"
 "  * Info: the document is not blocked and everything is working as it "
@@ -115,6 +134,9 @@ msgid ""
 "Invoicing operation to succeed.\n"
 "  * Error: there is an error that blocks the current Electronic Invoicing "
 "operation."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 "ปิดกั้นการดำเนินการปัจจุบันของเอกสารขึ้นอยู่กับความรุนแรงของข้อผิดพลาด:\n"
@@ -141,8 +163,12 @@ msgid ""
 "synchronized"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "ไม่สามารถปิดการใช้งาน (%s) ในสมุดรายวันนี้ได้ "
 "เนื่องจากเอกสารไม่ครบทั้งหมดจะถูกซิงโครไนซ์"
+=======
+"ไม่สามารถปิดการใช้งาน (%s) ในสมุดรายวันนี้ได้ เนื่องจากเอกสารไม่ครบทั้งหมดจะถูกซิงโครไนซ์"
+>>>>>>> upstream/18.0
 =======
 "ไม่สามารถปิดการใช้งาน (%s) ในสมุดรายวันนี้ได้ เนื่องจากเอกสารไม่ครบทั้งหมดจะถูกซิงโครไนซ์"
 >>>>>>> upstream/18.0
@@ -420,8 +446,12 @@ msgid ""
 "document is processed)."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "ไฟล์ที่สร้างโดย edi_format_id เมื่อมีการผ่านรายการใบแจ้งหนี้ "
 "(และเอกสารนี้ได้รับการประมวลผล)"
+=======
+"ไฟล์ที่สร้างโดย edi_format_id เมื่อมีการผ่านรายการใบแจ้งหนี้ (และเอกสารนี้ได้รับการประมวลผล)"
+>>>>>>> upstream/18.0
 =======
 "ไฟล์ที่สร้างโดย edi_format_id เมื่อมีการผ่านรายการใบแจ้งหนี้ (และเอกสารนี้ได้รับการประมวลผล)"
 >>>>>>> upstream/18.0
@@ -442,10 +472,15 @@ msgstr "ใบแจ้งหนี้จะถูกส่งไปยัง"
 #: model:ir.model.fields,help:account_edi.field_account_edi_document__error
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The text of the last error that happened during Electronic Invoice "
 "operation."
 msgstr ""
 "ข้อความของข้อผิดพลาดล่าสุดที่เกิดขึ้นระหว่างการดำเนินการใบแจ้งหนี้อิเล็กทรอนิกส์"
+=======
+"The text of the last error that happened during Electronic Invoice operation."
+msgstr "ข้อความของข้อผิดพลาดล่าสุดที่เกิดขึ้นระหว่างการดำเนินการใบแจ้งหนี้อิเล็กทรอนิกส์"
+>>>>>>> upstream/18.0
 =======
 "The text of the last error that happened during Electronic Invoice operation."
 msgstr "ข้อความของข้อผิดพลาดล่าสุดที่เกิดขึ้นระหว่างการดำเนินการใบแจ้งหนี้อิเล็กทรอนิกส์"
@@ -467,10 +502,16 @@ msgstr "เอกสารนี้กำลังถูกส่งโดยข
 #: code:addons/account_edi/models/account_move.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This invoice was canceled while the EDIs %s still had a pending cancellation"
 " request."
 msgstr ""
 "ใบแจ้งหนี้นี้ถูกยกเลิกในขณะที่ EDI %s ยังคงมีคำขอการยกเลิกที่รอดำเนินการอยู่"
+=======
+"This invoice was canceled while the EDIs %s still had a pending cancellation "
+"request."
+msgstr "ใบแจ้งหนี้นี้ถูกยกเลิกในขณะที่ EDI %s ยังคงมีคำขอการยกเลิกที่รอดำเนินการอยู่"
+>>>>>>> upstream/18.0
 =======
 "This invoice was canceled while the EDIs %s still had a pending cancellation "
 "request."
@@ -500,6 +541,7 @@ msgstr "คำเตือน"
 #: code:addons/account_edi/models/account_move.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can't edit the following journal entry %s because an electronic document"
 " has already been sent. Please use the 'Request EDI Cancellation' button "
 "instead."
@@ -507,12 +549,17 @@ msgstr ""
 "คุณไม่สามารถแก้ไขรายการสมุดรายวันต่อไปนี้ %s ได้ "
 "เนื่องจากมีการส่งเอกสารอิเล็กทรอนิกส์ไปแล้ว โปรดใช้ปุ่ม 'ขอยกเลิก EDI' แทน"
 =======
+=======
+>>>>>>> upstream/18.0
 "You can't edit the following journal entry %s because an electronic document "
 "has already been sent. Please use the 'Request EDI Cancellation' button "
 "instead."
 msgstr ""
 "คุณไม่สามารถแก้ไขรายการสมุดรายวันต่อไปนี้ %s ได้ เนื่องจากมีการส่งเอกสารอิเล็กทรอนิกส์ไปแล้ว "
 "โปรดใช้ปุ่ม 'ขอยกเลิก EDI' แทน"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_edi
@@ -521,8 +568,12 @@ msgstr ""
 msgid ""
 "You can't unlink an attachment being an EDI document sent to the government."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "คุณไม่สามารถยกเลิกการเชื่อมโยงเอกสารแนบที่เป็นเอกสาร EDI ที่ส่งถึงรัฐบาลได้"
+=======
+msgstr "คุณไม่สามารถยกเลิกการเชื่อมโยงเอกสารแนบที่เป็นเอกสาร EDI ที่ส่งถึงรัฐบาลได้"
+>>>>>>> upstream/18.0
 =======
 msgstr "คุณไม่สามารถยกเลิกการเชื่อมโยงเอกสารแนบที่เป็นเอกสาร EDI ที่ส่งถึงรัฐบาลได้"
 >>>>>>> upstream/18.0

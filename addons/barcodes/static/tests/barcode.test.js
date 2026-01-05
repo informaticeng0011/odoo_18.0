@@ -232,6 +232,10 @@ test("pager buttons", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    await animationFrame();
+>>>>>>> upstream/18.0
 =======
     await animationFrame();
 >>>>>>> upstream/18.0
@@ -529,6 +533,10 @@ test("pager buttons", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    await animationFrame();
+>>>>>>> upstream/18.0
 =======
     await animationFrame();
 >>>>>>> upstream/18.0

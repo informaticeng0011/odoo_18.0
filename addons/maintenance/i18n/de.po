@@ -2,22 +2,29 @@
 # This file contains the translation of the following modules:
 # 	* maintenance
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Larissa Manderfeld, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Larissa Manderfeld, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -28,6 +35,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: de\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Larissa Manderfeld, 2025\n"
@@ -36,6 +45,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -420,8 +432,13 @@ msgid ""
 "from the Request Date. "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Datum, an dem das Wartungsteam die Wartung plant. Es sollte nicht allzu sehr"
 " vom Anfragedatum abweichen."
+=======
+"Datum, an dem das Wartungsteam die Wartung plant. Es sollte nicht allzu sehr "
+"vom Anfragedatum abweichen."
+>>>>>>> upstream/18.0
 =======
 "Datum, an dem das Wartungsteam die Wartung plant. Es sollte nicht allzu sehr "
 "vom Anfragedatum abweichen."
@@ -706,8 +723,13 @@ msgstr "ID"
 #: model:ir.model.fields,help:maintenance.field_maintenance_equipment_category__alias_parent_thread_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "ID of the parent record holding the alias (example: project holding the task"
 " creation alias)"
+=======
+"ID of the parent record holding the alias (example: project holding the task "
+"creation alias)"
+>>>>>>> upstream/18.0
 =======
 "ID of the parent record holding the alias (example: project holding the task "
 "creation alias)"
@@ -741,8 +763,12 @@ msgstr "Falls markiert, erfordern neue Nachrichten Ihre Aufmerksamkeit."
 #: model:ir.model.fields,help:maintenance.field_maintenance_request__message_has_error
 msgid "If checked, some messages have a delivery error."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Falls markiert, weisen einige Nachrichten einen Zustellungsfehler auf."
+=======
+msgstr "Falls markiert, weisen einige Nachrichten einen Zustellungsfehler auf."
+>>>>>>> upstream/18.0
 =======
 msgstr "Falls markiert, weisen einige Nachrichten einen Zustellungsfehler auf."
 >>>>>>> upstream/18.0
@@ -1201,8 +1227,13 @@ msgstr "Thread-ID des übergeordneten Datensatzes"
 #: model:ir.model.fields,help:maintenance.field_maintenance_equipment_category__alias_parent_model_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Parent model holding the alias. The model holding the alias reference is not"
 " necessarily the model given by alias_model_id (example: project "
+=======
+"Parent model holding the alias. The model holding the alias reference is not "
+"necessarily the model given by alias_model_id (example: project "
+>>>>>>> upstream/18.0
 =======
 "Parent model holding the alias. The model holding the alias reference is not "
 "necessarily the model given by alias_model_id (example: project "
@@ -1234,15 +1265,21 @@ msgid ""
 "- everyone: everyone can post\n"
 "- partners: only authenticated partners\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- followers: only followers of the related document or members of following channels\n"
 msgstr ""
 "Richtlinie zum Hinterlassen einer Mitteilung im Dokument über das E-Mail-Gateway.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "- followers: only followers of the related document or members of following "
 "channels\n"
 msgstr ""
 "Richtlinie zum Hinterlassen einer Mitteilung im Dokument über das E-Mail-"
 "Gateway.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "- Jeder: jeder kann eine Nachricht hinterlassen\n"
 "- Partner: nur bestätigte Partner\n"
@@ -1538,9 +1575,15 @@ msgstr "Text"
 #: model:ir.model.fields,help:maintenance.field_maintenance_equipment_category__alias_model_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
+=======
+"The model (Odoo Document Kind) to which this alias corresponds. Any incoming "
+"email that does not reply to an existing record will cause the creation of a "
+"new record of this model (e.g. a Project Task)"
+>>>>>>> upstream/18.0
 =======
 "The model (Odoo Document Kind) to which this alias corresponds. Any incoming "
 "email that does not reply to an existing record will cause the creation of a "
@@ -1597,11 +1640,14 @@ msgstr "Top-Prioritäten"
 msgid ""
 "Track equipment and link it to an employee or department.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                You will be able to manage allocations, issues and maintenance of your equipment."
 msgstr ""
 "Verfolgen Sie Ausrüstung und verknüpfen Sie sie mit einem Mitarbeiter oder einer Abteilung.\n"
 "                Sie können Zuteilungen, Probleme und Wartung Ihrer Ausrüstung verwalten."
 =======
+=======
+>>>>>>> upstream/18.0
 "                You will be able to manage allocations, issues and "
 "maintenance of your equipment."
 msgstr ""
@@ -1609,6 +1655,9 @@ msgstr ""
 "einer Abteilung.\n"
 "                Sie können Zuteilungen, Probleme und Wartung Ihrer "
 "Ausrüstung verwalten."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: maintenance
@@ -1895,7 +1944,11 @@ msgid "e.g. mycompany.com"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "z. B. mycompany.com"
+=======
+msgstr "z. B. meinunternehmen.com"
+>>>>>>> upstream/18.0
 =======
 msgstr "z. B. meinunternehmen.com"
 >>>>>>> upstream/18.0

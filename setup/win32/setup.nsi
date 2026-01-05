@@ -421,6 +421,10 @@ Section "Uninstall"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    SetRegView 64
+>>>>>>> upstream/18.0
 =======
     SetRegView 64
 >>>>>>> upstream/18.0
@@ -725,7 +729,13 @@ Section "Uninstall"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Rmdir /R "$INSTDIR\$1"
+=======
+    StrCmp $1 "" nginx_dir_not_found
+    Rmdir /R "$INSTDIR\$1"
+    nginx_dir_not_found:
+>>>>>>> upstream/18.0
 =======
     StrCmp $1 "" nginx_dir_not_found
     Rmdir /R "$INSTDIR\$1"

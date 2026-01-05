@@ -2,7 +2,11 @@
 # This file contains the translation of the following modules:
 # 	* gamification
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -23,6 +27,7 @@
 # Jonas Zinkevicius <jozi@odoo.com>, 2024
 # digitouch UAB <digitouchagencyeur@gmail.com>, 2024
 # Martin Trigaux, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -737,15 +742,21 @@
 >>>>>>> upstream/18.0
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 # UAB "Draugiški sprendimai" <transifex@draugiskisprendimai.lt>, 2024
 # Linas Versada <linaskrisiukenas@gmail.com>, 2025
 # Ramunė ViaLaurea <ramune.vialaurea@gmail.com>, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:41+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -1229,6 +1240,8 @@ msgstr ""
 "Language: lt\n"
 "Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Ramunė ViaLaurea <ramune.vialaurea@gmail.com>, 2025\n"
@@ -1240,6 +1253,9 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < "
 "11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? "
 "1 : n % 1 != 0 ? 2: 3);\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: gamification
@@ -1248,12 +1264,18 @@ msgid ""
 "\n"
 "    <strong>Reminder</strong><br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    You have not updated your progress for the goal <t t-out=\"object.definition_id.name or ''\"/> (currently reached at <t t-out=\"object.completeness or ''\"/>%) for at least <t t-out=\"object.remind_update_delay or ''\"/> days. Do not forget to do it.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "    You have not updated your progress for the goal <t t-"
 "out=\"object.definition_id.name or ''\"/> (currently reached at <t t-"
 "out=\"object.completeness or ''\"/>%) for at least <t t-"
 "out=\"object.remind_update_delay or ''\"/> days. Do not forget to do it.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "    <br/><br/>\n"
 "    Thank you,\n"
@@ -1285,13 +1307,19 @@ msgstr "%s atsisakė iššūkio"
 #: model:mail.template,body_html:gamification.mail_template_data_new_rank_reached
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<div style=\"color:#515166;padding:10px 0px;font-family:Arial,Helvetica,sans-serif;font-size:14px;\">\n"
 "<table style=\"width:600px;margin:0px auto;background:white;border:1px solid #e1e1e1;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "<div style=\"color:#515166;padding:10px 0px;font-family:Arial,Helvetica,sans-"
 "serif;font-size:14px;\">\n"
 "<table style=\"width:600px;margin:0px auto;background:white;border:1px solid "
 "#e1e1e1;\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "    <tbody>\n"
 "        <tr>\n"
@@ -1301,6 +1329,7 @@ msgid ""
 "                    <span t-out=\"object.name or ''\">Joel Willis</span>!\n"
 "                </p>\n"
 "                <p>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                    You just reached a new rank: <strong t-out=\"object.rank_id.name or ''\">Newbie</strong>\n"
 "                </p>\n"
@@ -1314,6 +1343,8 @@ msgid ""
 "                        <t t-set=\"label\" t-value=\"data['label']\"/>\n"
 "                        <a t-att-href=\"url\" style=\"background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;\" t-out=\"label or ''\">LABEL</a>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                    You just reached a new rank: <strong t-"
 "out=\"object.rank_id.name or ''\">Newbie</strong>\n"
 "                </p>\n"
@@ -1331,6 +1362,9 @@ msgid ""
 "                        <a t-att-href=\"url\" style=\"background-color: "
 "#875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; "
 "border-radius: 5px; font-size:13px;\" t-out=\"label or ''\">LABEL</a>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                    </t>\n"
 "                </div>\n"
@@ -1338,7 +1372,12 @@ msgid ""
 "            <td style=\"padding:15px 20px 10px 20px;\">\n"
 "                <p style=\"text-align: center;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <img t-attf-src=\"/web/image/gamification.karma.rank/{{ object.rank_id.id }}/image_128\"/>\n"
+=======
+"                    <img t-attf-src=\"/web/image/gamification.karma.rank/"
+"{{ object.rank_id.id }}/image_128\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                    <img t-attf-src=\"/web/image/gamification.karma.rank/"
 "{{ object.rank_id.id }}/image_128\"/>\n"
@@ -1348,13 +1387,19 @@ msgid ""
 "        </tr>\n"
 "        <tr>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <td t-if=\"not user.share and user.active\" style=\"padding:15px 20px 10px 20px;\" data-o-mail-quote-container=\"1\">\n"
 "                <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            <td t-if=\"not user.share and user.active\" style=\"padding:15px "
 "20px 10px 20px;\" data-o-mail-quote-container=\"1\">\n"
 "                <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--"
 "<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            </td>\n"
 "            <td t-else=\"\" style=\"padding:15px 20px 10px 20px;\">\n"
@@ -1401,20 +1446,27 @@ msgstr ""
 #: model:mail.template,body_html:gamification.email_template_badge_received
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<table border=\"0\" cellpadding=\"0\" style=\"padding-top: 16px; background-color: #F1F1F1; color: #454748; width: 100%; border-collapse:separate;\"><tr><td align=\"center\">\n"
 "<table border=\"0\" width=\"590\" cellpadding=\"0\" style=\"padding: 16px; background-color: white; color: #454748; border-collapse:separate;\" summary=\"o_mail_notification\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "<table border=\"0\" cellpadding=\"0\" style=\"padding-top: 16px; background-"
 "color: #F1F1F1; color: #454748; width: 100%; border-collapse:separate;"
 "\"><tr><td align=\"center\">\n"
 "<table border=\"0\" width=\"590\" cellpadding=\"0\" style=\"padding: 16px; "
 "background-color: white; color: #454748; border-collapse:separate;\" "
 "summary=\"o_mail_notification\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "<tbody>\n"
 "    <!-- HEADER -->\n"
 "    <tr>\n"
 "        <td align=\"center\" style=\"min-width: 590px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"middle\">\n"
@@ -1426,6 +1478,8 @@ msgid ""
 "                <tr><td colspan=\"2\" style=\"text-align:center;\">\n"
 "                  <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" style=\"min-"
 "width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-"
 "collapse:separate;\">\n"
@@ -1444,6 +1498,9 @@ msgid ""
 "                  <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
 "size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                </td></tr>\n"
 "            </table>\n"
@@ -1452,6 +1509,7 @@ msgid ""
 "    <!-- CONTENT -->\n"
 "    <tr>\n"
 "        <td align=\"center\" style=\"min-width: 590px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"top\" style=\"font-size: 14px;\">\n"
@@ -1466,6 +1524,8 @@ msgid ""
 "                                <td valign=\"center\">\n"
 "                                    <cite t-out=\"object.badge_id.description or ''\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" style=\"min-"
 "width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-"
 "collapse:separate;\">\n"
@@ -1488,6 +1548,9 @@ msgid ""
 "                                <td valign=\"center\">\n"
 "                                    <cite t-"
 "out=\"object.badge_id.description or ''\"/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                </td>\n"
 "                            </tr></tbody>\n"
@@ -1495,17 +1558,23 @@ msgid ""
 "                        <br/>\n"
 "                        <t t-if=\"object.sender_id\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            This badge was granted by <strong t-out=\"object.sender_id.name or ''\"/>.\n"
 "                        </t>\n"
 "                        <br/>\n"
 "                        <t t-if=\"object.comment\" t-out=\"object.comment or ''\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                            This badge was granted by <strong t-"
 "out=\"object.sender_id.name or ''\"/>.\n"
 "                        </t>\n"
 "                        <br/>\n"
 "                        <t t-if=\"object.comment\" t-out=\"object.comment or "
 "''\"/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                        <br/><br/>\n"
 "                        Thank you,\n"
@@ -1517,7 +1586,13 @@ msgid ""
 "                </td></tr>\n"
 "                <tr><td style=\"text-align:center;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                  <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                  <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                  <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -1531,6 +1606,7 @@ msgid ""
 "    <tr>\n"
 "        <td align=\"center\" style=\"min-width: 590px;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" style=\"min-width: 590px; background-color: white; font-size: 12px; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"middle\" align=\"left\">\n"
 "                    <t t-out=\"object.user_id.company_id.name or ''\">YourCompany</t>\n"
@@ -1543,6 +1619,8 @@ msgid ""
 "                    <t t-if=\"object.user_id.company_id.website\">\n"
 "                        | <a t-attf-href=\"'%s' % {{ object.user_id.company_id.website }}\" style=\"text-decoration:none; color: #454748;\" t-out=\"object.user_id.company_id.website or ''\">http://www.example.com</a>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" style=\"min-"
 "width: 590px; background-color: white; font-size: 12px; padding: 0px 8px 0px "
 "8px; border-collapse:separate;\">\n"
@@ -1565,6 +1643,9 @@ msgid ""
 "{{ object.user_id.company_id.website }}\" style=\"text-decoration:none; "
 "color: #454748;\" t-out=\"object.user_id.company_id.website or ''\">http://"
 "www.example.com</a>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                    </t>\n"
 "                </td></tr>\n"
@@ -1577,10 +1658,13 @@ msgid ""
 "<!-- POWERED BY -->\n"
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    <table width=\"590\" border=\"0\" cellpadding=\"0\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 14px;\">\n"
 "        Powered by <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=gamification\" style=\"color: #875A7B;\">Odoo</a>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "    <table width=\"590\" border=\"0\" cellpadding=\"0\" style=\"min-width: "
 "590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-"
 "collapse:separate;\">\n"
@@ -1588,6 +1672,9 @@ msgid ""
 "        Powered by <a target=\"_blank\" href=\"https://www.odoo.com?"
 "utm_source=db&amp;utm_medium=gamification\" style=\"color: #875A7B;\">Odoo</"
 "a>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "      </td></tr>\n"
 "    </table>\n"
@@ -1599,6 +1686,7 @@ msgstr ""
 #: model:mail.template,body_html:gamification.simple_report_template
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<table cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"background-color: #EEE; border-collapse: collapse;\">\n"
 "<tr>\n"
 "    <td valign=\"top\" align=\"center\">\n"
@@ -1607,6 +1695,8 @@ msgid ""
 "        <t t-set=\"challenge_lines\" t-value=\"ctx.get('challenge_lines', [])\"/>\n"
 "        <table cellspacing=\"0\" cellpadding=\"0\" width=\"600\" style=\"margin: 0 auto; width: 570px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "<table cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"background-"
 "color: #EEE; border-collapse: collapse;\">\n"
 "<tr>\n"
@@ -1618,21 +1708,30 @@ msgid ""
 "\"/>\n"
 "        <table cellspacing=\"0\" cellpadding=\"0\" width=\"600\" "
 "style=\"margin: 0 auto; width: 570px;\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "            <tr><td>\n"
 "                <table cellspacing=\"0\" cellpadding=\"0\" width=\"100%\">\n"
 "                    <tr>\n"
 "                        <div>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <t t-if=\"object.visibility_mode == 'ranking'\">\n"
 "                                <td style=\"padding:15px;\">\n"
 "                                    <p style=\"font-size:20px;color:#666666;\" align=\"center\">Leaderboard</p>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                            <t t-if=\"object.visibility_mode == "
 "'ranking'\">\n"
 "                                <td style=\"padding:15px;\">\n"
 "                                    <p style=\"font-"
 "size:20px;color:#666666;\" align=\"center\">Leaderboard</p>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                </td>\n"
 "                            </t>\n"
@@ -1640,12 +1739,15 @@ msgid ""
 "                    </tr>\n"
 "                </table>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                <table cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" bgcolor=\"#fff\" style=\"background-color:#fff;\">\n"
 "                    <tr><td style=\"padding: 15px;\">\n"
 "                        <t t-if=\"object.visibility_mode == 'personal'\">\n"
 "                            <span style=\"color:#666666;font-size:13px;\">Here is your current progress in the challenge <strong t-out=\"object.name or ''\"/>.</span>\n"
 "                            <table cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"margin-top:20px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                <table cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" "
 "bgcolor=\"#fff\" style=\"background-color:#fff;\">\n"
 "                    <tr><td style=\"padding: 15px;\">\n"
@@ -1655,6 +1757,9 @@ msgid ""
 "out=\"object.name or ''\"/>.</span>\n"
 "                            <table cellspacing=\"0\" cellpadding=\"0\" "
 "width=\"100%\" style=\"margin-top:20px;\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                <tr>\n"
 "                                    <td align=\"center\">\n"
@@ -1662,6 +1767,7 @@ msgid ""
 "                                    </td>\n"
 "                                </tr>\n"
 "                            </table>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                            <table cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"margin-top:30px;color:#666666;\">\n"
 "                                <thead>\n"
@@ -1694,6 +1800,8 @@ msgid ""
 "                                    <tr>\n"
 "                                        <td colspan=\"5\" style=\"height:1px;background-color:#e3e3e3;\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                            <table cellspacing=\"0\" cellpadding=\"0\" "
 "width=\"100%\" style=\"margin-top:30px;color:#666666;\">\n"
 "                                <thead>\n"
@@ -1743,6 +1851,9 @@ msgid ""
 "                                    <tr>\n"
 "                                        <td colspan=\"5\" "
 "style=\"height:1px;background-color:#e3e3e3;\"/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                    </tr>\n"
 "                                </tbody>\n"
@@ -1750,6 +1861,7 @@ msgid ""
 "                        </t>\n"
 "                        <t t-else=\"\">\n"
 "                            <span style=\"color:#A8A8A8;font-size:13px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                                Challenge: <strong t-out=\"object.name or ''\"/>.\n"
 "                            </span> \n"
@@ -1760,6 +1872,8 @@ msgid ""
 "                                        <td width=\"50%\">\n"
 "                                            <div>Top Achievers for goal <strong t-out=\"line['name'] or ''\"/></div>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                Challenge: <strong t-out=\"object.name or "
 "''\"/>.\n"
 "                            </span> \n"
@@ -1771,12 +1885,16 @@ msgid ""
 "                                        <td width=\"50%\">\n"
 "                                            <div>Top Achievers for goal "
 "<strong t-out=\"line['name'] or ''\"/></div>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                        </td>\n"
 "                                    </tr>\n"
 "                                </table>\n"
 "                                <!-- Podium -->\n"
 "                                <t t-if=\"len(line['goals']) == 2\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                                    <table cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"margin-top:10px;\">\n"
 "                                        <tr><td style=\"padding:0 30px;\">\n"
@@ -1827,6 +1945,8 @@ msgid ""
 "                                                                    <t t-if=\"line['suffix'] or line['monetary']\">\n"
 "                                                                        <t t-out=\"line['full_suffix'] or ''\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                    <table cellspacing=\"0\" "
 "cellpadding=\"0\" width=\"100%\" style=\"margin-top:10px;\">\n"
 "                                        <tr><td style=\"padding:0 30px;\">\n"
@@ -1920,6 +2040,9 @@ msgid ""
 "if=\"line['suffix'] or line['monetary']\">\n"
 "                                                                        <t t-"
 "out=\"line['full_suffix'] or ''\"/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                                                    </t>\n"
 "                                                                </div>\n"
@@ -1933,6 +2056,7 @@ msgid ""
 "                                    </table>\n"
 "                                </t>\n"
 "                                <!-- data table -->\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                                <table cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"margin-bottom:5px\">\n"
 "                                    <tr>\n"
@@ -1972,6 +2096,8 @@ msgid ""
 "                                                    <tr>\n"
 "                                                        <td colspan=\"5\" style=\"height:1px;background-color:#DADADA;\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                <table cellspacing=\"0\" cellpadding=\"0\" "
 "width=\"100%\" style=\"margin-bottom:5px\">\n"
 "                                    <tr>\n"
@@ -2042,6 +2168,9 @@ msgid ""
 "                                                    <tr>\n"
 "                                                        <td colspan=\"5\" "
 "style=\"height:1px;background-color:#DADADA;\"/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                                    </tr>\n"
 "                                                </tbody>\n"
@@ -2066,12 +2195,15 @@ msgstr ""
 msgid ""
 "A badge is a symbolic token granted to a user as a sign of reward.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                It can be deserved automatically when some conditions are met or manually by users.\n"
 "                Some badges are harder than others to get with specific conditions."
 msgstr ""
 "Ženklelis yra suteikiamas vartotojui kaip simbolinis atlygis.\n"
 "Jis gali būti suteikiamas automatiškai, kai atitinkamos numatytos sąlygos, arba rankiniu būdu.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                It can be deserved automatically when some conditions are "
 "met or manually by users.\n"
 "                Some badges are harder than others to get with specific "
@@ -2080,6 +2212,9 @@ msgstr ""
 "Ženklelis yra suteikiamas vartotojui kaip simbolinis atlygis.\n"
 "Jis gali būti suteikiamas automatiškai, kai atitinkamos numatytos sąlygos, "
 "arba rankiniu būdu.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Vieni ženkleliai gali būti sunkiau gaunami nei kiti."
 
@@ -2088,7 +2223,12 @@ msgstr ""
 msgid ""
 "A goal definition is a technical specification of a condition to reach.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                The dates, values to reach or users are defined in goal instance."
+=======
+"                The dates, values to reach or users are defined in goal "
+"instance."
+>>>>>>> upstream/18.0
 =======
 "                The dates, values to reach or users are defined in goal "
 "instance."
@@ -2118,13 +2258,19 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:gamification.gamification_karma_ranks_action
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A rank correspond to a fixed karma level. The more you have karma, the more your rank is high.\n"
 "                    This is used to quickly know which user is new or old or highly or not active."
 =======
+=======
+>>>>>>> upstream/18.0
 "A rank correspond to a fixed karma level. The more you have karma, the more "
 "your rank is high.\n"
 "                    This is used to quickly know which user is new or old or "
 "highly or not active."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -2188,12 +2334,15 @@ msgstr ""
 msgid ""
 "Assign a list of goals to chosen users to evaluate them.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                The challenge can use a period (weekly, monthly...) for automatic creation of goals.\n"
 "                The goals are created for the specified users or member of the group."
 msgstr ""
 "Paskirkite tikslų sąrašą vartotojams, kad galėtumėte įvertinti juos.\n"
 "Iššūkis gali naudoti laikotarpį (savaitė, mėnuo, ...) automatiniam tikslų sukūrimui.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                The challenge can use a period (weekly, monthly...) for "
 "automatic creation of goals.\n"
 "                The goals are created for the specified users or member of "
@@ -2202,6 +2351,9 @@ msgstr ""
 "Paskirkite tikslų sąrašą vartotojams, kad galėtumėte įvertinti juos.\n"
 "Iššūkis gali naudoti laikotarpį (savaitė, mėnuo, ...) automatiniam tikslų "
 "sukūrimui.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Tikslai yra sukuriami konkretiems vartotojams arba grupės nariams."
 
@@ -2565,8 +2717,12 @@ msgstr ""
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Describe the challenge: what is does, who it targets, why it matters..."
+=======
+msgid "Describe the challenge: what is does, who it targets, why it matters..."
+>>>>>>> upstream/18.0
 =======
 msgid "Describe the challenge: what is does, who it targets, why it matters..."
 >>>>>>> upstream/18.0
@@ -2868,7 +3024,11 @@ msgid "Gain"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pelnas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pelnas"
 >>>>>>> upstream/18.0
@@ -3938,8 +4098,13 @@ msgstr "Laikotarpis"
 #: model:ir.model.fields,help:gamification.field_gamification_challenge__period
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Period of automatic goal assignment. If none is selected, should be launched"
 " manually."
+=======
+"Period of automatic goal assignment. If none is selected, should be launched "
+"manually."
+>>>>>>> upstream/18.0
 =======
 "Period of automatic goal assignment. If none is selected, should be launched "
 "manually."
@@ -3978,8 +4143,13 @@ msgid ""
 "current value. Evaluated user can be access through object.user_id."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Python kodas, vykdomas kiekvienam vartotojui. \"result\" turėtų turėti naują"
 " esamą reikšmę. Įvertintas vartotojas gali būti pasiekiamas per "
+=======
+"Python kodas, vykdomas kiekvienam vartotojui. \"result\" turėtų turėti naują "
+"esamą reikšmę. Įvertintas vartotojas gali būti pasiekiamas per "
+>>>>>>> upstream/18.0
 =======
 "Python kodas, vykdomas kiekvienam vartotojui. \"result\" turėtų turėti naują "
 "esamą reikšmę. Įvertintas vartotojas gali būti pasiekiamas per "
@@ -4144,8 +4314,13 @@ msgstr "Apdovanojimas"
 #: code:addons/gamification/models/gamification_challenge.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Reward (badge %(badge_name)s) for every succeeding user was sent to "
 "%(users)s."
+=======
+"Reward (badge %(badge_name)s) for every succeeding user was sent to %"
+"(users)s."
+>>>>>>> upstream/18.0
 =======
 "Reward (badge %(badge_name)s) for every succeeding user was sent to %"
 "(users)s."
@@ -4449,7 +4624,12 @@ msgstr ""
 #: code:addons/gamification/models/gamification_goal_definition.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The domain for the definition %(definition)s seems incorrect, please check it.\n"
+=======
+"The domain for the definition %(definition)s seems incorrect, please check "
+"it.\n"
+>>>>>>> upstream/18.0
 =======
 "The domain for the definition %(definition)s seems incorrect, please check "
 "it.\n"
@@ -4498,11 +4678,17 @@ msgstr "Kuo žemesnis, tuo geriau"
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_badge__rule_max_number
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "The maximum number of time this badge can be sent per month per person."
 msgstr ""
 "Maksimalus kiekis kartų per mėnesį, kai šis ženklelis gali būti "
 "išsiunčiamas."
+=======
+msgid "The maximum number of time this badge can be sent per month per person."
+msgstr ""
+"Maksimalus kiekis kartų per mėnesį, kai šis ženklelis gali būti išsiunčiamas."
+>>>>>>> upstream/18.0
 =======
 msgid "The maximum number of time this badge can be sent per month per person."
 msgstr ""
@@ -4514,7 +4700,12 @@ msgstr ""
 #: code:addons/gamification/models/gamification_goal_definition.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The model configuration for the definition %(name)s seems incorrect, please check it.\n"
+=======
+"The model configuration for the definition %(name)s seems incorrect, please "
+"check it.\n"
+>>>>>>> upstream/18.0
 =======
 "The model configuration for the definition %(name)s seems incorrect, please "
 "check it.\n"
@@ -4528,7 +4719,12 @@ msgstr ""
 #: code:addons/gamification/models/gamification_goal_definition.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The model configuration for the definition %(name)s seems incorrect, please check it.\n"
+=======
+"The model configuration for the definition %(name)s seems incorrect, please "
+"check it.\n"
+>>>>>>> upstream/18.0
 =======
 "The model configuration for the definition %(name)s seems incorrect, please "
 "check it.\n"
@@ -4549,8 +4745,12 @@ msgstr ""
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_badge__stat_my_this_month
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "The number of time the current user has received this badge this month."
+=======
+msgid "The number of time the current user has received this badge this month."
+>>>>>>> upstream/18.0
 =======
 msgid "The number of time the current user has received this badge this month."
 >>>>>>> upstream/18.0
@@ -4621,17 +4821,23 @@ msgstr ""
 msgid ""
 "There is no goal associated to this challenge matching your search.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Make sure that your challenge is active and assigned to at least one user."
 msgstr ""
 "Nėra tikslo, susijusio su šiuo tikslu, atitinkančio jūsų paiešką.\n"
 "Įsitikinkite, kad jūsų iššūkis yra aktyvus ir priskirtas bent vienam vartotojui."
 =======
+=======
+>>>>>>> upstream/18.0
 "            Make sure that your challenge is active and assigned to at least "
 "one user."
 msgstr ""
 "Nėra tikslo, susijusio su šiuo tikslu, atitinkančio jūsų paiešką.\n"
 "Įsitikinkite, kad jūsų iššūkis yra aktyvus ir priskirtas bent vienam "
 "vartotojui."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: gamification
@@ -4857,8 +5063,12 @@ msgstr "dienos"
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_rank_view_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "e.g. A Master Chief knows quite everything on the forum! You cannot beat "
 "him!"
+=======
+"e.g. A Master Chief knows quite everything on the forum! You cannot beat him!"
+>>>>>>> upstream/18.0
 =======
 "e.g. A Master Chief knows quite everything on the forum! You cannot beat him!"
 >>>>>>> upstream/18.0

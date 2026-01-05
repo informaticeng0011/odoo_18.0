@@ -43,7 +43,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* web_tour
+=======
+# * web_tour
+>>>>>>> upstream/18.0
 =======
 # * web_tour
 >>>>>>> upstream/18.0
@@ -220,7 +224,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -354,6 +362,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2023-10-26 21:56+0000\n"
 <<<<<<< HEAD
@@ -496,6 +505,10 @@ msgstr ""
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2025-12-31 13:12+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+"PO-Revision-Date: 2025-12-31 13:12+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Serbian (Latin script) <https://translate.odoo.com/projects/"
 "odoo-18/web_tour/sr_Latn/>\n"
@@ -505,6 +518,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "X-Generator: Weblate 5.12.2\n"
 <<<<<<< HEAD
@@ -638,6 +652,8 @@ msgstr ""
 msgid ""
 "<strong><b>Good job!</b> You went through all steps of this tour.</strong>"
 =======
+=======
+>>>>>>> upstream/18.0
 "X-Generator: Weblate 5.14.3\n"
 
 #. module: web_tour
@@ -655,6 +671,9 @@ msgstr ""
 #. module: web_tour
 #: model:ir.model.constraint,message:web_tour.constraint_web_tour_tour_uniq_name
 msgid "A tour already exists with this name . Tour's name must be unique!"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -662,8 +681,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web_tour/static/src/tour_service/tour_utils.js:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Click on the <i>Home icon</i> to navigate across apps."
 =======
+=======
+>>>>>>> upstream/18.0
 msgid "Click the top left corner to navigate across apps."
 msgstr ""
 
@@ -693,11 +715,15 @@ msgstr "Prilagođeno"
 #. odoo-javascript
 #: code:addons/web_tour/static/src/tour_service/tour_recorder/tour_recorder.js:0
 msgid "Custom tour '%s' couldn't be saved!"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
 #. module: web_tour
 #. odoo-javascript
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: code:addons/web_tour/static/src/debug/tour_dialog_component.xml:0
 msgid "Close"
@@ -884,11 +910,19 @@ msgid "Disable Tours"
 #: code:addons/web_tour/static/src/tour_service/tour_recorder/tour_recorder.js:0
 msgid "Custom tour '%s' has been added."
 >>>>>>> upstream/18.0
+=======
+#: code:addons/web_tour/static/src/tour_service/tour_recorder/tour_recorder.js:0
+msgid "Custom tour '%s' has been added."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: web_tour
 #: model:ir.model.fields,field_description:web_tour.field_web_tour_tour__display_name
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:web_tour.field_web_tour_tour_step__display_name
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:web_tour.field_web_tour_tour_step__display_name
 >>>>>>> upstream/18.0
@@ -897,12 +931,18 @@ msgstr "Naziv za prikaz"
 
 #. module: web_tour
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.actions.server,name:web_tour.tour_export_js_action
 msgid "Export JS"
 msgstr ""
 
 #. module: web_tour
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model,name:web_tour.model_ir_http
 msgid "HTTP Routing"
@@ -911,6 +951,10 @@ msgstr "HTTP rutiranje"
 #. module: web_tour
 #: model:ir.model.fields,field_description:web_tour.field_web_tour_tour__id
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:web_tour.field_web_tour_tour_step__id
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:web_tour.field_web_tour_tour_step__id
 >>>>>>> upstream/18.0
@@ -919,8 +963,11 @@ msgstr "ID"
 
 #. module: web_tour
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:web_tour.edit_tour_list
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:web_tour.field_web_tour_tour__write_uid
 #: model:ir.model.fields,field_description:web_tour.field_web_tour_tour_step__write_uid
 msgid "Last Updated by"
@@ -934,14 +981,21 @@ msgstr "Poslednje ažuriranje dana"
 
 #. module: web_tour
 #: model_terms:ir.ui.view,arch_db:web_tour.tour_list
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "Menu"
 msgstr "Meni"
 
 #. module: web_tour
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/web_tour/static/src/debug/tour_dialog_component.xml:0
+=======
+#: model:ir.model.fields,field_description:web_tour.field_web_tour_tour__name
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:web_tour.field_web_tour_tour__name
 >>>>>>> upstream/18.0
@@ -951,9 +1005,12 @@ msgstr "Ime"
 #. module: web_tour
 #. odoo-javascript
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/web_tour/static/src/debug/tour_dialog_component.xml:0
 msgid "Onboarding tours"
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/web_tour/static/src/tour_service/tour_recorder/tour_recorder.xml:0
 msgid "Name:"
 msgstr "Naziv:"
@@ -974,11 +1031,15 @@ msgstr ""
 #. module: web_tour
 #: model_terms:ir.ui.view,arch_db:web_tour.tour_form
 msgid "Rainbow Man Message..."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
 #. module: web_tour
 #. odoo-javascript
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: code:addons/web_tour/static/src/tour_service/tour_utils.js:0
 msgid "Open bugger menu."
@@ -992,6 +1053,8 @@ msgstr ""
 
 #. module: web_tour
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/web_tour/static/src/tour_service/tour_recorder/tour_recorder.xml:0
 #: code:addons/web_tour/static/src/views/tour_controller.xml:0
 msgid "Record"
@@ -1015,6 +1078,9 @@ msgid "Save"
 msgstr "Sačuvaj"
 
 #. module: web_tour
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/web_tour/static/src/tour_service/tour_pointer_state.js:0
@@ -1025,7 +1091,10 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web_tour/static/src/tour_service/tour_pointer_state.js:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 msgid "Scroll left to reach the next step."
 msgstr ""
 
@@ -1038,14 +1107,22 @@ msgstr ""
 #. module: web_tour
 #. odoo-javascript
 #: code:addons/web_tour/static/src/tour_service/tour_pointer_state.js:0
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "Scroll up to reach the next step."
 msgstr ""
 
 #. module: web_tour
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/web_tour/static/src/debug/tour_dialog_component.xml:0
+=======
+#: model:ir.model.fields,field_description:web_tour.field_web_tour_tour__sequence
+#: model:ir.model.fields,field_description:web_tour.field_web_tour_tour_step__sequence
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:web_tour.field_web_tour_tour__sequence
 #: model:ir.model.fields,field_description:web_tour.field_web_tour_tour_step__sequence
@@ -1054,6 +1131,7 @@ msgid "Sequence"
 msgstr "Niz"
 
 #. module: web_tour
+<<<<<<< HEAD
 <<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/web_tour/static/src/debug/tour_dialog_component.xml:0
@@ -1064,6 +1142,8 @@ msgstr "Pokreni"
 #. odoo-javascript
 #: code:addons/web_tour/static/src/debug/debug_manager.js:0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:web_tour.field_web_tour_tour__sharing_url
 msgid "Sharing URL"
 msgstr ""
@@ -1071,16 +1151,22 @@ msgstr ""
 #. module: web_tour
 #. odoo-javascript
 #: code:addons/web_tour/static/src/widgets/tour_start.xml:0
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "Start Tour"
 msgstr ""
 
 #. module: web_tour
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/web_tour/static/src/debug/tour_dialog_component.xml:0
 msgid "Start tour"
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:web_tour.field_web_tour_tour__url
 msgid "Starting URL"
 msgstr ""
@@ -1095,11 +1181,15 @@ msgstr "Korak"
 #: code:addons/web_tour/static/src/tour_service/tour_recorder/tour_recorder.xml:0
 #: model_terms:ir.ui.view,arch_db:web_tour.tour_form
 msgid "Steps"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
 #. module: web_tour
 #. odoo-javascript
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: code:addons/web_tour/static/src/debug/tour_dialog_component.xml:0
 msgid "Test"
@@ -1113,10 +1203,15 @@ msgid "Test tour"
 #: code:addons/web_tour/static/src/tour_service/tour_recorder/tour_recorder.xml:0
 msgid "Steps:"
 >>>>>>> upstream/18.0
+=======
+#: code:addons/web_tour/static/src/tour_service/tour_recorder/tour_recorder.xml:0
+msgid "Steps:"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: web_tour
 #. odoo-javascript
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: code:addons/web_tour/static/src/debug/tour_dialog_component.xml:0
 msgid "Testing tours"
@@ -1125,6 +1220,8 @@ msgstr ""
 #. module: web_tour
 #: model_terms:ir.ui.view,arch_db:web_tour.edit_tour_search
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/web_tour/static/src/widgets/tour_start.xml:0
 msgid "Test Tour"
 msgstr ""
@@ -1137,11 +1234,15 @@ msgstr ""
 
 #. module: web_tour
 #: model_terms:ir.ui.view,arch_db:web_tour.tour_search
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "Tip"
 msgstr ""
 
 #. module: web_tour
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.model.fields,field_description:web_tour.field_web_tour_tour__name
 msgid "Tour name"
@@ -1152,6 +1253,8 @@ msgstr ""
 #: code:addons/web_tour/static/src/debug/tour_dialog_component.js:0
 #: model:ir.actions.act_window,name:web_tour.edit_tour_action
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:web_tour.field_web_tour_tour_step__tour_id
 msgid "Tour"
 msgstr ""
@@ -1163,13 +1266,19 @@ msgstr ""
 
 #. module: web_tour
 #: model:ir.actions.act_window,name:web_tour.tour_action
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model,name:web_tour.model_web_tour_tour
 #: model:ir.ui.menu,name:web_tour.menu_tour_action
 msgid "Tours"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 #. module: web_tour
 #: model:ir.model.fields,field_description:web_tour.field_web_tour_tour_step__trigger
@@ -1217,4 +1326,7 @@ msgstr ""
 
 #~ msgid "Test"
 #~ msgstr "Test"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

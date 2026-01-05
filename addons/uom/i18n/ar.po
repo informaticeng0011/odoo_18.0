@@ -2,22 +2,29 @@
 # This file contains the translation of the following modules:
 # 	* uom
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Malaz Abuidris <msea@odoo.com>, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Malaz Abuidris <msea@odoo.com>, 2024
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
@@ -29,6 +36,8 @@ msgstr ""
 "Language: ar\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Malaz Abuidris <msea@odoo.com>, 2024\n"
@@ -39,12 +48,16 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: uom
 #: model_terms:ir.ui.view,arch_db:uom.product_uom_form_view
 msgid ""
 "<span class=\"oe_grey oe_inline\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                                    e.g: 1*(reference unit)=ratio*(this unit)\n"
 "                                </span>"
@@ -52,6 +65,8 @@ msgstr ""
 "<span class=\"oe_grey oe_inline\">\n"
 "                                    مثال: 1*(الوحدة المرجعية)=النسبة*(هذه الوحدة)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                    e.g: 1*(reference unit)=ratio*(this "
 "unit)\n"
 "                                </span>"
@@ -59,6 +74,9 @@ msgstr ""
 "<span class=\"oe_grey oe_inline\">\n"
 "                                    مثال: 1*(الوحدة المرجعية)=النسبة*(هذه "
 "الوحدة)\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                </span>"
 
@@ -67,12 +85,15 @@ msgstr ""
 msgid ""
 "<span class=\"oe_grey oe_inline\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    e.g: 1*(this unit)=ratio*(reference unit)\n"
 "                                </span>"
 msgstr ""
 "<span class=\"oe_grey oe_inline\">\n"
 "                                    مثال: 1*(هذه الوحدة)=النسبة*(الوحدة المرجعية)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                    e.g: 1*(this unit)=ratio*(reference "
 "unit)\n"
 "                                </span>"
@@ -80,6 +101,9 @@ msgstr ""
 "<span class=\"oe_grey oe_inline\">\n"
 "                                    مثال: 1*(هذه الوحدة)=النسبة*(الوحدة "
 "المرجعية)\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                </span>"
 
@@ -192,8 +216,13 @@ msgid ""
 "Measure for this category: 1 * (reference unit) = ratio * (this unit)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "بكم مرة تعد وحدة القياس هذه أكبر أو أصغر مقارنة بوحدة القياس المرجعية في هذه"
 " الفئة: 1 * (هذه الوحدة) = النسبة * (الوحدة المرجعية) "
+=======
+"بكم مرة تعد وحدة القياس هذه أكبر أو أصغر مقارنة بوحدة القياس المرجعية في هذه "
+"الفئة: 1 * (هذه الوحدة) = النسبة * (الوحدة المرجعية) "
+>>>>>>> upstream/18.0
 =======
 "بكم مرة تعد وحدة القياس هذه أكبر أو أصغر مقارنة بوحدة القياس المرجعية في هذه "
 "الفئة: 1 * (هذه الوحدة) = النسبة * (الوحدة المرجعية) "
@@ -281,17 +310,23 @@ msgid ""
 "Note that existing data WON'T be updated by this change.\n"
 "\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "As units of measure impact the whole system, this may cause critical issues.\n"
 "E.g. modifying the rounding could disturb your inventory balance.\n"
 "\n"
 "Therefore, changing core units of measure in a running database is not recommended."
 =======
+=======
+>>>>>>> upstream/18.0
 "As units of measure impact the whole system, this may cause critical "
 "issues.\n"
 "E.g. modifying the rounding could disturb your inventory balance.\n"
 "\n"
 "Therefore, changing core units of measure in a running database is not "
 "recommended."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 "لقد تم تعديل بعض الحقول الأساسية في %s. \n"
@@ -326,7 +361,12 @@ msgstr "لا يمكن أن يكون معدل التحويل لوحدة قياس 
 #: code:addons/uom/models/uom_uom.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The following units of measure are used by the system and cannot be deleted: %s\n"
+=======
+"The following units of measure are used by the system and cannot be deleted: "
+"%s\n"
+>>>>>>> upstream/18.0
 =======
 "The following units of measure are used by the system and cannot be deleted: "
 "%s\n"
@@ -351,8 +391,13 @@ msgstr "يجب أن تكون دقة التقريب قيمة موجبة فقط ل
 #: code:addons/uom/models/uom_uom.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The unit of measure %(unit)s defined on the order line doesn't belong to the"
 " same category as the unit of measure %(product_unit)s defined on the "
+=======
+"The unit of measure %(unit)s defined on the order line doesn't belong to the "
+"same category as the unit of measure %(product_unit)s defined on the "
+>>>>>>> upstream/18.0
 =======
 "The unit of measure %(unit)s defined on the order line doesn't belong to the "
 "same category as the unit of measure %(product_unit)s defined on the "
@@ -362,8 +407,13 @@ msgid ""
 msgstr ""
 "لا تنتمي وحدة القياس %(unit)s المحددة في بند الطلب إلى نفس الفئة التي تنتمي "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "إليها وحدة القياس %(product_unit)s المحددة في المنتج. يرجى تصحيح وحدة القياس"
 " المحددة في بند الطلب أو في المنتج. يجب أن ينتميا لنفس الفئة. "
+=======
+"إليها وحدة القياس %(product_unit)s المحددة في المنتج. يرجى تصحيح وحدة القياس "
+"المحددة في بند الطلب أو في المنتج. يجب أن ينتميا لنفس الفئة. "
+>>>>>>> upstream/18.0
 =======
 "إليها وحدة القياس %(product_unit)s المحددة في المنتج. يرجى تصحيح وحدة القياس "
 "المحددة في بند الطلب أو في المنتج. يجب أن ينتميا لنفس الفئة. "

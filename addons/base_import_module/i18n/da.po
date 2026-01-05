@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* base_import_module
 # 
+=======
+# * base_import_module
+#
+>>>>>>> upstream/18.0
 =======
 # * base_import_module
 #
@@ -12,7 +17,11 @@
 # Sanne Kristensen <sanne@vkdata.dk>, 2024
 # Martin Trigaux, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -20,6 +29,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-11-19 15:46+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -31,6 +41,8 @@ msgstr ""
 "Language: da\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2025-12-31 08:41+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -42,6 +54,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.14.3\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_import_module
@@ -50,10 +65,13 @@ msgstr ""
 msgid ""
 "\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You may need the Enterprise version to install the data module. Please visit https://www.odoo.com/pricing-plan for more information.\n"
 "If you need Website themes, it can be downloaded from https://github.com/odoo/design-themes.\n"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "You may need the Enterprise version to install the data module. Please visit "
 "https://www.odoo.com/pricing-plan for more information.\n"
 "If you need Website themes, it can be downloaded from https://github.com/"
@@ -64,6 +82,9 @@ msgstr ""
 "Se venligst https://www.odoo.com/pricing-plan for yderligere oplysninger.\n"
 "Hvis du har brug for temaer til webstedsdesign, kan du downloade dem fra "
 "https://github.com/odoo/design-themes.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_import_module
@@ -96,6 +117,11 @@ msgid ""
 "Connection to %(url)s failed, the module %(module)s cannot be downloaded."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Forbindelsen til %(url)s mislykkedes, modulet %(module)s kunne ikke "
+"downloades."
+>>>>>>> upstream/18.0
 =======
 "Forbindelsen til %(url)s mislykkedes, modulet %(module)s kunne ikke "
 "downloades."
@@ -107,6 +133,10 @@ msgstr ""
 msgid "Connection to %s failed The list of industry modules cannot be fetched"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Forbindelsen til %s mislykkedes. Listen over branchemoduler kunne ikke hentes"
+>>>>>>> upstream/18.0
 =======
 "Forbindelsen til %s mislykkedes. Listen over branchemoduler kunne ikke hentes"
 >>>>>>> upstream/18.0
@@ -142,11 +172,17 @@ msgid ""
 "\n"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Fejl under import af modul '%(module)s'.\n"
 "\n"
 " %(error_message)s \n"
 "\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_import_module
@@ -163,8 +199,12 @@ msgstr "Gennemtving initialisering"
 #. module: base_import_module
 #: model:ir.model.fields,help:base_import_module.field_base_import_module__force
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Force init mode even if installed. (will update `noupdate='1'` records)"
+=======
+msgid "Force init mode even if installed. (will update `noupdate='1'` records)"
+>>>>>>> upstream/18.0
 =======
 msgid "Force init mode even if installed. (will update `noupdate='1'` records)"
 >>>>>>> upstream/18.0
@@ -193,7 +233,11 @@ msgstr "Importer modul"
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__with_demo
 msgid "Import demo data of module"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Importér modulets data"
+>>>>>>> upstream/18.0
 =======
 msgstr "Importér modulets data"
 >>>>>>> upstream/18.0
@@ -218,7 +262,11 @@ msgstr "Installer"
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "Install an Industry"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Installér en branche"
+>>>>>>> upstream/18.0
 =======
 msgstr "Installér en branche"
 >>>>>>> upstream/18.0
@@ -227,7 +275,11 @@ msgstr "Installér en branche"
 #: model_terms:ir.ui.view,arch_db:base_import_module.view_base_module_import
 msgid "Install the application"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Installér appen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Installér appen"
 >>>>>>> upstream/18.0
@@ -255,6 +307,11 @@ msgid ""
 "load them if this is your production database."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Indlæs demodata for at teste branchens funktioner med eksempler på datasæt. "
+"Indlæs dem ikke, hvis du arbejder i din produktionsdatabase."
+>>>>>>> upstream/18.0
 =======
 "Indlæs demodata for at teste branchens funktioner med eksempler på datasæt. "
 "Indlæs dem ikke, hvis du arbejder i din produktionsdatabase."
@@ -274,7 +331,11 @@ msgstr "Modul .ZIP fil"
 #: model:ir.model.fields,field_description:base_import_module.field_ir_module_module__module_type
 msgid "Module Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Modultype"
+>>>>>>> upstream/18.0
 =======
 msgstr "Modultype"
 >>>>>>> upstream/18.0
@@ -293,7 +354,11 @@ msgstr "Modulfil (.zip)"
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__modules_dependencies
 msgid "Modules Dependencies"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Modulafhængigheder"
+>>>>>>> upstream/18.0
 =======
 msgstr "Modulafhængigheder"
 >>>>>>> upstream/18.0
@@ -314,7 +379,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:base_import_module.selection__ir_module_module__module_type__official
 msgid "Official Apps"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Officielle apps"
+>>>>>>> upstream/18.0
 =======
 msgstr "Officielle apps"
 >>>>>>> upstream/18.0
@@ -324,7 +393,11 @@ msgstr "Officielle apps"
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "Only administrators can install data modules."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kun administratorer kan installere datamoduler."
+>>>>>>> upstream/18.0
 =======
 msgstr "Kun administratorer kan installere datamoduler."
 >>>>>>> upstream/18.0
@@ -357,15 +430,21 @@ msgstr "Studiotilpasninger kræver Odoo Studio-appen."
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The installation of the data module would fail as the following dependencies"
 " can't be found in the addons-path:\n"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "The installation of the data module would fail as the following dependencies "
 "can't be found in the addons-path:\n"
 msgstr ""
 "Installationen af datamodulet mislykkes, da følgende afhængigheder ikke "
 "findes i add-ons-stien:\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_import_module
@@ -374,7 +453,11 @@ msgstr ""
 msgid ""
 "The list of industry applications cannot be fetched. Please try again later"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Listen over branche-apps kunne ikke hentes. Prøv venligst igen senere"
+>>>>>>> upstream/18.0
 =======
 msgstr "Listen over branche-apps kunne ikke hentes. Prøv venligst igen senere"
 >>>>>>> upstream/18.0
@@ -384,7 +467,11 @@ msgstr "Listen over branche-apps kunne ikke hentes. Prøv venligst igen senere"
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "The module %s cannot be downloaded"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Modulet %s kan ikke downloades"
+>>>>>>> upstream/18.0
 =======
 msgstr "Modulet %s kan ikke downloades"
 >>>>>>> upstream/18.0
@@ -394,7 +481,11 @@ msgstr "Modulet %s kan ikke downloades"
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "Unknown module dependencies:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ukendte modulafhængigheder:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ukendte modulafhængigheder:"
 >>>>>>> upstream/18.0

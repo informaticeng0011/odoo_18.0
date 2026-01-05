@@ -2,7 +2,11 @@
 # This file contains the translation of the following modules:
 # 	* repair
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -34,7 +38,11 @@
 # Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2024
 # Jessica Jakara, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -42,6 +50,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -52,6 +61,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: fi\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Jessica Jakara, 2025\n"
@@ -60,6 +71,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -94,7 +108,12 @@ msgstr "(<i>Poista</i>)"
 #: model:ir.model.fields,help:repair.field_repair_order__state
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "* The 'New' status is used when a user is encoding a new and unconfirmed repair order.\n"
+=======
+"* The 'New' status is used when a user is encoding a new and unconfirmed "
+"repair order.\n"
+>>>>>>> upstream/18.0
 =======
 "* The 'New' status is used when a user is encoding a new and unconfirmed "
 "repair order.\n"
@@ -105,7 +124,12 @@ msgid ""
 "* The 'Cancelled' status is used when user cancel repair order."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "* Tilaa \"Uusi\" käytetään, kun käyttäjä koodaa uutta ja vahvistamatonta korjaustilausta.\n"
+=======
+"* Tilaa \"Uusi\" käytetään, kun käyttäjä koodaa uutta ja vahvistamatonta "
+"korjaustilausta.\n"
+>>>>>>> upstream/18.0
 =======
 "* Tilaa \"Uusi\" käytetään, kun käyttäjä koodaa uutta ja vahvistamatonta "
 "korjaustilausta.\n"
@@ -431,8 +455,12 @@ msgstr "Luo korjaustilauksia palautuksista"
 msgid ""
 "Create a linked Repair Order on Sale Order confirmation of this product."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Luo linkitetty korjaustilaus tämän tuotteen myyntitilausvahvistukseen."
+=======
+msgstr "Luo linkitetty korjaustilaus tämän tuotteen myyntitilausvahvistukseen."
+>>>>>>> upstream/18.0
 =======
 msgstr "Luo linkitetty korjaustilaus tämän tuotteen myyntitilausvahvistukseen."
 >>>>>>> upstream/18.0
@@ -624,7 +652,12 @@ msgstr ""
 msgid ""
 "In a repair order, you can detail the components you remove,\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                add or replace and record the time you spent on the different\n"
+=======
+"                add or replace and record the time you spent on the "
+"different\n"
+>>>>>>> upstream/18.0
 =======
 "                add or replace and record the time you spent on the "
 "different\n"
@@ -869,8 +902,12 @@ msgstr "Toiminnon tyyppi"
 #. module: repair
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/repair/models/product.py:0
 #: code:addons/repair/models/repair.py:0
+=======
+#: code:addons/repair/models/product.py:0 code:addons/repair/models/repair.py:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/repair/models/product.py:0 code:addons/repair/models/repair.py:0
 >>>>>>> upstream/18.0
@@ -1423,8 +1460,13 @@ msgid ""
 "order with this operation type."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Tämä on kierrätyksen oletuskohteen sijainti, kun luot korjaustilauksen tällä"
 " toimintotyypillä."
+=======
+"Tämä on kierrätyksen oletuskohteen sijainti, kun luot korjaustilauksen tällä "
+"toimintotyypillä."
+>>>>>>> upstream/18.0
 =======
 "Tämä on kierrätyksen oletuskohteen sijainti, kun luot korjaustilauksen tällä "
 "toimintotyypillä."
@@ -1443,8 +1485,13 @@ msgstr ""
 #: model:ir.model.fields,help:repair.field_stock_picking_type__default_product_location_src_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This is the default source location for the product to be repaired in repair"
 " orders with this operation type."
+=======
+"This is the default source location for the product to be repaired in repair "
+"orders with this operation type."
+>>>>>>> upstream/18.0
 =======
 "This is the default source location for the product to be repaired in repair "
 "orders with this operation type."
@@ -1619,12 +1666,15 @@ msgstr "Et voi peruuttaa jo valmistunutta korjaustilausta"
 #: code:addons/repair/models/repair.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot create a quotation for a repair order that is already linked to an existing sale order.\n"
 "Concerned repair order(s):\n"
 "%(ref_str)s"
 msgstr ""
 "Et voi luoda tarjousta korjaustilaukselle, joka on jo linkitetty olemassa olevaan myyntitilaukseen.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "You cannot create a quotation for a repair order that is already linked to "
 "an existing sale order.\n"
 "Concerned repair order(s):\n"
@@ -1632,6 +1682,9 @@ msgstr ""
 msgstr ""
 "Et voi luoda tarjousta korjaustilaukselle, joka on jo linkitetty olemassa "
 "olevaan myyntitilaukseen.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Kyseessä olevat korjaustilaukset:\n"
 "%(ref_str)s"
@@ -1641,12 +1694,15 @@ msgstr ""
 #: code:addons/repair/models/repair.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You need to define a customer for a repair order in order to create an associated quotation.\n"
 "Concerned repair order(s):\n"
 "%(ref_str)s"
 msgstr ""
 "Sinun on määriteltävä asiakas korjaustilaukselle, jotta voit luoda siihen liittyvän tarjouksen.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "You need to define a customer for a repair order in order to create an "
 "associated quotation.\n"
 "Concerned repair order(s):\n"
@@ -1654,6 +1710,9 @@ msgstr ""
 msgstr ""
 "Sinun on määriteltävä asiakas korjaustilaukselle, jotta voit luoda siihen "
 "liittyvän tarjouksen.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Korjaustilaukset:\n"
 "%(ref_str)s"

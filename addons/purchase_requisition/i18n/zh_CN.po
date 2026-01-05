@@ -2,7 +2,11 @@
 # This file contains the translation of the following modules:
 # 	* purchase_requisition
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -12,7 +16,11 @@
 # Chloe Wang, 2024
 # Odoo哥 <vnsoft.he@gmail.com>, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -20,6 +28,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -30,6 +39,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: zh_CN\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Odoo哥 <vnsoft.he@gmail.com>, 2024\n"
@@ -39,6 +50,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
 
@@ -344,6 +358,7 @@ msgstr "创建替代"
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.purchase_order_form_inherit
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Create a call for tender by adding alternative requests for quotation to different vendors.\n"
 "                            Make your choice by selecting the best combination of lead time, OTD and/or total amount.\n"
 "                            By comparing product lines you can also decide to order some products from one vendor and others from another vendor."
@@ -352,6 +367,8 @@ msgstr ""
 "                            通过选择交货期、OTD 和/或总金额的最佳组合来做出选择。\n"
 "                            通过比较产品系列，您还可以决定从一家供应商订购某些产品，而从另一家供应商订购其他产品。"
 =======
+=======
+>>>>>>> upstream/18.0
 "Create a call for tender by adding alternative requests for quotation to "
 "different vendors.\n"
 "                            Make your choice by selecting the best "
@@ -364,6 +381,9 @@ msgstr ""
 "择。\n"
 "                            通过比较产品系列，您还可以决定从一家供应商订购某"
 "些产品，而从另一家供应商订购其他产品。"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: purchase_requisition
@@ -484,7 +504,12 @@ msgstr "Font Awesome图标，例如：fa-tasks"
 msgid ""
 "For a blanket order, you can record an agreement for a specific period\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            (e.g. a year) and you order products within this agreement to benefit\n"
+=======
+"            (e.g. a year) and you order products within this agreement to "
+"benefit\n"
+>>>>>>> upstream/18.0
 =======
 "            (e.g. a year) and you order products within this agreement to "
 "benefit\n"
@@ -552,12 +577,15 @@ msgstr "如果勾选此项， 某些消息将出现发送错误。"
 msgid ""
 "If the chosen vendor or if any of the products in the original PO have a "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "blocking warning then we prevent creation of alternative PO. This is because"
 " normally these fields are cleared w/warning message within form view, but "
 "we cannot recreate that in this case."
 msgstr ""
 "如果所选供应商或原始订单中的任何产品有阻塞警告，则我们将阻止创建替代订单。这是因为通常这些字段在窗体视图中会被清除并显示警告消息，但在这种情况下，我们无法重新创建它。"
 =======
+=======
+>>>>>>> upstream/18.0
 "blocking warning then we prevent creation of alternative PO. This is because "
 "normally these fields are cleared w/warning message within form view, but we "
 "cannot recreate that in this case."
@@ -565,6 +593,9 @@ msgstr ""
 "如果所选供应商或原始订单中的任何产品有阻塞警告，则我们将阻止创建替代订单。这"
 "是因为通常这些字段在窗体视图中会被清除并显示警告消息，但在这种情况下，我们无"
 "法重新创建它。"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: purchase_requisition
@@ -1012,17 +1043,23 @@ msgstr "正在为其创建此备选采购订单的原始采购订单。"
 #: code:addons/purchase_requisition/wizard/purchase_requisition_create_alternative.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The vendor you have selected or at least one of the products you are copying"
 " from the original order has a blocking warning on it and cannot be selected"
 " to create an alternative."
 msgstr "您所选择的供应商或您从原始订单中复制的至少一种产品上有阻止警告，不能选择它来创建替代品。"
 =======
+=======
+>>>>>>> upstream/18.0
 "The vendor you have selected or at least one of the products you are copying "
 "from the original order has a blocking warning on it and cannot be selected "
 "to create an alternative."
 msgstr ""
 "您所选择的供应商或您从原始订单中复制的至少一种产品上有阻止警告，不能选择它来"
 "创建替代品。"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: purchase_requisition
@@ -1038,7 +1075,13 @@ msgid ""
 "There is already an open blanket order for this supplier. We suggest you "
 "complete this open blanket order, instead of creating a new one."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "对该供应商已经有一个开放的一揽子订单。我们建议您完成这个开放的一揽子订单，而不是创建一个新的订单。"
+=======
+msgstr ""
+"对该供应商已经有一个开放的一揽子订单。我们建议您完成这个开放的一揽子订单，而"
+"不是创建一个新的订单。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "对该供应商已经有一个开放的一揽子订单。我们建议您完成这个开放的一揽子订单，而"
@@ -1058,12 +1101,15 @@ msgid ""
 "To close this purchase requisition, cancel related Requests for Quotation.\n"
 "\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Imagine the mess if someone confirms these duplicates: double the order, double the trouble :)"
 msgstr ""
 "要关闭此请购单，请取消相关的询价单。\n"
 "\n"
 "试想一下，如果有人确认了这些重复的订单，那将会是多么混乱：订单加倍，麻烦加倍:)"
 =======
+=======
+>>>>>>> upstream/18.0
 "Imagine the mess if someone confirms these duplicates: double the order, "
 "double the trouble :)"
 msgstr ""
@@ -1071,6 +1117,9 @@ msgstr ""
 "\n"
 "试想一下，如果有人确认了这些重复的订单，那将会是多么混乱：订单加倍，麻烦加"
 "倍:)"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: purchase_requisition
@@ -1163,8 +1212,13 @@ msgstr "另一种询价方式如何？"
 #: model:ir.model.fields,help:purchase_requisition.field_purchase_order__has_alternatives
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Whether or not this purchase order is linked to another purchase order as an"
 " alternative."
+=======
+"Whether or not this purchase order is linked to another purchase order as an "
+"alternative."
+>>>>>>> upstream/18.0
 =======
 "Whether or not this purchase order is linked to another purchase order as an "
 "alternative."
@@ -1212,8 +1266,13 @@ msgstr "若一揽子订单中有资料行缺漏数量，便不可确认。"
 #: code:addons/purchase_requisition/models/purchase_requisition.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot confirm agreement '%(agreement)s' because it does not contain any"
 " product lines."
+=======
+"You cannot confirm agreement '%(agreement)s' because it does not contain any "
+"product lines."
+>>>>>>> upstream/18.0
 =======
 "You cannot confirm agreement '%(agreement)s' because it does not contain any "
 "product lines."

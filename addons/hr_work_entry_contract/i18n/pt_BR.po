@@ -2,22 +2,29 @@
 # This file contains the translation of the following modules:
 # 	* hr_work_entry_contract
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Maitê Dietze, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Maitê Dietze, 2024
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -29,6 +36,8 @@ msgstr ""
 "Language: pt_BR\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Maitê Dietze, 2024\n"
@@ -40,6 +49,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
 "1000000 == 0 ? 1 : 2;\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_work_entry_contract
@@ -50,16 +62,22 @@ msgid ""
 "        Defines the source for work entries generation\n"
 "\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Working Schedule: Work entries will be generated from the working hours below.\n"
 "        Attendances: Work entries will be generated from the employee's attendances. (requires Attendance app)\n"
 "        Planning: Work entries will be generated from the employee's planning. (requires Planning app)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        Working Schedule: Work entries will be generated from the working "
 "hours below.\n"
 "        Attendances: Work entries will be generated from the employee's "
 "attendances. (requires Attendance app)\n"
 "        Planning: Work entries will be generated from the employee's "
 "planning. (requires Planning app)\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "    "
 msgstr ""
@@ -67,11 +85,14 @@ msgstr ""
 "Define a origem para a geração de registros de trabalho\n"
 "\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Horário de trabalho: os registros de trabalho serão gerados a partir das horas de trabalho abaixo.\n"
 "\n"
 "Presença: os registros de trabalho serão gerados a partir das presenças do funcionário (requer o aplicativo Controle de Presença).\n"
 "Planejamento: os registros de trabalho serão gerados a partir do planejamento do funcionário (requer o aplicativo Planejamento)."
 =======
+=======
+>>>>>>> upstream/18.0
 "Horário de trabalho: os registros de trabalho serão gerados a partir das "
 "horas de trabalho abaixo.\n"
 "\n"
@@ -79,6 +100,9 @@ msgstr ""
 "funcionário (requer o aplicativo Controle de Presença).\n"
 "Planejamento: os registros de trabalho serão gerados a partir do "
 "planejamento do funcionário (requer o aplicativo Planejamento)."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_work_entry_contract
@@ -105,8 +129,13 @@ msgid ""
 "allowed to regenerate validated work entries"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-exclamation-triangle me-1\" title=\"Warning\"/>Você não tem"
 " permissão para gerar novamente registros de trabalho validados."
+=======
+"<i class=\"fa fa-exclamation-triangle me-1\" title=\"Warning\"/>Você não tem "
+"permissão para gerar novamente registros de trabalho validados."
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-exclamation-triangle me-1\" title=\"Warning\"/>Você não tem "
 "permissão para gerar novamente registros de trabalho validados."
@@ -254,8 +283,13 @@ msgstr "ID"
 #: code:addons/hr_work_entry_contract/wizard/hr_work_entry_regeneration_wizard.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In order to regenerate the work entries, you need to provide the wizard with"
 " an employee_id, a date_from and a date_to. In addition to that, the time "
+=======
+"In order to regenerate the work entries, you need to provide the wizard with "
+"an employee_id, a date_from and a date_to. In addition to that, the time "
+>>>>>>> upstream/18.0
 =======
 "In order to regenerate the work entries, you need to provide the wizard with "
 "an employee_id, a date_from and a date_to. In addition to that, the time "
@@ -344,11 +378,17 @@ msgstr "Folga por atestado médico"
 #. odoo-python
 #: code:addons/hr_work_entry_contract/models/hr_contract.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Sorry, generating work entries from cancelled contracts is not allowed."
 msgstr ""
 "Não é permitido gerar registros de trabalho a partir de contratos "
 "cancelados."
+=======
+msgid "Sorry, generating work entries from cancelled contracts is not allowed."
+msgstr ""
+"Não é permitido gerar registros de trabalho a partir de contratos cancelados."
+>>>>>>> upstream/18.0
 =======
 msgid "Sorry, generating work entries from cancelled contracts is not allowed."
 msgstr ""

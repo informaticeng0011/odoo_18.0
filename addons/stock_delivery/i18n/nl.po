@@ -84,6 +84,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* stock_delivery
 # 
 # Translators:
@@ -912,6 +913,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * stock_delivery
 #
 # Translators:
@@ -1002,6 +1005,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1173,6 +1179,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 <<<<<<< HEAD
@@ -1870,6 +1877,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-10-11 18:16+0000\n"
 "Last-Translator: \"Dylan Kiss (dyki)\" <dyki@odoo.com>\n"
 "Language-Team: Dutch <https://translate.odoo.com/projects/odoo-18/"
@@ -1963,6 +1973,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2162,6 +2175,7 @@ msgstr "<span>Gewicht verzending:</span>"
 #: model_terms:ir.ui.view,arch_db:stock_delivery.report_delivery_document2
 #: model_terms:ir.ui.view,arch_db:stock_delivery.report_shipping2
 msgid "<strong>Carrier</strong>"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2499,6 +2513,9 @@ msgstr "<strong>Vervoerder</strong>"
 =======
 msgstr "<strong>Vervoerder</strong>"
 >>>>>>> upstream/18.0
+=======
+msgstr "<strong>Vervoerder</strong>"
+>>>>>>> upstream/18.0
 
 #. module: stock_delivery
 #: model_terms:ir.ui.view,arch_db:stock_delivery.report_shipping2
@@ -2553,8 +2570,12 @@ msgstr "Annuleren"
 #: model_terms:ir.ui.view,arch_db:stock_delivery.view_picking_withcarrier_out_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Cancelling a delivery may not be undoable. Are you sure you want to "
 "continue?"
+=======
+"Cancelling a delivery may not be undoable. Are you sure you want to continue?"
+>>>>>>> upstream/18.0
 =======
 "Cancelling a delivery may not be undoable. Are you sure you want to continue?"
 >>>>>>> upstream/18.0
@@ -2802,7 +2823,11 @@ msgid "Delivery Methods"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Verzendwijzes"
+=======
+msgstr "Verzendmethoden"
+>>>>>>> upstream/18.0
 =======
 msgstr "Verzendmethoden"
 >>>>>>> upstream/18.0
@@ -3423,12 +3448,15 @@ msgstr "Toon tracking links"
 #: model:ir.model.fields,help:stock_delivery.field_delivery_carrier__invoice_policy
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Estimated Cost: the customer will be invoiced the estimated cost of the shipping.\n"
 "Real Cost: the customer will be invoiced the real cost of the shipping, the cost of theshipping will be updated on the SO after the delivery."
 msgstr ""
 "Geschatte kosten: de geschatte kosten van de levering zullen aan de klant gefactureerd worden. \n"
 "Werkelijke kosten: de werkelijke kosten van de levering zullen aan de klant gefactureerd worden, de verzendkosten worden bijgewerkt op het verkooporder na de levering."
 =======
+=======
+>>>>>>> upstream/18.0
 "Estimated Cost: the customer will be invoiced the estimated cost of the "
 "shipping.\n"
 "Real Cost: the customer will be invoiced the real cost of the shipping, the "
@@ -3439,6 +3467,9 @@ msgstr ""
 "Werkelijke kosten: de werkelijke kosten van de levering zullen aan de klant "
 "gefactureerd worden, de verzendkosten worden bijgewerkt op het verkooporder "
 "na de levering."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock_delivery
@@ -3594,12 +3625,15 @@ msgstr "Routes"
 #: model:ir.model.fields,help:stock_delivery.field_product_template__country_of_origin
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Rules of origin determine where goods originate, i.e. not where they have been shipped from, but where they have been produced or manufactured.\n"
 "As such, the ‘origin’ is the 'economic nationality' of goods traded in commerce."
 msgstr ""
 "Oorsprongsregels bepalen waar goederen vandaan komen, d.w.z. niet waar ze vandaan zijn verscheept, maar waar ze zijn geproduceerd of vervaardigd.\n"
 "Als zodanig is de 'oorsprong' de 'economische nationaliteit' van goederen die worden verhandeld."
 =======
+=======
+>>>>>>> upstream/18.0
 "Rules of origin determine where goods originate, i.e. not where they have "
 "been shipped from, but where they have been produced or manufactured.\n"
 "As such, the ‘origin’ is the 'economic nationality' of goods traded in "
@@ -3609,6 +3643,9 @@ msgstr ""
 "vandaan zijn verscheept, maar waar ze zijn geproduceerd of vervaardigd.\n"
 "Als zodanig is de 'oorsprong' de 'economische nationaliteit' van goederen "
 "die worden verhandeld."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock_delivery
@@ -3641,8 +3678,13 @@ msgstr "Verzend naar verzender"
 #: code:addons/stock_delivery/models/stock_picking.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Shipment sent to carrier %(carrier_name)s for shipping with tracking number "
 "%(ref)s"
+=======
+"Shipment sent to carrier %(carrier_name)s for shipping with tracking number %"
+"(ref)s"
+>>>>>>> upstream/18.0
 =======
 "Shipment sent to carrier %(carrier_name)s for shipping with tracking number %"
 "(ref)s"
@@ -3858,7 +3900,11 @@ msgid "Shipping Methods"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Verzendwijzes"
+=======
+msgstr "Verzendmethoden"
+>>>>>>> upstream/18.0
 =======
 msgstr "Verzendmethoden"
 >>>>>>> upstream/18.0
@@ -4597,8 +4643,13 @@ msgstr "Gewicht:"
 msgid ""
 "You cannot pack products into the same package when they have different "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "carriers (i.e. check that all of their transfers have a carrier assigned and"
 " are using the same carrier)."
+=======
+"carriers (i.e. check that all of their transfers have a carrier assigned and "
+"are using the same carrier)."
+>>>>>>> upstream/18.0
 =======
 "carriers (i.e. check that all of their transfers have a carrier assigned and "
 "are using the same carrier)."

@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* payment
 # 
+=======
+# * payment
+#
+>>>>>>> upstream/18.0
 =======
 # * payment
 #
@@ -23,7 +28,11 @@
 # Anders Wallenquist <anders.wallenquist@vertel.se>, 2024
 # Jakob Krabbe <jakob.krabbe@vertel.se>, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -31,6 +40,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -42,6 +52,8 @@ msgstr ""
 "Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2025-12-31 16:33+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -53,6 +65,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.14.3\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment
@@ -76,6 +91,7 @@ msgstr "7Eleven"
 msgid ""
 "<h3>Please make a payment to: </h3><ul><li>Bank: %(bank)s</li><li>Account "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Number: %(account_number)s</li><li>Account Holder: "
 "%(account_holder)s</li></ul>"
 msgstr ""
@@ -83,18 +99,24 @@ msgstr ""
 "%(bank)s</li><li>Kontonummer: %(account_number)s</li><li>Kontohavare: "
 "%(account_holder)s</li></ul>"
 =======
+=======
+>>>>>>> upstream/18.0
 "Number: %(account_number)s</li><li>Account Holder: %(account_holder)s</li></"
 "ul>"
 msgstr ""
 "<h3>Vänligen gör en betalning till: </h3><ul><li>Bank: %(bank)s</"
 "li><li>Kontonummer: %(account_number)s</li><li>Kontohavare: %"
 "(account_holder)s</li></ul>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_method_form
 msgid ""
 "<i class=\"fa fa-exclamation-triangle\"/> These properties are set to\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                                match the behavior of providers and that of their integration with\n"
 "                                Odoo regarding this payment method. Any change may result in errors\n"
@@ -104,6 +126,8 @@ msgstr ""
 "                                matcha beteendet hos leverantörer och deras integration med Odoo\n"
 "                                Odoo när det gäller denna betalningsmetod. Alla ändringar kan resultera i fel\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                match the behavior of providers and that of "
 "their integration with\n"
 "                                Odoo regarding this payment method. Any "
@@ -117,24 +141,34 @@ msgstr ""
 "integration med Odoo\n"
 "                                Odoo när det gäller denna betalningsmetod. "
 "Alla ändringar kan resultera i fel\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                och bör testas på en testdatabas först."
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.portal_breadcrumb
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-home\" role=\"img\" title=\"Home\" aria-label=\"Home\"/>"
 msgstr "<i class=\"fa fa-home\" role=\"img\" title=\"Home\" aria-label=\"Hem\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "<i class=\"fa fa-home\" role=\"img\" title=\"Home\" aria-label=\"Home\"/>"
 msgstr ""
 "<i class=\"fa fa-home\" role=\"img\" title=\"Home\" aria-label=\"Hem\"/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_capture_wizard_view_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "<i class=\"fa fa-info-circle oe_inline\" invisible=\"support_partial_capture"
 " != 'full_only'\" title=\"Some of the transactions you intend to capture can"
@@ -146,6 +180,8 @@ msgstr ""
 "kan bara fångas i sin helhet. Hantera transaktionerna individuellt för att "
 "fånga en del av beloppet.\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 "<i class=\"fa fa-info-circle oe_inline\" "
 "invisible=\"support_partial_capture != 'full_only'\" title=\"Some of the "
 "transactions you intend to capture can only be captured in full. Handle the "
@@ -155,6 +191,9 @@ msgstr ""
 "invisible=\"support_partial_capture != 'full_only'\" title=\"Vissa av de "
 "transaktioner som du avser att fånga kan bara fångas i sin helhet. Hantera "
 "transaktionerna individuellt för att fånga en del av beloppet.\"/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment
@@ -232,7 +271,12 @@ msgstr "<span><i class=\"fa fa-lock\"/> Säkerställd av</span>"
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.no_pms_available_warning
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<strong><i class=\"fa fa-file-text\"/> Show availability report</strong>"
+=======
+msgid ""
+"<strong><i class=\"fa fa-file-text\"/> Show availability report</strong>"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "<strong><i class=\"fa fa-file-text\"/> Show availability report</strong>"
@@ -249,7 +293,12 @@ msgstr "<strong><i class=\"oi oi-arrow-right\"/> Betalningsmetoder</strong>"
 #: model_terms:ir.ui.view,arch_db:payment.no_pms_available_warning
 msgid "<strong><i class=\"oi oi-arrow-right\"/> Payment Providers</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<strong><i class=\"oi oi-arrow-right\"/> Betalningsleverantörer</strong>"
+=======
+msgstr ""
+"<strong><i class=\"oi oi-arrow-right\"/> Betalningsleverantörer</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "<strong><i class=\"oi oi-arrow-right\"/> Betalningsleverantörer</strong>"
@@ -265,6 +314,7 @@ msgstr "<strong>Ingen betalningsmetod tillgänglig</strong>"
 msgid ""
 "<strong>Warning!</strong> There is a partial capture pending. Please wait a\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    moment for it to be processed. Check your payment provider configuration if\n"
 "                    the capture is still pending after a few minutes."
 msgstr ""
@@ -272,6 +322,8 @@ msgstr ""
 "                    ögonblick för att den ska behandlas. Kontrollera din betalningsleverantörs konfiguration om\n"
 "                    om registreringen fortfarande är väntande efter några minuter."
 =======
+=======
+>>>>>>> upstream/18.0
 "                    moment for it to be processed. Check your payment "
 "provider configuration if\n"
 "                    the capture is still pending after a few minutes."
@@ -282,6 +334,9 @@ msgstr ""
 "betalningsleverantörs konfiguration om\n"
 "                    om registreringen fortfarande är väntande efter några "
 "minuter."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment
@@ -297,17 +352,23 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:payment.payment_provider_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<strong>Warning</strong> Creating a payment provider from the <em>CREATE</em> button is not supported.\n"
 "                        Please use the <em>Duplicate</em> action instead."
 msgstr ""
 "<strong>Varning</strong> Det finns inget stöd för att skapa en betalningsleverantör från knappen <em>CREATE</em>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "<strong>Warning</strong> Creating a payment provider from the <em>CREATE</"
 "em> button is not supported.\n"
 "                        Please use the <em>Duplicate</em> action instead."
 msgstr ""
 "<strong>Varning</strong> Det finns inget stöd för att skapa en "
 "betalningsleverantör från knappen <em>CREATE</em>.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                        Använd åtgärden <em>Duplicera</em> istället."
 
@@ -316,17 +377,23 @@ msgstr ""
 msgid ""
 "<strong>Warning</strong> Make sure you are logged in as the\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    correct partner before making this payment."
 msgstr ""
 "<strong>Varning</strong> Se till att du är inloggad som rätt\n"
 "                                    rätt partner innan du gör denna betalning."
 =======
+=======
+>>>>>>> upstream/18.0
 "                                    correct partner before making this "
 "payment."
 msgstr ""
 "<strong>Varning</strong> Se till att du är inloggad som rätt\n"
 "                                    rätt partner innan du gör denna "
 "betalning."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment
@@ -348,8 +415,13 @@ msgid ""
 msgstr ""
 "En begäran om återbetalning av %(amount)s har skickats. Betalningen kommer "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "att skapas inom kort. Återbetalningstransaktionens referens: %(ref)s "
 "(%(provider_name)s)."
+=======
+"att skapas inom kort. Återbetalningstransaktionens referens: %(ref)s (%"
+"(provider_name)s)."
+>>>>>>> upstream/18.0
 =======
 "att skapas inom kort. Återbetalningstransaktionens referens: %(ref)s (%"
 "(provider_name)s)."
@@ -394,12 +466,18 @@ msgstr "AKTIVERA STRIPE"
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_abitab
 msgid "Abitab"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/payment/wizards/payment_onboarding_wizard.py:0
@@ -580,12 +658,18 @@ msgstr "Asiapay"
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_astropay
 msgid "Astropay TEF"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_atome
 msgid "Atome"
@@ -673,7 +757,10 @@ msgstr "BancNet"
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_banco_guayaquil
 msgid "Banco Guayaquil"
 msgstr ""
@@ -684,6 +771,9 @@ msgid "Banco Pichincha"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_banco_de_bogota
 msgid "Banco de Bogota"
@@ -1276,12 +1366,18 @@ msgstr "FPX"
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_facilito
 msgid "Facilito"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_floa_bank
 msgid "Floa Bank"
@@ -1427,8 +1523,12 @@ msgstr "ID"
 #: model_terms:ir.ui.view,arch_db:payment.no_pms_available_warning
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If you believe that it is an error, please contact the website "
 "administrator."
+=======
+"If you believe that it is an error, please contact the website administrator."
+>>>>>>> upstream/18.0
 =======
 "If you believe that it is an error, please contact the website administrator."
 >>>>>>> upstream/18.0
@@ -1616,12 +1716,18 @@ msgstr "LinkAja"
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_nuvei_local
 msgid "Local Payments"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_lydia
 msgid "Lydia"
@@ -1850,12 +1956,18 @@ msgstr "Ingen är konfigurerad för:"
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.provider,name:payment.payment_provider_nuvei
 msgid "Nuvei"
 msgstr "Nuvei"
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_ovo
 msgid "OVO"
@@ -1982,12 +2094,18 @@ msgstr "Andra betalningsmetoder"
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_oxxopay
 msgid "Oxxo Pay"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_p24
 msgid "P24"
@@ -2416,12 +2534,18 @@ msgstr "Mall för omdirigeringsformulär"
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_redpagos
 msgid "Redpagos"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:payment.field_payment_transaction__reference
 #: model_terms:ir.ui.view,arch_db:payment.confirm
@@ -2492,12 +2616,18 @@ msgstr "SEPA Autogiro"
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_spei
 msgid "SPEI"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_samsung_pay
 msgid "Samsung Pay"
@@ -2579,6 +2709,7 @@ msgstr "Sofort"
 #: code:addons/payment/wizards/payment_capture_wizard.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Some of the transactions you intend to capture can only be captured in full."
 " Handle the transactions individually to capture a partial amount."
 msgstr ""
@@ -2586,11 +2717,16 @@ msgstr ""
 " sin helhet. Hantera transaktionerna individuellt för att fånga ett "
 "delbelopp."
 =======
+=======
+>>>>>>> upstream/18.0
 "Some of the transactions you intend to capture can only be captured in full. "
 "Handle the transactions individually to capture a partial amount."
 msgstr ""
 "Vissa av de transaktioner som du avser att registrera kan bara registreras i "
 "sin helhet. Hantera transaktionerna individuellt för att fånga ett delbelopp."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment
@@ -2713,8 +2849,12 @@ msgstr ""
 #: model:ir.model.fields,help:payment.field_payment_method__brand_ids
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The brands of the payment methods that will be displayed on the payment "
 "form."
+=======
+"The brands of the payment methods that will be displayed on the payment form."
+>>>>>>> upstream/18.0
 =======
 "The brands of the payment methods that will be displayed on the payment form."
 >>>>>>> upstream/18.0
@@ -2785,8 +2925,13 @@ msgid ""
 msgstr ""
 "Listan över länder där den här betalningsmetoden kan användas (om "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "leverantören tillåter det). I andra länder är den här betalningsmetoden inte"
 " tillgänglig för kunder."
+=======
+"leverantören tillåter det). I andra länder är den här betalningsmetoden inte "
+"tillgänglig för kunder."
+>>>>>>> upstream/18.0
 =======
 "leverantören tillåter det). I andra länder är den här betalningsmetoden inte "
 "tillgänglig för kunder."
@@ -2796,9 +2941,15 @@ msgstr ""
 #: model:ir.model.fields,help:payment.field_payment_method__supported_currency_ids
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The list of currencies for that are supported by this payment method (if the"
 " provider allows it). When paying with another currency, this payment method"
 " is not available to customers."
+=======
+"The list of currencies for that are supported by this payment method (if the "
+"provider allows it). When paying with another currency, this payment method "
+"is not available to customers."
+>>>>>>> upstream/18.0
 =======
 "The list of currencies for that are supported by this payment method (if the "
 "provider allows it). When paying with another currency, this payment method "
@@ -2875,12 +3026,15 @@ msgstr ""
 #: model:ir.model.fields,help:payment.field_payment_method__primary_payment_method_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The primary payment method of the current payment method, if the latter is a brand.\n"
 "For example, \"Card\" is the primary payment method of the card brand \"VISA\"."
 msgstr ""
 "Den primära betalningsmetoden för den aktuella betalningsmetoden, om den senare är ett varumärke.\n"
 "Till exempel är \"Card\" den primära betalningsmetoden för kortmärket \"VISA\"."
 =======
+=======
+>>>>>>> upstream/18.0
 "The primary payment method of the current payment method, if the latter is a "
 "brand.\n"
 "For example, \"Card\" is the primary payment method of the card brand "
@@ -2890,6 +3044,9 @@ msgstr ""
 "senare är ett varumärke.\n"
 "Till exempel är \"Card\" den primära betalningsmetoden för kortmärket "
 "\"VISA\"."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment
@@ -2972,23 +3129,30 @@ msgstr ""
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The transaction with reference %(ref)s for %(amount)s encountered an error "
 "(%(provider_name)s)."
 msgstr ""
 "Transaktionen med referens %(ref)s för %(amount)s stötte på ett fel "
 "(%(provider_name)s)."
 =======
+=======
+>>>>>>> upstream/18.0
 "The transaction with reference %(ref)s for %(amount)s encountered an error (%"
 "(provider_name)s)."
 msgstr ""
 "Transaktionen med referens %(ref)s för %(amount)s stötte på ett fel (%"
 "(provider_name)s)."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment
 #. odoo-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "The transaction with reference %(ref)s for %(amount)s has been authorized "
 "(%(provider_name)s)."
@@ -2996,11 +3160,16 @@ msgstr ""
 "Transaktionen med referens %(ref)s för %(amount)s har auktoriserats "
 "(%(provider_name)s)."
 =======
+=======
+>>>>>>> upstream/18.0
 "The transaction with reference %(ref)s for %(amount)s has been authorized (%"
 "(provider_name)s)."
 msgstr ""
 "Transaktionen med referens %(ref)s för %(amount)s har auktoriserats (%"
 "(provider_name)s)."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment
@@ -3008,17 +3177,23 @@ msgstr ""
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The transaction with reference %(ref)s for %(amount)s has been confirmed "
 "(%(provider_name)s)."
 msgstr ""
 "Transaktionen med referens %(ref)s för %(amount)s har bekräftats "
 "(%(provider_name)s)."
 =======
+=======
+>>>>>>> upstream/18.0
 "The transaction with reference %(ref)s for %(amount)s has been confirmed (%"
 "(provider_name)s)."
 msgstr ""
 "Transaktionen med referens %(ref)s för %(amount)s har bekräftats (%"
 "(provider_name)s)."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment
@@ -3050,8 +3225,13 @@ msgid ""
 "payment method."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Denna åtgärd kommer också att arkiveras %s polletter som är registrerade med"
 " denna betalningsmetod."
+=======
+"Denna åtgärd kommer också att arkiveras %s polletter som är registrerade med "
+"denna betalningsmetod."
+>>>>>>> upstream/18.0
 =======
 "Denna åtgärd kommer också att arkiveras %s polletter som är registrerade med "
 "denna betalningsmetod."
@@ -3065,8 +3245,13 @@ msgid ""
 "provider. "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Denna åtgärd kommer också att arkiveras %s polletter som är registrerade med"
 " denna betalningsmetod."
+=======
+"Denna åtgärd kommer också att arkiveras %s polletter som är registrerade med "
+"denna betalningsmetod."
+>>>>>>> upstream/18.0
 =======
 "Denna åtgärd kommer också att arkiveras %s polletter som är registrerade med "
 "denna betalningsmetod."
@@ -3076,6 +3261,7 @@ msgstr ""
 #: model:ir.model.fields,help:payment.field_payment_provider__allow_tokenization
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This controls whether customers can save their payment methods as payment tokens.\n"
 "A payment token is an anonymous link to the payment method details saved in the\n"
 "provider's database, allowing the customer to reuse it for a next purchase."
@@ -3083,6 +3269,8 @@ msgstr ""
 "Detta styr om kunder kan spara sina betalningsmetoder som betalningspollett.\n"
 "En betalningspollett är en anonym länk till betalningsmetodens detaljer som sparats i\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "This controls whether customers can save their payment methods as payment "
 "tokens.\n"
 "A payment token is an anonymous link to the payment method details saved in "
@@ -3093,6 +3281,9 @@ msgstr ""
 "betalningspollett.\n"
 "En betalningspollett är en anonym länk till betalningsmetodens detaljer som "
 "sparats i\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "leverantörens databas, så att kunden kan återanvända den för ett nästa köp."
 
@@ -3111,12 +3302,15 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:payment.payment_link_wizard_view_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This partner has no email, which may cause issues with some payment providers.\n"
 "                     Setting an email for this partner is advised."
 msgstr ""
 "Den här partnern har ingen e-postadress, vilket kan orsaka problem med vissa betalningsleverantörer.\n"
 "                     Vi rekommenderar att du anger en e-postadress för den här partnern."
 =======
+=======
+>>>>>>> upstream/18.0
 "This partner has no email, which may cause issues with some payment "
 "providers.\n"
 "                     Setting an email for this partner is advised."
@@ -3125,6 +3319,9 @@ msgstr ""
 "betalningsleverantörer.\n"
 "                     Vi rekommenderar att du anger en e-postadress för den "
 "här partnern."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment
@@ -3175,8 +3372,13 @@ msgid ""
 "can later be reused without having to enter the payment details again."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Pollettisering är processen att spara betalningsinformationen som en pollett"
 " som senare kan återanvändas utan att behöva ange betalningsinformationen "
+=======
+"Pollettisering är processen att spara betalningsinformationen som en pollett "
+"som senare kan återanvändas utan att behöva ange betalningsinformationen "
+>>>>>>> upstream/18.0
 =======
 "Pollettisering är processen att spara betalningsinformationen som en pollett "
 "som senare kan återanvändas utan att behöva ange betalningsinformationen "
@@ -3344,12 +3546,18 @@ msgstr "WeLend"
 
 #. module: payment
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_webpay
 msgid "WebPay"
 msgstr ""
 
 #. module: payment
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,help:payment.field_payment_transaction__tokenize
 msgid ""
@@ -3413,13 +3621,19 @@ msgstr ""
 #. module: payment
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/payment/models/payment_method.py:0
 msgid "You cannot delete the default payment method."
 msgstr ""
 
 #. module: payment
 #. odoo-python
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/payment/models/payment_provider.py:0
 msgid ""
@@ -3427,8 +3641,13 @@ msgid ""
 "instead."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Du kan inte ta bort betalningsleverantören %s; inaktivera eller avinstallera"
 " den i stället."
+=======
+"Du kan inte ta bort betalningsleverantören %s; inaktivera eller avinstallera "
+"den i stället."
+>>>>>>> upstream/18.0
 =======
 "Du kan inte ta bort betalningsleverantören %s; inaktivera eller avinstallera "
 "den i stället."
@@ -3468,6 +3687,10 @@ msgstr ""
 #: model_terms:payment.provider,auth_msg:payment.payment_provider_mercado_pago
 #: model_terms:payment.provider,auth_msg:payment.payment_provider_mollie
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:payment.provider,auth_msg:payment.payment_provider_nuvei
+>>>>>>> upstream/18.0
 =======
 #: model_terms:payment.provider,auth_msg:payment.payment_provider_nuvei
 >>>>>>> upstream/18.0
@@ -3494,6 +3717,10 @@ msgstr "Din betalning har bekräftas."
 #: model_terms:payment.provider,cancel_msg:payment.payment_provider_mercado_pago
 #: model_terms:payment.provider,cancel_msg:payment.payment_provider_mollie
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:payment.provider,cancel_msg:payment.payment_provider_nuvei
+>>>>>>> upstream/18.0
 =======
 #: model_terms:payment.provider,cancel_msg:payment.payment_provider_nuvei
 >>>>>>> upstream/18.0
@@ -3520,6 +3747,10 @@ msgstr "Din betalning har avbrutits."
 #: model_terms:payment.provider,pending_msg:payment.payment_provider_mercado_pago
 #: model_terms:payment.provider,pending_msg:payment.payment_provider_mollie
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:payment.provider,pending_msg:payment.payment_provider_nuvei
+>>>>>>> upstream/18.0
 =======
 #: model_terms:payment.provider,pending_msg:payment.payment_provider_nuvei
 >>>>>>> upstream/18.0
@@ -3546,6 +3777,10 @@ msgstr "Din betalning har behandlats men väntar på godkännande."
 #: model_terms:payment.provider,done_msg:payment.payment_provider_mercado_pago
 #: model_terms:payment.provider,done_msg:payment.payment_provider_mollie
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:payment.provider,done_msg:payment.payment_provider_nuvei
+>>>>>>> upstream/18.0
 =======
 #: model_terms:payment.provider,done_msg:payment.payment_provider_nuvei
 >>>>>>> upstream/18.0

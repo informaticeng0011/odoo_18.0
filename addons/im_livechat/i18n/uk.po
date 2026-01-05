@@ -2,22 +2,29 @@
 # This file contains the translation of the following modules:
 # 	* im_livechat
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Martin Trigaux, 2024
 # Wil Odoo, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Martin Trigaux, 2024
 # Wil Odoo, 2024
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2025-01-27 13:02+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -29,6 +36,8 @@ msgstr ""
 "Language: uk\n"
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Odoo, 2024\n"
@@ -41,6 +50,9 @@ msgstr ""
 "11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % "
 "100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || "
 "(n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: im_livechat
@@ -91,8 +103,12 @@ msgstr "%s (копія)"
 #: code:addons/im_livechat/models/discuss_channel.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "'%(input_email)s' does not look like a valid email. Can you please try "
 "again?"
+=======
+"'%(input_email)s' does not look like a valid email. Can you please try again?"
+>>>>>>> upstream/18.0
 =======
 "'%(input_email)s' does not look like a valid email. Can you please try again?"
 >>>>>>> upstream/18.0
@@ -104,6 +120,7 @@ msgstr ""
 msgid ""
 "* 'Show' displays the chat button on the pages.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "* 'Show with notification' is 'Show' in addition to a floating text just next to the button.\n"
 "* 'Open automatically' displays the button and automatically opens the conversation pane.\n"
 "* 'Hide' hides the chat button on the pages.\n"
@@ -112,6 +129,8 @@ msgstr ""
 "* «Показати зі сповіщенням» — це «Показати» додатково до плаваючого тексту поруч із кнопкою.\n"
 "* «Відкрити автоматично» відображає кнопку та автоматично відкриває панель розмови.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "* 'Show with notification' is 'Show' in addition to a floating text just "
 "next to the button.\n"
 "* 'Open automatically' displays the button and automatically opens the "
@@ -123,6 +142,9 @@ msgstr ""
 "поруч із кнопкою.\n"
 "* «Відкрити автоматично» відображає кнопку та автоматично відкриває панель "
 "розмови.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "* «Сховати» приховує кнопку чату на сторінках.\n"
 
@@ -149,7 +171,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:im_livechat.chatbot_test_script_page
 msgid "<i class=\"oi oi-fw oi-arrow-right\"/>Back to edit mode"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<i class=\"oi oi-fw oi-arrow-right\"/>Повернутися до режиму редагування"
+=======
+msgstr ""
+"<i class=\"oi oi-fw oi-arrow-right\"/>Повернутися до режиму редагування"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "<i class=\"oi oi-fw oi-arrow-right\"/>Повернутися до режиму редагування"
@@ -184,6 +211,7 @@ msgstr "<span>Вітаємо,</span><br/>Це копія вашої розмов
 #: model_terms:ir.ui.view,arch_db:im_livechat.chatbot_script_step_view_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span>Reminder: This step will only be played if no operator is "
 "available.</span>"
 msgstr ""
@@ -199,11 +227,16 @@ msgstr ""
 "<span>Порада: Потрібна принаймні одна взаємодія (запитання, електронна пошта, ...), перш ніж бот зможе виконувати більш складні дії (переадресувати оператору, ...). </span>\n"
 "                    <span>Використовуйте правила каналу, якщо ви хочете, щоб бот взаємодіяв з відвідувачами лише тоді, коли немає доступного оператора.</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 "<span>Reminder: This step will only be played if no operator is available.</"
 "span>"
 msgstr ""
 "<span>Нагадування: Цей крок буде відтворено, лише якщо оператор недоступний."
 "</span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: im_livechat
@@ -211,9 +244,12 @@ msgstr ""
 msgid ""
 "<span>Tip: At least one interaction (Question, Email, ...) is needed before "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "the Bot can perform more complex actions (Forward to an Operator, "
 "...).</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 "the Bot can perform more complex actions (Forward to an Operator, ...). </"
 "span>\n"
 "                    <span>Use Channel Rules if you want the Bot to interact "
@@ -232,6 +268,9 @@ msgid ""
 "<span>Tip: At least one interaction (Question, Email, ...) is needed before "
 "the Bot can perform more complex actions (Forward to an Operator, ...).</"
 "span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 "<span>Порада: Потрібна принаймні одна взаємодія (запитання, електронна "
@@ -242,8 +281,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:im_livechat.chatbot_script_step_view_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span>Tip: Plan further steps for the Bot in case no operator is "
 "available.</span>"
+=======
+"<span>Tip: Plan further steps for the Bot in case no operator is available.</"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "<span>Tip: Plan further steps for the Bot in case no operator is available.</"
 "span>"
@@ -267,17 +311,23 @@ msgstr "mail.message може бути пов'язаним лише з єдин�
 msgid ""
 "A session is without answer if the operator did not answer. \n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                       If the visitor is also the operator, the session will always be answered."
 msgstr ""
 "Сесія не відповідає, якщо оператор не відповів.\n"
 "                                      Якщо відвідувач також є оператором, то сесія завжди буде відповідати."
 =======
+=======
+>>>>>>> upstream/18.0
 "                                       If the visitor is also the operator, "
 "the session will always be answered."
 msgstr ""
 "Сесія не відповідає, якщо оператор не відповів.\n"
 "                                      Якщо відвідувач також є оператором, то "
 "сесія завжди буде відповідати."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: im_livechat
@@ -479,8 +529,13 @@ msgstr "Наповнювач поля вводу"
 #: model:ir.model.fields,help:im_livechat.field_discuss_channel__channel_type
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Chat is private and unique between 2 persons. Group is private among invited"
 " persons. Channel can be freely joined (depending on its configuration)."
+=======
+"Chat is private and unique between 2 persons. Group is private among invited "
+"persons. Channel can be freely joined (depending on its configuration)."
+>>>>>>> upstream/18.0
 =======
 "Chat is private and unique between 2 persons. Group is private among invited "
 "persons. Channel can be freely joined (depending on its configuration)."
@@ -725,8 +780,13 @@ msgid ""
 msgstr ""
 "Визначте правила для свого каналу підтримки в режимі реального часу. Ви "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "можете застосувати дію для вказаної URL-адреси та для кожної країни.<br/>Для"
 " визначення країни на вашому сервері має бути встановлено GeoIP, інакше "
+=======
+"можете застосувати дію для вказаної URL-адреси та для кожної країни.<br/>Для "
+"визначення країни на вашому сервері має бути встановлено GeoIP, інакше "
+>>>>>>> upstream/18.0
 =======
 "можете застосувати дію для вказаної URL-адреси та для кожної країни.<br/>Для "
 "визначення країни на вашому сервері має бути встановлено GeoIP, інакше "
@@ -1598,8 +1658,12 @@ msgid ""
 "Regular expression specifying the web pages this rule will be applied on."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Регулярний вираз зі зазначенням веб-сторінок буде застосований на це "
 "правило."
+=======
+"Регулярний вираз зі зазначенням веб-сторінок буде застосований на це правило."
+>>>>>>> upstream/18.0
 =======
 "Регулярний вираз зі зазначенням веб-сторінок буде застосований на це правило."
 >>>>>>> upstream/18.0
@@ -1854,8 +1918,13 @@ msgid ""
 "The rule will only be applied for these countries. Example: if you select "
 "'Belgium' and 'United States' and that you set the action to 'Hide', the "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "chat button will be hidden on the specified URL from the visitors located in"
 " these 2 countries. This feature requires GeoIP installed on your server."
+=======
+"chat button will be hidden on the specified URL from the visitors located in "
+"these 2 countries. This feature requires GeoIP installed on your server."
+>>>>>>> upstream/18.0
 =======
 "chat button will be hidden on the specified URL from the visitors located in "
 "these 2 countries. This feature requires GeoIP installed on your server."
@@ -1898,8 +1967,13 @@ msgid ""
 "you to Live Chat sessions."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ці мови, в додаток до вашої основної мови, буде використана, щоби призначити"
 " вас до сесій живого чату."
+=======
+"Ці мови, в додаток до вашої основної мови, буде використана, щоби призначити "
+"вас до сесій живого чату."
+>>>>>>> upstream/18.0
 =======
 "Ці мови, в додаток до вашої основної мови, буде використана, щоби призначити "
 "вас до сесій живого чату."
@@ -1924,8 +1998,13 @@ msgid ""
 "initiate a new conversation."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Це автоматичне повідомлення \"ласкаво просимо\", яке ваш відвідувач побачить"
 " під час ініціації нової бесіди."
+=======
+"Це автоматичне повідомлення \"ласкаво просимо\", яке ваш відвідувач побачить "
+"під час ініціації нової бесіди."
+>>>>>>> upstream/18.0
 =======
 "Це автоматичне повідомлення \"ласкаво просимо\", яке ваш відвідувач побачить "
 "під час ініціації нової бесіди."
@@ -2003,6 +2082,7 @@ msgstr "Без рейтингу"
 #: model_terms:digest.tip,tip_description:im_livechat.digest_tip_im_livechat_0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Use canned responses to define templates of messages in the livechat app. To"
 " load a canned response, start your sentence with ':' and select the "
 "template."
@@ -2010,11 +2090,16 @@ msgstr ""
 "Використовуйте готові відповіді для визначення шаблонів повідомлень у модулі"
 " живого чату. Щоби завантажити готову відповідь, почніть ваше речення з ':' "
 =======
+=======
+>>>>>>> upstream/18.0
 "Use canned responses to define templates of messages in the livechat app. To "
 "load a canned response, start your sentence with ':' and select the template."
 msgstr ""
 "Використовуйте готові відповіді для визначення шаблонів повідомлень у модулі "
 "живого чату. Щоби завантажити готову відповідь, почніть ваше речення з ':' "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "та оберіть шаблон."
 
@@ -2117,8 +2202,12 @@ msgid ""
 "Would you mind leaving your email address so that we can reach you back?"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ви б не були проти залишити вашу електронну адресу, щоб ми зв'язалися з "
 "вами?"
+=======
+"Ви б не були проти залишити вашу електронну адресу, щоб ми зв'язалися з вами?"
+>>>>>>> upstream/18.0
 =======
 "Ви б не були проти залишити вашу електронну адресу, щоб ми зв'язалися з вами?"
 >>>>>>> upstream/18.0
@@ -2154,12 +2243,15 @@ msgstr ""
 msgid ""
 "You can create channels for each website on which you want\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                to integrate the website live chat widget, allowing your website\n"
 "                visitors to talk in real time with your operators."
 msgstr ""
 "Ви можете створювати канали для кожного веб-сайту, на якому ви хочете\n"
 "інтегрувати віджет живого чату веб-сайту, дозволяючи вашим відвідувачам веб-сайту\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                to integrate the website live chat widget, allowing your "
 "website\n"
 "                visitors to talk in real time with your operators."
@@ -2167,6 +2259,9 @@ msgstr ""
 "Ви можете створювати канали для кожного веб-сайту, на якому ви хочете\n"
 "інтегрувати віджет живого чату веб-сайту, дозволяючи вашим відвідувачам веб-"
 "сайту\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "спілкуватися в режимі реального часу з вашими операторами."
 

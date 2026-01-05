@@ -43,8 +43,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* base_vat
 # 
+=======
+# * base_vat
+#
+>>>>>>> upstream/18.0
 =======
 # * base_vat
 #
@@ -264,7 +269,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -398,6 +407,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2025-01-27 13:03+0000\n"
 <<<<<<< HEAD
@@ -538,6 +548,10 @@ msgstr ""
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2025-12-31 16:31+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2025-12-31 16:31+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Danish <https://translate.odoo.com/projects/odoo-18/base_vat/"
 "da/>\n"
@@ -546,6 +560,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "X-Generator: Weblate 5.12.2\n"
 <<<<<<< HEAD
@@ -675,13 +690,20 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: base_vat
 #. odoo-python
 #: code:addons/base_vat/models/res_partner.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "10XXXXXXXXY or 20XXXXXXXXY or 15XXXXXXXXY or 16XXXXXXXXY or 17XXXXXXXXY"
+=======
+msgid "10XXXXXXXXY or 20XXXXXXXXY or 15XXXXXXXXY or 16XXXXXXXXY or 17XXXXXXXXY"
+>>>>>>> upstream/18.0
 =======
 msgid "10XXXXXXXXY or 20XXXXXXXXY or 15XXXXXXXXY or 16XXXXXXXXY or 17XXXXXXXXY"
 >>>>>>> upstream/18.0
@@ -694,7 +716,11 @@ msgstr ""
 #: code:addons/base_vat/models/res_partner.py:0
 msgid "17291716060 (NIN) or 1729171602 (VKN)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "17291716060 (NIN) eller 1729171602 (VKN)"
+>>>>>>> upstream/18.0
 =======
 msgstr "17291716060 (NIN) eller 1729171602 (VKN)"
 >>>>>>> upstream/18.0
@@ -716,7 +742,11 @@ msgstr ""
 #: code:addons/base_vat/models/res_partner.py:0
 msgid "310175397400003 [Fifteen digits, first and last digits should be \"3\"]"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "310175397400003 [Femten cifre, første og sidste cifre bør være \"3\"]"
+>>>>>>> upstream/18.0
 =======
 msgstr "310175397400003 [Femten cifre, første og sidste cifre bør være \"3\"]"
 >>>>>>> upstream/18.0
@@ -764,6 +794,11 @@ msgid ""
 "validated."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Det var ikke muligt at oprette forbindelse til VIES-serveren. Momsnummeret "
+"%s kunne derfor ikke valideres."
+>>>>>>> upstream/18.0
 =======
 "Det var ikke muligt at oprette forbindelse til VIES-serveren. Momsnummeret "
 "%s kunne derfor ikke valideres."
@@ -779,7 +814,11 @@ msgstr "Kontakt"
 #: code:addons/base_vat/models/res_partner.py:0
 msgid "DE123456788 or 12/345/67890"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "DE123456788 eller 12/345/67890"
+>>>>>>> upstream/18.0
 =======
 msgstr "DE123456788 eller 12/345/67890"
 >>>>>>> upstream/18.0
@@ -795,7 +834,11 @@ msgstr "DO1-01-85004-3 eller 101850043"
 #: model:ir.model.fields,help:base_vat.field_res_users__vies_valid
 msgid "European VAT numbers are automatically checked on the VIES database."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Europæiske momsnumre kontrolleres automatisk på VIES-databasen."
+>>>>>>> upstream/18.0
 =======
 msgstr "Europæiske momsnumre kontrolleres automatisk på VIES-databasen."
 >>>>>>> upstream/18.0
@@ -807,6 +850,10 @@ msgid ""
 "Example: '219999830019' (format: 12 digits, all numbers, valid check digit)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Eksempel: '219999830019' (format: 12 cifre, alle tal, gyldige kontrolcifre)"
+>>>>>>> upstream/18.0
 =======
 "Eksempel: '219999830019' (format: 12 cifre, alle tal, gyldige kontrolcifre)"
 >>>>>>> upstream/18.0
@@ -877,6 +924,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Hvis dette felt er markeret, fastsættes den relevante standardskatteposition "
+"ud fra resultatet af verifikationen via den europæiske VIES-tjeneste."
+>>>>>>> upstream/18.0
 =======
 "Hvis dette felt er markeret, fastsættes den relevante standardskatteposition "
 "ud fra resultatet af verifikationen via den europæiske VIES-tjeneste."
@@ -1055,7 +1107,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:base_vat.field_res_users__vies_valid
 msgid "Intra-Community Valid"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gyldig inden for EU"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gyldig inden for EU"
 >>>>>>> upstream/18.0
@@ -1071,7 +1127,11 @@ msgstr "MXGODE561231GR8 eller GODE561231GR8"
 #: model:ir.model.fields,field_description:base_vat.field_res_users__perform_vies_validation
 msgid "Perform Vies Validation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Udfør VIES-validering"
+>>>>>>> upstream/18.0
 =======
 msgstr "Udfør VIES-validering"
 >>>>>>> upstream/18.0
@@ -1094,7 +1154,12 @@ msgstr ""
 #: code:addons/base_vat/models/res_partner.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The %(vat_label)s number [%(wrong_vat)s] for %(record_label)s does not seem to be valid. \n"
+=======
+"The %(vat_label)s number [%(wrong_vat)s] for %(record_label)s does not seem "
+"to be valid. \n"
+>>>>>>> upstream/18.0
 =======
 "The %(vat_label)s number [%(wrong_vat)s] for %(record_label)s does not seem "
 "to be valid. \n"
@@ -1107,7 +1172,11 @@ msgstr ""
 #: code:addons/base_vat/models/res_partner.py:0
 msgid "The VAT number %s could not be interpreted by the VIES server."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skattenummeret %s kunne ikke fortolkes af VIES-serveren."
+>>>>>>> upstream/18.0
 =======
 msgstr "Skattenummeret %s kunne ikke fortolkes af VIES-serveren."
 >>>>>>> upstream/18.0
@@ -1125,8 +1194,13 @@ msgstr ""
 #: code:addons/base_vat/models/account_fiscal_position.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The country of the foreign VAT number could not be detected. Please assign a"
 " country to the fiscal position or set a country group"
+=======
+"The country of the foreign VAT number could not be detected. Please assign a "
+"country to the fiscal position or set a country group"
+>>>>>>> upstream/18.0
 =======
 "The country of the foreign VAT number could not be detected. Please assign a "
 "country to the fiscal position or set a country group"
@@ -1138,15 +1212,21 @@ msgstr ""
 #: code:addons/base_vat/models/res_partner.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The request for VAT validation was not processed. VIES service has responded"
 " with the following error: %s"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "The request for VAT validation was not processed. VIES service has responded "
 "with the following error: %s"
 msgstr ""
 "Anmodningen om momsvalidering kunne ikke behandles. VIES-ydelsen svarede med "
 "følgende fejl: %s"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_vat
@@ -1178,6 +1258,10 @@ msgstr ""
 msgid "XXXXXXXXX [9 digits] and it should respect the Luhn algorithm checksum"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"XXXXXXXXX [9 cifre], og det skal respektere Luhn-algorithmens kontrolsum"
+>>>>>>> upstream/18.0
 =======
 "XXXXXXXXX [9 cifre], og det skal respektere Luhn-algorithmens kontrolsum"
 >>>>>>> upstream/18.0
@@ -1187,7 +1271,11 @@ msgstr ""
 #: code:addons/base_vat/models/res_partner.py:0
 msgid "either 11 digits for CPF or 14 digits for CNPJ"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "enten 11 cifre for CPF eller 14 cifre for CNPJ"
+>>>>>>> upstream/18.0
 =======
 msgstr "enten 11 cifre for CPF eller 14 cifre for CNPJ"
 >>>>>>> upstream/18.0
