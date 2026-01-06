@@ -3,12 +3,15 @@
 # 	* hr_timesheet
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Malaz Abuidris <msea@odoo.com>, 2024
 # Wil Odoo, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #
@@ -17,6 +20,9 @@
 # Wil Odoo, 2025
 #
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24,6 +30,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
@@ -38,6 +45,8 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Odoo, 2025\n"
@@ -49,6 +58,9 @@ msgstr ""
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -106,6 +118,7 @@ msgstr "جداول %(name)s الزمنية "
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "'%(missing_plan_names)s' analytic plan(s) required on the project "
 "'%(project_name)s' linked to the timesheet."
 msgstr ""
@@ -114,12 +127,17 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "'%(missing_plan_names)s' analytic plan(s) required on the project '%"
 "(project_name)s' linked to the timesheet."
 msgstr ""
 "الخطط التحليلية '%(missing_plan_names)s' المطلوبة في المشروع '%"
 "(project_name)s' المرتبطة بالجدول الزمني. "
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -166,7 +184,13 @@ msgstr "<b class=\"tip_title\">نصيحة: قم بتسجيل جداولك الز
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.view_kanban_account_analytic_line
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-calendar me-1\" role=\"img\" aria-label=\"Date\" title=\"Date\"/>"
+=======
+msgid ""
+"<i class=\"fa fa-calendar me-1\" role=\"img\" aria-label=\"Date\" "
+"title=\"Date\"/>"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "<i class=\"fa fa-calendar me-1\" role=\"img\" aria-label=\"Date\" "
@@ -205,10 +229,13 @@ msgid ""
 "                        <span invisible=\"not has_active_employee\">\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            You can either archive these employees or first delete all of their timesheets.\n"
 "                        </span>\n"
 "                        <span invisible=\"has_active_employee\" groups=\"hr_timesheet.group_hr_timesheet_approver\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "                            You can either archive these employees or first "
@@ -217,6 +244,9 @@ msgid ""
 "                        <span invisible=\"has_active_employee\" "
 "groups=\"hr_timesheet.group_hr_timesheet_approver\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -232,10 +262,13 @@ msgstr ""
 "                        <span invisible=\"not has_active_employee\">\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            يمكنك إما أرشفة هؤلاء الموظفين أو حذف كافة جداولهم الزمنية أولاً.\n"
 "                        </span>\n"
 "                        <span invisible=\"has_active_employee\" groups=\"hr_timesheet.group_hr_timesheet_approver\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "                            يمكنك إما أرشفة هؤلاء الموظفين أو حذف كافة "
@@ -244,6 +277,9 @@ msgstr ""
 "                        <span invisible=\"has_active_employee\" "
 "groups=\"hr_timesheet.group_hr_timesheet_approver\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -371,7 +407,12 @@ msgstr "إمكانية تطبيق الخطة التحليلية "
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Analyze the projects and tasks on which your employees spend their time.<br>\n"
+=======
+"Analyze the projects and tasks on which your employees spend their time."
+"<br>\n"
+>>>>>>> upstream/18.0
 =======
 "Analyze the projects and tasks on which your employees spend their time."
 "<br>\n"
@@ -621,8 +662,12 @@ msgstr "الوقت الإضافي "
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.res_config_settings_view_form
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Generate timesheets for validated time off requests and public holidays"
+=======
+msgid "Generate timesheets for validated time off requests and public holidays"
+>>>>>>> upstream/18.0
 =======
 msgid "Generate timesheets for validated time off requests and public holidays"
 >>>>>>> upstream/18.0
@@ -969,8 +1014,13 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "قم بإرسال تذكيرات دورية عبر البريد الإلكتروني لمانحي موافقات الجداول الزمنية"
 " الذين لا تزال لديهم جداول زمنية لتصديقها "
+=======
+"قم بإرسال تذكيرات دورية عبر البريد الإلكتروني لمانحي موافقات الجداول الزمنية "
+"الذين لا تزال لديهم جداول زمنية لتصديقها "
+>>>>>>> upstream/18.0
 =======
 "قم بإرسال تذكيرات دورية عبر البريد الإلكتروني لمانحي موافقات الجداول الزمنية "
 "الذين لا تزال لديهم جداول زمنية لتصديقها "
@@ -988,8 +1038,13 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "قم بإرسال تذكيرات دورية عبر البريد الإلكتروني لمستخدمي الجداول الزمنية الذين"
 " لا تزال لديهم جداول زمنية لتشفيرها "
+=======
+"قم بإرسال تذكيرات دورية عبر البريد الإلكتروني لمستخدمي الجداول الزمنية الذين "
+"لا تزال لديهم جداول زمنية لتشفيرها "
+>>>>>>> upstream/18.0
 =======
 "قم بإرسال تذكيرات دورية عبر البريد الإلكتروني لمستخدمي الجداول الزمنية الذين "
 "لا تزال لديهم جداول زمنية لتشفيرها "
@@ -1049,6 +1104,7 @@ msgstr "يجب أن يكون المشروع الداخلي للشركة في ت�
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The project, the task and the analytic accounts of the timesheet must belong"
 " to the same company."
 msgstr ""
@@ -1057,12 +1113,17 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "The project, the task and the analytic accounts of the timesheet must belong "
 "to the same company."
 msgstr ""
 "يجب أن ينتمي كل من المشروع والمهمة والحسابات التحليلية للجدول الزمني إلى نفس "
 "الشركة. "
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1078,8 +1139,13 @@ msgstr "لا توجد جداول زمنية"
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "These projects have some timesheet entries referencing them. Before removing"
 " these projects, you have to remove these timesheet entries."
+=======
+"These projects have some timesheet entries referencing them. Before removing "
+"these projects, you have to remove these timesheet entries."
+>>>>>>> upstream/18.0
 =======
 "These projects have some timesheet entries referencing them. Before removing "
 "these projects, you have to remove these timesheet entries."
@@ -1139,8 +1205,13 @@ msgstr "هذا المشغل %s غير مدعوم في طريقة البحث هذ
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This project has some timesheet entries referencing it. Before removing this"
 " project, you have to remove these timesheet entries."
+=======
+"This project has some timesheet entries referencing it. Before removing this "
+"project, you have to remove these timesheet entries."
+>>>>>>> upstream/18.0
 =======
 "This project has some timesheet entries referencing it. Before removing this "
 "project, you have to remove these timesheet entries."
@@ -1178,11 +1249,14 @@ msgid ""
 "This will set the unit of measure used in projects and tasks.\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If you use the timesheet linked to projects, don't forget to setup the right unit of measure in your employees."
 msgstr ""
 "سيقوم هذا بتعيين وحدة القياس المستخدمة في المشاريع والمهام.\n"
 "إذا استخدمت الجداول الزمنية المرتبطة بالمشاريع، لا تنس ضبط وحدة القياس الصحيحة لموظفيك. "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "If you use the timesheet linked to projects, don't forget to setup the right "
@@ -1192,6 +1266,9 @@ msgstr ""
 "إذا استخدمت الجداول الزمنية المرتبطة بالمشاريع، لا تنس ضبط وحدة القياس "
 "الصحيحة لموظفيك. "
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1425,8 +1502,12 @@ msgstr "لا يمكن أن يتم إنشاء الجداول الزمنية في 
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Timesheets must be created with an active employee in the selected "
 "companies."
+=======
+"Timesheets must be created with an active employee in the selected companies."
+>>>>>>> upstream/18.0
 =======
 "Timesheets must be created with an active employee in the selected companies."
 >>>>>>> upstream/18.0
@@ -1513,8 +1594,13 @@ msgstr "الإجمالي:"
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Track your working hours by projects every day and invoice this time to your"
 " customers."
+=======
+"Track your working hours by projects every day and invoice this time to your "
+"customers."
+>>>>>>> upstream/18.0
 =======
 "Track your working hours by projects every day and invoice this time to your "
 "customers."
@@ -1543,7 +1629,12 @@ msgid ""
 "\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Make sure to use the right format and order e.g. Improve the configuration screen 5h #feature #v16 @Mitchell !"
+=======
+"        Make sure to use the right format and order e.g. Improve the "
+"configuration screen 5h #feature #v16 @Mitchell !"
+>>>>>>> upstream/18.0
 =======
 "        Make sure to use the right format and order e.g. Improve the "
 "configuration screen 5h #feature #v16 @Mitchell !"
@@ -1562,7 +1653,12 @@ msgstr ""
 "\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        احرص على استخدام الصياغة والترتيب الصحيحين مثال: قم بتحسين شاشة التهيئة 5h #feature #v16 @Mitchell !"
+=======
+"        احرص على استخدام الصياغة والترتيب الصحيحين مثال: قم بتحسين شاشة "
+"التهيئة 5h #feature #v16 @Mitchell !"
+>>>>>>> upstream/18.0
 =======
 "        احرص على استخدام الصياغة والترتيب الصحيحين مثال: قم بتحسين شاشة "
 "التهيئة 5h #feature #v16 @Mitchell !"
@@ -1599,12 +1695,15 @@ msgid ""
 "You can register and track your workings hours by project every\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    day. Every time spent on a project will become a cost and can be re-invoiced to\n"
 "                    customers if required."
 msgstr ""
 "يمكنك تسجيل وتتبع ساعات عمليك حسب المشروع كل\n"
 "                   يوم. كل الوقت التي تقضيه في مشروع ماسيصبح تكلفة ويمكن إعادة فوترته إلى \n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "                    day. Every time spent on a project will become a cost "
@@ -1615,6 +1714,9 @@ msgstr ""
 "                   يوم. كل الوقت التي تقضيه في مشروع ماسيصبح تكلفة ويمكن "
 "إعادة فوترته إلى \n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1637,12 +1739,15 @@ msgstr "لا يمكنك حذف موظفين لهم جداول زمنية. "
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot log timesheets on this project since it is linked to an inactive analytic account.<br/>\n"
 "                            Please switch to another account, or reactivate the current one to timesheet on the project."
 msgstr ""
 "لا يمكنك تسجيل الجداول الزمنية في هذا المشروع حيث أنه مرتبط بحساب تحليلي غير نشط.<br/>\n"
 "                            يرجى التبديل إلى حساب آخر أو إعادة تنشيط الحساب الحالي لتسجيل الجداول الزمنية في المشروع. "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "You cannot log timesheets on this project since it is linked to an inactive "
@@ -1655,6 +1760,9 @@ msgstr ""
 "                            يرجى التبديل إلى حساب آخر أو إعادة تنشيط الحساب "
 "الحالي لتسجيل الجداول الزمنية في المشروع. "
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1663,6 +1771,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.view_task_form2_inherited
 msgid ""
 "You cannot log timesheets on this project since it is linked to an inactive "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "analytic account.<br/> Please change this account, or reactivate the current"
@@ -1674,6 +1783,8 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "analytic account.<br/> Please change this account, or reactivate the current "
 "one to timesheet on the project."
 msgstr ""
@@ -1681,6 +1792,9 @@ msgstr ""
 "نشط <br/>. يرجى تغيير هذا الحساب أو إعادة تنشيط الحساب الحالي لتسجيل الجداول "
 "الزمنية في المشروع. "
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1707,11 +1821,14 @@ msgid ""
 "on\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <span class=\"fw-bold text-dark\"> Sub-tasks</span>)"
 msgstr ""
 "في\n"
 "                            <span class=\"fw-bold text-dark\"> المهام الفرعية</span>) "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "                            <span class=\"fw-bold text-dark\"> Sub-tasks</"
@@ -1721,6 +1838,9 @@ msgstr ""
 "                            <span class=\"fw-bold text-dark\"> المهام "
 "الفرعية</span>) "
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1734,7 +1854,12 @@ msgstr ""
 "في\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <span class=\"fw-bold text-dark\"> المهام الفرعية</span>) "
+=======
+"                        <span class=\"fw-bold text-dark\"> المهام الفرعية</"
+"span>) "
+>>>>>>> upstream/18.0
 =======
 "                        <span class=\"fw-bold text-dark\"> المهام الفرعية</"
 "span>) "

@@ -174,11 +174,14 @@ export class ChatBubble extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             () => {
                 this.state.bouncing = this.thread.importantCounter ? true : this.state.bouncing;
             },
             () => [this.thread.importantCounter]
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -603,6 +606,9 @@ export class ChatBubble extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

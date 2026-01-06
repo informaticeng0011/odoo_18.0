@@ -3,12 +3,15 @@
 # 	* payment_authorize
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Fernanda Alvarez, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #
@@ -17,6 +20,9 @@
 # Fernanda Alvarez, 2024
 #
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24,6 +30,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
@@ -38,6 +45,8 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Fernanda Alvarez, 2024\n"
@@ -50,6 +59,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
 "1 : 2;\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -57,6 +69,7 @@ msgstr ""
 #. module: payment_authorize
 #: model_terms:ir.ui.view,arch_db:payment_authorize.inline_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "<select id=\"o_authorize_account_type\" required=\"\" class=\"form-select\">\n"
@@ -70,6 +83,8 @@ msgstr ""
 "                        <option value=\"savings\">Ahorros personales</option>\n"
 "                        <option value=\"businessChecking\">Cheques de la empresa</option>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "<select id=\"o_authorize_account_type\" required=\"\" class=\"form-"
@@ -90,6 +105,9 @@ msgstr ""
 "                        <option value=\"businessChecking\">Cheques de la "
 "empresa</option>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -179,8 +197,13 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "No fue posible obtener los detalles de la transacción. (Código de error: "
 "%(error_code)s; detalles del error: %(error_message)s) "
+=======
+"No fue posible obtener los detalles de la transacción. (Código de error: %"
+"(error_code)s; detalles del error: %(error_message)s) "
+>>>>>>> upstream/18.0
 =======
 "No fue posible obtener los detalles de la transacción. (Código de error: %"
 "(error_code)s; detalles del error: %(error_message)s) "
@@ -263,7 +286,12 @@ msgstr "Error al procesar el pago"
 #: code:addons/payment_authorize/models/payment_transaction.py:0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Received data with status code \"%(status)s\" and error code \"%(error)s\""
+=======
+msgid ""
+"Received data with status code \"%(status)s\" and error code \"%(error)s\""
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "Received data with status code \"%(status)s\" and error code \"%(error)s\""
@@ -315,8 +343,13 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "La transacción no está en un estado en el que se pueda reembolsar. (Estado: "
 "%(status)s, detalles: %(message)s)"
+=======
+"La transacción no está en un estado en el que se pueda reembolsar. (Estado: %"
+"(status)s, detalles: %(message)s)"
+>>>>>>> upstream/18.0
 =======
 "La transacción no está en un estado en el que se pueda reembolsar. (Estado: %"
 "(status)s, detalles: %(message)s)"
@@ -340,8 +373,13 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "La referencia única para la combinación de contacto y token en el backend de"
 " Authorize.Net."
+=======
+"La referencia única para la combinación de contacto y token en el backend de "
+"Authorize.Net."
+>>>>>>> upstream/18.0
 =======
 "La referencia única para la combinación de contacto y token en el backend de "
 "Authorize.Net."

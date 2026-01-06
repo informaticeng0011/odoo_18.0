@@ -3,6 +3,7 @@
 # 	* pos_adyen
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -471,12 +472,17 @@
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Fernanda Alvarez, 2025
 #
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -484,6 +490,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
@@ -958,6 +965,8 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Fernanda Alvarez, 2025\n"
@@ -970,6 +979,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
 "1 : 2;\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1136,7 +1148,12 @@ msgid "Authentication failed. Please check your Adyen credentials."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "La autenticación falló. Revise sus credenciales de Adyen."
+=======
+msgstr ""
+"Ocurrió un error con la autenticación. Revisa tus credenciales de Adyen."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Ocurrió un error con la autenticación. Revisa tus credenciales de Adyen."
@@ -1725,7 +1742,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ocurrió un error al cancelar el pago. Cancélelo manualmente desde la "
+=======
+"Ocurrió un error al cancelar el pago. Cancélalo de forma manual desde la "
+>>>>>>> upstream/18.0
 =======
 "Ocurrió un error al cancelar el pago. Cancélalo de forma manual desde la "
 >>>>>>> upstream/18.0
@@ -2196,7 +2217,11 @@ msgid "Cannot process transactions with negative amount."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "No se puede procesar transacciones con una cantidad negativa."
+=======
+msgstr "No es posible procesar transacciones con un importe negativo."
+>>>>>>> upstream/18.0
 =======
 msgstr "No es posible procesar transacciones con un importe negativo."
 >>>>>>> upstream/18.0
@@ -2674,8 +2699,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "No se pudo conectar al servidor de Odoo, revise su conexión a internet e "
 "intente de nuevo."
+=======
+"No fue posible conectarnos al servidor de Odoo. Revisa tu conexión a "
+"internet y vuelve a intentarlo."
+>>>>>>> upstream/18.0
 =======
 "No fue posible conectarnos al servidor de Odoo. Revisa tu conexión a "
 "internet y vuelve a intentarlo."
@@ -3280,8 +3310,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Configure un producto de propina para el PdV %s para admitir propinas con "
 "Adyen."
+=======
+"Configura un producto de propina para el PdV %s que te permita aceptar "
+"propinas con Adyen."
+>>>>>>> upstream/18.0
 =======
 "Configura un producto de propina para el PdV %s que te permita aceptar "
 "propinas con Adyen."
@@ -3881,7 +3916,11 @@ msgid "Run transactions in the test environment."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ejecute transacciones en el entorno de prueba."
+=======
+msgstr "Ejecuta transacciones en el entorno de prueba."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ejecuta transacciones en el entorno de prueba."
 >>>>>>> upstream/18.0
@@ -4354,8 +4393,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "La terminal %(terminal)s ya se utiliza en la empresa %(company)s en el "
 "método de pago %(payment_method)s."
+=======
+"La empresa %(company)s con el método de pago %(payment_method)s ya utiliza "
+"la terminal %(terminal)s."
+>>>>>>> upstream/18.0
 =======
 "La empresa %(company)s con el método de pago %(payment_method)s ya utiliza "
 "la terminal %(terminal)s."
@@ -4944,8 +4988,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "La terminal %(terminal)s ya se utiliza en el método de pago "
 "%(payment_method)s."
+=======
+"El método de pago %(payment_method)s ya utiliza la terminal %(terminal)s."
+>>>>>>> upstream/18.0
 =======
 "El método de pago %(payment_method)s ya utiliza la terminal %(terminal)s."
 >>>>>>> upstream/18.0
@@ -5417,8 +5465,12 @@ msgid "This URL needs to be pasted on Adyen's portal terminal settings."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Debe pegar esta URL en los ajustes de la terminal del portal de Adyen."
+=======
+msgstr "Pega esta URL en los ajustes de la terminal en el portal de Adyen."
+>>>>>>> upstream/18.0
 =======
 msgstr "Pega esta URL en los ajustes de la terminal en el portal de Adyen."
 >>>>>>> upstream/18.0
@@ -5771,6 +5823,7 @@ msgstr "Pega esta URL en los ajustes de la terminal en el portal de Adyen."
 #. module: pos_adyen
 #: model:ir.model.fields,help:pos_adyen.field_pos_payment_method__adyen_api_key
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "Used when connecting to Adyen: https://docs.adyen.com/user-management/how-"
@@ -6351,12 +6404,17 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Used when connecting to Adyen: https://docs.adyen.com/user-management/how-to-"
 "get-the-api-key/#description"
 msgstr ""
 "Utilizada al conectarse a Adyen: https://docs.adyen.com/user-management/how-"
 "to-get-the-api-key/#description"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

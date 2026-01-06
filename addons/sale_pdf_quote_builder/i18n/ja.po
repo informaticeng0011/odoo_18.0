@@ -3,7 +3,11 @@
 # 	* sale_pdf_quote_builder
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -14,6 +18,7 @@
 # Tiffany Chang, 2024
 # Noma Yuki, 2024
 # Wil Odoo, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -770,10 +775,15 @@
 # Junko Augias, 2025
 #
 >>>>>>> upstream/18.0
+=======
+# Junko Augias, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
@@ -1531,6 +1541,8 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Junko Augias, 2025\n"
@@ -1540,6 +1552,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1570,10 +1585,13 @@ msgstr "<span>ドキュメントタイプ:</span>"
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A form field set as used in product documents can't be linked to a quotation"
 " document."
 msgstr "プロダクトドキュメントで使用するように設定されたフォームフィールドは、見積ドキュメントにリンクできません。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "A form field set as used in product documents can't be linked to a quotation "
@@ -1582,6 +1600,9 @@ msgstr ""
 "プロダクトドキュメントで使用するように設定されたフォームフィールドは、見積ド"
 "キュメントにリンクできません。"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1592,10 +1613,13 @@ msgstr ""
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A form field set as used in quotation documents can't be linked to a product"
 " document."
 msgstr "見積で使用されるように設定されたフォームフィールドは、プロダクトドキュメントにリンクできません。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "A form field set as used in quotation documents can't be linked to a product "
@@ -1604,6 +1628,9 @@ msgstr ""
 "見積で使用されるように設定されたフォームフィールドは、プロダクトドキュメント"
 "にリンクできません。"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1616,6 +1643,7 @@ msgstr "アクセストークン"
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__active
 msgid "Active"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2369,6 +2397,9 @@ msgstr "アクティブ"
 =======
 msgstr "アクティブ"
 >>>>>>> upstream/18.0
+=======
+msgstr "アクティブ"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_search_view
@@ -2387,6 +2418,7 @@ msgid ""
 "Allows you to share the document with your customers within a sale.\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Leave it empty if you don't want to share this document with sales customer.\n"
 "On quote: the document will be sent to and accessible by customers at any time.\n"
 "e.g. this option can be useful to share Product description files.\n"
@@ -2394,6 +2426,8 @@ msgid ""
 "e.g. this option can be useful to share User Manual or digital content bought on ecommerce. \n"
 "Inside quote: The document will be included in the pdf of the quotation and sale order between the header pages and the quote table. "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "Leave it empty if you don't want to share this document with sales "
@@ -2408,6 +2442,9 @@ msgid ""
 "Inside quote: The document will be included in the pdf of the quotation and "
 "sale order between the header pages and the quote table. "
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2419,7 +2456,12 @@ msgstr ""
 "オーダ確認時: ドキュメントは顧客に送信され、顧客はアクセスできます。\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "例: このオプションはユーザマニュアルやeコマースで購入したデジタルコンテンツを共有するのに便利です。\n"
+=======
+"例: このオプションはユーザマニュアルやeコマースで購入したデジタルコンテンツを"
+"共有するのに便利です。\n"
+>>>>>>> upstream/18.0
 =======
 "例: このオプションはユーザマニュアルやeコマースで購入したデジタルコンテンツを"
 "共有するのに便利です。\n"
@@ -2599,7 +2641,13 @@ msgstr "フォームフィールドを含む"
 msgid "Form field name must be unique for a given document type."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "フォームフィールド名は、指定されたドキュメントタイプに対して一意でなければなりません。"
+=======
+msgstr ""
+"フォームフィールド名は、指定されたドキュメントタイプに対して一意でなければな"
+"りません。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "フォームフィールド名は、指定されたドキュメントタイプに対して一意でなければな"
@@ -2664,7 +2712,13 @@ msgid ""
 "removing it."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "チェックを外すと、ヘッダーまたはフッターを削除せずに非表示にすることができます。"
+=======
+msgstr ""
+"チェックを外すと、ヘッダーまたはフッターを削除せずに非表示にすることができま"
+"す。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "チェックを外すと、ヘッダーまたはフッターを削除せずに非表示にすることができま"
@@ -2709,7 +2763,13 @@ msgid ""
 "footer can not start with \"sol_id_\"."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "無効なフィールド名 %(field_name)s。ヘッダまたはフッタのフォームフィールド名は \"sol_id_\" で始まることはできません。"
+=======
+msgstr ""
+"無効なフィールド名 %(field_name)s。ヘッダまたはフッタのフォームフィールド名"
+"は \"sol_id_\" で始まることはできません。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "無効なフィールド名 %(field_name)s。ヘッダまたはフッタのフォームフィールド名"
@@ -2729,7 +2789,13 @@ msgid ""
 "alphanumerics, hyphens or underscores."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "無効なフィールド名 %(field_name)s。 英数字、ハイフン、アンダースコアのみが可能です。"
+=======
+msgstr ""
+"無効なフィールド名 %(field_name)s。 英数字、ハイフン、アンダースコアのみが可"
+"能です。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "無効なフィールド名 %(field_name)s。 英数字、ハイフン、アンダースコアのみが可"
@@ -2749,7 +2815,12 @@ msgid ""
 "underscores or points."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "無効なパス%(path)s。 英数字、ハイフン、アンダースコアまたは点のみ可能です。"
+=======
+msgstr ""
+"無効なパス%(path)s。 英数字、ハイフン、アンダースコアまたは点のみ可能です。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "無効なパス%(path)s。 英数字、ハイフン、アンダースコアまたは点のみ可能です。"
@@ -2778,7 +2849,12 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "このpdfを見積書内で処理することができないようです。暗号化されているか、弊社がサポートしていない形式でエンコードされているかのどちらかです。"
+=======
+"このpdfを見積書内で処理することができないようです。暗号化されているか、弊社が"
+"サポートしていない形式でエンコードされているかのどちらかです。"
+>>>>>>> upstream/18.0
 =======
 "このpdfを見積書内で処理することができないようです。暗号化されているか、弊社が"
 "サポートしていない形式でエンコードされているかのどちらかです。"
@@ -2888,6 +2964,7 @@ msgstr "プロダクトドキュメント"
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Provide header pages and footer pages to compose an attractive quotation with more information\n"
 "                        about your company, your products and you services. <br/>\n"
 "                        The pdf of your quotes will be built by putting together header pages, product descriptions,\n"
@@ -2900,6 +2977,8 @@ msgstr ""
 "                        プロダクト説明、見積詳細、そしてフッターページで構成されます。<br/>\n"
 "                        空の場合は、会社設定で定義されたものを使用します。 <br/>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "Provide header pages and footer pages to compose an attractive quotation "
@@ -2922,6 +3001,9 @@ msgstr ""
 "                        空の場合は、会社設定で定義されたものを使用します。 "
 "<br/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3003,7 +3085,12 @@ msgstr "販売 : 以下で表示"
 msgid "Sale Pdf Quote Builder: assign form fields to documents post upgrade"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "販売PDF見積ビルダ: アップグレード後のドキュメントにフォームフィールドを割当"
+=======
+msgstr ""
+"販売PDF見積ビルダ: アップグレード後のドキュメントにフォームフィールドを割当"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "販売PDF見積ビルダ: アップグレード後のドキュメントにフォームフィールドを割当"
@@ -3106,7 +3193,13 @@ msgstr "ウェブサイト"
 msgid "When attached inside a quote, the document must be a file, not a URL."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "引用の中に添付する場合、ドキュメントはURLではなくファイルでなければなりません。"
+=======
+msgstr ""
+"引用の中に添付する場合、ドキュメントはURLではなくファイルでなければなりませ"
+"ん。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "引用の中に添付する場合、ドキュメントはURLではなくファイルでなければなりませ"
@@ -3131,7 +3224,13 @@ msgid ""
 "link to your file."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "利用中のコンピュータから、もしくはインターネットのリンクをコピーペーストでファイルをアップロードすることができます。"
+=======
+msgstr ""
+"利用中のコンピュータから、もしくはインターネットのリンクをコピーペーストで"
+"ファイルをアップロードすることができます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "利用中のコンピュータから、もしくはインターネットのリンクをコピーペーストで"

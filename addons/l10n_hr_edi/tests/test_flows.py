@@ -99,6 +99,11 @@ class TestHrEdiFlowsMocked(TestL10nHrEdiCommon, TestAccountMoveSendCommon, Patch
         # 1. Create invoice
 
         invoice = self.env['account.move'].create({
+<<<<<<< HEAD
+=======
+            'invoice_date': '2025-01-01',
+            'date': '2025-01-01',
+>>>>>>> upstream/18.0
             'move_type': 'out_invoice',
             'partner_id': self.partner_a.id,
             'invoice_line_ids': [
@@ -280,7 +285,10 @@ class TestHrEdiFlowsMocked(TestL10nHrEdiCommon, TestAccountMoveSendCommon, Patch
         self.assertRecordValues(fetched_invoice, [{
             'ref': '2/1/1',
             'payment_reference': 'HR00 211',
+<<<<<<< HEAD
             'date': fields.Date.today(),
+=======
+>>>>>>> upstream/18.0
             'invoice_date': fields.Date.from_string('2025-12-24'),
             'invoice_date_due': fields.Date.from_string('2025-12-24'),
             'amount_untaxed': 47.0,

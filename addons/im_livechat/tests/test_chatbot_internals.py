@@ -197,6 +197,12 @@ class ChatbotCase(chatbot_common.ChatbotCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.env["bus.presence"]._update_presence(
+            inactivity_period=0, identity_field="guest_id", identity_value=guest_member.guest_id.id
+        )
+>>>>>>> upstream/18.0
 =======
         self.env["bus.presence"]._update_presence(
             inactivity_period=0, identity_field="guest_id", identity_value=guest_member.guest_id.id
@@ -724,7 +730,10 @@ class ChatbotCase(chatbot_common.ChatbotCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1106,6 +1115,9 @@ class ChatbotCase(chatbot_common.ChatbotCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

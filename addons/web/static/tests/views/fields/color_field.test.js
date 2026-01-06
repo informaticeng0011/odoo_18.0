@@ -7,6 +7,10 @@ import {
     models,
     mountView,
     onRpc,
+<<<<<<< HEAD
+=======
+    stepAllNetworkCalls,
+>>>>>>> upstream/18.0
 } from "@web/../tests/web_test_helpers";
 
 class Color extends models.Model {
@@ -27,7 +31,11 @@ class Color extends models.Model {
         form: /* xml */ `
             <form>
                 <group>
+<<<<<<< HEAD
                     <field name="hex_color" widget="color" />
+=======
+                    <field name="hex_color" widget="color"/>
+>>>>>>> upstream/18.0
                 </group>
             </form>`,
         list: /* xml */ `
@@ -137,3 +145,73 @@ test("color field change via anoter field's onchange", async () => {
     expect(".o_field_color input").toHaveValue("#fefefe");
     expect(".o_field_color div").toHaveStyle({ backgroundColor: "rgb(254, 254, 254)" });
 });
+<<<<<<< HEAD
+=======
+
+test.tags("desktop");
+test(`color field in form view => no automatic save by default`, async () => {
+    stepAllNetworkCalls();
+    await mountView({
+        resModel: "color",
+        type: "form",
+    });
+
+    await contains(`input[type=color]`, { visible: false }).edit("#fefefe");
+
+    expect.verifySteps([
+        "/web/webclient/translations",
+        "/web/webclient/load_menus",
+        "get_views",
+        "onchange",
+    ]);
+});
+
+test.tags("desktop");
+test(`color field in list view => automatic save by default`, async () => {
+    stepAllNetworkCalls();
+    await mountView({
+        resModel: "color",
+        type: "list",
+        arch: `
+            <list editable="bottom">
+                <field name="text"/>
+                <field name="hex_color" widget="color"/>
+            </list>`,
+    });
+
+    await contains(`.o_data_row:eq(0) input[type=color]`, { visible: false }).edit("#fefefe");
+
+    expect.verifySteps([
+        "/web/webclient/translations",
+        "/web/webclient/load_menus",
+        "get_views",
+        "web_search_read",
+        "has_group",
+        "web_save",
+    ]);
+});
+
+test.tags("desktop");
+test(`color field in list view => no save if autosave is false`, async () => {
+    stepAllNetworkCalls();
+    await mountView({
+        resModel: "color",
+        type: "list",
+        arch: `
+            <list editable="bottom">
+                <field name="text"/>
+                <field name="hex_color" widget="color" options="{'autosave': 0}"/>
+            </list>`,
+    });
+
+    await contains(`.o_data_row:eq(0) input[type=color]`, { visible: false }).edit("#fefefe");
+
+    expect.verifySteps([
+        "/web/webclient/translations",
+        "/web/webclient/load_menus",
+        "get_views",
+        "web_search_read",
+        "has_group",
+    ]);
+});
+>>>>>>> upstream/18.0

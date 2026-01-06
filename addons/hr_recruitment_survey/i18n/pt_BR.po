@@ -3,12 +3,15 @@
 # 	* hr_recruitment_survey
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Maitê Dietze, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #
@@ -17,6 +20,9 @@
 # Maitê Dietze, 2025
 #
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24,6 +30,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
@@ -38,6 +45,8 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Maitê Dietze, 2025\n"
@@ -50,6 +59,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
 "1000000 == 0 ? 1 : 2;\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -61,6 +73,7 @@ msgid ""
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Dear <t t-out=\"object.partner_id.name or 'applicant'\">[applicant name]</t><br/><br/>\n"
 "        <t>\n"
 "            You've progressed through the recruitment process and we would like you to answer some questions.\n"
@@ -68,6 +81,8 @@ msgid ""
 "        </p><div style=\"margin: 16px 0px 16px 0px;\">\n"
 "            <a t-att-href=\"(object.get_start_url())\" style=\"background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "        Dear <t t-out=\"object.partner_id.name or 'applicant'\">[applicant "
@@ -81,6 +96,9 @@ msgid ""
 "color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: "
 "#fff; border-radius: 5px; font-size:13px;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -92,11 +110,14 @@ msgid ""
 "        <t t-if=\"object.deadline\">\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Please answer the interview for <t t-out=\"format_date(object.deadline)\">[deadline date]</t>.<br/><br/>\n"
 "        </t>\n"
 "        <t>\n"
 "            We wish you good luck! Thank you in advance for your participation.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "            Please answer the interview for <t t-"
@@ -106,6 +127,9 @@ msgid ""
 "            We wish you good luck! Thank you in advance for your "
 "participation.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -118,6 +142,7 @@ msgstr ""
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Olá, <t t-out=\"object.partner_id.name or 'applicant'\">[nome do candidato]!</t><br/><br/>\n"
 "        <t>\n"
 "            Ficamos felizes em anunciar que você avançou no processo de recrutamento e gostaríamos que você respondesse algumas perguntas.\n"
@@ -125,6 +150,8 @@ msgstr ""
 "        </p><div style=\"margin: 16px 0px 16px 0px;\">\n"
 "            <a t-att-href=\"(object.get_start_url())\" style=\"background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "        Olá, <t t-out=\"object.partner_id.name or 'applicant'\">[nome do "
@@ -138,6 +165,9 @@ msgstr ""
 "color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: "
 "#fff; border-radius: 5px; font-size:13px;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -149,7 +179,12 @@ msgstr ""
 "        <t t-if=\"object.deadline\">\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Responda essa entrevista até <t t-out=\"format_date(object.deadline)\">[prazo]</t>.<br/><br/>\n"
+=======
+"            Responda essa entrevista até <t t-"
+"out=\"format_date(object.deadline)\">[prazo]</t>.<br/><br/>\n"
+>>>>>>> upstream/18.0
 =======
 "            Responda essa entrevista até <t t-"
 "out=\"format_date(object.deadline)\">[prazo]</t>.<br/><br/>\n"
@@ -213,6 +248,7 @@ msgstr "Candidato: entrevista"
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Choose an interview form for this job position and you will be able to "
 "print/answer this interview from all applicants who apply for this job"
 msgstr ""
@@ -221,12 +257,17 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Choose an interview form for this job position and you will be able to print/"
 "answer this interview from all applicants who apply for this job"
 msgstr ""
 "Escolha um formulário de entrevista para esta vaga de trabalho e você poderá "
 "imprimir/responder a esta entrevista de todos os candidatos que se "
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -351,11 +392,14 @@ msgstr ""
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Please fill information about you: who you are, what are your education, experience, and activities.\n"
 "    It will help us managing your application."
 msgstr ""
 "Preencha informações sobre você: quem você é, qual é sua formação, experiência e atividades.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "Please fill information about you: who you are, what are your education, "
@@ -365,6 +409,9 @@ msgstr ""
 "Preencha informações sobre você: quem você é, qual é sua formação, "
 "experiência e atividades.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -451,8 +498,13 @@ msgid "Thank you for answering this survey. We will come back to you soon."
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Agradecemos por responder a esta pesquisa. Entraremos em contato com você em"
 " breve."
+=======
+"Agradecemos por responder a esta pesquisa. Entraremos em contato com você em "
+"breve."
+>>>>>>> upstream/18.0
 =======
 "Agradecemos por responder a esta pesquisa. Entraremos em contato com você em "
 "breve."
@@ -514,7 +566,12 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Você pode criar pesquisas usadas para recrutamentos. Projete facilmente sua entrevista,\n"
+=======
+"Você pode criar pesquisas usadas para recrutamentos. Projete facilmente sua "
+"entrevista,\n"
+>>>>>>> upstream/18.0
 =======
 "Você pode criar pesquisas usadas para recrutamentos. Projete facilmente sua "
 "entrevista,\n"

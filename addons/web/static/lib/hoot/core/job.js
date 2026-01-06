@@ -150,6 +150,10 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    Symbol,
+>>>>>>> upstream/18.0
 =======
     Symbol,
 >>>>>>> upstream/18.0
@@ -543,6 +547,7 @@ const {
 /**
  * @param {JobConfig} config
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1164,6 +1169,8 @@ function validateConfig(config) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 function validateConfig(config) {
     for (const [key, value] of $entries(config)) {
         if (!isOfType(value, CONFIG_TAG_SCHEMA[key])) {
@@ -1273,6 +1280,9 @@ function validateConfig(config) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1478,6 +1488,7 @@ function validateConfig(config) {
 /** @type {Record<keyof JobConfig, import("../hoot_utils").ArgumentType>} */
 const CONFIG_TAG_SCHEMA = {
     debug: "boolean",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2039,6 +2050,9 @@ const CONFIG_TAG_SCHEMA = {
 =======
     multi: "number",
 >>>>>>> upstream/18.0
+=======
+    multi: "number",
+>>>>>>> upstream/18.0
     only: "boolean",
     skip: "boolean",
     timeout: "number",
@@ -2173,6 +2187,11 @@ const CONFIG_TAG_SCHEMA = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+const S_MINIMIZED = Symbol("minimized");
+
+>>>>>>> upstream/18.0
 =======
 const S_MINIMIZED = Symbol("minimized");
 
@@ -2826,7 +2845,10 @@ export class Job {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3212,6 +3234,9 @@ export class Job {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3646,7 +3671,10 @@ export class Job {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4032,6 +4060,9 @@ export class Job {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

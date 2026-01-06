@@ -183,9 +183,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <th name="th_sm_product">Product</th>
                                 <th name="th_sm_ordered" class="text-end">Ordered</th>
                                 <th name="th_sm_quantity" class="text-end">Delivered</th>
+=======
+                                <th name="th_sm_product"><strong>Product</strong></th>
+                                <th name="th_sm_ordered" class="text-end"><strong>Ordered</strong></th>
+                                <th name="th_sm_quantity" class="text-end"><strong>Delivered</strong></th>
+>>>>>>> upstream/18.0
 =======
                                 <th name="th_sm_product"><strong>Product</strong></th>
                                 <th name="th_sm_ordered" class="text-end"><strong>Ordered</strong></th>
@@ -936,8 +942,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <td class="text-end">
                                     <span t-field="move.product_uom_qty">3.00</span>
+=======
+                                <td class="o_td_quantity text-end">
+                                    <span t-field="move.product_uom_qty" class="text-nowrap">3.00</span>
+>>>>>>> upstream/18.0
 =======
                                 <td class="o_td_quantity text-end">
                                     <span t-field="move.product_uom_qty" class="text-nowrap">3.00</span>
@@ -1588,8 +1599,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <td class="text-end">
                                     <span t-field="move.quantity">3.00</span>
+=======
+                                <td class="o_td_quantity text-end">
+                                    <span t-field="move.quantity" class="text-nowrap">3.00</span>
+>>>>>>> upstream/18.0
 =======
                                 <td class="o_td_quantity text-end">
                                     <span t-field="move.quantity" class="text-nowrap">3.00</span>
@@ -2135,7 +2151,11 @@
                                 <t t-set="packages" t-value="o.move_line_ids.mapped('result_package_id')"/>
                                 <t t-foreach="packages" t-as="package">
                                     <t t-call="stock.stock_report_delivery_package_section_line"/>
+<<<<<<< HEAD
                                     <t t-set="package_move_lines" t-value="o.move_line_ids.filtered(lambda l: l.result_package_id == package)"/>
+=======
+                                    <t t-set="package_move_lines" t-value="o.move_ids.move_line_ids.filtered(lambda l: l.result_package_id == package)"/>
+>>>>>>> upstream/18.0
                                     <!-- If printing lots/serial numbers => keep products in original lines -->
                                     <t t-if="has_serial_number">
                                         <tr t-foreach="package_move_lines" t-as="move_line">
@@ -2149,8 +2169,13 @@
                                     </t>
                                 </t>
                                 <!-- Make sure we do another section for package-less products if they exist -->
+<<<<<<< HEAD
                                 <t t-set="move_lines" t-value="o.move_line_ids.filtered(lambda l: not l.result_package_id)"/>
                                 <t t-set="aggregated_lines" t-value="o.move_line_ids._get_aggregated_product_quantities(except_package=True)"/>
+=======
+                                <t t-set="move_lines" t-value="o.move_ids.move_line_ids.filtered(lambda l: not l.result_package_id)"/>
+                                <t t-set="aggregated_lines" t-value="o.move_ids.move_line_ids._get_aggregated_product_quantities(except_package=True)"/>
+>>>>>>> upstream/18.0
                                 <t t-if="move_lines or aggregated_lines" name="no_package_move_lines">
                                     <t t-call="stock.stock_report_delivery_no_package_section_line" name="no_package_section"/>
                                     <t t-if="has_serial_number">
@@ -2167,13 +2192,21 @@
                             <t t-else="">
                                 <!-- If printing lots/serial numbers => keep products in original lines -->
                                 <t t-if="has_serial_number">
+<<<<<<< HEAD
                                     <tr t-foreach="o.move_line_ids" t-as="move_line">
+=======
+                                    <tr t-foreach="o.move_ids.move_line_ids" t-as="move_line">
+>>>>>>> upstream/18.0
                                         <t t-call="stock.stock_report_delivery_has_serial_move_line"/>
                                     </tr>
                                 </t>
                                 <!-- If not printing lots/serial numbers => merge lines with same product -->
                                 <t t-else="" name="aggregated_move_lines">
+<<<<<<< HEAD
                                     <t t-set="aggregated_lines" t-value="o.move_line_ids._get_aggregated_product_quantities()"/>
+=======
+                                    <t t-set="aggregated_lines" t-value="o.move_ids.move_line_ids._get_aggregated_product_quantities()"/>
+>>>>>>> upstream/18.0
                                     <t t-call="stock.stock_report_delivery_aggregated_move_lines"/>
                                 </t>
                             </t>

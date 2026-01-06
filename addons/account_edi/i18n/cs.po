@@ -116,6 +116,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* account_edi
 # 
 # Translators:
@@ -123,6 +124,8 @@
 # Vojtěch Olšan, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -475,6 +478,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -710,6 +716,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
@@ -1068,6 +1075,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-09-09 06:58+0000\n"
 "Last-Translator: Vojtěch Olšan <vojtech.olsan@systee.cz>\n"
 "Language-Team: Czech <https://translate.odoo.com/projects/odoo-18/"
@@ -1194,6 +1204,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1546,7 +1559,11 @@ msgid "%(count)s Electronic invoicing error(s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(count)s Chyb elektronické fakturace"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(count)s Chyb elektronické fakturace"
 >>>>>>> upstream/18.0
@@ -2016,7 +2033,11 @@ msgid "%(count)s Electronic invoicing info(s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(count)s informací k elektronické fakturaci"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(count)s informací k elektronické fakturaci"
 >>>>>>> upstream/18.0
@@ -2486,7 +2507,11 @@ msgid "%(count)s Electronic invoicing warning(s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(count)s varování elektronické fakturace"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(count)s varování elektronické fakturace"
 >>>>>>> upstream/18.0
@@ -2861,8 +2886,12 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Opravdu chcete tuto fakturu zrušit, aniž byste čekali na zrušení dokladu "
 "EDI?"
+=======
+"Opravdu chcete tuto fakturu zrušit, aniž byste čekali na zrušení dokladu EDI?"
+>>>>>>> upstream/18.0
 =======
 "Opravdu chcete tuto fakturu zrušit, aniž byste čekali na zrušení dokladu EDI?"
 >>>>>>> upstream/18.0
@@ -2886,6 +2915,7 @@ msgstr "Úroveň chybové hlášky"
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Blocks the current operation of the document depending on the error severity:\n"
 "  * Info: the document is not blocked and everything is working as it should.\n"
 "  * Warning: there is an error that doesn't prevent the current Electronic Invoicing operation to succeed.\n"
@@ -2896,6 +2926,8 @@ msgstr ""
 "  * Varování: vyskytla se chyba, která neblokuje dokončení současné operace digitální faktury.\n"
 "  * Chyba: vyskytla se chyba která blokuje dokončení současné operace digitální faktury."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "Blocks the current operation of the document depending on the error "
@@ -2915,6 +2947,9 @@ msgstr ""
 "  * Chyba: vyskytla se chyba která blokuje dokončení současné operace "
 "digitální faktury."
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3153,7 +3188,11 @@ msgid "Edi Show Cancel Button"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "EDI zobrazit  tlačítko zrušení"
+=======
+msgstr "EDI zobrazit tlačítko zrušení"
+>>>>>>> upstream/18.0
 =======
 msgstr "EDI zobrazit tlačítko zrušení"
 >>>>>>> upstream/18.0
@@ -3697,8 +3736,12 @@ msgstr "Faktura bude brzy odeslána na"
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The text of the last error that happened during Electronic Invoice "
 "operation."
+=======
+"The text of the last error that happened during Electronic Invoice operation."
+>>>>>>> upstream/18.0
 =======
 "The text of the last error that happened during Electronic Invoice operation."
 >>>>>>> upstream/18.0
@@ -3725,8 +3768,13 @@ msgstr "Tento dokument už je odesílán v jiném procesu."
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This invoice was canceled while the EDIs %s still had a pending cancellation"
 " request."
+=======
+"This invoice was canceled while the EDIs %s still had a pending cancellation "
+"request."
+>>>>>>> upstream/18.0
 =======
 "This invoice was canceled while the EDIs %s still had a pending cancellation "
 "request."
@@ -3761,8 +3809,13 @@ msgstr "Varování"
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can't edit the following journal entry %s because an electronic document"
 " has already been sent. Please use the 'Request EDI Cancellation' button "
+=======
+"You can't edit the following journal entry %s because an electronic document "
+"has already been sent. Please use the 'Request EDI Cancellation' button "
+>>>>>>> upstream/18.0
 =======
 "You can't edit the following journal entry %s because an electronic document "
 "has already been sent. Please use the 'Request EDI Cancellation' button "

@@ -3,12 +3,15 @@
 # 	* hr_timesheet
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Maitê Dietze, 2025
 # Wil Odoo, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #
@@ -17,6 +20,9 @@
 # Wil Odoo, 2025
 #
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24,6 +30,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
@@ -38,6 +45,8 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Odoo, 2025\n"
@@ -50,6 +59,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
 "1000000 == 0 ? 1 : 2;\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -107,8 +119,13 @@ msgstr "Planilha de horas de %(name)s"
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "'%(missing_plan_names)s' analytic plan(s) required on the project "
 "'%(project_name)s' linked to the timesheet."
+=======
+"'%(missing_plan_names)s' analytic plan(s) required on the project '%"
+"(project_name)s' linked to the timesheet."
+>>>>>>> upstream/18.0
 =======
 "'%(missing_plan_names)s' analytic plan(s) required on the project '%"
 "(project_name)s' linked to the timesheet."
@@ -165,9 +182,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.view_kanban_account_analytic_line
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-calendar me-1\" role=\"img\" aria-label=\"Date\" title=\"Date\"/>"
 msgstr "<i class=\"fa fa-calendar me-1\" role=\"img\" aria-label=\"Date\" title=\"Date\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid ""
@@ -177,6 +197,9 @@ msgstr ""
 "<i class=\"fa fa-calendar me-1\" role=\"img\" aria-label=\"Date\" "
 "title=\"Date\"/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -205,10 +228,13 @@ msgid ""
 "                        <span invisible=\"not has_active_employee\">\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            You can either archive these employees or first delete all of their timesheets.\n"
 "                        </span>\n"
 "                        <span invisible=\"has_active_employee\" groups=\"hr_timesheet.group_hr_timesheet_approver\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "                            You can either archive these employees or first "
@@ -217,6 +243,9 @@ msgid ""
 "                        <span invisible=\"has_active_employee\" "
 "groups=\"hr_timesheet.group_hr_timesheet_approver\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -230,6 +259,7 @@ msgstr ""
 "<span invisible=\"not has_timesheet\">\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        Você não pode excluir funcionários que têm planilhas de horas.\n"
 "                        <span invisible=\"not has_active_employee\">\n"
 "                             Você pode arquivar os funcionários ou primeiro excluir todas as planilhas de horas deles\n"
@@ -237,6 +267,8 @@ msgstr ""
 "                        <span invisible=\"has_active_employee\" groups=\"hr_timesheet.group_hr_timesheet_approver\">\n"
 "                            Exclua todas as planilhas de horas deles primeiro.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "                        Você não pode excluir funcionários que têm planilhas "
@@ -250,6 +282,9 @@ msgstr ""
 "                            Exclua todas as planilhas de horas deles "
 "primeiro.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -376,12 +411,15 @@ msgstr "Aplicabilidades do plano analítico"
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Analyze the projects and tasks on which your employees spend their time.<br>\n"
 "                Evaluate which part is billable and what costs it represents."
 msgstr ""
 "Analise os projetos e as tarefas em que seus funcionários despendem seu tempo.<br>\n"
 "                Avalie a parcela faturável e qual é o custo que ela representa."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "Analyze the projects and tasks on which your employees spend their time."
@@ -393,6 +431,9 @@ msgstr ""
 "                Avalie a parcela faturável e qual é o custo que ela "
 "representa."
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -514,8 +555,13 @@ msgid "Default project value for timesheet generated from time off type."
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Valor padrão do projeto para a folha de tempos gerada a partir do tipo tempo"
 " livre."
+=======
+"Valor padrão do projeto para a folha de tempos gerada a partir do tipo tempo "
+"livre."
+>>>>>>> upstream/18.0
 =======
 "Valor padrão do projeto para a folha de tempos gerada a partir do tipo tempo "
 "livre."
@@ -647,8 +693,12 @@ msgstr "Tempo extra"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.res_config_settings_view_form
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Generate timesheets for validated time off requests and public holidays"
+=======
+msgid "Generate timesheets for validated time off requests and public holidays"
+>>>>>>> upstream/18.0
 =======
 msgid "Generate timesheets for validated time off requests and public holidays"
 >>>>>>> upstream/18.0
@@ -926,8 +976,13 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Registre suas planilhas de horas em um instante pressionando Shift + a tecla"
 " de atalho correspondente para adicionar 15 min aos seus projetos."
+=======
+"Registre suas planilhas de horas em um instante pressionando Shift + a tecla "
+"de atalho correspondente para adicionar 15 min aos seus projetos."
+>>>>>>> upstream/18.0
 =======
 "Registre suas planilhas de horas em um instante pressionando Shift + a tecla "
 "de atalho correspondente para adicionar 15 min aos seus projetos."
@@ -1067,8 +1122,13 @@ msgstr "O projeto interno de uma empresa deve estar nessa empresa."
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The project, the task and the analytic accounts of the timesheet must belong"
 " to the same company."
+=======
+"The project, the task and the analytic accounts of the timesheet must belong "
+"to the same company."
+>>>>>>> upstream/18.0
 =======
 "The project, the task and the analytic accounts of the timesheet must belong "
 "to the same company."
@@ -1092,8 +1152,13 @@ msgstr "Não há planilhas de horas."
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "These projects have some timesheet entries referencing them. Before removing"
 " these projects, you have to remove these timesheet entries."
+=======
+"These projects have some timesheet entries referencing them. Before removing "
+"these projects, you have to remove these timesheet entries."
+>>>>>>> upstream/18.0
 =======
 "These projects have some timesheet entries referencing them. Before removing "
 "these projects, you have to remove these timesheet entries."
@@ -1153,6 +1218,7 @@ msgstr "O operador %s não é suportado nesse método de pesquisa."
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This project has some timesheet entries referencing it. Before removing this"
 " project, you have to remove these timesheet entries."
 msgstr ""
@@ -1161,12 +1227,17 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "This project has some timesheet entries referencing it. Before removing this "
 "project, you have to remove these timesheet entries."
 msgstr ""
 "Há entradas de planilha de horas referenciando este projeto. Antes de removê-"
 "lo, você deve remover as entradas de planilha de horas."
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1179,8 +1250,12 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Esta tarefa não pode ser privada pois há planilhas de horas vinculadas a "
 "ela."
+=======
+"Esta tarefa não pode ser privada pois há planilhas de horas vinculadas a ela."
+>>>>>>> upstream/18.0
 =======
 "Esta tarefa não pode ser privada pois há planilhas de horas vinculadas a ela."
 >>>>>>> upstream/18.0
@@ -1205,11 +1280,14 @@ msgid ""
 "This will set the unit of measure used in projects and tasks.\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If you use the timesheet linked to projects, don't forget to setup the right unit of measure in your employees."
 msgstr ""
 "Isto definirá a unidade de medida usada em projetos e tarefas.\n"
 "Se você usa planilhas de horas vinculadas a projetos, não se esqueça de configurar a unidade de medida certa em seus funcionários."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "If you use the timesheet linked to projects, don't forget to setup the right "
@@ -1219,6 +1297,9 @@ msgstr ""
 "Se você usa planilhas de horas vinculadas a projetos, não se esqueça de "
 "configurar a unidade de medida certa em seus funcionários."
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1453,8 +1534,12 @@ msgstr "Planilhas de horas não podem ser criadas em tarefas privadas."
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Timesheets must be created with an active employee in the selected "
 "companies."
+=======
+"Timesheets must be created with an active employee in the selected companies."
+>>>>>>> upstream/18.0
 =======
 "Timesheets must be created with an active employee in the selected companies."
 >>>>>>> upstream/18.0
@@ -1543,8 +1628,13 @@ msgstr "Total:"
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Track your working hours by projects every day and invoice this time to your"
 " customers."
+=======
+"Track your working hours by projects every day and invoice this time to your "
+"customers."
+>>>>>>> upstream/18.0
 =======
 "Track your working hours by projects every day and invoice this time to your "
 "customers."
@@ -1575,7 +1665,12 @@ msgid ""
 "\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Make sure to use the right format and order e.g. Improve the configuration screen 5h #feature #v16 @Mitchell !"
+=======
+"        Make sure to use the right format and order e.g. Improve the "
+"configuration screen 5h #feature #v16 @Mitchell !"
+>>>>>>> upstream/18.0
 =======
 "        Make sure to use the right format and order e.g. Improve the "
 "configuration screen 5h #feature #v16 @Mitchell !"
@@ -1594,7 +1689,12 @@ msgstr ""
 "\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Certifique-se de usar a ordem e o formato certo, por exemplo: Melhorar a tela de configuração 5h #feature #v16 @Mitchell !"
+=======
+"        Certifique-se de usar a ordem e o formato certo, por exemplo: "
+"Melhorar a tela de configuração 5h #feature #v16 @Mitchell !"
+>>>>>>> upstream/18.0
 =======
 "        Certifique-se de usar a ordem e o formato certo, por exemplo: "
 "Melhorar a tela de configuração 5h #feature #v16 @Mitchell !"
@@ -1631,7 +1731,12 @@ msgid ""
 "You can register and track your workings hours by project every\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    day. Every time spent on a project will become a cost and can be re-invoiced to\n"
+=======
+"                    day. Every time spent on a project will become a cost "
+"and can be re-invoiced to\n"
+>>>>>>> upstream/18.0
 =======
 "                    day. Every time spent on a project will become a cost "
 "and can be re-invoiced to\n"
@@ -1663,12 +1768,15 @@ msgstr "Você não pode excluir funcionários que têm planilhas de horas."
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot log timesheets on this project since it is linked to an inactive analytic account.<br/>\n"
 "                            Please switch to another account, or reactivate the current one to timesheet on the project."
 msgstr ""
 "Não é possível registrar planilhas de horas nesse projeto, pois ele está vinculado a uma conta analítica inativa.<br/>\n"
 "Mude para outra conta, ou reative a conta atual para registrar o tempo no projeto."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "You cannot log timesheets on this project since it is linked to an inactive "
@@ -1681,6 +1789,9 @@ msgstr ""
 "Mude para outra conta, ou reative a conta atual para registrar o tempo no "
 "projeto."
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1689,6 +1800,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.view_task_form2_inherited
 msgid ""
 "You cannot log timesheets on this project since it is linked to an inactive "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "analytic account.<br/> Please change this account, or reactivate the current"
@@ -1700,6 +1812,8 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "analytic account.<br/> Please change this account, or reactivate the current "
 "one to timesheet on the project."
 msgstr ""
@@ -1707,6 +1821,9 @@ msgstr ""
 "vinculado a uma conta analítica inativa.<br/> Altere esta conta ou reative a "
 "atual para poder utilizar a planilha de horas no projeto."
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1735,11 +1852,14 @@ msgid ""
 "on\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <span class=\"fw-bold text-dark\"> Sub-tasks</span>)"
 msgstr ""
 "em\n"
 "                            <span class=\"fw-bold text-dark\"> Subtarefas</span>)"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "                            <span class=\"fw-bold text-dark\"> Sub-tasks</"
@@ -1749,6 +1869,9 @@ msgstr ""
 "                            <span class=\"fw-bold text-dark\"> Subtarefas</"
 "span>)"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

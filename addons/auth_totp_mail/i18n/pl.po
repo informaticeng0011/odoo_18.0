@@ -3,12 +3,15 @@
 # 	* auth_totp_mail
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Marta Wacławek, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #
@@ -17,6 +20,9 @@
 # Marta Wacławek, 2025
 #
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24,6 +30,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
@@ -38,6 +45,8 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Marta Wacławek, 2025\n"
@@ -50,6 +59,9 @@ msgstr ""
 "(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
 "n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -62,6 +74,7 @@ msgid ""
 "        Dear <t t-out=\"object.partner_id.name or ''\"/><br/><br/>\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-out=\"user.name  or ''\"/> requested you activate two-factor authentication to protect your account.<br/><br/>\n"
 "        Two-factor Authentication (\"2FA\") is a system of double authentication.\n"
 "        The first one is done with your password and the second one with a code you get from a dedicated mobile app.\n"
@@ -70,6 +83,8 @@ msgid ""
 "        </p><p style=\"margin: 16px 0px 16px 0px; text-align: center;\">\n"
 "            <a t-att-href=\"object.get_totp_invite_url()\" style=\"background-color:#875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "        <t t-out=\"user.name  or ''\"/> requested you activate two-factor "
@@ -86,6 +101,9 @@ msgid ""
 "style=\"background-color:#875A7B; padding: 8px 16px 8px 16px; text-"
 "decoration: none; color: #fff; border-radius: 5px;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -101,6 +119,7 @@ msgstr ""
 "        Drogi/-a <t t-out=\"object.partner_id.name or ''\"/><br/><br/>\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-out=\"user.name  or ''\"/> poprosił/-a, abyś aktywował/-a uwierzytelnianie dwuetapowe, aby chronić Twoje konto.<br/><br/>\n"
 "        Uwierzytelnianie dwuetapowe (\"2FA\") jest systemem podwójnej weryfikacji logowania.\n"
 "        Pierwszym etapem jest Twoje hasło, a drugim jest kod z dedykowanej aplikacji z urządzenia mobilnego.\n"
@@ -109,6 +128,8 @@ msgstr ""
 "        </p><p style=\"margin: 16px 0px 16px 0px; text-align: center;\">\n"
 "            <a t-att-href=\"object.get_totp_invite_url()\" style=\"background-color:#875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "        <t t-out=\"user.name  or ''\"/> poprosił/-a, abyś aktywował/-a "
@@ -125,6 +146,9 @@ msgstr ""
 "style=\"background-color:#875A7B; padding: 8px 16px 8px 16px; text-"
 "decoration: none; color: #fff; border-radius: 5px;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -181,8 +205,13 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Zaproszenie do użycia uwierzytelniania dwuetapowego wysłane do następujących"
 " użytkowników: %s"
+=======
+"Zaproszenie do użycia uwierzytelniania dwuetapowego wysłane do następujących "
+"użytkowników: %s"
+>>>>>>> upstream/18.0
 =======
 "Zaproszenie do użycia uwierzytelniania dwuetapowego wysłane do następujących "
 "użytkowników: %s"
@@ -253,8 +282,12 @@ msgstr "Uwierzytelnianie dwuskładnikowe zostało aktywowane na Twoim koncie"
 msgid "Two-factor authentication has been deactivated on your account"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Uwierzytelnianie dwuskładnikowe zostało zdezaktywowane na Twoim koncie"
+=======
+msgstr "Uwierzytelnianie dwuskładnikowe zostało zdezaktywowane na Twoim koncie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uwierzytelnianie dwuskładnikowe zostało zdezaktywowane na Twoim koncie"
 >>>>>>> upstream/18.0

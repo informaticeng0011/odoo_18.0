@@ -270,7 +270,11 @@ class Users(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         activities_to_delete = self.env['mail.activity'].search([('user_id', 'in', self.ids)])
+=======
+        activities_to_delete = self.env['mail.activity'].sudo().search([('user_id', 'in', self.ids)])
+>>>>>>> upstream/18.0
 =======
         activities_to_delete = self.env['mail.activity'].sudo().search([('user_id', 'in', self.ids)])
 >>>>>>> upstream/18.0

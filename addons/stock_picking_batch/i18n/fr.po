@@ -3,6 +3,7 @@
 # 	* stock_picking_batch
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -651,6 +652,8 @@
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -658,6 +661,9 @@
 # Denis Roussel (ACSONE) <denis.roussel@acsone.eu>, 2025
 #
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -665,6 +671,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2025-03-19 20:37+0000\n"
@@ -1319,6 +1326,8 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Denis Roussel (ACSONE) <denis.roussel@acsone.eu>, 2025\n"
@@ -1330,6 +1339,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
 "1000000 == 0 ? 1 : 2;\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1402,11 +1414,14 @@ msgstr "<strong>→</strong>"
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A transfer will not be automatically added to batches that will exceed this number of lines if the transfer is added to it.\n"
 "Leave this value as '0' if no line limit."
 msgstr ""
 "Un transfert ne sera pas ajouté automatiquement aux lots qui dépasseront ce nombre de lignes si le transfert y est ajouté.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "A transfer will not be automatically added to batches that will exceed this "
@@ -1416,6 +1431,9 @@ msgstr ""
 "Un transfert ne sera pas ajouté automatiquement aux lots qui dépasseront ce "
 "nombre de lignes si le transfert y est ajouté.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1426,11 +1444,14 @@ msgstr ""
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A transfer will not be automatically added to batches that will exceed this number of transfers.\n"
 "Leave this value as '0' if no transfer limit."
 msgstr ""
 "Un transfert ne sera pas automatiquement ajouté aux lots qui dépasseront ce nombre de transferts.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "A transfer will not be automatically added to batches that will exceed this "
@@ -1440,6 +1461,9 @@ msgstr ""
 "Un transfert ne sera pas automatiquement ajouté aux lots qui dépasseront ce "
 "nombre de transferts.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1559,8 +1583,12 @@ msgid "Automatically group batches by their source location."
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Regroupez automatiquement les lots en fonction de leur emplacement "
 "d'origine."
+=======
+"Regroupez automatiquement les lots en fonction de leur emplacement d'origine."
+>>>>>>> upstream/18.0
 =======
 "Regroupez automatiquement les lots en fonction de leur emplacement d'origine."
 >>>>>>> upstream/18.0
@@ -2048,7 +2076,11 @@ msgid "Jobs"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Postes"
+=======
+msgstr "Tâches"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tâches"
 >>>>>>> upstream/18.0
@@ -2727,8 +2759,12 @@ msgstr "Type de transfert"
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Please add 'Done' quantities to the batch picking to create a new pack."
+=======
+msgid "Please add 'Done' quantities to the batch picking to create a new pack."
+>>>>>>> upstream/18.0
 =======
 msgid "Please add 'Done' quantities to the batch picking to create a new pack."
 >>>>>>> upstream/18.0
@@ -2820,6 +2856,7 @@ msgstr "Évaluations"
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Regroup multiple orders into one picking and consolidate at the packing "
 "zone."
 msgstr ""
@@ -2828,11 +2865,16 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Regroup multiple orders into one picking and consolidate at the packing zone."
 msgstr ""
 "Regrouper plusieurs commandes en un seul prélèvement et consolider à la zone "
 "d'emballage."
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2872,6 +2914,7 @@ msgid ""
 "Scheduled date for the transfers to be processed.\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "              - If manually set then scheduled date for all transfers in batch will automatically update to this date.\n"
 "              - If not manually changed and transfers are added/removed/updated then this will be their earliest scheduled date\n"
 "                but this scheduled date will not be set for all transfers in batch."
@@ -2881,6 +2924,8 @@ msgstr ""
 "               - Si elle n'est pas modifiée manuellement et que des transferts sont ajoutés/retirés/mis à jour, il s'agira de la date prévue la plus proche\n"
 "                mais cette date prévue ne sera pas appliquée à tous les transferts du lot."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "              - If manually set then scheduled date for all transfers in "
@@ -2900,6 +2945,9 @@ msgstr ""
 "                mais cette date prévue ne sera pas appliquée à tous les "
 "transferts du lot."
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2965,8 +3013,13 @@ msgstr ""
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Split transfers by product category, then group transfers that have the same"
 " product category."
+=======
+"Split transfers by product category, then group transfers that have the same "
+"product category."
+>>>>>>> upstream/18.0
 =======
 "Split transfers by product category, then group transfers that have the same "
 "product category."
@@ -3054,12 +3107,15 @@ msgstr "Résumé :"
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The following transfers cannot be added to batch transfer %(batch)s. Please check their states and operation types.\n"
 "\n"
 "Incompatibilities: %(incompatible_transfers)s"
 msgstr ""
 "Les transferts suivants ne peuvent pas être ajoutés au transfert par lot %(batch)s. Veuillez vérifier leurs statuts et types d'opération.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "The following transfers cannot be added to batch transfer %(batch)s. Please "
@@ -3070,6 +3126,9 @@ msgstr ""
 "Les transferts suivants ne peuvent pas être ajoutés au transfert par lot %"
 "(batch)s. Veuillez vérifier leurs statuts et types d'opération.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

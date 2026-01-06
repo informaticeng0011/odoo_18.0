@@ -3,12 +3,15 @@
 # 	* product_expiry
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Tony Ng, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #
@@ -17,6 +20,9 @@
 # Tony Ng, 2025
 #
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24,6 +30,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2025-03-19 20:37+0000\n"
@@ -37,6 +44,8 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Tony Ng, 2025\n"
@@ -47,6 +56,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -60,8 +72,13 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"badge text-bg-danger\" invisible=\"not "
 "product_expiry_alert\">過期警報</span>"
+=======
+"<span class=\"badge text-bg-danger\" invisible=\"not product_expiry_alert\">"
+"過期警報</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"badge text-bg-danger\" invisible=\"not product_expiry_alert\">"
 "過期警報</span>"
@@ -271,7 +288,13 @@ msgid ""
 "not be consumed. It will be computed on the lot/serial number."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "收到產品（來自供應商或生產後的庫存）後，貨物可能變得危險且不得食用的天數。它將根據批次/序號計算。"
+=======
+msgstr ""
+"收到產品（來自供應商或生產後的庫存）後，貨物可能變得危險且不得食用的天數。它"
+"將根據批次/序號計算。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "收到產品（來自供應商或生產後的庫存）後，貨物可能變得危險且不得食用的天數。它"
@@ -300,7 +323,12 @@ msgid ""
 "removed from the stock. It will be computed on the lot/serial number."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "在到期日之前的天數，在此之後應將貨物從庫存中移除。它將根據批次/序號計算。"
+=======
+msgstr ""
+"在到期日之前的天數，在此之後應將貨物從庫存中移除。它將根據批次/序號計算。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "在到期日之前的天數，在此之後應將貨物從庫存中移除。它將根據批次/序號計算。"
@@ -317,8 +345,13 @@ msgid ""
 "Number of days before the Expiration Date after which the goods starts "
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "deteriorating, without being dangerous yet. It will be computed on the "
 "lot/serial number."
+=======
+"deteriorating, without being dangerous yet. It will be computed on the lot/"
+"serial number."
+>>>>>>> upstream/18.0
 =======
 "deteriorating, without being dangerous yet. It will be computed on the lot/"
 "serial number."
@@ -358,6 +391,7 @@ msgstr "產品過期警告"
 #. module: product_expiry
 #: model:ir.model,name:product_expiry.model_stock_move_line
 msgid "Product Moves (Stock Move Line)"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -899,6 +933,9 @@ msgstr "產品移動（庫存移動資料行）"
 =======
 msgstr "產品移動（庫存移動資料行）"
 >>>>>>> upstream/18.0
+=======
+msgstr "產品移動（庫存移動資料行）"
+>>>>>>> upstream/18.0
 
 #. module: product_expiry
 #: model:ir.model,name:product_expiry.model_product_product
@@ -994,8 +1031,13 @@ msgstr "使用到期日"
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "When this box is ticked, you have the possibility to specify dates to manage"
 " product expiration, on the product and on the corresponding lot/serial "
+=======
+"When this box is ticked, you have the possibility to specify dates to manage "
+"product expiration, on the product and on the corresponding lot/serial "
+>>>>>>> upstream/18.0
 =======
 "When this box is ticked, you have the possibility to specify dates to manage "
 "product expiration, on the product and on the corresponding lot/serial "
@@ -1023,7 +1065,12 @@ msgstr ""
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You are going to deliver the product %(product_name)s, %(lot_name)s which is expired.\n"
+=======
+"You are going to deliver the product %(product_name)s, %(lot_name)s which is "
+"expired.\n"
+>>>>>>> upstream/18.0
 =======
 "You are going to deliver the product %(product_name)s, %(lot_name)s which is "
 "expired.\n"

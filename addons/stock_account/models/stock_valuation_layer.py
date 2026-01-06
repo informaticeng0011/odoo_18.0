@@ -231,7 +231,10 @@ class StockValuationLayer(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -788,6 +791,9 @@ class StockValuationLayer(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1374,6 +1380,7 @@ class StockValuationLayer(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1538,6 +1545,9 @@ class StockValuationLayer(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+    # TODO: remove in master
 >>>>>>> upstream/18.0
 =======
     # TODO: remove in master
@@ -2089,6 +2099,7 @@ class StockValuationLayer(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2255,6 +2266,8 @@ class StockValuationLayer(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2604,6 +2617,9 @@ class StockValuationLayer(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2861,6 +2877,7 @@ class StockValuationLayer(models.Model):
         if am_vals:
             account_moves = self.env['account.move'].sudo().create(am_vals)
             account_moves._post()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3326,6 +3343,9 @@ class StockValuationLayer(models.Model):
 =======
         products_svl = groupby(self, lambda svl: (svl._get_related_product(), svl.company_id.anglo_saxon_accounting))
 >>>>>>> upstream/18.0
+=======
+        products_svl = groupby(self, lambda svl: (svl._get_related_product(), svl.company_id.anglo_saxon_accounting))
+>>>>>>> upstream/18.0
         for (product, anglo_saxon_accounting), svls in products_svl:
             svls = self.browse(svl.id for svl in svls)
             moves = svls.stock_move_id
@@ -3358,6 +3378,7 @@ class StockValuationLayer(models.Model):
         #  Handler called when the user clicked on the 'Valuation at Date' button.
         #  Opens wizard to display, at choice, the products inventory or a computed
         #  inventory at a given date.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4031,6 +4052,9 @@ class StockValuationLayer(models.Model):
 =======
         context = {"pivot_measures": ["quantity", "value"]}
 >>>>>>> upstream/18.0
+=======
+        context = {"pivot_measures": ["quantity", "value"]}
+>>>>>>> upstream/18.0
         if ("default_product_id" in self.env.context):
             context["product_id"] = self.env.context["default_product_id"]
         elif ("default_product_tmpl_id" in self.env.context):
@@ -4066,6 +4090,7 @@ class StockValuationLayer(models.Model):
         if not self:
             return 0, 0
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4459,6 +4484,8 @@ class StockValuationLayer(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         qty_to_take_on_candidates = qty_to_value
         tmp_value = 0  # to accumulate the value taken on the candidates
         for candidate in self:
@@ -4592,6 +4619,9 @@ class StockValuationLayer(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5013,7 +5043,11 @@ class StockValuationLayer(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         rounding = self.product_id.uom_id.rounding
+=======
+        min_rounding = 1.0
+>>>>>>> upstream/18.0
 =======
         min_rounding = 1.0
 >>>>>>> upstream/18.0
@@ -5540,6 +5574,11 @@ class StockValuationLayer(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            rounding = svl.product_id.uom_id.rounding
+            min_rounding = min(min_rounding, rounding)
+>>>>>>> upstream/18.0
 =======
             rounding = svl.product_id.uom_id.rounding
             min_rounding = min(min_rounding, rounding)
@@ -6201,7 +6240,11 @@ class StockValuationLayer(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if float_compare(qty_total, 0, precision_rounding=rounding) > 0:
+=======
+        if float_compare(qty_total, 0, precision_rounding=min_rounding) > 0:
+>>>>>>> upstream/18.0
 =======
         if float_compare(qty_total, 0, precision_rounding=min_rounding) > 0:
 >>>>>>> upstream/18.0

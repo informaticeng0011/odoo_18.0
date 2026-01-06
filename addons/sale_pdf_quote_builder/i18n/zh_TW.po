@@ -3,7 +3,11 @@
 # 	* sale_pdf_quote_builder
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -17,7 +21,11 @@
 # Tony Ng, 2025
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -28,6 +36,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
@@ -41,6 +50,8 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Tony Ng, 2025\n"
@@ -51,6 +62,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -64,8 +78,13 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "(object.state in ('draft', 'sent') and '報價單 － %s' % (object.name)) or '銷售訂單 "
 "－ %s' % (object.name)"
+=======
+"(object.state in ('draft', 'sent') and '報價單 － %s' % (object.name)) or '銷"
+"售訂單 － %s' % (object.name)"
+>>>>>>> upstream/18.0
 =======
 "(object.state in ('draft', 'sent') and '報價單 － %s' % (object.name)) or '銷"
 "售訂單 － %s' % (object.name)"
@@ -91,8 +110,13 @@ msgstr "<span>文件類型：</span>"
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A form field set as used in product documents can't be linked to a quotation"
 " document."
+=======
+"A form field set as used in product documents can't be linked to a quotation "
+"document."
+>>>>>>> upstream/18.0
 =======
 "A form field set as used in product documents can't be linked to a quotation "
 "document."
@@ -109,8 +133,13 @@ msgstr "已設為在產品文件中使用的表單欄位，不可連結至報價
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A form field set as used in quotation documents can't be linked to a product"
 " document."
+=======
+"A form field set as used in quotation documents can't be linked to a product "
+"document."
+>>>>>>> upstream/18.0
 =======
 "A form field set as used in quotation documents can't be linked to a product "
 "document."
@@ -148,6 +177,7 @@ msgid ""
 "Allows you to share the document with your customers within a sale.\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Leave it empty if you don't want to share this document with sales customer.\n"
 "On quote: the document will be sent to and accessible by customers at any time.\n"
 "e.g. this option can be useful to share Product description files.\n"
@@ -155,6 +185,8 @@ msgid ""
 "e.g. this option can be useful to share User Manual or digital content bought on ecommerce. \n"
 "Inside quote: The document will be included in the pdf of the quotation and sale order between the header pages and the quote table. "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "Leave it empty if you don't want to share this document with sales "
@@ -169,6 +201,9 @@ msgid ""
 "Inside quote: The document will be included in the pdf of the quotation and "
 "sale order between the header pages and the quote table. "
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -180,9 +215,12 @@ msgstr ""
 "「確認訂單時」：文件將傳送給客戶，供客戶存取查閱。\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "例如：若想傳送使用手冊，或交付在電子商務平台購買的數碼/電子內容，此選項便很有用。\n"
 "「報價單內夾附」：文件會加入報價單及銷售訂單的 pdf 中，放在標題頁與報價表之間。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "例如：若想傳送使用手冊，或交付在電子商務平台購買的數碼/電子內容，此選項便很有"
@@ -190,6 +228,9 @@ msgstr ""
 "「報價單內夾附」：文件會加入報價單及銷售訂單的 pdf 中，放在標題頁與報價表之"
 "間。"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -448,7 +489,13 @@ msgid ""
 "footer can not start with \"sol_id_\"."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "表單欄位名稱 %(field_name)s 無效。頁首或頁尾中的表單欄位名稱，不能以 sol_id_ 開頭。"
+=======
+msgstr ""
+"表單欄位名稱 %(field_name)s 無效。頁首或頁尾中的表單欄位名稱，不能以 sol_id_ "
+"開頭。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "表單欄位名稱 %(field_name)s 無效。頁首或頁尾中的表單欄位名稱，不能以 sol_id_ "
@@ -494,7 +541,13 @@ msgid ""
 "either encrypted, or encoded in a format we do not support."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "我們似乎無法處理在報價單內的這個 pdf 檔案。可能是檔案已被加密，或使用了我們不支援的格式進行編碼。"
+=======
+msgstr ""
+"我們似乎無法處理在報價單內的這個 pdf 檔案。可能是檔案已被加密，或使用了我們不"
+"支援的格式進行編碼。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "我們似乎無法處理在報價單內的這個 pdf 檔案。可能是檔案已被加密，或使用了我們不"
@@ -606,6 +659,7 @@ msgstr "產品文件"
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Provide header pages and footer pages to compose an attractive quotation with more information\n"
 "                        about your company, your products and you services. <br/>\n"
 "                        The pdf of your quotes will be built by putting together header pages, product descriptions,\n"
@@ -616,6 +670,8 @@ msgstr ""
 "                        有關你公司、產品及服務的資訊。<br/>\n"
 "                        建立你的報價單 PDF 時，會首先加入頁首資料，然後列出產品描述\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "Provide header pages and footer pages to compose an attractive quotation "
@@ -634,6 +690,9 @@ msgstr ""
 "                        建立你的報價單 PDF 時，會首先加入頁首資料，然後列出產"
 "品描述\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

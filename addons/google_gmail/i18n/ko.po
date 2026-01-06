@@ -3,12 +3,15 @@
 # 	* google_gmail
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Daye Jeong, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #
@@ -17,6 +20,9 @@
 # Daye Jeong, 2024
 #
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24,6 +30,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
@@ -37,6 +44,8 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Daye Jeong, 2024\n"
@@ -46,6 +55,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -72,12 +84,15 @@ msgstr ""
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span invisible=\"server_type != 'gmail' or not google_gmail_refresh_token\" class=\"badge text-bg-success\">\n"
 "                        Gmail Token Valid\n"
 "                    </span>"
 msgstr ""
 "<span invisible=\"server_type != 'gmail' or not google_gmail_refresh_token\" class=\"badge text-bg-success\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "<span invisible=\"server_type != 'gmail' or not google_gmail_refresh_token\" "
@@ -88,6 +103,9 @@ msgstr ""
 "<span invisible=\"server_type != 'gmail' or not google_gmail_refresh_token\" "
 "class=\"badge text-bg-success\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -99,12 +117,15 @@ msgstr ""
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span invisible=\"smtp_authentication != 'gmail' or not google_gmail_refresh_token\" class=\"badge text-bg-success\">\n"
 "                        Gmail Token Valid\n"
 "                    </span>"
 msgstr ""
 "<span invisible=\"smtp_authentication != 'gmail' or not google_gmail_refresh_token\" class=\"badge text-bg-success\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "<span invisible=\"smtp_authentication != 'gmail' or not "
@@ -115,6 +136,9 @@ msgstr ""
 "<span invisible=\"smtp_authentication != 'gmail' or not "
 "google_gmail_refresh_token\" class=\"badge text-bg-success\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -171,7 +195,12 @@ msgid ""
 "Connect your Gmail account with the OAuth Authentication process. \n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You will be redirected to the Gmail login page where you will need to accept the permission."
+=======
+"You will be redirected to the Gmail login page where you will need to accept "
+"the permission."
+>>>>>>> upstream/18.0
 =======
 "You will be redirected to the Gmail login page where you will need to accept "
 "the permission."
@@ -191,11 +220,14 @@ msgid ""
 "Connect your Gmail account with the OAuth Authentication process.  \n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "By default, only a user with a matching email address will be able to use this server. To extend its use, you should set a \"mail.default.from\" system parameter."
 msgstr ""
 "OAuth 인증 프로세스를 통하여 Gmail 계정을 연결합니다.  \n"
 "기본값으로, 이메일 주소가 일치하는 사용자만 이 서버를 사용할 수 있습니다. 확장해서 사용하려면, \"mail.default.from\" 시스템 매개변수를 설정해야 합니다."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "By default, only a user with a matching email address will be able to use "
@@ -206,6 +238,9 @@ msgstr ""
 "기본값으로, 이메일 주소가 일치하는 사용자만 이 서버를 사용할 수 있습니다. 확"
 "장해서 사용하려면, \"mail.default.from\" 시스템 매개변수를 설정해야 합니다."
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -254,7 +289,13 @@ msgid ""
 "\"TLS (STARTTLS)\"."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Gmail 메일 서버 “%s”에 대한 연결 보안이 잘못되었습니다. “TLS(STARTTLS)\"로 설정하세요."
+=======
+msgstr ""
+"Gmail 메일 서버 “%s”에 대한 연결 보안이 잘못되었습니다. “TLS(STARTTLS)\"로 설"
+"정하세요."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Gmail 메일 서버 “%s”에 대한 연결 보안이 잘못되었습니다. “TLS(STARTTLS)\"로 설"
@@ -293,8 +334,13 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "\"사용자 이름\" 필드에 Gmail 사용자 이름 (이메일 주소)을 입력하세요. 이 계정은 Gmail OAuth 인증 토큰에 사용된 "
 "계정과 동일해야 합니다."
+=======
+"\"사용자 이름\" 필드에 Gmail 사용자 이름 (이메일 주소)을 입력하세요. 이 계정"
+"은 Gmail OAuth 인증 토큰에 사용된 계정과 동일해야 합니다."
+>>>>>>> upstream/18.0
 =======
 "\"사용자 이름\" 필드에 Gmail 사용자 이름 (이메일 주소)을 입력하세요. 이 계정"
 "은 Gmail OAuth 인증 토큰에 사용된 계정과 동일해야 합니다."
@@ -312,7 +358,13 @@ msgid ""
 "process does not require it"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "OAuth 프로세스에는 암호가 필요하지 않습니다. Gmail 메일 서버 “%s”의 암호 필드를 비워 두세요."
+=======
+msgstr ""
+"OAuth 프로세스에는 암호가 필요하지 않습니다. Gmail 메일 서버 “%s”의 암호 필드"
+"를 비워 두세요."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "OAuth 프로세스에는 암호가 필요하지 않습니다. Gmail 메일 서버 “%s”의 암호 필드"
@@ -359,7 +411,13 @@ msgid ""
 "account."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Gmail 계정을 연결하려면 일반 설정 항목에서 Gmail API 자격 증명을 설정하십시오."
+=======
+msgstr ""
+"Gmail 계정을 연결하려면 일반 설정 항목에서 Gmail API 자격 증명을 설정하십시"
+"오."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Gmail 계정을 연결하려면 일반 설정 항목에서 Gmail API 자격 증명을 설정하십시"

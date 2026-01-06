@@ -155,6 +155,7 @@ import { fields } from "@web/../tests/web_test_helpers";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { DEFAULT_MAIL_VIEW_ID } from "@mail/../tests/mock_server/mock_models/constants";
 
 export class ResFake extends mailModels.ResFake {
@@ -166,6 +167,8 @@ export class ResFake extends mailModels.ResFake {
     }
     duration = fields.Float({ string: "duration" });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -638,6 +641,9 @@ export class ResFake extends mailModels.ResFake {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

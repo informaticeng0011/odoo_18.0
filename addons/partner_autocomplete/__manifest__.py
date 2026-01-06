@@ -209,6 +209,10 @@ Auto-complete partner companies' data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'partner_autocomplete/static/src/scss/*',
+>>>>>>> upstream/18.0
 =======
             'partner_autocomplete/static/src/scss/*',
 >>>>>>> upstream/18.0

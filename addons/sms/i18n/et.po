@@ -2,8 +2,13 @@
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sms
 # 
+=======
+# * sms
+#
+>>>>>>> upstream/18.0
 =======
 # * sms
 #
@@ -28,7 +33,11 @@
 # Stevin Lilla, 2025
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -39,6 +48,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2025-04-07 20:37+0000\n"
@@ -53,6 +63,8 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2025-12-31 13:13+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -65,6 +77,9 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.14.3\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -147,11 +162,14 @@ msgid ""
 "<span class=\"o_stat_text\">Add</span>\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <span class=\"o_stat_text\">Context Action</span>"
 msgstr ""
 "<span class=\"o_stat_text\">Lisa</span>\n"
 "                                <span class=\"o_stat_text\">Konteksti tegevus</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "                                <span class=\"o_stat_text\">Context Action</"
@@ -161,6 +179,9 @@ msgstr ""
 "                                <span class=\"o_stat_text\">Konteksti "
 "tegevus</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -176,6 +197,7 @@ msgid ""
 "<span class=\"o_stat_text\">Remove</span>\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <span class=\"o_stat_text\">Context Action</span>"
 msgstr ""
 "<span class=\"o_stat_text\">Eemalda</span>\n"
@@ -188,6 +210,8 @@ msgstr ""
 "<span class=\"text-warning\" invisible=\"not no_record\">Kirjed "
 "puuduvad</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "                                <span class=\"o_stat_text\">Context Action</"
@@ -205,6 +229,9 @@ msgstr ""
 "<span class=\"text-warning\" invisible=\"not no_record\">Kirjed puuduvad</"
 "span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -213,6 +240,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sms.ir_actions_server_view_form
 msgid ""
 "<span invisible=\"sms_method != 'sms'\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "                                The message will be sent as an SMS to the recipients of the template\n"
@@ -226,6 +254,8 @@ msgid ""
 "                                The SMS will be sent as an SMS to the recipients of the\n"
 "                                template and it will also be posted as an internal note\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "                                The message will be sent as an SMS to the "
@@ -244,6 +274,9 @@ msgid ""
 "                                template and it will also be posted as an "
 "internal note\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -430,7 +463,10 @@ msgstr "Sulge"
 #. module: sms
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model,name:sms.model_res_company
@@ -439,6 +475,9 @@ msgstr "Ettevõtted"
 
 #. module: sms
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -639,11 +678,17 @@ msgstr ""
 #: model:ir.model.fields,help:sms.field_sms_template__template_fs
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "File from where the template originates. Used to reset broken template."
 msgstr ""
 "Fail, kust mall esialgselt pärineb. Kasutatakse katkise malli "
 "lähtestamiseks."
+=======
+msgid "File from where the template originates. Used to reset broken template."
+msgstr ""
+"Fail, kust mall esialgselt pärineb. Kasutatakse katkise malli lähtestamiseks."
+>>>>>>> upstream/18.0
 =======
 msgid "File from where the template originates. Used to reset broken template."
 msgstr ""
@@ -757,8 +802,13 @@ msgstr "Kui valitud, on mõningate sõnumitel saatmiserror"
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If the sanitized phone number is on the blacklist, the contact won't receive"
 " mass mailing sms anymore, from any list"
+=======
+"If the sanitized phone number is on the blacklist, the contact won't receive "
+"mass mailing sms anymore, from any list"
+>>>>>>> upstream/18.0
 =======
 "If the sanitized phone number is on the blacklist, the contact won't receive "
 "mass mailing sms anymore, from any list"
@@ -1020,8 +1070,13 @@ msgstr "Veateatega sõnumite arv"
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Number of recipients that will receive the SMS if sent in mass mode, without"
 " applying the Active Domain value"
+=======
+"Number of recipients that will receive the SMS if sent in mass mode, without "
+"applying the Active Domain value"
+>>>>>>> upstream/18.0
 =======
 "Number of recipients that will receive the SMS if sent in mass mode, without "
 "applying the Active Domain value"
@@ -1046,6 +1101,7 @@ msgid ""
 "email. If not set, the english version will be used. This should usually be "
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "a placeholder expression that provides the appropriate language, e.g. {{ "
 "object.partner_id.lang }}."
 msgstr ""
@@ -1056,6 +1112,8 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "a placeholder expression that provides the appropriate language, e.g. "
 "{{ object.partner_id.lang }}."
 msgstr ""
@@ -1064,6 +1122,9 @@ msgstr ""
 "olema kohahoidja avaldis, mis pakub sobivat keelt, nt. "
 "{{ object.partner_id.lang }}."
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1524,6 +1585,7 @@ msgstr "Saatmise tõrked"
 #. module: sms
 #. odoo-python
 #: code:addons/sms/models/ir_actions_server.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2547,6 +2609,10 @@ msgstr ""
 msgid "Sending SMS can only be done on a not transient mail.thread model"
 msgstr ""
 >>>>>>> upstream/18.0
+=======
+msgid "Sending SMS can only be done on a not transient mail.thread model"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: sms
 #: model:ir.model.fields.selection,name:sms.selection__sms_sms__state__pending
@@ -2719,8 +2785,13 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "See telefoninumber on SMS turunduse jaoks mustas nimekirjas. Klikake, et see"
 " nimekirjast eemaldada."
+=======
+"See telefoninumber on SMS turunduse jaoks mustas nimekirjas. Klikake, et see "
+"nimekirjast eemaldada."
+>>>>>>> upstream/18.0
 =======
 "See telefoninumber on SMS turunduse jaoks mustas nimekirjas. Klikake, et see "
 "nimekirjast eemaldada."
@@ -2759,12 +2830,15 @@ msgid ""
 "- 'Send Email': post a message, a note or send an email (Discuss)\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- 'Send SMS': send SMS, log them on documents (SMS)- 'Add/Remove Followers': add or remove followers to a record (Discuss)\n"
 "- 'Create Record': create a new record with new values\n"
 "- 'Execute Code': a block of Python code that will be executed\n"
 "- 'Send Webhook Notification': send a POST request to an external system, also known as a Webhook\n"
 "- 'Execute Existing Actions': define an action that triggers several other server actions\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "- 'Send SMS': send SMS, log them on documents (SMS)- 'Add/Remove Followers': "
@@ -2776,6 +2850,9 @@ msgid ""
 "- 'Execute Existing Actions': define an action that triggers several other "
 "server actions\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2786,12 +2863,15 @@ msgstr ""
 "- \"Saada meil\": postita sõnum, märkus või saada e-kiri (Sõnumid)\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- \"Saada SMS\": saada SMS-id, logi need dokumentidesse (SMS) - \"Lisa/eemalda jälgijaid\": lisa või eemalda jälgijaid kirjele (Sõnumid)\n"
 "- \"Loo kirje\": loo uus kirje uute väärtustega\n"
 "- \"Käivita kood\": Pythoni koodi plokk, mis käivitatakse\n"
 "- „Saada veebihaagi märguanne”: saada välisele süsteemile POST-i päring, mida tuntakse ka kui veebihaaki\n"
 "- \"Käivita olemasolevad toimingud\": määra toiming, mis käivitab mitu järgnevat serveritoimingut\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "- \"Saada SMS\": saada SMS-id, logi need dokumentidesse (SMS) - \"Lisa/"
@@ -2803,6 +2883,9 @@ msgstr ""
 "- \"Käivita olemasolevad toimingud\": määra toiming, mis käivitab mitu "
 "järgnevat serveritoimingut\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2849,7 +2932,12 @@ msgid ""
 "'notification': generated by system e.g. tracking messages\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "'auto_comment': generated by automated notification mechanism e.g. acknowledgment\n"
+=======
+"'auto_comment': generated by automated notification mechanism e.g. "
+"acknowledgment\n"
+>>>>>>> upstream/18.0
 =======
 "'auto_comment': generated by automated notification mechanism e.g. "
 "acknowledgment\n"
@@ -2969,9 +3057,12 @@ msgstr ""
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Your sender name must be between 3 and 11 characters long and only contain alphanumeric characters.\n"
 "                        It must fit your company name, and you aren't allowed to modify it once you registered one, choose it carefully."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "Your sender name must be between 3 and 11 characters long and only contain "
@@ -2979,6 +3070,9 @@ msgid ""
 "                        It must fit your company name, and you aren't "
 "allowed to modify it once you registered one, choose it carefully."
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

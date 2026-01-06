@@ -186,7 +186,11 @@ test("radio selection field with filter, empty list", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o_radio_input").not.toBeVisible();
+=======
+    expect(".o_radio_input").not.toHaveCount();
+>>>>>>> upstream/18.0
 =======
     expect(".o_radio_input").not.toHaveCount();
 >>>>>>> upstream/18.0
@@ -763,9 +767,15 @@ test("radio selection field with filter, single choice", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect("input[data-value='white']").not.toBeVisible();
     expect("input[data-value='grey']").toBeVisible();
     expect("input[data-value='black']").not.toBeVisible();
+=======
+    expect("input[data-value='white']").not.toHaveCount();
+    expect("input[data-value='grey']").toBeVisible();
+    expect("input[data-value='black']").not.toHaveCount();
+>>>>>>> upstream/18.0
 =======
     expect("input[data-value='white']").not.toHaveCount();
     expect("input[data-value='grey']").toBeVisible();
@@ -1649,7 +1659,11 @@ test("radio selection field with filter, synchronize with other field", async ()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect("input[data-value='sad']").not.toBeVisible();
+=======
+    expect("input[data-value='sad']").not.toHaveCount();
+>>>>>>> upstream/18.0
 =======
     expect("input[data-value='sad']").not.toHaveCount();
 >>>>>>> upstream/18.0
@@ -2227,7 +2241,11 @@ test("radio selection field with filter, synchronize with other field", async ()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect("input[data-value='sad']").not.toBeVisible();
+=======
+    expect("input[data-value='sad']").not.toHaveCount();
+>>>>>>> upstream/18.0
 =======
     expect("input[data-value='sad']").not.toHaveCount();
 >>>>>>> upstream/18.0
@@ -2820,11 +2838,14 @@ test("radio selection field with filter, cross radio synchronization", async () 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect("input[data-value='sad']").not.toBeVisible();
     expect("input[data-value='white']").toBeVisible();
     expect("input[data-value='grey']").toBeVisible();
     expect("input[data-value='black']").not.toBeVisible();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3246,6 +3267,9 @@ test("radio selection field with filter, cross radio synchronization", async () 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3676,7 +3700,11 @@ test("radio selection field with filter, cross radio synchronization", async () 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect("input[data-value='black']").not.toBeVisible();
+=======
+    expect("input[data-value='black']").not.toHaveCount();
+>>>>>>> upstream/18.0
 =======
     expect("input[data-value='black']").not.toHaveCount();
 >>>>>>> upstream/18.0
@@ -4246,7 +4274,11 @@ test("radio selection field with filter, cross radio synchronization", async () 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect("input[data-value='white']").not.toBeVisible();
+=======
+    expect("input[data-value='white']").not.toHaveCount();
+>>>>>>> upstream/18.0
 =======
     expect("input[data-value='white']").not.toHaveCount();
 >>>>>>> upstream/18.0
@@ -4816,9 +4848,15 @@ test("radio selection field with filter, cross radio synchronization", async () 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect("input[data-value='happy']").not.toBeVisible();
     expect("input[data-value='sad']").toBeVisible();
     expect("input[data-value='white']").not.toBeVisible();
+=======
+    expect("input[data-value='happy']").not.toHaveCount();
+    expect("input[data-value='sad']").toBeVisible();
+    expect("input[data-value='white']").not.toHaveCount();
+>>>>>>> upstream/18.0
 =======
     expect("input[data-value='happy']").not.toHaveCount();
     expect("input[data-value='sad']").toBeVisible();

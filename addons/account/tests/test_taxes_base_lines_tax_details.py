@@ -94,6 +94,7 @@ class TestTaxesBaseLinesTaxDetails(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 {'quantity': 1, 'price_unit': 10.04, 'discount': 10, 'tax_ids': tax_21},
             ] + [
                 {'quantity': 1, 'price_unit': 1.04, 'discount': 10, 'tax_ids': tax_21},
@@ -127,6 +128,8 @@ class TestTaxesBaseLinesTaxDetails(TestTaxCommon):
                     'total_included': 1.13,
                     'total_included_currency': 1.13,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -330,11 +333,14 @@ class TestTaxesBaseLinesTaxDetails(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'tax_amount': 1.88,
                     'tax_amount_currency': 1.88,
                     'base_amount': 9.02,
                     'base_amount_currency': 9.02,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -411,6 +417,9 @@ class TestTaxesBaseLinesTaxDetails(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -485,6 +494,7 @@ class TestTaxesBaseLinesTaxDetails(TestTaxCommon):
             'base_lines_tax_details': [
                 {
                     **line_1_expected_values,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -733,6 +743,8 @@ class TestTaxesBaseLinesTaxDetails(TestTaxCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                     'delta_total_excluded': -0.03,
                     'delta_total_excluded_currency': -0.03,
                 },
@@ -762,6 +774,9 @@ class TestTaxesBaseLinesTaxDetails(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -823,6 +838,7 @@ class TestTaxesBaseLinesTaxDetails(TestTaxCommon):
                         }
                     ],
                 },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1424,6 +1440,9 @@ class TestTaxesBaseLinesTaxDetails(TestTaxCommon):
 =======
                 line_2_expected_values,
 >>>>>>> upstream/18.0
+=======
+                line_2_expected_values,
+>>>>>>> upstream/18.0
                 line_2_expected_values,
                 line_2_expected_values,
                 line_2_expected_values,
@@ -1514,6 +1533,9 @@ class TestTaxesBaseLinesTaxDetails(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
