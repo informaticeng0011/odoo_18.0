@@ -93,12 +93,15 @@ registry.category("web_tour.tours").add("website_event_pages_seo", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: ":iframe head:has(title:contains(/^Hello, world!$/)):not(:visible)",
         },
         {
             content: "Check that the page title is adapted, inside and outside the iframe",
             trigger: "head:has(title:contains(/^Hello, world!$/)):not(:visible)",
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -281,6 +284,9 @@ registry.category("web_tour.tours").add("website_event_pages_seo", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

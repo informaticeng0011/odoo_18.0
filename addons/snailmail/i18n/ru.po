@@ -82,6 +82,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* snailmail
 # 
 # Translators:
@@ -394,6 +395,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * snailmail
 #
 # Translators:
@@ -482,6 +485,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -649,6 +655,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1127,6 +1134,10 @@ msgstr ""
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2025-10-22 07:20+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+"PO-Revision-Date: 2025-10-22 07:20+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-18/"
 "snailmail/ru/>\n"
@@ -1135,6 +1146,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1391,6 +1403,11 @@ msgstr ""
 "(n%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
+=======
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #: model:ir.model.fields.selection,name:snailmail.selection__snailmail_letter__error_code__attachment_error
@@ -1498,6 +1515,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Произошла ошибка при отправке письма через Snailmail для «%(record_name)s»"
+>>>>>>> upstream/18.0
 =======
 "Произошла ошибка при отправке письма через Snailmail для «%(record_name)s»"
 >>>>>>> upstream/18.0
@@ -2010,7 +2031,11 @@ msgid "Created by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Создано:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создано:"
 >>>>>>> upstream/18.0
@@ -2485,7 +2510,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Дата создания:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата создания:"
 >>>>>>> upstream/18.0
@@ -3042,7 +3071,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Последнее обновление:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Последнее обновление:"
 >>>>>>> upstream/18.0
@@ -3521,7 +3554,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Дата последнего обновления:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата последнего обновления:"
 >>>>>>> upstream/18.0
@@ -3955,7 +3992,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                Please modify the format of the template or update your settings\n"
+=======
+"                Please modify the format of the template or update your "
+"settings\n"
+>>>>>>> upstream/18.0
 =======
 "                Please modify the format of the template or update your "
 "settings\n"
@@ -3975,7 +4017,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                чтобы автоматически добавлять чистый титульный лист ко всем письмам."
+=======
+"                чтобы автоматически добавлять чистый титульный лист ко всем "
+"письмам."
+>>>>>>> upstream/18.0
 =======
 "                чтобы автоматически добавлять чистый титульный лист ко всем "
 "письмам."
@@ -4122,6 +4169,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Отправляйте счета клиентам и отчеты по задолженностям по почте в любую точку "
+"мира."
+>>>>>>> upstream/18.0
 =======
 "Отправляйте счета клиентам и отчеты по задолженностям по почте в любую точку "
 "мира."
@@ -4565,7 +4617,11 @@ msgid "Snailmail Cover Readonly"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Обложка Snailmail: только для чтения"
+>>>>>>> upstream/18.0
 =======
 msgstr "Обложка Snailmail: только для чтения"
 >>>>>>> upstream/18.0
@@ -4904,7 +4960,11 @@ msgid "Snailmail Failure: %(modelName)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Сбой Snailmail: %(modelName)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Сбой Snailmail: %(modelName)s"
 >>>>>>> upstream/18.0
@@ -5268,12 +5328,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The attachment of the letter could not be sent. Please check its content and"
 " contact the support if the problem persists."
 msgstr ""
 "Не удалось отправить вложение письма. Пожалуйста, проверьте его содержимое и"
 " свяжитесь со службой поддержки, если проблема не исчезнет."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5285,6 +5348,9 @@ msgstr ""
 "свяжитесь со службой поддержки, если проблема не исчезнет."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5330,8 +5396,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The letter could not be sent due to insufficient credits on your IAP "
 "account."
+=======
+"The letter could not be sent due to insufficient credits on your IAP account."
+>>>>>>> upstream/18.0
 =======
 "The letter could not be sent due to insufficient credits on your IAP account."
 >>>>>>> upstream/18.0
@@ -5383,6 +5453,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "'auto_comment': generated by automated notification mechanism e.g. acknowledgment\n"
 "'user_notification': generated for a specific recipient"
 msgstr ""
@@ -5393,6 +5464,8 @@ msgstr ""
 "'notification': генерируется системой, например, сообщениями отслеживания\n"
 "'auto_comment': генерируется механизмом автоматического уведомления, например, подтверждением\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5412,6 +5485,9 @@ msgstr ""
 "например, подтверждением\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5427,12 +5503,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If not, it will got in state 'Error' and the error message will be displayed in the field 'Error Message'."
 msgstr ""
 "Когда письмо создано, его статус - \"В ожидании\".\n"
 "Если письмо отправлено правильно, статус переходит в состояние 'Отправлено',\n"
 "Если нет, то оно перейдет в состояние 'Ошибка', а сообщение об ошибке будет отображено в поле 'Сообщение об ошибке'."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5447,6 +5526,9 @@ msgstr ""
 "отображено в поле 'Сообщение об ошибке'."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5463,9 +5545,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "У вас нет учетной записи IAP, зарегистрированной для этой "
 "услуги.<br>Пожалуйста, перейдите на &lt;a href=%s "
 "target=\"new\"&gt;iap.odoo.com</a>, чтобы получить свои бесплатные кредиты."
+=======
+"У вас нет учетной записи IAP, зарегистрированной для этой услуги."
+"<br>Пожалуйста, перейдите на &lt;a href=%s target=\"new\"&gt;iap.odoo.com</"
+"a>, чтобы получить свои бесплатные кредиты."
+>>>>>>> upstream/18.0
 =======
 "У вас нет учетной записи IAP, зарегистрированной для этой услуги."
 "<br>Пожалуйста, перейдите на &lt;a href=%s target=\"new\"&gt;iap.odoo.com</"

@@ -2,6 +2,10 @@ import { Component } from "@odoo/owl";
 import { registry } from "@web/core/registry";
 import { standardFieldProps } from "../standard_field_props";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { exprToBoolean } from "@web/core/utils/strings";
+>>>>>>> upstream/18.0
 =======
 import { exprToBoolean } from "@web/core/utils/strings";
 >>>>>>> upstream/18.0
@@ -11,6 +15,10 @@ export class ColorField extends Component {
     static props = {
         ...standardFieldProps,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        autosave: { type: Boolean, optional: true },
+>>>>>>> upstream/18.0
 =======
         autosave: { type: Boolean, optional: true },
 >>>>>>> upstream/18.0
@@ -20,7 +28,10 @@ export class ColorField extends Component {
         return this.props.record.data[this.props.name] || "";
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     onChange(ev) {
         this.props.record.update(
@@ -28,6 +39,9 @@ export class ColorField extends Component {
             { save: this.props.autosave }
         );
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 }
 
@@ -35,10 +49,13 @@ export const colorField = {
     component: ColorField,
     supportedTypes: ["char"],
 <<<<<<< HEAD
+<<<<<<< HEAD
     extractProps(fieldInfo, dynamicInfo) {
         return {
             readonly: dynamicInfo.readonly,
 =======
+=======
+>>>>>>> upstream/18.0
     extractProps({ viewType, options }, dynamicInfo) {
         let autosave = false;
         if ("autosave" in options) {
@@ -49,6 +66,9 @@ export const colorField = {
         return {
             readonly: dynamicInfo.readonly,
             autosave,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         };
     },

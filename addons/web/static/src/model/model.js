@@ -153,8 +153,11 @@ import { buildSampleORM } from "./sample_server";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { EventBus, onWillStart, onWillUpdateProps, status, useComponent } from "@odoo/owl";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -607,6 +610,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1122,7 +1128,10 @@ function getSearchParams(props) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1591,6 +1600,9 @@ function usePostMountedServices(services) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2047,7 +2059,11 @@ export function useModel(ModelClass, params, options = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const services = {};
+=======
+    let services = {};
+>>>>>>> upstream/18.0
 =======
     let services = {};
 >>>>>>> upstream/18.0
@@ -2648,6 +2664,10 @@ export function useModel(ModelClass, params, options = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    services = usePostMountedServices(services);
+>>>>>>> upstream/18.0
 =======
     services = usePostMountedServices(services);
 >>>>>>> upstream/18.0
@@ -3268,7 +3288,11 @@ export function useModelWithSampleData(ModelClass, params, options = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const services = {};
+=======
+    let services = {};
+>>>>>>> upstream/18.0
 =======
     let services = {};
 >>>>>>> upstream/18.0
@@ -3869,6 +3893,10 @@ export function useModelWithSampleData(ModelClass, params, options = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    services = usePostMountedServices(services);
+>>>>>>> upstream/18.0
 =======
     services = usePostMountedServices(services);
 >>>>>>> upstream/18.0

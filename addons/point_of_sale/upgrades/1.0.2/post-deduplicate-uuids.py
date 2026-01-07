@@ -200,6 +200,10 @@ def migrate(cr, version):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+         WHERE uuid IS NOT NULL
+>>>>>>> upstream/18.0
 =======
          WHERE uuid IS NOT NULL
 >>>>>>> upstream/18.0
@@ -949,6 +953,7 @@ def migrate(cr, version):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ids = [r[0] for r in cr.fetchmany(100000)]
 =======
             ids = [r[0] for r in cr.fetchmany(10000)]
@@ -1032,6 +1037,8 @@ def migrate(cr, version):
                 f"UPDATE {table} SET uuid = (%s::json)->>(id::text) WHERE id IN %s",
                 [Json({id_: str(uuid.uuid4()) for id_ in ids}), tuple(ids)]
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1570,6 +1577,9 @@ def migrate(cr, version):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

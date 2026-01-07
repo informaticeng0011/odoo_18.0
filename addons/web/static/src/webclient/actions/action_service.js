@@ -1244,9 +1244,12 @@ export function makeActionManager(env, router = _router) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (action.target === "download" || action.target === "self") {
             browser.location.assign(url);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1650,6 +1653,9 @@ export function makeActionManager(env, router = _router) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2099,13 +2105,19 @@ export function makeActionManager(env, router = _router) {
             const result = await handler(action, options, env);
             if (result) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                 const { onClose } = options;
                 if (action.close_on_report_download) {
                     return doAction({ type: "ir.actions.act_window_close" }, { onClose });
                 } else if (onClose) {
                     onClose();
                 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 return result;
             }

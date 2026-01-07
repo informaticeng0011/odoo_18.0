@@ -323,6 +323,7 @@ $-seen-urls: ();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -364,6 +365,8 @@ $-seen-urls: ();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -837,7 +840,10 @@ $-seen-urls: ();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1277,6 +1283,9 @@ $-seen-urls: ();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1715,9 +1724,12 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @if o-website-value('layout') != 'full' {
         background-color: o-color('body');
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2165,6 +2177,9 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2971,7 +2986,10 @@ font[class*='bg-'] {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3229,6 +3247,9 @@ font[class*='bg-'] {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3739,6 +3760,12 @@ table.table_desc tr td {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    // See JS: this is overridden for multiple reasons, including the fact that
+    // Arc browser does not support this correctly at the moment.
+    min-height: 100svh !important;
+>>>>>>> upstream/18.0
 =======
     // See JS: this is overridden for multiple reasons, including the fact that
     // Arc browser does not support this correctly at the moment.
@@ -5024,18 +5051,52 @@ $-o-carousel-controllers-size: map-get($spacers, 5);
 
     // Style - Indicators outside
     &.s_carousel_controllers_indicators_outside {
+<<<<<<< HEAD
         .carousel-control-prev, .carousel-control-next {
             margin-bottom: $-o-carousel-controllers-size;
+=======
+        &:not(:has(.s_carousel_indicators_hidden)) {
+            .carousel-control-prev, .carousel-control-next {
+                margin-bottom: $-o-carousel-controllers-size;
+            }
+>>>>>>> upstream/18.0
         }
 
         .carousel-indicators {
             position: relative;
             margin-bottom: 0;
 
+<<<<<<< HEAD
             button {
                 background-color: currentColor;
                 color: inherit;
             }
+=======
+            &:not(.s_carousel_indicators_numbers) button {
+                background-color: currentColor;
+            }
+
+            button {
+                color: inherit;
+            }
+            
+            &.s_carousel_indicators_numbers {
+                // For large screen, use the same size as the margin-bottom of
+                // the prev/next buttons (like other indicators; instead of
+                // "auto"), so that the bottom of the buttons is aligned with
+                // the bottom of the slides. For smaller screen, the buttons do
+                // not have the same appearance and their bottoms do not need
+                // to align, and also the numbers may need to go on a second
+                // line if there is many slides, so we keep "auto"
+                @include media-breakpoint-up(md) {
+                    height: $-o-carousel-controllers-size;
+                }
+
+                button:after {
+                    border-top-color: currentColor;
+                }
+            }
+>>>>>>> upstream/18.0
         }
     }
 }
@@ -5371,7 +5432,10 @@ header {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5538,6 +5602,9 @@ header {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5735,7 +5802,11 @@ header {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         #wrapwrap {
+=======
+        #wrapwrap:has(> header) {
+>>>>>>> upstream/18.0
 =======
         #wrapwrap:has(> header) {
 >>>>>>> upstream/18.0
@@ -6082,10 +6153,13 @@ header {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     #wrapwrap header .o_header_sales_three_small_links {
         // Force small links to be proportional to header font size
         --nav-link-font-size: MAX(12px, .75em);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6137,6 +6211,9 @@ header {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6401,7 +6478,10 @@ header {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6845,6 +6925,9 @@ header {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7302,7 +7385,11 @@ header {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .navbar-nav {
+=======
+:where(header#top) .navbar-nav:where([role="menu"]) {
+>>>>>>> upstream/18.0
 =======
 :where(header#top) .navbar-nav:where([role="menu"]) {
 >>>>>>> upstream/18.0
@@ -8165,10 +8252,13 @@ input[value*="data-oe-translation-source-sha"] {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     // "overflow-x: clip" is added to the "body" and not to "html" because if
     // it's added to "html", when a popup opens, the page scrolls to the top.
     > body {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8521,6 +8611,9 @@ input[value*="data-oe-translation-source-sha"] {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8878,9 +8971,12 @@ input[value*="data-oe-translation-source-sha"] {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // Create a new formatting context. Without this, elements inside <body>
         // may still overflow (e.g. animated elements in Firefox).
         display: flow-root;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10024,8 +10120,11 @@ input[value*="data-oe-translation-source-sha"] {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     .form-control:disabled ~ &, .form-control[readonly] ~ &, &:has(~ .form-select:disabled), &:has(~ .form-select[readonly]) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10382,6 +10481,9 @@ input[value*="data-oe-translation-source-sha"] {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -55,6 +55,12 @@ class MailPush(models.Model):
                 )
             except DeviceUnreachableError:
                 devices_to_unlink.add(device.id)
+<<<<<<< HEAD
+=======
+            except Exception as e:  # noqa: BLE001
+                # Avoid blocking the whole cron just for a notification exception
+                _logger.error('An error occurred while trying to send web push: %s', e)
+>>>>>>> upstream/18.0
 
         # clean up notif
         web_push_notifications_sudo.unlink()

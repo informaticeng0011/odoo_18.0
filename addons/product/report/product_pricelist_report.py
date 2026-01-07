@@ -246,6 +246,10 @@ class ProductPricelistReport(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'docs': pricelist,
+>>>>>>> upstream/18.0
 =======
             'docs': pricelist,
 >>>>>>> upstream/18.0

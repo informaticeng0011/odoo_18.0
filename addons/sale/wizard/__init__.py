@@ -158,6 +158,10 @@ from . import base_document_layout
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import mail_compose_message
+>>>>>>> upstream/18.0
 =======
 from . import mail_compose_message
 >>>>>>> upstream/18.0

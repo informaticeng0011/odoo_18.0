@@ -74,6 +74,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { session } from "@web/session";
+>>>>>>> upstream/18.0
 =======
 import { session } from "@web/session";
 >>>>>>> upstream/18.0
@@ -483,6 +487,10 @@ export class LinkPopover extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        LinkPopoverState: Object,
+>>>>>>> upstream/18.0
 =======
         LinkPopoverState: Object,
 >>>>>>> upstream/18.0
@@ -1171,7 +1179,11 @@ export class LinkPopover extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             editing: this.props.linkEl.href ? false : true,
+=======
+            editing: this.props.LinkPopoverState.editing,
+>>>>>>> upstream/18.0
 =======
             editing: this.props.LinkPopoverState.editing,
 >>>>>>> upstream/18.0
@@ -1818,6 +1830,10 @@ export class LinkPopover extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            showLabel: !this.props.linkEl.childElementCount,
+>>>>>>> upstream/18.0
 =======
             showLabel: !this.props.linkEl.childElementCount,
 >>>>>>> upstream/18.0
@@ -2408,6 +2424,7 @@ export class LinkPopover extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.loadAsyncLinkPreview();
 =======
 >>>>>>> upstream/18.0
@@ -2425,6 +2442,8 @@ export class LinkPopover extends Component {
 >>>>>>> upstream/18.0
         this.props.onApply(this.state.url, this.state.label, this.state.classes);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2878,6 +2897,9 @@ export class LinkPopover extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3359,8 +3381,11 @@ export class LinkPopover extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         } else if (window.location.hostname !== url.hostname) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3590,6 +3615,9 @@ export class LinkPopover extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3750,7 +3778,16 @@ export class LinkPopover extends Component {
                 value: `https://www.google.com/s2/favicons?sz=16&domain=${encodeURIComponent(url)}`,
             };
 
+<<<<<<< HEAD
             const externalMetadata = await this.props.getExternalMetaData(this.state.url);
+=======
+            const externalMetadata = await this.props
+                .getExternalMetaData(this.state.url)
+                .catch((error) => {
+                    console.warn(`Error fetching external metadata for ${url.href}:`, error);
+                    return {};
+                });
+>>>>>>> upstream/18.0
 
             this.state.urlTitle = externalMetadata?.og_title || this.state.url;
             this.state.urlDescription = externalMetadata?.og_description || "";
@@ -3766,7 +3803,16 @@ export class LinkPopover extends Component {
             // Set state based on cached link meta data
             // for record missing errors, we push a warning that the url is likely invalid
             // for other errors, we log them to not block the ui
+<<<<<<< HEAD
             const internalMetadata = await this.props.getInternalMetaData(this.state.url);
+=======
+            const internalMetadata = await this.props
+                .getInternalMetaData(this.state.url)
+                .catch((error) => {
+                    console.warn(`Error fetching internal metadata for ${url.href}:`, error);
+                    return {};
+                });
+>>>>>>> upstream/18.0
             if (internalMetadata.favicon) {
                 this.state.previewIcon = {
                     type: "imgSrc",
@@ -3978,6 +4024,10 @@ export class LinkPopover extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.state.attachmentId = attachment.id;
+>>>>>>> upstream/18.0
 =======
         this.state.attachmentId = attachment.id;
 >>>>>>> upstream/18.0

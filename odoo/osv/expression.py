@@ -122,6 +122,10 @@ from datetime import date, datetime, time
 
 import odoo.modules
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.exceptions import MissingError
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import MissingError
 >>>>>>> upstream/18.0
@@ -296,9 +300,12 @@ FALSE_LEAF = (0, '=', 1)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 TRUE_DOMAIN = [TRUE_LEAF]
 FALSE_DOMAIN = [FALSE_LEAF]
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -660,6 +667,9 @@ FALSE_DOMAIN = _ProtectedDomain([FALSE_LEAF])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1592,10 +1602,13 @@ class expression(object):
             left_model_sudo = left_model.sudo().with_context(active_test=False)
             if left_model._parent_store:
 <<<<<<< HEAD
+<<<<<<< HEAD
                 domain = OR([
                     [('parent_path', '=like', rec.parent_path + '%')]
                     for rec in left_model_sudo.browse(ids)
 =======
+=======
+>>>>>>> upstream/18.0
                 try:
                     paths = left_model_sudo.browse(ids).mapped('parent_path')
                 except MissingError:
@@ -1603,6 +1616,9 @@ class expression(object):
                 domain = OR([
                     [('parent_path', '=like', path + '%')]
                     for path in paths
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 ])
             else:
@@ -1632,11 +1648,14 @@ class expression(object):
             left_model_sudo = left_model.sudo().with_context(active_test=False)
             if left_model._parent_store:
 <<<<<<< HEAD
+<<<<<<< HEAD
                 parent_ids = [
                     int(label)
                     for rec in left_model_sudo.browse(ids)
                     for label in rec.parent_path.split('/')[:-1]
 =======
+=======
+>>>>>>> upstream/18.0
                 try:
                     paths = left_model_sudo.browse(ids).mapped('parent_path')
                 except MissingError:
@@ -1645,6 +1664,9 @@ class expression(object):
                     int(label)
                     for path in paths
                     for label in path.split('/')[:-1]
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 ]
                 domain = [('id', 'in', parent_ids)]
@@ -1656,11 +1678,17 @@ class expression(object):
                 parent_ids = set()
                 records = left_model_sudo.browse(ids)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                 try:
                     records.mapped(parent_name)
                 except MissingError:
                     records = records.exists()
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 while records:
                     parent_ids.update(records._ids)
@@ -2087,8 +2115,14 @@ class expression(object):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     domain = HIERARCHY_FUNCS[operator]('id', ids2, comodel)
                     ids2 = comodel._search(domain)
+=======
+                    ids2 = comodel.browse(ids2)._filtered_access('read').ids
+                    domain = HIERARCHY_FUNCS[operator]('id', ids2, comodel)
+                    ids2 = comodel.sudo()._search(domain)
+>>>>>>> upstream/18.0
 =======
                     ids2 = comodel.browse(ids2)._filtered_access('read').ids
                     domain = HIERARCHY_FUNCS[operator]('id', ids2, comodel)

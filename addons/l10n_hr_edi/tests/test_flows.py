@@ -100,6 +100,11 @@ class TestHrEdiFlowsMocked(TestL10nHrEdiCommon, TestAccountMoveSendCommon, Patch
 
         invoice = self.env['account.move'].create({
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'invoice_date': '2025-01-01',
+            'date': '2025-01-01',
+>>>>>>> upstream/18.0
 =======
             'invoice_date': '2025-01-01',
             'date': '2025-01-01',
@@ -286,7 +291,10 @@ class TestHrEdiFlowsMocked(TestL10nHrEdiCommon, TestAccountMoveSendCommon, Patch
             'ref': '2/1/1',
             'payment_reference': 'HR00 211',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'date': fields.Date.today(),
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             'invoice_date': fields.Date.from_string('2025-12-24'),

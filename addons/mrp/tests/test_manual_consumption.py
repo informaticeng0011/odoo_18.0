@@ -111,11 +111,20 @@ class TestManualConsumption(TestMrpCommon):
             self.assertTrue(production.move_raw_ids.filtered(lambda m: m.product_id == p1).manual_consumption)
             self.assertFalse(production.move_raw_ids.filtered(lambda m: m.product_id == p2).manual_consumption)
 
+<<<<<<< HEAD
+=======
+        location = self.env['stock.location'].search([], limit=1)
+        mo.procurement_group_id.mrp_production_ids.location_final_id = location
+>>>>>>> upstream/18.0
         # Merge them back
         action = mo.procurement_group_id.mrp_production_ids.action_merge()
         mo = self.env[action['res_model']].browse(action['res_id'])
         self.assertTrue(mo.move_raw_ids.filtered(lambda m: m.product_id == p1).manual_consumption)
         self.assertFalse(mo.move_raw_ids.filtered(lambda m: m.product_id == p2).manual_consumption)
+<<<<<<< HEAD
+=======
+        self.assertEqual(mo.location_final_id, location)
+>>>>>>> upstream/18.0
 
     def test_manual_consumption_with_different_component_price(self):
         """

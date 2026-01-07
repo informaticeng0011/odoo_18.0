@@ -225,10 +225,13 @@ class ProjectTask(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 elif task.project_id.sale_line_id and task.project_id.partner_id.commercial_partner_id == task.partner_id.commercial_partner_id:
                     sale_line = task.project_id.sale_line_id
                 task.sale_line_id = sale_line or task.milestone_id.sale_line_id
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -582,6 +585,9 @@ class ProjectTask(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1067,7 +1073,11 @@ class ProjectTask(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "name": "Portal Sale Order",
+=======
+            "name": self.env._("Portal Sale Order"),
+>>>>>>> upstream/18.0
 =======
             "name": self.env._("Portal Sale Order"),
 >>>>>>> upstream/18.0

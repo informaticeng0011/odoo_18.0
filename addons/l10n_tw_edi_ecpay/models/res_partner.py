@@ -9,7 +9,10 @@ class ResPartner(models.Model):
     invoice_edi_format = fields.Selection(selection_add=[('tw_ecpay', "ECPay")])
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -17,6 +20,9 @@ class ResPartner(models.Model):
         address = self._display_address(without_company=True)
         return ", ".join(filter(None, map(str.strip, address.splitlines())))
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

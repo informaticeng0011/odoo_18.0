@@ -13,6 +13,10 @@ from requests import RequestException
 
 from odoo import _, api, fields, models
 from odoo.exceptions import UserError
+<<<<<<< HEAD
+=======
+from odoo.tools import float_round, float_repr
+>>>>>>> upstream/18.0
 
 SINVOICE_API_URL = 'https://api-vinvoice.viettel.vn/services/einvoiceapplication/api/'
 SINVOICE_TIMEOUT = 60  # They recommend between 60 and 90 seconds, but 60s is already quite long.
@@ -294,8 +298,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'strIssueDate': self._l10n_vn_edi_format_date(self.l10n_vn_edi_issue_date),
                 'transactionUuid': self.l10n_vn_edi_invoice_transaction_id,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -716,12 +723,21 @@ class AccountMove(models.Model):
 
         # When invoicing in a foreign currency, we need to provide the rate, or it will default to 1.
         if self.currency_id.name != 'VND':
+<<<<<<< HEAD
             invoice_data['exchangeRate'] = self.env['res.currency']._get_conversion_rate(
+=======
+            # Sinvoice only allow upto 2 decimal place for exchange rate
+            exchange_rate = self.env['res.currency']._get_conversion_rate(
+>>>>>>> upstream/18.0
                 from_currency=self.currency_id,
                 to_currency=self.env.ref('base.VND'),
                 company=self.company_id,
                 date=self.invoice_date or self.date,
             )
+<<<<<<< HEAD
+=======
+            invoice_data['exchangeRate'] = float_repr(float_round(exchange_rate, 2), 2)
+>>>>>>> upstream/18.0
 
         adjustment_origin_invoice = None
         if self.move_type == 'out_refund':  # Credit note are used to adjust an existing invoice
@@ -871,8 +887,12 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'buyerDistrictName': self.partner_id.state_id.name,
             'buyerCityName': self.partner_id.city,
+=======
+            'buyerCityName': self.partner_id.city or self.partner_id.state_id.name,
+>>>>>>> upstream/18.0
 =======
             'buyerCityName': self.partner_id.city or self.partner_id.state_id.name,
 >>>>>>> upstream/18.0
@@ -1412,7 +1432,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'itemTotalAmountWithoutTax': line.currency_id.round(line.price_unit * line.quantity) * sign,
+=======
+                'itemTotalAmountWithoutTax': line.currency_id.round(line.price_unit * line.quantity),
+>>>>>>> upstream/18.0
 =======
                 'itemTotalAmountWithoutTax': line.currency_id.round(line.price_unit * line.quantity),
 >>>>>>> upstream/18.0
@@ -1885,11 +1909,14 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'taxAmount': (line.price_total - line.price_subtotal) * sign,
                 'discount': line.discount,
                 'itemTotalAmountAfterDiscount': line.price_subtotal * sign,
                 'itemTotalAmountWithTax': line.price_total * sign,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2242,6 +2269,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

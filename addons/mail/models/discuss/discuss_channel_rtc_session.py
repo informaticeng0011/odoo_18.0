@@ -156,4 +156,8 @@ class MailRtcSession(models.Model):
 
     @api.model
     def _inactive_rtc_session_domain(self):
+<<<<<<< HEAD
         return [('write_date', '<', fields.Datetime.now() - relativedelta(minutes=1))]
+=======
+        return [('write_date', '<', fields.Datetime.now() - relativedelta(minutes=1, seconds=15))]
+>>>>>>> upstream/18.0

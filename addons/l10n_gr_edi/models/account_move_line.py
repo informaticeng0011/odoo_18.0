@@ -138,7 +138,11 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         string='MyDATA Detail Type',
+=======
+        string='Detail Type',
+>>>>>>> upstream/18.0
 =======
         string='Detail Type',
 >>>>>>> upstream/18.0
@@ -613,7 +617,11 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         string='MyDATA Category',
+=======
+        string='myDATA Category',
+>>>>>>> upstream/18.0
 =======
         string='myDATA Category',
 >>>>>>> upstream/18.0
@@ -1088,7 +1096,11 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         string='MyDATA Type',
+=======
+        string='myDATA Type',
+>>>>>>> upstream/18.0
 =======
         string='myDATA Type',
 >>>>>>> upstream/18.0
@@ -1563,7 +1575,11 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         string='MyDATA VAT Classification',
+=======
+        string='VAT Classification',
+>>>>>>> upstream/18.0
 =======
         string='VAT Classification',
 >>>>>>> upstream/18.0
@@ -2038,7 +2054,11 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         string='MyDATA Tax Exemption Category',
+=======
+        string='Tax Exemption Category',
+>>>>>>> upstream/18.0
 =======
         string='Tax Exemption Category',
 >>>>>>> upstream/18.0
@@ -2600,7 +2620,10 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2967,6 +2990,9 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

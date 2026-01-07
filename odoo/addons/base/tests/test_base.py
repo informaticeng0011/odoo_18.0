@@ -122,7 +122,10 @@ class TestParentStore(TransactionCase):
         self.assertFalse(new_struct & old_struct, "After duplication, nodes should not be mixed")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_missing_parent(self):
         """ Missing parent id should not raise an error. """
         # Missing parent with _parent_store
@@ -149,6 +152,9 @@ class TestParentStore(TransactionCase):
         records = category.search([('parent_id', 'child_of', 999999999)])
         self.assertEqual(len(records), 0)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_duplicate_children_01(self):
         """ Duplicate the children then reassign them to the new parent (1st method). """
@@ -340,6 +346,12 @@ class TestGroups(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        groups = all_groups.search([('full_name', 'like', '/')])
+        self.assertTrue(groups, "did not match search for '/'")
+
+>>>>>>> upstream/18.0
 =======
         groups = all_groups.search([('full_name', 'like', '/')])
         self.assertTrue(groups, "did not match search for '/'")
