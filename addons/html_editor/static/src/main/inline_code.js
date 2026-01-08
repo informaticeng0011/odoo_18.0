@@ -1,13 +1,32 @@
 import { Plugin } from "@html_editor/plugin";
 import { splitTextNode } from "@html_editor/utils/dom";
+<<<<<<< HEAD
 import { closestElement } from "@html_editor/utils/dom_traversal";
+=======
+import { closestElement, selectElements } from "@html_editor/utils/dom_traversal";
+>>>>>>> upstream/18.0
 import { DIRECTIONS } from "@html_editor/utils/position";
 
 export class InlineCodePlugin extends Plugin {
     static id = "inlineCode";
+<<<<<<< HEAD
     static dependencies = ["selection", "history", "input"];
     resources = {
         input_handlers: this.onInput.bind(this),
+=======
+    static dependencies = ["selection", "history", "input", "feff"];
+    resources = {
+        input_handlers: this.onInput.bind(this),
+        normalize_handlers: this.normalize.bind(this),
+        feff_providers: (root, cursors) => {
+            const result = [];
+            for (const node of selectElements(root, "code.o_inline_code:last-child")) {
+                const feff = this.dependencies.feff.addFeff(node, "after", cursors);
+                result.push(feff);
+            }
+            return result;
+        },
+>>>>>>> upstream/18.0
     };
 
     onInput(ev) {
@@ -212,11 +231,14 @@ export class InlineCodePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.dependencies.selection.setSelection({ anchorNode: textNode, anchorOffset: offset });
         const textHasTwoTicks = /`.*`/.test(textNode.textContent);
         // We don't apply the code tag if there is no content between the two `
         if (textHasTwoTicks && textNode.textContent.replace(/`/g, "").length) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -758,6 +780,9 @@ export class InlineCodePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1173,4 +1198,13 @@ export class InlineCodePlugin extends Plugin {
         }
         this.dependencies.history.addStep();
     }
+<<<<<<< HEAD
+=======
+
+    normalize(rootEl) {
+        for (const el of selectElements(rootEl, "code.o_inline_code[data-oe-zws-empty-inline]")) {
+            el.remove();
+        }
+    }
+>>>>>>> upstream/18.0
 }

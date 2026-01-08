@@ -77,7 +77,11 @@ class TestUBLDKOIOUBL21(TestUBLCommon, TestAccountMoveSendCommon):
         cls.dk_local_purchase_tax_goods = cls.env["account.chart.template"].ref('tax_k1')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     def create_post_and_send_invoice(self, partner=None, move_type='out_invoice'):
+=======
+    def create_post_and_send_invoice(self, partner=None, move_type='out_invoice', send=True):
+>>>>>>> upstream/18.0
 =======
     def create_post_and_send_invoice(self, partner=None, move_type='out_invoice', send=True):
 >>>>>>> upstream/18.0
@@ -117,6 +121,7 @@ class TestUBLDKOIOUBL21(TestUBLCommon, TestAccountMoveSendCommon):
         })
         invoice.action_post()
 <<<<<<< HEAD
+<<<<<<< HEAD
         with patch('odoo.addons.l10n_dk_nemhandel.models.res_partner.ResPartner._get_nemhandel_verification_state', return_value='not_valid'):
             wizard = self.env['account.move.send.wizard'] \
                 .with_context(active_model=invoice._name, active_ids=invoice.ids) \
@@ -124,6 +129,8 @@ class TestUBLDKOIOUBL21(TestUBLCommon, TestAccountMoveSendCommon):
             wizard.action_send_and_print()
         return invoice
 =======
+=======
+>>>>>>> upstream/18.0
         if send:
             self._send_patched(invoice)
         return invoice
@@ -135,6 +142,9 @@ class TestUBLDKOIOUBL21(TestUBLCommon, TestAccountMoveSendCommon):
                 .with_context(active_model=invoice._name, active_ids=invoice.ids) \
                 .create({})
             wizard.action_send_and_print()
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     @classmethod
@@ -186,8 +196,11 @@ class TestUBLDKOIOUBL21(TestUBLCommon, TestAccountMoveSendCommon):
     @freeze_time('2017-01-01')
     def test_export_credit_note_partner_dk(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
         refund = self.create_post_and_send_invoice(move_type='out_refund')
 =======
+=======
+>>>>>>> upstream/18.0
         """ Check the export of a credit note that has been partially paid """
         refund = self.create_post_and_send_invoice(move_type='out_refund', send=False)
         self.env['account.payment.register'].with_context(active_model='account.move', active_ids=refund.ids).create({
@@ -195,6 +208,9 @@ class TestUBLDKOIOUBL21(TestUBLCommon, TestAccountMoveSendCommon):
         })._create_payments()
 
         self._send_patched(refund)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         self.assertTrue(refund.ubl_cii_xml_id)
         self._assert_invoice_attachment(refund.ubl_cii_xml_id, xpaths=None, expected_file_path="from_odoo/oioubl_out_refund_partner_dk.xml")
@@ -221,7 +237,10 @@ class TestUBLDKOIOUBL21(TestUBLCommon, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -257,12 +276,16 @@ class TestUBLDKOIOUBL21(TestUBLCommon, TestAccountMoveSendCommon):
         })
         invoice.action_post()
 <<<<<<< HEAD
+<<<<<<< HEAD
         with patch('odoo.addons.l10n_dk_nemhandel.models.res_partner.ResPartner._get_nemhandel_verification_state',
                    return_value='not_valid'):
             wizard = self.env['account.move.send.wizard'] \
                 .with_context(active_model=invoice._name, active_ids=invoice.ids) \
                 .create({})
             wizard.action_send_and_print()
+=======
+        self._send_patched(invoice)
+>>>>>>> upstream/18.0
 =======
         self._send_patched(invoice)
 >>>>>>> upstream/18.0
@@ -279,6 +302,9 @@ class TestUBLDKOIOUBL21(TestUBLCommon, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

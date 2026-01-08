@@ -76,6 +76,14 @@ export function deleteText(charSize, offset, direction, alreadyMoved) {
         }
         return;
     }
+<<<<<<< HEAD
+=======
+    // Intentionally very specific hack to remove empty CODE elements.
+    if (parentElement.tagName === "CODE" && !parentElement.textContent.length) {
+        parentElement.remove();
+        return;
+    }
+>>>>>>> upstream/18.0
     fillEmpty(parentElement);
     setSelection(parentElement, firstSplitOffset);
 }
@@ -152,6 +160,10 @@ HTMLElement.prototype.oDeleteForward = function (offset) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        const parentEl = firstLeafNode.parentElement;
+>>>>>>> upstream/18.0
 =======
         const parentEl = firstLeafNode.parentElement;
 >>>>>>> upstream/18.0
@@ -182,6 +194,10 @@ HTMLElement.prototype.oDeleteForward = function (offset) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        fillEmpty(parentEl);
+>>>>>>> upstream/18.0
 =======
         fillEmpty(parentEl);
 >>>>>>> upstream/18.0

@@ -13,7 +13,11 @@ DELETE FROM ir_config_parameter
 TRUNCATE mail_push;
 -- * delete Devices for each partners
 <<<<<<< HEAD
+<<<<<<< HEAD
 TRUNCATE mail_push_device CASCADE;
+=======
+DELETE FROM mail_push_device;
+>>>>>>> upstream/18.0
 =======
 DELETE FROM mail_push_device;
 >>>>>>> upstream/18.0

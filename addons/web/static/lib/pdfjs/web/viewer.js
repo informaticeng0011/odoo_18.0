@@ -32,7 +32,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * Copyright 2023 Mozilla Foundation
+=======
+ * Copyright 2024 Mozilla Foundation
+>>>>>>> upstream/18.0
 =======
  * Copyright 2024 Mozilla Foundation
 >>>>>>> upstream/18.0
@@ -201,7 +205,11 @@ __webpack_require__.d(__webpack_exports__, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./web/ui_utils.js
+=======
+;// ./web/ui_utils.js
+>>>>>>> upstream/18.0
 =======
 ;// ./web/ui_utils.js
 >>>>>>> upstream/18.0
@@ -375,6 +383,7 @@ const AutoPrintRegExp = /\bprint\s*\(/;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class OutputScale {
   constructor() {
     const pixelRatio = window.devicePixelRatio || 1;
@@ -385,6 +394,8 @@ class OutputScale {
     return this.sx !== 1 || this.sy !== 1;
   }
 }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -502,7 +513,11 @@ function scrollIntoView(element, spot, scrollMatches = false) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 function watchScroll(viewAreaElement, callback) {
+=======
+function watchScroll(viewAreaElement, callback, abortSignal = undefined) {
+>>>>>>> upstream/18.0
 =======
 function watchScroll(viewAreaElement, callback, abortSignal = undefined) {
 >>>>>>> upstream/18.0
@@ -652,8 +667,11 @@ function watchScroll(viewAreaElement, callback, abortSignal = undefined) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   viewAreaElement.addEventListener("scroll", debounceScroll, true);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -748,6 +766,9 @@ function watchScroll(viewAreaElement, callback, abortSignal = undefined) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -914,9 +935,14 @@ function approximateFraction(x) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 function roundToDivide(x, div) {
   const r = x % div;
   return r === 0 ? x : Math.round(x - r + div);
+=======
+function floorToDivide(x, div) {
+  return x - x % div;
+>>>>>>> upstream/18.0
 =======
 function floorToDivide(x, div) {
   return x - x % div;
@@ -1255,7 +1281,11 @@ class ProgressBar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (isNaN(this.#percent)) {
+=======
+    if (this.#percent === 100 || isNaN(this.#percent)) {
+>>>>>>> upstream/18.0
 =======
     if (this.#percent === 100 || isNaN(this.#percent)) {
 >>>>>>> upstream/18.0
@@ -1461,11 +1491,14 @@ function toggleExpandedBtn(button, toggle, view = null) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ;// CONCATENATED MODULE: ./web/app_options.js
 {
   var compatibilityParams = Object.create(null);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1562,6 +1595,9 @@ const calcRound = function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1656,10 +1692,13 @@ const calcRound = function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   (function checkCanvasSizeLimitation() {
     if (isIOS || isAndroid) {
       compatibilityParams.maxCanvasPixels = 5242880;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1755,6 +1794,9 @@ const calcRound = function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1852,10 +1894,13 @@ const OptionKind = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   PREFERENCE: 0x80
 };
 const defaultOptions = {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1958,6 +2003,9 @@ const defaultOptions = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2055,7 +2103,10 @@ const defaultOptions = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2153,6 +2204,9 @@ const defaultOptions = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2266,7 +2320,10 @@ const defaultOptions = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2362,6 +2419,9 @@ const defaultOptions = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2483,11 +2543,14 @@ const defaultOptions = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   enableHighlightEditor: {
     value: false,
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE
   },
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2587,6 +2650,9 @@ const defaultOptions = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2680,8 +2746,13 @@ const defaultOptions = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   enableML: {
     value: false,
+=======
+  enableNewAltTextWhenAddingImage: {
+    value: true,
+>>>>>>> upstream/18.0
 =======
   enableNewAltTextWhenAddingImage: {
     value: true,
@@ -2846,8 +2917,13 @@ const defaultOptions = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   enableStampEditor: {
     value: true,
+=======
+  enableUpdatedAddImage: {
+    value: false,
+>>>>>>> upstream/18.0
 =======
   enableUpdatedAddImage: {
     value: false,
@@ -3096,7 +3172,10 @@ const defaultOptions = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3188,6 +3267,9 @@ const defaultOptions = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3305,7 +3387,10 @@ const defaultOptions = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3398,6 +3483,9 @@ const defaultOptions = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3513,7 +3601,10 @@ const defaultOptions = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3605,6 +3696,9 @@ const defaultOptions = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3700,6 +3794,7 @@ const defaultOptions = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   defaultOptions.locale = {
     value: navigator.language || "en-US",
     kind: OptionKind.VIEWER
@@ -3718,6 +3813,8 @@ class AppOptions {
   static get(name) {
     return userOptions[name] ?? defaultOptions[name]?.value ?? undefined;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3829,6 +3926,9 @@ class AppOptions {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3892,6 +3992,7 @@ class AppOptions {
   static getAll(kind = null, defaultOnly = false) {
     const options = Object.create(null);
     for (const name in defaultOptions) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3986,6 +4087,8 @@ class AppOptions {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
       const defaultOpt = defaultOptions[name];
       if (kind && !(kind & defaultOpt.kind)) {
         continue;
@@ -4020,6 +4123,9 @@ class AppOptions {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4113,6 +4219,7 @@ class AppOptions {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     userOptions[name] = value;
   }
   static setAll(options, init = false) {
@@ -4138,6 +4245,8 @@ class AppOptions {
     if (val !== undefined) {
       userOptions[name] = val;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4256,6 +4365,9 @@ class AppOptions {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4349,7 +4461,11 @@ class AppOptions {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./web/pdf_link_service.js
+=======
+;// ./web/pdf_link_service.js
+>>>>>>> upstream/18.0
 =======
 ;// ./web/pdf_link_service.js
 >>>>>>> upstream/18.0
@@ -4775,11 +4891,14 @@ class PDFLinkService {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     let allowNull = true;
     switch (zoom.name) {
       case "XYZ":
         if (args.length !== 3) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4872,6 +4991,9 @@ class PDFLinkService {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4966,7 +5088,11 @@ class PDFLinkService {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return args.length === 0;
+=======
+        return argsLen === 0;
+>>>>>>> upstream/18.0
 =======
         return argsLen === 0;
 >>>>>>> upstream/18.0
@@ -5091,7 +5217,11 @@ class PDFLinkService {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (args.length !== 1) {
+=======
+        if (argsLen > 1) {
+>>>>>>> upstream/18.0
 =======
         if (argsLen > 1) {
 >>>>>>> upstream/18.0
@@ -5216,7 +5346,11 @@ class PDFLinkService {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (args.length !== 4) {
+=======
+        if (argsLen !== 4) {
+>>>>>>> upstream/18.0
 =======
         if (argsLen !== 4) {
 >>>>>>> upstream/18.0
@@ -5356,7 +5490,11 @@ class SimpleLinkService extends PDFLinkService {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./web/pdfjs.js
+=======
+;// ./web/pdfjs.js
+>>>>>>> upstream/18.0
 =======
 ;// ./web/pdfjs.js
 >>>>>>> upstream/18.0
@@ -5486,7 +5624,10 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   CMapCompressionType,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5596,7 +5737,11 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   Outliner,
+=======
+  OutputScale,
+>>>>>>> upstream/18.0
 =======
   OutputScale,
 >>>>>>> upstream/18.0
@@ -5724,7 +5869,10 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   renderTextLayer,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5819,7 +5967,10 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   updateTextLayer,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5916,7 +6067,11 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./web/event_utils.js
+=======
+;// ./web/event_utils.js
+>>>>>>> upstream/18.0
 =======
 ;// ./web/event_utils.js
 >>>>>>> upstream/18.0
@@ -6142,6 +6297,7 @@ class EventBus {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class AutomationEventBus extends EventBus {
   dispatch(eventName, data) {
     throw new Error("Not implemented: AutomationEventBus.dispatch");
@@ -6156,6 +6312,8 @@ class BaseExternalServices {
     }
   }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6260,6 +6418,9 @@ class BaseExternalServices {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6332,6 +6493,7 @@ class BaseExternalServices {
   updateEditorStates(data) {
     throw new Error("Not implemented: updateEditorStates");
   }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6440,6 +6602,8 @@ class BasePreferences {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
   dispatchGlobalEvent(_event) {}
 }
 
@@ -6478,6 +6642,9 @@ class BasePreferences {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6572,10 +6739,13 @@ class BasePreferences {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     enableHighlightEditor: false,
     enableHighlightFloatingButton: false,
     enableML: false,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6668,6 +6838,9 @@ class BasePreferences {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6761,8 +6934,12 @@ class BasePreferences {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     // Odoo: disable stamp editor
     enableStampEditor: false,
+=======
+    enableUpdatedAddImage: false,
+>>>>>>> upstream/18.0
 =======
     enableUpdatedAddImage: false,
 >>>>>>> upstream/18.0
@@ -6901,6 +7078,7 @@ class BasePreferences {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     enableXfa: true,
     // Odoo: support dark mode
     viewerCssTheme: document.cookie.includes("color_scheme=dark") ? 2 : 1
@@ -6912,6 +7090,8 @@ class BasePreferences {
       throw new Error("Cannot initialize BasePreferences.");
     }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7006,6 +7186,9 @@ class BasePreferences {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7069,6 +7252,7 @@ class BasePreferences {
       browserPrefs,
       prefs
     }) => {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7168,6 +7352,8 @@ class BasePreferences {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
       if (AppOptions._checkDisablePreferences()) {
         return;
       }
@@ -7204,6 +7390,9 @@ class BasePreferences {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7271,6 +7460,7 @@ class BasePreferences {
   async _readFromStorage(prefObj) {
     throw new Error("Not implemented: _readFromStorage");
   }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7412,6 +7602,8 @@ class BasePreferences {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
   async reset() {
     await this.#initializedPromise;
     AppOptions.setAll(this.#defaults, true);
@@ -7456,6 +7648,9 @@ class BasePreferences {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7551,7 +7746,11 @@ class BasePreferences {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./node_modules/@fluent/bundle/esm/types.js
+=======
+;// ./node_modules/@fluent/bundle/esm/types.js
+>>>>>>> upstream/18.0
 =======
 ;// ./node_modules/@fluent/bundle/esm/types.js
 >>>>>>> upstream/18.0
@@ -7718,7 +7917,11 @@ class FluentDateTime extends FluentType {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./node_modules/@fluent/bundle/esm/resolver.js
+=======
+;// ./node_modules/@fluent/bundle/esm/resolver.js
+>>>>>>> upstream/18.0
 =======
 ;// ./node_modules/@fluent/bundle/esm/resolver.js
 >>>>>>> upstream/18.0
@@ -8058,7 +8261,11 @@ function resolvePattern(scope, value) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./node_modules/@fluent/bundle/esm/scope.js
+=======
+;// ./node_modules/@fluent/bundle/esm/scope.js
+>>>>>>> upstream/18.0
 =======
 ;// ./node_modules/@fluent/bundle/esm/scope.js
 >>>>>>> upstream/18.0
@@ -8207,7 +8414,11 @@ class Scope {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./node_modules/@fluent/bundle/esm/builtins.js
+=======
+;// ./node_modules/@fluent/bundle/esm/builtins.js
+>>>>>>> upstream/18.0
 =======
 ;// ./node_modules/@fluent/bundle/esm/builtins.js
 >>>>>>> upstream/18.0
@@ -8376,7 +8587,11 @@ function DATETIME(args, opts) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./node_modules/@fluent/bundle/esm/memoizer.js
+=======
+;// ./node_modules/@fluent/bundle/esm/memoizer.js
+>>>>>>> upstream/18.0
 =======
 ;// ./node_modules/@fluent/bundle/esm/memoizer.js
 >>>>>>> upstream/18.0
@@ -8507,7 +8722,11 @@ function getMemoizerForLocale(locales) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./node_modules/@fluent/bundle/esm/bundle.js
+=======
+;// ./node_modules/@fluent/bundle/esm/bundle.js
+>>>>>>> upstream/18.0
 =======
 ;// ./node_modules/@fluent/bundle/esm/bundle.js
 >>>>>>> upstream/18.0
@@ -8696,7 +8915,11 @@ class FluentBundle {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./node_modules/@fluent/bundle/esm/resource.js
+=======
+;// ./node_modules/@fluent/bundle/esm/resource.js
+>>>>>>> upstream/18.0
 =======
 ;// ./node_modules/@fluent/bundle/esm/resource.js
 >>>>>>> upstream/18.0
@@ -9195,12 +9418,15 @@ class Indent {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./node_modules/@fluent/bundle/esm/index.js
 
 
 
 ;// CONCATENATED MODULE: ./node_modules/@fluent/dom/esm/overlay.js
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9293,6 +9519,9 @@ class Indent {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9532,7 +9761,11 @@ function shallowPopulateUsing(fromElement, toElement) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./node_modules/cached-iterable/src/cached_iterable.js
+=======
+;// ./node_modules/cached-iterable/src/cached_iterable.mjs
+>>>>>>> upstream/18.0
 =======
 ;// ./node_modules/cached-iterable/src/cached_iterable.mjs
 >>>>>>> upstream/18.0
@@ -9661,7 +9894,11 @@ class CachedIterable extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./node_modules/cached-iterable/src/cached_sync_iterable.js
+=======
+;// ./node_modules/cached-iterable/src/cached_sync_iterable.mjs
+>>>>>>> upstream/18.0
 =======
 ;// ./node_modules/cached-iterable/src/cached_sync_iterable.mjs
 >>>>>>> upstream/18.0
@@ -9816,7 +10053,11 @@ class CachedSyncIterable extends CachedIterable {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./node_modules/cached-iterable/src/cached_async_iterable.js
+=======
+;// ./node_modules/cached-iterable/src/cached_async_iterable.mjs
+>>>>>>> upstream/18.0
 =======
 ;// ./node_modules/cached-iterable/src/cached_async_iterable.mjs
 >>>>>>> upstream/18.0
@@ -9973,11 +10214,14 @@ class CachedAsyncIterable extends CachedIterable {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./node_modules/cached-iterable/src/index.js
 
 
 ;// CONCATENATED MODULE: ./node_modules/@fluent/dom/esm/localization.js
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10069,6 +10313,9 @@ class CachedAsyncIterable extends CachedIterable {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10272,7 +10519,11 @@ function keysFromBundle(method, bundle, keys, translations) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./node_modules/@fluent/dom/esm/dom_localization.js
+=======
+;// ./node_modules/@fluent/dom/esm/dom_localization.js
+>>>>>>> upstream/18.0
 =======
 ;// ./node_modules/@fluent/dom/esm/dom_localization.js
 >>>>>>> upstream/18.0
@@ -10458,6 +10709,12 @@ class DOMLocalization extends Localization {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      if (this.windowElement && this.pendingrAF) {
+        this.windowElement.cancelAnimationFrame(this.pendingrAF);
+      }
+>>>>>>> upstream/18.0
 =======
       if (this.windowElement && this.pendingrAF) {
         this.windowElement.cancelAnimationFrame(this.pendingrAF);
@@ -10732,6 +10989,7 @@ class DOMLocalization extends Localization {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./node_modules/@fluent/dom/esm/index.js
 
 
@@ -10739,6 +10997,8 @@ class DOMLocalization extends Localization {
 class L10n {
   #dir;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10833,6 +11093,9 @@ class L10n {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10953,10 +11216,13 @@ class L10n {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return messages?.[0].value || fallback;
   }
   async translate(element) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11048,6 +11314,9 @@ class L10n {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11142,7 +11411,10 @@ class L10n {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11247,6 +11519,9 @@ class L10n {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11369,7 +11644,11 @@ const GenericL10n = null;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./web/genericl10n.js
+=======
+;// ./web/genericl10n.js
+>>>>>>> upstream/18.0
 =======
 ;// ./web/genericl10n.js
 >>>>>>> upstream/18.0
@@ -11528,8 +11807,12 @@ class genericl10n_GenericL10n extends L10n {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       }
       if (lang === "en-us") {
+=======
+      } else if (lang === "en-us") {
+>>>>>>> upstream/18.0
 =======
       } else if (lang === "en-us") {
 >>>>>>> upstream/18.0
@@ -11683,7 +11966,11 @@ class genericl10n_GenericL10n extends L10n {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const text = "pdfjs-previous-button =\n    .title = Previous Page\npdfjs-previous-button-label = Previous\npdfjs-next-button =\n    .title = Next Page\npdfjs-next-button-label = Next\npdfjs-page-input =\n    .title = Page\npdfjs-of-pages = of { $pagesCount }\npdfjs-page-of-pages = ({ $pageNumber } of { $pagesCount })\npdfjs-zoom-out-button =\n    .title = Zoom Out\npdfjs-zoom-out-button-label = Zoom Out\npdfjs-zoom-in-button =\n    .title = Zoom In\npdfjs-zoom-in-button-label = Zoom In\npdfjs-zoom-select =\n    .title = Zoom\npdfjs-presentation-mode-button =\n    .title = Switch to Presentation Mode\npdfjs-presentation-mode-button-label = Presentation Mode\npdfjs-open-file-button =\n    .title = Open File\npdfjs-open-file-button-label = Open\npdfjs-print-button =\n    .title = Print\npdfjs-print-button-label = Print\npdfjs-save-button =\n    .title = Save\npdfjs-save-button-label = Save\npdfjs-download-button =\n    .title = Download\npdfjs-download-button-label = Download\npdfjs-bookmark-button =\n    .title = Current Page (View URL from Current Page)\npdfjs-bookmark-button-label = Current Page\npdfjs-tools-button =\n    .title = Tools\npdfjs-tools-button-label = Tools\npdfjs-first-page-button =\n    .title = Go to First Page\npdfjs-first-page-button-label = Go to First Page\npdfjs-last-page-button =\n    .title = Go to Last Page\npdfjs-last-page-button-label = Go to Last Page\npdfjs-page-rotate-cw-button =\n    .title = Rotate Clockwise\npdfjs-page-rotate-cw-button-label = Rotate Clockwise\npdfjs-page-rotate-ccw-button =\n    .title = Rotate Counterclockwise\npdfjs-page-rotate-ccw-button-label = Rotate Counterclockwise\npdfjs-cursor-text-select-tool-button =\n    .title = Enable Text Selection Tool\npdfjs-cursor-text-select-tool-button-label = Text Selection Tool\npdfjs-cursor-hand-tool-button =\n    .title = Enable Hand Tool\npdfjs-cursor-hand-tool-button-label = Hand Tool\npdfjs-scroll-page-button =\n    .title = Use Page Scrolling\npdfjs-scroll-page-button-label = Page Scrolling\npdfjs-scroll-vertical-button =\n    .title = Use Vertical Scrolling\npdfjs-scroll-vertical-button-label = Vertical Scrolling\npdfjs-scroll-horizontal-button =\n    .title = Use Horizontal Scrolling\npdfjs-scroll-horizontal-button-label = Horizontal Scrolling\npdfjs-scroll-wrapped-button =\n    .title = Use Wrapped Scrolling\npdfjs-scroll-wrapped-button-label = Wrapped Scrolling\npdfjs-spread-none-button =\n    .title = Do not join page spreads\npdfjs-spread-none-button-label = No Spreads\npdfjs-spread-odd-button =\n    .title = Join page spreads starting with odd-numbered pages\npdfjs-spread-odd-button-label = Odd Spreads\npdfjs-spread-even-button =\n    .title = Join page spreads starting with even-numbered pages\npdfjs-spread-even-button-label = Even Spreads\npdfjs-document-properties-button =\n    .title = Document Properties\u2026\npdfjs-document-properties-button-label = Document Properties\u2026\npdfjs-document-properties-file-name = File name:\npdfjs-document-properties-file-size = File size:\npdfjs-document-properties-kb = { $size_kb } KB ({ $size_b } bytes)\npdfjs-document-properties-mb = { $size_mb } MB ({ $size_b } bytes)\npdfjs-document-properties-title = Title:\npdfjs-document-properties-author = Author:\npdfjs-document-properties-subject = Subject:\npdfjs-document-properties-keywords = Keywords:\npdfjs-document-properties-creation-date = Creation Date:\npdfjs-document-properties-modification-date = Modification Date:\npdfjs-document-properties-date-string = { $date }, { $time }\npdfjs-document-properties-creator = Creator:\npdfjs-document-properties-producer = PDF Producer:\npdfjs-document-properties-version = PDF Version:\npdfjs-document-properties-page-count = Page Count:\npdfjs-document-properties-page-size = Page Size:\npdfjs-document-properties-page-size-unit-inches = in\npdfjs-document-properties-page-size-unit-millimeters = mm\npdfjs-document-properties-page-size-orientation-portrait = portrait\npdfjs-document-properties-page-size-orientation-landscape = landscape\npdfjs-document-properties-page-size-name-a-three = A3\npdfjs-document-properties-page-size-name-a-four = A4\npdfjs-document-properties-page-size-name-letter = Letter\npdfjs-document-properties-page-size-name-legal = Legal\npdfjs-document-properties-page-size-dimension-string = { $width } \xD7 { $height } { $unit } ({ $orientation })\npdfjs-document-properties-page-size-dimension-name-string = { $width } \xD7 { $height } { $unit } ({ $name }, { $orientation })\npdfjs-document-properties-linearized = Fast Web View:\npdfjs-document-properties-linearized-yes = Yes\npdfjs-document-properties-linearized-no = No\npdfjs-document-properties-close-button = Close\npdfjs-print-progress-message = Preparing document for printing\u2026\npdfjs-print-progress-percent = { $progress }%\npdfjs-print-progress-close-button = Cancel\npdfjs-printing-not-supported = Warning: Printing is not fully supported by this browser.\npdfjs-printing-not-ready = Warning: The PDF is not fully loaded for printing.\npdfjs-toggle-sidebar-button =\n    .title = Toggle Sidebar\npdfjs-toggle-sidebar-notification-button =\n    .title = Toggle Sidebar (document contains outline/attachments/layers)\npdfjs-toggle-sidebar-button-label = Toggle Sidebar\npdfjs-document-outline-button =\n    .title = Show Document Outline (double-click to expand/collapse all items)\npdfjs-document-outline-button-label = Document Outline\npdfjs-attachments-button =\n    .title = Show Attachments\npdfjs-attachments-button-label = Attachments\npdfjs-layers-button =\n    .title = Show Layers (double-click to reset all layers to the default state)\npdfjs-layers-button-label = Layers\npdfjs-thumbs-button =\n    .title = Show Thumbnails\npdfjs-thumbs-button-label = Thumbnails\npdfjs-current-outline-item-button =\n    .title = Find Current Outline Item\npdfjs-current-outline-item-button-label = Current Outline Item\npdfjs-findbar-button =\n    .title = Find in Document\npdfjs-findbar-button-label = Find\npdfjs-additional-layers = Additional Layers\npdfjs-thumb-page-title =\n    .title = Page { $page }\npdfjs-thumb-page-canvas =\n    .aria-label = Thumbnail of Page { $page }\npdfjs-find-input =\n    .title = Find\n    .placeholder = Find in document\u2026\npdfjs-find-previous-button =\n    .title = Find the previous occurrence of the phrase\npdfjs-find-previous-button-label = Previous\npdfjs-find-next-button =\n    .title = Find the next occurrence of the phrase\npdfjs-find-next-button-label = Next\npdfjs-find-highlight-checkbox = Highlight All\npdfjs-find-match-case-checkbox-label = Match Case\npdfjs-find-match-diacritics-checkbox-label = Match Diacritics\npdfjs-find-entire-word-checkbox-label = Whole Words\npdfjs-find-reached-top = Reached top of document, continued from bottom\npdfjs-find-reached-bottom = Reached end of document, continued from top\npdfjs-find-match-count =\n    { $total ->\n        [one] { $current } of { $total } match\n       *[other] { $current } of { $total } matches\n    }\npdfjs-find-match-count-limit =\n    { $limit ->\n        [one] More than { $limit } match\n       *[other] More than { $limit } matches\n    }\npdfjs-find-not-found = Phrase not found\npdfjs-page-scale-width = Page Width\npdfjs-page-scale-fit = Page Fit\npdfjs-page-scale-auto = Automatic Zoom\npdfjs-page-scale-actual = Actual Size\npdfjs-page-scale-percent = { $scale }%\npdfjs-page-landmark =\n    .aria-label = Page { $page }\npdfjs-loading-error = An error occurred while loading the PDF.\npdfjs-invalid-file-error = Invalid or corrupted PDF file.\npdfjs-missing-file-error = Missing PDF file.\npdfjs-unexpected-response-error = Unexpected server response.\npdfjs-rendering-error = An error occurred while rendering the page.\npdfjs-annotation-date-string = { $date }, { $time }\npdfjs-text-annotation-type =\n    .alt = [{ $type } Annotation]\npdfjs-password-label = Enter the password to open this PDF file.\npdfjs-password-invalid = Invalid password. Please try again.\npdfjs-password-ok-button = OK\npdfjs-password-cancel-button = Cancel\npdfjs-web-fonts-disabled = Web fonts are disabled: unable to use embedded PDF fonts.\npdfjs-editor-free-text-button =\n    .title = Text\npdfjs-editor-free-text-button-label = Text\npdfjs-editor-ink-button =\n    .title = Draw\npdfjs-editor-ink-button-label = Draw\npdfjs-editor-stamp-button =\n    .title = Add or edit images\npdfjs-editor-stamp-button-label = Add or edit images\npdfjs-editor-highlight-button =\n    .title = Highlight\npdfjs-editor-highlight-button-label = Highlight\npdfjs-highlight-floating-button1 =\n    .title = Highlight\n    .aria-label = Highlight\npdfjs-highlight-floating-button-label = Highlight\npdfjs-editor-remove-ink-button =\n    .title = Remove drawing\npdfjs-editor-remove-freetext-button =\n    .title = Remove text\npdfjs-editor-remove-stamp-button =\n    .title = Remove image\npdfjs-editor-remove-highlight-button =\n    .title = Remove highlight\npdfjs-editor-free-text-color-input = Color\npdfjs-editor-free-text-size-input = Size\npdfjs-editor-ink-color-input = Color\npdfjs-editor-ink-thickness-input = Thickness\npdfjs-editor-ink-opacity-input = Opacity\npdfjs-editor-stamp-add-image-button =\n    .title = Add image\npdfjs-editor-stamp-add-image-button-label = Add image\npdfjs-editor-free-highlight-thickness-input = Thickness\npdfjs-editor-free-highlight-thickness-title =\n    .title = Change thickness when highlighting items other than text\npdfjs-free-text =\n    .aria-label = Text Editor\npdfjs-free-text-default-content = Start typing\u2026\npdfjs-ink =\n    .aria-label = Draw Editor\npdfjs-ink-canvas =\n    .aria-label = User-created image\npdfjs-editor-alt-text-button-label = Alt text\npdfjs-editor-alt-text-edit-button-label = Edit alt text\npdfjs-editor-alt-text-dialog-label = Choose an option\npdfjs-editor-alt-text-dialog-description = Alt text (alternative text) helps when people can\u2019t see the image or when it doesn\u2019t load.\npdfjs-editor-alt-text-add-description-label = Add a description\npdfjs-editor-alt-text-add-description-description = Aim for 1-2 sentences that describe the subject, setting, or actions.\npdfjs-editor-alt-text-mark-decorative-label = Mark as decorative\npdfjs-editor-alt-text-mark-decorative-description = This is used for ornamental images, like borders or watermarks.\npdfjs-editor-alt-text-cancel-button = Cancel\npdfjs-editor-alt-text-save-button = Save\npdfjs-editor-alt-text-decorative-tooltip = Marked as decorative\npdfjs-editor-alt-text-textarea =\n    .placeholder = For example, \u201CA young man sits down at a table to eat a meal\u201D\npdfjs-editor-resizer-label-top-left = Top left corner \u2014 resize\npdfjs-editor-resizer-label-top-middle = Top middle \u2014 resize\npdfjs-editor-resizer-label-top-right = Top right corner \u2014 resize\npdfjs-editor-resizer-label-middle-right = Middle right \u2014 resize\npdfjs-editor-resizer-label-bottom-right = Bottom right corner \u2014 resize\npdfjs-editor-resizer-label-bottom-middle = Bottom middle \u2014 resize\npdfjs-editor-resizer-label-bottom-left = Bottom left corner \u2014 resize\npdfjs-editor-resizer-label-middle-left = Middle left \u2014 resize\npdfjs-editor-highlight-colorpicker-label = Highlight color\npdfjs-editor-colorpicker-button =\n    .title = Change color\npdfjs-editor-colorpicker-dropdown =\n    .aria-label = Color choices\npdfjs-editor-colorpicker-yellow =\n    .title = Yellow\npdfjs-editor-colorpicker-green =\n    .title = Green\npdfjs-editor-colorpicker-blue =\n    .title = Blue\npdfjs-editor-colorpicker-pink =\n    .title = Pink\npdfjs-editor-colorpicker-red =\n    .title = Red\npdfjs-editor-highlight-show-all-button-label = Show all\npdfjs-editor-highlight-show-all-button =\n    .title = Show all";
+=======
+    const text = "pdfjs-previous-button =\n    .title = Previous Page\npdfjs-previous-button-label = Previous\npdfjs-next-button =\n    .title = Next Page\npdfjs-next-button-label = Next\npdfjs-page-input =\n    .title = Page\npdfjs-of-pages = of { $pagesCount }\npdfjs-page-of-pages = ({ $pageNumber } of { $pagesCount })\npdfjs-zoom-out-button =\n    .title = Zoom Out\npdfjs-zoom-out-button-label = Zoom Out\npdfjs-zoom-in-button =\n    .title = Zoom In\npdfjs-zoom-in-button-label = Zoom In\npdfjs-zoom-select =\n    .title = Zoom\npdfjs-presentation-mode-button =\n    .title = Switch to Presentation Mode\npdfjs-presentation-mode-button-label = Presentation Mode\npdfjs-open-file-button =\n    .title = Open File\npdfjs-open-file-button-label = Open\npdfjs-print-button =\n    .title = Print\npdfjs-print-button-label = Print\npdfjs-save-button =\n    .title = Save\npdfjs-save-button-label = Save\npdfjs-download-button =\n    .title = Download\npdfjs-download-button-label = Download\npdfjs-bookmark-button =\n    .title = Current Page (View URL from Current Page)\npdfjs-bookmark-button-label = Current Page\npdfjs-tools-button =\n    .title = Tools\npdfjs-tools-button-label = Tools\npdfjs-first-page-button =\n    .title = Go to First Page\npdfjs-first-page-button-label = Go to First Page\npdfjs-last-page-button =\n    .title = Go to Last Page\npdfjs-last-page-button-label = Go to Last Page\npdfjs-page-rotate-cw-button =\n    .title = Rotate Clockwise\npdfjs-page-rotate-cw-button-label = Rotate Clockwise\npdfjs-page-rotate-ccw-button =\n    .title = Rotate Counterclockwise\npdfjs-page-rotate-ccw-button-label = Rotate Counterclockwise\npdfjs-cursor-text-select-tool-button =\n    .title = Enable Text Selection Tool\npdfjs-cursor-text-select-tool-button-label = Text Selection Tool\npdfjs-cursor-hand-tool-button =\n    .title = Enable Hand Tool\npdfjs-cursor-hand-tool-button-label = Hand Tool\npdfjs-scroll-page-button =\n    .title = Use Page Scrolling\npdfjs-scroll-page-button-label = Page Scrolling\npdfjs-scroll-vertical-button =\n    .title = Use Vertical Scrolling\npdfjs-scroll-vertical-button-label = Vertical Scrolling\npdfjs-scroll-horizontal-button =\n    .title = Use Horizontal Scrolling\npdfjs-scroll-horizontal-button-label = Horizontal Scrolling\npdfjs-scroll-wrapped-button =\n    .title = Use Wrapped Scrolling\npdfjs-scroll-wrapped-button-label = Wrapped Scrolling\npdfjs-spread-none-button =\n    .title = Do not join page spreads\npdfjs-spread-none-button-label = No Spreads\npdfjs-spread-odd-button =\n    .title = Join page spreads starting with odd-numbered pages\npdfjs-spread-odd-button-label = Odd Spreads\npdfjs-spread-even-button =\n    .title = Join page spreads starting with even-numbered pages\npdfjs-spread-even-button-label = Even Spreads\npdfjs-document-properties-button =\n    .title = Document Properties\u2026\npdfjs-document-properties-button-label = Document Properties\u2026\npdfjs-document-properties-file-name = File name:\npdfjs-document-properties-file-size = File size:\npdfjs-document-properties-size-kb = { NUMBER($kb, maximumSignificantDigits: 3) } KB ({ $b } bytes)\npdfjs-document-properties-size-mb = { NUMBER($mb, maximumSignificantDigits: 3) } MB ({ $b } bytes)\npdfjs-document-properties-title = Title:\npdfjs-document-properties-author = Author:\npdfjs-document-properties-subject = Subject:\npdfjs-document-properties-keywords = Keywords:\npdfjs-document-properties-creation-date = Creation Date:\npdfjs-document-properties-modification-date = Modification Date:\npdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: \"short\", timeStyle: \"medium\") }\npdfjs-document-properties-creator = Creator:\npdfjs-document-properties-producer = PDF Producer:\npdfjs-document-properties-version = PDF Version:\npdfjs-document-properties-page-count = Page Count:\npdfjs-document-properties-page-size = Page Size:\npdfjs-document-properties-page-size-unit-inches = in\npdfjs-document-properties-page-size-unit-millimeters = mm\npdfjs-document-properties-page-size-orientation-portrait = portrait\npdfjs-document-properties-page-size-orientation-landscape = landscape\npdfjs-document-properties-page-size-name-a-three = A3\npdfjs-document-properties-page-size-name-a-four = A4\npdfjs-document-properties-page-size-name-letter = Letter\npdfjs-document-properties-page-size-name-legal = Legal\npdfjs-document-properties-page-size-dimension-string = { $width } \xD7 { $height } { $unit } ({ $orientation })\npdfjs-document-properties-page-size-dimension-name-string = { $width } \xD7 { $height } { $unit } ({ $name }, { $orientation })\npdfjs-document-properties-linearized = Fast Web View:\npdfjs-document-properties-linearized-yes = Yes\npdfjs-document-properties-linearized-no = No\npdfjs-document-properties-close-button = Close\npdfjs-print-progress-message = Preparing document for printing\u2026\npdfjs-print-progress-percent = { $progress }%\npdfjs-print-progress-close-button = Cancel\npdfjs-printing-not-supported = Warning: Printing is not fully supported by this browser.\npdfjs-printing-not-ready = Warning: The PDF is not fully loaded for printing.\npdfjs-toggle-sidebar-button =\n    .title = Toggle Sidebar\npdfjs-toggle-sidebar-notification-button =\n    .title = Toggle Sidebar (document contains outline/attachments/layers)\npdfjs-toggle-sidebar-button-label = Toggle Sidebar\npdfjs-document-outline-button =\n    .title = Show Document Outline (double-click to expand/collapse all items)\npdfjs-document-outline-button-label = Document Outline\npdfjs-attachments-button =\n    .title = Show Attachments\npdfjs-attachments-button-label = Attachments\npdfjs-layers-button =\n    .title = Show Layers (double-click to reset all layers to the default state)\npdfjs-layers-button-label = Layers\npdfjs-thumbs-button =\n    .title = Show Thumbnails\npdfjs-thumbs-button-label = Thumbnails\npdfjs-current-outline-item-button =\n    .title = Find Current Outline Item\npdfjs-current-outline-item-button-label = Current Outline Item\npdfjs-findbar-button =\n    .title = Find in Document\npdfjs-findbar-button-label = Find\npdfjs-additional-layers = Additional Layers\npdfjs-thumb-page-title =\n    .title = Page { $page }\npdfjs-thumb-page-canvas =\n    .aria-label = Thumbnail of Page { $page }\npdfjs-find-input =\n    .title = Find\n    .placeholder = Find in document\u2026\npdfjs-find-previous-button =\n    .title = Find the previous occurrence of the phrase\npdfjs-find-previous-button-label = Previous\npdfjs-find-next-button =\n    .title = Find the next occurrence of the phrase\npdfjs-find-next-button-label = Next\npdfjs-find-highlight-checkbox = Highlight All\npdfjs-find-match-case-checkbox-label = Match Case\npdfjs-find-match-diacritics-checkbox-label = Match Diacritics\npdfjs-find-entire-word-checkbox-label = Whole Words\npdfjs-find-reached-top = Reached top of document, continued from bottom\npdfjs-find-reached-bottom = Reached end of document, continued from top\npdfjs-find-match-count =\n    { $total ->\n        [one] { $current } of { $total } match\n       *[other] { $current } of { $total } matches\n    }\npdfjs-find-match-count-limit =\n    { $limit ->\n        [one] More than { $limit } match\n       *[other] More than { $limit } matches\n    }\npdfjs-find-not-found = Phrase not found\npdfjs-page-scale-width = Page Width\npdfjs-page-scale-fit = Page Fit\npdfjs-page-scale-auto = Automatic Zoom\npdfjs-page-scale-actual = Actual Size\npdfjs-page-scale-percent = { $scale }%\npdfjs-page-landmark =\n    .aria-label = Page { $page }\npdfjs-loading-error = An error occurred while loading the PDF.\npdfjs-invalid-file-error = Invalid or corrupted PDF file.\npdfjs-missing-file-error = Missing PDF file.\npdfjs-unexpected-response-error = Unexpected server response.\npdfjs-rendering-error = An error occurred while rendering the page.\npdfjs-annotation-date-time-string = { DATETIME($dateObj, dateStyle: \"short\", timeStyle: \"medium\") }\npdfjs-text-annotation-type =\n    .alt = [{ $type } Annotation]\npdfjs-password-label = Enter the password to open this PDF file.\npdfjs-password-invalid = Invalid password. Please try again.\npdfjs-password-ok-button = OK\npdfjs-password-cancel-button = Cancel\npdfjs-web-fonts-disabled = Web fonts are disabled: unable to use embedded PDF fonts.\npdfjs-editor-free-text-button =\n    .title = Text\npdfjs-editor-free-text-button-label = Text\npdfjs-editor-ink-button =\n    .title = Draw\npdfjs-editor-ink-button-label = Draw\npdfjs-editor-stamp-button =\n    .title = Add or edit images\npdfjs-editor-stamp-button-label = Add or edit images\npdfjs-editor-highlight-button =\n    .title = Highlight\npdfjs-editor-highlight-button-label = Highlight\npdfjs-highlight-floating-button1 =\n    .title = Highlight\n    .aria-label = Highlight\npdfjs-highlight-floating-button-label = Highlight\npdfjs-editor-remove-ink-button =\n    .title = Remove drawing\npdfjs-editor-remove-freetext-button =\n    .title = Remove text\npdfjs-editor-remove-stamp-button =\n    .title = Remove image\npdfjs-editor-remove-highlight-button =\n    .title = Remove highlight\npdfjs-editor-free-text-color-input = Color\npdfjs-editor-free-text-size-input = Size\npdfjs-editor-ink-color-input = Color\npdfjs-editor-ink-thickness-input = Thickness\npdfjs-editor-ink-opacity-input = Opacity\npdfjs-editor-stamp-add-image-button =\n    .title = Add image\npdfjs-editor-stamp-add-image-button-label = Add image\npdfjs-editor-free-highlight-thickness-input = Thickness\npdfjs-editor-free-highlight-thickness-title =\n    .title = Change thickness when highlighting items other than text\npdfjs-free-text2 =\n    .aria-label = Text Editor\n    .default-content = Start typing\u2026\npdfjs-ink =\n    .aria-label = Draw Editor\npdfjs-ink-canvas =\n    .aria-label = User-created image\npdfjs-editor-alt-text-button =\n    .aria-label = Alt text\npdfjs-editor-alt-text-button-label = Alt text\npdfjs-editor-alt-text-edit-button =\n    .aria-label = Edit alt text\npdfjs-editor-alt-text-dialog-label = Choose an option\npdfjs-editor-alt-text-dialog-description = Alt text (alternative text) helps when people can\u2019t see the image or when it doesn\u2019t load.\npdfjs-editor-alt-text-add-description-label = Add a description\npdfjs-editor-alt-text-add-description-description = Aim for 1-2 sentences that describe the subject, setting, or actions.\npdfjs-editor-alt-text-mark-decorative-label = Mark as decorative\npdfjs-editor-alt-text-mark-decorative-description = This is used for ornamental images, like borders or watermarks.\npdfjs-editor-alt-text-cancel-button = Cancel\npdfjs-editor-alt-text-save-button = Save\npdfjs-editor-alt-text-decorative-tooltip = Marked as decorative\npdfjs-editor-alt-text-textarea =\n    .placeholder = For example, \u201CA young man sits down at a table to eat a meal\u201D\npdfjs-editor-resizer-top-left =\n    .aria-label = Top left corner \u2014 resize\npdfjs-editor-resizer-top-middle =\n    .aria-label = Top middle \u2014 resize\npdfjs-editor-resizer-top-right =\n    .aria-label = Top right corner \u2014 resize\npdfjs-editor-resizer-middle-right =\n    .aria-label = Middle right \u2014 resize\npdfjs-editor-resizer-bottom-right =\n    .aria-label = Bottom right corner \u2014 resize\npdfjs-editor-resizer-bottom-middle =\n    .aria-label = Bottom middle \u2014 resize\npdfjs-editor-resizer-bottom-left =\n    .aria-label = Bottom left corner \u2014 resize\npdfjs-editor-resizer-middle-left =\n    .aria-label = Middle left \u2014 resize\npdfjs-editor-highlight-colorpicker-label = Highlight color\npdfjs-editor-colorpicker-button =\n    .title = Change color\npdfjs-editor-colorpicker-dropdown =\n    .aria-label = Color choices\npdfjs-editor-colorpicker-yellow =\n    .title = Yellow\npdfjs-editor-colorpicker-green =\n    .title = Green\npdfjs-editor-colorpicker-blue =\n    .title = Blue\npdfjs-editor-colorpicker-pink =\n    .title = Pink\npdfjs-editor-colorpicker-red =\n    .title = Red\npdfjs-editor-highlight-show-all-button-label = Show all\npdfjs-editor-highlight-show-all-button =\n    .title = Show all\npdfjs-editor-new-alt-text-dialog-edit-label = Edit alt text (image description)\npdfjs-editor-new-alt-text-dialog-add-label = Add alt text (image description)\npdfjs-editor-new-alt-text-textarea =\n    .placeholder = Write your description here\u2026\npdfjs-editor-new-alt-text-description = Short description for people who can\u2019t see the image or when the image doesn\u2019t load.\npdfjs-editor-new-alt-text-disclaimer1 = This alt text was created automatically and may be inaccurate.\npdfjs-editor-new-alt-text-disclaimer-learn-more-url = Learn more\npdfjs-editor-new-alt-text-create-automatically-button-label = Create alt text automatically\npdfjs-editor-new-alt-text-not-now-button = Not now\npdfjs-editor-new-alt-text-error-title = Couldn\u2019t create alt text automatically\npdfjs-editor-new-alt-text-error-description = Please write your own alt text or try again later.\npdfjs-editor-new-alt-text-error-close-button = Close\npdfjs-editor-new-alt-text-ai-model-downloading-progress = Downloading alt text AI model ({ $downloadedSize } of { $totalSize } MB)\n    .aria-valuetext = Downloading alt text AI model ({ $downloadedSize } of { $totalSize } MB)\npdfjs-editor-new-alt-text-added-button =\n    .aria-label = Alt text added\npdfjs-editor-new-alt-text-added-button-label = Alt text added\npdfjs-editor-new-alt-text-missing-button =\n    .aria-label = Missing alt text\npdfjs-editor-new-alt-text-missing-button-label = Missing alt text\npdfjs-editor-new-alt-text-to-review-button =\n    .aria-label = Review alt text\npdfjs-editor-new-alt-text-to-review-button-label = Review alt text\npdfjs-editor-new-alt-text-generated-alt-text-with-disclaimer = Created automatically: { $generatedAltText }\npdfjs-image-alt-text-settings-button =\n    .title = Image alt text settings\npdfjs-image-alt-text-settings-button-label = Image alt text settings\npdfjs-editor-alt-text-settings-dialog-label = Image alt text settings\npdfjs-editor-alt-text-settings-automatic-title = Automatic alt text\npdfjs-editor-alt-text-settings-create-model-button-label = Create alt text automatically\npdfjs-editor-alt-text-settings-create-model-description = Suggests descriptions to help people who can\u2019t see the image or when the image doesn\u2019t load.\npdfjs-editor-alt-text-settings-download-model-label = Alt text AI model ({ $totalSize } MB)\npdfjs-editor-alt-text-settings-ai-model-description = Runs locally on your device so your data stays private. Required for automatic alt text.\npdfjs-editor-alt-text-settings-delete-model-button = Delete\npdfjs-editor-alt-text-settings-download-model-button = Download\npdfjs-editor-alt-text-settings-downloading-model-button = Downloading\u2026\npdfjs-editor-alt-text-settings-editor-title = Alt text editor\npdfjs-editor-alt-text-settings-show-dialog-button-label = Show alt text editor right away when adding an image\npdfjs-editor-alt-text-settings-show-dialog-description = Helps you make sure all your images have alt text.\npdfjs-editor-alt-text-settings-close-button = Close";
+>>>>>>> upstream/18.0
 =======
     const text = "pdfjs-previous-button =\n    .title = Previous Page\npdfjs-previous-button-label = Previous\npdfjs-next-button =\n    .title = Next Page\npdfjs-next-button-label = Next\npdfjs-page-input =\n    .title = Page\npdfjs-of-pages = of { $pagesCount }\npdfjs-page-of-pages = ({ $pageNumber } of { $pagesCount })\npdfjs-zoom-out-button =\n    .title = Zoom Out\npdfjs-zoom-out-button-label = Zoom Out\npdfjs-zoom-in-button =\n    .title = Zoom In\npdfjs-zoom-in-button-label = Zoom In\npdfjs-zoom-select =\n    .title = Zoom\npdfjs-presentation-mode-button =\n    .title = Switch to Presentation Mode\npdfjs-presentation-mode-button-label = Presentation Mode\npdfjs-open-file-button =\n    .title = Open File\npdfjs-open-file-button-label = Open\npdfjs-print-button =\n    .title = Print\npdfjs-print-button-label = Print\npdfjs-save-button =\n    .title = Save\npdfjs-save-button-label = Save\npdfjs-download-button =\n    .title = Download\npdfjs-download-button-label = Download\npdfjs-bookmark-button =\n    .title = Current Page (View URL from Current Page)\npdfjs-bookmark-button-label = Current Page\npdfjs-tools-button =\n    .title = Tools\npdfjs-tools-button-label = Tools\npdfjs-first-page-button =\n    .title = Go to First Page\npdfjs-first-page-button-label = Go to First Page\npdfjs-last-page-button =\n    .title = Go to Last Page\npdfjs-last-page-button-label = Go to Last Page\npdfjs-page-rotate-cw-button =\n    .title = Rotate Clockwise\npdfjs-page-rotate-cw-button-label = Rotate Clockwise\npdfjs-page-rotate-ccw-button =\n    .title = Rotate Counterclockwise\npdfjs-page-rotate-ccw-button-label = Rotate Counterclockwise\npdfjs-cursor-text-select-tool-button =\n    .title = Enable Text Selection Tool\npdfjs-cursor-text-select-tool-button-label = Text Selection Tool\npdfjs-cursor-hand-tool-button =\n    .title = Enable Hand Tool\npdfjs-cursor-hand-tool-button-label = Hand Tool\npdfjs-scroll-page-button =\n    .title = Use Page Scrolling\npdfjs-scroll-page-button-label = Page Scrolling\npdfjs-scroll-vertical-button =\n    .title = Use Vertical Scrolling\npdfjs-scroll-vertical-button-label = Vertical Scrolling\npdfjs-scroll-horizontal-button =\n    .title = Use Horizontal Scrolling\npdfjs-scroll-horizontal-button-label = Horizontal Scrolling\npdfjs-scroll-wrapped-button =\n    .title = Use Wrapped Scrolling\npdfjs-scroll-wrapped-button-label = Wrapped Scrolling\npdfjs-spread-none-button =\n    .title = Do not join page spreads\npdfjs-spread-none-button-label = No Spreads\npdfjs-spread-odd-button =\n    .title = Join page spreads starting with odd-numbered pages\npdfjs-spread-odd-button-label = Odd Spreads\npdfjs-spread-even-button =\n    .title = Join page spreads starting with even-numbered pages\npdfjs-spread-even-button-label = Even Spreads\npdfjs-document-properties-button =\n    .title = Document Properties\u2026\npdfjs-document-properties-button-label = Document Properties\u2026\npdfjs-document-properties-file-name = File name:\npdfjs-document-properties-file-size = File size:\npdfjs-document-properties-size-kb = { NUMBER($kb, maximumSignificantDigits: 3) } KB ({ $b } bytes)\npdfjs-document-properties-size-mb = { NUMBER($mb, maximumSignificantDigits: 3) } MB ({ $b } bytes)\npdfjs-document-properties-title = Title:\npdfjs-document-properties-author = Author:\npdfjs-document-properties-subject = Subject:\npdfjs-document-properties-keywords = Keywords:\npdfjs-document-properties-creation-date = Creation Date:\npdfjs-document-properties-modification-date = Modification Date:\npdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: \"short\", timeStyle: \"medium\") }\npdfjs-document-properties-creator = Creator:\npdfjs-document-properties-producer = PDF Producer:\npdfjs-document-properties-version = PDF Version:\npdfjs-document-properties-page-count = Page Count:\npdfjs-document-properties-page-size = Page Size:\npdfjs-document-properties-page-size-unit-inches = in\npdfjs-document-properties-page-size-unit-millimeters = mm\npdfjs-document-properties-page-size-orientation-portrait = portrait\npdfjs-document-properties-page-size-orientation-landscape = landscape\npdfjs-document-properties-page-size-name-a-three = A3\npdfjs-document-properties-page-size-name-a-four = A4\npdfjs-document-properties-page-size-name-letter = Letter\npdfjs-document-properties-page-size-name-legal = Legal\npdfjs-document-properties-page-size-dimension-string = { $width } \xD7 { $height } { $unit } ({ $orientation })\npdfjs-document-properties-page-size-dimension-name-string = { $width } \xD7 { $height } { $unit } ({ $name }, { $orientation })\npdfjs-document-properties-linearized = Fast Web View:\npdfjs-document-properties-linearized-yes = Yes\npdfjs-document-properties-linearized-no = No\npdfjs-document-properties-close-button = Close\npdfjs-print-progress-message = Preparing document for printing\u2026\npdfjs-print-progress-percent = { $progress }%\npdfjs-print-progress-close-button = Cancel\npdfjs-printing-not-supported = Warning: Printing is not fully supported by this browser.\npdfjs-printing-not-ready = Warning: The PDF is not fully loaded for printing.\npdfjs-toggle-sidebar-button =\n    .title = Toggle Sidebar\npdfjs-toggle-sidebar-notification-button =\n    .title = Toggle Sidebar (document contains outline/attachments/layers)\npdfjs-toggle-sidebar-button-label = Toggle Sidebar\npdfjs-document-outline-button =\n    .title = Show Document Outline (double-click to expand/collapse all items)\npdfjs-document-outline-button-label = Document Outline\npdfjs-attachments-button =\n    .title = Show Attachments\npdfjs-attachments-button-label = Attachments\npdfjs-layers-button =\n    .title = Show Layers (double-click to reset all layers to the default state)\npdfjs-layers-button-label = Layers\npdfjs-thumbs-button =\n    .title = Show Thumbnails\npdfjs-thumbs-button-label = Thumbnails\npdfjs-current-outline-item-button =\n    .title = Find Current Outline Item\npdfjs-current-outline-item-button-label = Current Outline Item\npdfjs-findbar-button =\n    .title = Find in Document\npdfjs-findbar-button-label = Find\npdfjs-additional-layers = Additional Layers\npdfjs-thumb-page-title =\n    .title = Page { $page }\npdfjs-thumb-page-canvas =\n    .aria-label = Thumbnail of Page { $page }\npdfjs-find-input =\n    .title = Find\n    .placeholder = Find in document\u2026\npdfjs-find-previous-button =\n    .title = Find the previous occurrence of the phrase\npdfjs-find-previous-button-label = Previous\npdfjs-find-next-button =\n    .title = Find the next occurrence of the phrase\npdfjs-find-next-button-label = Next\npdfjs-find-highlight-checkbox = Highlight All\npdfjs-find-match-case-checkbox-label = Match Case\npdfjs-find-match-diacritics-checkbox-label = Match Diacritics\npdfjs-find-entire-word-checkbox-label = Whole Words\npdfjs-find-reached-top = Reached top of document, continued from bottom\npdfjs-find-reached-bottom = Reached end of document, continued from top\npdfjs-find-match-count =\n    { $total ->\n        [one] { $current } of { $total } match\n       *[other] { $current } of { $total } matches\n    }\npdfjs-find-match-count-limit =\n    { $limit ->\n        [one] More than { $limit } match\n       *[other] More than { $limit } matches\n    }\npdfjs-find-not-found = Phrase not found\npdfjs-page-scale-width = Page Width\npdfjs-page-scale-fit = Page Fit\npdfjs-page-scale-auto = Automatic Zoom\npdfjs-page-scale-actual = Actual Size\npdfjs-page-scale-percent = { $scale }%\npdfjs-page-landmark =\n    .aria-label = Page { $page }\npdfjs-loading-error = An error occurred while loading the PDF.\npdfjs-invalid-file-error = Invalid or corrupted PDF file.\npdfjs-missing-file-error = Missing PDF file.\npdfjs-unexpected-response-error = Unexpected server response.\npdfjs-rendering-error = An error occurred while rendering the page.\npdfjs-annotation-date-time-string = { DATETIME($dateObj, dateStyle: \"short\", timeStyle: \"medium\") }\npdfjs-text-annotation-type =\n    .alt = [{ $type } Annotation]\npdfjs-password-label = Enter the password to open this PDF file.\npdfjs-password-invalid = Invalid password. Please try again.\npdfjs-password-ok-button = OK\npdfjs-password-cancel-button = Cancel\npdfjs-web-fonts-disabled = Web fonts are disabled: unable to use embedded PDF fonts.\npdfjs-editor-free-text-button =\n    .title = Text\npdfjs-editor-free-text-button-label = Text\npdfjs-editor-ink-button =\n    .title = Draw\npdfjs-editor-ink-button-label = Draw\npdfjs-editor-stamp-button =\n    .title = Add or edit images\npdfjs-editor-stamp-button-label = Add or edit images\npdfjs-editor-highlight-button =\n    .title = Highlight\npdfjs-editor-highlight-button-label = Highlight\npdfjs-highlight-floating-button1 =\n    .title = Highlight\n    .aria-label = Highlight\npdfjs-highlight-floating-button-label = Highlight\npdfjs-editor-remove-ink-button =\n    .title = Remove drawing\npdfjs-editor-remove-freetext-button =\n    .title = Remove text\npdfjs-editor-remove-stamp-button =\n    .title = Remove image\npdfjs-editor-remove-highlight-button =\n    .title = Remove highlight\npdfjs-editor-free-text-color-input = Color\npdfjs-editor-free-text-size-input = Size\npdfjs-editor-ink-color-input = Color\npdfjs-editor-ink-thickness-input = Thickness\npdfjs-editor-ink-opacity-input = Opacity\npdfjs-editor-stamp-add-image-button =\n    .title = Add image\npdfjs-editor-stamp-add-image-button-label = Add image\npdfjs-editor-free-highlight-thickness-input = Thickness\npdfjs-editor-free-highlight-thickness-title =\n    .title = Change thickness when highlighting items other than text\npdfjs-free-text2 =\n    .aria-label = Text Editor\n    .default-content = Start typing\u2026\npdfjs-ink =\n    .aria-label = Draw Editor\npdfjs-ink-canvas =\n    .aria-label = User-created image\npdfjs-editor-alt-text-button =\n    .aria-label = Alt text\npdfjs-editor-alt-text-button-label = Alt text\npdfjs-editor-alt-text-edit-button =\n    .aria-label = Edit alt text\npdfjs-editor-alt-text-dialog-label = Choose an option\npdfjs-editor-alt-text-dialog-description = Alt text (alternative text) helps when people can\u2019t see the image or when it doesn\u2019t load.\npdfjs-editor-alt-text-add-description-label = Add a description\npdfjs-editor-alt-text-add-description-description = Aim for 1-2 sentences that describe the subject, setting, or actions.\npdfjs-editor-alt-text-mark-decorative-label = Mark as decorative\npdfjs-editor-alt-text-mark-decorative-description = This is used for ornamental images, like borders or watermarks.\npdfjs-editor-alt-text-cancel-button = Cancel\npdfjs-editor-alt-text-save-button = Save\npdfjs-editor-alt-text-decorative-tooltip = Marked as decorative\npdfjs-editor-alt-text-textarea =\n    .placeholder = For example, \u201CA young man sits down at a table to eat a meal\u201D\npdfjs-editor-resizer-top-left =\n    .aria-label = Top left corner \u2014 resize\npdfjs-editor-resizer-top-middle =\n    .aria-label = Top middle \u2014 resize\npdfjs-editor-resizer-top-right =\n    .aria-label = Top right corner \u2014 resize\npdfjs-editor-resizer-middle-right =\n    .aria-label = Middle right \u2014 resize\npdfjs-editor-resizer-bottom-right =\n    .aria-label = Bottom right corner \u2014 resize\npdfjs-editor-resizer-bottom-middle =\n    .aria-label = Bottom middle \u2014 resize\npdfjs-editor-resizer-bottom-left =\n    .aria-label = Bottom left corner \u2014 resize\npdfjs-editor-resizer-middle-left =\n    .aria-label = Middle left \u2014 resize\npdfjs-editor-highlight-colorpicker-label = Highlight color\npdfjs-editor-colorpicker-button =\n    .title = Change color\npdfjs-editor-colorpicker-dropdown =\n    .aria-label = Color choices\npdfjs-editor-colorpicker-yellow =\n    .title = Yellow\npdfjs-editor-colorpicker-green =\n    .title = Green\npdfjs-editor-colorpicker-blue =\n    .title = Blue\npdfjs-editor-colorpicker-pink =\n    .title = Pink\npdfjs-editor-colorpicker-red =\n    .title = Red\npdfjs-editor-highlight-show-all-button-label = Show all\npdfjs-editor-highlight-show-all-button =\n    .title = Show all\npdfjs-editor-new-alt-text-dialog-edit-label = Edit alt text (image description)\npdfjs-editor-new-alt-text-dialog-add-label = Add alt text (image description)\npdfjs-editor-new-alt-text-textarea =\n    .placeholder = Write your description here\u2026\npdfjs-editor-new-alt-text-description = Short description for people who can\u2019t see the image or when the image doesn\u2019t load.\npdfjs-editor-new-alt-text-disclaimer1 = This alt text was created automatically and may be inaccurate.\npdfjs-editor-new-alt-text-disclaimer-learn-more-url = Learn more\npdfjs-editor-new-alt-text-create-automatically-button-label = Create alt text automatically\npdfjs-editor-new-alt-text-not-now-button = Not now\npdfjs-editor-new-alt-text-error-title = Couldn\u2019t create alt text automatically\npdfjs-editor-new-alt-text-error-description = Please write your own alt text or try again later.\npdfjs-editor-new-alt-text-error-close-button = Close\npdfjs-editor-new-alt-text-ai-model-downloading-progress = Downloading alt text AI model ({ $downloadedSize } of { $totalSize } MB)\n    .aria-valuetext = Downloading alt text AI model ({ $downloadedSize } of { $totalSize } MB)\npdfjs-editor-new-alt-text-added-button =\n    .aria-label = Alt text added\npdfjs-editor-new-alt-text-added-button-label = Alt text added\npdfjs-editor-new-alt-text-missing-button =\n    .aria-label = Missing alt text\npdfjs-editor-new-alt-text-missing-button-label = Missing alt text\npdfjs-editor-new-alt-text-to-review-button =\n    .aria-label = Review alt text\npdfjs-editor-new-alt-text-to-review-button-label = Review alt text\npdfjs-editor-new-alt-text-generated-alt-text-with-disclaimer = Created automatically: { $generatedAltText }\npdfjs-image-alt-text-settings-button =\n    .title = Image alt text settings\npdfjs-image-alt-text-settings-button-label = Image alt text settings\npdfjs-editor-alt-text-settings-dialog-label = Image alt text settings\npdfjs-editor-alt-text-settings-automatic-title = Automatic alt text\npdfjs-editor-alt-text-settings-create-model-button-label = Create alt text automatically\npdfjs-editor-alt-text-settings-create-model-description = Suggests descriptions to help people who can\u2019t see the image or when the image doesn\u2019t load.\npdfjs-editor-alt-text-settings-download-model-label = Alt text AI model ({ $totalSize } MB)\npdfjs-editor-alt-text-settings-ai-model-description = Runs locally on your device so your data stays private. Required for automatic alt text.\npdfjs-editor-alt-text-settings-delete-model-button = Delete\npdfjs-editor-alt-text-settings-download-model-button = Download\npdfjs-editor-alt-text-settings-downloading-model-button = Downloading\u2026\npdfjs-editor-alt-text-settings-editor-title = Alt text editor\npdfjs-editor-alt-text-settings-show-dialog-button-label = Show alt text editor right away when adding an image\npdfjs-editor-alt-text-settings-show-dialog-description = Helps you make sure all your images have alt text.\npdfjs-editor-alt-text-settings-close-button = Close";
 >>>>>>> upstream/18.0
@@ -11808,7 +12095,11 @@ class genericl10n_GenericL10n extends L10n {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./web/generic_scripting.js
+=======
+;// ./web/generic_scripting.js
+>>>>>>> upstream/18.0
 =======
 ;// ./web/generic_scripting.js
 >>>>>>> upstream/18.0
@@ -11959,7 +12250,11 @@ class GenericScripting {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       const sandbox = import( /*webpackIgnore: true*/sandboxBundleSrc);
+=======
+      const sandbox = import(/*webpackIgnore: true*/sandboxBundleSrc);
+>>>>>>> upstream/18.0
 =======
       const sandbox = import(/*webpackIgnore: true*/sandboxBundleSrc);
 >>>>>>> upstream/18.0
@@ -12099,7 +12394,11 @@ class GenericScripting {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./web/genericcom.js
+=======
+;// ./web/genericcom.js
+>>>>>>> upstream/18.0
 =======
 ;// ./web/genericcom.js
 >>>>>>> upstream/18.0
@@ -12238,7 +12537,11 @@ class ExternalServices extends BaseExternalServices {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return new genericl10n_GenericL10n(AppOptions.get("locale"));
+=======
+    return new genericl10n_GenericL10n(AppOptions.get("localeProperties")?.lang);
+>>>>>>> upstream/18.0
 =======
     return new genericl10n_GenericL10n(AppOptions.get("localeProperties")?.lang);
 >>>>>>> upstream/18.0
@@ -12365,6 +12668,7 @@ class MLManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   async guess() {
     return null;
   }
@@ -12377,6 +12681,8 @@ class AltTextManager {
   #boundSetPosition = this.#setPosition.bind(this);
   #boundOnClick = this.#onClick.bind(this);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13102,6 +13408,9 @@ class AltTextManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13203,6 +13512,10 @@ class AltTextManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  #resizeAC = null;
+>>>>>>> upstream/18.0
 =======
   #resizeAC = null;
 >>>>>>> upstream/18.0
@@ -13344,6 +13657,10 @@ class AltTextManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    const onUpdateUIState = this.#updateUIState.bind(this);
+>>>>>>> upstream/18.0
 =======
     const onUpdateUIState = this.#updateUIState.bind(this);
 >>>>>>> upstream/18.0
@@ -13472,6 +13789,7 @@ class AltTextManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     optionDescription.addEventListener("change", this.#boundUpdateUIState);
     optionDecorative.addEventListener("change", this.#boundUpdateUIState);
     this.#overlayManager.register(dialog);
@@ -13480,6 +13798,8 @@ class AltTextManager {
     return shadow(this, "_elements", [this.#optionDescription, this.#optionDecorative, this.#textarea, this.#saveButton, this.#cancelButton]);
   }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13571,6 +13891,9 @@ class AltTextManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13692,9 +14015,12 @@ class AltTextManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     for (const element of this._elements) {
       element.addEventListener("click", this.#boundOnClick);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13789,6 +14115,9 @@ class AltTextManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13895,8 +14224,11 @@ class AltTextManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.#eventBus._on("resize", this.#boundSetPosition);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13988,6 +14320,9 @@ class AltTextManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14174,7 +14509,12 @@ class AltTextManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.#eventBus._off("resize", this.#boundSetPosition);
+=======
+    this.#resizeAC?.abort();
+    this.#resizeAC = null;
+>>>>>>> upstream/18.0
 =======
     this.#resizeAC?.abort();
     this.#resizeAC = null;
@@ -14356,9 +14696,14 @@ class AltTextManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     for (const element of this._elements) {
       element.removeEventListener("click", this.#boundOnClick);
     }
+=======
+    this.#clickAC?.abort();
+    this.#clickAC = null;
+>>>>>>> upstream/18.0
 =======
     this.#clickAC?.abort();
     this.#clickAC = null;
@@ -14518,7 +14863,11 @@ class AltTextManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./web/annotation_editor_params.js
+=======
+;// ./web/annotation_editor_params.js
+>>>>>>> upstream/18.0
 =======
 ;// ./web/annotation_editor_params.js
 >>>>>>> upstream/18.0
@@ -14678,7 +15027,10 @@ class AnnotationEditorParams {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14775,6 +15127,9 @@ class AnnotationEditorParams {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14907,6 +15262,7 @@ class AnnotationEditorParams {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./web/caret_browsing.js
 const PRECISION = 1e-1;
 class CaretBrowsingMode {
@@ -14918,6 +15274,8 @@ class CaretBrowsingMode {
     this.#viewerContainer = viewerContainer;
     this.#toolBarHeight = toolbarContainer?.getBoundingClientRect().height ?? 0;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15030,6 +15388,9 @@ class CaretBrowsingMode {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15310,7 +15671,11 @@ class CaretBrowsingMode {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./web/download_manager.js
+=======
+;// ./web/download_manager.js
+>>>>>>> upstream/18.0
 =======
 ;// ./web/download_manager.js
 >>>>>>> upstream/18.0
@@ -15448,6 +15813,7 @@ class DownloadManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   downloadUrl(url, filename, _options) {
     if (!createValidAbsoluteUrl(url, "http://example.com")) {
       console.error(`downloadUrl - not a valid URL: ${url}`);
@@ -15455,6 +15821,8 @@ class DownloadManager {
     }
     download(url + "#pdfjs.action=download", filename);
   }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15579,9 +15947,12 @@ class DownloadManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   download(blob, url, filename, _options) {
     const blobUrl = URL.createObjectURL(blob);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15682,6 +16053,9 @@ class DownloadManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15775,7 +16149,11 @@ class DownloadManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./web/overlay_manager.js
+=======
+;// ./web/overlay_manager.js
+>>>>>>> upstream/18.0
 =======
 ;// ./web/overlay_manager.js
 >>>>>>> upstream/18.0
@@ -15943,7 +16321,11 @@ class OverlayManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./web/password_prompt.js
+=======
+;// ./web/password_prompt.js
+>>>>>>> upstream/18.0
 =======
 ;// ./web/password_prompt.js
 >>>>>>> upstream/18.0
@@ -16100,7 +16482,11 @@ class PasswordPrompt {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.label.setAttribute("data-l10n-id", `pdfjs-password-${passwordIncorrect ? "invalid" : "label"}`);
+=======
+    this.label.setAttribute("data-l10n-id", passwordIncorrect ? "pdfjs-password-invalid" : "pdfjs-password-label");
+>>>>>>> upstream/18.0
 =======
     this.label.setAttribute("data-l10n-id", passwordIncorrect ? "pdfjs-password-invalid" : "pdfjs-password-label");
 >>>>>>> upstream/18.0
@@ -16255,7 +16641,11 @@ class PasswordPrompt {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./web/base_tree_viewer.js
+=======
+;// ./web/base_tree_viewer.js
+>>>>>>> upstream/18.0
 =======
 ;// ./web/base_tree_viewer.js
 >>>>>>> upstream/18.0
@@ -16381,9 +16771,12 @@ class BaseTreeViewer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (this.constructor === BaseTreeViewer) {
       throw new Error("Cannot initialize BaseTreeViewer.");
     }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16564,7 +16957,11 @@ class BaseTreeViewer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./web/pdf_attachment_viewer.js
+=======
+;// ./web/pdf_attachment_viewer.js
+>>>>>>> upstream/18.0
 =======
 ;// ./web/pdf_attachment_viewer.js
 >>>>>>> upstream/18.0
@@ -16781,10 +17178,13 @@ class PDFAttachmentViewer extends BaseTreeViewer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./web/grab_to_pan.js
 const CSS_CLASS_GRAB = "grab-to-pan-grab";
 class GrabToPan {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16878,6 +17278,9 @@ class GrabToPan {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16942,6 +17345,7 @@ class GrabToPan {
   }) {
     this.element = element;
     this.document = element.ownerDocument;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17038,6 +17442,8 @@ class GrabToPan {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     const overlay = this.overlay = document.createElement("div");
     overlay.className = "grab-to-pan-grabbing";
   }
@@ -17072,10 +17478,13 @@ class GrabToPan {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (!this.active) {
       this.active = true;
       this.element.addEventListener("mousedown", this._onMouseDown, true);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17169,6 +17578,9 @@ class GrabToPan {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17262,11 +17674,14 @@ class GrabToPan {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (this.active) {
       this.active = false;
       this.element.removeEventListener("mousedown", this._onMouseDown, true);
       this._endPan();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17358,6 +17773,9 @@ class GrabToPan {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17451,7 +17869,11 @@ class GrabToPan {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (this.active) {
+=======
+    if (this.#activateAC) {
+>>>>>>> upstream/18.0
 =======
     if (this.#activateAC) {
 >>>>>>> upstream/18.0
@@ -17595,10 +18017,13 @@ class GrabToPan {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.document.addEventListener("mousemove", this._onMouseMove, true);
     this.document.addEventListener("mouseup", this._endPan, true);
     this.element.addEventListener("scroll", this._endPan, true);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17699,6 +18124,9 @@ class GrabToPan {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17796,10 +18224,13 @@ class GrabToPan {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.element.removeEventListener("scroll", this._endPan, true);
     if (!(event.buttons & 1)) {
       this._endPan();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17891,6 +18322,9 @@ class GrabToPan {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17994,10 +18428,13 @@ class GrabToPan {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.element.removeEventListener("scroll", this._endPan, true);
     this.document.removeEventListener("mousemove", this._onMouseMove, true);
     this.document.removeEventListener("mouseup", this._endPan, true);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18089,6 +18526,9 @@ class GrabToPan {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18182,7 +18622,11 @@ class GrabToPan {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./web/pdf_cursor_tools.js
+=======
+;// ./web/pdf_cursor_tools.js
+>>>>>>> upstream/18.0
 =======
 ;// ./web/pdf_cursor_tools.js
 >>>>>>> upstream/18.0
@@ -18328,8 +18772,11 @@ class PDFCursorTools {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (tool === this.#active) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18428,6 +18875,9 @@ class PDFCursorTools {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18545,7 +18995,12 @@ class PDFCursorTools {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       tool
+=======
+      tool,
+      disabled
+>>>>>>> upstream/18.0
 =======
       tool,
       disabled
@@ -18711,6 +19166,7 @@ class PDFCursorTools {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       const prevActive = this.#active;
       this.switchTool(CursorTool.SELECT);
       this.#prevActive ??= prevActive;
@@ -18721,6 +19177,8 @@ class PDFCursorTools {
         this.#prevActive = null;
         this.switchTool(prevActive);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18815,6 +19273,9 @@ class PDFCursorTools {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18934,6 +19395,7 @@ class PDFCursorTools {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./web/pdf_document_properties.js
 
 
@@ -18947,6 +19409,8 @@ const METRIC_PAGE_NAMES = {
   "297x420": "a-three",
   "210x297": "a-four"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19045,6 +19509,9 @@ const METRIC_PAGE_NAMES = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19161,7 +19628,10 @@ class PDFDocumentProperties {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this._isNonMetricLocale = NON_METRIC_LOCALES.includes(l10n.getLanguage());
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19304,7 +19774,11 @@ class PDFDocumentProperties {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       this.#updateUI(true);
+=======
+      this.#updateUI();
+>>>>>>> upstream/18.0
 =======
       this.#updateUI();
 >>>>>>> upstream/18.0
@@ -19439,6 +19913,7 @@ class PDFDocumentProperties {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   #updateUI(reset = false) {
     if (reset || !this.#fieldData) {
       for (const id in this.fields) {
@@ -19466,6 +19941,8 @@ class PDFDocumentProperties {
       size_b: fileSize.toLocaleString()
     });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19570,6 +20047,9 @@ class PDFDocumentProperties {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19670,7 +20150,12 @@ class PDFDocumentProperties {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const isPortrait = isPortraitOrientation(pageSizeInches);
+=======
+    const isPortrait = isPortraitOrientation(pageSizeInches),
+      nonMetric = NON_METRIC_LOCALES.includes(this.l10n.getLanguage());
+>>>>>>> upstream/18.0
 =======
     const isPortrait = isPortraitOrientation(pageSizeInches),
       nonMetric = NON_METRIC_LOCALES.includes(this.l10n.getLanguage());
@@ -19829,8 +20314,13 @@ class PDFDocumentProperties {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     let rawName = getPageName(sizeInches, isPortrait, US_PAGE_NAMES) || getPageName(sizeMillimeters, isPortrait, METRIC_PAGE_NAMES);
     if (!rawName && !(Number.isInteger(sizeMillimeters.width) && Number.isInteger(sizeMillimeters.height))) {
+=======
+    let nameId = getPageName(sizeInches, isPortrait, US_PAGE_NAMES) || getPageName(sizeMillimeters, isPortrait, METRIC_PAGE_NAMES);
+    if (!nameId && !(Number.isInteger(sizeMillimeters.width) && Number.isInteger(sizeMillimeters.height))) {
+>>>>>>> upstream/18.0
 =======
     let nameId = getPageName(sizeInches, isPortrait, US_PAGE_NAMES) || getPageName(sizeMillimeters, isPortrait, METRIC_PAGE_NAMES);
     if (!nameId && !(Number.isInteger(sizeMillimeters.width) && Number.isInteger(sizeMillimeters.height))) {
@@ -19990,8 +20480,13 @@ class PDFDocumentProperties {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         rawName = getPageName(intMillimeters, isPortrait, METRIC_PAGE_NAMES);
         if (rawName) {
+=======
+        nameId = getPageName(intMillimeters, isPortrait, METRIC_PAGE_NAMES);
+        if (nameId) {
+>>>>>>> upstream/18.0
 =======
         nameId = getPageName(intMillimeters, isPortrait, METRIC_PAGE_NAMES);
         if (nameId) {
@@ -20153,11 +20648,14 @@ class PDFDocumentProperties {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     }, unit, name, orientation] = await Promise.all([this._isNonMetricLocale ? sizeInches : sizeMillimeters, this.l10n.get(`pdfjs-document-properties-page-size-unit-${this._isNonMetricLocale ? "inches" : "millimeters"}`), rawName && this.l10n.get(`pdfjs-document-properties-page-size-name-${rawName}`), this.l10n.get(`pdfjs-document-properties-page-size-orientation-${isPortrait ? "portrait" : "landscape"}`)]);
     return this.l10n.get(`pdfjs-document-properties-page-size-dimension-${name ? "name-" : ""}string`, {
       width: width.toLocaleString(),
       height: height.toLocaleString(),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20249,6 +20747,9 @@ class PDFDocumentProperties {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20314,6 +20815,7 @@ class PDFDocumentProperties {
     });
   }
   async #parseDate(inputDate) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20418,6 +20920,8 @@ class PDFDocumentProperties {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     const dateObj = PDFDateString.toDateObject(inputDate);
     return dateObj ? this.l10n.get("pdfjs-document-properties-date-time-string", {
       dateObj: dateObj.valueOf()
@@ -20458,6 +20962,9 @@ class PDFDocumentProperties {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20620,7 +21127,11 @@ function getNormalizeWithNFKC() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./web/pdf_find_controller.js
+=======
+;// ./web/pdf_find_controller.js
+>>>>>>> upstream/18.0
 =======
 ;// ./web/pdf_find_controller.js
 >>>>>>> upstream/18.0
@@ -20804,7 +21315,12 @@ function normalize(text) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const regexp = `([${replace}])|([${toNormalizeWithNFKC}])|(${HKDiacritics}\\n)|(\\p{M}+(?:-\\n)?)|(\\S-\\n)|(${CJK}\\n)|(\\n)`;
+=======
+    const CompoundWord = "\\p{Ll}-\\n\\p{Lu}";
+    const regexp = `([${replace}])|([${toNormalizeWithNFKC}])|(${HKDiacritics}\\n)|(\\p{M}+(?:-\\n)?)|(${CompoundWord})|(\\S-\\n)|(${CJK}\\n)|(\\n)`;
+>>>>>>> upstream/18.0
 =======
     const CompoundWord = "\\p{Ll}-\\n\\p{Lu}";
     const regexp = `([${replace}])|([${toNormalizeWithNFKC}])|(${HKDiacritics}\\n)|(\\p{M}+(?:-\\n)?)|(${CompoundWord})|(\\S-\\n)|(${CJK}\\n)|(\\n)`;
@@ -20973,7 +21489,11 @@ function normalize(text) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   normalized = normalized.replace(normalizationRegex, (match, p1, p2, p3, p4, p5, p6, p7, p8, i) => {
+=======
+  normalized = normalized.replace(normalizationRegex, (match, p1, p2, p3, p4, p5, p6, p7, p8, p9, i) => {
+>>>>>>> upstream/18.0
 =======
   normalized = normalized.replace(normalizationRegex, (match, p1, p2, p3, p4, p5, p6, p7, p8, p9, i) => {
 >>>>>>> upstream/18.0
@@ -21156,8 +21676,11 @@ function normalize(text) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       const len = p5.length - 2;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21253,6 +21776,9 @@ function normalize(text) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21316,6 +21842,7 @@ function normalize(text) {
       shift += 1;
       shiftOrigin += 1;
       eol += 1;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21415,6 +21942,8 @@ function normalize(text) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
       return p6.slice(0, -2);
     }
     if (p7) {
@@ -21454,6 +21983,9 @@ function normalize(text) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21558,7 +22090,11 @@ function normalize(text) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return p8;
+=======
+    return p9;
+>>>>>>> upstream/18.0
 =======
     return p9;
 >>>>>>> upstream/18.0
@@ -21901,6 +22437,7 @@ class PDFFindController {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   #calculateRegExpMatch(query, entireWord, pageIndex, pageContent) {
     const matches = this._pageMatches[pageIndex] = [];
     const matchesLength = this._pageMatchesLength[pageIndex] = [];
@@ -21920,6 +22457,8 @@ class PDFFindController {
       }
     }
   }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22051,6 +22590,7 @@ class PDFFindController {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     let query = this.#query;
     if (query.length === 0) {
       return;
@@ -22061,6 +22601,8 @@ class PDFFindController {
     } = this.#state;
     const pageContent = this._pageContents[pageIndex];
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22185,6 +22727,9 @@ class PDFFindController {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22255,6 +22800,7 @@ class PDFFindController {
         return `(${queryPart})`;
       }).join("|");
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22363,6 +22909,8 @@ class PDFFindController {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     if (!query) {
       return undefined;
     }
@@ -22413,6 +22961,9 @@ class PDFFindController {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22719,6 +23270,10 @@ class PDFFindController {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      entireWord: this.#state?.entireWord ?? null,
+>>>>>>> upstream/18.0
 =======
       entireWord: this.#state?.entireWord ?? null,
 >>>>>>> upstream/18.0
@@ -22845,7 +23400,11 @@ class PDFFindController {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./web/pdf_find_bar.js
+=======
+;// ./web/pdf_find_bar.js
+>>>>>>> upstream/18.0
 =======
 ;// ./web/pdf_find_bar.js
 >>>>>>> upstream/18.0
@@ -22970,8 +23529,14 @@ class PDFFindBar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   #resizeObserver = new ResizeObserver(this.#resizeObserverCallback.bind(this));
   constructor(options, eventBus) {
+=======
+  #mainContainer;
+  #resizeObserver = new ResizeObserver(this.#resizeObserverCallback.bind(this));
+  constructor(options, mainContainer, eventBus) {
+>>>>>>> upstream/18.0
 =======
   #mainContainer;
   #resizeObserver = new ResizeObserver(this.#resizeObserverCallback.bind(this));
@@ -23165,6 +23730,10 @@ class PDFFindBar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    this.#mainContainer = mainContainer;
+>>>>>>> upstream/18.0
 =======
     this.#mainContainer = mainContainer;
 >>>>>>> upstream/18.0
@@ -23355,7 +23924,11 @@ class PDFFindBar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         findMsgId = `pdfjs-find-reached-${previous ? "top" : "bottom"}`;
+=======
+        findMsgId = previous ? "pdfjs-find-reached-top" : "pdfjs-find-reached-bottom";
+>>>>>>> upstream/18.0
 =======
         findMsgId = previous ? "pdfjs-find-reached-top" : "pdfjs-find-reached-bottom";
 >>>>>>> upstream/18.0
@@ -23498,7 +24071,11 @@ class PDFFindBar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       findResultsCount.setAttribute("data-l10n-id", `pdfjs-find-match-count${total > limit ? "-limit" : ""}`);
+=======
+      findResultsCount.setAttribute("data-l10n-id", total > limit ? "pdfjs-find-match-count-limit" : "pdfjs-find-match-count");
+>>>>>>> upstream/18.0
 =======
       findResultsCount.setAttribute("data-l10n-id", total > limit ? "pdfjs-find-match-count-limit" : "pdfjs-find-match-count");
 >>>>>>> upstream/18.0
@@ -23631,7 +24208,11 @@ class PDFFindBar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       this.#resizeObserver.observe(this.bar.parentNode);
+=======
+      this.#resizeObserver.observe(this.#mainContainer);
+>>>>>>> upstream/18.0
 =======
       this.#resizeObserver.observe(this.#mainContainer);
 >>>>>>> upstream/18.0
@@ -23777,7 +24358,11 @@ class PDFFindBar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   #resizeObserverCallback(entries) {
+=======
+  #resizeObserverCallback() {
+>>>>>>> upstream/18.0
 =======
   #resizeObserverCallback() {
 >>>>>>> upstream/18.0
@@ -23910,7 +24495,11 @@ class PDFFindBar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./web/pdf_history.js
+=======
+;// ./web/pdf_history.js
+>>>>>>> upstream/18.0
 =======
 ;// ./web/pdf_history.js
 >>>>>>> upstream/18.0
@@ -24497,7 +25086,11 @@ function isDestArraysEqual(firstDest, secondDest) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./web/pdf_layer_viewer.js
+=======
+;// ./web/pdf_layer_viewer.js
+>>>>>>> upstream/18.0
 =======
 ;// ./web/pdf_layer_viewer.js
 >>>>>>> upstream/18.0
@@ -24633,7 +25226,12 @@ class PDFLayerViewer extends BaseTreeViewer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this._optionalContentHash = null;
+=======
+    this._optionalContentVisibility?.clear();
+    this._optionalContentVisibility = null;
+>>>>>>> upstream/18.0
 =======
     this._optionalContentVisibility?.clear();
     this._optionalContentVisibility = null;
@@ -24796,9 +25394,12 @@ class PDFLayerViewer extends BaseTreeViewer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       this._optionalContentConfig.setVisibility(groupId, input.checked);
       this._optionalContentHash = this._optionalContentConfig.getHash();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24892,6 +25493,9 @@ class PDFLayerViewer extends BaseTreeViewer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24998,7 +25602,11 @@ class PDFLayerViewer extends BaseTreeViewer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   async _setNestedName(element, {
+=======
+  _setNestedName(element, {
+>>>>>>> upstream/18.0
 =======
   _setNestedName(element, {
 >>>>>>> upstream/18.0
@@ -25125,8 +25733,14 @@ class PDFLayerViewer extends BaseTreeViewer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     element.textContent = await this._l10n.get("pdfjs-additional-layers");
     element.style.fontStyle = "italic";
+=======
+    element.setAttribute("data-l10n-id", "pdfjs-additional-layers");
+    element.style.fontStyle = "italic";
+    this._l10n.translateOnce(element);
+>>>>>>> upstream/18.0
 =======
     element.setAttribute("data-l10n-id", "pdfjs-additional-layers");
     element.style.fontStyle = "italic";
@@ -25333,7 +25947,11 @@ class PDFLayerViewer extends BaseTreeViewer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this._optionalContentHash = optionalContentConfig.getHash();
+=======
+    this._optionalContentVisibility = new Map();
+>>>>>>> upstream/18.0
 =======
     this._optionalContentVisibility = new Map();
 >>>>>>> upstream/18.0
@@ -25488,7 +26106,10 @@ class PDFLayerViewer extends BaseTreeViewer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25580,6 +26201,9 @@ class PDFLayerViewer extends BaseTreeViewer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25692,6 +26316,7 @@ class PDFLayerViewer extends BaseTreeViewer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       if (optionalContentConfig.getHash() === this._optionalContentHash) {
         return;
       }
@@ -25702,6 +26327,8 @@ class PDFLayerViewer extends BaseTreeViewer {
       });
     }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25801,6 +26428,9 @@ class PDFLayerViewer extends BaseTreeViewer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25897,7 +26527,11 @@ class PDFLayerViewer extends BaseTreeViewer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./web/pdf_outline_viewer.js
+=======
+;// ./web/pdf_outline_viewer.js
+>>>>>>> upstream/18.0
 =======
 ;// ./web/pdf_outline_viewer.js
 >>>>>>> upstream/18.0
@@ -26279,7 +26913,11 @@ class PDFOutlineViewer extends BaseTreeViewer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./web/pdf_presentation_mode.js
+=======
+;// ./web/pdf_presentation_mode.js
+>>>>>>> upstream/18.0
 =======
 ;// ./web/pdf_presentation_mode.js
 >>>>>>> upstream/18.0
@@ -26692,7 +27330,11 @@ class PDFPresentationMode {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./web/xfa_layer_builder.js
+=======
+;// ./web/xfa_layer_builder.js
+>>>>>>> upstream/18.0
 =======
 ;// ./web/xfa_layer_builder.js
 >>>>>>> upstream/18.0
@@ -26878,7 +27520,11 @@ class XfaLayerBuilder {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./web/print_utils.js
+=======
+;// ./web/print_utils.js
+>>>>>>> upstream/18.0
 =======
 ;// ./web/print_utils.js
 >>>>>>> upstream/18.0
@@ -27024,7 +27670,11 @@ function getXfaHtmlForPrinting(printContainer, pdfDocument) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./web/pdf_print_service.js
+=======
+;// ./web/pdf_print_service.js
+>>>>>>> upstream/18.0
 =======
 ;// ./web/pdf_print_service.js
 >>>>>>> upstream/18.0
@@ -27307,6 +27957,11 @@ class PDFPrintService {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    // ODOO PATCH PRINT PREVIEW MOBILE
+    this.hasFinishPrint = null;
+>>>>>>> upstream/18.0
 =======
     // ODOO PATCH PRINT PREVIEW MOBILE
     this.hasFinishPrint = null;
@@ -27854,6 +28509,7 @@ class PDFPrintService {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const scratchCanvas = this.scratchCanvas;
     if ("toBlob" in scratchCanvas) {
       scratchCanvas.toBlob(function (blob) {
@@ -28012,10 +28668,16 @@ class PDFPrintService {
       img.src = URL.createObjectURL(blob);
     });
 >>>>>>> upstream/18.0
+=======
+    this.scratchCanvas.toBlob(blob => {
+      img.src = URL.createObjectURL(blob);
+    });
+>>>>>>> upstream/18.0
     const wrapper = document.createElement("div");
     wrapper.className = "printedPage";
     wrapper.append(img);
     this.printContainer.append(wrapper);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28385,6 +29047,8 @@ class PDFPrintService {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     const {
       promise,
       resolve,
@@ -28428,6 +29092,9 @@ class PDFPrintService {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -28531,7 +29198,10 @@ class PDFPrintService {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -28713,6 +29383,9 @@ class PDFPrintService {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -29100,6 +29773,7 @@ window.print = function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     activeService.renderPages().then(function () {
       return activeServiceOnEntry.performPrint();
     }).catch(function () {}).then(function () {
@@ -29107,6 +29781,8 @@ window.print = function () {
         // ODOO Patch: https://github.com/mozilla/pdf.js/issues/10630#issuecomment-855754913
         setTimeout(abort, 1000);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -29469,6 +30145,9 @@ window.print = function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -29859,7 +30538,10 @@ if ("onbeforeprint" in window) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -30216,6 +30898,9 @@ if ("onbeforeprint" in window) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -30517,7 +31202,11 @@ class PDFPrintServiceFactory {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./web/pdf_rendering_queue.js
+=======
+;// ./web/pdf_rendering_queue.js
+>>>>>>> upstream/18.0
 =======
 ;// ./web/pdf_rendering_queue.js
 >>>>>>> upstream/18.0
@@ -30752,7 +31441,11 @@ class PDFRenderingQueue {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./web/pdf_scripting_manager.js
+=======
+;// ./web/pdf_scripting_manager.js
+>>>>>>> upstream/18.0
 =======
 ;// ./web/pdf_scripting_manager.js
 >>>>>>> upstream/18.0
@@ -31237,7 +31930,11 @@ class PDFScriptingManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./web/pdf_sidebar.js
+=======
+;// ./web/pdf_sidebar.js
+>>>>>>> upstream/18.0
 =======
 ;// ./web/pdf_sidebar.js
 >>>>>>> upstream/18.0
@@ -31365,8 +32062,12 @@ class PDFSidebar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   #mouseMoveBound = this.#mouseMove.bind(this);
   #mouseUpBound = this.#mouseUp.bind(this);
+=======
+  #mouseAC = null;
+>>>>>>> upstream/18.0
 =======
   #mouseAC = null;
 >>>>>>> upstream/18.0
@@ -31653,11 +32354,14 @@ class PDFSidebar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.sidebarContainer.addEventListener("transitionend", evt => {
       if (evt.target === this.sidebarContainer) {
         this.outerContainer.classList.remove("sidebarMoving");
         this.eventBus.dispatch("resize", {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -31753,6 +32457,9 @@ class PDFSidebar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -31856,7 +32563,11 @@ class PDFSidebar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       this.eventBus.dispatch("toggleoutlinetree", {
+=======
+      eventBus.dispatch("toggleoutlinetree", {
+>>>>>>> upstream/18.0
 =======
       eventBus.dispatch("toggleoutlinetree", {
 >>>>>>> upstream/18.0
@@ -31987,7 +32698,11 @@ class PDFSidebar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       this.eventBus.dispatch("resetlayers", {
+=======
+      eventBus.dispatch("resetlayers", {
+>>>>>>> upstream/18.0
 =======
       eventBus.dispatch("resetlayers", {
 >>>>>>> upstream/18.0
@@ -32112,7 +32827,11 @@ class PDFSidebar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       this.eventBus.dispatch("currentoutlineitem", {
+=======
+      eventBus.dispatch("currentoutlineitem", {
+>>>>>>> upstream/18.0
 =======
       eventBus.dispatch("currentoutlineitem", {
 >>>>>>> upstream/18.0
@@ -32244,7 +32963,11 @@ class PDFSidebar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.eventBus._on("outlineloaded", evt => {
+=======
+    eventBus._on("outlineloaded", evt => {
+>>>>>>> upstream/18.0
 =======
     eventBus._on("outlineloaded", evt => {
 >>>>>>> upstream/18.0
@@ -32373,6 +33096,7 @@ class PDFSidebar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.eventBus._on("attachmentsloaded", evt => {
       onTreeLoaded(evt.attachmentsCount, this.attachmentsButton, SidebarView.ATTACHMENTS);
     });
@@ -32381,6 +33105,8 @@ class PDFSidebar {
     });
     this.eventBus._on("presentationmodechanged", evt => {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -32475,6 +33201,9 @@ class PDFSidebar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -32572,12 +33301,15 @@ class PDFSidebar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       this.outerContainer.classList.add(SIDEBAR_RESIZING_CLASS);
       window.addEventListener("mousemove", this.#mouseMoveBound);
       window.addEventListener("mouseup", this.#mouseUpBound);
     });
     this.eventBus._on("resize", evt => {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -32675,6 +33407,9 @@ class PDFSidebar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -32775,6 +33510,7 @@ class PDFSidebar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       this.outerContainer.classList.add(SIDEBAR_RESIZING_CLASS);
       const updated = this.#updateWidth(this.#width);
       Promise.resolve().then(() => {
@@ -32782,6 +33518,8 @@ class PDFSidebar {
         if (updated) {
           this.eventBus.dispatch("resize", {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -32875,6 +33613,9 @@ class PDFSidebar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -33000,6 +33741,7 @@ class PDFSidebar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     window.removeEventListener("mousemove", this.#mouseMoveBound);
     window.removeEventListener("mouseup", this.#mouseUpBound);
   }
@@ -33007,6 +33749,8 @@ class PDFSidebar {
 
 ;// CONCATENATED MODULE: ./web/pdf_thumbnail_view.js
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -33100,6 +33844,9 @@ class PDFSidebar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -33227,7 +33974,12 @@ class PDFThumbnailView {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     pageColors
+=======
+    pageColors,
+    enableHWA
+>>>>>>> upstream/18.0
 =======
     pageColors,
     enableHWA
@@ -33388,6 +34140,10 @@ class PDFThumbnailView {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    this.enableHWA = enableHWA || false;
+>>>>>>> upstream/18.0
 =======
     this.enableHWA = enableHWA || false;
 >>>>>>> upstream/18.0
@@ -33591,11 +34347,14 @@ class PDFThumbnailView {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   #getPageDrawContext(upscaleFactor = 1) {
     const canvas = document.createElement("canvas");
     const ctx = canvas.getContext("2d", {
       alpha: false
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -33688,6 +34447,9 @@ class PDFThumbnailView {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -33895,7 +34657,11 @@ class PDFThumbnailView {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     } = this.#getPageDrawContext();
+=======
+    } = this.#getPageDrawContext(1, true);
+>>>>>>> upstream/18.0
 =======
     } = this.#getPageDrawContext(1, true);
 >>>>>>> upstream/18.0
@@ -34051,7 +34817,11 @@ class PDFThumbnailView {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./web/pdf_thumbnail_viewer.js
+=======
+;// ./web/pdf_thumbnail_viewer.js
+>>>>>>> upstream/18.0
 =======
 ;// ./web/pdf_thumbnail_viewer.js
 >>>>>>> upstream/18.0
@@ -34182,7 +34952,13 @@ class PDFThumbnailViewer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     pageColors
+=======
+    pageColors,
+    abortSignal,
+    enableHWA
+>>>>>>> upstream/18.0
 =======
     pageColors,
     abortSignal,
@@ -34369,7 +35145,12 @@ class PDFThumbnailViewer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.scroll = watchScroll(this.container, this.#scrollUpdated.bind(this));
+=======
+    this.enableHWA = enableHWA || false;
+    this.scroll = watchScroll(this.container, this.#scrollUpdated.bind(this), abortSignal);
+>>>>>>> upstream/18.0
 =======
     this.enableHWA = enableHWA || false;
     this.scroll = watchScroll(this.container, this.#scrollUpdated.bind(this), abortSignal);
@@ -34640,7 +35421,12 @@ class PDFThumbnailViewer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           pageColors: this.pageColors
+=======
+          pageColors: this.pageColors,
+          enableHWA: this.enableHWA
+>>>>>>> upstream/18.0
 =======
           pageColors: this.pageColors,
           enableHWA: this.enableHWA
@@ -34859,7 +35645,11 @@ class PDFThumbnailViewer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./web/annotation_editor_layer_builder.js
+=======
+;// ./web/annotation_editor_layer_builder.js
+>>>>>>> upstream/18.0
 =======
 ;// ./web/annotation_editor_layer_builder.js
 >>>>>>> upstream/18.0
@@ -34986,6 +35776,10 @@ class AnnotationEditorLayerBuilder {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  #structTreeLayer = null;
+>>>>>>> upstream/18.0
 =======
   #structTreeLayer = null;
 >>>>>>> upstream/18.0
@@ -35121,6 +35915,10 @@ class AnnotationEditorLayerBuilder {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    this.#structTreeLayer = options.structTreeLayer || null;
+>>>>>>> upstream/18.0
 =======
     this.#structTreeLayer = options.structTreeLayer || null;
 >>>>>>> upstream/18.0
@@ -35267,6 +36065,10 @@ class AnnotationEditorLayerBuilder {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      structTreeLayer: this.#structTreeLayer,
+>>>>>>> upstream/18.0
 =======
       structTreeLayer: this.#structTreeLayer,
 >>>>>>> upstream/18.0
@@ -35425,7 +36227,11 @@ class AnnotationEditorLayerBuilder {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./web/annotation_layer_builder.js
+=======
+;// ./web/annotation_layer_builder.js
+>>>>>>> upstream/18.0
 =======
 ;// ./web/annotation_layer_builder.js
 >>>>>>> upstream/18.0
@@ -35584,7 +36390,11 @@ class AnnotationLayerBuilder {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   async render(viewport, intent = "display") {
+=======
+  async render(viewport, options, intent = "display") {
+>>>>>>> upstream/18.0
 =======
   async render(viewport, options, intent = "display") {
 >>>>>>> upstream/18.0
@@ -35737,7 +36547,12 @@ class AnnotationLayerBuilder {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       })
+=======
+      }),
+      structTreeLayer: options?.structTreeLayer || null
+>>>>>>> upstream/18.0
 =======
       }),
       structTreeLayer: options?.structTreeLayer || null
@@ -35923,6 +36738,12 @@ class AnnotationLayerBuilder {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  hasEditableAnnotations() {
+    return !!this.annotationLayer?.hasEditableAnnotations();
+  }
+>>>>>>> upstream/18.0
 =======
   hasEditableAnnotations() {
     return !!this.annotationLayer?.hasEditableAnnotations();
@@ -36126,7 +36947,11 @@ class AnnotationLayerBuilder {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./web/draw_layer_builder.js
+=======
+;// ./web/draw_layer_builder.js
+>>>>>>> upstream/18.0
 =======
 ;// ./web/draw_layer_builder.js
 >>>>>>> upstream/18.0
@@ -36277,7 +37102,11 @@ class DrawLayerBuilder {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./web/struct_tree_layer_builder.js
+=======
+;// ./web/struct_tree_layer_builder.js
+>>>>>>> upstream/18.0
 =======
 ;// ./web/struct_tree_layer_builder.js
 >>>>>>> upstream/18.0
@@ -36443,6 +37272,7 @@ class StructTreeLayerBuilder {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   #treeDom = undefined;
   get renderingDone() {
     return this.#treeDom !== undefined;
@@ -36455,6 +37285,8 @@ class StructTreeLayerBuilder {
     treeDom?.classList.add("structTree");
     return this.#treeDom = treeDom;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -36578,6 +37410,9 @@ class StructTreeLayerBuilder {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -36685,8 +37520,11 @@ class StructTreeLayerBuilder {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       htmlElement.setAttribute("aria-label", removeNullCharacters(alt));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -36790,6 +37628,9 @@ class StructTreeLayerBuilder {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -36887,7 +37728,10 @@ class StructTreeLayerBuilder {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -37021,6 +37865,9 @@ class StructTreeLayerBuilder {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -37126,6 +37973,12 @@ class StructTreeLayerBuilder {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      if (role === "Figure" && this.#addImageInTextLayer(node, element)) {
+        return element;
+      }
+>>>>>>> upstream/18.0
 =======
       if (role === "Figure" && this.#addImageInTextLayer(node, element)) {
         return element;
@@ -37321,7 +38174,11 @@ class StructTreeLayerBuilder {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./web/text_accessibility.js
+=======
+;// ./web/text_accessibility.js
+>>>>>>> upstream/18.0
 =======
 ;// ./web/text_accessibility.js
 >>>>>>> upstream/18.0
@@ -37593,7 +38450,11 @@ class TextAccessibilityManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./web/text_highlighter.js
+=======
+;// ./web/text_highlighter.js
+>>>>>>> upstream/18.0
 =======
 ;// ./web/text_highlighter.js
 >>>>>>> upstream/18.0
@@ -37933,7 +38794,11 @@ class TextHighlighter {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./web/text_layer_builder.js
+=======
+;// ./web/text_layer_builder.js
+>>>>>>> upstream/18.0
 =======
 ;// ./web/text_layer_builder.js
 >>>>>>> upstream/18.0
@@ -38079,6 +38944,7 @@ class TextLayerBuilder {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   #finishRendering() {
     this.#renderingDone = true;
     const endOfContent = document.createElement("div");
@@ -38086,6 +38952,8 @@ class TextLayerBuilder {
     this.div.append(endOfContent);
     this.#bindMouse(endOfContent);
   }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -38201,8 +39069,11 @@ class TextLayerBuilder {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.#finishRendering();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -38295,6 +39166,9 @@ class TextLayerBuilder {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -38411,8 +39285,13 @@ class TextLayerBuilder {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     div.addEventListener("mousedown", evt => {
       end.classList.add("active");
+=======
+    div.addEventListener("mousedown", () => {
+      div.classList.add("selecting");
+>>>>>>> upstream/18.0
 =======
     div.addEventListener("mousedown", () => {
       div.classList.add("selecting");
@@ -38594,10 +39473,13 @@ class TextLayerBuilder {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       end.classList.remove("active");
     };
     document.addEventListener("pointerup", () => {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -38695,6 +39577,9 @@ class TextLayerBuilder {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -38788,7 +39673,10 @@ class TextLayerBuilder {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -38889,6 +39777,9 @@ class TextLayerBuilder {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -38996,7 +39887,11 @@ class TextLayerBuilder {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           endDiv.classList.add("active");
+=======
+          textLayerDiv.classList.add("selecting");
+>>>>>>> upstream/18.0
 =======
           textLayerDiv.classList.add("selecting");
 >>>>>>> upstream/18.0
@@ -39131,7 +40026,11 @@ class TextLayerBuilder {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       const parentTextLayer = anchor.parentElement.closest(".textLayer");
+=======
+      const parentTextLayer = anchor.parentElement?.closest(".textLayer");
+>>>>>>> upstream/18.0
 =======
       const parentTextLayer = anchor.parentElement?.closest(".textLayer");
 >>>>>>> upstream/18.0
@@ -39265,7 +40164,11 @@ class TextLayerBuilder {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./web/pdf_page_view.js
+=======
+;// ./web/pdf_page_view.js
+>>>>>>> upstream/18.0
 =======
 ;// ./web/pdf_page_view.js
 >>>>>>> upstream/18.0
@@ -39403,11 +40306,14 @@ class PDFPageView {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   #hasRestrictedScaling = false;
   #layerProperties = null;
   #loadingId = null;
   #previousRotation = null;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -39503,6 +40409,9 @@ class PDFPageView {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -39620,6 +40529,10 @@ class PDFPageView {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    this.#enableHWA = options.enableHWA || false;
+>>>>>>> upstream/18.0
 =======
     this.#enableHWA = options.enableHWA || false;
 >>>>>>> upstream/18.0
@@ -39769,6 +40682,12 @@ class PDFPageView {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      if (this.pageColors?.background) {
+        container?.style.setProperty("--page-bg-color", this.pageColors.background);
+      }
+>>>>>>> upstream/18.0
 =======
       if (this.pageColors?.background) {
         container?.style.setProperty("--page-bg-color", this.pageColors.background);
@@ -40042,6 +40961,12 @@ class PDFPageView {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  hasEditableAnnotations() {
+    return !!this.annotationLayer?.hasEditableAnnotations();
+  }
+>>>>>>> upstream/18.0
 =======
   hasEditableAnnotations() {
     return !!this.annotationLayer?.hasEditableAnnotations();
@@ -40239,7 +41164,13 @@ class PDFPageView {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       await this.annotationLayer.render(this.viewport, "display");
+=======
+      await this.annotationLayer.render(this.viewport, {
+        structTreeLayer: this.structTreeLayer
+      }, "display");
+>>>>>>> upstream/18.0
 =======
       await this.annotationLayer.render(this.viewport, {
         structTreeLayer: this.structTreeLayer
@@ -40485,6 +41416,7 @@ class PDFPageView {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.structTreeLayer ||= new StructTreeLayerBuilder();
     const tree = await (!this.structTreeLayer.renderingDone ? this.pdfPage.getStructTree() : null);
     const treeDom = this.structTreeLayer?.render(tree);
@@ -40492,6 +41424,8 @@ class PDFPageView {
       this.l10n.pause();
       this.canvas?.append(treeDom);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -40586,6 +41520,9 @@ class PDFPageView {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -40762,7 +41699,10 @@ class PDFPageView {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -40863,6 +41803,9 @@ class PDFPageView {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -41066,9 +42009,12 @@ class PDFPageView {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (this.structTreeLayer && !this.textLayer) {
       this.structTreeLayer = null;
     }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -41164,6 +42110,12 @@ class PDFPageView {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    if (this.structTreeLayer && !this.textLayer) {
+      this.structTreeLayer = null;
+    }
+>>>>>>> upstream/18.0
 =======
     if (this.structTreeLayer && !this.textLayer) {
       this.structTreeLayer = null;
@@ -41534,7 +42486,12 @@ class PDFPageView {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       alpha: false
+=======
+      alpha: false,
+      willReadFrequently: !this.#enableHWA
+>>>>>>> upstream/18.0
 =======
       alpha: false,
       willReadFrequently: !this.#enableHWA
@@ -41705,6 +42662,7 @@ class PDFPageView {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     canvas.width = roundToDivide(width * outputScale.sx, sfx[0]);
     canvas.height = roundToDivide(height * outputScale.sy, sfy[0]);
     const {
@@ -41713,6 +42671,8 @@ class PDFPageView {
     style.width = roundToDivide(width, sfx[1]) + "px";
     style.height = roundToDivide(height, sfy[1]) + "px";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -41814,6 +42774,9 @@ class PDFPageView {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -41912,7 +42875,12 @@ class PDFPageView {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       pageColors
+=======
+      pageColors,
+      isEditing: this.#isEditing
+>>>>>>> upstream/18.0
 =======
       pageColors,
       isEditing: this.#isEditing
@@ -42069,6 +43037,10 @@ class PDFPageView {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      this.structTreeLayer ||= new StructTreeLayerBuilder(pdfPage, viewport.rawDims);
+>>>>>>> upstream/18.0
 =======
       this.structTreeLayer ||= new StructTreeLayerBuilder(pdfPage, viewport.rawDims);
 >>>>>>> upstream/18.0
@@ -42204,6 +43176,7 @@ class PDFPageView {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       if (!this.annotationEditorLayer) {
         this.annotationEditorLayer = new AnnotationEditorLayerBuilder({
           uiManager: annotationEditorUIManager,
@@ -42219,6 +43192,8 @@ class PDFPageView {
         });
       }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -42319,6 +43294,9 @@ class PDFPageView {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -42457,7 +43435,11 @@ class PDFPageView {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./web/pdf_viewer.js
+=======
+;// ./web/pdf_viewer.js
+>>>>>>> upstream/18.0
 =======
 ;// ./web/pdf_viewer.js
 >>>>>>> upstream/18.0
@@ -42586,8 +43568,13 @@ const PagesCountLimit = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   FORCE_SCROLL_MODE_PAGE: 15000,
   FORCE_LAZY_PAGE_INIT: 7500,
+=======
+  FORCE_SCROLL_MODE_PAGE: 10000,
+  FORCE_LAZY_PAGE_INIT: 5000,
+>>>>>>> upstream/18.0
 =======
   FORCE_SCROLL_MODE_PAGE: 10000,
   FORCE_LAZY_PAGE_INIT: 5000,
@@ -42799,11 +43786,14 @@ class PDFViewer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   #enableHighlightFloatingButton = false;
   #enablePermissions = false;
   #eventAbortController = null;
   #mlManager = null;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -42900,6 +43890,9 @@ class PDFViewer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -42998,7 +43991,11 @@ class PDFViewer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const viewerVersion = "4.3.136";
+=======
+    const viewerVersion = "4.8.69";
+>>>>>>> upstream/18.0
 =======
     const viewerVersion = "4.8.69";
 >>>>>>> upstream/18.0
@@ -43145,6 +44142,11 @@ class PDFViewer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    this.#enableUpdatedAddImage = options.enableUpdatedAddImage === true;
+    this.#enableNewAltTextWhenAddingImage = options.enableNewAltTextWhenAddingImage === true;
+>>>>>>> upstream/18.0
 =======
     this.#enableUpdatedAddImage = options.enableUpdatedAddImage === true;
     this.#enableNewAltTextWhenAddingImage = options.enableNewAltTextWhenAddingImage === true;
@@ -43304,6 +44306,10 @@ class PDFViewer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    this.#enableHWA = options.enableHWA || false;
+>>>>>>> upstream/18.0
 =======
     this.#enableHWA = options.enableHWA || false;
 >>>>>>> upstream/18.0
@@ -43431,8 +44437,11 @@ class PDFViewer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.scroll = watchScroll(this.container, this._scrollUpdate.bind(this));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -43530,6 +44539,9 @@ class PDFViewer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -43834,6 +44846,7 @@ class PDFViewer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const hiddenCapability = Promise.withResolvers();
     function onVisibilityChange() {
       if (document.visibilityState === "hidden") {
@@ -43846,6 +44859,8 @@ class PDFViewer {
     await Promise.race([this._onePageRenderedCapability.promise, hiddenCapability.promise]);
     document.removeEventListener("visibilitychange", onVisibilityChange);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -43944,6 +44959,9 @@ class PDFViewer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -44071,11 +45089,14 @@ class PDFViewer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       const savedCursor = this.container.style.cursor;
       this.container.style.cursor = "wait";
       const interruptCopy = ev => this.#interruptCopyCondition = ev.key === "Escape";
       window.addEventListener("keydown", interruptCopy);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -44171,6 +45192,9 @@ class PDFViewer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -44269,8 +45293,13 @@ class PDFViewer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         window.removeEventListener("keydown", interruptCopy);
         this.container.style.cursor = savedCursor;
+=======
+        ac.abort();
+        classList.remove("copyAll");
+>>>>>>> upstream/18.0
 =======
         ac.abort();
         classList.remove("copyAll");
@@ -44435,10 +45464,15 @@ class PDFViewer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       if (this.#annotationEditorUIManager) {
         this.#annotationEditorUIManager.destroy();
         this.#annotationEditorUIManager = null;
       }
+=======
+      this.#annotationEditorUIManager?.destroy();
+      this.#annotationEditorUIManager = null;
+>>>>>>> upstream/18.0
 =======
       this.#annotationEditorUIManager?.destroy();
       this.#annotationEditorUIManager = null;
@@ -44661,7 +45695,11 @@ class PDFViewer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       if (annotationEditorMode !== AnnotationEditorType.DISABLE) {
+=======
+      if (typeof AbortSignal.any === "function" && annotationEditorMode !== AnnotationEditorType.DISABLE) {
+>>>>>>> upstream/18.0
 =======
       if (typeof AbortSignal.any === "function" && annotationEditorMode !== AnnotationEditorType.DISABLE) {
 >>>>>>> upstream/18.0
@@ -44786,7 +45824,11 @@ class PDFViewer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           this.#annotationEditorUIManager = new AnnotationEditorUIManager(this.container, viewer, this.#altTextManager, eventBus, pdfDocument, pageColors, this.#annotationEditorHighlightColors, this.#enableHighlightFloatingButton, this.#mlManager);
+=======
+          this.#annotationEditorUIManager = new AnnotationEditorUIManager(this.container, viewer, this.#altTextManager, eventBus, pdfDocument, pageColors, this.#annotationEditorHighlightColors, this.#enableHighlightFloatingButton, this.#enableUpdatedAddImage, this.#enableNewAltTextWhenAddingImage, this.#mlManager);
+>>>>>>> upstream/18.0
 =======
           this.#annotationEditorUIManager = new AnnotationEditorUIManager(this.container, viewer, this.#altTextManager, eventBus, pdfDocument, pageColors, this.#annotationEditorHighlightColors, this.#enableHighlightFloatingButton, this.#enableUpdatedAddImage, this.#enableNewAltTextWhenAddingImage, this.#mlManager);
 >>>>>>> upstream/18.0
@@ -44912,6 +45954,12 @@ class PDFViewer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if (mode === AnnotationEditorType.STAMP) {
+              this.#mlManager?.loadModel("altText");
+            }
+>>>>>>> upstream/18.0
 =======
             if (mode === AnnotationEditorType.STAMP) {
               this.#mlManager?.loadModel("altText");
@@ -45104,6 +46152,12 @@ class PDFViewer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      if (pageColors?.background) {
+        viewer.style.setProperty("--page-bg-color", pageColors.background);
+      }
+>>>>>>> upstream/18.0
 =======
       if (pageColors?.background) {
         viewer.style.setProperty("--page-bg-color", pageColors.background);
@@ -45303,7 +46357,12 @@ class PDFViewer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           layerProperties: this._layerProperties
+=======
+          layerProperties: this._layerProperties,
+          enableHWA: this.#enableHWA
+>>>>>>> upstream/18.0
 =======
           layerProperties: this._layerProperties,
           enableHWA: this.#enableHWA
@@ -45574,6 +46633,10 @@ class PDFViewer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    this.#cleanupSwitchAnnotationEditorMode();
+>>>>>>> upstream/18.0
 =======
     this.#cleanupSwitchAnnotationEditorMode();
 >>>>>>> upstream/18.0
@@ -46066,7 +47129,10 @@ class PDFViewer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -46182,6 +47248,9 @@ class PDFViewer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -46703,7 +47772,10 @@ class PDFViewer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -46799,6 +47871,9 @@ class PDFViewer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -46908,6 +47983,7 @@ class PDFViewer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.#annotationEditorMode = mode;
     this.eventBus.dispatch("annotationeditormodechanged", {
       source: this,
@@ -46924,6 +48000,8 @@ class PDFViewer {
     }
     this.#annotationEditorUIManager.updateParams(type, value);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -47053,6 +48131,9 @@ class PDFViewer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -47160,7 +48241,11 @@ class PDFViewer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./web/secondary_toolbar.js
+=======
+;// ./web/secondary_toolbar.js
+>>>>>>> upstream/18.0
 =======
 ;// ./web/secondary_toolbar.js
 >>>>>>> upstream/18.0
@@ -47383,7 +48468,10 @@ class SecondaryToolbar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -47475,6 +48563,9 @@ class SecondaryToolbar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -47656,7 +48747,12 @@ class SecondaryToolbar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     tool
+=======
+    tool,
+    disabled
+>>>>>>> upstream/18.0
 =======
     tool,
     disabled
@@ -47814,6 +48910,11 @@ class SecondaryToolbar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    cursorSelectToolButton.disabled = disabled;
+    cursorHandToolButton.disabled = disabled;
+>>>>>>> upstream/18.0
 =======
     cursorSelectToolButton.disabled = disabled;
     cursorHandToolButton.disabled = disabled;
@@ -48034,7 +49135,11 @@ class SecondaryToolbar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./web/toolbar.js
+=======
+;// ./web/toolbar.js
+>>>>>>> upstream/18.0
 =======
 ;// ./web/toolbar.js
 >>>>>>> upstream/18.0
@@ -48159,7 +49264,11 @@ class Toolbar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   constructor(options, eventBus) {
+=======
+  constructor(options, eventBus, toolbarDensity = 0) {
+>>>>>>> upstream/18.0
 =======
   constructor(options, eventBus, toolbarDensity = 0) {
 >>>>>>> upstream/18.0
@@ -48343,6 +49452,7 @@ class Toolbar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       }
     }];
     this.#bindListeners(buttons);
@@ -48367,6 +49477,8 @@ class Toolbar {
     this.reset();
   }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -48482,6 +49594,9 @@ class Toolbar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -48611,6 +49726,11 @@ class Toolbar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      editorHighlightColorPicker,
+      editorHighlightButton,
+>>>>>>> upstream/18.0
 =======
       editorHighlightColorPicker,
       editorHighlightButton,
@@ -48768,7 +49888,12 @@ class Toolbar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       eventDetails
+=======
+      eventDetails,
+      telemetry
+>>>>>>> upstream/18.0
 =======
       eventDetails,
       telemetry
@@ -48928,7 +50053,10 @@ class Toolbar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -49022,6 +50150,9 @@ class Toolbar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -49140,7 +50271,10 @@ class Toolbar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -49247,6 +50381,9 @@ class Toolbar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -49350,11 +50487,14 @@ class Toolbar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     toggleCheckedBtn(editorFreeTextButton, mode === AnnotationEditorType.FREETEXT, editorFreeTextParamsToolbar);
     toggleCheckedBtn(editorHighlightButton, mode === AnnotationEditorType.HIGHLIGHT, editorHighlightParamsToolbar);
     toggleCheckedBtn(editorInkButton, mode === AnnotationEditorType.INK, editorInkParamsToolbar);
     toggleCheckedBtn(editorStampButton, mode === AnnotationEditorType.STAMP, editorStampParamsToolbar);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -49446,6 +50586,9 @@ class Toolbar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -49599,7 +50742,11 @@ class Toolbar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./web/view_history.js
+=======
+;// ./web/view_history.js
+>>>>>>> upstream/18.0
 =======
 ;// ./web/view_history.js
 >>>>>>> upstream/18.0
@@ -49786,7 +50933,12 @@ class ViewHistory {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./web/app.js
+=======
+;// ./web/app.js
+
+>>>>>>> upstream/18.0
 =======
 ;// ./web/app.js
 
@@ -49969,7 +51121,10 @@ const FORCE_PAGES_LOADED_TIMEOUT = 10000;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const WHEEL_ZOOM_DISABLED_TIMEOUT = 1000;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -50091,7 +51246,11 @@ const PDFViewerApplication = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   preferences: null,
+=======
+  preferences: new Preferences(),
+>>>>>>> upstream/18.0
 =======
   preferences: new Preferences(),
 >>>>>>> upstream/18.0
@@ -50217,6 +51376,7 @@ const PDFViewerApplication = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   isInitialViewSet: false,
   downloadComplete: false,
   isViewerEmbedded: window.parent !== window,
@@ -50226,6 +51386,8 @@ const PDFViewerApplication = {
   _eventBusAbortController: null,
   _windowAbortController: null,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -50323,6 +51485,9 @@ const PDFViewerApplication = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -50427,11 +51592,17 @@ const PDFViewerApplication = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   _nimbusDataPromise: null,
   _caretBrowsing: null,
   _isScrolling: false,
   async initialize(appConfig) {
     let l10nPromise;
+=======
+  _caretBrowsing: null,
+  _isScrolling: false,
+  async initialize(appConfig) {
+>>>>>>> upstream/18.0
 =======
   _caretBrowsing: null,
   _isScrolling: false,
@@ -50633,8 +51804,12 @@ const PDFViewerApplication = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     l10nPromise = this.externalServices.createL10n();
     this.l10n = await l10nPromise;
+=======
+    this.l10n = await this.externalServices.createL10n();
+>>>>>>> upstream/18.0
 =======
     this.l10n = await this.externalServices.createL10n();
 >>>>>>> upstream/18.0
@@ -50782,7 +51957,11 @@ const PDFViewerApplication = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       } = await import( /*webpackIgnore: true*/AppOptions.get("debuggerSrc"));
+=======
+      } = await import(/*webpackIgnore: true*/AppOptions.get("debuggerSrc"));
+>>>>>>> upstream/18.0
 =======
       } = await import(/*webpackIgnore: true*/AppOptions.get("debuggerSrc"));
 >>>>>>> upstream/18.0
@@ -50908,7 +52087,11 @@ const PDFViewerApplication = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await import( /*webpackIgnore: true*/PDFWorker.workerSrc);
+=======
+        await import(/*webpackIgnore: true*/PDFWorker.workerSrc);
+>>>>>>> upstream/18.0
 =======
         await import(/*webpackIgnore: true*/PDFWorker.workerSrc);
 >>>>>>> upstream/18.0
@@ -51033,6 +52216,7 @@ const PDFViewerApplication = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (params.has("disablerange")) {
       AppOptions.set("disableRange", params.get("disablerange") === "true");
     }
@@ -51051,6 +52235,8 @@ const PDFViewerApplication = {
     if (params.has("verbosity")) {
       AppOptions.set("verbosity", params.get("verbosity") | 0);
     }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -51173,8 +52359,11 @@ const PDFViewerApplication = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       AppOptions.set("locale", params.get("locale"));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -51280,6 +52469,9 @@ const PDFViewerApplication = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -51377,8 +52569,14 @@ const PDFViewerApplication = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const eventBus = AppOptions.get("isInAutomation") ? new AutomationEventBus() : new EventBus();
     this.eventBus = eventBus;
+=======
+    const eventBus = new EventBus();
+    this.eventBus = AppOptions.eventBus = eventBus;
+    this.mlManager?.setEventBus(eventBus, this._globalAbortController.signal);
+>>>>>>> upstream/18.0
 =======
     const eventBus = new EventBus();
     this.eventBus = AppOptions.eventBus = eventBus;
@@ -51590,8 +52788,11 @@ const PDFViewerApplication = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const altTextManager = appConfig.altTextDialog ? new AltTextManager(appConfig.altTextDialog, container, this.overlayManager, eventBus) : null;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -51686,6 +52887,9 @@ const PDFViewerApplication = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -51791,6 +52995,11 @@ const PDFViewerApplication = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      enableUpdatedAddImage: AppOptions.get("enableUpdatedAddImage"),
+      enableNewAltTextWhenAddingImage: AppOptions.get("enableNewAltTextWhenAddingImage"),
+>>>>>>> upstream/18.0
 =======
       enableUpdatedAddImage: AppOptions.get("enableUpdatedAddImage"),
       enableNewAltTextWhenAddingImage: AppOptions.get("enableNewAltTextWhenAddingImage"),
@@ -51946,7 +53155,13 @@ const PDFViewerApplication = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       mlManager: this.mlManager
+=======
+      mlManager: this.mlManager,
+      abortSignal: this._globalAbortController.signal,
+      enableHWA
+>>>>>>> upstream/18.0
 =======
       mlManager: this.mlManager,
       abortSignal: this._globalAbortController.signal,
@@ -52138,7 +53353,13 @@ const PDFViewerApplication = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         pageColors
+=======
+        pageColors,
+        abortSignal: this._globalAbortController.signal,
+        enableHWA
+>>>>>>> upstream/18.0
 =======
         pageColors,
         abortSignal: this._globalAbortController.signal,
@@ -52330,6 +53551,7 @@ const PDFViewerApplication = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       this.findBar = new PDFFindBar(appConfig.findBar, eventBus);
     }
     if (appConfig.annotationEditorParams) {
@@ -52342,6 +53564,8 @@ const PDFViewerApplication = {
           editorHighlightButton.hidden = false;
         }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -52433,6 +53657,9 @@ const PDFViewerApplication = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -52529,6 +53756,12 @@ const PDFViewerApplication = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    if (this.mlManager && appConfig.secondaryToolbar?.imageAltTextSettingsButton) {
+      this.imageAltTextSettings = new ImageAltTextSettings(appConfig.altTextSettingsDialog, this.overlayManager, eventBus, this.mlManager);
+    }
+>>>>>>> upstream/18.0
 =======
     if (this.mlManager && appConfig.secondaryToolbar?.imageAltTextSettingsButton) {
       this.imageAltTextSettings = new ImageAltTextSettings(appConfig.altTextSettingsDialog, this.overlayManager, eventBus, this.mlManager);
@@ -52720,10 +53953,13 @@ const PDFViewerApplication = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       this.toolbar = new Toolbar(appConfig.toolbar, eventBus);
     }
     if (appConfig.secondaryToolbar) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -52818,6 +54054,9 @@ const PDFViewerApplication = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -52961,7 +54200,10 @@ const PDFViewerApplication = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.preferences = new Preferences();
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -53081,6 +54323,7 @@ const PDFViewerApplication = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       evt.preventDefault();
       evt.dataTransfer.dropEffect = evt.dataTransfer.effectAllowed === "copy" ? "copy" : "move";
     });
@@ -53093,6 +54336,8 @@ const PDFViewerApplication = {
         return;
       }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -53195,6 +54440,9 @@ const PDFViewerApplication = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -53303,7 +54551,11 @@ const PDFViewerApplication = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       appConfig.toolbar?.viewFind?.classList.add("hidden");
+=======
+      appConfig.findBar?.toggleButton?.classList.add("hidden");
+>>>>>>> upstream/18.0
 =======
       appConfig.findBar?.toggleButton?.classList.add("hidden");
 >>>>>>> upstream/18.0
@@ -53436,9 +54688,12 @@ const PDFViewerApplication = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   get mlManager() {
     return shadow(this, "mlManager", AppOptions.get("enableML") === true ? new MLManager() : null);
   },
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -53594,7 +54849,11 @@ const PDFViewerApplication = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this._caretBrowsing ||= new CaretBrowsingMode(this.appConfig.mainContainer, this.appConfig.viewerContainer, this.appConfig.toolbar?.container);
+=======
+    this._caretBrowsing ||= new CaretBrowsingMode(this._globalAbortController.signal, this.appConfig.mainContainer, this.appConfig.viewerContainer, this.appConfig.toolbar?.container);
+>>>>>>> upstream/18.0
 =======
     this._caretBrowsing ||= new CaretBrowsingMode(this._globalAbortController.signal, this.appConfig.mainContainer, this.appConfig.viewerContainer, this.appConfig.toolbar?.container);
 >>>>>>> upstream/18.0
@@ -53729,6 +54988,7 @@ const PDFViewerApplication = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         title = decodeURIComponent(getFilenameFromUrl(url)) || url;
       } catch {
         title = url;
@@ -53736,6 +54996,8 @@ const PDFViewerApplication = {
     }
     this.setTitle(title);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -53827,6 +55089,9 @@ const PDFViewerApplication = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -53961,7 +55226,10 @@ const PDFViewerApplication = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.downloadComplete = false;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -54124,6 +55392,7 @@ const PDFViewerApplication = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   _ensureDownloadComplete() {
     if (this.pdfDocument && this.downloadComplete) {
       return;
@@ -54146,6 +55415,8 @@ const PDFViewerApplication = {
   },
   async save(options = {}) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -54241,6 +55512,9 @@ const PDFViewerApplication = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -54305,6 +55579,7 @@ const PDFViewerApplication = {
     }
     this._saveInProgress = true;
     await this.pdfScriptingManager.dispatchWillSave();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -54406,6 +55681,8 @@ const PDFViewerApplication = {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     try {
       const data = await this.pdfDocument.saveDocument();
       this.downloadManager.download(data, this._downloadUrl, this._docFilename);
@@ -54441,6 +55718,9 @@ const PDFViewerApplication = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -54544,6 +55824,7 @@ const PDFViewerApplication = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   downloadOrSave(options = {}) {
     if (this.pdfDocument?.annotationStorage.size > 0) {
       this.save(options);
@@ -54551,6 +55832,8 @@ const PDFViewerApplication = {
       this.download(options);
     }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -54645,6 +55928,9 @@ const PDFViewerApplication = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -54764,11 +56050,16 @@ const PDFViewerApplication = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (!this.loadingBar || this.downloadComplete) {
       return;
     }
     const percent = Math.round(level * 100);
     if (percent <= this.loadingBar.percent) {
+=======
+    const percent = Math.round(level * 100);
+    if (!this.loadingBar || percent <= this.loadingBar.percent) {
+>>>>>>> upstream/18.0
 =======
     const percent = Math.round(level * 100);
     if (!this.loadingBar || percent <= this.loadingBar.percent) {
@@ -54932,7 +56223,10 @@ const PDFViewerApplication = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       this.downloadComplete = true;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -55460,10 +56754,16 @@ const PDFViewerApplication = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (!this.supportsPrinting) {
       return;
     }
     window.print();
+=======
+    if (this.supportsPrinting) {
+      window.print();
+    }
+>>>>>>> upstream/18.0
 =======
     if (this.supportsPrinting) {
       window.print();
@@ -55619,6 +56919,7 @@ const PDFViewerApplication = {
     if (this._eventBusAbortController) {
       return;
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -55838,6 +57139,8 @@ const PDFViewerApplication = {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     const ac = this._eventBusAbortController = new AbortController();
     const opts = {
       signal: ac.signal
@@ -55919,6 +57222,9 @@ const PDFViewerApplication = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -56019,6 +57325,10 @@ const PDFViewerApplication = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      pdfViewer,
+>>>>>>> upstream/18.0
 =======
       pdfViewer,
 >>>>>>> upstream/18.0
@@ -56145,7 +57455,11 @@ const PDFViewerApplication = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         webViewerResolutionChange(evt);
+=======
+        pdfViewer.refresh();
+>>>>>>> upstream/18.0
 =======
         pdfViewer.refresh();
 >>>>>>> upstream/18.0
@@ -56274,6 +57588,7 @@ const PDFViewerApplication = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     window.addEventListener("visibilitychange", webViewerVisibilityChange, {
       signal
     });
@@ -56308,6 +57623,8 @@ const PDFViewerApplication = {
       });
     }, {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -56423,6 +57740,9 @@ const PDFViewerApplication = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -56492,6 +57812,7 @@ const PDFViewerApplication = {
     }, {
       signal
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -56599,6 +57920,8 @@ const PDFViewerApplication = {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     window.addEventListener("beforeprint", () => eventBus.dispatch("beforeprint", {
       source: window
     }), {
@@ -56642,6 +57965,9 @@ const PDFViewerApplication = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -56762,9 +58088,13 @@ const PDFViewerApplication = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       mainContainer.removeEventListener("scroll", scroll, {
         passive: true
       });
+=======
+      mainContainer.removeEventListener("scroll", scroll);
+>>>>>>> upstream/18.0
 =======
       mainContainer.removeEventListener("scroll", scroll);
 >>>>>>> upstream/18.0
@@ -56906,7 +58236,10 @@ const PDFViewerApplication = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -57002,6 +58335,9 @@ const PDFViewerApplication = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -57145,6 +58481,7 @@ initCom(PDFViewerApplication);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 function webViewerPageRender({
   pageNumber
@@ -57164,6 +58501,8 @@ function webViewerPageRendered({
     const pageView = PDFViewerApplication.pdfViewer.getPageView(pageNumber - 1);
     const thumbnailView = PDFViewerApplication.pdfThumbnailViewer?.getThumbnail(pageNumber - 1);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -57282,6 +58621,9 @@ function onPageRendered({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -57376,11 +58718,14 @@ function onPageRendered({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     PDFViewerApplication._otherError("pdfjs-rendering-error", error);
   }
 }
 function webViewerPageMode({
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -57472,6 +58817,9 @@ function onPageMode({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -57555,6 +58903,7 @@ function onPageMode({
       console.error('Invalid "pagemode" hash parameter: ' + mode);
       return;
   }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -57680,6 +59029,8 @@ function webViewerUpdateViewarea({
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
   this.pdfSidebar?.switchView(view, true);
 }
 function onNamedAction(evt) {
@@ -57742,6 +59093,9 @@ function onUpdateViewarea({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -57808,6 +59162,7 @@ function onUpdateViewarea({
       rotation: location.rotation
     }).catch(() => {});
   }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -57913,6 +59268,8 @@ function webViewerResize() {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
   if (this.appConfig.secondaryToolbar) {
     this.appConfig.secondaryToolbar.viewBookmarkButton.href = this.pdfLinkService.getAnchorUrl(location.pdfOpenParams);
   }
@@ -57952,6 +59309,9 @@ function onResize() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -58045,7 +59405,11 @@ function onResize() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   } = PDFViewerApplication;
+=======
+  } = this;
+>>>>>>> upstream/18.0
 =======
   } = this;
 >>>>>>> upstream/18.0
@@ -58178,7 +59542,11 @@ function onResize() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 function webViewerHashchange(evt) {
+=======
+function onHashchange(evt) {
+>>>>>>> upstream/18.0
 =======
 function onHashchange(evt) {
 >>>>>>> upstream/18.0
@@ -58273,6 +59641,7 @@ function onHashchange(evt) {
   if (!hash) {
     return;
   }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -58451,6 +59820,8 @@ function webViewerFindFromUrlHash(evt) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
   if (!this.isInitialViewSet) {
     this.initialBookmark = hash;
   } else if (!this.pdfHistory?.popStateInProgress) {
@@ -58505,6 +59876,9 @@ function onFindFromUrlHash(evt) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -58574,6 +59948,7 @@ function onFindFromUrlHash(evt) {
     matchDiacritics: true
   });
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -58682,6 +60057,8 @@ function webViewerUpdateFindControlState({
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 function onUpdateFindMatchesCount({
   matchesCount
 }) {
@@ -58732,6 +60109,9 @@ function onUpdateFindControlState({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -58795,6 +60175,7 @@ function onUpdateFindControlState({
       rawQuery
     });
   } else {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -58928,6 +60309,8 @@ function webViewerWheel(evt) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     this.findBar?.updateUIState(state, previous, matchesCount);
   }
 }
@@ -58984,6 +60367,9 @@ function onWheel(evt) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -59078,7 +60464,11 @@ function onWheel(evt) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   } = PDFViewerApplication;
+=======
+  } = this;
+>>>>>>> upstream/18.0
 =======
   } = this;
 >>>>>>> upstream/18.0
@@ -59205,6 +60595,7 @@ function onWheel(evt) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   const isPinchToZoom = evt.ctrlKey && !PDFViewerApplication._isCtrlKeyDown && deltaMode === WheelEvent.DOM_DELTA_PIXEL && evt.deltaX === 0 && (Math.abs(scaleFactor - 1) < 0.05 || isBuiltInMac) && evt.deltaZ === 0;
   const origin = [evt.clientX, evt.clientY];
   if (isPinchToZoom || evt.ctrlKey && supportsMouseWheelZoomCtrlKey || evt.metaKey && supportsMouseWheelZoomMetaKey) {
@@ -59216,6 +60607,8 @@ function onWheel(evt) {
       scaleFactor = PDFViewerApplication._accumulateFactor(pdfViewer.currentScale, scaleFactor, "_wheelUnusedFactor");
       PDFViewerApplication.updateZoom(null, scaleFactor, origin);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -59313,6 +60706,9 @@ function onWheel(evt) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -59376,6 +60772,7 @@ function onWheel(evt) {
       const delta = normalizeWheelEventDirection(evt);
       let ticks = 0;
       if (deltaMode === WheelEvent.DOM_DELTA_LINE || deltaMode === WheelEvent.DOM_DELTA_PAGE) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -59485,6 +60882,8 @@ function webViewerTouchStart(evt) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         ticks = Math.abs(delta) >= 1 ? Math.sign(delta) : this._accumulateTicks(delta, "_wheelUnusedTicks");
       } else {
         const PIXELS_PER_LINE_SCALE = 30;
@@ -59530,6 +60929,9 @@ function onTouchStart(evt) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -59625,7 +61027,11 @@ function onTouchStart(evt) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   PDFViewerApplication._touchInfo = {
+=======
+  this._touchInfo = {
+>>>>>>> upstream/18.0
 =======
   this._touchInfo = {
 >>>>>>> upstream/18.0
@@ -59752,8 +61158,13 @@ function onTouchStart(evt) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 function webViewerTouchMove(evt) {
   if (!PDFViewerApplication._touchInfo || evt.touches.length !== 2) {
+=======
+function onTouchMove(evt) {
+  if (!this._touchInfo || evt.touches.length !== 2) {
+>>>>>>> upstream/18.0
 =======
 function onTouchMove(evt) {
   if (!this._touchInfo || evt.touches.length !== 2) {
@@ -59910,7 +61321,11 @@ function onTouchMove(evt) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   } = PDFViewerApplication;
+=======
+  } = this;
+>>>>>>> upstream/18.0
 =======
   } = this;
 >>>>>>> upstream/18.0
@@ -60089,6 +61504,7 @@ function onTouchMove(evt) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const newScaleFactor = PDFViewerApplication._accumulateFactor(pdfViewer.currentScale, distance / pDistance, "_touchUnusedFactor");
     PDFViewerApplication.updateZoom(null, newScaleFactor, origin);
   } else {
@@ -60124,6 +61540,8 @@ function webViewerKeyDown(evt) {
   PDFViewerApplication._isCtrlKeyDown = evt.key === "Control";
   if (PDFViewerApplication.overlayManager.active) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -60245,6 +61663,9 @@ function onKeyDown(evt) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -60339,7 +61760,11 @@ function onKeyDown(evt) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   } = PDFViewerApplication;
+=======
+  } = this;
+>>>>>>> upstream/18.0
 =======
   } = this;
 >>>>>>> upstream/18.0
@@ -60467,8 +61892,13 @@ function onKeyDown(evt) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!PDFViewerApplication.supportsIntegratedFind && !evt.shiftKey) {
           PDFViewerApplication.findBar?.open();
+=======
+        if (!this.supportsIntegratedFind && !evt.shiftKey) {
+          this.findBar?.open();
+>>>>>>> upstream/18.0
 =======
         if (!this.supportsIntegratedFind && !evt.shiftKey) {
           this.findBar?.open();
@@ -60623,11 +62053,14 @@ function onKeyDown(evt) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!PDFViewerApplication.supportsIntegratedFind) {
           const {
             state
           } = PDFViewerApplication.findController;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -60719,6 +62152,9 @@ function onKeyDown(evt) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -60826,7 +62262,11 @@ function onKeyDown(evt) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         PDFViewerApplication.zoomIn();
+=======
+        this.zoomIn();
+>>>>>>> upstream/18.0
 =======
         this.zoomIn();
 >>>>>>> upstream/18.0
@@ -60952,7 +62392,11 @@ function onKeyDown(evt) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         PDFViewerApplication.zoomOut();
+=======
+        this.zoomOut();
+>>>>>>> upstream/18.0
 =======
         this.zoomOut();
 >>>>>>> upstream/18.0
@@ -61078,8 +62522,13 @@ function onKeyDown(evt) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           setTimeout(function () {
             PDFViewerApplication.zoomReset();
+=======
+          setTimeout(() => {
+            this.zoomReset();
+>>>>>>> upstream/18.0
 =======
           setTimeout(() => {
             this.zoomReset();
@@ -61235,8 +62684,13 @@ function onKeyDown(evt) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (isViewerInPresentationMode || PDFViewerApplication.page > 1) {
           PDFViewerApplication.page = 1;
+=======
+        if (isViewerInPresentationMode || this.page > 1) {
+          this.page = 1;
+>>>>>>> upstream/18.0
 =======
         if (isViewerInPresentationMode || this.page > 1) {
           this.page = 1;
@@ -61392,8 +62846,13 @@ function onKeyDown(evt) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (isViewerInPresentationMode || PDFViewerApplication.page < PDFViewerApplication.pagesCount) {
           PDFViewerApplication.page = PDFViewerApplication.pagesCount;
+=======
+        if (isViewerInPresentationMode || this.page < this.pagesCount) {
+          this.page = this.pagesCount;
+>>>>>>> upstream/18.0
 =======
         if (isViewerInPresentationMode || this.page < this.pagesCount) {
           this.page = this.pagesCount;
@@ -61571,9 +63030,15 @@ function onKeyDown(evt) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         PDFViewerApplication.requestPresentationMode();
         handled = true;
         PDFViewerApplication.externalServices.reportTelemetry({
+=======
+        this.requestPresentationMode();
+        handled = true;
+        this.externalServices.reportTelemetry({
+>>>>>>> upstream/18.0
 =======
         this.requestPresentationMode();
         handled = true;
@@ -61761,8 +63226,13 @@ function onKeyDown(evt) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (PDFViewerApplication.appConfig.toolbar) {
           PDFViewerApplication.appConfig.toolbar.pageNumber.select();
+=======
+        if (this.appConfig.toolbar) {
+          this.appConfig.toolbar.pageNumber.select();
+>>>>>>> upstream/18.0
 =======
         if (this.appConfig.toolbar) {
           this.appConfig.toolbar.pageNumber.select();
@@ -61937,8 +63407,13 @@ function onKeyDown(evt) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (PDFViewerApplication.supportsCaretBrowsingMode) {
           PDFViewerApplication.moveCaret(true, false);
+=======
+        if (this.supportsCaretBrowsingMode) {
+          this.moveCaret(true, false);
+>>>>>>> upstream/18.0
 =======
         if (this.supportsCaretBrowsingMode) {
           this.moveCaret(true, false);
@@ -62105,7 +63580,11 @@ function onKeyDown(evt) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (PDFViewerApplication.supportsCaretBrowsingMode) {
+=======
+        if (this.supportsCaretBrowsingMode) {
+>>>>>>> upstream/18.0
 =======
         if (this.supportsCaretBrowsingMode) {
 >>>>>>> upstream/18.0
@@ -62236,6 +63715,7 @@ function onKeyDown(evt) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (PDFViewerApplication.secondaryToolbar?.isOpen) {
           PDFViewerApplication.secondaryToolbar.close();
           handled = true;
@@ -62243,6 +63723,8 @@ function onKeyDown(evt) {
         if (!PDFViewerApplication.supportsIntegratedFind && PDFViewerApplication.findBar?.opened) {
           PDFViewerApplication.findBar.close();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -62336,6 +63818,9 @@ function onKeyDown(evt) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -62429,8 +63914,13 @@ function onKeyDown(evt) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (PDFViewerApplication.supportsCaretBrowsingMode) {
           PDFViewerApplication.moveCaret(false, false);
+=======
+        if (this.supportsCaretBrowsingMode) {
+          this.moveCaret(false, false);
+>>>>>>> upstream/18.0
 =======
         if (this.supportsCaretBrowsingMode) {
           this.moveCaret(false, false);
@@ -62598,7 +64088,11 @@ function onKeyDown(evt) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (PDFViewerApplication.supportsCaretBrowsingMode) {
+=======
+        if (this.supportsCaretBrowsingMode) {
+>>>>>>> upstream/18.0
 =======
         if (this.supportsCaretBrowsingMode) {
 >>>>>>> upstream/18.0
@@ -62729,8 +64223,13 @@ function onKeyDown(evt) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (isViewerInPresentationMode || PDFViewerApplication.page > 1) {
           PDFViewerApplication.page = 1;
+=======
+        if (isViewerInPresentationMode || this.page > 1) {
+          this.page = 1;
+>>>>>>> upstream/18.0
 =======
         if (isViewerInPresentationMode || this.page > 1) {
           this.page = 1;
@@ -62886,8 +64385,13 @@ function onKeyDown(evt) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (isViewerInPresentationMode || PDFViewerApplication.page < PDFViewerApplication.pagesCount) {
           PDFViewerApplication.page = PDFViewerApplication.pagesCount;
+=======
+        if (isViewerInPresentationMode || this.page < this.pagesCount) {
+          this.page = this.pagesCount;
+>>>>>>> upstream/18.0
 =======
         if (isViewerInPresentationMode || this.page < this.pagesCount) {
           this.page = this.pagesCount;
@@ -63043,6 +64547,7 @@ function onKeyDown(evt) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         PDFViewerApplication.pdfCursorTools?.switchTool(CursorTool.SELECT);
         break;
       case 72:
@@ -63054,6 +64559,8 @@ function onKeyDown(evt) {
       case 115:
         PDFViewerApplication.pdfSidebar?.toggle();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -63151,6 +64658,9 @@ function onKeyDown(evt) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -63262,6 +64772,7 @@ function onKeyDown(evt) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         PDFViewerApplication.moveCaret(true, true);
         handled = true;
         break;
@@ -63272,6 +64783,8 @@ function onKeyDown(evt) {
       case 82:
         PDFViewerApplication.rotatePages(-90);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -63368,6 +64881,9 @@ function onKeyDown(evt) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -63447,6 +64963,7 @@ function beforeUnload(evt) {
   evt.returnValue = "";
   return false;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -63607,10 +65124,15 @@ function webViewerReportTelemetry({
 
 ;// ./web/viewer.js
 >>>>>>> upstream/18.0
+=======
+
+;// ./web/viewer.js
+>>>>>>> upstream/18.0
 
 
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -63643,6 +65165,10 @@ function webViewerReportTelemetry({
 <<<<<<< HEAD
 const pdfjsVersion = "4.3.136";
 const pdfjsBuild = "0cec64437";
+=======
+const pdfjsVersion = "4.8.69";
+const pdfjsBuild = "3634dab10";
+>>>>>>> upstream/18.0
 =======
 const pdfjsVersion = "4.8.69";
 const pdfjsBuild = "3634dab10";
@@ -63805,11 +65331,14 @@ function getViewerConfiguration() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     mainContainer: document.getElementById("viewerContainer"),
     viewerContainer: document.getElementById("viewer"),
     toolbar: {
       container: document.getElementById("toolbarViewer"),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -63902,6 +65431,9 @@ function getViewerConfiguration() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -63967,6 +65499,7 @@ function getViewerConfiguration() {
       customScaleOption: document.getElementById("customScaleOption"),
       previous: document.getElementById("previous"),
       next: document.getElementById("next"),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -64074,6 +65607,8 @@ function getViewerConfiguration() {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
       zoomIn: document.getElementById("zoomInButton"),
       zoomOut: document.getElementById("zoomOutButton"),
       print: document.getElementById("printButton"),
@@ -64120,6 +65655,9 @@ function getViewerConfiguration() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -64227,6 +65765,11 @@ function getViewerConfiguration() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      imageAltTextSettingsButton: document.getElementById("imageAltTextSettings"),
+      imageAltTextSettingsSeparator: document.getElementById("imageAltTextSettingsSeparator"),
+>>>>>>> upstream/18.0
 =======
       imageAltTextSettingsButton: document.getElementById("imageAltTextSettings"),
       imageAltTextSettingsSeparator: document.getElementById("imageAltTextSettingsSeparator"),
@@ -64382,7 +65925,11 @@ function getViewerConfiguration() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       toggleButton: document.getElementById("sidebarToggle"),
+=======
+      toggleButton: document.getElementById("sidebarToggleButton"),
+>>>>>>> upstream/18.0
 =======
       toggleButton: document.getElementById("sidebarToggleButton"),
 >>>>>>> upstream/18.0
@@ -64516,7 +66063,11 @@ function getViewerConfiguration() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       toggleButton: document.getElementById("viewFind"),
+=======
+      toggleButton: document.getElementById("viewFindButton"),
+>>>>>>> upstream/18.0
 =======
       toggleButton: document.getElementById("viewFindButton"),
 >>>>>>> upstream/18.0
@@ -64644,8 +66195,13 @@ function getViewerConfiguration() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       findPreviousButton: document.getElementById("findPrevious"),
       findNextButton: document.getElementById("findNext")
+=======
+      findPreviousButton: document.getElementById("findPreviousButton"),
+      findNextButton: document.getElementById("findNextButton")
+>>>>>>> upstream/18.0
 =======
       findPreviousButton: document.getElementById("findPreviousButton"),
       findNextButton: document.getElementById("findNextButton")
@@ -64832,7 +66388,10 @@ function getViewerConfiguration() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -64949,6 +66508,9 @@ function getViewerConfiguration() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -65080,7 +66642,11 @@ export { __webpack_exports__PDFViewerApplication as PDFViewerApplication, __webp
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //# sourceMappingURL=viewer.js.map
+=======
+//# sourceMappingURL=viewer.mjs.map
+>>>>>>> upstream/18.0
 =======
 //# sourceMappingURL=viewer.mjs.map
 >>>>>>> upstream/18.0

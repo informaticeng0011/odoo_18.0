@@ -121,7 +121,11 @@ import { createDocumentFragmentFromContent } from "@mail/utils/common/html";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { toRaw } from "@odoo/owl";
+=======
+import { markup, toRaw } from "@odoo/owl";
+>>>>>>> upstream/18.0
 =======
 import { markup, toRaw } from "@odoo/owl";
 >>>>>>> upstream/18.0
@@ -665,7 +669,10 @@ export class Message extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -966,6 +973,9 @@ export class Message extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1347,6 +1357,10 @@ export class Message extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    showTranslation = false;
+>>>>>>> upstream/18.0
 =======
     showTranslation = false;
 >>>>>>> upstream/18.0
@@ -1922,7 +1936,10 @@ export class Message extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2391,6 +2408,10 @@ export class Message extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     * @deprecated
+>>>>>>> upstream/18.0
 =======
      * @deprecated
 >>>>>>> upstream/18.0
@@ -2946,6 +2967,9 @@ export class Message extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3276,6 +3300,7 @@ export class Message extends Record {
     }
 
     get isSelfMentioned() {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3929,6 +3954,9 @@ export class Message extends Record {
 =======
         return this.effectiveSelf.in(this.recipients);
 >>>>>>> upstream/18.0
+=======
+        return this.effectiveSelf.in(this.recipients);
+>>>>>>> upstream/18.0
     }
 
     get isHighlightedFromMention() {
@@ -3940,6 +3968,7 @@ export class Message extends Record {
             if (!this.author) {
                 return false;
             }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4593,6 +4622,9 @@ export class Message extends Record {
 =======
             return this.author.eq(this.effectiveSelf);
 >>>>>>> upstream/18.0
+=======
+            return this.author.eq(this.effectiveSelf);
+>>>>>>> upstream/18.0
         },
     });
 
@@ -4747,7 +4779,10 @@ export class Message extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5118,6 +5153,9 @@ export class Message extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5467,6 +5505,11 @@ export class Message extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            !this.isBodyEmpty &&
+            !this.hasMailNotificationSummary &&
+>>>>>>> upstream/18.0
 =======
             !this.isBodyEmpty &&
             !this.hasMailNotificationSummary &&
@@ -5989,12 +6032,16 @@ export class Message extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return (
                 this.isBodyEmpty &&
                 this.attachment_ids.length === 0 &&
                 this.trackingValues.length === 0 &&
                 !this.subtype_description
             );
+=======
+            return this.computeIsEmpty();
+>>>>>>> upstream/18.0
 =======
             return this.computeIsEmpty();
 >>>>>>> upstream/18.0
@@ -6490,7 +6537,10 @@ export class Message extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6851,6 +6901,9 @@ export class Message extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7257,7 +7310,12 @@ export class Message extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this.store.self.isInternalUser
+=======
+                this.store.self.isInternalUser &&
+                this.persistent
+>>>>>>> upstream/18.0
 =======
                 this.store.self.isInternalUser &&
                 this.persistent
@@ -7921,6 +7979,7 @@ export class Message extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         return data;
 >>>>>>> upstream/18.0
@@ -7934,6 +7993,8 @@ export class Message extends Record {
         return data;
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8286,6 +8347,9 @@ export class Message extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8530,6 +8594,7 @@ export class Message extends Record {
         );
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8886,6 +8951,8 @@ export class Message extends Record {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     async remove({ removeFromThread = false } = {}) {
         const data = await rpc("/mail/message/update_content", this.removeParams);
         this.store.insert(data, { html: true });
@@ -8949,6 +9016,9 @@ export class Message extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9186,6 +9256,9 @@ export class Message extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9544,9 +9617,13 @@ export class Message extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         });
         this.body = "";
         this.attachment_ids = [];
+=======
+        };
+>>>>>>> upstream/18.0
 =======
         };
 >>>>>>> upstream/18.0

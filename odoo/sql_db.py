@@ -155,9 +155,22 @@ class BaseCursor:
 
     def flush(self):
         """ Flush the current transaction, and run precommit hooks. """
+<<<<<<< HEAD
         if self.transaction is not None:
             self.transaction.flush()
         self.precommit.run()
+=======
+        # In case some pre-commit added another pre-commit or triggered changes
+        # in the ORM, we must flush and run it again.
+        for _ in range(10):  # limit number of iterations
+            if self.transaction is not None:
+                self.transaction.flush()
+            if not self.precommit:
+                break
+            self.precommit.run()
+        else:
+            _logger.warning("Too many iterations for flushing the cursor!")
+>>>>>>> upstream/18.0
 
     def clear(self):
         """ Clear the current transaction, and clear precommit hooks. """
@@ -416,6 +429,12 @@ class Cursor(BaseCursor):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if os.getenv('ODOO_FAKETIME_TEST_MODE') and self.dbname in tools.config['db_name'].split(','):
+            self.execute("SET search_path = public, pg_catalog;")
+            self.commit()  # ensure that the search_path remains after a rollback
+>>>>>>> upstream/18.0
 =======
         if os.getenv('ODOO_FAKETIME_TEST_MODE') and self.dbname in tools.config['db_name'].split(','):
             self.execute("SET search_path = public, pg_catalog;")
@@ -1482,6 +1501,7 @@ class TestCursor(BaseCursor):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.rollback()
             self._closed = True
             if self._savepoint:
@@ -1492,6 +1512,8 @@ class TestCursor(BaseCursor):
                 _logger.warning("Found different un-closed cursor when trying to close %s: %s", self, tos)
             self._lock.release()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2081,6 +2103,9 @@ class TestCursor(BaseCursor):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

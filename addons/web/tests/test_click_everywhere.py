@@ -16,7 +16,10 @@ _logger = logging.getLogger(__name__)
 class TestMenusAdmin(odoo.tests.HttpCase):
     allow_end_on_form = True
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     @classmethod
     def _request_handler(cls, s: Session, r: PreparedRequest, /, **kw):
@@ -28,6 +31,9 @@ class TestMenusAdmin(odoo.tests.HttpCase):
             return r
         return super()._request_handler(s, r, **kw)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_01_click_everywhere_as_admin(self):
         menus = self.env['ir.ui.menu'].load_menus(False)

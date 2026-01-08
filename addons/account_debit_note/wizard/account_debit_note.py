@@ -193,8 +193,11 @@ class AccountDebitNote(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             move_msg = _("This debit note was created from: %s", move._get_html_link())
             new_move.message_post(body=move_msg)
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

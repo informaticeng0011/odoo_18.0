@@ -123,7 +123,10 @@ class TestParentStore(TransactionCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_missing_parent(self):
@@ -153,6 +156,9 @@ class TestParentStore(TransactionCase):
         self.assertEqual(len(records), 0)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -347,6 +353,12 @@ class TestGroups(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        groups = all_groups.search([('full_name', 'like', '/')])
+        self.assertTrue(groups, "did not match search for '/'")
+
+>>>>>>> upstream/18.0
 =======
         groups = all_groups.search([('full_name', 'like', '/')])
         self.assertTrue(groups, "did not match search for '/'")

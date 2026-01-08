@@ -112,7 +112,10 @@ patch(ControlButtons.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -396,6 +399,10 @@ patch(ControlButtons.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            ["amount_unpaid", ">", 0],
+>>>>>>> upstream/18.0
 =======
             ["amount_unpaid", ">", 0],
 >>>>>>> upstream/18.0
@@ -719,6 +726,9 @@ patch(ControlButtons.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1040,11 +1050,15 @@ patch(ControlButtons.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             domain: [
                 ["state", "!=", "cancel"],
                 ["invoice_status", "!=", "invoiced"],
                 ["currency_id", "=", this.pos.currency.id],
             ],
+=======
+            domain,
+>>>>>>> upstream/18.0
 =======
             domain,
 >>>>>>> upstream/18.0

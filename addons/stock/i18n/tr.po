@@ -118,8 +118,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* stock
 # 
+=======
+# * stock
+#
+>>>>>>> upstream/18.0
 =======
 # * stock
 #
@@ -807,6 +812,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Ayhan Kızıltan, 2024
 =======
 >>>>>>> upstream/18.0
@@ -951,6 +957,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# Ayhan Kızıltan, 2024
 >>>>>>> upstream/18.0
 =======
 # Ayhan Kızıltan, 2024
@@ -1554,7 +1563,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Deniz Guvener, 2025
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1919,6 +1931,7 @@
 # Ediz Duman <neps1192@gmail.com>, 2025
 # Cengiz Cokay Global Nonwoven, 2025
 # Hakan Türkün, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3035,10 +3048,16 @@
 # Wil Odoo, 2025
 # "Deniz Guvener Unal (degu)" <degu@odoo.com>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Deniz Guvener_Odoo <degu@odoo.com>, 2025
+# Wil Odoo, 2025
+# "Deniz Guvener Unal (degu)" <degu@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3858,6 +3877,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-12-29 18:36+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:36+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-14 13:55+0000\n"
 "Last-Translator: \"Deniz Guvener Unal (degu)\" <degu@odoo.com>\n"
 "Language-Team: Turkish <https://translate.odoo.com/projects/odoo-18/stock/tr/"
@@ -3985,6 +4007,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4345,12 +4370,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Transfers %(transfer_list)s: You need to supply a Lot/Serial number for products %(product_list)s."
 msgstr ""
 "\n"
 "\n"
 "Transferler %(transfer_list)s: Ürünler için bir Lot/Seri numarası sağlamanız gerekiyor%(product_list)s."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4709,6 +4737,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5078,6 +5109,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The quantity done for the product %(product)s doesn't respect the rounding precision defined on the unit of measure %(unit)s.\n"
 "Please change the quantity done or the rounding precision of your unit of measure."
 msgstr ""
@@ -5085,6 +5117,8 @@ msgstr ""
 "Ürün için yapılan miktar %(product)s Ürün için yapılan miktar%(unit)s ölçü biriminde tanımlanan yuvarlama hassasiyetine uymuyor.\n"
 "Lütfen yapılan miktarı veya ölçü biriminizin yuvarlama hassasiyetini değiştirin.."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5446,6 +5480,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5686,6 +5723,7 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_picking__state
 msgid ""
 " * Draft: The transfer is not confirmed yet. Reservation doesn't apply.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6180,6 +6218,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 " * Waiting another operation: This transfer is waiting for another operation "
 "before being ready.\n"
 " * Waiting: The transfer is waiting for the availability of some products.\n"
@@ -6327,6 +6367,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6685,7 +6728,11 @@ msgid " - Product: %(product)s, Lot/Serial Number: %(lot)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " - Ürün: %(product)s, Parti/Seri Numarası: %(lot)s"
+>>>>>>> upstream/18.0
 =======
 msgstr " - Ürün: %(product)s, Parti/Seri Numarası: %(lot)s"
 >>>>>>> upstream/18.0
@@ -7170,8 +7217,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 " 0'dan farklı olması durumunda, bu konumda bulunan ürünler için envanter "
 "sayım tarihi otomatik olarak tanımlanan sıklıkta belirlenecektir."
+=======
+" 0'dan farklı olduğunda bu konumda depolanan ürünlerin envanter sayım "
+"tarihi, tanımlanan sıklıkta otomatik olarak ayarlanacaktır."
+>>>>>>> upstream/18.0
 =======
 " 0'dan farklı olduğunda bu konumda depolanan ürünlerin envanter sayım "
 "tarihi, tanımlanan sıklıkta otomatik olarak ayarlanacaktır."
@@ -7788,7 +7840,11 @@ msgid "%(name)s (copy)(%(id)s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s (kopya)(%(id)s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s (kopya)(%(id)s)"
 >>>>>>> upstream/18.0
@@ -8266,7 +8322,11 @@ msgid "%(name)s Sequence cross dock"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s Sıra çapraz sevkiyat"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s Sıra çapraz sevkiyat"
 >>>>>>> upstream/18.0
@@ -8744,7 +8804,11 @@ msgid "%(name)s Sequence in"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s Sıra giriş"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s Sıra giriş"
 >>>>>>> upstream/18.0
@@ -9222,7 +9286,11 @@ msgid "%(name)s Sequence internal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s Sıra dahili"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s Sıra dahili"
 >>>>>>> upstream/18.0
@@ -9700,7 +9768,11 @@ msgid "%(name)s Sequence out"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s Sıra çıkış"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s Sıra çıkış"
 >>>>>>> upstream/18.0
@@ -10178,7 +10250,11 @@ msgid "%(name)s Sequence packing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s Sıra paketleme"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s Sıra paketleme"
 >>>>>>> upstream/18.0
@@ -10656,7 +10732,11 @@ msgid "%(name)s Sequence picking"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s Sıra toplama"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s Sıra toplama"
 >>>>>>> upstream/18.0
@@ -11134,7 +11214,11 @@ msgid "%(name)s Sequence quality control"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s Sıra kalite kontrol"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s Sıra kalite kontrol"
 >>>>>>> upstream/18.0
@@ -11612,7 +11696,11 @@ msgid "%(name)s Sequence storage"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s Sıra depolama"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s Sıra depolama"
 >>>>>>> upstream/18.0
@@ -12090,10 +12178,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "%(operations)s have default source or destination locations within warehouse"
 " %(warehouse)s, therefore you cannot archive it."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12450,6 +12541,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12808,7 +12902,11 @@ msgid "%(product)s: Insufficient Quantity To Scrap"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(product)s: Hurdaya Ayırmak İçin Yetersiz Miktar"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(product)s: Hurdaya Ayırmak İçin Yetersiz Miktar"
 >>>>>>> upstream/18.0
@@ -13286,11 +13384,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "%(product_name)s --> Product UoM is %(product_uom)s "
 "(%(product_uom_category)s) - Move UoM is %(move_uom)s "
 "(%(move_uom_category)s)"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13648,6 +13749,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14006,7 +14110,11 @@ msgid "%(warehouse)s Sequence %(code)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(warehouse)s Sıra %(code)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(warehouse)s Sıra %(code)s"
 >>>>>>> upstream/18.0
@@ -14523,7 +14631,11 @@ msgid "%s: Can't split: quantities done can't be above demand"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s: Bölünemez: gerçekleştirilen miktar talebin üzerinde olamaz"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s: Bölünemez: gerçekleştirilen miktar talebin üzerinde olamaz"
 >>>>>>> upstream/18.0
@@ -15004,6 +15116,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%s: Bölünecek bir şey yok, tüm talep karşılanmış. Bölme işlemi için en az "
+"bir satırın tamamen karşılanmamış olması gerekir"
+>>>>>>> upstream/18.0
 =======
 "%s: Bölünecek bir şey yok, tüm talep karşılanmış. Bölme işlemi için en az "
 "bir satırın tamamen karşılanmamış olması gerekir"
@@ -15602,6 +15719,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%s: Bölünecek bir şey yok. Yapılan miktarlara yeni bir transferde "
+"istediğiniz miktarları girin"
+>>>>>>> upstream/18.0
 =======
 "%s: Bölünecek bir şey yok. Yapılan miktarlara yeni bir transferde "
 "istediğiniz miktarları girin"
@@ -16200,8 +16322,12 @@ msgstr "'Sayım Sayfası'"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "'Delivery Slip - %s - %s' % (object.partner_id.name or '', object.name)"
+=======
+msgid "'Delivery Slip - %s - %s' % (object.partner_id.name or '', object.name)"
+>>>>>>> upstream/18.0
 =======
 msgid "'Delivery Slip - %s - %s' % (object.partner_id.name or '', object.name)"
 >>>>>>> upstream/18.0
@@ -16713,7 +16839,11 @@ msgid "(document barcode)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(belge barkodu)"
+>>>>>>> upstream/18.0
 =======
 msgstr "(belge barkodu)"
 >>>>>>> upstream/18.0
@@ -17191,7 +17321,11 @@ msgid "(package barcode)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(paket barkodu)"
+>>>>>>> upstream/18.0
 =======
 msgstr "(paket barkodu)"
 >>>>>>> upstream/18.0
@@ -17668,7 +17802,11 @@ msgid "(product barcode)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(ürün barkodu)"
+>>>>>>> upstream/18.0
 =======
 msgstr "(ürün barkodu)"
 >>>>>>> upstream/18.0
@@ -18145,7 +18283,11 @@ msgid "(serial barcode)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(seri barkodu)"
+>>>>>>> upstream/18.0
 =======
 msgstr "(seri barkodu)"
 >>>>>>> upstream/18.0
@@ -18625,11 +18767,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "* Waiting Availability: The stock move is confirmed but the product can't be reserved.\n"
 "* Available: The product of the stock move is reserved.\n"
 "* Done: The product has been transferred and the transfer has been confirmed."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18993,6 +19138,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19236,6 +19384,7 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_move_line__location_dest_usage
 #: model:ir.model.fields,help:stock.field_stock_move_line__location_usage
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19704,6 +19853,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "* Vendor Location: Virtual location representing the source location for "
 "products coming from your vendors\n"
 "* View: Virtual location used to create a hierarchical structures for your "
@@ -19849,6 +20000,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20246,7 +20400,11 @@ msgid "12.0"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "12.0"
+>>>>>>> upstream/18.0
 =======
 msgstr "12.0"
 >>>>>>> upstream/18.0
@@ -20723,7 +20881,11 @@ msgid "1234567890"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "1234567890"
+>>>>>>> upstream/18.0
 =======
 msgstr "1234567890"
 >>>>>>> upstream/18.0
@@ -21210,7 +21372,11 @@ msgid "2021-9-01"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "01.09.2021"
+>>>>>>> upstream/18.0
 =======
 msgstr "01.09.2021"
 >>>>>>> upstream/18.0
@@ -21692,7 +21858,11 @@ msgid "2023-09-24"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "24.09.2023"
+>>>>>>> upstream/18.0
 =======
 msgstr "24.09.2023"
 >>>>>>> upstream/18.0
@@ -22182,7 +22352,11 @@ msgid "4 x 12 - One per lot/SN"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "4 x 12 - Parti/SN başına bir adet"
+>>>>>>> upstream/18.0
 =======
 msgstr "4 x 12 - Parti/SN başına bir adet"
 >>>>>>> upstream/18.0
@@ -22659,7 +22833,11 @@ msgid "4 x 12 - One per unit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "4 x 12 - Birim başına bir adet"
+>>>>>>> upstream/18.0
 =======
 msgstr "4 x 12 - Birim başına bir adet"
 >>>>>>> upstream/18.0
@@ -23146,7 +23324,11 @@ msgid "54326786758"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "54326786758"
+>>>>>>> upstream/18.0
 =======
 msgstr "54326786758"
 >>>>>>> upstream/18.0
@@ -23652,10 +23834,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<br>If the products are not available in <b>%s</b>, a rule will be triggered"
 " to bring the missing quantity in this location."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24012,6 +24197,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24373,6 +24561,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<br>Ürünler, <b>%(operation)s</b> işleminin hedefinden belirtildiği şekilde, "
+"<b>%(destination)s</b> yönüne taşınacaktır."
+>>>>>>> upstream/18.0
 =======
 "<br>Ürünler, <b>%(operation)s</b> işleminin hedefinden belirtildiği şekilde, "
 "<b>%(destination)s</b> yönüne taşınacaktır."
@@ -24969,6 +25162,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Hello <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>,<br/><br/>\n"
 "        We are glad to inform you that your order has been shipped.\n"
 "        <t t-if=\"hasattr(object, 'carrier_tracking_ref') and object.carrier_tracking_ref\">\n"
@@ -24984,6 +25178,8 @@ msgid ""
 "                <t t-else=\"\">\n"
 "                    <a t-attf-href=\"{{ object.carrier_tracking_url }}\" target=\"_blank\" t-out=\"object.carrier_tracking_ref or ''\"/>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25355,6 +25551,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25716,12 +25915,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Please find your delivery order attached for more details.<br/><br/>\n"
 "        Thank you,\n"
 "        <t t-if=\"user.signature\" data-o-mail-quote-container=\"1\">\n"
 "            <br/>\n"
 "            <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26080,6 +26282,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26438,12 +26643,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_scrap_view_kanban
 msgid "<i class=\"fa fa-clock-o\" role=\"img\" aria-label=\"Date\" title=\"Date\"/>"
 msgstr "<i class=\"fa fa-clock-o\" role=\"img\" aria-label=\"Date\" title=\"Date\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26843,6 +27051,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27201,11 +27412,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                All products could not be reserved. Click on the \"Check Availability\" button to try to reserve products."
 msgstr ""
 "<i class=\"fa fa-exclamation-triangle\"/>\n"
 "                                Tüm ürünler rezerve edilemedi. Ürünleri rezerve etmeyi denemek için \"Uygunluk Kontrolü\" düğmesine tıklayın. "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -27563,6 +27777,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27920,7 +28137,11 @@ msgid "<span class=\"col-6\">Back Orders</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"col-6\">Birikmiş Siparişler</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"col-6\">Birikmiş Siparişler</span>"
 >>>>>>> upstream/18.0
@@ -28412,7 +28633,11 @@ msgid "<span class=\"o_form_label\">Scannable Package Contents</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_form_label\">Taranabilir Paket İçeriği</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_form_label\">Taranabilir Paket İçeriği</span>"
 >>>>>>> upstream/18.0
@@ -28889,7 +29114,11 @@ msgid "<span class=\"o_stat_text\">Allocation</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Tahsis</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Tahsis</span>"
 >>>>>>> upstream/18.0
@@ -29391,7 +29620,11 @@ msgid "<span class=\"o_stat_text\">Max:</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Azami:</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Azami:</span>"
 >>>>>>> upstream/18.0
@@ -29869,7 +30102,11 @@ msgid "<span class=\"o_stat_text\">Min:</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Asgari:</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Asgari:</span>"
 >>>>>>> upstream/18.0
@@ -30346,7 +30583,11 @@ msgid "<span class=\"o_stat_text\">Moves</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Hareketler</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Hareketler</span>"
 >>>>>>> upstream/18.0
@@ -30823,7 +31064,11 @@ msgid "<span class=\"o_stat_text\">Next Transfer</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Sonraki Transfer</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Sonraki Transfer</span>"
 >>>>>>> upstream/18.0
@@ -31323,7 +31568,11 @@ msgid "<span class=\"o_stat_text\">Putaway Rules</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Yerleştirme Kuralları</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Yerleştirme Kuralları</span>"
 >>>>>>> upstream/18.0
@@ -31822,7 +32071,11 @@ msgid "<span>OBTRETU</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>OBTRETU</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>OBTRETU</span>"
 >>>>>>> upstream/18.0
@@ -32319,7 +32572,11 @@ msgid "<span>days</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>gün</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>gün</span>"
 >>>>>>> upstream/18.0
@@ -32813,11 +33070,17 @@ msgid "<strong>Customer Address</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: stock
 <<<<<<< HEAD
 =======
+=======
+msgstr "<strong>Müşteri Adresi</strong>"
+
+#. module: stock
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Müşteri Adresi</strong>"
 
@@ -33531,6 +33794,9 @@ msgstr "<strong>Teslim Edilen</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -33776,6 +34042,7 @@ msgstr "<strong>Teslimat adresi</strong>"
 #: model_terms:ir.ui.view,arch_db:stock.stock_inventory_conflict_form_view
 msgid ""
 "<strong>Due to some stock moves done between your initial update of the "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -34154,6 +34421,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "quantity and now, the difference of quantity is not consistent anymore.</"
 "strong>"
 msgstr ""
@@ -34276,6 +34545,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -34654,11 +34926,17 @@ msgid "<strong>Order</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: stock
 <<<<<<< HEAD
 =======
+=======
+msgstr "<strong>Sipariş</strong>"
+
+#. module: stock
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Sipariş</strong>"
 
@@ -35372,6 +35650,9 @@ msgstr "<strong>Sipariş Edilen</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -35766,7 +36047,11 @@ msgid "<strong>Shipping Date</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Sevkiyat Tarihi</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Sevkiyat Tarihi</strong>"
 >>>>>>> upstream/18.0
@@ -36248,7 +36533,11 @@ msgid "<strong>Status</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Durum</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Durum</strong>"
 >>>>>>> upstream/18.0
@@ -36741,7 +37030,11 @@ msgid "<strong>Vendor Address</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Tedarikçi Adresi</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Tedarikçi Adresi</strong>"
 >>>>>>> upstream/18.0
@@ -37219,7 +37512,11 @@ msgid "<strong>Warehouse Address</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Depo Adresi</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Depo Adresi</strong>"
 >>>>>>> upstream/18.0
@@ -37701,7 +37998,11 @@ msgid "<strong>Where do you want to send the products?</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Ürünleri nereye göndermek istiyorsunuz?</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Ürünleri nereye göndermek istiyorsunuz?</strong>"
 >>>>>>> upstream/18.0
@@ -38183,7 +38484,11 @@ msgid "A barcode can only be assigned to one package type!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bir barkod yalnızca tek bir paket türüne atanabilir!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bir barkod yalnızca tek bir paket türüne atanabilir!"
 >>>>>>> upstream/18.0
@@ -38713,7 +39018,11 @@ msgid "A storable product is a product for which you manage stock."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Depolanabilir bir ürün, stoklarını yönettiğiniz bir üründür."
+>>>>>>> upstream/18.0
 =======
 msgstr "Depolanabilir bir ürün, stoklarını yönettiğiniz bir üründür."
 >>>>>>> upstream/18.0
@@ -39345,8 +39654,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Activate this function to get all quantities to replenish at this particular"
 " location"
+=======
+"Activate this function to get all quantities to replenish at this particular "
+"location"
+>>>>>>> upstream/18.0
 =======
 "Activate this function to get all quantities to replenish at this particular "
 "location"
@@ -39979,7 +40293,11 @@ msgid "Activity view"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Eylem görünümü"
+>>>>>>> upstream/18.0
 =======
 msgstr "Eylem görünümü"
 >>>>>>> upstream/18.0
@@ -40488,12 +40806,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Add and customize route operations to process product moves in your warehouse(s): e.g. unload > quality control > stock for incoming products, pick > pack > ship for outgoing products. \n"
 " You can also set putaway strategies on warehouse locations in order to send incoming products into specific child locations straight away (e.g. specific bins, racks)."
 msgstr ""
 "Deponuzdaki ürün hareketleri işlemlerini yönetmek için rota operasyonlarını ekleyin ve özelleştirin: Örn. Mal kabul > kalite kontrol > gelen ürünlerin depolanması, seçim > paketleme > giden ürünün sevkiyatı.\n"
 "Ayrıca gelen ürünleri göndermek için belirli alt konumları depo konum stratejinizde ayarlayabilirsiniz. ( Örn. belirli ambarlar, raflar)"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -40857,6 +41178,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -41220,9 +41544,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Deponuzda ki ürün hareketleri işlemlerini yönetmek için rota ekleyin ve özelleştirin: Örn. Mal kabul > kalite kontrol > gelen ürünlerin depolanması, seçim > paketleme > giden ürünün sevkıyatı.\n"
 "Ayrıca gelen ürünleri göndermek için belirli alt konumları depo konum stratejinizde ayarlayabilirsiniz. ( Örn. belirli ambarlar, raflar)"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -41579,6 +41906,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -42038,8 +42368,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Tüm sözleşme ilişkilerimiz münhasıran Amerika Birleşik Devletleri yasalarına"
 " tabi olacaktır."
+=======
+"Tüm sözleşme ilişkilerimiz münhasıran Amerika Birleşik Devletleri yasalarına "
+"tabi olacaktır."
+>>>>>>> upstream/18.0
 =======
 "Tüm sözleşme ilişkilerimiz münhasıran Amerika Birleşik Devletleri yasalarına "
 "tabi olacaktır."
@@ -42665,7 +43000,11 @@ msgid "Andrwep"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Andrwep"
+>>>>>>> upstream/18.0
 =======
 msgstr "Andrwep"
 >>>>>>> upstream/18.0
@@ -43161,8 +43500,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Düzenli envanter tarihi olmayan konumdaki ürünler için yıllık envanter ayı. "
 "Otomatik yıllık envanter yoksa ay yoku seçiniz."
+=======
+"Döngüsel envanter tarihi olmayan konumlardaki ürünler için yıllık envanter "
+"ayı. Otomatik yıllık envanter yoksa, ay ayarını “hayır” olarak belirleyin."
+>>>>>>> upstream/18.0
 =======
 "Döngüsel envanter tarihi olmayan konumlardaki ürünler için yıllık envanter "
 "ayı. Otomatik yıllık envanter yoksa, ay ayarını “hayır” olarak belirleyin."
@@ -43783,7 +44127,11 @@ msgid "Any Category"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Herhangi Bir Kategori"
+>>>>>>> upstream/18.0
 =======
 msgstr "Herhangi Bir Kategori"
 >>>>>>> upstream/18.0
@@ -44305,7 +44653,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ürünün varsayılan rotaları yerine ikmal için belirli bir rota uygula."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ürünün varsayılan rotaları yerine ikmal için belirli bir rota uygula."
 >>>>>>> upstream/18.0
@@ -44803,7 +45155,11 @@ msgid "Are you sure you want to cancel this transfer?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bu transferi iptal etmek istediğinizden emin misiniz?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bu transferi iptal etmek istediğinizden emin misiniz?"
 >>>>>>> upstream/18.0
@@ -45325,7 +45681,11 @@ msgid "At Customer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Müşteride"
+>>>>>>> upstream/18.0
 =======
 msgstr "Müşteride"
 >>>>>>> upstream/18.0
@@ -45830,7 +46190,11 @@ msgid "Auto Print Lot/SN Labels"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otomatik Parti/SN Etiketi Yazdır"
+>>>>>>> upstream/18.0
 =======
 msgstr "Otomatik Parti/SN Etiketi Yazdır"
 >>>>>>> upstream/18.0
@@ -46307,7 +46671,11 @@ msgid "Auto Print Package Label"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otomatik Paket Etiketi Yazdır"
+>>>>>>> upstream/18.0
 =======
 msgstr "Otomatik Paket Etiketi Yazdır"
 >>>>>>> upstream/18.0
@@ -46784,7 +47152,11 @@ msgid "Auto Print Packages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otomatik Paketler Yazdır"
+>>>>>>> upstream/18.0
 =======
 msgstr "Otomatik Paketler Yazdır"
 >>>>>>> upstream/18.0
@@ -47261,7 +47633,11 @@ msgid "Auto Print Product Labels"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otomatik Ürün Etiketleri Yazdır"
+>>>>>>> upstream/18.0
 =======
 msgstr "Otomatik Ürün Etiketleri Yazdır"
 >>>>>>> upstream/18.0
@@ -47738,7 +48114,11 @@ msgid "Auto Print Reception Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otomatik Kabul Raporu Yazdır"
+>>>>>>> upstream/18.0
 =======
 msgstr "Otomatik Kabul Raporu Yazdır"
 >>>>>>> upstream/18.0
@@ -48215,7 +48595,11 @@ msgid "Auto Print Reception Report Labels"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otomatik Kabul Raporu Etiketleri Yazdır"
+>>>>>>> upstream/18.0
 =======
 msgstr "Otomatik Kabul Raporu Etiketleri Yazdır"
 >>>>>>> upstream/18.0
@@ -48692,7 +49076,11 @@ msgid "Auto Print Return Slip"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otomatik İade Fişi Yazdır"
+>>>>>>> upstream/18.0
 =======
 msgstr "Otomatik İade Fişi Yazdır"
 >>>>>>> upstream/18.0
@@ -49169,7 +49557,11 @@ msgid "Automate"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otomatikleştir"
+>>>>>>> upstream/18.0
 =======
 msgstr "Otomatikleştir"
 >>>>>>> upstream/18.0
@@ -49684,7 +50076,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stok izleme değişmeden önce mevcut miktar sıfıra ayarlanmalıdır"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stok izleme değişmeden önce mevcut miktar sıfıra ayarlanmalıdır"
 >>>>>>> upstream/18.0
@@ -50206,7 +50602,11 @@ msgid "Barcode Demo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Barkod Demo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Barkod Demo"
 >>>>>>> upstream/18.0
@@ -50703,7 +51103,11 @@ msgid "Batch, Wave & Cluster Transfers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Parti, Dalga ve Küme Transferleri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Parti, Dalga ve Küme Transferleri"
 >>>>>>> upstream/18.0
@@ -51206,7 +51610,11 @@ msgid "Blocking: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Engelleniyor: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Engelleniyor: %s"
 >>>>>>> upstream/18.0
@@ -51725,8 +52133,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Aktif alanındaki işaretini kaldırarak, bir konumu silmeden "
 "gizleyebilirsiniz."
+=======
+"Aktif alanındaki işaretini kaldırarak, bir konumu silmeden gizleyebilirsiniz."
+>>>>>>> upstream/18.0
 =======
 "Aktif alanındaki işaretini kaldırarak, bir konumu silmeden gizleyebilirsiniz."
 >>>>>>> upstream/18.0
@@ -52204,7 +52616,11 @@ msgid "COPY"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "KOPYALA"
+>>>>>>> upstream/18.0
 =======
 msgstr "KOPYALA"
 >>>>>>> upstream/18.0
@@ -52727,7 +53143,11 @@ msgid "Cannot move an empty package"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Boş bir paket taşınamaz"
+>>>>>>> upstream/18.0
 =======
 msgstr "Boş bir paket taşınamaz"
 >>>>>>> upstream/18.0
@@ -53205,7 +53625,11 @@ msgid "Cannot remove the location of a non empty package"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Boş olmayan bir paketin konumu kaldırılamaz"
+>>>>>>> upstream/18.0
 =======
 msgstr "Boş olmayan bir paketin konumu kaldırılamaz"
 >>>>>>> upstream/18.0
@@ -53604,6 +54028,7 @@ msgid ""
 "(Chicago) in its entirety and does not include any costs relating to the "
 "legislation of the country in which the client is located."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -54497,6 +54922,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Bazı ülkeler, iç mevzuatlarına uygun olarak fatura tutarları üzerinden "
 "kaynakta stopaj uygular. Kaynakta stopaj, müşteri tarafından vergi dairesine "
 "ödenir. Hiçbir koşulda My Company (Chicago), bir ülkenin mevzuatıyla ilgili "
@@ -54620,6 +55047,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -54984,10 +55414,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Changing the Lot/Serial number for move lines with different products is not"
 " allowed."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -55344,6 +55777,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -55709,8 +56145,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Bu kaydın şirketini değiştirmek bu noktada yasaktır, onu arşivlemeli ve yeni"
 " bir kayıt oluşturmalısınız."
+=======
+"Bu kaydın şirketini değiştirmek bu noktada yasaktır, onu arşivlemeli ve yeni "
+"bir kayıt oluşturmalısınız."
+>>>>>>> upstream/18.0
 =======
 "Bu kaydın şirketini değiştirmek bu noktada yasaktır, onu arşivlemeli ve yeni "
 "bir kayıt oluşturmalısınız."
@@ -56320,6 +56761,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bir bileşik barkod (yani birden fazla barkod kodlaması içeren barkod) "
+"içindeki verileri ayırmak için kullanılan karakter(ler)"
+>>>>>>> upstream/18.0
 =======
 "Bir bileşik barkod (yani birden fazla barkod kodlaması içeren barkod) "
 "içindeki verileri ayırmak için kullanılan karakter(ler)"
@@ -57003,7 +57449,11 @@ msgid "Closest Location"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "En Yakın Konum"
+>>>>>>> upstream/18.0
 =======
 msgstr "En Yakın Konum"
 >>>>>>> upstream/18.0
@@ -57529,6 +57979,7 @@ msgstr "Teslim maliyetlerini hesaplayın ve DHL ile gönderin"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 msgid ""
 "Compute shipping costs and ship with DHL<br/>\n"
@@ -57539,6 +57990,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -57901,6 +58354,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -58265,6 +58721,7 @@ msgstr "Teslimat maliyetlerini hesaplayın ve FedEx ile gönderin"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 msgid ""
 "Compute shipping costs and ship with FedEx<br/>\n"
@@ -58275,6 +58732,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -58637,6 +59096,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -59001,7 +59463,11 @@ msgid "Compute shipping costs and ship with Starshipit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Starshipit ile kargo maliyetlerini hesapla ve gönder"
+>>>>>>> upstream/18.0
 =======
 msgstr "Starshipit ile kargo maliyetlerini hesapla ve gönder"
 >>>>>>> upstream/18.0
@@ -59483,6 +59949,7 @@ msgstr "Teslimat maliyetlerini hesaplayın ve UPS ile gönderin"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 msgid ""
 "Compute shipping costs and ship with UPS<br/>\n"
@@ -59493,6 +59960,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -59855,6 +60324,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -60095,6 +60567,7 @@ msgstr "Teslimat maliyetlerini hesaplayın ve USPS ile gönderin"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -60458,6 +60931,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Compute shipping costs and ship with USPS<br/>\n"
 "                                    <strong>(please go to Home&gt;Apps to "
@@ -60586,6 +61061,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -60996,11 +61474,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Consider product forecast these many days in the future upon product replenishment, set to 0 for just-in-time.\n"
 "The value depends on the type of the route (Buy or Manufacture)"
 msgstr ""
 "Ürün ikmali sonrasında gelecekte çok gün için ürün tahminini göz önünde bulundurun, tam zamanında için 0'a ayarlayın\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -61358,6 +61839,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -61784,7 +62268,11 @@ msgid "Count Move Ready"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hazır Hareket Sayısı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hazır Hareket Sayısı"
 >>>>>>> upstream/18.0
@@ -62338,7 +62826,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            products later. Do not create a backorder if you will not\n"
+=======
+"                            products later. Do not create a backorder if you "
+"will not\n"
+>>>>>>> upstream/18.0
 =======
 "                            products later. Do not create a backorder if you "
 "will not\n"
@@ -62962,7 +63455,11 @@ msgid "Create products easily by scanning using"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kullanarak tarama ile ürünleri kolayca oluştur"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kullanarak tarama ile ürünleri kolayca oluştur"
 >>>>>>> upstream/18.0
@@ -63572,6 +64069,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bu hareket satırının, miktarın artırılması, “seçildi” durumunun "
+"güncellenmesi veya hareket satırının tamamlanması nedeniyle güncellenene "
+"kadarki oluşturulma tarihi."
+>>>>>>> upstream/18.0
 =======
 "Bu hareket satırının, miktarın artırılması, “seçildi” durumunun "
 "güncellenmesi veya hareket satırının tamamlanması nedeniyle güncellenene "
@@ -64285,7 +64788,11 @@ msgid "Cross Dock"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Çapraz Yükleme"
+>>>>>>> upstream/18.0
 =======
 msgstr "Çapraz Yükleme"
 >>>>>>> upstream/18.0
@@ -64762,7 +65269,11 @@ msgid "Cross Dock Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Çapraz Yükleme Türü"
+>>>>>>> upstream/18.0
 =======
 msgstr "Çapraz Yükleme Türü"
 >>>>>>> upstream/18.0
@@ -65257,6 +65768,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods stored at this Location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
 "stored in the Stock Location of the Warehouse of this Shop, or any of its children.\n"
@@ -65312,6 +65824,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -65681,6 +66195,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -66067,7 +66584,11 @@ msgid "Customer Lot Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Müşteri Lot Raporu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Müşteri Lot Raporu"
 >>>>>>> upstream/18.0
@@ -66544,7 +67065,11 @@ msgid "Customer lots"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Müşteri lotları"
+>>>>>>> upstream/18.0
 =======
 msgstr "Müşteri lotları"
 >>>>>>> upstream/18.0
@@ -67032,7 +67557,11 @@ msgid "DEMO_DATE"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "DEMO_DATE"
+>>>>>>> upstream/18.0
 =======
 msgstr "DEMO_DATE"
 >>>>>>> upstream/18.0
@@ -67509,7 +68038,11 @@ msgid "DEMO_ORIGIN_DISPLAY_NAME"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "DEMO_ORIGIN_DISPLAY_NAME"
+>>>>>>> upstream/18.0
 =======
 msgstr "DEMO_ORIGIN_DISPLAY_NAME"
 >>>>>>> upstream/18.0
@@ -67986,7 +68519,11 @@ msgid "DEMO_PARTNER_NAME"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "DEMO_PARTNER_NAME"
+>>>>>>> upstream/18.0
 =======
 msgstr "DEMO_PARTNER_NAME"
 >>>>>>> upstream/18.0
@@ -68463,7 +69000,11 @@ msgid "DEMO_PRODUCT_DISPLAY_NAME"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "DEMO_PRODUCT_DISPLAY_NAME"
+>>>>>>> upstream/18.0
 =======
 msgstr "DEMO_PRODUCT_DISPLAY_NAME"
 >>>>>>> upstream/18.0
@@ -68940,7 +69481,11 @@ msgid "DEMO_QUANTITY"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "DEMO_QUANTITY"
+>>>>>>> upstream/18.0
 =======
 msgstr "DEMO_QUANTITY"
 >>>>>>> upstream/18.0
@@ -69417,7 +69962,11 @@ msgid "DEMO_SOURCE_DISPLAY_NAME"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "DEMO_SOURCE_DISPLAY_NAME"
+>>>>>>> upstream/18.0
 =======
 msgstr "DEMO_SOURCE_DISPLAY_NAME"
 >>>>>>> upstream/18.0
@@ -69894,6 +70443,7 @@ msgid "DEMO_UOM"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: stock
@@ -69906,6 +70456,8 @@ msgstr ""
 #. module: stock
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -70265,6 +70817,9 @@ msgstr "DHL Bağlayıcısı"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -70637,7 +71192,11 @@ msgid "Date Category"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tarih Kategorisi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tarih Kategorisi"
 >>>>>>> upstream/18.0
@@ -71168,6 +71727,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Day of the month when the annual inventory should occur. If zero or negative, then the first day of the month will be selected instead.\n"
 "        If greater than the last day of a month, then the last day of the month will be selected instead."
 msgstr ""
@@ -71194,6 +71754,8 @@ msgstr ""
 "        Ayın son gününden büyükse, bunun yerine ayın son günü seçilecektir."
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -71553,6 +72115,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -71911,7 +72476,11 @@ msgid "Day(s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gün"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gün"
 >>>>>>> upstream/18.0
@@ -72425,7 +72994,11 @@ msgid "Default Barcode Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Varsayılan Barkod Adı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Varsayılan Barkod Adı"
 >>>>>>> upstream/18.0
@@ -72907,7 +73480,11 @@ msgid "Default OBTRETU Barcode"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Varsayılan OBTRETU Barkodu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Varsayılan OBTRETU Barkodu"
 >>>>>>> upstream/18.0
@@ -73442,7 +74019,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Depo yapınızı ve organizasyonunuzu yansıtacak şekilde konumlarınızı tanımlayın. \n"
+=======
+"Depo yapınızı ve organizasyonunuzu yansıtacak şekilde konumlarınızı "
+"tanımlayın. \n"
+>>>>>>> upstream/18.0
 =======
 "Depo yapınızı ve organizasyonunuzu yansıtacak şekilde konumlarınızı "
 "tanımlayın. \n"
@@ -74041,6 +74623,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Defines the default method used for suggesting the exact location (shelf) where to take the products from, which lot etc. for this location. This method can be enforced at the product category level, and a fallback is made on the parent locations if none is set here.\n"
 "\n"
 "FIFO: products/lots that were stocked first will be moved out first.\n"
@@ -74085,6 +74668,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 "Bu konum için, ürünlerin hangi raftan, hangi partiden vb. alınacağını önermek üzere varsayılan olarak kullanılacak yöntemi tanımlar. Bu yöntem, ürün kategori seviyesinde zorunlu kılınabilir ve burada bir yöntem belirtilmediğinde üst konumlara başvurularak yedeklenir.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -74453,6 +75038,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -74810,6 +75398,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "FEFO: Çıkış tarihi en yakın olan ürün/parti ilk çıkar (bu yöntemin kullanılabilirliği \"Son Kullanma Tarihleri\" ayarına bağlıdır)."
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -74838,6 +75427,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"FEFO: Çıkış tarihi en yakın olan ürün/parti ilk çıkar (bu yöntemin "
+"kullanılabilirliği \"Son Kullanma Tarihleri\" ayarına bağlıdır)."
 >>>>>>> upstream/18.0
 =======
 "FEFO: Çıkış tarihi en yakın olan ürün/parti ilk çıkar (bu yöntemin "
@@ -75566,7 +76159,11 @@ msgid "Demo Address and Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Demo Adres ve Ad"
+>>>>>>> upstream/18.0
 =======
 msgstr "Demo Adres ve Ad"
 >>>>>>> upstream/18.0
@@ -76043,7 +76640,11 @@ msgid "Demo Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Demo Görünen Ad"
+>>>>>>> upstream/18.0
 =======
 msgstr "Demo Görünen Ad"
 >>>>>>> upstream/18.0
@@ -76520,7 +77121,11 @@ msgid "Demo Lot/SN"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Demo Lot/Seri No"
+>>>>>>> upstream/18.0
 =======
 msgstr "Demo Lot/Seri No"
 >>>>>>> upstream/18.0
@@ -76997,7 +77602,11 @@ msgid "Demo Product"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Demo Ürün"
+>>>>>>> upstream/18.0
 =======
 msgstr "Demo Ürün"
 >>>>>>> upstream/18.0
@@ -77514,8 +78123,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Kurulu modüllere dayalı olarak, bu, ürünün rotasını tanımlamanızı sağlar: "
 "satın alınacak, üretilecek, sipariş üzerine yenilenecek vb."
+=======
+"Yüklü modüllere bağlı olarak, bu, ürünün rotasını tanımlamanıza olanak "
+"tanır: satın mı alınacak, üretilecek mi, sipariş üzerine mi yenilenecek vs."
+>>>>>>> upstream/18.0
 =======
 "Yüklü modüllere bağlı olarak, bu, ürünün rotasını tanımlamanıza olanak "
 "tanır: satın mı alınacak, üretilecek mi, sipariş üzerine mi yenilenecek vs."
@@ -78256,7 +78870,11 @@ msgid "Description on transfer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transfer açıklaması"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transfer açıklaması"
 >>>>>>> upstream/18.0
@@ -78748,7 +79366,11 @@ msgid "Dest Package Id Domain"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hedef Paket Kimliği Alanı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hedef Paket Kimliği Alanı"
 >>>>>>> upstream/18.0
@@ -79266,7 +79888,11 @@ msgid "Destination Package:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hedef Paket:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hedef Paket:"
 >>>>>>> upstream/18.0
@@ -79748,7 +80374,11 @@ msgid "Destination location origin from rule"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kuraldan gelen hedef konum kaynağı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kuraldan gelen hedef konum kaynağı"
 >>>>>>> upstream/18.0
@@ -80276,7 +80906,11 @@ msgid "Dispatch Management System"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sevkiyat Yönetim Sistemi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sevkiyat Yönetim Sistemi"
 >>>>>>> upstream/18.0
@@ -80843,6 +81477,10 @@ msgstr "Hurdaya ayırmak istediğini onaylıyor musun"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -81342,7 +81980,11 @@ msgid "Done Packaging Quantity"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tamamlanan Paketleme Miktarı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tamamlanan Paketleme Miktarı"
 >>>>>>> upstream/18.0
@@ -81841,6 +82483,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Gelecekte planlanan alımlar nedeniyle fazla stok oluşabilir . Yeniden "
+"sipariş vermeden önce Tahmini Rapor u kontrol edin"
+>>>>>>> upstream/18.0
 =======
 "Gelecekte planlanan alımlar nedeniyle fazla stok oluşabilir . Yeniden "
 "sipariş vermeden önce Tahmini Rapor u kontrol edin"
@@ -82465,8 +83112,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Bir Envanter Ayarlama (Sanal) konumundaki miktarların düzenlenmesi yasaktır,"
 " bu konumlar miktarları düzeltirken karşılık olarak kullanılır."
+=======
+"Bir Envanter Ayarlama (Sanal) konumundaki miktarların düzenlenmesi yasaktır, "
+"bu konumlar miktarları düzeltirken karşılık olarak kullanılır."
+>>>>>>> upstream/18.0
 =======
 "Bir Envanter Ayarlama (Sanal) konumundaki miktarların düzenlenmesi yasaktır, "
 "bu konumlar miktarları düzeltirken karşılık olarak kullanılır."
@@ -83088,7 +83740,11 @@ msgid "Empty Locations"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Boş Konumlar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Boş Konumlar"
 >>>>>>> upstream/18.0
@@ -83565,6 +84221,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Enjoy a quick-paced experience with the Odoo barcode app. It is blazing fast"
 " and works even without a stable internet connection. It supports all flows:"
 " inventory adjustments, batch picking, moving lots or pallets, low inventory"
@@ -83575,6 +84232,8 @@ msgstr ""
 " destekler: envanter ayarlamaları, toplu toplama, parti veya paletler "
 "taşıma, düşük stok kontrolleri, vb. Barkod arayüzünü etkinleştirmek için "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -83935,6 +84594,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -84388,6 +85050,10 @@ msgstr "Şubat"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -84880,7 +85546,11 @@ msgid "Final Location"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nihai Konum"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nihai Konum"
 >>>>>>> upstream/18.0
@@ -85368,7 +86038,11 @@ msgid "First SN/Lot"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İlk Seri No/Lot"
+>>>>>>> upstream/18.0
 =======
 msgstr "İlk Seri No/Lot"
 >>>>>>> upstream/18.0
@@ -85846,7 +86520,11 @@ msgid "First Serial Number"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İlk Seri Numarası"
+>>>>>>> upstream/18.0
 =======
 msgstr "İlk Seri Numarası"
 >>>>>>> upstream/18.0
@@ -86382,6 +87060,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods stored in this location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
 "Otherwise, this includes goods stored in any Stock Location with 'internal' type."
@@ -86389,6 +87068,8 @@ msgstr ""
 "Öngörülen miktar (Eldeki Miktar - Çıkan + Giren olarak hesaplanır\n"
 "Tek bir stok konumu bağlamında bu, bu konumda veya onun herhangi bir alt konumunda depolanan malları içerir.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -86750,6 +87431,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -87109,6 +87793,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods stored in this location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
 "Otherwise, this includes goods stored in any Stock Location with 'internal' type."
@@ -87117,6 +87802,8 @@ msgstr ""
 "Tek stok konumlu bir bağlamda, bu konuma gelen mallar ya da alt mallar içerilir.\n"
 "Tek bir depo ile birlikte, bu deponun stok konumunda veya alt konumların herhangi birinde depolanan malları içerir."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -87480,6 +88167,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -87853,7 +88543,11 @@ msgid "Forecasted Date + Visibility Days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tahmini Tarih + Görünürlük Günleri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tahmini Tarih + Görünürlük Günleri"
 >>>>>>> upstream/18.0
@@ -88404,7 +89098,11 @@ msgid "Free Stock in Transit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yoldaki Serbest Stok"
+>>>>>>> upstream/18.0
 =======
 msgstr "Yoldaki Serbest Stok"
 >>>>>>> upstream/18.0
@@ -88960,7 +89658,11 @@ msgid "Generate Serial numbers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Seri Numarası oluştur"
+>>>>>>> upstream/18.0
 =======
 msgstr "Seri Numarası oluştur"
 >>>>>>> upstream/18.0
@@ -89443,7 +90145,11 @@ msgid "Generate Shipping Labels"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gönderi Etiketleri Oluştur"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gönderi Etiketleri Oluştur"
 >>>>>>> upstream/18.0
@@ -89933,8 +90639,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Give to the more specialized category, a higher priority to have them in top"
 " of the list."
+=======
+"Give to the more specialized category, a higher priority to have them in top "
+"of the list."
+>>>>>>> upstream/18.0
 =======
 "Give to the more specialized category, a higher priority to have them in top "
 "of the list."
@@ -90538,7 +91249,11 @@ msgid "Go to Warehouses"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Depolara Git"
+>>>>>>> upstream/18.0
 =======
 msgstr "Depolara Git"
 >>>>>>> upstream/18.0
@@ -91038,7 +91753,11 @@ msgid "HTML reports cannot be auto-printed, skipping report: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "HTML raporlar otomatik yazdırılamaz, rapor atlanıyor: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "HTML raporlar otomatik yazdırılamaz, rapor atlanıyor: %s"
 >>>>>>> upstream/18.0
@@ -91537,7 +92256,11 @@ msgid "Has Return"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İade Var"
+>>>>>>> upstream/18.0
 =======
 msgstr "İade Var"
 >>>>>>> upstream/18.0
@@ -92071,7 +92794,11 @@ msgid "Horizon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ufuk"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ufuk"
 >>>>>>> upstream/18.0
@@ -92629,11 +93356,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If a separator is defined, a QR code containing all serial numbers contained"
 " in package will be generated, using the defined character(s) to separate "
 "each numbers"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -92991,6 +93721,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -93381,8 +94114,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If the UoM of a lot is not 'units', the lot will be considered as a unit and"
 " only one label will be printed for this lot."
+=======
+"If the UoM of a lot is not 'units', the lot will be considered as a unit and "
+"only one label will be printed for this lot."
+>>>>>>> upstream/18.0
 =======
 "If the UoM of a lot is not 'units', the lot will be considered as a unit and "
 "only one label will be printed for this lot."
@@ -94011,6 +94749,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bu onay kutusu işaretliyse, doğrulama sırasında Odoo otomatik olarak seçimin "
+"irsaliyesini yazdırır."
+>>>>>>> upstream/18.0
 =======
 "Bu onay kutusu işaretliyse, doğrulama sırasında Odoo otomatik olarak seçimin "
 "irsaliyesini yazdırır."
@@ -94608,6 +95351,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bu onay kutusu işaretliyse, doğrulama sırasında Odoo otomatik olarak seçimin "
+"lot/seri no etiketlerini yazdırır."
+>>>>>>> upstream/18.0
 =======
 "Bu onay kutusu işaretliyse, doğrulama sırasında Odoo otomatik olarak seçimin "
 "lot/seri no etiketlerini yazdırır."
@@ -95205,6 +95953,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bu onay kutusu işaretliyse, “Paketle” düğmesi kullanıldığında Odoo otomatik "
+"olarak paket etiketini yazdırır."
+>>>>>>> upstream/18.0
 =======
 "Bu onay kutusu işaretliyse, “Paketle” düğmesi kullanıldığında Odoo otomatik "
 "olarak paket etiketini yazdırır."
@@ -95802,6 +96555,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bu onay kutusu işaretliyse, doğrulama sırasında Odoo otomatik olarak seçimin "
+"paketlerini ve içeriklerini yazdırır."
+>>>>>>> upstream/18.0
 =======
 "Bu onay kutusu işaretliyse, doğrulama sırasında Odoo otomatik olarak seçimin "
 "paketlerini ve içeriklerini yazdırır."
@@ -96396,10 +97154,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If this checkbox is ticked, Odoo will automatically print the product labels"
 " of a picking when it is validated."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -96756,6 +97517,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -97116,6 +97880,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bu onay kutusu işaretliyse, doğrulama sırasında Odoo otomatik olarak seçimin "
+"kabul raporu etiketlerini yazdırır."
+>>>>>>> upstream/18.0
 =======
 "Bu onay kutusu işaretliyse, doğrulama sırasında Odoo otomatik olarak seçimin "
 "kabul raporu etiketlerini yazdırır."
@@ -97713,6 +98482,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bu onay kutusu işaretliyse, doğrulama sırasında ve atanmış hareketler varsa "
+"Odoo otomatik olarak seçimin kabul raporunu yazdırır."
+>>>>>>> upstream/18.0
 =======
 "Bu onay kutusu işaretliyse, doğrulama sırasında ve atanmış hareketler varsa "
 "Odoo otomatik olarak seçimin kabul raporunu yazdırır."
@@ -98307,10 +99081,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If this checkbox is ticked, Odoo will automatically print the return slip of"
 " a picking when it is validated."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -98667,6 +99444,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -99027,8 +99807,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Bu onay kutusu işaretlenirse, doğrulama sırasında Odoo alım raporunu (tahsis"
 " edilecek hareketler varsa) otomatik olarak gösterecektir."
+=======
+"Bu onay kutusu işaretlenirse, doğrulama sırasında Odoo alım raporunu (tahsis "
+"edilecek hareketler varsa) otomatik olarak gösterecektir."
+>>>>>>> upstream/18.0
 =======
 "Bu onay kutusu işaretlenirse, doğrulama sırasında Odoo alım raporunu (tahsis "
 "edilecek hareketler varsa) otomatik olarak gösterecektir."
@@ -99625,6 +100410,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If this checkbox is ticked, the pickings lines will represent detailed stock"
 " operations. If not, the picking lines will represent an aggregate of "
 "detailed stock operations."
@@ -100017,6 +100803,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "If this checkbox is ticked, the pickings lines will represent detailed stock "
 "operations. If not, the picking lines will represent an aggregate of "
 "detailed stock operations."
@@ -100141,6 +100929,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -100522,10 +101313,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If this picking was created as a return of another picking, this field links"
 " to the original picking."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -100882,6 +101676,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -101274,7 +102071,11 @@ msgid "Import Serials"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Seri numaraları içe aktar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Seri numaraları içe aktar"
 >>>>>>> upstream/18.0
@@ -101763,7 +102564,11 @@ msgid "In Stock"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stokta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stokta"
 >>>>>>> upstream/18.0
@@ -102246,10 +103051,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In case of outgoing flow, validate the transfer before this date to allow to deliver at promised date to the customer.\n"
 "        In case of incoming flow, validate the transfer before this date in order to have these products in stock at the date promised by the supplier"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -102610,6 +103418,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -102967,7 +103778,11 @@ msgid "In internal locations"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dahili konumlarda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dahili konumlarda"
 >>>>>>> upstream/18.0
@@ -103488,7 +104303,11 @@ msgid "Incorrect type of action submitted as a report, skipping action"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rapor olarak gönderilen eylem türü hatalı, eylem atlanıyor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rapor olarak gönderilen eylem türü hatalı, eylem atlanıyor"
 >>>>>>> upstream/18.0
@@ -103965,8 +104784,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Indicates the gap between the product's theoretical quantity and its counted"
 " quantity."
+=======
+"Indicates the gap between the product's theoretical quantity and its counted "
+"quantity."
+>>>>>>> upstream/18.0
 =======
 "Indicates the gap between the product's theoretical quantity and its counted "
 "quantity."
@@ -104583,7 +105407,11 @@ msgid "Install Barcode"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Barkod uygulamasını yükle"
+>>>>>>> upstream/18.0
 =======
 msgstr "Barkod uygulamasını yükle"
 >>>>>>> upstream/18.0
@@ -105066,7 +105894,11 @@ msgid "Intermediate Location"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ara Konum"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ara Konum"
 >>>>>>> upstream/18.0
@@ -105596,7 +106428,11 @@ msgid "Internal locations having stock can't be converted"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stok bulunan iç konumlar dönüştürülemez"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stok bulunan iç konumlar dönüştürülemez"
 >>>>>>> upstream/18.0
@@ -106073,8 +106909,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Internal reference number in case it differs from the manufacturer's "
 "lot/serial number"
+=======
+"Internal reference number in case it differs from the manufacturer's lot/"
+"serial number"
+>>>>>>> upstream/18.0
 =======
 "Internal reference number in case it differs from the manufacturer's lot/"
 "serial number"
@@ -106685,7 +107526,11 @@ msgid "Invalid domain right operand '%s'. It must be of type Integer/Float"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Geçersiz alan sağ operatörü ‘%s’. Tam Sayı/Ondalık olmalıdır"
+>>>>>>> upstream/18.0
 =======
 msgstr "Geçersiz alan sağ operatörü ‘%s’. Tam Sayı/Ondalık olmalıdır"
 >>>>>>> upstream/18.0
@@ -107230,7 +108075,11 @@ msgid "Inventory Frequency"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Envanter Sıklığı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Envanter Sıklığı"
 >>>>>>> upstream/18.0
@@ -107760,7 +108609,11 @@ msgid "Inventory Reason"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Envanter Nedeni"
+>>>>>>> upstream/18.0
 =======
 msgstr "Envanter Nedeni"
 >>>>>>> upstream/18.0
@@ -108266,7 +109119,11 @@ msgid "Is Empty"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Boş Mu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Boş Mu"
 >>>>>>> upstream/18.0
@@ -108762,7 +109619,11 @@ msgid "Is Multi Location"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Çok Konumlu Mu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Çok Konumlu Mu"
 >>>>>>> upstream/18.0
@@ -109239,7 +110100,11 @@ msgid "Is Partial Package"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kısmi Paket Mi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kısmi Paket Mi"
 >>>>>>> upstream/18.0
@@ -109749,8 +110614,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Stokta bulunandan daha fazla %s ürününü rezerve etmek mümkün değildir."
+=======
+msgstr "Stokta bulunandan daha fazla %s ürününü rezerve etmek mümkün değildir."
+>>>>>>> upstream/18.0
 =======
 msgstr "Stokta bulunandan daha fazla %s ürününü rezerve etmek mümkün değildir."
 >>>>>>> upstream/18.0
@@ -110232,7 +111101,11 @@ msgid "It specifies goods to be transferred partially or all at once"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ürünlerin kısmen veya tek seferde aktarılacağını belirtir"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ürünlerin kısmen veya tek seferde aktarılacağını belirtir"
 >>>>>>> upstream/18.0
@@ -110719,7 +111592,11 @@ msgid "John Doe"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "John Doe"
+>>>>>>> upstream/18.0
 =======
 msgstr "John Doe"
 >>>>>>> upstream/18.0
@@ -111238,7 +112115,11 @@ msgid "Keep current lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mevcut satırları koru"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mevcut satırları koru"
 >>>>>>> upstream/18.0
@@ -111606,6 +112487,7 @@ msgid ""
 "Keep the <strong>Difference</strong> (the Counted Quantity will be updated "
 "to reflect the same difference as when you counted)"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -112218,6 +113100,10 @@ msgstr ""
 "<strong>Farkı koruyun</strong> (sayılan miktar, saydığınız zamanki farkı "
 "yansıtacak şekilde güncellenecektir)"
 >>>>>>> upstream/18.0
+=======
+"<strong>Farkı koruyun</strong> (sayılan miktar, saydığınız zamanki farkı "
+"yansıtacak şekilde güncellenecektir)"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.actions.server,name:stock.action_print_labels
@@ -112340,7 +113226,11 @@ msgid "Labels"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Etiketler"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etiketler"
 >>>>>>> upstream/18.0
@@ -112883,7 +113773,11 @@ msgid "Laptop"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dizüstü bilgisayar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dizüstü bilgisayar"
 >>>>>>> upstream/18.0
@@ -113568,7 +114462,11 @@ msgid "Last In First Out (LIFO)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Son giren ilk çıkar (LIFO)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Son giren ilk çıkar (LIFO)"
 >>>>>>> upstream/18.0
@@ -114049,7 +114947,11 @@ msgid "Last Inventory"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Son Envanter"
+>>>>>>> upstream/18.0
 =======
 msgstr "Son Envanter"
 >>>>>>> upstream/18.0
@@ -114634,7 +115536,11 @@ msgid "Last Used"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Son Kullanım:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Son Kullanım:"
 >>>>>>> upstream/18.0
@@ -115127,7 +116033,11 @@ msgid "Late Availability"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Geç Kullanılabilirlik"
+>>>>>>> upstream/18.0
 =======
 msgstr "Geç Kullanılabilirlik"
 >>>>>>> upstream/18.0
@@ -115631,7 +116541,11 @@ msgid "Least Packages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "En Az Paket"
+>>>>>>> upstream/18.0
 =======
 msgstr "En Az Paket"
 >>>>>>> upstream/18.0
@@ -116153,7 +117067,11 @@ msgid "List view of detailed operations"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ayrıntılı işlemler liste görünümü"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ayrıntılı işlemler liste görünümü"
 >>>>>>> upstream/18.0
@@ -116630,7 +117548,11 @@ msgid "List view of next transfers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sonraki transferler liste görünümü"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sonraki transferler liste görünümü"
 >>>>>>> upstream/18.0
@@ -117204,7 +118126,11 @@ msgid "Lot / Serial Number"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Parti / Seri Numarası"
+>>>>>>> upstream/18.0
 =======
 msgstr "Parti / Seri Numarası"
 >>>>>>> upstream/18.0
@@ -117681,7 +118607,11 @@ msgid "Lot Label Format to auto-print"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otomatik yazdırılacak Lot Etiketi Formatı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Otomatik yazdırılacak Lot Etiketi Formatı"
 >>>>>>> upstream/18.0
@@ -118158,7 +119088,11 @@ msgid "Lot Label Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lot Etiketi Raporu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lot Etiketi Raporu"
 >>>>>>> upstream/18.0
@@ -118635,7 +119569,11 @@ msgid "Lot Properties"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lot Özellikleri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lot Özellikleri"
 >>>>>>> upstream/18.0
@@ -119113,7 +120051,11 @@ msgid "Lot numbers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Parti numaraları"
+>>>>>>> upstream/18.0
 =======
 msgstr "Parti numaraları"
 >>>>>>> upstream/18.0
@@ -119646,7 +120588,11 @@ msgid "Lot/Serial Number Relocated"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Parti/Seri Numarası Yeniden Konumlandırıldı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Parti/Seri Numarası Yeniden Konumlandırıldı"
 >>>>>>> upstream/18.0
@@ -120133,7 +121079,11 @@ msgid "Lots & Serial numbers will appear on the delivery slip"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Parti ve Seri numaraları irsaliyede görünecektir"
+>>>>>>> upstream/18.0
 =======
 msgstr "Parti ve Seri numaraları irsaliyede görünecektir"
 >>>>>>> upstream/18.0
@@ -120611,7 +121561,11 @@ msgid "Lots / Serial Numbers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Partiler / Seri Numaraları"
+>>>>>>> upstream/18.0
 =======
 msgstr "Partiler / Seri Numaraları"
 >>>>>>> upstream/18.0
@@ -121108,11 +122062,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            From their traceability report you will see the full history of their use, as well as their composition."
 msgstr ""
 "Lot/Seri numaraları, ürünlerinizin izlediği yolu izlemenize yardımcı olur.\n"
 "            İzlenebilirlik raporlarından, kullanımlarının tam tarihini ve kompozisyonlarını göreceksiniz."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -121470,6 +122427,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -121908,7 +122868,11 @@ msgid "Max"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Azami"
+>>>>>>> upstream/18.0
 =======
 msgstr "Azami"
 >>>>>>> upstream/18.0
@@ -122512,7 +123476,11 @@ msgid "Min"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Min"
+>>>>>>> upstream/18.0
 =======
 msgstr "Min"
 >>>>>>> upstream/18.0
@@ -123231,8 +124199,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Moves created through this orderpoint will be put in this procurement group."
 " If none is given, the moves generated by stock rules will be grouped into "
+=======
+"Moves created through this orderpoint will be put in this procurement group. "
+"If none is given, the moves generated by stock rules will be grouped into "
+>>>>>>> upstream/18.0
 =======
 "Moves created through this orderpoint will be put in this procurement group. "
 "If none is given, the moves generated by stock rules will be grouped into "
@@ -123858,8 +124831,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "My Company (Chicago) undertakes to do its best to supply performant services"
 " in due time in accordance with the agreed timeframes. However, none of its "
+=======
+"My Company (Chicago) undertakes to do its best to supply performant services "
+"in due time in accordance with the agreed timeframes. However, none of its "
+>>>>>>> upstream/18.0
 =======
 "My Company (Chicago) undertakes to do its best to supply performant services "
 "in due time in accordance with the agreed timeframes. However, none of its "
@@ -124462,6 +125440,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Şirketim (Şikago) üzerinde anlaşılan sürelere uygun olarak hizmetlerini "
 "vaktinde gerçekleştirmek için en iyisini yapacağını taahhüt eder. Bununla "
 "birlikte, sorumluluklarının hiçbiri sonuç elde etme sorumluluğu olarak "
@@ -124507,6 +125486,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -124864,6 +125845,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -125240,7 +126224,11 @@ msgid "Name Demo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İsim Demo"
+>>>>>>> upstream/18.0
 =======
 msgstr "İsim Demo"
 >>>>>>> upstream/18.0
@@ -125750,7 +126738,11 @@ msgid "Never attribute Values"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Asla Değer Atama"
+>>>>>>> upstream/18.0
 =======
 msgstr "Asla Değer Atama"
 >>>>>>> upstream/18.0
@@ -126281,7 +127273,11 @@ msgid "Next Expected"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sonraki Beklenen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sonraki Beklenen"
 >>>>>>> upstream/18.0
@@ -126771,7 +127767,11 @@ msgid "Next Transfers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sonraki Transferler"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sonraki Transferler"
 >>>>>>> upstream/18.0
@@ -127297,7 +128297,11 @@ msgid "No delivery to do!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Teslimat yapılacak ürün yok!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Teslimat yapılacak ürün yok!"
 >>>>>>> upstream/18.0
@@ -127786,7 +128790,11 @@ msgid "No operations found. Let's create a transfer!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hiç işlem bulunamadı. Haydi, bir transfer oluşturalım!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hiç işlem bulunamadı. Haydi, bir transfer oluşturalım!"
 >>>>>>> upstream/18.0
@@ -128264,7 +129272,11 @@ msgid "No product found to generate Serials/Lots for."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Seri/Parti numarası üretilecek ürün bulunamadı."
+>>>>>>> upstream/18.0
 =======
 msgstr "Seri/Parti numarası üretilecek ürün bulunamadı."
 >>>>>>> upstream/18.0
@@ -128750,8 +129762,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "İade edilecek ürün yok (yalnızca \"Yapıldı\" durumundaki ve henüz tam olarak"
 " iade edilmemiş kalemler iade edilebilir)"
+=======
+"İade edilecek ürün yok (yalnızca \"Yapıldı\" durumundaki ve henüz tam olarak "
+"iade edilmemiş kalemler iade edilebilir)"
+>>>>>>> upstream/18.0
 =======
 "İade edilecek ürün yok (yalnızca \"Yapıldı\" durumundaki ve henüz tam olarak "
 "iade edilmemiş kalemler iade edilebilir)"
@@ -129351,7 +130368,11 @@ msgid "No receipt yet! Create a new one."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Henüz bir teslim alım yok! Yeni bir tane oluşturun."
+>>>>>>> upstream/18.0
 =======
 msgstr "Henüz bir teslim alım yok! Yeni bir tane oluşturun."
 >>>>>>> upstream/18.0
@@ -129919,7 +130940,11 @@ msgid "Number of SN/Lots"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SN/Parti Sayısı"
+>>>>>>> upstream/18.0
 =======
 msgstr "SN/Parti Sayısı"
 >>>>>>> upstream/18.0
@@ -130439,12 +131464,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Odoo opens a PDF preview by default. If you (Enterprise users only) want to print instantly,\n"
 "                                        install the IoT App on a computer that is on the same local network as the\n"
 "                                        barcode operator and configure the routing of the reports.\n"
 "                                        <br/>"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -130811,6 +131839,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -131198,7 +132229,11 @@ msgid "On hand Quantity"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Elde bulunan miktar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Elde bulunan miktar"
 >>>>>>> upstream/18.0
@@ -131794,6 +132829,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"İşlemleri bir araya toplayarak ve işleri çalışanlara atayarak "
+"transferlerinizi optimize edin"
+>>>>>>> upstream/18.0
 =======
 "İşlemleri bir araya toplayarak ve işleri çalışanlara atayarak "
 "transferlerinizi optimize edin"
@@ -132433,7 +133473,11 @@ msgid "Order To Max"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Azami Sipariş"
+>>>>>>> upstream/18.0
 =======
 msgstr "Azami Sipariş"
 >>>>>>> upstream/18.0
@@ -132967,6 +134011,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "My Company (Chicago) will be authorized to suspend any provision of services"
 " without prior warning in the event of late payment."
 msgstr ""
@@ -133021,6 +134066,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -133381,6 +134428,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -133828,7 +134878,11 @@ msgid "Pack Date Demo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Paketleme Tarihi Demo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Paketleme Tarihi Demo"
 >>>>>>> upstream/18.0
@@ -134330,7 +135384,11 @@ msgid "Package A"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Paket A"
+>>>>>>> upstream/18.0
 =======
 msgstr "Paket A"
 >>>>>>> upstream/18.0
@@ -134807,7 +135865,11 @@ msgid "Package B"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Paket B"
+>>>>>>> upstream/18.0
 =======
 msgstr "Paket B"
 >>>>>>> upstream/18.0
@@ -135294,7 +136356,11 @@ msgid "Package Barcode with Contents"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İçeriği ile Paket Barkodu"
+>>>>>>> upstream/18.0
 =======
 msgstr "İçeriği ile Paket Barkodu"
 >>>>>>> upstream/18.0
@@ -135783,7 +136849,11 @@ msgid "Package Label"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Paket Etiketi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Paket Etiketi"
 >>>>>>> upstream/18.0
@@ -136260,7 +137330,11 @@ msgid "Package Label to Print"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yazdırılacak Paket Etiketi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Yazdırılacak Paket Etiketi"
 >>>>>>> upstream/18.0
@@ -136777,7 +137851,11 @@ msgid "Package Type Demo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Paket Türü Demo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Paket Türü Demo"
 >>>>>>> upstream/18.0
@@ -137272,7 +138350,11 @@ msgid "Package manually relocated"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Paket elle yeniden konumlandırıldı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Paket elle yeniden konumlandırıldı"
 >>>>>>> upstream/18.0
@@ -137770,12 +138852,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Packages are usually created via transfers (during pack operation) and can contain different products.\n"
 "                Once created, the whole package can be moved at once, or products can be unpacked and moved as single units again."
 msgstr ""
 "Paketler genellikle transferler yoluyla oluşturulur (paketleme operasyonu sırasında) ve farklı ürünler içerebilir.\n"
 "                Bir kere yaratıldığında, tüm paket bir kerede hareket ettirilebilir veya ürünler paketten çıkarılıp teker teker hareket ettirilebilir."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -138137,6 +139222,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -138531,7 +139619,11 @@ msgid "Pallet"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Palet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Palet"
 >>>>>>> upstream/18.0
@@ -139019,7 +140111,11 @@ msgid "Parent Routes"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Üst Rotalar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Üst Rotalar"
 >>>>>>> upstream/18.0
@@ -139501,7 +140597,11 @@ msgid "Partial Package Names"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kısmi Paket İsimleri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kısmi Paket İsimleri"
 >>>>>>> upstream/18.0
@@ -140028,7 +141128,11 @@ msgid "Picked"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Toplandı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Toplandı"
 >>>>>>> upstream/18.0
@@ -140526,7 +141630,11 @@ msgid "Picking Properties"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Toplama Özellikleri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Toplama Özellikleri"
 >>>>>>> upstream/18.0
@@ -141030,7 +142138,11 @@ msgid "Please create a warehouse for company %s."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lütfen %s şirketi için bir depo oluşturun."
+>>>>>>> upstream/18.0
 =======
 msgstr "Lütfen %s şirketi için bir depo oluşturun."
 >>>>>>> upstream/18.0
@@ -141510,6 +142622,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Lütfen bu belgeyi iade paketinizin içine koyun.<br/>\n"
+"                                Paketiniz şu adrese gönderilmelidir:"
+>>>>>>> upstream/18.0
 =======
 "Lütfen bu belgeyi iade paketinizin içine koyun.<br/>\n"
 "                                Paketiniz şu adrese gönderilmelidir:"
@@ -142127,7 +143244,11 @@ msgid "Presence depends on the type of operation."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mevcudiyet, işlem türüne bağlıdır."
+>>>>>>> upstream/18.0
 =======
 msgstr "Mevcudiyet, işlem türüne bağlıdır."
 >>>>>>> upstream/18.0
@@ -142608,6 +143729,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Stoklarınızdaki bir ürünün miktarını tanımlamak veya miktarları bir e-"
+"tablodan içe aktarmak için “Yeni” düğmesine basın veya İşlemler menüsünü "
+"kullanın"
+>>>>>>> upstream/18.0
 =======
 "Stoklarınızdaki bir ürünün miktarını tanımlamak veya miktarları bir e-"
 "tablodan içe aktarmak için “Yeni” düğmesine basın veya İşlemler menüsünü "
@@ -143352,7 +144479,11 @@ msgid "Print label as:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Etiketi şu şekilde yazdır:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etiketi şu şekilde yazdır:"
 >>>>>>> upstream/18.0
@@ -143829,7 +144960,11 @@ msgid "Print on \"Put in Pack\""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "\"Paketle\" işleminde yazdır"
+>>>>>>> upstream/18.0
 =======
 msgstr "\"Paketle\" işleminde yazdır"
 >>>>>>> upstream/18.0
@@ -144306,7 +145441,11 @@ msgid "Print on Validation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Onayda Yazdır"
+>>>>>>> upstream/18.0
 =======
 msgstr "Onayda Yazdır"
 >>>>>>> upstream/18.0
@@ -144920,7 +146059,11 @@ msgid "Product Label Format to auto-print"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otomatik yazdırma için Ürün Etiketi Formatı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Otomatik yazdırma için Ürün Etiketi Formatı"
 >>>>>>> upstream/18.0
@@ -145446,7 +146589,11 @@ msgid "Product Relocated"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ürün Yeniden Konumlandırıldı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ürün Yeniden Konumlandırıldı"
 >>>>>>> upstream/18.0
@@ -145976,7 +147123,11 @@ msgid "Product Replenish Mixin"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ürün Yenileme Karışımı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ürün Yenileme Karışımı"
 >>>>>>> upstream/18.0
@@ -146690,7 +147841,11 @@ msgid "Product barcode"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ürün barkodu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ürün barkodu"
 >>>>>>> upstream/18.0
@@ -147465,7 +148620,11 @@ msgid "Push Applicability"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İtme Uygunluğu"
+>>>>>>> upstream/18.0
 =======
 msgstr "İtme Uygunluğu"
 >>>>>>> upstream/18.0
@@ -148016,7 +149175,11 @@ msgid "Quality Control Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kalite Kontrol Türü"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kalite Kontrol Türü"
 >>>>>>> upstream/18.0
@@ -148534,7 +149697,11 @@ msgid "Quantities unpacked"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Açılan miktarlar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Açılan miktarlar"
 >>>>>>> upstream/18.0
@@ -149059,7 +150226,11 @@ msgid "Quantity Relocated"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yeniden Konumlandırılan Miktar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Yeniden Konumlandırılan Miktar"
 >>>>>>> upstream/18.0
@@ -149558,7 +150729,11 @@ msgid "Quantity in Product UoM"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ürün Ölçü Birimindeki Miktar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ürün Ölçü Birimindeki Miktar"
 >>>>>>> upstream/18.0
@@ -150046,6 +151221,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods arriving to this Location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods arriving to the Stock Location of this Warehouse, or any of its children.\n"
 "Otherwise, this includes goods arriving to any Stock Location with 'internal' type."
@@ -150054,6 +151230,8 @@ msgstr ""
 "Tek Stok Konumu içeriğinde, bu konuma gelen malları ve alt malları içerir.\n"
 "Tek Depolu içeriğinde, bu Depo Konumuna gelen malları ve alt malları içerir.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -150416,6 +151594,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -150775,6 +151956,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods leaving this Location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods leaving the Stock Location of this Warehouse, or any of its children.\n"
 "Otherwise, this includes goods leaving any Stock Location with 'internal' type."
@@ -150783,6 +151965,8 @@ msgstr ""
 "Tek Stok Konumu içeriğinde, bu konumdan giden malları ve alt malları içerir.\n"
 "Tek Depolu içeriğinde, bu Depo Konumundan giden malları ve alt malları içerir.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -151146,6 +152330,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -151520,7 +152707,11 @@ msgid "Quantity or Reserved Quantity should be set."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Miktar veya Ayrılmış Miktar belirlenmelidir."
+>>>>>>> upstream/18.0
 =======
 msgstr "Miktar veya Ayrılmış Miktar belirlenmelidir."
 >>>>>>> upstream/18.0
@@ -152044,7 +153235,11 @@ msgid "RETURN OF"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İADESİ"
+>>>>>>> upstream/18.0
 =======
 msgstr "İADESİ"
 >>>>>>> upstream/18.0
@@ -152551,7 +153746,11 @@ msgid "Reason for relocation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yeniden konumlandırma nedeni"
+>>>>>>> upstream/18.0
 =======
 msgstr "Yeniden konumlandırma nedeni"
 >>>>>>> upstream/18.0
@@ -153107,7 +154306,11 @@ msgid "Reception Report Labels"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Teslim Alma Raporu Etiketleri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Teslim Alma Raporu Etiketleri"
 >>>>>>> upstream/18.0
@@ -153585,9 +154788,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        locations management traceability, quality control, etc."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -153945,6 +155151,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -154350,7 +155559,11 @@ msgid "Relocate"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yer değiştirme"
+>>>>>>> upstream/18.0
 =======
 msgstr "Yer değiştirme"
 >>>>>>> upstream/18.0
@@ -154839,7 +156052,11 @@ msgid "Relocate your stock"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stoklarınızı yeniden konumlandırın"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stoklarınızı yeniden konumlandırın"
 >>>>>>> upstream/18.0
@@ -155341,6 +156558,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Elle girilen değeri kaldırın ve tahmini miktarlara göre sipariş edilecek "
+"miktarla değiştirin"
+>>>>>>> upstream/18.0
 =======
 "Elle girilen değeri kaldırın ve tahmini miktarlara göre sipariş edilecek "
 "miktarla değiştirin"
@@ -156044,7 +157266,11 @@ msgid "Report Printing Error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rapor Yazdırma Hatası"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rapor Yazdırma Hatası"
 >>>>>>> upstream/18.0
@@ -156565,12 +157791,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Reserve Only Full Packagings: will not reserve partial packagings. If customer orders 2 pallets of 1000 units each and you only have 1600 in stock, then only 1000 will be reserved\n"
 "Reserve Partial Packagings: allow reserving partial packagings. If customer orders 2 pallets of 1000 units each and you only have 1600 in stock, then 1600 will be reserved"
 msgstr ""
 "Sadece Tam Paketleri Rezerve Et: yarım paketleri rezerve etmez. Eğer müşteri her biri 1000 birimlik 2 palet sipariş ederse ve stokta 1600 adet varsa, sadece 1000 rezerve edilir.\n"
 "Yarım Paketleri Rezerve Et: yarım paketleri rezerve etmeye izin verir. Eğer müşteri her biri 1000 birimlik 2 palet sipariş ederse ve stokta 1600 adet varsa, o zaman 1600 rezerve edilir. "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -156935,6 +158164,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -157308,7 +158540,11 @@ msgid "Reserved Packaging Quantity"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ayrılmış Paketleme Miktarı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ayrılmış Paketleme Miktarı"
 >>>>>>> upstream/18.0
@@ -157832,7 +159068,11 @@ msgid "Return All"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tümünü İade Et"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tümünü İade Et"
 >>>>>>> upstream/18.0
@@ -158324,7 +159564,11 @@ msgid "Return for Exchange"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Değişim için İade"
+>>>>>>> upstream/18.0
 =======
 msgstr "Değişim için İade"
 >>>>>>> upstream/18.0
@@ -158801,7 +160045,11 @@ msgid "Return of"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İadesi"
+>>>>>>> upstream/18.0
 =======
 msgstr "İadesi"
 >>>>>>> upstream/18.0
@@ -159284,7 +160532,11 @@ msgid "Return slip"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İade fişi"
+>>>>>>> upstream/18.0
 =======
 msgstr "İade fişi"
 >>>>>>> upstream/18.0
@@ -159785,12 +161037,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Reusable boxes are used for batch picking and emptied afterwards to be reused. In the barcode application, scanning a reusable box will add the products in this box.\n"
 "        Disposable boxes aren't reused, when scanning a disposable box in the barcode application, the contained products are added to the transfer."
 msgstr ""
 "Tekrar kullanılabilir kutular parti seçimi için kullanılır ve ardından tekrar kullanım için boşaltılır. Barkod uygulamasında tekrar kullanılabilir kutuyu taratmak ürünleri bu kutuya yerleştirir. \n"
 "        Tek kullanımlık kutular tekrar kullanılmaz, barkod uygulamasında tek kullanımlık kutu taratıldığında, içindeki ürünler transfere eklenir."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -160153,6 +161408,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -160565,8 +161823,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Routes will be created for these resupply warehouses and you can select them"
 " on products and product categories"
+=======
+"Routes will be created for these resupply warehouses and you can select them "
+"on products and product categories"
+>>>>>>> upstream/18.0
 =======
 "Routes will be created for these resupply warehouses and you can select them "
 "on products and product categories"
@@ -161166,10 +162429,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Rule %(rule)s belongs to %(rule_company)s while the route belongs to "
 "%(route_company)s."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -161526,6 +162792,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -161914,7 +163183,11 @@ msgid "S0001"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "S0001"
+>>>>>>> upstream/18.0
 =======
 msgstr "S0001"
 >>>>>>> upstream/18.0
@@ -162403,7 +163676,11 @@ msgid "SSCC Demo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SSCC Demo"
+>>>>>>> upstream/18.0
 =======
 msgstr "SSCC Demo"
 >>>>>>> upstream/18.0
@@ -162961,7 +164238,11 @@ msgid "Scrap Reason"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hurdaya Ayırma Nedeni"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hurdaya Ayırma Nedeni"
 >>>>>>> upstream/18.0
@@ -163438,7 +164719,11 @@ msgid "Scrap Reason Tag"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hurdaya Ayırma Nedeni Etiketi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hurdaya Ayırma Nedeni Etiketi"
 >>>>>>> upstream/18.0
@@ -163931,7 +165216,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                end up in a scrap location that can be used for reporting purpose."
+=======
+"                end up in a scrap location that can be used for reporting "
+"purpose."
+>>>>>>> upstream/18.0
 =======
 "                end up in a scrap location that can be used for reporting "
 "purpose."
@@ -164546,7 +165836,11 @@ msgid "Search not supported without a value."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Değer olmadan arama desteklenmez."
+>>>>>>> upstream/18.0
 =======
 msgstr "Değer olmadan arama desteklenmez."
 >>>>>>> upstream/18.0
@@ -165037,6 +166331,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Seçilen depolama kategorisi, \"depolanacak\" konumda veya onun alt "
+"konumlarında mevcut değil"
+>>>>>>> upstream/18.0
 =======
 "Seçilen depolama kategorisi, \"depolanacak\" konumda veya onun alt "
 "konumlarında mevcut değil"
@@ -165637,8 +166936,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Engelleme\"yi seçmek mesajla ilgili bir kuraldışı durum oluşturacak ve akışı"
 " durduracaktır. Mesaj bir sonraki alana yazılmalıdır."
+=======
+"Engelleme\"yi seçmek mesajla ilgili bir kuraldışı durum oluşturacak ve akışı "
+"durduracaktır. Mesaj bir sonraki alana yazılmalıdır."
+>>>>>>> upstream/18.0
 =======
 "Engelleme\"yi seçmek mesajla ilgili bir kuraldışı durum oluşturacak ve akışı "
 "durduracaktır. Mesaj bir sonraki alana yazılmalıdır."
@@ -166234,7 +167538,11 @@ msgid "Selection not supported."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Seçim desteklenmiyor."
+>>>>>>> upstream/18.0
 =======
 msgstr "Seçim desteklenmiyor."
 >>>>>>> upstream/18.0
@@ -166716,8 +168024,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Send an automatic confirmation SMS Text Message when Delivery Orders are "
 "done"
+=======
+"Send an automatic confirmation SMS Text Message when Delivery Orders are done"
+>>>>>>> upstream/18.0
 =======
 "Send an automatic confirmation SMS Text Message when Delivery Orders are done"
 >>>>>>> upstream/18.0
@@ -167243,7 +168555,11 @@ msgid "Sequence %(code)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(code)s Sırası"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(code)s Sırası"
 >>>>>>> upstream/18.0
@@ -167731,8 +169047,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Serial number (%(serial_number)s) already exists in location(s): "
 "%(location_list)s. Please correct the serial number encoded."
+=======
+"Serial number (%(serial_number)s) already exists in location(s): %"
+"(location_list)s. Please correct the serial number encoded."
+>>>>>>> upstream/18.0
 =======
 "Serial number (%(serial_number)s) already exists in location(s): %"
 "(location_list)s. Please correct the serial number encoded."
@@ -168331,12 +169652,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Serial number (%(serial_number)s) is not located in %(source_location)s, but is located in location(s): %(other_locations)s.\n"
 "\n"
 "Please correct this to prevent inconsistent data."
 msgstr ""
 "Seri numarası (%(serial_number)s) %(source_location)skonumunda bulunmuyor ama şu konumlarda bulunur: %(other_locations)s.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -168695,6 +170019,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -169055,6 +170382,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Serial number (%(serial_number)s) is not located in %(source_location)s, but is located in location(s): %(other_locations)s.\n"
 "\n"
 "Source location for this move will be changed to %(recommended_location)s"
@@ -169483,6 +170811,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Serial number (%(serial_number)s) is not located in %(source_location)s, but "
 "is located in location(s): %(other_locations)s.\n"
 "\n"
@@ -169609,6 +170939,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -169967,7 +171300,11 @@ msgid "Serial numbers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Seri numaraları"
+>>>>>>> upstream/18.0
 =======
 msgstr "Seri numaraları"
 >>>>>>> upstream/18.0
@@ -170459,6 +171796,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Set a specific removal strategy that will be used regardless of the source location for this product category.\n"
 "\n"
 "FIFO: products/lots that were stocked first will be moved out first.\n"
@@ -170468,6 +171806,8 @@ msgid ""
 "Least Packages: FIFO but with the least number of packages possible when there are several packages containing the same product."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -170842,6 +172182,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -171199,7 +172542,11 @@ msgid "Set expiration dates on lots & serial numbers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Parti ve seri numaralarına son kullanma tarihi belirleyin"
+>>>>>>> upstream/18.0
 =======
 msgstr "Parti ve seri numaralarına son kullanma tarihi belirleyin"
 >>>>>>> upstream/18.0
@@ -171688,7 +173035,11 @@ msgid "Set to 0"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "0 olarak ayarla"
+>>>>>>> upstream/18.0
 =======
 msgstr "0 olarak ayarla"
 >>>>>>> upstream/18.0
@@ -172165,7 +173516,11 @@ msgid "Set to quantity on hand"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mevcut miktara ayarla"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mevcut miktara ayarla"
 >>>>>>> upstream/18.0
@@ -172652,7 +174007,11 @@ msgid "Shelf A"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Raf A"
+>>>>>>> upstream/18.0
 =======
 msgstr "Raf A"
 >>>>>>> upstream/18.0
@@ -173146,7 +174505,11 @@ msgid "Ship a lot to a customer."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bir partiyi müşteriye gönderin."
+>>>>>>> upstream/18.0
 =======
 msgstr "Bir partiyi müşteriye gönderin."
 >>>>>>> upstream/18.0
@@ -173649,6 +175012,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Shipping connectors allow to compute accurate shipping costs, print shipping"
 " labels and request carrier picking at your warehouse to ship to the "
 "customer. Apply shipping connector from delivery methods."
@@ -173657,6 +175021,8 @@ msgstr ""
 "etiketlerini basmaya ve müşteriye gönderilmek üzere depoda taşıyıcı seçimini"
 " talep etmeyi sağlar. Gönderim bağlantılarını teslimat yöntemlerinden "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -174015,6 +175381,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -174378,7 +175747,11 @@ msgid "Shiprocket Connector"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Shiprocket Bağlantısı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Shiprocket Bağlantısı"
 >>>>>>> upstream/18.0
@@ -174899,7 +176272,11 @@ msgid "Show Next Pickings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sonraki Toplamaları Göster"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sonraki Toplamaları Göster"
 >>>>>>> upstream/18.0
@@ -175382,7 +176759,11 @@ msgid "Show Operation in Overview"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Genel Bakışta İşlemi Göster"
+>>>>>>> upstream/18.0
 =======
 msgstr "Genel Bakışta İşlemi Göster"
 >>>>>>> upstream/18.0
@@ -175859,7 +177240,11 @@ msgid "Show Picking Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Toplama Türünü Göster"
+>>>>>>> upstream/18.0
 =======
 msgstr "Toplama Türünü Göster"
 >>>>>>> upstream/18.0
@@ -176336,7 +177721,11 @@ msgid "Show Quant"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Miktarı Göster"
+>>>>>>> upstream/18.0
 =======
 msgstr "Miktarı Göster"
 >>>>>>> upstream/18.0
@@ -176828,7 +178217,11 @@ msgid "Show lot_id"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "lot_id’yi Göster"
+>>>>>>> upstream/18.0
 =======
 msgstr "lot_id’yi Göster"
 >>>>>>> upstream/18.0
@@ -177305,7 +178698,11 @@ msgid "Show lot_name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "lot_name’i Göster"
+>>>>>>> upstream/18.0
 =======
 msgstr "lot_name’i Göster"
 >>>>>>> upstream/18.0
@@ -177898,7 +179295,11 @@ msgid "Source Package:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kaynak Paket:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kaynak Paket:"
 >>>>>>> upstream/18.0
@@ -178390,7 +179791,11 @@ msgid "Starshipit Connector"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Starshipit Bağlantısı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Starshipit Bağlantısı"
 >>>>>>> upstream/18.0
@@ -178907,7 +180312,11 @@ msgid "Stock Barcode Database"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stok Barkod Veri Tabanı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stok Barkod Veri Tabanı"
 >>>>>>> upstream/18.0
@@ -179385,7 +180794,11 @@ msgid "Stock In Transit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yoldaki Stok"
+>>>>>>> upstream/18.0
 =======
 msgstr "Yoldaki Stok"
 >>>>>>> upstream/18.0
@@ -179928,7 +181341,11 @@ msgid "Stock Quantity Relocation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stok Miktarı Yeniden Konumlandırma"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stok Miktarı Yeniden Konumlandırma"
 >>>>>>> upstream/18.0
@@ -180452,7 +181869,11 @@ msgid "Stock move"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stok hareketi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stok hareketi"
 >>>>>>> upstream/18.0
@@ -181008,7 +182429,11 @@ msgid "Storage Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Depolama Türü"
+>>>>>>> upstream/18.0
 =======
 msgstr "Depolama Türü"
 >>>>>>> upstream/18.0
@@ -181485,7 +182910,11 @@ msgid "Store To"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Şurada Depola:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Şurada Depola:"
 >>>>>>> upstream/18.0
@@ -181962,10 +183391,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Store and retrieve information regarding every Lot/Serial Number (condition,"
 " product info, ...)."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -182322,6 +183754,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -182683,8 +184118,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ürünlei deponuzda belirli konumlarda depolayın ( varil, raf vs) ve stoğunuza"
 " göre takip edin."
+=======
+"Ürünlei deponuzda belirli konumlarda depolayın ( varil, raf vs) ve stoğunuza "
+"göre takip edin."
+>>>>>>> upstream/18.0
 =======
 "Ürünlei deponuzda belirli konumlarda depolayın ( varil, raf vs) ve stoğunuza "
 "göre takip edin."
@@ -183279,7 +184719,11 @@ msgid "Store to"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Şurada depola:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Şurada depola:"
 >>>>>>> upstream/18.0
@@ -183761,7 +185205,11 @@ msgid "Sublocation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alt konum"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alt konum"
 >>>>>>> upstream/18.0
@@ -184270,6 +185718,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Take From Stock: the products will be taken from the available stock of the source location.\n"
 "Trigger Another Rule: the system will try to find a stock rule to bring the products in the source location. The available stock will be ignored.\n"
 "Take From Stock, if Unavailable, Trigger Another Rule: the products will be taken from the available stock of the source location.If there is no stock available, the system will try to find a  rule to bring the products in the source location."
@@ -184320,6 +185769,8 @@ msgstr ""
 "Stoktan Al, Yoksa Kural Tetikle: Ürünler öncelikle kaynak lokasyondaki mevcut stoktan alınır. Yeterli stok yoksa, sistem kaynak lokasyona ürün getirecek bir kural bulmaya çalışır."
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -184686,6 +186137,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -185075,6 +186529,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%s konumu Envanter uygulaması tarafından gereklidir ve silinemez, ancak "
+"arşivlenebilir."
+>>>>>>> upstream/18.0
 =======
 "%s konumu Envanter uygulaması tarafından gereklidir ve silinemez, ancak "
 "arşivlenebilir."
@@ -185669,6 +187128,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The 'Manual Operation' value will create a stock move after the current one."
 " With 'Automatic No Step Added', the location is replaced in the original "
 "move."
@@ -186036,6 +187496,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "The 'Manual Operation' value will create a stock move after the current one. "
 "With 'Automatic No Step Added', the location is replaced in the original "
 "move."
@@ -186159,6 +187621,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -186517,7 +187982,11 @@ msgid "The Lot/Serial number (%s) is linked to another product."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Parti/Seri numarası (%s), başka bir ürünle ilişkilendirilmiş."
+>>>>>>> upstream/18.0
 =======
 msgstr "Parti/Seri numarası (%s), başka bir ürünle ilişkilendirilmiş."
 >>>>>>> upstream/18.0
@@ -186998,6 +188467,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Toplama Operasyonları raporu silinmiş, bu nedenle rapor geri yüklenmeden şu "
+"anda yazdırılamaz."
+>>>>>>> upstream/18.0
 =======
 "Toplama Operasyonları raporu silinmiş, bu nedenle rapor geri yüklenmeden şu "
 "anda yazdırılamaz."
@@ -187593,11 +189067,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The Serial Number (%(serial_number)s) is already used in location(s): %(location_list)s.\n"
 "\n"
 "Is this expected? For example, this can occur if a delivery operation is validated before its corresponding receipt operation is validated. In this case the issue will be solved automatically once all steps are completed. Otherwise, the serial number should be corrected to prevent inconsistent data."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -187965,6 +189442,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -188328,7 +189808,11 @@ msgid "The barcode for a location must be unique per company!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bir konumun barkodu, şirket bazında benzersiz olmalıdır!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bir konumun barkodu, şirket bazında benzersiz olmalıdır!"
 >>>>>>> upstream/18.0
@@ -188818,11 +190302,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The combination of lot/serial number and product must be unique within a company including when no company is defined.\n"
 "The following combinations contain duplicates:\n"
 "%(error_lines)s"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -189183,6 +190670,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -189548,7 +191038,11 @@ msgid "The day after tomorrow"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yarından sonraki gün"
+>>>>>>> upstream/18.0
 =======
 msgstr "Yarından sonraki gün"
 >>>>>>> upstream/18.0
@@ -190034,8 +191528,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Yaratılan transferin beklenen tarihi bu teslim süresine göre "
 "hesaplanacaktır."
+=======
+"Yaratılan transferin beklenen tarihi bu teslim süresine göre hesaplanacaktır."
+>>>>>>> upstream/18.0
 =======
 "Yaratılan transferin beklenen tarihi bu teslim süresine göre hesaplanacaktır."
 >>>>>>> upstream/18.0
@@ -190523,7 +192021,11 @@ msgid "The forecasted quantity of"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tahmini miktar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tahmini miktar"
 >>>>>>> upstream/18.0
@@ -191025,7 +192527,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Asgari miktar, azami miktardan küçük veya ona eşit olmalıdır."
+>>>>>>> upstream/18.0
 =======
 msgstr "Asgari miktar, azami miktardan küçük veya ona eşit olmalıdır."
 >>>>>>> upstream/18.0
@@ -191516,6 +193022,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bu operasyon ürünleri ara konuma taşır. Ancak bu operasyon, nihai konumu "
+"hedefleyen operasyon zincirinin bir parçasıdır."
+>>>>>>> upstream/18.0
 =======
 "Bu operasyon ürünleri ara konuma taşır. Ancak bu operasyon, nihai konumu "
 "hedefleyen operasyon zincirinin bir parçasıdır."
@@ -192110,7 +193621,11 @@ msgid "The operation takes and suggests products from this location."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bu operasyon ürünleri bu konumdan alır ve önerir."
+>>>>>>> upstream/18.0
 =======
 msgstr "Bu operasyon ürünleri bu konumdan alır ve önerir."
 >>>>>>> upstream/18.0
@@ -192588,9 +194103,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            operation a specific type which will alter its views accordingly.\n"
 "            On the operation type you could e.g. specify if packing is needed by default,\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -192946,6 +194464,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -193303,7 +194824,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "İşlem türünde örneğin, paketlemenin varsayılan olarak gerekip gerekmediğini, \n"
+=======
+"İşlem türünde örneğin, paketlemenin varsayılan olarak gerekip "
+"gerekmediğini, \n"
+>>>>>>> upstream/18.0
 =======
 "İşlem türünde örneğin, paketlemenin varsayılan olarak gerekip "
 "gerekmediğini, \n"
@@ -193899,7 +195425,11 @@ msgid "The operations brings product to this location"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Operasyon, ürünleri bu konuma getirir"
+>>>>>>> upstream/18.0
 =======
 msgstr "Operasyon, ürünleri bu konuma getirir"
 >>>>>>> upstream/18.0
@@ -194393,6 +195923,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Tedarik miktarı bu alan miktarının katına yuvarlanır. 0 ise yuvarlama "
+"yapılmaz."
+>>>>>>> upstream/18.0
 =======
 "Tedarik miktarı bu alan miktarının katına yuvarlanır. 0 ise yuvarlama "
 "yapılmaz."
@@ -194998,9 +196533,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    You may not assign them a package without moving them to a common location."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -195358,6 +196896,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -195728,7 +197269,11 @@ msgid "The quantity per lot should always be a positive value."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lot başına miktar her zaman pozitif bir değer olmalıdır."
+>>>>>>> upstream/18.0
 =======
 msgstr "Lot başına miktar her zaman pozitif bir değer olmalıdır."
 >>>>>>> upstream/18.0
@@ -196217,8 +197762,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Arama, %(operator)s operatörünü veya %(value)s değerini desteklemiyor."
+=======
+msgstr "Arama, %(operator)s operatörünü veya %(value)s değerini desteklemiyor."
+>>>>>>> upstream/18.0
 =======
 msgstr "Arama, %(operator)s operatörünü veya %(value)s değerini desteklemiyor."
 >>>>>>> upstream/18.0
@@ -196628,6 +198177,7 @@ msgid ""
 "different of the warehouse this rule is for (e.g for resupplying rules from "
 "another warehouse)"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -197489,6 +199039,11 @@ msgstr ""
 "kuralın geçerli olduğu depodan farklı olabilir (örneğin, başka bir depodan "
 "yeniden tedarik kuralları için)"
 >>>>>>> upstream/18.0
+=======
+"Oluşturulan taşıma/tedarik işlemini yaygınlaştırmak için kullanılan depo, bu "
+"kuralın geçerli olduğu depodan farklı olabilir (örneğin, başka bir depodan "
+"yeniden tedarik kuralları için)"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #. odoo-python
@@ -197621,6 +199176,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Pakete konulabilecek hiçbir şey yok. Ya pakete konulacak miktar yok ya da "
+"tüm ürünler zaten bir pakette."
+>>>>>>> upstream/18.0
 =======
 "Pakete konulabilecek hiçbir şey yok. Ya pakete konulacak miktar yok ya da "
 "tüm ürünler zaten bir pakette."
@@ -198225,12 +199785,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This adds a dropshipping route to apply on products in order to request your"
 " vendors to deliver to your customers. A product to dropship will generate a"
 " purchase request for quotation once the sales order confirmed. This is a "
 "on-demand flow. The requested delivery address will be the customer delivery"
 " address and not your warehouse."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -198587,6 +200150,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -198962,6 +200528,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bu onay kutusu yalnızca bilgilendirme amaçlıdır, herhangi bir ürün "
+"hareketini doğrulamaz veya oluşturmaz."
+>>>>>>> upstream/18.0
 =======
 "Bu onay kutusu yalnızca bilgilendirme amaçlıdır, herhangi bir ürün "
 "hareketini doğrulamaz veya oluşturmaz."
@@ -199567,6 +201138,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bu, operasyon manuel olarak oluşturulduğunda varsayılan hedef konumdur. "
+"Ancak sonradan değiştirilebilir veya rotalar varsayılan olarak başka bir "
+"konum kullanabilir."
+>>>>>>> upstream/18.0
 =======
 "Bu, operasyon manuel olarak oluşturulduğunda varsayılan hedef konumdur. "
 "Ancak sonradan değiştirilebilir veya rotalar varsayılan olarak başka bir "
@@ -200279,11 +201856,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This is the default source location when this operation is manually created."
 " However, it is possible to change it afterwards or that the routes use "
 "another one by default."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -200642,6 +202222,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -201008,6 +202591,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bu, taşınması planlanan ürün miktarıdır. Bu miktarı azaltmak, geri sipariş "
+"oluşturmaz. Atanmış hareketlerde bu miktarı değiştirmek ürün rezervasyonunu "
+"etkiler ve dikkatle yapılmalıdır."
+>>>>>>> upstream/18.0
 =======
 "Bu, taşınması planlanan ürün miktarıdır. Bu miktarı azaltmak, geri sipariş "
 "oluşturmaz. Atanmış hareketlerde bu miktarı değiştirmek ürün rezervasyonunu "
@@ -201748,7 +203337,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                operations on a specific product. You can filter on the product\n"
+=======
+"                operations on a specific product. You can filter on the "
+"product\n"
+>>>>>>> upstream/18.0
 =======
 "                operations on a specific product. You can filter on the "
 "product\n"
@@ -202348,12 +203942,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This menu gives you the full traceability of inventory operations on a specific product.\n"
 "                    You can filter on the product to see all the past movements for the product."
 msgstr ""
 "Bu menü, belirli bir üründeki stok operasyonlarının tam izlenebilirliğini sağlar.\n"
 "Ürün için geçmişte yapılan tüm hareketleri görmek için ürün üzerinde filtre uygulayabilirsiniz."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -202714,6 +204311,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -203084,8 +204684,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This note is added to receipt orders (e.g. where to store the product in the"
 " warehouse)."
+=======
+"This note is added to receipt orders (e.g. where to store the product in the "
+"warehouse)."
+>>>>>>> upstream/18.0
 =======
 "This note is added to receipt orders (e.g. where to store the product in the "
 "warehouse)."
@@ -203686,8 +205291,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "better solution could be to archive the product and create a new one "
 "instead."
+=======
+"better solution could be to archive the product and create a new one instead."
+>>>>>>> upstream/18.0
 =======
 "better solution could be to archive the product and create a new one instead."
 >>>>>>> upstream/18.0
@@ -204178,10 +205787,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This product's company cannot be changed as long as there are stock moves of"
 " it belonging to another company."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -204538,6 +206150,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -204798,6 +206413,7 @@ msgstr "Bu rapor, aynı anda yapılan ve yapılmayan %s için kullanılamaz."
 msgid ""
 "This sequence prefix is already being used by another operation type. It is "
 "recommended that you select a unique prefix to avoid issues and/or repeated "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -205556,6 +207172,11 @@ msgstr ""
 "type."
 msgstr ""
 >>>>>>> upstream/18.0
+=======
+"reference values or assign the existing reference sequence to this operation "
+"type."
+msgstr ""
+>>>>>>> upstream/18.0
 "Bu sıra önek, başka bir işlem türü tarafından zaten kullanılmaktadır. "
 "Sorunların ve/veya tekrarlanan referans değerlerinin önlenmesi için "
 "benzersiz bir önek seçmeniz veya mevcut referans sırasını bu işlem türüne "
@@ -205693,6 +207314,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -206100,8 +207724,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Bu stok konumu varsayılanın yerine envanter işlemi yaparken oluşturulan stok"
 " hareketlerinin kaynak konumu olarak kullanılacaktır."
+=======
+"Bu stok konumu, stok sayımı yaparken oluşturulan stok hareketlerinin kaynak "
+"konumu olarak varsayılan konum yerine kullanılacaktır."
+>>>>>>> upstream/18.0
 =======
 "Bu stok konumu, stok sayımı yaparken oluşturulan stok hareketlerinin kaynak "
 "konumu olarak varsayılan konum yerine kullanılacaktır."
@@ -206728,11 +208357,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Those products you added are tracked but lots/serials were not defined. Once applied those can't be changed.<br/>\n"
 "                    Apply anyway?"
 msgstr ""
 "Eklediğiniz ürünler izleniyor fakat lot/seri tanımlanmıyordu. Uygulandıktan sonra bunlar değiştirilemez.<br/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -207090,6 +208722,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -207449,7 +209084,11 @@ msgid "Time Horizon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zaman Ufku"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zaman Ufku"
 >>>>>>> upstream/18.0
@@ -207927,7 +209566,11 @@ msgid "Tip: Monitor Lot details"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İpucu: Lot ayrıntılarını izleyin"
+>>>>>>> upstream/18.0
 =======
 msgstr "İpucu: Lot ayrıntılarını izleyin"
 >>>>>>> upstream/18.0
@@ -208453,7 +210096,11 @@ msgid "To Location"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hedef Konum:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hedef Konum:"
 >>>>>>> upstream/18.0
@@ -208939,7 +210586,11 @@ msgid "To Order Computed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Siparişe Göre Hesaplandı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Siparişe Göre Hesaplandı"
 >>>>>>> upstream/18.0
@@ -209416,7 +211067,11 @@ msgid "To Order Manual"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Manuel Sipariş"
+>>>>>>> upstream/18.0
 =======
 msgstr "Manuel Sipariş"
 >>>>>>> upstream/18.0
@@ -209894,7 +211549,11 @@ msgid "To Order with Visibility Days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Görünürlük Günleri ile Sipariş"
+>>>>>>> upstream/18.0
 =======
 msgstr "Görünürlük Günleri ile Sipariş"
 >>>>>>> upstream/18.0
@@ -210371,7 +212030,11 @@ msgid "To Package"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pakete"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pakete"
 >>>>>>> upstream/18.0
@@ -210857,7 +212520,11 @@ msgid "To Receive"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Teslim Alınacak"
+>>>>>>> upstream/18.0
 =======
 msgstr "Teslim Alınacak"
 >>>>>>> upstream/18.0
@@ -211414,6 +213081,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "shipping weight specified will default to their products' total weight. This"
 " is the weight used to compute the cost of the shipping."
 msgstr ""
@@ -211421,6 +213089,8 @@ msgstr ""
 "belirtilmeyen paketler, varsayılan olarak ürünlerinin toplam ağırlığına göre"
 " belirlenir. Bu, nakliye maliyetini hesaplamak için kullanılan ağırlıktır."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -211778,6 +213448,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -212168,12 +213841,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Track following dates on lots & serial numbers: best before, removal, end of life, alert. \n"
 " Such dates are set automatically at lot/serial number creation based on values set on the product (in days)."
 msgstr ""
 "Devam eden seri numaraları ve lotlar üzerindeki tarihleri izleyin: Önceki en iyi, çıkarılan, ömrünün bitmesi, uyarı.\n"
 "Bu tarihler ürün değerlerine bağlı olarak oluşturulan  seri/lot numaralarında otomatik olarak ayarlanır."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -212534,6 +214210,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -212773,6 +214452,7 @@ msgstr ""
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -213132,6 +214812,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Track following dates on lots & serial numbers: best before, removal, end of "
 "life, alert. Such dates are set automatically at lot/serial number creation "
 "based on values set on the product (in days)."
@@ -213255,6 +214937,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -213681,8 +215366,12 @@ msgid "Transfers allow you to move products from one location to another."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Transferler, ürünleri bir yerden başka bir yere taşımanıza izin verir."
+=======
+msgstr "Transferler, ürünleri bir yerden başka bir yere taşımanıza izin verir."
+>>>>>>> upstream/18.0
 =======
 msgstr "Transferler, ürünleri bir yerden başka bir yere taşımanıza izin verir."
 >>>>>>> upstream/18.0
@@ -214182,7 +215871,11 @@ msgid "Transport management: organize packs in your fleet, or carriers."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Taşıma yönetimi: Paketleri filonuzda veya taşıyıcılarda organize edin."
+>>>>>>> upstream/18.0
 =======
 msgstr "Taşıma yönetimi: Paketleri filonuzda veya taşıyıcılarda organize edin."
 >>>>>>> upstream/18.0
@@ -214681,7 +216374,11 @@ msgid "Trigger replenishment for scrapped products"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hurdaya ayrılmış ürünler için ikmal tetikle"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hurdaya ayrılmış ürünler için ikmal tetikle"
 >>>>>>> upstream/18.0
@@ -215177,6 +216874,10 @@ msgstr "Bir mesaj yaz..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:stock.field_stock_return_picking__picking_type_code
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:stock.field_stock_return_picking__picking_type_code
 >>>>>>> upstream/18.0
@@ -215662,6 +217363,10 @@ msgstr "Kayıtlardaki istisna etkinliğinin türü."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -216143,6 +217848,10 @@ msgstr "UPS Bağlantısı"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -216631,10 +218340,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Unavailable Serial numbers. Please correct the serial numbers encoded: "
 "%(serial_numbers_to_locations)s"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -216991,6 +218703,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -217433,10 +219148,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Unless previously specified by the source document, this will be the default"
 " picking policy for this operation type."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -217793,6 +219511,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -218163,7 +219884,11 @@ msgid "Unreturned"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İade Edilmemiş"
+>>>>>>> upstream/18.0
 =======
 msgstr "İade Edilmemiş"
 >>>>>>> upstream/18.0
@@ -218693,11 +220418,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Updating the location of this transfer will result in unreservation of the currently assigned items. An attempt to reserve items at the new location will be made and the link with preceding transfers will be discarded.\n"
 "\n"
 "To avoid this, please discard the source location change before saving."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -219061,6 +220789,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -219546,7 +221277,11 @@ msgid "Visibility days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Görünürlük günleri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Görünürlük günleri"
 >>>>>>> upstream/18.0
@@ -220023,7 +221758,11 @@ msgid "Volume for Shipping"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sevkiyat Hacmi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sevkiyat Hacmi"
 >>>>>>> upstream/18.0
@@ -220500,7 +222239,11 @@ msgid "WH/OUT/00001"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "WH/OUT/00001"
+>>>>>>> upstream/18.0
 =======
 msgstr "WH/OUT/00001"
 >>>>>>> upstream/18.0
@@ -220977,7 +222720,11 @@ msgid "WH/OUT/0001"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "WH/OUT/0001"
+>>>>>>> upstream/18.0
 =======
 msgstr "WH/OUT/0001"
 >>>>>>> upstream/18.0
@@ -221627,7 +223374,11 @@ msgid "Warning: change source location"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uyarı: kaynak konumu değiştir"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uyarı: kaynak konumu değiştir"
 >>>>>>> upstream/18.0
@@ -222144,7 +223895,11 @@ msgid "Weight unit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ağırlık birimi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ağırlık birimi"
 >>>>>>> upstream/18.0
@@ -222676,11 +224431,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "When products are needed in <b>%(destination)s</b>, <br> "
 "<b>%(operation)s</b> are created from <b>%(source_location)s</b> to fulfill "
 "the need. %(suffix)s"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -223039,6 +224797,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -223397,10 +225158,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "When products arrive in <b>%(source_location)s</b>, <br> "
 "<b>%(operation)s</b> are created to send them to <b>%(destination)s</b>."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -223757,6 +225521,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -224117,6 +225884,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"'True' olarak ayarlandığında, stok hareketinin hedef konumu kuraldan alınır. "
+"Aksi halde, toplama tipinden alınır."
+>>>>>>> upstream/18.0
 =======
 "'True' olarak ayarlandığında, stok hareketinin hedef konumu kuraldan alınır. "
 "Aksi halde, toplama tipinden alınır."
@@ -224720,11 +226492,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "When the virtual stock goes below the Min Quantity specified for this field,"
 " Odoo generates a procurement to bring the forecasted quantity above of this"
 " Min Quantity."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -225083,6 +226858,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -225444,6 +227222,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Sanal stok Asgari Miktarın altına düştüğünde Odoo tahmini miktarı bu alan "
+"için belirtilen Azami Miktara (veya Asgari Miktara, hangisi büyükse) "
+"çıkarmak için bir tedarik oluşturur."
+>>>>>>> upstream/18.0
 =======
 "Sanal stok Asgari Miktarın altına düştüğünde Odoo tahmini miktarı bu alan "
 "için belirtilen Azami Miktara (veya Asgari Miktara, hangisi büyükse) "
@@ -226171,7 +227955,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 " * Ask: users are asked to choose if they want to make a backorder for remaining products\n"
+=======
+" * Ask: users are asked to choose if they want to make a backorder for "
+"remaining products\n"
+>>>>>>> upstream/18.0
 =======
 " * Ask: users are asked to choose if they want to make a backorder for "
 "remaining products\n"
@@ -226766,7 +228555,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "* Sor: kullanıcılardan kalan ürünler için ön sipariş vermek isteyip istemediklerini seçmeleri istenir\n"
+=======
+"* Sor: kullanıcılardan kalan ürünler için ön sipariş vermek isteyip "
+"istemediklerini seçmeleri istenir\n"
+>>>>>>> upstream/18.0
 =======
 "* Sor: kullanıcılardan kalan ürünler için ön sipariş vermek isteyip "
 "istemediklerini seçmeleri istenir\n"
@@ -227398,7 +229192,11 @@ msgid "Write one lot/serial name per line, followed by the quantity."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Her satıra bir parti/seri numarası yazın ve ardından miktarı ekleyin."
+>>>>>>> upstream/18.0
 =======
 msgstr "Her satıra bir parti/seri numarası yazın ve ardından miktarı ekleyin."
 >>>>>>> upstream/18.0
@@ -227883,10 +229681,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You are about to move quantities in a package without moving the full package.\n"
 "                    Those quantities will be removed from the following package(s):"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -228245,6 +230046,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -228605,6 +230409,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bu konumda referans verilmemiş ürünleri\n"
+"toplayacaksınız. Bu, negatif stoğa neden olur."
+>>>>>>> upstream/18.0
 =======
 "Bu konumda referans verilmemiş ürünleri\n"
 "toplayacaksınız. Bu, negatif stoğa neden olur."
@@ -229218,8 +231027,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "type. To change this, go on the operation type and tick the box \"Create New"
 " Lots/Serial Numbers\"."
+=======
+"type. To change this, go on the operation type and tick the box \"Create New "
+"Lots/Serial Numbers\"."
+>>>>>>> upstream/18.0
 =======
 "type. To change this, go on the operation type and tick the box \"Create New "
 "Lots/Serial Numbers\"."
@@ -229842,9 +231656,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                your warehouses and that define the flows of your products. These\n"
 "                routes can be assigned to a product, a product category or be fixed\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -230200,6 +232017,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -230572,6 +232392,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Şu anda bir stok hareketinde rezerve edilmiş bir ürünün stok takibini "
+"değiştiremezsiniz. Stok takibini değiştirmek istiyorsanız önce stok "
+"hareketinin rezervasyonunu kaldırmalısınız."
+>>>>>>> upstream/18.0
 =======
 "Şu anda bir stok hareketinde rezerve edilmiş bir ürünün stok takibini "
 "değiştiremezsiniz. Stok takibini değiştirmek istiyorsanız önce stok "
@@ -231285,9 +233111,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can not change the inventory tracking of a product that was already "
 "used."
 msgstr ""
+=======
+"You can not change the inventory tracking of a product that was already used."
+msgstr "Daha önce kullanılmış bir ürünün stok takibini değiştiremezsiniz."
+>>>>>>> upstream/18.0
 =======
 "You can not change the inventory tracking of a product that was already used."
 msgstr "Daha önce kullanılmış bir ürünün stok takibini değiştiremezsiniz."
@@ -231882,10 +233713,13 @@ msgstr "Daha önce kullanılmış bir ürünün stok takibini değiştiremezsini
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "You can not create a snoozed orderpoint that is not manually triggered."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -232241,6 +234075,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -232599,7 +234436,11 @@ msgid "You can not delete moves linked to another operation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Başka bir işleme bağlı hareketleri silemezsiniz"
+>>>>>>> upstream/18.0
 =======
 msgstr "Başka bir işleme bağlı hareketleri silemezsiniz"
 >>>>>>> upstream/18.0
@@ -233102,6 +234943,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bir parti/seri numarasını yalnızca tek bir konumda mevcutsa yeni bir konuma "
+"taşıyabilirsiniz."
+>>>>>>> upstream/18.0
 =======
 "Bir parti/seri numarasını yalnızca tek bir konumda mevcutsa yeni bir konuma "
 "taşıyabilirsiniz."
@@ -233700,6 +235546,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Her yeniden yerleştirme işleminde yalnızca tek bir şirket tarafından "
+"kullanılan konumlarda depolanan pozitif miktarları taşıyabilirsiniz."
+>>>>>>> upstream/18.0
 =======
 "Her yeniden yerleştirme işleminde yalnızca tek bir şirket tarafından "
 "kullanılan konumlarda depolanan pozitif miktarları taşıyabilirsiniz."
@@ -234306,6 +236157,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Yalnızca manuel sipariş noktalarını erteleyebilirsiniz. Tetiklenmelerini "
+"istemiyorsanız ‘otomatik tetiklenen’ sipariş noktalarını arşivlemelisiniz."
+>>>>>>> upstream/18.0
 =======
 "Yalnızca manuel sipariş noktalarını erteleyebilirsiniz. Tetiklenmelerini "
 "istemiyorsanız ‘otomatik tetiklenen’ sipariş noktalarını arşivlemelisiniz."
@@ -234901,8 +236757,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can't deactivate the multi-location if you have more than once warehouse"
 " by company"
+=======
+"You can't deactivate the multi-location if you have more than once warehouse "
+"by company"
+>>>>>>> upstream/18.0
 =======
 "You can't deactivate the multi-location if you have more than once warehouse "
 "by company"
@@ -235501,7 +237362,11 @@ msgid "You can't disable locations %s because they still contain products."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hala ürün içerdiklerinden, %s konumlarını devre dışı bırakamazsınız."
+>>>>>>> upstream/18.0
 =======
 msgstr "Hala ürün içerdiklerinden, %s konumlarını devre dışı bırakamazsınız."
 >>>>>>> upstream/18.0
@@ -235979,10 +237844,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot archive location %(location)s because it is used by warehouse "
 "%(warehouse)s"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -236339,6 +238207,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -236700,8 +238571,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "'Bitti' olarak ayarlanmış bir stok hareketini iptal edemezsiniz. Gerçekleşen"
 " hamleleri tersine çevirmek için bir geri dönüş oluşturun."
+=======
+"'Bitti' olarak ayarlanmış bir stok hareketini iptal edemezsiniz. Gerçekleşen "
+"hamleleri tersine çevirmek için bir geri dönüş oluşturun."
+>>>>>>> upstream/18.0
 =======
 "'Bitti' olarak ayarlanmış bir stok hareketini iptal edemezsiniz. Gerçekleşen "
 "hamleleri tersine çevirmek için bir geri dönüş oluşturun."
@@ -237312,8 +239188,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "You cannot change the UoM for a stock move that has been set to 'Done'."
+=======
+msgid "You cannot change the UoM for a stock move that has been set to 'Done'."
+>>>>>>> upstream/18.0
 =======
 msgid "You cannot change the UoM for a stock move that has been set to 'Done'."
 >>>>>>> upstream/18.0
@@ -237794,10 +239674,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot change the company of a lot/serial number currently in a location"
 " belonging to another company."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -238154,6 +240037,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -238515,8 +240401,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Bu ölçü birimine sahip bazı ürünler zaten taşındığından veya şu anda rezerve"
 " edildiğinden, bu birim ölçü oranını değiştiremezsiniz."
+=======
+"Bu ölçü birimine sahip bazı ürünler zaten taşındığından veya şu anda rezerve "
+"edildiğinden, bu birim ölçü oranını değiştiremezsiniz."
+>>>>>>> upstream/18.0
 =======
 "Bu ölçü birimine sahip bazı ürünler zaten taşındığından veya şu anda rezerve "
 "edildiğinden, bu birim ölçü oranını değiştiremezsiniz."
@@ -239134,6 +241025,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bu görünümden, farklı transferlerden gelen miktarları doğrudan aynı pakete "
+"paketleyemezsiniz. Onları toplu toplama işlemine ekleyip orada paketlemeyi "
+"deneyin."
+>>>>>>> upstream/18.0
 =======
 "Bu görünümden, farklı transferlerden gelen miktarları doğrudan aynı pakete "
 "paketleyemezsiniz. Onları toplu toplama işlemine ekleyip orada paketlemeyi "
@@ -239847,7 +241744,11 @@ msgid "You cannot duplicate stock quants."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stok miktarlarını çoğaltamazsınız."
+>>>>>>> upstream/18.0
 =======
 msgstr "Stok miktarlarını çoğaltamazsınız."
 >>>>>>> upstream/18.0
@@ -240331,8 +242232,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot move the same package content more than once in the same transfer"
 " or split the same package into two location."
+=======
+"You cannot move the same package content more than once in the same transfer "
+"or split the same package into two location."
+>>>>>>> upstream/18.0
 =======
 "You cannot move the same package content more than once in the same transfer "
 "or split the same package into two location."
@@ -240934,6 +242840,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Farklı işlem tiplerine sahip farklı transferlerden gelen ürünleri aynı "
+"pakete paketleyemezsiniz."
+>>>>>>> upstream/18.0
 =======
 "Farklı işlem tiplerine sahip farklı transferlerden gelen ürünleri aynı "
 "pakete paketleyemezsiniz."
@@ -241532,6 +243443,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Birim ölçüsü ürünün birim ölçüsünden farklı bir kategoriye ait olduğu için "
+"bu hareketleri gerçekleştiremezsiniz."
+>>>>>>> upstream/18.0
 =======
 "Birim ölçüsü ürünün birim ölçüsünden farklı bir kategoriye ait olduğu için "
 "bu hareketleri gerçekleştiremezsiniz."
@@ -242130,6 +244046,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bir üretim tipi işlem için hedef konum olarak atanmışsa, bir konumu hurda "
+"konumu olarak ayarlayamazsınız."
+>>>>>>> upstream/18.0
 =======
 "Bir üretim tipi işlem için hedef konum olarak atanmışsa, bir konumu hurda "
 "konumu olarak ayarlayamazsınız."
@@ -242742,6 +244663,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"'Tamamlandı' veya 'İptal' durumuna getirilmiş bir stok hareketini "
+"bölemezsiniz."
+>>>>>>> upstream/18.0
 =======
 "'Tamamlandı' veya 'İptal' durumuna getirilmiş bir stok hareketini "
 "bölemezsiniz."
@@ -243245,6 +245171,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -243940,6 +245867,11 @@ msgstr ""
 "reserved moves are picked.To force the transfer, encode quantities."
 msgstr ""
 >>>>>>> upstream/18.0
+=======
+"You cannot validate a transfer if no quantities are reserved, or if only non-"
+"reserved moves are picked.To force the transfer, encode quantities."
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: stock
 #. odoo-python
@@ -244066,6 +245998,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Boş bir transferi onaylayamazsınız. Devam etmeden önce taşınacak bazı "
+"ürünler ekleyin."
+>>>>>>> upstream/18.0
 =======
 "Boş bir transferi onaylayamazsınız. Devam etmeden önce taşınacak bazı "
 "ürünler ekleyin."
@@ -244669,6 +246606,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Stokta, parti/seri numarası takibi etkinleştirilmiş ürünleriniz var. \n"
+"Bu ayarı kapatmadan önce tüm ürünlerde izlemeyi kapatın."
+>>>>>>> upstream/18.0
 =======
 "Stokta, parti/seri numarası takibi etkinleştirilmiş ürünleriniz var. \n"
 "Bu ayarı kapatmadan önce tüm ürünlerde izlemeyi kapatın."
@@ -245274,8 +247216,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You have to select a product unit of measure that is in the same category as"
 " the default unit of measure of the product"
+=======
+"You have to select a product unit of measure that is in the same category as "
+"the default unit of measure of the product"
+>>>>>>> upstream/18.0
 =======
 "You have to select a product unit of measure that is in the same category as "
 "the default unit of measure of the product"
@@ -245927,6 +247874,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%(operations)s işlem türleri için %(warehouse)s depoda hala devam eden "
+"işlemleriniz var"
+>>>>>>> upstream/18.0
 =======
 "%(operations)s işlem türleri için %(warehouse)s depoda hala devam eden "
 "işlemleriniz var"
@@ -246539,8 +248491,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Halihazırda var olan bir kayıt oluşturmaya çalıştınız. Bunun yerine mevcut "
 "kayıt değiştirildi."
+=======
+"Zaten var olan bir kayıt oluşturmaya çalıştınız. Bunun yerine mevcut kayıt "
+"değiştirildi."
+>>>>>>> upstream/18.0
 =======
 "Zaten var olan bir kayıt oluşturmaya çalıştınız. Bunun yerine mevcut kayıt "
 "değiştirildi."
@@ -247151,6 +249108,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You'll find here smart replenishment propositions based on inventory forecasts.\n"
 "            Choose the quantity to buy or manufacture and launch orders in a click.\n"
 "            To save time in the future, set the rules as \"automated\"."
@@ -247159,6 +249117,8 @@ msgstr ""
 "            Almak ya da üretmek için miktarı seçin ve tek tıkla siparişleri başlatın.\n"
 "            İlerde zaman kazanmak için, \"otomatik\" olarak kuralları kaydedin."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -247522,6 +249482,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -247906,7 +249869,11 @@ msgid "ZPL Labels - One per lot/SN"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ZPL Etiketleri - Her parti/seri numarası için bir adet"
+>>>>>>> upstream/18.0
 =======
 msgstr "ZPL Etiketleri - Her parti/seri numarası için bir adet"
 >>>>>>> upstream/18.0
@@ -248383,7 +250350,11 @@ msgid "ZPL Labels - One per unit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ZPL Etiketleri - Birim başına bir adet"
+>>>>>>> upstream/18.0
 =======
 msgstr "ZPL Etiketleri - Birim başına bir adet"
 >>>>>>> upstream/18.0
@@ -248871,7 +250842,11 @@ msgid "barcodelookup.com"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "barcodelookup.com"
+>>>>>>> upstream/18.0
 =======
 msgstr "barcodelookup.com"
 >>>>>>> upstream/18.0
@@ -249359,7 +251334,11 @@ msgid "closest"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "en yakın"
+>>>>>>> upstream/18.0
 =======
 msgstr "en yakın"
 >>>>>>> upstream/18.0
@@ -249866,7 +251845,11 @@ msgid "e.g. LOT-PR-00012"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "örn. LOT-PR-00012"
+>>>>>>> upstream/18.0
 =======
 msgstr "örn. LOT-PR-00012"
 >>>>>>> upstream/18.0
@@ -250373,7 +252356,11 @@ msgid "e.g. SN000001"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "örn. SN000001"
+>>>>>>> upstream/18.0
 =======
 msgstr "örn. SN000001"
 >>>>>>> upstream/18.0
@@ -250860,7 +252847,11 @@ msgid "e.g. d7vctmiv2rwgenebha8bxq7irooudn"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "örn. d7vctmiv2rwgenebha8bxq7irooudn"
+>>>>>>> upstream/18.0
 =======
 msgstr "örn. d7vctmiv2rwgenebha8bxq7irooudn"
 >>>>>>> upstream/18.0
@@ -251337,7 +253328,11 @@ msgid "fifo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ilk giren ilk çıkar"
+>>>>>>> upstream/18.0
 =======
 msgstr "ilk giren ilk çıkar"
 >>>>>>> upstream/18.0
@@ -251824,7 +253819,11 @@ msgid "in barcode."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "barkod'da."
+>>>>>>> upstream/18.0
 =======
 msgstr "barkod'da."
 >>>>>>> upstream/18.0
@@ -252308,7 +254307,11 @@ msgid "least_packages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "least_packages"
+>>>>>>> upstream/18.0
 =======
 msgstr "least_packages"
 >>>>>>> upstream/18.0
@@ -252785,7 +254788,11 @@ msgid "lifo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "son giren ilk çıkar"
+>>>>>>> upstream/18.0
 =======
 msgstr "son giren ilk çıkar"
 >>>>>>> upstream/18.0
@@ -253345,7 +255352,11 @@ msgid "reserved"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "rezerve"
+>>>>>>> upstream/18.0
 =======
 msgstr "rezerve"
 >>>>>>> upstream/18.0
@@ -253993,7 +256004,11 @@ msgid "stock.click_dashboard_graph"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "stock.click_dashboard_graph"
+>>>>>>> upstream/18.0
 =======
 msgstr "stock.click_dashboard_graph"
 >>>>>>> upstream/18.0
@@ -254470,7 +256485,11 @@ msgid "stock.method_action_picking_tree_incoming"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "stock.method_action_picking_tree_incoming"
+>>>>>>> upstream/18.0
 =======
 msgstr "stock.method_action_picking_tree_incoming"
 >>>>>>> upstream/18.0
@@ -254947,7 +256966,11 @@ msgid "stock.method_action_picking_tree_internal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "stock.method_action_picking_tree_internal"
+>>>>>>> upstream/18.0
 =======
 msgstr "stock.method_action_picking_tree_internal"
 >>>>>>> upstream/18.0
@@ -255424,7 +257447,11 @@ msgid "stock.method_action_picking_tree_outgoing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "stock.method_action_picking_tree_outgoing"
+>>>>>>> upstream/18.0
 =======
 msgstr "stock.method_action_picking_tree_outgoing"
 >>>>>>> upstream/18.0
@@ -255901,7 +257928,11 @@ msgid "stock.putaway.rule"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "stock.putaway.rule"
+>>>>>>> upstream/18.0
 =======
 msgstr "stock.putaway.rule"
 >>>>>>> upstream/18.0
@@ -256378,7 +258409,11 @@ msgid "the barcode app"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "barkod uygulaması"
+>>>>>>> upstream/18.0
 =======
 msgstr "barkod uygulaması"
 >>>>>>> upstream/18.0
@@ -256875,6 +258910,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "{{ object.company_id.name }} Teslimat (Ref {{ object.name or 'n/a' }})"
 =======
@@ -256926,6 +258962,8 @@ msgstr "{{ object.company_id.name }} Teslimat (Ref {{ object.name or 'n/a' }})"
 msgstr "{{ object.company_id.name }} Teslimat (Ref {{ object.name or 'n/a' }})"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -257237,6 +259275,9 @@ msgstr "{{ object.company_id.name }} Teslimat (Ref {{ object.name or 'n/a' }})"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

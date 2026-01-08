@@ -280,7 +280,11 @@ class TestAccountComposerPerformance(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 sending_methods=['email'],
+=======
+                sending_methods={'email'},
+>>>>>>> upstream/18.0
 =======
                 sending_methods={'email'},
 >>>>>>> upstream/18.0
@@ -1018,11 +1022,14 @@ class TestAccountMoveSendCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         wizard_model = 'account.move.send.wizard' if len(invoices) == 1 else 'account.move.send.batch.wizard'
         return self.env[wizard_model]\
             .with_context(active_model='account.move', active_ids=invoices.ids)\
             .create(kwargs)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1126,6 +1133,9 @@ class TestAccountMoveSendCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1563,6 +1573,12 @@ class TestAccountMoveSend(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertEqual(wizard.summary_data, {
+            'email': {'count': 1, 'label': 'by Email'},  # Only one will be actually sent by email
+        })
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(wizard.summary_data, {
             'email': {'count': 1, 'label': 'by Email'},  # Only one will be actually sent by email
@@ -2751,7 +2767,10 @@ class TestAccountMoveSend(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3118,6 +3137,9 @@ class TestAccountMoveSend(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3749,7 +3771,13 @@ class TestAccountMoveSend(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         wizard = self.create_send_and_print(invoice, mail_template_id=None, mail_subject=custom_subject)
+=======
+        wizard = self.create_send_and_print(invoice)
+        wizard.mail_template_id = None
+        wizard.mail_subject = custom_subject
+>>>>>>> upstream/18.0
 =======
         wizard = self.create_send_and_print(invoice)
         wizard.mail_template_id = None
@@ -5152,6 +5180,10 @@ class TestAccountMoveSend(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertFalse(wizard.sending_methods)
+>>>>>>> upstream/18.0
 =======
         self.assertFalse(wizard.sending_methods)
 >>>>>>> upstream/18.0
@@ -5897,6 +5929,7 @@ class TestAccountMoveSend(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'sending_methods': ['email'],
             'invoice_edi_format': False,
             'extra_edis': [],
@@ -6490,6 +6523,11 @@ class TestAccountMoveSend(TestAccountMoveSendCommon):
             'invoice_edi_format': False,
             'extra_edis': set(),
 >>>>>>> upstream/18.0
+=======
+            'sending_methods': {'email'},
+            'invoice_edi_format': False,
+            'extra_edis': set(),
+>>>>>>> upstream/18.0
             'pdf_report': self.env.ref('account.account_invoices'),
             'author_user_id': self.env.user.id,
             'author_partner_id': self.env.user.partner_id.id,
@@ -6620,7 +6658,10 @@ class TestAccountMoveSend(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7002,6 +7043,9 @@ class TestAccountMoveSend(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

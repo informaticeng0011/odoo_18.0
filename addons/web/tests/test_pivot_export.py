@@ -1,6 +1,10 @@
 import io
 import json
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from http import HTTPStatus
+>>>>>>> upstream/18.0
 =======
 from http import HTTPStatus
 >>>>>>> upstream/18.0
@@ -53,7 +57,10 @@ class TestPivotExport(HttpCase):
         self.assertEqual(xml_data['A2'], '0')
         self.assertEqual(xml_data['B2'], '42')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_export_xlsx_with_empty_data(self):
         """ Test the export_xlsx method of the pivot controller without jdata """
@@ -68,4 +75,7 @@ class TestPivotExport(HttpCase):
         )
         self.assertEqual(response.status_code, HTTPStatus.UNPROCESSABLE_ENTITY)
         self.assertIn('No data to export', response.text)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

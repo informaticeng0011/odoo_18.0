@@ -30,7 +30,10 @@ class StockPicking(models.Model):
     destination_country_code = fields.Char(related='partner_id.country_id.code', string="Destination Country")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def button_validate(self):
         res = super().button_validate()
         if res is not True:
@@ -46,6 +49,9 @@ class StockPicking(models.Model):
                 ).write({'carrier_id': picking.carrier_id.id, 'carrier_tracking_ref': picking.carrier_tracking_ref})
         return res
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     @api.depends('carrier_id', 'carrier_tracking_ref')
     def _compute_carrier_tracking_url(self):
@@ -229,7 +235,13 @@ class StockPicking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 return self._set_delivery_package_type(batch_pack=len(move_line_ids.picking_id) > 1)
+=======
+                return self.with_context(
+                    default_move_line_ids=move_line_ids.ids
+                )._set_delivery_package_type(batch_pack=len(move_line_ids.picking_id) > 1)
+>>>>>>> upstream/18.0
 =======
                 return self.with_context(
                     default_move_line_ids=move_line_ids.ids

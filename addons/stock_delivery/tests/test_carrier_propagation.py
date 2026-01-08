@@ -127,7 +127,10 @@ class TestCarrierPropagation(TransactionCase):
             self.assertEqual(self.normal_delivery, ship.carrier_id)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_carrier_propagation_with_all_pull_rules(self):
         """Ensure that the carrier is propagated in pickings through all pull rules
         where 'propagate_carrier' is enabled."""
@@ -148,6 +151,9 @@ class TestCarrierPropagation(TransactionCase):
         pickings[1].button_validate()
         self.assertRecordValues(pickings[2], [{'carrier_id': False, 'carrier_tracking_ref': False}])
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_route_based_on_carrier_delivery(self):
         """

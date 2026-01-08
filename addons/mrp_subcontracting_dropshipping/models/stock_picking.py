@@ -103,6 +103,12 @@ class StockPicking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            # the subcontract_svls should not have a remaining_value or remaining_qty because they are part of a dropship
+            subcontract_svls.remaining_value = 0
+            subcontract_svls.remaining_qty = 0
+>>>>>>> upstream/18.0
 =======
             # the subcontract_svls should not have a remaining_value or remaining_qty because they are part of a dropship
             subcontract_svls.remaining_value = 0

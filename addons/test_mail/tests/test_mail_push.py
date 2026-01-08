@@ -197,6 +197,10 @@ from odoo.addons.mail.tools.jwt import InvalidVapidError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.mail.tools.web_push import ENCRYPTION_BLOCK_OVERHEAD, ENCRYPTION_HEADER_SIZE
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.mail.tools.web_push import ENCRYPTION_BLOCK_OVERHEAD, ENCRYPTION_HEADER_SIZE
 >>>>>>> upstream/18.0
@@ -1361,6 +1365,7 @@ class TestWebPushNotification(SMSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual('0', post.call_args.kwargs['headers']['TTL'])
 =======
         self.assertEqual('60', post.call_args.kwargs['headers']['TTL'])
@@ -1855,6 +1860,8 @@ class TestWebPushNotification(SMSCommon):
         self.assertIn('timeout', post.call_args.kwargs)
 
 =======
+=======
+>>>>>>> upstream/18.0
         self.assertEqual('60', post.call_args.kwargs['headers']['TTL'])
         self.assertIn('data', post.call_args.kwargs)
         self.assertIn('timeout', post.call_args.kwargs)
@@ -1916,6 +1923,9 @@ class TestWebPushNotification(SMSCommon):
                 'ERROR:odoo.addons.mail.models.mail_push:An error occurred while trying to send web push: Oops, network error',
             ] * 5)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_push_notification_regenerate_vapid_keys(self):
         ir_params_sudo = self.env['ir.config_parameter'].sudo()
@@ -2122,7 +2132,10 @@ class TestWebPushNotification(SMSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2823,6 +2836,9 @@ class TestWebPushNotification(SMSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

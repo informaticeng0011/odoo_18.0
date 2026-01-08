@@ -145,7 +145,10 @@ async function twoDeleteForward(editor) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -501,6 +504,9 @@ const pressEnter = editor => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1886,7 +1892,10 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1909,6 +1918,7 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1919,6 +1929,73 @@ X[]
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+                it('should delete the inline code style when removing its last character', async () => {
+                    await testEditor(BasicEditor, {
+                        contentBefore: unformat(`<div><code class="o_inline_code">ab</code>[]xyz</div>`),
+                        stepFunction: editor => editor._applyCommand('oDeleteBackward'),
+                        contentAfter: unformat(`<div><code class="o_inline_code">a[]</code>xyz</div>`),
+                    });
+                    await testEditor(BasicEditor, {
+                        contentBefore: unformat(`<div><code class="o_inline_code">a[]b</code>xyz</div>`),
+                        stepFunction: editor => editor._applyCommand('oDeleteBackward'),
+                        contentAfter: unformat(`<div><code class="o_inline_code">[]b</code>xyz</div>`),
+                    });
+                    await testEditor(BasicEditor, {
+                        contentBefore: unformat(`<div><code class="o_inline_code">ab[]</code>xyz</div>`),
+                        stepFunction: editor => editor._applyCommand('oDeleteBackward'),
+                        contentAfter: unformat(`<div><code class="o_inline_code">a[]</code>xyz</div>`),
+                    });
+                    await testEditor(BasicEditor, {
+                        contentBefore: unformat(`<div><code class="o_inline_code">a</code>[]xyz</div>`),
+                        stepFunction: editor => editor._applyCommand('oDeleteBackward'),
+                        contentAfter: unformat(`<div>[]xyz</div>`),
+                    });
+                    await testEditor(BasicEditor, {
+                        contentBefore: unformat(`<div><code class="o_inline_code">a[]</code>xyz</div>`),
+                        stepFunction: editor => editor._applyCommand('oDeleteBackward'),
+                        contentAfter: unformat(`<div>[]xyz</div>`),
+                    });
+                    await testEditor(BasicEditor, {
+                        contentBefore: unformat(`<div><em>123</em><code class="o_inline_code">a[]</code><em>xyz</em></div>`),
+                        stepFunction: editor => editor._applyCommand('oDeleteBackward'),
+                        contentAfter: unformat(`<div><em>123[]xyz</em></div>`),
+                    });
+                });
+                it('should delete the inline code style when removing its last multi-char character', async () => {
+                    const multi = "\uD800\uDC83";
+                    await testEditor(BasicEditor, {
+                        contentBefore: unformat(`<div><code class="o_inline_code">${multi}${multi}</code>[]xyz</div>`),
+                        stepFunction: editor => editor._applyCommand('oDeleteBackward'),
+                        contentAfter: unformat(`<div><code class="o_inline_code">${multi}[]</code>xyz</div>`),
+                    });
+                    await testEditor(BasicEditor, {
+                        contentBefore: unformat(`<div><code class="o_inline_code">${multi}[]${multi}</code>xyz</div>`),
+                        stepFunction: editor => editor._applyCommand('oDeleteBackward'),
+                        contentAfter: unformat(`<div><code class="o_inline_code">[]${multi}</code>xyz</div>`),
+                    });
+                    await testEditor(BasicEditor, {
+                        contentBefore: unformat(`<div><code class="o_inline_code">${multi}${multi}[]</code>xyz</div>`),
+                        stepFunction: editor => editor._applyCommand('oDeleteBackward'),
+                        contentAfter: unformat(`<div><code class="o_inline_code">${multi}[]</code>xyz</div>`),
+                    });
+                    await testEditor(BasicEditor, {
+                        contentBefore: unformat(`<div><code class="o_inline_code">${multi}</code>[]xyz</div>`),
+                        stepFunction: editor => editor._applyCommand('oDeleteBackward'),
+                        contentAfter: unformat(`<div>[]xyz</div>`),
+                    });
+                    await testEditor(BasicEditor, {
+                        contentBefore: unformat(`<div><code class="o_inline_code">${multi}[]</code>xyz</div>`),
+                        stepFunction: editor => editor._applyCommand('oDeleteBackward'),
+                        contentAfter: unformat(`<div>[]xyz</div>`),
+                    });
+                    await testEditor(BasicEditor, {
+                        contentBefore: unformat(`<div><em>123</em><code class="o_inline_code">${multi}[]</code><em>xyz</em></div>`),
+                        stepFunction: editor => editor._applyCommand('oDeleteBackward'),
+                        contentAfter: unformat(`<div><em>123[]xyz</em></div>`),
+                    });
+                });
 >>>>>>> upstream/18.0
             });
         });
@@ -2103,7 +2180,10 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2462,6 +2542,9 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3291,7 +3374,10 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3654,6 +3740,9 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4205,7 +4294,11 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 it('should not break unbreakables', async () => {
+=======
+                it('should not break unbreakables (1)', async () => {
+>>>>>>> upstream/18.0
 =======
                 it('should not break unbreakables (1)', async () => {
 >>>>>>> upstream/18.0
@@ -4733,6 +4826,11 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                });
+                it("should not break unbreakables (2)", async () => {
+>>>>>>> upstream/18.0
 =======
                 });
                 it("should not break unbreakables (2)", async () => {
@@ -5390,6 +5488,11 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                });
+                it("should not break unbreakables (3)", async () => {
+>>>>>>> upstream/18.0
 =======
                 });
                 it("should not break unbreakables (3)", async () => {
@@ -6047,6 +6150,11 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                });
+                it("should not break unbreakables (4)", async () => {
+>>>>>>> upstream/18.0
 =======
                 });
                 it("should not break unbreakables (4)", async () => {
@@ -6703,6 +6811,11 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                });
+                it("should not break unbreakables (5)", async () => {
+>>>>>>> upstream/18.0
 =======
                 });
                 it("should not break unbreakables (5)", async () => {
@@ -7359,6 +7472,11 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                });
+                it("should not break unbreakables (6)", async () => {
+>>>>>>> upstream/18.0
 =======
                 });
                 it("should not break unbreakables (6)", async () => {
@@ -8023,6 +8141,11 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                });
+                it("should not break unbreakables (7)", async () => {
+>>>>>>> upstream/18.0
 =======
                 });
                 it("should not break unbreakables (7)", async () => {
@@ -8687,6 +8810,11 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                });
+                it("should not break unbreakables (8)", async () => {
+>>>>>>> upstream/18.0
 =======
                 });
                 it("should not break unbreakables (8)", async () => {
@@ -10032,7 +10160,10 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10053,6 +10184,9 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10199,6 +10333,74 @@ X[]
                         ),
                     });
                 });
+<<<<<<< HEAD
+=======
+                it('should delete the inline code style when removing its last character', async () => {
+                    await testEditor(BasicEditor, {
+                        contentBefore: unformat(`<div>[]<code class="o_inline_code">ab</code>xyz</div>`),
+                        stepFunction: editor => editor._applyCommand('oDeleteForward'),
+                        contentAfter: unformat(`<div><code class="o_inline_code">[]b</code>xyz</div>`),
+                    });
+                    await testEditor(BasicEditor, {
+                        contentBefore: unformat(`<div><code class="o_inline_code">a[]b</code>xyz</div>`),
+                        stepFunction: editor => editor._applyCommand('oDeleteForward'),
+                        contentAfter: unformat(`<div><code class="o_inline_code">a[]</code>xyz</div>`),
+                    });
+                    await testEditor(BasicEditor, {
+                        contentBefore: unformat(`<div><code class="o_inline_code">[]ab</code>xyz</div>`),
+                        stepFunction: editor => editor._applyCommand('oDeleteForward'),
+                        contentAfter: unformat(`<div><code class="o_inline_code">[]b</code>xyz</div>`),
+                    });
+                    await testEditor(BasicEditor, {
+                        contentBefore: unformat(`<div>[]<code class="o_inline_code">b</code>xyz</div>`),
+                        stepFunction: editor => editor._applyCommand('oDeleteForward'),
+                        contentAfter: unformat(`<div>[]xyz</div>`),
+                    });
+                    await testEditor(BasicEditor, {
+                        contentBefore: unformat(`<div><code class="o_inline_code">[]b</code>xyz</div>`),
+                        stepFunction: editor => editor._applyCommand('oDeleteForward'),
+                        contentAfter: unformat(`<div>[]xyz</div>`),
+                    });
+                    await testEditor(BasicEditor, {
+                        contentBefore: unformat(`<div><em>123</em><code class="o_inline_code">[]a</code><em>xyz</em></div>`),
+                        stepFunction: editor => editor._applyCommand('oDeleteForward'),
+                        contentAfter: unformat(`<div><em>123[]xyz</em></div>`),
+                    });
+                });
+                it('should delete the inline code style when removing its last multi-char character', async () => {
+                    const multi = "\uD800\uDC83";
+                    await testEditor(BasicEditor, {
+                        contentBefore: unformat(`<div>[]<code class="o_inline_code">${multi}${multi}</code>xyz</div>`),
+                        stepFunction: editor => editor._applyCommand('oDeleteForward'),
+                        contentAfter: unformat(`<div><code class="o_inline_code">[]${multi}</code>xyz</div>`),
+                    });
+                    await testEditor(BasicEditor, {
+                        contentBefore: unformat(`<div><code class="o_inline_code">${multi}[]${multi}</code>xyz</div>`),
+                        stepFunction: editor => editor._applyCommand('oDeleteForward'),
+                        contentAfter: unformat(`<div><code class="o_inline_code">${multi}[]</code>xyz</div>`),
+                    });
+                    await testEditor(BasicEditor, {
+                        contentBefore: unformat(`<div><code class="o_inline_code">[]${multi}${multi}</code>xyz</div>`),
+                        stepFunction: editor => editor._applyCommand('oDeleteForward'),
+                        contentAfter: unformat(`<div><code class="o_inline_code">[]${multi}</code>xyz</div>`),
+                    });
+                    await testEditor(BasicEditor, {
+                        contentBefore: unformat(`<div>[]<code class="o_inline_code">${multi}</code>xyz</div>`),
+                        stepFunction: editor => editor._applyCommand('oDeleteForward'),
+                        contentAfter: unformat(`<div>[]xyz</div>`),
+                    });
+                    await testEditor(BasicEditor, {
+                        contentBefore: unformat(`<div><code class="o_inline_code">[]${multi}</code>xyz</div>`),
+                        stepFunction: editor => editor._applyCommand('oDeleteForward'),
+                        contentAfter: unformat(`<div>[]xyz</div>`),
+                    });
+                    await testEditor(BasicEditor, {
+                        contentBefore: unformat(`<div><em>123</em><code class="o_inline_code">[]${multi}</code><em>xyz</em></div>`),
+                        stepFunction: editor => editor._applyCommand('oDeleteForward'),
+                        contentAfter: unformat(`<div><em>123[]xyz</em></div>`),
+                    });
+                });
+>>>>>>> upstream/18.0
             });
         });
         describe('Selection not collapsed', () => {
@@ -10980,7 +11182,10 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11005,6 +11210,9 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11409,7 +11617,10 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11796,6 +12007,9 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12427,7 +12641,10 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12452,6 +12669,9 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14127,8 +14347,11 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             stepFunction: async editor => editor.execCommand('applyColor', 'aquamarine', 'color'),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14729,6 +14952,9 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

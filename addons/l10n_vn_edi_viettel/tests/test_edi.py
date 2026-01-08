@@ -156,7 +156,11 @@ class TestVNEDI(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'city': 'Hoan Kiem District',
+=======
+            'city': 'Hà Nội',
+>>>>>>> upstream/18.0
 =======
             'city': 'Hà Nội',
 >>>>>>> upstream/18.0
@@ -706,8 +710,12 @@ class TestVNEDI(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'buyerDistrictName': 'Hà Nội',
                     'buyerCityName': 'Hoan Kiem District',
+=======
+                    'buyerCityName': 'Hà Nội',
+>>>>>>> upstream/18.0
 =======
                     'buyerCityName': 'Hà Nội',
 >>>>>>> upstream/18.0
@@ -1078,7 +1086,11 @@ class TestVNEDI(AccountTestInvoicingCommon):
                 'payments': [{'paymentMethodName': 'TM/CK'}],
                 'itemInfo': [{
                     'itemCode': 'BN/1035',
+<<<<<<< HEAD
                     'itemName': 'product_a',
+=======
+                    'itemName': '[BN/1035] product_a',
+>>>>>>> upstream/18.0
                     'unitName': 'Units',
                     'unitPrice': 1000.0,
                     'quantity': 1.0,
@@ -1101,6 +1113,79 @@ class TestVNEDI(AccountTestInvoicingCommon):
         )
 
     @freeze_time('2024-01-01')
+<<<<<<< HEAD
+=======
+    def test_json_data_generation_no_product(self):
+        """ Test the data dict generated to ensure consistency with the data we set in the system. """
+        invoice = self.init_invoice(
+            move_type='out_invoice',
+            amounts=[250],
+            taxes=self.tax_sale_a,
+            post=True,
+        )
+        self.assertDictEqual(
+            invoice._l10n_vn_edi_generate_invoice_json(),
+            {
+                'generalInvoiceInfo': {
+                    'transactionUuid': mock.ANY,  # Random, not important.
+                    'invoiceType': '1',
+                    'templateCode': '1/001',
+                    'invoiceSeries': 'K24TUT',
+                    'invoiceIssuedDate': 1704067200000,
+                    'currencyCode': 'VND',
+                    'adjustmentType': '1',
+                    'paymentStatus': False,
+                    'cusGetInvoiceRight': True,
+                    'validation': 1,
+                },
+                'buyerInfo': {
+                    'buyerName': 'partner_a',
+                    'buyerLegalName': 'partner_a',
+                    'buyerTaxCode': '0100109106-505',
+                    'buyerAddressLine': '121 Hang Bac Street',
+                    'buyerPhoneNumber': '38257670',
+                    'buyerEmail': 'partner_a@gmail.com',
+                    'buyerCityName': 'Hà Nội',
+                    'buyerCountryCode': 'VN',
+                    'buyerNotGetInvoice': 0,
+                },
+                'sellerInfo': {
+                    'sellerLegalName': 'company_1_data',
+                    'sellerTaxCode': '0100109106-506',
+                    'sellerAddressLine': '3 Alley 45 Phan Dinh Phung, Quan Thanh Ward',
+                    'sellerPhoneNumber': '62661275',
+                    'sellerEmail': 'test_company@gmail.com',
+                    'sellerDistrictName': 'Hà Nội',
+                    'sellerCountryCode': 'VN',
+                    'sellerWebsite': 'http://test_company.com',
+                },
+                'payments': [{'paymentMethodName': 'TM/CK'}],
+                'itemInfo': [{
+                    'itemCode': '',
+                    'itemName': 'test line',
+                    'unitName': 'Units',
+                    'unitPrice': 250.0,
+                    'quantity': 1.0,
+                    'itemTotalAmountWithoutTax': 250.0,
+                    'taxPercentage': 10.0,
+                    'taxAmount': 25.0,
+                    'discount': 0.0,
+                    'itemTotalAmountAfterDiscount': 250.0,
+                    'itemTotalAmountWithTax': 275.0,
+                    'selection': 1,
+                }],
+                'taxBreakdowns': [{
+                    'taxPercentage': 10.0,
+                    'taxableAmount': 250.0,
+                    'taxAmount': 25.0,
+                    'taxableAmountPos': True,
+                    'taxAmountPos': True
+                }]
+            }
+        )
+
+    @freeze_time('2024-01-01')
+>>>>>>> upstream/18.0
     def test_adjustment_invoice(self):
         """
         Create an invoice, then create an adjustment invoice from it. Ensure that when generating the data dict,
@@ -1143,6 +1228,7 @@ class TestVNEDI(AccountTestInvoicingCommon):
         # 2. Check the itemInfo to ensure that the values make sense
         expected = {
             'unitPrice': -100.0,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1500,6 +1586,8 @@ class TestVNEDI(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             'itemTotalAmountWithoutTax': 100.0,
             'taxAmount': 10.0,
             'itemTotalAmountWithTax': 110.0,
@@ -1621,6 +1709,9 @@ class TestVNEDI(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1923,7 +2014,11 @@ class TestVNEDI(AccountTestInvoicingCommon):
         )
         json_data = invoice._l10n_vn_edi_generate_invoice_json()
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(json_data['generalInvoiceInfo']['exchangeRate'], 0.5)
+=======
+        self.assertEqual(json_data['generalInvoiceInfo']['exchangeRate'], "0.50")
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(json_data['generalInvoiceInfo']['exchangeRate'], "0.50")
 >>>>>>> upstream/18.0

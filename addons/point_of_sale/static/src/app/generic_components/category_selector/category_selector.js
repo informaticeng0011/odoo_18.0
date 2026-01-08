@@ -36,4 +36,10 @@ export class CategorySelector extends Component {
     setup() {
         this.ui = useService("ui");
     }
+<<<<<<< HEAD
+=======
+    showCategoryImg(category) {
+        return category.imgSrc && !this.ui.isSmall;
+    }
+>>>>>>> upstream/18.0
 }

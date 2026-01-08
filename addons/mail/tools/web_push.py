@@ -205,7 +205,10 @@ MAX_PAYLOAD_SIZE = 4096
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -773,6 +776,9 @@ ENCRYPTION_BLOCK_OVERHEAD = 1 + 16
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1250,12 +1256,18 @@ def push_to_end_point(base_url, device, payload, vapid_private_key, vapid_public
     endpoint = device["endpoint"]
     url = urlsplit(endpoint)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     # The TDL ".invalid" is intended for use in online construction of domain names that are sure to be invalid and
     # which it is obvious at a glance are invalid.
     # https://datatracker.ietf.org/doc/html/rfc2606#section-2
     if url.netloc.endswith(".invalid"):
         raise DeviceUnreachableError("Device Unreachable")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     jwt_claims = {
         # aud: The “Audience” is a JWT construct that indicates the recipient scheme and host
@@ -1439,8 +1451,11 @@ def push_to_end_point(base_url, device, payload, vapid_private_key, vapid_public
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'TTL': '0',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1935,6 +1950,9 @@ def push_to_end_point(base_url, device, payload, vapid_private_key, vapid_public
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -473,6 +474,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -482,6 +485,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -493,6 +499,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -969,6 +976,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
@@ -982,6 +991,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -994,6 +1006,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:microsoft_outlook.fetchmail_server_view_form
 #: model_terms:ir.ui.view,arch_db:microsoft_outlook.ir_mail_server_view_form
 msgid "<i class=\"fa fa-cog\" title=\"Edit Settings\"/>"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1467,6 +1480,9 @@ msgstr "<i class=\"fa fa-cog\" title=\"Modifica impostazioni\"/>"
 =======
 msgstr "<i class=\"fa fa-cog\" title=\"Modifica impostazioni\"/>"
 >>>>>>> upstream/18.0
+=======
+msgstr "<i class=\"fa fa-cog\" title=\"Modifica impostazioni\"/>"
+>>>>>>> upstream/18.0
 
 #. module: microsoft_outlook
 #: model_terms:ir.ui.view,arch_db:microsoft_outlook.fetchmail_server_view_form
@@ -1485,12 +1501,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span invisible=\"server_type != 'outlook' or not microsoft_outlook_refresh_token\" class=\"badge text-bg-success\">\n"
 "                        Outlook Token Valid\n"
 "                    </span>"
 msgstr ""
 "<span invisible=\"server_type != 'outlook' or not microsoft_outlook_refresh_token\" class=\"badge text-bg-success\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1507,6 +1526,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1524,12 +1546,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span invisible=\"smtp_authentication != 'outlook' or not microsoft_outlook_refresh_token\" class=\"badge text-bg-success\">\n"
 "                        Outlook Token Valid\n"
 "                    </span>"
 msgstr ""
 "<span invisible=\"smtp_authentication != 'outlook' or not microsoft_outlook_refresh_token\" class=\"badge text-bg-success\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1546,6 +1571,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1560,6 +1588,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/microsoft_outlook/models/microsoft_outlook_mixin.py:0
 msgid "An error occurred when fetching the access token. %s"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2147,6 +2176,9 @@ msgstr "Si è verificato un errore durante il recupero del token di accesso. %s"
 =======
 msgstr "Si è verificato un errore durante il recupero del token di accesso. %s"
 >>>>>>> upstream/18.0
+=======
+msgstr "Si è verificato un errore durante il recupero del token di accesso. %s"
+>>>>>>> upstream/18.0
 
 #. module: microsoft_outlook
 #: model:ir.model.fields,field_description:microsoft_outlook.field_ir_mail_server__smtp_authentication
@@ -2174,11 +2206,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "By default, only a user with a matching email address will be able to use this server. To extend its use, you should set a \"mail.default.from\" system parameter."
 msgstr ""
 "Collega il tuo account Outlook tramite il processo di autenticazione OAuth.  \n"
 "Per impostazione predefinita, solo un utente con un indirizzo e-mail adeguato potrà utilizzare il server. Per estenderne l'utilizzo, puoi configurare un parametro di sistema di tipo \"mail.default.from\"."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2197,6 +2232,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2217,7 +2255,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Verrai reindirizzato alla pagina di accesso di Outlook per accettare i permessi."
+=======
+"Verrai reindirizzato alla pagina di accesso di Outlook per accettare i "
+"permessi."
+>>>>>>> upstream/18.0
 =======
 "Verrai reindirizzato alla pagina di accesso di Outlook per accettare i "
 "permessi."
@@ -2356,7 +2399,11 @@ msgid "Go back to your mail server"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Torna al tuo mail server"
+=======
+msgstr "Ritorna al server di posta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ritorna al server di posta"
 >>>>>>> upstream/18.0
@@ -2838,7 +2885,11 @@ msgid "ID of your Outlook app"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ID della tua app Outlook"
+=======
+msgstr "ID dell'applicazione Outlook"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID dell'applicazione Outlook"
 >>>>>>> upstream/18.0
@@ -3315,7 +3366,11 @@ msgid "Incoming Mail Server"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Server per e-mail in arrivo"
+=======
+msgstr "Server posta in arrivo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Server posta in arrivo"
 >>>>>>> upstream/18.0
@@ -3679,8 +3734,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Incorrect Connection Security for Outlook mail server “%s”. Please set it to"
 " \"TLS (STARTTLS)\"."
+=======
+"Incorrect Connection Security for Outlook mail server “%s”. Please set it to "
+"\"TLS (STARTTLS)\"."
+>>>>>>> upstream/18.0
 =======
 "Incorrect Connection Security for Outlook mail server “%s”. Please set it to "
 "\"TLS (STARTTLS)\"."
@@ -3824,7 +3884,11 @@ msgid "Is Outlook Credential Configured"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sono configurate le credenziali Outlook?"
+=======
+msgstr "Sono configurate le credenziali Outlook"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sono configurate le credenziali Outlook"
 >>>>>>> upstream/18.0
@@ -4306,7 +4370,11 @@ msgid "Microsoft Outlook Mixin"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Microsoft Outlook Mixin"
+=======
+msgstr "Mixin Outlook di Microsoft"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mixin Outlook di Microsoft"
 >>>>>>> upstream/18.0
@@ -4784,7 +4852,11 @@ msgid "Only the administrator can link an Outlook mail server."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Solo un amministratore può collegare un mail server di Outlook."
+=======
+msgstr "Solo un amministratore può collegare un server di posta Outlook."
+>>>>>>> upstream/18.0
 =======
 msgstr "Solo un amministratore può collegare un server di posta Outlook."
 >>>>>>> upstream/18.0
@@ -5263,7 +5335,11 @@ msgid "Outlook Access Token"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Outlook Access Token"
+=======
+msgstr "Token di accesso Outlook"
+>>>>>>> upstream/18.0
 =======
 msgstr "Token di accesso Outlook"
 >>>>>>> upstream/18.0
@@ -5742,7 +5818,11 @@ msgid "Outlook Access Token Expiration Timestamp"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Timestamp di scadenza del token di accesso di Outlook"
+=======
+msgstr "Marca temporale scadenza token di accesso Outlook"
+>>>>>>> upstream/18.0
 =======
 msgstr "Marca temporale scadenza token di accesso Outlook"
 >>>>>>> upstream/18.0
@@ -6219,7 +6299,11 @@ msgid "Outlook Client Id"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Outlook ID client"
+=======
+msgstr "ID client Outlook"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID client Outlook"
 >>>>>>> upstream/18.0
@@ -6696,7 +6780,11 @@ msgid "Outlook Client Secret"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Outlook segreto client"
+=======
+msgstr "Chiave privata Outlook"
+>>>>>>> upstream/18.0
 =======
 msgstr "Chiave privata Outlook"
 >>>>>>> upstream/18.0
@@ -7174,7 +7262,11 @@ msgid "Outlook OAuth Authentication"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Autenticazione OAuth Outlook"
+=======
+msgstr "Autenticazione OAuth per Outlook"
+>>>>>>> upstream/18.0
 =======
 msgstr "Autenticazione OAuth per Outlook"
 >>>>>>> upstream/18.0
@@ -7659,7 +7751,11 @@ msgid "Please configure your Outlook credentials."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Configura le credenziali Outlook, per favore."
+=======
+msgstr "Configurare le credenziali Outlook."
+>>>>>>> upstream/18.0
 =======
 msgstr "Configurare le credenziali Outlook."
 >>>>>>> upstream/18.0
@@ -8137,7 +8233,11 @@ msgid "Please connect with your Outlook account before using it."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Prima di utilizzarlo accedi al tuo account Outlook."
+=======
+msgstr "Prima di utilizzare l'account Outlook connettersi all'account."
+>>>>>>> upstream/18.0
 =======
 msgstr "Prima di utilizzare l'account Outlook connettersi all'account."
 >>>>>>> upstream/18.0
@@ -8636,7 +8736,11 @@ msgid "Read More"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Leggi altro"
+=======
+msgstr "Leggi di più"
+>>>>>>> upstream/18.0
 =======
 msgstr "Leggi di più"
 >>>>>>> upstream/18.0
@@ -9021,8 +9125,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Setup your Outlook API credentials in the general settings to link a Outlook"
 " account."
+=======
+"Setup your Outlook API credentials in the general settings to link a Outlook "
+"account."
+>>>>>>> upstream/18.0
 =======
 "Setup your Outlook API credentials in the general settings to link a Outlook "
 "account."
