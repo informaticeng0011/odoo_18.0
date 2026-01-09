@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <!-- Basic product for gift card program -->
     <record id="gift_card_product_50" model="product.product">
         <field name="name">Gift Card</field>
@@ -19,6 +20,8 @@
 
     <data noupdate="1">
 =======
+=======
+>>>>>>> upstream/18.0
     <data noupdate="1">
         <!-- Basic product for gift card program -->
         <record id="gift_card_product_50" model="product.product">
@@ -36,6 +39,9 @@
             <field name="purchase_ok" eval="False"/>
         </record>
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         <record forcecreate="0" id="config_online_sync_proxy_mode" model="ir.config_parameter">
             <field name="key">loyalty.compute_all_discount_product_ids</field>

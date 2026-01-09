@@ -207,6 +207,7 @@ class EventRegistration(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return ['id', 'event_id', 'event_ticket_id', 'pos_order_line_id', 'pos_order_id', 'phone', 'email', 'name', 'registration_answer_ids', 'registration_answer_choice_ids']
 =======
         return ['id', 'event_id', 'event_ticket_id', 'pos_order_line_id', 'pos_order_id', 'phone', 'email', 'name',
@@ -979,6 +980,14 @@ class EventRegistration(models.Model):
 
     @api.model_create_multi
     def create(self, vals_list):
+=======
+        return ['id', 'event_id', 'event_ticket_id', 'pos_order_line_id', 'pos_order_id', 'phone', 'email', 'name',
+                'company_name', 'registration_answer_ids', 'registration_answer_choice_ids', 'write_date']
+
+    @api.model_create_multi
+    def create(self, vals_list):
+        self._populate_creation_vals(vals_list)
+>>>>>>> upstream/18.0
         result = super().create(vals_list)
         result._update_available_seat()
         return result
@@ -988,6 +997,20 @@ class EventRegistration(models.Model):
         self._update_available_seat()
         return result
 
+<<<<<<< HEAD
+=======
+    def _populate_creation_vals(self, vals_list):
+        for vals in vals_list:
+            if 'pos_order_line_id' in vals:
+                if 'partner_id' not in vals:
+                    pol = self.env['pos.order.line'].browse(vals['pos_order_line_id']).exists()
+                    if pol and pol.order_id.partner_id:
+                        vals['partner_id'] = pol.order_id.partner_id.id
+                for field in ["name", "email", "phone", "company_name"]:
+                    if field in vals and not vals[field]:
+                        vals.pop(field)
+
+>>>>>>> upstream/18.0
     def _update_available_seat(self):
         # Here sudo is used in order for pos_event to update the available seats to all open pos session when a ticket is sold in website for example
         session_ids = self.env['pos.session'].sudo().search([("state", "!=", "closed")])

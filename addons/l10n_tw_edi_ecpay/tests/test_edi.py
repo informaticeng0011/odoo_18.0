@@ -1,7 +1,11 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from datetime import datetime
+=======
+from datetime import datetime, timedelta
+>>>>>>> upstream/18.0
 =======
 from datetime import datetime, timedelta
 >>>>>>> upstream/18.0
@@ -74,6 +78,10 @@ from freezegun import freeze_time
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo import Command
+>>>>>>> upstream/18.0
 =======
 from odoo import Command
 >>>>>>> upstream/18.0
@@ -290,6 +298,7 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
         })
         cls.partner_a.write({
             'phone': '+886 123 456 789',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -572,6 +581,8 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             'street': 'street七美',
             'city': '中正區',
             'state_id': cls.env.ref('l10n_tw.state_tw_tpc').id,
@@ -590,6 +601,9 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -650,7 +664,10 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -796,6 +813,9 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -900,6 +920,10 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
             json_data = self.basic_invoice._l10n_tw_edi_generate_invoice_json()
         self.assertTrue(json_data)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertNotIn("InvoiceRemark", json_data)
+>>>>>>> upstream/18.0
 =======
         self.assertNotIn("InvoiceRemark", json_data)
 >>>>>>> upstream/18.0
@@ -914,6 +938,7 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         self.assertEqual(json_data.get("CustomerAddr"), "street七美, 中正區 TPC, Taiwan")
 >>>>>>> upstream/18.0
@@ -924,11 +949,16 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
         self.assertEqual(json_data.get("CustomerAddr"), "street七美, 中正區 TPC, Taiwan")
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
         self.assertEqual(json_data.get("CustomerAddr"), "street七美, 中正區 TPC, Taiwan")
 
         self.basic_invoice.write({'ref': 'Test Reference'})
         json_data_with_ref = self.basic_invoice._l10n_tw_edi_generate_invoice_json()
         self.assertEqual(json_data_with_ref.get("InvoiceRemark"), "Test Reference")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     @freeze_time("2025-01-06 15:00:00")
@@ -1074,7 +1104,13 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'contact_address': 'test address',
+=======
+            'street': 'street七美',
+            'city': '中正區',
+            'state_id': self.env.ref('l10n_tw.state_tw_tpc').id,
+>>>>>>> upstream/18.0
 =======
             'street': 'street七美',
             'city': '中正區',
@@ -1200,7 +1236,10 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1431,10 +1470,13 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1663,6 +1705,7 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1691,6 +1734,8 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1886,6 +1931,7 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1980,6 +2026,8 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
     @freeze_time("2025-01-13 15:00:00")
     def test_13_b2b_refund_upload_deadline_restriction(self):
         """Test B2B Refund compliance with ECPay's upload deadline restriction.
@@ -2022,6 +2070,9 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
             "B2B Allowances should not include AllowanceDate to avoid >6 day limit errors."
         )
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     # -------------------------------------------------------------------------
     # Patched methods
@@ -2240,7 +2291,10 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2461,6 +2515,7 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2489,6 +2544,8 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2703,6 +2760,9 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -49,7 +49,10 @@ export function isConfirmationButtonDisabled() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -110,6 +113,7 @@ export function checkImgAndSelect(productName, checkImg = false) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -142,6 +146,8 @@ export function checkImgAndSelect(productName, checkImg = false) {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
 export function isNotPresent(productName) {
     return {
@@ -149,4 +155,7 @@ export function isNotPresent(productName) {
         trigger: negate(productTrigger(productName), ".modal"),
     };
 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

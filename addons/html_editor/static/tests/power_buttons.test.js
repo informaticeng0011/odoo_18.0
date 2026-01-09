@@ -161,6 +161,7 @@ import { MAIN_PLUGINS } from "@html_editor/plugin_sets";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import { expectElementCount } from "./_helpers/ui_expectations";
 >>>>>>> upstream/18.0
@@ -584,6 +585,9 @@ import { em, s, strong, u } from "./_helpers/tags";
 =======
 import { expectElementCount } from "./_helpers/ui_expectations";
 import { em, s, strong, u } from "./_helpers/tags";
+>>>>>>> upstream/18.0
+=======
+import { expectElementCount } from "./_helpers/ui_expectations";
 >>>>>>> upstream/18.0
 =======
 import { expectElementCount } from "./_helpers/ui_expectations";
@@ -656,6 +660,7 @@ describe("visibility", () => {
         expect(".o_we_power_buttons").not.toBeVisible();
     });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -832,6 +837,10 @@ describe("visibility", () => {
     test("should show power buttons on P tag containing strong (bold)", async () => {
         await setupEditor(`<p><strong data-oe-zws-empty-inline="">[]\u200B</strong></p>`);
 >>>>>>> upstream/18.0
+=======
+    test("should show power buttons on P tag containing strong (bold)", async () => {
+        await setupEditor(`<p><strong data-oe-zws-empty-inline="">[]\u200B</strong></p>`);
+>>>>>>> upstream/18.0
         expect(".o_we_power_buttons").toBeVisible();
     });
 
@@ -856,7 +865,11 @@ describe("visibility", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await setupEditor(`<p>${em("[]\u200B", "first")}</p>`);
+=======
+        await setupEditor(`<p><em data-oe-zws-empty-inline="">[]\u200B</em></p>`);
+>>>>>>> upstream/18.0
 =======
         await setupEditor(`<p><em data-oe-zws-empty-inline="">[]\u200B</em></p>`);
 >>>>>>> upstream/18.0
@@ -941,7 +954,11 @@ describe("visibility", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await setupEditor(`<p>${u("[]\u200B", "first")}</p>`);
+=======
+        await setupEditor(`<p><u data-oe-zws-empty-inline="">[]\u200B</u></p>`);
+>>>>>>> upstream/18.0
 =======
         await setupEditor(`<p><u data-oe-zws-empty-inline="">[]\u200B</u></p>`);
 >>>>>>> upstream/18.0
@@ -1006,6 +1023,7 @@ describe("visibility", () => {
     });
 
     test("should show power buttons on P tag containing s (strikethrough)", async () => {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1142,6 +1160,8 @@ describe("visibility", () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         await setupEditor(`<p><s data-oe-zws-empty-inline="">[]\u200B</s></p>`);
         expect(".o_we_power_buttons").toBeVisible();
     });
@@ -1165,6 +1185,9 @@ describe("visibility", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1284,7 +1307,10 @@ describe("visibility", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1424,6 +1450,9 @@ describe("visibility", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1559,7 +1588,10 @@ describe.tags("desktop");
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1633,6 +1665,9 @@ describe.tags("desktop");
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1709,6 +1744,7 @@ describe("buttons", () => {
     });
 
     test("should open image selector using power buttons", async () => {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2149,6 +2185,8 @@ describe("buttons", () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         onRpc("ir.attachment", "search_read", () => [
             {
                 id: 1,
@@ -2301,6 +2339,9 @@ describe("buttons", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2749,7 +2790,11 @@ describe("buttons", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-linkpopover").toHaveCount(1);
+=======
+        await expectElementCount(".o-we-linkpopover", 1);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-linkpopover", 1);
 >>>>>>> upstream/18.0
@@ -3368,7 +3413,11 @@ describe("buttons", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-powerbox").toHaveCount(1);
+=======
+        await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0

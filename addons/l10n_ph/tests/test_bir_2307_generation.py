@@ -163,7 +163,10 @@ class TestBIR2307Generation(TestPhCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -530,6 +533,9 @@ class TestBIR2307Generation(TestPhCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -900,9 +906,15 @@ class TestBIR2307Generation(TestPhCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             0: ['Reporting_Month', 'Vendor_TIN', 'branchCode', 'companyName', 'surName', 'firstName', 'middleName', 'address', 'nature', 'ATC', 'income_payment', 'ewt_rate', 'tax_amount'],
             # Row
             1: ['01/15/2020', '789456123', '789', 'Test Partner', '', '', '', '9 Super Street, Super City, Philippines', 'Test line', 'WC640', 100.0, 1.0, 1.0],
+=======
+            0: ['Reporting_Month', 'Vendor_TIN', 'branchCode', 'companyName', 'surName', 'firstName', 'middleName', 'address', 'zip_code', 'nature', 'ATC', 'income_payment', 'ewt_rate', 'tax_amount'],
+            # Row
+            1: ['01/15/2020', '123456789', '001', 'JMC Company', '', '', '', '250 Amorsolo Street, Manila, Philippines', '+900–1-096', '1% WC640 - Supplier of goods', 'WC640', 100.0, 1.0, 1.0],
+>>>>>>> upstream/18.0
 =======
             0: ['Reporting_Month', 'Vendor_TIN', 'branchCode', 'companyName', 'surName', 'firstName', 'middleName', 'address', 'zip_code', 'nature', 'ATC', 'income_payment', 'ewt_rate', 'tax_amount'],
             # Row
@@ -1668,7 +1680,11 @@ class TestBIR2307Generation(TestPhCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ['01/01/2025', '123456789', '001', 'Jose Mangahas Cuyegkeng', 'Cuyegkeng', 'Jose', 'Mangahas', '250 Amorsolo Street, Manila, Philippines', 'test line', 'WI010', 1000.0, 10.0, 100.0]
+=======
+            ['01/01/2025', '123456789', '001', '', 'Cuyegkeng', 'Jose', 'Mangahas', '250 Amorsolo Street, Manila, Philippines', '+900–1-096', '', 'WI010', 1000.0, 10.0, 100.0]
+>>>>>>> upstream/18.0
 =======
             ['01/01/2025', '123456789', '001', '', 'Cuyegkeng', 'Jose', 'Mangahas', '250 Amorsolo Street, Manila, Philippines', '+900–1-096', '', 'WI010', 1000.0, 10.0, 100.0]
 >>>>>>> upstream/18.0
@@ -2151,6 +2167,10 @@ class TestBIR2307Generation(TestPhCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        atc.description = '10% ATC'
+>>>>>>> upstream/18.0
 =======
         atc.description = '10% ATC'
 >>>>>>> upstream/18.0
@@ -2645,7 +2665,11 @@ class TestBIR2307Generation(TestPhCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ['01/01/2025', '123456789', '001', 'Jose Mangahas Cuyegkeng', 'Cuyegkeng', 'Jose', 'Mangahas', '250 Amorsolo Street, Manila, Philippines', 'test line', 'WI010', 1150.0, 10.0, 115.0]
+=======
+            ['01/01/2025', '123456789', '001', '', 'Cuyegkeng', 'Jose', 'Mangahas', '250 Amorsolo Street, Manila, Philippines', '+900–1-096', '10% ATC', 'WI010', 1150.0, 10.0, 115.0]
+>>>>>>> upstream/18.0
 =======
             ['01/01/2025', '123456789', '001', '', 'Cuyegkeng', 'Jose', 'Mangahas', '250 Amorsolo Street, Manila, Philippines', '+900–1-096', '10% ATC', 'WI010', 1150.0, 10.0, 115.0]
 >>>>>>> upstream/18.0
@@ -3131,7 +3155,11 @@ class TestBIR2307Generation(TestPhCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             partner=self.partner,
+=======
+            partner=self.partner_a,
+>>>>>>> upstream/18.0
 =======
             partner=self.partner_a,
 >>>>>>> upstream/18.0
@@ -3623,7 +3651,11 @@ class TestBIR2307Generation(TestPhCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ['01/01/2025', '123456789', '001', 'Jose Mangahas Cuyegkeng', 'Cuyegkeng', 'Jose', 'Mangahas', '250 Amorsolo Street, Manila, Philippines', 'test line', 'WI010', 1000.0, 10.0, 100.0]
+=======
+            ['01/01/2025', '123456789', '001', 'JMC Company', '', '', '', '250 Amorsolo Street, Manila, Philippines', '+900–1-096', '', 'WI010', 1000.0, 10.0, 100.0]
+>>>>>>> upstream/18.0
 =======
             ['01/01/2025', '123456789', '001', 'JMC Company', '', '', '', '250 Amorsolo Street, Manila, Philippines', '+900–1-096', '', 'WI010', 1000.0, 10.0, 100.0]
 >>>>>>> upstream/18.0

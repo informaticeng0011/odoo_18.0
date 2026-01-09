@@ -176,7 +176,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <option t-foreach="values" t-as="value" t-key="value.id" t-att-value="value.id" t-att-class="{'ptav-not-available': value.excluded}">
+=======
+                <option t-foreach="values" t-as="value" t-key="value.id" t-att-value="value.id" t-att-class="{'ptav-not-available': value.excluded}"
+                    t-att-selected="value.id == state.attribute_value_ids">
+>>>>>>> upstream/18.0
 =======
                 <option t-foreach="values" t-as="value" t-key="value.id" t-att-value="value.id" t-att-class="{'ptav-not-available': value.excluded}"
                     t-att-selected="value.id == state.attribute_value_ids">
@@ -843,6 +848,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <div t-foreach="this.props.product.attribute_line_ids" t-as="attributeLine" t-key="attributeLine.id" class="attribute mb-3">
                     <div class="attribute_name mb-2 fw-bolder" t-esc="attributeLine.attribute_id.name"/>
                     <RadioProductAttribute t-if="attributeLine.attribute_id.display_type === 'radio'" attributeLine="attributeLine"/>
@@ -850,6 +856,8 @@
                     <SelectProductAttribute t-elif="attributeLine.attribute_id.display_type === 'select'" attributeLine="attributeLine"/>
                     <ColorProductAttribute t-elif="attributeLine.attribute_id.display_type === 'color'" attributeLine="attributeLine"/>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1210,6 +1218,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

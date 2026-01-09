@@ -52,7 +52,10 @@ import unittest
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -207,9 +210,12 @@ from textwrap import dedent
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools.which import which
 from odoo.tests.common import TransactionCase
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -361,6 +367,9 @@ from odoo.tools.which import which
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -662,7 +671,11 @@ class TestSqlLint(TestPylintChecks):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         node = _odoo_checker_sql_injection.astroid.extract_node("""
+=======
+        node = astroid.extract_node("""
+>>>>>>> upstream/18.0
 =======
         node = astroid.extract_node("""
 >>>>>>> upstream/18.0
@@ -872,7 +885,11 @@ class TestSqlLint(TestPylintChecks):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         node = _odoo_checker_sql_injection.astroid.extract_node("""
+=======
+        node = astroid.extract_node("""
+>>>>>>> upstream/18.0
 =======
         node = astroid.extract_node("""
 >>>>>>> upstream/18.0
@@ -1081,7 +1098,11 @@ class TestSqlLint(TestPylintChecks):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         node = _odoo_checker_sql_injection.astroid.extract_node("""
+=======
+        node = astroid.extract_node("""
+>>>>>>> upstream/18.0
 =======
         node = astroid.extract_node("""
 >>>>>>> upstream/18.0
@@ -1289,7 +1310,11 @@ class TestSqlLint(TestPylintChecks):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         node = _odoo_checker_sql_injection.astroid.extract_node("""
+=======
+        node = astroid.extract_node("""
+>>>>>>> upstream/18.0
 =======
         node = astroid.extract_node("""
 >>>>>>> upstream/18.0
@@ -1498,7 +1523,11 @@ class TestSqlLint(TestPylintChecks):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         node = _odoo_checker_sql_injection.astroid.extract_node("""
+=======
+        node = astroid.extract_node("""
+>>>>>>> upstream/18.0
 =======
         node = astroid.extract_node("""
 >>>>>>> upstream/18.0
@@ -1711,7 +1740,11 @@ class TestSqlLint(TestPylintChecks):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         node = _odoo_checker_sql_injection.astroid.extract_node("""
+=======
+        node = astroid.extract_node("""
+>>>>>>> upstream/18.0
 =======
         node = astroid.extract_node("""
 >>>>>>> upstream/18.0
@@ -1919,7 +1952,11 @@ class TestSqlLint(TestPylintChecks):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         node = _odoo_checker_sql_injection.astroid.extract_node("""
+=======
+        node = astroid.extract_node("""
+>>>>>>> upstream/18.0
 =======
         node = astroid.extract_node("""
 >>>>>>> upstream/18.0
@@ -2128,7 +2165,11 @@ class TestSqlLint(TestPylintChecks):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         node = _odoo_checker_sql_injection.astroid.extract_node("""
+=======
+        node = astroid.extract_node("""
+>>>>>>> upstream/18.0
 =======
         node = astroid.extract_node("""
 >>>>>>> upstream/18.0
@@ -2336,7 +2377,11 @@ class TestSqlLint(TestPylintChecks):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         node = _odoo_checker_sql_injection.astroid.extract_node("""
+=======
+        node = astroid.extract_node("""
+>>>>>>> upstream/18.0
 =======
         node = astroid.extract_node("""
 >>>>>>> upstream/18.0
@@ -2544,7 +2589,11 @@ class TestSqlLint(TestPylintChecks):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         node = _odoo_checker_sql_injection.astroid.extract_node("""
+=======
+        node = astroid.extract_node("""
+>>>>>>> upstream/18.0
 =======
         node = astroid.extract_node("""
 >>>>>>> upstream/18.0
@@ -2753,7 +2802,11 @@ class TestSqlLint(TestPylintChecks):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         node = _odoo_checker_sql_injection.astroid.extract_node("""
+=======
+        node = astroid.extract_node("""
+>>>>>>> upstream/18.0
 =======
         node = astroid.extract_node("""
 >>>>>>> upstream/18.0
@@ -2961,7 +3014,11 @@ class TestSqlLint(TestPylintChecks):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         node = _odoo_checker_sql_injection.astroid.extract_node("""
+=======
+        node = astroid.extract_node("""
+>>>>>>> upstream/18.0
 =======
         node = astroid.extract_node("""
 >>>>>>> upstream/18.0
@@ -3170,7 +3227,11 @@ class TestSqlLint(TestPylintChecks):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         node = _odoo_checker_sql_injection.astroid.extract_node("""
+=======
+        node = astroid.extract_node("""
+>>>>>>> upstream/18.0
 =======
         node = astroid.extract_node("""
 >>>>>>> upstream/18.0
@@ -3329,6 +3390,7 @@ class TestSqlLint(TestPylintChecks):
         with self.assertMessages("sql-injection"):
             checker.visit_call(node)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3541,6 +3603,9 @@ class TestSqlLint(TestPylintChecks):
 =======
         node = astroid.extract_node("""
 >>>>>>> upstream/18.0
+=======
+        node = astroid.extract_node("""
+>>>>>>> upstream/18.0
         def test_function9(self,arg):
             my_injection_variable= "aaa" % arg
             self.env.cr.execute('select * from hello where id = %s' % my_injection_variable) #@
@@ -3599,7 +3664,11 @@ class TestSqlLint(TestPylintChecks):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         node = _odoo_checker_sql_injection.astroid.extract_node("""
+=======
+        node = astroid.extract_node("""
+>>>>>>> upstream/18.0
 =======
         node = astroid.extract_node("""
 >>>>>>> upstream/18.0
@@ -3808,7 +3877,11 @@ class TestSqlLint(TestPylintChecks):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         node = _odoo_checker_sql_injection.astroid.extract_node("""
+=======
+        node = astroid.extract_node("""
+>>>>>>> upstream/18.0
 =======
         node = astroid.extract_node("""
 >>>>>>> upstream/18.0
@@ -4023,7 +4096,11 @@ class TestSqlLint(TestPylintChecks):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         node = _odoo_checker_sql_injection.astroid.extract_node("""
+=======
+        node = astroid.extract_node("""
+>>>>>>> upstream/18.0
 =======
         node = astroid.extract_node("""
 >>>>>>> upstream/18.0
@@ -4233,7 +4310,11 @@ class TestSqlLint(TestPylintChecks):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         node = _odoo_checker_sql_injection.astroid.extract_node("""
+=======
+        node = astroid.extract_node("""
+>>>>>>> upstream/18.0
 =======
         node = astroid.extract_node("""
 >>>>>>> upstream/18.0
@@ -4442,7 +4523,11 @@ class TestSqlLint(TestPylintChecks):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         node = _odoo_checker_sql_injection.astroid.extract_node("""
+=======
+        node = astroid.extract_node("""
+>>>>>>> upstream/18.0
 =======
         node = astroid.extract_node("""
 >>>>>>> upstream/18.0
@@ -4649,7 +4734,11 @@ class TestSqlLint(TestPylintChecks):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         node = _odoo_checker_sql_injection.astroid.extract_node("""
+=======
+        node = astroid.extract_node("""
+>>>>>>> upstream/18.0
 =======
         node = astroid.extract_node("""
 >>>>>>> upstream/18.0
@@ -4857,7 +4946,11 @@ class TestSqlLint(TestPylintChecks):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         node = _odoo_checker_sql_injection.astroid.extract_node("""
+=======
+        node = astroid.extract_node("""
+>>>>>>> upstream/18.0
 =======
         node = astroid.extract_node("""
 >>>>>>> upstream/18.0
@@ -5065,7 +5158,11 @@ class TestSqlLint(TestPylintChecks):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         node = _odoo_checker_sql_injection.astroid.extract_node("""
+=======
+        node = astroid.extract_node("""
+>>>>>>> upstream/18.0
 =======
         node = astroid.extract_node("""
 >>>>>>> upstream/18.0
@@ -5304,7 +5401,11 @@ class TestSqlLint(TestPylintChecks):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         node = _odoo_checker_sql_injection.astroid.extract_node("""
+=======
+        node = astroid.extract_node("""
+>>>>>>> upstream/18.0
 =======
         node = astroid.extract_node("""
 >>>>>>> upstream/18.0
@@ -5511,7 +5612,11 @@ class TestSqlLint(TestPylintChecks):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         node = _odoo_checker_sql_injection.astroid.extract_node("""
+=======
+        node = astroid.extract_node("""
+>>>>>>> upstream/18.0
 =======
         node = astroid.extract_node("""
 >>>>>>> upstream/18.0
@@ -5718,7 +5823,11 @@ class TestSqlLint(TestPylintChecks):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         node = _odoo_checker_sql_injection.astroid.extract_node("""
+=======
+        node = astroid.extract_node("""
+>>>>>>> upstream/18.0
 =======
         node = astroid.extract_node("""
 >>>>>>> upstream/18.0
@@ -5924,7 +6033,11 @@ class TestSqlLint(TestPylintChecks):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         node = _odoo_checker_sql_injection.astroid.extract_node("""
+=======
+        node = astroid.extract_node("""
+>>>>>>> upstream/18.0
 =======
         node = astroid.extract_node("""
 >>>>>>> upstream/18.0
@@ -6131,7 +6244,11 @@ class TestSqlLint(TestPylintChecks):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         node = _odoo_checker_sql_injection.astroid.extract_node("""
+=======
+        node = astroid.extract_node("""
+>>>>>>> upstream/18.0
 =======
         node = astroid.extract_node("""
 >>>>>>> upstream/18.0
@@ -6339,7 +6456,11 @@ class TestSqlLint(TestPylintChecks):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         node = _odoo_checker_sql_injection.astroid.extract_node("""
+=======
+        node = astroid.extract_node("""
+>>>>>>> upstream/18.0
 =======
         node = astroid.extract_node("""
 >>>>>>> upstream/18.0
@@ -6546,7 +6667,11 @@ class TestSqlLint(TestPylintChecks):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         node = _odoo_checker_sql_injection.astroid.extract_node("""
+=======
+        node = astroid.extract_node("""
+>>>>>>> upstream/18.0
 =======
         node = astroid.extract_node("""
 >>>>>>> upstream/18.0
@@ -6753,7 +6878,11 @@ class TestSqlLint(TestPylintChecks):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         node = _odoo_checker_sql_injection.astroid.extract_node("""
+=======
+        node = astroid.extract_node("""
+>>>>>>> upstream/18.0
 =======
         node = astroid.extract_node("""
 >>>>>>> upstream/18.0
@@ -6961,7 +7090,11 @@ class TestSqlLint(TestPylintChecks):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         node = _odoo_checker_sql_injection.astroid.extract_node("""
+=======
+        node = astroid.extract_node("""
+>>>>>>> upstream/18.0
 =======
         node = astroid.extract_node("""
 >>>>>>> upstream/18.0
@@ -7169,7 +7302,11 @@ class TestSqlLint(TestPylintChecks):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         node = _odoo_checker_sql_injection.astroid.extract_node("""
+=======
+        node = astroid.extract_node("""
+>>>>>>> upstream/18.0
 =======
         node = astroid.extract_node("""
 >>>>>>> upstream/18.0
@@ -7376,7 +7513,11 @@ class TestSqlLint(TestPylintChecks):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         node = _odoo_checker_sql_injection.astroid.extract_node("""
+=======
+        node = astroid.extract_node("""
+>>>>>>> upstream/18.0
 =======
         node = astroid.extract_node("""
 >>>>>>> upstream/18.0
@@ -7584,7 +7725,11 @@ class TestSqlLint(TestPylintChecks):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         node = _odoo_checker_sql_injection.astroid.extract_node("""
+=======
+        node = astroid.extract_node("""
+>>>>>>> upstream/18.0
 =======
         node = astroid.extract_node("""
 >>>>>>> upstream/18.0

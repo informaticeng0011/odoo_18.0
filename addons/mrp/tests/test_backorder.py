@@ -76,7 +76,11 @@ from odoo.tests import Form
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests.common import TransactionCase
+=======
+from odoo.tests.common import TransactionCase, freeze_time
+>>>>>>> upstream/18.0
 =======
 from odoo.tests.common import TransactionCase, freeze_time
 >>>>>>> upstream/18.0
@@ -962,7 +966,10 @@ class TestMrpProductionBackorder(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1602,6 +1609,9 @@ class TestMrpProductionBackorder(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2222,7 +2232,10 @@ class TestMrpProductionBackorder(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2436,6 +2449,9 @@ class TestMrpProductionBackorder(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2806,6 +2822,36 @@ class TestMrpProductionBackorder(TestMrpCommon):
         self.assertRecordValues(mo_ask, [{'state': 'done', 'qty_produced': qty_produced, 'mrp_production_backorder_count': 1, 'priority': '0'}])
         self.assertRecordValues(mo_never, [{'state': 'done', 'qty_produced': qty_produced, 'mrp_production_backorder_count': 1, 'priority': '0'}])
 
+<<<<<<< HEAD
+=======
+    def test_cancel_backorder_3_step_no_propagation(self):
+        '''
+        Ensure the post-prod -> stock picking for the produced quantity doesn't
+        get cancelled with the backorder production.
+        '''
+        warehouse = self.env['stock.warehouse'].search([], limit=1)
+        # 3 steps Manufacture
+        warehouse.write({'manufacture_steps': 'pbm_sam'})
+
+        mo = self.env['mrp.production'].create({
+            'bom_id': self.bom_4.id,
+            'product_qty': 5,
+            'location_src_id': warehouse.pbm_loc_id.id,
+        })
+        mo.action_confirm()
+        mo.picking_ids.button_validate()
+        mo_form = Form(mo)
+        mo_form.qty_producing = 1
+        mo = mo_form.save()
+        action = mo.button_mark_done()
+        Form(self.env['mrp.production.backorder'].with_context(**action['context'])).save().action_backorder()
+        self.assertEqual(len(mo.procurement_group_id.mrp_production_ids), 2)
+
+        # Cancel backorder
+        mo.procurement_group_id.mrp_production_ids[-1].action_cancel()
+        self.assertFalse(mo.picking_ids.filtered(lambda p: p.state == 'cancel' and p.product_id == self.product_6))
+
+>>>>>>> upstream/18.0
 
 class TestMrpWorkorderBackorder(TransactionCase):
     @classmethod
@@ -2927,6 +2973,10 @@ class TestMrpWorkorderBackorder(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    @freeze_time('2025-10-27 12:00:00')
+>>>>>>> upstream/18.0
 =======
     @freeze_time('2025-10-27 12:00:00')
 >>>>>>> upstream/18.0
@@ -3296,6 +3346,7 @@ class TestMrpWorkorderBackorder(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertRecordValues(op_6, [{'state': 'done', 'qty_remaining': 0.0}])
 =======
 =======
@@ -3334,6 +3385,8 @@ class TestMrpWorkorderBackorder(TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3626,6 +3679,9 @@ class TestMrpWorkorderBackorder(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -8,4 +8,8 @@ declaration.
 
 Signed,
 
+<<<<<<< HEAD
 Rodrigo Fernandez rodrigo@solucionesprisma.com https://github.com/rocketgithub
+=======
+Rodrigo Fernandez rodrigo@aquih.com https://github.com/rocketgithub
+>>>>>>> upstream/18.0

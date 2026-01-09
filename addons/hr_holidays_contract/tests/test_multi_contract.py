@@ -404,7 +404,11 @@ class TestHolidaysMultiContract(TestHolidayContract):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'requires_allocation': 'yes',
+=======
+            'requires_allocation': 'no',
+>>>>>>> upstream/18.0
 =======
             'requires_allocation': 'no',
 >>>>>>> upstream/18.0
@@ -787,7 +791,10 @@ class TestHolidaysMultiContract(TestHolidayContract):
         self.assertEqual(employee.leave_date_to, date(2024, 3, 4))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -866,6 +873,9 @@ class TestHolidaysMultiContract(TestHolidayContract):
 
         self.assertEqual(leave2.number_of_hours, calendar_partial.full_time_required_hours)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

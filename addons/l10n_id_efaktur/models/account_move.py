@@ -132,6 +132,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.constrains('l10n_id_kode_transaksi', 'line_ids', 'partner_id')
     def _constraint_kode_ppn(self):
         ppn_tag = self.env.ref('l10n_id.ppn_tag')
@@ -143,6 +144,8 @@ class AccountMove(models.Model):
             if any(ppn_tag.id in line.tax_tag_ids.ids for line in move.line_ids if line.display_type == 'product'):
                 raise UserError('Kode transaksi 08 is only for non VAT subject items.')
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

@@ -377,7 +377,10 @@ class TestVirtualAvailable(TestStockCommon):
         with self.assertRaises(UserError):
             self.product_3.write({'is_storable': False})
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_change_product_product_type(self):
         """Test that changing the product type directly in a `product.product` record
@@ -394,4 +397,7 @@ class TestVirtualAvailable(TestStockCommon):
         self.picking_out.button_validate()
         with self.assertRaises(UserError):
             self.product_3.write({'type': 'service'})
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

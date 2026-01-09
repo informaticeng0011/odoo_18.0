@@ -23,11 +23,14 @@ class AccountMove(models.Model):
     def _inverse_l10n_latam_document_number(self):
         """Inherit to complete the l10n_latam_document_number with the expected 8 characters after that a '-'
 <<<<<<< HEAD
+<<<<<<< HEAD
         Example: Change FFF-32 by FFF-00000032, to avoid incorrect values on the reports"""
         super()._inverse_l10n_latam_document_number()
         to_review = self.filtered(
             lambda x: x.journal_id.type == "purchase"
 =======
+=======
+>>>>>>> upstream/18.0
 
         After formatting the document number with zfill(8), the name field is also synchronized
         to ensure both fields remain consistent.
@@ -38,6 +41,9 @@ class AccountMove(models.Model):
         to_review = self.filtered(
             lambda x: x.journal_id.type == "purchase"
             and x.l10n_latam_document_type_id
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             and x.l10n_latam_document_type_id.code in ("01", "03", "07", "08")
             and x.l10n_latam_document_number
@@ -48,7 +54,10 @@ class AccountMove(models.Model):
             number = rec.l10n_latam_document_number.split("-")
             rec.l10n_latam_document_number = "%s-%s" % (number[0], number[1].zfill(8))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
             # Synchronize the name field with the formatted document number
             # to ensure consistency between l10n_latam_document_number and name fields
@@ -58,4 +67,7 @@ class AccountMove(models.Model):
             )
             if rec.name != expected_name:
                 rec.name = expected_name
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

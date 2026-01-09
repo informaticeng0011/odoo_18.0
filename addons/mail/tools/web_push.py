@@ -206,7 +206,10 @@ MAX_PAYLOAD_SIZE = 4096
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -777,6 +780,9 @@ ENCRYPTION_BLOCK_OVERHEAD = 1 + 16
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1257,7 +1263,10 @@ def push_to_end_point(base_url, device, payload, vapid_private_key, vapid_public
     url = urlsplit(endpoint)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     # The TDL ".invalid" is intended for use in online construction of domain names that are sure to be invalid and
@@ -1266,6 +1275,9 @@ def push_to_end_point(base_url, device, payload, vapid_private_key, vapid_public
     if url.netloc.endswith(".invalid"):
         raise DeviceUnreachableError("Device Unreachable")
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1452,8 +1464,11 @@ def push_to_end_point(base_url, device, payload, vapid_private_key, vapid_public
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'TTL': '0',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1951,6 +1966,9 @@ def push_to_end_point(base_url, device, payload, vapid_private_key, vapid_public
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -178,6 +178,10 @@ You could use this simplified accounting in case you work with an (external) acc
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'views/base_document_layout_views.xml',
+>>>>>>> upstream/18.0
 =======
         'views/base_document_layout_views.xml',
 >>>>>>> upstream/18.0
@@ -676,7 +680,10 @@ You could use this simplified accounting in case you work with an (external) acc
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'views/base_document_layout_views.xml',
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

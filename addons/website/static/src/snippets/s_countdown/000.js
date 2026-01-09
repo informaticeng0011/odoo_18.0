@@ -107,6 +107,10 @@ const CountdownWidget = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.defaultColor = "rgba(0, 0, 0, 0)";
+>>>>>>> upstream/18.0
 =======
         this.defaultColor = "rgba(0, 0, 0, 0)";
 >>>>>>> upstream/18.0
@@ -347,6 +351,10 @@ const CountdownWidget = publicWidget.Widget.extend({
 
         clearInterval(this.setInterval);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        window.removeEventListener("resize", this._onResize);
+>>>>>>> upstream/18.0
 =======
         window.removeEventListener("resize", this._onResize);
 >>>>>>> upstream/18.0
@@ -498,13 +506,19 @@ const CountdownWidget = publicWidget.Widget.extend({
                 const canvas = val.canvas.querySelector('canvas');
                 const ctx = canvas.getContext("2d");
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ctx.canvas.width = this.width;
                 ctx.canvas.height = this.size;
 =======
+=======
+>>>>>>> upstream/18.0
                 const dpr = window.devicePixelRatio || 1;
                 ctx.canvas.width = this.width * dpr;
                 ctx.canvas.height = this.size * dpr;
                 ctx.scale(dpr, dpr);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 this._clearCanvas(ctx);
 
@@ -534,12 +548,18 @@ const CountdownWidget = publicWidget.Widget.extend({
                 this._handleEndCountdownAction();
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             // Re-render on resize when the countdown is finished.
             if (!this._onResize) {
                 this._onResize = () => this._render();
                 window.addEventListener("resize", this._onResize);
             }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
     },
@@ -590,6 +610,10 @@ const CountdownWidget = publicWidget.Widget.extend({
     _drawText: function (canvas, textNb, textUnit, full = false) {
         const ctx = canvas.getContext("2d");
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        const dpr = window.devicePixelRatio || 1;
+>>>>>>> upstream/18.0
 =======
         const dpr = window.devicePixelRatio || 1;
 >>>>>>> upstream/18.0
@@ -599,17 +623,23 @@ const CountdownWidget = publicWidget.Widget.extend({
         ctx.textAlign = 'center';
         ctx.textBaseline = 'middle';
 <<<<<<< HEAD
+<<<<<<< HEAD
         ctx.fillText(textNb, canvas.width / 2, canvas.height / 2);
 
         const unitSize = this.size / 12;
         ctx.font = `${unitSize}px Arial`;
         ctx.fillText(textUnit, canvas.width / 2, canvas.height / 2 + nbSize / 1.5, this.width);
 =======
+=======
+>>>>>>> upstream/18.0
         ctx.fillText(textNb, (canvas.width / dpr) / 2, (canvas.height / dpr) / 2);
 
         const unitSize = this.size / 12;
         ctx.font = `${unitSize}px Arial`;
         ctx.fillText(textUnit, (canvas.width / dpr) / 2, (canvas.height / dpr) / 2 + nbSize / 1.5, this.width);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         if (this.layout === 'boxes' && this.layoutBackground !== 'none' && this.progressBarStyle === 'none') {

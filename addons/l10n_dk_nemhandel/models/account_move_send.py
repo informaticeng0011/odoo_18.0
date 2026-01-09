@@ -112,7 +112,11 @@ class AccountMoveSend(models.AbstractModel):
         except UserError as e:
             for invoice, invoice_data in invoices_data_nemhandel.items():
                 invoice.nemhandel_move_state = 'error'
+<<<<<<< HEAD
                 invoice_data['error'] = e.message
+=======
+                invoice_data['error'] = str(e)
+>>>>>>> upstream/18.0
         else:
             if response.get('error'):
                 # at the moment the only error that can happen here is ParticipantNotReady error

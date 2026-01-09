@@ -179,6 +179,7 @@ test("popover is rendered nearby target (left)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     class TestPopover extends Popover {
         onPositioned(el, { direction, variant }) {
             expect(direction).toBe("left");
@@ -193,6 +194,8 @@ test("popover is rendered nearby target (left)", async () => {
             component: Content,
         },
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -467,6 +470,9 @@ test("popover is rendered nearby target (left)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -732,6 +738,7 @@ test("popover is rendered nearby target (right)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     class TestPopover extends Popover {
         onPositioned(el, { direction, variant }) {
             expect(direction).toBe("right");
@@ -746,6 +753,8 @@ test("popover is rendered nearby target (right)", async () => {
             component: Content,
         },
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1020,6 +1029,9 @@ test("popover is rendered nearby target (right)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1531,7 +1543,11 @@ test("within iframe", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await scroll(popoverTarget.ownerDocument.documentElement, { y: 100 });
+=======
+    await scroll(popoverTarget.ownerDocument.documentElement, { y: 100 }, { scrollable: false });
+>>>>>>> upstream/18.0
 =======
     await scroll(popoverTarget.ownerDocument.documentElement, { y: 100 }, { scrollable: false });
 >>>>>>> upstream/18.0

@@ -2,6 +2,10 @@ import io
 import json
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from http import HTTPStatus
+>>>>>>> upstream/18.0
 =======
 from http import HTTPStatus
 >>>>>>> upstream/18.0
@@ -58,7 +62,10 @@ class TestPivotExport(HttpCase):
         self.assertEqual(xml_data['B2'], '42')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -76,6 +83,9 @@ class TestPivotExport(HttpCase):
         self.assertEqual(response.status_code, HTTPStatus.UNPROCESSABLE_ENTITY)
         self.assertIn('No data to export', response.text)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -147,7 +147,11 @@ registry.category("web_tour.tours").add('shop_cart_recovery', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ...tourUtils.addToCart({productName: "Acoustic Bloc Screens"}),
+=======
+        ...tourUtils.addToCart({ productName: "Acoustic Bloc Screens", expectUnloadPage: true }),
+>>>>>>> upstream/18.0
 =======
         ...tourUtils.addToCart({ productName: "Acoustic Bloc Screens", expectUnloadPage: true }),
 >>>>>>> upstream/18.0
@@ -701,6 +705,10 @@ registry.category("web_tour.tours").add('shop_cart_recovery', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -1269,6 +1277,10 @@ registry.category("web_tour.tours").add('shop_cart_recovery', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -1747,7 +1759,11 @@ registry.category("web_tour.tours").add('shop_cart_recovery', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         trigger: "span:contains(/^Send an email$/)",
+=======
+        trigger: "span:text(Send an email)",
+>>>>>>> upstream/18.0
 =======
         trigger: "span:text(Send an email)",
 >>>>>>> upstream/18.0
@@ -2019,7 +2035,11 @@ registry.category("web_tour.tours").add('shop_cart_recovery', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         trigger: ".o-mail-Message-body a:contains(/^Resume order$/)",
+=======
+        trigger: ".o-mail-Message-body a:text(Resume order)",
+>>>>>>> upstream/18.0
 =======
         trigger: ".o-mail-Message-body a:text(Resume order)",
 >>>>>>> upstream/18.0
@@ -2346,7 +2366,12 @@ registry.category("web_tour.tours").add('shop_cart_recovery', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         }
+=======
+        },
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         },
         expectUnloadPage: true,
@@ -3035,6 +3060,10 @@ registry.category("web_tour.tours").add('shop_cart_recovery', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -3587,6 +3616,10 @@ registry.category("web_tour.tours").add('shop_cart_recovery', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0

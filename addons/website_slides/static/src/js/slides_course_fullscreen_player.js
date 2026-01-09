@@ -634,7 +634,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -894,6 +897,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1179,6 +1185,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    this.textHighlightWidget = new publicWidget.registry.TextHighlight();
+                    this.textHighlightWidget.attachTo($wpContainer);
+>>>>>>> upstream/18.0
 =======
                     this.textHighlightWidget = new publicWidget.registry.TextHighlight();
                     this.textHighlightWidget.attachTo($wpContainer);
@@ -1629,7 +1640,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 var websiteName = document.title.split(" | ")[1]; // get the website name from title
+=======
+                var websiteName = document.title.split(" | ").at(-1); // get the website name from title
+>>>>>>> upstream/18.0
 =======
                 var websiteName = document.title.split(" | ").at(-1); // get the website name from title
 >>>>>>> upstream/18.0

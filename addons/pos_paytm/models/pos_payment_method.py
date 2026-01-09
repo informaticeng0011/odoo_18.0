@@ -25,7 +25,11 @@ class PosPaymentMethod(models.Model):
     accept_payment = fields.Selection(selection=[('auto', 'Automatically'), ('manual', 'Manually')], default='auto', help="Choose accept payment mode: \n Manually or Automatically")
     allowed_payment_modes = fields.Selection(selection=[('all', 'All'), ('card', 'Card'), ('qr', 'QR')], default='all', help="Choose allow payment mode: \n All/Card or QR")
     paytm_mid = fields.Char(string="PayTM Merchant ID", help="Go to https://business.paytm.com/ and create the merchant account")
+<<<<<<< HEAD
     paytm_merchant_key = fields.Char(string="PayTM Merchant API Key", help="Merchant/AES key \n ex: B1o6Ivjy8L1@abc9")
+=======
+    paytm_merchant_key = fields.Char(string="PayTM Merchant API Key", help="Merchant/AES key \n ex: B1o6Ivjy8L1@abc9", groups='point_of_sale.group_pos_manager')
+>>>>>>> upstream/18.0
     paytm_test_mode = fields.Boolean(string="PayTM Test Mode", default=False, help="Turn it on when in Test Mode")
 
     def _get_payment_terminal_selection(self):
@@ -149,7 +153,11 @@ class PosPaymentMethod(models.Model):
         }
 
     def _paytm_get_request_head(self, body):
+<<<<<<< HEAD
         paytm_signature = self._paytm_generate_signature(body, self.paytm_merchant_key)
+=======
+        paytm_signature = self._paytm_generate_signature(body, self.sudo().paytm_merchant_key)
+>>>>>>> upstream/18.0
         error = isinstance(paytm_signature, dict) and paytm_signature.get('error')
         if error:
             return {'error': '%s' % error}

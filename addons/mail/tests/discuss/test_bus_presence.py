@@ -133,7 +133,11 @@ from odoo.addons.bus.tests.common import WebsocketCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.mail.tests.common import MailCommon
+=======
+from odoo.addons.mail.tests.common import MailCommon, freeze_all_time
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.mail.tests.common import MailCommon, freeze_all_time
 >>>>>>> upstream/18.0
@@ -521,6 +525,7 @@ class TestBusPresence(WebsocketCase, MailCommon):
         else:
             self.authenticate(None, None)
             auth_cookie = f"{recipient._cookie_name}={recipient._format_auth_cookie()};"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1302,6 +1307,9 @@ class TestBusPresence(WebsocketCase, MailCommon):
 =======
         websocket = self.websocket_connect(cookie=auth_cookie)
 >>>>>>> upstream/18.0
+=======
+        websocket = self.websocket_connect(cookie=auth_cookie)
+>>>>>>> upstream/18.0
         sender_bus_target = sender.partner_id if sent_from_user else sender
         self.subscribe(
             websocket,
@@ -1451,6 +1459,10 @@ class TestBusPresence(WebsocketCase, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    @freeze_all_time()
+>>>>>>> upstream/18.0
 =======
     @freeze_all_time()
 >>>>>>> upstream/18.0
@@ -1966,6 +1978,10 @@ class TestBusPresence(WebsocketCase, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    @freeze_all_time()
+>>>>>>> upstream/18.0
 =======
     @freeze_all_time()
 >>>>>>> upstream/18.0
@@ -2481,6 +2497,10 @@ class TestBusPresence(WebsocketCase, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    @freeze_all_time()
+>>>>>>> upstream/18.0
 =======
     @freeze_all_time()
 >>>>>>> upstream/18.0

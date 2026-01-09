@@ -269,6 +269,7 @@ class l10nLatamAccountPaymentCheck(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 lambda x: x.state != 'draft').sorted(key=lambda payment: (payment.date, payment._origin.id))[-1:]
 =======
                 lambda x: x.state not in ['draft', 'canceled']).sorted(key=lambda payment: (payment.date, payment._origin.id))[-1:]
@@ -690,6 +691,9 @@ class l10nLatamAccountPaymentCheck(models.Model):
 =======
                 lambda x: x.state not in ['draft', 'canceled']).sorted(key=lambda payment: (payment.date, payment.write_date, payment._origin.id))[-1:]
 >>>>>>> upstream/18.0
+=======
+                lambda x: x.state not in ['draft', 'canceled']).sorted(key=lambda payment: (payment.date, payment.write_date, payment._origin.id))[-1:]
+>>>>>>> upstream/18.0
 
     @api.depends('payment_id.state', 'operation_ids.state')
     def _compute_current_journal(self):
@@ -852,7 +856,11 @@ class l10nLatamAccountPaymentCheck(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         operations = ((self.operation_ids + self.payment_id).filtered(lambda x: x.state != 'draft'))
+=======
+        operations = ((self.operation_ids + self.payment_id).filtered(lambda x: x.state not in ['draft', 'canceled']))
+>>>>>>> upstream/18.0
 =======
         operations = ((self.operation_ids + self.payment_id).filtered(lambda x: x.state not in ['draft', 'canceled']))
 >>>>>>> upstream/18.0

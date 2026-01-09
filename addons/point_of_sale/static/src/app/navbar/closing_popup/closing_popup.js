@@ -192,9 +192,12 @@ export class ClosePosPopup extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return (
             this.props.is_manager ||
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -280,6 +283,9 @@ export class ClosePosPopup extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -439,6 +445,7 @@ export class ClosePosPopup extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 targetAddressSpace: "local",
 >>>>>>> upstream/18.0
@@ -456,6 +463,8 @@ export class ClosePosPopup extends Component {
 >>>>>>> upstream/18.0
 =======
                 targetAddressSpace: "local",
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -177,6 +177,10 @@ import * as PaymentScreen from "@point_of_sale/../tests/tours/utils/payment_scre
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import * as combo from "@point_of_sale/../tests/tours/utils/combo_popup_util";
+>>>>>>> upstream/18.0
 =======
 import * as combo from "@point_of_sale/../tests/tours/utils/combo_popup_util";
 >>>>>>> upstream/18.0
@@ -851,6 +855,7 @@ import * as TicketScreen from "@point_of_sale/../tests/tours/utils/ticket_screen
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { inLeftSide, negateStep } from "@point_of_sale/../tests/tours/utils/common";
 import { registry } from "@web/core/registry";
 import * as Numpad from "@point_of_sale/../tests/tours/utils/numpad_util";
@@ -1300,6 +1305,8 @@ import * as Numpad from "@point_of_sale/../tests/tours/utils/numpad_util";
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import {
     inLeftSide,
     negateStep,
@@ -1308,6 +1315,7 @@ import {
 } from "@point_of_sale/../tests/tours/utils/common";
 import { registry } from "@web/core/registry";
 import * as Numpad from "@point_of_sale/../tests/tours/utils/numpad_util";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1582,6 +1590,10 @@ import * as Numpad from "@point_of_sale/../tests/tours/utils/numpad_util";
 =======
 >>>>>>> upstream/18.0
 import { delay } from "@odoo/hoot-dom";
+=======
+import { delay } from "@odoo/hoot-dom";
+import * as TextInputPopup from "@point_of_sale/../tests/tours/utils/text_input_popup_util";
+>>>>>>> upstream/18.0
 =======
 import { delay } from "@odoo/hoot-dom";
 import * as TextInputPopup from "@point_of_sale/../tests/tours/utils/text_input_popup_util";
@@ -2168,10 +2180,13 @@ registry.category("web_tour.tours").add("SaveLastPreparationChangesTour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ProductScreen.clickOrderButton(),
             ProductScreen.orderlinesHaveNoChange(),
             Chrome.clickPlanButton(),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2779,6 +2794,9 @@ registry.category("web_tour.tours").add("SaveLastPreparationChangesTour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3787,6 +3805,12 @@ registry.category("web_tour.tours").add("LeaveResidualOrder", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            FloorScreen.hasTable("2"),
+            FloorScreen.hasTable("4"),
+            FloorScreen.hasTable("5"),
+>>>>>>> upstream/18.0
 =======
             FloorScreen.hasTable("2"),
             FloorScreen.hasTable("4"),
@@ -4988,8 +5012,11 @@ registry.category("web_tour.tours").add("FinishResidualOrder", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             FloorScreen.clickTable("5"),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5591,6 +5618,9 @@ registry.category("web_tour.tours").add("FinishResidualOrder", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6170,7 +6200,10 @@ registry.category("web_tour.tours").add("FinishResidualOrder", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6736,6 +6769,7 @@ registry.category("web_tour.tours").add("test_combo_preparation_receipt_layout",
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6808,6 +6842,8 @@ registry.category("web_tour.tours").add("test_combo_preparation_receipt_layout",
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7247,6 +7283,7 @@ registry.category("web_tour.tours").add("test_book_and_release_table", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7287,6 +7324,8 @@ registry.category("web_tour.tours").add("test_book_and_release_table", {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7687,6 +7726,7 @@ registry.category("web_tour.tours").add("test_reload_order_line_removed", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7843,6 +7883,8 @@ registry.category("web_tour.tours").add("test_reload_order_line_removed", {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8002,6 +8044,9 @@ registry.category("web_tour.tours").add("test_combo_children_qty_updated_with_no
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

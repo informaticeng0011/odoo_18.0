@@ -49,6 +49,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import models
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -722,6 +723,8 @@ from odoo.tools.float_utils import float_repr
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 from odoo import _, models
 from odoo.tools.float_utils import float_repr, float_compare
 from odoo.exceptions import ValidationError
@@ -774,6 +777,9 @@ from odoo.exceptions import ValidationError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -929,6 +935,12 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if float_compare(self.price_subtotal, 0.0, precision_rounding=self.currency_id.rounding) < 0:
+            raise ValidationError(_("Price for line '%s' cannot be a negative amount. Please check again.", self.name))
+
+>>>>>>> upstream/18.0
 =======
         if float_compare(self.price_subtotal, 0.0, precision_rounding=self.currency_id.rounding) < 0:
             raise ValidationError(_("Price for line '%s' cannot be a negative amount. Please check again.", self.name))
@@ -1232,9 +1244,12 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         luxury_tax = self.tax_ids.filtered(lambda tax: tax.tax_group_id == luxury_tax_group)
         regular_tax = self.tax_ids - luxury_tax
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1388,6 +1403,9 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1495,6 +1513,7 @@ class AccountMoveLine(models.Model):
             "Code": product.l10n_id_product_code.code or self.env.ref('l10n_id_efaktur_coretax.product_code_000000_goods').code,
             "Name": product.name,
             "Unit": self.product_uom_id.l10n_id_uom_code.code,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2152,10 +2171,14 @@ class AccountMoveLine(models.Model):
 =======
             "Price": idr.round(tax_res['total_excluded']),
 >>>>>>> upstream/18.0
+=======
+            "Price": idr.round(tax_res['total_excluded']),
+>>>>>>> upstream/18.0
             "Qty": self.quantity,
             "TotalDiscount": idr.round(self.discount * tax_res['total_excluded'] * self.quantity / 100),
             "TaxBase": idr.round(self.price_subtotal),  # DPP
             "VATRate": 12,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3215,6 +3238,8 @@ class AccountMoveLine(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             "STLGRate": stlg_tax.amount if stlg_tax else 0.0,
         }
         if self.move_id.l10n_id_kode_transaksi == "01" or (not regular_tax and not zero_tax):
@@ -3272,6 +3297,9 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3537,6 +3565,9 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

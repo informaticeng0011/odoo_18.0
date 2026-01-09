@@ -58,7 +58,10 @@ class HrContract(models.Model):
                             leave.resource_calendar_id = overlapping_contracts[0].resource_calendar_id
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                             if ((contract._is_fully_flexible() or contract.resource_calendar_id.flexible_hours)
@@ -66,6 +69,9 @@ class HrContract(models.Model):
                                 self.env.add_to_compute(self.env['hr.leave']._fields['number_of_days'], leave)
                                 self.env.add_to_compute(self.env['hr.leave']._fields['duration_display'], leave)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -128,7 +128,10 @@ class TestCarrierPropagation(TransactionCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_carrier_propagation_with_all_pull_rules(self):
@@ -152,6 +155,9 @@ class TestCarrierPropagation(TransactionCase):
         self.assertRecordValues(pickings[2], [{'carrier_id': False, 'carrier_tracking_ref': False}])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

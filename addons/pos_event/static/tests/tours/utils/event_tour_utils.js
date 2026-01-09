@@ -39,6 +39,19 @@ export function answerGlobalSelectQuestion(question, answer) {
     ];
 }
 
+<<<<<<< HEAD
+=======
+export function answerGlobalTextQuestion(question, answer) {
+    return [
+        {
+            content: `Answer question ${question} with ${answer} for global`,
+            trigger: `.global_question:contains('${question}') input`,
+            run: `edit ${answer}`,
+        },
+    ];
+}
+
+>>>>>>> upstream/18.0
 export function pickTicket(name) {
     return [
         {

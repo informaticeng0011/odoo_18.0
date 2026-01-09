@@ -9,7 +9,11 @@ _logger = logging.getLogger(__name__)
 class RazorpayPosRequest:
     def __init__(self, payment_method):
         self.razorpay_test_mode = payment_method.razorpay_test_mode
+<<<<<<< HEAD
         self.razorpay_api_key = payment_method.razorpay_api_key
+=======
+        self.razorpay_api_key = payment_method.sudo().razorpay_api_key
+>>>>>>> upstream/18.0
         self.razorpay_username = payment_method.razorpay_username
         self.razorpay_tid = payment_method.razorpay_tid
         self.razorpay_allowed_payment_modes = payment_method.razorpay_allowed_payment_modes
@@ -57,5 +61,9 @@ class RazorpayPosRequest:
     def _razorpay_get_payment_status_request_body(self):
         return {
             'username': self.razorpay_username,
+<<<<<<< HEAD
             'appKey': self.razorpay_api_key,
+=======
+            'appKey': self.sudo().razorpay_api_key,
+>>>>>>> upstream/18.0
         }

@@ -190,6 +190,7 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for move, move_data in invoices_data.items():
             if 'it_edi_send' in move_data['extra_edis']:
                 if attachment := move.l10n_it_edi_attachment_id:
@@ -200,6 +201,8 @@ class AccountMoveSend(models.AbstractModel):
                     moves |= move
         moves._l10n_it_edi_send(attachments_vals)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -580,6 +583,7 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -646,6 +650,11 @@ class AccountMoveSend(models.AbstractModel):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+                # Show that those moves couldn't be sent
+                if 'error_message' in attachment_data:
+                    moves_data[move]['error'] = attachment_data['error_message']
 >>>>>>> upstream/18.0
 =======
                 # Show that those moves couldn't be sent
@@ -1197,9 +1206,15 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             invoice_data.get('l10n_it_edi_values')
             for invoice_data in invoices_data.values()
             if invoice_data.get('l10n_it_edi_values')
+=======
+            invoice_data['l10n_it_edi_values']
+            for invoice_data in invoices_data.values()
+            if 'l10n_it_edi_values' in invoice_data
+>>>>>>> upstream/18.0
 =======
             invoice_data['l10n_it_edi_values']
             for invoice_data in invoices_data.values()

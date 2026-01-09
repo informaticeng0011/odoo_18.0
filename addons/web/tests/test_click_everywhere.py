@@ -17,7 +17,10 @@ class TestMenusAdmin(odoo.tests.HttpCase):
     allow_end_on_form = True
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -32,6 +35,9 @@ class TestMenusAdmin(odoo.tests.HttpCase):
         return super()._request_handler(s, r, **kw)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
