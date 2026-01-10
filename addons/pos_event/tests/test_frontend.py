@@ -220,7 +220,10 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -708,6 +711,9 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1032,7 +1038,10 @@ class TestUi(TestPointOfSaleHttpCommon):
         })
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         cls.test_event_registration_not_mandatory = cls.env['event.event'].create({
             'name': 'Event regitration not mandatory',
             'user_id': cls.pos_admin.id,
@@ -1060,6 +1069,9 @@ class TestUi(TestPointOfSaleHttpCommon):
             ]
         })
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_selling_event_in_pos(self):
         self.pos_user.write({
@@ -1073,6 +1085,7 @@ class TestUi(TestPointOfSaleHttpCommon):
         order = self.env['pos.order'].search([], order='id desc', limit=1)
         event_registration = order.lines[0].event_registration_ids
         event_answer_name = event_registration.registration_answer_ids.value_answer_id.mapped('name')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1872,6 +1885,8 @@ class TestUi(TestPointOfSaleHttpCommon):
         self.assertEqual(event_answer_name, ['Q1-Answer1', 'Q2-Answer1', 'Q3-Answer1'])
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
         self.assertEqual(len(event_registration.registration_answer_ids), 3)
         self.assertEqual(event_answer_name, ['Q1-Answer1', 'Q2-Answer1', 'Q3-Answer1'])
 
@@ -1917,4 +1932,7 @@ class TestUi(TestPointOfSaleHttpCommon):
         r_empty = partner_registrations.filtered(lambda r: r.name == "Event Parter")
         self.assertEqual(len(r_empty), 1)
         self.assertEqual(r_empty.email, "event@partner.com")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

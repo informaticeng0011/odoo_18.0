@@ -71,6 +71,7 @@ class DriverController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             iot_idempotent_id = data.get("iot_idempotent_id")
             if iot_idempotent_id:
                 idempotent_session = iot_device._check_idempotency(iot_idempotent_id, session_id)
@@ -256,12 +257,17 @@ class DriverController(http.Controller):
             _logger.debug("Calling action %s for device %s", data.get('action', ''), device_identifier)
             iot_device.action(data)
 =======
+=======
+>>>>>>> upstream/18.0
             if iot_device._check_idempotency(**data, session_id=session_id):
                 return False
             start_operation_time = time.perf_counter()
             _logger.info("Longpolling: calling action %s for device %s", data.get('action', ''), device_identifier)
             iot_device.action(data)
             _logger.info("device '%s' action finished - %.*f", device_identifier, 3, time.perf_counter() - start_operation_time)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             return True
         return False

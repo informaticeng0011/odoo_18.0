@@ -140,6 +140,10 @@ class MembershipInvoice(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'context': {'default_move_type': 'out_invoice'},
+>>>>>>> upstream/18.0
 =======
             'context': {'default_move_type': 'out_invoice'},
 >>>>>>> upstream/18.0

@@ -4,6 +4,7 @@ from odoo.addons.website_slides.tests import common as slides_common
 from odoo.exceptions import UserError
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests.common import users
 from unittest.mock import patch
 
@@ -12,12 +13,17 @@ class TestSlidesManagement(slides_common.SlidesCase):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 from odoo.tests.common import HttpCase, users
 from unittest.mock import patch
 
 
 class TestSlidesManagement(slides_common.SlidesCase, HttpCase):
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -249,7 +255,10 @@ class TestSlidesManagement(slides_common.SlidesCase, HttpCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     @users('user_manager')
@@ -292,6 +301,9 @@ class TestSlidesManagement(slides_common.SlidesCase, HttpCase):
         self.assertFalse(slide)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

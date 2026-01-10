@@ -693,7 +693,10 @@ class TestAccountBankStatementLine(AccountTestInvoicingCommon):
         ])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         # computing validity of non-consecutive statement shouldn't affect validity
         line5 = self.create_bank_transaction(-10, '2020-01-13')
         statement4 = self.env['account.bank.statement'].create({
@@ -706,6 +709,9 @@ class TestAccountBankStatementLine(AccountTestInvoicingCommon):
             {'is_valid': True},
         ])
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         # adding a statement to the first line should make statement1 invalid
         line1.statement_id = statement2
@@ -1666,7 +1672,10 @@ class TestAccountBankStatementLine(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2277,6 +2286,9 @@ class TestAccountBankStatementLine(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

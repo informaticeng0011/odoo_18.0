@@ -119,6 +119,10 @@ import { addBusServiceListeners, lockWebsocketConnect } from "@bus/../tests/bus_
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { getWebSocketWorker } from "@bus/../tests/mock_websocket";
+>>>>>>> upstream/18.0
 =======
 import { getWebSocketWorker } from "@bus/../tests/mock_websocket";
 >>>>>>> upstream/18.0
@@ -606,6 +610,7 @@ import { animationFrame, runAllTimers, waitFor, waitForNone } from "@odoo/hoot-d
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 import { browser } from "@web/core/browser/browser";
@@ -620,6 +625,8 @@ import { browser } from "@web/core/browser/browser";
 >>>>>>> upstream/18.0
 import { asyncStep, MockServer, waitForSteps } from "@web/../tests/web_test_helpers";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -986,6 +993,9 @@ import { browser } from "@web/core/browser/browser";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1353,12 +1363,15 @@ test("show warning when bus connection encounters issues", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1722,6 +1735,9 @@ test("show warning when bus connection encounters issues", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2095,6 +2111,9 @@ test("show warning when bus connection encounters issues", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -9,8 +9,12 @@ patch(PosStore.prototype, {
             // is_settlement is assigned in super l10n_sa_pos
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             result.not_legal =
                 !order.l10n_sa_invoice_qr_code_str || order.l10n_sa_invoice_edi_state !== "sent";
+=======
+            result.not_legal = !order.l10n_sa_invoice_qr_code_str;
+>>>>>>> upstream/18.0
 =======
             result.not_legal = !order.l10n_sa_invoice_qr_code_str;
 >>>>>>> upstream/18.0

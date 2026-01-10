@@ -113,7 +113,11 @@ class AccountMoveSend(models.AbstractModel):
             for invoice, invoice_data in invoices_data_nemhandel.items():
                 invoice.nemhandel_move_state = 'error'
 <<<<<<< HEAD
+<<<<<<< HEAD
                 invoice_data['error'] = e.message
+=======
+                invoice_data['error'] = str(e)
+>>>>>>> upstream/18.0
 =======
                 invoice_data['error'] = str(e)
 >>>>>>> upstream/18.0

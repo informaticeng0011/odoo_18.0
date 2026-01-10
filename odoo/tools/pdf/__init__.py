@@ -191,9 +191,15 @@ error = None
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 for submod in ['._pypdf2_2', '._pypdf', '._pypdf2_1']:
     try:
         pypdf = importlib.import_module(submod, __spec__.name)
+=======
+for SUBMOD in ['._pypdf2_2', '._pypdf', '._pypdf2_1']:
+    try:
+        pypdf = importlib.import_module(SUBMOD, __spec__.name)
+>>>>>>> upstream/18.0
 =======
 for SUBMOD in ['._pypdf2_2', '._pypdf', '._pypdf2_1']:
     try:
@@ -1063,6 +1069,7 @@ DictionaryObject.get = _unwrapping_get
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1078,6 +1085,8 @@ NameObject.renumber_table.update({
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1331,6 +1340,9 @@ if hasattr(NameObject, 'renumber_table'):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1880,7 +1892,10 @@ class OdooPdfFileWriter(PdfFileWriter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2178,8 +2193,13 @@ class OdooPdfFileWriter(PdfFileWriter):
 
         adapted_subtype = subtype
         if REGEX_SUBTYPE_UNFORMATED.match(subtype):
+<<<<<<< HEAD
             # _pypdf2_2 does the formating when creating a NameObject
             if SUBMOD == '._pypdf2_2':
+=======
+            # _pypdf2_2 and _pypdf does the formating when creating a NameObject
+            if SUBMOD in ('._pypdf2_2', '._pypdf'):
+>>>>>>> upstream/18.0
                 return '/' + subtype
             adapted_subtype = '/' + subtype.replace('/', '#2F')
 
@@ -2332,6 +2352,9 @@ class OdooPdfFileWriter(PdfFileWriter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2769,6 +2792,7 @@ class OdooPdfFileWriter(PdfFileWriter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         It should take the form of "/xxx#2Fxxx". E.g. for "text/xml": "/text#2Fxml"
         """
         adapted_subtype = subtype
@@ -2781,6 +2805,10 @@ class OdooPdfFileWriter(PdfFileWriter):
                 # The subtype still does not match the correct format, so we will not add it to the document
                 _logger.warning("Attempt to add an attachment with the incorrect subtype '%s'. The subtype will be ignored.", subtype)
                 adapted_subtype = ''
+=======
+        """
+        adapted_subtype = self.format_subtype(subtype)
+>>>>>>> upstream/18.0
 =======
         """
         adapted_subtype = self.format_subtype(subtype)
@@ -3564,7 +3592,11 @@ class OdooPdfFileWriter(PdfFileWriter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if submod == '._pypdf2_1':
+=======
+                if SUBMOD == '._pypdf2_1':
+>>>>>>> upstream/18.0
 =======
                 if SUBMOD == '._pypdf2_1':
 >>>>>>> upstream/18.0
@@ -4019,10 +4051,15 @@ class OdooPdfFileWriter(PdfFileWriter):
         """
         # Set the PDF version to 1.7 (as PDF/A-3 is based on version 1.7) and make it PDF/A compliant.
         # See https://github.com/veraPDF/veraPDF-validation-profiles/wiki/PDFA-Parts-2-and-3-rules#rule-612-1
+<<<<<<< HEAD
+=======
+        self._header = b"%PDF-1.7"
+>>>>>>> upstream/18.0
 
         # " The file header shall begin at byte zero and shall consist of "%PDF-1.n" followed by a single EOL marker,
         # where 'n' is a single digit number between 0 (30h) and 7 (37h) "
         # " The aforementioned EOL marker shall be immediately followed by a % (25h) character followed by at least four
+<<<<<<< HEAD
         # bytes, each of whose encoded byte values shall have a decimal value greater than 127 "
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4892,6 +4929,15 @@ class OdooPdfFileWriter(PdfFileWriter):
 =======
 >>>>>>> upstream/18.0
             self._header += b"%\xDE\xAD\xBE\xEF"
+=======
+        # bytes, each of whose encoded byte values shall have a decimal value greater than 127 ".
+        # PyPDF2 2.X+ already adds these 4 characters by default (so ._pypdf2_2 and ._pypdf don't need it).
+        # The injected character `\xc3\xa9` is equivalent to the character `é`.
+        # Therefore, on `_pypdf2_1`, the header will look like: `%PDF-1.7\n%éééé`,
+        # while on `_pypdf2_2` and `_pypdf`, it will look like: `%PDF-1.7\n%âãÏÓ`.
+        if SUBMOD == '._pypdf2_1':
+            self._header += b"\n%\xc3\xa9\xc3\xa9\xc3\xa9\xc3\xa9"
+>>>>>>> upstream/18.0
 
         # Add a document ID to the trailer. This is only needed when using encryption with regular PDF, but is required
         # when using PDF/A
@@ -4963,6 +5009,17 @@ class OdooPdfFileWriter(PdfFileWriter):
         outlines = self._root_object['/Outlines'].getObject()
         outlines[NameObject('/Count')] = NumberObject(1)
 
+<<<<<<< HEAD
+=======
+        # [6.7.2.2-1] include a MarkInfo dictionary containing "Marked" with true value
+        mark_info = DictionaryObject({NameObject("/Marked"): BooleanObject(True)})
+        self._root_object[NameObject("/MarkInfo")] = mark_info
+
+        # [6.7.3.3-1] include minimal document structure in the catalog
+        struct_tree_root = DictionaryObject({NameObject("/Type"): NameObject("/StructTreeRoot")})
+        self._root_object[NameObject("/StructTreeRoot")] = struct_tree_root
+
+>>>>>>> upstream/18.0
         # Set odoo as producer
         self.addMetadata({
             '/Creator': "Odoo",

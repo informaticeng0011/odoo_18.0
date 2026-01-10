@@ -10,7 +10,11 @@ class RazorpayPosRequest:
     def __init__(self, payment_method):
         self.razorpay_test_mode = payment_method.razorpay_test_mode
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.razorpay_api_key = payment_method.razorpay_api_key
+=======
+        self.razorpay_api_key = payment_method.sudo().razorpay_api_key
+>>>>>>> upstream/18.0
 =======
         self.razorpay_api_key = payment_method.sudo().razorpay_api_key
 >>>>>>> upstream/18.0
@@ -62,7 +66,11 @@ class RazorpayPosRequest:
         return {
             'username': self.razorpay_username,
 <<<<<<< HEAD
+<<<<<<< HEAD
             'appKey': self.razorpay_api_key,
+=======
+            'appKey': self.sudo().razorpay_api_key,
+>>>>>>> upstream/18.0
 =======
             'appKey': self.sudo().razorpay_api_key,
 >>>>>>> upstream/18.0

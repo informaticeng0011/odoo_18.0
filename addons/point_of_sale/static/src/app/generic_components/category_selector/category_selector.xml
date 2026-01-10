@@ -8,6 +8,7 @@
                     t-att-class="{'opacity-50': !category.isChildren and !category.isSelected, 'justify-content-center': ui.isSmall}"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     class="category-button px-1 btn btn-light d-flex align-items-center rounded-3"
                     style="height: 4rem;"
                 >
@@ -19,6 +20,8 @@
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                     class="category-button p-1 btn btn-light d-flex align-items-center rounded-3 gap-2"
                     style="height: 4rem;">
                     <div t-if="showCategoryImg(category)" class="overflow-hidden flex-shrink-0 ratio ratio-1x1" style="width:33%;">
@@ -28,6 +31,9 @@
                         <span t-if="category.name" class="text-center" t-esc="category.name" />
                     </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

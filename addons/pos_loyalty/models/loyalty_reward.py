@@ -4,6 +4,11 @@
 from odoo import models, api
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.osv.expression import AND, OR
+
+>>>>>>> upstream/18.0
 =======
 from odoo.osv.expression import AND, OR
 
@@ -30,8 +35,11 @@ class LoyaltyReward(models.Model):
         config_id = self.env['pos.config'].browse(data['pos.config']['data'][0]['id'])
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return [('program_id', 'in', config_id._get_program_ids().ids)]
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         reward_product_tag_domain = [
@@ -49,6 +57,9 @@ class LoyaltyReward(models.Model):
             ]),
         ])
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -126,7 +137,11 @@ class LoyaltyReward(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 matching_ids = list(comodel._search([('display_name', operator, value)]))
+=======
+                matching_ids = list(comodel._search([('display_name', 'ilike', value)]))
+>>>>>>> upstream/18.0
 =======
                 matching_ids = list(comodel._search([('display_name', 'ilike', value)]))
 >>>>>>> upstream/18.0

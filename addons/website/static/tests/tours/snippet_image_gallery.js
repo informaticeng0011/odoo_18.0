@@ -8,6 +8,10 @@ import {
     insertSnippet,
     registerWebsitePreviewTour,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    assertCssVariable,
+>>>>>>> upstream/18.0
 =======
     assertCssVariable,
 >>>>>>> upstream/18.0
@@ -131,8 +135,11 @@ registerWebsitePreviewTour("snippet_image_gallery_reorder", {
     content: "Check that the option is restored",
     trigger: ".snippet-option-ImageTools we-select:contains('Filter') we-toggler:contains('Blur')",
 <<<<<<< HEAD
+<<<<<<< HEAD
 }]);
 =======
+=======
+>>>>>>> upstream/18.0
 }, {
     content: "Change the height of the snippet",
     trigger: `.snippet-option-ScrollButton [data-name="fixed_height_opt"] input`,
@@ -150,6 +157,9 @@ registerWebsitePreviewTour("snippet_image_gallery_reorder", {
 },
     assertCssVariable("height", "400px", ":iframe .s_image_gallery"),
 ]);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 registerWebsitePreviewTour("snippet_image_gallery_thumbnail_update", {

@@ -10,7 +10,11 @@ export class SearchMedia extends Component {
         <div class="position-relative mw-lg-25 flex-grow-1 me-auto">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <input type="text" class="o_we_search o_input form-control" t-att-placeholder="props.searchPlaceholder.trim()" t-model="state.input" t-ref="autofocus"/>
+=======
+            <input type="text" class="o_we_search o_input form-control pe-4" t-att-placeholder="props.searchPlaceholder.trim()" t-model="state.input" t-ref="autofocus"/>
+>>>>>>> upstream/18.0
 =======
             <input type="text" class="o_we_search o_input form-control pe-4" t-att-placeholder="props.searchPlaceholder.trim()" t-model="state.input" t-ref="autofocus"/>
 >>>>>>> upstream/18.0

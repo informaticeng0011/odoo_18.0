@@ -305,6 +305,7 @@ class AccountBankStatement(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             SELECT st.id
               FROM account_bank_statement st
          LEFT JOIN res_company co ON st.company_id = co.id
@@ -439,6 +440,8 @@ class AccountBankStatement(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
              WITH statements AS (
                      SELECT st.id,
                             st.balance_start,
@@ -454,7 +457,11 @@ class AccountBankStatement(models.Model):
                   LEFT JOIN res_currency currency ON COALESCE(j.currency_id, co.currency_id) = currency.id
                       WHERE st.first_line_index IS NOT NULL
 <<<<<<< HEAD
+<<<<<<< HEAD
                       {"" if all_statements else "AND st.id IN %(ids)s"}
+=======
+                      {"" if all_statements else "AND st.journal_id IN %(journal_ids)s"}
+>>>>>>> upstream/18.0
 =======
                       {"" if all_statements else "AND st.journal_id IN %(journal_ids)s"}
 >>>>>>> upstream/18.0
@@ -462,6 +469,7 @@ class AccountBankStatement(models.Model):
            SELECT id
              FROM statements
             WHERE prev_balance_end_real IS NOT NULL
+<<<<<<< HEAD
 <<<<<<< HEAD
               AND ROUND(prev_balance_end_real, decimal_places) != ROUND(balance_start, decimal_places);
 <<<<<<< HEAD
@@ -641,10 +649,15 @@ class AccountBankStatement(models.Model):
 >>>>>>> upstream/18.0
         """, {
 =======
+=======
+>>>>>>> upstream/18.0
               AND ROUND(prev_balance_end_real, decimal_places) != ROUND(balance_start, decimal_places)
               {"" if all_statements else "AND id IN %(ids)s"};
         """, {
             'journal_ids': tuple(set(self.journal_id.ids)),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             'ids': tuple(self.ids)
         })

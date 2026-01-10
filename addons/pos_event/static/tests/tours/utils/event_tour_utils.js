@@ -40,7 +40,10 @@ export function answerGlobalSelectQuestion(question, answer) {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 export function answerGlobalTextQuestion(question, answer) {
     return [
         {
@@ -51,6 +54,9 @@ export function answerGlobalTextQuestion(question, answer) {
     ];
 }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 export function pickTicket(name) {
     return [

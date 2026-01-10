@@ -378,7 +378,10 @@ class TestVirtualAvailable(TestStockCommon):
             self.product_3.write({'is_storable': False})
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -398,6 +401,9 @@ class TestVirtualAvailable(TestStockCommon):
         with self.assertRaises(UserError):
             self.product_3.write({'type': 'service'})
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

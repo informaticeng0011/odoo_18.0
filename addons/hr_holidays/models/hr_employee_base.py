@@ -162,9 +162,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from datetime import datetime, date, timezone, timedelta
 from dateutil.relativedelta import relativedelta
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -652,6 +655,9 @@ import pytz
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1210,7 +1216,10 @@ class HrEmployeeBase(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1749,6 +1758,7 @@ class HrEmployeeBase(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     leave_duration = leave[leave_duration_field]
 =======
                     leave_duration = leave._get_durations()[leave.id][0 if leave_unit == 'days' else 1]
@@ -1776,6 +1786,9 @@ class HrEmployeeBase(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
                     leave_duration = leave._get_durations()[leave.id][0 if leave_unit == 'days' else 1]
+>>>>>>> upstream/18.0
+=======
+                    leave_duration = leave[leave_duration_field]
 >>>>>>> upstream/18.0
 =======
                     leave_duration = leave[leave_duration_field]
@@ -2273,6 +2286,9 @@ class HrEmployeeBase(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2752,7 +2768,11 @@ class HrEmployeeBase(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if leave_type.requires_allocation == 'no' or not leave_type.show_on_dashboard:
+=======
+                if leave_type.requires_allocation == 'no' or not leave_type.show_on_dashboard or not leave_type.active:
+>>>>>>> upstream/18.0
 =======
                 if leave_type.requires_allocation == 'no' or not leave_type.show_on_dashboard or not leave_type.active:
 >>>>>>> upstream/18.0
@@ -3253,10 +3273,21 @@ class HrEmployeeBase(models.AbstractModel):
         # 'no_leave_resource_calendar_update'
         if 'resource_calendar_id' in values and not self.env.context.get('no_leave_resource_calendar_update'):
             try:
+<<<<<<< HEAD
                 self.env['hr.leave'].search([
                     ('employee_id', 'in', self.ids),
                     ('resource_calendar_id', '!=', int(values['resource_calendar_id'])),
                     ('date_from', '>', fields.Datetime.now())]).write({'resource_calendar_id': values['resource_calendar_id']})
+=======
+                leaves = self.env['hr.leave'].search([
+                    ('employee_id', 'in', self.ids),
+                    ('resource_calendar_id', '!=', int(values['resource_calendar_id'])),
+                    ('date_from', '>', fields.Datetime.now())])
+                leaves.write({'resource_calendar_id': values['resource_calendar_id']})
+                non_hourly_leaves = leaves.filtered(lambda l: not l.request_unit_hours)
+                non_hourly_leaves.with_context(leave_skip_date_check=True, leave_skip_state_check=True)._compute_date_from_to()
+                non_hourly_leaves.filtered(lambda l: l.state == 'validate')._validate_leave_request()
+>>>>>>> upstream/18.0
             except ValidationError:
                 raise ValidationError(_("Changing this working schedule results in the affected employee(s) not having enough "
                                         "leaves allocated to accomodate for their leaves already taken in the future. Please "

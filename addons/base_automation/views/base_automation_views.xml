@@ -402,7 +402,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <filter string="Archived" name="inactive" domain="[('active', '=', False)]"/>
+=======
+                    <filter string="Include Archived" name="inactive" domain="[('active', 'in', [False, True])]"/>
+>>>>>>> upstream/18.0
 =======
                     <filter string="Include Archived" name="inactive" domain="[('active', 'in', [False, True])]"/>
 >>>>>>> upstream/18.0
@@ -846,7 +850,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <field name="context">{'active_test': False}</field>
+=======
+            <field name="context">{'search_default_inactive': 1}</field>
+>>>>>>> upstream/18.0
 =======
             <field name="context">{'search_default_inactive': 1}</field>
 >>>>>>> upstream/18.0

@@ -13,6 +13,10 @@ class PaymentToken(models.Model):
     _check_company_auto = True
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    _rec_names_search = ['payment_details', 'partner_id', 'provider_id']
+>>>>>>> upstream/18.0
 =======
     _rec_names_search = ['payment_details', 'partner_id', 'provider_id']
 >>>>>>> upstream/18.0

@@ -28,7 +28,11 @@ class HrContract(models.Model):
         # _check_contracts raises an issue.
         # If there are existing leaves that are spanned by this new
         # contract, update their resource calendar to the current one.
+<<<<<<< HEAD
         if not (vals.get("state") == 'open' or vals.get('kanban_state') == 'done'):
+=======
+        if not (vals.get("state") == 'open' or vals.get('kanban_state') == 'done' or vals.get('resource_calendar_id', False)):
+>>>>>>> upstream/18.0
             return super().write(vals)
 
         specific_contracts = self.env['hr.contract']
@@ -39,7 +43,11 @@ class HrContract(models.Model):
         # increase their duration), we catch this error to display a more meaningful error message.
         try:
             for contract in self:
+<<<<<<< HEAD
                 if vals.get('state') != 'open' and contract.state != 'draft':
+=======
+                if vals.get('state') != 'open' and contract.state not in ('draft', 'open'):
+>>>>>>> upstream/18.0
                     # In case the current contract is not in the draft state, the kanban_state transition does not
                     # cause any leave changes.
                     continue
@@ -54,6 +62,7 @@ class HrContract(models.Model):
                              ('kanban_state', '=', 'done'),
                     ]).sorted(key=lambda c: {'open': 1, 'close': 2, 'draft': 3, 'cancel': 4}[c.state])
                     if len(overlapping_contracts.resource_calendar_id) <= 1:
+<<<<<<< HEAD
                         if overlapping_contracts and leave.resource_calendar_id != overlapping_contracts[0].resource_calendar_id:
                             leave.resource_calendar_id = overlapping_contracts[0].resource_calendar_id
 <<<<<<< HEAD
@@ -74,6 +83,15 @@ class HrContract(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+                        super(HrContract, contract).write(vals)
+                        if overlapping_contracts and leave.resource_calendar_id != overlapping_contracts[0].resource_calendar_id:
+                            leave.resource_calendar_id = overlapping_contracts[0].resource_calendar_id
+                            if not leave.request_unit_hours:
+                                leave.with_context(leave_skip_date_check=True, leave_skip_state_check=True)._compute_date_from_to()
+                                if leave.state == 'validate':
+                                    leave._validate_leave_request()
 >>>>>>> upstream/18.0
                         continue
                     if leave.id not in leaves_state:
