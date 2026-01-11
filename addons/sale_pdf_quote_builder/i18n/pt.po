@@ -49,6 +49,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sale_pdf_quote_builder
 # 
 # Translators:
@@ -679,10 +680,16 @@
 #
 # Translators:
 >>>>>>> upstream/18.0
+=======
+# * sale_pdf_quote_builder
+#
+# Translators:
+>>>>>>> upstream/18.0
 # NumerSpiral HBG, 2025
 # Peter Lawrence Romão <peterromao@yahoo.co.uk>, 2025
 # Wil Odoo, 2025
 # Arxi, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1479,10 +1486,16 @@
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # Humberto Sousa <humberto.sousa@smartimprove.pt>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Daniel Reis, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Humberto Sousa <humberto.sousa@smartimprove.pt>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2239,12 +2252,18 @@ msgstr ""
 "PO-Revision-Date: 2025-11-27 12:01+0000\n"
 "Last-Translator: Humberto Sousa <humberto.sousa@smartimprove.pt>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2025-11-27 12:01+0000\n"
+"Last-Translator: Humberto Sousa <humberto.sousa@smartimprove.pt>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Portuguese <https://translate.odoo.com/projects/odoo-18/"
 "sale_pdf_quote_builder/pt/>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2519,6 +2538,11 @@ msgstr ""
 "1000000 == 0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
+"1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.actions.report,print_report_name:sale_pdf_quote_builder.action_report_saleorder_raw
@@ -2526,6 +2550,7 @@ msgid ""
 "(object.state in ('draft', 'sent') and 'Quotation - %s' % (object.name)) or "
 "'Order - %s' % (object.name)"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3231,6 +3256,9 @@ msgstr ""
 =======
 "(object.state in ('draft', 'sent') and 'Orçamento - %s' % (object.name)) or "
 >>>>>>> upstream/18.0
+=======
+"(object.state in ('draft', 'sent') and 'Orçamento - %s' % (object.name)) or "
+>>>>>>> upstream/18.0
 "'Ordem - %s' % (object.name)"
 
 #. module: sale_pdf_quote_builder
@@ -3285,7 +3313,11 @@ msgid "<span class=\"pe-2\">Templates:</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"pe-2\">Modelos:</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"pe-2\">Modelos:</span>"
 >>>>>>> upstream/18.0
@@ -3486,7 +3518,11 @@ msgid "<span>Document type:</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Tipo de documento:</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Tipo de documento:</span>"
 >>>>>>> upstream/18.0
@@ -3639,6 +3675,7 @@ msgstr "<span>Tipo de documento:</span>"
 #. odoo-python
 #: code:addons/sale_pdf_quote_builder/models/sale_pdf_form_field.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3872,6 +3909,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "A form field set as used in product documents can't be linked to a quotation "
 "document."
 msgstr ""
@@ -3883,6 +3922,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3901,6 +3943,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/sale_pdf_quote_builder/models/sale_pdf_form_field.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4134,6 +4177,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "A form field set as used in quotation documents can't be linked to a product "
 "document."
 msgstr ""
@@ -4145,6 +4190,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4184,6 +4232,7 @@ msgstr "Todos os ficheiros enviados"
 #: model:ir.model.fields,help:sale_pdf_quote_builder.field_product_document__attached_on_sale
 msgid ""
 "Allows you to share the document with your customers within a sale.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5193,6 +5242,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Leave it empty if you don't want to share this document with sales "
 "customer.\n"
 "On quote: the document will be sent to and accessible by customers at any "
@@ -5224,6 +5275,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5307,7 +5361,11 @@ msgid "Available Product Documents"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Documentos de produtos disponíveis"
+>>>>>>> upstream/18.0
 =======
 msgstr "Documentos de produtos disponíveis"
 >>>>>>> upstream/18.0
@@ -5514,7 +5572,11 @@ msgid "Click to write content for the PDF quote..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Clique para escrever o conteúdo da cotação em PDF…"
+>>>>>>> upstream/18.0
 =======
 msgstr "Clique para escrever o conteúdo da cotação em PDF…"
 >>>>>>> upstream/18.0
@@ -5721,7 +5783,11 @@ msgid "Configure dynamic fields"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Configurar campos dinâmicos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Configurar campos dinâmicos"
 >>>>>>> upstream/18.0
@@ -5922,7 +5988,11 @@ msgid "Configure the path to fill the form fields."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Configure o caminho para preencher os campos do formulário."
+>>>>>>> upstream/18.0
 =======
 msgstr "Configure o caminho para preencher os campos do formulário."
 >>>>>>> upstream/18.0
@@ -6140,7 +6210,11 @@ msgid "Customizable"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Personalizável"
+>>>>>>> upstream/18.0
 =======
 msgstr "Personalizável"
 >>>>>>> upstream/18.0
@@ -6341,7 +6415,11 @@ msgid "Customizable PDF Form Fields"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Campos de formulário PDF personalizáveis"
+>>>>>>> upstream/18.0
 =======
 msgstr "Campos de formulário PDF personalizáveis"
 >>>>>>> upstream/18.0
@@ -6569,7 +6647,11 @@ msgid "Document type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tipo de documento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tipo de documento"
 >>>>>>> upstream/18.0
@@ -6775,7 +6857,11 @@ msgid "Download examples"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Baixar exemplos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Baixar exemplos"
 >>>>>>> upstream/18.0
@@ -6981,7 +7067,11 @@ msgid "File Content (base64)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Conteúdo do arquivo (base64)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Conteúdo do arquivo (base64)"
 >>>>>>> upstream/18.0
@@ -7182,7 +7272,11 @@ msgid "File Content (raw)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Conteúdo do arquivo (raw)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Conteúdo do arquivo (raw)"
 >>>>>>> upstream/18.0
@@ -7395,7 +7489,11 @@ msgid "Form Field Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nome do campo do formulário"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nome do campo do formulário"
 >>>>>>> upstream/18.0
@@ -7598,7 +7696,11 @@ msgid "Form Fields"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Campos de formulário"
+>>>>>>> upstream/18.0
 =======
 msgstr "Campos de formulário"
 >>>>>>> upstream/18.0
@@ -7800,7 +7902,11 @@ msgid "Form Fields Included"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Campos de formulário incluídos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Campos de formulário incluídos"
 >>>>>>> upstream/18.0
@@ -8002,6 +8108,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"O nome do campo do formulário deve ser exclusivo para um determinado tipo de "
+"documento."
+>>>>>>> upstream/18.0
 =======
 "O nome do campo do formulário deve ser exclusivo para um determinado tipo de "
 "documento."
@@ -8251,7 +8362,11 @@ msgid "Form fields of inside quotation documents."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Campos de formulário dentro de documentos de cotação."
+>>>>>>> upstream/18.0
 =======
 msgstr "Campos de formulário dentro de documentos de cotação."
 >>>>>>> upstream/18.0
@@ -8464,7 +8579,11 @@ msgid "Header/Footer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cabeçalho/Rodapé"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cabeçalho/Rodapé"
 >>>>>>> upstream/18.0
@@ -8665,7 +8784,11 @@ msgid "Headers and footers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cabeçalhos e rodapés"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cabeçalhos e rodapés"
 >>>>>>> upstream/18.0
@@ -8869,7 +8992,11 @@ msgid "Headers/Footers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cabeçalhos/Rodapés"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cabeçalhos/Rodapés"
 >>>>>>> upstream/18.0
@@ -9084,6 +9211,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Se desmarcado, permitirá que você oculte o cabeçalho ou o rodapé sem "
 "removê-lo."
@@ -9251,6 +9379,10 @@ msgstr ""
 =======
 "Se desmarcado, permitirá que você oculte o cabeçalho ou o rodapé sem "
 "removê-lo."
+>>>>>>> upstream/18.0
+=======
+"Se desmarcado, permitirá que você oculte o cabeçalho ou o rodapé sem removê-"
+"lo."
 >>>>>>> upstream/18.0
 =======
 "Se desmarcado, permitirá que você oculte o cabeçalho ou o rodapé sem removê-"
@@ -9333,7 +9465,11 @@ msgid "Image Height"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Altura da imagem"
+>>>>>>> upstream/18.0
 =======
 msgstr "Altura da imagem"
 >>>>>>> upstream/18.0
@@ -9534,7 +9670,11 @@ msgid "Image Src"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Src da imagem"
+>>>>>>> upstream/18.0
 =======
 msgstr "Src da imagem"
 >>>>>>> upstream/18.0
@@ -9735,7 +9875,11 @@ msgid "Image Width"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Largura da imagem"
+>>>>>>> upstream/18.0
 =======
 msgstr "Largura da imagem"
 >>>>>>> upstream/18.0
@@ -9941,7 +10085,11 @@ msgid "Inside quote pdf"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dentro do pdf da cotação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dentro do pdf da cotação"
 >>>>>>> upstream/18.0
@@ -10146,6 +10294,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nome de campo de formulário inválido %(field_name)s. O nome de um campo de "
+"formulário em um cabeçalho ou rodapé não pode começar com \"sol_id_\"."
+>>>>>>> upstream/18.0
 =======
 "Nome de campo de formulário inválido %(field_name)s. O nome de um campo de "
 "formulário em um cabeçalho ou rodapé não pode começar com \"sol_id_\"."
@@ -10399,6 +10552,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nome de campo de formulário inválido %(field_name)s. Deve conter apenas "
+"alfanuméricos, hífens ou sublinhados."
+>>>>>>> upstream/18.0
 =======
 "Nome de campo de formulário inválido %(field_name)s. Deve conter apenas "
 "alfanuméricos, hífens ou sublinhados."
@@ -10652,6 +10810,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Caminho inválido %(path)s. Deve conter apenas alfanuméricos, hífens, "
+"sublinhados ou pontos."
+>>>>>>> upstream/18.0
 =======
 "Caminho inválido %(path)s. Deve conter apenas alfanuméricos, hífens, "
 "sublinhados ou pontos."
@@ -10901,7 +11064,11 @@ msgid "Is Pdf Quote Builder Available"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Está disponível no Construtor de cotações em PDF"
+>>>>>>> upstream/18.0
 =======
 msgstr "Está disponível no Construtor de cotações em PDF"
 >>>>>>> upstream/18.0
@@ -11111,6 +11278,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Parece que não foi possível processar esse PDF em uma cotação. Ele está "
+"criptografado ou codificado em um formato não suportado."
+>>>>>>> upstream/18.0
 =======
 "Parece que não foi possível processar esse PDF em uma cotação. Ele está "
 "criptografado ou codificado em um formato não suportado."
@@ -11377,7 +11549,11 @@ msgid "Mark fields as safe to fill in the quote."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Marque os campos como seguros para preencher a cotação."
+>>>>>>> upstream/18.0
 =======
 msgstr "Marque os campos como seguros para preencher a cotação."
 >>>>>>> upstream/18.0
@@ -11595,7 +11771,11 @@ msgid "Only PDF documents can be attached inside a quote."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Somente documentos em PDF podem ser anexados a uma cotação."
+>>>>>>> upstream/18.0
 =======
 msgstr "Somente documentos em PDF podem ser anexados a uma cotação."
 >>>>>>> upstream/18.0
@@ -11797,7 +11977,11 @@ msgid "Only PDF documents can be used as header or footer."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Somente documentos PDF podem ser usados como cabeçalho ou rodapé."
+>>>>>>> upstream/18.0
 =======
 msgstr "Somente documentos PDF podem ser usados como cabeçalho ou rodapé."
 >>>>>>> upstream/18.0
@@ -11998,7 +12182,11 @@ msgid "Original (unoptimized, unresized) attachment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Anexo original (não otimizado, não redimensionado)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Anexo original (não otimizado, não redimensionado)"
 >>>>>>> upstream/18.0
@@ -12208,6 +12396,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Personalize suas cotações com páginas de cabeçalho e rodapé atrativos\n"
+"                <br>\n"
+"               para aumentar suas vendas."
+>>>>>>> upstream/18.0
 =======
 "Personalize suas cotações com páginas de cabeçalho e rodapé atrativos\n"
 "                <br>\n"
@@ -12507,7 +12701,11 @@ msgid "Please use only relational fields until the last value of your path."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Use somente campos relacionais até o último valor de seu caminho."
+>>>>>>> upstream/18.0
 =======
 msgstr "Use somente campos relacionais até o último valor de seu caminho."
 >>>>>>> upstream/18.0
@@ -12666,6 +12864,7 @@ msgstr "Artigo"
 #: model:ir.model,name:sale_pdf_quote_builder.model_product_document
 #: model:ir.model.fields.selection,name:sale_pdf_quote_builder.selection__sale_pdf_form_field__document_type__product_document
 msgid "Product Document"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13371,6 +13570,9 @@ msgstr "Documento do Artigo"
 =======
 msgstr "Documento do Artigo"
 >>>>>>> upstream/18.0
+=======
+msgstr "Documento do Artigo"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_order_line__product_document_ids
@@ -13425,7 +13627,11 @@ msgid "Product Documents"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Documentos do produto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Documentos do produto"
 >>>>>>> upstream/18.0
@@ -13584,6 +13790,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Provide header pages and footer pages to compose an attractive quotation with more information\n"
 "                        about your company, your products and you services. <br/>\n"
 "                        The pdf of your quotes will be built by putting together header pages, product descriptions,\n"
@@ -13728,6 +13935,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Provide header pages and footer pages to compose an attractive quotation "
 "with more information\n"
 "                        about your company, your products and you services. "
@@ -13745,6 +13954,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13807,6 +14019,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Se em em branco, serão utilizadas as configuradas nas definições da empresa.<"
 "br/>"
 <<<<<<< HEAD
@@ -13827,6 +14040,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"Se em branco, serão utilizadas as configuradas nas definições da empresa.<br/"
+">"
 >>>>>>> upstream/18.0
 =======
 "Se em branco, serão utilizadas as configuradas nas definições da empresa.<br/"
@@ -14181,7 +14398,11 @@ msgid "Quotation Document"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Documento do Orçamento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Documento do Orçamento"
 >>>>>>> upstream/18.0
@@ -14890,7 +15111,11 @@ msgid "Quotation Documents"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Documentos do Orçamento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Documentos do Orçamento"
 >>>>>>> upstream/18.0
@@ -15600,7 +15825,11 @@ msgid "Quotation Template"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Modelo de Cotação"
+=======
+msgstr "Modelo de Orçamento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Modelo de Orçamento"
 >>>>>>> upstream/18.0
@@ -16314,7 +16543,11 @@ msgid "Quotation's Headers & Footers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cabeçalhos e Rodapés de Orçamento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cabeçalhos e Rodapés de Orçamento"
 >>>>>>> upstream/18.0
@@ -16897,7 +17130,11 @@ msgid "Quote Builder"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Construtor de cotações"
+>>>>>>> upstream/18.0
 =======
 msgstr "Construtor de cotações"
 >>>>>>> upstream/18.0
@@ -17098,7 +17335,11 @@ msgid "Related attachment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Anexo relacionado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Anexo relacionado"
 >>>>>>> upstream/18.0
@@ -17324,7 +17565,11 @@ msgid "Sale : Visible at"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Venda: Visível em"
+>>>>>>> upstream/18.0
 =======
 msgstr "Venda: Visível em"
 >>>>>>> upstream/18.0
@@ -17526,6 +17771,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Construtor de cotações de venda em pdf: atribuir campos de formulário a "
+"documentos após a atualização"
+>>>>>>> upstream/18.0
 =======
 "Construtor de cotações de venda em pdf: atribuir campos de formulário a "
 "documentos após a atualização"
@@ -17796,7 +18046,11 @@ msgid "The field %(field_name)s doesn't exist on model %(model_name)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O campo %(field_name)s não existe no modelo %(model_name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "O campo %(field_name)s não existe no modelo %(model_name)s"
 >>>>>>> upstream/18.0
@@ -17997,7 +18251,11 @@ msgid "The form field name as written in the PDF."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O nome do campo do formulário, conforme escrito no PDF."
+>>>>>>> upstream/18.0
 =======
 msgstr "O nome do campo do formulário, conforme escrito no PDF."
 >>>>>>> upstream/18.0
@@ -18201,6 +18459,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"O caminho a seguir para preencher dinamicamente o campo do formulário. \n"
+"Deixe-o vazio para poder personalizá-lo no formulário de cotação."
+>>>>>>> upstream/18.0
 =======
 "O caminho a seguir para preencher dinamicamente o campo do formulário. \n"
 "Deixe-o vazio para poder personalizá-lo no formulário de cotação."
@@ -18453,6 +18716,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Os documentos do produto dessa linha de pedido que serão mesclados na "
+"cotação em PDF."
+>>>>>>> upstream/18.0
 =======
 "Os documentos do produto dessa linha de pedido que serão mesclados na "
 "cotação em PDF."
@@ -18702,7 +18970,11 @@ msgid "Theme Template"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Modelo do tema"
+>>>>>>> upstream/18.0
 =======
 msgstr "Modelo do tema"
 >>>>>>> upstream/18.0
@@ -18903,7 +19175,11 @@ msgid "This document"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Este documento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Este documento"
 >>>>>>> upstream/18.0
@@ -19109,7 +19385,11 @@ msgid "Upload quotation headers and footers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Carregar cabeçalhos e rodapés de cotações"
+>>>>>>> upstream/18.0
 =======
 msgstr "Carregar cabeçalhos e rodapés de cotações"
 >>>>>>> upstream/18.0
@@ -19315,7 +19595,11 @@ msgid "Visible to all"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Visível para todos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Visível para todos"
 >>>>>>> upstream/18.0
@@ -19643,7 +19927,11 @@ msgid "Voice"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Voz"
+>>>>>>> upstream/18.0
 =======
 msgstr "Voz"
 >>>>>>> upstream/18.0
@@ -20232,6 +20520,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Quando anexado a uma cotação, o documento deve ser um arquivo, não um URL."
+>>>>>>> upstream/18.0
 =======
 "Quando anexado a uma cotação, o documento deve ser um arquivo, não um URL."
 >>>>>>> upstream/18.0

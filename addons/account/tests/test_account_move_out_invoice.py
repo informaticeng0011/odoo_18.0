@@ -124,7 +124,11 @@ from odoo import fields, Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.exceptions import UserError
+=======
+from odoo.exceptions import UserError, ValidationError
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import UserError, ValidationError
 >>>>>>> upstream/18.0
@@ -705,7 +709,10 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -944,6 +951,9 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2545,6 +2555,11 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.other_currency.rounding = 0.001
+
+>>>>>>> upstream/18.0
 =======
         self.other_currency.rounding = 0.001
 
@@ -5432,7 +5447,10 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6047,6 +6065,9 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7340,7 +7361,10 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7938,6 +7962,7 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7966,6 +7991,8 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8497,6 +8524,7 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8678,6 +8706,8 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8947,6 +8977,9 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9262,6 +9295,7 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9292,6 +9326,8 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9645,6 +9681,7 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9697,6 +9734,8 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9951,6 +9990,7 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10007,6 +10047,8 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10185,6 +10227,7 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10201,6 +10244,8 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10354,6 +10399,7 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10382,6 +10428,8 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10501,6 +10549,7 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10558,6 +10607,8 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_out_invoice_currency_rate_posted_in_future(self):
         self.env['res.currency.rate'].create(
@@ -10579,6 +10630,9 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
         with freeze_time('2026-01-02'):
             move.action_post()
             self.assertEqual(move.invoice_currency_rate, 2.0)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def test_out_invoice_fiscal_position_preserves_manual_price(self):
@@ -10658,6 +10712,9 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

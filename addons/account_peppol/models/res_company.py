@@ -173,6 +173,7 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         help='Primary contact email for Peppol-related communication',
 =======
         help='Primary contact email for Peppol connection related communications and notifications.\n'
@@ -1135,6 +1136,8 @@ class ResCompany(models.Model):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         help='Primary contact email for Peppol connection related communications and notifications.\n'
              'In particular, this email is used by Odoo to reconnect your Peppol account in case of database change.',
     )
@@ -1144,6 +1147,9 @@ class ResCompany(models.Model):
         compute='_compute_account_peppol_phone_number', store=True, readonly=False,
         help='This number is used for identification purposes only.',
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1347,7 +1353,10 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1872,6 +1881,9 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2401,8 +2413,12 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not phonenumbers:
             raise ValidationError(_("Please install the phonenumbers library."))
+=======
+        self._check_phonenumbers_import()
+>>>>>>> upstream/18.0
 =======
         self._check_phonenumbers_import()
 >>>>>>> upstream/18.0
@@ -3118,10 +3134,13 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "urn:oasis:names:specification:ubl:schema:xsd:Invoice-2::Invoice##urn:cen.eu:en16931:2017#conformant#urn:fdc:peppol.eu:2017:poacc:billing:international:sg:3.0::2.1":
                     "SG Peppol BIS Billing 3.0 Invoice",
                 "urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2::CreditNote##urn:cen.eu:en16931:2017#conformant#urn:fdc:peppol.eu:2017:poacc:billing:international:sg:3.0::2.1":
                     "SG Peppol BIS Billing 3.0 Credit Note",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3237,10 +3256,13 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "urn:oasis:names:specification:ubl:schema:xsd:Invoice-2::Invoice##urn:cen.eu:en16931:2017#conformant#urn:fdc:peppol.eu:2017:poacc:billing:international:aunz:3.0::2.1":
                     "AU-NZ Peppol BIS Billing 3.0 Invoice",
                 "urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2::CreditNote##urn:cen.eu:en16931:2017#conformant#urn:fdc:peppol.eu:2017:poacc:billing:international:aunz:3.0::2.1":
                     "AU-NZ Peppol BIS Billing 3.0 CreditNote",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3452,7 +3474,12 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return peppol_user.edi_mode or config_param or 'prod'
+=======
+        demo_if_demo_identifier = 'demo' if self.peppol_eas == 'odemo' else False
+        return demo_if_demo_identifier or peppol_user.edi_mode or config_param or 'prod'
+>>>>>>> upstream/18.0
 =======
         demo_if_demo_identifier = 'demo' if self.peppol_eas == 'odemo' else False
         return demo_if_demo_identifier or peppol_user.edi_mode or config_param or 'prod'

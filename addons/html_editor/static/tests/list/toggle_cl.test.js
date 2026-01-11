@@ -110,7 +110,11 @@ describe("Range collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should turn a unordered list into a checklist between 2 checklists inside a checklist", async () => {
+=======
+        test("should turn a unordered list into a checklist between 2 checklists inside a checklist (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should turn a unordered list into a checklist between 2 checklists inside a checklist (1)", async () => {
 >>>>>>> upstream/18.0
@@ -244,6 +248,12 @@ describe("Range collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should turn a unordered list into a checklist between 2 checklists inside a checklist (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -774,6 +784,7 @@ describe("Range collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1113,6 +1124,10 @@ describe("Range collapsed", () => {
 
         test("should convert list item with line breaks into a single paragraph (1)", async () => {
 >>>>>>> upstream/18.0
+=======
+
+        test("should convert list item with line breaks into a single paragraph (1)", async () => {
+>>>>>>> upstream/18.0
             await testEditor({
                 contentBefore: '<ul class="o_checklist"><li>ab<br>cd<br>ef[]</li></ul>',
                 stepFunction: toggleCheckList,
@@ -1140,6 +1155,12 @@ describe("Range collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should convert list item with line breaks into a single paragraph (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -1403,6 +1424,9 @@ describe("Range collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1756,7 +1780,11 @@ describe("Range not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should turn a paragraph and a checklist item into two list items", async () => {
+=======
+        test("should turn a paragraph and a checklist item into two list items (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should turn a paragraph and a checklist item into two list items (1)", async () => {
 >>>>>>> upstream/18.0
@@ -1852,6 +1880,12 @@ describe("Range not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should turn a paragraph and a checklist item into two list items (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 

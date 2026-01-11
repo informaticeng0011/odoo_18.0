@@ -29,7 +29,11 @@ class HrContract(models.Model):
         # If there are existing leaves that are spanned by this new
         # contract, update their resource calendar to the current one.
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not (vals.get("state") == 'open' or vals.get('kanban_state') == 'done'):
+=======
+        if not (vals.get("state") == 'open' or vals.get('kanban_state') == 'done' or vals.get('resource_calendar_id', False)):
+>>>>>>> upstream/18.0
 =======
         if not (vals.get("state") == 'open' or vals.get('kanban_state') == 'done' or vals.get('resource_calendar_id', False)):
 >>>>>>> upstream/18.0
@@ -44,7 +48,11 @@ class HrContract(models.Model):
         try:
             for contract in self:
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if vals.get('state') != 'open' and contract.state != 'draft':
+=======
+                if vals.get('state') != 'open' and contract.state not in ('draft', 'open'):
+>>>>>>> upstream/18.0
 =======
                 if vals.get('state') != 'open' and contract.state not in ('draft', 'open'):
 >>>>>>> upstream/18.0
@@ -62,6 +70,7 @@ class HrContract(models.Model):
                              ('kanban_state', '=', 'done'),
                     ]).sorted(key=lambda c: {'open': 1, 'close': 2, 'draft': 3, 'cancel': 4}[c.state])
                     if len(overlapping_contracts.resource_calendar_id) <= 1:
+<<<<<<< HEAD
 <<<<<<< HEAD
                         if overlapping_contracts and leave.resource_calendar_id != overlapping_contracts[0].resource_calendar_id:
                             leave.resource_calendar_id = overlapping_contracts[0].resource_calendar_id
@@ -85,6 +94,8 @@ class HrContract(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
                         super(HrContract, contract).write(vals)
                         if overlapping_contracts and leave.resource_calendar_id != overlapping_contracts[0].resource_calendar_id:
                             leave.resource_calendar_id = overlapping_contracts[0].resource_calendar_id
@@ -92,6 +103,9 @@ class HrContract(models.Model):
                                 leave.with_context(leave_skip_date_check=True, leave_skip_state_check=True)._compute_date_from_to()
                                 if leave.state == 'validate':
                                     leave._validate_leave_request()
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                         continue
                     if leave.id not in leaves_state:

@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* link_tracker
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25,6 +26,9 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+# * link_tracker
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -35,6 +39,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -47,11 +52,15 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# "Marta (wacm)" <wacm@odoo.com>, 2026.
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -89,13 +98,26 @@ msgid "<i class=\"fa fa-fw fa-mouse-pointer\" aria-label=\"Clicks\" role=\"img\"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Odoo, 2024\n"
 "Language-Team: Polish (https://app.transifex.com/odoo/teams/41243/pl/)\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-01-10 09:05+0000\n"
+"Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
+"Language-Team: Polish <https://translate.odoo.com/projects/odoo-18/"
+"link_tracker/pl/>\n"
+>>>>>>> upstream/18.0
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
+<<<<<<< HEAD
 "(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
 "n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+=======
+"(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || "
+"(n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: link_tracker
 #: model_terms:ir.ui.view,arch_db:link_tracker.utm_campaign_view_kanban
@@ -107,6 +129,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -121,11 +144,20 @@ msgid ""
 =======
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr ""
+"<i class=\"fa fa-fw fa-mouse-pointer\" aria-label=\"Kliknięcia\" role=\"img\""
+"/>"
+>>>>>>> upstream/18.0
 
 #. module: link_tracker
 #: model_terms:ir.ui.view,arch_db:link_tracker.link_tracker_view_form
 msgid "<span class=\"o_stat_text\">Visit Page</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Odwiedź stronę</span>"
+>>>>>>> upstream/18.0
 
 #. module: link_tracker
 #: model:ir.model.fields,field_description:link_tracker.field_link_tracker__absolute_url
@@ -178,6 +210,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Combinations of Link Tracker values (URL, campaign, medium, source, and label) must be unique.\n"
 =======
 "Combinations of Link Tracker values (URL, campaign, medium, source, and "
@@ -210,6 +243,17 @@ msgid ""
 "The following combinations are already used: \n"
 "- %(error_lines)s"
 msgstr ""
+=======
+"Combinations of Link Tracker values (URL, campaign, medium, source, and "
+"label) must be unique.\n"
+"The following combinations are already used: \n"
+"- %(error_lines)s"
+msgstr ""
+"Kombinacje wartości trackera linków "
+"(URL, kampania, medium, źródło i etykieta) muszą być unikatowe.\n"
+"Następujące kombinacje są już w użyciu: \n"
+"- %(error_lines)s"
+>>>>>>> upstream/18.0
 
 #. module: link_tracker
 #: model:ir.model.fields,field_description:link_tracker.field_link_tracker_click__country_id
@@ -292,7 +336,11 @@ msgstr "Data ostatniej aktualizacji"
 #: model:ir.model.fields,field_description:link_tracker.field_link_tracker_code__link_id
 #: model_terms:ir.ui.view,arch_db:link_tracker.link_tracker_click_view_search
 msgid "Link"
+<<<<<<< HEAD
 msgstr "Odnośnik"
+=======
+msgstr "Link"
+>>>>>>> upstream/18.0
 
 #. module: link_tracker
 #: model_terms:ir.ui.view,arch_db:link_tracker.link_tracker_click_view_form
@@ -309,7 +357,11 @@ msgstr "Kliknięcia linku"
 #: model:ir.model,name:link_tracker.model_link_tracker
 #: model:ir.ui.menu,name:link_tracker.link_tracker_menu_main
 msgid "Link Tracker"
+<<<<<<< HEAD
 msgstr "Śledzenie źródeł"
+=======
+msgstr "Śledzenie linków"
+>>>>>>> upstream/18.0
 
 #. module: link_tracker
 #: model:ir.model,name:link_tracker.model_link_tracker_click
@@ -331,12 +383,20 @@ msgstr "Linki"
 #. module: link_tracker
 #: model_terms:ir.ui.view,arch_db:link_tracker.link_tracker_click_view_tree
 msgid "Links Clicks"
+<<<<<<< HEAD
 msgstr "Klinknięcia linków"
+=======
+msgstr "Kliknięcia linków"
+>>>>>>> upstream/18.0
 
 #. module: link_tracker
 #: model:ir.model,name:link_tracker.model_mail_render_mixin
 msgid "Mail Render Mixin"
+<<<<<<< HEAD
 msgstr "mixin renderowania poczty"
+=======
+msgstr "Mixin renderowania poczty"
+>>>>>>> upstream/18.0
 
 #. module: link_tracker
 #: model:ir.model.fields,field_description:link_tracker.field_link_tracker__medium_id
@@ -367,7 +427,11 @@ msgstr "Tytuł strony"
 #. module: link_tracker
 #: model:ir.model.fields,field_description:link_tracker.field_link_tracker__redirected_url
 msgid "Redirected URL"
+<<<<<<< HEAD
 msgstr "przekieruj URL"
+=======
+msgstr "Przekierowany URL"
+>>>>>>> upstream/18.0
 
 #. module: link_tracker
 #: model:ir.model.fields,field_description:link_tracker.field_link_tracker_code__code
@@ -399,6 +463,7 @@ msgstr "Docelowy URL"
 #: model:ir.model.fields,help:link_tracker.field_link_tracker__campaign_id
 #: model:ir.model.fields,help:link_tracker.field_link_tracker_click__campaign_id
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -439,6 +504,13 @@ msgid ""
 msgstr ""
 "To nazwa, która pomaga ci w śledzeniu swoich różnych działań promocyjnych, "
 "np. Fall_Drive, Christmas_Special"
+=======
+"This is a name that helps you keep track of your different campaign efforts, "
+"e.g. Fall_Drive, Christmas_Special"
+msgstr ""
+"To nazwa, która pomaga śledzić wyniki różnych kampanii np. Fall_Drive, "
+"Christmas_Special"
+>>>>>>> upstream/18.0
 
 #. module: link_tracker
 #: model:ir.model.fields,help:link_tracker.field_link_tracker__medium_id
@@ -470,8 +542,13 @@ msgid ""
 "Trackers are used to collect count stat about click on links and generate "
 "short URLs."
 msgstr ""
+<<<<<<< HEAD
 "Trakery są używane do zbierania statystyk o kliknięciach linków i do "
 "generowania skróconych URLi"
+=======
+"Trackery są używane do zbierania statystyk o kliknięciach linków i do "
+"generowania skróconych URLi."
+>>>>>>> upstream/18.0
 
 #. module: link_tracker
 #: model_terms:ir.ui.view,arch_db:link_tracker.link_tracker_view_form
@@ -511,3 +588,8 @@ msgstr "Link do strony WWW"
 #: code:addons/link_tracker/models/link_tracker.py:0
 msgid "“%s” is not a valid link, links cannot redirect to the current page."
 msgstr ""
+<<<<<<< HEAD
+=======
+"“%s” nie jest prawidłowym linkiem, ponieważ linki nie mogą przekierowywać na "
+"aktualną stronę."
+>>>>>>> upstream/18.0

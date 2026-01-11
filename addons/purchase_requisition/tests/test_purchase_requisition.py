@@ -597,7 +597,10 @@ class TestPurchaseRequisition(TestPurchaseRequisitionCommon):
         self.assertEqual(len(po_orders[0].alternative_po_ids), 4)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -637,6 +640,9 @@ class TestPurchaseRequisition(TestPurchaseRequisitionCommon):
         self.assertEqual(po.order_line.price_unit, purchase_requisition.line_ids.price_unit, 'The unit price should have been set from the purchase requisition')
         self.assertEqual(po.order_line.taxes_id, purchase_requisition.line_ids.product_id.supplier_taxes_id, 'The blanket order taxes should have been set')
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

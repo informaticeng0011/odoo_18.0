@@ -130,6 +130,10 @@ import { browser } from "@web/core/browser/browser";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { _t } from "@web/core/l10n/translation";
+>>>>>>> upstream/18.0
 =======
 import { _t } from "@web/core/l10n/translation";
 >>>>>>> upstream/18.0
@@ -861,6 +865,10 @@ export function useMessageHighlight(duration = 2000) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    const notification = useState(useService("notification"));
+>>>>>>> upstream/18.0
 =======
     const notification = useState(useService("notification"));
 >>>>>>> upstream/18.0
@@ -1303,6 +1311,7 @@ export function useMessageHighlight(duration = 2000) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (thread.notEq(message.thread)) {
                 return;
             }
@@ -1602,6 +1611,8 @@ export function useMessageHighlight(duration = 2000) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             if (thread.model !== "mail.box" && thread.notEq(message.thread)) {
                 return;
             }
@@ -1671,6 +1682,9 @@ export function useMessageHighlight(duration = 2000) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1926,6 +1940,9 @@ export function useMessageHighlight(duration = 2000) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

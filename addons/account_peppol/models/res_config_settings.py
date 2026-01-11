@@ -263,7 +263,11 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         raise UserError(_("This feature is deprecated. Contact odoo support if you need a migration key."))
+=======
+        raise UserError(_("This feature is deprecated. Contact Odoo support if you need a migration key."))
+>>>>>>> upstream/18.0
 =======
         raise UserError(_("This feature is deprecated. Contact Odoo support if you need a migration key."))
 >>>>>>> upstream/18.0
@@ -833,6 +837,7 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     # Note: Deprecated; the button is permanently invisible.
     # Disabling services can lead to complicance issues and is not necessary
@@ -1199,6 +1204,8 @@ class ResConfigSettings(models.TransientModel):
     # since all existing services should just work.
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
     def button_peppol_reset_to_sender(self):
         """Reset the participant back to sender and deregister it from the SMP"""
         self.ensure_one()
@@ -1210,6 +1217,9 @@ class ResConfigSettings(models.TransientModel):
     # Note: Deprecated; the button is permanently invisible.
     # Disabling services can lead to complicance issues and is not necessary
     # since all existing services should just work.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def button_account_peppol_configure_services(self):
         wizard = self.env['account_peppol.service.wizard'].create({

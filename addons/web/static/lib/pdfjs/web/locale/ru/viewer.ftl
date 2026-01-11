@@ -84,12 +84,15 @@ pdfjs-bookmark-button-label = Текущая страница
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Used in Firefox for Android.
 pdfjs-open-in-app-button =
     .title = Открыть в приложении
 # Used in Firefox for Android.
 # Length of the translation matters since we are in a mobile context, with limited screen estate.
 pdfjs-open-in-app-button-label = Открыть в программе
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -243,7 +246,10 @@ pdfjs-document-properties-file-size = Размер файла:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -348,6 +354,9 @@ pdfjs-document-properties-size-mb = { NUMBER($mb, maximumSignificantDigits: 3) }
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -460,6 +469,12 @@ pdfjs-document-properties-modification-date = Дата изменения:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#   $dateObj (Date) - the creation/modification date and time of the PDF file
+pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+# Variables:
+>>>>>>> upstream/18.0
 =======
 #   $dateObj (Date) - the creation/modification date and time of the PDF file
 pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
@@ -816,6 +831,12 @@ pdfjs-text-annotation-type =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Variables:
+#   $dateObj (Date) - the modification date and time of the annotation
+pdfjs-annotation-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+>>>>>>> upstream/18.0
 =======
 # Variables:
 #   $dateObj (Date) - the modification date and time of the annotation
@@ -1037,8 +1058,11 @@ pdfjs-editor-highlight-button-label = Выделение
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 pdfjs-highlight-floating-button =
     .title = Выделение
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1206,7 +1230,10 @@ pdfjs-editor-resizer-label-middle-left = В центре слева — изме
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1319,6 +1346,9 @@ pdfjs-editor-resizer-middle-left =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1443,7 +1473,10 @@ pdfjs-editor-highlight-show-all-button =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1597,6 +1630,9 @@ pdfjs-editor-alt-text-settings-close-button = Закрыть
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

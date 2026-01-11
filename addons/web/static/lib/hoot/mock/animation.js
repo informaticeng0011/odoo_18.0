@@ -34,6 +34,10 @@ import { MockEventTarget } from "../hoot_utils";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { ensureTest } from "../main_runner";
+>>>>>>> upstream/18.0
 =======
 import { ensureTest } from "../main_runner";
 >>>>>>> upstream/18.0
@@ -150,6 +154,7 @@ const { animate, scroll, scrollBy, scrollIntoView, scrollTo } = Element.prototyp
 // Internal
 //-----------------------------------------------------------------------------
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -699,6 +704,8 @@ const forceInstantScroll = (args) =>
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 function forceInstantScroll(args) {
     return !allowAnimations && args[0] && typeof args[0] === "object"
         ? [{ ...args[0], behavior: "instant" }, ...args.slice(1)]
@@ -885,6 +892,9 @@ function forceInstantScroll(args) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1348,6 +1358,10 @@ export function disableAnimations(enable = false) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    ensureTest("disableAnimations");
+>>>>>>> upstream/18.0
 =======
     ensureTest("disableAnimations");
 >>>>>>> upstream/18.0
@@ -1486,6 +1500,10 @@ export function enableTransitions(enable = true) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    ensureTest("enableTransitions");
+>>>>>>> upstream/18.0
 =======
     ensureTest("enableTransitions");
 >>>>>>> upstream/18.0

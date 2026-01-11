@@ -48,7 +48,10 @@ registry.category("web_tour.tours").add('test_mrp_production_product_catalog', {
         },
 ]});
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 registry.category("web_tour.tours").add('test_mrp_multi_step_product_catalog_component_transfer', {
     steps: () => [
@@ -80,4 +83,7 @@ registry.category("web_tour.tours").add('test_mrp_multi_step_product_catalog_com
             trigger: 'div.o_field_widget:contains("WH/MO/")',
         },
 ]});
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -9,6 +9,10 @@ import {
     registerWebsitePreviewTour,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    assertCssVariable,
+>>>>>>> upstream/18.0
 =======
     assertCssVariable,
 >>>>>>> upstream/18.0
@@ -136,8 +140,11 @@ registerWebsitePreviewTour("snippet_image_gallery_reorder", {
     trigger: ".snippet-option-ImageTools we-select:contains('Filter') we-toggler:contains('Blur')",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 }]);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 }, {
@@ -158,6 +165,9 @@ registerWebsitePreviewTour("snippet_image_gallery_reorder", {
     assertCssVariable("height", "400px", ":iframe .s_image_gallery"),
 ]);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

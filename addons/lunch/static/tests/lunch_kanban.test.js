@@ -159,7 +159,11 @@ import { LunchKanbanRenderer } from "@lunch/views/kanban";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { defineMailModels } from "@mail/../tests/mail_test_helpers";
+=======
+import { defineMailModels, mailModels } from "@mail/../tests/mail_test_helpers";
+>>>>>>> upstream/18.0
 =======
 import { defineMailModels, mailModels } from "@mail/../tests/mail_test_helpers";
 >>>>>>> upstream/18.0
@@ -775,6 +779,10 @@ const lunchInfos = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    wallet_with_config: 12.05,
+>>>>>>> upstream/18.0
 =======
     wallet_with_config: 12.05,
 >>>>>>> upstream/18.0
@@ -1309,12 +1317,15 @@ async function mountLunchView() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return await mountView(
         Object.assign({
             type: "kanban",
             resModel: "lunch.product",
             arch: `
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1796,6 +1807,9 @@ async function mountLunchView() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2283,8 +2297,12 @@ async function mountLunchView() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         })
     );
+=======
+    });
+>>>>>>> upstream/18.0
 =======
     });
 >>>>>>> upstream/18.0
@@ -2973,7 +2991,11 @@ class Order extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const mailModels = defineMailModels();
+=======
+defineMailModels();
+>>>>>>> upstream/18.0
 =======
 defineMailModels();
 >>>>>>> upstream/18.0
@@ -3618,6 +3640,7 @@ describe.current.tags("desktop");
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 onRpc("/lunch/user_location_get", () => {
     return Location._records[0].id;
 =======
@@ -3685,6 +3708,8 @@ onRpc("/lunch/infos", () => {
     return lunchInfos;
 });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4121,6 +4146,9 @@ onRpc("/lunch/infos", () => lunchInfos);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4593,12 +4621,17 @@ test("Basic rendering with alerts", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("/lunch/user_location_get", () => {
         return userInfos.user_location[0];
     });
     onRpc("/lunch/infos", () => {
         return userInfos;
     });
+=======
+    onRpc("/lunch/user_location_get", () => userInfos.user_location[0]);
+    onRpc("/lunch/infos", () => userInfos);
+>>>>>>> upstream/18.0
 =======
     onRpc("/lunch/user_location_get", () => userInfos.user_location[0]);
     onRpc("/lunch/infos", () => userInfos);
@@ -5335,9 +5368,13 @@ test("Location change", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("/lunch/user_location_get", () => {
         return userInfos.user_location[0];
     });
+=======
+    onRpc("/lunch/user_location_get", () => userInfos.user_location[0]);
+>>>>>>> upstream/18.0
 =======
     onRpc("/lunch/user_location_get", () => userInfos.user_location[0]);
 >>>>>>> upstream/18.0
@@ -5954,10 +5991,13 @@ test("Manager: user change", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     mailModels
         .find((m) => m.name === "ResUsers")
         ._records.push({ id: 1, name: "Johnny Hache" }, { id: 2, name: "David Elora" });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6440,6 +6480,7 @@ test("Manager: user change", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6474,6 +6515,11 @@ test("Manager: user change", async () => {
     onRpc("/lunch/user_location_get", () => {
         return userInfos.user_location[0];
     });
+=======
+    let userInfos = { ...lunchInfos, is_manager: true };
+    let expectedUserId = false; // false as we are requesting for the current user
+    onRpc("/lunch/user_location_get", () => userInfos.user_location[0]);
+>>>>>>> upstream/18.0
 =======
     let userInfos = { ...lunchInfos, is_manager: true };
     let expectedUserId = false; // false as we are requesting for the current user
@@ -7405,12 +7451,17 @@ test("Trash existing order", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("/lunch/user_location_get", () => {
         return userInfos.user_location[0];
     });
     onRpc("/lunch/infos", () => {
         return userInfos;
     });
+=======
+    onRpc("/lunch/user_location_get", () => userInfos.user_location[0]);
+    onRpc("/lunch/infos", () => userInfos);
+>>>>>>> upstream/18.0
 =======
     onRpc("/lunch/user_location_get", () => userInfos.user_location[0]);
     onRpc("/lunch/infos", () => userInfos);
@@ -8185,6 +8236,7 @@ test("Change existing order", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("/lunch/user_location_get", () => {
         return userInfos.user_location[0];
     });
@@ -8195,6 +8247,8 @@ test("Change existing order", async () => {
         const { params } = await request.json();
         expect(params.args[1]).toBe(1, { message: "should increment order quantity by 1" });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8631,6 +8685,9 @@ test("Change existing order", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9108,12 +9165,17 @@ test("Confirm existing order", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("/lunch/user_location_get", () => {
         return userInfos.user_location[0];
     });
     onRpc("/lunch/infos", () => {
         return userInfos;
     });
+=======
+    onRpc("/lunch/user_location_get", () => userInfos.user_location[0]);
+    onRpc("/lunch/infos", () => userInfos);
+>>>>>>> upstream/18.0
 =======
     onRpc("/lunch/user_location_get", () => userInfos.user_location[0]);
     onRpc("/lunch/infos", () => userInfos);

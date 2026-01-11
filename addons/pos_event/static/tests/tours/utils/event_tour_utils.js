@@ -41,7 +41,10 @@ export function answerGlobalSelectQuestion(question, answer) {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 export function answerGlobalTextQuestion(question, answer) {
@@ -55,6 +58,9 @@ export function answerGlobalTextQuestion(question, answer) {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

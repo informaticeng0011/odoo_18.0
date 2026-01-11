@@ -135,6 +135,10 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            ('SRRC', "SG - Reverse charge regime for Business-to-Business (“B2B”) supplies of imported services"),
+>>>>>>> upstream/18.0
 =======
             ('SRRC', "SG - Reverse charge regime for Business-to-Business (“B2B”) supplies of imported services"),
 >>>>>>> upstream/18.0

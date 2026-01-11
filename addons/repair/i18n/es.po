@@ -121,6 +121,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* repair
 # 
 # Translators:
@@ -128,6 +129,8 @@
 # Larissa Manderfeld, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -495,6 +498,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -740,6 +746,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1118,6 +1125,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-25 10:09+0000\n"
 "Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
 "Language-Team: Spanish <https://translate.odoo.com/projects/odoo-18/repair/"
@@ -1126,6 +1136,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1511,6 +1522,11 @@ msgstr ""
 "0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
+"0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #. odoo-python
@@ -1549,7 +1565,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "* The 'New' status is used when a user is encoding a new and unconfirmed repair order.\n"
+=======
+"* The 'New' status is used when a user is encoding a new and unconfirmed "
+"repair order.\n"
+>>>>>>> upstream/18.0
 =======
 "* The 'New' status is used when a user is encoding a new and unconfirmed "
 "repair order.\n"
@@ -1590,12 +1611,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "* El estado 'Nuevo' se usa cuando un usuario está configurando una orden de reparación nueva o que no se ha confirmado.\n"
 "* El estado 'Confirmado' se usa cuando un usuario confirma una orden de reparación.\n"
 "* El estado 'En reparación' se usa cuando se está realizando una reparación.\n"
 "* El estado 'Reparado' se usa cuando se terminó una reparación.\n"
 "* El estado 'Cancelado' se usa cuando un usuario cancela una orden de reparación."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1623,6 +1647,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1933,8 +1960,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "La conversión entre las unidades de medidas sólo puede ocurrir si pertenecen"
 " a la misma categoría. La conversión se basará en los índices establecidos."
+=======
+"La conversión entre las unidades de medidas sólo puede ocurrir si pertenecen "
+"a la misma categoría. La conversión se basará en los índices establecidos."
+>>>>>>> upstream/18.0
 =======
 "La conversión entre las unidades de medidas sólo puede ocurrir si pertenecen "
 "a la misma categoría. La conversión se basará en los índices establecidos."
@@ -2163,7 +2195,11 @@ msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nombre mostrado"
+=======
+msgstr "Nombre para mostrar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nombre para mostrar"
 >>>>>>> upstream/18.0
@@ -2669,12 +2705,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                add or replace and record the time you spent on the different\n"
 "                operations."
 msgstr ""
 "En una orden de reparación, se puede detallar los componentes que eliminar,\n"
 "añadir o sustituir y registrar el tiempo que pasó en las diferentes operaciones."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2700,6 +2739,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2957,8 +2999,12 @@ msgstr "Tipo de operación"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/repair/models/product.py:0
 #: code:addons/repair/models/repair.py:0
+=======
+#: code:addons/repair/models/product.py:0 code:addons/repair/models/repair.py:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/repair/models/product.py:0 code:addons/repair/models/repair.py:0
 >>>>>>> upstream/18.0
@@ -3449,7 +3495,11 @@ msgid "Replenish on Order (MTO)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Obtener bajo pedido (fabricación sobre pedido)"
+=======
+msgstr "Reposición bajo pedido (fabricación sobre pedido)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Reposición bajo pedido (fabricación sobre pedido)"
 >>>>>>> upstream/18.0
@@ -4052,12 +4102,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This is the default source location for the product to be repaired in repair"
 " orders with this operation type."
 msgstr ""
 "Esta es la ubicación de origen por defecto para el producto a reparar en las"
 " órdenes de reparación con este tipo de operación."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4081,6 +4134,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4269,12 +4325,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot create a quotation for a repair order that is already linked to an existing sale order.\n"
 "Concerned repair order(s):\n"
 "%(ref_str)s"
 msgstr ""
 "No puede crear un presupuesto para una orden de reparación que ya está vinculada a un pedido de venta existente.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4300,6 +4359,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4327,12 +4389,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You need to define a customer for a repair order in order to create an associated quotation.\n"
 "Concerned repair order(s):\n"
 "%(ref_str)s"
 msgstr ""
 "Para crear un presupuesto asociado, es necesario que defina a un cliente para la orden de reparación.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4358,6 +4423,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

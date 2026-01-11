@@ -129,7 +129,11 @@ import { markup } from "@odoo/owl";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 VariantMixin._onChangeCombinationStock = function (ev, $parent, combination) {
+=======
+VariantMixin._onChangeCombinationStock = async function (ev, $parent, combination) {
+>>>>>>> upstream/18.0
 =======
 VariantMixin._onChangeCombinationStock = async function (ev, $parent, combination) {
 >>>>>>> upstream/18.0
@@ -580,7 +584,12 @@ VariantMixin._onChangeCombinationStock = async function (ev, $parent, combinatio
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         combination.free_qty -= parseInt(combination.cart_qty);
+=======
+        const unavailableQty = await VariantMixin._getUnavailableQty(combination);
+        combination.free_qty -= unavailableQty;
+>>>>>>> upstream/18.0
 =======
         const unavailableQty = await VariantMixin._getUnavailableQty(combination);
         combination.free_qty -= unavailableQty;
@@ -1163,7 +1172,10 @@ VariantMixin._onChangeCombinationStock = async function (ev, $parent, combinatio
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1486,6 +1498,9 @@ VariantMixin._getUnavailableQty = async function (combination) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

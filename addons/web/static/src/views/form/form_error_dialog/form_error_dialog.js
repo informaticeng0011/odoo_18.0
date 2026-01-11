@@ -132,6 +132,10 @@ export class FormErrorDialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        onRedirect: { type: Function, optional: true },
+>>>>>>> upstream/18.0
 =======
         onRedirect: { type: Function, optional: true },
 >>>>>>> upstream/18.0
@@ -626,6 +630,7 @@ export class FormErrorDialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         }
     }
 
@@ -633,6 +638,8 @@ export class FormErrorDialog extends Component {
         this.action.doAction(this.redirectAction);
         this.stay();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1010,6 +1017,9 @@ export class FormErrorDialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

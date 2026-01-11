@@ -187,6 +187,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * We remove all the attributes `src` and `alt` from the template and replace them by
  * data attributes (e.g. `src` to `data-src`, `alt` to `data-alt`).
  * alt attribute causes issues with scroll tests. Indeed, alt is
@@ -195,6 +196,8 @@
  * as well to make sure images won't trigger a GET request on the
  * server.
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -742,6 +745,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1109,6 +1115,7 @@
  * @param {Element} template
  */
 const replaceAttributes = (template) => {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1664,6 +1671,8 @@ const replaceAttributes = (template) => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     for (const [tagName, value] of SRC_REPLACERS) {
         for (const prefix of ATTRIBUTE_PREFIXES) {
             const targetAttribute = `${prefix}src`;
@@ -1855,6 +1864,9 @@ const replaceAttributes = (template) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2223,6 +2235,7 @@ const replaceAttributes = (template) => {
     }
 };
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2778,6 +2791,8 @@ const ATTRIBUTE_DEFAULT_VALUES = [
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 const ONE_FUSCHIA_PIXEL_IMG =
     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z9DwHwAGBQKA3H7sNwAAAABJRU5ErkJggg==";
 
@@ -2965,6 +2980,9 @@ const SRC_REPLACERS = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
