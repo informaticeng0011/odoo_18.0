@@ -30,7 +30,11 @@ class HrContract(models.Model):
         # contract, update their resource calendar to the current one.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not (vals.get("state") == 'open' or vals.get('kanban_state') == 'done'):
+=======
+        if not (vals.get("state") == 'open' or vals.get('kanban_state') == 'done' or vals.get('resource_calendar_id', False)):
+>>>>>>> upstream/18.0
 =======
         if not (vals.get("state") == 'open' or vals.get('kanban_state') == 'done' or vals.get('resource_calendar_id', False)):
 >>>>>>> upstream/18.0
@@ -49,7 +53,11 @@ class HrContract(models.Model):
             for contract in self:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if vals.get('state') != 'open' and contract.state != 'draft':
+=======
+                if vals.get('state') != 'open' and contract.state not in ('draft', 'open'):
+>>>>>>> upstream/18.0
 =======
                 if vals.get('state') != 'open' and contract.state not in ('draft', 'open'):
 >>>>>>> upstream/18.0
@@ -70,6 +78,7 @@ class HrContract(models.Model):
                              ('kanban_state', '=', 'done'),
                     ]).sorted(key=lambda c: {'open': 1, 'close': 2, 'draft': 3, 'cancel': 4}[c.state])
                     if len(overlapping_contracts.resource_calendar_id) <= 1:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                         if overlapping_contracts and leave.resource_calendar_id != overlapping_contracts[0].resource_calendar_id:
@@ -96,6 +105,8 @@ class HrContract(models.Model):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                         super(HrContract, contract).write(vals)
                         if overlapping_contracts and leave.resource_calendar_id != overlapping_contracts[0].resource_calendar_id:
                             leave.resource_calendar_id = overlapping_contracts[0].resource_calendar_id
@@ -104,6 +115,9 @@ class HrContract(models.Model):
                                 if leave.state == 'validate':
                                     leave._validate_leave_request()
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

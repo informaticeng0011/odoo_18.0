@@ -444,7 +444,11 @@ export class Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return !this._[IS_DELETED_SYM];
+=======
+        return !this[IS_DELETED_SYM];
+>>>>>>> upstream/18.0
 =======
         return !this[IS_DELETED_SYM];
 >>>>>>> upstream/18.0

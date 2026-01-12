@@ -57,6 +57,10 @@ from odoo import api, fields, models, Command, _
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools import float_compare
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import float_compare
 >>>>>>> upstream/18.0
@@ -345,6 +349,7 @@ class AccountMove(models.Model):
             'name': _("Purchase Matching"),
             'res_model': 'purchase.bill.line.match',
             'domain': [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1126,6 +1131,9 @@ class AccountMove(models.Model):
 =======
                 ('partner_id', 'in', (self.partner_id | self.partner_id.commercial_partner_id).ids),
 >>>>>>> upstream/18.0
+=======
+                ('partner_id', 'in', (self.partner_id | self.partner_id.commercial_partner_id).ids),
+>>>>>>> upstream/18.0
                 ('company_id', 'in', self.env.company.ids),
                 ('account_move_id', 'in', [self.id, False]),
             ],
@@ -1312,6 +1320,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            precision = self.env["decimal.precision"].precision_get("Product Price")
+>>>>>>> upstream/18.0
 =======
             precision = self.env["decimal.precision"].precision_get("Product Price")
 >>>>>>> upstream/18.0
@@ -1529,11 +1541,14 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if purchase_line.price_unit < invoice_line.price_unit:
                         break
 
                     if (invoice_line.price_unit == purchase_line.price_unit
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1688,6 +1703,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2190,7 +2208,10 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2681,6 +2702,9 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

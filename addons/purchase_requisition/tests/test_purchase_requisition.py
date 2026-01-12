@@ -598,7 +598,10 @@ class TestPurchaseRequisition(TestPurchaseRequisitionCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -641,6 +644,9 @@ class TestPurchaseRequisition(TestPurchaseRequisitionCommon):
         self.assertEqual(po.order_line.taxes_id, purchase_requisition.line_ids.product_id.supplier_taxes_id, 'The blanket order taxes should have been set')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

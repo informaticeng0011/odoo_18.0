@@ -755,7 +755,11 @@ export class CollaborationOdooPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const lastStepId = content && this.getLastHistoryStepId(content);
+=======
+        const lastStepId = content && content.match(/data-last-history-steps="([\d,]+)"/)?.[1];
+>>>>>>> upstream/18.0
 =======
         const lastStepId = content && content.match(/data-last-history-steps="([\d,]+)"/)?.[1];
 >>>>>>> upstream/18.0

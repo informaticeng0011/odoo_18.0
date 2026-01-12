@@ -132,7 +132,10 @@ from odoo.exceptions import UserError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools import split_every
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -456,6 +459,7 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             not company.account_peppol_migration_key
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -762,10 +766,15 @@ class AccountEdiProxyClientUser(models.Model):
             not company.sudo().account_peppol_migration_key
             and (participant_info := company.partner_id._peppol_lookup_participant(edi_identification)) is not None
 >>>>>>> upstream/18.0
+=======
+            not company.sudo().account_peppol_migration_key
+            and (participant_info := company.partner_id._peppol_lookup_participant(edi_identification)) is not None
+>>>>>>> upstream/18.0
             and company.partner_id._check_peppol_participant_exists(participant_info, edi_identification, check_company=True)
         ):
             error_msg = _(
                 "A participant with these details has already been registered on the network. "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1496,6 +1505,10 @@ class AccountEdiProxyClientUser(models.Model):
                 "If you have previously registered to a Peppol service, please deregister."
             )
 >>>>>>> upstream/18.0
+=======
+                "If you have previously registered to a Peppol service, please deregister."
+            )
+>>>>>>> upstream/18.0
             raise UserError(error_msg)
 
     # -------------------------------------------------------------------------
@@ -1599,6 +1612,10 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        move._autopost_bill()
+>>>>>>> upstream/18.0
 =======
         move._autopost_bill()
 >>>>>>> upstream/18.0
@@ -1842,6 +1859,12 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Context added to not break stable policy: useful to tweak on databases processing large invoices
+        job_count = self._context.get('peppol_crons_job_count') or BATCH_SIZE
+        need_retrigger = False
+>>>>>>> upstream/18.0
 =======
         # Context added to not break stable policy: useful to tweak on databases processing large invoices
         job_count = self._context.get('peppol_crons_job_count') or BATCH_SIZE
@@ -2596,6 +2619,10 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            edi_user = edi_user.with_company(edi_user.company_id)
+>>>>>>> upstream/18.0
 =======
             edi_user = edi_user.with_company(edi_user.company_id)
 >>>>>>> upstream/18.0
@@ -3106,6 +3133,7 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             for uuids in split_every(BATCH_SIZE, message_uuids):
                 proxy_acks = []
                 # retrieve attachments for filtered messages
@@ -3183,6 +3211,8 @@ class AccountEdiProxyClientUser(models.Model):
                     params={'message_uuids': uuids},
                 )
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3595,6 +3625,10 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            edi_user = edi_user.with_company(edi_user.company_id)
+>>>>>>> upstream/18.0
 =======
             edi_user = edi_user.with_company(edi_user.company_id)
 >>>>>>> upstream/18.0
@@ -4006,6 +4040,7 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 edi_user._call_peppol_proxy(
                     "/api/peppol/1/ack",
                     params={'message_uuids': list(message_uuids.keys())},
@@ -4381,6 +4416,8 @@ class AccountEdiProxyClientUser(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             edi_user._call_peppol_proxy(
                 "/api/peppol/1/ack",
                 params={'message_uuids': list(message_uuids.keys())},
@@ -4391,6 +4428,9 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4525,6 +4565,9 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4790,7 +4833,11 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.company_id.account_peppol_migration_key = migration_key
+=======
+            self.company_id.sudo().account_peppol_migration_key = migration_key
+>>>>>>> upstream/18.0
 =======
             self.company_id.sudo().account_peppol_migration_key = migration_key
 >>>>>>> upstream/18.0
@@ -4815,7 +4862,11 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'peppol_migration_key': self.company_id.account_peppol_migration_key,
+=======
+            'peppol_migration_key': self.company_id.sudo().account_peppol_migration_key,
+>>>>>>> upstream/18.0
 =======
             'peppol_migration_key': self.company_id.sudo().account_peppol_migration_key,
 >>>>>>> upstream/18.0
@@ -4870,7 +4921,11 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'migration_key': company.account_peppol_migration_key,
+=======
+                'migration_key': company.sudo().account_peppol_migration_key,
+>>>>>>> upstream/18.0
 =======
                 'migration_key': company.sudo().account_peppol_migration_key,
 >>>>>>> upstream/18.0
@@ -4888,7 +4943,11 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         company.account_peppol_migration_key = False
+=======
+        company.sudo().account_peppol_migration_key = False
+>>>>>>> upstream/18.0
 =======
         company.sudo().account_peppol_migration_key = False
 >>>>>>> upstream/18.0
@@ -4920,6 +4979,7 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.company_id.account_peppol_migration_key = False
 =======
         self.company_id.sudo().account_peppol_migration_key = False
@@ -4927,6 +4987,8 @@ class AccountEdiProxyClientUser(models.Model):
         self.unlink()
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         self.company_id.sudo().account_peppol_migration_key = False
@@ -4950,6 +5012,9 @@ class AccountEdiProxyClientUser(models.Model):
         self.company_id.account_peppol_migration_key = False
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -158,6 +158,10 @@ SupplierParty = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'cac:SellerContact': Contact,
+>>>>>>> upstream/18.0
 =======
     'cac:SellerContact': Contact,
 >>>>>>> upstream/18.0
@@ -234,6 +238,10 @@ Delivery = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'cbc:ID': {},
+>>>>>>> upstream/18.0
 =======
         'cbc:ID': {},
 >>>>>>> upstream/18.0
@@ -540,6 +548,10 @@ MonetaryTotal = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'cbc:PayableRoundingAmount': {},
+>>>>>>> upstream/18.0
 =======
     'cbc:PayableRoundingAmount': {},
 >>>>>>> upstream/18.0

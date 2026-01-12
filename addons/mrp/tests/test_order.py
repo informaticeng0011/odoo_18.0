@@ -5386,7 +5386,10 @@ class TestMrpOrder(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5909,6 +5912,7 @@ class TestMrpOrder(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6055,6 +6059,8 @@ class TestMrpOrder(TestMrpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6353,6 +6359,7 @@ class TestMrpOrder(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6507,6 +6514,8 @@ class TestMrpOrder(TestMrpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6573,6 +6582,9 @@ class TestMrpOrder(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6683,7 +6695,10 @@ class TestTourMrpOrder(HttpCase):
         self.assertEqual(len(mo.move_byproduct_ids.move_line_ids), 1)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -6719,6 +6734,9 @@ class TestTourMrpOrder(HttpCase):
         ])
         self.assertEqual(component_transfer.product_uom_qty, 2)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -184,7 +184,11 @@ class ProductComboItem(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ondelete='cascade',
+=======
+        ondelete='restrict',
+>>>>>>> upstream/18.0
 =======
         ondelete='restrict',
 >>>>>>> upstream/18.0

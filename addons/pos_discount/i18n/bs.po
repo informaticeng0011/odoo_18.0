@@ -47,6 +47,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -180,6 +184,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -418,6 +423,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2025-12-31 16:37+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -430,6 +437,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -449,6 +459,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -709,6 +720,11 @@ msgstr ""
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: pos_discount
 #. odoo-python
@@ -738,7 +754,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/pos_discount/static/src/overrides/components/discount_button/discount_button.xml:0
+=======
+#: code:addons/pos_discount/static/src/overrides/components/control_buttons/control_buttons.xml:0
+#: model:product.template,name:pos_discount.product_product_consumable_product_template
+>>>>>>> upstream/18.0
 =======
 #: code:addons/pos_discount/static/src/overrides/components/control_buttons/control_buttons.xml:0
 #: model:product.template,name:pos_discount.product_product_consumable_product_template
@@ -789,7 +810,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/pos_discount/static/src/overrides/components/discount_button/discount_button.js:0
+=======
+#: code:addons/pos_discount/static/src/overrides/components/control_buttons/control_buttons.js:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/pos_discount/static/src/overrides/components/control_buttons/control_buttons.js:0
 >>>>>>> upstream/18.0
@@ -835,7 +860,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/pos_discount/static/src/overrides/components/discount_button/discount_button.js:0
+=======
+#: code:addons/pos_discount/static/src/overrides/components/control_buttons/control_buttons.js:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/pos_discount/static/src/overrides/components/control_buttons/control_buttons.js:0
 >>>>>>> upstream/18.0
@@ -872,12 +901,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/pos_discount/static/src/overrides/components/discount_button/discount_button.js:0
 msgid "No tax"
 msgstr ""
 
 #. module: pos_discount
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -904,6 +936,7 @@ msgid "Point of Sale Configuration"
 msgstr "Postavke prodajnog mjesta"
 
 #. module: pos_discount
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1073,6 +1106,8 @@ msgstr "Sesija POS-a"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:pos_discount.field_res_config_settings__pos_discount_product_id
 msgid "Pos Discount Product"
 msgstr ""
@@ -1086,10 +1121,16 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/pos_discount/static/src/overrides/components/discount_button/discount_button.js:0
 msgid "Tax: %s"
 msgstr ""
+=======
+#: model:ir.model,name:pos_discount.model_product_product
+msgid "Product Variant"
+msgstr "Varijante proizvoda"
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model,name:pos_discount.model_product_product
 msgid "Product Variant"
@@ -1147,7 +1188,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/pos_discount/static/src/overrides/components/discount_button/discount_button.js:0
+=======
+#: code:addons/pos_discount/static/src/overrides/components/control_buttons/control_buttons.js:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/pos_discount/static/src/overrides/components/control_buttons/control_buttons.js:0
 >>>>>>> upstream/18.0
@@ -1189,6 +1234,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+#~ msgid "Point of Sale Session"
+#~ msgstr "Sesija POS-a"
+>>>>>>> upstream/18.0
 =======
 
 #~ msgid "Point of Sale Session"

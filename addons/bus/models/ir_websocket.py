@@ -129,6 +129,11 @@ class IrWebsocket(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if self.env.user and not self.env.user._is_public():
+            channels.append((self.env.user.partner_id, "presence"))
+>>>>>>> upstream/18.0
 =======
         if self.env.user and not self.env.user._is_public():
             channels.append((self.env.user.partner_id, "presence"))
