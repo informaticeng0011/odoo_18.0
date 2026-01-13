@@ -145,6 +145,12 @@ test("Sort partner suggestions by recent chats", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    await contains(
+        ".o-mail-DiscussSidebarCategory-chat + .o-mail-DiscussSidebarChannel-container:text(User 2)"
+    );
+>>>>>>> upstream/18.0
 =======
     await contains(
         ".o-mail-DiscussSidebarCategory-chat + .o-mail-DiscussSidebarChannel-container:text(User 2)"

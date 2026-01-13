@@ -324,6 +324,30 @@
                          ref('base.USD'),
                      ])]"
         />
+<<<<<<< HEAD
+=======
+    </record>    
+
+    <record id="payment_method_appota" model="payment.method">
+        <field name="name">Appota</field>
+        <field name="code">appota</field>
+        <field name="sequence">1000</field>
+        <field name="active">False</field>
+        <field name="image" type="base64" file="payment/static/img/appota.png"/>
+        <field name="support_tokenization">False</field>
+        <field name="support_express_checkout">False</field>
+        <field name="support_refund">none</field>
+        <field name="supported_country_ids"
+               eval="[Command.set([
+                         ref('base.vn'),
+                     ])]"
+        />
+        <field name="supported_currency_ids"
+               eval="[Command.set([
+                         ref('base.VND'),
+                     ])]"
+        />
+>>>>>>> upstream/18.0
     </record>
 
     <record id="payment_method_atome" model="payment.method">
@@ -840,7 +864,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <field name="support_tokenization">True</field>
+=======
+        <field name="support_tokenization">False</field>
+>>>>>>> upstream/18.0
 =======
         <field name="support_tokenization">False</field>
 >>>>>>> upstream/18.0
@@ -1485,7 +1513,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <field name="image" type="base64" file="payment/static/img/clearpay.png"/>
+=======
+        <field name="image" type="base64" file="payment/static/img/cofidis.png"/>
+>>>>>>> upstream/18.0
 =======
         <field name="image" type="base64" file="payment/static/img/cofidis.png"/>
 >>>>>>> upstream/18.0
@@ -2844,6 +2876,26 @@
         />
     </record>
 
+<<<<<<< HEAD
+=======
+    <record id="payment_method_kfh" model="payment.method">
+        <field name="name">Kuwait Finance House</field>
+        <field name="code">KFH</field>
+        <field name="sequence">1000</field>
+        <field name="active">False</field>
+        <field name="image" type="base64" file="payment/static/img/kfh.png"/>
+        <field name="support_tokenization">False</field>
+        <field name="support_express_checkout">False</field>
+        <field name="support_refund">none</field>
+        <field name="supported_country_ids"
+               eval="[Command.set([ref('base.my')])]"
+        />
+        <field name="supported_currency_ids"
+               eval="[Command.set([ref('base.MYR')])]"
+        />
+    </record>
+
+>>>>>>> upstream/18.0
     <record id="payment_method_linepay" model="payment.method">
         <field name="name">LINE Pay</field>
         <field name="code">linepay</field>
@@ -4212,12 +4264,24 @@
                eval="[Command.set([
                          ref('base.id'),
                          ref('base.ph'),
+<<<<<<< HEAD
+=======
+                         ref('base.th'),
+                         ref('base.my'),
+                         ref('base.vn'),
+>>>>>>> upstream/18.0
                      ])]"
         />
         <field name="supported_currency_ids"
                eval="[Command.set([
                          ref('base.IDR'),
+<<<<<<< HEAD
 
+=======
+                         ref('base.THB'),
+                         ref('base.MYR'),
+                         ref('base.VND'),
+>>>>>>> upstream/18.0
                      ])]"
         />
     </record>
@@ -4680,6 +4744,26 @@
         />
     </record>
 
+<<<<<<< HEAD
+=======
+    <record id="payment_method_vietcapital" model="payment.method">
+        <field name="name">Viet Capital</field>
+        <field name="code">vietcapital</field>
+        <field name="sequence">1000</field>
+        <field name="active">False</field>
+        <field name="image" type="base64" file="payment/static/img/vietcapital.png"/>
+        <field name="support_tokenization">False</field>
+        <field name="support_express_checkout">False</field>
+        <field name="support_refund">none</field>
+        <field name="supported_country_ids"
+               eval="[Command.set([ref('base.vn')])]"
+        />
+        <field name="supported_currency_ids"
+               eval="[Command.set([ref('base.VND')])]"
+        />
+    </record>
+
+>>>>>>> upstream/18.0
     <record id="payment_method_vipps" model="payment.method">
         <field name="name">Vipps</field>
         <field name="code">vipps</field>
@@ -4724,6 +4808,26 @@
         />
     </record>
 
+<<<<<<< HEAD
+=======
+    <record id="payment_method_vpbank" model="payment.method">
+        <field name="name">VP Bank</field>
+        <field name="code">vpb</field>
+        <field name="sequence">1000</field>
+        <field name="active">False</field>
+        <field name="image" type="base64" file="payment/static/img/vpb.png"/>
+        <field name="support_tokenization">False</field>
+        <field name="support_express_checkout">False</field>
+        <field name="support_refund">none</field>
+        <field name="supported_country_ids"
+               eval="[Command.set([ref('base.vn')])]"
+        />
+        <field name="supported_currency_ids"
+               eval="[Command.set([ref('base.VND')])]"
+        />
+    </record>
+
+>>>>>>> upstream/18.0
     <record id="payment_method_wallets_india" model="payment.method">
         <field name="name">Wallets India</field>
         <field name="code">wallets_india</field>
@@ -4812,10 +4916,18 @@
                          ref('base.CNY'),
                          ref('base.HKD'),
                          ref('base.JPY'),
+<<<<<<< HEAD
+=======
+                         ref('base.MYR'),
+>>>>>>> upstream/18.0
                          ref('base.NZD'),
                          ref('base.GBP'),
                          ref('base.USD'),
                          ref('base.SGD'),
+<<<<<<< HEAD
+=======
+                         ref('base.THB'),
+>>>>>>> upstream/18.0
                      ])]"
         />
     </record>
@@ -5279,6 +5391,26 @@
         <field name="image" type="base64" file="payment/static/img/unionpay.png"/>
     </record>
 
+<<<<<<< HEAD
+=======
+    <record id="payment_method_viettelpay" model="payment.method">
+        <field name="name">Viettel Pay</field>
+        <field name="code">viettelpay</field>
+        <field name="sequence">1000</field>
+        <field name="active">False</field>
+        <field name="image" type="base64" file="payment/static/img/viettelpay.png"/>
+        <field name="support_tokenization">False</field>
+        <field name="support_express_checkout">False</field>
+        <field name="support_refund">none</field>
+        <field name="supported_country_ids"
+               eval="[Command.set([ref('base.vn')])]"
+        />
+        <field name="supported_currency_ids"
+               eval="[Command.set([ref('base.VND')])]"
+        />
+    </record>
+
+>>>>>>> upstream/18.0
     <record id="payment_method_visa" model="payment.method">
         <field name="name">VISA</field>
         <field name="code">visa</field>
@@ -5288,4 +5420,41 @@
         <field name="image" type="base64" file="payment/static/img/visa.png"/>
     </record>
 
+<<<<<<< HEAD
+=======
+    <record id="payment_method_vnptwallet" model="payment.method">
+        <field name="name">VNPT Money</field>
+        <field name="code">vnptwallet</field>
+        <field name="sequence">1000</field>
+        <field name="active">False</field>
+        <field name="image" type="base64" file="payment/static/img/vnpt.png"/>
+        <field name="support_tokenization">False</field>
+        <field name="support_express_checkout">False</field>
+        <field name="support_refund">none</field>
+        <field name="supported_country_ids"
+               eval="[Command.set([ref('base.vn')])]"
+        />
+        <field name="supported_currency_ids"
+               eval="[Command.set([ref('base.VND')])]"
+        />
+    </record>
+
+    <record id="payment_method_woori" model="payment.method">
+        <field name="name">Woori Bank</field>
+        <field name="code">woori</field>
+        <field name="sequence">1000</field>
+        <field name="active">False</field>
+        <field name="image" type="base64" file="payment/static/img/woori.png"/>
+        <field name="support_tokenization">False</field>
+        <field name="support_express_checkout">False</field>
+        <field name="support_refund">none</field>
+        <field name="supported_country_ids"
+               eval="[Command.set([ref('base.vn')])]"
+        />
+        <field name="supported_currency_ids"
+               eval="[Command.set([ref('base.VND')])]"
+        />
+    </record>
+
+>>>>>>> upstream/18.0
 </odoo>

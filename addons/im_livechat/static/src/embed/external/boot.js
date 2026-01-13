@@ -115,6 +115,10 @@ odoo.livechatReady = new Deferred();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        translatableAttributes: ["data-tooltip"],
+>>>>>>> upstream/18.0
 =======
         translatableAttributes: ["data-tooltip"],
 >>>>>>> upstream/18.0

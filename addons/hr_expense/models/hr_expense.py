@@ -677,6 +677,11 @@ class HrExpense(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if not self.has_access('write') or (self.sheet_id and not self.sheet_id.has_access('write')):
+            raise UserError(_("You don't have the rights to attach a document to a submitted expense. Please reset the expense report to draft first."))
+>>>>>>> upstream/18.0
 =======
         if not self.has_access('write') or (self.sheet_id and not self.sheet_id.has_access('write')):
             raise UserError(_("You don't have the rights to attach a document to a submitted expense. Please reset the expense report to draft first."))
@@ -1361,6 +1366,7 @@ class HrExpense(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1690,6 +1696,11 @@ class HrExpense(models.Model):
                 'state' in vals
                 and vals['state'] not in {'draft', 'submitted'}
 >>>>>>> upstream/18.0
+=======
+        if (
+                'state' in vals
+                and vals['state'] not in {'draft', 'submitted'}
+>>>>>>> upstream/18.0
                 and not (self.env.user.has_group('hr_expense.group_hr_expense_manager') or self.env.su)
                 and any(state == 'draft' for state in self.mapped('state'))
         ):
@@ -1828,6 +1839,9 @@ class HrExpense(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

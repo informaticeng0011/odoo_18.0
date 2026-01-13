@@ -98,6 +98,7 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         help='If left empty, only Odoo users have extended rights in PoS')
 
 <<<<<<< HEAD
@@ -802,6 +803,10 @@ class ResConfigSettings(models.TransientModel):
         help='Employees linked to users with the PoS Manager role are automatically added to this list')
 
 >>>>>>> upstream/18.0
+=======
+        help='Employees linked to users with the PoS Manager role are automatically added to this list')
+
+>>>>>>> upstream/18.0
     @api.model_create_multi
     def create(self, vals_list):
         for vals in vals_list:
@@ -1014,6 +1019,9 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1632,8 +1640,11 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 self.pos_advanced_employee_ids -= employee
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2250,6 +2261,9 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

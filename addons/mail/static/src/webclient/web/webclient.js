@@ -81,7 +81,13 @@ patch(WebClient.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this._subscribePush();
+=======
+            this.env.bus.addEventListener("WEB_CLIENT_READY", () => this._subscribePush(), {
+                once: true,
+            });
+>>>>>>> upstream/18.0
 =======
             this.env.bus.addEventListener("WEB_CLIENT_READY", () => this._subscribePush(), {
                 once: true,
@@ -507,6 +513,10 @@ patch(WebClient.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        await this.serviceWorkerActivatedDeferred;
+>>>>>>> upstream/18.0
 =======
         await this.serviceWorkerActivatedDeferred;
 >>>>>>> upstream/18.0
@@ -836,6 +846,10 @@ patch(WebClient.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        await this.serviceWorkerActivatedDeferred;
+>>>>>>> upstream/18.0
 =======
         await this.serviceWorkerActivatedDeferred;
 >>>>>>> upstream/18.0

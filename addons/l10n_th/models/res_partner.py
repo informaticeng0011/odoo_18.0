@@ -2,6 +2,10 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 from odoo import models, fields
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 class ResPartner(models.Model):
     _inherit = "res.partner"
 
@@ -13,4 +17,9 @@ class ResPartner(models.Model):
                 partner.l10n_th_branch_name = ""
             else:
                 code = partner.company_registry
+<<<<<<< HEAD
                 partner.l10n_th_branch_name = f"Branch {code}" if code else "Headquarter"
+=======
+                partner.l10n_th_branch_name = partner.env._("Branch %(code)s", code=code) if code else partner.env._(
+                    "Headquarter")
+>>>>>>> upstream/18.0

@@ -55,7 +55,10 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -167,6 +170,9 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1990,7 +1996,11 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'carryover_day': 20,
+=======
+            'carryover_day': 31,
+>>>>>>> upstream/18.0
 =======
             'carryover_day': 31,
 >>>>>>> upstream/18.0
@@ -2660,7 +2670,11 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with freeze_time("2023-04-20"):
+=======
+        with freeze_time("2023-04-30"):
+>>>>>>> upstream/18.0
 =======
         with freeze_time("2023-04-30"):
 >>>>>>> upstream/18.0
@@ -3324,12 +3338,15 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'date_from': '2023-04-20',
             })
             allocation.action_validate()
 
         with freeze_time("2024-04-20"):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3824,6 +3841,9 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6471,7 +6491,10 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7217,6 +7240,7 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7381,6 +7405,8 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7843,6 +7869,7 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7971,6 +7998,8 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8167,6 +8196,7 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8237,6 +8267,8 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8380,6 +8412,7 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8426,4 +8459,44 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_accrual_leaves_cancel_cron_with_refused_allocation(self):
+        """ Test that the _cancel_invalid_leaves cron cancels leaves without valid allocation"""
+        leave_type = self.env['hr.leave.type'].create({
+            'name': 'Test Accrual',
+            'time_type': 'leave',
+            'requires_allocation': 'yes',
+            'allocation_validation_type': 'no_validation',
+            'leave_validation_type': 'no_validation',
+            'allows_negative': True,
+            'max_allowed_negative': 2,
+        })
+
+        accrual_plan = self.env['hr.leave.accrual.plan'].with_context(tracking_disable=True).create({
+            'name': 'Accrual Plan',
+            'carryover_date': 'year_start',
+            'accrued_gain_time': 'end',
+        })
+
+        with freeze_time("2024-01-01"):
+            allocation = self.env['hr.leave.allocation'].create({
+                'employee_id': self.employee_emp.id,
+                'holiday_status_id': leave_type.id,
+                'allocation_type': 'accrual',
+                'accrual_plan_id': accrual_plan.id,
+                'number_of_days': 1,
+            })
+
+            leave = self.env['hr.leave'].create({
+                'employee_id': self.employee_emp.id,
+                'holiday_status_id': leave_type.id,
+                'request_date_from': '2024-01-05',
+                'request_date_to': '2024-01-05',
+            })
+
+            allocation.action_refuse()
+            self.env['hr.leave']._cancel_invalid_leaves()
+            self.assertEqual(leave.state, 'cancel')
 >>>>>>> upstream/18.0

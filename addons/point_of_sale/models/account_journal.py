@@ -3,6 +3,11 @@
 # Copyright (C) 2004-2008 PC Solutions (<http://pcsol.be>). All Rights Reserved
 from odoo import fields, models, api, _
 from odoo.exceptions import ValidationError
+<<<<<<< HEAD
+=======
+from odoo.addons.base.models.ir_model import MODULE_UNINSTALL_FLAG
+
+>>>>>>> upstream/18.0
 
 class AccountJournal(models.Model):
     _inherit = 'account.journal'
@@ -32,6 +37,15 @@ class AccountJournal(models.Model):
         for journal in self:
             journal._check_no_active_payments()
 
+<<<<<<< HEAD
+=======
+    @api.ondelete(at_uninstall=True)
+    def _unlink_journal_cascade_pos_payment_methods(self):
+        if self.env.context.get(MODULE_UNINSTALL_FLAG):  # only cascade when switching CoA
+            self.pos_payment_method_ids.unlink()
+            self.env['pos.config'].search([('journal_id', 'in', self.ids)]).unlink()
+
+>>>>>>> upstream/18.0
     def action_archive(self):
         self._check_no_active_payments()
         return super().action_archive()

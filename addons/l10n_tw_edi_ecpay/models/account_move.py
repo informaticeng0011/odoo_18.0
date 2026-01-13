@@ -431,6 +431,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    @api.model
+>>>>>>> upstream/18.0
 =======
     @api.model
 >>>>>>> upstream/18.0
@@ -759,6 +763,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
             if self.l10n_tw_edi_is_b2b:
                 item_price = float_round(twd_excluded_amount / line.quantity, precision_rounding=0.01)
@@ -770,6 +775,8 @@ class AccountMove(models.Model):
                 else:
                     item_price = float_round(twd_included_amount / line.quantity, precision_rounding=0.01)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -982,6 +989,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1191,7 +1201,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 item_price = float_round(twd_included_amount / line.quantity, precision_rounding=0.01)
+=======
+                item_price = float_round(twd_included_amount / quantity, precision_rounding=0.01)
+>>>>>>> upstream/18.0
 =======
                 item_price = float_round(twd_included_amount / quantity, precision_rounding=0.01)
 >>>>>>> upstream/18.0
@@ -1476,7 +1490,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "ItemCount": line.quantity,
+=======
+                    "ItemCount": quantity,
+>>>>>>> upstream/18.0
 =======
                     "ItemCount": quantity,
 >>>>>>> upstream/18.0
@@ -1756,7 +1774,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "ItemCount": line.quantity,
+=======
+                    "ItemCount": quantity,
+>>>>>>> upstream/18.0
 =======
                     "ItemCount": quantity,
 >>>>>>> upstream/18.0
@@ -2062,12 +2084,15 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             # Check if the credit note has amount due, we need to add it to the sale amount
             item_list[-1]["ItemAmount"] += self.amount_residual_signed
             item_list[-1]["ItemAmount"] = float_round(item_list[-1]["ItemAmount"], precision_rounding=0.01)
             item_list[-1]["ItemPrice"] = float_round(item_list[-1]["ItemAmount"] / item_list[-1]["ItemCount"], precision_rounding=0.01)
             sale_amount += self.amount_residual_signed
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2237,7 +2262,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "CustomerAddr": self.partner_id.contact_address,
+=======
+            "CustomerAddr": self.partner_id._l10n_tw_edi_formatted_address(),
+>>>>>>> upstream/18.0
 =======
             "CustomerAddr": self.partner_id._l10n_tw_edi_formatted_address(),
 >>>>>>> upstream/18.0
@@ -2271,10 +2300,13 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "InvoiceRemark": self.ref,
         }
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2291,6 +2323,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2373,7 +2408,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "AllowanceDate": self.l10n_tw_edi_invoice_create_date.strftime("%Y-%m-%d %H:%M:%S"),
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2441,7 +2479,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2567,8 +2608,13 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self.partner_id.commercial_partner_id.contact_address_inline:
             buyer_json_data["Address"] = self.partner_id.commercial_partner_id.contact_address_inline
+=======
+        if partner := self.partner_id.commercial_partner_id:
+            buyer_json_data["Address"] = partner._l10n_tw_edi_formatted_address()
+>>>>>>> upstream/18.0
 =======
         if partner := self.partner_id.commercial_partner_id:
             buyer_json_data["Address"] = partner._l10n_tw_edi_formatted_address()
@@ -2659,6 +2705,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2822,7 +2871,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2984,6 +3036,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

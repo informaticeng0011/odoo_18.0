@@ -431,7 +431,11 @@ const FontFamilyPickerUserValueWidget = SelectUserValueWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const fontURL = `https://fonts.googleapis.com/css?family=${encodeURIComponent(font).replace(/%20/g, '+')}`;
+=======
+            const fontURL = `https://fonts.googleapis.com/css?family=${encodeURIComponent(font).replace(/%20/g, '+')}:300,300i,400,400i,700,700i`;
+>>>>>>> upstream/18.0
 =======
             const fontURL = `https://fonts.googleapis.com/css?family=${encodeURIComponent(font).replace(/%20/g, '+')}:300,300i,400,400i,700,700i`;
 >>>>>>> upstream/18.0
@@ -3393,7 +3397,10 @@ options.registry.Parallax = options.Class.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3766,6 +3773,9 @@ options.registry.Parallax = options.Class.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4689,7 +4699,13 @@ options.registry.DeviceVisibility = options.Class.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.$target[0].classList.remove('o_snippet_override_invisible');
+=======
+        this.options.wysiwyg.odooEditor.observerUnactive("onTargetHide");
+        this.$target[0].classList.remove('o_snippet_override_invisible');
+        this.options.wysiwyg.odooEditor.observerActive("onTargetHide");
+>>>>>>> upstream/18.0
 =======
         this.options.wysiwyg.odooEditor.observerUnactive("onTargetHide");
         this.$target[0].classList.remove('o_snippet_override_invisible');
@@ -5966,7 +5982,13 @@ options.registry.DeviceVisibility = options.Class.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.$target[0].classList.add('o_snippet_override_invisible');
+=======
+            this.options.wysiwyg.odooEditor.observerUnactive("onTargetShow");
+            this.$target[0].classList.add('o_snippet_override_invisible');
+            this.options.wysiwyg.odooEditor.observerActive("onTargetShow");
+>>>>>>> upstream/18.0
 =======
             this.options.wysiwyg.odooEditor.observerUnactive("onTargetShow");
             this.$target[0].classList.add('o_snippet_override_invisible');
@@ -8488,7 +8510,10 @@ options.registry.MegaMenuLayout = options.registry.SelectTemplate.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8951,6 +8976,9 @@ options.registry.MegaMenuLayout = options.registry.SelectTemplate.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -132,6 +132,10 @@ import { unformat } from "../_helpers/format";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { queryOne } from "@odoo/hoot-dom";
+>>>>>>> upstream/18.0
 =======
 import { queryOne } from "@odoo/hoot-dom";
 >>>>>>> upstream/18.0
@@ -675,7 +679,11 @@ describe("splitAroundUntil", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(result.tagName === "FONT").toBe(true);
+=======
+        expect(result.tagName).toBe("FONT");
+>>>>>>> upstream/18.0
 =======
         expect(result.tagName).toBe("FONT");
 >>>>>>> upstream/18.0
@@ -1346,7 +1354,11 @@ describe("splitAroundUntil", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(result.tagName === "FONT").toBe(true);
+=======
+        expect(result.tagName).toBe("FONT");
+>>>>>>> upstream/18.0
 =======
         expect(result.tagName).toBe("FONT");
 >>>>>>> upstream/18.0
@@ -2006,7 +2018,12 @@ describe("splitAroundUntil", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(result.tagName === "FONT" && result !== font).toBe(true);
+=======
+        expect(result.tagName).toBe("FONT");
+        expect(result).not.toBe(font);
+>>>>>>> upstream/18.0
 =======
         expect(result.tagName).toBe("FONT");
         expect(result).not.toBe(font);
@@ -2827,6 +2844,7 @@ describe("splitAroundUntil", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(result === p.childNodes[1]).toBe(true);
 =======
         expect(result).toBe(p.childNodes[1]);
@@ -2948,6 +2966,8 @@ describe("splitAroundUntil", () => {
         expect(p.outerHTML).toBe("<p>a<font><span>bcd</span></font>e</p>");
     });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3406,6 +3426,9 @@ describe("splitAroundUntil", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3891,7 +3914,10 @@ describe("fillEmpty", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3910,6 +3936,9 @@ describe("crash fixes", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

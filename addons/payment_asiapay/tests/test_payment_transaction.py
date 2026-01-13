@@ -237,7 +237,10 @@ class TestPaymentTransaction(AsiaPayCommon, PaymentHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -875,6 +878,9 @@ class TestPaymentTransaction(AsiaPayCommon, PaymentHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1514,7 +1520,11 @@ class TestPaymentTransaction(AsiaPayCommon, PaymentHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'account_id': self.company_data['default_account_revenue'].id,
+=======
+                    'account_id': default_account_revenue.id,
+>>>>>>> upstream/18.0
 =======
                     'account_id': default_account_revenue.id,
 >>>>>>> upstream/18.0

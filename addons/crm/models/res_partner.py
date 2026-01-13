@@ -123,6 +123,7 @@ class Partner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.model
     def default_get(self, fields):
         rec = super(Partner, self).default_get(fields)
@@ -145,6 +146,8 @@ class Partner(models.Model):
                 )
         return rec
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

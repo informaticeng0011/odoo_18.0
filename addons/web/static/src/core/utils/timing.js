@@ -357,7 +357,13 @@ export function throttleForAnimation(func) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  *      the leading edge instead of the trailing edge.
+=======
+ *      the leading edge of the timeout.
+ * @param {boolean} [options.trailing=!options.immediate] whether the function should be called on
+ *      the trailing edge of the timeout.
+>>>>>>> upstream/18.0
 =======
  *      the leading edge of the timeout.
  * @param {boolean} [options.trailing=!options.immediate] whether the function should be called on
@@ -1425,11 +1431,14 @@ export function useDebounced(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     { execBeforeUnmount = false, immediate = false } = {}
 ) {
     const component = useComponent();
     const debounced = debounce(callback.bind(component), delay, immediate);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1962,6 +1971,9 @@ export function useDebounced(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

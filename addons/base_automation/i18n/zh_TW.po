@@ -51,6 +51,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* base_automation
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -377,6 +378,9 @@
 =======
 # * base_automation
 >>>>>>> upstream/18.0
+=======
+# * base_automation
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Tony Ng, 2024
@@ -488,6 +492,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -598,6 +603,10 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# "Tony Ng (ngto)" <ngto@odoo.com>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
 =======
 # "Tony Ng (ngto)" <ngto@odoo.com>, 2025.
@@ -807,6 +816,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1149,6 +1159,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-21 02:26+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Chinese (Traditional Han script) <https://translate.odoo.com/"
@@ -1203,6 +1216,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1308,6 +1324,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1526,6 +1543,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
+=======
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 =======
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.12.2\n"
@@ -1775,6 +1796,7 @@ msgstr "<code>env</code>：觸發操作的環境"
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2364,6 +2386,11 @@ msgstr "<code>model</code>：觸發操作所針對的記錄的模型，是空白
 "a void recordset"
 msgstr "<code>model</code>：觸發操作所針對的記錄的模型，是空白的記錄集"
 >>>>>>> upstream/18.0
+=======
+"<code>model</code>: model of the record on which the action is triggered; is "
+"a void recordset"
+msgstr "<code>model</code>：觸發操作所針對的記錄的模型，是空白的記錄集"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
@@ -2477,7 +2504,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<code>payload</code>：呼叫的有效荷載（GET 參數、JSON 主體），以 dict (字典)形式存在。"
+=======
+msgstr ""
+"<code>payload</code>：呼叫的有效荷載（GET 參數、JSON 主體），以 dict (字典)形"
+"式存在。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "<code>payload</code>：呼叫的有效荷載（GET 參數、JSON 主體），以 dict (字典)形"
@@ -3127,8 +3160,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<code>時間、</code><code>日期時間</code>、<code>dateutil</code>、<code>時區</code>:有用的 "
 "Python 庫"
+=======
+"<code>時間、</code><code>日期時間</code>、<code>dateutil</code>、<code>時區</"
+"code>:有用的 Python 庫"
+>>>>>>> upstream/18.0
 =======
 "<code>時間、</code><code>日期時間</code>、<code>dateutil</code>、<code>時區</"
 "code>:有用的 Python 庫"
@@ -3676,7 +3714,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-info-circle\"/> 對於來自其他 Odoo 實例的任何 webhook，預設目標記錄獲取器都將立即生效。"
+=======
+"<i class=\"fa fa-info-circle\"/> 對於來自其他 Odoo 實例的任何 webhook，預設目"
+"標記錄獲取器都將立即生效。"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-info-circle\"/> 對於來自其他 Odoo 實例的任何 webhook，預設目"
 "標記錄獲取器都將立即生效。"
@@ -4220,8 +4263,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-warning\"/> "
 "<u>無論保存與否</u>，用戶界面更改觸發的自動化規則都會在<u>每次</u>觀察欄位更改時執行。"
+=======
+"<i class=\"fa fa-warning\"/> <u>無論保存與否</u>，用戶界面更改觸發的自動化規"
+"則都會在<u>每次</u>觀察欄位更改時執行。"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-warning\"/> <u>無論保存與否</u>，用戶界面更改觸發的自動化規"
 "則都會在<u>每次</u>觀察欄位更改時執行。"
@@ -4767,11 +4815,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                                        <span invisible=\"evaluation_type != 'equation'\">as</span>"
 msgstr ""
 "<span invisible=\"evaluation_type != 'value'\"> 至 </span>\n"
 "                                                        <span invisible=\"evaluation_type != 'equation'\">作為</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5096,6 +5147,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5421,6 +5475,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <span invisible=\"trigger != 'on_time_updated'\">after last update</span>\n"
 "                                    <span invisible=\"trigger != 'on_time'\">after</span>"
 msgstr ""
@@ -5428,6 +5483,8 @@ msgstr ""
 "                                    <span invisible=\"trigger != 'on_time_updated'\">上次更新後</span>\n"
 "                                    <span invisible=\"trigger != 'on_time'\">在之後</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5756,6 +5813,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6099,7 +6159,12 @@ msgstr "<span>將其設置為</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<strong><i class=\"fa fa-lock\"/> Keep it secret, keep it safe.</strong>"
+=======
+msgid ""
+"<strong><i class=\"fa fa-lock\"/> Keep it secret, keep it safe.</strong>"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "<strong><i class=\"fa fa-lock\"/> Keep it secret, keep it safe.</strong>"
@@ -6693,7 +6758,10 @@ msgstr "套用於"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_search
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7071,7 +7139,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "如果您認為網址不再安全，請更改網址的秘密。您必須將呼叫此 webhook 的自動系統更新為新的網址。"
+=======
+msgstr ""
+"如果您認為網址不再安全，請更改網址的秘密。您必須將呼叫此 webhook 的自動系統更"
+"新為新的網址。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "如果您認為網址不再安全，請更改網址的秘密。您必須將呼叫此 webhook 的自動系統更"
@@ -7784,7 +7858,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "觸發日期之後延遲多久才執行操作。若想在觸發日期之前執行操作，可以輸入負數，例如在會議開始前 15 分鐘發送提醒。"
+=======
+msgstr ""
+"觸發日期之後延遲多久才執行操作。若想在觸發日期之前執行操作，可以輸入負數，例"
+"如在會議開始前 15 分鐘發送提醒。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "觸發日期之後延遲多久才執行操作。若想在觸發日期之前執行操作，可以輸入負數，例"
@@ -8465,9 +8545,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                but any data created after this could potentially be corrupted,\n"
 "                as you are effectively disabling a customization that may set\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8790,6 +8873,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9146,7 +9232,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "刪除記錄時不能使用電子郵件、追隨者或活動操作類型，因為沒有更多記錄可應用這些更改！"
+=======
+msgstr ""
+"刪除記錄時不能使用電子郵件、追隨者或活動操作類型，因為沒有更多記錄可應用這些"
+"更改！"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "刪除記錄時不能使用電子郵件、追隨者或活動操作類型，因為沒有更多記錄可應用這些"
@@ -9842,8 +9934,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If present, this condition must be satisfied before executing the automation"
 " rule."
+=======
+"If present, this condition must be satisfied before executing the automation "
+"rule."
+>>>>>>> upstream/18.0
 =======
 "If present, this condition must be satisfied before executing the automation "
 "rule."
@@ -10389,6 +10486,7 @@ msgstr "如果存在，此條件必須在更新記錄之前滿足。建立記錄
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -10772,6 +10870,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_search
 msgid "Include Archived"
 msgstr "包括已封存"
@@ -10827,6 +10927,9 @@ msgstr "包括已封存"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11096,8 +11199,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Model of action %(action_name)s should match the one from automated rule "
 "%(rule_name)s."
+=======
+"Model of action %(action_name)s should match the one from automated rule %"
+"(rule_name)s."
+>>>>>>> upstream/18.0
 =======
 "Model of action %(action_name)s should match the one from automated rule %"
 "(rule_name)s."
@@ -11735,7 +11843,11 @@ msgid "Send Webhook Notification"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "發送 Webhook 通知"
+=======
+msgstr "傳送網絡鈎子（webhook）通知"
+>>>>>>> upstream/18.0
 =======
 msgstr "傳送網絡鈎子（webhook）通知"
 >>>>>>> upstream/18.0
@@ -12001,7 +12113,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                after a month of inactivity or remind yourself to follow-up on\n"
+=======
+"                after a month of inactivity or remind yourself to follow-up "
+"on\n"
+>>>>>>> upstream/18.0
 =======
 "                after a month of inactivity or remind yourself to follow-up "
 "on\n"
@@ -12546,12 +12663,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Send an email when an object changes state, archive records after a month of"
 " inactivity or remind yourself to follow-up on tasks when a specific tag is "
 "added.<br>With Automation Rules, you can automate any workflow."
 msgstr ""
 "可將系統設定為在物件狀態變更時，自動發送電子郵件，將一個月沒有操作活動的記錄封存，或在新增特定標籤時，提醒自己跟進任務。<br>運用「自動化規則」，你可隨意將任何工作流程自動化執行。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12877,6 +12997,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13225,8 +13348,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Some triggers need a reference to another field. This field is used to store"
 " it."
+=======
+"Some triggers need a reference to another field. This field is used to store "
+"it."
+>>>>>>> upstream/18.0
 =======
 "Some triggers need a reference to another field. This field is used to store "
 "it."
@@ -13799,8 +13927,12 @@ msgstr "目標記錄"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Target model of actions %(action_names)s are different from rule model."
+=======
+msgid "Target model of actions %(action_names)s are different from rule model."
+>>>>>>> upstream/18.0
 =======
 msgid "Target model of actions %(action_names)s are different from rule model."
 >>>>>>> upstream/18.0
@@ -14235,10 +14367,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The \"%(trigger_value)s\" %(trigger_label)s can only be used with the "
 "\"%(state_value)s\" action type"
 msgstr "這個 \"%(trigger_value)s\" %(trigger_label)s 只能與 \"%(state_value)s\" 動作類型"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14562,6 +14697,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15043,7 +15181,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                If present, will be checked by the scheduler. If empty, will be checked at creation and update."
+=======
+"                If present, will be checked by the scheduler. If empty, will "
+"be checked at creation and update."
+>>>>>>> upstream/18.0
 =======
 "                If present, will be checked by the scheduler. If empty, will "
 "be checked at creation and update."
@@ -15621,7 +15764,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "您無法為已刪除的記錄發送電子郵件、添加關注者或建立活動。它根本不起作用。"
+=======
+msgstr ""
+"您無法為已刪除的記錄發送電子郵件、添加關注者或建立活動。它根本不起作用。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "您無法為已刪除的記錄發送電子郵件、添加關注者或建立活動。它根本不起作用。"
