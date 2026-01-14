@@ -422,6 +422,7 @@ class MailActivity(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             per_user = dict()
             for activity in activity_data['activities'].filtered(lambda act: act.user_id):
                 if activity.user_id not in per_user:
@@ -458,6 +459,11 @@ class MailActivity(models.Model):
                 if activity.res_id not in per_user[activity.user_id]:
 >>>>>>> upstream/18.0
                     per_user[activity.user_id].append(activity.res_id)
+=======
+            per_user = defaultdict(set)
+            for activity in activity_data['activities'].filtered(lambda act: act.user_id):
+                per_user[activity.user_id].add(activity.res_id)
+>>>>>>> upstream/18.0
 =======
             per_user = defaultdict(set)
             for activity in activity_data['activities'].filtered(lambda act: act.user_id):
@@ -1207,6 +1213,7 @@ class MailActivity(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         todo_activities = activities.filtered(lambda act: act.date_deadline <= fields.Date.today())
         if todo_activities:
             activity.user_id._bus_send("mail.activity/updated", {"activity_created": True})
@@ -1240,6 +1247,8 @@ class MailActivity(models.Model):
             todo_activities.user_id._bus_send("mail.activity/updated", {"activity_deleted": True})
         return super(MailActivity, self).unlink()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1662,6 +1671,9 @@ class MailActivity(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1939,6 +1951,7 @@ class MailActivity(models.Model):
 
         allowed_ids = defaultdict(set)
         for res_model, res_ids in model_ids.items():
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2680,6 +2693,9 @@ class MailActivity(models.Model):
 =======
             records = self.env[res_model].browse(res_ids).exists()
 >>>>>>> upstream/18.0
+=======
+            records = self.env[res_model].browse(res_ids).exists()
+>>>>>>> upstream/18.0
             # fall back on related document access right checks. Use the same as defined for mail.thread
             # if available; otherwise fall back on read
             operation = getattr(records, '_mail_post_access', 'read')
@@ -2705,7 +2721,20 @@ class MailActivity(models.Model):
     def action_notify(self):
         if not self:
             return
+<<<<<<< HEAD
         for activity in self:
+=======
+
+        classified = self._classify_by_model()
+        for model, activity_data in classified.items():
+            records_sudo = self.env[model].sudo().browse(activity_data['record_ids'])
+            activity_data['record_ids'] = records_sudo.exists().ids  # in case record was cascade-deleted in DB, skipping unlink override
+
+        for activity in self:
+            if activity.res_id not in classified[activity.res_model]['record_ids']:
+                continue
+
+>>>>>>> upstream/18.0
             if activity.user_id.lang:
                 # Send the notification in the assigned user's language
                 activity = activity.with_context(lang=activity.user_id.lang)
@@ -2827,6 +2856,10 @@ class MailActivity(models.Model):
             # Allow user without access to the record to "mark as done" activities assigned to them. At the end of the
             # method, the activity is unlinked or archived which ensure the user has enough right on the activities.
             records_sudo = self.env[model].sudo().browse(activity_data['record_ids'])
+<<<<<<< HEAD
+=======
+            existing = records_sudo.exists()  # in case record was cascade-deleted in DB, skipping unlink override
+>>>>>>> upstream/18.0
             for record_sudo, activity in zip(records_sudo, activity_data['activities']):
                 # extract value to generate next activities
                 if activity.chaining_type == 'trigger':
@@ -2834,6 +2867,7 @@ class MailActivity(models.Model):
                     next_activities_values.append(vals)
 
                 # post message on activity, before deleting it
+<<<<<<< HEAD
                 activity_message = record_sudo.message_post_with_source(
                     'mail.message_activity_done',
                     attachment_ids=attachment_ids,
@@ -2846,6 +2880,24 @@ class MailActivity(models.Model):
                     mail_activity_type_id=activity.activity_type_id.id,
                     subtype_xmlid='mail.mt_activities',
                 )
+=======
+                if record_sudo in existing:
+                    activity_message = record_sudo.message_post_with_source(
+                        'mail.message_activity_done',
+                        attachment_ids=attachment_ids,
+                        author_id=self.env.user.partner_id.id,
+                        render_values={
+                            'activity': activity,
+                            'feedback': feedback,
+                            'display_assignee': activity.user_id != self.env.user
+                        },
+                        mail_activity_type_id=activity.activity_type_id.id,
+                        subtype_xmlid='mail.mt_activities',
+                    )
+                else:
+                    activity_message = self.env['mail.message']
+
+>>>>>>> upstream/18.0
                 if activity.activity_type_id.keep_done:
                     attachment_ids = (attachment_ids or []) + activity_attachments.get(activity.id, [])
                     if attachment_ids:
@@ -2854,7 +2906,11 @@ class MailActivity(models.Model):
                 # Moving the attachments in the message
                 # TODO: Fix void res_id on attachment when you create an activity with an image
                 # directly, see route /web_editor/attachment/add
+<<<<<<< HEAD
                 if activity_attachments[activity.id]:
+=======
+                if activity_attachments[activity.id] and activity_message:
+>>>>>>> upstream/18.0
                     message_attachments = self.env['ir.attachment'].browse(activity_attachments[activity.id])
                     if message_attachments:
                         message_attachments.write({
@@ -2862,6 +2918,12 @@ class MailActivity(models.Model):
                             'res_model': activity_message._name,
                         })
                         activity_message.attachment_ids = message_attachments
+<<<<<<< HEAD
+=======
+                # removing attachments linked to activity if record is missing
+                elif activity_attachments[activity.id]:
+                    self.env['ir.attachment'].browse(activity_attachments[activity.id]).unlink()
+>>>>>>> upstream/18.0
                 messages += activity_message
 
         next_activities = self.env['mail.activity']
@@ -3003,9 +3065,12 @@ class MailActivity(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         """ Opens the related record based on the model and ID """
         self.ensure_one()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3384,6 +3449,9 @@ class MailActivity(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

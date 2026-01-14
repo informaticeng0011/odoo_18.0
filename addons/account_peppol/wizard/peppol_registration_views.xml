@@ -8,6 +8,7 @@
             <form class="form_peppol_registration">
                 <field name="company_id" invisible="1"/>
                 <sheet>
+<<<<<<< HEAD
                     <div class="m-0" name="warnings" invisible="not peppol_warnings or account_peppol_proxy_state != 'not_registered'">
                         <field name="peppol_warnings" class="o_field_html" widget="actionable_errors"/>
                     </div>
@@ -16,11 +17,27 @@
                         <p class="text-muted">Send electronic invoices, and receive bills automatically via Peppol</p>
 
                             <!-- Optional step: receiver registration fields -->
+=======
+                    <div class="m-0" name="warnings" invisible="not peppol_warnings">
+                        <field name="peppol_warnings" class="o_field_html" widget="actionable_errors"/>
+                    </div>
+
+                    <div name="peppol_registration">
+                        <p class="text-muted" invisible="not use_parent_connection">
+                            This branch company will use the active Peppol connection found on
+                            <field name="parent_company_name" class="oe_inline o_form_label" readonly="1"/>
+                            and send invoices via Peppol on their behalf.
+                        </p>
+                        <p class="text-muted" invisible="use_parent_connection">
+                            Send electronic invoices, and receive bills automatically via Peppol.
+                        </p>
+>>>>>>> upstream/18.0
 
                         <group col="1">
                             <group>
                                 <field name="smp_registration" string="Allow incoming invoices" invisible="1"/>
                                 <field name="peppol_eas"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -911,10 +928,13 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                                        placeholder="Peppol ID"
                                        nolabel="1"
                                        widget="peppol_non_focusable_selection"
                                        class="o_field_peppol_eas_selection"/>
+<<<<<<< HEAD
                                 <field name="peppol_endpoint" nolabel="1"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -991,6 +1011,17 @@
 >>>>>>> upstream/18.0
                                 <field name="contact_email" string="Email"/>
                                 <field name="phone_number" required="edi_mode not in ('demo', 'test')" string="Phone"/>
+=======
+                                <field name="peppol_endpoint"
+                                       nolabel="1"/>
+                                <field name="contact_email"
+                                       string="Email"
+                                       readonly="use_parent_connection"/>
+                                <field name="phone_number"
+                                       required="edi_mode not in ('demo', 'test')"
+                                       readonly="use_parent_connection"
+                                       string="Phone"/>
+>>>>>>> upstream/18.0
                             </group>
 
                             <!-- edi mode info -->

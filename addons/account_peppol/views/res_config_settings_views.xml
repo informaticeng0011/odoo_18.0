@@ -7,6 +7,7 @@
         <field name="arch" type="xml">
             <xpath expr="//div[@id='account_peppol_install']" position="replace">
                 <div id="account_peppol" class="col-12 o_setting_box">
+<<<<<<< HEAD
                     <div class="o_setting_right_pane border-0">
                         <div invisible="account_peppol_proxy_state not in ('sender', 'receiver', 'smp_registration')">
                             Your Peppol ID <field name="account_peppol_edi_identification" class="oe_inline o_form_label" readonly="1"/> <field name="account_peppol_proxy_state" class="oe_inline o_form_label text-lowercase" readonly="1"/> invoices and credit notes.
@@ -288,12 +289,33 @@
 >>>>>>> upstream/18.0
                         </div>
                         <div invisible="account_peppol_proxy_state != 'rejected'">
+=======
+                    <field name="peppol_use_parent_company" invisible="1"/>
+                    <div class="o_setting_right_pane border-0">
+                        <div invisible="peppol_use_parent_company or account_peppol_proxy_state not in ('sender', 'receiver', 'smp_registration')">
+                            Your Peppol ID <field name="account_peppol_edi_identification" class="oe_inline o_form_label" readonly="1"/> <field name="account_peppol_proxy_state" class="oe_inline o_form_label text-lowercase" readonly="1"/> invoices and credit notes.
+                            <span class="ps-2" invisible="account_peppol_edi_mode == 'prod'">
+                                (<field class="oe_inline o_form_label text-uppercase" name="account_peppol_edi_mode" />)
+                            </span>
+                        </div>
+                        <div invisible="peppol_use_parent_company or account_peppol_proxy_state != 'rejected'">
+>>>>>>> upstream/18.0
                             You registration has been rejected, the reason has been sent to you via email.
                             Please contact our support if you need further assistance.
                         </div>
 
+<<<<<<< HEAD
                         <!-- The participant registered as a sender: display register as a receiver button, email, migration key field -->
                         <div class="row" invisible="account_peppol_proxy_state not in ('sender', 'smp_registration', 'receiver')">
+=======
+                        <!-- Participant register as its parent company. -->
+                        <div invisible="not peppol_use_parent_company">
+                            You are sending from <field name="peppol_parent_company_name" class="oe_inline o_form_label" readonly="1"/>.
+                        </div>
+
+                        <!-- The participant registered as a sender: display register as a receiver button, email, migration key field -->
+                        <div class="row" invisible="peppol_use_parent_company or account_peppol_proxy_state not in ('sender', 'smp_registration', 'receiver')">
+>>>>>>> upstream/18.0
                             <label string="Primary contact email"
                                    for="account_peppol_contact_email"
                                    class="col-lg-3 o_light_label"/>
@@ -301,7 +323,11 @@
                         </div>
 
                         <!-- The participant is waiting to be registered on the SMP -->
+<<<<<<< HEAD
                         <div invisible="account_peppol_proxy_state not in ('smp_registration', 'receiver')">
+=======
+                        <div invisible="peppol_use_parent_company or account_peppol_proxy_state not in ('smp_registration', 'receiver')">
+>>>>>>> upstream/18.0
                             <div class="row">
                                 <label string="Incoming Invoices Journal"
                                        for="account_peppol_purchase_journal_id"
@@ -316,6 +342,7 @@
                             </div>
                         </div>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -497,6 +524,10 @@
 >>>>>>> upstream/18.0
                         <div class="mt-4"
                              invisible="account_peppol_proxy_state != 'receiver'"
+=======
+                        <div class="mt-4"
+                             invisible="peppol_use_parent_company or account_peppol_proxy_state != 'receiver'"
+>>>>>>> upstream/18.0
                              groups="base.group_no_one">
                             <div invisible="not account_peppol_migration_key">
                                 Your migration key is:
@@ -506,6 +537,7 @@
                             </div>
                         </div>
 
+<<<<<<< HEAD
 
                         <!-- All action buttons -->
                         <div invisible="account_peppol_proxy_state != 'receiver' or account_peppol_edi_mode == 'demo'">
@@ -971,10 +1003,18 @@
                             <!-- Disabling services can lead to complicance issues and is not necessary -->
                             <!-- since all existing services should just work. -->
 >>>>>>> upstream/18.0
+=======
+                        <!-- All action buttons -->
+                        <div invisible="peppol_use_parent_company or account_peppol_proxy_state != 'receiver' or account_peppol_edi_mode == 'demo'">
+                            <!-- Note: Deprecated; the button is permanently invisible. -->
+                            <!-- Disabling services can lead to complicance issues and is not necessary -->
+                            <!-- since all existing services should just work. -->
+>>>>>>> upstream/18.0
                             <button string="Configure Peppol Services"
                                     name="button_account_peppol_configure_services"
                                     type="object"
                                     class="btn-link mt-3 mb-3"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1365,6 +1405,14 @@
 
                         <div class="d-flex gap-1 action_buttons" colspan="3">
                             <div invisible="account_peppol_proxy_state not in ('not_registered', 'in_verification')">
+=======
+                                    icon="oi-arrow-right"
+                                    invisible="1"/>
+                        </div>
+
+                        <div class="d-flex gap-1 action_buttons" colspan="3">
+                            <div invisible="peppol_use_parent_company or account_peppol_proxy_state not in ('not_registered', 'in_verification')">
+>>>>>>> upstream/18.0
                                 <div class="text-muted">
                                     Allow sending and receiving invoices through the PEPPOL network
                                 </div>
@@ -1374,7 +1422,19 @@
                                         class="oe_highlight mt-2"/>
                             </div>
                             <widget name="peppol_settings_buttons"
+<<<<<<< HEAD
                                     invisible="account_peppol_proxy_state not in ('sender', 'smp_registration', 'receiver')"/>
+=======
+                                    invisible="peppol_use_parent_company or account_peppol_proxy_state not in ('sender', 'smp_registration', 'receiver')"/>
+                        </div>
+
+                        <!--Branch company connected to parent's active peppol connection.-->
+                        <div invisible="not peppol_use_parent_company" class="mt-2">
+                            <button string="Disconnect"
+                                    name="button_peppol_disconnect_branch_from_parent"
+                                    type="object"
+                                    class="btn-secondary me-1"/>
+>>>>>>> upstream/18.0
                         </div>
                     </div>
                 </div>

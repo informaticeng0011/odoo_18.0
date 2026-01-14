@@ -95,6 +95,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { describe, expect, test } from "@odoo/hoot";
 import { mockFetch } from "@odoo/hoot-mock";
 =======
@@ -348,6 +349,8 @@ import { parseUrl } from "../local_helpers";
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import { after, describe, expect, mockFetch, test } from "@odoo/hoot";
 import { parseUrl } from "../local_helpers";
 
@@ -394,6 +397,9 @@ function createObjectURL(obj) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -479,6 +485,7 @@ describe(parseUrl(import.meta.url), () => {
         expect(document.title).toBe("");
     });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -660,6 +667,8 @@ describe(parseUrl(import.meta.url), () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     test("fetch with internal URLs works without mocking fetch", async () => {
         const blob = new Blob([JSON.stringify({ name: "coucou" })], {
             type: "application/json",
@@ -720,6 +729,9 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -832,8 +844,12 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const blobUrl = URL.createObjectURL(blob);
 
+=======
+        const blobUrl = createObjectURL(blob);
+>>>>>>> upstream/18.0
 =======
         const blobUrl = createObjectURL(blob);
 >>>>>>> upstream/18.0
@@ -991,7 +1007,11 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const blobUrl = URL.createObjectURL(blob);
+=======
+        const blobUrl = createObjectURL(blob);
+>>>>>>> upstream/18.0
 =======
         const blobUrl = createObjectURL(blob);
 >>>>>>> upstream/18.0
@@ -1266,6 +1286,9 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

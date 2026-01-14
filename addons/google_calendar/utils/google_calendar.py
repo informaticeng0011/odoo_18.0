@@ -246,6 +246,7 @@ class GoogleCalendarService():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         url = "/calendar/v3/calendars/primary/events/%s?sendUpdates=all" % event_id
 =======
         send_updates = self.google_service._context.get('send_updates', True)
@@ -381,6 +382,10 @@ class GoogleCalendarService():
 >>>>>>> upstream/18.0
 =======
         url = "/calendar/v3/calendars/primary/events/%s?sendUpdates=all" % event_id
+>>>>>>> upstream/18.0
+=======
+        send_updates = self.google_service._context.get('send_updates', True)
+        url = "/calendar/v3/calendars/primary/events/%s?sendUpdates=%s" % (event_id, "all" if send_updates else "none")
 >>>>>>> upstream/18.0
 =======
         send_updates = self.google_service._context.get('send_updates', True)

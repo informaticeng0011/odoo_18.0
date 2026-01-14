@@ -10,6 +10,11 @@ import {
 } from '@website/js/tours/tour_utils';
 import { browser } from "@web/core/browser/browser";
 
+<<<<<<< HEAD
+=======
+const oldWriteText = browser.navigator.clipboard.writeText;
+
+>>>>>>> upstream/18.0
 registerWebsitePreviewTour("snippet_popup_display_on_click", {
     url: "/",
     edition: true,
@@ -27,16 +32,27 @@ registerWebsitePreviewTour("snippet_popup_display_on_click", {
         trigger: "#oe_snippets we-button[data-name='onclick_opt']",
         async run(helpers) {
             // Patch and ignore write on clipboard in tour as we don't have permissions
+<<<<<<< HEAD
             const oldWriteText = browser.navigator.clipboard.writeText;
             browser.navigator.clipboard.writeText = () => { console.info('Copy in clipboard ignored!') };
             await helpers.click();
             browser.navigator.clipboard.writeText = oldWriteText;
+=======
+            browser.navigator.clipboard.writeText = () => { console.info('Copy in clipboard ignored!') };
+            await helpers.click();
+>>>>>>> upstream/18.0
         }
     },
     {
         content: "Check the copied anchor from the notification toast",
         trigger: ".o_notification_manager .o_notification_content",
         run() {
+<<<<<<< HEAD
+=======
+            // Cleanup the patched clipboard method
+            browser.navigator.clipboard.writeText = oldWriteText;
+
+>>>>>>> upstream/18.0
             const notificationContent = this.anchor.innerText;
             const anchor = notificationContent.substring(notificationContent.indexOf("#"));
 

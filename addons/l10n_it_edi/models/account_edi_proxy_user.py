@@ -4,6 +4,10 @@ import logging
 
 from odoo import _, fields, models
 from odoo.exceptions import UserError
+<<<<<<< HEAD
+=======
+from odoo.tools import index_exists
+>>>>>>> upstream/18.0
 
 _logger = logging.getLogger(__name__)
 
@@ -13,6 +17,22 @@ class AccountEdiProxyClientUser(models.Model):
 
     proxy_type = fields.Selection(selection_add=[('l10n_it_edi', 'Italian EDI')], ondelete={'l10n_it_edi': 'cascade'})
 
+<<<<<<< HEAD
+=======
+    _sql_constraints = [
+        ('unique_identification_l10n_it_edi', '', 'This edi identification is already assigned to an active user'),
+    ]
+
+    def _auto_init(self):
+        super()._auto_init()
+        if not index_exists(self.env.cr, 'account_edi_proxy_client_user_unique_identification_l10n_it_edi'):
+            self.env.cr.execute("""
+                CREATE UNIQUE INDEX account_edi_proxy_client_user_unique_identification_l10n_it_edi
+                                 ON account_edi_proxy_client_user(edi_identification, proxy_type, edi_mode)
+                              WHERE (active = True AND proxy_type = 'l10n_it_edi')
+            """)
+
+>>>>>>> upstream/18.0
     def _get_proxy_urls(self):
         urls = super()._get_proxy_urls()
         urls['l10n_it_edi'] = {
@@ -28,6 +48,7 @@ class AccountEdiProxyClientUser(models.Model):
                 raise UserError(_('Please fill your codice fiscale to be able to receive invoices from FatturaPA'))
             return company.partner_id._l10n_it_edi_normalized_codice_fiscale()
         return super()._get_proxy_identification(company, proxy_type)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -631,6 +652,8 @@ class AccountEdiProxyClientUser(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
     def _get_iap_params(self, company, proxy_type, private_key_sudo):
         iap_params = super()._get_iap_params(company, proxy_type, private_key_sudo)
@@ -759,6 +782,9 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1165,6 +1191,9 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

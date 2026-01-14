@@ -100,6 +100,12 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if self.env.context.get('pricelist_update'):
+            # Recompute the optional products only if the pricelist got updated
+            return self.env['sale.order.line']
+>>>>>>> upstream/18.0
 =======
         if self.env.context.get('pricelist_update'):
             # Recompute the optional products only if the pricelist got updated

@@ -192,6 +192,10 @@ class Lead(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                            lead.write({'iap_enrich_done': True})
+>>>>>>> upstream/18.0
 =======
                             lead.write({'iap_enrich_done': True})
 >>>>>>> upstream/18.0

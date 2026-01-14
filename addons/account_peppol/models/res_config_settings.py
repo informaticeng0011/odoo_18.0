@@ -9,11 +9,15 @@ from odoo.addons.account_peppol.tools.demo_utils import handle_demo
 class ResConfigSettings(models.TransientModel):
     _inherit = 'res.config.settings'
 
+<<<<<<< HEAD
     account_peppol_edi_user = fields.Many2one(
         comodel_name='account_edi_proxy_client.user',
         string='EDI user',
         compute='_compute_account_peppol_edi_user',
     )
+=======
+    account_peppol_edi_user = fields.Many2one(related='company_id.account_peppol_edi_user')
+>>>>>>> upstream/18.0
     account_peppol_edi_mode = fields.Selection(related='account_peppol_edi_user.edi_mode')
     account_peppol_contact_email = fields.Char(related='company_id.account_peppol_contact_email', readonly=False)
     account_peppol_eas = fields.Selection(related='company_id.peppol_eas', readonly=False)
@@ -23,23 +27,47 @@ class ResConfigSettings(models.TransientModel):
     account_peppol_phone_number = fields.Char(related='company_id.account_peppol_phone_number', readonly=False)
     account_peppol_proxy_state = fields.Selection(related='company_id.account_peppol_proxy_state', readonly=False)
     account_peppol_purchase_journal_id = fields.Many2one(related='company_id.peppol_purchase_journal_id', readonly=False)
+<<<<<<< HEAD
+=======
+    peppol_use_parent_company = fields.Boolean(compute='_compute_peppol_use_parent_company')
+    peppol_parent_company_name = fields.Char(compute='_compute_peppol_use_parent_company')
+>>>>>>> upstream/18.0
 
     # -------------------------------------------------------------------------
     # COMPUTE METHODS
     # -------------------------------------------------------------------------
 
+<<<<<<< HEAD
+=======
+    @api.depends('company_id.peppol_parent_company_id')
+    def _compute_peppol_use_parent_company(self):
+        for setting in self:
+            setting.peppol_use_parent_company = (
+                setting.company_id != setting.company_id.peppol_parent_company_id
+                and setting.company_id.peppol_can_send
+                and setting.company_id.peppol_parent_company_id.peppol_can_send
+            )
+            if setting.peppol_use_parent_company:
+                setting.peppol_parent_company_name = setting.company_id.peppol_parent_company_id.name
+            else:
+                setting.peppol_parent_company_name = None
+
+>>>>>>> upstream/18.0
     @api.depends('is_account_peppol_eligible', 'account_peppol_edi_user')
     def _compute_account_peppol_mode_constraint(self):
         mode_constraint = self.env['ir.config_parameter'].sudo().get_param('account_peppol.mode_constraint')
         trial_param = self.env['ir.config_parameter'].sudo().get_param('saas_trial.confirm_token')
         self.account_peppol_mode_constraint = trial_param and 'demo' or mode_constraint or 'prod'
 
+<<<<<<< HEAD
     @api.depends("company_id.account_edi_proxy_client_ids")
     def _compute_account_peppol_edi_user(self):
         for config in self:
             config.account_peppol_edi_user = config.company_id.account_edi_proxy_client_ids.filtered(
                 lambda u: u.proxy_type == 'peppol')
 
+=======
+>>>>>>> upstream/18.0
     # -------------------------------------------------------------------------
     # BUSINESS ACTIONS
     # -------------------------------------------------------------------------
@@ -102,6 +130,7 @@ class ResConfigSettings(models.TransientModel):
         The migration key is then displayed in Peppol settings.
         Currently, reopening after migrating away is not supported.
         """
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -759,6 +788,24 @@ class ResConfigSettings(models.TransientModel):
 =======
         raise UserError(_("This feature is deprecated. Contact Odoo support if you need a migration key."))
 >>>>>>> upstream/18.0
+=======
+        raise UserError(_("This feature is deprecated. Contact Odoo support if you need a migration key."))
+
+    def button_peppol_disconnect_branch_from_parent(self):
+        self.ensure_one()
+        previous_parent_company_name = self.company_id.peppol_parent_company_id.name
+        self.account_peppol_edi_user._peppol_deregister_participant()
+        return {
+            'type': 'ir.actions.client',
+            'tag': 'display_notification',
+            'params': {
+                'title': None,
+                'type': 'success',
+                'message': _("Disconnected this branch company peppol configuration from %s.", previous_parent_company_name),
+                'next': {'type': 'ir.actions.act_window_close'},
+            }
+        }
+>>>>>>> upstream/18.0
 
     @handle_demo
     def button_deregister_peppol_participant(self):
@@ -848,6 +895,7 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     # Note: Deprecated; the button is permanently invisible.
     # Disabling services can lead to complicance issues and is not necessary
@@ -1214,6 +1262,8 @@ class ResConfigSettings(models.TransientModel):
     # since all existing services should just work.
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1234,6 +1284,9 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -360,7 +360,10 @@ class TestAcessRightsStates(TestHrHolidaysAccessRightsCommon):
             leave.with_user(self.user_hrmanager.id).action_reset_confirm()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_holiday_responsible_refuse_leave(self):
         """
             The holiday responsible should be able to accept and refuse correct type leaves of users they are responsible for
@@ -383,6 +386,9 @@ class TestAcessRightsStates(TestHrHolidaysAccessRightsCommon):
             leave.with_user(respo_user).action_refuse()
 
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 @tests.tagged('access_rights', 'access_rights_create')
 class TestAccessRightsCreate(TestHrHolidaysAccessRightsCommon):

@@ -131,7 +131,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <field name="name" string="Tasks" filter_domain="['|', ('name', 'ilike', self), ('id', 'ilike', self)]"/>
+=======
+                    <field name="name" string="Tasks" filter_domain="[('name', 'ilike', self)]"/>
+>>>>>>> upstream/18.0
 =======
                     <field name="name" string="Tasks" filter_domain="[('name', 'ilike', self)]"/>
 >>>>>>> upstream/18.0
@@ -1181,7 +1185,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <field name="parent_id" groups="base.group_no_one" context="{'search_view_ref' : 'project.view_task_search_form','search_default_project_id': project_id, 'search_default_open_tasks': 1}"/>
+=======
+                                    <field name="parent_id" invisible="not project_id" groups="base.group_no_one" context="{'search_view_ref' : 'project.view_task_search_form', 'search_default_project_id': project_id, 'default_project_id': project_id}"/>
+>>>>>>> upstream/18.0
 =======
                                     <field name="parent_id" invisible="not project_id" groups="base.group_no_one" context="{'search_view_ref' : 'project.view_task_search_form', 'search_default_project_id': project_id, 'default_project_id': project_id}"/>
 >>>>>>> upstream/18.0
@@ -1750,7 +1758,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <field name="parent_id" domain="[('id', '!=', id), '!', ('id', 'child_of', id)]" context="{'search_default_project_id': project_id, 'search_default_open_tasks': 1}" />
+=======
+                        <field name="parent_id" domain="[('id', '!=', id), '!', ('id', 'child_of', id)]" context="{'search_default_project_id': project_id, 'search_default_open_tasks': 1, 'default_project_id': project_id}" />
+>>>>>>> upstream/18.0
 =======
                         <field name="parent_id" domain="[('id', '!=', id), '!', ('id', 'child_of', id)]" context="{'search_default_project_id': project_id, 'search_default_open_tasks': 1, 'default_project_id': project_id}" />
 >>>>>>> upstream/18.0
@@ -2351,7 +2363,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <field name="stage_id" column_invisible="context.get('set_visible', False)" optional="show"/>
+=======
+                    <field name="stage_id" column_invisible="context.get('set_visible', False)" context="{'default_project_id': project_id}" groups="project.group_project_manager" optional="show"/>
+                    <field name="stage_id" column_invisible="context.get('set_visible', False)" groups="!project.group_project_manager" options="{'no_create': True}" optional="show"/>
+>>>>>>> upstream/18.0
 =======
                     <field name="stage_id" column_invisible="context.get('set_visible', False)" context="{'default_project_id': project_id}" groups="project.group_project_manager" optional="show"/>
                     <field name="stage_id" column_invisible="context.get('set_visible', False)" groups="!project.group_project_manager" options="{'no_create': True}" optional="show"/>
@@ -2940,7 +2957,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <field name="parent_id" optional="hide" context="{'search_view_ref': 'project.view_task_search_form', 'search_default_project_id': project_id}" groups="base.group_no_one"/>
+=======
+                    <field name="parent_id" optional="hide" invisible="not project_id" context="{'search_view_ref': 'project.view_task_search_form', 'search_default_project_id': project_id, 'default_project_id': project_id}" groups="base.group_no_one"/>
+>>>>>>> upstream/18.0
 =======
                     <field name="parent_id" optional="hide" invisible="not project_id" context="{'search_view_ref': 'project.view_task_search_form', 'search_default_project_id': project_id, 'default_project_id': project_id}" groups="base.group_no_one"/>
 >>>>>>> upstream/18.0

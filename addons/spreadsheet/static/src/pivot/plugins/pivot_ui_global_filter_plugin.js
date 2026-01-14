@@ -209,7 +209,11 @@ function pivotPeriodToFilterValue(timeRange, value) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const month = value.includes("/") ? Number.parseInt(value.split("/")[0]) : -1;
+=======
+            const month = value.includes("/") ? Number.parseInt(value.split("/")[0]) - 1 : -1;
+>>>>>>> upstream/18.0
 =======
             const month = value.includes("/") ? Number.parseInt(value.split("/")[0]) - 1 : -1;
 >>>>>>> upstream/18.0
@@ -871,12 +875,15 @@ function pivotPeriodToFilterValue(timeRange, value) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 period: monthsOptions[month - 1].id,
             };
         }
         case "quarter": {
             const quarter = value.includes("/") ? Number.parseInt(value.split("/")[0]) : -1;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1371,6 +1378,9 @@ function pivotPeriodToFilterValue(timeRange, value) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1867,7 +1877,11 @@ function pivotPeriodToFilterValue(timeRange, value) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 period: FILTER_DATE_OPTION.quarter[quarter - 1],
+=======
+                period: FILTER_DATE_OPTION.quarter[quarter],
+>>>>>>> upstream/18.0
 =======
                 period: FILTER_DATE_OPTION.quarter[quarter],
 >>>>>>> upstream/18.0
@@ -2556,6 +2570,12 @@ export class PivotUIGlobalFilterPlugin extends OdooUIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            case "DUPLICATE_PIVOT":
+                this._addDomain(cmd.newPivotId);
+                break;
+>>>>>>> upstream/18.0
 =======
             case "DUPLICATE_PIVOT":
                 this._addDomain(cmd.newPivotId);
@@ -3452,7 +3472,13 @@ export class PivotUIGlobalFilterPlugin extends OdooUIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         if (value === false) break;
+=======
+                        if (value === false) {
+                            break;
+                        }
+>>>>>>> upstream/18.0
 =======
                         if (value === false) {
                             break;

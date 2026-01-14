@@ -16,6 +16,7 @@ patch(PaymentScreen.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (order.isSACompany && order.finalized && order.l10n_sa_invoice_edi_state !== "sent") {
 =======
         // note: Skips entirely if journal is not onboarded or electronic invoicing is not selected
@@ -40,6 +41,16 @@ patch(PaymentScreen.prototype, {
 =======
         // note: Skips entirely if journal is not onboarded or electronic invoicing is not selected
         if (order.isSACompany && order.finalized && !order.l10n_sa_invoice_qr_code_str) {
+>>>>>>> upstream/18.0
+=======
+        // note: Skips entirely if journal is not onboarded or electronic invoicing is not selected
+        // Also skip if invoice is not mandatory(Ex: settlement)
+        if (
+            order.isSACompany &&
+            order.finalized &&
+            !order.l10n_sa_invoice_qr_code_str &&
+            order.isInvoiceMandatoryForSA
+        ) {
 >>>>>>> upstream/18.0
             const orderError = _t("%s by going to Backend > Orders > Invoice", order.pos_reference);
             const href = `/odoo/customer-invoices/${this.currentOrder?.raw?.account_move}`;

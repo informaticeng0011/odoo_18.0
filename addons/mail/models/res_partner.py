@@ -2,12 +2,19 @@
 
 import re
 
+<<<<<<< HEAD
 import odoo
+=======
+>>>>>>> upstream/18.0
 from odoo import _, api, fields, models, tools
 from odoo.osv import expression
 from odoo.tools.misc import limited_field_access_token
 from odoo.addons.mail.tools.discuss import Store
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 class Partner(models.Model):
     """ Update partner to add a field about notification preferences. Add a generic opt-out field that can be used
        to restrict usage of automatic email templates. """

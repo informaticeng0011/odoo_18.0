@@ -325,7 +325,10 @@
                      ])]"
         />
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     </record>    
 
     <record id="payment_method_appota" model="payment.method">
@@ -347,6 +350,9 @@
                          ref('base.VND'),
                      ])]"
         />
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     </record>
 
@@ -865,7 +871,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <field name="support_tokenization">True</field>
+=======
+        <field name="support_tokenization">False</field>
+>>>>>>> upstream/18.0
 =======
         <field name="support_tokenization">False</field>
 >>>>>>> upstream/18.0
@@ -1514,7 +1524,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <field name="image" type="base64" file="payment/static/img/clearpay.png"/>
+=======
+        <field name="image" type="base64" file="payment/static/img/cofidis.png"/>
+>>>>>>> upstream/18.0
 =======
         <field name="image" type="base64" file="payment/static/img/cofidis.png"/>
 >>>>>>> upstream/18.0
@@ -2877,7 +2891,10 @@
     </record>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     <record id="payment_method_kfh" model="payment.method">
         <field name="name">Kuwait Finance House</field>
         <field name="code">KFH</field>
@@ -2895,6 +2912,9 @@
         />
     </record>
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     <record id="payment_method_linepay" model="payment.method">
         <field name="name">LINE Pay</field>
@@ -4265,6 +4285,12 @@
                          ref('base.id'),
                          ref('base.ph'),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                         ref('base.th'),
+                         ref('base.my'),
+                         ref('base.vn'),
+>>>>>>> upstream/18.0
 =======
                          ref('base.th'),
                          ref('base.my'),
@@ -4276,7 +4302,13 @@
                eval="[Command.set([
                          ref('base.IDR'),
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+                         ref('base.THB'),
+                         ref('base.MYR'),
+                         ref('base.VND'),
+>>>>>>> upstream/18.0
 =======
                          ref('base.THB'),
                          ref('base.MYR'),
@@ -4745,7 +4777,10 @@
     </record>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     <record id="payment_method_vietcapital" model="payment.method">
         <field name="name">Viet Capital</field>
         <field name="code">vietcapital</field>
@@ -4763,6 +4798,9 @@
         />
     </record>
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     <record id="payment_method_vipps" model="payment.method">
         <field name="name">Vipps</field>
@@ -4809,7 +4847,10 @@
     </record>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     <record id="payment_method_vpbank" model="payment.method">
         <field name="name">VP Bank</field>
         <field name="code">vpb</field>
@@ -4827,6 +4868,9 @@
         />
     </record>
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     <record id="payment_method_wallets_india" model="payment.method">
         <field name="name">Wallets India</field>
@@ -4917,6 +4961,10 @@
                          ref('base.HKD'),
                          ref('base.JPY'),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                         ref('base.MYR'),
+>>>>>>> upstream/18.0
 =======
                          ref('base.MYR'),
 >>>>>>> upstream/18.0
@@ -4925,6 +4973,10 @@
                          ref('base.USD'),
                          ref('base.SGD'),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                         ref('base.THB'),
+>>>>>>> upstream/18.0
 =======
                          ref('base.THB'),
 >>>>>>> upstream/18.0
@@ -5392,7 +5444,10 @@
     </record>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     <record id="payment_method_viettelpay" model="payment.method">
         <field name="name">Viettel Pay</field>
         <field name="code">viettelpay</field>
@@ -5410,6 +5465,9 @@
         />
     </record>
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     <record id="payment_method_visa" model="payment.method">
         <field name="name">VISA</field>
@@ -5421,7 +5479,10 @@
     </record>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     <record id="payment_method_vnptwallet" model="payment.method">
         <field name="name">VNPT Money</field>
         <field name="code">vnptwallet</field>
@@ -5456,5 +5517,8 @@
         />
     </record>
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 </odoo>

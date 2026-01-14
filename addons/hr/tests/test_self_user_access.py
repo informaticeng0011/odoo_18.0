@@ -213,7 +213,10 @@ class TestSelfAccessRights(TestHrCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -426,6 +429,9 @@ class TestSelfAccessRights(TestHrCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -644,7 +650,10 @@ class TestSelfAccessRights(TestHrCommon):
         self.env['res.users'].with_user(self.richard).search([('employee_id', 'ilike', 'Hubert')])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     # Write hr.department
     def testWriteDepartmentEmployee(self):
         with self.assertRaises(AccessError):
@@ -653,6 +662,9 @@ class TestSelfAccessRights(TestHrCommon):
         with self.assertRaises(AccessError):
             dept.with_user(self.richard).write({'name': 'Renamed Dept'})
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_onchange_readable_fields_with_no_access(self):
         """

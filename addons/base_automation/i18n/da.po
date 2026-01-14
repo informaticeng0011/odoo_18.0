@@ -52,6 +52,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* base_automation
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -486,12 +487,17 @@
 # * base_automation
 #
 >>>>>>> upstream/18.0
+=======
+# * base_automation
+#
+>>>>>>> upstream/18.0
 # Translators:
 # lhmflexerp <lhm@flexerp.dk>, 2024
 # Mads Søndergaard, 2024
 # Mads Søndergaard, 2024
 # Sanne Kristensen <sanne@vkdata.dk>, 2024
 # Martin Trigaux, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -925,10 +931,14 @@
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1381,6 +1391,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-12-26 13:59+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Danish <https://translate.odoo.com/projects/odoo-18/"
@@ -1401,6 +1414,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1438,6 +1454,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1865,6 +1882,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-javascript
@@ -1897,7 +1918,11 @@ msgid "\"%s\" tag is added"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "\"%s\" tag er tilføjet"
+>>>>>>> upstream/18.0
 =======
 msgstr "\"%s\" tag er tilføjet"
 >>>>>>> upstream/18.0
@@ -1974,6 +1999,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Automatiseringsreglerne \"Ved liveopdatering\" kan kun anvendes med "
+"handlingstypen \"Kør Python-kode\"."
+>>>>>>> upstream/18.0
 =======
 "Automatiseringsreglerne \"Ved liveopdatering\" kan kun anvendes med "
 "handlingstypen \"Kør Python-kode\"."
@@ -2064,7 +2094,11 @@ msgid "%s actions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s handlinger"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s handlinger"
 >>>>>>> upstream/18.0
@@ -2138,7 +2172,11 @@ msgid "1 action"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "1 handling"
+>>>>>>> upstream/18.0
 =======
 msgstr "1 handling"
 >>>>>>> upstream/18.0
@@ -2211,7 +2249,11 @@ msgid "<code>env</code>: environment on which the action is triggered"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<code>env</code>: Omgivelser, hvor handlingen udløses"
+>>>>>>> upstream/18.0
 =======
 msgstr "<code>env</code>: Omgivelser, hvor handlingen udløses"
 >>>>>>> upstream/18.0
@@ -2267,6 +2309,7 @@ msgstr "<code>env</code>: Omgivelser, hvor handlingen udløses"
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2775,6 +2818,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<code>model</code>: model of the record on which the action is triggered; is "
 "a void recordset"
 msgstr ""
@@ -2796,6 +2841,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2853,6 +2901,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<code>payload</code>: Kaldets nyttelast (GET-parametre, JSON-body) som en "
+"dict."
+>>>>>>> upstream/18.0
 =======
 "<code>payload</code>: Kaldets nyttelast (GET-parametre, JSON-body) som en "
 "dict."
@@ -2959,6 +3012,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-info-circle\"/> Standardforespørgselsmetoden for "
+"måldatasættet virker straks for alle webhooks, der kommer fra en anden Odoo-"
+"instans."
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-info-circle\"/> Standardforespørgselsmetoden for "
 "måldatasættet virker straks for alle webhooks, der kommer fra en anden Odoo-"
@@ -3069,6 +3128,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-warning\"/> Automatiseringsregler, der udløses af ændringer "
+"i brugergrænsefladen, køres <em>hver gang</em> de overvågede felter ændres, "
+"<em>uanset om du gemmer eller ej</em>."
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-warning\"/> Automatiseringsregler, der udløses af ændringer "
 "i brugergrænsefladen, køres <em>hver gang</em> de overvågede felter ændres, "
@@ -3175,7 +3240,11 @@ msgid "<span class=\"text-muted\"> Available variables: </span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"text-muted\"> Tilgængelige variabler: </span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"text-muted\"> Tilgængelige variabler: </span>"
 >>>>>>> upstream/18.0
@@ -3340,7 +3409,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                                        <span invisible=\"evaluation_type != 'equation'\">as</span>"
+=======
+"                                                        <span "
+"invisible=\"evaluation_type != 'equation'\">as</span>"
+>>>>>>> upstream/18.0
 =======
 "                                                        <span "
 "invisible=\"evaluation_type != 'equation'\">as</span>"
@@ -3887,9 +3961,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <span invisible=\"trigger != 'on_time_updated'\">after last update</span>\n"
 "                                    <span invisible=\"trigger != 'on_time'\">after</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4215,6 +4292,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4454,6 +4534,7 @@ msgstr ""
 
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4995,6 +5076,10 @@ msgid ""
 msgid ""
 "<strong><i class=\"fa fa-lock\"/> Keep it secret, keep it safe.</strong>"
 >>>>>>> upstream/18.0
+=======
+msgid ""
+"<strong><i class=\"fa fa-lock\"/> Keep it secret, keep it safe.</strong>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: base_automation
@@ -5028,7 +5113,11 @@ msgid "Actions To Do"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Handlinger, der skal udføres"
+>>>>>>> upstream/18.0
 =======
 msgstr "Handlinger, der skal udføres"
 >>>>>>> upstream/18.0
@@ -5147,7 +5236,11 @@ msgid "Add followers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tilføj følgere"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tilføj følgere"
 >>>>>>> upstream/18.0
@@ -5331,7 +5424,11 @@ msgid "After creation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Efter oprettelse"
+>>>>>>> upstream/18.0
 =======
 msgstr "Efter oprettelse"
 >>>>>>> upstream/18.0
@@ -5404,7 +5501,11 @@ msgid "After last update"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Efter sidste opdatering"
+>>>>>>> upstream/18.0
 =======
 msgstr "Efter sidste opdatering"
 >>>>>>> upstream/18.0
@@ -5465,6 +5566,7 @@ msgstr "Anvend på"
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_kanban
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5790,6 +5892,8 @@ msgstr "Anvend på"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid "Archived"
 msgstr "Arkiveret"
 
@@ -5848,7 +5952,11 @@ msgid "Automate <em>everything</em> with Automation Rules"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Automatisér <em>alt</em> med automatiseringsregler"
+>>>>>>> upstream/18.0
 =======
 msgstr "Automatisér <em>alt</em> med automatiseringsregler"
 >>>>>>> upstream/18.0
@@ -6065,7 +6173,11 @@ msgid "Automation Rule"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Automatiseringsregel"
+>>>>>>> upstream/18.0
 =======
 msgstr "Automatiseringsregel"
 >>>>>>> upstream/18.0
@@ -6243,7 +6355,11 @@ msgid "Automation Rule Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Navn på automatiseringsreglen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Navn på automatiseringsreglen"
 >>>>>>> upstream/18.0
@@ -6319,7 +6435,11 @@ msgid "Automation Rules"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Automatiseringsregler"
+>>>>>>> upstream/18.0
 =======
 msgstr "Automatiseringsregler"
 >>>>>>> upstream/18.0
@@ -6392,7 +6512,11 @@ msgid "Automation Rules: check and execute"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Automatiseringsregler: Kontrollér og udfør"
+>>>>>>> upstream/18.0
 =======
 msgstr "Automatiseringsregler: Kontrollér og udfør"
 >>>>>>> upstream/18.0
@@ -6471,7 +6595,11 @@ msgid "Based on date field"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Baseret på datofelt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Baseret på datofelt"
 >>>>>>> upstream/18.0
@@ -6643,7 +6771,11 @@ msgid "Deprecated (do not use)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Forældet (må ikke anvendes)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Forældet (må ikke anvendes)"
 >>>>>>> upstream/18.0
@@ -6712,6 +6844,7 @@ msgstr ""
 #: code:addons/base_automation/static/src/base_automation_error_dialog.xml:0
 msgid ""
 "Disabling this automation rule will enable you to continue your workflow\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7037,6 +7170,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                but any data created after this could potentially be "
 "corrupted,\n"
 "                as you are effectively disabling a customization that may "
@@ -7148,6 +7283,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7404,7 +7542,11 @@ msgid "Email Events"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Begivenhedsmails"
+>>>>>>> upstream/18.0
 =======
 msgstr "Begivenhedsmails"
 >>>>>>> upstream/18.0
@@ -7481,6 +7623,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Handlingstyperne 'e-mail', 'følgere' eller 'aktivitet' kan ikke anvendes ved "
+"sletning af poster, da der ikke længere er nogen poster, som disse "
+"handlinger kan udføres på!"
+>>>>>>> upstream/18.0
 =======
 "Handlingstyperne 'e-mail', 'følgere' eller 'aktivitet' kan ikke anvendes ved "
 "sletning af poster, da der ikke længere er nogen poster, som disse "
@@ -7621,7 +7769,11 @@ msgid "Has Mail Thread"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Har e-mailtråd"
+>>>>>>> upstream/18.0
 =======
 msgstr "Har e-mailtråd"
 >>>>>>> upstream/18.0
@@ -7687,6 +7839,7 @@ msgstr "ID"
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__filter_domain
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8195,6 +8348,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "If present, this condition must be satisfied before executing the automation "
 "rule."
 msgstr ""
@@ -8216,6 +8371,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8256,6 +8414,7 @@ msgid ""
 "If present, this condition must be satisfied before the update of the "
 "record. Not checked on record creation."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8827,6 +8986,8 @@ msgstr ""
 msgid "Keep track of what this automation does and why it exists..."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8887,6 +9048,9 @@ msgstr "Følg med i, hvad denne automatisering gør, og hvorfor den findes ..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8996,7 +9160,11 @@ msgid "Log Calls"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Registrér opkald"
+>>>>>>> upstream/18.0
 =======
 msgstr "Registrér opkald"
 >>>>>>> upstream/18.0
@@ -9183,6 +9351,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"E-mailbegivenheden kan ikke konfigureres til model %s. Kun modeller med "
+"diskussionsfunktion kan anvendes."
+>>>>>>> upstream/18.0
 =======
 "E-mailbegivenheden kan ikke konfigureres til model %s. Kun modeller med "
 "diskussionsfunktion kan anvendes."
@@ -9271,6 +9444,7 @@ msgstr "Modelnavn"
 #. odoo-python
 #: code:addons/base_automation/models/ir_actions_server.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9779,6 +9953,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Model of action %(action_name)s should match the one from automated rule %"
 "(rule_name)s."
 msgstr ""
@@ -9800,6 +9976,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9867,7 +10046,11 @@ msgid "No record to run the automation on was found."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Der blev ikke fundet nogen data, som automatiseringen kan anvendes på."
+>>>>>>> upstream/18.0
 =======
 msgstr "Der blev ikke fundet nogen data, som automatiseringen kan anvendes på."
 >>>>>>> upstream/18.0
@@ -9958,7 +10141,11 @@ msgid "On UI change"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ved ændring af brugergrænsefladen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ved ændring af brugergrænsefladen"
 >>>>>>> upstream/18.0
@@ -10031,7 +10218,11 @@ msgid "On archived"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ved arkivering"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ved arkivering"
 >>>>>>> upstream/18.0
@@ -10109,7 +10300,11 @@ msgid "On deletion"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ved sletning"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ved sletning"
 >>>>>>> upstream/18.0
@@ -10182,7 +10377,11 @@ msgid "On incoming message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ved indgående besked"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ved indgående besked"
 >>>>>>> upstream/18.0
@@ -10255,7 +10454,11 @@ msgid "On outgoing message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ved udgående besked"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ved udgående besked"
 >>>>>>> upstream/18.0
@@ -10333,7 +10536,11 @@ msgid "On unarchived"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ved arkivering"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ved arkivering"
 >>>>>>> upstream/18.0
@@ -10406,7 +10613,11 @@ msgid "On update"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ved opdatering"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ved opdatering"
 >>>>>>> upstream/18.0
@@ -10479,7 +10690,11 @@ msgid "On webhook"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ved webhook"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ved webhook"
 >>>>>>> upstream/18.0
@@ -10564,7 +10779,11 @@ msgid "Priority is set to"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prioriteten er indstillet til"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prioriteten er indstillet til"
 >>>>>>> upstream/18.0
@@ -10637,7 +10856,11 @@ msgid "Record Getter"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Metode til forespørgsel på datasæt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Metode til forespørgsel på datasæt"
 >>>>>>> upstream/18.0
@@ -10727,7 +10950,11 @@ msgid "Select a date field..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vælg et datofelt ..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Vælg et datofelt ..."
 >>>>>>> upstream/18.0
@@ -10800,7 +11027,11 @@ msgid "Select a value..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vælg en værdi ..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Vælg en værdi ..."
 >>>>>>> upstream/18.0
@@ -10873,7 +11104,11 @@ msgid "Select fields..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vælg felter ..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Vælg felter ..."
 >>>>>>> upstream/18.0
@@ -10948,6 +11183,7 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:base_automation.base_automation_act
 msgid ""
 "Send an email when an object changes state, archive records\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11386,6 +11622,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                after a month of inactivity or remind yourself to follow-up "
 "on\n"
 "                tasks when a specific tag is added."
@@ -11445,6 +11683,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11552,6 +11793,7 @@ msgstr ""
 #. module: base_automation
 #: model_terms:digest.tip,tip_description:base_automation.digest_tip_base_automation_0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12061,6 +12303,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Send an email when an object changes state, archive records after a month of "
 "inactivity or remind yourself to follow-up on tasks when a specific tag is "
 "added.<br>With Automation Rules, you can automate any workflow."
@@ -12085,6 +12329,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12159,6 +12406,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nogle udløsere kræver en reference til et valgfelt. Dette felt bruges til at "
+"gemme værdien."
+>>>>>>> upstream/18.0
 =======
 "Nogle udløsere kræver en reference til et valgfelt. Dette felt bruges til at "
 "gemme værdien."
@@ -12231,6 +12483,7 @@ msgstr ""
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__trg_field_ref
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12739,6 +12992,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Some triggers need a reference to another field. This field is used to store "
 "it."
 msgstr ""
@@ -12760,6 +13015,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12820,7 +13078,11 @@ msgid "Stage is set to"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fase er indstillet til"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fase er indstillet til"
 >>>>>>> upstream/18.0
@@ -12894,7 +13156,11 @@ msgid "Stage is set to \"%s\""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fase indstillet til \"%s\""
+>>>>>>> upstream/18.0
 =======
 msgstr "Fase indstillet til \"%s\""
 >>>>>>> upstream/18.0
@@ -12967,7 +13233,11 @@ msgid "State is set to"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fase indstillet til"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fase indstillet til"
 >>>>>>> upstream/18.0
@@ -13040,7 +13310,11 @@ msgid "Tag is added"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tag er tilføjet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tag er tilføjet"
 >>>>>>> upstream/18.0
@@ -13113,7 +13387,11 @@ msgid "Target Record"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Måldatasæt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Måldatasæt"
 >>>>>>> upstream/18.0
@@ -13169,6 +13447,7 @@ msgstr "Måldatasæt"
 #. module: base_automation
 #. odoo-python
 #: code:addons/base_automation/models/base_automation.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13638,11 +13917,17 @@ msgid "Target model of actions %(action_names)s are different from rule model."
 msgstr ""
 "Målmodellen for handling %(action_names)s adskiller sig fra regelmodellen."
 >>>>>>> upstream/18.0
+=======
+msgid "Target model of actions %(action_names)s are different from rule model."
+msgstr ""
+"Målmodellen for handling %(action_names)s adskiller sig fra regelmodellen."
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-python
 #: code:addons/base_automation/models/base_automation.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13971,6 +14256,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "The \"%(trigger_value)s\" %(trigger_label)s can only be used with the \"%"
 "(state_value)s\" action type"
 msgstr ""
@@ -14083,6 +14370,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14322,6 +14612,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Automatiseringsreglen udløses kun, hvis et af de angivne felter opdateres. "
+"Hvis feltlisten er tom, overvåges alle felter."
+>>>>>>> upstream/18.0
 =======
 "Automatiseringsreglen udløses kun, hvis et af de angivne felter opdateres. "
 "Hvis feltlisten er tom, overvåges alle felter."
@@ -14415,6 +14710,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Fejlen opstod under udførelsen af automatiseringsreglen\n"
+"                \""
+>>>>>>> upstream/18.0
 =======
 "Fejlen opstod under udførelsen af automatiseringsreglen\n"
 "                \""
@@ -14507,6 +14807,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Denne kode udføres for at bestemme, hvilket datasæt automatiseringsreglen "
+"skal anvendes på."
+>>>>>>> upstream/18.0
 =======
 "Denne kode udføres for at bestemme, hvilket datasæt automatiseringsreglen "
 "skal anvendes på."
@@ -14597,7 +14902,11 @@ msgid "Timing Conditions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tidsmæssige betingelser"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tidsmæssige betingelser"
 >>>>>>> upstream/18.0
@@ -14671,7 +14980,11 @@ msgid "Tip: Automate everything with Automation Rules"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tip: Automatisér alt med automatiseringsregler"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tip: Automatisér alt med automatiseringsregler"
 >>>>>>> upstream/18.0
@@ -14754,7 +15067,11 @@ msgid "Trigger Field"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Udløserfelt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Udløserfelt"
 >>>>>>> upstream/18.0
@@ -14827,7 +15144,11 @@ msgid "Trigger Field Model"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Udløserfeltets model"
+>>>>>>> upstream/18.0
 =======
 msgstr "Udløserfeltets model"
 >>>>>>> upstream/18.0
@@ -14905,7 +15226,11 @@ msgid "Trigger Reference"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Udløserreference"
+>>>>>>> upstream/18.0
 =======
 msgstr "Udløserreference"
 >>>>>>> upstream/18.0
@@ -15021,7 +15346,11 @@ msgid "User is set"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bruger er indstillet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bruger er indstillet"
 >>>>>>> upstream/18.0
@@ -15095,7 +15424,11 @@ msgid "Values Updated"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Værdier opdateret"
+>>>>>>> upstream/18.0
 =======
 msgstr "Værdier opdateret"
 >>>>>>> upstream/18.0
@@ -15175,7 +15508,11 @@ msgid "Webhook Log"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Webhook-logfil"
+>>>>>>> upstream/18.0
 =======
 msgstr "Webhook-logfil"
 >>>>>>> upstream/18.0
@@ -15249,7 +15586,11 @@ msgid "Webhook Logs"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Webhook-logfiler"
+>>>>>>> upstream/18.0
 =======
 msgstr "Webhook-logfiler"
 >>>>>>> upstream/18.0
@@ -15322,7 +15663,11 @@ msgid "Webhook UUID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Webhook-UUID"
+>>>>>>> upstream/18.0
 =======
 msgstr "Webhook-UUID"
 >>>>>>> upstream/18.0
@@ -15392,6 +15737,7 @@ msgstr ""
 #: model:ir.model.fields,help:base_automation.field_base_automation__trg_date_id
 msgid ""
 "When should the condition be triggered.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15899,6 +16245,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                If present, will be checked by the scheduler. If empty, will "
 "be checked at creation and update."
 msgstr ""
@@ -15921,6 +16269,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15980,7 +16331,11 @@ msgid "When updating"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ved opdateringen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ved opdateringen"
 >>>>>>> upstream/18.0
@@ -16091,6 +16446,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Med automatiseringsregler kan du automatisere\n"
+"                <em>alle</em> workflow."
+>>>>>>> upstream/18.0
 =======
 "Med automatiseringsregler kan du automatisere\n"
 "                <em>alle</em> workflow."
@@ -16349,7 +16709,11 @@ msgid "based on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "baseret på"
+>>>>>>> upstream/18.0
 =======
 msgstr "baseret på"
 >>>>>>> upstream/18.0
@@ -16428,7 +16792,11 @@ msgid "no action defined..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ingen handling fastlagt ..."
+>>>>>>> upstream/18.0
 =======
 msgstr "ingen handling fastlagt ..."
 >>>>>>> upstream/18.0

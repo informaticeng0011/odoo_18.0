@@ -4,12 +4,18 @@
 SUPPORTED_CURRENCIES = [
     'IDR',
 <<<<<<< HEAD
+<<<<<<< HEAD
     'PHP',
 =======
+=======
+>>>>>>> upstream/18.0
     'MYR',
     'PHP',
     'THB',
     'VND',
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 ]
 
@@ -18,12 +24,18 @@ SUPPORTED_CURRENCIES = [
 CURRENCY_DECIMALS = {
     'IDR': 0,
 <<<<<<< HEAD
+<<<<<<< HEAD
     'PHP': 0,
 =======
+=======
+>>>>>>> upstream/18.0
     'MYR': 0,
     'PHP': 0,
     'THB': 0,
     'VND': 0,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 }
 
@@ -31,6 +43,10 @@ CURRENCY_DECIMALS = {
 DEFAULT_PAYMENT_METHOD_CODES = {
     # Primary payment methods.
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    # ID
+>>>>>>> upstream/18.0
 =======
     # ID
 >>>>>>> upstream/18.0
@@ -39,7 +55,10 @@ DEFAULT_PAYMENT_METHOD_CODES = {
     'ovo',
     'qris',
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     # MY
     'fpx',
     'touch_n_go',
@@ -51,6 +70,9 @@ DEFAULT_PAYMENT_METHOD_CODES = {
     'appota',
     'zalopay',
     'vnptwallet'
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     # Brand payment methods.
@@ -59,7 +81,10 @@ DEFAULT_PAYMENT_METHOD_CODES = {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 # FPX is an online payment method in Malaysia that allows customers to make payments directly from their bank accounts.
 # Items prefixed with "DD_" are for individual account and doing direct debit
 # Items suffixed with "_BUSINESS" are for business accounts
@@ -107,6 +132,9 @@ FPX_METHODS = [
     "UOB_FPX_BUSINESS",
 ]
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 # Mapping of payment code to channel code according to Xendit API
 PAYMENT_METHODS_MAPPING = {
@@ -116,13 +144,19 @@ PAYMENT_METHODS_MAPPING = {
     'card': 'CREDIT_CARD',
     'maya': 'PAYMAYA',
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     'wechat_pay': 'WECHATPAY',
     'scb': 'DD_SCB_MB',
     'krungthai_bank': 'DD_KTB_MB',
     'bangkok_bank': 'DD_BBL_MB',
     'touch_n_go': 'TOUCHNGO',
     **{method: 'fpx' for method in FPX_METHODS}
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 }
 

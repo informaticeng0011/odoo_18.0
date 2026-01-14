@@ -20,6 +20,13 @@
     <record id="product_uom_categ_vol" model="uom.category">
         <field name="name">Volume</field>
     </record>
+<<<<<<< HEAD
+=======
+    <record id="product_uom_categ_energy" model="uom.category">
+        <field name="name">Energy</field>
+    </record>
+
+>>>>>>> upstream/18.0
 
     <!-- UOM.UOM -->
     <!-- Units -->
@@ -50,6 +57,16 @@
         <field name="factor" eval="8.0"/>
         <field name="uom_type">smaller</field>
     </record>
+<<<<<<< HEAD
+=======
+    <record id="product_uom_minute" model="uom.uom">
+        <field name="name">Minutes</field>
+        <field name="category_id" ref="uom_categ_wtime"/>
+        <field name="factor" eval="480.0"/>
+        <field name="uom_type">smaller</field>
+    </record>
+
+>>>>>>> upstream/18.0
 
     <!-- LENGTH -->
     <record id="product_uom_meter" model="uom.uom">
@@ -202,4 +219,15 @@
         <field name="uom_type">bigger</field>
     </record>
 
+<<<<<<< HEAD
+=======
+    <!-- ENERGY -->
+    <record id="product_uom_kwh" model="uom.uom">
+        <field name="category_id" ref="product_uom_categ_energy"/>
+        <field name="name">KWH</field>
+        <field name="factor" eval="1.0"/>
+        <field name="uom_type">reference</field>
+    </record>
+
+>>>>>>> upstream/18.0
 </odoo>
