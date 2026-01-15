@@ -1,6 +1,10 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from collections import defaultdict
+>>>>>>> upstream/18.0
 =======
 from collections import defaultdict
 >>>>>>> upstream/18.0
@@ -78,8 +82,11 @@ class WebclientController(http.Controller):
             # sudo: mail.notification - return only failures of current user as author
             notifications = request.env["mail.notification"].sudo().search(domain, limit=100)
 <<<<<<< HEAD
+<<<<<<< HEAD
             notifications.mail_message_id._message_notifications_to_store(store)
 =======
+=======
+>>>>>>> upstream/18.0
             found = defaultdict(list)
             for message in notifications.mail_message_id:
                 found[message.model].append(message.res_id)
@@ -96,6 +103,9 @@ class WebclientController(http.Controller):
             if lost:
                 lost.sudo().unlink()  # no unlink right except admin, ok to remove as lost anyway
             valid.mail_message_id._message_notifications_to_store(store)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def _process_request_for_internal_user(self, store, **kwargs):

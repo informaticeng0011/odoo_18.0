@@ -125,6 +125,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import contextlib
+>>>>>>> upstream/18.0
 =======
 import contextlib
 >>>>>>> upstream/18.0
@@ -632,7 +636,11 @@ from odoo import _, api, fields, models, modules, tools
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.exceptions import AccessError
+=======
+from odoo.exceptions import AccessError, MissingError
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import AccessError, MissingError
 >>>>>>> upstream/18.0
@@ -1622,6 +1630,7 @@ class Message(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1749,6 +1758,8 @@ class Message(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             if not (self.env.su or self.env.user.has_group('base.group_user')):
                 values.pop('author_id', None)
                 values.pop('email_from', None)
@@ -1758,6 +1769,9 @@ class Message(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1908,6 +1922,7 @@ class Message(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         if not (self.env.user.has_group('base.group_user') or self.env.su):
             vals.pop('author_id', None)
@@ -2020,6 +2035,11 @@ class Message(models.Model):
 >>>>>>> upstream/18.0
 =======
         if not (self.env.user.has_group('base.group_user') or self.env.su):
+            vals.pop('author_id', None)
+            vals.pop('email_from', None)
+>>>>>>> upstream/18.0
+=======
+        if not (self.env.su or self.env.user.has_group('base.group_user')):
             vals.pop('author_id', None)
             vals.pop('email_from', None)
 >>>>>>> upstream/18.0
@@ -2305,6 +2325,7 @@ class Message(models.Model):
         # avoid useless queries when notifying Inbox right after a message_post
         scheduled_dt_by_msg_id = {}
         if msg_vals:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2814,6 +2835,11 @@ class Message(models.Model):
         elif self:
             schedulers = self.env["mail.message.schedule"].sudo().search([("mail_message_id", "in", self.ids)])
 >>>>>>> upstream/18.0
+=======
+            scheduled_dt_by_msg_id = {msg.id: msg_vals.get("scheduled_date", False) for msg in self}
+        elif self:
+            schedulers = self.env["mail.message.schedule"].sudo().search([("mail_message_id", "in", self.ids)])
+>>>>>>> upstream/18.0
             for scheduler in schedulers:
                 scheduled_dt_by_msg_id[scheduler.mail_message_id.id] = scheduler.scheduled_datetime
         record_by_message = self._record_by_message()
@@ -2965,9 +2991,12 @@ class Message(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 # sudo: mail.thread - if mentionned in a non accessible thread, name is allowed
                 thread_data["name"] = record.sudo().display_name
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3345,6 +3374,9 @@ class Message(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3733,6 +3765,7 @@ class Message(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if record:
                 # sudo: if mentionned in a non accessible thread, user should be able to see the name
                 record_name = record.sudo().display_name
@@ -3744,6 +3777,8 @@ class Message(models.Model):
                 record_name = False
                 default_subject = False
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4127,6 +4162,9 @@ class Message(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4458,6 +4496,7 @@ class Message(models.Model):
                 [("subject", "ilike", search_term)],
                 [("subtype_id.description", "ilike", search_term)],
             ])])
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4969,6 +5008,8 @@ class Message(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             res["count"] = self.search_count(domain)
         if around is not None:
             messages_before = self.search(domain=[*domain, ('id', '<=', around)], limit=limit // 2, order="id DESC")
@@ -5019,15 +5060,21 @@ class Message(models.Model):
             # YTI FIXME: check allowed_company_ids if necessary
             if record := record_by_message.get(message):
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if record.has_access('read'):
                     messages += message
 =======
+=======
+>>>>>>> upstream/18.0
                 try:
                     if record.has_access('read'):
                         messages += message
                 except (MissingError):
                     # record has been removed from db without cascading notif -> avoid crash at least
                     continue
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         messages_per_partner = defaultdict(lambda: self.env['mail.message'])
         for message in messages:
@@ -5205,6 +5252,7 @@ class Message(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return self.filtered(
             lambda msg:
                 (not msg.body or tools.is_html_empty(msg.body)) and
@@ -5212,6 +5260,8 @@ class Message(models.Model):
                 not msg.attachment_ids and
                 not msg.tracking_value_ids
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5593,6 +5643,9 @@ class Message(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

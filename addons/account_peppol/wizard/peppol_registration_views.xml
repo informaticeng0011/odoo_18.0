@@ -9,6 +9,7 @@
                 <field name="company_id" invisible="1"/>
                 <sheet>
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <div class="m-0" name="warnings" invisible="not peppol_warnings or account_peppol_proxy_state != 'not_registered'">
                         <field name="peppol_warnings" class="o_field_html" widget="actionable_errors"/>
                     </div>
@@ -18,6 +19,8 @@
 
                             <!-- Optional step: receiver registration fields -->
 =======
+=======
+>>>>>>> upstream/18.0
                     <div class="m-0" name="warnings" invisible="not peppol_warnings">
                         <field name="peppol_warnings" class="o_field_html" widget="actionable_errors"/>
                     </div>
@@ -31,12 +34,16 @@
                         <p class="text-muted" invisible="use_parent_connection">
                             Send electronic invoices, and receive bills automatically via Peppol.
                         </p>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
                         <group col="1">
                             <group>
                                 <field name="smp_registration" string="Allow incoming invoices" invisible="1"/>
                                 <field name="peppol_eas"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -930,10 +937,13 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                                        placeholder="Peppol ID"
                                        nolabel="1"
                                        widget="peppol_non_focusable_selection"
                                        class="o_field_peppol_eas_selection"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
                                 <field name="peppol_endpoint" nolabel="1"/>
 <<<<<<< HEAD
@@ -1012,6 +1022,8 @@
                                 <field name="contact_email" string="Email"/>
                                 <field name="phone_number" required="edi_mode not in ('demo', 'test')" string="Phone"/>
 =======
+=======
+>>>>>>> upstream/18.0
                                 <field name="peppol_endpoint"
                                        nolabel="1"/>
                                 <field name="contact_email"
@@ -1021,6 +1033,9 @@
                                        required="edi_mode not in ('demo', 'test')"
                                        readonly="use_parent_connection"
                                        string="Phone"/>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                             </group>
 

@@ -100,7 +100,11 @@ registry.category("web_tour.tours").add('test_manufacturing_and_byproduct_sm_to_
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             run: 'edit 27',
+=======
+            run: 'edit 25',
+>>>>>>> upstream/18.0
 =======
             run: 'edit 25',
 >>>>>>> upstream/18.0
@@ -308,7 +312,11 @@ registry.category("web_tour.tours").add('test_manufacturing_and_byproduct_sm_to_
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: ".o_data_row > td:contains('43')",
+=======
+            trigger: ".o_data_row:has([name=product_uom_qty]:contains(5.00)) > td:contains(25)",
+>>>>>>> upstream/18.0
 =======
             trigger: ".o_data_row:has([name=product_uom_qty]:contains(5.00)) > td:contains(25)",
 >>>>>>> upstream/18.0

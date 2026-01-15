@@ -50,6 +50,12 @@ class TestMessagePostCommon(MailCommon, TestRecipients):
             'email_from': 'ignasse@example.com'
         })
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        cls.test_records_simple, _partners = cls._create_records_for_batch(
+            'mail.test.simple', 3,
+        )
+>>>>>>> upstream/18.0
 =======
         cls.test_records_simple, _partners = cls._create_records_for_batch(
             'mail.test.simple', 3,
@@ -1089,6 +1095,7 @@ class TestMessagePost(TestMessagePostCommon, CronMixinCase):
         self.user_admin.write({'notification_type': 'inbox'})
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         test_record = self.test_record.with_env(self.env)
         test_record.message_subscribe((self.partner_1 | self.partner_admin).ids)
 
@@ -1111,6 +1118,8 @@ class TestMessagePost(TestMessagePostCommon, CronMixinCase):
         self.assertEqual(len(schedules), 1, msg='Should have scheduled the message')
         self.assertEqual(schedules.scheduled_datetime, scheduled_datetime)
 =======
+=======
+>>>>>>> upstream/18.0
         test_records = self.test_records_simple.with_env(self.env)
         test_records.message_subscribe((self.partner_1 | self.partner_admin).ids)
 
@@ -1139,14 +1148,20 @@ class TestMessagePost(TestMessagePostCommon, CronMixinCase):
         schedules = self.env['mail.message.schedule'].sudo().search([('mail_message_id', 'in', messages.ids)])
         self.assertEqual(len(schedules), 3, msg='Should have one scheduled record / message to post')
         self.assertEqual(schedules.mapped('scheduled_datetime'), [scheduled_datetime] * 3)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         # trigger cron now -> should not sent as in future
         with self.mock_datetime_and_now(now):
             self.env['mail.message.schedule'].sudo()._send_notifications_cron()
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertTrue(schedules.exists(), msg='Should not have sent the message')
 =======
+=======
+>>>>>>> upstream/18.0
         self.assertTrue(schedules.exists(), msg='Should not have sent the messages')
 
         # In the mean time, some FK deletes the record where the message is
@@ -1156,11 +1171,15 @@ class TestMessagePost(TestMessagePostCommon, CronMixinCase):
             f"DELETE FROM {test_records._table} WHERE id = %s", (deleted_record.id,)
         )
         test_records.invalidate_recordset()
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         # Send the scheduled message from the cron at right date
         with self.mock_datetime_and_now(now + timedelta(days=5)), self.mock_mail_gateway(mail_unlink_sent=True):
             self.env['mail.message.schedule'].sudo()._send_notifications_cron()
+<<<<<<< HEAD
 <<<<<<< HEAD
         self.assertFalse(schedules.exists(), msg='Should have sent the message')
         # check notifications have been sent
@@ -1170,6 +1189,8 @@ class TestMessagePost(TestMessagePostCommon, CronMixinCase):
         ]}]
         self.assertMailNotifications(msg, recipients_info)
 =======
+=======
+>>>>>>> upstream/18.0
         self.assertFalse(schedules.exists(), msg='Should have sent the messages')
 
         # check notifications have been sent
@@ -1188,6 +1209,9 @@ class TestMessagePost(TestMessagePostCommon, CronMixinCase):
                         ],
                     }])
         self.assertEqual(len(self._new_mails), len(remaining_records), 'Should have skipped unlinked record')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         # manually create a new schedule date, resend it -> should not crash (aka
@@ -1206,7 +1230,11 @@ class TestMessagePost(TestMessagePostCommon, CronMixinCase):
              self.mock_mail_gateway(mail_unlink_sent=False), \
              self.capture_triggers(cron_id) as capt:
 <<<<<<< HEAD
+<<<<<<< HEAD
             msg = test_record.message_post(
+=======
+            msg = test_records[0].message_post(
+>>>>>>> upstream/18.0
 =======
             msg = test_records[0].message_post(
 >>>>>>> upstream/18.0
@@ -1401,7 +1429,11 @@ class TestMessagePost(TestMessagePostCommon, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             [('List1', b'<xml>My xml attachment</xml>')],
+=======
+            [('List1', b'<?xml version="1.0"?>My xml attachment<_/>')],
+>>>>>>> upstream/18.0
 =======
             [('List1', b'<?xml version="1.0"?>My xml attachment<_/>')],
 >>>>>>> upstream/18.0

@@ -102,6 +102,7 @@ class PosConfig(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         help='If left empty, only Odoo users have extended rights in PoS')
 
 <<<<<<< HEAD
@@ -814,6 +815,10 @@ class PosConfig(models.Model):
         help='Employees linked to users with the PoS Manager role are automatically added to this list')
 
 >>>>>>> upstream/18.0
+=======
+        help='Employees linked to users with the PoS Manager role are automatically added to this list')
+
+>>>>>>> upstream/18.0
     def write(self, vals):
         if 'advanced_employee_ids' not in vals:
             vals['advanced_employee_ids'] = []
@@ -1026,6 +1031,9 @@ class PosConfig(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1650,8 +1658,11 @@ class PosConfig(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 self.advanced_employee_ids -= employee
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2274,6 +2285,9 @@ class PosConfig(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

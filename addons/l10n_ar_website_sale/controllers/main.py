@@ -76,6 +76,7 @@ class L10nARWebsiteSale(WebsiteSale):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if missing_fields and any(
                 fname in missing_fields
                 for fname in [
@@ -83,6 +84,8 @@ class L10nARWebsiteSale(WebsiteSale):
                 ]
             ):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -163,6 +166,9 @@ class L10nARWebsiteSale(WebsiteSale):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -17,6 +17,10 @@ class PeppolRegistration(models.TransientModel):
     _description = "Peppol Registration"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    # 'company_id' is the current active company, always set.
+>>>>>>> upstream/18.0
 =======
     # 'company_id' is the current active company, always set.
 >>>>>>> upstream/18.0
@@ -26,9 +30,12 @@ class PeppolRegistration(models.TransientModel):
         default=lambda self: self.env.company,
     )
 <<<<<<< HEAD
+<<<<<<< HEAD
     contact_email = fields.Char(
         related='company_id.account_peppol_contact_email',
 =======
+=======
+>>>>>>> upstream/18.0
 
     # 'parent_company_id' is the potential parent company of the current branch or the branch itself
     # if no fallback on the parent branch is possible.
@@ -56,6 +63,9 @@ class PeppolRegistration(models.TransientModel):
 
     contact_email = fields.Char(
         related='selected_company_id.account_peppol_contact_email',
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         readonly=False,
         required=True,
@@ -73,7 +83,11 @@ class PeppolRegistration(models.TransientModel):
         compute='_compute_edi_user_id',
     )
 <<<<<<< HEAD
+<<<<<<< HEAD
     account_peppol_migration_key = fields.Char(related='company_id.account_peppol_migration_key', readonly=False)  # TODO remove in master
+=======
+    account_peppol_migration_key = fields.Char(related='selected_company_id.account_peppol_migration_key', readonly=False)  # TODO remove in master
+>>>>>>> upstream/18.0
 =======
     account_peppol_migration_key = fields.Char(related='selected_company_id.account_peppol_migration_key', readonly=False)  # TODO remove in master
 >>>>>>> upstream/18.0
@@ -83,7 +97,11 @@ class PeppolRegistration(models.TransientModel):
         help="Using the config params, this field specifies which edi modes may be selected from the UI"
     )
 <<<<<<< HEAD
+<<<<<<< HEAD
     phone_number = fields.Char(related='company_id.account_peppol_phone_number', readonly=False)
+=======
+    phone_number = fields.Char(related='selected_company_id.account_peppol_phone_number', readonly=False)
+>>>>>>> upstream/18.0
 =======
     phone_number = fields.Char(related='selected_company_id.account_peppol_phone_number', readonly=False)
 >>>>>>> upstream/18.0
@@ -115,6 +133,7 @@ class PeppolRegistration(models.TransientModel):
 
     @api.onchange('phone_number')
     def _onchange_phone_number(self):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -655,6 +674,8 @@ class PeppolRegistration(models.TransientModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         self.env['res.company']._check_phonenumbers_import()
         for wizard in self:
             if wizard.phone_number:
@@ -662,6 +683,7 @@ class PeppolRegistration(models.TransientModel):
                 with contextlib.suppress(phonenumbers.NumberParseException):
                     parsed_phone_number = phonenumbers.parse(
                         wizard.phone_number,
+<<<<<<< HEAD
 <<<<<<< HEAD
                         region=wizard.company_id.country_code,
 <<<<<<< HEAD
@@ -1196,6 +1218,9 @@ class PeppolRegistration(models.TransientModel):
 =======
                         region=wizard.selected_company_id.country_code,
 >>>>>>> upstream/18.0
+=======
+                        region=wizard.selected_company_id.country_code,
+>>>>>>> upstream/18.0
                     )
                     wizard.phone_number = phonenumbers.format_number(
                         parsed_phone_number,
@@ -1207,7 +1232,10 @@ class PeppolRegistration(models.TransientModel):
     # -------------------------------------------------------------------------
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @api.depends('company_id')
     def _compute_parent_company_id(self):
         for wizard in self:
@@ -1238,6 +1266,9 @@ class PeppolRegistration(models.TransientModel):
         for wizard in self:
             wizard.use_parent_connection = wizard.use_parent_connection_selection == 'use_parent'
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     @api.depends('company_id.account_edi_proxy_client_ids')
     def _compute_edi_user_id(self):
@@ -1245,7 +1276,11 @@ class PeppolRegistration(models.TransientModel):
             wizard.edi_user_id = wizard.company_id.account_edi_proxy_client_ids.filtered(lambda u: u.proxy_type == 'peppol')[:1]
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends('peppol_eas', 'peppol_endpoint', 'smp_registration')
+=======
+    @api.depends('peppol_eas', 'peppol_endpoint', 'use_parent_connection_selection', 'smp_registration')
+>>>>>>> upstream/18.0
 =======
     @api.depends('peppol_eas', 'peppol_endpoint', 'use_parent_connection_selection', 'smp_registration')
 >>>>>>> upstream/18.0
@@ -1255,6 +1290,7 @@ class PeppolRegistration(models.TransientModel):
             if (
                 wizard.peppol_eas
                 and wizard.peppol_endpoint
+<<<<<<< HEAD
 <<<<<<< HEAD
                 and not wizard.company_id._check_peppol_endpoint_number(warning=True)
             ):
@@ -1465,6 +1501,8 @@ class PeppolRegistration(models.TransientModel):
                 }
             if wizard.peppol_endpoint and not wizard.smp_registration:
 =======
+=======
+>>>>>>> upstream/18.0
                 and not wizard.selected_company_id._check_peppol_endpoint_number(warning=True)
             ):
                 peppol_warnings['company_peppol_endpoint_warning'] = {
@@ -1478,6 +1516,9 @@ class PeppolRegistration(models.TransientModel):
                 and wizard.peppol_endpoint
                 and not wizard.smp_registration
             ):
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 peppol_warnings['company_on_another_smp'] = {
                     'level': 'info',
@@ -1525,6 +1566,9 @@ class PeppolRegistration(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1606,7 +1650,11 @@ class PeppolRegistration(models.TransientModel):
                 try:
                     edi_identification = f'{wizard.peppol_eas}:{wizard.peppol_endpoint}'
 <<<<<<< HEAD
+<<<<<<< HEAD
                     wizard.edi_user_id._check_company_on_peppol(wizard.company_id, edi_identification)
+=======
+                    wizard.edi_user_id._check_company_on_peppol(wizard.selected_company_id, edi_identification)
+>>>>>>> upstream/18.0
 =======
                     wizard.edi_user_id._check_company_on_peppol(wizard.selected_company_id, edi_identification)
 >>>>>>> upstream/18.0
@@ -1622,6 +1670,7 @@ class PeppolRegistration(models.TransientModel):
 
     @api.depends('edi_user_id')
     def _compute_edi_mode(self):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2253,6 +2302,10 @@ class PeppolRegistration(models.TransientModel):
         for wizard in self:
             wizard.edi_mode = wizard.company_id._get_peppol_edi_mode()
 >>>>>>> upstream/18.0
+=======
+        for wizard in self:
+            wizard.edi_mode = wizard.company_id._get_peppol_edi_mode()
+>>>>>>> upstream/18.0
 
     def _inverse_edi_mode(self):
         for wizard in self:
@@ -2266,11 +2319,14 @@ class PeppolRegistration(models.TransientModel):
 
     def _ensure_mandatory_fields(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not self.contact_email or not self.phone_number:
             raise ValidationError(_("Contact email and phone number are required."))
 
     def _action_open_peppol_form(self, reopen=True):
 =======
+=======
+>>>>>>> upstream/18.0
         if self.use_parent_connection:
             return
         if not self.contact_email or not self.phone_number:
@@ -2290,6 +2346,9 @@ class PeppolRegistration(models.TransientModel):
         # TODO remove in master this hack to get the branches management
         if 'use_parent_connection' not in view.arch_db:
             view.reset_arch(mode="hard")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         action_dict = {
             'name': _("Activate Electronic Invoicing (via Peppol)"),
@@ -2363,7 +2422,11 @@ class PeppolRegistration(models.TransientModel):
         edi_identification = f'{self.peppol_eas}:{self.peppol_endpoint}'
         if self.smp_registration:
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.edi_user_id._check_company_on_peppol(self.company_id, edi_identification)
+=======
+            self.edi_user_id._check_company_on_peppol(self.selected_company_id, edi_identification)
+>>>>>>> upstream/18.0
 =======
             self.edi_user_id._check_company_on_peppol(self.selected_company_id, edi_identification)
 >>>>>>> upstream/18.0
@@ -2403,8 +2466,11 @@ class PeppolRegistration(models.TransientModel):
         self._ensure_mandatory_fields()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self.account_peppol_proxy_state in ('smp_registration', 'receiver', 'rejected'):
 =======
+=======
+>>>>>>> upstream/18.0
         if self.use_parent_connection:
             self.company_id.write({
                 'peppol_eas': self.peppol_eas,
@@ -2413,6 +2479,9 @@ class PeppolRegistration(models.TransientModel):
                 'account_peppol_phone_number': self.phone_number,
             })
         elif self.account_peppol_proxy_state in ('smp_registration', 'receiver', 'rejected'):
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             raise UserError(
                 _('Cannot register a user with a %s application', self.account_peppol_proxy_state))
@@ -2448,7 +2517,11 @@ class PeppolRegistration(models.TransientModel):
             },
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         state = self.company_id.account_peppol_proxy_state
+=======
+        state = self.selected_company_id.account_peppol_proxy_state
+>>>>>>> upstream/18.0
 =======
         state = self.selected_company_id.account_peppol_proxy_state
 >>>>>>> upstream/18.0

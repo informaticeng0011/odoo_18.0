@@ -5,8 +5,11 @@ SUPPORTED_CURRENCIES = [
     'IDR',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'PHP',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     'MYR',
@@ -14,6 +17,9 @@ SUPPORTED_CURRENCIES = [
     'THB',
     'VND',
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25,8 +31,11 @@ CURRENCY_DECIMALS = {
     'IDR': 0,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'PHP': 0,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     'MYR': 0,
@@ -34,6 +43,9 @@ CURRENCY_DECIMALS = {
     'THB': 0,
     'VND': 0,
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -44,6 +56,10 @@ DEFAULT_PAYMENT_METHOD_CODES = {
     # Primary payment methods.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    # ID
+>>>>>>> upstream/18.0
 =======
     # ID
 >>>>>>> upstream/18.0
@@ -56,7 +72,10 @@ DEFAULT_PAYMENT_METHOD_CODES = {
     'qris',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     # MY
@@ -71,6 +90,9 @@ DEFAULT_PAYMENT_METHOD_CODES = {
     'zalopay',
     'vnptwallet'
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -82,7 +104,10 @@ DEFAULT_PAYMENT_METHOD_CODES = {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 # FPX is an online payment method in Malaysia that allows customers to make payments directly from their bank accounts.
@@ -133,6 +158,9 @@ FPX_METHODS = [
 ]
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -145,7 +173,10 @@ PAYMENT_METHODS_MAPPING = {
     'maya': 'PAYMAYA',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     'wechat_pay': 'WECHATPAY',
@@ -155,6 +186,9 @@ PAYMENT_METHODS_MAPPING = {
     'touch_n_go': 'TOUCHNGO',
     **{method: 'fpx' for method in FPX_METHODS}
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

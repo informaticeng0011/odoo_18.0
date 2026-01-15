@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import json
 from contextlib import contextmanager
 <<<<<<< HEAD
@@ -485,6 +486,8 @@ PDF_FILE_PATH = 'account_peppol/tests/assets/peppol_identification_test.pdf'
 @tagged('-at_install', 'post_install')
 class TestPeppolParticipant(TransactionCase):
 =======
+=======
+>>>>>>> upstream/18.0
 from base64 import b64encode
 
 from odoo import Command
@@ -499,12 +502,16 @@ from odoo.addons.account_peppol.tests.common import PeppolConnectorCommon
 @freeze_time('2023-01-01')
 @tagged('-at_install', 'post_install')
 class TestPeppolParticipant(PeppolConnectorCommon):
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     @classmethod
     def setUpClass(cls):
         super().setUpClass()
         cls.env['ir.config_parameter'].sudo().set_param('account_peppol.edi.mode', 'test')
+<<<<<<< HEAD
 <<<<<<< HEAD
 
     @classmethod
@@ -2246,6 +2253,8 @@ class TestPeppolParticipant(PeppolConnectorCommon):
         wizard = self.env['peppol.registration'].create(self._get_participant_vals())
         wizard.button_peppol_sender_registration()
 =======
+=======
+>>>>>>> upstream/18.0
         cls.private_key = cls.env['certificate.key'].create({
             'name': 'Test key PEPPOL',
             'content': b64encode(file_open('account_peppol/tests/assets/private_key.pem', 'rb').read()),
@@ -2266,6 +2275,9 @@ class TestPeppolParticipant(PeppolConnectorCommon):
             self._mock_register_sender(),
         ]):
             wizard.button_peppol_sender_registration()
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         self.env['account_edi_proxy_client.user'].create([{
@@ -2278,6 +2290,7 @@ class TestPeppolParticipant(PeppolConnectorCommon):
             'proxy_type': 'peppol',
             'edi_mode': 'demo',
         }])
+<<<<<<< HEAD
 <<<<<<< HEAD
         self.env.company.with_context(active_test=False).partner_id.button_account_peppol_check_partner_endpoint()
 
@@ -2916,11 +2929,16 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
         with self._mock_requests([
             self._mock_lookup_participant(),
         ]):
             self.env.company.with_context(active_test=False).partner_id.button_account_peppol_check_partner_endpoint()
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_create_participant_missing_data(self):
         # creating a participant without eas/endpoint/document should not be possible
@@ -2931,6 +2949,7 @@ class TestPeppolParticipant(PeppolConnectorCommon):
         with self.assertRaises(ValidationError), self.cr.savepoint():
             wizard.button_peppol_sender_registration()
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     def test_create_participant_already_exists(self):
         # creating a receiver participant that already exists on Peppol network should not be possible
@@ -3420,6 +3439,8 @@ class TestPeppolParticipant(PeppolConnectorCommon):
             self.assertEqual(self.env.company.account_peppol_proxy_state, 'smp_registration')
             self.assertFalse(self.env.company.account_peppol_migration_key)  # the key should be reset once we've used it
 =======
+=======
+>>>>>>> upstream/18.0
     def test_register_participant_for_the_first_time_as_sender_then_receiver_then_unregister(self):
         # not_register -> sender
         with self._mock_requests([
@@ -3673,4 +3694,7 @@ class TestPeppolParticipant(PeppolConnectorCommon):
             'phone_number': False,
             'contact_email': False,
         }])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

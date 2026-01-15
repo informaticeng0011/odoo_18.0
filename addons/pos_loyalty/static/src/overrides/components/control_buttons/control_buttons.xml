@@ -15,7 +15,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     t-attf-class="{{(_orderTotal lt 0 and _eWalletPrograms.length gte 1) or _eWalletRewards.length gte 1 ? 'highlight text-action': ''}}">
+=======
+                    t-attf-class="{{(_orderTotal lt 0 and _eWalletPrograms.length gte 1) or _eWalletRewards.length gte 1 ? 'highlight text-action': 'disabled'}}">
+>>>>>>> upstream/18.0
 =======
                     t-attf-class="{{(_orderTotal lt 0 and _eWalletPrograms.length gte 1) or _eWalletRewards.length gte 1 ? 'highlight text-action': 'disabled'}}">
 >>>>>>> upstream/18.0

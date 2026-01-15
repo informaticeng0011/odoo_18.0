@@ -553,6 +553,7 @@ class TestAccountMove(TestAccountMoveStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -931,6 +932,8 @@ class TestAccountMove(TestAccountMoveStockCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -965,6 +968,9 @@ class TestAccountMove(TestAccountMoveStockCommon):
             {'credit': 0.0,    'debit': 20.0,   'balance': 20.0,    'account_id': self.company_data["default_account_receivable"].id},
         ])
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1186,6 +1192,7 @@ class TestAccountMove(TestAccountMoveStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1508,6 +1515,8 @@ class TestAccountMove(TestAccountMoveStockCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1616,6 +1625,9 @@ class TestAccountMove(TestAccountMoveStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

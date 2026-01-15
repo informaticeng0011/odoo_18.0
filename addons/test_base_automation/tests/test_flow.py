@@ -1213,7 +1213,10 @@ class TestCompute(common.TransactionCase):
         self.assertEqual(r.display_name, 'Awiclo, Bob')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_computation_sequence(self):
         """ This test ensure sequential computation is done and all fields are correctly set
         when a filter_pre_domain trigger computation of one of the chain element
@@ -1239,6 +1242,9 @@ class TestCompute(common.TransactionCase):
             'remaining_hours': 95,
         }])
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_recursion(self):
         project = self.env['test_base_automation.project'].create({})
@@ -1732,6 +1738,10 @@ class TestHttp(common.HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self._wait_remaining_requests()  # just in case the request timeouts
+>>>>>>> upstream/18.0
 =======
         self._wait_remaining_requests()  # just in case the request timeouts
 >>>>>>> upstream/18.0

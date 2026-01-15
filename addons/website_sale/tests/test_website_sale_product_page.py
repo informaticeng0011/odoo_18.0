@@ -111,6 +111,7 @@ class TestWebsiteSaleProductPage(HttpCase, ProductVariantsCommon, WebsiteSaleCom
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_toggle_contact_us_button_visibility(self):
         """Check that the "Contact Us" button:
           - is shown for zero-priced products
@@ -125,6 +126,8 @@ class TestWebsiteSaleProductPage(HttpCase, ProductVariantsCommon, WebsiteSaleCom
 
         self.start_tour(red_sofa.website_url, 'website_sale_contact_us_button')
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -354,3 +357,27 @@ class TestWebsiteSaleProductPage(HttpCase, ProductVariantsCommon, WebsiteSaleCom
                 "message_id": message.id,
             },
         )
+<<<<<<< HEAD
+=======
+
+    def test_product_unpublished_without_category(self):
+        """Test that products created from frontend are unpublished without category"""
+        self.start_tour("/", 'product_unpublished_without_category', login="admin")
+        product = self.env['product.product'].search(
+            [('name', '=', 'Product Without Category')],
+            limit=1,
+        )
+        self.assertTrue(product)
+        self.assertFalse(product.website_published)
+
+    def test_product_published_with_category(self):
+        """Test that products with category are published"""
+        self.env['product.public.category'].create({'name': 'Test Category'})
+        self.start_tour("/", 'product_published_with_category', login="admin")
+        product = self.env['product.product'].search(
+            [('name', '=', 'Product With Category')],
+            limit=1,
+        )
+        self.assertTrue(product)
+        self.assertTrue(product.website_published)
+>>>>>>> upstream/18.0

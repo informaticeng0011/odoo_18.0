@@ -6,7 +6,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import models
+=======
+from odoo import models, _
+>>>>>>> upstream/18.0
 =======
 from odoo import models, _
 >>>>>>> upstream/18.0
@@ -259,7 +263,10 @@ TAX_EXEMPTION_MAPPING = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -766,6 +773,9 @@ FIX_WRONG_CODES_MAPPING = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1101,6 +1111,7 @@ class AccountEdiCommon(models.AbstractModel):
 
     def _get_tax_unece_codes(self, customer, supplier, tax):
         if tax.ubl_cii_tax_category_code:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2073,6 +2084,8 @@ class AccountEdiCommon(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             reason_code = tax.ubl_cii_tax_exemption_reason_code
             reason_code = FIX_WRONG_CODES_MAPPING.get(reason_code, reason_code)
             tax_exemption_reason = TAX_EXEMPTION_MAPPING.get(reason_code, _("Exempt from tax") if tax._requires_exemption_reason() else None)
@@ -2086,6 +2099,9 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

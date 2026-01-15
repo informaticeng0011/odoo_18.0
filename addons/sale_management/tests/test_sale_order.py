@@ -574,7 +574,10 @@ class TestSaleOrder(SaleManagementCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -804,6 +807,7 @@ class TestSaleOrder(SaleManagementCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -924,6 +928,8 @@ class TestSaleOrder(SaleManagementCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_show_update_pricelist_false_on_sale_order_open(self):
         """Ensure the update pricelist button is disabled when opening a sale order
@@ -943,4 +949,7 @@ class TestSaleOrder(SaleManagementCommon):
             self.assertTrue(sale_order_form.order_line)
             self.assertFalse(sale_order_form.show_update_pricelist)
             sale_order_form.partner_id = self.partner
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

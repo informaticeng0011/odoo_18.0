@@ -1,14 +1,20 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from markupsafe import Markup
 
 =======
+=======
+>>>>>>> upstream/18.0
 import contextlib
 
 from markupsafe import Markup
 
 from odoo.addons.base.models.ir_mail_server import MailDeliveryException
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 from odoo.addons.mail.tests.common import mail_new_test_user, MailCommon
 from odoo.addons.mail.tools.discuss import Store
@@ -18,7 +24,10 @@ from odoo.tools import is_html_empty, mute_logger, formataddr
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 @tagged('mail_message', 'mail_controller', 'post_install', '-at_install')
 class TestMessageHelpersRobustness(MailCommon, HttpCase):
     """ Test message helpers robustness, currently mainly linked to records
@@ -160,6 +169,9 @@ class TestMessageHelpersRobustness(MailCommon, HttpCase):
         self.assertTrue(all(notif.notification_status == 'canceled' for notif in notifs_by_employee))
 
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 @tagged("mail_message", "post_install", "-at_install")
 class TestMessageValues(MailCommon):
@@ -509,6 +521,7 @@ class TestMessageValues(MailCommon):
         msg = self.env['mail.message'].create({'model': self.alias_record._name, 'res_id': self.alias_record.id})
         self.assertEqual(msg.message_type, 'comment', 'Message should be comments by default')
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 @tagged("mail_message")
@@ -547,5 +560,7 @@ class TestMessageStore(MailCommon, HttpCase):
         })
         res = self.make_jsonrpc_request("/mail/data", {"failures": True})
         self.assertEqual([t["name"] for t in res["mail.thread"]], ['Some description'])
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

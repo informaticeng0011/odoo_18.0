@@ -154,10 +154,13 @@ registry.category("web_tour.tours").add('website_sale_reorder_from_portal', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         },
         clickOnElement('Reorder Again', '.o_wsale_reorder_button'),
         clickOnElement('Confirm', '.o_wsale_reorder_confirm'),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -590,6 +593,9 @@ registry.category("web_tour.tours").add('website_sale_reorder_from_portal', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1028,7 +1034,12 @@ registry.category("web_tour.tours").add('website_sale_reorder_from_portal', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             }
+=======
+            },
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             },
             expectUnloadPage: true,
@@ -1744,11 +1755,14 @@ registry.category("web_tour.tours").add('website_sale_reorder_from_portal', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         },
         clickOnElement('Reorder Again', '.o_wsale_reorder_button'),
         clickOnElement('Confirm', '.o_wsale_reorder_confirm'),
         clickOnElement('No', 'button:contains(No)'),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2186,6 +2200,9 @@ registry.category("web_tour.tours").add('website_sale_reorder_from_portal', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2624,7 +2641,12 @@ registry.category("web_tour.tours").add('website_sale_reorder_from_portal', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             }
+=======
+            },
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             },
             expectUnloadPage: true,
@@ -3340,11 +3362,14 @@ registry.category("web_tour.tours").add('website_sale_reorder_from_portal', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         },
         clickOnElement('Reorder Again', '.o_wsale_reorder_button'),
         clickOnElement('Confirm', '.o_wsale_reorder_confirm'),
         clickOnElement('Yes', 'button:contains(Yes)'),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3782,6 +3807,9 @@ registry.category("web_tour.tours").add('website_sale_reorder_from_portal', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4233,7 +4261,12 @@ registry.category("web_tour.tours").add('website_sale_reorder_from_portal', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             }
+=======
+            },
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             },
             expectUnloadPage: true,
@@ -4949,10 +4982,13 @@ registry.category("web_tour.tours").add('website_sale_reorder_from_portal', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         },
         clickOnElement('Reorder Again', '.o_wsale_reorder_button'),
         clickOnElement('Confirm', '.o_wsale_reorder_confirm'),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5385,6 +5421,9 @@ registry.category("web_tour.tours").add('website_sale_reorder_from_portal', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

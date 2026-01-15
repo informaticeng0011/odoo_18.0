@@ -11,7 +11,11 @@ patch(NewContentModal.prototype, {
         newProductElement.createNewContent = () => this.onAddContent(
             'website_sale.product_product_action_add',
             true,
+<<<<<<< HEAD
             {default_is_published: true});
+=======
+        );
+>>>>>>> upstream/18.0
         newProductElement.status = MODULE_STATUS.INSTALLED;
         newProductElement.model = 'product.product';
     },

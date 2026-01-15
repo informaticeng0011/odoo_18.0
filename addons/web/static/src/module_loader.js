@@ -218,6 +218,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+            const strDebug = new URLSearchParams(location.search).get("debug");
+            this.debug = Boolean(strDebug && strDebug !== "0");
+>>>>>>> upstream/18.0
 =======
 
             const strDebug = new URLSearchParams(location.search).get("debug");
@@ -1486,8 +1492,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const debug = new URLSearchParams(location.search).get("debug");
             if (debug && debug !== "0") {
+=======
+            if (this.debug) {
+>>>>>>> upstream/18.0
 =======
             if (this.debug) {
 >>>>>>> upstream/18.0
@@ -2282,6 +2292,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (odoo.debug && !new URLSearchParams(location.search).has("debug")) {
         // remove debug mode if not explicitely set in url
         odoo.debug = "";
@@ -2291,6 +2302,8 @@
     odoo.define = loader.define.bind(loader);
     odoo.loader = loader;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2854,6 +2867,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

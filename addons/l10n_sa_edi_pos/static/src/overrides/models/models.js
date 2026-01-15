@@ -7,7 +7,11 @@ patch(PosOrder.prototype, {
     setup(_defaultObj, options) {
         super.setup(...arguments);
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (this.isSACompany) {
+=======
+        if (this.isInvoiceMandatoryForSA) {
+>>>>>>> upstream/18.0
 =======
         if (this.isInvoiceMandatoryForSA) {
 >>>>>>> upstream/18.0
@@ -16,7 +20,11 @@ patch(PosOrder.prototype, {
     },
     is_to_invoice() {
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (this.isSACompany) {
+=======
+        if (this.isInvoiceMandatoryForSA) {
+>>>>>>> upstream/18.0
 =======
         if (this.isInvoiceMandatoryForSA) {
 >>>>>>> upstream/18.0
@@ -26,7 +34,11 @@ patch(PosOrder.prototype, {
     },
     set_to_invoice(to_invoice) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (this.isSACompany) {
+=======
+        if (this.isInvoiceMandatoryForSA) {
+>>>>>>> upstream/18.0
 =======
         if (this.isInvoiceMandatoryForSA) {
 >>>>>>> upstream/18.0
@@ -37,7 +49,10 @@ patch(PosOrder.prototype, {
         }
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     set_partner(partner) {
         /*
@@ -57,6 +72,9 @@ patch(PosOrder.prototype, {
         return this.isSACompany && !this.is_settling_account;
     },
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     get isSACompany() {
         return this.company.country_id?.code == "SA";

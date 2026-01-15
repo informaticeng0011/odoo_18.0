@@ -8,6 +8,10 @@ from odoo import _, fields, models
 from odoo.addons.account_edi_proxy_client.models.account_edi_proxy_user import AccountEdiProxyError
 from odoo.exceptions import UserError
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools import index_exists
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import index_exists
 >>>>>>> upstream/18.0
@@ -25,7 +29,10 @@ class AccountEdiProxyClientUser(models.Model):
     proxy_type = fields.Selection(selection_add=[('l10n_my_edi', 'Malaysian EDI')], ondelete={'l10n_my_edi': 'cascade'})
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     _sql_constraints = [
         ('unique_identification_l10n_my_edi', '', 'This edi identification is already assigned to an active user'),
     ]
@@ -39,6 +46,9 @@ class AccountEdiProxyClientUser(models.Model):
                               WHERE (active = True AND proxy_type = 'l10n_my_edi')
             """)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     # -----------------------
     # CRUD, inherited methods

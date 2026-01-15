@@ -11,6 +11,11 @@ import {
 import { browser } from "@web/core/browser/browser";
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+const oldWriteText = browser.navigator.clipboard.writeText;
+
+>>>>>>> upstream/18.0
 =======
 const oldWriteText = browser.navigator.clipboard.writeText;
 
@@ -33,10 +38,15 @@ registerWebsitePreviewTour("snippet_popup_display_on_click", {
         async run(helpers) {
             // Patch and ignore write on clipboard in tour as we don't have permissions
 <<<<<<< HEAD
+<<<<<<< HEAD
             const oldWriteText = browser.navigator.clipboard.writeText;
             browser.navigator.clipboard.writeText = () => { console.info('Copy in clipboard ignored!') };
             await helpers.click();
             browser.navigator.clipboard.writeText = oldWriteText;
+=======
+            browser.navigator.clipboard.writeText = () => { console.info('Copy in clipboard ignored!') };
+            await helpers.click();
+>>>>>>> upstream/18.0
 =======
             browser.navigator.clipboard.writeText = () => { console.info('Copy in clipboard ignored!') };
             await helpers.click();
@@ -48,6 +58,12 @@ registerWebsitePreviewTour("snippet_popup_display_on_click", {
         trigger: ".o_notification_manager .o_notification_content",
         run() {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            // Cleanup the patched clipboard method
+            browser.navigator.clipboard.writeText = oldWriteText;
+
+>>>>>>> upstream/18.0
 =======
             // Cleanup the patched clipboard method
             browser.navigator.clipboard.writeText = oldWriteText;

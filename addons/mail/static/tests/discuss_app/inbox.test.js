@@ -161,9 +161,12 @@ test("reply: discard on reply button toggle", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await click("[title='Reply']");
     await contains(".o-mail-Composer");
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -528,6 +531,9 @@ test("reply: discard on reply button toggle", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -916,6 +922,10 @@ test("reply: discard on pressing escape", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    await click("[title='Expand']");
+>>>>>>> upstream/18.0
 =======
     await click("[title='Expand']");
 >>>>>>> upstream/18.0
@@ -1385,6 +1395,10 @@ test("reply: discard on pressing escape", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    await contains(".o-mail-Composer.o-focused");
+>>>>>>> upstream/18.0
 =======
     await contains(".o-mail-Composer.o-focused");
 >>>>>>> upstream/18.0
@@ -1807,6 +1821,10 @@ test('"reply to" composer should log note if message replied to is a note', asyn
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    await click("[title='Expand']");
+>>>>>>> upstream/18.0
 =======
     await click("[title='Expand']");
 >>>>>>> upstream/18.0
@@ -2323,6 +2341,10 @@ test('"reply to" composer should send message if message replied to is not a not
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    await click("[title='Expand']");
+>>>>>>> upstream/18.0
 =======
     await click("[title='Expand']");
 >>>>>>> upstream/18.0
@@ -3252,6 +3274,10 @@ test("reply: stop replying button click", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    await click("[title='Expand']");
+>>>>>>> upstream/18.0
 =======
     await click("[title='Expand']");
 >>>>>>> upstream/18.0
@@ -3923,6 +3949,10 @@ test("can reply to email message", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    await click("[title='Expand']");
+>>>>>>> upstream/18.0
 =======
     await click("[title='Expand']");
 >>>>>>> upstream/18.0

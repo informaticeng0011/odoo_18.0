@@ -83,6 +83,10 @@ from odoo import _, api, Command, fields, models
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.exceptions import RedirectWarning, UserError
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import RedirectWarning, UserError
 >>>>>>> upstream/18.0
@@ -583,8 +587,11 @@ class AccountMoveSendBatchWizard(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 sending_method_counter[self._get_default_sending_method(move)] += 1
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1225,6 +1232,9 @@ class AccountMoveSendBatchWizard(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1662,6 +1672,7 @@ class AccountMoveSendBatchWizard(models.TransientModel):
     @api.depends('summary_data')
     def _compute_alerts(self):
         for wizard in self:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2522,6 +2533,9 @@ class AccountMoveSendBatchWizard(models.TransientModel):
 =======
             moves_data = {move: self._get_default_sending_settings(move) for move in wizard.move_ids}
 >>>>>>> upstream/18.0
+=======
+            moves_data = {move: self._get_default_sending_settings(move) for move in wizard.move_ids}
+>>>>>>> upstream/18.0
             wizard.alerts = self._get_alerts(wizard.move_ids, moves_data)
 
     # -------------------------------------------------------------------------
@@ -2628,7 +2642,10 @@ class AccountMoveSendBatchWizard(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2888,6 +2905,9 @@ class AccountMoveSendBatchWizard(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3137,7 +3157,11 @@ class AccountMoveSendBatchWizard(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.env.ref('account.ir_cron_account_move_send')._trigger()
+=======
+        account_move_send_cron._trigger()
+>>>>>>> upstream/18.0
 =======
         account_move_send_cron._trigger()
 >>>>>>> upstream/18.0

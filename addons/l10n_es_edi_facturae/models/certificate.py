@@ -20,6 +20,7 @@ class Certificate(models.Model):
         cert = x509.load_pem_x509_certificate(base64.b64decode(self.pem_certificate))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         rfc4514_attr = dict(element.rfc4514_string().split("=", 1) for element in cert.issuer.rdns)
 
         # The 'Organizational Unit' field is optional
@@ -33,6 +34,8 @@ class Certificate(models.Model):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         issuer_key_priority = {
             'CN': 0,
             'OU': 1,
@@ -43,6 +46,9 @@ class Certificate(models.Model):
         sorted_items = sorted(items, key=lambda item_string: issuer_key_priority.get(item_string.split('=', 1)[0], 99))
         return ", ".join(sorted_items)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -135,6 +135,10 @@ from unittest.mock import patch
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo import exceptions
+>>>>>>> upstream/18.0
 =======
 from odoo import exceptions
 >>>>>>> upstream/18.0
@@ -794,6 +798,7 @@ class ActivityScheduleCase(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @tagged("-at_install", "post_install")
 class TestMailActivityChatter(HttpCase):
 
@@ -810,6 +815,8 @@ class TestMailActivityChatter(HttpCase):
             login="admin",
         )
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1210,6 +1217,9 @@ class TestMailActivityChatter(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1476,6 +1486,7 @@ class TestMailActivityChatter(HttpCase):
         with freeze_time("2024-1-1 09:00:00 AM"):
             LANG_CODE = "en_US"
             self.env = self.env(context={"lang": LANG_CODE})
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1875,6 +1886,8 @@ class TestMailActivityChatter(HttpCase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             lang = self.env["res.lang"].search([('code', '=', LANG_CODE)])
             lang.date_format = "%d/%b/%y"
             lang.time_format = "%I:%M:%S %p"
@@ -2011,11 +2024,14 @@ class TestMailActivityChatter(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 f"/web#id={testuser.partner_id.id}&model=res.partner",
                 "mail_activity_date_format",
                 login="admin",
             )
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2450,6 +2466,9 @@ class TestMailActivityIntegrity(ActivityScheduleCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

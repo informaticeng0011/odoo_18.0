@@ -109,11 +109,17 @@ class Task(models.Model):
         compute='_compute_project_id', recursive=True, store=True, readonly=False,
     )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     allocated_hours = fields.Float()
     trigger_hours = fields.Float("Save time to trigger effective hours")
     remaining_hours = fields.Float("Time Remaining", compute='_compute_remaining_hours', store=True, readonly=True, help="Number of allocated hours minus the number of hours spent.")
     effective_hours = fields.Float("Time Spent", compute='_compute_effective_hours', compute_sudo=True, store=True)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     @api.depends('parent_id.project_id')
@@ -123,7 +129,10 @@ class Task(models.Model):
                 task.project_id = task.parent_id.project_id
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @api.depends('trigger_hours')
     def _compute_effective_hours(self):
         for task in self:
@@ -137,6 +146,9 @@ class Task(models.Model):
             else:
                 task.remaining_hours = task.allocated_hours - task.effective_hours
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 class Stage(models.Model):

@@ -361,7 +361,10 @@ class TestAcessRightsStates(TestHrHolidaysAccessRightsCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_holiday_responsible_refuse_leave(self):
@@ -387,6 +390,9 @@ class TestAcessRightsStates(TestHrHolidaysAccessRightsCommon):
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

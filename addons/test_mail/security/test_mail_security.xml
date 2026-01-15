@@ -2,7 +2,10 @@
 <odoo noupdate="1">
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     <!-- Having rules triggers call to check_access_rules and allow to spot crashes
     notably when records are unlinked. Without rule, method is not called and
     some crashes are not trigerred in tests. -->
@@ -12,6 +15,9 @@
         <field name="domain_force">[('email_from', '!=', 'donotsetmewiththisvalue')]</field>
     </record>
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     <record id="ir_rule_mail_test_access_public" model="ir.rule">
         <field name="name">Public: public only</field>

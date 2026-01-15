@@ -177,6 +177,7 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         help='Primary contact email for Peppol-related communication',
 =======
         help='Primary contact email for Peppol connection related communications and notifications.\n'
@@ -1147,6 +1148,8 @@ class ResCompany(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         help='Primary contact email for Peppol connection related communications and notifications.\n'
              'In particular, this email is used by Odoo to reconnect your Peppol account in case of database change.',
     )
@@ -1160,6 +1163,9 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1184,11 +1190,17 @@ class ResCompany(models.Model):
         string='PEPPOL status', required=True, default='not_registered',
     )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     account_peppol_edi_user = fields.Many2one(
         comodel_name='account_edi_proxy_client.user',
         compute='_compute_account_peppol_edi_user',
     )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     peppol_eas = fields.Selection(related='partner_id.peppol_eas', readonly=False)
     peppol_endpoint = fields.Char(related='partner_id.peppol_endpoint', readonly=False)
@@ -1200,13 +1212,19 @@ class ResCompany(models.Model):
         inverse='_inverse_peppol_purchase_journal_id',
     )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     peppol_can_send = fields.Boolean(compute='_compute_peppol_can_send')
     peppol_parent_company_id = fields.Many2one(
         comodel_name='res.company',
         compute='_compute_peppol_parent_company_id',
         compute_sudo=True,
     )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     # -------------------------------------------------------------------------
@@ -1391,6 +1409,7 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1745,6 +1764,8 @@ class ResCompany(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
     def _reset_peppol_configuration(self):
         """
         Reset all peppol configuration fields to their default value before registering.
@@ -1764,6 +1785,9 @@ class ResCompany(models.Model):
         self._compute_account_peppol_contact_email()
         self._compute_account_peppol_phone_number()
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     @api.model
     def _check_phonenumbers_import(self):
@@ -1947,6 +1971,9 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2488,8 +2515,12 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not phonenumbers:
             raise ValidationError(_("Please install the phonenumbers library."))
+=======
+        self._check_phonenumbers_import()
+>>>>>>> upstream/18.0
 =======
         self._check_phonenumbers_import()
 >>>>>>> upstream/18.0
@@ -3076,7 +3107,10 @@ class ResCompany(models.Model):
     # -------------------------------------------------------------------------
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @api.depends('account_edi_proxy_client_ids')
     def _compute_account_peppol_edi_user(self):
         for company in self:
@@ -3100,6 +3134,9 @@ class ResCompany(models.Model):
                     company.peppol_parent_company_id = parent_company
                     break
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     @api.depends('account_peppol_proxy_state')
     def _compute_peppol_purchase_journal_id(self):
@@ -3115,10 +3152,18 @@ class ResCompany(models.Model):
 
     def _inverse_peppol_purchase_journal_id(self):
         for company in self:
+<<<<<<< HEAD
             # This avoid having 2 or more journals from the same company with
             # `is_peppol_journal` set to True (which could occur after changes).
             journals_to_reset = self.env['account.journal'].search([
                 ('company_id', '=', company.id),
+=======
+            # This avoid having 2 or more purchase journals from the same company with
+            # `is_peppol_journal` set to True (which could occur after changes).
+            journals_to_reset = self.env['account.journal'].search([
+                ('company_id', '=', company.id),
+                ('type', '=', 'purchase'),
+>>>>>>> upstream/18.0
                 ('is_peppol_journal', '=', True),
             ])
             journals_to_reset.is_peppol_journal = False
@@ -3142,13 +3187,19 @@ class ResCompany(models.Model):
                     continue
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @api.depends('account_peppol_proxy_state')
     def _compute_peppol_can_send(self):
         can_send_domain = self.env['account_edi_proxy_client.user']._get_can_send_domain()
         for company in self:
             company.peppol_can_send = company.account_peppol_proxy_state in can_send_domain
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     # -------------------------------------------------------------------------
     # LOW-LEVEL METHODS
@@ -3215,6 +3266,7 @@ class ResCompany(models.Model):
                     "SI-UBL 2.0 Invoice",
                 "urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2::CreditNote##urn:cen.eu:en16931:2017#compliant#urn:fdc:nen.nl:nlcius:v1.0::2.1":
                     "SI-UBL 2.0 CreditNote",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3342,6 +3394,8 @@ class ResCompany(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 "urn:oasis:names:specification:ubl:schema:xsd:Invoice-2::Invoice##urn:cen.eu:en16931:2017#compliant#urn:xeinkauf.de:kosit:xrechnung_3.0::2.1":
                     "XRechnung UBL Invoice V2.0",
                 "urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2::CreditNote##urn:cen.eu:en16931:2017#compliant#urn:xeinkauf.de:kosit:xrechnung_3.0::2.1":
@@ -3387,10 +3441,13 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "urn:oasis:names:specification:ubl:schema:xsd:Invoice-2::Invoice##urn:cen.eu:en16931:2017#conformant#urn:fdc:peppol.eu:2017:poacc:billing:international:aunz:3.0::2.1":
                     "AU-NZ Peppol BIS Billing 3.0 Invoice",
                 "urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2::CreditNote##urn:cen.eu:en16931:2017#conformant#urn:fdc:peppol.eu:2017:poacc:billing:international:aunz:3.0::2.1":
                     "AU-NZ Peppol BIS Billing 3.0 CreditNote",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3614,7 +3671,12 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return peppol_user.edi_mode or config_param or 'prod'
+=======
+        demo_if_demo_identifier = 'demo' if self.peppol_eas == 'odemo' else False
+        return demo_if_demo_identifier or peppol_user.edi_mode or config_param or 'prod'
+>>>>>>> upstream/18.0
 =======
         demo_if_demo_identifier = 'demo' if self.peppol_eas == 'odemo' else False
         return demo_if_demo_identifier or peppol_user.edi_mode or config_param or 'prod'
