@@ -294,7 +294,10 @@ class TestEdiEwaybillJson(TestEdiJson):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -967,6 +970,9 @@ class TestEdiEwaybillJson(TestEdiJson):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1595,6 +1601,7 @@ class TestEdiEwaybillJson(TestEdiJson):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1921,6 +1928,8 @@ class TestEdiEwaybillJson(TestEdiJson):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_edi_export_overseas(self):
         (self.invoice_with_export_lut + self.invoice_with_export_without_lut).write({
@@ -1988,6 +1997,9 @@ class TestEdiEwaybillJson(TestEdiJson):
             "totInvValue": 1000.0,
         })
         self.assertDictEqual(json_value, expected, "Indian EDI Export with LUT json value does not match")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def test_edi_ewaybill_transporter_gst(self):
@@ -2246,6 +2258,9 @@ class TestEdiEwaybillJson(TestEdiJson):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

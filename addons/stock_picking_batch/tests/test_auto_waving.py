@@ -412,7 +412,10 @@ class TestAutoWaving(TransactionCase):
         waves = self.env['stock.picking.batch'].search([('is_wave', '=', True)])
         self.assertEqual(len(waves), 4)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_auto_wave_skip_current_batch(self):
         """ Check that validating a wave with partial quantities (one line empty, one partial)
@@ -453,4 +456,7 @@ class TestAutoWaving(TransactionCase):
         self.assertEqual(len(new_wave.move_line_ids), 2)
         new_wave.action_assign()
         self.assertEqual(new_wave.move_line_ids.mapped('quantity'), [1, 2])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

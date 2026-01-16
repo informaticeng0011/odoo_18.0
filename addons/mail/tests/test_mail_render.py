@@ -276,7 +276,11 @@ class TestMailRender(TestMailRenderCommon):
         } for n in range(20)]).ids
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with patch('odoo.models.Model.get_base_url', new=_mock_get_base_url), self.assertQueryCount(12):
+=======
+        with patch('odoo.models.Model.get_base_url', new=_mock_get_base_url), self.assertQueryCount(7):
+>>>>>>> upstream/18.0
 =======
         with patch('odoo.models.Model.get_base_url', new=_mock_get_base_url), self.assertQueryCount(7):
 >>>>>>> upstream/18.0

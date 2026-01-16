@@ -144,7 +144,11 @@ import { closestElement } from "@html_editor/utils/dom_traversal";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property {(traversedNodes: Node[]) => boolean} isApplied
+=======
+ * @property {(targetedNodes: Node[]) => boolean} isApplied
+>>>>>>> upstream/18.0
 =======
  * @property {(targetedNodes: Node[]) => boolean} isApplied
 >>>>>>> upstream/18.0
@@ -694,7 +698,11 @@ export class ToolbarPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (ev.key.startsWith("Arrow")) {
+=======
+                if (ev.key?.startsWith("Arrow")) {
+>>>>>>> upstream/18.0
 =======
                 if (ev.key?.startsWith("Arrow")) {
 >>>>>>> upstream/18.0
@@ -728,7 +736,11 @@ export class ToolbarPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (ev.key.startsWith("Arrow")) {
+=======
+                if (ev.key?.startsWith("Arrow")) {
+>>>>>>> upstream/18.0
 =======
                 if (ev.key?.startsWith("Arrow")) {
 >>>>>>> upstream/18.0
@@ -832,6 +844,7 @@ export class ToolbarPlugin extends Plugin {
         }
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1411,6 +1424,8 @@ export class ToolbarPlugin extends Plugin {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     /**
      * @deprecated
      */
@@ -1551,6 +1566,9 @@ export class ToolbarPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1960,7 +1978,11 @@ export class ToolbarPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return this.getFilterTraverseNodes().length;
+=======
+        return this.getFilteredTargetedNodes().length;
+>>>>>>> upstream/18.0
 =======
         return this.getFilteredTargetedNodes().length;
 >>>>>>> upstream/18.0
@@ -2475,9 +2497,15 @@ export class ToolbarPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const traversedNodes = this.getFilterTraverseNodes();
         for (const namespace of this.getResource("toolbar_namespaces")) {
             if (namespace.isApplied(traversedNodes)) {
+=======
+        const targetedNodes = this.getFilteredTargetedNodes();
+        for (const namespace of this.getResource("toolbar_namespaces")) {
+            if (namespace.isApplied(targetedNodes)) {
+>>>>>>> upstream/18.0
 =======
         const targetedNodes = this.getFilteredTargetedNodes();
         for (const namespace of this.getResource("toolbar_namespaces")) {
@@ -3256,6 +3284,7 @@ export class ToolbarPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const nodes = this.getFilterTraverseNodes();
 =======
         const nodes = this.getFilteredTargetedNodes();
@@ -3562,6 +3591,8 @@ export class ToolbarPlugin extends Plugin {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const nodes = this.dependencies.selection
             .getTargetedNodes()
             .filter(
@@ -3640,6 +3671,9 @@ export class ToolbarPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -42,7 +42,10 @@ class TestEmailParsing(MailCommon):
         ])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_message_parse_and_replace_wildcard(self):
         """Incoming email containing a wrong Content-Type (*/*) as described in RFC2046/section-3"""
         mail_with_wildcard_mime = self.format(test_mail_data.MAIL_PDF_MIME_TEMPLATE, pdf_mime="*/*")
@@ -58,6 +61,9 @@ class TestEmailParsing(MailCommon):
              "Content-Type '*/*', assuming 'application/octet-stream'"),
         ])
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_message_parse_body(self):
         # test pure plaintext
@@ -1401,9 +1407,12 @@ class TestMailgateway(MailGatewayCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertNotIn(self.partner_1, test_channel.channel_partner_ids)
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1726,6 +1735,9 @@ class TestMailgateway(MailGatewayCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2491,7 +2503,11 @@ class TestMailgateway(MailGatewayCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for encoding in ['', 'UTF-8', 'UTF-16LE', 'UTF-32BE']:
+=======
+        for encoding in ['', 'UTF-8', 'UTF-16LE', 'UTF-32BE', 'cp-850']:
+>>>>>>> upstream/18.0
 =======
         for encoding in ['', 'UTF-8', 'UTF-16LE', 'UTF-32BE', 'cp-850']:
 >>>>>>> upstream/18.0
@@ -2749,7 +2765,11 @@ class TestMailgateway(MailGatewayCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if encoding not in ['', 'UTF-8']:
+=======
+            if encoding not in ['', 'UTF-8', 'cp-850']:
+>>>>>>> upstream/18.0
 =======
             if encoding not in ['', 'UTF-8', 'cp-850']:
 >>>>>>> upstream/18.0
@@ -3340,6 +3360,10 @@ class TestMailGatewayLoops(MailGatewayCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'message_type': 'email'
+>>>>>>> upstream/18.0
 =======
                 'message_type': 'email'
 >>>>>>> upstream/18.0

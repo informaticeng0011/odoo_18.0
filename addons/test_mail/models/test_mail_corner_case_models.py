@@ -287,6 +287,10 @@ class MailTestTrackAll(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    float_field_with_digits = fields.Float('Precise Float', digits=(10, 8), tracking=5)
+>>>>>>> upstream/18.0
 =======
     float_field_with_digits = fields.Float('Precise Float', digits=(10, 8), tracking=5)
 >>>>>>> upstream/18.0
@@ -866,7 +870,11 @@ class MailTestMultiCompanyRead(models.Model):
     even if the user has no write access. """
     _description = 'Simple Chatter Model '
     _name = 'mail.test.multi.company.read'
+<<<<<<< HEAD
     _inherit = ['mail.test.multi.company']
+=======
+    _inherit = ['mail.test.multi.company', 'mail.activity.mixin']
+>>>>>>> upstream/18.0
     _mail_post_access = 'read'
 
 

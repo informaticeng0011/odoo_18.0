@@ -12,7 +12,11 @@ patch(NewContentModal.prototype, {
             'website_sale.product_product_action_add',
             true,
 <<<<<<< HEAD
+<<<<<<< HEAD
             {default_is_published: true});
+=======
+        );
+>>>>>>> upstream/18.0
 =======
         );
 >>>>>>> upstream/18.0

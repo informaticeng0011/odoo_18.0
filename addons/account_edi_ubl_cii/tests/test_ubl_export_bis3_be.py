@@ -149,7 +149,10 @@ class TestUblExportBis3BE(TestUblBis3Common, TestUblCiiBECommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -251,6 +254,9 @@ class TestUblExportBis3BE(TestUblBis3Common, TestUblCiiBECommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -313,6 +319,10 @@ class TestUblExportBis3BE(TestUblBis3Common, TestUblCiiBECommon):
         tax_recupel = self.fixed_tax(1.0, name="RECUPEL", include_base_amount=True)
         tax_auvibel = self.fixed_tax(2.0, name="AUVIBEL", include_base_amount=True)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        tax_bebat = self.fixed_tax(3.0, name="BEBAT", include_base_amount=True)
+>>>>>>> upstream/18.0
 =======
         tax_bebat = self.fixed_tax(3.0, name="BEBAT", include_base_amount=True)
 >>>>>>> upstream/18.0
@@ -333,12 +343,18 @@ class TestUblExportBis3BE(TestUblBis3Common, TestUblCiiBECommon):
                     tax_ids=tax_auvibel + tax_21,
                 ),
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                 self._prepare_invoice_line(
                     product_id=self.product_a,
                     price_unit=97.0,
                     tax_ids=tax_bebat + tax_21,
                 ),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             ],
             post=True,
@@ -433,7 +449,10 @@ class TestUblExportBis3BE(TestUblBis3Common, TestUblCiiBECommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -556,6 +575,9 @@ class TestUblExportBis3BE(TestUblBis3Common, TestUblCiiBECommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -815,6 +837,7 @@ class TestUblExportBis3BE(TestUblBis3Common, TestUblCiiBECommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -883,10 +906,15 @@ class TestUblExportBis3BE(TestUblBis3Common, TestUblCiiBECommon):
             self.skipTest("Fixup module with GLN not installed.")
         self.partner_be.global_location_number = "222222222222"
 =======
+=======
+>>>>>>> upstream/18.0
     def test_invoice_sent_to_partner_with_gln(self):
         self.ensure_installed('account_add_gln')
         self.partner_be.global_location_number = "222222222222"
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         tax_21 = self.percent_tax(21.0)
         product = self._create_product(
@@ -900,6 +928,7 @@ class TestUblExportBis3BE(TestUblBis3Common, TestUblCiiBECommon):
         )
 
         self._generate_invoice_ubl_file(invoice)
+<<<<<<< HEAD
 <<<<<<< HEAD
         self._assert_invoice_ubl_file(invoice, 'test_invoice_with_gln')
 
@@ -993,6 +1022,10 @@ class TestUblExportBis3BE(TestUblBis3Common, TestUblCiiBECommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        self._assert_invoice_ubl_file(invoice, 'test_invoice_sent_to_partner_with_gln')
+
 >>>>>>> upstream/18.0
 =======
         self._assert_invoice_ubl_file(invoice, 'test_invoice_sent_to_partner_with_gln')

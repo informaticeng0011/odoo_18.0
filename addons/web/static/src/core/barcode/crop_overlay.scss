@@ -6,13 +6,25 @@
         grid-column: 1 / -1;
     }
 
+<<<<<<< HEAD
     .o_crop_overlay {
+=======
+    .o_crop_overlay::after {
+        content: '';
+        display: block;
+    }
+
+    .o_crop_overlay:not(.o_crop_overlay_ios) {
+>>>>>>> upstream/18.0
         background-color: RGB(0 0 0 / 0.75);
         mix-blend-mode: darken;
 
         &::after {
+<<<<<<< HEAD
             content: '';
             display: block;
+=======
+>>>>>>> upstream/18.0
             height: 100%;
             width: 100%;
             clip-path: inset(var(--o-crop-y, 0px) var(--o-crop-x, 0px));
@@ -20,6 +32,19 @@
         }
     }
 
+<<<<<<< HEAD
+=======
+    .o_crop_overlay.o_crop_overlay_ios {
+        position: relative;
+
+        &::after {
+            position: absolute;
+            inset: var(--o-crop-y, 0px) var(--o-crop-x, 0px);
+            border: 1px solid black;
+        }
+    }
+
+>>>>>>> upstream/18.0
     .o_crop_icon {
         --o-crop-icon-width: 20px;
         --o-crop-icon-height: 20px;

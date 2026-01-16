@@ -44,7 +44,11 @@ export class MessageSeenIndicator extends Component {
         if (this.props.message.hasEveryoneSeen) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (this.props.thread.channelMembers.length === 2) {
+=======
+            if (this.props.thread.correspondent && this.props.thread.channelMembers.length === 2) {
+>>>>>>> upstream/18.0
 =======
             if (this.props.thread.correspondent && this.props.thread.channelMembers.length === 2) {
 >>>>>>> upstream/18.0

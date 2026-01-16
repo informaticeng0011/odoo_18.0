@@ -575,7 +575,10 @@ class TestSaleOrder(SaleManagementCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -808,6 +811,7 @@ class TestSaleOrder(SaleManagementCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -928,6 +932,8 @@ class TestSaleOrder(SaleManagementCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -950,6 +956,9 @@ class TestSaleOrder(SaleManagementCommon):
             self.assertFalse(sale_order_form.show_update_pricelist)
             sale_order_form.partner_id = self.partner
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

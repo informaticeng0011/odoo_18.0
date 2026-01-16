@@ -2,9 +2,12 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from markupsafe import Markup
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 import contextlib
@@ -13,6 +16,9 @@ from markupsafe import Markup
 
 from odoo.addons.base.models.ir_mail_server import MailDeliveryException
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25,7 +31,10 @@ from odoo.tools import is_html_empty, mute_logger, formataddr
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 @tagged('mail_message', 'mail_controller', 'post_install', '-at_install')
@@ -170,6 +179,9 @@ class TestMessageHelpersRobustness(MailCommon, HttpCase):
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -522,6 +534,7 @@ class TestMessageValues(MailCommon):
         self.assertEqual(msg.message_type, 'comment', 'Message should be comments by default')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 @tagged("mail_message")
@@ -560,6 +573,8 @@ class TestMessageStore(MailCommon, HttpCase):
         })
         res = self.make_jsonrpc_request("/mail/data", {"failures": True})
         self.assertEqual([t["name"] for t in res["mail.thread"]], ['Some description'])
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

@@ -1,5 +1,9 @@
 import { Component, useRef, onPatched } from "@odoo/owl";
 import { browser } from "@web/core/browser/browser";
+<<<<<<< HEAD
+=======
+import { isIOS } from "@web/core/browser/feature_detection";
+>>>>>>> upstream/18.0
 import { clamp } from "@web/core/utils/numbers";
 
 export class CropOverlay extends Component {
@@ -27,6 +31,10 @@ export class CropOverlay extends Component {
         onPatched(() => {
             this.setupCropRect();
         });
+<<<<<<< HEAD
+=======
+        this.isIOS = isIOS();
+>>>>>>> upstream/18.0
     }
 
     setupCropRect() {

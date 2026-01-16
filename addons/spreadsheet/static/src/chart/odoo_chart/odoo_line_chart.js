@@ -219,6 +219,10 @@ export class OdooLineChart extends OdooChart {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.cumulatedStart = definition.cumulatedStart;
+>>>>>>> upstream/18.0
 =======
         this.cumulatedStart = definition.cumulatedStart;
 >>>>>>> upstream/18.0
@@ -974,6 +978,10 @@ export class OdooLineChart extends OdooChart {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            cumulatedStart: this.cumulatedStart,
+>>>>>>> upstream/18.0
 =======
             cumulatedStart: this.cumulatedStart,
 >>>>>>> upstream/18.0
@@ -1710,7 +1718,10 @@ function createOdooChartRuntime(chart, getters) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2186,6 +2197,9 @@ function createOdooChartRuntime(chart, getters) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

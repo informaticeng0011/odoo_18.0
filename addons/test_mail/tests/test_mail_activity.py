@@ -129,7 +129,10 @@ from dateutil.relativedelta import relativedelta
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from freezegun import freeze_time
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -577,6 +580,7 @@ from odoo import fields, exceptions, tests
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from odoo.addons.mail.models.mail_activity import MailActivity
 >>>>>>> upstream/18.0
@@ -764,6 +768,8 @@ from odoo.addons.mail.tests.common import mail_new_test_user, MailCommon
 from odoo.addons.test_mail.models.test_mail_models import MailTestActivity
 from odoo.tests import Form, HttpCase, users
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1144,6 +1150,9 @@ from odoo.tests.common import freeze_time
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1405,6 +1414,7 @@ class TestActivityCommon(MailCommon):
         super(TestActivityCommon, cls).setUpClass()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         cls.test_record, cls.test_record_2 = cls.env['mail.test.activity'].with_context(cls._test_context).create([
             {'name': 'Test'}, {'name': 'Test_2'},
         ])
@@ -1413,11 +1423,16 @@ class TestActivityCommon(MailCommon):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         cls.test_record, cls.test_record_2 = cls.env['mail.test.activity'].create([
             {'name': 'Test'},
             {'name': 'Test_2'},
         ])
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1551,7 +1566,10 @@ class TestActivityRights(TestActivityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1951,6 +1969,9 @@ class TestActivityRights(TestActivityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2215,6 +2236,35 @@ class TestActivityRights(TestActivityCommon):
         self.assertTrue(activity.can_write)
         activity.write({'user_id': self.user_admin.id})
 
+<<<<<<< HEAD
+=======
+    def test_activity_security_user_access_customized(self):
+        """ Test '_get_mail_message_access' support when scheduling activities. """
+        access_open, access_ro, access_locked = self.env['mail.test.access.custo'].with_user(self.user_admin).create([
+            {'name': 'Open'},
+            {'name': 'Open RO', 'is_readonly': True},
+            {'name': 'Locked', 'is_locked': True},
+        ])
+        # sanity checks on rule implementation
+        (access_open + access_ro + access_locked).with_user(self.user_employee).check_access('read')
+        access_open.with_user(self.user_employee).check_access('write')
+        with self.assertRaises(exceptions.AccessError):
+            (access_ro + access_locked).with_user(self.user_employee).check_access('write')
+
+        # '_get_mail_message_access' allows to post, hence posting activities
+        access_open.with_user(self.user_employee).activity_schedule(
+            'test_mail.mail_act_test_todo_generic',
+        )
+        access_ro.with_user(self.user_employee).activity_schedule(
+            'test_mail.mail_act_test_todo_generic',
+        )
+
+        with self.assertRaises(exceptions.AccessError):
+            access_locked.with_user(self.user_employee).activity_schedule(
+                'test_mail.mail_act_test_todo_generic',
+            )
+
+>>>>>>> upstream/18.0
     @mute_logger('odoo.addons.mail.models.mail_mail')
     def test_activity_security_user_noaccess_automated(self):
         def _employee_crash(records, operation):
@@ -2527,7 +2577,11 @@ class TestActivityMixin(TestActivityCommon):
                 user_id=self.user_admin.id,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 feedback='Test feedback',)
+=======
+                feedback='Test feedback 1')
+>>>>>>> upstream/18.0
 =======
                 feedback='Test feedback 1')
 >>>>>>> upstream/18.0
@@ -2550,7 +2604,11 @@ class TestActivityMixin(TestActivityCommon):
                 ['test_mail.mail_act_test_todo'],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 feedback='Test feedback')
+=======
+                feedback='Test feedback 2')
+>>>>>>> upstream/18.0
 =======
                 feedback='Test feedback 2')
 >>>>>>> upstream/18.0
@@ -2563,8 +2621,14 @@ class TestActivityMixin(TestActivityCommon):
             self.assertEqual(self.test_record.activity_ids, act2)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.assertEqual(len(self.test_record.message_ids), 2)
             self.assertEqual(self.test_record.message_ids.mapped('subtype_id'), self.env.ref('mail.mt_activities'))
+=======
+            self.assertEqual(len(self.test_record.message_ids), 3)
+            feedback2, feedback1, _create_log = self.test_record.message_ids
+            self.assertEqual((feedback2 + feedback1).subtype_id, self.env.ref('mail.mt_activities'))
+>>>>>>> upstream/18.0
 =======
             self.assertEqual(len(self.test_record.message_ids), 3)
             feedback2, feedback1, _create_log = self.test_record.message_ids
@@ -2583,7 +2647,11 @@ class TestActivityMixin(TestActivityCommon):
             self.assertEqual(self.test_record.activity_ids, self.env['mail.activity'])
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.assertEqual(len(self.test_record.message_ids), 2)
+=======
+            self.assertEqual(len(self.test_record.message_ids), 3, 'Should not produce additional message')
+>>>>>>> upstream/18.0
 =======
             self.assertEqual(len(self.test_record.message_ids), 3, 'Should not produce additional message')
 >>>>>>> upstream/18.0
@@ -2747,9 +2815,12 @@ class TestActivityMixin(TestActivityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         activities = self.env['mail.activity'].search([('user_id', 'in', archived_users.ids)])
         self.assertFalse(activities, "Activities of archived users should be deleted.")
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3140,6 +3211,9 @@ class TestActivityMixin(TestActivityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3524,7 +3598,10 @@ class TestActivityMixin(TestActivityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3904,6 +3981,9 @@ class TestActivityMixin(TestActivityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4205,7 +4285,11 @@ class TestActivityMixin(TestActivityCommon):
         activity.action_feedback()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         activity_message = test_record.message_ids[-1]
+=======
+        activity_message = test_record.message_ids[0]
+>>>>>>> upstream/18.0
 =======
         activity_message = test_record.message_ids[0]
 >>>>>>> upstream/18.0
@@ -4606,6 +4690,10 @@ class TestActivityMixin(TestActivityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.env.ref('test_mail.mail_act_test_todo').keep_done = True
+>>>>>>> upstream/18.0
 =======
         self.env.ref('test_mail.mail_act_test_todo').keep_done = True
 >>>>>>> upstream/18.0
@@ -5128,7 +5216,11 @@ class TestActivityMixin(TestActivityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Activity.create({
+=======
+        test_record_1_late_activity = Activity.create({
+>>>>>>> upstream/18.0
 =======
         test_record_1_late_activity = Activity.create({
 >>>>>>> upstream/18.0
@@ -5642,6 +5734,7 @@ class TestActivityMixin(TestActivityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5907,6 +6000,8 @@ class TestActivityMixin(TestActivityCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6288,6 +6383,9 @@ class TestActivityMixin(TestActivityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6760,6 +6858,7 @@ class TestActivityMixin(TestActivityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6814,6 +6913,8 @@ class TestActivityMixin(TestActivityCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7200,6 +7301,7 @@ class TestActivityMixin(TestActivityCommon):
         self.assertTrue(act.exists())
         self.assertFalse(act.active)
         self.assertFalse(test_record.exists())
+<<<<<<< HEAD
         self.assertFalse(self.env['mail.activity'].with_user(self.user_admin).with_context(active_test=False).search(
             [('active', '=', False)]))
 
@@ -8159,6 +8261,20 @@ class TestActivitySystray(TestActivityCommon, HttpCase):
 =======
 >>>>>>> upstream/18.0
 
+=======
+
+        self.env.invalidate_all()
+        self.assertFalse(
+            self.env['mail.activity'].with_user(self.user_admin).with_context(active_test=False).search(
+                [('active', '=', False)]),
+            'Should consider unassigned activity on removed record = no access'
+        )
+        self.env.invalidate_all()
+        with self.assertRaises(exceptions.AccessError):
+            _dummy = act.with_user(self.user_admin).read(['summary'])
+
+
+>>>>>>> upstream/18.0
 @tests.tagged("mail_activity", "post_install", "-at_install")
 class TestActivitySystray(TestActivityCommon, HttpCase):
     """Test for systray_get_activities"""
@@ -8244,6 +8360,27 @@ class TestActivitySystray(TestActivityCommon, HttpCase):
             ('res_model', '=', self.test_lead_records._name),
         ])
         self.assertEqual(len(test_with_removed), 4, 'Without ACL check, activities linked to removed records are kept')
+<<<<<<< HEAD
+=======
+
+        self.env.invalidate_all()
+        test_with_removed_as_admin = self.env['mail.activity'].with_user(self.user_admin).search([
+            ('id', 'in', self.test_activities.ids),
+            ('res_model', '=', self.test_lead_records._name),
+        ])
+        self.assertEqual(len(test_with_removed_as_admin), 3, 'With ACL check, activities linked to removed records are not kept is not assigned to the user')
+
+        self.env.invalidate_all()
+        self.assertFalse(
+            self.test_activities_removed.with_user(self.user_admin).has_access('read'),
+            'No access to an activity linked to someone and whose record has been removed '
+            '(considered as no access to record); and should not crash (no MissingError)'
+        )
+        with self.assertRaises(exceptions.AccessError):  # should not raise a MissingError
+            self.test_activities_removed.with_user(self.user_admin).read(['summary'])
+
+        self.env.invalidate_all()
+>>>>>>> upstream/18.0
         test_with_removed = self.env['mail.activity'].search([
             ('id', 'in', self.test_activities.ids),
             ('res_model', '=', self.test_lead_records._name),
@@ -8251,7 +8388,17 @@ class TestActivitySystray(TestActivityCommon, HttpCase):
         self.assertEqual(len(test_with_removed), 4, 'Even with ACL check, activities linked to removed records are kept if assigned to the user (see odoo/odoo#112126)')
 
         # if not assigned -> should filter out
+<<<<<<< HEAD
         self.test_activities_removed.write({'user_id': self.user_admin.id})
+=======
+        self.env.invalidate_all()
+        self.test_activities_removed.write({'user_id': self.user_admin.id})
+        test_with_removed = self.env['mail.activity'].search([
+            ('id', 'in', self.test_activities.ids),
+            ('res_model', '=', self.test_lead_records._name),
+        ])
+        self.assertEqual(len(test_with_removed), 3, 'With ACL check, activities linked to removed records are not kept if assigned to the another user')
+>>>>>>> upstream/18.0
         self.test_activities_removed.write({'user_id': self.user_employee.id})
 
         # be sure activities on removed records do not crash when managed, and that
@@ -8342,6 +8489,9 @@ class TestActivitySystray(TestActivityCommon, HttpCase):
 
 @tests.tagged('mail_activity')
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8593,6 +8743,9 @@ class TestActivitySystrayBusNotify(TestActivityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

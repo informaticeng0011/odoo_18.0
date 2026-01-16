@@ -138,7 +138,11 @@ from odoo.addons.hr_expense.tests.common import TestExpenseCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.exceptions import RedirectWarning, UserError, ValidationError
+=======
+from odoo.exceptions import UserError, ValidationError
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import UserError, ValidationError
 >>>>>>> upstream/18.0
@@ -1472,6 +1476,36 @@ class TestExpenses(TestExpenseCommon):
             'res_id': expense_2_move.id
         }])
 
+<<<<<<< HEAD
+=======
+    def test_multiple_attachments_in_move_from_company_expense(self):
+        """ Checks that all attachments from expense are copied to their journal entries. """
+
+        attachments = self.env['ir.attachment'].create([{
+            'raw': b"R0lGODdhAQABAIAAAP///////ywAAAAAAQABAAACAkQBADs=",
+            'name': f'expense1_file{i}.png',
+            'res_model': 'hr.expense',
+        } for i in range(1, 3)])
+
+        expense_sheet = self.env['hr.expense.sheet'].create({
+            'name': 'Expenses paid by company',
+            'employee_id': self.expense_employee.id,
+            'expense_line_ids': [Command.create({
+                'name': 'Company expense 1',
+                'date': '2022-11-16',
+                'payment_mode': 'company_account',
+                'total_amount_currency': 1000.00,
+                'employee_id': self.expense_employee.id,
+                'attachment_ids': [Command.set(attachments.ids)],
+            })]
+        })
+        expense_sheet.action_submit_sheet()
+        expense_sheet.action_approve_expense_sheets()
+        expense_sheet.action_sheet_move_post()
+
+        self.assertEqual(len(expense_sheet.account_move_ids.attachment_ids), 2)
+
+>>>>>>> upstream/18.0
     def test_expense_payment_method(self):
         default_payment_method_line = self.company_data['default_journal_bank'].outbound_payment_method_line_ids[0]
         check_method = self.env['account.payment.method'].sudo().create({
@@ -1876,6 +1910,7 @@ class TestExpenses(TestExpenseCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_expense_sheet_with_employee_of_no_work_email(self):
         """
         Should raise a RedirectWarning when the selected employee in the sheet doesn't have a work email.
@@ -1894,6 +1929,8 @@ class TestExpenses(TestExpenseCommon):
         with self.assertRaises(RedirectWarning):
             sheet.action_approve_expense_sheets()
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2876,7 +2913,10 @@ class TestExpenses(TestExpenseCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3321,6 +3361,7 @@ class TestExpenses(TestExpenseCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3551,6 +3592,8 @@ class TestExpenses(TestExpenseCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3624,6 +3667,9 @@ class TestExpenses(TestExpenseCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

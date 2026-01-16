@@ -66,11 +66,14 @@ class MailMessageSchedule(models.Model):
                 records = self.env[model].browse(schedules.mapped('mail_message_id.res_id'))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             else:
                 records = [self.env['mail.thread']] * len(schedules)
 
             for record, schedule in zip(records, schedules):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 existing = records.exists()
@@ -82,6 +85,9 @@ class MailMessageSchedule(models.Model):
                 if record not in existing:
                     continue
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

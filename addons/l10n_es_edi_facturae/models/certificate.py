@@ -21,6 +21,7 @@ class Certificate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         rfc4514_attr = dict(element.rfc4514_string().split("=", 1) for element in cert.issuer.rdns)
 
         # The 'Organizational Unit' field is optional
@@ -36,6 +37,8 @@ class Certificate(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         issuer_key_priority = {
             'CN': 0,
             'OU': 1,
@@ -47,6 +50,9 @@ class Certificate(models.Model):
         return ", ".join(sorted_items)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

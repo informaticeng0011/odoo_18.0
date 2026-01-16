@@ -5,6 +5,7 @@ export class DataServiceOptions {
         return {
             "pos.order": {
                 key: "uuid",
+<<<<<<< HEAD
                 condition: (record) => record.finalized && typeof record.id === "number",
             },
             "pos.order.line": {
@@ -16,12 +17,27 @@ export class DataServiceOptions {
                 key: "uuid",
                 condition: (record) =>
                     record.pos_order_id?.finalized && typeof record.pos_order_id.id === "number",
+=======
+                condition: (record) => record.canBeRemovedFromIndexedDB,
+            },
+            "pos.order.line": {
+                key: "uuid",
+                condition: (record) => record.order_id?.canBeRemovedFromIndexedDB,
+            },
+            "pos.payment": {
+                key: "uuid",
+                condition: (record) => record.pos_order_id?.canBeRemovedFromIndexedDB,
+>>>>>>> upstream/18.0
             },
             "pos.pack.operation.lot": {
                 key: "id",
                 condition: (record) =>
+<<<<<<< HEAD
                     record.pos_order_line_id?.order_id?.finalized &&
                     typeof record.pos_order_line_id.order_id.id === "number",
+=======
+                    record.pos_order_line_id?.order_id?.canBeRemovedFromIndexedDB,
+>>>>>>> upstream/18.0
             },
             "product.attribute.custom.value": {
                 key: "id",
@@ -30,6 +46,12 @@ export class DataServiceOptions {
                         const customAttrIds = l.custom_attribute_value_ids.map((v) => v.id);
                         return customAttrIds.includes(record.id);
                     }),
+<<<<<<< HEAD
+=======
+                getRecordsBasedOnLines: (orderlines) => {
+                    return orderlines.flatMap((line) => line.custom_attribute_value_ids);
+                },
+>>>>>>> upstream/18.0
             },
         };
     }

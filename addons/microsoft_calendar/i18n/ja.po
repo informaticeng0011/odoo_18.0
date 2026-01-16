@@ -126,6 +126,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* microsoft_calendar
 # 
 # Translators:
@@ -803,12 +804,15 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * microsoft_calendar
 #
 # Translators:
 # Junko Augias, 2025
 # Wil Odoo, 2025
 #
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1191,10 +1195,14 @@
 =======
 # "Junko Augias (juau)" <juau@odoo.com>, 2025, 2026.
 >>>>>>> upstream/18.0
+=======
+# "Junko Augias (juau)" <juau@odoo.com>, 2025, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2022,6 +2030,10 @@ msgstr ""
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-01-10 09:06+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-01-10 09:06+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-18/"
 "microsoft_calendar/ja/>\n"
@@ -2030,6 +2042,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2412,6 +2425,9 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: microsoft_calendar
 #. odoo-python
@@ -2445,6 +2461,7 @@ msgstr "%s - イベント時"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "(No title)"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2930,6 +2947,11 @@ msgstr "(件名なし)"
 >>>>>>> upstream/18.0
 =======
 msgstr "(件名なし)"
+>>>>>>> upstream/18.0
+=======
+#, fuzzy
+msgid "(No title)"
+msgstr "(タイトルなし)"
 >>>>>>> upstream/18.0
 =======
 #, fuzzy
@@ -2962,6 +2984,7 @@ msgstr "(タイトルなし)"
 #: model:ir.model.fields,field_description:microsoft_calendar.field_calendar_recurrence__active
 #: model:ir.model.fields,field_description:microsoft_calendar.field_microsoft_calendar_sync__active
 msgid "Active"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3755,6 +3778,9 @@ msgstr "アクティブ"
 =======
 msgstr "アクティブ"
 >>>>>>> upstream/18.0
+=======
+msgstr "アクティブ"
+>>>>>>> upstream/18.0
 
 #. module: microsoft_calendar
 #. odoo-javascript
@@ -3774,7 +3800,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Outlook同期を使用する前に、管理者がOutlook同期を設定する必要があります！"
+=======
+msgstr ""
+"Outlook同期を使用する前に、管理者がOutlook同期を設定する必要があります！"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Outlook同期を使用する前に、管理者がOutlook同期を設定する必要があります！"
@@ -3840,6 +3871,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "An error occurred while generating the token. Your authorization code may be"
 " invalid or has already expired [%s]. You should check your Client ID and "
 "secret on the Microsoft Azure portal or try to stop and restart your "
@@ -3848,6 +3880,8 @@ msgstr ""
 "トークンの生成中にエラーが発生しました。認証コードが無効であるか、有効期限が切れています [%s] Microsoft "
 "AzureポータルでクライアントIDとシークレットを確認するか、カレンダの同期を停止して再開して下さい。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3889,6 +3923,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3958,6 +3995,7 @@ msgstr "設定"
 #. module: microsoft_calendar
 #: model_terms:ir.ui.view,arch_db:microsoft_calendar.microsoft_calendar_reset_account_view_form
 msgid "Confirm"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4799,6 +4837,9 @@ msgstr "確定"
 =======
 msgstr "確定"
 >>>>>>> upstream/18.0
+=======
+msgstr "確定"
+>>>>>>> upstream/18.0
 
 #. module: microsoft_calendar
 #: model:ir.model.fields,field_description:microsoft_calendar.field_microsoft_calendar_account_reset__create_uid
@@ -4842,6 +4883,7 @@ msgstr "表示名"
 msgid ""
 "Due to an Outlook Calendar limitation, recurrence updates must be done "
 "directly in Outlook Calendar."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4915,11 +4957,17 @@ msgstr ""
 "Outlookカレンダで制限されているため、再帰更新はOutlookカレンダで直接行う必要"
 "があります。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"Outlookカレンダで制限されているため、再帰更新はOutlookカレンダで直接行う必要"
+"があります。"
+>>>>>>> upstream/18.0
 
 #. module: microsoft_calendar
 #. odoo-python
 #: code:addons/microsoft_calendar/models/calendar.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4938,6 +4986,8 @@ msgstr ""
 "Outlookカレンダで制限されているため、再帰更新はOutlookカレンダで直接行う必要があります。\n"
 "この定期的な予定がOutlookカレンダに表示されていない場合、Odooカレンダで削除し、Outlookカレンダで再作成する必要があります。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4980,6 +5030,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5010,6 +5063,7 @@ msgstr ""
 msgid ""
 "Due to an Outlook Calendar limitation, recurrent events must be created "
 "directly in Outlook Calendar."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5492,6 +5546,8 @@ msgstr "Outlookカレンダで制限されているため、定期イベント�
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr ""
 "Outlookカレンダで制限されているため、定期イベントはOutlookカレンダで直接作成"
 "する必要があります。"
@@ -5508,6 +5564,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5691,6 +5750,9 @@ msgstr "イベントアラーム管理"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6048,6 +6110,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "For a correct synchronization between Odoo and Outlook Calendar, all attendees must have an email address. However, some events do not respect this condition. As long as the events are incorrect, the calendars will not be synchronized.\n"
 "Either update the events/attendees or archive these events %(details)s:\n"
 "%(invalid_events)s"
@@ -6055,6 +6118,8 @@ msgstr ""
 "OdooとOutlookカレンダを正しく同期させるためには、参加者全員がメールアドレスを持っている必要があります。しかし、一部のイベントはこの条件を満たしていません。イベントが正しくない限り、カレンダは同期されません。\n"
 "イベント/出席者を更新するか、これらのイベントをアーカイブして下さい%(details)s: \n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6100,6 +6165,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6143,7 +6211,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "異なる主催者をイベントに参加させるには、主催者のOdooカレンダがOutlookカレンダと同期されている必要があります。"
+=======
+msgstr ""
+"異なる主催者をイベントに参加させるには、主催者のOdooカレンダがOutlookカレンダ"
+"と同期されている必要があります。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "異なる主催者をイベントに参加させるには、主催者のOdooカレンダがOutlookカレンダ"
@@ -6227,7 +6301,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "アクティブなフィールドがfalseに設定されると、それを削除せずにイベントのアラーム情報を非表示にすることができます。"
+=======
+msgstr ""
+"アクティブなフィールドがfalseに設定されると、それを削除せずにイベントのアラー"
+"ム情報を非表示にすることができます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "アクティブなフィールドがfalseに設定されると、それを削除せずにイベントのアラー"
@@ -6312,7 +6392,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "イベントを保存する前に、提案されたオーガナイザーを出席者として追加する必要があります。"
+=======
+msgstr ""
+"イベントを保存する前に、提案されたオーガナイザーを出席者として追加する必要が"
+"あります。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "イベントを保存する前に、提案されたオーガナイザーを出席者として追加する必要が"
@@ -6505,7 +6591,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Outlookの制限：定期的な予定では、イベントを前のイベントの日またはその前に移動することはできず、次のイベントの日またはその後に移動することはできません。"
+=======
+"Outlookの制限：定期的な予定では、イベントを前のイベントの日またはその前に移動"
+"することはできず、次のイベントの日またはその後に移動することはできません。"
+>>>>>>> upstream/18.0
 =======
 "Outlookの制限：定期的な予定では、イベントを前のイベントの日またはその前に移動"
 "することはできず、次のイベントの日またはその後に移動することはできません。"
@@ -6611,8 +6702,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The Outlook Synchronization needs to be configured before you can use it, do"
 " you want to do it now?"
+=======
+"The Outlook Synchronization needs to be configured before you can use it, do "
+"you want to do it now?"
+>>>>>>> upstream/18.0
 =======
 "The Outlook Synchronization needs to be configured before you can use it, do "
 "you want to do it now?"

@@ -9,11 +9,19 @@ from unittest.mock import patch
 from werkzeug.urls import url_parse
 
 from odoo.addons.mail.models.mail_message import Message
+<<<<<<< HEAD
 from odoo.addons.mail.tests.common import MailCommon
+=======
+from odoo.addons.mail.tests.common import MailCommon, mail_new_test_user
+>>>>>>> upstream/18.0
 from odoo.addons.test_mail.models.test_mail_corner_case_models import MailTestMultiCompanyWithActivity
 from odoo.addons.test_mail.tests.common import TestRecipients
 from odoo.exceptions import AccessError
 from odoo.tests import tagged, users, HttpCase
+<<<<<<< HEAD
+=======
+from odoo.tests.common import JsonRpcException
+>>>>>>> upstream/18.0
 from odoo.tools import mute_logger
 
 
@@ -59,6 +67,18 @@ class TestMailMCCommon(MailCommon, TestRecipients):
             'message_id': '<123456-openerp-%s-mail.test.gateway@%s>' % (cls.test_record.id, socket.gethostname()),
         })
 
+<<<<<<< HEAD
+=======
+        cls._create_portal_user()
+        cls.user_portal_c2 = mail_new_test_user(
+            cls.env,
+            groups='base.group_portal',
+            login='portal_user_c2',
+            company_id=cls.company_2.id,
+            name="Portal User C2",
+        )
+
+>>>>>>> upstream/18.0
     def setUp(self):
         super().setUp()
         # patch registry to simulate a ready environment
@@ -268,6 +288,7 @@ class TestMultiCompanySetup(TestMailMCCommon, HttpCase):
                 subtype_xmlid="mail.mt_comment",
             )
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     @freeze_time('2023-11-22 08:00:00')
@@ -1558,6 +1579,82 @@ class TestMultiCompanySetup(TestMailMCCommon, HttpCase):
 @tagged('-at_install', 'post_install', 'multi_company', 'mail_controller')
 >>>>>>> upstream/18.0
 class TestMultiCompanyRedirect(MailCommon, HttpCase):
+=======
+
+@tagged('-at_install', 'post_install', 'multi_company', 'mail_controller')
+class TestMultiCompanyControllers(TestMailMCCommon, HttpCase):
+
+    @mute_logger('odoo.http')
+    def test_mail_thread_data(self):
+        """ Test returned thread data, in MC environment, to test notably MC
+        access issues on partner, ACL support, ... """
+        customer_c3 = self.env["res.partner"].create({
+            "company_id": self.company_3.id,
+            "name": "C3 Customer",
+        })
+        record = self.env["mail.test.multi.company.read"].with_user(self.user_employee_c2).create({
+            "company_id": self.user_employee_c2.company_id.id,
+            "name": "Multi Company Record",
+        })
+        self.assertEqual(record.company_id, self.company_2)
+
+        record.message_subscribe(partner_ids=customer_c3.ids)
+        with self.assertRaises(AccessError):
+            customer_c3.with_user(self.user_employee_c2).check_access("read")
+
+        self.authenticate(self.user_employee_c2.login, self.user_employee_c2.login)
+        result = self.make_jsonrpc_request(
+            "/mail/thread/data",
+            {
+                "thread_id": record.id,
+                "thread_model": record._name,
+                "request_list": ["followers"],
+            },
+        )
+        self.assertEqual(len(result["mail.followers"]), 2)
+        self.assertEqual(result["mail.followers"][0]["partner"]["id"], customer_c3.id)
+        self.assertEqual(result["mail.thread"][0]["followersCount"], 2)
+        self.assertTrue(result["mail.thread"][0]["hasWriteAccess"])
+        self.assertTrue(result["mail.thread"][0]["hasReadAccess"])
+        self.assertTrue(result["mail.thread"][0]["canPostOnReadonly"])
+
+        # check read / write / post access info
+        for test_user, (has_w, has_r, can_post) in zip(
+            (self.user_portal, self.user_portal_c2, self.user_employee, self.user_admin),
+            (
+                (False, True, True),  # currently not really supported actually, should go through portal controllers
+                (False, True, True),  # currently not really supported actually, should go through portal controllers
+                (False, True, True),
+                (True, True, True),
+            ),
+        ):
+            with self.subTest(user_name=test_user.name):
+                self.authenticate(test_user.login, test_user.login)
+                # crash if calling using portal users -> dedicated portal routes currently
+                if test_user in self.user_portal + self.user_portal_c2:
+                    with self.assertRaises(JsonRpcException):
+                        result = self.make_jsonrpc_request(
+                            "/mail/thread/data",
+                            {
+                                "thread_id": record.id,
+                                "thread_model": record._name,
+                                "request_list": ["followers"],
+                            },
+                        )
+                else:
+                    result = self.make_jsonrpc_request(
+                        "/mail/thread/data",
+                        {
+                            "thread_id": record.id,
+                            "thread_model": record._name,
+                            "request_list": ["followers"],
+                        },
+                    )
+                    self.assertEqual(result["mail.thread"][0]["followersCount"], 2)
+                    self.assertEqual(result["mail.thread"][0]["hasWriteAccess"], has_w)
+                    self.assertEqual(result["mail.thread"][0]["hasReadAccess"], has_r)
+                    self.assertEqual(result["mail.thread"][0]["canPostOnReadonly"], can_post)
+>>>>>>> upstream/18.0
 
     def test_redirect_to_records(self):
         """ Test mail/view redirection in MC environment, notably cids being
@@ -1748,8 +1845,12 @@ class TestMultiCompanyRedirect(MailCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     self.assertTrue('cids' in response.request._cookies)
                     self.assertEqual(response.request._cookies.get('cids'), str(mc_record.company_id.id))
+=======
+                    self.assertNotIn('cids', response.request._cookies)
+>>>>>>> upstream/18.0
 =======
                     self.assertNotIn('cids', response.request._cookies)
 >>>>>>> upstream/18.0
@@ -2453,6 +2554,7 @@ class TestMultiCompanyRedirect(MailCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # when being not logged, cids should be added based on
         # '_get_redirect_suggested_company'
         for test_record in nothreads:
@@ -2460,6 +2562,8 @@ class TestMultiCompanyRedirect(MailCommon, HttpCase):
                 self.authenticate(None, None)
                 self.user_admin.write({'company_id': user_company.id})
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2933,6 +3037,9 @@ class TestMultiCompanyRedirect(MailCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3251,6 +3358,7 @@ class TestMultiCompanyRedirect(MailCommon, HttpCase):
                     timeout=15
                 )
                 self.assertEqual(response.status_code, 200)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4224,3 +4332,6 @@ class TestMultiCompanyThreadData(MailCommon, HttpCase):
         )
         self.assertEqual(len(data["mail.followers"]), 1)
         self.assertEqual(data["mail.followers"][0]["partner"]["id"], partner_portal.id)
+=======
+                self.assertNotIn('cids', response.request._cookies)
+>>>>>>> upstream/18.0

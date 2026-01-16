@@ -180,9 +180,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { expect, test } from "@odoo/hoot";
 import { click, edit, queryAll, queryAllTexts, select } from "@odoo/hoot-dom";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -736,6 +739,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1291,7 +1297,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1845,6 +1854,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { resetDateFieldWidths } from "@web/views/list/column_width_hook";
+>>>>>>> upstream/18.0
 =======
 import { resetDateFieldWidths } from "@web/views/list/column_width_hook";
 >>>>>>> upstream/18.0
@@ -2595,8 +2608,11 @@ class Partner extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 defineModels([Partner]);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3152,6 +3168,9 @@ defineModels([Partner, User]);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4277,7 +4296,10 @@ test("datetime field in kanban view with condensed option", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4822,6 +4844,7 @@ test("list datetime: column widths (show_time=false)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(queryAllProperties(".o_list_table thead th", "offsetWidth")).toEqual([40, 81, 679]);
 });
 <<<<<<< HEAD
@@ -4875,6 +4898,10 @@ test("list datetime: column widths (show_time=false)", async () => {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+    expect(queryAllProperties(".o_list_table thead th", "offsetWidth")).toEqual([40, 83, 677]);
+});
 >>>>>>> upstream/18.0
 =======
     expect(queryAllProperties(".o_list_table thead th", "offsetWidth")).toEqual([40, 83, 677]);

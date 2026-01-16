@@ -108,7 +108,10 @@ class TestL10nArWithholdingArRi(TestAr):
         return invoice
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def third_party_check_journal(self):
         journal_vals = {
                 'name': ('Third Party Checks'),
@@ -137,6 +140,9 @@ class TestL10nArWithholdingArRi(TestAr):
         in_third_party_check.action_post()
         return in_third_party_check
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def new_payment_register(self, move_ids, taxes):
         wizard = self.env['account.payment.register'].with_context(active_model='account.move', active_ids=move_ids.ids).create({'payment_date': '2023-01-01'})
@@ -383,7 +389,10 @@ class TestL10nArWithholdingArRi(TestAr):
             {'debit': 121000.0, 'credit': 0.0, 'currency_id': wizard.currency_id.id, 'amount_currency': 1210.0, 'reconciled': True}
         ])
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_11_earnings_withholding_applied_with_scale(self):
         """Payment with third party check with withholding tax type 'Earnings Scale'. Verify withholding amount."""
@@ -406,4 +415,7 @@ class TestL10nArWithholdingArRi(TestAr):
         self.assertEqual(wizard.l10n_ar_withholding_ids.base_amount, 26387.81)
         self.assertEqual(wizard.l10n_ar_withholding_ids.amount, 1166.54)
         self.assertEqual(wizard.l10n_ar_net_amount, 30762.71)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

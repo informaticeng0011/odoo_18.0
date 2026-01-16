@@ -8,7 +8,11 @@ patch(PosOrder.prototype, {
         super.setup(...arguments);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (this.isSACompany) {
+=======
+        if (this.isInvoiceMandatoryForSA) {
+>>>>>>> upstream/18.0
 =======
         if (this.isInvoiceMandatoryForSA) {
 >>>>>>> upstream/18.0
@@ -21,7 +25,11 @@ patch(PosOrder.prototype, {
     is_to_invoice() {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (this.isSACompany) {
+=======
+        if (this.isInvoiceMandatoryForSA) {
+>>>>>>> upstream/18.0
 =======
         if (this.isInvoiceMandatoryForSA) {
 >>>>>>> upstream/18.0
@@ -35,7 +43,11 @@ patch(PosOrder.prototype, {
     set_to_invoice(to_invoice) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (this.isSACompany) {
+=======
+        if (this.isInvoiceMandatoryForSA) {
+>>>>>>> upstream/18.0
 =======
         if (this.isInvoiceMandatoryForSA) {
 >>>>>>> upstream/18.0
@@ -50,7 +62,10 @@ patch(PosOrder.prototype, {
     },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -73,6 +88,9 @@ patch(PosOrder.prototype, {
     },
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

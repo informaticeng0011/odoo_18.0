@@ -20,12 +20,21 @@ export class CustomContentKanbanLikeWidget extends Component {
             headers: {},
             lines: {},
             footers: {},
+<<<<<<< HEAD
+=======
+            is_so_locked: true,
+            is_sol_locked: true,
+>>>>>>> upstream/18.0
         });
 
         // Initialize the state and update available documents when updating the quotation template.
         useEffect((saleOrderTemplate) => {
             this.updateState();
+<<<<<<< HEAD
         }, () => [this.props.record.data.sale_order_template_id]);
+=======
+        }, () => [this.props.record.data.sale_order_template_id, this.props.record.data.locked]);
+>>>>>>> upstream/18.0
     }
 
     async updateState() {
@@ -37,6 +46,11 @@ export class CustomContentKanbanLikeWidget extends Component {
             this.state.headers = headers;
             this.state.lines = lines;
             this.state.footers = footers;
+<<<<<<< HEAD
+=======
+            this.state.is_so_locked = this.props.record.data.locked;
+            this.state.is_sol_locked = this.props.record._isReadonly('order_line');
+>>>>>>> upstream/18.0
         }
     }
 

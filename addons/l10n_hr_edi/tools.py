@@ -80,7 +80,11 @@ def _make_request(company, endpoint_type, params=False):
     if response.status_code != 200:
         try:
 <<<<<<< HEAD
+<<<<<<< HEAD
             error_message = response.json().get('message')
+=======
+            error_message = response.json().get('errors')
+>>>>>>> upstream/18.0
 =======
             error_message = response.json().get('errors')
 >>>>>>> upstream/18.0

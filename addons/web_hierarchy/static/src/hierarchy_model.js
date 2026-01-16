@@ -379,11 +379,14 @@ export class HierarchyNode {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     removeChildNodes() {
         for (const childNode of this.nodes) {
             if (!childNode.isLeaf) {
                 childNode.removeChildNodes();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -676,6 +679,9 @@ export class HierarchyNode {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1326,11 +1332,14 @@ export class HierarchyModel extends Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const existingChildResIds = children.filter((childResId) => allNodeResIds.includes(childResId))
                 if (existingChildResIds.length) { // special case with result found with the search view
                     for (const tree of this.root.trees) {
                         if (existingChildResIds.includes(tree.root.resId)) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1630,6 +1639,9 @@ export class HierarchyModel extends Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2091,7 +2103,12 @@ export class HierarchyModel extends Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for (const [parentId, records] of Object.entries(recordsPerParentId)) {
+=======
+        for (let [parentId, records] of Object.entries(recordsPerParentId)) {
+            records = [...new Map(records.map((record) => [record.id, record])).values()];
+>>>>>>> upstream/18.0
 =======
         for (let [parentId, records] of Object.entries(recordsPerParentId)) {
             records = [...new Map(records.map((record) => [record.id, record])).values()];

@@ -2,6 +2,10 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from collections import defaultdict
+>>>>>>> upstream/18.0
 =======
 from collections import defaultdict
 >>>>>>> upstream/18.0
@@ -83,8 +87,11 @@ class WebclientController(http.Controller):
             notifications = request.env["mail.notification"].sudo().search(domain, limit=100)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             notifications.mail_message_id._message_notifications_to_store(store)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             found = defaultdict(list)
@@ -104,6 +111,9 @@ class WebclientController(http.Controller):
                 lost.sudo().unlink()  # no unlink right except admin, ok to remove as lost anyway
             valid.mail_message_id._message_notifications_to_store(store)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -12,6 +12,12 @@ patch(DataServiceOptions.prototype, {
                         (l) => !(l.order_id?.finalized && typeof l.order_id.id === "number")
                     );
                 },
+<<<<<<< HEAD
+=======
+                getRecordsBasedOnLines: (orderlines) => {
+                    return orderlines.map((line) => line.coupon_id).filter((c) => c);
+                },
+>>>>>>> upstream/18.0
             },
         };
     },

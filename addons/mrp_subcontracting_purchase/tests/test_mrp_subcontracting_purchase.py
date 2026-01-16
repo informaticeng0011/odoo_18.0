@@ -229,7 +229,10 @@ class MrpSubcontractingPurchaseTest(TestMrpSubcontractingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -833,6 +836,9 @@ class MrpSubcontractingPurchaseTest(TestMrpSubcontractingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1513,7 +1519,10 @@ class MrpSubcontractingPurchaseTest(TestMrpSubcontractingCommon):
         self.assertEqual(price_diff_line.credit, 20)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_subcontracting_multi_currency_price_diff(self):
         """ Ensure the price difference lines are computed correctly when the company
             currency and invoice currency differ
@@ -1580,6 +1589,9 @@ class MrpSubcontractingPurchaseTest(TestMrpSubcontractingCommon):
         price_diff_line = invoice.line_ids.filtered(lambda m: m.account_id == stock_price_diff_acc_id)
         self.assertEqual(price_diff_line.credit, 10)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_subcontract_product_price_change(self):
         """ Create a PO for subcontracted product, receive the product (finish MO),

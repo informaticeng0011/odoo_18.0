@@ -653,10 +653,13 @@ class BaseAutomation(models.Model):
             domain = safe_eval.safe_eval(self_sudo.filter_pre_domain, self._get_eval_context())
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return records.sudo().filtered_domain(domain).with_env(records.env)
         else:
             return records
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             # keep computed fields depending on the currently changed field
@@ -674,6 +677,9 @@ class BaseAutomation(models.Model):
                 self.env.add_to_compute(dep, comp)
         return records
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -963,7 +969,10 @@ class BaseAutomation(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1463,6 +1472,9 @@ class BaseAutomation(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1984,7 +1996,10 @@ class BaseAutomation(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2484,6 +2499,9 @@ class BaseAutomation(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2840,7 +2858,13 @@ class BaseAutomation(models.Model):
                 # check preconditions on records
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 pre = {a: a._filter_pre(records) for a in automations}
+=======
+                # changed fields are all fields computed by the function
+                changed_fields = [f for f in records._fields.values() if f.compute == field.compute]
+                pre = {a: a.with_context(changed_fields=changed_fields)._filter_pre(records) for a in automations}
+>>>>>>> upstream/18.0
 =======
                 # changed fields are all fields computed by the function
                 changed_fields = [f for f in records._fields.values() if f.compute == field.compute]
@@ -3026,7 +3050,10 @@ class BaseAutomation(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3526,6 +3553,9 @@ class BaseAutomation(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4037,7 +4067,10 @@ class BaseAutomation(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4537,6 +4570,9 @@ class BaseAutomation(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5088,7 +5124,10 @@ class BaseAutomation(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5588,6 +5627,9 @@ class BaseAutomation(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

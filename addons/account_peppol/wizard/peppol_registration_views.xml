@@ -10,6 +10,7 @@
                 <sheet>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <div class="m-0" name="warnings" invisible="not peppol_warnings or account_peppol_proxy_state != 'not_registered'">
                         <field name="peppol_warnings" class="o_field_html" widget="actionable_errors"/>
                     </div>
@@ -19,6 +20,8 @@
 
                             <!-- Optional step: receiver registration fields -->
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                     <div class="m-0" name="warnings" invisible="not peppol_warnings">
@@ -35,6 +38,9 @@
                             Send electronic invoices, and receive bills automatically via Peppol.
                         </p>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -43,6 +49,7 @@
                             <group>
                                 <field name="smp_registration" string="Allow incoming invoices" invisible="1"/>
                                 <field name="peppol_eas"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -939,10 +946,13 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                                        placeholder="Peppol ID"
                                        nolabel="1"
                                        widget="peppol_non_focusable_selection"
                                        class="o_field_peppol_eas_selection"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                                 <field name="peppol_endpoint" nolabel="1"/>
@@ -1024,6 +1034,8 @@
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                                 <field name="peppol_endpoint"
                                        nolabel="1"/>
                                 <field name="contact_email"
@@ -1034,6 +1046,9 @@
                                        readonly="use_parent_connection"
                                        string="Phone"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
