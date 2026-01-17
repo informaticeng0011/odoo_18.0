@@ -295,7 +295,10 @@ class TestEdiEwaybillJson(TestEdiJson):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -971,6 +974,9 @@ class TestEdiEwaybillJson(TestEdiJson):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1602,6 +1608,7 @@ class TestEdiEwaybillJson(TestEdiJson):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1928,6 +1935,8 @@ class TestEdiEwaybillJson(TestEdiJson):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -1998,6 +2007,9 @@ class TestEdiEwaybillJson(TestEdiJson):
         })
         self.assertDictEqual(json_value, expected, "Indian EDI Export with LUT json value does not match")
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2259,6 +2271,9 @@ class TestEdiEwaybillJson(TestEdiJson):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

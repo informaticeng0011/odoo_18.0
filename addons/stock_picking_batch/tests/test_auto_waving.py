@@ -413,7 +413,10 @@ class TestAutoWaving(TransactionCase):
         self.assertEqual(len(waves), 4)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -457,6 +460,9 @@ class TestAutoWaving(TransactionCase):
         new_wave.action_assign()
         self.assertEqual(new_wave.move_line_ids.mapped('quantity'), [1, 2])
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

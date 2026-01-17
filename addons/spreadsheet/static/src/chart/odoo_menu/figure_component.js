@@ -97,7 +97,11 @@ import { useService } from "@web/core/utils/hooks";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { _t } from "@web/core/l10n/translation";
+=======
+import { navigateToOdooMenu } from "@spreadsheet/helpers/helpers";
+>>>>>>> upstream/18.0
 =======
 import { navigateToOdooMenu } from "@spreadsheet/helpers/helpers";
 >>>>>>> upstream/18.0
@@ -482,6 +486,7 @@ patch(spreadsheet.components.FigureComponent.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     async navigateToOdooMenu() {
         const menu = this.env.model.getters.getChartOdooMenu(this.props.figure.id);
         if (!menu) {
@@ -498,6 +503,8 @@ patch(spreadsheet.components.FigureComponent.prototype, {
         }
         await this.actionService.doAction(menu.actionID);
     },
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -784,9 +791,12 @@ patch(spreadsheet.components.FigureComponent.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (this.env.isDashboard() && this.hasOdooMenu) {
             this.navigateToOdooMenu();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1073,6 +1083,9 @@ patch(spreadsheet.components.FigureComponent.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

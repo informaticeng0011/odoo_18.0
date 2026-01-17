@@ -158,12 +158,15 @@ ERROR_MESSAGES = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class SmsApi:
     DEFAULT_ENDPOINT = 'https://sms.api.odoo.com'
 
     def __init__(self, env, account=None):
         self.env = env
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -574,6 +577,9 @@ class SmsApi(SmsApiBase):  # TODO RIGR in master: rename SmsApi to SmsApiIAP, an
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -834,6 +840,7 @@ class SmsApi(SmsApiBase):  # TODO RIGR in master: rename SmsApi to SmsApiIAP, an
             raise exceptions.AccessError("Unavailable during module installation.")
 
         params['account_token'] = self.account.account_token
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1282,6 +1289,8 @@ class SmsApi(SmsApiBase):  # TODO RIGR in master: rename SmsApi to SmsApiIAP, an
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         params['dbuuid'] = self.env['ir.config_parameter'].sudo().get_param('database.uuid')
         endpoint = self.env['ir.config_parameter'].sudo().get_param('sms.endpoint', self.DEFAULT_ENDPOINT)
         return iap_tools.iap_jsonrpc(endpoint + local_endpoint, params=params, timeout=timeout)
@@ -1349,6 +1358,9 @@ class SmsApi(SmsApiBase):  # TODO RIGR in master: rename SmsApi to SmsApiIAP, an
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1614,7 +1626,11 @@ class SmsApi(SmsApiBase):  # TODO RIGR in master: rename SmsApi to SmsApiIAP, an
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         :param str delivery_reports_url: url to route receiving delivery reports
+=======
+        :param str delivery_reports_url: url to route receiving delivery reports. Deprecated  # TODO RIGR: remove in master
+>>>>>>> upstream/18.0
 =======
         :param str delivery_reports_url: url to route receiving delivery reports. Deprecated  # TODO RIGR: remove in master
 >>>>>>> upstream/18.0
@@ -2155,7 +2171,12 @@ class SmsApi(SmsApiBase):  # TODO RIGR in master: rename SmsApi to SmsApiIAP, an
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return {
+=======
+        error_dict = super()._get_sms_api_error_messages()
+        error_dict.update({
+>>>>>>> upstream/18.0
 =======
         error_dict = super()._get_sms_api_error_messages()
         error_dict.update({
@@ -2798,7 +2819,12 @@ class SmsApi(SmsApiBase):  # TODO RIGR in master: rename SmsApi to SmsApiIAP, an
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         }
+=======
+        })
+        return error_dict
+>>>>>>> upstream/18.0
 =======
         })
         return error_dict

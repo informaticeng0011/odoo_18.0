@@ -244,6 +244,7 @@ class HrCandidate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if candidate.partner_name and not candidate.partner_id.name:
 =======
             if candidate.partner_name and (not candidate.partner_id.name or candidate.partner_id.name == candidate.email_from):
@@ -412,6 +413,9 @@ class HrCandidate(models.Model):
 >>>>>>> upstream/18.0
 =======
             if candidate.partner_name and (not candidate.partner_id.name or candidate.partner_id.name == candidate.email_from):
+>>>>>>> upstream/18.0
+=======
+            if candidate.partner_name and (not candidate.partner_id.name or candidate.partner_id.name == candidate.email_normalized):
 >>>>>>> upstream/18.0
 =======
             if candidate.partner_name and (not candidate.partner_id.name or candidate.partner_id.name == candidate.email_normalized):

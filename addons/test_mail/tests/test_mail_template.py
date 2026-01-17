@@ -153,6 +153,7 @@ class TestMailTemplate(TestMailTemplateCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_template_copy(self):
         """ Test copying template, notably for attachments management """
         template = self.test_template
@@ -165,6 +166,8 @@ class TestMailTemplate(TestMailTemplateCommon):
         )
         self.assertEqual(copy.attachment_ids.mapped("res_id"), [copy.id] * 2)
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -539,11 +542,14 @@ class TestMailTemplateLanguages(TestMailTemplateCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.assertEqual(mail.attachment_ids.mapped("res_id"), [self.test_template_wreports.id] * 2)
             self.assertEqual(mail.attachment_ids.mapped("res_model"), [template._name] * 2)
             self.assertEqual(mail.email_cc, self.test_template.email_cc)
             self.assertEqual(mail.email_to, self.test_template.email_to)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -764,6 +770,9 @@ class TestMailTemplateLanguages(TestMailTemplateCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

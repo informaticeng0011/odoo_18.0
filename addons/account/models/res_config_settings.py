@@ -297,7 +297,11 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         domain="[('account_type', 'in', ('income', 'expense'))]",
+=======
+        domain="[('deprecated', '=', False), ('account_type', 'in', ('income', 'income_other', 'expense'))]",
+>>>>>>> upstream/18.0
 =======
         domain="[('deprecated', '=', False), ('account_type', 'in', ('income', 'income_other', 'expense'))]",
 >>>>>>> upstream/18.0
@@ -732,7 +736,11 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         domain="[('account_type', 'in', ('income', 'expense'))]",
+=======
+        domain="[('deprecated', '=', False), ('account_type', 'in', ('income', 'income_other', 'expense'))]",
+>>>>>>> upstream/18.0
 =======
         domain="[('deprecated', '=', False), ('account_type', 'in', ('income', 'income_other', 'expense'))]",
 >>>>>>> upstream/18.0

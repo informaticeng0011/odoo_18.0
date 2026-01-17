@@ -172,6 +172,13 @@
             # account
             'account/static/src/helpers/*.js',
             'account/static/src/services/account_move_service.js',
+<<<<<<< HEAD
+=======
+            # account UI -- Edit order in PoS UI post payment
+            'account/static/src/core/utils/product_and_label_autoresize.js',
+            'account/static/src/components/section_and_note_fields_backend/section_and_note_fields_backend.*',
+            'account/static/src/components/product_label_section_and_note_field/product_label_section_and_note_field.*',
+>>>>>>> upstream/18.0
 
             'mail/static/src/core/common/sound_effects_service.js',
             "web/static/src/core/browser/router.js",

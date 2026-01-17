@@ -21,6 +21,11 @@ export class CustomContentKanbanLikeWidget extends Component {
             lines: {},
             footers: {},
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            is_so_locked: true,
+            is_sol_locked: true,
+>>>>>>> upstream/18.0
 =======
             is_so_locked: true,
             is_sol_locked: true,
@@ -31,7 +36,11 @@ export class CustomContentKanbanLikeWidget extends Component {
         useEffect((saleOrderTemplate) => {
             this.updateState();
 <<<<<<< HEAD
+<<<<<<< HEAD
         }, () => [this.props.record.data.sale_order_template_id]);
+=======
+        }, () => [this.props.record.data.sale_order_template_id, this.props.record.data.locked]);
+>>>>>>> upstream/18.0
 =======
         }, () => [this.props.record.data.sale_order_template_id, this.props.record.data.locked]);
 >>>>>>> upstream/18.0
@@ -47,6 +56,11 @@ export class CustomContentKanbanLikeWidget extends Component {
             this.state.lines = lines;
             this.state.footers = footers;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            this.state.is_so_locked = this.props.record.data.locked;
+            this.state.is_sol_locked = this.props.record._isReadonly('order_line');
+>>>>>>> upstream/18.0
 =======
             this.state.is_so_locked = this.props.record.data.locked;
             this.state.is_sol_locked = this.props.record._isReadonly('order_line');

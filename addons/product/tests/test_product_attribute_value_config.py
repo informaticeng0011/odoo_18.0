@@ -229,6 +229,10 @@ class TestProductAttributeValueCommon(BaseCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            cls.extras_attribute,
+>>>>>>> upstream/18.0
 =======
             cls.extras_attribute,
 >>>>>>> upstream/18.0
@@ -1101,7 +1105,10 @@ class TestProductAttributeValueCommon(BaseCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1720,6 +1727,9 @@ class TestProductAttributeValueCommon(BaseCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2331,6 +2341,10 @@ class TestProductAttributeValueCommon(BaseCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        cls.extra_cpu, cls.extra_ram = cls.extras_attribute.value_ids
+>>>>>>> upstream/18.0
 =======
         cls.extra_cpu, cls.extra_ram = cls.extras_attribute.value_ids
 >>>>>>> upstream/18.0
@@ -3155,7 +3169,10 @@ class TestProductAttributeValueCommon(BaseCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3764,6 +3781,9 @@ class TestProductAttributeValueCommon(BaseCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4389,6 +4409,10 @@ class TestProductAttributeValueCommon(BaseCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            cls.computer_extras_attribute_lines,
+>>>>>>> upstream/18.0
 =======
             cls.computer_extras_attribute_lines,
 >>>>>>> upstream/18.0
@@ -5201,6 +5225,10 @@ class TestProductAttributeValueCommon(BaseCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            cls.COMPUTER_EXTRAS_PTAL_VALUES,
+>>>>>>> upstream/18.0
 =======
             cls.COMPUTER_EXTRAS_PTAL_VALUES,
 >>>>>>> upstream/18.0

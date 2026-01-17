@@ -278,7 +278,11 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "CnlRem": invoices.l10n_in_edi_cancel_remarks,
+=======
+            "cancelRmrk": invoices.l10n_in_edi_cancel_remarks,
+>>>>>>> upstream/18.0
 =======
             "cancelRmrk": invoices.l10n_in_edi_cancel_remarks,
 >>>>>>> upstream/18.0
@@ -1037,7 +1041,10 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1536,6 +1543,9 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2054,10 +2064,13 @@ class AccountEdiFormat(models.Model):
             if is_overseas and ship_to_details.state_id.country_id.code != "IN":
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 json_payload.update({
                     "actToStateCode": 99,
                     "toPincode": 999999,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 # For exports without LUT, the e-waybill total invoice value must include Reverse Charges.
@@ -2072,6 +2085,9 @@ class AccountEdiFormat(models.Model):
                     "toPincode": 999999,
                     "totInvValue": json_payload["totInvValue"] - adjusting_rc_amount,
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2264,7 +2280,10 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2763,6 +2782,9 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3099,6 +3121,7 @@ class AccountEdiFormat(models.Model):
         extract_digits = self._l10n_in_edi_extract_digits
         tax_details_by_code = self._get_l10n_in_tax_details_by_line_code(line_tax_details.get("tax_details", {}))
         line_details = {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3893,6 +3916,8 @@ class AccountEdiFormat(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             "productName": line.product_id.name[:100] if line.product_id else "",
             "hsnCode": extract_digits(line.l10n_in_hsn_code),
             "productDesc": line.name[:100] if line.name else "",
@@ -3967,6 +3992,9 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -177,7 +177,11 @@ class ResCompany(models.Model):
         job_count = self._context.get('mer_crons_job_count') or BATCH_SIZE
         need_retrigger = False
         imported_documents = {}
+<<<<<<< HEAD
         for company in self:
+=======
+        for company in self.filtered(lambda c: c.l10n_hr_mer_connection_state == 'active'):
+>>>>>>> upstream/18.0
             try:
                 response = _mer_api_query_inbox(company, 'Undelivered' if undelivered_only else None)
             except MojEracunServiceError as e:
@@ -204,9 +208,20 @@ class ResCompany(models.Model):
                 documents_to_import = documents_to_import[slc[0]:slc[1]]
             for document in documents_to_import:
                 try:
+<<<<<<< HEAD
                     fisc_data = _mer_api_check_fiscalization_status_inbox(company, electronic_id=document['mer_document_eid'])[0]
                 except (MojEracunServiceError, UserError):
                     _logger.error("Failed to retreive fisc data for document: %s", document['mer_document_eid'])
+=======
+                    fisc_data = _mer_api_check_fiscalization_status_inbox(company, electronic_id=document['mer_document_eid'])
+                    if fisc_data == []:
+                        _logger.error("Fiscalization data for document eID %s is not available on MojEracun server.", document['mer_document_eid'])
+                        continue
+                    else:
+                        fisc_data = fisc_data[0]
+                except (MojEracunServiceError, UserError):
+                    _logger.error("Failed to retreive fisc data for document eID %s", document['mer_document_eid'])
+>>>>>>> upstream/18.0
                     if from_cron:
                         continue
                     elif company.l10n_hr_mer_connection_mode == 'test':
@@ -230,6 +245,10 @@ class ResCompany(models.Model):
                     'fiscalization_channel_type': str(fisc_data.get('channelType')),
                 })
                 if document['fiscalization_status'] != '0':
+<<<<<<< HEAD
+=======
+                    _logger.warning("Document eID %s is not successfully fiscalized, skipping import.", document['mer_document_eid'])
+>>>>>>> upstream/18.0
                     continue
                 try:
                     business_data = _mer_api_query_document_process_status_inbox(company, electronic_id=document['mer_document_eid'])[0]
@@ -278,7 +297,11 @@ class ResCompany(models.Model):
         """
         Fetch and update the status of up to 20000 documents belonging to a company on MojEracun.
         """
+<<<<<<< HEAD
         for company in self:
+=======
+        for company in self.filtered(lambda c: c.l10n_hr_mer_connection_state == 'active'):
+>>>>>>> upstream/18.0
             for query_function, check_function in [
                 (_mer_api_query_document_process_status_outbox, _mer_api_check_fiscalization_status_outbox),
                 (_mer_api_query_document_process_status_inbox, _mer_api_check_fiscalization_status_inbox)

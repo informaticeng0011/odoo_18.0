@@ -156,7 +156,12 @@ class TestPartnerAssign(TransactionCase):
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 class TestPartnerLeadPortal(TestCrmCommon):
+=======
+@tagged('lead_portal')
+class TestPartnerLeadPortal(TestCrmCommon, HttpCase):
+>>>>>>> upstream/18.0
 =======
 @tagged('lead_portal')
 class TestPartnerLeadPortal(TestCrmCommon, HttpCase):
@@ -352,7 +357,10 @@ class TestPartnerLeadPortal(TestCrmCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -647,7 +655,10 @@ class TestPartnerLeadPortal(TestCrmCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -732,6 +743,9 @@ class TestPartnerLeadPortal(TestCrmCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -916,6 +930,9 @@ class TestPartnerLeadPortal(TestCrmCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1167,7 +1184,10 @@ class TestPartnerLeadPortal(TestCrmCommon, HttpCase):
         self.assertEqual(record_action['type'], 'ir.actions.act_url')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_portal_post(self):
         self.authenticate(self.user_portal.login, self.user_portal.login)
         self.make_jsonrpc_request(
@@ -1190,6 +1210,9 @@ class TestPartnerLeadPortal(TestCrmCommon, HttpCase):
             }
         )
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_route_portal_my_opportunities_as_portal(self):
         """Test that the portal user can access its own opportunities even if

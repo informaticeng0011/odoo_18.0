@@ -50,16 +50,22 @@ test("Send message button activation (access rights dependent)", async () => {
     const simpleId = pyEnv["mail.test.multi.company"].create({ name: "Test MC Simple" });
     const simpleMcId = pyEnv["mail.test.multi.company.read"].create({
 <<<<<<< HEAD
+<<<<<<< HEAD
         name: "Test MC Readonly",
     });
     async function assertSendButton(
         enabled,
 =======
+=======
+>>>>>>> upstream/18.0
         name: "Test MC Readonly with Activities",
     });
     async function assertSendButton(
         enabled,
         activities,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         msg,
         model = null,
@@ -72,9 +78,12 @@ test("Send message button activation (access rights dependent)", async () => {
         if (enabled) {
             await contains(".o-mail-Chatter-topbar button:enabled", { text: "Send message" });
 <<<<<<< HEAD
+<<<<<<< HEAD
         } else {
             await contains(".o-mail-Chatter-topbar button:disabled", { text: "Send message" });
 =======
+=======
+>>>>>>> upstream/18.0
             await contains(".o-mail-Chatter-topbar button:enabled", { text: "Log note" });
             if (activities) {
                 await contains(".o-mail-Chatter-topbar button:enabled", { text: "Activities" });
@@ -87,12 +96,19 @@ test("Send message button activation (access rights dependent)", async () => {
                 await contains(".o-mail-Chatter-topbar button:disabled", { text: "Activities" });
 
             }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
     }
     await assertSendButton(
         true,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        false,
+>>>>>>> upstream/18.0
 =======
         false,
 >>>>>>> upstream/18.0
@@ -105,6 +121,10 @@ test("Send message button activation (access rights dependent)", async () => {
     await assertSendButton(
         true,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        true,
+>>>>>>> upstream/18.0
 =======
         true,
 >>>>>>> upstream/18.0
@@ -117,6 +137,10 @@ test("Send message button activation (access rights dependent)", async () => {
     await assertSendButton(
         false,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        false,
+>>>>>>> upstream/18.0
 =======
         false,
 >>>>>>> upstream/18.0
@@ -128,6 +152,10 @@ test("Send message button activation (access rights dependent)", async () => {
     await assertSendButton(
         true,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        true,
+>>>>>>> upstream/18.0
 =======
         true,
 >>>>>>> upstream/18.0
@@ -137,17 +165,23 @@ test("Send message button activation (access rights dependent)", async () => {
         true
     );
 <<<<<<< HEAD
+<<<<<<< HEAD
     await assertSendButton(false, "Record, no rights", "mail.test.multi.company", simpleId);
     await assertSendButton(false, "Record, no rights", "mail.test.multi.company.read", simpleMcId);
     // Note that rights have no impact on send button for draft record (chatter.isTemporary=true)
     await assertSendButton(true, "Draft record", "mail.test.multi.company");
     await assertSendButton(true, "Draft record", "mail.test.multi.company.read");
 =======
+=======
+>>>>>>> upstream/18.0
     await assertSendButton(false, false, "Record, no rights", "mail.test.multi.company", simpleId);
     await assertSendButton(false, true, "Record, no rights", "mail.test.multi.company.read", simpleMcId);
     // Note that rights have no impact on send button for draft record (chatter.isTemporary=true)
     await assertSendButton(true, false, "Draft record", "mail.test.multi.company");
     await assertSendButton(true, true, "Draft record", "mail.test.multi.company.read");
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 });
 

@@ -157,7 +157,11 @@ def migrate(cr, version):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     for company in env['res.company'].search([('chart_template', '=', 'co')]):
+=======
+    for company in env['res.company'].search([('chart_template', '=', 'co')], order="parent_path"):
+>>>>>>> upstream/18.0
 =======
     for company in env['res.company'].search([('chart_template', '=', 'co')], order="parent_path"):
 >>>>>>> upstream/18.0

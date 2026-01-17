@@ -23,10 +23,16 @@ export class DiscussCoreWeb {
             // connecting for the first time while the current user is present
             // then open a chat for the current user with the new user.
 <<<<<<< HEAD
+<<<<<<< HEAD
             const notification = _t(
                 "%(user)s connected. This is their first connection. Wish them luck.",
                 { user: username }
             );
+=======
+            const notification = _t("%(user)s just connected for the first time. Wish them luck!", {
+                user: username,
+            });
+>>>>>>> upstream/18.0
 =======
             const notification = _t("%(user)s just connected for the first time. Wish them luck!", {
                 user: username,

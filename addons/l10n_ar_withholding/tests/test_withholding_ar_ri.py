@@ -109,7 +109,10 @@ class TestL10nArWithholdingArRi(TestAr):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def third_party_check_journal(self):
@@ -141,6 +144,9 @@ class TestL10nArWithholdingArRi(TestAr):
         return in_third_party_check
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -390,7 +396,10 @@ class TestL10nArWithholdingArRi(TestAr):
         ])
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -416,6 +425,9 @@ class TestL10nArWithholdingArRi(TestAr):
         self.assertEqual(wizard.l10n_ar_withholding_ids.amount, 1166.54)
         self.assertEqual(wizard.l10n_ar_net_amount, 30762.71)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

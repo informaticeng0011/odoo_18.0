@@ -7,22 +7,31 @@
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     .o_crop_overlay {
 =======
+=======
+>>>>>>> upstream/18.0
     .o_crop_overlay::after {
         content: '';
         display: block;
     }
 
     .o_crop_overlay:not(.o_crop_overlay_ios) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         background-color: RGB(0 0 0 / 0.75);
         mix-blend-mode: darken;
 
         &::after {
 <<<<<<< HEAD
+<<<<<<< HEAD
             content: '';
             display: block;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             height: 100%;
@@ -33,7 +42,10 @@
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     .o_crop_overlay.o_crop_overlay_ios {
         position: relative;
 
@@ -44,6 +56,9 @@
         }
     }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     .o_crop_icon {
         --o-crop-icon-width: 20px;

@@ -108,8 +108,11 @@ const removeImg = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     // If the snippet editor is not visible, the remove process is considered as
     // finished.
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -336,7 +339,10 @@ const removeImg = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -560,6 +566,9 @@ const removeImg = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -794,7 +803,11 @@ registerWebsitePreviewTour("add_and_remove_main_product_image_no_variant", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         trigger: ".o_select_media_dialog img[title='s_default_image.jpg']",
+=======
+        trigger: ".o_select_media_dialog img[title='green.jpg']",
+>>>>>>> upstream/18.0
 =======
         trigger: ".o_select_media_dialog img[title='green.jpg']",
 >>>>>>> upstream/18.0

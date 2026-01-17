@@ -95,6 +95,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.exceptions import UserError
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import UserError
 >>>>>>> upstream/18.0
@@ -604,12 +608,17 @@ class TestPrivacyWizard(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(len(wizard.line_ids), 2)
         self.assertEqual(wizard.line_ids[0].res_id, self.partner.id)
         self.assertEqual(wizard.line_ids[0].res_model, self.partner._name)
 
         self.assertEqual(wizard.line_ids[1].res_id, self.env.company.id)
         self.assertEqual(wizard.line_ids[1].res_model, self.env.company._name)
+=======
+        self.assertTrue(wizard.line_ids.filtered(lambda l: l.res_model == 'res.partner' and l.res_id == self.partner.id))
+        self.assertTrue(wizard.line_ids.filtered(lambda l: l.res_model == 'res.company' and l.res_id == self.env.company.id))
+>>>>>>> upstream/18.0
 =======
         self.assertTrue(wizard.line_ids.filtered(lambda l: l.res_model == 'res.partner' and l.res_id == self.partner.id))
         self.assertTrue(wizard.line_ids.filtered(lambda l: l.res_model == 'res.company' and l.res_id == self.env.company.id))
@@ -1256,7 +1265,10 @@ class TestPrivacyWizard(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1545,6 +1557,9 @@ class TestPrivacyWizard(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

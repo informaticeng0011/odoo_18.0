@@ -34,6 +34,10 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
                                     'cbc:ID': {},
                                     'cbc:Name': {},
                                     'cbc:Percent': {},
+<<<<<<< HEAD
+=======
+                                    'cbc:TaxExemptionReason': {},
+>>>>>>> upstream/18.0
                                     'hrextac:HRTaxScheme': {
                                         'cbc:ID': {},
                                     }
@@ -178,6 +182,10 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
                     'cbc:ID': tax_subtotals[i]['cac:TaxCategory'][0]['cbc:ID'],
                     'cbc:Name': hr_tax_name,
                     'cbc:Percent': tax_subtotals[i]['cac:TaxCategory'][0]['cbc:Percent'],
+<<<<<<< HEAD
+=======
+                    'cbc:TaxExemptionReason': tax_subtotals[i]['cac:TaxCategory'][0]['cbc:TaxExemptionReason'],
+>>>>>>> upstream/18.0
                     'hrextac:HRTaxScheme': tax_subtotals[i]['cac:TaxCategory'][0]['cac:TaxScheme'] if hr_tax_name['_text'] != "HR:POVNAK" else {'_text': "OTH"},
                 }
             }
@@ -329,6 +337,10 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
             'cbc:ID': {'_text': tax_category['tax_category_code']},
             'cbc:Name': {'_text': tax_category.get('name')},
             'cbc:Percent': {'_text': tax_category['percent']},
+<<<<<<< HEAD
+=======
+            'cbc:TaxExemptionReason': {'_text': tax_category.get('tax_exemption_reason')},
+>>>>>>> upstream/18.0
             'cac:TaxScheme': {
                 'cbc:ID': {'_text': tax_category['scheme_id']},
             }

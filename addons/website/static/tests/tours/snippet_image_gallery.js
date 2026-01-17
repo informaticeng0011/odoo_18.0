@@ -15,6 +15,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    assertCssVariable,
+>>>>>>> upstream/18.0
 =======
     assertCssVariable,
 >>>>>>> upstream/18.0
@@ -166,8 +170,11 @@ registerWebsitePreviewTour("snippet_image_gallery_reorder", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 }]);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -206,6 +213,9 @@ registerWebsitePreviewTour("snippet_image_gallery_reorder", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

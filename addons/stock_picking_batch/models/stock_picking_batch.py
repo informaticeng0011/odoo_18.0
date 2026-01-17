@@ -245,9 +245,12 @@ class StockPickingBatch(models.Model):
         pickings._sanity_check(separate_pickings=False)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Skip sanity_check in pickings button_validate() & remove 'waiting' pickings from the batch
         context = {'skip_sanity_check': True, 'pickings_to_detach': empty_waiting_pickings.ids}
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         context = {
@@ -256,6 +259,9 @@ class StockPickingBatch(models.Model):
             'batches_to_validate': self.ids,  # Skip current batch in auto_wave
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

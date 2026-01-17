@@ -14,8 +14,11 @@ class AccountMoveLine(models.Model):
             subcontract_production = self.purchase_line_id.move_ids._get_subcontract_production()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             components_cost -= sum(subcontract_production.move_raw_ids.stock_valuation_layer_ids.mapped('value'))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             valuation_date = subcontract_production.move_raw_ids and max(subcontract_production.move_raw_ids.mapped('date')) or self.date
@@ -24,6 +27,9 @@ class AccountMoveLine(models.Model):
                 self.currency_id, self.company_id, valuation_date, round=False
             )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

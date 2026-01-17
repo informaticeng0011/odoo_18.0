@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { expect, test } from "@odoo/hoot";
 import { setupEditor } from "../_helpers/editor";
 import { click, queryAll, queryFirst, waitFor } from "@odoo/hoot-dom";
@@ -648,16 +649,95 @@ import { expectElementCount } from "../_helpers/ui_expectations";
 =======
 import { expectElementCount } from "../_helpers/ui_expectations";
 >>>>>>> upstream/18.0
+=======
+import { describe, expect, test } from "@odoo/hoot";
+import { setupEditor } from "../_helpers/editor";
+import { click, queryAll, queryFirst, waitFor } from "@odoo/hoot-dom";
+import { animationFrame, tick } from "@odoo/hoot-mock";
+import { getContent, setSelection } from "../_helpers/selection";
+import { execCommand } from "../_helpers/userCommands";
+import { expectElementCount } from "../_helpers/ui_expectations";
+import { unformat } from "../_helpers/format";
+>>>>>>> upstream/18.0
 
 function insertTable(editor, cols, rows) {
     execCommand(editor, "insertTable", { cols, rows });
 }
 
+<<<<<<< HEAD
 test("can insert a table", async () => {
     const { el, editor } = await setupEditor("<p>hello[]</p>", {});
     insertTable(editor, 4, 3);
     expect(el.querySelectorAll("tr").length).toBe(3);
     expect(el.querySelectorAll("td").length).toBe(12);
+=======
+describe("insertTable", () => {
+    test("creates correct rows and columns", async () => {
+        const { el, editor } = await setupEditor("<p>hello[]</p>", {});
+        insertTable(editor, 4, 3);
+        expect(el.querySelectorAll("tr")).toHaveLength(3);
+        expect(el.querySelectorAll("td")).toHaveLength(12);
+    });
+
+    test("inserts table at the start", async () => {
+        const { el, editor } = await setupEditor("<p>[]hello</p>", {});
+        insertTable(editor, 1, 1);
+        expect(getContent(el)).toBe(
+            unformat(`
+                <table class="table table-bordered o_table">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p placeholder='Type "/" for commands' class="o-we-hint">[]<br></p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>hello</p>
+            `)
+        );
+    });
+
+    test("inserts table in the middle", async () => {
+        const { el, editor } = await setupEditor("<p>he[]llo</p>", {});
+        insertTable(editor, 1, 1);
+        expect(getContent(el)).toBe(
+            unformat(`
+                <p>he</p>
+                <table class="table table-bordered o_table">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p placeholder='Type "/" for commands' class="o-we-hint">[]<br></p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>llo</p>
+            `)
+        );
+    });
+
+    test("inserts table at the end", async () => {
+        const { el, editor } = await setupEditor("<p>hello[]</p>", {});
+        insertTable(editor, 1, 1);
+        expect(getContent(el)).toBe(
+            unformat(`
+                <p>hello</p>
+                <table class="table table-bordered o_table">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p placeholder='Type "/" for commands' class="o-we-hint">[]<br></p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p><br></p>
+            `)
+        );
+    });
+>>>>>>> upstream/18.0
 });
 
 test("can color cells", async () => {
@@ -680,6 +760,7 @@ test("can color cells", async () => {
 
     await click(".o_color_button[data-color='#6BADDE']");
     await animationFrame();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1325,6 +1406,9 @@ test("can color cells", async () => {
 =======
     await expectElementCount(".o-we-toolbar", 1);
 >>>>>>> upstream/18.0
+=======
+    await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
     expect(".o_font_color_selector").toHaveCount(0); // selector closed
 
     // Collapse selection to deselect cells
@@ -1459,9 +1543,15 @@ test("can color cells", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(cells[0]).toHaveStyle({ "background-color": "rgb(107, 173, 222)" });
     expect(cells[1]).toHaveStyle({ "background-color": "rgb(107, 173, 222)" });
     expect(cells[2]).not.toHaveStyle({ "background-color": "rgb(107, 173, 222)" });
+=======
+    expect(cells[0]).toHaveStyle({ "background-color": "rgba(107, 173, 222, 0.6)" });
+    expect(cells[1]).toHaveStyle({ "background-color": "rgba(107, 173, 222, 0.6)" });
+    expect(cells[2]).not.toHaveStyle({ "background-color": "rgba(107, 173, 222, 0.6)" });
+>>>>>>> upstream/18.0
 =======
     expect(cells[0]).toHaveStyle({ "background-color": "rgba(107, 173, 222, 0.6)" });
     expect(cells[1]).toHaveStyle({ "background-color": "rgba(107, 173, 222, 0.6)" });
