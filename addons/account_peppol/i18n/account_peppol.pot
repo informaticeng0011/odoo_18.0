@@ -201,6 +201,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-03-19 20:36+0000\n"
 "PO-Revision-Date: 2025-03-19 20:36+0000\n"
 =======
@@ -983,6 +984,10 @@ msgstr ""
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2025-12-29 18:37+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2026-01-15 18:38+0000\n"
+"PO-Revision-Date: 2026-01-15 18:38+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -1030,6 +1035,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid ""
 "<br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1797,6 +1803,9 @@ msgid ""
 =======
 "                                In Belgium, electronic invoicing is <u>mandatory as of January 2026</u> - don't wait to register."
 >>>>>>> upstream/18.0
+=======
+"                                In Belgium, electronic invoicing is <u>mandatory as of January 2026</u> - don't wait to register."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account_peppol
@@ -1813,6 +1822,7 @@ msgstr ""
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
 msgid ""
 "A participant with these details has already been registered on the network."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2476,6 +2486,9 @@ msgid ""
 =======
 " If you have previously registered to a Peppol service, please deregister."
 >>>>>>> upstream/18.0
+=======
+" If you have previously registered to a Peppol service, please deregister."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account_peppol
@@ -2505,6 +2518,15 @@ msgid "Account Move Send Wizard"
 msgstr ""
 
 #. module: account_peppol
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:account_peppol.field_res_company__account_peppol_edi_user
+#: model:ir.model.fields,field_description:account_peppol.field_res_config_settings__account_peppol_edi_user
+msgid "Account Peppol Edi User"
+msgstr ""
+
+#. module: account_peppol
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account_peppol.field_account_journal__is_peppol_journal
 msgid "Account used for Peppol"
 msgstr ""
@@ -2652,11 +2674,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_partner__peppol_verification_state__not_valid_format
 msgid "Cannot receive this format"
 msgstr ""
 
 #. module: account_peppol
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2885,6 +2910,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,help:account_peppol.field_res_partner__peppol_eas
+#: model:ir.model.fields,help:account_peppol.field_res_users__peppol_eas
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,help:account_peppol.field_res_partner__peppol_eas
 #: model:ir.model.fields,help:account_peppol.field_res_users__peppol_eas
@@ -3413,6 +3443,14 @@ msgid "Company"
 msgstr ""
 
 #. module: account_peppol
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__parent_company_name
+msgid "Company Name"
+msgstr ""
+
+#. module: account_peppol
+>>>>>>> upstream/18.0
 #: model:ir.model,name:account_peppol.model_res_config_settings
 msgid "Config Settings"
 msgstr ""
@@ -3490,11 +3528,34 @@ msgstr ""
 
 #. module: account_peppol
 #. odoo-javascript
+<<<<<<< HEAD
+=======
+#: code:addons/account_peppol/static/src/components/res_config_settings_buttons/res_config_settings_buttons.xml:0
+msgid "Disable the reception."
+msgstr ""
+
+#. module: account_peppol
+#. odoo-javascript
+>>>>>>> upstream/18.0
 #: code:addons/account_peppol/static/src/components/res_config_settings_buttons/res_config_settings_buttons.js:0
 msgid "Discard"
 msgstr ""
 
 #. module: account_peppol
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
+msgid "Disconnect"
+msgstr ""
+
+#. module: account_peppol
+#. odoo-python
+#: code:addons/account_peppol/models/res_config_settings.py:0
+msgid "Disconnected this branch company peppol configuration from %s."
+msgstr ""
+
+#. module: account_peppol
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account_peppol.field_account_peppol_service__display_name
 #: model:ir.model.fields,field_description:account_peppol.field_account_peppol_service_wizard__display_name
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__display_name
@@ -3535,7 +3596,10 @@ msgstr ""
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_account_peppol_service_wizard__edi_user_id
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__edi_user_id
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:account_peppol.field_res_config_settings__account_peppol_edi_user
+=======
+>>>>>>> upstream/18.0
 msgid "EDI user"
 msgstr ""
 
@@ -3766,7 +3830,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4355,6 +4422,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4828,11 +4898,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
 msgid "I want to migrate my existing Peppol connection to Odoo (optional):"
 msgstr ""
 
 #. module: account_peppol
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4965,6 +5038,7 @@ msgid ""
 msgstr ""
 
 #. module: account_peppol
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5542,6 +5616,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_company__account_peppol_proxy_state__in_verification
 msgid "In verification"
 msgstr ""
@@ -5594,7 +5670,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5724,6 +5803,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5905,11 +5987,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_partner__peppol_verification_state__not_valid
 msgid "Not on Peppol"
 msgstr ""
 
 #. module: account_peppol
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6041,11 +6126,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_partner__peppol_verification_state__not_verified
 msgid "Not verified yet"
 msgstr ""
 
 #. module: account_peppol
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6263,7 +6351,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6650,6 +6741,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6968,6 +7062,7 @@ msgid "PEPPOL: update participant status"
 msgstr ""
 
 #. module: account_peppol
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7551,6 +7646,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__parent_company_id
+msgid "Parent Company"
+msgstr ""
+
+#. module: account_peppol
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_partner__peppol_verification_state__not_valid_format
 msgid "Partner cannot receive format"
 msgstr ""
@@ -7597,6 +7699,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7728,7 +7833,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7862,6 +7970,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7950,6 +8061,20 @@ msgid "Pending Reception"
 msgstr ""
 
 #. module: account_peppol
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/account_peppol/wizard/peppol_registration.py:0
+msgid "Peppol Address should be provided."
+msgstr ""
+
+#. module: account_peppol
+#: model:ir.model.fields,field_description:account_peppol.field_res_company__peppol_can_send
+msgid "Peppol Can Send"
+msgstr ""
+
+#. module: account_peppol
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__peppol_endpoint
 #: model:ir.model.fields,field_description:account_peppol.field_res_company__peppol_endpoint
 #: model:ir.model.fields,field_description:account_peppol.field_res_config_settings__account_peppol_endpoint
@@ -8153,7 +8278,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8741,6 +8869,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9129,6 +9258,24 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+#. odoo-python
+#: code:addons/account_peppol/wizard/peppol_registration.py:0
+msgid "Peppol ID should be different from main company."
+msgstr ""
+
+#. module: account_peppol
+#: model:ir.model.fields,field_description:account_peppol.field_res_company__peppol_parent_company_id
+msgid "Peppol Parent Company"
+msgstr ""
+
+#. module: account_peppol
+#: model:ir.model.fields,field_description:account_peppol.field_res_config_settings__peppol_parent_company_name
+msgid "Peppol Parent Company Name"
+msgstr ""
+
+#. module: account_peppol
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account_peppol.account_peppol_view_account_invoice_filter
 msgid "Peppol Ready"
@@ -9156,6 +9303,14 @@ msgid "Peppol Services Wizard"
 msgstr ""
 
 #. module: account_peppol
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:account_peppol.field_res_config_settings__peppol_use_parent_company
+msgid "Peppol Use Parent Company"
+msgstr ""
+
+#. module: account_peppol
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
 msgid "Peppol document (UUID: %(uuid)s) has been received successfully"
@@ -9298,6 +9453,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:account_peppol.field_res_partner__peppol_eas
+#: model:ir.model.fields,field_description:account_peppol.field_res_users__peppol_eas
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:account_peppol.field_res_partner__peppol_eas
 #: model:ir.model.fields,field_description:account_peppol.field_res_users__peppol_eas
@@ -9856,12 +10016,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:account_peppol.field_res_partner__peppol_verification_state
 #: model:ir.model.fields,field_description:account_peppol.field_res_users__peppol_verification_state
 msgid "Peppol endpoint verification"
 msgstr ""
 
 #. module: account_peppol
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9999,6 +10162,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:account_peppol.field_res_partner__peppol_verification_state
+#: model:ir.model.fields,field_description:account_peppol.field_res_users__peppol_verification_state
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:account_peppol.field_res_partner__peppol_verification_state
 #: model:ir.model.fields,field_description:account_peppol.field_res_users__peppol_verification_state
@@ -10226,6 +10394,7 @@ msgstr ""
 #: model:ir.model.fields,help:account_peppol.field_peppol_registration__contact_email
 #: model:ir.model.fields,help:account_peppol.field_res_company__account_peppol_contact_email
 #: model:ir.model.fields,help:account_peppol.field_res_config_settings__account_peppol_contact_email
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10983,6 +11152,11 @@ msgid ""
 "Primary contact email for Peppol connection related communications and notifications.\n"
 "In particular, this email is used by Odoo to reconnect your Peppol account in case of database change."
 >>>>>>> upstream/18.0
+=======
+msgid ""
+"Primary contact email for Peppol connection related communications and notifications.\n"
+"In particular, this email is used by Odoo to reconnect your Peppol account in case of database change."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account_peppol
@@ -11006,6 +11180,19 @@ msgid "Register as a receiver"
 msgstr ""
 
 #. module: account_peppol
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:account_peppol.selection__peppol_registration__use_parent_connection_selection__use_self
+msgid "Register using the current company"
+msgstr ""
+
+#. module: account_peppol
+#: model:ir.model.fields.selection,name:account_peppol.selection__peppol_registration__use_parent_connection_selection__use_parent
+msgid "Register using the parent company by setting the same EAS/Endpoint"
+msgstr ""
+
+#. module: account_peppol
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account_peppol/tools/demo_utils.py:0
 msgid "Registered as a sender (demo)."
@@ -11035,12 +11222,31 @@ msgid "Remove from Peppol"
 msgstr ""
 
 #. module: account_peppol
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/account_peppol/static/src/components/res_config_settings_buttons/res_config_settings_buttons.xml:0
+msgid ""
+"Route your vendor bills elsewhere while maintaining the ability to send "
+"customer invoices."
+msgstr ""
+
+#. module: account_peppol
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account_peppol.field_account_edi_proxy_client_user__peppol_verification_code
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__verification_code
 msgid "SMS verification code"
 msgstr ""
 
 #. module: account_peppol
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__selected_company_id
+msgid "Selected Company"
+msgstr ""
+
+#. module: account_peppol
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/res_config_settings_buttons/res_config_settings_buttons.xml:0
 msgid "Send again"
@@ -11048,7 +11254,11 @@ msgstr ""
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
+<<<<<<< HEAD
 msgid "Send electronic invoices, and receive bills automatically via Peppol"
+=======
+msgid "Send electronic invoices, and receive bills automatically via Peppol."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account_peppol
@@ -11114,7 +11324,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11244,6 +11457,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11352,6 +11568,7 @@ msgid "The Peppol endpoint identification number is not correct."
 msgstr ""
 
 #. module: account_peppol
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11595,6 +11812,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
 msgid "The e-invoicing network"
@@ -11662,7 +11881,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11794,6 +12016,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11876,6 +12099,16 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgid ""
+"The partner has indicated it does not accept this document type, so you "
+"cannot send this invoice via Peppol."
+msgstr ""
+
+#. module: account_peppol
+#. odoo-python
+#: code:addons/account_peppol/models/account_move_send.py:0
 >>>>>>> upstream/18.0
 msgid "The partner is missing Peppol EAS and/or Endpoint identifier."
 msgstr ""
@@ -11889,6 +12122,7 @@ msgid ""
 msgstr ""
 
 #. module: account_peppol
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12190,6 +12424,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:account_peppol.field_res_config_settings__account_peppol_edi_identification
 msgid "The unique id that identifies this user, typically the vat"
 msgstr ""
@@ -12201,6 +12437,7 @@ msgid "The verification code is not correct"
 msgstr ""
 
 #. module: account_peppol
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/account_peppol/models/res_config_settings.py:0
 msgid ""
@@ -12865,6 +13102,17 @@ msgid ""
 =======
 "This feature is deprecated. Contact Odoo support if you need a migration "
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
+msgid "This branch company will use the active Peppol connection found on"
+msgstr ""
+
+#. module: account_peppol
+#. odoo-python
+#: code:addons/account_peppol/models/res_config_settings.py:0
+msgid ""
+"This feature is deprecated. Contact Odoo support if you need a migration "
+>>>>>>> upstream/18.0
 "key."
 msgstr ""
 
@@ -13055,7 +13303,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13616,6 +13867,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13736,6 +13988,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14118,6 +14372,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14430,7 +14687,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14559,6 +14819,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14657,6 +14920,19 @@ msgid "Update"
 msgstr ""
 
 #. module: account_peppol
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__use_parent_connection
+msgid "Use Parent Connection"
+msgstr ""
+
+#. module: account_peppol
+#: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__use_parent_connection_selection
+msgid "Use Parent Connection Selection"
+msgstr ""
+
+#. module: account_peppol
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:account_peppol.field_peppol_registration__edi_mode_constraint
 msgid ""
 "Using the config params, this field specifies which edi modes may be "
@@ -14706,11 +14982,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_partner__peppol_verification_state__valid
 msgid "Valid"
 msgstr ""
 
 #. module: account_peppol
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14883,7 +15162,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14960,6 +15242,7 @@ msgid ""
 msgstr ""
 
 #. module: account_peppol
+<<<<<<< HEAD
 #. odoo-python
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15063,6 +15346,14 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
+msgid "You are sending from"
+msgstr ""
+
+#. module: account_peppol
+#. odoo-python
 >>>>>>> upstream/18.0
 #: code:addons/account_peppol/tools/demo_utils.py:0
 msgid "You can now receive demo vendor bills."
@@ -15108,6 +15399,7 @@ msgid ""
 msgstr ""
 
 #. module: account_peppol
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15493,6 +15785,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
 msgid "Your Peppol ID"
 msgstr ""
@@ -15514,6 +15808,7 @@ msgid ""
 msgstr ""
 
 #. module: account_peppol
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15687,6 +15982,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
 msgid "Your migration key is:"
 msgstr ""
@@ -15705,6 +16002,14 @@ msgid "Your registration should be activated within a day."
 msgstr ""
 
 #. module: account_peppol
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
+msgid "and send invoices via Peppol on their behalf."
+msgstr ""
+
+#. module: account_peppol
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account_peppol/controllers/portal.py:0
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_partner__invoice_sending_method__peppol
@@ -15712,6 +16017,7 @@ msgid "by Peppol"
 msgstr ""
 
 #. module: account_peppol
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16284,6 +16590,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid "could not be sent via Peppol"
 msgstr ""
@@ -16486,6 +16794,9 @@ msgid "to send invoices, but this one"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17050,6 +17361,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

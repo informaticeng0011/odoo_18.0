@@ -137,6 +137,7 @@ import { useDebounced } from "@web/core/utils/timing";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import { cookie } from "@web/core/browser/cookie";
 import { getCSSVariableValue, getHtmlStyle } from "@html_editor/utils/formatting";
@@ -158,6 +159,8 @@ import { cookie } from "@web/core/browser/cookie";
 import { getCSSVariableValue, getHtmlStyle } from "@html_editor/utils/formatting";
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -543,6 +546,9 @@ import { useChildRef } from "@web/core/utils/hooks";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -941,6 +947,7 @@ export class FontSizeSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         document: { validate: (p) => p.nodeType === Node.DOCUMENT_NODE },
 >>>>>>> upstream/18.0
@@ -954,6 +961,10 @@ export class FontSizeSelector extends Component {
         document: { validate: (p) => p.nodeType === Node.DOCUMENT_NODE },
 >>>>>>> upstream/18.0
 =======
+        document: { validate: (p) => p.nodeType === Node.DOCUMENT_NODE },
+>>>>>>> upstream/18.0
+=======
+        onBlur: { type: Function, optional: true },
         document: { validate: (p) => p.nodeType === Node.DOCUMENT_NODE },
 >>>>>>> upstream/18.0
 =======
@@ -1604,6 +1615,11 @@ export class FontSizeSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.menuRef = useChildRef();
+        useDropdownAutoVisibility(this.env.overlayState, this.menuRef);
+>>>>>>> upstream/18.0
 =======
         this.menuRef = useChildRef();
         useDropdownAutoVisibility(this.env.overlayState, this.menuRef);
@@ -2330,6 +2346,7 @@ export class FontSizeSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const iframeDoc = iframeEl.contentWindow.document;
             this.fontSizeInput = iframeDoc.createElement("input");
             Object.assign(iframeDoc.body.style, {
@@ -2360,6 +2377,8 @@ export class FontSizeSelector extends Component {
                 // Update `fontSizeInputValue` whenever the font size changes.
                 this.fontSizeInput.value = this.state.displayName;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2919,7 +2938,10 @@ export class FontSizeSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3323,6 +3345,9 @@ export class FontSizeSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3731,6 +3756,11 @@ export class FontSizeSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    backgroundColor: backgroundColor,
+                    color: color,
+>>>>>>> upstream/18.0
 =======
                     backgroundColor: backgroundColor,
                     color: color,
@@ -4508,6 +4538,9 @@ export class FontSizeSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4930,6 +4963,7 @@ export class FontSizeSelector extends Component {
         );
         useEffect(
             () => {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5802,6 +5836,8 @@ export class FontSizeSelector extends Component {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 if (this.fontSizeInput) {
                     // Focus input on dropdown open, blur on close.
                     if (this.dropdown.isOpen) {
@@ -5940,6 +5976,9 @@ export class FontSizeSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6420,6 +6459,10 @@ export class FontSizeSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.fontSizeInput.focus();
+>>>>>>> upstream/18.0
 =======
         this.fontSizeInput.focus();
 >>>>>>> upstream/18.0

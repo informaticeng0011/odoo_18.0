@@ -163,8 +163,13 @@ import { _t as realT } from "@web/core/l10n/translation";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 // replace all double quotes with escaped double quotes
 const _t = (str) => realT(str).replace(/"/g, '\\"')
+=======
+// Escape translated strings to prevent parsing errors
+const _t = (str) => JSON.stringify(realT(str)).slice(1, -1);
+>>>>>>> upstream/18.0
 =======
 // Escape translated strings to prevent parsing errors
 const _t = (str) => JSON.stringify(realT(str)).slice(1, -1);
@@ -1204,7 +1209,11 @@ const _getEmojisData1 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":stuck_out_ltongue:"
+=======
+        ":stuck_out_tongue:"
+>>>>>>> upstream/18.0
 =======
         ":stuck_out_tongue:"
 >>>>>>> upstream/18.0
@@ -1932,7 +1941,11 @@ const _getEmojisData1 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":stuck_out_ltongue_winking_eye:"
+=======
+        ":stuck_out_tongue_winking_eye:"
+>>>>>>> upstream/18.0
 =======
         ":stuck_out_tongue_winking_eye:"
 >>>>>>> upstream/18.0
@@ -2676,7 +2689,11 @@ const _getEmojisData1 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":stuck_out_ltongue_closed_eyes:"
+=======
+        ":stuck_out_tongue_closed_eyes:"
+>>>>>>> upstream/18.0
 =======
         ":stuck_out_tongue_closed_eyes:"
 >>>>>>> upstream/18.0
@@ -3719,7 +3736,11 @@ const _getEmojisData1 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":face_with_lthermometer:"
+=======
+        ":face_with_thermometer:"
+>>>>>>> upstream/18.0
 =======
         ":face_with_thermometer:"
 >>>>>>> upstream/18.0
@@ -4440,7 +4461,10 @@ const _getEmojisData1 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "B)",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5366,7 +5390,11 @@ const _getEmojisData1 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":cat_with_ltears_of_joy:"
+=======
+        ":cat_with_tears_of_joy:"
+>>>>>>> upstream/18.0
 =======
         ":cat_with_tears_of_joy:"
 >>>>>>> upstream/18.0
@@ -6898,7 +6926,11 @@ const _getEmojisData2 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":sign_of_lthe_horns:"
+=======
+        ":sign_of_the_horns:"
+>>>>>>> upstream/18.0
 =======
         ":sign_of_the_horns:"
 >>>>>>> upstream/18.0
@@ -7881,7 +7913,11 @@ const _getEmojisData2 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":palms_up_ltogether:"
+=======
+        ":palms_up_together:"
+>>>>>>> upstream/18.0
 =======
         ":palms_up_together:"
 >>>>>>> upstream/18.0
@@ -9387,7 +9423,11 @@ const _getEmojisData2 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":person_ltipping_hand:"
+=======
+        ":person_tipping_hand:"
+>>>>>>> upstream/18.0
 =======
         ":person_tipping_hand:"
 >>>>>>> upstream/18.0
@@ -10110,7 +10150,11 @@ const _getEmojisData2 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":man_ltipping_hand:"
+=======
+        ":man_tipping_hand:"
+>>>>>>> upstream/18.0
 =======
         ":man_tipping_hand:"
 >>>>>>> upstream/18.0
@@ -10833,7 +10877,11 @@ const _getEmojisData2 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":woman_ltipping_hand:"
+=======
+        ":woman_tipping_hand:"
+>>>>>>> upstream/18.0
 =======
         ":woman_tipping_hand:"
 >>>>>>> upstream/18.0
@@ -11857,7 +11905,11 @@ const _getEmojisData2 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":man_lteacher:"
+=======
+        ":man_teacher:"
+>>>>>>> upstream/18.0
 =======
         ":man_teacher:"
 >>>>>>> upstream/18.0
@@ -12580,7 +12632,11 @@ const _getEmojisData2 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":woman_lteacher:"
+=======
+        ":woman_teacher:"
+>>>>>>> upstream/18.0
 =======
         ":woman_teacher:"
 >>>>>>> upstream/18.0
@@ -13531,7 +13587,11 @@ const _getEmojisData2 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":man_ltechnologist:"
+=======
+        ":man_technologist:"
+>>>>>>> upstream/18.0
 =======
         ":man_technologist:"
 >>>>>>> upstream/18.0
@@ -14256,7 +14316,11 @@ const _getEmojisData2 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":woman_ltechnologist:"
+=======
+        ":woman_technologist:"
+>>>>>>> upstream/18.0
 =======
         ":woman_technologist:"
 >>>>>>> upstream/18.0
@@ -15325,7 +15389,11 @@ const _getEmojisData2 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":person_wearing_lturban:"
+=======
+        ":person_wearing_turban:"
+>>>>>>> upstream/18.0
 =======
         ":person_wearing_turban:"
 >>>>>>> upstream/18.0
@@ -16047,7 +16115,11 @@ const _getEmojisData2 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":man_wearing_lturban:"
+=======
+        ":man_wearing_turban:"
+>>>>>>> upstream/18.0
 =======
         ":man_wearing_turban:"
 >>>>>>> upstream/18.0
@@ -16769,7 +16841,11 @@ const _getEmojisData2 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":woman_wearing_lturban:"
+=======
+        ":woman_wearing_turban:"
+>>>>>>> upstream/18.0
 =======
         ":woman_wearing_turban:"
 >>>>>>> upstream/18.0
@@ -17526,7 +17602,11 @@ const _getEmojisData2 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":person_in_ltuxedo:"
+=======
+        ":person_in_tuxedo:"
+>>>>>>> upstream/18.0
 =======
         ":person_in_tuxedo:"
 >>>>>>> upstream/18.0
@@ -19921,7 +20001,11 @@ const _getEmojisData2 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":person_ltaking_bath:"
+=======
+        ":person_taking_bath:"
+>>>>>>> upstream/18.0
 =======
         ":person_taking_bath:"
 >>>>>>> upstream/18.0
@@ -22882,7 +22966,11 @@ const _getEmojisData3 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":evergreen_ltree:"
+=======
+        ":evergreen_tree:"
+>>>>>>> upstream/18.0
 =======
         ":evergreen_tree:"
 >>>>>>> upstream/18.0
@@ -23604,7 +23692,11 @@ const _getEmojisData3 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":deciduous_ltree:"
+=======
+        ":deciduous_tree:"
+>>>>>>> upstream/18.0
 =======
         ":deciduous_tree:"
 >>>>>>> upstream/18.0
@@ -24325,7 +24417,11 @@ const _getEmojisData3 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":palm_ltree:"
+=======
+        ":palm_tree:"
+>>>>>>> upstream/18.0
 =======
         ":palm_tree:"
 >>>>>>> upstream/18.0
@@ -27546,7 +27642,11 @@ const _getEmojisData5 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":Tokyo_ltower:"
+=======
+        ":Tokyo_tower:"
+>>>>>>> upstream/18.0
 =======
         ":Tokyo_tower:"
 >>>>>>> upstream/18.0
@@ -28315,7 +28415,11 @@ const _getEmojisData5 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":hindu_ltemple:"
+=======
+        ":hindu_temple:"
+>>>>>>> upstream/18.0
 =======
         ":hindu_temple:"
 >>>>>>> upstream/18.0
@@ -29299,7 +29403,11 @@ const _getEmojisData5 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":circus_ltent:"
+=======
+        ":circus_tent:"
+>>>>>>> upstream/18.0
 =======
         ":circus_tent:"
 >>>>>>> upstream/18.0
@@ -30059,7 +30167,11 @@ const _getEmojisData5 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":high-speed_ltrain:"
+=======
+        ":high-speed_train:"
+>>>>>>> upstream/18.0
 =======
         ":high-speed_train:"
 >>>>>>> upstream/18.0
@@ -30784,7 +30896,11 @@ const _getEmojisData5 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":bullet_ltrain:"
+=======
+        ":bullet_train:"
+>>>>>>> upstream/18.0
 =======
         ":bullet_train:"
 >>>>>>> upstream/18.0
@@ -31747,7 +31863,11 @@ const _getEmojisData5 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":oncoming_ltaxi:"
+=======
+        ":oncoming_taxi:"
+>>>>>>> upstream/18.0
 =======
         ":oncoming_taxi:"
 >>>>>>> upstream/18.0
@@ -32514,7 +32634,11 @@ const _getEmojisData5 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":delivery_ltruck:"
+=======
+        ":delivery_truck:"
+>>>>>>> upstream/18.0
 =======
         ":delivery_truck:"
 >>>>>>> upstream/18.0
@@ -33417,7 +33541,11 @@ const _getEmojisData5 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":railway_ltrack:"
+=======
+        ":railway_track:"
+>>>>>>> upstream/18.0
 =======
         ":railway_track:"
 >>>>>>> upstream/18.0
@@ -34189,7 +34317,11 @@ const _getEmojisData5 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":horizontal_ltraffic_light:"
+=======
+        ":horizontal_traffic_light:"
+>>>>>>> upstream/18.0
 =======
         ":horizontal_traffic_light:"
 >>>>>>> upstream/18.0
@@ -34914,7 +35046,11 @@ const _getEmojisData5 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":vertical_ltraffic_light:"
+=======
+        ":vertical_traffic_light:"
+>>>>>>> upstream/18.0
 =======
         ":vertical_traffic_light:"
 >>>>>>> upstream/18.0
@@ -35909,7 +36045,11 @@ const _getEmojisData5 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":aerial_ltramway:"
+=======
+        ":aerial_tramway:"
+>>>>>>> upstream/18.0
 =======
         ":aerial_tramway:"
 >>>>>>> upstream/18.0
@@ -37937,7 +38077,11 @@ const _getEmojisData6 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":Christmas_ltree:"
+=======
+        ":Christmas_tree:"
+>>>>>>> upstream/18.0
 =======
         ":Christmas_tree:"
 >>>>>>> upstream/18.0
@@ -38765,7 +38909,11 @@ const _getEmojisData6 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":tanabata_ltree:"
+=======
+        ":tanabata_tree:"
+>>>>>>> upstream/18.0
 =======
         ":tanabata_tree:"
 >>>>>>> upstream/18.0
@@ -39629,7 +39777,11 @@ const _getEmojisData6 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":admission_ltickets:"
+=======
+        ":admission_tickets:"
+>>>>>>> upstream/18.0
 =======
         ":admission_tickets:"
 >>>>>>> upstream/18.0
@@ -42697,7 +42849,11 @@ const _getEmojisData7 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":magnifying_glass_ltilted_left:"
+=======
+        ":magnifying_glass_tilted_left:"
+>>>>>>> upstream/18.0
 =======
         ":magnifying_glass_tilted_left:"
 >>>>>>> upstream/18.0
@@ -43421,7 +43577,11 @@ const _getEmojisData7 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":magnifying_glass_ltilted_right:"
+=======
+        ":magnifying_glass_tilted_right:"
+>>>>>>> upstream/18.0
 =======
         ":magnifying_glass_tilted_right:"
 >>>>>>> upstream/18.0
@@ -44411,7 +44571,11 @@ const _getEmojisData7 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":bookmark_ltabs:"
+=======
+        ":bookmark_tabs:"
+>>>>>>> upstream/18.0
 =======
         ":bookmark_tabs:"
 >>>>>>> upstream/18.0
@@ -45375,7 +45539,11 @@ const _getEmojisData7 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":outbox_ltray:"
+=======
+        ":outbox_tray:"
+>>>>>>> upstream/18.0
 =======
         ":outbox_tray:"
 >>>>>>> upstream/18.0
@@ -46101,7 +46269,11 @@ const _getEmojisData7 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":inbox_ltray:"
+=======
+        ":inbox_tray:"
+>>>>>>> upstream/18.0
 =======
         ":inbox_tray:"
 >>>>>>> upstream/18.0
@@ -47775,7 +47947,11 @@ const _getEmojisData7 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":test_ltube:"
+=======
+        ":test_tube:"
+>>>>>>> upstream/18.0
 =======
         ":test_tube:"
 >>>>>>> upstream/18.0
@@ -50073,7 +50249,11 @@ const _getEmojisData8 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":shuffle_ltracks_button:"
+=======
+        ":shuffle_tracks_button:"
+>>>>>>> upstream/18.0
 =======
         ":shuffle_tracks_button:"
 >>>>>>> upstream/18.0
@@ -50860,7 +51040,11 @@ const _getEmojisData8 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":next_ltrack_button:"
+=======
+        ":next_track_button:"
+>>>>>>> upstream/18.0
 =======
         ":next_track_button:"
 >>>>>>> upstream/18.0
@@ -51632,7 +51816,11 @@ const _getEmojisData8 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":last_ltrack_button:"
+=======
+        ":last_track_button:"
+>>>>>>> upstream/18.0
 =======
         ":last_track_button:"
 >>>>>>> upstream/18.0
@@ -53383,7 +53571,11 @@ const _getEmojisData8 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":A_button_(blood_ltype):"
+=======
+        ":A_button_(blood_type):"
+>>>>>>> upstream/18.0
 =======
         ":A_button_(blood_type):"
 >>>>>>> upstream/18.0
@@ -54105,7 +54297,11 @@ const _getEmojisData8 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":AB_button_(blood_ltype):"
+=======
+        ":AB_button_(blood_type):"
+>>>>>>> upstream/18.0
 =======
         ":AB_button_(blood_type):"
 >>>>>>> upstream/18.0
@@ -54827,7 +55023,11 @@ const _getEmojisData8 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":B_button_(blood_ltype):"
+=======
+        ":B_button_(blood_type):"
+>>>>>>> upstream/18.0
 =======
         ":B_button_(blood_type):"
 >>>>>>> upstream/18.0
@@ -55655,7 +55855,11 @@ const _getEmojisData8 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":O_button_(blood_ltype):"
+=======
+        ":O_button_(blood_type):"
+>>>>>>> upstream/18.0
 =======
         ":O_button_(blood_type):"
 >>>>>>> upstream/18.0
@@ -57103,7 +57307,11 @@ const _getEmojisData8 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":red_ltriangle_pointed_up:"
+=======
+        ":red_triangle_pointed_up:"
+>>>>>>> upstream/18.0
 =======
         ":red_triangle_pointed_up:"
 >>>>>>> upstream/18.0
@@ -57826,7 +58034,11 @@ const _getEmojisData8 = () => `{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ":red_ltriangle_pointed_down:"
+=======
+        ":red_triangle_pointed_down:"
+>>>>>>> upstream/18.0
 =======
         ":red_triangle_pointed_down:"
 >>>>>>> upstream/18.0

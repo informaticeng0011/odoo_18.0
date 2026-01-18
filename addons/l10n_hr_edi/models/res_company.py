@@ -178,7 +178,11 @@ class ResCompany(models.Model):
         need_retrigger = False
         imported_documents = {}
 <<<<<<< HEAD
+<<<<<<< HEAD
         for company in self:
+=======
+        for company in self.filtered(lambda c: c.l10n_hr_mer_connection_state == 'active'):
+>>>>>>> upstream/18.0
 =======
         for company in self.filtered(lambda c: c.l10n_hr_mer_connection_state == 'active'):
 >>>>>>> upstream/18.0
@@ -209,10 +213,13 @@ class ResCompany(models.Model):
             for document in documents_to_import:
                 try:
 <<<<<<< HEAD
+<<<<<<< HEAD
                     fisc_data = _mer_api_check_fiscalization_status_inbox(company, electronic_id=document['mer_document_eid'])[0]
                 except (MojEracunServiceError, UserError):
                     _logger.error("Failed to retreive fisc data for document: %s", document['mer_document_eid'])
 =======
+=======
+>>>>>>> upstream/18.0
                     fisc_data = _mer_api_check_fiscalization_status_inbox(company, electronic_id=document['mer_document_eid'])
                     if fisc_data == []:
                         _logger.error("Fiscalization data for document eID %s is not available on MojEracun server.", document['mer_document_eid'])
@@ -221,6 +228,9 @@ class ResCompany(models.Model):
                         fisc_data = fisc_data[0]
                 except (MojEracunServiceError, UserError):
                     _logger.error("Failed to retreive fisc data for document eID %s", document['mer_document_eid'])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     if from_cron:
                         continue
@@ -246,6 +256,10 @@ class ResCompany(models.Model):
                 })
                 if document['fiscalization_status'] != '0':
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    _logger.warning("Document eID %s is not successfully fiscalized, skipping import.", document['mer_document_eid'])
+>>>>>>> upstream/18.0
 =======
                     _logger.warning("Document eID %s is not successfully fiscalized, skipping import.", document['mer_document_eid'])
 >>>>>>> upstream/18.0
@@ -298,7 +312,11 @@ class ResCompany(models.Model):
         Fetch and update the status of up to 20000 documents belonging to a company on MojEracun.
         """
 <<<<<<< HEAD
+<<<<<<< HEAD
         for company in self:
+=======
+        for company in self.filtered(lambda c: c.l10n_hr_mer_connection_state == 'active'):
+>>>>>>> upstream/18.0
 =======
         for company in self.filtered(lambda c: c.l10n_hr_mer_connection_state == 'active'):
 >>>>>>> upstream/18.0

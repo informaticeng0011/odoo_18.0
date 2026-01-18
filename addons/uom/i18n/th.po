@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* uom
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -47,6 +48,9 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+# * uom
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -65,6 +69,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -91,11 +96,15 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -149,10 +158,17 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Rasareeyar Lappiam, 2025\n"
 "Language-Team: Thai (https://app.transifex.com/odoo/teams/41243/th/)\n"
+=======
+"POT-Creation-Date: 2026-01-15 18:39+0000\n"
+"PO-Revision-Date: 2026-01-17 12:50+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Thai <https://translate.odoo.com/projects/odoo-18/uom/th/>\n"
+>>>>>>> upstream/18.0
 "Language: th\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -194,11 +210,16 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
+=======
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: uom
 #: model_terms:ir.ui.view,arch_db:uom.product_uom_form_view
 msgid ""
 "<span class=\"oe_grey oe_inline\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -245,6 +266,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                    e.g: 1*(reference unit)=ratio*(this "
 "unit)\n"
 "                                </span>"
@@ -265,6 +288,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -312,12 +338,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    e.g: 1*(this unit)=ratio*(reference unit)\n"
 "                                </span>"
 msgstr ""
 "<span class=\"oe_grey oe_inline\">\n"
 "                                    เช่น: 1*(this unit)=ratio*(reference unit)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -364,6 +393,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -459,8 +491,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "การแปลงระหว่างหน่วยวัดจะเกิดขึ้นได้ก็ต่อเมื่ออยู่ในหมวดหมู่เดียวกัน "
 "การแปลงจะอิงตามอัตราส่วน"
+=======
+"การแปลงระหว่างหน่วยวัดจะเกิดขึ้นได้ก็ต่อเมื่ออยู่ในหมวดหมู่เดียวกัน การแปลงจะอิงตามอัตราส่วน"
+>>>>>>> upstream/18.0
 =======
 "การแปลงระหว่างหน่วยวัดจะเกิดขึ้นได้ก็ต่อเมื่ออยู่ในหมวดหมู่เดียวกัน การแปลงจะอิงตามอัตราส่วน"
 >>>>>>> upstream/18.0
@@ -533,6 +569,14 @@ msgid "Dozens"
 msgstr "โหล"
 
 #. module: uom
+<<<<<<< HEAD
+=======
+#: model:uom.category,name:uom.product_uom_categ_energy
+msgid "Energy"
+msgstr "พลังงาน"
+
+#. module: uom
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:uom.uom_uom_view_search
 msgid "Group By"
 msgstr "กลุ่มโดย"
@@ -548,6 +592,7 @@ msgid ""
 "How many times this Unit of Measure is bigger than the reference Unit of "
 "Measure in this category: 1 * (this unit) = ratio * (reference unit)"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -606,6 +651,9 @@ msgstr ""
 =======
 "หน่วยวัดนี้ใหญ่กว่าหน่วยวัดอ้างอิงในหมวดหมู่นี้กี่ครั้ง: 1 * (หน่วยนี้) = อัตราส่วน * (หน่วยอ้างอิง)"
 >>>>>>> upstream/18.0
+=======
+"หน่วยวัดนี้ใหญ่กว่าหน่วยวัดอ้างอิงในหมวดหมู่นี้กี่ครั้ง: 1 * (หน่วยนี้) = อัตราส่วน * (หน่วยอ้างอิง)"
+>>>>>>> upstream/18.0
 
 #. module: uom
 #: model:ir.model.fields,help:uom.field_uom_uom__factor
@@ -613,6 +661,7 @@ msgid ""
 "How much bigger or smaller this unit is compared to the reference Unit of "
 "Measure for this category: 1 * (reference unit) = ratio * (this unit)"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -685,6 +734,10 @@ msgstr ""
 "หน่วยนี้ใหญ่กว่าหรือเล็กกว่ามากเมื่อเทียบกับหน่วยวัดอ้างอิงสำหรับหมวดหมู่นี้: 1 * (หน่วยอ้างอิง) = "
 "อัตราส่วน * (หน่วยนี้)"
 >>>>>>> upstream/18.0
+=======
+"หน่วยนี้ใหญ่กว่าหรือเล็กกว่ามากเมื่อเทียบกับหน่วยวัดอ้างอิงสำหรับหมวดหมู่นี้: 1 * (หน่วยอ้างอิง) = "
+"อัตราส่วน * (หน่วยนี้)"
+>>>>>>> upstream/18.0
 
 #. module: uom
 #: model:ir.model.fields,field_description:uom.field_uom_category__id
@@ -693,6 +746,14 @@ msgid "ID"
 msgstr "ไอดี"
 
 #. module: uom
+<<<<<<< HEAD
+=======
+#: model:uom.uom,name:uom.product_uom_kwh
+msgid "KWH"
+msgstr ""
+
+#. module: uom
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:uom.field_uom_category__write_uid
 #: model:ir.model.fields,field_description:uom.field_uom_uom__write_uid
 msgid "Last Updated by"
@@ -715,6 +776,14 @@ msgid "Manage Multiple Units of Measure"
 msgstr "จัดการหน่วยวัดหลายหน่วย"
 
 #. module: uom
+<<<<<<< HEAD
+=======
+#: model:uom.uom,name:uom.product_uom_minute
+msgid "Minutes"
+msgstr "นาที"
+
+#. module: uom
+>>>>>>> upstream/18.0
 #: model:ir.model,name:uom.model_uom_uom
 msgid "Product Unit of Measure"
 msgstr "หน่วยวัดสินค้า"
@@ -781,11 +850,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "As units of measure impact the whole system, this may cause critical issues.\n"
 "E.g. modifying the rounding could disturb your inventory balance.\n"
 "\n"
 "Therefore, changing core units of measure in a running database is not recommended."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -831,6 +903,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -892,8 +967,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "ปริมาณที่คำนวณได้จะเป็นจำนวนทวีคูณของค่านี้ ใช้ 1.0 "
 "สำหรับหน่วยวัดที่ไม่สามารถแยกเพิ่มเติมได้ เช่น ชิ้น"
+=======
+"ปริมาณที่คำนวณได้จะเป็นจำนวนทวีคูณของค่านี้ ใช้ 1.0 สำหรับหน่วยวัดที่ไม่สามารถแยกเพิ่มเติมได้ เช่น "
+"ชิ้น"
+>>>>>>> upstream/18.0
 =======
 "ปริมาณที่คำนวณได้จะเป็นจำนวนทวีคูณของค่านี้ ใช้ 1.0 สำหรับหน่วยวัดที่ไม่สามารถแยกเพิ่มเติมได้ เช่น "
 "ชิ้น"
@@ -974,7 +1054,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The following units of measure are used by the system and cannot be deleted: %s\n"
+=======
+"The following units of measure are used by the system and cannot be deleted: "
+"%s\n"
+>>>>>>> upstream/18.0
 =======
 "The following units of measure are used by the system and cannot be deleted: "
 "%s\n"
@@ -1064,6 +1149,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The unit of measure %(unit)s defined on the order line doesn't belong to the"
 " same category as the unit of measure %(product_unit)s defined on the "
 "product. Please correct the unit of measure defined on the order line or on "
@@ -1074,6 +1160,8 @@ msgstr ""
 "%(product_unit)s ที่กำหนดบนผลิตภัณฑ์ "
 "โปรดแก้ไขหน่วยวัดที่กำหนดไว้ในรายการสั่งซื้อหรือบนผลิตภัณฑ์ "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1120,6 +1208,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

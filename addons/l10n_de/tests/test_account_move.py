@@ -33,7 +33,10 @@ class TestAccountMoveDE(AccountTestInvoicingCommon):
         self.assertEqual(fields.Date.from_string('2025-01-01'), move.invoice_date)
         self.assertEqual(fields.Date.from_string('2025-01-01'), move.delivery_date)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_out_invoice_custom_currency_rate_with_missing_delivery_date(self):
 
@@ -55,4 +58,7 @@ class TestAccountMoveDE(AccountTestInvoicingCommon):
         self.assertRecordValues(move.line_ids, expected_lines_vals)
         move.action_post()
         self.assertRecordValues(move.line_ids, expected_lines_vals)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

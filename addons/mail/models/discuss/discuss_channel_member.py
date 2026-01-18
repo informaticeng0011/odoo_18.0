@@ -93,6 +93,7 @@ class ChannelMember(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         domain = expression.AND(
             [
                 [
@@ -109,6 +110,8 @@ class ChannelMember(models.Model):
         )
         members = self.env["discuss.channel.member"].search(domain)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -235,6 +238,10 @@ class ChannelMember(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+               AND channel.parent_channel_id IS NOT NULL
+>>>>>>> upstream/18.0
 =======
                AND channel.parent_channel_id IS NOT NULL
 >>>>>>> upstream/18.0
@@ -412,6 +419,9 @@ class ChannelMember(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -830,7 +840,11 @@ class ChannelMember(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             member.channel_id._bus_send_store(Store(member).add(member, {"isTyping": is_typing}))
+=======
+            member.channel_id._bus_send_store(Store(member).add(member, {"isTyping": is_typing, "is_typing_dt": fields.Datetime.now()}))
+>>>>>>> upstream/18.0
 =======
             member.channel_id._bus_send_store(Store(member).add(member, {"isTyping": is_typing, "is_typing_dt": fields.Datetime.now()}))
 >>>>>>> upstream/18.0
@@ -1586,8 +1600,13 @@ class ChannelMember(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _join_sfu(self, ice_servers=None):
         if len(self.channel_id.rtc_session_ids) < SFU_MODE_THRESHOLD:
+=======
+    def _join_sfu(self, ice_servers=None, force=False):
+        if len(self.channel_id.rtc_session_ids) < SFU_MODE_THRESHOLD and not force:
+>>>>>>> upstream/18.0
 =======
     def _join_sfu(self, ice_servers=None, force=False):
         if len(self.channel_id.rtc_session_ids) < SFU_MODE_THRESHOLD and not force:
@@ -2200,7 +2219,10 @@ class ChannelMember(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2442,6 +2464,9 @@ class ChannelMember(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2685,6 +2710,10 @@ class ChannelMember(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            "|", ("guest_id", "=", False), ("guest_id", "in", recent_guest_ids.ids),
+>>>>>>> upstream/18.0
 =======
             "|", ("guest_id", "=", False), ("guest_id", "in", recent_guest_ids.ids),
 >>>>>>> upstream/18.0
@@ -3114,6 +3143,7 @@ class ChannelMember(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self.seen_message_id.id >= message.id:
             return
         self.fetched_message_id = max(self.fetched_message_id.id, message.id)
@@ -3125,6 +3155,8 @@ class ChannelMember(models.Model):
         if self.channel_id.channel_type in self.channel_id._types_allowing_seen_infos():
             target = self.channel_id
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3515,6 +3547,9 @@ class ChannelMember(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3911,9 +3946,14 @@ class ChannelMember(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if message_id == self.new_message_separator:
             return
         self.new_message_separator = message_id
+=======
+        if message_id != self.new_message_separator:
+            self.new_message_separator = message_id
+>>>>>>> upstream/18.0
 =======
         if message_id != self.new_message_separator:
             self.new_message_separator = message_id

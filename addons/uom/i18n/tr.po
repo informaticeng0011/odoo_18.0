@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* uom
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -56,6 +57,10 @@
 #
 >>>>>>> upstream/18.0
 =======
+#
+>>>>>>> upstream/18.0
+=======
+# * uom
 #
 >>>>>>> upstream/18.0
 # Translators:
@@ -224,6 +229,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Deniz Guvener_Odoo <degu@odoo.com>, 2025
 >>>>>>> upstream/18.0
@@ -698,10 +704,15 @@
 # Deniz Guvener_Odoo <degu@odoo.com>, 2025
 #
 >>>>>>> upstream/18.0
+=======
+# Deniz Guvener_Odoo <degu@odoo.com>, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1311,10 +1322,18 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Deniz Guvener_Odoo <degu@odoo.com>, 2025\n"
 "Language-Team: Turkish (https://app.transifex.com/odoo/teams/41243/tr/)\n"
+=======
+"POT-Creation-Date: 2026-01-15 18:39+0000\n"
+"PO-Revision-Date: 2026-01-17 12:50+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Turkish <https://translate.odoo.com/projects/odoo-18/uom/tr/>"
+"\n"
+>>>>>>> upstream/18.0
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1356,11 +1375,16 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+=======
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: uom
 #: model_terms:ir.ui.view,arch_db:uom.product_uom_form_view
 msgid ""
 "<span class=\"oe_grey oe_inline\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1407,6 +1431,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                    e.g: 1*(reference unit)=ratio*(this "
 "unit)\n"
 "                                </span>"
@@ -1427,6 +1453,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1474,12 +1503,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    e.g: 1*(this unit)=ratio*(reference unit)\n"
 "                                </span>"
 msgstr ""
 "<span class=\"oe_grey oe_inline\">\n"
 "                                    e.g: 1*(this unit)=ratio*(reference unit)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1526,6 +1558,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1639,6 +1674,14 @@ msgid "Dozens"
 msgstr "Düzine"
 
 #. module: uom
+<<<<<<< HEAD
+=======
+#: model:uom.category,name:uom.product_uom_categ_energy
+msgid "Energy"
+msgstr "Enerji"
+
+#. module: uom
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:uom.uom_uom_view_search
 msgid "Group By"
 msgstr "Grupla"
@@ -1673,6 +1716,14 @@ msgid "ID"
 msgstr "ID"
 
 #. module: uom
+<<<<<<< HEAD
+=======
+#: model:uom.uom,name:uom.product_uom_kwh
+msgid "KWH"
+msgstr ""
+
+#. module: uom
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:uom.field_uom_category__write_uid
 #: model:ir.model.fields,field_description:uom.field_uom_uom__write_uid
 msgid "Last Updated by"
@@ -1695,6 +1746,14 @@ msgid "Manage Multiple Units of Measure"
 msgstr "Çoklu Ölçü Birim Yönetimi"
 
 #. module: uom
+<<<<<<< HEAD
+=======
+#: model:uom.uom,name:uom.product_uom_minute
+msgid "Minutes"
+msgstr "Dakika"
+
+#. module: uom
+>>>>>>> upstream/18.0
 #: model:ir.model,name:uom.model_uom_uom
 msgid "Product Unit of Measure"
 msgstr "Ürün Ölçü Birimi"
@@ -1761,11 +1820,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "As units of measure impact the whole system, this may cause critical issues.\n"
 "E.g. modifying the rounding could disturb your inventory balance.\n"
 "\n"
 "Therefore, changing core units of measure in a running database is not recommended."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1811,6 +1873,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1856,11 +1921,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ölçü birimleri tüm sistemi etkilediğinden, bu kritik sorunlara neden olabilir.\n"
 "Örn. yuvarlamayı değiştirmek envanter bakiyenizi bozabilir.\n"
 "\n"
 "Bu nedenle, çalışan bir veritabanında temel ölçü birimlerinin değiştirilmesi önerilmez."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1906,6 +1974,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1945,6 +2016,7 @@ msgid ""
 "The computed quantity will be a multiple of this value. Use 1.0 for a Unit "
 "of Measure that cannot be further split, such as a piece."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2712,6 +2784,10 @@ msgstr ""
 "Hesaplanan miktar, bu değerin katları olacaktır. Parça gibi daha fazla "
 "bölünemeyen bir Ölçü Birimi için 1,0 değerini kullanın."
 >>>>>>> upstream/18.0
+=======
+"Hesaplanan miktar, bu değerin katları olacaktır. Parça gibi daha fazla "
+"bölünemeyen bir Ölçü Birimi için 1,0 değerini kullanın."
+>>>>>>> upstream/18.0
 
 #. module: uom
 #: model:ir.model.constraint,message:uom.constraint_uom_uom_factor_gt_zero
@@ -2736,7 +2812,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The following units of measure are used by the system and cannot be deleted: %s\n"
+=======
+"The following units of measure are used by the system and cannot be deleted: "
+"%s\n"
+>>>>>>> upstream/18.0
 =======
 "The following units of measure are used by the system and cannot be deleted: "
 "%s\n"
@@ -2826,8 +2907,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The unit of measure %(unit)s defined on the order line doesn't belong to the"
 " same category as the unit of measure %(product_unit)s defined on the "
+=======
+"The unit of measure %(unit)s defined on the order line doesn't belong to the "
+"same category as the unit of measure %(product_unit)s defined on the "
+>>>>>>> upstream/18.0
 =======
 "The unit of measure %(unit)s defined on the order line doesn't belong to the "
 "same category as the unit of measure %(product_unit)s defined on the "
@@ -2969,7 +3055,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Örneğin, <i>'Zaman'</i> kategorisinde şu ölçü birimlerine sahip olacaksınız: \n"
+=======
+"Örneğin, <i>'Zaman'</i> kategorisinde şu ölçü birimlerine sahip "
+"olacaksınız: \n"
+>>>>>>> upstream/18.0
 =======
 "Örneğin, <i>'Zaman'</i> kategorisinde şu ölçü birimlerine sahip "
 "olacaksınız: \n"

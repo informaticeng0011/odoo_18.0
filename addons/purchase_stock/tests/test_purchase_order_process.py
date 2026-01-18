@@ -134,6 +134,10 @@ class TestPurchaseOrderProcess(PurchaseTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        purchase_order.order_line.flush_recordset()
+>>>>>>> upstream/18.0
 =======
         purchase_order.order_line.flush_recordset()
 >>>>>>> upstream/18.0

@@ -128,6 +128,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* account_edi_ubl_cii
 # 
 # Translators:
@@ -790,6 +791,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * account_edi_ubl_cii
 #
 # Translators:
@@ -927,6 +930,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1237,11 +1241,16 @@
 >>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Saara Hakanen <sahak@odoo.com>, 2026.
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2222,6 +2231,11 @@ msgstr ""
 "PO-Revision-Date: 2025-12-31 08:41+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2026-01-01 18:36+0000\n"
+"PO-Revision-Date: 2026-01-17 09:03+0000\n"
+"Last-Translator: Saara Hakanen <sahak@odoo.com>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Finnish <https://translate.odoo.com/projects/odoo-18/"
 "account_edi_ubl_cii/fi/>\n"
 "Language: fi\n"
@@ -2229,6 +2243,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2661,11 +2676,15 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_xml_ubl_bis3.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3701,6 +3720,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"%s should have a KVK or OIN number set in Company ID field or as Peppol e-"
+"address (EAS code 0106 or 0190)."
+msgstr ""
+"%s:lla tulisi olla KVK- tai OIN-numero määritettynä yritystunnus-kenttään "
+"tai sähköiseksi Peppol-osoitteeksi (EAS-koodi 0106 tai 0190)."
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model_terms:ir.ui.view,arch_db:account_edi_ubl_cii.account_invoice_pdfa_3_facturx_metadata
@@ -3708,6 +3734,7 @@ msgid "1.0"
 msgstr "1.0"
 
 #. module: account_edi_ubl_cii
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6126,22 +6153,68 @@ msgstr "Ohjattu tilisiirtojen lähetystoiminto"
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9923
 msgid "Albania VAT"
 msgstr "Albania ALV"
+=======
+#. odoo-python
+#: code:addons/account_edi_ubl_cii/models/account_edi_common.py:0
+msgid "A payment of %s was detected."
+msgstr "Havaittiin maksu: %s."
+
+#. module: account_edi_ubl_cii
+#. odoo-python
+#: code:addons/account_edi_ubl_cii/models/account_edi_common.py:0
+msgid "A rounding amount of %s was detected."
+msgstr "Havaittiin %s suuruinen pyöristys."
+
+#. module: account_edi_ubl_cii
+#: model:ir.model,name:account_edi_ubl_cii.model_account_edi_xml_ubl_a_nz
+msgid "A-NZ BIS Billing 3.0"
+msgstr "A-NZ BIS Billing 3.0"
+
+#. module: account_edi_ubl_cii
+#: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__as
+msgid "AS2 exchange"
+msgstr "AS2-tiedonsiirto"
+
+#. module: account_edi_ubl_cii
+#: model:ir.model,name:account_edi_ubl_cii.model_account_move_send
+msgid "Account Move Send"
+msgstr "Lähetä tilikirjaus"
+
+#. module: account_edi_ubl_cii
+#: model:ir.model,name:account_edi_ubl_cii.model_account_move_send_wizard
+msgid "Account Move Send Wizard"
+msgstr "Ohjattu tilikirjauksen lähetys"
+
+#. module: account_edi_ubl_cii
+#: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9923
+msgid "Albania VAT"
+msgstr "Albanian ALV"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9922
 msgid "Andorra VAT"
+<<<<<<< HEAD
 msgstr "Andorra ALV"
+=======
+msgstr "Andorran ALV"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_common.py:0
 msgid "Articles 226 items 11 to 15 Directive 2006/112/EN"
+<<<<<<< HEAD
 msgstr "226 artiklan 11-15 kohta Direktiivi 2006/112/EN"
+=======
+msgstr "226 artiklan kohdat 11-15, direktiivi 2006/112/EN"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_common.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6917,6 +6990,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"At least one of the following fields %(field_list)s is required on %"
+"(record)s."
+msgstr ""
+"Vähintään yksi seuraavista kentistä %(field_list)s vaaditaan tietueissa %"
+"(record)s."
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields,field_description:account_edi_ubl_cii.field_account_bank_statement_line__ubl_cii_xml_id
@@ -6925,6 +7005,7 @@ msgid "Attachment"
 msgstr "Liite"
 
 #. module: account_edi_ubl_cii
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7241,11 +7322,14 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__invoice_edi_format__ubl_a_nz
 msgid "Australia (BIS Billing 3.0 A-NZ)"
 msgstr "Australia (BIS Billing 3.0 A-NZ)"
 
 #. module: account_edi_ubl_cii
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7938,10 +8022,21 @@ msgstr "Australian BIS laskutus 3.0 A-NZ"
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9914
 msgid "Austria UID"
 msgstr "Itävalta UID"
+=======
+#: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0151
+msgid "Australia ABN"
+msgstr "Australian ABN"
+
+#. module: account_edi_ubl_cii
+#: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9914
+msgid "Austria UID"
+msgstr "Itävallan UID"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9915
 msgid "Austria VOKZ"
+<<<<<<< HEAD
 msgstr "Itävalta VOKZ"
 
 #. module: account_edi_ubl_cii
@@ -8727,6 +8822,15 @@ msgstr "Saatavilla oleva Peppol Eas"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+msgstr "Itävallan VOKZ"
+
+#. module: account_edi_ubl_cii
+#: model:ir.model.fields,field_description:account_edi_ubl_cii.field_res_partner__available_peppol_eas
+#: model:ir.model.fields,field_description:account_edi_ubl_cii.field_res_users__available_peppol_eas
+msgid "Available Peppol Eas"
+msgstr "Käytettävissä oleva Peppol Eas"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model,name:account_edi_ubl_cii.model_account_edi_xml_ubl_de
@@ -8734,6 +8838,7 @@ msgid "BIS3 DE (XRechnung)"
 msgstr "BIS3 DE (XRechnung)"
 
 #. module: account_edi_ubl_cii
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8903,6 +9008,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:account_edi_ubl_cii.model_account_edi_ubl
 msgid "Base helpers for UBL"
 msgstr "UBL:n perusapuvälineet"
@@ -8921,6 +9028,9 @@ msgstr "UBL:n perusapuvälineet"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8960,12 +9070,20 @@ msgstr "Belgian ALV"
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9924
 msgid "Bosnia and Herzegovina VAT"
+<<<<<<< HEAD
 msgstr "9924 - Bosnia ja Hertsegovinan ALV-numero"
+=======
+msgstr "Bosnia ja Hertsegovinan ALV"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9926
 msgid "Bulgaria VAT"
+<<<<<<< HEAD
 msgstr "Bulgaria ALV"
+=======
+msgstr "Bulgarian ALV"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9913
@@ -8976,13 +9094,18 @@ msgstr "Yritysrekisteriverkosto"
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_move_send.py:0
 msgid "Check Partner(s)"
+<<<<<<< HEAD
 msgstr "Tarkista kumppanit"
+=======
+msgstr "Tarkista kumppani(t)"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields,help:account_edi_ubl_cii.field_res_partner__peppol_eas
 #: model:ir.model.fields,help:account_edi_ubl_cii.field_res_users__peppol_eas
 msgid ""
 "Code used to identify the Endpoint for BIS Billing 3.0 and its derivatives.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9759,6 +9882,15 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"             List available at https://docs.peppol.eu/poacc/billing/3.0/"
+"codelist/eas/"
+msgstr ""
+"BIS Billing 3.0:n ja sen johdannaisten päätepisteen tunnistamiseen "
+"käytettävä koodi.\n"
+"             Luettelo on saatavilla osoitteessa https://docs.peppol.eu/poacc/"
+"billing/3.0/codelist/eas/"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0210
@@ -9774,6 +9906,7 @@ msgstr "Codice Univoco Unità Organizzativa iPA"
 #: model:ir.model,name:account_edi_ubl_cii.model_account_edi_common
 msgid ""
 "Common functions for EDI documents: generate the data, the constraints, etc"
+<<<<<<< HEAD
 msgstr ""
 "EDI-asiakirjojen yhteiset toiminnot: tietojen ja rajoitusten luominen jne"
 
@@ -9919,6 +10052,13 @@ msgstr ""
 =======
 #: code:addons/account_edi_ubl_cii/models/account_edi_ubl.py:0
 >>>>>>> upstream/18.0
+=======
+msgstr "EDI-asiakirjojen yleistoiminnot: tietojen luominen, rajoitukset, jne"
+
+#. module: account_edi_ubl_cii
+#. odoo-python
+#: code:addons/account_edi_ubl_cii/models/account_edi_ubl.py:0
+>>>>>>> upstream/18.0
 #: code:addons/account_edi_ubl_cii/models/account_edi_xml_ubl_20.py:0
 msgid "Conditional cash/payment discount"
 msgstr "Ehdollinen käteis-/maksualennus"
@@ -9927,12 +10067,20 @@ msgstr "Ehdollinen käteis-/maksualennus"
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_move_send.py:0
 msgid "Configure"
+<<<<<<< HEAD
 msgstr "Konfiguroi"
+=======
+msgstr "Määritä"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model,name:account_edi_ubl_cii.model_res_partner
 msgid "Contact"
+<<<<<<< HEAD
 msgstr "Kontakti"
+=======
+msgstr "Yhteystiedot"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #. odoo-python
@@ -9940,12 +10088,17 @@ msgstr "Kontakti"
 msgid ""
 "Could not retrieve a partner corresponding to '%s'. A new partner was "
 "created."
+<<<<<<< HEAD
 msgstr "'%s' -nimistä kumppania ei voitu hakea. Uusi kumppani on luotu."
+=======
+msgstr "'%s' vastaavan kumppanin haku ei onnistunut. Luotiin uusi kumppani."
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_common.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10591,22 +10744,39 @@ msgid ""
 msgstr ""
 "Valuuttaa ei voitu hakea: %s. Otitko monivaluutta-asetuksen käyttöön ja "
 "aktivoitko valuutan?"
+=======
+"Could not retrieve currency: %s. Did you enable the multicurrency option and "
+"activate the currency?"
+msgstr ""
+"Valuutan hakeminen ei onnistunut: %s. Onko sinulla monivaluutta-asetus "
+"käytössä ja valuutta aktivoituna?"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_common.py:0
 msgid "Could not retrieve the tax: %(amount)s %% for line '%(line)s'."
+<<<<<<< HEAD
 msgstr "Veroa ei voitu hakea: %(amount)s %% riviltä '%(line)s'."
+=======
+msgstr "Veron hakeminen ei onnistunut: %(amount)s %% riville '%(line)s'."
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_common.py:0
 msgid "Could not retrieve the tax: %(tax_percentage)s %% for line '%(line)s'."
+<<<<<<< HEAD
 msgstr "Veroa ei voitu hakea: %(tax_percentage)s %% riviltä '%(line)s'."
+=======
+msgstr ""
+"Veron hakeminen ei onnistunut: %(tax_percentage)s %% riville '%(line)s'."
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_common.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11122,21 +11292,38 @@ msgid "Could not retrieve the tax: %s for the document level allowance/charge."
 msgid "Could not retrieve the tax: %s for the document level allowance/charge."
 >>>>>>> upstream/18.0
 msgstr "Veroa ei voitu hakea: %s asiakirjan tason korvausta/maksua varten."
+=======
+msgid "Could not retrieve the tax: %s for the document level allowance/charge."
+msgstr ""
+"Veron hakeminen ei onnistunut: %s asiakirjatason määrärahaa/maksua varten."
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9934
 msgid "Croatia VAT"
+<<<<<<< HEAD
 msgstr "Kroatia ALV"
+=======
+msgstr "Kroatian ALV"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9928
 msgid "Cyprus VAT"
+<<<<<<< HEAD
 msgstr "Kypros ALV"
+=======
+msgstr "Kyproksen ALV"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9929
 msgid "Czech Republic VAT"
+<<<<<<< HEAD
 msgstr "Tšekin tasavallan ALV"
+=======
+msgstr "Tšekin ALV"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0060
@@ -11146,17 +11333,29 @@ msgstr "DUNS-numero"
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0184
 msgid "Denmark CVR"
+<<<<<<< HEAD
 msgstr "Tanska CVR"
+=======
+msgstr "Tanskan CVR"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0096
 msgid "Denmark P"
+<<<<<<< HEAD
 msgstr "Tanska P"
+=======
+msgstr "Tanskan P"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0198
 msgid "Denmark SE"
+<<<<<<< HEAD
 msgstr "Tanska SE"
+=======
+msgstr "Tanskan SE"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0130
@@ -11199,7 +11398,10 @@ msgstr "Euroopan komission pääosastot"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11308,6 +11510,9 @@ msgstr "Alennus"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11384,7 +11589,11 @@ msgstr "E-FFF (BE)"
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0088
 msgid "EAN Location Code"
+<<<<<<< HEAD
 msgstr "EAN Sijaintikoodi"
+=======
+msgstr "EAN-sijaintikoodi"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model_terms:ir.ui.view,arch_db:account_edi_ubl_cii.account_invoice_pdfa_3_facturx_metadata
@@ -11392,6 +11601,7 @@ msgid "EN 16931"
 msgstr "EN 16931"
 
 #. module: account_edi_ubl_cii
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11993,6 +12203,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__invoice_edi_format__ubl_bis3
 msgid "EU Standard (Peppol Bis 3.0)"
 msgstr "EU-standardi (Peppol Bis 3.0)"
@@ -12053,6 +12265,9 @@ msgstr "EU-standardi (Peppol Bis 3.0)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12173,7 +12388,11 @@ msgstr "Kullakin laskurivillä saa olla vain yksi vero."
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_xml_ubl_bis3.py:0
 msgid "Each invoice line should have a product or a label."
+<<<<<<< HEAD
 msgstr "Jokaisella laskurivillä on oltava tuote tai kuvaus."
+=======
+msgstr "Jokaisella laskurivillä on oltava tuote tai nimike."
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #. odoo-python
@@ -12182,6 +12401,7 @@ msgid "Each invoice line should have at least one tax."
 msgstr "Jokaisella laskurivillä on oltava vähintään yksi vero."
 
 #. module: account_edi_ubl_cii
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13162,20 +13382,40 @@ msgstr "Sähköposti"
 #: code:addons/account_edi_ubl_cii/models/account_move_send.py:0
 msgid "Errors occurred while creating the EDI document (format: %s):"
 msgstr "EDI-asiakirjan luomisessa tapahtui virheitä (muoto: %s):"
+=======
+#: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__em
+msgid "Electronic mail"
+msgstr "Sähköinen posti"
+
+#. module: account_edi_ubl_cii
+#. odoo-python
+#: code:addons/account_edi_ubl_cii/models/account_move_send.py:0
+msgid "Errors occurred while creating the EDI document (format: %s):"
+msgstr "EDI-asiakirjaa luodessa tapahtui virheitä (muoto: %s):"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0191
 msgid "Estonia Company code"
+<<<<<<< HEAD
 msgstr "Viro Y-tunnus"
+=======
+msgstr "Viron yritystunnus"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9931
 msgid "Estonia VAT"
+<<<<<<< HEAD
 msgstr "Viro ALV"
+=======
+msgstr "Viron ALV"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_common.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13870,6 +14110,10 @@ msgstr "Verovapaa"
 msgid "Exempt from tax"
 msgstr "Verovapaa"
 >>>>>>> upstream/18.0
+=======
+msgid "Exempt from tax"
+msgstr "Verovapaa"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #. odoo-python
@@ -14014,6 +14258,9 @@ msgstr "Verovapaa"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14427,11 +14674,14 @@ msgstr "Vienti EU:n ulkopuolelle"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__invoice_edi_format__facturx
 msgid "Factur-X (CII)"
 msgstr "Factur-X (CII)"
 
 #. module: account_edi_ubl_cii
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14855,6 +15105,7 @@ msgstr "Factur-x/XRechnung CII 2.2.0"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -14873,6 +15124,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15352,6 +15605,7 @@ msgstr "Tiedostonsiirtoprotokolla"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15672,16 +15926,29 @@ msgstr "Tiedostonsiirtoprotokolla"
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0037
 msgid "Finland LY-tunnus"
 msgstr "Suomi LY-tunnus"
+=======
+#: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0037
+msgid "Finland LY-tunnus"
+msgstr "Suomen LY-tunnus"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0216
 msgid "Finland OVT code"
+<<<<<<< HEAD
 msgstr "Suomi OVT-koodi"
+=======
+msgstr "Suomen OVT-koodi"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0213
 msgid "Finland VAT"
+<<<<<<< HEAD
 msgstr "Suomi ALV"
+=======
+msgstr "Suomen ALV"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #. odoo-python
@@ -15690,14 +15957,22 @@ msgid ""
 "For intracommunity supply, the actual delivery date or the invoicing period "
 "should be included."
 msgstr ""
+<<<<<<< HEAD
 "Yhteisön sisäisten toimitusten osalta on ilmoitettava todellinen "
 "toimituspäivä tai laskutusjakso."
+=======
+"Yhteisömyynnissä on ilmoitettava todellinen toimituspäivä tai laskutusjakso."
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_xml_ubl_bis3.py:0
 msgid "For intracommunity supply, the delivery address should be included."
+<<<<<<< HEAD
 msgstr "Yhteisön sisäisten toimitusten osalta on ilmoitettava toimitusosoite."
+=======
+msgstr "Yhteisömyynnin tulee sisältää toimitusosoite."
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #. odoo-python
@@ -15706,6 +15981,7 @@ msgid "Format used to import the invoice: %s"
 msgstr "Laskun tuonnissa käytetty muoto: %s"
 
 #. module: account_edi_ubl_cii
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15980,6 +16256,11 @@ msgstr "Laskun tuonnissa käytetty muoto: %s"
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__invoice_edi_format__facturx
 msgid "France (FacturX)"
 msgstr ""
+=======
+#: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__invoice_edi_format__facturx
+msgid "France (FacturX)"
+msgstr "Ranska (FacturX)"
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__invoice_edi_format__facturx
 msgid "France (FacturX)"
@@ -16264,11 +16545,16 @@ msgstr "Ranska (FacturX)"
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0225
 msgid "France FRCTC Electronic Address"
+<<<<<<< HEAD
 msgstr "Ranskan FRCTC Sähköinen osoite"
+=======
+msgstr "Ranskan FRCTC -sähköinen osoite"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0240
 msgid "France Register of legal persons"
+<<<<<<< HEAD
 msgstr "Ranskan oikeushenkilöiden rekisteri"
 
 #. module: account_edi_ubl_cii
@@ -16657,16 +16943,32 @@ msgstr "Ranskan oikeushenkilöiden rekisteri"
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0002
 msgid "France SIRENE"
 msgstr "Ranska SIRENE"
+=======
+msgstr "Ranskan oikeushenkilörekisteri"
+
+#. module: account_edi_ubl_cii
+#: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0002
+msgid "France SIRENE"
+msgstr "Ranskan SIRENE"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0009
 msgid "France SIRET"
+<<<<<<< HEAD
 msgstr "Ranska SIRET"
+=======
+msgstr "Ranskan SIRET"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9957
 msgid "France VAT"
+<<<<<<< HEAD
 msgstr "Ranska ALV"
+=======
+msgstr "Ranskan ALV"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0209
@@ -16674,6 +16976,7 @@ msgid "GS1 identification keys"
 msgstr "GS1-tunnistusavaimet"
 
 #. module: account_edi_ubl_cii
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17275,11 +17578,14 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__invoice_edi_format__xrechnung
 msgid "Germany (XRechnung)"
 msgstr "Saksa (XRechnung)"
 
 #. module: account_edi_ubl_cii
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17449,30 +17755,52 @@ msgstr "Saksa (XRechnung)"
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0204
 msgid "Germany Leitweg-ID"
 msgstr "Saksa Leitweg-ID"
+=======
+#: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0204
+msgid "Germany Leitweg-ID"
+msgstr "Saksan Leitweg-ID"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9930
 msgid "Germany VAT"
+<<<<<<< HEAD
 msgstr "Saksa ALV"
+=======
+msgstr "Saksan ALV"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9933
 msgid "Greece VAT"
+<<<<<<< HEAD
 msgstr "Kreikka ALV"
+=======
+msgstr "Kreikan ALV"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9910
 msgid "Hungary VAT"
+<<<<<<< HEAD
 msgstr "Unkari ALV"
+=======
+msgstr "Unkarin ALV"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0196
 msgid "Iceland Kennitala"
+<<<<<<< HEAD
 msgstr "Islanti Kennitala"
+=======
+msgstr "Islannin Kennitala"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0202
 msgid "Indirizzo di Posta Elettronica Certificata"
+<<<<<<< HEAD
 msgstr "Sähköpostin tunnus Certificata"
 
 #. module: account_edi_ubl_cii
@@ -17647,12 +17975,19 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+msgstr "Indirizzo di Posta Elettronica Certificata"
+
+#. module: account_edi_ubl_cii
+#. odoo-python
+>>>>>>> upstream/18.0
 #: code:addons/account_edi_ubl_cii/models/account_move_send.py:0
 msgid "Install Chorus Pro"
 msgstr "Asenna Chorus Pro"
 
 #. module: account_edi_ubl_cii
 #. odoo-python
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17780,6 +18115,11 @@ msgstr "Asenna Chorus Pro"
 #: code:addons/account_edi_ubl_cii/models/account_edi_common.py:0
 msgid "Intra-Community supply"
 msgstr "Yhteisön sisäiset toimitukset"
+=======
+#: code:addons/account_edi_ubl_cii/models/account_edi_common.py:0
+msgid "Intra-Community supply"
+msgstr "Yhteisömyynti"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model_terms:ir.ui.view,arch_db:account_edi_ubl_cii.account_invoice_pdfa_3_facturx_metadata
@@ -17789,39 +18129,67 @@ msgstr "Odoon luoma lasku"
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9935
 msgid "Ireland VAT"
+<<<<<<< HEAD
 msgstr "Irlanti ALV"
+=======
+msgstr "Irlannin ALV"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields,field_description:account_edi_ubl_cii.field_res_partner__is_peppol_edi_format
 #: model:ir.model.fields,field_description:account_edi_ubl_cii.field_res_users__is_peppol_edi_format
 msgid "Is Peppol Edi Format"
+<<<<<<< HEAD
 msgstr "Onko Peppol EDI formaatti"
+=======
+msgstr "On Peppol EDI-muodossa"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields,field_description:account_edi_ubl_cii.field_res_partner__is_ubl_format
 #: model:ir.model.fields,field_description:account_edi_ubl_cii.field_res_users__is_ubl_format
 msgid "Is Ubl Format"
+<<<<<<< HEAD
 msgstr "Onko UBL-muoto"
+=======
+msgstr "On UBL-muodossa"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0097
 msgid "Italia FTI"
+<<<<<<< HEAD
 msgstr "Italia FTI"
+=======
+msgstr "Italian FTI"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0211
 msgid "Italia Partita IVA"
+<<<<<<< HEAD
 msgstr "Italia Partita ALV"
+=======
+msgstr "Italian Partita IVA"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0221
 msgid "Japan IIN"
+<<<<<<< HEAD
 msgstr "Japani IIN"
+=======
+msgstr "Japanin IIN"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0188
 msgid "Japan SST"
+<<<<<<< HEAD
 msgstr "Japani SST"
+=======
+msgstr "Japanin SST"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model,name:account_edi_ubl_cii.model_account_move
@@ -17831,6 +18199,7 @@ msgstr "Päiväkirjan kirjaus"
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9919
 msgid "Kennziffer des Unternehmensregisters"
+<<<<<<< HEAD
 msgstr "Yritysrekisterin Kennziffer"
 
 #. module: account_edi_ubl_cii
@@ -18607,6 +18976,19 @@ msgstr "Latvia Unified registration number"
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9939
 msgid "Latvia VAT"
 msgstr "Latvia ALV"
+=======
+msgstr "Kennziffer des Unternehmensregisters"
+
+#. module: account_edi_ubl_cii
+#: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0218
+msgid "Latvia Unified registration number"
+msgstr "Latvian yhtenäinen rekisterinumero"
+
+#. module: account_edi_ubl_cii
+#: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9939
+msgid "Latvia VAT"
+msgstr "Latvian ALV"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0199
@@ -18621,12 +19003,20 @@ msgstr "Liechtensteinin ALV"
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0200
 msgid "Lithuania JAK"
+<<<<<<< HEAD
 msgstr "Liettua JAK"
+=======
+msgstr "Liettuan JAK"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9937
 msgid "Lithuania VAT"
+<<<<<<< HEAD
 msgstr "Liettua ALV"
+=======
+msgstr "Liettuan ALV"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9938
@@ -18636,7 +19026,11 @@ msgstr "Luxemburgin ALV"
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9942
 msgid "Macedonia VAT"
+<<<<<<< HEAD
 msgstr "Makedonia ALV"
+=======
+msgstr "Makedonian ALV"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0230
@@ -18646,16 +19040,25 @@ msgstr "Malesia"
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9943
 msgid "Malta VAT"
+<<<<<<< HEAD
 msgstr "Malta ALV"
+=======
+msgstr "Maltan ALV"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9940
 msgid "Monaco VAT"
+<<<<<<< HEAD
 msgstr "Monaco ALV"
+=======
+msgstr "Monacon ALV"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9941
 msgid "Montenegro VAT"
+<<<<<<< HEAD
 msgstr "Montenegro ALV"
 
 #. module: account_edi_ubl_cii
@@ -19302,21 +19705,41 @@ msgstr "Alankomaat (NLCIUS)"
 msgid "Netherlands (NLCIUS)"
 msgstr "Alankomaat (NLCIUS)"
 >>>>>>> upstream/18.0
+=======
+msgstr "Montenegron ALV"
+
+#. module: account_edi_ubl_cii
+#: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__invoice_edi_format__nlcius
+msgid "Netherlands (NLCIUS)"
+msgstr "Alankomaat (NLCIUS)"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0106
 msgid "Netherlands KvK"
+<<<<<<< HEAD
 msgstr "Alankomaat KvK"
+=======
+msgstr "Alankomaiden KvK"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0190
 msgid "Netherlands OIN"
+<<<<<<< HEAD
 msgstr "Alankomaat OIN"
+=======
+msgstr "Alankomaiden OIN"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9944
 msgid "Netherlands VAT"
+<<<<<<< HEAD
 msgstr "Alankomaat ALV"
+=======
+msgstr "Alankomaiden ALV"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #. odoo-python
@@ -19324,11 +19747,16 @@ msgstr "Alankomaat ALV"
 msgid ""
 "No gross price, net price nor line subtotal amount found for line in xml"
 msgstr ""
+<<<<<<< HEAD
 "Riville ei löydy bruttohintaa, nettohintaa, eikä rivin välisummaa xml:ssä"
+=======
+"Riville ei löydy bruttohintaa, nettohintaa, eikä välisummaa XML-muodossa"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0192
 msgid "Norway Org.nr."
+<<<<<<< HEAD
 msgstr "Norja Org.nro"
 
 #. module: account_edi_ubl_cii
@@ -19828,6 +20256,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+msgstr "Norjan Org.nr."
+
+#. module: account_edi_ubl_cii
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__an
 msgid "O.F.T.P. (ODETTE File Transfer Protocol)"
 msgstr "O.F.T.P. (ODETTE -tiedostonsiirtoprotokolla)"
@@ -19991,6 +20424,9 @@ msgstr "O.F.T.P. (ODETTE -tiedostonsiirtoprotokolla)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20315,12 +20751,17 @@ msgstr "Odoo"
 #. module: account_edi_ubl_cii
 #: model_terms:ir.ui.view,arch_db:account_edi_ubl_cii.view_partner_property_form
 msgid "Peppol Address"
+<<<<<<< HEAD
 msgstr "Peppol Osoite"
+=======
+msgstr "Peppol-osoite"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields,field_description:account_edi_ubl_cii.field_res_partner__peppol_endpoint
 #: model:ir.model.fields,field_description:account_edi_ubl_cii.field_res_users__peppol_endpoint
 msgid "Peppol Endpoint"
+<<<<<<< HEAD
 msgstr "Peppol Endpoint"
 
 #. module: account_edi_ubl_cii
@@ -21496,6 +21937,20 @@ msgstr "Peppol ID"
 #: model:ir.model.fields,field_description:account_edi_ubl_cii.field_res_users__peppol_eas
 msgid "Peppol e-address (EAS)"
 msgstr "Peppolin sähköpostiosoite (EAS)"
+=======
+msgstr "Peppol-päätepiste"
+
+#. module: account_edi_ubl_cii
+#: model_terms:ir.ui.view,arch_db:account_edi_ubl_cii.view_partner_property_form
+msgid "Peppol ID"
+msgstr "Peppol-tunnus"
+
+#. module: account_edi_ubl_cii
+#: model:ir.model.fields,field_description:account_edi_ubl_cii.field_res_partner__peppol_eas
+#: model:ir.model.fields,field_description:account_edi_ubl_cii.field_res_users__peppol_eas
+msgid "Peppol e-address (EAS)"
+msgstr "Peppol verkko-osoite (EAS)"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #. odoo-python
@@ -21509,6 +21964,7 @@ msgstr "Täytä kumppanin ALV-tunnus tai Peppol-osoite."
 msgid ""
 "Please fill in your company's VAT or Peppol Address to generate a complete "
 "XML file."
+<<<<<<< HEAD
 msgstr ""
 "Täytä yrityksesi ALV-tunnus tai Peppol-osoite täydellisen XML-tiedoston "
 "luomiseksi."
@@ -21660,11 +22116,17 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+msgstr "Täytä yrityksesi ALV tai Peppol-osoite täyden XML-tiedoston luomiseksi."
+
+#. module: account_edi_ubl_cii
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_move_send.py:0
 msgid ""
 "Please install the french Chorus pro module to have all the specific rules."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21729,6 +22191,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21856,6 +22320,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21942,10 +22407,16 @@ msgstr ""
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9945
 msgid "Poland VAT"
 msgstr "Puola ALV"
+=======
+#: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9945
+msgid "Poland VAT"
+msgstr "Puolan ALV"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9946
 msgid "Portugal VAT"
+<<<<<<< HEAD
 msgstr "Portugali ALV"
 
 #. module: account_edi_ubl_cii
@@ -23506,6 +23977,21 @@ msgstr "Romania ALV"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+msgstr "Portugalin ALV"
+
+#. module: account_edi_ubl_cii
+#: model:ir.model,name:account_edi_ubl_cii.model_ir_actions_report
+msgid "Report Action"
+msgstr "Raporttitoiminto"
+
+#. module: account_edi_ubl_cii
+#: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9947
+msgid "Romania VAT"
+msgstr "Romanian ALV"
+
+#. module: account_edi_ubl_cii
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_common.py:0
 msgid "Rounding"
@@ -23640,6 +24126,9 @@ msgstr "Pyöristys"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23904,7 +24393,11 @@ msgstr "S.W.I.F.T"
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0142
 msgid "SECETI Object Identifiers"
+<<<<<<< HEAD
 msgstr "SECETI-kohteen tunnisteet"
+=======
+msgstr "SECETI -kohdetunnisteet"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model,name:account_edi_ubl_cii.model_account_edi_xml_ubl_sg
@@ -23919,7 +24412,11 @@ msgstr "SI-UBL 2.0 (NLCIUS)"
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0135
 msgid "SIA Object Identifiers"
+<<<<<<< HEAD
 msgstr "SIA-kohteen tunnisteet"
+=======
+msgstr "SIA -kohdetunnisteet"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9951
@@ -23929,6 +24426,7 @@ msgstr "San Marinon ALV"
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9948
 msgid "Serbia VAT"
+<<<<<<< HEAD
 msgstr "Serbia ALV"
 
 #. module: account_edi_ubl_cii
@@ -24556,11 +25054,17 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+msgstr "Serbian ALV"
+
+#. module: account_edi_ubl_cii
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__invoice_edi_format__ubl_sg
 msgid "Singapore (BIS Billing 3.0 SG)"
 msgstr "Singapore (BIS Billing 3.0 SG)"
 
 #. module: account_edi_ubl_cii
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24709,31 +25213,56 @@ msgstr "Singapore (BIS Billing 3.0 SG)"
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0195
 msgid "Singapore UEN"
 msgstr "Singapore UEN"
+=======
+#: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0195
+msgid "Singapore UEN"
+msgstr "Singaporen UEN"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9950
 msgid "Slovakia VAT"
+<<<<<<< HEAD
 msgstr "Slovakia ALV"
+=======
+msgstr "Slovakian ALV"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9949
 msgid "Slovenia VAT"
+<<<<<<< HEAD
 msgstr "Slovenia ALV"
+=======
+msgstr "Slovenian ALV"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9920
 msgid "Spain VAT"
+<<<<<<< HEAD
 msgstr "Espanja ALV"
+=======
+msgstr "Espanjan ALV"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0007
 msgid "Sweden Org.nr."
+<<<<<<< HEAD
 msgstr "Ruotsi Org.nro"
+=======
+msgstr "Ruotsin Org.nr."
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9955
 msgid "Sweden VAT"
+<<<<<<< HEAD
 msgstr "Ruotsi ALV"
+=======
+msgstr "Ruotsin ALV"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0183
@@ -24767,7 +25296,10 @@ msgstr "Vero '%(tax_name)s' on virheellinen: %(error_message)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24799,6 +25331,7 @@ msgid ""
 "Tax with matching exigibility could not be retrieved: '%(exigibility)s' for "
 "line '%(line)s'."
 msgstr ""
+<<<<<<< HEAD
 
 #. module: account_edi_ubl_cii
 #. odoo-python
@@ -24841,27 +25374,46 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"Vastaavaa verovelvollisuutta ei saatu haettua: '%(exigibility)s' riville '%"
+"(line)s'."
+
+#. module: account_edi_ubl_cii
+#. odoo-python
 >>>>>>> upstream/18.0
 #: code:addons/account_edi_ubl_cii/models/res_partner.py:0
 msgid ""
 "The Peppol endpoint is not valid. It should contain exactly 10 digits "
 "(Company Registry number).The expected format is: 1234567890"
 msgstr ""
+<<<<<<< HEAD
 "Peppol-päätepiste ei ole voimassa. Sen tulee sisältää täsmälleen 10 numeroa "
+=======
+"Peppol-päätepiste ei kelpaa. Sen tulee sisältää täsmälleen 10 numeroa "
+>>>>>>> upstream/18.0
 "(yritysrekisterinumero). Odotettu muoto on: 1234567890"
 
 #. module: account_edi_ubl_cii
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/res_partner.py:0
 msgid "The Peppol endpoint is not valid. The expected format is: 0239843188"
+<<<<<<< HEAD
 msgstr "Peppol-päätepiste ei ole voimassa. Odotettu muoto on: 0239843188"
+=======
+msgstr "Peppol-päätepiste ei kelpaa. Odotettu muoto on: 0239843188"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/res_partner.py:0
 msgid ""
 "The Peppol endpoint is not valid. The expected format is: 73282932000074"
+<<<<<<< HEAD
 msgstr "Peppol-päätepiste ei ole voimassa. Odotettu muoto on: 73282932000074"
+=======
+msgstr "Peppol-päätepiste ei kelpaa. Odotettu muoto on: 73282932000074"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #. odoo-python
@@ -24870,20 +25422,32 @@ msgid ""
 "The VAT number of the supplier does not seem to be valid. It should be of "
 "the form: NO179728982MVA."
 msgstr ""
+<<<<<<< HEAD
 "Toimittajan ALV-numero ei näytä olevan voimassa. Sen pitäisi olla "
 "seuraavanlainen: NO179728982MVA."
+=======
+"Toimittajan ALV-numero ei kelpaa. Sen pitäisi olla muodossa: NO179728982MVA."
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_xml_ubl_bis3.py:0
 msgid "The VAT of the %s should be prefixed with its country code."
+<<<<<<< HEAD
 msgstr "%s-arvonlisäveron etuliitteeksi on lisättävä sen maakoodi."
+=======
+msgstr "%s:n ALV-etuliitteen pitäisi olla sen maakoodi."
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_xml_ubl_bis3.py:0
 msgid "The country is required for the %s."
+<<<<<<< HEAD
 msgstr "Maa tarvitaan %s."
+=======
+msgstr "%s vaatii maan."
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #. odoo-python
@@ -24895,17 +25459,26 @@ msgstr "Valuutta '%s' ei ole aktiivinen."
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_common.py:0
 msgid "The element %(record)s is required on %(field_list)s."
+<<<<<<< HEAD
 msgstr "Elementti %(record)s tarvitaan elementissä %(field_list)s."
+=======
+msgstr "Elementti %(record)s vaaditaan kohteessa %(field_list)s."
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_common.py:0
 msgid "The field %(field)s is required on %(record)s."
+<<<<<<< HEAD
 msgstr "Kenttä %(field)s vaaditaan kentässä %(record)s."
+=======
+msgstr "Kenttä %(field)s vaaditaan kohteessa %(record)s."
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_xml_cii_facturx.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25421,6 +25994,10 @@ msgid "The field 'Sanitized Account Number' is required on the Recipient Bank."
 msgid "The field 'Sanitized Account Number' is required on the Recipient Bank."
 >>>>>>> upstream/18.0
 msgstr "Kenttä \"Sanitized Account Number\" vaaditaan vastaanottajapankissa."
+=======
+msgid "The field 'Sanitized Account Number' is required on the Recipient Bank."
+msgstr "Kenttä 'Siistitty tilinumero' vaaditaan vastaanottavassa pankissa."
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #. odoo-python
@@ -25434,6 +26011,7 @@ msgstr "Lasku on muutettu hyvityslaskuksi ja määrät on palautettu."
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9952
 msgid "Turkey VAT"
+<<<<<<< HEAD
 msgstr "Turkki ALV"
 
 #. module: account_edi_ubl_cii
@@ -26207,6 +26785,16 @@ msgstr "UAE verotunnistenumero (TIN)"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+msgstr "Turkin ALV"
+
+#. module: account_edi_ubl_cii
+#: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0235
+msgid "UAE Tax Identification Number (TIN)"
+msgstr "Arabiemiirikuntien verotunniste (TIN)"
+
+#. module: account_edi_ubl_cii
+>>>>>>> upstream/18.0
 #: model:ir.model,name:account_edi_ubl_cii.model_account_edi_xml_ubl_20
 msgid "UBL 2.0"
 msgstr "UBL 2.0"
@@ -26219,23 +26807,39 @@ msgstr "UBL 2.1"
 #. module: account_edi_ubl_cii
 #: model:ir.model,name:account_edi_ubl_cii.model_account_edi_xml_ubl_bis3
 msgid "UBL BIS Billing 3.0.12"
+<<<<<<< HEAD
 msgstr "UBL BIS laskutus 3.0.12"
+=======
+msgstr "UBL BIS Billing 3.0.12"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0193
 msgid "UBL.BE party identifier"
+<<<<<<< HEAD
 msgstr "UBL.BE-osapuolen tunniste"
+=======
+msgstr "UBL.BE -osapuolen tunniste"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields,field_description:account_edi_ubl_cii.field_account_bank_statement_line__ubl_cii_xml_file
 #: model:ir.model.fields,field_description:account_edi_ubl_cii.field_account_move__ubl_cii_xml_file
 msgid "UBL/CII File"
+<<<<<<< HEAD
 msgstr "UBL/CII-tiedosto"
+=======
+msgstr "UBL/CII -tiedosto"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9959
 msgid "USA EIN"
+<<<<<<< HEAD
 msgstr "YHDYSVALLAT EIN"
+=======
+msgstr "Yhdysvaltojen EIN"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields,help:account_edi_ubl_cii.field_res_partner__peppol_endpoint
@@ -26245,11 +26849,16 @@ msgid ""
 "known as 'Endpoint ID'."
 msgstr ""
 "BIS Billing 3.0:n ja sen johdannaisten käyttämä yksilöllinen tunniste, joka "
+<<<<<<< HEAD
 "tunnetaan myös nimellä \"Endpoint ID\"."
+=======
+"tunnetaan myös nimellä 'Päätepisteen tunnus'."
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9932
 msgid "United Kingdom VAT"
+<<<<<<< HEAD
 msgstr "Britannian ALV"
 
 #. module: account_edi_ubl_cii
@@ -26508,6 +27117,17 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+msgstr "Yhdistyneen kuningaskunnan ALV"
+
+#. module: account_edi_ubl_cii
+#. odoo-python
+#: code:addons/account_edi_ubl_cii/wizard/account_move_send_wizard.py:0
+msgid "Unspported file type via %s"
+msgstr "Tiedostotyyppi ei ole tuettu %s kautta"
+
+#. module: account_edi_ubl_cii
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9953
 msgid "Vatican VAT"
 msgstr "Vatikaanin ALV"
@@ -26516,7 +27136,11 @@ msgstr "Vatikaanin ALV"
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_move_send.py:0
 msgid "View Partner(s)"
+<<<<<<< HEAD
 msgstr "Näytä kumppanit"
+=======
+msgstr "Näytä kumppani(t)"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #. odoo-python
@@ -26529,6 +27153,7 @@ msgstr ""
 "laskurivin verokannan on oltava suurempi kuin 0."
 
 #. module: account_edi_ubl_cii
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -27505,12 +28130,20 @@ msgstr "X.400 -osoite viestin tekstille"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__aq
+msgid "X.400 address for mail text"
+msgstr "X.400 -osoite postin tekstille"
+
+#. module: account_edi_ubl_cii
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_move.py:0
 msgid "XML UBL"
 msgstr "XML UBL"
 
 #. module: account_edi_ubl_cii
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -27900,10 +28533,13 @@ msgstr "XRechnung CIUS"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_xml_cii_facturx.py:0
 msgid ""
 "You should include at least one tax per invoice line. [BR-CO-04]-Each "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28293,12 +28929,15 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Invoice line (BG-25) shall be categorized with an Invoiced item VAT category "
 "code (BT-151)."
 msgstr ""
 "Jokaiseen laskuriviin on sisällytettävä vähintään yksi vero. [BR-CO-04]-"
 "Kullakin laskurivillä (BG-25) on oltava laskutettavan erän ALV-luokkakoodi "
 "(BT-151)."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28686,12 +29325,18 @@ msgstr "Päätepisteesi"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields,field_description:account_edi_ubl_cii.field_res_partner__invoice_edi_format
 #: model:ir.model.fields,field_description:account_edi_ubl_cii.field_res_users__invoice_edi_format
 msgid "eInvoice format"
+<<<<<<< HEAD
 msgstr "sähköisen laskun muoto"
+=======
+msgstr "Sähköisen laskun muoto"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model_terms:ir.ui.view,arch_db:account_edi_ubl_cii.account_invoice_pdfa_3_facturx_metadata
@@ -28835,6 +29480,7 @@ msgstr "urn:factur-x:pdfa:CrossIndustryDocument:invoice:1p0#"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -29112,6 +29758,8 @@ msgstr "urn:factur-x:pdfa:CrossIndustryDocument:invoice:1p0#"
 #~ msgstr "Australian BIS laskutus 3.0 A-NZ"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -29241,6 +29889,9 @@ msgstr "urn:factur-x:pdfa:CrossIndustryDocument:invoice:1p0#"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -29469,6 +30120,9 @@ msgstr "urn:factur-x:pdfa:CrossIndustryDocument:invoice:1p0#"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

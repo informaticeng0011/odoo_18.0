@@ -128,6 +128,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* account_peppol
 # 
 # Translators:
@@ -786,6 +787,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * account_peppol
 #
 # Translators:
@@ -793,6 +796,7 @@
 # Wil Odoo, 2025
 # Sarah Park, 2025
 #
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1190,10 +1194,15 @@
 =======
 # "Kwanghee Park (kwpa)" <kwpa@odoo.com>, 2025, 2026.
 >>>>>>> upstream/18.0
+=======
+# "Kwanghee Park (kwpa)" <kwpa@odoo.com>, 2025, 2026.
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2235,6 +2244,11 @@ msgstr ""
 "PO-Revision-Date: 2026-01-02 07:55+0000\n"
 >>>>>>> upstream/18.0
 "Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@odoo.com>\n"
+=======
+"POT-Creation-Date: 2026-01-15 18:38+0000\n"
+"PO-Revision-Date: 2026-01-17 12:47+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Korean <https://translate.odoo.com/projects/odoo-18/"
 "account_peppol/ko/>\n"
 "Language: ko\n"
@@ -2242,6 +2256,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2660,6 +2675,9 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
@@ -2701,6 +2719,7 @@ msgstr "%s가 Peppol에서 전자 청구서 수신을 요청하였습니다."
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid ""
 "<br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3425,6 +3444,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                In Belgium, electronic invoicing is "
 "<u>mandatory as of January 2026</u> - don't wait to register."
 msgstr ""
@@ -3556,6 +3577,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3937,6 +3961,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"mx-1\" invisible=\"'demo_' not in peppol_message_uuid\"> (Demo)</span>\n"
 "                    <span class=\"text-muted mx-3\" invisible=\"peppol_move_state != 'to_send'\">\n"
 "                        The invoice will be sent automatically via Peppol\n"
@@ -3945,6 +3970,8 @@ msgstr ""
 "<span class=\"mx-1\" invisible=\"'demo_' not in peppol_message_uuid\"> (데모)</span>\n"
 "                    <span class=\"text-muted mx-3\" invisible=\"peppol_move_state != 'to_send'\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4331,6 +4358,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4589,6 +4619,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5180,6 +5211,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "A participant with these details has already been registered on the network. "
 "If you have previously registered to a Peppol service, please deregister."
 msgstr ""
@@ -5310,6 +5343,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5589,6 +5625,15 @@ msgid "Account Move Send Wizard"
 msgstr "계정 이동 전송 마법사"
 
 #. module: account_peppol
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:account_peppol.field_res_company__account_peppol_edi_user
+#: model:ir.model.fields,field_description:account_peppol.field_res_config_settings__account_peppol_edi_user
+msgid "Account Peppol Edi User"
+msgstr "계정 Peppol Edi 사용자"
+
+#. module: account_peppol
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account_peppol.field_account_journal__is_peppol_journal
 msgid "Account used for Peppol"
 msgstr "Peppol에 사용되는 계정입니다."
@@ -5660,6 +5705,7 @@ msgstr "사용 가능한 Peppol 전송 방법"
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
 msgid ""
 "By clicking the button below I accept that Odoo may process my e-invoices."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6417,6 +6463,11 @@ msgstr ""
 "아래 버튼을 클릭하면 Odoo에서 내 전자 청구서를 처리하게 된다는 사실에 동의합"
 "니다."
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"아래 버튼을 클릭하면 Odoo에서 내 전자 청구서를 처리하게 된다는 사실에 동의합"
+"니다."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_company__account_peppol_proxy_state__receiver
@@ -6450,6 +6501,7 @@ msgid "Cannot cancel an entry that has already been sent to PEPPOL"
 msgstr "이미 PEPPOL로 전송된 항목은 취소할 수 없습니다."
 
 #. module: account_peppol
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6581,6 +6633,8 @@ msgstr "이 형식을 수신할 수 없습니다."
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
@@ -6597,6 +6651,7 @@ msgstr "협력사 확인"
 #: model:ir.model.fields,help:account_peppol.field_peppol_registration__peppol_eas
 #: model:ir.model.fields,help:account_peppol.field_res_company__peppol_eas
 #: model:ir.model.fields,help:account_peppol.field_res_config_settings__account_peppol_eas
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6990,6 +7045,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:account_peppol.field_res_partner__peppol_eas
 #: model:ir.model.fields,help:account_peppol.field_res_users__peppol_eas
 msgid ""
@@ -7125,6 +7182,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7388,6 +7448,14 @@ msgid "Company"
 msgstr "회사"
 
 #. module: account_peppol
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__parent_company_name
+msgid "Company Name"
+msgstr "회사명"
+
+#. module: account_peppol
+>>>>>>> upstream/18.0
 #: model:ir.model,name:account_peppol.model_res_config_settings
 msgid "Config Settings"
 msgstr "환경 설정"
@@ -7465,11 +7533,34 @@ msgstr "데모"
 
 #. module: account_peppol
 #. odoo-javascript
+<<<<<<< HEAD
+=======
+#: code:addons/account_peppol/static/src/components/res_config_settings_buttons/res_config_settings_buttons.xml:0
+msgid "Disable the reception."
+msgstr "입고 기능을 비활성화합니다."
+
+#. module: account_peppol
+#. odoo-javascript
+>>>>>>> upstream/18.0
 #: code:addons/account_peppol/static/src/components/res_config_settings_buttons/res_config_settings_buttons.js:0
 msgid "Discard"
 msgstr "취소"
 
 #. module: account_peppol
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
+msgid "Disconnect"
+msgstr "연결 해제"
+
+#. module: account_peppol
+#. odoo-python
+#: code:addons/account_peppol/models/res_config_settings.py:0
+msgid "Disconnected this branch company peppol configuration from %s."
+msgstr ""
+
+#. module: account_peppol
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account_peppol.field_account_peppol_service__display_name
 #: model:ir.model.fields,field_description:account_peppol.field_account_peppol_service_wizard__display_name
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__display_name
@@ -7510,7 +7601,10 @@ msgstr "EDI 실행 모드"
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_account_peppol_service_wizard__edi_user_id
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__edi_user_id
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:account_peppol.field_res_config_settings__account_peppol_edi_user
+=======
+>>>>>>> upstream/18.0
 msgid "EDI user"
 msgstr "EDI 사용자"
 
@@ -7740,7 +7834,10 @@ msgstr "오류"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8326,6 +8423,9 @@ msgstr "EDI 문서 생성 중 오류 발생 (형식: %s):"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8797,11 +8897,14 @@ msgstr "알겠습니다!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
 msgid "I want to migrate my existing Peppol connection to Odoo (optional):"
 msgstr "기존 Peppol 연결을 Odoo로 마이그레이션합니다 (선택 사항):"
 
 #. module: account_peppol
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8929,6 +9032,7 @@ msgstr "체크하지 않으면 청구서를 보낼 수만 있고 받을 수는 �
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/controllers/portal.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9498,6 +9602,8 @@ msgstr "벨기에에서는 <u>2026년 1월부터 전자 청구서</u>가 의무�
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid "If you want to be invoiced by Peppol, your configuration must be valid."
 msgstr "Peppol 청구서를 받으려면 설정이 유효한지 확인하세요."
 
@@ -9627,6 +9733,9 @@ msgstr "Peppol 청구서를 받으려면 설정이 유효한지 확인하세요.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9930,7 +10039,10 @@ msgstr "수신한 청구서 전표"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10060,6 +10172,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10241,11 +10356,14 @@ msgstr " 휴대폰 번호"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_partner__peppol_verification_state__not_valid
 msgid "Not on Peppol"
 msgstr "Peppol에 등록되지 않음"
 
 #. module: account_peppol
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10377,11 +10495,14 @@ msgstr "등록하지 않음"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_partner__peppol_verification_state__not_verified
 msgid "Not verified yet"
 msgstr "아직 승인되지 않음"
 
 #. module: account_peppol
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10599,7 +10720,10 @@ msgstr "Odoo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10986,6 +11110,9 @@ msgstr "Odoo 데모용 ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11394,9 +11521,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "PEPPOL is the secure standard for e-invoices used in EU and across the "
 "world."
 msgstr "PEPPOL은 EU와 전 세계에서 널리 사용되는 전자 청구서의 안전한 표준입니다."
+=======
+"PEPPOL is the secure standard for e-invoices used in EU and across the world."
+msgstr ""
+"PEPPOL은 EU와 전 세계에서 널리 사용되는 전자 청구서의 안전한 표준입니다."
+>>>>>>> upstream/18.0
 =======
 "PEPPOL is the secure standard for e-invoices used in EU and across the world."
 msgstr ""
@@ -12246,6 +12379,7 @@ msgstr "PEPPOL: 참가자 상태 업데이트"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid ""
 "PS: <b style=\"color: $o-enterprise-action-color;\">We did not send your "
@@ -12658,6 +12792,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__parent_company_id
+msgid "Parent Company"
+msgstr "모회사"
+
+#. module: account_peppol
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_partner__peppol_verification_state__not_valid_format
 msgid "Partner cannot receive format"
 msgstr "파트너가 받을 수 없는 포맷입니다"
@@ -12697,6 +12838,9 @@ msgstr "파트너가 받을 수 없는 포맷입니다"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12814,6 +12958,7 @@ msgstr "파트너에게 유효한 Peppol 환경설정 내역이 없습니다."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -12830,6 +12975,11 @@ msgstr "파트너에게 유효한 Peppol 환경설정 내역이 없습니다."
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_partner__peppol_verification_state__not_valid
 msgid "Partner is not on Peppol"
 msgstr ""
+=======
+#: model:ir.model.fields.selection,name:account_peppol.selection__res_partner__peppol_verification_state__not_valid
+msgid "Partner is not on Peppol"
+msgstr "Peppol에 등록되지 않은 파트너입니다"
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_partner__peppol_verification_state__not_valid
 msgid "Partner is not on Peppol"
@@ -13044,6 +13194,7 @@ msgid "Partner is on Peppol"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: account_peppol
@@ -13241,11 +13392,30 @@ msgstr "Peppol에 등록된 파트너입니다"
 
 #. module: account_peppol
 >>>>>>> upstream/18.0
+=======
+msgstr "Peppol에 등록된 파트너입니다"
+
+#. module: account_peppol
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:account_peppol.selection__account_move__peppol_move_state__processing
 msgid "Pending Reception"
 msgstr "수신 대기 중"
 
 #. module: account_peppol
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/account_peppol/wizard/peppol_registration.py:0
+msgid "Peppol Address should be provided."
+msgstr "Peppol 주소를 입력하세요."
+
+#. module: account_peppol
+#: model:ir.model.fields,field_description:account_peppol.field_res_company__peppol_can_send
+msgid "Peppol Can Send"
+msgstr "Peppol 발송 가능"
+
+#. module: account_peppol
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__peppol_endpoint
 #: model:ir.model.fields,field_description:account_peppol.field_res_company__peppol_endpoint
 #: model:ir.model.fields,field_description:account_peppol.field_res_config_settings__account_peppol_endpoint
@@ -13448,7 +13618,10 @@ msgstr "Peppol Endpoint"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14033,6 +14206,7 @@ msgstr "Peppol ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14419,6 +14593,24 @@ msgstr "Peppol ID"
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+#. odoo-python
+#: code:addons/account_peppol/wizard/peppol_registration.py:0
+msgid "Peppol ID should be different from main company."
+msgstr ""
+
+#. module: account_peppol
+#: model:ir.model.fields,field_description:account_peppol.field_res_company__peppol_parent_company_id
+msgid "Peppol Parent Company"
+msgstr "Peppol 모회사"
+
+#. module: account_peppol
+#: model:ir.model.fields,field_description:account_peppol.field_res_config_settings__peppol_parent_company_name
+msgid "Peppol Parent Company Name"
+msgstr "Peppol 모회사명"
+
+#. module: account_peppol
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account_peppol.account_peppol_view_account_invoice_filter
 msgid "Peppol Ready"
@@ -14446,6 +14638,14 @@ msgid "Peppol Services Wizard"
 msgstr "Peppol 서비스 마법사"
 
 #. module: account_peppol
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:account_peppol.field_res_config_settings__peppol_use_parent_company
+msgid "Peppol Use Parent Company"
+msgstr "Peppol 모회사 사용"
+
+#. module: account_peppol
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
 msgid "Peppol document (UUID: %(uuid)s) has been received successfully"
@@ -14588,6 +14788,11 @@ msgstr "페폴 전자 주소 (EAS)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:account_peppol.field_res_partner__peppol_eas
+#: model:ir.model.fields,field_description:account_peppol.field_res_users__peppol_eas
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:account_peppol.field_res_partner__peppol_eas
 #: model:ir.model.fields,field_description:account_peppol.field_res_users__peppol_eas
@@ -15146,12 +15351,15 @@ msgstr "Peppol 전자 주소 (EAS)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:account_peppol.field_res_partner__peppol_verification_state
 #: model:ir.model.fields,field_description:account_peppol.field_res_users__peppol_verification_state
 msgid "Peppol endpoint verification"
 msgstr "Peppol 엔드포인트 확인"
 
 #. module: account_peppol
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15289,6 +15497,11 @@ msgstr "Peppol 준비 완료된 청구서"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:account_peppol.field_res_partner__peppol_verification_state
+#: model:ir.model.fields,field_description:account_peppol.field_res_users__peppol_verification_state
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:account_peppol.field_res_partner__peppol_verification_state
 #: model:ir.model.fields,field_description:account_peppol.field_res_users__peppol_verification_state
@@ -15645,9 +15858,12 @@ msgstr "기본 연락처 이메일"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Primary contact email for Peppol-related communication"
 msgstr "Peppol 관련 연락을 위한 기본 이메일"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16029,8 +16245,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"Peppol 연결 관련 커뮤니케이션 및 안내용 기본 연락처 이메일입니다.\n"
+"특히, 이 이메일은 데이터베이스가 변경될 경우 Odoo에서 Peppol 계정에 재접속할 "
+"때 사용됩니다."
 >>>>>>> upstream/18.0
 =======
 "Peppol 연결 관련 커뮤니케이션 및 안내용 기본 연락처 이메일입니다.\n"
@@ -16674,6 +16896,19 @@ msgid "Register as a receiver"
 msgstr "수신자로 등록"
 
 #. module: account_peppol
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:account_peppol.selection__peppol_registration__use_parent_connection_selection__use_self
+msgid "Register using the current company"
+msgstr ""
+
+#. module: account_peppol
+#: model:ir.model.fields.selection,name:account_peppol.selection__peppol_registration__use_parent_connection_selection__use_parent
+msgid "Register using the parent company by setting the same EAS/Endpoint"
+msgstr ""
+
+#. module: account_peppol
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account_peppol/tools/demo_utils.py:0
 msgid "Registered as a sender (demo)."
@@ -16703,12 +16938,31 @@ msgid "Remove from Peppol"
 msgstr "Peppol에서 제거"
 
 #. module: account_peppol
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/account_peppol/static/src/components/res_config_settings_buttons/res_config_settings_buttons.xml:0
+msgid ""
+"Route your vendor bills elsewhere while maintaining the ability to send "
+"customer invoices."
+msgstr ""
+
+#. module: account_peppol
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account_peppol.field_account_edi_proxy_client_user__peppol_verification_code
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__verification_code
 msgid "SMS verification code"
 msgstr "SMS 인증 코드"
 
 #. module: account_peppol
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__selected_company_id
+msgid "Selected Company"
+msgstr "선택한 회사"
+
+#. module: account_peppol
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/res_config_settings_buttons/res_config_settings_buttons.xml:0
 msgid "Send again"
@@ -16716,8 +16970,13 @@ msgstr "다시 보내기"
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
+<<<<<<< HEAD
 msgid "Send electronic invoices, and receive bills automatically via Peppol"
 msgstr "전자 청구서를 보내고 Peppol을 통해 자동으로 청구서를 받습니다."
+=======
+msgid "Send electronic invoices, and receive bills automatically via Peppol."
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_account_peppol_service_wizard__service_ids
@@ -16740,6 +16999,7 @@ msgid "Skipped"
 msgstr "건너뛰기"
 
 #. module: account_peppol
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16952,6 +17212,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account_peppol/models/account_move_send.py:0
 msgid "Some attachments could not be sent with the XML:"
@@ -16971,6 +17233,9 @@ msgstr "일부 첨부 파일은 XML과 함께 전송할 수 없습니다:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17007,6 +17272,7 @@ msgstr "테스트"
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
 msgid ""
 "Test mode allows sending e-invoices through the test Peppol network.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17388,6 +17654,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                    By clicking the button below I accept "
 "that Odoo may process my e-invoices."
 msgstr ""
@@ -17519,6 +17787,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17826,6 +18097,7 @@ msgstr "Peppol 엔드포인트 식별 번호가 올바르지 않습니다."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-python
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17943,6 +18215,8 @@ msgid "The document has been sent to the Peppol Access Point for processing"
 msgstr "문서 처리를 위해 Peppol 액세스 포인트로 전송되었습니다."
 
 #. module: account_peppol
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18164,7 +18438,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "엔드포인트 번호가 올바르지 않을 수 있습니다. 올바른 식별 번호를 입력했는지 확인하세요."
+=======
+msgstr ""
+"엔드포인트 번호가 올바르지 않을 수 있습니다. 올바른 식별 번호를 입력했는지 확"
+"인하세요."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "엔드포인트 번호가 올바르지 않을 수 있습니다. 올바른 식별 번호를 입력했는지 확"
@@ -18929,6 +19209,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "다음 서비스는 참가자에 등록되어 있지만 여기에서 구성할 수 없습니다. 이러한 서비스의 구성을 조정하려면 지원팀에 문의하세요."
 =======
 msgstr ""
@@ -19433,6 +19714,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr ""
 "다음 서비스는 참가자에 등록되어 있지만 여기에서 구성할 수 없습니다. 이러한 서"
 "비스의 구성을 조정하려면 지원팀에 문의하세요."
@@ -19457,6 +19740,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19596,6 +19880,19 @@ msgstr "청구서가 Peppol 액세스 포인트로 전송되었습니다. 다음
 msgstr "청구서가 Peppol 액세스 포인트로 전송되었습니다. 다음의 첨부 파일이 XML과 함께"
 " 전송되었습니다:"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"청구서가 Peppol 액세스 포인트로 전송되었습니다. 다음의 첨부 파일이 XML과 함"
+"께 전송되었습니다:"
+
+#. module: account_peppol
+#. odoo-python
+#: code:addons/account_peppol/models/account_move_send.py:0
+msgid ""
+"The partner has indicated it does not accept this document type, so you "
+"cannot send this invoice via Peppol."
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
@@ -19612,6 +19909,7 @@ msgid ""
 msgstr "데모에서 라이브로 전환할 때 문서의 peppol 상태가 초기화되었습니다."
 
 #. module: account_peppol
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19910,6 +20208,8 @@ msgstr "벨기에에서 식별용으로 권장되는 방식은 회사 등록 번
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:account_peppol.field_res_config_settings__account_peppol_edi_identification
 msgid "The unique id that identifies this user, typically the vat"
 msgstr "이 사용자를 식별하는 고유 ID로, 보통 VAT"
@@ -19921,6 +20221,7 @@ msgid "The verification code is not correct"
 msgstr "일치하지 않는 인증 코드입니다."
 
 #. module: account_peppol
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/account_peppol/models/res_config_settings.py:0
 msgid ""
@@ -20635,6 +20936,16 @@ msgstr "더 이상 지원되지 않는 기능입니다. 마이그레이션 키�
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
+msgid "This branch company will use the active Peppol connection found on"
+msgstr ""
+
+#. module: account_peppol
+#. odoo-python
+#: code:addons/account_peppol/models/res_config_settings.py:0
+msgid ""
+>>>>>>> upstream/18.0
 "This feature is deprecated. Contact Odoo support if you need a migration key."
 msgstr ""
 "더 이상 지원되지 않는 기능입니다. 마이그레이션 키가 필요한 경우 Odoo 지원팀"
@@ -20766,6 +21077,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21195,6 +21509,7 @@ msgstr "또한 이 청구서는"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21291,6 +21606,8 @@ msgstr "또한 이 청구서는"
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21669,12 +21986,18 @@ msgid "This number is used for identification purposes only."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: account_peppol
 <<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "이 번호는 신원 확인 목적으로만 사용됩니다."
+
+#. module: account_peppol
 >>>>>>> upstream/18.0
 =======
 msgstr "이 번호는 신원 확인 목적으로만 사용됩니다."
@@ -22432,7 +22755,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "전자 청구서를 생성하려면 해당 협력사의 국가와 은행 계좌도 설정해야 합니다."
+=======
+msgstr ""
+"전자 청구서를 생성하려면 해당 협력사의 국가와 은행 계좌도 설정해야 합니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "전자 청구서를 생성하려면 해당 협력사의 국가와 은행 계좌도 설정해야 합니다."
@@ -22987,6 +23315,7 @@ msgstr "SMS 코드 요청 시도 횟수가 너무 많습니다. 나중에 다시
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -23025,6 +23354,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23132,6 +23463,9 @@ msgstr "확인되지 않음"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23207,6 +23541,7 @@ msgstr "확인되지 않음"
 msgid ""
 "Unique identifier used by the BIS Billing 3.0 and its derivatives, also "
 "known as 'Endpoint ID'."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23964,6 +24299,11 @@ msgstr ""
 "BIS Billing 3.0 및 관련 변수에서 사용하는 고유 식별 기호로 '엔드 포인트 ID' "
 "라고도 합니다."
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"BIS Billing 3.0 및 관련 변수에서 사용하는 고유 식별 기호로 '엔드 포인트 ID' "
+"라고도 합니다."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-javascript
@@ -23972,10 +24312,24 @@ msgid "Update"
 msgstr "업데이트"
 
 #. module: account_peppol
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__use_parent_connection
+msgid "Use Parent Connection"
+msgstr "상위 연결 사용"
+
+#. module: account_peppol
+#: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__use_parent_connection_selection
+msgid "Use Parent Connection Selection"
+msgstr "상위 연결 선택 후 사용"
+
+#. module: account_peppol
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:account_peppol.field_peppol_registration__edi_mode_constraint
 msgid ""
 "Using the config params, this field specifies which edi modes may be "
 "selected from the UI"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24738,6 +25092,11 @@ msgstr ""
 "환경 설정 매개변수를 통하여, 이 필드에서는 UI에서 선택할 수 있는 EDI 모드를 "
 "지정합니다."
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"환경 설정 매개변수를 통하여, 이 필드에서는 UI에서 선택할 수 있는 EDI 모드를 "
+"지정합니다."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_partner_form_account_peppol
@@ -24766,6 +25125,7 @@ msgstr "협력사 보기"
 msgid ""
 "We could not find a user with this information on our server. Please check "
 "your information."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25523,6 +25883,11 @@ msgstr ""
 "입력한 정보와 일치하는 사용자를 서버에서 찾을 수 없습니다. 정보를 다시 확인하"
 "세요."
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"입력한 정보와 일치하는 사용자를 서버에서 찾을 수 없습니다. 정보를 다시 확인하"
+"세요."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-javascript
@@ -25584,7 +25949,10 @@ msgstr "마법사"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25661,6 +26029,7 @@ msgid ""
 msgstr ""
 
 #. module: account_peppol
+<<<<<<< HEAD
 #. odoo-python
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25764,6 +26133,14 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
+msgid "You are sending from"
+msgstr "선택한 발신처:"
+
+#. module: account_peppol
+#. odoo-python
 >>>>>>> upstream/18.0
 #: code:addons/account_peppol/tools/demo_utils.py:0
 msgid "You can now receive demo vendor bills."
@@ -25796,6 +26173,7 @@ msgstr "이 청구서는 Peppol을 통해 전자 형식으로 보낼 수 있습�
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26175,6 +26553,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "You registration has been rejected, the reason has been sent to you via "
 "email.\n"
 "                            Please contact our support if you need further "
@@ -26304,6 +26684,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26691,6 +27074,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "더 이상 Odoo에서 Peppol 문서를 보내거나 받을 수 없습니다. 계속 진행하시겠습니까?"
 
 #. module: account_peppol
@@ -26699,6 +27083,11 @@ msgstr "더 이상 Odoo에서 Peppol 문서를 보내거나 받을 수 없습니
 #: model:ir.model.fields,help:account_peppol.field_res_config_settings__account_peppol_phone_number
 msgid "You will receive a verification code to this mobile number"
 msgstr "이 휴대폰 번호로 인증 코드가 전송됩니다."
+=======
+msgstr ""
+"더 이상 Odoo에서 Peppol 문서를 보내거나 받을 수 없습니다. 계속 진행하시겠습니"
+"까?"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "더 이상 Odoo에서 Peppol 문서를 보내거나 받을 수 없습니다. 계속 진행하시겠습니"
@@ -27467,7 +27856,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Peppol 등록이 곧 활성화됩니다. 청구서 전송 기능은 이미 사용이 가능합니다."
+=======
+msgstr ""
+"Peppol 등록이 곧 활성화됩니다. 청구서 전송 기능은 이미 사용이 가능합니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Peppol 등록이 곧 활성화됩니다. 청구서 전송 기능은 이미 사용이 가능합니다."
@@ -27979,6 +28373,7 @@ msgstr ""
 msgid ""
 "Your company is already registered on another Access Point for receiving "
 "invoices.We will register you as a sender only."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28741,6 +29136,11 @@ msgstr ""
 "회사가 이미 청구서를 수신하기 위해 다른 액세스 포인트에 등록되어 있습니다. 발"
 "신자로만 등록하겠습니다."
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"회사가 이미 청구서를 수신하기 위해 다른 액세스 포인트에 등록되어 있습니다. 발"
+"신자로만 등록하겠습니다."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
@@ -28753,6 +29153,7 @@ msgstr "마이그레이션 키입니다:"
 msgid ""
 "Your registration on Peppol network should be activated within a day. The "
 "updated status will be visible in Settings."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -29510,6 +29911,11 @@ msgstr ""
 "Peppol 네트워크 등록은 하루 이내에 활성화됩니다. 업데이트된 상태는 설정 섹션"
 "에서 확인할 수 있습니다."
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"Peppol 네트워크 등록은 하루 이내에 활성화됩니다. 업데이트된 상태는 설정 섹션"
+"에서 확인할 수 있습니다."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
@@ -29517,6 +29923,14 @@ msgid "Your registration should be activated within a day."
 msgstr "등록하신 내용이 하루 내에 활성화될 것입니다."
 
 #. module: account_peppol
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
+msgid "and send invoices via Peppol on their behalf."
+msgstr ""
+
+#. module: account_peppol
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account_peppol/controllers/portal.py:0
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_partner__invoice_sending_method__peppol
@@ -29524,6 +29938,7 @@ msgid "by Peppol"
 msgstr "by Peppol"
 
 #. module: account_peppol
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -29745,6 +30160,11 @@ msgstr "청구서 및 대변 전표."
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid "could not be sent via Peppol"
 msgstr ""
+=======
+#: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
+msgid "could not be sent via Peppol"
+msgstr "Peppol을 통해 전송 불가"
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid "could not be sent via Peppol"
@@ -30789,7 +31209,11 @@ msgid "sent via Peppol"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PEPPOL을 통해 전송"
+>>>>>>> upstream/18.0
 =======
 msgstr "PEPPOL을 통해 전송"
 >>>>>>> upstream/18.0
@@ -31505,7 +31929,11 @@ msgid "to send invoices, but this one"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "청구서 전송, 다만 이 건은"
+>>>>>>> upstream/18.0
 =======
 msgstr "청구서 전송, 다만 이 건은"
 >>>>>>> upstream/18.0
@@ -32206,6 +32634,7 @@ msgid "uses"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32702,6 +33131,12 @@ msgstr "사용"
 =======
 >>>>>>> upstream/18.0
 msgstr "사용"
+=======
+msgstr "사용"
+
+#~ msgid "Send electronic invoices, and receive bills automatically via Peppol"
+#~ msgstr "전자 청구서를 보내고 Peppol을 통해 자동으로 청구서를 받습니다."
+>>>>>>> upstream/18.0
 
 #~ msgid "Cannot receive this format"
 #~ msgstr "이 형식을 수신할 수 없습니다."
@@ -32761,6 +33196,9 @@ msgstr "사용"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -32908,6 +33346,9 @@ msgstr "사용"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -33121,6 +33562,9 @@ msgstr "사용"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -33444,6 +33888,9 @@ msgstr "사용"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

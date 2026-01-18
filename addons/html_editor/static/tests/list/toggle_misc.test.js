@@ -33,7 +33,11 @@ describe("Mixed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should turn an ordered list into an unordered list", async () => {
+=======
+    test("should turn an ordered list into an unordered list (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should turn an ordered list into an unordered list (1)", async () => {
 >>>>>>> upstream/18.0
@@ -243,6 +247,7 @@ describe("Mixed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -417,6 +422,11 @@ describe("Mixed", () => {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+    });
+
+    test("should turn an ordered list into an unordered list (2)", async () => {
 >>>>>>> upstream/18.0
 =======
     });
@@ -568,6 +578,7 @@ describe("Mixed", () => {
             stepFunction: toggleUnorderedList,
             contentAfter: '<ul><li><a href="http://test.com">[test]</a></li></ul>',
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1007,6 +1018,11 @@ describe("Mixed", () => {
 
     test("should turn an unordered list into an ordered list (1)", async () => {
 >>>>>>> upstream/18.0
+=======
+    });
+
+    test("should turn an unordered list into an ordered list (1)", async () => {
+>>>>>>> upstream/18.0
         await testEditor({
             contentBefore: "<ul><li>a[b]c</li></ul>",
             stepFunction: toggleOrderedList,
@@ -1129,6 +1145,7 @@ describe("Mixed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1303,6 +1320,11 @@ describe("Mixed", () => {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+    });
+
+    test("should turn an unordered list into an ordered list (2)", async () => {
 >>>>>>> upstream/18.0
 =======
     });
@@ -1570,6 +1592,9 @@ describe("Mixed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2186,7 +2211,11 @@ describe("Mixed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should turn an unordered list into a checklist", async () => {
+=======
+    test("should turn an unordered list into a checklist (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should turn an unordered list into a checklist (1)", async () => {
 >>>>>>> upstream/18.0
@@ -2396,6 +2425,7 @@ describe("Mixed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -2570,6 +2600,11 @@ describe("Mixed", () => {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+    });
+
+    test("should turn an unordered list into a checklist (2)", async () => {
 >>>>>>> upstream/18.0
 =======
     });
@@ -2838,6 +2873,9 @@ describe("Mixed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

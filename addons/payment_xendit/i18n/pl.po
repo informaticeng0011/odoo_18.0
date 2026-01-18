@@ -56,8 +56,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* payment_xendit
 # 
+=======
+# * payment_xendit
+#
+>>>>>>> upstream/18.0
 =======
 # * payment_xendit
 #
@@ -342,6 +347,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
@@ -511,10 +517,15 @@
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# "Marta (wacm)" <wacm@odoo.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -707,12 +718,18 @@ msgstr ""
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-21 02:32+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+"PO-Revision-Date: 2026-01-17 09:06+0000\n"
+"Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Polish <https://translate.odoo.com/projects/odoo-18/"
 "payment_xendit/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -926,6 +943,12 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
+"(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || "
+"(n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: payment_xendit
 #. odoo-python
@@ -934,21 +957,38 @@ msgid ""
 "An error occurred during the processing of your payment (%s). Please try "
 "again."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Wystąpił błąd podczas przetwarzania płatności (%s). Proszę spróbować "
+"ponownie."
+>>>>>>> upstream/18.0
 
 #. module: payment_xendit
 #: model_terms:ir.ui.view,arch_db:payment_xendit.inline_form
 msgid "Card Code"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kod karty"
+>>>>>>> upstream/18.0
 
 #. module: payment_xendit
 #: model_terms:ir.ui.view,arch_db:payment_xendit.inline_form
 msgid "Card Holder First Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Imię posiadacza karty"
+>>>>>>> upstream/18.0
 
 #. module: payment_xendit
 #: model_terms:ir.ui.view,arch_db:payment_xendit.inline_form
 msgid "Card Holder Last Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nazwisko posiadacza karty"
+>>>>>>> upstream/18.0
 
 #. module: payment_xendit
 #: model_terms:ir.ui.view,arch_db:payment_xendit.inline_form
@@ -974,19 +1014,31 @@ msgstr "E-mail"
 #. module: payment_xendit
 #: model_terms:ir.ui.view,arch_db:payment_xendit.inline_form
 msgid "Expiration"
+<<<<<<< HEAD
 msgstr "Wygaśnięcie"
+=======
+msgstr "Koniec ważności"
+>>>>>>> upstream/18.0
 
 #. module: payment_xendit
 #. odoo-javascript
 #: code:addons/payment_xendit/static/src/js/payment_form.js:0
 msgid "Invalid CVN"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nieprawidłowy kod CVN"
+>>>>>>> upstream/18.0
 
 #. module: payment_xendit
 #. odoo-javascript
 #: code:addons/payment_xendit/static/src/js/payment_form.js:0
 msgid "Invalid Card Number"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nieprawidłowy numer karty"
+>>>>>>> upstream/18.0
 
 #. module: payment_xendit
 #. odoo-javascript
@@ -1048,7 +1100,11 @@ msgid "Invalid Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nieprawidłowa data"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nieprawidłowa data"
 >>>>>>> upstream/18.0
@@ -1237,12 +1293,20 @@ msgstr "Nie znaleziono transakcji pasującej do referencji %s."
 #. module: payment_xendit
 #: model:ir.model,name:payment_xendit.model_payment_provider
 msgid "Payment Provider"
+<<<<<<< HEAD
 msgstr "Dostawca Płatności"
+=======
+msgstr "Operator płatności"
+>>>>>>> upstream/18.0
 
 #. module: payment_xendit
 #: model:ir.model,name:payment_xendit.model_payment_transaction
 msgid "Payment Transaction"
+<<<<<<< HEAD
 msgstr "Transakcja płatności"
+=======
+msgstr "Transakcja płatnicza"
+>>>>>>> upstream/18.0
 
 #. module: payment_xendit
 #. odoo-javascript
@@ -1253,7 +1317,11 @@ msgstr "Przetwarzanie płatności nie powiodło się"
 #. module: payment_xendit
 #: model_terms:ir.ui.view,arch_db:payment_xendit.inline_form
 msgid "Phone Number"
+<<<<<<< HEAD
 msgstr "Numer Telefonu"
+=======
+msgstr "Numer telefonu"
+>>>>>>> upstream/18.0
 
 #. module: payment_xendit
 #: model_terms:ir.ui.view,arch_db:payment_xendit.payment_provider_form_xendit
@@ -1264,7 +1332,11 @@ msgstr "Klucz publiczny"
 #. odoo-python
 #: code:addons/payment_xendit/models/payment_transaction.py:0
 msgid "Received data with missing reference."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otrzymano dane z bez referencji."
+>>>>>>> upstream/18.0
 
 #. module: payment_xendit
 #: model_terms:ir.ui.view,arch_db:payment_xendit.payment_provider_form_xendit
@@ -1283,6 +1355,11 @@ msgid ""
 "The communication with the API failed. Xendit gave us the following "
 "information: '%s'"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Komunikacja z API nie powiodła się. Xendit zwrócił nam następujące "
+"informacje: \"%s\""
+>>>>>>> upstream/18.0
 
 #. module: payment_xendit
 #: model:ir.model.fields,help:payment_xendit.field_payment_provider__code
@@ -1298,7 +1375,11 @@ msgstr "Transakcja nie jest powiązana z tokenem."
 #. module: payment_xendit
 #: model_terms:ir.ui.view,arch_db:payment_xendit.payment_provider_form_xendit
 msgid "Webhook Token"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Token webhooka"
+>>>>>>> upstream/18.0
 
 #. module: payment_xendit
 #: model:ir.model.fields.selection,name:payment_xendit.selection__payment_provider__code__xendit
@@ -1308,7 +1389,11 @@ msgstr "Xendit"
 #. module: payment_xendit
 #: model:ir.model.fields,field_description:payment_xendit.field_payment_provider__xendit_public_key
 msgid "Xendit Public Key"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Klucz publiczny Xendit"
+>>>>>>> upstream/18.0
 
 #. module: payment_xendit
 #: model:ir.model.fields,field_description:payment_xendit.field_payment_provider__xendit_secret_key
@@ -1369,7 +1454,11 @@ msgid "Xendit Secret Key"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tajny klucz Xendit"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tajny klucz Xendit"
 >>>>>>> upstream/18.0
@@ -1542,7 +1631,11 @@ msgstr "Tajny klucz Xendit"
 #. module: payment_xendit
 #: model:ir.model.fields,field_description:payment_xendit.field_payment_provider__xendit_webhook_token
 msgid "Xendit Webhook Token"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Token Webhooka Xendit"
+>>>>>>> upstream/18.0
 
 #. module: payment_xendit
 #: model_terms:ir.ui.view,arch_db:payment_xendit.inline_form
@@ -1552,4 +1645,8 @@ msgstr "RRRR"
 #. module: payment_xendit
 #: model_terms:ir.ui.view,arch_db:payment_xendit.inline_form
 msgid "john.smith@example.com"
+<<<<<<< HEAD
 msgstr "john.smith@example.com"
+=======
+msgstr "jan.kowalski@naprzyklad.com"
+>>>>>>> upstream/18.0

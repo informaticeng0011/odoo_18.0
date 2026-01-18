@@ -120,6 +120,7 @@ from odoo.exceptions import ValidationError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 TAX_KIND_SELECTION = [
     ('vat', 'VAT tax'),
     ('withholding', 'Withholding tax'),
@@ -198,6 +199,8 @@ TAX_KIND_SELECTION = [
 =======
 >>>>>>> upstream/18.0
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -550,11 +553,14 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _l10n_it_get_tax_kind(self):
         return ((self.l10n_it_withholding_type and 'withholding')
                 or (self.l10n_it_pension_fund_type and 'pension_fund')
                 or super()._l10n_it_get_tax_kind())
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -870,7 +876,10 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1115,6 +1124,9 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1398,6 +1410,7 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1470,6 +1483,8 @@ class AccountTax(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1713,6 +1728,9 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1992,7 +2010,11 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if tax.l10n_it_withholding_type and tax.l10n_it_withholding_type != 'RT04' and tax.amount >= 0:
+=======
+            if tax.l10n_it_withholding_type and tax.amount >= 0:
+>>>>>>> upstream/18.0
 =======
             if tax.l10n_it_withholding_type and tax.amount >= 0:
 >>>>>>> upstream/18.0
@@ -2462,6 +2484,7 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (tax.l10n_it_withholding_type or tax.l10n_it_withholding_reason) and tax.l10n_it_pension_fund_type:
                 raise ValidationError(_("Tax '%s' cannot be both a Withholding tax and a Pension fund tax. Please create two separate ones.", tax.name))
 =======
@@ -2537,6 +2560,8 @@ class AccountTax(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2778,6 +2803,9 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

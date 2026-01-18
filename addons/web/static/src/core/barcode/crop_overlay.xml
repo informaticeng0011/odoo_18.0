@@ -11,7 +11,11 @@
             <t t-if="props.isReady">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <div class="o_crop_overlay"/>
+=======
+                <div class="o_crop_overlay" t-att-class="{'o_crop_overlay_ios': isIOS}"/>
+>>>>>>> upstream/18.0
 =======
                 <div class="o_crop_overlay" t-att-class="{'o_crop_overlay_ios': isIOS}"/>
 >>>>>>> upstream/18.0

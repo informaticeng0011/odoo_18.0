@@ -155,6 +155,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <field name="is_nilvera_journal" invisible="1"/>
                     <field name="l10n_tr_nilvera_api_key" invisible="1"/>
 =======
@@ -232,6 +233,10 @@
 =======
                     <field name="is_nilvera_journal" invisible="1"/> <!-- TODO: to be removed in master -->
                     <field name="l10n_tr_nilvera_api_key" invisible="1"/> <!-- TODO: to be removed in master -->
+>>>>>>> upstream/18.0
+=======
+                    <field name="is_nilvera_journal" invisible="1"/>
+                    <field name="l10n_tr_nilvera_api_key" invisible="1"/>
 >>>>>>> upstream/18.0
 =======
                     <field name="is_nilvera_journal" invisible="1"/>
@@ -883,7 +888,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <a type="object" name="l10n_tr_nilvera_get_message_status" groups="account.group_account_invoice">Fetch Nilvera invoice status</a>
+=======
+                                <a type="object" name="l10n_tr_nilvera_get_message_status" groups="account.group_account_invoice">Sync Nilvera Invoices</a>
+>>>>>>> upstream/18.0
 =======
                                 <a type="object" name="l10n_tr_nilvera_get_message_status" groups="account.group_account_invoice">Sync Nilvera Invoices</a>
 >>>>>>> upstream/18.0

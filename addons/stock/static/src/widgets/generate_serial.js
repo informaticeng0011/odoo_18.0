@@ -176,7 +176,11 @@ export class GenerateDialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     this.totalReceived.el.value = this.props.move.data.quantity;
+=======
+                    this.totalReceived.el.value = this.props.move.data.quantity || this.props.move.data.product_uom_qty;
+>>>>>>> upstream/18.0
 =======
                     this.totalReceived.el.value = this.props.move.data.quantity || this.props.move.data.product_uom_qty;
 >>>>>>> upstream/18.0

@@ -127,7 +127,11 @@ import { addBusMessageHandler, busModels } from "@bus/../tests/bus_test_helpers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { after, before, expect, getFixture, registerDebugInfo } from "@odoo/hoot";
+=======
+import { after, before, expect, getFixture, registerDebugInfo, test } from "@odoo/hoot";
+>>>>>>> upstream/18.0
 =======
 import { after, before, expect, getFixture, registerDebugInfo, test } from "@odoo/hoot";
 >>>>>>> upstream/18.0
@@ -715,7 +719,10 @@ import { Base } from "./mock_server/mock_models/base";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { DEFAULT_MAIL_VIEW_ID } from "./mock_server/mock_models/constants";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1295,7 +1302,11 @@ export function onRpcBefore(route, callback) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const handler = registry.category("mock_rpc").get(route);
+=======
+        const handler = registry.category("mail.mock_rpc").get(route);
+>>>>>>> upstream/18.0
 =======
         const handler = registry.category("mail.mock_rpc").get(route);
 >>>>>>> upstream/18.0
@@ -1871,7 +1882,11 @@ export function onRpcAfter(route, callback) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const handler = registry.category("mock_rpc").get(route);
+=======
+    const handler = registry.category("mail.mock_rpc").get(route);
+>>>>>>> upstream/18.0
 =======
     const handler = registry.category("mail.mock_rpc").get(route);
 >>>>>>> upstream/18.0
@@ -2429,7 +2444,10 @@ export function registerArchs(newArchs) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2819,6 +2837,9 @@ export function onlineTest(...args) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3255,7 +3276,11 @@ export async function openFormView(resModel, resId, params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         views: [[getMailViewId(resModel, "form") || false, "form"]],
+=======
+        views: [[false, "form"]],
+>>>>>>> upstream/18.0
 =======
         views: [[false, "form"]],
 >>>>>>> upstream/18.0
@@ -3931,7 +3956,11 @@ export async function openKanbanView(resModel, params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         views: [[getMailViewId(resModel, "kanban"), "kanban"]],
+=======
+        views: [[false, "kanban"]],
+>>>>>>> upstream/18.0
 =======
         views: [[false, "kanban"]],
 >>>>>>> upstream/18.0
@@ -4607,7 +4636,11 @@ export async function openListView(resModel, params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         views: [[getMailViewId(resModel, "list"), "list"]],
+=======
+        views: [[false, "list"]],
+>>>>>>> upstream/18.0
 =======
         views: [[false, "list"]],
 >>>>>>> upstream/18.0
@@ -5294,10 +5327,14 @@ export async function openView({ context, res_model, res_id, views, domain, ...p
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         arch:
             params?.arch ||
             archs[viewId || res_model + `,${getMailViewId(res_model, type) || false},` + type] ||
             undefined,
+=======
+        arch: params?.arch || archs[viewId || res_model + `,false,` + type] || undefined,
+>>>>>>> upstream/18.0
 =======
         arch: params?.arch || archs[viewId || res_model + `,false,` + type] || undefined,
 >>>>>>> upstream/18.0
@@ -5971,6 +6008,7 @@ export async function openView({ context, res_model, res_id, views, domain, ...p
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /** @type {import("@web/../tests/_framework/mock_server/mock_server").MockServerEnvironment} */
 let pyEnv;
 function getMailViewId(res_model, type) {
@@ -5979,6 +6017,8 @@ function getMailViewId(res_model, type) {
         return DEFAULT_MAIL_VIEW_ID;
     }
 }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6494,6 +6534,11 @@ async function addSwitchTabDropdownItem(rootTarget, tabTarget) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+let discussAsTabId = 0;
+
+>>>>>>> upstream/18.0
 =======
 let discussAsTabId = 0;
 
@@ -7177,6 +7222,10 @@ export async function start(options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        discussAsTabId++;
+>>>>>>> upstream/18.0
 =======
         discussAsTabId++;
 >>>>>>> upstream/18.0
@@ -7693,10 +7742,13 @@ export async function start(options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         rootTarget.appendChild(target);
         addSwitchTabDropdownItem(rootTarget, target);
         env = await makeMockEnv({}, { makeNew: true });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8083,6 +8135,9 @@ export async function start(options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8514,8 +8569,12 @@ export async function startServer() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const { env } = await makeMockServer();
     pyEnv = env;
+=======
+    const { env: pyEnv } = await makeMockServer();
+>>>>>>> upstream/18.0
 =======
     const { env: pyEnv } = await makeMockServer();
 >>>>>>> upstream/18.0
@@ -9189,7 +9248,11 @@ export async function startServer() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return env;
+=======
+    return pyEnv;
+>>>>>>> upstream/18.0
 =======
     return pyEnv;
 >>>>>>> upstream/18.0

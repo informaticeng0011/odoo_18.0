@@ -11,6 +11,7 @@ from odoo.exceptions import AccessError
 from odoo.tools import mute_logger
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import tagged
 
 
@@ -18,11 +19,16 @@ class MessageAccessCommon(MailCommon):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 from odoo.tests import HttpCase, tagged
 
 
 class MessageAccessCommon(MailCommon, HttpCase):
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -52,7 +58,10 @@ class MessageAccessCommon(MailCommon, HttpCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         cls.test_subtype_access_internal = cls.env['mail.message.subtype'].create([
@@ -63,6 +72,9 @@ class MessageAccessCommon(MailCommon, HttpCase):
         ])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -189,6 +201,10 @@ class TestMailMessageAccess(MessageAccessCommon):
             (self.record_internal, {}, False, 'W Access on record'),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            (self.record_internal, {'message_type': 'notification'}, False, 'W Access on record, notification does not change anything'),
+>>>>>>> upstream/18.0
 =======
             (self.record_internal, {'message_type': 'notification'}, False, 'W Access on record, notification does not change anything'),
 >>>>>>> upstream/18.0
@@ -208,7 +224,10 @@ class TestMailMessageAccess(MessageAccessCommon):
             with self.subTest(record=record, msg_vals=msg_vals, reason=reason):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 final_vals = dict(
@@ -219,6 +238,9 @@ class TestMailMessageAccess(MessageAccessCommon):
                     }, **msg_vals
                 )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -229,8 +251,12 @@ class TestMailMessageAccess(MessageAccessCommon):
                             'res_id': record.id if record else False,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             'body': 'Test',
                             **msg_vals,
+=======
+                            **final_vals,
+>>>>>>> upstream/18.0
 =======
                             **final_vals,
 >>>>>>> upstream/18.0
@@ -243,8 +269,12 @@ class TestMailMessageAccess(MessageAccessCommon):
                             record.with_user(self.user_employee).message_post(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 body='Test',
                                 subtype_id=self.env.ref('mail.mt_comment').id,
+=======
+                                **final_vals,
+>>>>>>> upstream/18.0
 =======
                                 **final_vals,
 >>>>>>> upstream/18.0
@@ -258,8 +288,12 @@ class TestMailMessageAccess(MessageAccessCommon):
                         'res_id': record.id if record else False,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         'body': 'Test',
                         **msg_vals,
+=======
+                        **final_vals,
+>>>>>>> upstream/18.0
 =======
                         **final_vals,
 >>>>>>> upstream/18.0
@@ -277,9 +311,13 @@ class TestMailMessageAccess(MessageAccessCommon):
                         record.with_user(self.user_employee).message_post(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             body='Test',
                             subtype_id=self.env.ref('mail.mt_comment').id,
                             **msg_vals,
+=======
+                            **final_vals,
+>>>>>>> upstream/18.0
 =======
                             **final_vals,
 >>>>>>> upstream/18.0
@@ -292,6 +330,7 @@ class TestMailMessageAccess(MessageAccessCommon):
         """ Test '_get_mail_message_access' support """
         record = self.env['mail.test.access.custo'].with_user(self.user_employee).create({'name': 'Open'})
         for user in self.user_employee + self.user_portal:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             _message = record.message_post(
@@ -307,6 +346,8 @@ class TestMailMessageAccess(MessageAccessCommon):
                     subtype_id=self.env.ref('mail.mt_comment').id,
                 )
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             with self.subTest(user_name=user.name):
@@ -353,6 +394,9 @@ class TestMailMessageAccess(MessageAccessCommon):
                 )
                 self.assertEqual(len(res['mail.message']), 1)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -412,8 +456,11 @@ class TestMailMessageAccess(MessageAccessCommon):
             (self.record_portal, {'is_internal': True}, True, 'Internal subtype always forbidden'),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             (self.record_portal, {'subtype_id': self.env.ref('mail.mt_note').id}, True, 'Internal flag always forbidden'),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             (self.record_portal, {'is_internal': True, 'message_type': 'notification'}, False, 'Automatic log accepted'),
@@ -421,6 +468,9 @@ class TestMailMessageAccess(MessageAccessCommon):
             (self.record_portal, {'subtype_id': self.test_subtype_access_internal.id}, True, 'Internal flag (custom subtype) always forbidden'),
             (self.record_portal, {'message_type': 'notification', 'subtype_id': self.test_subtype_access_internal.id}, False, 'Automatic log accepted'),
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -435,6 +485,10 @@ class TestMailMessageAccess(MessageAccessCommon):
                             'body': 'Test',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                            'message_type': 'comment',
+>>>>>>> upstream/18.0
 =======
                             'message_type': 'comment',
 >>>>>>> upstream/18.0
@@ -451,6 +505,10 @@ class TestMailMessageAccess(MessageAccessCommon):
                         'body': 'Test',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                        'message_type': 'comment',
+>>>>>>> upstream/18.0
 =======
                         'message_type': 'comment',
 >>>>>>> upstream/18.0
@@ -595,7 +653,10 @@ class TestMailMessageAccess(MessageAccessCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_access_read_customized(self):
@@ -628,6 +689,9 @@ class TestMailMessageAccess(MessageAccessCommon):
         messages_all.with_user(self.user_admin).read(['subject'])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -652,11 +716,14 @@ class TestMailMessageAccess(MessageAccessCommon):
                 'subtype_id': self.env.ref('mail.mt_note').id,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             }, True, 'Note cannot be read by portal users'),
             (self.record_portal.message_ids[0], {
                 'is_internal': True,
             }, True, 'Internal message cannot be read by portal users'),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             }, True, 'Note (comment) cannot be read by portal users'),
@@ -678,6 +745,9 @@ class TestMailMessageAccess(MessageAccessCommon):
                 'message_type': 'user_notification',
             }, True, 'User notifications for other people can never be read by portal users'),
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -687,6 +757,10 @@ class TestMailMessageAccess(MessageAccessCommon):
                 'is_internal': False,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'message_type': msg.message_type,
+>>>>>>> upstream/18.0
 =======
                 'message_type': msg.message_type,
 >>>>>>> upstream/18.0
@@ -702,6 +776,11 @@ class TestMailMessageAccess(MessageAccessCommon):
                     msg.write(msg_vals)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+                self.env.invalidate_all()
+>>>>>>> upstream/18.0
 =======
 
                 self.env.invalidate_all()
@@ -719,6 +798,10 @@ class TestMailMessageAccess(MessageAccessCommon):
                     msg.write(original_vals)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    self.env.invalidate_all()
+>>>>>>> upstream/18.0
 =======
                     self.env.invalidate_all()
 >>>>>>> upstream/18.0
@@ -755,6 +838,10 @@ class TestMailMessageAccess(MessageAccessCommon):
                 'is_internal': False,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'message_type': msg.message_type,
+>>>>>>> upstream/18.0
 =======
                 'message_type': msg.message_type,
 >>>>>>> upstream/18.0
@@ -770,6 +857,11 @@ class TestMailMessageAccess(MessageAccessCommon):
                     msg.write(msg_vals)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+                self.env.invalidate_all()
+>>>>>>> upstream/18.0
 =======
 
                 self.env.invalidate_all()
@@ -787,6 +879,10 @@ class TestMailMessageAccess(MessageAccessCommon):
                     msg.write(original_vals)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    self.env.invalidate_all()
+>>>>>>> upstream/18.0
 =======
                     self.env.invalidate_all()
 >>>>>>> upstream/18.0
@@ -973,7 +1069,10 @@ class TestMailMessageAccess(MessageAccessCommon):
         ))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         msg_record_portal_internal = self.env['mail.message'].create(dict(base_msg_vals,
@@ -984,6 +1083,9 @@ class TestMailMessageAccess(MessageAccessCommon):
             subtype_id=self.ref('mail.mt_comment'),
         ))
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -995,7 +1097,10 @@ class TestMailMessageAccess(MessageAccessCommon):
         ))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         msg_record_public_internal = self.env['mail.message'].create(dict(base_msg_vals,
@@ -1006,6 +1111,9 @@ class TestMailMessageAccess(MessageAccessCommon):
             subtype_id=self.ref('mail.mt_comment'),
         ))
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1019,6 +1127,7 @@ class TestMailMessageAccess(MessageAccessCommon):
         ], [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             msg_record_public,
             msgs[0] + msgs[3] + msg_record_portal + msg_record_public,
             msgs[1:6] + msg_record_portal + msg_record_public,
@@ -1030,6 +1139,8 @@ class TestMailMessageAccess(MessageAccessCommon):
                 self.assertEqual(self.env['mail.message'].with_user(test_user).search(domain), exp_messages)
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             # public: record with access
@@ -1087,6 +1198,9 @@ class TestMailMessageAccess(MessageAccessCommon):
         found_por.read(['subject'])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
