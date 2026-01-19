@@ -13,6 +13,10 @@ export class CustomFieldCard extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        disabled: { type: Boolean, default: false },
+>>>>>>> upstream/18.0
 =======
         disabled: { type: Boolean, default: false },
 >>>>>>> upstream/18.0

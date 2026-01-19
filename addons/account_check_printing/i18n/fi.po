@@ -50,6 +50,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* account_check_printing
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -472,6 +473,10 @@
 # * account_check_printing
 #
 >>>>>>> upstream/18.0
+=======
+# * account_check_printing
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Miku Laitinen <miku.laitinen@gmail.com>, 2024
 # Kari Lindgren <kari.lindgren@emsystems.fi>, 2024
@@ -483,6 +488,7 @@
 # Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2024
 # Jessica Jakara, 2025
 # Wil Odoo, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -905,10 +911,15 @@
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # Saara Hakanen <sahak@odoo.com>, 2026.
 >>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Saara Hakanen <sahak@odoo.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1397,16 +1408,22 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-01-17 09:02+0000\n"
 "Last-Translator: Saara Hakanen <sahak@odoo.com>\n"
 "Language-Team: Finnish <https://translate.odoo.com/projects/odoo-18/"
 "account_check_printing/fi/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1821,13 +1838,21 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: account_check_printing
 #. odoo-python
 #: code:addons/account_check_printing/models/account_journal.py:0
 msgid "%(journal)s: Check Number Sequence"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%(journal)s: Tarkista numeroiden järjestys"
+=======
+msgstr "%(journal)s: Shekkinumeroiden sekvenssi"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(journal)s: Shekkinumeroiden sekvenssi"
 >>>>>>> upstream/18.0
@@ -1848,7 +1873,13 @@ msgid ""
 "Adjust the margins of generated checks to make it fit your printer's "
 "settings."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Säädä tehtyjen šekkien marginaalia, jotta ne mahtuvat tulostimeen."
+=======
+msgstr ""
+"Säädä luotujen shekkien marginaali yhteensopivaksi tulostimesi asetusten "
+"kanssa."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Säädä luotujen shekkien marginaali yhteensopivaksi tulostimesi asetusten "
@@ -1859,7 +1890,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_check_printing.field_account_payment__check_amount_in_words
 msgid "Amount in Words"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Määrä kirjoitettuna"
+=======
+msgstr "Summa kirjoitettuna"
+>>>>>>> upstream/18.0
 =======
 msgstr "Summa kirjoitettuna"
 >>>>>>> upstream/18.0
@@ -1881,7 +1916,11 @@ msgstr "Peruuta"
 #: model:ir.model.fields,field_description:account_check_printing.field_res_config_settings__account_check_printing_layout
 msgid "Check Layout"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Šekin ulkoasu"
+=======
+msgstr "Shekin asettelu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Shekin asettelu"
 >>>>>>> upstream/18.0
@@ -1891,7 +1930,11 @@ msgstr "Shekin asettelu"
 #: model:ir.model.fields,field_description:account_check_printing.field_res_config_settings__account_check_printing_margin_left
 msgid "Check Left Margin"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Šekin vasen marginaali"
+=======
+msgstr "Shekin vasen marginaali"
+>>>>>>> upstream/18.0
 =======
 msgstr "Shekin vasen marginaali"
 >>>>>>> upstream/18.0
@@ -1900,7 +1943,11 @@ msgstr "Shekin vasen marginaali"
 #: model:ir.model.fields,field_description:account_check_printing.field_account_payment__check_number
 msgid "Check Number"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Šekkinumero"
+=======
+msgstr "Shekin numero"
+>>>>>>> upstream/18.0
 =======
 msgstr "Shekin numero"
 >>>>>>> upstream/18.0
@@ -1914,7 +1961,11 @@ msgstr "Shekkien tulostus"
 #: model:ir.model.fields,field_description:account_check_printing.field_res_config_settings__account_check_printing_margin_right
 msgid "Check Right Margin"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Šekin oikea marginaali"
+=======
+msgstr "Shekin oikea marginaali"
+>>>>>>> upstream/18.0
 =======
 msgstr "Shekin oikea marginaali"
 >>>>>>> upstream/18.0
@@ -1923,7 +1974,11 @@ msgstr "Shekin oikea marginaali"
 #: model:ir.model.fields,field_description:account_check_printing.field_account_journal__check_sequence_id
 msgid "Check Sequence"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Šekkijärjestys"
+=======
+msgstr "Shekkien sekvenssi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Shekkien sekvenssi"
 >>>>>>> upstream/18.0
@@ -1933,7 +1988,11 @@ msgstr "Shekkien sekvenssi"
 #: model:ir.model.fields,field_description:account_check_printing.field_res_config_settings__account_check_printing_margin_top
 msgid "Check Top Margin"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Šekin ylämarginaali"
+=======
+msgstr "Shekin ylämarginaali"
+>>>>>>> upstream/18.0
 =======
 msgstr "Shekin ylämarginaali"
 >>>>>>> upstream/18.0
@@ -1943,7 +2002,11 @@ msgstr "Shekin ylämarginaali"
 #: code:addons/account_check_printing/models/account_payment.py:0
 msgid "Check numbers can only consist of digits"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Šekkien numerot voivat koostua vain numeroista"
+=======
+msgstr "Shekkinumerot voivat sisältää vain numeroita"
+>>>>>>> upstream/18.0
 =======
 msgstr "Shekkinumerot voivat sisältää vain numeroita"
 >>>>>>> upstream/18.0
@@ -1953,7 +2016,11 @@ msgstr "Shekkinumerot voivat sisältää vain numeroita"
 #: model:ir.model.fields,help:account_check_printing.field_account_payment__check_manual_sequencing
 msgid "Check this option if your pre-printed checks are not numbered."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Valitse tämä, jos esipainetut šekinne eivät ole numeroituja."
+=======
+msgstr "Valitse, jos esitulostetut shekkisi eivät ole numeroituja."
+>>>>>>> upstream/18.0
 =======
 msgstr "Valitse, jos esitulostetut shekkisi eivät ole numeroituja."
 >>>>>>> upstream/18.0
@@ -1962,7 +2029,11 @@ msgstr "Valitse, jos esitulostetut shekkisi eivät ole numeroituja."
 #: model_terms:ir.ui.view,arch_db:account_check_printing.account_journal_dashboard_kanban_view_inherited
 msgid "Check to print"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tulostettava šekki"
+=======
+msgstr "Tulostettava shekki"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tulostettava shekki"
 >>>>>>> upstream/18.0
@@ -1973,7 +2044,11 @@ msgstr "Tulostettava shekki"
 #: model:account.payment.method,name:account_check_printing.account_payment_method_check
 msgid "Checks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Šekit"
+=======
+msgstr "Shekit"
+>>>>>>> upstream/18.0
 =======
 msgstr "Shekit"
 >>>>>>> upstream/18.0
@@ -1982,7 +2057,11 @@ msgstr "Shekit"
 #: model:ir.model.fields,help:account_check_printing.field_account_journal__check_sequence_id
 msgid "Checks numbering sequence."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Šekkien numerointijärjestys."
+=======
+msgstr "Shekkien numerointijärjestys."
+>>>>>>> upstream/18.0
 =======
 msgstr "Shekkien numerointijärjestys."
 >>>>>>> upstream/18.0
@@ -1993,7 +2072,11 @@ msgstr "Shekkien numerointijärjestys."
 #: model_terms:ir.ui.view,arch_db:account_check_printing.view_payment_check_printing_search
 msgid "Checks to Print"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tulostettavat šekit"
+=======
+msgstr "Tulostettavat shekit"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tulostettavat shekit"
 >>>>>>> upstream/18.0
@@ -2002,7 +2085,11 @@ msgstr "Tulostettavat shekit"
 #: model_terms:ir.ui.view,arch_db:account_check_printing.account_journal_dashboard_kanban_view_inherited
 msgid "Checks to print"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tulostettavat šekit"
+=======
+msgstr "Tulostettavat shekit"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tulostettavat shekit"
 >>>>>>> upstream/18.0
@@ -2042,7 +2129,11 @@ msgstr "Näyttönimi"
 #: code:addons/account_check_printing/models/account_payment.py:0
 msgid "Go to the configuration panel"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mene asetusvalikkoon"
+=======
+msgstr "Siirry asetusvalikkoon"
+>>>>>>> upstream/18.0
 =======
 msgstr "Siirry asetusvalikkoon"
 >>>>>>> upstream/18.0
@@ -2051,7 +2142,11 @@ msgstr "Siirry asetusvalikkoon"
 #: model:ir.model.fields,field_description:account_check_printing.field_print_prenumbered_checks__id
 msgid "ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ID"
+=======
+msgstr "Tunnus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tunnus"
 >>>>>>> upstream/18.0
@@ -2060,6 +2155,7 @@ msgstr "Tunnus"
 #. odoo-python
 #: code:addons/account_check_printing/models/account_payment.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2587,11 +2683,16 @@ msgstr ""
 "Voidaksesi tulostaa useamman shekin kerralla niiden on kuuluttava samaan "
 "päiväkirjaan."
 =======
+=======
+>>>>>>> upstream/18.0
 "In order to print multiple checks at once, they must belong to the same bank "
 "journal."
 msgstr ""
 "Shekkien on kuuluttava samaan pankkipäiväkirjaan, jotta voit tuostaa useita "
 "kerralla."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_check_printing
@@ -2619,6 +2720,7 @@ msgstr "Manuaalinen numerointi"
 #: model:ir.model.fields,help:account_check_printing.field_account_payment__payment_method_line_id
 msgid ""
 "Manual: Pay or Get paid by any method outside of Odoo.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2945,6 +3047,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Payment Providers: Each payment provider has its own Payment Method. Request "
 "a transaction on/to a card thanks to a payment token saved by the partner "
 "when buying or subscribing online.\n"
@@ -2957,6 +3061,7 @@ msgstr ""
 "SEPA Direct Debit: Get paid in the SEPA zone thanks to a mandate your "
 "partner will have granted to you. Module account_sepa is necessary.\n"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "Käsikirja: Maksa tai saat maksun millä tahansa Odoon ulkopuolisella "
 "menetelmällä.\n"
@@ -3282,6 +3387,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "Manuaalisesti: Maksa tai vastaanota maksu millä tahansa Odoon ulkopuolisella "
 "menetelmällä.\n"
 "Maksupalveluntarjoajat: Jokaisella maksupalveluntarjoajalla on oma "
@@ -3294,6 +3401,9 @@ msgstr ""
 "pankkiin. Vaatii moduulin account_sepa.\n"
 "SEPA-suoraveloitus: Saat maksun SEPA-alueella kumppanisi sinulle myöntämän "
 "valtuutuksen ansiosta. Vaatii moduulin account_sepa.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_check_printing
@@ -3301,7 +3411,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_check_printing.field_res_config_settings__account_check_printing_multi_stub
 msgid "Multi-Pages Check Stub"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Monen sivun šekin kanta"
+=======
+msgstr "Monisivuisen shekin kuittiosa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Monisivuisen shekin kuittiosa"
 >>>>>>> upstream/18.0
@@ -3318,7 +3432,11 @@ msgstr "Seuraava shekkinumero"
 #: code:addons/account_check_printing/wizard/print_prenumbered_checks.py:0
 msgid "Next Check Number should only contains numbers."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Seuraavassa šekin numerossa pitäisi olla vain numeroita."
+=======
+msgstr "Seuraavan shekkinumeron tulisi sisältää pelkkiä numeroita."
+>>>>>>> upstream/18.0
 =======
 msgstr "Seuraavan shekkinumeron tulisi sisältää pelkkiä numeroita."
 >>>>>>> upstream/18.0
@@ -3351,8 +3469,13 @@ msgid ""
 "and not have already been reconciled"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Maksut, jotka haluat maksaa tulostettavina šekkeinä, vaatii että 'Šekki' on "
 "valittuna maksutapana ja maksut eivät saa olla täsmäytettyjä."
+=======
+"Shekkeinä tulostettaviin maksuihin on valittava maksutavaksi 'Shekki' ja ne "
+"eivät saa olla vielä täsmäytettyjä"
+>>>>>>> upstream/18.0
 =======
 "Shekkeinä tulostettaviin maksuihin on valittava maksutavaksi 'Shekki' ja ne "
 "eivät saa olla vielä täsmäytettyjä"
@@ -3361,6 +3484,7 @@ msgstr ""
 #. module: account_check_printing
 #: model_terms:ir.ui.view,arch_db:account_check_printing.print_pre_numbered_checks_view
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3891,6 +4015,11 @@ msgstr ""
 "print on."
 msgstr "Syötä ensimmäisen esitulostetun shekin numero, johon olet tulostamassa."
 >>>>>>> upstream/18.0
+=======
+"Please enter the number of the first pre-printed check that you are about to "
+"print on."
+msgstr "Syötä ensimmäisen esitulostetun shekin numero, johon olet tulostamassa."
+>>>>>>> upstream/18.0
 
 #. module: account_check_printing
 #: model_terms:ir.ui.view,arch_db:account_check_printing.print_pre_numbered_checks_view
@@ -3901,7 +4030,11 @@ msgstr "Tulosta"
 #: model_terms:ir.ui.view,arch_db:account_check_printing.view_account_payment_form_inherited
 msgid "Print Check"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tulosta šekki"
+=======
+msgstr "Tulosta shekki"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tulosta shekki"
 >>>>>>> upstream/18.0
@@ -3910,7 +4043,11 @@ msgstr "Tulosta shekki"
 #: model:ir.actions.server,name:account_check_printing.action_account_print_checks
 msgid "Print Checks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tulosta šekit"
+=======
+msgstr "Tulosta shekit"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tulosta shekit"
 >>>>>>> upstream/18.0
@@ -3920,7 +4057,11 @@ msgstr "Tulosta shekit"
 #: model:ir.model.fields,field_description:account_check_printing.field_res_config_settings__account_check_printing_date_label
 msgid "Print Date Label"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tulosta päivämäärätarrat"
+=======
+msgstr "Tulosta päivämäärätarra"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tulosta päivämäärätarra"
 >>>>>>> upstream/18.0
@@ -3932,7 +4073,11 @@ msgstr "Tulosta päivämäärätarra"
 #: model_terms:ir.ui.view,arch_db:account_check_printing.print_pre_numbered_checks_view
 msgid "Print Pre-numbered Checks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tulosta esinumeroidut šekit"
+=======
+msgstr "Tulosta esinumeroidut shekit"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tulosta esinumeroidut shekit"
 >>>>>>> upstream/18.0
@@ -3942,7 +4087,11 @@ msgstr "Tulosta esinumeroidut shekit"
 #: code:addons/account_check_printing/models/account_payment.py:0
 msgid "Refunds"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Hyvitykset"
+=======
+msgstr "Takaisinmaksut"
+>>>>>>> upstream/18.0
 =======
 msgstr "Takaisinmaksut"
 >>>>>>> upstream/18.0
@@ -3956,6 +4105,7 @@ msgstr "Oikea marginaali"
 #: model:ir.model.fields,help:account_check_printing.field_res_company__account_check_printing_layout
 #: model:ir.model.fields,help:account_check_printing.field_res_config_settings__account_check_printing_layout
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4483,12 +4633,17 @@ msgstr ""
 "Valitse muoto, joka vastaa šekkipaperia, jolle tulostat šekit.\n"
 "Voit poistaa tulostusominaisuuden käytöstä valitsemalla Ei mitään."
 =======
+=======
+>>>>>>> upstream/18.0
 "Select the format corresponding to the check paper you will be printing your "
 "checks on.\n"
 "In order to disable the printing feature, select 'None'."
 msgstr ""
 "Valitse shekkipaperia vastaava muoto, jolle olet tulostamassa shekit.\n"
 "Voit poistaa tulostusominaisuuden käytöstä valitsemalla 'Ei mitään'."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_check_printing
@@ -4500,7 +4655,11 @@ msgstr "Lähetetty"
 #: model:ir.model.fields,help:account_check_printing.field_account_journal__check_next_number
 msgid "Sequence number of the next printed check."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Seuraavan tulostettavan šekin järjestysnumero."
+=======
+msgstr "Seuraavaksi tulostettavan shekin järjestysnumero."
+>>>>>>> upstream/18.0
 =======
 msgstr "Seuraavaksi tulostettavan shekin järjestysnumero."
 >>>>>>> upstream/18.0
@@ -4509,7 +4668,11 @@ msgstr "Seuraavaksi tulostettavan shekin järjestysnumero."
 #: model:ir.model.fields,field_description:account_check_printing.field_account_payment__show_check_number
 msgid "Show Check Number"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Näytä šekin numero"
+=======
+msgstr "Näytä shekin numero"
+>>>>>>> upstream/18.0
 =======
 msgstr "Näytä shekin numero"
 >>>>>>> upstream/18.0
@@ -4521,6 +4684,7 @@ msgid ""
 "Something went wrong with Check Layout, please select another layout in "
 "Invoicing/Accounting Settings and try again."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "Šekin ulkoasun määrittelyssä tapahtui virhe. Valitse toinen ulkoasu "
 "Laskutuksen tai Kirjanpidon sovelluksessa ja yritä uudelleen."
@@ -4839,17 +5003,23 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "Shekin asettelussa tapahtui virhe. Valitse toinen asettelu Laskutus/"
 "Kirjanpito -asetuksissa ja yritä uudelleen."
 
 #. module: account_check_printing
 #. odoo-python
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/account_check_printing/models/account_journal.py:0
 msgid ""
 "The check number you entered (%(num)s) exceeds the maximum allowed value of %"
 "(max)d. Please enter a smaller number."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5167,6 +5337,9 @@ msgstr ""
 =======
 "Syöttämäsi shekkinumero (%(num)s) ylittää suurimman sallitun arvon %(max)d. "
 >>>>>>> upstream/18.0
+=======
+"Syöttämäsi shekkinumero (%(num)s) ylittää suurimman sallitun arvon %(max)d. "
+>>>>>>> upstream/18.0
 "Syötä pienempi numero."
 
 #. module: account_check_printing
@@ -5220,6 +5393,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5335,8 +5511,13 @@ msgid ""
 "the bank, you can only use a greater number."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Viimesimmän šekin numero on %s. Jotta  pankki ei hylkäisi šekkiäsi, voit "
 "käyttää ainoastaan tätä suurempia numeroita."
+=======
+"Viimesimmän shekin numero on %s. Käytä tätä suurempaa numeroa, jotta pankki "
+"ei hylkäisi shekkiäsi."
+>>>>>>> upstream/18.0
 =======
 "Viimesimmän shekin numero on %s. Käytä tätä suurempaa numeroa, jotta pankki "
 "ei hylkäisi shekkiäsi."
@@ -5349,6 +5530,7 @@ msgid ""
 "printed check paper already has numbers or if the current numbering is "
 "wrong, you can change it in the journal configuration page."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "Tämä päiväkirja on asetettu tulostamaan šekkien numeroita. Jos sinulla on "
 <<<<<<< HEAD
@@ -5878,6 +6060,11 @@ msgstr ""
 "esitulostetussa shekkipaperissasi on jo numeroita tai jos nykyinen "
 "numerointi on väärä, voit muuttaa sen päiväkirjan asetuksissa."
 >>>>>>> upstream/18.0
+=======
+"Valittu päiväkirja on määritetty tulostamaan shekkinumeroita. Jos "
+"esitulostetussa shekkipaperissasi on jo numeroita tai jos nykyinen "
+"numerointi on väärä, voit muuttaa sen päiväkirjan asetuksissa."
+>>>>>>> upstream/18.0
 
 #. module: account_check_printing
 #: model:ir.model.fields,help:account_check_printing.field_res_company__account_check_printing_multi_stub
@@ -5887,8 +6074,13 @@ msgid ""
 "they don't fit on a single page."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Tämä valinta mahdollistaa šekkien kantojen yksityiskohtien tulostamisen "
 "usealle sivulle, jos ne eivät mahdu yhdelle sivulle."
+=======
+"Tämä valinta mahdollistaa shekkien lisätietojen (kuittiosa) tulostamisen "
+"useammalle sivulle, jos ne eivät mahdu yhdelle."
+>>>>>>> upstream/18.0
 =======
 "Tämä valinta mahdollistaa shekkien lisätietojen (kuittiosa) tulostamisen "
 "useammalle sivulle, jos ne eivät mahdu yhdelle."
@@ -5901,6 +6093,7 @@ msgid ""
 "This option allows you to print the date label on the check as per CPA.\n"
 "Disable this if your pre-printed check includes the date label."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6429,11 +6622,17 @@ msgstr ""
 "mukaisesti.\n"
 "Poista tämä käytöstä, jos esipainettu shekki sisältää jo päivämäärätarran."
 >>>>>>> upstream/18.0
+=======
+"Tämä valinta mahdollistaa päivämäärätarran tulostamisen shekkiin CPA:n "
+"mukaisesti.\n"
+"Poista tämä käytöstä, jos esipainettu shekki sisältää jo päivämäärätarran."
+>>>>>>> upstream/18.0
 
 #. module: account_check_printing
 #: model_terms:ir.ui.view,arch_db:account_check_printing.print_pre_numbered_checks_view
 msgid ""
 "This will allow to save on payments the number of the corresponding check."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6856,12 +7055,19 @@ msgstr "Tämä mahdollistaa  šekin numeron tallennuksen sitä vastaavaan maksuu
 =======
 msgstr "Tämä mahdollistaa shekkinumeron tallentamisen sitä vastaavaan maksuun."
 >>>>>>> upstream/18.0
+=======
+msgstr "Tämä mahdollistaa shekkinumeron tallentamisen sitä vastaavaan maksuun."
+>>>>>>> upstream/18.0
 
 #. module: account_check_printing
 #: model_terms:ir.ui.view,arch_db:account_check_printing.view_account_payment_form_inherited
 msgid "Unmark Sent"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Poistä lähetys-merkintä"
+=======
+msgstr "Poistä 'lähetetty' -merkintä"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poistä 'lähetetty' -merkintä"
 >>>>>>> upstream/18.0
@@ -6870,7 +7076,11 @@ msgstr "Poistä 'lähetetty' -merkintä"
 #: model_terms:ir.ui.view,arch_db:account_check_printing.view_account_payment_form_inherited
 msgid "Void Check"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mitätöi šekki"
+=======
+msgstr "Mitätöi shekki"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mitätöi shekki"
 >>>>>>> upstream/18.0
@@ -6883,8 +7093,13 @@ msgid ""
 "Settings, search for 'Checks layout' and set one."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Sinun on valittava šekin asettelu. Tätä varten siirry Laskutus-tai "
 "kirjanpitoasetuksiin, etsi \"Šekin ulkoasu\" ja aseta se."
+=======
+"Sinun on valittava shekin asettelu. Tätä varten siirry Laskutuksen/"
+"Kirjanpidon asetuksiin, hae 'Shekin ulkoasu' ja määritä sellainen."
+>>>>>>> upstream/18.0
 =======
 "Sinun on valittava shekin asettelu. Tätä varten siirry Laskutuksen/"
 "Kirjanpidon asetuksiin, hae 'Shekin ulkoasu' ja määritä sellainen."

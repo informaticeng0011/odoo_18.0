@@ -65,7 +65,11 @@ from werkzeug.exceptions import Forbidden
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import _, http
+=======
+from odoo import _, http, release
+>>>>>>> upstream/18.0
 =======
 from odoo import _, http, release
 >>>>>>> upstream/18.0
@@ -410,6 +414,12 @@ class AdyenController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        partner_country_code = (
+            tx_sudo.partner_country_id.code or provider_sudo.company_id.country_id.code or 'NL'
+        )
+>>>>>>> upstream/18.0
 =======
         partner_country_code = (
             tx_sudo.partner_country_id.code or provider_sudo.company_id.country_id.code or 'NL'
@@ -1016,6 +1026,7 @@ class AdyenController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             'countryCode': partner_country_code,  # ISO 3166-1 alpha-2 (e.g.: 'BE')
 >>>>>>> upstream/18.0
@@ -1152,6 +1163,8 @@ class AdyenController(http.Controller):
             'countryCode': partner_country_code,  # ISO 3166-1 alpha-2 (e.g.: 'BE')
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1322,6 +1335,9 @@ class AdyenController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1557,7 +1573,10 @@ class AdyenController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1860,6 +1879,9 @@ class AdyenController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -169,6 +169,7 @@ import { beforeEach, describe, expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import {
     click,
     press,
@@ -187,6 +188,9 @@ import {
 =======
 >>>>>>> upstream/18.0
 } from "@odoo/hoot-dom";
+=======
+import { click, press, queryAll, queryAllTexts, queryOne, waitFor } from "@odoo/hoot-dom";
+>>>>>>> upstream/18.0
 =======
 import { click, press, queryAll, queryAllTexts, queryOne, waitFor } from "@odoo/hoot-dom";
 >>>>>>> upstream/18.0
@@ -785,6 +789,10 @@ import { patch } from "@web/core/utils/patch";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { delay } from "@web/core/utils/concurrency";
+>>>>>>> upstream/18.0
 =======
 import { delay } from "@web/core/utils/concurrency";
 >>>>>>> upstream/18.0
@@ -1253,6 +1261,10 @@ import { unformat } from "./_helpers/format";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { expectElementCount } from "./_helpers/ui_expectations";
+>>>>>>> upstream/18.0
 =======
 import { expectElementCount } from "./_helpers/ui_expectations";
 >>>>>>> upstream/18.0
@@ -2391,7 +2403,11 @@ test("create new record and load it correctly", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "kanban,false": `
+=======
+            kanban: `
+>>>>>>> upstream/18.0
 =======
             kanban: `
 >>>>>>> upstream/18.0
@@ -3382,7 +3398,11 @@ test("A new MediaDialog after switching record in a Form view should have the co
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(1);
+=======
+    await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -4016,6 +4036,7 @@ test("Embed video by pasting video URL", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("/html_editor/video_url/data", async () => {
         return {
             platform: "youtube",
@@ -4023,6 +4044,8 @@ test("Embed video by pasting video URL", async () => {
         };
     });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4411,6 +4434,9 @@ test("Embed video by pasting video URL", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4848,7 +4874,11 @@ test("Embed video by pasting video URL", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(1);
+=======
+    await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -5576,8 +5606,12 @@ test("link preview in Link Popover", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await waitForNone(".o-we-linkpopover", { root: document, timeout: 500 });
     expect(".o-we-linkpopover").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-linkpopover", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-linkpopover", 0);
 >>>>>>> upstream/18.0
@@ -6501,7 +6535,10 @@ test("codeview is not available when not in debug mode", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchWithCleanup(odoo, { debug: false });
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7088,7 +7125,11 @@ test("codeview is available when option is active and in debug mode", async () =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchWithCleanup(odoo, { debug: true });
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -7865,7 +7906,11 @@ test("enable/disable codeview with editor toolbar", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchWithCleanup(odoo, { debug: true });
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -8654,7 +8699,11 @@ test("edit and enable/disable codeview with editor toolbar", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchWithCleanup(odoo, { debug: true });
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -9411,12 +9460,17 @@ test("edit and save a html field in collaborative should keep the same wysiwyg",
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("/html_editor/get_ice_servers", () => {
         return [];
     });
     onRpc("/html_editor/bus_broadcast", (params) => {
         return { id: 10 };
     });
+=======
+    onRpc("/html_editor/get_ice_servers", () => []);
+    onRpc("/html_editor/bus_broadcast", (params) => ({ id: 10 }));
+>>>>>>> upstream/18.0
 =======
     onRpc("/html_editor/get_ice_servers", () => []);
     onRpc("/html_editor/bus_broadcast", (params) => ({ id: 10 }));
@@ -10612,8 +10666,13 @@ describe("save image", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const getImageContainerHTML = (src, isModified) => {
             return `
+=======
+        const getImageContainerHTML = (src, isModified) =>
+            `
+>>>>>>> upstream/18.0
 =======
         const getImageContainerHTML = (src, isModified) =>
             `
@@ -11279,7 +11338,10 @@ describe("save image", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         };
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11680,7 +11742,10 @@ describe("save image", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(true).toBe(false);
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12080,7 +12145,10 @@ describe("save image", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 expect(true).toBe(false);
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12719,7 +12787,10 @@ describe("save image", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13079,6 +13150,9 @@ describe("save image", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13471,7 +13545,10 @@ describe("translatable", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13985,6 +14062,9 @@ describe("codeview enabled", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

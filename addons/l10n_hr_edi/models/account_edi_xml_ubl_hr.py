@@ -36,6 +36,10 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
                                     'cbc:Percent': {},
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                                    'cbc:TaxExemptionReason': {},
+>>>>>>> upstream/18.0
 =======
                                     'cbc:TaxExemptionReason': {},
 >>>>>>> upstream/18.0
@@ -188,6 +192,10 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
                     'cbc:Percent': tax_subtotals[i]['cac:TaxCategory'][0]['cbc:Percent'],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    'cbc:TaxExemptionReason': tax_subtotals[i]['cac:TaxCategory'][0]['cbc:TaxExemptionReason'],
+>>>>>>> upstream/18.0
 =======
                     'cbc:TaxExemptionReason': tax_subtotals[i]['cac:TaxCategory'][0]['cbc:TaxExemptionReason'],
 >>>>>>> upstream/18.0
@@ -347,6 +355,10 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
             'cbc:Percent': {'_text': tax_category['percent']},
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'cbc:TaxExemptionReason': {'_text': tax_category.get('tax_exemption_reason')},
+>>>>>>> upstream/18.0
 =======
             'cbc:TaxExemptionReason': {'_text': tax_category.get('tax_exemption_reason')},
 >>>>>>> upstream/18.0

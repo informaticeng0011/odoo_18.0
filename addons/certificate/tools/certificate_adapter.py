@@ -1,10 +1,13 @@
 from base64 import b64decode
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 import requests
 from OpenSSL.crypto import FILETYPE_PEM, load_certificate, load_privatekey
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 from ssl import SSLError
@@ -13,6 +16,9 @@ import requests
 from OpenSSL.crypto import FILETYPE_PEM, load_certificate, load_privatekey
 from OpenSSL.crypto import Error as CryptoError
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24,11 +30,14 @@ class CertificateAdapter(requests.adapters.HTTPAdapter):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def __init__(self, *args, ciphers=None, **kwargs):
         self._context_args = {}
         if ciphers:
             self._context_args['ciphers'] = ciphers
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def __init__(self, *args, ciphers=None, ca_certificates=None, **kwargs):
@@ -37,6 +46,9 @@ class CertificateAdapter(requests.adapters.HTTPAdapter):
             self._context_args['ciphers'] = ciphers
         self.ca_certificates = ca_certificates
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -51,9 +63,12 @@ class CertificateAdapter(requests.adapters.HTTPAdapter):
         inject_into_urllib3()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         kwargs['ssl_context'] = create_urllib3_context(**self._context_args)
         return super().init_poolmanager(*args, **kwargs)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -69,6 +84,9 @@ class CertificateAdapter(requests.adapters.HTTPAdapter):
         kwargs['ssl_context'] = context
         super().init_poolmanager(*args, **kwargs)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

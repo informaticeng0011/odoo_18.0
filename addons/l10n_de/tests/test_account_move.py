@@ -34,7 +34,10 @@ class TestAccountMoveDE(AccountTestInvoicingCommon):
         self.assertEqual(fields.Date.from_string('2025-01-01'), move.delivery_date)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -59,6 +62,9 @@ class TestAccountMoveDE(AccountTestInvoicingCommon):
         move.action_post()
         self.assertRecordValues(move.line_ids, expected_lines_vals)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* pos_adyen
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -50,10 +51,14 @@
 =======
 # * pos_adyen
 >>>>>>> upstream/18.0
+=======
+# * pos_adyen
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2025
 #
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -98,10 +103,14 @@
 =======
 # "Marta (wacm)" <wacm@odoo.com>, 2026.
 >>>>>>> upstream/18.0
+=======
+# "Marta (wacm)" <wacm@odoo.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -158,17 +167,23 @@ msgstr ""
 "Last-Translator: Wil Odoo, 2025\n"
 "Language-Team: Polish (https://app.transifex.com/odoo/teams/41243/pl/)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-01-17 09:06+0000\n"
 "Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
 "Language-Team: Polish <https://translate.odoo.com/projects/odoo-18/pos_adyen/"
 "pl/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
+<<<<<<< HEAD
 <<<<<<< HEAD
 "(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
 "n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
@@ -211,6 +226,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || "
+"(n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
 =======
 "(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || "
@@ -290,8 +310,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Anulowanie płatności nie powiodło się. Prosimy o ręczne anulowanie płatności"
 " na terminalu płatniczym."
+=======
+"Anulowanie płatności nie powiodło się. Prosimy o ręczne anulowanie płatności "
+"na terminalu płatniczym."
+>>>>>>> upstream/18.0
 =======
 "Anulowanie płatności nie powiodło się. Prosimy o ręczne anulowanie płatności "
 "na terminalu płatniczym."
@@ -378,7 +403,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:pos_adyen.field_pos_payment_method__adyen_event_url
 msgid "Event URL"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adres URL wydarzenia"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adres URL wydarzenia"
 >>>>>>> upstream/18.0
@@ -388,7 +417,11 @@ msgstr "Adres URL wydarzenia"
 #: code:addons/pos_adyen/models/pos_payment_method.py:0
 msgid "Invalid Adyen request"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nieprawidłowe żądanie Adyen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nieprawidłowe żądanie Adyen"
 >>>>>>> upstream/18.0
@@ -443,6 +476,7 @@ msgstr ""
 msgid ""
 "Terminal %(terminal)s is already used on payment method %(payment_method)s."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -520,12 +554,20 @@ msgstr ""
 "Terminal %(terminal)s jest już używany do metody płatności %"
 "(payment_method)s."
 >>>>>>> upstream/18.0
+=======
+"Terminal %(terminal)s jest już używany do metody płatności %"
+"(payment_method)s."
+>>>>>>> upstream/18.0
 
 #. module: pos_adyen
 #: model:ir.model.fields,help:pos_adyen.field_pos_payment_method__adyen_event_url
 msgid "This URL needs to be pasted on Adyen's portal terminal settings."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ten adres URL należy wkleić w ustawieniach terminala na portalu Adyen."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ten adres URL należy wkleić w ustawieniach terminala na portalu Adyen."
 >>>>>>> upstream/18.0
@@ -533,6 +575,7 @@ msgstr "Ten adres URL należy wkleić w ustawieniach terminala na portalu Adyen.
 #. module: pos_adyen
 #: model:ir.model.fields,help:pos_adyen.field_pos_payment_method__adyen_api_key
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -582,6 +625,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Used when connecting to Adyen: https://docs.adyen.com/user-management/how-to-"
 "get-the-api-key/#description"
 msgstr ""
@@ -601,6 +646,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

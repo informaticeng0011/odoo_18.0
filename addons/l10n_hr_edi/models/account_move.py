@@ -179,10 +179,13 @@ class AccountMove(models.Model):
                     move.l10n_hr_fiscal_user_id = move.env.user.partner_id
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if move.company_id.country_code == 'HR' and move.is_purchase_document() and move.l10n_hr_business_document_status == '1':
                 raise UserError(self.env._("This vendor bill is already rejected according to the Tax Authority."))
         return super()._post(soft)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             if move.l10n_hr_mer_document_eid and move.is_purchase_document():
@@ -198,6 +201,9 @@ class AccountMove(models.Model):
                     _logger.info("Document eID %s reported as approved by recepient.", move.l10n_hr_mer_document_eid)
         return super()._post(soft=soft)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

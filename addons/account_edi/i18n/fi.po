@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* account_edi
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -63,6 +64,10 @@
 # * account_edi
 #
 >>>>>>> upstream/18.0
+=======
+# * account_edi
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Kim Asplund <kim.asplund@gmail.com>, 2024
 # Veikko Väätäjä <veikko.vaataja@gmail.com>, 2024
@@ -74,6 +79,7 @@
 # Tuomo Aura <tuomo.aura@web-veistamo.fi>, 2024
 # Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2024
 # Jessica Jakara, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -135,10 +141,14 @@
 =======
 # Saara Hakanen <sahak@odoo.com>, 2026.
 >>>>>>> upstream/18.0
+=======
+# Saara Hakanen <sahak@odoo.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -194,16 +204,22 @@ msgstr ""
 "Last-Translator: Jessica Jakara, 2025\n"
 "Language-Team: Finnish (https://app.transifex.com/odoo/teams/41243/fi/)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-01-17 09:02+0000\n"
 "Last-Translator: Saara Hakanen <sahak@odoo.com>\n"
 "Language-Team: Finnish <https://translate.odoo.com/projects/odoo-18/"
 "account_edi/fi/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -250,13 +266,21 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #. odoo-python
 #: code:addons/account_edi/models/account_move.py:0
 msgid "%(count)s Electronic invoicing error(s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%(count)s Sähköisen laskutuksen virhe(et)"
+=======
+msgstr "%(count)s Sähköisen laskutuksen virhettä"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(count)s Sähköisen laskutuksen virhettä"
 >>>>>>> upstream/18.0
@@ -272,7 +296,11 @@ msgstr "%(count)s Sähköisen laskutuksen tiedot"
 #: code:addons/account_edi/models/account_move.py:0
 msgid "%(count)s Electronic invoicing warning(s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%(count)s Sähköisen laskutuksen varoitukset"
+=======
+msgstr "%(count)s Sähköisen laskutuksen varoitusta"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(count)s Sähköisen laskutuksen varoitusta"
 >>>>>>> upstream/18.0
@@ -282,7 +310,11 @@ msgstr "%(count)s Sähköisen laskutuksen varoitusta"
 #: code:addons/account_edi/models/account_move.py:0
 msgid "A cancellation of the EDI has been requested."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "EDI-sanoman peruutusta on pyydetty."
+=======
+msgstr "EDI-peruutusta on pyydetty."
+>>>>>>> upstream/18.0
 =======
 msgstr "EDI-peruutusta on pyydetty."
 >>>>>>> upstream/18.0
@@ -292,7 +324,11 @@ msgstr "EDI-peruutusta on pyydetty."
 #: code:addons/account_edi/models/account_move.py:0
 msgid "A request for cancellation of the EDI has been called off."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "EDI-sanoman peruutuksen pyyntö on peruttu."
+=======
+msgstr "EDI-peruutuspyyntö on peruttu."
+>>>>>>> upstream/18.0
 =======
 msgstr "EDI-peruutuspyyntö on peruttu."
 >>>>>>> upstream/18.0
@@ -301,7 +337,11 @@ msgstr "EDI-peruutuspyyntö on peruttu."
 #: model:ir.model,name:account_edi.model_account_move_send
 msgid "Account Move Send"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Lähetä tilin siirto"
+=======
+msgstr "Lähetä tilikirjaus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lähetä tilikirjaus"
 >>>>>>> upstream/18.0
@@ -313,8 +353,13 @@ msgid ""
 "document to be canceled?"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Haluatko varmisti peruuttaa tämän laskun, vaikka EDI-dokumentin "
 "peruutuspyyntöä käsitellään vielä?"
+=======
+"Haluatko varmisti peruuttaa tämän laskun, vaikka EDI-asiakirjan peruutusta "
+"käsitellään vielä?"
+>>>>>>> upstream/18.0
 =======
 "Haluatko varmisti peruuttaa tämän laskun, vaikka EDI-asiakirjan peruutusta "
 "käsitellään vielä?"
@@ -349,11 +394,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Blocks the current operation of the document depending on the error severity:\n"
 "  * Info: the document is not blocked and everything is working as it should.\n"
 "  * Warning: there is an error that doesn't prevent the current Electronic Invoicing operation to succeed.\n"
 "  * Error: there is an error that blocks the current Electronic Invoicing operation."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -404,6 +452,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -437,18 +486,27 @@ msgstr ""
 "   * Varoitus: virhe, joka ei estä sähköisen laskutuksen onnistumasta.\n"
 "   * Virhe: Virhe, joka estää sähköisen laskutuksen käsittelyn."
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr ""
 "Estää asiakirjan nykyisen toiminnon virheen vakavuudesta riippuen:\n"
 "   * Tiedot: asiakirjaa ei ole estetty ja kaikki toimii suunnitellusti.\n"
 "   * Varoitus: löytyi virhe, joka ei estä sähköistä laskutusta.\n"
 "   * Virhe: löytyi virhe, joka estää sähköisen laskutuksen."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_edi
 #: model_terms:ir.ui.view,arch_db:account_edi.view_move_form_inherit
 msgid "Call off EDI Cancellation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Peruuta EDI-sanoman peruutus"
+=======
+msgstr "Peru EDI-peruutus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Peru EDI-peruutus"
 >>>>>>> upstream/18.0
@@ -467,8 +525,13 @@ msgid ""
 "synchronized"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ei voida kytkeä pois päältä (%s) tästä päiväkirjasta, koska kaikkia "
 "dokumentteja ei ole synkronoitu"
+=======
+"%s ei voi poistaa käytöstä tässä päiväkirjassa, koska kaikkia asiakirjoja ei "
+"ole synkronoitu"
+>>>>>>> upstream/18.0
 =======
 "%s ei voi poistaa käytöstä tässä päiväkirjassa, koska kaikkia asiakirjoja ei "
 "ole synkronoitu"
@@ -521,7 +584,11 @@ msgstr "EDI-muoto"
 #: model:ir.model.fields,help:account_edi.field_account_journal__compatible_edi_ids
 msgid "EDI format that support moves in this journal"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "EDI-muoto, joka tukee tämän päiväkirjan kirjauksia"
+=======
+msgstr "EDI-muoto, joka tukee tämän päiväkirjan tapahtumia"
+>>>>>>> upstream/18.0
 =======
 msgstr "EDI-muoto, joka tukee tämän päiväkirjan tapahtumia"
 >>>>>>> upstream/18.0
@@ -570,7 +637,11 @@ msgstr "EDI-muoto"
 #: model:ir.model.fields,field_description:account_edi.field_account_move__edi_show_abandon_cancel_button
 msgid "Edi Show Abandon Cancel Button"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "EDI Näytä Hylkää peruutus -nappi"
+=======
+msgstr "Näytä EDI 'Hylkää peruutus' -painike"
+>>>>>>> upstream/18.0
 =======
 msgstr "Näytä EDI 'Hylkää peruutus' -painike"
 >>>>>>> upstream/18.0
@@ -580,7 +651,11 @@ msgstr "Näytä EDI 'Hylkää peruutus' -painike"
 #: model:ir.model.fields,field_description:account_edi.field_account_move__edi_show_cancel_button
 msgid "Edi Show Cancel Button"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "EDI näytä Peruuta-painike"
+=======
+msgstr "Näytä EDI 'Peruuta' -painike"
+>>>>>>> upstream/18.0
 =======
 msgstr "Näytä EDI 'Peruuta' -painike"
 >>>>>>> upstream/18.0
@@ -590,7 +665,11 @@ msgstr "Näytä EDI 'Peruuta' -painike"
 #: model:ir.model.fields,field_description:account_edi.field_account_move__edi_show_force_cancel_button
 msgid "Edi Show Force Cancel Button"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "EDI: näytä nappi perumisen pakottamiselle"
+=======
+msgstr "Näytä EDI 'Pakota peruutus' -painike"
+>>>>>>> upstream/18.0
 =======
 msgstr "Näytä EDI 'Pakota peruutus' -painike"
 >>>>>>> upstream/18.0
@@ -600,7 +679,11 @@ msgstr "Näytä EDI 'Pakota peruutus' -painike"
 #: model:ir.model.fields,field_description:account_edi.field_account_move__edi_web_services_to_process
 msgid "Edi Web Services To Process"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "EDI web servicejä käsiteltävänä"
+=======
+msgstr "Käsiteltävät EDI-verkkopalvelut"
+>>>>>>> upstream/18.0
 =======
 msgstr "Käsiteltävät EDI-verkkopalvelut"
 >>>>>>> upstream/18.0
@@ -609,7 +692,11 @@ msgstr "Käsiteltävät EDI-verkkopalvelut"
 #: model:ir.model,name:account_edi.model_account_edi_document
 msgid "Electronic Document for an account.move"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sähköinen EDI-dokumentti kirjaukselle"
+=======
+msgstr "Sähköinen asiakirja account.move varten"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sähköinen asiakirja account.move varten"
 >>>>>>> upstream/18.0
@@ -643,7 +730,11 @@ msgstr "Virhe"
 #: model_terms:ir.ui.view,arch_db:account_edi.view_move_form_inherit
 msgid "Force Cancel"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pakota peruminen"
+=======
+msgstr "Pakota peruutus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pakota peruutus"
 >>>>>>> upstream/18.0
@@ -658,7 +749,11 @@ msgstr "Muodon nimi"
 #: model:ir.model.fields,help:account_edi.field_account_move__edi_error_count
 msgid "How many EDIs are in error for this move?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Kuinka monta EDI-tietoa on virheetilassa tässä siirrossa?"
+=======
+msgstr "Kuinka monta tämän siirron EDI-toiminnoista on virhetilassa?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kuinka monta tämän siirron EDI-toiminnoista on virhetilassa?"
 >>>>>>> upstream/18.0
@@ -668,7 +763,11 @@ msgstr "Kuinka monta tämän siirron EDI-toiminnoista on virhetilassa?"
 #: model:ir.model.fields,field_description:account_edi.field_account_edi_format__id
 msgid "ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ID"
+=======
+msgstr "Tunnus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tunnus"
 >>>>>>> upstream/18.0
@@ -678,7 +777,11 @@ msgstr "Tunnus"
 #: model:ir.model.fields.selection,name:account_edi.selection__account_move__edi_blocking_level__info
 msgid "Info"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Info"
+=======
+msgstr "Tiedot"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tiedot"
 >>>>>>> upstream/18.0
@@ -732,7 +835,11 @@ msgstr "Nimi"
 #: model:ir.model.constraint,message:account_edi.constraint_account_edi_document_unique_edi_document_by_move_by_format
 msgid "Only one edi document by move by format"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Vain yksi EDI-dokumentti kirjauksen ja muodon mukaan"
+=======
+msgstr "Vain yksi EDI-asiakirja kirjauksen ja muodon mukaan"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vain yksi EDI-asiakirja kirjauksen ja muodon mukaan"
 >>>>>>> upstream/18.0
@@ -746,7 +853,11 @@ msgstr "Käsittele nyt"
 #: model:ir.model,name:account_edi.model_account_resequence_wizard
 msgid "Remake the sequence of Journal Entries."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Luo päiväkirjavientien sekvenssi uudelleen."
+=======
+msgstr "Luo päiväkirjan kirjausten sekvenssi uudelleen."
+>>>>>>> upstream/18.0
 =======
 msgstr "Luo päiväkirjan kirjausten sekvenssi uudelleen."
 >>>>>>> upstream/18.0
@@ -755,7 +866,11 @@ msgstr "Luo päiväkirjan kirjausten sekvenssi uudelleen."
 #: model:ir.model,name:account_edi.model_ir_actions_report
 msgid "Report Action"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Raporttin"
+=======
+msgstr "Raporttitoiminto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Raporttitoiminto"
 >>>>>>> upstream/18.0
@@ -785,7 +900,11 @@ msgstr "Lähetetty"
 #: model:ir.model.fields,field_description:account_edi.field_account_edi_document__state
 msgid "State"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Alue"
+=======
+msgstr "Tila"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tila"
 >>>>>>> upstream/18.0
@@ -795,7 +914,12 @@ msgstr "Tila"
 #: model:ir.model.fields,help:account_edi.field_account_move__edi_state
 msgid "The aggregated state of all the EDIs with web-service of this move"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tämän kirjauksen kaikkien EDI web servicedien yhteenluettu tila"
+=======
+msgstr ""
+"Kaikkien EDI-tapahtumien koottu tila tämän siirron verkkopalveluiden kanssa"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Kaikkien EDI-tapahtumien koottu tila tämän siirron verkkopalveluiden kanssa"
@@ -808,8 +932,13 @@ msgid ""
 "document is processed)."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Tiedosto, jonka edi_format_id luo, kun kun lasku kirjataan (ja tämä "
 "dokumentti käsitellään)."
+=======
+"Tiedosto, jonka edi_format_id loi laskujen kirjaamisen yhteydessä "
+"(ja tämä asiakirja käsitellään)."
+>>>>>>> upstream/18.0
 =======
 "Tiedosto, jonka edi_format_id loi laskujen kirjaamisen yhteydessä "
 "(ja tämä asiakirja käsitellään)."
@@ -822,8 +951,12 @@ msgid ""
 "The following documents have already been sent and cannot be resequenced: %s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Seuraavat asiakirjat on jo lähetetty ja niitä ei voida sekvensoida "
 "uudelleen: %s"
+=======
+"Seuraavat asiakirjat on jo lähetetty eikä niitä voi uudelleensekvensoida: %s"
+>>>>>>> upstream/18.0
 =======
 "Seuraavat asiakirjat on jo lähetetty eikä niitä voi uudelleensekvensoida: %s"
 >>>>>>> upstream/18.0
@@ -836,6 +969,7 @@ msgstr "Lasku lähetetään pian osoitteeseen"
 #. module: account_edi
 #: model:ir.model.fields,help:account_edi.field_account_edi_document__error
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -901,12 +1035,21 @@ msgstr "Viimeisin virhe, joka esiintyi sähköisen laskutuksen operaatiosta."
 msgstr ""
 "Viimeisimmän sähköisen laskutustoiminnon aikana tapahtuneen virheen teksti."
 >>>>>>> upstream/18.0
+=======
+"The text of the last error that happened during Electronic Invoice operation."
+msgstr ""
+"Viimeisimmän sähköisen laskutustoiminnon aikana tapahtuneen virheen teksti."
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #: model:ir.model.constraint,message:account_edi.constraint_account_edi_format_unique_code
 msgid "This code already exists"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Koodi on jo olemassa"
+=======
+msgstr "Tämä koodi on jo olemassa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tämä koodi on jo olemassa"
 >>>>>>> upstream/18.0
@@ -916,7 +1059,11 @@ msgstr "Tämä koodi on jo olemassa"
 #: code:addons/account_edi/models/account_edi_document.py:0
 msgid "This document is being sent by another process already. "
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Joku toinen prosessi on jo lähettämässä tätä dokumenttia "
+=======
+msgstr "Toinen toiminto lähettää jo tätä asiakirjaa. "
+>>>>>>> upstream/18.0
 =======
 msgstr "Toinen toiminto lähettää jo tätä asiakirjaa. "
 >>>>>>> upstream/18.0
@@ -925,6 +1072,7 @@ msgstr "Toinen toiminto lähettää jo tätä asiakirjaa. "
 #. odoo-python
 #: code:addons/account_edi/models/account_move.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1001,11 +1149,16 @@ msgid ""
 msgstr ""
 "Tämä lasku peruttiin, vaikka EDI:en %s peruutuspyyntöä käsiteltiin vielä."
 =======
+=======
+>>>>>>> upstream/18.0
 "This invoice was canceled while the EDIs %s still had a pending cancellation "
 "request."
 msgstr ""
 "Tämä lasku peruttiin EDI-tapahtumien %s peruutuspyynnön ollessa vielä "
 "käsiteltävänä."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_edi
@@ -1013,7 +1166,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:account_edi.selection__account_move__edi_state__to_cancel
 msgid "To Cancel"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Peruttava"
+=======
+msgstr "Peru"
+>>>>>>> upstream/18.0
 =======
 msgstr "Peru"
 >>>>>>> upstream/18.0
@@ -1023,7 +1180,11 @@ msgstr "Peru"
 #: model:ir.model.fields.selection,name:account_edi.selection__account_move__edi_state__to_send
 msgid "To Send"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Lähetettäväksi"
+=======
+msgstr "Lähetä"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lähetä"
 >>>>>>> upstream/18.0
@@ -1038,6 +1199,7 @@ msgstr "Varoitus"
 #. odoo-python
 #: code:addons/account_edi/models/account_move.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1116,12 +1278,17 @@ msgstr ""
 "Et voi muokata seuraavaa päiväkirjakirjausta %s, koska sähköinen asiakirja "
 "on jo lähetetty. Käytä sen sijaan 'Pyydä EDI-peruutusta' -painiketta."
 =======
+=======
+>>>>>>> upstream/18.0
 "You can't edit the following journal entry %s because an electronic document "
 "has already been sent. Please use the 'Request EDI Cancellation' button "
 "instead."
 msgstr ""
 "Et voi muokata päiväkirjamerkintää %s, koska sähköinen asiakirja on jo "
 "lähetetty. Käytä 'Pyydä EDI-peruutusta' -painiketta."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_edi
@@ -1130,6 +1297,7 @@ msgstr ""
 msgid ""
 "You can't unlink an attachment being an EDI document sent to the government."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1202,6 +1370,10 @@ msgstr ""
 =======
 "Et voi poistaa liitteen linkitystä, koska se on viranomaiselle lähetetty EDI-"
 "asiakirja."
+>>>>>>> upstream/18.0
+=======
+"Et voi poistaa liitteen linkitystä viranomaiselle lähetetystä EDI-"
+"asiakirjasta."
 >>>>>>> upstream/18.0
 =======
 "Et voi poistaa liitteen linkitystä viranomaiselle lähetetystä EDI-"

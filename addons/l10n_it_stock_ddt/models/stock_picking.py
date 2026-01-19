@@ -52,9 +52,15 @@ class StockPicking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         super(StockPicking, self)._action_done()
         for picking in self.filtered(lambda p: p.picking_type_id.l10n_it_ddt_sequence_id):
             picking.l10n_it_ddt_number = picking.picking_type_id.l10n_it_ddt_sequence_id.next_by_id()
+=======
+        for picking in self.filtered(lambda p: p.picking_type_id.l10n_it_ddt_sequence_id):
+            picking.l10n_it_ddt_number = picking.picking_type_id.l10n_it_ddt_sequence_id.next_by_id()
+        super()._action_done()
+>>>>>>> upstream/18.0
 =======
         for picking in self.filtered(lambda p: p.picking_type_id.l10n_it_ddt_sequence_id):
             picking.l10n_it_ddt_number = picking.picking_type_id.l10n_it_ddt_sequence_id.next_by_id()

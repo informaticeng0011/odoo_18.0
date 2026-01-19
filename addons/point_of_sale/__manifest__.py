@@ -174,7 +174,10 @@
             'account/static/src/services/account_move_service.js',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             # account UI -- Edit order in PoS UI post payment
@@ -182,6 +185,9 @@
             'account/static/src/components/section_and_note_fields_backend/section_and_note_fields_backend.*',
             'account/static/src/components/product_label_section_and_note_field/product_label_section_and_note_field.*',
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
