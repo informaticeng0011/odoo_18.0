@@ -66,7 +66,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import fields, models
+=======
+from odoo import _, api, fields, models
+from odoo.exceptions import ValidationError
+>>>>>>> upstream/18.0
 =======
 from odoo import _, api, fields, models
 from odoo.exceptions import ValidationError
@@ -413,7 +418,10 @@ class Product(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -625,6 +633,9 @@ class Product(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

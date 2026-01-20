@@ -153,7 +153,11 @@ registry.category("web_tour.tours").add("shop_checkout_address_ec", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ...tourUtils.addToCart({ productName: "Test Product" }),
+=======
+        ...tourUtils.addToCart({ productName: "Test Product", expectUnloadPage: true }),
+>>>>>>> upstream/18.0
 =======
         ...tourUtils.addToCart({ productName: "Test Product", expectUnloadPage: true }),
 >>>>>>> upstream/18.0
@@ -747,6 +751,10 @@ registry.category("web_tour.tours").add("shop_checkout_address_ec", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0

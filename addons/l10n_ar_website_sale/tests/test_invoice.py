@@ -7,11 +7,19 @@ from freezegun import freeze_time
 
 from odoo.addons.account_payment.tests.common import AccountPaymentCommon
 from odoo.addons.sale.tests.common import SaleCommon
+<<<<<<< HEAD
 from odoo.addons.l10n_ar.tests.common import TestAr
 
 
 @tagged('-at_install', 'post_install', 'post_install_l10n')
 class TestWebsiteSaleInvoice(AccountPaymentCommon, SaleCommon, TestAr):
+=======
+from odoo.addons.l10n_ar.tests.common import TestArCommon
+
+
+@tagged('-at_install', 'post_install', 'post_install_l10n')
+class TestArWebsiteSaleInvoice(AccountPaymentCommon, SaleCommon, TestArCommon):
+>>>>>>> upstream/18.0
 
     @classmethod
     def setUpClass(cls):

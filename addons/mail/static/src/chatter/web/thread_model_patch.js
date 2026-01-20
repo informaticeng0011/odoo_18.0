@@ -39,6 +39,10 @@ import { Thread } from "@mail/core/common/thread_model";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { compareDatetime } from "@mail/utils/common/misc";
+>>>>>>> upstream/18.0
 =======
 import { compareDatetime } from "@mail/utils/common/misc";
 >>>>>>> upstream/18.0
@@ -203,12 +207,16 @@ patch(Thread.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             sort: (a, b) => {
                 if (a.scheduled_date === b.scheduled_date) {
                     return a.id - b.id;
                 }
                 return a.scheduled_date < b.scheduled_date ? -1 : 1;
             },
+=======
+            sort: (a, b) => compareDatetime(a.scheduled_date, b.scheduled_date) || a.id - b.id,
+>>>>>>> upstream/18.0
 =======
             sort: (a, b) => compareDatetime(a.scheduled_date, b.scheduled_date) || a.id - b.id,
 >>>>>>> upstream/18.0

@@ -163,6 +163,7 @@ class PosPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if vals.get('online_account_payment_id'):
                 online_account_payments_by_pm[pm_id].add(vals['online_account_payment_id'])
 =======
@@ -323,6 +324,9 @@ class PosPayment(models.Model):
 >>>>>>> upstream/18.0
 =======
             online_account_payments_by_pm[pm_id].add(vals.get('online_account_payment_id'))
+>>>>>>> upstream/18.0
+=======
+            online_account_payments_by_pm[pm_id].add(vals.get('online_account_payment_id') or None)
 >>>>>>> upstream/18.0
 =======
             online_account_payments_by_pm[pm_id].add(vals.get('online_account_payment_id') or None)

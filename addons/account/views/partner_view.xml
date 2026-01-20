@@ -380,9 +380,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                          invisible="duplicated_bank_account_partners_count == 0">
                         One or more Bank Accounts set on this partner are also used by other <bold><button class="alert-link" type="object" name="action_view_partner_with_same_bank" role="button" string="Partners" style="padding: 0;vertical-align: baseline;"/></bold>. Please make sure that this is a wanted behavior.
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -835,6 +838,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1156,6 +1162,7 @@
                                    string="Customer Invoices"
                                    groups="account.group_account_invoice,account.group_account_readonly">
                                 <field name="invoice_sending_method"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2465,10 +2472,16 @@
                                        placeholder="XML format"
                                        invisible="not display_invoice_edi_format"/>
 >>>>>>> upstream/18.0
+=======
+                                <field name="invoice_edi_format"
+                                       placeholder="XML format"
+                                       invisible="not display_invoice_edi_format"/>
+>>>>>>> upstream/18.0
                                 <field name="invoice_template_pdf_report_id"
                                        invisible="not display_invoice_template_pdf_report_id"
                                        options="{'no_create': True, 'no_edit': True}"/>
                             </group>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3028,6 +3041,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                             <group string="Accounting Entries" name="accounting_entries" groups="account.group_account_readonly">
                                 <field name="currency_id" invisible="1"/>
                                 <field name="property_account_receivable_id" required="True"/>
@@ -3216,6 +3231,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3838,6 +3856,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    <field name="invoice_sending_method" optional="hide"/>
+>>>>>>> upstream/18.0
 =======
                     <field name="invoice_sending_method" optional="hide"/>
 >>>>>>> upstream/18.0

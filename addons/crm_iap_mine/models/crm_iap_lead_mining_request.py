@@ -3,7 +3,11 @@
 
 import logging
 
+<<<<<<< HEAD
 from odoo import api, fields, models, _
+=======
+from odoo import api, fields, models, _, release
+>>>>>>> upstream/18.0
 from odoo.addons.iap.tools import iap_tools
 from odoo.exceptions import UserError
 from odoo.tools import is_html_empty
@@ -237,10 +241,22 @@ class CRMLeadMiningRequest(models.Model):
         server_payload = self._prepare_iap_payload()
         reveal_account = self.env['iap.account'].get('reveal')
         dbuuid = self.env['ir.config_parameter'].sudo().get_param('database.uuid')
+<<<<<<< HEAD
         params = {
             'account_token': reveal_account.account_token,
             'dbuuid': dbuuid,
             'data': server_payload
+=======
+        reveal_ids = [lead['reveal_id'] for lead in self.env['crm.lead'].search_read([('reveal_id', '!=', False)], ['reveal_id'])]
+        params = {
+            'db_uuid': dbuuid,
+            'db_version': release.version,
+            'db_lang': self.env.lang,
+            'account_token': reveal_account.account_token,
+            'country_code': self.env.company.country_id.code,
+            'query': server_payload,
+            'reveal_ids': reveal_ids
+>>>>>>> upstream/18.0
         }
         try:
             response = self._iap_contact_mining(params, timeout=300)
@@ -257,7 +273,11 @@ class CRMLeadMiningRequest(models.Model):
             raise UserError(_("Your request could not be executed: %s", e))
 
     def _iap_contact_mining(self, params, timeout=300):
+<<<<<<< HEAD
         endpoint = self.env['ir.config_parameter'].sudo().get_param('reveal.endpoint', DEFAULT_ENDPOINT) + '/iap/clearbit/2/lead_mining_request'
+=======
+        endpoint = self.env['ir.config_parameter'].sudo().get_param('reveal.endpoint', DEFAULT_ENDPOINT) + '/api/dnb/1/search_by_criteria'
+>>>>>>> upstream/18.0
         return iap_tools.iap_jsonrpc(endpoint, params=params, timeout=timeout)
 
     def _create_leads_from_response(self, result):
@@ -266,6 +286,7 @@ class CRMLeadMiningRequest(models.Model):
         lead_vals_list = []
         messages_to_post = {}
         for data in result:
+<<<<<<< HEAD
             lead_vals_list.append(self._lead_vals_from_response(data))
 
             template_values = data['company_data']
@@ -274,6 +295,20 @@ class CRMLeadMiningRequest(models.Model):
                 'people_data': data.get('people_data'),
             })
             messages_to_post[data['company_data']['clearbit_id']] = template_values
+=======
+            country = self.env['res.country'].search([('code', '=', data['country_code'])])
+            lead_vals_list.append(self._lead_vals_from_response(data))
+
+            template_values = data
+            template_values.update({
+                'flavor_text': _("Opportunity created by Odoo Lead Generation"),
+                'people_data': data.get('people_data'),
+                'country': country.name,
+                'zip_code': data.get('zip'),
+                'country_id': country.id,
+            })
+            messages_to_post[data['duns']] = template_values
+>>>>>>> upstream/18.0
         leads = self.env['crm.lead'].create(lead_vals_list)
         for lead in leads:
             if messages_to_post.get(lead.reveal_id):
@@ -287,8 +322,13 @@ class CRMLeadMiningRequest(models.Model):
     @api.model
     def _lead_vals_from_response(self, data):
         self.ensure_one()
+<<<<<<< HEAD
         company_data = data.get('company_data')
         people_data = data.get('people_data')
+=======
+        company_data = data
+        people_data = []
+>>>>>>> upstream/18.0
         lead_vals = self.env['crm.iap.lead.helpers'].lead_vals_from_response(self.lead_type, self.team_id.id, self.tag_ids.ids, self.user_id.id, company_data, people_data)
         lead_vals['lead_mining_request_id'] = self.id
         return lead_vals

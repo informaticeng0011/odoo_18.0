@@ -133,6 +133,7 @@ import requests
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -149,6 +150,11 @@ from odoo import _, api, fields, models
 from odoo import _, api, fields, models
 >>>>>>> upstream/18.0
 =======
+from odoo import _, api, fields, models
+>>>>>>> upstream/18.0
+=======
+from werkzeug import urls
+
 from odoo import _, api, fields, models
 >>>>>>> upstream/18.0
 =======
@@ -959,7 +965,11 @@ class PaymentProvider(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'return_url': f'{self.get_base_url()}{RazorpayController.OAUTH_RETURN_URL}',
+=======
+            'return_url': urls.url_join(self.get_base_url(), RazorpayController.OAUTH_RETURN_URL),
+>>>>>>> upstream/18.0
 =======
             'return_url': urls.url_join(self.get_base_url(), RazorpayController.OAUTH_RETURN_URL),
 >>>>>>> upstream/18.0
@@ -1505,7 +1515,11 @@ class PaymentProvider(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'url': f'{self.get_base_url()}/payment/razorpay/webhook',
+=======
+            'url': urls.url_join(self.get_base_url(), 'payment/razorpay/webhook'),
+>>>>>>> upstream/18.0
 =======
             'url': urls.url_join(self.get_base_url(), 'payment/razorpay/webhook'),
 >>>>>>> upstream/18.0
@@ -2041,7 +2055,10 @@ class PaymentProvider(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2445,6 +2462,9 @@ class PaymentProvider(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

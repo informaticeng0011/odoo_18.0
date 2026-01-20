@@ -76,7 +76,11 @@ function isQRDisplayedinDialog() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 function addProductandPay() {
+=======
+function addProductandPay(isPartialPay = false) {
+>>>>>>> upstream/18.0
 =======
 function addProductandPay(isPartialPay = false) {
 >>>>>>> upstream/18.0
@@ -299,7 +303,13 @@ function addProductandPay(isPartialPay = false) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         PaymentScreen.clickPaymentMethod("QR Code", true, { amount: "48" }),
+=======
+        ...(isPartialPay
+            ? [PaymentScreen.clickPaymentMethod("QR Code"), PaymentScreen.clickNumpad("+10")]
+            : [PaymentScreen.clickPaymentMethod("QR Code", true, { amount: "48" })]),
+>>>>>>> upstream/18.0
 =======
         ...(isPartialPay
             ? [PaymentScreen.clickPaymentMethod("QR Code"), PaymentScreen.clickNumpad("+10")]
@@ -652,6 +662,11 @@ registry.category("web_tour.tours").add("PaymentScreenWithQRPayment", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+            // --- FULL PAYMENT ---
+>>>>>>> upstream/18.0
 =======
 
             // --- FULL PAYMENT ---
@@ -938,7 +953,10 @@ registry.category("web_tour.tours").add("PaymentScreenWithQRPayment", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1108,6 +1126,9 @@ registry.category("web_tour.tours").add("PaymentScreenWithQRPayment", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

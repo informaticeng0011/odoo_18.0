@@ -124,7 +124,10 @@ from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.account_edi.tests.common import AccountEdiTestCommon
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -507,6 +510,7 @@ class TestGenericGCC(TestGenericLocalization):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @AccountEdiTestCommon.setup_edi_format('l10n_sa_edi.edi_sa_zatca')
     @AccountTestInvoicingCommon.setup_country('sa')
     def setUpClass(cls):
@@ -516,6 +520,8 @@ class TestGenericGCC(TestGenericLocalization):
         cls.company.write({
             'name': 'SA Company Test',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -895,6 +901,9 @@ class TestGenericGCC(TestGenericLocalization):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1281,6 +1290,7 @@ class TestGenericGCC(TestGenericLocalization):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'l10n_sa_edi_building_number': '1234',
         })
 
@@ -1288,6 +1298,9 @@ class TestGenericGCC(TestGenericLocalization):
         if self.env['ir.module.module']._get('l10n_sa_edi').state != 'installed':
             self.skipTest("l10n_sa_edi is not installed")
         super().test_generic_localization()
+=======
+        })
+>>>>>>> upstream/18.0
 =======
         })
 >>>>>>> upstream/18.0

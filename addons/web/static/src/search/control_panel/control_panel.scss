@@ -164,7 +164,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             .btn, .btn:focus {
+=======
+            .btn, .btn:focus, .btn.active {
+>>>>>>> upstream/18.0
 =======
             .btn, .btn:focus, .btn.active {
 >>>>>>> upstream/18.0
@@ -659,6 +663,13 @@
         background-color: $border-color;
         content: "";
     }
+<<<<<<< HEAD
+=======
+
+    &:where(:not(:has(.o_dragged_embedded_action))) {
+        overflow: hidden;
+    }
+>>>>>>> upstream/18.0
 }
 
 .o_embedded_actions_dropdown_menu {

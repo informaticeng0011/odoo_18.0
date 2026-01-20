@@ -85,6 +85,7 @@ class TestLeadMine(TestCrmCommon, MockIAPReveal):
             self.assertEqual(lead.team_id, self.sales_team_1)
             self.assertEqual(lead.user_id, self.user_sales_leads)
             # iap
+<<<<<<< HEAD
             self.assertEqual(lead.reveal_id, '123_ClearbitID_%s' % base_name, 'Ensure reveal_id is set to clearbit ID')
             # clearbit information
             self.assertEqual(lead.contact_name, 'Contact %s 0' % base_name)
@@ -99,6 +100,19 @@ class TestLeadMine(TestCrmCommon, MockIAPReveal):
             self.assertEqual(lead.state_id, state_de)
             self.assertEqual(lead.street, 'Mennrather Str. 123456')
             self.assertEqual(lead.website, 'https://www.%s.de' % base_name)
+=======
+            self.assertEqual(lead.reveal_id, '123456789', 'Ensure reveal_id is set to Duns')
+            # DnB information
+            self.assertFalse(lead.contact_name)
+            self.assertEqual(lead.city, 'Mönchengladbach')
+            self.assertEqual(lead.country_id, country_de)
+            self.assertFalse(lead.partner_id)
+            self.assertEqual(lead.partner_name, '%s GmbH' % base_name)
+            self.assertEqual(lead.phone, '4930499193937')
+            self.assertEqual(lead.state_id, state_de)
+            self.assertEqual(lead.street, 'Mennrather Str. 123456')
+            self.assertEqual(lead.website, 'https://%s.de' % base_name)
+>>>>>>> upstream/18.0
             self.assertEqual(lead.zip, '41179')
 
     @users('user_sales_manager')
@@ -126,6 +140,7 @@ class TestLeadMine(TestCrmCommon, MockIAPReveal):
             self.assertEqual(lead.team_id, self.sales_team_1)
             self.assertEqual(lead.user_id, self.user_sales_leads)
             # iap
+<<<<<<< HEAD
             self.assertEqual(lead.reveal_id, '123_ClearbitID_%s' % base_name, 'Ensure reveal_id is set to clearbit ID')
             # clearbit information
             self.assertFalse(lead.contact_name)
@@ -139,4 +154,17 @@ class TestLeadMine(TestCrmCommon, MockIAPReveal):
             self.assertEqual(lead.state_id, state_de)
             self.assertEqual(lead.street, 'Mennrather Str. 123456')
             self.assertEqual(lead.website, 'https://www.%s.de' % base_name)
+=======
+            self.assertEqual(lead.reveal_id, '123456789', 'Ensure reveal_id is set to Duns')
+            # DnB information
+            self.assertFalse(lead.contact_name)
+            self.assertEqual(lead.city, 'Mönchengladbach')
+            self.assertEqual(lead.country_id, country_de)
+            self.assertFalse(lead.partner_id)
+            self.assertEqual(lead.partner_name, '%s GmbH' % base_name)
+            self.assertEqual(lead.phone, '4930499193937')
+            self.assertEqual(lead.state_id, state_de)
+            self.assertEqual(lead.street, 'Mennrather Str. 123456')
+            self.assertEqual(lead.website, 'https://%s.de' % base_name)
+>>>>>>> upstream/18.0
             self.assertEqual(lead.zip, '41179')

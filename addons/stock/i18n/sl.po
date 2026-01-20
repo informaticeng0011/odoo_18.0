@@ -81,6 +81,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* stock
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -783,6 +784,9 @@
 =======
 # * stock
 >>>>>>> upstream/18.0
+=======
+# * stock
+>>>>>>> upstream/18.0
 #
 # Translators:
 # JernejEditor, 2024
@@ -791,6 +795,7 @@
 # Katja Deržič, 2025
 # Wil Odoo, 2025
 # Aleš Pipan, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1390,11 +1395,16 @@
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # Tadej Vengust <tadej.vengust@implex.si>, 2025.
 # Jan Zorko <jan.zorko@implex.si>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # Žiga Trček <ziga.trcek@implex.si>, 2025, 2026.
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1402,6 +1412,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2403,12 +2414,17 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:36+0000\n"
 "PO-Revision-Date: 2026-01-17 09:09+0000\n"
 "Last-Translator: Žiga Trček <ziga.trcek@implex.si>\n"
 "Language-Team: Slovenian <https://translate.odoo.com/projects/odoo-18/stock/"
 "sl/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2416,6 +2432,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3049,6 +3066,11 @@ msgstr ""
 "n%100==4 ? 2 : 3;\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3;\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #. odoo-python
@@ -3186,7 +3208,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Transfers %(transfer_list)s: You need to supply a Lot/Serial number for products %(product_list)s."
+=======
+"Transfers %(transfer_list)s: You need to supply a Lot/Serial number for "
+"products %(product_list)s."
+>>>>>>> upstream/18.0
 =======
 "Transfers %(transfer_list)s: You need to supply a Lot/Serial number for "
 "products %(product_list)s."
@@ -3852,9 +3879,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The quantity done for the product %(product)s doesn't respect the rounding precision defined on the unit of measure %(unit)s.\n"
 "Please change the quantity done or the rounding precision of your unit of measure."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4246,6 +4276,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4641,6 +4674,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 " * Waiting another operation: This transfer is waiting for another operation before being ready.\n"
 " * Waiting: The transfer is waiting for the availability of some products.\n"
 "(a) The shipping policy is \"As soon as possible\": no product could be reserved.\n"
@@ -4649,6 +4683,8 @@ msgid ""
 "(a) The shipping policy is \"As soon as possible\": at least one product has been reserved.\n"
 "(b) The shipping policy is \"When all products are ready\": all product have been reserved.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5048,6 +5084,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5388,6 +5427,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6040,6 +6080,10 @@ msgid ""
 "%(operations)s have default source or destination locations within warehouse "
 "%(warehouse)s, therefore you cannot archive it."
 >>>>>>> upstream/18.0
+=======
+"%(operations)s have default source or destination locations within warehouse "
+"%(warehouse)s, therefore you cannot archive it."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -6123,7 +6167,11 @@ msgid "%(product)s: Insufficient Quantity To Scrap"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(product)s: Nezadostna količina za zavreči"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(product)s: Nezadostna količina za zavreči"
 >>>>>>> upstream/18.0
@@ -6360,6 +6408,7 @@ msgstr "%(product)s: Nezadostna količina za zavreči"
 #. odoo-python
 #: code:addons/stock/models/stock_move.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7013,6 +7062,10 @@ msgid ""
 "%(product_name)s --> Product UoM is %(product_uom)s (%"
 "(product_uom_category)s) - Move UoM is %(move_uom)s (%(move_uom_category)s)"
 >>>>>>> upstream/18.0
+=======
+"%(product_name)s --> Product UoM is %(product_uom)s (%"
+"(product_uom_category)s) - Move UoM is %(move_uom)s (%(move_uom_category)s)"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -7114,7 +7167,11 @@ msgid "%s days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s dni"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s dni"
 >>>>>>> upstream/18.0
@@ -7319,6 +7376,7 @@ msgstr ""
 
 #. module: stock
 #: model:ir.actions.report,print_report_name:stock.action_report_delivery
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7900,6 +7958,10 @@ msgstr "'Dobavnica - %s - %s' % (object.partner_id.name or '', object.name)"
 msgid "'Delivery Slip - %s - %s' % (object.partner_id.name or '', object.name)"
 msgstr "'Dobavnica - %s - %s' % (object.partner_id.name or '', object.name)"
 >>>>>>> upstream/18.0
+=======
+msgid "'Delivery Slip - %s - %s' % (object.partner_id.name or '', object.name)"
+msgstr "'Dobavnica - %s - %s' % (object.partner_id.name or '', object.name)"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.actions.report,print_report_name:stock.action_report_location_barcode
@@ -8090,7 +8152,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "* Waiting Availability: The stock move is confirmed but the product can't be reserved.\n"
+=======
+"* Waiting Availability: The stock move is confirmed but the product can't be "
+"reserved.\n"
+>>>>>>> upstream/18.0
 =======
 "* Waiting Availability: The stock move is confirmed but the product can't be "
 "reserved.\n"
@@ -8752,6 +8819,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "* Vendor Location: Virtual location representing the source location for products coming from your vendors\n"
 "* View: Virtual location used to create a hierarchical structures for your warehouse, aggregating its child locations ; can't directly contain products\n"
 "* Internal Location: Physical locations inside your own warehouses,\n"
@@ -8760,6 +8828,8 @@ msgid ""
 "* Production: Virtual counterpart location for production operations: this location consumes the components and produces finished products\n"
 "* Transit Location: Counterpart location that should be used in inter-company or inter-warehouses operations"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9161,6 +9231,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9632,7 +9705,11 @@ msgid "1 Day"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "1 Dan"
+>>>>>>> upstream/18.0
 =======
 msgstr "1 Dan"
 >>>>>>> upstream/18.0
@@ -10409,7 +10486,11 @@ msgid "2023-01-01"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "2023-01-01"
+>>>>>>> upstream/18.0
 =======
 msgstr "2023-01-01"
 >>>>>>> upstream/18.0
@@ -11185,7 +11266,11 @@ msgid "3.00"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "3.00"
+>>>>>>> upstream/18.0
 =======
 msgstr "3.00"
 >>>>>>> upstream/18.0
@@ -11874,6 +11959,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<br/>\n"
+"                    <strong>Trenutni inventar: </strong>"
+>>>>>>> upstream/18.0
 =======
 "<br/>\n"
 "                    <strong>Trenutni inventar: </strong>"
@@ -12332,8 +12422,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<br>If the products are not available in <b>%s</b>, a rule will be triggered"
 " to bring the missing quantity in this location."
+=======
+"<br>If the products are not available in <b>%s</b>, a rule will be triggered "
+"to bring the missing quantity in this location."
+>>>>>>> upstream/18.0
 =======
 "<br>If the products are not available in <b>%s</b>, a rule will be triggered "
 "to bring the missing quantity in this location."
@@ -12999,6 +13094,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Hello <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>,<br/><br/>\n"
 "        We are glad to inform you that your order has been shipped.\n"
 "        <t t-if=\"hasattr(object, 'carrier_tracking_ref') and object.carrier_tracking_ref\">\n"
@@ -13014,6 +13110,8 @@ msgid ""
 "                <t t-else=\"\">\n"
 "                    <a t-attf-href=\"{{ object.carrier_tracking_url }}\" target=\"_blank\" t-out=\"object.carrier_tracking_ref or ''\"/>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13421,6 +13519,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13818,12 +13919,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Please find your delivery order attached for more details.<br/><br/>\n"
 "        Thank you,\n"
 "        <t t-if=\"user.signature\" data-o-mail-quote-container=\"1\">\n"
 "            <br/>\n"
 "            <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14218,6 +14322,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14615,9 +14722,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-clock-o\" role=\"img\" aria-label=\"Date\" title=\"Date\"/>"
 msgstr "<i class=\"fa fa-clock-o\" role=\"img\" aria-label=\"Date\" title=\"Date\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15009,6 +15119,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15403,11 +15516,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                All products could not be reserved. Click on the \"Check Availability\" button to try to reserve products."
 msgstr ""
 "<i class=\"fa fa-exclamation-triangle\"/>\n"
 "                                Vseh izdelkov ni bilo mogoče rezervirati. Kliknite na gumb \"Preveri razpoložljivost\", da poskusite rezervirati izdelke."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15802,6 +15918,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16235,7 +16354,11 @@ msgid "<span class=\"o_stat_text\">Product Moves</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Premiki izdelkov</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Premiki izdelkov</span>"
 >>>>>>> upstream/18.0
@@ -16530,7 +16653,11 @@ msgid "<span class=\"o_stat_text\">Putaway Rules</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Pravila odlaganja</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Pravila odlaganja</span>"
 >>>>>>> upstream/18.0
@@ -16772,7 +16899,11 @@ msgid "<span class=\"o_stat_text\">Storage Capacities</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Skladiščne zmogljivosti</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Skladiščne zmogljivosti</span>"
 >>>>>>> upstream/18.0
@@ -17049,7 +17180,11 @@ msgid "<span>On Hand: </span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Na zalogi: </span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Na zalogi: </span>"
 >>>>>>> upstream/18.0
@@ -17333,6 +17468,7 @@ msgstr ""
 msgid "<strong>Customer Address</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: stock
@@ -17732,6 +17868,11 @@ msgstr "<strong>Naslov stranke</strong>"
 
 #. module: stock
 >>>>>>> upstream/18.0
+=======
+msgstr "<strong>Naslov stranke</strong>"
+
+#. module: stock
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:stock.report_delivery_document
 msgid "<strong>Delivered</strong>"
 msgstr "<strong>Dostavljeno</strong>"
@@ -17867,6 +18008,9 @@ msgstr "<strong>Dostavljeno</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18266,8 +18410,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "quantity and now, the difference of quantity is not consistent "
 "anymore.</strong>"
+=======
+"quantity and now, the difference of quantity is not consistent anymore.</"
+"strong>"
+>>>>>>> upstream/18.0
 =======
 "quantity and now, the difference of quantity is not consistent anymore.</"
 "strong>"
@@ -18948,7 +19097,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19344,6 +19496,9 @@ msgstr "<strong>Naročeno</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19773,7 +19928,11 @@ msgid "? This may lead to inconsistencies in your inventory."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "? To lahko privede do nedoslednosti v vašem inventarju."
+>>>>>>> upstream/18.0
 =======
 msgstr "? To lahko privede do nedoslednosti v vašem inventarju."
 >>>>>>> upstream/18.0
@@ -20173,8 +20332,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Activate this function to get all quantities to replenish at this particular"
 " location"
+=======
+"Activate this function to get all quantities to replenish at this particular "
+"location"
+>>>>>>> upstream/18.0
 =======
 "Activate this function to get all quantities to replenish at this particular "
 "location"
@@ -20902,9 +21066,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Add and customize route operations to process product moves in your warehouse(s): e.g. unload > quality control > stock for incoming products, pick > pack > ship for outgoing products. \n"
 " You can also set putaway strategies on warehouse locations in order to send incoming products into specific child locations straight away (e.g. specific bins, racks)."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21298,6 +21465,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22279,6 +22449,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Spodnje besedilo služi kot predlog in ne prevzema odgovornosti podjetja Odoo"
 " S.A."
@@ -22578,6 +22749,10 @@ msgstr ""
 =======
 "Spodnje besedilo služi kot predlog in ne prevzema odgovornosti podjetja Odoo"
 " S.A."
+>>>>>>> upstream/18.0
+=======
+"Spodnje besedilo služi kot predlog in ne prevzema odgovornosti podjetja Odoo "
+"S.A."
 >>>>>>> upstream/18.0
 =======
 "Spodnje besedilo služi kot predlog in ne prevzema odgovornosti podjetja Odoo "
@@ -23404,8 +23579,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Changing the Lot/Serial number for move lines with different products is not"
 " allowed."
+=======
+"Changing the Lot/Serial number for move lines with different products is not "
+"allowed."
+>>>>>>> upstream/18.0
 =======
 "Changing the Lot/Serial number for move lines with different products is not "
 "allowed."
@@ -24063,7 +24243,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Označite, če želite to lokacijo uporabljati za izmet."
+=======
+msgstr "Označite, če želite to lokacijo uporabljati za odpad."
+>>>>>>> upstream/18.0
 =======
 msgstr "Označite, če želite to lokacijo uporabljati za odpad."
 >>>>>>> upstream/18.0
@@ -24540,11 +24724,14 @@ msgstr "Obdelava stroškov dostave in odprema preko DHL"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 msgid ""
 "Compute shipping costs and ship with DHL<br/>\n"
 "                                    <strong>(please go to Home&gt;Apps to install)</strong>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24936,6 +25123,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25329,6 +25519,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25731,11 +25924,14 @@ msgstr "Obdelava stroškov dostave in odprema preko FedEx"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 msgid ""
 "Compute shipping costs and ship with FedEx<br/>\n"
 "                                    <strong>(please go to Home&gt;Apps to install)</strong>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26127,6 +26323,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26520,6 +26719,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26932,11 +27134,14 @@ msgstr "Obdelava stroškov dostave in odprema preko UPS"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 msgid ""
 "Compute shipping costs and ship with UPS<br/>\n"
 "                                    <strong>(please go to Home&gt;Apps to install)</strong>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -27328,6 +27533,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27721,6 +27929,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -28118,11 +28329,14 @@ msgstr "Obdelava stroškov dostave in odprema preko USPS"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 msgid ""
 "Compute shipping costs and ship with USPS<br/>\n"
 "                                    <strong>(please go to Home&gt;Apps to install)</strong>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -28514,6 +28728,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -28907,6 +29124,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -29355,7 +29575,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Consider product forecast these many days in the future upon product replenishment, set to 0 for just-in-time.\n"
+=======
+"Consider product forecast these many days in the future upon product "
+"replenishment, set to 0 for just-in-time.\n"
+>>>>>>> upstream/18.0
 =======
 "Consider product forecast these many days in the future upon product "
 "replenishment, set to 0 for just-in-time.\n"
@@ -30084,7 +30309,11 @@ msgid "Control panel buttons"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gumbi nadzorne plošče"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gumbi nadzorne plošče"
 >>>>>>> upstream/18.0
@@ -30631,7 +30860,11 @@ msgid "Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Štetje"
+=======
+msgstr "Število"
+>>>>>>> upstream/18.0
 =======
 msgstr "Število"
 >>>>>>> upstream/18.0
@@ -30850,6 +31083,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock.view_backorder_confirmation
 msgid ""
 "Create a backorder if you expect to process the remaining\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -31501,6 +31735,10 @@ msgid ""
 "                            products later. Do not create a backorder if you "
 "will not\n"
 >>>>>>> upstream/18.0
+=======
+"                            products later. Do not create a backorder if you "
+"will not\n"
+>>>>>>> upstream/18.0
 "                            process the remaining products."
 msgstr ""
 
@@ -31583,6 +31821,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ustvarite nova pravila odlaganja da avtomatsko usmerite specifične izdelke "
+"na primerne ciljne lokacije po sprejemu."
+>>>>>>> upstream/18.0
 =======
 "Ustvarite nova pravila odlaganja da avtomatsko usmerite specifične izdelke "
 "na primerne ciljne lokacije po sprejemu."
@@ -32079,7 +32322,11 @@ msgid "Creation date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datum nastanka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Datum nastanka"
 >>>>>>> upstream/18.0
@@ -32652,6 +32899,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods stored at this Location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
 "stored in the Stock Location of the Warehouse of this Shop, or any of its children.\n"
@@ -32662,6 +32910,8 @@ msgstr ""
 "V kontekstu posameznega skladišča vključuje blago shranjeno na lokaciji zaloge tega skladišča ali njemu podrejenih.\n"
 "Drugače vključuje blago shranjeno na katerikoli lokaciji zaloge tipa 'Interna'."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -33065,6 +33315,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -33542,7 +33795,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -33938,6 +34194,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -34406,9 +34665,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Day of the month when the annual inventory should occur. If zero or negative, then the first day of the month will be selected instead.\n"
 "        If greater than the last day of a month, then the last day of the month will be selected instead."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -34800,6 +35062,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -35311,6 +35576,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Defines the default method used for suggesting the exact location (shelf) where to take the products from, which lot etc. for this location. This method can be enforced at the product category level, and a fallback is made on the parent locations if none is set here.\n"
 "\n"
 "FIFO: products/lots that were stocked first will be moved out first.\n"
@@ -35318,6 +35584,8 @@ msgid ""
 "Closet location: products/lots closest to the target location will be moved out first.\n"
 "FEFO: products/lots with the closest removal date will be moved out first (the availability of this method depends on the \"Expiration Dates\" setting)."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -35717,6 +35985,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -36228,7 +36499,11 @@ msgid "Description on Picking"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Opis na zbirniku"
+=======
+msgstr "Opis na skladiščnem prenosu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Opis na skladiščnem prenosu"
 >>>>>>> upstream/18.0
@@ -36627,7 +36902,11 @@ msgid "Destination location"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ciljna lokacija"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ciljna lokacija"
 >>>>>>> upstream/18.0
@@ -37411,6 +37690,7 @@ msgid "Do you confirm you want to scrap"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: stock
@@ -37783,6 +38063,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "Potrjujete, da želite zavreči"
 
 #. module: stock
@@ -37863,6 +38145,9 @@ msgstr "Potrjujete, da želite zavreči"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -38115,7 +38400,11 @@ msgid "Edit Product"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Urejanje artikla"
+>>>>>>> upstream/18.0
 =======
 msgstr "Urejanje artikla"
 >>>>>>> upstream/18.0
@@ -38198,6 +38487,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_form
 #: model_terms:ir.ui.view,arch_db:stock.vpicktree
 msgid "Effective Date"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -38507,6 +38797,9 @@ msgstr "Izvedeno"
 =======
 msgstr "Izvedeno"
 >>>>>>> upstream/18.0
+=======
+msgstr "Izvedeno"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
@@ -38537,6 +38830,7 @@ msgstr ""
 #. module: stock
 #: model_terms:digest.tip,tip_description:stock.digest_tip_stock_0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -38930,6 +39224,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Enjoy a quick-paced experience with the Odoo barcode app. It is blazing fast "
 "and works even without a stable internet connection. It supports all flows: "
 "inventory adjustments, batch picking, moving lots or pallets, low inventory "
@@ -39063,6 +39359,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -39473,7 +39772,11 @@ msgid "Ensure the traceability of a storable product in your warehouse."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zagotovite sledljivost skladiščenega izdelka v vašem skladišču."
+>>>>>>> upstream/18.0
 =======
 msgstr "Zagotovite sledljivost skladiščenega izdelka v vašem skladišču."
 >>>>>>> upstream/18.0
@@ -40092,7 +40395,11 @@ msgid "Favorite User"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Priljubljeni uporabnik"
+>>>>>>> upstream/18.0
 =======
 msgstr "Priljubljeni uporabnik"
 >>>>>>> upstream/18.0
@@ -40627,6 +40934,10 @@ msgstr "Februar"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -41175,7 +41486,11 @@ msgid "Forecast Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poročilo napovedi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poročilo napovedi"
 >>>>>>> upstream/18.0
@@ -41485,6 +41800,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods stored in this location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
 "Otherwise, this includes goods stored in any Stock Location with 'internal' type."
@@ -41494,6 +41810,8 @@ msgstr ""
 "V kontekstu posameznega skladišča vključuje blago shranjeno na lokaciji zaloge tega skladišča in njemu podrejenih.\n"
 "Drugače vključuje blago shranjeno na katerikoli lokaciji zaloge tipa 'interna'."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -41895,6 +42213,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -42289,10 +42610,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods stored in this location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
 "Otherwise, this includes goods stored in any Stock Location with 'internal' type."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -42686,6 +43010,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -43285,8 +43612,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Give to the more specialized category, a higher priority to have them in top"
 " of the list."
+=======
+"Give to the more specialized category, a higher priority to have them in top "
+"of the list."
+>>>>>>> upstream/18.0
 =======
 "Give to the more specialized category, a higher priority to have them in top "
 "of the list."
@@ -43956,7 +44288,11 @@ msgid "Has Scrap Moves"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ima premike odpada"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ima premike odpada"
 >>>>>>> upstream/18.0
@@ -44399,7 +44735,11 @@ msgid "Horizon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obzorje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obzorje"
 >>>>>>> upstream/18.0
@@ -45075,8 +45415,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If a separator is defined, a QR code containing all serial numbers contained"
 " in package will be generated, using the defined character(s) to separate "
+=======
+"If a separator is defined, a QR code containing all serial numbers contained "
+"in package will be generated, using the defined character(s) to separate "
+>>>>>>> upstream/18.0
 =======
 "If a separator is defined, a QR code containing all serial numbers contained "
 "in package will be generated, using the defined character(s) to separate "
@@ -45756,8 +46101,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Če je označeno, velja, da se ob preklicu tega premika prekliče tudi povezani"
 " premik"
+=======
+"Če je označeno, velja, da se ob preklicu tega premika prekliče tudi povezani "
+"premik"
+>>>>>>> upstream/18.0
 =======
 "Če je označeno, velja, da se ob preklicu tega premika prekliče tudi povezani "
 "premik"
@@ -46417,8 +46767,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If the UoM of a lot is not 'units', the lot will be considered as a unit and"
 " only one label will be printed for this lot."
+=======
+"If the UoM of a lot is not 'units', the lot will be considered as a unit and "
+"only one label will be printed for this lot."
+>>>>>>> upstream/18.0
 =======
 "If the UoM of a lot is not 'units', the lot will be considered as a unit and "
 "only one label will be printed for this lot."
@@ -47084,8 +47439,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Če je polje neoznačeno, bo omogočilo skrivanje proge, ne da bi jo "
 "odstranili."
+=======
+"Če je polje neoznačeno, bo omogočilo skrivanje proge, ne da bi jo odstranili."
+>>>>>>> upstream/18.0
 =======
 "Če je polje neoznačeno, bo omogočilo skrivanje proge, ne da bi jo odstranili."
 >>>>>>> upstream/18.0
@@ -47648,8 +48007,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If this checkbox is ticked, Odoo will automatically print the product labels"
 " of a picking when it is validated."
+=======
+"If this checkbox is ticked, Odoo will automatically print the product labels "
+"of a picking when it is validated."
+>>>>>>> upstream/18.0
 =======
 "If this checkbox is ticked, Odoo will automatically print the product labels "
 "of a picking when it is validated."
@@ -48319,8 +48683,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If this checkbox is ticked, Odoo will automatically print the return slip of"
 " a picking when it is validated."
+=======
+"If this checkbox is ticked, Odoo will automatically print the return slip of "
+"a picking when it is validated."
+>>>>>>> upstream/18.0
 =======
 "If this checkbox is ticked, Odoo will automatically print the return slip of "
 "a picking when it is validated."
@@ -48985,8 +49354,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If this checkbox is ticked, the pickings lines will represent detailed stock"
 " operations. If not, the picking lines will represent an aggregate of "
+=======
+"If this checkbox is ticked, the pickings lines will represent detailed stock "
+"operations. If not, the picking lines will represent an aggregate of "
+>>>>>>> upstream/18.0
 =======
 "If this checkbox is ticked, the pickings lines will represent detailed stock "
 "operations. If not, the picking lines will represent an aggregate of "
@@ -49662,8 +50036,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If this picking was created as a return of another picking, this field links"
 " to the original picking."
+=======
+"If this picking was created as a return of another picking, this field links "
+"to the original picking."
+>>>>>>> upstream/18.0
 =======
 "If this picking was created as a return of another picking, this field links "
 "to the original picking."
@@ -50322,8 +50701,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Če je bila odprema deljena, to polje poveže k odpremi, ki vsebuje že izveden"
 " del."
+=======
+"Če je bila odprema deljena, to polje poveže k odpremi, ki vsebuje že izveden "
+"del."
+>>>>>>> upstream/18.0
 =======
 "Če je bila odprema deljena, to polje poveže k odpremi, ki vsebuje že izveden "
 "del."
@@ -51033,9 +51417,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In case of outgoing flow, validate the transfer before this date to allow to deliver at promised date to the customer.\n"
 "        In case of incoming flow, validate the transfer before this date in order to have these products in stock at the date promised by the supplier"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -51427,6 +51814,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -51872,8 +52262,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Indicates the gap between the product's theoretical quantity and its counted"
 " quantity."
+=======
+"Indicates the gap between the product's theoretical quantity and its counted "
+"quantity."
+>>>>>>> upstream/18.0
 =======
 "Indicates the gap between the product's theoretical quantity and its counted "
 "quantity."
@@ -52624,8 +53019,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Internal reference number in case it differs from the manufacturer's "
 "lot/serial number"
+=======
+"Internal reference number in case it differs from the manufacturer's lot/"
+"serial number"
+>>>>>>> upstream/18.0
 =======
 "Internal reference number in case it differs from the manufacturer's lot/"
 "serial number"
@@ -53270,7 +53670,11 @@ msgid "Inventory Frequency"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Frekvenca inventure"
+>>>>>>> upstream/18.0
 =======
 msgstr "Frekvenca inventure"
 >>>>>>> upstream/18.0
@@ -53455,7 +53859,11 @@ msgid "Inventory Quantity Set"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nabor količin zalog"
+=======
+msgstr "Prešteta količina nastavljena"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prešteta količina nastavljena"
 >>>>>>> upstream/18.0
@@ -53709,7 +54117,11 @@ msgid "Is a Scrap Location?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Je lokacija odpisa?"
+=======
+msgstr "Je lokacija odpada?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Je lokacija odpada?"
 >>>>>>> upstream/18.0
@@ -54147,7 +54559,11 @@ msgid "John Doe"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Janez Novak"
+>>>>>>> upstream/18.0
 =======
 msgstr "Janez Novak"
 >>>>>>> upstream/18.0
@@ -54848,7 +55264,11 @@ msgid "Kanban Dashboard Graph"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Graf nadzorne plošče Kanban"
+>>>>>>> upstream/18.0
 =======
 msgstr "Graf nadzorne plošče Kanban"
 >>>>>>> upstream/18.0
@@ -55657,7 +56077,11 @@ msgid "Last 3 Months"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zadnji 3 meseci"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zadnji 3 meseci"
 >>>>>>> upstream/18.0
@@ -56333,7 +56757,11 @@ msgid "Last Used"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nazadnje uporabljeno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nazadnje uporabljeno"
 >>>>>>> upstream/18.0
@@ -56802,7 +57230,11 @@ msgid "Late Availability"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zapoznela razpoložljivost"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zapoznela razpoložljivost"
 >>>>>>> upstream/18.0
@@ -57205,7 +57637,11 @@ msgid "Lock/Unlock"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zakleni/odkleni"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zakleni/odkleni"
 >>>>>>> upstream/18.0
@@ -57655,7 +58091,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            From their traceability report you will see the full history of their use, as well as their composition."
+=======
+"            From their traceability report you will see the full history of "
+"their use, as well as their composition."
+>>>>>>> upstream/18.0
 =======
 "            From their traceability report you will see the full history of "
 "their use, as well as their composition."
@@ -58352,8 +58793,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Upravljajte z embalažo izdelkov (npr. paket 6 plastenk, škatla z 10-imi "
 "kosi)"
+=======
+"Upravljajte z embalažo izdelkov (npr. paket 6 plastenk, škatla z 10-imi kosi)"
+>>>>>>> upstream/18.0
 =======
 "Upravljajte z embalažo izdelkov (npr. paket 6 plastenk, škatla z 10-imi kosi)"
 >>>>>>> upstream/18.0
@@ -59081,8 +59526,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Moves created through this orderpoint will be put in this procurement group."
 " If none is given, the moves generated by stock rules will be grouped into "
+=======
+"Moves created through this orderpoint will be put in this procurement group. "
+"If none is given, the moves generated by stock rules will be grouped into "
+>>>>>>> upstream/18.0
 =======
 "Moves created through this orderpoint will be put in this procurement group. "
 "If none is given, the moves generated by stock rules will be grouped into "
@@ -59765,8 +60215,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "My Company (Chicago) undertakes to do its best to supply performant services"
 " in due time in accordance with the agreed timeframes. However, none of its "
+=======
+"My Company (Chicago) undertakes to do its best to supply performant services "
+"in due time in accordance with the agreed timeframes. However, none of its "
+>>>>>>> upstream/18.0
 =======
 "My Company (Chicago) undertakes to do its best to supply performant services "
 "in due time in accordance with the agreed timeframes. However, none of its "
@@ -60687,7 +61142,11 @@ msgid "No product found. Let's create one!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ni najdenega izdelka. Ustvarimo enega!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ni najdenega izdelka. Ustvarimo enega!"
 >>>>>>> upstream/18.0
@@ -61369,6 +61828,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ni bilo najdenega pravila za dopolnitev \"%(product)s\" v \"%(location)s\".\n"
+"Preverite nastavitev prog na izdelku."
+>>>>>>> upstream/18.0
 =======
 "Ni bilo najdenega pravila za dopolnitev \"%(product)s\" v \"%(location)s\".\n"
 "Preverite nastavitev prog na izdelku."
@@ -61935,10 +62399,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Odoo opens a PDF preview by default. If you (Enterprise users only) want to print instantly,\n"
 "                                        install the IoT App on a computer that is on the same local network as the\n"
 "                                        barcode operator and configure the routing of the reports.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -62332,6 +62799,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -62740,7 +63210,11 @@ msgid "Office Chair"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pisarniški stol"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pisarniški stol"
 >>>>>>> upstream/18.0
@@ -63227,7 +63701,11 @@ msgid "On Hand Quantity"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Količina"
+>>>>>>> upstream/18.0
 =======
 msgstr "Količina"
 >>>>>>> upstream/18.0
@@ -63380,7 +63858,11 @@ msgid "On hand Quantity"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Količina"
+>>>>>>> upstream/18.0
 =======
 msgstr "Količina"
 >>>>>>> upstream/18.0
@@ -63535,7 +64017,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Količina, ki ni rezervirana na prenosu, v privzeti enoti mere izdelka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Količina, ki ni rezervirana na prenosu, v privzeti enoti mere izdelka"
 >>>>>>> upstream/18.0
@@ -63910,7 +64396,11 @@ msgid "Operation not supported"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Operacija ni podprta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Operacija ni podprta"
 >>>>>>> upstream/18.0
@@ -64722,8 +65212,12 @@ msgid "Optional: next stock move when chaining them"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Opcijsko: naslednja transakcija zaloge, če gre za povezane transakcije"
+=======
+msgstr "Opcijsko: naslednja transakcija zaloge, če gre za povezane transakcije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Opcijsko: naslednja transakcija zaloge, če gre za povezane transakcije"
 >>>>>>> upstream/18.0
@@ -65329,8 +65823,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "My Company (Chicago) will be authorized to suspend any provision of services"
 " without prior warning in the event of late payment."
+=======
+"My Company (Chicago) will be authorized to suspend any provision of services "
+"without prior warning in the event of late payment."
+>>>>>>> upstream/18.0
 =======
 "My Company (Chicago) will be authorized to suspend any provision of services "
 "without prior warning in the event of late payment."
@@ -66242,12 +66741,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Packages are usually created via transfers (during pack operation) and can contain different products.\n"
 "                Once created, the whole package can be moved at once, or products can be unpacked and moved as single units again."
 msgstr ""
 "Paketi se običajno ustvarijo prek prenosov (med postopkom pakiranja) in lahko vsebujejo različne izdelke.\n"
 "Ko so ustvarjeni, se celoten paket lahko premakne naenkrat ali pa se izdelki razpakirajo in ponovno premaknejo kot posamezne enote."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -66644,6 +67146,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -67105,7 +67610,11 @@ msgid "Pallet"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Paleta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Paleta"
 >>>>>>> upstream/18.0
@@ -68003,7 +68512,11 @@ msgid "Product Moves (Stock Move Line)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Premiki zaloge"
+>>>>>>> upstream/18.0
 =======
 msgstr "Premiki zaloge"
 >>>>>>> upstream/18.0
@@ -68441,8 +68954,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Polaganje proizvodov v pakiranja (npr. škatle, zaboji) in sledenje "
 "pakiranjem"
+=======
+"Polaganje proizvodov v pakiranja (npr. škatle, zaboji) in sledenje pakiranjem"
+>>>>>>> upstream/18.0
 =======
 "Polaganje proizvodov v pakiranja (npr. škatle, zaboji) in sledenje pakiranjem"
 >>>>>>> upstream/18.0
@@ -69162,10 +69679,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods arriving to this Location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods arriving to the Stock Location of this Warehouse, or any of its children.\n"
 "Otherwise, this includes goods arriving to any Stock Location with 'internal' type."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -69559,6 +70079,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -69954,10 +70477,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods leaving this Location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods leaving the Stock Location of this Warehouse, or any of its children.\n"
 "Otherwise, this includes goods leaving any Stock Location with 'internal' type."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -70351,6 +70877,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -70935,7 +71464,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        locations management traceability, quality control, etc."
+=======
+"                        locations management traceability, quality control, "
+"etc."
+>>>>>>> upstream/18.0
 =======
 "                        locations management traceability, quality control, "
 "etc."
@@ -71672,6 +72206,7 @@ msgid "Replenish Quantities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Obnovi količine"
@@ -71684,6 +72219,9 @@ msgstr "Obnovi količine"
 >>>>>>> upstream/18.0
 =======
 msgstr "Obnovi količine"
+>>>>>>> upstream/18.0
+=======
+msgstr "Napolni zalogo"
 >>>>>>> upstream/18.0
 =======
 msgstr "Napolni zalogo"
@@ -72047,7 +72585,11 @@ msgid "Request a Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zahtevaj štetje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zahtevaj štetje"
 >>>>>>> upstream/18.0
@@ -72388,9 +72930,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Reserve Only Full Packagings: will not reserve partial packagings. If customer orders 2 pallets of 1000 units each and you only have 1600 in stock, then only 1000 will be reserved\n"
 "Reserve Partial Packagings: allow reserving partial packagings. If customer orders 2 pallets of 1000 units each and you only have 1600 in stock, then 1600 will be reserved"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -72784,6 +73329,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -73099,7 +73647,11 @@ msgid "Reserve Packagings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rezervna embalaža"
+=======
+msgstr "Rezervacija pakiranj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rezervacija pakiranj"
 >>>>>>> upstream/18.0
@@ -73510,7 +74062,11 @@ msgid "Returns"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vračila"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vračila"
 >>>>>>> upstream/18.0
@@ -74075,9 +74631,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Reusable boxes are used for batch picking and emptied afterwards to be reused. In the barcode application, scanning a reusable box will add the products in this box.\n"
 "        Disposable boxes aren't reused, when scanning a disposable box in the barcode application, the contained products are added to the transfer."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -74470,6 +75029,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -74918,8 +75480,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Routes will be created for these resupply warehouses and you can select them"
 " on products and product categories"
+=======
+"Routes will be created for these resupply warehouses and you can select them "
+"on products and product categories"
+>>>>>>> upstream/18.0
 =======
 "Routes will be created for these resupply warehouses and you can select them "
 "on products and product categories"
@@ -75579,8 +76146,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Rule %(rule)s belongs to %(rule_company)s while the route belongs to "
 "%(route_company)s."
+=======
+"Rule %(rule)s belongs to %(rule_company)s while the route belongs to %"
+"(route_company)s."
+>>>>>>> upstream/18.0
 =======
 "Rule %(rule)s belongs to %(rule_company)s while the route belongs to %"
 "(route_company)s."
@@ -76370,7 +76942,11 @@ msgid "STANDARD TERMS AND CONDITIONS OF SALE"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "STANDARDNI POGOJI PRODAJE"
+>>>>>>> upstream/18.0
 =======
 msgstr "STANDARDNI POGOJI PRODAJE"
 >>>>>>> upstream/18.0
@@ -77114,7 +77690,11 @@ msgid "Scrap"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Odpis"
+=======
+msgstr "Odpad"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odpad"
 >>>>>>> upstream/18.0
@@ -77433,7 +78013,11 @@ msgid "Scrap Orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Naročila odpisov"
+=======
+msgstr "Naročila zavrnitev"
+>>>>>>> upstream/18.0
 =======
 msgstr "Naročila zavrnitev"
 >>>>>>> upstream/18.0
@@ -77752,6 +78336,7 @@ msgid "Scrap Products"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Odpiši Izdelke"
@@ -77764,6 +78349,9 @@ msgstr "Odpiši Izdelke"
 >>>>>>> upstream/18.0
 =======
 msgstr "Odpiši Izdelke"
+>>>>>>> upstream/18.0
+=======
+msgstr "Zavrzi izdelke"
 >>>>>>> upstream/18.0
 =======
 msgstr "Zavrzi izdelke"
@@ -78081,6 +78669,7 @@ msgid "Scrap Reason"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Razlog Odpisa"
@@ -78093,6 +78682,9 @@ msgstr "Razlog Odpisa"
 >>>>>>> upstream/18.0
 =======
 msgstr "Razlog Odpisa"
+>>>>>>> upstream/18.0
+=======
+msgstr "Razlog Zavrnitve"
 >>>>>>> upstream/18.0
 =======
 msgstr "Razlog Zavrnitve"
@@ -78416,7 +79008,11 @@ msgid "Scrap products"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Odpisani izdelki"
+=======
+msgstr "Zavrženi izdelki"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zavrženi izdelki"
 >>>>>>> upstream/18.0
@@ -78729,7 +79325,11 @@ msgid "Scrapped"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Odpisano"
+=======
+msgstr "Zavrženo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zavrženo"
 >>>>>>> upstream/18.0
@@ -78966,6 +79566,7 @@ msgstr "Zavrženo"
 #: model_terms:ir.actions.act_window,help:stock.action_stock_scrap
 msgid ""
 "Scrapping a product will remove it from your stock. The product will\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -79521,6 +80122,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                end up in a scrap location that can be used for reporting "
 "purpose."
 msgstr ""
@@ -79603,6 +80206,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -79837,7 +80443,11 @@ msgid "Scraps"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Odpisi"
+=======
+msgstr "Zavrnitve"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zavrnitve"
 >>>>>>> upstream/18.0
@@ -80155,7 +80765,11 @@ msgid "Search Scrap"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Išči po odpisih"
+=======
+msgstr "Išči po zavrnitvah"
+>>>>>>> upstream/18.0
 =======
 msgstr "Išči po zavrnitvah"
 >>>>>>> upstream/18.0
@@ -80569,8 +81183,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Send an automatic confirmation SMS Text Message when Delivery Orders are "
 "done"
+=======
+"Send an automatic confirmation SMS Text Message when Delivery Orders are done"
+>>>>>>> upstream/18.0
 =======
 "Send an automatic confirmation SMS Text Message when Delivery Orders are done"
 >>>>>>> upstream/18.0
@@ -81202,7 +81820,11 @@ msgid "Sequence %(code)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zaporedje %(code)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zaporedje %(code)s"
 >>>>>>> upstream/18.0
@@ -81921,12 +82543,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Serial number (%(serial_number)s) already exists in location(s): "
 "%(location_list)s. Please correct the serial number encoded."
 msgstr ""
 "Serijska številka (%(serial_number)s) že obstaja na lokaciji "
 "(-ah):%(location_list)s. Prosimo, popravite v šifrantu serijskih številk."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -82319,6 +82944,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -82713,12 +83341,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Serial number (%(serial_number)s) is not located in %(source_location)s, but is located in location(s): %(other_locations)s.\n"
 "\n"
 "Please correct this to prevent inconsistent data."
 msgstr ""
 "Serijska številka (%(serial_number)s) se nahaja v %(source_location)s, ampak se nahaja na lokaciji(-ah):%(other_locations)s.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -83113,6 +83744,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -83509,12 +84143,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Serial number (%(serial_number)s) is not located in %(source_location)s, but is located in location(s): %(other_locations)s.\n"
 "\n"
 "Source location for this move will be changed to %(recommended_location)s"
 msgstr ""
 "Serijska številka (%(serial_number)s) se ne nahaja v %(source_location)s, ampak se nahaja na lokaciji(-ah):%(other_locations)s.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -83909,6 +84546,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -84325,6 +84965,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Set a specific removal strategy that will be used regardless of the source location for this product category.\n"
 "\n"
 "FIFO: products/lots that were stocked first will be moved out first.\n"
@@ -84333,6 +84974,8 @@ msgid ""
 "FEFO: products/lots with the closest removal date will be moved out first (the availability of this method depends on the \"Expiration Dates\" setting).\n"
 "Least Packages: FIFO but with the least number of packages possible when there are several packages containing the same product."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -84732,6 +85375,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -85054,7 +85700,11 @@ msgid "Set to quantity on hand"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nastavi na razpoložljivo količino"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nastavi na razpoložljivo količino"
 >>>>>>> upstream/18.0
@@ -85347,8 +85997,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Shipping connectors allow to compute accurate shipping costs, print shipping"
 " labels and request carrier picking at your warehouse to ship to the "
+=======
+"Shipping connectors allow to compute accurate shipping costs, print shipping "
+"labels and request carrier picking at your warehouse to ship to the "
+>>>>>>> upstream/18.0
 =======
 "Shipping connectors allow to compute accurate shipping costs, print shipping "
 "labels and request carrier picking at your warehouse to ship to the "
@@ -86045,7 +86700,11 @@ msgid "Shiprocket Connector"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Shiprocket Priključek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Shiprocket Priključek"
 >>>>>>> upstream/18.0
@@ -86857,7 +87516,11 @@ msgid "Source Location:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lokacija vira:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lokacija vira:"
 >>>>>>> upstream/18.0
@@ -87485,7 +88148,11 @@ msgid "Stock Request an Inventory Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zaloga zahtevek za inventurno štetje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zaloga zahtevek za inventurno štetje"
 >>>>>>> upstream/18.0
@@ -87794,7 +88461,11 @@ msgid "Storage Capacities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skladiščne zmogljivosti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Skladiščne zmogljivosti"
 >>>>>>> upstream/18.0
@@ -88146,8 +88817,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Store and retrieve information regarding every Lot/Serial Number (condition,"
 " product info, ...)."
+=======
+"Store and retrieve information regarding every Lot/Serial Number (condition, "
+"product info, ...)."
+>>>>>>> upstream/18.0
 =======
 "Store and retrieve information regarding every Lot/Serial Number (condition, "
 "product info, ...)."
@@ -88918,7 +89594,11 @@ msgid "Tag name already exists!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ime oznake že obstaja!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ime oznake že obstaja!"
 >>>>>>> upstream/18.0
@@ -89678,10 +90358,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Take From Stock: the products will be taken from the available stock of the source location.\n"
 "Trigger Another Rule: the system will try to find a stock rule to bring the products in the source location. The available stock will be ignored.\n"
 "Take From Stock, if Unavailable, Trigger Another Rule: the products will be taken from the available stock of the source location.If there is no stock available, the system will try to find a  rule to bring the products in the source location."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -90077,6 +90760,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -90503,8 +91189,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The 'Manual Operation' value will create a stock move after the current one."
 " With 'Automatic No Step Added', the location is replaced in the original "
+=======
+"The 'Manual Operation' value will create a stock move after the current one. "
+"With 'Automatic No Step Added', the location is replaced in the original "
+>>>>>>> upstream/18.0
 =======
 "The 'Manual Operation' value will create a stock move after the current one. "
 "With 'Automatic No Step Added', the location is replaced in the original "
@@ -91176,10 +91867,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The Serial Number (%(serial_number)s) is already used in location(s): %(location_list)s.\n"
 "\n"
 "Is this expected? For example, this can occur if a delivery operation is validated before its corresponding receipt operation is validated. In this case the issue will be solved automatically once all steps are completed. Otherwise, the serial number should be corrected to prevent inconsistent data."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -91575,6 +92269,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -92057,6 +92754,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Stranka se izrecno odpoveduje svojim splošnim pogojem poslovanja, tudi če so"
 " bili ti sestavljeni po teh splošnih prodajnih pogojih. Da bi bilo vsako "
@@ -92415,6 +93113,11 @@ msgstr ""
 =======
 "Stranka se izrecno odpoveduje svojim splošnim pogojem poslovanja, tudi če so"
 " bili ti sestavljeni po teh splošnih prodajnih pogojih. Da bi bilo vsako "
+"odstopanje veljavno, mora biti izrecno vnaprej dogovorjeno v pisni obliki."
+>>>>>>> upstream/18.0
+=======
+"Stranka se izrecno odpoveduje svojim splošnim pogojem poslovanja, tudi če so "
+"bili ti sestavljeni po teh splošnih prodajnih pogojih. Da bi bilo vsako "
 "odstopanje veljavno, mora biti izrecno vnaprej dogovorjeno v pisni obliki."
 >>>>>>> upstream/18.0
 =======
@@ -93202,7 +93905,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The combination of lot/serial number and product must be unique within a company including when no company is defined.\n"
+=======
+"The combination of lot/serial number and product must be unique within a "
+"company including when no company is defined.\n"
+>>>>>>> upstream/18.0
 =======
 "The combination of lot/serial number and product must be unique within a "
 "company including when no company is defined.\n"
@@ -93827,7 +94535,11 @@ msgid "The inventory frequency (days) for a location must be non-negative"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Frekvenca inventure (v dneh) za lokacijo ne sme biti negativna"
+>>>>>>> upstream/18.0
 =======
 msgstr "Frekvenca inventure (v dneh) za lokacijo ne sme biti negativna"
 >>>>>>> upstream/18.0
@@ -93974,6 +94686,7 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:stock.stock_picking_type_action
 msgid ""
 "The operation type system allows you to assign each stock\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -94365,6 +95078,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "            operation a specific type which will alter its views "
 "accordingly.\n"
 "            On the operation type you could e.g. specify if packing is "
@@ -94498,6 +95213,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -94864,7 +95582,11 @@ msgid "The product is not available in sufficient quantity"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ta izdelek ni na voljo v zadostni količini"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ta izdelek ni na voljo v zadostni količini"
 >>>>>>> upstream/18.0
@@ -95106,6 +95828,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock.stock_quant_relocate_view_form
 msgid ""
 "The quantities selected do not all belong to the same location.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -95757,6 +96480,10 @@ msgid ""
 "                    You may not assign them a package without moving them to "
 "a common location."
 >>>>>>> upstream/18.0
+=======
+"                    You may not assign them a package without moving them to "
+"a common location."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -95835,6 +96562,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Izbrana Frekvenca inventure (v dneh) ustvari datum predaleč v prihodnosti."
+>>>>>>> upstream/18.0
 =======
 "Izbrana Frekvenca inventure (v dneh) ustvari datum predaleč v prihodnosti."
 >>>>>>> upstream/18.0
@@ -96022,6 +96753,7 @@ msgstr ""
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -96421,6 +97153,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "This adds a dropshipping route to apply on products in order to request your "
 "vendors to deliver to your customers. A product to dropship will generate a "
 "purchase request for quotation once the sales order confirmed. This is a on-"
@@ -96560,6 +97294,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -96826,6 +97563,7 @@ msgstr ""
 msgid ""
 "This analysis gives you an overview of the current stock level of your "
 "products."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -97348,6 +98086,9 @@ msgstr "Ta analiza vam omogoča pregled trenutnega stanja zalog vaših izdelkov.
 =======
 msgstr "Ta analiza vam omogoča pregled trenutnega stanja zalog vaših izdelkov."
 >>>>>>> upstream/18.0
+=======
+msgstr "Ta analiza vam omogoča pregled trenutnega stanja zalog vaših izdelkov."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_move__picked
@@ -97432,6 +98173,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ta kljukica je samo indikator, ne potrjuje ali generira premikov izdelkov."
+>>>>>>> upstream/18.0
 =======
 "Ta kljukica je samo indikator, ne potrjuje ali generira premikov izdelkov."
 >>>>>>> upstream/18.0
@@ -97680,6 +98425,7 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__default_location_src_id
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -98332,6 +99078,10 @@ msgid ""
 "This is the default source location when this operation is manually created. "
 "However, it is possible to change it afterwards or that the routes use "
 >>>>>>> upstream/18.0
+=======
+"This is the default source location when this operation is manually created. "
+"However, it is possible to change it afterwards or that the routes use "
+>>>>>>> upstream/18.0
 "another one by default."
 msgstr ""
 
@@ -98428,6 +99178,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"To je količina izdelka, ki je načrtovana za premik. Zmanjšanje te količine "
+"ne ustvari zaostalega naročila. Spreminjanje te količine na dodeljenih "
+"premikihvpliva na rezervacijo izdelka in mora biti storjeno skrbno."
+>>>>>>> upstream/18.0
 =======
 "To je količina izdelka, ki je načrtovana za premik. Zmanjšanje te količine "
 "ne ustvari zaostalega naročila. Spreminjanje te količine na dodeljenih "
@@ -98994,7 +99750,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                operations on a specific product. You can filter on the product\n"
+=======
+"                operations on a specific product. You can filter on the "
+"product\n"
+>>>>>>> upstream/18.0
 =======
 "                operations on a specific product. You can filter on the "
 "product\n"
@@ -99651,9 +100412,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This menu gives you the full traceability of inventory operations on a specific product.\n"
 "                    You can filter on the product to see all the past movements for the product."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -100045,6 +100809,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -100451,8 +101218,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This note is added to receipt orders (e.g. where to store the product in the"
 " warehouse)."
+=======
+"This note is added to receipt orders (e.g. where to store the product in the "
+"warehouse)."
+>>>>>>> upstream/18.0
 =======
 "This note is added to receipt orders (e.g. where to store the product in the "
 "warehouse)."
@@ -101111,8 +101883,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "better solution could be to archive the product and create a new one "
 "instead."
+=======
+"better solution could be to archive the product and create a new one instead."
+>>>>>>> upstream/18.0
 =======
 "better solution could be to archive the product and create a new one instead."
 >>>>>>> upstream/18.0
@@ -101650,8 +102426,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This product's company cannot be changed as long as there are stock moves of"
 " it belonging to another company."
+=======
+"This product's company cannot be changed as long as there are stock moves of "
+"it belonging to another company."
+>>>>>>> upstream/18.0
 =======
 "This product's company cannot be changed as long as there are stock moves of "
 "it belonging to another company."
@@ -102328,8 +103109,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "reference values or assign the existing reference sequence to this operation"
 " type."
+=======
+"reference values or assign the existing reference sequence to this operation "
+"type."
+>>>>>>> upstream/18.0
 =======
 "reference values or assign the existing reference sequence to this operation "
 "type."
@@ -103016,7 +103802,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Those products you added are tracked but lots/serials were not defined. Once applied those can't be changed.<br/>\n"
+=======
+"Those products you added are tracked but lots/serials were not defined. Once "
+"applied those can't be changed.<br/>\n"
+>>>>>>> upstream/18.0
 =======
 "Those products you added are tracked but lots/serials were not defined. Once "
 "applied those can't be changed.<br/>\n"
@@ -103913,7 +104704,11 @@ msgid "Total Reserved"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skupaj rezervirano"
+>>>>>>> upstream/18.0
 =======
 msgstr "Skupaj rezervirano"
 >>>>>>> upstream/18.0
@@ -104627,8 +105422,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "shipping weight specified will default to their products' total weight. This"
 " is the weight used to compute the cost of the shipping."
+=======
+"shipping weight specified will default to their products' total weight. This "
+"is the weight used to compute the cost of the shipping."
+>>>>>>> upstream/18.0
 =======
 "shipping weight specified will default to their products' total weight. This "
 "is the weight used to compute the cost of the shipping."
@@ -105317,9 +106117,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Track following dates on lots & serial numbers: best before, removal, end of life, alert. \n"
 " Such dates are set automatically at lot/serial number creation based on values set on the product (in days)."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -105711,6 +106514,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -106105,9 +106911,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Track following dates on lots & serial numbers: best before, removal, end of"
 " life, alert. Such dates are set automatically at lot/serial number creation"
 " based on values set on the product (in days)."
+=======
+"Track following dates on lots & serial numbers: best before, removal, end of "
+"life, alert. Such dates are set automatically at lot/serial number creation "
+"based on values set on the product (in days)."
+>>>>>>> upstream/18.0
 =======
 "Track following dates on lots & serial numbers: best before, removal, end of "
 "life, alert. Such dates are set automatically at lot/serial number creation "
@@ -106965,6 +107777,7 @@ msgid "Trigger replenishment for scrapped products"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Sproži obnovitev količin za odpisane izdelke"
@@ -106977,6 +107790,9 @@ msgstr "Sproži obnovitev količin za odpisane izdelke"
 >>>>>>> upstream/18.0
 =======
 msgstr "Sproži obnovitev količin za odpisane izdelke"
+>>>>>>> upstream/18.0
+=======
+msgstr "Sproži dopolnitev zaloge za zavržene izdelke"
 >>>>>>> upstream/18.0
 =======
 msgstr "Sproži dopolnitev zaloge za zavržene izdelke"
@@ -107426,7 +108242,11 @@ msgid "Type a message..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vnesite sporočilo ..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Vnesite sporočilo ..."
 >>>>>>> upstream/18.0
@@ -108170,6 +108990,10 @@ msgstr "Vnesite sporočilo ..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:stock.field_stock_return_picking__picking_type_code
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:stock.field_stock_return_picking__picking_type_code
 >>>>>>> upstream/18.0
@@ -108703,6 +109527,10 @@ msgstr "Vrsta dejavnosti izjeme na zapisu. "
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -109232,6 +110060,10 @@ msgstr "UPS povezovalnik"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -109762,7 +110594,11 @@ msgid "Unassign"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prekliči dodelitev"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prekliči dodelitev"
 >>>>>>> upstream/18.0
@@ -110158,6 +110994,7 @@ msgstr "Prekliči dodelitev"
 #. odoo-python
 #: code:addons/stock/models/stock_move.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -110810,6 +111647,10 @@ msgid ""
 "Unavailable Serial numbers. Please correct the serial numbers encoded: %"
 "(serial_numbers_to_locations)s"
 >>>>>>> upstream/18.0
+=======
+"Unavailable Serial numbers. Please correct the serial numbers encoded: %"
+"(serial_numbers_to_locations)s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -110874,7 +111715,11 @@ msgid "Unfold"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razvij"
+>>>>>>> upstream/18.0
 =======
 msgstr "Razvij"
 >>>>>>> upstream/18.0
@@ -111262,8 +112107,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Unless previously specified by the source document, this will be the default"
 " picking policy for this operation type."
+=======
+"Unless previously specified by the source document, this will be the default "
+"picking policy for this operation type."
+>>>>>>> upstream/18.0
 =======
 "Unless previously specified by the source document, this will be the default "
 "picking policy for this operation type."
@@ -111990,7 +112840,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Updating the location of this transfer will result in unreservation of the currently assigned items. An attempt to reserve items at the new location will be made and the link with preceding transfers will be discarded.\n"
+=======
+"Updating the location of this transfer will result in unreservation of the "
+"currently assigned items. An attempt to reserve items at the new location "
+"will be made and the link with preceding transfers will be discarded.\n"
+>>>>>>> upstream/18.0
 =======
 "Updating the location of this transfer will result in unreservation of the "
 "currently assigned items. An attempt to reserve items at the new location "
@@ -112829,7 +113685,11 @@ msgid "View Availability"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poglej razpoložljivost"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poglej razpoložljivost"
 >>>>>>> upstream/18.0
@@ -113323,7 +114183,11 @@ msgid "Warning on the Picking"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Opozorilo na zbirniku"
+=======
+msgstr "Opozorilo na skladiščnem prenosu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Opozorilo na skladiščnem prenosu"
 >>>>>>> upstream/18.0
@@ -113569,6 +114433,7 @@ msgstr "Ko izdelek prispe v"
 #. odoo-python
 #: code:addons/stock/models/stock_rule.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -114352,6 +115217,11 @@ msgid ""
 "b> are created from <b>%(source_location)s</b> to fulfill the need. %"
 "(suffix)s"
 >>>>>>> upstream/18.0
+=======
+"When products are needed in <b>%(destination)s</b>, <br> <b>%(operation)s</"
+"b> are created from <b>%(source_location)s</b> to fulfill the need. %"
+"(suffix)s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -114488,8 +115358,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "When products arrive in <b>%(source_location)s</b>, <br> "
 "<b>%(operation)s</b> are created to send them to <b>%(destination)s</b>."
+=======
+"When products arrive in <b>%(source_location)s</b>, <br> <b>%(operation)s</"
+"b> are created to send them to <b>%(destination)s</b>."
+>>>>>>> upstream/18.0
 =======
 "When products arrive in <b>%(source_location)s</b>, <br> <b>%(operation)s</"
 "b> are created to send them to <b>%(destination)s</b>."
@@ -115159,9 +116034,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "When the virtual stock goes below the Min Quantity specified for this field,"
 " Odoo generates a procurement to bring the forecasted quantity above of this"
 " Min Quantity."
+=======
+"When the virtual stock goes below the Min Quantity specified for this field, "
+"Odoo generates a procurement to bring the forecasted quantity above of this "
+"Min Quantity."
+>>>>>>> upstream/18.0
 =======
 "When the virtual stock goes below the Min Quantity specified for this field, "
 "Odoo generates a procurement to bring the forecasted quantity above of this "
@@ -115968,7 +116849,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 " * Ask: users are asked to choose if they want to make a backorder for remaining products\n"
+=======
+" * Ask: users are asked to choose if they want to make a backorder for "
+"remaining products\n"
+>>>>>>> upstream/18.0
 =======
 " * Ask: users are asked to choose if they want to make a backorder for "
 "remaining products\n"
@@ -116674,9 +117560,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You are about to move quantities in a package without moving the full package.\n"
 "                    Those quantities will be removed from the following package(s):"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -117068,6 +117957,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -117480,8 +118372,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "spremeniti, če je bilo s to številko že ustvarjenih nekaj premikov zalog. To"
 " bi povzročilo neskladja v zalogah."
+=======
+"spremeniti, če je bilo s to številko že ustvarjenih nekaj premikov zalog. To "
+"bi povzročilo neskladja v zalogah."
+>>>>>>> upstream/18.0
 =======
 "spremeniti, če je bilo s to številko že ustvarjenih nekaj premikov zalog. To "
 "bi povzročilo neskladja v zalogah."
@@ -118138,8 +119035,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "type. To change this, go on the operation type and tick the box \"Create New"
 " Lots/Serial Numbers\"."
+=======
+"type. To change this, go on the operation type and tick the box \"Create New "
+"Lots/Serial Numbers\"."
+>>>>>>> upstream/18.0
 =======
 "type. To change this, go on the operation type and tick the box \"Create New "
 "Lots/Serial Numbers\"."
@@ -118810,8 +119712,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "skladiščenje izdelka. To lahko privede to težav z zaokroževanjem rezervirane"
 " količine. Za vrednotenje zaloge morate uporabiti manjšo možno mersko enoto "
+=======
+"skladiščenje izdelka. To lahko privede to težav z zaokroževanjem rezervirane "
+"količine. Za vrednotenje zaloge morate uporabiti manjšo možno mersko enoto "
+>>>>>>> upstream/18.0
 =======
 "skladiščenje izdelka. To lahko privede to težav z zaokroževanjem rezervirane "
 "količine. Za vrednotenje zaloge morate uporabiti manjšo možno mersko enoto "
@@ -119469,9 +120376,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                your warehouses and that define the flows of your products. These\n"
 "                routes can be assigned to a product, a product category or be fixed\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -119863,6 +120773,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -120273,8 +121186,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can not change the inventory tracking of a product that was already "
 "used."
+=======
+"You can not change the inventory tracking of a product that was already used."
+>>>>>>> upstream/18.0
 =======
 "You can not change the inventory tracking of a product that was already used."
 >>>>>>> upstream/18.0
@@ -120800,8 +121717,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "You can not create a snoozed orderpoint that is not manually triggered."
+=======
+msgid "You can not create a snoozed orderpoint that is not manually triggered."
+>>>>>>> upstream/18.0
 =======
 msgid "You can not create a snoozed orderpoint that is not manually triggered."
 >>>>>>> upstream/18.0
@@ -121386,8 +122307,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can't deactivate the multi-location if you have more than once warehouse"
 " by company"
+=======
+"You can't deactivate the multi-location if you have more than once warehouse "
+"by company"
+>>>>>>> upstream/18.0
 =======
 "You can't deactivate the multi-location if you have more than once warehouse "
 "by company"
@@ -122050,8 +122976,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot archive location %(location)s because it is used by warehouse "
 "%(warehouse)s"
+=======
+"You cannot archive location %(location)s because it is used by warehouse %"
+"(warehouse)s"
+>>>>>>> upstream/18.0
 =======
 "You cannot archive location %(location)s because it is used by warehouse %"
 "(warehouse)s"
@@ -122729,8 +123660,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "You cannot change the UoM for a stock move that has been set to 'Done'."
+=======
+msgid "You cannot change the UoM for a stock move that has been set to 'Done'."
+>>>>>>> upstream/18.0
 =======
 msgid "You cannot change the UoM for a stock move that has been set to 'Done'."
 >>>>>>> upstream/18.0
@@ -123129,6 +124064,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock/models/stock_lot.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -123781,6 +124717,10 @@ msgid ""
 "You cannot change the company of a lot/serial number currently in a location "
 "belonging to another company."
 >>>>>>> upstream/18.0
+=======
+"You cannot change the company of a lot/serial number currently in a location "
+"belonging to another company."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -123836,8 +124776,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Merske enote ne morete spreminjati, ker ima ta izdelek že zalogo. Če želite "
 "spremeniti enoto mere, morate ta izdelek arhivirati in ustvariti novega."
+=======
+"Merske enote ne morete spreminjati, ker ima ta izdelek že premike zaloge. Če "
+"želite spremeniti enoto mere, morate ta izdelek arhivirati in ustvariti "
+"novega."
+>>>>>>> upstream/18.0
 =======
 "Merske enote ne morete spreminjati, ker ima ta izdelek že premike zaloge. Če "
 "želite spremeniti enoto mere, morate ta izdelek arhivirati in ustvariti "
@@ -124105,7 +125051,11 @@ msgid "You cannot delete a scrap which is done."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zavrnitve, ki je končana, ni možno izbrisati."
+>>>>>>> upstream/18.0
 =======
 msgstr "Zavrnitve, ki je končana, ni možno izbrisati."
 >>>>>>> upstream/18.0
@@ -124493,8 +125443,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot move the same package content more than once in the same transfer"
 " or split the same package into two location."
+=======
+"You cannot move the same package content more than once in the same transfer "
+"or split the same package into two location."
+>>>>>>> upstream/18.0
 =======
 "You cannot move the same package content more than once in the same transfer "
 "or split the same package into two location."
@@ -125180,6 +126135,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Lokacije odpadkov ne morete nastaviti kot ciljno lokacijo za operacijo  tipa"
 " proizvodnja"
 =======
@@ -125702,6 +126658,10 @@ msgstr ""
 "Lokacije odpada ne morate nastaviti kot ciljno lokacijo za operacijo tipa "
 "proizvodnja."
 >>>>>>> upstream/18.0
+=======
+"Lokacije odpada ne morate nastaviti kot ciljno lokacijo za operacijo tipa "
+"proizvodnja."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #. odoo-python
@@ -125859,8 +126819,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot validate a transfer if no quantities are reserved. To force the "
 "transfer, encode quantities."
+=======
+"You cannot validate a transfer if no quantities are reserved, or if only non-"
+"reserved moves are picked.To force the transfer, encode quantities."
+>>>>>>> upstream/18.0
 =======
 "You cannot validate a transfer if no quantities are reserved, or if only non-"
 "reserved moves are picked.To force the transfer, encode quantities."
@@ -126482,8 +127447,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You have to select a product unit of measure that is in the same category as"
 " the default unit of measure of the product"
+=======
+"You have to select a product unit of measure that is in the same category as "
+"the default unit of measure of the product"
+>>>>>>> upstream/18.0
 =======
 "You have to select a product unit of measure that is in the same category as "
 "the default unit of measure of the product"
@@ -127253,7 +128223,11 @@ msgid "You should update this document to reflect your T&amp;C."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ta dokument morate posodobiti, da bo odražal vaše T&amp;C."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ta dokument morate posodobiti, da bo odražal vaše T&amp;C."
 >>>>>>> upstream/18.0
@@ -128020,9 +128994,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You'll find here smart replenishment propositions based on inventory forecasts.\n"
 "            Choose the quantity to buy or manufacture and launch orders in a click.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -128414,6 +129391,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -128856,7 +129836,11 @@ msgid "ZPL"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ZPL"
+>>>>>>> upstream/18.0
 =======
 msgstr "ZPL"
 >>>>>>> upstream/18.0
@@ -129569,7 +130553,11 @@ msgid "from location"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "iz lokacije"
+>>>>>>> upstream/18.0
 =======
 msgstr "iz lokacije"
 >>>>>>> upstream/18.0
@@ -130004,7 +130992,11 @@ msgid "in"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "v"
+>>>>>>> upstream/18.0
 =======
 msgstr "v"
 >>>>>>> upstream/18.0
@@ -130811,7 +131803,11 @@ msgid "reserved"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "rezervirano"
+>>>>>>> upstream/18.0
 =======
 msgstr "rezervirano"
 >>>>>>> upstream/18.0
