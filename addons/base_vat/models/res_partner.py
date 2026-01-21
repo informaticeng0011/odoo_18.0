@@ -112,6 +112,7 @@ _ref_vat = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     'th': '1234545678781',
 >>>>>>> upstream/18.0
@@ -218,6 +219,11 @@ _ref_vat = {
     'th': '1234545678781',
 >>>>>>> upstream/18.0
     'tr': _lt('17291716060 (NIN) or 1729171602 (VKN)'),
+=======
+    'th': '1234545678781',
+    'tr': _lt('17291716060 (NIN) or 1729171602 (VKN)'),
+    'ua': _lt('12345678 or UA12345678 (EDRPOU), 1234567890 (RNOPP) or 123456789012 (IPN)'),
+>>>>>>> upstream/18.0
 =======
     'th': '1234545678781',
     'tr': _lt('17291716060 (NIN) or 1729171602 (VKN)'),
@@ -385,6 +391,11 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+        country_code = _eu_country_vat_inverse.get(country_code.upper(), country_code).lower()
+>>>>>>> upstream/18.0
 =======
 
         country_code = _eu_country_vat_inverse.get(country_code.upper(), country_code).lower()
@@ -969,7 +980,10 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             country_code = _eu_country_vat_inverse.get(country_code, country_code)
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1215,6 +1229,7 @@ class ResPartner(models.Model):
             if not partner.vat or len(partner.vat) == 1:
                 partner.vies_vat_to_check = ''
                 continue
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1615,6 +1630,8 @@ class ResPartner(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             vat_prefix, number = partner._split_vat(partner.vat)
             if not vat_prefix.isalpha() and partner.country_id:
                 vat_prefix = _eu_country_vat.get(partner.country_id.code, partner.country_id.code)
@@ -1755,6 +1772,9 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2157,7 +2177,11 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 and not to_check[:2].upper() == company_code
+=======
+                and to_check[:2].upper() != _eu_country_vat_inverse.get(company_code, company_code)
+>>>>>>> upstream/18.0
 =======
                 and to_check[:2].upper() != _eu_country_vat_inverse.get(company_code, company_code)
 >>>>>>> upstream/18.0
@@ -2722,6 +2746,11 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # In Romania, the CUI can be used as tax identifier and it is not prefixed with the country code
+        country_codes_to_not_prepend = ['RO']
+>>>>>>> upstream/18.0
 =======
         # In Romania, the CUI can be used as tax identifier and it is not prefixed with the country code
         country_codes_to_not_prepend = ['RO']
@@ -3547,8 +3576,11 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if vat[:2] != country_code:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4042,6 +4074,9 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4602,7 +4637,10 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4923,6 +4961,9 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5150,6 +5191,7 @@ class ResPartner(models.Model):
         tin1 = self.__check_tin1_ro_natural_persons.match(vat)
         if tin1:
             return True
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5995,11 +6037,15 @@ class ResPartner(models.Model):
 =======
         tin2 = self.__check_tin2_ro_natural_persons.match(vat)
 >>>>>>> upstream/18.0
+=======
+        tin2 = self.__check_tin2_ro_natural_persons.match(vat)
+>>>>>>> upstream/18.0
         if tin2:
             return True
         # Check the vat number
         return stdnum.util.get_cc_module('ro', 'vat').is_valid(vat)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6205,6 +6251,8 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6809,6 +6857,7 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7110,6 +7159,10 @@ class ResPartner(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+    # Our EDI provider Infile has designated this range of testing VATs for our customers.
+    __check_vat_gt_testing_infile = re.compile(r'98[0-9]{10}K')
 >>>>>>> upstream/18.0
 =======
     # Our EDI provider Infile has designated this range of testing VATs for our customers.
@@ -7356,7 +7409,11 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if vat in guatemalan_test_vats:
+=======
+        if vat in guatemalan_test_vats or self.__check_vat_gt_testing_infile.match(vat):
+>>>>>>> upstream/18.0
 =======
         if vat in guatemalan_test_vats or self.__check_vat_gt_testing_infile.match(vat):
 >>>>>>> upstream/18.0
@@ -7638,6 +7695,9 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8104,6 +8164,7 @@ class ResPartner(models.Model):
 
     def check_vat_ua(self, vat):
 <<<<<<< HEAD
+<<<<<<< HEAD
         res = []
         for partner in self:
             if partner.commercial_partner_id.country_id.code == 'MX':
@@ -8122,6 +8183,9 @@ class ResPartner(models.Model):
                 else:
                     res.append(False)
         return all(res)
+=======
+        return len(vat[2:] if vat.startswith('UA') else vat) in {8, 10, 12}
+>>>>>>> upstream/18.0
 =======
         return len(vat[2:] if vat.startswith('UA') else vat) in {8, 10, 12}
 >>>>>>> upstream/18.0
@@ -8305,7 +8369,10 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8415,6 +8482,9 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8635,7 +8705,10 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9064,6 +9137,9 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9459,7 +9535,10 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9842,6 +9921,9 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

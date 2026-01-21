@@ -354,8 +354,11 @@ class Company(models.Model):
             and self.filtered(lambda company: not company.country_id)
             or self.browse()
         )
+<<<<<<< HEAD
         if not invalidation_fields.isdisjoint(values):
             self.env.registry.clear_cache()
+=======
+>>>>>>> upstream/18.0
 
         if not asset_invalidation_fields.isdisjoint(values):
             # this is used in the content of an asset (see asset_styles_company_report)
@@ -372,6 +375,13 @@ class Company(models.Model):
 
         res = super(Company, self).write(values)
 
+<<<<<<< HEAD
+=======
+        # Must be done after call to super
+        if not invalidation_fields.isdisjoint(values):
+            self.env.registry.clear_cache()
+
+>>>>>>> upstream/18.0
         # Archiving a company should also archive all of its branches
         if values.get('active') is False:
             self.child_ids.active = False
@@ -633,7 +643,10 @@ class Company(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1118,6 +1131,9 @@ class Company(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

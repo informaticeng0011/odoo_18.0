@@ -446,6 +446,7 @@ class TestHtmlTools(BaseCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ("First \nSecond \nThird\n \nParagraph\n\r--\nSignature paragraph", 'div',
              "<div><p>First <br/>Second <br/>Third</p><p>Paragraph</p><p>--<br/>Signature paragraph</p></div>"),
             ("First<p>It should be escaped</p>\nSignature", False,
@@ -454,6 +455,8 @@ class TestHtmlTools(BaseCase):
         for content, container_tag, expected in cases:
             html = plaintext2html(content, container_tag)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -610,6 +613,9 @@ class TestHtmlTools(BaseCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -63,6 +63,7 @@ class EventSaleReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _select_clause(self, *select):
         return super()._select_clause('event_event.is_published as is_published', *select)
 =======
@@ -85,6 +86,10 @@ class EventSaleReport(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+    def _select_clause(self, *select):
+        return super()._select_clause('event_event.is_published as is_published', *select)
 >>>>>>> upstream/18.0
 =======
     def _select_clause(self, *select):

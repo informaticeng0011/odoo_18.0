@@ -15,7 +15,11 @@ export const fileUploadService = {
         return new window.XMLHttpRequest();
     },
 
+<<<<<<< HEAD
     start(env, { notificationService }) {
+=======
+    start(env, { notification: notificationService }) {
+>>>>>>> upstream/18.0
         const uploads = reactive({});
         let nextId = 1;
         const bus = new EventBus();
@@ -67,10 +71,20 @@ export const fileUploadService = {
             });
             // Load listener
             xhr.addEventListener("load", () => {
+<<<<<<< HEAD
+=======
+                try {
+                    handleResponse();
+                } catch (e) {
+                    onError(e);
+                    return;
+                }
+>>>>>>> upstream/18.0
                 delete uploads[upload.id];
                 upload.state = "loaded";
                 bus.trigger("FILE_UPLOAD_LOADED", { upload });
             });
+<<<<<<< HEAD
             // Error listener
             xhr.addEventListener("error", async () => {
                 delete uploads[upload.id];
@@ -81,12 +95,72 @@ export const fileUploadService = {
                     params.displayErrorNotification
                 ) {
                     notificationService.add(_t("An error occured while uploading."), {
+=======
+
+            function handleResponse() {
+                const resp = xhr.responseText ?? xhr.response;
+                let error;
+                let errorMessage = "";
+                if (!(xhr.status >= 200 && xhr.status < 300)) {
+                    error = true;
+                }
+                if (resp) {
+                    let content = resp;
+                    if (typeof content === "string") {
+                        try {
+                            content = JSON.parse(content);
+                        } catch {
+                            try {
+                                content = new DOMParser().parseFromString(content, "text/html");
+                            } catch {
+                                /** pass */
+                            }
+                        }
+                    }
+                    // Not sure what to do if the content is neither JSON nor HTML
+                    // Let's the call be successful then....
+                    if (error && content instanceof Document) {
+                        errorMessage = content.body.textContent;
+                    } else if (content instanceof Object) {
+                        if (content.error) {
+                            // https://www.jsonrpc.org/specification#error_object
+                            error = true;
+                            if (content.error.data) {
+                                // JsonRPCDispatcher.handle_error and http.serialize_exception
+                                errorMessage = `${content.error.data.name}: ${content.error.data.message}`;
+                            } else {
+                                errorMessage = content.error.message || errorMessage;
+                            }
+                        }
+                    }
+                }
+                if (error) {
+                    throw new Error(errorMessage);
+                }
+                return true;
+            }
+
+            function onError(error) {
+                const defaultErrorMessage = _t("An error occured while uploading.");
+                delete uploads[upload.id];
+                upload.state = "error";
+                const displayError = params.displayErrorNotification ?? true;
+                // Disable this option if you need more explicit error handling.
+                if (displayError) {
+                    notificationService.add(error?.message || defaultErrorMessage, {
+>>>>>>> upstream/18.0
                         title: _t("Error"),
                         sticky: true,
                     });
                 }
                 bus.trigger("FILE_UPLOAD_ERROR", { upload });
+<<<<<<< HEAD
             });
+=======
+            }
+            // Error listener
+            xhr.addEventListener("error", (ev) => onError(ev.error));
+>>>>>>> upstream/18.0
             // Abort listener, considered as error
             xhr.addEventListener("abort", async () => {
                 delete uploads[upload.id];

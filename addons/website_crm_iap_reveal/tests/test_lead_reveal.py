@@ -188,16 +188,22 @@ class TestLeadMine(TestCrmCommon, MockIAPReveal):
                 self.assertFalse(lead.function)
             self.assertFalse(lead.partner_id)
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.assertEqual(lead.partner_name, '%s GmbH legal_name' % base_name)
             self.assertEqual(lead.phone, '+4930499193937')
             self.assertEqual(lead.state_id, state_de)
             self.assertEqual(lead.street, 'Mennrather Str. 123456')
             self.assertEqual(lead.website, 'https://www.%s.de' % base_name)
 =======
+=======
+>>>>>>> upstream/18.0
             self.assertEqual(lead.partner_name, '%s GmbH' % base_name)
             self.assertEqual(lead.phone, '+4930499193937')
             self.assertEqual(lead.state_id, state_de)
             self.assertEqual(lead.street, 'Mennrather Str. 123456')
             self.assertEqual(lead.website, 'https://%s.de' % base_name)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             self.assertEqual(lead.zip, '41179')

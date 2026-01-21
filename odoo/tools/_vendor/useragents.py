@@ -116,12 +116,15 @@ class UserAgentParser(object):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.platforms = [(b, re.compile(a, re.I)) for a, b in self.platforms]
         self.browsers = [
             (b, re.compile(self._browser_version_re % a, re.I))
             for a, b in self.browsers
         ]
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -247,6 +250,9 @@ class UserAgentParser(object):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

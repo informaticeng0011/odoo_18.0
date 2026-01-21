@@ -343,6 +343,7 @@ class GoogleSync(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 if record._is_google_insertion_blocked(sender_user=self.env.user):
                     continue
@@ -544,6 +545,10 @@ class GoogleSync(models.AbstractModel):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+                if record._is_google_insertion_blocked(sender_user=self.env.user):
+                    continue
 >>>>>>> upstream/18.0
 =======
                 if record._is_google_insertion_blocked(sender_user=self.env.user):
@@ -1366,6 +1371,7 @@ class GoogleSync(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                     send_updates = not self._is_event_over()
                     google_service.google_service = google_service.google_service.with_context(send_updates=send_updates)
@@ -1479,6 +1485,10 @@ class GoogleSync(models.AbstractModel):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+                    send_updates = not self._is_event_over()
+                    google_service.google_service = google_service.google_service.with_context(send_updates=send_updates)
 >>>>>>> upstream/18.0
 =======
                     send_updates = not self._is_event_over()
@@ -2203,6 +2213,7 @@ class GoogleSync(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     send_updates = self._context.get('send_updates', True)
 =======
                     send_updates = self._context.get('send_updates', True) and not self._is_event_over()
@@ -2320,6 +2331,9 @@ class GoogleSync(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
                     send_updates = self._context.get('send_updates', True)
+>>>>>>> upstream/18.0
+=======
+                    send_updates = self._context.get('send_updates', True) and not self._is_event_over()
 >>>>>>> upstream/18.0
 =======
                     send_updates = self._context.get('send_updates', True) and not self._is_event_over()
@@ -3007,7 +3021,10 @@ class GoogleSync(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3485,6 +3502,7 @@ class GoogleSync(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         by not synchronizing records through owner and not  through the attendees.
         """
         raise NotImplementedError()
@@ -3647,6 +3665,11 @@ class GoogleSync(models.AbstractModel):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        by not synchronizing records through owner and not through the attendees.
+        """
+        raise NotImplementedError()
 >>>>>>> upstream/18.0
 =======
         by not synchronizing records through owner and not through the attendees.

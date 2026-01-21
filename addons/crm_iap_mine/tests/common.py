@@ -32,7 +32,10 @@ class MockIAPReveal(MockIAPEnrich):
         def _iap_contact_mining(params, timeout):
             self.assertMineCallParams(params)
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.assertMinePayload(mine, params['data'])
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -57,6 +60,7 @@ class MockIAPReveal(MockIAPEnrich):
                 if default_data:
                     company_data.update(default_data)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 iap_payload['company_data'] = company_data
 
                 if mine.search_type == 'people':
@@ -64,6 +68,9 @@ class MockIAPReveal(MockIAPEnrich):
                     iap_payload['people_data'] = people_data
 
                 response.append(iap_payload)
+=======
+                response.append(company_data)
+>>>>>>> upstream/18.0
 =======
                 response.append(company_data)
 >>>>>>> upstream/18.0
@@ -79,6 +86,7 @@ class MockIAPReveal(MockIAPEnrich):
 
     def _get_iap_company_data(self, base_name, service=None, add_values=None):
 <<<<<<< HEAD
+<<<<<<< HEAD
         company_data = super(MockIAPReveal, self)._get_iap_company_data(base_name, service=service, add_values=add_values)
         if service == 'mine':
             company_data['phone'] = company_data['phone_numbers'][0]
@@ -86,10 +94,14 @@ class MockIAPReveal(MockIAPEnrich):
 =======
         company_data = super()._get_iap_dnb_company_data(base_name, service=service, add_values=add_values)
 >>>>>>> upstream/18.0
+=======
+        company_data = super()._get_iap_dnb_company_data(base_name, service=service, add_values=add_values)
+>>>>>>> upstream/18.0
         return company_data
 
     def assertMineCallParams(self, params):
         self.assertTrue(bool(params['account_token']))
+<<<<<<< HEAD
 <<<<<<< HEAD
         self.assertTrue(bool(params['dbuuid']))
 
@@ -105,6 +117,9 @@ class MockIAPReveal(MockIAPEnrich):
         self.assertEqual(payload['countries'], countries)
         self.assertEqual(payload['lead_number'], mine.lead_number)
         self.assertEqual(payload['search_type'], mine.search_type)
+=======
+        self.assertTrue(bool(params['db_uuid']))
+>>>>>>> upstream/18.0
 =======
         self.assertTrue(bool(params['db_uuid']))
 >>>>>>> upstream/18.0

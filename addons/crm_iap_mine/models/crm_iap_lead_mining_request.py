@@ -4,7 +4,11 @@
 import logging
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import api, fields, models, _
+=======
+from odoo import api, fields, models, _, release
+>>>>>>> upstream/18.0
 =======
 from odoo import api, fields, models, _, release
 >>>>>>> upstream/18.0
@@ -242,11 +246,14 @@ class CRMLeadMiningRequest(models.Model):
         reveal_account = self.env['iap.account'].get('reveal')
         dbuuid = self.env['ir.config_parameter'].sudo().get_param('database.uuid')
 <<<<<<< HEAD
+<<<<<<< HEAD
         params = {
             'account_token': reveal_account.account_token,
             'dbuuid': dbuuid,
             'data': server_payload
 =======
+=======
+>>>>>>> upstream/18.0
         reveal_ids = [lead['reveal_id'] for lead in self.env['crm.lead'].search_read([('reveal_id', '!=', False)], ['reveal_id'])]
         params = {
             'db_uuid': dbuuid,
@@ -256,6 +263,9 @@ class CRMLeadMiningRequest(models.Model):
             'country_code': self.env.company.country_id.code,
             'query': server_payload,
             'reveal_ids': reveal_ids
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
         try:
@@ -274,7 +284,11 @@ class CRMLeadMiningRequest(models.Model):
 
     def _iap_contact_mining(self, params, timeout=300):
 <<<<<<< HEAD
+<<<<<<< HEAD
         endpoint = self.env['ir.config_parameter'].sudo().get_param('reveal.endpoint', DEFAULT_ENDPOINT) + '/iap/clearbit/2/lead_mining_request'
+=======
+        endpoint = self.env['ir.config_parameter'].sudo().get_param('reveal.endpoint', DEFAULT_ENDPOINT) + '/api/dnb/1/search_by_criteria'
+>>>>>>> upstream/18.0
 =======
         endpoint = self.env['ir.config_parameter'].sudo().get_param('reveal.endpoint', DEFAULT_ENDPOINT) + '/api/dnb/1/search_by_criteria'
 >>>>>>> upstream/18.0
@@ -287,6 +301,7 @@ class CRMLeadMiningRequest(models.Model):
         messages_to_post = {}
         for data in result:
 <<<<<<< HEAD
+<<<<<<< HEAD
             lead_vals_list.append(self._lead_vals_from_response(data))
 
             template_values = data['company_data']
@@ -296,6 +311,8 @@ class CRMLeadMiningRequest(models.Model):
             })
             messages_to_post[data['company_data']['clearbit_id']] = template_values
 =======
+=======
+>>>>>>> upstream/18.0
             country = self.env['res.country'].search([('code', '=', data['country_code'])])
             lead_vals_list.append(self._lead_vals_from_response(data))
 
@@ -308,6 +325,9 @@ class CRMLeadMiningRequest(models.Model):
                 'country_id': country.id,
             })
             messages_to_post[data['duns']] = template_values
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         leads = self.env['crm.lead'].create(lead_vals_list)
         for lead in leads:
@@ -323,8 +343,13 @@ class CRMLeadMiningRequest(models.Model):
     def _lead_vals_from_response(self, data):
         self.ensure_one()
 <<<<<<< HEAD
+<<<<<<< HEAD
         company_data = data.get('company_data')
         people_data = data.get('people_data')
+=======
+        company_data = data
+        people_data = []
+>>>>>>> upstream/18.0
 =======
         company_data = data
         people_data = []

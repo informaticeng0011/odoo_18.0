@@ -28,6 +28,10 @@ class TestPaymentProviderVisibility(PaymentHttpCommon, SaleCommon):
         restricted_provider.write({'state': 'test', 'website_id': website_shop.id})
 
         url_so = self.sale_order.get_portal_url()
+<<<<<<< HEAD
+=======
+        self.sale_order.require_payment = True
+>>>>>>> upstream/18.0
         portal_url = f"{website_portal.domain}{url_so}"
 
         with patch(

@@ -91,6 +91,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* survey
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -127,6 +128,10 @@
 #
 >>>>>>> upstream/18.0
 =======
+#
+>>>>>>> upstream/18.0
+=======
+# * survey
 #
 >>>>>>> upstream/18.0
 =======
@@ -597,6 +602,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 =======
 #
@@ -624,6 +630,10 @@
 >>>>>>> upstream/18.0
 =======
 #
+>>>>>>> upstream/18.0
+=======
+#
+# "Kwanghee Park (kwpa)" <kwpa@odoo.com>, 2025.
 >>>>>>> upstream/18.0
 =======
 #
@@ -1093,6 +1103,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Wil Odoo, 2025\n"
@@ -1442,6 +1453,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-26 06:08+0000\n"
 "Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@odoo.com>\n"
 "Language-Team: Korean <https://translate.odoo.com/projects/odoo-18/survey/ko/"
@@ -1497,6 +1511,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1703,6 +1720,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1876,6 +1894,10 @@ msgstr ""
 =======
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
 =======
 "Plural-Forms: nplurals=1; plural=0;\n"
@@ -2364,7 +2386,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <span class=\"text-muted\">Completed</span>"
+=======
+"                                    <span class=\"text-muted\">Completed</"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "                                    <span class=\"text-muted\">Completed</"
 "span>"
@@ -2873,7 +2900,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <span class=\"text-muted\">Registered</span>"
+=======
+"                                    <span class=\"text-muted\">Registered</"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "                                    <span class=\"text-muted\">Registered</"
 "span>"
@@ -3386,6 +3418,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<div style=\"background:#F0F0F0;color:#515166;padding:10px 0px;font-family:Arial,Helvetica,sans-serif;font-size:14px;\">\n"
 "    <table style=\"width:600px;margin:5px auto;\">\n"
 "        <tbody>\n"
@@ -3408,6 +3441,8 @@ msgid ""
 "                </p>\n"
 "                <p>Congratulations for passing the test with a score of <strong t-out=\"object.scoring_percentage\"/>%!</p>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3736,6 +3771,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4041,6 +4079,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<div style=\"background:#F0F0F0;color:#515166;padding:10px 0px;font-family:Arial,Helvetica,sans-serif;font-size:14px;\">\n"
 "    <table style=\"width:600px;margin:5px auto;\">\n"
 "        <tbody>\n"
@@ -4063,6 +4102,8 @@ msgstr ""
 "                </p>\n"
 "                <p><strong t-out=\"object.scoring_percentage\"/>%!</p>로 인증에 통과하신 것을 축하드립니다!\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4391,6 +4432,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4701,7 +4745,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Dear <t t-out=\"object.partner_id.name or 'participant'\">participant</t><br/><br/>\n"
+=======
+"        Dear <t t-out=\"object.partner_id.name or "
+"'participant'\">participant</t><br/><br/>\n"
+>>>>>>> upstream/18.0
 =======
 "        Dear <t t-out=\"object.partner_id.name or "
 "'participant'\">participant</t><br/><br/>\n"
@@ -5206,11 +5255,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            We are conducting a survey and your response would be appreciated.\n"
 "        </t>\n"
 "        </p><div style=\"margin: 16px 0px 16px 0px;\">\n"
 "            <a t-att-href=\"(object.get_start_url())\" style=\"background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5515,6 +5567,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5823,7 +5878,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Please answer the survey for <t t-out=\"format_date(object.deadline) or ''\">05/05/2021</t>.<br/><br/>\n"
+=======
+"            Please answer the survey for <t t-"
+"out=\"format_date(object.deadline) or ''\">05/05/2021</t>.<br/><br/>\n"
+>>>>>>> upstream/18.0
 =======
 "            Please answer the survey for <t t-"
 "out=\"format_date(object.deadline) or ''\">05/05/2021</t>.<br/><br/>\n"
@@ -6337,7 +6397,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        안녕하세요, <t t-out=\"object.partner_id.name or 'participant'\">participant</t>님.<br/><br/>\n"
+=======
+"        안녕하세요, <t t-out=\"object.partner_id.name or "
+"'participant'\">participant</t>님.<br/><br/>\n"
+>>>>>>> upstream/18.0
 =======
 "        안녕하세요, <t t-out=\"object.partner_id.name or "
 "'participant'\">participant</t>님.<br/><br/>\n"
@@ -6845,7 +6910,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <a t-att-href=\"(object.get_start_url())\" style=\"background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;\">\n"
+=======
+"            <a t-att-href=\"(object.get_start_url())\" style=\"background-"
+"color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: "
+"#fff; border-radius: 5px; font-size:13px;\">\n"
+>>>>>>> upstream/18.0
 =======
 "            <a t-att-href=\"(object.get_start_url())\" style=\"background-"
 "color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: "
@@ -7455,7 +7526,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <t t-out=\"format_date(object.deadline) or ''\">05/05/2021</t>자 설문에 응답해 주시기 바랍니다.<br/><br/>\n"
+=======
+"            <t t-out=\"format_date(object.deadline) or ''\">05/05/2021</t>자 "
+"설문에 응답해 주시기 바랍니다.<br/><br/>\n"
+>>>>>>> upstream/18.0
 =======
 "            <t t-out=\"format_date(object.deadline) or ''\">05/05/2021</t>자 "
 "설문에 응답해 주시기 바랍니다.<br/><br/>\n"
@@ -8006,7 +8082,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-dot-circle-o fa-lg\" role=\"img\" aria-label=\"확인됨\" title=\"확인됨\"/>"
+=======
+msgstr ""
+"<i class=\"fa fa-dot-circle-o fa-lg\" role=\"img\" aria-label=\"확인됨\" "
+"title=\"확인됨\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "<i class=\"fa fa-dot-circle-o fa-lg\" role=\"img\" aria-label=\"확인됨\" "
@@ -8614,8 +8696,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-exclamation-triangle\"/> 현재 해당 평가를 통과할 수 없습니다. 점수를 받을 수 있도록"
 " 설정한 문항이 없습니다."
+=======
+"<i class=\"fa fa-exclamation-triangle\"/> 현재 해당 평가를 통과할 수 없습니"
+"다. 점수를 받을 수 있도록 설정한 문항이 없습니다."
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-exclamation-triangle\"/> 현재 해당 평가를 통과할 수 없습니"
 "다. 점수를 받을 수 있도록 설정한 문항이 없습니다."
@@ -9120,11 +9207,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-fw fa-trophy\" role=\"img\" aria-label=\"Download certification\" title=\"Download certification\"/>\n"
 "                                        Download certification"
 msgstr ""
 "<i class=\"fa fa-fw fa-trophy\" role=\"img\" aria-label=\"인증서 내려받기\" title=\"인증서 내려받기\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9428,6 +9518,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9734,7 +9827,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-long-arrow-right mx-2\" aria-label=\"화살표 아이콘\" title=\"화살표\"/>"
+=======
+msgstr ""
+"<i class=\"fa fa-long-arrow-right mx-2\" aria-label=\"화살표 아이콘\" "
+"title=\"화살표\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "<i class=\"fa fa-long-arrow-right mx-2\" aria-label=\"화살표 아이콘\" "
@@ -10349,12 +10448,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"badge text-bg-secondary only_left_radius px-2 "
 "pt-1\">Avg</span>"
 msgstr ""
 "<span class=\"badge text-bg-secondary only_left_radius px-2 pt-1\">평균 "
 "</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10656,6 +10758,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10859,6 +10964,7 @@ msgstr ""
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_page_statistics_question
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11162,6 +11268,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<span class=\"badge text-bg-secondary only_left_radius px-2 pt-1\">Max</span>"
 msgstr ""
 "<span class=\"badge text-bg-secondary only_left_radius px-2 pt-1\">최대</"
@@ -11265,6 +11373,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11568,11 +11679,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"badge text-bg-secondary only_left_radius px-2 "
 "pt-1\">Min</span>"
 msgstr ""
 "<span class=\"badge text-bg-secondary only_left_radius px-2 pt-1\">최소</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11874,6 +11988,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12187,12 +12304,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <span id=\"enter-tooltip\">or press Enter</span>\n"
 "                        </span>"
 msgstr ""
 "<span class=\"fw-bold text-muted ms-2 d-none d-md-inline\">\n"
 "                            <span id=\"enter-tooltip\">또는 엔터키를 누르세요</span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12497,6 +12617,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12806,7 +12929,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <span id=\"enter-tooltip\">또는 CTRL+Enter 키를 누르세요</span>\n"
+=======
+"                    <span id=\"enter-tooltip\">또는 CTRL+Enter 키를 누르세요"
+"</span>\n"
+>>>>>>> upstream/18.0
 =======
 "                    <span id=\"enter-tooltip\">또는 CTRL+Enter 키를 누르세요"
 "</span>\n"
@@ -13317,12 +13445,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"o_stat_text\" invisible=\"certifications_company_count &lt; 2\">Certifications</span>\n"
 "                        <span class=\"o_stat_text\" invisible=\"certifications_company_count &gt; 1\">Certification</span>"
 msgstr ""
 "<span class=\"o_stat_text\" invisible=\"certifications_company_count &lt; 2\">인증서</span>\n"
 "                        <span class=\"o_stat_text\" invisible=\"certifications_company_count &gt; 1\">인증서</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13629,6 +13760,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13932,12 +14066,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"o_stat_text\" invisible=\"certifications_count &lt; 2\">Certifications</span>\n"
 "                        <span class=\"o_stat_text\" invisible=\"certifications_count &gt; 1\">Certification</span>"
 msgstr ""
 "<span class=\"o_stat_text\" invisible=\"certifications_count &lt; 2\">인증서</span>\n"
 "                        <span class=\"o_stat_text\" invisible=\"certifications_count &gt; 1\">인증서</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14244,6 +14381,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14447,6 +14587,7 @@ msgstr ""
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form_start
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14751,6 +14892,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<span class=\"o_survey_enter fw-bold text-muted ms-2 d-none d-md-inline\">or "
 "press Enter</span>"
 msgstr ""
@@ -14855,6 +14998,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15170,12 +15316,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <i class=\"fa fa-trash me-1\"/>Remove all filters\n"
 "                            </span>"
 msgstr ""
 "<span class=\"o_survey_results_topbar_clear_filters text-primary\">\n"
 "                                <i class=\"fa fa-trash me-1\"/>전체 필터 해제\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15480,6 +15629,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15848,7 +16000,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span>\"빨간색\"은 카테고리가 아닙니다. 무엇을 시도하려고 하시는진 알겠어요 ;)</span>"
+=======
+msgstr ""
+"<span>\"빨간색\"은 카테고리가 아닙니다. 무엇을 시도하려고 하시는진 알겠어"
+"요 ;)</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "<span>\"빨간색\"은 카테고리가 아닙니다. 무엇을 시도하려고 하시는진 알겠어"
@@ -16489,6 +16647,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <i class=\"fa fa-2x\" role=\"img\" aria-label=\"Numeric\" title=\"Numeric\">123 </i>\n"
 "                                    <i class=\"fa fa-2x fa-sort\" role=\"img\" aria-label=\"Numeric\"/>"
 msgstr ""
@@ -16496,6 +16655,8 @@ msgstr ""
 "                                    <i class=\"fa fa-2x\" role=\"img\" aria-label=\"Numeric\" title=\"Numeric\">123 </i>\n"
 "                                    <i class=\"fa fa-2x fa-sort\" role=\"img\" aria-label=\"Numeric\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16803,6 +16964,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17106,8 +17270,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span>If you don't like us, please try to be as objective as "
 "possible.</span>"
+=======
+"<span>If you don't like us, please try to be as objective as possible.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span>If you don't like us, please try to be as objective as possible.</span>"
 >>>>>>> upstream/18.0
@@ -17514,11 +17682,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <i class=\"fa fa-align-justify fa-4x\" role=\"img\" aria-label=\"Multiple lines\" title=\"Multiple Lines\"/>"
 msgstr ""
 "<span>모든 동물 이름</span><br/>\n"
 "                                    <i class=\"fa fa-align-justify fa-4x\" role=\"img\" aria-label=\"Multiple lines\" title=\"Multiple Lines\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17822,6 +17993,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18126,11 +18300,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <i class=\"fa fa-minus fa-4x\" role=\"img\" aria-label=\"Single Line\" title=\"Single Line\"/>"
 msgstr ""
 "<span>동물 이름 하나를 말하세요</span><br/>\n"
 "                                    <i class=\"fa fa-minus fa-4x\" role=\"img\" aria-label=\"Single Line\" title=\"Single Line\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18434,6 +18611,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18839,7 +19019,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "세션에서 빠른 답변에 대한 보상을 제공하는 경우 기본 시간 제한은 양수로 설정해야 합니다."
+=======
+msgstr ""
+"세션에서 빠른 답변에 대한 보상을 제공하는 경우 기본 시간 제한은 양수로 설정해"
+"야 합니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "세션에서 빠른 답변에 대한 보상을 제공하는 경우 기본 시간 제한은 양수로 설정해"
@@ -19446,7 +19632,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "양수 점수는 올바른 답을 나타냅니다. 음수 또는 null 점수는 오답을 나타냅니다."
+=======
+msgstr ""
+"양수 점수는 올바른 답을 나타냅니다. 음수 또는 null 점수는 오답을 나타냅니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "양수 점수는 올바른 답을 나타냅니다. 음수 또는 null 점수는 오답을 나타냅니다."
@@ -20082,7 +20273,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "모든 \"Is a scored question = True\" 및 \"Question Type: Date\" 질문에는 답변이 필요합니다."
+=======
+msgstr ""
+"모든 \"Is a scored question = True\" 및 \"Question Type: Date\" 질문에는 답변"
+"이 필요합니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "모든 \"Is a scored question = True\" 및 \"Question Type: Date\" 질문에는 답변"
@@ -20690,8 +20887,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "모든 \"Is a scored question = True\" 및 \"Question Type: Datetime\" 질문에는 답변이 "
 "필요합니다."
+=======
+"모든 \"Is a scored question = True\" 및 \"Question Type: Datetime\" 질문에는 "
+"답변이 필요합니다."
+>>>>>>> upstream/18.0
 =======
 "모든 \"Is a scored question = True\" 및 \"Question Type: Datetime\" 질문에는 "
 "답변이 필요합니다."
@@ -21270,7 +21472,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "비어 있지 않으면 값 자체로, 비어 있으면 인덱스를 나타내는 문자로 답에 레이블을 지정합니다."
+=======
+msgstr ""
+"비어 있지 않으면 값 자체로, 비어 있으면 인덱스를 나타내는 문자로 답에 레이블"
+"을 지정합니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "비어 있지 않으면 값 자체로, 비어 있으면 인덱스를 나타내는 문자로 답에 레이블"
@@ -21980,6 +22188,10 @@ msgstr "참석자들이 질문에 답변하는 중입니다..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,help:survey.field_survey_question__survey_session_speed_rating
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,help:survey.field_survey_question__survey_session_speed_rating
 >>>>>>> upstream/18.0
@@ -22394,7 +22606,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "인증에 성공하면 인증서를 포함한 이메일이 사용자에게 자동으로 전송됩니다."
+=======
+msgstr ""
+"인증에 성공하면 인증서를 포함한 이메일이 사용자에게 자동으로 전송됩니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "인증에 성공하면 인증서를 포함한 이메일이 사용자에게 자동으로 전송됩니다."
@@ -23128,7 +23345,13 @@ msgid "Choose your favourite subject and show how good you are. Ready?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "좋아하는 주제를 선택하고 그 주제에 대해 얼마나 잘 알고 있는지 보여주세요. 준비되셨나요?"
+=======
+msgstr ""
+"좋아하는 주제를 선택하고 그 주제에 대해 얼마나 잘 알고 있는지 보여주세요. 준"
+"비되셨나요?"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "좋아하는 주제를 선택하고 그 주제에 대해 얼마나 잘 알고 있는지 보여주세요. 준"
@@ -23792,11 +24015,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Combining roaming and \"Scoring with answers after each page\" is not possible; please update the following surveys:\n"
 "- %(survey_names)s"
 msgstr ""
 "로밍과 '각 페이지 뒤에 있는 응답 채점' 항목은 합쳐질 수 없습니다. 다음의 설문을 업데이트하세요:\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24100,6 +24326,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24632,7 +24861,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "내부 설문 조사에서는 직원이 아닌 다른 사람을 위해 토큰을 생성할 수 없습니다."
+=======
+msgstr ""
+"내부 설문 조사에서는 직원이 아닌 다른 사람을 위해 토큰을 생성할 수 없습니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "내부 설문 조사에서는 직원이 아닌 다른 사람을 위해 토큰을 생성할 수 없습니다."
@@ -25146,7 +25380,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "인증을 요청하는 설문조사에서는 외부인을 위한 토큰 생성이 허용되지 않습니다."
+=======
+msgstr ""
+"인증을 요청하는 설문조사에서는 외부인을 위한 토큰 생성이 허용되지 않습니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "인증을 요청하는 설문조사에서는 외부인을 위한 토큰 생성이 허용되지 않습니다."
@@ -25734,6 +25973,10 @@ msgstr "마감일 "
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,help:survey.field_survey_question__survey_session_speed_rating_time_limit
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,help:survey.field_survey_question__survey_session_speed_rating_time_limit
 >>>>>>> upstream/18.0
@@ -26139,7 +26382,11 @@ msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "이름 표시"
+=======
+msgstr "표시명"
+>>>>>>> upstream/18.0
 =======
 msgstr "표시명"
 >>>>>>> upstream/18.0
@@ -26633,6 +26880,7 @@ msgstr "음식 취향"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -26682,6 +26930,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26958,6 +27208,9 @@ msgstr "이 질문에서 답변은 한 가지만 선택할 수 있습니다."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27284,6 +27537,7 @@ msgstr "직원 및 고객으로부터 의견 수집"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -27332,6 +27586,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -27607,6 +27863,9 @@ msgstr "일반 시간 제한(초)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -28034,7 +28293,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "의자 항목의 연간 판매 목표 개수는 몇 개로 설정해야 한다고 생각하십니까 (미평가)? "
+=======
+msgstr ""
+"의자 항목의 연간 판매 목표 개수는 몇 개로 설정해야 한다고 생각하십니까 (미평"
+"가)? "
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "의자 항목의 연간 판매 목표 개수는 몇 개로 설정해야 한다고 생각하십니까 (미평"
@@ -28683,8 +28948,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "저는 생각하는 것을 좋아하지 않습니다. 제 생각에는 사람들은 제가 생각을 많이 한다고 생각하는 것 같아요. 저는 그렇지 않습니다. 저는 "
 "생각하는것을 전혀 좋아하지 않아요."
+=======
+"저는 생각하는 것을 좋아하지 않습니다. 제 생각에는 사람들은 제가 생각을 많이 "
+"한다고 생각하는 것 같아요. 저는 그렇지 않습니다. 저는 생각하는것을 전혀 좋아"
+"하지 않아요."
+>>>>>>> upstream/18.0
 =======
 "저는 생각하는 것을 좋아하지 않습니다. 제 생각에는 사람들은 제가 생각을 많이 "
 "한다고 생각하는 것 같아요. 저는 그렇지 않습니다. 저는 생각하는것을 전혀 좋아"
@@ -29291,7 +29562,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "저는 공기에 매료되었습니다. 하늘에 공기가 없다면 모든 새는 땅으로 떨어질 것입니다. 모든 비행기도 마찬가지고요."
+=======
+msgstr ""
+"저는 공기에 매료되었습니다. 하늘에 공기가 없다면 모든 새는 땅으로 떨어질 것입"
+"니다. 모든 비행기도 마찬가지고요."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "저는 공기에 매료되었습니다. 하늘에 공기가 없다면 모든 새는 땅으로 떨어질 것입"
@@ -29947,7 +30224,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "2020년 1월 6일에 고객이 1년 보증을 구매했다면 보증 만료일은 언제입니까?"
+=======
+msgstr ""
+"2020년 1월 6일에 고객이 1년 보증을 구매했다면 보증 만료일은 언제입니까?"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "2020년 1월 6일에 고객이 1년 보증을 구매했다면 보증 만료일은 언제입니까?"
@@ -30454,7 +30736,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "고객이 2020년 1월 6일에 제품을 구매한 경우 제품이 배송될 것으로 예상되는 가장 늦은 날짜는 언제입니까?"
+=======
+msgstr ""
+"고객이 2020년 1월 6일에 제품을 구매한 경우 제품이 배송될 것으로 예상되는 가"
+"장 늦은 날짜는 언제입니까?"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "고객이 2020년 1월 6일에 제품을 구매한 경우 제품이 배송될 것으로 예상되는 가"
@@ -31091,7 +31379,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "이 옵션을 선택하면 사용자는 유효한 토큰을 사용하더라도 응답 전에 로그인해야 합니다."
+=======
+msgstr ""
+"이 옵션을 선택하면 사용자는 유효한 토큰을 사용하더라도 응답 전에 로그인해야 "
+"합니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "이 옵션을 선택하면 사용자는 유효한 토큰을 사용하더라도 응답 전에 로그인해야 "
@@ -31711,7 +32005,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "무작위 질문을 선택한 경우 영역별로 질문 수를 다르게 구성할 수 있습니다.  실시간 세션에서 이 모드는 무시됩니다. "
+=======
+msgstr ""
+"무작위 질문을 선택한 경우 영역별로 질문 수를 다르게 구성할 수 있습니다.  실시"
+"간 세션에서 이 모드는 무시됩니다. "
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "무작위 질문을 선택한 경우 영역별로 질문 수를 다르게 구성할 수 있습니다.  실시"
@@ -32365,8 +32665,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Include this question as part of quiz scoring. Requires an answer and answer"
 " score to be taken into account."
+=======
+"Include this question as part of quiz scoring. Requires an answer and answer "
+"score to be taken into account."
+>>>>>>> upstream/18.0
 =======
 "Include this question as part of quiz scoring. Requires an answer and answer "
 "score to be taken into account."
@@ -33023,8 +33328,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "사실 전 일본에 가고 싶었던 적이 없어요. 저는 생선을 좋아하지 않기 때문입니다. 그렇지만 생선이 아프리카에서 인기가 많다는 것을 잘 "
 "알고 있습니다."
+=======
+"사실 전 일본에 가고 싶었던 적이 없어요. 저는 생선을 좋아하지 않기 때문입니"
+"다. 그렇지만 생선이 아프리카에서 인기가 많다는 것을 잘 알고 있습니다."
+>>>>>>> upstream/18.0
 =======
 "사실 전 일본에 가고 싶었던 적이 없어요. 저는 생선을 좋아하지 않기 때문입니"
 "다. 그렇지만 생선이 아프리카에서 인기가 많다는 것을 잘 알고 있습니다."
@@ -33569,8 +33879,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Labels used for proposed choices: simple choice, multiple choice and columns"
 " of matrix"
+=======
+"Labels used for proposed choices: simple choice, multiple choice and columns "
+"of matrix"
+>>>>>>> upstream/18.0
 =======
 "Labels used for proposed choices: simple choice, multiple choice and columns "
 "of matrix"
@@ -34677,7 +34992,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "설문 조사에서 \"사전 표시 문자\"를 정의할 수 있습니다. 그러나 그것이 무엇을 위한 건가요? "
+=======
+msgstr ""
+"설문 조사에서 \"사전 표시 문자\"를 정의할 수 있습니다. 그러나 그것이 무엇을 "
+"위한 건가요? "
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "설문 조사에서 \"사전 표시 문자\"를 정의할 수 있습니다. 그러나 그것이 무엇을 "
@@ -35361,11 +35682,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Oopsie! We could not let you open this survey. Make sure you are using the correct link and are allowed to\n"
 "                        participate or get in touch with its organizer."
 msgstr ""
 "죄송합니다, 설문조사를 열 수 없습니다. 올바른 링크를 사용했으며 설문조사 참여 권한이 있으시다면\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -35669,6 +35993,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -35991,12 +36318,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "a placeholder expression that provides the appropriate language, e.g. {{ "
 "object.partner_id.lang }}."
 msgstr ""
 "이메일 전송 시 번역할 언어 (ISO code)를 선택할 수 있습니다. 설정하지 않을 경우, 영어가 기본 언어로 사용됩니다. 적절한 "
 "언어를 선택할 수 있도록 다음과 같은 예시용 메시지를 사용합니다. {{ object.partner_id.lang }}."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -36300,6 +36630,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -36796,8 +37129,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Please complete this very short survey to let us know how satisfied your are"
 " with our products."
+=======
+"Please complete this very short survey to let us know how satisfied your are "
+"with our products."
+>>>>>>> upstream/18.0
 =======
 "Please complete this very short survey to let us know how satisfied your are "
 "with our products."
@@ -37317,8 +37655,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "설문조사에 하나 이상의 질문이 포함되어 있는지 확인하십시오. \"섹션 당 페이지\" 레이아웃을 선택한 경우 최소 하나 이상의 섹션이 "
 "필요합니다.<br/>"
+=======
+"설문조사에 하나 이상의 질문이 포함되어 있는지 확인하십시오. \"섹션 당 페이지"
+"\" 레이아웃을 선택한 경우 최소 하나 이상의 섹션이 필요합니다.<br/>"
+>>>>>>> upstream/18.0
 =======
 "설문조사에 하나 이상의 질문이 포함되어 있는지 확인하십시오. \"섹션 당 페이지"
 "\" 레이아웃을 선택한 경우 최소 하나 이상의 섹션이 필요합니다.<br/>"
@@ -38091,6 +38434,10 @@ msgstr "답안 검토하기"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:survey.field_survey_question__survey_session_speed_rating
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:survey.field_survey_question__survey_session_speed_rating
 >>>>>>> upstream/18.0
@@ -38859,7 +39206,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "귀하에 대한 몇 가지 정보를 제공해주세요. 이 정보는 내부적으로 통계용으로만 사용됩니다."
+=======
+msgstr ""
+"귀하에 대한 몇 가지 정보를 제공해주세요. 이 정보는 내부적으로 통계용으로만 사"
+"용됩니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "귀하에 대한 몇 가지 정보를 제공해주세요. 이 정보는 내부적으로 통계용으로만 사"
@@ -39616,7 +39969,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "제시된 답안 값은 비어 있으면 안 됩니다. (텍스트 및/또는 이미지를 입력해야 함)"
+=======
+msgstr ""
+"제시된 답안 값은 비어 있으면 안 됩니다. (텍스트 및/또는 이미지를 입력해야 함)"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "제시된 답안 값은 비어 있으면 안 됩니다. (텍스트 및/또는 이미지를 입력해야 함)"
@@ -40326,7 +40684,12 @@ msgid "Thank you very much for your feedback. We highly value your opinion!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "의견을 공유해주셔서 감사합니다. 여러분의 의견을 소중하게 생각하겠습니다!"
+=======
+msgstr ""
+"의견을 공유해주셔서 감사합니다. 여러분의 의견을 소중하게 생각하겠습니다!"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "의견을 공유해주셔서 감사합니다. 여러분의 의견을 소중하게 생각하겠습니다!"
@@ -40844,11 +41207,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The access of the following surveys is restricted. Make sure their responsible still has access to it: \n"
 "%(survey_names)s\n"
 msgstr ""
 "다음 설문조사에 대한 접근이 제한됩니다. 담당자가 해당 설문조사에 권한이 있는지 확인하세요. \n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -41152,6 +41518,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -41469,8 +41838,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The attempts limit needs to be a positive number if the survey has a limited"
 " number of attempts."
+=======
+"The attempts limit needs to be a positive number if the survey has a limited "
+"number of attempts."
+>>>>>>> upstream/18.0
 =======
 "The attempts limit needs to be a positive number if the survey has a limited "
 "number of attempts."
@@ -42000,8 +42374,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "설문조사의 홈페이지 화면에 설명이 표시됩니다. 이를 활용하여 설문을 시작하기 전 지원자에게 설문의 목적과 가이드라인을 전달할 수 "
 "있습니다."
+=======
+"설문조사의 홈페이지 화면에 설명이 표시됩니다. 이를 활용하여 설문을 시작하기 "
+"전 지원자에게 설문의 목적과 가이드라인을 전달할 수 있습니다."
+>>>>>>> upstream/18.0
 =======
 "설문조사의 홈페이지 화면에 설명이 표시됩니다. 이를 활용하여 설문을 시작하기 "
 "전 지원자에게 설문의 목적과 가이드라인을 전달할 수 있습니다."
@@ -42522,7 +42901,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "다음 수신자에게는 사용자 계정이 없습니다: %s. 해당 수신자의 사용자 계정을 새로 만들거나 외부 로그인 환경 설정을 허용해야합니다."
+=======
+"다음 수신자에게는 사용자 계정이 없습니다: %s. 해당 수신자의 사용자 계정을 새"
+"로 만들거나 외부 로그인 환경 설정을 허용해야합니다."
+>>>>>>> upstream/18.0
 =======
 "다음 수신자에게는 사용자 계정이 없습니다: %s. 해당 수신자의 사용자 계정을 새"
 "로 만들거나 외부 로그인 환경 설정을 허용해야합니다."
@@ -43048,7 +43432,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "척도는 0에서 10을 포함한 숫자 사이의 비어있지 않은 오름차순 범위여야 합니다."
+=======
+msgstr ""
+"척도는 0에서 10을 포함한 숫자 사이의 비어있지 않은 오름차순 범위여야 합니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "척도는 0에서 10을 포함한 숫자 사이의 비어있지 않은 오름차순 범위여야 합니다."
@@ -43574,8 +43963,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The time at which the current question has started, used to handle the timer"
 " for attendees."
+=======
+"The time at which the current question has started, used to handle the timer "
+"for attendees."
+>>>>>>> upstream/18.0
 =======
 "The time at which the current question has started, used to handle the timer "
 "for attendees."
@@ -44135,10 +44529,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This code will be used by your attendees to reach your session. Feel free to"
 " customize it however you like!"
 msgstr "참가자가 세션에 접속하는 데 사용되는 코드입니다. 원하는 방식으로 자유롭게 설정할 수 있습니다!"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -44441,6 +44838,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -44785,7 +45185,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "여기는 귀하의 일반적인 정보에 관한 부분입니다. 질문에 대한 답은 답변의 정확성을 높이는 데 도움이 됩니다."
+=======
+msgstr ""
+"여기는 귀하의 일반적인 정보에 관한 부분입니다. 질문에 대한 답은 답변의 정확성"
+"을 높이는 데 도움이 됩니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "여기는 귀하의 일반적인 정보에 관한 부분입니다. 질문에 대한 답은 답변의 정확성"
@@ -45401,7 +45807,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This survey allows you to give a feedback about your experience with our products.\n"
+=======
+"This survey allows you to give a feedback about your experience with our "
+"products.\n"
+>>>>>>> upstream/18.0
 =======
 "This survey allows you to give a feedback about your experience with our "
 "products.\n"
@@ -45911,11 +46322,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This survey does not allow external people to participate. You should create"
 " user accounts or update survey access mode accordingly."
 msgstr ""
 "이 설문 조사는 외부인의 참여를 허용하지 않습니다. 이에 따라 사용자 계정을 만들거나 설문 조사 액세스 모드를 업데이트해야 합니다."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -46218,6 +46632,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -46584,7 +47001,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "이 설문조사에 참여하려면 <strong class=\"text-danger\"/>의 모든 탭을 닫아주십시오."
+=======
+msgstr ""
+"이 설문조사에 참여하려면 <strong class=\"text-danger\"/>의 모든 탭을 닫아주십"
+"시오."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "이 설문조사에 참여하려면 <strong class=\"text-danger\"/>의 모든 탭을 닫아주십"
@@ -47235,11 +47658,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Triggers based on the following questions will not work because they are positioned after this question:\n"
 "\"%s\"."
 msgstr ""
 "다음의 문항을 기반으로 연결된 경우 이 문항 뒤에 배치되기 때문에 작동하지 않습니다:\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -47543,6 +47969,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -47845,7 +48274,11 @@ msgid "Unfortunately, you have failed the test."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "불행히도 테스트에 실패했습니다."
+=======
+msgstr "아쉽게도 테스트에 통과하지 못했습니다"
+>>>>>>> upstream/18.0
 =======
 msgstr "아쉽게도 테스트에 통과하지 못했습니다"
 >>>>>>> upstream/18.0
@@ -48147,7 +48580,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "이 필드를 사용하면 질문에 대한 설명을 추가하거나 사진 또는 동영상을 보여줄 수 있습니다."
+=======
+msgstr ""
+"이 필드를 사용하면 질문에 대한 설명을 추가하거나 사진 또는 동영상을 보여줄 "
+"수 있습니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "이 필드를 사용하면 질문에 대한 설명을 추가하거나 사진 또는 동영상을 보여줄 "
@@ -48754,7 +49193,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "무작위 섹션에서 사용되어 해당 섹션의 모든 질문에서 무작위로 X 개의 질문을 받습니다."
+=======
+msgstr ""
+"무작위 섹션에서 사용되어 해당 섹션의 모든 질문에서 무작위로 X 개의 질문을 받"
+"습니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "무작위 섹션에서 사용되어 해당 섹션의 모든 질문에서 무작위로 X 개의 질문을 받"
@@ -49456,7 +49901,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "답변이 등록되었습니다! 주최자가 다음 질문으로 넘어갈 때까지 기다려 주세요."
+=======
+msgstr ""
+"답변이 등록되었습니다! 주최자가 다음 질문으로 넘어갈 때까지 기다려 주세요."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "답변이 등록되었습니다! 주최자가 다음 질문으로 넘어갈 때까지 기다려 주세요."
@@ -49988,7 +50438,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Odoo 인증에 오신 것을 환영합니다. 총 3개의 질문 중에서 무작위로 선택된 2개의 질문을 받게 됩니다."
+=======
+msgstr ""
+"Odoo 인증에 오신 것을 환영합니다. 총 3개의 질문 중에서 무작위로 선택된 2개의 "
+"질문을 받게 됩니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Odoo 인증에 오신 것을 환영합니다. 총 3개의 질문 중에서 무작위로 선택된 2개의 "
@@ -50595,7 +51051,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "대부분의 고객이 고객센터에 전화할 가능성이 가장 높은 요일과 시간은 언제라고 생각하나요 (미평가)?"
+=======
+msgstr ""
+"대부분의 고객이 고객센터에 전화할 가능성이 가장 높은 요일과 시간은 언제라고 "
+"생각하나요 (미평가)?"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "대부분의 고객이 고객센터에 전화할 가능성이 가장 높은 요일과 시간은 언제라고 "
@@ -51360,7 +51822,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "중성미자가 질량을 가지고 있다는 것을 증명하는 중성미자 진동을 발견하여 노벨 물리학상을 수상한 사람은 누구인가요?"
+=======
+msgstr ""
+"중성미자가 질량을 가지고 있다는 것을 증명하는 중성미자 진동을 발견하여 노벨 "
+"물리학상을 수상한 사람은 누구인가요?"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "중성미자가 질량을 가지고 있다는 것을 증명하는 중성미자 진동을 발견하여 노벨 "
@@ -51993,11 +52461,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                        <i class=\"fa fa-calendar\" role=\"img\" aria-label=\"Calendar\" title=\"Calendar\"/>"
 msgstr ""
 "연도-월-일\n"
 "                                        <i class=\"fa fa-calendar\" role=\"img\" aria-label=\"달력\" title=\"달력\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -52301,6 +52772,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -52605,11 +53079,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                        <i class=\"fa fa-calendar\" role=\"img\" aria-label=\"Calendar\" title=\"Calendar\"/>"
 msgstr ""
 "연도-월-일 시:분:초\n"
 "                                        <i class=\"fa fa-calendar\" role=\"img\" aria-label=\"달력\" title=\"달력\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -52913,6 +53390,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -53235,9 +53715,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can only create certifications for surveys that have a scoring "
 "mechanism."
 msgstr "점수 매기기 메커니즘이 있는 설문 조사에 대해서만 인증을 만들 수 있습니다."
+=======
+"You can only create certifications for surveys that have a scoring mechanism."
+msgstr ""
+"점수 매기기 메커니즘이 있는 설문 조사에 대해서만 인증을 만들 수 있습니다."
+>>>>>>> upstream/18.0
 =======
 "You can only create certifications for surveys that have a scoring mechanism."
 msgstr ""
@@ -53844,7 +54330,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "다양한 수단을 통해 링크를 공유할 수 있습니다: 이메일, 초대 바로가기, 실시간 프레젠테이션 등 ..."
+=======
+msgstr ""
+"다양한 수단을 통해 링크를 공유할 수 있습니다: 이메일, 초대 바로가기, 실시간 "
+"프레젠테이션 등 ..."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "다양한 수단을 통해 링크를 공유할 수 있습니다: 이메일, 초대 바로가기, 실시간 "
@@ -54452,7 +54944,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "실시간 세션이 진행 중일 때는 설문조사 \"%(survey_names)s\"의 문항을 삭제할 수 없습니다."
+=======
+msgstr ""
+"실시간 세션이 진행 중일 때는 설문조사 \"%(survey_names)s\"의 문항을 삭제할 "
+"수 없습니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "실시간 세션이 진행 중일 때는 설문조사 \"%(survey_names)s\"의 문항을 삭제할 "
@@ -55060,7 +55558,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "설문조사에 섹션이 없는 경우 \"섹션당 한 페이지\" 설문조사에 대한 초대를 보낼 수 없습니다."
+=======
+msgstr ""
+"설문조사에 섹션이 없는 경우 \"섹션당 한 페이지\" 설문조사에 대한 초대를 보낼 "
+"수 없습니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "설문조사에 섹션이 없는 경우 \"섹션당 한 페이지\" 설문조사에 대한 초대를 보낼 "
@@ -55668,7 +56172,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "설문조사에 비어있는 섹션만 있는 경우 '섹션당 한 페이지' 설문조사에 대한 초대를 보낼 수 없습니다."
+=======
+msgstr ""
+"설문조사에 비어있는 섹션만 있는 경우 '섹션당 한 페이지' 설문조사에 대한 초대"
+"를 보낼 수 없습니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "설문조사에 비어있는 섹션만 있는 경우 '섹션당 한 페이지' 설문조사에 대한 초대"
@@ -56303,7 +56813,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "귀하의 답변은 제품군을 개선하고 더 나은 서비스를 제공하는데 도움이 됩니다."
+=======
+msgstr ""
+"귀하의 답변은 제품군을 개선하고 더 나은 서비스를 제공하는데 도움이 됩니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "귀하의 답변은 제품군을 개선하고 더 나은 서비스를 제공하는데 도움이 됩니다."
@@ -56970,7 +57485,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "⚠️ 이 문항은 연결 항목 전체 또는 일부 앞에 배치되며 건너뛸 수 있습니다.."
+=======
+msgstr ""
+"⚠️ 이 문항은 연결 항목 전체 또는 일부 앞에 배치되며 건너뛸 수 있습니다.."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "⚠️ 이 문항은 연결 항목 전체 또는 일부 앞에 배치되며 건너뛸 수 있습니다.."

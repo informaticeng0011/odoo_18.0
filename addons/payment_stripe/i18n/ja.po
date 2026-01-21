@@ -97,12 +97,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* payment_stripe
 # 
 # Translators:
 # Wil Odoo, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -397,6 +400,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -594,6 +600,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -970,6 +977,10 @@ msgstr ""
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2025-11-12 08:26+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+"PO-Revision-Date: 2025-11-12 08:26+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-18/"
 "payment_stripe/ja/>\n"
@@ -1075,6 +1086,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1341,7 +1355,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "StripeアカウントでWebhookが有効になっている場合、StripeからOdooに送信されるメッセージを認証するためにこの署名シークレットを設定する必要があります。"
+=======
+"StripeアカウントでWebhookが有効になっている場合、StripeからOdooに送信される"
+"メッセージを認証するためにこの署名シークレットを設定する必要があります。"
+>>>>>>> upstream/18.0
 =======
 "StripeアカウントでWebhookが有効になっている場合、StripeからOdooに送信される"
 "メッセージを認証するためにこの署名シークレットを設定する必要があります。"
@@ -1447,6 +1466,7 @@ msgstr "支払トークン"
 #. module: payment_stripe
 #: model:ir.model,name:payment_stripe.model_payment_transaction
 msgid "Payment Transaction"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1836,6 +1856,9 @@ msgstr "支払取引"
 =======
 msgstr "支払取引"
 >>>>>>> upstream/18.0
+=======
+msgstr "支払取引"
+>>>>>>> upstream/18.0
 
 #. module: payment_stripe
 #. odoo-javascript
@@ -1905,7 +1928,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Stripe Connectはお客様の国では使用できません。他の決済プロバイダーをご利用ください。"
+=======
+msgstr ""
+"Stripe Connectはお客様の国では使用できません。他の決済プロバイダーをご利用く"
+"ださい。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Stripe Connectはお客様の国では使用できません。他の決済プロバイダーをご利用く"
@@ -2054,7 +2083,11 @@ msgid "Stripe Mandate"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Stripe委任状"
+=======
+msgstr "Stripe同意書"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stripe同意書"
 >>>>>>> upstream/18.0
@@ -2303,7 +2336,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "返金が行われませんでした。Stripeダッシュボードにログインして、この件に関する詳細情報を取得し、会計上の不一致に対処して下さい。"
+=======
+msgstr ""
+"返金が行われませんでした。Stripeダッシュボードにログインして、この件に関する"
+"詳細情報を取得し、会計上の不一致に対処して下さい。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "返金が行われませんでした。Stripeダッシュボードにログインして、この件に関する"
@@ -2440,6 +2479,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Stripeシークレットキーが設定されてない場合は、Stripe Webhookを作成できません。"
 =======
 msgstr ""
@@ -2526,11 +2566,17 @@ msgstr ""
 "Stripeシークレットキーが設定されてない場合は、Stripe Webhookを作成できませ"
 "ん。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"Stripeシークレットキーが設定されてない場合は、Stripe Webhookを作成できませ"
+"ん。"
+>>>>>>> upstream/18.0
 
 #. module: payment_stripe
 #. odoo-python
 #: code:addons/payment_stripe/models/payment_provider.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2584,6 +2630,8 @@ msgstr "Stripeへのオンボーディングが完了するまで、プロバイ
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "You cannot set the provider state to Enabled until your onboarding to Stripe "
 "is completed."
 msgstr ""
@@ -2605,6 +2653,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2660,10 +2711,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot set the provider to Test Mode while it is linked with your Stripe"
 " account."
 msgstr "Stripeアカウントとリンクしている間は、プロバイダーをテストモードに設定することはできません。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2717,6 +2771,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

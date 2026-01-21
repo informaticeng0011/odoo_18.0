@@ -211,7 +211,11 @@ class TestJoEdiPrecision(JoEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _validate_jo_edi_numbers(self, xml_string):
+=======
+    def _validate_jo_edi_numbers(self, xml_string, invoice):
+>>>>>>> upstream/18.0
 =======
     def _validate_jo_edi_numbers(self, xml_string, invoice):
 >>>>>>> upstream/18.0
@@ -900,6 +904,10 @@ class TestJoEdiPrecision(JoEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertEqual(float_compare(tax_inclusive_amount, invoice.amount_total, 2), 0, f'{tax_inclusive_amount} != {invoice.amount_total}')
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(float_compare(tax_inclusive_amount, invoice.amount_total, 2), 0, f'{tax_inclusive_amount} != {invoice.amount_total}')
 >>>>>>> upstream/18.0
@@ -1637,7 +1645,11 @@ class TestJoEdiPrecision(JoEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             errors = self._validate_jo_edi_numbers(generated_file)
+=======
+            errors = self._validate_jo_edi_numbers(generated_file, invoice)
+>>>>>>> upstream/18.0
 =======
             errors = self._validate_jo_edi_numbers(generated_file, invoice)
 >>>>>>> upstream/18.0
@@ -2463,7 +2475,10 @@ class TestJoEdiPrecision(JoEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2978,6 +2993,9 @@ class TestJoEdiPrecision(JoEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

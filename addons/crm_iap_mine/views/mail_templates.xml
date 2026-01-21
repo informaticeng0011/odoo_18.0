@@ -4,7 +4,10 @@
     <template id="enrich_company" inherit_id="iap_mail.enrich_company">
         <xpath expr="//div[hasclass('o_partner_autocomplete_enrich_info')]" position="inside">
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             <div class="col-sm-12 row m-0 p-0">
                 <div t-if="entity_type" class="d-flex my-1 p-0 col-sm-3">
                     <i class="fa fa-fw me-2 fa-building text-primary"/>
@@ -64,6 +67,9 @@
                     </t>
                 </div>
             </div>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             <t t-if="people_data">
                 <t t-set="hasPhoneNumbers" t-value="any([people['phone'] for people in people_data])"/>

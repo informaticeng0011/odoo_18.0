@@ -1,5 +1,6 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 <<<<<<< HEAD
+<<<<<<< HEAD
 from . import common
 from odoo import Command
 <<<<<<< HEAD
@@ -507,17 +508,23 @@ from odoo.exceptions import ValidationError
 from odoo.exceptions import ValidationError
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 from unittest import skip
 
 from . import common
 from odoo import Command
 from odoo.exceptions import ValidationError
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 from odoo.tests import Form, tagged
 from odoo.tools.float_utils import float_split_str
 
 
 @tagged('post_install_l10n', '-at_install', 'post_install')
+<<<<<<< HEAD
 <<<<<<< HEAD
 class TestManual(common.TestAr):
 
@@ -528,6 +535,8 @@ class TestManual(common.TestAr):
         cls.partner = cls.res_partner_adhoc
         cls._create_test_invoices_like_demo(cls)
 =======
+=======
+>>>>>>> upstream/18.0
 class TestArManual(common.TestArCommon):
 
     @classmethod
@@ -536,6 +545,9 @@ class TestArManual(common.TestArCommon):
         cls.journal = cls._create_journal('preprinted')
         cls.partner = cls.res_partner_adhoc
         cls._create_test_invoices_like_demo()
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def test_01_create_invoice(self):
@@ -546,7 +558,11 @@ class TestArManual(common.TestArCommon):
         * Proper fiscal position (this case not fiscal position is selected)
         """
 <<<<<<< HEAD
+<<<<<<< HEAD
         invoice = self._create_invoice()
+=======
+        invoice = self._create_invoice_ar()
+>>>>>>> upstream/18.0
 =======
         invoice = self._create_invoice_ar()
 >>>>>>> upstream/18.0
@@ -563,6 +579,7 @@ class TestArManual(common.TestArCommon):
     def test_02_fiscal_position(self):
         # ADHOC SA > IVA Responsable Inscripto > Without Fiscal Positon
 <<<<<<< HEAD
+<<<<<<< HEAD
         invoice = self._create_invoice({'partner': self.partner})
         self.assertFalse(invoice.fiscal_position_id, 'Fiscal position should be set to empty')
 
@@ -577,6 +594,8 @@ class TestArManual(common.TestArCommon):
         # Barcelona food > Cliente / Proveedor del Exterior >  > IVA Exento
         invoice = self._create_invoice({'partner': self.res_partner_barcelona_food})
 =======
+=======
+>>>>>>> upstream/18.0
         invoice = self._create_invoice_ar(partner_id=self.partner)
         self.assertFalse(invoice.fiscal_position_id, 'Fiscal position should be set to empty')
 
@@ -590,6 +609,9 @@ class TestArManual(common.TestArCommon):
 
         # Barcelona food > Cliente / Proveedor del Exterior >  > IVA Exento
         invoice = self._create_invoice_ar(partner_id=self.res_partner_barcelona_food)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         self.assertEqual(invoice.fiscal_position_id, self._search_fp('Purchases / Sales abroad'))
 
@@ -653,7 +675,11 @@ class TestArManual(common.TestArCommon):
 
         # If we create an invoice it will not use manual numbering
 <<<<<<< HEAD
+<<<<<<< HEAD
         invoice = self._create_invoice({'partner': self.partner})
+=======
+        invoice = self._create_invoice_ar()
+>>>>>>> upstream/18.0
 =======
         invoice = self._create_invoice_ar()
 >>>>>>> upstream/18.0
@@ -738,6 +764,7 @@ class TestArManual(common.TestArCommon):
             if len_l10n_ar_price_unit_digits == len_line_price_unit_digits == decimal_price_digits_setting:
                 self.assertEqual(l10n_ar_price_unit_decimal_part, line_price_unit_decimal_part)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1631,6 +1658,8 @@ class TestArManual(common.TestArCommon):
             ],
         })
 =======
+=======
+>>>>>>> upstream/18.0
     def test_18_invoice_b_tax_breakdown_1(self):
         """ Display Both VAT and Other Taxes """
         invoice = self._create_invoice_ar(
@@ -1645,6 +1674,9 @@ class TestArManual(common.TestArCommon):
                 self._prepare_invoice_line(product_id=self.product_iva_105_perc, price_unit=10000.0, tax_ids=self.tax_0 + self.tax_other),
             ],
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         results = invoice._l10n_ar_get_invoice_custom_tax_summary_for_report()
         self.assertEqual(results, [
@@ -1681,6 +1713,7 @@ class TestArManual(common.TestArCommon):
                             'id': self.tax_other.tax_group_id.id,
                             'base_amount_currency': 10000.0,
                             'tax_amount_currency': 100.0,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2038,12 +2071,16 @@ class TestArManual(common.TestArCommon):
 =======
                             'display_base_amount_currency': False,
 >>>>>>> upstream/18.0
+=======
+                            'display_base_amount_currency': False,
+>>>>>>> upstream/18.0
                         },
                     ],
                 },
             ],
         })
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3218,6 +3255,8 @@ class TestArManual(common.TestArCommon):
             ],
         })
 =======
+=======
+>>>>>>> upstream/18.0
     def test_19_invoice_b_tax_breakdown_2(self):
         """ Display only Other Taxes (VAT taxes are 0) """
         invoice = self._create_invoice_ar(
@@ -3227,6 +3266,9 @@ class TestArManual(common.TestArCommon):
             invoice_date="2021-03-20",
             invoice_line_ids=[self._prepare_invoice_line(product_id=self.product_iva_105_perc, price_unit=10000.0, tax_ids=self.tax_no_gravado + self.tax_internal)],
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         results = invoice._l10n_ar_get_invoice_custom_tax_summary_for_report()
         self.assertEqual(results, [
@@ -3377,9 +3419,12 @@ class TestArManual(common.TestArCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'name': 'Other National Ind. Taxes $',
             },
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3817,6 +3862,9 @@ class TestArManual(common.TestArCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4113,6 +4161,7 @@ class TestArManual(common.TestArCommon):
             'total_amount_currency': 10300.0,
             'subtotals': [],
         })
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4781,6 +4830,8 @@ class TestArManual(common.TestArCommon):
             ],
         })
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_20_invoice_b_tax_breakdown_3(self):
         """ Display only Other Taxes (VAT taxes are 0 and non other taxes) """
@@ -4791,6 +4842,9 @@ class TestArManual(common.TestArCommon):
             invoice_date="2021-03-20",
             invoice_line_ids=[self._prepare_invoice_line(product_id=self.product_iva_105_perc, price_unit=10000.0, tax_ids=self.tax_no_gravado)],
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         results = invoice._l10n_ar_get_invoice_custom_tax_summary_for_report()
         self.assertEqual(results, [
@@ -4951,6 +5005,9 @@ class TestArManual(common.TestArCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5487,6 +5544,7 @@ class TestArManual(common.TestArCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5671,6 +5729,8 @@ class TestArManual(common.TestArCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6056,6 +6116,7 @@ class TestArManual(common.TestArCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6174,6 +6235,8 @@ class TestArManual(common.TestArCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6401,6 +6464,7 @@ class TestArManual(common.TestArCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6535,6 +6599,8 @@ class TestArManual(common.TestArCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     @skip("TODO: failing test. 'Fix' the rounding error")
     def test_l10n_ar_rounding_01(self):
@@ -6572,4 +6638,7 @@ class TestArManual(common.TestArCommon):
             .sorted(lambda x: (x.move_id.id, x.tax_line_id.id, x.tax_ids.ids, x.tax_repartition_line_id.id))
 
         self.assertEqual(tax_lines_a.balance, tax_lines_b.balance, 'Tax balances should be equal since both invoices have a single line and the total matches the line amount.')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
