@@ -135,7 +135,11 @@ from odoo.tools.misc import file_open
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools.mimetypes import guess_mimetype
+=======
+from odoo.tools.mimetypes import guess_mimetype, magic
+>>>>>>> upstream/18.0
 =======
 from odoo.tools.mimetypes import guess_mimetype, magic
 >>>>>>> upstream/18.0
@@ -563,6 +567,7 @@ class TestMimeGuessing(BaseCase):
             guess_mimetype(contents('xlsx')),
             'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
         )
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1334,6 +1339,9 @@ class TestMimeGuessing(BaseCase):
 =======
 
 >>>>>>> upstream/18.0
+=======
+
+>>>>>>> upstream/18.0
     def test_odt(self):
         self.assertEqual(
             guess_mimetype(contents('odt')),
@@ -1363,6 +1371,7 @@ class TestMimeGuessing(BaseCase):
         )
 
     def test_unknown(self):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1761,6 +1770,8 @@ class TestMimeGuessing(BaseCase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         expected_mimetype = 'text/plain' if magic is None else 'text/csv'
         self.assertEqual(
             guess_mimetype(contents('csv')),
@@ -1896,6 +1907,9 @@ class TestMimeGuessing(BaseCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

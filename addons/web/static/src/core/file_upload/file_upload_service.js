@@ -16,7 +16,11 @@ export const fileUploadService = {
     },
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     start(env, { notificationService }) {
+=======
+    start(env, { notification: notificationService }) {
+>>>>>>> upstream/18.0
 =======
     start(env, { notification: notificationService }) {
 >>>>>>> upstream/18.0
@@ -72,18 +76,25 @@ export const fileUploadService = {
             // Load listener
             xhr.addEventListener("load", () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                 try {
                     handleResponse();
                 } catch (e) {
                     onError(e);
                     return;
                 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 delete uploads[upload.id];
                 upload.state = "loaded";
                 bus.trigger("FILE_UPLOAD_LOADED", { upload });
             });
+<<<<<<< HEAD
 <<<<<<< HEAD
             // Error listener
             xhr.addEventListener("error", async () => {
@@ -96,6 +107,8 @@ export const fileUploadService = {
                 ) {
                     notificationService.add(_t("An error occured while uploading."), {
 =======
+=======
+>>>>>>> upstream/18.0
 
             function handleResponse() {
                 const resp = xhr.responseText ?? xhr.response;
@@ -148,6 +161,9 @@ export const fileUploadService = {
                 // Disable this option if you need more explicit error handling.
                 if (displayError) {
                     notificationService.add(error?.message || defaultErrorMessage, {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                         title: _t("Error"),
                         sticky: true,
@@ -155,7 +171,13 @@ export const fileUploadService = {
                 }
                 bus.trigger("FILE_UPLOAD_ERROR", { upload });
 <<<<<<< HEAD
+<<<<<<< HEAD
             });
+=======
+            }
+            // Error listener
+            xhr.addEventListener("error", (ev) => onError(ev.error));
+>>>>>>> upstream/18.0
 =======
             }
             // Error listener

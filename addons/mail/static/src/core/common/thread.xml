@@ -81,6 +81,10 @@
         <div class="o-mail-Thread-error">
             An error occurred while fetching messages.
         </div>
+<<<<<<< HEAD
+=======
+        <span t-if="props.thread.hasLoadingFailedError" class="o-xsmaller text-muted" t-esc="props.thread.hasLoadingFailedError"/>
+>>>>>>> upstream/18.0
         <button class="btn btn-link" t-on-click="onClickLoadOlder">
             Click here to retry
         </button>

@@ -355,8 +355,11 @@ class Company(models.Model):
             or self.browse()
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not invalidation_fields.isdisjoint(values):
             self.env.registry.clear_cache()
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -376,11 +379,17 @@ class Company(models.Model):
         res = super(Company, self).write(values)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         # Must be done after call to super
         if not invalidation_fields.isdisjoint(values):
             self.env.registry.clear_cache()
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         # Archiving a company should also archive all of its branches
         if values.get('active') is False:
@@ -644,7 +653,10 @@ class Company(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1132,6 +1144,9 @@ class Company(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { expect, test } from "@odoo/hoot";
+=======
+import { expect, test, waitFor } from "@odoo/hoot";
+>>>>>>> upstream/18.0
 =======
 import { expect, test, waitFor } from "@odoo/hoot";
 >>>>>>> upstream/18.0
@@ -66,6 +70,7 @@ test("upload renders new component(s)", async () => {
 test("upload end removes component", async () => {
     await mountWithCleanup(Parent);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     const fileUploadService = await getService("file_upload");
     fileUploadService.upload("/test/", []);
@@ -74,12 +79,17 @@ test("upload end removes component", async () => {
     await animationFrame();
     expect(".file_upload").toHaveCount(0);
 =======
+=======
+>>>>>>> upstream/18.0
     onRpc("/test/", () => true);
     const fileUploadService = await getService("file_upload");
     fileUploadService.upload("/test/", []);
     await animationFrame();
     expect(".file_upload").toHaveCount(0);
     expect(".o_notification").toHaveCount(0);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 });
 
@@ -139,7 +149,10 @@ test("upload updates on progress", async () => {
     expect(".file_upload_progress_text_right").toHaveText("(350/500MB)");
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 test("handles error", async () => {
     await mountWithCleanup(Parent);
@@ -192,4 +205,7 @@ test("handles Odoo's jsonrpc error", async () => {
     fileUploadService.upload("/test/", []);
     await waitFor(".o_notification:has(.bg-warning):contains(ValidationError: Boom Odoo)");
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 from datetime import timedelta
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -531,6 +532,11 @@ from odoo import Command, fields
 =======
 from odoo import Command, fields
 >>>>>>> upstream/18.0
+=======
+from freezegun import freeze_time
+
+from odoo import Command, fields
+>>>>>>> upstream/18.0
 from odoo.tests import Form
 from odoo.addons.mrp.tests.common import TestMrpCommon
 from odoo.exceptions import UserError
@@ -1013,7 +1019,10 @@ class TestProcurement(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1451,6 +1460,9 @@ class TestProcurement(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2297,6 +2309,10 @@ class TestProcurement(TestMrpCommon):
         self.assertRecordValues(mo.move_raw_ids, expected_vals)
         self.assertRecordValues(mo.picking_ids.move_ids, expected_vals)
 
+<<<<<<< HEAD
+=======
+    @freeze_time("2025-11-3")
+>>>>>>> upstream/18.0
     def test_consecutive_pickings(self):
         """ Test that when we generate several procurements for a product in a raw
             we do not create demand for the same quantities several times """
@@ -2357,13 +2373,18 @@ class TestProcurement(TestMrpCommon):
                     'location_dest_id': self.env.ref('stock.stock_location_customers').id,
                     'name': 'picking move',
                     'product_id': product_1.id,
+<<<<<<< HEAD
                     'product_uom_qty': 15,
+=======
+                    'product_uom_qty': 8,
+>>>>>>> upstream/18.0
                     'product_uom': self.uom_unit.id,
                 })],
             })
             picking.action_confirm()
             if not mo:
                 mo = self.env['mrp.production'].search([('product_id', '=', product_1.id)])
+<<<<<<< HEAD
             self.assertEqual(delta_hours(mo.date_finished - mo.date_start), i * 15)
 
         # Check the generated MO
@@ -2541,6 +2562,12 @@ class TestProcurement(TestMrpCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+            self.assertEqual(delta_hours(mo.date_finished - mo.date_start), i * 24)
+
+        # Check the generated MO
+        self.assertEqual(mo.product_qty, 24)
+>>>>>>> upstream/18.0
 
     def test_update_mo_producing_qty_with_mtso_rule_and_some_available_stock(self):
         """
@@ -2647,6 +2674,9 @@ class TestProcurement(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

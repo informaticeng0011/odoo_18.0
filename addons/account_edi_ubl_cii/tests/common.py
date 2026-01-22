@@ -175,7 +175,11 @@ class TestUblBis3Common(TestUblCiiCommon):
 
     def subfolder(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
         return super().subfolder().replace('export', 'export/bis3')
+=======
+        return super().subfolder().replace('export', 'export/bis3/invoice')
+>>>>>>> upstream/18.0
 =======
         return super().subfolder().replace('export', 'export/bis3/invoice')
 >>>>>>> upstream/18.0

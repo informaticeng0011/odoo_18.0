@@ -17,6 +17,10 @@ import { standardFieldProps } from "../standard_field_props";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { exprToBoolean } from "@web/core/utils/strings";
+>>>>>>> upstream/18.0
 =======
 import { exprToBoolean } from "@web/core/utils/strings";
 >>>>>>> upstream/18.0
@@ -86,6 +90,10 @@ export class ColorField extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        autosave: { type: Boolean, optional: true },
+>>>>>>> upstream/18.0
 =======
         autosave: { type: Boolean, optional: true },
 >>>>>>> upstream/18.0
@@ -155,7 +163,10 @@ export class ColorField extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -208,6 +219,9 @@ export class ColorField extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -260,10 +274,13 @@ export const colorField = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     extractProps(fieldInfo, dynamicInfo) {
         return {
             readonly: dynamicInfo.readonly,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -319,6 +336,9 @@ export const colorField = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

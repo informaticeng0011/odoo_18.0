@@ -370,6 +370,10 @@ class WebsiteSaleProductConfiguratorController(SaleProductConfiguratorController
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                and product_template.filtered_domain(request.website.website_domain())
+>>>>>>> upstream/18.0
 =======
                 and product_template.filtered_domain(request.website.website_domain())
 >>>>>>> upstream/18.0

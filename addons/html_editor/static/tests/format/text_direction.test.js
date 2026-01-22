@@ -170,6 +170,10 @@ import { getContent } from "../_helpers/selection";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { expectElementCount } from "../_helpers/ui_expectations";
+>>>>>>> upstream/18.0
 =======
 import { expectElementCount } from "../_helpers/ui_expectations";
 >>>>>>> upstream/18.0
@@ -726,7 +730,11 @@ test("should not switch direction of non-editable elements", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test("should properly switch the direction of the single level list (ltr).", async () => {
+=======
+test("should properly switch the direction of the single level list (ltr). (1)", async () => {
+>>>>>>> upstream/18.0
 =======
 test("should properly switch the direction of the single level list (ltr). (1)", async () => {
 >>>>>>> upstream/18.0
@@ -864,6 +872,12 @@ test("should properly switch the direction of the single level list (ltr). (1)",
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+});
+
+test("should properly switch the direction of the single level list (ltr). (2)", async () => {
+>>>>>>> upstream/18.0
 =======
 });
 
@@ -1067,6 +1081,12 @@ test("should properly switch the direction of the single level list (ltr). (2)",
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+});
+
+test("should properly switch the direction of the single level list (ltr). (3)", async () => {
+>>>>>>> upstream/18.0
 =======
 });
 
@@ -1272,7 +1292,11 @@ test("should properly switch the direction of the single level list (ltr). (3)",
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test("should properly switch the direction of nested list (ltr).", async () => {
+=======
+test("should properly switch the direction of nested list (ltr). (1)", async () => {
+>>>>>>> upstream/18.0
 =======
 test("should properly switch the direction of nested list (ltr). (1)", async () => {
 >>>>>>> upstream/18.0
@@ -1410,6 +1434,12 @@ test("should properly switch the direction of nested list (ltr). (1)", async () 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+});
+
+test("should properly switch the direction of nested list (ltr). (2)", async () => {
+>>>>>>> upstream/18.0
 =======
 });
 
@@ -1613,6 +1643,12 @@ test("should properly switch the direction of nested list (ltr). (2)", async () 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+});
+
+test("should properly switch the direction of nested list (ltr). (3)", async () => {
+>>>>>>> upstream/18.0
 =======
 });
 
@@ -1816,6 +1852,12 @@ test("should properly switch the direction of nested list (ltr). (3)", async () 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+});
+
+test("should properly switch the direction of nested list (ltr). (4)", async () => {
+>>>>>>> upstream/18.0
 =======
 });
 
@@ -2021,7 +2063,11 @@ test("should properly switch the direction of nested list (ltr). (4)", async () 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test("should properly switch the direction of the single level list (rtl).", async () => {
+=======
+test("should properly switch the direction of the single level list (rtl). (1)", async () => {
+>>>>>>> upstream/18.0
 =======
 test("should properly switch the direction of the single level list (rtl). (1)", async () => {
 >>>>>>> upstream/18.0
@@ -2159,6 +2205,11 @@ test("should properly switch the direction of the single level list (rtl). (1)",
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+});
+test("should properly switch the direction of the single level list (rtl). (2)", async () => {
+>>>>>>> upstream/18.0
 =======
 });
 test("should properly switch the direction of the single level list (rtl). (2)", async () => {
@@ -2329,6 +2380,11 @@ test("should properly switch the direction of the single level list (rtl). (2)",
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+});
+test("should properly switch the direction of the single level list (rtl). (3)", async () => {
+>>>>>>> upstream/18.0
 =======
 });
 test("should properly switch the direction of the single level list (rtl). (3)", async () => {
@@ -2501,7 +2557,11 @@ test("should properly switch the direction of the single level list (rtl). (3)",
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test("should properly switch the direction of nested list (rtl).", async () => {
+=======
+test("should properly switch the direction of nested list (rtl). (1)", async () => {
+>>>>>>> upstream/18.0
 =======
 test("should properly switch the direction of nested list (rtl). (1)", async () => {
 >>>>>>> upstream/18.0
@@ -2639,6 +2699,12 @@ test("should properly switch the direction of nested list (rtl). (1)", async () 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+});
+
+test("should properly switch the direction of nested list (rtl). (2)", async () => {
+>>>>>>> upstream/18.0
 =======
 });
 
@@ -2842,6 +2908,12 @@ test("should properly switch the direction of nested list (rtl). (2)", async () 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+});
+
+test("should properly switch the direction of nested list (rtl). (3)", async () => {
+>>>>>>> upstream/18.0
 =======
 });
 
@@ -3045,6 +3117,12 @@ test("should properly switch the direction of nested list (rtl). (3)", async () 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+});
+
+test("should properly switch the direction of nested list (rtl). (4)", async () => {
+>>>>>>> upstream/18.0
 =======
 });
 
@@ -3388,7 +3466,11 @@ test("should switch the direction from the powerbox", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(1);
+=======
+    await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -4058,7 +4140,11 @@ test("should switch the direction from the powerbox", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(1);
+=======
+    await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0

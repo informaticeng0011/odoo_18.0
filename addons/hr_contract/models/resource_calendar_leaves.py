@@ -8,7 +8,11 @@ from pytz import timezone, utc
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import models
+=======
+from odoo import api, models
+>>>>>>> upstream/18.0
 =======
 from odoo import api, models
 >>>>>>> upstream/18.0
@@ -34,6 +38,10 @@ class ResourceCalendarLeaves(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    @api.depends('date_from')
+>>>>>>> upstream/18.0
 =======
     @api.depends('date_from')
 >>>>>>> upstream/18.0
@@ -71,7 +79,11 @@ class ResourceCalendarLeaves(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 lambda leave: start_dt <= leave.date_from < end_dt
+=======
+                lambda leave: leave.date_from and start_dt <= leave.date_from < end_dt
+>>>>>>> upstream/18.0
 =======
                 lambda leave: leave.date_from and start_dt <= leave.date_from < end_dt
 >>>>>>> upstream/18.0

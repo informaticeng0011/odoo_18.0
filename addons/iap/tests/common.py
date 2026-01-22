@@ -139,7 +139,10 @@ class MockIAPEnrich(common.TransactionCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _get_iap_dnb_company_data(self, base_name, service=None, add_values=None):
@@ -171,6 +174,9 @@ class MockIAPEnrich(common.TransactionCase):
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
