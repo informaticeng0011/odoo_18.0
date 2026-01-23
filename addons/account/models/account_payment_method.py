@@ -164,13 +164,19 @@ class AccountPaymentMethodLine(models.Model):
 
     @api.model
     def _auto_toggle_account_to_reconcile(self, account_id):
+<<<<<<< HEAD
         """ Automatically toggle the account to reconcile if allowed.
+=======
+        """This method is deprecated and will be removed.
+        Automatically toggle the account to reconcile if allowed.
+>>>>>>> upstream/18.0
 
         :param account_id: The id of an account.account.
         """
         account = self.env['account.account'].browse(account_id)
         if not account.reconcile and account.account_type not in ('asset_cash', 'liability_credit_card', 'off_balance'):
             account.reconcile = True
+<<<<<<< HEAD
 
     @api.model_create_multi
     def create(self, vals_list):
@@ -185,3 +191,5 @@ class AccountPaymentMethodLine(models.Model):
         if vals.get('payment_account_id'):
             self._auto_toggle_account_to_reconcile(vals['payment_account_id'])
         return super().write(vals)
+=======
+>>>>>>> upstream/18.0

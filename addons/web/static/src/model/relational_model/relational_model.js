@@ -350,7 +350,11 @@ export class RelationalModel extends Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!config.isMonoRecord && this.root && params.domain) {
+=======
+        if (!config.isMonoRecord && params.domain) {
+>>>>>>> upstream/18.0
 =======
         if (!config.isMonoRecord && params.domain) {
 >>>>>>> upstream/18.0
@@ -638,9 +642,12 @@ export class RelationalModel extends Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             resetOffset(config);
             if (!!config.groupBy.length !== !!currentGroupBy.length) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -852,6 +859,9 @@ export class RelationalModel extends Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

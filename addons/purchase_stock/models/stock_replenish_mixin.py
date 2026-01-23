@@ -16,3 +16,12 @@ class ProductReplenishMixin(models.AbstractModel):
 
     def _get_show_vendor(self, route):
         return any(r.action == 'buy' for r in route.rule_ids)
+<<<<<<< HEAD
+=======
+
+    def _additional_replenishment_context(self):
+        res = super()._additional_replenishment_context()
+        if self.supplier_id:
+            res['preferred_supplier_name'] = self.supplier_id.partner_id
+        return res
+>>>>>>> upstream/18.0

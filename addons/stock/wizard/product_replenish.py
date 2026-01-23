@@ -92,7 +92,11 @@ class ProductReplenish(models.TransientModel):
         self.quantity = self.product_uom_id._compute_quantity(self.quantity, uom_reference, rounding_method='HALF-UP')
         try:
             now = self.env.cr.now()
+<<<<<<< HEAD
             self.env['procurement.group'].with_context(clean_context(self.env.context)).run([
+=======
+            self.env['procurement.group'].with_context(clean_context(self.env.context | self._additional_replenishment_context())).run([
+>>>>>>> upstream/18.0
                 self.env['procurement.group'].Procurement(
                     self.product_id,
                     self.quantity,

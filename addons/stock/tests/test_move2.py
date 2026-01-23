@@ -873,7 +873,11 @@ class TestPickShip(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             move.quantity = move.product_uom_qty 
+=======
+            move.quantity = move.product_uom_qty
+>>>>>>> upstream/18.0
 =======
             move.quantity = move.product_uom_qty
 >>>>>>> upstream/18.0
@@ -2963,7 +2967,10 @@ class TestSinglePicking(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3193,6 +3200,9 @@ class TestSinglePicking(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3537,7 +3547,10 @@ class TestSinglePicking(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4168,6 +4181,9 @@ class TestSinglePicking(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5181,6 +5197,41 @@ class TestRoutes(TestStockCommon):
         pushed_move = move1.move_dest_ids
         self.assertEqual(pushed_move.location_dest_id.id, push_location_2.id)
 
+<<<<<<< HEAD
+=======
+    def test_location_final_id_in_push(self):
+        """
+        Check that the location_final_id is propagated as location_dest_id
+        at the end of a push chain.
+        """
+        warehouse = self.warehouse_1
+        warehouse.delivery_steps = 'pick_ship'
+        final_location = self.env['stock.location'].create({
+            'name': 'Partner Stock',
+            'location_id': self.partner.property_stock_customer.id,
+        })
+        pick = self.env['stock.picking'].create({
+            'partner_id': self.partner.id,
+            'location_id': warehouse.lot_stock_id.id,
+            'location_dest_id': warehouse.wh_output_stock_loc_id.id,
+            'picking_type_id': warehouse.pick_type_id.id,
+            'move_ids': [Command.create({
+                'name': 'pick move to ship',
+                'location_id': warehouse.lot_stock_id.id,
+                'location_dest_id': warehouse.wh_output_stock_loc_id.id,
+                'location_final_id': final_location.id,
+                'product_id': self.product.id,
+                'product_uom': self.product.uom_id.id,
+                'product_uom_qty': 1.0,
+            })]
+        })
+        pick.action_confirm()
+        pick.button_validate()
+        ship = pick.move_ids.move_dest_ids.picking_id
+        self.assertEqual(ship.location_dest_id, final_location)
+        self.assertEqual(ship.move_ids.location_dest_id, final_location)
+
+>>>>>>> upstream/18.0
 
 class TestAutoAssign(TestStockCommon):
     def create_pick_ship(self):
@@ -5696,7 +5747,10 @@ class TestAutoAssign(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6013,8 +6067,13 @@ class TestPickShipBackorder(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "uom_id": cls.env.ref("uom.product_uom_unit").id,
                 "uom_po_id": cls.env.ref("uom.product_uom_unit").id,
+=======
+                "tracking": "lot",
+                "uom_id": cls.env.ref("uom.product_uom_unit").id,
+>>>>>>> upstream/18.0
 =======
                 "tracking": "lot",
                 "uom_id": cls.env.ref("uom.product_uom_unit").id,
@@ -6426,7 +6485,12 @@ class TestPickShipBackorder(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         cls.stock_location = cls.env.ref("stock.stock_location_stock")
+=======
+        cls.warehouse = cls.env["stock.warehouse"].search([], limit=1)
+        cls.stock_location = cls.warehouse.out_type_id.default_location_src_id or cls.warehouse.lot_stock_id
+>>>>>>> upstream/18.0
 =======
         cls.warehouse = cls.env["stock.warehouse"].search([], limit=1)
         cls.stock_location = cls.warehouse.out_type_id.default_location_src_id or cls.warehouse.lot_stock_id
@@ -6833,8 +6897,12 @@ class TestPickShipBackorder(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         warehouse = self.env["stock.warehouse"].search([], limit=1)
         warehouse.delivery_steps = "pick_ship"
+=======
+        self.warehouse.delivery_steps = "pick_ship"
+>>>>>>> upstream/18.0
 =======
         self.warehouse.delivery_steps = "pick_ship"
 >>>>>>> upstream/18.0
@@ -7160,8 +7228,13 @@ class TestPickShipBackorder(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     warehouse.company_id,
                     {"warehouse_id": warehouse, "group_id": pg},
+=======
+                    self.warehouse.company_id,
+                    {"warehouse_id": self.warehouse, "group_id": pg},
+>>>>>>> upstream/18.0
 =======
                     self.warehouse.company_id,
                     {"warehouse_id": self.warehouse, "group_id": pg},
@@ -7626,6 +7699,9 @@ class TestPickShipBackorder(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

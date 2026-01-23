@@ -74,7 +74,11 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'transfer_account_code_prefix': '101100',
+=======
+                'transfer_account_code_prefix': '10110',
+>>>>>>> upstream/18.0
 =======
                 'transfer_account_code_prefix': '10110',
 >>>>>>> upstream/18.0

@@ -139,12 +139,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         trigger: 'tr:has(td:contains(/^Mitchell Admin$/)) .o_list_record_selector input[type="checkbox"]',
         run: "click",
     },
     {
         trigger: 'tr:has(td:contains(/^Mitchell Admin$/)) .o_list_record_selector input[type="checkbox"]:checked',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -375,6 +378,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -609,7 +615,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         trigger: '.o_field_widget[name=participants] .o_data_cell:contains(/^Mitchell Admin$/)',
+=======
+        trigger: '.o_field_widget[name=participants] .o_data_cell:text(Mitchell Admin)',
+>>>>>>> upstream/18.0
 =======
         trigger: '.o_field_widget[name=participants] .o_data_cell:text(Mitchell Admin)',
 >>>>>>> upstream/18.0
@@ -962,7 +972,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         trigger: '.o_field_widget[name=messages] .o_data_cell:contains(/^b$/)',
+=======
+        trigger: '.o_field_widget[name=messages] .o_data_cell:text(b)',
+>>>>>>> upstream/18.0
 =======
         trigger: '.o_field_widget[name=messages] .o_data_cell:text(b)',
 >>>>>>> upstream/18.0
@@ -1306,12 +1320,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         trigger: 'tr:has(td:contains(/^Marc Demo$/)) .o_list_record_selector input[type="checkbox"]',
         run: "click",
     },
     {
         trigger: 'tr:has(td:contains(/^Marc Demo$/)) .o_list_record_selector input[type="checkbox"]:checked',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1542,6 +1559,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1791,7 +1811,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         trigger: `.o_content:has(.o_field_widget[name=messages] tr:has(td:contains(/^bbb$/)):has(td:contains(/^\\[test_trigger\\] Mitchell Admin$/)))`,
+=======
+        trigger: `.o_content:has(.o_field_widget[name=messages] tr:has(td:text(bbb)):has(td:text([test_trigger] Mitchell Admin)))`,
+>>>>>>> upstream/18.0
 =======
         trigger: `.o_content:has(.o_field_widget[name=messages] tr:has(td:text(bbb)):has(td:text([test_trigger] Mitchell Admin)))`,
 >>>>>>> upstream/18.0
@@ -2133,7 +2157,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         trigger: '.o_field_widget[name=messages] .o_data_cell:contains(/^d$/)',
+=======
+        trigger: '.o_field_widget[name=messages] .o_data_cell:text(d)',
+>>>>>>> upstream/18.0
 =======
         trigger: '.o_field_widget[name=messages] .o_data_cell:text(d)',
 >>>>>>> upstream/18.0
@@ -2453,12 +2481,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         trigger: '.o_field_widget[name=messages] .o_data_cell:contains(/^e$/)',
     },
     { // change message a
         content: "edit message a",
         trigger: '.o_field_widget[name=messages] .o_data_cell:contains(/^a$/)',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2689,6 +2720,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2927,12 +2961,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         trigger: '.o_field_widget[name=messages] .o_data_cell:contains(/^aaa$/)',
     },
     { // change message e
         content: "edit message e",
         trigger: '.o_field_widget[name=messages] .o_data_cell:contains(/^e$/)',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3163,6 +3200,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3417,6 +3457,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         trigger: '.o_field_widget[name=messages] .o_data_row:has(.o_data_cell:contains(/^bbb$/)) .o_list_record_remove',
         run: "click",
     }, {
@@ -3427,6 +3468,8 @@
     {
         trigger: 'body:not(:has(tr:has(td:contains(/^e$/))))',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3661,6 +3704,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3898,11 +3944,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         trigger: '.o_content:has(.o_field_widget[name=messages] tbody:has(tr td:contains(/^aaa$/)):has(tr td:contains(/^c$/)):has(tr td:contains(/^d$/)))',
     }, {
         content: "check data 6",
         trigger: `.o_content:has(.o_field_widget[name=messages] tbody tr:has(td:contains(/^\\[test_trigger\\] Mitchell Admin$/)):has(td:contains(/^aaa$/)))`,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4132,6 +4181,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4376,7 +4428,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         trigger: '.o_form_editable .o_field_widget[name=messages] tbody tr:has(td:contains(/^d$/))',
+=======
+        trigger: '.o_form_editable .o_field_widget[name=messages] tbody tr:has(td:text(d))',
+>>>>>>> upstream/18.0
 =======
         trigger: '.o_form_editable .o_field_widget[name=messages] tbody tr:has(td:text(d))',
 >>>>>>> upstream/18.0
@@ -4717,7 +4773,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         trigger: '.o_field_widget[name=messages]:has(tr td:contains(/^ddd$/))',
+=======
+        trigger: '.o_field_widget[name=messages]:has(tr td:text(ddd))',
+>>>>>>> upstream/18.0
 =======
         trigger: '.o_field_widget[name=messages]:has(tr td:text(ddd))',
 >>>>>>> upstream/18.0
@@ -5117,7 +5177,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         trigger: 'body:not(:has(tr:has(td:contains(/^d$/))))',
+=======
+        trigger: 'body:not(:has(tr:has(td:text(d))))',
+>>>>>>> upstream/18.0
 =======
         trigger: 'body:not(:has(tr:has(td:text(d))))',
 >>>>>>> upstream/18.0
@@ -5491,12 +5555,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         trigger: '.o_field_widget[name=important_messages] .o_data_row .o_list_number:contains(/^13$/)',
     },
     {
         content: "check new dummy message happened",
         trigger: '.o_field_widget[name=messages] .o_data_row .o_list_number:contains(/^13$/)',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5727,6 +5794,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5970,12 +6040,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         trigger: '.o_field_widget[name=important_messages] .o_data_row .o_list_number:contains(/^22$/)',
     },
     {
         content: "check update and new dummy message happened",
         trigger: '.o_field_widget[name=messages] .o_data_row .o_list_number:contains(/^22$/)',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6206,6 +6279,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

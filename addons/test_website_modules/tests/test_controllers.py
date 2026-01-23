@@ -93,7 +93,11 @@ from odoo import Command, tests
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.base.tests.common import HttpCaseWithUserDemo
+=======
+from odoo.addons.base.tests.common import HttpCaseWithUserDemo, HttpCaseWithUserPortal
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.base.tests.common import HttpCaseWithUserDemo, HttpCaseWithUserPortal
 >>>>>>> upstream/18.0
@@ -459,7 +463,11 @@ from odoo.tools.json import scriptsafe as json_safe
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class TestWebEditorController(HttpCaseWithUserDemo):
+=======
+class TestWebEditorController(HttpCaseWithUserDemo, HttpCaseWithUserPortal):
+>>>>>>> upstream/18.0
 =======
 class TestWebEditorController(HttpCaseWithUserDemo, HttpCaseWithUserPortal):
 >>>>>>> upstream/18.0
@@ -764,13 +772,19 @@ class TestWebEditorController(HttpCaseWithUserDemo, HttpCaseWithUserPortal):
             if expect_fail:
                 return json_safe.loads(response.content)
 <<<<<<< HEAD
+<<<<<<< HEAD
             url = json_safe.loads(response.content).get('result')
             self.assertTrue(url.endswith(name), "Expect name in URL")
 =======
+=======
+>>>>>>> upstream/18.0
             content = json_safe.loads(response.content)
             self.assertFalse(content.get('error'), "An error should not happen")
             url = content.get('result')
             self.assertTrue(url.partition('?unique=')[0].endswith(name), "Expect name in URL")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             response = self.url_open(url)
             self.assertEqual(200, response.status_code, "Expect response")
@@ -815,12 +829,18 @@ class TestWebEditorController(HttpCaseWithUserDemo, HttpCaseWithUserPortal):
         modify('demo', 'page-demo.gif')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         # Website designer can modify url attachment (for e.g. unsplash)
         attachment.url = '/page-logo-unique.gif'
         modify('demo', 'page-logo-unique.gif')
         attachment.url = False  # Reset previous value
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         # Portal user cannot modify page
         with mute_logger('odoo.http'):
@@ -917,7 +937,11 @@ class TestWebEditorController(HttpCaseWithUserDemo, HttpCaseWithUserPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         event = self.env['event.event'].search([], limit=1)
+=======
+        event = self.env['event.event'].create({'name': 'Event'})
+>>>>>>> upstream/18.0
 =======
         event = self.env['event.event'].create({'name': 'Event'})
 >>>>>>> upstream/18.0

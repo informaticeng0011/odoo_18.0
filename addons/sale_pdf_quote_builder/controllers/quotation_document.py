@@ -1,6 +1,7 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import base64
 import json
 import logging
@@ -11,6 +12,8 @@ from odoo.http import Controller, request, route
 from odoo.addons.sale_pdf_quote_builder import utils
 
 =======
+=======
+>>>>>>> upstream/18.0
 import json
 import logging
 import traceback
@@ -20,6 +23,9 @@ from odoo import _
 from odoo.exceptions import UserError
 from odoo.http import Controller, request, route
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 logger = logging.getLogger(__name__)
 
@@ -46,7 +52,11 @@ class QuotationDocumentController(Controller):
             try:
                 mimetype = ufile.content_type
 <<<<<<< HEAD
+<<<<<<< HEAD
                 doc = request.env['quotation.document'].create({
+=======
+                request.env['quotation.document'].create({
+>>>>>>> upstream/18.0
 =======
                 request.env['quotation.document'].create({
 >>>>>>> upstream/18.0
@@ -55,6 +65,7 @@ class QuotationDocumentController(Controller):
                     'raw': ufile.read(),
                     'quotation_template_ids': sale_order_template.ids,
                     'company_id': company.id,
+<<<<<<< HEAD
 <<<<<<< HEAD
                 })
                 # pypdf will also catch malformed document
@@ -65,6 +76,8 @@ class QuotationDocumentController(Controller):
 
         return json.dumps(result)
 =======
+=======
+>>>>>>> upstream/18.0
                 }).flush_recordset()
             except UserError as e:
                 request.env.cr.rollback()
@@ -81,4 +94,7 @@ class QuotationDocumentController(Controller):
                 )
 
         return request.make_json_response(result)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -4,7 +4,11 @@
         <div t-attf-id="#{id}" t-attf-class="carousel slide #{colorContrast}" t-att-data-bs-ride="ride" t-attf-data-bs-interval="#{interval}" style="margin: 0 12px;">
             <div class="carousel-inner">
                 <t t-foreach="images" t-as="image" t-key="image_index">
+<<<<<<< HEAD
                     <div t-attf-class="carousel-item #{image_index == index and 'active' or None}">
+=======
+                    <div t-attf-class="carousel-item #{image_index == index and 'active' or ''}">
+>>>>>>> upstream/18.0
                         <img t-if="!hideImage" class="img img-fluid d-block" t-att-src="image.getAttribute('src')" t-att-alt="image.alt" data-name="Image"/>
                     </div>
                 </t>
@@ -153,7 +157,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -407,7 +414,11 @@
         <div t-attf-id="#{id}" class="carousel slide" t-att-data-bs-ride="ride" t-attf-data-bs-interval="#{interval}" style="margin: 0 12px;">
             <div class="carousel-inner" style="padding: 0;">
                  <t t-foreach="images" t-as="image" t-key="image_index">
+<<<<<<< HEAD
                     <div t-attf-class="carousel-item #{image_index == index and 'active' or None}">
+=======
+                    <div t-attf-class="carousel-item #{image_index == index and 'active' or ''}">
+>>>>>>> upstream/18.0
                         <img t-if="!hideImage" class="img img-fluid d-block" t-att-src="image.getAttribute('src')" t-att-alt="image.alt" data-name="Image"/>
                     </div>
                  </t>
@@ -571,6 +582,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

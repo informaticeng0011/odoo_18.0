@@ -73,6 +73,11 @@ class MicrosoftSync(models.AbstractModel):
 
         if self.env.user._get_microsoft_sync_status() != "sync_paused":
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            timeout = self._get_microsoft_graph_timeout()
+
+>>>>>>> upstream/18.0
 =======
             timeout = self._get_microsoft_graph_timeout()
 
@@ -82,7 +87,11 @@ class MicrosoftSync(models.AbstractModel):
                     if not vals.get('active', True):
                         # We need to delete the event. Cancel is not sufficient. Errors may occur.
 <<<<<<< HEAD
+<<<<<<< HEAD
                         record._microsoft_delete(record._get_organizer(), record.microsoft_id, timeout=3)
+=======
+                        record._microsoft_delete(record._get_organizer(), record.microsoft_id, timeout=timeout)
+>>>>>>> upstream/18.0
 =======
                         record._microsoft_delete(record._get_organizer(), record.microsoft_id, timeout=timeout)
 >>>>>>> upstream/18.0
@@ -91,7 +100,11 @@ class MicrosoftSync(models.AbstractModel):
                         if not values:
                             continue
 <<<<<<< HEAD
+<<<<<<< HEAD
                         record._microsoft_patch(record._get_organizer(), record.microsoft_id, values, timeout=3)
+=======
+                        record._microsoft_patch(record._get_organizer(), record.microsoft_id, values, timeout=timeout)
+>>>>>>> upstream/18.0
 =======
                         record._microsoft_patch(record._get_organizer(), record.microsoft_id, values, timeout=timeout)
 >>>>>>> upstream/18.0
@@ -107,15 +120,21 @@ class MicrosoftSync(models.AbstractModel):
 
         if self.env.user._get_microsoft_sync_status() != "sync_paused":
 <<<<<<< HEAD
+<<<<<<< HEAD
             for record in records:
                 if record.need_sync_m and record.active:
                     record._microsoft_insert(record._microsoft_values(self._get_microsoft_synced_fields()), timeout=3)
 =======
+=======
+>>>>>>> upstream/18.0
             timeout = self._get_microsoft_graph_timeout()
 
             for record in records:
                 if record.need_sync_m and record.active:
                     record._microsoft_insert(record._microsoft_values(self._get_microsoft_synced_fields()), timeout=timeout)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         return records
 
@@ -355,9 +374,13 @@ class MicrosoftSync(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             # Prevent current user to synchronize new events of non-synchronized users, otherwise the event
             # ownership will be lost in Outlook and it will block the future event sync for the original owner.
             if record.user_id and record.user_id != self.env.user and sender_user == self.env.user:
+=======
+            if record._is_microsoft_insertion_blocked(sender_user):
+>>>>>>> upstream/18.0
 =======
             if record._is_microsoft_insertion_blocked(sender_user):
 >>>>>>> upstream/18.0
@@ -1253,7 +1276,10 @@ class MicrosoftSync(models.AbstractModel):
         raise NotImplementedError()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @api.model
     def _get_microsoft_graph_timeout(self):
         """Return Microsoft Graph request timeout (seconds).
@@ -1266,6 +1292,9 @@ class MicrosoftSync(models.AbstractModel):
             return 5
         return max(1, int(timeout))
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _microsoft_values(self, fields_to_sync):
         """
@@ -1527,7 +1556,10 @@ class MicrosoftSync(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2117,6 +2149,9 @@ class MicrosoftSync(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

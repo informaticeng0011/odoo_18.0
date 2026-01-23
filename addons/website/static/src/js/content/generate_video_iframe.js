@@ -92,6 +92,7 @@ const SUPPORTED_DOMAINS = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "player.youku.com",
     "youku.com",
 =======
@@ -454,6 +455,11 @@ export function escape(str) {
 
 /**
 >>>>>>> upstream/18.0
+=======
+];
+
+/**
+>>>>>>> upstream/18.0
  * Builds a video iframe for a saved `src` and appends it to the DOM.
  *
  * @param {HTMLElement} parentEl The iframe container.
@@ -473,6 +479,7 @@ export function generateVideoIframe(parentEl) {
 
     // Rebuild the iframe. Depending on version / compatibility / instance, the
     // src is saved in the 'data-src' attribute or the 'data-oe-expression' one.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -694,6 +701,9 @@ export function generateVideoIframe(parentEl) {
 =======
     const src = parentEl.dataset.oeExpression || parentEl.dataset.src;
 >>>>>>> upstream/18.0
+=======
+    const src = parentEl.dataset.oeExpression || parentEl.dataset.src;
+>>>>>>> upstream/18.0
     // Validate the src to only accept supported domains we can trust
     const m = src.match(/^(?:https?:)?\/\/([^/?#]+)/);
     if (!m) {
@@ -743,6 +753,10 @@ export function generateVideoIframe(parentEl) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    iframeEl.setAttribute("referrerpolicy", "strict-origin-when-cross-origin");
+>>>>>>> upstream/18.0
 =======
     iframeEl.setAttribute("referrerpolicy", "strict-origin-when-cross-origin");
 >>>>>>> upstream/18.0

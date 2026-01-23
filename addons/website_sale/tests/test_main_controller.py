@@ -30,6 +30,10 @@ class TestPaymentProviderVisibility(PaymentHttpCommon, SaleCommon):
         url_so = self.sale_order.get_portal_url()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.sale_order.require_payment = True
+>>>>>>> upstream/18.0
 =======
         self.sale_order.require_payment = True
 >>>>>>> upstream/18.0

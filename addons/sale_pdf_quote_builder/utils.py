@@ -10,14 +10,20 @@ from odoo.tools import pdf
 
 def _ensure_document_not_encrypted(document):
 <<<<<<< HEAD
+<<<<<<< HEAD
     if pdf.PdfFileReader(io.BytesIO(document), strict=False).isEncrypted:
 =======
+=======
+>>>>>>> upstream/18.0
     document_is_invalid = False
     try:
         document_is_invalid = pdf.PdfFileReader(io.BytesIO(document), strict=False).isEncrypted
     except (pdf.DependencyError, pdf.PdfReadError):
         document_is_invalid = True
     if document_is_invalid:
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         raise ValidationError(_(
             "It seems that we're not able to process this pdf inside a quotation. It is either"
@@ -34,12 +40,18 @@ def _get_form_fields_from_pdf(pdf_data):
     :rtype: set
     """
 <<<<<<< HEAD
+<<<<<<< HEAD
     reader = pdf.PdfFileReader(io.BytesIO(base64.b64decode(pdf_data)), strict=False)
 =======
+=======
+>>>>>>> upstream/18.0
     pdf_bytes = base64.b64decode(pdf_data)
     _ensure_document_not_encrypted(pdf_bytes)
 
     reader = pdf.PdfFileReader(io.BytesIO(pdf_bytes), strict=False)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     return set(reader.getFormTextFields() or {})

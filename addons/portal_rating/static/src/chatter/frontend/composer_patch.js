@@ -4,21 +4,30 @@ import { patch } from "@web/core/utils/patch";
 import { rpc } from "@web/core/network/rpc";
 import { useState } from "@odoo/owl";
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 import { isMobileOS } from "@web/core/browser/feature_detection";
 
 const MAX_STAR_RATING = 5;
 const DEFAULT_STAR_RATING = 4;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 patch(Composer.prototype, {
     setup() {
         super.setup(...arguments);
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.portalState = useState({
             ratingValue: 4,
             starValue: 4,
 =======
+=======
+>>>>>>> upstream/18.0
         this.MAX_STAR_RATING = MAX_STAR_RATING;
         this.portalState = useState({
             hoveredRatingValue: undefined,
@@ -31,6 +40,9 @@ patch(Composer.prototype, {
             set starValue(val) {
                 this.hoveredRatingValue = val;
             },
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         });
     },
@@ -39,6 +51,7 @@ patch(Composer.prototype, {
         return super.allowUpload && !this.props.composer.portalComment;
     },
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -709,6 +722,8 @@ patch(Composer.prototype, {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     async editMessage() {
         if (this.props.composer.portalComment) {
             await this.savePublisherComment();
@@ -824,6 +839,9 @@ patch(Composer.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1261,6 +1279,9 @@ patch(Composer.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1817,7 +1838,10 @@ patch(Composer.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2144,6 +2168,7 @@ patch(Composer.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2363,6 +2388,8 @@ patch(Composer.prototype, {
     onClickStar() {
         this.portalState.ratingValue = this.portalState.starValue;
 =======
+=======
+>>>>>>> upstream/18.0
     get visibleRatingValue() {
         return this.portalState.hoveredRatingValue ?? this.portalState.ratingValue;
     },
@@ -2394,6 +2421,9 @@ patch(Composer.prototype, {
         if (!isMobileOS()) {
             this.handleStar(ev, { hovered: true });
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     },
 
@@ -2403,6 +2433,10 @@ patch(Composer.prototype, {
             postData.rating_value = this.portalState.ratingValue;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.portalState.ratingValue = DEFAULT_STAR_RATING;
+>>>>>>> upstream/18.0
 =======
         this.portalState.ratingValue = DEFAULT_STAR_RATING;
 >>>>>>> upstream/18.0

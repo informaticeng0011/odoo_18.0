@@ -283,7 +283,10 @@ class EventRegistration(models.Model):
             default_composition_mode='comment',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             default_email_layout_xmlid="mail.mail_notification_light",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

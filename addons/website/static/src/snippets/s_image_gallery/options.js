@@ -133,7 +133,13 @@ options.registry.GalleryLayout = options.registry.CarouselHandler.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.$target.css('height', '');
+=======
+        if (modeName !== "slideshow") {
+            this.$target.css("height", "");
+        }
+>>>>>>> upstream/18.0
 =======
         if (modeName !== "slideshow") {
             this.$target.css("height", "");
@@ -314,9 +320,12 @@ options.registry.GalleryLayout = options.registry.CarouselHandler.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             let carouselEl = this.$target[0].querySelector('.carousel');
             params.colorContrast  = carouselEl && carouselEl.classList.contains('carousel-dark') ? 'carousel-dark' : ' ';
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -485,6 +494,9 @@ options.registry.GalleryLayout = options.registry.CarouselHandler.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -619,7 +631,10 @@ options.registry.GalleryLayout = options.registry.CarouselHandler.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.$target.css('height', Math.round(window.innerHeight * 0.7));
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1149,7 +1164,10 @@ options.registry.GalleryImageList = options.registry.GalleryLayout.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1817,6 +1835,9 @@ options.registry.GalleryImageList = options.registry.GalleryLayout.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2398,6 +2419,12 @@ options.registry.GalleryImageList = options.registry.GalleryLayout.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (this.$target[0].querySelector(".carousel-dark")) {
+            $text[0].dataset.carouselDark = "";
+        }
+>>>>>>> upstream/18.0
 =======
         if (this.$target[0].querySelector(".carousel-dark")) {
             $text[0].dataset.carouselDark = "";
@@ -2911,7 +2938,11 @@ options.registry.GalleryImageList = options.registry.GalleryLayout.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (name === 'image_removed') {
+=======
+        if (name === 'image_removed' && !this.isBeingRemoved) {
+>>>>>>> upstream/18.0
 =======
         if (name === 'image_removed' && !this.isBeingRemoved) {
 >>>>>>> upstream/18.0

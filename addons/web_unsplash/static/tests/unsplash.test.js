@@ -165,6 +165,10 @@ import { insertText } from "@html_editor/../tests/_helpers/user_actions";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { expectElementCount } from "@html_editor/../tests/_helpers/ui_expectations";
+>>>>>>> upstream/18.0
 =======
 import { expectElementCount } from "@html_editor/../tests/_helpers/ui_expectations";
 >>>>>>> upstream/18.0
@@ -830,9 +834,13 @@ test("Unsplash is inserted in the Media Dialog", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("/web/dataset/call_kw/ir.attachment/search_read", () => {
         return [imageRecord];
     });
+=======
+    onRpc("ir.attachment", "search_read", () => [imageRecord]);
+>>>>>>> upstream/18.0
 =======
     onRpc("ir.attachment", "search_read", () => [imageRecord]);
 >>>>>>> upstream/18.0
@@ -1488,6 +1496,7 @@ test("Unsplash is inserted in the Media Dialog", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("/web_unsplash/attachment/add", (args) => {
         return [{ ...imageRecord, description: "unsplash_image" }];
     });
@@ -1521,6 +1530,8 @@ test("Unsplash is inserted in the Media Dialog", async () => {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1994,6 +2005,9 @@ test("Unsplash is inserted in the Media Dialog", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2475,6 +2489,9 @@ test("Unsplash is inserted in the Media Dialog", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2982,9 +2999,13 @@ test("Unsplash error is displayed when there is no key", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("/web/dataset/call_kw/ir.attachment/search_read", () => {
         return [imageRecord];
     });
+=======
+    onRpc("ir.attachment", "search_read", () => [imageRecord]);
+>>>>>>> upstream/18.0
 =======
     onRpc("ir.attachment", "search_read", () => [imageRecord]);
 >>>>>>> upstream/18.0
@@ -3630,11 +3651,14 @@ test("Unsplash error is displayed when there is no key", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(0);
     await insertText(editor, "/image");
     await animationFrame();
     expect(".o-we-powerbox").toHaveCount(1);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4131,6 +4155,9 @@ test("Unsplash error is displayed when there is no key", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4627,6 +4654,7 @@ test("Document tab does not crash with FileSelector extension", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("/web/dataset/call_kw/ir.attachment/search_read", () => {
         return [
             {
@@ -4640,6 +4668,8 @@ test("Document tab does not crash with FileSelector extension", async () => {
         ];
     });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5118,6 +5148,9 @@ test("Document tab does not crash with FileSelector extension", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

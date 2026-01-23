@@ -6,6 +6,10 @@ edi_proxy_user cannot be used as a basis as it is too closely tied to Odoo's own
 
 import logging
 import requests
+<<<<<<< HEAD
+=======
+from json import JSONDecodeError
+>>>>>>> upstream/18.0
 
 from odoo.exceptions import UserError
 
@@ -87,6 +91,7 @@ def _make_request(company, endpoint_type, params=False):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             error_message = response.json().get('message')
 =======
             error_message = response.json().get('errors')
@@ -113,13 +118,21 @@ def _make_request(company, endpoint_type, params=False):
             error_message = response.json().get('errors')
 >>>>>>> upstream/18.0
         except (requests.exceptions.JSONDecodeError, TypeError):
+=======
+            error_message = response.json().get('errors')
+        except (JSONDecodeError, TypeError):
+>>>>>>> upstream/18.0
             error_message = False
         raise UserError(company.env._("Error handling request: %s", error_message) if error_message else company.env._("HTTP %s: Connection error.", response.status_code))
 
     if endpoint != endpoints['receive']:
         try:
             response_json = response.json()
+<<<<<<< HEAD
         except (requests.exceptions.JSONDecodeError, TypeError):
+=======
+        except (JSONDecodeError, TypeError):
+>>>>>>> upstream/18.0
             raise MojEracunServiceError('Invalid response format received')
         if 'error' in response_json:
             message = company.env._('The url that this service requested returned an error. The url it tried to contact was %(url)s. %(error_message)s', url=url, error_message=response_json['error']['message'])

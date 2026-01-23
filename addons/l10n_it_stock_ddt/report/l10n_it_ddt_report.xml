@@ -265,8 +265,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <td>
                                         <span t-field="move.quantity"/>
+=======
+                                    <td class="o_td_quantity">
+                                        <span t-field="move.quantity" class="text-nowrap"/>
+>>>>>>> upstream/18.0
 =======
                                     <td class="o_td_quantity">
                                         <span t-field="move.quantity" class="text-nowrap"/>
@@ -1047,7 +1052,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                             <t t-set="lst_price" t-value="move.sale_line_id.price_reduce_taxinc * move.quantity"/>
+=======
+                                            <t t-set="lst_price" t-value="move.sale_line_id.price_reduce_taxexcl * move.quantity + move.sale_line_id.price_tax"/>
+>>>>>>> upstream/18.0
 =======
                                             <t t-set="lst_price" t-value="move.sale_line_id.price_reduce_taxexcl * move.quantity + move.sale_line_id.price_tax"/>
 >>>>>>> upstream/18.0

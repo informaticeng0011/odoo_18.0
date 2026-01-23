@@ -4,6 +4,7 @@
         <xpath expr="//div[hasclass('o-mail-Composer-coreMain')]" position="before">
             <div t-if="env.displayRating and !message" class="o-mail-Composer-starCard d-flex">
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <div class="o-mail-Composer-stars enabled" t-on-mouseleave="() => portalState.starValue = portalState.ratingValue">
                     <t t-set="index" t-value="0" />
                     <t t-foreach="Array(portalState.starValue)" t-as="num" t-key="num_index">
@@ -12,6 +13,8 @@
                     </t>
                     <t t-foreach="Array(5 - portalState.starValue)" t-as="num" t-key="num_index">
 =======
+=======
+>>>>>>> upstream/18.0
                 <div class="o-mail-Composer-stars enabled" t-on-mouseleave="onMouseLeaveStar">
                     <t t-set="index" t-value="0" />
                     <t t-foreach="Array(visibleRatingValue)" t-as="num" t-key="num_index">
@@ -19,6 +22,9 @@
                         <t t-set="index" t-value="index + 1" />
                     </t>
                     <t t-foreach="Array(MAX_STAR_RATING - visibleRatingValue)" t-as="num" t-key="Array(visibleRatingValue) + num_index">
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                         <i class="fa fa-star-o text-black-25" role="img" aria-label="Empty star" t-att-index="index" t-on-mousemove="onMoveStar" t-on-click="onClickStar"/>
                         <t t-set="index" t-value="index + 1" />
