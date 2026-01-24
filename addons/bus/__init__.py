@@ -1,6 +1,10 @@
 # -*- coding: utf-8 -*-
 from . import models
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import tools
+>>>>>>> upstream/18.0
 =======
 from . import tools
 >>>>>>> upstream/18.0

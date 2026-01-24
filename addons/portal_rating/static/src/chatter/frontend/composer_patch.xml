@@ -5,6 +5,7 @@
             <div t-if="env.displayRating and !message" class="o-mail-Composer-starCard d-flex">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <div class="o-mail-Composer-stars enabled" t-on-mouseleave="() => portalState.starValue = portalState.ratingValue">
                     <t t-set="index" t-value="0" />
                     <t t-foreach="Array(portalState.starValue)" t-as="num" t-key="num_index">
@@ -15,6 +16,8 @@
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 <div class="o-mail-Composer-stars enabled" t-on-mouseleave="onMouseLeaveStar">
                     <t t-set="index" t-value="0" />
                     <t t-foreach="Array(visibleRatingValue)" t-as="num" t-key="num_index">
@@ -23,6 +26,9 @@
                     </t>
                     <t t-foreach="Array(MAX_STAR_RATING - visibleRatingValue)" t-as="num" t-key="Array(visibleRatingValue) + num_index">
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

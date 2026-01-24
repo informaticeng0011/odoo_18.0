@@ -47,6 +47,10 @@ from dateutil.relativedelta import relativedelta
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from freezegun import freeze_time
+>>>>>>> upstream/18.0
 =======
 from freezegun import freeze_time
 >>>>>>> upstream/18.0
@@ -1036,7 +1040,10 @@ class StockMove(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1297,6 +1304,9 @@ class StockMove(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2936,7 +2946,10 @@ class StockMove(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3153,6 +3166,9 @@ class StockMove(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3436,7 +3452,10 @@ class StockMove(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3806,6 +3825,9 @@ class StockMove(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6715,7 +6737,10 @@ class StockMove(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7110,6 +7135,9 @@ class StockMove(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9355,6 +9383,10 @@ class StockMove(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    @freeze_time("2025-10-10")
+>>>>>>> upstream/18.0
 =======
     @freeze_time("2025-10-10")
 >>>>>>> upstream/18.0
@@ -9784,7 +9816,10 @@ class StockMove(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10132,6 +10167,7 @@ class StockMove(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10164,6 +10200,8 @@ class StockMove(TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10465,6 +10503,7 @@ class StockMove(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10647,4 +10686,52 @@ class StockMove(TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_adding_tracked_product_in_ready_picking(self):
+        """ Ensure that when adding a serial-tracked product to a picking already
+        in the 'ready' state, the explicitly assigned serial number is preserved
+        and not recomputed or replaced.
+        """
+        sn_1 = self.env['stock.lot'].create({
+            'name': 'sn1',
+            'product_id': self.product_serial.id,
+        })
+        sn_2 = self.env['stock.lot'].create({
+            'name': 'sn2',
+            'product_id': self.product_serial.id,
+        })
+        self.env['stock.quant']._update_available_quantity(self.product_serial, self.stock_location, 1, lot_id=sn_1)
+        self.env['stock.quant']._update_available_quantity(self.product_serial, self.stock_location, 1, lot_id=sn_2)
+        self.env['stock.quant']._update_available_quantity(self.product, self.stock_location, 1)
+        picking = self.env['stock.picking'].create({
+            'picking_type_id': self.env.ref('stock.picking_type_out').id,
+            'location_id': self.stock_location.id,
+            'location_dest_id': self.customer_location.id,
+            'move_ids': [Command.create({
+                'name': self.product.name,
+                'product_id': self.product.id,
+                'product_uom_qty': 1.0,
+                'product_uom': self.product.uom_id.id,
+                'location_id': self.stock_location.id,
+                'location_dest_id': self.customer_location.id,
+            })],
+        })
+        picking.action_confirm()
+        self.assertEqual(picking.state, 'assigned')
+        picking.move_ids = [Command.create({
+            'name': self.product_serial.name,
+            'product_id': self.product_serial.id,
+            'lot_ids': [Command.set([sn_2.id])],
+            'product_uom_qty': 1.00,
+            'quantity': 2.00,
+            'location_id': self.stock_location.id,
+            'location_dest_id': self.customer_location.id,
+            'additional': True,
+        })]
+        self.assertEqual(picking.state, 'assigned')
+        tracked_move = picking.move_ids.filtered(lambda m: m.product_id == self.product_serial)
+        self.assertEqual(tracked_move.lot_ids, sn_2)
+        self.assertEqual(tracked_move.quantity, 1.00)
 >>>>>>> upstream/18.0

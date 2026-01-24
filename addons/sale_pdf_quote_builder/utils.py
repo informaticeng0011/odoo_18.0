@@ -11,8 +11,11 @@ from odoo.tools import pdf
 def _ensure_document_not_encrypted(document):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if pdf.PdfFileReader(io.BytesIO(document), strict=False).isEncrypted:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     document_is_invalid = False
@@ -22,6 +25,9 @@ def _ensure_document_not_encrypted(document):
         document_is_invalid = True
     if document_is_invalid:
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -41,8 +47,11 @@ def _get_form_fields_from_pdf(pdf_data):
     """
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     reader = pdf.PdfFileReader(io.BytesIO(base64.b64decode(pdf_data)), strict=False)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     pdf_bytes = base64.b64decode(pdf_data)
@@ -50,6 +59,9 @@ def _get_form_fields_from_pdf(pdf_data):
 
     reader = pdf.PdfFileReader(io.BytesIO(pdf_bytes), strict=False)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

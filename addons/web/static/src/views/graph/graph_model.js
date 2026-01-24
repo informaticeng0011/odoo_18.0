@@ -445,7 +445,11 @@ export class GraphModel extends Model {
         if (order !== null && mode !== "pie" && domains.length === 1 && groupBy.length > 0) {
             // group data by their x-axis value, and then sort datapoints
             // based on the sum of values by group in ascending/descending order
+<<<<<<< HEAD
             const groupedDataPoints = {};
+=======
+            const groupedDataPoints = Object.create(null);
+>>>>>>> upstream/18.0
             for (const dataPt of processedDataPoints) {
                 const key = dataPt.labels[0]; // = x-axis value under the current assumptions
                 if (!groupedDataPoints[key]) {

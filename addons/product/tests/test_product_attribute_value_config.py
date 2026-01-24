@@ -236,6 +236,7 @@ class TestProductAttributeValueCommon(BaseCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             cls.extras_attribute,
 >>>>>>> upstream/18.0
@@ -862,6 +863,10 @@ class TestProductAttributeValueCommon(BaseCommon):
 >>>>>>> upstream/18.0
 =======
             cls.extras_attribute,
+>>>>>>> upstream/18.0
+=======
+            cls.extras_attribute,
+            cls.operating_system_attribute,
 >>>>>>> upstream/18.0
         ) = cls.env['product.attribute'].create([{
             'name': 'Memory',
@@ -1136,7 +1141,10 @@ class TestProductAttributeValueCommon(BaseCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1776,6 +1784,7 @@ class TestProductAttributeValueCommon(BaseCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2192,6 +2201,23 @@ class TestProductAttributeValueCommon(BaseCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        }, {
+            'name': "Operating System",
+            'sequence': 6,
+            'display_type': 'multi',
+            'create_variant': 'no_variant',
+            'value_ids': [
+                Command.create({
+                    'name': "Linux",
+                    'sequence': 1,
+                }),
+                Command.create({
+                    'name': "Windows",
+                    'sequence': 2,
+                }),
+            ],
 >>>>>>> upstream/18.0
         }])
 
@@ -2408,6 +2434,7 @@ class TestProductAttributeValueCommon(BaseCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         cls.extra_cpu, cls.extra_ram = cls.extras_attribute.value_ids
 >>>>>>> upstream/18.0
@@ -3034,6 +3061,10 @@ class TestProductAttributeValueCommon(BaseCommon):
 >>>>>>> upstream/18.0
 =======
         cls.extra_cpu, cls.extra_ram = cls.extras_attribute.value_ids
+>>>>>>> upstream/18.0
+=======
+        cls.extra_cpu, cls.extra_ram = cls.extras_attribute.value_ids
+        cls.linux_operating_system, cls.windows_operating_system = cls.operating_system_attribute.value_ids
 >>>>>>> upstream/18.0
 
         cls.COMPUTER_SSD_PTAL_VALUES = {
@@ -3260,7 +3291,10 @@ class TestProductAttributeValueCommon(BaseCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3890,6 +3924,7 @@ class TestProductAttributeValueCommon(BaseCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4306,6 +4341,13 @@ class TestProductAttributeValueCommon(BaseCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        cls.COMPUTER_OPERATING_SYSTEM_VALUES = {
+            'product_tmpl_id': cls.computer.id,
+            'attribute_id': cls.operating_system_attribute.id,
+            'value_ids': [Command.set([cls.windows_operating_system.id, cls.linux_operating_system.id])],
+        }
 >>>>>>> upstream/18.0
 
         cls._add_computer_attribute_lines()
@@ -4536,6 +4578,7 @@ class TestProductAttributeValueCommon(BaseCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             cls.computer_extras_attribute_lines,
 >>>>>>> upstream/18.0
@@ -5162,6 +5205,10 @@ class TestProductAttributeValueCommon(BaseCommon):
 >>>>>>> upstream/18.0
 =======
             cls.computer_extras_attribute_lines,
+>>>>>>> upstream/18.0
+=======
+            cls.computer_extras_attribute_lines,
+            cls.computer_operating_system_lines,
 >>>>>>> upstream/18.0
         ) = cls.env['product.template.attribute.line'].create([
             cls.COMPUTER_SSD_PTAL_VALUES,
@@ -5376,6 +5423,7 @@ class TestProductAttributeValueCommon(BaseCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             cls.COMPUTER_EXTRAS_PTAL_VALUES,
 >>>>>>> upstream/18.0
@@ -6002,6 +6050,10 @@ class TestProductAttributeValueCommon(BaseCommon):
 >>>>>>> upstream/18.0
 =======
             cls.COMPUTER_EXTRAS_PTAL_VALUES,
+>>>>>>> upstream/18.0
+=======
+            cls.COMPUTER_EXTRAS_PTAL_VALUES,
+            cls.COMPUTER_OPERATING_SYSTEM_VALUES,
 >>>>>>> upstream/18.0
         ])
 

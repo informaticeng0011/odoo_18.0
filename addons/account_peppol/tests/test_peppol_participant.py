@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import json
 from contextlib import contextmanager
 <<<<<<< HEAD
@@ -512,6 +513,8 @@ class TestPeppolParticipant(TransactionCase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 from base64 import b64encode
 
 from odoo import Command
@@ -535,6 +538,9 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -559,6 +565,7 @@ class TestPeppolParticipant(PeppolConnectorCommon):
     def setUpClass(cls):
         super().setUpClass()
         cls.env['ir.config_parameter'].sudo().set_param('account_peppol.edi.mode', 'test')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2327,6 +2334,8 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         cls.private_key = cls.env['certificate.key'].create({
             'name': 'Test key PEPPOL',
             'content': b64encode(file_open('account_peppol/tests/assets/private_key.pem', 'rb').read()),
@@ -2356,6 +2365,9 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2386,6 +2398,7 @@ class TestPeppolParticipant(PeppolConnectorCommon):
             'proxy_type': 'peppol',
             'edi_mode': 'demo',
         }])
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3051,6 +3064,8 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         with self._mock_requests([
             self._mock_lookup_participant(),
         ]):
@@ -3065,6 +3080,9 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3093,6 +3111,7 @@ class TestPeppolParticipant(PeppolConnectorCommon):
         with self.assertRaises(ValidationError), self.cr.savepoint():
             wizard.button_peppol_sender_registration()
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3609,6 +3628,8 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def test_register_participant_for_the_first_time_as_sender_then_receiver_then_unregister(self):
         # not_register -> sender
         with self._mock_requests([
@@ -3637,6 +3658,10 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 
         # receiver -> not_registered.
         with self._mock_requests([
+<<<<<<< HEAD
+=======
+            self._mock_participant_status('receiver'),
+>>>>>>> upstream/18.0
             self._mock_get_all_documents(),
             self._mock_cancel_peppol_registration(),
         ]):
@@ -3741,6 +3766,10 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 
         # Disconnect from the network.
         with self._mock_requests([
+<<<<<<< HEAD
+=======
+            self._mock_participant_status('sender'),
+>>>>>>> upstream/18.0
             self._mock_cancel_peppol_registration(),
         ]):
             settings.button_deregister_peppol_participant()
@@ -3843,6 +3872,10 @@ class TestPeppolParticipant(PeppolConnectorCommon):
         # Disconnect from the network.
         with self._mock_requests([
             self._mock_cancel_peppol_registration(),
+<<<<<<< HEAD
+=======
+            self._mock_participant_status('sender'),
+>>>>>>> upstream/18.0
         ]):
             settings.button_deregister_peppol_participant()
         self.assertRecordValues(settings, [{
@@ -3871,6 +3904,7 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3889,4 +3923,29 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_deregister_with_client_gone_error(self):
+        """Test deregistration succeeds even when proxy returns client_gone error"""
+        with self._mock_requests([
+            self._mock_create_user(),
+            self._mock_lookup_participant(),
+            self._mock_register_sender(),
+        ]):
+            wizard = self.env['peppol.registration'].create({})
+            self.assertRecordValues(wizard, [{'smp_registration': True}])
+            wizard.button_register_peppol_participant()
+        with self._mock_requests([self._mock_participant_status('sender')]):
+            self.env.company.account_edi_proxy_client_ids._peppol_get_participant_status()
+        self.assertEqual(self.env.company.account_peppol_proxy_state, 'sender')
+
+        settings = self.env['res.config.settings'].create({})
+        with self._mock_requests([
+            self._mock_participant_status('sender', exists=False)
+        ]):
+            settings.button_deregister_peppol_participant()
+
+        # Should successfully deregister despite Exception
+        self.assertEqual(self.env.company.account_peppol_proxy_state, 'not_registered')
 >>>>>>> upstream/18.0

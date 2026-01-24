@@ -238,7 +238,11 @@ QUnit.module('favorite filter widget', (hooks) => {
             },
             records: [
                 {id: 1, name: 'Azure Interior'},
+<<<<<<< HEAD
                 {id: 2, name: 'Deco Addict'},
+=======
+                {id: 2, name: 'Acme Corporation'},
+>>>>>>> upstream/18.0
                 {id: 3, name: 'Marc Demo'},
             ]
         };

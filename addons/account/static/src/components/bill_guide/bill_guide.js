@@ -16,6 +16,10 @@ export class BillGuide extends Component {
         this.action = useService("action");
         this.context = null;
         this.alias = null;
+<<<<<<< HEAD
+=======
+        this.showSampleAction = false;
+>>>>>>> upstream/18.0
         onWillStart(this.onWillStart);
     }
 
@@ -36,6 +40,10 @@ export class BillGuide extends Component {
                 default_journal_id: ctx.active_id,
             }
         }
+<<<<<<< HEAD
+=======
+        this.showSampleAction = await this.orm.call("account.journal", "is_sample_action_available");
+>>>>>>> upstream/18.0
     }
 
     handleButtonClick(action, model="account.journal") {

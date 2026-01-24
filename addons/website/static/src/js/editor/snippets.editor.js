@@ -425,7 +425,10 @@ export class WebsiteSnippetsMenu extends weSnippetEditor.SnippetsMenu {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -899,6 +902,7 @@ export class WebsiteSnippetsMenu extends weSnippetEditor.SnippetsMenu {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1202,6 +1206,8 @@ export class WebsiteSnippetsMenu extends weSnippetEditor.SnippetsMenu {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
         // TODO: Remove in master. This should be replaced with a simple
         // `style="margin: 0 12px;"` in the snippet template, similar to
         // the one used for building carousel items.
@@ -1210,6 +1216,9 @@ export class WebsiteSnippetsMenu extends weSnippetEditor.SnippetsMenu {
             imageGalleryCarouselEl.style.margin = "0 12px";
         }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         // TODO remove in master: fixes the selector for the "Ratio" setting in
         // cards, preventing the setting of a parent to leak onto children when
@@ -1262,6 +1271,9 @@ export class WebsiteSnippetsMenu extends weSnippetEditor.SnippetsMenu {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1807,7 +1819,10 @@ export class WebsiteSnippetsMenu extends weSnippetEditor.SnippetsMenu {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2379,6 +2394,9 @@ export class WebsiteSnippetsMenu extends weSnippetEditor.SnippetsMenu {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

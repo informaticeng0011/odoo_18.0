@@ -173,6 +173,23 @@ class PricelistItem(models.Model):
             else:
                 item.name = _("All Products")
 
+<<<<<<< HEAD
+=======
+    def _get_price_label_base_str(self):
+        """This method allows you to extend it to other modules with other
+        options in the base field to return a different text.
+        """
+        self.ensure_one()
+        base_str = ""
+        if self.base == 'pricelist' and self.base_pricelist_id:
+            base_str = self.base_pricelist_id.display_name
+        elif self.base == 'standard_price':
+            base_str = _("product cost")
+        else:
+            base_str = _("sales price")
+        return base_str
+
+>>>>>>> upstream/18.0
     @api.depends(
         'compute_price', 'fixed_price', 'pricelist_id', 'percent_price', 'price_discount',
         'price_markup', 'price_surcharge', 'base', 'base_pricelist_id',
@@ -196,6 +213,7 @@ class PricelistItem(models.Model):
                         percentage=percentage
                     )
             else:
+<<<<<<< HEAD
                 base_str = ""
                 if item.base == 'pricelist' and item.base_pricelist_id:
                     base_str = item.base_pricelist_id.display_name
@@ -203,6 +221,9 @@ class PricelistItem(models.Model):
                     base_str = _("product cost")
                 else:
                     base_str = _("sales price")
+=======
+                base_str = item._get_price_label_base_str()
+>>>>>>> upstream/18.0
 
                 extra_fee_str = ""
                 if item.price_surcharge > 0:
@@ -388,7 +409,10 @@ class PricelistItem(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -706,6 +730,9 @@ class PricelistItem(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1152,6 +1179,10 @@ class PricelistItem(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.base_pricelist_id = False
+>>>>>>> upstream/18.0
 =======
         self.base_pricelist_id = False
 >>>>>>> upstream/18.0

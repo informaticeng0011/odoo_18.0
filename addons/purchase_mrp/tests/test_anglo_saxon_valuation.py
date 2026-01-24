@@ -2,6 +2,7 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.fields import Date, Datetime
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -473,10 +474,15 @@ from odoo.addons.stock_account.tests.test_stockvaluation import _create_accounti
 from odoo.exceptions import UserError
 from odoo.fields import Command, Date, Datetime
 >>>>>>> upstream/18.0
+=======
+from odoo.exceptions import UserError
+from odoo.fields import Command, Date, Datetime
+>>>>>>> upstream/18.0
 from odoo.tools import mute_logger
 from odoo.tests import Form, tagged
 from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 from odoo.addons.stock_account.tests.test_stockvaluation import _create_accounting_data
+<<<<<<< HEAD
 <<<<<<< HEAD
 from odoo import Command
 <<<<<<< HEAD
@@ -547,6 +553,8 @@ from odoo import Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1089,6 +1097,7 @@ class TestAngloSaxonValuationPurchaseMRP(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     def test_average_cost_unbuild_valuation(self):
         """ Ensure that an unbuild for some avg cost product won't leave the `Cost of Production`
@@ -1428,6 +1437,8 @@ class TestAngloSaxonValuationPurchaseMRP(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
     def test_kit_valuation_no_pull(self):
         """ When selling a kit without ever moving it using a Pull rule, ensure that
@@ -1612,6 +1623,7 @@ class TestAngloSaxonValuationPurchaseMRP(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1750,6 +1762,8 @@ class TestAngloSaxonValuationPurchaseMRP(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_avco_purchase_nested_kit_explode_cost_share(self):
         """
@@ -2083,4 +2097,7 @@ class TestAngloSaxonValuationPurchaseMRP(AccountTestInvoicingCommon):
             {'product_id': c4.id, 'unit_cost':  500.0},
             {'product_id': c5.id, 'unit_cost':  500.0},
         ])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

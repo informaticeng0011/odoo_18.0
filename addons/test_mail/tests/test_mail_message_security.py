@@ -17,11 +17,14 @@ from odoo.tools import mute_logger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import tagged
 
 
 class MessageAccessCommon(MailCommon):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -47,6 +50,9 @@ class MessageAccessCommon(MailCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -94,7 +100,10 @@ class MessageAccessCommon(MailCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -123,6 +132,9 @@ class MessageAccessCommon(MailCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -267,6 +279,10 @@ class TestMailMessageAccess(MessageAccessCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            (self.record_internal, {'message_type': 'notification'}, False, 'W Access on record, notification does not change anything'),
+>>>>>>> upstream/18.0
 =======
             (self.record_internal, {'message_type': 'notification'}, False, 'W Access on record, notification does not change anything'),
 >>>>>>> upstream/18.0
@@ -310,7 +326,10 @@ class TestMailMessageAccess(MessageAccessCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -339,6 +358,9 @@ class TestMailMessageAccess(MessageAccessCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -367,8 +389,12 @@ class TestMailMessageAccess(MessageAccessCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             'body': 'Test',
                             **msg_vals,
+=======
+                            **final_vals,
+>>>>>>> upstream/18.0
 =======
                             **final_vals,
 >>>>>>> upstream/18.0
@@ -405,8 +431,12 @@ class TestMailMessageAccess(MessageAccessCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 body='Test',
                                 subtype_id=self.env.ref('mail.mt_comment').id,
+=======
+                                **final_vals,
+>>>>>>> upstream/18.0
 =======
                                 **final_vals,
 >>>>>>> upstream/18.0
@@ -444,8 +474,12 @@ class TestMailMessageAccess(MessageAccessCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         'body': 'Test',
                         **msg_vals,
+=======
+                        **final_vals,
+>>>>>>> upstream/18.0
 =======
                         **final_vals,
 >>>>>>> upstream/18.0
@@ -487,9 +521,13 @@ class TestMailMessageAccess(MessageAccessCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             body='Test',
                             subtype_id=self.env.ref('mail.mt_comment').id,
                             **msg_vals,
+=======
+                            **final_vals,
+>>>>>>> upstream/18.0
 =======
                             **final_vals,
 >>>>>>> upstream/18.0
@@ -528,6 +566,7 @@ class TestMailMessageAccess(MessageAccessCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             _message = record.message_post(
                 body='A message',
                 subtype_id=self.env.ref('mail.mt_comment').id,
@@ -541,6 +580,8 @@ class TestMailMessageAccess(MessageAccessCommon):
                     subtype_id=self.env.ref('mail.mt_comment').id,
                 )
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -605,6 +646,9 @@ class TestMailMessageAccess(MessageAccessCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -682,8 +726,11 @@ class TestMailMessageAccess(MessageAccessCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             (self.record_portal, {'subtype_id': self.env.ref('mail.mt_note').id}, True, 'Internal flag always forbidden'),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -709,6 +756,9 @@ class TestMailMessageAccess(MessageAccessCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -741,6 +791,10 @@ class TestMailMessageAccess(MessageAccessCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                            'message_type': 'comment',
+>>>>>>> upstream/18.0
 =======
                             'message_type': 'comment',
 >>>>>>> upstream/18.0
@@ -781,6 +835,10 @@ class TestMailMessageAccess(MessageAccessCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                        'message_type': 'comment',
+>>>>>>> upstream/18.0
 =======
                         'message_type': 'comment',
 >>>>>>> upstream/18.0
@@ -949,7 +1007,10 @@ class TestMailMessageAccess(MessageAccessCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1000,6 +1061,9 @@ class TestMailMessageAccess(MessageAccessCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1042,11 +1106,14 @@ class TestMailMessageAccess(MessageAccessCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             }, True, 'Note cannot be read by portal users'),
             (self.record_portal.message_ids[0], {
                 'is_internal': True,
             }, True, 'Internal message cannot be read by portal users'),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1086,6 +1153,9 @@ class TestMailMessageAccess(MessageAccessCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1113,6 +1183,10 @@ class TestMailMessageAccess(MessageAccessCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'message_type': msg.message_type,
+>>>>>>> upstream/18.0
 =======
                 'message_type': msg.message_type,
 >>>>>>> upstream/18.0
@@ -1152,6 +1226,11 @@ class TestMailMessageAccess(MessageAccessCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+                self.env.invalidate_all()
+>>>>>>> upstream/18.0
 =======
 
                 self.env.invalidate_all()
@@ -1199,6 +1278,10 @@ class TestMailMessageAccess(MessageAccessCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    self.env.invalidate_all()
+>>>>>>> upstream/18.0
 =======
                     self.env.invalidate_all()
 >>>>>>> upstream/18.0
@@ -1259,6 +1342,10 @@ class TestMailMessageAccess(MessageAccessCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'message_type': msg.message_type,
+>>>>>>> upstream/18.0
 =======
                 'message_type': msg.message_type,
 >>>>>>> upstream/18.0
@@ -1298,6 +1385,11 @@ class TestMailMessageAccess(MessageAccessCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+                self.env.invalidate_all()
+>>>>>>> upstream/18.0
 =======
 
                 self.env.invalidate_all()
@@ -1345,6 +1437,10 @@ class TestMailMessageAccess(MessageAccessCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    self.env.invalidate_all()
+>>>>>>> upstream/18.0
 =======
                     self.env.invalidate_all()
 >>>>>>> upstream/18.0
@@ -1555,7 +1651,10 @@ class TestMailMessageAccess(MessageAccessCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1584,6 +1683,9 @@ class TestMailMessageAccess(MessageAccessCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1613,7 +1715,10 @@ class TestMailMessageAccess(MessageAccessCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1642,6 +1747,9 @@ class TestMailMessageAccess(MessageAccessCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1673,6 +1781,7 @@ class TestMailMessageAccess(MessageAccessCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             msg_record_public,
             msgs[0] + msgs[3] + msg_record_portal + msg_record_public,
             msgs[1:6] + msg_record_portal + msg_record_public,
@@ -1684,6 +1793,8 @@ class TestMailMessageAccess(MessageAccessCommon):
                 self.assertEqual(self.env['mail.message'].with_user(test_user).search(domain), exp_messages)
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1759,6 +1870,9 @@ class TestMailMessageAccess(MessageAccessCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

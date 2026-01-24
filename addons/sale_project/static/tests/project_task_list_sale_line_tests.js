@@ -47,7 +47,11 @@ QUnit.module("Sale Project Task List View", (hooks) => {
                         records: [
                             {
                                 id: 1,
+<<<<<<< HEAD
                                 name: "Deco Addict",
+=======
+                                name: "Acme Corporation",
+>>>>>>> upstream/18.0
                             }, {
                                 id: 2,
                                 name: "Azure Interior",

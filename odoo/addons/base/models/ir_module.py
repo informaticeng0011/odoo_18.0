@@ -21,6 +21,10 @@ from docutils.core import publish_string
 from docutils.transforms import Transform, writer_aux
 from docutils.writers.html4css1 import Writer
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from markupsafe import Markup
+>>>>>>> upstream/18.0
 =======
 from markupsafe import Markup
 >>>>>>> upstream/18.0
@@ -78,6 +82,10 @@ from odoo.osv import expression
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools import config
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import config
 >>>>>>> upstream/18.0
@@ -439,8 +447,11 @@ class MyFilterMessages(Transform):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for node in self.document.traverse(nodes.system_message):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -848,6 +859,7 @@ class MyFilterMessages(Transform):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1117,6 +1129,9 @@ class MyFilterMessages(Transform):
 =======
             _logger.debug("docutils' system message present: %s", str(node))
 >>>>>>> upstream/18.0
+=======
+            _logger.debug("docutils' system message present: %s", str(node))
+>>>>>>> upstream/18.0
             node.parent.remove(node)
 
 
@@ -1207,8 +1222,11 @@ class Module(models.Model):
                     'file_insertion_enabled': False,
                 }
 <<<<<<< HEAD
+<<<<<<< HEAD
                 output = publish_string(source=module.description if not module.application and module.description else '', settings_overrides=overrides, writer=MyWriter())
 =======
+=======
+>>>>>>> upstream/18.0
                 raw_description = module.description or ''
 
                 try:
@@ -1217,6 +1235,9 @@ class Module(models.Model):
                     _logger.warning("Failed to render module description for %s: %s. Falling back to raw description.", module.name, e)
                     output = Markup('<pre><code>%s</code></pre>') % raw_description
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 module.description_html = _apply_description_images(output)
 
@@ -1473,8 +1494,11 @@ class Module(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             modules = self.search(auto_domain).filtered(must_install)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1615,6 +1639,9 @@ class Module(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

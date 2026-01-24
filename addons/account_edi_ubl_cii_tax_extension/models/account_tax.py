@@ -59,6 +59,11 @@ class AccountTax(models.Model):
             ('VATEX-EU-143-1L', 'VATEX-EU-143-1L - Exempt based on article 143, section 1 (l) of Council Directive 2006/112/EC'),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            ('VATEX-EU-144', 'VATEX-EU-144 - Exempt based on article 144 of Council Directive 2006/112/EC'),
+            ('VATEX-EU-146-1E', 'VATEX-EU-146-1E - Exempt based on article 146 section 1 (e) of Council Directive 2006/112/EC'),
+>>>>>>> upstream/18.0
 =======
             ('VATEX-EU-144', 'VATEX-EU-144 - Exempt based on article 144 of Council Directive 2006/112/EC'),
             ('VATEX-EU-146-1E', 'VATEX-EU-146-1E - Exempt based on article 146 section 1 (e) of Council Directive 2006/112/EC'),
@@ -84,6 +89,11 @@ class AccountTax(models.Model):
             ('VATEX-EU-151-1E', 'VATEX-EU-151-1E - Exempt based on article 151, section 1 (e) of Council Directive 2006/112/EC'),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            ('VATEX-EU-153', 'VATEX-EU-153 - Exempt based on article 153 of Council Directive 2006/112/EC'),
+            ('VATEX-EU-159', 'VATEX-EU-159 - Exempt based on article 159 of Council Directive 2006/112/EC'),
+>>>>>>> upstream/18.0
 =======
             ('VATEX-EU-153', 'VATEX-EU-153 - Exempt based on article 153 of Council Directive 2006/112/EC'),
             ('VATEX-EU-159', 'VATEX-EU-159 - Exempt based on article 159 of Council Directive 2006/112/EC'),
@@ -105,7 +115,10 @@ class AccountTax(models.Model):
             ('VATEX_FR-CNWVAT', 'VATEX-FR-CNWVAT - France domestic Credit Notes without VAT, due to supplier forfeit of VAT for discount'),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             ('VATEX-FR-CGI261-1', 'VATEX-FR-CGI261-1 - Exempt based on 1 of article 261 of the Code Général des Impôts (CGI ; General tax code)'),
@@ -133,6 +146,9 @@ class AccountTax(models.Model):
             ('VATEX-FR-CGI295', 'VATEX-FR-CGI295 - Exempt based on article 295 of the Code Général des Impôts (CGI ; General tax code)'),
             ('VATEX-FR-AE', 'VATEX-FR-AE - Exempt based on 2 of article 283 of the Code Général des Impôts (CGI ; General tax code)'),
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

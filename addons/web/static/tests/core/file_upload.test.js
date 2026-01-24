@@ -1,7 +1,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { expect, test } from "@odoo/hoot";
+=======
+import { expect, test, waitFor } from "@odoo/hoot";
+>>>>>>> upstream/18.0
 =======
 import { expect, test, waitFor } from "@odoo/hoot";
 >>>>>>> upstream/18.0
@@ -76,6 +80,7 @@ test("upload end removes component", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     const fileUploadService = await getService("file_upload");
     fileUploadService.upload("/test/", []);
@@ -88,6 +93,8 @@ test("upload end removes component", async () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     onRpc("/test/", () => true);
     const fileUploadService = await getService("file_upload");
     fileUploadService.upload("/test/", []);
@@ -96,6 +103,9 @@ test("upload end removes component", async () => {
     expect(".o_notification").toHaveCount(0);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -161,7 +171,10 @@ test("upload updates on progress", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -220,6 +233,9 @@ test("handles Odoo's jsonrpc error", async () => {
 });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

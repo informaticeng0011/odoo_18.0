@@ -211,7 +211,11 @@ class MaintenanceMixin(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             record.mttr = len(maintenance_requests) and (sum(int((request.close_date - request.request_date).days) for request in maintenance_requests) / len(maintenance_requests)) or 0
+=======
+            record.mttr = len(maintenance_requests) and (sum(int((request.close_date - request.request_date).days) if request.close_date and request.request_date else 0 for request in maintenance_requests) / len(maintenance_requests)) or 0
+>>>>>>> upstream/18.0
 =======
             record.mttr = len(maintenance_requests) and (sum(int((request.close_date - request.request_date).days) if request.close_date and request.request_date else 0 for request in maintenance_requests) / len(maintenance_requests)) or 0
 >>>>>>> upstream/18.0
@@ -864,7 +868,11 @@ class MaintenanceTeam(models.Model):
             )
             team.todo_request_count = sum(count for (_, _, _, count) in data)
             team.todo_request_count_date = sum(count for (schedule_date, _, _, count) in data if schedule_date)
+<<<<<<< HEAD
             team.todo_request_count_high_priority = sum(count for (_, priority, _, count) in data if priority == 3)
+=======
+            team.todo_request_count_high_priority = sum(count for (_, priority, _, count) in data if priority == '3')
+>>>>>>> upstream/18.0
             team.todo_request_count_block = sum(count for (_, _, kanban_state, count) in data if kanban_state == 'blocked')
             team.todo_request_count_unscheduled = team.todo_request_count - team.todo_request_count_date
 

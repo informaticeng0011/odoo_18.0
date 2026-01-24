@@ -4,7 +4,11 @@
 from odoo import api, fields, models, _
 from odoo.exceptions import UserError
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools import float_compare
+=======
+from odoo.tools import float_is_zero, float_round
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import float_is_zero, float_round
 >>>>>>> upstream/18.0
@@ -22,11 +26,14 @@ class MrpBom(models.Model):
             if any(bl.cost_share < 0 for bl in bom.bom_line_ids):
                 raise UserError(_("Components cost share have to be positive or equals to zero."))
 <<<<<<< HEAD
+<<<<<<< HEAD
             if float_compare(sum(bom.bom_line_ids.mapped('cost_share')), 100, precision_digits=2) != 0:
                 raise UserError(_("The total cost share for a BoM's component have to be 100"))
         return res
 
 =======
+=======
+>>>>>>> upstream/18.0
             for product in bom.product_tmpl_id.product_variant_ids:
                 total_variant_cost_share = sum(bom.bom_line_ids.filtered(lambda bl: not bl._skip_bom_line(product) and not float_is_zero(bl.product_qty, precision_rounding=bl.product_uom_id.rounding)).mapped('cost_share'))
                 if float_round(total_variant_cost_share, precision_digits=2) not in [0, 100]:
@@ -40,6 +47,9 @@ class MrpBom(models.Model):
             result[-1][1]['line_cost_share'] = float_round(100.0 - sum(vals.get('line_cost_share', 0.0) for _, vals in result[:-1]), precision_digits=2)
         return result
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 class MrpBomLine(models.Model):
@@ -53,12 +63,15 @@ class MrpBomLine(models.Model):
     def _get_cost_share(self):
         self.ensure_one()
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self.cost_share:
             return self.cost_share / 100
         bom = self.bom_id
         bom_lines_without_cost_share = bom.bom_line_ids.filtered(lambda bl: not bl.cost_share)
         return 1 / len(bom_lines_without_cost_share)
 =======
+=======
+>>>>>>> upstream/18.0
         product = self.env.context.get('bom_variant_id', self.env['product.product'])
         variant_bom_lines = self.bom_id.bom_line_ids.filtered(lambda bl: not bl._skip_bom_line(product) and not float_is_zero(bl.product_qty, precision_rounding=bl.product_uom_id.rounding))
         if not float_is_zero(self.cost_share, precision_digits=2) or not len(variant_bom_lines) or not all(float_is_zero(bom_line.cost_share, precision_digits=2) for bom_line in variant_bom_lines):
@@ -82,4 +95,7 @@ class MrpBomLine(models.Model):
         parent_cost_share = next((vals.get('bom_cost_share', 100.0) for bom, vals in reversed(boms_done) if bom == self.bom_id), 100)
         line_cost_share = parent_cost_share * self.with_context(bom_variant_id=product)._get_cost_share()
         return line_cost_share
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

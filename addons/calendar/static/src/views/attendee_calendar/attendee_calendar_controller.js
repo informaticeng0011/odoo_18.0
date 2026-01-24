@@ -115,7 +115,11 @@ export class AttendeeCalendarController extends CalendarController {
                 onClose: () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     location.reload();
+=======
+                    this.model.load();
+>>>>>>> upstream/18.0
 =======
                     this.model.load();
 >>>>>>> upstream/18.0

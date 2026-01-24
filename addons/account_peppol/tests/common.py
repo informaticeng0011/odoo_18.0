@@ -91,6 +91,7 @@ class PeppolConnectorCommon(AccountTestInvoicingCommon):
             replacement_method,
         )
 
+<<<<<<< HEAD
     def _mock_participant_status(self, peppol_state):
 
         def replacement_method(url, **kwargs):
@@ -100,6 +101,29 @@ class PeppolConnectorCommon(AccountTestInvoicingCommon):
                     'peppol_state': peppol_state,
                 },
             }
+=======
+    def _mock_participant_status(self, peppol_state, exists=True):
+
+        def replacement_method(url, **kwargs):
+            assert peppol_state
+            if exists:
+                return {
+                    'result': {
+                        'peppol_state': peppol_state,
+                    },
+                }
+            else:
+                return {
+                    'result': {
+                        'error': {
+                            'code': "client_gone",
+                            'message': "Your registration for this service is no longer valid. "
+                                       "If you see this message, please update the related Odoo app. "
+                                       "You will then be able to re-register if needed.",
+                        }
+                    },
+                }
+>>>>>>> upstream/18.0
 
         return (
             'https://peppol.test.odoo.com/api/peppol/2/participant_status',
@@ -146,7 +170,11 @@ class PeppolConnectorCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     return DotDict({**results, 'json': lambda: results})
+=======
+                    return DotDict({**results, 'json': lambda: results, 'raise_for_status': lambda: None})
+>>>>>>> upstream/18.0
 =======
                     return DotDict({**results, 'json': lambda: results, 'raise_for_status': lambda: None})
 >>>>>>> upstream/18.0

@@ -181,10 +181,16 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             confirmed_orders = done_tx._check_amount_and_confirm_order()
             if done_tx.operation == 'validation':
                 continue
             (done_tx.sale_order_ids - confirmed_orders)._send_payment_succeeded_for_order_mail()
+=======
+            if done_tx.operation != 'validation':
+                confirmed_orders = done_tx._check_amount_and_confirm_order()
+                (done_tx.sale_order_ids - confirmed_orders)._send_payment_succeeded_for_order_mail()
+>>>>>>> upstream/18.0
 =======
             if done_tx.operation != 'validation':
                 confirmed_orders = done_tx._check_amount_and_confirm_order()
@@ -818,7 +824,11 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if auto_invoice:
+=======
+            if auto_invoice and not self.env.context.get('skip_sale_auto_invoice_send'):
+>>>>>>> upstream/18.0
 =======
             if auto_invoice and not self.env.context.get('skip_sale_auto_invoice_send'):
 >>>>>>> upstream/18.0
@@ -1280,8 +1290,11 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         author = self.env.user.partner_id if self.env.uid == SUPERUSER_ID else self.partner_id
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1346,6 +1359,9 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1536,11 +1552,14 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.env['account.move.send']._generate_and_send_invoices(
                 invoice_to_send,
                 allow_raising=False,
                 allow_fallback_pdf=True,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1955,6 +1974,9 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

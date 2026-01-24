@@ -15,7 +15,11 @@ registry.category("web_tour.tours").add("pos_pricelist", {
             Dialog.confirm("Open Register"),
             ProductScreen.clickPriceList("Fixed", true, "Public Pricelist"),
             ProductScreen.clickPartnerButton(),
+<<<<<<< HEAD
             ProductScreen.clickCustomer("Deco Addict"),
+=======
+            ProductScreen.clickCustomer("Acme Corporation"),
+>>>>>>> upstream/18.0
             ProductScreen.clickPriceList("Public Pricelist", true),
             ProductScreen.clickPartnerButton(),
             ProductScreen.clickCustomer("Lumber Inc"),
@@ -44,6 +48,7 @@ registry.category("web_tour.tours").add("pos_pricelist", {
             ProductScreen.closePos(),
         ].flat(),
 });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -198,6 +203,8 @@ registry.category("web_tour.tours").add("test_default_pricelist_when_creating_pa
 });
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

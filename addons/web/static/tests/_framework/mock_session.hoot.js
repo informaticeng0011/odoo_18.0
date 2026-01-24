@@ -174,6 +174,10 @@ const makeSession = ({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        disallowed_ancestor_companies: {},
+>>>>>>> upstream/18.0
 =======
         disallowed_ancestor_companies: {},
 >>>>>>> upstream/18.0

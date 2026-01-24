@@ -1135,8 +1135,11 @@ class TestExpression(SavepointCaseWithUserDemo, TransactionExpressionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.assertRaisesRegex(ValueError, r"^stray % in format '%'$"):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1540,6 +1543,9 @@ class TestExpression(SavepointCaseWithUserDemo, TransactionExpressionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1844,6 +1850,7 @@ class TestExpression(SavepointCaseWithUserDemo, TransactionExpressionCase):
 
         # indirect search via m2o
         Partner = self.env['res.partner']
+<<<<<<< HEAD
         deco_addict = self._search(Partner, [('name', '=', 'Pepper Street')])
 
         not_be = self._search(Partner, [('country_id', '!=', 'Belgium')])
@@ -1852,6 +1859,16 @@ class TestExpression(SavepointCaseWithUserDemo, TransactionExpressionCase):
         Partner = Partner.with_context(lang='fr_FR')
         not_be = self._search(Partner, [('country_id', '!=', 'Belgique')])
         self.assertNotIn(deco_addict, not_be)
+=======
+        acme_corp = self._search(Partner, [('name', '=', 'Pepper Street')])
+
+        not_be = self._search(Partner, [('country_id', '!=', 'Belgium')])
+        self.assertNotIn(acme_corp, not_be)
+
+        Partner = Partner.with_context(lang='fr_FR')
+        not_be = self._search(Partner, [('country_id', '!=', 'Belgique')])
+        self.assertNotIn(acme_corp, not_be)
+>>>>>>> upstream/18.0
 
     def test_or_with_implicit_and(self):
         # Check that when using expression.OR on a list of domains with at least one

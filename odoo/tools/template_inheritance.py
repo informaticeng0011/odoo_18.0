@@ -158,7 +158,11 @@ def add_stripped_items_before(node, spec, extract):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     prev = node.getprevious()
+=======
+    prev = next((n for n in node.itersiblings(preceding=True) if not (n.tag == etree.ProcessingInstruction and n.target == "apply-inheritance-specs-node-removal")), None)
+>>>>>>> upstream/18.0
 =======
     prev = next((n for n in node.itersiblings(preceding=True) if not (n.tag == etree.ProcessingInstruction and n.target == "apply-inheritance-specs-node-removal")), None)
 >>>>>>> upstream/18.0
@@ -619,6 +623,11 @@ def locate_node(arch, spec):
     """
     if spec.tag == 'xpath':
         expr = spec.get('expr')
+<<<<<<< HEAD
+=======
+        if expr is None:
+            raise ValidationError(_lt("Missing 'expr' attribute in xpath specification"))
+>>>>>>> upstream/18.0
         try:
             xPath = etree.ETXPath(expr)
         except etree.XPathSyntaxError as e:

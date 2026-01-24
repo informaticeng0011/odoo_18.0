@@ -331,7 +331,10 @@ class Foo extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         graph: /* xml */ `<graph />`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3677,6 +3680,27 @@ test("graph view with invisible attribute on field", async () => {
     expect(".o_menu_item:contains(Revenue)").toHaveCount(0);
 });
 
+<<<<<<< HEAD
+=======
+test("graph view reserved word", async () => {
+    // Check that the use of reserved words does not interfere with the view.
+    Product._records.push({ id: 150, name: "constructor" });
+    Foo._records.at(-1).product_id = 150;
+
+    const view = await mountView({
+        type: "graph",
+        resModel: "foo",
+        arch: /* xml */ `
+            <graph order="DESC">
+                <field name="product_id" />
+            </graph>
+        `,
+    });
+    checkLabels(view, ["xphone", "xpad", "constructor"]);
+    checkDatasets(view, ["data", "label"], [{ data: [4, 3, 1], label: "Count" }]);
+});
+
+>>>>>>> upstream/18.0
 test("graph view sort by measure", async () => {
     // change last record from foo as there are 4 records count for each product
     Product._records.push({ id: 150, name: "zphone" });

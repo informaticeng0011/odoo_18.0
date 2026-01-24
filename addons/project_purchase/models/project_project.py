@@ -315,6 +315,10 @@ class Project(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                ('price_subtotal', '!=', 0),
+>>>>>>> upstream/18.0
 =======
                 ('price_subtotal', '!=', 0),
 >>>>>>> upstream/18.0
