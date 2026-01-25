@@ -833,7 +833,11 @@ test("Reaction summary", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test("Add the same reaction twice from the emoji picker", async () => {
+=======
+test("Select already reacted emoji from the emoji picker keeps the reaction on message", async () => {
+>>>>>>> upstream/18.0
 =======
 test("Select already reacted emoji from the emoji picker keeps the reaction on message", async () => {
 >>>>>>> upstream/18.0
@@ -1408,10 +1412,13 @@ test("Select already reacted emoji from the emoji picker keeps the reaction on m
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await click(".o-Emoji", { text: "😅" });
     await click("[title='Add a Reaction']");
     await click(".o-Emoji", { text: "😅" });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1837,6 +1844,9 @@ test("Select already reacted emoji from the emoji picker keeps the reaction on m
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2779,9 +2789,14 @@ test("Toggle star should update starred counter on all tabs", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await click(".o-mail-Message [title='Mark as Todo']", { target: env1 });
     await contains("button", {
         target: env2,
+=======
+    await click(`${env1.selector} .o-mail-Message [title='Mark as Todo']`);
+    await contains(`${env2.selector} button`, {
+>>>>>>> upstream/18.0
 =======
     await click(`${env1.selector} .o-mail-Message [title='Mark as Todo']`);
     await contains(`${env2.selector} button`, {

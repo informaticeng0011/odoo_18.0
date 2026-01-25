@@ -229,6 +229,10 @@ class ReturnPicking(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    picking_type_code = fields.Selection(related='picking_id.picking_type_code', readonly=True)
+>>>>>>> upstream/18.0
 =======
     picking_type_code = fields.Selection(related='picking_id.picking_type_code', readonly=True)
 >>>>>>> upstream/18.0
@@ -775,6 +779,11 @@ class ReturnPicking(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if not wizard.picking_id:
+                continue
+>>>>>>> upstream/18.0
 =======
             if not wizard.picking_id:
                 continue
@@ -1465,10 +1474,16 @@ class ReturnPicking(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if wizard.picking_id and not product_return_moves:
                 raise UserError(_("No products to return (only lines in Done state and not fully returned yet can be returned)."))
             if wizard.picking_id:
                 wizard.product_return_moves = product_return_moves
+=======
+            if not product_return_moves:
+                raise UserError(_("No products to return (only lines in Done state and not fully returned yet can be returned)."))
+            wizard.product_return_moves = product_return_moves
+>>>>>>> upstream/18.0
 =======
             if not product_return_moves:
                 raise UserError(_("No products to return (only lines in Done state and not fully returned yet can be returned)."))
@@ -2346,7 +2361,10 @@ class ReturnPicking(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2754,6 +2772,9 @@ class ReturnPicking(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

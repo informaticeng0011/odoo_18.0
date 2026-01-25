@@ -173,7 +173,11 @@ async function insertSpace(editor) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const beforeinputEvent = await manuallyDispatchProgrammaticEvent(
+=======
+    const [beforeinputEvent] = await manuallyDispatchProgrammaticEvent(
+>>>>>>> upstream/18.0
 =======
     const [beforeinputEvent] = await manuallyDispatchProgrammaticEvent(
 >>>>>>> upstream/18.0
@@ -848,7 +852,11 @@ async function insertSpace(editor) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const inputEvent = await manuallyDispatchProgrammaticEvent(editor.editable, "input", {
+=======
+    const [inputEvent] = await manuallyDispatchProgrammaticEvent(editor.editable, "input", {
+>>>>>>> upstream/18.0
 =======
     const [inputEvent] = await manuallyDispatchProgrammaticEvent(editor.editable, "input", {
 >>>>>>> upstream/18.0
@@ -1375,7 +1383,11 @@ async function insertSpace(editor) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test("should transform url after space", async () => {
+=======
+test("should transform url after space (1)", async () => {
+>>>>>>> upstream/18.0
 =======
 test("should transform url after space (1)", async () => {
 >>>>>>> upstream/18.0
@@ -1528,6 +1540,11 @@ test("should transform url after space (1)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+});
+test("should transform url after space (2)", async () => {
+>>>>>>> upstream/18.0
 =======
 });
 test("should transform url after space (2)", async () => {
@@ -1724,7 +1741,11 @@ test("should transform url after space (2)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test("should transform url followed by punctuation characters after space", async () => {
+=======
+test("should transform url followed by punctuation characters after space (1)", async () => {
+>>>>>>> upstream/18.0
 =======
 test("should transform url followed by punctuation characters after space (1)", async () => {
 >>>>>>> upstream/18.0
@@ -1876,6 +1897,11 @@ test("should transform url followed by punctuation characters after space (1)", 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+});
+test("should transform url followed by punctuation characters after space (2)", async () => {
+>>>>>>> upstream/18.0
 =======
 });
 test("should transform url followed by punctuation characters after space (2)", async () => {
@@ -2061,6 +2087,11 @@ test("should transform url followed by punctuation characters after space (2)", 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+});
+test("should transform url followed by punctuation characters after space (3)", async () => {
+>>>>>>> upstream/18.0
 =======
 });
 test("should transform url followed by punctuation characters after space (3)", async () => {
@@ -2246,6 +2277,11 @@ test("should transform url followed by punctuation characters after space (3)", 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+});
+test("should transform url followed by punctuation characters after space (4)", async () => {
+>>>>>>> upstream/18.0
 =======
 });
 test("should transform url followed by punctuation characters after space (4)", async () => {
@@ -2431,6 +2467,11 @@ test("should transform url followed by punctuation characters after space (4)", 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+});
+test("should transform url followed by punctuation characters after space (5)", async () => {
+>>>>>>> upstream/18.0
 =======
 });
 test("should transform url followed by punctuation characters after space (5)", async () => {

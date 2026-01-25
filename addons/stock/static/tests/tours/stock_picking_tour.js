@@ -678,6 +678,7 @@ registry.category("web_tour.tours").add("test_add_new_line_in_detailled_op", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: ".modal-header .modal-title:contains(Open: Stock move)",
             run: "click",
         },
@@ -685,6 +686,11 @@ registry.category("web_tour.tours").add("test_add_new_line_in_detailled_op", {
             content: "Check that the first line is associated with LOT001 for a quantity of 0.00",
             trigger:
                 ".modal-content .o_data_row:nth-child(1):has(.o_data_cell[name=quant_id]:contains(WH/Stock - LOT001)):has(.o_data_cell[name=quantity]:contains(0.00))",
+=======
+            content: "Check that the first line is associated with LOT001 for a quantity of 0.00",
+            trigger:
+                ".modal-content .o_data_row:has(.o_field_pick_from input:value(WH/Stock - LOT001)):has(.o_field_float[name=quantity] input:value(0.00))",
+>>>>>>> upstream/18.0
 =======
             content: "Check that the first line is associated with LOT001 for a quantity of 0.00",
             trigger:
@@ -1604,7 +1610,11 @@ registry.category("web_tour.tours").add("test_add_new_line_in_detailled_op", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ".modal-content .o_data_row:nth-child(1):has(.o_data_cell[name=quant_id]:contains(WH/Stock - LOT001)):has(.o_data_cell[name=quantity]:contains(0.00)) .o_list_record_remove",
+=======
+                ".modal-content .o_data_row:has(.o_field_pick_from input:value(WH/Stock - LOT001)):has(.o_field_float[name=quantity] input:value(0.00)) .o_list_record_remove",
+>>>>>>> upstream/18.0
 =======
                 ".modal-content .o_data_row:has(.o_field_pick_from input:value(WH/Stock - LOT001)):has(.o_field_float[name=quantity] input:value(0.00)) .o_list_record_remove",
 >>>>>>> upstream/18.0
@@ -2207,7 +2217,11 @@ registry.category("web_tour.tours").add("test_add_new_line_in_detailled_op", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ".modal-content .o_data_row:nth-child(1) .o_data_cell[name=quant_id]:contains(WH/Stock - LOT001)",
+=======
+                ".modal-content .o_data_row:nth-child(1):has(.o_field_pick_from:contains(WH/Stock - LOT001))",
+>>>>>>> upstream/18.0
 =======
                 ".modal-content .o_data_row:nth-child(1):has(.o_field_pick_from:contains(WH/Stock - LOT001))",
 >>>>>>> upstream/18.0
@@ -2804,6 +2818,7 @@ registry.category("web_tour.tours").add("test_add_new_line_in_detailled_op", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ".modal-content .o_data_row:nth-child(2) .o_data_cell[name=quant_id]:contains(WH/Stock - LOT002)",
         },
         {
@@ -2814,6 +2829,8 @@ registry.category("web_tour.tours").add("test_add_new_line_in_detailled_op", {
         {
             trigger: ".modal-content .o_data_row:nth-child(2) .o_field_widget[name=quant_id] input",
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3264,6 +3281,9 @@ registry.category("web_tour.tours").add("test_add_new_line_in_detailled_op", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3719,11 +3739,14 @@ registry.category("web_tour.tours").add("test_add_new_line_in_detailled_op", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: ".modal-content .o_data_row:nth-child(1) .o_data_cell[name=quantity] .o_input",
             run: "edit 8",
         },
         {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4170,6 +4193,9 @@ registry.category("web_tour.tours").add("test_add_new_line_in_detailled_op", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4502,6 +4528,7 @@ registry.category("web_tour.tours").add("test_add_new_line_in_detailled_op", {
             trigger: ".modal-content .o_list_number:contains(20.00)",
         },
         {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5397,10 +5424,16 @@ registry.category("web_tour.tours").add("test_add_new_line_in_detailled_op", {
             trigger:
                 ".o_data_row:has(.o_field_pick_from input:value(WH/Stock - LOT001)) .o_field_widget[name=quantity] input:value(2.00)",
 >>>>>>> upstream/18.0
+=======
+            content: "Check that 2 units of LOT001 were added",
+            trigger:
+                ".o_data_row:has(.o_field_pick_from input:value(WH/Stock - LOT001)) .o_field_widget[name=quantity] input:value(2.00)",
+>>>>>>> upstream/18.0
         },
         {
             content: "Check that the third line is associated with LOT003",
             trigger:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5853,6 +5886,8 @@ registry.category("web_tour.tours").add("test_add_new_line_in_detailled_op", {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 ".modal-content .o_data_row:nth-child(3) .o_field_pick_from:contains(WH/Stock - LOT003)",
         },
         {
@@ -6009,6 +6044,9 @@ registry.category("web_tour.tours").add("test_add_new_line_in_detailled_op", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6463,8 +6501,12 @@ registry.category("web_tour.tours").add("test_add_new_line_in_detailled_op", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger:
                 ".modal-content .o_data_row:nth-child(3) .o_data_cell[name=quant_id]:contains(LOT002)",
+=======
+            trigger: ".modal-content .o_data_row:nth-child(3) .o_field_pick_from:contains(LOT002)",
+>>>>>>> upstream/18.0
 =======
             trigger: ".modal-content .o_data_row:nth-child(3) .o_field_pick_from:contains(LOT002)",
 >>>>>>> upstream/18.0
@@ -7064,6 +7106,7 @@ registry.category("web_tour.tours").add("test_add_new_line_in_detailled_op", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: ".modal-content .o_data_row:nth-child(3) .o_data_cell[name=quantity] .o_input",
             run: "edit 15",
         },
@@ -7073,6 +7116,8 @@ registry.category("web_tour.tours").add("test_add_new_line_in_detailled_op", {
         },
         {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7518,6 +7563,9 @@ registry.category("web_tour.tours").add("test_add_new_line_in_detailled_op", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8000,6 +8048,7 @@ registry.category("web_tour.tours").add("test_add_new_line_in_detailled_op", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: ".modal-header .modal-title:contains(Open: Stock move)",
             run: "click",
         },
@@ -8007,6 +8056,11 @@ registry.category("web_tour.tours").add("test_add_new_line_in_detailled_op", {
             content: "Check that 3 units of LOT001 were added",
             trigger:
                 ".o_data_row:has(.o_data_cell[name=quant_id]:contains(WH/Stock - LOT001)) .o_data_cell[name=quantity]:contains(3.00)",
+=======
+            content: "Check that 3 units of LOT001 were added",
+            trigger:
+                ".modal-content .o_data_row:has(.o_field_pick_from input:value(WH/Stock - LOT001)):has(.o_field_float[name=quantity] input:value(3.00))",
+>>>>>>> upstream/18.0
 =======
             content: "Check that 3 units of LOT001 were added",
             trigger:

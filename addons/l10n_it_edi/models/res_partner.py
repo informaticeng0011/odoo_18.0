@@ -145,7 +145,11 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     invoice_edi_format = fields.Selection(selection_add=[('it_edi_xml', 'FatturaPA')])
+=======
+    invoice_edi_format = fields.Selection(selection_add=[('it_edi_xml', 'Italy (Factura PA)')])
+>>>>>>> upstream/18.0
 =======
     invoice_edi_format = fields.Selection(selection_add=[('it_edi_xml', 'Italy (Factura PA)')])
 >>>>>>> upstream/18.0
@@ -770,10 +774,13 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             If there is a VAT number and the partner is not in EU, then the exported value is 'OO99999999999'
             If there is a VAT number and the partner is in EU, then remove the country prefix
             If there is no VAT and the partner is not in Italy, then the exported value is '0000000'
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1344,6 +1351,9 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1939,8 +1949,12 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         has_vat = self.vat and not self.vat in ['/', 'NA']
         if has_vat:
+=======
+        if has_vat := self.vat not in [False, '/', 'NA']:
+>>>>>>> upstream/18.0
 =======
         if has_vat := self.vat not in [False, '/', 'NA']:
 >>>>>>> upstream/18.0
@@ -2711,11 +2725,14 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             # The Tax Agency arbitrarily decided that non-EU VAT are not interesting,
             # so this default code is used instead
             # Detect the country code from the partner country instead
             else:
                 normalized_vat = 'OO99999999999'
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3288,8 +3305,11 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             normalized_vat = '0000000'
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3858,6 +3878,9 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -540,7 +540,11 @@ class TestMultiCompany(TransactionCase):
         intercom_location = self.env.ref('stock.stock_location_inter_company')
         intercom_location.write({'active': True})
 <<<<<<< HEAD
+<<<<<<< HEAD
         partner = self.env['res.partner'].create({'name': 'Deco Addict'})
+=======
+        partner = self.env['res.partner'].create({'name': 'Acme Corporation'})
+>>>>>>> upstream/18.0
 =======
         partner = self.env['res.partner'].create({'name': 'Acme Corporation'})
 >>>>>>> upstream/18.0

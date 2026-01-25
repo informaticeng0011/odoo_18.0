@@ -42,6 +42,7 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                                     'cbc:TaxExemptionReason': {},
 >>>>>>> upstream/18.0
@@ -67,6 +68,10 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
                                     'cbc:TaxExemptionReasonCode': {},
                                     'cbc:TaxExemptionReason': {},
 >>>>>>> upstream/18.0
+=======
+                                    'cbc:TaxExemptionReasonCode': {},
+                                    'cbc:TaxExemptionReason': {},
+>>>>>>> upstream/18.0
                                     'hrextac:HRTaxScheme': {
                                         'cbc:ID': {},
                                     }
@@ -75,7 +80,11 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
                         },
                         'hrextac:HRLegalMonetaryTotal': {
 <<<<<<< HEAD
+<<<<<<< HEAD
                             'hrextac:HRTaxExclusiveAmount': {},
+=======
+                            'cbc:TaxExclusiveAmount': {},
+>>>>>>> upstream/18.0
 =======
                             'cbc:TaxExclusiveAmount': {},
 >>>>>>> upstream/18.0
@@ -177,6 +186,7 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
                     }
                 })
 <<<<<<< HEAD
+<<<<<<< HEAD
         # HR-BR-6: Each previous invoice reference (BG-3) must have the date of issue of the previous invoice (BT-26).
         # HR-BT-3: Note on previous invoice
         if invoice.reversed_entry_id:
@@ -186,6 +196,8 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
                     }
                 })
 =======
+=======
+>>>>>>> upstream/18.0
         # HR-BT-3: Note on previous invoice
         # HR-BR-6: Each previous invoice reference (BG-3) must have the date of issue of the previous invoice (BT-26).
         if 'refund' in invoice.move_type and invoice.reversed_entry_id:
@@ -197,6 +209,9 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
                     '_text': invoice.reversed_entry_id.invoice_date
                 }
             }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         # Document Type Codes and Process Type Logic
         if invoice.l10n_hr_process_type in ('P4', 'P6'):
@@ -237,6 +252,7 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                     'cbc:TaxExemptionReason': tax_subtotals[i]['cac:TaxCategory'][0]['cbc:TaxExemptionReason'],
 >>>>>>> upstream/18.0
@@ -262,16 +278,26 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
                     'cbc:TaxExemptionReasonCode': tax_subtotals[i]['cac:TaxCategory'][0]['cbc:TaxExemptionReasonCode'],
                     'cbc:TaxExemptionReason': tax_subtotals[i]['cac:TaxCategory'][0]['cbc:TaxExemptionReason'],
 >>>>>>> upstream/18.0
+=======
+                    'cbc:TaxExemptionReasonCode': tax_subtotals[i]['cac:TaxCategory'][0]['cbc:TaxExemptionReasonCode'],
+                    'cbc:TaxExemptionReason': tax_subtotals[i]['cac:TaxCategory'][0]['cbc:TaxExemptionReason'],
+>>>>>>> upstream/18.0
                     'hrextac:HRTaxScheme': tax_subtotals[i]['cac:TaxCategory'][0]['cac:TaxScheme'] if hr_tax_name['_text'] != "HR:POVNAK" else {'_text': "OTH"},
                 }
             }
             hr_tax_subtotals.append(new_item)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         out_of_scope_node = {
             'currencyID': document_node['cac:LegalMonetaryTotal']['cbc:TaxExclusiveAmount'].get('currencyID'),
             '_text': '0.00'     # Currently unsupported, a HR-specific workaround can potentially be made
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         document_node.update({
             'ext:UBLExtensions': {
@@ -285,8 +311,13 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
                             },
                             'hrextac:HRLegalMonetaryTotal': {
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 'hrextac:HRTaxExclusiveAmount': document_node['cac:LegalMonetaryTotal']['cbc:TaxExclusiveAmount'],
                                 'hrextac:OutOfScopeOfVATAmount': False,     # Currently unsupported, a HR-specific workaround can potentially be made
+=======
+                                'cbc:TaxExclusiveAmount': document_node['cac:LegalMonetaryTotal']['cbc:TaxExclusiveAmount'],
+                                'hrextac:OutOfScopeOfVATAmount': out_of_scope_node,
+>>>>>>> upstream/18.0
 =======
                                 'cbc:TaxExclusiveAmount': document_node['cac:LegalMonetaryTotal']['cbc:TaxExclusiveAmount'],
                                 'hrextac:OutOfScopeOfVATAmount': out_of_scope_node,
@@ -368,14 +399,20 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
             })
             if tax.amount == 0:
 <<<<<<< HEAD
+<<<<<<< HEAD
                 res.update({
                     'tax_exemption_reason': hr_category.description,
                 })
 =======
+=======
+>>>>>>> upstream/18.0
                 tax_extension = 'ubl_cii_tax_exemption_reason_code' in tax._fields and tax.ubl_cii_tax_exemption_reason_code
                 # If account_edi_ubl_cii_tax_extension is installed and a value is specified, use that data, if not, override with HR data
                 if not tax_extension:
                     res.update({'tax_exemption_reason': hr_category.description})
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         return res
 
@@ -440,6 +477,7 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             'cbc:TaxExemptionReason': {'_text': tax_category.get('tax_exemption_reason')},
 >>>>>>> upstream/18.0
@@ -459,6 +497,10 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
             'cbc:TaxExemptionReason': {'_text': tax_category.get('tax_exemption_reason')},
 >>>>>>> upstream/18.0
 =======
+            'cbc:TaxExemptionReason': {'_text': tax_category.get('tax_exemption_reason')},
+>>>>>>> upstream/18.0
+=======
+            'cbc:TaxExemptionReasonCode': {'_text': tax_category.get('tax_exemption_reason_code')},
             'cbc:TaxExemptionReason': {'_text': tax_category.get('tax_exemption_reason')},
 >>>>>>> upstream/18.0
 =======

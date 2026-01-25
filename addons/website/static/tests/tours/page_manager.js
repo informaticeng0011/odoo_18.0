@@ -133,6 +133,7 @@ const homePage = 'tr:contains("Home")';
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const refreshPage = [
     {
         trigger: "body",
@@ -892,6 +893,8 @@ const refreshPage = [
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 const duplicateSinglePage = [
     {
         content: "Click on checkbox",
@@ -959,8 +962,11 @@ const duplicateSinglePage = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ...refreshPage,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1082,6 +1088,9 @@ const duplicateSinglePage = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1236,7 +1245,10 @@ const duplicateMultiplePage = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ...refreshPage,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

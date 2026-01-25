@@ -27,7 +27,11 @@ class StockMove(models.Model):
             kit_price_unit = line.currency_id._convert(kit_price_unit, self.company_id.currency_id, self.company_id, fields.Date.context_today(self), round=False)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         cost_share = self.bom_line_id._get_cost_share()
+=======
+        cost_share = self.cost_share / 100
+>>>>>>> upstream/18.0
 =======
         cost_share = self.cost_share / 100
 >>>>>>> upstream/18.0

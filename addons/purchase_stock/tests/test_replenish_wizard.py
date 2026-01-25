@@ -181,6 +181,11 @@ from odoo import fields
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.fields import Command
+from odoo.tests import Form
+>>>>>>> upstream/18.0
 =======
 from odoo.fields import Command
 from odoo.tests import Form
@@ -1552,6 +1557,7 @@ class TestReplenishWizard(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(last_po_id.order_line.price_unit, 60)
 =======
         self.assertEqual(last_po_id.order_line.price_unit, 0)
@@ -2224,6 +2230,8 @@ class TestReplenishWizard(TestStockCommon):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         self.assertEqual(last_po_id.order_line.price_unit, 0)
 
     def test_correct_supplier(self):
@@ -2259,6 +2267,9 @@ class TestReplenishWizard(TestStockCommon):
             'name': 'Product',
             'route_ids': [Command.set(buy_pull_route.ids)],
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2273,6 +2284,10 @@ class TestReplenishWizard(TestStockCommon):
             'price': 1.0,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'date_end': '2026-01-01',
+>>>>>>> upstream/18.0
 =======
             'date_end': '2026-01-01',
 >>>>>>> upstream/18.0
@@ -2285,6 +2300,10 @@ class TestReplenishWizard(TestStockCommon):
             'price': 10.0,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'date_end': '2999-01-01',
+>>>>>>> upstream/18.0
 =======
             'date_end': '2999-01-01',
 >>>>>>> upstream/18.0
@@ -2297,6 +2316,10 @@ class TestReplenishWizard(TestStockCommon):
             'price': 100.0,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'date_end': '2999-01-01',
+>>>>>>> upstream/18.0
 =======
             'date_end': '2999-01-01',
 >>>>>>> upstream/18.0
@@ -2311,6 +2334,7 @@ class TestReplenishWizard(TestStockCommon):
             'product_uom_id': self.uom_unit.id,
             'quantity': 1,
             'warehouse_id': self.wh.id,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             'route_id': self.env.ref('purchase_stock.route_warehouse0_buy').id,
@@ -2848,6 +2872,8 @@ class TestReplenishWizard(TestStockCommon):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             'route_id': buy_pull_route.id,
             'supplier_id': product.seller_ids[2].id  # partner_b price 100$
         })
@@ -2855,6 +2881,9 @@ class TestReplenishWizard(TestStockCommon):
         po = self.env['purchase.order'].search([('partner_id', '=', partner_b.id)], limit=1)
         self.assertEqual(po.amount_untaxed, 10, "best price is 10$")
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3045,8 +3074,11 @@ class TestReplenishWizard(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3600,6 +3632,9 @@ class TestReplenishWizard(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

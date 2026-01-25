@@ -103,6 +103,7 @@ class CalendarLeaves(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         leaves.sudo().write({
             'state': 'confirm',
         })
@@ -754,6 +755,8 @@ class CalendarLeaves(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         self.env.add_to_compute(self.env['hr.leave']._fields['number_of_days'], leaves)
         self.env.add_to_compute(self.env['hr.leave']._fields['duration_display'], leaves)
         leaves.sudo().write({
@@ -803,6 +806,9 @@ class CalendarLeaves(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1084,7 +1090,11 @@ class CalendarLeaves(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     leave.sudo()._create_resource_leave()
+=======
+                    leaves_to_recreate |= leave
+>>>>>>> upstream/18.0
 =======
                     leaves_to_recreate |= leave
 >>>>>>> upstream/18.0
@@ -1822,6 +1832,10 @@ class CalendarLeaves(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        leaves_to_recreate.sudo()._create_resource_leave()
+>>>>>>> upstream/18.0
 =======
         leaves_to_recreate.sudo()._create_resource_leave()
 >>>>>>> upstream/18.0

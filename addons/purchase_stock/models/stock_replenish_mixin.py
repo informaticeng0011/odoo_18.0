@@ -18,7 +18,10 @@ class ProductReplenishMixin(models.AbstractModel):
         return any(r.action == 'buy' for r in route.rule_ids)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -28,6 +31,9 @@ class ProductReplenishMixin(models.AbstractModel):
             res['preferred_supplier_name'] = self.supplier_id.partner_id
         return res
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -141,6 +141,7 @@ export class BaseProductAttribute extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     static props = ["attributeLine"];
     setup() {
         this.attributeLine = this.props.attributeLine;
@@ -148,6 +149,8 @@ export class BaseProductAttribute extends Component {
         this.state = useState({
             attribute_value_ids: this.values[0].id.toString(),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -561,6 +564,9 @@ export class BaseProductAttribute extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1018,8 +1024,14 @@ export class RadioProductAttribute extends BaseProductAttribute {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // We then manually select the first input of each radio attribute.
         this.root.el.querySelector("input[type=radio]").checked = true;
+=======
+        // We then manually select the default radio button
+        const id = `${this.attributeLine.attribute_id.id}_${this.state.attribute_value_ids}`;
+        this.root.el.querySelector(`[id="${id}"]`).checked = true;
+>>>>>>> upstream/18.0
 =======
         // We then manually select the default radio button
         const id = `${this.attributeLine.attribute_id.id}_${this.state.attribute_value_ids}`;
@@ -1876,9 +1888,12 @@ export class ProductConfiguratorPopup extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     static props = ["product", "getPayload", "close"];
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2291,6 +2306,9 @@ export class ProductConfiguratorPopup extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2669,7 +2687,11 @@ export class ProductConfiguratorPopup extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (attr && attr.attribute_id.create_variant !== "always") {
+=======
+            if (attr && attr.attribute_id.create_variant === "no_variant") {
+>>>>>>> upstream/18.0
 =======
             if (attr && attr.attribute_id.create_variant === "no_variant") {
 >>>>>>> upstream/18.0
@@ -2924,6 +2946,7 @@ export class ProductConfiguratorPopup extends Component {
     computeProductProduct() {
         let product = this.props.product;
         const formattedPayload = this.computePayload();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3579,6 +3602,8 @@ export class ProductConfiguratorPopup extends Component {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const hasVariants = this.props.product.attribute_line_ids.some(
             (line) => line.attribute_id.create_variant !== "no_variant"
         );
@@ -3800,6 +3825,9 @@ export class ProductConfiguratorPopup extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4389,7 +4417,10 @@ export class ProductConfiguratorPopup extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4801,6 +4832,9 @@ export class ProductConfiguratorPopup extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

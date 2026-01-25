@@ -5,7 +5,11 @@ from odoo import api, fields, models, _
 from odoo.exceptions import UserError
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools import float_compare
+=======
+from odoo.tools import float_is_zero, float_round
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import float_is_zero, float_round
 >>>>>>> upstream/18.0
@@ -27,11 +31,14 @@ class MrpBom(models.Model):
                 raise UserError(_("Components cost share have to be positive or equals to zero."))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if float_compare(sum(bom.bom_line_ids.mapped('cost_share')), 100, precision_digits=2) != 0:
                 raise UserError(_("The total cost share for a BoM's component have to be 100"))
         return res
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             for product in bom.product_tmpl_id.product_variant_ids:
@@ -48,6 +55,9 @@ class MrpBom(models.Model):
         return result
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -64,12 +74,15 @@ class MrpBomLine(models.Model):
         self.ensure_one()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self.cost_share:
             return self.cost_share / 100
         bom = self.bom_id
         bom_lines_without_cost_share = bom.bom_line_ids.filtered(lambda bl: not bl.cost_share)
         return 1 / len(bom_lines_without_cost_share)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         product = self.env.context.get('bom_variant_id', self.env['product.product'])
@@ -96,6 +109,9 @@ class MrpBomLine(models.Model):
         line_cost_share = parent_cost_share * self.with_context(bom_variant_id=product)._get_cost_share()
         return line_cost_share
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

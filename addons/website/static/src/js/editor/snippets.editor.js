@@ -426,7 +426,10 @@ export class WebsiteSnippetsMenu extends weSnippetEditor.SnippetsMenu {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -903,6 +906,7 @@ export class WebsiteSnippetsMenu extends weSnippetEditor.SnippetsMenu {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1206,6 +1210,8 @@ export class WebsiteSnippetsMenu extends weSnippetEditor.SnippetsMenu {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         // TODO: Remove in master. This should be replaced with a simple
@@ -1217,6 +1223,9 @@ export class WebsiteSnippetsMenu extends weSnippetEditor.SnippetsMenu {
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1272,6 +1281,9 @@ export class WebsiteSnippetsMenu extends weSnippetEditor.SnippetsMenu {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1820,7 +1832,10 @@ export class WebsiteSnippetsMenu extends weSnippetEditor.SnippetsMenu {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2395,6 +2410,9 @@ export class WebsiteSnippetsMenu extends weSnippetEditor.SnippetsMenu {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

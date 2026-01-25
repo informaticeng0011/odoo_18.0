@@ -46,6 +46,10 @@ export class LocalOverlayPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.localOverlays = new Set();
+>>>>>>> upstream/18.0
 =======
         this.localOverlays = new Set();
 >>>>>>> upstream/18.0
@@ -186,6 +190,7 @@ export class LocalOverlayPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         }
         return container;
     }
@@ -294,6 +299,8 @@ export class LocalOverlayPlugin extends Plugin {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             this.localOverlays.add(container);
         }
         return container;
@@ -336,6 +343,9 @@ export class LocalOverlayPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

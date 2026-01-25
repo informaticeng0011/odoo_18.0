@@ -4,6 +4,10 @@ from contextlib import contextmanager
 from requests import PreparedRequest, Response, Session
 from unittest.mock import patch
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from urllib import parse
+>>>>>>> upstream/18.0
 =======
 from urllib import parse
 >>>>>>> upstream/18.0
@@ -151,6 +155,7 @@ class TestNemhandelMessage(TestAccountMoveSendCommon):
         response = Response()
         response.status_code = 200
 <<<<<<< HEAD
+<<<<<<< HEAD
         if r.url.endswith('iso6523-actorid-upis%3A%3A0088%3A5798009811512'):
             response._content = b"""<?xml version=\'1.0\' encoding=\'UTF-8\'?>\n<smp:ServiceGroup xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:id="http://busdox.org/transport/identifiers/1.0/" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:smp="http://busdox.org/serviceMetadata/publishing/1.0/"><id:ParticipantIdentifier scheme="iso6523-actorid-upis">0088:5798009811512</id:ParticipantIdentifier>'
             '<smp:ServiceMetadataReferenceCollection><smp:ServiceMetadataReference href="http://smp-demo.nemhandel.dk/iso6523-actorid-upis%3A%3A0088%3A5798009811512/services/busdox-docid-qns%3A%3Aurn%3Aoasis%3Anames%3Aspecification%3Aubl%3Aschema%3Axsd%3AInvoice-2%3A%3AInvoice%23%23OIOUBL-2.1%3A%3A2.1"/>'
@@ -170,6 +175,8 @@ class TestNemhandelMessage(TestAccountMoveSendCommon):
 
         url = r.path_url
 =======
+=======
+>>>>>>> upstream/18.0
         if r.path_url.startswith('/api/peppol/1/lookup'):
             nemhandel_identifier = parse.parse_qs(r.path_url.rsplit('?')[1])['peppol_identifier'][0].lower()
             url_quoted_nemhandel_identifier = parse.quote_plus(nemhandel_identifier)
@@ -225,6 +232,9 @@ class TestNemhandelMessage(TestAccountMoveSendCommon):
                 return response
 
         url = r.path_url.lower()
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         body = json.loads(r.body)
         if url == '/api/nemhandel/1/send_document':
@@ -370,7 +380,10 @@ class TestNemhandelMessage(TestAccountMoveSendCommon):
             }],
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         new_partner.write({

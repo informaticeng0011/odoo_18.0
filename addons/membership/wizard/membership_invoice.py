@@ -9,7 +9,11 @@ class MembershipInvoice(models.TransientModel):
     _description = "Membership Invoice"
 
     product_id = fields.Many2one('product.product', string='Membership', required=True)
+<<<<<<< HEAD
     member_price = fields.Float(string='Member Price', digits='Product Price', required=True)
+=======
+    member_price = fields.Float(string='Member Price', min_display_digits='Product Price', required=True)
+>>>>>>> upstream/18.0
 
     @api.onchange('product_id')
     def onchange_product(self):
@@ -155,6 +159,10 @@ class MembershipInvoice(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'context': {'default_move_type': 'out_invoice'},
+>>>>>>> upstream/18.0
 =======
             'context': {'default_move_type': 'out_invoice'},
 >>>>>>> upstream/18.0

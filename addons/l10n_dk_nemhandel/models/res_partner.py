@@ -2,7 +2,10 @@ import logging
 import requests
 from markupsafe import Markup
 <<<<<<< HEAD
+<<<<<<< HEAD
 from lxml import etree
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 from hashlib import md5
@@ -139,7 +142,10 @@ class ResPartner(models.Model):
         return response.content
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @api.model
     def _nemhandel_lookup_participant(self, edi_identification):
         """NAPTR DNS nemhandel participant lookup through Odoo's Nemhandel proxy"""
@@ -174,6 +180,9 @@ class ResPartner(models.Model):
 
         return decoded_response.get('result')
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _l10n_dk_nemhandel_log_verification_state_update(self, company, old_value, new_value):
         # log the update of the nemhandel verification state
@@ -207,6 +216,7 @@ class ResPartner(models.Model):
 
     @api.model
     def _check_nemhandel_participant_exists(self, participant_info, edi_identification):
+<<<<<<< HEAD
 <<<<<<< HEAD
         participant_info = etree.fromstring(participant_info)
         participant_identifier = participant_info.findtext('{*}ParticipantIdentifier')
@@ -435,6 +445,8 @@ class ResPartner(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
         service_href = ''
         if isinstance(participant_info, dict):
             participant_identifier = participant_info.get('identifier', '')
@@ -454,6 +466,9 @@ class ResPartner(models.Model):
 
         return edi_identification.lower() == participant_identifier.lower() and parse.urlsplit(service_href).netloc == smp_nemhandel_url
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _update_nemhandel_state_per_company(self, vals=None):
         partners = self.env['res.partner']
@@ -519,7 +534,11 @@ class ResPartner(models.Model):
 
         edi_identification = f"{self.nemhandel_identifier_type}:{self.nemhandel_identifier_value}".lower()
 <<<<<<< HEAD
+<<<<<<< HEAD
         participant_info = self._get_nemhandel_participant_info(edi_identification)
+=======
+        participant_info = self._nemhandel_lookup_participant(edi_identification)
+>>>>>>> upstream/18.0
 =======
         participant_info = self._nemhandel_lookup_participant(edi_identification)
 >>>>>>> upstream/18.0

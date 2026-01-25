@@ -1,6 +1,7 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.exceptions import UserError
 from odoo.fields import Command
 from odoo.tests import tagged, Form
@@ -11,6 +12,8 @@ from odoo.addons.product.tests.common import ProductCommon
 @tagged('post_install', '-at_install')
 class TestPricelist(ProductCommon):
 =======
+=======
+>>>>>>> upstream/18.0
 from unittest.mock import patch
 
 from odoo.exceptions import UserError
@@ -22,6 +25,9 @@ from odoo.addons.product.tests.common import ProductVariantsCommon
 
 @tagged('post_install', '-at_install')
 class TestPricelist(ProductVariantsCommon):
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     @classmethod
@@ -32,7 +38,11 @@ class TestPricelist(ProductVariantsCommon):
         cls.usb_adapter = cls.env['product.product'].create({'name': 'Office Chair'})
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         cls.sale_pricelist_id = cls.env['product.pricelist'].create({
+=======
+        cls.sale_pricelist_id, cls.pricelist_eu = cls.env['product.pricelist'].create([{
+>>>>>>> upstream/18.0
 =======
         cls.sale_pricelist_id, cls.pricelist_eu = cls.env['product.pricelist'].create([{
 >>>>>>> upstream/18.0
@@ -60,13 +70,19 @@ class TestPricelist(ProductVariantsCommon):
                 }),
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
         })
 =======
+=======
+>>>>>>> upstream/18.0
         }, {
             'name': "EU Pricelist",
             'country_group_ids': cls.env.ref('base.europe').ids,
         }])
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         # Enable pricelist feature
         cls.env.user.groups_id += cls.env.ref('product.group_product_pricelist')
@@ -163,7 +179,10 @@ class TestPricelist(ProductVariantsCommon):
         self.assertEqual(res_partner.property_product_pricelist, pl_first)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_40_specific_property_product_pricelist(self):
         """Ensure that that ``specific_property_product_pricelist`` value only gets set
         when changing ``property_product_pricelist`` to a non-default value for the partner.
@@ -220,6 +239,9 @@ class TestPricelist(ProductVariantsCommon):
             self.assertEqual(self.partner.property_product_pricelist, pricelist_1)
             self.assertEqual(self.partner.specific_property_product_pricelist, pricelist_1)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_pricelists_multi_comp_checks(self):
         first_company = self.env.company
@@ -263,11 +285,15 @@ class TestPricelist(ProductVariantsCommon):
 
     def test_pricelists_res_partner_form(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
         pricelist_europe = self.env['product.pricelist'].create({
             'name': 'Sale pricelist',
             'country_group_ids': self.env.ref('base.europe').ids,
         })
 
+=======
+        pricelist_europe = self.pricelist_eu
+>>>>>>> upstream/18.0
 =======
         pricelist_europe = self.pricelist_eu
 >>>>>>> upstream/18.0
@@ -475,7 +501,10 @@ class TestPricelist(ProductVariantsCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1056,6 +1085,7 @@ class TestPricelist(ProductVariantsCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1162,6 +1192,8 @@ class TestPricelist(ProductVariantsCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1607,6 +1639,7 @@ class TestPricelist(ProductVariantsCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1875,6 +1908,8 @@ class TestPricelist(ProductVariantsCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_pricelist_applied_on_product_variant(self):
         # product template with variants
@@ -1908,4 +1943,7 @@ class TestPricelist(ProductVariantsCommon):
         self.assertEqual(pricelist.item_ids.applied_on, "1_product")
         # check that product_id is cleared
         self.assertFalse(pricelist.item_ids.product_id)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

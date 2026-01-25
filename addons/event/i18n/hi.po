@@ -63,6 +63,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* event
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -569,11 +570,16 @@
 # * event
 #
 >>>>>>> upstream/18.0
+=======
+# * event
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Gautam Hingrajiya, 2024
 # Martin Trigaux, 2024
 # Wil Odoo, 2024
 # Manav Shah, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1512,10 +1518,16 @@
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Ujjawal Pathak, 2025
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2402,6 +2414,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-01-24 18:00+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Hindi <https://translate.odoo.com/projects/odoo-18/event/hi/>"
+"\n"
+>>>>>>> upstream/18.0
 "Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2531,6 +2550,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2796,6 +2816,10 @@ msgstr ""
 =======
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
 =======
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -2977,7 +3001,11 @@ msgid "# Events"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "# इवेंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "# इवेंट"
 >>>>>>> upstream/18.0
@@ -3234,7 +3262,11 @@ msgid "# Sent"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "# भेजा गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "# भेजा गया"
 >>>>>>> upstream/18.0
@@ -3429,43 +3461,71 @@ msgstr "# भेजा गया"
 #. odoo-python
 #: code:addons/event/models/event_event.py:0
 msgid "%(event_name)s (%(count)s seats remaining)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(event_name)s (%(count)s सीट बाकी)"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_event.py:0
 msgid "%(event_name)s (Sold out)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(event_name)s (सभी टिकट बिक गए)"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_registration.py:0
 msgid "%(event_name)s - Registration #%(registration_id)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(event_name)s - रजिस्ट्रेशन #%(registration_id)s"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_registration.py:0
 msgid "%(event_name)s - Registration for %(attendee_name)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(event_name)s - %(attendee_name)s के लिए रजिस्ट्रेशन"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_event.py:0
 msgid "%(start_date)s to %(end_date)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(start_date)s से %(end_date)s"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_ticket.py:0
 msgid "%(ticket_name)s (%(count)s seats remaining)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(ticket_name)s (%(count)s बची हुई सीटें)"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_ticket.py:0
 msgid "%(ticket_name)s (Sold out)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(ticket_name)s (सभी टिकट बिक गए)"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
@@ -3622,7 +3682,11 @@ msgid "%s (copy)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s (कॉपी)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s (कॉपी)"
 >>>>>>> upstream/18.0
@@ -4086,12 +4150,20 @@ msgstr ""
 #. module: event
 #: model:ir.actions.report,print_report_name:event.action_report_event_event_attendee_list
 msgid "'Attendee List - %s' % (object.name)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "'प्रतिभागी की सूची- %s' % (object.name)"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.report,print_report_name:event.action_report_event_registration_attendee_list
 msgid "'Attendee List'"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "'प्रतिभागी की सूची'"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.report,print_report_name:event.action_report_event_registration_badge
@@ -4099,11 +4171,20 @@ msgid ""
 "'Badge - %s - %s' % ((object.event_id.name or 'Event').replace('/',''), "
 "(object.name or '').replace('/',''))"
 msgstr ""
+<<<<<<< HEAD
+=======
+"'बैज - %s - %s' % ((object.event_id.name or 'Event').replace('/',''), "
+"(object.name or '').replace('/',''))"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.report,print_report_name:event.action_report_event_event_badge
 msgid "'Badge - %s' % (object.name or 'Event').replace('/','')"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "'बैज - %s' % (object.name or 'Event').replace('/','')"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.report,print_report_name:event.action_report_event_registration_full_page_ticket
@@ -4111,11 +4192,20 @@ msgid ""
 "'Full Page Ticket - %s - %s' % ((object.event_id.name or "
 "'Event').replace('/',''), (object.name or '').replace('/',''))"
 msgstr ""
+<<<<<<< HEAD
+=======
+"'फ़ुल पेज टिकट - %s - %s' % ((object.event_id.name or 'Event').replace('/',''), "
+"(object.name or '').replace('/',''))"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.report,print_report_name:event.action_report_event_event_full_page_ticket
 msgid "'Full Page Ticket - %s' % (object.name or 'Event').replace('/','')"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "'फ़ुल पेज टिकट - %s' % (object.name or 'Event').replace('/','')"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_report_full_page_ticket_layout
@@ -4159,7 +4249,11 @@ msgstr ""
 #. module: event
 #: model:ir.model.fields.selection,name:event.selection__event_event__badge_format__four_per_sheet
 msgid "4 per sheet"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "4 प्रति शीट"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.tag,name:event.event_tag_category_1_tag_1
@@ -4174,7 +4268,11 @@ msgstr ""
 #. module: event
 #: model:ir.model.fields.selection,name:event.selection__event_event__badge_format__96x82
 msgid "96x82mm (Badge Printer)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "96x82mm (बैज प्रिंटर)"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
@@ -4182,6 +4280,10 @@ msgid ""
 "<b>Business Room</b> - To discuss implementation methodologies, best sales "
 "practices, etc."
 msgstr ""
+<<<<<<< HEAD
+=======
+"<b>बिज़नेस रूम</b> - लागू करने के तरीकों, सेल्स की बेहतरीन प्रैक्टिस वगैरह पर चर्चा करें।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
@@ -4189,10 +4291,15 @@ msgid ""
 "<b>Technical Rooms</b> - One dedicated to advanced Odoo developers, one for "
 "new developers."
 msgstr ""
+<<<<<<< HEAD
+=======
+"<b>टेक्निकल रूम</b> - एक एडवांस्ड Odoo डेवलपरों के लिए, एक नए डेवलपरों के लिए।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4826,6 +4933,13 @@ msgid ""
 "b><br> We propose 3 different training sessions, 2 days each."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"<b>The Design Fair is preceded by 2 days of Training Sessions for experts!</"
+"b><br> We propose 3 different training sessions, 2 days each."
+msgstr ""
+"<b>डिज़ाइन फ़ेयर से पहले, एक्सपर्ट्स के लिए 2 दिन की ट्रेनिंग सेशन!</b><br> हम 3 अलग-अलग ट्रेनिंग से"
+"शन दे रहे हैं, हर सेशन 2 दिन का।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
@@ -4834,10 +4948,16 @@ msgid ""
 "more time for thematical meetings, conferences, workshops and tutorial "
 "sessions in the afternoon."
 msgstr ""
+<<<<<<< HEAD
+=======
+"<b>सुबह के आम सेशन छोटे होंगे</b> और हम दोपहर में विषय-आधारित मीटिंग्स, कॉन्फ़्रेंस, वर्कशॉप और ट्यूटोरियल "
+"सेशन के लिए ज़्यादा समय देंगे।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5536,6 +5656,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<b>The whole event is open to all public!</b> <br>We ask a participation fee "
 "of 49.50€ for the costs for the 3 days (coffee breaks, catering, drinks and "
 "a surprising concert and beer party).<br> For those who don't want to "
@@ -5565,6 +5687,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5610,7 +5735,11 @@ msgstr ""
 #. module: event
 #: model_terms:event.event,description:event.event_0
 msgid "<b>Workshop Room</b> - Mainly for developers."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<b>वर्कशॉप रूम</b> - खास तौर पर डेवलपर्स के लिए।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_report_template_full_page_ticket
@@ -5618,6 +5747,11 @@ msgid ""
 "<br/>\n"
 "                                            <span class=\"me-1\">from</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<br/>\n"
+"                                            <span class=\"me-1\">से</span>"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_report_template_full_page_ticket
@@ -5625,11 +5759,17 @@ msgid ""
 "<br/>\n"
 "                                            <span class=\"me-1\">to</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<br/>\n"
+"                                            <span class=\"me-1\">के लिए</span>"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid ""
 "<br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6262,11 +6402,20 @@ msgid ""
 "tracks online through a Youtube integration</span>"
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"                                        <span class=\"text-muted\">Air your "
+"tracks online through a Youtube integration</span>"
+msgstr ""
+"<br/>\n"
+"                                        <span class=\"text-muted\">Youtube "
+"इंटिग्रेशन के ज़रिए अपने ट्रैक ऑनलाइन चलाएं</span>"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid ""
 "<br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6899,6 +7048,14 @@ msgid ""
 "quiz to your attendees once a track is over</span>"
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"                                        <span class=\"text-muted\">Share a "
+"quiz to your attendees once a track is over</span>"
+msgstr ""
+"<br/>\n"
+"                                        <span class=\"text-muted\">ट्रैक खत्म होने"
+" पर अपने प्रतिभागियों को एक क्विज़ शेयर करें</span>"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
@@ -6930,7 +7087,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6995,6 +7155,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7052,6 +7215,7 @@ msgstr ""
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_registration_view_kanban
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7684,6 +7848,10 @@ msgid ""
 "<i class=\"fa fa-check fa-3x\" role=\"img\" aria-label=\"Reset To Registered "
 "Button\" title=\"Reset To Registered\"/>"
 >>>>>>> upstream/18.0
+=======
+"<i class=\"fa fa-check fa-3x\" role=\"img\" aria-label=\"Reset To Registered "
+"Button\" title=\"Reset To Registered\"/>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: event
@@ -7697,6 +7865,10 @@ msgid ""
 "<i class=\"fa fa-info-circle me-2\"></i>This event and all the conferences "
 "are in <b>English</b>!"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-info-circle me-2\"></i>यह इवेंट और सभी कॉन्फ़्रेंस <b>अंग्रेज़ी</b> में है!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_event_view_activity
@@ -7833,7 +8005,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-map-marker mt-1 me-2 text-center ps-1\" title=\"Location\"/>"
+=======
+msgid ""
+"<i class=\"fa fa-map-marker mt-1 me-2 text-center ps-1\" title=\"Location\"/>"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "<i class=\"fa fa-map-marker mt-1 me-2 text-center ps-1\" title=\"Location\"/>"
@@ -8479,6 +8656,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"badge text-bg-secondary o_wevent_badge float-"
 "end\">SPEAKER</span>"
 =======
@@ -8986,16 +9164,30 @@ msgid ""
 "span>"
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"<span class=\"badge text-bg-secondary o_wevent_badge float-end\">SPEAKER</"
+"span>"
+msgstr ""
+"<span class=\"badge text-bg-secondary o_wevent_badge float-end\">स्पीकर</span>"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_report_template_full_page_ticket
 msgid "<span class=\"me-1\">to</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"me-1\">के लिए</span>"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_report_template_badge_card
 msgid "<span class=\"o_event_badge_font_faded\">My Placeholder Company</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_event_badge_font_faded\">मेरी प्लेसहोल्डर कंपनी</span>"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
@@ -9004,16 +9196,27 @@ msgid ""
 "                                    Registration\n"
 "                                </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text\">\n"
+"                                    रजिस्ट्रेशन\n"
+"                                </span>"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_report_template_badge_card
 #: model_terms:ir.ui.view,arch_db:event.event_report_template_full_page_ticket
 msgid "<span>John Doe</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>जॉन डोई</span>"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:mail.template,body_html:event.event_registration_mail_template_badge
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9149,6 +9352,8 @@ msgid ""
 "<t t-set=\"registration_ids\" t-value=\"object.ids if not is_sale else object._get_event_registration_ids_from_order()\"/>\n"
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 16px; background-color: white; color: #454748; border-collapse:separate;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9542,6 +9747,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9923,10 +10131,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"middle\">\n"
 "                    <span style=\"font-size: 10px;\">Your registration</span><br/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10308,6 +10519,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10689,6 +10903,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <a t-attf-href=\"/event/{{ object.event_id.id }}/my_tickets?badge_mode=1&amp;registration_ids={{ registration_ids }}&amp;tickets_hash={{ object.event_id._get_tickets_access_hash(registration_ids) }}\" target=\"_blank\" style=\"padding: 8px 12px; font-size: 12px; color: #FFFFFF; text-decoration: none !important; font-weight: 400; background-color: #875A7B; border: 0px solid #875A7B; border-radius:3px\">\n"
 "                        Download Badges\n"
 "                    </a>\n"
@@ -10699,6 +10914,8 @@ msgid ""
 "                <tr><td colspan=\"2\" style=\"text-align:center;\">\n"
 "                  <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin:16px 0px 16px 0px;\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11092,6 +11309,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11476,6 +11696,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"top\" style=\"font-size: 14px;\">\n"
 "                    <div>\n"
@@ -11487,6 +11708,8 @@ msgid ""
 "                        <t t-else=\"\">\n"
 "                            <strong t-out=\"object.event_id.name or ''\">OpenWood Collection Online Reveal</strong>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11878,6 +12101,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12134,6 +12360,7 @@ msgid ""
 "                    <div>\n"
 "                        <br/>\n"
 "                        <strong>Add this event to your calendar</strong>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12518,6 +12745,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        <a t-attf-href=\"https://www.google.com/calendar/"
 "render?action=TEMPLATE&amp;text={{ object.event_id.name }}"
 "&amp;dates={{ date_begin }}/{{ date_end }}&amp;location={{ location }}"
@@ -12632,6 +12861,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12999,6 +13231,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13384,11 +13619,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <t t-out=\"event_organizer.name or ''\">YourCompany</t>\n"
 "                        </t>\n"
 "                        <t t-else=\"\">\n"
 "                            The <t t-out=\"object.event_id.name or ''\">OpenWood Collection Online Reveal</t> Team\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13770,6 +14008,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14152,7 +14393,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                  <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                  <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                  <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -14916,7 +15163,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+=======
+"            <table width=\"590\" border=\"0\" cellpadding=\"0\" "
+"cellspacing=\"0\" style=\"min-width: 590px; background-color: white; "
+"padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+>>>>>>> upstream/18.0
 =======
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" "
 "cellspacing=\"0\" style=\"min-width: 590px; background-color: white; "
@@ -15677,6 +15930,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <img src=\"/web_editor/font_to_img/61555/rgb(81,81,102)/34\" style=\"padding:4px;max-width:inherit;\" height=\"34\" alt=\"\"/>\n"
 "                            </td>\n"
 "                            <td style=\"padding: 0px 10px 0px 10px;width:50%;line-height:20px;vertical-align:top;\">\n"
@@ -15729,6 +15983,8 @@ msgid ""
 "                                        <div t-out=\"object.event_id.address_id.country_id.name\">Argentina</div>\n"
 "                                        <t t-set=\"location\" t-valuef=\"{{location}}, {{object.event_id.address_id.country_id.name}}\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16197,6 +16453,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16582,7 +16841,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -17346,6 +17611,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <span style=\"font-weight:300;margin:10px 0px\">Questions about this event?</span>\n"
 "                            <div>Please contact the organizer:</div>\n"
 "                            <ul>\n"
@@ -17356,6 +17622,8 @@ msgid ""
 "                                <t t-if=\"event_organizer.phone\">\n"
 "                                    <li>Phone: <t t-out=\"event_organizer.phone\">+1 650-123-4567</t></li>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17745,6 +18013,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18130,7 +18401,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -18894,7 +19171,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <strong>Get the best mobile experience.</strong>\n"
+=======
+"                            <strong>Get the best mobile experience.</"
+"strong>\n"
+>>>>>>> upstream/18.0
 =======
 "                            <strong>Get the best mobile experience.</"
 "strong>\n"
@@ -19532,7 +19814,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -20297,11 +20585,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <i class=\"fa fa-map-marker\"/>\n"
 "                                <a t-attf-href=\"https://maps.google.com/maps?q={{ location }}\" target=\"new\">\n"
 "                                    <img t-if=\"event_address.static_map_url and event_address.static_map_url_is_valid\" t-att-src=\"event_address.static_map_url\" style=\"vertical-align:bottom; width: 100%;\" alt=\"Google Maps\"/>\n"
 "                                    <t t-else=\"\">See location on Google Maps</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20687,6 +20978,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21078,6 +21372,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "        <tr><td style=\"text-align: center; font-size: 14px;\">\n"
 "            Sent by <a target=\"_blank\" t-attf-href=\"{{ object.company_id.website }}\" style=\"color: #875A7B;\" t-out=\"object.company_id.name or ''\">YourCompany</a>\n"
@@ -21085,6 +21380,8 @@ msgid ""
 "                <br/>\n"
 "                Discover <a href=\"/event\" style=\"color:#875A7B;\">all our events</a>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21471,6 +21768,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21860,6 +22160,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\"><tr><td align=\"center\">\n"
 "<t t-set=\"date_begin\" t-value=\"format_datetime(object.event_id.date_begin, tz='UTC', dt_format=&quot;yyyyMMdd'T'HHmmss'Z'&quot;)\"/>\n"
 "<t t-set=\"date_end\" t-value=\"format_datetime(object.event_id.date_end, tz='UTC', dt_format=&quot;yyyyMMdd'T'HHmmss'Z'&quot;)\"/>\n"
@@ -21870,6 +22171,8 @@ msgid ""
 "<t t-set=\"registration_ids\" t-value=\"object.ids if not is_sale else object._get_event_registration_ids_from_order()\"/>\n"
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 16px; background-color: white; color: #454748; border-collapse:separate;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22265,6 +22568,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22646,6 +22952,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"middle\">\n"
 "                    <span style=\"font-size: 10px;\">Your registration</span><br/>\n"
@@ -22653,6 +22960,8 @@ msgid ""
 "                    <div style=\"margin-bottom: 5px;margin-top: 18px;\">\n"
 "                        <a t-attf-href=\"/event/{{ object.event_id.id }}/my_tickets?registration_ids={{ registration_ids }}&amp;tickets_hash={{ object.event_id._get_tickets_access_hash(registration_ids) }}&amp;responsive_html=1\" target=\"_blank\" style=\"padding: 8px 12px; font-size: 12px; color: #FFFFFF; text-decoration: none !important; font-weight: 400; background-color: #875A7B; border: 0px solid #875A7B; border-radius:3px\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23044,6 +23353,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23301,6 +23613,7 @@ msgid ""
 "                </td><td valign=\"middle\" align=\"right\">\n"
 "                    <t t-if=\"object.barcode\">\n"
 "                        <div style=\"margin-bottom: 5px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23689,6 +24002,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                            <img t-attf-src=\"/report/barcode/QR/"
 "{{object.barcode}}?&amp;width=100&amp;height=100&amp;quiet=0\" width=\"100\" "
 "height=\"100\" alt=\"QR Code\" t-att-style=\"'height: 100px !important;'\"/"
@@ -23811,6 +24126,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24186,6 +24504,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24570,6 +24891,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"top\" style=\"font-size: 14px;\">\n"
 "                    <div>\n"
@@ -24583,6 +24905,8 @@ msgid ""
 "                        </t>\n"
 "                        is starting <strong t-out=\"object.event_date_range or ''\">today</strong>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24977,6 +25301,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25232,6 +25559,7 @@ msgid ""
 "                    <div>\n"
 "                        <br/>\n"
 "                        <strong>Add this event to your calendar</strong>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25616,6 +25944,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        <a t-attf-href=\"https://www.google.com/calendar/"
 "render?action=TEMPLATE&amp;text={{ object.event_id.name }}"
 "&amp;dates={{ date_begin }}/{{ date_end }}&amp;location={{ location }}"
@@ -25730,6 +26060,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26097,6 +26430,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26478,6 +26814,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        We confirm your registration and hope to meet you there,<br/>\n"
 "                        <span style=\"color: #454748;\">\n"
 "                        -- <br/>\n"
@@ -26487,6 +26824,8 @@ msgid ""
 "                        <t t-else=\"\">\n"
 "                            The <t t-out=\"object.event_id.name or ''\">OpenWood Collection Online Reveal</t> Team\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26873,6 +27212,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27255,7 +27597,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                  <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                  <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                  <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -28019,7 +28367,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+=======
+"            <table width=\"590\" border=\"0\" cellpadding=\"0\" "
+"cellspacing=\"0\" style=\"min-width: 590px; background-color: white; "
+"padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+>>>>>>> upstream/18.0
 =======
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" "
 "cellspacing=\"0\" style=\"min-width: 590px; background-color: white; "
@@ -28780,6 +29134,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <img src=\"/web_editor/font_to_img/61555/rgb(81,81,102)/34\" style=\"padding:4px;max-width:inherit;\" height=\"34\" alt=\"\"/>\n"
 "                            </td>\n"
 "                            <td style=\"padding: 0px 10px 0px 10px;width:50%;line-height:20px;vertical-align:top;\">\n"
@@ -28832,6 +29187,8 @@ msgid ""
 "                                        <div t-out=\"object.event_id.address_id.country_id.name or ''\">Argentina</div>\n"
 "                                        <t t-set=\"location\" t-value=\"'%s, %s' % (location, object.event_id.address_id.country_id.name)\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -29301,6 +29658,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -29686,7 +30046,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -30450,6 +30816,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <span style=\"font-weight:300;margin:10px 0px\">Questions about this event?</span>\n"
 "                            <div>Please contact the organizer:</div>\n"
 "                            <ul>\n"
@@ -30460,6 +30827,8 @@ msgid ""
 "                                <t t-if=\"event_organizer.phone\">\n"
 "                                    <li>Phone: <t t-out=\"event_organizer.phone or ''\"/></li>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -30849,6 +31218,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -31233,8 +31605,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <hr t-if=\"is_online or event_address\" width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -31614,6 +31989,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -32002,8 +32380,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <hr t-if=\"is_online and event_address\" width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -32383,6 +32764,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -32764,6 +33148,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <table t-if=\"event_address and location\" style=\"width:100%;\"><tr><td>\n"
 "                        <div>\n"
 "                            <i class=\"fa fa-map-marker\"/>\n"
@@ -32771,6 +33156,8 @@ msgid ""
 "                                <img t-if=\"event_address.static_map_url and event_address.static_map_url_is_valid\" t-attf-src=\"{{ event_address.static_map_url }}\" style=\"vertical-align:bottom; width: 100%;\" alt=\"Google Maps\"/>\n"
 "                                <span t-else=\"\">See location on Google Maps</span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -33159,6 +33546,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -33548,6 +33938,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    <table t-if=\"object.company_id\" width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 14px;\">\n"
 "        Sent by <a target=\"_blank\" t-attf-href=\"{{ object.company_id.website }}\" style=\"color: #875A7B;\" t-out=\"object.company_id.name or ''\">YourCompany</a>\n"
@@ -33555,6 +33946,8 @@ msgid ""
 "            <br/>\n"
 "            Discover <a href=\"/event\" style=\"color:#875A7B;\">all our events</a>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -33942,6 +34335,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -34330,6 +34726,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\"><tr><td align=\"center\">\n"
 "<t t-set=\"date_begin\" t-value=\"format_datetime(object.event_id.date_begin, tz='UTC', dt_format=&quot;yyyyMMdd'T'HHmmss'Z'&quot;)\"/>\n"
 "<t t-set=\"date_end\" t-value=\"format_datetime(object.event_id.date_end, tz='UTC', dt_format=&quot;yyyyMMdd'T'HHmmss'Z'&quot;)\"/>\n"
@@ -34340,6 +34737,8 @@ msgid ""
 "<t t-set=\"registration_ids\" t-value=\"object.ids if not is_sale else object._get_event_registration_ids_from_order()\"/>\n"
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 16px; background-color: white; color: #454748; border-collapse:separate;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -34735,6 +35134,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -35116,10 +35518,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"middle\">\n"
 "                    <span style=\"font-size: 10px;\">Your registration</span><br/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -35501,6 +35906,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -35882,8 +36290,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <a t-attf-href=\"/event/{{ object.event_id.id }}/my_tickets?registration_ids={{ registration_ids }}&amp;tickets_hash={{ object.event_id._get_tickets_access_hash(registration_ids) }}&amp;responsive_html=1\" target=\"_blank\" style=\"padding: 8px 12px; font-size: 12px; color: #FFFFFF; text-decoration: none !important; font-weight: 400; background-color: #875A7B; border: 0px solid #875A7B; border-radius:3px\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -36266,6 +36677,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -36523,6 +36937,7 @@ msgid ""
 "                </td><td valign=\"middle\" align=\"right\">\n"
 "                    <t t-if=\"object.barcode\"> \n"
 "                        <div style=\"margin-bottom: 5px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -36911,6 +37326,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                            <img t-attf-src=\"/report/barcode/QR/"
 "{{object.barcode}}?&amp;width=100&amp;height=100&amp;quiet=0\" width=\"100\" "
 "height=\"100\" alt=\"QR Code\" t-att-style=\"'height: 100px !important;'\"/"
@@ -37033,6 +37450,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -37408,6 +37828,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -37792,6 +38215,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"top\" style=\"font-size: 14px;\">\n"
 "                    <div>\n"
@@ -37806,6 +38230,8 @@ msgid ""
 "                        <t t-if=\"object.partner_id and object.partner_id.name and object.partner_id.name != object.name\">\n"
 "                            This ticket was registered by <t t-out=\"object.partner_id.name\"/>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -38203,6 +38629,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -38584,6 +39013,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        The order for this ticket has reference <t t-out=\"object.sale_order_id.name\"/>\n"
 "                        and was placed on <t t-out=\"object.sale_order_id.date_order.date()\"/>\n"
 "                        <t t-if=\"object.sale_order_line_id.price_unit\"> for an amount of\n"
@@ -38839,10 +39269,13 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        The order for this ticket has reference <t t-"
 "out=\"object.sale_order_id.name\"/>\n"
 "                        and was placed on <t t-"
 "out=\"object.sale_order_id.date_order.date()\"/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -39223,6 +39656,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        <t t-if=\"object.sale_order_line_id.price_total\"> "
 "for an amount of\n"
 "                            <t t-"
@@ -39290,6 +39725,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -39420,6 +39858,7 @@ msgid ""
 "                    <div>\n"
 "                        <br/>\n"
 "                        <strong>Add this event to your calendar</strong>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -39804,6 +40243,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        <a t-attf-href=\"https://www.google.com/calendar/"
 "render?action=TEMPLATE&amp;text={{ object.event_id.name }}"
 "&amp;dates={{ date_begin }}/{{ date_end }}&amp;location={{ location }}"
@@ -39918,6 +40359,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -40285,6 +40729,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -40670,11 +41117,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <t t-out=\"event_organizer.name\">YourCompany</t>\n"
 "                        </t>\n"
 "                        <t t-else=\"\">\n"
 "                            The <t t-out=\"object.event_id.name or ''\">OpenWood Collection Online Reveal</t> Team\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -41056,6 +41506,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -41438,7 +41891,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                  <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                  <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                  <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -42202,7 +42661,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+=======
+"            <table width=\"590\" border=\"0\" cellpadding=\"0\" "
+"cellspacing=\"0\" style=\"min-width: 590px; background-color: white; "
+"padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+>>>>>>> upstream/18.0
 =======
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" "
 "cellspacing=\"0\" style=\"min-width: 590px; background-color: white; "
@@ -42963,6 +43428,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <img src=\"/web_editor/font_to_img/61555/rgb(81,81,102)/34\" style=\"padding:4px;max-width:inherit;\" height=\"34\" alt=\"\"/>\n"
 "                            </td>\n"
 "                            <td style=\"padding: 0px 10px 0px 10px;width:50%;line-height:20px;vertical-align:top;\">\n"
@@ -43015,6 +43481,8 @@ msgid ""
 "                                        <div t-out=\"object.event_id.address_id.country_id.name\">Argentina</div>\n"
 "                                        <t t-set=\"location\" t-valuef=\"{{location}}, {{object.event_id.address_id.country_id.name}}\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -43483,6 +43951,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -43868,7 +44339,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -44632,6 +45109,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <span style=\"font-weight:300;margin:10px 0px\">Questions about this event?</span>\n"
 "                            <div>Please contact the organizer:</div>\n"
 "                            <ul>\n"
@@ -44642,6 +45120,8 @@ msgid ""
 "                                <t t-if=\"event_organizer.phone\">\n"
 "                                    <li>Phone: <t t-out=\"event_organizer.phone\">+1 650-123-4567</t></li>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -45031,6 +45511,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -45416,7 +45899,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -46180,7 +46669,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <strong>Get the best mobile experience.</strong>\n"
+=======
+"                            <strong>Get the best mobile experience.</"
+"strong>\n"
+>>>>>>> upstream/18.0
 =======
 "                            <strong>Get the best mobile experience.</"
 "strong>\n"
@@ -46818,7 +47312,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -47583,11 +48083,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <i class=\"fa fa-map-marker\"/>\n"
 "                                <a t-attf-href=\"https://maps.google.com/maps?q={{ location }}\" target=\"new\">\n"
 "                                    <img t-if=\"event_address.static_map_url and event_address.static_map_url_is_valid\" t-att-src=\"event_address.static_map_url\" style=\"vertical-align:bottom; width: 100%;\" alt=\"Google Maps\"/>\n"
 "                                    <t t-else=\"\">See location on Google Maps</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -47973,6 +48476,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -48364,6 +48870,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "        <tr><td style=\"text-align: center; font-size: 14px;\">\n"
 "            Sent by <a target=\"_blank\" t-attf-href=\"{{ object.company_id.website }}\" style=\"color: #875A7B;\" t-out=\"object.company_id.name or ''\">YourCompany</a>\n"
@@ -48371,6 +48878,8 @@ msgid ""
 "                <br/>\n"
 "                Discover <a href=\"/event\" style=\"color:#875A7B;\">all our events</a>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -48757,6 +49266,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -49016,6 +49528,7 @@ msgid ""
 "</table>\n"
 "            "
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -50000,6 +50513,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event_ticket__description
@@ -50069,7 +50584,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टिकट का ब्यौरा जो आप ग्राहकों को बताना चाहते हैं।"
+>>>>>>> upstream/18.0
 =======
 msgstr "टिकट का ब्यौरा जो आप ग्राहकों को बताना चाहते हैं।"
 >>>>>>> upstream/18.0
@@ -50263,7 +50782,11 @@ msgstr "टिकट का ब्यौरा जो आप ग्राहक�
 #. module: event
 #: model:ir.model.fields.selection,name:event.selection__event_event__badge_format__a4_french_fold
 msgid "A4 foldable"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A4 फ़ोल्डेएबल"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields.selection,name:event.selection__event_event__badge_format__a6
@@ -50425,7 +50948,11 @@ msgid "Action Needed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कार्रवाई की ज़रूरत है"
+>>>>>>> upstream/18.0
 =======
 msgstr "कार्रवाई की ज़रूरत है"
 >>>>>>> upstream/18.0
@@ -51030,7 +51557,11 @@ msgid "Activity"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐक्टिविटी"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐक्टिविटी"
 >>>>>>> upstream/18.0
@@ -51592,7 +52123,11 @@ msgid "Activity Exception Decoration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐक्टिविटी एक्सेप्शन डेकोरेशन"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐक्टिविटी एक्सेप्शन डेकोरेशन"
 >>>>>>> upstream/18.0
@@ -52202,7 +52737,11 @@ msgid "Activity State"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐक्टिविटी स्टेट"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐक्टिविटी स्टेट"
 >>>>>>> upstream/18.0
@@ -52812,7 +53351,11 @@ msgid "Activity Type Icon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐक्टिविटी टाइप आइकॉन"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐक्टिविटी टाइप आइकॉन"
 >>>>>>> upstream/18.0
@@ -53270,11 +53813,16 @@ msgstr "ऐक्टिविटी टाइप आइकॉन"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_stage_view_form
 msgid "Add a description..."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कोई विवरण जोड़ें..।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -53908,12 +54456,22 @@ msgid ""
 "proposal form, etc."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"Add a navigation menu to your event web pages with schedule, tracks, a track "
+"proposal form, etc."
+msgstr ""
+"अपने इवेंट वेब पेज पर शेड्यूल, ट्रैक, ट्रैक प्रपोज़ल फ़ॉर्म वगैरह के साथ एक नेविगेशन मेन्यू जोड़ें।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
 #: model_terms:ir.ui.view,arch_db:event.view_event_type_form
 msgid "Add some internal notes (to do lists, contact info, ...)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कुछ इंटरनल नोट्स (करने लायक काम की सूची, संपर्क जानकारी वगैरह) जोड़ें"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__address_search
@@ -54069,7 +54627,11 @@ msgid "Address"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पता"
+>>>>>>> upstream/18.0
 =======
 msgstr "पता"
 >>>>>>> upstream/18.0
@@ -54678,7 +55240,11 @@ msgid "Administrator"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एडमिन"
+>>>>>>> upstream/18.0
 =======
 msgstr "एडमिन"
 >>>>>>> upstream/18.0
@@ -55136,13 +55702,21 @@ msgstr "एडमिन"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_config_settings__module_website_event_exhibitor
 msgid "Advanced Sponsors"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एडवान्स्ड स्पॉन्सर्स"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields.selection,name:event.selection__event_mail__interval_type__after_sub
 #: model:ir.model.fields.selection,name:event.selection__event_type_mail__interval_type__after_sub
 msgid "After each registration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "हर रजिस्ट्रेशन के बाद"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields.selection,name:event.selection__event_mail__interval_type__after_event
@@ -55216,7 +55790,11 @@ msgid "Age"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उम्र"
+>>>>>>> upstream/18.0
 =======
 msgstr "उम्र"
 >>>>>>> upstream/18.0
@@ -55413,15 +55991,24 @@ msgid ""
 "All the communication emails sent to attendees will be translated in this "
 "language."
 msgstr ""
+<<<<<<< HEAD
+=======
+"प्रतिभागियों को भेजे गए सभी कम्यूनिकेशन ईमेल का अनुवाद इसी भाषा में किया जाएगा।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.event,name:event.event_6
 msgid "An unpublished event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पब्लिश नहीं किया गया इवेंट"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_7
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -55801,6 +56388,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "And this time, we go fully ONLINE! Meet us in our live streams from the "
 "comfort of your house.<br>\n"
 "        Special discount codes will be handed out during the various "
@@ -55930,6 +56519,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -56182,11 +56772,21 @@ msgid ""
 =======
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr ""
+"और इस बार, हम पूरी तरह से ऑनलाइन हो रहे हैं. अपने घर में आराम से हमारी लाइव स्ट्रीम में हमसे मिलें.<br>"
+"\n"
+"        अलग-अलग स्ट्रीम के दौरान खास डिस्काउंट कोड दिए जाएंगे, समय पर वहां मौजूद रहें।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.stage,name:event.event_stage_announced
 msgid "Announced"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सूचना दी गई"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_question_answer__name
@@ -56326,7 +56926,11 @@ msgid "Answer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जवाब"
+>>>>>>> upstream/18.0
 =======
 msgstr "जवाब"
 >>>>>>> upstream/18.0
@@ -56803,7 +57407,11 @@ msgid "Answer Breakdown"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जवाब का विश्लेषण"
+>>>>>>> upstream/18.0
 =======
 msgstr "जवाब का विश्लेषण"
 >>>>>>> upstream/18.0
@@ -57064,7 +57672,11 @@ msgid "Answers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जवाब"
+>>>>>>> upstream/18.0
 =======
 msgstr "जवाब"
 >>>>>>> upstream/18.0
@@ -57417,7 +58029,11 @@ msgid "Archived"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "संग्रहीत किया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "संग्रहीत किया गया"
 >>>>>>> upstream/18.0
@@ -57875,7 +58491,11 @@ msgstr "संग्रहीत किया गया"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__is_launched
 msgid "Are sales launched"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "क्या सेल्स शुरू हो गई है"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_1
@@ -57883,18 +58503,30 @@ msgid ""
 "Around one hundred ballons will simultaneously take flight and turn the sky "
 "into a beautiful canvas of colours."
 msgstr ""
+<<<<<<< HEAD
+=======
+"लगभग सौ गुब्बारे एक साथ उड़ान भरेंगे और आसमान को रंगों की सुंदर कैनवस में बदल देंगे।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:res.partner,website_description:event.res_partner_event_1
 #: model_terms:res.partner,website_description:event.res_partner_event_3
 #: model_terms:res.partner,website_description:event.res_partner_event_4
 msgid "As a team, we are happy to contribute to this event."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एक टीम के तौर पर, हमें इस इवेंट में योगदान देकर खुशी हो रही है।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_question__once_per_order
 msgid "Ask once per order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "हर ऑर्डर के लिए सिर्फ़ एक बार पूछें"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_2
@@ -57904,6 +58536,12 @@ msgid ""
 "founded TinyERP. This was the first phase of OpenERP which would later "
 "became Odoo, the most installed open-source business software worldwide."
 msgstr ""
+<<<<<<< HEAD
+=======
+"महज़ 13 साल की उम्र में, जॉन डो ने ग्राहकों के लिए अपने पहले बिज़नेस ऐप्लिकेशन बनाना शुरू कर दिया था. सिविल "
+"इंजीनियरिंग की पढ़ाई पूरी करने के बाद, उन्होंने TinyERP की नींव रखी. यह OpenERP का पहला स्टेज था जो बाद में"
+" Odoo बना. आज यह दुनिया भर में सबसे ज़्यादा इंस्टॉल किया जाने वाला ओपन-सोर्स बिज़नेस सॉफ़्टवेयर है।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__message_attachment_count
@@ -58060,7 +58698,11 @@ msgid "Attachment Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अटैचमेंट काउंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "अटैचमेंट काउंट"
 >>>>>>> upstream/18.0
@@ -58581,7 +59223,11 @@ msgid "Attendance"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपस्थिति"
+>>>>>>> upstream/18.0
 =======
 msgstr "उपस्थिति"
 >>>>>>> upstream/18.0
@@ -58840,7 +59486,11 @@ msgid "Attended"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "शामिल हुए"
+>>>>>>> upstream/18.0
 =======
 msgstr "शामिल हुए"
 >>>>>>> upstream/18.0
@@ -59035,7 +59685,11 @@ msgstr "शामिल हुए"
 #: model:ir.model.fields,field_description:event.field_event_registration__date_closed
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
 msgid "Attended Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपस्थिति की तारीख"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail_registration__registration_id
@@ -59104,7 +59758,11 @@ msgid "Attendee"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रतिभागी"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्रतिभागी"
 >>>>>>> upstream/18.0
@@ -59298,13 +59956,21 @@ msgstr "प्रतिभागी"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__registration_answer_ids
 msgid "Attendee Answers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रतिभागी के जवाब"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.report,name:event.action_report_event_event_attendee_list
 #: model:ir.actions.report,name:event.action_report_event_registration_attendee_list
 msgid "Attendee List"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रतिभागियों की सूची"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__name
@@ -59372,7 +60038,11 @@ msgid "Attendee Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "शामिल हुए लोगों का नाम"
+>>>>>>> upstream/18.0
 =======
 msgstr "शामिल हुए लोगों का नाम"
 >>>>>>> upstream/18.0
@@ -59566,12 +60236,20 @@ msgstr "शामिल हुए लोगों का नाम"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__registration_answer_choice_ids
 msgid "Attendee Selection Answers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रतिभागी के चुने हुए जवाब"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.attendee_list
 msgid "Attendee list"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रतिभागियों की सूची"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.act_window,name:event.act_event_registration_from_event
@@ -59647,7 +60325,11 @@ msgid "Attendees"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रतिभागी"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्रतिभागी"
 >>>>>>> upstream/18.0
@@ -59863,7 +60545,11 @@ msgid "Auto-Print"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑटो-प्रिंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऑटो-प्रिंट"
 >>>>>>> upstream/18.0
@@ -59932,7 +60618,11 @@ msgstr "ऑटो-प्रिंट"
 #: model:ir.model.fields,field_description:event.field_event_event__seats_available
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__seats_available
 msgid "Available Seats"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपलब्ध सीट"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.report,name:event.action_report_event_registration_badge
@@ -60000,7 +60690,11 @@ msgid "Badge"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैज"
+>>>>>>> upstream/18.0
 =======
 msgstr "बैज"
 >>>>>>> upstream/18.0
@@ -60199,22 +60893,38 @@ msgstr ""
 #. module: event
 #: model:ir.actions.report,name:event.action_report_event_registration_badge_96x82
 msgid "Badge (96x82mm)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैज (96x82mm)"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__badge_image
 msgid "Badge Background"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैज बैकग्राउंड"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__badge_format
 msgid "Badge Dimension"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैज डाइमेंशन"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.report,name:event.action_report_event_event_badge
 msgid "Badge Example"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैज का उदाहरण"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
@@ -60283,7 +60993,11 @@ msgid "Badges"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैज"
+>>>>>>> upstream/18.0
 =======
 msgstr "बैज"
 >>>>>>> upstream/18.0
@@ -60477,6 +61191,7 @@ msgstr "बैज"
 #. module: event
 #: model_terms:event.event,description:event.event_3
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -61110,6 +61825,12 @@ msgid ""
 "of the century during our three day event."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"Bands like Bar Fighters, Led Slippers and Link Floyd will offer you the show "
+"of the century during our three day event."
+msgstr ""
+"Bar Fighters, Led Slippers और Link Floyd जैसे बैंड हमारे तीन दिन के इवेंट में बेहतरीन शो करेंगे।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__barcode
@@ -61178,7 +61899,11 @@ msgid "Barcode"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बारकोड"
+>>>>>>> upstream/18.0
 =======
 msgstr "बारकोड"
 >>>>>>> upstream/18.0
@@ -61372,17 +62097,29 @@ msgstr "बारकोड"
 #. module: event
 #: model:ir.actions.client,name:event.event_barcode_action_main_view
 msgid "Barcode Interface"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बारकोड इंटरफ़ेस"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Barcode Nomenclature"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बारकोड के नाम रखने के नियम"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.constraint,message:event.constraint_event_registration_barcode_event_uniq
 msgid "Barcode should be unique"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बारकोड यूनीक होना चाहिए"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields.selection,name:event.selection__event_mail__interval_type__before_event
@@ -61548,7 +62285,11 @@ msgid "Blocked"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ब्लॉक किया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "ब्लॉक किया गया"
 >>>>>>> upstream/18.0
@@ -62000,6 +62741,11 @@ msgid ""
 "Bloem brings honesty and seriousness to wood industry while helping "
 "customers deal with trees, flowers and fungi."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Bloem लकड़ी उद्योग में ईमानदारी और गंभीरता लाता है, साथ ही ग्राहकों को पेड़, फूल और फंगस से निपटने में मदद "
+"करता है।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.stage,name:event.event_stage_booked
@@ -62067,7 +62813,11 @@ msgid "Booked"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बुक हो चुका"
+>>>>>>> upstream/18.0
 =======
 msgstr "बुक हो चुका"
 >>>>>>> upstream/18.0
@@ -62325,7 +63075,11 @@ msgid "Booked by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इन्होंने बुक किया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इन्होंने बुक किया"
 >>>>>>> upstream/18.0
@@ -62520,11 +63274,16 @@ msgstr "इन्होंने बुक किया"
 #: model:ir.model.fields,field_description:event.field_res_config_settings__module_event_booth
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Booth Management"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बूथ मैनेजमेंट"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.event,subtitle:event.event_5
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -63158,11 +63917,22 @@ msgid ""
 "at this 9th annual Field Hockey tournament."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"Bring your outdoor field hockey season to the next level by taking the field "
+"at this 9th annual Field Hockey tournament."
+msgstr ""
+"इस 9वें वार्षिक फ़ील्ड हॉकी टूर्नामेंट में मैदान पर उतरकर अपने आउटडोर फ़ील्ड हॉकी सीज़न को अगले स्तर पर ले "
+"जाएं।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.event,name:event.event_4
 msgid "Business workshops"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बिज़नेस वर्कशॉप"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__utm_campaign_id
@@ -63231,7 +64001,11 @@ msgid "Campaign"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कैंपेन"
+>>>>>>> upstream/18.0
 =======
 msgstr "कैंपेन"
 >>>>>>> upstream/18.0
@@ -63430,7 +64204,11 @@ msgstr "रद्द"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_registration_form
 msgid "Cancel Registration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रजिस्ट्रेशन रद्द करें"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.stage,name:event.event_stage_cancelled
@@ -63442,7 +64220,11 @@ msgstr "निरस्त"
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Cancelled registration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रद्द किया गया रजिस्ट्रेशन"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_tag__category_id
@@ -63480,7 +64262,11 @@ msgid "Category Sequence"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कैटगरी सीक्वेंस"
+>>>>>>> upstream/18.0
 =======
 msgstr "कैटगरी सीक्वेंस"
 >>>>>>> upstream/18.0
@@ -63572,6 +64358,11 @@ msgid ""
 "Chamber Works reserves the right to cancel, re-name or re-locate the event "
 "or change the dates on which it is held."
 msgstr ""
+<<<<<<< HEAD
+=======
+"चैंबर वर्क्स के पास इवेंट को रद्द करने, उसका नाम बदलने, उसका स्थान बदलने या उसकी तारीखें बदलने का अधिकार "
+"सुरक्षित है।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event__event_type_id
@@ -63579,6 +64370,10 @@ msgid ""
 "Choose a template to auto-fill tickets, communications, descriptions and "
 "other fields."
 msgstr ""
+<<<<<<< HEAD
+=======
+"टिकट, कम्यूनिकेशन, विवरण और अन्य फ़ील्ड को ऑटो-फ़िल करने के लिए एक टेम्प्लेट चुनें।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__color
@@ -63731,7 +64526,11 @@ msgid "Color"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कलर"
+>>>>>>> upstream/18.0
 =======
 msgstr "कलर"
 >>>>>>> upstream/18.0
@@ -64328,7 +65127,11 @@ msgid "Color Index"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कलर इंडेक्स"
+>>>>>>> upstream/18.0
 =======
 msgstr "कलर इंडेक्स"
 >>>>>>> upstream/18.0
@@ -64777,14 +65580,22 @@ msgstr "कलर इंडेक्स"
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.action_event_registration_report
 msgid "Come back once you have registrations to overview answers."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एक बार रजिस्ट्रेशन होने के बाद जवाबों को देखने के लिए वापस आएं।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:res.partner,website_description:event.res_partner_event_1
 #: model_terms:res.partner,website_description:event.res_partner_event_3
 #: model_terms:res.partner,website_description:event.res_partner_event_4
 msgid "Come see us live, we hope to meet you!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "हमें लाइव देखें, हम आपसे मिलने की उम्मीद करते हैं!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
@@ -64925,7 +65736,11 @@ msgid "Communication"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कम्यूनिकेशन "
+>>>>>>> upstream/18.0
 =======
 msgstr "कम्यूनिकेशन "
 >>>>>>> upstream/18.0
@@ -65335,7 +66150,11 @@ msgstr "कम्यूनिकेशन "
 #. module: event
 #: model:ir.model.fields,help:event.field_event_mail__mail_registration_ids
 msgid "Communication related to event registrations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट रजिस्ट्रेशन से जुड़े मैसेज या ईमेल"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
@@ -65421,7 +66240,11 @@ msgid "Company Logo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कंपनी लोगो"
+>>>>>>> upstream/18.0
 =======
 msgstr "कंपनी लोगो"
 >>>>>>> upstream/18.0
@@ -65678,7 +66501,11 @@ msgid "Company Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कंपनी का नाम"
+>>>>>>> upstream/18.0
 =======
 msgstr "कंपनी का नाम"
 >>>>>>> upstream/18.0
@@ -65936,7 +66763,11 @@ msgid "Compose Email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ईमेल लिखें"
+>>>>>>> upstream/18.0
 =======
 msgstr "ईमेल लिखें"
 >>>>>>> upstream/18.0
@@ -66151,7 +66982,11 @@ msgid "Conference"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कॉन्फ्रेंस"
+>>>>>>> upstream/18.0
 =======
 msgstr "कॉन्फ्रेंस"
 >>>>>>> upstream/18.0
@@ -66283,7 +67118,11 @@ msgid "Conference for Architects"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आर्किटेक्ट के लिए कॉन्फ्रेंस"
+>>>>>>> upstream/18.0
 =======
 msgstr "आर्किटेक्ट के लिए कॉन्फ्रेंस"
 >>>>>>> upstream/18.0
@@ -66477,7 +67316,11 @@ msgstr "आर्किटेक्ट के लिए कॉन्फ्रे
 #. module: event
 #: model_terms:event.event,description:event.event_0
 msgid "Conferences, workshops and trainings will be organized in 6 rooms:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कॉन्फ़्रेंस, वर्कशॉप और ट्रेनिंग 6 कमरों में आयोजित की जाएंगी:"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model,name:event.model_res_config_settings
@@ -66630,7 +67473,11 @@ msgid "Config Settings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कॉन्फ़िगरेशन सेटिंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "कॉन्फ़िगरेशन सेटिंग"
 >>>>>>> upstream/18.0
@@ -67095,7 +67942,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Confirm attendance?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपस्थिति की पुष्टि करें?"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model,name:event.model_res_partner
@@ -67169,7 +68020,11 @@ msgid "Continue"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जारी रखें"
+>>>>>>> upstream/18.0
 =======
 msgstr "जारी रखें"
 >>>>>>> upstream/18.0
@@ -67368,27 +68223,47 @@ msgstr "देश"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Create Booths and manage their reservations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बूथ बनाएं और उनकी बुकिंग मैनेज करें"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.action_event_view
 msgid "Create an Event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट बनाएं"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.event_stage_action
 msgid "Create an Event Stage"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट स्टेज बनाएं"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.event_tag_category_action_tree
 msgid "Create an Event Tag Category"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट टैग कैटगरी बनाएं"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.action_event_type
 msgid "Create an Event Template"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट टेंप्लेट बनाएं"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__create_uid
@@ -67572,7 +68447,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस तारीख को बनाया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इस तारीख को बनाया गया"
 >>>>>>> upstream/18.0
@@ -68042,7 +68921,11 @@ msgid "Culture"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "संस्कृति"
+>>>>>>> upstream/18.0
 =======
 msgstr "संस्कृति"
 >>>>>>> upstream/18.0
@@ -68256,7 +69139,11 @@ msgid "Customer Email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कस्टमर ईमल"
+>>>>>>> upstream/18.0
 =======
 msgstr "कस्टमर ईमल"
 >>>>>>> upstream/18.0
@@ -68832,7 +69719,11 @@ msgid "Date Range"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "तारीख का रेंज"
+>>>>>>> upstream/18.0
 =======
 msgstr "तारीख का रेंज"
 >>>>>>> upstream/18.0
@@ -69430,7 +70321,11 @@ msgid "Days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "दिन"
+>>>>>>> upstream/18.0
 =======
 msgstr "दिन"
 >>>>>>> upstream/18.0
@@ -69884,6 +70779,11 @@ msgid ""
 "you will not be able to sell tickets anymore. Set 0 to ignore this rule set "
 "as unlimited."
 msgstr ""
+<<<<<<< HEAD
+=======
+"उपलब्ध टिकटों की संख्या निर्धारित करें. अगर ज़्यादा रजिस्ट्रेशन हुए, तो आप आगे टिकट नहीं बेच पाएंगे. इस नियम को"
+" अनदेखा करके असीमित सेट करने के लिए 0 दर्ज करें।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__description
@@ -69895,12 +70795,20 @@ msgstr "विवरण"
 #. module: event
 #: model:event.event,name:event.event_0
 msgid "Design Fair Los Angeles"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिज़ाइन फ़ेयर लॉस एंजेलिस"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.event,subtitle:event.event_4
 msgid "Discover how to grow a sustainable business with our experts."
 msgstr ""
+<<<<<<< HEAD
+=======
+"हमारे विशेषज्ञों के साथ जानें कि अपने बिजनेस को बेहतर और टिकाऊ कैसे बनाएं।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:res.partner,website_description:event.res_partner_event_1
@@ -69970,7 +70878,11 @@ msgid "Discover more"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ज़्यादा जानें"
+>>>>>>> upstream/18.0
 =======
 msgstr "ज़्यादा जानें"
 >>>>>>> upstream/18.0
@@ -70336,7 +71248,11 @@ msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिस्प्ले नाम"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिस्प्ले नाम"
 >>>>>>> upstream/18.0
@@ -70803,17 +71719,29 @@ msgstr "डिस्प्ले नाम"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Display Sponsors and Exhibitors on your event pages"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अपने इवेंट पेज पर स्पॉन्सर्स और एग्जीबिटर्स की जानकारी दिखाएं"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__date_tz
 msgid "Display Timezone"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टाइमज़ोन दिखाएं"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail__sequence
 msgid "Display order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑर्डर दिखाएं"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields.selection,name:event.selection__event_event__kanban_state__done
@@ -70826,6 +71754,11 @@ msgid ""
 "During this conference, our team will give a detailed overview of our "
 "business applications. You’ll know all the benefits of using it."
 msgstr ""
+<<<<<<< HEAD
+=======
+"इस कॉन्फ़्रेंस के दौरान, हमारी टीम हमारे बिज़नेस ऐप्लिकेशनों की पूरी जानकारी देगी. आपको इसके इस्तेमाल के सभी फ़ायदे "
+"पता चलेंगे।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
@@ -70992,7 +71925,11 @@ msgid "Email Templates"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ईमेल टेंप्लेट"
+>>>>>>> upstream/18.0
 =======
 msgstr "ईमेल टेंप्लेट"
 >>>>>>> upstream/18.0
@@ -71441,12 +72378,20 @@ msgstr "ईमेल टेंप्लेट"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Enable barcode scanning"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बारकोड स्कैनिंग चालू करें"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_res_config_settings__use_event_barcode
 msgid "Enable or Disable Event Barcode functionality."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट बारकोड की सुविधा चालू या बंद करें।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__date_end
@@ -71461,7 +72406,11 @@ msgstr ""
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_stage__pipe_end
 msgid "End Stage"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "खत्म होने का स्टेज"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.stage,name:event.event_stage_done
@@ -71487,7 +72436,11 @@ msgid "Ended"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "खत्म हो गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "खत्म हो गया"
 >>>>>>> upstream/18.0
@@ -71555,7 +72508,11 @@ msgstr "खत्म हो गया"
 #. module: event
 #: model:event.event,subtitle:event.event_2
 msgid "Enhance your architectural business and improve professional skills."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आर्किटेक्चर बिज़नेस को बड़ा बनाएं और नए प्रोफ़ेशनल हुनर सीखें।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
@@ -71634,7 +72591,11 @@ msgid "Event"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "इवेंट"
 >>>>>>> upstream/18.0
@@ -71828,7 +72789,11 @@ msgstr "इवेंट"
 #. module: event
 #: model:ir.model,name:event.model_event_mail
 msgid "Event Automated Mailing"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट ऑटोमेटेड मेलिंग"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__event_type_id
@@ -71837,12 +72802,20 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:event.event_tag_category_view_tree
 #: model_terms:ir.ui.view,arch_db:event.view_event_type_form
 msgid "Event Category"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट कैटगरी"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_tag_view_form
 msgid "Event Category Tag"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट कैटगरी टैग"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__event_end_date
@@ -71910,7 +72883,11 @@ msgid "Event End Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट के खत्म होने की तारीख"
+>>>>>>> upstream/18.0
 =======
 msgstr "इवेंट के खत्म होने की तारीख"
 >>>>>>> upstream/18.0
@@ -72104,54 +73081,94 @@ msgstr "इवेंट के खत्म होने की तारीख"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Event Gamification"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट गेमिफ़िकेशन"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_registration_form
 msgid "Event Information"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट की जानकारी"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_mail_form
 msgid "Event Mail Scheduler"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट मेल शेड्यूलर"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_mail_tree
 msgid "Event Mail Schedulers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट मेल शेड्यूलर"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
 #: code:addons/event/static/src/template_reference_field/field_event_mail_template_reference.js:0
 msgid "Event Mail Template Reference"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट मेल टेम्प्लेट रेफ़रेंस"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_event_view_activity
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
 msgid "Event Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट का नाम"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_calendar
 msgid "Event Organization"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट ऑर्गनाइज़ेशन"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__event_organizer_id
 msgid "Event Organizer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट ऑर्गनाइज़र"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model,name:event.model_event_question
 msgid "Event Question"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट से जुड़े सवाल"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model,name:event.model_event_question_answer
 msgid "Event Question Answer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट से जुड़े सवाल-जवाब"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model,name:event.model_event_registration
@@ -72222,7 +73239,11 @@ msgid "Event Registration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट के लिए रजिस्ट्रेशन"
+>>>>>>> upstream/18.0
 =======
 msgstr "इवेंट के लिए रजिस्ट्रेशन"
 >>>>>>> upstream/18.0
@@ -72416,7 +73437,11 @@ msgstr "इवेंट के लिए रजिस्ट्रेशन"
 #. module: event
 #: model:ir.model,name:event.model_event_registration_answer
 msgid "Event Registration Answer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट रजिस्ट्रेशन का जवाब"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
@@ -72485,7 +73510,11 @@ msgid "Event Registrations"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट के लिए रजिस्ट्रेशन"
+>>>>>>> upstream/18.0
 =======
 msgstr "इवेंट के लिए रजिस्ट्रेशन"
 >>>>>>> upstream/18.0
@@ -72679,7 +73708,11 @@ msgstr "इवेंट के लिए रजिस्ट्रेशन"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__event_user_id
 msgid "Event Responsible"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट रिस्पॉन्सिबल"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
@@ -72702,13 +73735,21 @@ msgstr ""
 #. module: event
 #: model:ir.model,name:event.model_event_stage
 msgid "Event Stage"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट स्टेज"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.act_window,name:event.event_stage_action
 #: model:ir.ui.menu,name:event.event_stage_menu
 msgid "Event Stages"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट स्टेज"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__event_begin_date
@@ -72777,7 +73818,11 @@ msgid "Event Start Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट शुरू होने की तारीख"
+>>>>>>> upstream/18.0
 =======
 msgstr "इवेंट शुरू होने की तारीख"
 >>>>>>> upstream/18.0
@@ -72971,19 +74016,31 @@ msgstr "इवेंट शुरू होने की तारीख"
 #. module: event
 #: model:ir.model,name:event.model_event_tag
 msgid "Event Tag"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट टैग"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model,name:event.model_event_tag_category
 msgid "Event Tag Category"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट टैग कैटगरी"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.act_window,name:event.event_tag_category_action_tree
 #: model:ir.ui.menu,name:event.menu_event_category
 #: model_terms:ir.ui.view,arch_db:event.event_tag_view_tree
 msgid "Event Tags Categories"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट टैग कैटगरी"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model,name:event.model_event_type
@@ -72991,30 +74048,47 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:event.view_event_type_form
 #: model_terms:ir.ui.view,arch_db:event.view_event_type_tree
 msgid "Event Template"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट टेम्प्लेट"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model,name:event.model_event_type_ticket
 #: model_terms:ir.ui.view,arch_db:event.event_type_ticket_view_form_from_type
 msgid "Event Template Ticket"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट टेम्प्लेट टिकट"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_type_ticket_view_tree_from_type
 msgid "Event Template Tickets"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट टेम्प्लेट टिकट"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.act_window,name:event.action_event_type
 #: model:ir.ui.menu,name:event.menu_event_type
 #: model_terms:ir.ui.view,arch_db:event.event_type_view_search
 msgid "Event Templates"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट टेम्प्लेट"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.action_event_type
 msgid ""
 "Event Templates combine configurations you use often and are\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -73648,6 +74722,16 @@ msgid ""
 >>>>>>> upstream/18.0
 "                \"Roadshow\", \"Online Webinar\", etc)."
 msgstr ""
+=======
+"                usually based on the types of events you organize (e.g. "
+"\"Workshop\",\n"
+"                \"Roadshow\", \"Online Webinar\", etc)."
+msgstr ""
+"इवेंट टेम्प्लेट उन कॉन्फ़िगरेशन (सेटिंग्स) को जोड़ते हैं जिनका आप अक्सर इस्तेमाल करते हैं और\n"
+"                ये आमतौर पर आपके द्वारा आयोजित किए जाने वाले इवेंट के प्रकारों (उदाहरण के लिए: "
+"\"वर्कशॉप\",\n"
+"                रोड शो\", \"ऑनलाइन वेबिनार\" वगैरह) पर आधारित होते हैं।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model,name:event.model_event_event_ticket
@@ -73716,7 +74800,11 @@ msgid "Event Ticket"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट टिकट"
+>>>>>>> upstream/18.0
 =======
 msgstr "इवेंट टिकट"
 >>>>>>> upstream/18.0
@@ -73974,7 +75062,11 @@ msgid "Event Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट टाइप"
+>>>>>>> upstream/18.0
 =======
 msgstr "इवेंट टाइप"
 >>>>>>> upstream/18.0
@@ -74168,7 +75260,11 @@ msgstr "इवेंट टाइप"
 #. module: event
 #: model:ir.actions.act_window,name:event.event_registration_action_tree
 msgid "Event registrations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट रजिस्ट्रेशन"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.event_stage_action
@@ -74176,21 +75272,38 @@ msgid ""
 "Event stages are used to track the progress of an Event from its origin "
 "until its conclusion."
 msgstr ""
+<<<<<<< HEAD
+=======
+"इवेंट स्टेज का इस्तेमाल किसी इवेंट की शुरुआत से लेकर उसके पूरा होने तक की प्रगति को ट्रैक करने के लिए किया जाता "
+"है।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_event_ticket_form_view
 msgid "Event's Ticket"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट की टिकट"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.server,name:event.event_mail_scheduler_ir_actions_server
 msgid "Event: Mail Scheduler"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट: मेल शेड्यूलर"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:mail.template,name:event.event_registration_mail_template_badge
 msgid "Event: Registration Badge"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट: रजिस्ट्रेशन बैज"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:mail.template,name:event.event_subscription
@@ -74382,7 +75495,11 @@ msgid "Event: Registration Confirmation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट: रजिस्ट्रेशन की पुष्टि"
+>>>>>>> upstream/18.0
 =======
 msgstr "इवेंट: रजिस्ट्रेशन की पुष्टि"
 >>>>>>> upstream/18.0
@@ -74948,7 +76065,11 @@ msgstr "इवेंट: रजिस्ट्रेशन की पुष्�
 #. module: event
 #: model:mail.template,name:event.event_reminder
 msgid "Event: Reminder"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट: रिमाइंडर"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.act_window,name:event.action_event_view
@@ -75023,7 +76144,11 @@ msgid "Events"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "इवेंट"
 >>>>>>> upstream/18.0
@@ -75217,13 +76342,21 @@ msgstr "इवेंट"
 #. module: event
 #: model:ir.actions.act_window,name:event.action_event_mail
 msgid "Events Mail Schedulers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट मेल शेड्यूलर"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_stage_view_form
 #: model_terms:ir.ui.view,arch_db:event.event_stage_view_tree
 msgid "Events Stage"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट स्टेज"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_stage__pipe_end
@@ -75367,6 +76500,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "जब कोई इवेंट पूरा हो जाता है, तो वह अपने-आप इस स्टेज में चला जाएगा. जो इवेंट"
 " इस स्टेज में जाएंगे, वे अपने-आप हरे रंग के हो जाएंगे."
@@ -75406,6 +76540,10 @@ msgstr ""
 =======
 "जब कोई इवेंट पूरा हो जाता है, तो वह अपने-आप इस स्टेज में चला जाएगा. जो इवेंट"
 " इस स्टेज में जाएंगे, वे अपने-आप हरे रंग के हो जाएंगे."
+>>>>>>> upstream/18.0
+=======
+"जब कोई इवेंट पूरा हो जाता है, तो वह अपने-आप इस स्टेज में चला जाएगा. जो इवेंट इस स्टेज में "
+"जाएंगे, वे अपने-आप हरे रंग के हो जाएंगे."
 >>>>>>> upstream/18.0
 =======
 "जब कोई इवेंट पूरा हो जाता है, तो वह अपने-आप इस स्टेज में चला जाएगा. जो इवेंट इस स्टेज में "
@@ -76043,9 +77181,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Every year we invite our community, partners and end-users to come and meet us! It's the ideal event to get together and present new features, roadmap of future versions, achievements of the software, workshops, training sessions, etc...\n"
 "            This event is also an opportunity to showcase our partners' case studies, methodology or developments. Be there and see directly from the source the features of the new version!"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -76428,6 +77569,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -76680,6 +77822,14 @@ msgid ""
 =======
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr ""
+"हम हर साल अपने ग्राहकों, सहयोगियों और उपयोगकर्ताओं को एक इवेंट में आमंत्रित करते हैं. यह इवेंट साथ मिलकर "
+"नई चीज़ें दिखाने के लिए सबसे अच्छा है, जैसे कि सॉफ़्टवेयर में क्या नया है, भविष्य में क्या आएगा, हमने क्या हासिल किया"
+" है, वर्कशॉप, और यहां ट्रेनिंग भी दी जाती है...\n"
+"            इस इवेंट में हमारे पार्टनर भी अपने काम के उदाहरण, काम करने के तरीके या नए विकास दिखाते हैं"
+". आप इस इवेंट में आकर नए वर्शन की सुविधाओं को सीधे जान सकते हैं!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
@@ -76689,6 +77839,12 @@ msgid ""
 "of future versions, achievements of the software, workshops, training "
 "sessions, etc...."
 msgstr ""
+<<<<<<< HEAD
+=======
+"हम हर साल अपने उपयोगकर्ताओं, सहयोगियों और ग्राहकों को एक इवेंट के लिए आमंत्रित करते हैं. यह इवेंट साथ मि"
+"लकर जुड़ने और सॉफ़्टवेयर की नई विशेषताओं, भविष्य की योजनाओं (रोडमैप), उपलब्धियों, वर्कशॉप, और ट्रेनिंग सेशन "
+"जैसी महत्वपूर्ण जानकारी देने के लिए सबसे बेहतर मौका होता है।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.type,name:event.event_type_0
@@ -76756,7 +77912,11 @@ msgid "Exhibition"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एग्ज़िबिशन"
+>>>>>>> upstream/18.0
 =======
 msgstr "एग्ज़िबिशन"
 >>>>>>> upstream/18.0
@@ -76950,7 +78110,11 @@ msgstr "एग्ज़िबिशन"
 #. module: event
 #: model:event.event,subtitle:event.event_3
 msgid "Experience live music, local food and beverages."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लाइव म्यूज़िक और बेहतरीन खान-पान का आनंद लें।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.stage,description:event.event_stage_done
@@ -76958,6 +78122,10 @@ msgid ""
 "Finished events. Odoo will automatically move them to this stage once their "
 "end date has passed."
 msgstr ""
+<<<<<<< HEAD
+=======
+"पूरे हो चुके इवेंट. अंतिम तारीख बीतने पर, Odoo अपने-आप इन्हें इस स्टेज में भेज देगा।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_stage__fold
@@ -77025,7 +78193,11 @@ msgid "Folded in Kanban"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कानबान में फ़ोल्ड किया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "कानबान में फ़ोल्ड किया गया"
 >>>>>>> upstream/18.0
@@ -77365,7 +78537,11 @@ msgid "Followers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़ॉलोवर"
+>>>>>>> upstream/18.0
 =======
 msgstr "फ़ॉलोवर"
 >>>>>>> upstream/18.0
@@ -77951,7 +79127,11 @@ msgid "Followers (Partners)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़ॉलोवर (पार्टनर)"
+>>>>>>> upstream/18.0
 =======
 msgstr "फ़ॉलोवर (पार्टनर)"
 >>>>>>> upstream/18.0
@@ -78537,7 +79717,11 @@ msgid "Font awesome icon e.g. fa-tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फॉन्ट के बेहतरीन आइकॉन जैसे, फा-टॉस्क"
+>>>>>>> upstream/18.0
 =======
 msgstr "फॉन्ट के बेहतरीन आइकॉन जैसे, फा-टॉस्क"
 >>>>>>> upstream/18.0
@@ -78994,7 +80178,11 @@ msgstr ""
 #. module: event
 #: model:event.event.ticket,description:event.event_0_ticket_1
 msgid "For only 10, you gain access to catering. Yum yum."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सिर्फ़ 10 में, आपको केटरिंग मिलेगी. यमी यमी।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
@@ -79010,17 +80198,26 @@ msgstr "स्वतंत्र"
 #. module: event
 #: model:event.event.ticket,description:event.event_0_ticket_0
 msgid "Free entrance, no food!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मुफ़्त प्रवेश, कोई खाना नहीं!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.stage,description:event.event_stage_new
 msgid "Freshly created"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "हाल ही में बनाया गया"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.action_registration
 #: model_terms:ir.actions.act_window,help:event.event_registration_action_stats_from_event
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -79654,21 +80851,40 @@ msgid ""
 "event registrations."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"From this dashboard you can report, analyze and detect trends regarding your "
+"event registrations."
+msgstr ""
+"इस डैशबोर्ड से आप अपने इवेंट रजिस्ट्रेशन से जुड़ी रिपोर्ट बना सकते हैं, विश्लेषण कर सकते हैं और ट्रेंड की पहचा"
+"न कर सकते हैं।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.report,name:event.action_report_event_registration_full_page_ticket
 msgid "Full Page Ticket"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़ुल पेज टिकट"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.report,name:event.action_report_event_event_full_page_ticket
 msgid "Full Page Ticket Example"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फुल पेज टिकट के उदाहरण"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_2
 msgid "Functional flow of the main applications;"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मुख्य ऐप्लिकेशन का फ़ंक्शनल फ़्लो;"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_search
@@ -79819,7 +81035,11 @@ msgid "Future Activities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ्यूचर ऐक्टिविटी"
+>>>>>>> upstream/18.0
 =======
 msgstr "फ्यूचर ऐक्टिविटी"
 >>>>>>> upstream/18.0
@@ -80259,22 +81479,38 @@ msgstr "फ्यूचर ऐक्टिविटी"
 #. module: event
 #: model:event.event.ticket,name:event.event_4_ticket_0
 msgid "General Admission"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जनरल एडमिशन"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__general_question_ids
 msgid "General Questions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सामान्य सवाल"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.event,subtitle:event.event_0
 msgid "Get Inspired • Stay Connected • Have Fun"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रेरणा लें • जुड़े रहें • मज़े करें"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail__mail_state
 msgid "Global communication Status"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ग्लोबल कम्यूनिकेशन स्टेटस"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
@@ -80342,7 +81578,11 @@ msgid "Google Maps"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Google Maps"
+>>>>>>> upstream/18.0
 =======
 msgstr "Google Maps"
 >>>>>>> upstream/18.0
@@ -80536,27 +81776,47 @@ msgstr "Google Maps"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_config_settings__google_maps_static_api_key
 msgid "Google Maps API key"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Google Maps एपीआई की"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_config_settings__google_maps_static_api_secret
 msgid "Google Maps API secret"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Google Maps एपीआई सीक्रेट"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_config_settings__use_google_maps_static_api
 msgid "Google Maps static API"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Google Maps स्टैटिक एपीआई"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.event,name:event.event_1
 msgid "Great Reno Ballon Race"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ग्रेट रेनो बैलून रेस"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:web_tour.tour,rainbow_man_message:event.event_tour
 msgid "Great! Now all you have to do is wait for your attendees to show up!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बहुत बढ़िया. अब आपको बस अपने उपस्थित लोगों के आने का इंतज़ार करना है!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_stage__legend_done
@@ -80624,7 +81884,11 @@ msgid "Green Kanban Label"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ग्रीन कानबान लेबल"
+>>>>>>> upstream/18.0
 =======
 msgstr "ग्रीन कानबान लेबल"
 >>>>>>> upstream/18.0
@@ -80881,7 +82145,11 @@ msgid "Grey Kanban Label"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ग्रे कानबान लेबल"
+>>>>>>> upstream/18.0
 =======
 msgstr "ग्रे कानबान लेबल"
 >>>>>>> upstream/18.0
@@ -81221,7 +82489,11 @@ msgid "Group By"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इन्होंने ग्रुप किया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इन्होंने ग्रुप किया"
 >>>>>>> upstream/18.0
@@ -81662,14 +82934,22 @@ msgstr "इन्होंने ग्रुप किया"
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Guest #"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेहमान #"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:res.partner,website_description:event.res_partner_event_1
 #: model_terms:res.partner,website_description:event.res_partner_event_3
 #: model_terms:res.partner,website_description:event.res_partner_event_4
 msgid "Happy to be Sponsor"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "स्पॉन्सर बनकर खुशी हुई"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__has_message
@@ -81820,7 +83100,11 @@ msgid "Has Message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैसेज है"
+>>>>>>> upstream/18.0
 =======
 msgstr "मैसेज है"
 >>>>>>> upstream/18.0
@@ -82260,17 +83544,29 @@ msgstr "मैसेज है"
 #. module: event
 #: model_terms:event.event,description:event.event_2
 msgid "Having attended this conference, participants should be able to:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कॉन्फ़्रेंस में भाग लेने के बाद, प्रतिभागी ये कर पाएँगे:"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_3
 msgid "Here it is, the 12th edition of our Live Musical Festival!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पेश है, हमारे लाइव म्यूजिकल फ़ेस्टिवल का 12वां एडिशन!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.event,name:event.event_5
 msgid "Hockey Tournament"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "हॉकी टूर्नामेंट"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
@@ -82339,7 +83635,11 @@ msgid "Home"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "घर"
+>>>>>>> upstream/18.0
 =======
 msgstr "घर"
 >>>>>>> upstream/18.0
@@ -82597,7 +83897,11 @@ msgid "Hours"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "घंटे"
+>>>>>>> upstream/18.0
 =======
 msgstr "घंटे"
 >>>>>>> upstream/18.0
@@ -82791,22 +84095,38 @@ msgstr "घंटे"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_report_template_foldable_badge
 msgid "How to Fold (1)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़ोल्ड कैसे करना है (1)"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_report_template_foldable_badge
 msgid "How to Fold (2)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़ोल्ड कैसे करना है (2)"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_report_template_foldable_badge
 msgid "How to Fold (3)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़ोल्ड कैसे करना है (3)"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_report_template_foldable_badge
 msgid "How to Fold (4)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़ोल्ड कैसे करना है (4)"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__id
@@ -82978,7 +84298,11 @@ msgid "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आईडी"
+>>>>>>> upstream/18.0
 =======
 msgstr "आईडी"
 >>>>>>> upstream/18.0
@@ -83591,7 +84915,11 @@ msgid "Icon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आइकॉन"
+>>>>>>> upstream/18.0
 =======
 msgstr "आइकॉन"
 >>>>>>> upstream/18.0
@@ -84032,7 +85360,11 @@ msgstr "आइकॉन"
 #. odoo-javascript
 #: code:addons/event/static/src/icon_selection_field/icon_selection_field.js:0
 msgid "Icon Selection"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आइकॉन सलेक्शन"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event__activity_exception_icon
@@ -84183,7 +85515,11 @@ msgid "Icon to indicate an exception activity."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एक छोटा निशान जो बताता है कि कुछ अलग या असामान्य हुआ है."
+>>>>>>> upstream/18.0
 =======
 msgstr "एक छोटा निशान जो बताता है कि कुछ अलग या असामान्य हुआ है."
 >>>>>>> upstream/18.0
@@ -84627,6 +85963,11 @@ msgid ""
 "propagated to every attendees.If not it will be asked for every attendee of "
 "a reservation."
 msgstr ""
+<<<<<<< HEAD
+=======
+"अगर सही है, तो यह सवाल सिर्फ़ एक बार पूछा जाएगा और इसका मान हर उपस्थित व्यक्ति को भेज दिया जाएगा. अगर "
+"नहीं, तो यह रिज़र्वेशन में शामिल हर उपस्थित व्यक्ति से पूछा जाएगा।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event__message_needaction
@@ -84777,7 +86118,11 @@ msgid "If checked, new messages require your attention."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगर यह बॉक्स चेक है, तो नए मैसेज देखने ज़रूरी हैं."
+>>>>>>> upstream/18.0
 =======
 msgstr "अगर यह बॉक्स चेक है, तो नए मैसेज देखने ज़रूरी हैं."
 >>>>>>> upstream/18.0
@@ -85365,7 +86710,11 @@ msgid "If checked, some messages have a delivery error."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगर बॉक्स पर टिक है, तो कुछ मैसेज भेजने में गलती हुई है."
+>>>>>>> upstream/18.0
 =======
 msgstr "अगर बॉक्स पर टिक है, तो कुछ मैसेज भेजने में गलती हुई है."
 >>>>>>> upstream/18.0
@@ -85807,11 +87156,19 @@ msgstr "अगर बॉक्स पर टिक है, तो कुछ म�
 msgid ""
 "If ticketing is used, contains the earliest starting sale date of tickets."
 msgstr ""
+<<<<<<< HEAD
+=======
+"अगर टिकट बेचे जाते हैं, तो इसमें टिकट की बिक्री शुरू होने की सबसे शुरुआती तारीख होती है।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,ticket_instructions:event.event_0
 msgid "If you don't have this ticket, you will <b>not</b> be allowed entry!"
 msgstr ""
+<<<<<<< HEAD
+=======
+"अगर आपके पास यह टिकट नहीं है, तो आपको <b>अंदर जाने</b> की अनुमति नहीं मिलेगी!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_5
@@ -85942,9 +87299,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If you don't know anything about Hockey, this is a great introduction to this wonderful sport as you will will be able to see some training process and also have some time\n"
 "                to chat with experienced players and trainers once the tournament is over!"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -86325,6 +87685,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -86577,6 +87938,12 @@ msgid ""
 =======
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr ""
+"अगर आप हॉकी के बारे में कुछ नहीं जानते हैं, तो इस शानदार खेल को जानने के लिए यह एक बेहतरीन मौका है. यहाँ "
+"आपको कुछ ट्रेनिंग प्रोसेस देखने को मिलेगी. साथ ही, टूर्नामेंट खत्म होने के बाद\n"
+"                अनुभवी खिलाड़ियों और ट्रेनर से बात करने का समय भी मिलेगा!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields.selection,name:event.selection__event_mail__interval_unit__now
@@ -86645,7 +88012,11 @@ msgid "Immediately"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "तुरंत"
+>>>>>>> upstream/18.0
 =======
 msgstr "तुरंत"
 >>>>>>> upstream/18.0
@@ -86839,7 +88210,11 @@ msgstr "तुरंत"
 #. module: event
 #: model_terms:event.event,ticket_instructions:event.event_0
 msgid "Important ticket information"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टिकट से जुड़ी ज़रूरी जानकारी"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
@@ -86858,12 +88233,20 @@ msgstr "प्रगति में है"
 msgid ""
 "Indicates the timezone in which the event dates/times will be displayed on "
 "the website."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वह समय क्षेत्र बताता है जिसमें इवेंट की तारीख/समय वेबसाइट पर दिखेंगे।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Insert dynamic Google Maps in your email templates"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अपने ईमेल टेम्प्लेट में डाइनैमिक Google Maps डालें"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
@@ -86932,7 +88315,11 @@ msgid "Install"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इंस्टॉल करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "इंस्टॉल करें"
 >>>>>>> upstream/18.0
@@ -87190,7 +88577,11 @@ msgid "Interval"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इंटरवल"
+>>>>>>> upstream/18.0
 =======
 msgstr "इंटरवल"
 >>>>>>> upstream/18.0
@@ -87384,34 +88775,58 @@ msgstr "इंटरवल"
 #. module: event
 #: model_terms:event.event,description:event.event_2
 msgid "Introduction, CRM, Sales Management"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इंट्रोडक्शन, सीआरएम, सेल्स मैनेजमेंट"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_registration.py:0
 msgid "Invalid event / ticket choice"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट / टिकट का गलत चुनाव"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_barcode.js:0
 msgid "Invalid ticket"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अमान्य टिकट"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__sale_available
 msgid "Is Available"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपलब्ध है"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__is_expired
 msgid "Is Expired"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "समय सीमा खत्म हुआ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__is_finished
 msgid "Is Finished"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "खत्म हो चुका है"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__message_is_follower
@@ -87562,7 +88977,11 @@ msgid "Is Follower"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़ॉलोवर है"
+>>>>>>> upstream/18.0
 =======
 msgstr "फ़ॉलोवर है"
 >>>>>>> upstream/18.0
@@ -88002,22 +89421,38 @@ msgstr "फ़ॉलोवर है"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__is_one_day
 msgid "Is One Day"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एक दिन वाला है"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__is_ongoing
 msgid "Is Ongoing"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चल रहा है"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_type__seats_max
 msgid "It will select this default maximum value when you choose this event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जब आप यह इवेंट चुनते हैं, तो यह डिफ़ॉल्ट अधिकतम मान चुना जाएगा"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_2
 msgid "John DOE"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जॉन डोई"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_report_template_foldable_badge
@@ -88050,7 +89485,11 @@ msgid "John Doe"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जॉन डोई"
+>>>>>>> upstream/18.0
 =======
 msgstr "जॉन डोई"
 >>>>>>> upstream/18.0
@@ -88139,19 +89578,31 @@ msgstr "जॉन डोई"
 #. module: event
 #: model_terms:event.event,description:event.event_1
 msgid "Join us for the greatest ballon race of all times!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "हमारे साथ अब तक की सबसे बड़ी बैलून रेस में शामिल हों!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_4
 #: model_terms:event.event,description:event.event_6
 #: model_terms:ir.ui.view,arch_db:event.event_default_descripton
 msgid "Join us for this 24 hours Event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस 24 घंटे वाले इवेंट में हमारे साथ शामिल हों"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
 msgid "Join us for this 3-day Event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस 3-दिन के इवेंट में हमारे साथ शामिल हों"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__legend_blocked
@@ -88219,7 +89670,11 @@ msgid "Kanban Blocked Explanation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कानबान ब्लॉक किए जाने की व्याख्या"
+>>>>>>> upstream/18.0
 =======
 msgstr "कानबान ब्लॉक किए जाने की व्याख्या"
 >>>>>>> upstream/18.0
@@ -88476,7 +89931,11 @@ msgid "Kanban Ongoing Explanation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कानबान ब्लॉक किए जाने की व्याख्या"
+>>>>>>> upstream/18.0
 =======
 msgstr "कानबान ब्लॉक किए जाने की व्याख्या"
 >>>>>>> upstream/18.0
@@ -88733,7 +90192,11 @@ msgid "Kanban State"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कानबान स्टेट"
+>>>>>>> upstream/18.0
 =======
 msgstr "कानबान स्टेट"
 >>>>>>> upstream/18.0
@@ -88990,7 +90453,11 @@ msgid "Kanban State Label"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कानबान स्टेट लेबल"
+>>>>>>> upstream/18.0
 =======
 msgstr "कानबान स्टेट लेबल"
 >>>>>>> upstream/18.0
@@ -89247,7 +90714,11 @@ msgid "Kanban Valid Explanation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कानबान मान्य होने की व्याख्या"
+>>>>>>> upstream/18.0
 =======
 msgstr "कानबान मान्य होने की व्याख्या"
 >>>>>>> upstream/18.0
@@ -89504,7 +90975,11 @@ msgid "Key"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कुंजी"
+>>>>>>> upstream/18.0
 =======
 msgstr "कुंजी"
 >>>>>>> upstream/18.0
@@ -89843,7 +91318,11 @@ msgid "Language"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "भाषा"
+>>>>>>> upstream/18.0
 =======
 msgstr "भाषा"
 >>>>>>> upstream/18.0
@@ -90346,7 +91825,11 @@ msgid "Last 30 days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पिछले 30 दिन"
+>>>>>>> upstream/18.0
 =======
 msgstr "पिछले 30 दिन"
 >>>>>>> upstream/18.0
@@ -90540,7 +92023,11 @@ msgstr "पिछले 30 दिन"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail__last_registration_id
 msgid "Last Attendee"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पिछला प्रतिभागी"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__write_uid
@@ -90703,7 +92190,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इन्होंने आखिरी बार अपडेट किया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इन्होंने आखिरी बार अपडेट किया"
 >>>>>>> upstream/18.0
@@ -91301,7 +92792,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आखिरी बार अपडेट हुआ"
+>>>>>>> upstream/18.0
 =======
 msgstr "आखिरी बार अपडेट हुआ"
 >>>>>>> upstream/18.0
@@ -91887,7 +93382,11 @@ msgid "Late Activities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लेट एक्टिविटी"
+>>>>>>> upstream/18.0
 =======
 msgstr "लेट एक्टिविटी"
 >>>>>>> upstream/18.0
@@ -92328,40 +93827,68 @@ msgstr "लेट एक्टिविटी"
 #. odoo-javascript
 #: code:addons/event/static/src/js/tours/event_tour.js:0
 msgid "Let's create your first <b>event</b>."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आइए, अपना पहला <b>इवेंट</b> बनाएं।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__seats_limited
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__seats_limited
 #: model:ir.model.fields,field_description:event.field_event_type_ticket__seats_limited
 msgid "Limit Attendees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रतिभागियों की संख्या सीमित करें"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
 #: model_terms:ir.ui.view,arch_db:event.view_event_type_form
 msgid "Limit Registrations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रजिस्ट्रेशन की संख्या सीमित करें"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_type__has_seats_limitation
 msgid "Limited Seats"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सीमित सीटें"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Live Broadcast"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लाइव ब्रॉडकास्ट"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_config_settings__module_website_event_track_live
 msgid "Live Mode"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लाइव मोड"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.event,name:event.event_3
 msgid "Live Music Festival"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लाइव म्यूज़िक फेस्टिवल"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields.selection,name:event.selection__event_mail__notification_type__mail
@@ -92432,7 +93959,11 @@ msgid "Mail"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेल"
+>>>>>>> upstream/18.0
 =======
 msgstr "मेल"
 >>>>>>> upstream/18.0
@@ -92626,38 +94157,66 @@ msgstr "मेल"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail__mail_registration_ids
 msgid "Mail Registration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेल रजिस्ट्रेशन"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__event_mail_ids
 #: model:ir.model.fields,field_description:event.field_event_type__event_type_mail_ids
 msgid "Mail Schedule"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेल शेड्यूल"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail_registration__scheduler_id
 msgid "Mail Scheduler"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेल शेड्यूलर"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.ui.menu,name:event.menu_event_mail_schedulers
 msgid "Mail Schedulers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेल शेड्यूलर"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model,name:event.model_event_type_mail
 msgid "Mail Scheduling on Event Category"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट कैटगरी पर मेल शेड्यूल करना"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail_registration__mail_sent
 msgid "Mail Sent"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेल भेजा गया"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Manage & publish a schedule with tracks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ट्रैक के साथ शेड्यूल मैनेज और प्रकाशित करें"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
@@ -92798,7 +94357,11 @@ msgid "Mandatory"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अनिवार्य"
+>>>>>>> upstream/18.0
 =======
 msgstr "अनिवार्य"
 >>>>>>> upstream/18.0
@@ -93271,7 +94834,11 @@ msgid "Mandatory Answer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ज़रूरी जवाब"
+>>>>>>> upstream/18.0
 =======
 msgstr "ज़रूरी जवाब"
 >>>>>>> upstream/18.0
@@ -93610,7 +95177,11 @@ msgid "Marc Demo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मार्क डेमो"
+>>>>>>> upstream/18.0
 =======
 msgstr "मार्क डेमो"
 >>>>>>> upstream/18.0
@@ -94050,7 +95621,11 @@ msgstr "मार्क डेमो"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_registration_tree
 msgid "Mark as Attending"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपस्थित के रूप में मार्क करें"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_registration_form
@@ -94118,7 +95693,11 @@ msgid "Marketing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मार्केटिंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "मार्केटिंग"
 >>>>>>> upstream/18.0
@@ -94333,7 +95912,11 @@ msgid "Maximum"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अधिकतम"
+>>>>>>> upstream/18.0
 =======
 msgstr "अधिकतम"
 >>>>>>> upstream/18.0
@@ -94403,17 +95986,29 @@ msgstr "अधिकतम"
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__seats_max
 #: model:ir.model.fields,field_description:event.field_event_type_ticket__seats_max
 msgid "Maximum Attendees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अधिकतम प्रतिभागी"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_type__seats_max
 msgid "Maximum Registrations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अधिकतम रजिस्ट्रेशन"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_tree
 msgid "Maximum Seats"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अधिकतम सीट"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__utm_medium_id
@@ -94482,7 +96077,11 @@ msgid "Medium"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मीडियम"
+>>>>>>> upstream/18.0
 =======
 msgstr "मीडियम"
 >>>>>>> upstream/18.0
@@ -94822,7 +96421,11 @@ msgid "Message Delivery error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैसेज डिलीवरी में गड़बड़ी"
+>>>>>>> upstream/18.0
 =======
 msgstr "मैसेज डिलीवरी में गड़बड़ी"
 >>>>>>> upstream/18.0
@@ -95408,7 +97011,11 @@ msgid "Months"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "महीने"
+>>>>>>> upstream/18.0
 =======
 msgstr "महीने"
 >>>>>>> upstream/18.0
@@ -95893,7 +97500,11 @@ msgid "Music"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "म्यूज़िक"
+>>>>>>> upstream/18.0
 =======
 msgstr "म्यूज़िक"
 >>>>>>> upstream/18.0
@@ -96233,7 +97844,11 @@ msgid "My Activity Deadline"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेरी गतिविधि की डेडलाइन"
+>>>>>>> upstream/18.0
 =======
 msgstr "मेरी गतिविधि की डेडलाइन"
 >>>>>>> upstream/18.0
@@ -96673,7 +98288,11 @@ msgstr "मेरी गतिविधि की डेडलाइन"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_search
 msgid "My Events"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेरे इवेंट"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
@@ -96841,7 +98460,11 @@ msgid "Next Activity Calendar Event"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगली गतिविधि कैलेंडर इवेंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "अगली गतिविधि कैलेंडर इवेंट"
 >>>>>>> upstream/18.0
@@ -97427,7 +99050,11 @@ msgid "Next Activity Deadline"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगली गतिविधि की डेडलाइन"
+>>>>>>> upstream/18.0
 =======
 msgstr "अगली गतिविधि की डेडलाइन"
 >>>>>>> upstream/18.0
@@ -98013,7 +99640,11 @@ msgid "Next Activity Summary"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगली गतिविधी की जानकारी"
+>>>>>>> upstream/18.0
 =======
 msgstr "अगली गतिविधी की जानकारी"
 >>>>>>> upstream/18.0
@@ -98599,7 +100230,11 @@ msgid "Next Activity Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगली गतिविधि का प्रकार"
+>>>>>>> upstream/18.0
 =======
 msgstr "अगली गतिविधि का प्रकार"
 >>>>>>> upstream/18.0
@@ -99102,7 +100737,11 @@ msgid "No Answers yet!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अभी तक कोई जवाब नहीं!"
+>>>>>>> upstream/18.0
 =======
 msgstr "अभी तक कोई जवाब नहीं!"
 >>>>>>> upstream/18.0
@@ -99296,7 +100935,11 @@ msgstr "अभी तक कोई जवाब नहीं!"
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.event_registration_action
 msgid "No Attendees expected yet!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अभी तक किसी प्रतिभागी की उम्मीद नहीं है!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.act_event_registration_from_event
@@ -99304,7 +100947,11 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:event.event_registration_action_kanban
 #: model_terms:ir.actions.act_window,help:event.event_registration_action_stats_from_event
 msgid "No Attendees yet!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अभी तक कोई भी प्रतिभागी नहीं!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_config_settings__barcode_nomenclature_id
@@ -99372,7 +101019,11 @@ msgid "Nomenclature"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नामपद्धति"
+>>>>>>> upstream/18.0
 =======
 msgstr "नामपद्धति"
 >>>>>>> upstream/18.0
@@ -99714,7 +101365,11 @@ msgid "Note"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ध्यान दें"
+>>>>>>> upstream/18.0
 =======
 msgstr "ध्यान दें"
 >>>>>>> upstream/18.0
@@ -100160,13 +101815,21 @@ msgstr "टिप्पणियाँ"
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.action_event_mail
 msgid "Nothing Scheduled yet!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अभी तक कुछ भी शेड्यूल नहीं है!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
 #: code:addons/event/static/src/js/tours/event_tour.js:0
 msgid "Now that your event is ready, click here to move it to another stage."
 msgstr ""
+<<<<<<< HEAD
+=======
+"अब जब आपका इवेंट तैयार है, तो इसे किसी और स्टेज पर ले जाने के लिए यहां क्लिक करें।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__message_needaction_counter
@@ -100317,7 +101980,11 @@ msgid "Number of Actions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कार्रवाई की संख्या"
+>>>>>>> upstream/18.0
 =======
 msgstr "कार्रवाई की संख्या"
 >>>>>>> upstream/18.0
@@ -100757,17 +102424,29 @@ msgstr "कार्रवाई की संख्या"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__seats_used
 msgid "Number of Attendees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रतिभागियों की संख्या"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__seats_reserved
 msgid "Number of Registrations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रजिस्ट्रेशन की संख्या"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__seats_taken
 msgid "Number of Taken Seats"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "भरी हुई सीटों की संख्या"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__message_has_error_counter
@@ -100918,7 +102597,11 @@ msgid "Number of errors"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गलतियों की संख्या"
+>>>>>>> upstream/18.0
 =======
 msgstr "गलतियों की संख्या"
 >>>>>>> upstream/18.0
@@ -101504,7 +103187,11 @@ msgid "Number of messages requiring action"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐसे मैसेज की संख्या जिनपर कार्रवाई करना ज़रूरी है"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐसे मैसेज की संख्या जिनपर कार्रवाई करना ज़रूरी है"
 >>>>>>> upstream/18.0
@@ -102090,7 +103777,11 @@ msgid "Number of messages with delivery error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐसे मैसेज की संख्या जिनमें डिलीवरी की गड़बड़ी है"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐसे मैसेज की संख्या जिनमें डिलीवरी की गड़बड़ी है"
 >>>>>>> upstream/18.0
@@ -102593,7 +104284,11 @@ msgid "Objectives"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उद्देश्य"
+>>>>>>> upstream/18.0
 =======
 msgstr "उद्देश्य"
 >>>>>>> upstream/18.0
@@ -102793,17 +104488,29 @@ msgstr ""
 #: model_terms:event.event,description:event.event_3
 msgid "Once again we assembled the most legendary bands in Rock history."
 msgstr ""
+<<<<<<< HEAD
+=======
+"हमने एक बार फिर रॉक इतिहास के सबसे दिग्गज बैंड को एक साथ इकट्ठा किया है।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
 #: model_terms:ir.ui.view,arch_db:event.view_event_type_form
 msgid "Once per Order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "हर ऑर्डर पर सिर्फ़ एक बार"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
 msgid "Ongoing Events"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चल रहे इवेंट"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.tag,name:event.event_tag_category_3_tag_1
@@ -102944,7 +104651,11 @@ msgid "Online"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑनलािन"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऑनलािन"
 >>>>>>> upstream/18.0
@@ -103354,32 +105065,53 @@ msgstr "ऑनलािन"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_kanban
 msgid "Online Event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑनलाइन इवेंट"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Online Exhibitors"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑनलाइन एक्ज़ीबिटर"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_config_settings__module_website_event_sale
 msgid "Online Ticketing"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑनलाइन टिकट की सुविधा"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
 msgid "Online if not set"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सेट न होने पर ऑनलाइन"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
 #: code:addons/event/static/src/js/tours/event_tour.js:0
 msgid "Open date range picker.<br/>Pick a Start and End date for your event."
 msgstr ""
+<<<<<<< HEAD
+=======
+"डेट रेंज पिकर खोलें.<br/>अपने इवेंट के लिए शुरू और खत्म होने की तारीख चुनें।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -104013,11 +105745,22 @@ msgid ""
 "event or change the dates on which it is held."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"OpenElec Applications reserves the right to cancel, re-name or re-locate the "
+"event or change the dates on which it is held."
+msgstr ""
+"OpenElec ऐप्लिकेशन के पास इवेंट को रद्द करने, उसका नाम बदलने या जगह बदलने या उसकी तारीखें बदलने का "
+"अधिकार सुरक्षित है।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.event,name:event.event_7
 msgid "OpenWood Collection Online Reveal"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "OpenWood Collection ऑनलाइन रिवील"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
@@ -104092,7 +105835,11 @@ msgid "Organizer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आयोजक"
+>>>>>>> upstream/18.0
 =======
 msgstr "आयोजक"
 >>>>>>> upstream/18.0
@@ -104289,6 +106036,10 @@ msgid ""
 "Our newest collection will be revealed online! Interact with us on our live "
 "streams!"
 msgstr ""
+<<<<<<< HEAD
+=======
+"हमारा सबसे नया कलेक्शन ऑनलाइन रिवील किया जाएगा! हमारे लाइव स्ट्रीम पर हमसे जुड़ें!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event__legend_blocked
@@ -104297,11 +106048,16 @@ msgid ""
 "Override the default value displayed for the blocked state for kanban "
 "selection."
 msgstr ""
+<<<<<<< HEAD
+=======
+"कानबन चयन के लिए ब्लॉक की गई स्थिति के लिए दिखाए गए डिफ़ॉल्ट मान को ओवरराइड करें।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event__legend_done
 #: model:ir.model.fields,help:event.field_event_stage__legend_done
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -104809,6 +106565,11 @@ msgid ""
 "Override the default value displayed for the done state for kanban selection."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"Override the default value displayed for the done state for kanban selection."
+msgstr ""
+"कानबन चयन के लिए 'पूरा हो गया' स्थिति के लिए दिखाए गए डिफ़ॉल्ट मान को ओवरराइड करें।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event__legend_normal
@@ -104817,6 +106578,10 @@ msgid ""
 "Override the default value displayed for the normal state for kanban "
 "selection."
 msgstr ""
+<<<<<<< HEAD
+=======
+"कानबन चयन के लिए सामान्य स्थिति के लिए दिखाए गए डिफ़ॉल्ट मान को ओवरराइड करें।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
@@ -104884,7 +106649,11 @@ msgid "Participant"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रतिभागी"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्रतिभागी"
 >>>>>>> upstream/18.0
@@ -105221,7 +106990,11 @@ msgid "Phone"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़ोन"
+>>>>>>> upstream/18.0
 =======
 msgstr "फ़ोन"
 >>>>>>> upstream/18.0
@@ -105694,7 +107467,11 @@ msgid "Phone number"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़ोन नंबर"
+>>>>>>> upstream/18.0
 =======
 msgstr "फ़ोन नंबर"
 >>>>>>> upstream/18.0
@@ -105889,24 +107666,40 @@ msgstr "फ़ोन नंबर"
 #: model_terms:event.event,ticket_instructions:event.event_0
 msgid ""
 "Please come <b>at least</b> 30 minutes before the beginning of the event."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कृपया इवेंट शुरू होने से <b>कम से कम</b> 30 मिनट पहले आएं।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/res_config_settings.py:0
 msgid "Please enter a valid base64 secret"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कृपया एक मान्य base64 सीक्रेट दर्ज करें"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_barcode.js:0
 msgid "Please, Scan again!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कृपया, फिर से स्कैन करें!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_2
 msgid "Point of Sale (POS), Introduction to report customization."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पॉइंट ऑफ़ सेल (पीओएस), रिपोर्ट कस्टमाइज़ेशन का परिचय।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
@@ -105974,7 +107767,11 @@ msgid "Program"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रोग्राम"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्रोग्राम"
 >>>>>>> upstream/18.0
@@ -106147,7 +107944,11 @@ msgstr "प्रोग्राम"
 #. module: event
 #: model_terms:event.event,description:event.event_2
 msgid "Project management, Human resources, Contract management."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रोजेक्ट मैनेजमेंट, मानव संसाधन, कॉन्ट्रैक्ट मैनेजमेंट।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__registration_properties
@@ -106291,7 +108092,11 @@ msgid "Properties"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रॉपर्टीज़"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्रॉपर्टीज़"
 >>>>>>> upstream/18.0
@@ -106713,7 +108518,11 @@ msgstr "प्रॉपर्टीज़"
 #. module: event
 #: model_terms:event.event,description:event.event_2
 msgid "Purchase, Sales &amp; Purchase management, Financial accounting."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "परचेज़, सेल्स &amp; परचेज़ मैनेजमेंट, फ़ाइनेंशियल अकाउंटिंग।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.attendee_list
@@ -106866,7 +108675,11 @@ msgid "QR Code"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "क्यूआर को"
+>>>>>>> upstream/18.0
 =======
 msgstr "क्यूआर को"
 >>>>>>> upstream/18.0
@@ -107372,7 +109185,11 @@ msgid "Question"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सवाल"
+>>>>>>> upstream/18.0
 =======
 msgstr "सवाल"
 >>>>>>> upstream/18.0
@@ -107567,13 +109384,21 @@ msgstr "सवाल"
 #: model:ir.model.fields,field_description:event.field_event_question__question_type
 #: model:ir.model.fields,field_description:event.field_event_registration_answer__question_type
 msgid "Question Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सवाल के प्रकार"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_question.py:0
 msgid "Question cannot be linked to both an Event and an Event Type."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सवाल को किसी इवेंट और इवेंट प्रकार दोनों से नहीं जोड़ा जा सकता।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__question_ids
@@ -107645,7 +109470,11 @@ msgid "Questions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सवाल"
+>>>>>>> upstream/18.0
 =======
 msgstr "सवाल"
 >>>>>>> upstream/18.0
@@ -107839,7 +109668,11 @@ msgstr "सवाल"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_config_settings__module_website_event_track_quiz
 msgid "Quiz on Tracks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ट्रैक पर क्विज़"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__rating_ids
@@ -107990,7 +109823,11 @@ msgid "Ratings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रेटिंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "रेटिंग"
 >>>>>>> upstream/18.0
@@ -108499,7 +110336,11 @@ msgid "Ready for Next Stage"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगले स्टेज के लिए तैयार"
+>>>>>>> upstream/18.0
 =======
 msgstr "अगले स्टेज के लिए तैयार"
 >>>>>>> upstream/18.0
@@ -108695,6 +110536,10 @@ msgstr "अगले स्टेज के लिए तैयार"
 #: code:addons/event/static/src/js/tours/event_tour.js:0
 msgid "Ready to <b>organize events</b> in a few minutes? Let's get started!"
 msgstr ""
+<<<<<<< HEAD
+=======
+"क्या आप कुछ ही मिनटों में <b>इवेंट आयोजित करने</b> के लिए तैयार हैं? आइए शुरू करें!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_stage__legend_blocked
@@ -108762,7 +110607,11 @@ msgid "Red Kanban Label"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रेड कानबान लेबल"
+>>>>>>> upstream/18.0
 =======
 msgstr "रेड कानबान लेबल"
 >>>>>>> upstream/18.0
@@ -109022,7 +110871,11 @@ msgid "Registered"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रजिस्टर किया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "रजिस्टर किया गया"
 >>>>>>> upstream/18.0
@@ -109287,7 +111140,11 @@ msgid "Registration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रजिस्ट्रेशन"
+>>>>>>> upstream/18.0
 =======
 msgstr "रजिस्ट्रेशन"
 >>>>>>> upstream/18.0
@@ -109546,7 +111403,11 @@ msgid "Registration Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रजिस्ट्रेशन की तारीख"
+>>>>>>> upstream/18.0
 =======
 msgstr "रजिस्ट्रेशन की तारीख"
 >>>>>>> upstream/18.0
@@ -109743,58 +111604,102 @@ msgstr "रजिस्ट्रेशन की तारीख"
 #: model:res.groups,name:event.group_event_registration_desk
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
 msgid "Registration Desk"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रजिस्ट्रेशन डेस्क"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__end_sale_datetime
 msgid "Registration End"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रजिस्ट्रेशन बंद"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
 msgid "Registration ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रजिस्ट्रेशन आईडी"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model,name:event.model_event_mail_registration
 msgid "Registration Mail Scheduler"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रजिस्ट्रेशन मेल शेड्यूलर"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_mail_form
 msgid "Registration Mails"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रजिस्ट्रेशन मेल"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__registration_properties_definition
 msgid "Registration Properties"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रजिस्ट्रेशन प्रॉपर्टीज़"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__start_sale_datetime
 msgid "Registration Start"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रजिस्ट्रेशन शुरू"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_ticket.py:0
 msgid "Registration for %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s के लिए रजिस्ट्रेशन"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_mail_form
 msgid "Registration mail"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रजिस्ट्रेशन मेल"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__event_registrations_open
 msgid "Registration open"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रजिस्ट्रेशन खुला है"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.act_window,name:event.event_registration_action_stats_from_event
 msgid "Registration statistics"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रजिस्ट्रेशन से जुड़े आंकड़ें"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__registration_ids
@@ -109862,7 +111767,11 @@ msgid "Registrations"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रजिस्ट्रेशन"
+>>>>>>> upstream/18.0
 =======
 msgstr "रजिस्ट्रेशन"
 >>>>>>> upstream/18.0
@@ -110061,11 +111970,22 @@ msgid ""
 "- there are seats available on event\n"
 "- the tickets are sellable (if ticketing is used)"
 msgstr ""
+<<<<<<< HEAD
+=======
+"रजिस्ट्रेशन खुले हैं, अगर:\n"
+"- इवेंट खत्म नहीं हुआ है\n"
+"- इवेंट में सीटें उपलब्ध हैं\n"
+"- टिकट बेचने योग्य हैं (अगर टिकटिंग का इस्तेमाल किया जाता है)"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__event_registrations_started
 msgid "Registrations started"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रजिस्ट्रेशन शुरू हो चुका है"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.ui.menu,name:event.menu_reporting_events
@@ -110215,7 +112135,11 @@ msgid "Reporting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिपोर्टिंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "रिपोर्टिंग"
 >>>>>>> upstream/18.0
@@ -110655,7 +112579,11 @@ msgstr "रिपोर्टिंग"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__seats_reserved
 msgid "Reserved Seats"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिज़र्व की गई सीटें"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_registration_view_kanban
@@ -110823,7 +112751,11 @@ msgid "Responsible User"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जिम्मेदार उपयोगकर्ता"
+>>>>>>> upstream/18.0
 =======
 msgstr "जिम्मेदार उपयोगकर्ता"
 >>>>>>> upstream/18.0
@@ -111263,7 +113195,11 @@ msgstr "जिम्मेदार उपयोगकर्ता"
 #. module: event
 #: model:ir.actions.report,name:event.action_report_event_registration_responsive_html_ticket
 msgid "Responsive Html Full Page Ticket"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिस्पॉन्सिव एचटीएमएल फुल पेज टिकट"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_report_template_formatted_event_address
@@ -111424,7 +113360,11 @@ msgid "SMS Delivery error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एसएमएस डिलीवरी में गड़बड़ी"
+>>>>>>> upstream/18.0
 =======
 msgstr "एसएमएस डिलीवरी में गड़बड़ी"
 >>>>>>> upstream/18.0
@@ -111865,17 +113805,29 @@ msgstr "एसएमएस डिलीवरी में गड़बड़ी
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_barcode.xml:0
 msgid "Scan or Tap"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "स्कैन करें या टैप करें"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Schedule & Tracks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "शेड्यूल और ट्रैक करें"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail__scheduled_date
 msgid "Schedule Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "तारीख शेड्यूल करें"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.action_event_view
@@ -111883,6 +113835,11 @@ msgid ""
 "Schedule and organize your events: handle registrations, send automated "
 "confirmation emails, sell tickets, etc."
 msgstr ""
+<<<<<<< HEAD
+=======
+"अपने इवेंट शेड्यूल और व्यवस्थित करें: रजिस्ट्रेशन संभालें, अपने-आप भेजे जाने वाले कन्फ़र्मेशन ईमेल भेजें, टिकट "
+"बेचें, वगैरह।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields.selection,name:event.selection__event_mail__mail_state__scheduled
@@ -111908,7 +113865,11 @@ msgid "Scheduled"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "शेड्यूल किया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "शेड्यूल किया गया"
 >>>>>>> upstream/18.0
@@ -111976,17 +113937,29 @@ msgstr "शेड्यूल किया गया"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail_registration__scheduled_date
 msgid "Scheduled Time"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "तय किया गया समय"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__mail_registration_ids
 msgid "Scheduler Emails"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "शेड्यूलर ईमेल"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_5
 msgid "Seasoned Hockey Fans and curious people, this tournament is for you!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पुराने हॉकी फ़ैन्स और जिज्ञासु लोगों, यह टूर्नामेंट आपके लिए है!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
@@ -112054,7 +114027,11 @@ msgid "Secret"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सीक्रेट"
+>>>>>>> upstream/18.0
 =======
 msgstr "सीक्रेट"
 >>>>>>> upstream/18.0
@@ -112249,18 +114226,30 @@ msgstr "सीक्रेट"
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_barcode.xml:0
 msgid "Select Attendee"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रतिभागी चुनें"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Select printer..."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रिंटर चुनें..।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_registration_answer_view_tree
 msgid "Selected answer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चुना गया जवाब"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields.selection,name:event.selection__event_question__question_type__simple_choice
@@ -112328,7 +114317,11 @@ msgid "Selection"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सलेक्शन"
+>>>>>>> upstream/18.0
 =======
 msgstr "सलेक्शन"
 >>>>>>> upstream/18.0
@@ -112522,17 +114515,29 @@ msgstr "सलेक्शन"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Sell tickets on your website"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अपनी वेबसाइट पर टिकट बेचें"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Sell tickets with Point of Sale"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पॉइंट ऑफ़ सेल की मदद से टिकट बेचें"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Sell tickets with sales orders"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सेल्स ऑर्डर के ज़रिए टिकट बेचें"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail__notification_type
@@ -112683,7 +114688,11 @@ msgid "Send"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "भेजें"
+>>>>>>> upstream/18.0
 =======
 msgstr "भेजें"
 >>>>>>> upstream/18.0
@@ -113123,7 +115132,11 @@ msgstr "भेजें"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_registration_form
 msgid "Send by Email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ईमेल के ज़रिए भेजें"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail__mail_done
@@ -113275,7 +115288,11 @@ msgid "Sent"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "भेजा गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "भेजा गया"
 >>>>>>> upstream/18.0
@@ -113717,11 +115734,19 @@ msgstr "भेजा गया"
 msgid ""
 "Sent automatically to attendees if there is a reminder defined on the event"
 msgstr ""
+<<<<<<< HEAD
+=======
+"अगर इवेंट पर कोई रिमाइंडर तय किया गया है, तो यह अपने-आप प्रतिभागी को भेजा जाता है"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:mail.template,description:event.event_registration_mail_template_badge
 msgid "Sent automatically to someone after they registered to an event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "किसी इवेंट के लिए रजिस्ट्रेशन करने के बाद, यह अपने-आप भेजा जाता है"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:mail.template,description:event.event_subscription
@@ -113913,7 +115938,11 @@ msgid "Sent to attendees after registering to an event"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट में रजिस्ट्रेशन के बाद लोगों को ये भेजा जाता है"
+>>>>>>> upstream/18.0
 =======
 msgstr "इवेंट में रजिस्ट्रेशन के बाद लोगों को ये भेजा जाता है"
 >>>>>>> upstream/18.0
@@ -114500,6 +116529,11 @@ msgid ""
 "Shangai Pterocarpus Furniture brings honesty and seriousness to wood "
 "industry while helping customers deal with trees, flowers and fungi."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Shangai Pterocarpus Furniture ईमानदारी से लकड़ी का काम करता है. साथ ही, ग्राहकों को पेड़, फूल और "
+"फंगी से जुड़ी चीज़ों में मदद करता है।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_search
@@ -114574,7 +116608,11 @@ msgid "Sold Out"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अब उपलब्ध नहीं है"
+>>>>>>> upstream/18.0
 =======
 msgstr "अब उपलब्ध नहीं है"
 >>>>>>> upstream/18.0
@@ -114832,7 +116870,11 @@ msgid "Source"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सोर्स"
+>>>>>>> upstream/18.0
 =======
 msgstr "सोर्स"
 >>>>>>> upstream/18.0
@@ -115026,7 +117068,11 @@ msgstr "सोर्स"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__specific_question_ids
 msgid "Specific Questions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "खास सवाल"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.tag,name:event.event_tag_category_2_tag_3
@@ -115095,7 +117141,11 @@ msgid "Sport"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "खेल"
+>>>>>>> upstream/18.0
 =======
 msgstr "खेल"
 >>>>>>> upstream/18.0
@@ -115295,7 +117345,11 @@ msgstr "चरण"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_stage_view_form
 msgid "Stage Description and Tooltips"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "स्टेज की जानकारी और टूलटिप्स"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_stage__name
@@ -115363,7 +117417,11 @@ msgid "Stage Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "स्टेज का नाम"
+>>>>>>> upstream/18.0
 =======
 msgstr "स्टेज का नाम"
 >>>>>>> upstream/18.0
@@ -115557,7 +117615,11 @@ msgstr "स्टेज का नाम"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_stage__description
 msgid "Stage description"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "स्टेज की जानकारी"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.event.ticket,name:event.event_0_ticket_1
@@ -115628,7 +117690,11 @@ msgid "Standard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "स्टैंडर्ड"
+>>>>>>> upstream/18.0
 =======
 msgstr "स्टैंडर्ड"
 >>>>>>> upstream/18.0
@@ -115833,24 +117899,40 @@ msgstr ""
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__start_sale_datetime
 msgid "Start sale date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बिक्री शुरू होने की तारीख"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_partner__static_map_url
 #: model:ir.model.fields,field_description:event.field_res_users__static_map_url
 msgid "Static Map Url"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "स्टैटिक मैप यूआरएल"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_partner__static_map_url_is_valid
 #: model:ir.model.fields,field_description:event.field_res_users__static_map_url_is_valid
 msgid "Static Map Url Is Valid"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "स्टैटिक मैप यूआरएल सही है"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
 msgid "Stats"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आंकड़ें"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__state
@@ -116012,7 +118094,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -116449,6 +118534,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -116743,12 +118831,20 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Successfully registered!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रजिस्ट्रेशन हो चुका है!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration_answer__value_answer_id
 msgid "Suggested answer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सुझाया गया जवाब"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_tag__color
@@ -116756,6 +118852,11 @@ msgid ""
 "Tag color. No color means no display in kanban or front-end, to distinguish "
 "internal tags from public categorization tags."
 msgstr ""
+<<<<<<< HEAD
+=======
+"टैग का रंग. कोई रंग न होने का मतलब है कि कानबन या फ़्रंट-एंड में कोई डिसप्ले नहीं होगा, ताकि इंटरनल टैग को "
+"सार्वजनिक कैटेगराइज़ेशन टैग से अलग किया जा सके।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__tag_ids
@@ -116831,7 +118932,11 @@ msgid "Taken"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ली गई"
+>>>>>>> upstream/18.0
 =======
 msgstr "ली गई"
 >>>>>>> upstream/18.0
@@ -117025,17 +119130,29 @@ msgstr "ली गई"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__seats_taken
 msgid "Taken Seats"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सीटें भर गई हैं"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_stage_view_form
 msgid "Task in progress. Click to block or set as done."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टास्क जारी है. ब्लॉक करने या 'हो गया' सेट करने के लिए क्लिक करें।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_stage_view_form
 msgid "Task is blocked. Click to unblock or set as done."
 msgstr ""
+<<<<<<< HEAD
+=======
+"टास्क ब्लॉक किया गया है. अनब्लॉक करने या 'हो गया' सेट करने के लिए क्लिक करें।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__event_type_id
@@ -117107,7 +119224,11 @@ msgid "Template"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टेंप्लेट"
+>>>>>>> upstream/18.0
 =======
 msgstr "टेंप्लेट"
 >>>>>>> upstream/18.0
@@ -117301,12 +119422,20 @@ msgstr "टेंप्लेट"
 #. module: event
 #: model:ir.model.fields.selection,name:event.selection__event_question__question_type__text_box
 msgid "Text Input"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टेक्स्ट इनपुट"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration_answer__value_text_box
 msgid "Text answer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टेक्स्ट के जवाब"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.event,subtitle:event.event_1
@@ -117314,6 +119443,10 @@ msgid ""
 "The Great Reno Balloon Race is the world's largest free hot-air ballooning "
 "event."
 msgstr ""
+<<<<<<< HEAD
+=======
+"द ग्रेट रेनो बलून रेस दुनिया का सबसे बड़ा मुफ़्त हॉट-एयर बलूनिंग इवेंट है।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_5
@@ -117321,6 +119454,10 @@ msgid ""
 "The best Hockey teams of the country will compete for the national Hockey "
 "trophy."
 msgstr ""
+<<<<<<< HEAD
+=======
+"देश की सबसे अच्छी हॉकी टीमें राष्ट्रीय हॉकी ट्रॉफ़ी के लिए मुकाबला करेंगी।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_1
@@ -117328,22 +119465,39 @@ msgid ""
 "The best aeronauts of the world will gather on this event to offer you the "
 "most spectacular show."
 msgstr ""
+<<<<<<< HEAD
+=======
+"दुनिया के सबसे अच्छे वैमानिक (हॉट-एयर बलून उड़ाने वाले विशेषज्ञ) इस इवेंट में इकट्ठा होंगे, ताकि आपको सबसे शानदा"
+"र शो दिखा सकें।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_event.py:0
 msgid "The closing date cannot be earlier than the beginning date."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "समाप्ति की तारीख, शुरुआत की तारीख से पहले नहीं हो सकती।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.stage,description:event.event_stage_cancelled
 msgid "The event has been cancelled"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट रद्द कर दिया गया है"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.stage,description:event.event_stage_announced
 msgid "The event has been publicly announced"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट का सार्वजनिक रूप से ऐलान कर दिया गया है"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event__event_registrations_sold_out
@@ -117351,18 +119505,28 @@ msgid ""
 "The event is sold out if no more seats are available on event. If ticketing "
 "is used and all tickets are sold out, the event will be sold out."
 msgstr ""
+<<<<<<< HEAD
+=======
+"अगर इवेंट में कोई सीट खाली नहीं है, तो इवेंट 'सोल्ड आउट' माना जाएगा. अगर टिकट बेचे जा रहे हैं और सभी टिकट "
+"बिक गए हैं, तो इवेंट 'सोल्ड आउट' हो जाएगा।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_7
 msgid ""
 "The finest OpenWood furnitures are coming to your house in a brand new "
 "collection"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सबसे बेहतरीन OpenWood फ़र्नीचर, बिलकुल नए कलेक्शन में आपके घर आ रहे हैं"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_ticket.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -117996,16 +120160,29 @@ msgid ""
 >>>>>>> upstream/18.0
 "- %s"
 msgstr ""
+=======
+"The following tickets cannot be deleted while they have one or more "
+"registrations linked to them:\n"
+"- %s"
+msgstr ""
+"नीचे दिए गए टिकट को तब तक नहीं मिटाया जा सकता, जब तक उनसे एक या ज़्यादा रजिस्ट्रेशन जुड़े हुए हैं:\n"
+"- %s"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_1
 msgid "The safety of our attendees and our aeronauts comes first!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "हमारे प्रतिभागियों और वैमानिकों की सुरक्षा सबसे पहले है!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_ticket.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -118639,6 +120816,12 @@ msgid ""
 "(ticket_name)s"
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"The stop date cannot be earlier than the start date. Please check ticket %"
+"(ticket_name)s"
+msgstr ""
+"समाप्ति की तारीख, शुरू होने की तारीख से पहले नहीं हो सकती. कृपया टिकट %(ticket_name)s की जांच करें"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
@@ -118650,7 +120833,11 @@ msgstr ""
 #. module: event
 #: model:ir.model.constraint,message:event.constraint_event_registration_answer_value_check
 msgid "There must be a suggested value or a text value."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सुझाया गया मान या फिर टेक्स्ट मान ज़रूरी है।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
@@ -118659,10 +120846,16 @@ msgid ""
 "methodology or developments. Be there and see directly from the source the "
 "features of the version 12!"
 msgstr ""
+<<<<<<< HEAD
+=======
+"यह इवेंट हमारे पार्टनर के केस स्टडी, कार्यप्रणाली या डेवलपमेंट दिखाने का भी एक मौका है. वहां मौजूद रहें और वर्"
+"शन 12 की सुविधाएं सीधे सोर्स से देखें!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_7
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -119042,6 +121235,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "This event is fully online and FREE, if you have paid for tickets, you "
 "should get a refund.<br>\n"
 "        It will require a good Internet connection to get the best video "
@@ -119171,6 +121366,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -119423,18 +121619,32 @@ msgid ""
 =======
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr ""
+"यह इवेंट पूरी तरह से ऑनलाइन और मुफ़्त है. अगर आपने टिकटों के लिए भुगतान किया है, तो आपको रिफ़ंड मिलना "
+"चाहिए.<br>\n"
+"        सबसे अच्छी वीडियो क्वालिटी पाने के लिए अच्छी इंटरनेट कनेक्शन ज़रूरी है।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event__ticket_instructions
 #: model:ir.model.fields,help:event.field_event_type__ticket_instructions
 msgid "This information will be printed on your tickets."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यह जानकारी आपके टिकटों पर प्रिंट की जाएगी।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
 #: code:addons/event/static/src/js/tours/event_tour.js:0
 msgid "This is the <b>name</b> your guests will see when registering."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यह वह <b>नाम</b> है जिसे रजिस्ट्रेशन करते समय आपके मेहमान देखेंगे।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_1
@@ -119442,6 +121652,11 @@ msgid ""
 "This is the perfect place for spending a nice day with your family, we "
 "guarantee you will be leaving with beautiful everlasting memories!"
 msgstr ""
+<<<<<<< HEAD
+=======
+"यह आपके परिवार के साथ एक अच्छा दिन बिताने के लिए सही जगह है. हम गारंटी देते हैं कि आप ख़ूबसूरत, हमेशा रहने"
+" वाली यादें लेकर जाएंगे!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_3
@@ -119449,6 +121664,11 @@ msgid ""
 "This is the perfect place for spending a nice time with your friends while "
 "listening to some of the most iconic rock songs of all times!"
 msgstr ""
+<<<<<<< HEAD
+=======
+"यह आपके दोस्तों के साथ अच्छा समय बिताने के लिए सही जगह है. यहां आप हर दौर के सबसे मशहूर रॉक गाने सुन "
+"सकते हैं!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
@@ -119460,18 +121680,30 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:event.event_stage_view_form
 msgid "This step is done. Click to block or set in progress."
 msgstr ""
+<<<<<<< HEAD
+=======
+"यह स्टेप पूरा हो गया है. ब्लॉक करने या प्रगति में सेट करने के लिए क्लिक करें।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "This ticket is for another event!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यह टिकट किसी और इवेंट के लिए है!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "This ticket is not for an ongoing event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यह टिकट चल रहे इवेंट के लिए नहीं है"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
@@ -119542,7 +121774,11 @@ msgid "Ticket"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टिकट"
+>>>>>>> upstream/18.0
 =======
 msgstr "टिकट"
 >>>>>>> upstream/18.0
@@ -119739,7 +121975,11 @@ msgstr "टिकट"
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
 #: model_terms:ir.ui.view,arch_db:event.view_event_type_form
 msgid "Ticket Instructions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टिकट से जुड़े निर्देश"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
@@ -119811,7 +122051,11 @@ msgid "Ticket Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टिकट टाइप"
+>>>>>>> upstream/18.0
 =======
 msgstr "टिकट टाइप"
 >>>>>>> upstream/18.0
@@ -120006,7 +122250,11 @@ msgstr "टिकट टाइप"
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Ticket already scanned!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टिकट पहले ही स्कैन किया जा चुका है!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.attendee_list
@@ -120074,7 +122322,11 @@ msgid "Ticket type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टिकट टाइप"
+>>>>>>> upstream/18.0
 =======
 msgstr "टिकट टाइप"
 >>>>>>> upstream/18.0
@@ -120272,6 +122524,10 @@ msgid ""
 "Ticket types allow you to distinguish your attendees. Let's <b>create</b> a "
 "new one."
 msgstr ""
+<<<<<<< HEAD
+=======
+"टिकट प्रकारों से आप अपने प्रतिभागियों को अलग-अलग पहचान सकते हैं. आइए, एक नया <b>बनाएं</b>।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
@@ -120344,7 +122600,11 @@ msgid "Tickets"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टिकट"
+>>>>>>> upstream/18.0
 =======
 msgstr "टिकट"
 >>>>>>> upstream/18.0
@@ -120539,16 +122799,28 @@ msgstr "टिकट"
 #: model_terms:event.event,ticket_instructions:event.event_0
 msgid "Tickets can be printed or scanned directly from your phone."
 msgstr ""
+<<<<<<< HEAD
+=======
+"टिकटों को प्रिंट किया जा सकता है या सीधे आपके फ़ोन से स्कैन किया जा सकता है।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_config_settings__module_pos_event
 msgid "Tickets with PoS"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पीओएस के साथ टिकट"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_config_settings__module_event_sale
 msgid "Tickets with Sale"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सेल के साथ टिकट"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_type__default_timezone
@@ -120616,7 +122888,11 @@ msgid "Timezone"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टाइमज़ोन"
+>>>>>>> upstream/18.0
 =======
 msgstr "टाइमज़ोन"
 >>>>>>> upstream/18.0
@@ -120945,7 +123221,11 @@ msgid "Title"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टाइटल"
+>>>>>>> upstream/18.0
 =======
 msgstr "टाइटल"
 >>>>>>> upstream/18.0
@@ -121498,7 +123778,11 @@ msgid "Today Activities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आज की गतिविधियां"
+>>>>>>> upstream/18.0
 =======
 msgstr "आज की गतिविधियां"
 >>>>>>> upstream/18.0
@@ -122072,7 +124356,11 @@ msgid "Total"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कुल"
+>>>>>>> upstream/18.0
 =======
 msgstr "कुल"
 >>>>>>> upstream/18.0
@@ -122503,17 +124791,29 @@ msgstr "कुल"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_tree
 msgid "Total Attendees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कुल प्रतिभागी"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
 msgid "Total Registrations for this Event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस इवेंट के लिए कुल रजिस्ट्रेशन"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_config_settings__module_website_event_track
 msgid "Tracks and Agenda"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ट्रैक्स और एजेंडा"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.type,name:event.event_type_1
@@ -122581,7 +124881,11 @@ msgid "Training"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ट्रेनिंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "ट्रेनिंग"
 >>>>>>> upstream/18.0
@@ -122778,6 +125082,11 @@ msgid ""
 "Tree Dealers brings honesty and seriousness to wood industry while helping "
 "customers deal with trees, flowers and fungi."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Tree Dealers, लकड़ी उद्योग में ईमानदारी लाता है. साथ ही, ग्राहकों को पेड़, फूल और फंगस से संबंधित कामों में "
+"मदद करता है।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_type_mail__interval_type
@@ -122924,7 +125233,11 @@ msgid "Trigger"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ट्रिगर"
+>>>>>>> upstream/18.0
 =======
 msgstr "ट्रिगर"
 >>>>>>> upstream/18.0
@@ -123376,7 +125689,11 @@ msgid "Trigger "
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ट्रिगर "
+>>>>>>> upstream/18.0
 =======
 msgstr "ट्रिगर "
 >>>>>>> upstream/18.0
@@ -123594,7 +125911,11 @@ msgid "Type of the exception activity on record."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिकॉर्ड में जो अलग तरह की गतिविधि हुई है, वह किस तरह की है."
+>>>>>>> upstream/18.0
 =======
 msgstr "रिकॉर्ड में जो अलग तरह की गतिविधि हुई है, वह किस तरह की है."
 >>>>>>> upstream/18.0
@@ -124089,7 +126410,11 @@ msgid "Unconfirmed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अभी पुष्टि नहीं हुई है"
+>>>>>>> upstream/18.0
 =======
 msgstr "अभी पुष्टि नहीं हुई है"
 >>>>>>> upstream/18.0
@@ -124283,6 +126608,7 @@ msgstr "अभी पुष्टि नहीं हुई है"
 #. module: event
 #: model:ir.model.fields,help:event.field_event_registration__state
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -124914,6 +127240,10 @@ msgid ""
 "Unconfirmed: registrations in a pending state waiting for an action "
 "(specific case, notably with sale status)\n"
 >>>>>>> upstream/18.0
+=======
+"Unconfirmed: registrations in a pending state waiting for an action "
+"(specific case, notably with sale status)\n"
+>>>>>>> upstream/18.0
 "Registered: registrations considered taken by a client\n"
 "Attended: registrations for which the attendee attended the event\n"
 "Cancelled: registrations cancelled manually"
@@ -124981,7 +127311,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -125173,6 +127506,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -125305,11 +127641,19 @@ msgid ""
 "Under this technical menu you will find all scheduled communication related "
 "to your events."
 msgstr ""
+<<<<<<< HEAD
+=======
+"इस तकनीकी मेन्यू के तहत आपको अपने इवेंट से जुड़ी सभी शेड्यूल की गई बातचीत मिलेगी।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_2
 msgid "Understand the various modules;"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अलग-अलग मॉड्यूल समझें;"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
@@ -125343,7 +127687,11 @@ msgid "Undo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वापस लाएं"
+>>>>>>> upstream/18.0
 =======
 msgstr "वापस लाएं"
 >>>>>>> upstream/18.0
@@ -125575,7 +127923,11 @@ msgid "Unit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यूनिट"
+>>>>>>> upstream/18.0
 =======
 msgstr "यूनिट"
 >>>>>>> upstream/18.0
@@ -126069,7 +128421,11 @@ msgid "Upcoming events from today"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आज से आने वाले इवेंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "आज से आने वाले इवेंट"
 >>>>>>> upstream/18.0
@@ -126326,7 +128682,11 @@ msgid "Upcoming/Running"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अपकमिंग/रनिंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "अपकमिंग/रनिंग"
 >>>>>>> upstream/18.0
@@ -126520,28 +128880,48 @@ msgstr "अपकमिंग/रनिंग"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__use_barcode
 msgid "Use Barcode"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बारकोड का इस्तेमाल करें"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_config_settings__use_event_barcode
 msgid "Use Event Barcode"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट बारकोड का इस्तेमाल करें"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.event_tag_category_action_tree
 msgid "Use Event Tag Categories to classify and organize your event tags."
 msgstr ""
+<<<<<<< HEAD
+=======
+"अपने इवेंट टैग को कैटगरी के हिसाब बांटने और व्यवस्थित करने के लिए इवेंट टैग कैटगरी का इस्तेमाल करें।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
 #: code:addons/event/static/src/js/tours/event_tour.js:0
 msgid "Use the <b>breadcrumbs</b> to go back to your kanban overview."
 msgstr ""
+<<<<<<< HEAD
+=======
+"अपने कानबन ओवरव्यू पर वापस जाने के लिए <b>ब्रेडक्रम्ब</b> का इस्तेमाल करें।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__seats_used
 msgid "Used Seats"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "भरी हुई सीटें"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:res.groups,name:event.group_event_user
@@ -126575,7 +128955,11 @@ msgid "VIP"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वीआईपी"
+>>>>>>> upstream/18.0
 =======
 msgstr "वीआईपी"
 >>>>>>> upstream/18.0
@@ -126713,7 +129097,11 @@ msgid "Venue"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जगह"
+>>>>>>> upstream/18.0
 =======
 msgstr "जगह"
 >>>>>>> upstream/18.0
@@ -126907,7 +129295,11 @@ msgstr "जगह"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__address_inline
 msgid "Venue (formatted for one line uses)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जगह (एक लाइन के इस्तेमाल के लिए फ़ॉर्मेट किया गया)"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
@@ -126923,11 +129315,20 @@ msgid ""
 "Wait until Attendees register to your Event or create their registrations "
 "manually."
 msgstr ""
+<<<<<<< HEAD
+=======
+"तब तक इंतज़ार करें जब तक अटेंडी आपके इवेंट के लिए रजिस्ट्रेशन न कर लें या मैन्युअल रूप से अपना रजिस्ट्रेशन "
+"न बना लें।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_2
 msgid "Warehouse management, Manufacturing (MRP) &amp; Sales, Import/Export."
 msgstr ""
+<<<<<<< HEAD
+=======
+"वेयरहाउस मैनेजमेंट, मैन्युफ़ैक्चरिंग (एमआरपी) &amp; सेल्स, इंपोर्ट/एक्सपोर्ट।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
@@ -127075,7 +129476,11 @@ msgid "Warning"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चेतावनी"
+>>>>>>> upstream/18.0
 =======
 msgstr "चेतावनी"
 >>>>>>> upstream/18.0
@@ -127508,6 +129913,7 @@ msgstr "चेतावनी"
 #: model_terms:event.event,description:event.event_3
 #: model_terms:event.event,description:event.event_5
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -128141,6 +130547,13 @@ msgid ""
 "dates on which it is held in case the weather fails us."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"We reserve the right to cancel, re-name or re-locate the event or change the "
+"dates on which it is held in case the weather fails us."
+msgstr ""
+"मौसम अनुकूल न होने की स्थिति में हम इवेंट को रद्द करने, नाम बदलने, स्थान बदलने या उसकी तारीख़ें बदलने का "
+"अधिकार सुरक्षित रखते हैं।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__website_message_ids
@@ -128288,7 +130701,11 @@ msgid "Website Messages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वेबसाइट मैसेज"
+>>>>>>> upstream/18.0
 =======
 msgstr "वेबसाइट मैसेज"
 >>>>>>> upstream/18.0
@@ -128859,7 +131276,11 @@ msgid "Website communication history"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वेबसाइट कम्यूनिकेशन हिस्ट्री"
+>>>>>>> upstream/18.0
 =======
 msgstr "वेबसाइट कम्यूनिकेशन हिस्ट्री"
 >>>>>>> upstream/18.0
@@ -129345,7 +131766,11 @@ msgid "Weeks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सप्ताह"
+>>>>>>> upstream/18.0
 =======
 msgstr "सप्ताह"
 >>>>>>> upstream/18.0
@@ -129603,7 +132028,11 @@ msgid "Welcome to"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "स्वागत है"
+>>>>>>> upstream/18.0
 =======
 msgstr "स्वागत है"
 >>>>>>> upstream/18.0
@@ -129797,7 +132226,11 @@ msgstr "स्वागत है"
 #. module: event
 #: model_terms:event.event,description:event.event_0
 msgid "What's new?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "क्या नया है?"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event__date_begin
@@ -129806,30 +132239,51 @@ msgid ""
 "When the event is scheduled to take place (expressed in your local timezone "
 "on the form view)."
 msgstr ""
+<<<<<<< HEAD
+=======
+"जब इवेंट होने वाला है (फ़ॉर्म व्यू पर आपके स्थानीय टाइमजो़न में व्यक्त किया गया)।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event__is_ongoing
 msgid "Whether event has begun"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "क्या इवेंट शुरू हो गया है"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event_ticket__sale_available
 msgid "Whether it is possible to sell these tickets"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "क्या इन टिकटों को बेचना संभव है"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event_ticket__is_sold_out
 msgid "Whether seats are not available for this ticket."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "क्या इस टिकट के लिए सीटें उपलब्ध नहीं हैं।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.event.ticket,description:event.event_0_ticket_2
 msgid "You are truly among the best."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आप सच में सबसे बेहतरीन हैं।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_stage_view_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -130463,6 +132917,12 @@ msgid ""
 "and purpose of the stage."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"You can also add a description to help your coworkers understand the meaning "
+"and purpose of the stage."
+msgstr ""
+"आप अपने सहकर्मियों को स्टेज का मतलब और उद्देश्य को समझने में मदद करने के लिए एक विवरण भी जोड़ सकते हैं।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_stage_view_form
@@ -130470,6 +132930,11 @@ msgid ""
 "You can define here labels that will be displayed for the state instead\n"
 "                            of the default labels in the kanban view."
 msgstr ""
+<<<<<<< HEAD
+=======
+"आप यहां ऐसे लेबल सेट कर सकते हैं जो कानबन व्यू में डिफ़ॉल्ट लेबल की जगह, \n"
+"                            स्थिति के लिए दिखाई देंगे।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
@@ -130477,6 +132942,10 @@ msgstr ""
 msgid ""
 "You cannot change the question type of a question that already has answers!"
 msgstr ""
+<<<<<<< HEAD
+=======
+"जिन सवालों के जवाब आ चुके हैं, आप उनके लिए सवाल के प्रकार नहीं बदल सकते!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
@@ -130484,6 +132953,10 @@ msgstr ""
 msgid ""
 "You cannot delete a question that has already been answered by attendees."
 msgstr ""
+<<<<<<< HEAD
+=======
+"आप किसी ऐसे सवाल को हटा नहीं सकते जिसका जवाब प्रतिभागी ने पहले ही दे दिया हो।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
@@ -130491,11 +132964,19 @@ msgstr ""
 msgid ""
 "You cannot delete an answer that has already been selected by attendees."
 msgstr ""
+<<<<<<< HEAD
+=======
+"आप किसी ऐसे सवाल को हटा नहीं सकते जिसको प्रतिभागी ने पहले ही चुन लिया हो।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:mail.template,subject:event.event_registration_mail_template_badge
 msgid "Your badge for {{ object.event_id.name }}"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "{{ object.event_id.name }} के लिए आपका बैज"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:mail.template,subject:event.event_subscription
@@ -130687,7 +133168,11 @@ msgid "Your registration at {{ object.event_id.name }}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "{{ object.event_id.name }} पर आपका रजिस्ट्रेशन"
+>>>>>>> upstream/18.0
 =======
 msgstr "{{ object.event_id.name }} पर आपका रजिस्ट्रेशन"
 >>>>>>> upstream/18.0
@@ -131253,50 +133738,86 @@ msgstr "{{ object.event_id.name }} पर आपका रजिस्ट्र�
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_tag_category_view_form
 msgid "e.g. \"12-16 years old\""
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उदाहरण: \"12-16 वर्ष की आयु\""
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_tag_category_view_form
 msgid "e.g. \"Age Category\""
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उदाहरण: \"उम्र की कैटगरी\""
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_registration_form
 msgid "e.g. \"Azure Interior\""
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उदाहरण: \"Azure इंटीरियर\""
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_question_view_form
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
 msgid "e.g. \"Do you have any diet restrictions?\""
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उदाहरण के लिए: \"क्या आपके लिए कोई खाने की पाबंदी है?\""
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_stage_view_form
 msgid "e.g. \"Promoting\""
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उदाहरण: \"प्रमोटिंग\""
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_event_view_form_quick_create
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
 msgid "e.g. Conference for Architects"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उदाहरण: आर्किटेक्ट के लिए कॉन्फ़्रेंस"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
 #: model_terms:ir.ui.view,arch_db:event.view_event_type_form
 msgid "e.g. How to get to your event, door closing time, ..."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उदाहरण: आपके इवेंट तक कैसे पहुंचें, दरवाज़ा बंद होने का समय, ..।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_type_form
 msgid "e.g. Online Conferences"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उदाहरण: ऑनलाइन कॉन्फ़्रेंस"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_event_ticket_form_view
 msgid "e.g. VIP Ticket"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उदाहरण: वीआईपी टिकट"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_2
@@ -131325,25 +133846,41 @@ msgstr ""
 #. odoo-python
 #: code:addons/event/models/event_event.py:0
 msgid "in %d days"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%d दिनों में"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_event.py:0
 msgid "next month"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगला महीना"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_event.py:0
 msgid "next week"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगला सप्ताह"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_event.py:0
 msgid "on %(date)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(date)s पर"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
@@ -131488,7 +134025,11 @@ msgid "or"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " "
+>>>>>>> upstream/18.0
 =======
 msgstr " "
 >>>>>>> upstream/18.0
@@ -131918,6 +134459,10 @@ msgid ""
 "registrations have started if the current datetime is after the earliest "
 "starting date of tickets."
 msgstr ""
+<<<<<<< HEAD
+=======
+"अगर वर्तमान समय टिकटों की शुरुआती तारीख के बाद का है, तो रजिस्ट्रेशन शुरू हो गए हैं।"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_event_ticket_view_kanban_from_event
@@ -131943,7 +134488,11 @@ msgid "reserved"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिज़र्व किया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "रिज़र्व किया गया"
 >>>>>>> upstream/18.0
@@ -132151,7 +134700,11 @@ msgid "to"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " "
+>>>>>>> upstream/18.0
 =======
 msgstr " "
 >>>>>>> upstream/18.0
@@ -132595,7 +135148,11 @@ msgid "today"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आज"
+>>>>>>> upstream/18.0
 =======
 msgstr "आज"
 >>>>>>> upstream/18.0
@@ -132685,7 +135242,11 @@ msgid "tomorrow"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आने वाला कल"
+>>>>>>> upstream/18.0
 =======
 msgstr "आने वाला कल"
 >>>>>>> upstream/18.0
@@ -132880,7 +135441,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -134026,6 +136590,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

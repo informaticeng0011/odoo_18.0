@@ -47,6 +47,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
@@ -504,6 +505,11 @@ from datetime import date, timedelta
 
 from datetime import date, timedelta
 >>>>>>> upstream/18.0
+=======
+# Part of Odoo. See LICENSE file for full copyright and licensing details.
+
+from datetime import date, timedelta
+>>>>>>> upstream/18.0
 
 from odoo.osv import expression
 
@@ -544,6 +550,7 @@ class TestHolidaysCalendar(HttpCase, TestHrHolidaysCommon):
         self.assertEqual(last_leave.date_from.weekday(), 3, "It should be Thursday")
         self.assertEqual(last_leave.date_from.hour, expected_leave_start, "Wrong start of the day")
         self.assertEqual(last_leave.date_to.hour, expected_leave_end, "Wrong end of the day")
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1240,6 +1247,8 @@ class TestHolidaysCalendar(HttpCase, TestHrHolidaysCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
     def test_timezone_calendar_event_single_day(self):
         """
@@ -1269,6 +1278,7 @@ class TestHolidaysCalendar(HttpCase, TestHrHolidaysCommon):
 
         leave.action_validate()
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1421,6 +1431,8 @@ class TestHolidaysCalendar(HttpCase, TestHrHolidaysCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         self.assertEqual(leave.meeting_id.allday, True)
         self.assertEqual(leave.meeting_id.start_date, test_date,
                         f"Meeting start date should be {test_date}")
@@ -1474,6 +1486,9 @@ class TestHolidaysCalendar(HttpCase, TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1588,6 +1603,7 @@ class TestHolidaysCalendar(HttpCase, TestHrHolidaysCommon):
 
         leave_half.action_validate()
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1797,6 +1813,11 @@ class TestHolidaysCalendar(HttpCase, TestHrHolidaysCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        self.assertEqual(leave_half.meeting_id.allday, False)
+        self.assertEqual(leave_half.meeting_id.start, leave_half.date_from)
+        self.assertEqual(leave_half.meeting_id.stop, leave_half.date_to)
 >>>>>>> upstream/18.0
 =======
         self.assertEqual(leave_half.meeting_id.allday, False)

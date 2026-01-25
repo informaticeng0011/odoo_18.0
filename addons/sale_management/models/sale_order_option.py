@@ -44,7 +44,11 @@ class SaleOrderOption(models.Model):
 
     price_unit = fields.Float(
         string="Unit Price",
+<<<<<<< HEAD
         digits='Product Price',
+=======
+        min_display_digits='Product Price',
+>>>>>>> upstream/18.0
         compute='_compute_price_unit',
         store=True, readonly=False,
         required=True, precompute=True)

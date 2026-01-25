@@ -232,11 +232,14 @@ function computePosition(popper, target, { container, margin, position }) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const vertical = ["t", "b"].includes(d);
         const variantPrefix = vertical ? "v" : "h";
         const directionValue = directionsData[d];
         const variantValue = variantsData[variantPrefix + v];
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -549,6 +552,9 @@ function computePosition(popper, target, { container, margin, position }) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -879,6 +885,7 @@ function computePosition(popper, target, { container, margin, position }) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             // Abort if outside container boundaries
             const directionOverflow =
                 Math.ceil(directionValue) < Math.floor(directionMin) ||
@@ -890,6 +897,8 @@ function computePosition(popper, target, { container, margin, position }) {
                 return null;
             }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1218,6 +1227,9 @@ function computePosition(popper, target, { container, margin, position }) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1428,6 +1440,7 @@ function computePosition(popper, target, { container, margin, position }) {
         const positioning = vertical
             ? { top: directionValue, left: variantValue }
             : { top: variantValue, left: directionValue };
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1761,6 +1774,8 @@ function computePosition(popper, target, { container, margin, position }) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         // Subtract the offsets of the containing block (relative to the
         // viewport). It can be done like that because the style top and
         // left were reset to 0px in `reposition`
@@ -1887,6 +1902,9 @@ function computePosition(popper, target, { container, margin, position }) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

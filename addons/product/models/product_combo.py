@@ -25,7 +25,11 @@ class ProductCombo(models.Model):
              " prorate the price of this combo with respect to the other combos in a combo product."
              " This heuristic ensures that whatever product the user chooses in a combo, it will"
              " always be the same price.",
+<<<<<<< HEAD
         digits='Product Price',
+=======
+        min_display_digits='Product Price',
+>>>>>>> upstream/18.0
         compute='_compute_base_price',
     )
 
@@ -239,6 +243,10 @@ class ProductCombo(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.combo_item_ids._check_company(fnames=['product_id'])
+>>>>>>> upstream/18.0
 =======
         self.combo_item_ids._check_company(fnames=['product_id'])
 >>>>>>> upstream/18.0

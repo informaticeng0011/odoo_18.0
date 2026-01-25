@@ -58,6 +58,44 @@ class TestQwebFieldInteger(common.TransactionCase):
             "125.125k"
         )
 
+<<<<<<< HEAD
+=======
+
+class TestQwebFieldFloatConverter(common.TransactionCase):
+    def value_to_html(self, value, options=None):
+        options = options or {}
+        return self.env['ir.qweb.field.float'].value_to_html(value, options)
+
+    def test_float_value_to_html_no_precision(self):
+        self.assertEqual(self.value_to_html(3), '3.0')
+        self.assertEqual(self.value_to_html(3.1), '3.1')
+        self.assertEqual(self.value_to_html(3.1231239), '3.123124')
+
+    def test_float_value_to_html_with_precision(self):
+        options = {'precision': 3}
+        self.assertEqual(self.value_to_html(3, options), '3.000')
+        self.assertEqual(self.value_to_html(3.1, options), '3.100')
+        self.assertEqual(self.value_to_html(3.123, options), '3.123')
+        self.assertEqual(self.value_to_html(3.1239, options), '3.124')
+
+    def test_float_value_to_html_with_min_precision(self):
+        options = {'min_precision': 3}
+        self.assertEqual(self.value_to_html(3, options), '3.000')
+        self.assertEqual(self.value_to_html(3.1, options), '3.100')
+        self.assertEqual(self.value_to_html(3.123, options), '3.123')
+        self.assertEqual(self.value_to_html(3.1239, options), '3.1239')
+        self.assertEqual(self.value_to_html(3.1231239, options), '3.123124')
+
+    def test_float_value_to_html_with_precision_and_min_precision(self):
+        options = {'min_precision': 3, 'precision': 4}
+        self.assertEqual(self.value_to_html(3, options), '3.000')
+        self.assertEqual(self.value_to_html(3.1, options), '3.100')
+        self.assertEqual(self.value_to_html(3.123, options), '3.123')
+        self.assertEqual(self.value_to_html(3.1239, options), '3.1239')
+        self.assertEqual(self.value_to_html(3.12349, options), '3.1235')
+
+
+>>>>>>> upstream/18.0
 class TestQwebFieldContact(common.TransactionCase):
     @classmethod
     def setUpClass(cls):
@@ -194,7 +232,10 @@ class TestQwebFieldContact(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -566,6 +607,9 @@ class TestQwebFieldMany2One(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

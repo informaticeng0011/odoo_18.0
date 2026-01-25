@@ -280,7 +280,10 @@ class Pricelist(models.Model):
         return results
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _get_country_pricelist_multi(self, country_ids):
         def get_param_id(key):
             string_value = self.env['ir.config_parameter'].sudo().get_param(key, False)
@@ -325,6 +328,9 @@ class Pricelist(models.Model):
         result[False] = result[ctx_country.id] if ctx_country else pl_fallback
         return result
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     # res.partner.property_product_pricelist field computation
     @api.model
@@ -339,8 +345,11 @@ class Pricelist(models.Model):
         Else, it will return the first available pricelist if any
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         :param int company_id: if passed, used for looking up properties,
             instead of current user's company
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         :return: a dict {partner_id: pricelist}
@@ -349,11 +358,14 @@ class Pricelist(models.Model):
         # as we will do a search() later (real case for website public user).
         Partner = self.env['res.partner'].with_context(active_test=False)
 <<<<<<< HEAD
+<<<<<<< HEAD
         company_id = self.env.company.id
 
         IrConfigParameter = self.env['ir.config_parameter'].sudo()
         Pricelist = self.env['product.pricelist']
         pl_domain = self._get_partner_pricelist_multi_search_domain_hook(company_id)
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -367,6 +379,7 @@ class Pricelist(models.Model):
                 remaining_partner_ids.append(partner.id)
 
         if remaining_partner_ids:
+<<<<<<< HEAD
 <<<<<<< HEAD
             def convert_to_int(string_value):
                 try:
@@ -396,12 +409,17 @@ class Pricelist(models.Model):
                 pl = Pricelist.search(pl_domain + [('country_group_ids.country_ids', '=', country.id if country else False)], limit=1)
                 pl = pl or pl_fallback
 =======
+=======
+>>>>>>> upstream/18.0
             remaining_partners = self.env['res.partner'].browse(remaining_partner_ids)
             partners_by_country = remaining_partners.grouped('country_id')
             country_ids = remaining_partners.country_id.ids
             pricelists_by_country_id = self._get_country_pricelist_multi(country_ids)
             for country, partners in partners_by_country.items():
                 pl = pricelists_by_country_id[country.id]
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 result.update(dict.fromkeys(partners._ids, pl))
 

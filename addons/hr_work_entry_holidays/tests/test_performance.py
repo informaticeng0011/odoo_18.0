@@ -125,6 +125,7 @@ class TestWorkEntryHolidaysPerformance(TestWorkEntryHolidaysBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.assertQueryCount(__system__=117, admin=118):  # com 96/97
 =======
         with self.assertQueryCount(__system__=118, admin=119):  # com 96/97
@@ -405,6 +406,9 @@ class TestWorkEntryHolidaysPerformance(TestWorkEntryHolidaysBase):
 =======
         with self.assertQueryCount(__system__=119, admin=120):
 >>>>>>> upstream/18.0
+=======
+        with self.assertQueryCount(__system__=119, admin=120):
+>>>>>>> upstream/18.0
             leave.action_validate()
         leave.action_refuse()
 
@@ -424,7 +428,11 @@ class TestWorkEntryHolidaysPerformance(TestWorkEntryHolidaysBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.assertQueryCount(__system__=30, admin=38):
+=======
+        with self.assertQueryCount(__system__=12, admin=12):
+>>>>>>> upstream/18.0
 =======
         with self.assertQueryCount(__system__=12, admin=12):
 >>>>>>> upstream/18.0
@@ -475,7 +483,11 @@ class TestWorkEntryHolidaysPerformance(TestWorkEntryHolidaysBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.assertQueryCount(__system__=60, admin=60):
+=======
+        with self.assertQueryCount(__system__=58, admin=58):
+>>>>>>> upstream/18.0
 =======
         with self.assertQueryCount(__system__=58, admin=58):
 >>>>>>> upstream/18.0

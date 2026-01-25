@@ -11,7 +11,11 @@ class EventTicket(models.Model):
         compute_sudo=True)
     price_incl = fields.Float(
         string='Price include', compute='_compute_price_incl',
+<<<<<<< HEAD
         digits='Product Price', readonly=False, compute_sudo=True)
+=======
+        min_display_digits='Product Price', readonly=False, compute_sudo=True)
+>>>>>>> upstream/18.0
 
     @api.depends('product_id.active')
     def _compute_sale_available(self):

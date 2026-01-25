@@ -332,7 +332,10 @@ class Foo extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         graph: /* xml */ `<graph />`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3681,7 +3684,10 @@ test("graph view with invisible attribute on field", async () => {
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 test("graph view reserved word", async () => {
     // Check that the use of reserved words does not interfere with the view.
     Product._records.push({ id: 150, name: "constructor" });
@@ -3700,6 +3706,9 @@ test("graph view reserved word", async () => {
     checkDatasets(view, ["data", "label"], [{ data: [4, 3, 1], label: "Count" }]);
 });
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 test("graph view sort by measure", async () => {
     // change last record from foo as there are 4 records count for each product

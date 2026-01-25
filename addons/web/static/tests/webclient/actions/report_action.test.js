@@ -18,6 +18,10 @@ import { afterEach, expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { waitFor } from "@odoo/hoot-dom";
+>>>>>>> upstream/18.0
 =======
 import { waitFor } from "@odoo/hoot-dom";
 >>>>>>> upstream/18.0
@@ -280,7 +284,11 @@ class Partner extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "form,false": `
+=======
+        form: `
+>>>>>>> upstream/18.0
 =======
         form: `
 >>>>>>> upstream/18.0
@@ -993,8 +1001,12 @@ class Partner extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "list,false": `<list><field name="display_name"/></list>`,
         "search,false": `<search/>`,
+=======
+        list: `<list><field name="display_name"/></list>`,
+>>>>>>> upstream/18.0
 =======
         list: `<list><field name="display_name"/></list>`,
 >>>>>>> upstream/18.0
@@ -1836,7 +1848,10 @@ test("can use custom handlers for report actions", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1938,6 +1953,9 @@ test("custom handlers can close modals", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -314,6 +314,10 @@ export class OdooPivot {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        await this._loadPropertiesDefinitions();
+>>>>>>> upstream/18.0
 =======
         await this._loadPropertiesDefinitions();
 >>>>>>> upstream/18.0
@@ -1270,7 +1274,10 @@ export class OdooPivot {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1782,6 +1789,9 @@ export class OdooPivot {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
