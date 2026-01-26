@@ -347,6 +347,7 @@ export function formatFloat(value, options = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (options.humanReadable) {
         return humanNumber(value, options);
     }
@@ -1034,6 +1035,8 @@ export function formatFloat(value, options = {}) {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
     let precision;
     if (options.digits && options.digits[1] !== undefined) {
         precision = options.digits[1];
@@ -1045,6 +1048,9 @@ export function formatFloat(value, options = {}) {
         precision = 2;
     }
     const minPrecision = options.minDigits || precision;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     if (floatIsZero(value, precision)) {
         value = 0.0;
@@ -1055,6 +1061,7 @@ export function formatFloat(value, options = {}) {
     const grouping = options.grouping || l10n.grouping;
     const thousandsSep = "thousandsSep" in options ? options.thousandsSep : l10n.thousandsSep;
     const decimalPoint = "decimalPoint" in options ? options.decimalPoint : l10n.decimalPoint;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1464,6 +1471,8 @@ export function formatFloat(value, options = {}) {
     if (options.trailingZeros === false && formatted[1]) {
         formatted[1] = formatted[1].replace(/0+$/, "");
 =======
+=======
+>>>>>>> upstream/18.0
     const formatted = value.toFixed(precision).split(".");
     formatted[0] = insertThousandsSep(formatted[0], thousandsSep, grouping);
     if (formatted[1]) {
@@ -1471,6 +1480,9 @@ export function formatFloat(value, options = {}) {
         if (options.trailingZeros !== false) {
             formatted[1] = formatted[1].padEnd(minPrecision, "0");
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
     return formatted[1] ? formatted.join(decimalPoint) : formatted[0];

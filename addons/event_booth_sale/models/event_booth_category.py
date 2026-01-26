@@ -21,22 +21,32 @@ class EventBoothCategory(models.Model):
         groups="event.group_event_registration_desk")
     price = fields.Float(
 <<<<<<< HEAD
+<<<<<<< HEAD
         string='Price', compute='_compute_price', digits='Product Price', readonly=False,
         store=True, groups="event.group_event_registration_desk")
     price_incl = fields.Float(
         string='Price incl', compute='_compute_price_incl', digits='Product Price', readonly=False,
 =======
+=======
+>>>>>>> upstream/18.0
         string='Price', compute='_compute_price', min_display_digits='Product Price', readonly=False,
         store=True, groups="event.group_event_registration_desk")
     price_incl = fields.Float(
         string='Price incl', compute='_compute_price_incl', min_display_digits='Product Price', readonly=False,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         groups="event.group_event_registration_desk")
     currency_id = fields.Many2one(related='product_id.currency_id', groups="event.group_event_registration_desk")
     price_reduce = fields.Float(
         string='Price Reduce', compute='_compute_price_reduce',
 <<<<<<< HEAD
+<<<<<<< HEAD
         compute_sudo=True, digits='Product Price', groups="event.group_event_registration_desk")
+=======
+        compute_sudo=True, min_display_digits='Product Price', groups="event.group_event_registration_desk")
+>>>>>>> upstream/18.0
 =======
         compute_sudo=True, min_display_digits='Product Price', groups="event.group_event_registration_desk")
 >>>>>>> upstream/18.0

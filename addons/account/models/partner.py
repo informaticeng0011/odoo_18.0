@@ -189,9 +189,12 @@ from odoo.exceptions import ValidationError, UserError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.base.models.res_partner import WARNING_MESSAGE, WARNING_HELP
 from odoo.tools import SQL, unique
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -724,6 +727,9 @@ from odoo.addons.base.models.res_partner import WARNING_MESSAGE, WARNING_HELP
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1152,6 +1158,10 @@ _ref_company_registry = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'fi': '8763054-9',
+>>>>>>> upstream/18.0
 =======
     'fi': '8763054-9',
 >>>>>>> upstream/18.0
@@ -1531,7 +1541,11 @@ class AccountFiscalPosition(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if tl.tax_dest_id:
+=======
+                if tl.tax_dest_active:
+>>>>>>> upstream/18.0
 =======
                 if tl.tax_dest_active:
 >>>>>>> upstream/18.0
@@ -2249,6 +2263,10 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    duplicate_bank_partner_ids = fields.Many2many(related="bank_ids.duplicate_bank_partner_ids")
+>>>>>>> upstream/18.0
 =======
     duplicate_bank_partner_ids = fields.Many2many(related="bank_ids.duplicate_bank_partner_ids")
 >>>>>>> upstream/18.0
@@ -2811,6 +2829,7 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             record.fiscal_country_codes = ",".join(allowed_companies.mapped('account_fiscal_country_id.code'))
 =======
 =======
@@ -3036,6 +3055,8 @@ class ResPartner(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             country_codes = allowed_companies.mapped('account_fiscal_country_id.code')
             if record.country_code:
                 country_codes.append(record.country_code)
@@ -3111,6 +3132,9 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3665,6 +3689,7 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     duplicated_bank_account_partners_count = fields.Integer(
         compute='_compute_duplicated_bank_account_partners_count',
     )
@@ -3809,6 +3834,8 @@ class ResPartner(models.Model):
     # DEPRECATED, DO NOT USE, TO BE REMOVED IN MASTER
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4279,6 +4306,9 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4731,7 +4761,11 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         domain=lambda self: [('payment_type', '=', 'outbound'), ('company_id', '=', self.env.company.id)],
+=======
+        domain=lambda self: [('payment_type', '=', 'outbound'), ('company_id', 'parent_of', self.env.company.id)],
+>>>>>>> upstream/18.0
 =======
         domain=lambda self: [('payment_type', '=', 'outbound'), ('company_id', 'parent_of', self.env.company.id)],
 >>>>>>> upstream/18.0
@@ -5283,7 +5317,11 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         domain=lambda self: [('payment_type', '=', 'inbound'), ('company_id', '=', self.env.company.id)],
+=======
+        domain=lambda self: [('payment_type', '=', 'inbound'), ('company_id', 'parent_of', self.env.company.id)],
+>>>>>>> upstream/18.0
 =======
         domain=lambda self: [('payment_type', '=', 'inbound'), ('company_id', 'parent_of', self.env.company.id)],
 >>>>>>> upstream/18.0
@@ -5879,6 +5917,10 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    # TODO remove in master
+>>>>>>> upstream/18.0
 =======
     # TODO remove in master
 >>>>>>> upstream/18.0
@@ -6538,7 +6580,11 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends('commercial_partner_id.country_code')
+=======
+    @api.depends('country_code')
+>>>>>>> upstream/18.0
 =======
     @api.depends('country_code')
 >>>>>>> upstream/18.0
@@ -7290,6 +7336,10 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    # TODO remove in master
+>>>>>>> upstream/18.0
 =======
     # TODO remove in master
 >>>>>>> upstream/18.0
@@ -7989,6 +8039,7 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     def write(self, vals):
         if 'parent_id' not in vals:
@@ -8039,6 +8090,8 @@ class ResPartner(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8531,7 +8584,11 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if partner2moves and vals['parent_id'] and {parent_vat} != set(self.mapped('vat')):
+=======
+            if partner2moves and vals['parent_id'] and any((partner.vat or '') != (parent_vat or '') for partner in self):
+>>>>>>> upstream/18.0
 =======
             if partner2moves and vals['parent_id'] and any((partner.vat or '') != (parent_vat or '') for partner in self):
 >>>>>>> upstream/18.0
@@ -9129,6 +9186,9 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9581,8 +9641,13 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Sometimes, the vat is specified with some whitespaces.
         normalized_vat = vat.replace(' ', '')
+=======
+        # Sometimes, the vat is specified with some whitespaces or dots.
+        normalized_vat = vat.replace(' ', '').replace('.', '')
+>>>>>>> upstream/18.0
 =======
         # Sometimes, the vat is specified with some whitespaces or dots.
         normalized_vat = vat.replace(' ', '').replace('.', '')
@@ -9902,6 +9967,7 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
     def action_open_business_doc(self):
@@ -10283,6 +10349,8 @@ class ResPartner(models.Model):
         return self._get_records_action()
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10540,6 +10608,9 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -186,12 +186,15 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { defineSearchBarModels, Foo } from "./models";
 
 import { SearchBarMenu } from "@web/search/search_bar_menu/search_bar_menu";
 import { SearchBar } from "@web/search/search_bar/search_bar";
 import { animationFrame } from "@odoo/hoot-mock";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -719,6 +722,9 @@ import { SearchBarMenu } from "@web/search/search_bar_menu/search_bar_menu";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1072,6 +1078,7 @@ import { SearchBarMenu } from "@web/search/search_bar_menu/search_bar_menu";
 defineSearchBarModels();
 
 test("simple rendering with neither groupbys nor groupable fields", async () => {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1601,6 +1608,8 @@ test("simple rendering with neither groupbys nor groupable fields", async () => 
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     await mountWithSearch(SearchBarMenu, {
         resModel: "foo",
         searchMenuTypes: ["groupBy"],
@@ -1779,6 +1788,9 @@ test("simple rendering with neither groupbys nor groupable fields", async () => 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

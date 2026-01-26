@@ -105,8 +105,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { after, destroy, getFixture } from "@odoo/hoot";
 import { queryFirst, queryOne } from "@odoo/hoot-dom";
+=======
+import { after, destroy, getFixture, queryFirst, queryOne } from "@odoo/hoot";
+>>>>>>> upstream/18.0
 =======
 import { after, destroy, getFixture, queryFirst, queryOne } from "@odoo/hoot";
 >>>>>>> upstream/18.0
@@ -607,7 +611,11 @@ import { getPopoverForTarget } from "@web/core/popover/popover";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { getTemplate } from "@web/core/templates";
+=======
+import { getTemplate as getTemplateFn } from "@web/core/templates";
+>>>>>>> upstream/18.0
 =======
 import { getTemplate as getTemplateFn } from "@web/core/templates";
 >>>>>>> upstream/18.0
@@ -1313,6 +1321,7 @@ import { getMockEnv, makeMockEnv } from "./env_test_helpers";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @typedef {import("@odoo/owl").Component} Component
  *
  * @typedef {import("@web/env").OdooEnv} OdooEnv
@@ -1456,6 +1465,9 @@ import { getMockEnv, makeMockEnv } from "./env_test_helpers";
 =======
 >>>>>>> upstream/18.0
  * @typedef {import("@odoo/hoot-dom").Target} Target
+=======
+ * @typedef {import("@odoo/hoot").Target} Target
+>>>>>>> upstream/18.0
 =======
  * @typedef {import("@odoo/hoot").Target} Target
 >>>>>>> upstream/18.0
@@ -1955,6 +1967,9 @@ import { getMockEnv, makeMockEnv } from "./env_test_helpers";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2490,7 +2505,11 @@ import { getMockEnv, makeMockEnv } from "./env_test_helpers";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @param {MountOptions} [options]
+=======
+ * @param {AppConfig} config
+>>>>>>> upstream/18.0
 =======
  * @param {AppConfig} config
 >>>>>>> upstream/18.0
@@ -3259,7 +3278,13 @@ export function getDropdownMenu(togglerSelector) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @param {MountOptions & {
+=======
+ * @param {AppConfig & {
+ *  componentEnv?: Partial<OdooEnv>;
+ *  containerEnv?: Partial<OdooEnv>;
+>>>>>>> upstream/18.0
 =======
  * @param {AppConfig & {
  *  componentEnv?: Partial<OdooEnv>;
@@ -4318,6 +4343,7 @@ export async function mountWithCleanup(ComponentClass, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const { fixtureClassName = "o_web_client", env, noMainContainer, target } = options || {};
     const config = {
         getTemplate,
@@ -4332,6 +4358,8 @@ export async function mountWithCleanup(ComponentClass, options) {
     delete config.target;
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4885,6 +4913,9 @@ export async function mountWithCleanup(ComponentClass, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5417,6 +5448,10 @@ export async function mountWithCleanup(ComponentClass, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        // Convert templates to components (if needed)
+>>>>>>> upstream/18.0
 =======
         // Convert templates to components (if needed)
 >>>>>>> upstream/18.0
@@ -6124,6 +6159,7 @@ export async function mountWithCleanup(ComponentClass, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /** @type {InstanceType<C>} */
     const component = await mountComponentWithCleanup(ComponentClass, targetEl, {
         ...config,
@@ -6137,6 +6173,8 @@ export async function mountWithCleanup(ComponentClass, options) {
             props: {},
         });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6678,6 +6716,9 @@ export async function mountWithCleanup(ComponentClass, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

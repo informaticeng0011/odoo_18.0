@@ -323,6 +323,12 @@ class TestChannelRTC(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.env["bus.presence"]._update_presence(
+            inactivity_period=0, identity_field="guest_id", identity_value=test_guest.id
+        )
+>>>>>>> upstream/18.0
 =======
         self.env["bus.presence"]._update_presence(
             inactivity_period=0, identity_field="guest_id", identity_value=test_guest.id
@@ -1014,6 +1020,12 @@ class TestChannelRTC(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.env["bus.presence"]._update_presence(
+            inactivity_period=0, identity_field="guest_id", identity_value=test_guest.id
+        )
+>>>>>>> upstream/18.0
 =======
         self.env["bus.presence"]._update_presence(
             inactivity_period=0, identity_field="guest_id", identity_value=test_guest.id
@@ -1732,6 +1744,12 @@ class TestChannelRTC(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.env["bus.presence"]._update_presence(
+            inactivity_period=0, identity_field="guest_id", identity_value=test_guest.id
+        )
+>>>>>>> upstream/18.0
 =======
         self.env["bus.presence"]._update_presence(
             inactivity_period=0, identity_field="guest_id", identity_value=test_guest.id
@@ -2372,6 +2390,12 @@ class TestChannelRTC(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.env["bus.presence"]._update_presence(
+            inactivity_period=0, identity_field="guest_id", identity_value=test_guest.id
+        )
+>>>>>>> upstream/18.0
 =======
         self.env["bus.presence"]._update_presence(
             inactivity_period=0, identity_field="guest_id", identity_value=test_guest.id
@@ -3012,6 +3036,12 @@ class TestChannelRTC(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.env["bus.presence"]._update_presence(
+            inactivity_period=0, identity_field="guest_id", identity_value=test_guest.id
+        )
+>>>>>>> upstream/18.0
 =======
         self.env["bus.presence"]._update_presence(
             inactivity_period=0, identity_field="guest_id", identity_value=test_guest.id

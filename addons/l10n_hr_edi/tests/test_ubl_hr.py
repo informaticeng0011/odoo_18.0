@@ -89,9 +89,15 @@ class TestL10nHrEdiXml(TestL10nHrEdiCommon, AccountTestInvoicingCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_export_invoice_with_exemption(self):
         """
         Test the content of a generated invoice with VAT exemption in Croation UBL format.
+=======
+    def test_export_invoice_with_exemption_k(self):
+        """
+        Test the content of a generated invoice with HR:K exemption in Croation UBL format.
+>>>>>>> upstream/18.0
 =======
     def test_export_invoice_with_exemption_k(self):
         """
@@ -128,8 +134,11 @@ class TestL10nHrEdiXml(TestL10nHrEdiCommon, AccountTestInvoicingCommon):
         actual_content, _dummy = self.env['account.edi.xml.ubl_hr'].with_context(lang='en_US')._export_invoice(invoice)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with misc.file_open(f'addons/{self.test_module}/tests/test_files/test_invoice_exemption.xml', 'rb') as file:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         with misc.file_open(f'addons/{self.test_module}/tests/test_files/test_invoice_exemption_k.xml', 'rb') as file:
@@ -168,6 +177,9 @@ class TestL10nHrEdiXml(TestL10nHrEdiCommon, AccountTestInvoicingCommon):
         actual_content, _dummy = self.env['account.edi.xml.ubl_hr'].with_context(lang='en_US')._export_invoice(invoice)
         with misc.file_open(f'addons/{self.test_module}/tests/test_files/test_invoice_exemption_e.xml', 'rb') as file:
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

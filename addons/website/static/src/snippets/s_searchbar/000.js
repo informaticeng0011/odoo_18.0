@@ -408,11 +408,14 @@ publicWidget.registry.searchBar = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (!this.wasEmpty) {
                 this.limit = 0; // prevent autocomplete
                 const form = this.$('.o_search_order_by').parents('form');
                 form.submit();
             }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

@@ -109,7 +109,11 @@ class PricelistItem(models.Model):
         index=True, default='fixed', required=True)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     fixed_price = fields.Float(string="Fixed Price", digits='Product Price')
+=======
+    fixed_price = fields.Float(string="Fixed Price", min_display_digits='Product Price')
+>>>>>>> upstream/18.0
 =======
     fixed_price = fields.Float(string="Fixed Price", min_display_digits='Product Price')
 >>>>>>> upstream/18.0
@@ -125,7 +129,11 @@ class PricelistItem(models.Model):
     price_round = fields.Float(
         string="Price Rounding",
 <<<<<<< HEAD
+<<<<<<< HEAD
         digits='Product Price',
+=======
+        min_display_digits='Product Price',
+>>>>>>> upstream/18.0
 =======
         min_display_digits='Product Price',
 >>>>>>> upstream/18.0
@@ -135,7 +143,11 @@ class PricelistItem(models.Model):
     price_surcharge = fields.Float(
         string="Extra Fee",
 <<<<<<< HEAD
+<<<<<<< HEAD
         digits='Product Price',
+=======
+        min_display_digits='Product Price',
+>>>>>>> upstream/18.0
 =======
         min_display_digits='Product Price',
 >>>>>>> upstream/18.0
@@ -152,17 +164,23 @@ class PricelistItem(models.Model):
     price_min_margin = fields.Float(
         string="Min. Price Margin",
 <<<<<<< HEAD
+<<<<<<< HEAD
         digits='Product Price',
         help="Specify the minimum amount of margin over the base price.")
     price_max_margin = fields.Float(
         string="Max. Price Margin",
         digits='Product Price',
 =======
+=======
+>>>>>>> upstream/18.0
         min_display_digits='Product Price',
         help="Specify the minimum amount of margin over the base price.")
     price_max_margin = fields.Float(
         string="Max. Price Margin",
         min_display_digits='Product Price',
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         help="Specify the maximum amount of margin over the base price.")
 
@@ -195,7 +213,10 @@ class PricelistItem(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _get_price_label_base_str(self):
@@ -213,6 +234,9 @@ class PricelistItem(models.Model):
         return base_str
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -241,6 +265,7 @@ class PricelistItem(models.Model):
             else:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 base_str = ""
                 if item.base == 'pricelist' and item.base_pricelist_id:
                     base_str = item.base_pricelist_id.display_name
@@ -248,6 +273,9 @@ class PricelistItem(models.Model):
                     base_str = _("product cost")
                 else:
                     base_str = _("sales price")
+=======
+                base_str = item._get_price_label_base_str()
+>>>>>>> upstream/18.0
 =======
                 base_str = item._get_price_label_base_str()
 >>>>>>> upstream/18.0
@@ -441,7 +469,10 @@ class PricelistItem(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -765,6 +796,9 @@ class PricelistItem(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1217,6 +1251,10 @@ class PricelistItem(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.base_pricelist_id = False
+>>>>>>> upstream/18.0
 =======
         self.base_pricelist_id = False
 >>>>>>> upstream/18.0

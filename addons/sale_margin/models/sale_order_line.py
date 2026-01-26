@@ -10,7 +10,11 @@ class SaleOrderLine(models.Model):
     margin = fields.Float(
         "Margin", compute='_compute_margin',
 <<<<<<< HEAD
+<<<<<<< HEAD
         digits='Product Price', store=True, groups="base.group_user", precompute=True)
+=======
+        min_display_digits='Product Price', store=True, groups="base.group_user", precompute=True)
+>>>>>>> upstream/18.0
 =======
         min_display_digits='Product Price', store=True, groups="base.group_user", precompute=True)
 >>>>>>> upstream/18.0
@@ -19,7 +23,11 @@ class SaleOrderLine(models.Model):
     purchase_price = fields.Float(
         string="Cost", compute="_compute_purchase_price",
 <<<<<<< HEAD
+<<<<<<< HEAD
         digits='Product Price', store=True, readonly=False, copy=False, precompute=True,
+=======
+        min_display_digits='Product Price', store=True, readonly=False, copy=False, precompute=True,
+>>>>>>> upstream/18.0
 =======
         min_display_digits='Product Price', store=True, readonly=False, copy=False, precompute=True,
 >>>>>>> upstream/18.0

@@ -27,7 +27,11 @@ class TestLotValuation(TestStockValuationCommon):
         self._make_in_move(self.product1, 10, 5, lot_ids=[self.lot1, self.lot2])
         self._make_in_move(self.product1, 10, 7, lot_ids=[self.lot3])
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(self.product1.standard_price, 6.0)
+=======
+        self.assertAlmostEqual(self.product1.standard_price, 6.0)
+>>>>>>> upstream/18.0
 =======
         self.assertAlmostEqual(self.product1.standard_price, 6.0)
 >>>>>>> upstream/18.0
@@ -37,7 +41,11 @@ class TestLotValuation(TestStockValuationCommon):
         # lot1 has a cost different than the product it self. So a out move should recompute the
         # product cost
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(self.product1.standard_price, 6.11)
+=======
+        self.assertAlmostEqual(self.product1.standard_price, 6.1111111)
+>>>>>>> upstream/18.0
 =======
         self.assertAlmostEqual(self.product1.standard_price, 6.1111111)
 >>>>>>> upstream/18.0
@@ -253,7 +261,11 @@ class TestLotValuation(TestStockValuationCommon):
         self.assertEqual(productA.value_svl, 156)
         self.assertEqual(productA.quantity_svl, 24)
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(productB.value_svl, 144.1)  # 144.1 because of multiplying quantity with rounded standard price
+=======
+        self.assertEqual(productB.value_svl, 144.0)
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(productB.value_svl, 144.0)
 >>>>>>> upstream/18.0
@@ -267,9 +279,15 @@ class TestLotValuation(TestStockValuationCommon):
         self.assertEqual(lotA_2.value_svl, 110.5)
         self.assertEqual(lotA_2.quantity_svl, 17)
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(lotB_1.value_svl, 39.3)
         self.assertEqual(lotB_1.quantity_svl, 6)
         self.assertEqual(lotB_2.value_svl, 104.8)
+=======
+        self.assertEqual(lotB_1.value_svl, 39.27)
+        self.assertEqual(lotB_1.quantity_svl, 6)
+        self.assertEqual(lotB_2.value_svl, 104.73)
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(lotB_1.value_svl, 39.27)
         self.assertEqual(lotB_1.quantity_svl, 6)
@@ -334,7 +352,11 @@ class TestLotValuation(TestStockValuationCommon):
         self._make_in_move(self.product1, 10, 5, lot_ids=[self.lot1])
         self._make_in_move(self.product1, 10, 9, lot_ids=[self.lot2])
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(self.product1.standard_price, 7)
+=======
+        self.assertAlmostEqual(self.product1.standard_price, 7)
+>>>>>>> upstream/18.0
 =======
         self.assertAlmostEqual(self.product1.standard_price, 7)
 >>>>>>> upstream/18.0
@@ -434,7 +456,11 @@ class TestLotValuation(TestStockValuationCommon):
         self.assertEqual(self.lot1.standard_price, 10)
         # product cost should be updated al well
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(self.product1.standard_price, 6.94)
+=======
+        self.assertAlmostEqual(self.product1.standard_price, 6.94444445)
+>>>>>>> upstream/18.0
 =======
         self.assertAlmostEqual(self.product1.standard_price, 6.94444445)
 >>>>>>> upstream/18.0
@@ -458,7 +484,11 @@ class TestLotValuation(TestStockValuationCommon):
         self.assertEqual(self.lot1.standard_price, 6.2)
         self.assertEqual(self.lot1.value_svl, 62)
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(self.product1.standard_price, 5.86)
+=======
+        self.assertAlmostEqual(self.product1.standard_price, 5.8571429)
+>>>>>>> upstream/18.0
 =======
         self.assertAlmostEqual(self.product1.standard_price, 5.8571429)
 >>>>>>> upstream/18.0
@@ -476,6 +506,7 @@ class TestLotValuation(TestStockValuationCommon):
         self.assertEqual(self.lot1.standard_price, 7, "lot1 cost changed")
         self.assertEqual(self.lot1.value_svl, 70, "lot1 value changed")
         self.assertEqual(self.lot2.standard_price, 5, "lot2 cost remains unchanged")
+<<<<<<< HEAD
 <<<<<<< HEAD
         self.assertEqual(self.product1.standard_price, 6.43, "product cost changed too")
 
@@ -887,6 +918,10 @@ class TestLotValuation(TestStockValuationCommon):
         self.assertAlmostEqual(self.product1.standard_price, 6.4314286, msg="product cost changed too")
 
 >>>>>>> upstream/18.0
+=======
+        self.assertAlmostEqual(self.product1.standard_price, 6.4314286, msg="product cost changed too")
+
+>>>>>>> upstream/18.0
     def test_average_manual_product_revaluation_with_lots(self):
         self.product1.categ_id.property_cost_method = 'average'
 
@@ -897,7 +932,11 @@ class TestLotValuation(TestStockValuationCommon):
         self.assertEqual(self.lot2.standard_price, 5)
         self.assertEqual(self.lot2.value_svl, 20)
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(self.product1.standard_price, 5.86)
+=======
+        self.assertAlmostEqual(self.product1.standard_price, 5.8571429)
+>>>>>>> upstream/18.0
 =======
         self.assertAlmostEqual(self.product1.standard_price, 5.8571429)
 >>>>>>> upstream/18.0
@@ -915,6 +954,7 @@ class TestLotValuation(TestStockValuationCommon):
         self.assertEqual(self.lot1.value_svl, 70, "lot1 value changed")
         self.assertEqual(self.lot2.standard_price, 5.8, "lot2 cost changed")
         self.assertEqual(self.lot2.value_svl, 23.2, "lot2 value changed")
+<<<<<<< HEAD
 <<<<<<< HEAD
         self.assertEqual(self.product1.standard_price, 6.66, "product cost changed too")
 
@@ -1325,6 +1365,10 @@ class TestLotValuation(TestStockValuationCommon):
         self.assertAlmostEqual(self.product1.standard_price, 6.66, msg="product cost changed too")
 
 >>>>>>> upstream/18.0
+=======
+        self.assertAlmostEqual(self.product1.standard_price, 6.66, msg="product cost changed too")
+
+>>>>>>> upstream/18.0
     def test_lot_move_update_after_done(self):
         """validate a stock move. Edit the move line in done state."""
         move = self._make_in_move(self.product1, 8, 5, create_picking=True, lot_ids=[self.lot1, self.lot2])
@@ -1364,6 +1408,7 @@ class TestLotValuation(TestStockValuationCommon):
             {'value': 20, 'lot_id': self.lot3.id, 'quantity': 4},
         ])
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(self.product1.standard_price, 5)
 
         self._make_in_move(self.product1, 4, 4, create_picking=True, lot_ids=[self.lot3])
@@ -1372,6 +1417,8 @@ class TestLotValuation(TestStockValuationCommon):
         move = self._make_out_move(self.product1, 3, create_picking=True, lot_ids=[self.lot1])
         self.assertEqual(self.product1.standard_price, 4.56)
 =======
+=======
+>>>>>>> upstream/18.0
         self.assertAlmostEqual(self.product1.standard_price, 5)
 
         self._make_in_move(self.product1, 4, 4, create_picking=True, lot_ids=[self.lot3])
@@ -1379,6 +1426,9 @@ class TestLotValuation(TestStockValuationCommon):
 
         move = self._make_out_move(self.product1, 3, create_picking=True, lot_ids=[self.lot1])
         self.assertAlmostEqual(self.product1.standard_price, 4.5555556)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         quant = self.env['stock.quant'].search([
@@ -1390,7 +1440,11 @@ class TestLotValuation(TestStockValuationCommon):
             Command.update(move.move_line_ids.id, {'quant_id': quant.id}),
         ]
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(self.product1.standard_price, 4.72)
+=======
+        self.assertAlmostEqual(self.product1.standard_price, 4.7222222)
+>>>>>>> upstream/18.0
 =======
         self.assertAlmostEqual(self.product1.standard_price, 4.7222222)
 >>>>>>> upstream/18.0
@@ -1845,7 +1899,10 @@ class TestLotValuation(TestStockValuationCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2537,6 +2594,7 @@ class TestLotValuation(TestStockValuationCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2703,6 +2761,8 @@ class TestLotValuation(TestStockValuationCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3121,6 +3181,7 @@ class TestLotValuation(TestStockValuationCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3207,6 +3268,8 @@ class TestLotValuation(TestStockValuationCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3513,6 +3576,7 @@ class TestLotValuation(TestStockValuationCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3575,6 +3639,8 @@ class TestLotValuation(TestStockValuationCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3765,6 +3831,9 @@ class TestLotValuation(TestStockValuationCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

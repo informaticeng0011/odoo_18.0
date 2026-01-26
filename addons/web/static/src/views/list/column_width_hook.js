@@ -190,10 +190,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { useDebounced } from "@web/core/utils/timing";
 
 import { useComponent, useEffect, useExternalListener } from "@odoo/owl";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -771,12 +774,15 @@ import { localization } from "@web/core/l10n/localization";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { useComponent, useEffect, useExternalListener, xml } from "@odoo/owl";
 <<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1353,6 +1359,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1973,12 +1982,15 @@ const DELETE_BUTTON_WIDTH = 12;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const FIELD_WIDTHS = {
     boolean: [20, 100], // [minWidth, maxWidth]
     char: [80], // only minWidth, no maxWidth
     date: 80, // minWidth = maxWidth
     datetime: 145,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2569,6 +2581,9 @@ export const FIELD_WIDTHS = Object.freeze({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3154,8 +3169,11 @@ export const FIELD_WIDTHS = Object.freeze({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3744,6 +3762,7 @@ function computeOptimalDateWidths() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     // generate a date for each month if date format contains MMMM or MMM (full or abbrev. month)
     for (let month = 1; month <= (/(?<!')MMM/.test(dateFormat) ? 12 : 1); month++) {
         // generate a date for each day if date format contains cccc or ccc (full or abbrev. day)
@@ -3752,6 +3771,8 @@ function computeOptimalDateWidths() {
             datetimes.push(formatDateTime(luxon.DateTime.local(2017, month, day, 8, 0, 0)));
             if (/(?<!')a/.test(timeFormat)) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4323,6 +4344,9 @@ function computeOptimalDateWidths() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4723,6 +4747,7 @@ function computeOptimalDateWidths() {
     const datetimeSpans = div.querySelectorAll(".datetimes span");
     const datetimeWidths = [...datetimeSpans].map((span) => span.getBoundingClientRect().width);
     document.body.removeChild(div);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5299,6 +5324,8 @@ function computeOptimalDateWidths() {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     // add a 5% margin to cope with potential bold decorations
     _dateFieldWidth = Math.ceil(Math.max(...dateWidths) * 1.05);
     _datetimeFieldWidth = Math.ceil(Math.max(...datetimeWidths) * 1.05);
@@ -5476,6 +5503,9 @@ function computeOptimalDateWidths() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6169,8 +6199,11 @@ function getWidthSpecs(columns) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         width = width({ type: column.fieldType, hasLabel: column.hasLabel });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6749,6 +6782,9 @@ function getWidthSpecs(columns) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7275,6 +7311,7 @@ export function useMagicColumnWidths(tableRef, getState) {
         const resizeHeader = (ev) => {
             ev.preventDefault();
             ev.stopPropagation();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8236,6 +8273,10 @@ export function useMagicColumnWidths(tableRef, getState) {
             let delta = ev.clientX - initialX;
             delta = localization.direction === "rtl" ? -delta : delta;
 >>>>>>> upstream/18.0
+=======
+            let delta = ev.clientX - initialX;
+            delta = localization.direction === "rtl" ? -delta : delta;
+>>>>>>> upstream/18.0
             const newWidth = Math.max(10, initialWidth + delta);
             const tableDelta = newWidth - initialWidth;
             th.style.width = `${Math.floor(newWidth)}px`;
@@ -8441,9 +8482,15 @@ export function useMagicColumnWidths(tableRef, getState) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             columnWidths = headers.map((th) => {
                 return th.getBoundingClientRect().width - getHorizontalPadding(th);
             });
+=======
+            columnWidths = headers.map(
+                (th) => th.getBoundingClientRect().width - getHorizontalPadding(th)
+            );
+>>>>>>> upstream/18.0
 =======
             columnWidths = headers.map(
                 (th) => th.getBoundingClientRect().width - getHorizontalPadding(th)
@@ -9631,12 +9678,15 @@ export function useMagicColumnWidths(tableRef, getState) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const debouncedResizeCallback = useDebounced(() => {
             resetWidths();
             forceColumnWidths();
         }, 200);
         useExternalListener(window, "resize", debouncedResizeCallback);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10235,6 +10285,9 @@ export function useMagicColumnWidths(tableRef, getState) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

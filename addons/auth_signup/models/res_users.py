@@ -90,7 +90,11 @@ class ResUsers(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if not partner_user.login_date:
+=======
+                if not partner_user.login_date and partner_user._is_internal():
+>>>>>>> upstream/18.0
 =======
                 if not partner_user.login_date and partner_user._is_internal():
 >>>>>>> upstream/18.0
@@ -144,7 +148,10 @@ class ResUsers(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 partner_user._notify_inviter()
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -302,6 +309,7 @@ class ResUsers(models.Model):
                     mail.send()
             if signup_type == 'reset':
                 _logger.info("Password reset email sent for user <%s> to <%s>", user.login, user.email)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -713,6 +721,8 @@ class ResUsers(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 message = _('A reset password link was sent by email')
             else:
                 _logger.info("Signup email sent for user <%s> to <%s>", user.login, user.email)
@@ -852,6 +862,9 @@ class ResUsers(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1211,7 +1224,11 @@ class ResUsers(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.env['ir.cron']._commit_progress(deactivate=True)
+=======
+            self.env['ir.cron']._notify_progress(deactivate=True)
+>>>>>>> upstream/18.0
 =======
             self.env['ir.cron']._notify_progress(deactivate=True)
 >>>>>>> upstream/18.0
@@ -1587,6 +1604,7 @@ class ResUsers(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1713,6 +1731,11 @@ class ResUsers(models.Model):
         if 'active' in vals and not vals['active']:
             self.partner_id.sudo().signup_cancel()
 >>>>>>> upstream/18.0
+=======
+    def write(self, vals):
+        if 'active' in vals and not vals['active']:
+            self.partner_id.sudo().signup_cancel()
+>>>>>>> upstream/18.0
         return super().write(vals)
 
     @api.ondelete(at_uninstall=False)
@@ -1768,6 +1791,9 @@ class ResUsers(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

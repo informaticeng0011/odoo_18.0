@@ -38,7 +38,11 @@ class SupplierInfo(models.Model):
         help="The quantity to purchase from this vendor to benefit from the price, expressed in the vendor Product Unit of Measure if not any, in the default unit of measure of the product otherwise.")
     price = fields.Float(
 <<<<<<< HEAD
+<<<<<<< HEAD
         'Price', default=0.0, digits='Product Price',
+=======
+        'Price', default=0.0, min_display_digits='Product Price',
+>>>>>>> upstream/18.0
 =======
         'Price', default=0.0, min_display_digits='Product Price',
 >>>>>>> upstream/18.0

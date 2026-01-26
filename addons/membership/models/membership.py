@@ -29,7 +29,11 @@ class MembershipLine(models.Model):
         help="Date on which member has joined the membership")
     member_price = fields.Float(string='Membership Fee',
 <<<<<<< HEAD
+<<<<<<< HEAD
         digits='Product Price', required=True,
+=======
+        min_display_digits='Product Price', required=True,
+>>>>>>> upstream/18.0
 =======
         min_display_digits='Product Price', required=True,
 >>>>>>> upstream/18.0

@@ -59,7 +59,10 @@ class TestQwebFieldInteger(common.TransactionCase):
         )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 class TestQwebFieldFloatConverter(common.TransactionCase):
     def value_to_html(self, value, options=None):
@@ -95,6 +98,9 @@ class TestQwebFieldFloatConverter(common.TransactionCase):
         self.assertEqual(self.value_to_html(3.12349, options), '3.1235')
 
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 class TestQwebFieldContact(common.TransactionCase):
     @classmethod
@@ -233,7 +239,10 @@ class TestQwebFieldContact(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -608,6 +617,9 @@ class TestQwebFieldMany2One(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

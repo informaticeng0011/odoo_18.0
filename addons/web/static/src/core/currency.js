@@ -32,7 +32,12 @@ export function getCurrency(id) {
 export function formatCurrency(amount, currencyId, options = {}) {
     const currency = getCurrency(currencyId);
 <<<<<<< HEAD
+<<<<<<< HEAD
     const digits = options.digits || (currency && currency.digits);
+=======
+
+    const digits = (options.digits !== undefined)? options.digits : (currency && currency.digits)
+>>>>>>> upstream/18.0
 =======
 
     const digits = (options.digits !== undefined)? options.digits : (currency && currency.digits)
@@ -43,7 +48,11 @@ export function formatCurrency(amount, currencyId, options = {}) {
         formattedAmount = humanNumber(amount, { decimals: digits ? digits[1] : 2 });
     } else {
 <<<<<<< HEAD
+<<<<<<< HEAD
         formattedAmount = formatFloat(amount, { digits });
+=======
+        formattedAmount = formatFloat(amount, { digits, minDigits: options.minDigits});
+>>>>>>> upstream/18.0
 =======
         formattedAmount = formatFloat(amount, { digits, minDigits: options.minDigits});
 >>>>>>> upstream/18.0

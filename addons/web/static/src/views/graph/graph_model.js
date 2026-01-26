@@ -447,7 +447,11 @@ export class GraphModel extends Model {
             // based on the sum of values by group in ascending/descending order
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const groupedDataPoints = {};
+=======
+            const groupedDataPoints = Object.create(null);
+>>>>>>> upstream/18.0
 =======
             const groupedDataPoints = Object.create(null);
 >>>>>>> upstream/18.0

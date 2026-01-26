@@ -141,7 +141,11 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     invoice_edi_format = fields.Selection(selection_add=[('pint_my', "PINT Malaysia")])
+=======
+    invoice_edi_format = fields.Selection(selection_add=[('pint_my', "Malaysia (Peppol PINT MY)")])
+>>>>>>> upstream/18.0
 =======
     invoice_edi_format = fields.Selection(selection_add=[('pint_my', "Malaysia (Peppol PINT MY)")])
 >>>>>>> upstream/18.0
