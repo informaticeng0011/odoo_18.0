@@ -199,7 +199,11 @@ class ProductComboItem(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ondelete='cascade',
+=======
+        ondelete='restrict',
+>>>>>>> upstream/18.0
 =======
         ondelete='restrict',
 >>>>>>> upstream/18.0
@@ -764,6 +768,7 @@ class ProductComboItem(models.Model):
         string="Original Price",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         digits='Product Price',
         related='product_id.lst_price',
     )
@@ -771,11 +776,16 @@ class ProductComboItem(models.Model):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         min_display_digits='Product Price',
         related='product_id.lst_price',
     )
     extra_price = fields.Float(string="Extra Price", min_display_digits='Product Price', default=0.0)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

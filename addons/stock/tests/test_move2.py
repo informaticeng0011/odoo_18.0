@@ -877,7 +877,11 @@ class TestPickShip(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             move.quantity = move.product_uom_qty 
+=======
+            move.quantity = move.product_uom_qty
+>>>>>>> upstream/18.0
 =======
             move.quantity = move.product_uom_qty
 >>>>>>> upstream/18.0
@@ -2983,7 +2987,10 @@ class TestSinglePicking(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3225,6 +3232,9 @@ class TestSinglePicking(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3581,7 +3591,10 @@ class TestSinglePicking(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4224,6 +4237,9 @@ class TestSinglePicking(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5249,7 +5265,10 @@ class TestRoutes(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5291,6 +5310,9 @@ class TestRoutes(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5817,7 +5839,10 @@ class TestAutoAssign(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6146,8 +6171,13 @@ class TestPickShipBackorder(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "uom_id": cls.env.ref("uom.product_uom_unit").id,
                 "uom_po_id": cls.env.ref("uom.product_uom_unit").id,
+=======
+                "tracking": "lot",
+                "uom_id": cls.env.ref("uom.product_uom_unit").id,
+>>>>>>> upstream/18.0
 =======
                 "tracking": "lot",
                 "uom_id": cls.env.ref("uom.product_uom_unit").id,
@@ -6579,7 +6609,12 @@ class TestPickShipBackorder(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         cls.stock_location = cls.env.ref("stock.stock_location_stock")
+=======
+        cls.warehouse = cls.env["stock.warehouse"].search([], limit=1)
+        cls.stock_location = cls.warehouse.out_type_id.default_location_src_id or cls.warehouse.lot_stock_id
+>>>>>>> upstream/18.0
 =======
         cls.warehouse = cls.env["stock.warehouse"].search([], limit=1)
         cls.stock_location = cls.warehouse.out_type_id.default_location_src_id or cls.warehouse.lot_stock_id
@@ -7006,8 +7041,12 @@ class TestPickShipBackorder(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         warehouse = self.env["stock.warehouse"].search([], limit=1)
         warehouse.delivery_steps = "pick_ship"
+=======
+        self.warehouse.delivery_steps = "pick_ship"
+>>>>>>> upstream/18.0
 =======
         self.warehouse.delivery_steps = "pick_ship"
 >>>>>>> upstream/18.0
@@ -7349,8 +7388,13 @@ class TestPickShipBackorder(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     warehouse.company_id,
                     {"warehouse_id": warehouse, "group_id": pg},
+=======
+                    self.warehouse.company_id,
+                    {"warehouse_id": self.warehouse, "group_id": pg},
+>>>>>>> upstream/18.0
 =======
                     self.warehouse.company_id,
                     {"warehouse_id": self.warehouse, "group_id": pg},
@@ -7835,6 +7879,9 @@ class TestPickShipBackorder(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

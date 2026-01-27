@@ -165,6 +165,7 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     isEditorTab,
 >>>>>>> upstream/18.0
@@ -245,6 +246,10 @@ import {
 >>>>>>> upstream/18.0
 =======
     isEditorTab,
+>>>>>>> upstream/18.0
+=======
+    isEditorTab,
+    isPhrasingContent,
 >>>>>>> upstream/18.0
 =======
     isEditorTab,
@@ -888,6 +893,10 @@ export class DomPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        functional_empty_node_predicates: [isSelfClosingElement, isEditorTab],
+>>>>>>> upstream/18.0
 =======
         functional_empty_node_predicates: [isSelfClosingElement, isEditorTab],
 >>>>>>> upstream/18.0
@@ -1466,7 +1475,11 @@ export class DomPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const container = this.document.createElement("fake-element");
+=======
+        let container = this.document.createElement("fake-element");
+>>>>>>> upstream/18.0
 =======
         let container = this.document.createElement("fake-element");
 >>>>>>> upstream/18.0
@@ -2050,7 +2063,10 @@ export class DomPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2480,6 +2496,9 @@ export class DomPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2926,6 +2945,7 @@ export class DomPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const block = closestBlock(selection.anchorNode);
 
         const shouldUnwrap = (node) =>
@@ -2933,6 +2953,11 @@ export class DomPlugin extends Plugin {
                 isListItemElement(node) ||
                 // TODO remove: PRE should be a paragraphRelatedElement
                 node.nodeName === "PRE") &&
+=======
+
+        const shouldUnwrap = (node) =>
+            (isParagraphRelatedElement(node) || isListItemElement(node)) &&
+>>>>>>> upstream/18.0
 =======
 
         const shouldUnwrap = (node) =>
@@ -3793,10 +3818,14 @@ export class DomPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 // TODO add: when PRE is considered as a paragraphRelatedElement
                 // again, consider unwrapping in PRE by re-enabling the
                 // following condition:
                 // block.nodeName === "PRE" ||
+=======
+                block.nodeName === "PRE" ||
+>>>>>>> upstream/18.0
 =======
                 block.nodeName === "PRE" ||
 >>>>>>> upstream/18.0
@@ -4270,6 +4299,7 @@ export class DomPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (
             container.lastElementChild &&
             isBlock(container.lastElementChild) &&
@@ -4277,6 +4307,8 @@ export class DomPlugin extends Plugin {
         ) {
             fillEmpty(container.lastElementChild);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4410,6 +4442,9 @@ export class DomPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4755,6 +4790,7 @@ export class DomPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for (const insertedNode of allInsertedNodes.reverse()) {
             if (insertedNode.isConnected) {
                 currentNode = insertedNode;
@@ -4768,6 +4804,8 @@ export class DomPlugin extends Plugin {
                 ? rightPos(lastLeaf(currentNode))
                 : rightPos(currentNode);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4829,6 +4867,9 @@ export class DomPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5172,7 +5213,10 @@ export class DomPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5568,6 +5612,7 @@ export class DomPlugin extends Plugin {
         // reference a node that will be removed when setTagName eventually
         // calls clean of its own.
         this.dispatchTo("clean_handlers", closestElement(commonAncestorContainer));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6166,6 +6211,8 @@ export class DomPlugin extends Plugin {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const cursors = this.dependencies.selection.preserveSelection();
         const targetedBlocks = [...this.dependencies.selection.getTargetedBlocks()];
         const deepestTargetedBlocks = targetedBlocks.filter(
@@ -6174,6 +6221,7 @@ export class DomPlugin extends Plugin {
                 block.isContentEditable
         );
         for (const block of deepestTargetedBlocks) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6465,6 +6513,8 @@ export class DomPlugin extends Plugin {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6798,6 +6848,9 @@ export class DomPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7223,8 +7276,11 @@ export class DomPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             element.before(sep);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7738,6 +7794,9 @@ export class DomPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

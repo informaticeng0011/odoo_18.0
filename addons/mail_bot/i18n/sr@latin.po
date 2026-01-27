@@ -33,7 +33,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2023-10-26 21:55+0000\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+>>>>>>> upstream/18.0
 =======
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 >>>>>>> upstream/18.0
@@ -156,6 +160,7 @@ msgstr "Kanal diskusije"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model,name:mail_bot.model_mail_thread
 msgid "Email Thread"
 msgstr "Email niz"
@@ -169,6 +174,8 @@ msgid ""
 "conversation</b> or start the tour again with typing <span "
 "class=\"o_odoobot_command\">start the tour</span>. Enjoy discovering Odoo!"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -243,6 +250,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -294,6 +304,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/mail_bot/models/mail_bot.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -372,6 +383,8 @@ msgstr "HTTP rutiranje"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Great! 👍%(new_line)sTo access special commands, %(bold_start)sstart your "
 "sentence with%(bold_end)s %(command_start)s/%(command_end)s. Try getting "
 "help."
@@ -400,6 +413,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -489,8 +505,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "I'm not smart enough to answer your question.<br/>To follow my guide, ask: "
 "<span class=\"o_odoobot_command\">start the tour</span>."
+=======
+"I'm not smart enough to answer your question.%(new_line)sTo follow my guide, "
+"ask: %(command_start)sstart the tour%(command_end)s."
+>>>>>>> upstream/18.0
 =======
 "I'm not smart enough to answer your question.%(new_line)sTo follow my guide, "
 "ask: %(command_start)sstart the tour%(command_end)s."
@@ -622,8 +643,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Not exactly. To continue the tour, send an emoji: <b>type</b> <span "
 "class=\"o_odoobot_command\">:)</span> and press enter."
+=======
+"Not exactly. To continue the tour, send an emoji: %(bold_start)stype%"
+"(bold_end)s%(command_start)s :)%(command_end)s and press enter."
+>>>>>>> upstream/18.0
 =======
 "Not exactly. To continue the tour, send an emoji: %(bold_start)stype%"
 "(bold_end)s%(command_start)s :)%(command_end)s and press enter."
@@ -727,6 +753,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/mail_bot/models/mail_bot.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -867,6 +894,11 @@ msgid ""
 "and wait for the propositions. Select %(command_start)shelp%(command_end)s "
 "and press enter."
 >>>>>>> upstream/18.0
+=======
+"Not sure what you are doing. Please, type %(command_start)s/%(command_end)s "
+"and wait for the propositions. Select %(command_start)shelp%(command_end)s "
+"and press enter."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mail_bot
@@ -896,9 +928,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Not sure what you are doing. Please, type <span class=\"o_odoobot_command\">/"
 "</span> and wait for the propositions. Select <span "
 "class=\"o_odoobot_command\">help</span> and press enter"
+=======
+"Not sure what you are doing. Please, type %(command_start)s:%(command_end)s "
+"and wait for the propositions. Select one of them and press enter."
+>>>>>>> upstream/18.0
 =======
 "Not sure what you are doing. Please, type %(command_start)s:%(command_end)s "
 "and wait for the propositions. Select one of them and press enter."
@@ -1064,8 +1101,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "human language...<br/>I can show you features if you write: <span "
 "class=\"o_odoobot_command\">start the tour</span>."
+=======
+"human language...%(new_line)sI can show you features if you write: %"
+"(command_start)sstart the tour%(command_end)s."
+>>>>>>> upstream/18.0
 =======
 "human language...%(new_line)sI can show you features if you write: %"
 "(command_start)sstart the tour%(command_end)s."
@@ -1187,8 +1229,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Sorry, I am not listening. To get someone's attention, <b>ping him</b>. "
 "Write <span class=\"o_odoobot_command\">@OdooBot</span> and select me."
+=======
+"Sorry, I am not listening. To get someone's attention, %(bold_start)sping "
+"him%(bold_end)s. Write %(command_start)s@OdooBot%(command_end)s and select "
+"me."
+>>>>>>> upstream/18.0
 =======
 "Sorry, I am not listening. To get someone's attention, %(bold_start)sping "
 "him%(bold_end)s. Write %(command_start)s@OdooBot%(command_end)s and select "
@@ -1357,8 +1405,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "To <b>send an attachment</b>, click on the <i class=\"fa fa-paperclip\" aria-"
 "hidden=\"true\"></i> icon and select a file."
+=======
+"To %(bold_start)ssend an attachment%(bold_end)s, click on the %"
+"(paperclip_icon)s icon and select a file."
+>>>>>>> upstream/18.0
 =======
 "To %(bold_start)ssend an attachment%(bold_end)s, click on the %"
 "(paperclip_icon)s icon and select a file."
@@ -1493,9 +1546,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "discovering our product, please check <a href=\"https://www.odoo.com/"
 "documentation\" target=\"_blank\">our documentation</a> or <a href=\"https://"
 "www.odoo.com/slides\" target=\"_blank\">our videos</a>."
+=======
+"discovering our product, please check %(document_link_start)sour "
+"documentation%(document_link_end)s or %(slides_link_start)sour videos%"
+"(slides_link_end)s."
+>>>>>>> upstream/18.0
 =======
 "discovering our product, please check %(document_link_start)sour "
 "documentation%(document_link_end)s or %(slides_link_start)sour videos%"
@@ -1645,8 +1704,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Wonderful! 😇<br/>Try typing %s to use canned responses. I've created a "
 "temporary one for you."
+=======
+"Wonderful! 😇%(new_line)sTry typing %(command_start)s:%(command_end)s to use "
+"canned responses. I've created a temporary one for you."
+>>>>>>> upstream/18.0
 =======
 "Wonderful! 😇%(new_line)sTry typing %(command_start)s:%(command_end)s to use "
 "canned responses. I've created a temporary one for you."
@@ -1745,6 +1809,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/mail_bot/models/mail_bot.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1886,6 +1951,11 @@ msgid ""
 "attention. %(bold_start)sTry to ping me using%(bold_end)s %"
 "(command_start)s@OdooBot%(command_end)s in a sentence."
 >>>>>>> upstream/18.0
+=======
+"Wow you are a natural!%(new_line)sPing someone with @username to grab their "
+"attention. %(bold_start)sTry to ping me using%(bold_end)s %"
+"(command_start)s@OdooBot%(command_end)s in a sentence."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mail_bot
@@ -1915,8 +1985,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Yep, I am here! 🎉 <br/>Now, try <b>sending an attachment</b>, like a "
 "picture of your cute dog..."
+=======
+"Yep, I am here! 🎉 %(new_line)sNow, try %(bold_start)ssending an attachment%"
+"(bold_end)s, like a picture of your cute dog..."
+>>>>>>> upstream/18.0
 =======
 "Yep, I am here! 🎉 %(new_line)sNow, try %(bold_start)ssending an attachment%"
 "(bold_end)s, like a picture of your cute dog..."
@@ -2063,7 +2138,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2136,6 +2214,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

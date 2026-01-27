@@ -23,7 +23,11 @@ patch(NewContentModal.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             {default_is_published: true});
+=======
+        );
+>>>>>>> upstream/18.0
 =======
         );
 >>>>>>> upstream/18.0

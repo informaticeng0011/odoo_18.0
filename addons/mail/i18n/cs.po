@@ -137,8 +137,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* mail
 # 
+=======
+# * mail
+#
+>>>>>>> upstream/18.0
 =======
 # * mail
 #
@@ -880,6 +885,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Marta Wacławek, 2025
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1468,6 +1474,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # Denis Gobin, 2025
 # Marta Wacławek, 2025
 # Vojtěch Olšan <vojtech.olsan@systee.cz>, 2025.
@@ -1573,6 +1581,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1617,6 +1626,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
@@ -1859,6 +1871,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2943,11 +2956,17 @@ msgstr ""
 "PO-Revision-Date: 2025-12-31 13:10+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2026-01-15 18:38+0000\n"
+"PO-Revision-Date: 2025-12-31 13:10+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Czech <https://translate.odoo.com/projects/odoo-18/mail/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3471,6 +3490,11 @@ msgstr ""
 "<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
+"<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-python
@@ -3617,11 +3641,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                To protect you from spam and reply loops, Odoo automatically blocks emails\n"
 "                coming to your gateway past a threshold of <b>%(threshold)i</b> emails every <b>%(minutes)i</b>\n"
 "                minutes. If there are some addresses from which you need to receive very frequent\n"
 "                updates, you can however add them below and Odoo will let them go through.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4038,6 +4065,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4454,11 +4484,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                Abyste byli chráněni před spamem a smyčkami odpovědí, Odoo automaticky blokuje e-maily\n"
 "                přicházející do vaší brány po překročení prahové hodnoty  <b>%(threshold)i</b> e-mailů každé <b>%(minutes)i</b>\n"
 "                minut.Pokud existují některé adresy, ze kterých potřebujete dostávat velmi často\n"
 "                aktualizace, můžete je však přidat níže a Odoo je nechá projít.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4875,6 +4908,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5264,7 +5300,11 @@ msgid "%(activity)s, assigned to %(name)s, due on the %(deadline)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%(activity)s, přiřazené k %(name)s, splatné do %(deadline)s"
+=======
+msgstr "%(activity)s, přiřazené k %(name)s, s termínem do %(deadline)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(activity)s, přiřazené k %(name)s, s termínem do %(deadline)s"
 >>>>>>> upstream/18.0
@@ -5711,8 +5751,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "%(emoji)s reacted by %(person1)s, %(person2)s, %(person3)s, and 1 other"
+=======
+msgid "%(emoji)s reacted by %(person1)s, %(person2)s, %(person3)s, and 1 other"
+>>>>>>> upstream/18.0
 =======
 msgid "%(emoji)s reacted by %(person1)s, %(person2)s, %(person3)s, and 1 other"
 >>>>>>> upstream/18.0
@@ -6286,12 +6330,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "someone, and grab their attention.%(new_line)sType "
 "%(bold_start)s#channel%(bold_end)s to mention a channel.%(new_line)sType "
 "%(bold_start)s/command%(bold_end)s to execute a command.%(new_line)sType "
 "%(bold_start)s:shortcut%(bold_end)s to insert a canned response in your "
 "message."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6704,6 +6751,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7120,8 +7170,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "%(open_button)s%(icon)s%(open_em)sDiscard "
 "editing%(close_em)s%(close_button)s"
+=======
+"%(open_button)s%(icon)s%(open_em)sDiscard editing%(close_em)s%(close_button)s"
+>>>>>>> upstream/18.0
 =======
 "%(open_button)s%(icon)s%(open_em)sDiscard editing%(close_em)s%(close_button)s"
 >>>>>>> upstream/18.0
@@ -7677,6 +7731,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "%(open_samp)sEscape%(close_samp)s %(open_em)sto "
 "%(open_cancel)scancel%(close_cancel)s%(close_em)s, %(open_samp)sCTRL-"
 "Enter%(close_samp)s %(open_em)sto "
@@ -7687,6 +7742,8 @@ msgstr ""
 "Enter%(close_samp)s %(open_em)spro "
 "%(open_save)suložení%(close_save)s%(close_em)s"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8102,6 +8159,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8380,6 +8440,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/mail/static/src/core/common/composer.js:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8798,6 +8859,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "%(open_samp)sEscape%(close_samp)s %(open_em)sto %(open_cancel)scancel%"
 "(close_cancel)s%(close_em)s, %(open_samp)sEnter%(close_samp)s %(open_em)sto %"
 "(open_save)ssave%(close_save)s%(close_em)s"
@@ -8940,6 +9003,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9224,6 +9290,7 @@ msgstr "%(recipientCount)s více"
 #. module: mail
 #. odoo-javascript
 #: code:addons/mail/static/src/discuss/core/web/discuss_core_web_service.js:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9913,11 +9980,16 @@ msgstr ""
 msgid "%(user)s just connected for the first time. Wish them luck!"
 msgstr ""
 >>>>>>> upstream/18.0
+=======
+msgid "%(user)s just connected for the first time. Wish them luck!"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-python
 #: code:addons/mail/models/discuss/discuss_channel.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10333,6 +10405,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "%(user)s started a thread: %(goto)s%(thread_name)s%(goto_end)s. %"
 "(goto_all)sSee all threads%(goto_all_end)s."
 msgstr ""
@@ -10474,6 +10548,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11042,8 +11119,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<b invisible=\"not no_record\" class=\"text-warning\">Žádný záznam pro tento"
 " model</b>"
+=======
+"<b invisible=\"not no_record\" class=\"text-warning\">Žádný záznam pro tento "
+"model</b>"
+>>>>>>> upstream/18.0
 =======
 "<b invisible=\"not no_record\" class=\"text-warning\">Žádný záznam pro tento "
 "model</b>"
@@ -11737,8 +11819,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<button>Změňte své preference</button>, abyste obdrželi nové oznámení ve své"
 " schránce."
+=======
+"<button>Změňte své preference</button>, abyste obdrželi nové oznámení ve své "
+"schránce."
+>>>>>>> upstream/18.0
 =======
 "<button>Změňte své preference</button>, abyste obdrželi nové oznámení ve své "
 "schránce."
@@ -12453,6 +12540,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<p><b>Chat with coworkers</b> in real-time using direct "
 "messages.</p><p><i>You might need to invite users from the Settings app "
 "first.</i></p>"
@@ -12461,6 +12549,8 @@ msgstr ""
 "zpráv.</p><p><i>Nejprve musíte pozvat uživatele v nastavení "
 "aplikace.</i></p>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12874,6 +12964,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13289,8 +13382,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<p><b>Write a message</b> to the members of the channel here.</p> <p>You can"
 " notify someone with <i>'@'</i> or link another channel with <i>'#'</i>. "
+=======
+"<p><b>Write a message</b> to the members of the channel here.</p> <p>You can "
+"notify someone with <i>'@'</i> or link another channel with <i>'#'</i>. "
+>>>>>>> upstream/18.0
 =======
 "<p><b>Write a message</b> to the members of the channel here.</p> <p>You can "
 "notify someone with <i>'@'</i> or link another channel with <i>'#'</i>. "
@@ -13986,6 +14084,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<p>Channels make it easy to organize information across different topics and"
 " groups.</p> <p>Try to <b>create your first channel</b> (e.g. sales, "
 "marketing, product XYZ, after work party, etc).</p>"
@@ -13993,6 +14092,8 @@ msgstr ""
 "<p>Kanály usnadňují uspořádání informací v různých tématech a skupinách.</p>"
 " <p>Zkuste si <b>vytvořit první kanál</b> (např. prodej, marketing, produkt "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14407,6 +14508,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14867,6 +14971,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                The message will be sent as an email to the recipients of the\n"
 "                                template and will not appear in the messaging history.\n"
 "                            </span>\n"
@@ -14891,6 +14996,8 @@ msgstr ""
 "                                Tato zpráva bude odeslána jako zpráva v záznamu,\n"
 "                                uvědomující všechny uživatele. Zobrazí se v historii zpráv.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15333,6 +15440,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15824,8 +15934,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Chat by neměl být vytvořen s více než 2 osobami. Místo toho vytvořte "
 "skupinu."
+=======
+"Chat by neměl být vytvořen s více než 2 osobami. Místo toho vytvořte skupinu."
+>>>>>>> upstream/18.0
 =======
 "Chat by neměl být vytvořen s více než 2 osobami. Místo toho vytvořte skupinu."
 >>>>>>> upstream/18.0
@@ -16409,12 +16523,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A valid Google API key is required to enable message translation. "
 "https://cloud.google.com/translate/docs/setup"
 msgstr ""
 "K aktivaci překladu zpráv je vyžadovaný platný klíč Google API. "
 "https://cloud.google.com/translate/docs/setup"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16828,6 +16945,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17483,11 +17603,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    (e.g. \"Onboarding\", \"Prospect Follow-up\", \"Project Milestone Meeting\", ...)"
 msgstr ""
 "Plány aktivit se používají k připsání seznamu aktivit za pár kliknutí\n"
 "                    (např. \"Onboarding\", \"Následné kroky u prospektu\", \"Setkání pro milník projektu\", ...)"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17902,6 +18025,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18368,12 +18494,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Add a Tenor GIF API key to enable GIFs support. "
 "https://developers.google.com/tenor/guides/quickstart#setup"
 msgstr ""
 "Přidejte Tenor GIF API klíč, abyste umožnili podporu GIFů v Odoo. "
 "https://developers.google.com/tenor/guides/quickstart#setup"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18787,6 +18916,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19270,8 +19402,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Není možné přidat sledující k kanálu. Zvažte místo toho přidání členů."
+=======
+msgstr "Není možné přidat sledující k kanálu. Zvažte místo toho přidání členů."
+>>>>>>> upstream/18.0
 =======
 msgstr "Není možné přidat sledující k kanálu. Zvažte místo toho přidání členů."
 >>>>>>> upstream/18.0
@@ -19920,6 +20056,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Alias %(matching_name)s (%(current_id)s) is already linked with "
 "%(alias_model_name)s (%(matching_id)s) and used by the %(parent_name)s "
 "%(parent_model_name)s."
@@ -19928,6 +20065,8 @@ msgstr ""
 "%(alias_model_name)s (%(matching_id)s) a používán přes %(parent_name)s "
 "%(parent_model_name)s."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20343,6 +20482,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20758,12 +20900,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Alias %(matching_name)s (%(current_id)s) is already linked with "
 "%(alias_model_name)s (%(matching_id)s)."
 msgstr ""
 "Alias %(matching_name)s (%(current_id)s) je už propojen s "
 "%(alias_model_name)s (%(matching_id)s)."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21177,6 +21322,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21793,8 +21941,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Archivováno protože %(user_name)s (#%(user_id)s) smazal/a účet portálu"
+=======
+msgstr "Archivováno protože %(user_name)s (#%(user_id)s) smazal/a účet portálu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Archivováno protože %(user_name)s (#%(user_id)s) smazal/a účet portálu"
 >>>>>>> upstream/18.0
@@ -22512,8 +22664,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Author of the message. If not set, email_from may hold an email address that"
 " did not match any partner."
+=======
+"Author of the message. If not set, email_from may hold an email address that "
+"did not match any partner."
+>>>>>>> upstream/18.0
 =======
 "Author of the message. If not set, email_from may hold an email address that "
 "did not match any partner."
@@ -23234,7 +23391,11 @@ msgid "Batch composition"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Složení šarže"
+>>>>>>> upstream/18.0
 =======
 msgstr "Složení šarže"
 >>>>>>> upstream/18.0
@@ -23465,6 +23626,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Dávkový protokol nepodporuje přílohy ani sledovací hodnoty u více než 1 "
+"dokumentu."
+>>>>>>> upstream/18.0
 =======
 "Dávkový protokol nepodporuje přílohy ani sledovací hodnoty u více než 1 "
 "dokumentu."
@@ -24250,8 +24416,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Blokováno smazáním účtu portálu %(portal_user_name)s přes %(user_name)s "
 "(#%(user_id)s)"
+=======
+"Blokováno smazáním účtu portálu %(portal_user_name)s přes %(user_name)s (#%"
+"(user_id)s)"
+>>>>>>> upstream/18.0
 =======
 "Blokováno smazáním účtu portálu %(portal_user_name)s přes %(user_name)s (#%"
 "(user_id)s)"
@@ -25011,12 +25182,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Bounce/Catchall '%(matching_alias_name)s' is already used by "
 "%(document_name)s. Choose another alias or change it on the other document."
 msgstr ""
 "Bounce/Catchall '%(matching_alias_name)s' se již používá "
 "pro%(document_name)s. Použijte jiný alias nebo změňte jej na jiný dokument."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25430,6 +25604,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25848,8 +26025,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Bounce/Catchall '%(matching_alias_name)s' se již používá. Vyberte jiný alias"
 " nebo změňte jej na propojeným modelu."
+=======
+"Bounce/Catchall '%(matching_alias_name)s' se již používá. Vyberte jiný alias "
+"nebo změňte jej na propojeným modelu."
+>>>>>>> upstream/18.0
 =======
 "Bounce/Catchall '%(matching_alias_name)s' se již používá. Vyberte jiný alias "
 "nebo změňte jej na propojeným modelu."
@@ -26699,8 +26881,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "in your messages. Type ':' followed by the name of your shortcut (e.g. "
 ":hello) to use in your messages."
+=======
+"in your messages. Type ':' followed by the name of your shortcut "
+"(e.g. :hello) to use in your messages."
+>>>>>>> upstream/18.0
 =======
 "in your messages. Type ':' followed by the name of your shortcut "
 "(e.g. :hello) to use in your messages."
@@ -27400,9 +27587,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    your messages by typing <i>:shortcut</i>. The shortcut is\n"
 "                    replaced directly in your message, so that you can still edit\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -27815,6 +28005,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -28253,8 +28446,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Cannot create %(channels)s: parent should not be a sub-channel and should be"
 " of type 'channel'."
+=======
+"Cannot create %(channels)s: parent should not be a sub-channel and should be "
+"of type 'channel'."
+>>>>>>> upstream/18.0
 =======
 "Cannot create %(channels)s: parent should not be a sub-channel and should be "
 "of type 'channel'."
@@ -29091,8 +29289,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Chat is private and unique between 2 persons. Group is private among invited"
 " persons. Channel can be freely joined (depending on its configuration)."
+=======
+"Chat is private and unique between 2 persons. Group is private among invited "
+"persons. Channel can be freely joined (depending on its configuration)."
+>>>>>>> upstream/18.0
 =======
 "Chat is private and unique between 2 persons. Group is private among invited "
 "persons. Channel can be freely joined (depending on its configuration)."
@@ -29968,8 +30171,12 @@ msgid "Companies using this domain as default for sending mails"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Společnosti používající tuto doménu jako výchozí pro odesílání e-mailů"
+=======
+msgstr "Společnosti používající tuto doménu jako výchozí pro odesílání e-mailů"
+>>>>>>> upstream/18.0
 =======
 msgstr "Společnosti používající tuto doménu jako výchozí pro odesílání e-mailů"
 >>>>>>> upstream/18.0
@@ -30715,8 +30922,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Obsah, který automaticky nahradí vámi zvolenou zkratku. Tento obsah může být"
 " přizpůsoben před odesláním zprávy."
+=======
+"Obsah, který automaticky nahradí vámi zvolenou zkratku. Tento obsah může být "
+"přizpůsoben před odesláním zprávy."
+>>>>>>> upstream/18.0
 =======
 "Obsah, který automaticky nahradí vámi zvolenou zkratku. Tento obsah může být "
 "přizpůsoben před odesláním zprávy."
@@ -31430,7 +31642,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Nepodařilo se získat vaše e-maily. Zkontrolujte chybové hlášení níže pro více informací:\n"
+=======
+"Nepodařilo se získat vaše e-maily. Zkontrolujte chybové hlášení níže pro "
+"více informací:\n"
+>>>>>>> upstream/18.0
 =======
 "Nepodařilo se získat vaše e-maily. Zkontrolujte chybové hlášení níže pro "
 "více informací:\n"
@@ -32507,8 +32724,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Default from when it does not match outgoing server filters. Can be either a"
 " local-part e.g. 'notifications' either a complete email address e.g. "
+=======
+"Default from when it does not match outgoing server filters. Can be either a "
+"local-part e.g. 'notifications' either a complete email address e.g. "
+>>>>>>> upstream/18.0
 =======
 "Default from when it does not match outgoing server filters. Can be either a "
 "local-part e.g. 'notifications' either a complete email address e.g. "
@@ -33335,7 +33557,11 @@ msgid "Delete Template"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Smazat šablonu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Smazat šablonu"
 >>>>>>> upstream/18.0
@@ -34091,6 +34317,7 @@ msgstr "Zmazat všechny náhledy"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -34709,6 +34936,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/mail/static/src/core/common/message.xml:0
 msgid "Deleted document"
 msgstr "Odstraněný dokument"
@@ -34737,6 +34966,9 @@ msgstr "Odstraněný dokument"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -34826,6 +35058,7 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields,help:mail.field_discuss_channel__default_display_mode
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -35241,6 +35474,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Determines how the channel will be displayed by default when opening it from "
 "its invitation link. No value means display text (no voice/video)."
 msgstr ""
@@ -35382,6 +35617,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -36021,7 +36259,11 @@ msgid "Due in %s days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Splatnost za %s dní"
+=======
+msgstr "Termín za %s dní"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termín za %s dní"
 >>>>>>> upstream/18.0
@@ -36375,7 +36617,11 @@ msgid "Due on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Splatné"
+=======
+msgstr "Termín"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termín"
 >>>>>>> upstream/18.0
@@ -37002,12 +37248,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Email address to which replies will be redirected when sending emails in "
 "mass"
 msgstr ""
 "E-mailová adresa, na kterou budou přesměrovány odpovědi na masově zaslané "
 "e-maily"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -37420,6 +37669,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -37838,8 +38090,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "E-mailové adresy, na které budou přesměrovány odpovědi na masově zaslané "
 "e-maily; používá se pouze v případě, že odpověď není zaznamenaná v původním "
+=======
+"E-mailové adresy, na které budou přesměrovány odpovědi na masově zaslané e-"
+"maily; používá se pouze v případě, že odpověď není zaznamenaná v původním "
+>>>>>>> upstream/18.0
 =======
 "E-mailové adresy, na které budou přesměrovány odpovědi na masově zaslané e-"
 "maily; používá se pouze v případě, že odpověď není zaznamenaná v původním "
@@ -38532,8 +38789,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "E-mailové adresy, které jsou na černé listině, nebudou již dostávat "
 "e-mailovou komunikaci."
+=======
+"E-mailové adresy, které jsou na černé listině, nebudou již dostávat e-"
+"mailovou komunikaci."
+>>>>>>> upstream/18.0
 =======
 "E-mailové adresy, které jsou na černé listině, nebudou již dostávat e-"
 "mailovou komunikaci."
@@ -39538,8 +39800,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Důvod selhání. Toto je obvykle výjimka vyvolaná e-mailovým serverem, uložená"
 " pro usnadnění ladění problémů s poštou."
+=======
+"Důvod selhání. Toto je obvykle výjimka vyvolaná e-mailovým serverem, uložená "
+"pro usnadnění ladění problémů s poštou."
+>>>>>>> upstream/18.0
 =======
 "Důvod selhání. Toto je obvykle výjimka vyvolaná e-mailovým serverem, uložená "
 "pro usnadnění ladění problémů s poštou."
@@ -40324,8 +40591,12 @@ msgstr "Pole"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "File from where the template originates. Used to reset broken template."
+=======
+msgid "File from where the template originates. Used to reset broken template."
+>>>>>>> upstream/18.0
 =======
 msgid "File from where the template originates. Used to reset broken template."
 >>>>>>> upstream/18.0
@@ -41452,8 +41723,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "ID of the parent record holding the alias (example: project holding the task"
 " creation alias)"
+=======
+"ID of the parent record holding the alias (example: project holding the task "
+"creation alias)"
+>>>>>>> upstream/18.0
 =======
 "ID of the parent record holding the alias (example: project holding the task "
 "creation alias)"
@@ -42237,8 +42513,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Pokud je nastaveno, člen nebude dostávat oznámení z kanálu až do tohoto "
 "data."
+=======
+"Pokud je nastaveno, člen nebude dostávat oznámení z kanálu až do tohoto data."
+>>>>>>> upstream/18.0
 =======
 "Pokud je nastaveno, člen nebude dostávat oznámení z kanálu až do tohoto data."
 >>>>>>> upstream/18.0
@@ -42829,6 +43109,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If set, will restrict the template to this specific user."
 "                                                   If not set, shared with "
 "all users."
@@ -42837,6 +43118,8 @@ msgstr ""
 "                                           Pokud není nastaveno, šablona je "
 "sdílena se všemi uživateli."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -43252,6 +43535,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -43755,8 +44041,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "režimu masového zasílaní e-mailů: Pokud je nastaveno, e-maily budou odeslány"
 " po tomto datu. Toto datum je považováno za datum v časovém pásmu UTC."
+=======
+"režimu masového zasílaní e-mailů: Pokud je nastaveno, e-maily budou odeslány "
+"po tomto datu. Toto datum je považováno za datum v časovém pásmu UTC."
+>>>>>>> upstream/18.0
 =======
 "režimu masového zasílaní e-mailů: Pokud je nastaveno, e-maily budou odeslány "
 "po tomto datu. Toto datum je považováno za datum v časovém pásmu UTC."
@@ -44516,7 +44807,11 @@ msgid "Install Odoo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Instalovat ODoo"
+=======
+msgstr "Instalovat Odoo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Instalovat Odoo"
 >>>>>>> upstream/18.0
@@ -45056,8 +45351,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Neplatný zdroj šablony nebo zobrazení %(svalue)s (typ %(stype)s), měl by být"
 " záznamem nebo XMLID."
+=======
+"Neplatný zdroj šablony nebo zobrazení %(svalue)s (typ %(stype)s), měl by být "
+"záznamem nebo XMLID."
+>>>>>>> upstream/18.0
 =======
 "Neplatný zdroj šablony nebo zobrazení %(svalue)s (typ %(stype)s), měl by být "
 "záznamem nebo XMLID."
@@ -45755,12 +46055,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Invalid template or view source record %(svalue)s, is %(model)s instead"
 msgstr ""
 "Neplatná šablona nebo záznam zobrazení zdroje %(svalue)s, místo toho je "
 "%(model)s"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -46173,6 +46476,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -46590,8 +46896,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Neplatná šablona nebo odkaz na zdroj zobrazení %(svalue)s, místo toho je "
 "%(model)s"
+=======
+"Neplatná šablona nebo odkaz na zdroj zobrazení %(svalue)s, místo toho je %"
+"(model)s"
+>>>>>>> upstream/18.0
 =======
 "Neplatná šablona nebo odkaz na zdroj zobrazení %(svalue)s, místo toho je %"
 "(model)s"
@@ -47323,7 +47634,11 @@ msgid "Is sending user video"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odesílání uživatelského videa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odesílání uživatelského videa"
 >>>>>>> upstream/18.0
@@ -47545,8 +47860,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "související kanál. Abychom mohli pokračovat, ujistěte se prosím, že zadáváte"
 " všechny potřebné informace o kanálu"
+=======
+"související kanál. Abychom mohli pokračovat, ujistěte se prosím, že zadáváte "
+"všechny potřebné informace o kanálu"
+>>>>>>> upstream/18.0
 =======
 "související kanál. Abychom mohli pokračovat, ujistěte se prosím, že zadáváte "
 "všechny potřebné informace o kanálu"
@@ -48237,6 +48557,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- p256dh: It's the subscription public key generated by the browser. The browser will \n"
 "          keep the private key secret and use it for decrypting the payload\n"
 "- auth: The auth value should be treated as a secret and not shared outside of Odoo"
@@ -48247,6 +48568,8 @@ msgstr ""
 "          soukromý klíč uchová v tajnosti a použije jej k dešifrování payloadu.\n"
 "- auth: Hodnota auth by měla být považována za tajnou a neměla by být sdílena mimo Odoo."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -48669,6 +48992,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -49254,7 +49580,11 @@ msgid "List Activity"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Seznam aktivit"
+>>>>>>> upstream/18.0
 =======
 msgstr "Seznam aktivit"
 >>>>>>> upstream/18.0
@@ -49521,6 +49851,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Místní část e-mailu použitá pro funkci \"Odpovědět\" k zachycení odpovědí, "
+"např. \"catchall\" v „catchall@example.com“."
+>>>>>>> upstream/18.0
 =======
 "Místní část e-mailu použitá pro funkci \"Odpovědět\" k zachycení odpovědí, "
 "např. \"catchall\" v „catchall@example.com“."
@@ -50293,6 +50628,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Místní část e-mailu používaná pro Return-Path, která se používá při vrácení "
+"e-mailů, např. „bounce“ v „bounce@example.com“."
+>>>>>>> upstream/18.0
 =======
 "Místní část e-mailu používaná pro Return-Path, která se používá při vrácení "
 "e-mailů, např. „bounce“ v „bounce@example.com“."
@@ -51006,7 +51346,11 @@ msgid "Lower Hand"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dolní ruka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dolní ruka"
 >>>>>>> upstream/18.0
@@ -51254,6 +51598,7 @@ msgstr "Poštovní schránky"
 #. odoo-python
 #: code:addons/mail/models/mail_thread.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -51669,6 +52014,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Mailing or posting with a source should not be called with an empty %"
 "(source_type)s"
 msgstr ""
@@ -51810,6 +52157,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -52327,8 +52677,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Členové těchto skupin budou automaticky přidáni jako odběratelé zpráv. Ti si"
 " pak budou moci sami spravovat své přihlášení k odběrům v případě potřeby."
+=======
+"Členové těchto skupin budou automaticky přidáni jako odběratelé zpráv. Ti si "
+"pak budou moci sami spravovat své přihlášení k odběrům v případě potřeby."
+>>>>>>> upstream/18.0
 =======
 "Členové těchto skupin budou automaticky přidáni jako odběratelé zpráv. Ti si "
 "pak budou moci sami spravovat své přihlášení k odběrům v případě potřeby."
@@ -53177,8 +53532,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "system notifications. For example, it can be a notification related to a new"
 " record (New), or to a stage change in a process (Stage change). Message "
+=======
+"system notifications. For example, it can be a notification related to a new "
+"record (New), or to a stage change in a process (Stage change). Message "
+>>>>>>> upstream/18.0
 =======
 "system notifications. For example, it can be a notification related to a new "
 "record (New), or to a stage change in a process (Stage change). Message "
@@ -53868,8 +54228,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "oznámení. Může to být třeba oznámení při vytvoření nového záznamu (New) nebo"
 " při změně fáze určitého procesu (Stage change). Poddruh zpráv umožňuje "
+=======
+"oznámení. Může to být třeba oznámení při vytvoření nového záznamu (New) nebo "
+"při změně fáze určitého procesu (Stage change). Poddruh zpráv umožňuje "
+>>>>>>> upstream/18.0
 =======
 "oznámení. Může to být třeba oznámení při vytvoření nového záznamu (New) nebo "
 "při změně fáze určitého procesu (Stage change). Poddruh zpráv umožňuje "
@@ -54577,8 +54942,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Druh zprávy: 'E-mail' pro e-mailové zprávy, 'Upozornění' pro zprávy systému,"
 " 'Komentář' pro ostatní zprávy, jako odpovědi uživatelů."
+=======
+"Druh zprávy: 'E-mail' pro e-mailové zprávy, 'Upozornění' pro zprávy systému, "
+"'Komentář' pro ostatní zprávy, jako odpovědi uživatelů."
+>>>>>>> upstream/18.0
 =======
 "Druh zprávy: 'E-mail' pro e-mailové zprávy, 'Upozornění' pro zprávy systému, "
 "'Komentář' pro ostatní zprávy, jako odpovědi uživatelů."
@@ -55319,8 +55689,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Zprávy s interními podtypy budou viditelné pouze pro zaměstnance, jako např."
 " členy skupiny base_user"
+=======
+"Zprávy s interními podtypy budou viditelné pouze pro zaměstnance, jako např. "
+"členy skupiny base_user"
+>>>>>>> upstream/18.0
 =======
 "Zprávy s interními podtypy budou viditelné pouze pro zaměstnance, jako např. "
 "členy skupiny base_user"
@@ -56396,8 +56771,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Není uveden žádný zodpovědný za %(activity_type_name)s: "
 "%(activity_summary)s."
+=======
+"Není uveden žádný zodpovědný za %(activity_type_name)s: %(activity_summary)s."
+>>>>>>> upstream/18.0
 =======
 "Není uveden žádný zodpovědný za %(activity_type_name)s: %(activity_summary)s."
 >>>>>>> upstream/18.0
@@ -57108,8 +57487,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Oznámení by mělo přijímat přílohy jako seznam seznamů nebo n-tic (přijato "
 "%(aids)s)"
+=======
+"Oznámení by mělo přijímat přílohy jako seznam seznamů nebo n-tic (přijato %"
+"(aids)s)"
+>>>>>>> upstream/18.0
 =======
 "Oznámení by mělo přijímat přílohy jako seznam seznamů nebo n-tic (přijato %"
 "(aids)s)"
@@ -57800,8 +58184,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Notification should receive attachments records as a list of IDs (received "
 "%(aids)s)"
+=======
+"Notification should receive attachments records as a list of IDs (received %"
+"(aids)s)"
+>>>>>>> upstream/18.0
 =======
 "Notification should receive attachments records as a list of IDs (received %"
 "(aids)s)"
@@ -58494,8 +58883,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Notification should receive partners given as a list of IDs (received "
 "%(pids)s)"
+=======
+"Notification should receive partners given as a list of IDs (received %"
+"(pids)s)"
+>>>>>>> upstream/18.0
 =======
 "Notification should receive partners given as a list of IDs (received %"
 "(pids)s)"
@@ -59252,8 +59646,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Number of days/week/month before executing the action. It allows to plan the"
 " action deadline."
+=======
+"Number of days/week/month before executing the action. It allows to plan the "
+"action deadline."
+>>>>>>> upstream/18.0
 =======
 "Number of days/week/month before executing the action. It allows to plan the "
 "action deadline."
@@ -60050,8 +60449,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Once a message has been starred, you can come back and review it at any time"
 " here."
+=======
+"Once a message has been starred, you can come back and review it at any time "
+"here."
+>>>>>>> upstream/18.0
 =======
 "Once a message has been starred, you can come back and review it at any time "
 "here."
@@ -60920,12 +61324,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "a placeholder expression that provides the appropriate language, e.g. {{ "
 "object.partner_id.lang }}."
 msgstr ""
 "Volitelný překladový jazyk (kód ISO), který lze vybrat při odesílání "
 "e-mailu. Pokud není nastavena, bude použita anglická verze. To by měl být "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -61339,6 +61746,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -61761,6 +62171,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Original Discussion: Answers go in the original document discussion thread. \n"
 " Another Email Address: Answers go to the email address mentioned in the tracking message-id instead of original document discussion thread. \n"
 " This has an impact on the generated message-id."
@@ -61768,6 +62179,8 @@ msgstr ""
 "Původní diskuse: Odpovědi najdete v diskuzi původního dokumentu.\n"
 " Jiná e-mailová adresa: Odpovědi budou odeslány na e-mailovou adresu uvedenou v id sledovací zprávy namísto původního diskusního vlákna dokumentu.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -62186,6 +62599,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -62772,7 +63188,11 @@ msgid "Parent Channel"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nadřazený kanál"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nadřazený kanál"
 >>>>>>> upstream/18.0
@@ -63406,7 +63826,11 @@ msgid "Parent channel"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nadřazený kanál"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nadřazený kanál"
 >>>>>>> upstream/18.0
@@ -64007,8 +64431,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Parent model holding the alias. The model holding the alias reference is not"
 " necessarily the model given by alias_model_id (example: project "
+=======
+"Parent model holding the alias. The model holding the alias reference is not "
+"necessarily the model given by alias_model_id (example: project "
+>>>>>>> upstream/18.0
 =======
 "Parent model holding the alias. The model holding the alias reference is not "
 "necessarily the model given by alias_model_id (example: project "
@@ -64703,9 +65132,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Parent subtype, used for automatic subscription. This field is not correctly"
 " named. For example on a project, the parent_id of project subtypes refers "
 "to task-related subtypes."
+=======
+"Parent subtype, used for automatic subscription. This field is not correctly "
+"named. For example on a project, the parent_id of project subtypes refers to "
+"task-related subtypes."
+>>>>>>> upstream/18.0
 =======
 "Parent subtype, used for automatic subscription. This field is not correctly "
 "named. For example on a project, the parent_id of project subtypes refers to "
@@ -65540,7 +65975,11 @@ msgid "Payload"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zpráva"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zpráva"
 >>>>>>> upstream/18.0
@@ -65816,7 +66255,11 @@ msgid "Phonecall"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Telefonát"
+>>>>>>> upstream/18.0
 =======
 msgstr "Telefonát"
 >>>>>>> upstream/18.0
@@ -65925,7 +66368,11 @@ msgid "Pin"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Připnout"
+>>>>>>> upstream/18.0
 =======
 msgstr "Připnout"
 >>>>>>> upstream/18.0
@@ -66029,7 +66476,11 @@ msgid "Pinned"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Připnuté"
+>>>>>>> upstream/18.0
 =======
 msgstr "Připnuté"
 >>>>>>> upstream/18.0
@@ -66384,7 +66835,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- Zpracovat v Odoo: upozornění se zobrazí ve vaší schránce Odoo Příchozí zprávy"
+=======
+"- Zpracovat v Odoo: upozornění se zobrazí ve vaší schránce Odoo Příchozí "
+"zprávy"
+>>>>>>> upstream/18.0
 =======
 "- Zpracovat v Odoo: upozornění se zobrazí ve vaší schránce Odoo Příchozí "
 "zprávy"
@@ -67077,7 +67533,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- followers: only followers of the related document or members of following channels\n"
+=======
+"- followers: only followers of the related document or members of following "
+"channels\n"
+>>>>>>> upstream/18.0
 =======
 "- followers: only followers of the related document or members of following "
 "channels\n"
@@ -67767,7 +68228,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- sledující: pouze sledující související dokument nebo členové následujících kanálů\n"
+=======
+"- sledující: pouze sledující související dokument nebo členové následujících "
+"kanálů\n"
+>>>>>>> upstream/18.0
 =======
 "- sledující: pouze sledující související dokument nebo členové následujících "
 "kanálů\n"
@@ -68544,6 +69010,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -69492,6 +69959,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/mail/models/mail_thread.py:0
 msgid "Portal users can only filter threads by themselves as followers."
@@ -69520,6 +69989,9 @@ msgstr "Uživatelé portálu mohou filtrovat vlákna pouze sami jako sledující
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -69735,6 +70207,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Zprávu je třeba zveřejnit v obchodním dokumentu. K odeslání oznámení "
+"uživateli použijte message_notify."
+>>>>>>> upstream/18.0
 =======
 "Zprávu je třeba zveřejnit v obchodním dokumentu. K odeslání oznámení "
 "uživateli použijte message_notify."
@@ -70508,6 +70985,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Při odeslání zprávy by měly být přílohy přijaty jako seznam seznamů nebo "
 "n-tic (přijato %(aids)s)"
@@ -70571,6 +71049,10 @@ msgstr ""
 =======
 "Při odeslání zprávy by měly být přílohy přijaty jako seznam seznamů nebo "
 "n-tic (přijato %(aids)s)"
+>>>>>>> upstream/18.0
+=======
+"Při odeslání zprávy by měly být přílohy přijaty jako seznam seznamů nebo n-"
+"tic (přijato %(aids)s)"
 >>>>>>> upstream/18.0
 =======
 "Při odeslání zprávy by měly být přílohy přijaty jako seznam seznamů nebo n-"
@@ -71281,6 +71763,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Při odeslání zprávy by měly být záznamy příloh přijaty jako seznam ID "
+"(přijato %(aids)s)"
+>>>>>>> upstream/18.0
 =======
 "Při odeslání zprávy by měly být záznamy příloh přijaty jako seznam ID "
 "(přijato %(aids)s)"
@@ -72035,6 +72522,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Posting a message should receive partners as a list of IDs (received "
 "%(pids)s)"
 msgstr ""
@@ -72119,6 +72607,8 @@ msgstr ""
 "%(pids)s)"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -72532,6 +73022,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -72856,6 +73349,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Stiskněte klávesu, abyste ji zaregistrovali jako zkratku pro funkci push-to-"
+"talk."
+>>>>>>> upstream/18.0
 =======
 "Stiskněte klávesu, abyste ji zaregistrovali jako zkratku pro funkci push-to-"
 "talk."
@@ -73137,7 +73635,11 @@ msgid "Quick search"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rychlé vyhledávání"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rychlé vyhledávání"
 >>>>>>> upstream/18.0
@@ -73419,6 +73921,7 @@ msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_res_users_settings_volumes__volume
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -73993,6 +74496,10 @@ msgstr "Rozsah mezi 0,0 a 1,0, měřítko závisí na implementaci prohlížeče
 msgid "Ranges between 0.0 and 1.0, scale depends on the browser implementation"
 msgstr "Rozsah mezi 0,0 a 1,0, měřítko závisí na implementaci prohlížeče."
 >>>>>>> upstream/18.0
+=======
+msgid "Ranges between 0.0 and 1.0, scale depends on the browser implementation"
+msgstr "Rozsah mezi 0,0 a 1,0, měřítko závisí na implementaci prohlížeče."
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_message_reaction__guest_id
@@ -74033,7 +74540,11 @@ msgid "Reactions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Reakce"
+>>>>>>> upstream/18.0
 =======
 msgstr "Reakce"
 >>>>>>> upstream/18.0
@@ -74395,6 +74906,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Renderování %(field_name)s není možné, protože v šabloně není žádný "
+"protějšek."
+>>>>>>> upstream/18.0
 =======
 "Renderování %(field_name)s není možné, protože v šabloně není žádný "
 "protějšek."
@@ -74492,6 +75008,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/mail/models/mail_composer_mixin.py:0
 #: code:addons/mail/models/mail_render_mixin.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -75075,6 +75592,11 @@ msgid "Rendering of %(field_name)s is not possible as not defined on template."
 msgstr ""
 "Zobrazení %(field_name)s není možné, protože není definováno v šabloně."
 >>>>>>> upstream/18.0
+=======
+msgid "Rendering of %(field_name)s is not possible as not defined on template."
+msgstr ""
+"Zobrazení %(field_name)s není možné, protože není definováno v šabloně."
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-javascript
@@ -75299,7 +75821,11 @@ msgid "Revert"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vracení do původního stavu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vracení do původního stavu"
 >>>>>>> upstream/18.0
@@ -75983,7 +76509,10 @@ msgstr "Nastavte obsahový filtr pro filtrování GIFů"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -76140,6 +76669,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -76451,7 +76983,11 @@ msgid "Send Later"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odeslat později"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odeslat později"
 >>>>>>> upstream/18.0
@@ -77333,6 +77869,7 @@ msgstr "Zkratka"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Shortened language code used as the target for the translation request."
 =======
@@ -77770,6 +78307,10 @@ msgstr "Zkrácený kód jazyka použitý jako cíl pro požadavek na překlad."
 msgid "Shortened language code used as the target for the translation request."
 msgstr "Zkrácený kód jazyka použitý jako cíl pro požadavek na překlad."
 >>>>>>> upstream/18.0
+=======
+msgid "Shortened language code used as the target for the translation request."
+msgstr "Zkrácený kód jazyka použitý jako cíl pro požadavek na překlad."
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-javascript
@@ -77912,7 +78453,11 @@ msgid "Show Followers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Zobrazit následovníky"
+=======
+msgstr "Zobrazit sledující"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zobrazit sledující"
 >>>>>>> upstream/18.0
@@ -78552,6 +79097,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Zůstaňte v obraze! Zapněte push notifikace, abyste nezmeškali žádnou zprávu."
+>>>>>>> upstream/18.0
 =======
 "Zůstaňte v obraze! Zapněte push notifikace, abyste nezmeškali žádnou zprávu."
 >>>>>>> upstream/18.0
@@ -78677,7 +79226,11 @@ msgid "Store email and replies in the chatter of each record"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ukládejte e-maily a odpovědi v chatu každého záznamu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ukládejte e-maily a odpovědi v chatu každého záznamu."
 >>>>>>> upstream/18.0
@@ -78912,6 +79465,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Řetězec formátovaný tak, aby představoval klíč s modifikátory podle tohoto "
+"vzoru: shift.ctrl.alt.key, např.: truthy.1.true.b"
+>>>>>>> upstream/18.0
 =======
 "Řetězec formátovaný tak, aby představoval klíč s modifikátory podle tohoto "
 "vzoru: shift.ctrl.alt.key, např.: truthy.1.true.b"
@@ -79610,7 +80168,11 @@ msgid "Suggest"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Navrhnout"
+>>>>>>> upstream/18.0
 =======
 msgstr "Navrhnout"
 >>>>>>> upstream/18.0
@@ -79713,6 +80275,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Navrhněte tyto činnosti, jakmile bude aktuální činnost označena jako "
+"dokončená."
+>>>>>>> upstream/18.0
 =======
 "Navrhněte tyto činnosti, jakmile bude aktuální činnost označena jako "
 "dokončená."
@@ -79970,7 +80537,11 @@ msgid "Template Description"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Popis šablony"
+>>>>>>> upstream/18.0
 =======
 msgstr "Popis šablony"
 >>>>>>> upstream/18.0
@@ -80245,6 +80816,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/mail/models/mail_render_mixin.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -80738,6 +81310,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Template rendering should only be called with a list of IDs. Received “%"
 "(res_ids)s” instead."
 msgstr ""
@@ -80879,6 +81453,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -81313,6 +81890,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Renderování šablon podporuje pouze inline_template, qweb nebo qweb_view "
+"(view nebo raw); místo toho bylo přijato %(engine)s."
+>>>>>>> upstream/18.0
 =======
 "Renderování šablon podporuje pouze inline_template, qweb nebo qweb_view "
 "(view nebo raw); místo toho bylo přijato %(engine)s."
@@ -82150,6 +82732,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Typ aktivity „Úkol“ se používá k vytváření připomenutí z horní lišty nabídky"
 " a palety příkazů. Nelze jej proto archivovat ani smazat."
@@ -82213,6 +82796,10 @@ msgstr ""
 =======
 "Typ aktivity „Úkol“ se používá k vytváření připomenutí z horní lišty nabídky"
 " a palety příkazů. Nelze jej proto archivovat ani smazat."
+>>>>>>> upstream/18.0
+=======
+"Typ aktivity „Úkol“ se používá k vytváření připomenutí z horní lišty nabídky "
+"a palety příkazů. Nelze jej proto archivovat ani smazat."
 >>>>>>> upstream/18.0
 =======
 "Typ aktivity „Úkol“ se používá k vytváření připomenutí z horní lišty nabídky "
@@ -82911,6 +83498,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Push-to-Talk functionality outside of this tab, we recommend downloading our"
 " %(anchor_start)sextension%(anchor_end)s."
 msgstr ""
@@ -83011,6 +83599,8 @@ msgstr ""
 "%(anchor_start)srozšíření%(anchor_end)s."
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -83425,6 +84015,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -83720,6 +84313,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/mail/models/mail_activity_plan_template.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -84214,6 +84808,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "The activity type \"%(activity_type_name)s\" is not compatible with the plan "
 "\"%(plan_name)s\" because it is limited to the model \"%"
 "(activity_type_model)s\"."
@@ -84356,6 +84952,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -84655,6 +85254,7 @@ msgid "The channel UUID must be unique"
 msgstr ""
 
 #. module: mail
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -85306,6 +85906,8 @@ msgstr "Konverzace je prázdná."
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/mail/static/src/core/common/thread.xml:0
 msgid "The conversation is empty."
@@ -85422,6 +86024,9 @@ msgstr "Konverzace je prázdná."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -85680,7 +86285,11 @@ msgid "The duration of voice messages is limited to 1 minute."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Délka hlasových zpráv je omezena na 1 minutu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Délka hlasových zpráv je omezena na 1 minutu."
 >>>>>>> upstream/18.0
@@ -85783,7 +86392,11 @@ msgid "The email template(s) have been restored to their original settings."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Šablony e-mailů byly obnoveny do původního nastavení."
+>>>>>>> upstream/18.0
 =======
 msgstr "Šablony e-mailů byly obnoveny do původního nastavení."
 >>>>>>> upstream/18.0
@@ -85863,6 +86476,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/mail/models/template_reset_mixin.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -86356,6 +86970,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "The following email templates could not be reset because their related "
 "source files could not be found:\n"
 "- %s"
@@ -86499,6 +87115,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -86805,7 +87424,11 @@ msgid "The last message received on this alias has caused an error."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poslední zpráva přijatá na tento alias způsobila chybu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Poslední zpráva přijatá na tento alias způsobila chybu."
 >>>>>>> upstream/18.0
@@ -86902,7 +87525,11 @@ msgid "The message below could not be accepted by the address"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Níže uvedená zpráva nemohla být přijata adresou."
+>>>>>>> upstream/18.0
 =======
 msgstr "Níže uvedená zpráva nemohla být přijata adresou."
 >>>>>>> upstream/18.0
@@ -86977,6 +87604,7 @@ msgstr "Níže uvedená zpráva nemohla být přijata adresou."
 #. odoo-python
 #: code:addons/mail/models/mail_alias.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -87757,6 +88385,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "The message below could not be accepted by the address %"
 "(alias_display_name)s.\n"
 "                 Only %(contact_description)s are allowed to contact it.<br /"
@@ -87905,6 +88535,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -88183,6 +88816,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/mail/models/mail_alias.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -88901,6 +89535,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "The message below could not be accepted by the address %"
 "(alias_display_name)s.\n"
 "Please try again later or contact %(company_name)s instead."
@@ -89049,6 +89685,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -89483,6 +90122,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Zpráva naplánovaná na %(model)s(%(id)s) s následujícím obsahem nemohla být "
+"odeslána: %(original_message)s"
+>>>>>>> upstream/18.0
 =======
 "Zpráva naplánovaná na %(model)s(%(id)s) s následujícím obsahem nemohla být "
 "odeslána: %(original_message)s"
@@ -90241,9 +90885,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
+=======
+"The model (Odoo Document Kind) to which this alias corresponds. Any incoming "
+"email that does not reply to an existing record will cause the creation of a "
+"new record of this model (e.g. a Project Task)"
+>>>>>>> upstream/18.0
 =======
 "The model (Odoo Document Kind) to which this alias corresponds. Any incoming "
 "email that does not reply to an existing record will cause the creation of a "
@@ -91110,7 +91760,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The requested operation cannot be completed due to security restrictions. Please contact your system administrator.\n"
+=======
+"The requested operation cannot be completed due to security restrictions. "
+"Please contact your system administrator.\n"
+>>>>>>> upstream/18.0
 =======
 "The requested operation cannot be completed due to security restrictions. "
 "Please contact your system administrator.\n"
@@ -91664,6 +92319,7 @@ msgid ""
 "\n"
 "Records: %(records)s, User: %(user)s"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -92397,6 +93053,10 @@ msgstr ""
 "Požadovanou operaci nelze dokončit z důvodu bezpečnostního omezení. Obraťte "
 "se prosím na správce systému.\n"
 >>>>>>> upstream/18.0
+=======
+"Požadovanou operaci nelze dokončit z důvodu bezpečnostního omezení. Obraťte "
+"se prosím na správce systému.\n"
+>>>>>>> upstream/18.0
 "\n"
 "(Typ dokumentu: %(type)s, Operace: %(operation)s)\n"
 "\n"
@@ -92553,6 +93213,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -92903,7 +93566,11 @@ msgid "The text-only beginning of the body used as email preview."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Začátek těla textu používaný jako náhled e-mailu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Začátek těla textu používaný jako náhled e-mailu."
 >>>>>>> upstream/18.0
@@ -93000,7 +93667,11 @@ msgid "There can only be one rtc session per channel member"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Na každého člena kanálu může připadnout pouze jedna relace rtc."
+>>>>>>> upstream/18.0
 =======
 msgstr "Na každého člena kanálu může připadnout pouze jedna relace rtc."
 >>>>>>> upstream/18.0
@@ -93103,7 +93774,11 @@ msgid "This action can only be done on a mail thread models"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tuto akci lze provést pouze u modelů poštovních vláken."
+>>>>>>> upstream/18.0
 =======
 msgstr "Tuto akci lze provést pouze u modelů poštovních vláken."
 >>>>>>> upstream/18.0
@@ -93254,7 +93929,11 @@ msgid "This field is used for internal description of the template's usage."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Toto pole se používá pro interní popis použití šablony."
+>>>>>>> upstream/18.0
 =======
 msgstr "Toto pole se používá pro interní popis použití šablony."
 >>>>>>> upstream/18.0
@@ -93330,6 +94009,7 @@ msgstr "Toto pole se používá pro interní popis použití šablony."
 #: model:ir.model.fields,help:mail.field_res_partner__email_normalized
 #: model:ir.model.fields,help:mail.field_res_users__email_normalized
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -93746,6 +94426,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "This field is used to search on email address as the primary email field can "
 "contain more than strictly an email address."
 msgstr ""
@@ -93887,6 +94569,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -94354,8 +95039,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Tyto hodnoty nejsou podporovány jako možnosti během vykreslování: "
 "%(param_names)s"
+=======
+"Tyto hodnoty nejsou podporovány jako možnosti během vykreslování: %"
+"(param_names)s"
+>>>>>>> upstream/18.0
 =======
 "Tyto hodnoty nejsou podporovány jako možnosti během vykreslování: %"
 "(param_names)s"
@@ -95048,8 +95738,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Tyto hodnoty nejsou podporovány při zveřejňování a oznamování: "
 "%(param_names)s"
+=======
+"Tyto hodnoty nejsou podporovány při zveřejňování a oznamování: %"
+"(param_names)s"
+>>>>>>> upstream/18.0
 =======
 "Tyto hodnoty nejsou podporovány při zveřejňování a oznamování: %"
 "(param_names)s"
@@ -96055,12 +96750,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- 'Send SMS': send SMS, log them on documents (SMS)- 'Add/Remove Followers': add or remove followers to a record (Discuss)\n"
 "- 'Create Record': create a new record with new values\n"
 "- 'Execute Code': a block of Python code that will be executed\n"
 "- 'Send Webhook Notification': send a POST request to an external system, also known as a Webhook\n"
 "- 'Execute Existing Actions': define an action that triggers several other server actions\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -96477,6 +97175,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -96893,12 +97594,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- 'Přidat/Odebrat sledující': přidá nebo odebere ze záznamu sledující (Diskuze)\n"
 "- 'Vytvořit záznam': vytvoří nový záznam s novými hodnotami\n"
 "- 'Provést kód': blok Python kódu, který bude spuštěn\n"
 "- 'Poslat Webhook notifikaci': odešle POST požadavek na externí systém, známý také jako Webhook\n"
 "- 'Provést existující akce': definuje akci, která spustí řadu dalších serverových akcí\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -97315,6 +98019,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -97686,7 +98393,11 @@ msgid "Undeafen"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zapnout zvuk"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zapnout zvuk"
 >>>>>>> upstream/18.0
@@ -97890,7 +98601,10 @@ msgstr "Zrušit ztlumení konverzace"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -98131,6 +98845,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -98562,9 +99279,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Use 'Specific User' to always assign the same user on the next activity. Use"
 " 'Dynamic User' to specify the field name of the user to choose on the "
 "record."
+=======
+"Use 'Specific User' to always assign the same user on the next activity. Use "
+"'Dynamic User' to specify the field name of the user to choose on the record."
+>>>>>>> upstream/18.0
 =======
 "Use 'Specific User' to always assign the same user on the next activity. Use "
 "'Dynamic User' to specify the field name of the user to choose on the record."
@@ -99342,7 +100064,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "'auto_comment': generated by automated notification mechanism e.g. acknowledgment\n"
+=======
+"'auto_comment': generated by automated notification mechanism e.g. "
+"acknowledgment\n"
+>>>>>>> upstream/18.0
 =======
 "'auto_comment': generated by automated notification mechanism e.g. "
 "acknowledgment\n"
@@ -100032,11 +100759,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "'comment': vygenerováno uživatelským vstupem, např. prostřednictvím diskuse nebo tvůrce\n"
 "'email_outgoing': vygenerováno odeslaným e-mailem\n"
 "'notification': vygenerováno systémem, např. sledování zpráv\n"
 "'auto_comment': vygenerováno mechanismem automatického oznámení, např. potvrzení\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -100451,6 +101181,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -100971,11 +101704,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "However only Mail Template Editors will be able to create new dynamic templates or modify existing ones."
 msgstr ""
 "Uživatelé budou stále moci vykreslovat šablony.\n"
 "Pouze editoři šablon však budou moci vytvářet nové dynamické šablony a upravovat existující."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -101390,6 +102126,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -101821,11 +102560,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Value %(allowed_domains)s for `mail.catchall.domain.allowed` cannot be validated.\n"
 "It should be a comma separated list of domains e.g. example.com,example.org."
 msgstr ""
 "Hodnotu %(allowed_domains)s pro `mail.catchall.domain.allowed` nelze ověřit.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -102240,6 +102982,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -102640,7 +103385,11 @@ msgid "View %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Zobrazit %s"
+=======
+msgstr "Viz %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Viz %s"
 >>>>>>> upstream/18.0
@@ -103202,6 +103951,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "We could not create alias %(alias_name)s because domain "
 "%(alias_domain_name)s belongs to company %(alias_company_names)s while the "
 "owner document belongs to company %(company_name)s."
@@ -103209,6 +103959,8 @@ msgstr ""
 "Nebyli jsme schopní vytvořit alias %(alias_name)s, protože doména "
 "%(alias_domain_name)s patří společnosti %(alias_company_names)s, zatímco "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -103623,6 +104375,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -104039,6 +104794,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "We could not create alias %(alias_name)s because domain "
 "%(alias_domain_name)s belongs to company %(alias_company_names)s while the "
 "target document belongs to company %(company_name)s."
@@ -104046,6 +104802,8 @@ msgstr ""
 "Nebyli jsme schopní vytvořit alias %(alias_name)s, protože doména "
 "%(alias_domain_name)s patří společnosti %(alias_company_names)s, zatímco "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -104460,6 +105218,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -104892,8 +105653,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Well, nothing lasts forever, but are you sure you want to unpin this "
 "message?"
+=======
+"Well, nothing lasts forever, but are you sure you want to unpin this message?"
+>>>>>>> upstream/18.0
 =======
 "Well, nothing lasts forever, but are you sure you want to unpin this message?"
 >>>>>>> upstream/18.0
@@ -105453,6 +106218,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "When printing documents and exporting/importing data, time values are computed according to this timezone.\n"
 "If the timezone is not set, UTC (Coordinated Universal Time) is used.\n"
 "Anywhere else, time values are computed according to the time offset of your web client."
@@ -105461,6 +106227,8 @@ msgstr ""
 "Pokud není časové pásmo nastaveno, použije se UTC (Coordinated Universal Time).\n"
 "Kdekoli jinde se hodnoty času počítají podle časového posunu vašeho webového klienta."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -105881,6 +106649,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -106307,9 +107078,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Pokud je třeba uchovávat úplnou originální kopii každého e-mailu a odkazovat"
 " na každou zpracovanou zprávu. Obvykle se zdvojnásobí velikost vaší databáze"
 " zpráv."
+=======
+"Pokud je třeba uchovávat úplnou originální kopii každého e-mailu a odkazovat "
+"na každou zpracovanou zprávu. Obvykle se zdvojnásobí velikost vaší databáze "
+"zpráv."
+>>>>>>> upstream/18.0
 =======
 "Pokud je třeba uchovávat úplnou originální kopii každého e-mailu a odkazovat "
 "na každou zpracovanou zprávu. Obvykle se zdvojnásobí velikost vaší databáze "
@@ -107216,8 +107993,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "access to it unless you are invited again. Are you sure you want to "
 "continue?"
+=======
+"access to it unless you are invited again. Are you sure you want to continue?"
+>>>>>>> upstream/18.0
 =======
 "access to it unless you are invited again. Are you sure you want to continue?"
 >>>>>>> upstream/18.0
@@ -107803,8 +108584,12 @@ msgstr "Již nesledujete \"%(thread_name)s\"."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "You are not allowed to change the target record of a scheduled message."
+=======
+msgid "You are not allowed to change the target record of a scheduled message."
+>>>>>>> upstream/18.0
 =======
 msgid "You are not allowed to change the target record of a scheduled message."
 >>>>>>> upstream/18.0
@@ -108417,7 +109202,11 @@ msgid "You are not allowed to upload attachments on this channel."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nemáte povolení nahrávat přílohy na tento kanál."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nemáte povolení nahrávat přílohy na tento kanál."
 >>>>>>> upstream/18.0
@@ -109115,8 +109904,12 @@ msgstr "Jste správcem tohoto kanálu. Opravdu chcete odejít?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "You can mark any message as 'starred', and it shows up in this mailbox."
+=======
+msgid "You can mark any message as 'starred', and it shows up in this mailbox."
+>>>>>>> upstream/18.0
 =======
 msgid "You can mark any message as 'starred', and it shows up in this mailbox."
 >>>>>>> upstream/18.0
@@ -109557,6 +110350,7 @@ msgstr "Můžete tuto zprávu ignorovat"
 
 #. module: mail
 #. odoo-python
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -110547,6 +111341,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/mail/models/mail_activity_type.py:0
 msgid "You cannot delete %(activity_names)s as it is required in various apps."
 msgstr ""
@@ -110577,6 +111373,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -110632,6 +111431,7 @@ msgstr ""
 
 #. module: mail
 #. odoo-python
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -111048,6 +111848,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/mail/models/mail_activity_type.py:0
 msgid ""
 "You cannot modify %(activities_names)s target model as they are are required "
@@ -111188,6 +111990,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -111763,6 +112566,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -111835,6 +112640,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -111948,6 +112756,7 @@ msgstr "Nemůžete definovat šablonu na abstraktním modelu: %s"
 #. module: mail
 #. odoo-javascript
 #: code:addons/mail/static/src/discuss/message_pin/common/message_model_patch.js:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -112498,6 +113307,9 @@ msgid "You sure want this message pinned to %(conversation)s forever and ever?"
 =======
 msgid "You sure want this message pinned to %(conversation)s forever and ever?"
 >>>>>>> upstream/18.0
+=======
+msgid "You sure want this message pinned to %(conversation)s forever and ever?"
+>>>>>>> upstream/18.0
 msgstr ""
 "Jste si jistí, že chcete, aby tato zpráva byla připnuta do %(conversation)s "
 "navždy?"
@@ -112615,6 +113427,7 @@ msgid "after previous activity deadline"
 msgstr "po termínu předchozí aktivity"
 
 #. module: mail
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -113446,6 +114259,11 @@ msgstr "alias"
 msgid "alias"
 msgstr "alias"
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:mail.mail_alias_view_form
+msgid "alias"
+msgstr "alias"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-python
@@ -113478,6 +114296,7 @@ msgid ""
 "                <br/>\n"
 "                Please try again later."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -113985,6 +114804,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "protože jste ji\n"
 "                v několika posledních minutach kontaktovali příliš "
 "mnohokrát.\n"
@@ -114126,6 +114947,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -114557,7 +115381,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "slouží k shromažďování odpovědí a neměla by být používána k přímému kontaktování společnosti"
+=======
+"slouží k shromažďování odpovědí a neměla by být používána k přímému "
+"kontaktování společnosti"
+>>>>>>> upstream/18.0
 =======
 "slouží k shromažďování odpovědí a neměla by být používána k přímému "
 "kontaktování společnosti"
@@ -115327,12 +116156,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/mail/static/src/chatter/web/mail_composer_schedule_dialog.xml:0
 msgid "custom"
 msgstr ""
 
 #. module: mail
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -115761,7 +116593,11 @@ msgid "days:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "dny:"
+>>>>>>> upstream/18.0
 =======
 msgstr "dny:"
 >>>>>>> upstream/18.0
@@ -115890,6 +116726,7 @@ msgstr "např. „Uvítací e-mail“"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.email_template_form
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -116576,6 +117413,10 @@ msgid ""
 msgid ""
 "e.g. \"Welcome to MyCompany\" or \"Nice to meet you, {{ object.name }}\""
 >>>>>>> upstream/18.0
+=======
+msgid ""
+"e.g. \"Welcome to MyCompany\" or \"Nice to meet you, {{ object.name }}\""
+>>>>>>> upstream/18.0
 msgstr "např. \"Vítejte v MyCompany\" nebo \"Těší nás, {{ object.name }}\""
 
 #. module: mail
@@ -116684,7 +117525,11 @@ msgid "e.g. mycompany.com"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "např. \"mycompany.com\""
+>>>>>>> upstream/18.0
 =======
 msgstr "např. \"mycompany.com\""
 >>>>>>> upstream/18.0
@@ -116923,7 +117768,11 @@ msgid "live"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "živě"
+>>>>>>> upstream/18.0
 =======
 msgstr "živě"
 >>>>>>> upstream/18.0
@@ -117213,12 +118062,15 @@ msgstr "Modelka %s nepřijímá vytváření dokumentů"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/mail/static/src/chatter/web/mail_composer_schedule_dialog.xml:0
 msgid "monday"
 msgstr "pondělí"
 
 #. module: mail
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -117817,12 +118669,15 @@ msgstr "více"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/mail/static/src/chatter/web/mail_composer_schedule_dialog.xml:0
 msgid "morning"
 msgstr "ráno"
 
 #. module: mail
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -118244,7 +119099,11 @@ msgid "muted"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ztluměný"
+>>>>>>> upstream/18.0
 =======
 msgstr "ztluměný"
 >>>>>>> upstream/18.0
@@ -118452,7 +119311,11 @@ msgid "stun:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "omráčit:"
+>>>>>>> upstream/18.0
 =======
 msgstr "omráčit:"
 >>>>>>> upstream/18.0
@@ -118566,7 +119429,11 @@ msgid "turn:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "otočit:"
+>>>>>>> upstream/18.0
 =======
 msgstr "otočit:"
 >>>>>>> upstream/18.0
@@ -118744,7 +119611,11 @@ msgid "users"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "uživatelů"
+>>>>>>> upstream/18.0
 =======
 msgstr "uživatelů"
 >>>>>>> upstream/18.0
@@ -119031,7 +119902,10 @@ msgstr "“%(member_name)s” v “%(channel_name)s”"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -119061,6 +119935,9 @@ msgstr "“%(member_name)s” v “%(channel_name)s”"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

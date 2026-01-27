@@ -22,6 +22,7 @@ class EventBoothCategory(models.Model):
     price = fields.Float(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         string='Price', compute='_compute_price', digits='Product Price', readonly=False,
         store=True, groups="event.group_event_registration_desk")
     price_incl = fields.Float(
@@ -29,11 +30,16 @@ class EventBoothCategory(models.Model):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         string='Price', compute='_compute_price', min_display_digits='Product Price', readonly=False,
         store=True, groups="event.group_event_registration_desk")
     price_incl = fields.Float(
         string='Price incl', compute='_compute_price_incl', min_display_digits='Product Price', readonly=False,
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -43,7 +49,11 @@ class EventBoothCategory(models.Model):
         string='Price Reduce', compute='_compute_price_reduce',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         compute_sudo=True, digits='Product Price', groups="event.group_event_registration_desk")
+=======
+        compute_sudo=True, min_display_digits='Product Price', groups="event.group_event_registration_desk")
+>>>>>>> upstream/18.0
 =======
         compute_sudo=True, min_display_digits='Product Price', groups="event.group_event_registration_desk")
 >>>>>>> upstream/18.0

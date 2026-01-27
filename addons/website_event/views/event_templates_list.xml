@@ -441,7 +441,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <a t-cache="event if not editable and event.website_published else None" t-attf-href="/event/#{ slug(event) }/#{(not event.menu_id) and 'register'}" class="text-decoration-none text-reset " t-att-data-publish="event.website_published and 'on' or 'off'">
+=======
+        <a t-cache="(event, event.is_participating) if not editable and event.website_published else None" t-attf-href="/event/#{ slug(event) }/#{(not event.menu_id) and 'register'}" class="text-decoration-none text-reset " t-att-data-publish="event.website_published and 'on' or 'off'">
+>>>>>>> upstream/18.0
 =======
         <a t-cache="(event, event.is_participating) if not editable and event.website_published else None" t-attf-href="/event/#{ slug(event) }/#{(not event.menu_id) and 'register'}" class="text-decoration-none text-reset " t-att-data-publish="event.website_published and 'on' or 'off'">
 >>>>>>> upstream/18.0
@@ -1045,7 +1049,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <!-- Short date + Country Flag -->
+=======
+                                <!-- Short date + (optional) Country Flag -->
+>>>>>>> upstream/18.0
 =======
                                 <!-- Short date + (optional) Country Flag -->
 >>>>>>> upstream/18.0
@@ -1788,7 +1796,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <!-- Short Date -->
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

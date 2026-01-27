@@ -133,8 +133,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* hr_timesheet
 # 
+=======
+# * hr_timesheet
+#
+>>>>>>> upstream/18.0
 =======
 # * hr_timesheet
 #
@@ -864,6 +869,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Eyal arkush, 2025
 >>>>>>> upstream/18.0
@@ -1657,10 +1663,16 @@
 # Yoram Lavi, 2025
 # or balmas <or@laylinetech.com>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Eyal arkush, 2025
+# Yoram Lavi, 2025
+# or balmas <or@laylinetech.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2255,6 +2267,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-09-15 11:38+0000\n"
 "Last-Translator: or balmas <or@laylinetech.com>\n"
 "Language-Team: Hebrew <https://translate.odoo.com/projects/odoo-18/"
@@ -2397,6 +2412,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2861,7 +2879,11 @@ msgid "%(effective)s / %(allocated)s %(uom_name)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(effective)s /%(allocated)s %(uom_name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(effective)s /%(allocated)s %(uom_name)s"
 >>>>>>> upstream/18.0
@@ -3599,7 +3621,11 @@ msgid "%(effective)s / %(allocated)s %(uom_name)s (%(success_rate)s%%)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(effective)s  /%(allocated)s%(uom_name)s (%(success_rate)s %%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(effective)s  /%(allocated)s%(uom_name)s (%(success_rate)s %%)"
 >>>>>>> upstream/18.0
@@ -4343,7 +4369,11 @@ msgid "%(hours)sh"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(hours)sש"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(hours)sש"
 >>>>>>> upstream/18.0
@@ -5081,7 +5111,11 @@ msgid "%(hours)sh%(minutes)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(hours)sש%(minutes)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(hours)sש%(minutes)s"
 >>>>>>> upstream/18.0
@@ -5665,8 +5699,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "'%(missing_plan_names)s' analytic plan(s) required on the project "
 "'%(project_name)s' linked to the timesheet."
+=======
+"'%(missing_plan_names)s' analytic plan(s) required on the project '%"
+"(project_name)s' linked to the timesheet."
+>>>>>>> upstream/18.0
 =======
 "'%(missing_plan_names)s' analytic plan(s) required on the project '%"
 "(project_name)s' linked to the timesheet."
@@ -5948,7 +5987,11 @@ msgid "(%(sign)s%(hours)s:%(minutes)s remaining)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(%(sign)s %(hours)s:%(minutes)s נותר)"
+>>>>>>> upstream/18.0
 =======
 msgstr "(%(sign)s %(hours)s:%(minutes)s נותר)"
 >>>>>>> upstream/18.0
@@ -6712,6 +6755,7 @@ msgid "<b class=\"tip_title\">Tip: Record your Timesheets faster</b>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "<b class=\"tip_title\">טיפ: עדכן את הגיליונות עבודה שלך מהר יותר</b>"
@@ -7242,6 +7286,8 @@ msgid "<i class=\"fa fa-calendar me-1\" role=\"img\" aria-label=\"Date\" title=\
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "<b class=\"tip_title\">טיפ: עדכן את הגיליונות עבודה שלך מהר יותר</b>"
 
 #. module: hr_timesheet
@@ -7271,6 +7317,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7515,7 +7564,11 @@ msgid "<span class=\"text-nowrap\">Time Spent on Sub-tasks:</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"text-nowrap\">זמן שהושקע על משימות משנה:</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"text-nowrap\">זמן שהושקע על משימות משנה:</span>"
 >>>>>>> upstream/18.0
@@ -8095,10 +8148,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            You can either archive these employees or first delete all of their timesheets.\n"
 "                        </span>\n"
 "                        <span invisible=\"has_active_employee\" groups=\"hr_timesheet.group_hr_timesheet_approver\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8170,6 +8226,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8384,7 +8443,11 @@ msgid "<span>Time Spent</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span> זמן שהושקע</span>"
+=======
+msgstr "<span> שעות לחיוב</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span> שעות לחיוב</span>"
 >>>>>>> upstream/18.0
@@ -8946,7 +9009,11 @@ msgid "<strong>Total Time Spent: </strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<strong> סה\"כ הזמן שהושקע:</strong>"
+=======
+msgstr "<strong> סה\"כ שעות לחיוב:</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong> סה\"כ שעות לחיוב:</strong>"
 >>>>>>> upstream/18.0
@@ -9425,7 +9492,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Analyze the projects and tasks on which your employees spend their time.<br>\n"
+=======
+"Analyze the projects and tasks on which your employees spend their time."
+"<br>\n"
+>>>>>>> upstream/18.0
 =======
 "Analyze the projects and tasks on which your employees spend their time."
 "<br>\n"
@@ -9707,7 +9779,11 @@ msgid "Approver Reminder"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "תזכורת מאשר"
+>>>>>>> upstream/18.0
 =======
 msgstr "תזכורת מאשר"
 >>>>>>> upstream/18.0
@@ -10444,7 +10520,11 @@ msgid "Archive Employees"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הכנס עובדים לארכיון"
+>>>>>>> upstream/18.0
 =======
 msgstr "הכנס עובדים לארכיון"
 >>>>>>> upstream/18.0
@@ -11186,7 +11266,11 @@ msgid "Average of Progress"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ממוצע של התקדמות"
+>>>>>>> upstream/18.0
 =======
 msgstr "ממוצע של התקדמות"
 >>>>>>> upstream/18.0
@@ -11938,7 +12022,11 @@ msgid "Call client and discuss project"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "התקשר ללקוח ודון בפרויקט"
+>>>>>>> upstream/18.0
 =======
 msgstr "התקשר ללקוח ודון בפרויקט"
 >>>>>>> upstream/18.0
@@ -12747,7 +12835,11 @@ msgid "Deactivate the account."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "השבת את החשבון."
+>>>>>>> upstream/18.0
 =======
 msgstr "השבת את החשבון."
 >>>>>>> upstream/18.0
@@ -13518,7 +13610,11 @@ msgid "Delete Employee"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מחק עובד"
+>>>>>>> upstream/18.0
 =======
 msgstr "מחק עובד"
 >>>>>>> upstream/18.0
@@ -14322,7 +14418,11 @@ msgid "Employee Delete Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "אשף מחיקת עובד"
+>>>>>>> upstream/18.0
 =======
 msgstr "אשף מחיקת עובד"
 >>>>>>> upstream/18.0
@@ -15071,7 +15171,11 @@ msgid "Employees' Timesheets"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "גיליונות עבודה של עובד"
+>>>>>>> upstream/18.0
 =======
 msgstr "גיליונות עבודה של עובד"
 >>>>>>> upstream/18.0
@@ -15808,7 +15912,11 @@ msgid "Encoding Method"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "שיטת קידוד"
+>>>>>>> upstream/18.0
 =======
 msgstr "שיטת קידוד"
 >>>>>>> upstream/18.0
@@ -16363,6 +16471,7 @@ msgstr "שיטת קידוד"
 #. odoo-python
 #: code:addons/hr_timesheet/models/project_project.py:0
 msgid "Extra Time"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17718,6 +17827,8 @@ msgstr "צור גיליונות שעות עבור בקשות חופשה מאוש
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "זמן נוסף"
 
 #. module: hr_timesheet
@@ -17746,6 +17857,9 @@ msgstr "צור גיליונות שעות עבור בקשות חופשה מאוש
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17988,7 +18102,11 @@ msgid "Hours / Minutes"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "שעות \\ דקות"
+>>>>>>> upstream/18.0
 =======
 msgstr "שעות \\ דקות"
 >>>>>>> upstream/18.0
@@ -18703,7 +18821,11 @@ msgid "Invalid operator: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "פעולה לא חוקית: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "פעולה לא חוקית: %s"
 >>>>>>> upstream/18.0
@@ -19306,7 +19428,11 @@ msgid "Invalid value: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ערך לא חוקי: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "ערך לא חוקי: %s"
 >>>>>>> upstream/18.0
@@ -20355,7 +20481,11 @@ msgid "Sub-tasks Time Spent"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "זמן שהושקע במשימות משנה"
+>>>>>>> upstream/18.0
 =======
 msgstr "זמן שהושקע במשימות משנה"
 >>>>>>> upstream/18.0
@@ -21104,7 +21234,11 @@ msgid "Task's Timesheets"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "גיליונות זמנים של משימה"
+>>>>>>> upstream/18.0
 =======
 msgstr "גיליונות זמנים של משימה"
 >>>>>>> upstream/18.0
@@ -21693,8 +21827,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The project, the task and the analytic accounts of the timesheet must belong"
 " to the same company."
+=======
+"The project, the task and the analytic accounts of the timesheet must belong "
+"to the same company."
+>>>>>>> upstream/18.0
 =======
 "The project, the task and the analytic accounts of the timesheet must belong "
 "to the same company."
@@ -21821,8 +21960,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "These projects have some timesheet entries referencing them. Before removing"
 " these projects, you have to remove these timesheet entries."
+=======
+"These projects have some timesheet entries referencing them. Before removing "
+"these projects, you have to remove these timesheet entries."
+>>>>>>> upstream/18.0
 =======
 "These projects have some timesheet entries referencing them. Before removing "
 "these projects, you have to remove these timesheet entries."
@@ -21983,8 +22127,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This project has some timesheet entries referencing it. Before removing this"
 " project, you have to remove these timesheet entries."
+=======
+"This project has some timesheet entries referencing it. Before removing this "
+"project, you have to remove these timesheet entries."
+>>>>>>> upstream/18.0
 =======
 "This project has some timesheet entries referencing it. Before removing this "
 "project, you have to remove these timesheet entries."
@@ -22122,11 +22271,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If you use the timesheet linked to projects, don't forget to setup the right unit of measure in your employees."
 msgstr ""
 "זה יקבע את יחידת המידה המשמשת בפרויקטים ובמשימות.\n"
 "אם אתה משתמש בגליון הזמנים המקושר לפרויקטים, אל תשכח להגדיר את יחידת המידה הנכונה לעובדים שלך."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22199,6 +22351,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22427,7 +22582,11 @@ msgid "Time Spent"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "זמן עבודה"
+=======
+msgstr "שעות לחיוב"
+>>>>>>> upstream/18.0
 =======
 msgstr "שעות לחיוב"
 >>>>>>> upstream/18.0
@@ -23087,7 +23246,11 @@ msgid "Timesheet Time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "זמן גיליון זמנים"
+>>>>>>> upstream/18.0
 =======
 msgstr "זמן גיליון זמנים"
 >>>>>>> upstream/18.0
@@ -23910,7 +24073,11 @@ msgid "Timesheets Analysis Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "דוח ניתוח דיווחי שעות"
+>>>>>>> upstream/18.0
 =======
 msgstr "דוח ניתוח דיווחי שעות"
 >>>>>>> upstream/18.0
@@ -24583,8 +24750,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Timesheets must be created with an active employee in the selected "
 "companies."
+=======
+"Timesheets must be created with an active employee in the selected companies."
+>>>>>>> upstream/18.0
 =======
 "Timesheets must be created with an active employee in the selected companies."
 >>>>>>> upstream/18.0
@@ -24890,7 +25061,11 @@ msgid "Total Days Spent"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "סה\"כ ימים שהושקעו"
+>>>>>>> upstream/18.0
 =======
 msgstr "סה\"כ ימים שהושקעו"
 >>>>>>> upstream/18.0
@@ -25580,7 +25755,11 @@ msgid "Total Time Spent"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "סך הזמן שהושקע"
+=======
+msgstr "סה\"כ שעות לחיוב"
+>>>>>>> upstream/18.0
 =======
 msgstr "סה\"כ שעות לחיוב"
 >>>>>>> upstream/18.0
@@ -25991,6 +26170,7 @@ msgstr "סה\"כ:"
 #: model_terms:ir.actions.act_window,help:hr_timesheet.act_hr_timesheet_line_by_project
 #: model_terms:ir.actions.act_window,help:hr_timesheet.timesheet_action_all
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26794,6 +26974,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Track your working hours by projects every day and invoice this time to your "
 "customers."
 msgstr ""
@@ -26820,6 +27002,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26882,6 +27067,7 @@ msgid ""
 "        @user Assign the task to a user\n"
 "        ! Set the task a high priority\n"
 "\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -27363,12 +27549,18 @@ msgstr ""
 "configuration screen 5h #feature #v16 @Mitchell !"
 msgstr ""
 >>>>>>> upstream/18.0
+=======
+"        Make sure to use the right format and order e.g. Improve the "
+"configuration screen 5h #feature #v16 @Mitchell !"
+msgstr ""
+>>>>>>> upstream/18.0
 "השתמש במילות המפתח האלה בכותרת כדי ליצור משימות חדשות.:\n"
 "        30h Allocate 30 hours to the task\n"
 "        #tags הגדר תווית למשימה\n"
 "        @user הקצה את המשימה למשתמש\n"
 "        ! הגדראת המשימה בעדיפות גבוהה\n"
 "\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -27825,6 +28017,10 @@ msgstr ""
 "       ודא שאתה משתמש בפורמט ובסדר הנכונים. e.g. שפר את מסך ההגדרות 5h "
 "#feature #v16 @Mitchell !"
 >>>>>>> upstream/18.0
+=======
+"       ודא שאתה משתמש בפורמט ובסדר הנכונים. e.g. שפר את מסך ההגדרות 5h "
+"#feature #v16 @Mitchell !"
+>>>>>>> upstream/18.0
 
 #. module: hr_timesheet
 #: model:ir.model.fields,field_description:hr_timesheet.field_account_analytic_line__user_id
@@ -27874,7 +28070,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    day. Every time spent on a project will become a cost and can be re-invoiced to\n"
+=======
+"                    day. Every time spent on a project will become a cost "
+"and can be re-invoiced to\n"
+>>>>>>> upstream/18.0
 =======
 "                    day. Every time spent on a project will become a cost "
 "and can be re-invoiced to\n"
@@ -28008,9 +28209,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot log timesheets on this project since it is linked to an inactive analytic account.<br/>\n"
 "                            Please switch to another account, or reactivate the current one to timesheet on the project."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -28081,6 +28285,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -28155,8 +28362,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "analytic account.<br/> Please change this account, or reactivate the current"
 " one to timesheet on the project."
+=======
+"analytic account.<br/> Please change this account, or reactivate the current "
+"one to timesheet on the project."
+>>>>>>> upstream/18.0
 =======
 "analytic account.<br/> Please change this account, or reactivate the current "
 "one to timesheet on the project."
@@ -28438,7 +28650,11 @@ msgid "You cannot set an archived employee on existing timesheets."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "לא ניתן להכניס עובד לארכיון שיש לו גיליונות עבודה פעילים."
+>>>>>>> upstream/18.0
 =======
 msgstr "לא ניתן להכניס עובד לארכיון שיש לו גיליונות עבודה פעילים."
 >>>>>>> upstream/18.0
@@ -29003,6 +29219,7 @@ msgstr "עבור ה"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.view_task_form2_inherited
 msgid ""
 "on\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -29747,6 +29964,11 @@ msgstr "<span class=\"fw-bold text-dark\">תתי-משימות</span>)"
 "span>)"
 msgstr "<span class=\"fw-bold text-dark\">תתי-משימות</span>)"
 >>>>>>> upstream/18.0
+=======
+"                            <span class=\"fw-bold text-dark\"> Sub-tasks</"
+"span>)"
+msgstr "<span class=\"fw-bold text-dark\">תתי-משימות</span>)"
+>>>>>>> upstream/18.0
 
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.project_sharing_inherit_project_task_view_form
@@ -29927,7 +30149,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"fw-bold text-dark\">תתי-משימות</span>)"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"fw-bold text-dark\">תתי-משימות</span>)"
 >>>>>>> upstream/18.0

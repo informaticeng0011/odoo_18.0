@@ -11,7 +11,11 @@ class SaleOrderLine(models.Model):
         "Margin", compute='_compute_margin',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         digits='Product Price', store=True, groups="base.group_user", precompute=True)
+=======
+        min_display_digits='Product Price', store=True, groups="base.group_user", precompute=True)
+>>>>>>> upstream/18.0
 =======
         min_display_digits='Product Price', store=True, groups="base.group_user", precompute=True)
 >>>>>>> upstream/18.0
@@ -24,7 +28,11 @@ class SaleOrderLine(models.Model):
         string="Cost", compute="_compute_purchase_price",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         digits='Product Price', store=True, readonly=False, copy=False, precompute=True,
+=======
+        min_display_digits='Product Price', store=True, readonly=False, copy=False, precompute=True,
+>>>>>>> upstream/18.0
 =======
         min_display_digits='Product Price', store=True, readonly=False, copy=False, precompute=True,
 >>>>>>> upstream/18.0

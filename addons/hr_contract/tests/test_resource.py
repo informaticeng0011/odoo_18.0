@@ -195,7 +195,11 @@ class TestResource(TestContractCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.assertQueryCount(15):
+=======
+        with self.assertQueryCount(18):
+>>>>>>> upstream/18.0
 =======
         with self.assertQueryCount(18):
 >>>>>>> upstream/18.0

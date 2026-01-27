@@ -143,7 +143,11 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         string="MyDATA Branch Number",
+=======
+        string="Branch Number",
+>>>>>>> upstream/18.0
 =======
         string="Branch Number",
 >>>>>>> upstream/18.0

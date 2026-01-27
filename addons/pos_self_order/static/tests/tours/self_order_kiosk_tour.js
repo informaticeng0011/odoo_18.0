@@ -198,7 +198,10 @@ registry.category("web_tour.tours").add("self_kiosk_each_table_takeaway_in", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -666,6 +669,9 @@ registry.category("web_tour.tours").add("self_kiosk_each_table_takeaway_in", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1096,6 +1102,7 @@ registry.category("web_tour.tours").add("test_self_order_kiosk_combo_sides", {
         Utils.clickBtn("Add to cart"),
     ],
 });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2131,6 +2138,10 @@ registry.category("web_tour.tours").add("self_order_pricelist", {
 
 registry.category("web_tour.tours").add("self_order_pricelist", {
 >>>>>>> upstream/18.0
+=======
+
+registry.category("web_tour.tours").add("self_order_pricelist", {
+>>>>>>> upstream/18.0
     steps: () => [
         Utils.checkIsNoBtn("My Order"),
         Utils.clickBtn("Order Now"),
@@ -2361,8 +2372,11 @@ registry.category("web_tour.tours").add("self_order_pricelist", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         CartPage.checkProduct("Coca-Cola", "2.30", "2"),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3037,6 +3051,9 @@ registry.category("web_tour.tours").add("self_order_pricelist", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3713,6 +3730,9 @@ registry.category("web_tour.tours").add("self_order_pricelist", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

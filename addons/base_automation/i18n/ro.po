@@ -65,6 +65,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* base_automation
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -764,10 +765,16 @@
 #
 # Translators:
 >>>>>>> upstream/18.0
+=======
+# * base_automation
+#
+# Translators:
+>>>>>>> upstream/18.0
 # Corina Calin, 2024
 # Wil Odoo, 2024
 # Alin Miclea, 2024
 # Larisa_nexterp, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1403,10 +1410,15 @@
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1921,6 +1933,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-21 02:26+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Romanian <https://translate.odoo.com/projects/odoo-18/"
@@ -1989,6 +2004,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2122,6 +2140,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2680,6 +2699,11 @@ msgstr ""
 "20)) ? 1 : 2;\n"
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-javascript
@@ -2854,8 +2878,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Regulile de automatizare „On live update” pot fi utilizate numai cu tipul de"
 " acțiune „Executare cod Python”."
+=======
+"Regulile de automatizare „La actualizare live” pot fi utilizate doar cu "
+"tipul de acțiune „Execută cod Python”."
+>>>>>>> upstream/18.0
 =======
 "Regulile de automatizare „La actualizare live” pot fi utilizate doar cu "
 "tipul de acțiune „Execută cod Python”."
@@ -3622,7 +3651,11 @@ msgid "<code>env</code>: environment on which the action is triggered"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<code>env</code>: mediul asupra căruia este declanșată acțiunea"
+=======
+msgstr "<code>env</code>: mediul pe care este declanșată acțiunea"
+>>>>>>> upstream/18.0
 =======
 msgstr "<code>env</code>: mediul pe care este declanșată acțiunea"
 >>>>>>> upstream/18.0
@@ -4077,6 +4110,7 @@ msgstr "<code>env</code>: mediul pe care este declanșată acțiunea"
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4560,6 +4594,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<code>model</code>: model of the record on which the action is triggered; is "
 "a void recordset"
 msgstr ""
@@ -4685,6 +4721,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5083,8 +5122,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<code>sarcină utilă</code>: sarcina utilă a apelului (parametri GET, corp "
 "JSON), ca dict."
+=======
+"<code>payload</code>: sarcina utilă a apelului (parametri GET, corp JSON), "
+"ca dicționar."
+>>>>>>> upstream/18.0
 =======
 "<code>payload</code>: sarcina utilă a apelului (parametri GET, corp JSON), "
 "ca dicționar."
@@ -5842,8 +5886,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<code><code>ora</code>, data</code>, <code>dateutil</code>, <code>fusul "
 "orar</code>: biblioteci Python utile"
+=======
+"<code>time</code>, <code>datetime</code>, <code>dateutil</code>, "
+"<code>timezone</code>: biblioteci Python utile"
+>>>>>>> upstream/18.0
 =======
 "<code>time</code>, <code>datetime</code>, <code>dateutil</code>, "
 "<code>timezone</code>: biblioteci Python utile"
@@ -6598,7 +6647,11 @@ msgid "<i class=\"fa fa-2x fa-arrow-right text-primary\" title=\"Actions\"/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-2x fa-arrow-right text-primary\" title=\"Actions\"/>"
+=======
+msgstr "<i class=\"fa fa-2x fa-arrow-right text-primary\" title=\"Acțiuni\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-2x fa-arrow-right text-primary\" title=\"Acțiuni\"/>"
 >>>>>>> upstream/18.0
@@ -7056,6 +7109,7 @@ msgid ""
 "<i class=\"fa fa-info-circle\"/> The default target record getter will work "
 "out-of-the-box for any webhook coming from another Odoo instance."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7838,6 +7892,10 @@ msgstr ""
 "<i class=\"fa fa-info-circle\"/> Selectorul implicit de înregistrare țintă "
 "va funcționa direct pentru orice webhook provenit dintr-o altă instanță Odoo."
 >>>>>>> upstream/18.0
+=======
+"<i class=\"fa fa-info-circle\"/> Selectorul implicit de înregistrare țintă "
+"va funcționa direct pentru orice webhook provenit dintr-o altă instanță Odoo."
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
@@ -7996,9 +8054,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Regulile de<i class=\"fa fa-warning\"/> automatizare declanșate de "
 "modificările UI vor fi executate de <em>fiecare dată</em> când se modifică "
 "câmpurile urmărite, <em>indiferent dacă salvați sau nu</em>."
+=======
+"<i class=\"fa fa-warning\"/> Regulile de automatizare declanșate de "
+"modificările UI vor fi executate <em>de fiecare dată</em> când câmpurile "
+"urmărite se modifică, <em>indiferent dacă salvați sau nu</em>."
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-warning\"/> Regulile de automatizare declanșate de "
 "modificările UI vor fi executate <em>de fiecare dată</em> când câmpurile "
@@ -8903,7 +8967,11 @@ msgid "<span class=\"text-muted\"> Available variables: </span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Variabile <span class=\"text-muted\"> disponibile: </span>"
+=======
+msgstr "<span class=\"text-muted\"> Variabile disponibile: </span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"text-muted\"> Variabile disponibile: </span>"
 >>>>>>> upstream/18.0
@@ -9480,6 +9548,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                                        <span invisible=\"evaluation_type != 'equation'\">as</span>"
 msgstr ""
 <<<<<<< HEAD
@@ -9868,6 +9937,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                                        <span "
 "invisible=\"evaluation_type != 'equation'\">as</span>"
 msgstr ""
@@ -9994,6 +10065,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10240,6 +10314,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid ""
 "<span invisible=\"trigger != 'on_time_created'\">after creation</span>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10782,6 +10857,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                    <span invisible=\"trigger != "
 "'on_time_updated'\">after last update</span>\n"
 "                                    <span invisible=\"trigger != "
@@ -10912,6 +10989,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11307,7 +11387,11 @@ msgid "<span>by adding</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span>adăugând</span>"
+=======
+msgstr "<span>prin adăugare</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>prin adăugare</span>"
 >>>>>>> upstream/18.0
@@ -11912,7 +11996,11 @@ msgid "<span>by clearing it</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span>prin compensare</span>"
+=======
+msgstr "<span>prin golire</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>prin golire</span>"
 >>>>>>> upstream/18.0
@@ -12517,7 +12605,11 @@ msgid "<span>by removing</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span>prin eliminarea</span>"
+=======
+msgstr "<span>prin eliminare</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>prin eliminare</span>"
 >>>>>>> upstream/18.0
@@ -13122,6 +13214,7 @@ msgid "<span>by setting it to</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span>setându-l la</span>"
 =======
 msgstr "<span>prin setare la</span>"
@@ -13574,6 +13667,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "<span>prin setare la</span>"
 
 #. module: base_automation
@@ -13703,6 +13798,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14109,7 +14207,11 @@ msgid "Actions To Do"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Definiți acțiunile de făcut "
+=======
+msgstr "Acțiuni de efectuat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Acțiuni de efectuat"
 >>>>>>> upstream/18.0
@@ -14719,7 +14821,11 @@ msgid "Add an action"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Adăuga o acțiune"
+=======
+msgstr "Adaugă o acțiune"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adaugă o acțiune"
 >>>>>>> upstream/18.0
@@ -15325,7 +15431,11 @@ msgid "Add followers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Adăugați urmăritori"
+=======
+msgstr "Adaugă urmăritori"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adaugă urmăritori"
 >>>>>>> upstream/18.0
@@ -15946,7 +16056,11 @@ msgid "Apply on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aplică la"
+=======
+msgstr "Aplică pe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aplică pe"
 >>>>>>> upstream/18.0
@@ -16522,7 +16636,10 @@ msgstr "Aplică pe"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_search
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16921,7 +17038,11 @@ msgid "Automate <em>everything</em> with Automation Rules"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Automatizați <em>totul</em> cu Reguli de automatizare"
+=======
+msgstr "Automatizează <em>totul</em> cu Regulile de automatizare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Automatizează <em>totul</em> cu Regulile de automatizare"
 >>>>>>> upstream/18.0
@@ -17530,7 +17651,11 @@ msgid "Automation Rule"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Regula de automatizare"
+=======
+msgstr "Regulă de automatizare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Regulă de automatizare"
 >>>>>>> upstream/18.0
@@ -18143,7 +18268,11 @@ msgid "Automation Rules"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Regulă de automatizare"
+=======
+msgstr "Reguli de automatizare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Reguli de automatizare"
 >>>>>>> upstream/18.0
@@ -18748,7 +18877,11 @@ msgid "Automation Rules: check and execute"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Reguli de automatizare: verificați și executați"
+=======
+msgstr "Reguli de automatizare: verifică și execută"
+>>>>>>> upstream/18.0
 =======
 msgstr "Reguli de automatizare: verifică și execută"
 >>>>>>> upstream/18.0
@@ -19359,7 +19492,11 @@ msgid "Based on date field"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pe baza câmpului dată"
+=======
+msgstr "Pe baza câmpului de dată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pe baza câmpului de dată"
 >>>>>>> upstream/18.0
@@ -19964,7 +20101,11 @@ msgid "Before Update Domain"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Înainte de actualizare domeniu"
+=======
+msgstr "Domeniu înainte de actualizare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Domeniu înainte de actualizare"
 >>>>>>> upstream/18.0
@@ -20422,6 +20563,7 @@ msgid ""
 "Change the URL's secret if you think the URL is no longer secure. You will "
 "have to update any automated system that calls this webhook to the new URL."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21325,6 +21467,11 @@ msgstr ""
 "trebui să actualizați orice sistem automatizat care apelează acest webhook "
 "la noul URL."
 >>>>>>> upstream/18.0
+=======
+"Schimbați secretul URL-ului dacă considerați că acesta nu mai este sigur. Va "
+"trebui să actualizați orice sistem automatizat care apelează acest webhook "
+"la noul URL."
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-python
@@ -21486,7 +21633,11 @@ msgid "Create %(model_name)s with name %(value)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creează %(model_name)s cu nume %(value)s"
+=======
+msgstr "Creează %(model_name)s cu numele %(value)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează %(model_name)s cu numele %(value)s"
 >>>>>>> upstream/18.0
@@ -22098,7 +22249,11 @@ msgid "Create activity: %(activity_name)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creare activitate: %(activity_name)s"
+=======
+msgstr "Creează activitate: %(activity_name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează activitate: %(activity_name)s"
 >>>>>>> upstream/18.0
@@ -22704,7 +22859,11 @@ msgid "Create next activity"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creați următoarea activitate"
+=======
+msgstr "Creează următoarea activitate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează următoarea activitate"
 >>>>>>> upstream/18.0
@@ -23314,7 +23473,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creat pe"
+=======
+msgstr "Creat la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creat la"
 >>>>>>> upstream/18.0
@@ -23925,7 +24088,11 @@ msgid "Date Field"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Câmp de dată"
+=======
+msgstr "Câmp dată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Câmp dată"
 >>>>>>> upstream/18.0
@@ -24546,9 +24713,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Întârziere după data de activare. Puteți introduce un număr negativ dacă "
 "aveți nevoie de o amânare înainte de data de activare, cum ar fi trimiterea "
 "unui memento cu 15 minute înainte de o întâlnire."
+=======
+"Întârziere după data declanșării. Puteți introduce un număr negativ dacă "
+"aveți nevoie de o întârziere înainte de data declanșării, de exemplu pentru "
+"a trimite un memento cu 15 minute înainte de o întâlnire."
+>>>>>>> upstream/18.0
 =======
 "Întârziere după data declanșării. Puteți introduce un număr negativ dacă "
 "aveți nevoie de o întârziere înainte de data declanșării, de exemplu pentru "
@@ -25469,7 +25642,11 @@ msgid "Deprecated (do not use)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Depreciat (a nu se utiliza)"
+=======
+msgstr "Depreciat (nu folosiți)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Depreciat (nu folosiți)"
 >>>>>>> upstream/18.0
@@ -26080,7 +26257,11 @@ msgid "Disable Automation Rule"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dezactivați regula de automatizare"
+=======
+msgstr "Dezactivează regula de automatizare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dezactivează regula de automatizare"
 >>>>>>> upstream/18.0
@@ -26658,6 +26839,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                but any data created after this could potentially be corrupted,\n"
 "                as you are effectively disabling a customization that may set\n"
 "                important and/or required fields."
@@ -27080,6 +27262,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                but any data created after this could potentially be "
 "corrupted,\n"
 "                as you are effectively disabling a customization that may "
@@ -27210,6 +27394,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27612,7 +27799,11 @@ msgid "Edit Automation Rule"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Editați regula de automatizare"
+=======
+msgstr "Editează regula de automatizare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Editează regula de automatizare"
 >>>>>>> upstream/18.0
@@ -28224,7 +28415,11 @@ msgid "Email Events"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Evenimente prin e-mail"
+=======
+msgstr "Evenimente e-mail"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evenimente e-mail"
 >>>>>>> upstream/18.0
@@ -28833,9 +29028,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "E-mailul, urmăritorul sau tipurile de acțiuni de activitate nu pot fi "
 "utilizate la ștergerea înregistrărilor, deoarece nu mai există înregistrări "
 "pentru care să se aplice aceste modificări!"
+=======
+"Tipurile de acțiuni e-mail, urmăritor sau activitate nu pot fi folosite la "
+"ștergerea înregistrărilor, deoarece nu mai există înregistrări pentru a "
+"aplica aceste modificări!"
+>>>>>>> upstream/18.0
 =======
 "Tipurile de acțiuni e-mail, urmăritor sau activitate nu pot fi folosite la "
 "ștergerea înregistrărilor, deoarece nu mai există înregistrări pentru a "
@@ -29758,7 +29959,11 @@ msgid "Extra Conditions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Condiții extra:"
+=======
+msgstr "Condiții suplimentare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Condiții suplimentare"
 >>>>>>> upstream/18.0
@@ -30363,7 +30568,11 @@ msgid "Fields that trigger the onchange."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Câmpuri care declanșează schimbarea."
+=======
+msgstr "Câmpuri care declanșează modificarea."
+>>>>>>> upstream/18.0
 =======
 msgstr "Câmpuri care declanșează modificarea."
 >>>>>>> upstream/18.0
@@ -30974,7 +31183,11 @@ msgid "Has Mail Thread"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Are thread de mail"
+=======
+msgstr "Are fir de e-mail"
+>>>>>>> upstream/18.0
 =======
 msgstr "Are fir de e-mail"
 >>>>>>> upstream/18.0
@@ -31560,8 +31773,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If present, this condition must be satisfied before executing the automation"
 " rule."
+=======
+"If present, this condition must be satisfied before executing the automation "
+"rule."
+>>>>>>> upstream/18.0
 =======
 "If present, this condition must be satisfied before executing the automation "
 "rule."
@@ -32206,6 +32424,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Dacă este prezentă, această condiție trebuie să fie îndeplinită înainte de "
 "actualizarea înregistrării. Nu se verifică la crearea înregistrării."
@@ -32323,6 +32542,8 @@ msgstr ""
 "actualizarea înregistrării. Nu se verifică la crearea înregistrării."
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -32569,6 +32790,7 @@ msgstr ""
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_search
 msgid "Include Archived"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32996,10 +33218,14 @@ msgstr "Include arhiva"
 =======
 msgstr "Include arhiva"
 >>>>>>> upstream/18.0
+=======
+msgstr "Include arhiva"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "Keep track of what this automation does and why it exists..."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -33630,6 +33856,9 @@ msgstr "Țineți evidența a ceea ce face această automatizare și de ce exist�
 =======
 msgstr "Țineți evidența a ceea ce face această automatizare și de ce există..."
 >>>>>>> upstream/18.0
+=======
+msgstr "Țineți evidența a ceea ce face această automatizare și de ce există..."
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__last_run
@@ -33784,7 +34013,11 @@ msgid "Last Run"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ultima executare"
+=======
+msgstr "Ultima rulare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultima rulare"
 >>>>>>> upstream/18.0
@@ -34394,7 +34627,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ultima actualizare pe"
+=======
+msgstr "Ultima actualizare la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultima actualizare la"
 >>>>>>> upstream/18.0
@@ -34999,7 +35236,11 @@ msgid "Least Delay Msg"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Minima întârziere Msg"
+=======
+msgstr "Mesaj întârziere minimă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mesaj întârziere minimă"
 >>>>>>> upstream/18.0
@@ -35604,7 +35845,11 @@ msgid "Log Calls"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Înregistrare apelurile"
+=======
+msgstr "Înregistrează apelurile"
+>>>>>>> upstream/18.0
 =======
 msgstr "Înregistrează apelurile"
 >>>>>>> upstream/18.0
@@ -36068,6 +36313,7 @@ msgid ""
 "Mail event can not be configured on model %s. Only models with discussion "
 "feature can be used."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -36820,6 +37066,10 @@ msgstr ""
 "Evenimentul de e-mail nu poate fi configurat pe modelul %s. Doar modelele cu "
 "funcționalitate de discuții pot fi utilizate."
 >>>>>>> upstream/18.0
+=======
+"Evenimentul de e-mail nu poate fi configurat pe modelul %s. Doar modelele cu "
+"funcționalitate de discuții pot fi utilizate."
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation__trg_date_range_type__minutes
@@ -36840,6 +37090,7 @@ msgstr "Nume model"
 #. odoo-python
 #: code:addons/base_automation/models/ir_actions_server.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -37352,6 +37603,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Model of action %(action_name)s should match the one from automated rule %"
 "(rule_name)s."
 msgstr ""
@@ -37477,6 +37730,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -37895,7 +38151,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "câteva minute după programarea sa."
+=======
+"minute după programarea sa."
+>>>>>>> upstream/18.0
 =======
 "minute după programarea sa."
 >>>>>>> upstream/18.0
@@ -38505,7 +38765,11 @@ msgid "On Change Fields Trigger"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Declanșator câmpuri On Change"
+=======
+msgstr "Declanșator la modificarea câmpurilor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Declanșator la modificarea câmpurilor"
 >>>>>>> upstream/18.0
@@ -39110,7 +39374,11 @@ msgid "On UI change"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "La modificarea interfeței cu utilizatorul"
+=======
+msgstr "La modificarea interfeței"
+>>>>>>> upstream/18.0
 =======
 msgstr "La modificarea interfeței"
 >>>>>>> upstream/18.0
@@ -39715,7 +39983,11 @@ msgid "On archived"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "La arhivat"
+=======
+msgstr "La arhivare"
+>>>>>>> upstream/18.0
 =======
 msgstr "La arhivare"
 >>>>>>> upstream/18.0
@@ -40330,7 +40602,11 @@ msgid "On incoming message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "La intrare de mesaj"
+=======
+msgstr "La primirea mesajului"
+>>>>>>> upstream/18.0
 =======
 msgstr "La primirea mesajului"
 >>>>>>> upstream/18.0
@@ -40935,7 +41211,11 @@ msgid "On outgoing message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "La ieșire de mesaj"
+=======
+msgstr "La trimiterea mesajului"
+>>>>>>> upstream/18.0
 =======
 msgstr "La trimiterea mesajului"
 >>>>>>> upstream/18.0
@@ -41545,7 +41825,11 @@ msgid "On unarchived"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "La ne-arhivat"
+=======
+msgstr "La dezarhivare"
+>>>>>>> upstream/18.0
 =======
 msgstr "La dezarhivare"
 >>>>>>> upstream/18.0
@@ -42167,7 +42451,11 @@ msgid "Post as Note"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Postează ca Notă"
+=======
+msgstr "Postează ca notă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Postează ca notă"
 >>>>>>> upstream/18.0
@@ -42777,7 +43065,11 @@ msgid "Record Getter"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Înregistrare Getter"
+=======
+msgstr "Obținere înregistrare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obținere înregistrare"
 >>>>>>> upstream/18.0
@@ -43394,7 +43686,11 @@ msgid "Rotate Secret"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rotire secret"
+=======
+msgstr "Schimbă secretul"
+>>>>>>> upstream/18.0
 =======
 msgstr "Schimbă secretul"
 >>>>>>> upstream/18.0
@@ -43999,7 +44295,11 @@ msgid "Select a date field..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Selectați un tip de câmp"
+=======
+msgstr "Selectează un câmp de dată..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Selectează un câmp de dată..."
 >>>>>>> upstream/18.0
@@ -44604,7 +44904,11 @@ msgid "Select a value..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Selectează o valoare"
+=======
+msgstr "Selectează o valoare..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Selectează o valoare..."
 >>>>>>> upstream/18.0
@@ -45209,7 +45513,11 @@ msgid "Select fields..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Câmpuri selectate"
+=======
+msgstr "Selectează câmpuri..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Selectează câmpuri..."
 >>>>>>> upstream/18.0
@@ -45827,7 +46135,11 @@ msgid "Send Webhook Notification"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Trimiteți o notificare Webhook"
+=======
+msgstr "Trimite notificare Webhook"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trimite notificare Webhook"
 >>>>>>> upstream/18.0
@@ -46404,6 +46716,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                after a month of inactivity or remind yourself to follow-up on\n"
 "                tasks when a specific tag is added."
 msgstr ""
@@ -46825,6 +47138,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                after a month of inactivity or remind yourself to follow-up "
 "on\n"
 "                tasks when a specific tag is added."
@@ -46953,6 +47268,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -47198,6 +47516,7 @@ msgstr ""
 #. module: base_automation
 #: model_terms:digest.tip,tip_description:base_automation.digest_tip_base_automation_0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -47650,6 +47969,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Send an email when an object changes state, archive records after a month of "
 "inactivity or remind yourself to follow-up on tasks when a specific tag is "
 "added.<br>With Automation Rules, you can automate any workflow."
@@ -47774,6 +48095,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -48168,6 +48492,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -48472,6 +48799,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/base_automation/static/src/base_automation_actions_one2many_field.js:0
 msgid "Send email"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -49073,6 +49401,9 @@ msgstr "Trimite e-mail"
 =======
 msgstr "Trimite e-mail"
 >>>>>>> upstream/18.0
+=======
+msgstr "Trimite e-mail"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-python
@@ -49091,6 +49422,7 @@ msgid ""
 "Some triggers need a reference to a selection field. This field is used to "
 "store it."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -49843,10 +50175,15 @@ msgstr ""
 "Unele declanșatoare au nevoie de o referință la un câmp de selecție. Acest "
 "câmp este folosit pentru a o stoca."
 >>>>>>> upstream/18.0
+=======
+"Unele declanșatoare au nevoie de o referință la un câmp de selecție. Acest "
+"câmp este folosit pentru a o stoca."
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__trg_field_ref
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -50359,6 +50696,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Some triggers need a reference to another field. This field is used to store "
 "it."
 msgstr ""
@@ -50484,6 +50823,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -50880,7 +51222,11 @@ msgid "Specific User"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Utilizator Specific"
+=======
+msgstr "Utilizator specific"
+>>>>>>> upstream/18.0
 =======
 msgstr "Utilizator specific"
 >>>>>>> upstream/18.0
@@ -51491,7 +51837,11 @@ msgid "Stage is set to \"%s\""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Etapa este setată la \"%s”"
+=======
+msgstr "Etapa este setată la \"%s\""
+>>>>>>> upstream/18.0
 =======
 msgstr "Etapa este setată la \"%s\""
 >>>>>>> upstream/18.0
@@ -51961,6 +52311,7 @@ msgstr "Înregistrare țintă"
 #. module: base_automation
 #. odoo-python
 #: code:addons/base_automation/models/base_automation.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -52837,11 +53188,17 @@ msgid "Target model of actions %(action_names)s are different from rule model."
 msgstr ""
 "Modelul țintă al acțiunilor %(action_names)s este diferit de modelul regulii."
 >>>>>>> upstream/18.0
+=======
+msgid "Target model of actions %(action_names)s are different from rule model."
+msgstr ""
+"Modelul țintă al acțiunilor %(action_names)s este diferit de modelul regulii."
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-python
 #: code:addons/base_automation/models/base_automation.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -53354,6 +53711,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "The \"%(trigger_value)s\" %(trigger_label)s can only be used with the \"%"
 "(state_value)s\" action type"
 msgstr ""
@@ -53479,6 +53838,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -53728,6 +54090,7 @@ msgid ""
 "updated.If empty, all fields are watched."
 msgstr ""
 "Regula de automatizare va fi declanșată dacă și numai dacă unul dintre "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -54330,6 +54693,9 @@ msgstr ""
 =======
 "aceste câmpuri este actualizat. Dacă este gol, toate câmpurile sunt urmărite."
 >>>>>>> upstream/18.0
+=======
+"aceste câmpuri este actualizat. Dacă este gol, toate câmpurile sunt urmărite."
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-javascript
@@ -54489,7 +54855,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                ”"
+=======
+"                \""
+>>>>>>> upstream/18.0
 =======
 "                \""
 >>>>>>> upstream/18.0
@@ -55097,7 +55467,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Acest cod va fi executat pentru a afla pe ce înregistrare trebuie să fie "
+=======
+"Acest cod va fi rulat pentru a determina pe ce înregistrare trebuie să fie "
+>>>>>>> upstream/18.0
 =======
 "Acest cod va fi rulat pentru a determina pe ce înregistrare trebuie să fie "
 >>>>>>> upstream/18.0
@@ -55710,7 +56084,11 @@ msgid "Tip: Automate everything with Automation Rules"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sfat: Automatizează totul cu Regulile de automatizare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sfat: Automatizează totul cu Regulile de automatizare"
 >>>>>>> upstream/18.0
@@ -56320,7 +56698,11 @@ msgid "Trigger Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Data declansarii"
+=======
+msgstr "Data declanșării"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data declanșării"
 >>>>>>> upstream/18.0
@@ -56935,7 +57317,11 @@ msgid "Trigger Fields"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Câmpuri de declanșare"
+=======
+msgstr "Câmpuri declanșatoare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Câmpuri declanșatoare"
 >>>>>>> upstream/18.0
@@ -57555,7 +57941,11 @@ msgid "URL will be created once the rule is saved."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Adresa URL va fi creată odată ce regula este salvată."
+=======
+msgstr "URL-ul va fi creat după ce regula este salvată."
+>>>>>>> upstream/18.0
 =======
 msgstr "URL-ul va fi creat după ce regula este salvată."
 >>>>>>> upstream/18.0
@@ -58161,7 +58551,11 @@ msgid "Update"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Actualizare"
+=======
+msgstr "Actualizează"
+>>>>>>> upstream/18.0
 =======
 msgstr "Actualizează"
 >>>>>>> upstream/18.0
@@ -58767,7 +59161,11 @@ msgid "Update the Record"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Actualizați înregistrarea"
+=======
+msgstr "Actualizează înregistrarea"
+>>>>>>> upstream/18.0
 =======
 msgstr "Actualizează înregistrarea"
 >>>>>>> upstream/18.0
@@ -59383,7 +59781,11 @@ msgid "Use Calendar"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Utilizează Calendar"
+=======
+msgstr "Folosește calendar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Folosește calendar"
 >>>>>>> upstream/18.0
@@ -60006,7 +60408,11 @@ msgid "Webhook Log"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "URL Webhook"
+=======
+msgstr "Jurnal Webhook"
+>>>>>>> upstream/18.0
 =======
 msgstr "Jurnal Webhook"
 >>>>>>> upstream/18.0
@@ -60612,7 +61018,11 @@ msgid "Webhook Logs"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "URL Webhook"
+=======
+msgstr "Jurnale Webhook"
+>>>>>>> upstream/18.0
 =======
 msgstr "Jurnale Webhook"
 >>>>>>> upstream/18.0
@@ -61081,6 +61491,7 @@ msgid ""
 "When calculating a day-based timed condition, it is possibleto use a "
 "calendar to compute the date based on working days."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -61833,11 +62244,16 @@ msgstr ""
 "Când se calculează o condiție de timp bazată pe zile, se poate folosi un "
 "calendar pentru a calcula data pe baza zilelor lucrătoare."
 >>>>>>> upstream/18.0
+=======
+"Când se calculează o condiție de timp bazată pe zile, se poate folosi un "
+"calendar pentru a calcula data pe baza zilelor lucrătoare."
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__trg_date_id
 msgid ""
 "When should the condition be triggered.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -62320,6 +62736,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                If present, will be checked by the scheduler. If empty, will "
 "be checked at creation and update."
 msgstr ""
@@ -62446,6 +62864,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -62841,8 +63262,12 @@ msgid "When unchecked, the rule is hidden and will not be executed."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Atunci cand nu este selectata, regula este ascunsa si nu va fi executata."
+=======
+msgstr "Când nu este bifată, regula este ascunsă și nu va fi executată."
+>>>>>>> upstream/18.0
 =======
 msgstr "Când nu este bifată, regula este ascunsă și nu va fi executată."
 >>>>>>> upstream/18.0
@@ -63447,7 +63872,11 @@ msgid "When updating"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Se actualizează…"
+=======
+msgstr "La actualizare"
+>>>>>>> upstream/18.0
 =======
 msgstr "La actualizare"
 >>>>>>> upstream/18.0
@@ -64055,7 +64484,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Cu Regulile de automatizare, puteți automatiza\n"
+=======
+"Cu Regulile de automatizare, poți automatiza\n"
+>>>>>>> upstream/18.0
 =======
 "Cu Regulile de automatizare, poți automatiza\n"
 >>>>>>> upstream/18.0
@@ -64664,8 +65097,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Puteți solicita unui administrator să dezactiveze sau să corecteze această "
 "regulă de automatizare."
+=======
+"Poți cere unui administrator să dezactiveze sau să corecteze această regulă "
+"de automatizare."
+>>>>>>> upstream/18.0
 =======
 "Poți cere unui administrator să dezactiveze sau să corecteze această regulă "
 "de automatizare."
@@ -65422,7 +65860,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Puteți dezactiva această regulă de automatizare sau o puteți edita pentru a "
+=======
+"Poți dezactiva această regulă de automatizare sau o poți edita pentru a "
+>>>>>>> upstream/18.0
 =======
 "Poți dezactiva această regulă de automatizare sau o poți edita pentru a "
 >>>>>>> upstream/18.0
@@ -66032,8 +66474,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Nu puteți trimite un e-mail, adăugați urmăritori sau creați o activitate "
 "pentru un înregistrare ștearsă.  Nu funcționează."
+=======
+"Nu poți trimite un e-mail, adăuga urmăritori sau crea o activitate pentru o "
+"înregistrare ștearsă. Pur și simplu nu funcționează."
+>>>>>>> upstream/18.0
 =======
 "Nu poți trimite un e-mail, adăuga urmăritori sau crea o activitate pentru o "
 "înregistrare ștearsă. Pur și simplu nu funcționează."
@@ -66790,8 +67237,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Adresa URL a webhook-ului dvs. conține un secret. Nu o distribui online sau "
 "din neglijență."
+=======
+"URL-ul webhook-ului tău conține un secret. Nu îl distribui online sau "
+"neglijent."
+>>>>>>> upstream/18.0
 =======
 "URL-ul webhook-ului tău conține un secret. Nu îl distribui online sau "
 "neglijent."
@@ -67546,7 +67998,11 @@ msgid "based on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "în baza"
+=======
+msgstr "bazat pe"
+>>>>>>> upstream/18.0
 =======
 msgstr "bazat pe"
 >>>>>>> upstream/18.0
@@ -68151,7 +68607,11 @@ msgid "e.g. Support flow"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "de exemplu, fluxul de asistență"
+=======
+msgstr "ex: flux suport"
+>>>>>>> upstream/18.0
 =======
 msgstr "ex: flux suport"
 >>>>>>> upstream/18.0

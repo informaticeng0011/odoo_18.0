@@ -110,6 +110,7 @@ class EventSaleReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _query(self, with_=None, select=None, join=None, group_by=None):
 =======
     def _query(self, with_=None, select=None, join=None, group_by=None, where=None):
@@ -122,6 +123,9 @@ class EventSaleReport(models.Model):
 >>>>>>> upstream/18.0
 =======
     def _query(self, with_=None, select=None, join=None, group_by=None, where=None):
+>>>>>>> upstream/18.0
+=======
+    def _query(self, with_=None, select=None, join=None, group_by=None):
 >>>>>>> upstream/18.0
 =======
     def _query(self, with_=None, select=None, join=None, group_by=None):
@@ -355,6 +359,7 @@ class EventSaleReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             self._where_clause(*(where or [])),
 >>>>>>> upstream/18.0
@@ -366,6 +371,8 @@ class EventSaleReport(models.Model):
 >>>>>>> upstream/18.0
 =======
             self._where_clause(*(where or [])),
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -548,6 +555,7 @@ WITH
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _select_clause(self, *select):
         # Extra clauses formatted as `cte1.column1 AS new_column1`, `table1.column2 AS new_column2`...
         return """
@@ -570,6 +578,11 @@ WITH
     def _select_clause(self):
         # Extra clauses formatted as `cte1.column1 AS new_column1`, `table1.column2 AS new_column2`...
         select_query = """
+>>>>>>> upstream/18.0
+=======
+    def _select_clause(self, *select):
+        # Extra clauses formatted as `cte1.column1 AS new_column1`, `table1.column2 AS new_column2`...
+        return """
 >>>>>>> upstream/18.0
 =======
     def _select_clause(self, *select):
@@ -952,6 +965,7 @@ SELECT
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     END AS sale_price_untaxed""" + (',\n    ' + ',\n    '.join(select) if select else '')
 =======
 =======
@@ -974,6 +988,9 @@ SELECT
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+    END AS sale_price_untaxed""" + (',\n    ' + ',\n    '.join(select) if select else '')
 >>>>>>> upstream/18.0
 =======
     END AS sale_price_untaxed""" + (',\n    ' + ',\n    '.join(select) if select else '')
@@ -1219,6 +1236,7 @@ GROUP BY
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1237,6 +1255,8 @@ WHERE """ + ',\n    '.join(where) if where else ''
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

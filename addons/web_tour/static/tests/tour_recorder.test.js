@@ -440,9 +440,14 @@ test("Save custom tour", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("/web/dataset/call_kw/web_tour.tour/create", async (request) => {
         const { params } = await request.json();
         const tour = params.args[0][0];
+=======
+    onRpc("web_tour.tour", "create", ({ args }) => {
+        const tour = args[0][0];
+>>>>>>> upstream/18.0
 =======
     onRpc("web_tour.tour", "create", ({ args }) => {
         const tour = args[0][0];

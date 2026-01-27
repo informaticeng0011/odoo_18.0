@@ -255,7 +255,11 @@ class TestBomPrice(TestBomPriceCommon):
         scrap_wood.button_bom_cost()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(scrap_wood.standard_price, 20.63, "After computing price from BoM price should be 20.63")
+=======
+        self.assertAlmostEqual(scrap_wood.standard_price, 20.625, msg="After computing price from BoM price should be 20.63")
+>>>>>>> upstream/18.0
 =======
         self.assertAlmostEqual(scrap_wood.standard_price, 20.625, msg="After computing price from BoM price should be 20.63")
 >>>>>>> upstream/18.0

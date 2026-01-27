@@ -187,7 +187,11 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for company in self:
+=======
+        for company in self.filtered(lambda c: c.l10n_hr_mer_connection_state == 'active'):
+>>>>>>> upstream/18.0
 =======
         for company in self.filtered(lambda c: c.l10n_hr_mer_connection_state == 'active'):
 >>>>>>> upstream/18.0
@@ -254,10 +258,13 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     fisc_data = _mer_api_check_fiscalization_status_inbox(company, electronic_id=document['mer_document_eid'])[0]
                 except (MojEracunServiceError, UserError):
                     _logger.error("Failed to retreive fisc data for document: %s", document['mer_document_eid'])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -293,6 +300,9 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -345,6 +355,7 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                     _logger.warning("Document eID %s is not successfully fiscalized, skipping import.", document['mer_document_eid'])
 >>>>>>> upstream/18.0
@@ -367,6 +378,9 @@ class ResCompany(models.Model):
                     _logger.warning("Document eID %s is not successfully fiscalized, skipping import.", document['mer_document_eid'])
 >>>>>>> upstream/18.0
                     continue
+=======
+                    _logger.warning("Document eID %s is not successfully fiscalized by MojEracun.", document['mer_document_eid'])
+>>>>>>> upstream/18.0
 =======
                     _logger.warning("Document eID %s is not successfully fiscalized by MojEracun.", document['mer_document_eid'])
 >>>>>>> upstream/18.0
@@ -433,7 +447,11 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for company in self:
+=======
+        for company in self.filtered(lambda c: c.l10n_hr_mer_connection_state == 'active'):
+>>>>>>> upstream/18.0
 =======
         for company in self.filtered(lambda c: c.l10n_hr_mer_connection_state == 'active'):
 >>>>>>> upstream/18.0
@@ -481,7 +499,11 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     _logger.error("Failed to retreive fiscalizatio data for company %s", company.name)
+=======
+                    _logger.error("Failed to retreive fiscalization data for company %s", company.name)
+>>>>>>> upstream/18.0
 =======
                     _logger.error("Failed to retreive fiscalization data for company %s", company.name)
 >>>>>>> upstream/18.0

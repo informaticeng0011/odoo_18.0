@@ -188,7 +188,11 @@ class MailThread(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             feedback = tools.plaintext2html(feedback or '')
+=======
+            feedback = tools.plaintext2html(feedback or '', with_paragraph=False)
+>>>>>>> upstream/18.0
 =======
             feedback = tools.plaintext2html(feedback or '', with_paragraph=False)
 >>>>>>> upstream/18.0
@@ -551,7 +555,10 @@ class MailThread(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -973,6 +980,9 @@ class MailThread(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

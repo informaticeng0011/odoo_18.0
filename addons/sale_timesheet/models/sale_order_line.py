@@ -97,7 +97,11 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 remaining_hours = line.product_uom._compute_quantity(qty_left, uom_hour)
+=======
+                remaining_hours = line.product_uom._compute_quantity(qty_left, uom_hour, round=False)
+>>>>>>> upstream/18.0
 =======
                 remaining_hours = line.product_uom._compute_quantity(qty_left, uom_hour, round=False)
 >>>>>>> upstream/18.0
