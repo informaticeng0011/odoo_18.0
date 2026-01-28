@@ -1364,6 +1364,12 @@ test("Can quick search when more than 20 items", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    await insertText(".o-mail-MessagingMenu input", "no threads", { replace: true });
+    await contains(".o-mail-MessagingMenu div.text-muted", { text: "No thread found." });
+    expect(".o-mail-MessagingMenu-list").toHaveText("No thread found."); // list should contain only this text
+>>>>>>> upstream/18.0
 =======
     await insertText(".o-mail-MessagingMenu input", "no threads", { replace: true });
     await contains(".o-mail-MessagingMenu div.text-muted", { text: "No thread found." });
@@ -2195,7 +2201,10 @@ test("failure is removed from messaging menu when message is deleted", async () 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2380,6 +2389,9 @@ test("user notification from inbox redirect to discuss inbox", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

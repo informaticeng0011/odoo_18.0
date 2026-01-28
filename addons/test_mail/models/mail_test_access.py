@@ -48,7 +48,11 @@ class MailTestAccessCusto(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     _inherit = ['mail.thread.blacklist']
+=======
+    _inherit = ['mail.thread.blacklist', 'mail.activity.mixin']
+>>>>>>> upstream/18.0
 =======
     _inherit = ['mail.thread.blacklist', 'mail.activity.mixin']
 >>>>>>> upstream/18.0
@@ -106,6 +110,10 @@ class MailTestAccessCusto(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    is_readonly = fields.Boolean()
+>>>>>>> upstream/18.0
 =======
     is_readonly = fields.Boolean()
 >>>>>>> upstream/18.0
@@ -159,6 +167,7 @@ class MailTestAccessCusto(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # customize message creation
         if operation == "create":
             if any(record.is_locked for record in self.browse(res_ids)):
@@ -166,6 +175,8 @@ class MailTestAccessCusto(models.Model):
             else:
                 return "read"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -209,6 +220,9 @@ class MailTestAccessCusto(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

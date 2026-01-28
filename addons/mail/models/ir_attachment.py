@@ -84,6 +84,10 @@ class IrAttachment(models.Model):
                 "filename",
                 "mimetype",
                 "name",
+<<<<<<< HEAD
+=======
+                "res_model",
+>>>>>>> upstream/18.0
                 "res_name",
                 "size",
                 "thread",

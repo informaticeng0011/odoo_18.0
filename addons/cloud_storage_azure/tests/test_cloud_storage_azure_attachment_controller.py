@@ -72,6 +72,10 @@ class TestCloudStorageAttachmentController(
                                     "mimetype": "text/x-python",
                                     "name": "__init__.py",
                                     "res_name": False,
+<<<<<<< HEAD
+=======
+                                    "res_model": attachment.res_model,
+>>>>>>> upstream/18.0
                                     "size": 0,
                                     "thread": False,
                                     "voice": False,

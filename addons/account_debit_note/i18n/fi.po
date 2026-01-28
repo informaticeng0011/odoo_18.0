@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* account_debit_note
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -564,6 +565,10 @@
 # * account_debit_note
 #
 >>>>>>> upstream/18.0
+=======
+# * account_debit_note
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Eino Mäkitalo <eino.makitalo@netitbe.fi>, 2024
 # Pekka Ikonen, 2024
@@ -574,6 +579,7 @@
 # Tommi Rintala <tommi.rintala@gmail.com>, 2024
 # Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2024
 # Jessica Jakara, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1127,10 +1133,14 @@
 =======
 # Saara Hakanen <sahak@odoo.com>, 2026.
 >>>>>>> upstream/18.0
+=======
+# Saara Hakanen <sahak@odoo.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1569,6 +1579,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-01-17 09:02+0000\n"
 "Last-Translator: Saara Hakanen <sahak@odoo.com>\n"
@@ -1583,6 +1595,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1606,6 +1621,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2039,6 +2055,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: account_debit_note
 #: model_terms:ir.ui.view,arch_db:account_debit_note.view_move_form_debit
@@ -2048,6 +2068,7 @@ msgstr "<span class=\"o_stat_text\">Veloituslaskut</span>"
 #. module: account_debit_note
 #: model:ir.model,name:account_debit_note.model_account_debit_note
 msgid "Add Debit Note wizard"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2089,6 +2110,9 @@ msgstr "Lisää ohjattu veloituslaskutoiminto"
 =======
 msgstr "Lisää ohjattu veloituslaskutoiminto"
 >>>>>>> upstream/18.0
+=======
+msgstr "Lisää ohjattu veloituslaskutoiminto"
+>>>>>>> upstream/18.0
 
 #. module: account_debit_note
 #: model_terms:ir.ui.view,arch_db:account_debit_note.view_account_debit_note
@@ -2098,6 +2122,7 @@ msgstr "Peruuta"
 #. module: account_debit_note
 #: model:ir.model.fields,help:account_debit_note.field_account_journal__debit_sequence
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2772,6 +2797,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Check this box if you don't want to share the same sequence for invoices and "
 "debit notes made from this journal"
 msgstr ""
@@ -2786,6 +2813,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2868,7 +2898,11 @@ msgid "Dedicated Debit Note Sequence"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Oma veloituslaskujen sarja"
+=======
+msgstr "Veloituslaskuille omistettu sekvenssi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Veloituslaskuille omistettu sekvenssi"
 >>>>>>> upstream/18.0
@@ -2918,7 +2952,11 @@ msgid "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ID"
+=======
+msgstr "Tunnus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tunnus"
 >>>>>>> upstream/18.0
@@ -2963,7 +3001,11 @@ msgid "If empty, uses the journal of the journal entry to be debited."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mikäli tyhjä, käytetään sen kirjauskansiota veloituksen kirjaamiseen."
+=======
+msgstr "Jos tyhjä, käytetään veloitettavan kirjauksen päiväkirjaa."
+>>>>>>> upstream/18.0
 =======
 msgstr "Jos tyhjä, käytetään veloitettavan kirjauksen päiväkirjaa."
 >>>>>>> upstream/18.0
@@ -3011,8 +3053,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Mikäli korjauksia täytyy tehdä jokaiselle riville, voi olla kätevintä "
 "kopioida ne. Odoo ei kopioi hyvityslaskuista huomioita veloituslaskuihin. "
+=======
+"Jos teet korjauksia jokaiselle riville, voi olla kätevintä kopioida ne. Odoo "
+"ei kopioi niitä hyvityslaskuista veloituslaskuille. "
+>>>>>>> upstream/18.0
 =======
 "Jos teet korjauksia jokaiselle riville, voi olla kätevintä kopioida ne. Odoo "
 "ei kopioi niitä hyvityslaskuista veloituslaskuille. "
@@ -3072,7 +3119,11 @@ msgid "Journal Entry"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Päiväkirjan kirjaus"
+=======
+msgstr "Kirjaus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kirjaus"
 >>>>>>> upstream/18.0
@@ -3117,7 +3168,11 @@ msgid "Journal Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Päiväkirjan tyyppi"
+=======
+msgstr "Päiväkirjatyyppi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Päiväkirjatyyppi"
 >>>>>>> upstream/18.0
@@ -3177,7 +3232,11 @@ msgid "Move Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Siirron tyyppi"
+=======
+msgstr "Siirtotyyppi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Siirtotyyppi"
 >>>>>>> upstream/18.0
@@ -3242,8 +3301,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Kaksikirjaiminen ISO-maaatunnus. \n"
 "Voit hakea tämän kentän avulla nopeasti."
+=======
+"Kaksimerkkinen ISO-maaatunnus. \n"
+"Voit käyttää tätä kenttää pikahakuun."
+>>>>>>> upstream/18.0
 =======
 "Kaksimerkkinen ISO-maaatunnus. \n"
 "Voit käyttää tätä kenttää pikahakuun."
@@ -3289,6 +3353,7 @@ msgstr ""
 #: model:ir.model.fields,help:account_debit_note.field_account_bank_statement_line__debit_note_ids
 #: model:ir.model.fields,help:account_debit_note.field_account_move__debit_note_ids
 msgid "The debit notes created for this invoice"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3837,6 +3902,8 @@ msgstr "Veloituslasku luotiin kohteesta %s"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "Tälle laskulle luodut veloituslaskut"
 
 #. module: account_debit_note
@@ -3853,6 +3920,9 @@ msgstr "Tämä veloituslasku luotiin kohteesta: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3876,6 +3946,7 @@ msgstr "Tämä veloituslasku luotiin kohteesta: %s"
 #. module: account_debit_note
 #: model:ir.model.fields,field_description:account_debit_note.field_account_debit_note__journal_id
 msgid "Use Specific Journal"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3917,6 +3988,9 @@ msgstr "Käytä tiettyä päiväkirjaa"
 =======
 msgstr "Käytä tiettyä päiväkirjaa"
 >>>>>>> upstream/18.0
+=======
+msgstr "Käytä tiettyä päiväkirjaa"
+>>>>>>> upstream/18.0
 
 #. module: account_debit_note
 #. odoo-python
@@ -3925,6 +3999,7 @@ msgid ""
 "You can make a debit note only for a Customer Invoice, a Customer Credit "
 "Note, a Vendor Bill or a Vendor Credit Note."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4617,11 +4692,16 @@ msgstr ""
 "Voit tehdä veloituslaskun ainoastaan asiakaslaskulle, "
 "asiakashyvityslaskulle, toimittajan laskulle tai toimittajan hyvityslaskulle."
 >>>>>>> upstream/18.0
+=======
+"Voit tehdä veloituslaskun ainoastaan asiakaslaskulle, "
+"asiakashyvityslaskulle, toimittajan laskulle tai toimittajan hyvityslaskulle."
+>>>>>>> upstream/18.0
 
 #. module: account_debit_note
 #. odoo-python
 #: code:addons/account_debit_note/wizard/account_debit_note.py:0
 msgid "You can only debit posted moves."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4663,11 +4743,15 @@ msgstr "Voit veloittaa vain kirjattuja siirtoja."
 =======
 msgstr "Voit veloittaa vain kirjattuja siirtoja."
 >>>>>>> upstream/18.0
+=======
+msgstr "Voit veloittaa vain kirjattuja siirtoja."
+>>>>>>> upstream/18.0
 
 #. module: account_debit_note
 #. odoo-python
 #: code:addons/account_debit_note/wizard/account_debit_note.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5342,6 +5426,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "You can't make a debit note for an invoice that is already linked to a debit "
 "note."
 msgstr ""
@@ -5356,6 +5442,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

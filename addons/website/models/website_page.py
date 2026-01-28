@@ -5,6 +5,10 @@ import re
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from collections import Counter
+>>>>>>> upstream/18.0
 =======
 from collections import Counter
 >>>>>>> upstream/18.0
@@ -219,6 +223,11 @@ class Page(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Note: this `if`'s purpose it to optimize the way this is computed for
+        # multiple records.
+>>>>>>> upstream/18.0
 =======
         # Note: this `if`'s purpose it to optimize the way this is computed for
         # multiple records.
@@ -785,10 +794,13 @@ class Page(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         page_keys = self.sudo().search(
             self.env['website'].website_domain(website_id=self._context.get('website_id'))
         ).mapped('key')
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -804,6 +816,9 @@ class Page(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -822,7 +837,11 @@ class Page(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 and (page.website_id or page_keys.count(page.key) == 1)
+=======
+                and (page.website_id or page_keys_counts[page.key] == 1)
+>>>>>>> upstream/18.0
 =======
                 and (page.website_id or page_keys_counts[page.key] == 1)
 >>>>>>> upstream/18.0
@@ -1069,8 +1088,11 @@ class Page(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             domain.append([('website_published', '=', True)])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1493,6 +1515,9 @@ class Page(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1974,6 +1999,7 @@ class Page(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             # Search might have matched words in the xml tags and parameters therefore we make
             # sure the terms actually appear inside the text.
             text = '%s %s %s' % (page.name, page.url, text_from_html(page.arch))
@@ -1982,6 +2008,8 @@ class Page(models.Model):
         if search and with_description:
             results = results.filtered(lambda result: filter_page(search, result, results))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2407,6 +2435,9 @@ class Page(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

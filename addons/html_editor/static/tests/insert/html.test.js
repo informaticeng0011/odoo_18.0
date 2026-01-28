@@ -206,7 +206,10 @@ describe("collapsed selection", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -367,6 +370,9 @@ describe("collapsed selection", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -503,7 +509,11 @@ describe("collapsed selection", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             `<p>cont</p><table><tbody><tr><td></td></tr></tbody></table><p>[]ent</p>`
+=======
+            `<p>cont</p><table><tbody><tr><td><br></td></tr></tbody></table><p>[]ent</p>`
+>>>>>>> upstream/18.0
 =======
             `<p>cont</p><table><tbody><tr><td><br></td></tr></tbody></table><p>[]ent</p>`
 >>>>>>> upstream/18.0
@@ -686,7 +696,11 @@ describe("collapsed selection", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             `<p class="oe_unbreakable">content[]</p><table><tbody><tr><td></td></tr></tbody></table>`
+=======
+            `<p class="oe_unbreakable">content</p><table><tbody><tr><td>[]<br></td></tr></tbody></table>`
+>>>>>>> upstream/18.0
 =======
             `<p class="oe_unbreakable">content</p><table><tbody><tr><td>[]<br></td></tr></tbody></table>`
 >>>>>>> upstream/18.0
@@ -872,7 +886,11 @@ describe("collapsed selection", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             `<div><p class="oe_unbreakable" contenteditable="true"><b class="oe_unbreakable">content[]</b><table><tbody><tr><td></td></tr></tbody></table></p></div>`
+=======
+            `<div><p class="oe_unbreakable" contenteditable="true"><b class="oe_unbreakable">content</b><table><tbody><tr><td>[]<br></td></tr></tbody></table></p></div>`
+>>>>>>> upstream/18.0
 =======
             `<div><p class="oe_unbreakable" contenteditable="true"><b class="oe_unbreakable">content</b><table><tbody><tr><td>[]<br></td></tr></tbody></table></p></div>`
 >>>>>>> upstream/18.0
@@ -1368,8 +1386,13 @@ describe("not collapsed selection", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <tr><td>cd</td><td><span class="a">TEST</span>[]</td><td>gh</td></tr>
                         <tr><td>ij</td><td><br></td><td>mn</td></tr>
+=======
+                        <tr><td>cd</td><td><p><span class="a">TEST</span>[]</p></td><td>gh</td></tr>
+                        <tr><td>ij</td><td><p><br></p></td><td>mn</td></tr>
+>>>>>>> upstream/18.0
 =======
                         <tr><td>cd</td><td><p><span class="a">TEST</span>[]</p></td><td>gh</td></tr>
                         <tr><td>ij</td><td><p><br></p></td><td>mn</td></tr>

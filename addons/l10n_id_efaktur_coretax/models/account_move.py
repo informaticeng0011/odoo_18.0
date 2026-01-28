@@ -161,7 +161,10 @@ from odoo.exceptions import UserError, ValidationError, RedirectWarning
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools import cleanup_xml_node
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -731,7 +734,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -878,6 +884,7 @@ class AccountMove(models.Model):
             zero_group = self.env['account.chart.template'].with_company(move.company_id.id).ref("l10n_id_tax_group_0", raise_if_not_found=False)
             exempt_group = self.env['account.chart.template'].with_company(move.company_id.id).ref("l10n_id_tax_group_exempt", raise_if_not_found=False)
             stlg_group = self.env['account.chart.template'].with_company(move.company_id.id).ref("l10n_id_tax_group_stlg", raise_if_not_found=False)
+<<<<<<< HEAD
             product_lines = move.line_ids.filtered(lambda line: line.display_type == 'product')
             all_taxes = product_lines.mapped('tax_ids')
             tax_groups = set(all_taxes.mapped('tax_group_id'))
@@ -887,6 +894,24 @@ class AccountMove(models.Model):
                 err_messages.append(_("Invoice %s: can only have one tax group (excluding STLG).", move.name or ''))
             if len([g for g in tax_groups if g == stlg_group]) > 1:
                 err_messages.append(_("Invoice %s: can only have one STLG group.", move.name or ''))
+=======
+            default_group = self.env['account.chart.template'].with_company(move.company_id.id).ref("default_tax_group", raise_if_not_found=False)
+            product_lines = move.line_ids.filtered(lambda line: line.display_type == 'product')
+            all_taxes = product_lines.mapped('tax_ids')
+            tax_groups = set(all_taxes.mapped('tax_group_id'))
+            ppn_groups = {non_luxury_group, luxury_group, zero_group, exempt_group, default_group}
+            ppn_groups.discard(False)
+            ppn_tax_groups = [g for g in tax_groups if g in ppn_groups]
+            stlg_tax_groups = [g for g in tax_groups if g == stlg_group]
+
+            # Multiple tax groups check
+            if len(ppn_tax_groups) > 1:
+                err_messages.append(_("Invoice %s: can only have one PPN tax group (excluding STLG).", move.name or ''))
+            if len(stlg_tax_groups) > 1:
+                err_messages.append(_("Invoice %s: can only have one STLG group.", move.name or ''))
+            if not (ppn_tax_groups or stlg_tax_groups):
+                err_messages.append(_("Invoice %s: need to have at least one PPN or STLG tax group.", move.name or ''))
+>>>>>>> upstream/18.0
 
             # Allowed codes (01-06, 09, 10)
             if kode in allowed_codes:
@@ -993,6 +1018,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1243,9 +1271,12 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if err_messages:
             err_messages = [_('Unable to download E-faktur fot he following reasons(s):')] + err_messages
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1452,6 +1483,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1744,7 +1778,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2106,6 +2143,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2473,7 +2513,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "BuyerDocument": partner.l10n_id_buyer_document_type,
+=======
+            "BuyerDocument": l10n_id_buyer_document_type_mapping_to_xml.get(partner.l10n_id_buyer_document_type, partner.l10n_id_buyer_document_type),
+>>>>>>> upstream/18.0
 =======
             "BuyerDocument": l10n_id_buyer_document_type_mapping_to_xml.get(partner.l10n_id_buyer_document_type, partner.l10n_id_buyer_document_type),
 >>>>>>> upstream/18.0

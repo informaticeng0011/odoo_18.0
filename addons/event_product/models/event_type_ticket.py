@@ -26,11 +26,14 @@ class EventTemplateTicket(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         digits='Product Price', readonly=False, store=True)
     price_reduce = fields.Float(
         string="Price Reduce", compute="_compute_price_reduce",
         compute_sudo=True, digits='Product Price')
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -41,6 +44,9 @@ class EventTemplateTicket(models.Model):
         compute_sudo=True, min_display_digits='Product Price')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

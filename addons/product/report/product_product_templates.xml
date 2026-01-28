@@ -159,7 +159,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <strong class="o_label_price" t-out="pricelist._get_product_price(product, 1, pricelist.currency_id or product.currency_id)"
+=======
+                            <strong class="o_label_price" t-out="pricelist._get_product_price(product, 1, currency=pricelist.currency_id or product.currency_id)"
+>>>>>>> upstream/18.0
 =======
                             <strong class="o_label_price" t-out="pricelist._get_product_price(product, 1, currency=pricelist.currency_id or product.currency_id)"
 >>>>>>> upstream/18.0
@@ -729,7 +733,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <strong class="o_label_price_medium" t-out="pricelist._get_product_price(product, 1, pricelist.currency_id or product.currency_id)"
+=======
+                        <strong class="o_label_price_medium" t-out="pricelist._get_product_price(product, 1, currency=pricelist.currency_id or product.currency_id)"
+>>>>>>> upstream/18.0
 =======
                         <strong class="o_label_price_medium" t-out="pricelist._get_product_price(product, 1, currency=pricelist.currency_id or product.currency_id)"
 >>>>>>> upstream/18.0
@@ -1307,7 +1315,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <strong t-out="pricelist._get_product_price(product, 1, pricelist.currency_id or product.currency_id)"
+=======
+                        <strong t-out="pricelist._get_product_price(product, 1, currency=pricelist.currency_id or product.currency_id)"
+>>>>>>> upstream/18.0
 =======
                         <strong t-out="pricelist._get_product_price(product, 1, currency=pricelist.currency_id or product.currency_id)"
 >>>>>>> upstream/18.0
@@ -1913,7 +1925,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <strong class="o_label_price_small" t-out="pricelist._get_product_price(product, 1, pricelist.currency_id or product.currency_id)"
+=======
+                        <strong class="o_label_price_small" t-out="pricelist._get_product_price(product, 1, currency=pricelist.currency_id or product.currency_id)"
+>>>>>>> upstream/18.0
 =======
                         <strong class="o_label_price_small" t-out="pricelist._get_product_price(product, 1, currency=pricelist.currency_id or product.currency_id)"
 >>>>>>> upstream/18.0

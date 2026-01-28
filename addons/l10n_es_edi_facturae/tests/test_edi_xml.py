@@ -339,6 +339,7 @@ class TestEdiFacturaeXmls(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         wizard.action_send_and_print()
         self.assertFalse(invoice.l10n_es_edi_facturae_xml_id)
 =======
@@ -1066,6 +1067,11 @@ class TestEdiFacturaeXmls(AccountTestInvoicingCommon):
         with self.assertRaises(UserError):
             wizard.action_send_and_print()
 >>>>>>> upstream/18.0
+=======
+        # Expect a UserError if no certificate is configured
+        with self.assertRaises(UserError):
+            wizard.action_send_and_print()
+>>>>>>> upstream/18.0
 
     def test_in_invoice(self):
         random.seed(42)
@@ -1198,7 +1204,10 @@ class TestEdiFacturaeXmls(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1533,6 +1542,7 @@ class TestEdiFacturaeXmls(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1615,6 +1625,8 @@ class TestEdiFacturaeXmls(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1835,6 +1847,7 @@ class TestEdiFacturaeXmls(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1961,6 +1974,37 @@ class TestEdiFacturaeXmls(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+    def test_out_invoice_negative(self):
+        with freeze_time(self.frozen_today):
+            withhold_tax = self.env['account.tax'].create({
+                'name': "15% WHI (Test)",
+                'company_id': self.company_data['company'].id,
+                'amount': -15.0,
+                'price_include_override': 'tax_excluded',
+                'l10n_es_edi_facturae_tax_type': '04',
+            })
+
+            invoice = self.create_invoice(
+                partner_id=self.partner_a.id,
+                move_type='out_invoice',
+                invoice_line_ids=[
+                    {'price_unit': 1000, 'quantity': 1.0, 'tax_ids': [self.tax.id, withhold_tax.id]},
+                    {'price_unit': -100, 'quantity': 1.0, 'tax_ids': [self.tax.id, withhold_tax.id]},
+                ],
+            )
+            invoice.action_post()
+
+            generated_file, errors = invoice._l10n_es_edi_facturae_render_facturae()
+            self.assertFalse(errors)
+            self.assertTrue(generated_file)
+
+            with file_open("l10n_es_edi_facturae/tests/data/expected_out_invoice_negative.xml", "rt") as f:
+                expected_xml = lxml.etree.fromstring(f.read().encode())
+
+            self.assertXmlTreeEqual(lxml.etree.fromstring(generated_file), expected_xml)
+
 >>>>>>> upstream/18.0
     def test_refund_invoice(self):
         random.seed(42)
@@ -2311,7 +2355,10 @@ class TestEdiFacturaeXmls(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2822,6 +2869,7 @@ class TestEdiFacturaeXmls(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2936,6 +2984,8 @@ class TestEdiFacturaeXmls(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3271,6 +3321,9 @@ class TestEdiFacturaeXmls(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

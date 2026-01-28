@@ -28,6 +28,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import account_chart_template
+from . import account_journal
+>>>>>>> upstream/18.0
 =======
 from . import account_chart_template
 from . import account_journal

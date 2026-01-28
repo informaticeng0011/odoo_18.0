@@ -216,6 +216,10 @@ from odoo.addons.payment import utils as payment_utils
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.payment.controllers.portal import PaymentPortal
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.payment.controllers.portal import PaymentPortal
 >>>>>>> upstream/18.0
@@ -975,7 +979,11 @@ class PaymentProvider(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self.env.company.country_id.code not in const.SUPPORTED_COUNTRIES:
+=======
+        if self._stripe_get_country(self.env.company.country_id.code) not in const.SUPPORTED_COUNTRIES:
+>>>>>>> upstream/18.0
 =======
         if self._stripe_get_country(self.env.company.country_id.code) not in const.SUPPORTED_COUNTRIES:
 >>>>>>> upstream/18.0
@@ -1497,8 +1505,11 @@ class PaymentProvider(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'minor_amount': amount and payment_utils.to_minor_currency_units(amount, currency),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1831,6 +1842,9 @@ class PaymentProvider(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2064,6 +2078,7 @@ class PaymentProvider(models.Model):
                     'postal_code': partner.zip or '',
                 },
             },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2698,6 +2713,8 @@ class PaymentProvider(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             'is_tokenization_required': (
                 self.allow_tokenization
                 and self._is_tokenization_required(**kwargs)
@@ -2901,6 +2918,9 @@ class PaymentProvider(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

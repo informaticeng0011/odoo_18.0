@@ -153,6 +153,11 @@ class StockRulesReport(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if not warehouse_id:
+                self.env['stock.warehouse']._warehouse_redirect_warning()
+>>>>>>> upstream/18.0
 =======
             if not warehouse_id:
                 self.env['stock.warehouse']._warehouse_redirect_warning()

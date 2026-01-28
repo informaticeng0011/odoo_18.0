@@ -169,6 +169,7 @@ class BaseDocumentLayout(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (
             self.env.context.get('active_model') == 'account.move'
             and self.env.context.get('active_id')
@@ -178,6 +179,8 @@ class BaseDocumentLayout(models.TransientModel):
                 'qr_code': self.qr_code,
             })
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -605,6 +608,9 @@ class BaseDocumentLayout(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1028,11 +1034,14 @@ class BaseDocumentLayout(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _inverse_account_number(self):
         for record in self:
             if record.partner_id.bank_ids and record.account_number:
                 record.partner_id.bank_ids[0].acc_number = record.account_number
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1455,6 +1464,9 @@ class BaseDocumentLayout(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
