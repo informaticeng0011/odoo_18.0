@@ -51,7 +51,11 @@ import { AccordionItem } from "@point_of_sale/app/generic_components/accordion_i
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 patch(ClosePosPopup, {
+=======
+patch(ClosePosPopup.prototype, {
+>>>>>>> upstream/18.0
 =======
 patch(ClosePosPopup.prototype, {
 >>>>>>> upstream/18.0
@@ -250,7 +254,10 @@ patch(ClosePosPopup.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -402,6 +409,9 @@ patch(ClosePosPopup.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

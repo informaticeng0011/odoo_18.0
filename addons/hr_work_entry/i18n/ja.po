@@ -91,6 +91,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* hr_work_entry
 # 
 # Translators:
@@ -758,6 +759,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * hr_work_entry
 #
 # Translators:
@@ -855,6 +858,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1040,6 +1046,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1826,6 +1833,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-10-28 19:44+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-18/"
@@ -1926,6 +1936,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2282,7 +2295,11 @@ msgid "%s work entries"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%s作業エントリ"
+=======
+msgstr "%s勤務記録"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s勤務記録"
 >>>>>>> upstream/18.0
@@ -2972,7 +2989,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            作業エントリ\n"
+=======
+"                            勤務記録\n"
+>>>>>>> upstream/18.0
 =======
 "                            勤務記録\n"
 >>>>>>> upstream/18.0
@@ -3495,6 +3516,7 @@ msgstr "<span>時間</span>"
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_work_entry__active
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_work_entry_type__active
 msgid "Active"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4340,6 +4362,9 @@ msgstr "アクティブ"
 =======
 msgstr "アクティブ"
 >>>>>>> upstream/18.0
+=======
+msgstr "アクティブ"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_type_view_form
@@ -4394,7 +4419,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "注意:このコードは多くの参照で使用されているため、変更すると望ましくない変更につながる可能性があります。"
+=======
+msgstr ""
+"注意:このコードは多くの参照で使用されているため、変更すると望ましくない変更に"
+"つながる可能性があります。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "注意:このコードは多くの参照で使用されているため、変更すると望ましくない変更に"
@@ -4731,7 +4762,11 @@ msgid "Create a new work entry type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "新しい作業エントリタイプを作成"
+=======
+msgstr "新しい勤務記録タイプを作成"
+>>>>>>> upstream/18.0
 =======
 msgstr "新しい勤務記録タイプを作成"
 >>>>>>> upstream/18.0
@@ -5493,6 +5528,7 @@ msgid "HR Work Entry"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "HR作業エントリ"
 =======
 msgstr "HR勤務記録"
@@ -6004,10 +6040,14 @@ msgstr "人事勤務記録"
 =======
 msgstr "人事勤務記録"
 >>>>>>> upstream/18.0
+=======
+msgstr "人事勤務記録"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model,name:hr_work_entry.model_hr_work_entry_type
 msgid "HR Work Entry Type"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6689,10 +6729,14 @@ msgstr "人事勤務記録タイプ"
 =======
 msgstr "人事勤務記録タイプ"
 >>>>>>> upstream/18.0
+=======
+msgstr "人事勤務記録タイプ"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_employee__has_work_entries
 msgid "Has Work Entries"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7374,6 +7418,9 @@ msgstr "勤務記録あり"
 =======
 msgstr "勤務記録あり"
 >>>>>>> upstream/18.0
+=======
+msgstr "勤務記録あり"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_user_work_entry_employee__id
@@ -7412,7 +7459,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "有効フィールドをfalseに設定すると、作業入力タイプを削除せずに非表示にすることができます。"
+=======
+msgstr ""
+"有効フィールドをfalseに設定すると、作業入力タイプを削除せずに非表示にすること"
+"ができます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "有効フィールドをfalseに設定すると、作業入力タイプを削除せずに非表示にすること"
@@ -7742,7 +7795,11 @@ msgid "Note: Validated work entries cannot be modified."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "メモ: 検証済の作業エントリは変更できません。"
+=======
+msgstr "メモ: 検証済の勤務記録は変更できません。"
+>>>>>>> upstream/18.0
 =======
 msgstr "メモ: 検証済の勤務記録は変更できません。"
 >>>>>>> upstream/18.0
@@ -8443,7 +8500,11 @@ msgid "Search Work Entry"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "作業エントリを検索"
+=======
+msgstr "勤務記録を検索"
+>>>>>>> upstream/18.0
 =======
 msgstr "勤務記録を検索"
 >>>>>>> upstream/18.0
@@ -9128,7 +9189,11 @@ msgid "Search Work Entry Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "作業エントリタイプを検索"
+=======
+msgstr "勤務記録タイプを検索"
+>>>>>>> upstream/18.0
 =======
 msgstr "勤務記録タイプを検索"
 >>>>>>> upstream/18.0
@@ -9849,7 +9914,11 @@ msgid "The same code cannot be associated to multiple work entry types."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "同じコードは複数作業エントリタイプと関連することはできません。"
+=======
+msgstr "同じコードは複数勤務記録タイプと関連することはできません。"
+>>>>>>> upstream/18.0
 =======
 msgstr "同じコードは複数勤務記録タイプと関連することはできません。"
 >>>>>>> upstream/18.0
@@ -10535,7 +10604,11 @@ msgid "This work entry is validated. You can't delete it."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "この作業エントリは検証済です。削除することはできません。"
+=======
+msgstr "この勤務記録は検証済です。削除することはできません。"
+>>>>>>> upstream/18.0
 =======
 msgstr "この勤務記録は検証済です。削除することはできません。"
 >>>>>>> upstream/18.0
@@ -11087,7 +11160,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "レコードを追加するか、検索バーに有効なフィルタが設定されていないことを確認して下さい。"
+=======
+msgstr ""
+"レコードを追加するか、検索バーに有効なフィルタが設定されていないことを確認し"
+"て下さい。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "レコードを追加するか、検索バーに有効なフィルタが設定されていないことを確認し"
@@ -11416,7 +11495,11 @@ msgid "Validated work entries cannot overlap"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "検証された作業エントリは重複できません。"
+=======
+msgstr "検証された勤務記録は重複できません。"
+>>>>>>> upstream/18.0
 =======
 msgstr "検証された勤務記録は重複できません。"
 >>>>>>> upstream/18.0
@@ -12106,7 +12189,11 @@ msgid "Work Entries"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "作業エントリ"
+=======
+msgstr "勤務記録"
+>>>>>>> upstream/18.0
 =======
 msgstr "勤務記録"
 >>>>>>> upstream/18.0
@@ -12791,7 +12878,11 @@ msgid "Work Entries Employees"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "作業エントリ従業員"
+=======
+msgstr "勤務記録従業員"
+>>>>>>> upstream/18.0
 =======
 msgstr "勤務記録従業員"
 >>>>>>> upstream/18.0
@@ -13479,7 +13570,11 @@ msgid "Work Entry"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "作業エントリ"
+=======
+msgstr "勤務記録"
+>>>>>>> upstream/18.0
 =======
 msgstr "勤務記録"
 >>>>>>> upstream/18.0
@@ -14164,7 +14259,11 @@ msgid "Work Entry Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "作業エントリ名"
+=======
+msgstr "勤務記録名"
+>>>>>>> upstream/18.0
 =======
 msgstr "勤務記録名"
 >>>>>>> upstream/18.0
@@ -14853,7 +14952,11 @@ msgid "Work Entry Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "作業エントリタイプ"
+=======
+msgstr "勤務記録タイプ"
+>>>>>>> upstream/18.0
 =======
 msgstr "勤務記録タイプ"
 >>>>>>> upstream/18.0
@@ -15538,7 +15641,11 @@ msgid "Work Entry Type Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "作業エントリタイプ名"
+=======
+msgstr "勤務記録タイプ名"
+>>>>>>> upstream/18.0
 =======
 msgstr "勤務記録タイプ名"
 >>>>>>> upstream/18.0
@@ -16223,7 +16330,11 @@ msgid "Work Entry Types"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "作業エントリタイプ"
+=======
+msgstr "勤務記録タイプ"
+>>>>>>> upstream/18.0
 =======
 msgstr "勤務記録タイプ"
 >>>>>>> upstream/18.0
@@ -16908,7 +17019,11 @@ msgid "Work entry must end. Please define an end date or a duration."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "作業エントリは終了する必要があります。終了日付または期間を定義して下さい。"
+=======
+msgstr "勤務記録は終了する必要があります。終了日付または期間を定義して下さい。"
+>>>>>>> upstream/18.0
 =======
 msgstr "勤務記録は終了する必要があります。終了日付または期間を定義して下さい。"
 >>>>>>> upstream/18.0
@@ -17426,6 +17541,7 @@ msgstr "勤務記録は終了する必要があります。終了日付または
 msgid ""
 "You can't change the Country of this work entry type cause it's currently "
 "used by the system. You need to delete related working entries first."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18158,6 +18274,11 @@ msgstr ""
 "この勤務記録タイプの国を変更することはできません。現在システムで使用されてい"
 "るためです。関連する勤務記録をまず削除する必要があります。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"この勤務記録タイプの国を変更することはできません。現在システムで使用されてい"
+"るためです。関連する勤務記録をまず削除する必要があります。"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #. odoo-python
@@ -18333,7 +18454,11 @@ msgid "You can't change the country of this specific work entry type."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "この特定の作業エントリタイプの国を変更することはできません。"
+=======
+msgstr "この特定の勤務記録タイプの国を変更することはできません。"
+>>>>>>> upstream/18.0
 =======
 msgstr "この特定の勤務記録タイプの国を変更することはできません。"
 >>>>>>> upstream/18.0

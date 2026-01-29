@@ -3,7 +3,11 @@
     <t t-name="web_tour.TourPointer">
         <div
 <<<<<<< HEAD
+<<<<<<< HEAD
             t-if="props.pointerState.isVisible"
+=======
+            t-if="this.isVisible"
+>>>>>>> upstream/18.0
 =======
             t-if="this.isVisible"
 >>>>>>> upstream/18.0

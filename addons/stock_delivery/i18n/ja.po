@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* stock_delivery
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -84,6 +85,9 @@
 =======
 # * stock_delivery
 >>>>>>> upstream/18.0
+=======
+# * stock_delivery
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2025
@@ -113,6 +117,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -153,6 +158,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# "Junko Augias (juau)" <juau@odoo.com>, 2026.
 >>>>>>> upstream/18.0
 =======
 # "Junko Augias (juau)" <juau@odoo.com>, 2026.
@@ -170,6 +178,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -255,6 +264,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2026-01-24 09:14+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
@@ -263,6 +274,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -274,6 +288,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -340,6 +355,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
+=======
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 =======
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.14.3\n"
@@ -467,8 +486,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Cancelling a delivery may not be undoable. Are you sure you want to "
 "continue?"
+=======
+"Cancelling a delivery may not be undoable. Are you sure you want to continue?"
+>>>>>>> upstream/18.0
 =======
 "Cancelling a delivery may not be undoable. Are you sure you want to continue?"
 >>>>>>> upstream/18.0
@@ -608,6 +631,7 @@ msgstr "配送パッケージの種類"
 #. module: stock_delivery
 #: model_terms:ir.ui.view,arch_db:stock_delivery.vpicktree_view_tree
 msgid "Destination"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1325,6 +1349,9 @@ msgstr "配送先"
 =======
 msgstr "配送先"
 >>>>>>> upstream/18.0
+=======
+msgstr "配送先"
+>>>>>>> upstream/18.0
 
 #. module: stock_delivery
 #: model:ir.model.fields,field_description:stock_delivery.field_stock_move_line__destination_country_code
@@ -1375,12 +1402,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Estimated Cost: the customer will be invoiced the estimated cost of the shipping.\n"
 "Real Cost: the customer will be invoiced the real cost of the shipping, the cost of theshipping will be updated on the SO after the delivery."
 msgstr ""
 "見積金額：顧客に送料の見積金額が請求されます。\n"
 "実費: 顧客に送料の実費が請求されます。送料は納品後に販売オーダで更新されます。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1461,6 +1491,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1700,7 +1733,11 @@ msgid "Exception occurred with respect to carrier on the transfer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "運送時に運送会社に関して例外が発生しました。"
+=======
+msgstr "運送時に配送業者に関して例外が発生しました。"
+>>>>>>> upstream/18.0
 =======
 msgstr "運送時に配送業者に関して例外が発生しました。"
 >>>>>>> upstream/18.0
@@ -2509,7 +2546,11 @@ msgid "Invoicing Policy"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "請求方針"
+=======
+msgstr "請求ポリシー"
+>>>>>>> upstream/18.0
 =======
 msgstr "請求ポリシー"
 >>>>>>> upstream/18.0
@@ -3436,7 +3477,11 @@ msgid "Return Picking"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ピッキングの戻し"
+=======
+msgstr "返品ピッキング"
+>>>>>>> upstream/18.0
 =======
 msgstr "返品ピッキング"
 >>>>>>> upstream/18.0
@@ -3974,6 +4019,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Rules of origin determine where goods originate, i.e. not where they have been shipped from, but where they have been produced or manufactured.\n"
 "As such, the ‘origin’ is the 'economic nationality' of goods traded in commerce."
 msgstr ""
@@ -4027,11 +4073,14 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Rules of origin determine where goods originate, i.e. not where they have "
 "been shipped from, but where they have been produced or manufactured.\n"
 "As such, the ‘origin’ is the 'economic nationality' of goods traded in "
 "commerce."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4115,6 +4164,10 @@ msgstr ""
 "原産地ルールは、商品の原産地、すなわち、出荷元ではなく、どこで生産または製造"
 "されたかを決定します。\n"
 >>>>>>> upstream/18.0
+=======
+"原産地ルールは、商品の原産地、すなわち、出荷元ではなく、どこで生産または製造"
+"されたかを決定します。\n"
+>>>>>>> upstream/18.0
 "そのため、 ‘原産地’ とは、商業的に取引される商品の ‘経済的国籍’ なのです。"
 
 #. module: stock_delivery
@@ -4171,8 +4224,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Shipment sent to carrier %(carrier_name)s for shipping with tracking number "
 "%(ref)s"
+=======
+"Shipment sent to carrier %(carrier_name)s for shipping with tracking number %"
+"(ref)s"
+>>>>>>> upstream/18.0
 =======
 "Shipment sent to carrier %(carrier_name)s for shipping with tracking number %"
 "(ref)s"
@@ -4368,7 +4426,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "梱包を作成できません。ピッキングのプロダクトの合計重量が0.0 %sのためです。 "
+=======
+msgstr ""
+"梱包を作成できません。ピッキングのプロダクトの合計重量が0.0 %sのためです。 "
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "梱包を作成できません。ピッキングのプロダクトの合計重量が0.0 %sのためです。 "
@@ -4482,6 +4545,7 @@ msgstr "配送料金は、配送が完了した時点で設定されます。"
 msgid ""
 "The weight of your package is higher than the maximum weight authorized for "
 "this package type. Please choose another package type."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4633,6 +4697,11 @@ msgstr ""
 "荷物の重量が、この梱包タイプで許可されている最大重量を超えています。他の梱包"
 "タイプを選んで下さい。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"荷物の重量が、この梱包タイプで許可されている最大重量を超えています。他の梱包"
+"タイプを選んで下さい。"
+>>>>>>> upstream/18.0
 
 #. module: stock_delivery
 #. odoo-python
@@ -4642,7 +4711,11 @@ msgid "There is no matching delivery rule."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "一致する配送規則がありません。"
+=======
+msgstr "一致する配送ルールがありません。"
+>>>>>>> upstream/18.0
 =======
 msgstr "一致する配送ルールがありません。"
 >>>>>>> upstream/18.0
@@ -4732,6 +4805,7 @@ msgstr "重量:"
 #: code:addons/stock_delivery/models/stock_picking.py:0
 msgid ""
 "You cannot pack products into the same package when they have different "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5450,6 +5524,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "carriers (i.e. check that all of their transfers have a carrier assigned and "
 "are using the same carrier)."
 msgstr ""
@@ -5480,6 +5556,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5566,7 +5645,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "この配送方法は、この注文を追跡するための宅配業者のウェブサイトにリダイレクトされていません。"
+=======
+msgstr ""
+"この配送方法は、この注文を追跡するための宅配業者のウェブサイトにリダイレクト"
+"されていません。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "この配送方法は、この注文を追跡するための宅配業者のウェブサイトにリダイレクト"

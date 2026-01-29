@@ -179,7 +179,11 @@ class PurchaseRequisitionLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         string='Unit Price', digits='Product Price', default=0.0,
+=======
+        string='Unit Price', min_display_digits='Product Price', default=0.0,
+>>>>>>> upstream/18.0
 =======
         string='Unit Price', min_display_digits='Product Price', default=0.0,
 >>>>>>> upstream/18.0

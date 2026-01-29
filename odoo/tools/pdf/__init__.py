@@ -210,9 +210,15 @@ error = None
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 for submod in ['._pypdf2_2', '._pypdf', '._pypdf2_1']:
     try:
         pypdf = importlib.import_module(submod, __spec__.name)
+=======
+for SUBMOD in ['._pypdf2_2', '._pypdf', '._pypdf2_1']:
+    try:
+        pypdf = importlib.import_module(SUBMOD, __spec__.name)
+>>>>>>> upstream/18.0
 =======
 for SUBMOD in ['._pypdf2_2', '._pypdf', '._pypdf2_1']:
     try:
@@ -1196,6 +1202,7 @@ DictionaryObject.get = _unwrapping_get
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1211,6 +1218,8 @@ NameObject.renumber_table.update({
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1521,6 +1530,9 @@ if hasattr(NameObject, 'renumber_table'):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2127,7 +2139,10 @@ class OdooPdfFileWriter(PdfFileWriter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2482,8 +2497,13 @@ class OdooPdfFileWriter(PdfFileWriter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             # _pypdf2_2 does the formating when creating a NameObject
             if SUBMOD == '._pypdf2_2':
+=======
+            # _pypdf2_2 and _pypdf does the formating when creating a NameObject
+            if SUBMOD in ('._pypdf2_2', '._pypdf'):
+>>>>>>> upstream/18.0
 =======
             # _pypdf2_2 and _pypdf does the formating when creating a NameObject
             if SUBMOD in ('._pypdf2_2', '._pypdf'):
@@ -2731,6 +2751,9 @@ class OdooPdfFileWriter(PdfFileWriter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3225,6 +3248,7 @@ class OdooPdfFileWriter(PdfFileWriter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         It should take the form of "/xxx#2Fxxx". E.g. for "text/xml": "/text#2Fxml"
         """
         adapted_subtype = subtype
@@ -3237,6 +3261,10 @@ class OdooPdfFileWriter(PdfFileWriter):
                 # The subtype still does not match the correct format, so we will not add it to the document
                 _logger.warning("Attempt to add an attachment with the incorrect subtype '%s'. The subtype will be ignored.", subtype)
                 adapted_subtype = ''
+=======
+        """
+        adapted_subtype = self.format_subtype(subtype)
+>>>>>>> upstream/18.0
 =======
         """
         adapted_subtype = self.format_subtype(subtype)
@@ -4115,7 +4143,11 @@ class OdooPdfFileWriter(PdfFileWriter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if submod == '._pypdf2_1':
+=======
+                if SUBMOD == '._pypdf2_1':
+>>>>>>> upstream/18.0
 =======
                 if SUBMOD == '._pypdf2_1':
 >>>>>>> upstream/18.0
@@ -4646,6 +4678,10 @@ class OdooPdfFileWriter(PdfFileWriter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self._header = b"%PDF-1.7"
+>>>>>>> upstream/18.0
 =======
         self._header = b"%PDF-1.7"
 >>>>>>> upstream/18.0
@@ -4707,6 +4743,7 @@ class OdooPdfFileWriter(PdfFileWriter):
         # " The file header shall begin at byte zero and shall consist of "%PDF-1.n" followed by a single EOL marker,
         # where 'n' is a single digit number between 0 (30h) and 7 (37h) "
         # " The aforementioned EOL marker shall be immediately followed by a % (25h) character followed by at least four
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5632,6 +5669,8 @@ class OdooPdfFileWriter(PdfFileWriter):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         # bytes, each of whose encoded byte values shall have a decimal value greater than 127 ".
         # PyPDF2 2.X+ already adds these 4 characters by default (so ._pypdf2_2 and ._pypdf don't need it).
         # The injected character `\xc3\xa9` is equivalent to the character `é`.
@@ -5657,6 +5696,9 @@ class OdooPdfFileWriter(PdfFileWriter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5784,7 +5826,10 @@ class OdooPdfFileWriter(PdfFileWriter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5847,6 +5892,9 @@ class OdooPdfFileWriter(PdfFileWriter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

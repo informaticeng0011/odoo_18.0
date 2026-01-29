@@ -103,6 +103,13 @@ export class NameAndSignature extends Component {
     async drawCurrentName() {
         const font = this.fonts[this.currentFont];
         const text = this.getCleanedName();
+<<<<<<< HEAD
+=======
+        if (text.trim() === "") {
+            this.clear();
+            return;
+        }
+>>>>>>> upstream/18.0
         const canvas = this.signatureRef.el;
         const img = this.getSVGText(font, text, canvas.width, canvas.height);
         await this.printImage(img);
@@ -242,7 +249,12 @@ export class NameAndSignature extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const text = this.props.signature.name;
+=======
+        // This replaces non-breaking spaces with breaking spaces
+        const text = this.props.signature.name.replace(/ /g, " ");
+>>>>>>> upstream/18.0
 =======
         // This replaces non-breaking spaces with breaking spaces
         const text = this.props.signature.name.replace(/ /g, " ");

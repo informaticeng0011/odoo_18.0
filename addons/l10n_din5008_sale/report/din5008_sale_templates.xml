@@ -29,11 +29,17 @@
                                 <td><div t-field="doc.date_order" t-options="{'widget': 'date'}"/></td>
                             </tr>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                             <tr t-if="doc.commitment_date">
                                 <td>Delivery Date:</td>
                                 <td><div t-field="doc.commitment_date" t-options="{'widget': 'date'}"/></td>
                             </tr>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                         </t>
                         <tr t-if="doc.client_order_ref">
@@ -120,7 +126,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <t t-else="">
+=======
+                    <t t-elif="commercial_partner != invoice_partner or commercial_partner != delivery_partner">
+>>>>>>> upstream/18.0
 =======
                     <t t-elif="commercial_partner != invoice_partner or commercial_partner != delivery_partner">
 >>>>>>> upstream/18.0

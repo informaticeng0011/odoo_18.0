@@ -125,8 +125,13 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'l10n_fr_rounding_difference_loss_account_id': 'pcg_4768',
                 'l10n_fr_rounding_difference_profit_account_id': 'pcg_4778',
+=======
+                'l10n_fr_rounding_difference_loss_account_id': 'pcg_658',
+                'l10n_fr_rounding_difference_profit_account_id': 'pcg_758',
+>>>>>>> upstream/18.0
 =======
                 'l10n_fr_rounding_difference_loss_account_id': 'pcg_658',
                 'l10n_fr_rounding_difference_profit_account_id': 'pcg_758',

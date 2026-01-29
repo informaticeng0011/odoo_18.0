@@ -615,6 +615,7 @@ class TestMailSchedule(EventCase, MockEmail, CronMixinCase):
         self.assertEqual(len(duplicate_mails), 0,
             "The duplicate configuration (first one from event_type.event_type_mail_ids which has same configuration as the sent one) should not have been added")
 
+<<<<<<< HEAD
     @mute_logger('odoo.addons.base.models.ir_model', 'odoo.models')
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1085,6 +1086,53 @@ class TestMailSchedule(EventCase, MockEmail, CronMixinCase):
 =======
     def test_scheduler_on_archived_event(self):
 >>>>>>> upstream/18.0
+=======
+    def test_scheduler_exclusion_list_usage(self):
+        """ Ensure mass mailing blacklist is ignored for registration but applied for event mailing """
+        self.env["mail.blacklist"].create({
+            "email": self.event_customer.email,
+        })
+        self.assertTrue(self.event_customer.is_blacklisted)
+
+        self.test_event.registration_ids.unlink()
+        start_date = self.reference_now + relativedelta(days=3)
+        with self.mock_datetime_and_now(start_date), self.mock_mail_gateway():
+            attendee = self.env['event.registration'].create({
+                'event_id': self.test_event.id,
+                'name': self.event_customer.email,
+                'email': self.event_customer.email,
+            })
+
+        self.assertEqual(len(self._new_mails), 1)
+        self.assertEqual(self.event_customer.email, attendee.email)
+        self.assertMailMailWEmails(
+            [formataddr((attendee.name, attendee.email))],
+            'outgoing',
+            fields_values={
+                'email_from': self.user_eventmanager.company_id.email_formatted,
+                'subject': f'Confirmation for {self.test_event.name}',
+            },
+        )
+
+        with self.mock_datetime_and_now(start_date), self.mock_mail_gateway():
+            scheduler = self.env['event.mail'].search([('event_id', '=', self.test_event.id)])
+            scheduler.execute()
+
+        self.assertEqual(len(self._new_mails), 1)
+        self.assertEqual(self.event_customer.email, attendee.email)
+        self.assertMailMailWEmails(
+            [formataddr((attendee.name, attendee.email))],
+            'cancel',
+            fields_values={
+                'email_from': self.user_eventmanager.company_id.email_formatted,
+                'subject': f'Reminder for {self.test_event.name}: today',
+                'failure_type': 'mail_bl',
+            },
+        )
+
+    @mute_logger('odoo.addons.base.models.ir_model', 'odoo.models')
+    def test_scheduler_on_archived_event(self):
+>>>>>>> upstream/18.0
         """ Test mail scheduling for archived events """
         event_cron_id = self.env.ref('event.event_mail_scheduler')
 
@@ -1262,7 +1310,10 @@ class TestMailSchedule(EventCase, MockEmail, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1672,6 +1723,9 @@ class TestMailSchedule(EventCase, MockEmail, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -129,6 +129,7 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if not isinstance(response, list) and response.get('File'):
                     addendum.mer_document_status = '50'
                     invoice_data['error'] = response.get('File')['Messages']
@@ -165,6 +166,9 @@ class AccountMoveSend(models.AbstractModel):
 =======
                 if not response.get('ElectronicId'):
 >>>>>>> upstream/18.0
+=======
+                if not response.get('ElectronicId'):
+>>>>>>> upstream/18.0
                     addendum.mer_document_status = '50'
                     errors = []
                     for key in response:
@@ -183,6 +187,9 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

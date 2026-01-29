@@ -223,9 +223,12 @@ self.addEventListener("push", (event) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     self.registration.showNotification(notification.title, notification.options || {});
 });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -820,6 +823,7 @@ async function handlePushEvent(notification) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1145,6 +1149,8 @@ async function handlePushEvent(notification) {
 >>>>>>> upstream/18.0
 self.addEventListener("pushsubscriptionchange", async (event) => {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1212,6 +1218,9 @@ self.addEventListener("pushsubscriptionchange", async (event) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

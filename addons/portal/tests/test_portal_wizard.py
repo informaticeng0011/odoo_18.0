@@ -180,6 +180,7 @@ class TestPortalWizard(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(group_public, portal_user.user_id.groups_id, 'Must add the group public after removing the portal group')
         self.assertFalse(portal_user.user_id.active, 'Must have archived the user')
         self.assertFalse(portal_user.is_portal)
@@ -282,6 +283,11 @@ class TestPortalWizard(MailCommon):
 =======
         self.assertFalse(portal_user.user_id.active, 'Must have archived the user')
         self.assertTrue(portal_user.is_portal)
+>>>>>>> upstream/18.0
+=======
+        self.assertEqual(group_public, portal_user.user_id.groups_id, 'Must add the group public after removing the portal group')
+        self.assertFalse(portal_user.user_id.active, 'Must have archived the user')
+        self.assertFalse(portal_user.is_portal)
 >>>>>>> upstream/18.0
 =======
         self.assertEqual(group_public, portal_user.user_id.groups_id, 'Must add the group public after removing the portal group')

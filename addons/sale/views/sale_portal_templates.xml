@@ -415,11 +415,17 @@
                                 <td class="w-100 pb-0 text-wrap"><span t-field="sale_order.date_order" t-options='{"widget": "date"}'/></td>
                             </tr>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                             <tr t-if="sale_order.commitment_date and sale_order.state in ['sent', 'sale']">
                                 <th class="ps-0 pb-0">Delivery Date:</th>
                                 <td class="w-100 pb-0 text-wrap"><span t-field="sale_order.commitment_date" t-options='{"widget": "date"}'/></td>
                             </tr>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                             <tr t-if="sale_order.validity_date and sale_order.state in ['draft', 'sent']">
                                 <th class="ps-0 pb-0">Expiration Date:</th>
@@ -750,7 +756,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1008,6 +1017,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

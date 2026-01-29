@@ -162,7 +162,11 @@ registry.category("web_tour.tours").add('shop_sale_loyalty_delivery', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ...wsTourUtils.addToCart({productName: "Plumbus"}),
+=======
+        ...wsTourUtils.addToCart({ productName: "Plumbus", expectUnloadPage: true }),
+>>>>>>> upstream/18.0
 =======
         ...wsTourUtils.addToCart({ productName: "Plumbus", expectUnloadPage: true }),
 >>>>>>> upstream/18.0
@@ -803,6 +807,10 @@ registry.category("web_tour.tours").add('shop_sale_loyalty_delivery', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0

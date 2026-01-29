@@ -191,6 +191,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { HootDomError, getTag, isFirefox, isIterable, parseRegExp } from "../hoot_dom_utils";
 =======
 import { getTag, isFirefox, isIterable, parseRegExp } from "../hoot_dom_utils";
@@ -347,6 +348,9 @@ import { getTag, isFirefox, isIterable, parseRegExp } from "../hoot_dom_utils";
 >>>>>>> upstream/18.0
 =======
 import { getTag, isFirefox, isIterable, parseRegExp } from "../hoot_dom_utils";
+>>>>>>> upstream/18.0
+=======
+import { getTag, isFirefox, isInstanceOf, isIterable, parseRegExp } from "../hoot_dom_utils";
 >>>>>>> upstream/18.0
 =======
 import { getTag, isFirefox, isInstanceOf, isIterable, parseRegExp } from "../hoot_dom_utils";
@@ -989,6 +993,11 @@ import { waitUntil } from "./time";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ * @typedef {(node: Node, index: number, nodes: Node[]) => boolean | Node} NodeFilter
+ *
+>>>>>>> upstream/18.0
 =======
  * @typedef {(node: Node, index: number, nodes: Node[]) => boolean | Node} NodeFilter
  *
@@ -1961,6 +1970,7 @@ import { waitUntil } from "./time";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @typedef {(content: string) => (node: Node, index: number, nodes: Node[]) => boolean | Node} PseudoClassPredicateBuilder
  *
  * @typedef {{
@@ -2004,6 +2014,8 @@ import { waitUntil } from "./time";
 >>>>>>> upstream/18.0
  *  root?: HTMLElement;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2500,11 +2512,14 @@ import { waitUntil } from "./time";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  *  displayed?: boolean;
  *  empty?: boolean;
  *  eq?: number;
  *  exact?: number;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2836,6 +2851,9 @@ import { waitUntil } from "./time";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3259,6 +3277,9 @@ import { waitUntil } from "./time";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3844,6 +3865,11 @@ import { waitUntil } from "./time";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ * @typedef {"both" | "x" | "y"} ScrollAxis
+ *
+>>>>>>> upstream/18.0
 =======
  * @typedef {"both" | "x" | "y"} ScrollAxis
  *
@@ -4817,9 +4843,15 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Boolean,
     document,
     DOMParser,
+=======
+    document,
+    DOMParser,
+    Error,
+>>>>>>> upstream/18.0
 =======
     document,
     DOMParser,
@@ -5971,6 +6003,7 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Object: { keys: $keys, values: $values },
     RegExp,
     Set,
@@ -6011,6 +6044,8 @@ const {
     window,
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6586,6 +6621,9 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7165,6 +7203,7 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @param  {string[]} values
  */
 const and = (values) => {
@@ -7181,6 +7220,8 @@ const compilePseudoClassRegex = () => {
     return new RegExp(`:(${customKeys.join("|")})`);
 };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7779,6 +7820,9 @@ function compilePseudoClassRegex() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8356,7 +8400,11 @@ function compilePseudoClassRegex() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const elementsMatch = (elements, selector) => {
+=======
+function elementsMatch(elements, selector) {
+>>>>>>> upstream/18.0
 =======
 function elementsMatch(elements, selector) {
 >>>>>>> upstream/18.0
@@ -9136,8 +9184,11 @@ function elementsMatch(elements, selector) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9720,6 +9771,9 @@ function ensureCount(options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10297,7 +10351,11 @@ function ensureCount(options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const ensureElement = (node) => {
+=======
+function ensureElement(node) {
+>>>>>>> upstream/18.0
 =======
 function ensureElement(node) {
 >>>>>>> upstream/18.0
@@ -11074,7 +11132,11 @@ function ensureElement(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -11845,7 +11907,11 @@ function ensureElement(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const extractLayers = (nodes, level, keepInlineTextNodes) => {
+=======
+function extractLayers(nodes, level, keepInlineTextNodes) {
+>>>>>>> upstream/18.0
 =======
 function extractLayers(nodes, level, keepInlineTextNodes) {
 >>>>>>> upstream/18.0
@@ -12636,7 +12702,11 @@ function extractLayers(nodes, level, keepInlineTextNodes) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -13405,7 +13475,11 @@ function extractLayers(nodes, level, keepInlineTextNodes) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const filterUniqueNodes = (nodesToFilter) => {
+=======
+function filterUniqueNodes(nodesToFilter) {
+>>>>>>> upstream/18.0
 =======
 function filterUniqueNodes(nodesToFilter) {
 >>>>>>> upstream/18.0
@@ -14178,7 +14252,11 @@ function filterUniqueNodes(nodesToFilter) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -14948,7 +15026,11 @@ function filterUniqueNodes(nodesToFilter) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const generateStringFromLayers = (layers, tabSize) => {
+=======
+function generateStringFromLayers(layers, tabSize) {
+>>>>>>> upstream/18.0
 =======
 function generateStringFromLayers(layers, tabSize) {
 >>>>>>> upstream/18.0
@@ -15751,8 +15833,11 @@ function generateStringFromLayers(layers, tabSize) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16140,6 +16225,7 @@ function generateStringFromLayers(layers, tabSize) {
  */
 function getFiltersDescription(modifierInfo) {
     const description = [];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16861,6 +16947,9 @@ function getFiltersDescription(modifierInfo) {
 =======
     for (const [modifier, content, count = 0] of modifierInfo) {
 >>>>>>> upstream/18.0
+=======
+    for (const [modifier, content, count = 0] of modifierInfo) {
+>>>>>>> upstream/18.0
         const makeLabel = MODIFIER_SUFFIX_LABELS[modifier];
         const elements = plural("element", count);
         if (typeof makeLabel === "function") {
@@ -16868,6 +16957,7 @@ function getFiltersDescription(modifierInfo) {
         } else {
             description.push(`${count} ${modifier} ${elements}`);
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17117,6 +17207,8 @@ function getFiltersDescription(modifierInfo) {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17611,6 +17703,7 @@ function getFiltersDescription(modifierInfo) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17773,6 +17866,8 @@ function getFiltersDescription(modifierInfo) {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18023,6 +18118,9 @@ function getInlineNodeText(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18382,7 +18480,11 @@ function getInlineNodeText(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const getNodeContent = (node) => {
+=======
+function getNodeContent(node) {
+>>>>>>> upstream/18.0
 =======
 function getNodeContent(node) {
 >>>>>>> upstream/18.0
@@ -19156,8 +19258,11 @@ function getNodeContent(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19742,6 +19847,7 @@ function getNodeShadowRoot(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19960,6 +20066,8 @@ function getNodeShadowRoot(node) {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20220,6 +20328,9 @@ function getQueryFilter(pseudoClass, content) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20578,8 +20689,11 @@ function getQueryFilter(pseudoClass, content) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const getStringContent = (string) => string.match(R_QUOTE_CONTENT)?.[2] || string;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21165,6 +21279,7 @@ function getWaitForNoneMessage() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21327,6 +21442,8 @@ function getWaitForNoneMessage() {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21665,6 +21782,9 @@ function hasNodeCount(count, _node, _i, nodes) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22079,7 +22199,13 @@ function hasNodeCount(count, _node, _i, nodes) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const isChar = (char) => Boolean(char) && R_CHAR.test(char);
+=======
+function isChar(char) {
+    return !!char && R_CHAR.test(char);
+}
+>>>>>>> upstream/18.0
 =======
 function isChar(char) {
     return !!char && R_CHAR.test(char);
@@ -23232,7 +23358,13 @@ function isChar(char) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const isDocument = (object) => object?.nodeType === Node.DOCUMENT_NODE;
+=======
+function isDocument(object) {
+    return object?.nodeType === Node.DOCUMENT_NODE;
+}
+>>>>>>> upstream/18.0
 =======
 function isDocument(object) {
     return object?.nodeType === Node.DOCUMENT_NODE;
@@ -24385,8 +24517,11 @@ function isDocument(object) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const isElement = (object) => object?.nodeType === Node.ELEMENT_NODE;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24781,6 +24916,7 @@ function isNodeHaving(selector, node) {
 
 /** @type {NodeFilter} */
 function isNodeHidden(node) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25502,6 +25638,9 @@ function isNodeHidden(node) {
 =======
     return !isNodeVisible(node);
 >>>>>>> upstream/18.0
+=======
+    return !isNodeVisible(node);
+>>>>>>> upstream/18.0
 }
 
 /** @type {NodeFilter} */
@@ -25657,8 +25796,11 @@ function isNodeInteractive(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return getStyle(node).pointerEvents !== "none";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26114,6 +26256,9 @@ function isNodeInteractive(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26624,6 +26769,9 @@ function isOnlyNode(_node, _i, nodes) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27009,6 +27157,7 @@ function isOnlyNode(_node, _i, nodes) {
 /**
  * @param {Node} node
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28212,6 +28361,11 @@ function isQueryableNode(node) {
     return QUERYABLE_NODE_TYPES.includes(node.nodeType);
 }
 >>>>>>> upstream/18.0
+=======
+function isQueryableNode(node) {
+    return QUERYABLE_NODE_TYPES.includes(node.nodeType);
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {Element} [el]
@@ -28407,7 +28561,13 @@ function isQueryableNode(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const isRootElement = (el) => el && R_ROOT_ELEMENT.test(el.nodeName || "");
+=======
+function isRootElement(el) {
+    return el && R_ROOT_ELEMENT.test(el.nodeName || "");
+}
+>>>>>>> upstream/18.0
 =======
 function isRootElement(el) {
     return el && R_ROOT_ELEMENT.test(el.nodeName || "");
@@ -29558,7 +29718,13 @@ function isRootElement(el) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const isShadowRoot = (el) => el.nodeType === Node.DOCUMENT_FRAGMENT_NODE && Boolean(el.host);
+=======
+function isShadowRoot(el) {
+    return el.nodeType === Node.DOCUMENT_FRAGMENT_NODE && !!el.host;
+}
+>>>>>>> upstream/18.0
 =======
 function isShadowRoot(el) {
     return el.nodeType === Node.DOCUMENT_FRAGMENT_NODE && !!el.host;
@@ -30711,7 +30877,13 @@ function isShadowRoot(el) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const isWindow = (object) => object?.window === object && object.constructor.name === "Window";
+=======
+function isWindow(object) {
+    return object?.window === object && object.constructor.name === "Window";
+}
+>>>>>>> upstream/18.0
 =======
 function isWindow(object) {
     return object?.window === object && object.constructor.name === "Window";
@@ -31671,6 +31843,7 @@ function isWindow(object) {
 /**
  * @param {string} [char]
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -33250,6 +33423,8 @@ function makePatternBasedPseudoClass(pseudoClass, getContent) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 function isWhiteSpace(char) {
     return !!char && R_HORIZONTAL_WHITESPACE.test(char);
 }
@@ -33344,6 +33519,9 @@ function makePseudoClassMatcher(getContent, exact) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -33511,6 +33689,7 @@ function makePseudoClassMatcher(getContent, exact) {
             };
         } else {
             const lowerContent = content.toLowerCase();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -34100,6 +34279,8 @@ const matchFilter = (filter, nodes, index) => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             if (exact) {
                 return function stringEquals(node) {
                     return String(getContent(node)).toLowerCase() === lowerContent;
@@ -34192,6 +34373,9 @@ const matchFilter = (filter, nodes, index) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -34561,6 +34745,9 @@ function matchFilter(filter, nodes, index) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -35137,10 +35324,13 @@ function matchFilter(filter, nodes, index) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return node.matches?.(String(filter));
     }
 };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -35734,6 +35924,9 @@ function nodeFlatMap(nodes, flatMapFn) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -36314,7 +36507,11 @@ function nodeFlatMap(nodes, flatMapFn) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const parseNumberTuple = (value, propsA, propsB) => {
+=======
+function parseNumberTuple(value, propsA, propsB) {
+>>>>>>> upstream/18.0
 =======
 function parseNumberTuple(value, propsA, propsB) {
 >>>>>>> upstream/18.0
@@ -37095,8 +37292,11 @@ function parseNumberTuple(value, propsA, propsB) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -37677,6 +37877,9 @@ function parseRawArgs(args) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -38070,6 +38273,7 @@ function parseRawArgs(args) {
  *
  * @param {string} selector
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -38675,6 +38879,8 @@ function parseSelector(selector) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 function parseSelector(selector) {
     /**
      * @param {string} selector
@@ -38842,6 +39048,9 @@ function parseSelector(selector) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -39337,7 +39546,11 @@ function parseSelector(selector) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     };
+=======
+    }
+>>>>>>> upstream/18.0
 =======
     }
 >>>>>>> upstream/18.0
@@ -40014,7 +40227,10 @@ function parseSelector(selector) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const makeFilter = customPseudoClasses.get(pseudo);
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -40186,6 +40402,7 @@ function parseSelector(selector) {
                     // but this pseudo won't work on non-iframe elements anyway.
                     currentPart[0] = `iframe${currentPart[0]}`;
                 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -41333,6 +41550,11 @@ function parseSelector(selector) {
                 selectorFilterDescriptors.set(filter, [pseudo, content]);
                 currentPart.push(filter);
 >>>>>>> upstream/18.0
+=======
+                const filter = getQueryFilter(pseudo, getStringContent(content));
+                selectorFilterDescriptors.set(filter, [pseudo, content]);
+                currentPart.push(filter);
+>>>>>>> upstream/18.0
                 currentPseudo = null;
             } else if (registerChar) {
                 currentPseudo[1] += selector[i];
@@ -41343,6 +41565,7 @@ function parseSelector(selector) {
     }
 
     return groups;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -42108,11 +42331,15 @@ function parseSelector(selector) {
 =======
 }
 >>>>>>> upstream/18.0
+=======
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {string} xmlString
  * @param {"html" | "xml"} type
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -43109,6 +43336,10 @@ function parseXml(xmlString, type) {
 function parseXml(xmlString, type) {
     const wrapperTag = type === "html" ? "body" : "templates";
 >>>>>>> upstream/18.0
+=======
+function parseXml(xmlString, type) {
+    const wrapperTag = type === "html" ? "body" : "templates";
+>>>>>>> upstream/18.0
     const doc = parser.parseFromString(
         `<${wrapperTag}>${xmlString}</${wrapperTag}>`,
         `text/${type}`
@@ -43122,6 +43353,7 @@ function parseXml(xmlString, type) {
         );
     }
     return doc.getElementsByTagName(wrapperTag)[0].childNodes;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -43912,12 +44144,16 @@ function parseXml(xmlString, type) {
 =======
 }
 >>>>>>> upstream/18.0
+=======
+}
+>>>>>>> upstream/18.0
 
 /**
  * Converts a CSS pixel value to a number, removing the 'px' part.
  *
  * @param {string} val
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -44117,6 +44353,8 @@ const pixelValueToNumber = (val) => $parseFloat(val.endsWith("px") ? val.slice(0
  */
 const queryWithCustomSelector = (nodes, selector) => {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -44704,6 +44942,9 @@ function queryWithCustomSelector(nodes, selector) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -45280,8 +45521,13 @@ function queryWithCustomSelector(nodes, selector) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for (const [partSelector, ...filters] of selectorParts) {
             let baseSelector = partSelector;
+=======
+        for (const selectorPart of selectorParts) {
+            let baseSelector = selectorPart[0];
+>>>>>>> upstream/18.0
 =======
         for (const selectorPart of selectorParts) {
             let baseSelector = selectorPart[0];
@@ -46257,6 +46503,7 @@ function queryWithCustomSelector(nodes, selector) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
             // Retrieve matching nodes and apply filters
             const getNodes = nodeGetter || DESCENDANTS;
@@ -46289,6 +46536,8 @@ function queryWithCustomSelector(nodes, selector) {
 
             groupNodes = currentGroupNodes;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -46868,6 +47117,9 @@ function queryWithCustomSelector(nodes, selector) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -47446,8 +47698,11 @@ function queryWithCustomSelector(nodes, selector) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -48036,6 +48291,7 @@ function registerQueryMessage(filteredNodes, expectedCount) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const [rootModifier, rootContent, initialCount] = rootModifierInfo;
 =======
         const [rootModifier, rootContent, initialCount = 0] = rootModifierInfo;
@@ -48104,6 +48360,8 @@ function registerQueryMessage(filteredNodes, expectedCount) {
             .map((part) => `, including ${part}`)
             .join("");
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -48608,6 +48866,9 @@ function registerQueryMessage(filteredNodes, expectedCount) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -48942,6 +49203,7 @@ function registerQueryMessage(filteredNodes, expectedCount) {
     }
     return invalidCount ? lastQueryMessage : "";
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -50319,6 +50581,10 @@ function selectorError(pseudoClass, message) {
 
 /**
 >>>>>>> upstream/18.0
+=======
+
+/**
+>>>>>>> upstream/18.0
  * Wrapper around '_queryAll' calls to ensure global variables are properly cleaned
  * up on any thrown error.
  *
@@ -50517,6 +50783,9 @@ function _guardedQueryAll(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -51043,6 +51312,7 @@ function _queryAll(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (!target) {
         return [];
     }
@@ -51157,6 +51427,8 @@ function _queryAll(target, options) {
 
     const { exact, root, ...modifiers } = options || {};
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -51490,6 +51762,9 @@ function _queryAll(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -51878,7 +52153,13 @@ function _queryAll(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         nodes = root ? _queryAll(root) : [getDefaultRoot()];
+=======
+        if (target) {
+            nodes = root ? _queryAll(root) : [getDefaultRoot()];
+        }
+>>>>>>> upstream/18.0
 =======
         if (target) {
             nodes = root ? _queryAll(root) : [getDefaultRoot()];
@@ -52861,12 +53142,15 @@ function _queryAll(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     } else {
         nodes = filterUniqueNodes([target]);
     }
 
     globalFilterDescriptors.set("root", ["matching", typeof target === "string" ? target : null]);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -53358,6 +53642,9 @@ function _queryAll(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -53786,8 +54073,12 @@ function _queryAll(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const makeFilter = customPseudoClasses.get(modifier);
         const filter = makeFilter(content);
+=======
+        const filter = getQueryFilter(modifier, content);
+>>>>>>> upstream/18.0
 =======
         const filter = getQueryFilter(modifier, content);
 >>>>>>> upstream/18.0
@@ -54040,6 +54331,7 @@ function _queryAll(target, options) {
     const filteredNodes = applyFilters(modifierFilters, nodes);
 
     // Register query message (if needed), and/or throw an error accordingly
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -54481,6 +54773,9 @@ function _queryAll(target, options) {
 =======
     const message = registerQueryMessage(filteredNodes, count);
 >>>>>>> upstream/18.0
+=======
+    const message = registerQueryMessage(filteredNodes, count);
+>>>>>>> upstream/18.0
     if (message) {
         throw new HootDomError(message);
     }
@@ -54495,6 +54790,7 @@ function _queryAll(target, options) {
  * @param {QueryOptions} options
  */
 function _queryOne(target, options) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -55216,6 +55512,9 @@ function _queryOne(target, options) {
 =======
     return _guardedQueryAll(target, { ...options, count: 1 })[0];
 >>>>>>> upstream/18.0
+=======
+    return _guardedQueryAll(target, { ...options, count: 1 })[0];
+>>>>>>> upstream/18.0
 }
 
 /**
@@ -55405,7 +55704,11 @@ function _waitForFirst(target, options, isLast) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const result = _queryAll(target, options)[0];
+=======
+    const result = _guardedQueryAll(target, options)[0];
+>>>>>>> upstream/18.0
 =======
     const result = _guardedQueryAll(target, options)[0];
 >>>>>>> upstream/18.0
@@ -56137,7 +56440,11 @@ function _waitForNone(target, options, isLast) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const result = _queryAll(target, options).length === 0;
+=======
+    const result = _guardedQueryAll(target, options).length === 0;
+>>>>>>> upstream/18.0
 =======
     const result = _guardedQueryAll(target, options).length === 0;
 >>>>>>> upstream/18.0
@@ -56864,6 +57171,7 @@ class HootDomError extends Error {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     constructor() {
         super(...arguments);
@@ -56874,6 +57182,8 @@ class HootDomError extends Error {
         globalFilterDescriptors.clear();
         selectorFilterDescriptors.clear();
     }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -57444,6 +57754,9 @@ const MODIFIER_SUFFIX_LABELS = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -58024,7 +58337,11 @@ const parser = new DOMParser();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const DIRECT_CHILDREN = (node, selector) => {
+=======
+function DIRECT_CHILDREN(node, selector) {
+>>>>>>> upstream/18.0
 =======
 function DIRECT_CHILDREN(node, selector) {
 >>>>>>> upstream/18.0
@@ -58796,6 +59113,7 @@ function DIRECT_CHILDREN(node, selector) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 
 /** @type {NodeGetter} */
@@ -58810,6 +59128,8 @@ const NEXT_SIBLING = (node, selector) => {
 /** @type {NodeGetter} */
 const NEXT_SIBLINGS = (node, selector) => {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -59395,6 +59715,9 @@ function NEXT_SIBLINGS(node, selector) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -59974,9 +60297,12 @@ function NEXT_SIBLINGS(node, selector) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -60553,6 +60879,9 @@ const selectorFilterDescriptors = new Map();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -61132,6 +61461,12 @@ let getDefaultRoot = () => document;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+let lastQueryMessage = "";
+let shouldRegisterQueryMessage = false;
+let queryAllLevel = 0;
+>>>>>>> upstream/18.0
 =======
 let lastQueryMessage = "";
 let shouldRegisterQueryMessage = false;
@@ -62178,6 +62513,7 @@ customPseudoClasses
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     .set("contains", makePatternBasedPseudoClass("contains", getNodeText))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -62899,6 +63235,8 @@ customPseudoClasses
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     .set("contains", makePseudoClassMatcher(getInlineNodeText, false))
     .set("count", (strCount) => {
         const count = $parseInt(strCount);
@@ -62985,6 +63323,9 @@ customPseudoClasses
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -63153,6 +63494,7 @@ customPseudoClasses
     })
     .set("displayed", () => isNodeDisplayed)
     .set("empty", () => isEmpty)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -63854,6 +64196,8 @@ customPseudoClasses
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     .set("eq", (strIndex) => {
         const index = $parseInt(strIndex);
         if (!$isInteger(index)) {
@@ -63942,6 +64286,9 @@ customPseudoClasses
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -64117,6 +64464,7 @@ customPseudoClasses
     .set("scrollable", (axis) => isNodeScrollable.bind(null, axis))
     .set("selected", () => isNodeSelected)
     .set("shadow", () => getNodeShadowRoot)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -64570,6 +64918,8 @@ customPseudoClasses
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     .set("text", makePseudoClassMatcher(getInlineNodeText, true))
     .set("value", makePseudoClassMatcher(getNodeValue, false))
     .set("viewPort", () => isNodeInViewPort)
@@ -64655,6 +65005,9 @@ customPseudoClasses
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -65062,7 +65415,13 @@ export function getDocument(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     node ||= getDefaultRoot();
+=======
+    if (!node) {
+        return document;
+    }
+>>>>>>> upstream/18.0
 =======
     if (!node) {
         return document;
@@ -66352,7 +66711,10 @@ export function getNodeText(node, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -66965,6 +67327,9 @@ export function getInteractiveNode(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -67577,8 +67942,11 @@ export function getWindow(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return getDocument(node).defaultView;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -68180,6 +68548,9 @@ export function getWindow(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -68868,7 +69239,11 @@ export function isNodeDisplayed(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @param {FocusableOptions} node
+=======
+ * @param {FocusableOptions} [options]
+>>>>>>> upstream/18.0
 =======
  * @param {FocusableOptions} [options]
 >>>>>>> upstream/18.0
@@ -69653,6 +70028,7 @@ export function isNodeInViewPort(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @param {Window | Node} node
  * @param {"x" | "y"} [axis]
  */
@@ -69668,6 +70044,8 @@ export function isNodeScrollable(node, axis) {
             return true;
         }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -70276,6 +70654,9 @@ export function isNodeScrollable(axis, node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -70987,9 +71368,15 @@ export function getActiveElement(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const document = getDocument(node);
     const window = getWindow(node);
     const { activeElement } = document;
+=======
+    const doc = getDocument(node);
+    const view = doc.defaultView;
+    const { activeElement } = doc;
+>>>>>>> upstream/18.0
 =======
     const doc = getDocument(node);
     const view = doc.defaultView;
@@ -72211,11 +72598,14 @@ export function getActiveElement(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (activeElement === document.body && window !== window.parent) {
         // Active element is the body of an iframe:
         // -> get the active element of its parent frame (recursively)
         return getActiveElement(window.parent.document);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -72817,6 +73207,9 @@ export function getActiveElement(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -73423,7 +73816,11 @@ export function getFocusableElements(options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const parent = queryOne(options?.root || getDefaultRoot());
+=======
+    const parent = _queryOne(options?.root || getDefaultRoot());
+>>>>>>> upstream/18.0
 =======
     const parent = _queryOne(options?.root || getDefaultRoot());
 >>>>>>> upstream/18.0
@@ -74218,7 +74615,11 @@ export function getNextFocusableElement(options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const parent = queryOne(options?.root || getDefaultRoot());
+=======
+    const parent = _queryOne(options?.root || getDefaultRoot());
+>>>>>>> upstream/18.0
 =======
     const parent = _queryOne(options?.root || getDefaultRoot());
 >>>>>>> upstream/18.0
@@ -75004,12 +75405,15 @@ export function getParentFrame(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const document = getDocument(node);
     if (!document) {
         return null;
     }
     const view = document.defaultView;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -75612,6 +76016,9 @@ export function getParentFrame(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -76223,7 +76630,11 @@ export function getPreviousFocusableElement(options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const parent = queryOne(options?.root || getDefaultRoot());
+=======
+    const parent = _queryOne(options?.root || getDefaultRoot());
+>>>>>>> upstream/18.0
 =======
     const parent = _queryOne(options?.root || getDefaultRoot());
 >>>>>>> upstream/18.0
@@ -77004,6 +77415,7 @@ export function isDisplayed(target) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return queryAll(target, { displayed: true }).length > 0;
 =======
     return _queryAll(target, { displayed: true }).length > 0;
@@ -77037,6 +77449,9 @@ export function isDisplayed(target) {
 >>>>>>> upstream/18.0
 =======
     return _queryAll(target, { displayed: true }).length > 0;
+>>>>>>> upstream/18.0
+=======
+    return _guardedQueryAll(target, { displayed: true }).length > 0;
 >>>>>>> upstream/18.0
 =======
     return _guardedQueryAll(target, { displayed: true }).length > 0;
@@ -77803,6 +78218,7 @@ export function isEditable(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @param {FocusableOptions} [options]
  * @returns {boolean}
  */
@@ -77866,6 +78282,8 @@ export function isFocusable(target) {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -78407,6 +78825,9 @@ export function isFocusable(target) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -78789,6 +79210,7 @@ export function isInDOM(target) {
  * @returns {boolean}
  */
 export function isInViewPort(target) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -79554,12 +79976,16 @@ export function isInViewPort(target) {
 =======
     return _guardedQueryAll(target, { viewPort: true }).length > 0;
 >>>>>>> upstream/18.0
+=======
+    return _guardedQueryAll(target, { viewPort: true }).length > 0;
+>>>>>>> upstream/18.0
 }
 
 /**
  * Returns whether an element is scrollable.
  *
  * @param {Target} target
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -80138,10 +80564,13 @@ export function isScrollable(target, axis) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
  * @param {ScrollAxis} [axis]
  * @returns {boolean}
  */
 export function isScrollable(target, axis) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -80894,6 +81323,9 @@ export function isScrollable(target, axis) {
 =======
     return _guardedQueryAll(target, { scrollable: axis }).length > 0;
 >>>>>>> upstream/18.0
+=======
+    return _guardedQueryAll(target, { scrollable: axis }).length > 0;
+>>>>>>> upstream/18.0
 }
 
 /**
@@ -80909,6 +81341,7 @@ export function isScrollable(target, axis) {
  * @returns {boolean}
  */
 export function isVisible(target) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -81674,6 +82107,9 @@ export function isVisible(target) {
 =======
     return _guardedQueryAll(target, { visible: true }).length > 0;
 >>>>>>> upstream/18.0
+=======
+    return _guardedQueryAll(target, { visible: true }).length > 0;
+>>>>>>> upstream/18.0
 }
 
 /**
@@ -81690,6 +82126,7 @@ export function isVisible(target) {
  *  matches(buttonEl, ":contains(Submit)");
  */
 export function matches(target, selector) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -82455,6 +82892,9 @@ export function matches(target, selector) {
 =======
     return elementsMatch(_guardedQueryAll(target), selector);
 >>>>>>> upstream/18.0
+=======
+    return elementsMatch(_guardedQueryAll(target), selector);
+>>>>>>> upstream/18.0
 }
 
 /**
@@ -82515,6 +82955,7 @@ export function observe(target, callback) {
  * This function allows all string selectors supported by the native {@link Element.querySelector}
  * along with some additional custom pseudo-classes:
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -82906,6 +83347,8 @@ export function observe(target, callback) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
  * - `:contains(text)`: matches nodes whose *text content* includes the given *text*.
  *      * The match is **partial** and **case-insensitive**;
  *      * Given *text* also supports regular expressions (e.g. `:contains(/^foo.+/)`).
@@ -82992,6 +83435,9 @@ export function observe(target, callback) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -83362,6 +83808,10 @@ export function observe(target, callback) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ * - `:interactive`: matches nodes that are not affected by 'pointer-events: none'
+>>>>>>> upstream/18.0
 =======
  * - `:interactive`: matches nodes that are not affected by 'pointer-events: none'
 >>>>>>> upstream/18.0
@@ -83968,6 +84418,7 @@ export function observe(target, callback) {
  *  DOM siblings);
  * - `:selected`: matches nodes that are selected (e.g. `<option>` elements);
  * - `:shadow`: matches nodes that have shadow roots, and returns their shadow root;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -84790,6 +85241,8 @@ export function observe(target, callback) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
  * - `:scrollable(axis)`: matches nodes that are scrollable (see {@link isScrollable});
  * - `:text(text)`: matches nodes whose *content* is strictly equal to the given *text*;
  *      * The match is **exact**, and **case-insensitive**;
@@ -84878,6 +85331,9 @@ export function observe(target, callback) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -85046,6 +85502,7 @@ export function observe(target, callback) {
  * - `:visible`: matches nodes that are "visible" (see {@link isVisible});
  *
  * An `options` object can be specified to filter[1] the results:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -85496,6 +85953,8 @@ export function observe(target, callback) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
  * - `root`: the root node to query the selector in (defaults to the current fixture);
  * - any of the *custom pseudo-classes* can be given as an option, with the value
  *  being a boolean for standalone pseudo-classes (e.g. `{ empty: true }`), or a
@@ -85583,6 +86042,9 @@ export function observe(target, callback) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -85767,6 +86229,7 @@ export function observe(target, callback) {
  *  queryAll`#editor:shadow div`; // -> [div, div, ...] (inside shadow DOM)
  * @example
  *  // with options
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -86972,6 +87435,8 @@ export function queryAttribute(target, attribute, options) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
  *  queryAll(`div:first`, { count: 1 }); // -> [div]
  *  queryAll(`div`, { root: queryOne`iframe` }); // -> [div, div, ...]
  *  // the next 2 queries will return the same results
@@ -87062,6 +87527,9 @@ export function queryAll(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -87237,6 +87705,7 @@ export function queryAll(target, options) {
  * @returns {string[]}
  */
 export function queryAllAttributes(target, attribute, options) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -88002,6 +88471,9 @@ export function queryAllAttributes(target, attribute, options) {
 =======
     return _guardedQueryAll(target, options).map((node) => getNodeAttribute(node, attribute));
 >>>>>>> upstream/18.0
+=======
+    return _guardedQueryAll(target, options).map((node) => getNodeAttribute(node, attribute));
+>>>>>>> upstream/18.0
 }
 
 /**
@@ -88014,6 +88486,7 @@ export function queryAllAttributes(target, attribute, options) {
  * @returns {any[]}
  */
 export function queryAllProperties(target, property, options) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -88779,6 +89252,9 @@ export function queryAllProperties(target, property, options) {
 =======
     return _guardedQueryAll(target, options).map((node) => node[property]);
 >>>>>>> upstream/18.0
+=======
+    return _guardedQueryAll(target, options).map((node) => node[property]);
+>>>>>>> upstream/18.0
 }
 
 /**
@@ -88795,6 +89271,7 @@ export function queryAllProperties(target, property, options) {
  * @returns {DOMRect[]}
  */
 export function queryAllRects(target, options) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -89751,6 +90228,10 @@ export function queryAllRects(target, options) {
     [target, options] = parseRawArgs(arguments);
     return _guardedQueryAll(target, options).map(getNodeRect);
 >>>>>>> upstream/18.0
+=======
+    [target, options] = parseRawArgs(arguments);
+    return _guardedQueryAll(target, options).map(getNodeRect);
+>>>>>>> upstream/18.0
 }
 
 /**
@@ -89762,6 +90243,7 @@ export function queryAllRects(target, options) {
  * @returns {string[]}
  */
 export function queryAllTexts(target, options) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -90718,6 +91200,10 @@ export function queryAllTexts(target, options) {
     [target, options] = parseRawArgs(arguments);
     return _guardedQueryAll(target, options).map((node) => getNodeText(node, options));
 >>>>>>> upstream/18.0
+=======
+    [target, options] = parseRawArgs(arguments);
+    return _guardedQueryAll(target, options).map((node) => getNodeText(node, options));
+>>>>>>> upstream/18.0
 }
 
 /**
@@ -90729,6 +91215,7 @@ export function queryAllTexts(target, options) {
  * @returns {NodeValue[]}
  */
 export function queryAllValues(target, options) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -90944,6 +91431,10 @@ export function queryAllValues(target, options) {
 >>>>>>> upstream/18.0
     [target, options] = parseRawArgs(arguments);
     return _queryAll(target, options).map(getNodeValue);
+=======
+    [target, options] = parseRawArgs(arguments);
+    return _guardedQueryAll(target, options).map(getNodeValue);
+>>>>>>> upstream/18.0
 =======
     [target, options] = parseRawArgs(arguments);
     return _guardedQueryAll(target, options).map(getNodeValue);
@@ -91882,6 +92373,9 @@ export function queryAttribute(target, attribute, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -92274,6 +92768,7 @@ export function queryAttribute(target, attribute, options) {
  * @returns {Element | null}
  */
 export function queryFirst(target, options) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -93013,6 +93508,8 @@ export function queryFirst(target, options) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     [target, options] = parseRawArgs(arguments);
     return _guardedQueryAll(target, options)[0] || null;
 }
@@ -93128,6 +93625,9 @@ export function queryFirst(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -93352,6 +93852,7 @@ export function queryFirst(target, options) {
  * The returned value is a single node instead of a list of nodes.
  *
  * @param {Target} target
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -94342,6 +94843,8 @@ export function queryOne(target, options) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
  * @param {Omit<QueryOptions, "count">} [options]
  * @returns {Element}
  */
@@ -94462,6 +94965,9 @@ export function queryOne(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -94888,7 +95394,12 @@ export function queryRect(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return getNodeRect(queryOne(...arguments), options);
+=======
+    [target, options] = parseRawArgs(arguments);
+    return getNodeRect(_queryOne(target, options), options);
+>>>>>>> upstream/18.0
 =======
     [target, options] = parseRawArgs(arguments);
     return getNodeRect(_queryOne(target, options), options);
@@ -95855,7 +96366,12 @@ export function queryText(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return getNodeText(queryOne(...arguments), options);
+=======
+    [target, options] = parseRawArgs(arguments);
+    return getNodeText(_queryOne(target, options), options);
+>>>>>>> upstream/18.0
 =======
     [target, options] = parseRawArgs(arguments);
     return getNodeText(_queryOne(target, options), options);
@@ -96822,7 +97338,12 @@ export function queryValue(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return getNodeValue(queryOne(...arguments));
+=======
+    [target, options] = parseRawArgs(arguments);
+    return getNodeValue(_queryOne(target, options));
+>>>>>>> upstream/18.0
 =======
     [target, options] = parseRawArgs(arguments);
     return getNodeValue(_queryOne(target, options));
@@ -97795,8 +98316,14 @@ export function waitFor(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return waitUntil(() => queryFirst(...arguments), {
         message: `Could not find elements matching "${target}" within %timeout% milliseconds`,
+=======
+    [target, options] = parseRawArgs(arguments);
+    return waitUntil(_waitForFirst.bind(null, target, options), {
+        message: getWaitForMessage,
+>>>>>>> upstream/18.0
 =======
     [target, options] = parseRawArgs(arguments);
     return waitUntil(_waitForFirst.bind(null, target, options), {
@@ -98959,6 +99486,7 @@ export function waitForNone(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     let count = 0;
     return waitUntil(
         () => {
@@ -98972,6 +99500,8 @@ export function waitForNone(target, options) {
         }
     );
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -99547,6 +100077,9 @@ export function waitForNone(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

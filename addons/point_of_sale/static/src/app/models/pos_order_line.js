@@ -291,9 +291,13 @@ export class PosOrderline extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for (const lotLine of lotLinesToRemove) {
             this.pack_lot_ids = this.pack_lot_ids.filter((pll) => pll.id !== lotLine.id);
         }
+=======
+        this.update({ pack_lot_ids: [["unlink", ...lotLinesToRemove]] });
+>>>>>>> upstream/18.0
 =======
         this.update({ pack_lot_ids: [["unlink", ...lotLinesToRemove]] });
 >>>>>>> upstream/18.0
@@ -921,6 +925,7 @@ export class PosOrderline extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.set_unit_price(
                 this.product_id.get_price(
                     this.order_id.pricelist_id,
@@ -929,6 +934,8 @@ export class PosOrderline extends Base {
                 )
             );
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1280,6 +1287,9 @@ export class PosOrderline extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1594,10 +1604,16 @@ export class PosOrderline extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         let order_line_price = orderline
             .get_product()
             .get_price(orderline.order_id.pricelist_id, this.get_quantity());
         order_line_price = roundDecimals(order_line_price, this.currency.decimal_places);
+=======
+        const order_line_price = orderline
+            .get_product()
+            .get_price(orderline.order_id.pricelist_id, this.get_quantity());
+>>>>>>> upstream/18.0
 =======
         const order_line_price = orderline
             .get_product()
@@ -1832,6 +1848,7 @@ export class PosOrderline extends Base {
             this.is_pos_groupable() &&
             // don't merge discounted orderlines
             this.get_discount() === 0 &&
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2937,6 +2954,8 @@ export class PosOrderline extends Base {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             floatIsZero(
                 roundDecimals(price, this.currency.decimal_places) -
                     roundDecimals(order_line_price, this.currency.decimal_places) -
@@ -2986,6 +3005,9 @@ export class PosOrderline extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3172,6 +3194,10 @@ export class PosOrderline extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        const product_uom = this.get_unit();
+>>>>>>> upstream/18.0
 =======
         const product_uom = this.get_unit();
 >>>>>>> upstream/18.0
@@ -3373,6 +3399,7 @@ export class PosOrderline extends Base {
             price_unit: priceUnit,
             discount: discount,
             tax_ids: this.tax_ids,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3739,6 +3766,11 @@ export class PosOrderline extends Base {
             is_refund: this.qty * priceUnit < 0,
 >>>>>>> upstream/18.0
 =======
+            is_refund: this.qty * priceUnit < 0,
+>>>>>>> upstream/18.0
+=======
+            product_id: product,
+            product_uom_id: product_uom,
             is_refund: this.qty * priceUnit < 0,
 >>>>>>> upstream/18.0
 =======
@@ -4581,8 +4613,11 @@ export class PosOrderline extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     this.product_id.taxes_id
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5266,6 +5301,9 @@ export class PosOrderline extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5917,7 +5955,10 @@ export class PosOrderline extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6338,6 +6379,9 @@ export class PosOrderline extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

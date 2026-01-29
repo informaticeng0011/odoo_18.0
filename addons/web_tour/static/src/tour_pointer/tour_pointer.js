@@ -1,8 +1,14 @@
 /** @odoo-module **/
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Component, useEffect, useRef } from "@odoo/owl";
 import { usePosition } from "@web/core/position/position_hook";
+=======
+import { Component, useEffect, useRef, useState } from "@odoo/owl";
+import { usePosition } from "@web/core/position/position_hook";
+import { useBus, useService } from "@web/core/utils/hooks";
+>>>>>>> upstream/18.0
 =======
 import { Component, useEffect, useRef, useState } from "@odoo/owl";
 import { usePosition } from "@web/core/position/position_hook";
@@ -171,7 +177,10 @@ export class TourPointer extends Component {
             }
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         this.state = useState({ triggerBelow: false });
         const uiService = useService("ui");
         const onActiveElementChanged = () => {
@@ -186,6 +195,9 @@ export class TourPointer extends Component {
 
     get isVisible() {
         return this.props.pointerState.isVisible && !this.state.triggerBelow;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
 

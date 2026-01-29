@@ -175,6 +175,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     .s_showcase div:not(:has(*)) {
         display: none;
@@ -739,5 +740,16 @@
     .s_showcase div:not(:has(*)) {
         display: none;
     }
+>>>>>>> upstream/18.0
+=======
+    .s_showcase div:not(:has(*)) {
+        display: none;
+    }
+}
+
+// Redeclare CSS values that use color-mix()
+// to avoid issues with mail rendering engines
+:root {
+    --o-border-color: #{o-color('300')};
 >>>>>>> upstream/18.0
 }

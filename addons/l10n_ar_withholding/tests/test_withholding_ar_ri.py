@@ -8,7 +8,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.l10n_ar.tests.common import TestAr
+=======
+from odoo.addons.l10n_ar.tests.common import TestArCommon
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.l10n_ar.tests.common import TestArCommon
 >>>>>>> upstream/18.0
@@ -51,7 +55,11 @@ from datetime import datetime
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class TestL10nArWithholdingArRi(TestAr):
+=======
+class TestArWithholdingArRi(TestArCommon):
+>>>>>>> upstream/18.0
 =======
 class TestArWithholdingArRi(TestArCommon):
 >>>>>>> upstream/18.0
@@ -193,7 +201,10 @@ class TestArWithholdingArRi(TestArCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -261,6 +272,7 @@ class TestArWithholdingArRi(TestArCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -285,6 +297,8 @@ class TestArWithholdingArRi(TestArCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def in_invoice_wht_5(self, l10n_latam_document_number):
@@ -301,6 +315,9 @@ class TestArWithholdingArRi(TestArCommon):
         return in_invoice_wht
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -562,7 +579,10 @@ class TestArWithholdingArRi(TestArCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -624,6 +644,7 @@ class TestArWithholdingArRi(TestArCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -648,6 +669,8 @@ class TestArWithholdingArRi(TestArCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -672,6 +695,9 @@ class TestArWithholdingArRi(TestArCommon):
             {'debit': 188865.27, 'credit': 0.0, 'currency_id': wizard.currency_id.id, 'amount_currency': 188865.27, 'reconciled': True}
         ])
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -125,8 +125,14 @@ class MailNotification(models.Model):
         def _filter_unimportant_notifications(notif):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if notif.notification_status in ['bounce', 'exception', 'canceled'] \
                     or notif.res_partner_id.partner_share:
+=======
+            # sudo: 'mail.notification' - to check partner_share for all recipients of message regardless of company in multi-company setup
+            if notif.notification_status in ['bounce', 'exception', 'canceled'] \
+                    or notif.sudo().res_partner_id.partner_share:
+>>>>>>> upstream/18.0
 =======
             # sudo: 'mail.notification' - to check partner_share for all recipients of message regardless of company in multi-company setup
             if notif.notification_status in ['bounce', 'exception', 'canceled'] \
@@ -153,7 +159,12 @@ class MailNotification(models.Model):
             data["message"] = Store.one(notif.mail_message_id, only_id=True)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             data["persona"] = Store.one(notif.res_partner_id, fields=["name"])
+=======
+            # sudo: 'mail.notification' - to show all recipients of message regardless of company in multi-company setup
+            data["persona"] = Store.one(notif.sudo().res_partner_id, fields=["name"])
+>>>>>>> upstream/18.0
 =======
             # sudo: 'mail.notification' - to show all recipients of message regardless of company in multi-company setup
             data["persona"] = Store.one(notif.sudo().res_partner_id, fields=["name"])

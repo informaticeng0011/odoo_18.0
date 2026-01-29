@@ -249,7 +249,11 @@ class TestPurchaseMrpFlow(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(sum([k.standard_price * k.qty_available for k in components]), 120 * 1260)
+=======
+        self.assertAlmostEqual(sum(k.standard_price * k.qty_available for k in components), 120 * 1260, delta=0.5)
+>>>>>>> upstream/18.0
 =======
         self.assertAlmostEqual(sum(k.standard_price * k.qty_available for k in components), 120 * 1260, delta=0.5)
 >>>>>>> upstream/18.0
@@ -1299,8 +1303,13 @@ class TestPurchaseMrpFlow(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(self.component_a.standard_price, 10)
         self.assertEqual(lot_a.standard_price, 10)
+=======
+        self.assertAlmostEqual(self.component_a.standard_price, 9.99899999)
+        self.assertAlmostEqual(lot_a.standard_price, 9.99899999)
+>>>>>>> upstream/18.0
 =======
         self.assertAlmostEqual(self.component_a.standard_price, 9.99899999)
         self.assertAlmostEqual(lot_a.standard_price, 9.99899999)
@@ -1568,7 +1577,10 @@ class TestPurchaseMrpFlow(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2158,6 +2170,10 @@ class TestPurchaseMrpFlow(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'purchase_method': 'purchase',
+>>>>>>> upstream/18.0
 =======
             'purchase_method': 'purchase',
 >>>>>>> upstream/18.0
@@ -2729,11 +2745,14 @@ class TestPurchaseMrpFlow(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'order_line': [Command.create({
                 'product_id': kit_product.id,
                 'product_qty': 1,
             })],
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3158,6 +3177,9 @@ class TestPurchaseMrpFlow(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3593,10 +3615,13 @@ class TestPurchaseMrpFlow(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 {'account_id': stock_input_account.id,       'product_id': kit_product.id,     'reconciled': True,    'debit': 10.0,   'credit':  0.0},
                 {'account_id': tax_paid_account.id,          'product_id': False,              'reconciled': False,   'debit':  1.5,   'credit':  0.0},
                 {'account_id': account_payable_account.id,   'product_id': False,              'reconciled': False,   'debit':  0.0,   'credit': 11.5},
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4017,6 +4042,9 @@ class TestPurchaseMrpFlow(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4515,6 +4543,7 @@ class TestPurchaseMrpFlow(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4945,4 +4974,39 @@ class TestPurchaseMrpFlow(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_mto_component_quantity_reduction_propagation(self):
+        '''
+        Create a MO for a product with a component with MTO & Buy routes.
+        Ensure that even after MO confirmation, reducing the component quantity
+        reduces the quantity of the MTO purchase aswell.
+        '''
+        self.env.ref('stock.route_warehouse0_mto').active = True
+        route_buy = self.warehouse.buy_pull_id.route_id
+        route_mto = self.warehouse.mto_pull_id.route_id
+        route_mto.rule_ids.procure_method = "make_to_order"
+        self.component_a.write({
+            'seller_ids': [
+                Command.create({'partner_id': self.partner_a.id},
+            )],
+            'route_ids': [
+                Command.link(route_buy.id),
+                Command.link(route_mto.id),
+            ],
+        })
+        mo = self.env['mrp.production'].create({
+            'product_id': self.component_b.id,
+            'product_qty': 1.0,
+            'move_raw_ids': [Command.create({
+                'product_id': self.component_a.id,
+                'product_uom_qty': 5,
+            })],
+        })
+        mo.action_confirm()
+        self.assertEqual(mo.purchase_order_count, 1)
+        self.assertEqual(mo.procurement_group_id.stock_move_ids.created_purchase_line_ids.product_qty, 5)
+        mo.move_raw_ids.product_uom_qty = 2
+        self.assertEqual(mo.procurement_group_id.stock_move_ids.created_purchase_line_ids.product_qty, 2)
 >>>>>>> upstream/18.0

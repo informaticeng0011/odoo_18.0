@@ -31,7 +31,10 @@ class PaymentLinkWizard(models.TransientModel):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _compute_warning_message(self):
@@ -42,6 +45,9 @@ class PaymentLinkWizard(models.TransientModel):
                 wizard.warning_message = _("The sale order has expired.")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
