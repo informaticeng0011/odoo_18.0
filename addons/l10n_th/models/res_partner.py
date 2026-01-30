@@ -19,6 +19,10 @@ from odoo import models, fields
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -98,7 +102,12 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 partner.l10n_th_branch_name = f"Branch {code}" if code else "Headquarter"
+=======
+                partner.l10n_th_branch_name = partner.env._("Branch %(code)s", code=code) if code else partner.env._(
+                    "Headquarter")
+>>>>>>> upstream/18.0
 =======
                 partner.l10n_th_branch_name = partner.env._("Branch %(code)s", code=code) if code else partner.env._(
                     "Headquarter")

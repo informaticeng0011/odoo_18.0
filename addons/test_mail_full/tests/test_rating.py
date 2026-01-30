@@ -214,7 +214,11 @@ from odoo.tests import tagged
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests.common import HttpCase, users, warmup
+=======
+from odoo.tests.common import users, warmup
+>>>>>>> upstream/18.0
 =======
 from odoo.tests.common import users, warmup
 >>>>>>> upstream/18.0
@@ -1236,7 +1240,11 @@ class TestRatingPerformance(TestRatingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class TestRatingRoutes(HttpCase, TestRatingCommon):
+=======
+class TestRatingRoutes(TestRatingCommon):
+>>>>>>> upstream/18.0
 =======
 class TestRatingRoutes(TestRatingCommon):
 >>>>>>> upstream/18.0

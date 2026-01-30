@@ -1,5 +1,9 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from freezegun import freeze_time
+>>>>>>> upstream/18.0
 =======
 from freezegun import freeze_time
 >>>>>>> upstream/18.0
@@ -111,7 +115,10 @@ class TestHrHomeworkingHrEmployeeLocation(TestHrHomeworkingCommon):
         # exception should be deleted
         self.assertEqual(len(created_worklocations), 0, 'should have deleted the worklocation record')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_get_views_replace_hw_location_by_date(self):
         view = self.env["ir.ui.view"].create({
@@ -125,4 +132,7 @@ class TestHrHomeworkingHrEmployeeLocation(TestHrHomeworkingCommon):
         self.assertTrue("work_location_name" in got_view["models"]["hr.employee"]["fields"])
         self.assertTrue("wednesday_location_id" in got_view["models"]["hr.employee"]["fields"])
         self.assertEqual(got_view["views"]["list"]["arch"], """<list><field name="wednesday_location_id"/></list>""")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

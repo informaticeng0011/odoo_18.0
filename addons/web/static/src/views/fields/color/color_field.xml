@@ -27,7 +27,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <input t-on-click.stop="" class="w-100 h-100 opacity-0" type="color" t-att-value="color" t-att-disabled="props.readonly" t-on-input="(ev) => this.color = ev.target.value" t-on-change="(ev) => this.props.record.update({ [this.props.name]: ev.target.value })" />
+=======
+            <input t-on-click.stop="" class="w-100 h-100 opacity-0" type="color" t-att-value="color" t-att-disabled="props.readonly" t-on-input="(ev) => this.color = ev.target.value" t-on-change="onChange" />
+>>>>>>> upstream/18.0
 =======
             <input t-on-click.stop="" class="w-100 h-100 opacity-0" type="color" t-att-value="color" t-att-disabled="props.readonly" t-on-input="(ev) => this.color = ev.target.value" t-on-change="onChange" />
 >>>>>>> upstream/18.0

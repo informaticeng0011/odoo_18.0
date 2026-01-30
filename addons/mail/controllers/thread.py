@@ -113,7 +113,10 @@ class ThreadController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -325,6 +328,9 @@ class ThreadController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -533,6 +539,10 @@ class ThreadController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        post_data.setdefault("message_type", "comment")
+>>>>>>> upstream/18.0
 =======
         post_data.setdefault("message_type", "comment")
 >>>>>>> upstream/18.0
@@ -625,9 +635,14 @@ class ThreadController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         thread = request.env[thread_model]._get_thread_with_access(
             thread_id, mode=request.env[thread_model]._mail_post_access, **kwargs
         )
+=======
+        post_access = request.env[thread_model].sudo()._get_mail_message_access(thread_id, "create")
+        thread = request.env[thread_model]._get_thread_with_access(thread_id, mode=post_access, **kwargs)
+>>>>>>> upstream/18.0
 =======
         post_access = request.env[thread_model].sudo()._get_mail_message_access(thread_id, "create")
         thread = request.env[thread_model]._get_thread_with_access(thread_id, mode=post_access, **kwargs)
@@ -850,9 +865,12 @@ class ThreadController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         guest.env[message.model].browse([message.res_id])._message_update_content(
             message, body=body, attachment_ids=attachment_ids, partner_ids=partner_ids
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1284,6 +1302,9 @@ class ThreadController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

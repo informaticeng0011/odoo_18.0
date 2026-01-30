@@ -3,6 +3,12 @@
 
 import odoo.tests
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+from odoo.tests import Form
+
+>>>>>>> upstream/18.0
 =======
 
 from odoo.tests import Form
@@ -45,7 +51,10 @@ class TestPurchaseMatrixUi(TestMatrixCommon):
             len(self.matrix_template.product_variant_ids)*2
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_translate_never_variant_attributes_on_pol(self):
         """ Check that the attribute values set on a pol for never variant attribute are translated according to the seller language.
@@ -70,4 +79,7 @@ class TestPurchaseMatrixUi(TestMatrixCommon):
                 line.product_no_variant_attribute_value_ids = attribute_never.template_value_ids[0]
                 line.product_id = product_template.product_variant_id
         self.assertEqual(purchase_order.order_line.name, 'matrixFR\nPA4FR: PAV41FR')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -139,6 +139,7 @@ import { describe, expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { click, press, waitFor } from "@odoo/hoot-dom";
 import { animationFrame, tick } from "@odoo/hoot-mock";
 import { makeMockEnv, onRpc } from "@web/../tests/web_test_helpers";
@@ -272,6 +273,8 @@ test("Can replace an image", async () => {
 >>>>>>> upstream/18.0
 import { expectElementCount } from "./_helpers/ui_expectations";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -697,6 +700,9 @@ import { delay } from "@web/core/utils/concurrency";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1151,6 +1157,9 @@ test("Can replace an image", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1651,6 +1660,7 @@ test("Can replace an image", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test.tags("focus required");
 test("Selection is collapsed after the image after replacing it", async () => {
 <<<<<<< HEAD
@@ -1683,6 +1693,8 @@ test("Selection is collapsed after the image after replacing it", async () => {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2083,6 +2095,7 @@ test("Replace an image with link by a document should remove the link", async ()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test.tags("focus required");
 test("Selection is collapsed after the image after replacing it", async () => {
 <<<<<<< HEAD
@@ -2500,6 +2513,8 @@ test("Selection is collapsed after the image after replacing it", async () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 test("Replace an image by icon should remove invalid classes", async () => {
     onRpc("ir.attachment", "search_read", () => []);
     const env = await makeMockEnv();
@@ -2569,10 +2584,16 @@ test("Replace an image by icon should remove invalid classes", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect("span").toHaveCount(1);
     expect("span").toHaveClass("fa fa-envelope-o");
     expect("span").not.toHaveClass("img-fluid");
     expect("span").not.toHaveClass("w-100");
+=======
+    expect("p > span.fa-envelope-o").toHaveCount(1);
+    expect("p > span.fa-envelope-o").not.toHaveClass("img-fluid");
+    expect("p > span.fa-envelope-o").not.toHaveClass("w-100");
+>>>>>>> upstream/18.0
 =======
     expect("p > span.fa-envelope-o").toHaveCount(1);
     expect("p > span.fa-envelope-o").not.toHaveClass("img-fluid");
@@ -2882,6 +2903,9 @@ test("Selection is collapsed after the image after replacing it", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3166,6 +3190,9 @@ test("Selection is collapsed after the image after replacing it", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3508,6 +3535,7 @@ test("Selection is collapsed after the image after replacing it", async () => {
     expect(getContent(el).replace(/<img.*?>/, "<img>")).toBe("<p>abc<img>[]def</p>");
 });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4012,6 +4040,8 @@ test("Can insert an image, and selection should be collapsed after it", async ()
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 test("should not preserve image styles when replacing an image with an icon", async () => {
     onRpc("ir.attachment", "search_read", () => []);
     const { el } = await setupEditor(
@@ -4078,6 +4108,9 @@ test("Can insert an image, and selection should be collapsed after it", async ()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4338,6 +4371,9 @@ test("Can insert an image, and selection should be collapsed after it", async ()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4669,6 +4705,7 @@ test("Can insert an image, and selection should be collapsed after it", async ()
     const { editor, el } = await setupEditor("<p>a[]bc</p>", { env });
     await insertText(editor, "/image");
     await animationFrame();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5366,6 +5403,9 @@ test("Can insert an image, and selection should be collapsed after it", async ()
 =======
     await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
+=======
+    await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
     await press("Enter");
     await animationFrame();
     await click("img.o_we_attachment_highlight");
@@ -5375,6 +5415,7 @@ test("Can insert an image, and selection should be collapsed after it", async ()
 });
 
 test("press escape to close media dialog", async () => {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5872,6 +5913,8 @@ test("press escape to close media dialog", async () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     onRpc("ir.attachment", "search_read", () => []);
     const env = await makeMockEnv();
     const { editor, el } = await setupEditor("<p>a[]bc</p>", { env });
@@ -6039,6 +6082,9 @@ test("press escape to close media dialog", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6544,9 +6590,15 @@ describe("Powerbox search keywords", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         insertText(editor, "/");
         for (const word of ["image", "icon"]) {
             insertText(editor, word);
+=======
+        await insertText(editor, "/");
+        for (const word of ["image", "icon"]) {
+            await insertText(editor, word);
+>>>>>>> upstream/18.0
 =======
         await insertText(editor, "/");
         for (const word of ["image", "icon"]) {
@@ -7535,7 +7587,11 @@ describe("Powerbox search keywords", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 press("backspace");
+=======
+                await press("backspace");
+>>>>>>> upstream/18.0
 =======
                 await press("backspace");
 >>>>>>> upstream/18.0
@@ -8211,6 +8267,7 @@ describe("Powerbox search keywords", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -8248,6 +8305,8 @@ test("cropper should not open for external image", async () => {
         };
     });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8742,6 +8801,9 @@ test("cropper should not open for external image", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9079,6 +9141,7 @@ test("cropper should not open for external image", async () => {
     await animationFrame();
 
     await click('.btn[name="image_crop"]');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9718,6 +9781,8 @@ test("cropper should not open for external image", async () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     await waitFor(".o_notification_manager .o_notification", { timeout: 1000 });
     expect("img.o_we_cropper_img").toHaveCount(0);
 });
@@ -9882,6 +9947,9 @@ test("Image cropper disappear on backspace", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

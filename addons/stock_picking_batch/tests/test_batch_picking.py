@@ -571,7 +571,10 @@ class TestBatchPicking(TransactionCase):
                          procurement_2.stock_move_ids.picking_id.filtered(lambda p: p.picking_type_code == 'internal' and p.location_dest_id == warehouse_2.lot_stock_id).batch_id)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_auto_batch_3(self):
         """ Test a simple auto-batch scenario with a manually assigned picking.
         """
@@ -605,6 +608,9 @@ class TestBatchPicking(TransactionCase):
         self.assertEqual(delivery.state, 'assigned')
         self.assertTrue(delivery.batch_id)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_remove_all_transfers_from_confirmed_batch(self):
         """

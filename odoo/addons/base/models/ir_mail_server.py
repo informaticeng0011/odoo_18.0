@@ -88,6 +88,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 import base64
@@ -274,6 +275,8 @@ import idna
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 import base64
 import datetime
@@ -367,6 +370,9 @@ import email.policy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -551,6 +557,7 @@ import re
 import smtplib
 import ssl
 from email.message import EmailMessage
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -923,6 +930,8 @@ from odoo.tools import formataddr, email_normalize, encapsulate_email, email_dom
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 from email.parser import BytesParser
 from email.utils import make_msgid
 from socket import gaierror, timeout
@@ -1050,6 +1059,9 @@ else:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1698,6 +1710,7 @@ class IrMailServer(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     smtp_ssl_certificate = base64.b64decode(mail_server.smtp_ssl_certificate)
                     certificate = SSLCrypto.load_certificate(FILETYPE_PEM, smtp_ssl_certificate)
                     smtp_ssl_private_key = base64.b64decode(mail_server.smtp_ssl_private_key)
@@ -1705,6 +1718,8 @@ class IrMailServer(models.Model):
                     ssl_context._ctx.use_certificate(certificate)
                     ssl_context._ctx.use_privatekey(private_key)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1977,6 +1992,9 @@ class IrMailServer(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2437,8 +2455,12 @@ class IrMailServer(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     #  Use binary encoding for "message/rfc822" attachments (see RFC 2046 Section 5.2.1)
                     msg.add_attachment(fcontent, maintype, subtype, filename=fname, cte='binary')
+=======
+                    msg.add_attachment(BytesParser().parsebytes(fcontent), filename=fname)
+>>>>>>> upstream/18.0
 =======
                     msg.add_attachment(BytesParser().parsebytes(fcontent), filename=fname)
 >>>>>>> upstream/18.0

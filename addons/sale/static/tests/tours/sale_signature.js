@@ -152,6 +152,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { waitUntil } from "@odoo/hoot-dom";
+>>>>>>> upstream/18.0
 =======
 import { waitUntil } from "@odoo/hoot-dom";
 >>>>>>> upstream/18.0
@@ -617,6 +621,7 @@ registry.category("web_tour.tours").add('sale_signature', {
     steps: () => [
     {
         content: "open the test SO",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1413,6 +1418,11 @@ registry.category("web_tour.tours").add('sale_signature', {
         run: "click",
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
+=======
+        trigger: 'a:text(test SO)',
+        run: "click",
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
     },
     {
         content: "click sign",
@@ -1421,7 +1431,10 @@ registry.category("web_tour.tours").add('sale_signature', {
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         content: "clear the signature name",
         trigger: '.modal .o_web_sign_name_and_signature input',
         run: "clear",
@@ -1436,6 +1449,9 @@ registry.category("web_tour.tours").add('sale_signature', {
         run: "fill Joel Willis",
     },
     {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         content: "check submit is enabled",
         trigger: '.o_portal_sign_submit:enabled',
@@ -1596,7 +1612,10 @@ registry.category("web_tour.tours").add('sale_signature', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2062,6 +2081,9 @@ registry.category("web_tour.tours").add('sale_signature', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2535,6 +2557,10 @@ registry.category("web_tour.tours").add('sale_signature', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -3173,6 +3199,10 @@ registry.category("web_tour.tours").add('sale_signature', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0

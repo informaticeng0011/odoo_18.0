@@ -106,6 +106,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* payment_mercado_pago
 # 
 # Translators:
@@ -113,6 +114,8 @@
 # Junko Augias, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -435,6 +438,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -650,6 +656,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1002,6 +1009,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-10-15 05:31+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-18/"
@@ -1117,6 +1127,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1366,7 +1379,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "カード発行会社に電話してカードを有効化するか、別の支払方法を利用して下さい。電話番号はカード裏面に記載されています。"
+=======
+msgstr ""
+"カード発行会社に電話してカードを有効化するか、別の支払方法を利用して下さい。"
+"電話番号はカード裏面に記載されています。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "カード発行会社に電話してカードを有効化するか、別の支払方法を利用して下さい。"
@@ -1557,6 +1576,7 @@ msgstr "決済プロバイダー"
 #. module: payment_mercado_pago
 #: model:ir.model,name:payment_mercado_pago.model_payment_transaction
 msgid "Payment Transaction"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1982,6 +2002,9 @@ msgstr "支払取引"
 =======
 msgstr "支払取引"
 >>>>>>> upstream/18.0
+=======
+msgstr "支払取引"
+>>>>>>> upstream/18.0
 
 #. module: payment_mercado_pago
 #. odoo-python
@@ -2013,7 +2036,13 @@ msgid "Payment was not processed, use another card or contact issuer."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "支払が処理されませんでした。別のカードを使用するか、発行会社に連絡して下さい。"
+=======
+msgstr ""
+"支払が処理されませんでした。別のカードを使用するか、発行会社に連絡して下さ"
+"い。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "支払が処理されませんでした。別のカードを使用するか、発行会社に連絡して下さ"
@@ -2202,8 +2231,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "APIとのコミュニケーションに失敗しました。 Mercado Pagoは以下の情報を提供しています: '%(error_message)s' (コード "
 "%(error_code)s)"
+=======
+"APIとのコミュニケーションに失敗しました。 Mercado Pagoは以下の情報を提供して"
+"います: '%(error_message)s' (コード %(error_code)s)"
+>>>>>>> upstream/18.0
 =======
 "APIとのコミュニケーションに失敗しました。 Mercado Pagoは以下の情報を提供して"
 "います: '%(error_message)s' (コード %(error_code)s)"
@@ -2341,7 +2375,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "APIとの通信に失敗しました。回答が空です。アクセストークンを確認して下さい。"
+=======
+msgstr ""
+"APIとの通信に失敗しました。回答が空です。アクセストークンを確認して下さい。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "APIとの通信に失敗しました。回答が空です。アクセストークンを確認して下さい。"
@@ -2490,7 +2529,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "お客様のお支払を処理中です。2営業日以内に、支払いが入金されたかどうかをEメールでお知らせいたしますので、ご安心下さい。"
+=======
+msgstr ""
+"お客様のお支払を処理中です。2営業日以内に、支払いが入金されたかどうかをEメー"
+"ルでお知らせいたしますので、ご安心下さい。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "お客様のお支払を処理中です。2営業日以内に、支払いが入金されたかどうかをEメー"
@@ -2655,7 +2700,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "お客様のお支払を処理中です。2営業日以内に、お支払いが入金されたかどうか、または詳しい情報が必要な場合は、Eメールでお知らせいたします。"
+=======
+msgstr ""
+"お客様のお支払を処理中です。2営業日以内に、お支払いが入金されたかどうか、また"
+"は詳しい情報が必要な場合は、Eメールでお知らせいたします。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "お客様のお支払を処理中です。2営業日以内に、お支払いが入金されたかどうか、また"
@@ -2832,6 +2883,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "その金額分の支払はすでに完了しています。再度お支払いが必要な場合は、別のカードまたは別のお支払い方法をご利用下さい。"
 =======
 msgstr ""
@@ -2963,11 +3015,17 @@ msgstr ""
 "その金額分の支払はすでに完了しています。再度お支払いが必要な場合は、別のカー"
 "ドまたは別のお支払い方法をご利用下さい。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"その金額分の支払はすでに完了しています。再度お支払いが必要な場合は、別のカー"
+"ドまたは別のお支払い方法をご利用下さい。"
+>>>>>>> upstream/18.0
 
 #. module: payment_mercado_pago
 #. odoo-python
 #: code:addons/payment_mercado_pago/const.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3048,6 +3106,8 @@ msgstr "ご利用可能回数に達しました。他のカードまたは他の
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "You have reached the limit of allowed attempts. Choose another card or other "
 "means of payment."
 msgstr ""
@@ -3077,6 +3137,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3171,10 +3234,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Your payment has been credited. In your summary you will see the charge as a"
 " statement descriptor."
 msgstr "お支払いが入金されました。お客様の概要には、明細の説明として請求が表示されます。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3255,6 +3321,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

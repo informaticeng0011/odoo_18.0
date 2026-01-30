@@ -2,6 +2,10 @@ from odoo import http
 from odoo.tests import HttpCase, tagged
 from odoo.tools import mute_logger
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools.misc import file_open
+>>>>>>> upstream/18.0
 =======
 from odoo.tools.misc import file_open
 >>>>>>> upstream/18.0
@@ -15,7 +19,13 @@ class TestUpload(HttpCase):
         self.authenticate("admin", "admin")
         data = {'csrf_token': http.Request.csrf_token(self)}
 <<<<<<< HEAD
+<<<<<<< HEAD
         files = [('ufile', ('test.pdf', b'test', 'application/pdf'))]
+=======
+        # Structurally valid but AES-encrypted PDF file (generated with PyPDF)
+        with file_open('sale_pdf_quote_builder/tests/files/test_AES.pdf', 'rb') as f:
+            files = [('ufile', ('test_AES.pdf', f.read(), 'application/pdf'))]
+>>>>>>> upstream/18.0
 =======
         # Structurally valid but AES-encrypted PDF file (generated with PyPDF)
         with file_open('sale_pdf_quote_builder/tests/files/test_AES.pdf', 'rb') as f:

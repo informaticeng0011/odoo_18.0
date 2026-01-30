@@ -363,7 +363,11 @@ class AccruedExpenseRevenue(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     lambda l: l.display_type not in ['line_section', 'line_note'] and (is_purchase or not l.is_downpayment) and
+=======
+                    lambda l: l.display_type not in ['line_section', 'line_note'] and not l.is_downpayment and
+>>>>>>> upstream/18.0
 =======
                     lambda l: l.display_type not in ['line_section', 'line_note'] and not l.is_downpayment and
 >>>>>>> upstream/18.0
@@ -1085,7 +1089,11 @@ class AccruedExpenseRevenue(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 order_line.price_unit,
+=======
+                                order_line.price_unit_discounted,
+>>>>>>> upstream/18.0
 =======
                                 order_line.price_unit_discounted,
 >>>>>>> upstream/18.0
@@ -1575,7 +1583,11 @@ class AccruedExpenseRevenue(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             price_subtotal = order_line.qty_to_invoice * order_line.price_unit
+=======
+                            price_subtotal = order_line.qty_to_invoice * order_line.price_unit_discounted
+>>>>>>> upstream/18.0
 =======
                             price_subtotal = order_line.qty_to_invoice * order_line.price_unit_discounted
 >>>>>>> upstream/18.0
@@ -2069,7 +2081,11 @@ class AccruedExpenseRevenue(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             unit_price=formatLang(self.env, order_line.price_unit, currency_obj=order.currency_id),
+=======
+                            unit_price=formatLang(self.env, amount_currency / order_line.qty_to_invoice, currency_obj=order.currency_id),
+>>>>>>> upstream/18.0
 =======
                             unit_price=formatLang(self.env, amount_currency / order_line.qty_to_invoice, currency_obj=order.currency_id),
 >>>>>>> upstream/18.0
@@ -2566,7 +2582,11 @@ class AccruedExpenseRevenue(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             unit_price=formatLang(self.env, order_line.price_unit, currency_obj=order.currency_id),
+=======
+                            unit_price=formatLang(self.env, amount_currency / order_line.qty_to_invoice, currency_obj=order.currency_id),
+>>>>>>> upstream/18.0
 =======
                             unit_price=formatLang(self.env, amount_currency / order_line.qty_to_invoice, currency_obj=order.currency_id),
 >>>>>>> upstream/18.0
@@ -3055,7 +3075,10 @@ class AccruedExpenseRevenue(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3342,6 +3365,9 @@ class AccruedExpenseRevenue(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3542,6 +3568,7 @@ class AccruedExpenseRevenue(models.TransientModel):
         }])
         reverse_move._post()
         for order in orders_with_entries:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3922,6 +3949,9 @@ class AccruedExpenseRevenue(models.TransientModel):
 =======
             order.message_post(body=self._get_accrual_message_body(move, reverse_move))
 >>>>>>> upstream/18.0
+=======
+            order.message_post(body=self._get_accrual_message_body(move, reverse_move))
+>>>>>>> upstream/18.0
         return {
             'name': _('Accrual Moves'),
             'type': 'ir.actions.act_window',
@@ -4020,7 +4050,11 @@ class AccruedExpenseRevenue(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'domain': [('id', 'in', (move.id, reverse_move.id))],
+=======
+            'domain': [('id', 'in', (move | reverse_move).ids)],
+>>>>>>> upstream/18.0
 =======
             'domain': [('id', 'in', (move | reverse_move).ids)],
 >>>>>>> upstream/18.0

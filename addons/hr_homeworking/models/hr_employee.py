@@ -39,6 +39,7 @@ class HrEmployeeBase(models.AbstractModel):
         if 'list' in res['views']:
             res['views']['list']['arch'] = res['views']['list']['arch'].replace('work_location_name', dayfield)
 <<<<<<< HEAD
+<<<<<<< HEAD
         return res
 
 <<<<<<< HEAD
@@ -599,10 +600,15 @@ class HrEmployeeBase(models.AbstractModel):
     @api.depends("work_location_id.name", "work_location_id.location_type", "exceptional_location_id", *DAYS)
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
         res["models"][self._name]["fields"].update(self.fields_get([dayfield]))
         return res
 
     @api.depends("work_location_id.name", "work_location_id.location_type", "exceptional_location_id", *DAYS)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _compute_work_location_name_type(self):
         super()._compute_work_location_name_type()
