@@ -33,6 +33,7 @@ class PaymentLinkWizard(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -56,6 +57,15 @@ class PaymentLinkWizard(models.TransientModel):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+    def _compute_warning_message(self):
+        super()._compute_warning_message()
+        for wizard in self.filtered(lambda w: w.res_model == 'sale.order'):
+            sale_order = self.env['sale.order'].browse(wizard.res_id)
+            if sale_order.is_expired:
+                wizard.warning_message = _("The sale order has expired.")
+
 >>>>>>> upstream/18.0
     def _prepare_query_params(self, *args):
         """ Override of `payment` to add `sale_order_id` to the query params. """

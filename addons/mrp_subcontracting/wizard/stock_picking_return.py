@@ -94,7 +94,11 @@ class ReturnPicking(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if any(return_line.quantity > 0 and return_line.move_id.is_subcontract for return_line in self.product_return_moves):
+=======
+        if all(return_line.quantity > 0 and return_line.move_id.is_subcontract for return_line in self.product_return_moves):
+>>>>>>> upstream/18.0
 =======
         if all(return_line.quantity > 0 and return_line.move_id.is_subcontract for return_line in self.product_return_moves):
 >>>>>>> upstream/18.0
@@ -444,6 +448,11 @@ class ReturnPickingLine(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if self.move_id.is_subcontract:
+            vals['location_dest_id'] = new_picking.partner_id.with_company(new_picking.company_id).property_stock_subcontractor.id
+>>>>>>> upstream/18.0
 =======
         if self.move_id.is_subcontract:
             vals['location_dest_id'] = new_picking.partner_id.with_company(new_picking.company_id).property_stock_subcontractor.id

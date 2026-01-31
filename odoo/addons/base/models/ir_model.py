@@ -216,6 +216,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import inspect
+>>>>>>> upstream/18.0
 =======
 import inspect
 >>>>>>> upstream/18.0
@@ -1272,7 +1276,10 @@ class IrModel(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1428,6 +1435,9 @@ class IrModel(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1885,8 +1895,11 @@ class IrModelFields(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             safe_eval(field.domain or '[]')
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2079,6 +2092,9 @@ class IrModelFields(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2696,12 +2712,15 @@ class IrModelFields(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if vals.get('ttype') == 'one2many' and not self.search_count([
                     ('ttype', '=', 'many2one'),
                     ('model', '=', vals['relation']),
                     ('name', '=', vals['relation_field']),
                 ]):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3030,6 +3049,9 @@ class IrModelFields(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3828,7 +3850,11 @@ class ModelInherit(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         module_mapping = defaultdict(list)
+=======
+        module_mapping = defaultdict(OrderedSet)
+>>>>>>> upstream/18.0
 =======
         module_mapping = defaultdict(OrderedSet)
 >>>>>>> upstream/18.0
@@ -4709,11 +4735,14 @@ class ModelInherit(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ]
 
                 for item in items:
                     module_mapping[item].append(cls._module)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5369,6 +5398,9 @@ class ModelInherit(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6133,6 +6165,7 @@ class IrModelSelection(models.Model):
             if ondelete is None:
                 # nothing to do, the selection does not come from a field extension
                 continue
+<<<<<<< HEAD
             elif callable(ondelete):
                 ondelete(selection._get_records())
             elif ondelete == 'set null':
@@ -6150,16 +6183,62 @@ class IrModelSelection(models.Model):
                     'The ondelete policy "%(policy)s" is not valid for field "%(field)s"',
                     policy=ondelete, field=selection,
                 ))
+=======
+
+            companies = self.env.companies if self.field_id.company_dependent else [self.env.company]
+            for company in companies:
+                # make a company-specific env for the Model and selection
+                Model = Model.with_company(company.id)
+                selection = selection.with_company(company.id)
+                if callable(ondelete):
+                    ondelete(selection._get_records())
+                elif ondelete == 'set null':
+                    safe_write(selection._get_records(), field.name, False)
+                elif ondelete == 'set default':
+                    value = field.convert_to_write(field.default(Model), Model)
+                    safe_write(selection._get_records(), field.name, value)
+                elif ondelete.startswith('set '):
+                    safe_write(selection._get_records(), field.name, ondelete[4:])
+                elif ondelete == 'cascade':
+                    selection._get_records().unlink()
+                else:
+                    # this shouldn't happen... simply a sanity check
+                    raise ValueError(_(
+                        'The ondelete policy "%(policy)s" is not valid for field "%(field)s"',
+                        policy=ondelete, field=selection,
+                    ))
+>>>>>>> upstream/18.0
 
     def _get_records(self):
         """ Return the records having 'self' as a value. """
         self.ensure_one()
         Model = self.env[self.field_id.model]
         Model.flush_model([self.field_id.name])
+<<<<<<< HEAD
         query = 'SELECT id FROM "{table}" WHERE "{field}"=%s'.format(
             table=Model._table, field=self.field_id.name,
         )
         self.env.cr.execute(query, [self.value])
+=======
+        if self.field_id.company_dependent:
+            # company-dependent fields are stored as jsonb (e.g; {company_id: value})
+            query = SQL(
+                "SELECT id FROM %s WHERE %s ->> %s = %s",
+                SQL.identifier(Model._table),
+                SQL.identifier(self.field_id.name),
+                str(self.env.company.id),
+                self.value,
+            )
+        else:
+            # normal selection fields are stored as general datatype
+            query = SQL(
+                "SELECT id FROM %s WHERE %s = %s",
+                SQL.identifier(Model._table),
+                SQL.identifier(self.field_id.name),
+                self.value,
+            )
+        self.env.cr.execute(query)
+>>>>>>> upstream/18.0
         return Model.browse(r[0] for r in self.env.cr.fetchall())
 
 
@@ -7029,7 +7108,11 @@ class IrModelData(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         field_ = Field(_base_fields=[field, Field(prefetch=False)])
+=======
+                        field_ = Field(_base_fields=(field, Field(prefetch=False)))
+>>>>>>> upstream/18.0
 =======
                         field_ = Field(_base_fields=(field, Field(prefetch=False)))
 >>>>>>> upstream/18.0
@@ -7731,8 +7814,11 @@ class IrModelData(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             delete(self.env[model].browse(item[1] for item in items))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7889,6 +7975,9 @@ class IrModelData(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -207,7 +207,11 @@ export class PartnerAutoCompleteCharField extends CharField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const many2oneFields = ['country_id', 'state_id'];
+=======
+        const many2oneFields = ['country_id', 'state_id', 'industry_id'];
+>>>>>>> upstream/18.0
 =======
         const many2oneFields = ['country_id', 'state_id', 'industry_id'];
 >>>>>>> upstream/18.0
@@ -644,6 +648,7 @@ export class PartnerAutoCompleteCharField extends CharField {
         data.company = this.partnerAutocomplete.removeUselessFields(data.company, Object.keys(this.props.record.fields));
 
         // Update record with retrieved values
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1476,6 +1481,8 @@ export class PartnerAutoCompleteCharField extends CharField {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         if (data.company.name) {
             await this.props.record.update({name: data.company.name});  // Needed otherwise name it is not saved
         }
@@ -1645,6 +1652,9 @@ export class PartnerAutoCompleteCharField extends CharField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

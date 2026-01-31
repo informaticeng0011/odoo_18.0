@@ -199,6 +199,10 @@ export function humanNumber(number, options = { decimals: 0, minDigits: 1 }) {
  * @param {Object} [options]
  * @param {number[]} [options.digits] the number of digits that should be used,
  *   instead of the default digits precision in the field.
+<<<<<<< HEAD
+=======
+ * @param {nummber} [optinos.minDigits] the minimum number of decimal digits to display.
+>>>>>>> upstream/18.0
  * @param {boolean} [options.humanReadable] if true, large numbers are formatted
  *   to a human readable format.
  * @param {string} [options.decimalPoint] decimal separating character
@@ -352,6 +356,7 @@ export function formatFloat(value, options = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (options.humanReadable) {
         return humanNumber(value, options);
     }
@@ -1049,13 +1054,24 @@ export function formatFloat(value, options = {}) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     let precision;
     if (options.digits && options.digits[1] !== undefined) {
         precision = options.digits[1];
     } else if (options.minDigits) {
+<<<<<<< HEAD
         // When no precision is set, 12 is chosen as the precision. It is high enough to keep it precise,
         // but not too high in order to avoid rounding errors..
         precision = 12;
+=======
+        const intDigitsCount = (value !== 0) ? Math.floor(Math.log10(Math.abs(value))) + 1 : 1;
+        // We estimate the maximum decimal digits we can display without showing rounding errors,
+        // by substracting the number of integer digits to 15, as floats have 15-16 digits precision.
+        const maxDecDigits = Math.max(15 - intDigitsCount, 0);
+        // We display maximum 6 digits or the number of significant digits (if it's lower)
+        precision = Math.min(6, maxDecDigits);
+>>>>>>> upstream/18.0
     } else {
         precision = 2;
     }
@@ -1065,6 +1081,9 @@ export function formatFloat(value, options = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1085,6 +1104,7 @@ export function formatFloat(value, options = {}) {
     const grouping = options.grouping || l10n.grouping;
     const thousandsSep = "thousandsSep" in options ? options.thousandsSep : l10n.thousandsSep;
     const decimalPoint = "decimalPoint" in options ? options.decimalPoint : l10n.decimalPoint;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1509,6 +1529,8 @@ export function formatFloat(value, options = {}) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     const formatted = value.toFixed(precision).split(".");
     formatted[0] = insertThousandsSep(formatted[0], thousandsSep, grouping);
     if (formatted[1]) {
@@ -1521,6 +1543,9 @@ export function formatFloat(value, options = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

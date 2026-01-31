@@ -234,7 +234,10 @@ class TestEventSale(TestEventSaleCommon):
 
     @users('user_sales_salesman')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_registration_state_on_so_confirmation(self):
         """Test that registration stays in draft after SO confirmation
         and only moves to open after registration editor confirmation.
@@ -271,6 +274,9 @@ class TestEventSale(TestEventSaleCommon):
         self.assertEqual(registrations.state, 'open')
 
     @users('user_sales_salesman')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_event_sale_free_confirm(self):
         """Check that free registrations are immediately

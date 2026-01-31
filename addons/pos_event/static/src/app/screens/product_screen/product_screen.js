@@ -58,6 +58,12 @@ patch(ProductScreen.prototype, {
             return;
         }
 
+<<<<<<< HEAD
+=======
+        const globalIdentificationAnswers = {};
+        const identificationQuestionTypes = ["name", "email", "phone", "company_name"];
+
+>>>>>>> upstream/18.0
         const { globalSimpleChoice, globalTextAnswer } = Object.entries(result.byOrder).reduce(
             (acc, [questionId, answer]) => {
                 const question = this.pos.models["event.question"].get(parseInt(questionId));
@@ -68,6 +74,15 @@ patch(ProductScreen.prototype, {
                     acc.globalSimpleChoice[questionId] = answer;
                 } else if (answer) {
                     acc.globalTextAnswer[questionId] = answer;
+<<<<<<< HEAD
+=======
+                    if (
+                        identificationQuestionTypes.includes(question.question_type) &&
+                        !(question.question_type in globalIdentificationAnswers)
+                    ) {
+                        globalIdentificationAnswers[question.question_type] = answer;
+                    }
+>>>>>>> upstream/18.0
                 }
 
                 return acc;
@@ -85,11 +100,25 @@ patch(ProductScreen.prototype, {
             });
 
             for (const registration of data) {
+<<<<<<< HEAD
                 const userData = {};
                 for (const [questionId, answer] of Object.entries(registration)) {
                     const question = this.pos.models["event.question"].get(parseInt(questionId));
 
                     if (!question) {
+=======
+                // Global answers have precedence for identification question types.
+                const userData = { ...globalIdentificationAnswers };
+                for (const [questionId, answer] of Object.entries(registration)) {
+                    const question = this.pos.models["event.question"].get(parseInt(questionId));
+
+                    if (
+                        !question ||
+                        !answer ||
+                        !identificationQuestionTypes.includes(question.question_type) ||
+                        question.question_type in userData
+                    ) {
+>>>>>>> upstream/18.0
                         continue;
                     }
 
@@ -240,8 +269,13 @@ patch(ProductScreen.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     } else if (question.question_type === "company") {
                         userData.company = answer;
+=======
+                    } else if (question.question_type === "company_name") {
+                        userData.company_name = answer;
+>>>>>>> upstream/18.0
 =======
                     } else if (question.question_type === "company_name") {
                         userData.company_name = answer;

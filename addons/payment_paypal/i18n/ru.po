@@ -141,12 +141,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* payment_paypal
 # 
 # Translators:
 # Wil Odoo, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -573,6 +576,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -858,6 +864,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1419,6 +1426,10 @@ msgstr ""
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2025-10-22 09:10+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+"PO-Revision-Date: 2025-10-22 09:10+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-18/"
 "payment_paypal/ru/>\n"
@@ -1427,6 +1438,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1932,6 +1944,11 @@ msgstr ""
 "(n%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
+=======
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: payment_paypal
 #: model_terms:ir.ui.view,arch_db:payment_paypal.payment_provider_form
@@ -2099,7 +2116,11 @@ msgid "Could not generate a new access token."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Не удалось сгенерировать новый токен доступа."
+>>>>>>> upstream/18.0
 =======
 msgstr "Не удалось сгенерировать новый токен доступа."
 >>>>>>> upstream/18.0
@@ -2684,7 +2705,11 @@ msgid "Invalid response format, can't normalize."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Неверный формат ответа, невозможно нормализовать."
+>>>>>>> upstream/18.0
 =======
 msgstr "Неверный формат ответа, невозможно нормализовать."
 >>>>>>> upstream/18.0
@@ -3271,7 +3296,11 @@ msgid "PayPal Access Token"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Токен доступа PayPal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Токен доступа PayPal"
 >>>>>>> upstream/18.0
@@ -3840,7 +3869,11 @@ msgid "PayPal Access Token Expiry"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Срок действия токена доступа PayPal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Срок действия токена доступа PayPal"
 >>>>>>> upstream/18.0
@@ -4409,7 +4442,11 @@ msgid "PayPal Client ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID клиента PayPal"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID клиента PayPal"
 >>>>>>> upstream/18.0
@@ -4939,7 +4976,11 @@ msgid "PayPal Client Secret"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Секрет клиента PayPal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Секрет клиента PayPal"
 >>>>>>> upstream/18.0
@@ -5396,7 +5437,11 @@ msgid "PayPal Webhook ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID вебхука PayPal"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID вебхука PayPal"
 >>>>>>> upstream/18.0
@@ -5999,7 +6044,11 @@ msgid "The moment at which the access token becomes invalid."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Момент, когда токен доступа становится недействительным."
+>>>>>>> upstream/18.0
 =======
 msgstr "Момент, когда токен доступа становится недействительным."
 >>>>>>> upstream/18.0
@@ -6576,7 +6625,11 @@ msgid "The short-lived token used to access Paypal APIs"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Кратковременный токен, используемый для доступа к API PayPal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Кратковременный токен, используемый для доступа к API PayPal"
 >>>>>>> upstream/18.0
@@ -7150,7 +7203,11 @@ msgid "Webhook ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID вебхука"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID вебхука"
 >>>>>>> upstream/18.0
@@ -7720,7 +7777,11 @@ msgid "You must have an HTTPS connection to generate a webhook."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Для создания вебхука у вас должно быть HTTPS-соединение."
+>>>>>>> upstream/18.0
 =======
 msgstr "Для создания вебхука у вас должно быть HTTPS-соединение."
 >>>>>>> upstream/18.0

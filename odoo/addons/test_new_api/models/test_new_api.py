@@ -531,6 +531,10 @@ class Related(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    foo_float_id = fields.Float(related='foo_id.test_float')
+>>>>>>> upstream/18.0
 =======
     foo_float_id = fields.Float(related='foo_id.test_float')
 >>>>>>> upstream/18.0
@@ -807,6 +811,10 @@ class RelatedFoo(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    test_float = fields.Float(digits='ORM Precision')
+>>>>>>> upstream/18.0
 =======
     test_float = fields.Float(digits='ORM Precision')
 >>>>>>> upstream/18.0
@@ -2042,6 +2050,28 @@ class SelectionRequiredWithWriteOverride(models.Model):
         return super().write(vals)
 
 
+<<<<<<< HEAD
+=======
+class SelectionCompanyDependent(models.Model):
+    _name = 'test_new_api.model_selection_company_dependent'
+    _description = "Model with a company dependent selection field"
+
+    my_selection = fields.Selection([
+        ('manual', "Manual"),
+        ('auto', "Automatic"),
+    ], company_dependent=True)
+
+
+class SelectionCompanyDependentNullImplicit(models.Model):
+    _inherit = 'test_new_api.model_selection_company_dependent'
+    _description = "Model with a company dependent selection field extension without ondelete"
+
+    my_selection = fields.Selection(selection_add=[
+        ('semi_auto', "Semi-Automatic"),
+    ])
+
+
+>>>>>>> upstream/18.0
 # Special classes to ensure the correct usage of a shared cache amongst users.
 # See the method test_shared_cache_computed_field
 class SharedCacheComputeParent(models.Model):
@@ -2235,7 +2265,10 @@ class ComputeMember(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2689,6 +2722,9 @@ class ComputeCreated(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3786,7 +3822,10 @@ class SharedComputeMethod(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4257,6 +4296,9 @@ class BinaryTest(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

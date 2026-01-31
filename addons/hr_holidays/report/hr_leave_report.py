@@ -246,8 +246,13 @@ class LeaveReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     allocation.id as allocation_id,
                     null as leave_id,
+=======
+                    null as leave_id,
+                    allocation.id as allocation_id,
+>>>>>>> upstream/18.0
 =======
                     null as leave_id,
                     allocation.id as allocation_id,

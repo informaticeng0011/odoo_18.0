@@ -158,7 +158,11 @@ from odoo.tools import file_open, mute_logger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.account_reports.tests.common import TestAccountReportsCommon
+=======
+from odoo.addons.account.tests.common import AccountTestInvoicingCommon
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 >>>>>>> upstream/18.0
@@ -761,7 +765,11 @@ class TestMyInvoisPoS(TestPoSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @TestAccountReportsCommon.setup_country('my')
+=======
+    @AccountTestInvoicingCommon.setup_country('my')
+>>>>>>> upstream/18.0
 =======
     @AccountTestInvoicingCommon.setup_country('my')
 >>>>>>> upstream/18.0
@@ -1559,6 +1567,61 @@ class TestMyInvoisPoS(TestPoSCommon):
             # And the discount should be 100
             self._assert_node_values(xml_tree, "cac:InvoiceLine/cac:AllowanceCharge/cbc:Amount", '100.00')
 
+<<<<<<< HEAD
+=======
+    @mute_logger('odoo.addons.point_of_sale.models.pos_order')
+    def test_consolidate_invoices_with_tax_included_in_price(self):
+        """ Test that price_include taxes don't incorrectly appear as discounts in XML. """
+        tax_included = self.env['account.tax'].create({
+            'name': "10% Included",
+            'amount_type': 'percent',
+            'amount': 10,
+            'price_include_override': 'tax_included',
+            'l10n_my_tax_type': '01',
+        })
+        product = self.create_product("Product", self.categ_basic, 110, tax_ids=tax_included.ids)
+
+        with freeze_time("2025-01-01"):
+            with self.with_pos_session():
+                order = self._create_order({'pos_order_lines_ui_args': [(product, 1.0)]})
+            wizard = self.env['myinvois.consolidate.invoice.wizard'].create({
+                'date_from': '2025-01-01',
+                'date_to': '2025-01-31',
+            })
+            wizard.button_consolidate_orders()
+            order.consolidated_invoice_ids.action_generate_xml_file()
+            root = etree.fromstring(order.consolidated_invoice_ids.myinvois_file_id.raw)
+            with file_open('l10n_my_edi_pos/tests/expected_xmls/consolidated_invoice_tax_included.xml', 'rb') as f:
+                expected_xml = etree.fromstring(f.read())
+            self.assertXmlTreeEqual(root, expected_xml)
+
+    @mute_logger('odoo.addons.point_of_sale.models.pos_order')
+    def test_consolidate_invoices_with_tax_included_in_price_and_discount(self):
+        """ Test that price_include taxes with actual discounts work correctly. """
+        tax_included = self.env['account.tax'].create({
+            'name': "10% Included",
+            'amount_type': 'percent',
+            'amount': 10,
+            'price_include_override': 'tax_included',
+            'l10n_my_tax_type': '01',
+        })
+        product = self.create_product("Product", self.categ_basic, 110, tax_ids=tax_included.ids)
+
+        with freeze_time("2025-01-01"):
+            with self.with_pos_session():
+                order = self._create_order({'pos_order_lines_ui_args': [(product, 1.0, 20)]})
+            wizard = self.env['myinvois.consolidate.invoice.wizard'].create({
+                'date_from': '2025-01-01',
+                'date_to': '2025-01-31',
+            })
+            wizard.button_consolidate_orders()
+            order.consolidated_invoice_ids.action_generate_xml_file()
+            root = etree.fromstring(order.consolidated_invoice_ids.myinvois_file_id.raw)
+            with file_open('l10n_my_edi_pos/tests/expected_xmls/consolidated_invoice_tax_included_with_discount.xml', 'rb') as f:
+                expected_xml = etree.fromstring(f.read())
+            self.assertXmlTreeEqual(root, expected_xml)
+
+>>>>>>> upstream/18.0
     #########
     # Refunds
     #########

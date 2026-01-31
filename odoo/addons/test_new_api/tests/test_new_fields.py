@@ -1079,7 +1079,10 @@ class TestFields(TransactionCaseWithUserDemo, TransactionExpressionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1518,6 +1521,7 @@ class TestFields(TransactionCaseWithUserDemo, TransactionExpressionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1754,6 +1758,8 @@ class TestFields(TransactionCaseWithUserDemo, TransactionExpressionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1848,6 +1854,9 @@ class TestFields(TransactionCaseWithUserDemo, TransactionExpressionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2137,7 +2146,10 @@ class TestFields(TransactionCaseWithUserDemo, TransactionExpressionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2441,6 +2453,9 @@ class TestFields(TransactionCaseWithUserDemo, TransactionExpressionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4831,7 +4846,10 @@ class TestFields(TransactionCaseWithUserDemo, TransactionExpressionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5034,6 +5052,9 @@ class TestFields(TransactionCaseWithUserDemo, TransactionExpressionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5929,6 +5950,7 @@ class TestHtmlField(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # in a perfect world this should be 1, but at the moment the value is
         # sanitized more than once during creation of the record
         self.assertEqual(patch.call_count, 2)
@@ -5939,6 +5961,8 @@ class TestHtmlField(TransactionCase):
 
         # the value is already sanitized for flushing
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6368,6 +6392,9 @@ class TestHtmlField(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7025,6 +7052,10 @@ class TestSelectionOndelete(TransactionCase):
     MODEL_REQUIRED = 'test_new_api.model_selection_required'
     MODEL_NONSTORED = 'test_new_api.model_selection_non_stored'
     MODEL_WRITE_OVERRIDE = 'test_new_api.model_selection_required_for_write_override'
+<<<<<<< HEAD
+=======
+    MODEL_COMPANY_DEPENDENT = 'test_new_api.model_selection_company_dependent'
+>>>>>>> upstream/18.0
 
     def setUp(self):
         super().setUp()
@@ -7173,6 +7204,42 @@ class TestSelectionOndelete(TransactionCase):
         self._unlink_option(self.MODEL_WRITE_OVERRIDE, 'divinity')
         self.assertEqual(rec.my_selection, 'foo')
 
+<<<<<<< HEAD
+=======
+    def test_ondelete_company_dependent_null_implicit_with_multicompany(self):
+        Model = self.env[self.MODEL_COMPANY_DEPENDENT]
+        company_2 = self.env['res.company'].create({'name': 'Test Company'})
+
+        # create records with the extended selection option
+        records = r1, r2, r3 = Model.create([
+            {'my_selection': 'manual'},
+            {'my_selection': 'auto'},
+            {'my_selection': 'semi_auto'},
+        ])
+
+        # set different values for company_2
+        r1.with_company(company_2).write({'my_selection': 'semi_auto'})
+        r2.with_company(company_2).write({'my_selection': 'semi_auto'})
+        r3.with_company(company_2).write({'my_selection': 'manual'})
+
+        # sanity checks before unlink
+        self.assertEqual(records.mapped("my_selection"), ["manual", "auto", "semi_auto"])
+        self.assertEqual(
+            records.with_company(company_2).mapped("my_selection"),
+            ["semi_auto", "semi_auto", "manual"],
+        )
+
+        # simulates a module uninstall
+        self._unlink_option(self.MODEL_COMPANY_DEPENDENT, 'semi_auto')
+
+        # test that values are removed from all the companies
+        self.assertEqual(records.mapped("my_selection"), ["manual", "auto", False])
+        self.assertEqual(
+            records.with_company(company_2).mapped("my_selection"),
+            [False, False, "manual"],
+        )
+
+>>>>>>> upstream/18.0
 
 @tagged('selection_ondelete_advanced')
 class TestSelectionOndeleteAdvanced(TransactionCase):

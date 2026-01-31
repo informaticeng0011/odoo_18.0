@@ -154,12 +154,15 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             # Remove main taxes with different a Veri*Factu tax applicability
             main_tax_types = self._l10n_es_get_main_tax_types()
             taxes = taxes.filtered(
                 lambda tax: (tax.l10n_es_type not in main_tax_types
                              or tax._l10n_es_edi_verifactu_get_applicability() != forced_tax_applicability)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -489,6 +492,9 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

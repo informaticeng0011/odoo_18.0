@@ -1,7 +1,11 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 from odoo import models, fields
+<<<<<<< HEAD
 from odoo.addons.l10n_tw_edi_ecpay.utils import call_ecpay_api
+=======
+from odoo.addons.l10n_tw_edi_ecpay.utils import call_ecpay_api, convert_utc_time_to_tw_time
+>>>>>>> upstream/18.0
 from odoo.exceptions import UserError
 
 
@@ -40,7 +44,11 @@ class L10nTwEDIInvoicePrint(models.TransientModel):
         json_data = {
             "MerchantID": self.invoice_id.company_id.sudo().l10n_tw_edi_ecpay_merchant_id,
             "InvoiceNo": self.invoice_id.l10n_tw_edi_ecpay_invoice_id,
+<<<<<<< HEAD
             "InvoiceDate": self.invoice_id.l10n_tw_edi_invoice_create_date.strftime("%Y-%m-%d"),
+=======
+            "InvoiceDate": convert_utc_time_to_tw_time(self.invoice_id.l10n_tw_edi_invoice_create_date),
+>>>>>>> upstream/18.0
             "PrintStyle": self.print_format_b2b if self.l10n_tw_edi_is_b2b else self.print_format_b2c,
             "IsShowingDetail": "1",
         }

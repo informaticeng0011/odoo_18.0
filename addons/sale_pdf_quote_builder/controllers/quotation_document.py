@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import base64
 import json
 import logging
@@ -19,6 +20,8 @@ from odoo.http import Controller, request, route
 from odoo.addons.sale_pdf_quote_builder import utils
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -52,6 +55,9 @@ from odoo.http import Controller, request, route
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -102,7 +108,11 @@ class QuotationDocumentController(Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 doc = request.env['quotation.document'].create({
+=======
+                request.env['quotation.document'].create({
+>>>>>>> upstream/18.0
 =======
                 request.env['quotation.document'].create({
 >>>>>>> upstream/18.0
@@ -144,6 +154,7 @@ class QuotationDocumentController(Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 })
                 # pypdf will also catch malformed document
                 utils._ensure_document_not_encrypted(base64.b64decode(doc.datas))
@@ -153,6 +164,8 @@ class QuotationDocumentController(Controller):
 
         return json.dumps(result)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -193,6 +206,9 @@ class QuotationDocumentController(Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

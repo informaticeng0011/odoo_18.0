@@ -28,7 +28,11 @@
                     <!-- Has rewards -->
                     <button type="object" name="action_apply" string="Apply" class="btn btn-primary"
                         invisible="not reward_ids" data-hotkey="q"/>
+<<<<<<< HEAD
                     <button special="cancel" string="Discard" class="btn btn-secondary"
+=======
+                    <button type="object" name="action_cancel" string="Discard" class="btn btn-secondary"
+>>>>>>> upstream/18.0
                         invisible="not reward_ids" data-hotkey="x"/>
                     <!-- No rewards -->
                     <button special="cancel" string="Discard" class="btn btn-primary"

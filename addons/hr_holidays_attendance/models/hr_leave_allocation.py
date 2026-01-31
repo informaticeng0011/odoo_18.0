@@ -76,6 +76,7 @@ class HolidaysAllocation(models.Model):
         datetime_min_time = datetime.min.time()
         start_dt = datetime.combine(start_date, datetime_min_time)
         end_dt = datetime.combine(end_date, datetime_min_time)
+<<<<<<< HEAD
         attendances = self.env['hr.attendance'].sudo().search([
             ('employee_id', '=', self.employee_id.id),
             ('check_in', '>=', start_dt),
@@ -83,3 +84,18 @@ class HolidaysAllocation(models.Model):
         ])
         work_entry_prorata = sum(attendances.mapped('worked_hours'))
         return work_entry_prorata
+=======
+
+        # Search for any attendance overlapping the window
+        attendances = self.env['hr.attendance'].sudo().search([
+            ('employee_id', '=', self.employee_id.id),
+            ('check_in', '<', end_dt),
+            ('check_out', '>', start_dt),
+        ])
+
+        total_worked_hours = 0.0
+        for attendance in attendances:
+            total_worked_hours += attendance._get_worked_hours_in_range(start_dt, end_dt)
+
+        return total_worked_hours
+>>>>>>> upstream/18.0

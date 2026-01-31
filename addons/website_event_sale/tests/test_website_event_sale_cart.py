@@ -2,7 +2,11 @@ from datetime import datetime, timedelta
 
 from odoo import Command
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import tagged
+=======
+from odoo.tests import tagged, Form
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import tagged, Form
 >>>>>>> upstream/18.0
@@ -56,7 +60,12 @@ class TestWebsiteEventSaleCart(TestWebsiteEventSaleCommon, TestWebsiteSaleCartAb
         # Create registrations & confirm first order
         editor = self.env['registration.editor'].new()
 <<<<<<< HEAD
+<<<<<<< HEAD
         editor.with_context(default_sale_order_id=cart1.id).action_make_registration()
+=======
+        editor = Form(self.env['registration.editor'].with_context(default_sale_order_id=cart1.id))
+        editor.save().action_make_registration()
+>>>>>>> upstream/18.0
 =======
         editor = Form(self.env['registration.editor'].with_context(default_sale_order_id=cart1.id))
         editor.save().action_make_registration()

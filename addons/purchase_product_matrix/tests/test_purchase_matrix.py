@@ -4,6 +4,12 @@
 import odoo.tests
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+from odoo.tests import Form
+
+>>>>>>> upstream/18.0
 =======
 
 from odoo.tests import Form
@@ -52,7 +58,10 @@ class TestPurchaseMatrixUi(TestMatrixCommon):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -80,6 +89,9 @@ class TestPurchaseMatrixUi(TestMatrixCommon):
                 line.product_id = product_template.product_variant_id
         self.assertEqual(purchase_order.order_line.name, 'matrixFR\nPA4FR: PAV41FR')
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

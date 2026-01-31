@@ -140,6 +140,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from datetime import datetime
 from freezegun import freeze_time
 import logging
@@ -433,6 +434,8 @@ _logger = logging.getLogger(__name__)
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import base64
 
 from datetime import datetime
@@ -441,6 +444,7 @@ from lxml import etree
 from pytz import timezone
 from odoo import Command
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -865,6 +869,8 @@ from odoo.addons.l10n_sa_edi.tests.common import TestSaEdiCommon
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 from odoo.exceptions import ValidationError, UserError
 from odoo.tests import tagged
 from odoo.tools import misc
@@ -963,6 +969,9 @@ from odoo.addons.l10n_sa_edi.tests.common import TestSaEdiCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1156,6 +1165,7 @@ from odoo.addons.l10n_sa_edi.tests.common import TestSaEdiCommon
 
 @tagged('post_install_l10n', '-at_install', 'post_install')
 class TestEdiZatca(TestSaEdiCommon):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2113,6 +2123,8 @@ class TestEdiZatca(TestSaEdiCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     # """Test ZATCA EDI compliance for Saudi Arabia."""
 
     def _test_document_generation(self, test_file_path, expected_xpath, freeze_time_at, additional_xpath='', document_type=False, move=False, move_data=False):
@@ -2402,7 +2414,10 @@ class TestEdiZatca(TestSaEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2732,6 +2747,9 @@ class TestEdiZatca(TestSaEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3087,6 +3105,9 @@ class TestEdiZatca(TestSaEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3520,6 +3541,10 @@ class TestEdiZatca(TestSaEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            # Context for wizards
+>>>>>>> upstream/18.0
 =======
             # Context for wizards
 >>>>>>> upstream/18.0
@@ -3947,6 +3972,7 @@ class TestEdiZatca(TestSaEdiCommon):
                 'active_model': 'sale.order',
                 'active_ids': [sale_order.id],
                 'active_id': sale_order.id,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5143,6 +5169,8 @@ class TestEdiZatca(TestSaEdiCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 'default_journal_id': self.customer_invoice_journal.id,
             }
 
@@ -5160,6 +5188,7 @@ class TestEdiZatca(TestSaEdiCommon):
             final.invoice_line_ids.filtered('is_downpayment').name = 'Down Payment'
             final.invoice_date_due = '2022-09-22'
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5406,6 +5435,8 @@ class TestEdiZatca(TestSaEdiCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             # Test invoices
             for move, test_file in [
                 (downpayment, "downpayment_invoice"),
@@ -5512,6 +5543,9 @@ class TestEdiZatca(TestSaEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5854,6 +5888,7 @@ class TestEdiZatca(TestSaEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5946,6 +5981,8 @@ class TestEdiZatca(TestSaEdiCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6260,6 +6297,7 @@ class TestEdiZatca(TestSaEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6448,4 +6486,96 @@ class TestEdiZatca(TestSaEdiCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_csr_generation_compliant_company(self):
+        """Test that CSR generation succeeds for a compliant company with valid field lengths."""
+        compliant_company = self.env['res.company'].create({
+            'name': 'Valid Company Name',
+            'vat': '300000000000003',
+            'street': 'Short Street Name',
+            'city': 'Riyadh',
+            'zip': '12345',
+            'country_id': self.saudi_arabia.id,
+            'state_id': self.riyadh.id,
+            'l10n_sa_api_mode': 'sandbox',
+            'currency_id': self.env.ref('base.SAR').id,
+        })
+        compliant_company.partner_id.industry_id = self.env['res.partner.industry'].create({
+            'name': 'Technology',
+        })
+        compliant_company.l10n_sa_private_key_id = self.env['certificate.key'].sudo()._generate_ec_private_key(
+            compliant_company, name='Test private key'
+        )
+        compliant_journal = self.env['account.journal'].create({
+            'name': 'Sales',
+            'code': 'SAL',
+            'type': 'sale',
+            'company_id': compliant_company.id,
+        })
+
+        compliant_journal._l10n_sa_edi_set_csr_fields()
+        try:
+            csr_string = self.env['certificate.certificate'].sudo()._l10n_sa_get_csr_str(compliant_journal)
+            self.assertTrue(csr_string, "a Valid CSR should not be empty")
+        except UserError as e:
+            self.fail(f"Compliant company should not raise error: {e}")
+
+    def test_csr_generation_non_compliant_company(self):
+        """Test that CSR generation fails for non-compliant company with all invalid fields listed."""
+        long_name = "A" * 70
+        long_street = "B" * 70
+        long_city = "C" * 70
+        long_state_name = "D" * 70
+        long_industry_name = "E" * 70
+        long_journal_name = "F" * 70
+
+        long_state = self.env['res.country.state'].create({
+            'name': long_state_name,
+            'code': 'LST',
+            'country_id': self.saudi_arabia.id,
+        })
+        long_industry = self.env['res.partner.industry'].create({
+            'name': long_industry_name,
+        })
+
+        non_compliant_company = self.env['res.company'].create({
+            'name': long_name,
+            'vat': '333333333333333',
+            'street': long_street,
+            'city': long_city,
+            'zip': '12345',
+            'country_id': self.saudi_arabia.id,
+            'state_id': long_state.id,
+            'l10n_sa_api_mode': 'sandbox',
+            'currency_id': self.env.ref('base.SAR').id,
+        })
+        non_compliant_company.partner_id.industry_id = long_industry
+        non_compliant_company.l10n_sa_private_key_id = self.env['certificate.key'].sudo()._generate_ec_private_key(
+            non_compliant_company, name='Test private key'
+        )
+        non_compliant_journal = self.env['account.journal'].create({
+            'name': long_journal_name,
+            'code': 'NC',
+            'type': 'sale',
+            'company_id': non_compliant_company.id,
+        })
+        non_compliant_journal._l10n_sa_edi_set_csr_fields()
+
+        with self.assertRaises(UserError) as context:
+            self.env['certificate.certificate'].sudo()._l10n_sa_get_csr_str(non_compliant_journal)
+
+        error_message = str(context.exception)
+        expected_error_fields = [
+            "Company Name",
+            "Common Name",
+            "Street",
+            "Locality Name",
+            "State/Province Name",
+            "Partner Industry Name",
+        ]
+
+        for field_name in expected_error_fields:
+            self.assertIn(field_name, error_message, f"Error message should contain '{field_name}'")
 >>>>>>> upstream/18.0

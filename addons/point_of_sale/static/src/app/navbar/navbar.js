@@ -32,7 +32,10 @@ import { DropdownItem } from "@web/core/dropdown/dropdown_item";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { user } from "@web/core/user";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -112,7 +115,11 @@ export class Navbar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.isSystemUser = await user.hasGroup("base.group_system");
+=======
+            this.hasProductCreationAccess = await this.pos.allowProductCreation();
+>>>>>>> upstream/18.0
 =======
             this.hasProductCreationAccess = await this.pos.allowProductCreation();
 >>>>>>> upstream/18.0
@@ -177,6 +184,7 @@ export class Navbar extends Component {
         return this.pos.config.customer_display_type !== "none" && !isMobileOS();
     }
     get showCashMoveButton() {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -469,6 +477,9 @@ export class Navbar extends Component {
 >>>>>>> upstream/18.0
 =======
         return Boolean(this.pos.config.cash_control);
+>>>>>>> upstream/18.0
+=======
+        return Boolean(this.pos.config.cash_control && this.pos.session._has_cash_move_perm);
 >>>>>>> upstream/18.0
 =======
         return Boolean(this.pos.config.cash_control && this.pos.session._has_cash_move_perm);
@@ -998,7 +1009,11 @@ export class Navbar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return this.isSystemUser;
+=======
+        return this.hasProductCreationAccess;
+>>>>>>> upstream/18.0
 =======
         return this.hasProductCreationAccess;
 >>>>>>> upstream/18.0

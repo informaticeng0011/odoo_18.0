@@ -103,6 +103,10 @@ publicWidget.registry.knowledgeBaseAutocomplete = publicWidget.Widget.extend({
     _onChangeCarrierType(ev) {
         const carrierType = ev.target.value;
         const carrierNumberField = document.querySelector("#l10n_tw_edi_carrier_number")
+<<<<<<< HEAD
+=======
+        carrierNumberField.removeAttribute("readonly");
+>>>>>>> upstream/18.0
         if (carrierType === "2") {
             carrierNumberField.placeholder = _t(
                 "Example: TP03000001234567"
@@ -169,12 +173,19 @@ publicWidget.registry.knowledgeBaseAutocomplete = publicWidget.Widget.extend({
                 this.validCarrierNumber = true;
                 this.showValidateCarrierNumber = false;
                 this.showReenterCarrierNumber = true;
+<<<<<<< HEAD
                 this.el.querySelector("#l10n_tw_edi_carrier_type").disabled = true;
+=======
+>>>>>>> upstream/18.0
                 this.el.querySelector("#l10n_tw_edi_carrier_number").setAttribute("readonly", true);
             } else {
                 this.call("dialog", "add", WarningDialog, {
                     title: _t("Error"),
+<<<<<<< HEAD
                     message: _t("Carrier number is invalid"),
+=======
+                    message: _t("Storage Code is invalid"),
+>>>>>>> upstream/18.0
                 });
             }
         } catch (error) {
@@ -218,7 +229,10 @@ publicWidget.registry.knowledgeBaseAutocomplete = publicWidget.Widget.extend({
         this.validCarrierNumber = false;
         this.showValidateCarrierNumber = true;
         this.showReenterCarrierNumber = false;
+<<<<<<< HEAD
         this.el.querySelector("#l10n_tw_edi_carrier_type").disabled = false;
+=======
+>>>>>>> upstream/18.0
         this.el.querySelector("#l10n_tw_edi_carrier_number").removeAttribute("readonly");
         this.showInvoiceItems();
     },

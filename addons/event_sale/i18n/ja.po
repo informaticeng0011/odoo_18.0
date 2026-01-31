@@ -69,8 +69,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* event_sale
 # 
+=======
+# * event_sale
+#
+>>>>>>> upstream/18.0
 =======
 # * event_sale
 #
@@ -420,6 +425,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 =======
 #
@@ -745,10 +751,16 @@
 # "Junko Augias (juau)" <juau@odoo.com>, 2025, 2026.
 # Yoshi Tashiro <tashiro@quartile.co>, 2025.
 >>>>>>> upstream/18.0
+=======
+#
+# "Junko Augias (juau)" <juau@odoo.com>, 2025, 2026.
+# Yoshi Tashiro <tashiro@quartile.co>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1089,6 +1101,11 @@ msgstr ""
 "PO-Revision-Date: 2026-01-10 09:03+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-01-10 09:03+0000\n"
+"Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-18/"
 "event_sale/ja/>\n"
 "Language: ja\n"
@@ -1096,6 +1113,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1350,6 +1368,9 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #. odoo-python
@@ -1435,6 +1456,7 @@ msgstr "キャンペーン"
 #: model:ir.model.fields.selection,name:event_sale.selection__event_sale_report__event_registration_state__cancel
 #: model:ir.model.fields.selection,name:event_sale.selection__event_sale_report__sale_order_state__cancel
 msgid "Cancelled"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2100,6 +2122,9 @@ msgstr "キャンセル済"
 =======
 msgstr "キャンセル済"
 >>>>>>> upstream/18.0
+=======
+msgstr "キャンセル済"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,help:event_sale.field_sale_order_line__event_id
@@ -2140,7 +2165,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "イベントチケットを選択すると、自動的にこのイベントチケットの登録が作成されます。"
+=======
+msgstr ""
+"イベントチケットを選択すると、自動的にこのイベントチケットの登録が作成されま"
+"す。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "イベントチケットを選択すると、自動的にこのイベントチケットの登録が作成されま"
@@ -2522,7 +2553,11 @@ msgid "Invoice Address"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "請求先住所"
+=======
+msgstr "請求先"
+>>>>>>> upstream/18.0
 =======
 msgstr "請求先"
 >>>>>>> upstream/18.0
@@ -2671,6 +2706,7 @@ msgstr "請求先"
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_sale_report__active
 msgid "Is registration active (not archived)?"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3524,6 +3560,9 @@ msgstr "登録はアクティブ (アーカイブされていない)か？"
 =======
 msgstr "登録はアクティブ (アーカイブされていない)か？"
 >>>>>>> upstream/18.0
+=======
+msgstr "登録はアクティブ (アーカイブされていない)か？"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_event_configurator__write_uid
@@ -3634,7 +3673,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "このオーダを確定する前に、全てのイベント関連ラインが設定されていることを確認して下さい:%s"
+=======
+msgstr ""
+"このオーダを確定する前に、全てのイベント関連ラインが設定されていることを確認"
+"して下さい:%s"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "このオーダを確定する前に、全てのイベント関連ラインが設定されていることを確認"
@@ -3921,7 +3966,11 @@ msgid "Source"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "情報源"
+=======
+msgstr "流入元"
+>>>>>>> upstream/18.0
 =======
 msgstr "流入元"
 >>>>>>> upstream/18.0
@@ -4021,7 +4070,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "プロダクト%(product_name)sの販売オーダ明細には、イベントとチケットが必要です。"
+=======
+msgstr ""
+"プロダクト%(product_name)sの販売オーダ明細には、イベントとチケットが必要で"
+"す。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "プロダクト%(product_name)sの販売オーダ明細には、イベントとチケットが必要で"
@@ -4187,6 +4242,7 @@ msgstr "このイベントの合計売上"
 #. module: event_sale
 #: model_terms:ir.ui.view,arch_db:event_sale.event_registration_ticket_view_form
 msgid "Transaction"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4464,6 +4520,9 @@ msgstr "取引"
 =======
 msgstr "取引"
 >>>>>>> upstream/18.0
+=======
+msgstr "取引"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields.selection,name:event_sale.selection__event_sale_report__event_registration_state__draft
@@ -4500,7 +4559,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Unconfirmed: registrations in a pending state waiting for an action (specific case, notably with sale status)\n"
+=======
+"Unconfirmed: registrations in a pending state waiting for an action "
+"(specific case, notably with sale status)\n"
+>>>>>>> upstream/18.0
 =======
 "Unconfirmed: registrations in a pending state waiting for an action "
 "(specific case, notably with sale status)\n"

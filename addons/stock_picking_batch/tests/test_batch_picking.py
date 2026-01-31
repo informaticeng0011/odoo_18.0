@@ -572,7 +572,10 @@ class TestBatchPicking(TransactionCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_auto_batch_3(self):
@@ -609,6 +612,9 @@ class TestBatchPicking(TransactionCase):
         self.assertTrue(delivery.batch_id)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

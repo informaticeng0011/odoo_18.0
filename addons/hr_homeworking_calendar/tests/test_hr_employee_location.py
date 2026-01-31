@@ -1,6 +1,10 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from freezegun import freeze_time
+>>>>>>> upstream/18.0
 =======
 from freezegun import freeze_time
 >>>>>>> upstream/18.0
@@ -116,7 +120,10 @@ class TestHrHomeworkingHrEmployeeLocation(TestHrHomeworkingCommon):
         self.assertEqual(len(created_worklocations), 0, 'should have deleted the worklocation record')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -133,6 +140,9 @@ class TestHrHomeworkingHrEmployeeLocation(TestHrHomeworkingCommon):
         self.assertTrue("wednesday_location_id" in got_view["models"]["hr.employee"]["fields"])
         self.assertEqual(got_view["views"]["list"]["arch"], """<list><field name="wednesday_location_id"/></list>""")
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

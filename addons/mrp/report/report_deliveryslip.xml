@@ -53,7 +53,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <t t-set="all_kits_move_lines" t-value="o.move_line_ids.filtered(lambda l: l.move_id.bom_line_id.bom_id.type == 'phantom')"/>
+=======
+        <t t-set="all_kits_move_lines" t-value="o.move_ids.move_line_ids.filtered(lambda l: l.move_id.bom_line_id.bom_id.type == 'phantom')"/>
+>>>>>>> upstream/18.0
 =======
         <t t-set="all_kits_move_lines" t-value="o.move_ids.move_line_ids.filtered(lambda l: l.move_id.bom_line_id.bom_id.type == 'phantom')"/>
 >>>>>>> upstream/18.0
@@ -191,7 +195,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <t t-set="no_kit_move_lines" t-value="o.move_line_ids.filtered(lambda l: l.move_id.bom_line_id.bom_id.type != 'phantom')"/>
+=======
+        <t t-set="no_kit_move_lines" t-value="o.move_ids.move_line_ids.filtered(lambda l: l.move_id.bom_line_id.bom_id.type != 'phantom')"/>
+>>>>>>> upstream/18.0
 =======
         <t t-set="no_kit_move_lines" t-value="o.move_ids.move_line_ids.filtered(lambda l: l.move_id.bom_line_id.bom_id.type != 'phantom')"/>
 >>>>>>> upstream/18.0

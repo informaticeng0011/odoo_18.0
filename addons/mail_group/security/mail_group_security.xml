@@ -192,7 +192,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     ('access_group_id', 'in', [g.id for g in user.groups_id]),
+=======
+                    ('access_group_id', 'in', user.groups_id.ids),
+>>>>>>> upstream/18.0
 =======
                     ('access_group_id', 'in', user.groups_id.ids),
 >>>>>>> upstream/18.0
@@ -961,7 +965,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         ('mail_group_id.access_group_id', 'in', [g.id for g in user.groups_id]),
+=======
+                        ('mail_group_id.access_group_id', 'in', user.groups_id.ids),
+>>>>>>> upstream/18.0
 =======
                         ('mail_group_id.access_group_id', 'in', user.groups_id.ids),
 >>>>>>> upstream/18.0
@@ -1712,7 +1720,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             ('mail_group_id.access_group_id', 'in', [g.id for g in user.groups_id]),
+=======
+                            ('mail_group_id.access_group_id', 'in', user.groups_id.ids),
+>>>>>>> upstream/18.0
 =======
                             ('mail_group_id.access_group_id', 'in', user.groups_id.ids),
 >>>>>>> upstream/18.0

@@ -211,6 +211,7 @@ export class HierarchyRenderer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const processNode = (node) => {
             if (!node.isLeaf) {
                 const subNodes = node.nodes.filter((n) => !n.hidden);
@@ -218,6 +219,8 @@ export class HierarchyRenderer extends Component {
                 for (const subNode of subNodes) {
                     processNode(subNode);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -557,6 +560,9 @@ export class HierarchyRenderer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -896,8 +902,13 @@ export class HierarchyRenderer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for (const node of this.props.model.root.rootNodes) {
             processNode(node);
+=======
+        for (const node of rootNodes) {
+            processNode(node, node);
+>>>>>>> upstream/18.0
 =======
         for (const node of rootNodes) {
             processNode(node, node);

@@ -112,6 +112,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { describe, expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -684,10 +685,13 @@ describe(parseUrl(import.meta.url), () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import {
     Deferred,
     advanceTime,
     animationFrame,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -806,6 +810,8 @@ import {
     waitUntil,
 } from "@odoo/hoot-dom";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1147,6 +1153,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1540,6 +1549,9 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2130,6 +2142,7 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const promise = waitUntil(() => false, { timeout: 1 }).catch(() => expect.step("rejected"));
 
         expect.verifySteps([]);
@@ -2142,6 +2155,9 @@ describe(parseUrl(import.meta.url), () => {
         await animationFrame();
 
         expect.verifySteps(["rejected"]);
+=======
+        await expect(waitUntil(() => false, { timeout: 0 })).rejects.toThrow();
+>>>>>>> upstream/18.0
 =======
         await expect(waitUntil(() => false, { timeout: 0 })).rejects.toThrow();
 >>>>>>> upstream/18.0
