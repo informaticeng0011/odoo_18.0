@@ -245,7 +245,10 @@ class MrpSubcontractingPurchaseTest(TestMrpSubcontractingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -897,6 +900,9 @@ class MrpSubcontractingPurchaseTest(TestMrpSubcontractingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1625,7 +1631,10 @@ class MrpSubcontractingPurchaseTest(TestMrpSubcontractingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1740,6 +1749,9 @@ class MrpSubcontractingPurchaseTest(TestMrpSubcontractingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1872,7 +1884,10 @@ class MrpSubcontractingPurchaseTest(TestMrpSubcontractingCommon):
         self.assertEqual(self.finished.standard_price, 170)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_receipt_consumption_issues_due_to_subcontract_bom_modifications(self):
         """
         Buy 10 subcontracted serial and non-serial products. Modify the BOM quantities.
@@ -1925,6 +1940,9 @@ class MrpSubcontractingPurchaseTest(TestMrpSubcontractingCommon):
         self.assertRecordValues(receipt.move_ids, [{'quantity': sum(ml.quantity for ml in move.move_line_ids)} for move in receipt.move_ids])
         self.assertRecordValues(receipt.move_ids, [{'quantity': 2} for _ in receipt.move_ids])
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_return_and_decrease_pol_qty(self):
         """

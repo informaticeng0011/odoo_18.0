@@ -187,6 +187,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    MockServer,
+>>>>>>> upstream/18.0
 =======
     MockServer,
 >>>>>>> upstream/18.0
@@ -938,6 +942,7 @@ test("widget many2many_binary", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         post(route, params) {
             expect(route).toBe("/web/binary/upload_attachment");
             expect(params.ufile[0].name).toBe("fake_file.tiff", {
@@ -951,6 +956,8 @@ test("widget many2many_binary", async () => {
             IrAttachment._records.push(file);
             return JSON.stringify([file]);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1500,6 +1507,9 @@ test("widget many2many_binary", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2134,6 +2144,7 @@ test("widget many2many_binary displays notification on error", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         post(route, params) {
             expect(route).toBe("/web/binary/upload_attachment");
             expect([params.ufile[0].name, params.ufile[1].name]).toEqual(
@@ -2156,6 +2167,8 @@ test("widget many2many_binary displays notification on error", async () => {
             IrAttachment._records.push(files[0]);
             return JSON.stringify(files);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2713,6 +2726,9 @@ test("widget many2many_binary displays notification on error", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

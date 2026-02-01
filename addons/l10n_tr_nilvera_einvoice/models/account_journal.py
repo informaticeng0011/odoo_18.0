@@ -147,11 +147,14 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.env['account.move']._l10n_tr_nilvera_get_documents()
 
     def l10n_tr_nilvera_get_message_status(self):
         """ Gets the status from Nilvera for all processing invoices in this journal. """
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -582,6 +585,9 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1012,6 +1018,11 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.env['account.move']._cron_nilvera_get_new_einvoice_sale_documents()
+        self.env['account.move']._cron_nilvera_get_new_earchive_sale_documents()
+>>>>>>> upstream/18.0
 =======
         self.env['account.move']._cron_nilvera_get_new_einvoice_sale_documents()
         self.env['account.move']._cron_nilvera_get_new_earchive_sale_documents()

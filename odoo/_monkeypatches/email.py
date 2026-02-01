@@ -9,13 +9,19 @@ def patch_email():
         return orig_policy_clone(self, **kwargs)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     orig_policy_clone = _PolicyBase.clone
     _PolicyBase.clone = policy_clone
 =======
+=======
+>>>>>>> upstream/18.0
     def policy_add(self, other):
         return policy_clone(self, **other.__dict__)
 
     orig_policy_clone = _PolicyBase.clone
     _PolicyBase.clone = policy_clone
     _PolicyBase.__add__ = policy_add
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

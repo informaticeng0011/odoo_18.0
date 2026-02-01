@@ -235,7 +235,10 @@ class TestEventSale(TestEventSaleCommon):
     @users('user_sales_salesman')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_registration_state_on_so_confirmation(self):
@@ -275,6 +278,9 @@ class TestEventSale(TestEventSaleCommon):
 
     @users('user_sales_salesman')
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

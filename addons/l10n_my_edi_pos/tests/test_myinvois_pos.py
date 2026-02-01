@@ -159,7 +159,11 @@ from odoo.tools import file_open, mute_logger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.account_reports.tests.common import TestAccountReportsCommon
+=======
+from odoo.addons.account.tests.common import AccountTestInvoicingCommon
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 >>>>>>> upstream/18.0
@@ -766,7 +770,11 @@ class TestMyInvoisPoS(TestPoSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @TestAccountReportsCommon.setup_country('my')
+=======
+    @AccountTestInvoicingCommon.setup_country('my')
+>>>>>>> upstream/18.0
 =======
     @AccountTestInvoicingCommon.setup_country('my')
 >>>>>>> upstream/18.0
@@ -1568,7 +1576,10 @@ class TestMyInvoisPoS(TestPoSCommon):
             self._assert_node_values(xml_tree, "cac:InvoiceLine/cac:AllowanceCharge/cbc:Amount", '100.00')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @mute_logger('odoo.addons.point_of_sale.models.pos_order')
     def test_consolidate_invoices_with_tax_included_in_price(self):
         """ Test that price_include taxes don't incorrectly appear as discounts in XML. """
@@ -1621,6 +1632,9 @@ class TestMyInvoisPoS(TestPoSCommon):
                 expected_xml = etree.fromstring(f.read())
             self.assertXmlTreeEqual(root, expected_xml)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     #########
     # Refunds

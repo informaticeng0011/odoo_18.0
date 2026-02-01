@@ -62,7 +62,10 @@ class TestUi(HttpCase):
         }])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_checkout_b2c_mobile_barcode(self):
         with patch(CALL_API_METHOD, new=self._test_checkout_b2c_mobile_barcode_mock):
             self.start_tour("/shop", "test_checkout_b2c_mobile_barcode")
@@ -73,6 +76,9 @@ class TestUi(HttpCase):
             'l10n_tw_edi_carrier_number': "/1234567",
         }])
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     # -------------------------------------------------------------------------
     # Patched methods
@@ -104,7 +110,10 @@ class TestUi(HttpCase):
         else:
             raise UserError('Unexpected endpoint called during a test: %s with params %s.' % (endpoint, params))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def _test_checkout_b2c_mobile_barcode_mock(self, endpoint, params, company_id, is_b2b=False):
         if endpoint == "/CheckBarcode":
@@ -114,4 +123,7 @@ class TestUi(HttpCase):
             }
         else:
             raise UserError('Unexpected endpoint called during a test: %s with params %s.' % (endpoint, params))
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

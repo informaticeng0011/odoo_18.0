@@ -5148,7 +5148,11 @@ describe('List', () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         it('should merge an ordered list into an unordered list', async () => {
+=======
+                        it('should merge an ordered list into an unordered list (1)', async () => {
+>>>>>>> upstream/18.0
 =======
                         it('should merge an ordered list into an unordered list (1)', async () => {
 >>>>>>> upstream/18.0
@@ -5725,6 +5729,11 @@ describe('List', () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                        });
+                        it('should merge an ordered list into an unordered list (2)', async () => {
+>>>>>>> upstream/18.0
 =======
                         });
                         it('should merge an ordered list into an unordered list (2)', async () => {
@@ -6443,6 +6452,11 @@ describe('List', () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                        });
+                        it("should merge an ordered list into an unordered list (3)", async () => {
+>>>>>>> upstream/18.0
 =======
                         });
                         it("should merge an ordered list into an unordered list (3)", async () => {
@@ -7161,6 +7175,11 @@ describe('List', () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                        });
+                        it("should merge an ordered list into an unordered list (4)", async () => {
+>>>>>>> upstream/18.0
 =======
                         });
                         it("should merge an ordered list into an unordered list (4)", async () => {
@@ -8128,7 +8147,11 @@ describe('List', () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         it('should merge an unordered list into an checklist list', async () => {
+=======
+                        it('should merge an unordered list into an checklist list (1)', async () => {
+>>>>>>> upstream/18.0
 =======
                         it('should merge an unordered list into an checklist list (1)', async () => {
 >>>>>>> upstream/18.0
@@ -8456,6 +8479,11 @@ describe('List', () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                        });
+                        it('should merge an unordered list into an checklist list (2)', async () => {
+>>>>>>> upstream/18.0
 =======
                         });
                         it('should merge an unordered list into an checklist list (2)', async () => {
@@ -8863,6 +8891,11 @@ describe('List', () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                        });
+                        it('should merge an unordered list into an checklist list (3)', async () => {
+>>>>>>> upstream/18.0
 =======
                         });
                         it('should merge an unordered list into an checklist list (3)', async () => {
@@ -9270,6 +9303,11 @@ describe('List', () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                        });
+                        it('should merge an unordered list into an checklist list (4)', async () => {
+>>>>>>> upstream/18.0
 =======
                         });
                         it('should merge an unordered list into an checklist list (4)', async () => {

@@ -231,6 +231,11 @@ import { AttributeSelection } from "@pos_self_order/app/components/attribute_sel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { useService } from "@web/core/utils/hooks";
+import { ProductInfoPopup } from "@pos_self_order/app/components/product_info_popup/product_info_popup";
+>>>>>>> upstream/18.0
 =======
 import { useService } from "@web/core/utils/hooks";
 import { ProductInfoPopup } from "@pos_self_order/app/components/product_info_popup/product_info_popup";
@@ -1389,6 +1394,10 @@ export class ComboSelection extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.dialog = useService("dialog");
+>>>>>>> upstream/18.0
 =======
         this.dialog = useService("dialog");
 >>>>>>> upstream/18.0
@@ -2331,7 +2340,10 @@ export class ComboSelection extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3029,6 +3041,9 @@ export class ComboSelection extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

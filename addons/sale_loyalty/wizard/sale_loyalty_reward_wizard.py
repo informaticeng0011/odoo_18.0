@@ -53,8 +53,11 @@ class SaleLoyaltyRewardWizard(models.TransientModel):
         self.order_id._apply_program_reward(self.selected_reward_id, coupon, product=self.selected_product_id)
         self.order_id._update_programs_and_rewards()
 <<<<<<< HEAD
+<<<<<<< HEAD
         return True
 =======
+=======
+>>>>>>> upstream/18.0
         self._unlink_unused_coupon_ids()
         return True
 
@@ -70,4 +73,7 @@ class SaleLoyaltyRewardWizard(models.TransientModel):
                 points.coupon_id not in reward_coupons
             )
         ).coupon_id.sudo().unlink()
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

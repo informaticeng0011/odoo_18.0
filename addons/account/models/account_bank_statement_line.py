@@ -714,8 +714,11 @@ class AccountBankStatementLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if str2bool(self.env['ir.config_parameter'].sudo().get_param("account.skip_create_bank_account_on_reconcile")):
             return self.env['res.partner.bank']
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1170,6 +1173,7 @@ class AccountBankStatementLine(models.Model):
             ('acc_number', '=', self.account_number),
             ('partner_id', '=', self.partner_id.id),
         ])
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2496,6 +2500,11 @@ class AccountBankStatementLine(models.Model):
         if bank_account:
             return bank_account.filtered(lambda x: x.company_id.id in (False, self.company_id.id)).sudo(False)
 >>>>>>> upstream/18.0
+=======
+
+        if bank_account:
+            return bank_account.filtered(lambda x: x.company_id.id in (False, self.company_id.id)).sudo(False)
+>>>>>>> upstream/18.0
 
         # Avoid creating a bank account during reconciliation if it already exists on another active partner
         bank_account_on_other_partner = self.env['res.partner.bank'].sudo().search([
@@ -2534,6 +2543,9 @@ class AccountBankStatementLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2588,6 +2600,7 @@ class AccountBankStatementLine(models.Model):
                 'partner_id': self.partner_id.id,
                 'journal_id': None,
             })
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2771,6 +2784,8 @@ class AccountBankStatementLine(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
         return bank_account
 
@@ -2801,6 +2816,9 @@ class AccountBankStatementLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3001,7 +3019,11 @@ class AccountBankStatementLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ('company_id', 'child_of', self.company_id.id),  # allow to match invoices from same or children companies to be consistant with what's shown in the interface
+=======
+            ('company_id', 'in', self.env['res.company'].search([('id', 'child_of', self.company_id.id)]).ids),  # allow to match invoices from same or children companies to be consistant with what's shown in the interface
+>>>>>>> upstream/18.0
 =======
             ('company_id', 'in', self.env['res.company'].search([('id', 'child_of', self.company_id.id)]).ids),  # allow to match invoices from same or children companies to be consistant with what's shown in the interface
 >>>>>>> upstream/18.0
@@ -3737,8 +3759,13 @@ class AccountBankStatementLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         rate_journal2foreign_curr = journal_amount and abs(transaction_amount) / abs(journal_amount)
         rate_comp2journal_curr = company_amount and abs(journal_amount) / abs(company_amount)
+=======
+        rate_journal2foreign_curr = abs(transaction_amount) / abs(journal_amount) if journal_amount else 0.0
+        rate_comp2journal_curr = abs(journal_amount) / abs(company_amount) if company_amount else 0.0
+>>>>>>> upstream/18.0
 =======
         rate_journal2foreign_curr = abs(transaction_amount) / abs(journal_amount) if journal_amount else 0.0
         rate_comp2journal_curr = abs(journal_amount) / abs(company_amount) if company_amount else 0.0
@@ -4871,6 +4898,12 @@ class AccountBankStatementLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        elif balance is None:
+            trans_amount_currency = amount_currency
+            new_balance = currency._convert(amount_currency, company_currency, company=self.company_id, date=self.date)
+>>>>>>> upstream/18.0
 =======
         elif balance is None:
             trans_amount_currency = amount_currency
@@ -6391,7 +6424,12 @@ class AccountBankStatementLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             company_currency = journal.company_id.currency_id
+=======
+            # bypassing access rights restrictions for branch-specific users in a branch company environment.
+            company_currency = journal.company_id.sudo().currency_id
+>>>>>>> upstream/18.0
 =======
             # bypassing access rights restrictions for branch-specific users in a branch company environment.
             company_currency = journal.company_id.sudo().currency_id

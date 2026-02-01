@@ -532,6 +532,10 @@ class Related(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    foo_float_id = fields.Float(related='foo_id.test_float')
+>>>>>>> upstream/18.0
 =======
     foo_float_id = fields.Float(related='foo_id.test_float')
 >>>>>>> upstream/18.0
@@ -812,6 +816,10 @@ class RelatedFoo(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    test_float = fields.Float(digits='ORM Precision')
+>>>>>>> upstream/18.0
 =======
     test_float = fields.Float(digits='ORM Precision')
 >>>>>>> upstream/18.0
@@ -2051,7 +2059,10 @@ class SelectionRequiredWithWriteOverride(models.Model):
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 class SelectionCompanyDependent(models.Model):
     _name = 'test_new_api.model_selection_company_dependent'
     _description = "Model with a company dependent selection field"
@@ -2071,6 +2082,9 @@ class SelectionCompanyDependentNullImplicit(models.Model):
     ])
 
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 # Special classes to ensure the correct usage of a shared cache amongst users.
 # See the method test_shared_cache_computed_field
@@ -2266,7 +2280,10 @@ class ComputeMember(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2723,6 +2740,9 @@ class ComputeCreated(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3823,7 +3843,10 @@ class SharedComputeMethod(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4297,6 +4320,9 @@ class BinaryTest(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

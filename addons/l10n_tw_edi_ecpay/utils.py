@@ -22,7 +22,10 @@ def transfer_time(time_before):
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 def convert_utc_time_to_tw_time(utc_datetime):
     """
         Converts UTC datetime object to a TW date string.
@@ -39,6 +42,9 @@ def convert_utc_time_to_tw_time(utc_datetime):
     return tw_time.strftime("%Y-%m-%d")
 
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 def encrypt(data, cipher):
     padder = padding.PKCS7(128).padder()

@@ -172,6 +172,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { memoize } from "@web/core/utils/functions";
 import { useAutofocus, useService } from "@web/core/utils/hooks";
 import { ModelFieldSelectorPopover } from "@web/core/model_field_selector/model_field_selector_popover";
@@ -182,6 +183,8 @@ const allowedQwebExpressions = memoize(async (model, orm) => {
     return await orm.call(model, "mail_allowed_qweb_expressions");
 });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -725,6 +728,9 @@ registry.category("services").add("allowed_qweb_expressions", allowedQwebExpress
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1261,6 +1267,7 @@ export class DynamicPlaceholderPopover extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.orm = useService("orm");
 
         onWillStart(async () => {
@@ -1271,6 +1278,8 @@ export class DynamicPlaceholderPopover extends Component {
             ]);
         });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1799,6 +1808,9 @@ export class DynamicPlaceholderPopover extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

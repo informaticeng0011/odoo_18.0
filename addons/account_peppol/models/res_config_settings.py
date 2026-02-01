@@ -27,11 +27,15 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     account_peppol_edi_user = fields.Many2one(
         comodel_name='account_edi_proxy_client.user',
         string='EDI user',
         compute='_compute_account_peppol_edi_user',
     )
+=======
+    account_peppol_edi_user = fields.Many2one(related='company_id.account_peppol_edi_user')
+>>>>>>> upstream/18.0
 =======
     account_peppol_edi_user = fields.Many2one(related='company_id.account_peppol_edi_user')
 >>>>>>> upstream/18.0
@@ -113,6 +117,11 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    peppol_use_parent_company = fields.Boolean(compute='_compute_peppol_use_parent_company')
+    peppol_parent_company_name = fields.Char(compute='_compute_peppol_use_parent_company')
+>>>>>>> upstream/18.0
 =======
     peppol_use_parent_company = fields.Boolean(compute='_compute_peppol_use_parent_company')
     peppol_parent_company_name = fields.Char(compute='_compute_peppol_use_parent_company')
@@ -208,7 +217,10 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -273,6 +285,9 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -332,12 +347,15 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends("company_id.account_edi_proxy_client_ids")
     def _compute_account_peppol_edi_user(self):
         for config in self:
             config.account_peppol_edi_user = config.company_id.account_edi_proxy_client_ids.filtered(
                 lambda u: u.proxy_type == 'peppol')
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -436,6 +454,7 @@ class ResConfigSettings(models.TransientModel):
         The migration key is then displayed in Peppol settings.
         Currently, reopening after migrating away is not supported.
         """
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1146,6 +1165,8 @@ class ResConfigSettings(models.TransientModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         raise UserError(_("This feature is deprecated. Contact Odoo support if you need a migration key."))
 
     def button_peppol_disconnect_branch_from_parent(self):
@@ -1179,6 +1200,9 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1232,6 +1256,7 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return True
 
 <<<<<<< HEAD
@@ -1714,6 +1739,8 @@ class ResConfigSettings(models.TransientModel):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1739,6 +1766,9 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1786,6 +1816,9 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

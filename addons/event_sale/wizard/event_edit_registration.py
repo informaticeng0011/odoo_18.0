@@ -65,7 +65,12 @@ class RegistrationEditor(models.TransientModel):
         self.env['event.registration'].create(registrations_to_create)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+        # Force compute after wizard so seat validation/emails happen now.
+        self.event_registration_ids.registration_id._compute_registration_status()
+>>>>>>> upstream/18.0
 =======
         # Force compute after wizard so seat validation/emails happen now.
         self.event_registration_ids.registration_id._compute_registration_status()

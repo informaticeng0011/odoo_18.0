@@ -101,7 +101,10 @@ class TestAccrualAllocationsAttendance(TestHrHolidaysCommon):
             allocation_form.name = 'Accrual allocation for employee'
             self.assertEqual(allocation_form.number_of_hours_display, 8.0)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_accrual_allocation_with_overlapping_attendance(self):
         accrual_plan = self.env['hr.leave.accrual.plan'].create({
@@ -190,4 +193,7 @@ class TestAccrualAllocationsAttendance(TestHrHolidaysCommon):
             # Counts the whole attendance: 9 hours - 1h of lunchtime = 8h
             allocation._update_accrual()
             self.assertEqual(allocation.number_of_days, 1.0)  # 8 / 8 = 1.0
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

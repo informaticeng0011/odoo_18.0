@@ -46,7 +46,10 @@ class SaleOrderLine(models.Model):
                 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 # When confirming in backend a single order, keep paid registrations in draft
@@ -54,6 +57,9 @@ class SaleOrderLine(models.Model):
                 if len(self.order_id) == 1 and not so_line.currency_id.is_zero(so_line.price_total):
                     values['state'] = 'draft'
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

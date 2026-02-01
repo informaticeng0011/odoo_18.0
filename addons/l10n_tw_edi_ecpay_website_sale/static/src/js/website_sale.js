@@ -104,6 +104,10 @@ publicWidget.registry.knowledgeBaseAutocomplete = publicWidget.Widget.extend({
         const carrierType = ev.target.value;
         const carrierNumberField = document.querySelector("#l10n_tw_edi_carrier_number")
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        carrierNumberField.removeAttribute("readonly");
+>>>>>>> upstream/18.0
 =======
         carrierNumberField.removeAttribute("readonly");
 >>>>>>> upstream/18.0
@@ -174,7 +178,10 @@ publicWidget.registry.knowledgeBaseAutocomplete = publicWidget.Widget.extend({
                 this.showValidateCarrierNumber = false;
                 this.showReenterCarrierNumber = true;
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this.el.querySelector("#l10n_tw_edi_carrier_type").disabled = true;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 this.el.querySelector("#l10n_tw_edi_carrier_number").setAttribute("readonly", true);
@@ -182,7 +189,11 @@ publicWidget.registry.knowledgeBaseAutocomplete = publicWidget.Widget.extend({
                 this.call("dialog", "add", WarningDialog, {
                     title: _t("Error"),
 <<<<<<< HEAD
+<<<<<<< HEAD
                     message: _t("Carrier number is invalid"),
+=======
+                    message: _t("Storage Code is invalid"),
+>>>>>>> upstream/18.0
 =======
                     message: _t("Storage Code is invalid"),
 >>>>>>> upstream/18.0
@@ -230,7 +241,10 @@ publicWidget.registry.knowledgeBaseAutocomplete = publicWidget.Widget.extend({
         this.showValidateCarrierNumber = true;
         this.showReenterCarrierNumber = false;
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.el.querySelector("#l10n_tw_edi_carrier_type").disabled = false;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         this.el.querySelector("#l10n_tw_edi_carrier_number").removeAttribute("readonly");
