@@ -143,8 +143,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sale_pdf_quote_builder
 # 
+=======
+# * sale_pdf_quote_builder
+#
+>>>>>>> upstream/18.0
 =======
 # * sale_pdf_quote_builder
 #
@@ -874,6 +879,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Anastasiia Koroleva, 2025
 >>>>>>> upstream/18.0
@@ -1477,10 +1483,15 @@
 # Anastasiia Koroleva, 2025
 # "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Anastasiia Koroleva, 2025
+# "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2103,6 +2114,10 @@ msgstr ""
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2025-10-09 17:02+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2025-10-09 17:02+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-18/"
 "sale_pdf_quote_builder/ru/>\n"
@@ -2111,6 +2126,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2628,6 +2644,11 @@ msgstr ""
 "(n%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
+=======
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.actions.report,print_report_name:sale_pdf_quote_builder.action_report_saleorder_raw
@@ -2784,7 +2805,11 @@ msgid "<span class=\"pe-2\">Templates:</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"pe-2\">Шаблоны:</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"pe-2\">Шаблоны:</span>"
 >>>>>>> upstream/18.0
@@ -3361,7 +3386,11 @@ msgid "<span>Document type:</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Тип документа:</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Тип документа:</span>"
 >>>>>>> upstream/18.0
@@ -3796,6 +3825,7 @@ msgstr "<span>Тип документа:</span>"
 #. odoo-python
 #: code:addons/sale_pdf_quote_builder/models/sale_pdf_form_field.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4455,6 +4485,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "A form field set as used in product documents can't be linked to a quotation "
 "document."
 msgstr ""
@@ -4488,6 +4520,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4550,6 +4585,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/sale_pdf_quote_builder/models/sale_pdf_form_field.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5209,6 +5245,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "A form field set as used in quotation documents can't be linked to a product "
 "document."
 msgstr ""
@@ -5242,6 +5280,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5325,6 +5366,7 @@ msgstr "Все загруженные файлы"
 #: model:ir.model.fields,help:sale_pdf_quote_builder.field_product_document__attached_on_sale
 msgid ""
 "Allows you to share the document with your customers within a sale.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6165,6 +6207,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Leave it empty if you don't want to share this document with sales "
 "customer.\n"
 "On quote: the document will be sent to and accessible by customers at any "
@@ -6216,6 +6260,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6437,7 +6484,11 @@ msgid "Available Product Documents"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Доступные документы по товарам"
+>>>>>>> upstream/18.0
 =======
 msgstr "Доступные документы по товарам"
 >>>>>>> upstream/18.0
@@ -7020,7 +7071,11 @@ msgid "Click to write content for the PDF quote..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Нажмите, чтобы ввести содержимое для PDF-предложения..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Нажмите, чтобы ввести содержимое для PDF-предложения..."
 >>>>>>> upstream/18.0
@@ -7603,7 +7658,11 @@ msgid "Configure dynamic fields"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Настроить динамические поля"
+>>>>>>> upstream/18.0
 =======
 msgstr "Настроить динамические поля"
 >>>>>>> upstream/18.0
@@ -8180,7 +8239,11 @@ msgid "Configure the path to fill the form fields."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Настроить путь для заполнения полей формы."
+>>>>>>> upstream/18.0
 =======
 msgstr "Настроить путь для заполнения полей формы."
 >>>>>>> upstream/18.0
@@ -8758,7 +8821,11 @@ msgid "Created by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Создано:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создано:"
 >>>>>>> upstream/18.0
@@ -9336,7 +9403,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Дата создания:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата создания:"
 >>>>>>> upstream/18.0
@@ -9918,7 +9989,11 @@ msgid "Customizable"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "С возможностью настройки"
+>>>>>>> upstream/18.0
 =======
 msgstr "С возможностью настройки"
 >>>>>>> upstream/18.0
@@ -10495,7 +10570,11 @@ msgid "Customizable PDF Form Fields"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Настраиваемые поля PDF-формы"
+>>>>>>> upstream/18.0
 =======
 msgstr "Настраиваемые поля PDF-формы"
 >>>>>>> upstream/18.0
@@ -11099,7 +11178,11 @@ msgid "Document type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Тип документа"
+>>>>>>> upstream/18.0
 =======
 msgstr "Тип документа"
 >>>>>>> upstream/18.0
@@ -11713,7 +11796,11 @@ msgid "Form Field Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Название поля формы"
+>>>>>>> upstream/18.0
 =======
 msgstr "Название поля формы"
 >>>>>>> upstream/18.0
@@ -12292,7 +12379,11 @@ msgid "Form Fields"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Поля формы"
+>>>>>>> upstream/18.0
 =======
 msgstr "Поля формы"
 >>>>>>> upstream/18.0
@@ -12870,7 +12961,11 @@ msgid "Form Fields Included"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Включенные поля формы"
+>>>>>>> upstream/18.0
 =======
 msgstr "Включенные поля формы"
 >>>>>>> upstream/18.0
@@ -13447,7 +13542,11 @@ msgid "Form field name must be unique for a given document type."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Название поля формы должно быть уникальным для данного типа документа."
+>>>>>>> upstream/18.0
 =======
 msgstr "Название поля формы должно быть уникальным для данного типа документа."
 >>>>>>> upstream/18.0
@@ -14024,7 +14123,11 @@ msgid "Form fields of inside quotation documents."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Поля формы внутри документов коммерческого предложения."
+>>>>>>> upstream/18.0
 =======
 msgstr "Поля формы внутри документов коммерческого предложения."
 >>>>>>> upstream/18.0
@@ -14613,7 +14716,11 @@ msgid "Header/Footer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Верхний/нижний колонтитул"
+>>>>>>> upstream/18.0
 =======
 msgstr "Верхний/нижний колонтитул"
 >>>>>>> upstream/18.0
@@ -15190,7 +15297,11 @@ msgid "Headers and footers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Колонтитулы"
+>>>>>>> upstream/18.0
 =======
 msgstr "Колонтитулы"
 >>>>>>> upstream/18.0
@@ -15770,7 +15881,11 @@ msgid "Headers/Footers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Колонтитулы (верхний/нижний)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Колонтитулы (верхний/нижний)"
 >>>>>>> upstream/18.0
@@ -16361,6 +16476,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Если флажок не установлен, это позволит скрыть верхний или нижний колонтитул "
+"без его удаления."
+>>>>>>> upstream/18.0
 =======
 "Если флажок не установлен, это позволит скрыть верхний или нижний колонтитул "
 "без его удаления."
@@ -17100,7 +17220,11 @@ msgid "Inside quote pdf"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Внутри PDF-предложения"
+>>>>>>> upstream/18.0
 =======
 msgstr "Внутри PDF-предложения"
 >>>>>>> upstream/18.0
@@ -17681,6 +17805,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Недопустимое имя поля формы %(field_name)s. Имя поля формы в колонтитуле не "
+"может начинаться с «sol_id_»."
+>>>>>>> upstream/18.0
 =======
 "Недопустимое имя поля формы %(field_name)s. Имя поля формы в колонтитуле не "
 "может начинаться с «sol_id_»."
@@ -18404,6 +18533,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Недопустимое имя поля формы %(field_name)s. Имя должно содержать только "
+"буквы, цифры, дефисы или подчеркивания."
+>>>>>>> upstream/18.0
 =======
 "Недопустимое имя поля формы %(field_name)s. Имя должно содержать только "
 "буквы, цифры, дефисы или подчеркивания."
@@ -19127,6 +19261,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Недопустимый путь %(path)s. Путь должен содержать только буквы, цифры, "
+"дефисы, подчеркивания или точки."
+>>>>>>> upstream/18.0
 =======
 "Недопустимый путь %(path)s. Путь должен содержать только буквы, цифры, "
 "дефисы, подчеркивания или точки."
@@ -19846,7 +19985,11 @@ msgid "Is Pdf Quote Builder Available"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Доступен ли конструктор коммерческих предложений в формате PDF"
+>>>>>>> upstream/18.0
 =======
 msgstr "Доступен ли конструктор коммерческих предложений в формате PDF"
 >>>>>>> upstream/18.0
@@ -20446,7 +20589,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Последнее обновление:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Последнее обновление:"
 >>>>>>> upstream/18.0
@@ -21028,7 +21175,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Дата последнего обновления:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата последнего обновления:"
 >>>>>>> upstream/18.0
@@ -21608,7 +21759,11 @@ msgid "Mark fields as safe to fill in the quote."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Пометить поля как доступные для заполнения в предложении."
+>>>>>>> upstream/18.0
 =======
 msgstr "Пометить поля как доступные для заполнения в предложении."
 >>>>>>> upstream/18.0
@@ -22208,7 +22363,11 @@ msgid "Only PDF documents can be used as header or footer."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "В качестве колонтитулов можно использовать только PDF-документы."
+>>>>>>> upstream/18.0
 =======
 msgstr "В качестве колонтитулов можно использовать только PDF-документы."
 >>>>>>> upstream/18.0
@@ -22799,7 +22958,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23230,6 +23392,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23664,6 +23829,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Пожалуйста, используйте только связанные поля до последнего значения вашего "
 "пути."
@@ -23775,6 +23941,10 @@ msgstr ""
 =======
 "Пожалуйста, используйте только связанные поля до последнего значения вашего "
 "пути."
+>>>>>>> upstream/18.0
+=======
+"Пожалуйста, используйте только реляционные поля до последнего значения "
+"вашего пути."
 >>>>>>> upstream/18.0
 =======
 "Пожалуйста, используйте только реляционные поля до последнего значения "
@@ -24396,7 +24566,11 @@ msgid "Product Documents"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Документы по товарам"
+>>>>>>> upstream/18.0
 =======
 msgstr "Документы по товарам"
 >>>>>>> upstream/18.0
@@ -24859,6 +25033,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Provide header pages and footer pages to compose an attractive quotation with more information\n"
 "                        about your company, your products and you services. <br/>\n"
 "                        The pdf of your quotes will be built by putting together header pages, product descriptions,\n"
@@ -25263,6 +25438,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Provide header pages and footer pages to compose an attractive quotation "
 "with more information\n"
 "                        about your company, your products and you services. "
@@ -25302,6 +25479,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25364,6 +25544,7 @@ msgstr ""
 "                        о вашей компании, товарах и услугах.<br/>\n"
 "                        PDF вашего предложения будет сформирован путем "
 "объединения титульных страниц, описаний товаров,\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25794,6 +25975,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        деталей предложения и затем завершающих страниц.<br/"
 ">\n"
 "                        Если пусто, будут использованы значения из настроек "
@@ -25826,6 +26009,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26035,7 +26221,11 @@ msgid "Quotation Document"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Документ коммерческого предложения"
+>>>>>>> upstream/18.0
 =======
 msgstr "Документ коммерческого предложения"
 >>>>>>> upstream/18.0
@@ -26612,7 +26802,11 @@ msgid "Quotation Documents"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Документы коммерческих предложений"
+>>>>>>> upstream/18.0
 =======
 msgstr "Документы коммерческих предложений"
 >>>>>>> upstream/18.0
@@ -27200,7 +27394,11 @@ msgid "Quotation's Headers & Footers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Колонтитулы коммерческого предложения"
+>>>>>>> upstream/18.0
 =======
 msgstr "Колонтитулы коммерческого предложения"
 >>>>>>> upstream/18.0
@@ -27778,7 +27976,11 @@ msgid "Quote Builder"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Конструктор коммерческих предложений"
+>>>>>>> upstream/18.0
 =======
 msgstr "Конструктор коммерческих предложений"
 >>>>>>> upstream/18.0
@@ -28395,7 +28597,11 @@ msgid "Sale : Visible at"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Продажа : отображается в"
+>>>>>>> upstream/18.0
 =======
 msgstr "Продажа : отображается в"
 >>>>>>> upstream/18.0
@@ -29003,6 +29209,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Конструктор PDF-предложений: назначение полей формы документам после "
+"обновления"
+>>>>>>> upstream/18.0
 =======
 "Конструктор PDF-предложений: назначение полей формы документам после "
 "обновления"
@@ -29743,7 +29954,11 @@ msgid "The field %(field_name)s doesn't exist on model %(model_name)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Поле %(field_name)s не существует в модели %(model_name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Поле %(field_name)s не существует в модели %(model_name)s"
 >>>>>>> upstream/18.0
@@ -30320,7 +30535,11 @@ msgid "The form field name as written in the PDF."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Название поля формы как указано в PDF."
+>>>>>>> upstream/18.0
 =======
 msgstr "Название поля формы как указано в PDF."
 >>>>>>> upstream/18.0
@@ -30900,6 +31119,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Путь, по которому заполняется поле формы.\n"
+"Оставьте пустым, чтобы можно было настроить его в форме коммерческого "
+"предложения."
+>>>>>>> upstream/18.0
 =======
 "Путь, по которому заполняется поле формы.\n"
 "Оставьте пустым, чтобы можно было настроить его в форме коммерческого "
@@ -31765,6 +31990,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Документы по товарам для этой позиции заказа, которые будут объединены в "
+"коммерческое предложение в формате PDF."
+>>>>>>> upstream/18.0
 =======
 "Документы по товарам для этой позиции заказа, которые будут объединены в "
 "коммерческое предложение в формате PDF."
@@ -32489,7 +32719,11 @@ msgid "This document"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Этот документ"
+>>>>>>> upstream/18.0
 =======
 msgstr "Этот документ"
 >>>>>>> upstream/18.0
@@ -33071,7 +33305,11 @@ msgid "Upload quotation headers and footers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Загрузите колонтитулы коммерческого предложения"
+>>>>>>> upstream/18.0
 =======
 msgstr "Загрузите колонтитулы коммерческого предложения"
 >>>>>>> upstream/18.0
@@ -33570,8 +33808,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Вы можете загрузить файл с вашего компьютера или скопировать/вставить ссылку"
 " на свой файл в Интернете."
+=======
+"Вы можете загрузить файл с вашего компьютера или скопировать/вставить ссылку "
+"на свой файл в Интернете."
+>>>>>>> upstream/18.0
 =======
 "Вы можете загрузить файл с вашего компьютера или скопировать/вставить ссылку "
 "на свой файл в Интернете."

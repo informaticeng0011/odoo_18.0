@@ -100,6 +100,10 @@ Base module containing core functionalities required by other Nilvera modules.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'uninstall_hook': 'uninstall_hook',
+>>>>>>> upstream/18.0
 =======
     'uninstall_hook': 'uninstall_hook',
 >>>>>>> upstream/18.0

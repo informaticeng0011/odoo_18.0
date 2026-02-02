@@ -198,7 +198,11 @@ from functools import partial
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.http import request
+=======
+from odoo.http import request, route
+>>>>>>> upstream/18.0
 =======
 from odoo.http import request, route
 >>>>>>> upstream/18.0
@@ -990,7 +994,10 @@ class WebsiteSaleLoyaltyDelivery(Delivery):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1587,6 +1594,9 @@ class WebsiteSaleLoyaltyDelivery(Delivery):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2182,7 +2192,11 @@ class WebsiteSaleLoyaltyDelivery(Delivery):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             shipping_discount = sum(free_shipping_lines.mapped('price_subtotal'))
+=======
+            shipping_discount = sum(free_shipping_lines.mapped('price_total'))
+>>>>>>> upstream/18.0
 =======
             shipping_discount = sum(free_shipping_lines.mapped('price_total'))
 >>>>>>> upstream/18.0

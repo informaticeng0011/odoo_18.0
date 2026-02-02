@@ -56,7 +56,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                domain="[('partner_id', '=', partner_id), ('state', 'in', ['purchase'])]"
+=======
+                               domain="['|', ('partner_id', '=', partner_id), ('partner_id.commercial_partner_id', '=', partner_id), ('state', 'in', ['purchase'])]"
+>>>>>>> upstream/18.0
 =======
                                domain="['|', ('partner_id', '=', partner_id), ('partner_id.commercial_partner_id', '=', partner_id), ('state', 'in', ['purchase'])]"
 >>>>>>> upstream/18.0

@@ -193,10 +193,13 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if move.company_id.country_code == 'HR' and move.is_purchase_document() and move.l10n_hr_business_document_status == '1':
                 raise UserError(self.env._("This vendor bill is already rejected according to the Tax Authority."))
         return super()._post(soft)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -254,6 +257,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -326,6 +332,10 @@ class AccountMove(models.Model):
     def l10n_hr_edi_mer_action_report_paid(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        batch = len(self) != 1
+>>>>>>> upstream/18.0
 =======
         batch = len(self) != 1
 >>>>>>> upstream/18.0
@@ -349,6 +359,7 @@ class AccountMove(models.Model):
                 except MojEracunServiceError:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     _logger.error("Failed to report payments document: %s", move.l10n_hr_mer_document_eid)
                     continue
                 move.l10n_hr_edi_addendum_id.payment_reported_amount += amount_to_report
@@ -363,6 +374,8 @@ class AccountMove(models.Model):
                 )
                 attachment.write({'res_model': 'account.move', 'res_id': move.id})
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                     if batch:
@@ -385,6 +398,9 @@ class AccountMove(models.Model):
                 else:
                     attachment = False
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -398,7 +414,11 @@ class AccountMove(models.Model):
                     ),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     attachment_ids=attachment.ids,
+=======
+                    attachment_ids=attachment.ids if attachment else False,
+>>>>>>> upstream/18.0
 =======
                     attachment_ids=attachment.ids if attachment else False,
 >>>>>>> upstream/18.0

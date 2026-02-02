@@ -210,6 +210,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    triggerHotkey,
+>>>>>>> upstream/18.0
 =======
     triggerHotkey,
 >>>>>>> upstream/18.0
@@ -1071,7 +1075,10 @@ test("Thread name unchanged when inviting new users", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1706,6 +1713,9 @@ test("Can set a custom name to livechat conversation", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

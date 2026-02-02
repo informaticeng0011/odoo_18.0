@@ -13,7 +13,11 @@ class SaleOrder(models.Model):
         selection=[
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ("1", "ECpay e-invoice carrier"),
+=======
+            ("1", "Member Account"),
+>>>>>>> upstream/18.0
 =======
             ("1", "Member Account"),
 >>>>>>> upstream/18.0

@@ -54,8 +54,11 @@ class SaleLoyaltyRewardWizard(models.TransientModel):
         self.order_id._update_programs_and_rewards()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return True
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         self._unlink_unused_coupon_ids()
@@ -74,6 +77,9 @@ class SaleLoyaltyRewardWizard(models.TransientModel):
             )
         ).coupon_id.sudo().unlink()
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

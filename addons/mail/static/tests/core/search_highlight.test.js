@@ -126,7 +126,11 @@ test("Search highlight", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test("Display highligthed search in chatter", async () => {
+=======
+test("Display highlighted search in chatter", async () => {
+>>>>>>> upstream/18.0
 =======
 test("Display highlighted search in chatter", async () => {
 >>>>>>> upstream/18.0
@@ -187,7 +191,11 @@ test("Display highlighted search in chatter", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test("Display multiple highligthed search in chatter", async () => {
+=======
+test("Display multiple highlighted search in chatter", async () => {
+>>>>>>> upstream/18.0
 =======
 test("Display multiple highlighted search in chatter", async () => {
 >>>>>>> upstream/18.0
@@ -250,7 +258,11 @@ test("Display multiple highlighted search in chatter", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test("Display highligthed search in Discuss", async () => {
+=======
+test("Display highlighted search in Discuss", async () => {
+>>>>>>> upstream/18.0
 =======
 test("Display highlighted search in Discuss", async () => {
 >>>>>>> upstream/18.0
@@ -313,7 +325,11 @@ test("Display highlighted search in Discuss", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test("Display multiple highligthed search in Discuss", async () => {
+=======
+test("Display multiple highlighted search in Discuss", async () => {
+>>>>>>> upstream/18.0
 =======
 test("Display multiple highlighted search in Discuss", async () => {
 >>>>>>> upstream/18.0
@@ -378,7 +394,11 @@ test("Display multiple highlighted search in Discuss", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test("Display highligthed with escaped character must ignore them", async () => {
+=======
+test("Display highlighted with escaped character must ignore them", async () => {
+>>>>>>> upstream/18.0
 =======
 test("Display highlighted with escaped character must ignore them", async () => {
 >>>>>>> upstream/18.0

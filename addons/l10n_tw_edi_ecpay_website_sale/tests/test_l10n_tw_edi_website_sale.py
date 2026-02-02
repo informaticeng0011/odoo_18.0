@@ -63,7 +63,10 @@ class TestUi(HttpCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_checkout_b2c_mobile_barcode(self):
@@ -77,6 +80,9 @@ class TestUi(HttpCase):
         }])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -111,7 +117,10 @@ class TestUi(HttpCase):
             raise UserError('Unexpected endpoint called during a test: %s with params %s.' % (endpoint, params))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -124,6 +133,9 @@ class TestUi(HttpCase):
         else:
             raise UserError('Unexpected endpoint called during a test: %s with params %s.' % (endpoint, params))
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -141,6 +141,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+/* global posmodel */
+>>>>>>> upstream/18.0
 =======
 /* global posmodel */
 >>>>>>> upstream/18.0
@@ -703,6 +707,7 @@ import * as Numpad from "@point_of_sale/../tests/tours/utils/numpad_util";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import * as ProductConfigurator from "@point_of_sale/../tests/tours/utils/product_configurator_util";
 >>>>>>> upstream/18.0
@@ -1112,6 +1117,11 @@ import * as ProductConfigurator from "@point_of_sale/../tests/tours/utils/produc
 import { registry } from "@web/core/registry";
 import { run, inLeftSide } from "@point_of_sale/../tests/tours/utils/common";
 >>>>>>> upstream/18.0
+=======
+import * as ProductConfigurator from "@point_of_sale/../tests/tours/utils/product_configurator_util";
+import { registry } from "@web/core/registry";
+import { run, inLeftSide } from "@point_of_sale/../tests/tours/utils/common";
+>>>>>>> upstream/18.0
 
 registry.category("web_tour.tours").add("ReceiptScreenTour", {
     steps: () =>
@@ -1411,8 +1421,11 @@ registry.category("web_tour.tours").add("OrderPaidInCash", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             Chrome.clickBtn("Backend"),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1899,6 +1912,9 @@ registry.category("web_tour.tours").add("OrderPaidInCash", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2378,7 +2394,10 @@ registry.category("web_tour.tours").add("ReceiptTrackingMethodTour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2827,6 +2846,7 @@ registry.category("web_tour.tours").add("test_auto_validate_force_done", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2863,6 +2883,8 @@ registry.category("web_tour.tours").add("test_auto_validate_force_done", {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3255,6 +3277,7 @@ registry.category("web_tour.tours").add("test_free_text_custom_attribute_on_rece
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3473,6 +3496,8 @@ registry.category("web_tour.tours").add("test_free_text_custom_attribute_on_rece
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3607,6 +3632,9 @@ registry.category("web_tour.tours").add("test_receipt_screen_edit_payment_lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
