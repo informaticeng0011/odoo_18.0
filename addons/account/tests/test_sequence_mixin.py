@@ -241,7 +241,11 @@ import psycopg2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from unittest.mock import patch
+=======
+from unittest.mock import patch, Mock
+>>>>>>> upstream/18.0
 =======
 from unittest.mock import patch, Mock
 >>>>>>> upstream/18.0
@@ -1904,7 +1908,10 @@ class TestSequenceMixin(TestSequenceMixinCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2606,6 +2613,9 @@ class TestSequenceMixin(TestSequenceMixinCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

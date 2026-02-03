@@ -230,7 +230,10 @@ from odoo.addons.base.models.res_partner import _tz_get
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.osv import expression
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -916,7 +919,11 @@ class LeaveReportCalendar(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     name = fields.Char(string='Name', readonly=True, compute="_compute_name", search="_search_name")
+=======
+    name = fields.Char(string='Name', readonly=True, compute="_compute_name")
+>>>>>>> upstream/18.0
 =======
     name = fields.Char(string='Name', readonly=True, compute="_compute_name")
 >>>>>>> upstream/18.0
@@ -1909,6 +1916,7 @@ class LeaveReportCalendar(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _search_name(self, operator, value):
         query = self.env['hr.leave.report.calendar'].sudo()._search([('leave_id.duration_display', operator, value)])
         domain = ['|', ('employee_id.name', operator, value), ('id', 'in', query)]
@@ -1916,6 +1924,8 @@ class LeaveReportCalendar(models.Model):
             domain = expression.OR([domain , [('leave_id.holiday_status_id.name', operator, value)]])
         return domain
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

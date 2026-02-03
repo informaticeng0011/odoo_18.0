@@ -196,6 +196,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    MockServer,
+>>>>>>> upstream/18.0
 =======
     MockServer,
 >>>>>>> upstream/18.0
@@ -1335,7 +1339,10 @@ test("clicking on a cell triggers a doAction", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["list,false"] = `<list/>`;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1937,8 +1944,11 @@ test("row and column are highlighted when hovering a cell", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect.assertions(11);
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2505,9 +2515,14 @@ test("row and column are highlighted when hovering a cell", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     for (var i = 1; i <= 3; i++) {
         expect(`tbody tr:nth-of-type(${i}) td:nth-of-type(3)`).toHaveClass("o_cell_hover");
     }
+=======
+    expect(`tbody tr td:nth-of-type(3)`).toHaveCount(3);
+    expect(`tbody tr td:nth-of-type(3)`).toHaveClass("o_cell_hover");
+>>>>>>> upstream/18.0
 =======
     expect(`tbody tr td:nth-of-type(3)`).toHaveCount(3);
     expect(`tbody tr td:nth-of-type(3)`).toHaveClass("o_cell_hover");
@@ -3429,9 +3444,14 @@ test("row and column are highlighted when hovering a cell", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     for (i = 1; i <= 3; i++) {
         expect(`tbody tr:nth-of-type(${i}) td:nth-of-type(2)`).toHaveClass("o_cell_hover");
     }
+=======
+    expect(`tbody tr td:nth-of-type(2)`).toHaveCount(3);
+    expect(`tbody tr td:nth-of-type(2)`).toHaveClass("o_cell_hover");
+>>>>>>> upstream/18.0
 =======
     expect(`tbody tr td:nth-of-type(2)`).toHaveCount(3);
     expect(`tbody tr td:nth-of-type(2)`).toHaveClass("o_cell_hover");
@@ -4527,9 +4547,15 @@ test("pivot view grouped by date field", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const wrongFields = kwargs.fields.filter((field) => {
             return !(field.split(":")[0] in Partner._fields);
         });
+=======
+        const wrongFields = kwargs.fields.filter(
+            (field) => !(field.split(":")[0] in Partner._fields)
+        );
+>>>>>>> upstream/18.0
 =======
         const wrongFields = kwargs.fields.filter(
             (field) => !(field.split(":")[0] in Partner._fields)
@@ -6481,11 +6507,14 @@ test("Apply two groupby, and remove facet", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["pivot,false"] = `<pivot>
 		<field name="customer" type="row"/>
 	</pivot>`;
     Partner._views["search,false"] = `<search>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7036,6 +7065,9 @@ test("Apply two groupby, and remove facet", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7612,8 +7644,12 @@ test("Add a group by on the CP when a favorite already exists", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["pivot,false"] = `<pivot></pivot>`;
     Partner._views["search,false"] = `<search>
+=======
+    Partner._views["search"] = `<search>
+>>>>>>> upstream/18.0
 =======
     Partner._views["search"] = `<search>
 >>>>>>> upstream/18.0
@@ -8386,12 +8422,15 @@ test("Adding a Favorite at anytime should modify the row/column groupby", async 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["pivot,false"] = `<pivot>
 			<field name="customer" type="row"/>
 			<field name="date" interval="month" type="col" />
 		</pivot>`;
     Partner._views["search,false"] = `<search/>`;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8942,6 +8981,9 @@ test("Adding a Favorite at anytime should modify the row/column groupby", async 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9847,7 +9889,11 @@ test("clear table cells data after closeGroup", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._records.find((r) => r.product_id === 37).date = "2016-10-27";
+=======
+    MockServer.env["partner"].find((r) => r.product_id === 37).date = "2016-10-27";
+>>>>>>> upstream/18.0
 =======
     MockServer.env["partner"].find((r) => r.product_id === 37).date = "2016-10-27";
 >>>>>>> upstream/18.0
@@ -10595,6 +10641,7 @@ test("correctly group data after flip (1)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["pivot,false"] = `<pivot/>`;
     Partner._views[
         "search,false"
@@ -10602,6 +10649,8 @@ test("correctly group data after flip (1)", async () => {
     Partner._views["list,false"] = `<list><field name="foo"/></list>`;
     Partner._views["form,false"] = `<form><field name="foo"/></form>`;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11153,6 +11202,9 @@ test("correctly group data after flip (1)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11724,6 +11776,7 @@ test("correctly group data after flip (2)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["pivot,false"] = `<pivot/>`;
     Partner._views[
         "search,false"
@@ -11731,6 +11784,8 @@ test("correctly group data after flip (2)", async () => {
     Partner._views["list,false"] = `<list><field name="foo"/></list>`;
     Partner._views["form,false"] = `<form><field name="foo"/></form>`;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12282,6 +12337,9 @@ test("correctly group data after flip (2)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13195,7 +13253,11 @@ test("pivot view can be flipped", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     var rpcCount = 0;
+=======
+    let rpcCount = 0;
+>>>>>>> upstream/18.0
 =======
     let rpcCount = 0;
 >>>>>>> upstream/18.0
@@ -14501,6 +14563,7 @@ test("Navigation list view for a group and back with breadcrumbs", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["pivot,false"] = `<pivot>
 			<field name="customer" type="row"/>
 		</pivot>`;
@@ -14510,6 +14573,8 @@ test("Navigation list view for a group and back with breadcrumbs", async () => {
     Partner._views["list,false"] = `<list><field name="foo"/></list>`;
     Partner._views["form,false"] = `<form><field name="foo"/></form>`;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15064,6 +15129,9 @@ test("Navigation list view for a group and back with breadcrumbs", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16036,12 +16104,15 @@ test("empty pivot view with action helper", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["pivot,false"] = `<pivot>
 		<field name="product_id" type="measure"/>
 		<field name="date" interval="month" type="col"/>
 	</pivot>`;
     Partner._views["search,false"] = `<search>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16593,6 +16664,9 @@ test("empty pivot view with action helper", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17163,12 +17237,15 @@ test("empty pivot view with sample data", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["pivot,false"] = `<pivot sample="1">
 		<field name="product_id" type="measure"/>
 		<field name="date" interval="month" type="col"/>
 	</pivot>`;
     Partner._views["search,false"] = `<search>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17720,6 +17797,9 @@ test("empty pivot view with sample data", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18290,12 +18370,15 @@ test("non empty pivot view with sample data", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["pivot,false"] = `<pivot sample="1">
 		<field name="product_id" type="measure"/>
 		<field name="date" interval="month" type="col"/>
 	</pivot>`;
     Partner._views["search,false"] = `<search>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18847,6 +18930,9 @@ test("non empty pivot view with sample data", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19419,12 +19505,15 @@ test("pivot is reloaded when leaving and coming back", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["pivot,false"] = `<pivot>
 		<field name="customer" type="row"/>
 	</pivot>`;
     Partner._views["search,false"] = `<search/>`;
     Partner._views["list,false"] = `<list><field name="foo"/></list>`;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19975,6 +20064,9 @@ test("pivot is reloaded when leaving and coming back", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20563,12 +20655,15 @@ test("expanded groups are kept when leaving and coming back", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["pivot,false"] = `<pivot>
 		<field name="customer" type="row"/>
 	</pivot>`;
     Partner._views["search,false"] = `<search/>`;
     Partner._views["list,false"] = `<list><field name="foo"/></list>`;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21119,6 +21214,9 @@ test("expanded groups are kept when leaving and coming back", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21701,6 +21799,7 @@ test("sorted rows are kept when leaving and coming back", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["pivot,false"] = `<pivot>
 		<field name="foo" type="measure"/>
 		<field name="product_id" type="row"/>
@@ -21708,6 +21807,8 @@ test("sorted rows are kept when leaving and coming back", async () => {
     Partner._views["search,false"] = `<search/>`;
     Partner._views["list,false"] = `<list><field name="foo"/></list>`;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22259,6 +22360,9 @@ test("sorted rows are kept when leaving and coming back", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22841,6 +22945,7 @@ test("correctly handle concurrent reloads", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["pivot,false"] = `<pivot>
 		<field name="foo" type="measure"/>
 		<field name="product_id" type="row"/>
@@ -22848,6 +22953,8 @@ test("correctly handle concurrent reloads", async () => {
     Partner._views["search,false"] = `<search/>`;
     Partner._views["list,false"] = `<list><field name="foo"/></list>`;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23399,6 +23506,9 @@ test("correctly handle concurrent reloads", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24561,6 +24671,7 @@ test("group by properties in pivot view", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("/web/dataset/call_kw/partner/web_search_read", async (request) => {
         const { params } = await request.json();
         if (params.kwargs.specification?.properties_definition) {
@@ -24571,6 +24682,8 @@ test("group by properties in pivot view", async () => {
         const { params } = await request.json();
         if (params.kwargs.groupby?.includes("properties.my_char")) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25079,6 +25192,9 @@ test("group by properties in pivot view", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25720,7 +25836,10 @@ test("missing deleted property field definition is created", async function (ass
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25982,6 +26101,9 @@ test("do not count distinct a measure field if we are grouping by it", async () 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

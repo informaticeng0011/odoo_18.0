@@ -15,7 +15,11 @@ import { useSpreadsheetPrint } from "@spreadsheet/hooks";
 import { Registry } from "@odoo/o-spreadsheet";
 import { router } from "@web/core/browser/router";
 
+<<<<<<< HEAD
 import { Component, onWillStart, useState, useEffect } from "@odoo/owl";
+=======
+import { Component, onWillStart, useState, useEffect, useExternalListener } from "@odoo/owl";
+>>>>>>> upstream/18.0
 
 export const dashboardActionRegistry = new Registry();
 
@@ -72,6 +76,11 @@ export class SpreadsheetDashboardAction extends Component {
                 return [dashboard?.model, dashboard?.status];
             }
         );
+<<<<<<< HEAD
+=======
+        useExternalListener(window, "afterprint", this.logExport.bind(this));
+
+>>>>>>> upstream/18.0
         useSetupAction({
             getLocalState: () => {
                 return {
@@ -169,6 +178,17 @@ export class SpreadsheetDashboardAction extends Component {
             group.dashboards.some((d) => d.id === this.activeDashboardId)
         )?.name;
     }
+<<<<<<< HEAD
+=======
+
+    logExport() {
+        const dashboard = this.state.activeDashboard;
+        if (!dashboard || dashboard.status !== Status.Loaded) {
+            return;
+        }
+        this.model.dispatch("LOG_DATASOURCE_EXPORT", { action: "print" });
+    }
+>>>>>>> upstream/18.0
 }
 
 registry

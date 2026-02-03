@@ -137,6 +137,10 @@ from odoo import api, models
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.osv import expression
+>>>>>>> upstream/18.0
 =======
 from odoo.osv import expression
 >>>>>>> upstream/18.0
@@ -698,6 +702,7 @@ class KpiProvider(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         AccountMove = self.env['account.move']
         grouped_draft_moves = AccountMove._read_group([('state', '=', 'draft')], ['move_type'], ['move_type:count'])
 
@@ -721,6 +726,8 @@ class KpiProvider(models.AbstractModel):
             '&', ('state', '=', 'posted'), ('checked', '=', False),
         ], ['journal_id'], ['journal_id:count'])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1141,6 +1148,9 @@ class KpiProvider(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1573,6 +1583,9 @@ class KpiProvider(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

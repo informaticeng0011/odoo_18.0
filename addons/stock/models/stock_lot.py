@@ -78,6 +78,10 @@ from re import findall as regex_findall, split as regex_split
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from collections import defaultdict
+>>>>>>> upstream/18.0
 =======
 from collections import defaultdict
 >>>>>>> upstream/18.0
@@ -515,6 +519,7 @@ class StockLot(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         delivery_ids_by_lot = self._find_delivery_ids_by_lot()
 =======
         delivery_ids_by_lot = self._find_delivery_ids_by_lot_iterative()
@@ -539,6 +544,11 @@ class StockLot(models.Model):
 >>>>>>> upstream/18.0
         for lot in self:
             lot.delivery_ids = delivery_ids_by_lot[lot.id]
+=======
+        delivery_ids_by_lot = self._find_delivery_ids_by_lot_iterative()
+        for lot in self:
+            lot.delivery_ids = delivery_ids_by_lot.get(lot.id, [])
+>>>>>>> upstream/18.0
 =======
         delivery_ids_by_lot = self._find_delivery_ids_by_lot_iterative()
         for lot in self:
@@ -952,6 +962,7 @@ class StockLot(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         delivery_ids_by_lot = serial_products._find_delivery_ids_by_lot()
 =======
         delivery_ids_by_lot = serial_products._find_delivery_ids_by_lot_iterative()
@@ -978,6 +989,8 @@ class StockLot(models.Model):
         for lot in serial_products:
             if lot.product_id.tracking == 'serial' and len(delivery_ids_by_lot[lot.id]) > 0:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1180,6 +1193,9 @@ class StockLot(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1550,7 +1566,10 @@ class StockLot(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1836,6 +1855,9 @@ class StockLot(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

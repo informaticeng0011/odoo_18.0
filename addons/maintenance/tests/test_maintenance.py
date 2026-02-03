@@ -120,6 +120,10 @@ from odoo.tests.common import tagged, TransactionCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo import fields
+>>>>>>> upstream/18.0
 =======
 from odoo import fields
 >>>>>>> upstream/18.0
@@ -724,7 +728,10 @@ class TestEquipmentPostInstall(TestEquipmentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1100,6 +1107,9 @@ class TestEquipmentPostInstall(TestEquipmentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

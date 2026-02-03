@@ -71,7 +71,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should insert a <br> at the beggining of a paragraph", async () => {
+=======
+        test("should insert a <br> at the beggining of a paragraph (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should insert a <br> at the beggining of a paragraph (1)", async () => {
 >>>>>>> upstream/18.0
@@ -257,6 +261,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should insert a <br> at the beggining of a paragraph (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -535,7 +545,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should insert a <br> within text", async () => {
+=======
+        test("should insert a <br> within text (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should insert a <br> within text (1)", async () => {
 >>>>>>> upstream/18.0
@@ -721,6 +735,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should insert a <br> within text (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -998,6 +1018,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should insert a <br> within text (3)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -1359,7 +1385,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should insert a <br> before a format node", async () => {
+=======
+        test("should insert a <br> before a format node (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should insert a <br> before a format node (1)", async () => {
 >>>>>>> upstream/18.0
@@ -1545,6 +1575,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should insert a <br> before a format node (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -1822,6 +1858,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should insert a <br> before a format node (3)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -2099,6 +2141,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should insert a <br> before a format node (4)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -2378,7 +2426,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should insert a <br> after a format node", async () => {
+=======
+        test("should insert a <br> after a format node (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should insert a <br> after a format node (1)", async () => {
 >>>>>>> upstream/18.0
@@ -2565,6 +2617,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should insert a <br> after a format node (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -2842,6 +2900,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should insert a <br> after a format node (3)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -3122,6 +3186,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should insert a <br> after a format node (4)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -3401,7 +3471,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should insert a <br> at the beginning of a format node", async () => {
+=======
+        test("should insert a <br> at the beginning of a format node (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should insert a <br> at the beginning of a format node (1)", async () => {
 >>>>>>> upstream/18.0
@@ -3588,6 +3662,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should insert a <br> at the beginning of a format node (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -3864,6 +3944,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should insert a <br> at the beginning of a format node (3)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -4142,7 +4228,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should insert a <br> within a format node", async () => {
+=======
+        test("should insert a <br> within a format node (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should insert a <br> within a format node (1)", async () => {
 >>>>>>> upstream/18.0
@@ -4328,6 +4418,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should insert a <br> within a format node (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -4605,6 +4701,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should insert a <br> within a format node (3)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -4884,7 +4986,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should insert a line break (2 <br>) at the end of a format node", async () => {
+=======
+        test("should insert a line break (2 <br>) at the end of a format node (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should insert a line break (2 <br>) at the end of a format node (1)", async () => {
 >>>>>>> upstream/18.0
@@ -5073,6 +5179,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should insert a line break (2 <br>) at the end of a format node (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -5351,6 +5463,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should insert a line break (2 <br>) at the end of a format node (3)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -5654,7 +5772,11 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should delete the first half of a paragraph, then insert a <br>", async () => {
+=======
+    test("should delete the first half of a paragraph, then insert a <br> (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should delete the first half of a paragraph, then insert a <br> (1)", async () => {
 >>>>>>> upstream/18.0
@@ -5841,6 +5963,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should delete the first half of a paragraph, then insert a <br> (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -6119,7 +6247,11 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should delete part of a paragraph, then insert a <br>", async () => {
+=======
+    test("should delete part of a paragraph, then insert a <br> (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should delete part of a paragraph, then insert a <br> (1)", async () => {
 >>>>>>> upstream/18.0
@@ -6306,6 +6438,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should delete part of a paragraph, then insert a <br> (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -6584,7 +6722,11 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should delete the last half of a paragraph, then insert a line break (2 <br>)", async () => {
+=======
+    test("should delete the last half of a paragraph, then insert a line break (2 <br>) (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should delete the last half of a paragraph, then insert a line break (2 <br>) (1)", async () => {
 >>>>>>> upstream/18.0
@@ -6773,6 +6915,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should delete the last half of a paragraph, then insert a line break (2 <br>) (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -7053,7 +7201,11 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should delete all contents of a paragraph, then insert a line break", async () => {
+=======
+    test("should delete all contents of a paragraph, then insert a line break (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should delete all contents of a paragraph, then insert a line break (1)", async () => {
 >>>>>>> upstream/18.0
@@ -7240,6 +7392,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should delete all contents of a paragraph, then insert a line break (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 

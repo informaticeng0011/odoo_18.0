@@ -138,6 +138,10 @@ class PosController(PortalAccount):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        use_lna = bool(pos_session.env["ir.config_parameter"].get_param("point_of_sale.use_lna"))
+>>>>>>> upstream/18.0
 =======
         use_lna = bool(pos_session.env["ir.config_parameter"].get_param("point_of_sale.use_lna"))
 >>>>>>> upstream/18.0
@@ -450,6 +454,10 @@ class PosController(PortalAccount):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'use_lna': use_lna,
+>>>>>>> upstream/18.0
 =======
             'use_lna': use_lna,
 >>>>>>> upstream/18.0
@@ -756,6 +764,12 @@ class PosController(PortalAccount):
         if pos_order.account_move and pos_order.account_move.is_sale_document():
             return request.redirect('/my/invoices/%s?access_token=%s' % (pos_order.account_move.id, pos_order.account_move._portal_ensure_token()))
 
+<<<<<<< HEAD
+=======
+        if not request.env['res.company']._with_locked_records(pos_order, allow_raising=False):
+            return
+
+>>>>>>> upstream/18.0
         # Get the optional extra fields that could be required for a localisation.
         pos_order_country = pos_order.company_id.account_fiscal_country_id
         additional_partner_fields = request.env['res.partner'].get_partner_localisation_fields_required_to_invoice(pos_order_country)
@@ -990,7 +1004,11 @@ class PosController(PortalAccount):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if request.env.user._is_public() and not pos_order.partner_id.id:
+=======
+        if kwargs:
+>>>>>>> upstream/18.0
 =======
         if kwargs:
 >>>>>>> upstream/18.0
@@ -1627,6 +1645,10 @@ class PosController(PortalAccount):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if request.env.user._is_public() and not pos_order.partner_id.id:
+>>>>>>> upstream/18.0
 =======
         if request.env.user._is_public() and not pos_order.partner_id.id:
 >>>>>>> upstream/18.0

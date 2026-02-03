@@ -44,4 +44,19 @@ export class ChartDataSource extends OdooViewsDataSource {
         }
         return this._model.data;
     }
+<<<<<<< HEAD
+=======
+
+    get source() {
+        this._assertMetadataIsLoaded();
+        const data = this._metaData;
+        return {
+            resModel: data.resModel,
+            type: "graph",
+            fields: [data.measure],
+            groupby: data.groupBy,
+            domain: this._searchParams.domain,
+        };
+    }
+>>>>>>> upstream/18.0
 }

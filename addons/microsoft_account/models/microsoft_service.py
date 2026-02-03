@@ -101,7 +101,11 @@ class MicrosoftService(models.AbstractModel):
             'refresh_token': rtoken,
         }
         dummy, response, dummy = self._do_request(
+<<<<<<< HEAD
             DEFAULT_MICROSOFT_TOKEN_ENDPOINT,
+=======
+            self._get_token_endpoint(),
+>>>>>>> upstream/18.0
             params=data,
             headers=headers,
             method='POST',

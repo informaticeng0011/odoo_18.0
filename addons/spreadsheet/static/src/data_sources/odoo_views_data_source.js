@@ -1,6 +1,10 @@
 /** @odoo-module */
 // @ts-check
 
+<<<<<<< HEAD
+=======
+import { LoadingDataError } from "@spreadsheet/o_spreadsheet/errors";
+>>>>>>> upstream/18.0
 import { LOADING_ERROR, LoadableDataSource, getFields } from "./data_source";
 import { Domain } from "@web/core/domain";
 import { user } from "@web/core/user";
@@ -67,6 +71,7 @@ export class OdooViewsDataSource extends LoadableDataSource {
      */
     _assertMetaDataLoaded() {
         if (!this._isModelValid) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -396,6 +401,9 @@ export class OdooViewsDataSource extends LoadableDataSource {
 =======
             throw this._loadError;
 >>>>>>> upstream/18.0
+=======
+            throw this._loadError;
+>>>>>>> upstream/18.0
         }
         if (!this._metaDataLoaded) {
             this.loadMetadata();
@@ -431,6 +439,16 @@ export class OdooViewsDataSource extends LoadableDataSource {
         return this._metaData.fields !== undefined;
     }
 
+<<<<<<< HEAD
+=======
+    _assertMetadataIsLoaded() {
+        if (this._metaData.fields === undefined) {
+            this.loadMetadata();
+            throw new LoadingDataError();
+        }
+    }
+
+>>>>>>> upstream/18.0
     /**
      * Get the computed domain of this source
      * @returns {Array}
@@ -477,4 +495,11 @@ export class OdooViewsDataSource extends LoadableDataSource {
         const result = await this.serverData.fetch("ir.model", "display_name_for", [[model]]);
         return (result[0] && result[0].display_name) || "";
     }
+<<<<<<< HEAD
+=======
+
+    get source() {
+        return {};
+    }
+>>>>>>> upstream/18.0
 }

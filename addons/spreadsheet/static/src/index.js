@@ -29,6 +29,10 @@ import {
 } from "@spreadsheet/chart/index"; // Odoochart depends on filter for its getters
 import { PivotCoreGlobalFilterPlugin } from "./pivot/plugins/pivot_core_global_filter_plugin";
 import { PivotOdooUIPlugin } from "./pivot/plugins/pivot_odoo_ui_plugin";
+<<<<<<< HEAD
+=======
+import { LoggingUIPlugin } from "@spreadsheet/logging/logging_ui_plugin";
+>>>>>>> upstream/18.0
 
 corePluginRegistry.add("OdooGlobalFiltersCorePlugin", GlobalFiltersCorePlugin);
 corePluginRegistry.add("PivotOdooCorePlugin", PivotOdooCorePlugin);
@@ -42,3 +46,7 @@ coreViewsPluginRegistry.add("OdooPivotGlobalFilterUIPlugin", PivotUIGlobalFilter
 coreViewsPluginRegistry.add("OdooListUIPlugin", ListUIPlugin);
 coreViewsPluginRegistry.add("odooChartUIPlugin", OdooChartUIPlugin);
 coreViewsPluginRegistry.add("odooPivotUIPlugin", PivotOdooUIPlugin);
+<<<<<<< HEAD
+=======
+coreViewsPluginRegistry.add("OdooLoggingUIPlugin", LoggingUIPlugin);
+>>>>>>> upstream/18.0

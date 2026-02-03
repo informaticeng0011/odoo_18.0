@@ -171,7 +171,11 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (country_code == 'TR' or is_delivery_partner) and not record.zip:
+=======
+            if country_code == 'TR' and not record.zip:
+>>>>>>> upstream/18.0
 =======
             if country_code == 'TR' and not record.zip:
 >>>>>>> upstream/18.0
@@ -760,10 +764,13 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 error_messages[f"invalid_{record.name.replace(' ', '_')}"] = {
                     'message': _("%(name)s's %(message)s.", name=record.name, message=', '.join(msg)),
                     'action_text': _("View %s", record.name),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1198,6 +1205,9 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

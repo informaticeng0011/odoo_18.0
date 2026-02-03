@@ -103,7 +103,10 @@ class TestAccrualAllocationsAttendance(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -198,6 +201,9 @@ class TestAccrualAllocationsAttendance(TestHrHolidaysCommon):
             self.assertEqual(allocation.number_of_days, 1.0)  # 8 / 8 = 1.0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

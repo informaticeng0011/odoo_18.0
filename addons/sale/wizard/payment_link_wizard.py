@@ -36,6 +36,7 @@ class PaymentLinkWizard(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -65,6 +66,8 @@ class PaymentLinkWizard(models.TransientModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def _compute_warning_message(self):
         super()._compute_warning_message()
         for wizard in self.filtered(lambda w: w.res_model == 'sale.order'):
@@ -74,6 +77,9 @@ class PaymentLinkWizard(models.TransientModel):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

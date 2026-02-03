@@ -38,11 +38,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         invisible="not l10n_hr_mer_document_eid or (amount_total - amount_residual) == l10n_hr_payment_reported_amount"
                     />
                 </xpath>
                 <xpath expr="//header" position="after">
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -80,6 +83,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -177,7 +183,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 invisible="not l10n_hr_edi_addendum_id">
+=======
+                                invisible="not l10n_hr_edi_addendum_id or move_type not in ('out_invoice', 'out_refund')">
+>>>>>>> upstream/18.0
 =======
                                 invisible="not l10n_hr_edi_addendum_id or move_type not in ('out_invoice', 'out_refund')">
 >>>>>>> upstream/18.0
