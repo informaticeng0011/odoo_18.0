@@ -6,7 +6,11 @@ from odoo import fields
 from odoo.addons.microsoft_calendar.utils.microsoft_calendar import MicrosoftCalendarService
 from odoo.addons.microsoft_calendar.utils.microsoft_event import MicrosoftEvent
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.microsoft_account.models.microsoft_service import MicrosoftService
+=======
+from odoo.addons.microsoft_account.models.microsoft_service import MicrosoftService, DEFAULT_MICROSOFT_TOKEN_ENDPOINT
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.microsoft_account.models.microsoft_service import MicrosoftService, DEFAULT_MICROSOFT_TOKEN_ENDPOINT
 >>>>>>> upstream/18.0
@@ -469,7 +473,10 @@ class TestMicrosoftService(TransactionCase):
             self.call_without_sync_token
         ])
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     @patch.object(MicrosoftService, "_do_request")
     def test_refresh_microsoft_calendar_token_uses_correct_endpoint(self, mock_do_request):
@@ -507,4 +514,7 @@ class TestMicrosoftService(TransactionCase):
         first_call = call(DEFAULT_MICROSOFT_TOKEN_ENDPOINT, **kwargs)
         second_call = call(custom_token_endpoint, **kwargs)
         mock_do_request.assert_has_calls([first_call, second_call])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

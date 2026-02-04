@@ -224,6 +224,10 @@ from odoo.addons.mail.tools.jwt import InvalidVapidError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.mail.tools.web_push import ENCRYPTION_BLOCK_OVERHEAD, ENCRYPTION_HEADER_SIZE
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.mail.tools.web_push import ENCRYPTION_BLOCK_OVERHEAD, ENCRYPTION_HEADER_SIZE
 >>>>>>> upstream/18.0
@@ -1496,6 +1500,7 @@ class TestWebPushNotification(SMSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual('0', post.call_args.kwargs['headers']['TTL'])
 =======
         self.assertEqual('60', post.call_args.kwargs['headers']['TTL'])
@@ -2044,6 +2049,8 @@ class TestWebPushNotification(SMSCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         self.assertEqual('60', post.call_args.kwargs['headers']['TTL'])
         self.assertIn('data', post.call_args.kwargs)
         self.assertIn('timeout', post.call_args.kwargs)
@@ -2132,6 +2139,9 @@ class TestWebPushNotification(SMSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2419,7 +2429,10 @@ class TestWebPushNotification(SMSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3201,6 +3214,9 @@ class TestWebPushNotification(SMSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

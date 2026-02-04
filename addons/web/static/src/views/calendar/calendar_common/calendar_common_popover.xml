@@ -241,7 +241,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <span class="fw-bold me-2" t-if="!fieldInfo.options.noLabel">
+=======
+                            <span class="fw-bold me-2" t-if="!fieldInfo.options.noLabel and fieldInfo.type !== 'properties'">
+>>>>>>> upstream/18.0
 =======
                             <span class="fw-bold me-2" t-if="!fieldInfo.options.noLabel and fieldInfo.type !== 'properties'">
 >>>>>>> upstream/18.0
@@ -829,7 +833,11 @@
                                 </t>
                             </span>
                             <div class="flex-grow-1 o_cw_popover_field overflow-hidden">
+<<<<<<< HEAD
                                 <Field name="fieldInfo.name" record="slot.record" fieldInfo="fieldInfo" type="fieldInfo.widget" />
+=======
+                                <Field name="fieldInfo.name" record="slot.record" class="fieldInfo.attrs.class" fieldInfo="fieldInfo" type="fieldInfo.widget" />
+>>>>>>> upstream/18.0
                             </div>
                         </li>
                     </t>

@@ -44,6 +44,10 @@ export class ResUsers extends webModels.ResUsers {
                             "isAdmin",
                             "name",
                             "notification_type",
+<<<<<<< HEAD
+=======
+                            "signature",
+>>>>>>> upstream/18.0
                             "user",
                         ],
                     })

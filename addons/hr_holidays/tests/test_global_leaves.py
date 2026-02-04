@@ -132,7 +132,10 @@ class TestGlobalLeaves(TestHrHolidaysCommon):
         # The user in Asia/Kolkata timezone (determined via the browser) see 8:00 because he is in UTC +05:30
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_global_leave_working_schedule_without_company(self):
         """
         Check public holidays for a company apply to employees of this company
@@ -166,6 +169,9 @@ class TestGlobalLeaves(TestHrHolidaysCommon):
 
         self.assertEqual(leave.number_of_days, 2, "Public holiday duration should not be included")
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_global_leave_number_of_days_with_new(self):
         """
@@ -378,7 +384,11 @@ class TestGlobalLeaves(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         })
+=======
+        }).action_validate()
+>>>>>>> upstream/18.0
 =======
         }).action_validate()
 >>>>>>> upstream/18.0
@@ -981,7 +991,10 @@ class TestGlobalLeaves(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1448,6 +1461,7 @@ class TestGlobalLeaves(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1502,6 +1516,8 @@ class TestGlobalLeaves(TestHrHolidaysCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1734,6 +1750,9 @@ class TestGlobalLeaves(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

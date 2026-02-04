@@ -71,7 +71,12 @@ export class MessageInReply extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     static props = ["message", "onClick?"];
+=======
+    static props = ["class?", "message", "onClick?"];
+    static defaultProps = { class: "" };
+>>>>>>> upstream/18.0
 =======
     static props = ["class?", "message", "onClick?"];
     static defaultProps = { class: "" };

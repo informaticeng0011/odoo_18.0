@@ -167,6 +167,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                <field name="allowed_user_ids" invisible="1"/>
+>>>>>>> upstream/18.0
 =======
                 <field name="allowed_user_ids" invisible="1"/>
 >>>>>>> upstream/18.0
@@ -899,8 +903,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <field name="user_id" widget="many2one_avatar_user"/>
                 <field name="interviewer_ids" widget="many2many_tags_avatar" options="{'no_create': True, 'no_create_edit': True}" />
+=======
+                <field name="allowed_user_ids" invisible="1"/>
+                <field name="user_id" widget="many2one_avatar_user"/>
+                <field name="interviewer_ids" widget="many2many_tags_avatar" options="{'no_create': True, 'no_create_edit': True}"/>
+>>>>>>> upstream/18.0
 =======
                 <field name="allowed_user_ids" invisible="1"/>
                 <field name="user_id" widget="many2one_avatar_user"/>
@@ -1884,6 +1894,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                <field name="allowed_user_ids" invisible="1"/>
+>>>>>>> upstream/18.0
 =======
                 <field name="allowed_user_ids" invisible="1"/>
 >>>>>>> upstream/18.0

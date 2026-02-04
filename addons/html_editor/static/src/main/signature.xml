@@ -1,5 +1,13 @@
 <templates>
     <t t-name="html_editor.Signature">
+<<<<<<< HEAD
         <div t-att-class="signatureClass" t-out="signature"/>
+=======
+        <div
+            t-att-class="signatureClass"
+            t-att-data-o-mail-quote="dataMailQuote or '1'"
+            t-out="signature"
+        />
+>>>>>>> upstream/18.0
     </t>
 </templates>

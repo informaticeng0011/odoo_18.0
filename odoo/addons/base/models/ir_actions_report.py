@@ -115,6 +115,7 @@ from urllib.parse import urlparse
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import api, fields, models, tools, SUPERUSER_ID, _
 =======
 from odoo import api, fields, models, modules, tools, _
@@ -204,6 +205,10 @@ from odoo import api, fields, models, modules, tools, _
 from odoo import api, fields, models, modules, tools, _
 >>>>>>> upstream/18.0
 from odoo.exceptions import UserError, AccessError, RedirectWarning
+=======
+from odoo import api, fields, models, modules, tools, _
+from odoo.exceptions import UserError, AccessError, RedirectWarning, ValidationError
+>>>>>>> upstream/18.0
 =======
 from odoo import api, fields, models, modules, tools, _
 from odoo.exceptions import UserError, AccessError, RedirectWarning, ValidationError
@@ -683,6 +688,10 @@ import re
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import requests
+>>>>>>> upstream/18.0
 =======
 import requests
 >>>>>>> upstream/18.0
@@ -1458,7 +1467,11 @@ class IrActionsReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if specific_paperformat_args and specific_paperformat_args.get('data-report-margin-top'):
+=======
+            if specific_paperformat_args and 'data-report-margin-top' in specific_paperformat_args:
+>>>>>>> upstream/18.0
 =======
             if specific_paperformat_args and 'data-report-margin-top' in specific_paperformat_args:
 >>>>>>> upstream/18.0
@@ -1721,7 +1734,11 @@ class IrActionsReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if specific_paperformat_args and specific_paperformat_args.get('data-report-header-spacing'):
+=======
+            if specific_paperformat_args and 'data-report-header-spacing' in specific_paperformat_args:
+>>>>>>> upstream/18.0
 =======
             if specific_paperformat_args and 'data-report-header-spacing' in specific_paperformat_args:
 >>>>>>> upstream/18.0
@@ -1972,7 +1989,11 @@ class IrActionsReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if specific_paperformat_args and specific_paperformat_args.get('data-report-margin-bottom'):
+=======
+            if specific_paperformat_args and 'data-report-margin-bottom' in specific_paperformat_args:
+>>>>>>> upstream/18.0
 =======
             if specific_paperformat_args and 'data-report-margin-bottom' in specific_paperformat_args:
 >>>>>>> upstream/18.0
@@ -2384,7 +2405,11 @@ class IrActionsReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (tools.config['test_enable'] or tools.config['test_file']) and not self.env.context.get('force_image_rendering'):
+=======
+        if modules.module.current_test:
+>>>>>>> upstream/18.0
 =======
         if modules.module.current_test:
 >>>>>>> upstream/18.0
@@ -3090,6 +3115,12 @@ class IrActionsReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if kwargs['width'] * kwargs['height'] > 1200000 or max(kwargs['width'], kwargs['height']) > 10000:
+            raise ValueError("Barcode too large")
+
+>>>>>>> upstream/18.0
 =======
         if kwargs['width'] * kwargs['height'] > 1200000 or max(kwargs['width'], kwargs['height']) > 10000:
             raise ValueError("Barcode too large")
@@ -3971,8 +4002,11 @@ class IrActionsReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         writer.write(result_stream)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4172,6 +4206,9 @@ class IrActionsReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4608,10 +4645,13 @@ class IrActionsReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
                     return collected_streams
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5049,6 +5089,9 @@ class IrActionsReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5709,6 +5752,7 @@ class IrActionsReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -6190,6 +6234,8 @@ class IrActionsReport(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
     @api.model
     def _prepare_local_attachments(self, attachments):
@@ -6280,6 +6326,9 @@ class IrActionsReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

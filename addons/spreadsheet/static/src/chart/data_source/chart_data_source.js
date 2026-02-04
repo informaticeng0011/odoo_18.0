@@ -45,7 +45,10 @@ export class ChartDataSource extends OdooViewsDataSource {
         return this._model.data;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     get source() {
         this._assertMetadataIsLoaded();
@@ -58,5 +61,8 @@ export class ChartDataSource extends OdooViewsDataSource {
             domain: this._searchParams.domain,
         };
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 }

@@ -17,6 +17,10 @@ const FAKE_RECORD = {
     isTimeHidden: false,
     rawRecord: {
         name: "Meeting",
+<<<<<<< HEAD
+=======
+        description: "<p>Test description</p>",
+>>>>>>> upstream/18.0
     },
 };
 
@@ -41,6 +45,10 @@ test(`mount a CalendarCommonPopover`, async () => {
     expect(`.popover-header`).toHaveText("Meeting");
     expect(`.list-group`).toHaveCount(2);
     expect(`.list-group.o_cw_popover_fields_secondary`).toHaveCount(1);
+<<<<<<< HEAD
+=======
+    expect(`.list-group.o_cw_popover_fields_secondary div[name="description"]`).toHaveClass("text-wrap");
+>>>>>>> upstream/18.0
     expect(`.card-footer .o_cw_popover_edit`).toHaveCount(1);
     expect(`.card-footer .o_cw_popover_delete`).toHaveCount(1);
 });

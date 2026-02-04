@@ -1,6 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import http
 from odoo.http import request
+=======
+from odoo import http, _
+from odoo.http import request
+from odoo.exceptions import UserError
+>>>>>>> upstream/18.0
 =======
 from odoo import http, _
 from odoo.http import request
@@ -15,6 +21,12 @@ class DashboardShareRoute(http.Controller):
             raise request.not_found()
         share._check_dashboard_access(token)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        download_url = ""
+        if request.env.user.has_group('base.group_allow_export'):
+            download_url = f"/dashboard/download/{share.id}/{token}"
+>>>>>>> upstream/18.0
 =======
         download_url = ""
         if request.env.user.has_group('base.group_allow_export'):
@@ -30,7 +42,11 @@ class DashboardShareRoute(http.Controller):
                 "props": {
                     "dataUrl": f"/dashboard/data/{share.id}/{token}",
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "downloadExcelUrl": f"/dashboard/download/{share.id}/{token}",
+=======
+                    "downloadExcelUrl": download_url,
+>>>>>>> upstream/18.0
 =======
                     "downloadExcelUrl": download_url,
 >>>>>>> upstream/18.0
@@ -41,17 +57,23 @@ class DashboardShareRoute(http.Controller):
 
     @http.route(["/dashboard/download/<int:share_id>/<token>"],
 <<<<<<< HEAD
+<<<<<<< HEAD
                 type='http', auth='public')
     def download(self, token=None, share_id=None):
         share = request.env["spreadsheet.dashboard.share"].sudo().browse(share_id)
         share._check_dashboard_access(token)
 =======
+=======
+>>>>>>> upstream/18.0
                 type='http', auth='user')
     def download(self, token=None, share_id=None):
         share = request.env["spreadsheet.dashboard.share"].sudo().browse(share_id)
         share._check_dashboard_access(token)
         if not request.env.user.has_group('base.group_allow_export'):
             raise UserError(_("You don't have the rights to export data. Please contact an Administrator."))
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         stream = request.env["ir.binary"]._get_stream_from(
             share, "excel_export", filename=share.name

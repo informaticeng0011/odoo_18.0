@@ -530,7 +530,11 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         journal_bank_cash = self.filtered(lambda j: j.type in ('bank', 'cash'))
+=======
+        journal_bank_cash = self.filtered(lambda j: j.type in ('bank', 'cash', 'credit'))
+>>>>>>> upstream/18.0
 =======
         journal_bank_cash = self.filtered(lambda j: j.type in ('bank', 'cash', 'credit'))
 >>>>>>> upstream/18.0
@@ -1278,6 +1282,7 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 default_methods = journal._default_inbound_payment_methods()
                 pay_method_line_ids_commands += [Command.create({
                     'name': pay_method.name,
@@ -1427,6 +1432,8 @@ class AccountJournal(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 existing_method_lines = journal.inbound_payment_method_line_ids
                 default_methods = journal._default_inbound_payment_methods()
                 for pay_method in default_methods:
@@ -1472,6 +1479,9 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1636,6 +1646,9 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1855,6 +1868,7 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 default_methods = journal._default_outbound_payment_methods()
                 pay_method_line_ids_commands += [Command.create({
                     'name': pay_method.name,
@@ -2004,6 +2018,8 @@ class AccountJournal(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 existing_method_lines = journal.outbound_payment_method_line_ids
                 default_methods = journal._default_outbound_payment_methods()
                 for pay_method in default_methods:
@@ -2049,6 +2065,9 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2213,6 +2232,9 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2774,7 +2796,11 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             domain.append(('alias_domain', '=', alias_domain_name))
+=======
+            domain.extend(['|', ('alias_domain', '=', alias_domain_name), ('alias_domain_id', '=', False)])
+>>>>>>> upstream/18.0
 =======
             domain.extend(['|', ('alias_domain', '=', alias_domain_name), ('alias_domain_id', '=', False)])
 >>>>>>> upstream/18.0
@@ -3409,7 +3435,11 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if journal.currency_id and journal.currency_id != journal.company_id.currency_id:
+=======
+            if journal.currency_id and journal.currency_id != journal.company_id.sudo().currency_id:
+>>>>>>> upstream/18.0
 =======
             if journal.currency_id and journal.currency_id != journal.company_id.sudo().currency_id:
 >>>>>>> upstream/18.0

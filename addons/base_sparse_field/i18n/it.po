@@ -32,6 +32,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -554,6 +555,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -590,6 +593,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -655,6 +661,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1212,6 +1219,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
@@ -1252,6 +1261,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1328,6 +1340,7 @@ msgstr "Booleano"
 #. odoo-python
 #: code:addons/base_sparse_field/models/models.py:0
 msgid "Changing the storing system for field \"%s\" is not allowed."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1940,6 +1953,10 @@ msgstr ""
 msgstr ""
 "Modifica del sistema di archiviazione per il campo \"%s\" non consentita."
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"Modifica del sistema di archiviazione per il campo \"%s\" non consentita."
+>>>>>>> upstream/18.0
 
 #. module: base_sparse_field
 #: model:ir.model.fields,field_description:base_sparse_field.field_sparse_fields_test__char
@@ -2124,7 +2141,11 @@ msgid "Float"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Decimale"
+=======
+msgstr "Virgola mobile"
+>>>>>>> upstream/18.0
 =======
 msgstr "Virgola mobile"
 >>>>>>> upstream/18.0
@@ -2718,9 +2739,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ce questa azione viene attivata, questo campo sarà memorizzato nella "
 "struttura \"cava\" di serializzazione invece di avere una colonna dedicata "
 "nel database. Questa opzione non può essere modificata dopo la creazione."
+=======
+"Se impostato, questo campo viene memorizzato nella struttura sparsa del "
+"campo di serializzazione invece di avere una colonna dedicata nel database. "
+"Non può essere modificato dopo la creazione."
+>>>>>>> upstream/18.0
 =======
 "Se impostato, questo campo viene memorizzato nella struttura sparsa del "
 "campo di serializzazione invece di avere una colonna dedicata nel database. "
@@ -3621,7 +3648,11 @@ msgid "Renaming sparse field \"%s\" is not allowed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Non è possibile rinominare il campo \"%s\""
+=======
+msgstr "Rinomina del campo sparso \"%s\" non consentita"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rinomina del campo sparso \"%s\" non consentita"
 >>>>>>> upstream/18.0
@@ -4211,7 +4242,11 @@ msgid "Serialization Field"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Campi Serializzati"
+=======
+msgstr "Campo di serializzazione"
+>>>>>>> upstream/18.0
 =======
 msgstr "Campo di serializzazione"
 >>>>>>> upstream/18.0
@@ -4683,8 +4718,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Serialization field \"%(serialization_field)s\" not found for sparse field "
 "%(sparse_field)s!"
+=======
+"Serialization field \"%(serialization_field)s\" not found for sparse field %"
+"(sparse_field)s!"
+>>>>>>> upstream/18.0
 =======
 "Serialization field \"%(serialization_field)s\" not found for sparse field %"
 "(sparse_field)s!"

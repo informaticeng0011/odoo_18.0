@@ -57,6 +57,10 @@ from lxml import etree
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools.xml_utils import remove_control_characters
+>>>>>>> upstream/18.0
 =======
 from odoo.tools.xml_utils import remove_control_characters
 >>>>>>> upstream/18.0
@@ -356,7 +360,11 @@ def dict_to_xml(node, *, nsmap={}, template=None, render_empty_nodes=False, tag=
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         element.text = str(text)
+=======
+        element.text = remove_control_characters(str(text).encode()).decode()
+>>>>>>> upstream/18.0
 =======
         element.text = remove_control_characters(str(text).encode()).decode()
 >>>>>>> upstream/18.0

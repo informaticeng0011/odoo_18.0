@@ -166,6 +166,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import json
+
+>>>>>>> upstream/18.0
 =======
 import json
 
@@ -1607,6 +1612,7 @@ class TestCheckoutAddress(BaseUsersCommon, WebsiteSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1639,6 +1645,8 @@ class TestCheckoutAddress(BaseUsersCommon, WebsiteSaleCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2130,6 +2138,7 @@ class TestCheckoutAddress(BaseUsersCommon, WebsiteSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2428,6 +2437,8 @@ class TestCheckoutAddress(BaseUsersCommon, WebsiteSaleCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_13_shop_address_submit_eu_vat_number(self):
         if not hasattr(self.env['res.partner'], 'check_vat'):
@@ -2473,6 +2484,9 @@ class TestCheckoutAddress(BaseUsersCommon, WebsiteSaleCommon):
             )
 
         self.assertEqual(partner.vat, 'BE0477472701')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def test_imported_user_with_trailing_name_can_checkout(self):
@@ -2669,6 +2683,9 @@ class TestCheckoutAddress(BaseUsersCommon, WebsiteSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

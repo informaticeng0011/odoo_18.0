@@ -39,6 +39,10 @@ export class SpreadsheetShareButton extends Component {
             return;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        model.dispatch("LOG_DATASOURCE_EXPORT", { action: "freeze" });
+>>>>>>> upstream/18.0
 =======
         model.dispatch("LOG_DATASOURCE_EXPORT", { action: "freeze" });
 >>>>>>> upstream/18.0

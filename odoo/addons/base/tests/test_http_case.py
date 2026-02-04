@@ -290,7 +290,10 @@ class TestChromeBrowser(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -887,6 +890,9 @@ class TestChromeBrowserOddDimensions(TestChromeBrowser):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1328,6 +1334,7 @@ class TestRequestRemaining(HttpCase):
 
     def test_requests_b(self):
         self.env.cr.execute('SELECT 1')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2016,6 +2023,8 @@ class TestRequestRemaining(HttpCase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         with self.assertLogs('odoo.tests.common') as lc:
             self.main_lock.release()
             _logger.info('B started, waiting for A to finish')
@@ -2248,6 +2257,9 @@ class TestRequestRemaining(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

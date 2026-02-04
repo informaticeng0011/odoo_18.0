@@ -43,7 +43,11 @@ export async function mountSpreadsheet(model) {
  * @returns {Promise<HTMLElement>}
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 export async function mountPublicSpreadsheet(dataUrl, mode, downloadExcelUrl = "downloadUrl") {
+=======
+export async function mountPublicSpreadsheet(dataUrl, mode, downloadExcelUrl = "") {
+>>>>>>> upstream/18.0
 =======
 export async function mountPublicSpreadsheet(dataUrl, mode, downloadExcelUrl = "") {
 >>>>>>> upstream/18.0

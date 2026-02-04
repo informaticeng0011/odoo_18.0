@@ -10,7 +10,11 @@ class DashboardTestCommon(TransactionCase):
         cls.group = cls.env["res.groups"].create({"name": "test group"})
         cls.user = new_test_user(cls.env, login="Raoul")
 <<<<<<< HEAD
+<<<<<<< HEAD
         cls.user.groups_id |= cls.group
+=======
+        cls.user.groups_id |= cls.group + cls.env.ref('base.group_allow_export', raise_if_not_found=False)
+>>>>>>> upstream/18.0
 =======
         cls.user.groups_id |= cls.group + cls.env.ref('base.group_allow_export', raise_if_not_found=False)
 >>>>>>> upstream/18.0

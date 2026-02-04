@@ -19,8 +19,13 @@ class TestPackingNeg(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'name': 'Deco Addict',
             'email': 'deco.addict82@example.com',
+=======
+            'name': 'Acme Corporation',
+            'email': 'acme.corportation82@example.com',
+>>>>>>> upstream/18.0
 =======
             'name': 'Acme Corporation',
             'email': 'acme.corportation82@example.com',

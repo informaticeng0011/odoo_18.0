@@ -179,7 +179,11 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if not move.picked or float_is_zero(move.quantity, precision_rounding=move.product_uom.rounding):
+=======
+            if float_is_zero(move.quantity, precision_rounding=move.product_uom.rounding):
+>>>>>>> upstream/18.0
 =======
             if float_is_zero(move.quantity, precision_rounding=move.product_uom.rounding):
 >>>>>>> upstream/18.0
@@ -764,7 +768,11 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             move.show_subcontracting_details_visible = True
+=======
+            move.show_subcontracting_details_visible = move.picked or any(p.subcontracting_has_been_recorded and p.state != 'done' for p in productions)
+>>>>>>> upstream/18.0
 =======
             move.show_subcontracting_details_visible = move.picked or any(p.subcontracting_has_been_recorded and p.state != 'done' for p in productions)
 >>>>>>> upstream/18.0
@@ -1363,6 +1371,7 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _compute_picked(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1437,6 +1446,8 @@ class StockMove(models.Model):
         super(StockMove, self - subcontracted_moves)._compute_picked()
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1873,6 +1884,9 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2213,7 +2227,11 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 production.with_context(cancel_backorder=False).subcontracting_record_component()
+=======
+                production.with_context(cancel_backorder=False, skip_consumption=True).subcontracting_record_component()
+>>>>>>> upstream/18.0
 =======
                 production.with_context(cancel_backorder=False, skip_consumption=True).subcontracting_record_component()
 >>>>>>> upstream/18.0
@@ -2240,7 +2258,11 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             production.with_context(cancel_backorder=False).subcontracting_record_component()
+=======
+            production.with_context(cancel_backorder=False, skip_consumption=True).subcontracting_record_component()
+>>>>>>> upstream/18.0
 =======
             production.with_context(cancel_backorder=False, skip_consumption=True).subcontracting_record_component()
 >>>>>>> upstream/18.0
@@ -2614,6 +2636,12 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def _get_available_move_lines(self, assigned_moves_ids, partially_available_moves_ids):
+        return super(StockMove, self.filtered(lambda m: not m.is_subcontract))._get_available_move_lines(assigned_moves_ids, partially_available_moves_ids)
+
+>>>>>>> upstream/18.0
 =======
     def _get_available_move_lines(self, assigned_moves_ids, partially_available_moves_ids):
         return super(StockMove, self.filtered(lambda m: not m.is_subcontract))._get_available_move_lines(assigned_moves_ids, partially_available_moves_ids)
@@ -3659,8 +3687,11 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if quantity_to_remove >= production.product_qty:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4099,6 +4130,9 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

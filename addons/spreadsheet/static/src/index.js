@@ -30,6 +30,10 @@ import {
 import { PivotCoreGlobalFilterPlugin } from "./pivot/plugins/pivot_core_global_filter_plugin";
 import { PivotOdooUIPlugin } from "./pivot/plugins/pivot_odoo_ui_plugin";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { LoggingUIPlugin } from "@spreadsheet/logging/logging_ui_plugin";
+>>>>>>> upstream/18.0
 =======
 import { LoggingUIPlugin } from "@spreadsheet/logging/logging_ui_plugin";
 >>>>>>> upstream/18.0
@@ -47,6 +51,10 @@ coreViewsPluginRegistry.add("OdooListUIPlugin", ListUIPlugin);
 coreViewsPluginRegistry.add("odooChartUIPlugin", OdooChartUIPlugin);
 coreViewsPluginRegistry.add("odooPivotUIPlugin", PivotOdooUIPlugin);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+coreViewsPluginRegistry.add("OdooLoggingUIPlugin", LoggingUIPlugin);
+>>>>>>> upstream/18.0
 =======
 coreViewsPluginRegistry.add("OdooLoggingUIPlugin", LoggingUIPlugin);
 >>>>>>> upstream/18.0

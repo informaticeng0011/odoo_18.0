@@ -143,7 +143,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # -*- coding:utf-8 -*-
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -604,6 +607,7 @@ class FleetVehicle(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for vehicle in self:
             if vehicle.driver_id:
                 vehicle.driver_employee_id = self.env['hr.employee'].search([
@@ -624,6 +628,8 @@ class FleetVehicle(models.Model):
             else:
                 vehicle.future_driver_employee_id = False
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1081,6 +1087,9 @@ class FleetVehicle(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -124,7 +124,11 @@ export class AccountMoveFormController extends FormController {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!this.model.root.isNew) {
+=======
+        if (this.model.root.isNew) {
+>>>>>>> upstream/18.0
 =======
         if (this.model.root.isNew) {
 >>>>>>> upstream/18.0
