@@ -247,8 +247,11 @@ export class ProductProduct extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     get_price(pricelist, quantity, price_extra = 0, recurring = false, list_price = false) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -609,6 +612,9 @@ export class ProductProduct extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -976,9 +982,12 @@ export class ProductProduct extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         let price = (list_price || this.lst_price) + (price_extra || 0);
         const rule = this.getPricelistRule(pricelist, quantity);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1342,6 +1351,9 @@ export class ProductProduct extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1650,6 +1662,7 @@ export class ProductProduct extends Base {
         return [];
     }
 
+<<<<<<< HEAD
     _isArchivedCombination(attributeValueIds) {
         if (!this._archived_combinations) {
             return false;
@@ -1672,6 +1685,34 @@ export class ProductProduct extends Base {
             }
             if (ptavCommon.length === attributeValueIds.length) {
                 isCombinationArchived = true;
+=======
+    _isArchivedCombination(attributeValueIds, exclusion) {
+        const excludedPTAV = new Set();
+        if (exclusion && exclusion.size > 0) {
+            for (const ptavId of attributeValueIds) {
+                for (const excludedPtavId of exclusion.get(ptavId) || []) {
+                    excludedPTAV.add(excludedPtavId);
+                }
+            }
+        } else if (!this._archived_combinations) {
+            return false;
+        }
+        if (this._archived_combinations) {
+            for (const archivedCombination of this._archived_combinations) {
+                const ptavCommon = archivedCombination.filter((ptav) =>
+                    attributeValueIds.includes(ptav)
+                );
+                if (ptavCommon.length === attributeValueIds.length) {
+                    // all attributes must be disabled from each other
+                    archivedCombination.forEach((ptav) => excludedPTAV.add(ptav));
+                } else if (ptavCommon.length === attributeValueIds.length - 1) {
+                    // In this case we only need to disable the remaining ptav
+                    const disablePTAV = archivedCombination.find(
+                        (ptav) => !attributeValueIds.includes(ptav)
+                    );
+                    excludedPTAV.add(disablePTAV);
+                }
+>>>>>>> upstream/18.0
             }
         }
         this.attribute_line_ids.forEach((attribute_line) => {
@@ -1679,7 +1720,11 @@ export class ProductProduct extends Base {
                 ptav["excluded"] = excludedPTAV.has(ptav.id);
             });
         });
+<<<<<<< HEAD
         return isCombinationArchived;
+=======
+        return attributeValueIds.some((id) => excludedPTAV.has(id));
+>>>>>>> upstream/18.0
     }
 
     get productDisplayName() {
@@ -1834,6 +1879,12 @@ export class ProductProduct extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    get variants() {
+        return this.product_tmpl_id?.["<-product.product.product_tmpl_id"];
+    }
+>>>>>>> upstream/18.0
 =======
     get variants() {
         return this.product_tmpl_id?.["<-product.product.product_tmpl_id"];

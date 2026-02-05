@@ -151,7 +151,12 @@ export const computeComboItems = (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     productTemplateAttributeValueById
+=======
+    productTemplateAttributeValueById,
+    currency_id = false
+>>>>>>> upstream/18.0
 =======
     productTemplateAttributeValueById,
     currency_id = false
@@ -896,7 +901,12 @@ export const computeComboItems = (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             decimalPrecision.find((dp) => dp.name === "Product Price").digits
+=======
+            currency_id?.decimal_places ||
+                decimalPrecision.find((dp) => dp.name === "Product Price").digits
+>>>>>>> upstream/18.0
 =======
             currency_id?.decimal_places ||
                 decimalPrecision.find((dp) => dp.name === "Product Price").digits

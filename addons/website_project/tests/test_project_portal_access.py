@@ -3,6 +3,10 @@
 from re import search
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo import http
+>>>>>>> upstream/18.0
 =======
 from odoo import http
 >>>>>>> upstream/18.0
@@ -37,7 +41,10 @@ class TestProjectPortalAccess(TestProjectSharingCommon, HttpCase):
             ])
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_portal_task_submission(self):
         """ Public user should be able to submit a task"""
@@ -60,4 +67,7 @@ class TestProjectPortalAccess(TestProjectSharingCommon, HttpCase):
         task = self.env['project.task'].browse(response.json().get('id'))
         self.assertTrue(task.exists())
         self.assertEqual(partner.name, 'Jean Michel')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

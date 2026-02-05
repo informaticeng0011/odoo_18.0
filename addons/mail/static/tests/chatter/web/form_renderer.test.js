@@ -4,6 +4,10 @@ import {
     contains,
     defineMailModels,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    insertText,
+>>>>>>> upstream/18.0
 =======
     insertText,
 >>>>>>> upstream/18.0
@@ -14,7 +18,12 @@ import {
     startServer,
 } from "@mail/../tests/mail_test_helpers";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { describe, test } from "@odoo/hoot";
+=======
+import { describe, expect, test } from "@odoo/hoot";
+import { mockService, serverState } from "@web/../tests/web_test_helpers";
+>>>>>>> upstream/18.0
 =======
 import { describe, expect, test } from "@odoo/hoot";
 import { mockService, serverState } from "@web/../tests/web_test_helpers";
@@ -267,7 +276,10 @@ test("read more/less links on message of type notification", async () => {
     await contains(".o-mail-Message a", { text: "Read More" });
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 test("read more/less should appear only once for the signature", async () => {
     const pyEnv = await startServer();
@@ -313,4 +325,7 @@ test("read more/less should appear only once for the signature", async () => {
     await contains(".o-mail-Message-body", { text: "Example Body", count: 1 });
     expect(".o-mail-Message a:contains(Read More)").toHaveCount(1);
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

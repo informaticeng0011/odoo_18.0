@@ -155,6 +155,10 @@ export const FAKE_FIELDS = {
     },
     name: { string: "Name", type: "char" },
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    description: { string: "Description", type: "html" },
+>>>>>>> upstream/18.0
 =======
     description: { string: "Description", type: "html" },
 >>>>>>> upstream/18.0
@@ -205,13 +209,19 @@ export const FAKE_MODEL = {
             "calendar"
         ),
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         description: Field.parseFieldNode(
             createElement("field", { name: "description" , class: "text-wrap"}),
             { event: { fields: FAKE_FIELDS } },
             "event",
             "calendar"
         ),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     },
     activeFields: {
@@ -223,7 +233,10 @@ export const FAKE_MODEL = {
             onChange: false,
         },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         description: {
             context: "{}",
             invisible: false,
@@ -231,6 +244,9 @@ export const FAKE_MODEL = {
             required: false,
             onChange: false,
         },
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     },
     rangeEnd: DEFAULT_DATE.endOf("month"),

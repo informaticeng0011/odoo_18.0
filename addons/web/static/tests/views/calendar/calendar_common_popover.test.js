@@ -18,6 +18,10 @@ const FAKE_RECORD = {
     rawRecord: {
         name: "Meeting",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        description: "<p>Test description</p>",
+>>>>>>> upstream/18.0
 =======
         description: "<p>Test description</p>",
 >>>>>>> upstream/18.0
@@ -46,6 +50,10 @@ test(`mount a CalendarCommonPopover`, async () => {
     expect(`.list-group`).toHaveCount(2);
     expect(`.list-group.o_cw_popover_fields_secondary`).toHaveCount(1);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expect(`.list-group.o_cw_popover_fields_secondary div[name="description"]`).toHaveClass("text-wrap");
+>>>>>>> upstream/18.0
 =======
     expect(`.list-group.o_cw_popover_fields_secondary div[name="description"]`).toHaveClass("text-wrap");
 >>>>>>> upstream/18.0

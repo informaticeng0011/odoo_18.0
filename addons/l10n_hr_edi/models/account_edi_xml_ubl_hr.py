@@ -53,6 +53,7 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                                     'cbc:TaxExemptionReason': {},
 >>>>>>> upstream/18.0
@@ -72,6 +73,10 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
                                     'cbc:TaxExemptionReason': {},
 >>>>>>> upstream/18.0
 =======
+                                    'cbc:TaxExemptionReason': {},
+>>>>>>> upstream/18.0
+=======
+                                    'cbc:TaxExemptionReasonCode': {},
                                     'cbc:TaxExemptionReason': {},
 >>>>>>> upstream/18.0
 =======
@@ -141,7 +146,11 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             'hrextac:HRTaxExclusiveAmount': {},
+=======
+                            'cbc:TaxExclusiveAmount': {},
+>>>>>>> upstream/18.0
 =======
                             'cbc:TaxExclusiveAmount': {},
 >>>>>>> upstream/18.0
@@ -197,7 +206,11 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'hrextac': "urn:hzn.hr:schema:xsd:HRExtensionAggregateComponents-1",
+=======
+            'hrextac': "urn:mfin.gov.hr:schema:xsd:HRExtensionAggregateComponents-1",
+>>>>>>> upstream/18.0
 =======
             'hrextac': "urn:mfin.gov.hr:schema:xsd:HRExtensionAggregateComponents-1",
 >>>>>>> upstream/18.0
@@ -307,6 +320,7 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # HR-BR-6: Each previous invoice reference (BG-3) must have the date of issue of the previous invoice (BT-26).
         # HR-BT-3: Note on previous invoice
         if invoice.reversed_entry_id:
@@ -316,6 +330,8 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
                     }
                 })
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -360,6 +376,9 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -433,6 +452,7 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                     'cbc:TaxExemptionReason': tax_subtotals[i]['cac:TaxCategory'][0]['cbc:TaxExemptionReason'],
 >>>>>>> upstream/18.0
@@ -452,6 +472,10 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
                     'cbc:TaxExemptionReason': tax_subtotals[i]['cac:TaxCategory'][0]['cbc:TaxExemptionReason'],
 >>>>>>> upstream/18.0
 =======
+                    'cbc:TaxExemptionReason': tax_subtotals[i]['cac:TaxCategory'][0]['cbc:TaxExemptionReason'],
+>>>>>>> upstream/18.0
+=======
+                    'cbc:TaxExemptionReasonCode': tax_subtotals[i]['cac:TaxCategory'][0]['cbc:TaxExemptionReasonCode'],
                     'cbc:TaxExemptionReason': tax_subtotals[i]['cac:TaxCategory'][0]['cbc:TaxExemptionReason'],
 >>>>>>> upstream/18.0
 =======
@@ -518,7 +542,10 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -556,6 +583,9 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -602,8 +632,13 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 'hrextac:HRTaxExclusiveAmount': document_node['cac:LegalMonetaryTotal']['cbc:TaxExclusiveAmount'],
                                 'hrextac:OutOfScopeOfVATAmount': False,     # Currently unsupported, a HR-specific workaround can potentially be made
+=======
+                                'cbc:TaxExclusiveAmount': document_node['cac:LegalMonetaryTotal']['cbc:TaxExclusiveAmount'],
+                                'hrextac:OutOfScopeOfVATAmount': out_of_scope_node,
+>>>>>>> upstream/18.0
 =======
                                 'cbc:TaxExclusiveAmount': document_node['cac:LegalMonetaryTotal']['cbc:TaxExclusiveAmount'],
                                 'hrextac:OutOfScopeOfVATAmount': out_of_scope_node,
@@ -707,11 +742,23 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
                 }
             })
 
+<<<<<<< HEAD
     def _get_tax_category_code(self, customer, supplier, tax):
+=======
+    def _ubl_default_tax_category_grouping_key(self, base_line, tax_data, vals, currency):
+        # EXTENDS account.edi.xml.ubl_bis3
+        grouping_key = super()._ubl_default_tax_category_grouping_key(base_line, tax_data, vals, currency)
+        if not grouping_key or not tax_data:
+            return
+
+        tax = tax_data['tax']
+
+>>>>>>> upstream/18.0
         # HR-BR-11: Each document-level expense (BG-21) that is not subject to VAT or is exempt from VAT must have
         # a document-level expense VAT category code (HR-BT-6) from table HR-TB-2 HR VAT category codes
         #   Instead of determining what the elements should be from the invoice details, here we directly use
         #   the data of the VAT expence category defined on the tax by the user
+<<<<<<< HEAD
         hr_category = tax.l10n_hr_tax_category_id if tax else None
         if hr_category and tax.amount == 0:
             return hr_category.code_untdid
@@ -956,6 +1003,43 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
         super()._add_document_line_tax_category_nodes(line_node, vals)
         for item in line_node['cac:Item']['cac:ClassifiedTaxCategory']:
             item.pop('hrextac:HRObracunPDVPoNaplati')
+=======
+        if (
+            tax.l10n_hr_tax_category_id
+            and tax.amount_type == 'percent'
+            and not tax.amount
+        ):
+            grouping_key.update({
+                'tax_category_code': tax.l10n_hr_tax_category_id.code_untdid,
+                'tax_exemption_reason': tax.l10n_hr_tax_category_id.description,
+            })
+
+        if tax.tax_exigibility == 'on_payment':
+            invoice_legal_notes_str = html2plaintext(tax.invoice_legal_notes or '') or "Obračun po naplaćenoj naknadi"
+        else:
+            invoice_legal_notes_str = None
+
+        grouping_key.update({
+            'hr_category_name': tax.l10n_hr_tax_category_id.name,
+            'invoice_legal_notes_str': invoice_legal_notes_str,
+        })
+        return grouping_key
+
+    def _ubl_get_tax_category_node(self, vals, tax_category):
+        # EXTENDS account.edi.xml.ubl_bis3
+        node = super()._ubl_get_tax_category_node(vals, tax_category)
+        node['cbc:Name']['_text'] = tax_category['hr_category_name']
+        node['hrextac:HRObracunPDVPoNaplati'] = {'_text': tax_category['invoice_legal_notes_str']}
+        return node
+
+    def _ubl_get_line_item_node_classified_tax_category_node(self, vals, tax_category):
+        # EXTENDS account.edi.xml.ubl_bis3
+        node = super()._ubl_get_line_item_node_classified_tax_category_node(vals, tax_category)
+        node['cbc:Name']['_text'] = tax_category['hr_category_name']
+        node['cbc:TaxExemptionReasonCode']['_text'] = tax_category.get('tax_exemption_reason_code')
+        node['cbc:TaxExemptionReason']['_text'] = tax_category.get('tax_exemption_reason')
+        return node
+>>>>>>> upstream/18.0
 
     def _import_fill_invoice(self, invoice, tree, qty_factor):
         logs = super()._import_fill_invoice(invoice, tree, qty_factor)

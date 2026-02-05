@@ -261,7 +261,11 @@ publicWidget.registry.SurveyFormWidget = publicWidget.Widget.extend(SurveyPreloa
             options.previousPageId = parseInt(target.dataset['previousPageId']);
         } else if (target.value === 'next_skipped') {
             options.nextSkipped = true;
+<<<<<<< HEAD
         } else if (target.value === 'finish') {
+=======
+        } else if (target.value === 'finish' && !this.options.sessionInProgress) {
+>>>>>>> upstream/18.0
             options.isFinish = true;
         }
         this._submitForm(options);
@@ -776,7 +780,11 @@ publicWidget.registry.SurveyFormWidget = publicWidget.Widget.extend(SurveyPreloa
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         const subQuestionsIds = $questionWrapper.find('table').data('subQuestions');
+=======
+                        const subQuestionsIds = $input.data('subQuestions');
+>>>>>>> upstream/18.0
 =======
                         const subQuestionsIds = $input.data('subQuestions');
 >>>>>>> upstream/18.0

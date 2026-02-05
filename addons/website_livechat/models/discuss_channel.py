@@ -182,6 +182,11 @@ class DiscussChannel(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                # sudo: members can read the visitor history (either the visitor himself or agents).
+                history_data = self.sudo()._get_visitor_history_data(visitor)
+>>>>>>> upstream/18.0
 =======
                 # sudo: members can read the visitor history (either the visitor himself or agents).
                 history_data = self.sudo()._get_visitor_history_data(visitor)
@@ -917,7 +922,12 @@ class DiscussChannel(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'history': self.sudo()._get_visitor_history(visitor),
+=======
+                    'history': self._format_visitor_history(history_data),
+                    'history_data': history_data,
+>>>>>>> upstream/18.0
 =======
                     'history': self._format_visitor_history(history_data),
                     'history_data': history_data,
@@ -1657,7 +1667,10 @@ class DiscussChannel(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2102,6 +2115,9 @@ class DiscussChannel(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2545,9 +2561,12 @@ class DiscussChannel(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         recent_history = self.env['website.track'].search([('page_id', '!=', False), ('visitor_id', '=', visitor.id)], limit=3)
         return ' → '.join(visit.page_id.name + ' (' + visit.visit_datetime.strftime('%H:%M') + ')' for visit in reversed(recent_history))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2991,6 +3010,9 @@ class DiscussChannel(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

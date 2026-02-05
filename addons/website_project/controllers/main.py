@@ -48,6 +48,7 @@ class WebsiteForm(form.WebsiteForm):
             partners_list = request.env['mail.thread'].sudo()._mail_find_partner_from_emails([values['email_from']])
             partner = partners_list[0] if partners_list else self.env['res.partner']
 <<<<<<< HEAD
+<<<<<<< HEAD
             data['record']['partner_id'] = partner.id
             data['record']['email_from'] = values['email_from']
             if partner:
@@ -58,6 +59,8 @@ class WebsiteForm(form.WebsiteForm):
                 if not partner.company_name and values.get('partner_company_name'):
                     data['record']['partner_company_name'] = values['partner_company_name']
 =======
+=======
+>>>>>>> upstream/18.0
             data['record']['email_from'] = values['email_from']
             if partner:
                 data['record']['partner_id'] = partner.id
@@ -67,6 +70,9 @@ class WebsiteForm(form.WebsiteForm):
                     ('partner_company_name', data['record'].pop('partner_company_name', False)),
                 ]
                 data['custom'] += "\n" + "\n".join(["%s : %s" % c for c in custom])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             else:
                 data['record']['email_cc'] = values['email_from']
@@ -274,7 +280,12 @@ class WebsiteForm(form.WebsiteForm):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 data['record']['partner_name'] = values['partner_name']
+=======
+                if values.get('partner_name'):
+                    data['record']['partner_name'] = values['partner_name']
+>>>>>>> upstream/18.0
 =======
                 if values.get('partner_name'):
                     data['record']['partner_name'] = values['partner_name']

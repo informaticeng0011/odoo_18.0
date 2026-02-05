@@ -172,7 +172,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <button name="action_create_exchanges" string="Return for Exchange" type="object" class="btn-primary"/>
+=======
+                    <button name="action_create_exchanges" string="Return for Exchange" invisible="picking_type_code not in ('incoming', 'outgoing')" type="object" class="btn-primary"/>
+>>>>>>> upstream/18.0
 =======
                     <button name="action_create_exchanges" string="Return for Exchange" invisible="picking_type_code not in ('incoming', 'outgoing')" type="object" class="btn-primary"/>
 >>>>>>> upstream/18.0

@@ -6,10 +6,18 @@ import { Dropdown } from "@web/core/dropdown/dropdown";
 import { DropdownItem } from "@web/core/dropdown/dropdown_item";
 import { useDropdownState } from "@web/core/dropdown/dropdown_hooks";
 import { deserializeDateTime } from "@web/core/l10n/dates";
+<<<<<<< HEAD
 import { rpc } from "@web/core/network/rpc";
 import { registry } from "@web/core/registry";
 import { useService } from "@web/core/utils/hooks";
 import { isIosApp } from "@web/core/browser/feature_detection";
+=======
+import { rpc, ConnectionLostError } from "@web/core/network/rpc";
+import { registry } from "@web/core/registry";
+import { useService } from "@web/core/utils/hooks";
+import { isIosApp } from "@web/core/browser/feature_detection";
+import { _t } from "@web/core/l10n/translation";
+>>>>>>> upstream/18.0
 const { DateTime } = luxon;
 
 export class ActivityMenu extends Component {
@@ -19,6 +27,10 @@ export class ActivityMenu extends Component {
 
     setup() {
         this.ui = useState(useService("ui"));
+<<<<<<< HEAD
+=======
+        this.notification = useService("notification");
+>>>>>>> upstream/18.0
         this.employee = false;
         this.state = useState({
             checkedIn: false,
@@ -53,6 +65,7 @@ export class ActivityMenu extends Component {
         }
     }
 
+<<<<<<< HEAD
     async signInOut() {
         this.dropdown.close();
         if (!isIosApp()) { // iOS app lacks permissions to call `getCurrentPosition`
@@ -75,6 +88,57 @@ export class ActivityMenu extends Component {
         } else {
             await rpc("/hr_attendance/systray_check_in_out")
             await this.searchReadEmployee()
+=======
+    async checking(latitude = false, longitude = false) {
+        try {
+            await rpc("/hr_attendance/systray_check_in_out", {
+                latitude,
+                longitude
+            })
+            this.searchReadEmployee();
+        } catch (error) {
+            if(error instanceof ConnectionLostError) {
+                this.notification.add(
+                    _t("Connection lost. Check in/out could not be recorded."), 
+                    { 
+                        title: _t("Attendance Error"),
+                        type: "danger",
+                        sticky: false,
+                    }
+                );
+            }else{
+                throw error;
+            }
+        } finally {
+            this._attendanceInProgress = false;
+        }
+    };
+
+    async signInOut() {
+        this.dropdown.close();
+
+        if (this._attendanceInProgress) {
+            return;
+        }
+        this._attendanceInProgress = true;
+
+        if (!isIosApp() && navigator.onLine) { // iOS app lacks permissions to call `getCurrentPosition`
+
+            navigator.geolocation.getCurrentPosition(
+                async ({coords: {latitude, longitude}}) => {
+                    await this.checking(latitude, longitude);
+                },
+                async () => {
+                    await this.checking();
+                },
+                {
+                    enableHighAccuracy: true,
+                    timeout: 10000,
+                }
+            );
+        } else {
+            await this.checking();
+>>>>>>> upstream/18.0
         }
     }
 }

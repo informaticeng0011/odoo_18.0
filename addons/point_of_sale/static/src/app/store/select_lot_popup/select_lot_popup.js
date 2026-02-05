@@ -269,8 +269,12 @@ export class EditListPopup extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             !this.props.isLotNameUsed(text) &&
             (this.props.customInput || this.props.options.includes(text)) &&
+=======
+            this.isValidValue(text) &&
+>>>>>>> upstream/18.0
 =======
             this.isValidValue(text) &&
 >>>>>>> upstream/18.0
@@ -859,7 +863,10 @@ export class EditListPopup extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1303,6 +1310,9 @@ export class EditListPopup extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1798,10 +1808,14 @@ export class EditListPopup extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     const isValidValue =
                         itemValue !== "" &&
                         !this.props.isLotNameUsed(itemValue) &&
                         (this.props.customInput || this.props.options.includes(itemValue));
+=======
+                    const isValidValue = itemValue !== "" && this.isValidValue(itemValue);
+>>>>>>> upstream/18.0
 =======
                     const isValidValue = itemValue !== "" && this.isValidValue(itemValue);
 >>>>>>> upstream/18.0

@@ -3,7 +3,11 @@ import base64
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests.common import HttpCase
+=======
+from odoo.tests.common import HttpCase, new_test_user
+>>>>>>> upstream/18.0
 =======
 from odoo.tests.common import HttpCase, new_test_user
 >>>>>>> upstream/18.0
@@ -17,7 +21,10 @@ from .common import DashboardTestCommon
 class TestShareController(DashboardTestCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -28,6 +35,9 @@ class TestShareController(DashboardTestCommon, HttpCase):
         cls.alex = new_test_user(cls.env, login='AlexPort', groups='base.group_user,base.group_allow_export')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -78,6 +88,10 @@ class TestShareController(DashboardTestCommon, HttpCase):
         share.excel_export = base64.b64encode(b"test")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.authenticate('AlexPort', 'AlexPort')
+>>>>>>> upstream/18.0
 =======
         self.authenticate('AlexPort', 'AlexPort')
 >>>>>>> upstream/18.0
@@ -90,7 +104,10 @@ class TestShareController(DashboardTestCommon, HttpCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_download_dashboard_no_export(self):
@@ -108,6 +125,9 @@ class TestShareController(DashboardTestCommon, HttpCase):
         self.assertEqual(response.status_code, 400)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -117,6 +137,10 @@ class TestShareController(DashboardTestCommon, HttpCase):
         share.excel_export = base64.b64encode(b"test")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.authenticate('AlexPort', 'AlexPort')
+>>>>>>> upstream/18.0
 =======
         self.authenticate('AlexPort', 'AlexPort')
 >>>>>>> upstream/18.0
@@ -131,6 +155,10 @@ class TestShareController(DashboardTestCommon, HttpCase):
         dashboard = self.create_dashboard()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.authenticate('AlexPort', 'AlexPort')
+>>>>>>> upstream/18.0
 =======
         self.authenticate('AlexPort', 'AlexPort')
 >>>>>>> upstream/18.0

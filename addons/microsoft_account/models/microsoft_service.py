@@ -103,7 +103,11 @@ class MicrosoftService(models.AbstractModel):
         dummy, response, dummy = self._do_request(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             DEFAULT_MICROSOFT_TOKEN_ENDPOINT,
+=======
+            self._get_token_endpoint(),
+>>>>>>> upstream/18.0
 =======
             self._get_token_endpoint(),
 >>>>>>> upstream/18.0
