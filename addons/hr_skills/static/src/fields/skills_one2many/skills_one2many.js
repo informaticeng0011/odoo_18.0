@@ -90,7 +90,13 @@ export class SkillsX2ManyField extends X2ManyField {
             getList: () => this.list,
             saveRecord: async (record) => {
                 await saveRecord(record);
+<<<<<<< HEAD
                 await this.props.record.save();
+=======
+                await this.props.record.save({
+                    onError: (e) => {this.list.delete(record); throw e;}
+                });
+>>>>>>> upstream/18.0
             },
             updateRecord: updateRecord,
             withParentId: this.props.widget !== "many2many",

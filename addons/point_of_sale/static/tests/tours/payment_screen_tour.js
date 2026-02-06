@@ -196,12 +196,15 @@ registry.category("web_tour.tours").add("PaymentScreenTour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             PaymentScreen.clickNumpad("+50"),
             PaymentScreen.fillPaymentLineAmountMobile("Cash", "60"),
             PaymentScreen.changeIs("7.2"),
             PaymentScreen.validateButtonIsHighlighted(true),
             PaymentScreen.clickPaymentlineDelButton("Cash", "60.0"),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -685,6 +688,9 @@ registry.category("web_tour.tours").add("PaymentScreenTour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1163,7 +1169,11 @@ registry.category("web_tour.tours").add("InvoiceShipLaterAccessRight", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ProductScreen.clickCustomer("Deco Addict"),
+=======
+            ProductScreen.clickCustomer("Acme Corporation"),
+>>>>>>> upstream/18.0
 =======
             ProductScreen.clickCustomer("Acme Corporation"),
 >>>>>>> upstream/18.0

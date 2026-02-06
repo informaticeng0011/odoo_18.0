@@ -130,10 +130,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 from odoo import models, fields, _
 from odoo.addons.account.models.chart_template import template
 from odoo import Command
+=======
+from odoo import Command, fields, models
+from odoo.addons.account.models.chart_template import template
+>>>>>>> upstream/18.0
 =======
 from odoo import Command, fields, models
 from odoo.addons.account.models.chart_template import template
@@ -843,10 +848,13 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         company = self.env.company
         state_ids = [Command.set(company.state_id.ids)] if company.state_id else False
         intra_state_name = company.state_id and _('Within %s', company.state_id.name) or _('Intra State')
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1245,6 +1253,9 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1514,6 +1525,7 @@ class AccountChartTemplate(models.AbstractModel):
                 'sequence': 1,
                 'auto_apply': True,
                 'state_ids': state_ids,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1917,6 +1929,8 @@ class AccountChartTemplate(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 'country_id': country_in_id,
             },
             'fiscal_position_in_inter_state': {
@@ -2056,6 +2070,9 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2458,11 +2475,14 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'name': _('Export/SEZ'),
                 'sequence': 3,
                 'auto_apply': True,
                 'note': _('SUPPLY MEANT FOR EXPORT/SUPPLY TO SEZ UNIT OR SEZ DEVELOPER FOR AUTHORISED OPERATIONS ON PAYMENT OF INTEGRATED TAX.'),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2860,6 +2880,9 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3260,11 +3283,14 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'fiscal_position_in_lut_sez': {
                 'name': _('LUT - Export/SEZ'),
                 'sequence': 4,
                 'note': _('SUPPLY MEANT FOR EXPORT/SUPPLY TO SEZ UNIT OR SEZ DEVELOPER FOR AUTHORISED OPERATIONS UNDER BOND OR LETTER OF UNDERTAKING WITHOUT PAYMENT OF INTEGRATED TAX.'),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3674,6 +3700,9 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4074,7 +4103,10 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4479,6 +4511,9 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

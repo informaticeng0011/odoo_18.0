@@ -477,7 +477,10 @@ class TestReportSession(TestPoSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1059,6 +1062,7 @@ class TestReportSession(TestPoSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1415,6 +1419,8 @@ class TestReportSession(TestPoSCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -1469,6 +1475,9 @@ class TestReportSession(TestPoSCommon):
         self.assertEqual(report["discount_amount"], 12.0, "Discount amount should be equal to 12.0")
         self.assertEqual(report["taxes_info"]["base_amount"], 90.0, "Base amount should be equal to 90.0")
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

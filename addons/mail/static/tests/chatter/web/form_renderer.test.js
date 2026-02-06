@@ -5,6 +5,10 @@ import {
     defineMailModels,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    insertText,
+>>>>>>> upstream/18.0
 =======
     insertText,
 >>>>>>> upstream/18.0
@@ -19,7 +23,12 @@ import {
 } from "@mail/../tests/mail_test_helpers";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { describe, test } from "@odoo/hoot";
+=======
+import { describe, expect, test } from "@odoo/hoot";
+import { mockService, serverState } from "@web/../tests/web_test_helpers";
+>>>>>>> upstream/18.0
 =======
 import { describe, expect, test } from "@odoo/hoot";
 import { mockService, serverState } from "@web/../tests/web_test_helpers";
@@ -277,7 +286,10 @@ test("read more/less links on message of type notification", async () => {
 });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -326,6 +338,9 @@ test("read more/less should appear only once for the signature", async () => {
     expect(".o-mail-Message a:contains(Read More)").toHaveCount(1);
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -147,11 +147,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { mount, reactive, whenReady } from "@odoo/owl";
 import { getRunner } from "../main_runner";
 import { patchWindow } from "../mock/window";
 import { generateStyleSheets, setColorRoot } from "./hoot_colors";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -601,6 +604,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1056,6 +1062,10 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    fetch,
+>>>>>>> upstream/18.0
 =======
     fetch,
 >>>>>>> upstream/18.0
@@ -1676,6 +1686,7 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const makeUiState = () =>
     reactive({
         resultsPage: 0,
@@ -1738,6 +1749,8 @@ const makeUiState = () =>
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2232,6 +2245,9 @@ async function loadBundle(bundle) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2530,6 +2546,7 @@ class HootContainer extends HTMLElement {
         super(...arguments);
 
         this.attachShadow({ mode: "open" });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2987,6 +3004,8 @@ class HootContainer extends HTMLElement {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     }
 
     connectedCallback() {
@@ -3145,11 +3164,14 @@ class HootContainer extends HTMLElement {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const STYLE_SHEETS = [
     "/web/static/src/libs/fontawesome/css/font-awesome.css",
     "/web/static/lib/hoot/ui/hoot_style.css",
 ];
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3621,7 +3643,10 @@ customElements.define("hoot-container", HootContainer);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3976,6 +4001,7 @@ export function makeUiState() {
     });
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4504,6 +4530,8 @@ export function setupHootUI() {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 /**
  * Appends the main Hoot UI components in a container, which itself will be appended
  * on the current document body.
@@ -4706,6 +4734,9 @@ export async function setupHootUI() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

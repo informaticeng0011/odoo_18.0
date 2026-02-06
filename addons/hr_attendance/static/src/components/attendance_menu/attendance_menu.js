@@ -7,16 +7,22 @@ import { DropdownItem } from "@web/core/dropdown/dropdown_item";
 import { useDropdownState } from "@web/core/dropdown/dropdown_hooks";
 import { deserializeDateTime } from "@web/core/l10n/dates";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { rpc } from "@web/core/network/rpc";
 import { registry } from "@web/core/registry";
 import { useService } from "@web/core/utils/hooks";
 import { isIosApp } from "@web/core/browser/feature_detection";
 =======
+=======
+>>>>>>> upstream/18.0
 import { rpc, ConnectionLostError } from "@web/core/network/rpc";
 import { registry } from "@web/core/registry";
 import { useService } from "@web/core/utils/hooks";
 import { isIosApp } from "@web/core/browser/feature_detection";
 import { _t } from "@web/core/l10n/translation";
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 const { DateTime } = luxon;
 
@@ -28,6 +34,10 @@ export class ActivityMenu extends Component {
     setup() {
         this.ui = useState(useService("ui"));
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.notification = useService("notification");
+>>>>>>> upstream/18.0
 =======
         this.notification = useService("notification");
 >>>>>>> upstream/18.0
@@ -66,6 +76,7 @@ export class ActivityMenu extends Component {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     async signInOut() {
         this.dropdown.close();
         if (!isIosApp()) { // iOS app lacks permissions to call `getCurrentPosition`
@@ -89,6 +100,8 @@ export class ActivityMenu extends Component {
             await rpc("/hr_attendance/systray_check_in_out")
             await this.searchReadEmployee()
 =======
+=======
+>>>>>>> upstream/18.0
     async checking(latitude = false, longitude = false) {
         try {
             await rpc("/hr_attendance/systray_check_in_out", {
@@ -138,6 +151,9 @@ export class ActivityMenu extends Component {
             );
         } else {
             await this.checking();
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
     }

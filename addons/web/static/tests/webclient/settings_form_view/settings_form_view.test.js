@@ -149,7 +149,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     manuallyDispatchProgrammaticEvent,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -596,6 +599,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    unload,
+>>>>>>> upstream/18.0
 =======
     unload,
 >>>>>>> upstream/18.0
@@ -1544,7 +1551,11 @@ test("don't show noContentHelper if no search is done", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o_nocontent_help").not.toBeVisible({ message: "record not found message shown" });
+=======
+    expect(".o_nocontent_help").not.toHaveCount();
+>>>>>>> upstream/18.0
 =======
     expect(".o_nocontent_help").not.toHaveCount();
 >>>>>>> upstream/18.0
@@ -2329,7 +2340,11 @@ test("settings views does not read existing id when coming back in breadcrumbs",
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             views: [[1, "form"]],
+=======
+            views: [[false, "form"]],
+>>>>>>> upstream/18.0
 =======
             views: [[false, "form"]],
 >>>>>>> upstream/18.0
@@ -3079,7 +3094,11 @@ test("settings views does not read existing id when coming back in breadcrumbs",
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             views: [[2, "list"]],
+=======
+            views: [[false, "list"]],
+>>>>>>> upstream/18.0
 =======
             views: [[false, "list"]],
 >>>>>>> upstream/18.0
@@ -3844,8 +3863,11 @@ test("settings views does not read existing id when coming back in breadcrumbs",
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ResConfigSettings._views.search = /* xml */ `<search/>`;
     Task._views.search = /* xml */ `<search/>`;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4399,6 +4421,7 @@ test("resIds should contains only 1 id", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("get_installed", () => {
         return [
             ["en_US", "English"],
@@ -4426,6 +4449,8 @@ test("resIds should contains only 1 id", async () => {
         ];
     });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4886,6 +4911,9 @@ test("resIds should contains only 1 id", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5413,7 +5441,11 @@ test("settings views does not read existing id when reload", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ResConfigSettings._views.form = /* xml */ `
+=======
+    ResConfigSettings._views["form,1"] = /* xml */ `
+>>>>>>> upstream/18.0
 =======
     ResConfigSettings._views["form,1"] = /* xml */ `
 >>>>>>> upstream/18.0
@@ -6169,7 +6201,11 @@ test("settings views does not read existing id when reload", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Task._views.form = /* xml */ `
+=======
+    Task._views["form,view_ref"] = /* xml */ `
+>>>>>>> upstream/18.0
 =======
     Task._views["form,view_ref"] = /* xml */ `
 >>>>>>> upstream/18.0
@@ -6918,8 +6954,11 @@ test("settings views does not read existing id when reload", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ResConfigSettings._views.search = /* xml */ `<search/>`;
     Task._views.search = /* xml */ `<search/>`;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7516,7 +7555,11 @@ test("settings views ask for confirmation when leaving if dirty", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             views: [[1, "form"]],
+=======
+            views: [[false, "form"]],
+>>>>>>> upstream/18.0
 =======
             views: [[false, "form"]],
 >>>>>>> upstream/18.0
@@ -8266,7 +8309,11 @@ test("settings views ask for confirmation when leaving if dirty", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             views: [["view_ref", "form"]],
+=======
+            views: [[false, "form"]],
+>>>>>>> upstream/18.0
 =======
             views: [[false, "form"]],
 >>>>>>> upstream/18.0
@@ -9024,7 +9071,10 @@ test("settings views ask for confirmation when leaving if dirty", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ResConfigSettings._views.search = /* xml */ `<search/>`;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9588,7 +9638,10 @@ test("settings views ask for confirmation when leaving if dirty", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Task._views.search = /* xml */ `<search/>`;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10152,7 +10205,11 @@ test("Auto save: don't save on closing tab/browser", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     manuallyDispatchProgrammaticEvent(window, "beforeunload");
+=======
+    await unload();
+>>>>>>> upstream/18.0
 =======
     await unload();
 >>>>>>> upstream/18.0
@@ -10846,7 +10903,11 @@ test("settings views does not write the id on the url", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             views: [[1, "form"]],
+=======
+            views: [[false, "form"]],
+>>>>>>> upstream/18.0
 =======
             views: [[false, "form"]],
 >>>>>>> upstream/18.0
@@ -11609,8 +11670,11 @@ test("settings views does not write the id on the url", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ResConfigSettings._views.search = /* xml */ `<search/>`;
     Task._views.search = /* xml */ `<search/>`;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12193,7 +12257,11 @@ test("settings views can search when coming back in breadcrumbs", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             views: [[1, "form"]],
+=======
+            views: [[false, "form"]],
+>>>>>>> upstream/18.0
 =======
             views: [[false, "form"]],
 >>>>>>> upstream/18.0
@@ -12943,7 +13011,11 @@ test("settings views can search when coming back in breadcrumbs", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             views: [[2, "list"]],
+=======
+            views: [[false, "list"]],
+>>>>>>> upstream/18.0
 =======
             views: [[false, "list"]],
 >>>>>>> upstream/18.0
@@ -13707,8 +13779,11 @@ test("settings views can search when coming back in breadcrumbs", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ResConfigSettings._views.search = /* xml */ `<search/>`;
     Task._views.search = /* xml */ `<search/>`;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14286,7 +14361,11 @@ test("search for default label when label has empty string", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             views: [[1, "form"]],
+=======
+            views: [[false, "form"]],
+>>>>>>> upstream/18.0
 =======
             views: [[false, "form"]],
 >>>>>>> upstream/18.0
@@ -15036,7 +15115,11 @@ test("search for default label when label has empty string", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             views: [[2, "list"]],
+=======
+            views: [[false, "list"]],
+>>>>>>> upstream/18.0
 =======
             views: [[false, "list"]],
 >>>>>>> upstream/18.0
@@ -15800,8 +15883,11 @@ test("search for default label when label has empty string", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ResConfigSettings._views.search = /* xml */ `<search/>`;
     Task._views.search = /* xml */ `<search/>`;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16380,7 +16466,11 @@ test("clicking on any button in setting should show discard warning if setting f
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             views: [[1, "form"]],
+=======
+            views: [[false, "form"]],
+>>>>>>> upstream/18.0
 =======
             views: [[false, "form"]],
 >>>>>>> upstream/18.0
@@ -17130,7 +17220,11 @@ test("clicking on any button in setting should show discard warning if setting f
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             views: [[2, "list"]],
+=======
+            views: [[false, "list"]],
+>>>>>>> upstream/18.0
 =======
             views: [[false, "list"]],
 >>>>>>> upstream/18.0
@@ -17895,8 +17989,11 @@ test("clicking on any button in setting should show discard warning if setting f
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ResConfigSettings._views.search = /* xml */ `<search/>`;
     Task._views.search = /* xml */ `<search/>`;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18516,7 +18613,11 @@ test("header field don't dirty settings", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             views: [[1, "form"]],
+=======
+            views: [[false, "form"]],
+>>>>>>> upstream/18.0
 =======
             views: [[false, "form"]],
 >>>>>>> upstream/18.0
@@ -19266,7 +19367,11 @@ test("header field don't dirty settings", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             views: [[2, "list"]],
+=======
+            views: [[false, "list"]],
+>>>>>>> upstream/18.0
 =======
             views: [[false, "list"]],
 >>>>>>> upstream/18.0
@@ -20024,8 +20129,11 @@ test("header field don't dirty settings", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ResConfigSettings._views.search = /* xml */ `<search/>`;
     Task._views.search = /* xml */ `<search/>`;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20570,7 +20678,10 @@ test("header field don't dirty settings", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21037,6 +21148,9 @@ test("header without string or field", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21708,7 +21822,11 @@ test("clicking on a button with noSaveDialog will not show discard warning", asy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             views: [[1, "form"]],
+=======
+            views: [[false, "form"]],
+>>>>>>> upstream/18.0
 =======
             views: [[false, "form"]],
 >>>>>>> upstream/18.0
@@ -22458,7 +22576,11 @@ test("clicking on a button with noSaveDialog will not show discard warning", asy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             views: [[2, "list"]],
+=======
+            views: [[false, "list"]],
+>>>>>>> upstream/18.0
 =======
             views: [[false, "list"]],
 >>>>>>> upstream/18.0
@@ -23219,8 +23341,11 @@ test("clicking on a button with noSaveDialog will not show discard warning", asy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ResConfigSettings._views.search = /* xml */ `<search/>`;
     Task._views.search = /* xml */ `<search/>`;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23929,8 +24054,11 @@ test("execute action from settings view with several actions in the breadcrumb",
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ResConfigSettings._views.search = /* xml */ `<search/>`;
     Task._views.search = /* xml */ `<search/>`;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24574,9 +24702,12 @@ test('call "call_button/execute" when clicking on a button in dirty settings', a
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ResConfigSettings._views.search = /* xml */ `<search/>`;
     Task._views.list = /* xml */ `<list/>`;
     Task._views.search = /* xml */ `<search/>`;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25189,9 +25320,12 @@ test("Discard button clean the settings view", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ResConfigSettings._views.search = /* xml */ `<search/>`;
     Task._views.list = /* xml */ `<list/>`;
     Task._views.search = /* xml */ `<search/>`;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25947,6 +26081,10 @@ test("highlight Element with inner html/fields", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+test.tags("focus required");
+>>>>>>> upstream/18.0
 =======
 test.tags("focus required");
 >>>>>>> upstream/18.0
@@ -26800,7 +26938,10 @@ test("server actions are called with the correct context", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ResConfigSettings._views.search = /* xml */ `<search/>`;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -27277,7 +27418,11 @@ test("BinaryField is correctly rendered in Settings form view", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const body = await request.text();
+=======
+        const body = await request.formData();
+>>>>>>> upstream/18.0
 =======
         const body = await request.formData();
 >>>>>>> upstream/18.0
@@ -27777,7 +27922,11 @@ test("Open settings from url, with app anchor", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             views: [[1, "form"]],
+=======
+            views: [[false, "form"]],
+>>>>>>> upstream/18.0
 =======
             views: [[false, "form"]],
 >>>>>>> upstream/18.0
@@ -28542,7 +28691,10 @@ test("Open settings from url, with app anchor", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ResConfigSettings._views.search = /* xml */ `<search/>`;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -29116,7 +29268,11 @@ test("Open settings from url, with setting id anchor", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             views: [[1, "form"]],
+=======
+            views: [[false, "form"]],
+>>>>>>> upstream/18.0
 =======
             views: [[false, "form"]],
 >>>>>>> upstream/18.0
@@ -29881,7 +30037,10 @@ test("Open settings from url, with setting id anchor", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ResConfigSettings._views.search = /* xml */ `<search/>`;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

@@ -305,6 +305,7 @@ export default class DevicesSynchronisation {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const serverOpenOrders = this.pos.get_open_orders().filter((o) => typeof o.id === "number");
         const recordIds = this.getDynamicRecordServerIds();
         const domain = this.constructOrdersDomain(serverOpenOrders);
@@ -313,6 +314,8 @@ export default class DevicesSynchronisation {
             domain,
             recordIds,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -975,6 +978,9 @@ export default class DevicesSynchronisation {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1694,6 +1700,7 @@ export default class DevicesSynchronisation {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     constructOrdersDomain(serverOpenOrders) {
         const localDomain = serverOpenOrders.map((o) => {
             const dateTime = DateTime.fromSQL(o.write_date);
@@ -1727,6 +1734,8 @@ export default class DevicesSynchronisation {
         ]);
         return domain.toList();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2406,7 +2415,13 @@ export default class DevicesSynchronisation {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const recordDateTimeString = recordDateTime.toFormat("yyyy-MM-dd HH:mm:ss");
+=======
+                const recordDateTimeString = recordDateTime.toFormat("yyyy-MM-dd HH:mm:ss", {
+                    numberingSystem: "latn",
+                });
+>>>>>>> upstream/18.0
 =======
                 const recordDateTimeString = recordDateTime.toFormat("yyyy-MM-dd HH:mm:ss", {
                     numberingSystem: "latn",
@@ -3737,6 +3752,9 @@ export default class DevicesSynchronisation {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

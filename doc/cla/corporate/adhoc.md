@@ -195,7 +195,10 @@ Julia Elizondo jue@adhoc.com.ar https://github.com/jue-adhoc
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -699,6 +702,7 @@ Julia Elizondo jue@adhoc.inc https://github.com/jue-adhoc
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1136,6 +1140,8 @@ Victoria Halac hav@adhoc.inc https://github.com/hav-adhoc
 Manuela Cepeda cem@adhoc.inc https://github.com/cem-adhoc
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1284,6 +1290,7 @@ Lara Valeri lav@adhoc.inc https://github.com/lav-adhoc
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1380,4 +1387,7 @@ Lara Valeri lav@adhoc.inc https://github.com/lav-adhoc
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+Juan Ignacio Rivero jr@adhoc.inc https://github.com/Jradhoc
 >>>>>>> upstream/18.0

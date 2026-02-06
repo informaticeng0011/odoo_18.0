@@ -186,6 +186,7 @@ import { testEditor } from "./_helpers/editor";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import { unformat } from "./_helpers/format";
 import { BOLD_TAGS } from "./_helpers/tags";
@@ -737,6 +738,9 @@ import { BOLD_TAGS } from "./_helpers/tags";
 =======
 import { unformat } from "./_helpers/format";
 import { BOLD_TAGS } from "./_helpers/tags";
+>>>>>>> upstream/18.0
+=======
+import { unformat } from "./_helpers/format";
 >>>>>>> upstream/18.0
 =======
 import { unformat } from "./_helpers/format";
@@ -987,7 +991,11 @@ describe("No orphan inline elements compatibility mode", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should not transform <br> inside <p>", async () => {
+=======
+    test("should not transform <br> inside <p> (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should not transform <br> inside <p> (1)", async () => {
 >>>>>>> upstream/18.0
@@ -1184,6 +1192,12 @@ describe("No orphan inline elements compatibility mode", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should not transform <br> inside <p> (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -1476,6 +1490,12 @@ describe("No orphan inline elements compatibility mode", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should not transform <br> inside <p> (3)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -2026,7 +2046,10 @@ describe("link normalization", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2482,7 +2505,10 @@ describe("color normalization", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2701,6 +2727,9 @@ describe("color normalization", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2964,6 +2993,7 @@ describe("formatting normalization", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should unwrap nested identical bold tags", async () => {
         for (const tag of BOLD_TAGS) {
             await testEditor({
@@ -2972,6 +3002,8 @@ describe("formatting normalization", () => {
             });
         }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3132,6 +3164,9 @@ describe("formatting normalization", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3261,6 +3296,7 @@ describe("formatting normalization", () => {
             `),
         });
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3681,6 +3717,8 @@ describe("formatting normalization", () => {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3893,6 +3931,9 @@ describe("formatting normalization", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -236,6 +236,7 @@ import { beforeEach, describe, expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { click, hover, leave, queryFirst, waitFor, press } from "@odoo/hoot-dom";
 =======
 import { click, hover, leave, queryFirst, waitFor, press, Deferred, edit } from "@odoo/hoot-dom";
@@ -932,6 +933,8 @@ import { click, hover, leave, queryFirst, waitFor, press, Deferred, edit } from 
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import {
     click,
     hover,
@@ -951,6 +954,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -984,6 +990,7 @@ import { browser } from "@web/core/browser/browser";
 import { Dialog } from "@web/core/dialog/dialog";
 import { registry } from "@web/core/registry";
 import { session } from "@web/session";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1925,6 +1932,9 @@ import { WebClient } from "@web/webclient/webclient";
 =======
 import { WebClient } from "@web/webclient/webclient";
 >>>>>>> upstream/18.0
+=======
+import { WebClient } from "@web/webclient/webclient";
+>>>>>>> upstream/18.0
 
 describe.current.tags("desktop");
 
@@ -2120,7 +2130,10 @@ class Partner extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2711,9 +2724,14 @@ beforeEach(() => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("/web/dataset/call_kw/web_tour.tour/consume", async (request) => {
         const { params } = await request.json();
         tourConsumed.push(params.args[0]);
+=======
+    onRpc("web_tour.tour", "consume", ({ args }) => {
+        tourConsumed.push(args[0]);
+>>>>>>> upstream/18.0
 =======
     onRpc("web_tour.tour", "consume", ({ args }) => {
         tourConsumed.push(args[0]);
@@ -3575,8 +3593,13 @@ beforeEach(() => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("/web/dataset/call_kw/res.users/switch_tour_enabled", async () => true);
     onRpc("/web/dataset/call_kw/web_tour.tour/get_tour_json_by_name", async () => ({
+=======
+    onRpc("res.users", "switch_tour_enabled", () => true);
+    onRpc("web_tour.tour", "get_tour_json_by_name", () => ({
+>>>>>>> upstream/18.0
 =======
     onRpc("res.users", "switch_tour_enabled", () => true);
     onRpc("web_tour.tour", "get_tour_json_by_name", () => ({
@@ -4970,7 +4993,11 @@ test("Tour backward when the pointed element disappear and ignore warn step", as
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             { trigger: "button.bar" },
+=======
+            { trigger: "button.foo" },
+>>>>>>> upstream/18.0
 =======
             { trigger: "button.foo" },
 >>>>>>> upstream/18.0
@@ -5343,7 +5370,11 @@ test("Tour backward when the pointed element disappear and ignore warn step", as
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect.verifySteps(["Step 'button.bar' ignored.", "Step 'button.bar' ignored."]);
+=======
+    expect.verifySteps(["Step 'button.foo' ignored.", "Step 'button.foo' ignored."]);
+>>>>>>> upstream/18.0
 =======
     expect.verifySteps(["Step 'button.foo' ignored.", "Step 'button.foo' ignored."]);
 >>>>>>> upstream/18.0
@@ -6162,7 +6193,10 @@ test("validating click on autocomplete item by pressing Enter", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6923,6 +6957,7 @@ test("Tour don't backward when dropdown loading", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7099,6 +7134,8 @@ test("Tour don't backward when dropdown loading", async () => {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7592,6 +7629,7 @@ test("Don't backward when action manager is busy", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7868,6 +7906,8 @@ test("Don't backward when action manager is busy", async () => {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7928,6 +7968,9 @@ test("pointer hidden when trigger is behind overlay", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -174,7 +174,11 @@ class Binary(http.Controller):
         '/web/image/<int:id>-<string:unique>/<string:filename>',
         '/web/image/<int:id>-<string:unique>/<int:width>x<int:height>',
         '/web/image/<int:id>-<string:unique>/<int:width>x<int:height>/<string:filename>',
+<<<<<<< HEAD
     ], type='http', auth='public', readonly=True)
+=======
+    ], type='http', auth='public', readonly=True, save_session=False)
+>>>>>>> upstream/18.0
     # pylint: disable=redefined-builtin,invalid-name
     def content_image(self, xmlid=None, model='ir.attachment', id=None, field='raw',
                       filename_field='name', filename=None, mimetype=None, unique=False,

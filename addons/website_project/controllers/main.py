@@ -49,6 +49,7 @@ class WebsiteForm(form.WebsiteForm):
             partner = partners_list[0] if partners_list else self.env['res.partner']
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             data['record']['partner_id'] = partner.id
             data['record']['email_from'] = values['email_from']
             if partner:
@@ -61,6 +62,8 @@ class WebsiteForm(form.WebsiteForm):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             data['record']['email_from'] = values['email_from']
             if partner:
                 data['record']['partner_id'] = partner.id
@@ -71,6 +74,9 @@ class WebsiteForm(form.WebsiteForm):
                 ]
                 data['custom'] += "\n" + "\n".join(["%s : %s" % c for c in custom])
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -281,7 +287,12 @@ class WebsiteForm(form.WebsiteForm):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 data['record']['partner_name'] = values['partner_name']
+=======
+                if values.get('partner_name'):
+                    data['record']['partner_name'] = values['partner_name']
+>>>>>>> upstream/18.0
 =======
                 if values.get('partner_name'):
                     data['record']['partner_name'] = values['partner_name']

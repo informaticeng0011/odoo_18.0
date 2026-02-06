@@ -99,10 +99,13 @@ class AccountEdiXmlUBLSG(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         vals = super()._get_partner_party_vals(partner, role)
 
         for party_tax_scheme in vals['party_tax_scheme_vals']:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -324,6 +327,9 @@ class AccountEdiXmlUBLSG(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -549,6 +555,11 @@ class AccountEdiXmlUBLSG(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -926,6 +937,11 @@ class AccountEdiXmlUBLSG(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -1298,6 +1314,11 @@ class AccountEdiXmlUBLSG(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -1674,6 +1695,11 @@ class AccountEdiXmlUBLSG(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -2046,7 +2072,10 @@ class AccountEdiXmlUBLSG(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2252,6 +2281,7 @@ class AccountEdiXmlUBLSG(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -2259,6 +2289,8 @@ class AccountEdiXmlUBLSG(models.AbstractModel):
         # EXTENDS account.edi.xml.ubl_bis3
         grouping_key = super()._ubl_default_tax_category_grouping_key(base_line, tax_data, vals, currency)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2424,6 +2456,9 @@ class AccountEdiXmlUBLSG(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2555,6 +2590,7 @@ class AccountEdiXmlUBLSG(models.AbstractModel):
         # OVERRIDE account.edi.xml.ubl_bis3
         self._ubl_add_values_tax_currency_code_empty(vals)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     def _add_invoice_tax_total_nodes(self, document_node, vals):
         # OVERRIDE
@@ -2727,6 +2763,8 @@ class AccountEdiXmlUBLSG(models.AbstractModel):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
     def _ubl_tax_totals_node_grouping_key(self, base_line, tax_data, vals, currency):
         # EXTENDS account.edi.xml.ubl_bis3
         tax_total_keys = super()._ubl_tax_totals_node_grouping_key(base_line, tax_data, vals, currency)
@@ -2741,6 +2779,9 @@ class AccountEdiXmlUBLSG(models.AbstractModel):
 
         return tax_total_keys
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _add_invoice_header_nodes(self, document_node, vals):
         # EXTENDS account.edi.xml.ubl_bis3
@@ -2760,6 +2801,7 @@ class AccountEdiXmlUBLSG(models.AbstractModel):
         party_node = super()._get_party_node(vals)
         party_node['cac:PartyTaxScheme'][0]['cac:TaxScheme']['cbc:ID']['_text'] = 'GST'
         return party_node
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2846,6 +2888,8 @@ class AccountEdiXmlUBLSG(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

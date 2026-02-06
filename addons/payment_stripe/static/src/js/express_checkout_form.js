@@ -217,6 +217,7 @@ paymentExpressCheckoutForm.include({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const orderDeliveryAmount = parseInt(this.paymentContext['deliveryAmount'])
         let minorAmount = parseInt(this.paymentContext['minorAmount'])
         if (orderDeliveryAmount) { // The delivery method is set on the order.
@@ -823,6 +824,9 @@ paymentExpressCheckoutForm.include({
 =======
         let minorAmount = parseInt(this.paymentContext['minorAmount'] || 0)
 >>>>>>> upstream/18.0
+=======
+        let minorAmount = parseInt(this.paymentContext['minorAmount'] || 0)
+>>>>>>> upstream/18.0
         const displayItems = [
             {
                 label: _t("Your order"),
@@ -969,6 +973,7 @@ paymentExpressCheckoutForm.include({
             // shipping address, the shipping options need to be fetched again.
             paymentRequest.on('shippingaddresschange', async (ev) => {
                 // Call the shipping address update route to fetch the shipping options.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1770,6 +1775,9 @@ paymentExpressCheckoutForm.include({
 =======
                 const availableCarriersData = await rpc(
 >>>>>>> upstream/18.0
+=======
+                const availableCarriersData = await rpc(
+>>>>>>> upstream/18.0
                     this.paymentContext['shippingAddressUpdateRoute'],
                     {
                         partial_delivery_address: {
@@ -1780,6 +1788,7 @@ paymentExpressCheckoutForm.include({
                         },
                     },
                 );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2654,6 +2663,8 @@ paymentExpressCheckoutForm.include({
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 this.paymentContext['minorAmount'] = await rpc(
                     this.paymentContext['shippingAddressUpdateRoute'] + '/compute_taxes',
                 );
@@ -2721,6 +2732,9 @@ paymentExpressCheckoutForm.include({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3050,7 +3064,11 @@ paymentExpressCheckoutForm.include({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         shippingOptions: availableCarriers.map(carrier => ({
+=======
+                        shippingOptions: delivery_methods.map(carrier => ({
+>>>>>>> upstream/18.0
 =======
                         shippingOptions: delivery_methods.map(carrier => ({
 >>>>>>> upstream/18.0
@@ -3856,8 +3874,11 @@ paymentExpressCheckoutForm.include({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         ...this._getOrderDetails(availableCarriers[0].minorAmount),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4459,6 +4480,9 @@ paymentExpressCheckoutForm.include({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -67,8 +67,11 @@ class TestUblExportBis3BE(TestUblBis3Common, TestUblCiiBECommon):
     def test_invoice_price_unit_more_decimals(self):
         tax_21 = self.percent_tax(21.0)
 <<<<<<< HEAD
+<<<<<<< HEAD
         decimal_precision = self.env['decimal.precision'].search([('name', '=', 'Product Price')], limit=1)
         decimal_precision.digits = 4
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         product = self._create_product(lst_price=0.4567, taxes_id=tax_21)
@@ -83,7 +86,10 @@ class TestUblExportBis3BE(TestUblBis3Common, TestUblCiiBECommon):
         self._assert_invoice_ubl_file(invoice, 'test_invoice_price_unit_more_decimals')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_invoice_BR_CO_10_line_extension_amount_sum_lines(self):
         """ [BR_CO_10] Sum of Invoice line net amount (BT-106) = Σ Invoice line net amount (BT-131). """
         tax_21 = self.percent_tax(21.0)
@@ -105,6 +111,9 @@ class TestUblExportBis3BE(TestUblBis3Common, TestUblCiiBECommon):
         self._generate_invoice_ubl_file(invoice)
         self._assert_invoice_ubl_file(invoice, 'test_invoice_BR_CO_10_line_extension_amount_sum_lines')
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_invoice_price_amount_rounding_precision_with_price_included_taxes(self):
         tax_21 = self.percent_tax(21.0, price_include_override='tax_included')
@@ -147,6 +156,7 @@ class TestUblExportBis3BE(TestUblBis3Common, TestUblCiiBECommon):
         self._generate_invoice_ubl_file(invoice)
         self._assert_invoice_ubl_file(invoice, 'test_invoice_tax_exempt')
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -306,6 +316,8 @@ class TestUblExportBis3BE(TestUblBis3Common, TestUblCiiBECommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def test_invoice_tax_reverse_charge(self):
         tax_21 = self.percent_tax(21.0)
         tax_minus_10_67 = self.percent_tax(-10.67)
@@ -328,6 +340,9 @@ class TestUblExportBis3BE(TestUblBis3Common, TestUblCiiBECommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -414,6 +429,7 @@ class TestUblExportBis3BE(TestUblBis3Common, TestUblCiiBECommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -512,6 +528,8 @@ class TestUblExportBis3BE(TestUblBis3Common, TestUblCiiBECommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
     def test_invoice_BR_S_08_tax_subtotal_taxable_amount(self):
         """ [BR-S-08] For each different value of VAT category rate (BT-119) where the VAT category code (BT-118) is "Standard rated",
         the VAT category taxable amount (BT-116) in a VAT breakdown (BG-23) shall equal the sum of Invoice line net amounts (BT-131)
@@ -545,6 +563,9 @@ class TestUblExportBis3BE(TestUblBis3Common, TestUblCiiBECommon):
         self._generate_invoice_ubl_file(invoice)
         self._assert_invoice_ubl_file(invoice, 'test_invoice_BR_S_08_tax_subtotal_taxable_amount')
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_invoice_allowance_charge_fixed_tax_recycling_contribution(self):
         """ Ensure the recycling contribution taxes are turned into allowance/charges at the document line level. """
@@ -572,6 +593,10 @@ class TestUblExportBis3BE(TestUblBis3Common, TestUblCiiBECommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        tax_bebat = self.fixed_tax(3.0, name="BEBAT", include_base_amount=True)
+>>>>>>> upstream/18.0
 =======
         tax_bebat = self.fixed_tax(3.0, name="BEBAT", include_base_amount=True)
 >>>>>>> upstream/18.0
@@ -676,7 +701,10 @@ class TestUblExportBis3BE(TestUblBis3Common, TestUblCiiBECommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -745,6 +773,9 @@ class TestUblExportBis3BE(TestUblBis3Common, TestUblCiiBECommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -902,6 +933,7 @@ class TestUblExportBis3BE(TestUblBis3Common, TestUblCiiBECommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1006,6 +1038,8 @@ class TestUblExportBis3BE(TestUblBis3Common, TestUblCiiBECommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_invoice_multiple_fixed_tax_emptying_turned_as_extra_invoice_lines(self):
@@ -1041,6 +1075,9 @@ class TestUblExportBis3BE(TestUblBis3Common, TestUblCiiBECommon):
         self._assert_invoice_ubl_file(invoice, 'test_invoice_multiple_fixed_tax_emptying_turned_as_extra_invoice_lines')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1123,6 +1160,9 @@ class TestUblExportBis3BE(TestUblBis3Common, TestUblCiiBECommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1445,6 +1485,7 @@ class TestUblExportBis3BE(TestUblBis3Common, TestUblCiiBECommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1555,6 +1596,8 @@ class TestUblExportBis3BE(TestUblBis3Common, TestUblCiiBECommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def test_invoice_sent_to_partner_with_gln(self):
         self.ensure_installed('account_add_gln')
         self.partner_be.global_location_number = "222222222222"
@@ -1580,6 +1623,9 @@ class TestUblExportBis3BE(TestUblBis3Common, TestUblCiiBECommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1635,6 +1681,7 @@ class TestUblExportBis3BE(TestUblBis3Common, TestUblCiiBECommon):
         )
 
         self._generate_invoice_ubl_file(invoice)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1838,6 +1885,10 @@ class TestUblExportBis3BE(TestUblBis3Common, TestUblCiiBECommon):
         self._assert_invoice_ubl_file(invoice, 'test_invoice_sent_to_partner_with_gln')
 
 >>>>>>> upstream/18.0
+=======
+        self._assert_invoice_ubl_file(invoice, 'test_invoice_sent_to_partner_with_gln')
+
+>>>>>>> upstream/18.0
     def test_invoice_send_and_print_additional_documents(self):
         """ Ensure an additional document is added to the UBL under AdditionalDocumentReference. """
         self.ensure_installed('test_mimetypes')
@@ -1898,7 +1949,10 @@ class TestUblExportBis3BE(TestUblBis3Common, TestUblCiiBECommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1944,6 +1998,7 @@ class TestUblExportBis3BE(TestUblBis3Common, TestUblCiiBECommon):
         )
 
         self._generate_invoice_ubl_file(invoice)
+<<<<<<< HEAD
 
         self._assert_invoice_ubl_file(invoice, 'test_invoice_negative_discount_upsell')
 <<<<<<< HEAD
@@ -1988,4 +2043,58 @@ class TestUblExportBis3BE(TestUblBis3Common, TestUblCiiBECommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        self._assert_invoice_ubl_file(invoice, 'test_invoice_negative_discount_upsell')
+
+    def test_invoice_product_commodity_code_intrastat(self):
+        self.ensure_installed('account_intrastat')
+        tax_21 = self.percent_tax(21.0)
+        product = self._create_product(
+            lst_price=10.0,
+            taxes_id=tax_21,
+            intrastat_code_id=self.env.ref('account_intrastat.commodity_code_2018_25309000'),
+        )
+        invoice = self._create_invoice_one_line(
+            product_id=product,
+            partner_id=self.partner_be,
+            post=True,
+        )
+
+        self._generate_invoice_ubl_file(invoice)
+        self._assert_invoice_ubl_file(invoice, 'test_invoice_product_commodity_code_intrastat')
+
+    def test_invoice_product_commodity_code_unspsc(self):
+        self.ensure_installed('product_unspsc')
+        tax_21 = self.percent_tax(21.0)
+        product = self._create_product(
+            lst_price=10.0,
+            taxes_id=tax_21,
+            unspsc_code_id=self.env.ref('product_unspsc.unspsc_code_12141906'),
+        )
+        invoice = self._create_invoice_one_line(
+            product_id=product,
+            partner_id=self.partner_be,
+            post=True,
+        )
+
+        self._generate_invoice_ubl_file(invoice)
+        self._assert_invoice_ubl_file(invoice, 'test_invoice_product_commodity_code_unspsc')
+
+    def test_invoice_product_commodity_code_cpv(self):
+        self.ensure_installed('l10n_ro_cpv_code')
+        tax_21 = self.percent_tax(21.0)
+        product = self._create_product(
+            lst_price=10.0,
+            taxes_id=tax_21,
+            cpv_code_id=self.env.ref('l10n_ro_cpv_code.351131100'),
+        )
+        invoice = self._create_invoice_one_line(
+            product_id=product,
+            partner_id=self.partner_be,
+            post=True,
+        )
+
+        self._generate_invoice_ubl_file(invoice)
+        self._assert_invoice_ubl_file(invoice, 'test_invoice_product_commodity_code_cpv')
 >>>>>>> upstream/18.0

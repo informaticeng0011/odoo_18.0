@@ -68,6 +68,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { cookie } from "@web/core/browser/cookie";
+>>>>>>> upstream/18.0
 =======
 import { cookie } from "@web/core/browser/cookie";
 >>>>>>> upstream/18.0
@@ -369,6 +373,10 @@ export class AddSnippetDialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            this.insertColorScheme();
+>>>>>>> upstream/18.0
 =======
             this.insertColorScheme();
 >>>>>>> upstream/18.0
@@ -758,7 +766,11 @@ export class AddSnippetDialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return this.iframeRef.el.contentDocument;
+=======
+        return this.iframeRef.el?.contentDocument;
+>>>>>>> upstream/18.0
 =======
         return this.iframeRef.el?.contentDocument;
 >>>>>>> upstream/18.0
@@ -1708,7 +1720,10 @@ export class AddSnippetDialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1898,6 +1913,9 @@ export class AddSnippetDialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

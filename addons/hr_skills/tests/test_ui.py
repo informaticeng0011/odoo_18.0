@@ -1,9 +1,18 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 import odoo.tests
+<<<<<<< HEAD
 
 @odoo.tests.tagged('-at_install', 'post_install')
 class SkillsTestUI(odoo.tests.HttpCase):
+=======
+from odoo.tools import mute_logger
+
+@odoo.tests.tagged('-at_install', 'post_install')
+class SkillsTestUI(odoo.tests.HttpCase):
+
+    @mute_logger('odoo.http', 'odoo.sql_db')
+>>>>>>> upstream/18.0
     def test_ui(self):
         levels = self.env['hr.skill.level'].create([{
             'name': f'Level {x}',

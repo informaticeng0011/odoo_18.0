@@ -172,7 +172,11 @@ class Digest(models.Model):
                 'user': user,
                 'unsubscribe_token': unsubscribe_token,
                 'tips_count': tips_count,
+<<<<<<< HEAD
                 'formatted_date': datetime.today().strftime('%B %d, %Y'),
+=======
+                'formatted_date': tools.format_date(self.env, datetime.today(), date_format='MMMM dd, yyyy'),
+>>>>>>> upstream/18.0
                 'display_mobile_banner': True,
                 'kpi_data': self._compute_kpis(user.company_id, user),
                 'tips': self._compute_tips(user.company_id, user, tips_count=tips_count, consumed=consume_tips),

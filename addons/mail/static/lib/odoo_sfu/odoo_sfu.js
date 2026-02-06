@@ -1,8 +1,12 @@
 /* @odoo-module */
 <<<<<<< HEAD
+<<<<<<< HEAD
 var commonjsGlobal = typeof globalThis !== 'undefined' ? globalThis : typeof window !== 'undefined' ? window : typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : {};
 
 var lib$2 = {};
+=======
+var lib$4 = {};
+>>>>>>> upstream/18.0
 =======
 var lib$4 = {};
 >>>>>>> upstream/18.0
@@ -41,7 +45,11 @@ function requireMs () {
 	 */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	ms = function(val, options) {
+=======
+	ms = function (val, options) {
+>>>>>>> upstream/18.0
 =======
 	ms = function (val, options) {
 >>>>>>> upstream/18.0
@@ -352,6 +360,7 @@ function setup(env) {
 		createDebug.skips = [];
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		let i;
 		const split = (typeof namespaces === 'string' ? namespaces : '').split(/[\s,]+/);
 		const len = split.length;
@@ -369,6 +378,8 @@ function setup(env) {
 			} else {
 				createDebug.names.push(new RegExp('^' + namespaces + '$'));
 =======
+=======
+>>>>>>> upstream/18.0
 		const split = (typeof namespaces === 'string' ? namespaces : '')
 			.trim()
 			.replace(/\s+/g, ',')
@@ -380,6 +391,9 @@ function setup(env) {
 				createDebug.skips.push(ns.slice(1));
 			} else {
 				createDebug.names.push(ns);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 			}
 		}
@@ -387,7 +401,10 @@ function setup(env) {
 
 	/**
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 	 * Checks if the given string matches a namespace template, honoring
 	 * asterisks as wildcards.
 	 *
@@ -431,6 +448,9 @@ function setup(env) {
 	}
 
 	/**
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 	* Disable debug output.
 	*
@@ -440,8 +460,13 @@ function setup(env) {
 	function disable() {
 		const namespaces = [
 <<<<<<< HEAD
+<<<<<<< HEAD
 			...createDebug.names.map(toNamespace),
 			...createDebug.skips.map(toNamespace).map(namespace => '-' + namespace)
+=======
+			...createDebug.names,
+			...createDebug.skips.map(namespace => '-' + namespace)
+>>>>>>> upstream/18.0
 =======
 			...createDebug.names,
 			...createDebug.skips.map(namespace => '-' + namespace)
@@ -460,6 +485,7 @@ function setup(env) {
 	*/
 	function enabled(name) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		if (name[name.length - 1] === '*') {
 			return true;
 		}
@@ -473,13 +499,22 @@ function setup(env) {
 		for (const skip of createDebug.skips) {
 			if (matchesTemplate(name, skip)) {
 >>>>>>> upstream/18.0
+=======
+		for (const skip of createDebug.skips) {
+			if (matchesTemplate(name, skip)) {
+>>>>>>> upstream/18.0
 				return false;
 			}
 		}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		for (i = 0, len = createDebug.names.length; i < len; i++) {
 			if (createDebug.names[i].test(name)) {
+=======
+		for (const ns of createDebug.names) {
+			if (matchesTemplate(name, ns)) {
+>>>>>>> upstream/18.0
 =======
 		for (const ns of createDebug.names) {
 			if (matchesTemplate(name, ns)) {
@@ -492,6 +527,7 @@ function setup(env) {
 	}
 
 	/**
+<<<<<<< HEAD
 <<<<<<< HEAD
 	* Convert regexp to namespace
 	*
@@ -506,6 +542,8 @@ function setup(env) {
 	}
 
 	/**
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 	* Coerce `val`.
@@ -666,14 +704,20 @@ browser.exports;
 		}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		// Is webkit? http://stackoverflow.com/a/16459606/376773
 		// document is undefined in react-native: https://github.com/facebook/react-native/pull/1632
 =======
+=======
+>>>>>>> upstream/18.0
 		let m;
 
 		// Is webkit? http://stackoverflow.com/a/16459606/376773
 		// document is undefined in react-native: https://github.com/facebook/react-native/pull/1632
 		// eslint-disable-next-line no-return-assign
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 		return (typeof document !== 'undefined' && document.documentElement && document.documentElement.style && document.documentElement.style.WebkitAppearance) ||
 			// Is firebug? http://stackoverflow.com/a/398120/376773
@@ -681,7 +725,11 @@ browser.exports;
 			// Is firefox >= v31?
 			// https://developer.mozilla.org/en-US/docs/Tools/Web_Console#Styling_messages
 <<<<<<< HEAD
+<<<<<<< HEAD
 			(typeof navigator !== 'undefined' && navigator.userAgent && navigator.userAgent.toLowerCase().match(/firefox\/(\d+)/) && parseInt(RegExp.$1, 10) >= 31) ||
+=======
+			(typeof navigator !== 'undefined' && navigator.userAgent && (m = navigator.userAgent.toLowerCase().match(/firefox\/(\d+)/)) && parseInt(m[1], 10) >= 31) ||
+>>>>>>> upstream/18.0
 =======
 			(typeof navigator !== 'undefined' && navigator.userAgent && (m = navigator.userAgent.toLowerCase().match(/firefox\/(\d+)/)) && parseInt(m[1], 10) >= 31) ||
 >>>>>>> upstream/18.0
@@ -769,7 +817,11 @@ browser.exports;
 		let r;
 		try {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			r = exports.storage.getItem('debug');
+=======
+			r = exports.storage.getItem('debug') || exports.storage.getItem('DEBUG') ;
+>>>>>>> upstream/18.0
 =======
 			r = exports.storage.getItem('debug') || exports.storage.getItem('DEBUG') ;
 >>>>>>> upstream/18.0
@@ -827,6 +879,7 @@ browser.exports;
 
 var browserExports = browser.exports;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 var Device$1 = {};
 
@@ -1794,6 +1847,8 @@ class Logger$2 {
             this._warn = (0, debug_1$1.default)(`${APP_NAME}:WARN`);
             this._error = (0, debug_1$1.default)(`${APP_NAME}:ERROR`);
 =======
+=======
+>>>>>>> upstream/18.0
 var types = {};
 
 Object.defineProperty(types, "__esModule", { value: true });
@@ -1820,6 +1875,9 @@ class Logger$4 {
             this._debug = (0, debug_1$1.default)(APP_NAME$1);
             this._warn = (0, debug_1$1.default)(`${APP_NAME$1}:WARN`);
             this._error = (0, debug_1$1.default)(`${APP_NAME$1}:ERROR`);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
         /* eslint-disable no-console */
@@ -1839,9 +1897,15 @@ class Logger$4 {
     }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 Logger$3.Logger = Logger$2;
 
 var EnhancedEventEmitter$1 = {};
+=======
+Logger$5.Logger = Logger$4;
+
+var enhancedEvents = {};
+>>>>>>> upstream/18.0
 =======
 Logger$5.Logger = Logger$4;
 
@@ -2327,6 +2391,7 @@ function eventTargetAgnosticAddListener(emitter, name, listener, flags) {
 var eventsExports = events.exports;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Object.defineProperty(EnhancedEventEmitter$1, "__esModule", { value: true });
 EnhancedEventEmitter$1.EnhancedEventEmitter = void 0;
 const events_1 = eventsExports;
@@ -2334,6 +2399,8 @@ const Logger_1$j = Logger$3;
 const logger$j = new Logger_1$j.Logger('EnhancedEventEmitter');
 class EnhancedEventEmitter extends events_1.EventEmitter {
 =======
+=======
+>>>>>>> upstream/18.0
 /* eslint-disable @typescript-eslint/no-explicit-any */
 Object.defineProperty(enhancedEvents, "__esModule", { value: true });
 enhancedEvents.EnhancedEventEmitter = void 0;
@@ -2341,19 +2408,28 @@ const events_alias_1 = eventsExports;
 const Logger_1$f = Logger$5;
 const enhancedEventEmitterLogger = new Logger_1$f.Logger('EnhancedEventEmitter');
 class EnhancedEventEmitter extends events_alias_1.EventEmitter {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     constructor() {
         super();
         this.setMaxListeners(Infinity);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     /**
      * Empties all stored event listeners.
      */
     close() {
         super.removeAllListeners();
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     emit(eventName, ...args) {
         return super.emit(eventName, ...args);
@@ -2363,7 +2439,10 @@ class EnhancedEventEmitter extends events_alias_1.EventEmitter {
      */
     safeEmit(eventName, ...args) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         const numListeners = super.listenerCount(eventName);
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         try {
@@ -2371,9 +2450,12 @@ class EnhancedEventEmitter extends events_alias_1.EventEmitter {
         }
         catch (error) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             logger$j.error('safeEmit() | event listener threw an error [eventName:%s]:%o', eventName, error);
             return Boolean(numListeners);
 =======
+=======
+>>>>>>> upstream/18.0
             enhancedEventEmitterLogger.error('safeEmit() | event listener threw an error [eventName:%s]:%o', eventName, error);
             try {
                 super.emit('listenererror', eventName, error);
@@ -2382,6 +2464,9 @@ class EnhancedEventEmitter extends events_alias_1.EventEmitter {
                 // Ignore it.
             }
             return Boolean(super.listenerCount(eventName));
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
     }
@@ -2428,6 +2513,7 @@ class EnhancedEventEmitter extends events_alias_1.EventEmitter {
     }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 EnhancedEventEmitter$1.EnhancedEventEmitter = EnhancedEventEmitter;
 
 var errors = {};
@@ -2435,12 +2521,17 @@ var errors = {};
 Object.defineProperty(errors, "__esModule", { value: true });
 errors.InvalidStateError = errors.UnsupportedError = void 0;
 =======
+=======
+>>>>>>> upstream/18.0
 enhancedEvents.EnhancedEventEmitter = EnhancedEventEmitter;
 
 var errors$1 = {};
 
 Object.defineProperty(errors$1, "__esModule", { value: true });
 errors$1.InvalidStateError = errors$1.UnsupportedError = void 0;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 /**
  * Error indicating not support for something.
@@ -2449,6 +2540,7 @@ class UnsupportedError extends Error {
     constructor(message) {
         super(message);
         this.name = 'UnsupportedError';
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (Error.hasOwnProperty('captureStackTrace')) // Just in V8.
          {
@@ -2462,6 +2554,8 @@ class UnsupportedError extends Error {
 }
 errors.UnsupportedError = UnsupportedError;
 =======
+=======
+>>>>>>> upstream/18.0
         if (Error.hasOwnProperty('captureStackTrace')) {
             Error.captureStackTrace(this, UnsupportedError);
         }
@@ -2471,6 +2565,9 @@ errors.UnsupportedError = UnsupportedError;
     }
 }
 errors$1.UnsupportedError = UnsupportedError;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 /**
  * Error produced when calling a method in an invalid state.
@@ -2479,6 +2576,7 @@ class InvalidStateError extends Error {
     constructor(message) {
         super(message);
         this.name = 'InvalidStateError';
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (Error.hasOwnProperty('captureStackTrace')) // Just in V8.
          {
@@ -2501,6 +2599,8 @@ utils$h.generateRandomNumber = utils$h.clone = void 0;
  */
 function clone(value) {
 =======
+=======
+>>>>>>> upstream/18.0
         if (Error.hasOwnProperty('captureStackTrace')) {
             // Just in V8.
             Error.captureStackTrace(this, InvalidStateError);
@@ -2522,6 +2622,9 @@ utils$8.deepFreeze = deepFreeze;
  * Clones the given value.
  */
 function clone$1(value) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     if (value === undefined) {
         return undefined;
@@ -2538,7 +2641,10 @@ function clone$1(value) {
     }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 utils$h.clone = clone;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 /**
@@ -2547,6 +2653,7 @@ utils$h.clone = clone;
 function generateRandomNumber() {
     return Math.round(Math.random() * 10000000);
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 utils$h.generateRandomNumber = generateRandomNumber;
 
@@ -3061,6 +3168,8 @@ ortc$d.canReceive = ortc$d.canSend = ortc$d.generateProbatorRtpParameters = ortc
 const h264 = __importStar$h(h264ProfileLevelId);
 const utils$g = __importStar$h(utils$h);
 =======
+=======
+>>>>>>> upstream/18.0
 /**
  * Make an object or array recursively immutable.
  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze.
@@ -3700,6 +3809,9 @@ ortc$8.canSend = canSend;
 ortc$8.canReceive = canReceive;
 const h264 = lib$3;
 const utils$7 = utils$8;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 const RTP_PROBATOR_MID = 'probator';
 const RTP_PROBATOR_SSRC = 1234;
@@ -3710,7 +3822,11 @@ const RTP_PROBATOR_CODEC_PAYLOAD_TYPE = 127;
  * It throws if invalid.
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 function validateRtpCapabilities(caps) {
+=======
+function validateAndNormalizeRtpCapabilities(caps) {
+>>>>>>> upstream/18.0
 =======
 function validateAndNormalizeRtpCapabilities(caps) {
 >>>>>>> upstream/18.0
@@ -3726,7 +3842,11 @@ function validateAndNormalizeRtpCapabilities(caps) {
     }
     for (const codec of caps.codecs) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         validateRtpCodecCapability(codec);
+=======
+        validateAndNormalizeRtpCodecCapability(codec);
+>>>>>>> upstream/18.0
 =======
         validateAndNormalizeRtpCodecCapability(codec);
 >>>>>>> upstream/18.0
@@ -3740,11 +3860,14 @@ function validateAndNormalizeRtpCapabilities(caps) {
     }
     for (const ext of caps.headerExtensions) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         validateRtpHeaderExtension(ext);
     }
 }
 ortc$d.validateRtpCapabilities = validateRtpCapabilities;
 =======
+=======
+>>>>>>> upstream/18.0
         validateAndNormalizeRtpHeaderExtension(ext);
     }
 }
@@ -4231,6 +4354,9 @@ function canReceive(rtpParameters, rtpCapabilities) {
     const firstMediaCodec = rtpParameters.codecs[0];
     return (rtpCapabilities.codecs ?? []).some(codec => codec.preferredPayloadType === firstMediaCodec.payloadType);
 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 /**
  * Validates RtpCodecCapability. It may modify given data by adding missing
@@ -4238,7 +4364,11 @@ function canReceive(rtpParameters, rtpCapabilities) {
  * It throws if invalid.
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 function validateRtpCodecCapability(codec) {
+=======
+function validateAndNormalizeRtpCodecCapability(codec) {
+>>>>>>> upstream/18.0
 =======
 function validateAndNormalizeRtpCodecCapability(codec) {
 >>>>>>> upstream/18.0
@@ -4257,9 +4387,15 @@ function validateAndNormalizeRtpCodecCapability(codec) {
     // Just override kind with media component of mimeType.
     codec.kind = mimeTypeMatch[1].toLowerCase();
 <<<<<<< HEAD
+<<<<<<< HEAD
     // preferredPayloadType is optional.
     if (codec.preferredPayloadType && typeof codec.preferredPayloadType !== 'number') {
         throw new TypeError('invalid codec.preferredPayloadType');
+=======
+    // preferredPayloadType is mandatory.
+    if (typeof codec.preferredPayloadType !== 'number') {
+        throw new TypeError('missing codec.preferredPayloadType');
+>>>>>>> upstream/18.0
 =======
     // preferredPayloadType is mandatory.
     if (typeof codec.preferredPayloadType !== 'number') {
@@ -4305,10 +4441,16 @@ function validateAndNormalizeRtpCodecCapability(codec) {
     }
     for (const fb of codec.rtcpFeedback) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         validateRtcpFeedback(fb);
     }
 }
 ortc$d.validateRtpCodecCapability = validateRtpCodecCapability;
+=======
+        validateAndNormalizeRtcpFeedback(fb);
+    }
+}
+>>>>>>> upstream/18.0
 =======
         validateAndNormalizeRtcpFeedback(fb);
     }
@@ -4320,7 +4462,11 @@ ortc$d.validateRtpCodecCapability = validateRtpCodecCapability;
  * It throws if invalid.
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 function validateRtcpFeedback(fb) {
+=======
+function validateAndNormalizeRtcpFeedback(fb) {
+>>>>>>> upstream/18.0
 =======
 function validateAndNormalizeRtcpFeedback(fb) {
 >>>>>>> upstream/18.0
@@ -4337,7 +4483,10 @@ function validateAndNormalizeRtcpFeedback(fb) {
     }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 ortc$d.validateRtcpFeedback = validateRtcpFeedback;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 /**
@@ -4346,7 +4495,11 @@ ortc$d.validateRtcpFeedback = validateRtcpFeedback;
  * It throws if invalid.
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 function validateRtpHeaderExtension(ext) {
+=======
+function validateAndNormalizeRtpHeaderExtension(ext) {
+>>>>>>> upstream/18.0
 =======
 function validateAndNormalizeRtpHeaderExtension(ext) {
 >>>>>>> upstream/18.0
@@ -4380,6 +4533,7 @@ function validateAndNormalizeRtpHeaderExtension(ext) {
         ext.direction = 'sendrecv';
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 ortc$d.validateRtpHeaderExtension = validateRtpHeaderExtension;
 /**
@@ -4434,13 +4588,19 @@ function validateRtpParameters(params) {
 ortc$d.validateRtpParameters = validateRtpParameters;
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 /**
  * Validates RtpCodecParameters. It may modify given data by adding missing
  * fields with default values.
  * It throws if invalid.
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 function validateRtpCodecParameters(codec) {
+=======
+function validateAndNormalizeRtpCodecParameters(codec) {
+>>>>>>> upstream/18.0
 =======
 function validateAndNormalizeRtpCodecParameters(codec) {
 >>>>>>> upstream/18.0
@@ -4500,10 +4660,16 @@ function validateAndNormalizeRtpCodecParameters(codec) {
     }
     for (const fb of codec.rtcpFeedback) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         validateRtcpFeedback(fb);
     }
 }
 ortc$d.validateRtpCodecParameters = validateRtpCodecParameters;
+=======
+        validateAndNormalizeRtcpFeedback(fb);
+    }
+}
+>>>>>>> upstream/18.0
 =======
         validateAndNormalizeRtcpFeedback(fb);
     }
@@ -4549,7 +4715,10 @@ function validateRtpHeaderExtensionParameters(ext) {
     }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 ortc$d.validateRtpHeaderExtensionParameters = validateRtpHeaderExtensionParameters;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 /**
@@ -4558,7 +4727,11 @@ ortc$d.validateRtpHeaderExtensionParameters = validateRtpHeaderExtensionParamete
  * It throws if invalid.
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 function validateRtpEncodingParameters(encoding) {
+=======
+function validateAndNormalizeRtpEncodingParameters(encoding) {
+>>>>>>> upstream/18.0
 =======
 function validateAndNormalizeRtpEncodingParameters(encoding) {
 >>>>>>> upstream/18.0
@@ -4589,17 +4762,23 @@ function validateAndNormalizeRtpEncodingParameters(encoding) {
     }
     // scalabilityMode is optional.
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (encoding.scalabilityMode && typeof encoding.scalabilityMode !== 'string') {
         throw new TypeError('invalid encoding.scalabilityMode');
     }
 }
 ortc$d.validateRtpEncodingParameters = validateRtpEncodingParameters;
 =======
+=======
+>>>>>>> upstream/18.0
     if (encoding.scalabilityMode &&
         typeof encoding.scalabilityMode !== 'string') {
         throw new TypeError('invalid encoding.scalabilityMode');
     }
 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 /**
  * Validates RtcpParameters. It may modify given data by adding missing
@@ -4607,7 +4786,11 @@ ortc$d.validateRtpEncodingParameters = validateRtpEncodingParameters;
  * It throws if invalid.
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 function validateRtcpParameters(rtcp) {
+=======
+function validateAndNormalizeRtcpParameters(rtcp) {
+>>>>>>> upstream/18.0
 =======
 function validateAndNormalizeRtcpParameters(rtcp) {
 >>>>>>> upstream/18.0
@@ -4623,6 +4806,7 @@ function validateAndNormalizeRtcpParameters(rtcp) {
         rtcp.reducedSize = true;
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 ortc$d.validateRtcpParameters = validateRtcpParameters;
 /**
@@ -4648,6 +4832,10 @@ ortc$d.validateSctpCapabilities = validateSctpCapabilities;
 /**
  * Validates NumSctpStreams.
 >>>>>>> upstream/18.0
+=======
+/**
+ * Validates NumSctpStreams.
+>>>>>>> upstream/18.0
  * It throws if invalid.
  */
 function validateNumSctpStreams(numStreams) {
@@ -4663,6 +4851,7 @@ function validateNumSctpStreams(numStreams) {
         throw new TypeError('missing numStreams.MIS');
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 ortc$d.validateNumSctpStreams = validateNumSctpStreams;
 /**
@@ -5093,6 +5282,8 @@ function canReceive(rtpParameters, extendedRtpCapabilities) {
 ortc$d.canReceive = canReceive;
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 function isRtxCodec(codec) {
     if (!codec) {
         return false;
@@ -5113,6 +5304,7 @@ function matchCodecs(aCodec, bCodec, { strict = false, modify = false } = {}) {
     }
     // Per codec special checks.
     switch (aMimeType) {
+<<<<<<< HEAD
 <<<<<<< HEAD
         case 'video/h264':
             {
@@ -5158,6 +5350,8 @@ function matchCodecs(aCodec, bCodec, { strict = false, modify = false } = {}) {
                 break;
             }
 =======
+=======
+>>>>>>> upstream/18.0
         case 'video/h264': {
             if (strict) {
                 const aPacketizationMode = aCodec.parameters['packetization-mode'] ?? 0;
@@ -5198,6 +5392,9 @@ function matchCodecs(aCodec, bCodec, { strict = false, modify = false } = {}) {
             }
             break;
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
     return true;
@@ -5214,10 +5411,16 @@ function matchHeaderExtensions(aExt, bExt) {
 function reduceRtcpFeedback(codecA, codecB) {
     const reducedRtcpFeedback = [];
 <<<<<<< HEAD
+<<<<<<< HEAD
     for (const aFb of codecA.rtcpFeedback || []) {
         const matchingBFb = (codecB.rtcpFeedback || [])
             .find((bFb) => (bFb.type === aFb.type &&
             (bFb.parameter === aFb.parameter || (!bFb.parameter && !aFb.parameter))));
+=======
+    for (const aFb of codecA.rtcpFeedback ?? []) {
+        const matchingBFb = (codecB.rtcpFeedback ?? []).find((bFb) => bFb.type === aFb.type &&
+            (bFb.parameter === aFb.parameter || (!bFb.parameter && !aFb.parameter)));
+>>>>>>> upstream/18.0
 =======
     for (const aFb of codecA.rtcpFeedback ?? []) {
         const matchingBFb = (codecB.rtcpFeedback ?? []).find((bFb) => bFb.type === aFb.type &&
@@ -5233,7 +5436,13 @@ function reduceRtcpFeedback(codecA, codecB) {
 var Transport$1 = {};
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var lib$1 = {};
+=======
+var lib$2 = {};
+
+var AwaitQueue$1 = {};
+>>>>>>> upstream/18.0
 =======
 var lib$2 = {};
 
@@ -5244,6 +5453,7 @@ var Logger$1 = {};
 
 Object.defineProperty(Logger$1, "__esModule", { value: true });
 Logger$1.Logger = void 0;
+<<<<<<< HEAD
 <<<<<<< HEAD
 const debug_1 = browserExports;
 const LIB_NAME = 'awaitqueue';
@@ -5259,6 +5469,8 @@ class Logger {
             this._warn = (0, debug_1.default)(`${LIB_NAME}:WARN`);
             this._error = (0, debug_1.default)(`${LIB_NAME}:ERROR`);
 =======
+=======
+>>>>>>> upstream/18.0
 const debug = browserExports;
 const LIB_NAME = 'awaitqueue';
 class Logger {
@@ -5275,6 +5487,9 @@ class Logger {
             this._debug = debug(LIB_NAME);
             this._warn = debug(`${LIB_NAME}:WARN`);
             this._error = debug(`${LIB_NAME}:ERROR`);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
         /* eslint-disable no-console */
@@ -5296,15 +5511,21 @@ class Logger {
 Logger$1.Logger = Logger;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Object.defineProperty(lib$1, "__esModule", { value: true });
 lib$1.AwaitQueue = lib$1.AwaitQueueRemovedTaskError = lib$1.AwaitQueueStoppedError = void 0;
 const Logger_1$i = Logger$1;
 const logger$i = new Logger_1$i.Logger();
 =======
+=======
+>>>>>>> upstream/18.0
 var errors = {};
 
 Object.defineProperty(errors, "__esModule", { value: true });
 errors.AwaitQueueRemovedTaskError = errors.AwaitQueueStoppedError = void 0;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 /**
  * Custom Error derived class used to reject pending tasks once stop() method
@@ -5312,6 +5533,7 @@ errors.AwaitQueueRemovedTaskError = errors.AwaitQueueStoppedError = void 0;
  */
 class AwaitQueueStoppedError extends Error {
     constructor(message) {
+<<<<<<< HEAD
 <<<<<<< HEAD
         super(message ?? 'AwaitQueue stopped');
         this.name = 'AwaitQueueStoppedError';
@@ -5323,12 +5545,21 @@ class AwaitQueueStoppedError extends Error {
         this.name = 'AwaitQueueStoppedError';
         if (typeof Error.captureStackTrace === 'function') {
 >>>>>>> upstream/18.0
+=======
+        super(message ?? 'queue stopped');
+        this.name = 'AwaitQueueStoppedError';
+        if (typeof Error.captureStackTrace === 'function') {
+>>>>>>> upstream/18.0
             Error.captureStackTrace(this, AwaitQueueStoppedError);
         }
     }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 lib$1.AwaitQueueStoppedError = AwaitQueueStoppedError;
+=======
+errors.AwaitQueueStoppedError = AwaitQueueStoppedError;
+>>>>>>> upstream/18.0
 =======
 errors.AwaitQueueStoppedError = AwaitQueueStoppedError;
 >>>>>>> upstream/18.0
@@ -5338,6 +5569,7 @@ errors.AwaitQueueStoppedError = AwaitQueueStoppedError;
  */
 class AwaitQueueRemovedTaskError extends Error {
     constructor(message) {
+<<<<<<< HEAD
 <<<<<<< HEAD
         super(message ?? 'AwaitQueue task removed');
         this.name = 'AwaitQueueRemovedTaskError';
@@ -5349,10 +5581,16 @@ class AwaitQueueRemovedTaskError extends Error {
         this.name = 'AwaitQueueRemovedTaskError';
         if (typeof Error.captureStackTrace === 'function') {
 >>>>>>> upstream/18.0
+=======
+        super(message ?? 'queue task removed');
+        this.name = 'AwaitQueueRemovedTaskError';
+        if (typeof Error.captureStackTrace === 'function') {
+>>>>>>> upstream/18.0
             Error.captureStackTrace(this, AwaitQueueRemovedTaskError);
         }
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 lib$1.AwaitQueueRemovedTaskError = AwaitQueueRemovedTaskError;
 class AwaitQueue {
@@ -5364,6 +5602,8 @@ class AwaitQueue {
         // Whether stop() method is stopping all pending tasks.
         this.stopping = false;
 =======
+=======
+>>>>>>> upstream/18.0
 errors.AwaitQueueRemovedTaskError = AwaitQueueRemovedTaskError;
 
 Object.defineProperty(AwaitQueue$1, "__esModule", { value: true });
@@ -5378,15 +5618,24 @@ class AwaitQueue {
     nextTaskId = 0;
     constructor() {
         logger$d.debug('constructor()');
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
     get size() {
         return this.pendingTasks.size;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     async push(task, name) {
         name = name ?? task.name;
         logger$i.debug(`push() [name:${name}]`);
+=======
+    async push(task, name, options) {
+        name = name ?? task.name;
+        logger$d.debug(`push() [name:${name}, options:%o]`, options);
+>>>>>>> upstream/18.0
 =======
     async push(task, name, options) {
         name = name ?? task.name;
@@ -5403,7 +5652,10 @@ class AwaitQueue {
         }
         return new Promise((resolve, reject) => {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             if (name && options?.removeOngoingTasksWithSameName) {
                 for (const pendingTask of this.pendingTasks.values()) {
                     if (pendingTask.name === name) {
@@ -5413,6 +5665,9 @@ class AwaitQueue {
                     }
                 }
             }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             const pendingTask = {
                 id: this.nextTaskId++,
@@ -5435,7 +5690,11 @@ class AwaitQueue {
                     // Remove the task from the queue.
                     this.pendingTasks.delete(pendingTask.id);
 <<<<<<< HEAD
+<<<<<<< HEAD
                     logger$i.debug(`resolving task [name:${pendingTask.name}]`);
+=======
+                    logger$d.debug(`resolving task [name:${pendingTask.name}]`);
+>>>>>>> upstream/18.0
 =======
                     logger$d.debug(`resolving task [name:${pendingTask.name}]`);
 >>>>>>> upstream/18.0
@@ -5452,7 +5711,11 @@ class AwaitQueue {
                     }
                 },
 <<<<<<< HEAD
+<<<<<<< HEAD
                 reject: (error) => {
+=======
+                reject: (error, { canExecuteNextTask }) => {
+>>>>>>> upstream/18.0
 =======
                 reject: (error, { canExecuteNextTask }) => {
 >>>>>>> upstream/18.0
@@ -5468,17 +5731,23 @@ class AwaitQueue {
                     // Remove the task from the queue.
                     this.pendingTasks.delete(pendingTask.id);
 <<<<<<< HEAD
+<<<<<<< HEAD
                     logger$i.debug(`rejecting task [name:${pendingTask.name}]: %s`, String(error));
                     // Reject the task with the obtained error.
                     reject(error);
                     // Execute the next pending task (if any) unless stop() is running.
                     if (!this.stopping) {
 =======
+=======
+>>>>>>> upstream/18.0
                     logger$d.debug(`rejecting task [name:${pendingTask.name}]: %s`, String(error));
                     // Reject the task with the obtained error.
                     reject(error);
                     // May execute next pending task (if any).
                     if (canExecuteNextTask) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                         const [nextPendingTask] = this.pendingTasks.values();
                         // NOTE: During the reject() callback the user app may have interacted
@@ -5490,7 +5759,11 @@ class AwaitQueue {
                         }
                     }
 <<<<<<< HEAD
+<<<<<<< HEAD
                 }
+=======
+                },
+>>>>>>> upstream/18.0
 =======
                 },
 >>>>>>> upstream/18.0
@@ -5504,6 +5777,7 @@ class AwaitQueue {
         });
     }
     stop() {
+<<<<<<< HEAD
 <<<<<<< HEAD
         logger$i.debug('stop()');
         this.stopping = true;
@@ -5522,6 +5796,8 @@ class AwaitQueue {
         }
         pendingTask.reject(new AwaitQueueRemovedTaskError());
 =======
+=======
+>>>>>>> upstream/18.0
         logger$d.debug('stop()');
         for (const pendingTask of this.pendingTasks.values()) {
             logger$d.debug(`stop() | stopping task [name:${pendingTask.name}]`);
@@ -5540,13 +5816,20 @@ class AwaitQueue {
         pendingTask.reject(new errors_1$b.AwaitQueueRemovedTaskError(), {
             canExecuteNextTask: true,
         });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
     dump() {
         const now = Date.now();
         let idx = 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
         return Array.from(this.pendingTasks.values()).map((pendingTask) => ({
+=======
+        return Array.from(this.pendingTasks.values()).map(pendingTask => ({
+>>>>>>> upstream/18.0
 =======
         return Array.from(this.pendingTasks.values()).map(pendingTask => ({
 >>>>>>> upstream/18.0
@@ -5557,6 +5840,7 @@ class AwaitQueue {
                 ? pendingTask.executedAt - pendingTask.enqueuedAt
                 : now - pendingTask.enqueuedAt,
 <<<<<<< HEAD
+<<<<<<< HEAD
             executionTime: pendingTask.executedAt
                 ? now - pendingTask.executedAt
                 : 0
@@ -5565,11 +5849,16 @@ class AwaitQueue {
     async execute(pendingTask) {
         logger$i.debug(`execute() [name:${pendingTask.name}]`);
 =======
+=======
+>>>>>>> upstream/18.0
             executionTime: pendingTask.executedAt ? now - pendingTask.executedAt : 0,
         }));
     }
     async execute(pendingTask) {
         logger$d.debug(`execute() [name:${pendingTask.name}]`);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         if (pendingTask.executedAt) {
             throw new Error('task already being executed');
@@ -5582,6 +5871,7 @@ class AwaitQueue {
         }
         catch (error) {
             // Reject the task with its rejected error.
+<<<<<<< HEAD
 <<<<<<< HEAD
             pendingTask.reject(error);
         }
@@ -5600,6 +5890,8 @@ var queueMicrotask_1 = typeof queueMicrotask === 'function'
     .then(cb)
     .catch(err => setTimeout(() => { throw err }, 0));
 =======
+=======
+>>>>>>> upstream/18.0
             pendingTask.reject(error, { canExecuteNextTask: true });
         }
     }
@@ -5615,12 +5907,16 @@ AwaitQueue$1.AwaitQueue = AwaitQueue;
 	Object.defineProperty(exports, "AwaitQueueStoppedError", { enumerable: true, get: function () { return errors_1.AwaitQueueStoppedError; } });
 	Object.defineProperty(exports, "AwaitQueueRemovedTaskError", { enumerable: true, get: function () { return errors_1.AwaitQueueRemovedTaskError; } }); 
 } (lib$2));
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 var Producer$1 = {};
 
 Object.defineProperty(Producer$1, "__esModule", { value: true });
 Producer$1.Producer = void 0;
+<<<<<<< HEAD
 <<<<<<< HEAD
 const Logger_1$h = Logger$3;
 const EnhancedEventEmitter_1$6 = EnhancedEventEmitter$1;
@@ -5635,6 +5931,8 @@ class Producer extends EnhancedEventEmitter_1$6.EnhancedEventEmitter {
         this._observer = new EnhancedEventEmitter_1$6.EnhancedEventEmitter();
         logger$h.debug('constructor()');
 =======
+=======
+>>>>>>> upstream/18.0
 const Logger_1$c = Logger$5;
 const enhancedEvents_1$b = enhancedEvents;
 const errors_1$a = errors$1;
@@ -5671,6 +5969,9 @@ class Producer extends enhancedEvents_1$b.EnhancedEventEmitter {
     constructor({ id, localId, rtpSender, track, rtpParameters, stopTracks, disableTrackOnPause, zeroRtpOnPause, appData, }) {
         super();
         logger$c.debug('constructor()');
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         this._id = id;
         this._localId = localId;
@@ -5684,15 +5985,21 @@ class Producer extends enhancedEvents_1$b.EnhancedEventEmitter {
         this._disableTrackOnPause = disableTrackOnPause;
         this._zeroRtpOnPause = zeroRtpOnPause;
 <<<<<<< HEAD
+<<<<<<< HEAD
         this._appData = appData || {};
         this.onTrackEnded = this.onTrackEnded.bind(this);
         // NOTE: Minor issue. If zeroRtpOnPause is true, we cannot emit the
         // '@replacetrack' event here, so RTCRtpSender.track won't be null.
 =======
+=======
+>>>>>>> upstream/18.0
         this._appData = appData ?? {};
         this.onTrackEnded = this.onTrackEnded.bind(this);
         // NOTE: Minor issue. If zeroRtpOnPause is true, we cannot emit the
         // '@replacetrack' event here.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         this.handleTrack();
     }
@@ -5775,7 +6082,11 @@ class Producer extends enhancedEvents_1$b.EnhancedEventEmitter {
             return;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         logger$h.debug('close()');
+=======
+        logger$c.debug('close()');
+>>>>>>> upstream/18.0
 =======
         logger$c.debug('close()');
 >>>>>>> upstream/18.0
@@ -5785,6 +6096,12 @@ class Producer extends enhancedEvents_1$b.EnhancedEventEmitter {
         // Emit observer event.
         this._observer.safeEmit('close');
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        // Invoke close() in EnhancedEventEmitter classes.
+        super.close();
+        this._observer.close();
+>>>>>>> upstream/18.0
 =======
         // Invoke close() in EnhancedEventEmitter classes.
         super.close();
@@ -5799,7 +6116,11 @@ class Producer extends enhancedEvents_1$b.EnhancedEventEmitter {
             return;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         logger$h.debug('transportClosed()');
+=======
+        logger$c.debug('transportClosed()');
+>>>>>>> upstream/18.0
 =======
         logger$c.debug('transportClosed()');
 >>>>>>> upstream/18.0
@@ -5815,7 +6136,11 @@ class Producer extends enhancedEvents_1$b.EnhancedEventEmitter {
     async getStats() {
         if (this._closed) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new errors_1$c.InvalidStateError('closed');
+=======
+            throw new errors_1$a.InvalidStateError('closed');
+>>>>>>> upstream/18.0
 =======
             throw new errors_1$a.InvalidStateError('closed');
 >>>>>>> upstream/18.0
@@ -5829,9 +6154,15 @@ class Producer extends enhancedEvents_1$b.EnhancedEventEmitter {
      */
     pause() {
 <<<<<<< HEAD
+<<<<<<< HEAD
         logger$h.debug('pause()');
         if (this._closed) {
             logger$h.error('pause() | Producer closed');
+=======
+        logger$c.debug('pause()');
+        if (this._closed) {
+            logger$c.error('pause() | Producer closed');
+>>>>>>> upstream/18.0
 =======
         logger$c.debug('pause()');
         if (this._closed) {
@@ -5856,9 +6187,15 @@ class Producer extends enhancedEvents_1$b.EnhancedEventEmitter {
      */
     resume() {
 <<<<<<< HEAD
+<<<<<<< HEAD
         logger$h.debug('resume()');
         if (this._closed) {
             logger$h.error('resume() | Producer closed');
+=======
+        logger$c.debug('resume()');
+        if (this._closed) {
+            logger$c.error('resume() | Producer closed');
+>>>>>>> upstream/18.0
 =======
         logger$c.debug('resume()');
         if (this._closed) {
@@ -5882,8 +6219,13 @@ class Producer extends enhancedEvents_1$b.EnhancedEventEmitter {
      * Replaces the current track with a new one or null.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     async replaceTrack({ track }) {
         logger$h.debug('replaceTrack() [track:%o]', track);
+=======
+    async replaceTrack({ track, }) {
+        logger$c.debug('replaceTrack() [track:%o]', track);
+>>>>>>> upstream/18.0
 =======
     async replaceTrack({ track, }) {
         logger$c.debug('replaceTrack() [track:%o]', track);
@@ -5898,6 +6240,7 @@ class Producer extends enhancedEvents_1$b.EnhancedEventEmitter {
                 catch (error) { }
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new errors_1$c.InvalidStateError('closed');
         }
         else if (track && track.readyState === 'ended') {
@@ -5907,6 +6250,8 @@ class Producer extends enhancedEvents_1$b.EnhancedEventEmitter {
         if (track === this._track) {
             logger$h.debug('replaceTrack() | same track, ignored');
 =======
+=======
+>>>>>>> upstream/18.0
             throw new errors_1$a.InvalidStateError('closed');
         }
         else if (track?.readyState === 'ended') {
@@ -5915,6 +6260,9 @@ class Producer extends enhancedEvents_1$b.EnhancedEventEmitter {
         // Do nothing if this is the same track as the current handled one.
         if (track === this._track) {
             logger$c.debug('replaceTrack() | same track, ignored');
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             return;
         }
@@ -5944,15 +6292,21 @@ class Producer extends enhancedEvents_1$b.EnhancedEventEmitter {
     async setMaxSpatialLayer(spatialLayer) {
         if (this._closed) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new errors_1$c.InvalidStateError('closed');
         }
         else if (this._kind !== 'video') {
             throw new errors_1$c.UnsupportedError('not a video Producer');
 =======
+=======
+>>>>>>> upstream/18.0
             throw new errors_1$a.InvalidStateError('closed');
         }
         else if (this._kind !== 'video') {
             throw new errors_1$a.UnsupportedError('not a video Producer');
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
         else if (typeof spatialLayer !== 'number') {
@@ -5969,7 +6323,11 @@ class Producer extends enhancedEvents_1$b.EnhancedEventEmitter {
     async setRtpEncodingParameters(params) {
         if (this._closed) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new errors_1$c.InvalidStateError('closed');
+=======
+            throw new errors_1$a.InvalidStateError('closed');
+>>>>>>> upstream/18.0
 =======
             throw new errors_1$a.InvalidStateError('closed');
 >>>>>>> upstream/18.0
@@ -5983,7 +6341,11 @@ class Producer extends enhancedEvents_1$b.EnhancedEventEmitter {
     }
     onTrackEnded() {
 <<<<<<< HEAD
+<<<<<<< HEAD
         logger$h.debug('track "ended" event');
+=======
+        logger$c.debug('track "ended" event');
+>>>>>>> upstream/18.0
 =======
         logger$c.debug('track "ended" event');
 >>>>>>> upstream/18.0
@@ -6018,6 +6380,7 @@ var Consumer$1 = {};
 Object.defineProperty(Consumer$1, "__esModule", { value: true });
 Consumer$1.Consumer = void 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
 const Logger_1$g = Logger$3;
 const EnhancedEventEmitter_1$5 = EnhancedEventEmitter$1;
 const errors_1$b = errors;
@@ -6031,6 +6394,8 @@ class Consumer extends EnhancedEventEmitter_1$5.EnhancedEventEmitter {
         this._observer = new EnhancedEventEmitter_1$5.EnhancedEventEmitter();
         logger$g.debug('constructor()');
 =======
+=======
+>>>>>>> upstream/18.0
 const Logger_1$b = Logger$5;
 const enhancedEvents_1$a = enhancedEvents;
 const errors_1$9 = errors$1;
@@ -6059,6 +6424,9 @@ class Consumer extends enhancedEvents_1$a.EnhancedEventEmitter {
     constructor({ id, localId, producerId, rtpReceiver, track, rtpParameters, appData, }) {
         super();
         logger$b.debug('constructor()');
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         this._id = id;
         this._localId = localId;
@@ -6068,7 +6436,11 @@ class Consumer extends enhancedEvents_1$a.EnhancedEventEmitter {
         this._rtpParameters = rtpParameters;
         this._paused = !track.enabled;
 <<<<<<< HEAD
+<<<<<<< HEAD
         this._appData = appData || {};
+=======
+        this._appData = appData ?? {};
+>>>>>>> upstream/18.0
 =======
         this._appData = appData ?? {};
 >>>>>>> upstream/18.0
@@ -6152,7 +6524,11 @@ class Consumer extends enhancedEvents_1$a.EnhancedEventEmitter {
             return;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         logger$g.debug('close()');
+=======
+        logger$b.debug('close()');
+>>>>>>> upstream/18.0
 =======
         logger$b.debug('close()');
 >>>>>>> upstream/18.0
@@ -6162,6 +6538,12 @@ class Consumer extends enhancedEvents_1$a.EnhancedEventEmitter {
         // Emit observer event.
         this._observer.safeEmit('close');
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        // Invoke close() in EnhancedEventEmitter classes.
+        super.close();
+        this._observer.close();
+>>>>>>> upstream/18.0
 =======
         // Invoke close() in EnhancedEventEmitter classes.
         super.close();
@@ -6176,7 +6558,11 @@ class Consumer extends enhancedEvents_1$a.EnhancedEventEmitter {
             return;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         logger$g.debug('transportClosed()');
+=======
+        logger$b.debug('transportClosed()');
+>>>>>>> upstream/18.0
 =======
         logger$b.debug('transportClosed()');
 >>>>>>> upstream/18.0
@@ -6192,7 +6578,11 @@ class Consumer extends enhancedEvents_1$a.EnhancedEventEmitter {
     async getStats() {
         if (this._closed) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new errors_1$b.InvalidStateError('closed');
+=======
+            throw new errors_1$9.InvalidStateError('closed');
+>>>>>>> upstream/18.0
 =======
             throw new errors_1$9.InvalidStateError('closed');
 >>>>>>> upstream/18.0
@@ -6206,6 +6596,7 @@ class Consumer extends enhancedEvents_1$a.EnhancedEventEmitter {
      */
     pause() {
 <<<<<<< HEAD
+<<<<<<< HEAD
         logger$g.debug('pause()');
         if (this._closed) {
             logger$g.error('pause() | Consumer closed');
@@ -6214,6 +6605,8 @@ class Consumer extends enhancedEvents_1$a.EnhancedEventEmitter {
         if (this._paused) {
             logger$g.debug('pause() | Consumer is already paused');
 =======
+=======
+>>>>>>> upstream/18.0
         logger$b.debug('pause()');
         if (this._closed) {
             logger$b.error('pause() | Consumer closed');
@@ -6221,6 +6614,9 @@ class Consumer extends enhancedEvents_1$a.EnhancedEventEmitter {
         }
         if (this._paused) {
             logger$b.debug('pause() | Consumer is already paused');
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             return;
         }
@@ -6235,6 +6631,7 @@ class Consumer extends enhancedEvents_1$a.EnhancedEventEmitter {
      */
     resume() {
 <<<<<<< HEAD
+<<<<<<< HEAD
         logger$g.debug('resume()');
         if (this._closed) {
             logger$g.error('resume() | Consumer closed');
@@ -6243,6 +6640,8 @@ class Consumer extends enhancedEvents_1$a.EnhancedEventEmitter {
         if (!this._paused) {
             logger$g.debug('resume() | Consumer is already resumed');
 =======
+=======
+>>>>>>> upstream/18.0
         logger$b.debug('resume()');
         if (this._closed) {
             logger$b.error('resume() | Consumer closed');
@@ -6250,6 +6649,9 @@ class Consumer extends enhancedEvents_1$a.EnhancedEventEmitter {
         }
         if (!this._paused) {
             logger$b.debug('resume() | Consumer is already resumed');
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             return;
         }
@@ -6261,7 +6663,11 @@ class Consumer extends enhancedEvents_1$a.EnhancedEventEmitter {
     }
     onTrackEnded() {
 <<<<<<< HEAD
+<<<<<<< HEAD
         logger$g.debug('track "ended" event');
+=======
+        logger$b.debug('track "ended" event');
+>>>>>>> upstream/18.0
 =======
         logger$b.debug('track "ended" event');
 >>>>>>> upstream/18.0
@@ -6287,6 +6693,7 @@ var DataProducer$1 = {};
 Object.defineProperty(DataProducer$1, "__esModule", { value: true });
 DataProducer$1.DataProducer = void 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
 const Logger_1$f = Logger$3;
 const EnhancedEventEmitter_1$4 = EnhancedEventEmitter$1;
 const errors_1$a = errors;
@@ -6304,6 +6711,8 @@ class DataProducer extends EnhancedEventEmitter_1$4.EnhancedEventEmitter {
         this._sctpStreamParameters = sctpStreamParameters;
         this._appData = appData || {};
 =======
+=======
+>>>>>>> upstream/18.0
 const Logger_1$a = Logger$5;
 const enhancedEvents_1$9 = enhancedEvents;
 const errors_1$8 = errors$1;
@@ -6328,6 +6737,9 @@ class DataProducer extends enhancedEvents_1$9.EnhancedEventEmitter {
         this._dataChannel = dataChannel;
         this._sctpStreamParameters = sctpStreamParameters;
         this._appData = appData ?? {};
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         this.handleDataChannel();
     }
@@ -6408,7 +6820,11 @@ class DataProducer extends enhancedEvents_1$9.EnhancedEventEmitter {
             return;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         logger$f.debug('close()');
+=======
+        logger$a.debug('close()');
+>>>>>>> upstream/18.0
 =======
         logger$a.debug('close()');
 >>>>>>> upstream/18.0
@@ -6418,6 +6834,12 @@ class DataProducer extends enhancedEvents_1$9.EnhancedEventEmitter {
         // Emit observer event.
         this._observer.safeEmit('close');
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        // Invoke close() in EnhancedEventEmitter classes.
+        super.close();
+        this._observer.close();
+>>>>>>> upstream/18.0
 =======
         // Invoke close() in EnhancedEventEmitter classes.
         super.close();
@@ -6432,7 +6854,11 @@ class DataProducer extends enhancedEvents_1$9.EnhancedEventEmitter {
             return;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         logger$f.debug('transportClosed()');
+=======
+        logger$a.debug('transportClosed()');
+>>>>>>> upstream/18.0
 =======
         logger$a.debug('transportClosed()');
 >>>>>>> upstream/18.0
@@ -6448,16 +6874,22 @@ class DataProducer extends enhancedEvents_1$9.EnhancedEventEmitter {
      * @param {String|Blob|ArrayBuffer|ArrayBufferView} data.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     send(data) {
         logger$f.debug('send()');
         if (this._closed) {
             throw new errors_1$a.InvalidStateError('closed');
 =======
+=======
+>>>>>>> upstream/18.0
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     send(data) {
         logger$a.debug('send()');
         if (this._closed) {
             throw new errors_1$8.InvalidStateError('closed');
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
         this._dataChannel.send(data);
@@ -6467,6 +6899,7 @@ class DataProducer extends enhancedEvents_1$9.EnhancedEventEmitter {
             if (this._closed) {
                 return;
             }
+<<<<<<< HEAD
 <<<<<<< HEAD
             logger$f.debug('DataChannel "open" event');
             this.safeEmit('open');
@@ -6485,6 +6918,8 @@ class DataProducer extends enhancedEvents_1$9.EnhancedEventEmitter {
             else {
                 logger$f.error('DataChannel "error" event: %o', error);
 =======
+=======
+>>>>>>> upstream/18.0
             logger$a.debug('DataChannel "open" event');
             this.safeEmit('open');
         });
@@ -6498,6 +6933,9 @@ class DataProducer extends enhancedEvents_1$9.EnhancedEventEmitter {
             }
             else {
                 logger$a.error('DataChannel "error" event: %o', error);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             }
             this.safeEmit('error', error);
@@ -6507,7 +6945,11 @@ class DataProducer extends enhancedEvents_1$9.EnhancedEventEmitter {
                 return;
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
             logger$f.warn('DataChannel "close" event');
+=======
+            logger$a.warn('DataChannel "close" event');
+>>>>>>> upstream/18.0
 =======
             logger$a.warn('DataChannel "close" event');
 >>>>>>> upstream/18.0
@@ -6522,7 +6964,11 @@ class DataProducer extends enhancedEvents_1$9.EnhancedEventEmitter {
                 return;
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
             logger$f.warn('DataChannel "message" event in a DataProducer, message discarded');
+=======
+            logger$a.warn('DataChannel "message" event in a DataProducer, message discarded');
+>>>>>>> upstream/18.0
 =======
             logger$a.warn('DataChannel "message" event in a DataProducer, message discarded');
 >>>>>>> upstream/18.0
@@ -6542,6 +6988,7 @@ var DataConsumer$1 = {};
 Object.defineProperty(DataConsumer$1, "__esModule", { value: true });
 DataConsumer$1.DataConsumer = void 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
 const Logger_1$e = Logger$3;
 const EnhancedEventEmitter_1$3 = EnhancedEventEmitter$1;
 const logger$e = new Logger_1$e.Logger('DataConsumer');
@@ -6554,6 +7001,8 @@ class DataConsumer extends EnhancedEventEmitter_1$3.EnhancedEventEmitter {
         this._observer = new EnhancedEventEmitter_1$3.EnhancedEventEmitter();
         logger$e.debug('constructor()');
 =======
+=======
+>>>>>>> upstream/18.0
 const Logger_1$9 = Logger$5;
 const enhancedEvents_1$8 = enhancedEvents;
 const logger$9 = new Logger_1$9.Logger('DataConsumer');
@@ -6575,13 +7024,20 @@ class DataConsumer extends enhancedEvents_1$8.EnhancedEventEmitter {
     constructor({ id, dataProducerId, dataChannel, sctpStreamParameters, appData, }) {
         super();
         logger$9.debug('constructor()');
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         this._id = id;
         this._dataProducerId = dataProducerId;
         this._dataChannel = dataChannel;
         this._sctpStreamParameters = sctpStreamParameters;
 <<<<<<< HEAD
+<<<<<<< HEAD
         this._appData = appData || {};
+=======
+        this._appData = appData ?? {};
+>>>>>>> upstream/18.0
 =======
         this._appData = appData ?? {};
 >>>>>>> upstream/18.0
@@ -6664,7 +7120,11 @@ class DataConsumer extends enhancedEvents_1$8.EnhancedEventEmitter {
             return;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         logger$e.debug('close()');
+=======
+        logger$9.debug('close()');
+>>>>>>> upstream/18.0
 =======
         logger$9.debug('close()');
 >>>>>>> upstream/18.0
@@ -6674,6 +7134,12 @@ class DataConsumer extends enhancedEvents_1$8.EnhancedEventEmitter {
         // Emit observer event.
         this._observer.safeEmit('close');
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        // Invoke close() in EnhancedEventEmitter classes.
+        super.close();
+        this._observer.close();
+>>>>>>> upstream/18.0
 =======
         // Invoke close() in EnhancedEventEmitter classes.
         super.close();
@@ -6688,7 +7154,11 @@ class DataConsumer extends enhancedEvents_1$8.EnhancedEventEmitter {
             return;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         logger$e.debug('transportClosed()');
+=======
+        logger$9.debug('transportClosed()');
+>>>>>>> upstream/18.0
 =======
         logger$9.debug('transportClosed()');
 >>>>>>> upstream/18.0
@@ -6703,6 +7173,7 @@ class DataConsumer extends enhancedEvents_1$8.EnhancedEventEmitter {
             if (this._closed) {
                 return;
             }
+<<<<<<< HEAD
 <<<<<<< HEAD
             logger$e.debug('DataChannel "open" event');
             this.safeEmit('open');
@@ -6721,6 +7192,8 @@ class DataConsumer extends enhancedEvents_1$8.EnhancedEventEmitter {
             else {
                 logger$e.error('DataChannel "error" event: %o', error);
 =======
+=======
+>>>>>>> upstream/18.0
             logger$9.debug('DataChannel "open" event');
             this.safeEmit('open');
         });
@@ -6734,6 +7207,9 @@ class DataConsumer extends enhancedEvents_1$8.EnhancedEventEmitter {
             }
             else {
                 logger$9.error('DataChannel "error" event: %o', error);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             }
             this.safeEmit('error', error);
@@ -6743,7 +7219,11 @@ class DataConsumer extends enhancedEvents_1$8.EnhancedEventEmitter {
                 return;
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
             logger$e.warn('DataChannel "close" event');
+=======
+            logger$9.warn('DataChannel "close" event');
+>>>>>>> upstream/18.0
 =======
             logger$9.warn('DataChannel "close" event');
 >>>>>>> upstream/18.0
@@ -6754,7 +7234,11 @@ class DataConsumer extends enhancedEvents_1$8.EnhancedEventEmitter {
             this._observer.safeEmit('close');
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
         this._dataChannel.addEventListener('message', (event) => {
+=======
+        this._dataChannel.addEventListener('message', event => {
+>>>>>>> upstream/18.0
 =======
         this._dataChannel.addEventListener('message', event => {
 >>>>>>> upstream/18.0
@@ -6767,6 +7251,7 @@ class DataConsumer extends enhancedEvents_1$8.EnhancedEventEmitter {
 }
 DataConsumer$1.DataConsumer = DataConsumer;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 var __createBinding$g = (commonjsGlobal && commonjsGlobal.__createBinding) || (Object.create ? (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
@@ -6804,6 +7289,8 @@ const errors_1$9 = errors;
 const utils$f = __importStar$g(utils$h);
 const ortc$c = __importStar$g(ortc$d);
 =======
+=======
+>>>>>>> upstream/18.0
 Object.defineProperty(Transport$1, "__esModule", { value: true });
 Transport$1.Transport = void 0;
 const awaitqueue_1 = lib$2;
@@ -6812,21 +7299,30 @@ const enhancedEvents_1$7 = enhancedEvents;
 const errors_1$7 = errors$1;
 const utils$6 = utils$8;
 const ortc$7 = ortc$8;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 const Producer_1 = Producer$1;
 const Consumer_1 = Consumer$1;
 const DataProducer_1 = DataProducer$1;
 const DataConsumer_1 = DataConsumer$1;
 <<<<<<< HEAD
+<<<<<<< HEAD
 const logger$d = new Logger_1$d.Logger('Transport');
 class ConsumerCreationTask {
 =======
+=======
+>>>>>>> upstream/18.0
 const logger$8 = new Logger_1$8.Logger('Transport');
 class ConsumerCreationTask {
     consumerOptions;
     promise;
     resolve;
     reject;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     constructor(consumerOptions) {
         this.consumerOptions = consumerOptions;
@@ -6836,6 +7332,7 @@ class ConsumerCreationTask {
         });
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 class Transport extends EnhancedEventEmitter_1$2.EnhancedEventEmitter {
     constructor({ direction, id, iceParameters, iceCandidates, dtlsParameters, sctpParameters, iceServers, iceTransportPolicy, additionalSettings, proprietaryConstraints, appData, handlerFactory, extendedRtpCapabilities, canProduceByKind }) {
@@ -6893,6 +7390,8 @@ class Transport extends EnhancedEventEmitter_1$2.EnhancedEventEmitter {
         this._handler = handlerFactory();
         this._handler.run({
 =======
+=======
+>>>>>>> upstream/18.0
 class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
     // Id.
     _id;
@@ -6966,6 +7465,9 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
         delete clonedAdditionalSettings.bundlePolicy;
         delete clonedAdditionalSettings.rtcpMuxPolicy;
         this._handler = handlerFactory.factory({
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             direction,
             iceParameters,
@@ -6975,16 +7477,22 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
             iceServers,
             iceTransportPolicy,
 <<<<<<< HEAD
+<<<<<<< HEAD
             additionalSettings,
             proprietaryConstraints,
             extendedRtpCapabilities
         });
         this._appData = appData || {};
 =======
+=======
+>>>>>>> upstream/18.0
             additionalSettings: clonedAdditionalSettings,
             getSendExtendedRtpCapabilities: this._getSendExtendedRtpCapabilities,
         });
         this._appData = appData ?? {};
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         this.handleHandler();
     }
@@ -7047,7 +7555,11 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
             return;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         logger$d.debug('close()');
+=======
+        logger$8.debug('close()');
+>>>>>>> upstream/18.0
 =======
         logger$8.debug('close()');
 >>>>>>> upstream/18.0
@@ -7082,6 +7594,12 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
         // Emit observer event.
         this._observer.safeEmit('close');
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        // Invoke close() in EnhancedEventEmitter classes.
+        super.close();
+        this._observer.close();
+>>>>>>> upstream/18.0
 =======
         // Invoke close() in EnhancedEventEmitter classes.
         super.close();
@@ -7096,7 +7614,11 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
     async getStats() {
         if (this._closed) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new errors_1$9.InvalidStateError('closed');
+=======
+            throw new errors_1$7.InvalidStateError('closed');
+>>>>>>> upstream/18.0
 =======
             throw new errors_1$7.InvalidStateError('closed');
 >>>>>>> upstream/18.0
@@ -7107,15 +7629,21 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
      * Restart ICE connection.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     async restartIce({ iceParameters }) {
         logger$d.debug('restartIce()');
         if (this._closed) {
             throw new errors_1$9.InvalidStateError('closed');
 =======
+=======
+>>>>>>> upstream/18.0
     async restartIce({ iceParameters, }) {
         logger$8.debug('restartIce()');
         if (this._closed) {
             throw new errors_1$7.InvalidStateError('closed');
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
         else if (!iceParameters) {
@@ -7128,15 +7656,21 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
      * Update ICE servers.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     async updateIceServers({ iceServers } = {}) {
         logger$d.debug('updateIceServers()');
         if (this._closed) {
             throw new errors_1$9.InvalidStateError('closed');
 =======
+=======
+>>>>>>> upstream/18.0
     async updateIceServers({ iceServers, } = {}) {
         logger$8.debug('updateIceServers()');
         if (this._closed) {
             throw new errors_1$7.InvalidStateError('closed');
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
         else if (!Array.isArray(iceServers)) {
@@ -7149,21 +7683,28 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
      * Create a Producer.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     async produce({ track, encodings, codecOptions, codec, stopTracks = true, disableTrackOnPause = true, zeroRtpOnPause = false, appData = {} } = {}) {
         logger$d.debug('produce() [track:%o]', track);
         if (this._closed) {
             throw new errors_1$9.InvalidStateError('closed');
 =======
+=======
+>>>>>>> upstream/18.0
     async produce({ track, streamId, encodings, codecOptions, headerExtensionOptions, codec, stopTracks = true, disableTrackOnPause = true, zeroRtpOnPause = false, onRtpSender, appData = {}, } = {}) {
         logger$8.debug('produce() [track:%o]', track);
         if (this._closed) {
             throw new errors_1$7.InvalidStateError('closed');
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
         else if (!track) {
             throw new TypeError('missing track');
         }
         else if (this._direction !== 'send') {
+<<<<<<< HEAD
 <<<<<<< HEAD
             throw new errors_1$9.UnsupportedError('not a sending Transport');
         }
@@ -7175,6 +7716,8 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
         }
         else if (this.listenerCount('connect') === 0 && this._connectionState === 'new') {
 =======
+=======
+>>>>>>> upstream/18.0
             throw new errors_1$7.UnsupportedError('not a sending Transport');
         }
         else if (!this._canProduceByKind[track.kind]) {
@@ -7185,6 +7728,9 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
         }
         else if (this.listenerCount('connect') === 0 &&
             this._connectionState === 'new') {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             throw new TypeError('no "connect" listener set into this transport');
         }
@@ -7196,7 +7742,12 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
         }
         // Enqueue command.
 <<<<<<< HEAD
+<<<<<<< HEAD
         return this._awaitQueue.push(async () => {
+=======
+        return (this._awaitQueue
+            .push(async () => {
+>>>>>>> upstream/18.0
 =======
         return (this._awaitQueue
             .push(async () => {
@@ -7206,6 +7757,7 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
                 throw TypeError('encodings must be an array');
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
             else if (encodings && encodings.length === 0) {
                 normalizedEncodings = undefined;
             }
@@ -7214,6 +7766,8 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
                     .map((encoding) => {
                     const normalizedEncoding = { active: true };
 =======
+=======
+>>>>>>> upstream/18.0
             else if (encodings?.length === 0) {
                 normalizedEncodings = undefined;
             }
@@ -7222,6 +7776,9 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
                     const normalizedEncoding = {
                         active: true,
                     };
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     if (encoding.active === false) {
                         normalizedEncoding.active = false;
@@ -7234,7 +7791,12 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
                     }
                     if (typeof encoding.scaleResolutionDownBy === 'number') {
 <<<<<<< HEAD
+<<<<<<< HEAD
                         normalizedEncoding.scaleResolutionDownBy = encoding.scaleResolutionDownBy;
+=======
+                        normalizedEncoding.scaleResolutionDownBy =
+                            encoding.scaleResolutionDownBy;
+>>>>>>> upstream/18.0
 =======
                         normalizedEncoding.scaleResolutionDownBy =
                             encoding.scaleResolutionDownBy;
@@ -7261,6 +7823,7 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
             const { localId, rtpParameters, rtpSender } = await this._handler.send({
                 track,
 <<<<<<< HEAD
+<<<<<<< HEAD
                 encodings: normalizedEncodings,
                 codecOptions,
                 codec
@@ -7269,6 +7832,8 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
                 // This will fill rtpParameters's missing fields with default values.
                 ortc$c.validateRtpParameters(rtpParameters);
 =======
+=======
+>>>>>>> upstream/18.0
                 streamId,
                 encodings: normalizedEncodings,
                 codecOptions,
@@ -7279,13 +7844,20 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
             try {
                 // This will fill rtpParameters's missing fields with default values.
                 ortc$7.validateAndNormalizeRtpParameters(rtpParameters);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 const { id } = await new Promise((resolve, reject) => {
                     this.safeEmit('produce', {
                         kind: track.kind,
                         rtpParameters,
 <<<<<<< HEAD
+<<<<<<< HEAD
                         appData
+=======
+                        appData,
+>>>>>>> upstream/18.0
 =======
                         appData,
 >>>>>>> upstream/18.0
@@ -7301,7 +7873,11 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
                     disableTrackOnPause,
                     zeroRtpOnPause,
 <<<<<<< HEAD
+<<<<<<< HEAD
                     appData
+=======
+                    appData,
+>>>>>>> upstream/18.0
 =======
                     appData,
 >>>>>>> upstream/18.0
@@ -7314,8 +7890,12 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
             }
             catch (error) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this._handler.stopSending(localId)
                     .catch(() => { });
+=======
+                this._handler.stopSending(localId).catch(() => { });
+>>>>>>> upstream/18.0
 =======
                 this._handler.stopSending(localId).catch(() => { });
 >>>>>>> upstream/18.0
@@ -7333,7 +7913,11 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
             }
             throw error;
 <<<<<<< HEAD
+<<<<<<< HEAD
         });
+=======
+        }));
+>>>>>>> upstream/18.0
 =======
         }));
 >>>>>>> upstream/18.0
@@ -7341,6 +7925,7 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
     /**
      * Create a Consumer to consume a remote Producer.
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     async consume({ id, producerId, kind, rtpParameters, streamId, appData = {} }) {
         logger$d.debug('consume()');
@@ -7351,6 +7936,8 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
         else if (this._direction !== 'recv') {
             throw new errors_1$9.UnsupportedError('not a receiving Transport');
 =======
+=======
+>>>>>>> upstream/18.0
     async consume({ id, producerId, kind, rtpParameters, streamId, onRtpReceiver, appData = {}, }) {
         logger$8.debug('consume()');
         if (this._closed) {
@@ -7358,6 +7945,9 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
         }
         else if (this._direction !== 'recv') {
             throw new errors_1$7.UnsupportedError('not a receiving Transport');
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
         else if (typeof id !== 'string') {
@@ -7370,7 +7960,12 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
             throw new TypeError(`invalid kind '${kind}'`);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         else if (this.listenerCount('connect') === 0 && this._connectionState === 'new') {
+=======
+        else if (this.listenerCount('connect') === 0 &&
+            this._connectionState === 'new') {
+>>>>>>> upstream/18.0
 =======
         else if (this.listenerCount('connect') === 0 &&
             this._connectionState === 'new') {
@@ -7381,17 +7976,23 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
             throw new TypeError('if given, appData must be an object');
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         // Ensure the device can consume it.
         const canConsume = ortc$c.canReceive(rtpParameters, this._extendedRtpCapabilities);
         if (!canConsume) {
             throw new errors_1$9.UnsupportedError('cannot consume this Producer');
 =======
+=======
+>>>>>>> upstream/18.0
         // Clone given RTP parameters to not modify input data.
         const clonedRtpParameters = utils$6.clone(rtpParameters);
         // Ensure the device can consume it.
         const canConsume = ortc$7.canReceive(clonedRtpParameters, this._recvRtpCapabilities);
         if (!canConsume) {
             throw new errors_1$7.UnsupportedError('cannot consume this Producer');
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
         const consumerCreationTask = new ConsumerCreationTask({
@@ -7399,21 +8000,31 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
             producerId,
             kind,
 <<<<<<< HEAD
+<<<<<<< HEAD
             rtpParameters,
             streamId,
             appData
 =======
+=======
+>>>>>>> upstream/18.0
             rtpParameters: clonedRtpParameters,
             streamId,
             onRtpReceiver,
             appData,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         });
         // Store the Consumer creation task.
         this._pendingConsumerTasks.push(consumerCreationTask);
         // There is no Consumer creation in progress, create it now.
 <<<<<<< HEAD
+<<<<<<< HEAD
         (0, queue_microtask_1.default)(() => {
+=======
+        queueMicrotask(() => {
+>>>>>>> upstream/18.0
 =======
         queueMicrotask(() => {
 >>>>>>> upstream/18.0
@@ -7430,6 +8041,7 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
      * Create a DataProducer
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     async produceData({ ordered = true, maxPacketLifeTime, maxRetransmits, label = '', protocol = '', appData = {} } = {}) {
         logger$d.debug('produceData()');
         if (this._closed) {
@@ -7443,6 +8055,8 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
         }
         else if (this.listenerCount('connect') === 0 && this._connectionState === 'new') {
 =======
+=======
+>>>>>>> upstream/18.0
     async produceData({ ordered = true, maxPacketLifeTime, maxRetransmits, label = '', protocol = '', appData = {}, } = {}) {
         logger$8.debug('produceData()');
         if (this._closed) {
@@ -7456,6 +8070,9 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
         }
         else if (this.listenerCount('connect') === 0 &&
             this._connectionState === 'new') {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             throw new TypeError('no "connect" listener set into this transport');
         }
@@ -7476,15 +8093,21 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
                 maxRetransmits,
                 label,
 <<<<<<< HEAD
+<<<<<<< HEAD
                 protocol
             });
             // This will fill sctpStreamParameters's missing fields with default values.
             ortc$c.validateSctpStreamParameters(sctpStreamParameters);
 =======
+=======
+>>>>>>> upstream/18.0
                 protocol,
             });
             // This will fill sctpStreamParameters's missing fields with default values.
             ortc$7.validateAndNormalizeSctpStreamParameters(sctpStreamParameters);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             const { id } = await new Promise((resolve, reject) => {
                 this.safeEmit('producedata', {
@@ -7492,7 +8115,11 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
                     label,
                     protocol,
 <<<<<<< HEAD
+<<<<<<< HEAD
                     appData
+=======
+                    appData,
+>>>>>>> upstream/18.0
 =======
                     appData,
 >>>>>>> upstream/18.0
@@ -7503,7 +8130,11 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
                 dataChannel,
                 sctpStreamParameters,
 <<<<<<< HEAD
+<<<<<<< HEAD
                 appData
+=======
+                appData,
+>>>>>>> upstream/18.0
 =======
                 appData,
 >>>>>>> upstream/18.0
@@ -7519,6 +8150,7 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
      * Create a DataConsumer
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     async consumeData({ id, dataProducerId, sctpStreamParameters, label = '', protocol = '', appData = {} }) {
         logger$d.debug('consumeData()');
         sctpStreamParameters = utils$f.clone(sctpStreamParameters);
@@ -7531,6 +8163,8 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
         else if (!this._maxSctpMessageSize) {
             throw new errors_1$9.UnsupportedError('SCTP not enabled by remote Transport');
 =======
+=======
+>>>>>>> upstream/18.0
     async consumeData({ id, dataProducerId, sctpStreamParameters, label = '', protocol = '', appData = {}, }) {
         logger$8.debug('consumeData()');
         if (this._closed) {
@@ -7541,6 +8175,9 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
         }
         else if (!this._maxSctpMessageSize) {
             throw new errors_1$7.UnsupportedError('SCTP not enabled by remote Transport');
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
         else if (typeof id !== 'string') {
@@ -7550,7 +8187,12 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
             throw new TypeError('missing dataProducerId');
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         else if (this.listenerCount('connect') === 0 && this._connectionState === 'new') {
+=======
+        else if (this.listenerCount('connect') === 0 &&
+            this._connectionState === 'new') {
+>>>>>>> upstream/18.0
 =======
         else if (this.listenerCount('connect') === 0 &&
             this._connectionState === 'new') {
@@ -7561,6 +8203,7 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
             throw new TypeError('if given, appData must be an object');
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         // This may throw.
         ortc$c.validateSctpStreamParameters(sctpStreamParameters);
         // Enqueue command.
@@ -7570,6 +8213,8 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
                 label,
                 protocol
 =======
+=======
+>>>>>>> upstream/18.0
         // Clone given SCTP stream parameters to not modify input data.
         const clonedSctpStreamParameters = utils$6.clone(sctpStreamParameters);
         // This may throw.
@@ -7580,6 +8225,9 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
                 sctpStreamParameters: clonedSctpStreamParameters,
                 label,
                 protocol,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             });
             const dataConsumer = new DataConsumer_1.DataConsumer({
@@ -7587,8 +8235,13 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
                 dataProducerId,
                 dataChannel,
 <<<<<<< HEAD
+<<<<<<< HEAD
                 sctpStreamParameters,
                 appData
+=======
+                sctpStreamParameters: clonedSctpStreamParameters,
+                appData,
+>>>>>>> upstream/18.0
 =======
                 sctpStreamParameters: clonedSctpStreamParameters,
                 appData,
@@ -7603,18 +8256,24 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
     }
     // This method is guaranteed to never throw.
 <<<<<<< HEAD
+<<<<<<< HEAD
     async createPendingConsumers() {
         this._consumerCreationInProgress = true;
         this._awaitQueue.push(async () => {
             if (this._pendingConsumerTasks.length === 0) {
                 logger$d.debug('createPendingConsumers() | there is no Consumer to be created');
 =======
+=======
+>>>>>>> upstream/18.0
     createPendingConsumers() {
         this._consumerCreationInProgress = true;
         this._awaitQueue
             .push(async () => {
             if (this._pendingConsumerTasks.length === 0) {
                 logger$8.debug('createPendingConsumers() | there is no Consumer to be created');
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 return;
             }
@@ -7627,7 +8286,11 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
             const optionsList = [];
             for (const task of pendingConsumerTasks) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const { id, kind, rtpParameters, streamId } = task.consumerOptions;
+=======
+                const { id, kind, rtpParameters, streamId, onRtpReceiver } = task.consumerOptions;
+>>>>>>> upstream/18.0
 =======
                 const { id, kind, rtpParameters, streamId, onRtpReceiver } = task.consumerOptions;
 >>>>>>> upstream/18.0
@@ -7636,7 +8299,12 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
                     kind: kind,
                     rtpParameters,
 <<<<<<< HEAD
+<<<<<<< HEAD
                     streamId
+=======
+                    streamId,
+                    onRtpReceiver,
+>>>>>>> upstream/18.0
 =======
                     streamId,
                     onRtpReceiver,
@@ -7652,6 +8320,7 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
                     const { localId, rtpReceiver, track } = result;
                     const consumer = new Consumer_1.Consumer({
 <<<<<<< HEAD
+<<<<<<< HEAD
                         id: id,
                         localId,
                         producerId: producerId,
@@ -7660,6 +8329,8 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
                         rtpParameters,
                         appData: appData
 =======
+=======
+>>>>>>> upstream/18.0
                         id,
                         localId,
                         producerId,
@@ -7667,6 +8338,9 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
                         track,
                         rtpParameters,
                         appData: appData,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     });
                     this._consumers.set(consumer.id, consumer);
@@ -7675,7 +8349,12 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
                     // has not yet been created, it's time to create it.
                     if (!this._probatorConsumerCreated &&
 <<<<<<< HEAD
+<<<<<<< HEAD
                         !videoConsumerForProbator && kind === 'video') {
+=======
+                        !videoConsumerForProbator &&
+                        kind === 'video') {
+>>>>>>> upstream/18.0
 =======
                         !videoConsumerForProbator &&
                         kind === 'video') {
@@ -7696,6 +8375,7 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
             if (videoConsumerForProbator) {
                 try {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     const probatorRtpParameters = ortc$c.generateProbatorRtpParameters(videoConsumerForProbator.rtpParameters);
                     await this._handler.receive([{
                             trackId: 'probator',
@@ -7708,6 +8388,8 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
                 catch (error) {
                     logger$d.error('createPendingConsumers() | failed to create Consumer for RTP probation:%o', error);
 =======
+=======
+>>>>>>> upstream/18.0
                     const probatorRtpParameters = ortc$7.generateProbatorRtpParameters(videoConsumerForProbator.rtpParameters);
                     await this._handler.receive([
                         {
@@ -7721,6 +8403,9 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
                 }
                 catch (error) {
                     logger$8.error('createPendingConsumers() | failed to create Consumer for RTP probation:%o', error);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 }
             }
@@ -7738,14 +8423,20 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
     pausePendingConsumers() {
         this._consumerPauseInProgress = true;
 <<<<<<< HEAD
+<<<<<<< HEAD
         this._awaitQueue.push(async () => {
             if (this._pendingPauseConsumers.size === 0) {
                 logger$d.debug('pausePendingConsumers() | there is no Consumer to be paused');
 =======
+=======
+>>>>>>> upstream/18.0
         this._awaitQueue
             .push(async () => {
             if (this._pendingPauseConsumers.size === 0) {
                 logger$8.debug('pausePendingConsumers() | there is no Consumer to be paused');
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 return;
             }
@@ -7753,6 +8444,7 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
             // Clear pending pause Consumer map.
             this._pendingPauseConsumers.clear();
             try {
+<<<<<<< HEAD
 <<<<<<< HEAD
                 const localIds = pendingPauseConsumers
                     .map((consumer) => consumer.localId);
@@ -7763,6 +8455,8 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
             }
         }, 'transport.pausePendingConsumers')
 =======
+=======
+>>>>>>> upstream/18.0
                 const localIds = pendingPauseConsumers.map(consumer => consumer.localId);
                 await this._handler.pauseReceiving(localIds);
             }
@@ -7770,6 +8464,9 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
                 logger$8.error('pausePendingConsumers() | failed to pause Consumers:', error);
             }
         }, 'transport.pausePendingConsumers()')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             .then(() => {
             this._consumerPauseInProgress = false;
@@ -7784,14 +8481,20 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
     resumePendingConsumers() {
         this._consumerResumeInProgress = true;
 <<<<<<< HEAD
+<<<<<<< HEAD
         this._awaitQueue.push(async () => {
             if (this._pendingResumeConsumers.size === 0) {
                 logger$d.debug('resumePendingConsumers() | there is no Consumer to be resumed');
 =======
+=======
+>>>>>>> upstream/18.0
         this._awaitQueue
             .push(async () => {
             if (this._pendingResumeConsumers.size === 0) {
                 logger$8.debug('resumePendingConsumers() | there is no Consumer to be resumed');
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 return;
             }
@@ -7799,6 +8502,7 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
             // Clear pending resume Consumer map.
             this._pendingResumeConsumers.clear();
             try {
+<<<<<<< HEAD
 <<<<<<< HEAD
                 const localIds = pendingResumeConsumers
                     .map((consumer) => consumer.localId);
@@ -7809,6 +8513,8 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
             }
         }, 'transport.resumePendingConsumers')
 =======
+=======
+>>>>>>> upstream/18.0
                 const localIds = pendingResumeConsumers.map(consumer => consumer.localId);
                 await this._handler.resumeReceiving(localIds);
             }
@@ -7816,6 +8522,9 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
                 logger$8.error('resumePendingConsumers() | failed to resume Consumers:', error);
             }
         }, 'transport.resumePendingConsumers()')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             .then(() => {
             this._consumerResumeInProgress = false;
@@ -7830,14 +8539,20 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
     closePendingConsumers() {
         this._consumerCloseInProgress = true;
 <<<<<<< HEAD
+<<<<<<< HEAD
         this._awaitQueue.push(async () => {
             if (this._pendingCloseConsumers.size === 0) {
                 logger$d.debug('closePendingConsumers() | there is no Consumer to be closed');
 =======
+=======
+>>>>>>> upstream/18.0
         this._awaitQueue
             .push(async () => {
             if (this._pendingCloseConsumers.size === 0) {
                 logger$8.debug('closePendingConsumers() | there is no Consumer to be closed');
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 return;
             }
@@ -7846,6 +8561,7 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
             this._pendingCloseConsumers.clear();
             try {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 await this._handler.stopReceiving(pendingCloseConsumers.map((consumer) => consumer.localId));
             }
             catch (error) {
@@ -7853,12 +8569,17 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
             }
         }, 'transport.closePendingConsumers')
 =======
+=======
+>>>>>>> upstream/18.0
                 await this._handler.stopReceiving(pendingCloseConsumers.map(consumer => consumer.localId));
             }
             catch (error) {
                 logger$8.error('closePendingConsumers() | failed to close Consumers:', error);
             }
         }, 'transport.closePendingConsumers()')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             .then(() => {
             this._consumerCloseInProgress = false;
@@ -7875,7 +8596,11 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
         handler.on('@connect', ({ dtlsParameters }, callback, errback) => {
             if (this._closed) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 errback(new errors_1$9.InvalidStateError('closed'));
+=======
+                errback(new errors_1$7.InvalidStateError('closed'));
+>>>>>>> upstream/18.0
 =======
                 errback(new errors_1$7.InvalidStateError('closed'));
 >>>>>>> upstream/18.0
@@ -7888,7 +8613,11 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
                 return;
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
             logger$d.debug('ICE gathering state changed to %s', iceGatheringState);
+=======
+            logger$8.debug('ICE gathering state changed to %s', iceGatheringState);
+>>>>>>> upstream/18.0
 =======
             logger$8.debug('ICE gathering state changed to %s', iceGatheringState);
 >>>>>>> upstream/18.0
@@ -7898,18 +8627,28 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
             }
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         handler.on('@icecandidateerror', (event) => {
             logger$8.warn(`ICE candidate error [url:${event.url}, localAddress:${event.address}, localPort:${event.port}]: ${event.errorCode} "${event.errorText}"`);
             this.safeEmit('icecandidateerror', event);
         });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         handler.on('@connectionstatechange', (connectionState) => {
             if (connectionState === this._connectionState) {
                 return;
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
             logger$d.debug('connection state changed to %s', connectionState);
+=======
+            logger$8.debug('connection state changed to %s', connectionState);
+>>>>>>> upstream/18.0
 =======
             logger$8.debug('connection state changed to %s', connectionState);
 >>>>>>> upstream/18.0
@@ -7926,12 +8665,15 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
                 return;
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
             this._awaitQueue.push(async () => await this._handler.stopSending(producer.localId), 'producer @close event')
                 .catch((error) => logger$d.warn('producer.close() failed:%o', error));
         });
         producer.on('@pause', (callback, errback) => {
             this._awaitQueue.push(async () => await this._handler.pauseSending(producer.localId), 'producer @pause event')
 =======
+=======
+>>>>>>> upstream/18.0
             this._awaitQueue
                 .push(async () => await this._handler.stopSending(producer.localId), 'producer @close event')
                 .catch((error) => logger$8.warn('producer.close() failed:%o', error));
@@ -7939,13 +8681,21 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
         producer.on('@pause', (callback, errback) => {
             this._awaitQueue
                 .push(async () => await this._handler.pauseSending(producer.localId), 'producer @pause event')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 .then(callback)
                 .catch(errback);
         });
         producer.on('@resume', (callback, errback) => {
 <<<<<<< HEAD
+<<<<<<< HEAD
             this._awaitQueue.push(async () => await this._handler.resumeSending(producer.localId), 'producer @resume event')
+=======
+            this._awaitQueue
+                .push(async () => await this._handler.resumeSending(producer.localId), 'producer @resume event')
+>>>>>>> upstream/18.0
 =======
             this._awaitQueue
                 .push(async () => await this._handler.resumeSending(producer.localId), 'producer @resume event')
@@ -7955,7 +8705,12 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
         });
         producer.on('@replacetrack', (track, callback, errback) => {
 <<<<<<< HEAD
+<<<<<<< HEAD
             this._awaitQueue.push(async () => await this._handler.replaceTrack(producer.localId, track), 'producer @replacetrack event')
+=======
+            this._awaitQueue
+                .push(async () => await this._handler.replaceTrack(producer.localId, track), 'producer @replacetrack event')
+>>>>>>> upstream/18.0
 =======
             this._awaitQueue
                 .push(async () => await this._handler.replaceTrack(producer.localId, track), 'producer @replacetrack event')
@@ -7965,7 +8720,12 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
         });
         producer.on('@setmaxspatiallayer', (spatialLayer, callback, errback) => {
 <<<<<<< HEAD
+<<<<<<< HEAD
             this._awaitQueue.push(async () => (await this._handler.setMaxSpatialLayer(producer.localId, spatialLayer)), 'producer @setmaxspatiallayer event')
+=======
+            this._awaitQueue
+                .push(async () => await this._handler.setMaxSpatialLayer(producer.localId, spatialLayer), 'producer @setmaxspatiallayer event')
+>>>>>>> upstream/18.0
 =======
             this._awaitQueue
                 .push(async () => await this._handler.setMaxSpatialLayer(producer.localId, spatialLayer), 'producer @setmaxspatiallayer event')
@@ -7975,7 +8735,12 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
         });
         producer.on('@setrtpencodingparameters', (params, callback, errback) => {
 <<<<<<< HEAD
+<<<<<<< HEAD
             this._awaitQueue.push(async () => (await this._handler.setRtpEncodingParameters(producer.localId, params)), 'producer @setrtpencodingparameters event')
+=======
+            this._awaitQueue
+                .push(async () => await this._handler.setRtpEncodingParameters(producer.localId, params), 'producer @setrtpencodingparameters event')
+>>>>>>> upstream/18.0
 =======
             this._awaitQueue
                 .push(async () => await this._handler.setRtpEncodingParameters(producer.localId, params), 'producer @setrtpencodingparameters event')
@@ -7986,14 +8751,20 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
         producer.on('@getstats', (callback, errback) => {
             if (this._closed) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 return errback(new errors_1$9.InvalidStateError('closed'));
             }
             this._handler.getSenderStats(producer.localId)
 =======
+=======
+>>>>>>> upstream/18.0
                 return errback(new errors_1$7.InvalidStateError('closed'));
             }
             this._handler
                 .getSenderStats(producer.localId)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 .then(callback)
                 .catch(errback);
@@ -8023,7 +8794,11 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
             this._pendingPauseConsumers.set(consumer.id, consumer);
             // There is no Consumer pause in progress, do it now.
 <<<<<<< HEAD
+<<<<<<< HEAD
             (0, queue_microtask_1.default)(() => {
+=======
+            queueMicrotask(() => {
+>>>>>>> upstream/18.0
 =======
             queueMicrotask(() => {
 >>>>>>> upstream/18.0
@@ -8044,7 +8819,11 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
             this._pendingResumeConsumers.set(consumer.id, consumer);
             // There is no Consumer resume in progress, do it now.
 <<<<<<< HEAD
+<<<<<<< HEAD
             (0, queue_microtask_1.default)(() => {
+=======
+            queueMicrotask(() => {
+>>>>>>> upstream/18.0
 =======
             queueMicrotask(() => {
 >>>>>>> upstream/18.0
@@ -8059,14 +8838,20 @@ class Transport extends enhancedEvents_1$7.EnhancedEventEmitter {
         consumer.on('@getstats', (callback, errback) => {
             if (this._closed) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 return errback(new errors_1$9.InvalidStateError('closed'));
             }
             this._handler.getReceiverStats(consumer.localId)
 =======
+=======
+>>>>>>> upstream/18.0
                 return errback(new errors_1$7.InvalidStateError('closed'));
             }
             this._handler
                 .getReceiverStats(consumer.localId)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 .then(callback)
                 .catch(errback);
@@ -8088,6 +8873,7 @@ Transport$1.Transport = Transport;
 var Chrome111$1 = {};
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var lib = {};
 
 var parser$1 = {};
@@ -8096,6 +8882,8 @@ var grammar$2 = {exports: {}};
 
 var grammar$1 = grammar$2.exports = {
 =======
+=======
+>>>>>>> upstream/18.0
 var lib$1 = {};
 
 var parser$1 = {};
@@ -8103,6 +8891,9 @@ var parser$1 = {};
 var grammar$3 = {exports: {}};
 
 var grammar$2 = grammar$3.exports = {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
   v: [{
     name: 'version',
@@ -8265,14 +9056,20 @@ var grammar$2 = grammar$3.exports = {
     {
       // a=msid:0c8b064d-d807-43b4-b434-f92a889d8587 98178685-d409-46e0-8e16-7ef0db0db64a
 <<<<<<< HEAD
+<<<<<<< HEAD
       name: 'msid',
       reg: /^msid:(.*)/,
       format: 'msid:%s'
 =======
+=======
+>>>>>>> upstream/18.0
       push: 'msid',
       reg: /^msid:([\w-]+)(?: ([\w-]+))?/,
       names: ['id', 'appdata'],
       format: 'msid:%s %s'
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     },
     {
@@ -8594,8 +9391,13 @@ var grammar$2 = grammar$3.exports = {
 
 // set sensible defaults to avoid polluting the grammar with boring details
 <<<<<<< HEAD
+<<<<<<< HEAD
 Object.keys(grammar$1).forEach(function (key) {
   var objs = grammar$1[key];
+=======
+Object.keys(grammar$2).forEach(function (key) {
+  var objs = grammar$2[key];
+>>>>>>> upstream/18.0
 =======
 Object.keys(grammar$2).forEach(function (key) {
   var objs = grammar$2[key];
@@ -8611,7 +9413,11 @@ Object.keys(grammar$2).forEach(function (key) {
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var grammarExports = grammar$2.exports;
+=======
+var grammarExports = grammar$3.exports;
+>>>>>>> upstream/18.0
 =======
 var grammarExports = grammar$3.exports;
 >>>>>>> upstream/18.0
@@ -8744,7 +9550,11 @@ var grammarExports = grammar$3.exports;
 } (parser$1));
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var grammar = grammarExports;
+=======
+var grammar$1 = grammarExports;
+>>>>>>> upstream/18.0
 =======
 var grammar$1 = grammarExports;
 >>>>>>> upstream/18.0
@@ -8830,7 +9640,11 @@ var writer$1 = function (session, opts) {
   // loop through outerOrder for matching properties on session
   outerOrder.forEach(function (type) {
 <<<<<<< HEAD
+<<<<<<< HEAD
     grammar[type].forEach(function (obj) {
+=======
+    grammar$1[type].forEach(function (obj) {
+>>>>>>> upstream/18.0
 =======
     grammar$1[type].forEach(function (obj) {
 >>>>>>> upstream/18.0
@@ -8848,15 +9662,21 @@ var writer$1 = function (session, opts) {
   // then for each media line, follow the innerOrder
   session.media.forEach(function (mLine) {
 <<<<<<< HEAD
+<<<<<<< HEAD
     sdp.push(makeLine('m', grammar.m[0], mLine));
 
     innerOrder.forEach(function (type) {
       grammar[type].forEach(function (obj) {
 =======
+=======
+>>>>>>> upstream/18.0
     sdp.push(makeLine('m', grammar$1.m[0], mLine));
 
     innerOrder.forEach(function (type) {
       grammar$1[type].forEach(function (obj) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         if (obj.name in mLine && mLine[obj.name] != null) {
           sdp.push(makeLine(type, obj, mLine));
@@ -8875,6 +9695,7 @@ var writer$1 = function (session, opts) {
 
 var parser = parser$1;
 var writer = writer$1;
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 lib.write = writer;
@@ -9288,6 +10109,8 @@ class HandlerInterface extends EnhancedEventEmitter_1$1.EnhancedEventEmitter {
 }
 HandlerInterface$1.HandlerInterface = HandlerInterface;
 =======
+=======
+>>>>>>> upstream/18.0
 var grammar = grammarExports;
 
 lib$1.grammar = grammar;
@@ -9320,12 +10143,16 @@ function parse(scalabilityMode) {
         };
     }
 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 var RemoteSdp$1 = {};
 
 var MediaSection$1 = {};
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 var __createBinding$e = (commonjsGlobal && commonjsGlobal.__createBinding) || (Object.create ? (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
@@ -9359,6 +10186,8 @@ class MediaSection {
         this._mediaObject = {};
         this._planB = planB;
 =======
+=======
+>>>>>>> upstream/18.0
 Object.defineProperty(MediaSection$1, "__esModule", { value: true });
 MediaSection$1.OfferMediaSection = MediaSection$1.AnswerMediaSection = MediaSection$1.MediaSection = void 0;
 const sdpTransform$7 = lib$1;
@@ -9375,6 +10204,9 @@ class MediaSection {
             rtp: [],
             fmtp: [],
         };
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         if (iceParameters) {
             this.setIceParameters(iceParameters);
@@ -9382,6 +10214,7 @@ class MediaSection {
         if (iceCandidates) {
             this._mediaObject.candidates = [];
             for (const candidate of iceCandidates) {
+<<<<<<< HEAD
 <<<<<<< HEAD
                 const candidateObject = {};
                 // mediasoup does mandates rtcp-mux so candidates component is always
@@ -9394,6 +10227,8 @@ class MediaSection {
                 candidateObject.transport = candidate.protocol;
                 candidateObject.type = candidate.type;
 =======
+=======
+>>>>>>> upstream/18.0
                 const candidateObject = {
                     foundation: candidate.foundation,
                     // mediasoup does mandates rtcp-mux so candidates component is always
@@ -9407,6 +10242,9 @@ class MediaSection {
                     transport: candidate.protocol,
                     type: candidate.type,
                 };
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 if (candidate.tcpType) {
                     candidateObject.tcptype = candidate.tcpType;
@@ -9439,8 +10277,11 @@ class MediaSection {
     disable() {
         this.pause();
 <<<<<<< HEAD
+<<<<<<< HEAD
         delete this._mediaObject.ext;
 =======
+=======
+>>>>>>> upstream/18.0
     }
     close() {
         this.disable();
@@ -9456,6 +10297,9 @@ class MediaSection {
         this._mediaObject.fmtp = [];
         delete this._mediaObject.rtcp;
         delete this._mediaObject.rtcpFb;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         delete this._mediaObject.ssrcs;
         delete this._mediaObject.ssrcGroups;
@@ -9464,6 +10308,7 @@ class MediaSection {
         delete this._mediaObject.rids;
         delete this._mediaObject.extmapAllowMixed;
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
     close() {
         this.disable();
@@ -9475,11 +10320,16 @@ class AnswerMediaSection extends MediaSection {
     constructor({ iceParameters, iceCandidates, dtlsParameters, sctpParameters, plainRtpParameters, planB = false, offerMediaObject, offerRtpParameters, answerRtpParameters, codecOptions, extmapAllowMixed = false }) {
         super({ iceParameters, iceCandidates, dtlsParameters, planB });
 =======
+=======
+>>>>>>> upstream/18.0
 }
 MediaSection$1.MediaSection = MediaSection;
 class AnswerMediaSection extends MediaSection {
     constructor({ iceParameters, iceCandidates, dtlsParameters, sctpParameters, plainRtpParameters, offerMediaObject, offerRtpParameters, answerRtpParameters, codecOptions, }) {
         super({ iceParameters, iceCandidates, dtlsParameters });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         this._mediaObject.mid = String(offerMediaObject.mid);
         this._mediaObject.type = offerMediaObject.type;
@@ -9490,21 +10340,28 @@ class AnswerMediaSection extends MediaSection {
         }
         else {
 <<<<<<< HEAD
+<<<<<<< HEAD
             this._mediaObject.connection =
                 {
                     ip: plainRtpParameters.ip,
                     version: plainRtpParameters.ipVersion
                 };
 =======
+=======
+>>>>>>> upstream/18.0
             this._mediaObject.connection = {
                 ip: plainRtpParameters.ip,
                 version: plainRtpParameters.ipVersion,
             };
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             this._mediaObject.port = plainRtpParameters.port;
         }
         switch (offerMediaObject.type) {
             case 'audio':
+<<<<<<< HEAD
 <<<<<<< HEAD
             case 'video':
                 {
@@ -9690,6 +10547,8 @@ class AnswerMediaSection extends MediaSection {
                     break;
                 }
 =======
+=======
+>>>>>>> upstream/18.0
             case 'video': {
                 this._mediaObject.direction = 'recvonly';
                 this._mediaObject.rtp = [];
@@ -9861,11 +10720,15 @@ class AnswerMediaSection extends MediaSection {
                 }
                 break;
             }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
     }
     setDtlsRole(role) {
         switch (role) {
+<<<<<<< HEAD
 <<<<<<< HEAD
             case 'client':
                 this._mediaObject.setup = 'active';
@@ -9877,6 +10740,8 @@ class AnswerMediaSection extends MediaSection {
                 this._mediaObject.setup = 'actpass';
                 break;
 =======
+=======
+>>>>>>> upstream/18.0
             case 'client': {
                 this._mediaObject.setup = 'active';
                 break;
@@ -9889,6 +10754,9 @@ class AnswerMediaSection extends MediaSection {
                 this._mediaObject.setup = 'actpass';
                 break;
             }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
     }
@@ -9897,7 +10765,11 @@ class AnswerMediaSection extends MediaSection {
     }
     muxSimulcastStreams(encodings) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!this._mediaObject.simulcast || !this._mediaObject.simulcast.list1) {
+=======
+        if (!this._mediaObject.simulcast?.list1) {
+>>>>>>> upstream/18.0
 =======
         if (!this._mediaObject.simulcast?.list1) {
 >>>>>>> upstream/18.0
@@ -9911,7 +10783,11 @@ class AnswerMediaSection extends MediaSection {
         }
         const raw = this._mediaObject.simulcast.list1;
 <<<<<<< HEAD
+<<<<<<< HEAD
         const simulcastStreams = sdpTransform$b.parseSimulcastStreamList(raw);
+=======
+        const simulcastStreams = sdpTransform$7.parseSimulcastStreamList(raw);
+>>>>>>> upstream/18.0
 =======
         const simulcastStreams = sdpTransform$7.parseSimulcastStreamList(raw);
 >>>>>>> upstream/18.0
@@ -9921,7 +10797,13 @@ class AnswerMediaSection extends MediaSection {
             }
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         this._mediaObject.simulcast.list1 = simulcastStreams.map((simulcastFormats) => simulcastFormats.map((f) => `${f.paused ? '~' : ''}${f.scid}`).join(',')).join(';');
+=======
+        this._mediaObject.simulcast.list1 = simulcastStreams
+            .map(simulcastFormats => simulcastFormats.map(f => `${f.paused ? '~' : ''}${f.scid}`).join(','))
+            .join(';');
+>>>>>>> upstream/18.0
 =======
         this._mediaObject.simulcast.list1 = simulcastStreams
             .map(simulcastFormats => simulcastFormats.map(f => `${f.paused ? '~' : ''}${f.scid}`).join(','))
@@ -9932,8 +10814,13 @@ class AnswerMediaSection extends MediaSection {
 MediaSection$1.AnswerMediaSection = AnswerMediaSection;
 class OfferMediaSection extends MediaSection {
 <<<<<<< HEAD
+<<<<<<< HEAD
     constructor({ iceParameters, iceCandidates, dtlsParameters, sctpParameters, plainRtpParameters, planB = false, mid, kind, offerRtpParameters, streamId, trackId, oldDataChannelSpec = false }) {
         super({ iceParameters, iceCandidates, dtlsParameters, planB });
+=======
+    constructor({ iceParameters, iceCandidates, dtlsParameters, sctpParameters, plainRtpParameters, mid, kind, offerRtpParameters, streamId, trackId, }) {
+        super({ iceParameters, iceCandidates, dtlsParameters });
+>>>>>>> upstream/18.0
 =======
     constructor({ iceParameters, iceCandidates, dtlsParameters, sctpParameters, plainRtpParameters, mid, kind, offerRtpParameters, streamId, trackId, }) {
         super({ iceParameters, iceCandidates, dtlsParameters });
@@ -9951,6 +10838,7 @@ class OfferMediaSection extends MediaSection {
             this._mediaObject.port = 7;
         }
         else {
+<<<<<<< HEAD
 <<<<<<< HEAD
             this._mediaObject.connection =
                 {
@@ -10079,6 +10967,8 @@ class OfferMediaSection extends MediaSection {
                     break;
                 }
 =======
+=======
+>>>>>>> upstream/18.0
             this._mediaObject.connection = {
                 ip: plainRtpParameters.ip,
                 version: plainRtpParameters.ipVersion,
@@ -10178,6 +11068,9 @@ class OfferMediaSection extends MediaSection {
                 this._mediaObject.maxMessageSize = sctpParameters.maxMessageSize;
                 break;
             }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
     }
@@ -10189,6 +11082,7 @@ class OfferMediaSection extends MediaSection {
     resume() {
         this._mediaObject.direction = 'sendonly';
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
     planBReceive({ offerRtpParameters, streamId, trackId }) {
         const encoding = offerRtpParameters.encodings[0];
@@ -10284,6 +11178,8 @@ class OfferMediaSection extends MediaSection {
     }
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 }
 MediaSection$1.OfferMediaSection = OfferMediaSection;
 function getCodecName(codec) {
@@ -10295,6 +11191,7 @@ function getCodecName(codec) {
     return mimeTypeMatch[2];
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 var __createBinding$d = (commonjsGlobal && commonjsGlobal.__createBinding) || (Object.create ? (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
@@ -10332,6 +11229,8 @@ class RemoteSdp {
         // MediaSection indices indexed by MID.
         this._midToIndex = new Map();
 =======
+=======
+>>>>>>> upstream/18.0
 Object.defineProperty(RemoteSdp$1, "__esModule", { value: true });
 RemoteSdp$1.RemoteSdp = void 0;
 const sdpTransform$6 = lib$1;
@@ -10359,12 +11258,16 @@ class RemoteSdp {
     // SDP object.
     _sdpObject;
     constructor({ iceParameters, iceCandidates, dtlsParameters, sctpParameters, plainRtpParameters, }) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         this._iceParameters = iceParameters;
         this._iceCandidates = iceCandidates;
         this._dtlsParameters = dtlsParameters;
         this._sctpParameters = sctpParameters;
         this._plainRtpParameters = plainRtpParameters;
+<<<<<<< HEAD
 <<<<<<< HEAD
         this._planB = planB;
         this._sdpObject =
@@ -10385,6 +11288,8 @@ class RemoteSdp {
         // If ICE parameters are given, add ICE-Lite indicator.
         if (iceParameters && iceParameters.iceLite) {
 =======
+=======
+>>>>>>> upstream/18.0
         this._sdpObject = {
             version: 0,
             origin: {
@@ -10403,11 +11308,15 @@ class RemoteSdp {
         this._sdpObject.iceOptions = 'ice2';
         // If ICE parameters are given, add ICE-Lite indicator.
         if (iceParameters?.iceLite) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             this._sdpObject.icelite = 'ice-lite';
         }
         // If DTLS parameters are given, assume WebRTC and BUNDLE.
         if (dtlsParameters) {
+<<<<<<< HEAD
 <<<<<<< HEAD
             this._sdpObject.msidSemantic = { semantic: 'WMS', token: '*' };
             // NOTE: We take the latest fingerprint.
@@ -10418,6 +11327,8 @@ class RemoteSdp {
                     hash: dtlsParameters.fingerprints[numFingerprints - 1].value
                 };
 =======
+=======
+>>>>>>> upstream/18.0
             // NOTE: This is not standard anymore (it was removed in RFC 8830),
             // however some WebRTC clients still rely on it.
             this._sdpObject.msidSemantic = { semantic: 'WMS', token: '*' };
@@ -10427,6 +11338,9 @@ class RemoteSdp {
                 type: dtlsParameters.fingerprints[numFingerprints - 1].algorithm,
                 hash: dtlsParameters.fingerprints[numFingerprints - 1].value,
             };
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             this._sdpObject.groups = [{ type: 'BUNDLE', mids: '' }];
         }
@@ -10438,7 +11352,11 @@ class RemoteSdp {
     }
     updateIceParameters(iceParameters) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         logger$c.debug('updateIceParameters() [iceParameters:%o]', iceParameters);
+=======
+        logger$7.debug('updateIceParameters() [iceParameters:%o]', iceParameters);
+>>>>>>> upstream/18.0
 =======
         logger$7.debug('updateIceParameters() [iceParameters:%o]', iceParameters);
 >>>>>>> upstream/18.0
@@ -10450,7 +11368,11 @@ class RemoteSdp {
     }
     updateDtlsRole(role) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         logger$c.debug('updateDtlsRole() [role:%s]', role);
+=======
+        logger$7.debug('updateDtlsRole() [role:%s]', role);
+>>>>>>> upstream/18.0
 =======
         logger$7.debug('updateDtlsRole() [role:%s]', role);
 >>>>>>> upstream/18.0
@@ -10460,7 +11382,10 @@ class RemoteSdp {
         }
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     /**
      * Set session level a=extmap-allow-mixed attibute.
      */
@@ -10468,6 +11393,9 @@ class RemoteSdp {
         logger$7.debug('setSessionExtmapAllowMixed()');
         this._sdpObject.extmapAllowMixed = 'extmap-allow-mixed';
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     getNextMediaSectionIdx() {
         // If a closed media section is found, return its index.
@@ -10481,7 +11409,11 @@ class RemoteSdp {
         return { idx: this._mediaSections.length };
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     send({ offerMediaObject, reuseMid, offerRtpParameters, answerRtpParameters, codecOptions, extmapAllowMixed = false }) {
+=======
+    send({ offerMediaObject, reuseMid, offerRtpParameters, answerRtpParameters, codecOptions, }) {
+>>>>>>> upstream/18.0
 =======
     send({ offerMediaObject, reuseMid, offerRtpParameters, answerRtpParameters, codecOptions, }) {
 >>>>>>> upstream/18.0
@@ -10491,13 +11423,17 @@ class RemoteSdp {
             dtlsParameters: this._dtlsParameters,
             plainRtpParameters: this._plainRtpParameters,
 <<<<<<< HEAD
+<<<<<<< HEAD
             planB: this._planB,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             offerMediaObject,
             offerRtpParameters,
             answerRtpParameters,
             codecOptions,
+<<<<<<< HEAD
 <<<<<<< HEAD
             extmapAllowMixed
         });
@@ -10565,6 +11501,8 @@ class RemoteSdp {
     disableMediaSection(mid) {
         const mediaSection = this._findMediaSection(mid);
 =======
+=======
+>>>>>>> upstream/18.0
         });
         const mediaObject = mediaSection.getObject();
         // Remove Dependency Descriptor extension unless there is support for
@@ -10626,6 +11564,9 @@ class RemoteSdp {
     }
     disableMediaSection(mid) {
         const mediaSection = this.findMediaSection(mid);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         mediaSection.disable();
     }
@@ -10638,23 +11579,30 @@ class RemoteSdp {
      */
     closeMediaSection(mid) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         const mediaSection = this._findMediaSection(mid);
         // NOTE: Closing the first m section is a pain since it invalidates the
         // bundled transport, so let's avoid it.
         if (mid === this._firstMid) {
             logger$c.debug('closeMediaSection() | cannot close first media section, disabling it instead [mid:%s]', mid);
 =======
+=======
+>>>>>>> upstream/18.0
         const mediaSection = this.findMediaSection(mid);
         // NOTE: Closing the first m section is a pain since it invalidates the
         // bundled transport, so let's avoid it.
         if (mid === this._firstMid) {
             logger$7.debug('closeMediaSection() | cannot close first media section, disabling it instead [mid:%s]', mid);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             this.disableMediaSection(mid);
             return false;
         }
         mediaSection.close();
         // Regenerate BUNDLE mids.
+<<<<<<< HEAD
 <<<<<<< HEAD
         this._regenerateBundleMids();
         return true;
@@ -10671,6 +11619,8 @@ class RemoteSdp {
     }
     sendSctpAssociation({ offerMediaObject }) {
 =======
+=======
+>>>>>>> upstream/18.0
         this.regenerateBundleMids();
         return true;
     }
@@ -10680,6 +11630,9 @@ class RemoteSdp {
         this.replaceMediaSection(mediaSection);
     }
     sendSctpAssociation({ offerMediaObject, }) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         const mediaSection = new MediaSection_1.AnswerMediaSection({
             iceParameters: this._iceParameters,
@@ -10688,17 +11641,23 @@ class RemoteSdp {
             sctpParameters: this._sctpParameters,
             plainRtpParameters: this._plainRtpParameters,
 <<<<<<< HEAD
+<<<<<<< HEAD
             offerMediaObject
         });
         this._addMediaSection(mediaSection);
     }
     receiveSctpAssociation({ oldDataChannelSpec = false } = {}) {
 =======
+=======
+>>>>>>> upstream/18.0
             offerMediaObject,
         });
         this.addMediaSection(mediaSection);
     }
     receiveSctpAssociation() {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         const mediaSection = new MediaSection_1.OfferMediaSection({
             iceParameters: this._iceParameters,
@@ -10709,9 +11668,14 @@ class RemoteSdp {
             mid: 'datachannel',
             kind: 'application',
 <<<<<<< HEAD
+<<<<<<< HEAD
             oldDataChannelSpec
         });
         this._addMediaSection(mediaSection);
+=======
+        });
+        this.addMediaSection(mediaSection);
+>>>>>>> upstream/18.0
 =======
         });
         this.addMediaSection(mediaSection);
@@ -10721,9 +11685,15 @@ class RemoteSdp {
         // Increase SDP version.
         this._sdpObject.origin.sessionVersion++;
 <<<<<<< HEAD
+<<<<<<< HEAD
         return sdpTransform$a.write(this._sdpObject);
     }
     _addMediaSection(newMediaSection) {
+=======
+        return sdpTransform$6.write(this._sdpObject);
+    }
+    addMediaSection(newMediaSection) {
+>>>>>>> upstream/18.0
 =======
         return sdpTransform$6.write(this._sdpObject);
     }
@@ -10740,9 +11710,15 @@ class RemoteSdp {
         this._sdpObject.media.push(newMediaSection.getObject());
         // Regenerate BUNDLE mids.
 <<<<<<< HEAD
+<<<<<<< HEAD
         this._regenerateBundleMids();
     }
     _replaceMediaSection(newMediaSection, reuseMid) {
+=======
+        this.regenerateBundleMids();
+    }
+    replaceMediaSection(newMediaSection, reuseMid) {
+>>>>>>> upstream/18.0
 =======
         this.regenerateBundleMids();
     }
@@ -10764,7 +11740,11 @@ class RemoteSdp {
             this._sdpObject.media[idx] = newMediaSection.getObject();
             // Regenerate BUNDLE mids.
 <<<<<<< HEAD
+<<<<<<< HEAD
             this._regenerateBundleMids();
+=======
+            this.regenerateBundleMids();
+>>>>>>> upstream/18.0
 =======
             this.regenerateBundleMids();
 >>>>>>> upstream/18.0
@@ -10781,7 +11761,11 @@ class RemoteSdp {
         }
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     _findMediaSection(mid) {
+=======
+    findMediaSection(mid) {
+>>>>>>> upstream/18.0
 =======
     findMediaSection(mid) {
 >>>>>>> upstream/18.0
@@ -10792,7 +11776,11 @@ class RemoteSdp {
         return this._mediaSections[idx];
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     _regenerateBundleMids() {
+=======
+    regenerateBundleMids() {
+>>>>>>> upstream/18.0
 =======
     regenerateBundleMids() {
 >>>>>>> upstream/18.0
@@ -10807,6 +11795,7 @@ class RemoteSdp {
 }
 RemoteSdp$1.RemoteSdp = RemoteSdp;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 var scalabilityModes = {};
 
@@ -10870,6 +11859,8 @@ const logger$b = new Logger_1$b.Logger('Chrome111');
 const SCTP_NUM_STREAMS$9 = { OS: 1024, MIS: 1024 };
 class Chrome111 extends HandlerInterface_1$a.HandlerInterface {
 =======
+=======
+>>>>>>> upstream/18.0
 var commonUtils = {};
 
 Object.defineProperty(commonUtils, "__esModule", { value: true });
@@ -11322,11 +12313,15 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
     _nextSendSctpStreamId = 0;
     // Got transport local and remote parameters.
     _transportReady = false;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     /**
      * Creates a factory function.
      */
     static createFactory() {
+<<<<<<< HEAD
 <<<<<<< HEAD
         return () => new Chrome111();
     }
@@ -11351,6 +12346,8 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
     close() {
         logger$b.debug('close()');
 =======
+=======
+>>>>>>> upstream/18.0
         return {
             name: NAME$5,
             factory: (options) => new Chrome111(options),
@@ -11446,12 +12443,16 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
     }
     close() {
         logger$6.debug('close()');
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         if (this._closed) {
             return;
         }
         this._closed = true;
         // Close RTCPeerConnection.
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (this._pc) {
             try {
@@ -11567,6 +12568,8 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
         this.assertNotClosed();
         logger$b.debug('updateIceServers()');
 =======
+=======
+>>>>>>> upstream/18.0
         try {
             this._pc.close();
         }
@@ -11582,6 +12585,9 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
     async updateIceServers(iceServers) {
         this.assertNotClosed();
         logger$6.debug('updateIceServers()');
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         const configuration = this._pc.getConfiguration();
         configuration.iceServers = iceServers;
@@ -11590,7 +12596,11 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
     async restartIce(iceParameters) {
         this.assertNotClosed();
 <<<<<<< HEAD
+<<<<<<< HEAD
         logger$b.debug('restartIce()');
+=======
+        logger$6.debug('restartIce()');
+>>>>>>> upstream/18.0
 =======
         logger$6.debug('restartIce()');
 >>>>>>> upstream/18.0
@@ -11601,6 +12611,7 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
         }
         if (this._direction === 'send') {
             const offer = await this._pc.createOffer({ iceRestart: true });
+<<<<<<< HEAD
 <<<<<<< HEAD
             logger$b.debug('restartIce() | calling pc.setLocalDescription() [offer:%o]', offer);
             await this._pc.setLocalDescription(offer);
@@ -11615,6 +12626,8 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
             const answer = await this._pc.createAnswer();
             logger$b.debug('restartIce() | calling pc.setLocalDescription() [answer:%o]', answer);
 =======
+=======
+>>>>>>> upstream/18.0
             logger$6.debug('restartIce() | calling pc.setLocalDescription() [offer:%o]', offer);
             await this._pc.setLocalDescription(offer);
             const answer = {
@@ -11633,6 +12646,9 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
             await this._pc.setRemoteDescription(offer);
             const answer = await this._pc.createAnswer();
             logger$6.debug('restartIce() | calling pc.setLocalDescription() [answer:%o]', answer);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             await this._pc.setLocalDescription(answer);
         }
@@ -11641,6 +12657,7 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
         this.assertNotClosed();
         return this._pc.getStats();
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
     async send({ track, encodings, codecOptions, codec }) {
         this.assertNotClosed();
@@ -11651,11 +12668,16 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
                 encoding.rid = `r${idx}`;
             });
 =======
+=======
+>>>>>>> upstream/18.0
     async send({ track, streamId, encodings, codecOptions, headerExtensionOptions, codec, onRtpSender, }) {
         this.assertNotClosed();
         this.assertSendDirection();
         logger$6.debug('send() [kind:%s, track.id:%s, streamId:%s]', track.kind, track.id, streamId);
         if (encodings && encodings.length > 1) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             // Set rid and verify scalabilityMode in each encoding.
             // NOTE: Even if WebRTC allows different scalabilityMode (different number
@@ -11663,22 +12685,29 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
             // same in all them, so let's pick up the highest value.
             // NOTE: If scalabilityMode is not given, Chrome will use L1T3.
 <<<<<<< HEAD
+<<<<<<< HEAD
             let nextRid = 1;
             let maxTemporalLayers = 1;
             for (const encoding of encodings) {
                 const temporalLayers = encoding.scalabilityMode
                     ? (0, scalabilityModes_1$5.parse)(encoding.scalabilityMode).temporalLayers
 =======
+=======
+>>>>>>> upstream/18.0
             let maxTemporalLayers = 1;
             for (const encoding of encodings) {
                 const temporalLayers = encoding.scalabilityMode
                     ? (0, scalabilityModes_1$4.parse)(encoding.scalabilityMode).temporalLayers
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     : 3;
                 if (temporalLayers > maxTemporalLayers) {
                     maxTemporalLayers = temporalLayers;
                 }
             }
+<<<<<<< HEAD
 <<<<<<< HEAD
             for (const encoding of encodings) {
                 encoding.rid = `r${nextRid++}`;
@@ -11694,16 +12723,22 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
         sendingRemoteRtpParameters.codecs =
             ortc$b.reduceCodecs(sendingRemoteRtpParameters.codecs, codec);
 =======
+=======
+>>>>>>> upstream/18.0
             encodings.forEach((encoding, idx) => {
                 encoding.rid = `r${idx}`;
                 encoding.scalabilityMode = `L1T${maxTemporalLayers}`;
             });
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         const mediaSectionIdx = this._remoteSdp.getNextMediaSectionIdx();
         const transceiver = this._pc.addTransceiver(track, {
             direction: 'sendonly',
             streams: [this._sendStream],
+<<<<<<< HEAD
 <<<<<<< HEAD
             sendEncodings: encodings
         });
@@ -11717,6 +12752,8 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
         }
         logger$b.debug('send() | calling pc.setLocalDescription() [offer:%o]', offer);
 =======
+=======
+>>>>>>> upstream/18.0
             sendEncodings: encodings,
         });
         if (onRtpSender) {
@@ -11764,12 +12801,16 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
             };
         }
         logger$6.debug('send() | calling pc.setLocalDescription() [offer:%o]', offer);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         await this._pc.setLocalDescription(offer);
         // We can now get the transceiver.mid.
         const localId = transceiver.mid;
         // Set MID.
         sendingRtpParameters.mid = localId;
+<<<<<<< HEAD
 <<<<<<< HEAD
         localSdpObject = sdpTransform$9.parse(this._pc.localDescription.sdp);
         const offerMediaObject = localSdpObject.media[mediaSectionIdx.idx];
@@ -11781,6 +12822,8 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
             sendingRtpParameters.encodings =
                 sdpUnifiedPlanUtils$5.getRtpEncodings({ offerMediaObject });
 =======
+=======
+>>>>>>> upstream/18.0
         localSdpObject = sdpTransform$4.parse(this._pc.localDescription.sdp);
         const offerMediaObject = localSdpObject.media[mediaSectionIdx.idx];
         // Set RTCP CNAME.
@@ -11794,13 +12837,22 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
             sendingRtpParameters.encodings = sdpUnifiedPlanUtils$4.getRtpEncodings({
                 offerMediaObject,
             });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
         // Set RTP encodings by parsing the SDP offer and complete them with given
         // one if just a single encoding has been given.
         else if (encodings.length === 1) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             const newEncodings = sdpUnifiedPlanUtils$5.getRtpEncodings({ offerMediaObject });
+=======
+            const newEncodings = sdpUnifiedPlanUtils$4.getRtpEncodings({
+                offerMediaObject,
+            });
+>>>>>>> upstream/18.0
 =======
             const newEncodings = sdpUnifiedPlanUtils$4.getRtpEncodings({
                 offerMediaObject,
@@ -11820,17 +12872,23 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
             answerRtpParameters: sendingRemoteRtpParameters,
             codecOptions,
 <<<<<<< HEAD
+<<<<<<< HEAD
             extmapAllowMixed: true
         });
         const answer = { type: 'answer', sdp: this._remoteSdp.getSdp() };
         logger$b.debug('send() | calling pc.setRemoteDescription() [answer:%o]', answer);
 =======
+=======
+>>>>>>> upstream/18.0
         });
         const answer = {
             type: 'answer',
             sdp: this._remoteSdp.getSdp(),
         };
         logger$6.debug('send() | calling pc.setRemoteDescription() [answer:%o]', answer);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         await this._pc.setRemoteDescription(answer);
         // Store in the map.
@@ -11839,7 +12897,11 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
             localId,
             rtpParameters: sendingRtpParameters,
 <<<<<<< HEAD
+<<<<<<< HEAD
             rtpSender: transceiver.sender
+=======
+            rtpSender: transceiver.sender,
+>>>>>>> upstream/18.0
 =======
             rtpSender: transceiver.sender,
 >>>>>>> upstream/18.0
@@ -11848,7 +12910,11 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
     async stopSending(localId) {
         this.assertSendDirection();
 <<<<<<< HEAD
+<<<<<<< HEAD
         logger$b.debug('stopSending() [localId:%s]', localId);
+=======
+        logger$6.debug('stopSending() [localId:%s]', localId);
+>>>>>>> upstream/18.0
 =======
         logger$6.debug('stopSending() [localId:%s]', localId);
 >>>>>>> upstream/18.0
@@ -11860,7 +12926,11 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
             throw new Error('associated RTCRtpTransceiver not found');
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         transceiver.sender.replaceTrack(null);
+=======
+        void transceiver.sender.replaceTrack(null);
+>>>>>>> upstream/18.0
 =======
         void transceiver.sender.replaceTrack(null);
 >>>>>>> upstream/18.0
@@ -11874,11 +12944,14 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
         }
         const offer = await this._pc.createOffer();
 <<<<<<< HEAD
+<<<<<<< HEAD
         logger$b.debug('stopSending() | calling pc.setLocalDescription() [offer:%o]', offer);
         await this._pc.setLocalDescription(offer);
         const answer = { type: 'answer', sdp: this._remoteSdp.getSdp() };
         logger$b.debug('stopSending() | calling pc.setRemoteDescription() [answer:%o]', answer);
 =======
+=======
+>>>>>>> upstream/18.0
         logger$6.debug('stopSending() | calling pc.setLocalDescription() [offer:%o]', offer);
         await this._pc.setLocalDescription(offer);
         const answer = {
@@ -11886,6 +12959,9 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
             sdp: this._remoteSdp.getSdp(),
         };
         logger$6.debug('stopSending() | calling pc.setRemoteDescription() [answer:%o]', answer);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         await this._pc.setRemoteDescription(answer);
         this._mapMidTransceiver.delete(localId);
@@ -11894,7 +12970,11 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
         this.assertNotClosed();
         this.assertSendDirection();
 <<<<<<< HEAD
+<<<<<<< HEAD
         logger$b.debug('pauseSending() [localId:%s]', localId);
+=======
+        logger$6.debug('pauseSending() [localId:%s]', localId);
+>>>>>>> upstream/18.0
 =======
         logger$6.debug('pauseSending() [localId:%s]', localId);
 >>>>>>> upstream/18.0
@@ -11906,11 +12986,14 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
         this._remoteSdp.pauseMediaSection(localId);
         const offer = await this._pc.createOffer();
 <<<<<<< HEAD
+<<<<<<< HEAD
         logger$b.debug('pauseSending() | calling pc.setLocalDescription() [offer:%o]', offer);
         await this._pc.setLocalDescription(offer);
         const answer = { type: 'answer', sdp: this._remoteSdp.getSdp() };
         logger$b.debug('pauseSending() | calling pc.setRemoteDescription() [answer:%o]', answer);
 =======
+=======
+>>>>>>> upstream/18.0
         logger$6.debug('pauseSending() | calling pc.setLocalDescription() [offer:%o]', offer);
         await this._pc.setLocalDescription(offer);
         const answer = {
@@ -11918,6 +13001,9 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
             sdp: this._remoteSdp.getSdp(),
         };
         logger$6.debug('pauseSending() | calling pc.setRemoteDescription() [answer:%o]', answer);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         await this._pc.setRemoteDescription(answer);
     }
@@ -11925,7 +13011,11 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
         this.assertNotClosed();
         this.assertSendDirection();
 <<<<<<< HEAD
+<<<<<<< HEAD
         logger$b.debug('resumeSending() [localId:%s]', localId);
+=======
+        logger$6.debug('resumeSending() [localId:%s]', localId);
+>>>>>>> upstream/18.0
 =======
         logger$6.debug('resumeSending() [localId:%s]', localId);
 >>>>>>> upstream/18.0
@@ -11937,11 +13027,14 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
         transceiver.direction = 'sendonly';
         const offer = await this._pc.createOffer();
 <<<<<<< HEAD
+<<<<<<< HEAD
         logger$b.debug('resumeSending() | calling pc.setLocalDescription() [offer:%o]', offer);
         await this._pc.setLocalDescription(offer);
         const answer = { type: 'answer', sdp: this._remoteSdp.getSdp() };
         logger$b.debug('resumeSending() | calling pc.setRemoteDescription() [answer:%o]', answer);
 =======
+=======
+>>>>>>> upstream/18.0
         logger$6.debug('resumeSending() | calling pc.setLocalDescription() [offer:%o]', offer);
         await this._pc.setLocalDescription(offer);
         const answer = {
@@ -11949,6 +13042,9 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
             sdp: this._remoteSdp.getSdp(),
         };
         logger$6.debug('resumeSending() | calling pc.setRemoteDescription() [answer:%o]', answer);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         await this._pc.setRemoteDescription(answer);
     }
@@ -11957,15 +13053,21 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
         this.assertSendDirection();
         if (track) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             logger$b.debug('replaceTrack() [localId:%s, track.id:%s]', localId, track.id);
         }
         else {
             logger$b.debug('replaceTrack() [localId:%s, no track]', localId);
 =======
+=======
+>>>>>>> upstream/18.0
             logger$6.debug('replaceTrack() [localId:%s, track.id:%s]', localId, track.id);
         }
         else {
             logger$6.debug('replaceTrack() [localId:%s, no track]', localId);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
         const transceiver = this._mapMidTransceiver.get(localId);
@@ -11978,7 +13080,11 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
         this.assertNotClosed();
         this.assertSendDirection();
 <<<<<<< HEAD
+<<<<<<< HEAD
         logger$b.debug('setMaxSpatialLayer() [localId:%s, spatialLayer:%s]', localId, spatialLayer);
+=======
+        logger$6.debug('setMaxSpatialLayer() [localId:%s, spatialLayer:%s]', localId, spatialLayer);
+>>>>>>> upstream/18.0
 =======
         logger$6.debug('setMaxSpatialLayer() [localId:%s, spatialLayer:%s]', localId, spatialLayer);
 >>>>>>> upstream/18.0
@@ -11999,11 +13105,14 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
         this._remoteSdp.muxMediaSectionSimulcast(localId, parameters.encodings);
         const offer = await this._pc.createOffer();
 <<<<<<< HEAD
+<<<<<<< HEAD
         logger$b.debug('setMaxSpatialLayer() | calling pc.setLocalDescription() [offer:%o]', offer);
         await this._pc.setLocalDescription(offer);
         const answer = { type: 'answer', sdp: this._remoteSdp.getSdp() };
         logger$b.debug('setMaxSpatialLayer() | calling pc.setRemoteDescription() [answer:%o]', answer);
 =======
+=======
+>>>>>>> upstream/18.0
         logger$6.debug('setMaxSpatialLayer() | calling pc.setLocalDescription() [offer:%o]', offer);
         await this._pc.setLocalDescription(offer);
         const answer = {
@@ -12011,6 +13120,9 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
             sdp: this._remoteSdp.getSdp(),
         };
         logger$6.debug('setMaxSpatialLayer() | calling pc.setRemoteDescription() [answer:%o]', answer);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         await this._pc.setRemoteDescription(answer);
     }
@@ -12018,7 +13130,11 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
         this.assertNotClosed();
         this.assertSendDirection();
 <<<<<<< HEAD
+<<<<<<< HEAD
         logger$b.debug('setRtpEncodingParameters() [localId:%s, params:%o]', localId, params);
+=======
+        logger$6.debug('setRtpEncodingParameters() [localId:%s, params:%o]', localId, params);
+>>>>>>> upstream/18.0
 =======
         logger$6.debug('setRtpEncodingParameters() [localId:%s, params:%o]', localId, params);
 >>>>>>> upstream/18.0
@@ -12034,11 +13150,14 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
         this._remoteSdp.muxMediaSectionSimulcast(localId, parameters.encodings);
         const offer = await this._pc.createOffer();
 <<<<<<< HEAD
+<<<<<<< HEAD
         logger$b.debug('setRtpEncodingParameters() | calling pc.setLocalDescription() [offer:%o]', offer);
         await this._pc.setLocalDescription(offer);
         const answer = { type: 'answer', sdp: this._remoteSdp.getSdp() };
         logger$b.debug('setRtpEncodingParameters() | calling pc.setRemoteDescription() [answer:%o]', answer);
 =======
+=======
+>>>>>>> upstream/18.0
         logger$6.debug('setRtpEncodingParameters() | calling pc.setLocalDescription() [offer:%o]', offer);
         await this._pc.setLocalDescription(offer);
         const answer = {
@@ -12046,6 +13165,9 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
             sdp: this._remoteSdp.getSdp(),
         };
         logger$6.debug('setRtpEncodingParameters() | calling pc.setRemoteDescription() [answer:%o]', answer);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         await this._pc.setRemoteDescription(answer);
     }
@@ -12059,7 +13181,11 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
         return transceiver.sender.getStats();
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     async sendDataChannel({ ordered, maxPacketLifeTime, maxRetransmits, label, protocol }) {
+=======
+    async sendDataChannel({ ordered, maxPacketLifeTime, maxRetransmits, label, protocol, }) {
+>>>>>>> upstream/18.0
 =======
     async sendDataChannel({ ordered, maxPacketLifeTime, maxRetransmits, label, protocol, }) {
 >>>>>>> upstream/18.0
@@ -12072,6 +13198,7 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
             maxPacketLifeTime,
             maxRetransmits,
 <<<<<<< HEAD
+<<<<<<< HEAD
             protocol
         };
         logger$b.debug('sendDataChannel() [options:%o]', options);
@@ -12080,6 +13207,8 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
         this._nextSendSctpStreamId =
             ++this._nextSendSctpStreamId % SCTP_NUM_STREAMS$9.MIS;
 =======
+=======
+>>>>>>> upstream/18.0
             protocol,
         };
         logger$6.debug('sendDataChannel() [options:%o]', options);
@@ -12087,11 +13216,15 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
         // Increase next id.
         this._nextSendSctpStreamId =
             ++this._nextSendSctpStreamId % SCTP_NUM_STREAMS$4.MIS;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         // If this is the first DataChannel we need to create the SDP answer with
         // m=application section.
         if (!this._hasDataChannelMediaSection) {
             const offer = await this._pc.createOffer();
+<<<<<<< HEAD
 <<<<<<< HEAD
             const localSdpObject = sdpTransform$9.parse(offer.sdp);
             const offerMediaObject = localSdpObject.media
@@ -12108,6 +13241,8 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
             const answer = { type: 'answer', sdp: this._remoteSdp.getSdp() };
             logger$b.debug('sendDataChannel() | calling pc.setRemoteDescription() [answer:%o]', answer);
 =======
+=======
+>>>>>>> upstream/18.0
             const localSdpObject = sdpTransform$4.parse(offer.sdp);
             const offerMediaObject = localSdpObject.media.find(m => m.type === 'application');
             if (!this._transportReady) {
@@ -12124,6 +13259,9 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
                 sdp: this._remoteSdp.getSdp(),
             };
             logger$6.debug('sendDataChannel() | calling pc.setRemoteDescription() [answer:%o]', answer);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             await this._pc.setRemoteDescription(answer);
             this._hasDataChannelMediaSection = true;
@@ -12133,7 +13271,11 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
             ordered: options.ordered,
             maxPacketLifeTime: options.maxPacketLifeTime,
 <<<<<<< HEAD
+<<<<<<< HEAD
             maxRetransmits: options.maxRetransmits
+=======
+            maxRetransmits: options.maxRetransmits,
+>>>>>>> upstream/18.0
 =======
             maxRetransmits: options.maxRetransmits,
 >>>>>>> upstream/18.0
@@ -12148,21 +13290,28 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
         for (const options of optionsList) {
             const { trackId, kind, rtpParameters, streamId } = options;
 <<<<<<< HEAD
+<<<<<<< HEAD
             logger$b.debug('receive() [trackId:%s, kind:%s]', trackId, kind);
             const localId = rtpParameters.mid || String(this._mapMidTransceiver.size);
             mapLocalId.set(trackId, localId);
 =======
+=======
+>>>>>>> upstream/18.0
             logger$6.debug('receive() [trackId:%s, kind:%s]', trackId, kind);
             const localId = rtpParameters.mid ?? String(this._mapMidTransceiver.size);
             mapLocalId.set(trackId, localId);
             // We ignore MSID `trackId` when consuming and always use our computed
             // `trackId` which matches the `consumer.id`.
             const { msidStreamId } = ortcUtils$4.getMsidStreamIdAndTrackId(rtpParameters.msid);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             this._remoteSdp.receive({
                 mid: localId,
                 kind,
                 offerRtpParameters: rtpParameters,
+<<<<<<< HEAD
 <<<<<<< HEAD
                 streamId: streamId || rtpParameters.rtcp.cname,
                 trackId
@@ -12194,6 +13343,8 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
         }
         logger$b.debug('receive() | calling pc.setLocalDescription() [answer:%o]', answer);
 =======
+=======
+>>>>>>> upstream/18.0
                 streamId: streamId ?? msidStreamId ?? rtpParameters.rtcp?.cname ?? '-',
                 trackId,
             });
@@ -12241,13 +13392,21 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
             });
         }
         logger$6.debug('receive() | calling pc.setLocalDescription() [answer:%o]', answer);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         await this._pc.setLocalDescription(answer);
         for (const options of optionsList) {
             const { trackId } = options;
             const localId = mapLocalId.get(trackId);
 <<<<<<< HEAD
+<<<<<<< HEAD
             const transceiver = this._pc.getTransceivers()
+=======
+            const transceiver = this._pc
+                .getTransceivers()
+>>>>>>> upstream/18.0
 =======
             const transceiver = this._pc
                 .getTransceivers()
@@ -12263,7 +13422,11 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
                     localId,
                     track: transceiver.receiver.track,
 <<<<<<< HEAD
+<<<<<<< HEAD
                     rtpReceiver: transceiver.receiver
+=======
+                    rtpReceiver: transceiver.receiver,
+>>>>>>> upstream/18.0
 =======
                     rtpReceiver: transceiver.receiver,
 >>>>>>> upstream/18.0
@@ -12279,7 +13442,11 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
         }
         for (const localId of localIds) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             logger$b.debug('stopReceiving() [localId:%s]', localId);
+=======
+            logger$6.debug('stopReceiving() [localId:%s]', localId);
+>>>>>>> upstream/18.0
 =======
             logger$6.debug('stopReceiving() [localId:%s]', localId);
 >>>>>>> upstream/18.0
@@ -12290,12 +13457,15 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
             this._remoteSdp.closeMediaSection(transceiver.mid);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         const offer = { type: 'offer', sdp: this._remoteSdp.getSdp() };
         logger$b.debug('stopReceiving() | calling pc.setRemoteDescription() [offer:%o]', offer);
         await this._pc.setRemoteDescription(offer);
         const answer = await this._pc.createAnswer();
         logger$b.debug('stopReceiving() | calling pc.setLocalDescription() [answer:%o]', answer);
 =======
+=======
+>>>>>>> upstream/18.0
         const offer = {
             type: 'offer',
             sdp: this._remoteSdp.getSdp(),
@@ -12304,6 +13474,9 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
         await this._pc.setRemoteDescription(offer);
         const answer = await this._pc.createAnswer();
         logger$6.debug('stopReceiving() | calling pc.setLocalDescription() [answer:%o]', answer);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         await this._pc.setLocalDescription(answer);
         for (const localId of localIds) {
@@ -12315,7 +13488,11 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
         this.assertRecvDirection();
         for (const localId of localIds) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             logger$b.debug('pauseReceiving() [localId:%s]', localId);
+=======
+            logger$6.debug('pauseReceiving() [localId:%s]', localId);
+>>>>>>> upstream/18.0
 =======
             logger$6.debug('pauseReceiving() [localId:%s]', localId);
 >>>>>>> upstream/18.0
@@ -12327,12 +13504,15 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
             this._remoteSdp.pauseMediaSection(localId);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         const offer = { type: 'offer', sdp: this._remoteSdp.getSdp() };
         logger$b.debug('pauseReceiving() | calling pc.setRemoteDescription() [offer:%o]', offer);
         await this._pc.setRemoteDescription(offer);
         const answer = await this._pc.createAnswer();
         logger$b.debug('pauseReceiving() | calling pc.setLocalDescription() [answer:%o]', answer);
 =======
+=======
+>>>>>>> upstream/18.0
         const offer = {
             type: 'offer',
             sdp: this._remoteSdp.getSdp(),
@@ -12341,6 +13521,9 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
         await this._pc.setRemoteDescription(offer);
         const answer = await this._pc.createAnswer();
         logger$6.debug('pauseReceiving() | calling pc.setLocalDescription() [answer:%o]', answer);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         await this._pc.setLocalDescription(answer);
     }
@@ -12349,7 +13532,11 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
         this.assertRecvDirection();
         for (const localId of localIds) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             logger$b.debug('resumeReceiving() [localId:%s]', localId);
+=======
+            logger$6.debug('resumeReceiving() [localId:%s]', localId);
+>>>>>>> upstream/18.0
 =======
             logger$6.debug('resumeReceiving() [localId:%s]', localId);
 >>>>>>> upstream/18.0
@@ -12361,12 +13548,15 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
             this._remoteSdp.resumeReceivingMediaSection(localId);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         const offer = { type: 'offer', sdp: this._remoteSdp.getSdp() };
         logger$b.debug('resumeReceiving() | calling pc.setRemoteDescription() [offer:%o]', offer);
         await this._pc.setRemoteDescription(offer);
         const answer = await this._pc.createAnswer();
         logger$b.debug('resumeReceiving() | calling pc.setLocalDescription() [answer:%o]', answer);
 =======
+=======
+>>>>>>> upstream/18.0
         const offer = {
             type: 'offer',
             sdp: this._remoteSdp.getSdp(),
@@ -12375,6 +13565,9 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
         await this._pc.setRemoteDescription(offer);
         const answer = await this._pc.createAnswer();
         logger$6.debug('resumeReceiving() | calling pc.setLocalDescription() [answer:%o]', answer);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         await this._pc.setLocalDescription(answer);
     }
@@ -12388,15 +13581,21 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
         return transceiver.receiver.getStats();
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     async receiveDataChannel({ sctpStreamParameters, label, protocol }) {
         this.assertNotClosed();
         this.assertRecvDirection();
         const { streamId, ordered, maxPacketLifeTime, maxRetransmits } = sctpStreamParameters;
 =======
+=======
+>>>>>>> upstream/18.0
     async receiveDataChannel({ sctpStreamParameters, label, protocol, }) {
         this.assertNotClosed();
         this.assertRecvDirection();
         const { streamId, ordered, maxPacketLifeTime, maxRetransmits, } = sctpStreamParameters;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         const options = {
             negotiated: true,
@@ -12405,9 +13604,15 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
             maxPacketLifeTime,
             maxRetransmits,
 <<<<<<< HEAD
+<<<<<<< HEAD
             protocol
         };
         logger$b.debug('receiveDataChannel() [options:%o]', options);
+=======
+            protocol,
+        };
+        logger$6.debug('receiveDataChannel() [options:%o]', options);
+>>>>>>> upstream/18.0
 =======
             protocol,
         };
@@ -12418,6 +13623,7 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
         // m=application section.
         if (!this._hasDataChannelMediaSection) {
             this._remoteSdp.receiveSctpAssociation();
+<<<<<<< HEAD
 <<<<<<< HEAD
             const offer = { type: 'offer', sdp: this._remoteSdp.getSdp() };
             logger$b.debug('receiveDataChannel() | calling pc.setRemoteDescription() [offer:%o]', offer);
@@ -12432,6 +13638,8 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
             }
             logger$b.debug('receiveDataChannel() | calling pc.setRemoteDescription() [answer:%o]', answer);
 =======
+=======
+>>>>>>> upstream/18.0
             const offer = {
                 type: 'offer',
                 sdp: this._remoteSdp.getSdp(),
@@ -12447,12 +13655,16 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
                 });
             }
             logger$6.debug('receiveDataChannel() | calling pc.setRemoteDescription() [answer:%o]', answer);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             await this._pc.setLocalDescription(answer);
             this._hasDataChannelMediaSection = true;
         }
         return { dataChannel };
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
     async setupTransport({ localDtlsRole, localSdpObject }) {
         if (!localSdpObject) {
@@ -12461,6 +13673,8 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
         // Get our local DTLS parameters.
         const dtlsParameters = sdpCommonUtils$9.extractDtlsParameters({ sdpObject: localSdpObject });
 =======
+=======
+>>>>>>> upstream/18.0
     async setupTransport({ localDtlsRole, localSdpObject, }) {
         if (!localSdpObject) {
             localSdpObject = sdpTransform$4.parse(this._pc.localDescription.sdp);
@@ -12469,6 +13683,9 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
         const dtlsParameters = sdpCommonUtils$4.extractDtlsParameters({
             sdpObject: localSdpObject,
         });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         // Set our DTLS role.
         dtlsParameters.role = localDtlsRole;
@@ -12481,10 +13698,13 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
         this._transportReady = true;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     assertNotClosed() {
         if (this._closed) {
             throw new errors_1$8.InvalidStateError('method called in a closed handler');
 =======
+=======
+>>>>>>> upstream/18.0
     onIceGatheringStateChange = () => {
         this.emit('@icegatheringstatechange', this._pc.iceGatheringState);
     };
@@ -12522,6 +13742,9 @@ class Chrome111 extends enhancedEvents_1$6.EnhancedEventEmitter {
     assertNotClosed() {
         if (this._closed) {
             throw new errors_1$6.InvalidStateError('method called in a closed handler');
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
     }
@@ -12540,6 +13763,7 @@ Chrome111$1.Chrome111 = Chrome111;
 
 var Chrome74$1 = {};
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 var __createBinding$b = (commonjsGlobal && commonjsGlobal.__createBinding) || (Object.create ? (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
@@ -12581,6 +13805,8 @@ const logger$a = new Logger_1$a.Logger('Chrome74');
 const SCTP_NUM_STREAMS$8 = { OS: 1024, MIS: 1024 };
 class Chrome74 extends HandlerInterface_1$9.HandlerInterface {
 =======
+=======
+>>>>>>> upstream/18.0
 Object.defineProperty(Chrome74$1, "__esModule", { value: true });
 Chrome74$1.Chrome74 = void 0;
 const sdpTransform$3 = lib$1;
@@ -12620,11 +13846,15 @@ class Chrome74 extends enhancedEvents_1$5.EnhancedEventEmitter {
     _nextSendSctpStreamId = 0;
     // Got transport local and remote parameters.
     _transportReady = false;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     /**
      * Creates a factory function.
      */
     static createFactory() {
+<<<<<<< HEAD
 <<<<<<< HEAD
         return () => new Chrome74();
     }
@@ -12649,6 +13879,8 @@ class Chrome74 extends enhancedEvents_1$5.EnhancedEventEmitter {
     close() {
         logger$a.debug('close()');
 =======
+=======
+>>>>>>> upstream/18.0
         return {
             name: NAME$4,
             factory: (options) => new Chrome74(options),
@@ -12740,12 +13972,16 @@ class Chrome74 extends enhancedEvents_1$5.EnhancedEventEmitter {
     }
     close() {
         logger$5.debug('close()');
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         if (this._closed) {
             return;
         }
         this._closed = true;
         // Close RTCPeerConnection.
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (this._pc) {
             try {
@@ -12860,6 +14096,8 @@ class Chrome74 extends enhancedEvents_1$5.EnhancedEventEmitter {
         this.assertNotClosed();
         logger$a.debug('updateIceServers()');
 =======
+=======
+>>>>>>> upstream/18.0
         try {
             this._pc.close();
         }
@@ -12875,6 +14113,9 @@ class Chrome74 extends enhancedEvents_1$5.EnhancedEventEmitter {
     async updateIceServers(iceServers) {
         this.assertNotClosed();
         logger$5.debug('updateIceServers()');
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         const configuration = this._pc.getConfiguration();
         configuration.iceServers = iceServers;
@@ -12883,7 +14124,11 @@ class Chrome74 extends enhancedEvents_1$5.EnhancedEventEmitter {
     async restartIce(iceParameters) {
         this.assertNotClosed();
 <<<<<<< HEAD
+<<<<<<< HEAD
         logger$a.debug('restartIce()');
+=======
+        logger$5.debug('restartIce()');
+>>>>>>> upstream/18.0
 =======
         logger$5.debug('restartIce()');
 >>>>>>> upstream/18.0
@@ -12894,6 +14139,7 @@ class Chrome74 extends enhancedEvents_1$5.EnhancedEventEmitter {
         }
         if (this._direction === 'send') {
             const offer = await this._pc.createOffer({ iceRestart: true });
+<<<<<<< HEAD
 <<<<<<< HEAD
             logger$a.debug('restartIce() | calling pc.setLocalDescription() [offer:%o]', offer);
             await this._pc.setLocalDescription(offer);
@@ -12908,6 +14154,8 @@ class Chrome74 extends enhancedEvents_1$5.EnhancedEventEmitter {
             const answer = await this._pc.createAnswer();
             logger$a.debug('restartIce() | calling pc.setLocalDescription() [answer:%o]', answer);
 =======
+=======
+>>>>>>> upstream/18.0
             logger$5.debug('restartIce() | calling pc.setLocalDescription() [offer:%o]', offer);
             await this._pc.setLocalDescription(offer);
             const answer = {
@@ -12926,6 +14174,9 @@ class Chrome74 extends enhancedEvents_1$5.EnhancedEventEmitter {
             await this._pc.setRemoteDescription(offer);
             const answer = await this._pc.createAnswer();
             logger$5.debug('restartIce() | calling pc.setLocalDescription() [answer:%o]', answer);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             await this._pc.setLocalDescription(answer);
         }
@@ -12935,21 +14186,28 @@ class Chrome74 extends enhancedEvents_1$5.EnhancedEventEmitter {
         return this._pc.getStats();
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     async send({ track, encodings, codecOptions, codec }) {
         this.assertNotClosed();
         this.assertSendDirection();
         logger$a.debug('send() [kind:%s, track.id:%s]', track.kind, track.id);
 =======
+=======
+>>>>>>> upstream/18.0
     async send({ track, streamId, encodings, codecOptions, headerExtensionOptions, codec, }) {
         this.assertNotClosed();
         this.assertSendDirection();
         logger$5.debug('send() [kind:%s, track.id:%s, streamId:%s]', track.kind, track.id, streamId);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         if (encodings && encodings.length > 1) {
             encodings.forEach((encoding, idx) => {
                 encoding.rid = `r${idx}`;
             });
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
         const sendingRtpParameters = utils$b.clone(this._sendingRtpParametersByKind[track.kind]);
         // This may throw.
@@ -12961,10 +14219,13 @@ class Chrome74 extends enhancedEvents_1$5.EnhancedEventEmitter {
             ortc$a.reduceCodecs(sendingRemoteRtpParameters.codecs, codec);
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const mediaSectionIdx = this._remoteSdp.getNextMediaSectionIdx();
         const transceiver = this._pc.addTransceiver(track, {
             direction: 'sendonly',
             streams: [this._sendStream],
+<<<<<<< HEAD
 <<<<<<< HEAD
             sendEncodings: encodings
         });
@@ -12976,6 +14237,8 @@ class Chrome74 extends enhancedEvents_1$5.EnhancedEventEmitter {
                 localDtlsRole: this._forcedLocalDtlsRole ?? 'client',
                 localSdpObject
 =======
+=======
+>>>>>>> upstream/18.0
             sendEncodings: encodings,
         });
         let offer = await this._pc.createOffer();
@@ -13003,11 +14266,15 @@ class Chrome74 extends enhancedEvents_1$5.EnhancedEventEmitter {
             await this.setupTransport({
                 localDtlsRole: this._forcedLocalDtlsRole ?? 'client',
                 localSdpObject,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             });
         }
         // Special case for VP9 with SVC.
         let hackVp9Svc = false;
+<<<<<<< HEAD
 <<<<<<< HEAD
         const layers = (0, scalabilityModes_1$4.parse)((encodings || [{}])[0].scalabilityMode);
         if (encodings &&
@@ -13026,6 +14293,8 @@ class Chrome74 extends enhancedEvents_1$5.EnhancedEventEmitter {
         }
         logger$a.debug('send() | calling pc.setLocalDescription() [offer:%o]', offer);
 =======
+=======
+>>>>>>> upstream/18.0
         const layers = (0, scalabilityModes_1$3.parse)((encodings ?? [{}])[0].scalabilityMode);
         let offerMediaObject;
         if (encodings?.length === 1 &&
@@ -13059,12 +14328,16 @@ class Chrome74 extends enhancedEvents_1$5.EnhancedEventEmitter {
                 sdp: sdpTransform$3.write(localSdpObject),
             };
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         await this._pc.setLocalDescription(offer);
         // We can now get the transceiver.mid.
         const localId = transceiver.mid;
         // Set MID.
         sendingRtpParameters.mid = localId;
+<<<<<<< HEAD
 <<<<<<< HEAD
         localSdpObject = sdpTransform$8.parse(this._pc.localDescription.sdp);
         offerMediaObject = localSdpObject.media[mediaSectionIdx.idx];
@@ -13076,6 +14349,8 @@ class Chrome74 extends enhancedEvents_1$5.EnhancedEventEmitter {
             sendingRtpParameters.encodings =
                 sdpUnifiedPlanUtils$4.getRtpEncodings({ offerMediaObject });
 =======
+=======
+>>>>>>> upstream/18.0
         localSdpObject = sdpTransform$3.parse(this._pc.localDescription.sdp);
         offerMediaObject = localSdpObject.media[mediaSectionIdx.idx];
         // Set RTCP CNAME.
@@ -13089,13 +14364,22 @@ class Chrome74 extends enhancedEvents_1$5.EnhancedEventEmitter {
             sendingRtpParameters.encodings = sdpUnifiedPlanUtils$3.getRtpEncodings({
                 offerMediaObject,
             });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
         // Set RTP encodings by parsing the SDP offer and complete them with given
         // one if just a single encoding has been given.
         else if (encodings.length === 1) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             let newEncodings = sdpUnifiedPlanUtils$4.getRtpEncodings({ offerMediaObject });
+=======
+            let newEncodings = sdpUnifiedPlanUtils$3.getRtpEncodings({
+                offerMediaObject,
+            });
+>>>>>>> upstream/18.0
 =======
             let newEncodings = sdpUnifiedPlanUtils$3.getRtpEncodings({
                 offerMediaObject,
@@ -13132,6 +14416,7 @@ class Chrome74 extends enhancedEvents_1$5.EnhancedEventEmitter {
             offerRtpParameters: sendingRtpParameters,
             answerRtpParameters: sendingRemoteRtpParameters,
             codecOptions,
+<<<<<<< HEAD
 <<<<<<< HEAD
             extmapAllowMixed: true
         });
@@ -16463,11 +17748,16 @@ class Safari12 extends HandlerInterface_1$4.HandlerInterface {
         });
         const answer = { type: 'answer', sdp: this._remoteSdp.getSdp() };
 =======
+=======
+>>>>>>> upstream/18.0
         });
         const answer = {
             type: 'answer',
             sdp: this._remoteSdp.getSdp(),
         };
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         logger$5.debug('send() | calling pc.setRemoteDescription() [answer:%o]', answer);
         await this._pc.setRemoteDescription(answer);
@@ -16477,7 +17767,11 @@ class Safari12 extends HandlerInterface_1$4.HandlerInterface {
             localId,
             rtpParameters: sendingRtpParameters,
 <<<<<<< HEAD
+<<<<<<< HEAD
             rtpSender: transceiver.sender
+=======
+            rtpSender: transceiver.sender,
+>>>>>>> upstream/18.0
 =======
             rtpSender: transceiver.sender,
 >>>>>>> upstream/18.0
@@ -16486,22 +17780,32 @@ class Safari12 extends HandlerInterface_1$4.HandlerInterface {
     async stopSending(localId) {
         this.assertSendDirection();
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (this._closed) {
             return;
         }
         logger$5.debug('stopSending() [localId:%s]', localId);
 =======
+=======
+>>>>>>> upstream/18.0
         logger$5.debug('stopSending() [localId:%s]', localId);
         if (this._closed) {
             return;
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         const transceiver = this._mapMidTransceiver.get(localId);
         if (!transceiver) {
             throw new Error('associated RTCRtpTransceiver not found');
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         transceiver.sender.replaceTrack(null);
+=======
+        void transceiver.sender.replaceTrack(null);
+>>>>>>> upstream/18.0
 =======
         void transceiver.sender.replaceTrack(null);
 >>>>>>> upstream/18.0
@@ -16517,19 +17821,28 @@ class Safari12 extends HandlerInterface_1$4.HandlerInterface {
         logger$5.debug('stopSending() | calling pc.setLocalDescription() [offer:%o]', offer);
         await this._pc.setLocalDescription(offer);
 <<<<<<< HEAD
+<<<<<<< HEAD
         const answer = { type: 'answer', sdp: this._remoteSdp.getSdp() };
 =======
+=======
+>>>>>>> upstream/18.0
         const answer = {
             type: 'answer',
             sdp: this._remoteSdp.getSdp(),
         };
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         logger$5.debug('stopSending() | calling pc.setRemoteDescription() [answer:%o]', answer);
         await this._pc.setRemoteDescription(answer);
         this._mapMidTransceiver.delete(localId);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     async pauseSending(localId) {
@@ -16546,12 +17859,15 @@ class Safari12 extends HandlerInterface_1$4.HandlerInterface {
         logger$5.debug('pauseSending() | calling pc.setLocalDescription() [offer:%o]', offer);
         await this._pc.setLocalDescription(offer);
 <<<<<<< HEAD
+<<<<<<< HEAD
         const answer = { type: 'answer', sdp: this._remoteSdp.getSdp() };
         logger$5.debug('pauseSending() | calling pc.setRemoteDescription() [answer:%o]', answer);
         await this._pc.setRemoteDescription(answer);
     }
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
 =======
+=======
+>>>>>>> upstream/18.0
         const answer = {
             type: 'answer',
             sdp: this._remoteSdp.getSdp(),
@@ -16559,6 +17875,9 @@ class Safari12 extends HandlerInterface_1$4.HandlerInterface {
         logger$5.debug('pauseSending() | calling pc.setRemoteDescription() [answer:%o]', answer);
         await this._pc.setRemoteDescription(answer);
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     async resumeSending(localId) {
         this.assertNotClosed();
@@ -16566,6 +17885,10 @@ class Safari12 extends HandlerInterface_1$4.HandlerInterface {
         logger$5.debug('resumeSending() [localId:%s]', localId);
         const transceiver = this._mapMidTransceiver.get(localId);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this._remoteSdp.resumeSendingMediaSection(localId);
+>>>>>>> upstream/18.0
 =======
         this._remoteSdp.resumeSendingMediaSection(localId);
 >>>>>>> upstream/18.0
@@ -16574,12 +17897,15 @@ class Safari12 extends HandlerInterface_1$4.HandlerInterface {
         }
         transceiver.direction = 'sendonly';
 <<<<<<< HEAD
+<<<<<<< HEAD
         this._remoteSdp.resumeSendingMediaSection(localId);
         const offer = await this._pc.createOffer();
         logger$5.debug('resumeSending() | calling pc.setLocalDescription() [offer:%o]', offer);
         await this._pc.setLocalDescription(offer);
         const answer = { type: 'answer', sdp: this._remoteSdp.getSdp() };
 =======
+=======
+>>>>>>> upstream/18.0
         const offer = await this._pc.createOffer();
         logger$5.debug('resumeSending() | calling pc.setLocalDescription() [offer:%o]', offer);
         await this._pc.setLocalDescription(offer);
@@ -16587,6 +17913,9 @@ class Safari12 extends HandlerInterface_1$4.HandlerInterface {
             type: 'answer',
             sdp: this._remoteSdp.getSdp(),
         };
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         logger$5.debug('resumeSending() | calling pc.setRemoteDescription() [answer:%o]', answer);
         await this._pc.setRemoteDescription(answer);
@@ -16629,12 +17958,18 @@ class Safari12 extends HandlerInterface_1$4.HandlerInterface {
         logger$5.debug('setMaxSpatialLayer() | calling pc.setLocalDescription() [offer:%o]', offer);
         await this._pc.setLocalDescription(offer);
 <<<<<<< HEAD
+<<<<<<< HEAD
         const answer = { type: 'answer', sdp: this._remoteSdp.getSdp() };
 =======
+=======
+>>>>>>> upstream/18.0
         const answer = {
             type: 'answer',
             sdp: this._remoteSdp.getSdp(),
         };
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         logger$5.debug('setMaxSpatialLayer() | calling pc.setRemoteDescription() [answer:%o]', answer);
         await this._pc.setRemoteDescription(answer);
@@ -16657,12 +17992,18 @@ class Safari12 extends HandlerInterface_1$4.HandlerInterface {
         logger$5.debug('setRtpEncodingParameters() | calling pc.setLocalDescription() [offer:%o]', offer);
         await this._pc.setLocalDescription(offer);
 <<<<<<< HEAD
+<<<<<<< HEAD
         const answer = { type: 'answer', sdp: this._remoteSdp.getSdp() };
 =======
+=======
+>>>>>>> upstream/18.0
         const answer = {
             type: 'answer',
             sdp: this._remoteSdp.getSdp(),
         };
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         logger$5.debug('setRtpEncodingParameters() | calling pc.setRemoteDescription() [answer:%o]', answer);
         await this._pc.setRemoteDescription(answer);
@@ -16677,7 +18018,11 @@ class Safari12 extends HandlerInterface_1$4.HandlerInterface {
         return transceiver.sender.getStats();
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     async sendDataChannel({ ordered, maxPacketLifeTime, maxRetransmits, label, protocol }) {
+=======
+    async sendDataChannel({ ordered, maxPacketLifeTime, maxRetransmits, label, protocol, }) {
+>>>>>>> upstream/18.0
 =======
     async sendDataChannel({ ordered, maxPacketLifeTime, maxRetransmits, label, protocol, }) {
 >>>>>>> upstream/18.0
@@ -16690,7 +18035,11 @@ class Safari12 extends HandlerInterface_1$4.HandlerInterface {
             maxPacketLifeTime,
             maxRetransmits,
 <<<<<<< HEAD
+<<<<<<< HEAD
             protocol
+=======
+            protocol,
+>>>>>>> upstream/18.0
 =======
             protocol,
 >>>>>>> upstream/18.0
@@ -16706,6 +18055,7 @@ class Safari12 extends HandlerInterface_1$4.HandlerInterface {
             const offer = await this._pc.createOffer();
             const localSdpObject = sdpTransform$3.parse(offer.sdp);
 <<<<<<< HEAD
+<<<<<<< HEAD
             const offerMediaObject = localSdpObject.media
                 .find((m) => m.type === 'application');
             if (!this._transportReady) {
@@ -16713,11 +18063,16 @@ class Safari12 extends HandlerInterface_1$4.HandlerInterface {
                     localDtlsRole: this._forcedLocalDtlsRole ?? 'client',
                     localSdpObject
 =======
+=======
+>>>>>>> upstream/18.0
             const offerMediaObject = localSdpObject.media.find(m => m.type === 'application');
             if (!this._transportReady) {
                 await this.setupTransport({
                     localDtlsRole: this._forcedLocalDtlsRole ?? 'client',
                     localSdpObject,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 });
             }
@@ -16725,12 +18080,18 @@ class Safari12 extends HandlerInterface_1$4.HandlerInterface {
             await this._pc.setLocalDescription(offer);
             this._remoteSdp.sendSctpAssociation({ offerMediaObject });
 <<<<<<< HEAD
+<<<<<<< HEAD
             const answer = { type: 'answer', sdp: this._remoteSdp.getSdp() };
 =======
+=======
+>>>>>>> upstream/18.0
             const answer = {
                 type: 'answer',
                 sdp: this._remoteSdp.getSdp(),
             };
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             logger$5.debug('sendDataChannel() | calling pc.setRemoteDescription() [answer:%o]', answer);
             await this._pc.setRemoteDescription(answer);
@@ -16741,7 +18102,11 @@ class Safari12 extends HandlerInterface_1$4.HandlerInterface {
             ordered: options.ordered,
             maxPacketLifeTime: options.maxPacketLifeTime,
 <<<<<<< HEAD
+<<<<<<< HEAD
             maxRetransmits: options.maxRetransmits
+=======
+            maxRetransmits: options.maxRetransmits,
+>>>>>>> upstream/18.0
 =======
             maxRetransmits: options.maxRetransmits,
 >>>>>>> upstream/18.0
@@ -16757,19 +18122,26 @@ class Safari12 extends HandlerInterface_1$4.HandlerInterface {
             const { trackId, kind, rtpParameters, streamId } = options;
             logger$5.debug('receive() [trackId:%s, kind:%s]', trackId, kind);
 <<<<<<< HEAD
+<<<<<<< HEAD
             const localId = rtpParameters.mid || String(this._mapMidTransceiver.size);
             mapLocalId.set(trackId, localId);
 =======
+=======
+>>>>>>> upstream/18.0
             const localId = rtpParameters.mid ?? String(this._mapMidTransceiver.size);
             mapLocalId.set(trackId, localId);
             // We ignore MSID `trackId` when consuming and always use our computed
             // `trackId` which matches the `consumer.id`.
             const { msidStreamId } = ortcUtils$3.getMsidStreamIdAndTrackId(rtpParameters.msid);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             this._remoteSdp.receive({
                 mid: localId,
                 kind,
                 offerRtpParameters: rtpParameters,
+<<<<<<< HEAD
 <<<<<<< HEAD
                 streamId: streamId || rtpParameters.rtcp.cname,
                 trackId
@@ -16777,6 +18149,8 @@ class Safari12 extends HandlerInterface_1$4.HandlerInterface {
         }
         const offer = { type: 'offer', sdp: this._remoteSdp.getSdp() };
 =======
+=======
+>>>>>>> upstream/18.0
                 streamId: streamId ?? msidStreamId ?? rtpParameters.rtcp?.cname ?? '-',
                 trackId,
             });
@@ -16785,6 +18159,9 @@ class Safari12 extends HandlerInterface_1$4.HandlerInterface {
             type: 'offer',
             sdp: this._remoteSdp.getSdp(),
         };
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         logger$5.debug('receive() | calling pc.setRemoteDescription() [offer:%o]', offer);
         await this._pc.setRemoteDescription(offer);
@@ -16794,8 +18171,12 @@ class Safari12 extends HandlerInterface_1$4.HandlerInterface {
             const { trackId, rtpParameters } = options;
             const localId = mapLocalId.get(trackId);
 <<<<<<< HEAD
+<<<<<<< HEAD
             const answerMediaObject = localSdpObject.media
                 .find((m) => String(m.mid) === localId);
+=======
+            const answerMediaObject = localSdpObject.media.find(m => String(m.mid) === localId);
+>>>>>>> upstream/18.0
 =======
             const answerMediaObject = localSdpObject.media.find(m => String(m.mid) === localId);
 >>>>>>> upstream/18.0
@@ -16803,6 +18184,7 @@ class Safari12 extends HandlerInterface_1$4.HandlerInterface {
             // parameters in the offer.
             sdpCommonUtils$3.applyCodecParameters({
                 offerRtpParameters: rtpParameters,
+<<<<<<< HEAD
 <<<<<<< HEAD
                 answerMediaObject
             });
@@ -16813,6 +18195,8 @@ class Safari12 extends HandlerInterface_1$4.HandlerInterface {
                 localDtlsRole: this._forcedLocalDtlsRole ?? 'client',
                 localSdpObject
 =======
+=======
+>>>>>>> upstream/18.0
                 answerMediaObject,
             });
         }
@@ -16824,6 +18208,9 @@ class Safari12 extends HandlerInterface_1$4.HandlerInterface {
             await this.setupTransport({
                 localDtlsRole: this._forcedLocalDtlsRole ?? 'client',
                 localSdpObject,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             });
         }
@@ -16833,7 +18220,12 @@ class Safari12 extends HandlerInterface_1$4.HandlerInterface {
             const { trackId } = options;
             const localId = mapLocalId.get(trackId);
 <<<<<<< HEAD
+<<<<<<< HEAD
             const transceiver = this._pc.getTransceivers()
+=======
+            const transceiver = this._pc
+                .getTransceivers()
+>>>>>>> upstream/18.0
 =======
             const transceiver = this._pc
                 .getTransceivers()
@@ -16843,6 +18235,7 @@ class Safari12 extends HandlerInterface_1$4.HandlerInterface {
                 throw new Error('new RTCRtpTransceiver not found');
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
             // Store in the map.
             this._mapMidTransceiver.set(localId, transceiver);
             results.push({
@@ -16851,6 +18244,8 @@ class Safari12 extends HandlerInterface_1$4.HandlerInterface {
                 rtpReceiver: transceiver.receiver
             });
 =======
+=======
+>>>>>>> upstream/18.0
             else {
                 // Store in the map.
                 this._mapMidTransceiver.set(localId, transceiver);
@@ -16860,6 +18255,9 @@ class Safari12 extends HandlerInterface_1$4.HandlerInterface {
                     rtpReceiver: transceiver.receiver,
                 });
             }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
         return results;
@@ -16878,12 +18276,18 @@ class Safari12 extends HandlerInterface_1$4.HandlerInterface {
             this._remoteSdp.closeMediaSection(transceiver.mid);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         const offer = { type: 'offer', sdp: this._remoteSdp.getSdp() };
 =======
+=======
+>>>>>>> upstream/18.0
         const offer = {
             type: 'offer',
             sdp: this._remoteSdp.getSdp(),
         };
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         logger$5.debug('stopReceiving() | calling pc.setRemoteDescription() [offer:%o]', offer);
         await this._pc.setRemoteDescription(offer);
@@ -16907,12 +18311,18 @@ class Safari12 extends HandlerInterface_1$4.HandlerInterface {
             this._remoteSdp.pauseMediaSection(localId);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         const offer = { type: 'offer', sdp: this._remoteSdp.getSdp() };
 =======
+=======
+>>>>>>> upstream/18.0
         const offer = {
             type: 'offer',
             sdp: this._remoteSdp.getSdp(),
         };
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         logger$5.debug('pauseReceiving() | calling pc.setRemoteDescription() [offer:%o]', offer);
         await this._pc.setRemoteDescription(offer);
@@ -16933,12 +18343,18 @@ class Safari12 extends HandlerInterface_1$4.HandlerInterface {
             this._remoteSdp.resumeReceivingMediaSection(localId);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         const offer = { type: 'offer', sdp: this._remoteSdp.getSdp() };
 =======
+=======
+>>>>>>> upstream/18.0
         const offer = {
             type: 'offer',
             sdp: this._remoteSdp.getSdp(),
         };
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         logger$5.debug('resumeReceiving() | calling pc.setRemoteDescription() [offer:%o]', offer);
         await this._pc.setRemoteDescription(offer);
@@ -16956,15 +18372,21 @@ class Safari12 extends HandlerInterface_1$4.HandlerInterface {
         return transceiver.receiver.getStats();
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     async receiveDataChannel({ sctpStreamParameters, label, protocol }) {
         this.assertNotClosed();
         this.assertRecvDirection();
         const { streamId, ordered, maxPacketLifeTime, maxRetransmits } = sctpStreamParameters;
 =======
+=======
+>>>>>>> upstream/18.0
     async receiveDataChannel({ sctpStreamParameters, label, protocol, }) {
         this.assertNotClosed();
         this.assertRecvDirection();
         const { streamId, ordered, maxPacketLifeTime, maxRetransmits, } = sctpStreamParameters;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         const options = {
             negotiated: true,
@@ -16973,7 +18395,11 @@ class Safari12 extends HandlerInterface_1$4.HandlerInterface {
             maxPacketLifeTime,
             maxRetransmits,
 <<<<<<< HEAD
+<<<<<<< HEAD
             protocol
+=======
+            protocol,
+>>>>>>> upstream/18.0
 =======
             protocol,
 >>>>>>> upstream/18.0
@@ -16985,12 +18411,18 @@ class Safari12 extends HandlerInterface_1$4.HandlerInterface {
         if (!this._hasDataChannelMediaSection) {
             this._remoteSdp.receiveSctpAssociation();
 <<<<<<< HEAD
+<<<<<<< HEAD
             const offer = { type: 'offer', sdp: this._remoteSdp.getSdp() };
 =======
+=======
+>>>>>>> upstream/18.0
             const offer = {
                 type: 'offer',
                 sdp: this._remoteSdp.getSdp(),
             };
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             logger$5.debug('receiveDataChannel() | calling pc.setRemoteDescription() [offer:%o]', offer);
             await this._pc.setRemoteDescription(offer);
@@ -17000,7 +18432,11 @@ class Safari12 extends HandlerInterface_1$4.HandlerInterface {
                 await this.setupTransport({
                     localDtlsRole: this._forcedLocalDtlsRole ?? 'client',
 <<<<<<< HEAD
+<<<<<<< HEAD
                     localSdpObject
+=======
+                    localSdpObject,
+>>>>>>> upstream/18.0
 =======
                     localSdpObject,
 >>>>>>> upstream/18.0
@@ -17013,7 +18449,11 @@ class Safari12 extends HandlerInterface_1$4.HandlerInterface {
         return { dataChannel };
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     async setupTransport({ localDtlsRole, localSdpObject }) {
+=======
+    async setupTransport({ localDtlsRole, localSdpObject, }) {
+>>>>>>> upstream/18.0
 =======
     async setupTransport({ localDtlsRole, localSdpObject, }) {
 >>>>>>> upstream/18.0
@@ -17022,7 +18462,13 @@ class Safari12 extends HandlerInterface_1$4.HandlerInterface {
         }
         // Get our local DTLS parameters.
 <<<<<<< HEAD
+<<<<<<< HEAD
         const dtlsParameters = sdpCommonUtils$3.extractDtlsParameters({ sdpObject: localSdpObject });
+=======
+        const dtlsParameters = sdpCommonUtils$3.extractDtlsParameters({
+            sdpObject: localSdpObject,
+        });
+>>>>>>> upstream/18.0
 =======
         const dtlsParameters = sdpCommonUtils$3.extractDtlsParameters({
             sdpObject: localSdpObject,
@@ -17039,7 +18485,10 @@ class Safari12 extends HandlerInterface_1$4.HandlerInterface {
         this._transportReady = true;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     onIceGatheringStateChange = () => {
         this.emit('@icegatheringstatechange', this._pc.iceGatheringState);
     };
@@ -17855,6 +19304,9 @@ class Firefox120 extends enhancedEvents_1$4.EnhancedEventEmitter {
             }
         }
     };
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     assertNotClosed() {
         if (this._closed) {
@@ -17872,6 +19324,7 @@ class Firefox120 extends enhancedEvents_1$4.EnhancedEventEmitter {
         }
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 Safari12$1.Safari12 = Safari12;
 
@@ -17914,6 +19367,8 @@ const logger$4 = new Logger_1$4.Logger('Safari11');
 const SCTP_NUM_STREAMS$2 = { OS: 1024, MIS: 1024 };
 class Safari11 extends HandlerInterface_1$3.HandlerInterface {
 =======
+=======
+>>>>>>> upstream/18.0
 Firefox120$1.Firefox120 = Firefox120;
 
 var Safari12$1 = {};
@@ -17957,11 +19412,15 @@ class Safari12 extends enhancedEvents_1$3.EnhancedEventEmitter {
     _nextSendSctpStreamId = 0;
     // Got transport local and remote parameters.
     _transportReady = false;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     /**
      * Creates a factory function.
      */
     static createFactory() {
+<<<<<<< HEAD
 <<<<<<< HEAD
         return () => new Safari11();
     }
@@ -18038,6 +19497,8 @@ class Safari12 extends enhancedEvents_1$3.EnhancedEventEmitter {
         this._direction = direction;
         this._remoteSdp = new RemoteSdp_1$2.RemoteSdp({
 =======
+=======
+>>>>>>> upstream/18.0
         return {
             name: NAME$2,
             factory: (options) => new Safari12(options),
@@ -18097,11 +19558,15 @@ class Safari12 extends enhancedEvents_1$3.EnhancedEventEmitter {
         logger$3.debug('constructor()');
         this._direction = direction;
         this._remoteSdp = new RemoteSdp_1$1.RemoteSdp({
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             iceParameters,
             iceCandidates,
             dtlsParameters,
             sctpParameters,
+<<<<<<< HEAD
 <<<<<<< HEAD
             planB: true
         });
@@ -18162,6 +19627,8 @@ class Safari12 extends enhancedEvents_1$3.EnhancedEventEmitter {
     async updateIceServers(iceServers) {
         logger$4.debug('updateIceServers()');
 =======
+=======
+>>>>>>> upstream/18.0
         });
         this._getSendExtendedRtpCapabilities = getSendExtendedRtpCapabilities;
         if (dtlsParameters.role && dtlsParameters.role !== 'auto') {
@@ -18216,6 +19683,9 @@ class Safari12 extends enhancedEvents_1$3.EnhancedEventEmitter {
     async updateIceServers(iceServers) {
         this.assertNotClosed();
         logger$3.debug('updateIceServers()');
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         const configuration = this._pc.getConfiguration();
         configuration.iceServers = iceServers;
@@ -18223,7 +19693,12 @@ class Safari12 extends enhancedEvents_1$3.EnhancedEventEmitter {
     }
     async restartIce(iceParameters) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         logger$4.debug('restartIce()');
+=======
+        this.assertNotClosed();
+        logger$3.debug('restartIce()');
+>>>>>>> upstream/18.0
 =======
         this.assertNotClosed();
         logger$3.debug('restartIce()');
@@ -18235,6 +19710,7 @@ class Safari12 extends enhancedEvents_1$3.EnhancedEventEmitter {
         }
         if (this._direction === 'send') {
             const offer = await this._pc.createOffer({ iceRestart: true });
+<<<<<<< HEAD
 <<<<<<< HEAD
             logger$4.debug('restartIce() | calling pc.setLocalDescription() [offer:%o]', offer);
             await this._pc.setLocalDescription(offer);
@@ -18249,6 +19725,8 @@ class Safari12 extends enhancedEvents_1$3.EnhancedEventEmitter {
             const answer = await this._pc.createAnswer();
             logger$4.debug('restartIce() | calling pc.setLocalDescription() [answer:%o]', answer);
 =======
+=======
+>>>>>>> upstream/18.0
             logger$3.debug('restartIce() | calling pc.setLocalDescription() [offer:%o]', offer);
             await this._pc.setLocalDescription(offer);
             const answer = {
@@ -18267,11 +19745,15 @@ class Safari12 extends enhancedEvents_1$3.EnhancedEventEmitter {
             await this._pc.setRemoteDescription(offer);
             const answer = await this._pc.createAnswer();
             logger$3.debug('restartIce() | calling pc.setLocalDescription() [answer:%o]', answer);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             await this._pc.setLocalDescription(answer);
         }
     }
     async getTransportStats() {
+<<<<<<< HEAD
 <<<<<<< HEAD
         return this._pc.getStats();
     }
@@ -18321,6 +19803,8 @@ class Safari12 extends enhancedEvents_1$3.EnhancedEventEmitter {
         sendingRtpParameters.encodings =
             sdpPlanBUtils$1.getRtpEncodings({ offerMediaObject, track });
 =======
+=======
+>>>>>>> upstream/18.0
         this.assertNotClosed();
         return this._pc.getStats();
     }
@@ -18410,6 +19894,9 @@ class Safari12 extends enhancedEvents_1$3.EnhancedEventEmitter {
         sendingRtpParameters.encodings = sdpUnifiedPlanUtils$1.getRtpEncodings({
             offerMediaObject,
         });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         // Complete encodings with given values.
         if (encodings) {
@@ -18420,6 +19907,7 @@ class Safari12 extends enhancedEvents_1$3.EnhancedEventEmitter {
             }
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         // If VP8 and there is effective simulcast, add scalabilityMode to each
         // encoding.
         if (sendingRtpParameters.encodings.length > 1 &&
@@ -18427,6 +19915,8 @@ class Safari12 extends enhancedEvents_1$3.EnhancedEventEmitter {
             for (const encoding of sendingRtpParameters.encodings) {
                 encoding.scalabilityMode = 'L1T3';
 =======
+=======
+>>>>>>> upstream/18.0
         // If VP8 or H264 and there is effective simulcast, add scalabilityMode to
         // each encoding.
         if (sendingRtpParameters.encodings.length > 1 &&
@@ -18439,11 +19929,15 @@ class Safari12 extends enhancedEvents_1$3.EnhancedEventEmitter {
                 else {
                     encoding.scalabilityMode = 'L1T3';
                 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             }
         }
         this._remoteSdp.send({
             offerMediaObject,
+<<<<<<< HEAD
 <<<<<<< HEAD
             offerRtpParameters: sendingRtpParameters,
             answerRtpParameters: sendingRemoteRtpParameters,
@@ -18463,6 +19957,8 @@ class Safari12 extends enhancedEvents_1$3.EnhancedEventEmitter {
             rtpParameters: sendingRtpParameters,
             rtpSender
 =======
+=======
+>>>>>>> upstream/18.0
             reuseMid: mediaSectionIdx.reuseMid,
             offerRtpParameters: sendingRtpParameters,
             answerRtpParameters: sendingRemoteRtpParameters,
@@ -18480,11 +19976,15 @@ class Safari12 extends enhancedEvents_1$3.EnhancedEventEmitter {
             localId,
             rtpParameters: sendingRtpParameters,
             rtpSender: transceiver.sender,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         };
     }
     async stopSending(localId) {
         this.assertSendDirection();
+<<<<<<< HEAD
 <<<<<<< HEAD
         const rtpSender = this._mapSendLocalIdRtpSender.get(localId);
         if (!rtpSender) {
@@ -18555,6 +20055,8 @@ class Safari12 extends enhancedEvents_1$3.EnhancedEventEmitter {
         }
         const parameters = rtpSender.getParameters();
 =======
+=======
+>>>>>>> upstream/18.0
         if (this._closed) {
             return;
         }
@@ -18647,6 +20149,9 @@ class Safari12 extends enhancedEvents_1$3.EnhancedEventEmitter {
             throw new Error('associated RTCRtpTransceiver not found');
         }
         const parameters = transceiver.sender.getParameters();
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         parameters.encodings.forEach((encoding, idx) => {
             if (idx <= spatialLayer) {
@@ -18656,6 +20161,7 @@ class Safari12 extends enhancedEvents_1$3.EnhancedEventEmitter {
                 encoding.active = false;
             }
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
         await rtpSender.setParameters(parameters);
     }
@@ -18682,6 +20188,8 @@ class Safari12 extends enhancedEvents_1$3.EnhancedEventEmitter {
     }
     async sendDataChannel({ ordered, maxPacketLifeTime, maxRetransmits, label, protocol }) {
 =======
+=======
+>>>>>>> upstream/18.0
         await transceiver.sender.setParameters(parameters);
         this._remoteSdp.muxMediaSectionSimulcast(localId, parameters.encodings);
         const offer = await this._pc.createOffer();
@@ -18729,6 +20237,9 @@ class Safari12 extends enhancedEvents_1$3.EnhancedEventEmitter {
     }
     async sendDataChannel({ ordered, maxPacketLifeTime, maxRetransmits, label, protocol, }) {
         this.assertNotClosed();
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         this.assertSendDirection();
         const options = {
@@ -18738,6 +20249,7 @@ class Safari12 extends enhancedEvents_1$3.EnhancedEventEmitter {
             maxPacketLifeTime,
             maxRetransmits,
 <<<<<<< HEAD
+<<<<<<< HEAD
             protocol
         };
         logger$4.debug('sendDataChannel() [options:%o]', options);
@@ -18746,6 +20258,8 @@ class Safari12 extends enhancedEvents_1$3.EnhancedEventEmitter {
         this._nextSendSctpStreamId =
             ++this._nextSendSctpStreamId % SCTP_NUM_STREAMS$2.MIS;
 =======
+=======
+>>>>>>> upstream/18.0
             protocol,
         };
         logger$3.debug('sendDataChannel() [options:%o]', options);
@@ -18753,11 +20267,15 @@ class Safari12 extends enhancedEvents_1$3.EnhancedEventEmitter {
         // Increase next id.
         this._nextSendSctpStreamId =
             ++this._nextSendSctpStreamId % SCTP_NUM_STREAMS$1.MIS;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         // If this is the first DataChannel we need to create the SDP answer with
         // m=application section.
         if (!this._hasDataChannelMediaSection) {
             const offer = await this._pc.createOffer();
+<<<<<<< HEAD
 <<<<<<< HEAD
             const localSdpObject = sdpTransform$2.parse(offer.sdp);
             const offerMediaObject = localSdpObject.media
@@ -18774,6 +20292,8 @@ class Safari12 extends enhancedEvents_1$3.EnhancedEventEmitter {
             const answer = { type: 'answer', sdp: this._remoteSdp.getSdp() };
             logger$4.debug('sendDataChannel() | calling pc.setRemoteDescription() [answer:%o]', answer);
 =======
+=======
+>>>>>>> upstream/18.0
             const localSdpObject = sdpTransform$1.parse(offer.sdp);
             const offerMediaObject = localSdpObject.media.find(m => m.type === 'application');
             if (!this._transportReady) {
@@ -18790,6 +20310,9 @@ class Safari12 extends enhancedEvents_1$3.EnhancedEventEmitter {
                 sdp: this._remoteSdp.getSdp(),
             };
             logger$3.debug('sendDataChannel() | calling pc.setRemoteDescription() [answer:%o]', answer);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             await this._pc.setRemoteDescription(answer);
             this._hasDataChannelMediaSection = true;
@@ -18799,7 +20322,11 @@ class Safari12 extends enhancedEvents_1$3.EnhancedEventEmitter {
             ordered: options.ordered,
             maxPacketLifeTime: options.maxPacketLifeTime,
 <<<<<<< HEAD
+<<<<<<< HEAD
             maxRetransmits: options.maxRetransmits
+=======
+            maxRetransmits: options.maxRetransmits,
+>>>>>>> upstream/18.0
 =======
             maxRetransmits: options.maxRetransmits,
 >>>>>>> upstream/18.0
@@ -18807,6 +20334,7 @@ class Safari12 extends enhancedEvents_1$3.EnhancedEventEmitter {
         return { dataChannel, sctpStreamParameters };
     }
     async receive(optionsList) {
+<<<<<<< HEAD
 <<<<<<< HEAD
         this.assertRecvDirection();
         const results = [];
@@ -18864,6 +20392,8 @@ class Safari12 extends enhancedEvents_1$3.EnhancedEventEmitter {
                 track: rtpReceiver.track,
                 rtpReceiver
 =======
+=======
+>>>>>>> upstream/18.0
         this.assertNotClosed();
         this.assertRecvDirection();
         const results = [];
@@ -18943,6 +20473,9 @@ class Safari12 extends enhancedEvents_1$3.EnhancedEventEmitter {
                 localId,
                 track: transceiver.receiver.track,
                 rtpReceiver: transceiver.receiver,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             });
         }
@@ -18950,6 +20483,7 @@ class Safari12 extends enhancedEvents_1$3.EnhancedEventEmitter {
     }
     async stopReceiving(localIds) {
         this.assertRecvDirection();
+<<<<<<< HEAD
 <<<<<<< HEAD
         for (const localId of localIds) {
             logger$4.debug('stopReceiving() [localId:%s]', localId);
@@ -18987,6 +20521,8 @@ class Safari12 extends enhancedEvents_1$3.EnhancedEventEmitter {
         this.assertRecvDirection();
         const { streamId, ordered, maxPacketLifeTime, maxRetransmits } = sctpStreamParameters;
 =======
+=======
+>>>>>>> upstream/18.0
         if (this._closed) {
             return;
         }
@@ -19068,6 +20604,9 @@ class Safari12 extends enhancedEvents_1$3.EnhancedEventEmitter {
         this.assertNotClosed();
         this.assertRecvDirection();
         const { streamId, ordered, maxPacketLifeTime, maxRetransmits, } = sctpStreamParameters;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         const options = {
             negotiated: true,
@@ -19075,6 +20614,7 @@ class Safari12 extends enhancedEvents_1$3.EnhancedEventEmitter {
             ordered,
             maxPacketLifeTime,
             maxRetransmits,
+<<<<<<< HEAD
 <<<<<<< HEAD
             protocol
         };
@@ -19084,10 +20624,16 @@ class Safari12 extends enhancedEvents_1$3.EnhancedEventEmitter {
         };
         logger$3.debug('receiveDataChannel() [options:%o]', options);
 >>>>>>> upstream/18.0
+=======
+            protocol,
+        };
+        logger$3.debug('receiveDataChannel() [options:%o]', options);
+>>>>>>> upstream/18.0
         const dataChannel = this._pc.createDataChannel(label, options);
         // If this is the first DataChannel we need to create the SDP offer with
         // m=application section.
         if (!this._hasDataChannelMediaSection) {
+<<<<<<< HEAD
 <<<<<<< HEAD
             this._remoteSdp.receiveSctpAssociation({ oldDataChannelSpec: true });
             const offer = { type: 'offer', sdp: this._remoteSdp.getSdp() };
@@ -19103,6 +20649,8 @@ class Safari12 extends enhancedEvents_1$3.EnhancedEventEmitter {
             }
             logger$4.debug('receiveDataChannel() | calling pc.setRemoteDescription() [answer:%o]', answer);
 =======
+=======
+>>>>>>> upstream/18.0
             this._remoteSdp.receiveSctpAssociation();
             const offer = {
                 type: 'offer',
@@ -19119,12 +20667,16 @@ class Safari12 extends enhancedEvents_1$3.EnhancedEventEmitter {
                 });
             }
             logger$3.debug('receiveDataChannel() | calling pc.setRemoteDescription() [answer:%o]', answer);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             await this._pc.setLocalDescription(answer);
             this._hasDataChannelMediaSection = true;
         }
         return { dataChannel };
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
     async setupTransport({ localDtlsRole, localSdpObject }) {
         if (!localSdpObject) {
@@ -19133,6 +20685,8 @@ class Safari12 extends enhancedEvents_1$3.EnhancedEventEmitter {
         // Get our local DTLS parameters.
         const dtlsParameters = sdpCommonUtils$2.extractDtlsParameters({ sdpObject: localSdpObject });
 =======
+=======
+>>>>>>> upstream/18.0
     async setupTransport({ localDtlsRole, localSdpObject, }) {
         if (!localSdpObject) {
             localSdpObject = sdpTransform$1.parse(this._pc.localDescription.sdp);
@@ -19141,6 +20695,9 @@ class Safari12 extends enhancedEvents_1$3.EnhancedEventEmitter {
         const dtlsParameters = sdpCommonUtils$1.extractDtlsParameters({
             sdpObject: localSdpObject,
         });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         // Set our DTLS role.
         dtlsParameters.role = localDtlsRole;
@@ -19153,7 +20710,10 @@ class Safari12 extends enhancedEvents_1$3.EnhancedEventEmitter {
         this._transportReady = true;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     onIceGatheringStateChange = () => {
         this.emit('@icegatheringstatechange', this._pc.iceGatheringState);
     };
@@ -19193,6 +20753,9 @@ class Safari12 extends enhancedEvents_1$3.EnhancedEventEmitter {
             throw new errors_1$3.InvalidStateError('method called in a closed handler');
         }
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     assertSendDirection() {
         if (this._direction !== 'send') {
@@ -19205,6 +20768,7 @@ class Safari12 extends enhancedEvents_1$3.EnhancedEventEmitter {
         }
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 Safari11$1.Safari11 = Safari11;
 
@@ -19340,6 +20904,8 @@ const HandlerInterface_1$2 = HandlerInterface$1;
 const logger$3 = new Logger_1$3.Logger('Edge11');
 class Edge11 extends HandlerInterface_1$2.HandlerInterface {
 =======
+=======
+>>>>>>> upstream/18.0
 Safari12$1.Safari12 = Safari12;
 
 var ReactNative106$1 = {};
@@ -19383,11 +20949,15 @@ class ReactNative106 extends enhancedEvents_1$2.EnhancedEventEmitter {
     _nextSendSctpStreamId = 0;
     // Got transport local and remote parameters.
     _transportReady = false;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     /**
      * Creates a factory function.
      */
     static createFactory() {
+<<<<<<< HEAD
 <<<<<<< HEAD
         return () => new Edge11();
     }
@@ -19864,6 +21434,8 @@ class ReactNativeUnifiedPlan extends HandlerInterface_1$1.HandlerInterface {
     get name() {
         return 'ReactNativeUnifiedPlan';
 =======
+=======
+>>>>>>> upstream/18.0
         return {
             name: NAME$1,
             factory: (options) => new ReactNative106(options),
@@ -19952,6 +21524,9 @@ class ReactNativeUnifiedPlan extends HandlerInterface_1$1.HandlerInterface {
     }
     get name() {
         return NAME$1;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
     close() {
@@ -19962,6 +21537,7 @@ class ReactNativeUnifiedPlan extends HandlerInterface_1$1.HandlerInterface {
         this._closed = true;
         // Free/dispose native MediaStream but DO NOT free/dispose native
         // MediaStreamTracks (that is parent's business).
+<<<<<<< HEAD
 <<<<<<< HEAD
         // @ts-ignore (proprietary API in react-native-webrtc).
         this._sendStream.release(/* releaseTracks */ false);
@@ -20076,6 +21652,8 @@ class ReactNativeUnifiedPlan extends HandlerInterface_1$1.HandlerInterface {
             });
         }
 =======
+=======
+>>>>>>> upstream/18.0
         // @ts-expect-error --- Proprietary API in react-native-webrtc.
         this._sendStream.release(/* releaseTracks */ false);
         // Close RTCPeerConnection.
@@ -20090,6 +21668,9 @@ class ReactNativeUnifiedPlan extends HandlerInterface_1$1.HandlerInterface {
         this.emit('@close');
         // Invoke close() in EnhancedEventEmitter classes.
         super.close();
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
     async updateIceServers(iceServers) {
@@ -20112,24 +21693,36 @@ class ReactNativeUnifiedPlan extends HandlerInterface_1$1.HandlerInterface {
             logger$2.debug('restartIce() | calling pc.setLocalDescription() [offer:%o]', offer);
             await this._pc.setLocalDescription(offer);
 <<<<<<< HEAD
+<<<<<<< HEAD
             const answer = { type: 'answer', sdp: this._remoteSdp.getSdp() };
 =======
+=======
+>>>>>>> upstream/18.0
             const answer = {
                 type: 'answer',
                 sdp: this._remoteSdp.getSdp(),
             };
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             logger$2.debug('restartIce() | calling pc.setRemoteDescription() [answer:%o]', answer);
             await this._pc.setRemoteDescription(answer);
         }
         else {
 <<<<<<< HEAD
+<<<<<<< HEAD
             const offer = { type: 'offer', sdp: this._remoteSdp.getSdp() };
 =======
+=======
+>>>>>>> upstream/18.0
             const offer = {
                 type: 'offer',
                 sdp: this._remoteSdp.getSdp(),
             };
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             logger$2.debug('restartIce() | calling pc.setRemoteDescription() [offer:%o]', offer);
             await this._pc.setRemoteDescription(offer);
@@ -20143,21 +21736,28 @@ class ReactNativeUnifiedPlan extends HandlerInterface_1$1.HandlerInterface {
         return this._pc.getStats();
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     async send({ track, encodings, codecOptions, codec }) {
         this.assertNotClosed();
         this.assertSendDirection();
         logger$2.debug('send() [kind:%s, track.id:%s]', track.kind, track.id);
 =======
+=======
+>>>>>>> upstream/18.0
     async send({ track, streamId, encodings, codecOptions, headerExtensionOptions, codec, onRtpSender, }) {
         this.assertNotClosed();
         this.assertSendDirection();
         logger$2.debug('send() [kind:%s, track.id:%s, streamId:%s]', track.kind, track.id, streamId);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         if (encodings && encodings.length > 1) {
             encodings.forEach((encoding, idx) => {
                 encoding.rid = `r${idx}`;
             });
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
         const sendingRtpParameters = utils$2.clone(this._sendingRtpParametersByKind[track.kind]);
         // This may throw.
@@ -20169,10 +21769,13 @@ class ReactNativeUnifiedPlan extends HandlerInterface_1$1.HandlerInterface {
             ortc$2.reduceCodecs(sendingRemoteRtpParameters.codecs, codec);
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const mediaSectionIdx = this._remoteSdp.getNextMediaSectionIdx();
         const transceiver = this._pc.addTransceiver(track, {
             direction: 'sendonly',
             streams: [this._sendStream],
+<<<<<<< HEAD
 <<<<<<< HEAD
             sendEncodings: encodings
         });
@@ -20184,6 +21787,8 @@ class ReactNativeUnifiedPlan extends HandlerInterface_1$1.HandlerInterface {
                 localDtlsRole: this._forcedLocalDtlsRole ?? 'client',
                 localSdpObject
 =======
+=======
+>>>>>>> upstream/18.0
             sendEncodings: encodings,
         });
         if (onRtpSender) {
@@ -20214,15 +21819,24 @@ class ReactNativeUnifiedPlan extends HandlerInterface_1$1.HandlerInterface {
             await this.setupTransport({
                 localDtlsRole: this._forcedLocalDtlsRole ?? 'client',
                 localSdpObject,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             });
         }
         // Special case for VP9 with SVC.
         let hackVp9Svc = false;
 <<<<<<< HEAD
+<<<<<<< HEAD
         const layers = (0, scalabilityModes_1.parse)((encodings || [{}])[0].scalabilityMode);
         if (encodings &&
             encodings.length === 1 &&
+=======
+        const layers = (0, scalabilityModes_1.parse)((encodings ?? [{}])[0].scalabilityMode);
+        let offerMediaObject;
+        if (encodings?.length === 1 &&
+>>>>>>> upstream/18.0
 =======
         const layers = (0, scalabilityModes_1.parse)((encodings ?? [{}])[0].scalabilityMode);
         let offerMediaObject;
@@ -20233,6 +21847,7 @@ class ReactNativeUnifiedPlan extends HandlerInterface_1$1.HandlerInterface {
             logger$2.debug('send() | enabling legacy simulcast for VP9 SVC');
             hackVp9Svc = true;
 <<<<<<< HEAD
+<<<<<<< HEAD
             localSdpObject = sdpTransform$1.parse(offer.sdp);
             offerMediaObject = localSdpObject.media[mediaSectionIdx.idx];
             sdpUnifiedPlanUtils.addLegacySimulcast({
@@ -20241,6 +21856,8 @@ class ReactNativeUnifiedPlan extends HandlerInterface_1$1.HandlerInterface {
             });
             offer = { type: 'offer', sdp: sdpTransform$1.write(localSdpObject) };
 =======
+=======
+>>>>>>> upstream/18.0
             localSdpObject = sdpTransform.parse(offer.sdp);
             offerMediaObject = localSdpObject.media[mediaSectionIdx.idx];
             sdpUnifiedPlanUtils.addLegacySimulcast({
@@ -20265,6 +21882,9 @@ class ReactNativeUnifiedPlan extends HandlerInterface_1$1.HandlerInterface {
                 type: 'offer',
                 sdp: sdpTransform.write(localSdpObject),
             };
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
         logger$2.debug('send() | calling pc.setLocalDescription() [offer:%o]', offer);
@@ -20284,6 +21904,7 @@ class ReactNativeUnifiedPlan extends HandlerInterface_1$1.HandlerInterface {
         // NOTE: As per above, it could be unset yet.
         sendingRtpParameters.mid = localId;
 <<<<<<< HEAD
+<<<<<<< HEAD
         localSdpObject = sdpTransform$1.parse(this._pc.localDescription.sdp);
         offerMediaObject = localSdpObject.media[mediaSectionIdx.idx];
         // Set RTCP CNAME.
@@ -20294,6 +21915,8 @@ class ReactNativeUnifiedPlan extends HandlerInterface_1$1.HandlerInterface {
             sendingRtpParameters.encodings =
                 sdpUnifiedPlanUtils.getRtpEncodings({ offerMediaObject });
 =======
+=======
+>>>>>>> upstream/18.0
         localSdpObject = sdpTransform.parse(this._pc.localDescription.sdp);
         offerMediaObject = localSdpObject.media[mediaSectionIdx.idx];
         // Set RTCP CNAME.
@@ -20307,13 +21930,22 @@ class ReactNativeUnifiedPlan extends HandlerInterface_1$1.HandlerInterface {
             sendingRtpParameters.encodings = sdpUnifiedPlanUtils.getRtpEncodings({
                 offerMediaObject,
             });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
         // Set RTP encodings by parsing the SDP offer and complete them with given
         // one if just a single encoding has been given.
         else if (encodings.length === 1) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             let newEncodings = sdpUnifiedPlanUtils.getRtpEncodings({ offerMediaObject });
+=======
+            let newEncodings = sdpUnifiedPlanUtils.getRtpEncodings({
+                offerMediaObject,
+            });
+>>>>>>> upstream/18.0
 =======
             let newEncodings = sdpUnifiedPlanUtils.getRtpEncodings({
                 offerMediaObject,
@@ -20351,15 +21983,21 @@ class ReactNativeUnifiedPlan extends HandlerInterface_1$1.HandlerInterface {
             answerRtpParameters: sendingRemoteRtpParameters,
             codecOptions,
 <<<<<<< HEAD
+<<<<<<< HEAD
             extmapAllowMixed: true
         });
         const answer = { type: 'answer', sdp: this._remoteSdp.getSdp() };
 =======
+=======
+>>>>>>> upstream/18.0
         });
         const answer = {
             type: 'answer',
             sdp: this._remoteSdp.getSdp(),
         };
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         logger$2.debug('send() | calling pc.setRemoteDescription() [answer:%o]', answer);
         await this._pc.setRemoteDescription(answer);
@@ -20377,7 +22015,11 @@ class ReactNativeUnifiedPlan extends HandlerInterface_1$1.HandlerInterface {
             localId,
             rtpParameters: sendingRtpParameters,
 <<<<<<< HEAD
+<<<<<<< HEAD
             rtpSender: transceiver.sender
+=======
+            rtpSender: transceiver.sender,
+>>>>>>> upstream/18.0
 =======
             rtpSender: transceiver.sender,
 >>>>>>> upstream/18.0
@@ -20394,7 +22036,11 @@ class ReactNativeUnifiedPlan extends HandlerInterface_1$1.HandlerInterface {
             throw new Error('associated RTCRtpTransceiver not found');
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         transceiver.sender.replaceTrack(null);
+=======
+        void transceiver.sender.replaceTrack(null);
+>>>>>>> upstream/18.0
 =======
         void transceiver.sender.replaceTrack(null);
 >>>>>>> upstream/18.0
@@ -20410,12 +22056,18 @@ class ReactNativeUnifiedPlan extends HandlerInterface_1$1.HandlerInterface {
         logger$2.debug('stopSending() | calling pc.setLocalDescription() [offer:%o]', offer);
         await this._pc.setLocalDescription(offer);
 <<<<<<< HEAD
+<<<<<<< HEAD
         const answer = { type: 'answer', sdp: this._remoteSdp.getSdp() };
 =======
+=======
+>>>>>>> upstream/18.0
         const answer = {
             type: 'answer',
             sdp: this._remoteSdp.getSdp(),
         };
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         logger$2.debug('stopSending() | calling pc.setRemoteDescription() [answer:%o]', answer);
         await this._pc.setRemoteDescription(answer);
@@ -20435,12 +22087,18 @@ class ReactNativeUnifiedPlan extends HandlerInterface_1$1.HandlerInterface {
         logger$2.debug('pauseSending() | calling pc.setLocalDescription() [offer:%o]', offer);
         await this._pc.setLocalDescription(offer);
 <<<<<<< HEAD
+<<<<<<< HEAD
         const answer = { type: 'answer', sdp: this._remoteSdp.getSdp() };
 =======
+=======
+>>>>>>> upstream/18.0
         const answer = {
             type: 'answer',
             sdp: this._remoteSdp.getSdp(),
         };
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         logger$2.debug('pauseSending() | calling pc.setRemoteDescription() [answer:%o]', answer);
         await this._pc.setRemoteDescription(answer);
@@ -20459,12 +22117,18 @@ class ReactNativeUnifiedPlan extends HandlerInterface_1$1.HandlerInterface {
         logger$2.debug('resumeSending() | calling pc.setLocalDescription() [offer:%o]', offer);
         await this._pc.setLocalDescription(offer);
 <<<<<<< HEAD
+<<<<<<< HEAD
         const answer = { type: 'answer', sdp: this._remoteSdp.getSdp() };
 =======
+=======
+>>>>>>> upstream/18.0
         const answer = {
             type: 'answer',
             sdp: this._remoteSdp.getSdp(),
         };
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         logger$2.debug('resumeSending() | calling pc.setRemoteDescription() [answer:%o]', answer);
         await this._pc.setRemoteDescription(answer);
@@ -20507,12 +22171,18 @@ class ReactNativeUnifiedPlan extends HandlerInterface_1$1.HandlerInterface {
         logger$2.debug('setMaxSpatialLayer() | calling pc.setLocalDescription() [offer:%o]', offer);
         await this._pc.setLocalDescription(offer);
 <<<<<<< HEAD
+<<<<<<< HEAD
         const answer = { type: 'answer', sdp: this._remoteSdp.getSdp() };
 =======
+=======
+>>>>>>> upstream/18.0
         const answer = {
             type: 'answer',
             sdp: this._remoteSdp.getSdp(),
         };
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         logger$2.debug('setMaxSpatialLayer() | calling pc.setRemoteDescription() [answer:%o]', answer);
         await this._pc.setRemoteDescription(answer);
@@ -20535,12 +22205,18 @@ class ReactNativeUnifiedPlan extends HandlerInterface_1$1.HandlerInterface {
         logger$2.debug('setRtpEncodingParameters() | calling pc.setLocalDescription() [offer:%o]', offer);
         await this._pc.setLocalDescription(offer);
 <<<<<<< HEAD
+<<<<<<< HEAD
         const answer = { type: 'answer', sdp: this._remoteSdp.getSdp() };
 =======
+=======
+>>>>>>> upstream/18.0
         const answer = {
             type: 'answer',
             sdp: this._remoteSdp.getSdp(),
         };
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         logger$2.debug('setRtpEncodingParameters() | calling pc.setRemoteDescription() [answer:%o]', answer);
         await this._pc.setRemoteDescription(answer);
@@ -20555,7 +22231,11 @@ class ReactNativeUnifiedPlan extends HandlerInterface_1$1.HandlerInterface {
         return transceiver.sender.getStats();
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     async sendDataChannel({ ordered, maxPacketLifeTime, maxRetransmits, label, protocol }) {
+=======
+    async sendDataChannel({ ordered, maxPacketLifeTime, maxRetransmits, label, protocol, }) {
+>>>>>>> upstream/18.0
 =======
     async sendDataChannel({ ordered, maxPacketLifeTime, maxRetransmits, label, protocol, }) {
 >>>>>>> upstream/18.0
@@ -20568,7 +22248,11 @@ class ReactNativeUnifiedPlan extends HandlerInterface_1$1.HandlerInterface {
             maxPacketLifeTime,
             maxRetransmits,
 <<<<<<< HEAD
+<<<<<<< HEAD
             protocol
+=======
+            protocol,
+>>>>>>> upstream/18.0
 =======
             protocol,
 >>>>>>> upstream/18.0
@@ -20578,7 +22262,11 @@ class ReactNativeUnifiedPlan extends HandlerInterface_1$1.HandlerInterface {
         // Increase next id.
         this._nextSendSctpStreamId =
 <<<<<<< HEAD
+<<<<<<< HEAD
             ++this._nextSendSctpStreamId % SCTP_NUM_STREAMS$1.MIS;
+=======
+            ++this._nextSendSctpStreamId % SCTP_NUM_STREAMS.MIS;
+>>>>>>> upstream/18.0
 =======
             ++this._nextSendSctpStreamId % SCTP_NUM_STREAMS.MIS;
 >>>>>>> upstream/18.0
@@ -20586,6 +22274,7 @@ class ReactNativeUnifiedPlan extends HandlerInterface_1$1.HandlerInterface {
         // m=application section.
         if (!this._hasDataChannelMediaSection) {
             const offer = await this._pc.createOffer();
+<<<<<<< HEAD
 <<<<<<< HEAD
             const localSdpObject = sdpTransform$1.parse(offer.sdp);
             const offerMediaObject = localSdpObject.media
@@ -20595,12 +22284,17 @@ class ReactNativeUnifiedPlan extends HandlerInterface_1$1.HandlerInterface {
                     localDtlsRole: this._forcedLocalDtlsRole ?? 'client',
                     localSdpObject
 =======
+=======
+>>>>>>> upstream/18.0
             const localSdpObject = sdpTransform.parse(offer.sdp);
             const offerMediaObject = localSdpObject.media.find(m => m.type === 'application');
             if (!this._transportReady) {
                 await this.setupTransport({
                     localDtlsRole: this._forcedLocalDtlsRole ?? 'client',
                     localSdpObject,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 });
             }
@@ -20608,12 +22302,18 @@ class ReactNativeUnifiedPlan extends HandlerInterface_1$1.HandlerInterface {
             await this._pc.setLocalDescription(offer);
             this._remoteSdp.sendSctpAssociation({ offerMediaObject });
 <<<<<<< HEAD
+<<<<<<< HEAD
             const answer = { type: 'answer', sdp: this._remoteSdp.getSdp() };
 =======
+=======
+>>>>>>> upstream/18.0
             const answer = {
                 type: 'answer',
                 sdp: this._remoteSdp.getSdp(),
             };
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             logger$2.debug('sendDataChannel() | calling pc.setRemoteDescription() [answer:%o]', answer);
             await this._pc.setRemoteDescription(answer);
@@ -20624,7 +22324,11 @@ class ReactNativeUnifiedPlan extends HandlerInterface_1$1.HandlerInterface {
             ordered: options.ordered,
             maxPacketLifeTime: options.maxPacketLifeTime,
 <<<<<<< HEAD
+<<<<<<< HEAD
             maxRetransmits: options.maxRetransmits
+=======
+            maxRetransmits: options.maxRetransmits,
+>>>>>>> upstream/18.0
 =======
             maxRetransmits: options.maxRetransmits,
 >>>>>>> upstream/18.0
@@ -20640,19 +22344,26 @@ class ReactNativeUnifiedPlan extends HandlerInterface_1$1.HandlerInterface {
             const { trackId, kind, rtpParameters, streamId } = options;
             logger$2.debug('receive() [trackId:%s, kind:%s]', trackId, kind);
 <<<<<<< HEAD
+<<<<<<< HEAD
             const localId = rtpParameters.mid || String(this._mapMidTransceiver.size);
             mapLocalId.set(trackId, localId);
 =======
+=======
+>>>>>>> upstream/18.0
             const localId = rtpParameters.mid ?? String(this._mapMidTransceiver.size);
             mapLocalId.set(trackId, localId);
             // We ignore MSID `trackId` when consuming and always use our computed
             // `trackId` which matches the `consumer.id`.
             const { msidStreamId } = ortcUtils.getMsidStreamIdAndTrackId(rtpParameters.msid);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             this._remoteSdp.receive({
                 mid: localId,
                 kind,
                 offerRtpParameters: rtpParameters,
+<<<<<<< HEAD
 <<<<<<< HEAD
                 streamId: streamId || rtpParameters.rtcp.cname,
                 trackId
@@ -20681,6 +22392,8 @@ class ReactNativeUnifiedPlan extends HandlerInterface_1$1.HandlerInterface {
                 localDtlsRole: this._forcedLocalDtlsRole ?? 'client',
                 localSdpObject
 =======
+=======
+>>>>>>> upstream/18.0
                 streamId: streamId ?? msidStreamId ?? rtpParameters.rtcp?.cname ?? '-',
                 trackId,
             });
@@ -20725,6 +22438,9 @@ class ReactNativeUnifiedPlan extends HandlerInterface_1$1.HandlerInterface {
             await this.setupTransport({
                 localDtlsRole: this._forcedLocalDtlsRole ?? 'client',
                 localSdpObject,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             });
         }
@@ -20734,7 +22450,12 @@ class ReactNativeUnifiedPlan extends HandlerInterface_1$1.HandlerInterface {
             const { trackId } = options;
             const localId = mapLocalId.get(trackId);
 <<<<<<< HEAD
+<<<<<<< HEAD
             const transceiver = this._pc.getTransceivers()
+=======
+            const transceiver = this._pc
+                .getTransceivers()
+>>>>>>> upstream/18.0
 =======
             const transceiver = this._pc
                 .getTransceivers()
@@ -20750,7 +22471,11 @@ class ReactNativeUnifiedPlan extends HandlerInterface_1$1.HandlerInterface {
                     localId,
                     track: transceiver.receiver.track,
 <<<<<<< HEAD
+<<<<<<< HEAD
                     rtpReceiver: transceiver.receiver
+=======
+                    rtpReceiver: transceiver.receiver,
+>>>>>>> upstream/18.0
 =======
                     rtpReceiver: transceiver.receiver,
 >>>>>>> upstream/18.0
@@ -20773,12 +22498,18 @@ class ReactNativeUnifiedPlan extends HandlerInterface_1$1.HandlerInterface {
             this._remoteSdp.closeMediaSection(transceiver.mid);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         const offer = { type: 'offer', sdp: this._remoteSdp.getSdp() };
 =======
+=======
+>>>>>>> upstream/18.0
         const offer = {
             type: 'offer',
             sdp: this._remoteSdp.getSdp(),
         };
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         logger$2.debug('stopReceiving() | calling pc.setRemoteDescription() [offer:%o]', offer);
         await this._pc.setRemoteDescription(offer);
@@ -20802,12 +22533,18 @@ class ReactNativeUnifiedPlan extends HandlerInterface_1$1.HandlerInterface {
             this._remoteSdp.pauseMediaSection(localId);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         const offer = { type: 'offer', sdp: this._remoteSdp.getSdp() };
 =======
+=======
+>>>>>>> upstream/18.0
         const offer = {
             type: 'offer',
             sdp: this._remoteSdp.getSdp(),
         };
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         logger$2.debug('pauseReceiving() | calling pc.setRemoteDescription() [offer:%o]', offer);
         await this._pc.setRemoteDescription(offer);
@@ -20828,12 +22565,18 @@ class ReactNativeUnifiedPlan extends HandlerInterface_1$1.HandlerInterface {
             this._remoteSdp.resumeReceivingMediaSection(localId);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         const offer = { type: 'offer', sdp: this._remoteSdp.getSdp() };
 =======
+=======
+>>>>>>> upstream/18.0
         const offer = {
             type: 'offer',
             sdp: this._remoteSdp.getSdp(),
         };
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         logger$2.debug('resumeReceiving() | calling pc.setRemoteDescription() [offer:%o]', offer);
         await this._pc.setRemoteDescription(offer);
@@ -20851,15 +22594,21 @@ class ReactNativeUnifiedPlan extends HandlerInterface_1$1.HandlerInterface {
         return transceiver.receiver.getStats();
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     async receiveDataChannel({ sctpStreamParameters, label, protocol }) {
         this.assertNotClosed();
         this.assertRecvDirection();
         const { streamId, ordered, maxPacketLifeTime, maxRetransmits } = sctpStreamParameters;
 =======
+=======
+>>>>>>> upstream/18.0
     async receiveDataChannel({ sctpStreamParameters, label, protocol, }) {
         this.assertNotClosed();
         this.assertRecvDirection();
         const { streamId, ordered, maxPacketLifeTime, maxRetransmits, } = sctpStreamParameters;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         const options = {
             negotiated: true,
@@ -20868,7 +22617,11 @@ class ReactNativeUnifiedPlan extends HandlerInterface_1$1.HandlerInterface {
             maxPacketLifeTime,
             maxRetransmits,
 <<<<<<< HEAD
+<<<<<<< HEAD
             protocol
+=======
+            protocol,
+>>>>>>> upstream/18.0
 =======
             protocol,
 >>>>>>> upstream/18.0
@@ -20880,27 +22633,39 @@ class ReactNativeUnifiedPlan extends HandlerInterface_1$1.HandlerInterface {
         if (!this._hasDataChannelMediaSection) {
             this._remoteSdp.receiveSctpAssociation();
 <<<<<<< HEAD
+<<<<<<< HEAD
             const offer = { type: 'offer', sdp: this._remoteSdp.getSdp() };
 =======
+=======
+>>>>>>> upstream/18.0
             const offer = {
                 type: 'offer',
                 sdp: this._remoteSdp.getSdp(),
             };
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             logger$2.debug('receiveDataChannel() | calling pc.setRemoteDescription() [offer:%o]', offer);
             await this._pc.setRemoteDescription(offer);
             const answer = await this._pc.createAnswer();
             if (!this._transportReady) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const localSdpObject = sdpTransform$1.parse(answer.sdp);
                 await this.setupTransport({
                     localDtlsRole: this._forcedLocalDtlsRole ?? 'client',
                     localSdpObject
 =======
+=======
+>>>>>>> upstream/18.0
                 const localSdpObject = sdpTransform.parse(answer.sdp);
                 await this.setupTransport({
                     localDtlsRole: this._forcedLocalDtlsRole ?? 'client',
                     localSdpObject,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 });
             }
@@ -20911,6 +22676,7 @@ class ReactNativeUnifiedPlan extends HandlerInterface_1$1.HandlerInterface {
         return { dataChannel };
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     async setupTransport({ localDtlsRole, localSdpObject }) {
         if (!localSdpObject) {
             localSdpObject = sdpTransform$1.parse(this._pc.localDescription.sdp);
@@ -20918,6 +22684,8 @@ class ReactNativeUnifiedPlan extends HandlerInterface_1$1.HandlerInterface {
         // Get our local DTLS parameters.
         const dtlsParameters = sdpCommonUtils$1.extractDtlsParameters({ sdpObject: localSdpObject });
 =======
+=======
+>>>>>>> upstream/18.0
     async setupTransport({ localDtlsRole, localSdpObject, }) {
         if (!localSdpObject) {
             localSdpObject = sdpTransform.parse(this._pc.localDescription.sdp);
@@ -20926,6 +22694,9 @@ class ReactNativeUnifiedPlan extends HandlerInterface_1$1.HandlerInterface {
         const dtlsParameters = sdpCommonUtils.extractDtlsParameters({
             sdpObject: localSdpObject,
         });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         // Set our DTLS role.
         dtlsParameters.role = localDtlsRole;
@@ -20938,7 +22709,10 @@ class ReactNativeUnifiedPlan extends HandlerInterface_1$1.HandlerInterface {
         this._transportReady = true;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     onIceGatheringStateChange = () => {
         this.emit('@icegatheringstatechange', this._pc.iceGatheringState);
     };
@@ -20973,6 +22747,9 @@ class ReactNativeUnifiedPlan extends HandlerInterface_1$1.HandlerInterface {
             }
         }
     };
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     assertNotClosed() {
         if (this._closed) {
@@ -20990,6 +22767,7 @@ class ReactNativeUnifiedPlan extends HandlerInterface_1$1.HandlerInterface {
         }
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 ReactNativeUnifiedPlan$1.ReactNativeUnifiedPlan = ReactNativeUnifiedPlan;
 
@@ -21738,6 +23516,8 @@ function detectDevice() {
 Device$1.detectDevice = detectDevice;
 class Device {
 =======
+=======
+>>>>>>> upstream/18.0
 ReactNative106$1.ReactNative106 = ReactNative106;
 
 Object.defineProperty(Device$1, "__esModule", { value: true });
@@ -21827,12 +23607,16 @@ class Device {
         }
         return new Device({ handlerName, handlerFactory });
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     /**
      * Create a new Device to connect to mediasoup server.
      *
      * @throws {UnsupportedError} if device is not supported.
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     constructor({ handlerName, handlerFactory, Handler } = {}) {
         // Loaded flag.
@@ -21854,6 +23638,10 @@ class Device {
     constructor({ handlerName, handlerFactory } = {}) {
         logger$1.debug('constructor()');
 >>>>>>> upstream/18.0
+=======
+    constructor({ handlerName, handlerFactory } = {}) {
+        logger$1.debug('constructor()');
+>>>>>>> upstream/18.0
         if (handlerName && handlerFactory) {
             throw new TypeError('just one of handlerName or handlerInterface can be given');
         }
@@ -21863,7 +23651,11 @@ class Device {
         else {
             if (handlerName) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 logger.debug('constructor() | handler given: %s', handlerName);
+=======
+                logger$1.debug('constructor() | handler given: %s', handlerName);
+>>>>>>> upstream/18.0
 =======
                 logger$1.debug('constructor() | handler given: %s', handlerName);
 >>>>>>> upstream/18.0
@@ -21871,6 +23663,7 @@ class Device {
             else {
                 handlerName = detectDevice();
                 if (handlerName) {
+<<<<<<< HEAD
 <<<<<<< HEAD
                     logger.debug('constructor() | detected handler: %s', handlerName);
                 }
@@ -21929,6 +23722,8 @@ class Device {
             };
         this._sctpCapabilities = undefined;
 =======
+=======
+>>>>>>> upstream/18.0
                     logger$1.debug('constructor() | detected handler: %s', handlerName);
                 }
                 else {
@@ -21962,6 +23757,9 @@ class Device {
             }
         }
         this._handlerName = this._handlerFactory.name;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
     /**
@@ -21984,7 +23782,11 @@ class Device {
     get rtpCapabilities() {
         if (!this._loaded) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new errors_1.InvalidStateError('not loaded');
+=======
+            throw new errors_1$1.InvalidStateError('not loaded');
+>>>>>>> upstream/18.0
 =======
             throw new errors_1$1.InvalidStateError('not loaded');
 >>>>>>> upstream/18.0
@@ -21999,7 +23801,11 @@ class Device {
     get sctpCapabilities() {
         if (!this._loaded) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new errors_1.InvalidStateError('not loaded');
+=======
+            throw new errors_1$1.InvalidStateError('not loaded');
+>>>>>>> upstream/18.0
 =======
             throw new errors_1$1.InvalidStateError('not loaded');
 >>>>>>> upstream/18.0
@@ -22012,6 +23818,7 @@ class Device {
     /**
      * Initialize the Device.
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     async load({ routerRtpCapabilities }) {
         logger.debug('load() [routerRtpCapabilities:%o]', routerRtpCapabilities);
@@ -22059,6 +23866,8 @@ class Device {
             throw error;
         }
 =======
+=======
+>>>>>>> upstream/18.0
     async load({ routerRtpCapabilities, preferLocalCodecsOrder = false, }) {
         logger$1.debug('load() [routerRtpCapabilities:%o]', routerRtpCapabilities);
         if (this._loaded) {
@@ -22093,6 +23902,9 @@ class Device {
         logger$1.debug('load() | got native SCTP capabilities:%o', this._sctpCapabilities);
         logger$1.debug('load() succeeded');
         this._loaded = true;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
     /**
@@ -22104,7 +23916,11 @@ class Device {
     canProduce(kind) {
         if (!this._loaded) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new errors_1.InvalidStateError('not loaded');
+=======
+            throw new errors_1$1.InvalidStateError('not loaded');
+>>>>>>> upstream/18.0
 =======
             throw new errors_1$1.InvalidStateError('not loaded');
 >>>>>>> upstream/18.0
@@ -22121,6 +23937,7 @@ class Device {
      * @throws {TypeError} if wrong arguments.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     createSendTransport({ id, iceParameters, iceCandidates, dtlsParameters, sctpParameters, iceServers, iceTransportPolicy, additionalSettings, proprietaryConstraints, appData }) {
         logger.debug('createSendTransport()');
         return this.createTransport({
@@ -22136,6 +23953,8 @@ class Device {
             proprietaryConstraints: proprietaryConstraints,
             appData: appData
 =======
+=======
+>>>>>>> upstream/18.0
     createSendTransport({ id, iceParameters, iceCandidates, dtlsParameters, sctpParameters, iceServers, iceTransportPolicy, additionalSettings, appData, }) {
         logger$1.debug('createSendTransport()');
         return this.createTransport({
@@ -22149,6 +23968,9 @@ class Device {
             iceTransportPolicy,
             additionalSettings,
             appData,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         });
     }
@@ -22158,6 +23980,7 @@ class Device {
      * @throws {InvalidStateError} if not loaded.
      * @throws {TypeError} if wrong arguments.
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     createRecvTransport({ id, iceParameters, iceCandidates, dtlsParameters, sctpParameters, iceServers, iceTransportPolicy, additionalSettings, proprietaryConstraints, appData }) {
         logger.debug('createRecvTransport()');
@@ -22179,6 +24002,8 @@ class Device {
         if (!this._loaded) {
             throw new errors_1.InvalidStateError('not loaded');
 =======
+=======
+>>>>>>> upstream/18.0
     createRecvTransport({ id, iceParameters, iceCandidates, dtlsParameters, sctpParameters, iceServers, iceTransportPolicy, additionalSettings, appData, }) {
         logger$1.debug('createRecvTransport()');
         return this.createTransport({
@@ -22197,6 +24022,9 @@ class Device {
     createTransport({ direction, id, iceParameters, iceCandidates, dtlsParameters, sctpParameters, iceServers, iceTransportPolicy, additionalSettings, appData, }) {
         if (!this._loaded) {
             throw new errors_1$1.InvalidStateError('not loaded');
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
         else if (typeof id !== 'string') {
@@ -22229,17 +24057,23 @@ class Device {
             iceTransportPolicy,
             additionalSettings,
 <<<<<<< HEAD
+<<<<<<< HEAD
             proprietaryConstraints,
             appData,
             handlerFactory: this._handlerFactory,
             extendedRtpCapabilities: this._extendedRtpCapabilities,
             canProduceByKind: this._canProduceByKind
 =======
+=======
+>>>>>>> upstream/18.0
             appData,
             handlerFactory: this._handlerFactory,
             getSendExtendedRtpCapabilities: this._getSendExtendedRtpCapabilities,
             recvRtpCapabilities: this._recvRtpCapabilities,
             canProduceByKind: this._canProduceByKind,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         });
         // Emit observer event.
@@ -22248,6 +24082,7 @@ class Device {
     }
 }
 Device$1.Device = Device;
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 var types = {};
@@ -22333,6 +24168,8 @@ Object.defineProperty(SctpParameters, "__esModule", { value: true });
 	 */
 	exports.version = '3.7.0';
 =======
+=======
+>>>>>>> upstream/18.0
 function detectDeviceImpl(userAgent, userAgentData) {
     logger$1.debug('detectDeviceImpl() [userAgent:"%s", userAgentData:%o]', userAgent, userAgentData);
     const chromiumMajorVersion = getChromiumMajorVersion(userAgent, userAgentData);
@@ -24176,11 +26013,15 @@ function generateDataConsumerRemoteParameters({ id, } = {}) {
 	Object.defineProperty(exports, "Device", { enumerable: true, get: function () { return Device_1.Device; } });
 	Object.defineProperty(exports, "detectDevice", { enumerable: true, get: function () { return Device_1.detectDevice; } });
 	Object.defineProperty(exports, "detectDeviceAsync", { enumerable: true, get: function () { return Device_1.detectDeviceAsync; } });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 	/**
 	 * Expose parseScalabilityMode() function.
 	 */
 	var scalabilityModes_1 = scalabilityModes;
+<<<<<<< HEAD
 <<<<<<< HEAD
 	Object.defineProperty(exports, "parseScalabilityMode", { enumerable: true, get: function () { return scalabilityModes_1.parse; } }); 
 } (lib$2));
@@ -24243,6 +26084,8 @@ class Bus {
         this._websocket = websocket;
         this._isWebsocketEmitter = typeof websocket.on === "function"; // could use constructor name but can't use mocks during tests
 =======
+=======
+>>>>>>> upstream/18.0
 	Object.defineProperty(exports, "parseScalabilityMode", { enumerable: true, get: function () { return scalabilityModes_1.parse; } });
 	/**
 	 * Expose all ORTC functions.
@@ -24281,6 +26124,9 @@ class Bus {
         this._batchDelay = batchDelay;
         this._websocket = websocket;
         this._isWebsocketEmitter = typeof websocket.on === "function";
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         this._onMessage = this._onMessage.bind(this);
         this._onSocket("message", this._onMessage);
@@ -24289,6 +26135,7 @@ class Bus {
         });
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     close() {
         clearTimeout(this._batchTimeout);
@@ -24296,16 +26143,22 @@ class Bus {
         this.onRequest = null;
         this._sendPayload = () => {};
 =======
+=======
+>>>>>>> upstream/18.0
     close() {
         clearTimeout(this._batchTimeout);
         this.onMessage = undefined;
         this.onRequest = undefined;
         this._sendPayload = () => { };
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         for (const { reject, timeout } of this._pendingRequests.values()) {
             clearTimeout(timeout);
             reject(new Error("bus closed"));
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
         this._offSocket("message", this._onMessage);
     }
@@ -24319,6 +26172,8 @@ class Bus {
      */
     request(message, { timeout = 5000, batch } = {}) {
 =======
+=======
+>>>>>>> upstream/18.0
         this._pendingRequests.clear();
         this._offSocket("message", this._onMessage);
     }
@@ -24328,6 +26183,9 @@ class Bus {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     request(message, options = {}) {
         const { timeout = 5000, batch } = options;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         const requestId = this._getNextRequestId();
         return new Promise((resolve, reject) => {
@@ -24339,6 +26197,7 @@ class Bus {
             this._sendPayload(message, { needResponse: requestId, batch });
         });
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
     /**
@@ -24387,6 +26246,8 @@ class Bus {
      */
     _sendPayload(message, { needResponse, responseTo, batch } = {}) {
 =======
+=======
+>>>>>>> upstream/18.0
     send(message, options = {}) {
         const { batch } = options;
         this._sendPayload(message, { batch });
@@ -24416,6 +26277,9 @@ class Bus {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     message, options = {}) {
         const { needResponse, responseTo, batch } = options;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         if (batch) {
             this._batch({ message, needResponse, responseTo });
@@ -24423,6 +26287,7 @@ class Bus {
         }
         this._websocket.send(JSON.stringify([{ message, needResponse, responseTo }]));
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
     /**
@@ -24432,18 +26297,27 @@ class Bus {
      *
      * @param {any} payload any JSON serializable
 =======
+=======
+>>>>>>> upstream/18.0
     /**
      * Batches a payload for later sending
      * The delay for gathering the batch happens at the trailing end of the call.
      * If no batch is currently gathering, the first request is sent immediately
      * to be lenient with infrequent messages, and a new batch gathering phase starts.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
      */
     _batch(payload) {
         this._messageQueue.push(payload);
         if (this._batchTimeout) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             // the messages will be flushed in currently gathering batch
+=======
+            // Messages will be flushed in the currently gathering batch
+>>>>>>> upstream/18.0
 =======
             // Messages will be flushed in the currently gathering batch
 >>>>>>> upstream/18.0
@@ -24452,7 +26326,10 @@ class Bus {
         this._flush();
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     _flush() {
@@ -24463,7 +26340,10 @@ class Bus {
         }
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     _startGathering() {
@@ -24472,6 +26352,7 @@ class Bus {
             this._batchTimeout = undefined;
         }, this._batchDelay);
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
     /**
@@ -24570,6 +26451,8 @@ const RECOVERY_DELAY = 1_000; // how much time after an error should pass before
 const SUPPORTED_TYPES = new Set(["audio", "camera", "screen"]);
 
 =======
+=======
+>>>>>>> upstream/18.0
     _onMessage(webSocketMessage) {
         // Normalize message data (Node.js vs browser difference)
         const normalizedMessage = this._isWebsocketEmitter
@@ -24689,11 +26572,15 @@ const MAXIMUM_RECONNECT_DELAY = 30000;
 const MAX_ERRORS = 6;
 const RECOVERY_DELAY = 1000;
 const SUPPORTED_TYPES = new Set(["audio", "camera", "screen"]);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 // https://mediasoup.org/documentation/v3/mediasoup-client/api/#ProducerOptions
 const DEFAULT_PRODUCER_OPTIONS = {
     stopTracks: false,
     disableTrackOnPause: false,
+<<<<<<< HEAD
 <<<<<<< HEAD
     zeroRtpOnPause: true,
 };
@@ -24803,6 +26690,8 @@ class SfuClient extends EventTarget {
     constructor() {
         super();
 =======
+=======
+>>>>>>> upstream/18.0
     zeroRtpOnPause: true
 };
 /**
@@ -24878,11 +26767,15 @@ class SfuClient extends EventTarget {
         };
         /** Cleanup functions to call on disconnect */
         this._cleanups = [];
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         this._handleMessage = this._handleMessage.bind(this);
         this._handleRequest = this._handleRequest.bind(this);
         this._handleConnectionEnd = this._handleConnectionEnd.bind(this);
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
     /**
@@ -24931,6 +26824,8 @@ class SfuClient extends EventTarget {
         // saving the options for so that the parameters are saved for reconnection attempts
         this._url = url.replace(/^http/, "ws"); // makes sure the url is a websocket url
 =======
+=======
+>>>>>>> upstream/18.0
     get state() {
         return this._state;
     }
@@ -24959,6 +26854,9 @@ class SfuClient extends EventTarget {
         const { channelUUID, iceServers } = options;
         // Save parameters for reconnection attempts
         this._url = url.replace(/^http/, "ws"); // Ensure WebSocket URL
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         this._jsonWebToken = jsonWebToken;
         this._iceServers = iceServers;
@@ -24967,6 +26865,7 @@ class SfuClient extends EventTarget {
         this._device = this._createDevice();
         await this._connect();
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
     disconnect() {
@@ -24983,6 +26882,8 @@ class SfuClient extends EventTarget {
             this._ctsTransport?.getStats(),
             this._stcTransport?.getStats(),
 =======
+=======
+>>>>>>> upstream/18.0
     disconnect() {
         this._clear();
         this.state = SfuClientState.DISCONNECTED;
@@ -24993,6 +26894,9 @@ class SfuClient extends EventTarget {
         const [uploadStats, downloadStats] = await Promise.all([
             (_a = this._ctsTransport) === null || _a === void 0 ? void 0 : _a.getStats(),
             (_b = this._stcTransport) === null || _b === void 0 ? void 0 : _b.getStats()
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         ]);
         stats.uploadStats = uploadStats;
@@ -25000,6 +26904,7 @@ class SfuClient extends EventTarget {
         const proms = [];
         for (const [type, producer] of Object.entries(this._producers)) {
             if (producer) {
+<<<<<<< HEAD
 <<<<<<< HEAD
                 proms.push(
                     (async () => {
@@ -25011,11 +26916,17 @@ class SfuClient extends EventTarget {
                     stats[type] = await producer.getStats();
                 })());
 >>>>>>> upstream/18.0
+=======
+                proms.push((async () => {
+                    stats[type] = await producer.getStats();
+                })());
+>>>>>>> upstream/18.0
             }
         }
         await Promise.all(proms);
         return stats;
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
     /**
@@ -25044,6 +26955,8 @@ class SfuClient extends EventTarget {
      */
     updateDownload(sessionId, states) {
 =======
+=======
+>>>>>>> upstream/18.0
     /**
      * Updates the server with the info of the session (isTalking, isCameraOn,...) so that it can broadcast it to the
      * other call participants.
@@ -25061,6 +26974,9 @@ class SfuClient extends EventTarget {
      */
     updateDownload(sessionId, states) {
         var _a;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         const consumers = this._consumers.get(sessionId);
         if (!consumers) {
@@ -25074,7 +26990,12 @@ class SfuClient extends EventTarget {
             const consumer = consumers[type];
             if (consumer) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (active !== consumer.paused) {
+=======
+                const wasActive = !consumer.paused;
+                if (active === wasActive) {
+>>>>>>> upstream/18.0
 =======
                 const wasActive = !consumer.paused;
                 if (active === wasActive) {
@@ -25085,7 +27006,12 @@ class SfuClient extends EventTarget {
                 if (active) {
                     consumer.resume();
 <<<<<<< HEAD
+<<<<<<< HEAD
                 } else {
+=======
+                }
+                else {
+>>>>>>> upstream/18.0
 =======
                 }
                 else {
@@ -25097,6 +27023,7 @@ class SfuClient extends EventTarget {
         if (!hasChanged) {
             return;
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
         this._bus?.send(
             {
@@ -25114,6 +27041,8 @@ class SfuClient extends EventTarget {
      */
     async updateUpload(type, track) {
 =======
+=======
+>>>>>>> upstream/18.0
         (_a = this._bus) === null || _a === void 0 ? void 0 : _a.send({
             name: CLIENT_MESSAGE.CONSUMPTION_CHANGE,
             payload: { sessionId, states }
@@ -25125,6 +27054,9 @@ class SfuClient extends EventTarget {
      */
     async updateUpload(type, track) {
         var _a;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         if (!SUPPORTED_TYPES.has(type)) {
             throw new Error(`Unsupported media type ${type}`);
@@ -25136,6 +27068,7 @@ class SfuClient extends EventTarget {
                 await existingProducer.replaceTrack({ track });
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
             this._bus.send(
                 {
                     name: CLIENT_MESSAGE.PRODUCTION_CHANGE,
@@ -25144,10 +27077,15 @@ class SfuClient extends EventTarget {
                 { batch: true }
             );
 =======
+=======
+>>>>>>> upstream/18.0
             (_a = this._bus) === null || _a === void 0 ? void 0 : _a.send({
                 name: CLIENT_MESSAGE.PRODUCTION_CHANGE,
                 payload: { type, active: Boolean(track) }
             }, { batch: true });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             return;
         }
@@ -25159,14 +27097,20 @@ class SfuClient extends EventTarget {
                 ...this._producerOptionsByKind[track.kind],
                 track,
 <<<<<<< HEAD
+<<<<<<< HEAD
                 appData: { type },
             });
         } catch (error) {
 =======
+=======
+>>>>>>> upstream/18.0
                 appData: { type }
             });
         }
         catch (error) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             this.errors.push(error);
             // if we reach the max error count, we restart the whole connection from scratch
@@ -25179,23 +27123,30 @@ class SfuClient extends EventTarget {
             this._recoverProducerTimeouts[type] = setTimeout(async () => {
                 await this.updateUpload(type, track);
 <<<<<<< HEAD
+<<<<<<< HEAD
             }, RECOVERY_DELAY);
             return;
         }
         this._onCleanup(() => {
             this._producers[type]?.close();
 =======
+=======
+>>>>>>> upstream/18.0
             }, RECOVERY_DELAY); // Type assertion as setTimeout returns a number in browsers
             return;
         }
         this._onCleanup(() => {
             var _a;
             (_a = this._producers[type]) === null || _a === void 0 ? void 0 : _a.close();
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             this._producers[type] = null;
             clearTimeout(this._recoverProducerTimeouts[type]);
         });
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
     /**
@@ -25214,6 +27165,8 @@ class SfuClient extends EventTarget {
      * @returns {WebSocket}
      * @private
 =======
+=======
+>>>>>>> upstream/18.0
     /**
      * To be overridden in tests.
      */
@@ -25222,16 +27175,22 @@ class SfuClient extends EventTarget {
     }
     /**
      * To be overridden in tests.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
      */
     _createWebSocket(url) {
         return new WebSocket(url);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     /**
      * Opens the webSocket connection to the server and authenticates, handles reconnection attempts.
      */
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     async _connect() {
@@ -25240,18 +27199,24 @@ class SfuClient extends EventTarget {
         }
         this._clear();
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.state = SFU_CLIENT_STATE.CONNECTING;
         try {
             this._bus = await this._createBus();
             this.state = SFU_CLIENT_STATE.AUTHENTICATED;
         } catch {
 =======
+=======
+>>>>>>> upstream/18.0
         this.state = SfuClientState.CONNECTING;
         try {
             this._bus = await this._createBus();
             this.state = SfuClientState.AUTHENTICATED;
         }
         catch {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             this._handleConnectionEnd();
             return;
@@ -25259,6 +27224,7 @@ class SfuClient extends EventTarget {
         this._bus.onMessage = this._handleMessage;
         this._bus.onRequest = this._handleRequest;
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
     /**
@@ -25276,6 +27242,8 @@ class SfuClient extends EventTarget {
      * @returns {Promise<Bus>}
      */
 =======
+=======
+>>>>>>> upstream/18.0
     _close(cause) {
         this._clear();
         const state = SfuClientState.CLOSED;
@@ -25284,6 +27252,9 @@ class SfuClient extends EventTarget {
             detail: { state, cause }
         }));
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     _createBus() {
         return new Promise((resolve, reject) => {
@@ -25291,7 +27262,12 @@ class SfuClient extends EventTarget {
             try {
                 webSocket = this._createWebSocket(this._url);
 <<<<<<< HEAD
+<<<<<<< HEAD
             } catch (error) {
+=======
+            }
+            catch (error) {
+>>>>>>> upstream/18.0
 =======
             }
             catch (error) {
@@ -25312,6 +27288,7 @@ class SfuClient extends EventTarget {
              * Websocket handshake with the rtc server,
              * when opening the webSocket, the server expects the first message to contain the jwt.
              */
+<<<<<<< HEAD
 <<<<<<< HEAD
             webSocket.addEventListener(
                 "open",
@@ -25343,6 +27320,8 @@ class SfuClient extends EventTarget {
     }
 
 =======
+=======
+>>>>>>> upstream/18.0
             webSocket.addEventListener("open", () => {
                 webSocket.send(JSON.stringify({
                     channelUUID: this._channelUUID,
@@ -25360,6 +27339,9 @@ class SfuClient extends EventTarget {
     _onCleanup(callback) {
         this._cleanups.push(callback);
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     _clear() {
         for (const cleanup of this._cleanups.splice(0)) {
@@ -25369,7 +27351,11 @@ class SfuClient extends EventTarget {
         for (const consumers of this._consumers.values()) {
             for (const consumer of Object.values(consumers)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 consumer?.close();
+=======
+                consumer === null || consumer === void 0 ? void 0 : consumer.close();
+>>>>>>> upstream/18.0
 =======
                 consumer === null || consumer === void 0 ? void 0 : consumer.close();
 >>>>>>> upstream/18.0
@@ -25377,6 +27363,7 @@ class SfuClient extends EventTarget {
         }
         this._consumers.clear();
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
     /**
@@ -25387,10 +27374,15 @@ class SfuClient extends EventTarget {
             ...ctsConfig,
             iceServers: this._iceServers,
 =======
+=======
+>>>>>>> upstream/18.0
     _makeCTSTransport(ctsConfig) {
         const transport = this._device.createSendTransport({
             ...ctsConfig,
             iceServers: this._iceServers
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         });
         transport.on("connect", async ({ dtlsParameters }, callback, errback) => {
@@ -25398,22 +27390,29 @@ class SfuClient extends EventTarget {
                 await this._bus.request({
                     name: CLIENT_REQUEST.CONNECT_CTS_TRANSPORT,
 <<<<<<< HEAD
+<<<<<<< HEAD
                     payload: { dtlsParameters },
                 });
                 callback();
             } catch (error) {
 =======
+=======
+>>>>>>> upstream/18.0
                     payload: { dtlsParameters }
                 });
                 callback();
             }
             catch (error) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 errback(error);
             }
         });
         transport.on("produce", async ({ kind, rtpParameters, appData }, callback, errback) => {
             try {
+<<<<<<< HEAD
 <<<<<<< HEAD
                 const result = await this._bus.request({
                     name: CLIENT_REQUEST.INIT_PRODUCER,
@@ -25422,6 +27421,8 @@ class SfuClient extends EventTarget {
                 callback({ id: result.id });
             } catch (error) {
 =======
+=======
+>>>>>>> upstream/18.0
                 const result = (await this._bus.request({
                     name: CLIENT_REQUEST.INIT_PRODUCER,
                     payload: { type: appData.type, kind, rtpParameters }
@@ -25429,6 +27430,9 @@ class SfuClient extends EventTarget {
                 callback({ id: result.id });
             }
             catch (error) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 errback(error);
             }
@@ -25436,6 +27440,7 @@ class SfuClient extends EventTarget {
         this._ctsTransport = transport;
         this._onCleanup(() => transport.close());
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
     /**
@@ -25446,10 +27451,15 @@ class SfuClient extends EventTarget {
             ...stcConfig,
             iceServers: this._iceServers,
 =======
+=======
+>>>>>>> upstream/18.0
     _makeSTCTransport(stcConfig) {
         const transport = this._device.createRecvTransport({
             ...stcConfig,
             iceServers: this._iceServers
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         });
         transport.on("connect", async ({ dtlsParameters }, callback, errback) => {
@@ -25457,16 +27467,22 @@ class SfuClient extends EventTarget {
                 await this._bus.request({
                     name: CLIENT_REQUEST.CONNECT_STC_TRANSPORT,
 <<<<<<< HEAD
+<<<<<<< HEAD
                     payload: { dtlsParameters },
                 });
                 callback();
             } catch (error) {
 =======
+=======
+>>>>>>> upstream/18.0
                     payload: { dtlsParameters }
                 });
                 callback();
             }
             catch (error) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 errback(error);
             }
@@ -25475,10 +27491,13 @@ class SfuClient extends EventTarget {
         this._onCleanup(() => transport.close());
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     /**
      * @param {number} sessionId
      */
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     _removeConsumers(sessionId) {
@@ -25487,6 +27506,7 @@ class SfuClient extends EventTarget {
             return;
         }
         for (const consumer of Object.values(consumers)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
             consumer?.close();
         }
@@ -25523,6 +27543,8 @@ class SfuClient extends EventTarget {
         }
         switch (event?.code) {
 =======
+=======
+>>>>>>> upstream/18.0
             consumer === null || consumer === void 0 ? void 0 : consumer.close();
         }
         this._consumers.delete(sessionId);
@@ -25538,6 +27560,9 @@ class SfuClient extends EventTarget {
         }
         const closeCode = event === null || event === void 0 ? void 0 : event.code;
         switch (closeCode) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             case WS_CLOSE_CODE.CHANNEL_FULL:
                 this._close("full");
@@ -25547,6 +27572,7 @@ class SfuClient extends EventTarget {
                 this._close();
                 return;
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
         this.state = SFU_CLIENT_STATE.RECOVERING;
         // Retry connecting with an exponential backoff.
@@ -25601,6 +27627,8 @@ class SfuClient extends EventTarget {
                     consumers = this._consumers.get(sessionId);
                     consumers[type]?.close();
 =======
+=======
+>>>>>>> upstream/18.0
         this.state = SfuClientState.RECOVERING;
         // Retry connecting with an exponential backoff.
         this._connectRetryDelay =
@@ -25636,12 +27664,16 @@ class SfuClient extends EventTarget {
                 }
                 else {
                     (_a = consumers[type]) === null || _a === void 0 ? void 0 : _a.close();
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 }
                 const consumer = await this._stcTransport.consume({
                     id,
                     producerId,
                     kind,
+<<<<<<< HEAD
 <<<<<<< HEAD
                     rtpParameters,
                 });
@@ -25652,6 +27684,8 @@ class SfuClient extends EventTarget {
                 }
                 this._updateClient("track", { type, sessionId, track: consumer.track, active });
 =======
+=======
+>>>>>>> upstream/18.0
                     rtpParameters
                 });
                 if (!active) {
@@ -25666,6 +27700,9 @@ class SfuClient extends EventTarget {
                     track: consumer.track,
                     active
                 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 consumers[type] = consumer;
                 return;
@@ -25681,22 +27718,29 @@ class SfuClient extends EventTarget {
                 this._makeSTCTransport(stcConfig);
                 this._makeCTSTransport(ctsConfig);
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this.state = SFU_CLIENT_STATE.CONNECTED;
                 return this._device.rtpCapabilities;
             }
             case SERVER_REQUEST.PING:
                 return; // the server just needs a response, merely returning is enough
 =======
+=======
+>>>>>>> upstream/18.0
                 this.state = SfuClientState.CONNECTED;
                 return this._device.rtpCapabilities;
             }
             case SERVER_REQUEST.PING:
                 return; // Just respond to keep connection alive
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
     }
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 export { SFU_CLIENT_STATE, SfuClient };
 
@@ -25706,6 +27750,8 @@ export const __info__ = {
     hash: 'fcd3031',
     url: 'https://github.com/odoo/sfu',
 =======
+=======
+>>>>>>> upstream/18.0
 export { CLIENT_UPDATE, SFU_CLIENT_STATE, SfuClient, SfuClientState };
 
 
@@ -25714,5 +27760,8 @@ export const __info__ = {
     hash: '297c767',
     url: 'https://github.com/odoo/sfu',
     version: '1.3.3',
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 };

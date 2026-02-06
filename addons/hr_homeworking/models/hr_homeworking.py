@@ -1,6 +1,10 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
+<<<<<<< HEAD
 from odoo import api, fields, models
+=======
+from odoo import api, fields, models, tools
+>>>>>>> upstream/18.0
 
 DAYS = ['monday_location_id', 'tuesday_location_id', 'wednesday_location_id', 'thursday_location_id', 'friday_location_id', 'saturday_location_id', 'sunday_location_id']
 
@@ -24,4 +28,8 @@ class HrEmployeeLocation(models.Model):
     @api.depends('date')
     def _compute_day_week_string(self):
         for record in self:
+<<<<<<< HEAD
             record.day_week_string = record.date.strftime("%A")
+=======
+            record.day_week_string = tools.format_date(record.env, record.date, date_format='EEEE')
+>>>>>>> upstream/18.0

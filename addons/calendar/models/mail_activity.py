@@ -136,6 +136,7 @@ class MailActivity(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _action_done(self, feedback=False, attachment_ids=False):
         events = self.calendar_event_id
         # To avoid the feedback to be included in the activity note (due to the synchronization in event.write
@@ -153,6 +154,8 @@ class MailActivity(models.Model):
                 event.write({'description': description})
         return messages, activities
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
