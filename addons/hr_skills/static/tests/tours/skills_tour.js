@@ -176,7 +176,10 @@ registry.category("web_tour.tours").add("hr_skills_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -623,6 +626,9 @@ registry.category("web_tour.tours").add("hr_skills_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1062,7 +1068,10 @@ registry.category("web_tour.tours").add("hr_skills_tour", {
             trigger: ".o_form_readonly, .o_form_saved",
         },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         {
             content: "Add a new Skill",
             trigger: ".o_field_skills_one2many button:contains('ADD')",
@@ -1113,6 +1122,9 @@ registry.category("web_tour.tours").add("hr_skills_tour", {
             trigger: ".o_form_button_cancel",
             run: "click",
         },
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     ],
 });

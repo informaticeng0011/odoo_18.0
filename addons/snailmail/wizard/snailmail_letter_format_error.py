@@ -73,9 +73,13 @@ class SnailmailLetterFormatError(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def update_resend_action(self):
         self.env.company.write({'snailmail_cover': self.snailmail_cover})
         letters_to_resend = self.message_id.letter_ids
+=======
+    def _resend_letters(self, letters_to_resend):
+>>>>>>> upstream/18.0
 =======
     def _resend_letters(self, letters_to_resend):
 >>>>>>> upstream/18.0
@@ -323,7 +327,10 @@ class SnailmailLetterFormatError(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -505,6 +512,9 @@ class SnailmailLetterFormatError(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -109,6 +109,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* account_check_printing
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -585,6 +586,9 @@
 =======
 # * account_check_printing
 >>>>>>> upstream/18.0
+=======
+# * account_check_printing
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2025
@@ -713,6 +717,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -741,6 +746,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
 >>>>>>> upstream/18.0
 =======
 # "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
@@ -1073,6 +1081,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1599,6 +1608,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-10-22 09:09+0000\n"
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-18/"
@@ -1709,6 +1721,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2036,6 +2051,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
 "(n%100>=11 && n%100<=14)? 2 : 3);\n"
 <<<<<<< HEAD
@@ -2454,6 +2470,11 @@ msgstr ""
 =======
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || ("
 "n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
+=======
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
 =======
@@ -2740,7 +2761,11 @@ msgid "%(journal)s: Check Number Sequence"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(journal)s: Нумерация чеков"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(journal)s: Нумерация чеков"
 >>>>>>> upstream/18.0
@@ -3347,7 +3372,11 @@ msgid "Created by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Создано:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создано:"
 >>>>>>> upstream/18.0
@@ -3944,7 +3973,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Дата создания:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата создания:"
 >>>>>>> upstream/18.0
@@ -4539,8 +4572,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In order to print multiple checks at once, they must belong to the same bank"
 " journal."
+=======
+"In order to print multiple checks at once, they must belong to the same bank "
+"journal."
+>>>>>>> upstream/18.0
 =======
 "In order to print multiple checks at once, they must belong to the same bank "
 "journal."
@@ -5198,7 +5236,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Последнее обновление:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Последнее обновление:"
 >>>>>>> upstream/18.0
@@ -5799,7 +5841,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Дата последнего обновления:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата последнего обновления:"
 >>>>>>> upstream/18.0
@@ -6382,6 +6428,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Payment Providers: Each payment provider has its own Payment Method. Request a transaction on/to a card thanks to a payment token saved by the partner when buying or subscribing online.\n"
 "Check: Pay bills by check and print it from Odoo.\n"
 "Batch Deposit: Collect several customer checks at once generating and submitting a batch deposit to your bank. Module account_batch_payment is necessary.\n"
@@ -6395,6 +6442,8 @@ msgstr ""
 "Кредитный перевод SEPA: Платите в зоне SEPA, отправляя файл SEPA Credit Transfer в ваш банк. Необходим модуль account_sepa.\n"
 "Прямое дебетование SEPA: Получайте оплату в зоне SEPA благодаря мандату, предоставленному вам вашим партнером. Необходим модуль account_sepa.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6788,6 +6837,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7212,8 +7264,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Please enter the number of the first pre-printed check that you are about to"
 " print on."
+=======
+"Please enter the number of the first pre-printed check that you are about to "
+"print on."
+>>>>>>> upstream/18.0
 =======
 "Please enter the number of the first pre-printed check that you are about to "
 "print on."
@@ -7882,11 +7939,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Select the format corresponding to the check paper you will be printing your checks on.\n"
 "In order to disable the printing feature, select 'None'."
 msgstr ""
 "Select the format corresponding to the check paper you will be printing your checks on.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8262,6 +8322,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8662,7 +8725,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8914,6 +8980,7 @@ msgid ""
 "The check number you entered (%(num)s) exceeds the maximum allowed value of %"
 "(max)d. Please enter a smaller number."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9513,6 +9580,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Введенный номер чека (%(num)s) превышает максимально допустимое значение %"
 "(max)d. Введите номер меньше."
 
@@ -9551,6 +9620,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9814,8 +9886,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Вам необходимо выбрать макет чека. Для этого зайдите в Настройки выставления"
 " счетов/расчетов, найдите \"Макет чека\" и установите его."
+=======
+"Вам необходимо выбрать макет чека. Для этого зайдите в Настройки выставления "
+"счетов/расчетов, найдите \"Макет чека\" и установите его."
+>>>>>>> upstream/18.0
 =======
 "Вам необходимо выбрать макет чека. Для этого зайдите в Настройки выставления "
 "счетов/расчетов, найдите \"Макет чека\" и установите его."

@@ -36,12 +36,15 @@ import { registry } from "@web/core/registry";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Component, onRendered, reactive, useRef, xml } from "@odoo/owl";
 import { toCanvas } from "@point_of_sale/app/utils/html-to-image";
 
 export class RenderContainer extends Component {
     static props = ["comp", "onRendered"];
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -165,6 +168,9 @@ export class RenderContainer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -239,6 +245,7 @@ export class RenderContainer extends Component {
     // we should only intact with that div through the `whenMounted` function
     static template = xml`
         <div class="render-container-parent" style="left: -1000px; position: fixed;">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -829,6 +836,8 @@ export class RenderContainer extends Component {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             <t t-if="props.comp.component">
                 <ComponentRenderer comp="props.comp" onMounted="props.onRendered" />
             </t>
@@ -868,6 +877,9 @@ export class RenderContainer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

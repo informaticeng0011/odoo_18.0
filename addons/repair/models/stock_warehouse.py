@@ -255,7 +255,11 @@ class StockWarehouse(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         prod_location = self.env['stock.location'].search([('usage', '=', 'production'), ('company_id', '=', self.company_id.id)], limit=1)
+=======
+        prod_location = self._get_production_location()
+>>>>>>> upstream/18.0
 =======
         prod_location = self._get_production_location()
 >>>>>>> upstream/18.0
@@ -976,6 +980,16 @@ class StockWarehouse(models.Model):
             raise UserError(_("Can't find any production location."))
         return location
 
+<<<<<<< HEAD
+=======
+    def _create_missing_locations(self, vals):
+        super()._create_missing_locations(vals)
+        for company_id in self.company_id:
+            location = self.env['stock.location'].search([('usage', '=', 'production'), ('company_id', '=', company_id.id)], limit=1)
+            if not location:
+                company_id._create_production_location()
+
+>>>>>>> upstream/18.0
     def _generate_global_route_rules_values(self):
         rules = super()._generate_global_route_rules_values()
         production_location = self._get_production_location()

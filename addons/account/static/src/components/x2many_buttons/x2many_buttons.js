@@ -116,6 +116,12 @@ class X2ManyButtons extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        const context = this.currentField.resModel === "account.move"
+            ? { list_view_ref: "account.view_duplicated_moves_tree_js" }
+            : {};
+>>>>>>> upstream/18.0
 =======
         const context = this.currentField.resModel === "account.move"
             ? { list_view_ref: "account.view_duplicated_moves_tree_js" }
@@ -695,9 +701,13 @@ class X2ManyButtons extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             context: {
                 form_view_ref: "account.view_duplicated_moves_tree_js",
             },
+=======
+            context: context,
+>>>>>>> upstream/18.0
 =======
             context: context,
 >>>>>>> upstream/18.0

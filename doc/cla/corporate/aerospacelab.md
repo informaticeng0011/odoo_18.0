@@ -16,6 +16,10 @@ Thibault Libioulle thibault.libioulle@aerospacelab.be https://github.com/tli-asl
 Rémi Chauvenne remi.chauvenne@aerospacelab.be https://github.com/rch-asl
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Rémy Voet remy.voet@aerospacelab.com https://github.com/rvo-asl
+>>>>>>> upstream/18.0
 =======
 Rémy Voet remy.voet@aerospacelab.com https://github.com/rvo-asl
 >>>>>>> upstream/18.0

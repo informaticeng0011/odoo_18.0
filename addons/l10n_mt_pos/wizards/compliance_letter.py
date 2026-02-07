@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import models, fields, release, _
+=======
+from odoo import models, fields, release, tools, _
+>>>>>>> upstream/18.0
 =======
 from odoo import models, fields, release, tools, _
 >>>>>>> upstream/18.0
@@ -31,8 +35,12 @@ class ComplianceLetter(models.TransientModel):
         day = date_obj.day
         day_suffix = 'th' if 11 <= day <= 13 else {1: 'st', 2: 'nd', 3: 'rd'}.get(day % 10, 'th')
 <<<<<<< HEAD
+<<<<<<< HEAD
         formatted_date = date_obj.strftime(f"%B {day}{day_suffix}, %Y")
         return formatted_date
+=======
+        return tools.format_date(self.env, date_obj, date_format=f"MMMM d'{day_suffix}', Y")
+>>>>>>> upstream/18.0
 =======
         return tools.format_date(self.env, date_obj, date_format=f"MMMM d'{day_suffix}', Y")
 >>>>>>> upstream/18.0

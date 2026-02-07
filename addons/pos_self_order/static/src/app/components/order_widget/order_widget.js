@@ -69,7 +69,11 @@ export class OrderWidget extends Component {
                 if (value.qty && value.qty > 0) {
                     const line = this.selfOrder.models["pos.order.line"].getBy("uuid", key);
                     acc.count += value.qty;
+<<<<<<< HEAD
                     acc.price += line.get_display_price();
+=======
+                    acc.price += line.getDisplayPriceWithQty(value.qty);
+>>>>>>> upstream/18.0
                 }
                 return acc;
             },

@@ -37,7 +37,11 @@
                 <field name="state" invisible="1"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <field name="tracking" invisible="ttype == 'binary'" readonly="state != 'manual'"/>
+=======
+                <field name="tracking" invisible="ttype in ['binary', 'html']" readonly="state != 'manual'"/>
+>>>>>>> upstream/18.0
 =======
                 <field name="tracking" invisible="ttype in ['binary', 'html']" readonly="state != 'manual'"/>
 >>>>>>> upstream/18.0

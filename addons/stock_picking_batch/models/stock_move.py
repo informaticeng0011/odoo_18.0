@@ -38,7 +38,11 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if 'state' in vals and vals['state'] == 'assigned':
+=======
+        if 'state' in vals and vals['state'] in ('partially_available', 'assigned'):
+>>>>>>> upstream/18.0
 =======
         if 'state' in vals and vals['state'] in ('partially_available', 'assigned'):
 >>>>>>> upstream/18.0
@@ -143,7 +147,10 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -348,6 +355,9 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

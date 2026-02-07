@@ -101,6 +101,10 @@ import { closestElement } from "@html_editor/utils/dom_traversal";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { isElement } from "./dom_info";
+>>>>>>> upstream/18.0
 =======
 import { isElement } from "./dom_info";
 >>>>>>> upstream/18.0
@@ -779,6 +783,7 @@ export function isColorGradient(value) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 export const TEXT_CLASSES_REGEX = /\btext-[^\s]*\b/;
 =======
 export const TEXT_CLASSES_REGEX =
@@ -1170,6 +1175,8 @@ export const BG_CLASSES_REGEX = /\bbg-[^\s]*\b/;
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 export const TEXT_CLASSES_REGEX =
     /\btext-(primary|secondary|success|danger|warning|info|light|dark|body|muted|white|black|reset|gradient|opacity-\d{1,3}|o-[^\s]+|\d+)\b/;
 export const BG_CLASSES_REGEX = /\bbg-[^\s]*\b/;
@@ -1296,6 +1303,9 @@ export function hasTextColorClass(element, mode) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1611,6 +1621,7 @@ export function hasColor(element, mode) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const classRegex = mode === "color" ? TEXT_CLASSES_REGEX : BG_CLASSES_REGEX;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1659,6 +1670,8 @@ export function hasColor(element, mode) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2104,6 +2117,9 @@ export function hasColor(element, mode) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2516,8 +2532,12 @@ export function hasColor(element, mode) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         (classRegex.test(element.className) &&
             (!parent || getComputedStyle(element)[mode] !== getComputedStyle(parent)[mode]))
+=======
+        hasTextColorClass(element, mode)
+>>>>>>> upstream/18.0
 =======
         hasTextColorClass(element, mode)
 >>>>>>> upstream/18.0

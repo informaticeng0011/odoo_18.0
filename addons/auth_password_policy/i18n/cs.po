@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* auth_password_policy
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -112,6 +113,9 @@
 =======
 # * auth_password_policy
 >>>>>>> upstream/18.0
+=======
+# * auth_password_policy
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -149,6 +153,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -203,6 +208,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# "Marta (wacm)" <wacm@odoo.com>, 2026.
 >>>>>>> upstream/18.0
 =======
 # "Marta (wacm)" <wacm@odoo.com>, 2026.
@@ -226,6 +234,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -339,6 +348,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-01-27 23:14+0000\n"
 "Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
@@ -349,6 +360,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -364,6 +378,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -484,6 +499,11 @@ msgstr ""
 "(n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : "
+"(n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: auth_password_policy
 #: model:ir.model,name:auth_password_policy.model_res_config_settings
@@ -505,7 +525,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Minimální počet znaků hesla. Pro vypnutí tohoto nastavení zadejte 0."
+=======
+msgstr ""
+"Minimální počet znaků, které musí heslo obsahovat. Nastavte na 0, chcete-li "
+"tuto funkci deaktivovat."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Minimální počet znaků, které musí heslo obsahovat. Nastavte na 0, chcete-li "
@@ -549,6 +575,7 @@ msgstr "Heslo"
 msgid ""
 "Required: %s\n"
 "\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -655,10 +682,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Hint: to increase password strength, increase length, use multiple words, "
 "and use non-letter characters."
 msgstr ""
 "Požadováno: %s\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -774,6 +804,10 @@ msgstr ""
 "Tip: pro zvýšení síly hesla prodlužte jeho délku, použijte více slov a znaky "
 "jiné než písmena."
 >>>>>>> upstream/18.0
+=======
+"Tip: pro zvýšení síly hesla prodlužte jeho délku, použijte více slov a znaky "
+"jiné než písmena."
+>>>>>>> upstream/18.0
 
 #. module: auth_password_policy
 #: model:ir.model,name:auth_password_policy.model_res_users
@@ -793,6 +827,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Vaše heslo musí obsahovat minimálně %(minimal_length)d znaků a má pouze %"
+"(current_count)d."
+>>>>>>> upstream/18.0
 =======
 "Vaše heslo musí obsahovat minimálně %(minimal_length)d znaků a má pouze %"
 "(current_count)d."

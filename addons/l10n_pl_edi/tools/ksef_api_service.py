@@ -31,7 +31,11 @@ class KsefApiService:
         """Gets the correct KSeF API URL from the company's settings."""
         if self.mode == 'prod':
 <<<<<<< HEAD
+<<<<<<< HEAD
             return 'https://ksef.mf.gov.pl/api/v2'
+=======
+            return 'https://api.ksef.mf.gov.pl/v2'
+>>>>>>> upstream/18.0
 =======
             return 'https://api.ksef.mf.gov.pl/v2'
 >>>>>>> upstream/18.0

@@ -106,11 +106,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { WEBSOCKET_CLOSE_CODES } from "@bus/workers/websocket_worker";
 import { patchWebsocketWorkerWithCleanup } from "@bus/../tests/helpers/mock_websocket";
 
 import { nextTick, patchWithCleanup } from "@web/../tests/helpers/utils";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -431,6 +434,9 @@ import { Deferred } from "@web/core/utils/concurrency";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -842,7 +848,10 @@ QUnit.test("notification event is broadcasted", async function (assert) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1187,6 +1196,9 @@ QUnit.test("check connection health during inactivity", async (assert) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

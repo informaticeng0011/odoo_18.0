@@ -155,7 +155,11 @@ test("should add a character in the link after a br tag", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test("should remove an empty link on save", async () => {
+=======
+test("should remove an empty link on save (1)", async () => {
+>>>>>>> upstream/18.0
 =======
 test("should remove an empty link on save (1)", async () => {
 >>>>>>> upstream/18.0
@@ -361,6 +365,12 @@ test("should remove an empty link on save (1)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+});
+
+test("should remove an empty link on save (2)", async () => {
+>>>>>>> upstream/18.0
 =======
 });
 

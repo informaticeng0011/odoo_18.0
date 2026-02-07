@@ -119,7 +119,11 @@ test("with an empty selector and a <br>", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test("no arrow key press or mouse click should keep selection near a contenteditable='false'", async () => {
+=======
+test("no arrow key press or mouse click should keep selection near a contenteditable='false' (1)", async () => {
+>>>>>>> upstream/18.0
 =======
 test("no arrow key press or mouse click should keep selection near a contenteditable='false' (1)", async () => {
 >>>>>>> upstream/18.0
@@ -320,6 +324,12 @@ test("no arrow key press or mouse click should keep selection near a contentedit
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+});
+
+test("no arrow key press or mouse click should keep selection near a contenteditable='false' (2)", async () => {
+>>>>>>> upstream/18.0
 =======
 });
 

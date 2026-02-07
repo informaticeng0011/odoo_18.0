@@ -91,7 +91,13 @@ export class SkillsX2ManyField extends X2ManyField {
             saveRecord: async (record) => {
                 await saveRecord(record);
 <<<<<<< HEAD
+<<<<<<< HEAD
                 await this.props.record.save();
+=======
+                await this.props.record.save({
+                    onError: (e) => {this.list.delete(record); throw e;}
+                });
+>>>>>>> upstream/18.0
 =======
                 await this.props.record.save({
                     onError: (e) => {this.list.delete(record); throw e;}

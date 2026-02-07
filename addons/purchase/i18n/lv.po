@@ -148,8 +148,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* purchase
 # 
+=======
+# * purchase
+#
+>>>>>>> upstream/18.0
 =======
 # * purchase
 #
@@ -902,6 +907,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 =======
 # Aleksejs Ivanovs <ai@myacc.pro>, 2025.
@@ -1416,10 +1422,15 @@
 # Aleksejs Ivanovs <ai@myacc.pro>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Aleksejs Ivanovs <ai@myacc.pro>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2341,6 +2352,11 @@ msgstr ""
 "PO-Revision-Date: 2025-11-25 09:51+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:36+0000\n"
+"PO-Revision-Date: 2025-11-25 09:51+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Latvian <https://translate.odoo.com/projects/odoo-18/purchase/"
 "lv/>\n"
 "Language: lv\n"
@@ -2496,6 +2512,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2928,7 +2947,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                (object.state in ('draft', 'sent') and 'Request for Quotation - %s' % (object.name) or\n"
+=======
+"                (object.state in ('draft', 'sent') and 'Request for "
+"Quotation - %s' % (object.name) or\n"
+>>>>>>> upstream/18.0
 =======
 "                (object.state in ('draft', 'sent') and 'Request for "
 "Quotation - %s' % (object.name) or\n"
@@ -3661,6 +3685,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
 "        </t>\n"
 "        <br/><br/>\n"
@@ -3672,6 +3697,8 @@ msgid ""
 "        <t t-if=\"object.date_planned\">\n"
 "            <span style=\"font-weight:bold;\" t-out=\"format_date(object.date_planned) or ''\">05/05/2021</span>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4079,6 +4106,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4479,10 +4509,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4881,6 +4914,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5283,6 +5319,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Sveicināti <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>\n"
 "        <t t-if=\"object.partner_id.parent_id\">\n"
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
@@ -5296,6 +5333,8 @@ msgstr ""
 "        <t t-if=\"object.date_planned\">\n"
 "            <span style=\"font-weight:bold;\" t-out=\"format_date(object.date_planned) or ''\">05/05/2021</span>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5706,6 +5745,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6106,10 +6148,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6508,6 +6553,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6915,6 +6963,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
 "        </t>\n"
 "        <br/><br/>\n"
@@ -6934,6 +6983,8 @@ msgid ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7353,6 +7404,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7755,6 +7809,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Sveicināti <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>\n"
 "        <t t-if=\"object.partner_id.parent_id\">\n"
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
@@ -7776,6 +7831,8 @@ msgstr ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8197,6 +8254,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8604,6 +8664,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
 "        </t>\n"
 "        <br/><br/>\n"
@@ -8611,6 +8672,8 @@ msgid ""
 "        <t t-if=\"object.partner_ref\">\n"
 "            with reference: <t t-out=\"object.partner_ref or ''\">REF_XXX</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9013,6 +9076,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9413,6 +9479,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <a t-att-href=\"object.get_confirm_url(confirm_type='reception')\" target=\"_blank\" style=\"padding: 5px 10px; color: #FFFFFF; text-decoration: none; background-color: #875A7B; border: 1px solid #875A7B; border-radius: 3px\">\n"
 "                Accept</a>\n"
 "\n"
@@ -9424,6 +9491,8 @@ msgid ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9835,6 +9904,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10288,11 +10360,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                          <span class=\"d-block d-md-none\">Confirmation</span>"
 msgstr ""
 "<span class=\"d-none d-md-inline\">Apstiprināšanas datums</span>\n"
 "                          <span class=\"d-block d-md-none\">Apstiprināšana</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10692,6 +10767,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11109,9 +11187,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"o_form_label\" invisible=\"state not in ('draft', 'sent')\">Request for Quotation </span>\n"
 "                        <span class=\"o_form_label\" invisible=\"state in ('draft', 'sent')\">Purchase Order </span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11509,6 +11590,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11788,6 +11872,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase.product_normal_form_view_inherit_purchase
 #: model_terms:ir.ui.view,arch_db:purchase.view_product_template_purchase_buttons_from
 msgid "<span class=\"o_stat_text\">Purchased</span>"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12381,6 +12466,9 @@ msgstr "<span class=\"o_stat_text\">Iegādāts</span>"
 =======
 msgstr "<span class=\"o_stat_text\">Iegādāts</span>"
 >>>>>>> upstream/18.0
+=======
+msgstr "<span class=\"o_stat_text\">Iegādāts</span>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
@@ -12530,8 +12618,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span><b>Labs darbs!</b> Jūs izgājāt cauri visiem šīs pamācības "
 "soļiem.</span>"
+=======
+"<span><b>Labs darbs!</b> Jūs izgājāt cauri visiem šīs pamācības soļiem.</"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "<span><b>Labs darbs!</b> Jūs izgājāt cauri visiem šīs pamācības soļiem.</"
 "span>"
@@ -13284,7 +13377,10 @@ msgstr "<strong class=\"d-block mb-1\">Rēķini</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13883,6 +13979,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14547,6 +14646,7 @@ msgstr "<strong>Kvotas pieprasījuma datums:</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
 msgid "<strong>Shipping address:</strong>"
 msgstr "<strong>Piegādes adrese:</strong>"
@@ -14557,6 +14657,8 @@ msgid "<strong>Shipping address</strong>"
 msgstr ""
 
 #. module: purchase
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15163,6 +15265,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "According to product configuration, the received quantity can be automatically computed by mechanism:\n"
 "  - Manual: the quantity is set manually on the line\n"
 "  - Stock Moves: the quantity comes from confirmed pickings\n"
@@ -15171,6 +15274,8 @@ msgstr ""
 "  - Manuāli: daudzums tiek iestatīts manuāli uz līnijas\n"
 "  - Krājumu pārvietošana: daudzums tiek iegūts no apstiprinātās komplektācijas\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15574,6 +15679,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15950,7 +16058,11 @@ msgid "Add Products"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pievienot produktus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pievienot produktus"
 >>>>>>> upstream/18.0
@@ -17303,8 +17415,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Let's try the Purchase app to manage the flow from purchase to reception and"
 " invoice control."
+=======
+"Let's try the Purchase app to manage the flow from purchase to reception and "
+"invoice control."
+>>>>>>> upstream/18.0
 =======
 "Let's try the Purchase app to manage the flow from purchase to reception and "
 "invoice control."
@@ -18040,6 +18157,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Orders for procuring products, they will be scheduled that many days earlier"
 " to cope with unexpected vendor delays."
 msgstr ""
@@ -18047,6 +18165,8 @@ msgstr ""
 "Orders for procuring products, they will be scheduled that many days earlier"
 " to cope with unexpected vendor delays."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18446,6 +18566,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18846,8 +18969,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Orders for reordering products,they will be scheduled that many days earlier"
 " to cope with unexpected vendor delays."
+=======
+"Orders for reordering products,they will be scheduled that many days earlier "
+"to cope with unexpected vendor delays."
+>>>>>>> upstream/18.0
 =======
 "Orders for reordering products,they will be scheduled that many days earlier "
 "to cope with unexpected vendor delays."
@@ -19883,7 +20011,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20283,6 +20414,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21273,8 +21407,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Reference of the document that generated this purchase order request (e.g. a"
 " sales order)"
+=======
+"Reference of the document that generated this purchase order request (e.g. a "
+"sales order)"
+>>>>>>> upstream/18.0
 =======
 "Reference of the document that generated this purchase order request (e.g. a "
 "sales order)"
@@ -22002,9 +22141,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Requests for quotation are documents that will be sent to your suppliers to request prices for different products you consider buying.\n"
 "                Once an agreement has been found with the supplier, they will be confirmed and turned into purchase orders."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22402,6 +22544,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23144,12 +23289,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    converted into a purchase order, you will be able to control the receipt\n"
 "                    of the products and the vendor bill."
 msgstr ""
 "The request for quotation is the first step of the purchases flow. Once\n"
 "                    converted into a purchase order, you will be able to control the receipt\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23550,6 +23698,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23951,8 +24102,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The vendor asked to decline this confirmed RfQ, if you agree on that, cancel"
 " this PO"
+=======
+"The vendor asked to decline this confirmed RfQ, if you agree on that, cancel "
+"this PO"
+>>>>>>> upstream/18.0
 =======
 "The vendor asked to decline this confirmed RfQ, if you agree on that, cancel "
 "this PO"
@@ -24643,9 +24799,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This analysis allows you to easily check and analyse your company purchase history and performance.\n"
 "                You can track your negotiation performance, the delivery performance of your vendors, etc"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25043,6 +25202,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25457,8 +25619,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Kad tiek izveidots jauns produkts, tam tiek piemēroti noklusējuma parametri."
 " Tos var izmainīt produkta kartiņā."
+=======
+"Kad tiek izveidots jauns produkts, tam tiek piemēroti noklusējuma parametri. "
+"Tos var izmainīt produkta kartiņā."
+>>>>>>> upstream/18.0
 =======
 "Kad tiek izveidots jauns produkts, tam tiek piemēroti noklusējuma parametri. "
 "Tos var izmainīt produkta kartiņā."
@@ -26132,8 +26299,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Šī prece ir iepakota pa %(pack_size).2f%(pack_name)s. Jums būtu jāiegādājas "
 "%(quantity).2f%(unit)s."
+=======
+"Šī prece ir iepakota pa %(pack_size).2f%(pack_name)s. Jums būtu jāiegādājas %"
+"(quantity).2f%(unit)s."
+>>>>>>> upstream/18.0
 =======
 "Šī prece ir iepakota pa %(pack_size).2f%(pack_name)s. Jums būtu jāiegādājas %"
 "(quantity).2f%(unit)s."
@@ -27204,8 +27376,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "shipment, Odoo will send the vendor an email to ask confirmation of shipment"
 " dates and keep you informed in case of any delays. To get the vendor's "
+=======
+"shipment, Odoo will send the vendor an email to ask confirmation of shipment "
+"dates and keep you informed in case of any delays. To get the vendor's "
+>>>>>>> upstream/18.0
 =======
 "shipment, Odoo will send the vendor an email to ask confirmation of shipment "
 "dates and keep you informed in case of any delays. To get the vendor's "
@@ -27910,7 +28087,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                neatkarīgi no tā, vai tā ir uzglabājama prece, patērējama prece vai pakalpojums."
+=======
+"                neatkarīgi no tā, vai tā ir uzglabājama prece, patērējama "
+"prece vai pakalpojums."
+>>>>>>> upstream/18.0
 =======
 "                neatkarīgi no tā, vai tā ir uzglabājama prece, patērējama "
 "prece vai pakalpojums."
@@ -28579,7 +28761,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "             neatkarīgi no tā, vai tā ir uzglabājama prece, patērējama prece vai pakalpojums."
+=======
+"             neatkarīgi no tā, vai tā ir uzglabājama prece, patērējama prece "
+"vai pakalpojums."
+>>>>>>> upstream/18.0
 =======
 "             neatkarīgi no tā, vai tā ir uzglabājama prece, patērējama prece "
 "vai pakalpojums."
@@ -29252,12 +29439,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Your quotation contains products from company %(product_company)s whereas your quotation belongs to company %(quote_company)s. \n"
 " Please change the company of your quotation or remove the products from other companies (%(bad_products)s)."
 msgstr ""
 "Jūsu piedāvājumā ir uzņēmuma %(product_company)s produkti, bet jūsu piedāvājums pieder uzņēmumam %(quote_company)s.\n"
 " Lūdzu, mainiet sava piedāvājuma uzņēmumu vai izņemiet produktus no citiem uzņēmumiem (%(bad_products)s)."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -29660,6 +29850,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
