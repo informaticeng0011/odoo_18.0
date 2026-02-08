@@ -161,6 +161,7 @@ from odoo.addons.base.models.res_partner import _tz_get
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.resource.models.utils import float_to_time, HOURS_PER_DAY
 =======
 from odoo.addons.resource.models.utils import float_to_time, HOURS_PER_DAY, Intervals
@@ -504,6 +505,8 @@ from odoo.tools.misc import format_date
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 from odoo.addons.resource.models.utils import float_to_time, HOURS_PER_DAY, Intervals
 from odoo.exceptions import AccessError, UserError, ValidationError
 from odoo.tools.float_utils import float_round, float_compare
@@ -614,6 +617,9 @@ from odoo.tools.misc import clean_context, format_date
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1251,7 +1257,11 @@ class HolidaysRequest(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if holiday.holiday_status_id or holiday.request_unit_hours:
+=======
+            if (holiday.holiday_status_id and holiday.leave_type_request_unit not in ['half_day', 'hour']) or holiday.request_unit_hours:
+>>>>>>> upstream/18.0
 =======
             if (holiday.holiday_status_id and holiday.leave_type_request_unit not in ['half_day', 'hour']) or holiday.request_unit_hours:
 >>>>>>> upstream/18.0
@@ -1741,7 +1751,11 @@ class HolidaysRequest(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if holiday.holiday_status_id or holiday.request_unit_half:
+=======
+            if (holiday.holiday_status_id and holiday.leave_type_request_unit != 'hour') or holiday.request_unit_half:
+>>>>>>> upstream/18.0
 =======
             if (holiday.holiday_status_id and holiday.leave_type_request_unit != 'hour') or holiday.request_unit_half:
 >>>>>>> upstream/18.0
@@ -2295,6 +2309,10 @@ class HolidaysRequest(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                department_ids = leave.employee_id.department_id.ids
+>>>>>>> upstream/18.0
 =======
                 department_ids = leave.employee_id.department_id.ids
 >>>>>>> upstream/18.0
@@ -2898,7 +2916,10 @@ class HolidaysRequest(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3351,6 +3372,9 @@ class HolidaysRequest(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3833,7 +3857,11 @@ class HolidaysRequest(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             (date_from, date_to, calendar): employees.with_context(
+=======
+            (date_from, date_to, include_public_holidays_in_duration, calendar): employees.with_context(
+>>>>>>> upstream/18.0
 =======
             (date_from, date_to, include_public_holidays_in_duration, calendar): employees.with_context(
 >>>>>>> upstream/18.0
@@ -4434,7 +4462,11 @@ class HolidaysRequest(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             (date_from, date_to, calendar): employees._get_work_days_data_batch(date_from, date_to, compute_leaves=not include_public_holidays_in_duration, domain=domain, calendar=calendar)
+=======
+            (date_from, date_to, include_public_holidays_in_duration, calendar): employees._get_work_days_data_batch(date_from, date_to, compute_leaves=not include_public_holidays_in_duration, domain=domain, calendar=calendar)
+>>>>>>> upstream/18.0
 =======
             (date_from, date_to, include_public_holidays_in_duration, calendar): employees._get_work_days_data_batch(date_from, date_to, compute_leaves=not include_public_holidays_in_duration, domain=domain, calendar=calendar)
 >>>>>>> upstream/18.0
@@ -4886,6 +4918,7 @@ class HolidaysRequest(models.Model):
         }
         for leave in self:
             calendar = resource_calendar or leave.resource_calendar_id
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5727,6 +5760,8 @@ class HolidaysRequest(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             if not leave.date_from or not leave.date_to or (not calendar and not leave.employee_id):
                 result[leave.id] = (0, 0)
                 continue
@@ -5790,7 +5825,11 @@ class HolidaysRequest(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if leave.employee_id.is_flexible and leave.date_to.date() == leave.date_from.date():
+=======
+                if leave.employee_id.is_flexible and leave.request_date_to == leave.request_date_from:
+>>>>>>> upstream/18.0
 =======
                 if leave.employee_id.is_flexible and leave.request_date_to == leave.request_date_from:
 >>>>>>> upstream/18.0
@@ -6140,6 +6179,9 @@ class HolidaysRequest(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6651,6 +6693,7 @@ Attempting to double-book your time off won't magically make your vacation 2x be
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 for employee in employees:
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7391,6 +7434,8 @@ Attempting to double-book your time off won't magically make your vacation 2x be
                                                 "Please request an allocation before submitting your time off request."))
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7473,6 +7518,9 @@ Attempting to double-book your time off won't magically make your vacation 2x be
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7683,6 +7731,7 @@ Attempting to double-book your time off won't magically make your vacation 2x be
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 if not leave_data[employee]:
                     raise ValidationError(_("You do not have any allocation for this time off type.\n"
@@ -8295,6 +8344,11 @@ Attempting to double-book your time off won't magically make your vacation 2x be
 >>>>>>> upstream/18.0
 =======
                 if not leave_data[employee]:
+                    raise ValidationError(_("You do not have any allocation for this time off type.\n"
+                                            "Please request an allocation before submitting your time off request."))
+>>>>>>> upstream/18.0
+=======
+                if not leave_data[employee][0][1]['max_leaves']:
                     raise ValidationError(_("You do not have any allocation for this time off type.\n"
                                             "Please request an allocation before submitting your time off request."))
 >>>>>>> upstream/18.0
@@ -8607,7 +8661,12 @@ Attempting to double-book your time off won't magically make your vacation 2x be
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self._check_validity()
+=======
+            if not values.get('state') or values.get('state') not in ('refuse', 'cancel'):
+                self._check_validity()
+>>>>>>> upstream/18.0
 =======
             if not values.get('state') or values.get('state') not in ('refuse', 'cancel'):
                 self._check_validity()
@@ -8819,6 +8878,11 @@ Attempting to double-book your time off won't magically make your vacation 2x be
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if self.has_access('write'):
+            return self.env['resource.calendar.leaves'].search([('holiday_id', 'in', self.ids)]).sudo().unlink()
+>>>>>>> upstream/18.0
 =======
         if self.has_access('write'):
             return self.env['resource.calendar.leaves'].search([('holiday_id', 'in', self.ids)]).sudo().unlink()
@@ -8933,6 +8997,7 @@ Attempting to double-book your time off won't magically make your vacation 2x be
         meeting_holidays = holidays.filtered(lambda l: l.holiday_status_id.create_calendar_meeting)
         meetings = self.env['calendar.event']
         if meeting_holidays:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9257,6 +9322,8 @@ Attempting to double-book your time off won't magically make your vacation 2x be
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             Meeting = self.env['calendar.event']
             Meeting.check_access('create')
             meeting_values_for_user_id = meeting_holidays._prepare_holidays_meeting_values()
@@ -9369,6 +9436,9 @@ Attempting to double-book your time off won't magically make your vacation 2x be
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9586,6 +9656,7 @@ Attempting to double-book your time off won't magically make your vacation 2x be
                                 no_mail_to_attendees=True,
                                 calendar_no_videocall=True,
                                 active_model=self._name
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10015,6 +10086,9 @@ Attempting to double-book your time off won't magically make your vacation 2x be
 =======
                             )})).create(meeting_values)
 >>>>>>> upstream/18.0
+=======
+                            )})).create(meeting_values)
+>>>>>>> upstream/18.0
         Holiday = self.env['hr.leave']
         for meeting in meetings:
             Holiday.browse(meeting.res_id).meeting_id = meeting
@@ -10043,6 +10117,7 @@ Attempting to double-book your time off won't magically make your vacation 2x be
             allday_value = not holiday.request_unit_half
             if holiday.leave_type_request_unit == 'hour':
                 allday_value = float_compare(holiday.number_of_days, 1.0, 1) >= 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10545,6 +10620,8 @@ Attempting to double-book your time off won't magically make your vacation 2x be
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
             if allday_value:
                 # `start` and `stop` are not in UTC for allday events
@@ -10617,6 +10694,9 @@ Attempting to double-book your time off won't magically make your vacation 2x be
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10862,8 +10942,13 @@ Attempting to double-book your time off won't magically make your vacation 2x be
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'start': holiday.date_from,
                 'stop': holiday.date_to,
+=======
+                'start': start_value,
+                'stop': stop_value,
+>>>>>>> upstream/18.0
 =======
                 'start': start_value,
                 'stop': stop_value,
@@ -11838,7 +11923,11 @@ Attempting to double-book your time off won't magically make your vacation 2x be
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         model_id = self.env.ref('hr_holidays.model_hr_leave').id
+=======
+        model_id = self.env['ir.model']._get_id('hr.leave')
+>>>>>>> upstream/18.0
 =======
         model_id = self.env['ir.model']._get_id('hr.leave')
 >>>>>>> upstream/18.0
@@ -12477,7 +12566,11 @@ Attempting to double-book your time off won't magically make your vacation 2x be
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         to_do_confirm_activity |= holiday
+=======
+                        to_do_confirm_activity += holiday
+>>>>>>> upstream/18.0
 =======
                         to_do_confirm_activity += holiday
 >>>>>>> upstream/18.0
@@ -13102,7 +13195,11 @@ Attempting to double-book your time off won't magically make your vacation 2x be
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                              relativedelta(**{activity_type.delay_unit: activity_type.delay_count or 0})).date()
+=======
+                             relativedelta(**{activity_type.delay_unit or 'days': activity_type.delay_count or 0})).date()
+>>>>>>> upstream/18.0
 =======
                              relativedelta(**{activity_type.delay_unit or 'days': activity_type.delay_count or 0})).date()
 >>>>>>> upstream/18.0
@@ -13872,6 +13969,10 @@ Attempting to double-book your time off won't magically make your vacation 2x be
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -14637,6 +14738,7 @@ Attempting to double-book your time off won't magically make your vacation 2x be
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if day_period:
             domain.append(('day_period', '=', day_period))
         attendances = self.env['resource.calendar.attendance']._read_group(domain,
@@ -14651,6 +14753,8 @@ Attempting to double-book your time off won't magically make your vacation 2x be
         default_start = min((attendance.hour_from for attendance in attendances), default=0)
         default_end = max((attendance.hour_to for attendance in attendances), default=0)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15245,6 +15349,9 @@ Attempting to double-book your time off won't magically make your vacation 2x be
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15696,6 +15803,12 @@ Attempting to double-book your time off won't magically make your vacation 2x be
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if not leave_type_data[leave.employee_id][0][1]['max_leaves']:
+                leave._force_cancel(reason, 'mail.mt_note')
+                continue
+>>>>>>> upstream/18.0
 =======
             if not leave_type_data[leave.employee_id][0][1]['max_leaves']:
                 leave._force_cancel(reason, 'mail.mt_note')

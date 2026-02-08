@@ -252,9 +252,13 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         received_qty = line.qty_received
         if self.state == 'done':
             received_qty -= self.product_uom._compute_quantity(self.quantity, line.product_uom, rounding_method='HALF-UP')
+=======
+        received_qty = self._get_qty_received_without_self()
+>>>>>>> upstream/18.0
 =======
         received_qty = self._get_qty_received_without_self()
 >>>>>>> upstream/18.0
@@ -1057,6 +1061,7 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 invoiced_qty += invoice_line.product_uom_id._compute_quantity(invoice_line.quantity, line.product_id.uom_id)
             # TODO currency check
             remaining_value = total_invoiced_value - receipt_value
@@ -1067,6 +1072,8 @@ class StockMove(models.Model):
                 price_unit = remaining_value / remaining_qty
             elif remaining_value and remaining_qty:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1545,6 +1552,9 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1862,6 +1872,7 @@ class StockMove(models.Model):
         else:
             price_unit = line._get_gross_price_unit()
         if order.currency_id != order.company_id.currency_id:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2690,6 +2701,9 @@ class StockMove(models.Model):
 =======
             convert_date = self._get_currency_convert_date()
 >>>>>>> upstream/18.0
+=======
+            convert_date = self._get_currency_convert_date()
+>>>>>>> upstream/18.0
             price_unit = order.currency_id._convert(
                 price_unit, order.company_id.currency_id, order.company_id, convert_date, round=False)
         if self.product_id.lot_valuated:
@@ -2901,7 +2915,10 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3384,7 +3401,10 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3593,6 +3613,9 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3952,6 +3975,9 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4578,6 +4604,10 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            convert_date = self._get_currency_convert_date()
+>>>>>>> upstream/18.0
 =======
             convert_date = self._get_currency_convert_date()
 >>>>>>> upstream/18.0
@@ -5402,7 +5432,11 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 self.date
+=======
+                convert_date
+>>>>>>> upstream/18.0
 =======
                 convert_date
 >>>>>>> upstream/18.0
@@ -6228,7 +6262,11 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 self.date
+=======
+                convert_date
+>>>>>>> upstream/18.0
 =======
                 convert_date
 >>>>>>> upstream/18.0
@@ -6932,7 +6970,12 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             unit_diff = returned_layer._get_layer_price_unit() - self.purchase_line_id._get_gross_price_unit()
+=======
+            origin_layer = returned_move.origin_returned_move_id.stock_valuation_layer_ids.filtered(lambda svl: not svl.stock_valuation_layer_id)[:1]
+            unit_diff = returned_layer._get_layer_price_unit() - origin_layer._get_layer_price_unit() if returned_layer and origin_layer else 0
+>>>>>>> upstream/18.0
 =======
             origin_layer = returned_move.origin_returned_move_id.stock_valuation_layer_ids.filtered(lambda svl: not svl.stock_valuation_layer_id)[:1]
             unit_diff = returned_layer._get_layer_price_unit() - origin_layer._get_layer_price_unit() if returned_layer and origin_layer else 0
@@ -7255,6 +7298,12 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # when backordering an mto move link the bakcorder to the purchase order
+        if self.procure_method == 'make_to_order' and self.created_purchase_line_ids:
+            vals['created_purchase_line_ids'] = [Command.set(self.created_purchase_line_ids.ids)]
+>>>>>>> upstream/18.0
 =======
         # when backordering an mto move link the bakcorder to the purchase order
         if self.procure_method == 'make_to_order' and self.created_purchase_line_ids:

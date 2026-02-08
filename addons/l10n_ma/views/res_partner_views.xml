@@ -70,6 +70,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            <xpath expr="//field[@name='company_registry']" position="attributes">
+                <attribute name="invisible" add="country_code == 'MA'" separator=" or "/>
+            </xpath>
+>>>>>>> upstream/18.0
 =======
             <xpath expr="//field[@name='company_registry']" position="attributes">
                 <attribute name="invisible" add="country_code == 'MA'" separator=" or "/>

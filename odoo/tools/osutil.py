@@ -60,6 +60,10 @@ def zip_dir(path, stream, include_dir=True, fnct_sort=None):      # TODO add ign
         len_prefix += 1
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    dir_root_path = os.path.realpath(path)
+>>>>>>> upstream/18.0
 =======
     dir_root_path = os.path.realpath(path)
 >>>>>>> upstream/18.0
@@ -71,14 +75,20 @@ def zip_dir(path, stream, include_dir=True, fnct_sort=None):      # TODO add ign
                 ext = ext or bname
                 if ext not in ['.pyc', '.pyo', '.swp', '.DS_Store']:
 <<<<<<< HEAD
+<<<<<<< HEAD
                     path = os.path.normpath(os.path.join(dirpath, fname))
                     if os.path.isfile(path):
                         zipf.write(path, path[len_prefix:])
 =======
+=======
+>>>>>>> upstream/18.0
                     fpath = os.path.normpath(os.path.join(dirpath, fname))
                     real_fpath = os.path.realpath(fpath)
                     if os.path.isfile(real_fpath) and os.path.commonpath([dir_root_path, real_fpath]) == dir_root_path:
                         zipf.write(real_fpath, fpath[len_prefix:])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 

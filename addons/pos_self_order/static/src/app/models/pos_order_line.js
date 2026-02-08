@@ -41,7 +41,10 @@ patch(PosOrderline.prototype, {
         return false;
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     getDisplayPriceWithQty(qty) {
         const prices = this.get_all_prices(qty);
 
@@ -51,5 +54,8 @@ patch(PosOrderline.prototype, {
             return prices.priceWithoutTax;
         }
     },
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 });

@@ -149,6 +149,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sale
 # 
 # Translators:
@@ -651,12 +652,15 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * sale
 #
 # Translators:
 # Ryoko Tsuda <ryoko@quartile.co>, 2024, 2025.
 # Junko Augias, 2025
 # Wil Odoo, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1240,10 +1244,16 @@
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 # Yoshi Tashiro <tashiro@quartile.co>, 2025.
 >>>>>>> upstream/18.0
+=======
+# "Junko Augias (juau)" <juau@odoo.com>, 2025, 2026.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+# Yoshi Tashiro <tashiro@quartile.co>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2389,6 +2399,11 @@ msgstr ""
 "PO-Revision-Date: 2026-01-31 18:01+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2026-01-29 18:37+0000\n"
+"PO-Revision-Date: 2026-02-07 10:37+0000\n"
+"Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-18/sale/ja/"
 ">\n"
 "Language: ja\n"
@@ -2396,6 +2411,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2898,6 +2914,9 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_payment_provider_onboarding_wizard___data_fetched
@@ -2967,7 +2986,11 @@ msgid "'PRO-FORMA - %s' % (object.name)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "PRO-FORMA - %s' % (object.name)"
+=======
+msgstr "プロフォーマ - %s' % (object.name)"
+>>>>>>> upstream/18.0
 =======
 msgstr "プロフォーマ - %s' % (object.name)"
 >>>>>>> upstream/18.0
@@ -3087,8 +3110,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "(object.state in ('draft', 'sent') and 'Quotation - %s' % (object.name)) or "
 "'Order - %s' % (object.name)"
+=======
+"(object.state in ('draft', 'sent') and '見積 - %s' % (object.name)) or 'オー"
+"ダ - %s' % (object.name)"
+>>>>>>> upstream/18.0
 =======
 "(object.state in ('draft', 'sent') and '見積 - %s' % (object.name)) or 'オー"
 "ダ - %s' % (object.name)"
@@ -3264,6 +3292,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-set=\"transaction_sudo\" t-value=\"object.get_portal_last_transaction()\"/>\n"
 "        Hello,\n"
 "        <br/><br/>\n"
@@ -3278,6 +3307,8 @@ msgid ""
 "            <br/>\n"
 "            <t t-if=\"object.currency_id.compare_amounts(object.amount_paid + transaction_sudo.amount, object.amount_total) &gt;= 0 and object.state in ('draft', 'sent')\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3401,6 +3432,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3509,7 +3543,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount_total - object.amount_paid - transaction_sudo.amount, object.currency_id) or ''\">$ 10.00</span>\n"
+=======
+"                <span style=\"font-weight:bold;\" t-"
+"out=\"format_amount(object.amount_total - object.amount_paid - "
+"transaction_sudo.amount, object.currency_id) or ''\">$ 10.00</span>\n"
+>>>>>>> upstream/18.0
 =======
 "                <span style=\"font-weight:bold;\" t-"
 "out=\"format_amount(object.amount_total - object.amount_paid - "
@@ -3725,10 +3765,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <t t-if=\"object.currency_id.compare_amounts(object.amount_paid, object.amount_total) &lt; 0\">\n"
 "                <br/>\n"
 "                <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount_total - object.amount_paid, object.currency_id) or ''\">$ 10.00</span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3837,6 +3880,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3948,10 +3994,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4059,6 +4108,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4171,6 +4223,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-set=\"transaction_sudo\" t-value=\"object.get_portal_last_transaction()\"/>\n"
 "        こんにちは。\n"
 "        <br/><br/>\n"
@@ -4185,6 +4238,8 @@ msgstr ""
 "            <br/>\n"
 "            <t t-if=\"object.currency_id.compare_amounts(object.amount_paid + transaction_sudo.amount, object.amount_total) &gt;= 0 and object.state in ('draft', 'sent')\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4308,6 +4363,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4416,7 +4474,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount_total - object.amount_paid - transaction_sudo.amount, object.currency_id) or ''\">$ 10.00</span>\n"
+=======
+"                <span style=\"font-weight:bold;\" t-"
+"out=\"format_amount(object.amount_total - object.amount_paid - "
+"transaction_sudo.amount, object.currency_id) or ''\">$ 10.00</span>\n"
+>>>>>>> upstream/18.0
 =======
 "                <span style=\"font-weight:bold;\" t-"
 "out=\"format_amount(object.amount_total - object.amount_paid - "
@@ -4632,10 +4696,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <t t-if=\"object.currency_id.compare_amounts(object.amount_paid, object.amount_total) &lt; 0\">\n"
 "                <br/>\n"
 "                <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount_total - object.amount_paid, object.currency_id) or ''\">$ 10.00</span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4744,6 +4811,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4855,10 +4925,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4966,6 +5039,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5083,10 +5159,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-set=\"tx_sudo\" t-value=\"object.get_portal_last_transaction()\"/>\n"
 "        Your order <span style=\"font-weight:bold;\" t-out=\"object.name or ''\">S00049</span> amounting in <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount_total, object.currency_id) or ''\">$ 10.00</span>\n"
 "        <t t-if=\"object.state == 'sale' or (tx_sudo and tx_sudo.state in ('done', 'authorized'))\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5197,6 +5276,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5307,12 +5389,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                Your payment reference is <span style=\"font-weight:bold;\" t-out=\"object.reference or ''\"/>.\n"
 "            </t>\n"
 "        </t>\n"
 "        <br/>\n"
 "        <t t-set=\"documents\" t-value=\"object._get_product_documents()\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5422,6 +5507,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5537,7 +5625,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <a t-out=\"document.ir_attachment_id.name\" t-att-href=\"object.get_portal_url('/document/' + str(document.id))\" t-att-target=\"target\"/>\n"
+=======
+"                        <a t-out=\"document.ir_attachment_id.name\" t-att-"
+"href=\"object.get_portal_url('/document/' + str(document.id))\" t-att-"
+"target=\"target\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <a t-out=\"document.ir_attachment_id.name\" t-att-"
 "href=\"object.get_portal_url('/document/' + str(document.id))\" t-att-"
@@ -5754,10 +5848,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5865,6 +5962,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5974,6 +6074,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <table width=\"100%\" style=\"color: #454748; font-size: 12px; border-collapse: collapse; white-space: nowrap;\">\n"
 "            <tr style=\"border-bottom: 2px solid #dee2e6;\">\n"
 "                <td style=\"width: 150px;\"><span style=\"font-weight:bold;\">Products</span></td>\n"
@@ -5983,6 +6084,8 @@ msgid ""
 "                    <span style=\"font-weight:bold;\">\n"
 "                        <t t-if=\"object.website_id.show_line_subtotals_tax_selection == 'tax_excluded'\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6098,6 +6201,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6213,6 +6319,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <t t-set=\"line_subtotal\" t-value=\"                     line.price_subtotal                     if object.website_id.show_line_subtotals_tax_selection == 'tax_excluded'                     else line.price_total                 \"/>\n"
 "            <t t-set=\"current_subtotal\" t-value=\"current_subtotal + line_subtotal\"/>\n"
 "            <t t-if=\"(not hasattr(line, 'is_delivery') or not line.is_delivery) and (                     line.display_type in ['line_section', 'line_note']                     or line.product_type == 'combo'                 )\">\n"
@@ -6229,6 +6336,8 @@ msgid ""
 "                            <t t-elif=\"line.display_type == 'line_note'\">\n"
 "                                <i t-out=\"line.name or ''\">Taking care of Trees Course</i>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6363,6 +6472,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6472,6 +6584,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <t t-elif=\"(not hasattr(line, 'is_delivery') or not line.is_delivery)\">\n"
 "                <table width=\"100%\" style=\"color: #454748; font-size: 12px; border-collapse: collapse;\">\n"
 "                    <t t-set=\"loop_cycle_number\" t-value=\"loop_cycle_number or 0\"/>\n"
@@ -6489,6 +6602,8 @@ msgid ""
 "                        <t t-else=\"\">\n"
 "                            <t t-out=\"format_amount(line.price_reduce_taxinc, object.currency_id) or ''\">$ 10.00</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6623,6 +6738,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6732,6 +6850,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <t t-if=\"current_section and (                     line_last                     or object.order_line[line_index+1].display_type == 'line_section'                     or object.order_line[line_index+1].product_type == 'combo'                     or (                         line.combo_item_id                         and not object.order_line[line_index+1].combo_item_id                     )                 ) and not line.is_downpayment\">\n"
 "                <t t-set=\"current_section\" t-value=\"None\"/>\n"
 "                <table width=\"100%\" style=\"color: #454748; font-size: 12px; border-collapse: collapse;\">\n"
@@ -6742,6 +6861,8 @@ msgid ""
 "                            <span style=\"font-weight: bold;\">Subtotal:</span>\n"
 "                            <span t-out=\"format_amount(current_subtotal, object.currency_id) or ''\">$ 10.00</span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6867,6 +6988,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6977,6 +7101,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    <div style=\"margin: 0px; padding: 0px;\" t-if=\"hasattr(object, 'carrier_id') and object.carrier_id\">\n"
 "        <table width=\"100%\" style=\"color: #454748; font-size: 12px; border-spacing: 0px 4px; white-space: nowrap;\" align=\"right\">\n"
 "            <tr>\n"
@@ -6989,6 +7114,8 @@ msgid ""
 "                <td style=\"width: 30%;\" align=\"right\"><span style=\"font-weight:bold;\">Untaxed Amount:</span></td>\n"
 "                <td style=\"width: 10%;\" align=\"right\" t-out=\"format_amount(object.amount_untaxed, object.currency_id) or ''\">$ 10.00</td>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7110,6 +7237,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7218,12 +7348,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <table width=\"100%\" style=\"color: #454748; font-size: 12px; border-spacing: 0px 4px; white-space: nowrap;\" align=\"right\">\n"
 "            <tr>\n"
 "                <td style=\"width: 60%\"/>\n"
 "                <td style=\"width: 30%; border-top: 1px solid #dee2e6;\" align=\"right\"><span style=\"font-weight:bold;\">Untaxed Amount:</span></td>\n"
 "                <td style=\"width: 10%; border-top: 1px solid #dee2e6;\" align=\"right\" t-out=\"format_amount(object.amount_untaxed, object.currency_id) or ''\">$ 10.00</td>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7336,6 +7469,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7444,6 +7580,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <table width=\"100%\" style=\"color: #454748; font-size: 12px; border-spacing: 0px 4px; white-space: nowrap;\" align=\"right\">\n"
 "            <tr>\n"
 "                <td style=\"width: 60%\"/>\n"
@@ -7459,6 +7596,8 @@ msgid ""
 "    </div>\n"
 "    <div t-if=\"object.partner_invoice_id\" style=\"margin: 0px; padding: 0px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7583,6 +7722,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7691,12 +7833,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <t t-out=\"object.partner_invoice_id.street or ''\">1201 S Figueroa St</t>\n"
 "                    <t t-out=\"object.partner_invoice_id.city or ''\">Los Angeles</t>\n"
 "                    <t t-out=\"object.partner_invoice_id.state_id.name or ''\">California</t>\n"
 "                    <t t-out=\"object.partner_invoice_id.zip or ''\">90015</t>\n"
 "                    <t t-out=\"object.partner_invoice_id.country_id.name or ''\">United States</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7809,6 +7954,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7917,7 +8065,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <span style=\"font-weight:bold;\">Payment Method:</span>\n"
+=======
+"                    <span style=\"font-weight:bold;\">Payment Method:</"
+"span>\n"
+>>>>>>> upstream/18.0
 =======
 "                    <span style=\"font-weight:bold;\">Payment Method:</"
 "span>\n"
@@ -8097,10 +8250,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <t t-out=\"tx_sudo.provider_id.sudo().name or ''\"/>\n"
 "                    </t>\n"
 "                    (<t t-out=\"format_amount(tx_sudo.amount, object.currency_id) or ''\">$ 10.00</t>)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8208,6 +8364,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8316,7 +8475,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    <div t-if=\"object.partner_shipping_id and not object.only_services\" style=\"margin: 0px; padding: 0px;\">\n"
+=======
+"    <div t-if=\"object.partner_shipping_id and not object.only_services\" "
+"style=\"margin: 0px; padding: 0px;\">\n"
+>>>>>>> upstream/18.0
 =======
 "    <div t-if=\"object.partner_shipping_id and not object.only_services\" "
 "style=\"margin: 0px; padding: 0px;\">\n"
@@ -8497,6 +8661,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <t t-out=\"object.partner_shipping_id.street or ''\">1201 S Figueroa St</t>\n"
 "                    <t t-out=\"object.partner_shipping_id.city or ''\">Los Angeles</t>\n"
 "                    <t t-out=\"object.partner_shipping_id.state_id.name or ''\">California</t>\n"
@@ -8510,6 +8675,8 @@ msgid ""
 "                <td>\n"
 "                    <span style=\"font-weight:bold;\">Shipping Method:</span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8631,6 +8798,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8740,7 +8910,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        (<t t-out=\"format_amount(object.amount_delivery, object.currency_id) or ''\">$ 10.00</t>)\n"
+=======
+"                        (<t t-out=\"format_amount(object.amount_delivery, "
+"object.currency_id) or ''\">$ 10.00</t>)\n"
+>>>>>>> upstream/18.0
 =======
 "                        (<t t-out=\"format_amount(object.amount_delivery, "
 "object.currency_id) or ''\">$ 10.00</t>)\n"
@@ -8934,10 +9109,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-set=\"tx_sudo\" t-value=\"object.get_portal_last_transaction()\"/>\n"
 "        お客様のオーダ <span style=\"font-weight:bold;\" t-out=\"object.name or ''\">S00049</span> 金額 <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount_total, object.currency_id) or ''\">$ 10.00</span>\n"
 "        <t t-if=\"object.state == 'sale' or (tx_sudo and tx_sudo.state in ('done', 'authorized'))\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9048,6 +9226,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9158,12 +9339,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                お支払い番号は <span style=\"font-weight:bold;\" t-out=\"object.reference or ''\"/>です。\n"
 "            </t>\n"
 "        </t>\n"
 "        <br/>\n"
 "        <t t-set=\"documents\" t-value=\"object._get_product_documents()\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9273,6 +9457,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9388,7 +9575,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <a t-out=\"document.ir_attachment_id.name\" t-att-href=\"object.get_portal_url('/document/' + str(document.id))\" t-att-target=\"target\"/>\n"
+=======
+"                        <a t-out=\"document.ir_attachment_id.name\" t-att-"
+"href=\"object.get_portal_url('/document/' + str(document.id))\" t-att-"
+"target=\"target\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <a t-out=\"document.ir_attachment_id.name\" t-att-"
 "href=\"object.get_portal_url('/document/' + str(document.id))\" t-att-"
@@ -9605,10 +9798,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9716,6 +9912,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9825,6 +10024,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <table width=\"100%\" style=\"color: #454748; font-size: 12px; border-collapse: collapse; white-space: nowrap;\">\n"
 "            <tr style=\"border-bottom: 2px solid #dee2e6;\">\n"
 "                <td style=\"width: 150px;\"><span style=\"font-weight:bold;\">プロダクト</span></td>\n"
@@ -9834,6 +10034,8 @@ msgstr ""
 "                    <span style=\"font-weight:bold;\">\n"
 "                        <t t-if=\"object.website_id.show_line_subtotals_tax_selection == 'tax_excluded'\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9949,6 +10151,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10064,6 +10269,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <t t-set=\"line_subtotal\" t-value=\"                     line.price_subtotal                     if object.website_id.show_line_subtotals_tax_selection == 'tax_excluded'                     else line.price_total                 \"/>\n"
 "            <t t-set=\"current_subtotal\" t-value=\"current_subtotal + line_subtotal\"/>\n"
 "            <t t-if=\"(not hasattr(line, 'is_delivery') or not line.is_delivery) and (                     line.display_type in ['line_section', 'line_note']                     or line.product_type == 'combo'                 )\">\n"
@@ -10080,6 +10286,8 @@ msgstr ""
 "                            <t t-elif=\"line.display_type == 'line_note'\">\n"
 "                                <i t-out=\"line.name or ''\">樹木の手入れコース</i>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10214,6 +10422,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10323,6 +10534,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <t t-elif=\"(not hasattr(line, 'is_delivery') or not line.is_delivery)\">\n"
 "                <table width=\"100%\" style=\"color: #454748; font-size: 12px; border-collapse: collapse;\">\n"
 "                    <t t-set=\"loop_cycle_number\" t-value=\"loop_cycle_number or 0\"/>\n"
@@ -10340,6 +10552,8 @@ msgstr ""
 "                        <t t-else=\"\">\n"
 "                            <t t-out=\"format_amount(line.price_reduce_taxinc, object.currency_id) or ''\">$ 10.00</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10474,6 +10688,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10583,6 +10800,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <t t-if=\"current_section and (                     line_last                     or object.order_line[line_index+1].display_type == 'line_section'                     or object.order_line[line_index+1].product_type == 'combo'                     or (                         line.combo_item_id                         and not object.order_line[line_index+1].combo_item_id                     )                 ) and not line.is_downpayment\">\n"
 "                <t t-set=\"current_section\" t-value=\"None\"/>\n"
 "                <table width=\"100%\" style=\"color: #454748; font-size: 12px; border-collapse: collapse;\">\n"
@@ -10593,6 +10811,8 @@ msgstr ""
 "                            <span style=\"font-weight: bold;\">小計:</span>\n"
 "                            <span t-out=\"format_amount(current_subtotal, object.currency_id) or ''\">$ 10.00</span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10717,6 +10937,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10827,6 +11050,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    <div style=\"margin: 0px; padding: 0px;\" t-if=\"hasattr(object, 'carrier_id') and object.carrier_id\">\n"
 "        <table width=\"100%\" style=\"color: #454748; font-size: 12px; border-spacing: 0px 4px; white-space: nowrap;\" align=\"right\">\n"
 "            <tr>\n"
@@ -10839,6 +11063,8 @@ msgstr ""
 "                <td style=\"width: 30%;\" align=\"right\"><span style=\"font-weight:bold;\">税抜価格:</span></td>\n"
 "                <td style=\"width: 10%;\" align=\"right\" t-out=\"format_amount(object.amount_untaxed, object.currency_id) or ''\">$ 10.00</td>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10960,6 +11186,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11068,12 +11297,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <table width=\"100%\" style=\"color: #454748; font-size: 12px; border-spacing: 0px 4px; white-space: nowrap;\" align=\"right\">\n"
 "            <tr>\n"
 "                <td style=\"width: 60%\"/>\n"
 "                <td style=\"width: 30%; border-top: 1px solid #dee2e6;\" align=\"right\"><span style=\"font-weight:bold;\">税抜価格:</span></td>\n"
 "                <td style=\"width: 10%; border-top: 1px solid #dee2e6;\" align=\"right\" t-out=\"format_amount(object.amount_untaxed, object.currency_id) or ''\">$ 10.00</td>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11185,6 +11417,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11293,6 +11528,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <table width=\"100%\" style=\"color: #454748; font-size: 12px; border-spacing: 0px 4px; white-space: nowrap;\" align=\"right\">\n"
 "            <tr>\n"
 "                <td style=\"width: 60%\"/>\n"
@@ -11308,6 +11544,8 @@ msgstr ""
 "    </div>\n"
 "    <div t-if=\"object.partner_invoice_id\" style=\"margin: 0px; padding: 0px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11432,6 +11670,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11540,12 +11781,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <t t-out=\"object.partner_invoice_id.street or ''\">1201 S Figueroa St</t>\n"
 "                    <t t-out=\"object.partner_invoice_id.city or ''\">Los Angeles</t>\n"
 "                    <t t-out=\"object.partner_invoice_id.state_id.name or ''\">California</t>\n"
 "                    <t t-out=\"object.partner_invoice_id.zip or ''\">90015</t>\n"
 "                    <t t-out=\"object.partner_invoice_id.country_id.name or ''\">United States</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11658,6 +11902,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11771,10 +12018,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <t t-out=\"tx_sudo.provider_id.sudo().name or ''\"/>\n"
 "                    </t>\n"
 "                    (<t t-out=\"format_amount(tx_sudo.amount, object.currency_id) or ''\">$ 10.00</t>)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11882,6 +12132,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11990,7 +12243,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    <div t-if=\"object.partner_shipping_id and not object.only_services\" style=\"margin: 0px; padding: 0px;\">\n"
+=======
+"    <div t-if=\"object.partner_shipping_id and not object.only_services\" "
+"style=\"margin: 0px; padding: 0px;\">\n"
+>>>>>>> upstream/18.0
 =======
 "    <div t-if=\"object.partner_shipping_id and not object.only_services\" "
 "style=\"margin: 0px; padding: 0px;\">\n"
@@ -12171,6 +12429,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <t t-out=\"object.partner_shipping_id.street or ''\">1201 S Figueroa St</t>\n"
 "                    <t t-out=\"object.partner_shipping_id.city or ''\">Los Angeles</t>\n"
 "                    <t t-out=\"object.partner_shipping_id.state_id.name or ''\">California</t>\n"
@@ -12181,6 +12440,8 @@ msgstr ""
 "        </table>\n"
 "        <table t-if=\"hasattr(object, 'carrier_id') and object.carrier_id\" width=\"100%\" style=\"color: #454748; font-size: 12px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12298,6 +12559,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12410,7 +12674,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        (<t t-out=\"format_amount(object.amount_delivery, object.currency_id) or ''\">$ 10.00</t>)\n"
+=======
+"                        (<t t-out=\"format_amount(object.amount_delivery, "
+"object.currency_id) or ''\">$ 10.00</t>)\n"
+>>>>>>> upstream/18.0
 =======
 "                        (<t t-out=\"format_amount(object.amount_delivery, "
 "object.currency_id) or ''\">$ 10.00</t>)\n"
@@ -12605,7 +12874,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-set=\"doc_name\" t-value=\"'quotation' if object.state in ('draft', 'sent') else 'order'\"/>\n"
+=======
+"        <t t-set=\"doc_name\" t-value=\"'quotation' if object.state in "
+"('draft', 'sent') else 'order'\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "        <t t-set=\"doc_name\" t-value=\"'quotation' if object.state in "
 "('draft', 'sent') else 'order'\"/>\n"
@@ -12785,6 +13059,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Pro forma invoice for <t t-out=\"doc_name or ''\">quotation</t> <span style=\"font-weight: bold;\" t-out=\"object.name or ''\">S00052</span>\n"
 "            <t t-if=\"object.origin\">\n"
 "                (with reference: <t t-out=\"object.origin or ''\"/> )\n"
@@ -12801,6 +13076,8 @@ msgid ""
 "        <br/>\n"
 "        <t t-set=\"documents\" t-value=\"object._get_product_documents()\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12927,6 +13204,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13042,7 +13322,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <a t-out=\"document.ir_attachment_id.name\" t-att-href=\"object.get_portal_url('/document/' + str(document.id))\" t-att-target=\"target\"/>\n"
+=======
+"                        <a t-out=\"document.ir_attachment_id.name\" t-att-"
+"href=\"object.get_portal_url('/document/' + str(document.id))\" t-att-"
+"target=\"target\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <a t-out=\"document.ir_attachment_id.name\" t-att-"
 "href=\"object.get_portal_url('/document/' + str(document.id))\" t-att-"
@@ -13259,10 +13545,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13370,6 +13659,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13447,6 +13739,7 @@ msgid ""
 msgstr ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13711,6 +14004,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "        <t t-set=\"doc_name\" t-value=\"'quotation' if object.state in "
 "('draft', 'sent') else 'order'\"/>\n"
 "        お世話になっております。\n"
@@ -13724,6 +14019,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13792,6 +14090,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13907,7 +14208,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <a t-out=\"document.ir_attachment_id.name\" t-att-href=\"object.get_portal_url('/document/' + str(document.id))\" t-att-target=\"target\"/>\n"
+=======
+"                        <a t-out=\"document.ir_attachment_id.name\" t-att-"
+"href=\"object.get_portal_url('/document/' + str(document.id))\" t-att-"
+"target=\"target\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <a t-out=\"document.ir_attachment_id.name\" t-att-"
 "href=\"object.get_portal_url('/document/' + str(document.id))\" t-att-"
@@ -14124,10 +14431,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14235,6 +14545,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14354,6 +14667,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-out=\"doc_name or ''\">quotation</t> <strong t-out=\"object.name or ''\">S00052</strong>\n"
 "        <t t-if=\"object.origin\">\n"
 "            (with reference: <t t-out=\"object.origin or ''\">S00052</t> )\n"
@@ -14361,6 +14675,8 @@ msgid ""
 "        has been cancelled. Therefore, you should not be charged further for this order.\n"
 "        If any refund is necessary, this will be executed at best convenience.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14472,6 +14788,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14589,12 +14908,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-out=\"doc_name or ''\">見積書</t> <strong t-out=\"object.name or ''\">S00052</strong>\n"
 "        <t t-if=\"object.origin\">\n"
 "            (登録番号: <t t-out=\"object.origin or ''\">S00052</t> )\n"
 "        </t>\n"
 "        がキャンセルされました。そのため、このご注文に関して今後の請求は発生しません。\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14704,6 +15026,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14819,7 +15144,12 @@ msgid "<i class=\"fa fa-comment\"/> Contact us to get a new quotation."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-comment\"/> 新しくお見積が必要な場合はお知らせください。"
+=======
+msgstr ""
+"<i class=\"fa fa-comment\"/> 新しくお見積が必要な場合はお知らせください。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "<i class=\"fa fa-comment\"/> 新しくお見積が必要な場合はお知らせください。"
@@ -15028,9 +15358,12 @@ msgstr "<i class=\"fa fa-fw fa-clock-o\"/>支払待ち"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-fw fa-money me-1\" aria-label=\"Quotations\" role=\"img\"/>"
 msgstr "<i class=\"fa fa-fw fa-money me-1\" aria-label=\"Quotations\" role=\"img\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15137,6 +15470,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15344,12 +15680,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span invisible=\"1\" class=\"oe_inline text-danger\" title=\"The Down Payment is greater than the amount remaining to be invoiced.\">\n"
 "                            <i class=\"fa fa-warning\"/>\n"
 "                        </span>"
 msgstr ""
 "<span invisible=\"1\" class=\"oe_inline text-danger\" title=\"The Down Payment is greater than the amount remaining to be invoiced.\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15459,6 +15798,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15578,11 +15920,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span><b>Congratulations</b>, your first quotation is sent!<br>Check your email to validate the quote.\n"
 "        </span>"
 msgstr ""
 "<span><b>おめでとうございます</b>。最初の見積が送信されました!<br>メールを確認して見積を検証して下さい。\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15691,6 +16036,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15807,6 +16155,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <span id=\"display_invoice_alert\" invisible=\"not display_invoice_alert\">\n"
 "                            Draft invoices for this order will be cancelled. <br/>\n"
 "                        </span>"
@@ -15815,6 +16164,8 @@ msgstr ""
 "                        <span id=\"display_invoice_alert\" invisible=\"not display_invoice_alert\">\n"
 "                            このオーダの請求書ドラフトはキャンセルされます。 <br/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15928,6 +16279,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16018,6 +16372,7 @@ msgstr "<span>税金</span>"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "<span>Warning: This quote contains archived product(s)</span>"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16194,6 +16549,10 @@ msgstr ""
 msgstr ""
 "<span>警告:この見積もりには アーカイブプロダクトが含まれています。</span>"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"<span>警告:この見積もりには アーカイブプロダクトが含まれています。</span>"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
@@ -16202,6 +16561,7 @@ msgstr "<span>警告: このオーダは以下と重複している可能性が�
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17225,6 +17585,8 @@ msgstr "<strong class=\"d-block mt-3\">配送先住所</strong>"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid "<strong class=\"d-block mt-3\">Shipping Address</strong>"
 msgstr "<strong class=\"d-block mt-3\">配送先</strong>"
 
@@ -17285,6 +17647,9 @@ msgstr "<strong class=\"d-block mt-3\">配送先</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17417,6 +17782,7 @@ msgstr "<strong>販売担当者</strong>"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18016,6 +18382,8 @@ msgstr "<strong>配送先</strong>"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid "<strong>Signature</strong>"
 msgstr "<strong>署名</strong>"
 
@@ -18048,6 +18416,7 @@ msgstr "確認済みの販売注文には確認日が必要です。"
 #. odoo-python
 #: code:addons/sale/models/sale_order.py:0
 msgid "A line on these orders missing a product, you cannot confirm it."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18981,6 +19350,9 @@ msgstr "これらのオーダの明細にプロダクトが抜けている場合
 =======
 msgstr "これらのオーダの明細にプロダクトが抜けている場合、確定できません。"
 >>>>>>> upstream/18.0
+=======
+msgstr "これらのオーダの明細にプロダクトが抜けている場合、確定できません。"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
@@ -19028,7 +19400,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "販売オーダ明細のコンボ項目は、リンクされた明細の使用可能なコンボ項目の1つでなければなりません。"
+=======
+msgstr ""
+"販売オーダ明細のコンボ項目は、リンクされた明細の使用可能なコンボ項目の1つでな"
+"ければなりません。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "販売オーダ明細のコンボ項目は、リンクされた明細の使用可能なコンボ項目の1つでな"
@@ -19244,7 +19622,13 @@ msgid "A sale order line's product must match its combo item's product."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "販売オーダ明細のプロダクトは、そのコンボアイテムのプロダクトと一致する必要があります。"
+=======
+msgstr ""
+"販売オーダ明細のプロダクトは、そのコンボアイテムのプロダクトと一致する必要が"
+"あります。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "販売オーダ明細のプロダクトは、そのコンボアイテムのプロダクトと一致する必要が"
@@ -19573,6 +19957,7 @@ msgid "A section title"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "セクションタイトル"
 =======
 msgstr "セクション件名"
@@ -19678,6 +20063,9 @@ msgstr "セクション件名"
 >>>>>>> upstream/18.0
 =======
 msgstr "セクション件名"
+>>>>>>> upstream/18.0
+=======
+msgstr "セクションタイトル"
 >>>>>>> upstream/18.0
 =======
 msgstr "セクションタイトル"
@@ -20061,10 +20449,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "invoicing,according to their invoicing policy (based on ordered or delivered"
 " quantity)."
 msgstr "請求ポリシー(オーダ数量または配送済数量に基づく)に従い、請求書発行の準備が整った全オーダ明細と標準請求書を発行します。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20172,6 +20563,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20287,7 +20681,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "販売オーダにて梱包タイプを選択することで、梱包入数の倍数の数量を強制できるになります。"
+=======
+msgstr ""
+"販売オーダにて梱包タイプを選択することで、梱包入数の倍数の数量を強制できるに"
+"なります。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "販売オーダにて梱包タイプを選択することで、梱包入数の倍数の数量を強制できるに"
@@ -20705,7 +21105,11 @@ msgid "Accept & Pay Quotation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "見積書の受理と支払い"
+=======
+msgstr "見積書を承諾して支払"
+>>>>>>> upstream/18.0
 =======
 msgstr "見積書を承諾して支払"
 >>>>>>> upstream/18.0
@@ -21659,7 +22063,11 @@ msgid "Accept & Sign Quotation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "見積書の受理と署名"
+=======
+msgstr "見積書を承諾して署名"
+>>>>>>> upstream/18.0
 =======
 msgstr "見積書を承諾して署名"
 >>>>>>> upstream/18.0
@@ -22612,7 +23020,11 @@ msgid "Accept &amp; Pay"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "承認 &amp; 支払"
+=======
+msgstr "承諾して支払"
+>>>>>>> upstream/18.0
 =======
 msgstr "承諾して支払"
 >>>>>>> upstream/18.0
@@ -23565,7 +23977,11 @@ msgid "Accept &amp; Sign"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "承認して署名する"
+=======
+msgstr "承認して署名"
+>>>>>>> upstream/18.0
 =======
 msgstr "承認して署名"
 >>>>>>> upstream/18.0
@@ -24321,6 +24737,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "According to product configuration, the delivered quantity can be automatically computed by mechanism:\n"
 "  - Manual: the quantity is set manually on the line\n"
 "  - Analytic From expenses: the quantity is the quantity sum from posted expenses\n"
@@ -24332,6 +24749,8 @@ msgstr ""
 "  - 費用からの分析： 数量は計上された費用からの合計数量です\n"
 "  - タイムシート：数量は、この売上明細にリンクされたタスクに記録された時間の合計です\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24449,6 +24868,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24549,6 +24971,7 @@ msgstr "活動"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order__activity_exception_decoration
 msgid "Activity Exception Decoration"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24962,6 +25385,9 @@ msgstr "例外の活動を示す装飾"
 =======
 msgstr "例外の活動を示す装飾"
 >>>>>>> upstream/18.0
+=======
+msgstr "例外の活動を示す装飾"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model:ir.ui.menu,name:sale.sale_menu_config_activity_plan
@@ -25004,7 +25430,11 @@ msgid "Activity Type Icon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "活動種別アイコン"
+=======
+msgstr "活動タイプアイコン"
+>>>>>>> upstream/18.0
 =======
 msgstr "活動タイプアイコン"
 >>>>>>> upstream/18.0
@@ -25135,11 +25565,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                (e.g. \"Delivery scheduling\", \"Order Payment Follow-up\", ...)"
 msgstr ""
 "活動計画は、数回のクリックで活動リストを割当てます。\n"
 "                (例: \"配送スケジュール\"、 \"オーダ支払フォローアップ\"、 ...)"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25248,6 +25681,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25420,6 +25856,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Leave it empty if you don't want to share this document with sales customer.\n"
 "On quote: the document will be sent to and accessible by customers at any time.\n"
 "e.g. this option can be useful to share Product description files.\n"
@@ -25427,6 +25864,8 @@ msgid ""
 "e.g. this option can be useful to share User Manual or digital content bought on ecommerce. \n"
 "Inside quote: The document will be included in the pdf of the quotation and sale order between the header pages and the quote table. "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25540,6 +25979,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25615,6 +26057,7 @@ msgstr ""
 "見積時:ドキュメントは顧客に送信され、顧客はいつでもアクセスできます。\n"
 "例: このオプションはプロダクト説明ファイルを共有するのに便利です。\n"
 "オーダ確認時: ドキュメントは顧客に送信され、顧客はアクセスできます。\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25791,6 +26234,10 @@ msgstr ""
 "例: このオプションはユーザマニュアルやeコマースで購入したデジタルコンテンツを"
 "共有するのに便利です。\n"
 >>>>>>> upstream/18.0
+=======
+"例: このオプションはユーザマニュアルやeコマースで購入したデジタルコンテンツを"
+"共有するのに便利です。\n"
+>>>>>>> upstream/18.0
 "見積書内:ドキュメントはヘッダページと見積テーブルの間の見積書\n"
 "と販売オーダのPDFに含まれます。"
 
@@ -25820,6 +26267,7 @@ msgstr "金額"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order__amount_undiscounted
 msgid "Amount Before Discount"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26769,6 +27217,9 @@ msgstr "割引前の金額"
 =======
 msgstr "割引前の金額"
 >>>>>>> upstream/18.0
+=======
+msgstr "割引前の金額"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_crm_team__quotations_amount
@@ -26792,7 +27243,11 @@ msgid "Amount to invoice"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "請求金額"
+=======
+msgstr "請求予定金額"
+>>>>>>> upstream/18.0
 =======
 msgstr "請求予定金額"
 >>>>>>> upstream/18.0
@@ -26875,9 +27330,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            ordered quantities, and the invoicing policy is based on ordered quantities."
 msgstr "納品数量が当初のオーダ数量を上回り、かつ、請求基準がオーダ数量に基づく場合に、オーダはアップセルされます。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26985,6 +27443,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27065,7 +27526,11 @@ msgid "Analytic Distribution"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "分析用配分"
+=======
+msgstr "分析分配"
+>>>>>>> upstream/18.0
 =======
 msgstr "分析分配"
 >>>>>>> upstream/18.0
@@ -27096,11 +27561,16 @@ msgstr "経費からの分析"
 #. module: sale
 #: model:ir.model,name:sale.model_account_analytic_line
 msgid "Analytic Line"
+<<<<<<< HEAD
 msgstr "分析行"
+=======
+msgstr "分析明細"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model:ir.model,name:sale.model_account_analytic_applicability
 msgid "Analytic Plan's Applicabilities"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -27762,6 +28232,9 @@ msgstr "分析プランの適用範囲"
 =======
 msgstr "分析プランの適用範囲"
 >>>>>>> upstream/18.0
+=======
+msgstr "分析プランの適用範囲"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__analytic_precision
@@ -27771,7 +28244,11 @@ msgstr "分析精度"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__analytic_line_ids
 msgid "Analytic lines"
+<<<<<<< HEAD
 msgstr "分析行"
+=======
+msgstr "分析明細"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_line_wizard_form
@@ -27818,7 +28295,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "販売オーダ明細に手動値引を適用するか、価格表から計算された値引を表示します(価格表構成で有効化するオプション)。"
+=======
+msgstr ""
+"販売オーダ明細に手動値引を適用するか、価格表から計算された値引を表示します(価"
+"格表構成で有効化するオプション)。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "販売オーダ明細に手動値引を適用するか、価格表から計算された値引を表示します(価"
@@ -28052,7 +28535,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "例えば、サービス時間を前払いで販売する場合、オーダされた時間がすべて消費された時点で追加時間を販売することをOdooは推奨しています。"
+=======
+msgstr ""
+"例えば、サービス時間を前払いで販売する場合、オーダされた時間がすべて消費され"
+"た時点で追加時間を販売することをOdooは推奨しています。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "例えば、サービス時間を前払いで販売する場合、オーダされた時間がすべて消費され"
@@ -28281,7 +28770,11 @@ msgid "Author"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "著作者"
+=======
+msgstr "作成者"
+>>>>>>> upstream/18.0
 =======
 msgstr "作成者"
 >>>>>>> upstream/18.0
@@ -28395,7 +28888,11 @@ msgstr "銀行名"
 #. module: sale
 #: model:ir.model.fields.selection,name:sale.selection__payment_provider__so_reference_type__partner
 msgid "Based on Customer ID"
+<<<<<<< HEAD
 msgstr "クライアントIDに基づく"
+=======
+msgstr "Client IDに基づく"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model:ir.model.fields.selection,name:sale.selection__payment_provider__so_reference_type__so_name
@@ -28412,6 +28909,7 @@ msgstr "魅力的な見積で競合他社に打ち勝ちましょう!"
 #: model:ir.model.fields.selection,name:sale.selection__product_template__sale_line_warn__block
 #: model:ir.model.fields.selection,name:sale.selection__res_partner__sale_warn__block
 msgid "Blocking Message"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -29321,6 +29819,9 @@ msgstr "ブロッキングメッセージ"
 =======
 msgstr "ブロッキングメッセージ"
 >>>>>>> upstream/18.0
+=======
+msgstr "ブロッキングメッセージ"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_cancel__body_has_template_value
@@ -29368,7 +29869,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "オンライン決済やサイン、アップセル、優れた顧客ポータルで販売を促進します。"
+=======
+msgstr ""
+"オンライン決済やサイン、アップセル、優れた顧客ポータルで販売を促進します。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "オンライン決済やサイン、アップセル、優れた顧客ポータルで販売を促進します。"
@@ -29553,9 +30059,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "クーポン、プロモーション、ギフトカード、ロイヤリティなど、様々なキャンペーンで売上を向上させます。特定な条件を設定できます "
 "(プロダクト、顧客、最低購入数、期間)。リワードとしては、値引 (%又は値引額)や無料プロダクトを提供できます。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -29662,6 +30171,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -29852,9 +30364,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "   • For consumable or storable products, open the product, go to the 'General Information' tab and change the 'Invoicing Policy' from 'Delivered Quantities' to 'Ordered Quantities'.\n"
 "   • For services (and other products), change the 'Invoicing Policy' to 'Prepaid/Fixed Price'.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -29962,6 +30477,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -30074,9 +30592,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- 消耗品または保存可能なプロダクトの場合、プロダクトを開き、'一般情報'タブに移動し、'請求書発行ポリシー'を'納品済数量’から'オーダ済数量'に変更します。\n"
 "- サービス(およびその他のプロダクト)の場合は、'請求書発行方針'を'前払/固定価格'に変更します。\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -30183,6 +30704,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -30280,6 +30804,7 @@ msgid ""
 "Changing the company of an existing quotation might need some manual "
 "adjustments in the details of the lines. You might consider updating the "
 "prices."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30491,6 +31016,11 @@ msgstr ""
 "既存の見積書の会社を変更するには、明細の詳細を手作業で調整する必要になる場合"
 "があります。価格の更新を検討しましょう。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"既存の見積書の会社を変更するには、明細の詳細を手作業で調整する必要になる場合"
+"があります。価格の更新を検討しましょう。"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model_terms:ir.actions.act_window,help:sale.action_quotations
@@ -30508,6 +31038,7 @@ msgstr "ここをクリックして見積にプロダクトやサービスを追
 #. odoo-javascript
 #: code:addons/sale/static/src/xml/sales_team_progress_bar_template.xml:0
 msgid "Click to define an invoicing target"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -31405,6 +31936,9 @@ msgstr "クリックして請求目標を定義します"
 =======
 msgstr "クリックして請求目標を定義します"
 >>>>>>> upstream/18.0
+=======
+msgstr "クリックして請求目標を定義します"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
@@ -31459,6 +31993,7 @@ msgstr "会社ドキュメントレイアウト"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32382,6 +32917,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Compute shipping costs and ship with DHL<br/>\n"
 "                                    <strong>(please go to Home&gt;Apps to "
@@ -32424,6 +32961,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -32501,6 +33041,7 @@ msgstr "Easypostで配送費用計算し出荷"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -33424,6 +33965,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Compute shipping costs and ship with FedEx<br/>\n"
 "                                    <strong>(please go to Home&gt;Apps to "
@@ -33466,6 +34009,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -33553,6 +34099,7 @@ msgstr "送料を計算し、Starshipitで発送します。"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -34264,6 +34811,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Compute shipping costs and ship with UPS<br/>\n"
 "                                    <strong>(please go to Home&gt;Apps to "
@@ -34306,6 +34855,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -34380,6 +34932,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid ""
 "Compute shipping costs and ship with USPS<br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -34955,6 +35508,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                    <strong>(please go to Home&gt;Apps to "
 "install)</strong>"
 msgstr ""
@@ -34995,6 +35550,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -35097,6 +35655,7 @@ msgstr "プロダクトを設定する"
 #: code:addons/sale/static/src/js/product_configurator_dialog/product_configurator_dialog.xml:0
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Confirm"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -36030,6 +36589,9 @@ msgstr "確定"
 =======
 msgstr "確定"
 >>>>>>> upstream/18.0
+=======
+msgstr "確定"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_payment_link_wizard__confirmation_message
@@ -36051,7 +36613,11 @@ msgid "Consolidated Billing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "連結請求"
+=======
+msgstr "まとめ請求"
+>>>>>>> upstream/18.0
 =======
 msgstr "まとめ請求"
 >>>>>>> upstream/18.0
@@ -36124,7 +36690,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "単位間の変換は同じカテゴリに属している場合のみ可能です。変換は比率に基づいて行われます。"
+=======
+msgstr ""
+"単位間の変換は同じカテゴリに属している場合のみ可能です。変換は比率に基づいて"
+"行われます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "単位間の変換は同じカテゴリに属している場合のみ可能です。変換は比率に基づいて"
@@ -36400,7 +36972,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "請求書を作成したり、支払登録したり、顧客とのコミュニケーションを管理したりします。"
+=======
+msgstr ""
+"請求書を作成したり、支払登録したり、顧客とのコミュニケーションを管理したりし"
+"ます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "請求書を作成したり、支払登録したり、顧客とのコミュニケーションを管理したりし"
@@ -36580,6 +37158,7 @@ msgstr ""
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__service_tracking
 msgid "Create on Order"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -36961,12 +37540,16 @@ msgstr "オーダ時に作成"
 =======
 msgstr "オーダ時に作成"
 >>>>>>> upstream/18.0
+=======
+msgstr "オーダ時に作成"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_advance_payment_inv__consolidated_billing
 msgid ""
 "Create one invoice for all orders related to same customer and same "
 "invoicing address"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -37086,6 +37669,10 @@ msgstr "同じ顧客、同じ請求先に関連する全てのオーダに対し
 >>>>>>> upstream/18.0
 =======
 msgstr "同じ顧客、同じ請求先に関連する全てのオーダに対して1つの請求書を作成します。"
+>>>>>>> upstream/18.0
+=======
+msgstr ""
+"同じ顧客、同じ請求先に関連する全てのオーダに対して1つの請求書を作成します。"
 >>>>>>> upstream/18.0
 =======
 msgstr ""
@@ -37513,6 +38100,7 @@ msgstr "顧客"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -38033,6 +38621,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "DHL Connector"
 msgstr "DHLコネクタ"
@@ -38114,6 +38704,9 @@ msgstr "DHLコネクタ"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -38348,7 +38941,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "この会社で使用されるプロダクトおよび顧客請求書に記載される販売価格に消費税が含まれるかどうかのデフォルト設定。"
+=======
+msgstr ""
+"この会社で使用されるプロダクトおよび顧客請求書に記載される販売価格に消費税が"
+"含まれるかどうかのデフォルト設定。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "この会社で使用されるプロダクトおよび顧客請求書に記載される販売価格に消費税が"
@@ -38565,7 +39164,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "見積が有効で、顧客が受諾可能なデフォルト期間。デフォルトはオーダまたはテンプレートごとに変更できます。"
+=======
+msgstr ""
+"見積が有効で、顧客が受諾可能なデフォルト期間。デフォルトはオーダまたはテンプ"
+"レートごとに変更できます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "見積が有効で、顧客が受諾可能なデフォルト期間。デフォルトはオーダまたはテンプ"
@@ -38827,7 +39432,11 @@ msgid "Delivery Address"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "配送先住所"
+=======
+msgstr "配送先"
+>>>>>>> upstream/18.0
 =======
 msgstr "配送先"
 >>>>>>> upstream/18.0
@@ -39011,7 +39620,10 @@ msgstr "配送日"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -39035,6 +39647,9 @@ msgstr "納品予定日:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -39100,7 +39715,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "サービスプロダクトの場合、オーダ明細の最小リードタイムから計算された、顧客に約束できる納期。配送の場合、オーダの配送ポリシーが考慮され、オーダ明細の最小または最大のリードタイムが使用されます。"
+=======
+"サービスプロダクトの場合、オーダ明細の最小リードタイムから計算された、顧客に"
+"約束できる納期。配送の場合、オーダの配送ポリシーが考慮され、オーダ明細の最小"
+"または最大のリードタイムが使用されます。"
+>>>>>>> upstream/18.0
 =======
 "サービスプロダクトの場合、オーダ明細の最小リードタイムから計算された、顧客に"
 "約束できる納期。配送の場合、オーダの配送ポリシーが考慮され、オーダ明細の最小"
@@ -39545,7 +40166,11 @@ msgid "Discount"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "値引"
+=======
+msgstr "割引"
+>>>>>>> upstream/18.0
 =======
 msgstr "割引"
 >>>>>>> upstream/18.0
@@ -40498,7 +41123,11 @@ msgid "Discount %"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "値引%"
+=======
+msgstr "割引%"
+>>>>>>> upstream/18.0
 =======
 msgstr "割引%"
 >>>>>>> upstream/18.0
@@ -41452,7 +42081,11 @@ msgid "Discount %(percent)s%%"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "値引 %(percent)s%%"
+=======
+msgstr "割引 %(percent)s%%"
+>>>>>>> upstream/18.0
 =======
 msgstr "割引 %(percent)s%%"
 >>>>>>> upstream/18.0
@@ -42406,7 +43039,11 @@ msgid "Discount %(percent)s%%- On products with the following taxes %(taxes)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "値引 %(percent)s%%- 対象:以下の税のプロダクト %(taxes)s"
+=======
+msgstr "割引 %(percent)s%%- 対象:以下の税のプロダクト %(taxes)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "割引 %(percent)s%%- 対象:以下の税のプロダクト %(taxes)s"
 >>>>>>> upstream/18.0
@@ -43359,7 +43996,11 @@ msgid "Discount (%)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "値引 (%)"
+=======
+msgstr "割引 (%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "割引 (%)"
 >>>>>>> upstream/18.0
@@ -44312,7 +44953,11 @@ msgid "Discount Amount"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "値引額"
+=======
+msgstr "割引額"
+>>>>>>> upstream/18.0
 =======
 msgstr "割引額"
 >>>>>>> upstream/18.0
@@ -45265,7 +45910,11 @@ msgid "Discount Product"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "値引プロダクト"
+=======
+msgstr "割引プロダクト"
+>>>>>>> upstream/18.0
 =======
 msgstr "割引プロダクト"
 >>>>>>> upstream/18.0
@@ -46218,7 +46867,11 @@ msgid "Discount Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "値引タイプ"
+=======
+msgstr "割引タイプ"
+>>>>>>> upstream/18.0
 =======
 msgstr "割引タイプ"
 >>>>>>> upstream/18.0
@@ -47171,7 +47824,11 @@ msgid "Discount Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "値引ウィザード"
+=======
+msgstr "割引ウィザード"
+>>>>>>> upstream/18.0
 =======
 msgstr "割引ウィザード"
 >>>>>>> upstream/18.0
@@ -48124,7 +48781,11 @@ msgid "Discount on lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "明細の値引"
+=======
+msgstr "明細の割引"
+>>>>>>> upstream/18.0
 =======
 msgstr "明細の割引"
 >>>>>>> upstream/18.0
@@ -49083,7 +49744,11 @@ msgid "Discount:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "値引:"
+=======
+msgstr "割引:"
+>>>>>>> upstream/18.0
 =======
 msgstr "割引:"
 >>>>>>> upstream/18.0
@@ -50036,7 +50701,11 @@ msgid "Discounts"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "値引"
+=======
+msgstr "割引"
+>>>>>>> upstream/18.0
 =======
 msgstr "割引"
 >>>>>>> upstream/18.0
@@ -50932,7 +51601,10 @@ msgstr "分配分析勘定"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -51385,6 +52057,9 @@ msgstr "ドキュメント"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -51798,7 +52473,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "前受金は、受注から請求書を作成するときに行われます。受注を複製する場合、これらはコピーされません。"
+=======
+msgstr ""
+"前受金は、受注から請求書を作成するときに行われます。受注を複製する場合、これ"
+"らはコピーされません。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "前受金は、受注から請求書を作成するときに行われます。受注を複製する場合、これ"
@@ -52202,7 +52883,10 @@ msgstr "メール"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -52754,6 +53438,9 @@ msgstr "メール作成アシスタント"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -53169,7 +53856,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "オーダとして添付 '%(file_name)s' インポート中のエラー (デコーダ=%(decoder)s)"
+=======
+msgstr ""
+"オーダとして添付 '%(file_name)s' インポート中のエラー (デコーダ=%(decoder)s)"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "オーダとして添付 '%(file_name)s' インポート中のエラー (デコーダ=%(decoder)s)"
@@ -53504,6 +54196,10 @@ msgstr "%sの追加明細"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -54001,11 +54697,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "customers or sales orders/invoices.The default value comes from the "
 "customer."
 msgstr ""
 "会計ポジションは、特定の顧客、または特定の販売オーダ/請求書に、税金と勘定を調整するために使用されます。デフォルト値は顧客から取得されます。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -54112,6 +54811,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -54219,6 +54921,7 @@ msgid ""
 "customer. The search tool can also be used to personalise your Invoices "
 "reports and so, match this analysis to your needs."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -54431,6 +55134,11 @@ msgstr ""
 "ルを使用して請求書のレポートをパーソナライズすることもできます。この分析を要"
 "件に合わせることができます。"
 >>>>>>> upstream/18.0
+=======
+"このレポートから、お客様に請求される金額の概要を知ることができます。 検索ツー"
+"ルを使用して請求書のレポートをパーソナライズすることもできます。この分析を要"
+"件に合わせることができます。"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
@@ -54465,7 +55173,11 @@ msgid "Fully Invoiced"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "完全請求済"
+=======
+msgstr "全額請求済"
+>>>>>>> upstream/18.0
 =======
 msgstr "全額請求済"
 >>>>>>> upstream/18.0
@@ -54582,8 +55294,12 @@ msgstr "支払用リンクを生成"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Generate the invoice automatically when the online payment is confirmed"
+=======
+msgid "Generate the invoice automatically when the online payment is confirmed"
+>>>>>>> upstream/18.0
 =======
 msgid "Generate the invoice automatically when the online payment is confirmed"
 >>>>>>> upstream/18.0
@@ -54942,7 +55658,11 @@ msgid "Global Discount"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "全体値引"
+=======
+msgstr "全体割引"
+>>>>>>> upstream/18.0
 =======
 msgstr "全体割引"
 >>>>>>> upstream/18.0
@@ -55945,6 +56665,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "設定した場合には、販売オーダは、このジャーナルに請求されます。 それ以外の場合は、最も低い順序の販売ジャーナルが使用されます。"
 =======
 msgstr "設定した場合には、販売オーダは、この仕訳帳に請求されます。 それ以外の場合は、最も低い順序の販売仕訳帳が使用されます。"
@@ -56556,12 +57277,18 @@ msgstr ""
 "設定した場合には、販売オーダは、この仕訳帳に請求されます。 それ以外の場合は、"
 "最も低い順序の販売仕訳帳が使用されます。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"設定した場合には、販売オーダは、この仕訳帳に請求されます。 それ以外の場合は、"
+"最も低い順序の販売仕訳帳が使用されます。"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid ""
 "If the sale is locked, you can not modify it anymore. However, you will "
 "still be able to invoice or deliver."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -56773,6 +57500,10 @@ msgstr ""
 "販売がロックされている場合は、これ以上修正することはできません。 ただし、引き"
 "続き請求や配達が可能です。"
 >>>>>>> upstream/18.0
+=======
+msgstr "販売がロックされている場合は、これ以上編集できません。ただし、請求や出荷は引"
+"き続き可能です。"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_product_packaging__sales
@@ -56814,6 +57545,7 @@ msgstr "税込)"
 #. odoo-python
 #: code:addons/sale/wizard/sale_order_discount.py:0
 msgid "Invalid discount amount"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -57763,6 +58495,9 @@ msgstr "無効な割引額"
 =======
 msgstr "無効な割引額"
 >>>>>>> upstream/18.0
+=======
+msgstr "無効な割引額"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #. odoo-python
@@ -57841,7 +58576,11 @@ msgid "Invoice Address"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "請求先住所"
+=======
+msgstr "請求先"
+>>>>>>> upstream/18.0
 =======
 msgstr "請求先"
 >>>>>>> upstream/18.0
@@ -58107,7 +58846,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "今月の請求書収入。これは、販売チャネルが今月請求した金額です。これは、カンバンビューでの現在の収益と目標収益の進行率を計算するために使用されます。"
+=======
+"今月の請求書収入。これは、販売チャネルが今月請求した金額です。これは、カンバ"
+"ンビューでの現在の収益と目標収益の進行率を計算するために使用されます。"
+>>>>>>> upstream/18.0
 =======
 "今月の請求書収入。これは、販売チャネルが今月請求した金額です。これは、カンバ"
 "ンビューでの現在の収益と目標収益の進行率を計算するために使用されます。"
@@ -58375,7 +59119,11 @@ msgid "Invoicing Address"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "請求住所"
+=======
+msgstr "請求先"
+>>>>>>> upstream/18.0
 =======
 msgstr "請求先"
 >>>>>>> upstream/18.0
@@ -58555,6 +59303,7 @@ msgstr "請求仕訳帳"
 #: model:ir.model.fields,field_description:sale.field_product_template__invoice_policy
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__default_invoice_policy
 msgid "Invoicing Policy"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -59476,10 +60225,14 @@ msgstr "請求ポリシー"
 =======
 msgstr "請求ポリシー"
 >>>>>>> upstream/18.0
+=======
+msgstr "請求ポリシー"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_crm_team__invoiced_target
 msgid "Invoicing Target"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -60377,6 +61130,9 @@ msgstr "請求目標"
 =======
 msgstr "請求目標"
 >>>>>>> upstream/18.0
+=======
+msgstr "請求目標"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
@@ -60438,7 +61194,11 @@ msgid "Invoicing and Shipping Address"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "請求および配送先住所"
+=======
+msgstr "請求および配送先"
+>>>>>>> upstream/18.0
 =======
 msgstr "請求および配送先"
 >>>>>>> upstream/18.0
@@ -60685,8 +61445,12 @@ msgstr "プロダクト設定可能か？"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Is true if the sales order line comes from an expense or a vendor bills"
+=======
+msgid "Is true if the sales order line comes from an expense or a vendor bills"
+>>>>>>> upstream/18.0
 =======
 msgid "Is true if the sales order line comes from an expense or a vendor bills"
 >>>>>>> upstream/18.0
@@ -60951,7 +61715,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "見積書にヘッダーページ、プロダクト説明、フッターページを追加して、魅力的な見積書を作成しましょう。"
+=======
+msgstr ""
+"見積書にヘッダーページ、プロダクト説明、フッターページを追加して、魅力的な見"
+"積書を作成しましょう。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "見積書にヘッダーページ、プロダクト説明、フッターページを追加して、魅力的な見"
@@ -61166,7 +61936,12 @@ msgid "Manage Promotions, Coupons, Loyalty cards, Gift cards & eWallet"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "プロモーション、クーポン、ロイヤリティカード、ギフトカードや電子財布を管理"
+=======
+msgstr ""
+"プロモーション、クーポン、ロイヤリティカード、ギフトカードや電子財布を管理"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "プロモーション、クーポン、ロイヤリティカード、ギフトカードや電子財布を管理"
@@ -61367,6 +62142,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Manually set quantities on order: Invoice based on the manually entered quantity, without creating an analytic account.\n"
 "Timesheets on contract: Invoice based on the tracked hours on the related timesheet.\n"
 "Create a task and track hours: Create a task on the sales order validation and track the work hours."
@@ -61375,6 +62151,8 @@ msgstr ""
 "契約上のタイムシート:関連するタイムシートで追跡対象時間に基づく請求書。\n"
 "タスクを作成して時間を追跡する:販売注文の検証でタスクを作成し、労働時間を追跡します。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -61489,6 +62267,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -61721,7 +62502,11 @@ msgid "Medium"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "中"
+=======
+msgstr "媒体"
+>>>>>>> upstream/18.0
 =======
 msgstr "媒体"
 >>>>>>> upstream/18.0
@@ -62397,11 +63182,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Once a sales order is confirmed, you can't remove one of its lines (we need to track if something gets invoiced or delivered).\n"
 "                Set the quantity to 0 instead."
 msgstr ""
 "販売オーダが確定すると、その行の1つを削除することはできません（何かが請求されたか、納品されたかを追跡する必要があります）。\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -62510,6 +63298,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -62621,10 +63412,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Once the quotation is confirmed by the customer, it becomes a sales "
 "order.<br> You will be able to create an invoice and collect the payment."
 msgstr "見積を顧客が承認すると、販売オーダになります。<br>そこから請求書を作成し、支払を受けることができます。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -62732,6 +63526,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -62842,7 +63639,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "見積が確定すると、受注となります。<br>請求書を作成し、支払いを回収することができます。"
+=======
+msgstr ""
+"見積が確定すると、受注となります。<br>請求書を作成し、支払いを回収することが"
+"できます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "見積が確定すると、受注となります。<br>請求書を作成し、支払いを回収することが"
@@ -63129,7 +63932,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "オプションプロダクトは、*カートに入れる*(クロスセル戦略、たとえばコンピュータの場合：保証、ソフトウェアなど)をクリックするたびに表示されます。"
+=======
+"オプションプロダクトは、*カートに入れる*(クロスセル戦略、たとえばコンピュータ"
+"の場合：保証、ソフトウェアなど)をクリックするたびに表示されます。"
+>>>>>>> upstream/18.0
 =======
 "オプションプロダクトは、*カートに入れる*(クロスセル戦略、たとえばコンピュータ"
 "の場合：保証、ソフトウェアなど)をクリックするたびに表示されます。"
@@ -63311,6 +64119,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "a placeholder expression that provides the appropriate language, e.g. {{ "
 "object.partner_id.lang }}."
 msgstr ""
@@ -63318,6 +64127,8 @@ msgstr ""
 "(ISOコード)。セットしてない場合は、英語版が使われます。これは通常、適切な言語を提供するプレースホルダ式であります、例: {{ "
 "object.partner_id.lang }}"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -63426,6 +64237,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -63579,7 +64393,11 @@ msgid "Order Date: Last 365 Days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "オーダ日: 過去365日"
+=======
+msgstr "オーダ日: 直近365日"
+>>>>>>> upstream/18.0
 =======
 msgstr "オーダ日: 直近365日"
 >>>>>>> upstream/18.0
@@ -63793,7 +64611,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "オーダ数量:顧客がオーダした請求書の数量。配送済数量:顧客に納品された請求書の数量。"
+=======
+msgstr ""
+"オーダ数量:顧客がオーダした請求書の数量。配送済数量:顧客に納品された請求書の"
+"数量。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "オーダ数量:顧客がオーダした請求書の数量。配送済数量:顧客に納品された請求書の"
@@ -64025,7 +64849,11 @@ msgid "PRO-FORMA Invoice"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "見積送状"
+=======
+msgstr "仮請求書"
+>>>>>>> upstream/18.0
 =======
 msgstr "仮請求書"
 >>>>>>> upstream/18.0
@@ -64215,7 +65043,11 @@ msgid "Pay Now"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "今支払う"
+=======
+msgstr "今すぐ支払う"
+>>>>>>> upstream/18.0
 =======
 msgstr "今すぐ支払う"
 >>>>>>> upstream/18.0
@@ -64839,7 +65671,11 @@ msgid "Payment Transaction"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "決済トランザクション"
+=======
+msgstr "支払取引"
+>>>>>>> upstream/18.0
 =======
 msgstr "支払取引"
 >>>>>>> upstream/18.0
@@ -65271,12 +66107,20 @@ msgstr "価格設定"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__group_proforma_sales
 msgid "Pro-Forma Invoice"
+<<<<<<< HEAD
 msgstr "見積送状"
+=======
+msgstr "仮請求書"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
 msgid "Pro-Forma Invoice #"
+<<<<<<< HEAD
 msgstr "見積送状番号"
+=======
+msgstr "仮請求書番号"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model:res.groups,name:sale.group_proforma_sales
@@ -65619,7 +66463,11 @@ msgid "Qty Delivered"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "配送済数量"
+=======
+msgstr "納品済数量"
+>>>>>>> upstream/18.0
 =======
 msgstr "納品済数量"
 >>>>>>> upstream/18.0
@@ -66450,7 +67298,11 @@ msgid "Qty To Deliver"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "配送予定数量"
+=======
+msgstr "未納品数量"
+>>>>>>> upstream/18.0
 =======
 msgstr "未納品数量"
 >>>>>>> upstream/18.0
@@ -67304,6 +68156,7 @@ msgid "Qty To Invoice"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "未請求数量"
 =======
 msgstr "請求予定数量"
@@ -67403,6 +68256,9 @@ msgstr "請求予定数量"
 >>>>>>> upstream/18.0
 =======
 msgstr "請求予定数量"
+>>>>>>> upstream/18.0
+=======
+msgstr "未請求数量"
 >>>>>>> upstream/18.0
 =======
 msgstr "未請求数量"
@@ -68224,7 +69080,11 @@ msgid "Quantities to invoice from sales orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "販売オーダからの請求対象数量"
+=======
+msgstr "販売オーダからの未請求数量"
+>>>>>>> upstream/18.0
 =======
 msgstr "販売オーダからの未請求数量"
 >>>>>>> upstream/18.0
@@ -69055,7 +69915,11 @@ msgid "Quantity To Invoice"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "請求する数量"
+=======
+msgstr "未請求数量"
+>>>>>>> upstream/18.0
 =======
 msgstr "未請求数量"
 >>>>>>> upstream/18.0
@@ -69927,7 +70791,11 @@ msgid "Quotation confirmed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "見積確認済"
+=======
+msgstr "見積が確定されました"
+>>>>>>> upstream/18.0
 =======
 msgstr "見積が確定されました"
 >>>>>>> upstream/18.0
@@ -70792,7 +71660,11 @@ msgid "Quotations to review"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "要確認見積書"
+=======
+msgstr "要確認の見積"
+>>>>>>> upstream/18.0
 =======
 msgstr "要確認の見積"
 >>>>>>> upstream/18.0
@@ -71492,7 +72364,11 @@ msgid "Re-Invoice Costs"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "経費を再請求する"
+=======
+msgstr "経費再請求"
+>>>>>>> upstream/18.0
 =======
 msgstr "経費再請求"
 >>>>>>> upstream/18.0
@@ -71803,6 +72679,7 @@ msgstr "オーダを確定するために、顧客にオンライン署名を依
 msgid ""
 "Request a payment to confirm orders, in full (100%) or partial. The default "
 "can be changed per order or template."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -72806,6 +73683,11 @@ msgstr ""
 "オーダを確定するには、全額(100％)または一部の支払いを要求します。デフォルト値"
 "はオーダまたはテンプレートごとに変更できます。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"オーダを確定するには、全額(100％)または一部の支払いを要求します。デフォルト値"
+"はオーダまたはテンプレートごとに変更できます。"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
@@ -72847,7 +73729,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "オーダを有効にするために、顧客に見積に署名するよう依頼します。デフォルトはオーダまたはテンプレートごとに変更できます。"
+=======
+msgstr ""
+"オーダを有効にするために、顧客に見積に署名するよう依頼します。デフォルトは"
+"オーダまたはテンプレートごとに変更できます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "オーダを有効にするために、顧客に見積に署名するよう依頼します。デフォルトは"
@@ -73163,7 +74051,11 @@ msgid "SMS Delivery error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "SMS配信エラー"
+=======
+msgstr "SMS送信エラー"
+>>>>>>> upstream/18.0
 =======
 msgstr "SMS送信エラー"
 >>>>>>> upstream/18.0
@@ -73773,6 +74665,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "顧客に請求するために、使用した時間を追加する販売オーダ項目。タイムシートエントリーを請求不可にするには、販売オーダ項目を削除して下さい。"
 =======
 msgstr ""
@@ -73942,6 +74835,11 @@ msgstr ""
 "顧客に請求するために、使用した時間を追加する販売オーダ項目。タイムシートエン"
 "トリーを非請求対象にするには、販売オーダ項目を削除して下さい。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"顧客に請求するために、使用した時間を追加する販売オーダ項目。タイムシートエン"
+"トリーを非請求対象にするには、販売オーダ項目を削除して下さい。"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model:ir.model.fields.selection,name:sale.selection__product_template__expense_policy__sales_price
@@ -73990,6 +74888,7 @@ msgid "Salespersons"
 msgstr "販売担当者"
 
 #. module: sale
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -74567,6 +75466,8 @@ msgstr "スケジュール済メッセージ"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:sale.model_mail_scheduled_message
 msgid "Scheduled Message"
 msgstr "送信予約済メッセージ"
@@ -74745,6 +75646,9 @@ msgstr "送信予約済メッセージ"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -75174,7 +76078,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "警告オプションを選択するとユーザにメッセージを通知します。メッセージをブロックを選択するとメッセージとともに例外が発生しその流れがブロックされます。メッセージは次の項目で記述する必要があります。"
+=======
+"警告オプションを選択するとユーザにメッセージを通知します。メッセージをブロッ"
+"クを選択するとメッセージとともに例外が発生しその流れがブロックされます。メッ"
+"セージは次の項目で記述する必要があります。"
+>>>>>>> upstream/18.0
 =======
 "警告オプションを選択するとユーザにメッセージを通知します。メッセージをブロッ"
 "クを選択するとメッセージとともに例外が発生しその流れがブロックされます。メッ"
@@ -75369,7 +76279,11 @@ msgstr "属性（サイズ、色など）を使用してプロダクトのバリ
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Send PRO-FORMA Invoice"
+<<<<<<< HEAD
 msgstr "見積送状を送付"
+=======
+msgstr "仮請求書を送付"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
@@ -75403,6 +76317,7 @@ msgid ""
 "content about a product (instructions, rules, links, media, etc.). Create "
 "and set the email template from the product detail form (in Accounting tab)."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -75614,6 +76529,11 @@ msgstr ""
 "シェアしたい場合、メール配信が役立ちます。プロダクト詳細フォーム（会計タブ）"
 "から、Eメールテンプレートを作成してください。"
 >>>>>>> upstream/18.0
+=======
+"プロダクトに関する特定の情報や内容（取扱説明、ルール、リンク、メディア等）を"
+"シェアしたい場合、メール配信が役立ちます。プロダクト詳細フォーム（会計タブ）"
+"から、Eメールテンプレートを作成してください。"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model:mail.template,description:sale.mail_template_sale_cancellation
@@ -75663,8 +76583,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Sent to customers when a payment is received but doesn't immediately confirm"
 " their order"
+=======
+"Sent to customers when a payment is received but doesn't immediately confirm "
+"their order"
+>>>>>>> upstream/18.0
 =======
 "Sent to customers when a payment is received but doesn't immediately confirm "
 "their order"
@@ -75949,7 +76874,11 @@ msgid "Sold in the last 365 days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "過去365日で販売"
+=======
+msgstr "直近365日で販売"
+>>>>>>> upstream/18.0
 =======
 msgstr "直近365日で販売"
 >>>>>>> upstream/18.0
@@ -76126,7 +77055,11 @@ msgid "Source"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ソース"
+=======
+msgstr "参照元"
+>>>>>>> upstream/18.0
 =======
 msgstr "参照元"
 >>>>>>> upstream/18.0
@@ -76243,7 +77176,11 @@ msgid "Source Document"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "参照元"
+=======
+msgstr "参照元ドキュメント"
+>>>>>>> upstream/18.0
 =======
 msgstr "参照元ドキュメント"
 >>>>>>> upstream/18.0
@@ -76383,7 +77320,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "遅延: 期限が既に過ぎています\n"
+=======
+"期限超過：期限日がすでに過ぎています\n"
+>>>>>>> upstream/18.0
 =======
 "期限超過：期限日がすでに過ぎています\n"
 >>>>>>> upstream/18.0
@@ -76542,7 +77483,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "オンライン支払フォームを通じて行われた取引のうち、 '完了' または '認証済' の状態にあり、このオーダにリンクされている取引の合計。"
+=======
+msgstr ""
+"オンライン支払フォームを通じて行われた取引のうち、 '完了' または '認証済' の"
+"状態にあり、このオーダにリンクされている取引の合計。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "オンライン支払フォームを通じて行われた取引のうち、 '完了' または '認証済' の"
@@ -76831,8 +77778,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "%(team_name)sチームには %(sale_order_count)sの有効な販売オーダがあります。 "
 "それらを取消するか、代わりにチームをアーカイブすることを検討して下さい。"
+=======
+"%(team_name)sチームには %(sale_order_count)sの有効な販売オーダがあります。 そ"
+"れらを取消するか、代わりにチームをアーカイブすることを検討して下さい。"
+>>>>>>> upstream/18.0
 =======
 "%(team_name)sチームには %(sale_order_count)sの有効な販売オーダがあります。 そ"
 "れらを取消するか、代わりにチームをアーカイブすることを検討して下さい。"
@@ -77019,7 +77971,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "なぜこの見積を拒否しているのかを教えてください。これは私たちのサービスを改善するのに役立ちます。"
+=======
+msgstr ""
+"なぜこの見積を拒否しているのかを教えてください。これは私たちのサービスを改善"
+"するのに役立ちます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "なぜこの見積を拒否しているのかを教えてください。これは私たちのサービスを改善"
@@ -77271,7 +78229,11 @@ msgid "Terms and conditions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "諸条件"
+=======
+msgstr "取引条件"
+>>>>>>> upstream/18.0
 =======
 msgstr "取引条件"
 >>>>>>> upstream/18.0
@@ -77500,7 +78462,11 @@ msgid "Terms and conditions..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "諸条件..."
+=======
+msgstr "取引条件..."
+>>>>>>> upstream/18.0
 =======
 msgstr "取引条件..."
 >>>>>>> upstream/18.0
@@ -77718,10 +78684,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The Sales Order %(order)s to be reinvoiced is cancelled. You cannot register"
 " an expense on a cancelled Sales Order."
 msgstr "再請求予定の販売オーダ %(order)s が取消されました。取消済販売オーダに経費を登録することはできません。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -77829,6 +78798,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -77940,7 +78912,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "再請求予定の販売オーダ %(order)s は現在ロックされています。ロックされている販売オーダに経費を登録することはできません。"
+=======
+msgstr ""
+"再請求予定の販売オーダ %(order)s は現在ロックされています。ロックされている販"
+"売オーダに経費を登録することはできません。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "再請求予定の販売オーダ %(order)s は現在ロックされています。ロックされている販"
@@ -78158,7 +79136,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "再請求予定の販売オーダ %(order)s は経費を登録する前に検証される必要があります。"
+=======
+msgstr ""
+"再請求予定の販売オーダ %(order)s は経費を登録する前に検証される必要がありま"
+"す。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "再請求予定の販売オーダ %(order)s は経費を登録する前に検証される必要がありま"
@@ -78406,6 +79390,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The following products cannot be restricted to the company %(company)s because they have already been used in quotations or sales orders in another company:\n"
 "%(used_products)s\n"
 "You can archive these products and recreate them with your company restriction instead, or leave them as shared product."
@@ -78414,6 +79399,8 @@ msgstr ""
 "%(used_products)s\n"
 "これらのプロダクトをアーカイブして、代わりに会社の制限付きで再作成するか、共有プロダクトのままにすることができます。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -78528,6 +79515,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -78636,6 +79626,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The invoice is generated automatically and available in the customer portal when the transaction is confirmed by the payment provider.\n"
 "The invoice is marked as paid and the payment is registered in the payment journal defined in the configuration of the payment provider.\n"
 "This mode is advised if you issue the final invoice at the order and not after the delivery."
@@ -78643,6 +79634,8 @@ msgstr ""
 "請求書は自動的に生成され決済プロバイダが取引を確認すると、請求書が自動的に作成され、カスタマーポータルで利用できます。\n"
 "請求書は支払済としてマークされ、支払は決済プロバイダの設定で定義された支払仕訳帳に登録されます。\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -78756,6 +79749,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -78865,10 +79861,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The margin is computed as the sum of product sales prices minus the cost set"
 " in their detail form."
 msgstr "マージンは、製品の販売価格の合計から詳細形式で設定されたコストを差し引いたものとして計算されます。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -78976,6 +79975,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -79084,7 +80086,12 @@ msgid "The new invoice will deduct draft invoices linked to this sale order."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "この販売オーダにリンクした請求書ドラフトから新しい請求書が控除されます。"
+=======
+msgstr ""
+"この販売オーダにリンクした請求書ドラフトから新しい請求書が控除されます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "この販売オーダにリンクした請求書ドラフトから新しい請求書が控除されます。"
@@ -79267,7 +80274,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "選択されたコンボ項目の数は、利用可能なコンボ選択肢の数と一致しなければなりません。"
+=======
+msgstr ""
+"選択されたコンボ項目の数は、利用可能なコンボ選択肢の数と一致しなければなりま"
+"せん。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "選択されたコンボ項目の数は、利用可能なコンボ選択肢の数と一致しなければなりま"
@@ -79516,7 +80529,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "オーダを確定するために顧客が支払わなければならない必要金額のパーセンテージ。"
+=======
+msgstr ""
+"オーダを確定するために顧客が支払わなければならない必要金額のパーセンテージ。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "オーダを確定するために顧客が支払わなければならない必要金額のパーセンテージ。"
@@ -79697,7 +80715,12 @@ msgid "The percentage of the amount needed to be paid to confirm quotations."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "見積書を確定するために顧客が支払わなければならない必要金額のパーセンテージ。"
+=======
+msgstr ""
+"見積書を確定するために顧客が支払わなければならない必要金額のパーセンテージ。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "見積書を確定するために顧客が支払わなければならない必要金額のパーセンテージ。"
@@ -79860,7 +80883,10 @@ msgstr "指定されたパラメータが無効です。"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -79886,6 +80912,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -79960,7 +80989,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "この会社向けに設定された割引プロダクトはまだないようです。明細ごとの割引を利用するか、または管理者に割引を付与するよう依頼して下さい。"
+=======
+msgstr ""
+"この会社向けに設定された割引プロダクトはまだないようです。明細ごとの割引を利"
+"用するか、または管理者に割引を付与するよう依頼して下さい。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "この会社向けに設定された割引プロダクトはまだないようです。明細ごとの割引を利"
@@ -80182,7 +81217,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "このデフォルト値は、作成されたすべての新製品に適用されます。これは、製品詳細フォームで変更できます。"
+=======
+msgstr ""
+"このデフォルト値は、作成されたすべての新製品に適用されます。これは、製品詳細"
+"フォームで変更できます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "このデフォルト値は、作成されたすべての新製品に適用されます。これは、製品詳細"
@@ -80399,10 +81440,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This is a name that helps you keep track of your different campaign efforts,"
 " e.g. Fall_Drive, Christmas_Special"
 msgstr "これは、Fall_Drive、Christmas_Specialなど、さまざまなキャンペーンの取り組みを追跡するのに役立つ名前です。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -80510,6 +81554,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -80585,6 +81632,7 @@ msgstr ""
 msgid ""
 "This is the delivery date promised to the customer. If set, the delivery "
 "order will be scheduled based on this date rather than product lead times."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -80796,6 +81844,10 @@ msgstr ""
 "これは、お客様に約束された納期です。設定されている場合、配送オーダは、製品の"
 "リードタイムではなく、この日付に基づいてスケジュールされます。"
 >>>>>>> upstream/18.0
+=======
+msgstr "これは、お客様に約束された納期です。設定されている場合、出荷オーダは、製品の"
+"リードタイムではなく、この日付に基づいてスケジュールされます。"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_account_bank_statement_line__medium_id
@@ -80846,7 +81898,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "これはリンクのソースです。たとえば、検索エンジン、別のドメイン、またはメーリングリストの名前です。"
+=======
+msgstr ""
+"これはリンクのソースです。たとえば、検索エンジン、別のドメイン、またはメーリ"
+"ングリストの名前です。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "これはリンクのソースです。たとえば、検索エンジン、別のドメイン、またはメーリ"
@@ -81074,12 +82132,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This product is packaged by %(pack_size).2f %(pack_name)s. You should sell "
 "%(quantity).2f %(unit)s."
 msgstr ""
 "このプロダクトは %(pack_size).2f %(pack_name)sで梱包されています。以下で販売する必要があります： "
 "%(quantity).2f %(unit)s"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -81187,6 +82248,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -81299,6 +82363,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "check your sales revenues and sort it by different group criteria (salesman,"
 " partner, product, etc.) Use this report to perform analysis on sales not "
 "having invoiced yet. If you want to analyse your turnover, you should use "
@@ -81307,6 +82372,8 @@ msgstr ""
 "このレポートは見積書と販売オーダの分析を行います。この分析では販売収益をチェックし、別のグループ基準 （販売担当、取引先、プロダクトなど） "
 "により並べ替えます。このレポートを使用して、まだ請求されていない販売を分析しましょう。総売上高を分析したい場合は、会計アプリケーションの中の請求書分析レポートを使用する必要があります。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -81419,6 +82486,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -81533,10 +82603,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "このレポートは見積書の分析を行います。 "
 "この分析では、販売収益をチェックし、様々なグループ基準（販売担当、取引先、プロダクトなど）によって並び替えます。このレポートを使用して、まだ請求されていない販売を分析しましょう。"
 " 総売上高を分析したい場合は、会計アプリケーションで請求書分析レポートを使用する必要があります。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -81644,6 +82717,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -81758,9 +82834,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "このレポートは、販売オーダの分析を行います。 "
 "この分析では、販売収益をチェックし、様々なグループ基準（販売担当、取引先、プロダクト）によって並び替えます。このレポートを使用して、まだ請求されていない販売を分析しましょう。売上高を分析したい場合は、会計アプリケーションで請求書分析レポートを使用する必要があります。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -81868,6 +82947,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -81948,6 +83030,7 @@ msgstr "選択された会計ポジションに基づいて、全ての税が更
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid ""
 "This will update the unit price of all products based on the new pricelist."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -82124,6 +83207,10 @@ msgstr ""
 msgstr ""
 "これにより、全てのプロダクトの単価が新しい価格表に基づいて更新されます。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"これにより、全てのプロダクトの単価が新しい価格表に基づいて更新されます。"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model:ir.model.fields.selection,name:sale.selection__sale_order__invoice_status__to_invoice
@@ -82149,6 +83236,7 @@ msgid ""
 "list view and click on 'Portal Access Management' option in the dropdown "
 "menu *Action*."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -82360,6 +83448,11 @@ msgstr ""
 "択して、ドロップダウンメニューの「アクション」から「ポータルアクセス管理」オ"
 "プションをクリックしてください。"
 >>>>>>> upstream/18.0
+=======
+"B2Bモードで招待状を送信するには、連絡先を開くか、リスト表示で複数の連絡先を選"
+"択して、ドロップダウンメニューの「アクション」から「ポータルアクセス管理」オ"
+"プションをクリックしてください。"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_sales_order_filter
@@ -82384,6 +83477,7 @@ msgstr "税合計"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_tree
 msgid "Total Tax Excluded"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -83333,6 +84427,9 @@ msgstr "税抜合計"
 =======
 msgstr "税抜合計"
 >>>>>>> upstream/18.0
+=======
+msgstr "税抜合計"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_tree
@@ -83363,6 +84460,7 @@ msgid "Transactions"
 msgstr "取引明細書"
 
 #. module: sale
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -83904,6 +85002,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__translated_product_name
 msgid "Translated Product Name"
 msgstr "翻訳済プロダクト名"
@@ -84082,6 +85182,9 @@ msgstr "翻訳済プロダクト名"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -84606,6 +85709,10 @@ msgstr "プロダクトを見つけるためにタイプ..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -85211,6 +86318,10 @@ msgstr "UPSコネクター"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -85900,7 +87011,11 @@ msgid "UoM"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "測定単位"
+=======
+msgstr "単位"
+>>>>>>> upstream/18.0
 =======
 msgstr "単位"
 >>>>>>> upstream/18.0
@@ -86459,7 +87574,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "検証済経費と仕入先請求書、または在庫ピッキング(原価を追跡するよう設定)は、原価または販売価格で顧客に再請求できます。"
+=======
+msgstr ""
+"検証済経費と仕入先請求書、または在庫ピッキング(原価を追跡するよう設定)は、原"
+"価または販売価格で顧客に再請求できます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "検証済経費と仕入先請求書、または在庫ピッキング(原価を追跡するよう設定)は、原"
@@ -86676,7 +87797,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "オーダの有効期限：有効期限を過ぎると、見積に署名することができなくなります。"
+=======
+msgstr ""
+"オーダの有効期限：有効期限を過ぎると、見積に署名することができなくなります。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "オーダの有効期限：有効期限を過ぎると、見積に署名することができなくなります。"
@@ -86831,6 +87957,7 @@ msgstr "詳細を見る"
 #. module: sale
 #. odoo-python
 #: code:addons/sale/models/sale_order.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -87386,6 +88513,8 @@ msgstr "オーダー参照"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid "View Quotation"
 msgstr "見積を見る"
 
@@ -87497,7 +88626,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "送信された見積または確認済みの受注を削除することはできません。最初にキャンセルする必要があります。"
+=======
+msgstr ""
+"送信された見積または確認済みの受注を削除することはできません。最初にキャンセ"
+"ルする必要があります。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "送信された見積または確認済みの受注を削除することはできません。最初にキャンセ"
@@ -87721,11 +88856,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can set here the communication type that will appear on sales orders.The"
 " communication will be given to the customer when they choose the payment "
 "method."
 msgstr "ここで、受注に表示される通信タイプを設定できます。顧客が支払い方法を選択すると、通信が行われます。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -87834,6 +88972,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -87958,7 +89099,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "プロダクトの種類は、すでに販売オーダで使用されているため、変更することができません。"
+=======
+msgstr ""
+"プロダクトの種類は、すでに販売オーダで使用されているため、変更することができ"
+"ません。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "プロダクトの種類は、すでに販売オーダで使用されているため、変更することができ"
@@ -88176,7 +89323,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "受注明細のタイプを変更することはできません。代わりに、現在の行を削除して、適切なタイプの新しい行を作成する必要があります。"
+=======
+msgstr ""
+"受注明細のタイプを変更することはできません。代わりに、現在の行を削除して、適"
+"切なタイプの新しい行を作成する必要があります。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "受注明細のタイプを変更することはできません。代わりに、現在の行を削除して、適"
@@ -88399,7 +89552,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "デフォルトの見積有効期限に負の数を設定することはできません。見積の自動有効期限を無効にするには、空（または0）のままにします。"
+=======
+msgstr ""
+"デフォルトの見積有効期限に負の数を設定することはできません。見積の自動有効期"
+"限を無効にするには、空（または0）のままにします。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "デフォルトの見積有効期限に負の数を設定することはできません。見積の自動有効期"
@@ -88616,7 +89775,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "販売または購買するもの(在庫品、消耗品、サービス品等)は、プロダクトとして登録する必要があります。"
+=======
+msgstr ""
+"販売または購買するもの(在庫品、消耗品、サービス品等)は、プロダクトとして登録"
+"する必要があります。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "販売または購買するもの(在庫品、消耗品、サービス品等)は、プロダクトとして登録"
@@ -88874,12 +90039,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Your quotation contains products from company %(product_company)s whereas your quotation belongs to company %(quote_company)s. \n"
 " Please change the company of your quotation or remove the products from other companies (%(bad_products)s)."
 msgstr ""
 "見積には会社%(product_company)sのプロダクトが含まれていますが、この見積は会社%(quote_company)sに属しています。\n"
 "見積の会社を変更するか、他の会社のプロダクトを削除してください(%(bad_products)s)。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -88991,6 +90159,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -89174,6 +90345,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "== 'pending') and 'Pending Order' or 'Order' }} (Ref {{ object.name or 'n/a'"
 " }})"
 msgstr ""
@@ -89181,6 +90353,8 @@ msgstr ""
 "== 'pending') and 'Pending Order' or 'Order' }} (Ref {{ object.name or 'n/a'"
 " }})"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -89289,6 +90463,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -89398,6 +90575,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "(ctx.get('proforma') and 'Proforma' or 'Quotation') or 'Order' }} (Ref {{ "
 "object.name or 'n/a' }})"
 msgstr ""
@@ -89405,6 +90583,8 @@ msgstr ""
 "(ctx.get('proforma') and 'Proforma' or 'Quotation') or 'Order' }} (Ref {{ "
 "object.name or 'n/a' }})"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -89513,6 +90693,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -89586,6 +90769,7 @@ msgstr ""
 #. module: sale
 #: model:mail.template,subject:sale.mail_template_sale_cancellation
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -89695,6 +90879,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "{{ object.company_id.name }} {{ object.type_name }} Cancelled (Ref "
 "{{ object.name or 'n/a' }})"
 msgstr ""
@@ -89734,6 +90920,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

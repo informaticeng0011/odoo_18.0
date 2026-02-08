@@ -77,6 +77,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* html_editor
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -868,10 +869,20 @@
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# * html_editor
+#
+# Translators:
+# Martin Trigaux, 2024
+# Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2024, 2026.
+# Wil Odoo, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1882,10 +1893,18 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-02-07 10:34+0000\n"
+"Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>\n"
+"Language-Team: Ukrainian <https://translate.odoo.com/projects/odoo-18/"
+"html_editor/uk/>\n"
+>>>>>>> upstream/18.0
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2450,6 +2469,14 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 "
+"? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && "
+"(n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && "
+"(n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 ))"
+" ? 2: 3);\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: html_editor
 #. odoo-javascript
@@ -2527,7 +2554,11 @@ msgstr "AI"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/chatgpt/chatgpt_alternatives_dialog.xml:0
 msgid "AI Copywriter"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Копірайтер AI"
+>>>>>>> upstream/18.0
 
 #. module: html_editor
 #. odoo-javascript
@@ -2545,12 +2576,17 @@ msgstr "Приймає"
 #. odoo-python
 #: code:addons/html_editor/controllers/main.py:0
 msgid "Action %s is not a window action, link preview is not available"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Дія %s не є дією вікна, попередній перегляд посилання недоступний"
+>>>>>>> upstream/18.0
 
 #. module: html_editor
 #. odoo-python
 #: code:addons/html_editor/controllers/main.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3044,6 +3080,13 @@ msgid ""
 "correct"
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"Action %s not found, link preview is not available, please check your url is "
+"correct"
+msgstr ""
+"Дію %s не знайдено, попередній перегляд посилання недоступний, будь ласка, "
+"перевірте правильність вашої URL-адреси"
+>>>>>>> upstream/18.0
 
 #. module: html_editor
 #. odoo-javascript
@@ -3080,7 +3123,11 @@ msgstr "Додати код розділу"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/media/file_plugin.js:0
 msgid "Add a download box"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Додати поле для завантаження"
+>>>>>>> upstream/18.0
 
 #. module: html_editor
 #. odoo-javascript
@@ -3098,7 +3145,11 @@ msgstr "Додати смайлик"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/others/embedded_components/core/table_of_content/table_of_content.xml:0
 msgid "Add headings in this field to fill the Table of Content"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Додайте заголовки в це поле, щоб заповнити зміст"
+>>>>>>> upstream/18.0
 
 #. module: html_editor
 #. odoo-javascript
@@ -3229,7 +3280,11 @@ msgstr "Сповіщення банера"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/signature_plugin.js:0
 msgid "Basic Bloc"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Базовий блок"
+>>>>>>> upstream/18.0
 
 #. module: html_editor
 #. odoo-javascript
@@ -3253,13 +3308,21 @@ msgstr "Кнопка"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/link/link_popover.js:0
 msgid "Button Primary"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Основна кнопка"
+>>>>>>> upstream/18.0
 
 #. module: html_editor
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/link/link_popover.js:0
 msgid "Button Secondary"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Другорядна кнопка"
+>>>>>>> upstream/18.0
 
 #. module: html_editor
 #. odoo-javascript
@@ -3310,13 +3373,21 @@ msgstr "Код"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/fields/html_field.js:0
 msgid "Code view"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Перегляд коду"
+>>>>>>> upstream/18.0
 
 #. module: html_editor
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/column_plugin.js:0
 msgid "Columnize"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Колонка"
+>>>>>>> upstream/18.0
 
 #. module: html_editor
 #. odoo-javascript
@@ -3358,7 +3429,11 @@ msgstr "Конвертувати у 4 колонки"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/column_plugin.js:0
 msgid "Convert into columns"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Конвертувати в колонки"
+>>>>>>> upstream/18.0
 
 #. module: html_editor
 #. odoo-javascript
@@ -3406,7 +3481,11 @@ msgstr "Створити URL."
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/media/image_crop_plugin.js:0
 msgid "Crop image"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Обрізати зображення"
+>>>>>>> upstream/18.0
 
 #. module: html_editor
 #. odoo-javascript
@@ -3543,7 +3622,11 @@ msgstr "Смайл"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/column_plugin.js:0
 msgid "Empty column"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Пуста колонка"
+>>>>>>> upstream/18.0
 
 #. module: html_editor
 #. odoo-javascript
@@ -3603,7 +3686,11 @@ msgstr "Заповнено + Округлено"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/font/gradient_picker.xml:0
 msgid "First color %"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Основний колір %"
+>>>>>>> upstream/18.0
 
 #. module: html_editor
 #. odoo-javascript
@@ -3652,13 +3739,21 @@ msgstr "Формат"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/chatgpt/chatgpt_alternatives_dialog.js:0
 msgid "Friendly"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Дружній"
+>>>>>>> upstream/18.0
 
 #. module: html_editor
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/chatgpt/chatgpt_prompt_dialog.xml:0
 msgid "Generate Text with AI"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Згенерувати текст за допомогою AI"
+>>>>>>> upstream/18.0
 
 #. module: html_editor
 #. odoo-javascript
@@ -3863,12 +3958,15 @@ msgstr "Заголовок 6"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Hide Dailymotion logo"
 msgstr "Сховати логотип Dailymotion"
 
 #. module: html_editor
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/media/media_dialog/video_selector.js:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4174,6 +4272,7 @@ msgstr "Сховати елементи керування плеєром"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/html_editor/static/src/main/media/media_dialog/video_selector.js:0
 msgid "Hide sharing button"
 msgstr "Приховати кнопку поширення"
@@ -4379,6 +4478,11 @@ msgstr "Приховати кнопку поширення"
 #: code:addons/html_editor/static/src/others/embedded_components/plugins/table_of_content_plugin/table_of_content_plugin.js:0
 msgid "Highlight the structure (headings) of this field"
 msgstr ""
+=======
+#: code:addons/html_editor/static/src/others/embedded_components/plugins/table_of_content_plugin/table_of_content_plugin.js:0
+msgid "Highlight the structure (headings) of this field"
+msgstr "Виділіть структуру (заголовки) цього поля"
+>>>>>>> upstream/18.0
 
 #. module: html_editor
 #. odoo-javascript
@@ -4515,7 +4619,11 @@ msgstr "Вставити правило горизонтального розд�
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/star_plugin.js:0
 msgid "Insert a rating"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Вставити оцінку"
+>>>>>>> upstream/18.0
 
 #. module: html_editor
 #. odoo-javascript
@@ -4569,7 +4677,11 @@ msgstr "Вставте нижче"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/media/media_plugin.js:0
 msgid "Insert image or icon"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Вставити зображення або іконку"
+>>>>>>> upstream/18.0
 
 #. module: html_editor
 #. odoo-javascript
@@ -4591,6 +4703,7 @@ msgstr "Вставте ваш підпис"
 
 #. module: html_editor
 #. odoo-javascript
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4798,6 +4911,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5032,6 +5147,9 @@ msgstr "Instagram"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5199,7 +5317,11 @@ msgstr "Великий"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/chatgpt/chatgpt_alternatives_dialog.js:0
 msgid "Lengthen"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Подовжити"
+>>>>>>> upstream/18.0
 
 #. module: html_editor
 #. odoo-javascript
@@ -5224,6 +5346,7 @@ msgstr "Посилання скопійовано в буфер обміну."
 #. odoo-python
 #: code:addons/html_editor/controllers/main.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5619,6 +5742,12 @@ msgid ""
 "Link preview is not available because %s, please check if your url is correct"
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"Link preview is not available because %s, please check if your url is correct"
+msgstr ""
+"Попередній перегляд посилання недоступний, оскільки %s, будь ласка, "
+"перевірте правильність вашої URL-адреси"
+>>>>>>> upstream/18.0
 
 #. module: html_editor
 #. odoo-javascript
@@ -5681,7 +5810,11 @@ msgstr "Відсутній файл"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/powerbox/powerbox_plugin.js:0
 msgid "More options"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Більше опцій"
+>>>>>>> upstream/18.0
 
 #. module: html_editor
 #. odoo-javascript
@@ -5774,6 +5907,7 @@ msgid ""
 "Oops, the file %s could not be found. Please replace this file box by a new "
 "one to re-upload the file."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6266,6 +6400,10 @@ msgstr ""
 "Упс, файл %s не можливо знайти. Будь ласка, замініть це вікно файлу на нове, "
 "щоб повторно завантажити файл."
 >>>>>>> upstream/18.0
+=======
+"Упс, файл %s не можливо знайти. Будь ласка, замініть це вікно файлу на нове, "
+"щоб повторно завантажити файл."
+>>>>>>> upstream/18.0
 
 #. module: html_editor
 #. odoo-javascript
@@ -6318,7 +6456,11 @@ msgstr "Вставте як URL"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/chatgpt/chatgpt_alternatives_dialog.js:0
 msgid "Persuasive"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Переконливий"
+>>>>>>> upstream/18.0
 
 #. module: html_editor
 #. odoo-javascript
@@ -6379,7 +6521,11 @@ msgstr "Вилучити (ВИДАЛИТИ)"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/core/format_plugin.js:0
 msgid "Remove Format"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Видалити формат"
+>>>>>>> upstream/18.0
 
 #. module: html_editor
 #. odoo-javascript
@@ -6398,7 +6544,11 @@ msgstr "Вилучити колонки"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/link/link_popover.xml:0
 msgid "Replace URL with its title?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Замінити URL-адресу її назвою?"
+>>>>>>> upstream/18.0
 
 #. module: html_editor
 #. odoo-javascript
@@ -6494,7 +6644,11 @@ msgstr "Пошук зображення"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/font/gradient_picker.xml:0
 msgid "Second color %"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Другорядний колір %"
+>>>>>>> upstream/18.0
 
 #. module: html_editor
 #. odoo-javascript
@@ -6530,7 +6684,11 @@ msgstr "Форма: заокруглена"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/media/image_plugin.js:0
 msgid "Shape: Shadow"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Форма: Тінь"
+>>>>>>> upstream/18.0
 
 #. module: html_editor
 #. odoo-javascript
@@ -6542,7 +6700,11 @@ msgstr "Форма: ескіз"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/chatgpt/chatgpt_alternatives_dialog.js:0
 msgid "Shorten"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Скоротити"
+>>>>>>> upstream/18.0
 
 #. module: html_editor
 #. odoo-javascript
@@ -6597,7 +6759,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/star_plugin.js:0
 msgid "Stars"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Зірки"
+>>>>>>> upstream/18.0
 
 #. module: html_editor
 #. odoo-javascript
@@ -6755,8 +6921,12 @@ msgid "The provided url does not reference any supported video"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Вказана URL-адреса не містить посилання на будь-яке підтримуване відео"
+=======
+msgstr "Вказана URL-адреса не містить посилання на будь-яке підтримуване відео"
+>>>>>>> upstream/18.0
 =======
 msgstr "Вказана URL-адреса не містить посилання на будь-яке підтримуване відео"
 >>>>>>> upstream/18.0
@@ -7164,13 +7334,21 @@ msgstr "Перекласти"
 #: code:addons/html_editor/static/src/main/chatgpt/chatgpt_plugin.js:0
 #: code:addons/html_editor/static/src/main/chatgpt/chatgpt_translate_dialog.xml:0
 msgid "Translate with AI"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Перекласти за допомогою AI"
+>>>>>>> upstream/18.0
 
 #. module: html_editor
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/chatgpt/chatgpt_translate_dialog.xml:0
 msgid "Translating..."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Переклад..."
+>>>>>>> upstream/18.0
 
 #. module: html_editor
 #. odoo-javascript
@@ -7194,13 +7372,21 @@ msgstr "Введіть \"/\" для команд"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/link/link_popover.xml:0
 msgid "Type your URL"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Введіть вашу URL"
+>>>>>>> upstream/18.0
 
 #. module: html_editor
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/link/link_popover.xml:0
 msgid "Type your link label"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Введіть підпис посилання"
+>>>>>>> upstream/18.0
 
 #. module: html_editor
 #. odoo-javascript
@@ -7237,7 +7423,11 @@ msgstr "Завантажте зображення"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/media/media_dialog/image_selector.js:0
 msgid "Uploaded image's format is not supported. Try with: "
+<<<<<<< HEAD
 msgstr "Формат завантаженого зображення не підтримується. Спробуйте з:"
+=======
+msgstr "Формат завантаженого зображення не підтримується. Спробуйте з: "
+>>>>>>> upstream/18.0
 
 #. module: html_editor
 #. odoo-python
@@ -7392,8 +7582,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Нічого собі, тут трохи порожньо. Завантажите за допомогою кнопки у верхньому"
 " правому куті!"
+=======
+"Нічого собі, тут трохи порожньо. Завантажите за допомогою кнопки у верхньому "
+"правому куті!"
+>>>>>>> upstream/18.0
 =======
 "Нічого собі, тут трохи порожньо. Завантажите за допомогою кнопки у верхньому "
 "правому куті!"
@@ -7898,8 +8093,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ви можете завантажити документи з кнопкою, яка розташована зліва у верхньому"
 " екрані."
+=======
+"Ви можете завантажити документи з кнопкою, яка розташована зліва у верхньому "
+"екрані."
+>>>>>>> upstream/18.0
 =======
 "Ви можете завантажити документи з кнопкою, яка розташована зліва у верхньому "
 "екрані."
@@ -8419,12 +8619,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/html_editor/static/src/main/media/media_dialog/video_selector.xml:0
 msgid "Youku"
 msgstr "Youku"
 
 #. module: html_editor
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8858,12 +9061,15 @@ msgstr "Зменшити"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/html_editor/static/src/main/media/media_dialog/file_selector.xml:0
 msgid "all"
 msgstr "всі"
 
 #. module: html_editor
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9497,6 +9703,7 @@ msgstr "і"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/html_editor/static/src/main/media/media_dialog/file_selector.xml:0
 msgid "database"
 msgstr "база даних"
@@ -9920,6 +10127,11 @@ msgstr "база даних"
 #: code:addons/html_editor/static/src/main/font/gradient_picker.xml:0
 msgid "deg"
 msgstr ""
+=======
+#: code:addons/html_editor/static/src/main/font/gradient_picker.xml:0
+msgid "deg"
+msgstr "градус"
+>>>>>>> upstream/18.0
 
 #. module: html_editor
 #. odoo-javascript
@@ -9935,6 +10147,7 @@ msgstr "file"
 
 #. module: html_editor
 #. odoo-javascript
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10562,6 +10775,8 @@ msgstr "media-library"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/html_editor/static/src/main/link/link_popover.xml:0
 msgid "or"
 msgstr "або"
@@ -10571,6 +10786,7 @@ msgstr "або"
 #: code:addons/html_editor/static/src/main/media/media_dialog/video_selector.xml:0
 msgid "videos"
 msgstr "відео"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11209,6 +11425,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
 #~ msgid "Hide Dailymotion logo"
 #~ msgstr "Сховати логотип Dailymotion"
@@ -11315,6 +11533,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -70,6 +70,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* account_payment
 # 
 # Translators:
@@ -215,11 +216,14 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * account_payment
 #
 # Translators:
 # Wil Odoo, 2024
 # Rastislav Brencic <rastislav.brencic@azet.sk>, 2025
+<<<<<<< HEAD
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -429,10 +433,14 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -722,6 +730,10 @@ msgstr ""
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2025-12-31 16:36+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-02-07 10:45+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Slovak <https://translate.odoo.com/projects/odoo-18/"
 "account_payment/sk/>\n"
@@ -731,6 +743,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n "
 ">= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -975,6 +988,9 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
@@ -983,12 +999,21 @@ msgid ""
 "#%(number)s - Installment of <strong>%(amount)s</strong> due on <strong "
 "class=\"text-primary\">%(date)s</strong>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"#%(number)s – Splátka vo výške <strong>%(amount)s</strong> splatná dňa "
+"<strong class=\"text-primary\">%(date)s</strong>"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-javascript
 #: code:addons/account_payment/static/src/js/portal_my_invoices_payment.js:0
 msgid "%s day(s) overdue"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s dní po splatnosti"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_success
@@ -1015,6 +1040,11 @@ msgid ""
 "<i class=\"fa fa-fw fa-check\"/>\n"
 "                <span class=\"d-none d-md-inline\"> Authorized</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-fw fa-check\"/>\n"
+"                <span class=\"d-none d-md-inline\"> Autorizované</span>"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_my_invoices_payment
@@ -1022,6 +1052,11 @@ msgid ""
 "<i class=\"fa fa-fw fa-check\"/>\n"
 "                <span class=\"d-none d-md-inline\"> Paid</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-fw fa-check\"/>\n"
+"                <span class=\"d-none d-md-inline\"> Zaplatené</span>"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_page_inherit_payment
@@ -1036,12 +1071,20 @@ msgstr "<i class=\"fa fa-fw fa-check-circle\"/> Prebieha"
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_page_inherit_payment
 msgid "<i class=\"fa fa-fw fa-check-circle\"/> Processing Payment"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-fw fa-check-circle\"/> Spracovanie platby"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_my_invoices_payment
 msgid "<span class=\"d-none d-md-inline\"> Pending</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"d-none d-md-inline\"> Čaká na vybavenie</span>"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment
@@ -1054,11 +1097,17 @@ msgid ""
 "<strong>Installment</strong>\n"
 "                                        <br/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<strong>Splátka</strong>\n"
+"                                        <br/>"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.payment_refund_wizard_view_form
 msgid ""
 "<strong>Warning!</strong> There is a refund pending for this payment.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1165,6 +1214,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        Wait a moment for it to be processed. If the refund "
 "is still pending in a\n"
 "                        few minutes, please check your payment provider "
@@ -1203,6 +1254,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1273,16 +1325,29 @@ msgid ""
 =======
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr ""
+"<strong>Upozornenie!</strong> Pre túto platbu je v procese vrátenie peňazí.\n"
+"                        Počkajte chvíľu, kým sa spracuje. Ak vrátenie peňazí "
+"po niekoľkých minútach stále nie je spracované,\n"
+"                        skontrolujte nastavenia svojho poskytovateľa "
+"platobných služieb."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
 #: code:addons/account_payment/wizards/payment_link_wizard.py:0
 msgid "A discount will be applied if the customer pays before %s included."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zľava sa uplatní, ak zákazník zaplatí pred %s vrátane."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1461,6 +1526,11 @@ msgid ""
 "twice."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"A payment has already been made on this invoice, please make sure to not pay "
+"twice."
+msgstr "Platba za túto faktúru už bola vykonaná, prosím, nezaplaťte ju dvakrát."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
@@ -1562,11 +1632,14 @@ msgstr "Zatvoriť"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:account_payment.field_account_payment_register__payment_method_code
 msgid "Code"
 msgstr "Kód"
 
 #. module: account_payment
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1694,7 +1767,11 @@ msgid "Discount Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dátum zľavy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dátum zľavy"
 >>>>>>> upstream/18.0
@@ -1809,7 +1886,11 @@ msgstr "Zobrazovaný názov"
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_payment_link_wizard__display_open_installments
 msgid "Display Open Installments"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zobraziť otvorené splátky"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_success
@@ -1822,7 +1903,11 @@ msgstr ""
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_payment_link_wizard__epd_info
 msgid "Early Payment Discount Information"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Informácie k zľave za včasnú platbu"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment
@@ -1862,7 +1947,11 @@ msgid "Early Payment Discount of"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zľava za včasnú platbu vo výške"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zľava za včasnú platbu vo výške"
 >>>>>>> upstream/18.0
@@ -1977,7 +2066,11 @@ msgstr ""
 #. module: account_payment
 #: model:ir.model.fields.selection,name:account_payment.selection__payment_refund_wizard__support_refund__full_only
 msgid "Full Only"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Iba plne"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model,name:account_payment.model_payment_link_wizard
@@ -1992,12 +2085,20 @@ msgstr "Vygenerujte platobný odkaz"
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_payment_link_wizard__has_eligible_epd
 msgid "Has Eligible Epd"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Má oprávnené skonto"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_payment_refund_wizard__has_pending_refund
 msgid "Has a pending refund"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Má nevybavenú refundáciu"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_payment_refund_wizard__id
@@ -2011,6 +2112,11 @@ msgid ""
 "Impossible to pay all the overdue invoices if they don't share the same "
 "currency."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Je nemožné zaplatiť všetky nezaplatené faktúry, ak nie sú vystavené v "
+"rovnakej mene."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,help:account_payment.field_account_payment_method_line__payment_provider_state
@@ -2018,6 +2124,12 @@ msgid ""
 "In test mode, a fake payment is processed through a test payment interface.\n"
 "This mode is advised when setting up the provider."
 msgstr ""
+<<<<<<< HEAD
+=======
+"V testovacom režime sa prostredníctvom testovacieho platobného rozhrania "
+"spracováva fiktívna platba.\n"
+"Tento režim sa odporúča pri nastavovaní poskytovateľa."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.res_config_settings_view_form
@@ -2044,12 +2156,20 @@ msgstr "Faktúry &amp; Prijaté faktúry"
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_payment_transaction__invoices_count
 msgid "Invoices Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Počet faktúr"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_my_home_account_payment
 msgid "Invoices to pay"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Faktúry na zaplatenie"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model,name:account_payment.model_account_journal
@@ -2074,12 +2194,20 @@ msgstr "Naposledy upravované"
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_payment_refund_wizard__amount_available_for_refund
 msgid "Maximum Refund Allowed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Maximálna povolená refundácia"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.payment_link_wizard__form_inherit_account_payment
 msgid "Next Installments"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ďalšie splátky"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,help:account_payment.field_account_payment__payment_token_id
@@ -2087,6 +2215,11 @@ msgid ""
 "Note that only tokens from providers allowing to capture the amount are "
 "available."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Upozorňujeme, že k dispozícii sú len tokeny od poskytovateľov, ktorí "
+"umožňujú zachytiť sumu."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,help:account_payment.field_account_payment_register__payment_token_id
@@ -2094,6 +2227,11 @@ msgid ""
 "Note that tokens from providers set to only authorize transactions (instead "
 "of capturing the amount) are not available."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Upozorňujeme, že tokeny od poskytovateľov nastavených tak, aby autorizovali "
+"iba transakcie (namiesto zachytávania sumy), nie sú k dispozícii."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:onboarding.onboarding.step,step_image_alt:account_payment.onboarding_onboarding_step_payment_provider
@@ -2178,6 +2316,7 @@ msgid "Online Payments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Online platby"
@@ -2285,6 +2424,8 @@ msgstr "Online platby"
 msgstr "Online platby"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2359,6 +2500,7 @@ msgstr "Online platby"
 #. odoo-python
 #: code:addons/account_payment/wizards/payment_link_wizard.py:0
 msgid "Online payment option is not enabled in Configuration."
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2462,25 +2604,40 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "Možnosť online platby nie je povolená v konfigurácii."
 >>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
 #: code:addons/account_payment/controllers/portal.py:0
 msgid "Overdue invoices should share the same company."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Faktúry po splatnosti by mali patriť tej istej spoločnosti."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
 #: code:addons/account_payment/controllers/portal.py:0
 msgid "Overdue invoices should share the same currency."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Faktúry po splatnosti by mali mať tu istú menu."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
 #: code:addons/account_payment/controllers/portal.py:0
 msgid "Overdue invoices should share the same partner."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Faktúry po splatnosti by mali patriť tému istému partnerovi."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields.selection,name:account_payment.selection__payment_refund_wizard__support_refund__partial
@@ -2496,12 +2653,20 @@ msgstr "Platba"
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment_paid
 msgid "Pay Invoice"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zaplatiť faktúru"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_res_config_settings__pay_invoices_online
 msgid "Pay Invoices Online"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Platba faktúr online"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_docs_entry
@@ -2517,7 +2682,11 @@ msgstr "Zaplatiť teraz"
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_my_home_overdue_invoice
 msgid "Pay overdue"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zaplatiť oneskorené"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_payment_refund_wizard__payment_id
@@ -2546,17 +2715,29 @@ msgstr "Platobné metódy"
 #: model:ir.model,name:account_payment.model_payment_provider
 #: model:ir.model.fields,field_description:account_payment.field_account_payment_method_line__payment_provider_id
 msgid "Payment Provider"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poskytovateľ platieb"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.ui.menu,name:account_payment.payment_provider_menu
 msgid "Payment Providers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poskytovatelia platieb"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model,name:account_payment.model_payment_refund_wizard
 msgid "Payment Refund Wizard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sprievodca vrátením platby"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.ui.menu,name:account_payment.payment_token_menu
@@ -2585,7 +2766,11 @@ msgstr "Platby"
 #. odoo-python
 #: code:addons/account_payment/controllers/payment.py:0
 msgid "Please log in to pay your overdue invoices"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prihláste sa, prosím, aby ste mohli uhradiť svoje nezaplatené faktúry"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
@@ -2626,17 +2811,29 @@ msgstr "Prijaté dobropisy"
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_account_payment__refunds_count
 msgid "Refunds Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Počet refundácií"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.view_account_journal_form
 msgid "SETUP"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "NASTAVENIE"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_account_payment__payment_token_id
 msgid "Saved Payment Token"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uložený platobný token"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_account_payment_register__payment_token_id
@@ -2646,7 +2843,11 @@ msgstr "Platobný token uložený"
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_account_payment__source_payment_id
 msgid "Source Payment"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zdroj platby"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_account_payment_method_line__payment_provider_state
@@ -2662,13 +2863,21 @@ msgstr "Krok ukončený!"
 #: model:ir.model.fields,field_description:account_payment.field_account_payment__suitable_payment_token_ids
 #: model:ir.model.fields,field_description:account_payment.field_account_payment_register__suitable_payment_token_ids
 msgid "Suitable Payment Token"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vhodné platobné tokeny"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
 #: code:addons/account_payment/controllers/payment.py:0
 msgid "The access token is invalid."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prístupový token je neplatný."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
@@ -2681,7 +2890,11 @@ msgstr ""
 #. module: account_payment
 #: model:ir.model.fields,help:account_payment.field_payment_provider__journal_id
 msgid "The journal in which the successful transactions are posted."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Denník, do ktorého sa zaznamenávajú úspešné transakcie."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
@@ -2695,11 +2908,16 @@ msgstr ""
 #. odoo-python
 #: code:addons/account_payment/controllers/payment.py:0
 msgid "The provided parameters are invalid."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zadané parametre sú neplatné."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,help:account_payment.field_account_payment__source_payment_id
 msgid "The source payment of related refund payments"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: account_payment
@@ -2811,11 +3029,21 @@ msgstr ""
 #: code:addons/account_payment/models/account_move.py:0
 msgid "There are pending transactions for this invoice."
 msgstr ""
+=======
+msgstr "Zdroj platby súvisiacich refundácií platieb"
+
+#. module: account_payment
+#. odoo-python
+#: code:addons/account_payment/models/account_move.py:0
+msgid "There are pending transactions for this invoice."
+msgstr "K tejto faktúre sú nevybavené transakcie."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "There is no amount to be paid."
+<<<<<<< HEAD
 msgstr ""
 
 #. module: account_payment
@@ -2921,6 +3149,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "Nie je potrebné uhradiť žiadnu sumu."
+
+#. module: account_payment
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_error
 msgid "There was an error processing your payment: invalid invoice."
@@ -2948,6 +3181,7 @@ msgstr ""
 "Vyskytla sa chyba pri spracovaní vašej platby: neplatné ID kreditnej karty"
 
 #. module: account_payment
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3057,10 +3291,17 @@ msgstr ""
 #: code:addons/account_payment/models/account_move.py:0
 msgid "This invoice cannot be paid online."
 msgstr ""
+=======
+#. odoo-python
+#: code:addons/account_payment/models/account_move.py:0
+msgid "This invoice cannot be paid online."
+msgstr "Túto faktúru nie je možné uhradiť online."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
 #: code:addons/account_payment/models/account_move.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3276,11 +3517,22 @@ msgstr ""
 #: code:addons/account_payment/models/account_move.py:0
 msgid "This invoice isn't posted."
 msgstr ""
+=======
+msgid "This invoice has already been paid."
+msgstr "Táto faktúra už bola zaplatená."
+
+#. module: account_payment
+#. odoo-python
+#: code:addons/account_payment/models/account_move.py:0
+msgid "This invoice isn't posted."
+msgstr "Táto faktúra nie je zaúčtovaná."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "This is not an outgoing invoice."
+<<<<<<< HEAD
 msgstr ""
 
 #. module: account_payment
@@ -3391,6 +3643,15 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_payment.field_account_move__transaction_count
 msgid "Transaction Count"
 msgstr ""
+=======
+msgstr "Toto nie je vystavená faktúra."
+
+#. module: account_payment
+#: model:ir.model.fields,field_description:account_payment.field_account_bank_statement_line__transaction_count
+#: model:ir.model.fields,field_description:account_payment.field_account_move__transaction_count
+msgid "Transaction Count"
+msgstr "Počet transakcií"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_account_bank_statement_line__transaction_ids
@@ -3401,13 +3662,21 @@ msgstr "Transakcie"
 #. module: account_payment
 #: model:ir.model.fields.selection,name:account_payment.selection__payment_refund_wizard__support_refund__none
 msgid "Unsupported"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nepodporované"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_account_payment__use_electronic_payment_method
 #: model:ir.model.fields,field_description:account_payment.field_account_payment_register__use_electronic_payment_method
 msgid "Use Electronic Payment Method"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Použiť elektronickú platobnú metódu"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.account_invoice_view_form_inherit_payment
@@ -3418,6 +3687,7 @@ msgstr "Neplatná transakcia"
 #. odoo-python
 #: code:addons/account_payment/models/account_payment_method_line.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3596,6 +3866,15 @@ msgid ""
 >>>>>>> upstream/18.0
 "Linked providers(s): %s"
 msgstr ""
+=======
+"You can't delete a payment method that is linked to a provider in the "
+"enabled or test state.\n"
+"Linked providers(s): %s"
+msgstr ""
+"Nemôžete odstrániť platobnú metódu, ktorá je prepojená s poskytovateľom v "
+"stave povolený alebo test.\n"
+"Prepojení poskytovatelia: %s"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
@@ -3604,6 +3883,11 @@ msgid ""
 "You cannot uninstall this module as payments using this payment method "
 "already exist."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Tento modul nemožno odinštalovať, pretože už existujú platby realizované "
+"pomocou tejto platobnej metódy."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
@@ -3612,18 +3896,32 @@ msgid ""
 "You must first deactivate a payment provider before deleting its journal.\n"
 "Linked providers: %s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Pred vymazaním denníka platobného poskytovateľa ho musíte najskôr "
+"deaktivovať.\n"
+"Prepojení poskytovatelia: %s"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-javascript
 #: code:addons/account_payment/static/src/js/portal_my_invoices_payment.js:0
 msgid "due in %s day(s)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "splatné za %s dní"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-javascript
 #: code:addons/account_payment/static/src/js/portal_my_invoices_payment.js:0
 msgid "due today"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "splatné dnes"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment
@@ -3663,7 +3961,11 @@ msgid "has been applied."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "bolo uplatnené."
+>>>>>>> upstream/18.0
 =======
 msgstr "bolo uplatnené."
 >>>>>>> upstream/18.0
@@ -3773,6 +4075,7 @@ msgstr "bolo uplatnené."
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_my_invoices_payment
 msgid "overdue"
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3980,6 +4283,12 @@ msgstr ""
 #~ msgstr "Kód"
 >>>>>>> upstream/18.0
 =======
+
+#~ msgid "Code"
+#~ msgstr "Kód"
+>>>>>>> upstream/18.0
+=======
+msgstr "po splatnosti"
 
 #~ msgid "Code"
 #~ msgstr "Kód"

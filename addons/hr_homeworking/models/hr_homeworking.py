@@ -2,7 +2,11 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import api, fields, models
+=======
+from odoo import api, fields, models, tools
+>>>>>>> upstream/18.0
 =======
 from odoo import api, fields, models, tools
 >>>>>>> upstream/18.0
@@ -34,7 +38,11 @@ class HrEmployeeLocation(models.Model):
         for record in self:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             record.day_week_string = record.date.strftime("%A")
+=======
+            record.day_week_string = tools.format_date(record.env, record.date, date_format='EEEE')
+>>>>>>> upstream/18.0
 =======
             record.day_week_string = tools.format_date(record.env, record.date, date_format='EEEE')
 >>>>>>> upstream/18.0

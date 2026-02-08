@@ -106,7 +106,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { queryAll, waitFor } from "@odoo/hoot-dom";
+=======
+import { waitFor } from "@odoo/hoot-dom";
+>>>>>>> upstream/18.0
 =======
 import { waitFor } from "@odoo/hoot-dom";
 >>>>>>> upstream/18.0
@@ -602,7 +606,12 @@ function openRoot() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         }
+=======
+        },
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         },
         expectUnloadPage: true,
@@ -1422,6 +1431,7 @@ function closeProfileDialog({content, totp_state}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         trigger: 'body',
         async run() {
             while (document.querySelector('.o_dialog')) {
@@ -1431,6 +1441,9 @@ function closeProfileDialog({content, totp_state}) {
         },
     }, {
         trigger: 'body.dialog-closed',
+=======
+        trigger: 'body:not(:has(.o_dialog))',
+>>>>>>> upstream/18.0
 =======
         trigger: 'body:not(:has(.o_dialog))',
 >>>>>>> upstream/18.0
@@ -1860,6 +1873,7 @@ registry.category("web_tour.tours").add('totp_tour_setup', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     steps: () => [...openUserProfileAtSecurityTab(), {
     content: "Open totp wizard",
     //TODO: remove when PIPU macro PR is merged: https://github.com/odoo/odoo/pull/194508
@@ -1869,6 +1883,8 @@ registry.category("web_tour.tours").add('totp_tour_setup', {
         await actions.click(el);
     }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2190,6 +2206,9 @@ registry.category("web_tour.tours").add('totp_tour_setup', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2537,7 +2556,10 @@ registry.category("web_tour.tours").add('totp_tour_setup', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         document.querySelector("body").classList.add("got-token");
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2757,6 +2779,7 @@ registry.category("web_tour.tours").add('totp_tour_setup', {
     run: "click",
 },
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3186,6 +3209,9 @@ registry.category("web_tour.tours").add('totp_tour_setup', {
 =======
     trigger: ".o_notification_content:contains(2-Factor authentication is now enabled)",
 >>>>>>> upstream/18.0
+=======
+    trigger: ".o_notification_content:contains(2-Factor authentication is now enabled)",
+>>>>>>> upstream/18.0
 },
 ...openRoot(),
 ...openUserProfileAtSecurityTab(),
@@ -3199,6 +3225,7 @@ registry.category("web_tour.tours").add('totp_login_enabled', {
     url: '/',
     steps: () => [{
     content: "check that we're on the login page or go to it",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3709,6 +3736,8 @@ registry.category("web_tour.tours").add('totp_login_enabled', {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     isActive: ["body:not(:has(input#login))"],
     trigger: "a:contains(Sign in)",
     run: "click",
@@ -3867,6 +3896,9 @@ registry.category("web_tour.tours").add('totp_login_enabled', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4354,6 +4386,10 @@ registry.category("web_tour.tours").add('totp_login_enabled', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -5033,8 +5069,13 @@ registry.category("web_tour.tours").add('totp_login_enabled', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 },
 {
+=======
+    expectUnloadPage: true,
+}, {
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 }, {
@@ -5862,6 +5903,7 @@ registry.category("web_tour.tours").add('totp_login_device', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     trigger: 'input#login, a:contains(Sign in)',
     run: "click",
 <<<<<<< HEAD
@@ -5909,6 +5951,8 @@ registry.category("web_tour.tours").add('totp_login_device', {
     expectUnloadPage: true,
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6375,6 +6419,9 @@ registry.category("web_tour.tours").add('totp_login_device', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6862,6 +6909,10 @@ registry.category("web_tour.tours").add('totp_login_device', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -7545,6 +7596,10 @@ registry.category("web_tour.tours").add('totp_login_device', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -8218,6 +8273,10 @@ registry.category("web_tour.tours").add('totp_login_device', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -8898,6 +8957,10 @@ registry.category("web_tour.tours").add('totp_login_device', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -9572,6 +9635,7 @@ registry.category("web_tour.tours").add('totp_login_device', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     //TODO: remove when PIPU macro PR is merged: https://github.com/odoo/odoo/pull/194508
     trigger: 'a[role=tab]:contains("Account Security").active',
     async run(actions) {
@@ -9579,6 +9643,8 @@ registry.category("web_tour.tours").add('totp_login_device', {
         await actions.click(el);
     }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10079,6 +10145,9 @@ registry.category("web_tour.tours").add('totp_login_device', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10530,7 +10599,11 @@ registry.category("web_tour.tours").add('totp_login_device', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     trigger: "body:not(:has(.modal))",
+=======
+    trigger:".o_notification_content:contains(Two-factor authentication disabled)",
+>>>>>>> upstream/18.0
 =======
     trigger:".o_notification_content:contains(Two-factor authentication disabled)",
 >>>>>>> upstream/18.0
@@ -10862,6 +10935,7 @@ registry.category("web_tour.tours").add('totp_login_disabled', {
     url: '/',
     steps: () => [{
     content: "check that we're on the login page or go to it",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11372,6 +11446,8 @@ registry.category("web_tour.tours").add('totp_login_disabled', {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     isActive: ["body:not(:has(input#login))"],
     trigger: "a:contains(Sign in)",
     run: "click",
@@ -11530,6 +11606,9 @@ registry.category("web_tour.tours").add('totp_login_disabled', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12017,6 +12096,10 @@ registry.category("web_tour.tours").add('totp_login_disabled', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -12631,7 +12714,10 @@ registry.category("web_tour.tours").add('totp_login_disabled', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const columns = {};
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12969,6 +13055,7 @@ registry.category("web_tour.tours").add('totp_admin_disables', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     trigger: 'td.o_data_cell:contains("test_user")',
     run(helpers) {
         const titles = queryAll("tr:first th", { root: this.anchor.closest("table") });
@@ -12979,6 +13066,11 @@ registry.category("web_tour.tours").add('totp_admin_disables', {
         const sel = row.querySelector('.o_list_record_selector input[type=checkbox]');
         helpers.click(sel);
     }
+=======
+    trigger: 'tr:has(td.o_data_cell:contains("test_user")) ' +
+                '.o_list_record_selector input[type=checkbox]',
+    run: "click",
+>>>>>>> upstream/18.0
 =======
     trigger: 'tr:has(td.o_data_cell:contains("test_user")) ' +
                 '.o_list_record_selector input[type=checkbox]',
@@ -13637,8 +13729,14 @@ registry.category("web_tour.tours").add('totp_admin_disables', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     content: "Wait the modal is closed",
     trigger: "body:not(:has(.modal))",
+=======
+    content: "Wait for user to be unchecked (~ action done)",
+    trigger: 'tr:has(td.o_data_cell:contains(test_user)) ' +
+                '.o_list_record_selector input[type=checkbox]:not(:checked)',
+>>>>>>> upstream/18.0
 =======
     content: "Wait for user to be unchecked (~ action done)",
     trigger: 'tr:has(td.o_data_cell:contains(test_user)) ' +
@@ -14285,6 +14383,7 @@ registry.category("web_tour.tours").add('totp_admin_disables', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     content: "check 2FA button",
     trigger: 'body',
     run: () => {
@@ -14293,6 +14392,10 @@ registry.category("web_tour.tours").add('totp_admin_disables', {
             console.error("2FA button should be disabled.");
         }
     },
+=======
+    content: "check 2FA button: should be disabled",
+    trigger: 'button[name=action_totp_enable_wizard]:disabled',
+>>>>>>> upstream/18.0
 =======
     content: "check 2FA button: should be disabled",
     trigger: 'button[name=action_totp_enable_wizard]:disabled',

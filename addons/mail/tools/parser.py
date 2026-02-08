@@ -233,6 +233,7 @@ from odoo.exceptions import ValidationError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools import is_list_of
 =======
 from odoo.tools import is_list_of, safe_eval
@@ -299,6 +300,9 @@ from odoo.tools import is_list_of, safe_eval
 >>>>>>> upstream/18.0
 =======
 from odoo.tools import is_list_of, safe_eval
+>>>>>>> upstream/18.0
+=======
+from odoo.tools import is_list_of
 >>>>>>> upstream/18.0
 =======
 from odoo.tools import is_list_of
@@ -1180,6 +1184,7 @@ def parse_res_ids(res_ids, env):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1256,6 +1261,8 @@ def domain_eval(domain):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

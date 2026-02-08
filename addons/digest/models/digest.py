@@ -174,7 +174,11 @@ class Digest(models.Model):
                 'tips_count': tips_count,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'formatted_date': datetime.today().strftime('%B %d, %Y'),
+=======
+                'formatted_date': tools.format_date(self.env, datetime.today(), date_format='MMMM dd, yyyy'),
+>>>>>>> upstream/18.0
 =======
                 'formatted_date': tools.format_date(self.env, datetime.today(), date_format='MMMM dd, yyyy'),
 >>>>>>> upstream/18.0

@@ -285,7 +285,10 @@ class TestSaleStockInvoices(TestSaleCommon):
         self.assertRegex(text, r'Product By Lot\n4.00Units\nLOT0001', "There should be a line that specifies 4 x LOT0001")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_picking_description(self):
         """
         Verify that for a no-variant product, the product name is not included as the first element in the picking description,
@@ -320,6 +323,9 @@ class TestSaleStockInvoices(TestSaleCommon):
         picking_description = picking.move_ids._get_report_description_picking()
         self.assertEqual(picking_description, 'Color: Value1\nColor: Value2')
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_backorder_and_several_invoices(self):
         """

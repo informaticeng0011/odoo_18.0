@@ -36,6 +36,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -830,6 +831,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -869,6 +872,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -942,6 +948,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1775,6 +1782,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Fernanda Alvarez, 2025\n"
@@ -1820,6 +1829,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1931,6 +1943,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-out=\"user.name  or ''\"/> requested you activate two-factor authentication to protect your account.<br/><br/>\n"
 "        Two-factor Authentication (\"2FA\") is a system of double authentication.\n"
 "        The first one is done with your password and the second one with a code you get from a dedicated mobile app.\n"
@@ -1939,6 +1952,8 @@ msgid ""
 "        </p><p style=\"margin: 16px 0px 16px 0px; text-align: center;\">\n"
 "            <a t-att-href=\"object.get_totp_invite_url()\" style=\"background-color:#875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2054,6 +2069,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2132,6 +2150,7 @@ msgid ""
 msgstr ""
 "<div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3207,6 +3226,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "        Apreciable <t t-out=\"object.partner_id.name or 'usuario'\"/><br/"
 "><br/>\n"
 "        <t t-out=\"user.name  or ''\"/> solicitó que actives la "
@@ -3257,6 +3278,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3488,7 +3512,11 @@ msgid "<span>Consider</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span>Considere</span>"
+=======
+msgstr "<span>Considera</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Considera</span>"
 >>>>>>> upstream/18.0
@@ -4106,7 +4134,11 @@ msgid "A trusted device has just been added to your account: %(device_name)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Se agregó un dispositivo de confianza a su cuenta: %(device_name)s"
+=======
+msgstr "Se agregó un dispositivo de confianza a tu cuenta: %(device_name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Se agregó un dispositivo de confianza a tu cuenta: %(device_name)s"
 >>>>>>> upstream/18.0
@@ -4725,7 +4757,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Se eliminó un dispositivo de confianza de su cuenta: %(device_names)s"
+=======
+msgstr "Se eliminó un dispositivo de confianza de tu cuenta: %(device_names)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Se eliminó un dispositivo de confianza de tu cuenta: %(device_names)s"
 >>>>>>> upstream/18.0
@@ -5201,6 +5237,7 @@ msgstr "Dispositivo de autenticación"
 #: model:mail.template,subject:auth_totp_mail.mail_template_totp_invite
 msgid "Invitation to activate two-factor authentication on your Odoo account"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5932,6 +5969,9 @@ msgstr ""
 =======
 "Invitación para activar la autenticación de dos factores en tu cuenta de Odoo"
 >>>>>>> upstream/18.0
+=======
+"Invitación para activar la autenticación de dos factores en tu cuenta de Odoo"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp_mail
 #. odoo-python
@@ -6093,8 +6133,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Se envió la invitación a activar la autenticación de dos factores a los "
 "siguientes usuarios: %s"
+=======
+"Los siguientes usuarios recibieron la invitación para activar la "
+"autenticación de dos factores: %s"
+>>>>>>> upstream/18.0
 =======
 "Los siguientes usuarios recibieron la invitación para activar la "
 "autenticación de dos factores: %s"
@@ -6891,7 +6936,11 @@ msgid "Security Update: 2FA Deactivated"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Actualización de seguridad: A2F desactivada "
+=======
+msgstr "Actualización de seguridad: A2F desactivada"
+>>>>>>> upstream/18.0
 =======
 msgstr "Actualización de seguridad: A2F desactivada"
 >>>>>>> upstream/18.0
@@ -7509,7 +7558,11 @@ msgid "Security Update: Device Added"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Actualización de seguridad: se agregó un dispositivo"
+=======
+msgstr "Actualización de seguridad: Dispositivo añadido"
+>>>>>>> upstream/18.0
 =======
 msgstr "Actualización de seguridad: Dispositivo añadido"
 >>>>>>> upstream/18.0
@@ -8127,7 +8180,11 @@ msgid "Security Update: Device Removed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Actualización de seguridad: se eliminó un dispositivo"
+=======
+msgstr "Actualización de seguridad: Dispositivo eliminado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Actualización de seguridad: Dispositivo eliminado"
 >>>>>>> upstream/18.0
@@ -8744,7 +8801,11 @@ msgid "Settings: 2Fa Invitation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ajustes: invitación para la A2F"
+=======
+msgstr "Ajustes: Invitación para el uso de A2F"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ajustes: Invitación para el uso de A2F"
 >>>>>>> upstream/18.0
@@ -9362,7 +9423,11 @@ msgid "Two-factor authentication has been activated on your account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "La autenticación de dos factores se activó en su cuenta "
+=======
+msgstr "La autenticación de dos factores se ha activado en tu cuenta"
+>>>>>>> upstream/18.0
 =======
 msgstr "La autenticación de dos factores se ha activado en tu cuenta"
 >>>>>>> upstream/18.0
@@ -9980,7 +10045,11 @@ msgid "Two-factor authentication has been deactivated on your account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "La autenticación de dos factores se desactivó en su cuenta "
+=======
+msgstr "La autenticación de dos factores se ha desactivado en tu cuenta"
+>>>>>>> upstream/18.0
 =======
 msgstr "La autenticación de dos factores se ha desactivado en tu cuenta"
 >>>>>>> upstream/18.0

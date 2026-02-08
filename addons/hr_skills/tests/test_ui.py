@@ -3,10 +3,13 @@
 import odoo.tests
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 @odoo.tests.tagged('-at_install', 'post_install')
 class SkillsTestUI(odoo.tests.HttpCase):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 from odoo.tools import mute_logger
@@ -16,6 +19,9 @@ class SkillsTestUI(odoo.tests.HttpCase):
 
     @mute_logger('odoo.http', 'odoo.sql_db')
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

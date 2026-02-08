@@ -57,7 +57,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <button t-if="props.mode === 'pin'" class="btn btn-link text-reset ms-2 p-0" t-att-class="{ 'fs-5': ui.isSmall }" title="Unpin" t-on-click="message.unpin">
+=======
+                        <button t-if="props.mode === 'pin' and store.self.type === 'partner'" class="btn btn-link text-reset ms-2 p-0" t-att-class="{ 'fs-5': ui.isSmall }" title="Unpin" t-on-click="message.unpin">
+>>>>>>> upstream/18.0
 =======
                         <button t-if="props.mode === 'pin' and store.self.type === 'partner'" class="btn btn-link text-reset ms-2 p-0" t-att-class="{ 'fs-5': ui.isSmall }" title="Unpin" t-on-click="message.unpin">
 >>>>>>> upstream/18.0

@@ -233,7 +233,11 @@ class TestPosQrCommon(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         cls.bank_pm = cls.env['pos.payment.method'].create({
+=======
+        cls.bank_pm = cls.env['pos.payment.method'].sudo().create({
+>>>>>>> upstream/18.0
 =======
         cls.bank_pm = cls.env['pos.payment.method'].sudo().create({
 >>>>>>> upstream/18.0
@@ -1033,7 +1037,11 @@ class TestPosQrCommon(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         cls.main_pos_config = cls.env['pos.config'].create({
+=======
+        cls.main_pos_config = cls.env['pos.config'].sudo().create({
+>>>>>>> upstream/18.0
 =======
         cls.main_pos_config = cls.env['pos.config'].sudo().create({
 >>>>>>> upstream/18.0

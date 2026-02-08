@@ -256,7 +256,11 @@ class StockWarehouse(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         prod_location = self.env['stock.location'].search([('usage', '=', 'production'), ('company_id', '=', self.company_id.id)], limit=1)
+=======
+        prod_location = self._get_production_location()
+>>>>>>> upstream/18.0
 =======
         prod_location = self._get_production_location()
 >>>>>>> upstream/18.0
@@ -981,7 +985,10 @@ class StockWarehouse(models.Model):
         return location
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _create_missing_locations(self, vals):
         super()._create_missing_locations(vals)
         for company_id in self.company_id:
@@ -989,6 +996,9 @@ class StockWarehouse(models.Model):
             if not location:
                 company_id._create_production_location()
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _generate_global_route_rules_values(self):
         rules = super()._generate_global_route_rules_values()

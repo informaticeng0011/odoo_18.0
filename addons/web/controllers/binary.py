@@ -176,7 +176,11 @@ class Binary(http.Controller):
         '/web/image/<int:id>-<string:unique>/<int:width>x<int:height>/<string:filename>',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ], type='http', auth='public', readonly=True)
+=======
+    ], type='http', auth='public', readonly=True, save_session=False)
+>>>>>>> upstream/18.0
 =======
     ], type='http', auth='public', readonly=True, save_session=False)
 >>>>>>> upstream/18.0

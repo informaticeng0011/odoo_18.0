@@ -116,6 +116,10 @@ class TestMessageController(HttpCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    "res_model": self.attachments[0].res_model,
+>>>>>>> upstream/18.0
 =======
                     "res_model": self.attachments[0].res_model,
 >>>>>>> upstream/18.0
@@ -218,6 +222,10 @@ class TestMessageController(HttpCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    "res_model": self.attachments[0].res_model,
+>>>>>>> upstream/18.0
 =======
                     "res_model": self.attachments[0].res_model,
 >>>>>>> upstream/18.0
@@ -276,6 +284,10 @@ class TestMessageController(HttpCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    "res_model": self.attachments[1].res_model,
+>>>>>>> upstream/18.0
 =======
                     "res_model": self.attachments[1].res_model,
 >>>>>>> upstream/18.0
@@ -358,6 +370,10 @@ class TestMessageController(HttpCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    "res_model": self.attachments[0].res_model,
+>>>>>>> upstream/18.0
 =======
                     "res_model": self.attachments[0].res_model,
 >>>>>>> upstream/18.0
@@ -414,6 +430,10 @@ class TestMessageController(HttpCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    "res_model": self.attachments[1].res_model,
+>>>>>>> upstream/18.0
 =======
                     "res_model": self.attachments[1].res_model,
 >>>>>>> upstream/18.0
@@ -626,6 +646,10 @@ class TestMessageController(HttpCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertEqual(0, self.env["res.partner"].search_count([('email', '=', "bob@test.be")], limit=1))
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(0, self.env["res.partner"].search_count([('email', '=', "bob@test.be")], limit=1))
 >>>>>>> upstream/18.0
@@ -950,9 +974,12 @@ class TestMessageController(HttpCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         "emails": ["john@test.be"],
                         'additional_values': {"john@test.be": {'phone': '123456789'}},
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1192,6 +1219,9 @@ class TestMessageController(HttpCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1435,10 +1465,13 @@ class TestMessageController(HttpCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             1,
             self.env["res.partner"].search_count([('email', '=', "john@test.be"), ('phone', '=', "123456789")]),
             "authenticated users can create a partner from an email",
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1680,6 +1713,9 @@ class TestMessageController(HttpCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2158,7 +2194,11 @@ class TestMessageLinks(MailCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.assertEqual(res.status_code, 401)
+=======
+            self.assertEqual(res.status_code, 404)
+>>>>>>> upstream/18.0
 =======
             self.assertEqual(res.status_code, 404)
 >>>>>>> upstream/18.0

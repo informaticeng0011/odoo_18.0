@@ -21,6 +21,10 @@ import re
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import textwrap
+>>>>>>> upstream/18.0
 =======
 import textwrap
 >>>>>>> upstream/18.0
@@ -117,6 +121,10 @@ from odoo.exceptions import UserError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools import float_round, float_repr
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import float_round, float_repr
 >>>>>>> upstream/18.0
@@ -526,8 +534,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'strIssueDate': self._l10n_vn_edi_format_date(self.l10n_vn_edi_issue_date),
                 'transactionUuid': self.l10n_vn_edi_invoice_transaction_id,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1044,7 +1055,12 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             invoice_data['exchangeRate'] = self.env['res.currency']._get_conversion_rate(
+=======
+            # Sinvoice only allow upto 2 decimal place for exchange rate
+            exchange_rate = self.env['res.currency']._get_conversion_rate(
+>>>>>>> upstream/18.0
 =======
             # Sinvoice only allow upto 2 decimal place for exchange rate
             exchange_rate = self.env['res.currency']._get_conversion_rate(
@@ -1210,6 +1226,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            invoice_data['exchangeRate'] = float_repr(float_round(exchange_rate, 2), 2)
+>>>>>>> upstream/18.0
 =======
             invoice_data['exchangeRate'] = float_repr(float_round(exchange_rate, 2), 2)
 >>>>>>> upstream/18.0
@@ -1338,6 +1358,7 @@ class AccountMove(models.Model):
             'buyerAddressLine': self.partner_id.street,
             'buyerPhoneNumber': commercial_partner_phone or '',
             'buyerEmail': self.commercial_partner_id.email or '',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1936,6 +1957,9 @@ class AccountMove(models.Model):
 =======
             'buyerCityName': self.partner_id.city or self.partner_id.state_id.name,
 >>>>>>> upstream/18.0
+=======
+            'buyerCityName': self.partner_id.city or self.partner_id.state_id.name,
+>>>>>>> upstream/18.0
             'buyerCountryCode': self.partner_id.country_id.code,
             'buyerNotGetInvoice': 0,  # Set to 1 to no send the invoice to the buyer.
         }
@@ -2000,6 +2024,7 @@ class AccountMove(models.Model):
         for line in self.invoice_line_ids.filtered(lambda ln: ln.display_type == 'product'):
             # For credit notes amount, we send negative values (reduces the amount of the original invoice)
             sign = 1 if self.move_type == 'out_invoice' else -1
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2573,6 +2598,8 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             item_name = line.name.replace('\n', ' ')
             item_information = {
                 'itemCode': line.product_id.code or '',
@@ -2594,6 +2621,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2664,6 +2694,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2729,6 +2762,7 @@ class AccountMove(models.Model):
                 # Values are either: -2 (no tax), -1 (not declaring/paying taxes), 0,5,8,10 (the tax %)
                 # Most use cases will be -2 or a tax percentage, so we limit the support to these.
                 'taxPercentage': line.tax_ids and line.tax_ids[0].amount or -2,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3573,6 +3607,8 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 'taxAmount': line.currency_id.round(line.price_total - line.price_subtotal),
                 'discount': line.discount,
                 'itemTotalAmountAfterDiscount': line.price_subtotal,
@@ -3594,6 +3630,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

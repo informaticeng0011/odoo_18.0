@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* hr_presence
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -116,6 +117,9 @@
 =======
 # * hr_presence
 >>>>>>> upstream/18.0
+=======
+# * hr_presence
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -154,6 +158,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -229,11 +234,16 @@
 >>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+# Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2026.
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -374,10 +384,18 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-02-07 10:33+0000\n"
+"Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>\n"
+"Language-Team: Ukrainian <https://translate.odoo.com/projects/odoo-18/"
+"hr_presence/uk/>\n"
+>>>>>>> upstream/18.0
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -484,6 +502,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 "
 "? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && "
 "(n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && "
@@ -496,6 +516,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -514,7 +537,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_presence/models/hr_employee.py:0
 msgid "%(name)s has been noted as %(state)s today"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s занотовано як %(state)s сьогодні"
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:mail.template,body_html:hr_presence.mail_template_presence
@@ -555,10 +582,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    Dear <t t-out=\"object.name or ''\">Abigail Peterson</t>,<br/><br/>\n"
 "We hope this message finds you well. It has come to our attention that you are currently not present at work, and there is no record of a time off request from you. If this absence is due to an oversight on our part, we sincerely apologize for any confusion.\n"
 "Please take the necessary steps to address this unplanned absence. Should you have any questions or need assistance, do not hesitate to reach out to your manager or the HR department at your earliest convenience.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -670,6 +700,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -744,6 +777,24 @@ msgid ""
 "                </div>\n"
 "            "
 msgstr ""
+<<<<<<< HEAD
+=======
+"<div>\n"
+"                    Шановний(а) <t t-out=\"object.name or ''\">Abigail "
+"Peterson</t>,<br/><br/>\n"
+"Сподіваємося, що це повідомлення застане вас у доброму стані. Нам стало "
+"відомо, що ви наразі відсутні на роботі, і немає жодних записів про ваш "
+"запит на відпустку. Якщо ця відсутність сталася через недогляд з нашого "
+"боку, ми щиро перепрошуємо за будь-які непорозуміння.\n"
+"Будь ласка, вжийте необхідних заходів для вирішення цієї незапланованої "
+"відсутності. Якщо у вас виникнуть будь-які запитання або вам потрібна "
+"допомога, не соромтеся звернутися до свого керівника або відділу кадрів "
+"якомога швидше.\n"
+"Дякуємо за вашу оперативну реакцію на це питання.\n"
+"                    <br/>З найкращими побажаннями,<br/><br/>\n"
+"                </div>\n"
+"            "
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:ir.model.fields.selection,name:hr_presence.selection__hr_employee__hr_presence_state_display__absent
@@ -756,7 +807,11 @@ msgstr "Відсутній"
 #. module: hr_presence
 #: model:ir.actions.server,name:hr_presence.action_hr_employee_presence_log
 msgid "Add a log note"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Додайте запис у журналі"
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:ir.model,name:hr_presence.model_hr_employee_base
@@ -781,7 +836,11 @@ msgstr "Створити Uid"
 #. module: hr_presence
 #: model:ir.actions.server,name:hr_presence.action_hr_employee_presence_time_off
 msgid "Create a Time Off"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Створити відпустку"
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:ir.model.fields,field_description:hr_presence.field_hr_employee__email_sent
@@ -812,6 +871,12 @@ msgid ""
 "an oversight from us, we apologize. Please contact your manager or HR ASAP. "
 "Thanks"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Привіт, ми помітили, що ви не на роботі, і не було надано жодного звіту про "
+"відпустку. Якщо це наша помилка, перепрошуємо. Будь ласка, зв’яжіться зі "
+"своїм менеджером або відділом кадрів якомога швидше. Дякуємо."
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:ir.model.fields,field_description:hr_presence.field_res_company__hr_presence_last_compute_date
@@ -842,7 +907,11 @@ msgstr "З'єднано Ip"
 #: model:ir.model.fields,field_description:hr_presence.field_hr_employee_base__manually_set_presence
 #: model:ir.model.fields,field_description:hr_presence.field_hr_employee_public__manually_set_presence
 msgid "Manually Set Presence"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Встановити присутність вручну"
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:ir.model.fields,field_description:hr_presence.field_hr_employee__manually_set_present
@@ -864,7 +933,11 @@ msgid "Out of Working Hours"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Поза робочим часом"
+>>>>>>> upstream/18.0
 =======
 msgstr "Поза робочим часом"
 >>>>>>> upstream/18.0
@@ -901,7 +974,11 @@ msgstr "Контроль присутності"
 #. module: hr_presence
 #: model_terms:ir.ui.view,arch_db:hr_presence.hr_employee_view_search
 msgid "Presence/Absence"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Присутність/Відсутність"
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:ir.model.fields.selection,name:hr_presence.selection__hr_employee__hr_presence_state_display__present
@@ -919,11 +996,16 @@ msgstr "Надіслати SMS"
 #. module: hr_presence
 #: model:ir.actions.server,name:hr_presence.action_hr_employee_presence_sms
 msgid "Send a SMS"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Надіслати SMS"
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:mail.template,description:hr_presence.mail_template_presence
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1101,6 +1183,10 @@ msgid ""
 "Sent manually in presence module when an employee wasn't working despite not "
 "being off"
 >>>>>>> upstream/18.0
+=======
+"Sent manually in presence module when an employee wasn't working despite not "
+"being off"
+>>>>>>> upstream/18.0
 msgstr ""
 "Надсилається вручну через модуль присутності, коли працівник не працював, "
 "незважаючи на те, що він не був вихідним"
@@ -1108,12 +1194,20 @@ msgstr ""
 #. module: hr_presence
 #: model:ir.actions.server,name:hr_presence.action_hr_employee_presence_absent
 msgid "Set Absent"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Встановити відсутність"
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:ir.actions.server,name:hr_presence.action_hr_employee_presence_present
 msgid "Set Present"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Встановити присутність"
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:mail.template,subject:hr_presence.mail_template_presence
@@ -1124,7 +1218,11 @@ msgstr "Несподівана відстуність"
 #. odoo-python
 #: code:addons/hr_presence/models/hr_employee.py:0
 msgid "Unplanned Absence"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Незапланована відсутність"
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:ir.model,name:hr_presence.model_res_users_log
@@ -1170,9 +1268,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "We hope this message finds you well. It has come to our attention that you are currently not present at work, and there is no record of a time off request from you. If this absence is due to an oversight on our part, we sincerely apologize for any confusion.\n"
 "Please take the necessary steps to address this unplanned absence. Should you have any questions or need assistance, do not hesitate to reach out to your manager or the HR department at your earliest convenience.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1282,6 +1383,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1353,6 +1455,19 @@ msgid ""
 >>>>>>> upstream/18.0
 "Thank you for your prompt attention to this matter."
 msgstr ""
+=======
+"Thank you for your prompt attention to this matter."
+msgstr ""
+"Сподіваємося, що це повідомлення застане вас у доброму стані. Нам стало "
+"відомо, що ви наразі відсутні на роботі, і немає жодних записів про ваш "
+"запит на відпустку. Якщо ця відсутність сталася через недогляд з нашого "
+"боку, ми щиро перепрошуємо за будь-які непорозуміння.\n"
+"Будь ласка, вживіть необхідних заходів для вирішення цієї незапланованої "
+"відсутності. Якщо у вас виникнуть будь-які запитання або вам потрібна "
+"допомога, не соромтеся звернутися до свого керівника або відділу кадрів "
+"якомога швидше.\n"
+"Дякуємо за вашу оперативну реакцію на це питання."
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #. odoo-python

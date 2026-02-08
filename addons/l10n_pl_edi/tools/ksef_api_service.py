@@ -32,7 +32,11 @@ class KsefApiService:
         if self.mode == 'prod':
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return 'https://ksef.mf.gov.pl/api/v2'
+=======
+            return 'https://api.ksef.mf.gov.pl/v2'
+>>>>>>> upstream/18.0
 =======
             return 'https://api.ksef.mf.gov.pl/v2'
 >>>>>>> upstream/18.0

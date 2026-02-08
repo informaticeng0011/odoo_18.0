@@ -208,6 +208,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    contains,
+>>>>>>> upstream/18.0
 =======
     contains,
 >>>>>>> upstream/18.0
@@ -1324,7 +1328,10 @@ test("initial value cannot be undone", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1936,7 +1943,11 @@ test("code editor can take an initial cursor position", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect([...queryAll(".ace_gutter-cell")].map((el) => el.textContent)).toEqual(["3", "4", "5"]);
+=======
+    expect(queryAllTexts(".ace_gutter-cell")).toEqual(["3", "4", "5"]);
+>>>>>>> upstream/18.0
 =======
     expect(queryAllTexts(".ace_gutter-cell")).toEqual(["3", "4", "5"]);
 >>>>>>> upstream/18.0
@@ -2681,6 +2692,9 @@ test("code editor can take an initial cursor position", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
