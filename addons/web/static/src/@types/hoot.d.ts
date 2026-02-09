@@ -126,10 +126,13 @@ declare module "@odoo/hoot-dom" {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 declare module "@odoo/hoot-mock" {
     export * from "@web/../lib/hoot/hoot-mock";
 }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

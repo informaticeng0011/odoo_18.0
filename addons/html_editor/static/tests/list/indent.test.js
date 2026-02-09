@@ -151,6 +151,7 @@ import { unformat } from "../_helpers/format";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { splitBlock, keydownTab, undo } from "../_helpers/user_actions";
 =======
 import { splitBlock, keydownTab, undo, tripleClick } from "../_helpers/user_actions";
@@ -554,6 +555,8 @@ describe("Checklist", () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import { splitBlock, keydownTab, undo, tripleClick } from "../_helpers/user_actions";
 import { getContent } from "../_helpers/selection";
 
@@ -609,6 +612,9 @@ describe("Checklist", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -776,6 +782,12 @@ describe("Checklist", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should indent a checklist (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -1099,7 +1111,11 @@ describe("Checklist", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test('should indent a checklist and previous line become the "title"', async () => {
+=======
+    test('should indent a checklist and previous line become the "title" (1)', async () => {
+>>>>>>> upstream/18.0
 =======
     test('should indent a checklist and previous line become the "title" (1)', async () => {
 >>>>>>> upstream/18.0
@@ -1321,6 +1337,12 @@ describe("Checklist", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test('should indent a checklist and previous line become the "title" (2)', async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -1644,6 +1666,12 @@ describe("Checklist", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test('should indent a checklist and previous line become the "title" (3)', async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -1967,6 +1995,12 @@ describe("Checklist", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test('should indent a checklist and previous line become the "title" (4)', async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -2292,6 +2326,7 @@ describe("Checklist", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should indent a checklist and merge it with previous siblings", async () => {
 =======
     test("should indent a checklist and merge it with previous siblings (1)", async () => {
@@ -2446,6 +2481,9 @@ describe("Checklist", () => {
 =======
     test("should indent a checklist and merge it with previous siblings (1)", async () => {
 >>>>>>> upstream/18.0
+=======
+    test("should indent a checklist and merge it with previous siblings (1)", async () => {
+>>>>>>> upstream/18.0
         await testEditor({
             contentBefore: unformat(`
                     <ul class="o_checklist">
@@ -2518,7 +2556,13 @@ describe("Checklist", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+    });
+
+    test("should indent a checklist and merge it with previous siblings (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -2848,6 +2892,12 @@ describe("Checklist", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should indent a checklist and merge it with previous siblings (3)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -3179,6 +3229,7 @@ describe("Checklist", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should indent a checklist and merge it with next siblings", async () => {
 =======
     test("should indent a checklist and merge it with next siblings (1)", async () => {
@@ -3333,6 +3384,9 @@ describe("Checklist", () => {
 =======
     test("should indent a checklist and merge it with next siblings (1)", async () => {
 >>>>>>> upstream/18.0
+=======
+    test("should indent a checklist and merge it with next siblings (1)", async () => {
+>>>>>>> upstream/18.0
         await testEditor({
             contentBefore: unformat(`
                     <ul class="o_checklist">
@@ -3407,6 +3461,12 @@ describe("Checklist", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should indent a checklist and merge it with next siblings (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -3736,6 +3796,12 @@ describe("Checklist", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should indent a checklist and merge it with next siblings (3)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -4625,7 +4691,11 @@ describe("with selection", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should indent multi-level", async () => {
+=======
+    test("should indent multi-level (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should indent multi-level (1)", async () => {
 >>>>>>> upstream/18.0
@@ -4859,6 +4929,12 @@ describe("with selection", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should indent multi-level (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -5204,7 +5280,11 @@ describe("with selection", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should indent two multi-levels", async () => {
+=======
+    test("should indent two multi-levels (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should indent two multi-levels (1)", async () => {
 >>>>>>> upstream/18.0
@@ -5448,6 +5528,12 @@ describe("with selection", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should indent two multi-levels (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -6052,7 +6138,10 @@ describe("with selection", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6520,6 +6609,9 @@ describe("with selection", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6973,7 +7065,10 @@ describe("with selection", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7435,6 +7530,9 @@ describe("with selection", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

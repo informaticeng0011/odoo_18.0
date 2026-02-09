@@ -24,6 +24,7 @@ from base64 import b64encode
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.account.tools import LegacyHTTPAdapter
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -280,6 +281,10 @@ from odoo.addons.account.tools import LegacyHTTPAdapter
 from json import JSONDecodeError
 from odoo.addons.account.tools import LegacyHTTPAdapter
 >>>>>>> upstream/18.0
+=======
+from json import JSONDecodeError
+from odoo.addons.account.tools import LegacyHTTPAdapter
+>>>>>>> upstream/18.0
 
 from odoo import api, models, _
 from odoo.tools.float_utils import json_float_round
@@ -328,6 +333,7 @@ class AccountEdiFormat(models.Model):
         if not request_response.ok:
             try:
                 response_data = request_response.json()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -593,6 +599,9 @@ class AccountEdiFormat(models.Model):
 >>>>>>> upstream/18.0
 =======
             except requests.exceptions.JSONDecodeError as ex:
+>>>>>>> upstream/18.0
+=======
+            except JSONDecodeError as ex:
 >>>>>>> upstream/18.0
 =======
             except JSONDecodeError as ex:
@@ -957,7 +966,11 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         tax_amls = invoice.line_ids.filtered(lambda x: x.display_type == 'tax')
+=======
+        tax_amls = invoice.line_ids.filtered('tax_repartition_line_id')
+>>>>>>> upstream/18.0
 =======
         tax_amls = invoice.line_ids.filtered('tax_repartition_line_id')
 >>>>>>> upstream/18.0
@@ -1604,6 +1617,11 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if not tax_data:
+                return None
+>>>>>>> upstream/18.0
 =======
             if not tax_data:
                 return None
@@ -2503,6 +2521,11 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if not tax_data:
+                return None
+>>>>>>> upstream/18.0
 =======
             if not tax_data:
                 return None
@@ -3393,9 +3416,15 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             
         def grouping_function_total_amount(base_line, tax_data):
             return True
+=======
+
+        def grouping_function_total_amount(base_line, tax_data):
+            return True if tax_data else None
+>>>>>>> upstream/18.0
 =======
 
         def grouping_function_total_amount(base_line, tax_data):

@@ -35,6 +35,10 @@ import { PivotOdooUIPlugin } from "./pivot/plugins/pivot_odoo_ui_plugin";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { LoggingUIPlugin } from "@spreadsheet/logging/logging_ui_plugin";
+>>>>>>> upstream/18.0
 =======
 import { LoggingUIPlugin } from "@spreadsheet/logging/logging_ui_plugin";
 >>>>>>> upstream/18.0
@@ -72,6 +76,10 @@ coreViewsPluginRegistry.add("odooPivotUIPlugin", PivotOdooUIPlugin);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+coreViewsPluginRegistry.add("OdooLoggingUIPlugin", LoggingUIPlugin);
+>>>>>>> upstream/18.0
 =======
 coreViewsPluginRegistry.add("OdooLoggingUIPlugin", LoggingUIPlugin);
 >>>>>>> upstream/18.0

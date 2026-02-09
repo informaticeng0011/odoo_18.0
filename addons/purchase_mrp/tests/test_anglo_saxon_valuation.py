@@ -18,6 +18,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.fields import Date, Datetime
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -553,10 +554,15 @@ from odoo.fields import Command, Date, Datetime
 from odoo.exceptions import UserError
 from odoo.fields import Command, Date, Datetime
 >>>>>>> upstream/18.0
+=======
+from odoo.exceptions import UserError
+from odoo.fields import Command, Date, Datetime
+>>>>>>> upstream/18.0
 from odoo.tools import mute_logger
 from odoo.tests import Form, tagged
 from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 from odoo.addons.stock_account.tests.test_stockvaluation import _create_accounting_data
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -643,6 +649,8 @@ from odoo import Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1233,6 +1241,7 @@ class TestAngloSaxonValuationPurchaseMRP(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     def test_average_cost_unbuild_valuation(self):
         """ Ensure that an unbuild for some avg cost product won't leave the `Cost of Production`
@@ -1604,6 +1613,8 @@ class TestAngloSaxonValuationPurchaseMRP(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
     def test_kit_valuation_no_pull(self):
         """ When selling a kit without ever moving it using a Pull rule, ensure that
@@ -1804,6 +1815,7 @@ class TestAngloSaxonValuationPurchaseMRP(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1942,6 +1954,8 @@ class TestAngloSaxonValuationPurchaseMRP(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2113,6 +2127,7 @@ class TestAngloSaxonValuationPurchaseMRP(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertRecordValues(components.stock_valuation_layer_ids.sorted(lambda l: l.product_id.id), [
             {'product_id': component01.id, 'unit_cost':  33.3},
             {'product_id': component02.id, 'unit_cost': 100.0},
@@ -2127,6 +2142,8 @@ class TestAngloSaxonValuationPurchaseMRP(AccountTestInvoicingCommon):
             {'product_id': component05.id, 'unit_cost': 0.0},
         ])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2185,6 +2202,9 @@ class TestAngloSaxonValuationPurchaseMRP(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2426,6 +2446,9 @@ class TestAngloSaxonValuationPurchaseMRP(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

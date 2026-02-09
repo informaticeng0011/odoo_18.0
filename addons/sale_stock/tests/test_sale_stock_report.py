@@ -286,7 +286,10 @@ class TestSaleStockInvoices(TestSaleCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_picking_description(self):
@@ -324,6 +327,9 @@ class TestSaleStockInvoices(TestSaleCommon):
         self.assertEqual(picking_description, 'Color: Value1\nColor: Value2')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

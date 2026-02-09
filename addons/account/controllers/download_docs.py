@@ -200,8 +200,14 @@ class AccountDocumentDownloadController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             doc_data = invoice._get_invoice_legal_documents(filetype, allow_fallback=allow_fallback)
             if doc_data:
+=======
+            if filetype == 'all' and (doc_data := invoice._get_invoice_legal_documents_all(allow_fallback=allow_fallback)):
+                docs_data += doc_data
+            elif doc_data := invoice._get_invoice_legal_documents(filetype, allow_fallback=allow_fallback):
+>>>>>>> upstream/18.0
 =======
             if filetype == 'all' and (doc_data := invoice._get_invoice_legal_documents_all(allow_fallback=allow_fallback)):
                 docs_data += doc_data

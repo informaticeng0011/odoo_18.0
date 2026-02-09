@@ -152,6 +152,10 @@ from . import account_move_send
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import res_partner_category
+>>>>>>> upstream/18.0
 =======
 from . import res_partner_category
 >>>>>>> upstream/18.0

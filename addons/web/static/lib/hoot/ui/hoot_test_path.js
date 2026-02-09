@@ -253,6 +253,7 @@ export class HootTestPath extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             type="'suite'"
                             id="suite.id"
 =======
@@ -410,6 +411,9 @@ export class HootTestPath extends Component {
 >>>>>>> upstream/18.0
 =======
                             ids="{ suite: suite.id }"
+>>>>>>> upstream/18.0
+=======
+                            ids="{ id: suite.id }"
 >>>>>>> upstream/18.0
 =======
                             ids="{ id: suite.id }"

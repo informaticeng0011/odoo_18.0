@@ -198,8 +198,12 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { FileInput } from "@web/core/file_input/file_input";
 import { Deferred, animationFrame } from "@odoo/hoot-mock";
+=======
+import { animationFrame, Deferred } from "@odoo/hoot-mock";
+>>>>>>> upstream/18.0
 =======
 import { animationFrame, Deferred } from "@odoo/hoot-mock";
 >>>>>>> upstream/18.0
@@ -967,6 +971,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    MockServer,
+>>>>>>> upstream/18.0
 =======
     MockServer,
 >>>>>>> upstream/18.0
@@ -1735,6 +1743,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { FileInput } from "@web/core/file_input/file_input";
+>>>>>>> upstream/18.0
 =======
 import { FileInput } from "@web/core/file_input/file_input";
 >>>>>>> upstream/18.0
@@ -3294,7 +3306,11 @@ test("Open record when clicking on widget field", async function (assert) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Product._views["form,false"] = `<form string="Product"><field name="display_name"/></form>`;
+=======
+    Product._views["form"] = `<form string="Product"><field name="display_name"/></form>`;
+>>>>>>> upstream/18.0
 =======
     Product._views["form"] = `<form string="Product"><field name="display_name"/></form>`;
 >>>>>>> upstream/18.0
@@ -4248,7 +4264,11 @@ test("button executes action and check domain", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     for (let i = 0; i < Partner.length; i++) {
+=======
+    for (let i = 0; i < Partner._records.length; i++) {
+>>>>>>> upstream/18.0
 =======
     for (let i = 0; i < Partner._records.length; i++) {
 >>>>>>> upstream/18.0
@@ -5010,7 +5030,11 @@ test("button executes action and check domain", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             Partner._records[0].active = false;
+=======
+            MockServer.env["partner"][0].active = false;
+>>>>>>> upstream/18.0
 =======
             MockServer.env["partner"][0].active = false;
 >>>>>>> upstream/18.0
@@ -6969,9 +6993,14 @@ test("kanbans with basic and custom compiler, same arch", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["form,false"] = `<form><field name="one2many" mode="kanban"/></form>`;
     Partner._views["search,false"] = `<search/>`;
     Partner._views["kanban,false"] = `
+=======
+    Partner._views["form"] = `<form><field name="one2many" mode="kanban"/></form>`;
+    Partner._views["kanban"] = `
+>>>>>>> upstream/18.0
 =======
     Partner._views["form"] = `<form><field name="one2many" mode="kanban"/></form>`;
     Partner._views["kanban"] = `
