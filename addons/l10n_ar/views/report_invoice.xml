@@ -221,9 +221,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <div class="row">
                 <div name="left-upper-side" class="col-5" t-if="not pre_printed_report">
                     <img t-if="o.company_id.logo" t-att-src="image_data_uri(o.company_id.logo)" style="max-height: 45px;" alt="Logo"/>
+=======
+            <div class="row mb-2">
+                <div name="left-upper-side" class="col-5" t-if="not pre_printed_report">
+                    <img t-if="o.company_id.logo" t-att-src="image_data_uri(o.company_id.logo)" style="max-height: 65px;" alt="Logo"/>
+>>>>>>> upstream/18.0
 =======
             <div class="row mb-2">
                 <div name="left-upper-side" class="col-5" t-if="not pre_printed_report">
@@ -1485,9 +1491,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <!-- remove detail of taxes when currency != from company's currency -->
         <t t-call="account.document_tax_totals_company_currency_template" position="replace"/>
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1845,7 +1854,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <strong>Son: </strong><span t-out="o.currency_id.with_context(lang='es_AR').amount_to_text(o.amount_total)"/>
+=======
+                <strong>Son: </strong><span t-out="o.currency_id.amount_to_text(o.amount_total)"/>
+>>>>>>> upstream/18.0
 =======
                 <strong>Son: </strong><span t-out="o.currency_id.amount_to_text(o.amount_total)"/>
 >>>>>>> upstream/18.0
@@ -2269,7 +2282,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <div class="l10n_ar_tax_details" t-if="l10n_ar_custom_tax_summary">
+=======
+            <div t-attf-class="l10n_ar_tax_details {{ 'col-6' if report_type == 'pdf' else '' }}" t-if="l10n_ar_custom_tax_summary">
+>>>>>>> upstream/18.0
 =======
             <div t-attf-class="l10n_ar_tax_details {{ 'col-6' if report_type == 'pdf' else '' }}" t-if="l10n_ar_custom_tax_summary">
 >>>>>>> upstream/18.0

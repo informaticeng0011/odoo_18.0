@@ -21,7 +21,11 @@ partnerCompareRegistry.add(
             return 1;
         }
     },
+<<<<<<< HEAD
     { sequence: 25 }
+=======
+    { sequence: 45 }
+>>>>>>> upstream/18.0
 );
 
 partnerCompareRegistry.add(

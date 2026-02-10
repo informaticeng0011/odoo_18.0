@@ -210,6 +210,7 @@ class NotifyTests(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         selector_ready_event = threading.Event()
 >>>>>>> upstream/18.0
@@ -292,6 +293,8 @@ class NotifyTests(TransactionCase):
                 "postgres"
             ).cursor() as cr, selectors.DefaultSelector() as sel:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -675,6 +678,9 @@ class NotifyTests(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -930,6 +936,7 @@ class NotifyTests(TransactionCase):
                 cr.commit()
                 conn = cr._cnx
                 sel.register(conn, selectors.EVENT_READ)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1650,6 +1657,8 @@ class NotifyTests(TransactionCase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 selector_ready_event.set()
                 found = False
                 while not stop_event.is_set() and not found:
@@ -1789,6 +1798,9 @@ class NotifyTests(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2194,6 +2206,9 @@ class NotifyTests(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

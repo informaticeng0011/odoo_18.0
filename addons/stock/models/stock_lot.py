@@ -85,6 +85,10 @@ from re import findall as regex_findall, split as regex_split
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from collections import defaultdict
+>>>>>>> upstream/18.0
 =======
 from collections import defaultdict
 >>>>>>> upstream/18.0
@@ -469,6 +473,7 @@ class StockLot(models.Model):
             prod_lot.display_complete = prod_lot.id or self._context.get('display_complete')
 
     def _compute_delivery_ids(self):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -944,10 +949,16 @@ class StockLot(models.Model):
         for lot in self:
             lot.delivery_ids = delivery_ids_by_lot.get(lot.id, [])
 >>>>>>> upstream/18.0
+=======
+        delivery_ids_by_lot = self._find_delivery_ids_by_lot_iterative()
+        for lot in self:
+            lot.delivery_ids = delivery_ids_by_lot.get(lot.id, [])
+>>>>>>> upstream/18.0
             lot.delivery_count = len(lot.delivery_ids)
 
     def _compute_last_delivery_partner_id(self):
         serial_products = self.filtered(lambda l: l.product_id.tracking == 'serial')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1201,6 +1212,8 @@ class StockLot(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         delivery_ids_by_lot = serial_products._find_delivery_ids_by_lot_iterative()
         (self - serial_products).last_delivery_partner_id = False
         for lot in serial_products:
@@ -1278,6 +1291,9 @@ class StockLot(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1669,7 +1685,10 @@ class StockLot(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1976,6 +1995,9 @@ class StockLot(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

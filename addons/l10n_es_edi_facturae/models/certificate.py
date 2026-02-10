@@ -46,6 +46,7 @@ class Certificate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         rfc4514_attr = dict(element.rfc4514_string().split("=", 1) for element in cert.issuer.rdns)
 
         # The 'Organizational Unit' field is optional
@@ -57,6 +58,8 @@ class Certificate(models.Model):
         # Add remaining certificate fields (not all certificates have other fields)
         return issuer + "".join([f", {key}={value}" for key, value in rfc4514_attr.items()])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -147,6 +150,9 @@ class Certificate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

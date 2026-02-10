@@ -222,8 +222,13 @@ export class ProductConfiguratorDialog extends Component {
         if (product.quantity === quantity) {
             return false;
         }
+<<<<<<< HEAD
         const { price } = await this._updateCombination(product, quantity);
         product.quantity = quantity;
+=======
+        product.quantity = quantity;
+        const { price } = await this._updateCombination(product, quantity);
+>>>>>>> upstream/18.0
         product.price = parseFloat(price);
         return true;
     }

@@ -53,6 +53,7 @@ class WebsiteForm(form.WebsiteForm):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             data['record']['partner_id'] = partner.id
             data['record']['email_from'] = values['email_from']
             if partner:
@@ -63,6 +64,8 @@ class WebsiteForm(form.WebsiteForm):
                 if not partner.company_name and values.get('partner_company_name'):
                     data['record']['partner_company_name'] = values['partner_company_name']
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -87,6 +90,9 @@ class WebsiteForm(form.WebsiteForm):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -309,7 +315,12 @@ class WebsiteForm(form.WebsiteForm):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 data['record']['partner_name'] = values['partner_name']
+=======
+                if values.get('partner_name'):
+                    data['record']['partner_name'] = values['partner_name']
+>>>>>>> upstream/18.0
 =======
                 if values.get('partner_name'):
                     data['record']['partner_name'] = values['partner_name']

@@ -11,6 +11,10 @@ export class MentionList extends Component {
     static props = {
         onSelect: { type: Function },
         close: { type: Function, optional: true },
+<<<<<<< HEAD
+=======
+        thread: { optional: true },
+>>>>>>> upstream/18.0
         type: { type: String },
     };
     static defaultProps = {
@@ -31,32 +35,54 @@ export class MentionList extends Component {
         this.ref = useAutofocus({ mobile: true });
 
         useEffect(
+<<<<<<< HEAD
             () => {
                 if (!this.state.searchTerm) {
+=======
+            (term, delimiter, thread) => {
+                if (!term) {
+>>>>>>> upstream/18.0
                     this.state.options = [];
                     return;
                 }
                 this.sequential(async () => {
                     this.state.isFetching = true;
                     try {
+<<<<<<< HEAD
                         await this.suggestionService.fetchSuggestions({
                             delimiter: this.props.type === "partner" ? "@" : "#",
                             term: this.state.searchTerm,
                         });
+=======
+                        await this.suggestionService.fetchSuggestions({ delimiter, term });
+>>>>>>> upstream/18.0
                     } finally {
                         this.state.isFetching = false;
                     }
                     const { suggestions } = this.suggestionService.searchSuggestions(
+<<<<<<< HEAD
                         {
                             delimiter: this.props.type === "partner" ? "@" : "#",
                             term: this.state.searchTerm,
                         },
                         { sort: true }
+=======
+                        { delimiter, term },
+                        { sort: true, thread }
+>>>>>>> upstream/18.0
                     );
                     this.state.options = suggestions;
                 });
             },
+<<<<<<< HEAD
             () => [this.state.searchTerm]
+=======
+            () => [
+                this.state.searchTerm,
+                this.props.type === "partner" ? "@" : "#",
+                this.props.thread,
+            ]
+>>>>>>> upstream/18.0
         );
     }
 
@@ -84,6 +110,7 @@ export class MentionList extends Component {
         };
         switch (this.props.type) {
             case "partner":
+<<<<<<< HEAD
                 this.state.options.forEach((option) => {
                     props.options.push({
                         label: option.name,
@@ -100,6 +127,27 @@ export class MentionList extends Component {
                 });
                 break;
             }
+=======
+                props.optionTemplate = "mail.Composer.suggestionPartner";
+                props.options = this.state.options.map((suggestion) => {
+                    return {
+                        label: suggestion.name,
+                        partner: suggestion,
+                        classList: "o-mail-Composer-suggestion",
+                    };
+                });
+                break;
+            case "channel":
+                props.optionTemplate = "mail.Composer.suggestionThread";
+                props.options = this.state.options.map((suggestion) => {
+                    return {
+                        label: suggestion.displayName,
+                        thread: suggestion,
+                        classList: "o-mail-Composer-suggestion",
+                    };
+                });
+                break;
+>>>>>>> upstream/18.0
         }
         return props;
     }

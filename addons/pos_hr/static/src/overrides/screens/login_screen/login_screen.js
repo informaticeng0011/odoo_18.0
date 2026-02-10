@@ -178,6 +178,7 @@ patch(LoginScreen.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (
                 employee &&
                 (employee._role === "manager" || employee.user_id?.id === this.pos.user.id)
@@ -489,6 +490,8 @@ patch(LoginScreen.prototype, {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             if (employee && employee.user_id?.id === this.pos.user.id) {
                 super.clickBack();
                 return;
@@ -559,6 +562,9 @@ patch(LoginScreen.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

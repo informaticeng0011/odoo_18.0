@@ -296,7 +296,10 @@ export class ProductScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.pos.addPendingOrder([this.currentOrder.id]);
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -940,6 +943,10 @@ export class ProductScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.sound = useService("mail.sound_effects");
+>>>>>>> upstream/18.0
 =======
         this.sound = useService("mail.sound_effects");
 >>>>>>> upstream/18.0
@@ -1506,7 +1513,13 @@ export class ProductScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             isChildren: this.getChildCategories(this.pos.selectedCategory).includes(category),
+=======
+            isChildren: this.pos.selectedCategory
+                ? this.pos.selectedCategory.child_ids.includes(category)
+                : !category.parent_id,
+>>>>>>> upstream/18.0
 =======
             isChildren: this.pos.selectedCategory
                 ? this.pos.selectedCategory.child_ids.includes(category)
@@ -1809,9 +1822,15 @@ export class ProductScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             await this.pos.processProductAttributes();
 
             if (records && records["product.product"].length > 0) {
+=======
+
+            if (records && records["product.product"].length > 0) {
+                await this.pos.processProductAttributesByProducts(records["product.product"]);
+>>>>>>> upstream/18.0
 =======
 
             if (records && records["product.product"].length > 0) {
@@ -2094,6 +2113,10 @@ export class ProductScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            this.sound.play("error");
+>>>>>>> upstream/18.0
 =======
             this.sound.play("error");
 >>>>>>> upstream/18.0
@@ -2706,6 +2729,10 @@ export class ProductScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        const qty = parsed_results.find((element) => element.type === "quantity");
+>>>>>>> upstream/18.0
 =======
         const qty = parsed_results.find((element) => element.type === "quantity");
 >>>>>>> upstream/18.0
@@ -3178,9 +3205,12 @@ export class ProductScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         await this.pos.addLineToCurrentOrder({ product_id: product }, { code: lotBarcode });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3472,6 +3502,7 @@ export class ProductScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         await this.pos.addLineToCurrentOrder(vals, { code: lotBarcode });
 <<<<<<< HEAD
@@ -3665,6 +3696,8 @@ export class ProductScreen extends Component {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3824,6 +3857,9 @@ export class ProductScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4104,8 +4140,11 @@ export class ProductScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return this.pos.models["product.product"].filter((p) => productIds.has(p.id));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4462,6 +4501,9 @@ export class ProductScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4862,7 +4904,11 @@ export class ProductScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await this.pos.processProductAttributes();
+=======
+        await this.pos.processProductAttributesByProducts(product);
+>>>>>>> upstream/18.0
 =======
         await this.pos.processProductAttributesByProducts(product);
 >>>>>>> upstream/18.0
@@ -5090,7 +5136,10 @@ export class ProductScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5550,6 +5599,9 @@ export class ProductScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

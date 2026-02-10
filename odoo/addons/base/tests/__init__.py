@@ -125,6 +125,10 @@ from . import test_ir_actions
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import test_ir_asset
+>>>>>>> upstream/18.0
 =======
 from . import test_ir_asset
 >>>>>>> upstream/18.0

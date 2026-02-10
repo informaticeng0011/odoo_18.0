@@ -488,10 +488,13 @@ class Post(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for vals in vals_list:
             if 'content' in vals and vals.get('forum_id'):
                 vals['content'] = self._update_content(vals['content'], vals['forum_id'])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1023,6 +1026,9 @@ class Post(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1792,7 +1798,12 @@ class Post(models.Model):
         # XDO FIXME: to be correctly fixed with new _get_mail_message_access and filter access rule
         if operation in ('write', 'unlink') and (not model_name or model_name == 'forum.post'):
             # Make sure only author or moderator can edit/delete messages
+<<<<<<< HEAD
             for post in self.browse(res_ids):
+=======
+            posts = self.browse(res_ids).with_prefetch(self._prefetch_ids)  # force prefetch, lost otherwise with rebrowsing
+            for post in posts:
+>>>>>>> upstream/18.0
                 if not post.can_edit:
                     raise AccessError(_('%d karma required to edit a post.', post.karma_edit))
         return super(Post, self)._get_mail_message_access(res_ids, operation, model_name=model_name)

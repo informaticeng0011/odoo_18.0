@@ -420,6 +420,10 @@ const PopupWidget = publicWidget.Widget.extend(ObservingCookieWidgetMixin, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            this.el.querySelector(".modal").scrollTop = 0;
+>>>>>>> upstream/18.0
 =======
             this.el.querySelector(".modal").scrollTop = 0;
 >>>>>>> upstream/18.0
@@ -1293,6 +1297,7 @@ publicWidget.registry.cookies_bar = PopupWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1357,6 +1362,10 @@ publicWidget.registry.cookies_bar = PopupWidget.extend({
 =======
 >>>>>>> upstream/18.0
     start() {
+=======
+    start() {
+        this.el.querySelector(".modal").addEventListener("keydown", this._onKeydown);
+>>>>>>> upstream/18.0
 =======
     start() {
         this.el.querySelector(".modal").addEventListener("keydown", this._onKeydown);
@@ -1631,6 +1640,9 @@ publicWidget.registry.cookies_bar = PopupWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1804,6 +1816,10 @@ publicWidget.registry.cookies_bar = PopupWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.el.querySelector(".modal").removeEventListener("keydown", this._onKeydown);
+>>>>>>> upstream/18.0
 =======
         this.el.querySelector(".modal").removeEventListener("keydown", this._onKeydown);
 >>>>>>> upstream/18.0
@@ -1987,6 +2003,7 @@ publicWidget.registry.cookies_bar = PopupWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this._super(...arguments);
         const policyLinkEl = this.el.querySelector(".o_cookies_bar_text_policy");
         if (policyLinkEl && window.location.pathname === new URL(policyLinkEl.href).pathname) {
@@ -1998,6 +2015,8 @@ publicWidget.registry.cookies_bar = PopupWidget.extend({
             this.el.insertAdjacentElement("beforebegin", this.toggleEl);
             this._toggleCookiesBar();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2212,6 +2231,9 @@ publicWidget.registry.cookies_bar = PopupWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2422,6 +2444,11 @@ publicWidget.registry.cookies_bar = PopupWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.cookieValue = cookie.get(this.el.id);
+
+>>>>>>> upstream/18.0
 =======
         this.cookieValue = cookie.get(this.el.id);
 
@@ -2762,9 +2789,12 @@ publicWidget.registry.cookies_bar = PopupWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         cookie.delete(this.el.id);
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2974,6 +3004,9 @@ publicWidget.registry.cookies_bar = PopupWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3211,6 +3244,7 @@ publicWidget.registry.cookies_bar = PopupWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const isFullConsent = ev.target.id === "cookies-consent-all";
 =======
         const isFullConsent = ev.currentTarget.id === "cookies-consent-all";
@@ -3228,6 +3262,8 @@ publicWidget.registry.cookies_bar = PopupWidget.extend({
         this._onHideModal();
         this.toggleEl && this.toggleEl.remove();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3437,6 +3473,9 @@ publicWidget.registry.cookies_bar = PopupWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3648,7 +3687,10 @@ publicWidget.registry.cookies_bar = PopupWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3762,6 +3804,9 @@ publicWidget.registry.cookies_bar = PopupWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

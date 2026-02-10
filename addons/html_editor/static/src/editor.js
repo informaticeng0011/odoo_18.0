@@ -105,6 +105,10 @@ export class Editor {
         }
         this.preparePlugins();
         editable.setAttribute("contenteditable", true);
+<<<<<<< HEAD
+=======
+        editable.setAttribute("translate", "no");
+>>>>>>> upstream/18.0
         initElementForEdition(editable, { allowInlineAtRoot: !!this.config.allowInlineAtRoot });
         editable.classList.add("odoo-editor-editable");
         if (this.config.classList) {

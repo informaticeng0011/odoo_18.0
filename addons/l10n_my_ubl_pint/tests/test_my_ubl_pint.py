@@ -92,6 +92,10 @@ class TestMyUBLPint(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        cls.env['ir.config_parameter'].set_param('account_edi_ubl_cii.use_new_dict_to_xml_helpers', 'False')
+>>>>>>> upstream/18.0
 =======
         cls.env['ir.config_parameter'].set_param('account_edi_ubl_cii.use_new_dict_to_xml_helpers', 'False')
 >>>>>>> upstream/18.0
@@ -327,12 +331,21 @@ class TestMyUBLPint(AccountTestInvoicingCommon):
         cls.other_currency = cls.setup_other_currency('EUR')
 
         # TIN number is required
+<<<<<<< HEAD
         cls.company_data['company'].write({
+=======
+        cls.company_data['company'].partner_id.write({
+>>>>>>> upstream/18.0
             'vat': 'C2584563200',
             'state_id': cls.env.ref('base.state_my_jhr').id,
             'street': 'that one street, 5',
             'city': 'Main city',
             'phone': '+60123456789',
+<<<<<<< HEAD
+=======
+            'peppol_eas': '0230',
+            'peppol_endpoint': 'C2584563200',
+>>>>>>> upstream/18.0
         })
         cls.partner_a.write({
             'vat': 'C2584563201',
@@ -341,6 +354,11 @@ class TestMyUBLPint(AccountTestInvoicingCommon):
             'street': 'that other street, 3',
             'city': 'Main city',
             'phone': '+60123456786',
+<<<<<<< HEAD
+=======
+            'peppol_eas': '0230',
+            'peppol_endpoint': 'C2584563201',
+>>>>>>> upstream/18.0
         })
 
         cls.fakenow = datetime(2024, 7, 15, 10, 00, 00)
@@ -438,7 +456,10 @@ class TestMyUBLPint(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -684,6 +705,9 @@ class TestMyUBLPint(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -939,7 +963,10 @@ class TestMyUBLPint(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1172,6 +1199,9 @@ class TestMyUBLPint(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

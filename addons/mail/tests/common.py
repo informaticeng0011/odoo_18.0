@@ -158,6 +158,10 @@ import base64
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import contextlib
+>>>>>>> upstream/18.0
 =======
 import contextlib
 >>>>>>> upstream/18.0
@@ -797,6 +801,10 @@ from odoo.addons.base.models.ir_mail_server import IrMailServer
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo import fields
+>>>>>>> upstream/18.0
 =======
 from odoo import fields
 >>>>>>> upstream/18.0
@@ -1654,7 +1662,11 @@ class MockEmail(common.BaseCase, MockSmtplibCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             msg_id = "<%.7f-%5d-test@iron.sky>" % (time.time(), randint(0, 99998))
+=======
+            msg_id = "<%.7f-%05d-test@iron.sky>" % (time.time(), randint(0, 99998))
+>>>>>>> upstream/18.0
 =======
             msg_id = "<%.7f-%05d-test@iron.sky>" % (time.time(), randint(0, 99998))
 >>>>>>> upstream/18.0
@@ -3270,7 +3282,10 @@ class MailCase(MockEmail):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3837,7 +3852,10 @@ class MailCase(MockEmail):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4404,6 +4422,9 @@ class MailCase(MockEmail):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4948,7 +4969,10 @@ class MailCase(MockEmail):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5031,6 +5055,9 @@ class MailCase(MockEmail):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5117,7 +5144,12 @@ class MailCase(MockEmail):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.assertTrue(message, 'Mail: not found message (content: %s, message_type: %s, subtype: %s)' % (mbody, mtype, msubtype.name))
+=======
+                debug_info = ''
+            self.assertTrue(message, 'Mail: not found message (content: %s, message_type: %s, subtype: %s\n%s)' % (mbody, mtype, msubtype.name, debug_info))
+>>>>>>> upstream/18.0
 =======
                 debug_info = ''
             self.assertTrue(message, 'Mail: not found message (content: %s, message_type: %s, subtype: %s\n%s)' % (mbody, mtype, msubtype.name, debug_info))
@@ -5568,7 +5600,11 @@ class MailCase(MockEmail):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if json_dump(expected) == notification:
+=======
+                if json.loads(json_dump(expected)) == json.loads(notification):
+>>>>>>> upstream/18.0
 =======
                 if json.loads(json_dump(expected)) == json.loads(notification):
 >>>>>>> upstream/18.0
@@ -6563,7 +6599,10 @@ class MailCommon(common.TransactionCase, MailCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7044,6 +7083,9 @@ def freeze_all_time(dt=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

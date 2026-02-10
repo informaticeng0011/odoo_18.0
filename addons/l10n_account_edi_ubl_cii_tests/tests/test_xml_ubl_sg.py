@@ -23,6 +23,11 @@ class TestUBLSG(TestUBLCommon):
             'bank_ids': [(0, 0, {'acc_number': '000099998B57'})],
             'ref': 'ref_partner_1',
             'invoice_edi_format': 'ubl_sg',
+<<<<<<< HEAD
+=======
+            'peppol_eas': '0195',
+            'peppol_endpoint': '197401143C',
+>>>>>>> upstream/18.0
         })
 
         cls.partner_2 = cls.env['res.partner'].create({
@@ -36,6 +41,11 @@ class TestUBLSG(TestUBLCommon):
             'bank_ids': [(0, 0, {'acc_number': '93999574162167'})],
             'ref': 'ref_partner_2',
             'invoice_edi_format': 'ubl_sg',
+<<<<<<< HEAD
+=======
+            'peppol_eas': '0195',
+            'peppol_endpoint': 'S16FC0121D',
+>>>>>>> upstream/18.0
         })
 
     ####################################################
