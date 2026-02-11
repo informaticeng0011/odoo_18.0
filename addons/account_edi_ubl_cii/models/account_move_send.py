@@ -74,6 +74,10 @@ from odoo import _, api, fields, models, tools, SUPERUSER_ID
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.account_edi_ubl_cii.models.account_edi_common import SUPPORTED_FILE_TYPES
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.account_edi_ubl_cii.models.account_edi_common import SUPPORTED_FILE_TYPES
 >>>>>>> upstream/18.0
@@ -395,7 +399,10 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -640,6 +647,9 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -805,6 +815,7 @@ class AccountMoveSend(models.AbstractModel):
         # EXTENDS 'account'
         return super()._get_invoice_extra_attachments(move) + move.ubl_cii_xml_id
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1987,6 +1998,11 @@ class AccountMoveSend(models.AbstractModel):
         if extra_edis is None:
             extra_edis = {}
 >>>>>>> upstream/18.0
+=======
+    def _get_placeholder_mail_attachments_data(self, move, invoice_edi_format=None, extra_edis=None):
+        if extra_edis is None:
+            extra_edis = {}
+>>>>>>> upstream/18.0
         # EXTENDS 'account'
         results = super()._get_placeholder_mail_attachments_data(move, invoice_edi_format=invoice_edi_format, extra_edis=extra_edis)
         if move._need_ubl_cii_xml(invoice_edi_format):
@@ -2230,6 +2246,9 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2786,7 +2805,10 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2992,6 +3014,11 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if not invoice_edi_format or not mail_attachments_widget:
+            return self.env['ir.attachment'], self.env['ir.attachment']
+>>>>>>> upstream/18.0
 =======
         if not invoice_edi_format or not mail_attachments_widget:
             return self.env['ir.attachment'], self.env['ir.attachment']
@@ -3313,6 +3340,9 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3740,7 +3770,12 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         pdf_values = invoice.invoice_pdf_report_id or invoice_data.get('pdf_attachment_values') or invoice_data['proforma_pdf_attachment_values']
+=======
+        pdf_values = (not self.env.context.get('custom_template_facturx') and invoice.invoice_pdf_report_id) or \
+            invoice_data.get('pdf_attachment_values') or invoice_data['proforma_pdf_attachment_values']
+>>>>>>> upstream/18.0
 =======
         pdf_values = (not self.env.context.get('custom_template_facturx') and invoice.invoice_pdf_report_id) or \
             invoice_data.get('pdf_attachment_values') or invoice_data['proforma_pdf_attachment_values']
@@ -4730,6 +4765,11 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if "<pdfaid:conformance>B</pdfaid:conformance>" in content:
+                content.replace("<pdfaid:conformance>B</pdfaid:conformance>", "<pdfaid:conformance>A</pdfaid:conformance>")
+>>>>>>> upstream/18.0
 =======
             if "<pdfaid:conformance>B</pdfaid:conformance>" in content:
                 content.replace("<pdfaid:conformance>B</pdfaid:conformance>", "<pdfaid:conformance>A</pdfaid:conformance>")
@@ -4944,9 +4984,14 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         pdf_values = invoice.invoice_pdf_report_id or invoice_data.get('pdf_attachment_values') or invoice_data['proforma_pdf_attachment_values']
         filename = pdf_values['name']
         content = pdf_values['raw']
+=======
+        anchor_index = tree.index(anchor_elements[0])
+        pdf_values = invoice.invoice_pdf_report_id or invoice_data.get('pdf_attachment_values') or invoice_data['proforma_pdf_attachment_values']
+>>>>>>> upstream/18.0
 =======
         anchor_index = tree.index(anchor_elements[0])
         pdf_values = invoice.invoice_pdf_report_id or invoice_data.get('pdf_attachment_values') or invoice_data['proforma_pdf_attachment_values']
@@ -5294,6 +5339,7 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         to_inject = f'''
             <cac:AdditionalDocumentReference
                 xmlns="urn:oasis:names:specification:ubl:schema:xsd:{xmlns_move_type}-2"
@@ -5314,6 +5360,8 @@ class AccountMoveSend(models.AbstractModel):
         anchor_index = tree.index(anchor_elements[0])
         tree.insert(anchor_index, etree.fromstring(to_inject))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5554,6 +5602,9 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

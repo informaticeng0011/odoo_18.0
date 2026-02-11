@@ -33,6 +33,10 @@ export class FloatField extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        minDigits: {type: [Number, String], optional: true },
+>>>>>>> upstream/18.0
 =======
         minDigits: {type: [Number, String], optional: true },
 >>>>>>> upstream/18.0
@@ -145,6 +149,10 @@ export class FloatField extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            minDigits: this.props.minDigits,
+>>>>>>> upstream/18.0
 =======
             minDigits: this.props.minDigits,
 >>>>>>> upstream/18.0
@@ -250,7 +258,10 @@ export const floatField = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -304,6 +315,9 @@ export const floatField = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -398,6 +412,10 @@ export const floatField = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            minDigits: options.min_display_digits,
+>>>>>>> upstream/18.0
 =======
             minDigits: options.min_display_digits,
 >>>>>>> upstream/18.0

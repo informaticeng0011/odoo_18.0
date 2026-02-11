@@ -98,6 +98,10 @@ class IrAttachment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                "res_model",
+>>>>>>> upstream/18.0
 =======
                 "res_model",
 >>>>>>> upstream/18.0

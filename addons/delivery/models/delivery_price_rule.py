@@ -63,8 +63,13 @@ class PriceRule(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     list_base_price = fields.Float(string='Sale Base Price', digits='Product Price', required=True, default=0.0)
     list_price = fields.Float('Sale Price', digits='Product Price', required=True, default=0.0)
+=======
+    list_base_price = fields.Float(string='Sale Base Price', min_display_digits='Product Price', required=True, default=0.0)
+    list_price = fields.Float('Sale Price', min_display_digits='Product Price', required=True, default=0.0)
+>>>>>>> upstream/18.0
 =======
     list_base_price = fields.Float(string='Sale Base Price', min_display_digits='Product Price', required=True, default=0.0)
     list_price = fields.Float('Sale Price', min_display_digits='Product Price', required=True, default=0.0)

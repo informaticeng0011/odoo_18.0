@@ -1,6 +1,10 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# from odoo import exceptions
+>>>>>>> upstream/18.0
 =======
 # from odoo import exceptions
 >>>>>>> upstream/18.0
@@ -9,9 +13,12 @@ from odoo.tests import new_test_user, tagged
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 @tagged("-at_install", "post_install")
 class TestMailMessage(common.MailCommon):
 =======
+=======
+>>>>>>> upstream/18.0
 @tagged("mail_message", "-at_install", "post_install")
 class TestMailMessage(common.MailCommon):
 
@@ -33,6 +40,9 @@ class TestMailMessage(common.MailCommon):
         self.assertIn(message_c1, search_result)
         self.assertNotIn(message_c2, search_result)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_unlink_failure_message_notify_author(self):
         recipient = new_test_user(self.env, login="Bob", email="invalid_email_addr")

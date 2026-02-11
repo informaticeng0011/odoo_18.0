@@ -170,6 +170,7 @@ import { isBlock, closestBlock } from "@html_editor/utils/blocks";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import { FONT_SIZE_CLASSES } from "@html_editor/utils/formatting";
 >>>>>>> upstream/18.0
@@ -268,6 +269,8 @@ import { FONT_SIZE_CLASSES } from "@html_editor/utils/formatting";
 >>>>>>> upstream/18.0
 =======
 import { FONT_SIZE_CLASSES } from "@html_editor/utils/formatting";
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -701,7 +704,11 @@ async function fetchInternalMetaData(url) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 preview_url: urlParsed.pathname,
+=======
+                preview_url: urlParsed.href,
+>>>>>>> upstream/18.0
 =======
                 preview_url: urlParsed.href,
 >>>>>>> upstream/18.0
@@ -1319,6 +1326,7 @@ export class LinkPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         "feff",
 >>>>>>> upstream/18.0
@@ -1561,6 +1569,10 @@ export class LinkPlugin extends Plugin {
 >>>>>>> upstream/18.0
 =======
         "feff",
+>>>>>>> upstream/18.0
+=======
+        "feff",
+        "linkSelection",
 >>>>>>> upstream/18.0
 =======
         "feff",
@@ -2428,6 +2440,10 @@ export class LinkPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        delete_image_overrides: this.deleteImageLink.bind(this),
+>>>>>>> upstream/18.0
 =======
         delete_image_overrides: this.deleteImageLink.bind(this),
 >>>>>>> upstream/18.0
@@ -3177,6 +3193,10 @@ export class LinkPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.LinkPopoverState = { editing: false };
+>>>>>>> upstream/18.0
 =======
         this.LinkPopoverState = { editing: false };
 >>>>>>> upstream/18.0
@@ -3858,6 +3878,7 @@ export class LinkPlugin extends Plugin {
             if (color && childNodes.every((n) => !isBlock(n))) {
                 anchorEl.style.removeProperty("color");
                 const font = selectElements(anchorEl, "font").next().value;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4791,6 +4812,9 @@ export class LinkPlugin extends Plugin {
 =======
                 if (font && cleanZWChars(anchorEl.textContent) === font.textContent) {
 >>>>>>> upstream/18.0
+=======
+                if (font && cleanZWChars(anchorEl.textContent) === font.textContent) {
+>>>>>>> upstream/18.0
                     continue;
                 }
                 const newFont = this.document.createElement("font");
@@ -4968,7 +4992,10 @@ export class LinkPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5484,6 +5511,9 @@ export class LinkPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5991,6 +6021,10 @@ export class LinkPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                this.removeCurrentLinkIfEmtpy();
+>>>>>>> upstream/18.0
 =======
                 this.removeCurrentLinkIfEmtpy();
 >>>>>>> upstream/18.0
@@ -6651,6 +6685,10 @@ export class LinkPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            LinkPopoverState: this.LinkPopoverState,
+>>>>>>> upstream/18.0
 =======
             LinkPopoverState: this.LinkPopoverState,
 >>>>>>> upstream/18.0
@@ -7397,7 +7435,11 @@ export class LinkPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (popoverEl?.contains(selectionData.documentSelection?.anchorNode)) {
+=======
+            if (popoverEl && (!selectionData.documentSelection || popoverEl.contains(selectionData.documentSelection.anchorNode))) {
+>>>>>>> upstream/18.0
 =======
             if (popoverEl && (!selectionData.documentSelection || popoverEl.contains(selectionData.documentSelection.anchorNode))) {
 >>>>>>> upstream/18.0
@@ -7869,8 +7911,13 @@ export class LinkPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const selectedNodes = this.dependencies.selection.getSelectedNodes();
             const imageNode = selectedNodes.find((node) => node.tagName === "IMG");
+=======
+            const targetedNodes = this.dependencies.selection.getTargetedNodes();
+            const imageNode = targetedNodes.find((node) => node.tagName === "IMG");
+>>>>>>> upstream/18.0
 =======
             const targetedNodes = this.dependencies.selection.getTargetedNodes();
             const imageNode = targetedNodes.find((node) => node.tagName === "IMG");
@@ -8681,6 +8728,10 @@ export class LinkPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    this.LinkPopoverState.editing = false;
+>>>>>>> upstream/18.0
 =======
                     this.LinkPopoverState.editing = false;
 >>>>>>> upstream/18.0
@@ -9485,6 +9536,10 @@ export class LinkPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                        this.LinkPopoverState.editing = false;
+>>>>>>> upstream/18.0
 =======
                         this.LinkPopoverState.editing = false;
 >>>>>>> upstream/18.0
@@ -10285,6 +10340,12 @@ export class LinkPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                if (!this.linkElement.href) {
+                    this.LinkPopoverState.editing = true;
+                }
+>>>>>>> upstream/18.0
 =======
                 if (!this.linkElement.href) {
                     this.LinkPopoverState.editing = true;
@@ -11488,6 +11549,7 @@ export class LinkPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 this.LinkPopoverState.editing = false;
 >>>>>>> upstream/18.0
@@ -11627,6 +11689,8 @@ export class LinkPlugin extends Plugin {
                 this.LinkPopoverState.editing = false;
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12085,6 +12149,9 @@ export class LinkPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12587,9 +12654,12 @@ export class LinkPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     onApply: (url, label, classes) => {
                         this.linkElement.href = url;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13147,6 +13217,7 @@ export class LinkPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13180,6 +13251,8 @@ export class LinkPlugin extends Plugin {
 >>>>>>> upstream/18.0
                         if (cleanZWChars(this.linkElement.innerText) === label) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13688,6 +13761,9 @@ export class LinkPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14242,6 +14318,10 @@ export class LinkPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                        this.LinkPopoverState.editing = false;
+>>>>>>> upstream/18.0
 =======
                         this.LinkPopoverState.editing = false;
 >>>>>>> upstream/18.0
@@ -15040,6 +15120,12 @@ export class LinkPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                if (!this.linkElement.href) {
+                    this.LinkPopoverState.editing = true;
+                }
+>>>>>>> upstream/18.0
 =======
                 if (!this.linkElement.href) {
                     this.LinkPopoverState.editing = true;
@@ -16202,9 +16288,15 @@ export class LinkPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const selectedNodes = this.dependencies.selection.getSelectedNodes();
                 let before = linkElement.previousSibling;
                 while (before !== null && selectedNodes.includes(before)) {
+=======
+                const targetedNodes = this.dependencies.selection.getTargetedNodes();
+                let before = linkElement.previousSibling;
+                while (before !== null && targetedNodes.includes(before)) {
+>>>>>>> upstream/18.0
 =======
                 const targetedNodes = this.dependencies.selection.getTargetedNodes();
                 let before = linkElement.previousSibling;
@@ -17121,7 +17213,11 @@ export class LinkPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 while (after !== null && selectedNodes.includes(after)) {
+=======
+                while (after !== null && targetedNodes.includes(after)) {
+>>>>>>> upstream/18.0
 =======
                 while (after !== null && targetedNodes.includes(after)) {
 >>>>>>> upstream/18.0
@@ -17785,6 +17881,7 @@ export class LinkPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             this.LinkPopoverState.editing = true;
 >>>>>>> upstream/18.0
@@ -18232,12 +18329,15 @@ export class LinkPlugin extends Plugin {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             this.LinkPopoverState.editing = true;
             const targetedNodes = this.dependencies.selection.getTargetedNodes();
             const imageNode = targetedNodes.find((node) => node.tagName === "IMG");
 
             const link = this.document.createElement("a");
             if (!selection.isCollapsed) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18831,6 +18931,9 @@ export class LinkPlugin extends Plugin {
 =======
                 const content = this.dependencies.selection.extractContent(selection);
 >>>>>>> upstream/18.0
+=======
+                const content = this.dependencies.selection.extractContent(selection);
+>>>>>>> upstream/18.0
                 link.append(content);
                 link.normalize();
             }
@@ -19042,8 +19145,12 @@ export class LinkPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     removeLink() {
         const link = this.linkElement;
+=======
+    removeLink(link = this.linkElement) {
+>>>>>>> upstream/18.0
 =======
     removeLink(link = this.linkElement) {
 >>>>>>> upstream/18.0
@@ -19798,7 +19905,10 @@ export class LinkPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const cursors = this.dependencies.selection.preserveSelection();
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20508,11 +20618,14 @@ export class LinkPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // to remove link from selected images
         const selectedNodes = this.dependencies.selection.getSelectedNodes();
         const selectedImageNodes = selectedNodes.filter((node) => node.tagName === "IMG");
         if (selectedImageNodes && startLink && endLink && startLink === endLink) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21147,6 +21260,7 @@ export class LinkPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const selectedNodes = this.dependencies.selection.getSelectedNodes();
         const selectedImageNodes = selectedNodes.filter((node) => node.tagName === "IMG");
         if (selectedImageNodes.length && startLink && endLink && startLink === endLink) {
@@ -21390,6 +21504,11 @@ export class LinkPlugin extends Plugin {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        let targetedNodes = this.dependencies.selection.getTargetedNodes();
+        const selectedImageNodes = targetedNodes.filter((node) => node.tagName === "IMG");
+        if (selectedImageNodes.length && startLink && endLink && startLink === endLink) {
 >>>>>>> upstream/18.0
 =======
         let targetedNodes = this.dependencies.selection.getTargetedNodes();
@@ -22322,7 +22441,11 @@ export class LinkPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 selectedImageNodes.length === selectedNodes.length
+=======
+                selectedImageNodes.length === targetedNodes.length
+>>>>>>> upstream/18.0
 =======
                 selectedImageNodes.length === targetedNodes.length
 >>>>>>> upstream/18.0
@@ -23017,6 +23140,11 @@ export class LinkPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        const startBlock = closestBlock(startLink);
+        const endBlock = closestBlock(endLink);
+>>>>>>> upstream/18.0
 =======
         const startBlock = closestBlock(startLink);
         const endBlock = closestBlock(endLink);
@@ -24118,7 +24246,11 @@ export class LinkPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const targetedNodes = this.dependencies.selection.getSelectedNodes();
+=======
+        targetedNodes = this.dependencies.selection.getTargetedNodes();
+>>>>>>> upstream/18.0
 =======
         targetedNodes = this.dependencies.selection.getTargetedNodes();
 >>>>>>> upstream/18.0
@@ -24820,7 +24952,10 @@ export class LinkPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25525,6 +25660,9 @@ export class LinkPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26229,6 +26367,11 @@ export class LinkPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        const buttonClassRegex =
+            /^(btn|btn-(sm|lg|(?:[a-z0-9_]+-)?(?:primary|secondary))|rounded-circle)$/;
+>>>>>>> upstream/18.0
 =======
         const buttonClassRegex =
             /^(btn|btn-(sm|lg|(?:[a-z0-9_]+-)?(?:primary|secondary))|rounded-circle)$/;
@@ -27398,7 +27541,13 @@ export class LinkPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const classes = [...link.classList].filter((c) => !this.ignoredClasses.has(c));
+=======
+            const classes = [...link.classList].filter(
+                (c) => !this.ignoredClasses.has(c) && !buttonClassRegex.test(c)
+            );
+>>>>>>> upstream/18.0
 =======
             const classes = [...link.classList].filter(
                 (c) => !this.ignoredClasses.has(c) && !buttonClassRegex.test(c)
@@ -28812,7 +28961,10 @@ export class LinkPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -29332,6 +29484,9 @@ export class LinkPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

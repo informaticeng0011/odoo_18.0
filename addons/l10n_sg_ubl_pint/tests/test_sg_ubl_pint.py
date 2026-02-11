@@ -30,6 +30,10 @@ class TestSgUBLPint(AccountTestInvoicingCommon):
         cls.partner_a.write({
             'vat': 'S16FC0121D',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'l10n_sg_unique_entity_number': '301131415A',
+>>>>>>> upstream/18.0
 =======
             'l10n_sg_unique_entity_number': '301131415A',
 >>>>>>> upstream/18.0

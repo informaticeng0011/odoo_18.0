@@ -77,7 +77,11 @@ export class BomOverviewComponent extends Component {
         this.showVariants = bomData["is_variant_applied"];
         if (this.showVariants) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.state.currentVariantId ||= Object.keys(this.variants)[0];
+=======
+            this.state.currentVariantId ||= this.state.bomData.product_id;
+>>>>>>> upstream/18.0
 =======
             this.state.currentVariantId ||= this.state.bomData.product_id;
 >>>>>>> upstream/18.0

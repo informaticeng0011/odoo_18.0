@@ -39,6 +39,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -735,6 +736,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -777,6 +780,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -856,6 +862,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1593,6 +1600,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Thi Huong Nguyen, 2025\n"
@@ -1638,6 +1647,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1760,8 +1772,12 @@ msgstr "<strong>Lỗi:</strong> Đơn vị tiền tệ bị thiếu hoặc khôn
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "<strong>Error:</strong> There was a problem during the payment process."
+=======
+msgid "<strong>Error:</strong> There was a problem during the payment process."
+>>>>>>> upstream/18.0
 =======
 msgid "<strong>Error:</strong> There was a problem during the payment process."
 >>>>>>> upstream/18.0
@@ -1920,8 +1936,12 @@ msgid "A POS config cannot have more than one online payment method."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Cấu hình POS không thể có nhiều hơn một phương thức thanh toán online."
+=======
+msgstr "Cấu hình POS không thể có nhiều hơn một phương thức thanh toán online."
+>>>>>>> upstream/18.0
 =======
 msgstr "Cấu hình POS không thể có nhiều hơn một phương thức thanh toán online."
 >>>>>>> upstream/18.0
@@ -2046,6 +2066,7 @@ msgstr "Phải chỉ định một tùy chọn thanh toán."
 #. module: pos_online_payment
 #. odoo-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2919,6 +2940,11 @@ msgid "A validation payment cannot be used for a Point of Sale online payment."
 msgstr ""
 "Thanh toán xác thực không thể được sử dụng cho thanh toán online tại POS."
 >>>>>>> upstream/18.0
+=======
+msgid "A validation payment cannot be used for a Point of Sale online payment."
+msgstr ""
+"Thanh toán xác thực không thể được sử dụng cho thanh toán online tại POS."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pos_payment_method_view_form_inherit_pos_online_payment
@@ -2972,8 +2998,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "online phải sử dùng cùng đơn vị tiền tệ với Sổ nhật ký bán hàng, hoặc đơn vị"
 " tiền tệ công ty nếu chưa thiết lập sổ, của cấu hình POS. "
+=======
+"online phải sử dùng cùng đơn vị tiền tệ với Sổ nhật ký bán hàng, hoặc đơn vị "
+"tiền tệ công ty nếu chưa thiết lập sổ, của cấu hình POS. "
+>>>>>>> upstream/18.0
 =======
 "online phải sử dùng cùng đơn vị tiền tệ với Sổ nhật ký bán hàng, hoặc đơn vị "
 "tiền tệ công ty nếu chưa thiết lập sổ, của cấu hình POS. "
@@ -3298,6 +3329,7 @@ msgstr "Thanh toán"
 #. module: pos_online_payment
 #: model:ir.model,name:pos_online_payment.model_pos_config
 msgid "Point of Sale Configuration"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4067,10 +4099,14 @@ msgstr "Cấu hình POS"
 =======
 msgstr "Cấu hình POS"
 >>>>>>> upstream/18.0
+=======
+msgstr "Cấu hình POS"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model:ir.model,name:pos_online_payment.model_pos_order
 msgid "Point of Sale Orders"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4840,10 +4876,14 @@ msgstr "Đơn hàng POS"
 =======
 msgstr "Đơn hàng POS"
 >>>>>>> upstream/18.0
+=======
+msgstr "Đơn hàng POS"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model:ir.model,name:pos_online_payment.model_pos_payment_method
 msgid "Point of Sale Payment Methods"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5613,10 +5653,14 @@ msgstr "Phương thức thanh toán POS"
 =======
 msgstr "Phương thức thanh toán POS"
 >>>>>>> upstream/18.0
+=======
+msgstr "Phương thức thanh toán POS"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model:ir.model,name:pos_online_payment.model_pos_payment
 msgid "Point of Sale Payments"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6386,6 +6430,9 @@ msgstr "Thanh toán POS"
 =======
 msgstr "Thanh toán POS"
 >>>>>>> upstream/18.0
+=======
+msgstr "Thanh toán POS"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model:ir.model,name:pos_online_payment.model_pos_session
@@ -6446,6 +6493,7 @@ msgstr "Phiên POS không mở."
 #. module: pos_online_payment
 #: model:ir.model.fields,help:pos_online_payment.field_payment_transaction__pos_order_id
 msgid "The Point of Sale order linked to the payment transaction"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7215,10 +7263,14 @@ msgstr "Đơn hàng POS liên kết với giao dịch thanh toán"
 =======
 msgstr "Đơn hàng POS liên kết với giao dịch thanh toán"
 >>>>>>> upstream/18.0
+=======
+msgstr "Đơn hàng POS liên kết với giao dịch thanh toán"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model:ir.model.fields,help:pos_online_payment.field_account_payment__pos_order_id
 msgid "The Point of Sale order linked to this payment"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7483,6 +7535,9 @@ msgstr "Đơn hàng Máy tính tiền liên kết với thanh toán này"
 >>>>>>> upstream/18.0
 =======
 msgstr "Đơn hàng Máy tính tiền liên kết với thanh toán này"
+>>>>>>> upstream/18.0
+=======
+msgstr "Đơn hàng POS liên kết với thanh toán này"
 >>>>>>> upstream/18.0
 =======
 msgstr "Đơn hàng POS liên kết với thanh toán này"
@@ -8310,6 +8365,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Không có phương thức thanh toán online nào được cấu hình cho đơn hàng Điểm "
 "bán hàng này."
 =======
@@ -8407,6 +8463,10 @@ msgstr ""
 =======
 "Không có phương thức thanh toán online nào được cấu hình cho đơn hàng Máy "
 "tính tiền này."
+>>>>>>> upstream/18.0
+=======
+"Không có phương thức thanh toán online nào được cấu hình cho đơn hàng POS "
+"này."
 >>>>>>> upstream/18.0
 =======
 "Không có phương thức thanh toán online nào được cấu hình cho đơn hàng POS "

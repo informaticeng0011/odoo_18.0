@@ -155,7 +155,11 @@ import { markRaw } from "@odoo/owl";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { batched } from "@web/core/utils/timing";
+=======
+import { debounce } from "@web/core/utils/timing";
+>>>>>>> upstream/18.0
 =======
 import { debounce } from "@web/core/utils/timing";
 >>>>>>> upstream/18.0
@@ -805,6 +809,7 @@ export class PosData extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         effect(
             batched((records) => {
                 this.syncDataWithIndexedDB(records);
@@ -812,6 +817,8 @@ export class PosData extends Reactive {
             [this.records]
         );
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1270,6 +1277,9 @@ export class PosData extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1664,6 +1674,7 @@ export class PosData extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // Will separate records to remove from indexedDB and records to add
         const dataSorter = (records, isFinalized, key) =>
             records.reduce(
@@ -1683,6 +1694,8 @@ export class PosData extends Reactive {
                 { put: [], remove: [] }
             );
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1768,6 +1781,7 @@ export class PosData extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const dataToDelete = {};
 
         for (const [model, params] of Object.entries(this.opts.databaseTable)) {
@@ -1781,6 +1795,8 @@ export class PosData extends Reactive {
             this.indexedDB.create(model, data.put);
             dataToDelete[model] = data.remove;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1892,6 +1908,9 @@ export class PosData extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1952,6 +1971,7 @@ export class PosData extends Reactive {
 
             for (const [model, records] of Object.entries(data)) {
                 const key = this.opts.databaseTable[model].key;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2088,6 +2108,10 @@ export class PosData extends Reactive {
                 const keysToDelete = [];
 
 >>>>>>> upstream/18.0
+=======
+                const keysToDelete = [];
+
+>>>>>>> upstream/18.0
                 for (const record of records) {
                     const localRecord = this.models[model].get(record.id);
                     if (!localRecord) {
@@ -2119,6 +2143,12 @@ export class PosData extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    if (!dataToKeep[model] || !dataToKeep[model].includes(record[key])) {
+                        keysToDelete.push(record[key]);
+                    }
+>>>>>>> upstream/18.0
 =======
                     if (!dataToKeep[model] || !dataToKeep[model].includes(record[key])) {
                         keysToDelete.push(record[key]);
@@ -2359,6 +2389,7 @@ export class PosData extends Reactive {
 
         const order = data["pos.order"] || [];
         const orderlines = data["pos.order.line"] || [];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3088,6 +3119,8 @@ export class PosData extends Reactive {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const payments = data["pos.payment"] || [];
 
         delete data["pos.order"];
@@ -3253,6 +3286,9 @@ export class PosData extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3565,6 +3601,7 @@ export class PosData extends Reactive {
             order.lines.some((line) => line.is_reward_line && !line.coupon_id)
         );
         for (const order of order_to_delete) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4286,6 +4323,8 @@ export class PosData extends Reactive {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             for (let i = order.lines.length - 1; i >= 0; i--) {
                 order.lines[i].delete();
             }
@@ -4513,6 +4552,9 @@ export class PosData extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5104,9 +5146,12 @@ export class PosData extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     result = await this.orm.read(model, ids, fields, {
                         ...options,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5423,6 +5468,9 @@ export class PosData extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5736,9 +5784,12 @@ export class PosData extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     result = await this.orm.searchRead(model, args, fields, {
                         ...options,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6055,6 +6106,9 @@ export class PosData extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6530,6 +6584,10 @@ export class PosData extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                context: { display_default_code: false },
+>>>>>>> upstream/18.0
 =======
                 context: { display_default_code: false },
 >>>>>>> upstream/18.0

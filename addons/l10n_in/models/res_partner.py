@@ -263,6 +263,7 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.onchange('company_type')
     def onchange_company_type(self):
         res = super().onchange_company_type()
@@ -279,6 +280,8 @@ class ResPartner(models.Model):
             self.l10n_in_gst_treatment = (self.company_type == 'company') and 'regular' or 'consumer'
         return res
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -718,6 +721,7 @@ class ResPartner(models.Model):
     @api.model
     def _l10n_in_get_partner_vals_by_vat(self, vat):
         partner_data = self.enrich_by_gst(vat)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1599,12 +1603,16 @@ class ResPartner(models.Model):
 =======
         for fname in list(partner_data.keys()):
 >>>>>>> upstream/18.0
+=======
+        for fname in list(partner_data.keys()):
+>>>>>>> upstream/18.0
             if fname not in self.env['res.partner']._fields:
                 partner_data.pop(fname, None)
         partner_data.update({
             'country_id': partner_data.get('country_id', {}).get('id'),
             'state_id': partner_data.get('state_id', {}).get('id'),
             'company_type': 'company',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2002,11 +2010,15 @@ class ResPartner(models.Model):
 =======
             'l10n_in_gst_treatment': partner_data.get('l10n_in_gst_treatment', 'regular'),
 >>>>>>> upstream/18.0
+=======
+            'l10n_in_gst_treatment': partner_data.get('l10n_in_gst_treatment', 'regular'),
+>>>>>>> upstream/18.0
         })
         return partner_data
 
     def action_update_state_as_per_gstin(self):
         self.ensure_one()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2849,6 +2861,8 @@ class ResPartner(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         if self.check_vat_in(self.vat):
             state_id = self.env['res.country.state'].search([('l10n_in_tin', '=', self.vat[:2])], limit=1)
             self.state_id = state_id
@@ -3005,6 +3019,9 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -44,6 +44,7 @@ patch(PaymentScreen.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (order.isSACompany && order.finalized && order.l10n_sa_invoice_edi_state !== "sent") {
 =======
         // note: Skips entirely if journal is not onboarded or electronic invoicing is not selected
@@ -70,6 +71,8 @@ patch(PaymentScreen.prototype, {
         if (order.isSACompany && order.finalized && !order.l10n_sa_invoice_qr_code_str) {
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -159,6 +162,9 @@ patch(PaymentScreen.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

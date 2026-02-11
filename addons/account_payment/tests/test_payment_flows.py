@@ -161,6 +161,10 @@ from odoo.addons.account_payment.controllers.payment import PaymentPortal
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.account_payment.controllers.portal import PortalAccount
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.account_payment.controllers.portal import PortalAccount
 >>>>>>> upstream/18.0
@@ -964,7 +968,10 @@ class TestFlows(AccountPaymentCommon, PaymentHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1440,6 +1447,7 @@ class TestFlows(AccountPaymentCommon, PaymentHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1512,6 +1520,8 @@ class TestFlows(AccountPaymentCommon, PaymentHttpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1936,6 +1946,9 @@ class TestFlows(AccountPaymentCommon, PaymentHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

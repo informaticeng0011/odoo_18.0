@@ -4,6 +4,10 @@ from zipfile import ZipFile
 from odoo.fields import Command
 from odoo.tests.common import tagged
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.account_edi_ubl_cii.tests.common import TestUblBis3Common, TestUblCiiBECommon
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.account_edi_ubl_cii.tests.common import TestUblBis3Common, TestUblCiiBECommon
 >>>>>>> upstream/18.0
@@ -12,7 +16,11 @@ from odoo.addons.account.tests.common import AccountTestInvoicingHttpCommon
 
 @tagged('post_install', '-at_install')
 <<<<<<< HEAD
+<<<<<<< HEAD
 class TestDownloadDocs(AccountTestInvoicingHttpCommon):
+=======
+class TestDownloadDocs(TestUblBis3Common, TestUblCiiBECommon, AccountTestInvoicingHttpCommon):
+>>>>>>> upstream/18.0
 =======
 class TestDownloadDocs(TestUblBis3Common, TestUblCiiBECommon, AccountTestInvoicingHttpCommon):
 >>>>>>> upstream/18.0
@@ -21,11 +29,17 @@ class TestDownloadDocs(TestUblBis3Common, TestUblCiiBECommon, AccountTestInvoici
     def setUpClass(cls):
         super().setUpClass()
 <<<<<<< HEAD
+<<<<<<< HEAD
         cls.partner_a.country_id = cls.env.ref('base.be')
         cls.partner_a.invoice_edi_format = 'ubl_bis3'
         invoice_1 = cls.env['account.move'].create({
             'move_type': 'out_invoice',
             'partner_id': cls.partner_a.id,
+=======
+        invoice_1 = cls.env['account.move'].create({
+            'move_type': 'out_invoice',
+            'partner_id': cls.partner_be.id,
+>>>>>>> upstream/18.0
 =======
         invoice_1 = cls.env['account.move'].create({
             'move_type': 'out_invoice',
@@ -42,7 +56,11 @@ class TestDownloadDocs(TestUblBis3Common, TestUblCiiBECommon, AccountTestInvoici
         invoice_2 = cls.env['account.move'].create({
             'move_type': 'out_invoice',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'partner_id': cls.partner_a.id,
+=======
+            'partner_id': cls.partner_be.id,
+>>>>>>> upstream/18.0
 =======
             'partner_id': cls.partner_be.id,
 >>>>>>> upstream/18.0
@@ -57,7 +75,11 @@ class TestDownloadDocs(TestUblBis3Common, TestUblCiiBECommon, AccountTestInvoici
         invoice_3 = cls.env['account.move'].create({
             'move_type': 'out_invoice',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'partner_id': cls.partner_a.id,
+=======
+            'partner_id': cls.partner_be.id,
+>>>>>>> upstream/18.0
 =======
             'partner_id': cls.partner_be.id,
 >>>>>>> upstream/18.0
@@ -72,7 +94,11 @@ class TestDownloadDocs(TestUblBis3Common, TestUblCiiBECommon, AccountTestInvoici
         cls.invoices = invoice_1 + invoice_2
         cls.invoices.action_post()
 <<<<<<< HEAD
+<<<<<<< HEAD
         cls.invoices._generate_and_send(sending_methods=['manual'])
+=======
+        cls._generate_invoice_ubl_file(cls.invoices)
+>>>>>>> upstream/18.0
 =======
         cls._generate_invoice_ubl_file(cls.invoices)
 >>>>>>> upstream/18.0

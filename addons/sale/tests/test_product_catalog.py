@@ -118,10 +118,15 @@ class TestProductCatalog(HttpCase, SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(
             catalog_context['product_catalog_digits'],
             (16, self.env['decimal.precision'].precision_get('Product Price')),
         )
+=======
+        # Equal to false, as `price_unit` doesn't have a precision set.
+        self.assertFalse(catalog_context['product_catalog_digits'])
+>>>>>>> upstream/18.0
 =======
         # Equal to false, as `price_unit` doesn't have a precision set.
         self.assertFalse(catalog_context['product_catalog_digits'])
@@ -403,7 +408,10 @@ class TestProductCatalog(HttpCase, SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -660,6 +668,9 @@ class TestProductCatalog(HttpCase, SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

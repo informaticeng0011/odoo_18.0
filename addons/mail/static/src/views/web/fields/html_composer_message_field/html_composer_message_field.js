@@ -190,6 +190,10 @@ import { SIGNATURE_CLASS } from "@html_editor/main/signature_plugin";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { fillEmpty } from "@html_editor/utils/dom";
+>>>>>>> upstream/18.0
 =======
 import { fillEmpty } from "@html_editor/utils/dom";
 >>>>>>> upstream/18.0
@@ -952,7 +956,10 @@ export class HtmlComposerMessageField extends HtmlMailField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1516,6 +1523,9 @@ export class HtmlComposerMessageField extends HtmlMailField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1909,11 +1919,17 @@ export class HtmlComposerMessageField extends HtmlMailField {
             this.props.record.data.attachment_ids.linkTo(attachment.id, attachment);
         };
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         config.thread = this.env.services["mail.store"]?.Thread.get({
             model: this.props.record.data.model,
             id: JSON.parse(this.props.record.data.res_ids || "[]")[0],
         });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         return config;
     }

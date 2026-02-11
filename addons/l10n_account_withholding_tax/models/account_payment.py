@@ -1,5 +1,9 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
+<<<<<<< HEAD
 from odoo import Command, api, fields, models
+=======
+from odoo import api, fields, models
+>>>>>>> upstream/18.0
 
 
 class AccountPayment(models.Model):
@@ -96,6 +100,7 @@ class AccountPayment(models.Model):
 
     @api.model
     def _get_trigger_fields_to_synchronize(self):
+<<<<<<< HEAD
         # EXTEND account to add the withholding fields in the list.
         return super()._get_trigger_fields_to_synchronize() + ('withholding_line_ids', 'should_withhold_tax')
 
@@ -177,3 +182,14 @@ class AccountPayment(models.Model):
             liquidity_line_values['debit'] = 0.0
             liquidity_line_values['credit'] = -liquidity_line_balance
         return move_vals
+=======
+        # EXTEND account
+        return super()._get_trigger_fields_to_synchronize() + ('withholding_line_ids', 'should_withhold_tax')
+
+    def _prepare_move_withholding_lines(self, default_values):
+        # EXTENDS account
+        withholding_lines = super()._prepare_move_withholding_lines(default_values)
+        if self.should_withhold_tax and self.withholding_line_ids:
+            withholding_lines += self.withholding_line_ids._prepare_withholding_amls_create_values()
+        return withholding_lines
+>>>>>>> upstream/18.0

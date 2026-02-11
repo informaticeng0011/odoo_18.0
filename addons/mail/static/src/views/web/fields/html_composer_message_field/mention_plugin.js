@@ -16,7 +16,11 @@ export class MentionPlugin extends Plugin {
         this.mentionList = this.dependencies.overlay.createOverlay(MentionList, {
             hasAutofocus: true,
 <<<<<<< HEAD
+<<<<<<< HEAD
             className: "popover",
+=======
+            className: "popover o-mail-MentionPlugin-overlay",
+>>>>>>> upstream/18.0
 =======
             className: "popover o-mail-MentionPlugin-overlay",
 >>>>>>> upstream/18.0
@@ -50,6 +54,10 @@ export class MentionPlugin extends Plugin {
                 props: {
                     onSelect: this.onSelect.bind(this),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    thread: this.config.thread,
+>>>>>>> upstream/18.0
 =======
                     thread: this.config.thread,
 >>>>>>> upstream/18.0

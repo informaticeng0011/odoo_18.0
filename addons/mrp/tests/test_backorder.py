@@ -109,7 +109,11 @@ from odoo.tests import Form
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests.common import TransactionCase
+=======
+from odoo.tests.common import TransactionCase, freeze_time
+>>>>>>> upstream/18.0
 =======
 from odoo.tests.common import TransactionCase, freeze_time
 >>>>>>> upstream/18.0
@@ -1127,7 +1131,10 @@ class TestMrpProductionBackorder(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1866,6 +1873,9 @@ class TestMrpProductionBackorder(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2585,7 +2595,10 @@ class TestMrpProductionBackorder(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2898,6 +2911,9 @@ class TestMrpProductionBackorder(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3367,7 +3383,10 @@ class TestMrpProductionBackorder(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3491,6 +3510,9 @@ class TestMrpProductionBackorder(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3710,6 +3732,10 @@ class TestMrpWorkorderBackorder(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    @freeze_time('2025-10-27 12:00:00')
+>>>>>>> upstream/18.0
 =======
     @freeze_time('2025-10-27 12:00:00')
 >>>>>>> upstream/18.0
@@ -4211,6 +4237,7 @@ class TestMrpWorkorderBackorder(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertRecordValues(op_6, [{'state': 'done', 'qty_remaining': 0.0}])
 =======
 =======
@@ -4249,6 +4276,8 @@ class TestMrpWorkorderBackorder(TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4640,6 +4669,9 @@ class TestMrpWorkorderBackorder(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

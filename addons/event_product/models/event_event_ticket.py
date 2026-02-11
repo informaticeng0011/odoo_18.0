@@ -28,7 +28,11 @@ class EventTicket(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         digits='Product Price', readonly=False, compute_sudo=True)
+=======
+        min_display_digits='Product Price', readonly=False, compute_sudo=True)
+>>>>>>> upstream/18.0
 =======
         min_display_digits='Product Price', readonly=False, compute_sudo=True)
 >>>>>>> upstream/18.0

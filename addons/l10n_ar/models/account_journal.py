@@ -172,7 +172,11 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 '8': ['B', 'C', 'I'],
+=======
+                '8': ['I'],
+>>>>>>> upstream/18.0
 =======
                 '8': ['I'],
 >>>>>>> upstream/18.0
@@ -551,6 +555,7 @@ class AccountJournal(models.Model):
         receipt_m_code = ['54']
         receipt_codes = ['4', '9', '15']
         expo_codes = ['19', '20', '21']
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1500,10 +1505,16 @@ class AccountJournal(models.Model):
         lsg_codes = ['331']
         no_pos_docs = [
 >>>>>>> upstream/18.0
+=======
+        zeta_codes = ['80', '83', '110']
+        lsg_codes = ['331']
+        no_pos_docs = [
+>>>>>>> upstream/18.0
             '23', '24', '25', '26', '27', '28', '33', '43', '45', '46', '48', '58', '60', '61', '150', '151', '157',
             '158', '161', '162', '164', '166', '167', '171', '172', '180', '182', '186', '188', '332']
         codes = []
         if (self.type == 'sale' and not self.l10n_ar_is_pos) or (self.type == 'purchase' and afip_pos_system in ['II_IM', 'RLI_RLM']):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2061,6 +2072,8 @@ class AccountJournal(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             codes = no_pos_docs + lsg_codes
         elif self.type == 'purchase' and afip_pos_system == 'RAW_MAW':
             # electronic invoices (wsfev1) (intersection between available docs on ws and no_pos_docs)
@@ -2250,6 +2263,9 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

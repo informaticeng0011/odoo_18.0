@@ -91,6 +91,11 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    selectHeader,
+    clickOnEditAndWaitEditMode,
+>>>>>>> upstream/18.0
 =======
     selectHeader,
     clickOnEditAndWaitEditMode,
@@ -721,6 +726,17 @@ registerWebsitePreviewTour('edit_megamenu_big_icons_subtitles', {
         trigger: ':iframe .s_mega_menu_odoo_menu .row > div:first-child .nav > :first-child',
         run: "click",
     },
+<<<<<<< HEAD
+=======
+    {
+        trigger: "body",
+        run: async () => {
+            const { promise, resolve } = Promise.withResolvers();
+            setTimeout(resolve, 200);
+            return promise;
+        },
+    },
+>>>>>>> upstream/18.0
     changeOption("MegaMenuLayout", "we-toggler"),
     {
         content: "Select Big Icons Subtitles mega menu",
@@ -846,7 +862,10 @@ registerWebsitePreviewTour('edit_megamenu_big_icons_subtitles', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1331,6 +1350,9 @@ registerWebsitePreviewTour(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

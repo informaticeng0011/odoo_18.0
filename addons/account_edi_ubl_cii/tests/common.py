@@ -21,9 +21,12 @@ class TestUblCiiCommon(AccountTestInvoicingCommon):
 
     @classmethod
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _create_partner_be(cls, **kwargs):
         return cls.env['res.partner'].create({
 =======
+=======
+>>>>>>> upstream/18.0
     def _create_partner_default_values(cls):
         return {
             'invoice_sending_method': 'manual',
@@ -36,6 +39,9 @@ class TestUblCiiCommon(AccountTestInvoicingCommon):
     def _create_partner_be(cls, **kwargs):
         return cls.env['res.partner'].create({
             **cls._create_partner_default_values(),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             'name': 'partner_be',
             'street': "Rue des Bourlottes 9",
@@ -44,10 +50,13 @@ class TestUblCiiCommon(AccountTestInvoicingCommon):
             'vat': 'BE0477472701',
             'company_registry': '0477472701',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'invoice_sending_method': 'manual',
             'property_account_receivable_id': cls.company_data['default_account_receivable'].id,
             'property_account_payable_id': cls.company_data['default_account_payable'].id,
             'company_id': cls.company_data['company'].id,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             'bank_ids': [Command.create({'acc_number': 'BE90735788866632'})],
@@ -59,6 +68,10 @@ class TestUblCiiCommon(AccountTestInvoicingCommon):
     def _create_partner_lu_dig(cls, **kwargs):
         return cls.env['res.partner'].create({
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            **cls._create_partner_default_values(),
+>>>>>>> upstream/18.0
 =======
             **cls._create_partner_default_values(),
 >>>>>>> upstream/18.0
@@ -68,10 +81,13 @@ class TestUblCiiCommon(AccountTestInvoicingCommon):
             'city': "Luxembourg",
             'vat': None,
 <<<<<<< HEAD
+<<<<<<< HEAD
             'invoice_sending_method': 'manual',
             'property_account_receivable_id': cls.company_data['default_account_receivable'].id,
             'property_account_payable_id': cls.company_data['default_account_payable'].id,
             'company_id': cls.company_data['company'].id,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             'country_id': cls.env.ref('base.lu').id,
@@ -84,6 +100,10 @@ class TestUblCiiCommon(AccountTestInvoicingCommon):
     def _create_partner_au(cls, **kwargs):
         return cls.env['res.partner'].create({
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            **cls._create_partner_default_values(),
+>>>>>>> upstream/18.0
 =======
             **cls._create_partner_default_values(),
 >>>>>>> upstream/18.0
@@ -93,10 +113,13 @@ class TestUblCiiCommon(AccountTestInvoicingCommon):
             'city': "Canberra",
             'vat': '53 930 548 027',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'invoice_sending_method': 'manual',
             'property_account_receivable_id': cls.company_data['default_account_receivable'].id,
             'property_account_payable_id': cls.company_data['default_account_payable'].id,
             'company_id': cls.company_data['company'].id,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             'country_id': cls.env.ref('base.au').id,
@@ -193,6 +216,7 @@ class TestUblBis3Common(TestUblCiiCommon):
 
     @classmethod
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _create_partner_be(cls, **kwargs):
         kwargs.setdefault('invoice_edi_format', 'ubl_bis3')
         return super()._create_partner_be(**kwargs)
@@ -202,10 +226,15 @@ class TestUblBis3Common(TestUblCiiCommon):
         kwargs.setdefault('invoice_edi_format', 'ubl_bis3')
         return super()._create_partner_lu_dig(**kwargs)
 =======
+=======
+>>>>>>> upstream/18.0
     def _create_partner_default_values(cls):
         values = super()._create_partner_default_values()
         values['invoice_edi_format'] = 'ubl_bis3'
         return values
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     # -------------------------------------------------------------------------
@@ -234,7 +263,11 @@ class TestUblBis3Common(TestUblCiiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return super().subfolder().replace('export', 'export/bis3')
+=======
+        return super().subfolder().replace('export', 'export/bis3/invoice')
+>>>>>>> upstream/18.0
 =======
         return super().subfolder().replace('export', 'export/bis3/invoice')
 >>>>>>> upstream/18.0
