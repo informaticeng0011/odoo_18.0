@@ -1,7 +1,10 @@
 -- disable_l10n_pl_edi_integration
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 -- Delete customer's certificates
 DELETE FROM certificate_certificate
       WHERE id IN (
@@ -10,6 +13,9 @@ DELETE FROM certificate_certificate
                )
 ;
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 -- clear KSeF Credentials
 UPDATE res_company
@@ -17,10 +23,13 @@ UPDATE res_company
        l10n_pl_edi_access_token = NULL,
        l10n_pl_edi_refresh_token = NULL,
 <<<<<<< HEAD
+<<<<<<< HEAD
        l10n_pl_edi_session_id = NULL,
        l10n_pl_edi_session_key = NULL,
        l10n_pl_edi_session_iv = NULL
 =======
+=======
+>>>>>>> upstream/18.0
        l10n_pl_edi_session_id = NULL
 ;
 
@@ -28,6 +37,9 @@ UPDATE res_company
 DELETE FROM ir_attachment
       WHERE res_model = 'res.company'
         AND res_field IN ('l10n_pl_edi_session_key', 'l10n_pl_edi_session_iv')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 ;
 

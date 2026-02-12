@@ -164,6 +164,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'pos_self_order/static/src/backend/qr_order_button/*',
+>>>>>>> upstream/18.0
 =======
             'pos_self_order/static/src/backend/qr_order_button/*',
 >>>>>>> upstream/18.0
@@ -720,6 +724,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'pos_self_order/static/src/backend/qr_order_button/*',
+>>>>>>> upstream/18.0
 =======
             'pos_self_order/static/src/backend/qr_order_button/*',
 >>>>>>> upstream/18.0
@@ -1227,6 +1235,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'point_of_sale/static/src/app/utils/init_lna.js',
+>>>>>>> upstream/18.0
 =======
             'point_of_sale/static/src/app/utils/init_lna.js',
 >>>>>>> upstream/18.0

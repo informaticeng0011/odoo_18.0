@@ -162,6 +162,7 @@ import { isNode, toSelector } from "@web/../lib/hoot-dom/helpers/dom";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { isIterable } from "@web/../lib/hoot-dom/hoot_dom_utils";
 import { logger } from "../core/logger";
 <<<<<<< HEAD
@@ -235,6 +236,10 @@ import { getTypeOf, Markup, S_ANY, S_NONE, stringify, toExplicitString } from ".
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+import { isInstanceOf, isIterable } from "@web/../lib/hoot-dom/hoot_dom_utils";
+import { logger } from "../core/logger";
 >>>>>>> upstream/18.0
 =======
 import { isInstanceOf, isIterable } from "@web/../lib/hoot-dom/hoot_dom_utils";
@@ -977,6 +982,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    S_CIRCULAR,
+>>>>>>> upstream/18.0
 =======
     S_CIRCULAR,
 >>>>>>> upstream/18.0
@@ -1529,6 +1538,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2083,8 +2095,13 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const xml = (template, ...substitutions) =>
     owlXml({
+=======
+function xml(template, ...substitutions) {
+    return owlXml({
+>>>>>>> upstream/18.0
 =======
 function xml(template, ...substitutions) {
     return owlXml({
@@ -2974,6 +2991,10 @@ function xml(template, ...substitutions) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -3674,7 +3695,11 @@ export class HootTechnicalValue extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <t t-elif="value === S_ANY or value === S_NONE">
+=======
+        <t t-elif="SPECIAL_SYMBOLS.includes(value)">
+>>>>>>> upstream/18.0
 =======
         <t t-elif="SPECIAL_SYMBOLS.includes(value)">
 >>>>>>> upstream/18.0
@@ -4249,8 +4274,12 @@ export class HootTechnicalValue extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     S_ANY = S_ANY;
     S_NONE = S_NONE;
+=======
+    SPECIAL_SYMBOLS = [S_ANY, S_CIRCULAR, S_NONE];
+>>>>>>> upstream/18.0
 =======
     SPECIAL_SYMBOLS = [S_ANY, S_CIRCULAR, S_NONE];
 >>>>>>> upstream/18.0
@@ -4816,6 +4845,10 @@ export class HootTechnicalValue extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            this.isSafe = isSafe(this.value);
+>>>>>>> upstream/18.0
 =======
             this.isSafe = isSafe(this.value);
 >>>>>>> upstream/18.0
@@ -5513,11 +5546,14 @@ export class HootTechnicalValue extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (this.value instanceof Date) {
             return [this.value.toISOString(), null];
         }
         if (this.value instanceof RegExp) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5978,6 +6014,9 @@ export class HootTechnicalValue extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6290,6 +6329,7 @@ export class HootTechnicalValue extends Component {
 
     getSize() {
         for (const Class of INVARIABLE_OBJECTS) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6896,6 +6936,8 @@ export class HootTechnicalValue extends Component {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             if (isInstanceOf(this.value, Class)) {
                 return null;
             }
@@ -7055,6 +7097,9 @@ export class HootTechnicalValue extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7537,7 +7582,11 @@ export class HootTechnicalValue extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!(promise instanceof Promise)) {
+=======
+        if (!isInstanceOf(promise, Promise)) {
+>>>>>>> upstream/18.0
 =======
         if (!isInstanceOf(promise, Promise)) {
 >>>>>>> upstream/18.0

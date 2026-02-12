@@ -6,6 +6,10 @@ from freezegun import freeze_time
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo import Command
+>>>>>>> upstream/18.0
 =======
 from odoo import Command
 >>>>>>> upstream/18.0
@@ -246,7 +250,10 @@ class StockMoveLine(TestStockCommon):
             self.assertTrue(ml.date > update_date_3, "Quantity change check for date should take into account UoM conversion")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -284,6 +291,9 @@ class StockMoveLine(TestStockCommon):
         line = move.move_line_ids[0]
         self.assertEqual(line.lot_id, serial_lot)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

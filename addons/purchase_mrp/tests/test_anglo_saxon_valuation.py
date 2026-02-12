@@ -21,6 +21,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.fields import Date, Datetime
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -568,10 +569,15 @@ from odoo.fields import Command, Date, Datetime
 from odoo.exceptions import UserError
 from odoo.fields import Command, Date, Datetime
 >>>>>>> upstream/18.0
+=======
+from odoo.exceptions import UserError
+from odoo.fields import Command, Date, Datetime
+>>>>>>> upstream/18.0
 from odoo.tools import mute_logger
 from odoo.tests import Form, tagged
 from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 from odoo.addons.stock_account.tests.test_stockvaluation import _create_accounting_data
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -661,6 +667,8 @@ from odoo import Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1067,6 +1075,66 @@ class TestAngloSaxonValuationPurchaseMRP(AccountTestInvoicingCommon):
         self.assertEqual(input_aml.amount_currency, 100)  # EUR
         self.assertEqual(input_aml.balance, 50)  # USD
 
+<<<<<<< HEAD
+=======
+    def test_multicurrency_kit_different_uom_categories(self):
+        """
+            Create a kit with an UoM belonging to a different category than its component UoM.
+            Purchase that kit in a different currency than the company currency and validate the receipt.
+            Check the generated account entries.
+        """
+        eur = self.env.ref('base.EUR')
+
+        uom_unit = self.env.ref('uom.product_uom_unit')
+        uom_meter = self.env.ref('uom.product_uom_meter')
+
+        kit, component = self.env['product.product'].create([
+            {
+                'name': 'Kit multi UoM',
+                'is_storable': True,
+                'uom_id': uom_unit.id,
+                'uom_po_id': uom_unit.id,
+                'categ_id': self.avco_category.id,
+            },
+            {
+                'name': 'Component meter',
+                'is_storable': True,
+                'uom_id': uom_meter.id,
+                'uom_po_id': uom_meter.id,
+                'categ_id': self.avco_category.id,
+            },
+        ])
+
+        self.env['mrp.bom'].create({
+            'product_tmpl_id': kit.product_tmpl_id.id,
+            'product_uom_id': uom_unit.id,
+            'product_qty': 1.0,
+            'type': 'phantom',
+            'bom_line_ids': [Command.create({
+                'product_id': component.id,
+                'product_qty': 1.0,
+                'product_uom_id': uom_meter.id,
+            })],
+        })
+
+        po = self.env['purchase.order'].create({
+            'partner_id': self.vendor01.id,
+            'currency_id': eur.id,
+            'order_line': [Command.create({
+                'product_id': kit.id,
+                'product_qty': 1.0,
+                'product_uom': kit.uom_po_id.id,
+                'price_unit': 100.0,
+            })],
+        })
+        po.button_confirm()
+
+        receipt = po.picking_ids
+        receipt.button_validate()
+
+        self.assertEqual(receipt.move_ids.state, 'done')
+
+>>>>>>> upstream/18.0
     def test_fifo_cost_adjust_mo_quantity(self):
         """ An MO using a FIFO cost method product as a component should not zero-out the std cost
         of the product if we unlock it once it is in a validated state and adjust the quantity of
@@ -1107,6 +1175,7 @@ class TestAngloSaxonValuationPurchaseMRP(AccountTestInvoicingCommon):
         manufacturing_order.move_raw_ids.quantity = 1
 
         self.assertEqual(self.product_a.standard_price, 100)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1637,6 +1706,8 @@ class TestAngloSaxonValuationPurchaseMRP(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
     def test_kit_valuation_no_pull(self):
         """ When selling a kit without ever moving it using a Pull rule, ensure that
@@ -1840,6 +1911,7 @@ class TestAngloSaxonValuationPurchaseMRP(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1978,6 +2050,8 @@ class TestAngloSaxonValuationPurchaseMRP(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2158,6 +2232,7 @@ class TestAngloSaxonValuationPurchaseMRP(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertRecordValues(components.stock_valuation_layer_ids.sorted(lambda l: l.product_id.id), [
             {'product_id': component01.id, 'unit_cost':  33.3},
             {'product_id': component02.id, 'unit_cost': 100.0},
@@ -2172,6 +2247,8 @@ class TestAngloSaxonValuationPurchaseMRP(AccountTestInvoicingCommon):
             {'product_id': component05.id, 'unit_cost': 0.0},
         ])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2239,6 +2316,9 @@ class TestAngloSaxonValuationPurchaseMRP(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2489,6 +2569,9 @@ class TestAngloSaxonValuationPurchaseMRP(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

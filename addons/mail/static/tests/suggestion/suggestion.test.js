@@ -360,8 +360,13 @@ test("Internal user should be displayed first", async () => {
     await contains(":nth-child(1 of .o-mail-Composer-suggestion) strong", { text: "Person D" });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(":nth-child(2 of .o-mail-Composer-suggestion) strong", { text: "Person C" });
     await contains(":nth-child(3 of .o-mail-Composer-suggestion) strong", { text: "Person B" });
+=======
+    await contains(":nth-child(2 of .o-mail-Composer-suggestion) strong", { text: "Person B" });
+    await contains(":nth-child(3 of .o-mail-Composer-suggestion) strong", { text: "Person C" });
+>>>>>>> upstream/18.0
 =======
     await contains(":nth-child(2 of .o-mail-Composer-suggestion) strong", { text: "Person B" });
     await contains(":nth-child(3 of .o-mail-Composer-suggestion) strong", { text: "Person C" });

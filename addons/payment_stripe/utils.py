@@ -139,6 +139,7 @@ def format_shipping_address(shipping_partner):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'shipping[address][city]': shipping_partner.city,
         'shipping[address][country]': shipping_partner.country_id.code,
         'shipping[address][line1]': shipping_partner.street,
@@ -147,6 +148,8 @@ def format_shipping_address(shipping_partner):
         'shipping[address][state]': shipping_partner.state_id.name,
         'shipping[name]': shipping_partner.name or shipping_partner.parent_id.name,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -364,6 +367,9 @@ def format_shipping_address(shipping_partner):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

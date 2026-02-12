@@ -14,7 +14,11 @@ from odoo import Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import tagged
+=======
+from odoo.tests import tagged, Form
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import tagged, Form
 >>>>>>> upstream/18.0
@@ -116,7 +120,12 @@ class TestWebsiteEventSaleCart(TestWebsiteEventSaleCommon, TestWebsiteSaleCartAb
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         editor.with_context(default_sale_order_id=cart1.id).action_make_registration()
+=======
+        editor = Form(self.env['registration.editor'].with_context(default_sale_order_id=cart1.id))
+        editor.save().action_make_registration()
+>>>>>>> upstream/18.0
 =======
         editor = Form(self.env['registration.editor'].with_context(default_sale_order_id=cart1.id))
         editor.save().action_make_registration()

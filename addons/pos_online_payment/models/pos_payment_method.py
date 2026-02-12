@@ -130,6 +130,12 @@ class PosPaymentMethod(models.Model):
                     ))
         return payment_method_id
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+    def _is_online_payment(self):
+        return self.is_online_payment
+>>>>>>> upstream/18.0
 =======
 
     def _is_online_payment(self):

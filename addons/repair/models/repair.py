@@ -335,7 +335,10 @@ class Repair(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         default=False,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1021,8 +1024,11 @@ class Repair(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if any(float_compare(move.forecast_availability, move.product_qty, precision_rounding=move.product_id.uom_id.rounding) < 0 for move in repair.move_ids):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1074,6 +1080,9 @@ class Repair(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1286,7 +1295,11 @@ class Repair(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             repair.has_uncomplete_moves = any(float_compare(move.quantity, move.product_uom_qty, precision_rounding=move.product_uom.rounding) < 0 for move in repair.move_ids)
+=======
+            repair.has_uncomplete_moves = any(move.product_uom and float_compare(move.quantity, move.product_uom_qty, precision_rounding=move.product_uom.rounding) < 0 for move in repair.move_ids)
+>>>>>>> upstream/18.0
 =======
             repair.has_uncomplete_moves = any(move.product_uom and float_compare(move.quantity, move.product_uom_qty, precision_rounding=move.product_uom.rounding) < 0 for move in repair.move_ids)
 >>>>>>> upstream/18.0
@@ -2031,6 +2044,11 @@ class Repair(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if 'lot_id' not in res and 'lot_id' in fields_list and 'default_repair_lot_id' in self.env.context:
+            res['lot_id'] = self.env.context.get('default_repair_lot_id')
+>>>>>>> upstream/18.0
 =======
         if 'lot_id' not in res and 'lot_id' in fields_list and 'default_repair_lot_id' in self.env.context:
             res['lot_id'] = self.env.context.get('default_repair_lot_id')
@@ -3042,7 +3060,11 @@ class Repair(models.Model):
 
     @api.ondelete(at_uninstall=False)
     def _unlink_except_confirmed(self):
+<<<<<<< HEAD
         repairs_to_cancel = self.filtered(lambda ro: ro.state not in ('draft', 'cancel'))
+=======
+        repairs_to_cancel = self.filtered(lambda ro: ro.state != 'cancel')
+>>>>>>> upstream/18.0
         repairs_to_cancel.action_repair_cancel()
 
     def action_assign(self):
@@ -3203,10 +3225,13 @@ class Repair(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for sale_line in self.move_ids.sale_line_id:
             price_unit = sale_line.price_unit
             sale_line.write({'product_uom_qty': sale_line.qty_delivered, 'price_unit': price_unit})
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3651,6 +3676,12 @@ class Repair(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def _get_product_catalog_domain(self):
+        return expression.AND([super()._get_product_catalog_domain(), [('type', '=', 'consu')]])
+
+>>>>>>> upstream/18.0
 =======
     def _get_product_catalog_domain(self):
         return expression.AND([super()._get_product_catalog_domain(), [('type', '=', 'consu')]])

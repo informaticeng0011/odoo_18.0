@@ -107,6 +107,10 @@ export class Editor {
         editable.setAttribute("contenteditable", true);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        editable.setAttribute("translate", "no");
+>>>>>>> upstream/18.0
 =======
         editable.setAttribute("translate", "no");
 >>>>>>> upstream/18.0

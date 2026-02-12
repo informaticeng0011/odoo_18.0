@@ -186,7 +186,11 @@ import { createDocumentFragmentFromContent } from "@mail/utils/common/html";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { useSubEnv } from "@odoo/owl";
+=======
+import { EventBus, useSubEnv } from "@odoo/owl";
+>>>>>>> upstream/18.0
 =======
 import { EventBus, useSubEnv } from "@odoo/owl";
 >>>>>>> upstream/18.0
@@ -937,7 +941,10 @@ import { FormController } from "@web/views/form/form_controller";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1498,6 +1505,9 @@ FormController.props = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -131,7 +131,10 @@ function _match(pattern, str) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const len = str.length;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -428,6 +431,11 @@ function _match(pattern, str) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    const len = str.length;
+
+>>>>>>> upstream/18.0
 =======
     const len = str.length;
 

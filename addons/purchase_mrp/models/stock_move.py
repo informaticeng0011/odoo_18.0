@@ -45,7 +45,11 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         cost_share = self.bom_line_id._get_cost_share()
+=======
+        cost_share = self.cost_share / 100
+>>>>>>> upstream/18.0
 =======
         cost_share = self.cost_share / 100
 >>>>>>> upstream/18.0
@@ -136,3 +140,14 @@ class StockMove(models.Model):
             if float_is_zero(valuation_total_qty, precision_rounding=related_aml.product_uom_id.rounding or related_aml.product_id.uom_id.rounding):
                 raise UserError(_('Odoo is not able to generate the anglo saxon entries. The total valuation of %s is zero.', related_aml.product_id.display_name))
         return valuation_price_unit_total, valuation_total_qty
+<<<<<<< HEAD
+=======
+
+    def _get_qty_received_without_self(self):
+        line = self.purchase_line_id
+        if line and line.qty_received_method == 'stock_moves' and line.state != 'cancel' and any(move.product_id != line.product_id for move in line.move_ids):
+            kit_bom = self.env['mrp.bom']._bom_find(line.product_id, company_id=line.company_id.id, bom_type='phantom').get(line.product_id)
+            if kit_bom:
+                return line._compute_kit_quantities_from_moves(line.move_ids - self, kit_bom)
+        return super()._get_qty_received_without_self()
+>>>>>>> upstream/18.0
