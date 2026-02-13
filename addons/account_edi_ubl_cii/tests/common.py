@@ -23,9 +23,12 @@ class TestUblCiiCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _create_partner_be(cls, **kwargs):
         return cls.env['res.partner'].create({
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -44,6 +47,9 @@ class TestUblCiiCommon(AccountTestInvoicingCommon):
             **cls._create_partner_default_values(),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -58,10 +64,13 @@ class TestUblCiiCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'invoice_sending_method': 'manual',
             'property_account_receivable_id': cls.company_data['default_account_receivable'].id,
             'property_account_payable_id': cls.company_data['default_account_payable'].id,
             'company_id': cls.company_data['company'].id,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -79,6 +88,10 @@ class TestUblCiiCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            **cls._create_partner_default_values(),
+>>>>>>> upstream/18.0
 =======
             **cls._create_partner_default_values(),
 >>>>>>> upstream/18.0
@@ -96,10 +109,13 @@ class TestUblCiiCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'invoice_sending_method': 'manual',
             'property_account_receivable_id': cls.company_data['default_account_receivable'].id,
             'property_account_payable_id': cls.company_data['default_account_payable'].id,
             'company_id': cls.company_data['company'].id,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -118,6 +134,10 @@ class TestUblCiiCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            **cls._create_partner_default_values(),
+>>>>>>> upstream/18.0
 =======
             **cls._create_partner_default_values(),
 >>>>>>> upstream/18.0
@@ -135,10 +155,13 @@ class TestUblCiiCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'invoice_sending_method': 'manual',
             'property_account_receivable_id': cls.company_data['default_account_receivable'].id,
             'property_account_payable_id': cls.company_data['default_account_payable'].id,
             'company_id': cls.company_data['company'].id,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -241,6 +264,7 @@ class TestUblBis3Common(TestUblCiiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _create_partner_be(cls, **kwargs):
         kwargs.setdefault('invoice_edi_format', 'ubl_bis3')
         return super()._create_partner_be(**kwargs)
@@ -254,12 +278,17 @@ class TestUblBis3Common(TestUblCiiCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def _create_partner_default_values(cls):
         values = super()._create_partner_default_values()
         values['invoice_edi_format'] = 'ubl_bis3'
         return values
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -294,7 +323,11 @@ class TestUblBis3Common(TestUblCiiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return super().subfolder().replace('export', 'export/bis3')
+=======
+        return super().subfolder().replace('export', 'export/bis3/invoice')
+>>>>>>> upstream/18.0
 =======
         return super().subfolder().replace('export', 'export/bis3/invoice')
 >>>>>>> upstream/18.0

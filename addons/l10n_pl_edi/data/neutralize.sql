@@ -2,7 +2,10 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 -- Delete customer's certificates
@@ -14,6 +17,9 @@ DELETE FROM certificate_certificate
 ;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24,10 +30,13 @@ UPDATE res_company
        l10n_pl_edi_refresh_token = NULL,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
        l10n_pl_edi_session_id = NULL,
        l10n_pl_edi_session_key = NULL,
        l10n_pl_edi_session_iv = NULL
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
        l10n_pl_edi_session_id = NULL
@@ -38,6 +47,9 @@ DELETE FROM ir_attachment
       WHERE res_model = 'res.company'
         AND res_field IN ('l10n_pl_edi_session_key', 'l10n_pl_edi_session_iv')
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

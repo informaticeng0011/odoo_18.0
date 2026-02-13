@@ -26,6 +26,11 @@ class TestUBLSG(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'peppol_eas': '0195',
+            'peppol_endpoint': '197401143C',
+>>>>>>> upstream/18.0
 =======
             'peppol_eas': '0195',
             'peppol_endpoint': '197401143C',
@@ -54,6 +59,11 @@ class TestUBLSG(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'peppol_eas': '0195',
+            'peppol_endpoint': 'S16FC0121D',
+>>>>>>> upstream/18.0
 =======
             'peppol_eas': '0195',
             'peppol_endpoint': 'S16FC0121D',

@@ -1,7 +1,11 @@
 from lxml import html
 
 from odoo.tools import mute_logger
+<<<<<<< HEAD
 from odoo.exceptions import AccessError
+=======
+from odoo.exceptions import AccessError, ValidationError
+>>>>>>> upstream/18.0
 from odoo.tests import HttpCase, tagged
 
 from odoo.addons.website.controllers.model_page import ModelPageController
@@ -229,7 +233,10 @@ class TestWebsiteControllerPage(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -468,6 +475,9 @@ class TestWebsiteControllerPage(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -629,3 +639,34 @@ class TestWebsiteControllerPage(HttpCase):
         self.assertEqual(self.listing_controller_page.default_layout, 'list')
         #check that the user that has not previously interacted with the layout switcher will prompt on the default layout
         self.start_tour('/model/exposed-model', 'website_controller_page_default_page_check', login='admin')
+<<<<<<< HEAD
+=======
+
+    def test_model_constrains(self):
+        def get_model_meta_params(model_name):
+            m = self.env[model_name]
+            return (m._abstract, m._auto, m._transient)
+
+        default_page_vals = {
+                "arch": "<t><div/></t>",
+                "type": "qweb",
+                "name": "some_name"
+        }
+        # Abstract Model
+        self.assertEqual(get_model_meta_params("website.published.mixin"), (True, False, False))
+        with self.assertRaises(ValidationError) as cm:
+            self.env["website.controller.page"].create({**default_page_vals, "model": "website.published.mixin"})
+        self.assertEqual(str(cm.exception), "A page must be set to display a concrete model.")
+
+        # Transient Model
+        self.assertEqual(get_model_meta_params("base.partner.merge.automatic.wizard"), (False, True, True))
+        with self.assertRaises(ValidationError) as cm:
+            self.env["website.controller.page"].create({**default_page_vals, "model": "base.partner.merge.automatic.wizard"})
+        self.assertEqual(str(cm.exception), "A page must be set to display a concrete model.")
+
+        # _auto = False Model
+        self.assertEqual(get_model_meta_params("res.device"), (False, False, False))
+        with self.assertRaises(ValidationError) as cm:
+            self.env["website.controller.page"].create({**default_page_vals, "model": "res.device"})
+        self.assertEqual(str(cm.exception), "A page must be set to display a concrete model.")
+>>>>>>> upstream/18.0

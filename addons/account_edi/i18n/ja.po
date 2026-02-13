@@ -41,6 +41,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -933,6 +934,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -977,6 +980,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1060,6 +1066,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1995,6 +2002,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Junko Augias, 2025\n"
@@ -2042,6 +2051,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2219,11 +2231,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Blocks the current operation of the document depending on the error severity:\n"
 "  * Info: the document is not blocked and everything is working as it should.\n"
 "  * Warning: there is an error that doesn't prevent the current Electronic Invoicing operation to succeed.\n"
 "  * Error: there is an error that blocks the current Electronic Invoicing operation."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2349,6 +2364,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2443,6 +2461,7 @@ msgstr "EDIキャンセルの中止"
 #: model:ir.model.fields.selection,name:account_edi.selection__account_edi_document__state__cancelled
 #: model:ir.model.fields.selection,name:account_edi.selection__account_move__edi_state__cancelled
 msgid "Cancelled"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3160,6 +3179,9 @@ msgstr "キャンセル済"
 =======
 msgstr "キャンセル済"
 >>>>>>> upstream/18.0
+=======
+msgstr "キャンセル済"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #. odoo-python
@@ -3207,7 +3229,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "全ての文書が同期化されていないため、この仕訳帳を無効化（%s）できません。"
+=======
+msgstr ""
+"全ての文書が同期化されていないため、この仕訳帳を無効化（%s）できません。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "全ての文書が同期化されていないため、この仕訳帳を無効化（%s）できません。"
@@ -3639,7 +3666,11 @@ msgid "Edi Show Abandon Cancel Button"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Edi放棄取消ボタンの表示"
+=======
+msgstr "Edi放棄キャンセルボタンの表示"
+>>>>>>> upstream/18.0
 =======
 msgstr "Edi放棄キャンセルボタンの表示"
 >>>>>>> upstream/18.0
@@ -4361,7 +4392,11 @@ msgid "Edi Show Cancel Button"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Edi取消ボタンの表示"
+=======
+msgstr "Ediキャンセルボタンの表示"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ediキャンセルボタンの表示"
 >>>>>>> upstream/18.0
@@ -5083,7 +5118,11 @@ msgid "Edi Show Force Cancel Button"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Edi強制取消ボタンの表示"
+=======
+msgstr "Edi強制キャンセルボタンの表示"
+>>>>>>> upstream/18.0
 =======
 msgstr "Edi強制キャンセルボタンの表示"
 >>>>>>> upstream/18.0
@@ -5626,6 +5665,7 @@ msgstr "Edi強制キャンセルボタンの表示"
 #: model:ir.model.fields,field_description:account_edi.field_account_bank_statement_line__edi_web_services_to_process
 #: model:ir.model.fields,field_description:account_edi.field_account_move__edi_web_services_to_process
 msgid "Edi Web Services To Process"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6595,6 +6635,9 @@ msgstr "処理待ちのEdiウェブサービス"
 =======
 msgstr "処理待ちのEdiウェブサービス"
 >>>>>>> upstream/18.0
+=======
+msgstr "処理待ちのEdiウェブサービス"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #: model:ir.model,name:account_edi.model_account_edi_document
@@ -6629,6 +6672,7 @@ msgstr "エラー"
 #. module: account_edi
 #: model_terms:ir.ui.view,arch_db:account_edi.view_move_form_inherit
 msgid "Force Cancel"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7346,6 +7390,9 @@ msgstr "強制キャンセル"
 =======
 msgstr "強制キャンセル"
 >>>>>>> upstream/18.0
+=======
+msgstr "強制キャンセル"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #: model:ir.model.fields,field_description:account_edi.field_account_edi_document__edi_format_name
@@ -7512,7 +7559,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "edi_format_idによって、請求書が計上される（このドキュメントが処理される）ときに生成されるファイル。"
+=======
+msgstr ""
+"edi_format_idによって、請求書が計上される（このドキュメントが処理される）とき"
+"に生成されるファイル。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "edi_format_idによって、請求書が計上される（このドキュメントが処理される）とき"
@@ -7769,8 +7822,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The text of the last error that happened during Electronic Invoice "
 "operation."
+=======
+"The text of the last error that happened during Electronic Invoice operation."
+>>>>>>> upstream/18.0
 =======
 "The text of the last error that happened during Electronic Invoice operation."
 >>>>>>> upstream/18.0
@@ -7948,8 +8005,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This invoice was canceled while the EDIs %s still had a pending cancellation"
 " request."
+=======
+"This invoice was canceled while the EDIs %s still had a pending cancellation "
+"request."
+>>>>>>> upstream/18.0
 =======
 "This invoice was canceled while the EDIs %s still had a pending cancellation "
 "request."
@@ -8174,12 +8236,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can't edit the following journal entry %s because an electronic document"
 " has already been sent. Please use the 'Request EDI Cancellation' button "
 "instead."
 msgstr ""
 "電子ドキュメントがすでに送信されているため、以下の仕訳%sを編集することができません。代わりに「EDIキャンセル要求」ボタンを使用して下さい。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8303,6 +8368,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8428,7 +8496,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "政府に送信されたEDIドキュメントである添付ファイルのリンクを解除することはできません。"
+=======
+msgstr ""
+"政府に送信されたEDIドキュメントである添付ファイルのリンクを解除することはでき"
+"ません。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "政府に送信されたEDIドキュメントである添付ファイルのリンクを解除することはでき"

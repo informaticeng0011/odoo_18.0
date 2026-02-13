@@ -206,8 +206,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -840,7 +843,10 @@ class TestResPartner(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1470,6 +1476,9 @@ class TestResPartner(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2164,7 +2173,10 @@ class TestResPartner(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2877,6 +2889,7 @@ class TestResPartner(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3291,4 +3304,21 @@ class TestResPartner(TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_create_company(self):
+        """Test that when creating a company from an individual, l10n_it values are propagated"""
+        individual_partner = self.env['res.partner'].create({
+            'company_name': 'Mario Bros. Plumbing',
+            'name': 'Mario',
+            'l10n_it_codice_fiscale': '12345670546',
+            'l10n_it_pa_index': '1231231',
+        })
+        individual_partner.create_company()
+        self.assertRecordValues(individual_partner.parent_id, [{
+            'name': 'Mario Bros. Plumbing',
+            'l10n_it_codice_fiscale': '12345670546',
+            'l10n_it_pa_index': '1231231',
+        }])
 >>>>>>> upstream/18.0

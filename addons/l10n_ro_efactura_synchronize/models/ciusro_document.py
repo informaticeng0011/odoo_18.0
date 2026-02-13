@@ -127,7 +127,10 @@ class L10nRoEdiDocument(models.Model):
             'received_bills_messages': received_bills_messages,
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     @api.model
     def _request_ciusro_xml_to_pdf(self, company, xml_data):
@@ -146,4 +149,7 @@ class L10nRoEdiDocument(models.Model):
                     'novld': 'DA'},
             data=xml_data,
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

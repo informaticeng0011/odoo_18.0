@@ -6,10 +6,17 @@
             <span class="o_file_image d-flex o_image user-select-none"
                 t-att-title="fileModel.filename" t-att-data-mimetype="fileModel.mimetype"/>
             <!-- file name -->
+<<<<<<< HEAD
             <span class="o_file_name_container mx-2">
                 <a class="o_link_readonly o-contenteditable-true" t-att-href="fileModel.downloadUrl"
                     t-out="fileModel.filename"
                     contenteditable="true"/>
+=======
+            <span class="o_file_name_container mx-2 d-flex flex-grow-1">
+                <a class="o_link_readonly w-100" t-att-href="fileModel.downloadUrl"
+                    t-out="fileModel.filename"
+                    contenteditable="false"/>
+>>>>>>> upstream/18.0
             </span>
         </span>
     </t>

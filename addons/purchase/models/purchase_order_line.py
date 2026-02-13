@@ -136,7 +136,11 @@ class PurchaseOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     product_uom = fields.Many2one('uom.uom', string='Unit of Measure', domain="[('category_id', '=', product_uom_category_id)]")
+=======
+    product_uom = fields.Many2one('uom.uom', string='Unit of Measure', domain="[('category_id', '=', product_uom_category_id)]", ondelete='restrict')
+>>>>>>> upstream/18.0
 =======
     product_uom = fields.Many2one('uom.uom', string='Unit of Measure', domain="[('category_id', '=', product_uom_category_id)]", ondelete='restrict')
 >>>>>>> upstream/18.0
@@ -475,7 +479,11 @@ class PurchaseOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         string='Unit Price', required=True, digits='Product Price', aggregator='avg',
+=======
+        string='Unit Price', required=True, min_display_digits='Product Price', aggregator='avg',
+>>>>>>> upstream/18.0
 =======
         string='Unit Price', required=True, min_display_digits='Product Price', aggregator='avg',
 >>>>>>> upstream/18.0
@@ -930,7 +938,11 @@ class PurchaseOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if line.order_id.state in ['purchase', 'done']:
+=======
+            if line.order_id.state in ['purchase', 'done'] and line.display_type not in ['line_note', 'line_section']:
+>>>>>>> upstream/18.0
 =======
             if line.order_id.state in ['purchase', 'done'] and line.display_type not in ['line_note', 'line_section']:
 >>>>>>> upstream/18.0
@@ -1961,10 +1973,13 @@ class PurchaseOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         seller_min_qty = self.product_id.seller_ids\
             .filtered(lambda r: r.partner_id == self.order_id.partner_id and (not r.product_id or r.product_id == self.product_id))\
             .sorted(key=lambda r: r.min_qty)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2457,6 +2472,7 @@ class PurchaseOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             params=self._get_select_sellers_params(),
         )
 <<<<<<< HEAD
@@ -2498,6 +2514,11 @@ class PurchaseOrderLine(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+            ordered_by='min_qty',
+            params=self._get_select_sellers_params(),
+        )
 >>>>>>> upstream/18.0
 =======
             ordered_by='min_qty',
@@ -3487,7 +3508,11 @@ class PurchaseOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'quantity': self.qty_to_invoice,
+=======
+            'quantity': -self.qty_to_invoice if move and move.move_type == 'in_refund' else self.qty_to_invoice,
+>>>>>>> upstream/18.0
 =======
             'quantity': -self.qty_to_invoice if move and move.move_type == 'in_refund' else self.qty_to_invoice,
 >>>>>>> upstream/18.0
@@ -4072,8 +4097,11 @@ class PurchaseOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self.analytic_distribution and not self.display_type:
             res['analytic_distribution'] = self.analytic_distribution
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4734,9 +4762,14 @@ class PurchaseOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         price_unit = seller.price if seller else product_id.standard_price
         price_unit = self.env['account.tax']._fix_tax_included_price_company(
             price_unit, product_taxes, taxes, company_id)
+=======
+        price_unit = self.env['account.tax']._fix_tax_included_price_company(
+            seller.price, product_taxes, taxes, company_id) if seller else 0
+>>>>>>> upstream/18.0
 =======
         price_unit = self.env['account.tax']._fix_tax_included_price_company(
             seller.price, product_taxes, taxes, company_id) if seller else 0

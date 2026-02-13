@@ -178,6 +178,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'version': '1.1',
 =======
     'version': '1.2',
@@ -704,6 +705,9 @@
 =======
     'version': '1.3',
 >>>>>>> upstream/18.0
+=======
+    'version': '1.3',
+>>>>>>> upstream/18.0
     'category': 'Accounting/Localizations/Account Charts',
     'description': """
 This is the latest Indonesian Odoo localisation necessary to run Odoo accounting for SMEs with:
@@ -804,7 +808,10 @@ This is the latest Indonesian Odoo localisation necessary to run Odoo accounting
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'data/account_tax_template_data.xml',
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

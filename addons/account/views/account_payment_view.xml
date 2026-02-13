@@ -234,7 +234,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <field name="state" widget="badge" decoration-info="state == 'draft'" decoration-success="state == 'in_process'"/>
+=======
+                    <field name="state" widget="badge" decoration-info="state == 'draft'" decoration-warning="state == 'in_process'" decoration-success="state == 'paid'"/>
+>>>>>>> upstream/18.0
 =======
                     <field name="state" widget="badge" decoration-info="state == 'draft'" decoration-warning="state == 'in_process'" decoration-success="state == 'paid'"/>
 >>>>>>> upstream/18.0
@@ -955,7 +959,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <filter string="Not Sent" name="state_sent" domain="[('is_sent', '=', 'False')]"/>
+=======
+                    <filter string="Not Sent" name="state_no_sent" domain="[('is_sent', '!=', 'True')]"/>
+>>>>>>> upstream/18.0
 =======
                     <filter string="Not Sent" name="state_no_sent" domain="[('is_sent', '!=', 'True')]"/>
 >>>>>>> upstream/18.0

@@ -128,6 +128,7 @@ from datetime import date, timedelta
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from freezegun import freeze_time
 
 from odoo import Command
@@ -138,6 +139,8 @@ from odoo.addons.sale_loyalty.tests.common import TestSaleCouponCommon
 
 class TestProgramRules(TestSaleCouponCommon):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -528,6 +531,9 @@ class TestProgramRules(TestSaleCouponCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1299,7 +1305,10 @@ class TestProgramRules(TestSaleCouponCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1756,6 +1765,7 @@ class TestProgramRules(TestSaleCouponCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2008,4 +2018,36 @@ class TestProgramRules(TestSaleCouponCommon, PaymentCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_buy_x_get_y_free_applies_correctly_with_non_unit_uom(self):
+        buy_x_get_y = self.env['loyalty.program'].create({
+            'name': 'Buy 12 Take 6',
+            'program_type': 'buy_x_get_y',
+            'trigger': 'auto',
+            'applies_on': 'current',
+            'rule_ids': [Command.create({
+                'reward_point_mode': 'unit',
+                'product_ids': self.product_A.ids,
+            })],
+            'reward_ids': [Command.create({
+                'reward_type': 'product',
+                'reward_product_id': self.product_A.id,
+                'required_points': 12,
+                'reward_product_qty': 6,
+            })],
+        })
+        order = self.empty_order
+        order.order_line = [
+            Command.create({
+                'product_id': self.product_A.id,
+                'product_uom': self.ref('uom.product_uom_dozen'),
+                'product_uom_qty': 1,
+            }),
+        ]
+        self._auto_rewards(order, buy_x_get_y)
+        reward_line = order.order_line.filtered('is_reward_line')
+        self.assertTrue(reward_line)
+        self.assertEqual(reward_line.product_uom_qty, 6)
 >>>>>>> upstream/18.0

@@ -65,7 +65,14 @@ def format_list(
     # Some styles could be unavailable for the chosen locale
     if style not in locale.list_patterns:
         style = "standard"
+<<<<<<< HEAD
     return lists.format_list(lst, style, locale)
+=======
+    try:
+        return lists.format_list(lst, style, locale)
+    except KeyError:
+        return lists.format_list(lst, 'standard', locale)
+>>>>>>> upstream/18.0
 
 
 def py_to_js_locale(locale: str) -> str:

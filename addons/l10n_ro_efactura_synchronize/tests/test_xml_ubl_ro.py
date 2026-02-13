@@ -134,12 +134,18 @@ def _patch_request_ciusro_synchronize_invoices(self, company, session, nb_days=1
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 def _patch_request_ciusro_xml_to_pdf(self, company, xml_data):
     # Returns a minimal, valid PDF byte stream
     return {'content': 'JVBERi0xLjEKMSAwIG9iaiA8PC9UeXBlL0NhdGFsb2cvUGFnZXMgMiAwIFI+PiBlbmRvYmogMiAwIG9iaiA8PC9UeXBlL1BhZ2VzL0tpZHNbMyAwIFJdL0NvdW50IDE+PiBlbmRvYmogMyAwIG9iaiA8PC9UeXBlL1BhZ2UvUGFyZW50IDIgMCBSL01lZGlhQm94WzAgMCAxIDEgXT4+IGVuZG9iaiB0cmFpbGVyIDw8L1Jvb3QgMSAwIFI+PiAlJUVPRg=='}
 
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 @patch('odoo.addons.l10n_ro_efactura_synchronize.models.ciusro_document.L10nRoEdiDocument._request_ciusro_synchronize_invoices', new=_patch_request_ciusro_synchronize_invoices)
 @tagged('post_install_l10n', 'post_install', '-at_install')
@@ -331,7 +337,10 @@ class TestUBLROSynchronize(TestUBLROCommon):
         self.assertEqual(invoice.l10n_ro_edi_state, 'invoice_validated')
         self.assertEqual(len(invoice.l10n_ro_edi_document_ids), 2)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     @patch('odoo.addons.l10n_ro_efactura_synchronize.models.ciusro_document.L10nRoEdiDocument._request_ciusro_xml_to_pdf', new=_patch_request_ciusro_xml_to_pdf)
     @patch('odoo.addons.l10n_ro_efactura_synchronize.models.ciusro_document.L10nRoEdiDocument._request_ciusro_synchronize_invoices', new=_patch_request_ciusro_synchronize_invoices)
@@ -359,4 +368,7 @@ class TestUBLROSynchronize(TestUBLROCommon):
             ('mimetype', '=', 'application/pdf'),
         ])
         self.assertEqual(bill.message_main_attachment_id.id, pdf_attachment.id)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

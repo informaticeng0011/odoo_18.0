@@ -47,12 +47,15 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         :param base_line: A base line (see '_prepare_base_line_for_taxes_computation').
         :return: True if the 'base_line' is a 'mixed' early payment line, False otherwise.
         """
         return base_line['special_type'] == 'early_payment'
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -87,6 +90,9 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -177,6 +183,10 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            or self._ubl_is_excise_tax(tax_data)
+>>>>>>> upstream/18.0
 =======
             or self._ubl_is_excise_tax(tax_data)
 >>>>>>> upstream/18.0
@@ -396,8 +406,11 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'percent': tax.amount,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -486,6 +499,9 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -614,8 +630,13 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _ubl_default_tax_subtotal_grouping_key(self, tax_grouping_key, vals):
         """ Give the values about how taxes are grouped together in TaxTotal -> TaxSubtotal
+=======
+    def _ubl_default_tax_subtotal_tax_category_grouping_key(self, tax_grouping_key, vals):
+        """ Give the values about how taxes are grouped together in TaxTotal -> TaxSubtotal -> TaxCategory
+>>>>>>> upstream/18.0
 =======
     def _ubl_default_tax_subtotal_tax_category_grouping_key(self, tax_grouping_key, vals):
         """ Give the values about how taxes are grouped together in TaxTotal -> TaxSubtotal -> TaxCategory
@@ -907,6 +928,7 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return {
             **tax_grouping_key,
             # Temporary solution to have withholding taxes merged with others until we know how to manage them.
@@ -914,6 +936,8 @@ class AccountEdiUBL(models.AbstractModel):
             'is_withholding': False,
         }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1093,6 +1117,9 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1243,7 +1270,10 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1367,6 +1397,9 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1444,10 +1477,13 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         extra_base_lines = AccountTax._turn_removed_taxes_into_new_base_lines(
             base_lines=new_base_lines,
             company=company,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1479,6 +1515,9 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1511,7 +1550,12 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             base_line['price_unit'] /= base_line['_aggregated_quantity']
+=======
+            if base_line['_aggregated_quantity']:
+                base_line['price_unit'] /= base_line['_aggregated_quantity']
+>>>>>>> upstream/18.0
 =======
             if base_line['_aggregated_quantity']:
                 base_line['price_unit'] /= base_line['_aggregated_quantity']
@@ -1584,6 +1628,11 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        TO BE REMOVED IN MASTER
+
+>>>>>>> upstream/18.0
 =======
         TO BE REMOVED IN MASTER
 
@@ -1657,6 +1706,10 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                        'is_charge': tax_data['tax_amount'] > 0.0,
+>>>>>>> upstream/18.0
 =======
                         'is_charge': tax_data['tax_amount'] > 0.0,
 >>>>>>> upstream/18.0
@@ -1754,6 +1807,10 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                        'is_charge': tax_data['tax_amount_currency'] > 0.0,
+>>>>>>> upstream/18.0
 =======
                         'is_charge': tax_data['tax_amount_currency'] > 0.0,
 >>>>>>> upstream/18.0
@@ -1855,6 +1912,11 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        TO BE REMOVED IN MASTER
+
+>>>>>>> upstream/18.0
 =======
         TO BE REMOVED IN MASTER
 
@@ -1928,6 +1990,10 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                        'is_charge': tax_data['tax_amount'] > 0.0,
+>>>>>>> upstream/18.0
 =======
                         'is_charge': tax_data['tax_amount'] > 0.0,
 >>>>>>> upstream/18.0
@@ -2025,6 +2091,10 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                        'is_charge': tax_data['tax_amount_currency'] > 0.0,
+>>>>>>> upstream/18.0
 =======
                         'is_charge': tax_data['tax_amount_currency'] > 0.0,
 >>>>>>> upstream/18.0
@@ -2117,6 +2187,11 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        TO BE REMOVED IN MASTER
+
+>>>>>>> upstream/18.0
 =======
         TO BE REMOVED IN MASTER
 
@@ -2195,6 +2270,10 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    'is_charge': raw_discount_amount < 0.0,
+>>>>>>> upstream/18.0
 =======
                     'is_charge': raw_discount_amount < 0.0,
 >>>>>>> upstream/18.0
@@ -2294,6 +2373,10 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    'is_charge': raw_discount_amount_currency < 0.0,
+>>>>>>> upstream/18.0
 =======
                     'is_charge': raw_discount_amount_currency < 0.0,
 >>>>>>> upstream/18.0
@@ -2379,6 +2462,11 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        TO BE REMOVED IN MASTER
+
+>>>>>>> upstream/18.0
 =======
         TO BE REMOVED IN MASTER
 
@@ -2424,6 +2512,7 @@ class AccountEdiUBL(models.AbstractModel):
                 tax_details[f'total_excluded{suffix}']
                 + tax_details[f'delta_total_excluded{suffix}']
                 + sum(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2501,6 +2590,8 @@ class AccountEdiUBL(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                     (1 if allowance_charge_values['is_charge'] else -1) * allowance_charge_values['amount']
                     for allowance_charge_values in ubl_values[f'allowance_charges_recycling_contribution{suffix}']
                 )
@@ -2508,6 +2599,7 @@ class AccountEdiUBL(models.AbstractModel):
                     (1 if allowance_charge_values['is_charge'] else -1) * allowance_charge_values['amount']
                     for allowance_charge_values in ubl_values[f'allowance_charges_excise{suffix}']
                 )
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2544,6 +2636,10 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
             ubl_values['line_extension_amount'] = amount
 =======
+            ubl_values[f'line_extension_amount{suffix}'] = amount
+>>>>>>> upstream/18.0
+=======
+            )
             ubl_values[f'line_extension_amount{suffix}'] = amount
 >>>>>>> upstream/18.0
 =======
@@ -2672,12 +2768,15 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 grouping_function=lambda base_line, tax_data: self._ubl_default_tax_category_grouping_key(
                     base_line,
                     tax_data,
                     vals,
                     sub_currency,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2749,6 +2848,9 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2877,6 +2979,11 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        TO BE REMOVED IN MASTER
+
+>>>>>>> upstream/18.0
 =======
         TO BE REMOVED IN MASTER
 
@@ -2980,12 +3087,15 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         def tax_totals_grouping_function(base_line, tax_data, sub_currency):
             tax_grouping_key = self._ubl_default_tax_category_grouping_key(base_line, tax_data, vals, sub_currency)
             if not tax_grouping_key:
                 return
             tax_subtotal_grouping_key = self._ubl_default_tax_subtotal_grouping_key(tax_grouping_key, vals)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3168,6 +3278,9 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3342,12 +3455,15 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         def tax_subtotal_grouping_function(base_line, tax_data, sub_currency):
             tax_grouping_key = self._ubl_default_tax_category_grouping_key(base_line, tax_data, vals, sub_currency)
             if not tax_grouping_key:
                 return
             return self._ubl_default_tax_subtotal_grouping_key(tax_grouping_key, vals)
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3579,12 +3695,16 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 grouping_function=lambda base_line, tax_data: self._ubl_default_tax_category_grouping_key(
                     base_line,
                     tax_data,
                     vals,
                     sub_currency,
                 ),
+=======
+                grouping_function=lambda base_line, tax_data: tax_category_grouping_function(base_line, tax_data, sub_currency),
+>>>>>>> upstream/18.0
 =======
                 grouping_function=lambda base_line, tax_data: tax_category_grouping_function(base_line, tax_data, sub_currency),
 >>>>>>> upstream/18.0
@@ -3815,7 +3935,10 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3910,6 +4033,9 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4037,6 +4163,7 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         def grouping_function(base_line, tax_data, sub_currency):
             if self._ubl_is_early_payment_base_line(base_line):
                 return self._ubl_default_tax_category_grouping_key(base_line, tax_data, vals, sub_currency)
@@ -4046,6 +4173,8 @@ class AccountEdiUBL(models.AbstractModel):
                 base_lines=base_lines,
                 grouping_function=lambda base_line, tax_data: grouping_function(base_line, tax_data, sub_currency),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4121,6 +4250,9 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4200,6 +4332,10 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    'is_charge': values[f'total_excluded{suffix}'] > 0.0,
+>>>>>>> upstream/18.0
 =======
                     'is_charge': values[f'total_excluded{suffix}'] > 0.0,
 >>>>>>> upstream/18.0
@@ -4290,7 +4426,10 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4333,8 +4472,11 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4502,6 +4644,9 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4532,9 +4677,12 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'cbc:ID': {'_text': tax_category['tax_category_code']},
             'cbc:Percent': {'_text': tax_category['percent']},
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4562,6 +4710,9 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4673,11 +4824,14 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return {
             '_currency': currency,
             'cbc:ChargeIndicator': {'_text': 'true' if amount > 0.0 else 'false'},
             'cbc:AllowanceChargeReasonCode': {'_text': 'AEO'},
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4761,6 +4915,7 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return {
             '_currency': currency,
             'cbc:ChargeIndicator': {'_text': 'true' if amount > 0.0 else 'false'},
@@ -4782,6 +4937,8 @@ class AccountEdiUBL(models.AbstractModel):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4853,6 +5010,9 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4932,10 +5092,13 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return {
             '_currency': currency,
             'cbc:ChargeIndicator': {'_text': 'true' if amount > 0.0 else 'false'},
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5006,6 +5169,9 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5086,6 +5252,7 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return {
             '_currency': currency,
             'cbc:ChargeIndicator': {'_text': 'true' if amount < 0.0 else 'false'},
@@ -5134,10 +5301,13 @@ class AccountEdiUBL(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         is_charge = discount_values['is_charge']
         return {
             '_currency': currency,
             'cbc:ChargeIndicator': {'_text': 'true' if is_charge else 'false'},
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5251,6 +5421,10 @@ class AccountEdiUBL(models.AbstractModel):
             'cbc:MultiplierFactorNumeric': {'_text': abs(percent)},
             'cbc:AllowanceChargeReasonCode': {'_text': '95' if amount > 0.0 else 'ADK'},
 >>>>>>> upstream/18.0
+=======
+            'cbc:MultiplierFactorNumeric': {'_text': abs(percent)},
+            'cbc:AllowanceChargeReasonCode': {'_text': '95' if amount > 0.0 else 'ADK'},
+>>>>>>> upstream/18.0
             'cbc:AllowanceChargeReason': {'_text': _("Discount")},
             'cbc:Amount': {
                 '_text': FloatFmt(abs(amount), max_dp=currency.decimal_places),
@@ -5262,6 +5436,7 @@ class AccountEdiUBL(models.AbstractModel):
             },
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5347,6 +5522,8 @@ class AccountEdiUBL(models.AbstractModel):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5447,6 +5624,9 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5489,6 +5669,9 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5562,7 +5745,13 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'cbc:ID': {'_text': tax_category['tax_category_code']},
+=======
+            '_currency': tax_category['currency'],
+            'cbc:ID': {'_text': tax_category['tax_category_code']},
+            'cbc:Name': {'_text': None},
+>>>>>>> upstream/18.0
 =======
             '_currency': tax_category['currency'],
             'cbc:ID': {'_text': tax_category['tax_category_code']},
@@ -5621,6 +5810,10 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            '_currency': tax_category['currency'],
+>>>>>>> upstream/18.0
 =======
             '_currency': tax_category['currency'],
 >>>>>>> upstream/18.0
@@ -5672,6 +5865,10 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            '_currency': currency,
+>>>>>>> upstream/18.0
 =======
             '_currency': currency,
 >>>>>>> upstream/18.0
@@ -5750,7 +5947,10 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5914,6 +6114,9 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -52,7 +52,10 @@ class PurchaseOrderLine(models.Model):
     _inherit = 'purchase.order.line'
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _compute_kit_quantities_from_moves(self, moves, kit_bom):
         self.ensure_one()
         moves_to_consider = moves.filtered(lambda m: m.state == 'done' and not m.scrapped)
@@ -66,6 +69,9 @@ class PurchaseOrderLine(models.Model):
         }
         return moves_to_consider._compute_kit_quantities(self.product_id, order_qty, kit_bom, filters)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _compute_qty_received(self):
         kit_lines = self.env['purchase.order.line']
@@ -81,6 +87,7 @@ class PurchaseOrderLine(models.Model):
             kit_bom = kits_by_company[line.company_id].get(line.product_id)
             if kit_bom:
 <<<<<<< HEAD
+<<<<<<< HEAD
                 moves = line.move_ids.filtered(lambda m: m.state == 'done' and not m.scrapped)
                 order_qty = line.product_uom._compute_quantity(line.product_uom_qty, kit_bom.product_uom_id)
                 filters = {
@@ -91,6 +98,9 @@ class PurchaseOrderLine(models.Model):
                         m._is_outgoing() and m.to_refund,
                 }
                 line.qty_received = moves._compute_kit_quantities(line.product_id, order_qty, kit_bom, filters)
+=======
+                line.qty_received = line._compute_kit_quantities_from_moves(line.move_ids, kit_bom)
+>>>>>>> upstream/18.0
 =======
                 line.qty_received = line._compute_kit_quantities_from_moves(line.move_ids, kit_bom)
 >>>>>>> upstream/18.0
@@ -207,7 +217,10 @@ class PurchaseOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -494,6 +507,9 @@ class PurchaseOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

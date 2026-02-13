@@ -46,7 +46,11 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         cost_share = self.bom_line_id._get_cost_share()
+=======
+        cost_share = self.cost_share / 100
+>>>>>>> upstream/18.0
 =======
         cost_share = self.cost_share / 100
 >>>>>>> upstream/18.0
@@ -141,7 +145,10 @@ class StockMove(models.Model):
                 raise UserError(_('Odoo is not able to generate the anglo saxon entries. The total valuation of %s is zero.', related_aml.product_id.display_name))
         return valuation_price_unit_total, valuation_total_qty
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def _get_qty_received_without_self(self):
         line = self.purchase_line_id
@@ -150,4 +157,7 @@ class StockMove(models.Model):
             if kit_bom:
                 return line._compute_kit_quantities_from_moves(line.move_ids - self, kit_bom)
         return super()._get_qty_received_without_self()
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

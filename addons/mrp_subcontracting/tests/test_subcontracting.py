@@ -322,6 +322,10 @@ class TestSubcontractingFlows(TestMrpSubcontractingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertEqual(mo.origin, picking_receipt.name)
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(mo.origin, picking_receipt.name)
 >>>>>>> upstream/18.0
@@ -1198,6 +1202,10 @@ class TestSubcontractingFlows(TestMrpSubcontractingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertEqual(mo.origin, picking_receipt.name)
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(mo.origin, picking_receipt.name)
 >>>>>>> upstream/18.0
@@ -2064,6 +2072,10 @@ class TestSubcontractingFlows(TestMrpSubcontractingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertEqual(mo.origin, picking_receipt.name)
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(mo.origin, picking_receipt.name)
 >>>>>>> upstream/18.0
@@ -3190,6 +3202,7 @@ class TestSubcontractingFlows(TestMrpSubcontractingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_backorder_with_subcontracting(self):
         """Test that a subcontracted move is not marked as picked when its quantity is updated.
         """
@@ -3229,6 +3242,8 @@ class TestSubcontractingFlows(TestMrpSubcontractingCommon):
         self.assertEqual(backorder.move_ids.mapped('quantity'), [3.0, 1.0])
         self.assertEqual(backorder.move_ids.mapped('picked'), [True, True])
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4181,6 +4196,7 @@ class TestSubcontractingFlows(TestMrpSubcontractingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @freeze_time('2024-01-01')
     def test_bom_overview_availability(self):
         # Create routes for components and the main product
@@ -4235,6 +4251,8 @@ class TestSubcontractingFlows(TestMrpSubcontractingCommon):
         self.assertEqual(bom_data['lines']['leftover_capacity'], 1)
         self.assertEqual(bom_data['lines']['leftover_date'], '01/16/2024')
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4845,7 +4863,10 @@ class TestSubcontractingFlows(TestMrpSubcontractingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5363,6 +5384,7 @@ class TestSubcontractingFlows(TestMrpSubcontractingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5444,6 +5466,8 @@ class TestSubcontractingFlows(TestMrpSubcontractingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5812,6 +5836,7 @@ class TestSubcontractingFlows(TestMrpSubcontractingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5890,6 +5915,8 @@ class TestSubcontractingFlows(TestMrpSubcontractingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6218,6 +6245,7 @@ class TestSubcontractingFlows(TestMrpSubcontractingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6227,6 +6255,8 @@ class TestSubcontractingFlows(TestMrpSubcontractingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6566,6 +6596,9 @@ class TestSubcontractingFlows(TestMrpSubcontractingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6982,6 +7015,11 @@ class TestSubcontractingTracking(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # We shouldn't be able to edit the quantity when there are tracked components
+        self.assertFalse(picking_receipt.move_ids.is_quantity_done_editable)
+>>>>>>> upstream/18.0
 =======
         # We shouldn't be able to edit the quantity when there are tracked components
         self.assertFalse(picking_receipt.move_ids.is_quantity_done_editable)
@@ -7829,6 +7867,11 @@ class TestSubcontractingTracking(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # We shouldn't be able to edit the quantity of a tracked move
+        self.assertFalse(picking_receipt.move_ids.is_quantity_done_editable)
+>>>>>>> upstream/18.0
 =======
         # We shouldn't be able to edit the quantity of a tracked move
         self.assertFalse(picking_receipt.move_ids.is_quantity_done_editable)
@@ -9201,7 +9244,10 @@ class TestSubcontractingSerialMassReceipt(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9756,10 +9802,13 @@ class TestSubcontractingSerialMassReceipt(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with Form(receipt) as picking_form:
             with picking_form.move_ids_without_package.edit(0) as move:
                 move.quantity = 5.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10224,6 +10273,9 @@ class TestSubcontractingSerialMassReceipt(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10690,10 +10742,13 @@ class TestSubcontractingSerialMassReceipt(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with Form(backorder) as picking_form:
             with picking_form.move_ids_without_package.edit(0) as move:
                 move.quantity = 3.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11158,6 +11213,9 @@ class TestSubcontractingSerialMassReceipt(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11662,6 +11720,9 @@ class TestSubcontractingSerialMassReceipt(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

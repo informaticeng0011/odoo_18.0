@@ -96,6 +96,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <div t-if="ratingStats" class="my-2" t-att-class="{ 'mb-4':props.twoColumns }">
 =======
             <div t-if="ratingStats and ratingStats.total" class="my-2" t-att-class="{ 'mb-4':props.twoColumns }">
@@ -288,6 +289,9 @@
 >>>>>>> upstream/18.0
 =======
             <div t-if="ratingStats and ratingStats.total" class="my-2" t-att-class="{ 'mb-4':props.twoColumns }">
+>>>>>>> upstream/18.0
+=======
+            <div t-if="env.displayRating and ratingStats and ratingStats.total" class="my-2" t-att-class="{ 'mb-4':props.twoColumns }">
 >>>>>>> upstream/18.0
 =======
             <div t-if="env.displayRating and ratingStats and ratingStats.total" class="my-2" t-att-class="{ 'mb-4':props.twoColumns }">

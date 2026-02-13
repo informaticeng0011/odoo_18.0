@@ -234,6 +234,10 @@ from odoo.tests import tagged
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tests import Form
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import Form
 >>>>>>> upstream/18.0
@@ -1618,12 +1622,19 @@ class TestSaleService(TestCommonSaleTimesheet):
             The conversion to time should be processed as follows :
                 H : qty = uom_qty [Hours]
                 D : qty = uom_qty * 8 [Hours]
+<<<<<<< HEAD
                 U : qty =  uom_qty [Hours]
+=======
+>>>>>>> upstream/18.0
                 Other : qty = 0
 
             Test Cases:
             ==========
+<<<<<<< HEAD
             1) Create a 4 SOL on a SO With different UOM
+=======
+            1) Create a 3 SOL on a SO With different UOM
+>>>>>>> upstream/18.0
             2) Confirm the SO
             3) Check the project allocated hour is correctly set
             4) Repeat with different timesheet encoding UOM
@@ -1641,6 +1652,7 @@ class TestSaleService(TestCommonSaleTimesheet):
             'product_uom': self.env.ref('uom.product_uom_hour').id, # 8 hours
         }, {
             'order_id': self.sale_order.id,
+<<<<<<< HEAD
             'product_id': self.product_delivery_timesheet3.id,
             'product_uom_qty': 1,
             'product_uom': self.env.ref('uom.product_uom_dozen').id, # 0 hours
@@ -1653,6 +1665,15 @@ class TestSaleService(TestCommonSaleTimesheet):
         self.sale_order.action_confirm()
         allocated_hours = self.sale_order.project_ids.allocated_hours
         self.assertEqual(16 + 8 + 6, allocated_hours,
+=======
+            'product_id': self.product_service_delivered_timesheet.id,
+            'product_uom_qty': 1,
+            'product_uom': self.env.ref('uom.product_uom_dozen').id, # 0 hours
+        }])
+        self.sale_order.action_confirm()
+        allocated_hours = self.sale_order.project_ids.allocated_hours
+        self.assertEqual(16 + 8, allocated_hours,
+>>>>>>> upstream/18.0
                          "Project's allocated hours should add up correctly.")
 
         self.env.company.timesheet_encode_uom_id = self.env.ref('uom.product_uom_day')
@@ -2021,7 +2042,10 @@ class TestSaleService(TestCommonSaleTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2773,6 +2797,7 @@ class TestSaleService(TestCommonSaleTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3121,6 +3146,8 @@ class TestSaleService(TestCommonSaleTimesheet):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3325,6 +3352,9 @@ class TestSaleService(TestCommonSaleTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

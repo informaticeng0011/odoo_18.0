@@ -7,6 +7,10 @@ import { QWebPlugin } from "@html_editor/others/qweb_plugin";
 import { MAIN_PLUGINS } from "@html_editor/plugin_sets";
 import { dispatchClean } from "./_helpers/dispatch";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { bold } from "./_helpers/user_actions";
+>>>>>>> upstream/18.0
 =======
 import { bold } from "./_helpers/user_actions";
 >>>>>>> upstream/18.0
@@ -312,7 +316,10 @@ test("cleaning removes content editable", async () => {
         </div>`);
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 describe("toolbar visibility on contenteditable false elements", () => {
     test("should open the toolbar when the selected t-out is contenteditable false", async () => {
@@ -375,4 +382,7 @@ test("should create a history step when applying bold to a QWeb tag", async () =
     expect(lastStep.mutations[0].attributeName).toBe("style");
     expect(lastStep.mutations[0].value).toBe("font-weight: bolder;");
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

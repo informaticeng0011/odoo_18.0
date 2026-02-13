@@ -17,6 +17,7 @@ export class ProductInfoPopup extends Component {
         this.props.close();
     }
     _hasMarginsCostsAccessRights() {
+<<<<<<< HEAD
         const isAccessibleToEveryUser = this.pos.config.is_margins_costs_accessible_to_every_user;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -964,6 +965,12 @@ export class ProductInfoPopup extends Component {
         const isCashierManager = this.pos.get_cashier()._role === "manager";
 >>>>>>> upstream/18.0
         return isAccessibleToEveryUser || isCashierManager;
+=======
+        if (!this.pos.config.is_margins_costs_accessible_to_every_user) {
+            return false;
+        }
+        return this.pos.get_cashier()._role === "manager";
+>>>>>>> upstream/18.0
     }
     editProduct() {
         this.pos.editProduct(this.props.product);

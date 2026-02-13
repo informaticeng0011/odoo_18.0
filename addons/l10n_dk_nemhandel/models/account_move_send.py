@@ -147,7 +147,11 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 invoice_data['error'] = e.message
+=======
+                invoice_data['error'] = str(e)
+>>>>>>> upstream/18.0
 =======
                 invoice_data['error'] = str(e)
 >>>>>>> upstream/18.0

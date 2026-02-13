@@ -1,5 +1,10 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
+<<<<<<< HEAD
+=======
+from freezegun import freeze_time
+
+>>>>>>> upstream/18.0
 from odoo.exceptions import ValidationError
 from odoo.fields import Command
 from odoo.tests import new_test_user, tagged
@@ -534,7 +539,10 @@ class TestLoyalty(TestSaleCouponCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1045,6 +1053,9 @@ class TestLoyalty(TestSaleCouponCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2046,6 +2057,7 @@ class TestLoyalty(TestSaleCouponCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(order.amount_total, 10, msg=msg)
 =======
         self.assertEqual(order.amount_to_invoice, 10, msg=msg)
@@ -2097,6 +2109,9 @@ class TestLoyalty(TestSaleCouponCommon):
 >>>>>>> upstream/18.0
 =======
         self.assertEqual(order.amount_to_invoice, 10, msg=msg)
+>>>>>>> upstream/18.0
+=======
+        self.assertEqual(order.amount_total, 10, msg=msg)
 >>>>>>> upstream/18.0
 =======
         self.assertEqual(order.amount_total, 10, msg=msg)
@@ -2741,7 +2756,10 @@ class TestLoyalty(TestSaleCouponCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3176,6 +3194,7 @@ class TestLoyalty(TestSaleCouponCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3288,6 +3307,8 @@ class TestLoyalty(TestSaleCouponCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3572,6 +3593,7 @@ class TestLoyalty(TestSaleCouponCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3730,4 +3752,23 @@ class TestLoyalty(TestSaleCouponCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    @freeze_time("2026-01-10")
+    def test_expired_ewallet_is_not_claimable(self):
+        self.ewallet.expiration_date = '2026-01-01'
+        sale_order = self.empty_order
+        sale_order.write({
+            'partner_id': self.partner.id,
+            'order_line': [
+                Command.create({
+                    'product_id': self.product_a.id,
+                }),
+            ],
+        })
+        sale_order.action_open_reward_wizard()
+        sale_order._update_programs_and_rewards()
+        claimable_rewards = sale_order._get_claimable_rewards()
+        self.assertFalse(claimable_rewards.get(self.ewallet))
 >>>>>>> upstream/18.0

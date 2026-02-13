@@ -172,13 +172,20 @@ describe("row", () => {
                     </table>
                 `),
                 stepFunction: removeRow(),
+<<<<<<< HEAD
                 // @todo @phoenix: consider changing the behavior and placing the cursor
                 // inside the td (normalize deep)
+=======
+>>>>>>> upstream/18.0
                 contentAfter: unformat(`
                     <table>
                         <tbody>
                             <tr>
+<<<<<<< HEAD
                                 <td>[]ef</td> <td>gh</td>
+=======
+                                <td>ef[]</td><td>gh</td>
+>>>>>>> upstream/18.0
                             </tr>
                         </tbody>
                     </table>
@@ -208,7 +215,11 @@ describe("row", () => {
                     <table>
                         <tbody>
                             <tr>
+<<<<<<< HEAD
                                 <td>[]ab</td> <td>cd</td>
+=======
+                                <td>ab[]</td><td>cd</td>
+>>>>>>> upstream/18.0
                             </tr>
                         </tbody>
                     </table>
@@ -462,7 +473,11 @@ describe("column", () => {
                     <table>
                         <tbody>
                             <tr>
+<<<<<<< HEAD
                                 <td>[]cd</td>
+=======
+                                <td>cd[]</td>
+>>>>>>> upstream/18.0
                             </tr>
                             <tr>
                                 <td>gh</td>
@@ -495,7 +510,11 @@ describe("column", () => {
                     <table>
                         <tbody>
                             <tr>
+<<<<<<< HEAD
                                 <td>[]ab</td>
+=======
+                                <td>ab[]</td>
+>>>>>>> upstream/18.0
                             </tr>
                             <tr>
                                 <td>ef</td>

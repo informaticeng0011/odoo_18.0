@@ -368,11 +368,14 @@ class Orderpoint(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             '|', ('product_id', 'in', self.product_id.ids),
                  '&', ('product_id', '=', False),
                       ('product_tmpl_id', 'in', self.product_id.product_tmpl_id.ids),
             ('type', '=', 'phantom'),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -627,6 +630,9 @@ class Orderpoint(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

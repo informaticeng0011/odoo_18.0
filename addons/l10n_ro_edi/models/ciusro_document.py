@@ -18,7 +18,11 @@ def make_efactura_request(session, company, endpoint, method, params, data=None)
     :param session: ``requests`` or ``requests.Session()`` object
     :param company: ``res.company`` object containing l10n_ro_edi_test_env, l10n_ro_edi_access_token
 <<<<<<< HEAD
+<<<<<<< HEAD
     :param endpoint: ``upload`` (for sending) | ``stareMesaj`` (for fetching status) | ``descarcare`` (for downloading answer)
+=======
+    :param endpoint: ``upload`` (for sending) | ``stareMesaj`` (for fetching status) | ``descarcare`` (for downloading answer)  | ``transformare`` (to get the official PDF from efactura)
+>>>>>>> upstream/18.0
 =======
     :param endpoint: ``upload`` (for sending) | ``stareMesaj`` (for fetching status) | ``descarcare`` (for downloading answer)  | ``transformare`` (to get the official PDF from efactura)
 >>>>>>> upstream/18.0
@@ -28,6 +32,7 @@ def make_efactura_request(session, company, endpoint, method, params, data=None)
     :return: Dictionary of {'error': <str>} or {'content': <response.content>} from E-Factura
     """
     send_mode = 'test' if company.l10n_ro_edi_test_env else 'prod'
+<<<<<<< HEAD
 <<<<<<< HEAD
     url = f"https://api.anaf.ro/{send_mode}/FCTEL/rest/{endpoint}"
     headers = {'Content-Type': 'application/xml',
@@ -569,6 +574,8 @@ def make_efactura_request(session, company, endpoint, method, params, data=None)
     except (requests.ConnectionError, requests.TooManyRedirects) as e:
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
     if endpoint == 'transformare':
         url = "https://webservicesp.anaf.ro/prod/FCTEL/rest/transformare/FACT1/DA"
         headers = {'Content-Type': 'text/plain'}
@@ -582,6 +589,9 @@ def make_efactura_request(session, company, endpoint, method, params, data=None)
     try:
         response = session.request(method=method, url=url, params=params, data=data, headers=headers, timeout=60)
     except (requests.ConnectionError, requests.TooManyRedirects) as e:
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         return {'error': str(e)}
     if response.status_code == 204:
@@ -880,7 +890,11 @@ class L10nRoEdiDocument(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             endpoint='upload',
+=======
+            endpoint='upload' if self.env.context.get('is_b2b') else 'uploadb2c',  # TODO: change the context value into a method parameter in master
+>>>>>>> upstream/18.0
 =======
             endpoint='upload' if self.env.context.get('is_b2b') else 'uploadb2c',  # TODO: change the context value into a method parameter in master
 >>>>>>> upstream/18.0

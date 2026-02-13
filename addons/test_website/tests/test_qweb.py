@@ -160,6 +160,10 @@ from odoo.addons.base.tests.common import TransactionCaseWithUserDemo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.website.tools import MockRequest
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.website.tools import MockRequest
 >>>>>>> upstream/18.0
@@ -847,7 +851,10 @@ class TestQweb(TransactionCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1319,6 +1326,9 @@ class TestQweb(TransactionCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

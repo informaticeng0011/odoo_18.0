@@ -1,6 +1,10 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 from ast import literal_eval
 from odoo import api, fields, models
+<<<<<<< HEAD
+=======
+from odoo.exceptions import ValidationError
+>>>>>>> upstream/18.0
 
 
 class WebsiteControllerPage(models.Model):
@@ -44,8 +48,16 @@ class WebsiteControllerPage(models.Model):
 
     @api.constrains('view_id', 'model_id', "model")
     def _check_user_has_model_access(self):
+<<<<<<< HEAD
         for record in self:
             self.env[record.model_id.model].check_access('read')
+=======
+        for model_id in self.mapped("model_id"):
+            Model = self.env[model_id.model]
+            if Model._transient or Model._abstract or not Model._auto:
+                raise ValidationError(self.env._("A page must be set to display a concrete model."))
+            Model.check_access('read')
+>>>>>>> upstream/18.0
 
     @api.depends("view_id")
     def _compute_name(self):

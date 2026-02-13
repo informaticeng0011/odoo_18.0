@@ -32,6 +32,7 @@ from psycopg2 import InterfaceError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from psycopg2.pool import PoolError
 >>>>>>> upstream/18.0
@@ -41,6 +42,8 @@ from psycopg2.pool import PoolError
 
 import odoo
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -105,6 +108,9 @@ from ..tools import orjson
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -357,6 +363,10 @@ TIMEOUT = 50
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+DEFAULT_GC_RETENTION_SECONDS = 60 * 60 * 24  # 24 hours
+>>>>>>> upstream/18.0
 =======
 DEFAULT_GC_RETENTION_SECONDS = 60 * 60 * 24  # 24 hours
 >>>>>>> upstream/18.0
@@ -1236,6 +1246,7 @@ class ImBus(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         timeout_ago = fields.Datetime.now() - datetime.timedelta(seconds=TIMEOUT*2)
         domain = [('create_date', '<', timeout_ago)]
         records = self.search(domain, limit=models.GC_UNLINK_LIMIT)
@@ -1243,6 +1254,8 @@ class ImBus(models.Model):
             self.env.ref('base.autovacuum_job')._trigger()
         return records.unlink()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1853,6 +1866,9 @@ class ImBus(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2356,7 +2372,11 @@ class ImBus(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'message': json.loads(notif['message']),
+=======
+                'message': orjson.loads(notif['message']),
+>>>>>>> upstream/18.0
 =======
                 'message': orjson.loads(notif['message']),
 >>>>>>> upstream/18.0
@@ -2504,7 +2524,11 @@ class ImDispatch(threading.Thread):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         channels.extend(json.loads(conn.notifies.pop().payload))
+=======
+                        channels.extend(orjson.loads(conn.notifies.pop().payload))
+>>>>>>> upstream/18.0
 =======
                         channels.extend(orjson.loads(conn.notifies.pop().payload))
 >>>>>>> upstream/18.0
@@ -2604,7 +2628,11 @@ class ImDispatch(threading.Thread):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if isinstance(exc, InterfaceError) and stop_event.is_set():
+=======
+                if isinstance(exc, (InterfaceError, PoolError)) and stop_event.is_set():
+>>>>>>> upstream/18.0
 =======
                 if isinstance(exc, (InterfaceError, PoolError)) and stop_event.is_set():
 >>>>>>> upstream/18.0

@@ -2,6 +2,10 @@ import { Component, xml } from "@odoo/owl";
 import { registry } from "@web/core/registry";
 import { useRegistry } from "@web/core/registry_hook";
 import { ErrorHandler } from "@web/core/utils/components";
+<<<<<<< HEAD
+=======
+import { localization } from "@web/core/l10n/localization";
+>>>>>>> upstream/18.0
 
 const mainComponents = registry.category("main_components");
 
@@ -14,7 +18,11 @@ export class MainComponentsContainer extends Component {
     static components = { ErrorHandler };
     static props = {};
     static template = xml`
+<<<<<<< HEAD
     <div class="o-main-components-container">
+=======
+    <div class="o-main-components-container" t-att-class="{'o_rtl': this.isRTL}">
+>>>>>>> upstream/18.0
         <t t-foreach="Components.entries" t-as="C" t-key="C[0]">
             <ErrorHandler onError="error => this.handleComponentError(error, C)">
                 <t t-component="C[1].Component" t-props="C[1].props"/>
@@ -25,6 +33,10 @@ export class MainComponentsContainer extends Component {
 
     setup() {
         this.Components = useRegistry(mainComponents);
+<<<<<<< HEAD
+=======
+        this.isRTL = localization.direction === "rtl";
+>>>>>>> upstream/18.0
     }
 
     handleComponentError(error, C) {

@@ -234,6 +234,7 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { waitFor } from "@odoo/hoot-dom";
 import { stepUtils } from "@web_tour/tour_service/tour_utils";
 
@@ -241,6 +242,11 @@ const openPagePropertiesDialog = [
     // FIXME: Needed to prevent a non-deterministic error when click too fast
     //  on the menu item.
     stepUtils.waitIframeIsReady(),
+=======
+import { stepUtils } from "@web_tour/tour_service/tour_utils";
+
+const openPagePropertiesDialog = [
+>>>>>>> upstream/18.0
 =======
 import { stepUtils } from "@web_tour/tour_service/tour_utils";
 
@@ -1640,9 +1646,12 @@ const openCreatePageDialog = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     // FIXME: Needed to prevent a non-deterministic error when click too fast
     //  on the menu item.
     stepUtils.waitIframeIsReady(),
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2115,6 +2124,7 @@ const openCreatePageDialog = [
     },
 ];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2826,6 +2836,8 @@ function waitForSelector(selector) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 function assertPageCanonicalUrlIs(url) {
     return [
         {
@@ -3060,7 +3072,11 @@ function assertPageCanonicalUrlIs(url) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: `:visible :iframe head link[rel="canonical"][href$="${url}"]`,
+=======
+            trigger: `:iframe head:hidden link[rel="canonical"][href$="${url}"]`,
+>>>>>>> upstream/18.0
 =======
             trigger: `:iframe head:hidden link[rel="canonical"][href$="${url}"]`,
 >>>>>>> upstream/18.0
@@ -3988,7 +4004,13 @@ function checkIsTemplate(isTemplate, pageTitle = undefined) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ...waitForSelector('a[data-id="custom"]'),
+=======
+        {
+            trigger: 'a[data-id="custom"]',
+        },
+>>>>>>> upstream/18.0
 =======
         {
             trigger: 'a[data-id="custom"]',
@@ -5378,12 +5400,15 @@ function checkIsTemplate(isTemplate, pageTitle = undefined) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                       trigger: `:visible .o_page_template .o_page_name:contains(${pageTitle})`,
                   },
               ]
             : [
                   ...waitForSelector(".o_website_page_templates_pane .alert-info"),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6078,6 +6103,9 @@ function checkIsTemplate(isTemplate, pageTitle = undefined) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6762,6 +6790,10 @@ function testCommonProperties(url, canPublish, modifiedUrl = undefined) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                timeout: 30000,
+>>>>>>> upstream/18.0
 =======
                 timeout: 30000,
 >>>>>>> upstream/18.0
@@ -7458,7 +7490,10 @@ function testCommonProperties(url, canPublish, modifiedUrl = undefined) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             stepUtils.waitIframeIsReady(), // Necessary if it's the last step of the tour
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8242,7 +8277,11 @@ function testWebsitePageProperties() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: ":visible :iframe head title:contains(/Cool Page/)",
+=======
+            trigger: ":iframe head:hidden title:contains(/Cool Page/)",
+>>>>>>> upstream/18.0
 =======
             trigger: ":iframe head:hidden title:contains(/Cool Page/)",
 >>>>>>> upstream/18.0
@@ -9169,7 +9208,11 @@ function testWebsitePageProperties() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: ':visible :iframe head meta[name="robots"][content="noindex"]',
+=======
+            trigger: ':iframe head:hidden meta[name="robots"][content="noindex"]',
+>>>>>>> upstream/18.0
 =======
             trigger: ':iframe head:hidden meta[name="robots"][content="noindex"]',
 >>>>>>> upstream/18.0
@@ -10137,7 +10180,11 @@ function testWebsitePageProperties() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: ":visible :iframe head title:contains(/New Page/)",
+=======
+            trigger: ":iframe head:hidden title:contains(/New Page/)",
+>>>>>>> upstream/18.0
 =======
             trigger: ":iframe head:hidden title:contains(/New Page/)",
 >>>>>>> upstream/18.0
@@ -11064,7 +11111,11 @@ function testWebsitePageProperties() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: ':visible :iframe head:not(:has(meta[name="robots"][content="noindex"]))',
+=======
+            trigger: ':iframe head:hidden:not(:has(meta[name="robots"][content="noindex"]))',
+>>>>>>> upstream/18.0
 =======
             trigger: ':iframe head:hidden:not(:has(meta[name="robots"][content="noindex"]))',
 >>>>>>> upstream/18.0
@@ -12016,7 +12067,11 @@ registerWebsitePreviewTour(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: ".o_page_template .o_button_area",
+=======
+            trigger: ".o_page_template .o_button_area:hidden",
+>>>>>>> upstream/18.0
 =======
             trigger: ".o_page_template .o_button_area:hidden",
 >>>>>>> upstream/18.0
@@ -12957,9 +13012,15 @@ registerWebsitePreviewTour(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         },
         ...clickOnSave(),
         stepUtils.waitIframeIsReady(),
+=======
+            timeout: 30000,
+        },
+        ...clickOnSave(),
+>>>>>>> upstream/18.0
 =======
             timeout: 30000,
         },

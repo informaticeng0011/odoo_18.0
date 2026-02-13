@@ -2,6 +2,10 @@
 
 import { browser } from "@web/core/browser/browser";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { registry } from "@web/core/registry";
+>>>>>>> upstream/18.0
 =======
 import { registry } from "@web/core/registry";
 >>>>>>> upstream/18.0
@@ -17,13 +21,19 @@ import { makeView, setupViewRegistries } from "@web/../tests/views/helpers";
 import { loadJS } from "@web/core/assets";
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 let target;
 
 =======
+=======
+>>>>>>> upstream/18.0
 const serviceRegistry = registry.category("services");
 
 let target;
 let makeViewParams;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 async function editInputNoChangeEvent(input, value) {
     // Note: we can't use editInput as it triggers the 'change' event which will close the autocomplete dropdown
@@ -78,8 +88,11 @@ QUnit.module('partner_autocomplete', {
     beforeEach() {
         target = getFixture();
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+>>>>>>> upstream/18.0
         makeViewParams = {
             serverData: {
                 models: {
@@ -188,6 +201,9 @@ QUnit.module('partner_autocomplete', {
                 }
             }
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         // Make autocomplete input instantaneous
         patchWithCleanup(browser, {
@@ -195,6 +211,7 @@ QUnit.module('partner_autocomplete', {
         });
 
         setupViewRegistries();
+<<<<<<< HEAD
 <<<<<<< HEAD
     },
 }, function () {
@@ -932,6 +949,8 @@ QUnit.module('partner_autocomplete', {
         assert.expect(13);
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
         const fakeHTTPService = {
             start() {
                 return {
@@ -960,6 +979,9 @@ QUnit.module('partner_autocomplete', {
 
     QUnit.test("Partner autocomplete : Company type = Individual", async function (assert) {
         assert.expect(13);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         await makeView(makeViewParams);
 
@@ -1050,7 +1072,10 @@ QUnit.module('partner_autocomplete', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1290,6 +1315,9 @@ QUnit.module('partner_autocomplete', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
