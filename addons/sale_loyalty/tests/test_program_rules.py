@@ -129,6 +129,7 @@ from datetime import date, timedelta
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from freezegun import freeze_time
 
 from odoo import Command
@@ -139,6 +140,8 @@ from odoo.addons.sale_loyalty.tests.common import TestSaleCouponCommon
 
 class TestProgramRules(TestSaleCouponCommon):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -532,6 +535,9 @@ class TestProgramRules(TestSaleCouponCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1306,7 +1312,10 @@ class TestProgramRules(TestSaleCouponCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1766,6 +1775,7 @@ class TestProgramRules(TestSaleCouponCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2020,6 +2030,8 @@ class TestProgramRules(TestSaleCouponCommon, PaymentCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_buy_x_get_y_free_applies_correctly_with_non_unit_uom(self):
         buy_x_get_y = self.env['loyalty.program'].create({
@@ -2050,4 +2062,7 @@ class TestProgramRules(TestSaleCouponCommon, PaymentCommon):
         reward_line = order.order_line.filtered('is_reward_line')
         self.assertTrue(reward_line)
         self.assertEqual(reward_line.product_uom_qty, 6)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

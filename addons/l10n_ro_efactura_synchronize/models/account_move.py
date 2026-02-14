@@ -1,6 +1,10 @@
 import requests
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from markupsafe import Markup
+>>>>>>> upstream/18.0
 =======
 from markupsafe import Markup
 >>>>>>> upstream/18.0
@@ -259,12 +263,15 @@ class AccountMove(models.Model):
             })
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             attachment_sudo = self.env['ir.attachment'].sudo().create(
                 bill._l10n_ro_edi_create_attachment_values(message['answer']['invoice']['attachment_raw'])
             )
             bill._extend_with_attachments(attachment_sudo)
             bill.message_post(body=_("Synchronized with SPV from message %s", message['id']))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             xml_attachment_raw = message['answer']['invoice']['attachment_raw']
@@ -291,6 +298,9 @@ class AccountMove(models.Model):
                     chatter_message += Markup("<br/>%s") % self.env._("No PDF found: PDF imported from SPV.")
             bill.message_post(body=chatter_message)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

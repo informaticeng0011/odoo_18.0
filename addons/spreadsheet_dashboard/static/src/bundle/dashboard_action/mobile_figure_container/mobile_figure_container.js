@@ -125,6 +125,11 @@ import { Component, useSubEnv } from "@odoo/owl";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { navigateToOdooMenu } from "@spreadsheet/helpers/helpers";
+import { useService } from "@web/core/utils/hooks";
+>>>>>>> upstream/18.0
 =======
 import { navigateToOdooMenu } from "@spreadsheet/helpers/helpers";
 import { useService } from "@web/core/utils/hooks";
@@ -745,6 +750,11 @@ export class MobileFigureContainer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.actionService = useService("action");
+        this.notificationService = useService("notification");
+>>>>>>> upstream/18.0
 =======
         this.actionService = useService("action");
         this.notificationService = useService("notification");
@@ -1381,7 +1391,10 @@ export class MobileFigureContainer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1760,6 +1773,9 @@ export class MobileFigureContainer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

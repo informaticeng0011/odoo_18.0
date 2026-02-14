@@ -478,7 +478,11 @@ export class StaticList extends DataPoint {
                     this.records.push(record);
                     addOwnCommand([CREATE, virtualId]);
 <<<<<<< HEAD
+<<<<<<< HEAD
                     const index = this.offset + this.limit + this._tmpIncreaseLimit;
+=======
+                    const index = this.offset + this.limit;
+>>>>>>> upstream/18.0
 =======
                     const index = this.offset + this.limit;
 >>>>>>> upstream/18.0

@@ -66,12 +66,18 @@ def format_list(
     if style not in locale.list_patterns:
         style = "standard"
 <<<<<<< HEAD
+<<<<<<< HEAD
     return lists.format_list(lst, style, locale)
 =======
+=======
+>>>>>>> upstream/18.0
     try:
         return lists.format_list(lst, style, locale)
     except KeyError:
         return lists.format_list(lst, 'standard', locale)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 

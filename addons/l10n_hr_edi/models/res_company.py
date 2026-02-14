@@ -170,13 +170,18 @@ class ResCompany(models.Model):
     def _l10n_hr_mer_get_new_documents(self, undelivered_only=True, slc=False, from_cron=False):
         """
         Import documents from MojEracun. Additional arguments included for testing.
+<<<<<<< HEAD
         :param undelivered (bool, optional): Import only undelivered documents. Defaults to True.
         :param notify (bool, optional): Run notify import API after importing. Defaults to True.
+=======
+        :param undelivered_only (bool, optional): Import only undelivered documents. Defaults to True.
+>>>>>>> upstream/18.0
         :param slc (tuple of two ints, optional): Import only a slice of the list of documents for testing. Defaults to False.
         """
         job_count = self._context.get('mer_crons_job_count') or BATCH_SIZE
         need_retrigger = False
         imported_documents = {}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -290,15 +295,49 @@ class ResCompany(models.Model):
 =======
         for company in self.filtered(lambda c: c.l10n_hr_mer_connection_state == 'active'):
 >>>>>>> upstream/18.0
+=======
+        for company in self.filtered(lambda c: c.l10n_hr_mer_connection_state == 'active'):
+>>>>>>> upstream/18.0
             try:
                 response = _mer_api_query_inbox(company, 'Undelivered' if undelivered_only else None)
             except MojEracunServiceError as e:
                 _logger.error('MojEracun service error: %s', e.message)
                 continue
 
+<<<<<<< HEAD
             if any(not (item.get('ElectronicId') and item.get('StatusId')) for item in response):
                 _logger.error("MojEracun service error: incorrect response format while querying inbox for company: %s", company.name)
                 continue
+=======
+            error = False
+            if isinstance(response, list):
+                if not len(response):
+                    # Case 1: empty list - no documents in the inbox
+                    _logger.info("MojEracun inbox is empty for company: %s", company.name)
+                    continue
+                elif any(not (item.get('ElectronicId') and item.get('StatusId')) for item in response):
+                    # Case 2: a list with elements that appear to not be valid document dicts
+                    error = ("Incorrect multiple document response format while querying inbox for company: %s", company.name)
+                else:
+                    # Case 3: a list of valid document dicts
+                    pass
+            elif isinstance(response, dict):
+                if not (response.get('ElectronicId') and response.get('StatusId')):
+                    # Case 4: a single dict that doesn't appear to be a valid document
+                    error = ("Incorrect multiple document response format while querying inbox for company: %s", company.name)
+                else:
+                    # Case 5: a single valid document dict
+                    response = [response]
+            else:
+                # Case 6: unrecognizeable response
+                error = ("Incorrect response format while querying inbox for company: %s", company.name)
+            if error:
+                if from_cron:
+                    _logger.error("MojEracun service error: %s", error)
+                    continue
+                else:
+                    raise MojEracunServiceError('service_error', error)
+>>>>>>> upstream/18.0
             documents = [{'mer_document_eid': str(document['ElectronicId']), 'mer_document_status': str(document['StatusId'])} for document in response][::-1]
             if not documents:
                 continue
@@ -316,6 +355,7 @@ class ResCompany(models.Model):
                 documents_to_import = documents_to_import[slc[0]:slc[1]]
             for document in documents_to_import:
                 try:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -406,6 +446,11 @@ class ResCompany(models.Model):
                     if fisc_data == []:
                         _logger.error("Fiscalization data for document eID %s is not available on MojEracun server.", document['mer_document_eid'])
                         continue
+=======
+                    fisc_data = _mer_api_check_fiscalization_status_inbox(company, electronic_id=document['mer_document_eid'])
+                    if fisc_data == []:
+                        _logger.info("Fiscalization data for document eID %s is not available on MojEracun server.", document['mer_document_eid'])
+>>>>>>> upstream/18.0
                     else:
                         fisc_data = fisc_data[0]
                 except (MojEracunServiceError, UserError):
@@ -437,6 +482,9 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -507,6 +555,7 @@ class ResCompany(models.Model):
                         }
                     else:
                         raise
+<<<<<<< HEAD
                 document.update({
                     'fiscalization_status': str(fisc_data['messages'][-1].get('status')),
                     'fiscalization_error': str(fisc_data['messages'][-1].get('errorCode')) + ' - ' + str(fisc_data['messages'][-1].get('errorCodeDescription')),
@@ -628,6 +677,18 @@ class ResCompany(models.Model):
 =======
                     _logger.warning("Document eID %s is not successfully fiscalized by MojEracun.", document['mer_document_eid'])
 >>>>>>> upstream/18.0
+=======
+                if fisc_data:
+                    document.update({
+                        'fiscalization_status': str(fisc_data['messages'][-1].get('status')),
+                        'fiscalization_error': str(fisc_data['messages'][-1].get('errorCode')) + ' - ' + str(fisc_data['messages'][-1].get('errorCodeDescription')),
+                        'fiscalization_request': str(fisc_data['messages'][-1].get('fiscalizationRequestId')),
+                        'business_status_reason': str(fisc_data['messages'][-1].get('businessStatusReason')),
+                        'fiscalization_channel_type': str(fisc_data.get('channelType')),
+                    })
+                    if document['fiscalization_status'] != '0':
+                        _logger.warning("Document eID %s is not successfully fiscalized by MojEracun.", document['mer_document_eid'])
+>>>>>>> upstream/18.0
                 try:
                     business_data = _mer_api_query_document_process_status_inbox(company, electronic_id=document['mer_document_eid'])[0]
                 except (MojEracunServiceError, UserError):
@@ -703,7 +764,11 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for company in self:
+=======
+        for company in self.filtered(lambda c: c.l10n_hr_mer_connection_state == 'active'):
+>>>>>>> upstream/18.0
 =======
         for company in self.filtered(lambda c: c.l10n_hr_mer_connection_state == 'active'):
 >>>>>>> upstream/18.0
@@ -823,7 +888,11 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     _logger.error("Failed to retreive fiscalizatio data for company %s", company.name)
+=======
+                    _logger.error("Failed to retreive fiscalization data for company %s", company.name)
+>>>>>>> upstream/18.0
 =======
                     _logger.error("Failed to retreive fiscalization data for company %s", company.name)
 >>>>>>> upstream/18.0

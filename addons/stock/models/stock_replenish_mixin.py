@@ -51,6 +51,12 @@ class ProductReplenishMixin(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+    def _additional_replenishment_context(self):
+        return {}
+>>>>>>> upstream/18.0
 =======
 
     def _additional_replenishment_context(self):

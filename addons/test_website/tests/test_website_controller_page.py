@@ -2,7 +2,11 @@ from lxml import html
 
 from odoo.tools import mute_logger
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.exceptions import AccessError
+=======
+from odoo.exceptions import AccessError, ValidationError
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import AccessError, ValidationError
 >>>>>>> upstream/18.0
@@ -234,7 +238,10 @@ class TestWebsiteControllerPage(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -476,6 +483,9 @@ class TestWebsiteControllerPage(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -640,7 +650,10 @@ class TestWebsiteControllerPage(HttpCase):
         #check that the user that has not previously interacted with the layout switcher will prompt on the default layout
         self.start_tour('/model/exposed-model', 'website_controller_page_default_page_check', login='admin')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_model_constrains(self):
         def get_model_meta_params(model_name):
@@ -669,4 +682,7 @@ class TestWebsiteControllerPage(HttpCase):
         with self.assertRaises(ValidationError) as cm:
             self.env["website.controller.page"].create({**default_page_vals, "model": "res.device"})
         self.assertEqual(str(cm.exception), "A page must be set to display a concrete model.")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

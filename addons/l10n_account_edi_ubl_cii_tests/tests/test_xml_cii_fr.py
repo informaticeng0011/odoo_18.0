@@ -18,7 +18,11 @@ class TestCIIFR(TestUBLCommon):
             'city': "Paris",
             'vat': 'FR05677404089',
             'country_id': cls.env.ref('base.fr').id,
+<<<<<<< HEAD
             'bank_ids': [(0, 0, {'acc_number': 'FR15001559627230'})],
+=======
+            'bank_ids': [(0, 0, {'acc_number': 'FR15001559627230', 'allow_out_payment': True})],
+>>>>>>> upstream/18.0
             'phone': '+1 (650) 555-0111',
             'email': "partner1@yourcompany.com",
             'ref': 'ref_partner_1',
@@ -32,7 +36,11 @@ class TestCIIFR(TestUBLCommon):
             'city': "Colombey-les-Deux-Églises",
             'vat': 'FR35562153452',
             'country_id': cls.env.ref('base.fr').id,
+<<<<<<< HEAD
             'bank_ids': [(0, 0, {'acc_number': 'FR90735788866632'})],
+=======
+            'bank_ids': [(0, 0, {'acc_number': 'FR90735788866632', 'allow_out_payment': True})],
+>>>>>>> upstream/18.0
             'ref': 'ref_partner_2',
             'invoice_edi_format': 'facturx',
         })
@@ -117,6 +125,10 @@ class TestCIIFR(TestUBLCommon):
         acc_bank = self.env['res.partner.bank'].create({
             'acc_number': 'FR15001559627231',
             'partner_id': self.company_data['company'].partner_id.id,
+<<<<<<< HEAD
+=======
+            'allow_out_payment': True,
+>>>>>>> upstream/18.0
         })
 
         invoice = self._generate_move(
@@ -172,6 +184,7 @@ class TestCIIFR(TestUBLCommon):
             invoice.ubl_cii_xml_id,
             xpaths='''
                 <xpath expr="./*[local-name()='ExchangedDocument']/*[local-name()='ID']" position="replace">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -679,6 +692,8 @@ class TestCIIFR(TestUBLCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                         <ram:ID xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">___ignore___</ram:ID>
                 </xpath>
                 <xpath expr=".//*[local-name()='IssuerAssignedID']" position="replace">
@@ -852,6 +867,9 @@ class TestCIIFR(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1394,11 +1412,14 @@ class TestCIIFR(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <ID>___ignore___</ID>
                 </xpath>
                 <xpath expr=".//*[local-name()='IssuerAssignedID']" position="replace">
                         <IssuerAssignedID>___ignore___</IssuerAssignedID>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1901,6 +1922,9 @@ class TestCIIFR(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2451,11 +2475,14 @@ class TestCIIFR(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <ID>___ignore___</ID>
                 </xpath>
                 <xpath expr=".//*[local-name()='IssuerAssignedID']" position="replace">
                         <IssuerAssignedID>___ignore___</IssuerAssignedID>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2958,6 +2985,9 @@ class TestCIIFR(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

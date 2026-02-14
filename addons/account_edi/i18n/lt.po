@@ -155,8 +155,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* account_edi
 # 
+=======
+# * account_edi
+#
+>>>>>>> upstream/18.0
 =======
 # * account_edi
 #
@@ -963,6 +968,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Jessica Jakara, 2025
 >>>>>>> upstream/18.0
@@ -1550,6 +1556,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # Jessica Jakara, 2025
 # Ramunė ViaLaurea <ramune.vialaurea@gmail.com>, 2025
 # Gailius Kazlauskas <gailius.kaz@vialaurea.com>, 2025.
@@ -1636,6 +1644,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1805,6 +1816,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2563,6 +2575,11 @@ msgstr ""
 "PO-Revision-Date: 2025-11-21 02:23+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2025-11-21 02:23+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Lithuanian <https://translate.odoo.com/projects/odoo-18/"
 "account_edi/lt/>\n"
 "Language: lt\n"
@@ -2570,6 +2587,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3159,11 +3177,17 @@ msgstr ""
 "1 : n % 1 != 0 ? 2: 3);\n"
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
+=======
+"11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? "
+"1 : n % 1 != 0 ? 2: 3);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #. odoo-python
 #: code:addons/account_edi/models/account_move.py:0
 msgid "%(count)s Electronic invoicing error(s)"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3395,6 +3419,9 @@ msgstr "%(count)s E-laskutuksen virhe(et)"
 >>>>>>> upstream/18.0
 =======
 msgstr "%(count)s E-laskutuksen virhe(et)"
+>>>>>>> upstream/18.0
+=======
+msgstr "%(count)s E-deklaravimo klaida(-os)"
 >>>>>>> upstream/18.0
 =======
 msgstr "%(count)s E-deklaravimo klaida(-os)"
@@ -4040,7 +4067,11 @@ msgid "%(count)s Electronic invoicing info(s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(count)s E-laskutuksen tiedot"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(count)s E-laskutuksen tiedot"
 >>>>>>> upstream/18.0
@@ -4742,7 +4773,11 @@ msgid "%(count)s Electronic invoicing warning(s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(count)s E-laskutuksen varoitukset"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(count)s E-laskutuksen varoitukset"
 >>>>>>> upstream/18.0
@@ -5444,7 +5479,11 @@ msgid "A cancellation of the EDI has been requested."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "EDI:n peruutusta on pyydetty."
+>>>>>>> upstream/18.0
 =======
 msgstr "EDI:n peruutusta on pyydetty."
 >>>>>>> upstream/18.0
@@ -6146,7 +6185,11 @@ msgid "A request for cancellation of the EDI has been called off."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "EDI:n peruutuspyyntö on peruttu."
+>>>>>>> upstream/18.0
 =======
 msgstr "EDI:n peruutuspyyntö on peruttu."
 >>>>>>> upstream/18.0
@@ -6855,6 +6898,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Haluatko varmasti peruuttaa tämän laskun odottamatta EDI-dokumentin "
+"peruutusta?"
+>>>>>>> upstream/18.0
 =======
 "Haluatko varmasti peruuttaa tämän laskun odottamatta EDI-dokumentin "
 "peruutusta?"
@@ -7735,7 +7783,11 @@ msgid "Blocking Level"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Estotaso"
+>>>>>>> upstream/18.0
 =======
 msgstr "Estotaso"
 >>>>>>> upstream/18.0
@@ -8303,11 +8355,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Blocks the current operation of the document depending on the error severity:\n"
 "  * Info: the document is not blocked and everything is working as it should.\n"
 "  * Warning: there is an error that doesn't prevent the current Electronic Invoicing operation to succeed.\n"
 "  * Error: there is an error that blocks the current Electronic Invoicing operation."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8436,6 +8491,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8662,7 +8720,11 @@ msgid "EDI format"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "EDI format"
+>>>>>>> upstream/18.0
 =======
 msgstr "EDI format"
 >>>>>>> upstream/18.0
@@ -9253,7 +9315,11 @@ msgid "Remake the sequence of Journal Entries."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Perkurkite žurnalo įrašų seką."
+>>>>>>> upstream/18.0
 =======
 msgstr "Perkurkite žurnalo įrašų seką."
 >>>>>>> upstream/18.0
@@ -9832,8 +9898,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The text of the last error that happened during Electronic Invoice "
 "operation."
+=======
+"The text of the last error that happened during Electronic Invoice operation."
+>>>>>>> upstream/18.0
 =======
 "The text of the last error that happened during Electronic Invoice operation."
 >>>>>>> upstream/18.0
@@ -10015,8 +10085,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This invoice was canceled while the EDIs %s still had a pending cancellation"
 " request."
+=======
+"This invoice was canceled while the EDIs %s still had a pending cancellation "
+"request."
+>>>>>>> upstream/18.0
 =======
 "This invoice was canceled while the EDIs %s still had a pending cancellation "
 "request."
@@ -10246,8 +10321,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can't edit the following journal entry %s because an electronic document"
 " has already been sent. Please use the 'Request EDI Cancellation' button "
+=======
+"You can't edit the following journal entry %s because an electronic document "
+"has already been sent. Please use the 'Request EDI Cancellation' button "
+>>>>>>> upstream/18.0
 =======
 "You can't edit the following journal entry %s because an electronic document "
 "has already been sent. Please use the 'Request EDI Cancellation' button "

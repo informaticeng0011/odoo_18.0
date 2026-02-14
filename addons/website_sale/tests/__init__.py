@@ -176,6 +176,7 @@ from . import test_fuzzy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from . import test_sale_order
 >>>>>>> upstream/18.0
@@ -564,6 +565,10 @@ from . import test_sale_order
 from . import test_sale_order
 >>>>>>> upstream/18.0
 =======
+from . import test_sale_order
+>>>>>>> upstream/18.0
+=======
+from . import test_main_controller
 from . import test_sale_order
 >>>>>>> upstream/18.0
 =======
@@ -748,6 +753,10 @@ from . import test_website_sale_reorder_from_portal
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import test_website_sale_seo
+>>>>>>> upstream/18.0
 =======
 from . import test_website_sale_seo
 >>>>>>> upstream/18.0

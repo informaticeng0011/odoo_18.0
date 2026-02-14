@@ -251,6 +251,7 @@ class PortalWizardUser(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         """Remove the user of the partner from the portal group.
 
         If the user was only in the portal group, we archive it.
@@ -695,11 +696,17 @@ class PortalWizardUser(models.TransientModel):
 
         If the user was only in the portal group, we archive it.
 >>>>>>> upstream/18.0
+=======
+        """Remove the user of the partner from the portal group.
+
+        If the user was only in the portal group, we archive it.
+>>>>>>> upstream/18.0
         """
         self.ensure_one()
         if not self.is_portal:
             raise UserError(_('The partner "%s" has no portal access or is internal.', self.partner_id.name))
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -840,6 +847,11 @@ class PortalWizardUser(models.TransientModel):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        group_portal = self.env.ref('base.group_portal')
+        group_public = self.env.ref('base.group_public')
+
 >>>>>>> upstream/18.0
 =======
         group_portal = self.env.ref('base.group_portal')
@@ -1251,6 +1263,7 @@ class PortalWizardUser(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # remove the user from the portal group
         if user_sudo and user_sudo._is_portal():
             user_sudo.write({'groups_id': [(3, group_portal.id), (4, group_public.id)], 'active': False})
@@ -1353,6 +1366,11 @@ class PortalWizardUser(models.TransientModel):
 =======
         if user_sudo and user_sudo._is_portal():
             user_sudo.write({'active': False})
+>>>>>>> upstream/18.0
+=======
+        # remove the user from the portal group
+        if user_sudo and user_sudo._is_portal():
+            user_sudo.write({'groups_id': [(3, group_portal.id), (4, group_public.id)], 'active': False})
 >>>>>>> upstream/18.0
 =======
         # remove the user from the portal group

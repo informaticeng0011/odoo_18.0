@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { expect, getFixture, test } from "@odoo/hoot";
 import { queryOne, resize, scroll, waitFor } from "@odoo/hoot-dom";
 import { animationFrame, runAllTimers } from "@odoo/hoot-mock";
@@ -13,6 +14,8 @@ import { Component, xml } from "@odoo/owl";
 import { mountWithCleanup } from "@web/../tests/web_test_helpers";
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -39,6 +42,9 @@ import { mountWithCleanup, patchWithCleanup } from "@web/../tests/web_test_helpe
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -70,7 +76,10 @@ class Content extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -99,6 +108,9 @@ beforeEach(() => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -317,6 +329,7 @@ test("popover is rendered nearby target (left)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     class TestPopover extends Popover {
         onPositioned(el, { direction, variant }) {
             expect(direction).toBe("left");
@@ -331,6 +344,8 @@ test("popover is rendered nearby target (left)", async () => {
             component: Content,
         },
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -713,6 +728,9 @@ test("popover is rendered nearby target (left)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1086,6 +1104,7 @@ test("popover is rendered nearby target (right)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     class TestPopover extends Popover {
         onPositioned(el, { direction, variant }) {
             expect(direction).toBe("right");
@@ -1100,6 +1119,8 @@ test("popover is rendered nearby target (right)", async () => {
             component: Content,
         },
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1482,6 +1503,9 @@ test("popover is rendered nearby target (right)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1837,6 +1861,10 @@ test("reposition popover should properly change classNames", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            arrow: true,
+>>>>>>> upstream/18.0
 =======
             arrow: true,
 >>>>>>> upstream/18.0
@@ -1915,7 +1943,11 @@ test("within iframe", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             animation: false,
+=======
+            arrow: true,
+>>>>>>> upstream/18.0
 =======
             arrow: true,
 >>>>>>> upstream/18.0
@@ -1958,6 +1990,7 @@ test("within iframe", async () => {
     expect(Math.floor(popoverBox.top)).toBe(Math.floor(expectedTop));
     expect(Math.floor(popoverBox.left)).toBe(Math.floor(expectedLeft));
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2787,6 +2820,9 @@ test("within iframe", async () => {
 =======
     await scroll(popoverTarget.ownerDocument.documentElement, { y: 100 }, { scrollable: false });
 >>>>>>> upstream/18.0
+=======
+    await scroll(popoverTarget.ownerDocument.documentElement, { y: 100 }, { scrollable: false });
+>>>>>>> upstream/18.0
     await animationFrame();
     expect.verifySteps(["bottom"]);
     popoverBox = popoverEl.getBoundingClientRect();
@@ -2873,7 +2909,10 @@ test("popover fixed position", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2920,6 +2959,9 @@ test("popover can animate", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

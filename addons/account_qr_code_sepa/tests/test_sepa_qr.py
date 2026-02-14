@@ -18,6 +18,10 @@ class TestSEPAQRCode(AccountTestInvoicingCommon):
         cls.acc_sepa_iban = cls.env['res.partner.bank'].create({
             'acc_number': 'BE15001559627230',
             'partner_id': cls.company_data['company'].partner_id.id,
+<<<<<<< HEAD
+=======
+            'allow_out_payment': True,
+>>>>>>> upstream/18.0
         })
 
         cls.acc_non_sepa_iban = cls.env['res.partner.bank'].create({

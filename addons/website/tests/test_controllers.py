@@ -4,6 +4,10 @@ import json
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from werkzeug.test import EnvironBuilder
+>>>>>>> upstream/18.0
 =======
 from werkzeug.test import EnvironBuilder
 >>>>>>> upstream/18.0
@@ -18,6 +22,10 @@ from odoo.tools.misc import mute_logger, submap
 from odoo.addons.website.controllers.main import Website
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.website.tools import MockRequest
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.website.tools import MockRequest
 >>>>>>> upstream/18.0
@@ -371,7 +379,10 @@ class TestControllers(tests.HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -939,6 +950,7 @@ class TestControllers(tests.HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1301,6 +1313,8 @@ class TestControllers(tests.HttpCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -1309,6 +1323,10 @@ class TestControllers(tests.HttpCase):
         Test that /website/force/{website.id} redirects domain correctly
         """
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.env.user.groups_id += self.env.ref('website.group_multi_website')
+>>>>>>> upstream/18.0
 =======
         self.env.user.groups_id += self.env.ref('website.group_multi_website')
 >>>>>>> upstream/18.0
@@ -1322,6 +1340,9 @@ class TestControllers(tests.HttpCase):
                 f'{self.base_url()}/website/force/{website.id}?isredir=1&path=%2F%3Fa%3Db%26c%3Dd'
             )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

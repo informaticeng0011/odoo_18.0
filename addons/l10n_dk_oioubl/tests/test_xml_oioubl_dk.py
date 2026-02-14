@@ -26,6 +26,10 @@ class TestUBLDK(TestUBLCommon, TestAccountMoveSendCommon):
             'acc_type': 'iban',
             'partner_id': cls.company_data['company'].partner_id.id,
             'acc_number': 'DK5000400440116243',
+<<<<<<< HEAD
+=======
+            'allow_out_payment': True,
+>>>>>>> upstream/18.0
         })
 
         cls.company_data['company'].partner_id.update({
@@ -327,9 +331,12 @@ class TestUBLDK(TestUBLCommon, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.partner_a.vat = 'DK12345674'
         self.partner_a.peppol_endpoint = False
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -794,6 +801,9 @@ class TestUBLDK(TestUBLCommon, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

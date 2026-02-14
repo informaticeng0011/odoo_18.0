@@ -298,12 +298,18 @@
                     </div>
                     <group>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                         <!--when "stop" is set manually, "duration" is computed. When "start" is changed
                         "stop" is computed based on the previously-computed "duration". Hence we need to
                         keep the last computed duration in the front-end model and send it with "start"
                         when it changes-->
                         <field name="duration" invisible="1" force_save="1"/>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                         <field name="start_date" widget="daterange" options="{'end_date_field': 'stop_date'}" invisible="not allday" required="allday"/>
                         <field name="start" widget="daterange" options="{'end_date_field': 'stop'}" invisible="allday" required="not allday"/>
@@ -372,7 +378,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <field name="description" invisible="not display_description" options="{'icon': 'fa fa-bars'}"/>
+=======
+                <field name="description" class="text-wrap" invisible="not display_description" options="{'icon': 'fa fa-bars'}"/>
+>>>>>>> upstream/18.0
 =======
                 <field name="description" class="text-wrap" invisible="not display_description" options="{'icon': 'fa fa-bars'}"/>
 >>>>>>> upstream/18.0

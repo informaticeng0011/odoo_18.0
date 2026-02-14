@@ -146,9 +146,15 @@ class PrinterDriver(Driver):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if any(cmd in device['device-id'] for cmd in ['CMD:STAR;', 'CMD:ESC/POS;']):
             self.device_subtype = "receipt_printer"
         elif any(cmd in device['device-id'] for cmd in ['COMMAND SET:ZPL;', 'CMD:ESCLABEL;']):
+=======
+        if any(cmd in device['device-id'] for cmd in ['CMD:STAR;', 'CMD:ESC/POS;']) or "tm-m30" in self.device_name.lower():
+            self.device_subtype = "receipt_printer"
+        elif any(cmd in device['device-id'] for cmd in ['COMMAND SET:ZPL;', 'CMD:ESCLABEL;']) or "zpl" in self.device_name.lower():
+>>>>>>> upstream/18.0
 =======
         if any(cmd in device['device-id'] for cmd in ['CMD:STAR;', 'CMD:ESC/POS;']) or "tm-m30" in self.device_name.lower():
             self.device_subtype = "receipt_printer"
@@ -616,6 +622,7 @@ class PrinterDriver(Driver):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             with cups_lock:
                 if ppd_file:
                     conn.addPrinter(name=device['identifier'], ppdname=ppd_file, device=device['url'])
@@ -630,6 +637,8 @@ class PrinterDriver(Driver):
                 conn.addPrinterOptionDefault(device['identifier'], "usb-unidir", "true")
             return True
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1094,6 +1103,9 @@ class PrinterDriver(Driver):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

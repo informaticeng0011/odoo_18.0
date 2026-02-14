@@ -112,9 +112,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import * as PosLoyalty from "@pos_loyalty/../tests/tours/utils/pos_loyalty_util";
 import * as ProductScreen from "@point_of_sale/../tests/tours/utils/product_screen_util";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -459,6 +462,9 @@ import * as PosLoyalty from "@pos_loyalty/../tests/tours/utils/pos_loyalty_util"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1443,7 +1449,10 @@ registry.category("web_tour.tours").add("PosLoyalty2DiscountsSpecificGlobal", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2184,6 +2193,9 @@ registry.category("web_tour.tours").add("PosLoyaltySpecificProductDiscountWithGl
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2898,7 +2910,10 @@ registry.category("web_tour.tours").add("RefundRulesProduct", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3256,6 +3271,7 @@ registry.category("web_tour.tours").add("test_scan_loyalty_card_select_customer"
             Chrome.startPoS(),
             Dialog.confirm("Open Register"),
             scan_barcode("0444-e050-4548"),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3859,6 +3875,8 @@ registry.category("web_tour.tours").add("test_scan_loyalty_card_select_customer"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             ProductScreen.customerIsSelected("A Test Partner"),
         ].flat(),
 });
@@ -4006,6 +4024,7 @@ registry.category("web_tour.tours").add("test_min_qty_points_awarded", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4038,6 +4057,8 @@ registry.category("web_tour.tours").add("test_min_qty_points_awarded", {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4309,7 +4330,13 @@ registry.category("web_tour.tours").add("test_confirm_coupon_programs_one_by_one
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         const product = posmodel.models["product.product"].getFirst();
+=======
+                        const product = posmodel.models["product.product"].find(
+                            (el) => el.attribute_line_ids.length == 0
+                        );
+>>>>>>> upstream/18.0
 =======
                         const product = posmodel.models["product.product"].find(
                             (el) => el.attribute_line_ids.length == 0
@@ -4613,6 +4640,7 @@ registry.category("web_tour.tours").add("test_confirm_coupon_programs_one_by_one
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4834,6 +4862,8 @@ registry.category("web_tour.tours").add("test_confirm_coupon_programs_one_by_one
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4857,6 +4887,9 @@ registry.category("web_tour.tours").add("test_loyalty_is_not_processed_for_draft
 });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4937,6 +4970,9 @@ registry.category("web_tour.tours").add("test_race_conditions_update_program", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

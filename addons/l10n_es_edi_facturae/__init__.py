@@ -126,11 +126,14 @@ def _l10n_es_edi_facturae_post_init_hook(env):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     for company in env['res.company'].search([('chart_template', '=like', 'es_%'), ('parent_id', '=', False)]):
         Template = env['account.chart.template'].with_company(company)
         Template._load_data({
             'account.tax': Template._get_es_facturae_account_tax(),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -498,6 +501,7 @@ def _l10n_es_edi_facturae_post_init_hook(env):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -533,6 +537,8 @@ def _l10n_es_edi_facturae_post_init_hook(env):
 >>>>>>> upstream/18.0
         })
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -832,6 +838,9 @@ def uninstall_hook(env):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

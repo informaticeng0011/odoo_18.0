@@ -219,9 +219,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -889,9 +892,15 @@ from odoo.addons.mass_mailing_sms.tests.common import MassSMSCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import HttpCase
 
 class TestMailingListSms(HttpCase, MassSMSCommon):
+=======
+
+
+class TestMailingListSms(MassSMSCommon):
+>>>>>>> upstream/18.0
 =======
 
 

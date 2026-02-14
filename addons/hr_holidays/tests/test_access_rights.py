@@ -5,6 +5,10 @@ import unittest
 
 from datetime import date
 from dateutil.relativedelta import relativedelta
+<<<<<<< HEAD
+=======
+from freezegun import freeze_time
+>>>>>>> upstream/18.0
 
 from odoo import tests
 from odoo.addons.hr_holidays.tests.common import TestHrHolidaysCommon
@@ -391,6 +395,7 @@ class TestAcessRightsStates(TestHrHolidaysAccessRightsCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -453,6 +458,9 @@ class TestAcessRightsStates(TestHrHolidaysAccessRightsCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+    @freeze_time('2026-01-23 10:00:00')
 >>>>>>> upstream/18.0
     def test_holiday_responsible_refuse_leave(self):
         """
@@ -507,6 +515,9 @@ class TestAcessRightsStates(TestHrHolidaysAccessRightsCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

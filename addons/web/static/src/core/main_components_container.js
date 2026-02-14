@@ -3,6 +3,10 @@ import { registry } from "@web/core/registry";
 import { useRegistry } from "@web/core/registry_hook";
 import { ErrorHandler } from "@web/core/utils/components";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { localization } from "@web/core/l10n/localization";
+>>>>>>> upstream/18.0
 =======
 import { localization } from "@web/core/l10n/localization";
 >>>>>>> upstream/18.0
@@ -19,7 +23,11 @@ export class MainComponentsContainer extends Component {
     static props = {};
     static template = xml`
 <<<<<<< HEAD
+<<<<<<< HEAD
     <div class="o-main-components-container">
+=======
+    <div class="o-main-components-container" t-att-class="{'o_rtl': this.isRTL}">
+>>>>>>> upstream/18.0
 =======
     <div class="o-main-components-container" t-att-class="{'o_rtl': this.isRTL}">
 >>>>>>> upstream/18.0
@@ -34,6 +42,10 @@ export class MainComponentsContainer extends Component {
     setup() {
         this.Components = useRegistry(mainComponents);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.isRTL = localization.direction === "rtl";
+>>>>>>> upstream/18.0
 =======
         this.isRTL = localization.direction === "rtl";
 >>>>>>> upstream/18.0

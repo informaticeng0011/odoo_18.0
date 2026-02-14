@@ -11,9 +11,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Component, onWillStart, useChildSubEnv, useState } from "@odoo/owl";
 import { useService } from "@web/core/utils/hooks";
 import { download } from "@web/core/network/download";
+=======
+import { Component, onWillStart, useState } from "@odoo/owl";
+import { useService } from "@web/core/utils/hooks";
+>>>>>>> upstream/18.0
 =======
 import { Component, onWillStart, useState } from "@odoo/owl";
 import { useService } from "@web/core/utils/hooks";
@@ -73,6 +78,7 @@ import * as spreadsheet from "@odoo/o-spreadsheet";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Spreadsheet, Model, registries } from "@odoo/o-spreadsheet";
 import { _t } from "@web/core/l10n/translation";
 import { useSpreadsheetPrint } from "../hooks";
@@ -85,6 +91,11 @@ registries.topbarMenuRegistry.addChild("download_public_excel", ["file"], {
     isVisible: (env) => env.canDownloadExcel(),
 });
 
+=======
+import { Spreadsheet, Model } from "@odoo/o-spreadsheet";
+import { useSpreadsheetPrint } from "../hooks";
+
+>>>>>>> upstream/18.0
 =======
 import { Spreadsheet, Model } from "@odoo/o-spreadsheet";
 import { useSpreadsheetPrint } from "../hooks";
@@ -166,6 +177,7 @@ export class PublicReadonlySpreadsheet extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         useChildSubEnv({
             downloadExcel: () =>
                 download({
@@ -174,6 +186,8 @@ export class PublicReadonlySpreadsheet extends Component {
                 }),
             canDownloadExcel: () => Boolean(this.props.downloadExcelUrl),
         });
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

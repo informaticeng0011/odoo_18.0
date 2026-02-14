@@ -158,7 +158,11 @@ import { useDebounced } from "@web/core/utils/timing";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class UseSuggestion {
+=======
+export class UseSuggestion {
+>>>>>>> upstream/18.0
 =======
 export class UseSuggestion {
 >>>>>>> upstream/18.0
@@ -836,7 +840,11 @@ export class UseSuggestion {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return this.composer.thread || this.composer.message.thread;
+=======
+        return this.composer.thread || this.composer.message?.thread;
+>>>>>>> upstream/18.0
 =======
         return this.composer.thread || this.composer.message?.thread;
 >>>>>>> upstream/18.0
@@ -1232,6 +1240,12 @@ export class UseSuggestion {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (!this.thread || status(this.comp) === "destroyed") {
+            return;
+        }
+>>>>>>> upstream/18.0
 =======
         if (!this.thread || status(this.comp) === "destroyed") {
             return;
@@ -1769,7 +1783,11 @@ export class UseSuggestion {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (status(this.comp) === "destroyed") {
+=======
+        if (!this.thread || status(this.comp) === "destroyed") {
+>>>>>>> upstream/18.0
 =======
         if (!this.thread || status(this.comp) === "destroyed") {
 >>>>>>> upstream/18.0
