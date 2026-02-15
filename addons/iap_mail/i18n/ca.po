@@ -43,7 +43,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -369,6 +373,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Noemi Pla, 2025
 >>>>>>> upstream/18.0
@@ -973,10 +978,15 @@
 # Noemi Pla, 2025
 #
 >>>>>>> upstream/18.0
+=======
+# Noemi Pla, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1691,6 +1701,9 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
+=======
+"POT-Creation-Date: 2026-02-12 18:39+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Noemi Pla, 2025\n"
 "Language-Team: Catalan (https://app.transifex.com/odoo/teams/41243/ca/)\n"
@@ -1698,6 +1711,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1825,6 +1839,25 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: iap_mail
+=======
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: iap_mail
+#: model_terms:ir.ui.view,arch_db:iap_mail.enrich_company_by_dnb
+msgid ""
+"<i class=\"fa fa-fw me-2 fa-address-card text-primary mt-1\"/>\n"
+"                    <b>Address</b>"
+msgstr ""
+
+#. module: iap_mail
+#: model_terms:ir.ui.view,arch_db:iap_mail.enrich_company_by_dnb
+msgid ""
+"<i class=\"fa fa-fw me-2 fa-building mt-1 text-primary\"/>\n"
+"                    <b>Type</b>"
+msgstr ""
+
+#. module: iap_mail
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:iap_mail.enrich_company
 msgid ""
 "<i class=\"fa fa-fw me-2 fa-building text-primary\"/>\n"
@@ -1852,6 +1885,17 @@ msgstr ""
 "                    <b>Tecnologies usades</b>"
 
 #. module: iap_mail
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:iap_mail.enrich_company_by_dnb
+msgid ""
+"<i class=\"fa fa-fw me-2 fa-envelope text-primary\" style=\"margin-top: 3px;"
+"\"/>\n"
+"                    <b>Email</b>"
+msgstr ""
+
+#. module: iap_mail
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:iap_mail.enrich_company
 msgid ""
 "<i class=\"fa fa-fw me-2 fa-envelope text-primary\"/>\n"
@@ -1861,6 +1905,23 @@ msgstr ""
 "                    <b>Correu electrònic</b>"
 
 #. module: iap_mail
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:iap_mail.enrich_company_by_dnb
+msgid ""
+"<i class=\"fa fa-fw me-2 fa-folder mt-1 text-primary\"/>\n"
+"                    <b>Tax ID</b>"
+msgstr ""
+
+#. module: iap_mail
+#: model_terms:ir.ui.view,arch_db:iap_mail.enrich_company_by_dnb
+msgid ""
+"<i class=\"fa fa-fw me-2 fa-globe mt-1 text-primary\"/>\n"
+"                    <b>Website</b>"
+msgstr ""
+
+#. module: iap_mail
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:iap_mail.enrich_company
 msgid ""
 "<i class=\"fa fa-fw me-2 fa-globe text-primary\"/>\n"
@@ -1870,6 +1931,16 @@ msgstr ""
 "                    <b>Zona horària</b>"
 
 #. module: iap_mail
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:iap_mail.enrich_company_by_dnb
+msgid ""
+"<i class=\"fa fa-fw me-2 fa-industry text-primary\"/>\n"
+"                    <b>Industries</b>"
+msgstr ""
+
+#. module: iap_mail
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:iap_mail.enrich_company
 msgid ""
 "<i class=\"fa fa-fw me-2 fa-industry text-primary\"/>\n"
@@ -1879,6 +1950,16 @@ msgstr ""
 "                    <b>Sectors</b>"
 
 #. module: iap_mail
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:iap_mail.enrich_company_by_dnb
+msgid ""
+"<i class=\"fa fa-fw me-2 fa-money mt-1 text-primary\"/>\n"
+"                    <b>Estimated revenue</b>"
+msgstr ""
+
+#. module: iap_mail
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:iap_mail.enrich_company
 msgid ""
 "<i class=\"fa fa-fw me-2 fa-money text-primary\"/>\n"
@@ -1888,6 +1969,16 @@ msgstr ""
 "                    <b>Ingressos estimats</b>"
 
 #. module: iap_mail
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:iap_mail.enrich_company_by_dnb
+msgid ""
+"<i class=\"fa fa-fw me-2 fa-phone mt-1 text-primary\"/>\n"
+"                    <b>Phone</b>"
+msgstr ""
+
+#. module: iap_mail
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:iap_mail.enrich_company
 msgid ""
 "<i class=\"fa fa-fw me-2 fa-phone text-primary\"/>\n"
@@ -2089,6 +2180,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "<i class=\"fa fa-fw me-2 fa-twitter text-primary\"/>\n"
 "                    <b>X</b>"
@@ -2840,6 +2932,14 @@ msgstr ""
 
 #. module: iap_mail
 #: model_terms:ir.ui.view,arch_db:iap_mail.enrich_company
+=======
+"<i class=\"fa fa-fw me-2 fa-twitter text-primary\"/>\n"
+"                    <b>X</b>"
+
+#. module: iap_mail
+#: model_terms:ir.ui.view,arch_db:iap_mail.enrich_company
+#: model_terms:ir.ui.view,arch_db:iap_mail.enrich_company_by_dnb
+>>>>>>> upstream/18.0
 msgid ""
 "<i class=\"fa fa-fw me-2 fa-users text-primary\"/>\n"
 "                    <b>Employees</b>"
@@ -2849,6 +2949,10 @@ msgstr ""
 
 #. module: iap_mail
 #: model_terms:ir.ui.view,arch_db:iap_mail.enrich_company
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:iap_mail.enrich_company_by_dnb
+>>>>>>> upstream/18.0
 msgid "<span> per year</span>"
 msgstr "<span> per any</span>"
 

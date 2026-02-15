@@ -72,6 +72,10 @@ from odoo import _, fields, http, tools
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.exceptions import UserError
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import UserError
 >>>>>>> upstream/18.0
@@ -451,6 +455,11 @@ class WebsiteProfile(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if not user.partner_id.can_edit_vat() and whitelisted_values.get('country_id') != user.partner_id.country_id.id:
+            raise UserError(_("Changing the country is not allowed once document(s) have been issued for your account. Please contact us directly for this operation."))
+>>>>>>> upstream/18.0
 =======
         if not user.partner_id.can_edit_vat() and whitelisted_values.get('country_id') != user.partner_id.country_id.id:
             raise UserError(_("Changing the country is not allowed once document(s) have been issued for your account. Please contact us directly for this operation."))
@@ -983,6 +992,10 @@ class WebsiteProfile(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        request.session['validation_email_sent'] = False
+>>>>>>> upstream/18.0
 =======
         request.session['validation_email_sent'] = False
 >>>>>>> upstream/18.0

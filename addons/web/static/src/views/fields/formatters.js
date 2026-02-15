@@ -152,6 +152,12 @@ export function formatFloat(value, options = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    if (!options.minDigits && options.field) {
+        options.minDigits = options.field.min_display_digits;
+    }
+>>>>>>> upstream/18.0
 =======
     if (!options.minDigits && options.field) {
         options.minDigits = options.field.min_display_digits;
@@ -289,10 +295,13 @@ formatFloat.extractOptions = ({ attrs, options }) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const humanReadable = !!options.human_readable;
     const decimals = options.decimals || 0;
     return { decimals, digits, humanReadable };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -357,6 +366,9 @@ formatFloat.extractOptions = ({ attrs, options }) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

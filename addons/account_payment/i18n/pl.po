@@ -84,6 +84,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* account_payment
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -446,6 +447,9 @@
 =======
 # * account_payment
 >>>>>>> upstream/18.0
+=======
+# * account_payment
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -569,6 +573,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -805,6 +810,10 @@
 >>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# "Marta (wacm)" <wacm@odoo.com>, 2026.
 >>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
@@ -922,6 +931,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1561,10 +1571,18 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-02-14 09:03+0000\n"
+"Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
+"Language-Team: Polish <https://translate.odoo.com/projects/odoo-18/"
+"account_payment/pl/>\n"
+>>>>>>> upstream/18.0
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2092,6 +2110,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
 "(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || "
 "(n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
@@ -2123,6 +2143,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2206,8 +2229,13 @@ msgid ""
 "<i class=\"fa fa-arrow-circle-right\"/><span class=\"d-none d-md-inline\"> "
 "Pay Now</span>"
 msgstr ""
+<<<<<<< HEAD
 "<i class=\"fa fa-arrow-circle-right\"/><span class=\"d-none d-md-"
 "inline\">Zapłać Teraz</span>"
+=======
+"<i class=\"fa fa-arrow-circle-right\"/><span class=\"d-none d-md-inline\""
+">Zapłać Teraz</span>"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_page_inherit_payment
@@ -2235,12 +2263,20 @@ msgstr ""
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_page_inherit_payment
 msgid "<i class=\"fa fa-fw fa-check-circle\"/> Paid"
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-fw fa-check-circle\"/>Zapłacone"
+=======
+msgstr "<i class=\"fa fa-fw fa-check-circle\"/> Opłacono"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_page_inherit_payment
 msgid "<i class=\"fa fa-fw fa-check-circle\"/> Pending"
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-fw fa-check-circle\"/>Oczekujące"
+=======
+msgstr "<i class=\"fa fa-fw fa-check-circle\"/> Oczekuje"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_page_inherit_payment
@@ -2270,6 +2306,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account_payment.payment_refund_wizard_view_form
 msgid ""
 "<strong>Warning!</strong> There is a refund pending for this payment.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2631,6 +2668,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        Wait a moment for it to be processed. If the refund "
 "is still pending in a\n"
 "                        few minutes, please check your payment provider "
@@ -2638,6 +2677,7 @@ msgstr ""
 msgstr ""
 "<strong>Uwaga!</strong>Trwa proces zwrotu pieniędzy za tę płatność.\n"
 "Poczekaj chwilę na jego przetworzenie. Jeśli po kilku minutach zwrot nadal "
+<<<<<<< HEAD
 "jest w toku\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2995,17 +3035,25 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "po kilku minutach, sprawdź konfigurację swojego dostawcy płatności."
+=======
+"jest w toku, sprawdź konfigurację swojego dostawcy płatności."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
 #: code:addons/account_payment/wizards/payment_link_wizard.py:0
 msgid "A discount will be applied if the customer pays before %s included."
 msgstr ""
+<<<<<<< HEAD
 "Zniżka zostanie zastosowana, jeśli klient zapłaci przed dniem %s włącznie."
+=======
+"Zniżka zostanie zastosowana, jeśli klient zapłaci przed datą %s włącznie."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3367,6 +3415,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "A payment has already been made on this invoice, please make sure to not pay "
 "twice."
 msgstr ""
@@ -3490,6 +3540,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3914,11 +3967,14 @@ msgstr "Zamknij"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:account_payment.field_account_payment_register__payment_method_code
 msgid "Code"
 msgstr "Kod"
 
 #. module: account_payment
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4179,7 +4235,11 @@ msgstr "Waluta"
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_payment_link_wizard__discount_date
 msgid "Discount Date"
+<<<<<<< HEAD
 msgstr "Data rabatu"
+=======
+msgstr "Data zniżki"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_payment_refund_wizard__display_name
@@ -4214,6 +4274,7 @@ msgstr "Zniżka za wczesną płatność w wysokości"
 #: model:onboarding.onboarding.step,description:account_payment.onboarding_onboarding_step_payment_provider
 msgid "Enable credit & debit card payments supported by Stripe."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4692,6 +4753,9 @@ msgstr ""
 =======
 "Włącz płatności kartami kredytowymi i debetowymi, obsługiwanymi przez Stripe."
 >>>>>>> upstream/18.0
+=======
+"Włącz płatności kartami kredytowymi i debetowymi, obsługiwanymi przez Stripe."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields.selection,name:account_payment.selection__payment_refund_wizard__support_refund__full_only
@@ -4701,7 +4765,11 @@ msgstr "Tylko pełne"
 #. module: account_payment
 #: model:ir.model,name:account_payment.model_payment_link_wizard
 msgid "Generate Sales Payment Link"
+<<<<<<< HEAD
 msgstr "Wygeneruj link do płatności."
+=======
+msgstr "Wygeneruj link do płatności"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.actions.act_window,name:account_payment.action_invoice_order_generate_link
@@ -4739,6 +4807,7 @@ msgid ""
 "In test mode, a fake payment is processed through a test payment interface.\n"
 "This mode is advised when setting up the provider."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5335,6 +5404,10 @@ msgstr ""
 "W trybie testowym przez testowy interfejs płatniczy przetwarzane są fałszywe "
 "płatności.\n"
 >>>>>>> upstream/18.0
+=======
+"Testowe płatności przetwarzane są w trybie testowym przez testowy interfejs "
+"płatniczy.\n"
+>>>>>>> upstream/18.0
 "Ten tryb jest zalecany podczas konfigurowania dostawcy."
 
 #. module: account_payment
@@ -5392,7 +5465,11 @@ msgstr "Data ostatniej aktualizacji"
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_payment_refund_wizard__amount_available_for_refund
 msgid "Maximum Refund Allowed"
+<<<<<<< HEAD
 msgstr "Maksymalna dopuszczalny zwrot"
+=======
+msgstr "Maksymalny dopuszczalny zwrot"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.payment_link_wizard__form_inherit_account_payment
@@ -5520,7 +5597,11 @@ msgid "Online payment option is not enabled in Configuration."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opcja płatności online nie jest włączona w konfiguracji."
+>>>>>>> upstream/18.0
 =======
 msgstr "Opcja płatności online nie jest włączona w konfiguracji."
 >>>>>>> upstream/18.0
@@ -5778,7 +5859,11 @@ msgstr "Opcja płatności online nie jest włączona w konfiguracji."
 #. odoo-python
 #: code:addons/account_payment/controllers/portal.py:0
 msgid "Overdue invoices should share the same company."
+<<<<<<< HEAD
 msgstr "Zaległe faktury powinny dotyczyć tej samej firmy. "
+=======
+msgstr "Zaległe faktury powinny dotyczyć tej samej firmy."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
@@ -5795,7 +5880,11 @@ msgstr "Zaległe faktury powinny mieć tego samego partnera."
 #. module: account_payment
 #: model:ir.model.fields.selection,name:account_payment.selection__payment_refund_wizard__support_refund__partial
 msgid "Partial"
+<<<<<<< HEAD
 msgstr "Częściowo"
+=======
+msgstr "Częściowy"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model,name:account_payment.model_account_payment_register
@@ -5884,7 +5973,11 @@ msgid "Payment Provider"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dostawca płatności"
+=======
+msgstr "Operator płatności"
+>>>>>>> upstream/18.0
 =======
 msgstr "Operator płatności"
 >>>>>>> upstream/18.0
@@ -6019,7 +6112,11 @@ msgid "Payment Transaction"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Transakcja płatności"
+=======
+msgstr "Transakcja płatnicza"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transakcja płatnicza"
 >>>>>>> upstream/18.0
@@ -6108,7 +6205,11 @@ msgstr "Transakcja płatnicza"
 #. module: account_payment
 #: model:ir.ui.menu,name:account_payment.payment_transaction_menu
 msgid "Payment Transactions"
+<<<<<<< HEAD
 msgstr "Transakcje płatności"
+=======
+msgstr "Transakcje płatnicze"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model,name:account_payment.model_account_payment
@@ -6131,7 +6232,11 @@ msgstr "Dostawca"
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_overdue_invoices_page
 msgid "Reference"
+<<<<<<< HEAD
 msgstr "Odnośnik"
+=======
+msgstr "Referencja"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
@@ -6223,6 +6328,7 @@ msgid ""
 "The payment related to the transaction with reference %(ref)s has been "
 "posted: %(link)s"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6820,6 +6926,10 @@ msgstr ""
 "Płatność powiązana z transakcją z referencją %(ref)s została zamieszczona: %"
 "(link)s"
 >>>>>>> upstream/18.0
+=======
+"Płatność powiązana z transakcją o nr. ref. %(ref)s została zamieszczona: %"
+"(link)s"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
@@ -6830,7 +6940,11 @@ msgstr "Podane parametry są nieprawidłowe."
 #. module: account_payment
 #: model:ir.model.fields,help:account_payment.field_account_payment__source_payment_id
 msgid "The source payment of related refund payments"
+<<<<<<< HEAD
 msgstr "Źródło płatności powiązanych zwrotów."
+=======
+msgstr "Źródło płatności powiązanych zwrotów"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
@@ -6920,7 +7034,11 @@ msgid "There are pending transactions for this invoice."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Istnieją oczekujące transakcje dla tej faktury."
+>>>>>>> upstream/18.0
 =======
 msgstr "Istnieją oczekujące transakcje dla tej faktury."
 >>>>>>> upstream/18.0
@@ -7262,7 +7380,11 @@ msgid "There is no amount to be paid."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nie ma żadnej sumy do zapłaty."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nie ma żadnej sumy do zapłaty."
 >>>>>>> upstream/18.0
@@ -7646,8 +7768,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Podczas przetwarzania Państwa płatności wystąpił błąd: problem z weryfikacją"
 " numeru karty kredytowej."
+=======
+"Podczas przetwarzania Państwa płatności wystąpił błąd: problem z weryfikacją "
+"numeru karty kredytowej."
+>>>>>>> upstream/18.0
 =======
 "Podczas przetwarzania Państwa płatności wystąpił błąd: problem z weryfikacją "
 "numeru karty kredytowej."
@@ -8248,6 +8375,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Podczas przetwarzania płatności wystąpił błąd: transakcja nie powiodła "
 "się.<br/>"
 =======
@@ -8726,6 +8854,10 @@ msgstr ""
 "Podczas przetwarzania płatności wystąpił błąd: transakcja nie powiodła się.<"
 "br/>"
 >>>>>>> upstream/18.0
+=======
+"Podczas przetwarzania płatności wystąpił błąd: transakcja nie powiodła się.<"
+"br/>"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_error
@@ -8822,7 +8954,11 @@ msgid "This invoice cannot be paid online."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ta faktura nie może być opłacona online."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ta faktura nie może być opłacona online."
 >>>>>>> upstream/18.0
@@ -9170,7 +9306,11 @@ msgid "This invoice isn't posted."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ta faktura nie jest opublikowana."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ta faktura nie jest opublikowana."
 >>>>>>> upstream/18.0
@@ -9512,7 +9652,11 @@ msgid "This is not an outgoing invoice."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "To nie jest wychodząca faktura."
+>>>>>>> upstream/18.0
 =======
 msgstr "To nie jest wychodząca faktura."
 >>>>>>> upstream/18.0
@@ -9781,7 +9925,11 @@ msgstr "Transakcje"
 #. module: account_payment
 #: model:ir.model.fields.selection,name:account_payment.selection__payment_refund_wizard__support_refund__none
 msgid "Unsupported"
+<<<<<<< HEAD
 msgstr "Niewspierana"
+=======
+msgstr "Nieobsługiwana"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_account_payment__use_electronic_payment_method
@@ -9798,6 +9946,7 @@ msgstr "Pusta transakcja"
 #. odoo-python
 #: code:addons/account_payment/models/account_payment_method_line.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10158,10 +10307,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "You can't delete a payment method that is linked to a provider in the "
 "enabled or test state.\n"
 "Linked providers(s): %s"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10604,6 +10756,11 @@ msgstr ""
 "trybie włączenia lub trybie testowym.\n"
 "Powiązany/-i operator/-zy: %s"
 >>>>>>> upstream/18.0
+=======
+"Nie możesz usunąć metody płatności, która jest powiązana z operatorem w "
+"trybie włączenia lub trybie testowym.\n"
+"Powiązany/-i operator/-zy: %s"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
@@ -10731,8 +10888,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Nie możesz odinstalować tego modułu, ponieważ płatności z wykorzystaniem tej"
 " metody już istnieją."
+=======
+"Nie możesz odinstalować tego modułu, ponieważ płatności z wykorzystaniem tej "
+"metody już istnieją."
+>>>>>>> upstream/18.0
 =======
 "Nie możesz odinstalować tego modułu, ponieważ płatności z wykorzystaniem tej "
 "metody już istnieją."
@@ -11336,7 +11498,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Musisz najpierw dezaktywować dostawcę płatności przed usunięciem jego dziennika.\n"
+=======
+"Musisz najpierw dezaktywować dostawcę płatności przed usunięciem jego "
+"dziennika.\n"
+>>>>>>> upstream/18.0
 =======
 "Musisz najpierw dezaktywować dostawcę płatności przed usunięciem jego "
 "dziennika.\n"
@@ -11825,7 +11992,11 @@ msgstr "do zapłaty za %s dni"
 #. odoo-javascript
 #: code:addons/account_payment/static/src/js/portal_my_invoices_payment.js:0
 msgid "due today"
+<<<<<<< HEAD
 msgstr "Do zapłaty dziś"
+=======
+msgstr "do zapłaty dziś"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment
@@ -11835,6 +12006,7 @@ msgstr "został zastosowany."
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_my_invoices_payment
 msgid "overdue"
+<<<<<<< HEAD
 msgstr "Zaległa"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12546,6 +12718,12 @@ msgstr "Zaległa"
 #~ msgstr "Kod"
 >>>>>>> upstream/18.0
 =======
+
+#~ msgid "Code"
+#~ msgstr "Kod"
+>>>>>>> upstream/18.0
+=======
+msgstr "zaległa"
 
 #~ msgid "Code"
 #~ msgstr "Kod"

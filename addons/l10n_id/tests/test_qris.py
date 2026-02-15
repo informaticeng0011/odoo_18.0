@@ -27,6 +27,10 @@ class TestQris(AccountTestInvoicingCommon):
             'l10n_id_qris_api_key': 'apikey',
             'l10n_id_qris_mid': 'mid',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'allow_out_payment': True,
+>>>>>>> upstream/18.0
 =======
             'allow_out_payment': True,
 >>>>>>> upstream/18.0

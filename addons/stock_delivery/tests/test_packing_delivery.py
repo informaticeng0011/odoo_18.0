@@ -433,7 +433,10 @@ class TestPacking(TestPackingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -904,6 +907,7 @@ class TestPacking(TestPackingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1188,6 +1192,8 @@ class TestPacking(TestPackingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_delivery_shipping_weight_with_package_before_validation(self):
         """Check that package and picking shipping weights are correctly computed
@@ -1217,4 +1223,7 @@ class TestPacking(TestPackingCommon):
         self.assertTrue(package.quant_ids)
         self.assertEqual(package.weight, self.product_aw.weight, "As the package contains quants, its weight is correctly computed from them.")
         self.assertEqual(picking_ship.shipping_weight, self.product_aw.weight)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

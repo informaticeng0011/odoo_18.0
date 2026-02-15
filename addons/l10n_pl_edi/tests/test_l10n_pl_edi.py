@@ -298,7 +298,12 @@ class TestL10nPlEdi(AccountTestInvoicingCommon):
             'acc_number': '12 3456 7890 0000 0000 1234 5678',
             'partner_id': self.partner_pl.id,
 <<<<<<< HEAD
+<<<<<<< HEAD
             'bank_id': self.env['res.bank'].create({'name': 'Test Bank PL'}).id
+=======
+            'bank_id': self.env['res.bank'].create({'name': 'Test Bank PL'}).id,
+            'allow_out_payment': True,
+>>>>>>> upstream/18.0
 =======
             'bank_id': self.env['res.bank'].create({'name': 'Test Bank PL'}).id,
             'allow_out_payment': True,

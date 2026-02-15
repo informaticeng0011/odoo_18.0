@@ -454,7 +454,11 @@ class AccountWithholdingLine(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if line.account_id in line._get_valid_liquidity_accounts():
+=======
+            if line.account_id in line._get_valid_liquidity_accounts() or line.account_id == line.company_id.transfer_account_id:
+>>>>>>> upstream/18.0
 =======
             if line.account_id in line._get_valid_liquidity_accounts() or line.account_id == line.company_id.transfer_account_id:
 >>>>>>> upstream/18.0
@@ -1115,6 +1119,10 @@ class AccountWithholdingLine(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            is_refund=self._is_refund(),
+>>>>>>> upstream/18.0
 =======
             is_refund=self._is_refund(),
 >>>>>>> upstream/18.0
@@ -1785,6 +1793,10 @@ class AccountWithholdingLine(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'partner_id': self._get_comodel_partner().id,
+>>>>>>> upstream/18.0
 =======
                 'partner_id': self._get_comodel_partner().id,
 >>>>>>> upstream/18.0
@@ -2434,6 +2446,10 @@ class AccountWithholdingLine(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'partner_id': self._get_comodel_partner().id,
+>>>>>>> upstream/18.0
 =======
                 'partner_id': self._get_comodel_partner().id,
 >>>>>>> upstream/18.0
@@ -3067,6 +3083,10 @@ class AccountWithholdingLine(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'partner_id': self._get_comodel_partner().id,
+>>>>>>> upstream/18.0
 =======
                 'partner_id': self._get_comodel_partner().id,
 >>>>>>> upstream/18.0
@@ -3773,6 +3793,11 @@ class AccountWithholdingLine(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if not tax_data:
+                return None
+>>>>>>> upstream/18.0
 =======
             if not tax_data:
                 return None
@@ -4721,7 +4746,10 @@ class AccountWithholdingLine(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5201,6 +5229,9 @@ class AccountWithholdingLine(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

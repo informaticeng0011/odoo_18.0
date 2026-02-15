@@ -105,6 +105,10 @@ export class MonetaryField extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            minDigits: this.props.useFieldDigits && this.props.record.fields[this.props.name].min_display_digits,
+>>>>>>> upstream/18.0
 =======
             minDigits: this.props.useFieldDigits && this.props.record.fields[this.props.name].min_display_digits,
 >>>>>>> upstream/18.0

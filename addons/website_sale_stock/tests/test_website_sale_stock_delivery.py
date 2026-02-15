@@ -156,6 +156,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo import Command
+>>>>>>> upstream/18.0
 =======
 from odoo import Command
 >>>>>>> upstream/18.0
@@ -784,6 +788,10 @@ from odoo.addons.sale.tests.common import SaleCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.delivery.tests.common import DeliveryCommon
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.delivery.tests.common import DeliveryCommon
 >>>>>>> upstream/18.0
@@ -1414,7 +1422,11 @@ from odoo.exceptions import ValidationError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class TestWebsiteSaleStockDeliveryController(PaymentCommon, SaleCommon):
+=======
+class TestWebsiteSaleStockDeliveryController(PaymentCommon, SaleCommon, DeliveryCommon):
+>>>>>>> upstream/18.0
 =======
 class TestWebsiteSaleStockDeliveryController(PaymentCommon, SaleCommon, DeliveryCommon):
 >>>>>>> upstream/18.0
@@ -2063,7 +2075,10 @@ class TestWebsiteSaleStockDeliveryController(PaymentCommon, SaleCommon, Delivery
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2561,6 +2576,9 @@ class TestWebsiteSaleStockDeliveryController(PaymentCommon, SaleCommon, Delivery
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

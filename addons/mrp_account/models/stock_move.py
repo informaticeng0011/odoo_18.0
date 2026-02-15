@@ -159,7 +159,11 @@ from collections import defaultdict
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import models
+=======
+from odoo import _, Command, fields, models
+>>>>>>> upstream/18.0
 =======
 from odoo import _, Command, fields, models
 >>>>>>> upstream/18.0
@@ -665,6 +669,7 @@ class StockMove(models.Model):
         self.ensure_one()
         return self.location_dest_id.usage == 'production' and self.location_id._should_be_valued()
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1530,6 +1535,8 @@ class StockMove(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def _get_all_related_sm(self, product):
         moves = super()._get_all_related_sm(product)
         return moves | self.filtered(
@@ -1769,6 +1776,9 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

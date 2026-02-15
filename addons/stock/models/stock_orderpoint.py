@@ -336,6 +336,7 @@ class StockWarehouseOrderpoint(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Products without routes have no impact on _get_rules_from_location.
         product_ids_with_routes = set(orderpoints_to_compute.product_id.filter_has_routes().ids)
         # Small cache mapping (location_id, route_id) -> stock.rule.
@@ -354,6 +355,8 @@ class StockWarehouseOrderpoint(models.Model):
                     orderpoint.location_id, route_ids=orderpoint.route_id
                 )
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -994,6 +997,9 @@ class StockWarehouseOrderpoint(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1762,6 +1768,11 @@ class StockWarehouseOrderpoint(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            elif not orderpoint.qty_to_order_manual and not orderpoint.qty_to_order:
+                orderpoint.qty_to_order = orderpoint.qty_to_order_computed
+>>>>>>> upstream/18.0
 =======
             elif not orderpoint.qty_to_order_manual and not orderpoint.qty_to_order:
                 orderpoint.qty_to_order = orderpoint.qty_to_order_computed
@@ -2481,7 +2492,11 @@ class StockWarehouseOrderpoint(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     ('qty_to_order_manual', operator, value),
+=======
+                    '&', ('qty_to_order_manual', operator, value), ('qty_to_order_manual', 'not in', [0, False]),
+>>>>>>> upstream/18.0
 =======
                     '&', ('qty_to_order_manual', operator, value), ('qty_to_order_manual', 'not in', [0, False]),
 >>>>>>> upstream/18.0
@@ -2751,6 +2766,7 @@ class StockWarehouseOrderpoint(models.Model):
 
     @api.depends('qty_multiple', 'qty_forecast', 'product_min_qty', 'product_max_qty', 'visibility_days')
     def _compute_qty_to_order_computed(self):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3261,10 +3277,13 @@ class StockWarehouseOrderpoint(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         def to_compute(orderpoint):
             rounding = orderpoint.product_uom.rounding
             # The check is on purpose. We only want to consider the visibility days if the forecast is negative and
             # there is a already something to ressuply base on lead times.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3771,6 +3790,8 @@ class StockWarehouseOrderpoint(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             return (
                 orderpoint.id
                 and float_compare(orderpoint.qty_forecast, orderpoint.product_min_qty, precision_rounding=rounding) < 0
@@ -3930,6 +3951,9 @@ class StockWarehouseOrderpoint(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4416,6 +4440,9 @@ class StockWarehouseOrderpoint(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4921,7 +4948,10 @@ class StockWarehouseOrderpoint(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5424,6 +5454,9 @@ class StockWarehouseOrderpoint(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5928,9 +5961,13 @@ class StockWarehouseOrderpoint(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             # We want to know how much we should order to also satisfy the needs that gonna appear in the next (visibility) days
             product_context = self._get_product_context(visibility_days=visibility_days)
             qty_in_progress = qty_in_progress_by_orderpoint.get(self.id) or self._quantity_in_progress()[self.id]
+=======
+            product_context = self._get_product_context(visibility_days=visibility_days)
+>>>>>>> upstream/18.0
 =======
             product_context = self._get_product_context(visibility_days=visibility_days)
 >>>>>>> upstream/18.0
@@ -6780,9 +6817,12 @@ class StockWarehouseOrderpoint(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for (days, loc), product_ids in ploc_per_day.items():
             products = self.env['product.product'].browse(product_ids)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7483,6 +7523,9 @@ class StockWarehouseOrderpoint(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8188,6 +8231,11 @@ class StockWarehouseOrderpoint(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    product_ids.add(qty['id'])
+                    location_ids.add(loc.id)
+>>>>>>> upstream/18.0
 =======
                     product_ids.add(qty['id'])
                     location_ids.add(loc.id)
@@ -9125,6 +9173,7 @@ class StockWarehouseOrderpoint(models.Model):
             return action
 
         # Remove incoming quantity from other origin than moves (e.g RFQ)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10525,6 +10574,11 @@ class StockWarehouseOrderpoint(models.Model):
         location_ids = list(location_ids)
         qty_by_product_loc = self.env['product.product'].browse(product_ids)._get_quantity_in_progress(location_ids=location_ids)[0]
 >>>>>>> upstream/18.0
+=======
+        product_ids = list(product_ids)
+        location_ids = list(location_ids)
+        qty_by_product_loc = self.env['product.product'].browse(product_ids)._get_quantity_in_progress(location_ids=location_ids)[0]
+>>>>>>> upstream/18.0
         rounding = self.env['decimal.precision'].precision_get('Product Unit of Measure')
         # Group orderpoint by product-location
         orderpoint_by_product_location = self.env['stock.warehouse.orderpoint']._read_group(
@@ -10643,7 +10697,11 @@ class StockWarehouseOrderpoint(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expression.AND([domain, [('ids', 'in', self.ids)]])
+=======
+            domain = expression.AND([domain, [('id', 'in', self.ids)]])
+>>>>>>> upstream/18.0
 =======
             domain = expression.AND([domain, [('id', 'in', self.ids)]])
 >>>>>>> upstream/18.0

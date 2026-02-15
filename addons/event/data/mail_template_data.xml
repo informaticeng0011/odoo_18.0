@@ -195,7 +195,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <a t-attf-href="https://www.google.com/calendar/render?action=TEMPLATE&amp;text={{ object.event_id.name }}&amp;dates={{ date_begin }}/{{ date_end }}&amp;location={{ location }}&amp;details={{ object.event_id._get_external_description() }}" style="padding:3px 5px;border:1px solid #875A7B;color:#875A7B;text-decoration:none;border-radius:3px;" target="new"><img src="/web_editor/font_to_img/61525/rgb(135,90,123)/16" style="vertical-align:middle;" height="16" alt=""/> Google</a>
+=======
+                        <a t-attf-href="https://www.google.com/calendar/render?action=TEMPLATE&amp;text={{ object.event_id.name }}&amp;dates={{ date_begin }}/{{ date_end }}&amp;location={{ location }}&amp;details={{ object.event_id._get_external_description_url_encoded() }}" style="padding:3px 5px;border:1px solid #875A7B;color:#875A7B;text-decoration:none;border-radius:3px;" target="new"><img src="/web_editor/font_to_img/61525/rgb(135,90,123)/16" style="vertical-align:middle;" height="16" alt=""/> Google</a>
+>>>>>>> upstream/18.0
 =======
                         <a t-attf-href="https://www.google.com/calendar/render?action=TEMPLATE&amp;text={{ object.event_id.name }}&amp;dates={{ date_begin }}/{{ date_end }}&amp;location={{ location }}&amp;details={{ object.event_id._get_external_description_url_encoded() }}" style="padding:3px 5px;border:1px solid #875A7B;color:#875A7B;text-decoration:none;border-radius:3px;" target="new"><img src="/web_editor/font_to_img/61525/rgb(135,90,123)/16" style="vertical-align:middle;" height="16" alt=""/> Google</a>
 >>>>>>> upstream/18.0
@@ -895,7 +899,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <i class="fa fa-map-marker"/>
+=======
+                                <img src="/web_editor/font_to_img/61505/rgb(81,81,102)/20" height="20" style="vertical-align: bottom;"/>
+>>>>>>> upstream/18.0
 =======
                                 <img src="/web_editor/font_to_img/61505/rgb(81,81,102)/20" height="20" style="vertical-align: bottom;"/>
 >>>>>>> upstream/18.0
@@ -1434,6 +1442,7 @@
                 </td><td valign="middle" align="right">
                     <t t-if="object.barcode"> 
                         <div style="margin-bottom: 5px;">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2140,6 +2149,10 @@
                             <img t-attf-src="/report/barcode/QR/{{object.barcode}}?&amp;width=100&amp;height=100&amp;quiet=0" width="100" height="100" alt="QR Code"
                             t-att-style="'height: 100px !important;'"/>
 >>>>>>> upstream/18.0
+=======
+                            <img t-attf-src="/report/barcode/QR/{{object.barcode}}?&amp;width=100&amp;height=100&amp;quiet=0" width="100" height="100" alt="QR Code"
+                            t-att-style="'height: 100px !important;'"/>
+>>>>>>> upstream/18.0
                         </div>
                     </t>
                     <t t-if="not object.company_id.uses_default_logo">
@@ -2266,8 +2279,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <t t-if="object.sale_order_line_id.price_unit"> for an amount of
                             <t t-out="object.sale_order_line_id.price_unit" t-options="{'widget': 'monetary', 'display_currency': object.sale_order_line_id.currency_id}"/>
+=======
+                        <t t-if="object.sale_order_line_id.price_total"> for an amount of
+                            <t t-out="object.sale_order_line_id.price_total" t-options="{'widget': 'monetary', 'display_currency': object.sale_order_line_id.currency_id}"/>
+>>>>>>> upstream/18.0
 =======
                         <t t-if="object.sale_order_line_id.price_total"> for an amount of
                             <t t-out="object.sale_order_line_id.price_total" t-options="{'widget': 'monetary', 'display_currency': object.sale_order_line_id.currency_id}"/>
@@ -2775,7 +2793,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <a t-attf-href="https://www.google.com/calendar/render?action=TEMPLATE&amp;text={{ object.event_id.name }}&amp;dates={{ date_begin }}/{{ date_end }}&amp;location={{ location }}&amp;details={{ object.event_id._get_external_description() }}" style="padding:3px 5px;border:1px solid #875A7B;color:#875A7B;text-decoration:none;border-radius:3px;" target="new"><img src="/web_editor/font_to_img/61525/rgb(135,90,123)/16" style="vertical-align:middle;" height="16" alt=""/> Google</a>
+=======
+                        <a t-attf-href="https://www.google.com/calendar/render?action=TEMPLATE&amp;text={{ object.event_id.name }}&amp;dates={{ date_begin }}/{{ date_end }}&amp;location={{ location }}&amp;details={{ object.event_id._get_external_description_url_encoded() }}" style="padding:3px 5px;border:1px solid #875A7B;color:#875A7B;text-decoration:none;border-radius:3px;" target="new"><img src="/web_editor/font_to_img/61525/rgb(135,90,123)/16" style="vertical-align:middle;" height="16" alt=""/> Google</a>
+>>>>>>> upstream/18.0
 =======
                         <a t-attf-href="https://www.google.com/calendar/render?action=TEMPLATE&amp;text={{ object.event_id.name }}&amp;dates={{ date_begin }}/{{ date_end }}&amp;location={{ location }}&amp;details={{ object.event_id._get_external_description_url_encoded() }}" style="padding:3px 5px;border:1px solid #875A7B;color:#875A7B;text-decoration:none;border-radius:3px;" target="new"><img src="/web_editor/font_to_img/61525/rgb(135,90,123)/16" style="vertical-align:middle;" height="16" alt=""/> Google</a>
 >>>>>>> upstream/18.0
@@ -3475,7 +3497,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <i class="fa fa-map-marker"/>
+=======
+                                <img src="/web_editor/font_to_img/61505/rgb(81,81,102)/20" height="20" style="vertical-align: bottom;"/>
+>>>>>>> upstream/18.0
 =======
                                 <img src="/web_editor/font_to_img/61505/rgb(81,81,102)/20" height="20" style="vertical-align: bottom;"/>
 >>>>>>> upstream/18.0
@@ -4152,7 +4178,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <img t-attf-src="/report/barcode/QR/{{object.barcode}}?&amp;width=100&amp;height=100&amp;quiet=0" width="100" height="100" alt="QR Code"/>
+=======
+                            <img t-attf-src="/report/barcode/QR/{{object.barcode}}?&amp;width=100&amp;height=100&amp;quiet=0" width="100" height="100" alt="QR Code"
+                            t-att-style="'height: 100px !important;'"/>
+>>>>>>> upstream/18.0
 =======
                             <img t-attf-src="/report/barcode/QR/{{object.barcode}}?&amp;width=100&amp;height=100&amp;quiet=0" width="100" height="100" alt="QR Code"
                             t-att-style="'height: 100px !important;'"/>
@@ -4882,7 +4913,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <a t-attf-href="https://www.google.com/calendar/render?action=TEMPLATE&amp;text={{ object.event_id.name }}&amp;dates={{ date_begin }}/{{ date_end }}&amp;location={{ location }}&amp;details={{ object.event_id._get_external_description() }}" style="padding:3px 5px;border:1px solid #875A7B;color:#875A7B;text-decoration:none;border-radius:3px;" target="new"><img src="/web_editor/font_to_img/61525/rgb(135,90,123)/16" style="vertical-align:middle;" height="16" alt=""/> Google</a>
+=======
+                        <a t-attf-href="https://www.google.com/calendar/render?action=TEMPLATE&amp;text={{ object.event_id.name }}&amp;dates={{ date_begin }}/{{ date_end }}&amp;location={{ location }}&amp;details={{ object.event_id._get_external_description_url_encoded() }}" style="padding:3px 5px;border:1px solid #875A7B;color:#875A7B;text-decoration:none;border-radius:3px;" target="new"><img src="/web_editor/font_to_img/61525/rgb(135,90,123)/16" style="vertical-align:middle;" height="16" alt=""/> Google</a>
+>>>>>>> upstream/18.0
 =======
                         <a t-attf-href="https://www.google.com/calendar/render?action=TEMPLATE&amp;text={{ object.event_id.name }}&amp;dates={{ date_begin }}/{{ date_end }}&amp;location={{ location }}&amp;details={{ object.event_id._get_external_description_url_encoded() }}" style="padding:3px 5px;border:1px solid #875A7B;color:#875A7B;text-decoration:none;border-radius:3px;" target="new"><img src="/web_editor/font_to_img/61525/rgb(135,90,123)/16" style="vertical-align:middle;" height="16" alt=""/> Google</a>
 >>>>>>> upstream/18.0
@@ -5575,7 +5610,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <i class="fa fa-map-marker"/>
+=======
+                            <img src="/web_editor/font_to_img/61505/rgb(81,81,102)/20" height="20" style="vertical-align: bottom;"/>
+>>>>>>> upstream/18.0
 =======
                             <img src="/web_editor/font_to_img/61505/rgb(81,81,102)/20" height="20" style="vertical-align: bottom;"/>
 >>>>>>> upstream/18.0

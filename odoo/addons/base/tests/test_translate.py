@@ -154,7 +154,10 @@ class TranslationToolsTestCase(BaseCase):
         self.assertItemsEqual(terms, ['Form stuff'])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_translate_xml_o_translate_inline_on_block(self):
         """ Test xml_translate() with non-inline elements with o_translate_inline. """
         terms = []
@@ -223,6 +226,9 @@ class TranslationToolsTestCase(BaseCase):
         self.assertItemsEqual(terms,
             ['stuff before', 'stuff after'])
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_translate_xml_t(self):
         """ Test xml_translate() with t-* attributes. """

@@ -62,6 +62,10 @@ class TestItEdi(AccountTestInvoicingCommon):
             'bank_name': 'BIG BANK',
             'bank_bic': 'BIGGBANQ',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'allow_out_payment': True,
+>>>>>>> upstream/18.0
 =======
             'allow_out_payment': True,
 >>>>>>> upstream/18.0

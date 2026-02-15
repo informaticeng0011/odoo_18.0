@@ -28,6 +28,10 @@ class TestUBLRS(TestUBLCommon):
             'partner_id': cls.company_data['company'].partner_id.id,
             'acc_number': 'RS1234123456123456123456',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'allow_out_payment': True,
+>>>>>>> upstream/18.0
 =======
             'allow_out_payment': True,
 >>>>>>> upstream/18.0

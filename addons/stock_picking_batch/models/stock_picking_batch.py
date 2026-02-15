@@ -274,9 +274,12 @@ class StockPickingBatch(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Skip sanity_check in pickings button_validate() & remove 'waiting' pickings from the batch
         context = {'skip_sanity_check': True, 'pickings_to_detach': empty_waiting_pickings.ids}
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -372,6 +375,9 @@ class StockPickingBatch(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

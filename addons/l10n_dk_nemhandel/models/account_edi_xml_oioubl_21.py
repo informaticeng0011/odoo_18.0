@@ -46,6 +46,10 @@ from odoo.tools import html2plaintext
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools.float_utils import float_round
+>>>>>>> upstream/18.0
 =======
 from odoo.tools.float_utils import float_round
 >>>>>>> upstream/18.0
@@ -238,7 +242,10 @@ UBL_TO_OIOUBL_TAX_CATEGORY_ID_MAPPING = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -351,6 +358,9 @@ SCHEME_ID_MAPPING = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -562,6 +572,7 @@ class AccountEdiXmlOIOUBL21(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         party_node['cac:PartyTaxScheme'].update({
             # Only DK:SE for PartyTaxScheme https://oioubl21.oioubl.dk/Classes/da/PartyTaxScheme.html
             'cbc:CompanyID': {
@@ -577,6 +588,8 @@ class AccountEdiXmlOIOUBL21(models.AbstractModel):
             },
         })
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -655,6 +668,9 @@ class AccountEdiXmlOIOUBL21(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -738,7 +754,11 @@ class AccountEdiXmlOIOUBL21(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'schemeID': partner.nemhandel_identifier_type,
+=======
+                'schemeID': SCHEME_ID_MAPPING[partner.nemhandel_identifier_type],
+>>>>>>> upstream/18.0
 =======
                 'schemeID': SCHEME_ID_MAPPING[partner.nemhandel_identifier_type],
 >>>>>>> upstream/18.0
@@ -928,8 +948,14 @@ class AccountEdiXmlOIOUBL21(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # PrepaidAmount must not be present if equal to 0 and is only filled with 0 in the parent method
         document_node[monetary_total_tag]['cbc:PrepaidAmount'] = None
+=======
+        # PrepaidAmount must not be present if equal to 0
+        if document_node[monetary_total_tag].get('cbc:PrepaidAmount') and document_node[monetary_total_tag]['cbc:PrepaidAmount'].get('_text') == '0.00':
+            document_node[monetary_total_tag]['cbc:PrepaidAmount'] = None
+>>>>>>> upstream/18.0
 =======
         # PrepaidAmount must not be present if equal to 0
         if document_node[monetary_total_tag].get('cbc:PrepaidAmount') and document_node[monetary_total_tag]['cbc:PrepaidAmount'].get('_text') == '0.00':
@@ -1217,7 +1243,10 @@ class AccountEdiXmlOIOUBL21(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1380,6 +1409,9 @@ class AccountEdiXmlOIOUBL21(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

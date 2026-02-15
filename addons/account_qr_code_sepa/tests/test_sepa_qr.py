@@ -19,6 +19,10 @@ class TestSEPAQRCode(AccountTestInvoicingCommon):
             'acc_number': 'BE15001559627230',
             'partner_id': cls.company_data['company'].partner_id.id,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'allow_out_payment': True,
+>>>>>>> upstream/18.0
 =======
             'allow_out_payment': True,
 >>>>>>> upstream/18.0

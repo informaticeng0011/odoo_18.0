@@ -3,7 +3,11 @@ from lxml import html
 from odoo.tools import mute_logger
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.exceptions import AccessError
+=======
+from odoo.exceptions import AccessError, ValidationError
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import AccessError, ValidationError
 >>>>>>> upstream/18.0
@@ -239,7 +243,10 @@ class TestWebsiteControllerPage(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -484,6 +491,9 @@ class TestWebsiteControllerPage(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -651,7 +661,10 @@ class TestWebsiteControllerPage(HttpCase):
         self.start_tour('/model/exposed-model', 'website_controller_page_default_page_check', login='admin')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -683,6 +696,9 @@ class TestWebsiteControllerPage(HttpCase):
             self.env["website.controller.page"].create({**default_page_vals, "model": "res.device"})
         self.assertEqual(str(cm.exception), "A page must be set to display a concrete model.")
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

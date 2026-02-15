@@ -233,6 +233,7 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         timesheet_sols = self.filtered(
             lambda sol: sol.qty_delivered_method == 'timesheet' and not sol.product_id.standard_price
         )
@@ -377,6 +378,9 @@ class SaleOrderLine(models.Model):
 =======
 >>>>>>> upstream/18.0
         # filter out the ale.order.lines called by this override of _compute_purchase_price for which
+=======
+        # filter out the sale.order.lines called by this override of _compute_purchase_price for which
+>>>>>>> upstream/18.0
 =======
         # filter out the sale.order.lines called by this override of _compute_purchase_price for which
 >>>>>>> upstream/18.0
@@ -1005,7 +1009,12 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             sol.product_id.service_policy == 'ordered_prepaid' and sol.state == 'sale'
+=======
+            sol.product_id.service_policy == 'ordered_prepaid' and
+            sol.state == 'sale' and sol.purchase_price != 0
+>>>>>>> upstream/18.0
 =======
             sol.product_id.service_policy == 'ordered_prepaid' and
             sol.state == 'sale' and sol.purchase_price != 0
@@ -1860,6 +1869,9 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -3,14 +3,20 @@
 
 from contextlib import contextmanager
 <<<<<<< HEAD
+<<<<<<< HEAD
 from lxml import etree
 
 =======
+=======
+>>>>>>> upstream/18.0
 from datetime import datetime
 from freezegun import freeze_time
 from lxml import etree
 
 from odoo import Command, fields
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 from odoo.tests import Form, TransactionCase
 from odoo.exceptions import AccessError, UserError
@@ -498,7 +504,10 @@ class TestMultiCompanyProject(TestMultiCompanyCommon):
                 with Form(task) as task_form:
                     task_form.name = "Testing changing name in a company I can not read/write"
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     @freeze_time("2019-5-28 08:00:00")
     def test_date_to_assign_project(self):
@@ -529,4 +538,7 @@ class TestMultiCompanyProject(TestMultiCompanyCommon):
             task.date_assign = fields.Datetime.now()
             self.assertEqual(task.working_hours_open, 3.0)
             self.assertEqual(task.working_days_open, 0.375)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

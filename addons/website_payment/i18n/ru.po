@@ -115,12 +115,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* website_payment
 # 
 # Translators:
 # Wil Odoo, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -469,6 +472,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -702,6 +708,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1097,6 +1104,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-10-22 09:41+0000\n"
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-18/"
@@ -1106,6 +1116,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1578,6 +1589,11 @@ msgstr ""
 "(n%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
+=======
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: website_payment
 #: model_terms:ir.ui.view,arch_db:website_payment.donation_mail_body
@@ -1626,7 +1642,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        We appreciate your support for our organization as such.\n"
+=======
+"                        We appreciate your support for our organization as "
+"such.\n"
+>>>>>>> upstream/18.0
 =======
 "                        We appreciate your support for our organization as "
 "such.\n"
@@ -1842,7 +1863,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        Мы ценим вашу поддержку нашей организации как таковой.\n"
+=======
+"                        Мы ценим вашу поддержку нашей организации как "
+"таковой.\n"
+>>>>>>> upstream/18.0
 =======
 "                        Мы ценим вашу поддержку нашей организации как "
 "таковой.\n"
@@ -2167,7 +2193,11 @@ msgid "<span class=\"s_donation_currency pe-1\">$</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"s_donation_currency pe-1\">$</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"s_donation_currency pe-1\">$</span>"
 >>>>>>> upstream/18.0
@@ -2632,7 +2662,11 @@ msgid "<span class=\"s_donation_currency pe-1\">$</span>10"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"s_donation_currency pe-1\">$</span>10"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"s_donation_currency pe-1\">$</span>10"
 >>>>>>> upstream/18.0
@@ -3097,7 +3131,11 @@ msgid "<span class=\"s_donation_currency pe-1\">$</span>100"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"s_donation_currency pe-1\">$</span>100"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"s_donation_currency pe-1\">$</span>100"
 >>>>>>> upstream/18.0
@@ -3562,7 +3600,11 @@ msgid "<span class=\"s_donation_currency pe-1\">$</span>25"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"s_donation_currency pe-1\">$</span>25"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"s_donation_currency pe-1\">$</span>25"
 >>>>>>> upstream/18.0
@@ -4027,7 +4069,11 @@ msgid "<span class=\"s_donation_currency pe-1\">$</span>50"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"s_donation_currency pe-1\">$</span>50"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"s_donation_currency pe-1\">$</span>50"
 >>>>>>> upstream/18.0
@@ -4466,7 +4512,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Пример: %(amount)s * %(discount_charge)s + %(price_surcharge)s → %(total_amount)s"
+=======
+"Пример: %(amount)s * %(discount_charge)s + %(price_surcharge)s → %"
+"(total_amount)s"
+>>>>>>> upstream/18.0
 =======
 "Пример: %(amount)s * %(discount_charge)s + %(price_surcharge)s → %"
 "(total_amount)s"
@@ -4683,7 +4734,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Пример: %(amount)s * %(discount_charge)s + %(price_surcharge)s → %(total_amount)s"
+=======
+"Пример: %(amount)s * %(discount_charge)s + %(price_surcharge)s → %"
+"(total_amount)s"
+>>>>>>> upstream/18.0
 =======
 "Пример: %(amount)s * %(discount_charge)s + %(price_surcharge)s → %"
 "(total_amount)s"
@@ -5306,7 +5362,11 @@ msgid "The minimum donation amount is %(amount)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Минимальная сумма пожертвования составляет %(amount)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Минимальная сумма пожертвования составляет %(amount)s"
 >>>>>>> upstream/18.0

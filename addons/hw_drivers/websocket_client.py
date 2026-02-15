@@ -82,7 +82,10 @@ import logging
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import pprint
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -372,11 +375,14 @@ def on_message(ws, messages):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     _logger.debug("websocket received a message: %s", pprint.pformat(messages))
     iot_mac = helpers.get_mac_address()
     for message in messages:
         message_type = message['message']['type']
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -624,6 +630,9 @@ def on_message(ws, messages):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -793,6 +802,7 @@ def on_message(ws, messages):
                 for device in payload['iotDevice']['identifiers']:
                     device_identifier = device['identifier']
                     if device_identifier in main.iot_devices:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1050,6 +1060,8 @@ def on_message(ws, messages):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                         if main.iot_devices[device_identifier]._check_idempotency(**payload):
                             return
                         start_operation_time = time.perf_counter()
@@ -1125,6 +1137,9 @@ def on_message(ws, messages):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1506,7 +1521,11 @@ def on_message(ws, messages):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         elif message_type != 'print_confirmation':  # intended to be ignored
+=======
+        elif message_type not in ['print_confirmation', 'bundle_changed']:  # intended to be ignored
+>>>>>>> upstream/18.0
 =======
         elif message_type not in ['print_confirmation', 'bundle_changed']:  # intended to be ignored
 >>>>>>> upstream/18.0

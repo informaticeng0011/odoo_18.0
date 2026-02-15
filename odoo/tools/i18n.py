@@ -67,8 +67,11 @@ def format_list(
         style = "standard"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return lists.format_list(lst, style, locale)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     try:
@@ -76,6 +79,9 @@ def format_list(
     except KeyError:
         return lists.format_list(lst, 'standard', locale)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -103,6 +103,10 @@ from odoo.fields import Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools import mute_logger
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import mute_logger
 >>>>>>> upstream/18.0
@@ -554,7 +558,10 @@ class TestUiHtmlEditor(HttpCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -582,6 +589,9 @@ class TestUiHtmlEditor(HttpCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -756,6 +766,10 @@ class TestUiTranslate(odoo.tests.HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'direction': 'rtl',
+>>>>>>> upstream/18.0
 =======
             'direction': 'rtl',
 >>>>>>> upstream/18.0
@@ -1179,6 +1193,10 @@ class TestUiTranslate(odoo.tests.HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.start_tour(f"/website/force/{website.id}", 'snippet_dialog_rtl', login='admin')
+>>>>>>> upstream/18.0
 =======
         self.start_tour(f"/website/force/{website.id}", 'snippet_dialog_rtl', login='admin')
 >>>>>>> upstream/18.0
@@ -1847,9 +1865,12 @@ class TestUi(odoo.tests.HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_15_website_link_tools(self):
         self.start_tour(self.env['website'].get_client_action_url('/'), 'link_tools', login="admin")
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2595,6 +2616,10 @@ class TestUi(odoo.tests.HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.start_tour('/', 'website_powerbox_keyword', login='admin')
+>>>>>>> upstream/18.0
 =======
         self.start_tour('/', 'website_powerbox_keyword', login='admin')
 >>>>>>> upstream/18.0
@@ -3624,6 +3649,7 @@ class TestUi(odoo.tests.HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
     def test_popup_visibility_option(self):
@@ -4295,6 +4321,11 @@ class TestUi(odoo.tests.HttpCase):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_media_iframe_video_options(self):
+        self.start_tour("/", "website_media_iframe_video_options", login="admin")
 >>>>>>> upstream/18.0
 =======
 
@@ -4794,6 +4825,7 @@ class TestUi(odoo.tests.HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4894,6 +4926,8 @@ class TestUi(odoo.tests.HttpCase):
         self.start_tour("/", "undo_redo_header_oriented_issue", login="admin")
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5179,10 +5213,13 @@ class TestUi(odoo.tests.HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5460,6 +5497,7 @@ class TestUi(odoo.tests.HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5740,6 +5778,8 @@ class TestUi(odoo.tests.HttpCase):
         self.start_tour('/', 'website_custom_colors_picking', login='admin')
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5840,6 +5880,9 @@ class TestUi(odoo.tests.HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
