@@ -272,7 +272,11 @@ publicWidget.registry.SurveyFormWidget = publicWidget.Widget.extend(SurveyPreloa
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         } else if (target.value === 'finish') {
+=======
+        } else if (target.value === 'finish' && !this.options.sessionInProgress) {
+>>>>>>> upstream/18.0
 =======
         } else if (target.value === 'finish' && !this.options.sessionInProgress) {
 >>>>>>> upstream/18.0
@@ -831,7 +835,11 @@ publicWidget.registry.SurveyFormWidget = publicWidget.Widget.extend(SurveyPreloa
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         const subQuestionsIds = $questionWrapper.find('table').data('subQuestions');
+=======
+                        const subQuestionsIds = $input.data('subQuestions');
+>>>>>>> upstream/18.0
 =======
                         const subQuestionsIds = $input.data('subQuestions');
 >>>>>>> upstream/18.0

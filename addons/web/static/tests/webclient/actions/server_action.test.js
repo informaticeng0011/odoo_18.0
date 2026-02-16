@@ -215,7 +215,11 @@ class Partner extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "form,false": `
+=======
+        form: `
+>>>>>>> upstream/18.0
 =======
         form: `
 >>>>>>> upstream/18.0
@@ -1017,7 +1021,10 @@ class Partner extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "search,false": `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

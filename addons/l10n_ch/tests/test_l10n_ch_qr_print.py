@@ -26,6 +26,10 @@ class QRPrintTest(AccountTestInvoicingCommon):
             'partner_id': cls.env.company.partner_id.id,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'allow_out_payment': True,
+>>>>>>> upstream/18.0
 =======
             'allow_out_payment': True,
 >>>>>>> upstream/18.0

@@ -21,7 +21,12 @@ from cryptography.hazmat.primitives import hashes, serialization
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import api, models, service
+=======
+from odoo import _, api, models, service
+from odoo.exceptions import UserError
+>>>>>>> upstream/18.0
 =======
 from odoo import _, api, models, service
 from odoo.exceptions import UserError
@@ -109,6 +114,11 @@ CERT_TEMPLATE_NAME = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+MAX_ALLOWED_CSR_VALUE_LENGTH = 64
+
+>>>>>>> upstream/18.0
 =======
 MAX_ALLOWED_CSR_VALUE_LENGTH = 64
 
@@ -199,7 +209,10 @@ class Certificate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -320,6 +333,9 @@ class Certificate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -359,6 +375,7 @@ class Certificate(models.Model):
         if not journal:
             return
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1878,6 +1895,8 @@ class Certificate(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         builder = x509.CertificateSigningRequestBuilder()
         self._l10n_sa_validate_csr_vals(journal)
         csr_vals = {key: data['value'] for key, data in self._l10n_sa_get_csr_vals(journal).items()}
@@ -1911,6 +1930,9 @@ class Certificate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1953,6 +1975,7 @@ class Certificate(models.Model):
             x509.DirectoryName(x509.Name([
                 # EGS Serial Number. Manufacturer or Solution Provider Name, Model or Version and Serial Number.
                 # To be written in the following format: "1-... |2-... |3-..."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2574,6 +2597,8 @@ class Certificate(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 x509.NameAttribute(ObjectIdentifier('2.5.4.4'), csr_vals['egs_serial']),
                 # Organisation Identifier (UID)
                 x509.NameAttribute(NameOID.USER_ID, csr_vals['org_uid']),
@@ -2598,6 +2623,9 @@ class Certificate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2651,7 +2679,11 @@ class Certificate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                         CERT_TEMPLATE_NAME[company_id.l10n_sa_api_mode]), False),
+=======
+                                        csr_vals['cert_tmp']), False),
+>>>>>>> upstream/18.0
 =======
                                         csr_vals['cert_tmp']), False),
 >>>>>>> upstream/18.0
@@ -2723,7 +2755,11 @@ class Certificate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         private_key = serialization.load_pem_private_key(base64.b64decode(company_id.l10n_sa_private_key_id.pem_key), password=None)
+=======
+        private_key = serialization.load_pem_private_key(base64.b64decode(journal.company_id.l10n_sa_private_key_id.pem_key), password=None)
+>>>>>>> upstream/18.0
 =======
         private_key = serialization.load_pem_private_key(base64.b64decode(journal.company_id.l10n_sa_private_key_id.pem_key), password=None)
 >>>>>>> upstream/18.0

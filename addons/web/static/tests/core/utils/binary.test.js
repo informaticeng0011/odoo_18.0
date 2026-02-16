@@ -124,6 +124,10 @@ import { humanSize } from "@web/core/utils/binary";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { resizeBlobImg } from "@web/core/utils/files";
+>>>>>>> upstream/18.0
 =======
 import { resizeBlobImg } from "@web/core/utils/files";
 >>>>>>> upstream/18.0
@@ -622,7 +626,10 @@ test("humanSize", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1018,6 +1025,9 @@ test("resize image", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

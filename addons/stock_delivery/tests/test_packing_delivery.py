@@ -434,7 +434,10 @@ class TestPacking(TestPackingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -908,6 +911,7 @@ class TestPacking(TestPackingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1192,6 +1196,8 @@ class TestPacking(TestPackingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -1224,6 +1230,9 @@ class TestPacking(TestPackingCommon):
         self.assertEqual(package.weight, self.product_aw.weight, "As the package contains quants, its weight is correctly computed from them.")
         self.assertEqual(picking_ship.shipping_weight, self.product_aw.weight)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

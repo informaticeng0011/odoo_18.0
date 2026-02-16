@@ -74,6 +74,12 @@ patch(ProductScreen.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        const globalIdentificationAnswers = {};
+        const identificationQuestionTypes = ["name", "email", "phone", "company_name"];
+
+>>>>>>> upstream/18.0
 =======
         const globalIdentificationAnswers = {};
         const identificationQuestionTypes = ["name", "email", "phone", "company_name"];
@@ -180,7 +186,10 @@ patch(ProductScreen.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -232,6 +241,9 @@ patch(ProductScreen.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -296,12 +308,15 @@ patch(ProductScreen.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const userData = {};
                 for (const [questionId, answer] of Object.entries(registration)) {
                     const question = this.pos.models["event.question"].get(parseInt(questionId));
 
                     if (!question) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -358,6 +373,9 @@ patch(ProductScreen.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -555,8 +573,13 @@ patch(ProductScreen.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     } else if (question.question_type === "company") {
                         userData.company = answer;
+=======
+                    } else if (question.question_type === "company_name") {
+                        userData.company_name = answer;
+>>>>>>> upstream/18.0
 =======
                     } else if (question.question_type === "company_name") {
                         userData.company_name = answer;

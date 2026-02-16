@@ -166,6 +166,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
@@ -178,6 +179,8 @@ from odoo.exceptions import UserError
 
 from odoo import api, fields, models, tools, _
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -690,6 +693,9 @@ from odoo import _, api, fields, models, tools
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1087,7 +1093,11 @@ class HrWorkEntry(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     country_id = fields.Many2one('res.country', related='employee_id.company_id.country_id')
+=======
+    country_id = fields.Many2one('res.country', related='employee_id.company_id.country_id', search='_search_country_id')
+>>>>>>> upstream/18.0
 =======
     country_id = fields.Many2one('res.country', related='employee_id.company_id.country_id', search='_search_country_id')
 >>>>>>> upstream/18.0
@@ -1257,6 +1267,7 @@ class HrWorkEntry(models.Model):
                 result[work_entry.id] = cached_periods[(date_start, date_stop)]
             else:
                 dt = date_stop - date_start
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2122,6 +2133,9 @@ class HrWorkEntry(models.Model):
 =======
                 duration = round(dt.total_seconds()) / 3600  # Number of hours
 >>>>>>> upstream/18.0
+=======
+                duration = round(dt.total_seconds()) / 3600  # Number of hours
+>>>>>>> upstream/18.0
                 cached_periods[(date_start, date_stop)] = duration
                 result[work_entry.id] = duration
         return result
@@ -2351,7 +2365,10 @@ class HrWorkEntry(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2861,6 +2878,9 @@ class HrWorkEntry(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3303,6 +3323,12 @@ class HrWorkEntry(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def _search_country_id(self, operator, value):
+        return [('employee_id.company_id.partner_id.country_id', operator, value)]
+
+>>>>>>> upstream/18.0
 =======
     def _search_country_id(self, operator, value):
         return [('employee_id.company_id.partner_id.country_id', operator, value)]

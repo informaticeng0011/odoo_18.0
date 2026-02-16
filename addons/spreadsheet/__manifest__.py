@@ -217,6 +217,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            ('remove', 'spreadsheet/static/src/print_assets/**/*'),
+>>>>>>> upstream/18.0
 =======
             ('remove', 'spreadsheet/static/src/print_assets/**/*'),
 >>>>>>> upstream/18.0

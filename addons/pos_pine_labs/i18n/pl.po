@@ -22,6 +22,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* pos_pine_labs
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -155,6 +156,9 @@
 =======
 # * pos_pine_labs
 >>>>>>> upstream/18.0
+=======
+# * pos_pine_labs
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2025
@@ -201,6 +205,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -283,6 +288,10 @@
 >>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+# "Marta (wacm)" <wacm@odoo.com>, 2026.
 >>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
@@ -320,6 +329,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -504,6 +514,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-02-07 10:36+0000\n"
 "Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
@@ -516,6 +528,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -536,6 +551,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -731,6 +747,11 @@ msgstr ""
 "(n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || "
+"(n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: pos_pine_labs
 #: model:ir.model.fields,help:pos_pine_labs.field_pos_payment_method__pine_labs_client
@@ -744,6 +765,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Identyfikator klienta wystawione bezpośrednio sprzedawcy przez Pine Labs."
+>>>>>>> upstream/18.0
 =======
 "Identyfikator klienta wystawione bezpośrednio sprzedawcy przez Pine Labs."
 >>>>>>> upstream/18.0
@@ -781,6 +806,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Identyfikator sprzedawcy wydany bezpośrednio sprzedawcy przez Pine Labs."
+>>>>>>> upstream/18.0
 =======
 "Identyfikator sprzedawcy wydany bezpośrednio sprzedawcy przez Pine Labs."
 >>>>>>> upstream/18.0
@@ -817,7 +846,11 @@ msgid "A security token issued directly to the merchant by Pine Labs."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Token bezpieczeństwa wydany bezpośrednio sprzedawcy przez Pine Labs."
+>>>>>>> upstream/18.0
 =======
 msgstr "Token bezpieczeństwa wydany bezpośrednio sprzedawcy przez Pine Labs."
 >>>>>>> upstream/18.0
@@ -854,7 +887,11 @@ msgid "A store id issued directly to the merchant by Pine Labs."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Identyfikator sklepu wydany bezpośrednio sprzedawcy przez Pine Labs."
+>>>>>>> upstream/18.0
 =======
 msgstr "Identyfikator sklepu wydany bezpośrednio sprzedawcy przez Pine Labs."
 >>>>>>> upstream/18.0
@@ -891,7 +928,11 @@ msgid "Accepted payment modes by Pine Labs for transactions."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Akceptowane przez Pine Labs formy płatności za transakcje."
+>>>>>>> upstream/18.0
 =======
 msgstr "Akceptowane przez Pine Labs formy płatności za transakcje."
 >>>>>>> upstream/18.0
@@ -944,7 +985,11 @@ msgid "Pine Labs Allowed Payment Modes"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dopuszczalne formy płatności w Pine Labs"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dopuszczalne formy płatności w Pine Labs"
 >>>>>>> upstream/18.0
@@ -981,7 +1026,11 @@ msgid "Pine Labs Client ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Id klienta Pine Labs"
+>>>>>>> upstream/18.0
 =======
 msgstr "Id klienta Pine Labs"
 >>>>>>> upstream/18.0
@@ -1019,7 +1068,11 @@ msgid "Pine Labs Error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Błąd Pine Labs"
+>>>>>>> upstream/18.0
 =======
 msgstr "Błąd Pine Labs"
 >>>>>>> upstream/18.0
@@ -1056,7 +1109,11 @@ msgid "Pine Labs Merchant ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID sprzedawcy Pine Labs"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID sprzedawcy Pine Labs"
 >>>>>>> upstream/18.0
@@ -1096,6 +1153,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Transakcja Pine Labs PoS została anulowana. Spróbuj ponownie pobrać płatność."
+>>>>>>> upstream/18.0
 =======
 "Transakcja Pine Labs PoS została anulowana. Spróbuj ponownie pobrać płatność."
 >>>>>>> upstream/18.0
@@ -1132,7 +1193,11 @@ msgid "Pine Labs PlutusTransactionReferenceID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pine Labs PlutusTransactionReferenceID"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pine Labs PlutusTransactionReferenceID"
 >>>>>>> upstream/18.0
@@ -1169,7 +1234,11 @@ msgid "Pine Labs Security Token"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Token bezpieczeństwa Pine Labs"
+>>>>>>> upstream/18.0
 =======
 msgstr "Token bezpieczeństwa Pine Labs"
 >>>>>>> upstream/18.0
@@ -1206,7 +1275,11 @@ msgid "Pine Labs Store ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID sklepu Pine Labs"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID sklepu Pine Labs"
 >>>>>>> upstream/18.0
@@ -1243,7 +1316,11 @@ msgid "Pine Labs Test Mode"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tryb testowy Pine Labs"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tryb testowy Pine Labs"
 >>>>>>> upstream/18.0
@@ -1281,7 +1358,11 @@ msgid "Pine Labs get payment status request failed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pine Labs otrzymało komunikat o niepowodzeniu żądania statusu płatności"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pine Labs otrzymało komunikat o niepowodzeniu żądania statusu płatności"
 >>>>>>> upstream/18.0
@@ -1319,7 +1400,11 @@ msgid "Pine Labs make payment request failed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pine Labs nie zrealizowało żądania płatności"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pine Labs nie zrealizowało żądania płatności"
 >>>>>>> upstream/18.0
@@ -1357,7 +1442,11 @@ msgid "Pine Labs payment cancellation request failed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Wniosek o anulowanie płatności Pine Labs zakończony niepowodzeniem"
+>>>>>>> upstream/18.0
 =======
 msgstr "Wniosek o anulowanie płatności Pine Labs zakończony niepowodzeniem"
 >>>>>>> upstream/18.0
@@ -1419,7 +1508,11 @@ msgid "Reference number mismatched"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Numer referencyjny się nie zgadza"
+>>>>>>> upstream/18.0
 =======
 msgstr "Numer referencyjny się nie zgadza"
 >>>>>>> upstream/18.0
@@ -1490,6 +1583,7 @@ msgstr "Numer referencyjny się nie zgadza"
 #. module: pos_pine_labs
 #: model:ir.model.fields,help:pos_pine_labs.field_pos_payment__pine_labs_plutus_transaction_ref
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1727,6 +1821,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Required during the refund order process: https://developer.pinelabs.com/in/"
 "instore/cloud-integration#Example-JSON-request-for-Void-ICB-on-UPI-"
 "transaction"
@@ -1741,6 +1837,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1768,7 +1867,11 @@ msgid "Test Pine Labs transaction process."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Przetestuj proces transakcji Pine Labs."
+>>>>>>> upstream/18.0
 =======
 msgstr "Przetestuj proces transakcji Pine Labs."
 >>>>>>> upstream/18.0
@@ -1809,6 +1912,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Oczekiwany kod błędu dla żądania statusu PoS Pine Labs nie został "
+"uwzględniony w odpowiedzi."
+>>>>>>> upstream/18.0
 =======
 "Oczekiwany kod błędu dla żądania statusu PoS Pine Labs nie został "
 "uwzględniony w odpowiedzi."
@@ -1868,7 +1976,11 @@ msgid "This Payment Terminal is only valid for INR Currency"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ten terminal płatniczy jest ważny wyłącznie dla waluty INR."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ten terminal płatniczy jest ważny wyłącznie dla waluty INR."
 >>>>>>> upstream/18.0
@@ -1962,7 +2074,11 @@ msgid "Transaction failed due to inactivity"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transakcja nie powiodła się z powodu braku aktywności"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transakcja nie powiodła się z powodu braku aktywności"
 >>>>>>> upstream/18.0
@@ -2041,7 +2157,11 @@ msgid "Upi"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Upi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Upi"
 >>>>>>> upstream/18.0

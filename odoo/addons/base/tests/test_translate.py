@@ -155,7 +155,10 @@ class TranslationToolsTestCase(BaseCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_translate_xml_o_translate_inline_on_block(self):
@@ -227,6 +230,9 @@ class TranslationToolsTestCase(BaseCase):
             ['stuff before', 'stuff after'])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

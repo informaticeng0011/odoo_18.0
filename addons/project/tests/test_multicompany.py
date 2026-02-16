@@ -4,9 +4,12 @@
 from contextlib import contextmanager
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from lxml import etree
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 from datetime import datetime
@@ -15,6 +18,9 @@ from lxml import etree
 
 from odoo import Command, fields
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -505,7 +511,10 @@ class TestMultiCompanyProject(TestMultiCompanyCommon):
                     task_form.name = "Testing changing name in a company I can not read/write"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -539,6 +548,9 @@ class TestMultiCompanyProject(TestMultiCompanyCommon):
             self.assertEqual(task.working_hours_open, 3.0)
             self.assertEqual(task.working_days_open, 0.375)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

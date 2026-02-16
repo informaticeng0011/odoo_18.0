@@ -181,6 +181,10 @@ from odoo import tests
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.mail.tests.common import mail_new_test_user
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.mail.tests.common import mail_new_test_user
 >>>>>>> upstream/18.0
@@ -923,7 +927,10 @@ class TestWEventRegister(TestWEventCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1463,6 +1470,9 @@ class TestWEventRegister(TestWEventCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

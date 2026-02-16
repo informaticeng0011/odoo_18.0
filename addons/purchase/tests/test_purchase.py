@@ -86,6 +86,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 from odoo.addons.account.tests.common import AccountTestInvoicingCommon
@@ -432,6 +433,8 @@ import pytz
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 from datetime import timedelta
@@ -533,6 +536,9 @@ from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -940,7 +946,11 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         po_tz = pytz.timezone(po.user_id.tz)
+=======
+        po_tz = timezone(po.user_id.tz)
+>>>>>>> upstream/18.0
 =======
         po_tz = timezone(po.user_id.tz)
 >>>>>>> upstream/18.0
@@ -1419,7 +1429,10 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1736,7 +1749,11 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ]
+=======
+            ],
+>>>>>>> upstream/18.0
 =======
             ],
 >>>>>>> upstream/18.0
@@ -2098,7 +2115,11 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ]
+=======
+            ],
+>>>>>>> upstream/18.0
 =======
             ],
 >>>>>>> upstream/18.0
@@ -3066,6 +3087,12 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        with po_1.order_line.new() as po_line:
+            po_line.display_type = 'line_note'
+            po_line.name = 'Test Note'
+>>>>>>> upstream/18.0
 =======
         with po_1.order_line.new() as po_line:
             po_line.display_type = 'line_note'
@@ -4134,6 +4161,12 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        with po_2.order_line.new() as po_line:
+            po_line.display_type = 'line_section'
+            po_line.name = 'Test section'
+>>>>>>> upstream/18.0
 =======
         with po_2.order_line.new() as po_line:
             po_line.display_type = 'line_section'
@@ -5295,7 +5328,10 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5931,6 +5967,7 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(len(matching_records), 2)
         self.assertEqual(matching_records.account_move_id, vendor_bill)
         self.assertEqual(matching_records.purchase_order_id, purchase_order)
@@ -6350,6 +6387,10 @@ class TestPurchase(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        result_bill_matching = purchase_order.action_bill_matching()
+        matching_records_from_po = self.env['purchase.bill.line.match'].search(result_bill_matching['domain'])
 >>>>>>> upstream/18.0
 =======
         result_bill_matching = purchase_order.action_bill_matching()
@@ -6752,6 +6793,7 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6916,6 +6958,11 @@ class TestPurchase(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        self.assertEqual(len(matching_records_from_po), 2)
+        self.assertEqual(matching_records_from_po.account_move_id, vendor_bill)
+        self.assertEqual(matching_records_from_po.purchase_order_id, purchase_order)
 >>>>>>> upstream/18.0
 =======
         self.assertEqual(len(matching_records_from_po), 2)
@@ -7439,6 +7486,7 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7463,6 +7511,8 @@ class TestPurchase(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7985,7 +8035,10 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8463,6 +8516,9 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8954,6 +9010,7 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9119,6 +9176,8 @@ class TestPurchase(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9422,6 +9481,9 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9769,6 +9831,7 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9867,6 +9930,8 @@ class TestPurchase(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10198,6 +10263,7 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with (self.assertRaises(ForeignKeyViolation), self.cr.savepoint(), mute_logger("odoo.sql_db")):
             uom_test.unlink()
 
@@ -10234,6 +10300,8 @@ class TestPurchase(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10526,6 +10594,7 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10670,6 +10739,8 @@ class TestPurchase(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10765,6 +10836,9 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
