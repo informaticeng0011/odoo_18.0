@@ -175,6 +175,7 @@ import { useService } from "@web/core/utils/hooks";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { pick } from "@web/core/utils/objects";
 
 describe.current.tags("headless");
@@ -186,6 +187,8 @@ test("add user context to a simple read request", async () => {
         expect.step(params.route);
         expect(getRelevantParams(params)).toEqual({
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -700,6 +703,9 @@ test("add user context to a simple read request", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1233,7 +1239,11 @@ test("context is combined with user context in read request", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(getRelevantParams(params)).toEqual({
+=======
+        expect(params).toMatchObject({
+>>>>>>> upstream/18.0
 =======
         expect(params).toMatchObject({
 >>>>>>> upstream/18.0
@@ -1943,7 +1953,11 @@ test("basic method call of model", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(getRelevantParams(params)).toEqual({
+=======
+        expect(params).toMatchObject({
+>>>>>>> upstream/18.0
 =======
         expect(params).toMatchObject({
 >>>>>>> upstream/18.0
@@ -2649,7 +2663,11 @@ test("create method: one record", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(getRelevantParams(params)).toEqual({
+=======
+        expect(params).toMatchObject({
+>>>>>>> upstream/18.0
 =======
         expect(params).toMatchObject({
 >>>>>>> upstream/18.0
@@ -3354,7 +3372,11 @@ test("create method: several records", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(getRelevantParams(params)).toEqual({
+=======
+        expect(params).toMatchObject({
+>>>>>>> upstream/18.0
 =======
         expect(params).toMatchObject({
 >>>>>>> upstream/18.0
@@ -4059,7 +4081,11 @@ test("read method", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(getRelevantParams(params)).toEqual({
+=======
+        expect(params).toMatchObject({
+>>>>>>> upstream/18.0
 =======
         expect(params).toMatchObject({
 >>>>>>> upstream/18.0
@@ -4772,7 +4798,11 @@ test("unlink method", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(getRelevantParams(params)).toEqual({
+=======
+        expect(params).toMatchObject({
+>>>>>>> upstream/18.0
 =======
         expect(params).toMatchObject({
 >>>>>>> upstream/18.0
@@ -5477,7 +5507,11 @@ test("write method", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(getRelevantParams(params)).toEqual({
+=======
+        expect(params).toMatchObject({
+>>>>>>> upstream/18.0
 =======
         expect(params).toMatchObject({
 >>>>>>> upstream/18.0
@@ -6182,7 +6216,11 @@ test("webReadGroup method", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(getRelevantParams(params)).toEqual({
+=======
+        expect(params).toMatchObject({
+>>>>>>> upstream/18.0
 =======
         expect(params).toMatchObject({
 >>>>>>> upstream/18.0
@@ -6897,7 +6935,11 @@ test("readGroup method", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(getRelevantParams(params)).toEqual({
+=======
+        expect(params).toMatchObject({
+>>>>>>> upstream/18.0
 =======
         expect(params).toMatchObject({
 >>>>>>> upstream/18.0
@@ -7612,7 +7654,11 @@ test("test readGroup method removes duplicate values from groupby", async () => 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(getRelevantParams(params).kwargs.groupby).toEqual(["date_order:month"], {
+=======
+        expect(params.kwargs.groupby).toMatchObject(["date_order:month"], {
+>>>>>>> upstream/18.0
 =======
         expect(params.kwargs.groupby).toMatchObject(["date_order:month"], {
 >>>>>>> upstream/18.0
@@ -8313,7 +8359,11 @@ test("search_read method", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(getRelevantParams(params)).toEqual({
+=======
+        expect(params).toMatchObject({
+>>>>>>> upstream/18.0
 =======
         expect(params).toMatchObject({
 >>>>>>> upstream/18.0
@@ -9020,7 +9070,11 @@ test("search_count method", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(getRelevantParams(params)).toEqual({
+=======
+        expect(params).toMatchObject({
+>>>>>>> upstream/18.0
 =======
         expect(params).toMatchObject({
 >>>>>>> upstream/18.0
@@ -9725,7 +9779,11 @@ test("webRead method", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(getRelevantParams(params)).toEqual({
+=======
+        expect(params).toMatchObject({
+>>>>>>> upstream/18.0
 =======
         expect(params).toMatchObject({
 >>>>>>> upstream/18.0
@@ -10435,7 +10493,11 @@ test("webSearchRead method", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(getRelevantParams(params)).toEqual({
+=======
+        expect(params).toMatchObject({
+>>>>>>> upstream/18.0
 =======
         expect(params).toMatchObject({
 >>>>>>> upstream/18.0

@@ -158,8 +158,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* auth_totp_mail
 # 
+=======
+# * auth_totp_mail
+#
+>>>>>>> upstream/18.0
 =======
 # * auth_totp_mail
 #
@@ -1017,6 +1022,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Noemi Pla, 2025
 >>>>>>> upstream/18.0
@@ -1833,10 +1839,15 @@
 # Noemi Pla, 2025
 # "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Noemi Pla, 2025
+# "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2607,6 +2618,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-09-03 11:19+0000\n"
 "Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@odoo.com>\n"
 "Language-Team: Catalan <https://translate.odoo.com/projects/odoo-18/"
@@ -2774,6 +2788,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3140,6 +3157,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-out=\"user.name  or ''\"/> requested you activate two-factor authentication to protect your account.<br/><br/>\n"
 "        Two-factor Authentication (\"2FA\") is a system of double authentication.\n"
 "        The first one is done with your password and the second one with a code you get from a dedicated mobile app.\n"
@@ -3148,6 +3166,8 @@ msgid ""
 "        </p><p style=\"margin: 16px 0px 16px 0px; text-align: center;\">\n"
 "            <a t-att-href=\"object.get_totp_invite_url()\" style=\"background-color:#875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3290,6 +3310,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3384,6 +3407,7 @@ msgid ""
 "</div>\n"
 "        "
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4049,6 +4073,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        Estimat/da: <t t-out=\"object.partner_id.name or ''\"/><br/><br/>\n"
@@ -4062,6 +4088,7 @@ msgstr ""
 "Microsoft Authenticator.\n"
 "\n"
 "        </p><p style=\"margin: 16px 0px 16px 0px; text-align: center;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4669,6 +4696,11 @@ msgstr ""
 "style=\"background-color:#875A7B; padding: 8px 16px 8px 16px; text-"
 "decoration: none; color: #fff; border-radius: 5px;\">\n"
 >>>>>>> upstream/18.0
+=======
+"            <a t-att-href=\"object.get_totp_invite_url()\" "
+"style=\"background-color:#875A7B; padding: 8px 16px 8px 16px; text-"
+"decoration: none; color: #fff; border-radius: 5px;\">\n"
+>>>>>>> upstream/18.0
 "                Activar l'autenticació de doble factor\n"
 "            </a>\n"
 "        </p>\n"
@@ -4893,6 +4925,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5492,7 +5527,11 @@ msgid "<span>Consider</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span>Considereu</span>"
+=======
+msgstr "<span>Considera</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Considera</span>"
 >>>>>>> upstream/18.0
@@ -6130,7 +6169,11 @@ msgid "A trusted device has just been added to your account: %(device_name)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "S'ha afegit un dispositiu de confiança al teu compte:%(device_name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "S'ha afegit un dispositiu de confiança al teu compte:%(device_name)s"
 >>>>>>> upstream/18.0
@@ -6770,6 +6813,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"S'acaba d'eliminar un dispositiu de confiança del teu compte:%(device_names)s"
+>>>>>>> upstream/18.0
 =======
 "S'acaba d'eliminar un dispositiu de confiança del teu compte:%(device_names)s"
 >>>>>>> upstream/18.0
@@ -7418,7 +7465,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Invitació per activar l'autenticació de dos factors al vostre compte d'Odoo"
+=======
+"Invitació per activar l'autenticació de doble factor al teu compte d'Odoo"
+>>>>>>> upstream/18.0
 =======
 "Invitació per activar l'autenticació de doble factor al teu compte d'Odoo"
 >>>>>>> upstream/18.0
@@ -8059,8 +8110,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "S'ha enviat una invitació per utilitzar l'autenticació de dos factors per "
 "als usuari(s) següents: %s"
+=======
+"S'ha enviat una invitació als següents usuaris per utilitzar l'autenticació "
+"de doble factor: %s"
+>>>>>>> upstream/18.0
 =======
 "S'ha enviat una invitació als següents usuaris per utilitzar l'autenticació "
 "de doble factor: %s"
@@ -8860,7 +8916,11 @@ msgid "Invite to use two-factor authentication"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Convida a utilitzar l'autenticació de dos factors"
+=======
+msgstr "Convida a utilitzar l'autenticació de doble factor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Convida a utilitzar l'autenticació de doble factor"
 >>>>>>> upstream/18.0
@@ -9502,7 +9562,11 @@ msgid "Open two-factor authentication configuration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Obriu la configuració d'autenticació de dos factors"
+=======
+msgstr "Obre la configuració d'autenticació de doble factor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obre la configuració d'autenticació de doble factor"
 >>>>>>> upstream/18.0
@@ -10140,7 +10204,11 @@ msgid "Security Update: 2FA Activated"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Actualització de seguretat: A2F activada"
+>>>>>>> upstream/18.0
 =======
 msgstr "Actualització de seguretat: A2F activada"
 >>>>>>> upstream/18.0
@@ -10778,7 +10846,11 @@ msgid "Security Update: 2FA Deactivated"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Actualització de seguretat: A2F desactivada"
+>>>>>>> upstream/18.0
 =======
 msgstr "Actualització de seguretat: A2F desactivada"
 >>>>>>> upstream/18.0
@@ -11416,7 +11488,11 @@ msgid "Security Update: Device Added"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Actualització de seguretat: dispositiu afegit"
+>>>>>>> upstream/18.0
 =======
 msgstr "Actualització de seguretat: dispositiu afegit"
 >>>>>>> upstream/18.0
@@ -12054,7 +12130,11 @@ msgid "Security Update: Device Removed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Actualització de seguretat: dispositiu eliminat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Actualització de seguretat: dispositiu eliminat"
 >>>>>>> upstream/18.0
@@ -12691,7 +12771,11 @@ msgid "Settings: 2Fa Invitation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Configuració: 2Fa Invitació"
+=======
+msgstr "Configuració: invitació 2Fa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Configuració: invitació 2Fa"
 >>>>>>> upstream/18.0
@@ -13329,7 +13413,11 @@ msgid "Two-factor authentication has been activated on your account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "L'autenticació de doble factor ha estat activada al teu compte"
+>>>>>>> upstream/18.0
 =======
 msgstr "L'autenticació de doble factor ha estat activada al teu compte"
 >>>>>>> upstream/18.0
@@ -13967,7 +14055,11 @@ msgid "Two-factor authentication has been deactivated on your account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "L'autenticació de doble factor ha estat desactivada al teu compte"
+>>>>>>> upstream/18.0
 =======
 msgstr "L'autenticació de doble factor ha estat desactivada al teu compte"
 >>>>>>> upstream/18.0
@@ -14609,7 +14701,11 @@ msgid "activating Two-factor Authentication"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "activant l'autenticació de doble factor"
+>>>>>>> upstream/18.0
 =======
 msgstr "activant l'autenticació de doble factor"
 >>>>>>> upstream/18.0

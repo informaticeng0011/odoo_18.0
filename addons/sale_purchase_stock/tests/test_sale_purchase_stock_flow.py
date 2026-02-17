@@ -386,6 +386,7 @@ class TestSalePurchaseStockFlow(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         delivery = so.picking_ids
         po_2 = self.env['purchase.order'].search([('partner_id', '=', vendor_2.id)])
         po_2.button_cancel()
@@ -396,6 +397,8 @@ class TestSalePurchaseStockFlow(TransactionCase):
             {'product_id': product_1.id, 'product_uom_qty': 1.0},
             {'product_id': product_2.id, 'product_uom_qty': 0.0},
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -899,6 +902,9 @@ class TestSalePurchaseStockFlow(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1622,7 +1628,10 @@ class TestSalePurchaseStockFlow(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2303,6 +2312,7 @@ class TestSalePurchaseStockFlow(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         internals = receipts._get_next_transfers()
         self.assertEqual(internals[0].partner_id, xd_customer)
         self.assertEqual(internals[0].move_ids.product_id, xd_product)
@@ -2332,6 +2342,8 @@ class TestSalePurchaseStockFlow(TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2963,6 +2975,7 @@ class TestSalePurchaseStockFlow(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3045,6 +3058,8 @@ class TestSalePurchaseStockFlow(TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3554,6 +3569,7 @@ class TestSalePurchaseStockFlow(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3780,6 +3796,8 @@ class TestSalePurchaseStockFlow(TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3957,6 +3975,9 @@ class TestSalePurchaseStockFlow(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

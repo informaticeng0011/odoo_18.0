@@ -100,6 +100,10 @@ import email.policy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import encodings
+>>>>>>> upstream/18.0
 =======
 import encodings
 >>>>>>> upstream/18.0
@@ -639,6 +643,10 @@ from collections import namedtuple
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from collections.abc import Iterable
+>>>>>>> upstream/18.0
 =======
 from collections.abc import Iterable
 >>>>>>> upstream/18.0
@@ -1614,8 +1622,11 @@ from odoo.addons.mail.tools.discuss import Store
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.mail.tools.web_push import push_to_end_point, DeviceUnreachableError
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2295,6 +2306,9 @@ from odoo.addons.mail.tools.web_push import (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2858,7 +2872,10 @@ _logger = logging.getLogger(__name__)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3144,6 +3161,9 @@ encodings.aliases.aliases['cp_850'] = 'cp850'
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3551,7 +3571,10 @@ class MailThread(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3968,6 +3991,9 @@ class MailThread(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4251,6 +4277,7 @@ class MailThread(models.AbstractModel):
             if added_patners_ids:
                 thread.message_subscribe(added_patners_ids.ids)
             if removed_partners_ids:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4992,6 +5019,8 @@ class MailThread(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 to_unsubscribe.append((thread, removed_partners_ids.ids))
 
         for thread, partner_ids in to_unsubscribe:
@@ -5136,6 +5165,9 @@ class MailThread(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5663,6 +5695,9 @@ class MailThread(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6664,6 +6699,7 @@ class MailThread(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _condition_to_sql(self, alias: str, fname: str, operator: str, value, query: Query) -> SQL:
         if self.env.su or self.env.user._is_internal():
             return super()._condition_to_sql(alias, fname, operator, value, query)
@@ -6676,6 +6712,8 @@ class MailThread(models.AbstractModel):
             raise AccessError("Portal users can only filter threads by themselves as followers.")
         return super(MailThread, self.sudo())._condition_to_sql(alias, fname, operator, value, query)
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7326,9 +7364,12 @@ class MailThread(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # this method is called after the main flush() and just before commit();
         # we have to flush() again in case we triggered some recomputations
         self.env.flush_all()
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7461,7 +7502,10 @@ class MailThread(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.env.flush_all()
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8022,6 +8066,7 @@ class MailThread(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         incomming mail match. We consider that if a mail arrives, we have to clear bounce for
         each model having bounce count.
 
@@ -8032,6 +8077,8 @@ class MailThread(models.AbstractModel):
             for model in [bl_model for bl_model in bl_models if bl_model.model in self.env]:  # transient test mode
                 self.env[model.model].sudo().search([('message_bounce', '>', 0), ('email_normalized', '=', valid_email)])._message_reset_bounce(valid_email)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8446,6 +8493,9 @@ class MailThread(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8936,7 +8986,11 @@ class MailThread(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 base_msg_domain = [('model', '=', model._name), ('res_id', 'in', doc_ids), ('create_date', '>=', create_date_limit)]
+=======
+                base_msg_domain = [('model', '=', model._name), ('res_id', 'in', doc_ids), ('create_date', '>=', create_date_limit), ('message_type', '=', 'email')]
+>>>>>>> upstream/18.0
 =======
                 base_msg_domain = [('model', '=', model._name), ('res_id', 'in', doc_ids), ('create_date', '>=', create_date_limit), ('message_type', '=', 'email')]
 >>>>>>> upstream/18.0
@@ -9886,6 +9940,12 @@ class MailThread(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                if part.get_content_type() == '*/*':
+                    _logger.warning("Message containing an unexpected Content-Type '*/*', assuming 'application/octet-stream'")
+                    part.replace_header('Content-Type', 'application/octet-stream')
+>>>>>>> upstream/18.0
 =======
                 if part.get_content_type() == '*/*':
                     _logger.warning("Message containing an unexpected Content-Type '*/*', assuming 'application/octet-stream'")
@@ -10529,10 +10589,13 @@ class MailThread(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             recipient_data.update({'partner_id': partner.id, 'name': partner.name or '', 'email': email_normalized})
         elif partner:  # incomplete profile: id, name
             recipient_data.update({'partner_id': partner.id, 'name': partner.name})
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11020,6 +11083,9 @@ class MailThread(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13355,6 +13421,10 @@ class MailThread(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                ('message_id', '!=', False),  # ignore records that somehow don't have a message_id (non ORM created)
+>>>>>>> upstream/18.0
 =======
                 ('message_id', '!=', False),  # ignore records that somehow don't have a message_id (non ORM created)
 >>>>>>> upstream/18.0
@@ -14719,6 +14789,7 @@ class MailThread(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         params = {
             'model': kwargs.get('model', self._name),
             'res_id': kwargs.get('res_id', self.ids and self.ids[0] or False),
@@ -14733,6 +14804,9 @@ class MailThread(models.AbstractModel):
             if key in ('action', 'token', 'access_token', 'auth_signup_token',
                        'auth_login', 'pid', 'hash')
         ))
+=======
+        params = self._get_action_link_params(link_type, **kwargs)
+>>>>>>> upstream/18.0
 =======
         params = self._get_action_link_params(link_type, **kwargs)
 >>>>>>> upstream/18.0
@@ -15494,7 +15568,10 @@ class MailThread(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             params.pop('model')
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16066,7 +16143,11 @@ class MailThread(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if link_type not in ['view']:
+=======
+        if link_type != 'view':
+>>>>>>> upstream/18.0
 =======
         if link_type != 'view':
 >>>>>>> upstream/18.0
@@ -16842,7 +16923,10 @@ class MailThread(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17429,6 +17513,9 @@ class MailThread(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18118,6 +18205,7 @@ class MailThread(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         """
         Check the payload limit of 4096 bytes to avoid 413 error return code.
         If the payload is too big, we trunc the body value.
@@ -18133,6 +18221,8 @@ class MailThread(models.AbstractModel):
         return payload
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18877,6 +18967,9 @@ class MailThread(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19877,6 +19970,10 @@ class MailThread(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        is_request = request_list is not None
+>>>>>>> upstream/18.0
 =======
         is_request = request_list is not None
 >>>>>>> upstream/18.0
@@ -20358,6 +20455,7 @@ class MailThread(models.AbstractModel):
                 [field for field in fields if field not in ["display_name", "modelName"]],
                 load=False,
             )[0]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21220,6 +21318,8 @@ class MailThread(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             if is_request:
                 res["hasReadAccess"] = thread.sudo(False).has_access("read")
                 res["hasWriteAccess"] = thread.sudo(False).has_access("write")
@@ -21255,6 +21355,9 @@ class MailThread(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21530,7 +21633,10 @@ class MailThread(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22006,6 +22112,9 @@ class MailThread(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

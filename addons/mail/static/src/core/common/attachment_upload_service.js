@@ -157,9 +157,13 @@ export class AttachmentUploadService {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 // FIXME: this should be only response. HOOT tests returns wrong data {result, error}
                 const attachmentData = response?.result ?? response;
                 this._processLoaded(thread, composer, attachmentData, tmpId, def);
+=======
+                this._processLoaded(thread, composer, response, tmpId, def);
+>>>>>>> upstream/18.0
 =======
                 this._processLoaded(thread, composer, response, tmpId, def);
 >>>>>>> upstream/18.0
@@ -563,6 +567,10 @@ export class AttachmentUploadService {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            resModel: upload.res_model,
+>>>>>>> upstream/18.0
 =======
             resModel: upload.res_model,
 >>>>>>> upstream/18.0

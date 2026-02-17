@@ -3,7 +3,11 @@
     'name': 'Poland - Accounting',
     'icon': '/account/static/description/l10n.png',
     'countries': ['pl'],
+<<<<<<< HEAD
     'version': '2.0',
+=======
+    'version': '2.1',
+>>>>>>> upstream/18.0
     'author': 'Odoo S.A., Grzegorz Grzelak (OpenGLOBE) (http://www.openglobe.pl)',
     'website': 'https://www.odoo.com/documentation/master/applications/finance/fiscal_localizations.html',
     'category': 'Accounting/Localizations/Account Charts',

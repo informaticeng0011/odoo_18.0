@@ -188,6 +188,7 @@ class Product(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for product in products:
             product.update(res[product.id])
         # Services need to be set with 0.0 for all quantities
@@ -198,6 +199,8 @@ class Product(models.Model):
         services.virtual_available = 0.0
         services.free_qty = 0.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -392,6 +395,9 @@ class Product(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -619,6 +625,11 @@ class Product(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        moves_in_res_past = defaultdict(float)
+        moves_out_res_past = defaultdict(float)
+>>>>>>> upstream/18.0
 =======
         moves_in_res_past = defaultdict(float)
         moves_out_res_past = defaultdict(float)
@@ -940,11 +951,17 @@ class Product(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             moves_in_res_past = defaultdict(float)
             for product, uom, quantity in Move._read_group(domain_move_in_done, groupby, ['quantity:sum']):
                 moves_in_res_past[product.id] += uom._compute_quantity(quantity, product.uom_id)
 
             moves_out_res_past = defaultdict(float)
+=======
+            for product, uom, quantity in Move._read_group(domain_move_in_done, groupby, ['quantity:sum']):
+                moves_in_res_past[product.id] += uom._compute_quantity(quantity, product.uom_id)
+
+>>>>>>> upstream/18.0
 =======
             for product, uom, quantity in Move._read_group(domain_move_in_done, groupby, ['quantity:sum']):
                 moves_in_res_past[product.id] += uom._compute_quantity(quantity, product.uom_id)
@@ -1330,8 +1347,11 @@ class Product(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if not origin_product_id:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1525,6 +1545,9 @@ class Product(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1774,6 +1797,7 @@ class Product(models.Model):
         if self.env.context.get('strict'):
             loc_domain = [('location_id', 'in', locations.ids)]
             dest_loc_domain = [('location_dest_id', 'in', locations.ids)]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2393,6 +2417,9 @@ class Product(models.Model):
 =======
             dest_loc_domain_out = [('location_dest_id', 'not in', locations.ids)]
 >>>>>>> upstream/18.0
+=======
+            dest_loc_domain_out = [('location_dest_id', 'not in', locations.ids)]
+>>>>>>> upstream/18.0
         elif locations:
             paths_domain = expression.OR([[('parent_path', '=like', loc.parent_path + '%')] for loc in locations])
             loc_domain = [('location_id', 'any', paths_domain)]
@@ -2571,6 +2598,9 @@ class Product(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3049,7 +3079,11 @@ class Product(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             loc_domain + ['!'] + dest_loc_domain,
+=======
+            loc_domain + dest_loc_domain_out,
+>>>>>>> upstream/18.0
 =======
             loc_domain + dest_loc_domain_out,
 >>>>>>> upstream/18.0
@@ -3967,7 +4001,10 @@ class Product(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4447,6 +4484,9 @@ class Product(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4927,7 +4967,11 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.filtered(lambda t: t.type != 'consu' and t.is_storable).is_storable = False
+=======
+        self.filtered(lambda t: t.type != 'consu' and t.is_storable).write({"is_storable": False})
+>>>>>>> upstream/18.0
 =======
         self.filtered(lambda t: t.type != 'consu' and t.is_storable).write({"is_storable": False})
 >>>>>>> upstream/18.0
@@ -5480,6 +5524,11 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if not self.env.user._get_default_warehouse_id():
+            self.env['stock.warehouse']._warehouse_redirect_warning()
+>>>>>>> upstream/18.0
 =======
         if not self.env.user._get_default_warehouse_id():
             self.env['stock.warehouse']._warehouse_redirect_warning()

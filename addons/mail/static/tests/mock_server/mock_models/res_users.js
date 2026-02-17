@@ -57,6 +57,10 @@ export class ResUsers extends webModels.ResUsers {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                            "signature",
+>>>>>>> upstream/18.0
 =======
                             "signature",
 >>>>>>> upstream/18.0

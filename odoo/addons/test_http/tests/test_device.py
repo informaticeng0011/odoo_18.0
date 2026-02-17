@@ -46,6 +46,12 @@ class TestDevice(TestHttpBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def authenticate(self, login, password):
+        return super().authenticate(login, password, session_extra={'_trace_disable': False})
+
+>>>>>>> upstream/18.0
 =======
     def authenticate(self, login, password):
         return super().authenticate(login, password, session_extra={'_trace_disable': False})
