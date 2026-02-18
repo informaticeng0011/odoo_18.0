@@ -28,7 +28,11 @@ export class SignatureField extends Component {
 
     setup() {
         this.displaySignatureRatio = 3;
+<<<<<<< HEAD
 
+=======
+        this.notification = useService("notification");
+>>>>>>> upstream/18.0
         this.dialogService = useService("dialog");
         this.state = useState({
             isValid: true,
@@ -219,6 +223,10 @@ export const signatureField = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    supportedTypes: ["binary"],
+>>>>>>> upstream/18.0
 =======
     supportedTypes: ["binary"],
 >>>>>>> upstream/18.0

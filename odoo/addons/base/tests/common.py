@@ -282,7 +282,11 @@ class SavepointCaseWithUserDemo(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'name': 'Pepper Street', # 'Deco Addict',
+=======
+                'name': 'Pepper Street',  # 'Acme Corporation',
+>>>>>>> upstream/18.0
 =======
                 'name': 'Pepper Street',  # 'Acme Corporation',
 >>>>>>> upstream/18.0

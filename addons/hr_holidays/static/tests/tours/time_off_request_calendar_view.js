@@ -16,7 +16,11 @@ registry.category("web_tour.tours").add("time_off_request_calendar_view", {
             content: "Click on the first Thursday of the year",
             trigger: ".fc-daygrid-day.fc-day-thu",
             run: () => {
+<<<<<<< HEAD
                 const el = document.querySelector(".fc-daygrid-day.fc-day-thu").firstChild;
+=======
+                const el = document.querySelector(".fc-daygrid-day.fc-day-thu:not(.fc-day-disabled)").firstChild;
+>>>>>>> upstream/18.0
                 el.scrollIntoView();
 
                 const fromPosition = el.getBoundingClientRect();

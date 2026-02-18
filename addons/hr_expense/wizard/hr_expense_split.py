@@ -99,7 +99,11 @@ class HrExpenseSplit(models.TransientModel):
             'product_uom_id': self.product_id.uom_id.id,
         }
 
+<<<<<<< HEAD
         account = self.product_id.product_tmpl_id._get_product_accounts()['expense']
+=======
+        account = self.product_id.with_company(self.company_id).product_tmpl_id._get_product_accounts()['expense']
+>>>>>>> upstream/18.0
         if account:
             vals['account_id'] = account.id
         return vals

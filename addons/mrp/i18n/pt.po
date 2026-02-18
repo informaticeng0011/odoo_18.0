@@ -101,6 +101,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* mrp
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -745,6 +746,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * mrp
 #
 # Translators:
@@ -849,6 +852,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1060,6 +1066,7 @@
 # Nuno Silva <nuno.silva@arxi.pt>, 2025
 # J Ponte, 2025
 # Tomás Azevedo, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2170,10 +2177,16 @@
 # Humberto Sousa <humberto.sousa@smartimprove.pt>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Daniel Reis, 2025
+# Humberto Sousa <humberto.sousa@smartimprove.pt>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3161,6 +3174,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-12-29 18:36+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:36+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-08 16:52+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Portuguese <https://translate.odoo.com/projects/odoo-18/mrp/"
@@ -3265,6 +3281,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3470,6 +3489,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4157,12 +4177,18 @@ msgstr ""
 "1000000 == 0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
+"1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_production__state
 #: model:ir.model.fields,help:mrp.field_mrp_workorder__production_state
 msgid ""
 " * Draft: The MO is not confirmed yet.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4804,6 +4830,10 @@ msgid ""
 " * Confirmed: The MO is confirmed, the stock rules and the reordering of the "
 "components are trigerred.\n"
 >>>>>>> upstream/18.0
+=======
+" * Confirmed: The MO is confirmed, the stock rules and the reordering of the "
+"components are trigerred.\n"
+>>>>>>> upstream/18.0
 " * In Progress: The production has started (on the MO or on the WO).\n"
 " * To Close: The production is done, the MO has to be closed.\n"
 " * Done: The MO is closed, the stock moves are posted. \n"
@@ -4910,7 +4940,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5219,6 +5252,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5425,6 +5461,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/mrp/models/stock_rule.py:0
 msgid " <br/><br/> The components will be taken from <b>%s</b>."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5830,11 +5867,15 @@ msgstr " <br/><br/>Os componentes serão retirados de <b>%s</b>."
 =======
 msgstr " <br/><br/>Os componentes serão retirados de <b>%s</b>."
 >>>>>>> upstream/18.0
+=======
+msgstr " <br/><br/>Os componentes serão retirados de <b>%s</b>."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
 #: code:addons/mrp/models/stock_rule.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6281,6 +6322,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 " <br/><br/> The manufactured products will be moved towards <b>%"
 "(destination)s</b>, <br/> as specified from <b>%(operation)s</b> destination."
 msgstr ""
@@ -6392,6 +6435,9 @@ msgstr " Quando todos os componentes estiverem disponíveis"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6703,8 +6749,14 @@ msgstr "# Lista de Materiais"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "# BoM Where Used"
 msgstr ""
+=======
+#, fuzzy
+msgid "# BoM Where Used"
+msgstr "Nº de LMs utilizadas"
+>>>>>>> upstream/18.0
 =======
 #, fuzzy
 msgid "# BoM Where Used"
@@ -7315,7 +7367,11 @@ msgid "# Ready Work Orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nº de Ordens de Trabalho Prontos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nº de Ordens de Trabalho Prontos"
 >>>>>>> upstream/18.0
@@ -7724,6 +7780,7 @@ msgstr "Nº de Ordens de Trabalho Prontos"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "# Work Orders"
 msgstr ""
 
@@ -7732,6 +7789,8 @@ msgstr ""
 msgid "# of BoM Where is Used"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8041,6 +8100,9 @@ msgstr "Nº de LMs onde são usadas"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8378,7 +8440,11 @@ msgid "%(product_name)s (new) %(number_of_boms)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(product_name)s (novo) %(number_of_boms)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(product_name)s (novo) %(number_of_boms)s"
 >>>>>>> upstream/18.0
@@ -8787,8 +8853,14 @@ msgstr "%(product_name)s (novo) %(number_of_boms)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "%(qty)s %(measure)s unbuilt in %(order)s"
 msgstr ""
+=======
+#, fuzzy
+msgid "%(qty)s %(measure)s unbuilt in %(order)s"
+msgstr "%(qty)s %(measure)s inacabados em %(order)s"
+>>>>>>> upstream/18.0
 =======
 #, fuzzy
 msgid "%(qty)s %(measure)s unbuilt in %(order)s"
@@ -9400,7 +9472,11 @@ msgid "%i work orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%i ordens de trabalho"
+>>>>>>> upstream/18.0
 =======
 msgstr "%i ordens de trabalho"
 >>>>>>> upstream/18.0
@@ -9809,8 +9885,14 @@ msgstr "%i ordens de trabalho"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "%s Child MO's"
 msgstr ""
+=======
+#, fuzzy
+msgid "%s Child MO's"
+msgstr "%s OPs secundárias"
+>>>>>>> upstream/18.0
 =======
 #, fuzzy
 msgid "%s Child MO's"
@@ -10422,6 +10504,7 @@ msgid "%s cannot be deleted. Try to cancel them before."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: mrp
@@ -10449,6 +10532,8 @@ msgstr ""
 msgid "'Work Order - %s' % object.name"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10780,6 +10865,9 @@ msgstr "'Ordem de trabalho - %s' % object.name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11087,8 +11175,14 @@ msgstr "'Ordem de trabalho - %s' % object.name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "(in"
 msgstr ""
+=======
+#, fuzzy
+msgid "(in"
+msgstr "(incl"
+>>>>>>> upstream/18.0
 =======
 #, fuzzy
 msgid "(in"
@@ -11730,6 +11824,7 @@ msgstr "+ %d dia(s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -11875,6 +11970,8 @@ msgstr ""
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.exception_on_mo
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12188,6 +12285,9 @@ msgstr "- Visão geral"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12494,6 +12594,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+".\n"
+"            Ações manuais podem ser necessárias."
+>>>>>>> upstream/18.0
 =======
 ".\n"
 "            Ações manuais podem ser necessárias."
@@ -13032,6 +13137,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "              3 Steps: Pick components from stock, produce, and then move final product(s) from production area to stock."
 =======
 "              3 Steps: Pick components from stock, produce, and then move "
@@ -13343,6 +13449,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "              3 Steps: Pick components from stock, produce, and then move "
 "final product(s) from production area to stock."
 msgstr ""
@@ -13451,6 +13559,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13819,7 +13930,11 @@ msgid "100"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "100"
+>>>>>>> upstream/18.0
 =======
 msgstr "100"
 >>>>>>> upstream/18.0
@@ -14414,6 +14529,7 @@ msgstr "100"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "12345678901"
 msgstr ""
 
@@ -14457,6 +14573,8 @@ msgstr ""
 msgid "987654321098"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14808,6 +14926,9 @@ msgstr "987654321098"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15014,6 +15135,7 @@ msgstr "987654321098"
 #. odoo-javascript
 #: code:addons/mrp/static/src/workcenter_dashboard_graph/workcenter_dashboard_graph_field.js:0
 msgid ":  hours"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15737,6 +15859,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr ":  horas"
 
 #. module: mrp
@@ -15860,6 +15984,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16069,6 +16196,7 @@ msgid ""
 "<p class=\"o_view_nocontent_smiling_face\">\n"
 "                        Upload files to your product\n"
 "                    </p><p>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16803,6 +16931,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        Use this feature to store any files, like drawings "
 "or specifications.\n"
 "                    </p>"
@@ -16939,6 +17069,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17300,7 +17433,11 @@ msgid "<span class=\"col-6\">In Progress</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"col-6\">Em Progresso</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"col-6\">Em Progresso</span>"
 >>>>>>> upstream/18.0
@@ -17709,7 +17846,11 @@ msgid "<span class=\"col-6\">Late</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"col-6\">Atrasado</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"col-6\">Atrasado</span>"
 >>>>>>> upstream/18.0
@@ -18118,7 +18259,11 @@ msgid "<span class=\"col-6\">To Close</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"col-6\">Para Fechar</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"col-6\">Para Fechar</span>"
 >>>>>>> upstream/18.0
@@ -18527,7 +18672,11 @@ msgid "<span class=\"col-6\">Waiting</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"col-6\">Aguardando</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"col-6\">Aguardando</span>"
 >>>>>>> upstream/18.0
@@ -18936,6 +19085,7 @@ msgid "<span class=\"fw-bold text-nowrap\">To Produce</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: mrp
@@ -18943,6 +19093,8 @@ msgstr ""
 msgid "<span class=\"o_stat_text\">Backorders</span>"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19250,6 +19402,9 @@ msgstr "<span class=\"o_stat_text\">Pedidos pendentes</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19560,6 +19715,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<span class=\"o_stat_text\">Child MO</span>"
 msgstr ""
 
@@ -19568,6 +19724,8 @@ msgstr ""
 msgid "<span class=\"o_stat_text\">Load</span>"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19877,6 +20035,9 @@ msgstr "<span class=\"o_stat_text\">Carregar</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20188,8 +20349,14 @@ msgstr "<span class=\"o_stat_text\">Perdido</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<span class=\"o_stat_text\">Manufactured</span>"
 msgstr ""
+=======
+#, fuzzy
+msgid "<span class=\"o_stat_text\">Manufactured</span>"
+msgstr "<span class=\"o_stat_text\">Fabricado</span>"
+>>>>>>> upstream/18.0
 =======
 #, fuzzy
 msgid "<span class=\"o_stat_text\">Manufactured</span>"
@@ -20815,6 +20982,7 @@ msgid "<span class=\"o_stat_text\">Operations<br/>Performance</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: mrp
@@ -20822,6 +20990,8 @@ msgstr ""
 msgid "<span class=\"o_stat_text\">Overview</span>"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21129,6 +21299,9 @@ msgstr "<span class=\"o_stat_text\">Visão geral</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21440,8 +21613,14 @@ msgstr "<span class=\"o_stat_text\">Desempenho</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<span class=\"o_stat_text\">Product Moves</span>"
 msgstr ""
+=======
+#, fuzzy
+msgid "<span class=\"o_stat_text\">Product Moves</span>"
+msgstr "<span class=\"o_stat_text\">Movimentações de produtos</span>"
+>>>>>>> upstream/18.0
 =======
 #, fuzzy
 msgid "<span class=\"o_stat_text\">Product Moves</span>"
@@ -22052,6 +22231,7 @@ msgstr "<span class=\"o_stat_text\">Movimentações de produtos</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<span class=\"o_stat_text\">Scraps</span>"
 msgstr ""
 
@@ -22413,6 +22593,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #, fuzzy
 msgid "<span class=\"o_stat_text\">Scraps</span>"
 msgstr "<span class=\"o_stat_text\">Desperdiços</span>"
@@ -22546,6 +22728,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22856,6 +23041,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span>\n"
+"            Componentes\n"
+"        </span>"
+>>>>>>> upstream/18.0
 =======
 "<span>\n"
 "            Componentes\n"
@@ -23466,7 +23657,11 @@ msgid "<span>&amp;nbsp;(minutes)</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>&amp;nbsp;(minutos)</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>&amp;nbsp;(minutos)</span>"
 >>>>>>> upstream/18.0
@@ -23890,7 +24085,11 @@ msgid "<span>Orders</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Pedidos</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Pedidos</span>"
 >>>>>>> upstream/18.0
@@ -24299,7 +24498,11 @@ msgid "<span>PLAN ORDERS</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>ORDENS DE PLANEJAMENTO</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>ORDENS DE PLANEJAMENTO</span>"
 >>>>>>> upstream/18.0
@@ -24708,7 +24911,11 @@ msgid "<span>Products not associated with a kit</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Produtos não associados a um kit</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Produtos não associados a um kit</span>"
 >>>>>>> upstream/18.0
@@ -25122,7 +25329,11 @@ msgid "<span>WORK ORDERS</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>ORDENS DE TRABALHO</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>ORDENS DE TRABALHO</span>"
 >>>>>>> upstream/18.0
@@ -25531,7 +25742,11 @@ msgid "<span>minutes</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>minutos</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>minutos</span>"
 >>>>>>> upstream/18.0
@@ -25940,7 +26155,11 @@ msgid "<strong class=\"mr8 oe_inline\">to</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong class=\"mr8 oe_inline\">para</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong class=\"mr8 oe_inline\">para</strong>"
 >>>>>>> upstream/18.0
@@ -26349,7 +26568,11 @@ msgid "<strong>Actual Duration (minutes)</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Duração real (minutos)</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Duração real (minutos)</strong>"
 >>>>>>> upstream/18.0
@@ -26758,7 +26981,11 @@ msgid "<strong>Barcode</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Código de barras</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Código de barras</strong>"
 >>>>>>> upstream/18.0
@@ -27167,7 +27394,11 @@ msgid "<strong>Deadline:</strong><br/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Prazo:</strong><br/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Prazo:</strong><br/>"
 >>>>>>> upstream/18.0
@@ -27576,7 +27807,11 @@ msgid "<strong>Description:</strong><br/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Descrição:</strong><br/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Descrição:</strong><br/>"
 >>>>>>> upstream/18.0
@@ -27985,7 +28220,11 @@ msgid "<strong>Duration (minutes)</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Duração (minutos)</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Duração (minutos)</strong>"
 >>>>>>> upstream/18.0
@@ -28394,7 +28633,11 @@ msgid "<strong>Effectiveness Category: </strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Categoria de eficácia:</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Categoria de eficácia:</strong>"
 >>>>>>> upstream/18.0
@@ -28803,7 +29046,11 @@ msgid "<strong>Finished Product:</strong><br/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Produto acabado:</strong><br/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Produto acabado:</strong><br/>"
 >>>>>>> upstream/18.0
@@ -29212,7 +29459,11 @@ msgid "<strong>Is a Blocking Reason? </strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>É um motivo de bloqueio?</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>É um motivo de bloqueio?</strong>"
 >>>>>>> upstream/18.0
@@ -29621,7 +29872,11 @@ msgid "<strong>Manufacturing Order:</strong><br/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Ordem de produção:</strong><br/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Ordem de produção:</strong><br/>"
 >>>>>>> upstream/18.0
@@ -30030,7 +30285,11 @@ msgid "<strong>Operation</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Operação</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Operação</strong>"
 >>>>>>> upstream/18.0
@@ -30439,7 +30698,11 @@ msgid "<strong>Product:</strong><br/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Produtos:</strong><br/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Produtos:</strong><br/>"
 >>>>>>> upstream/18.0
@@ -30848,7 +31111,11 @@ msgid "<strong>Quantity Producing:</strong><br/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Quantidade em produção:</strong><br/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Quantidade em produção:</strong><br/>"
 >>>>>>> upstream/18.0
@@ -31269,7 +31536,11 @@ msgid "<strong>Responsible:</strong><br/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Responsável:</strong><br/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Responsável:</strong><br/>"
 >>>>>>> upstream/18.0
@@ -31726,6 +31997,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                Instead, it is used to decompose a BoM into its components when:"
 =======
 "                                Instead, it is used to decompose a BoM into "
@@ -32037,6 +32309,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                Instead, it is used to decompose a BoM into "
 "its components when:"
 msgstr ""
@@ -32142,6 +32416,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -32457,6 +32734,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Um produto com uma lista de materiais do tipo kit não pode ter uma regra de "
+"reposição."
+>>>>>>> upstream/18.0
 =======
 "Um produto com uma lista de materiais do tipo kit não pode ter uma regra de "
 "reposição."
@@ -33031,6 +33313,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Adicione subprodutos a listas de materiais. Isso também pode ser usado para "
+"obter vários produtos acabados. Sem essa opção, você só faz: A + B = C. Com "
+"a opção: A + B = C + D."
+>>>>>>> upstream/18.0
 =======
 "Adicione subprodutos a listas de materiais. Isso também pode ser usado para "
 "obter vários produtos acabados. Sem essa opção, você só faz: A + B = C. Com "
@@ -33641,7 +33929,11 @@ msgid "Add quality checks to your work orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adicionar verificações de qualidade às ordens de trabalho"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adicionar verificações de qualidade às ordens de trabalho"
 >>>>>>> upstream/18.0
@@ -34050,7 +34342,11 @@ msgid "Add tag for the workcenter"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adicionar marcador para o centro de trabalho"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adicionar marcador para o centro de trabalho"
 >>>>>>> upstream/18.0
@@ -34514,6 +34810,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You should install the mrp_byproduct module if you want to manage extra products on BoMs!"
 =======
 "You should install the mrp_byproduct module if you want to manage extra "
@@ -34825,6 +35122,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "You should install the mrp_byproduct module if you want to manage extra "
 "products on BoMs!"
 msgstr ""
@@ -34932,6 +35231,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -35253,7 +35555,11 @@ msgid "Allocation Report for Manufacturing Orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Relatório de alocação para ordens de produção"
+>>>>>>> upstream/18.0
 =======
 msgstr "Relatório de alocação para ordens de produção"
 >>>>>>> upstream/18.0
@@ -35663,7 +35969,11 @@ msgid "Allow Work Order Dependencies"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Permitir dependências de ordens de trabalho"
+>>>>>>> upstream/18.0
 =======
 msgstr "Permitir dependências de ordens de trabalho"
 >>>>>>> upstream/18.0
@@ -36075,6 +36385,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Permitir que usuários de fabricação modifiquem as quantidades a serem "
+"consumidas, sem a necessidade de aprovação prévia"
+>>>>>>> upstream/18.0
 =======
 "Permitir que usuários de fabricação modifiquem as quantidades a serem "
 "consumidas, sem a necessidade de aprovação prévia"
@@ -36585,7 +36900,11 @@ msgid "Allow to create new lot/serial numbers for the components"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Permite criar novos números de série/lote para os componentes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Permite criar novos números de série/lote para os componentes"
 >>>>>>> upstream/18.0
@@ -37001,7 +37320,11 @@ msgid "Allowed to Reserve Production"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tem permissão para reservar produção"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tem permissão para reservar produção"
 >>>>>>> upstream/18.0
@@ -37410,7 +37733,11 @@ msgid "Allowed to Unreserve Production"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tem permissão para cancelar a reserva da produção"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tem permissão para cancelar a reserva da produção"
 >>>>>>> upstream/18.0
@@ -37821,7 +38148,11 @@ msgid "Allowed with warning"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Permitido com aviso"
+>>>>>>> upstream/18.0
 =======
 msgstr "Permitido com aviso"
 >>>>>>> upstream/18.0
@@ -38230,7 +38561,11 @@ msgid "Alternative Workcenters"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Centros de trabalho alternativos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Centros de trabalho alternativos"
 >>>>>>> upstream/18.0
@@ -38642,6 +38977,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Centros de trabalho alternativos que podem substituir este para despachar a "
+"produção"
+>>>>>>> upstream/18.0
 =======
 "Centros de trabalho alternativos que podem substituir este para despachar a "
 "produção"
@@ -39154,6 +39494,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Um pedido de desmontagem é usado para desmontar um produto acabado em seus "
+"componentes."
+>>>>>>> upstream/18.0
 =======
 "Um pedido de desmontagem é usado para desmontar um produto acabado em seus "
 "componentes."
@@ -39665,7 +40010,11 @@ msgid "Apply on Variants"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aplicar em variantes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aplicar em variantes"
 >>>>>>> upstream/18.0
@@ -40074,7 +40423,11 @@ msgid "Archive Operation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Arquivar operação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Arquivar operação"
 >>>>>>> upstream/18.0
@@ -40493,7 +40846,11 @@ msgid "Are you sure you want to cancel this manufacturing order?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tem certeza de que deseja cancelar essa ordem de produção?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tem certeza de que deseja cancelar essa ordem de produção?"
 >>>>>>> upstream/18.0
@@ -40902,7 +41259,11 @@ msgid "Assembling"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Montagem"
+>>>>>>> upstream/18.0
 =======
 msgstr "Montagem"
 >>>>>>> upstream/18.0
@@ -41329,7 +41690,11 @@ msgid "Attachments Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Contagem de anexos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Contagem de anexos"
 >>>>>>> upstream/18.0
@@ -41788,7 +42153,11 @@ msgid "Availabilities on products."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Disponibilidades em produtos."
+>>>>>>> upstream/18.0
 =======
 msgstr "Disponibilidades em produtos."
 >>>>>>> upstream/18.0
@@ -42205,7 +42574,11 @@ msgid "Availability Losses"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Perdas de disponibilidade"
+>>>>>>> upstream/18.0
 =======
 msgstr "Perdas de disponibilidade"
 >>>>>>> upstream/18.0
@@ -42657,6 +43030,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "case the product is subcontracted, this can be used to determine the date at"
 " which components should be sent to the subcontractor."
 =======
@@ -42969,6 +43343,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "case the product is subcontracted, this can be used to determine the date at "
 "which components should be sent to the subcontractor."
 msgstr ""
@@ -43076,6 +43452,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -43408,7 +43787,11 @@ msgid "BOM Product Variants"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "LM para variantes de produto"
+>>>>>>> upstream/18.0
 =======
 msgstr "LM para variantes de produto"
 >>>>>>> upstream/18.0
@@ -43819,7 +44202,11 @@ msgid "BOM Product Variants needed to apply this line."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "LMs de variantes de produtos necessárias para aplicar esta linha."
+>>>>>>> upstream/18.0
 =======
 msgstr "LMs de variantes de produtos necessárias para aplicar esta linha."
 >>>>>>> upstream/18.0
@@ -44245,7 +44632,11 @@ msgid "Backorder Confirmation Line"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Linha de confirmação de pedido em espera"
+>>>>>>> upstream/18.0
 =======
 msgstr "Linha de confirmação de pedido em espera"
 >>>>>>> upstream/18.0
@@ -44654,7 +45045,11 @@ msgid "Backorder Confirmation Lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Linha de confirmação de pedido em espera"
+>>>>>>> upstream/18.0
 =======
 msgstr "Linha de confirmação de pedido em espera"
 >>>>>>> upstream/18.0
@@ -45064,7 +45459,11 @@ msgid "Backorder MO"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "OP de pedido em espera"
+>>>>>>> upstream/18.0
 =======
 msgstr "OP de pedido em espera"
 >>>>>>> upstream/18.0
@@ -45474,7 +45873,11 @@ msgid "Backorder MO's"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "OPs de pedido em espera"
+>>>>>>> upstream/18.0
 =======
 msgstr "OPs de pedido em espera"
 >>>>>>> upstream/18.0
@@ -45782,6 +46185,7 @@ msgstr "OPs de pedido em espera"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__backorder_sequence
 msgid "Backorder Sequence"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -46199,6 +46603,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "Sequência de pedidos em espera"
 
 #. module: mrp
@@ -46307,6 +46713,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -46654,7 +47063,11 @@ msgid "Bill of Material line"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Linha da lista de materiais"
+>>>>>>> upstream/18.0
 =======
 msgstr "Linha da lista de materiais"
 >>>>>>> upstream/18.0
@@ -47063,7 +47476,11 @@ msgid "Bill of Material used on the Production Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lista de materiais utilizada na ordem de produção"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lista de materiais utilizada na ordem de produção"
 >>>>>>> upstream/18.0
@@ -47521,6 +47938,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Bills of Materials, also called recipes, are used to autocomplete components"
 " and work order instructions."
 =======
@@ -47833,6 +48251,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Bills of Materials, also called recipes, are used to autocomplete components "
 "and work order instructions."
 msgstr ""
@@ -47938,6 +48358,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -48144,6 +48567,7 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:mrp.mrp_bom_form_action
 msgid ""
 "Bills of materials allow you to define the list of required raw\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -48584,6 +49008,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                materials used to make a finished product; through a "
 "manufacturing\n"
 "                order or a pack of products."
@@ -48692,6 +49118,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -49007,7 +49436,11 @@ msgid "Block Workcenter"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bloquear centro de trabalho"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bloquear centro de trabalho"
 >>>>>>> upstream/18.0
@@ -49431,7 +49864,11 @@ msgid "Blocked Time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tempo bloqueado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tempo bloqueado"
 >>>>>>> upstream/18.0
@@ -49840,7 +50277,11 @@ msgid "Blocked hours over the last month"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Horas bloqueadas no último mês"
+>>>>>>> upstream/18.0
 =======
 msgstr "Horas bloqueadas no último mês"
 >>>>>>> upstream/18.0
@@ -50249,7 +50690,11 @@ msgid "Blocking Reason"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Motivo do bloqueio"
+>>>>>>> upstream/18.0
 =======
 msgstr "Motivo do bloqueio"
 >>>>>>> upstream/18.0
@@ -50659,7 +51104,11 @@ msgid "Blocks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Blocos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Blocos"
 >>>>>>> upstream/18.0
@@ -51076,7 +51525,11 @@ msgid "BoM Components"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Componentes da LM"
+>>>>>>> upstream/18.0
 =======
 msgstr "Componentes da LM"
 >>>>>>> upstream/18.0
@@ -51489,7 +51942,11 @@ msgid "BoM Cost"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Custo da LM"
+>>>>>>> upstream/18.0
 =======
 msgstr "Custo da LM"
 >>>>>>> upstream/18.0
@@ -51904,7 +52361,11 @@ msgid "BoM Line"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Linha da LM"
+>>>>>>> upstream/18.0
 =======
 msgstr "Linha da LM"
 >>>>>>> upstream/18.0
@@ -52320,7 +52781,11 @@ msgid "BoM Overview"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Visão geral da LM"
+>>>>>>> upstream/18.0
 =======
 msgstr "Visão geral da LM"
 >>>>>>> upstream/18.0
@@ -52735,7 +53200,11 @@ msgid "Bolt"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Parafuso"
+>>>>>>> upstream/18.0
 =======
 msgstr "Parafuso"
 >>>>>>> upstream/18.0
@@ -53154,7 +53623,11 @@ msgid "By-product"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Subproduto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Subproduto"
 >>>>>>> upstream/18.0
@@ -53564,7 +54037,11 @@ msgid "By-product %s should not be the same as BoM product."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O subproduto %s não deve ser igual ao produto da LM."
+>>>>>>> upstream/18.0
 =======
 msgstr "O subproduto %s não deve ser igual ao produto da LM."
 >>>>>>> upstream/18.0
@@ -53973,7 +54450,11 @@ msgid "By-product line that generated the move in a manufacturing order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Linha de subproduto que gerou a movimentação em uma ordem de produção"
+>>>>>>> upstream/18.0
 =======
 msgstr "Linha de subproduto que gerou a movimentação em uma ordem de produção"
 >>>>>>> upstream/18.0
@@ -54384,7 +54865,11 @@ msgid "By-products"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Subprodutos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Subprodutos"
 >>>>>>> upstream/18.0
@@ -54795,7 +55280,11 @@ msgid "By-products cost shares must be positive."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "As divisões de custos dos subprodutos devem ser positivas."
+>>>>>>> upstream/18.0
 =======
 msgstr "As divisões de custos dos subprodutos devem ser positivas."
 >>>>>>> upstream/18.0
@@ -55217,7 +55706,11 @@ msgid "Can't find any production location."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não foi possível encontrar um local de produção."
+>>>>>>> upstream/18.0
 =======
 msgstr "Não foi possível encontrar um local de produção."
 >>>>>>> upstream/18.0
@@ -55649,7 +56142,11 @@ msgid "Cannot delete a manufacturing order in done state."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não é possível excluir uma ordem de produção com status de concluída."
+>>>>>>> upstream/18.0
 =======
 msgstr "Não é possível excluir uma ordem de produção com status de concluída."
 >>>>>>> upstream/18.0
@@ -56069,7 +56566,11 @@ msgid "Carried Quantity"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Quantidade transportada"
+>>>>>>> upstream/18.0
 =======
 msgstr "Quantidade transportada"
 >>>>>>> upstream/18.0
@@ -56598,7 +57099,11 @@ msgid "Catalog"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Catálogo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Catálogo"
 >>>>>>> upstream/18.0
@@ -57385,7 +57890,11 @@ msgid "Change Production Qty"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alterar qtd. de produção"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alterar qtd. de produção"
 >>>>>>> upstream/18.0
@@ -57815,7 +58324,11 @@ msgid "Choose Labels Layout"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Selecionar layout das etiquetas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Selecionar layout das etiquetas"
 >>>>>>> upstream/18.0
@@ -58225,7 +58738,11 @@ msgid "Choose Type of Labels To Print"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Escolha o tipo de etiquetas a serem impressas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Escolha o tipo de etiquetas a serem impressas"
 >>>>>>> upstream/18.0
@@ -58635,6 +59152,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Escolha se deseja imprimir etiquetas de produto ou de lote/número de série"
+>>>>>>> upstream/18.0
 =======
 "Escolha se deseja imprimir etiquetas de produto ou de lote/número de série"
 >>>>>>> upstream/18.0
@@ -59043,7 +59564,11 @@ msgid "Cleanup Time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tempo de limpeza"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tempo de limpeza"
 >>>>>>> upstream/18.0
@@ -59452,7 +59977,11 @@ msgid "Cleanup Time (minutes)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tempo de limpeza (minutos)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tempo de limpeza (minutos)"
 >>>>>>> upstream/18.0
@@ -59898,7 +60427,11 @@ msgid "Component"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Componente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Componente"
 >>>>>>> upstream/18.0
@@ -60307,7 +60840,11 @@ msgid "Component Status"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Status do componente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Status do componente"
 >>>>>>> upstream/18.0
@@ -60717,7 +61254,11 @@ msgid "Component of Draft MO"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Componente da OP provisória"
+>>>>>>> upstream/18.0
 =======
 msgstr "Componente da OP provisória"
 >>>>>>> upstream/18.0
@@ -61139,7 +61680,11 @@ msgid "Components Availability State"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Situação de disponibilidade de componentes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Situação de disponibilidade de componentes"
 >>>>>>> upstream/18.0
@@ -61553,7 +62098,11 @@ msgid "Components Location"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Local dos componentes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Local dos componentes"
 >>>>>>> upstream/18.0
@@ -61964,6 +62513,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Os componentes serão reservados primeiro para as OPs com prioridades mais "
+"altas."
+>>>>>>> upstream/18.0
 =======
 "Os componentes serão reservados primeiro para as OPs com prioridades mais "
 "altas."
@@ -62478,7 +63032,11 @@ msgid "Compute based on tracked time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Calcular com base no tempo registrado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Calcular com base no tempo registrado"
 >>>>>>> upstream/18.0
@@ -62787,6 +63345,7 @@ msgstr "Calcular com base no tempo registrado"
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_bom_form_view
 msgid ""
 "Compute the days required to resupply all components from BoM, by either "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -63558,6 +64117,11 @@ msgid ""
 "subassemblies.                                                       Also "
 "note that purchase security lead times will be added when appropriate."
 >>>>>>> upstream/18.0
+=======
+"buying or manufacturing the components and/or "
+"subassemblies.                                                       Also "
+"note that purchase security lead times will be added when appropriate."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mrp
@@ -63664,7 +64228,11 @@ msgid "Computed on last"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Última vez que foi computado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Última vez que foi computado"
 >>>>>>> upstream/18.0
@@ -64107,7 +64675,11 @@ msgid "Consumed Disassembly Lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Linhas de desmontagens consumidas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Linhas de desmontagens consumidas"
 >>>>>>> upstream/18.0
@@ -64516,7 +65088,11 @@ msgid "Consumed Disassembly Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pedido de desmontagem consumido"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pedido de desmontagem consumido"
 >>>>>>> upstream/18.0
@@ -64933,7 +65509,11 @@ msgid "Consumption"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Consumo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Consumo"
 >>>>>>> upstream/18.0
@@ -65343,7 +65923,11 @@ msgid "Consumption Warning"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aviso de consumo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aviso de consumo"
 >>>>>>> upstream/18.0
@@ -65764,7 +66348,11 @@ msgid "Copy Existing Operations"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Copiar operações existentes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Copiar operações existentes"
 >>>>>>> upstream/18.0
@@ -66173,7 +66761,11 @@ msgid "Copy selected operations"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Copiar operações selecionadas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Copiar operações selecionadas"
 >>>>>>> upstream/18.0
@@ -66584,7 +67176,11 @@ msgid "Cost Breakdown of Products"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Detalhamento do custo dos produtos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Detalhamento do custo dos produtos"
 >>>>>>> upstream/18.0
@@ -67054,7 +67650,11 @@ msgid "Count of MO generated"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Contagem de ordens de produção geradas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Contagem de ordens de produção geradas"
 >>>>>>> upstream/18.0
@@ -67463,7 +68063,11 @@ msgid "Count of linked backorder"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Contagem de pedidos em espera vinculados"
+>>>>>>> upstream/18.0
 =======
 msgstr "Contagem de pedidos em espera vinculados"
 >>>>>>> upstream/18.0
@@ -67873,7 +68477,11 @@ msgid "Create New Lots/Serial Numbers for Components"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Criar novos números de série/lotes para componentes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Criar novos números de série/lotes para componentes"
 >>>>>>> upstream/18.0
@@ -68282,7 +68890,11 @@ msgid "Create a Backorder"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Criar pedido em espera"
+>>>>>>> upstream/18.0
 =======
 msgstr "Criar pedido em espera"
 >>>>>>> upstream/18.0
@@ -68590,6 +69202,7 @@ msgstr "Criar pedido em espera"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_backorder_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -69030,6 +69643,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Create a backorder if you expect to process the remaining products later. Do "
 "not create a backorder if you will not process the remaining products."
 msgstr ""
@@ -69136,6 +69751,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -69442,7 +70060,11 @@ msgid "Create a new operation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Criar uma nova operação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Criar uma nova operação"
 >>>>>>> upstream/18.0
@@ -69852,7 +70474,11 @@ msgid "Create a new work center"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Criar novo centro de trabalho"
+>>>>>>> upstream/18.0
 =======
 msgstr "Criar novo centro de trabalho"
 >>>>>>> upstream/18.0
@@ -70262,7 +70888,11 @@ msgid "Create a new work orders performance"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Criar novo desempenho de ordem de trabalho"
+>>>>>>> upstream/18.0
 =======
 msgstr "Criar novo desempenho de ordem de trabalho"
 >>>>>>> upstream/18.0
@@ -70570,6 +71200,7 @@ msgstr "Criar novo desempenho de ordem de trabalho"
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_bom__days_to_prepare_mo
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -71211,6 +71842,10 @@ msgid ""
 "Create and confirm Manufacturing Orders this many days in advance, to have "
 "enough time to replenish components or manufacture semi-finished products.\n"
 >>>>>>> upstream/18.0
+=======
+"Create and confirm Manufacturing Orders this many days in advance, to have "
+"enough time to replenish components or manufacture semi-finished products.\n"
+>>>>>>> upstream/18.0
 "Note that security lead times will also be considered when appropriate."
 msgstr ""
 
@@ -71318,7 +71953,11 @@ msgid "Create backorder"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Criar pedido em espera"
+>>>>>>> upstream/18.0
 =======
 msgstr "Criar pedido em espera"
 >>>>>>> upstream/18.0
@@ -71727,7 +72366,11 @@ msgid "Create customizable worksheets for your quality checks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Crie planilhas personalizáveis para suas verificações de qualidade"
+>>>>>>> upstream/18.0
 =======
 msgstr "Crie planilhas personalizáveis para suas verificações de qualidade"
 >>>>>>> upstream/18.0
@@ -72142,7 +72785,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -72447,6 +73093,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -72753,7 +73402,11 @@ msgid "Created Production Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ordem de produção criada"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ordem de produção criada"
 >>>>>>> upstream/18.0
@@ -73216,7 +73869,11 @@ msgid "Creates a new serial/lot number"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cria novo número de série/lote"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cria novo número de série/lote"
 >>>>>>> upstream/18.0
@@ -73530,6 +74187,7 @@ msgstr "Moeda"
 #: model:ir.model.fields,help:mrp.field_stock_move__product_qty_available
 msgid ""
 "Current quantity of products.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -74439,6 +75097,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "In a context with a single Stock Location, this includes goods stored at "
 "this Location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods stored in the "
@@ -74584,6 +75244,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -74961,7 +75624,11 @@ msgid "Date Category"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Categoria de data"
+>>>>>>> upstream/18.0
 =======
 msgstr "Categoria de data"
 >>>>>>> upstream/18.0
@@ -75370,7 +76037,11 @@ msgid "Date by Month"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Data por mês"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data por mês"
 >>>>>>> upstream/18.0
@@ -75781,6 +76452,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Data em que você espera terminar a produção ou data real em que terminou a "
+"produção."
+>>>>>>> upstream/18.0
 =======
 "Data em que você espera terminar a produção ou data real em que terminou a "
 "produção."
@@ -76292,6 +76968,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Data em que você planeja iniciar a produção ou data em que realmente iniciou "
+"a produção."
+>>>>>>> upstream/18.0
 =======
 "Data em que você planeja iniciar a produção ou data em que realmente iniciou "
 "a produção."
@@ -76801,7 +77482,11 @@ msgid "Date: Last 365 Days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Data: últimos 365 dias"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data: últimos 365 dias"
 >>>>>>> upstream/18.0
@@ -77219,7 +77904,11 @@ msgid "Days to Supply Components"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dias para fornecer componentes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dias para fornecer componentes"
 >>>>>>> upstream/18.0
@@ -77628,7 +78317,11 @@ msgid "Days to prepare Manufacturing Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dias para preparar a ordem de produção"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dias para preparar a ordem de produção"
 >>>>>>> upstream/18.0
@@ -78047,7 +78740,11 @@ msgid "Default Manufacturing Lead Time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lead time padrão de produção"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lead time padrão de produção"
 >>>>>>> upstream/18.0
@@ -78357,6 +79054,7 @@ msgstr "Lead time padrão de produção"
 msgid ""
 "Default number of pieces (in product UoM) that can be produced in parallel "
 "(at the same time) at this work center. For example: the capacity is 5 and "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78999,6 +79697,10 @@ msgid ""
 "you need to produce 10 units, then the operation time listed on the BOM will "
 "be multiplied by two. However, note that both time before and after "
 >>>>>>> upstream/18.0
+=======
+"you need to produce 10 units, then the operation time listed on the BOM will "
+"be multiplied by two. However, note that both time before and after "
+>>>>>>> upstream/18.0
 "production will only be counted once."
 msgstr ""
 
@@ -79115,6 +79817,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Defina os componentes e produtos acabados que deseja usar em\n"
+"                listas de materiais e ordens de produção."
+>>>>>>> upstream/18.0
 =======
 "Defina os componentes e produtos acabados que deseja usar em\n"
 "                listas de materiais e ordens de produção."
@@ -79654,8 +80361,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Define o horário de trabalho do recurso. Se não for definido, o recurso terá"
 " um horário de trabalho totalmente flexível."
+=======
+"Define o horário de trabalho do recurso. Se não for definido, o recurso terá "
+"um horário de trabalho totalmente flexível."
+>>>>>>> upstream/18.0
 =======
 "Define o horário de trabalho do recurso. Se não for definido, o recurso terá "
 "um horário de trabalho totalmente flexível."
@@ -80300,12 +81012,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Defines if you can consume more or less components than the quantity defined on the BoM:\n"
 "  * Allowed: allowed for all manufacturing users.\n"
 "  * Allowed with warning: allowed for all manufacturing users with summary of consumption differences when closing the manufacturing order.\n"
 "  Note that in the case of component Highlight Consumption, where consumption is registered manually exclusively, consumption warnings will still be issued when appropriate also.\n"
 "  * Blocked: only a manager can close a manufacturing order when the BoM consumption is not respected."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -80697,6 +81412,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -81058,7 +81776,11 @@ msgid "Delay Alert Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Data do alerta de atraso"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data do alerta de atraso"
 >>>>>>> upstream/18.0
@@ -81501,6 +82223,7 @@ msgid "Disassembly Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: mrp
@@ -82169,6 +82892,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "Ordem de desmontagem"
 
 #. module: mrp
@@ -82273,6 +82998,9 @@ msgstr "Ordem de desmontagem"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -82621,7 +83349,11 @@ msgid "Display the serial number shortcut on the moves"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Exibir o atalho do número de série nos movimentos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Exibir o atalho do número de série nos movimentos"
 >>>>>>> upstream/18.0
@@ -83030,7 +83762,11 @@ msgid "Displays the consumed Lot/Serial Numbers."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Exibe os números de lote/série consumidos."
+>>>>>>> upstream/18.0
 =======
 msgstr "Exibe os números de lote/série consumidos."
 >>>>>>> upstream/18.0
@@ -83444,7 +84180,11 @@ msgid "Do you confirm you want to unbuild"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tem certeza de que deseja desmontar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tem certeza de que deseja desmontar"
 >>>>>>> upstream/18.0
@@ -83882,7 +84622,11 @@ msgid "Drawer Black"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gaveteiro preto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gaveteiro preto"
 >>>>>>> upstream/18.0
@@ -84291,7 +85035,11 @@ msgid "Drawer Case Black"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Caixa de gaveta preta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Caixa de gaveta preta"
 >>>>>>> upstream/18.0
@@ -84700,7 +85448,11 @@ msgid "Drawer on casters for great usability."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gaveta com rodízios para maior usabilidade."
+>>>>>>> upstream/18.0
 =======
 msgstr "Gaveta com rodízios para maior usabilidade."
 >>>>>>> upstream/18.0
@@ -85132,7 +85884,11 @@ msgid "Duration Deviation (%)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Desvio de duração (%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Desvio de duração (%)"
 >>>>>>> upstream/18.0
@@ -85551,7 +86307,11 @@ msgid "Effectiveness Category"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Categoria de eficácia"
+>>>>>>> upstream/18.0
 =======
 msgstr "Categoria de eficácia"
 >>>>>>> upstream/18.0
@@ -86077,7 +86837,11 @@ msgid "End"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fim"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fim"
 >>>>>>> upstream/18.0
@@ -86956,7 +87720,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Certifique-se da rastreabilidade de um produto armazenável no seu armazém."
+=======
+"Certifique-se da rastreabilidade de um artigo armazenável no seu armazém."
+>>>>>>> upstream/18.0
 =======
 "Certifique-se da rastreabilidade de um artigo armazenável no seu armazém."
 >>>>>>> upstream/18.0
@@ -87704,7 +88472,11 @@ msgid "Equipment Failure"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Falha no equipamento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Falha no equipamento"
 >>>>>>> upstream/18.0
@@ -88115,7 +88887,11 @@ msgid "Estimated %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Estimado %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Estimado %s"
 >>>>>>> upstream/18.0
@@ -88524,7 +89300,11 @@ msgid "Exception(s) occurred on the manufacturing order(s):"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Exceções ocorreram nas ordens de produção:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Exceções ocorreram nas ordens de produção:"
 >>>>>>> upstream/18.0
@@ -88939,7 +89719,11 @@ msgid "Exp %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prev %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prev %s"
 >>>>>>> upstream/18.0
@@ -89355,7 +90139,11 @@ msgid "Expected %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Esperado %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Esperado %s"
 >>>>>>> upstream/18.0
@@ -89771,7 +90559,11 @@ msgid "Expected Duration (minutes)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Duração esperada (minutos)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Duração esperada (minutos)"
 >>>>>>> upstream/18.0
@@ -90186,7 +90978,11 @@ msgid "Files attached to the product."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Arquivos anexados ao produto."
+>>>>>>> upstream/18.0
 =======
 msgstr "Arquivos anexados ao produto."
 >>>>>>> upstream/18.0
@@ -90611,7 +91407,11 @@ msgid "Finished Lot/Serial Number"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lote/número de série concluído"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lote/número de série concluído"
 >>>>>>> upstream/18.0
@@ -91020,7 +91820,11 @@ msgid "Finished Moves"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Movimentações concluídas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Movimentações concluídas"
 >>>>>>> upstream/18.0
@@ -91429,7 +92233,11 @@ msgid "Finished Product"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produto acabado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Produto acabado"
 >>>>>>> upstream/18.0
@@ -91843,7 +92651,11 @@ msgid "Finished Product Label (ZPL)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Etiqueta de produto acabado (ZPL)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etiqueta de produto acabado (ZPL)"
 >>>>>>> upstream/18.0
@@ -92151,6 +92963,7 @@ msgstr "Etiqueta de produto acabado (ZPL)"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__move_finished_ids
 msgid "Finished Products"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -93008,6 +93821,9 @@ msgstr "Artigos Acabados"
 =======
 msgstr "Artigos Acabados"
 >>>>>>> upstream/18.0
+=======
+msgstr "Artigos Acabados"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__location_dest_id
@@ -93123,7 +93939,11 @@ msgid "Flexible Consumption"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Consumo flexível"
+>>>>>>> upstream/18.0
 =======
 msgstr "Consumo flexível"
 >>>>>>> upstream/18.0
@@ -93609,6 +94429,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods stored in this location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
 "Otherwise, this includes goods stored in any Stock Location with 'internal' type."
@@ -93618,6 +94439,8 @@ msgstr ""
 "No contexto de um único armazém, inclui mercadorias guardadas na localização de stock deste armazém, ou em localizações descendentes.\n"
 "Caso contrário, inclui mercadorias guardadas na localização de stock com o tipo \"interno\"."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -94013,6 +94836,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -94384,7 +95210,11 @@ msgid "Free to Use"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Livre para usar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Livre para usar"
 >>>>>>> upstream/18.0
@@ -94795,7 +95625,11 @@ msgid "Free to Use / On Hand"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Livre para uso/em mãos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Livre para uso/em mãos"
 >>>>>>> upstream/18.0
@@ -95206,7 +96040,11 @@ msgid "Free to use / On Hand"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Livre para uso/em mãos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Livre para uso/em mãos"
 >>>>>>> upstream/18.0
@@ -95620,7 +96458,11 @@ msgid "Fully Productive"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Totalmente produtivo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Totalmente produtivo"
 >>>>>>> upstream/18.0
@@ -96029,7 +96871,11 @@ msgid "Fully Productive Time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tempo totalmente produtivo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tempo totalmente produtivo"
 >>>>>>> upstream/18.0
@@ -96454,7 +97300,11 @@ msgid "Generate Serial Numbers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gerar números de série"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gerar números de série"
 >>>>>>> upstream/18.0
@@ -96874,6 +97724,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Obtenha estatísticas sobre a duração das ordens de trabalho relacionadas a "
+"este roteamento."
+>>>>>>> upstream/18.0
 =======
 "Obtenha estatísticas sobre a duração das ordens de trabalho relacionadas a "
 "este roteamento."
@@ -97391,6 +98246,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Fornece a ordem de sequência ao exibir uma lista de centros de trabalho."
+>>>>>>> upstream/18.0
 =======
 "Fornece a ordem de sequência ao exibir uma lista de centros de trabalho."
 >>>>>>> upstream/18.0
@@ -97834,7 +98693,11 @@ msgid "Hardware"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hardware"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hardware"
 >>>>>>> upstream/18.0
@@ -98243,7 +99106,11 @@ msgid "Has Been Produced"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Foi produzido"
+>>>>>>> upstream/18.0
 =======
 msgstr "Foi produzido"
 >>>>>>> upstream/18.0
@@ -98652,7 +99519,11 @@ msgid "Has Kits"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tem kits"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tem kits"
 >>>>>>> upstream/18.0
@@ -99070,6 +99941,7 @@ msgid "Has Routing Lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: mrp
@@ -99329,6 +100201,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "Tem linhas de roteamento"
+
+#. module: mrp
 >>>>>>> upstream/18.0
 =======
 msgstr "Tem linhas de roteamento"
@@ -100026,6 +100903,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -100512,7 +101392,11 @@ msgid "Hourly processing cost."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Custo de processamento por hora."
+>>>>>>> upstream/18.0
 =======
 msgstr "Custo de processamento por hora."
 >>>>>>> upstream/18.0
@@ -100870,6 +101754,7 @@ msgstr "Ícone para indicar uma exceção na atividade."
 msgid ""
 "If a product variant is defined the BOM is available only for this product."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -101942,6 +102827,10 @@ msgstr ""
 "Se uma variante do artigo é definido o BOM está disponível apenas para este "
 "artigo."
 >>>>>>> upstream/18.0
+=======
+"Se uma variante do artigo é definido o BOM está disponível apenas para este "
+"artigo."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_bom__message_needaction
@@ -102101,8 +102990,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Se estiver marcado, quando o movimento anterior do movimento (que foi gerado"
 " por uma próxima aquisição) é cancelado ou dividido, o movimento gerado por "
+=======
+"Se estiver marcado, quando o movimento anterior do movimento (que foi gerado "
+"por uma próxima aquisição) é cancelado ou dividido, o movimento gerado por "
+>>>>>>> upstream/18.0
 =======
 "Se estiver marcado, quando o movimento anterior do movimento (que foi gerado "
 "por uma próxima aquisição) é cancelado ou dividido, o movimento gerado por "
@@ -102778,8 +103672,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If this checkbox is ticked, Odoo will automatically print the product labels"
 " of a MO when it is done."
+=======
+"If this checkbox is ticked, Odoo will automatically print the product labels "
+"of a MO when it is done."
+>>>>>>> upstream/18.0
 =======
 "If this checkbox is ticked, Odoo will automatically print the product labels "
 "of a MO when it is done."
@@ -103405,7 +104304,11 @@ msgid "Impacted Transfer(s):"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transferências impactadas:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transferências impactadas:"
 >>>>>>> upstream/18.0
@@ -103815,7 +104718,11 @@ msgid "Import Template for Bills of Materials"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Importar modelo para listas de materiais"
+>>>>>>> upstream/18.0
 =======
 msgstr "Importar modelo para listas de materiais"
 >>>>>>> upstream/18.0
@@ -104252,6 +105159,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Impossible to plan the workorder. Please check the workcenter "
 "availabilities."
 =======
@@ -104337,6 +105245,8 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -104641,6 +105551,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -104966,7 +105879,11 @@ msgid "In Transit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Em trânsito"
+>>>>>>> upstream/18.0
 =======
 msgstr "Em trânsito"
 >>>>>>> upstream/18.0
@@ -105388,6 +106305,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Data informativa que permite definir a data máxima em que a ordem de "
+"produção deve ser processada para cumprir o prazo de entrega."
+>>>>>>> upstream/18.0
 =======
 "Data informativa que permite definir a data máxima em que a ordem de "
 "produção deve ser processada para cumprir o prazo de entrega."
@@ -105928,6 +106850,7 @@ msgstr "Movimentos de Inventário"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Inventory moves for which you must scan a lot number at this work order"
 =======
@@ -106013,6 +106936,8 @@ msgid "Inventory moves for which you must scan a lot number at this work order"
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -106317,6 +107242,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -106639,7 +107567,11 @@ msgid "Is Kits"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "É kits"
+>>>>>>> upstream/18.0
 =======
 msgstr "É kits"
 >>>>>>> upstream/18.0
@@ -107053,7 +107985,11 @@ msgid "Is a Blocking Reason"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "É um motivo de bloqueio"
+>>>>>>> upstream/18.0
 =======
 msgstr "É um motivo de bloqueio"
 >>>>>>> upstream/18.0
@@ -107462,7 +108398,11 @@ msgid "Is the Current User Working"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O usuário atual está trabalhando"
+>>>>>>> upstream/18.0
 =======
 msgstr "O usuário atual está trabalhando"
 >>>>>>> upstream/18.0
@@ -107872,7 +108812,11 @@ msgid "It has already been unblocked."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Já foi desbloqueado."
+>>>>>>> upstream/18.0
 =======
 msgstr "Já foi desbloqueado."
 >>>>>>> upstream/18.0
@@ -108285,6 +109229,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Não é possível cancelar o planejamento de uma única ordem de trabalho. Em "
+"vez disso, você deve cancelar o planejamento da ordem de produção para "
+"cancelar o planejamento de todas as operações vinculadas."
+>>>>>>> upstream/18.0
 =======
 "Não é possível cancelar o planejamento de uma única ordem de trabalho. Em "
 "vez disso, você deve cancelar o planejamento da ordem de produção para "
@@ -108896,7 +109846,11 @@ msgid "Its Operations are Planned"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "As operações estão planejadas"
+>>>>>>> upstream/18.0
 =======
 msgstr "As operações estão planejadas"
 >>>>>>> upstream/18.0
@@ -109305,7 +110259,11 @@ msgid "JSON data for the popover widget"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dados JSON para o widget de popover"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dados JSON para o widget de popover"
 >>>>>>> upstream/18.0
@@ -109714,7 +110672,11 @@ msgid "John Doe"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "João Silva"
+>>>>>>> upstream/18.0
 =======
 msgstr "João Silva"
 >>>>>>> upstream/18.0
@@ -110132,7 +111094,11 @@ msgid "Kit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kit"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kit"
 >>>>>>> upstream/18.0
@@ -110541,7 +111507,11 @@ msgid "Laptop"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Notebook"
+>>>>>>> upstream/18.0
 =======
 msgstr "Notebook"
 >>>>>>> upstream/18.0
@@ -111019,7 +111989,11 @@ msgid "Last user that worked on this work order."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Último usuário que trabalhou nessa ordem de trabalho."
+>>>>>>> upstream/18.0
 =======
 msgstr "Último usuário que trabalhou nessa ordem de trabalho."
 >>>>>>> upstream/18.0
@@ -111443,7 +112417,11 @@ msgid "Late Availability"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Disponibilidade tardia"
+>>>>>>> upstream/18.0
 =======
 msgstr "Disponibilidade tardia"
 >>>>>>> upstream/18.0
@@ -111852,7 +112830,11 @@ msgid "Late MO or Late delivery of components"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "OP atrasada ou entrega atrasada de componentes"
+>>>>>>> upstream/18.0
 =======
 msgstr "OP atrasada ou entrega atrasada de componentes"
 >>>>>>> upstream/18.0
@@ -112264,6 +113246,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Status mais recente de disponibilidade do componente para essa OP. Se "
+"estiver verde, o status de prontidão da OP é pronto, de acordo com a "
+"configuração da LM."
+>>>>>>> upstream/18.0
 =======
 "Status mais recente de disponibilidade do componente para essa OP. Se "
 "estiver verde, o status de prontidão da OP é pronto, de acordo com a "
@@ -112874,7 +113862,11 @@ msgid "Layers that are stick together to assemble wood panels."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Camadas se juntam para montar painéis de madeira."
+>>>>>>> upstream/18.0
 =======
 msgstr "Camadas se juntam para montar painéis de madeira."
 >>>>>>> upstream/18.0
@@ -113291,7 +114283,11 @@ msgid "Lead Times"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prazos de entrega"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prazos de entrega"
 >>>>>>> upstream/18.0
@@ -113605,6 +114601,7 @@ msgstr "Sair"
 #: model:ir.model.fields,help:mrp.field_product_document__attached_on_mrp
 msgid ""
 "Leave hidden if document only accessible on product form.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -114246,6 +115243,10 @@ msgid ""
 "Select Bill of Materials to visualise this document as a product attachment "
 "when this product is in a bill of material."
 >>>>>>> upstream/18.0
+=======
+"Select Bill of Materials to visualise this document as a product attachment "
+"when this product is in a bill of material."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mrp
@@ -114352,7 +115353,11 @@ msgid "Line of issue consumption"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Linha de problema de consumo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Linha de problema de consumo"
 >>>>>>> upstream/18.0
@@ -114766,7 +115771,11 @@ msgid "Location where the product you want to unbuild is."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Local onde está o produto que você deseja desmontar."
+>>>>>>> upstream/18.0
 =======
 msgstr "Local onde está o produto que você deseja desmontar."
 >>>>>>> upstream/18.0
@@ -115188,6 +116197,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Local para onde você deseja enviar os componentes resultantes da ordem de "
+"desmontagem."
+>>>>>>> upstream/18.0
 =======
 "Local para onde você deseja enviar os componentes resultantes da ordem de "
 "desmontagem."
@@ -115697,7 +116711,11 @@ msgid "Lock/Unlock"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Travar/destravar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Travar/destravar"
 >>>>>>> upstream/18.0
@@ -116107,7 +117125,11 @@ msgid "Loss Reason"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Motivo da perda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Motivo da perda"
 >>>>>>> upstream/18.0
@@ -116542,7 +117564,11 @@ msgid "Lot/SN Labels"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Etiquetas de número de lote/série"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etiquetas de número de lote/série"
 >>>>>>> upstream/18.0
@@ -116964,7 +117990,11 @@ msgid "Lot/Serial Numbers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Números de série/lote"
+>>>>>>> upstream/18.0
 =======
 msgstr "Números de série/lote"
 >>>>>>> upstream/18.0
@@ -117378,7 +118408,11 @@ msgid "MO Backorder"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pedido em espera da OP"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pedido em espera da OP"
 >>>>>>> upstream/18.0
@@ -117801,7 +118835,11 @@ msgid "MO Cost"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Custo de OP"
+>>>>>>> upstream/18.0
 =======
 msgstr "Custo de OP"
 >>>>>>> upstream/18.0
@@ -118211,7 +119249,11 @@ msgid "MO Costs"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Custos de OP"
+>>>>>>> upstream/18.0
 =======
 msgstr "Custos de OP"
 >>>>>>> upstream/18.0
@@ -118627,7 +119669,11 @@ msgid "MO Generated by %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "OP gerada por %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "OP gerada por %s"
 >>>>>>> upstream/18.0
@@ -119037,7 +120083,11 @@ msgid "MO Overview"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Visão geral da OP"
+>>>>>>> upstream/18.0
 =======
 msgstr "Visão geral da OP"
 >>>>>>> upstream/18.0
@@ -119446,7 +120496,11 @@ msgid "MO Overview Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Relatório geral de OP"
+>>>>>>> upstream/18.0
 =======
 msgstr "Relatório geral de OP"
 >>>>>>> upstream/18.0
@@ -119855,7 +120909,11 @@ msgid "MO Pending"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "OP pendentes"
+>>>>>>> upstream/18.0
 =======
 msgstr "OP pendentes"
 >>>>>>> upstream/18.0
@@ -120270,7 +121328,11 @@ msgid "MO Readiness"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prontidão de OP"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prontidão de OP"
 >>>>>>> upstream/18.0
@@ -120679,7 +121741,11 @@ msgid "MO Ready"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "OP pronta"
+>>>>>>> upstream/18.0
 =======
 msgstr "OP pronta"
 >>>>>>> upstream/18.0
@@ -121099,7 +122165,11 @@ msgid "MRP Reception Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Relatório de recepção de fabricação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Relatório de recepção de fabricação"
 >>>>>>> upstream/18.0
@@ -121508,7 +122578,11 @@ msgid "MRP Work Orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ordens de trabalho de fabricação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ordens de trabalho de fabricação"
 >>>>>>> upstream/18.0
@@ -121917,7 +122991,11 @@ msgid "MRP Workorder productivity losses"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fabricação - Perdas de produtividade em ordens de trabalho"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fabricação - Perdas de produtividade em ordens de trabalho"
 >>>>>>> upstream/18.0
@@ -122331,7 +123409,11 @@ msgid "Manage Work Order Operations"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gerenciar operações de ordem de trabalho"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gerenciar operações de ordem de trabalho"
 >>>>>>> upstream/18.0
@@ -122740,7 +123822,11 @@ msgid "Manual Consumption"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Consumo manual"
+>>>>>>> upstream/18.0
 =======
 msgstr "Consumo manual"
 >>>>>>> upstream/18.0
@@ -123154,7 +124240,11 @@ msgid "Manuf. Lead Time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prazo de entrega da fabricação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prazo de entrega da fabricação"
 >>>>>>> upstream/18.0
@@ -123577,7 +124667,11 @@ msgid "Manufacture (1 step)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fabricação (1 passo)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fabricação (1 passo)"
 >>>>>>> upstream/18.0
@@ -123986,7 +125080,11 @@ msgid "Manufacture MTO Rule"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Regra de PSE (produção sob encomenda) da fabricação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Regra de PSE (produção sob encomenda) da fabricação"
 >>>>>>> upstream/18.0
@@ -124401,7 +125499,11 @@ msgid "Manufacture Security Lead Time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tempo de margem de segurança da fabricação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tempo de margem de segurança da fabricação"
 >>>>>>> upstream/18.0
@@ -124709,6 +125811,7 @@ msgstr "Tempo de margem de segurança da fabricação"
 #. module: mrp
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_bom__type__normal
 msgid "Manufacture this product"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -125566,6 +126669,9 @@ msgstr "Fabricar este artigo"
 =======
 msgstr "Fabricar este artigo"
 >>>>>>> upstream/18.0
+=======
+msgstr "Fabricar este artigo"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_warehouse__manufacture_to_resupply
@@ -125671,7 +126777,11 @@ msgid "Manufacture to Resupply"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fabricação para reposição"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fabricação para reposição"
 >>>>>>> upstream/18.0
@@ -126081,7 +127191,11 @@ msgid "Manufactured"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fabricado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fabricado"
 >>>>>>> upstream/18.0
@@ -126491,7 +127605,11 @@ msgid "Manufactured Products"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produtos fabricados"
+>>>>>>> upstream/18.0
 =======
 msgstr "Produtos fabricados"
 >>>>>>> upstream/18.0
@@ -126901,7 +128019,11 @@ msgid "Manufactured in the last 365 days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fabricados nos últimos 365 dias"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fabricados nos últimos 365 dias"
 >>>>>>> upstream/18.0
@@ -127323,7 +128445,11 @@ msgid "Manufacturing Forecast"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Previsão de fabricação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Previsão de fabricação"
 >>>>>>> upstream/18.0
@@ -127741,7 +128867,11 @@ msgid "Manufacturing Operation Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tipo de operação de fabricação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tipo de operação de fabricação"
 >>>>>>> upstream/18.0
@@ -128189,7 +129319,11 @@ msgid "Manufacturing Readiness"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prontidão para fabricação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prontidão para fabricação"
 >>>>>>> upstream/18.0
@@ -128603,7 +129737,11 @@ msgid "Manufacturing Visibility Days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dias de visibilidade de fabricação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dias de visibilidade de fabricação"
 >>>>>>> upstream/18.0
@@ -129039,9 +130177,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Manufacturing operations are processed at Work Centers. A Work Center can be composed of\n"
 "                workers and/or machines, they are used for costing, scheduling, capacity planning, etc."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -129427,6 +130568,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -129482,6 +130624,8 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -129787,6 +130931,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -129992,6 +131139,7 @@ msgstr ""
 #. module: mrp
 #: model_terms:ir.actions.act_window,help:mrp.mrp_workcenter_kanban_action
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -130377,10 +131525,13 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Manufacturing operations are processed at Work Centers. A Work Center can be "
 "composed of\n"
 "                workers and/or machines, they are used for costing, "
 "scheduling, capacity planning, etc.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -130564,6 +131715,8 @@ msgid ""
 "                They can be defined via the configuration menu."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -130871,6 +132024,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -131079,6 +132235,7 @@ msgstr ""
 msgid ""
 "Manufacturing readiness for this MO, as per bill of material configuration:\n"
 "            * Ready: The material is available to start the production.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -131518,6 +132675,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "            * Waiting: The material is not available to start the "
 "production.\n"
 msgstr ""
@@ -131625,6 +132784,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -131933,7 +133095,11 @@ msgid "Manufacturings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fabricações"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fabricações"
 >>>>>>> upstream/18.0
@@ -132352,7 +133518,11 @@ msgid "Mass Produce"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produzir em massa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Produzir em massa"
 >>>>>>> upstream/18.0
@@ -132767,7 +133937,11 @@ msgid "Material Availability"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Disponibilidade de material"
+>>>>>>> upstream/18.0
 =======
 msgstr "Disponibilidade de material"
 >>>>>>> upstream/18.0
@@ -133220,7 +134394,11 @@ msgid "Move Byproduct"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mover subproduto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mover subproduto"
 >>>>>>> upstream/18.0
@@ -133629,7 +134807,11 @@ msgid "Moves to Track"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Movimentações a rastrear"
+>>>>>>> upstream/18.0
 =======
 msgstr "Movimentações a rastrear"
 >>>>>>> upstream/18.0
@@ -134038,7 +135220,11 @@ msgid "Mrp Consumption Warning Line"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fabricação - Linha de aviso de consumo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fabricação - Linha de aviso de consumo"
 >>>>>>> upstream/18.0
@@ -134454,7 +135640,11 @@ msgid "Mrp Production"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fabricação - Produção"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fabricação - Produção"
 >>>>>>> upstream/18.0
@@ -134863,7 +136053,11 @@ msgid "Mrp Production Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fabricação - Contagem de produções"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fabricação - Contagem de produções"
 >>>>>>> upstream/18.0
@@ -135366,7 +136560,10 @@ msgstr "Nenhuma Transferência Diferida"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -135754,6 +136951,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -135810,6 +137008,11 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:mrp.mrp_bom_form_action
 msgid "No bill of materials found. Let's create one!"
 msgstr ""
+=======
+#: model_terms:ir.actions.act_window,help:mrp.mrp_bom_form_action
+msgid "No bill of materials found. Let's create one!"
+msgstr "Nenhuma lista de materiais encontrada. Vamos criar a primeira!"
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.actions.act_window,help:mrp.mrp_bom_form_action
 msgid "No bill of materials found. Let's create one!"
@@ -136422,7 +137625,11 @@ msgid "No data available."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nenhuma informação encontrada."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nenhuma informação encontrada."
 >>>>>>> upstream/18.0
@@ -136837,7 +138044,11 @@ msgid "No manufacturing order found. Let's create one."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nenhuma ordem de produção encontrada. Vamos criar a primeira."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nenhuma ordem de produção encontrada. Vamos criar a primeira."
 >>>>>>> upstream/18.0
@@ -137145,6 +138356,7 @@ msgstr "Nenhuma ordem de produção encontrada. Vamos criar a primeira."
 #. module: mrp
 #: model_terms:ir.actions.act_window,help:mrp.product_template_action
 msgid "No product found. Let's create one!"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -138002,6 +139214,9 @@ msgstr "Nenhum artigo encontrado. Vamos criar o primeiro!"
 =======
 msgstr "Nenhum artigo encontrado. Vamos criar o primeiro!"
 >>>>>>> upstream/18.0
+=======
+msgstr "Nenhum artigo encontrado. Vamos criar o primeiro!"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.actions.act_window,help:mrp.mrp_workcenter_productivity_report_blocked
@@ -138107,7 +139322,11 @@ msgid "No productivity loss for this equipment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nenhuma perda de produtividade para este equipamento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nenhuma perda de produtividade para este equipamento"
 >>>>>>> upstream/18.0
@@ -138516,7 +139735,11 @@ msgid "No unbuild order found"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nenhuma ordem de desmontagem encontrada"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nenhuma ordem de desmontagem encontrada"
 >>>>>>> upstream/18.0
@@ -138929,7 +140152,11 @@ msgid "No work orders to do!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nenhuma ordem de trabalho a fazer."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nenhuma ordem de trabalho a fazer."
 >>>>>>> upstream/18.0
@@ -139340,6 +140567,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nenhuma ordem de trabalho em progresso. Clique para marcar o centro de "
+"trabalho como bloqueado."
+>>>>>>> upstream/18.0
 =======
 "Nenhuma ordem de trabalho em progresso. Clique para marcar o centro de "
 "trabalho como bloqueado."
@@ -139859,7 +141091,11 @@ msgid "Not Available"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não disponível"
+>>>>>>> upstream/18.0
 =======
 msgstr "Não disponível"
 >>>>>>> upstream/18.0
@@ -140284,7 +141520,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -140589,6 +141828,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -140899,6 +142141,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Observe que os produtos, '%s', ainda estão vinculados à lista de materiais "
+"ativa, o que significa que o produto ainda pode ser usado nelas."
+>>>>>>> upstream/18.0
 =======
 "Observe que os produtos, '%s', ainda estão vinculados à lista de materiais "
 "ativa, o que significa que o produto ainda pode ser usado nelas."
@@ -141422,7 +142669,11 @@ msgid "Number of Manufacturing Orders Late"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Número de ordens de produção atrasadas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Número de ordens de produção atrasadas"
 >>>>>>> upstream/18.0
@@ -141836,7 +143087,11 @@ msgid "Number of Manufacturing Orders Waiting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Número de ordens de produção aguardando"
+>>>>>>> upstream/18.0
 =======
 msgstr "Número de ordens de produção aguardando"
 >>>>>>> upstream/18.0
@@ -142245,7 +143500,11 @@ msgid "Number of Manufacturing Orders to Process"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Número de ordens de produção a processar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Número de ordens de produção a processar"
 >>>>>>> upstream/18.0
@@ -142654,7 +143913,11 @@ msgid "Number of SN"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Número de série"
+>>>>>>> upstream/18.0
 =======
 msgstr "Número de série"
 >>>>>>> upstream/18.0
@@ -143063,7 +144326,11 @@ msgid "Number of Unbuilds"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Número de desmontagens"
+>>>>>>> upstream/18.0
 =======
 msgstr "Número de desmontagens"
 >>>>>>> upstream/18.0
@@ -143481,7 +144748,11 @@ msgid "Number of generated MO"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Número de OPs geradas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Número de OPs geradas"
 >>>>>>> upstream/18.0
@@ -143913,7 +145184,11 @@ msgid "Number of source MO"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Número da OP de origem"
+>>>>>>> upstream/18.0
 =======
 msgstr "Número da OP de origem"
 >>>>>>> upstream/18.0
@@ -144322,7 +145597,11 @@ msgid "OEE"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "OEE"
+>>>>>>> upstream/18.0
 =======
 msgstr "OEE"
 >>>>>>> upstream/18.0
@@ -144731,7 +146010,11 @@ msgid "OEE Target"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Meta de EGE"
+>>>>>>> upstream/18.0
 =======
 msgstr "Meta de EGE"
 >>>>>>> upstream/18.0
@@ -145168,9 +146451,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                install the IoT App on a computer that is on the same local network as the\n"
 "                                barcode operator and configure the routing of the reports."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -145556,6 +146842,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -145917,7 +147206,11 @@ msgid "Oee"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "EGE (eficácia geral do equipamento)"
+>>>>>>> upstream/18.0
 =======
 msgstr "EGE (eficácia geral do equipamento)"
 >>>>>>> upstream/18.0
@@ -146334,6 +147627,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Somente ordens de produção em estado de rascunho ou confirmado podem ser %s."
+>>>>>>> upstream/18.0
 =======
 "Somente ordens de produção em estado de rascunho ou confirmado podem ser %s."
 >>>>>>> upstream/18.0
@@ -146743,7 +148040,11 @@ msgid "Only manufacturing orders with a Bill of Materials can be %s."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Somente ordens de produção com uma lista de materiais podem ser %s."
+>>>>>>> upstream/18.0
 =======
 msgstr "Somente ordens de produção com uma lista de materiais podem ser %s."
 >>>>>>> upstream/18.0
@@ -147172,7 +148473,11 @@ msgid "Operation Dependencies"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dependências de operação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dependências de operação"
 >>>>>>> upstream/18.0
@@ -147620,6 +148925,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                Each operation is done at a specific Work Center and has a specific duration."
 =======
 "                Each operation is done at a specific Work Center and has a "
@@ -147931,6 +149237,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                Each operation is done at a specific Work Center and has a "
 "specific duration."
 msgstr ""
@@ -148038,6 +149346,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -148377,7 +149688,11 @@ msgid "Operations Done"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Operações concluídas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Operações concluídas"
 >>>>>>> upstream/18.0
@@ -148786,7 +150101,11 @@ msgid "Operations Planned"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Operações planejadas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Operações planejadas"
 >>>>>>> upstream/18.0
@@ -149195,7 +150514,11 @@ msgid "Operations Search Filters"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Filtros de busca de operações"
+>>>>>>> upstream/18.0
 =======
 msgstr "Filtros de busca de operações"
 >>>>>>> upstream/18.0
@@ -149605,6 +150928,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Operações que não podem ser iniciadas antes que essa operação seja concluída."
+>>>>>>> upstream/18.0
 =======
 "Operações que não podem ser iniciadas antes que essa operação seja concluída."
 >>>>>>> upstream/18.0
@@ -150014,6 +151341,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Operações que precisam ser concluídas antes que essa operação possa ser "
+"iniciada."
+>>>>>>> upstream/18.0
 =======
 "Operações que precisam ser concluídas antes que essa operação possa ser "
 "iniciada."
@@ -150543,7 +151875,11 @@ msgid "Overall Effective Efficiency Target in percentage"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Meta de eficácia geral do equipamento em porcentagem"
+>>>>>>> upstream/18.0
 =======
 msgstr "Meta de eficácia geral do equipamento em porcentagem"
 >>>>>>> upstream/18.0
@@ -150954,7 +152290,11 @@ msgid "Overall Equipment Effectiveness"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Eficácia Geral do Equipamento (EGE)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Eficácia Geral do Equipamento (EGE)"
 >>>>>>> upstream/18.0
@@ -151363,7 +152703,11 @@ msgid "Overall Equipment Effectiveness, based on the last month"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Eficácia Geral do Equipamento, com base no último mês"
+>>>>>>> upstream/18.0
 =======
 msgstr "Eficácia Geral do Equipamento, com base no último mês"
 >>>>>>> upstream/18.0
@@ -151773,7 +153117,11 @@ msgid "Overall Equipment Effectiveness: no working or blocked time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Eficácia Geral do Equipamento: tempo ocioso ou bloqueado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Eficácia Geral do Equipamento: tempo ocioso ou bloqueado"
 >>>>>>> upstream/18.0
@@ -152201,7 +153549,11 @@ msgid "Parent Product Template"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Modelo principal do produto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Modelo principal do produto"
 >>>>>>> upstream/18.0
@@ -152610,7 +153962,11 @@ msgid "Parent Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Assistente principal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Assistente principal"
 >>>>>>> upstream/18.0
@@ -153046,7 +154402,11 @@ msgid "Performance Losses"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Perdas de desempenho"
+>>>>>>> upstream/18.0
 =======
 msgstr "Perdas de desempenho"
 >>>>>>> upstream/18.0
@@ -153455,7 +154815,11 @@ msgid "Performance over the last month"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Desempenho no último mês"
+>>>>>>> upstream/18.0
 =======
 msgstr "Desempenho no último mês"
 >>>>>>> upstream/18.0
@@ -153865,7 +155229,11 @@ msgid "Pick Components"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Selecionar componentes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Selecionar componentes"
 >>>>>>> upstream/18.0
@@ -154275,7 +155643,11 @@ msgid "Pick components and then manufacture"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Selecionar componentes e fabricar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Selecionar componentes e fabricar"
 >>>>>>> upstream/18.0
@@ -154690,7 +156062,11 @@ msgid "Pick components, manufacture and then store products (3 steps)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Selecionar componentes, fabricar e armazenar os produtos (3 passos)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Selecionar componentes, fabricar e armazenar os produtos (3 passos)"
 >>>>>>> upstream/18.0
@@ -155104,7 +156480,11 @@ msgid "Picking Before Manufacturing MTO Rule"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Regra de PSE para separação antes da fabricação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Regra de PSE para separação antes da fabricação"
 >>>>>>> upstream/18.0
@@ -155513,7 +156893,11 @@ msgid "Picking Before Manufacturing Operation Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tipo de operação para separação antes da fabricação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tipo de operação para separação antes da fabricação"
 >>>>>>> upstream/18.0
@@ -155922,7 +157306,11 @@ msgid "Picking Before Manufacturing Route"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rota para separação antes da fabricação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rota para separação antes da fabricação"
 >>>>>>> upstream/18.0
@@ -156336,7 +157724,11 @@ msgid "Picking associated to this manufacturing order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Separação associada a esta ordem de produção"
+>>>>>>> upstream/18.0
 =======
 msgstr "Separação associada a esta ordem de produção"
 >>>>>>> upstream/18.0
@@ -156745,7 +158137,11 @@ msgid "Picking before Manufacturing Location"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Local da separação antes da fabricação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Local da separação antes da fabricação"
 >>>>>>> upstream/18.0
@@ -157165,7 +158561,11 @@ msgid "Plan Orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Planejar ordens"
+>>>>>>> upstream/18.0
 =======
 msgstr "Planejar ordens"
 >>>>>>> upstream/18.0
@@ -157579,7 +158979,11 @@ msgid "Plan manufacturing or purchase orders based on forecasts"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Planejar ordens de produção ou compra com base em previsões"
+>>>>>>> upstream/18.0
 =======
 msgstr "Planejar ordens de produção ou compra com base em previsões"
 >>>>>>> upstream/18.0
@@ -157989,7 +159393,11 @@ msgid "Planned"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Planeado "
+=======
+msgstr "Planeado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Planeado"
 >>>>>>> upstream/18.0
@@ -158399,7 +159807,11 @@ msgid "Planned at the same time as other workorder(s) at %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Planejado ao mesmo tempo que outras ordens de trabalho em %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Planejado ao mesmo tempo que outras ordens de trabalho em %s"
 >>>>>>> upstream/18.0
@@ -158814,7 +160226,11 @@ msgid "Plastic Laminate"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Plástico laminado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Plástico laminado"
 >>>>>>> upstream/18.0
@@ -159259,7 +160675,11 @@ msgid "Ply Layer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Folha de compensado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Folha de compensado"
 >>>>>>> upstream/18.0
@@ -159668,7 +161088,11 @@ msgid "Ply Veneer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Verniz para compensado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Verniz para compensado"
 >>>>>>> upstream/18.0
@@ -160077,7 +161501,11 @@ msgid "Popover Data JSON"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "JSON de dados do popover"
+>>>>>>> upstream/18.0
 =======
 msgstr "JSON de dados do popover"
 >>>>>>> upstream/18.0
@@ -160489,7 +161917,11 @@ msgid "Possible Product Template Attribute Value"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Possível valor de atributo do modelo de produto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Possível valor de atributo do modelo de produto"
 >>>>>>> upstream/18.0
@@ -160899,7 +162331,11 @@ msgid "Post-Production"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pós-produção"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pós-produção"
 >>>>>>> upstream/18.0
@@ -161309,7 +162745,11 @@ msgid "Pre-Production"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pré-produção"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pré-produção"
 >>>>>>> upstream/18.0
@@ -161767,7 +163207,11 @@ msgid "Process Defect"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Defeito no processo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Defeito no processo"
 >>>>>>> upstream/18.0
@@ -162181,7 +163625,11 @@ msgid "Process operations at specific work centers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Processar operações em centros de trabalho específicos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Processar operações em centros de trabalho específicos"
 >>>>>>> upstream/18.0
@@ -162590,7 +164038,11 @@ msgid "Processed Disassembly Lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Linhas de desmontagens processadas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Linhas de desmontagens processadas"
 >>>>>>> upstream/18.0
@@ -163012,7 +164464,11 @@ msgid "Produce"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produzir"
+>>>>>>> upstream/18.0
 =======
 msgstr "Produzir"
 >>>>>>> upstream/18.0
@@ -163421,7 +164877,11 @@ msgid "Produce All"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produzir tudo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Produzir tudo"
 >>>>>>> upstream/18.0
@@ -163835,7 +165295,11 @@ msgid "Produce residual products"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produzir produtos residuais"
+>>>>>>> upstream/18.0
 =======
 msgstr "Produzir produtos residuais"
 >>>>>>> upstream/18.0
@@ -164244,7 +165708,11 @@ msgid "Produce residual products (A + B -> C + D)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produzir produtos residuais (A + B -> C + D)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Produzir produtos residuais (A + B -> C + D)"
 >>>>>>> upstream/18.0
@@ -164654,7 +166122,11 @@ msgid "Produced"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A quantidade produzida"
+>>>>>>> upstream/18.0
 =======
 msgstr "A quantidade produzida"
 >>>>>>> upstream/18.0
@@ -165063,7 +166535,11 @@ msgid "Produced in Operation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produzido na operação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Produzido na operação"
 >>>>>>> upstream/18.0
@@ -165495,7 +166971,11 @@ msgid "Product Attachments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Anexos do produto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Anexos do produto"
 >>>>>>> upstream/18.0
@@ -165904,7 +167384,11 @@ msgid "Product Capacities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Capacidades do produto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Capacidades do produto"
 >>>>>>> upstream/18.0
@@ -166335,7 +167819,11 @@ msgid "Product Forecasted Quantity"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Quantidade prevista do produto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Quantidade prevista do produto"
 >>>>>>> upstream/18.0
@@ -166749,7 +168237,11 @@ msgid "Product Labels"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Etiquetas de produtos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etiquetas de produtos"
 >>>>>>> upstream/18.0
@@ -167158,7 +168650,11 @@ msgid "Product Lifecycle Management (PLM)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PLM – Ciclo de Vida do Produto"
+>>>>>>> upstream/18.0
 =======
 msgstr "PLM – Ciclo de Vida do Produto"
 >>>>>>> upstream/18.0
@@ -167572,7 +169068,11 @@ msgid "Product On Hand Quantity"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Quantidade de produtos em mãos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Quantidade de produtos em mãos"
 >>>>>>> upstream/18.0
@@ -167885,6 +169385,7 @@ msgstr "Quantidade do Artigo"
 #. module: mrp
 #: model:ir.model,name:mrp.model_product_replenish
 msgid "Product Replenish"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -168742,6 +170243,9 @@ msgstr "Reabastecimento de Artigos"
 =======
 msgstr "Reabastecimento de Artigos"
 >>>>>>> upstream/18.0
+=======
+msgstr "Reabastecimento de Artigos"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_stock_replenish_mixin
@@ -168847,7 +170351,11 @@ msgid "Product Replenish Mixin"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mixin de reposição de produtos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mixin de reposição de produtos"
 >>>>>>> upstream/18.0
@@ -169292,7 +170800,11 @@ msgid "Product to build..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produto a ser construído..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Produto a ser construído..."
 >>>>>>> upstream/18.0
@@ -169709,7 +171221,11 @@ msgid "Production Capacity"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Capacidade de produção"
+>>>>>>> upstream/18.0
 =======
 msgstr "Capacidade de produção"
 >>>>>>> upstream/18.0
@@ -170118,7 +171634,11 @@ msgid "Production Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Data de produção"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data de produção"
 >>>>>>> upstream/18.0
@@ -170527,7 +172047,11 @@ msgid "Production Information"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Informações de produção"
+>>>>>>> upstream/18.0
 =======
 msgstr "Informações de produção"
 >>>>>>> upstream/18.0
@@ -170948,7 +172472,11 @@ msgid "Production Order for components"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ordem de produção para componentes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ordem de produção para componentes"
 >>>>>>> upstream/18.0
@@ -171357,7 +172885,11 @@ msgid "Production Order for finished products"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ordem de produção para produtos acabados"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ordem de produção para produtos acabados"
 >>>>>>> upstream/18.0
@@ -171766,7 +173298,11 @@ msgid "Production State"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Situação da produção"
+>>>>>>> upstream/18.0
 =======
 msgstr "Situação da produção"
 >>>>>>> upstream/18.0
@@ -172181,7 +173717,11 @@ msgid "Production of Draft MO"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produção de OP provisória"
+>>>>>>> upstream/18.0
 =======
 msgstr "Produção de OP provisória"
 >>>>>>> upstream/18.0
@@ -172595,7 +174135,11 @@ msgid "Productions To Split"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produções a serem divididas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Produções a serem divididas"
 >>>>>>> upstream/18.0
@@ -173004,7 +174548,11 @@ msgid "Productive"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produtivo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Produtivo"
 >>>>>>> upstream/18.0
@@ -173413,7 +174961,11 @@ msgid "Productive Time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tempo produtivo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tempo produtivo"
 >>>>>>> upstream/18.0
@@ -173822,7 +175374,11 @@ msgid "Productive hours over the last month"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Horas produtivas no último mês"
+>>>>>>> upstream/18.0
 =======
 msgstr "Horas produtivas no último mês"
 >>>>>>> upstream/18.0
@@ -174236,7 +175792,11 @@ msgid "Productivity Losses"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Perdas de produtividade"
+>>>>>>> upstream/18.0
 =======
 msgstr "Perdas de produtividade"
 >>>>>>> upstream/18.0
@@ -174652,7 +176212,11 @@ msgid "Progress Done (%)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Progresso até conclusão (%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Progresso até conclusão (%)"
 >>>>>>> upstream/18.0
@@ -175072,7 +176636,11 @@ msgid "Quality Losses"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Perdas de qualidade"
+>>>>>>> upstream/18.0
 =======
 msgstr "Perdas de qualidade"
 >>>>>>> upstream/18.0
@@ -175481,7 +177049,11 @@ msgid "Quality Worksheet"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Planilha de qualidade"
+>>>>>>> upstream/18.0
 =======
 msgstr "Planilha de qualidade"
 >>>>>>> upstream/18.0
@@ -175923,7 +177495,11 @@ msgid "Quantity Producing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Quantidade em produção"
+>>>>>>> upstream/18.0
 =======
 msgstr "Quantidade em produção"
 >>>>>>> upstream/18.0
@@ -176342,7 +177918,11 @@ msgid "Quantity To Consume"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Quantidade a ser consumida"
+>>>>>>> upstream/18.0
 =======
 msgstr "Quantidade a ser consumida"
 >>>>>>> upstream/18.0
@@ -176760,7 +178340,11 @@ msgid "Quantity that can be produced with the current stock of components"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Quantidade que pode ser produzida com o estoque atual de componentes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Quantidade que pode ser produzida com o estoque atual de componentes"
 >>>>>>> upstream/18.0
@@ -177169,7 +178753,11 @@ msgid "Quants"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Quants"
+=======
+msgstr "Quantidades"
+>>>>>>> upstream/18.0
 =======
 msgstr "Quantidades"
 >>>>>>> upstream/18.0
@@ -177592,7 +179180,11 @@ msgid "Raw Moves"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Movimentações brutas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Movimentações brutas"
 >>>>>>> upstream/18.0
@@ -178032,7 +179624,11 @@ msgid "Real Duration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Duração real"
+>>>>>>> upstream/18.0
 =======
 msgstr "Duração real"
 >>>>>>> upstream/18.0
@@ -178455,7 +180051,11 @@ msgid "Reception time estimation."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Estimativa do tempo de recepção."
+>>>>>>> upstream/18.0
 =======
 msgstr "Estimativa do tempo de recepção."
 >>>>>>> upstream/18.0
@@ -178864,7 +180464,11 @@ msgid "Reduced Speed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Velocidade reduzida"
+>>>>>>> upstream/18.0
 =======
 msgstr "Velocidade reduzida"
 >>>>>>> upstream/18.0
@@ -179273,7 +180877,11 @@ msgid "Reduced Yield"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rendimento reduzido"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rendimento reduzido"
 >>>>>>> upstream/18.0
@@ -179592,6 +181200,7 @@ msgstr "A referência deve ser única por Empresa!"
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_production__origin
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -180106,6 +181715,9 @@ msgid "Reference of the document that generated this production order request."
 =======
 msgid "Reference of the document that generated this production order request."
 >>>>>>> upstream/18.0
+=======
+msgid "Reference of the document that generated this production order request."
+>>>>>>> upstream/18.0
 msgstr "Referência do documento que gerou o pedido de ordem de produção."
 
 #. module: mrp
@@ -180226,7 +181838,11 @@ msgid "Replan"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Replanejar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Replanejar"
 >>>>>>> upstream/18.0
@@ -180642,7 +182258,11 @@ msgid "Replenish on Order (MTO)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Reposição por pedido (sob demanda)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Reposição por pedido (sob demanda)"
 >>>>>>> upstream/18.0
@@ -181052,7 +182672,11 @@ msgid "Replenishments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Reposições"
+>>>>>>> upstream/18.0
 =======
 msgstr "Reposições"
 >>>>>>> upstream/18.0
@@ -181493,7 +183117,11 @@ msgid "Resupply lead time."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prazo de reabastecimento."
+>>>>>>> upstream/18.0
 =======
 msgstr "Prazo de reabastecimento."
 >>>>>>> upstream/18.0
@@ -181914,7 +183542,11 @@ msgid "Routing Lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Linhas de roteamento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Linhas de roteamento"
 >>>>>>> upstream/18.0
@@ -182343,7 +183975,11 @@ msgid "Schedule manufacturing orders earlier to avoid delays"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Agende as ordens de produção antecipadamente para evitar atrasos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Agende as ordens de produção antecipadamente para evitar atrasos"
 >>>>>>> upstream/18.0
@@ -182765,6 +184401,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Agendado antes da ordem de trabalho anterior, planejado a partir de %(start)"
 "s até %(end)s"
@@ -182988,6 +184625,10 @@ msgstr ""
 =======
 "Agendado antes da ordem de trabalho anterior, planejado a partir de %(start)"
 "s até %(end)s"
+>>>>>>> upstream/18.0
+=======
+"Agendado antes da ordem de trabalho anterior, planejado a partir de %"
+"(start)s até %(end)s"
 >>>>>>> upstream/18.0
 =======
 "Agendado antes da ordem de trabalho anterior, planejado a partir de %"
@@ -183275,7 +184916,11 @@ msgid "Scheduling Information"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Informações de agendamento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Informações de agendamento"
 >>>>>>> upstream/18.0
@@ -183700,7 +185345,11 @@ msgid "Scrap Products"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sucatear produtos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sucatear produtos"
 >>>>>>> upstream/18.0
@@ -184114,7 +185763,11 @@ msgid "Screw"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Parafuso"
+>>>>>>> upstream/18.0
 =======
 msgstr "Parafuso"
 >>>>>>> upstream/18.0
@@ -184432,6 +186085,7 @@ msgstr "Procurar lista de materiais"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "Search Production"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -185289,6 +186943,9 @@ msgstr "Pesquisar Produção"
 =======
 msgstr "Pesquisar Produção"
 >>>>>>> upstream/18.0
+=======
+msgstr "Pesquisar Produção"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_workorder_form_view_filter
@@ -185404,7 +187061,11 @@ msgid "Security Lead Time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Margem de segurança"
+>>>>>>> upstream/18.0
 =======
 msgstr "Margem de segurança"
 >>>>>>> upstream/18.0
@@ -185814,7 +187475,11 @@ msgid "Security days for each manufacturing operation."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dias de segurança para cada operação de fabricação"
+=======
+msgstr "Dias de segurança para cada operação de fabrico."
+>>>>>>> upstream/18.0
 =======
 msgstr "Dias de segurança para cada operação de fabrico."
 >>>>>>> upstream/18.0
@@ -186224,7 +187889,11 @@ msgid "Select Operations to Copy"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Selecionar operações para copiar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Selecionar operações para copiar"
 >>>>>>> upstream/18.0
@@ -186634,7 +188303,11 @@ msgid "Selection not supported."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Seleção não suportada."
+>>>>>>> upstream/18.0
 =======
 msgstr "Seleção não suportada."
 >>>>>>> upstream/18.0
@@ -187054,7 +188727,11 @@ msgid "Set Quantities & Validate"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Definir quantidades e validar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Definir quantidades e validar"
 >>>>>>> upstream/18.0
@@ -187463,7 +189140,11 @@ msgid "Set Quantity"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Definir quantidade"
+>>>>>>> upstream/18.0
 =======
 msgstr "Definir quantidade"
 >>>>>>> upstream/18.0
@@ -187872,7 +189553,11 @@ msgid "Set duration manually"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Definir a duração manualmente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Definir a duração manualmente"
 >>>>>>> upstream/18.0
@@ -188284,6 +189969,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Define a ordem em que as ordens de trabalho devem ser processadas. Ative o "
+"recurso na aba Diversos de cada LM"
+>>>>>>> upstream/18.0
 =======
 "Define a ordem em que as ordens de trabalho devem ser processadas. Ative o "
 "recurso na aba Diversos de cada LM"
@@ -188800,7 +190490,11 @@ msgid "Setup Time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tempo de preparação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tempo de preparação"
 >>>>>>> upstream/18.0
@@ -189209,7 +190903,11 @@ msgid "Setup Time (minutes)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tempo de preparação (minutos)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tempo de preparação (minutos)"
 >>>>>>> upstream/18.0
@@ -189618,7 +191316,11 @@ msgid "Setup and Adjustments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preparação e ajustes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Preparação e ajustes"
 >>>>>>> upstream/18.0
@@ -190027,7 +191729,11 @@ msgid "Show Allocation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mostrar alocação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mostrar alocação"
 >>>>>>> upstream/18.0
@@ -190436,7 +192142,11 @@ msgid "Show BoM column"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Exibir coluna de LM"
+>>>>>>> upstream/18.0
 =======
 msgstr "Exibir coluna de LM"
 >>>>>>> upstream/18.0
@@ -190851,7 +192561,11 @@ msgid "Show Final Lots"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Exibir lotes finais"
+>>>>>>> upstream/18.0
 =======
 msgstr "Exibir lotes finais"
 >>>>>>> upstream/18.0
@@ -191260,7 +192974,11 @@ msgid "Show Lock/unlock buttons"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Exibir botões de travar/destravar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Exibir botões de travar/destravar"
 >>>>>>> upstream/18.0
@@ -191669,7 +193387,11 @@ msgid "Show Popover?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Exibir janela emergente?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Exibir janela emergente?"
 >>>>>>> upstream/18.0
@@ -192078,7 +193800,11 @@ msgid "Show Produce"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Exibir 'Produzir'"
+>>>>>>> upstream/18.0
 =======
 msgstr "Exibir 'Produzir'"
 >>>>>>> upstream/18.0
@@ -192487,7 +194213,11 @@ msgid "Show Produce All"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Exibir 'Produzir tudo'"
+>>>>>>> upstream/18.0
 =======
 msgstr "Exibir 'Produzir tudo'"
 >>>>>>> upstream/18.0
@@ -192902,7 +194632,11 @@ msgid "Show backorder lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Exibir linhas de pedidos em espera"
+>>>>>>> upstream/18.0
 =======
 msgstr "Exibir linhas de pedidos em espera"
 >>>>>>> upstream/18.0
@@ -193311,7 +195045,11 @@ msgid "Slot into workcenter calendar once planned"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Espaço no calendário do centro de trabalho, quando planejado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Espaço no calendário do centro de trabalho, quando planejado"
 >>>>>>> upstream/18.0
@@ -193720,7 +195458,11 @@ msgid "Solid wood is a durable natural material."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Madeira maciça é um material natural durável."
+>>>>>>> upstream/18.0
 =======
 msgstr "Madeira maciça é um material natural durável."
 >>>>>>> upstream/18.0
@@ -194129,7 +195871,11 @@ msgid "Solid wood table."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mesa de madeira maciça."
+>>>>>>> upstream/18.0
 =======
 msgstr "Mesa de madeira maciça."
 >>>>>>> upstream/18.0
@@ -194454,6 +196200,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -195095,6 +196842,10 @@ msgid ""
 "Some work orders are already done, so you cannot unplan this manufacturing "
 "order.\n"
 >>>>>>> upstream/18.0
+=======
+"Some work orders are already done, so you cannot unplan this manufacturing "
+"order.\n"
+>>>>>>> upstream/18.0
 "\n"
 "It’d be a shame to waste all that progress, right?"
 msgstr ""
@@ -195103,6 +196854,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -195744,6 +197496,10 @@ msgid ""
 "Some work orders have already started, so you cannot unplan this "
 "manufacturing order.\n"
 >>>>>>> upstream/18.0
+=======
+"Some work orders have already started, so you cannot unplan this "
+"manufacturing order.\n"
+>>>>>>> upstream/18.0
 "\n"
 "It’d be a shame to waste all that progress, right?"
 msgstr ""
@@ -195765,6 +197521,7 @@ msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_workcenter__capacity_ids
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -196482,6 +198239,11 @@ msgid "Specific number of pieces that can be produced in parallel per product."
 msgstr ""
 "Número específico de peças que podem ser produzidas em paralelo por produto."
 >>>>>>> upstream/18.0
+=======
+msgid "Specific number of pieces that can be produced in parallel per product."
+msgstr ""
+"Número específico de peças que podem ser produzidas em paralelo por produto."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.actions.server,name:mrp.action_production_order_split
@@ -196598,7 +198360,11 @@ msgid "Split Details"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Detalhes da divisão"
+>>>>>>> upstream/18.0
 =======
 msgstr "Detalhes da divisão"
 >>>>>>> upstream/18.0
@@ -197009,7 +198775,11 @@ msgid "Split Production"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produção dividida"
+>>>>>>> upstream/18.0
 =======
 msgstr "Produção dividida"
 >>>>>>> upstream/18.0
@@ -197418,7 +199188,11 @@ msgid "Split Production Detail"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Info da produção dividida"
+>>>>>>> upstream/18.0
 =======
 msgstr "Info da produção dividida"
 >>>>>>> upstream/18.0
@@ -197828,7 +199602,11 @@ msgid "Split Productions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produções divididas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Produções divididas"
 >>>>>>> upstream/18.0
@@ -198237,7 +200015,11 @@ msgid "Split production"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dividir produção"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dividir produção"
 >>>>>>> upstream/18.0
@@ -198646,7 +200428,11 @@ msgid "Split productions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dividir produções"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dividir produções"
 >>>>>>> upstream/18.0
@@ -199055,7 +200841,11 @@ msgid "Stainless steel screw"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Parafuso de aço inoxidável"
+>>>>>>> upstream/18.0
 =======
 msgstr "Parafuso de aço inoxidável"
 >>>>>>> upstream/18.0
@@ -199465,6 +201255,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Parafuso de aço inoxidável completo (Diâmetro - 5mm, Comprimento - 10mm)"
+>>>>>>> upstream/18.0
 =======
 "Parafuso de aço inoxidável completo (Diâmetro - 5mm, Comprimento - 10mm)"
 >>>>>>> upstream/18.0
@@ -199926,7 +201720,11 @@ msgid "Stock After Manufacturing Operation Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tipo de operação para estoque após fabricação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tipo de operação para estoque após fabricação"
 >>>>>>> upstream/18.0
@@ -200335,7 +202133,11 @@ msgid "Stock After Manufacturing Rule"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Regra de estoque após fabricação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Regra de estoque após fabricação"
 >>>>>>> upstream/18.0
@@ -200744,7 +202546,11 @@ msgid "Stock Availability"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Disponibilidade de estoque"
+>>>>>>> upstream/18.0
 =======
 msgstr "Disponibilidade de estoque"
 >>>>>>> upstream/18.0
@@ -201158,7 +202964,11 @@ msgid "Stock Movements of Produced Goods"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Movimentações de estoque de mercadorias fabricadas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Movimentações de estoque de mercadorias fabricadas"
 >>>>>>> upstream/18.0
@@ -201572,7 +203382,11 @@ msgid "Stock Reception Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Relatório de recebimento de estoque"
+>>>>>>> upstream/18.0
 =======
 msgstr "Relatório de recebimento de estoque"
 >>>>>>> upstream/18.0
@@ -201991,7 +203805,11 @@ msgid "Stock after Manufacturing Location"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Local do estoque após fabricação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Local do estoque após fabricação"
 >>>>>>> upstream/18.0
@@ -202406,7 +204224,11 @@ msgid "Store Finished Product"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Armazenar produto acabado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Armazenar produto acabado"
 >>>>>>> upstream/18.0
@@ -202815,7 +204637,11 @@ msgid "Sub BoM"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "LM sec"
+>>>>>>> upstream/18.0
 =======
 msgstr "LM sec"
 >>>>>>> upstream/18.0
@@ -203224,7 +205050,11 @@ msgid "Subcontracting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Subcontratação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Subcontratação"
 >>>>>>> upstream/18.0
@@ -203638,7 +205468,11 @@ msgid "Table Kit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kit de mesa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kit de mesa"
 >>>>>>> upstream/18.0
@@ -204047,7 +205881,11 @@ msgid "Table Leg"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Perna de mesa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Perna de mesa"
 >>>>>>> upstream/18.0
@@ -204456,7 +206294,11 @@ msgid "Table Top"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tampo de mesa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tampo de mesa"
 >>>>>>> upstream/18.0
@@ -204865,7 +206707,11 @@ msgid "Table kit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kit de mesa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kit de mesa"
 >>>>>>> upstream/18.0
@@ -205287,6 +207133,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Campo técnico usado para decidir se o botão \"Alocação\" deve ser exibido."
+>>>>>>> upstream/18.0
 =======
 "Campo técnico usado para decidir se o botão \"Alocação\" deve ser exibido."
 >>>>>>> upstream/18.0
@@ -205695,7 +207545,11 @@ msgid "Technical field for workcenter views"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Campo técnico para visualizações do centro de trabalho"
+>>>>>>> upstream/18.0
 =======
 msgstr "Campo técnico para visualizações do centro de trabalho"
 >>>>>>> upstream/18.0
@@ -206105,6 +207959,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Campo técnico para verificar se o botão 'produzir tudo' pode ser exibido"
+>>>>>>> upstream/18.0
 =======
 "Campo técnico para verificar se o botão 'produzir tudo' pode ser exibido"
 >>>>>>> upstream/18.0
@@ -206513,7 +208371,11 @@ msgid "Technical field to check if produce button can be shown"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Campo técnico para verificar se o botão 'produzir' pode ser exibido"
+>>>>>>> upstream/18.0
 =======
 msgstr "Campo técnico para verificar se o botão 'produzir' pode ser exibido"
 >>>>>>> upstream/18.0
@@ -206922,7 +208784,11 @@ msgid "Technical field to check when we can reserve quantities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Campo técnico para verificar quando é possível reservar quantidades"
+>>>>>>> upstream/18.0
 =======
 msgstr "Campo técnico para verificar quando é possível reservar quantidades"
 >>>>>>> upstream/18.0
@@ -207331,7 +209197,11 @@ msgid "Technical field to check when we can unreserve"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Campo técnico para verificar quando é possível liberar reserva"
+>>>>>>> upstream/18.0
 =======
 msgstr "Campo técnico para verificar quando é possível liberar reserva"
 >>>>>>> upstream/18.0
@@ -207653,6 +209523,7 @@ msgid ""
 "The Product Unit of Measure you chose has a different category than in the "
 "product form."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -208510,6 +210381,9 @@ msgstr ""
 =======
 "A unidade de medida do artigo escolhida por si pertence a uma categoria "
 >>>>>>> upstream/18.0
+=======
+"A unidade de medida do artigo escolhida por si pertence a uma categoria "
+>>>>>>> upstream/18.0
 "diferente da do formulário."
 
 #. module: mrp
@@ -208617,7 +210491,11 @@ msgid "The Workorder (%s) cannot be started twice!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A ordem de trabalho (%s) não pode ser iniciada duas vezes."
+>>>>>>> upstream/18.0
 =======
 msgstr "A ordem de trabalho (%s) não pode ser iniciada duas vezes."
 >>>>>>> upstream/18.0
@@ -209030,6 +210908,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"O valor do atributo %(attribute)s definido no produto %(product)s não "
+"corresponde ao produto %(bom_product)s da LM"
+>>>>>>> upstream/18.0
 =======
 "O valor do atributo %(attribute)s definido no produto %(product)s não "
 "corresponde ao produto %(bom_product)s da LM"
@@ -209546,7 +211429,11 @@ msgid "The component %s should not be the same as the product to produce."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O componente %s não deve ser o mesmo que o produto a ser produzido."
+>>>>>>> upstream/18.0
 =======
 msgstr "O componente %s não deve ser o mesmo que o produto a ser produzido."
 >>>>>>> upstream/18.0
@@ -209964,7 +211851,11 @@ msgid "The day after tomorrow"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Depois de amanhã"
+>>>>>>> upstream/18.0
 =======
 msgstr "Depois de amanhã"
 >>>>>>> upstream/18.0
@@ -210379,7 +212270,11 @@ msgid "The number of products already handled by this work order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O número de produtos já tratados por esta ordem de trabalho"
+>>>>>>> upstream/18.0
 =======
 msgstr "O número de produtos já tratados por esta ordem de trabalho"
 >>>>>>> upstream/18.0
@@ -210791,6 +212686,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"A operação em que os componentes são consumidos ou os produtos acabados "
+"criados."
+>>>>>>> upstream/18.0
 =======
 "A operação em que os componentes são consumidos ou os produtos acabados "
 "criados."
@@ -211304,6 +213204,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "A porcentagem do custo de produção final para essa linha de subproduto ("
 "dividida entre a quantidade produzida). O total da divisão de custos de "
@@ -211582,6 +213483,11 @@ msgstr ""
 =======
 "A porcentagem do custo de produção final para essa linha de subproduto ("
 "dividida entre a quantidade produzida). O total da divisão de custos de "
+"todos os subprodutos deve ser menor ou igual a 100."
+>>>>>>> upstream/18.0
+=======
+"A porcentagem do custo de produção final para essa linha de subproduto "
+"(dividida entre a quantidade produzida). O total da divisão de custos de "
 "todos os subprodutos deve ser menor ou igual a 100."
 >>>>>>> upstream/18.0
 =======
@@ -211917,6 +213823,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"A porcentagem do custo de produção final para esse subproduto. O total da "
+"divisão de custos de todos os subprodutos deve ser menor ou igual a 100."
+>>>>>>> upstream/18.0
 =======
 "A porcentagem do custo de produção final para esse subproduto. O total da "
 "divisão de custos de todos os subprodutos deve ser menor ou igual a 100."
@@ -212430,6 +214341,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"A data de término planejada da ordem de trabalho não pode ser anterior à "
+"data de início planejada. Corrija isso para salvar a ordem de trabalho."
+>>>>>>> upstream/18.0
 =======
 "A data de término planejada da ordem de trabalho não pode ser anterior à "
 "data de início planejada. Corrija isso para salvar a ordem de trabalho."
@@ -212944,6 +214860,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"O produto já foi usado pelo menos uma vez, e a edição de sua estrutura pode "
+"levar a comportamentos indesejáveis. Em vez disso, você deve arquivar o "
+"produto e criar um novo com uma nova lista de materiais."
+>>>>>>> upstream/18.0
 =======
 "O produto já foi usado pelo menos uma vez, e a edição de sua estrutura pode "
 "levar a comportamentos indesejáveis. Em vez disso, você deve arquivar o "
@@ -213556,6 +215478,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"A quantidade já produzida que aguarda alocação na cadeia de pedidos "
+"pendentes."
+>>>>>>> upstream/18.0
 =======
 "A quantidade já produzida que aguarda alocação na cadeia de pedidos "
 "pendentes."
@@ -214071,7 +215998,11 @@ msgid "The quantity to unbuild must be positive!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A quantidade a ser desmontada deve ser positiva."
+>>>>>>> upstream/18.0
 =======
 msgstr "A quantidade a ser desmontada deve ser positiva."
 >>>>>>> upstream/18.0
@@ -214380,6 +216311,7 @@ msgstr "A quantidade a ser desmontada deve ser positiva."
 #. odoo-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -214820,6 +216752,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "The serial number %(number)s used for byproduct %(product_name)s has already "
 "been produced"
 msgstr ""
@@ -214925,6 +216859,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -215235,6 +217172,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"O número de série %(number)s usado pelo componente %(component)s já foi "
+"consumido"
+>>>>>>> upstream/18.0
 =======
 "O número de série %(number)s usado pelo componente %(component)s já foi "
 "consumido"
@@ -215744,7 +217686,11 @@ msgid "The tag name must be unique."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O nome do marcador deve ser exclusivo."
+>>>>>>> upstream/18.0
 =======
 msgstr "O nome do marcador deve ser exclusivo."
 >>>>>>> upstream/18.0
@@ -216155,6 +218101,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"O total da divisão de custos dos subprodutos de uma LM não pode exceder 100."
+>>>>>>> upstream/18.0
 =======
 "O total da divisão de custos dos subprodutos de uma LM não pode exceder 100."
 >>>>>>> upstream/18.0
@@ -216567,6 +218517,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"O total da divisão de custos dos subprodutos de uma ordem de produção não "
+"pode exceder 100."
+>>>>>>> upstream/18.0
 =======
 "O total da divisão de custos dos subprodutos de uma ordem de produção não "
 "pode exceder 100."
@@ -217082,7 +219037,11 @@ msgid "The work order should have already been processed."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A ordem de trabalho já deve ter sido processada."
+>>>>>>> upstream/18.0
 =======
 msgstr "A ordem de trabalho já deve ter sido processada."
 >>>>>>> upstream/18.0
@@ -217492,7 +219451,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não há componentes para consumir. Tem certeza de que deseja continuar?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Não há componentes para consumir. Tem certeza de que deseja continuar?"
 >>>>>>> upstream/18.0
@@ -217903,7 +219866,11 @@ msgid "There is no defined calendar on workcenter %s."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não há um calendário definido no centro de trabalho %s."
+>>>>>>> upstream/18.0
 =======
 msgstr "Não há um calendário definido no centro de trabalho %s."
 >>>>>>> upstream/18.0
@@ -218312,7 +220279,11 @@ msgid "There's no product move yet"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ainda não há movimentação de produto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ainda não há movimentação de produto"
 >>>>>>> upstream/18.0
@@ -218730,6 +220701,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Este campo é usado para definir em qual fuso horário os colaboradores "
+"trabalharão."
+>>>>>>> upstream/18.0
 =======
 "Este campo é usado para definir em qual fuso horário os colaboradores "
 "trabalharão."
@@ -219245,7 +221221,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -219551,6 +221530,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -219858,7 +221840,11 @@ msgid "This is a BoM of type Kit!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Esta é uma LM do tipo kit"
+>>>>>>> upstream/18.0
 =======
 msgstr "Esta é uma LM do tipo kit"
 >>>>>>> upstream/18.0
@@ -220271,6 +222257,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Este é o custo baseado na LM do produto. É calculado somando os custos dos "
+"componentes e operações necessárias para construir o produto."
+>>>>>>> upstream/18.0
 =======
 "Este é o custo baseado na LM do produto. É calculado somando os custos dos "
 "componentes e operações necessárias para construir o produto."
@@ -220813,9 +222804,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This menu gives you the full traceability of inventory operations on a specific product.\n"
 "                You can filter on the product to see all the past movements for the product."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -221201,6 +223195,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -221256,6 +223251,8 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -221561,6 +223558,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -221868,7 +223868,11 @@ msgid "This production has been merge in %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Essa produção foi mesclada em %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Essa produção foi mesclada em %s"
 >>>>>>> upstream/18.0
@@ -222279,6 +224283,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Essa ordem de produção foi criada a partir do relatório de reabastecimento."
+>>>>>>> upstream/18.0
 =======
 "Essa ordem de produção foi criada a partir do relatório de reabastecimento."
 >>>>>>> upstream/18.0
@@ -222688,7 +224696,11 @@ msgid "This serial number for product %s has already been produced"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O número de série para o produto %s já foi produzido"
+>>>>>>> upstream/18.0
 =======
 msgstr "O número de série para o produto %s já foi produzido"
 >>>>>>> upstream/18.0
@@ -223101,6 +225113,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Essa deve ser a menor quantidade em que esse produto pode ser produzido. Se "
+"a lista de materiais contiver operações, certifique-se de que a capacidade "
+"do centro de trabalho esteja precisa."
+>>>>>>> upstream/18.0
 =======
 "Essa deve ser a menor quantidade em que esse produto pode ser produzido. Se "
 "a lista de materiais contiver operações, certifique-se de que a capacidade "
@@ -223716,7 +225734,11 @@ msgid "Time Efficiency"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Eficiência de tempo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Eficiência de tempo"
 >>>>>>> upstream/18.0
@@ -224125,7 +226147,11 @@ msgid "Time Logs"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Registros de tempo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Registros de tempo"
 >>>>>>> upstream/18.0
@@ -224540,7 +226566,11 @@ msgid "Time Tracking: %(user)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Controle de tempo: %(user)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Controle de tempo: %(user)s"
 >>>>>>> upstream/18.0
@@ -224949,7 +226979,11 @@ msgid "Time in minutes for the cleaning."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tempo em minutos para a limpeza."
+>>>>>>> upstream/18.0
 =======
 msgstr "Tempo em minutos para a limpeza."
 >>>>>>> upstream/18.0
@@ -225358,7 +227392,11 @@ msgid "Time in minutes for the setup."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tempo em minutos para a preparação."
+>>>>>>> upstream/18.0
 =======
 msgstr "Tempo em minutos para a preparação."
 >>>>>>> upstream/18.0
@@ -225770,6 +227808,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Tempo em minutos:- No modo manual, tempo usado- No modo automático, "
+"supostamente pela primeira vez quando ainda não houver ordens de trabalho"
+>>>>>>> upstream/18.0
 =======
 "Tempo em minutos:- No modo manual, tempo usado- No modo automático, "
 "supostamente pela primeira vez quando ainda não houver ordens de trabalho"
@@ -226285,7 +228328,11 @@ msgid "Tip: Use tablets in the shop to control manufacturing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dica: use tablets na loja para controlar a fabricação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dica: use tablets na loja para controlar a fabricação"
 >>>>>>> upstream/18.0
@@ -226699,7 +228746,11 @@ msgid "To Backorder"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Para pedido em espera"
+>>>>>>> upstream/18.0
 =======
 msgstr "Para pedido em espera"
 >>>>>>> upstream/18.0
@@ -227127,7 +229178,11 @@ msgid "To Launch"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A ser iniciado"
+>>>>>>> upstream/18.0
 =======
 msgstr "A ser iniciado"
 >>>>>>> upstream/18.0
@@ -227548,7 +229603,11 @@ msgid "To Produce"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A produzir"
+>>>>>>> upstream/18.0
 =======
 msgstr "A produzir"
 >>>>>>> upstream/18.0
@@ -227975,7 +230034,11 @@ msgid "Top layer of a wood panel."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Camada superior de um painel de madeira."
+>>>>>>> upstream/18.0
 =======
 msgstr "Camada superior de um painel de madeira."
 >>>>>>> upstream/18.0
@@ -228410,7 +230473,11 @@ msgid "Total Late Orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Total de ordens atrasadas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Total de ordens atrasadas"
 >>>>>>> upstream/18.0
@@ -228819,7 +230886,11 @@ msgid "Total Pending Orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Total de ordens pendentes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Total de ordens pendentes"
 >>>>>>> upstream/18.0
@@ -229238,7 +231309,11 @@ msgid "Total Running Orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Total de ordens em execução"
+>>>>>>> upstream/18.0
 =======
 msgstr "Total de ordens em execução"
 >>>>>>> upstream/18.0
@@ -229647,7 +231722,11 @@ msgid "Total To Consume"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Total a consumir"
+>>>>>>> upstream/18.0
 =======
 msgstr "Total a consumir"
 >>>>>>> upstream/18.0
@@ -230056,7 +232135,11 @@ msgid "Total expected duration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Duração total esperada"
+>>>>>>> upstream/18.0
 =======
 msgstr "Duração total esperada"
 >>>>>>> upstream/18.0
@@ -230465,7 +232548,11 @@ msgid "Total expected duration (in minutes)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Duração total esperada (em minutos)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Duração total esperada (em minutos)"
 >>>>>>> upstream/18.0
@@ -230874,7 +232961,11 @@ msgid "Total real duration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Duração real total"
+>>>>>>> upstream/18.0
 =======
 msgstr "Duração real total"
 >>>>>>> upstream/18.0
@@ -231283,7 +233374,11 @@ msgid "Total real duration (in minutes)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Duração real total (em minutos)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Duração real total (em minutos)"
 >>>>>>> upstream/18.0
@@ -231734,7 +233829,11 @@ msgid "Unable to split with more than the quantity to produce."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não é possível dividir com mais do que a quantidade a ser produzida."
+>>>>>>> upstream/18.0
 =======
 msgstr "Não é possível dividir com mais do que a quantidade a ser produzida."
 >>>>>>> upstream/18.0
@@ -232144,7 +234243,11 @@ msgid "Unblock"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Desbloquear"
+>>>>>>> upstream/18.0
 =======
 msgstr "Desbloquear"
 >>>>>>> upstream/18.0
@@ -232556,7 +234659,11 @@ msgid "Unbuild"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Desmontar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Desmontar"
 >>>>>>> upstream/18.0
@@ -232967,7 +235074,11 @@ msgid "Unbuild Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ordem de desmontagem"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ordem de desmontagem"
 >>>>>>> upstream/18.0
@@ -233378,7 +235489,11 @@ msgid "Unbuild Orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ordens de desmontagem"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ordens de desmontagem"
 >>>>>>> upstream/18.0
@@ -233788,7 +235903,11 @@ msgid "Unbuild: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Desmontar: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Desmontar: %s"
 >>>>>>> upstream/18.0
@@ -234197,7 +236316,11 @@ msgid "Unbuilds"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Desmontagens"
+>>>>>>> upstream/18.0
 =======
 msgstr "Desmontagens"
 >>>>>>> upstream/18.0
@@ -234606,7 +236729,11 @@ msgid "Unbuilt"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Desmontado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Desmontado"
 >>>>>>> upstream/18.0
@@ -235041,7 +237168,11 @@ msgid "Unit Factor"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fator unitário"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fator unitário"
 >>>>>>> upstream/18.0
@@ -235479,7 +237610,11 @@ msgid "Unlock Manufacturing Orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Destravar ordens de produção"
+>>>>>>> upstream/18.0
 =======
 msgstr "Destravar ordens de produção"
 >>>>>>> upstream/18.0
@@ -235888,7 +238023,11 @@ msgid "Unlocked by default"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Destravado por padrão"
+>>>>>>> upstream/18.0
 =======
 msgstr "Destravado por padrão"
 >>>>>>> upstream/18.0
@@ -236297,7 +238436,11 @@ msgid "Unplan"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Desplanejar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Desplanejar"
 >>>>>>> upstream/18.0
@@ -236711,8 +238854,14 @@ msgstr "Não Reservado"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "UoM"
 msgstr "UoM"
+=======
+#, fuzzy
+msgid "UoM"
+msgstr "U.M."
+>>>>>>> upstream/18.0
 =======
 #, fuzzy
 msgid "UoM"
@@ -237341,6 +239490,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Use ordens de produção (OP) para criar produtos acabados enquanto consome "
+"componentes: por exemplo, 1 mesa = 4 pernas + 1 tampo de mesa"
+>>>>>>> upstream/18.0
 =======
 "Use ordens de produção (OP) para criar produtos acabados enquanto consome "
 "componentes: por exemplo, 1 mesa = 4 pernas + 1 tampo de mesa"
@@ -237850,7 +240004,11 @@ msgid "Use Operation Dependencies"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Usar dependências de operação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Usar dependências de operação"
 >>>>>>> upstream/18.0
@@ -238259,7 +240417,11 @@ msgid "Use Reception Report with Manufacturing Orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Usar relatório de recepção com ordens de produção"
+>>>>>>> upstream/18.0
 =======
 msgstr "Usar relatório de recepção com ordens de produção"
 >>>>>>> upstream/18.0
@@ -238669,7 +240831,11 @@ msgid "Used In"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Usado em"
+>>>>>>> upstream/18.0
 =======
 msgstr "Usado em"
 >>>>>>> upstream/18.0
@@ -239089,6 +241255,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Pode ser útil usar um relatório de PMP para programar suas operações de "
+"reposição e produção se você tiver um lead time longo e se produzir com base "
+"em previsões de vendas."
+>>>>>>> upstream/18.0
 =======
 "Pode ser útil usar um relatório de PMP para programar suas operações de "
 "reposição e produção se você tiver um lead time longo e se produzir com base "
@@ -239704,7 +241876,11 @@ msgid "Valid Product Attribute Lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Linhas de atributo de produto válidas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Linhas de atributo de produto válidas"
 >>>>>>> upstream/18.0
@@ -240019,6 +242195,7 @@ msgstr "Validar"
 #: code:addons/mrp/wizard/mrp_consumption_warning.py:0
 msgid ""
 "Values cannot be set and validated because a Lot/Serial Number needs to be "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -240661,6 +242838,10 @@ msgid ""
 "specified for a tracked product that is having its consumed amount increased:"
 "%(products)s"
 >>>>>>> upstream/18.0
+=======
+"specified for a tracked product that is having its consumed amount increased:"
+"%(products)s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mrp
@@ -240778,7 +242959,11 @@ msgid "View WorkOrder"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Exibir ordem de trabalho"
+>>>>>>> upstream/18.0
 =======
 msgstr "Exibir ordem de trabalho"
 >>>>>>> upstream/18.0
@@ -241194,7 +243379,11 @@ msgid "Visibility Days applied on the manufacturing routes."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dias de visibilidade aplicados nas rotas de fabricação."
+>>>>>>> upstream/18.0
 =======
 msgstr "Dias de visibilidade aplicados nas rotas de fabricação."
 >>>>>>> upstream/18.0
@@ -241632,6 +243821,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Aguardando a ordem de trabalho anterior, planejada de %(start)s até %(end)s"
+>>>>>>> upstream/18.0
 =======
 "Aguardando a ordem de trabalho anterior, planejada de %(start)s até %(end)s"
 >>>>>>> upstream/18.0
@@ -242048,7 +244241,11 @@ msgid "Warn Insufficient Unbuild Quantity"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aviso de quantidade de desmontagem insuficiente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aviso de quantidade de desmontagem insuficiente"
 >>>>>>> upstream/18.0
@@ -242470,7 +244667,11 @@ msgid "Wear Layer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Camada de desgaste"
+>>>>>>> upstream/18.0
 =======
 msgstr "Camada de desgaste"
 >>>>>>> upstream/18.0
@@ -242925,8 +245126,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "try to create a Manufacturing Order for that product using a BoM of the same"
 " operation type. That allows to define stock rules which trigger different "
+=======
+"try to create a Manufacturing Order for that product using a BoM of the same "
+"operation type. That allows to define stock rules which trigger different "
+>>>>>>> upstream/18.0
 =======
 "try to create a Manufacturing Order for that product using a BoM of the same "
 "operation type. That allows to define stock rules which trigger different "
@@ -243574,9 +245780,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "When activated, then the registration of consumption for that component is recorded manually exclusively.\n"
 "If not activated, and any of the components consumption is edited manually on the manufacturing order, Odoo assumes manual consumption also."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -243962,6 +246171,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -244017,6 +246227,8 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -244323,6 +246535,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -244629,7 +246844,11 @@ msgid "When components for 1st operation are available"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Quando os componentes da 1ª operação estão disponíveis"
+>>>>>>> upstream/18.0
 =======
 msgstr "Quando os componentes da 1ª operação estão disponíveis"
 >>>>>>> upstream/18.0
@@ -245050,6 +247269,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Quando os produtos são necessários em <b>%s</b>, <br/>uma ordem de produção "
+"é criada para atender à necessidade."
+>>>>>>> upstream/18.0
 =======
 "Quando os produtos são necessários em <b>%s</b>, <br/>uma ordem de produção "
 "é criada para atender à necessidade."
@@ -245564,7 +247788,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -245870,6 +248097,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -246179,6 +248409,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Assistente em caso de consumo em aviso/estrito e mais componente foi usado "
+"para uma OP (em relação à LM)"
+>>>>>>> upstream/18.0
 =======
 "Assistente em caso de consumo em aviso/estrito e mais componente foi usado "
 "para uma OP (em relação à LM)"
@@ -246688,7 +248923,11 @@ msgid "Wizard to Split Multiple Productions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Assistente para dividir várias produções"
+>>>>>>> upstream/18.0
 =======
 msgstr "Assistente para dividir várias produções"
 >>>>>>> upstream/18.0
@@ -247097,7 +249336,11 @@ msgid "Wizard to Split a Production"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Assistente para dividir uma produção"
+>>>>>>> upstream/18.0
 =======
 msgstr "Assistente para dividir uma produção"
 >>>>>>> upstream/18.0
@@ -247506,7 +249749,11 @@ msgid "Wizard to mark as done or create back order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Assistente para marcar como concluído ou criar pedido pendente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Assistente para marcar como concluído ou criar pedido pendente"
 >>>>>>> upstream/18.0
@@ -247915,7 +250162,11 @@ msgid "Wood Panel"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Painel de madeira"
+>>>>>>> upstream/18.0
 =======
 msgstr "Painel de madeira"
 >>>>>>> upstream/18.0
@@ -248339,7 +250590,11 @@ msgid "Work Center Capacity"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Capacidade do centro de trabalho"
+>>>>>>> upstream/18.0
 =======
 msgstr "Capacidade do centro de trabalho"
 >>>>>>> upstream/18.0
@@ -248759,7 +251014,11 @@ msgid "Work Center Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nome do centro de trabalho"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nome do centro de trabalho"
 >>>>>>> upstream/18.0
@@ -249185,7 +251444,11 @@ msgid "Work Centers Overview"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Visão geral dos centros de trabalho"
+>>>>>>> upstream/18.0
 =======
 msgstr "Visão geral dos centros de trabalho"
 >>>>>>> upstream/18.0
@@ -249610,7 +251873,11 @@ msgid "Work Order Dependencies"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dependências de ordens de trabalho"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dependências de ordens de trabalho"
 >>>>>>> upstream/18.0
@@ -250024,7 +252291,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -250329,6 +252599,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -250635,7 +252908,11 @@ msgid "Work Order To Consume"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ordem de trabalho a consumir"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ordem de trabalho a consumir"
 >>>>>>> upstream/18.0
@@ -251060,7 +253337,11 @@ msgid "Work Orders Performance"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Desempenho das ordens de trabalho"
+>>>>>>> upstream/18.0
 =======
 msgstr "Desempenho das ordens de trabalho"
 >>>>>>> upstream/18.0
@@ -251480,7 +253761,11 @@ msgid "Work center"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Centro de trabalho"
+>>>>>>> upstream/18.0
 =======
 msgstr "Centro de trabalho"
 >>>>>>> upstream/18.0
@@ -251789,6 +254074,7 @@ msgstr "Centro de trabalho"
 #: model_terms:ir.actions.act_window,help:mrp.action_work_orders
 msgid ""
 "Work orders are operations to do as part of a manufacturing order.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -252228,6 +254514,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                    Operations are defined in the bill of materials or added "
 "in the manufacturing order directly."
 msgstr ""
@@ -252335,6 +254623,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -252544,6 +254835,7 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:mrp.mrp_workorder_todo
 msgid ""
 "Work orders are operations to do as part of a manufacturing order.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -252983,6 +255275,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "            Operations are defined in the bill of materials or added in the "
 "manufacturing order directly."
 msgstr ""
@@ -253090,6 +255384,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -253397,6 +255694,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ordem de trabalho em progresso. Clique para bloquear o centro de trabalho."
+>>>>>>> upstream/18.0
 =======
 "Ordem de trabalho em progresso. Clique para bloquear o centro de trabalho."
 >>>>>>> upstream/18.0
@@ -253813,7 +256114,11 @@ msgid "Workcenter %s cannot be an alternative of itself."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O centro de trabalho %s não pode ser uma alternativa de si mesmo."
+>>>>>>> upstream/18.0
 =======
 msgstr "O centro de trabalho %s não pode ser uma alternativa de si mesmo."
 >>>>>>> upstream/18.0
@@ -254237,7 +256542,11 @@ msgid "Workcenter Productivity Loss"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Perda de produtividade do centro de trabalho"
+>>>>>>> upstream/18.0
 =======
 msgstr "Perda de produtividade do centro de trabalho"
 >>>>>>> upstream/18.0
@@ -254646,7 +256955,11 @@ msgid "Workcenter Productivity Losses"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Perdas de produtividade do centro de trabalho"
+>>>>>>> upstream/18.0
 =======
 msgstr "Perdas de produtividade do centro de trabalho"
 >>>>>>> upstream/18.0
@@ -255056,7 +257369,11 @@ msgid "Workcenter Status"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Status do centro de trabalho"
+>>>>>>> upstream/18.0
 =======
 msgstr "Status do centro de trabalho"
 >>>>>>> upstream/18.0
@@ -255465,7 +257782,11 @@ msgid "Workcenter blocked, click to unblock."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Centro de trabalho bloqueado, clique para desbloquear."
+>>>>>>> upstream/18.0
 =======
 msgstr "Centro de trabalho bloqueado, clique para desbloquear."
 >>>>>>> upstream/18.0
@@ -255879,7 +258200,11 @@ msgid "Working user on this work order."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Usuário trabalhando nesta ordem de trabalho."
+>>>>>>> upstream/18.0
 =======
 msgstr "Usuário trabalhando nesta ordem de trabalho."
 >>>>>>> upstream/18.0
@@ -256408,7 +258733,11 @@ msgid "Worksheet"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Folha de trabalho"
+>>>>>>> upstream/18.0
 =======
 msgstr "Folha de trabalho"
 >>>>>>> upstream/18.0
@@ -257204,7 +259533,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -257509,6 +259841,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -257819,6 +260154,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Você não pode criar uma lista de materiais do tipo kit para produtos que têm "
+"ao menos uma regra de reposição."
+>>>>>>> upstream/18.0
 =======
 "Você não pode criar uma lista de materiais do tipo kit para produtos que têm "
 "ao menos uma regra de reposição."
@@ -258231,6 +260571,7 @@ msgid ""
 "You can not delete a Bill of Material with running manufacturing orders.\n"
 "Please close or cancel it first."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -258873,6 +261214,10 @@ msgstr ""
 "Não pode eliminar uma 'Conta de Material' com encomendas de produção a "
 "decorrer.\n"
 >>>>>>> upstream/18.0
+=======
+"Não pode eliminar uma 'Conta de Material' com encomendas de produção a "
+"decorrer.\n"
+>>>>>>> upstream/18.0
 "Por favor, feche-as ou cancele-as primeiro."
 
 #. module: mrp
@@ -258982,6 +261327,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Só é possível mesclar ordens de produção de produtos idênticos com a mesma "
+"LM."
+>>>>>>> upstream/18.0
 =======
 "Só é possível mesclar ordens de produção de produtos idênticos com a mesma "
 "LM."
@@ -259495,6 +261845,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Só é possível mesclar ordens de produção sem componentes ou subprodutos "
+"adicionais."
+>>>>>>> upstream/18.0
 =======
 "Só é possível mesclar ordens de produção sem componentes ou subprodutos "
 "adicionais."
@@ -260005,7 +262360,11 @@ msgid "You can only merge manufacturing with the same operation type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Só é possível mesclar fabricações com o mesmo tipo de operação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Só é possível mesclar fabricações com o mesmo tipo de operação"
 >>>>>>> upstream/18.0
@@ -260415,7 +262774,10 @@ msgid "You can only merge manufacturing with the same state."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -260722,6 +263084,9 @@ msgid "You cannot cancel a manufacturing order that is already done."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -260929,6 +263294,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -261342,6 +263708,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "You cannot change the workcenter of a work order that is in progress or done."
 msgstr ""
 "Não é possível alterar o centro de trabalho de uma ordem de trabalho que "
@@ -261446,6 +263814,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -261753,7 +264124,11 @@ msgid "You cannot create a new Bill of Material from here."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não é possível criar uma lista de materiais a partir daqui."
+>>>>>>> upstream/18.0
 =======
 msgstr "Não é possível criar uma lista de materiais a partir daqui."
 >>>>>>> upstream/18.0
@@ -262164,7 +264539,10 @@ msgid "You cannot create cyclic dependency."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -262471,6 +264849,9 @@ msgid "You cannot delete a manufacturing order that is already done."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -262780,6 +265161,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Não é possível excluir uma ordem de desmontagem se a situação for "
+"\"Concluído\"."
+>>>>>>> upstream/18.0
 =======
 "Não é possível excluir uma ordem de desmontagem se a situação for "
 "\"Concluído\"."
@@ -263290,7 +265676,11 @@ msgid "You cannot have %s  as the finished product and in the Byproducts"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não é possível ter %s como produto acabado e nos subprodutos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Não é possível ter %s como produto acabado e nos subprodutos"
 >>>>>>> upstream/18.0
@@ -263701,6 +266091,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Não é possível vincular esta ordem de trabalho a outra ordem de produção."
+>>>>>>> upstream/18.0
 =======
 "Não é possível vincular esta ordem de trabalho a outra ordem de produção."
 >>>>>>> upstream/18.0
@@ -264111,6 +266505,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Não é possível mover uma ordem de produção depois de cancelada ou concluída."
+>>>>>>> upstream/18.0
 =======
 "Não é possível mover uma ordem de produção depois de cancelada ou concluída."
 >>>>>>> upstream/18.0
@@ -264520,7 +266918,11 @@ msgid "You cannot produce the same serial number twice."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não é possível produzir o mesmo número de série duas vezes."
+>>>>>>> upstream/18.0
 =======
 msgstr "Não é possível produzir o mesmo número de série duas vezes."
 >>>>>>> upstream/18.0
@@ -264936,7 +267338,11 @@ msgid "You cannot unbuild a undone manufacturing order."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não é possível desmontar uma ordem de produção anulada."
+>>>>>>> upstream/18.0
 =======
 msgstr "Não é possível desmontar uma ordem de produção anulada."
 >>>>>>> upstream/18.0
@@ -265349,6 +267755,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Não é possível usar a funcionalidade \"Aplicar na variante\" e criar "
+"simultaneamente uma LM para uma variante específica."
+>>>>>>> upstream/18.0
 =======
 "Não é possível usar a funcionalidade \"Aplicar na variante\" e criar "
 "simultaneamente uma LM para uma variante específica."
@@ -265890,10 +268301,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            Please review your component consumption or ask a manager to validate\n"
 "                            <span invisible=\"mrp_production_count != 1\">this manufacturing order</span>\n"
 "                            <span invisible=\"mrp_production_count == 1\">these manufacturing orders</span>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -266281,6 +268695,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -266644,7 +269061,11 @@ msgid "You need at least two production orders to merge them."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "É necessário pelo menos duas ordens de produção para mesclá-las."
+>>>>>>> upstream/18.0
 =======
 msgstr "É necessário pelo menos duas ordens de produção para mesclá-las."
 >>>>>>> upstream/18.0
@@ -267058,6 +269479,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"É necessário definir pelo menos uma perda de produtividade na categoria "
+"'Desempenho'. Crie uma a partir do aplicativo de Fabricação, no menu "
+"Configuração > Perdas de produtividade."
+>>>>>>> upstream/18.0
 =======
 "É necessário definir pelo menos uma perda de produtividade na categoria "
 "'Desempenho'. Crie uma a partir do aplicativo de Fabricação, no menu "
@@ -267569,6 +269996,7 @@ msgstr ""
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid ""
 "You need to define at least one productivity loss in the category "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -268009,6 +270437,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "'Productivity'. Create one from the Manufacturing app, menu: Configuration / "
 "Productivity Losses."
 msgstr ""
@@ -268115,6 +270545,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -268426,6 +270859,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Você precisa definir pelo menos uma perda de produtividade não ativa na "
+"categoria 'Desempenho'. Crie uma a partir do aplicativo de Fabricação, no "
+"menu Configuração/Perdas de produtividade."
+>>>>>>> upstream/18.0
 =======
 "Você precisa definir pelo menos uma perda de produtividade não ativa na "
 "categoria 'Desempenho'. Crie uma a partir do aplicativo de Fabricação, no "
@@ -269037,7 +271476,11 @@ msgid "You need to provide a lot for the finished product."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "É necessário fornecer o lote para o produto acabado."
+>>>>>>> upstream/18.0
 =======
 msgstr "É necessário fornecer o lote para o produto acabado."
 >>>>>>> upstream/18.0
@@ -269346,6 +271789,7 @@ msgstr "É necessário fornecer o lote para o produto acabado."
 #. odoo-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -269988,6 +272432,10 @@ msgid ""
 "You need to supply Lot/Serial Number for products and 'consume' them: %"
 "(missing_products)s"
 >>>>>>> upstream/18.0
+=======
+"You need to supply Lot/Serial Number for products and 'consume' them: %"
+"(missing_products)s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mrp
@@ -270100,7 +272548,11 @@ msgid "You should provide a lot number for the final product."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "É necessário fornecer um número de lote para o produto final."
+>>>>>>> upstream/18.0
 =======
 msgstr "É necessário fornecer um número de lote para o produto final."
 >>>>>>> upstream/18.0
@@ -270519,7 +272971,11 @@ msgid "ZPL"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ZPL"
+>>>>>>> upstream/18.0
 =======
 msgstr "ZPL"
 >>>>>>> upstream/18.0
@@ -270944,7 +273400,11 @@ msgid "expected duration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "duração prevista"
+>>>>>>> upstream/18.0
 =======
 msgstr "duração prevista"
 >>>>>>> upstream/18.0
@@ -271358,7 +273818,11 @@ msgid "it is added as a component in a manufacturing order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "é adicionado como um componente em uma ordem de produção"
+>>>>>>> upstream/18.0
 =======
 msgstr "é adicionado como um componente em uma ordem de produção"
 >>>>>>> upstream/18.0
@@ -271770,6 +274234,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"é movido por meio de uma transferência, como um recibo ou um pedido de "
+"entrega, por exemplo."
+>>>>>>> upstream/18.0
 =======
 "é movido por meio de uma transferência, como um recibo ou um pedido de "
 "entrega, por exemplo."
@@ -272279,7 +274748,11 @@ msgid "last"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "últimas"
+>>>>>>> upstream/18.0
 =======
 msgstr "últimas"
 >>>>>>> upstream/18.0
@@ -272689,7 +275162,11 @@ msgid "manufacturing order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ordem de produção"
+>>>>>>> upstream/18.0
 =======
 msgstr "ordem de produção"
 >>>>>>> upstream/18.0
@@ -273099,7 +275576,11 @@ msgid "merged"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "mescladas"
+>>>>>>> upstream/18.0
 =======
 msgstr "mescladas"
 >>>>>>> upstream/18.0
@@ -273526,7 +276007,11 @@ msgid "per workcenter"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "por centro de trabalho"
+>>>>>>> upstream/18.0
 =======
 msgstr "por centro de trabalho"
 >>>>>>> upstream/18.0
@@ -273940,7 +276425,11 @@ msgid "real duration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "duração real"
+>>>>>>> upstream/18.0
 =======
 msgstr "duração real"
 >>>>>>> upstream/18.0
@@ -274350,7 +276839,11 @@ msgid "split"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "split"
+>>>>>>> upstream/18.0
 =======
 msgstr "split"
 >>>>>>> upstream/18.0
@@ -274658,6 +277151,7 @@ msgstr "split"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_routing_workcenter_form_view
 msgid "work orders"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -275127,6 +277621,9 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "ordens de trabalho"
 >>>>>>> upstream/18.0
 =======
 msgstr "ordens de trabalho"

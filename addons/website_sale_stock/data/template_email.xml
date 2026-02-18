@@ -182,7 +182,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <p t-esc="product.list_price" t-options="{'widget': 'monetary', 'display_currency': product.currency_id}"/>
+=======
+                <p t-esc="product.list_price" t-options="{'widget': 'monetary', 'display_currency': product.currency_id}" hidden=""/>
+>>>>>>> upstream/18.0
 =======
                 <p t-esc="product.list_price" t-options="{'widget': 'monetary', 'display_currency': product.currency_id}" hidden=""/>
 >>>>>>> upstream/18.0

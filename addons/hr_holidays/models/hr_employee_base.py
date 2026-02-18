@@ -201,9 +201,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from datetime import datetime, date, timezone, timedelta
 from dateutil.relativedelta import relativedelta
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -808,6 +811,9 @@ import pytz
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1483,7 +1489,10 @@ class HrEmployeeBase(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1894,6 +1903,14 @@ class HrEmployeeBase(models.AbstractModel):
         return self.env.user.employee_id
 
     def _get_consumed_leaves(self, leave_types, target_date=False, ignore_future=False):
+<<<<<<< HEAD
+=======
+        """
+        :context precomputed_allocations: context variable (recordset) can be used to pass allocation that are considered to be already computed.
+        This method won't call `_get_future_leaves_on` for the allocations contained by this variable (it will only use the current value of
+        the`number_of_days` of the allocation, alias `number_of_hours_display`)
+        """
+>>>>>>> upstream/18.0
         employees = self or self._get_contextual_employee()
         leaves_domain = [
             ('holiday_status_id', 'in', leave_types.ids),
@@ -1969,10 +1986,23 @@ class HrEmployeeBase(models.AbstractModel):
                 'to_recheck_leaves': self.env['hr.leave']
             })
         )
+<<<<<<< HEAD
         for allocation in allocations:
             allocation_data = allocations_leaves_consumed[allocation.employee_id][allocation.holiday_status_id][allocation]
             future_leaves = 0
             if allocation.allocation_type == 'accrual':
+=======
+        precomputed_allocations = self.env.context.get('precomputed_allocations')
+        for allocation in allocations:
+            allocation_data = allocations_leaves_consumed[allocation.employee_id][allocation.holiday_status_id][allocation]
+            precomputed = False
+            if precomputed_allocations:
+                if allocation.id in precomputed_allocations.ids:
+                    allocation = precomputed_allocations.filtered(lambda alloc: alloc._origin.id == allocation.id)[0]
+                    precomputed = True
+            future_leaves = 0
+            if allocation.allocation_type == 'accrual' and not precomputed:
+>>>>>>> upstream/18.0
                 future_leaves = allocation._get_future_leaves_on(target_date)
             max_leaves = allocation.number_of_hours_display\
                 if allocation.holiday_status_id.request_unit in ['hour']\
@@ -1996,7 +2026,15 @@ class HrEmployeeBase(models.AbstractModel):
                         allocations_with_date_to |= leave_allocation
                     else:
                         allocations_without_date_to |= leave_allocation
+<<<<<<< HEAD
                 sorted_leave_allocations = allocations_with_date_to.sorted(key='date_to') + allocations_without_date_to
+=======
+                # Defines the order in which allocation will be used to take the leaves in priority
+                sorted_leave_allocations = (
+                    allocations_with_date_to.sorted(key='date_to') +
+                    allocations_without_date_to.filtered(lambda alloc: alloc.allocation_type == 'accrual') +
+                    allocations_without_date_to.filtered(lambda alloc: alloc.allocation_type == 'regular'))
+>>>>>>> upstream/18.0
 
                 if leave_type.request_unit in ['day', 'half_day']:
                     leave_duration_field = 'number_of_days'
@@ -2007,6 +2045,7 @@ class HrEmployeeBase(models.AbstractModel):
 
                 leave_type_data = allocations_leaves_consumed[employee][leave_type]
                 for leave in leaves_per_employee_type[employee][leave_type].sorted('date_from'):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2166,6 +2205,9 @@ class HrEmployeeBase(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
                     leave_duration = leave._get_durations()[leave.id][0 if leave_unit == 'days' else 1]
+>>>>>>> upstream/18.0
+=======
+                    leave_duration = leave[leave_duration_field]
 >>>>>>> upstream/18.0
 =======
                     leave_duration = leave[leave_duration_field]
@@ -2819,6 +2861,9 @@ class HrEmployeeBase(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3415,7 +3460,11 @@ class HrEmployeeBase(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if leave_type.requires_allocation == 'no' or not leave_type.show_on_dashboard:
+=======
+                if leave_type.requires_allocation == 'no' or not leave_type.show_on_dashboard or not leave_type.active:
+>>>>>>> upstream/18.0
 =======
                 if leave_type.requires_allocation == 'no' or not leave_type.show_on_dashboard or not leave_type.active:
 >>>>>>> upstream/18.0
@@ -4072,11 +4121,14 @@ class HrEmployeeBase(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 self.env['hr.leave'].search([
                     ('employee_id', 'in', self.ids),
                     ('resource_calendar_id', '!=', int(values['resource_calendar_id'])),
                     ('date_from', '>', fields.Datetime.now())]).write({'resource_calendar_id': values['resource_calendar_id']})
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4199,6 +4251,9 @@ class HrEmployeeBase(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

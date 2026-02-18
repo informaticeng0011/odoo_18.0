@@ -69,7 +69,11 @@ class MailTestAccessCusto(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     _inherit = ['mail.thread.blacklist']
+=======
+    _inherit = ['mail.thread.blacklist', 'mail.activity.mixin']
+>>>>>>> upstream/18.0
 =======
     _inherit = ['mail.thread.blacklist', 'mail.activity.mixin']
 >>>>>>> upstream/18.0
@@ -211,6 +215,10 @@ class MailTestAccessCusto(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    is_readonly = fields.Boolean()
+>>>>>>> upstream/18.0
 =======
     is_readonly = fields.Boolean()
 >>>>>>> upstream/18.0
@@ -348,6 +356,7 @@ class MailTestAccessCusto(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # customize message creation
         if operation == "create":
             if any(record.is_locked for record in self.browse(res_ids)):
@@ -421,6 +430,8 @@ class MailTestAccessCusto(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         # customize message creation: only unlocked, except admins
         records = self.browse(res_ids).with_prefetch(self._prefetch_ids)  # force prefetch, lost otherwise with rebrowsing
         if operation == "create":
@@ -432,6 +443,9 @@ class MailTestAccessCusto(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -451,6 +465,7 @@ class MailTestAccessCusto(models.Model):
             return "read"
         # customize read: read access on unlocked, write access on locked
         elif operation == "read":
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -534,6 +549,11 @@ class MailTestAccessCusto(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+            if any(record.is_locked for record in records):
+                return "write"
+            return "read"
 >>>>>>> upstream/18.0
 =======
             if any(record.is_locked for record in records):

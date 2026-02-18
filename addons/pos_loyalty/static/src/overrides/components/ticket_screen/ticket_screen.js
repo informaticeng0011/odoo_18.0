@@ -52,12 +52,18 @@ patch(TicketScreen.prototype, {
         return false;
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     async _setOrder() {
         await super._setOrder(...arguments);
         if (this.pos.isOpenOrderShareable()) {
             this.pos.updateRewards();
         }
     },
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 });

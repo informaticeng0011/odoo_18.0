@@ -159,6 +159,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from urllib.parse import urlencode
+
+>>>>>>> upstream/18.0
 =======
 from urllib.parse import urlencode
 
@@ -960,7 +965,13 @@ class TestUIPortal(TestPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_star_message(self):
+=======
+
+    def setUp(self):
+        super().setUp()
+>>>>>>> upstream/18.0
 =======
 
     def setUp(self):
@@ -1924,6 +1935,11 @@ class TestUIPortal(TestPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+    def test_star_message(self):
+>>>>>>> upstream/18.0
 =======
 
     def test_star_message(self):
@@ -2724,7 +2740,10 @@ class TestUIPortal(TestPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3060,6 +3079,7 @@ class TestUIPortal(TestPortal):
 
     def test_rating_record_portal(self):
         record_rating = self.env["mail.test.rating"].create({"name": "Test rating record"})
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3538,6 +3558,8 @@ class TestUIPortal(TestPortal):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         # To check if there is no message with rating, there is no rating cards feature.
         record_rating.message_post(
             body="Message without rating",
@@ -3599,6 +3621,9 @@ class TestUIPortal(TestPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

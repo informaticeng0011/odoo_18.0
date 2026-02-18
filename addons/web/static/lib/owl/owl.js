@@ -684,7 +684,11 @@
     const characterDataSetData = getDescriptor$1(characterDataProto, "data").set;
     const nodeGetFirstChild = getDescriptor$1(nodeProto$2, "firstChild").get;
     const nodeGetNextSibling = getDescriptor$1(nodeProto$2, "nextSibling").get;
+<<<<<<< HEAD
     const NO_OP = () => { };
+=======
+    const NO_OP$1 = () => { };
+>>>>>>> upstream/18.0
     function makePropSetter(name) {
         return function setProp(value) {
             // support 0, fallback to empty string for other falsy values
@@ -1014,7 +1018,11 @@
                         idx: info.idx,
                         refIdx: info.refIdx,
                         setData: makeRefSetter(index, ctx.refList),
+<<<<<<< HEAD
                         updateData: NO_OP,
+=======
+                        updateData: NO_OP$1,
+>>>>>>> upstream/18.0
                     });
             }
         }
@@ -1640,6 +1648,10 @@
             let current = fiber;
             do {
                 current.node.fiber = current;
+<<<<<<< HEAD
+=======
+                fibersInError.set(current, error);
+>>>>>>> upstream/18.0
                 current = current.parent;
             } while (current);
             fibersInError.set(fiber.root, error);
@@ -2386,6 +2398,7 @@
         const node = getCurrent();
         let render = batchedRenderFunctions.get(node);
         if (!render) {
+<<<<<<< HEAD
             render = batched(node.render.bind(node, false));
             batchedRenderFunctions.set(node, render);
             // manual implementation of onWillDestroy to break cyclic dependency
@@ -2393,6 +2406,21 @@
         }
         return reactive(state, render);
     }
+=======
+            const wrapper = { fn: batched(node.render.bind(node, false)) };
+            render = (...args) => wrapper.fn(...args);
+            batchedRenderFunctions.set(node, render);
+            // manual implementation of onWillDestroy to break cyclic dependency
+            node.willDestroy.push(cleanupRenderAndReactives.bind(null, wrapper, render));
+        }
+        return reactive(state, render);
+    }
+    const NO_OP = () => { };
+    function cleanupRenderAndReactives(wrapper, render) {
+        wrapper.fn = NO_OP;
+        clearReactivesForCallback(render);
+    }
+>>>>>>> upstream/18.0
     class ComponentNode {
         constructor(C, props, app, parent, parentKey) {
             this.fiber = null;
@@ -4024,8 +4052,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const TRANSLATABLE_ATTRS = ["label", "title", "placeholder", "alt"];
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4546,6 +4577,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5713,7 +5747,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const n = ast.content.filter((c) => c.type !== 6 /* TSet */).length;
+=======
+                const n = ast.content.filter((c) => !c.hasNoRepresentation).length;
+>>>>>>> upstream/18.0
 =======
                 const n = ast.content.filter((c) => !c.hasNoRepresentation).length;
 >>>>>>> upstream/18.0
@@ -6315,6 +6353,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const isTSet = child.type === 6 /* TSet */;
                 const subCtx = createContext(ctx, {
                     block,
@@ -6325,6 +6364,8 @@
                 this.compileAST(child, subCtx);
                 if (!isTSet) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6772,6 +6813,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7651,6 +7695,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             parseTEscNode(node, ctx) ||
             parseTOutNode(node, ctx) ||
             parseTKey(node, ctx) ||
@@ -8071,6 +8116,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             parseTTranslation(node, ctx) ||
             parseTTranslationContext(node, ctx) ||
             parseTKey(node, ctx) ||
@@ -8222,6 +8269,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8729,11 +8779,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return {
                 type: 12 /* TDebug */,
                 content: parseNode(node, ctx),
             };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9181,6 +9234,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9625,12 +9681,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return {
                 type: 13 /* TLog */,
                 expr,
                 content: parseNode(node, ctx),
             };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10079,6 +10138,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10748,12 +10810,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const body = parseNode(node, ctx);
         if (!body) {
             return null;
         }
         return { type: 10 /* TKey */, expr: key, content: body };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11205,6 +11270,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11753,7 +11821,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return { type: 6 /* TSet */, name, value, defaultValue, body };
+=======
+        return { type: 6 /* TSet */, name, value, defaultValue, body, hasNoRepresentation: true };
+>>>>>>> upstream/18.0
 =======
         return { type: 6 /* TSet */, name, value, defaultValue, body, hasNoRepresentation: true };
 >>>>>>> upstream/18.0
@@ -12520,7 +12592,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12966,6 +13041,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13411,11 +13489,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return {
             type: 16 /* TTranslation */,
             content: parseNode(node, ctx),
         };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13860,6 +13941,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14304,7 +14388,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14754,6 +14841,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15200,12 +15290,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return {
             type: 17 /* TTranslationContext */,
             content: parseNode(node, ctx),
             translationCtx,
         };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15650,6 +15743,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16134,7 +16230,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16580,6 +16679,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17032,7 +17134,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 return { type: 3 /* Multi */, content: children };
+=======
+                return makeASTMulti(children);
+>>>>>>> upstream/18.0
 =======
                 return makeASTMulti(children);
 >>>>>>> upstream/18.0
@@ -17748,6 +17854,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const version = "2.7.0";
 =======
     const version = "2.8.0";
@@ -18262,6 +18369,9 @@
 =======
     const version = "2.8.1";
 >>>>>>> upstream/18.0
+=======
+    const version = "2.8.2";
+>>>>>>> upstream/18.0
 
     // -----------------------------------------------------------------------------
     //  Scheduler
@@ -18770,6 +18880,7 @@
     Object.defineProperty(exports, '__esModule', { value: true });
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19626,6 +19737,10 @@
 =======
     __info__.date = '2025-09-23T07:17:45.055Z';
     __info__.hash = '5211116';
+>>>>>>> upstream/18.0
+=======
+    __info__.date = '2026-01-30T07:49:47.618Z';
+    __info__.hash = '52abf8d';
 >>>>>>> upstream/18.0
     __info__.url = 'https://github.com/odoo/owl';
 

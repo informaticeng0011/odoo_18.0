@@ -103,7 +103,11 @@ class CustomerPortal(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             total=SaleOrder.search_count(domain),
+=======
+            total=SaleOrder.search_count(domain) if SaleOrder.has_access('read') else 0,
+>>>>>>> upstream/18.0
 =======
             total=SaleOrder.search_count(domain) if SaleOrder.has_access('read') else 0,
 >>>>>>> upstream/18.0
@@ -212,7 +216,11 @@ class CustomerPortal(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         orders = SaleOrder.search(domain, order=sort_order, limit=self._items_per_page, offset=pager_values['offset'])
+=======
+        orders = SaleOrder.search(domain, order=sort_order, limit=self._items_per_page, offset=pager_values['offset']) if SaleOrder.has_access('read') else SaleOrder
+>>>>>>> upstream/18.0
 =======
         orders = SaleOrder.search(domain, order=sort_order, limit=self._items_per_page, offset=pager_values['offset']) if SaleOrder.has_access('read') else SaleOrder
 >>>>>>> upstream/18.0
@@ -379,7 +387,13 @@ class CustomerPortal(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if request.env.user.share and access_token:
+=======
+        # If the route is fetched from the link previewer avoid triggering that quotation is viewed.
+        is_link_preview = request.httprequest.headers.get('Odoo-Link-Preview')
+        if request.env.user.share and access_token and is_link_preview != 'True':
+>>>>>>> upstream/18.0
 =======
         # If the route is fetched from the link previewer avoid triggering that quotation is viewed.
         is_link_preview = request.httprequest.headers.get('Odoo-Link-Preview')
@@ -677,7 +691,11 @@ class CustomerPortal(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             order_sudo, access_token, values, history_session_key, False)
+=======
+            order_sudo, access_token, values, history_session_key, False, **kw)
+>>>>>>> upstream/18.0
 =======
             order_sudo, access_token, values, history_session_key, False, **kw)
 >>>>>>> upstream/18.0
@@ -1181,7 +1199,12 @@ class CustomerPortal(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             request.env.cr.commit()
+=======
+            # flush now to make signature data available to PDF render request
+            request.env.cr.flush()
+>>>>>>> upstream/18.0
 =======
             # flush now to make signature data available to PDF render request
             request.env.cr.flush()
@@ -1983,6 +2006,12 @@ class PaymentPortal(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if order_sudo.is_expired:
+                raise ValidationError(_("The sale order has expired."))
+
+>>>>>>> upstream/18.0
 =======
             if order_sudo.is_expired:
                 raise ValidationError(_("The sale order has expired."))

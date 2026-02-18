@@ -203,6 +203,12 @@ The following topics are covered by this module:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'web.assets_tests': [
+            'repair/static/tests/tours/*.js',
+        ],
+>>>>>>> upstream/18.0
 =======
         'web.assets_tests': [
             'repair/static/tests/tours/*.js',

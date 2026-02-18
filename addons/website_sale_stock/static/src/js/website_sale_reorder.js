@@ -212,11 +212,14 @@ patch(ReorderDialog.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (product.combinationInfo.allow_out_of_stock_order || ! product.is_storable) {
             return;
         }
         product.max_quantity_available = product.combinationInfo.free_qty;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -789,6 +792,9 @@ patch(ReorderDialog.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

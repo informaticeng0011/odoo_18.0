@@ -321,7 +321,11 @@ class TestAccountComposerPerformance(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 sending_methods=['email'],
+=======
+                sending_methods={'email'},
+>>>>>>> upstream/18.0
 =======
                 sending_methods={'email'},
 >>>>>>> upstream/18.0
@@ -1223,11 +1227,14 @@ class TestAccountMoveSendCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         wizard_model = 'account.move.send.wizard' if len(invoices) == 1 else 'account.move.send.batch.wizard'
         return self.env[wizard_model]\
             .with_context(active_model='account.move', active_ids=invoices.ids)\
             .create(kwargs)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1454,6 +1461,9 @@ class TestAccountMoveSendCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2014,6 +2024,12 @@ class TestAccountMoveSend(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertEqual(wizard.summary_data, {
+            'email': {'count': 1, 'label': 'by Email'},  # Only one will be actually sent by email
+        })
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(wizard.summary_data, {
             'email': {'count': 1, 'label': 'by Email'},  # Only one will be actually sent by email
@@ -3259,6 +3275,17 @@ class TestAccountMoveSend(TestAccountMoveSendCommon):
         self.assertTrue(invoice2.invoice_pdf_report_id)
         self.assertTrue(self._get_mail_message(invoice2))
 
+<<<<<<< HEAD
+=======
+    def test_invoice_multi_cron_disabled_alert(self):
+        invoice1 = self.init_invoice("out_invoice", partner=self.partner_a, amounts=[1000], post=True)
+        invoice2 = self.init_invoice("out_invoice", partner=self.partner_b, amounts=[1000], post=True)
+        self.env.ref('account.ir_cron_account_move_send').active = False
+        wizard = self.create_send_and_print(invoice1 + invoice2)
+        self.assertTrue('account_send_cron_archived' in wizard.alerts)
+        self.assertEqual(wizard.alerts['account_send_cron_archived']['level'], 'warning')
+
+>>>>>>> upstream/18.0
     def test_invoice_multi_with_edi(self):
         invoice1 = self.init_invoice("out_invoice", partner=self.partner_a, amounts=[1000], post=True)
         invoice2 = self.init_invoice("out_invoice", partner=self.partner_b, amounts=[1000], post=True)
@@ -3448,7 +3475,10 @@ class TestAccountMoveSend(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3938,6 +3968,9 @@ class TestAccountMoveSend(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4692,7 +4725,13 @@ class TestAccountMoveSend(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         wizard = self.create_send_and_print(invoice, mail_template_id=None, mail_subject=custom_subject)
+=======
+        wizard = self.create_send_and_print(invoice)
+        wizard.mail_template_id = None
+        wizard.mail_subject = custom_subject
+>>>>>>> upstream/18.0
 =======
         wizard = self.create_send_and_print(invoice)
         wizard.mail_template_id = None
@@ -6341,6 +6380,10 @@ class TestAccountMoveSend(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertFalse(wizard.sending_methods)
+>>>>>>> upstream/18.0
 =======
         self.assertFalse(wizard.sending_methods)
 >>>>>>> upstream/18.0
@@ -7089,6 +7132,7 @@ class TestAccountMoveSend(TestAccountMoveSendCommon):
     def test_get_sending_settings(self):
         invoice = self.init_invoice("out_invoice", amounts=[1000], post=True)
         wizard = self.create_send_and_print(invoice)
+<<<<<<< HEAD
         
         expected_results = {
 <<<<<<< HEAD
@@ -8048,6 +8092,13 @@ class TestAccountMoveSend(TestAccountMoveSendCommon):
             'invoice_edi_format': False,
             'extra_edis': set(),
 >>>>>>> upstream/18.0
+=======
+
+        expected_results = {
+            'sending_methods': {'email'},
+            'invoice_edi_format': False,
+            'extra_edis': set(),
+>>>>>>> upstream/18.0
             'pdf_report': self.env.ref('account.account_invoices'),
             'author_user_id': self.env.user.id,
             'author_partner_id': self.env.user.partner_id.id,
@@ -8219,7 +8270,10 @@ class TestAccountMoveSend(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8724,6 +8778,9 @@ class TestAccountMoveSend(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

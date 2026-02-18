@@ -215,7 +215,11 @@ options.registry.WebsiteEvent = options.Class.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const objectIds = this.currentWebsiteUrl.match(/\d+(?![-\w])/);
+=======
+        const objectIds = this.currentWebsiteUrl.match(/\d+(?=\/|$)/);
+>>>>>>> upstream/18.0
 =======
         const objectIds = this.currentWebsiteUrl.match(/\d+(?=\/|$)/);
 >>>>>>> upstream/18.0

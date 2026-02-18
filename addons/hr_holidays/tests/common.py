@@ -61,8 +61,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.mail.tests.common import mail_new_test_user
 from odoo.tests import common
+=======
+from odoo import fields
+from odoo.addons.mail.tests.common import mail_new_test_user
+from odoo.tests import common, Form
+>>>>>>> upstream/18.0
 =======
 from odoo import fields
 from odoo.addons.mail.tests.common import mail_new_test_user
@@ -420,6 +426,12 @@ class TestHrHolidaysCommon(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        cls.user_hrresponsible = mail_new_test_user(cls.env, login='jeremy', groups='base.group_user,hr_holidays.group_hr_holidays_responsible')
+        cls.user_hrresponsible_id = cls.user_hrresponsible.id
+
+>>>>>>> upstream/18.0
 =======
         cls.user_hrresponsible = mail_new_test_user(cls.env, login='jeremy', groups='base.group_user,hr_holidays.group_hr_holidays_responsible')
         cls.user_hrresponsible_id = cls.user_hrresponsible.id
@@ -663,7 +675,10 @@ class TestHrHolidaysCommon(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -775,6 +790,9 @@ class TestHrHolidaysCommon(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -916,7 +934,10 @@ class TestHrHolidaysCommon(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1047,6 +1068,19 @@ class TestHrHolidaysCommon(common.TransactionCase):
             self.assertEqual(allocation_data[employee][0][1]['remaining_leaves'],
                 value, f"Virtual leaves for date '{date}' are incorrect.")
 
+<<<<<<< HEAD
+=======
+    def _take_leave(self, employee, leave_type, date_from, date_to):
+        leave = self.env['hr.leave'].create({
+            'name': 'Leave',
+            'employee_id': employee.id,
+            'holiday_status_id': leave_type.id,
+            'request_date_from': date_from,
+            'request_date_to': date_to,
+        })
+        return leave
+
+>>>>>>> upstream/18.0
     def _create_form_test_accrual_allocation(self, leave_type, date_from, employee, accrual_plan, date_to=None, creator_user=None):
         allocation = self.env['hr.leave.allocation']
         if creator_user:
@@ -1120,6 +1154,7 @@ class TestHrHolidaysCommon(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1238,4 +1273,21 @@ class TestHrHolidaysCommon(common.TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def _create_form_test_regular_allocation(self, leave_type, date_from, employee, number_of_days, date_to=None, creator_user=None):
+        allocation = self.env['hr.leave.allocation']
+        if creator_user:
+            allocation = allocation.with_user(creator_user)
+        with Form(allocation, 'hr_holidays.hr_leave_allocation_view_form_manager') as form:
+            form.name = 'Test regular allocation'
+            form.allocation_type = 'regular'
+            form.employee_id = employee
+            form.holiday_status_id = leave_type
+            form.date_from = date_from
+            form.number_of_days_display = number_of_days
+            if date_to:
+                form.date_to = date_to
+        return form.record
 >>>>>>> upstream/18.0

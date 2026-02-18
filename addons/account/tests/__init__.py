@@ -186,9 +186,12 @@ from . import test_fiscal_position
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from . import test_sequence_mixin
 from . import test_tax
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -667,6 +670,9 @@ from . import test_taxes_base_lines_tax_details
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1216,6 +1222,10 @@ from . import test_account_payment_register
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import test_account_report
+>>>>>>> upstream/18.0
 =======
 from . import test_account_report
 >>>>>>> upstream/18.0
@@ -2071,6 +2081,7 @@ from . import test_account_move_attachment
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from . import test_account_move_auto_post
 >>>>>>> upstream/18.0
@@ -2141,6 +2152,11 @@ from . import test_dict_to_xml
 =======
 from . import test_account_move_auto_post
 from . import test_dict_to_xml
+>>>>>>> upstream/18.0
+=======
+from . import test_account_move_auto_post
+from . import test_dict_to_xml
+from . import test_duplicate_res_partner_bank
 >>>>>>> upstream/18.0
 =======
 from . import test_account_move_auto_post
