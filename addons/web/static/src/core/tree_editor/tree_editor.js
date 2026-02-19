@@ -45,6 +45,11 @@ function collectDifferences(tree, otherTree) {
                 return [{ type: "replacement", tree, operator: "set" }];
             } else if (tree.operator === "=" && otherTree.operator === "not_set") {
                 return [{ type: "replacement", tree, operator: "not_set" }];
+<<<<<<< HEAD
+=======
+            } else if (tree.operator === "starts_with" && otherTree.operator === "ends_with") {
+                return [{ type: "replacement", tree, operator: "ends_with" }];
+>>>>>>> upstream/18.0
             } else {
                 return [{ type: "other" }];
             }

@@ -168,7 +168,10 @@ patch(Message.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -593,7 +596,11 @@ patch(Message.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const data = await super.remove();
+=======
+        const data = await super.remove(...arguments);
+>>>>>>> upstream/18.0
 =======
         const data = await super.remove(...arguments);
 >>>>>>> upstream/18.0
@@ -1060,6 +1067,9 @@ patch(Message.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

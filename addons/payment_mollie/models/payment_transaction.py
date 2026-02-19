@@ -285,7 +285,11 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if payment_status == 'pending':
+=======
+        if payment_status in ('pending', 'open'):
+>>>>>>> upstream/18.0
 =======
         if payment_status in ('pending', 'open'):
 >>>>>>> upstream/18.0

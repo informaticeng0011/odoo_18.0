@@ -99,7 +99,11 @@ class WebsiteSaleL10nTW(WebsiteSale):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 errors['carrier_number'] = request.env._('Please enter the carrier number')
+=======
+                errors['carrier_number'] = request.env._('Please enter the storage code')
+>>>>>>> upstream/18.0
 =======
                 errors['carrier_number'] = request.env._('Please enter the storage code')
 >>>>>>> upstream/18.0
@@ -180,9 +184,15 @@ class WebsiteSaleL10nTW(WebsiteSale):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 errors['carrier_number'] = request.env._('Please enter the carrier number and carrier number 2')
         elif kw.get('l10n_tw_edi_is_donate') == 'on' and not self._is_valid_love_code(kw.get('l10n_tw_edi_love_code'), order):
             errors['love_code'] = request.env._('Love Code is invalid')
+=======
+                errors['carrier_number'] = request.env._('Please enter the storage code and storage code 2')
+        elif kw.get('l10n_tw_edi_is_donate') == 'on' and not self._is_valid_love_code(kw.get('l10n_tw_edi_love_code'), order):
+            errors['love_code'] = request.env._('Donation Code is invalid')
+>>>>>>> upstream/18.0
 =======
                 errors['carrier_number'] = request.env._('Please enter the storage code and storage code 2')
         elif kw.get('l10n_tw_edi_is_donate') == 'on' and not self._is_valid_love_code(kw.get('l10n_tw_edi_love_code'), order):

@@ -61,13 +61,19 @@ class SaleOrder(models.Model):
         purchase_to_notify_map = {}  # map PO -> recordset of SOL as {purchase.order: set(sale.orde.liner)}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         purchase_order_lines = self.env['purchase.order.line'].search([('sale_line_id', 'in', self.mapped('order_line').ids), ('state', '!=', 'cancel')])
 =======
+=======
+>>>>>>> upstream/18.0
         purchase_order_lines = self.env['purchase.order.line'].search([
             ('sale_line_id', 'in', self.mapped('order_line').ids),
             ('state', '!=', 'cancel'),
             ('product_id.service_to_purchase', '=', True),
         ])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         for purchase_line in purchase_order_lines:
             purchase_to_notify_map.setdefault(purchase_line.order_id, self.env['sale.order.line'])

@@ -178,8 +178,11 @@ describe("row", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 // @todo @phoenix: consider changing the behavior and placing the cursor
                 // inside the td (normalize deep)
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -202,7 +205,11 @@ describe("row", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <td>[]ef</td> <td>gh</td>
+=======
+                                <td>ef[]</td><td>gh</td>
+>>>>>>> upstream/18.0
 =======
                                 <td>ef[]</td><td>gh</td>
 >>>>>>> upstream/18.0
@@ -256,7 +263,11 @@ describe("row", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <td>[]ab</td> <td>cd</td>
+=======
+                                <td>ab[]</td><td>cd</td>
+>>>>>>> upstream/18.0
 =======
                                 <td>ab[]</td><td>cd</td>
 >>>>>>> upstream/18.0
@@ -534,7 +545,11 @@ describe("column", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <td>[]cd</td>
+=======
+                                <td>cd[]</td>
+>>>>>>> upstream/18.0
 =======
                                 <td>cd[]</td>
 >>>>>>> upstream/18.0
@@ -591,7 +606,11 @@ describe("column", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <td>[]ab</td>
+=======
+                                <td>ab[]</td>
+>>>>>>> upstream/18.0
 =======
                                 <td>ab[]</td>
 >>>>>>> upstream/18.0

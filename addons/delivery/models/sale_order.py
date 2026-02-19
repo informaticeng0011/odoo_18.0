@@ -166,7 +166,11 @@ class SaleOrder(models.Model):
             phone = order.partner_shipping_id.phone
 
             # Check if the current partner has a partner of type 'delivery' with the same address.
+<<<<<<< HEAD
             existing_partner = order.env['res.partner'].search([
+=======
+            existing_partner = order.env['res.partner'].with_context(active_test=False).search([
+>>>>>>> upstream/18.0
                 ('street', '=', street),
                 ('city', '=', city),
                 ('state_id', '=', state),
@@ -186,6 +190,11 @@ class SaleOrder(models.Model):
                 'country_id': country,
                 'email': email,
                 'phone': phone,
+<<<<<<< HEAD
+=======
+                # Archive partner to prevent selection from the UI for Click&Collect.
+                'active': order.carrier_id.delivery_type != 'in_store',
+>>>>>>> upstream/18.0
             })
             order.with_context(update_delivery_shipping_partner=True).write({'partner_shipping_id': shipping_partner})
         return super()._action_confirm()

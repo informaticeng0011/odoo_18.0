@@ -32,7 +32,10 @@ class ResConfigSettings(models.TransientModel):
               }
           }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def _l10n_in_gsp_provider_changed(self):
         """
@@ -43,4 +46,7 @@ class ResConfigSettings(models.TransientModel):
             'l10n_in_edi_ewaybill_auth_validity': False,
         })
         super()._l10n_in_gsp_provider_changed()
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

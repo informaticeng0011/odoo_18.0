@@ -176,7 +176,11 @@ class View(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if type_ != 'qweb'
+=======
+            if type_ != 'qweb' and type_ in _view_info
+>>>>>>> upstream/18.0
 =======
             if type_ != 'qweb' and type_ in _view_info
 >>>>>>> upstream/18.0

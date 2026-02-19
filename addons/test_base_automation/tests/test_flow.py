@@ -938,11 +938,17 @@ class TestCompute(common.TransactionCase):
         })
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def tearDown(self):
         self.env['base.automation']._unregister_hook()
         super().tearDown()
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_automation_form_view(self):
         automation_form = Form(self.env['base.automation'], view='base_automation.view_base_automation_form')
@@ -1255,7 +1261,10 @@ class TestCompute(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1386,6 +1395,9 @@ class TestCompute(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1984,6 +1996,10 @@ class TestHttp(common.HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self._wait_remaining_requests()  # just in case the request timeouts
+>>>>>>> upstream/18.0
 =======
         self._wait_remaining_requests()  # just in case the request timeouts
 >>>>>>> upstream/18.0

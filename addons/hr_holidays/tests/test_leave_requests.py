@@ -125,7 +125,11 @@ from odoo import fields, Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.exceptions import UserError, ValidationError
+=======
+from odoo.exceptions import AccessError, UserError, ValidationError
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import AccessError, UserError, ValidationError
 >>>>>>> upstream/18.0
@@ -990,7 +994,11 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         })
+=======
+        }).action_validate()
+>>>>>>> upstream/18.0
 =======
         }).action_validate()
 >>>>>>> upstream/18.0
@@ -1694,7 +1702,11 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         })
+=======
+        }).action_validate()
+>>>>>>> upstream/18.0
 =======
         }).action_validate()
 >>>>>>> upstream/18.0
@@ -2389,7 +2401,12 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'hours_per_day': 8.0
+=======
+            'hours_per_day': 8.0,
+            'full_time_required_hours': 40
+>>>>>>> upstream/18.0
 =======
             'hours_per_day': 8.0,
             'full_time_required_hours': 40
@@ -3477,7 +3494,11 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(leave5.number_of_hours, 8)
+=======
+        self.assertEqual(leave5.number_of_hours, 10)
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(leave5.number_of_hours, 10)
 >>>>>>> upstream/18.0
@@ -4535,8 +4556,13 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.env['hr.leave.allocation'].create(allocation_vals)
         self.env['hr.leave.allocation'].create(allocation_vals)
+=======
+        self.env['hr.leave.allocation'].create(allocation_vals).action_validate()
+        self.env['hr.leave.allocation'].create(allocation_vals).action_validate()
+>>>>>>> upstream/18.0
 =======
         self.env['hr.leave.allocation'].create(allocation_vals).action_validate()
         self.env['hr.leave.allocation'].create(allocation_vals).action_validate()
@@ -5633,7 +5659,11 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             })
+=======
+            }).action_validate()
+>>>>>>> upstream/18.0
 =======
             }).action_validate()
 >>>>>>> upstream/18.0
@@ -6407,6 +6437,10 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'requires_allocation': 'no',
+>>>>>>> upstream/18.0
 =======
             'requires_allocation': 'no',
 >>>>>>> upstream/18.0
@@ -7059,6 +7093,10 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'requires_allocation': 'no',
+>>>>>>> upstream/18.0
 =======
             'requires_allocation': 'no',
 >>>>>>> upstream/18.0
@@ -7737,6 +7775,10 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'requires_allocation': 'no',
+>>>>>>> upstream/18.0
 =======
             'requires_allocation': 'no',
 >>>>>>> upstream/18.0
@@ -8459,6 +8501,10 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'full_time_required_hours': 40,
+>>>>>>> upstream/18.0
 =======
             'full_time_required_hours': 40,
 >>>>>>> upstream/18.0
@@ -9284,6 +9330,7 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self._check_holidays_status(holiday_status, employee, 20.0, 0.0, 20.0, 15.0)
         self.assertEqual(leave.duration_display, '5 days')
 =======
@@ -9449,6 +9496,10 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 =======
         self._check_holidays_status(holiday_status, employee, 20.0, 0.0, 20.0, 16.0)
         self.assertEqual(leave.duration_display, '4 days')
+>>>>>>> upstream/18.0
+=======
+        self._check_holidays_status(holiday_status, employee, 20.0, 0.0, 20.0, 15.0)
+        self.assertEqual(leave.duration_display, '5 days')
 >>>>>>> upstream/18.0
 =======
         self._check_holidays_status(holiday_status, employee, 20.0, 0.0, 20.0, 15.0)
@@ -10263,7 +10314,11 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         leave_form.holiday_status_id = self.holidays_type_2
+=======
+        leave_form.holiday_status_id = self.holidays_type_3
+>>>>>>> upstream/18.0
 =======
         leave_form.holiday_status_id = self.holidays_type_3
 >>>>>>> upstream/18.0
@@ -10975,7 +11030,10 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11462,6 +11520,9 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11958,8 +12019,11 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12446,6 +12510,9 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12947,7 +13014,11 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'holiday_status_id': self.holidays_type_2.id,
+=======
+            'holiday_status_id': self.holidays_type_1.id,
+>>>>>>> upstream/18.0
 =======
             'holiday_status_id': self.holidays_type_1.id,
 >>>>>>> upstream/18.0
@@ -13646,6 +13717,10 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'full_time_required_hours': 56,
+>>>>>>> upstream/18.0
 =======
             'full_time_required_hours': 56,
 >>>>>>> upstream/18.0
@@ -14427,7 +14502,10 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15048,6 +15126,7 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15132,6 +15211,8 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15559,6 +15640,7 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         leave = self.env['hr.leave'].with_user(self.user_hrmanager_id).create({
             'name': 'Holiday Request',
             'employee_id': self.employee_emp_id,
@@ -15568,6 +15650,8 @@ class TestLeaveRequests(TestHrHolidaysCommon):
             'number_of_days': 1,
         })
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15904,6 +15988,9 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16247,6 +16334,7 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16345,6 +16433,8 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16573,6 +16663,9 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <button t-att-data-type="props.type" class="o-we-table-menu fa" t-attf-class="fa-ellipsis-{{props.type === 'column' ? 'h w-100' : 'v h-100'}}" />
 =======
             <button t-on-pointerdown.prevent="() => {}" t-att-data-type="props.type" class="o-we-table-menu fa" t-attf-class="fa-ellipsis-{{props.type === 'column' ? 'h w-100' : 'v h-100'}}" />
@@ -26,6 +27,9 @@
 =======
             <button t-on-pointerdown.prevent="() => {}" t-att-data-type="props.type" class="o-we-table-menu fa" t-attf-class="fa-ellipsis-{{props.type === 'column' ? 'h w-100' : 'v h-100'}}" />
 >>>>>>> upstream/18.0
+=======
+            <button t-on-pointerdown.prevent="() => {}" t-att-data-type="props.type" class="o-we-table-menu fa" t-attf-class="fa-ellipsis-{{props.type === 'column' ? 'h' : 'v'}}" t-ref="dropdown"/>
+>>>>>>> upstream/18.0
             <t t-set-slot="content">
                 <div t-on-pointerdown.stop="() => {}">
                     <t t-foreach="items" t-as="item" t-key="item_index">
@@ -36,7 +40,11 @@
                             </div>
                         </DropdownItem>
                     </t>
+<<<<<<< HEAD
                  </div>
+=======
+                </div>
+>>>>>>> upstream/18.0
             </t>
         </Dropdown>
     </t>

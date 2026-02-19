@@ -14,11 +14,17 @@ def _urlencode_kwargs(**kwargs):
 @tagged("post_install_l10n", "post_install", "-at_install")
 class BaseAutomationTestUi(HttpCase):
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def tearDown(self):
         self.env['base.automation']._unregister_hook()
         super().tearDown()
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _neutralize_preexisting_automations(self, neutralize_action=True):
         self.env["base.automation"].with_context(active_test=False).search([]).write({"active": False})
@@ -172,7 +178,11 @@ class BaseAutomationTestUi(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             del context["active_test"]
+=======
+            del context["search_default_inactive"]
+>>>>>>> upstream/18.0
 =======
             del context["search_default_inactive"]
 >>>>>>> upstream/18.0

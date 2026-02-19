@@ -180,10 +180,13 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { registry } from "@web/core/registry";
 import { X2ManyField, x2ManyField } from "@web/views/fields/x2many/x2many_field";
 import { Many2XAutocomplete } from "@web/views/fields/relational_utils";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -667,6 +670,9 @@ import { ListRenderer } from "@web/views/list/list_renderer";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1600,7 +1606,10 @@ test("many2many kanban: conditional create/delete actions", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: "<search/>",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2657,7 +2666,10 @@ test("many2many list: conditional create/delete actions", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: "<search/>",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3300,7 +3312,10 @@ test("many2many field with link/unlink options (list)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: "<search/>",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3936,7 +3951,10 @@ test('many2many field with link/unlink options (list, create="0")', async () => 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: "<search/>",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4573,7 +4591,10 @@ test("many2many field with link option (kanban)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: "<search/>",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5211,7 +5232,10 @@ test('many2many field with link option (kanban, create="0")', async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: "<search/>",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5984,7 +6008,10 @@ test("many2many list (editable): edition concurrence", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6523,6 +6550,9 @@ test("many2many editable list: delete with confirmation (cancel, then delete aga
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7186,10 +7216,16 @@ test("onchange with 40+ commands for a many2many", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     for (var i = 0; i < 45; i++) {
         var id = 100 + i;
         PartnerType._records.push({ id: id, name: "type " + id });
         commands.push([4, id]);
+=======
+    for (let id = 100; id < 145; id++) {
+        PartnerType._records.push({ id, name: "type " + id });
+        commands.push(Command.link(id));
+>>>>>>> upstream/18.0
 =======
     for (let id = 100; id < 145; id++) {
         PartnerType._records.push({ id, name: "type " + id });
@@ -8446,10 +8482,16 @@ test("onchange with 40+ commands for a many2many on desktop", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     for (var i = 0; i < 45; i++) {
         var id = 100 + i;
         PartnerType._records.push({ id: id, name: "type " + id });
         commands.push([4, id]);
+=======
+    for (let id = 100; id < 145; id++) {
+        PartnerType._records.push({ id, name: "type " + id });
+        commands.push(Command.link(id));
+>>>>>>> upstream/18.0
 =======
     for (let id = 100; id < 145; id++) {
         PartnerType._records.push({ id, name: "type " + id });
@@ -9845,7 +9887,10 @@ test("select create with _view_ref as text", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search />`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

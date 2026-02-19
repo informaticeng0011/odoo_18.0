@@ -267,7 +267,11 @@ messageActionsRegistry
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 personas.find((persona) => persona.eq(component.store.self))
+=======
+                                component.props.thread.effectiveSelf.in(personas)
+>>>>>>> upstream/18.0
 =======
                                 component.props.thread.effectiveSelf.in(personas)
 >>>>>>> upstream/18.0
@@ -1105,7 +1109,12 @@ messageActionsRegistry
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             component.store.self.type === "partner",
+=======
+            component.store.self.type === "partner" &&
+            component.props.message.persistent,
+>>>>>>> upstream/18.0
 =======
             component.store.self.type === "partner" &&
             component.props.message.persistent,
@@ -1902,7 +1911,13 @@ messageActionsRegistry
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         message.remove();
+=======
+                        message.remove({
+                            removeFromThread: component.shouldHideFromMessageListOnDelete,
+                        });
+>>>>>>> upstream/18.0
 =======
                         message.remove({
                             removeFromThread: component.shouldHideFromMessageListOnDelete,
@@ -2587,12 +2602,15 @@ messageActionsRegistry
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         condition: (component) => component.props.message.isTranslatable(component.props.thread),
         icon: (component) =>
             `fa fa-language ${component.state.showTranslation ? "o-mail-Message-translated" : ""}`,
         title: (component) => (component.state.showTranslation ? _t("Revert") : _t("Translate")),
         onClick: (component) => component.onClickToggleTranslation(),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3065,6 +3083,9 @@ messageActionsRegistry
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3541,7 +3562,12 @@ messageActionsRegistry
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             component.message.message_type !== "user_notification",
+=======
+            component.message.message_type !== "user_notification" &&
+            (!component.props.thread.access_token || component.props.thread.hasReadAccess),
+>>>>>>> upstream/18.0
 =======
             component.message.message_type !== "user_notification" &&
             (!component.props.thread.access_token || component.props.thread.hasReadAccess),

@@ -132,7 +132,11 @@ export const ObservingCookieWidgetMixin = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             $(iframeEl).trigger("add_cookies_warning");
+=======
+            iframeEl.dispatchEvent(new Event("add_cookies_warning", { bubbles: true }));
+>>>>>>> upstream/18.0
 =======
             iframeEl.dispatchEvent(new Event("add_cookies_warning", { bubbles: true }));
 >>>>>>> upstream/18.0

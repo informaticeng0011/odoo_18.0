@@ -61,7 +61,10 @@ class MockIAPReveal(MockIAPEnrich):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.assertMinePayload(mine, params['data'])
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -173,6 +176,7 @@ class MockIAPReveal(MockIAPEnrich):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 iap_payload['company_data'] = company_data
 
                 if mine.search_type == 'people':
@@ -180,6 +184,9 @@ class MockIAPReveal(MockIAPEnrich):
                     iap_payload['people_data'] = people_data
 
                 response.append(iap_payload)
+=======
+                response.append(company_data)
+>>>>>>> upstream/18.0
 =======
                 response.append(company_data)
 >>>>>>> upstream/18.0
@@ -311,10 +318,14 @@ class MockIAPReveal(MockIAPEnrich):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         company_data = super(MockIAPReveal, self)._get_iap_company_data(base_name, service=service, add_values=add_values)
         if service == 'mine':
             company_data['phone'] = company_data['phone_numbers'][0]
             company_data['sector'] = 'Sector Info'
+=======
+        company_data = super()._get_iap_dnb_company_data(base_name, service=service, add_values=add_values)
+>>>>>>> upstream/18.0
 =======
         company_data = super()._get_iap_dnb_company_data(base_name, service=service, add_values=add_values)
 >>>>>>> upstream/18.0
@@ -439,6 +450,7 @@ class MockIAPReveal(MockIAPEnrich):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertTrue(bool(params['dbuuid']))
 
     def assertMinePayload(self, mine, payload):
@@ -453,6 +465,9 @@ class MockIAPReveal(MockIAPEnrich):
         self.assertEqual(payload['countries'], countries)
         self.assertEqual(payload['lead_number'], mine.lead_number)
         self.assertEqual(payload['search_type'], mine.search_type)
+=======
+        self.assertTrue(bool(params['db_uuid']))
+>>>>>>> upstream/18.0
 =======
         self.assertTrue(bool(params['db_uuid']))
 >>>>>>> upstream/18.0

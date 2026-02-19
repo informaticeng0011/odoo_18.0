@@ -52,6 +52,7 @@ class AccountEdiXmlUBL21(models.AbstractModel):
             'xrechnung': 'urn:cen.eu:en16931:2017#compliant#urn:xeinkauf.de:kosit:xrechnung_3.0',
             'ubl_a_nz': 'urn:cen.eu:en16931:2017#conformant#urn:fdc:peppol.eu:2017:poacc:billing:international:aunz:3.0',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'pint_jp': 'urn:peppol:pint:billing-1@jp-1',
             'pint_sg': 'urn:peppol:pint:billing-1@sg-1',
             'pint_my': 'urn:peppol:pint:billing-1@my-1',
@@ -832,6 +833,8 @@ class AccountEdiXmlUBL21(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             'oioubl_21': 'OIOUBL-2.1',
         }
 
@@ -873,6 +876,9 @@ class AccountEdiXmlUBL21(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1177,6 +1183,9 @@ class AccountEdiXmlUBL21(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -221,6 +221,12 @@ from odoo.addons.base.tests.common import BaseUsersCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.payment import utils as payment_utils
+from odoo.addons.website.tools import MockRequest
+from odoo.addons.website_sale.controllers.main import WebsiteSale
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.payment import utils as payment_utils
 from odoo.addons.website.tools import MockRequest
@@ -1610,7 +1616,10 @@ class TestWebsiteSaleDeliveryExpressCheckoutFlows(BaseUsersCommon, WebsiteSaleCo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2259,6 +2268,9 @@ class TestWebsiteSaleDeliveryExpressCheckoutFlows(BaseUsersCommon, WebsiteSaleCo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3070,7 +3082,11 @@ class TestWebsiteSaleDeliveryExpressCheckoutFlows(BaseUsersCommon, WebsiteSaleCo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             shipping_options = self.make_jsonrpc_request(
+=======
+            shipping_options_data = self.make_jsonrpc_request(
+>>>>>>> upstream/18.0
 =======
             shipping_options_data = self.make_jsonrpc_request(
 >>>>>>> upstream/18.0
@@ -3934,7 +3950,11 @@ class TestWebsiteSaleDeliveryExpressCheckoutFlows(BaseUsersCommon, WebsiteSaleCo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'shipping_option': shipping_options[0],
+=======
+                'shipping_option': shipping_options_data['delivery_methods'][0],
+>>>>>>> upstream/18.0
 =======
                 'shipping_option': shipping_options_data['delivery_methods'][0],
 >>>>>>> upstream/18.0
@@ -4822,7 +4842,11 @@ class TestWebsiteSaleDeliveryExpressCheckoutFlows(BaseUsersCommon, WebsiteSaleCo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'shipping_option': shipping_options[0],
+=======
+                    'shipping_option': shipping_options['delivery_methods'][0],
+>>>>>>> upstream/18.0
 =======
                     'shipping_option': shipping_options['delivery_methods'][0],
 >>>>>>> upstream/18.0
@@ -5470,3 +5494,27 @@ class TestWebsiteSaleDeliveryExpressCheckoutFlows(BaseUsersCommon, WebsiteSaleCo
             self.assertFalse(
                 self.sale_order.partner_shipping_id.name.endswith(self.sale_order.name)
             )
+<<<<<<< HEAD
+=======
+
+    def test_express_checkout_compute_taxes_returns_amount_without_delivery(self):
+        """
+        Test that the /express_checkout/compute_taxes route returns the minor amount
+        without delivery costs.
+        """
+        websiteSaleDeliveryController = WebsiteSaleDeliveryController()
+
+        delivery_product = self.env['product.product'].create({'name': 'Delivery'})
+        delivery = self.env['delivery.carrier'].create({
+            'name': 'Normal Delivery Charges',
+            'fixed_price': 10,
+            'delivery_type': 'fixed',
+            'product_id': delivery_product.id,
+        })
+        self.sale_order._create_delivery_line(delivery, 10)
+        expected_amount = self.sale_order._compute_amount_total_without_delivery()
+
+        with MockRequest(self.env, website=self.website, sale_order_id=self.sale_order.id):
+            minor_amount = websiteSaleDeliveryController.express_checkout_shipping_address_compute_taxes()
+            self.assertEqual(minor_amount, expected_amount * 100)
+>>>>>>> upstream/18.0

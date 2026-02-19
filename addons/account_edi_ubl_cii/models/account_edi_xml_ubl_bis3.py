@@ -86,6 +86,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import models, _
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -943,6 +944,17 @@ from odoo.addons.account_edi_ubl_cii.models.account_edi_xml_ubl_20 import UBL_NA
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+from odoo import _, api, models
+from odoo.tools.misc import formatLang, str2bool, NON_BREAKING_SPACE
+from odoo.addons.account.tools import dict_to_xml
+from odoo.addons.account_edi_ubl_cii.models.account_edi_common import (
+    FloatFmt,
+    GST_COUNTRY_CODES,
+    EUROPEAN_ECONOMIC_AREA_COUNTRY_CODES,
+)
+from odoo.addons.account_edi_ubl_cii.models.account_edi_xml_ubl_20 import UBL_NAMESPACES
+>>>>>>> upstream/18.0
 
 from stdnum.no import mva
 
@@ -1033,6 +1045,9 @@ CHORUS_PRO_PEPPOL_ID = "0009:11000201100044"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1310,7 +1325,10 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1570,6 +1588,9 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1842,6 +1863,11 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -2280,6 +2306,7 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         # Old helper not used by default (see _export_invoice override)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -2574,6 +2601,8 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         # Old helper not used by default (see _export_invoice override)
         # If you change this method, please change the corresponding new helper (at the end of this file).
         vals_list = super()._get_partner_party_tax_scheme_vals_list(partner, role)
@@ -2604,6 +2633,9 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2763,6 +2795,11 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -3112,6 +3149,7 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
         for vals in vals_list:
             vals.pop('registration_address_vals', None)
             if partner.country_code == 'NL':
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3738,12 +3776,15 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 # For NL, VAT can be used as a Peppol endpoint, but KVK/OIN has to be used as PartyLegalEntity/CompanyID
                 # To implement a workaround on stable, company_registry field is used without recording whether
                 # the number is a KVK or OIN, and the length of the number (8 = KVK, 9 = OIN) is used to determine the type
                 nl_id = partner.company_registry if partner.peppol_eas not in ('0106', '0190') else partner.peppol_endpoint
                 vals.update({
                     'company_id': nl_id,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4564,6 +4605,9 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 =======
                     'company_id_attrs': {'schemeID': '0190' if nl_id and len(nl_id) == 20 else '0106'},
 >>>>>>> upstream/18.0
+=======
+                    'company_id_attrs': {'schemeID': '0190' if nl_id and len(nl_id) == 20 else '0106'},
+>>>>>>> upstream/18.0
                 })
             if partner.country_id.code == "LU":
                 if 'l10n_lu_peppol_identifier' in partner._fields and partner.l10n_lu_peppol_identifier:
@@ -4669,6 +4713,11 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -5021,6 +5070,7 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 
     def _get_partner_party_vals(self, partner, role):
         # EXTENDS account.edi.xml.ubl_21
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5603,6 +5653,10 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
         # Old helper not used by default (see _export_invoice override)
         # If you change this method, please change the corresponding new helper (at the end of this file).
 >>>>>>> upstream/18.0
+=======
+        # Old helper not used by default (see _export_invoice override)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
         if (
             role == 'delivery'
             # If the user hasn't updated the module, we just don't render `DeliveryParty` because the UBL
@@ -5627,6 +5681,7 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
                 'endpoint_id_attrs': {'schemeID': partner.peppol_eas},
             })
             return vals
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6190,6 +6245,8 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
     def _get_partner_party_identification_vals_list(self, partner):
         # EXTENDS account.edi.xml.ubl_21
@@ -6282,6 +6339,9 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6598,6 +6658,9 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6877,6 +6940,7 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 
     def _get_delivery_vals_list(self, invoice):
         # EXTENDS account.edi.xml.ubl_21
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7313,6 +7377,15 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
         economic_area = self.env.ref('base.europe').country_ids.mapped('code') + ['NO']
         intracom_delivery = (customer.country_id.code in economic_area
                              and supplier.country_id.code in economic_area
+=======
+        # Old helper not used by default (see _export_invoice override)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+        supplier = invoice.company_id.partner_id.commercial_partner_id
+        customer = invoice.partner_id
+
+        intracom_delivery = (customer.country_id.code in EUROPEAN_ECONOMIC_AREA_COUNTRY_CODES
+                             and supplier.country_id.code in EUROPEAN_ECONOMIC_AREA_COUNTRY_CODES
+>>>>>>> upstream/18.0
                              and supplier.country_id != customer.country_id)
 
         # [BR-IC-12]-In an Invoice with a VAT breakdown (BG-23) where the VAT category code (BT-118) is
@@ -7464,6 +7537,10 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'delivery_party_vals': self._get_partner_party_vals(invoice.partner_shipping_id, 'delivery') if invoice.partner_shipping_id else {},
+>>>>>>> upstream/18.0
 =======
                 'delivery_party_vals': self._get_partner_party_vals(invoice.partner_shipping_id, 'delivery') if invoice.partner_shipping_id else {},
 >>>>>>> upstream/18.0
@@ -7958,6 +8035,11 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -8396,6 +8478,11 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -8836,6 +8923,11 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -9278,6 +9370,11 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -9717,6 +9814,11 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -10159,6 +10261,11 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -10602,6 +10709,11 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -11041,6 +11153,11 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -11488,6 +11605,11 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -11930,7 +12052,10 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12168,6 +12293,9 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12651,10 +12779,13 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "%s should have a KVK or OIN number: the Peppol e-address (EAS) should be '0106' or '0190'.",
                     vals['supplier'].display_name
                 ) if vals['supplier'].peppol_eas not in ('0106', '0190') else '',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13282,6 +13413,9 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13923,10 +14057,13 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         "%s should have a KVK or OIN number: the Peppol e-address (EAS) should be '0106' or '0190'.",
                         vals['customer'].display_name
                     ) if vals['customer'].commercial_partner_id.peppol_eas not in ('0106', '0190') else '',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14554,6 +14691,9 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15174,7 +15314,10 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15533,6 +15676,7 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
     # -------------------------------------------------------------------------
 
     def _export_invoice(self, invoice, convert_fixed_taxes=True):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16241,6 +16385,8 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         # Use the new dict_to_xml helpers by default
         # unless the 'account_edi_ubl_cii.use_new_dict_to_xml_helpers' param is set to False.
         if str2bool(
@@ -16332,6 +16478,9 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16550,7 +16699,10 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16657,6 +16809,9 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16759,6 +16914,10 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        ubl_values = vals['_ubl_values']
+>>>>>>> upstream/18.0
 =======
         ubl_values = vals['_ubl_values']
 >>>>>>> upstream/18.0
@@ -16921,6 +17080,7 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             'cbc:TaxCurrencyCode': {'_text': vals['tax_currency_code']},
 >>>>>>> upstream/18.0
@@ -17044,6 +17204,8 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
         })
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17141,6 +17303,9 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17250,7 +17415,10 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17341,6 +17509,7 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
                 'cbc:BuyerReference': {'_text': vals['customer'].peppol_endpoint},
             })
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19178,11 +19347,14 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 =======
 >>>>>>> upstream/18.0
 
+=======
+>>>>>>> upstream/18.0
     def _add_invoice_payment_means_nodes(self, document_node, vals):
         super()._add_invoice_payment_means_nodes(document_node, vals)
         document_node['cac:PaymentMeans']['cbc:PaymentDueDate'] = None
         document_node['cac:PaymentMeans']['cbc:InstructionID'] = None
 
+<<<<<<< HEAD
     def _get_address_node(self, vals):
         # schematron/openpeppol/3.13.0/xslt/CEN-EN16931-UBL.xslt
         # [UBL-CR-225]-A UBL invoice should not include the AccountingCustomerParty Party PostalAddress CountrySubentityCode
@@ -21214,6 +21386,8 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
         party_node['cac:Contact']['cbc:ID'] = None
         return party_node
 
+=======
+>>>>>>> upstream/18.0
     def _get_financial_account_node(self, vals):
         # schematron/openpeppol/3.13.0/xslt/CEN-EN16931-UBL.xslt
         # [UBL-CR-664]-A UBL invoice should not include the FinancialInstitutionBranch FinancialInstitution
@@ -21223,6 +21397,7 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
         if financial_account_node['cac:FinancialInstitutionBranch']:
             financial_account_node['cac:FinancialInstitutionBranch']['cac:FinancialInstitution'] = None
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22600,6 +22775,8 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             if financial_account_node['cac:FinancialInstitutionBranch']['cbc:ID']:
                 financial_account_node['cac:FinancialInstitutionBranch']['cbc:ID']['schemeID'] = None
 
@@ -22674,6 +22851,9 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22926,7 +23106,11 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if not line_node['cac:Item']['cbc:Name']['_text']:
+=======
+            if not (line_node['cac:Item']['cbc:Name'] or {}).get('_text'):
+>>>>>>> upstream/18.0
 =======
             if not (line_node['cac:Item']['cbc:Name'] or {}).get('_text'):
 >>>>>>> upstream/18.0
@@ -23103,6 +23287,7 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
                 break
 
         for line in invoice.invoice_line_ids.filtered(lambda x: x.display_type not in ('line_note', 'line_section')):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23380,6 +23565,9 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 =======
             if len(line.tax_ids.flatten_taxes_hierarchy().filtered(lambda t: t.amount_type not in ('fixed', 'code') and t.amount >= 0.0)) != 1:
 >>>>>>> upstream/18.0
+=======
+            if len(line.tax_ids.flatten_taxes_hierarchy().filtered(lambda t: t.amount_type not in ('fixed', 'code') and t.amount >= 0.0)) != 1:
+>>>>>>> upstream/18.0
                 # [UBL-SR-48]-Invoice lines shall have one and only one classified tax category.
                 # /!\ exception: possible to have any number of ecotaxes (fixed tax) with a regular percentage tax
                 constraints.update({'cen_en16931_tax_line': _("Each invoice line shall have one and only one tax.")})
@@ -23493,6 +23681,7 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return constraints
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23996,6 +24185,8 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24036,6 +24227,9 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24058,6 +24252,7 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
     # EXPORT: Gathering data
     # -------------------------------------------------------------------------
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24354,12 +24549,28 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+    def _ubl_add_values_company(self, vals, company):
+        # EXTENDS account.edi.ubl
+        super()._ubl_add_values_company(vals, company)
+
+    def _add_invoice_config_vals(self, vals):
+        # EXTENDS account.edi.ubl
+        super()._add_invoice_config_vals(vals)
+        invoice = vals['invoice']
+        self._ubl_add_values_company(vals, invoice.company_id)
+        self._ubl_add_values_currency(vals, invoice.currency_id)
+        self._ubl_add_values_customer(vals, invoice.partner_id)
+        self._ubl_add_values_delivery(vals, invoice.partner_shipping_id or invoice.partner_id)
+
+>>>>>>> upstream/18.0
     def _setup_base_lines(self, vals):
         # OVERRIDE
         AccountTax = self.env['account.tax']
         company = vals['company']
 
         # Avoid negative unit price.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24480,6 +24691,9 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 =======
         self._ubl_turn_base_lines_price_unit_as_always_positive(vals)
 >>>>>>> upstream/18.0
+=======
+        self._ubl_turn_base_lines_price_unit_as_always_positive(vals)
+>>>>>>> upstream/18.0
 
         # Manage taxes for emptying.
         vals['base_lines'] = self._ubl_turn_emptying_taxes_as_new_base_lines(vals['base_lines'], company, vals)
@@ -24507,6 +24721,7 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         # Turn recycling contribution taxes such as RECUPEL / AUVIBEL into allowance/charges.
         self._ubl_add_base_line_ubl_values_allowance_charges_recycling_contribution(vals)
@@ -24519,6 +24734,10 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 
         # Add 'line_extension_amount' being the total without tax.
         self._ubl_add_base_line_ubl_values_line_extension_amount(vals)
+=======
+        AccountTax._round_raw_gross_total_excluded_and_discount(vals['base_lines'], company)
+        AccountTax._round_raw_gross_total_excluded_and_discount(vals['base_lines'], company, in_foreign_currency=False)
+>>>>>>> upstream/18.0
 =======
         AccountTax._round_raw_gross_total_excluded_and_discount(vals['base_lines'], company)
         AccountTax._round_raw_gross_total_excluded_and_discount(vals['base_lines'], company, in_foreign_currency=False)
@@ -24626,9 +24845,12 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Add 'tax_totals'.
         self._ubl_add_values_tax_totals(vals)
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24762,6 +24984,7 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         # Add 'tax_totals'.
         self._ubl_add_values_tax_totals(vals)
@@ -24899,6 +25122,11 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        # Add 'payable_amount' to manage withholding taxes.
+        self._ubl_add_values_payable_amount_tax_withholding(vals)
+
 >>>>>>> upstream/18.0
 =======
         # Add 'payable_amount' to manage withholding taxes.
@@ -24984,6 +25212,7 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
     # EXPORT: Build Nodes
     # -------------------------------------------------------------------------
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25121,6 +25350,8 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def _ubl_default_tax_category_grouping_key(self, base_line, tax_data, vals, currency):
         # EXTENDS
         # Recycling contribution taxes / excises should not appear anywhere as taxes but as allowances/charges.
@@ -25186,6 +25417,7 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 
     def _add_invoice_line_item_nodes(self, line_node, vals):
@@ -25193,6 +25425,8 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
         item_values = vals['base_line']['_ubl_values']['item_currency']
         line_node['cac:Item'] = self._ubl_get_line_item_node(vals, item_values)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25240,6 +25474,9 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25286,6 +25523,212 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
             },
         }
 
+<<<<<<< HEAD
+=======
+    def _ubl_get_partner_address_node(self, vals, partner):
+        # EXTENDS account.edi.ubl
+        node = super()._ubl_get_partner_address_node(vals, partner)
+        node['cbc:CountrySubentityCode'] = None
+        node['cac:Country']['cbc:Name'] = None
+        return node
+
+    def _ubl_add_party_endpoint_id_node(self, vals):
+        # EXTENDS account.edi.ubl
+        super()._ubl_add_party_endpoint_id_node(vals)
+        partner = vals['party_vals']['partner']
+        commercial_partner = partner.commercial_partner_id
+        if commercial_partner.peppol_endpoint and commercial_partner.peppol_eas:
+            vals['party_node']['cbc:EndpointID']['_text'] = commercial_partner.peppol_endpoint
+            vals['party_node']['cbc:EndpointID']['schemeID'] = commercial_partner.peppol_eas
+
+    def _ubl_add_party_identification_nodes(self, vals):
+        # EXTENDS account.edi.ubl
+        super()._ubl_add_party_identification_nodes(vals)
+        nodes = vals['party_node']['cac:PartyIdentification']
+        partner = vals['party_vals']['partner']
+        commercial_partner = partner.commercial_partner_id
+
+        if commercial_partner.country_code == 'BE' and commercial_partner.company_registry:
+            nodes.append({
+                'cbc:ID': {
+                    '_text': commercial_partner.company_registry,
+                    'schemeID': '0208',
+                },
+            })
+        elif commercial_partner.ref:
+            nodes.append({
+                'cbc:ID': {
+                    '_text': commercial_partner.ref,
+                    'schemeID': None,
+                },
+            })
+
+    def _ubl_add_party_tax_scheme_nodes(self, vals):
+        # EXTENDS account.edi.ubl
+        super()._ubl_add_party_tax_scheme_nodes(vals)
+        nodes = vals['party_node']['cac:PartyTaxScheme']
+        partner = vals['party_vals']['partner']
+        commercial_partner = partner.commercial_partner_id
+
+        if commercial_partner.vat and commercial_partner.vat != '/':
+            country_code = commercial_partner.country_id.code
+            if country_code in GST_COUNTRY_CODES:
+                tax_scheme_id = 'GST'
+            else:
+                tax_scheme_id = 'VAT'
+
+            nodes.append({
+                'cbc:CompanyID': {'_text': commercial_partner.vat},
+                'cac:TaxScheme': {
+                    'cbc:ID': {'_text': tax_scheme_id},
+                },
+            })
+        elif commercial_partner.peppol_endpoint and commercial_partner.peppol_eas:
+            # TaxScheme based on partner's EAS/Endpoint.
+            nodes.append({
+                'cbc:CompanyID': {'_text': commercial_partner.peppol_endpoint},
+                'cac:TaxScheme': {
+                    'cbc:ID': {'_text': commercial_partner.peppol_eas},
+                },
+            })
+
+    def _ubl_add_party_legal_entity_nodes(self, vals):
+        # EXTENDS account.edi.ubl
+        super()._ubl_add_party_legal_entity_nodes(vals)
+        nodes = vals['party_node']['cac:PartyLegalEntity']
+        partner = vals['party_vals']['partner']
+        commercial_partner = partner.commercial_partner_id
+
+        if commercial_partner.peppol_eas in ('0106', '0190'):
+            nl_id = commercial_partner.peppol_endpoint
+        else:
+            nl_id = commercial_partner.company_registry
+
+        if commercial_partner.country_code == 'NL' and nl_id:
+            # For NL, VAT can be used as a Peppol endpoint, but KVK/OIN has to be used as PartyLegalEntity/CompanyID
+            # To implement a workaround on stable, company_registry field is used without recording whether
+            # the number is a KVK or OIN, and the length of the number (8 = KVK, 20 = OIN) is used to determine the type
+            nodes.append({
+                'cbc:RegistrationName': {'_text': commercial_partner.name},
+                'cbc:CompanyID': {
+                    '_text': nl_id,
+                    'schemeID': '0190' if len(nl_id) == 20 else '0106',
+                },
+            })
+        elif commercial_partner.country_code == 'LU' and commercial_partner.company_registry:
+            nodes.append({
+                'cbc:RegistrationName': {'_text': commercial_partner.name},
+                'cbc:CompanyID': {
+                    '_text': commercial_partner.company_registry,
+                    'schemeID': None,
+                },
+            })
+        elif commercial_partner.country_code == 'SE' and commercial_partner.company_registry:
+            nodes.append({
+                'cbc:RegistrationName': {'_text': commercial_partner.name},
+                'cbc:CompanyID': {
+                    '_text': ''.join(char for char in commercial_partner.company_registry if char.isdigit()),
+                },
+            })
+        elif commercial_partner.country_code == 'BE' and commercial_partner.company_registry:
+            nodes.append({
+                'cbc:RegistrationName': {'_text': commercial_partner.name},
+                'cbc:CompanyID': {
+                    '_text': commercial_partner.company_registry,
+                    'schemeID': '0208',
+                },
+            })
+        elif (
+            commercial_partner.country_code == 'DK'
+            and commercial_partner.peppol_eas == '0184'
+            and commercial_partner.peppol_endpoint
+        ):
+            nodes.append({
+                'cbc:RegistrationName': {'_text': commercial_partner.name},
+                'cbc:CompanyID': {
+                    '_text': commercial_partner.peppol_endpoint,
+                    'schemeID': '0184',
+                },
+            })
+        elif commercial_partner.vat and commercial_partner.vat != '/':
+            nodes.append({
+                'cbc:RegistrationName': {'_text': commercial_partner.name},
+                'cbc:CompanyID': {
+                    '_text': commercial_partner.vat,
+                    'schemeID': None,
+                },
+            })
+        elif commercial_partner.peppol_endpoint:
+            nodes.append({
+                'cbc:RegistrationName': {'_text': commercial_partner.name},
+                'cbc:CompanyID': {
+                    '_text': commercial_partner.peppol_endpoint,
+                    'schemeID': None,
+                },
+            })
+
+    def _ubl_add_accounting_supplier_party_tax_scheme_nodes(self, vals):
+        # EXTENDS account.edi.ubl
+        super()._ubl_add_accounting_supplier_party_tax_scheme_nodes(vals)
+        nodes = vals['party_node']['cac:PartyTaxScheme']
+        partner = vals['party_vals']['partner']
+        commercial_partner = partner.commercial_partner_id
+
+        if commercial_partner.country_code == 'NO':
+            nodes.append({
+                'cbc:CompanyID': {'_text': "Foretaksregisteret"},
+                'cac:TaxScheme': {
+                    'cbc:ID': {'_text': "TAX"},
+                },
+            })
+
+    def _add_invoice_accounting_supplier_party_nodes(self, document_node, vals):
+        # OVERRIDE
+        sub_vals = {
+            **vals,
+            'document_node': document_node,
+        }
+        self._ubl_add_accounting_supplier_party_node(sub_vals)
+
+    def _add_invoice_accounting_customer_party_nodes(self, document_node, vals):
+        # OVERRIDE
+        sub_vals = {
+            **vals,
+            'document_node': document_node,
+        }
+        self._ubl_add_accounting_customer_party_node(sub_vals)
+
+    def _ubl_get_delivery_node_from_delivery_address(self, vals):
+        # EXTENDS account.edi.ubl
+        node = super()._ubl_get_delivery_node_from_delivery_address(vals)
+        invoice = vals['invoice']
+
+        if invoice.delivery_date:
+            node['cbc:ActualDeliveryDate']['_text'] = invoice.delivery_date
+
+        # Intracom delivery inside European area.
+        customer = vals['customer']
+        supplier = vals['supplier']
+        if (
+            customer.country_id.code in EUROPEAN_ECONOMIC_AREA_COUNTRY_CODES
+            and supplier.country_id.code in EUROPEAN_ECONOMIC_AREA_COUNTRY_CODES
+            and supplier.country_id != customer.country_id
+        ):
+            node['cbc:ActualDeliveryDate']['_text'] = invoice.invoice_date
+        return node
+
+    def _add_invoice_delivery_nodes(self, document_node, vals):
+        # OVERRIDE
+        sub_vals = {
+            **vals,
+            'document_node': document_node,
+        }
+        self._ubl_add_invoice_delivery_nodes(sub_vals)
+        # Retro-compatibility with the "old" code.
+        if document_node['cac:Delivery']:
+            document_node['cac:Delivery'] = document_node['cac:Delivery'][0]
+
+>>>>>>> upstream/18.0
     def _add_invoice_allowance_charge_nodes(self, document_node, vals):
         # OVERRIDE
         ubl_values = vals['_ubl_values']
@@ -25294,6 +25737,7 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
             for early_payment_values in ubl_values['allowance_charges_early_payment_currency']
         ]
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25327,6 +25771,8 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
                 tax_total_node['cac:TaxSubtotal'] = []
                 tax_total_nodes.append(tax_total_node)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25448,6 +25894,9 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25535,6 +25984,10 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        payable_amount_tax_withholding_currency = ubl_values['payable_amount_tax_withholding_currency']
+>>>>>>> upstream/18.0
 =======
         payable_amount_tax_withholding_currency = ubl_values['payable_amount_tax_withholding_currency']
 >>>>>>> upstream/18.0
@@ -25674,7 +26127,11 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 '_text': FloatFmt(invoice.amount_total - invoice.amount_residual, min_dp=vals['currency_dp']),
+=======
+                '_text': FloatFmt(payable_amount_tax_withholding_currency + invoice.amount_total - invoice.amount_residual, min_dp=vals['currency_dp']),
+>>>>>>> upstream/18.0
 =======
                 '_text': FloatFmt(payable_amount_tax_withholding_currency + invoice.amount_total - invoice.amount_residual, min_dp=vals['currency_dp']),
 >>>>>>> upstream/18.0
@@ -25841,6 +26298,9 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

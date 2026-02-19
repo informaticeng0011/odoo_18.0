@@ -53,7 +53,10 @@ patch(TicketScreen.prototype, {
     },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     async _setOrder() {
@@ -63,6 +66,9 @@ patch(TicketScreen.prototype, {
         }
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -10,6 +10,12 @@ import odoo.tests
 @odoo.tests.tagged('post_install', '-at_install')
 class TestAutomation(TransactionCaseWithUserDemo):
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def tearDown(self):
+        self.env['base.automation']._unregister_hook()
+        super().tearDown()
+>>>>>>> upstream/18.0
 =======
     def tearDown(self):
         self.env['base.automation']._unregister_hook()

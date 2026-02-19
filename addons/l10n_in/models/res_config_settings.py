@@ -5,6 +5,10 @@ from odoo import _, fields, models
 from odoo.exceptions import ValidationError
 from odoo.addons.l10n_in.models.iap_account import IAP_SERVICE_NAME
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.osv import expression
+>>>>>>> upstream/18.0
 =======
 from odoo.osv import expression
 >>>>>>> upstream/18.0
@@ -38,7 +42,10 @@ class ResConfigSettings(models.TransientModel):
             'target': '_new'
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     l10n_in_gsp = fields.Selection(selection=[
         ('bvm', 'BVM IT Consulting'),
         ('tera', 'Tera Software (Deprecated)'),
@@ -86,4 +93,7 @@ class ResConfigSettings(models.TransientModel):
             if gsp_before != config.l10n_in_gsp:
                 config._l10n_in_gsp_provider_changed()
             return
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

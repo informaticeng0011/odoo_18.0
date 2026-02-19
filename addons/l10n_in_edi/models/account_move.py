@@ -163,6 +163,11 @@ import json
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from markupsafe import Markup
+
+>>>>>>> upstream/18.0
 =======
 from markupsafe import Markup
 
@@ -987,6 +992,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1305,6 +1311,8 @@ class AccountMove(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
     def _compute_edi_error_count(self):
         super()._compute_edi_error_count()
         for move in self:
@@ -1340,6 +1348,9 @@ class AccountMove(models.Model):
                 move.edi_error_message = edi_error_message
                 move.edi_blocking_level = 'warning'
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def action_retry_edi_documents_error(self):
         for move in self:
@@ -1514,6 +1525,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

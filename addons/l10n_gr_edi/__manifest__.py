@@ -161,6 +161,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'name': 'Greece - MyDATA',
     'version': '1.0',
     'category': 'Accounting/Localizations',
@@ -168,6 +169,8 @@
     'description': """
         MyDATA is a platform created by Greece's tax authority,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -651,6 +654,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1145,6 +1151,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'views/res_config_settings_views.xml',
+>>>>>>> upstream/18.0
 =======
         'views/res_config_settings_views.xml',
 >>>>>>> upstream/18.0
