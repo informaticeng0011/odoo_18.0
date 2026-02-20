@@ -1,7 +1,11 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import models
+=======
+from odoo import api, models
+>>>>>>> upstream/18.0
 =======
 from odoo import api, models
 >>>>>>> upstream/18.0
@@ -15,7 +19,10 @@ class PosConfig(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     @api.model
@@ -24,6 +31,9 @@ class PosConfig(models.Model):
         return models + ['event.registration', 'event.registration.answer']
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

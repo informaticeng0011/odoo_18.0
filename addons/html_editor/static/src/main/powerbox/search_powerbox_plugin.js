@@ -1,6 +1,12 @@
 import { fuzzyLookup } from "@web/core/utils/search";
 import { Plugin } from "../../plugin";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { _t } from "@web/core/l10n/translation";
+import { withSequence } from "@html_editor/utils/resource";
+import { closestElement } from "@html_editor/utils/dom_traversal";
+>>>>>>> upstream/18.0
 =======
 import { _t } from "@web/core/l10n/translation";
 import { withSequence } from "@html_editor/utils/resource";
@@ -22,7 +28,10 @@ export class SearchPowerboxPlugin extends Plugin {
         post_undo_handlers: this.update.bind(this),
         post_redo_handlers: this.update.bind(this),
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         user_commands: {
             id: "openSearchPowerbox",
             run: () => {
@@ -38,6 +47,9 @@ export class SearchPowerboxPlugin extends Plugin {
             title: _t("More options"),
             icon: "fa-ellipsis-v",
         }),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     };
     setup() {
@@ -51,12 +63,18 @@ export class SearchPowerboxPlugin extends Plugin {
         this.categories = this.getResource("powerbox_categories");
         this.shouldUpdate = false;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         this.addDomListener(this.editable, "pointerdown", () => {
             if (this.powerButtonAnchorEl) {
                 this.powerButtonAnchorEl = false;
             }
         });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
     onBeforeInput(ev) {
@@ -67,7 +85,11 @@ export class SearchPowerboxPlugin extends Plugin {
     onInput(ev) {
         if (ev.data === "/") {
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.openPowerbox();
+=======
+            this.openSearchPowerbox();
+>>>>>>> upstream/18.0
 =======
             this.openSearchPowerbox();
 >>>>>>> upstream/18.0
@@ -86,7 +108,11 @@ export class SearchPowerboxPlugin extends Plugin {
             return;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         const searchTerm = this.searchNode.nodeValue.slice(this.offset + 1, selection.endOffset);
+=======
+        const searchTerm = this.searchNode.nodeValue?.slice(this.offset + 1, selection.endOffset);
+>>>>>>> upstream/18.0
 =======
         const searchTerm = this.searchNode.nodeValue?.slice(this.offset + 1, selection.endOffset);
 >>>>>>> upstream/18.0
@@ -123,6 +149,7 @@ export class SearchPowerboxPlugin extends Plugin {
     isSearching(selection) {
         return (
 <<<<<<< HEAD
+<<<<<<< HEAD
             selection.endContainer === this.searchNode &&
             this.searchNode.nodeValue &&
             this.searchNode.nodeValue[this.offset] === "/" &&
@@ -130,6 +157,8 @@ export class SearchPowerboxPlugin extends Plugin {
         );
     }
 =======
+=======
+>>>>>>> upstream/18.0
             this.powerButtonAnchorEl === closestElement(this.searchNode) ||
             (selection.endContainer === this.searchNode &&
                 this.searchNode.nodeValue &&
@@ -155,6 +184,9 @@ export class SearchPowerboxPlugin extends Plugin {
     /**
      * @deprecated
      */
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     openPowerbox() {
         const selection = this.dependencies.selection.getEditableSelection();

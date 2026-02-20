@@ -387,7 +387,10 @@ test("touch rendering - tap-to-show", async () => {
     expect(".o_popover").toHaveCount(0);
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 test.tags("desktop");
 test("tooltip from and to child element", async () => {
@@ -425,4 +428,7 @@ test("tooltip from and to child element", async () => {
     await advanceTime(OPEN_DELAY);
     expect(".o_popover").toHaveCount(0);
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

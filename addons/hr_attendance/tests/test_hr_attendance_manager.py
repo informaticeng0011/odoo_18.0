@@ -1,12 +1,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # addons/hr_attendance/tests/test_hr_attendance_manager.py
 
 from odoo.tests.common import TransactionCase, tagged
 from odoo.tests import new_test_user
 from odoo.exceptions import AccessError
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18,6 +21,9 @@ from odoo.tests import new_test_user
 from odoo.tests.common import TransactionCase, tagged
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -34,8 +40,11 @@ class TestAttendanceManager(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Create a test user
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -46,6 +55,9 @@ class TestAttendanceManager(TransactionCase):
         # Create a normal user
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -62,6 +74,7 @@ class TestAttendanceManager(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         cls.abigail = cls.env['hr.employee'].create({
             'name': 'Abigail Employee',
         })
@@ -72,6 +85,8 @@ class TestAttendanceManager(TransactionCase):
         self.attendance = self.env['hr.attendance'].create({
             'employee_id': self.marc_employee.id,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -92,6 +107,9 @@ class TestAttendanceManager(TransactionCase):
             'employee_id': cls.marc_employee.id,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -101,6 +119,7 @@ class TestAttendanceManager(TransactionCase):
             'check_out': '2025-09-09 12:00:00',
         })
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -114,10 +133,14 @@ class TestAttendanceManager(TransactionCase):
 =======
     def test_attendance_officer_rights(self):
 >>>>>>> upstream/18.0
+=======
+    def test_attendance_officer_rights(self):
+>>>>>>> upstream/18.0
         """Marc Demo should NOT be able to change the employee on his attendance
         if he is not assigned as attendance manager of that employee.
         """
         attendance_as_marc = self.attendance.with_user(self.marc)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -138,6 +161,8 @@ class TestAttendanceManager(TransactionCase):
         # Verify the employee_id has actually changed
         self.assertEqual(attendance_as_marc.employee_id, self.abigail)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -164,6 +189,9 @@ class TestAttendanceManager(TransactionCase):
         self.assertEqual(self.attendance.employee_id, self.ryan_employee)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

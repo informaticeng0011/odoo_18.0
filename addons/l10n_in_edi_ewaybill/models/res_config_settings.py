@@ -33,7 +33,10 @@ class ResConfigSettings(models.TransientModel):
           }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -47,6 +50,9 @@ class ResConfigSettings(models.TransientModel):
         })
         super()._l10n_in_gsp_provider_changed()
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -1,8 +1,14 @@
 import io
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import models
 from odoo.tools import pdf
 from odoo.tools.pdf import OdooPdfFileReader, OdooPdfFileWriter
+=======
+from odoo import models, _
+from odoo.tools import pdf
+from odoo.tools.pdf import OdooPdfFileReader, OdooPdfFileWriter, PdfReadError
+>>>>>>> upstream/18.0
 =======
 from odoo import models, _
 from odoo.tools import pdf
@@ -30,6 +36,7 @@ class IrActionsReport(models.Model):
                 expense_report = OdooPdfFileReader(stream, strict=False)
                 output_pdf = OdooPdfFileWriter()
                 output_pdf.appendPagesFromReader(expense_report)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -655,6 +662,9 @@ class IrActionsReport(models.Model):
 =======
                 for attachment in self._prepare_local_attachments(attachments):
 >>>>>>> upstream/18.0
+=======
+                for attachment in self._prepare_local_attachments(attachments):
+>>>>>>> upstream/18.0
                     if attachment.mimetype == 'application/pdf':
                         attachment_stream = pdf.to_pdf_stream(attachment)
                     else:
@@ -666,8 +676,11 @@ class IrActionsReport(models.Model):
                         attachment_stream = attachment_prep_stream[expense_sheet.id]['stream']
                     attachment_reader = OdooPdfFileReader(attachment_stream, strict=False)
 <<<<<<< HEAD
+<<<<<<< HEAD
                     output_pdf.appendPagesFromReader(attachment_reader)
 =======
+=======
+>>>>>>> upstream/18.0
                     try:
                         output_pdf.appendPagesFromReader(attachment_reader)
                     except PdfReadError as e:
@@ -677,6 +690,9 @@ class IrActionsReport(models.Model):
                             error=e
                         ))
                         continue
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     stream_list.append(attachment_stream)
 

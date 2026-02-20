@@ -2,6 +2,10 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from unittest.mock import patch
+>>>>>>> upstream/18.0
 =======
 from unittest.mock import patch
 >>>>>>> upstream/18.0
@@ -33,6 +37,7 @@ class TestBLMixin(common.TestMassMailCommon):
     def test_bl_mixin_primary_field_consistency(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         MailingBLacklist._primary_email = 'not_a_field'
         with self.assertRaises(UserError):
             self.env['mailing.test.blacklist'].search([('is_blacklisted', '=', False)])
@@ -46,6 +51,8 @@ class TestBLMixin(common.TestMassMailCommon):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         with patch.object(MailingBLacklist, '_primary_email', 'not_a_field'), \
              self.assertRaises(UserError):
             self.env['mailing.test.blacklist'].search([('is_blacklisted', '=', False)])
@@ -57,6 +64,9 @@ class TestBLMixin(common.TestMassMailCommon):
         with patch.object(MailingBLacklist, '_primary_email', 'email_from'):
             self.env['mailing.test.blacklist'].search([('is_blacklisted', '=', False)])
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

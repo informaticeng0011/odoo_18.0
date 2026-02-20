@@ -24,7 +24,12 @@ export class LocationSchedule extends Component {
      * @return {Object} the localized name of the day (long version).
      */
     getWeekDay(weekday) {
+<<<<<<< HEAD
         return luxon.Info.weekdays()[weekday]
+=======
+        const dayName = luxon.Info.weekdays()[weekday];
+        return dayName.charAt(0).toUpperCase() + dayName.slice(1);
+>>>>>>> upstream/18.0
     }
 
     get closedLabel() {

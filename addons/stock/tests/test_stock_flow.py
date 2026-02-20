@@ -5,7 +5,11 @@ from odoo.exceptions import ValidationError
 from odoo.tests import Form, tagged
 from odoo.tools import mute_logger, float_round
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import fields
+=======
+from odoo import Command, fields
+>>>>>>> upstream/18.0
 =======
 from odoo import Command, fields
 >>>>>>> upstream/18.0
@@ -2447,7 +2451,10 @@ class TestStockFlow(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3043,6 +3050,9 @@ class TestStockFlow(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3753,7 +3763,10 @@ class TestStockFlow(TestStockCommon):
         self.assertEqual(bo.state, 'assigned')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_multiple_moves_with_different_destinations_putaway_strategy(self):
         '''
         Ensure that, when assigning a batch of moves with different destinations,
@@ -3806,6 +3819,9 @@ class TestStockFlow(TestStockCommon):
         self.assertEqual(picking_2.move_ids.move_line_ids.location_dest_id, child_b)
 
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 @tagged('-at_install', 'post_install')
 class TestStockFlowPostInstall(TestStockCommon):

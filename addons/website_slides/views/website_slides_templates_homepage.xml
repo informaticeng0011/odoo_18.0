@@ -337,7 +337,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <t t-set="_form_classes" t-valuef="o_wslides_nav_navbar_right d-none d-md-flex"/>
+=======
+                            <t t-set="_form_classes" t-valuef="o_wslides_nav_navbar_right d-none d-md-block"/>
+>>>>>>> upstream/18.0
 =======
                             <t t-set="_form_classes" t-valuef="o_wslides_nav_navbar_right d-none d-md-block"/>
 >>>>>>> upstream/18.0
@@ -859,6 +863,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            <!-- Previous t-call (in the t-field) does not work. Removing it in master-->
+            <t t-if="channel.partner_has_new_content" t-call="website_slides.course_card_information"/>
+>>>>>>> upstream/18.0
 =======
             <!-- Previous t-call (in the t-field) does not work. Removing it in master-->
             <t t-if="channel.partner_has_new_content" t-call="website_slides.course_card_information"/>
@@ -1809,7 +1818,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <span class="o_wslides_arrow">New Content</span>
+=======
+        <span class="o_wslides_arrow badge bg-secondary mt-2 ms-2">New Content</span>
+>>>>>>> upstream/18.0
 =======
         <span class="o_wslides_arrow badge bg-secondary mt-2 ms-2">New Content</span>
 >>>>>>> upstream/18.0

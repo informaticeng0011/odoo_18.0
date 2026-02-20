@@ -237,9 +237,15 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         'amount_currency': relevant_qty * price_unit_val_dif * line.move_id.direction_sign,
                         'balance': line.currency_id._convert(
                             relevant_qty * price_unit_val_dif * line.move_id.direction_sign,
+=======
+                        'amount_currency': relevant_qty * price_unit_val_dif,
+                        'balance': line.currency_id._convert(
+                            relevant_qty * price_unit_val_dif,
+>>>>>>> upstream/18.0
 =======
                         'amount_currency': relevant_qty * price_unit_val_dif,
                         'balance': line.currency_id._convert(
@@ -1226,9 +1232,15 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         'amount_currency': relevant_qty * -price_unit_val_dif * line.move_id.direction_sign,
                         'balance': line.currency_id._convert(
                             relevant_qty * -price_unit_val_dif * line.move_id.direction_sign,
+=======
+                        'amount_currency': relevant_qty * -price_unit_val_dif,
+                        'balance': line.currency_id._convert(
+                            relevant_qty * -price_unit_val_dif,
+>>>>>>> upstream/18.0
 =======
                         'amount_currency': relevant_qty * -price_unit_val_dif,
                         'balance': line.currency_id._convert(

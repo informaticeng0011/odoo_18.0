@@ -461,6 +461,11 @@ class TestSaleCouponCommon(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        elif len(coupons) == 1 and len(rewards) > 1:
+            return rewards
+>>>>>>> upstream/18.0
 =======
         elif len(coupons) == 1 and len(rewards) > 1:
             return rewards
@@ -1726,7 +1731,10 @@ class TestSaleCouponCommon(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2477,6 +2485,9 @@ class TestSaleCouponCommon(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

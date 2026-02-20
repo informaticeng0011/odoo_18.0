@@ -113,6 +113,11 @@ import odoo.tests
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+from urllib.parse import urlparse
+>>>>>>> upstream/18.0
 =======
 
 from urllib.parse import urlparse
@@ -802,6 +807,7 @@ class TestSelfOrderMobile(SelfOrderCommonTest):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -922,6 +928,8 @@ class TestSelfOrderMobile(SelfOrderCommonTest):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1267,6 +1275,9 @@ class TestSelfOrderMobile(SelfOrderCommonTest):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1692,6 +1703,7 @@ class TestSelfOrderMobile(SelfOrderCommonTest):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1710,6 +1722,11 @@ class TestSelfOrderMobile(SelfOrderCommonTest):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+        order = self.env['pos.order'].search([], limit=1)
+        self.assertEqual(order.picking_count, 1)
 >>>>>>> upstream/18.0
 =======
 

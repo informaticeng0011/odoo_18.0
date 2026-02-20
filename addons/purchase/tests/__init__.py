@@ -169,6 +169,10 @@ from . import test_purchase_dashboard
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import test_purchase_product_catalog
+>>>>>>> upstream/18.0
 =======
 from . import test_purchase_product_catalog
 >>>>>>> upstream/18.0

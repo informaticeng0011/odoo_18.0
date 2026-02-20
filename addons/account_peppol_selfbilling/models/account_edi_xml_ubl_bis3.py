@@ -5,11 +5,14 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
     _inherit = "account.edi.xml.ubl_bis3"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _add_invoice_config_vals(self, vals):
         super()._add_invoice_config_vals(vals)
         invoice = vals['invoice']
         vals['process_type'] = 'selfbilling' if invoice.is_purchase_document() and self._can_export_selfbilling() else 'billing'
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _can_export_selfbilling(self):
@@ -27,7 +30,10 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
             elif vals['document_type'] == 'credit_note':
                 document_node['cbc:CreditNoteTypeCode'] = {'_text': 261}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def _add_invoice_config_vals(self, vals):
         # EXTENDS account.edi.ubl_bis3
@@ -41,4 +47,7 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
         vals['supplier'] = customer
         vals['customer'] = supplier
         vals['delivery'] = supplier
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

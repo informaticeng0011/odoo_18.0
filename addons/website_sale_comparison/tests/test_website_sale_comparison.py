@@ -54,7 +54,10 @@ class TestWebsiteSaleComparison(TransactionCase):
         website_sale_comparison.module_uninstall()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         # module_uninstall triggers the injection of a bunch of temporary dupe of fields added by the module into
@@ -63,6 +66,9 @@ class TestWebsiteSaleComparison(TransactionCase):
         for attr in ('create_uid', 'write_uid', 'create_date', 'write_date', 'name', 'sequence'):
             delattr(self.registry['product.attribute.category'], attr)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

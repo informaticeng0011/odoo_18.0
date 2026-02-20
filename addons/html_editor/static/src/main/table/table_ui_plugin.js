@@ -5,6 +5,10 @@ import { _t } from "@web/core/l10n/translation";
 import { TableMenu } from "./table_menu";
 import { TablePicker } from "./table_picker";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { registry } from "@web/core/registry";
+>>>>>>> upstream/18.0
 =======
 import { registry } from "@web/core/registry";
 >>>>>>> upstream/18.0
@@ -54,6 +58,7 @@ export class TableUIPlugin extends Plugin {
         });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.activeTd = null;
 
         /** @type {import("@html_editor/core/overlay_plugin").Overlay} */
@@ -76,18 +81,28 @@ export class TableUIPlugin extends Plugin {
             },
         });
 =======
+=======
+>>>>>>> upstream/18.0
         this.columnMenuOverlayKey = "table-column-menu";
         this.rowMenuOverlayKey = "table-row-menu";
         this.activeTd = null;
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         this.addDomListener(this.document, "pointermove", this.onMouseMove);
         const closeMenus = () => {
             if (this.isMenuOpened) {
                 this.isMenuOpened = false;
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this.colMenu.close();
                 this.rowMenu.close();
+=======
+                this.closeColumnMenu();
+                this.closeRowMenu();
+>>>>>>> upstream/18.0
 =======
                 this.closeColumnMenu();
                 this.closeRowMenu();
@@ -122,6 +137,7 @@ export class TableUIPlugin extends Plugin {
             return;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (
             ["TD", "TH"].includes(target.tagName) &&
             target !== this.activeTd &&
@@ -138,6 +154,8 @@ export class TableUIPlugin extends Plugin {
             const parentTd = closestElement(target, "td, th");
             if (!parentTd) {
 =======
+=======
+>>>>>>> upstream/18.0
         const targetCell = closestElement(target, "td, th");
         if (targetCell && targetCell !== this.activeTd && this.editable.contains(targetCell)) {
             if (ev.target.isContentEditable) {
@@ -149,6 +167,9 @@ export class TableUIPlugin extends Plugin {
                 return;
             }
             if (!targetCell) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 this.setActiveTd(null);
             }
@@ -156,7 +177,11 @@ export class TableUIPlugin extends Plugin {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     createDropdownState(menuToClose) {
+=======
+    createDropdownState(closeMenu) {
+>>>>>>> upstream/18.0
 =======
     createDropdownState(closeMenu) {
 >>>>>>> upstream/18.0
@@ -165,7 +190,11 @@ export class TableUIPlugin extends Plugin {
             open: () => {
                 dropdownState.isOpen = true;
 <<<<<<< HEAD
+<<<<<<< HEAD
                 menuToClose.close();
+=======
+                closeMenu();
+>>>>>>> upstream/18.0
 =======
                 closeMenu();
 >>>>>>> upstream/18.0
@@ -180,11 +209,14 @@ export class TableUIPlugin extends Plugin {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     setActiveTd(td) {
         this.activeTd = td;
         this.colMenu.close();
         this.rowMenu.close();
 =======
+=======
+>>>>>>> upstream/18.0
     closeColumnMenu() {
         registry.category(this.config.localOverlayContainers.key).remove(this.columnMenuOverlayKey);
     }
@@ -197,6 +229,9 @@ export class TableUIPlugin extends Plugin {
         this.activeTd = td;
         this.closeColumnMenu();
         this.closeRowMenu();
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         if (!td) {
             return;
@@ -218,6 +253,7 @@ export class TableUIPlugin extends Plugin {
         };
         if (td.cellIndex === 0) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.rowMenu.open({
                 target: td,
                 props: {
@@ -226,6 +262,8 @@ export class TableUIPlugin extends Plugin {
                     target: td,
                     dropdownState: this.createDropdownState(this.colMenu),
 =======
+=======
+>>>>>>> upstream/18.0
             registry.category(this.config.localOverlayContainers.key).add(this.rowMenuOverlayKey, {
                 Component: TableMenu,
                 props: {
@@ -234,12 +272,16 @@ export class TableUIPlugin extends Plugin {
                     dropdownState: this.createDropdownState(this.closeColumnMenu.bind(this)),
                     direction: this.config.direction || "ltr",
                     close: () => this.closeRowMenu(),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     ...tableMethods,
                 },
             });
         }
         if (td.parentElement.rowIndex === 0) {
+<<<<<<< HEAD
 <<<<<<< HEAD
             this.colMenu.open({
                 target: td,
@@ -253,6 +295,8 @@ export class TableUIPlugin extends Plugin {
                 },
             });
 =======
+=======
+>>>>>>> upstream/18.0
             registry
                 .category(this.config.localOverlayContainers.key)
                 .add(this.columnMenuOverlayKey, {
@@ -266,6 +310,9 @@ export class TableUIPlugin extends Plugin {
                         ...tableMethods,
                     },
                 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
     }

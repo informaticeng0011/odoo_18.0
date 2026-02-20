@@ -15,12 +15,15 @@ class IapAccount(models.Model):
     def _l10n_in_connect_to_server(self, is_production, params, url_path, config_parameter, timeout=25):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         user_token = self.get(IAP_SERVICE_NAME)
         params.update({
             "dbuuid": self.env["ir.config_parameter"].sudo().get_param("database.uuid"),
             "account_token": user_token.account_token,
         })
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         IrConfigParam = self.env['ir.config_parameter'].sudo()
@@ -33,6 +36,9 @@ class IapAccount(models.Model):
         if gsp_provider:
             params.update({"gsp_provider": gsp_provider})
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -42,7 +48,11 @@ class IapAccount(models.Model):
             default_endpoint = DEFAULT_IAP_TEST_ENDPOINT
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         endpoint = self.env["ir.config_parameter"].sudo().get_param(config_parameter, default_endpoint)
+=======
+        endpoint = IrConfigParam.get_param(config_parameter, default_endpoint)
+>>>>>>> upstream/18.0
 =======
         endpoint = IrConfigParam.get_param(config_parameter, default_endpoint)
 >>>>>>> upstream/18.0

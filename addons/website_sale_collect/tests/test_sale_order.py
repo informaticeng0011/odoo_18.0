@@ -1,6 +1,11 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import json
+
+>>>>>>> upstream/18.0
 =======
 import json
 
@@ -174,7 +179,11 @@ class TestSaleOrder(ClickAndCollectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         so.set_delivery_line(self.free_delivery, 0)
+=======
+        so._set_delivery_method(self.free_delivery)
+>>>>>>> upstream/18.0
 =======
         so._set_delivery_method(self.free_delivery)
 >>>>>>> upstream/18.0
@@ -866,7 +875,10 @@ class TestSaleOrder(ClickAndCollectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1579,6 +1591,9 @@ class TestSaleOrder(ClickAndCollectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2217,7 +2232,11 @@ class TestSaleOrder(ClickAndCollectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         so.set_delivery_line(self.free_delivery, 0)
+=======
+        so._set_delivery_method(self.free_delivery)
+>>>>>>> upstream/18.0
 =======
         so._set_delivery_method(self.free_delivery)
 >>>>>>> upstream/18.0
@@ -2724,7 +2743,10 @@ class TestSaleOrder(ClickAndCollectCommon):
         unavailable_ol = cart._get_unavailable_order_lines(self.warehouse_2.id)
         self.assertIn(self.storable_product.id, unavailable_ol.product_id.ids)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_archive_pick_up_location_address_after_ecommerce_creation(self):
         """Store pickup location address should be archived if created on during eCommerce flow."""
@@ -2742,4 +2764,7 @@ class TestSaleOrder(ClickAndCollectCommon):
         new_so._action_confirm()
         self.assertTrue(new_so.partner_shipping_id)
         self.assertFalse(new_so.partner_shipping_id.active)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

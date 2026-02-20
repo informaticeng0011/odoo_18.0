@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Oakarmin Iron <oakarminiron@gmail.com>, 2025.
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -371,10 +372,15 @@
 # Oakarmin Iron <oakarminiron@gmail.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 >>>>>>> upstream/18.0
+=======
+# Oakarmin Iron <oakarminiron@gmail.com>, 2025, 2026.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1154,6 +1160,11 @@ msgstr ""
 "PO-Revision-Date: 2026-02-14 18:01+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:36+0000\n"
+"PO-Revision-Date: 2026-02-14 18:01+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Burmese <https://translate.odoo.com/projects/odoo-18/project/"
 "my/>\n"
 "Language: my\n"
@@ -1161,6 +1172,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1434,6 +1446,9 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-python
@@ -1490,7 +1505,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    Track major progress points that must be reached to achieve success.\n"
+=======
+"                    Track major progress points that must be reached to "
+"achieve success.\n"
+>>>>>>> upstream/18.0
 =======
 "                    Track major progress points that must be reached to "
 "achieve success.\n"
@@ -1737,7 +1757,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "export class ProjectTaskFormController extends FormControllerWithHTMLExpander {\n"
+=======
+"export class ProjectTaskFormController extends "
+"FormControllerWithHTMLExpander {\n"
+>>>>>>> upstream/18.0
 =======
 "export class ProjectTaskFormController extends "
 "FormControllerWithHTMLExpander {\n"
@@ -1994,7 +2019,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        const deleteConfirmationDialogProps = super.deleteConfirmationDialogProps;\n"
+=======
+"        const deleteConfirmationDialogProps = "
+"super.deleteConfirmationDialogProps;\n"
+>>>>>>> upstream/18.0
 =======
 "        const deleteConfirmationDialogProps = "
 "super.deleteConfirmationDialogProps;\n"
@@ -2242,12 +2272,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        const historyMetadata = record.data[\"html_field_history_metadata\"]?.[versionedFieldName];\n"
 "        if (!historyMetadata) {\n"
 "            this.notifications.add(\n"
 "                escape(_t(\n"
 "                    \"The task description lacks any past content that could be restored at the moment.\"\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2393,6 +2426,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2686,8 +2722,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "tag them)</i>. Use @ <b>mentions</b> to ping a colleague or # "
 "<b>mentions</b> to reach an entire team."
+=======
+"tag them)</i>. Use @ <b>mentions</b> to ping a colleague or # <b>mentions</"
+"b> to reach an entire team."
+>>>>>>> upstream/18.0
 =======
 "tag them)</i>. Use @ <b>mentions</b> to ping a colleague or # <b>mentions</"
 "b> to reach an entire team."
@@ -2929,6 +2970,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    <t t-set=\"access_token\" t-value=\"object._rating_get_access_token()\"/>\n"
 "    <t t-set=\"partner\" t-value=\"object._rating_get_partner()\"/>\n"
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"width:100%; margin:0px auto;\">\n"
@@ -2937,6 +2979,8 @@ msgid ""
 "            <t t-if=\"partner.name\">\n"
 "                Hello <t t-out=\"partner.name or ''\">Brandon Freeman</t>,<br/><br/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3085,6 +3129,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3229,10 +3276,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Please take a moment to rate our services related to the <strong t-out=\"object.name or ''\">Planning and budget</strong> task\n"
 "            <t t-if=\"object._rating_get_operator().name\">\n"
 "                assigned to <strong t-out=\"object._rating_get_operator().name or ''\">Mitchell Admin</strong>.<br/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3377,6 +3427,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3523,6 +3576,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"width:100%; margin: 32px 0px 32px 0px; display: inline-table;\">\n"
 "                <tr><td style=\"font-size: 13px;text-align:center;\">\n"
 "                    <strong>Tell us how you feel about our services</strong><br/>\n"
@@ -3545,6 +3599,8 @@ msgid ""
 "                                <a t-attf-href=\"/rate/{{ access_token }}/1\" t-att-class=\"'pe-none' if object._rating_get_operator() else ''\">\n"
 "                                    <img alt=\"Dissatisfied\" src=\"/rating/static/src/img/rating_1.png\" title=\"Dissatisfied\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3715,6 +3771,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3865,11 +3924,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                <br/><span style=\"margin: 0; font-size: 12px; opacity: 0.5; color: #454748;\">This satisfaction survey has been sent because your task has been moved to the <b t-out=\"object.stage_id.name or ''\">In progress</b> stage</span>\n"
 "            </t>\n"
 "            <t t-if=\"object.project_id.rating_status == 'periodic'\">\n"
 "                <br/><span style=\"margin: 0; font-size: 12px; opacity: 0.5; color: #454748;\">This satisfaction survey is sent <b t-out=\"object.project_id.rating_status_period or ''\">weekly</b> as long as the task is in the <b t-out=\"object.stage_id.name or ''\">In progress</b> stage.</span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4019,6 +4081,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4163,6 +4228,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "           <t t-out=\"object.project_id.company_id.name or ''\">YourCompany</t>\n"
 "        </td></tr>\n"
 "        <tr><td style=\"opacity: 0.5;\">\n"
@@ -4173,6 +4239,8 @@ msgid ""
 "            <t t-if=\"object.project_id.company_id.website\">\n"
 "                | <a t-attf-href=\"{{ object.project_id.company_id.website }}\" style=\"text-decoration:none; color: #454748;\" t-out=\"object.project_id.company_id.website or ''\">http://www.example.com</a>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4328,6 +4396,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4480,6 +4551,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    Dear <t t-out=\"object.partner_id.name or 'customer'\">Brandon Freeman</t>,<br/>\n"
 "    It is my pleasure to let you know that we have successfully completed the project \"<strong t-out=\"object.name or ''\">Renovations</strong>\".\n"
 "    <t t-if=\"user.signature\" data-o-mail-quote-container=\"1\">\n"
@@ -4489,6 +4561,8 @@ msgid ""
 "</div>\n"
 "<br/><span style=\"margin: 0px 0px 0px 0px; font-size: 12px; opacity: 0.5; color: #454748;\" groups=\"project.group_project_stages\">You are receiving this email because your project has been moved to the stage <b t-out=\"object.stage_id.name or ''\">Done</b></span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4641,6 +4715,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4788,11 +4865,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    Dear <t t-out=\"object.partner_id.name or 'customer'\">Brandon Freeman</t>,<br/><br/>\n"
 "    Thank you for contacting us. We appreciate your interest in our products/services.<br/>\n"
 "    Our team is currently reviewing your inquiry and will respond to your email as soon as possible.<br/>\n"
 "    If you have any further questions or concerns in the meantime, please do not hesitate to let us know. We are here to help.<br/><br/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4939,6 +5019,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5083,7 +5166,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+=======
+"        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-"
+"o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+>>>>>>> upstream/18.0
 =======
 "        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-"
 "o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
@@ -5327,10 +5415,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-fw o_button_icon fa-smile-o text-success\" invisible=\"rating_avg &lt; 3.66\" title=\"Satisfied\"/>\n"
 "                            <i class=\"fa fa-fw o_button_icon fa-meh-o text-warning\" invisible=\"rating_avg &lt; 2.33 or rating_avg &gt;= 3.66\" title=\"Okay\"/>\n"
 "                            <i class=\"fa fa-fw o_button_icon fa-frown-o text-danger\" invisible=\"rating_avg &gt;= 2.33\" title=\"Dissatisfied\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5476,6 +5567,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5679,7 +5773,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<span class=\"fa fa-user me-2\" aria-label=\"Partner\" title=\"Partner\"/>"
+=======
+msgid ""
+"<span class=\"fa fa-user me-2\" aria-label=\"Partner\" title=\"Partner\"/>"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "<span class=\"fa fa-user me-2\" aria-label=\"Partner\" title=\"Partner\"/>"
@@ -5955,7 +6054,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<span class=\"text-muted o_row ps-1 pb-3\">Send a rating request:</span>"
+=======
+msgid ""
+"<span class=\"text-muted o_row ps-1 pb-3\">Send a rating request:</span>"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "<span class=\"text-muted o_row ps-1 pb-3\">Send a rating request:</span>"
@@ -6197,10 +6301,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                                    <i class=\"fa fa-lightbulb-o pe-2\"/>\n"
 "                                                    <span invisible=\"rating_status == 'periodic'\">A rating request will be sent as soon as the task reaches a stage on which a Rating Email Template is defined.</span>\n"
 "                                                    <span invisible=\"rating_status == 'stage'\">Rating requests will be sent as long as the task remains in a stage on which a Rating Email Template is defined.</span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6349,6 +6456,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6559,8 +6669,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A personal stage cannot be linked to a project because it is only visible to"
 " its corresponding user."
+=======
+"A personal stage cannot be linked to a project because it is only visible to "
+"its corresponding user."
+>>>>>>> upstream/18.0
 =======
 "A personal stage cannot be linked to a project because it is only visible to "
 "its corresponding user."
@@ -6888,7 +7003,11 @@ msgid "Active"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အက်တစ်"
+>>>>>>> upstream/18.0
 =======
 msgstr "အက်တစ်"
 >>>>>>> upstream/18.0
@@ -7358,7 +7477,11 @@ msgid "Alias"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ချိတ်ဆက်မှု"
+>>>>>>> upstream/18.0
 =======
 msgstr "ချိတ်ဆက်မှု"
 >>>>>>> upstream/18.0
@@ -7719,7 +7842,11 @@ msgid "Alias Contact Security"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဆက်သွယ်ရန် ချိတ်ဆက်ထားသော လုံခြုံရေး"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဆက်သွယ်ရန် ချိတ်ဆက်ထားသော လုံခြုံရေး"
 >>>>>>> upstream/18.0
@@ -8095,7 +8222,11 @@ msgid "Alias Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ချိတ်ဆက်မှုအမည်"
+>>>>>>> upstream/18.0
 =======
 msgstr "ချိတ်ဆက်မှုအမည်"
 >>>>>>> upstream/18.0
@@ -8466,7 +8597,11 @@ msgid "Aliased Model"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ချိတ်ဆက်မှု မော်ဒယ်"
+>>>>>>> upstream/18.0
 =======
 msgstr "ချိတ်ဆက်မှု မော်ဒယ်"
 >>>>>>> upstream/18.0
@@ -8858,7 +8993,11 @@ msgid "All Tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "တာဝန်များ အားလုံး"
+>>>>>>> upstream/18.0
 =======
 msgstr "တာဝန်များ အားလုံး"
 >>>>>>> upstream/18.0
@@ -9314,7 +9453,11 @@ msgid "Analytic Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ပိုင်းခြားနိုင်သောစာရင်း"
+>>>>>>> upstream/18.0
 =======
 msgstr "ပိုင်းခြားနိုင်သောစာရင်း"
 >>>>>>> upstream/18.0
@@ -9753,7 +9896,11 @@ msgid "Approved"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ခွင့်ပြုပြီး"
+>>>>>>> upstream/18.0
 =======
 msgstr "ခွင့်ပြုပြီး"
 >>>>>>> upstream/18.0
@@ -10322,6 +10469,7 @@ msgid "Architecture"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "ဗိသုကာ"
@@ -10361,6 +10509,9 @@ msgstr "ဗိသုကာ"
 >>>>>>> upstream/18.0
 =======
 msgstr "ဗိသုကာ"
+>>>>>>> upstream/18.0
+=======
+msgstr "အာခီတက်ချာ"
 >>>>>>> upstream/18.0
 =======
 msgstr "အာခီတက်ချာ"
@@ -10865,7 +11016,11 @@ msgid "Archived"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "သိမ်းဆည်းထားသည်"
+>>>>>>> upstream/18.0
 =======
 msgstr "သိမ်းဆည်းထားသည်"
 >>>>>>> upstream/18.0
@@ -11287,7 +11442,11 @@ msgid "Assignment Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အဆိုင်းချထားသောနေ့"
+>>>>>>> upstream/18.0
 =======
 msgstr "အဆိုင်းချထားသောနေ့"
 >>>>>>> upstream/18.0
@@ -11591,10 +11750,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Automatically modify the state when the customer replies to the feedback for this stage.\n"
 " * Good feedback from the customer will update the state to 'Approved' (green bullet).\n"
 " * Neutral or bad feedback will set the kanban state to 'Changes Requested' (orange bullet).\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11739,6 +11901,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11942,7 +12107,11 @@ msgid "Average Rating"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ပျမ်းမျှ အဆင့်သတ်မှတ်ချက်"
+>>>>>>> upstream/18.0
 =======
 msgstr "ပျမ်းမျှ အဆင့်သတ်မှတ်ချက်"
 >>>>>>> upstream/18.0
@@ -12389,7 +12558,11 @@ msgid "Balance"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "လက်ကျန်"
+>>>>>>> upstream/18.0
 =======
 msgstr "လက်ကျန်"
 >>>>>>> upstream/18.0
@@ -12950,7 +13123,11 @@ msgid "Block"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဘလော့"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဘလော့"
 >>>>>>> upstream/18.0
@@ -13463,7 +13640,11 @@ msgid "Blocked"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဘလော့ထားသည်"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဘလော့ထားသည်"
 >>>>>>> upstream/18.0
@@ -14044,7 +14225,11 @@ msgid "Cancelled"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ပယ်ဖျက်ပြီး"
+>>>>>>> upstream/18.0
 =======
 msgstr "ပယ်ဖျက်ပြီး"
 >>>>>>> upstream/18.0
@@ -14549,8 +14734,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "name of a customer, of a product, of a team, of a construction site, "
 "etc.</i>"
+=======
+"name of a customer, of a product, of a team, of a construction site, etc.</i>"
+>>>>>>> upstream/18.0
 =======
 "name of a customer, of a product, of a team, of a construction site, etc.</i>"
 >>>>>>> upstream/18.0
@@ -14816,10 +15005,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Collect feedback from your customers by sending them a rating request when a task enters a certain stage. To do so, define a rating email template on the corresponding stages.\n"
 "Rating when changing stage: an email will be automatically sent when the task reaches the stage on which the rating email template is set.\n"
 "Periodic rating: an email will be automatically sent at regular intervals as long as the task remains in the stage in which the rating email template is set."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14966,6 +15158,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15117,7 +15312,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Communicate with customers on the task using the email gateway. Attach logo designs to the task, so that information flows from\n"
+=======
+"Communicate with customers on the task using the email gateway. Attach logo "
+"designs to the task, so that information flows from\n"
+>>>>>>> upstream/18.0
 =======
 "Communicate with customers on the task using the email gateway. Attach logo "
 "designs to the task, so that information flows from\n"
@@ -15452,7 +15652,11 @@ msgid "Construction"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဆောက်လုပ်ရေး"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဆောက်လုပ်ရေး"
 >>>>>>> upstream/18.0
@@ -15885,7 +16089,11 @@ msgid "Consulting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အကြံပေး"
+>>>>>>> upstream/18.0
 =======
 msgstr "အကြံပေး"
 >>>>>>> upstream/18.0
@@ -16526,7 +16734,11 @@ msgid "Contact"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဆက်သွယ်ရန်"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဆက်သွယ်ရန်"
 >>>>>>> upstream/18.0
@@ -17104,7 +17316,11 @@ msgid "Costs"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "စရိတ်များ"
+>>>>>>> upstream/18.0
 =======
 msgstr "စရိတ်များ"
 >>>>>>> upstream/18.0
@@ -17477,7 +17693,11 @@ msgid "Create Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဖန်တီးသောနေ့"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဖန်တီးသောနေ့"
 >>>>>>> upstream/18.0
@@ -17897,7 +18117,11 @@ msgid "Create project"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ပရောဂျက် ဖန်တီး"
+>>>>>>> upstream/18.0
 =======
 msgstr "ပရောဂျက် ဖန်တီး"
 >>>>>>> upstream/18.0
@@ -18337,8 +18561,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Create projects to organize your tasks. Define a different workflow for each"
 " project."
+=======
+"Create projects to organize your tasks. Define a different workflow for each "
+"project."
+>>>>>>> upstream/18.0
 =======
 "Create projects to organize your tasks. Define a different workflow for each "
 "project."
@@ -18712,7 +18941,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Customers propose feedbacks by email; Odoo creates tasks automatically, and you can\n"
+=======
+"Customers propose feedbacks by email; Odoo creates tasks automatically, and "
+"you can\n"
+>>>>>>> upstream/18.0
 =======
 "Customers propose feedbacks by email; Odoo creates tasks automatically, and "
 "you can\n"
@@ -19063,7 +19297,11 @@ msgid "Daily"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "နေ့စဉ်"
+>>>>>>> upstream/18.0
 =======
 msgstr "နေ့စဉ်"
 >>>>>>> upstream/18.0
@@ -19682,7 +19920,11 @@ msgid "Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "နေ့ရက်"
+>>>>>>> upstream/18.0
 =======
 msgstr "နေ့ရက်"
 >>>>>>> upstream/18.0
@@ -20191,7 +20433,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Based on this information you can identify tasks that are stalling and get statistics on the time it usually takes to move tasks from one stage/state to another."
+=======
+"Based on this information you can identify tasks that are stalling and get "
+"statistics on the time it usually takes to move tasks from one stage/state "
+"to another."
+>>>>>>> upstream/18.0
 =======
 "Based on this information you can identify tasks that are stalling and get "
 "statistics on the time it usually takes to move tasks from one stage/state "
@@ -20578,7 +20826,11 @@ msgid "Deadline"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဒက်လိုင်း"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဒက်လိုင်း"
 >>>>>>> upstream/18.0
@@ -20980,7 +21232,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                creation of the task, up to the closing of the task or issue.\n"
+=======
+"                creation of the task, up to the closing of the task or "
+"issue.\n"
+>>>>>>> upstream/18.0
 =======
 "                creation of the task, up to the closing of the task or "
 "issue.\n"
@@ -21424,7 +21681,11 @@ msgid "Design"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဒီဇိုင်း"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဒီဇိုင်း"
 >>>>>>> upstream/18.0
@@ -22047,7 +22308,11 @@ msgid "Digital Marketing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဒစ်ဂျစ်တယ် မားကက်တင်း"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဒစ်ဂျစ်တယ် မားကက်တင်း"
 >>>>>>> upstream/18.0
@@ -22639,7 +22904,11 @@ msgid "Email Alias"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အီးမေးလ် အေးလိယက်စ်"
+>>>>>>> upstream/18.0
 =======
 msgstr "အီးမေးလ် အေးလိယက်စ်"
 >>>>>>> upstream/18.0
@@ -23110,7 +23379,11 @@ msgid "Email cc"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အီးမေးလ် စီစီ"
+>>>>>>> upstream/18.0
 =======
 msgstr "အီးမေးလ် စီစီ"
 >>>>>>> upstream/18.0
@@ -23626,7 +23899,11 @@ msgid "End Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဆုံးရက်"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဆုံးရက်"
 >>>>>>> upstream/18.0
@@ -24249,7 +24526,11 @@ msgid "Expiration Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "သက်တမ်းကုန်ရက်"
+>>>>>>> upstream/18.0
 =======
 msgstr "သက်တမ်းကုန်ရက်"
 >>>>>>> upstream/18.0
@@ -24776,7 +25057,11 @@ msgid "External"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ပြင်ပ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ပြင်ပ"
 >>>>>>> upstream/18.0
@@ -25350,7 +25635,11 @@ msgid "Extra Info"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အခြား အချက်အလက်"
+>>>>>>> upstream/18.0
 =======
 msgstr "အခြား အချက်အလက်"
 >>>>>>> upstream/18.0
@@ -25951,7 +26240,11 @@ msgid "Finance"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဘဏ္ဏာရေး"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဘဏ္ဏာရေး"
 >>>>>>> upstream/18.0
@@ -26560,7 +26853,11 @@ msgid "Future"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အနာဂါတ်"
+>>>>>>> upstream/18.0
 =======
 msgstr "အနာဂါတ်"
 >>>>>>> upstream/18.0
@@ -26957,8 +27254,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Get a snapshot of the status of your project and share its progress with key"
 " stakeholders."
+=======
+"Get a snapshot of the status of your project and share its progress with key "
+"stakeholders."
+>>>>>>> upstream/18.0
 =======
 "Get a snapshot of the status of your project and share its progress with key "
 "stakeholders."
@@ -27216,8 +27518,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Grant employees access to your project or tasks by adding them as followers."
 " Employees automatically get access to the tasks they are assigned to."
+=======
+"Grant employees access to your project or tasks by adding them as followers. "
+"Employees automatically get access to the tasks they are assigned to."
+>>>>>>> upstream/18.0
 =======
 "Grant employees access to your project or tasks by adding them as followers. "
 "Employees automatically get access to the tasks they are assigned to."
@@ -27460,8 +27767,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "tasks of the project are not included). To grant access to tasks to a portal"
 " user, add them as followers for these tasks."
+=======
+"tasks of the project are not included). To grant access to tasks to a portal "
+"user, add them as followers for these tasks."
+>>>>>>> upstream/18.0
 =======
 "tasks of the project are not included). To grant access to tasks to a portal "
 "user, add them as followers for these tasks."
@@ -27784,7 +28096,11 @@ msgid "Group By"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အုပ်စုအလိုက်"
+>>>>>>> upstream/18.0
 =======
 msgstr "အုပ်စုအလိုက်"
 >>>>>>> upstream/18.0
@@ -28218,8 +28534,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Handle your idea gathering within Tasks of your new Project and discuss them"
 " in the chatter of the tasks."
+=======
+"Handle your idea gathering within Tasks of your new Project and discuss them "
+"in the chatter of the tasks."
+>>>>>>> upstream/18.0
 =======
 "Handle your idea gathering within Tasks of your new Project and discuss them "
 "in the chatter of the tasks."
@@ -28509,7 +28830,11 @@ msgid "Happy face"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ပျော်တဲ့မျက်နှာ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ပျော်တဲ့မျက်နှာ"
 >>>>>>> upstream/18.0
@@ -28878,7 +29203,11 @@ msgid "Hello"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဟယ်လို"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဟယ်လို"
 >>>>>>> upstream/18.0
@@ -29306,6 +29635,7 @@ msgid "History"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "သမိုင်း"
@@ -29708,6 +30038,9 @@ msgstr "သမိုင်း"
 >>>>>>> upstream/18.0
 =======
 msgstr "သမိုင်း"
+>>>>>>> upstream/18.0
+=======
+msgstr "မှတ်တမ်း"
 >>>>>>> upstream/18.0
 =======
 msgstr "မှတ်တမ်း"
@@ -29879,6 +30212,7 @@ msgid "Home"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "အိမ်"
@@ -29903,6 +30237,9 @@ msgstr "အိမ်"
 >>>>>>> upstream/18.0
 =======
 msgstr "အိမ်"
+>>>>>>> upstream/18.0
+=======
+msgstr "ဟုမ်း"
 >>>>>>> upstream/18.0
 =======
 msgstr "ဟုမ်း"
@@ -30397,7 +30734,11 @@ msgid "Home Construction"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အိမ်ဆောက်လုပ်ရေး"
+>>>>>>> upstream/18.0
 =======
 msgstr "အိမ်ဆောက်လုပ်ရေး"
 >>>>>>> upstream/18.0
@@ -30824,7 +31165,11 @@ msgid "Hours"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "နာရီ"
+>>>>>>> upstream/18.0
 =======
 msgstr "နာရီ"
 >>>>>>> upstream/18.0
@@ -31350,6 +31695,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "ID of the parent record holding the alias (example: project holding the task"
 " creation alias)"
 msgstr ""
@@ -31656,6 +32002,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "ID of the parent record holding the alias (example: project holding the task "
 "creation alias)"
 msgstr ""
@@ -31707,6 +32055,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -31949,7 +32300,11 @@ msgid "Icon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အိုင်ကွန်"
+>>>>>>> upstream/18.0
 =======
 msgstr "အိုင်ကွန်"
 >>>>>>> upstream/18.0
@@ -32470,10 +32825,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If set, a rating request will automatically be sent by email to the customer when the task reaches this stage. \n"
 "Alternatively, it will be sent at a regular interval as long as the task remains in this stage, depending on the configuration of your project. \n"
 "To use this feature make sure that the 'Customer Ratings' option is enabled on your project."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -32618,6 +32976,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -32763,8 +33124,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If set, an email will be automatically sent to the customer when the project"
 " reaches this stage."
+=======
+"If set, an email will be automatically sent to the customer when the project "
+"reaches this stage."
+>>>>>>> upstream/18.0
 =======
 "If set, an email will be automatically sent to the customer when the project "
 "reaches this stage."
@@ -33120,7 +33486,11 @@ msgid "In Progress"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "လုပ်နေသည်"
+>>>>>>> upstream/18.0
 =======
 msgstr "လုပ်နေသည်"
 >>>>>>> upstream/18.0
@@ -33696,7 +34066,11 @@ msgid "Inbox"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အင်ဘောက်စ်"
+>>>>>>> upstream/18.0
 =======
 msgstr "အင်ဘောက်စ်"
 >>>>>>> upstream/18.0
@@ -34264,7 +34638,11 @@ msgid "Internal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အတွင်းပိုင်း"
+>>>>>>> upstream/18.0
 =======
 msgstr "အတွင်းပိုင်း"
 >>>>>>> upstream/18.0
@@ -34822,7 +35200,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    Collaborate efficiently by chatting in real-time or via email."
+=======
+"                    Collaborate efficiently by chatting in real-time or via "
+"email."
+>>>>>>> upstream/18.0
 =======
 "                    Collaborate efficiently by chatting in real-time or via "
 "email."
@@ -35065,7 +35448,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                Collaborate efficiently by chatting in real-time or via email."
+=======
+"                Collaborate efficiently by chatting in real-time or via "
+"email."
+>>>>>>> upstream/18.0
 =======
 "                Collaborate efficiently by chatting in real-time or via "
 "email."
@@ -35388,7 +35776,11 @@ msgid "Last 30 Days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "နောက်ဆုံး ရက် ၃၀"
+>>>>>>> upstream/18.0
 =======
 msgstr "နောက်ဆုံး ရက် ၃၀"
 >>>>>>> upstream/18.0
@@ -35919,7 +36311,11 @@ msgid "Last 365 Days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "နောက်ဆုံး ၃၆၅ ရက်"
+>>>>>>> upstream/18.0
 =======
 msgstr "နောက်ဆုံး ၃၆၅ ရက်"
 >>>>>>> upstream/18.0
@@ -36501,7 +36897,11 @@ msgid "Last Month"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "နောက်ဆုံးလ"
+>>>>>>> upstream/18.0
 =======
 msgstr "နောက်ဆုံးလ"
 >>>>>>> upstream/18.0
@@ -37136,7 +37536,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "နောက်ဆုံးပြင်ဆင်သူ"
+>>>>>>> upstream/18.0
 =======
 msgstr "နောက်ဆုံးပြင်ဆင်သူ"
 >>>>>>> upstream/18.0
@@ -37753,7 +38157,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Manage the lifecycle of your project using the kanban view. Add newly acquired projects,\n"
+=======
+"Manage the lifecycle of your project using the kanban view. Add newly "
+"acquired projects,\n"
+>>>>>>> upstream/18.0
 =======
 "Manage the lifecycle of your project using the kanban view. Add newly "
 "acquired projects,\n"
@@ -38076,7 +38485,11 @@ msgid "Manufacturing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ထုတ်လုပ်ရေး"
+>>>>>>> upstream/18.0
 =======
 msgstr "ထုတ်လုပ်ရေး"
 >>>>>>> upstream/18.0
@@ -38642,7 +39055,11 @@ msgid "Meeting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "တွေ့ဆုံခြင်း"
+>>>>>>> upstream/18.0
 =======
 msgstr "တွေ့ဆုံခြင်း"
 >>>>>>> upstream/18.0
@@ -39209,7 +39626,11 @@ msgid "Menu"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "မီနူး"
+>>>>>>> upstream/18.0
 =======
 msgstr "မီနူး"
 >>>>>>> upstream/18.0
@@ -39752,7 +40173,11 @@ msgid "Message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "မက်ဆေ့ဂျ်"
+>>>>>>> upstream/18.0
 =======
 msgstr "မက်ဆေ့ဂျ်"
 >>>>>>> upstream/18.0
@@ -40324,7 +40749,11 @@ msgid "Messages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "မက်ဆေ့ဂျ်များ"
+>>>>>>> upstream/18.0
 =======
 msgstr "မက်ဆေ့ဂျ်များ"
 >>>>>>> upstream/18.0
@@ -40843,7 +41272,11 @@ msgid "Milestone"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "မိုင်စတုန်း"
+>>>>>>> upstream/18.0
 =======
 msgstr "မိုင်စတုန်း"
 >>>>>>> upstream/18.0
@@ -41284,7 +41717,11 @@ msgid "Months"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "လ"
+>>>>>>> upstream/18.0
 =======
 msgstr "လ"
 >>>>>>> upstream/18.0
@@ -41866,7 +42303,11 @@ msgid "My Deadline"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "မိမိ ဒက်လိုင်း"
+>>>>>>> upstream/18.0
 =======
 msgstr "မိမိ ဒက်လိုင်း"
 >>>>>>> upstream/18.0
@@ -42323,7 +42764,11 @@ msgid "My Favorites"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "မိမိ ဖေးဗရိတ်များ"
+>>>>>>> upstream/18.0
 =======
 msgstr "မိမိ ဖေးဗရိတ်များ"
 >>>>>>> upstream/18.0
@@ -42780,7 +43225,11 @@ msgid "My Projects"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "မိမိ ပရောဂျက်များ"
+>>>>>>> upstream/18.0
 =======
 msgstr "မိမိ ပရောဂျက်များ"
 >>>>>>> upstream/18.0
@@ -43240,7 +43689,11 @@ msgid "My Tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "မိမိ တာဝန်များ"
+>>>>>>> upstream/18.0
 =======
 msgstr "မိမိ တာဝန်များ"
 >>>>>>> upstream/18.0
@@ -43629,7 +44082,11 @@ msgid "Neutral face"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "သဘာဝ မျက်နှာ"
+>>>>>>> upstream/18.0
 =======
 msgstr "သဘာဝ မျက်နှာ"
 >>>>>>> upstream/18.0
@@ -43805,7 +44262,11 @@ msgid "New Orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အော်ဒါအသစ်များ"
+>>>>>>> upstream/18.0
 =======
 msgstr "အော်ဒါအသစ်များ"
 >>>>>>> upstream/18.0
@@ -44263,7 +44724,11 @@ msgid "New Project"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ပရောဂျက်အသစ်"
+>>>>>>> upstream/18.0
 =======
 msgstr "ပရောဂျက်အသစ်"
 >>>>>>> upstream/18.0
@@ -44721,7 +45186,11 @@ msgid "New Projects"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ပရောဂျက် အသစ်များ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ပရောဂျက် အသစ်များ"
 >>>>>>> upstream/18.0
@@ -45207,7 +45676,11 @@ msgid "New Request"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ကနဉီး တောင်းခံခြင်း"
+>>>>>>> upstream/18.0
 =======
 msgstr "ကနဉီး တောင်းခံခြင်း"
 >>>>>>> upstream/18.0
@@ -45749,7 +46222,11 @@ msgid "New Task"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "တာဝန်အသစ်"
+>>>>>>> upstream/18.0
 =======
 msgstr "တာဝန်အသစ်"
 >>>>>>> upstream/18.0
@@ -46207,7 +46684,11 @@ msgid "Newest"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အသစ်ဆုံး"
+>>>>>>> upstream/18.0
 =======
 msgstr "အသစ်ဆုံး"
 >>>>>>> upstream/18.0
@@ -46665,7 +47146,11 @@ msgid "Next"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "နောက်"
+>>>>>>> upstream/18.0
 =======
 msgstr "နောက်"
 >>>>>>> upstream/18.0
@@ -47198,7 +47683,11 @@ msgid "No Subject"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အကြောင်းအရာ မရှိ"
+>>>>>>> upstream/18.0
 =======
 msgstr "အကြောင်းအရာ မရှိ"
 >>>>>>> upstream/18.0
@@ -47805,7 +48294,11 @@ msgid "None"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(None)မသတ်မှတ်"
+>>>>>>> upstream/18.0
 =======
 msgstr "(None)မသတ်မှတ်"
 >>>>>>> upstream/18.0
@@ -48341,7 +48834,11 @@ msgid "Note"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "မှတ်စု"
+>>>>>>> upstream/18.0
 =======
 msgstr "မှတ်စု"
 >>>>>>> upstream/18.0
@@ -48919,7 +49416,11 @@ msgid "Number of errors"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အယ်ရာ အရေအတွက်"
+>>>>>>> upstream/18.0
 =======
 msgstr "အယ်ရာ အရေအတွက်"
 >>>>>>> upstream/18.0
@@ -49514,7 +50015,11 @@ msgid "Office"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ရုံး"
+>>>>>>> upstream/18.0
 =======
 msgstr "ရုံး"
 >>>>>>> upstream/18.0
@@ -50059,7 +50564,11 @@ msgid "Office Design"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ရုံးဒီဇိုင်း"
+>>>>>>> upstream/18.0
 =======
 msgstr "ရုံးဒီဇိုင်း"
 >>>>>>> upstream/18.0
@@ -50485,6 +50994,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Optional ID of a thread (record) to which all incoming messages will be "
+"attached, even if they did not reply to it. If set, this will disable the "
+"creation of new records completely."
+>>>>>>> upstream/18.0
 =======
 "Optional ID of a thread (record) to which all incoming messages will be "
 "attached, even if they did not reply to it. If set, this will disable the "
@@ -50990,7 +51505,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    Collaborate efficiently by chatting in real-time or via email."
+=======
+"                    Collaborate efficiently by chatting in real-time or via "
+"email."
+>>>>>>> upstream/18.0
 =======
 "                    Collaborate efficiently by chatting in real-time or via "
 "email."
@@ -51301,7 +51821,11 @@ msgid "Parent Record Thread ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Parent Record Thread ID"
+>>>>>>> upstream/18.0
 =======
 msgstr "Parent Record Thread ID"
 >>>>>>> upstream/18.0
@@ -51581,6 +52105,7 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_parent_model_id
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -51977,6 +52502,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Parent model holding the alias. The model holding the alias reference is not "
 "necessarily the model given by alias_model_id (example: project "
 "(parent_model) and task (model))"
@@ -52030,6 +52557,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -52174,8 +52704,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Partner company cannot be different from its assigned projects' company"
+=======
+msgid "Partner company cannot be different from its assigned projects' company"
+>>>>>>> upstream/18.0
 =======
 msgid "Partner company cannot be different from its assigned projects' company"
 >>>>>>> upstream/18.0
@@ -52389,6 +52923,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- Invited internal users: when following a project, internal users will get access to all of its tasks without distinction. Otherwise, they will only get access to the specific tasks they are following.\n"
 " A user with the project > administrator access right level can still access this project and its tasks, even if they are not explicitly part of the followers.\n"
 "\n"
@@ -52402,6 +52937,8 @@ msgid ""
 "\n"
 "In any case, an internal user with no project access rights can still access a task, provided that they are given the corresponding URL (and that they are part of the followers if the project is private)."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -52565,6 +53102,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -52840,7 +53380,11 @@ msgid "Planned Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "စီစဉ်ထားသော ရက်"
+>>>>>>> upstream/18.0
 =======
 msgstr "စီစဉ်ထားသော ရက်"
 >>>>>>> upstream/18.0
@@ -53365,6 +53909,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- followers: only followers of the related document or members of following channels\n"
 msgstr ""
 <<<<<<< HEAD
@@ -53727,6 +54272,11 @@ msgstr ""
 "channels\n"
 msgstr ""
 >>>>>>> upstream/18.0
+=======
+"- followers: only followers of the related document or members of following "
+"channels\n"
+msgstr ""
+>>>>>>> upstream/18.0
 "Policy to post a message on the document using the mailgateway.\n"
 "- everyone: everyone can post\n"
 "- partners: only authenticated partners\n"
@@ -53820,6 +54370,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -54055,8 +54608,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Portal users will be removed from the followers of the project and its "
 "tasks."
+=======
+"Portal users will be removed from the followers of the project and its tasks."
+>>>>>>> upstream/18.0
 =======
 "Portal users will be removed from the followers of the project and its tasks."
 >>>>>>> upstream/18.0
@@ -54293,7 +54850,11 @@ msgid "Previous"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ယခင်"
+>>>>>>> upstream/18.0
 =======
 msgstr "ယခင်"
 >>>>>>> upstream/18.0
@@ -54702,7 +55263,11 @@ msgid "Priority"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဉီးစားပေး"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဉီးစားပေး"
 >>>>>>> upstream/18.0
@@ -55270,6 +55835,7 @@ msgid "Profitability"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "အမြတ်အစွန်း"
@@ -55303,6 +55869,9 @@ msgstr "ဝင်ငွေအစွန်း"
 >>>>>>> upstream/18.0
 =======
 msgstr "ဝင်ငွေအစွန်း"
+>>>>>>> upstream/18.0
+=======
+msgstr "အမြတ်အစွန်း"
 >>>>>>> upstream/18.0
 =======
 msgstr "အမြတ်အစွန်း"
@@ -55846,7 +56415,11 @@ msgid "Progress"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ပြီးမြှောက်မှူ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ပြီးမြှောက်မှူ"
 >>>>>>> upstream/18.0
@@ -56362,7 +56935,11 @@ msgid "Project"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ပရောဂျက်"
+>>>>>>> upstream/18.0
 =======
 msgstr "ပရောဂျက်"
 >>>>>>> upstream/18.0
@@ -56983,7 +57560,11 @@ msgid "Project Manager"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ပရောဂျက် မန်နေဂျာ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ပရောဂျက် မန်နေဂျာ"
 >>>>>>> upstream/18.0
@@ -57503,7 +58084,11 @@ msgid "Project Stages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ပရောဂျက် အဆင့်များ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ပရောဂျက် အဆင့်များ"
 >>>>>>> upstream/18.0
@@ -57706,7 +58291,11 @@ msgid "Project description..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ပရောဂျက် ဖော်ပြချက်..."
+>>>>>>> upstream/18.0
 =======
 msgstr "ပရောဂျက် ဖော်ပြချက်..."
 >>>>>>> upstream/18.0
@@ -58371,7 +58960,11 @@ msgid "Projects"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ပရောဂျက်များ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ပရောဂျက်များ"
 >>>>>>> upstream/18.0
@@ -58886,8 +59479,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Projects in which this stage is present. If you follow a similar workflow in"
 " several projects, you can share this stage among them and get consolidated "
+=======
+"Projects in which this stage is present. If you follow a similar workflow in "
+"several projects, you can share this stage among them and get consolidated "
+>>>>>>> upstream/18.0
 =======
 "Projects in which this stage is present. If you follow a similar workflow in "
 "several projects, you can share this stage among them and get consolidated "
@@ -59259,7 +59857,11 @@ msgid "Quarterly"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "၃ လပါတ်"
+>>>>>>> upstream/18.0
 =======
 msgstr "၃ လပါတ်"
 >>>>>>> upstream/18.0
@@ -59849,9 +60451,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Edit with limited access: collaborators can view and edit tasks they follow in the Kanban view.\n"
 "Edit: collaborators can view and edit all tasks in the Kanban view. Additionally, they can choose which tasks they want to follow."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -59994,6 +60599,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -60264,7 +60872,11 @@ msgid "Refused"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ငြင်းဆိုပြီး"
+>>>>>>> upstream/18.0
 =======
 msgstr "ငြင်းဆိုပြီး"
 >>>>>>> upstream/18.0
@@ -60849,7 +61461,11 @@ msgid "Reporting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ရီပို့ တင်ပြခြင်း"
+>>>>>>> upstream/18.0
 =======
 msgstr "ရီပို့ တင်ပြခြင်း"
 >>>>>>> upstream/18.0
@@ -61481,7 +62097,11 @@ msgid "Responsible User"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "တာဝန်ရှိသူ"
+>>>>>>> upstream/18.0
 =======
 msgstr "တာဝန်ရှိသူ"
 >>>>>>> upstream/18.0
@@ -62151,7 +62771,11 @@ msgid "Send"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ပို့"
+>>>>>>> upstream/18.0
 =======
 msgstr "ပို့"
 >>>>>>> upstream/18.0
@@ -62585,7 +63209,11 @@ msgid "Send Email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အီးမေးလ် ပို့"
+>>>>>>> upstream/18.0
 =======
 msgstr "အီးမေးလ် ပို့"
 >>>>>>> upstream/18.0
@@ -62990,7 +63618,11 @@ msgid "Sequence"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "စီးကွင့်"
+>>>>>>> upstream/18.0
 =======
 msgstr "စီးကွင့်"
 >>>>>>> upstream/18.0
@@ -63444,8 +64076,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Set on project's stages to inform customers when a project reaches that "
 "stage"
+=======
+"Set on project's stages to inform customers when a project reaches that stage"
+>>>>>>> upstream/18.0
 =======
 "Set on project's stages to inform customers when a project reaches that stage"
 >>>>>>> upstream/18.0
@@ -63719,7 +64355,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Archiving these accounts will remove the option to log timesheets for their respective projects.\n"
+=======
+"Archiving these accounts will remove the option to log timesheets for their "
+"respective projects.\n"
+>>>>>>> upstream/18.0
 =======
 "Archiving these accounts will remove the option to log timesheets for their "
 "respective projects.\n"
@@ -64106,7 +64747,11 @@ msgid "Stage"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အဆင့်"
+>>>>>>> upstream/18.0
 =======
 msgstr "အဆင့်"
 >>>>>>> upstream/18.0
@@ -64634,7 +65279,11 @@ msgid "Stage Changed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အဆင့်ပြောင်းလဲခဲ့သည်"
+>>>>>>> upstream/18.0
 =======
 msgstr "အဆင့်ပြောင်းလဲခဲ့သည်"
 >>>>>>> upstream/18.0
@@ -65082,7 +65731,11 @@ msgid "Start Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "စရက်"
+>>>>>>> upstream/18.0
 =======
 msgstr "စရက်"
 >>>>>>> upstream/18.0
@@ -65640,6 +66293,7 @@ msgid "State"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "ပြည်နယ်"
@@ -65892,6 +66546,9 @@ msgstr "ပြည်နယ်"
 >>>>>>> upstream/18.0
 =======
 msgstr "ပြည်နယ်"
+>>>>>>> upstream/18.0
+=======
+msgstr "အခြေအနေ"
 >>>>>>> upstream/18.0
 =======
 msgstr "အခြေအနေ"
@@ -66013,7 +66670,11 @@ msgid "Status"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အခြေအနေ"
+>>>>>>> upstream/18.0
 =======
 msgstr "အခြေအနေ"
 >>>>>>> upstream/18.0
@@ -66511,7 +67172,11 @@ msgid "Tags"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "တက်ဂ်များ"
+>>>>>>> upstream/18.0
 =======
 msgstr "တက်ဂ်များ"
 >>>>>>> upstream/18.0
@@ -67117,7 +67782,11 @@ msgid "Task"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "တာဝန်"
+>>>>>>> upstream/18.0
 =======
 msgstr "တာဝန်"
 >>>>>>> upstream/18.0
@@ -67550,7 +68219,11 @@ msgid "Task Activities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "တာဝန် လုပ်ဆောင်ချက်များ"
+>>>>>>> upstream/18.0
 =======
 msgstr "တာဝန် လုပ်ဆောင်ချက်များ"
 >>>>>>> upstream/18.0
@@ -67912,7 +68585,11 @@ msgid "Task Approved"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "တာဝန် ခွင့်ပြုပြီး"
+>>>>>>> upstream/18.0
 =======
 msgstr "တာဝန် ခွင့်ပြုပြီး"
 >>>>>>> upstream/18.0
@@ -68273,7 +68950,11 @@ msgid "Task Canceled"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "တာဝန် ပယ်ပြီး"
+>>>>>>> upstream/18.0
 =======
 msgstr "တာဝန် ပယ်ပြီး"
 >>>>>>> upstream/18.0
@@ -68634,7 +69315,11 @@ msgid "Task Cancelled"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "တာဝန် ပယ်ပြီး"
+>>>>>>> upstream/18.0
 =======
 msgstr "တာဝန် ပယ်ပြီး"
 >>>>>>> upstream/18.0
@@ -68996,7 +69681,11 @@ msgid "Task Converted from To-Do"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "လုပ်ရန်ရှိမှ ပြောင်းလာသော တာဝန်"
+>>>>>>> upstream/18.0
 =======
 msgstr "လုပ်ရန်ရှိမှ ပြောင်းလာသော တာဝန်"
 >>>>>>> upstream/18.0
@@ -69359,7 +70048,11 @@ msgid "Task Created"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "တာဝန် ဖန်တီးပြီး"
+>>>>>>> upstream/18.0
 =======
 msgstr "တာဝန် ဖန်တီးပြီး"
 >>>>>>> upstream/18.0
@@ -69721,7 +70414,11 @@ msgid "Task Dependencies"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "တာဝန်၏အကြိုတာဝန်များ"
+>>>>>>> upstream/18.0
 =======
 msgstr "တာဝန်၏အကြိုတာဝန်များ"
 >>>>>>> upstream/18.0
@@ -70083,7 +70780,11 @@ msgid "Task Done"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "တာဝန်ပြီးဆုံး"
+>>>>>>> upstream/18.0
 =======
 msgstr "တာဝန်ပြီးဆုံး"
 >>>>>>> upstream/18.0
@@ -70446,7 +71147,11 @@ msgid "Task In Progress"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "တာဝန်လုပ်ဆောင်ဆဲ"
+>>>>>>> upstream/18.0
 =======
 msgstr "တာဝန်လုပ်ဆောင်ဆဲ"
 >>>>>>> upstream/18.0
@@ -70807,7 +71512,11 @@ msgid "Task Logs"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "တာဝန် မှတ်တမ်းများ"
+>>>>>>> upstream/18.0
 =======
 msgstr "တာဝန် မှတ်တမ်းများ"
 >>>>>>> upstream/18.0
@@ -71186,7 +71895,11 @@ msgid "Task Stage"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "တာဝန် အဆင့်"
+>>>>>>> upstream/18.0
 =======
 msgstr "တာဝန် အဆင့်"
 >>>>>>> upstream/18.0
@@ -71554,7 +72267,11 @@ msgid "Task Stages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "တာဝန် အဆင့်များ"
+>>>>>>> upstream/18.0
 =======
 msgstr "တာဝန် အဆင့်များ"
 >>>>>>> upstream/18.0
@@ -71839,7 +72556,11 @@ msgid "Task Title"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "တာဝန် ခေါင်းစဉ်"
+>>>>>>> upstream/18.0
 =======
 msgstr "တာဝန် ခေါင်းစဉ်"
 >>>>>>> upstream/18.0
@@ -71893,7 +72614,11 @@ msgid "Task Title..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "တာဝန် ခေါင်းစဉ်..."
+>>>>>>> upstream/18.0
 =======
 msgstr "တာဝန် ခေါင်းစဉ်..."
 >>>>>>> upstream/18.0
@@ -71955,7 +72680,11 @@ msgid "Task Waiting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "တာဝန် စောင်းဆိုင်းစဉ်"
+>>>>>>> upstream/18.0
 =======
 msgstr "တာဝန် စောင်းဆိုင်းစဉ်"
 >>>>>>> upstream/18.0
@@ -72085,7 +72814,11 @@ msgid "Task approved"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "တာဝန် ခွင့်ပြုပြီး"
+>>>>>>> upstream/18.0
 =======
 msgstr "တာဝန် ခွင့်ပြုပြီး"
 >>>>>>> upstream/18.0
@@ -72446,7 +73179,11 @@ msgid "Task cancelled"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "တာဝန် ပယ်ပြီး"
+>>>>>>> upstream/18.0
 =======
 msgstr "တာဝန် ပယ်ပြီး"
 >>>>>>> upstream/18.0
@@ -72807,7 +73544,11 @@ msgid "Task done"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "တာဝန်ပြီးဆုံး"
+>>>>>>> upstream/18.0
 =======
 msgstr "တာဝန်ပြီးဆုံး"
 >>>>>>> upstream/18.0
@@ -73226,7 +73967,11 @@ msgid "Tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "တာဝန်များ"
+>>>>>>> upstream/18.0
 =======
 msgstr "တာဝန်များ"
 >>>>>>> upstream/18.0
@@ -73588,7 +74333,11 @@ msgid "Tasks Analysis"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "တာဝန် ခွဲခြမ်းလေ့လာခြင်း"
+>>>>>>> upstream/18.0
 =======
 msgstr "တာဝန် ခွဲခြမ်းလေ့လာခြင်း"
 >>>>>>> upstream/18.0
@@ -73642,7 +74391,11 @@ msgid "Tasks Management"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "တာဝန် စီခံခန့်ခွဲမှူ"
+>>>>>>> upstream/18.0
 =======
 msgstr "တာဝန် စီခံခန့်ခွဲမှူ"
 >>>>>>> upstream/18.0
@@ -73695,7 +74448,11 @@ msgid "Tasks Stages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "တာဝန် အဆင့်များ"
+>>>>>>> upstream/18.0
 =======
 msgstr "တာဝန် အဆင့်များ"
 >>>>>>> upstream/18.0
@@ -73756,7 +74513,11 @@ msgid "Tests"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "စမ်းသပ်မှူများ"
+>>>>>>> upstream/18.0
 =======
 msgstr "စမ်းသပ်မှူများ"
 >>>>>>> upstream/18.0
@@ -73813,6 +74574,7 @@ msgstr ""
 #. module: project
 #. odoo-python
 #: code:addons/project/controllers/portal.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -74003,6 +74765,9 @@ msgid "The document does not exist or you do not have the rights to access it."
 =======
 msgid "The document does not exist or you do not have the rights to access it."
 >>>>>>> upstream/18.0
+=======
+msgid "The document does not exist or you do not have the rights to access it."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: project
@@ -74030,6 +74795,7 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_model_id
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -74426,6 +75192,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "The model (Odoo Document Kind) to which this alias corresponds. Any incoming "
 "email that does not reply to an existing record will cause the creation of a "
 "new record of this model (e.g. a Project Task)"
@@ -74479,6 +75247,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -74668,6 +75439,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"The name of the email alias, e.g. 'jobs' if you want to catch emails for "
+"<jobs@example.odoo.com>"
+>>>>>>> upstream/18.0
 =======
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
 "<jobs@example.odoo.com>"
@@ -75083,8 +75859,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The project's company cannot be changed if its analytic account has analytic"
 " lines or if more than one project is linked to it."
+=======
+"The project's company cannot be changed if its analytic account has analytic "
+"lines or if more than one project is linked to it."
+>>>>>>> upstream/18.0
 =======
 "The project's company cannot be changed if its analytic account has analytic "
 "lines or if more than one project is linked to it."
@@ -75332,8 +76113,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Chart or by \"Is Closed\" to represent a Burn-up chart. Without one of these"
 " groupings applied, the report will not provide relevant information."
+=======
+"Chart or by \"Is Closed\" to represent a Burn-up chart. Without one of these "
+"groupings applied, the report will not provide relevant information."
+>>>>>>> upstream/18.0
 =======
 "Chart or by \"Is Closed\" to represent a Burn-up chart. Without one of these "
 "groupings applied, the report will not provide relevant information."
@@ -75580,8 +76366,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "The task and the associated partner must be linked to the same company."
+=======
+msgid "The task and the associated partner must be linked to the same company."
+>>>>>>> upstream/18.0
 =======
 msgid "The task and the associated partner must be linked to the same company."
 >>>>>>> upstream/18.0
@@ -75777,8 +76567,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "project is too restricted. Set the privacy of the project to "
 "'%(visibility)s' in order to make it accessible by the recipient(s)."
+=======
+"project is too restricted. Set the privacy of the project to '%"
+"(visibility)s' in order to make it accessible by the recipient(s)."
+>>>>>>> upstream/18.0
 =======
 "project is too restricted. Set the privacy of the project to '%"
 "(visibility)s' in order to make it accessible by the recipient(s)."
@@ -76062,8 +76857,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "on your website. This includes leads/opportunities, quotations/sales orders,"
 " purchase orders, invoices and bills, timesheets, and tickets."
+=======
+"on your website. This includes leads/opportunities, quotations/sales orders, "
+"purchase orders, invoices and bills, timesheets, and tickets."
+>>>>>>> upstream/18.0
 =======
 "on your website. This includes leads/opportunities, quotations/sales orders, "
 "purchase orders, invoices and bills, timesheets, and tickets."
@@ -76326,7 +77126,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Archiving the account will remove the option to log timesheets for these projects.\n"
+=======
+"Archiving the account will remove the option to log timesheets for these "
+"projects.\n"
+>>>>>>> upstream/18.0
 =======
 "Archiving the account will remove the option to log timesheets for these "
 "projects.\n"
@@ -76570,8 +77375,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This follower is currently a project collaborator. Removing them will revoke"
 " their portal access to the project. Are you sure you want to proceed?"
+=======
+"This follower is currently a project collaborator. Removing them will revoke "
+"their portal access to the project. Are you sure you want to proceed?"
+>>>>>>> upstream/18.0
 =======
 "This follower is currently a project collaborator. Removing them will revoke "
 "their portal access to the project. Are you sure you want to proceed?"
@@ -76822,8 +77632,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "consider: either remove the company designation from the project or from the"
 " stage. Alternatively, you can update the company information for these "
+=======
+"consider: either remove the company designation from the project or from the "
+"stage. Alternatively, you can update the company information for these "
+>>>>>>> upstream/18.0
 =======
 "consider: either remove the company designation from the project or from the "
 "stage. Alternatively, you can update the company information for these "
@@ -77076,8 +77891,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "associated with %s. There are a couple of options to consider: either change"
 " the project's company to align with the stage's company or remove the "
+=======
+"associated with %s. There are a couple of options to consider: either change "
+"the project's company to align with the stage's company or remove the "
+>>>>>>> upstream/18.0
 =======
 "associated with %s. There are a couple of options to consider: either change "
 "the project's company to align with the stage's company or remove the "
@@ -77394,7 +78214,11 @@ msgid "Time Management"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အချိန်စီမံခန့်ခွဲနိုင်မှုစွမ်း"
+>>>>>>> upstream/18.0
 =======
 msgstr "အချိန်စီမံခန့်ခွဲနိုင်မှုစွမ်း"
 >>>>>>> upstream/18.0
@@ -77840,7 +78664,11 @@ msgid "Title"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ခေါင်းစဉ်"
+>>>>>>> upstream/18.0
 =======
 msgstr "ခေါင်းစဉ်"
 >>>>>>> upstream/18.0
@@ -78432,7 +79260,11 @@ msgid "To Do"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "လုပ်ရန်"
+>>>>>>> upstream/18.0
 =======
 msgstr "လုပ်ရန်"
 >>>>>>> upstream/18.0
@@ -78958,7 +79790,11 @@ msgid "Track the progress of your projects"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "သင့် ပရောဂျက်၏ တိုးတက်မှူကို တိုင်းတာပါ"
+>>>>>>> upstream/18.0
 =======
 msgstr "သင့် ပရောဂျက်၏ တိုးတက်မှူကို တိုင်းတာပါ"
 >>>>>>> upstream/18.0
@@ -79144,7 +79980,11 @@ msgid "Unassigned"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အဆိုင်းမချရသေး"
+>>>>>>> upstream/18.0
 =======
 msgstr "အဆိုင်းမချရသေး"
 >>>>>>> upstream/18.0
@@ -79661,7 +80501,11 @@ msgid "Unread Messages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "မဖတ်ရသေးသော မက်ဆေ့ဂျ်များ"
+>>>>>>> upstream/18.0
 =======
 msgstr "မဖတ်ရသေးသော မက်ဆေ့ဂျ်များ"
 >>>>>>> upstream/18.0
@@ -80206,7 +81050,11 @@ msgid "Until"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "မတိုင်ခင်ထိ"
+>>>>>>> upstream/18.0
 =======
 msgstr "မတိုင်ခင်ထိ"
 >>>>>>> upstream/18.0
@@ -80699,7 +81547,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Make sure to use the right format and order e.g. Improve the configuration screen 5h #feature #v16 @Mitchell !"
+=======
+"        Make sure to use the right format and order e.g. Improve the "
+"configuration screen 5h #feature #v16 @Mitchell !"
+>>>>>>> upstream/18.0
 =======
 "        Make sure to use the right format and order e.g. Improve the "
 "configuration screen 5h #feature #v16 @Mitchell !"
@@ -81026,7 +81879,11 @@ msgid "View"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဗျူး"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဗျူး"
 >>>>>>> upstream/18.0
@@ -81507,7 +82364,11 @@ msgid "View Tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "တာဝန်များကို ကြည့်ရန်"
+>>>>>>> upstream/18.0
 =======
 msgstr "တာဝန်များကို ကြည့်ရန်"
 >>>>>>> upstream/18.0
@@ -81977,7 +82838,11 @@ msgid "Weekly"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အပါတ်စဉ်"
+>>>>>>> upstream/18.0
 =======
 msgstr "အပါတ်စဉ်"
 >>>>>>> upstream/18.0
@@ -82583,7 +83448,11 @@ msgid "Weeks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ရက်သတ္တပါတ်"
+>>>>>>> upstream/18.0
 =======
 msgstr "ရက်သတ္တပါတ်"
 >>>>>>> upstream/18.0
@@ -83179,7 +84048,11 @@ msgid "Work"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အလုပ်"
+>>>>>>> upstream/18.0
 =======
 msgstr "အလုပ်"
 >>>>>>> upstream/18.0
@@ -83688,8 +84561,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Would you like to unarchive all of the projects contained in these stages as"
 " well?"
+=======
+"Would you like to unarchive all of the projects contained in these stages as "
+"well?"
+>>>>>>> upstream/18.0
 =======
 "Would you like to unarchive all of the projects contained in these stages as "
 "well?"
@@ -84052,7 +84930,11 @@ msgid "Yearly"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "နှစ်စဉ်"
+>>>>>>> upstream/18.0
 =======
 msgstr "နှစ်စဉ်"
 >>>>>>> upstream/18.0
@@ -84658,7 +85540,11 @@ msgid "Years"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "နှစ်"
+>>>>>>> upstream/18.0
 =======
 msgstr "နှစ်"
 >>>>>>> upstream/18.0
@@ -85162,9 +86048,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "since it currently includes projects associated with "
 "%(project_company_name)s. Please ensure that this stage exclusively consists"
 " of projects linked to %(company_name)s."
+=======
+"since it currently includes projects associated with %"
+"(project_company_name)s. Please ensure that this stage exclusively consists "
+"of projects linked to %(company_name)s."
+>>>>>>> upstream/18.0
 =======
 "since it currently includes projects associated with %"
 "(project_company_name)s. Please ensure that this stage exclusively consists "
@@ -85470,8 +86362,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot delete stages containing projects. You can either archive them or"
 " first delete all of their projects."
+=======
+"You cannot delete stages containing projects. You can either archive them or "
+"first delete all of their projects."
+>>>>>>> upstream/18.0
 =======
 "You cannot delete stages containing projects. You can either archive them or "
 "first delete all of their projects."
@@ -85712,8 +86609,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot delete stages containing projects. You should first delete all of"
 " their projects."
+=======
+"You cannot delete stages containing projects. You should first delete all of "
+"their projects."
+>>>>>>> upstream/18.0
 =======
 "You cannot delete stages containing projects. You should first delete all of "
 "their projects."
@@ -86002,8 +86904,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You have full control and can revoke portal access anytime. Are you ready to"
 " proceed?"
+=======
+"You have full control and can revoke portal access anytime. Are you ready to "
+"proceed?"
+>>>>>>> upstream/18.0
 =======
 "You have full control and can revoke portal access anytime. Are you ready to "
 "proceed?"
@@ -86419,7 +87326,11 @@ msgid "e.g. mycompany.com"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဉပမာ mycompany.com"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဉပမာ mycompany.com"
 >>>>>>> upstream/18.0

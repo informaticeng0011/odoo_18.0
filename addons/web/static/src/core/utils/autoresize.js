@@ -1,6 +1,10 @@
 import { useEffect } from "@odoo/owl";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { browser } from "../browser/browser";
+=======
+import { memoize } from "@web/core/utils/functions";
+>>>>>>> upstream/18.0
 =======
 import { memoize } from "@web/core/utils/functions";
 >>>>>>> upstream/18.0
@@ -58,6 +62,7 @@ export function useAutoresize(ref, options = {}) {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 function resizeInput(input) {
     // This mesures the maximum width of the input which can get from the flex layout.
     input.style.width = "100%";
@@ -65,6 +70,8 @@ function resizeInput(input) {
     // Somehow Safari 16 computes input sizes incorrectly. This is fixed in Safari 17
     const isSafari16 = /Version\/16.+Safari/i.test(browser.navigator.userAgent);
 =======
+=======
+>>>>>>> upstream/18.0
 const doesScrollWidthExcludePadding = memoize(() => {
     const input = document.createElement("input");
     input.style.cssText = `
@@ -87,6 +94,9 @@ function resizeInput(input) {
     // This mesures the maximum width of the input which can get from the flex layout.
     input.style.width = "100%";
     const maxWidth = input.clientWidth;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     // Minimum width of the input
     input.style.width = "10px";
@@ -95,12 +105,15 @@ function resizeInput(input) {
         return;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (input.scrollWidth + 5 + (isSafari16 ? 8 : 0) > maxWidth) {
         input.style.width = "100%";
         return;
     }
     input.style.width = input.scrollWidth + 5 + (isSafari16 ? 8 : 0) + "px";
 =======
+=======
+>>>>>>> upstream/18.0
     // scrollWidth measures the content box only; borders are added separately
     let boxExtraWidth = parseFloat(style.borderLeftWidth) + parseFloat(style.borderRightWidth);
     // Some browsers (Safari ≤16, Firefox ≥145) exclude padding from input scrollWidth
@@ -114,6 +127,9 @@ function resizeInput(input) {
         return;
     }
     input.style.width = `${desiredWidth}px`;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 }
 
