@@ -46,6 +46,11 @@ from odoo import models, api
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.osv.expression import AND, OR
+
+>>>>>>> upstream/18.0
 =======
 from odoo.osv.expression import AND, OR
 
@@ -282,8 +287,11 @@ class LoyaltyReward(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return [('program_id', 'in', config_id._get_program_ids().ids)]
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -427,6 +435,9 @@ class LoyaltyReward(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -630,7 +641,11 @@ class LoyaltyReward(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 matching_ids = list(comodel._search([('display_name', operator, value)]))
+=======
+                matching_ids = list(comodel._search([('display_name', 'ilike', value)]))
+>>>>>>> upstream/18.0
 =======
                 matching_ids = list(comodel._search([('display_name', 'ilike', value)]))
 >>>>>>> upstream/18.0

@@ -6,6 +6,10 @@ import { TableMenu } from "./table_menu";
 import { TablePicker } from "./table_picker";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { registry } from "@web/core/registry";
+>>>>>>> upstream/18.0
 =======
 import { registry } from "@web/core/registry";
 >>>>>>> upstream/18.0
@@ -59,6 +63,7 @@ export class TableUIPlugin extends Plugin {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.activeTd = null;
 
         /** @type {import("@html_editor/core/overlay_plugin").Overlay} */
@@ -83,11 +88,16 @@ export class TableUIPlugin extends Plugin {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         this.columnMenuOverlayKey = "table-column-menu";
         this.rowMenuOverlayKey = "table-row-menu";
         this.activeTd = null;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -97,8 +107,13 @@ export class TableUIPlugin extends Plugin {
                 this.isMenuOpened = false;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this.colMenu.close();
                 this.rowMenu.close();
+=======
+                this.closeColumnMenu();
+                this.closeRowMenu();
+>>>>>>> upstream/18.0
 =======
                 this.closeColumnMenu();
                 this.closeRowMenu();
@@ -138,6 +153,7 @@ export class TableUIPlugin extends Plugin {
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (
             ["TD", "TH"].includes(target.tagName) &&
             target !== this.activeTd &&
@@ -156,6 +172,8 @@ export class TableUIPlugin extends Plugin {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const targetCell = closestElement(target, "td, th");
         if (targetCell && targetCell !== this.activeTd && this.editable.contains(targetCell)) {
             if (ev.target.isContentEditable) {
@@ -168,6 +186,9 @@ export class TableUIPlugin extends Plugin {
             }
             if (!targetCell) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -178,7 +199,11 @@ export class TableUIPlugin extends Plugin {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     createDropdownState(menuToClose) {
+=======
+    createDropdownState(closeMenu) {
+>>>>>>> upstream/18.0
 =======
     createDropdownState(closeMenu) {
 >>>>>>> upstream/18.0
@@ -191,7 +216,11 @@ export class TableUIPlugin extends Plugin {
                 dropdownState.isOpen = true;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 menuToClose.close();
+=======
+                closeMenu();
+>>>>>>> upstream/18.0
 =======
                 closeMenu();
 >>>>>>> upstream/18.0
@@ -210,11 +239,14 @@ export class TableUIPlugin extends Plugin {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     setActiveTd(td) {
         this.activeTd = td;
         this.colMenu.close();
         this.rowMenu.close();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     closeColumnMenu() {
@@ -230,6 +262,9 @@ export class TableUIPlugin extends Plugin {
         this.closeColumnMenu();
         this.closeRowMenu();
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -254,6 +289,7 @@ export class TableUIPlugin extends Plugin {
         if (td.cellIndex === 0) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.rowMenu.open({
                 target: td,
                 props: {
@@ -262,6 +298,8 @@ export class TableUIPlugin extends Plugin {
                     target: td,
                     dropdownState: this.createDropdownState(this.colMenu),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             registry.category(this.config.localOverlayContainers.key).add(this.rowMenuOverlayKey, {
@@ -273,6 +311,9 @@ export class TableUIPlugin extends Plugin {
                     direction: this.config.direction || "ltr",
                     close: () => this.closeRowMenu(),
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -281,6 +322,7 @@ export class TableUIPlugin extends Plugin {
             });
         }
         if (td.parentElement.rowIndex === 0) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             this.colMenu.open({
@@ -297,6 +339,8 @@ export class TableUIPlugin extends Plugin {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             registry
                 .category(this.config.localOverlayContainers.key)
                 .add(this.columnMenuOverlayKey, {
@@ -311,6 +355,9 @@ export class TableUIPlugin extends Plugin {
                     },
                 });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

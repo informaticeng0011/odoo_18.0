@@ -91,7 +91,11 @@ from odoo.tools import mute_logger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @tagged('-standard', '-at_install', 'post_install', 'database_breaking')
+=======
+@tagged('-standard', '-at_install', 'post_install')
+>>>>>>> upstream/18.0
 =======
 @tagged('-standard', '-at_install', 'post_install')
 >>>>>>> upstream/18.0

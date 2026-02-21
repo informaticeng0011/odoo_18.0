@@ -470,7 +470,10 @@ class TestProjectSharing(TestProjectSharingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -964,6 +967,9 @@ class TestProjectSharing(TestProjectSharingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1358,6 +1364,11 @@ class TestProjectSharing(TestProjectSharingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            4.1) Restrict to edit with limited access and try to edit a task with and without following it
+            4.2) Restrict to read and check he can no longer edit the tasks, even if he is within the followers
+>>>>>>> upstream/18.0
 =======
             4.1) Restrict to edit with limited access and try to edit a task with and without following it
             4.2) Restrict to read and check he can no longer edit the tasks, even if he is within the followers
@@ -1619,7 +1630,10 @@ class TestProjectSharing(TestProjectSharingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2110,6 +2124,9 @@ class TestProjectSharing(TestProjectSharingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2479,7 +2496,10 @@ class TestProjectSharing(TestProjectSharingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2548,6 +2568,9 @@ class TestProjectSharing(TestProjectSharingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2953,7 +2976,10 @@ class TestProjectSharing(TestProjectSharingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3641,6 +3667,9 @@ class TestProjectSharing(TestProjectSharingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

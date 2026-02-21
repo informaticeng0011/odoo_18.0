@@ -163,7 +163,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import Command
+=======
+from odoo import Command, fields
+>>>>>>> upstream/18.0
 =======
 from odoo import Command, fields
 >>>>>>> upstream/18.0
@@ -728,10 +732,13 @@ class TestSurveyController(common.TestSurveyCommon, HttpCase):
                     page0, _ = self.env['survey.question'].create(pages)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                 response = self._access_start(survey)
                 user_input = self.env['survey.user_input'].search([('access_token', '=', response.url.split('/')[-1])])
                 answer_token = user_input.access_token
 =======
+=======
+>>>>>>> upstream/18.0
                 cookie_key = f'survey_{survey.access_token}'
                 # clear the cookie to start a new survey
                 self.opener.cookies.pop(cookie_key, None)
@@ -743,6 +750,9 @@ class TestSurveyController(common.TestSurveyCommon, HttpCase):
                 answer_token = user_input.access_token
                 self.assertTrue(cookie_token)
                 self.assertTrue(user_input)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
                 r = self._access_page(survey, answer_token)
@@ -927,7 +937,10 @@ class TestSurveyController(common.TestSurveyCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1427,6 +1440,9 @@ class TestSurveyController(common.TestSurveyCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

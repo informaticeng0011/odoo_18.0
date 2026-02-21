@@ -388,7 +388,10 @@ test("touch rendering - tap-to-show", async () => {
 });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -429,6 +432,9 @@ test("tooltip from and to child element", async () => {
     expect(".o_popover").toHaveCount(0);
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -103,10 +103,13 @@ class PosSelfKiosk(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return request.render(
                 'pos_self_order.index',
                 {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -391,6 +394,9 @@ class PosSelfKiosk(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -706,8 +712,14 @@ class PosSelfKiosk(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         pos_config, _, _ = self._verify_entry_access(config_id, access_token, table_identifier)
         data = pos_config.load_self_data()
+=======
+        pos_config, _, config_access_token = self._verify_entry_access(config_id, access_token, table_identifier)
+        data = pos_config.load_self_data()
+        data['pos.config']['data'][0]['access_token'] = config_access_token
+>>>>>>> upstream/18.0
 =======
         pos_config, _, config_access_token = self._verify_entry_access(config_id, access_token, table_identifier)
         data = pos_config.load_self_data()

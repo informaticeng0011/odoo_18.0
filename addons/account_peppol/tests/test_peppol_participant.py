@@ -36,6 +36,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import json
 from contextlib import contextmanager
 <<<<<<< HEAD
@@ -596,10 +597,16 @@ class TestPeppolParticipant(TransactionCase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 from base64 import b64encode
 
 from odoo import Command
 from odoo.exceptions import ValidationError
+<<<<<<< HEAD
+=======
+from odoo.tests.form import Form
+>>>>>>> upstream/18.0
 from odoo.tests.common import tagged, TransactionCase, freeze_time
 from odoo.tools import mute_logger
 from odoo.tools.misc import file_open
@@ -647,6 +654,9 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -727,6 +737,7 @@ class TestPeppolParticipant(PeppolConnectorCommon):
     def setUpClass(cls):
         super().setUpClass()
         cls.env['ir.config_parameter'].sudo().set_param('account_peppol.edi.mode', 'test')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2579,6 +2590,8 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         cls.private_key = cls.env['certificate.key'].create({
             'name': 'Test key PEPPOL',
             'content': b64encode(file_open('account_peppol/tests/assets/private_key.pem', 'rb').read()),
@@ -2636,6 +2649,9 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2722,6 +2738,7 @@ class TestPeppolParticipant(PeppolConnectorCommon):
             'proxy_type': 'peppol',
             'edi_mode': 'demo',
         }])
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3471,6 +3488,8 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         with self._mock_requests([
             self._mock_lookup_participant(),
         ]):
@@ -3513,6 +3532,9 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3597,6 +3619,7 @@ class TestPeppolParticipant(PeppolConnectorCommon):
         with self.assertRaises(ValidationError), self.cr.savepoint():
             wizard.button_peppol_sender_registration()
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4197,6 +4220,8 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def test_register_participant_for_the_first_time_as_sender_then_receiver_then_unregister(self):
         # not_register -> sender
         with self._mock_requests([
@@ -4253,6 +4278,10 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            self._mock_participant_status('receiver'),
+>>>>>>> upstream/18.0
 =======
             self._mock_participant_status('receiver'),
 >>>>>>> upstream/18.0
@@ -4469,6 +4498,10 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            self._mock_participant_status('sender'),
+>>>>>>> upstream/18.0
 =======
             self._mock_participant_status('sender'),
 >>>>>>> upstream/18.0
@@ -4683,6 +4716,10 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            self._mock_participant_status('sender'),
+>>>>>>> upstream/18.0
 =======
             self._mock_participant_status('sender'),
 >>>>>>> upstream/18.0
@@ -4823,6 +4860,7 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4843,6 +4881,8 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4947,6 +4987,7 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5001,4 +5042,48 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_peppol_commercial_entity(self):
+        receivable = self.env["account.account"].create({
+            "account_type": "income",
+            "name": "test_receiv",
+            "code": "TESTR"
+        })
+        payable = self.env["account.account"].create({
+            "account_type": "expense",
+            "name": "test_pay",
+            "code": "TESTP"
+        })
+        company_peppol = self.env["res.company"].create({
+            "name": "test_be",
+            "country_id": self.env.ref("base.be").id,
+        })
+        partner_view = self.env.ref("base.view_partner_form")
+        self.env["ir.ui.view"].create({
+            "name": "test_inherit",
+            "inherit_id": partner_view.id,
+            "model": "res.partner",
+            "type": "form",
+            "arch": """<xpath expr="//field" position="after">
+                    <field name="commercial_partner_id" />
+                </xpath>"""
+        })
+        env_partner = (self.env["res.partner"]
+            .with_company(company_peppol)
+            .with_context(
+                default_property_account_receivable_id=receivable.id,
+                default_property_account_payable_id=payable.id
+            ))
+        with Form(env_partner, view=partner_view) as partner_form:
+            self.assertEqual(partner_form.peppol_verification_state, "not_verified")
+            partner_form.name = "test"
+            partner_form.vat = "BE0477472701"
+            partner_form.peppol_eas = "odemo"
+            self.assertFalse(partner_form.commercial_partner_id)
+            p_rec = partner_form.save()
+            self.assertEqual(partner_form.peppol_verification_state, "not_valid")
+            self.assertEqual(p_rec.commercial_partner_id, p_rec)
+            self.assertEqual(p_rec.commercial_partner_id.name, "test")
 >>>>>>> upstream/18.0

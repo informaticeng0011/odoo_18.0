@@ -13,6 +13,12 @@ from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 
 from odoo.exceptions import UserError
 
+<<<<<<< HEAD
+=======
+from odoo.addons.l10n_pl_edi.exceptions import KSeFRateLimitError
+
+
+>>>>>>> upstream/18.0
 _logger = logging.getLogger(__name__)
 TIMEOUT = 10
 
@@ -45,7 +51,11 @@ class KsefApiService:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return 'https://ksef.mf.gov.pl/api/v2'
+=======
+            return 'https://api.ksef.mf.gov.pl/v2'
+>>>>>>> upstream/18.0
 =======
             return 'https://api.ksef.mf.gov.pl/v2'
 >>>>>>> upstream/18.0
@@ -118,6 +128,12 @@ class KsefApiService:
                 self.refresh_access_token()
                 # Pass is_auth_retry=True to prevent looping
                 return self._make_request(method, endpoint, is_auth_retry=True, **kwargs)
+<<<<<<< HEAD
+=======
+            elif response.status_code == 429:
+                retry_after = response.headers.get('Retry-After')
+                raise KSeFRateLimitError("Too Many Requests", retry_after=retry_after)
+>>>>>>> upstream/18.0
             else:
                 response.raise_for_status()
                 return response
@@ -397,3 +413,23 @@ class KsefApiService:
             return response.json()
         except requests.exceptions.RequestException as e:
             raise UserError(self.env._("Failed to redeem token: %s", e.response.text if e.response else e))
+<<<<<<< HEAD
+=======
+
+    def query_invoice_metadata(self, query_criteria, page_size=100, page_offset=0):
+        endpoint = f"{self.api_url}/invoices/query/metadata"
+        params = {'pageSize': page_size, 'pageOffset': page_offset}
+        try:
+            response = self._make_request('POST', endpoint, json=query_criteria, params=params)
+            return response.json()
+        except KSeFRateLimitError as e:
+            return {'error': {'retry_after': e.retry_after, 'message': e.message}}
+
+    def get_invoice_by_ksef_number(self, ksef_number):
+        endpoint = f"{self.api_url}/invoices/ksef/{ksef_number}"
+        try:
+            response = self._make_request('GET', endpoint)
+            return {'xml_content': response.content}
+        except KSeFRateLimitError as e:
+            return {'error': {'retry_after': e.retry_after, 'message': e.message}}
+>>>>>>> upstream/18.0

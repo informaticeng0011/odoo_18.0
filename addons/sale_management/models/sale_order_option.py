@@ -71,7 +71,11 @@ class SaleOrderOption(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         digits='Product Price',
+=======
+        min_display_digits='Product Price',
+>>>>>>> upstream/18.0
 =======
         min_display_digits='Product Price',
 >>>>>>> upstream/18.0

@@ -1,7 +1,11 @@
 import { useEffect } from "@odoo/owl";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { browser } from "../browser/browser";
+=======
+import { memoize } from "@web/core/utils/functions";
+>>>>>>> upstream/18.0
 =======
 import { memoize } from "@web/core/utils/functions";
 >>>>>>> upstream/18.0
@@ -63,6 +67,7 @@ export function useAutoresize(ref, options = {}) {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 function resizeInput(input) {
     // This mesures the maximum width of the input which can get from the flex layout.
     input.style.width = "100%";
@@ -70,6 +75,8 @@ function resizeInput(input) {
     // Somehow Safari 16 computes input sizes incorrectly. This is fixed in Safari 17
     const isSafari16 = /Version\/16.+Safari/i.test(browser.navigator.userAgent);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 const doesScrollWidthExcludePadding = memoize(() => {
@@ -95,6 +102,9 @@ function resizeInput(input) {
     input.style.width = "100%";
     const maxWidth = input.clientWidth;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -106,12 +116,15 @@ function resizeInput(input) {
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (input.scrollWidth + 5 + (isSafari16 ? 8 : 0) > maxWidth) {
         input.style.width = "100%";
         return;
     }
     input.style.width = input.scrollWidth + 5 + (isSafari16 ? 8 : 0) + "px";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     // scrollWidth measures the content box only; borders are added separately
@@ -128,6 +141,9 @@ function resizeInput(input) {
     }
     input.style.width = `${desiredWidth}px`;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

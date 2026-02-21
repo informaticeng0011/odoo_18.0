@@ -168,7 +168,11 @@ class CRMHelpers(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def notify_no_more_credit(self, service_name, model_name, notification_parameter):
+=======
+    def _notify_no_more_credit(self, service_name, model_name, notification_parameter):
+>>>>>>> upstream/18.0
 =======
     def _notify_no_more_credit(self, service_name, model_name, notification_parameter):
 >>>>>>> upstream/18.0
@@ -707,9 +711,12 @@ class CRMHelpers(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         country_id = self.env['res.country'].search([('code', '=', company_data['country_code'])]).id
         website_url = 'https://www.%s' % company_data['domain'] if company_data['domain'] else False
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -807,6 +814,9 @@ class CRMHelpers(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -876,6 +886,7 @@ class CRMHelpers(models.Model):
             'team_id': team_id,
             'tag_ids': [(6, 0, tag_ids)],
             'user_id': user_id,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -983,6 +994,8 @@ class CRMHelpers(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             'reveal_id': company_data.get('duns') or company_data.get('clearbit_id', ''),
             # Lead vals from data
             'name': company_data.get('name', '') or company_data.get('domain', ''),
@@ -1027,6 +1040,9 @@ class CRMHelpers(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

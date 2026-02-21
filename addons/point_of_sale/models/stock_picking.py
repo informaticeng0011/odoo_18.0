@@ -174,10 +174,13 @@ class StockPicking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         lines_by_product = groupby(sorted(lines, key=lambda l: l.product_id.id), key=lambda l: l.product_id.id)
         move_vals = []
         for dummy, olines in lines_by_product:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -437,6 +440,9 @@ class StockPicking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -640,6 +646,7 @@ class StockPicking(models.Model):
                 continue
             if rec.pos_order_id.shipping_date and not rec.pos_order_id.to_invoice:
                 cost_per_account = defaultdict(lambda: 0.0)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2804,6 +2811,8 @@ class StockPicking(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 for line in rec.move_line_ids:
                     if not line.product_id.is_storable or line.product_id.valuation != 'real_time':
                         continue
@@ -2815,6 +2824,9 @@ class StockPicking(models.Model):
                         cost_per_account[out, exp] += line_cost
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3138,7 +3150,11 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 move.move_line_ids.quantity = 0
+=======
+                move.move_line_ids.unlink()
+>>>>>>> upstream/18.0
 =======
                 move.move_line_ids.unlink()
 >>>>>>> upstream/18.0

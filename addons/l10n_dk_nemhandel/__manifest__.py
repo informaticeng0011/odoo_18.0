@@ -184,6 +184,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     'pre_init_hook': '_pre_init_nemhandel',
 >>>>>>> upstream/18.0
@@ -312,6 +313,10 @@
 >>>>>>> upstream/18.0
 =======
     'pre_init_hook': '_pre_init_nemhandel',
+>>>>>>> upstream/18.0
+=======
+    'pre_init_hook': '_pre_init_nemhandel',
+    'uninstall_hook': 'uninstall_hook',
 >>>>>>> upstream/18.0
 =======
     'pre_init_hook': '_pre_init_nemhandel',

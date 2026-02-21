@@ -100,8 +100,13 @@ registry.category("web_tour.tours").add("PosLoyaltyLoyaltyProgram1", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ProductScreen.clickDisplayedProduct("Whiteboard Pen"),
             PosLoyalty.isRewardButtonHighlighted(false),
+=======
+            PosLoyalty.isRewardButtonHighlighted(false),
+            ProductScreen.clickDisplayedProduct("Whiteboard Pen"),
+>>>>>>> upstream/18.0
 =======
             PosLoyalty.isRewardButtonHighlighted(false),
             ProductScreen.clickDisplayedProduct("Whiteboard Pen"),
@@ -575,7 +580,11 @@ registry.category("web_tour.tours").add("PosLoyaltyDontGrantPointsForRewardOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ProductScreen.clickCustomer("Test Partner"),
+=======
+            ProductScreen.clickCustomer("A Test Partner"),
+>>>>>>> upstream/18.0
 =======
             ProductScreen.clickCustomer("A Test Partner"),
 >>>>>>> upstream/18.0
@@ -1369,7 +1378,10 @@ registry.category("web_tour.tours").add("PosCheapestProductTaxInclude", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1996,7 +2008,11 @@ registry.category("web_tour.tours").add("test_not_create_loyalty_card_expired_pr
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ProductScreen.clickCustomer("Test Partner"),
+=======
+            ProductScreen.clickCustomer("A Test Partner"),
+>>>>>>> upstream/18.0
 =======
             ProductScreen.clickCustomer("A Test Partner"),
 >>>>>>> upstream/18.0
@@ -2717,6 +2733,7 @@ registry.category("web_tour.tours").add("test_not_create_loyalty_card_expired_pr
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2761,6 +2778,8 @@ registry.category("web_tour.tours").add("test_not_create_loyalty_card_expired_pr
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3357,7 +3376,11 @@ registry.category("web_tour.tours").add("PosOrderNoPoints", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ProductScreen.clickCustomer("Test Partner 2"),
+=======
+            ProductScreen.clickCustomer("AAA Test Partner 2"),
+>>>>>>> upstream/18.0
 =======
             ProductScreen.clickCustomer("AAA Test Partner 2"),
 >>>>>>> upstream/18.0
@@ -4057,6 +4080,9 @@ registry.category("web_tour.tours").add("PosOrderNoPoints", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4643,7 +4669,11 @@ registry.category("web_tour.tours").add("PosLoyaltyMultipleOrders", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ProductScreen.clickCustomer("Test Partner"),
+=======
+            ProductScreen.clickCustomer("A Test Partner"),
+>>>>>>> upstream/18.0
 =======
             ProductScreen.clickCustomer("A Test Partner"),
 >>>>>>> upstream/18.0
@@ -5328,6 +5358,7 @@ registry.category("web_tour.tours").add("PosLoyaltyMultipleOrders", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -5382,6 +5413,8 @@ registry.category("web_tour.tours").add("PosLoyaltyMultipleOrders", {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5885,6 +5918,9 @@ registry.category("web_tour.tours").add("test_combo_product_dont_grant_point", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6414,6 +6450,7 @@ registry.category("web_tour.tours").add("test_buy_x_get_y_reward_qty", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6468,6 +6505,8 @@ registry.category("web_tour.tours").add("test_buy_x_get_y_reward_qty", {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6968,6 +7007,9 @@ registry.category("web_tour.tours").add("test_max_usage_partner_with_point", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

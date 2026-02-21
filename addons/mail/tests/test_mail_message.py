@@ -11,6 +11,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# from odoo import exceptions
+>>>>>>> upstream/18.0
 =======
 # from odoo import exceptions
 >>>>>>> upstream/18.0
@@ -59,9 +63,12 @@ from odoo.tests import new_test_user, tagged
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @tagged("-at_install", "post_install")
 class TestMailMessage(common.MailCommon):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -113,6 +120,9 @@ class TestMailMessage(common.MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

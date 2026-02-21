@@ -1,4 +1,8 @@
 import * as Order from "@point_of_sale/../tests/tours/utils/generic_components/order_widget_util";
+<<<<<<< HEAD
+=======
+import * as Dialog from "@point_of_sale/../tests/tours/utils/dialog_util";
+>>>>>>> upstream/18.0
 import { registry } from "@web/core/registry";
 import {
     postMessage,
@@ -7,6 +11,10 @@ import {
     ORDER_IS_FINALIZED,
     NEW_ORDER,
 } from "@point_of_sale/../tests/tours/customer_display_tour";
+<<<<<<< HEAD
+=======
+import { negateStep } from "@point_of_sale/../tests/tours/utils/common";
+>>>>>>> upstream/18.0
 
 const QR_URL =
     "/report/barcode/QR/http%3A%2F%2Flocalhost%3A1740%2Fpos%2Fpay%2F6%3Faccess_token%3D5bb78d6c-bf8e-44ed-8de2-e4ae5b8696ec?width=200&height=200";
@@ -82,6 +90,10 @@ registry.category("web_tour.tours").add("CustomerDisplayTourOnlinePayment", {
                 trigger: `.modal-content img[alt='QR Code to pay'][src='${QR_URL}']`,
             },
             postMessage(PAID, "payment approved"),
+<<<<<<< HEAD
+=======
+            negateStep(Dialog.is()),
+>>>>>>> upstream/18.0
             postMessage(ORDER_IS_FINALIZED, "order is finalized"),
             {
                 content: "Check that we are now on the 'Thank you' screen",

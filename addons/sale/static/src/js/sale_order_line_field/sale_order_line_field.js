@@ -170,7 +170,11 @@ export class SaleOrderLineListRenderer extends ProductLabelSectionAndNoteListRen
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         super.getCellTitle(column, record);
+=======
+        return super.getCellTitle(column, record);
+>>>>>>> upstream/18.0
 =======
         return super.getCellTitle(column, record);
 >>>>>>> upstream/18.0
@@ -734,7 +738,11 @@ export class SaleOrderLineListRenderer extends ProductLabelSectionAndNoteListRen
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 && ![this.titleField, 'tax_id', 'qty_delivered'].includes(column.name)
+=======
+                && !['name', 'tax_id', 'qty_delivered'].includes(column.name)
+>>>>>>> upstream/18.0
 =======
                 && !['name', 'tax_id', 'qty_delivered'].includes(column.name)
 >>>>>>> upstream/18.0

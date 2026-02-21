@@ -2,7 +2,11 @@ import { expect, test } from "@odoo/hoot";
 import { setSelection } from "./_helpers/selection";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { click, hover, queryAll, queryOne, waitFor, waitForNone } from "@odoo/hoot-dom";
+=======
+import { click, hover, queryOne, waitFor, waitForNone } from "@odoo/hoot-dom";
+>>>>>>> upstream/18.0
 =======
 import { click, hover, queryOne, waitFor, waitForNone } from "@odoo/hoot-dom";
 >>>>>>> upstream/18.0
@@ -119,7 +123,11 @@ test("Table column control should always be displayed on top of the table", asyn
     // Table column control displayed on hover should be above the table
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(bottom(columnControl)).toBeLessThan(top(table));
+=======
+    expect(bottom(columnControl)).toBe(top(table));
+>>>>>>> upstream/18.0
 =======
     expect(bottom(columnControl)).toBe(top(table));
 >>>>>>> upstream/18.0
@@ -137,9 +145,14 @@ test("Table column control should always be displayed on top of the table", asyn
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     // Table control should not be displayed (it should not overflow the scroll
     // container, nor be placed below the first row).
     expect(queryAll(".o-we-table-menu[data-type='column']")).toHaveCount(0);
+=======
+    // Table column control displayed on hover should be above the table
+    expect(bottom(columnControl)).toBe(top(table));
+>>>>>>> upstream/18.0
 =======
     // Table column control displayed on hover should be above the table
     expect(bottom(columnControl)).toBe(top(table));
@@ -364,7 +377,11 @@ test("Table menu should close on scroll", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-dropdown--menu").not.toBeVisible();
+=======
+    expect(".o-dropdown--menu").not.toHaveCount();
+>>>>>>> upstream/18.0
 =======
     expect(".o-dropdown--menu").not.toHaveCount();
 >>>>>>> upstream/18.0

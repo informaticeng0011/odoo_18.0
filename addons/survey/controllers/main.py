@@ -244,7 +244,13 @@ class Survey(http.Controller):
                 return request.render("survey.survey_403_page", {'survey': survey_sudo})
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         return request.redirect('/survey/%s/%s' % (survey_sudo.access_token, answer_sudo.access_token))
+=======
+        response = request.redirect('/survey/%s' % survey_sudo.access_token)
+        response.set_cookie('survey_%s' % survey_sudo.access_token, answer_sudo.access_token, max_age=60 * 60 * 24)
+        return response
+>>>>>>> upstream/18.0
 =======
         response = request.redirect('/survey/%s' % survey_sudo.access_token)
         response.set_cookie('survey_%s' % survey_sudo.access_token, answer_sudo.access_token, max_age=60 * 60 * 24)
@@ -394,9 +400,12 @@ class Survey(http.Controller):
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     @http.route('/survey/<string:survey_token>/<string:answer_token>', type='http', auth='public', website=True)
     def survey_display_page(self, survey_token, answer_token, **post):
 =======
+=======
+>>>>>>> upstream/18.0
     @http.route([
         '/survey/<string:survey_token>',
         '/survey/<string:survey_token>/<string:answer_token>',
@@ -404,6 +413,9 @@ class Survey(http.Controller):
     def survey_display_page(self, survey_token, answer_token=None, **post):
         if not answer_token:
             answer_token = request.httprequest.cookies.get('survey_%s' % survey_token)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         access_data = self._get_access_data(survey_token, answer_token, ensure_token=True)
         if access_data['validity_code'] is not True:

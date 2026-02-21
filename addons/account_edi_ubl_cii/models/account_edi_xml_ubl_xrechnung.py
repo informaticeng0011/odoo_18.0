@@ -110,6 +110,7 @@ class AccountEdiXmlUBLDE(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         vals = super()._export_invoice_vals(invoice)
         vals['vals']['customization_id'] = self._get_customization_ids()['xrechnung']
 <<<<<<< HEAD
@@ -653,6 +654,8 @@ class AccountEdiXmlUBLDE(models.AbstractModel):
             vals['vals']['buyer_reference'] = 'N/A'
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -920,6 +923,9 @@ class AccountEdiXmlUBLDE(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1187,6 +1193,11 @@ class AccountEdiXmlUBLDE(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -1638,6 +1649,11 @@ class AccountEdiXmlUBLDE(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -2087,7 +2103,10 @@ class AccountEdiXmlUBLDE(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2338,7 +2357,10 @@ class AccountEdiXmlUBLDE(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2483,6 +2505,7 @@ class AccountEdiXmlUBLDE(models.AbstractModel):
         # OVERRIDE account.edi.xml.ubl_bis3
         self._ubl_add_values_tax_currency_code_empty(vals)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2700,6 +2723,8 @@ class AccountEdiXmlUBLDE(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def _ubl_tax_totals_node_grouping_key(self, base_line, tax_data, vals, currency):
         # EXTENDS account.edi.xml.ubl_bis3
         tax_total_keys = super()._ubl_tax_totals_node_grouping_key(base_line, tax_data, vals, currency)
@@ -2729,6 +2754,9 @@ class AccountEdiXmlUBLDE(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2767,6 +2795,7 @@ class AccountEdiXmlUBLDE(models.AbstractModel):
         if not document_node['cbc:BuyerReference']['_text']:
             document_node['cbc:BuyerReference']['_text'] = 'N/A'
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     def _get_party_node(self, vals):
@@ -3037,6 +3066,8 @@ class AccountEdiXmlUBLDE(models.AbstractModel):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def _ubl_add_party_endpoint_id_node(self, vals):
         # EXTENDS
         super()._ubl_add_party_endpoint_id_node(vals)
@@ -3085,6 +3116,9 @@ class AccountEdiXmlUBLDE(models.AbstractModel):
                 },
             })
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3166,6 +3200,9 @@ class AccountEdiXmlUBLDE(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

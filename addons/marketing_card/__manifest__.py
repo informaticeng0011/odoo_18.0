@@ -274,6 +274,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'web_editor.backend_assets_wysiwyg': [
+            'marketing_card/static/src/scss/mass_mailing.scss'
+        ],
+>>>>>>> upstream/18.0
 =======
         'web_editor.backend_assets_wysiwyg': [
             'marketing_card/static/src/scss/mass_mailing.scss'

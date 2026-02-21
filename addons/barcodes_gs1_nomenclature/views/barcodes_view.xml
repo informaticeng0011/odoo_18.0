@@ -24,6 +24,10 @@
                 </xpath>
                 <xpath expr="//field[@name='pattern']" position="after">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    <field name="is_gs1_nomenclature" invisible="1"/> <!-- Needed to toggle fields in the barcode rule form without saving this field -->
+>>>>>>> upstream/18.0
 =======
                     <field name="is_gs1_nomenclature" invisible="1"/> <!-- Needed to toggle fields in the barcode rule form without saving this field -->
 >>>>>>> upstream/18.0
@@ -52,6 +56,7 @@
             <field name="arch" type="xml">
                 <xpath expr="//field[@name='encoding']" position="attributes">
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <attribute name="invisible">parent.is_gs1_nomenclature or type == 'alias'</attribute>
                 </xpath>
                 <xpath expr="//field[@name='alias']" position="after">
@@ -59,12 +64,17 @@
                     <field name="gs1_decimal_usage" invisible="not parent.is_gs1_nomenclature or gs1_content_type != 'measure'"/>
                     <field name="associated_uom_id" invisible="not parent.is_gs1_nomenclature or gs1_content_type != 'measure'"/>
 =======
+=======
+>>>>>>> upstream/18.0
                     <attribute name="invisible">is_gs1_nomenclature or type == 'alias'</attribute>
                 </xpath>
                 <xpath expr="//field[@name='alias']" position="after">
                     <field name="gs1_content_type" invisible="not is_gs1_nomenclature"/>
                     <field name="gs1_decimal_usage" invisible="not is_gs1_nomenclature or gs1_content_type != 'measure'"/>
                     <field name="associated_uom_id" invisible="not is_gs1_nomenclature or gs1_content_type != 'measure'"/>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     <field name="is_gs1_nomenclature" invisible="1"/>
                 </xpath>

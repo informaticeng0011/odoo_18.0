@@ -1,6 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Component } from "@odoo/owl";
+=======
+import { Component, onMounted, onWillUpdateProps, useRef } from "@odoo/owl";
+>>>>>>> upstream/18.0
 =======
 import { Component, onMounted, onWillUpdateProps, useRef } from "@odoo/owl";
 >>>>>>> upstream/18.0
@@ -24,7 +28,11 @@ export class TableMenu extends Component {
         resetTableSize: Function,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         overlay: Object,
+=======
+        close: Function,
+>>>>>>> upstream/18.0
 =======
         close: Function,
 >>>>>>> upstream/18.0
@@ -41,6 +49,10 @@ export class TableMenu extends Component {
     setup() {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.dropdownRef = useRef("dropdown");
+>>>>>>> upstream/18.0
 =======
         this.dropdownRef = useRef("dropdown");
 >>>>>>> upstream/18.0
@@ -58,7 +70,10 @@ export class TableMenu extends Component {
         this.items = this.props.type === "column" ? this.colItems() : this.rowItems();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         onWillUpdateProps((newProps) => {
@@ -69,6 +84,9 @@ export class TableMenu extends Component {
             this.updatePosition(this.props);
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -84,10 +102,13 @@ export class TableMenu extends Component {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onSelected(item) {
         item.action(this.props.target);
         this.props.overlay.close();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     updatePosition({ target, type, direction }) {
@@ -119,6 +140,9 @@ export class TableMenu extends Component {
         item.action(this.props.target);
         this.props.close();
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -3,3 +3,7 @@
 
 from . import test_peppol_messages
 from . import test_peppol_participant
+<<<<<<< HEAD
+=======
+from . import test_ubl_export_bis3_be
+>>>>>>> upstream/18.0
