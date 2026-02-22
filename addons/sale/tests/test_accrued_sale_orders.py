@@ -310,9 +310,13 @@ class TestAccruedSaleOrders(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         invoice = downpayment._create_invoices({
             'sale_orders': so_context,
         })
+=======
+        invoice = downpayment._create_invoices(self.sale_order)
+>>>>>>> upstream/18.0
 =======
         invoice = downpayment._create_invoices(self.sale_order)
 >>>>>>> upstream/18.0

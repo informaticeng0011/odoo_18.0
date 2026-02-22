@@ -13,7 +13,10 @@
             <field name="nextcall" eval="(DateTime.now() + timedelta(days=1)).strftime('%Y-%m-%d 22:00:00')"/>
         </record>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
         <record id="cron_l10n_pl_edi_ksef_download_bills" model="ir.cron">
             <field name="name">Polish eInvoice: Download vendor bills from KSeF</field>
@@ -24,6 +27,9 @@
             <field name="interval_number">3</field>
             <field name="interval_type">hours</field>
         </record>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     </data>
 </odoo>

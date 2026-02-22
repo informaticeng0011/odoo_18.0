@@ -105,9 +105,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* l10n_uy
 #
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -424,6 +427,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -618,6 +622,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# "Fernanda Alvarez (mfar)" <mfar@odoo.com>, 2026.
 >>>>>>> upstream/18.0
 =======
 # "Fernanda Alvarez (mfar)" <mfar@odoo.com>, 2026.
@@ -644,6 +651,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1040,6 +1048,11 @@ msgstr ""
 "PO-Revision-Date: 2026-02-14 09:04+0000\n"
 "Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 19:04+0000\n"
+"PO-Revision-Date: 2026-02-21 10:02+0000\n"
+"Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Spanish (Latin America) <https://translate.odoo.com/projects/"
 "odoo-18-l10n/l10n_uy/es_419/>\n"
 "Language: es_419\n"
@@ -1047,6 +1060,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1368,10 +1382,14 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: l10n_uy
 #. odoo-python
 #: code:addons/l10n_uy/models/l10n_latam_document_type.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1693,6 +1711,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "%(document_number)s is not a valid value for %(document_type)s.\n"
 "The document number must be entered with a maximum of 2 letters for the "
@@ -1803,6 +1823,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2018,6 +2041,7 @@ msgid ""
 " - YY0000123\n"
 " - A0000001"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2634,6 +2658,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "%(document_number)s no es un valor válido para %(document_type)s.\n"
 "Ingresa el número de documento con un máximo de 2 letras en la primera parte "
 "y 7 números en la segunda. Estos son ejemplos de números de documento "
@@ -2644,6 +2670,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2675,6 +2704,7 @@ msgstr "Plantilla de plan contable"
 #. module: l10n_uy
 #: model:account.report.column,name:l10n_uy.tax_report_balance
 msgid "Balance"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3096,6 +3126,9 @@ msgstr "Saldo"
 =======
 msgstr "Saldo"
 >>>>>>> upstream/18.0
+=======
+msgstr "Saldo"
+>>>>>>> upstream/18.0
 
 #. module: l10n_uy
 #: model:account.report.line,name:l10n_uy.account_tax_report_base_impb_cmprs_0
@@ -3113,6 +3146,7 @@ msgid "Base Purchases 22%"
 msgstr "Base 22% Compras"
 
 #. module: l10n_uy
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3751,6 +3785,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+#: model:account.report.line,name:l10n_uy.account_tax_report_base_impb_cmprs_reduced
+msgid "Base Purchases Reduced VAT"
+msgstr "Base de compras con IVA reducido"
+
+#. module: l10n_uy
+>>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_uy.account_tax_report_base_impb_vnts_0
 msgid "Base Sales 0%"
 msgstr "Base 0% Ventas"
@@ -3766,6 +3807,7 @@ msgid "Base Sales 22%"
 msgstr "Base 22% Ventas"
 
 #. module: l10n_uy
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4722,17 +4764,35 @@ msgstr "Boleta"
 msgid "Boleta"
 msgstr "Boleta"
 >>>>>>> upstream/18.0
+=======
+#: model:account.report.line,name:l10n_uy.account_tax_report_base_impb_vnts_reduced
+msgid "Base Sales Reduced VAT"
+msgstr "Base de ventas con IVA reducido"
+
+#. module: l10n_uy
+#: model:l10n_latam.document.type,name:l10n_uy.dc_boleta_venta_contado
+msgid "Boleta"
+msgstr "Boleta"
+>>>>>>> upstream/18.0
 
 #. module: l10n_uy
 #: model:l10n_latam.identification.type,name:l10n_uy.it_ci
 msgid "CI"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "CI"
+>>>>>>> upstream/18.0
 
 #. module: l10n_uy
 #. odoo-python
 #: code:addons/l10n_uy/models/res_partner.py:0
 msgid "CI/NIE"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "CI/NIE"
+>>>>>>> upstream/18.0
 
 #. module: l10n_uy
 #: model:l10n_latam.document.type,name:l10n_uy.dc_recibo_cobranza
@@ -4983,7 +5043,11 @@ msgid "DNI"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "DNI"
+>>>>>>> upstream/18.0
 =======
 msgstr "DNI"
 >>>>>>> upstream/18.0
@@ -5316,6 +5380,7 @@ msgid "Delivery Guide"
 msgstr "Remito"
 
 #. module: l10n_uy
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5954,6 +6019,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model,name:l10n_uy.model_account_tax
+msgid "ETA tax codes mixin"
+msgstr "Mixin de códigos fiscales ETA"
+
+#. module: l10n_uy
+>>>>>>> upstream/18.0
 #: model:l10n_latam.document.type,name:l10n_uy.dc_nc_expo
 msgid "Export Credit Note"
 msgstr "Nota de Crédito Exportación"
@@ -6026,12 +6098,20 @@ msgstr "Tipo de Documento Latam"
 #. module: l10n_uy
 #: model:l10n_latam.identification.type,name:l10n_uy.it_nie
 msgid "NIE"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "NIE"
+>>>>>>> upstream/18.0
 
 #. module: l10n_uy
 #: model:l10n_latam.identification.type,name:l10n_uy.it_nife
 msgid "NIFE"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "NIFE"
+>>>>>>> upstream/18.0
 
 #. module: l10n_uy
 #: model:l10n_latam.identification.type,description:l10n_uy.it_dni
@@ -6146,7 +6226,11 @@ msgid "OTR"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "OTR"
+>>>>>>> upstream/18.0
 =======
 msgstr "OTR"
 >>>>>>> upstream/18.0
@@ -6471,7 +6555,11 @@ msgstr "Otros"
 #. module: l10n_uy
 #: model:l10n_latam.identification.type,name:l10n_uy.it_pass
 msgid "PAS"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PAS"
+>>>>>>> upstream/18.0
 
 #. module: l10n_uy
 #: model:l10n_latam.identification.type,description:l10n_uy.it_pass
@@ -6479,6 +6567,7 @@ msgid "Passport (all countries)"
 msgstr "Pasaporte (todos los paises)"
 
 #. module: l10n_uy
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6806,11 +6895,14 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_uy.account_tax_report_cmprs_exnto_iva
 msgid "Purchases Exempt from VAT"
 msgstr "Compras IVA Exentas"
 
 #. module: l10n_uy
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8092,6 +8184,23 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+#: model:account.report.line,name:l10n_uy.account_tax_report_cmprs_iva_reduced
+msgid "Purchases Reduced VAT"
+msgstr "Compras con IVA reducido"
+
+#. module: l10n_uy
+#: model:l10n_latam.identification.type,name:l10n_uy.it_rut
+msgid "RUT / RUC"
+msgstr "RUT / RUC"
+
+#. module: l10n_uy
+#: model:account.report.line,name:l10n_uy.account_tax_report_vnts_iva_reduced
+msgid "Sales Reduced VAT"
+msgstr "Ventas con IVA reducido"
+
+#. module: l10n_uy
+>>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_uy.account_tax_report_iva_vnts_10
 msgid "Sales VAT 10%"
 msgstr "IVA Ventas 10%"
@@ -8213,11 +8322,14 @@ msgstr "Ventas exentas de IVA"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model,name:l10n_uy.model_account_tax
 msgid "Tax"
 msgstr "Impuestos"
 
 #. module: l10n_uy
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8576,11 +8688,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The %(vat_label)s number [%(wrong_vat)s] for %(partner_label)s does not seem to be valid.\n"
 "Note: the expected format is %(expected_format)s"
 msgstr ""
 "El %(vat_label)s número [%(wrong_vat)s] para %(partner_label)s no parece válido.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8902,6 +9017,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9175,7 +9293,11 @@ msgstr "Facturas de Proveedor"
 #. module: l10n_uy
 #: model:l10n_latam.document.type,name:l10n_uy.dc_e_boleta
 msgid "e-Boleta"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "e-Boleta"
+>>>>>>> upstream/18.0
 
 #. module: l10n_uy
 #: model:l10n_latam.document.type,name:l10n_uy.dc_e_remito
@@ -9215,12 +9337,20 @@ msgstr "Nota de Débito e-Factura Venta por Cuenta Ajena"
 #. module: l10n_uy
 #: model:l10n_latam.document.type,name:l10n_uy.dc_e_resguardo
 msgid "e-Resguardo"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "e-Resguardo"
+>>>>>>> upstream/18.0
 
 #. module: l10n_uy
 #: model:l10n_latam.document.type,name:l10n_uy.dc_e_ticket
 msgid "e-Ticket"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "e-Ticket"
+>>>>>>> upstream/18.0
 
 #. module: l10n_uy
 #: model:l10n_latam.document.type,name:l10n_uy.dc_cn_e_ticket

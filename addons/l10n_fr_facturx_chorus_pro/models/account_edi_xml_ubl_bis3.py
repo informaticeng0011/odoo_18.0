@@ -113,6 +113,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import models, _
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -804,6 +805,9 @@ from odoo import _, models
 =======
 from odoo import _, models
 >>>>>>> upstream/18.0
+=======
+from odoo import _, models
+>>>>>>> upstream/18.0
 
 
 class AccountEdiXmlUBLBIS3(models.AbstractModel):
@@ -814,6 +818,7 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
     Chorus Pro documentation: https://communaute.chorus-pro.gouv.fr/wp-content/uploads/2017/07/Specifications_Externes_Annexe_EDI_V4.22.pdf
     """
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1238,6 +1243,8 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def _export_invoice_vals(self, invoice):
         """
         * Pagero doc states that the siret of the final customer (that has the Chorus peppol ID) should be located in
@@ -1362,7 +1369,10 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1709,6 +1719,9 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1945,6 +1958,7 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
             # Pagero doc states that the 'Commitment Number' should be in the OrderReference/ID node
             vals['vals']['order_reference'] = invoice.purchase_order_reference
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2892,6 +2906,8 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         for role in ('supplier', 'customer'):
             partner = vals[role].commercial_partner_id
             if 'siret' in partner._fields and partner.siret and partner.country_code == 'FR':
@@ -3047,6 +3063,9 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3399,7 +3418,10 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3746,6 +3768,9 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3987,6 +4012,7 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
                 'cbc:ID': {'_text': invoice.purchase_order_reference}
             }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5151,6 +5177,8 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def _ubl_add_party_identification_nodes(self, vals):
         # EXTENDS account.edi.ubl_bis3
         # * Pagero doc states that the siret of the final customer (that has the Chorus peppol ID) should be located in
@@ -5204,6 +5232,9 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
             }]
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

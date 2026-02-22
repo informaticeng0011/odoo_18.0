@@ -58,7 +58,12 @@ inverseCommandRegistry
     .add("RENAME_ODOO_LIST", identity)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     .add("REMOVE_ODOO_LIST", identity);
+=======
+    .add("REMOVE_ODOO_LIST", identity)
+    .add("DUPLICATE_ODOO_LIST", identity);
+>>>>>>> upstream/18.0
 =======
     .add("REMOVE_ODOO_LIST", identity)
     .add("DUPLICATE_ODOO_LIST", identity);

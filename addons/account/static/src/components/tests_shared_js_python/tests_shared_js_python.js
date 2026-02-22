@@ -215,7 +215,10 @@ export class TestsSharedJsPython extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -800,6 +803,7 @@ export class TestsSharedJsPython extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1440,6 +1444,8 @@ export class TestsSharedJsPython extends Component {
                 filter_tax_function: filter_tax_function,
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1707,6 +1713,9 @@ export class TestsSharedJsPython extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2001,7 +2010,12 @@ export class TestsSharedJsPython extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     params.new_taxes
+=======
+                    params.new_taxes,
+                    { product_uom: params.product_uom}
+>>>>>>> upstream/18.0
 =======
                     params.new_taxes,
                     { product_uom: params.product_uom}
@@ -2530,7 +2544,10 @@ export class TestsSharedJsPython extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3037,6 +3054,9 @@ export class TestsSharedJsPython extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

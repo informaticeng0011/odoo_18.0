@@ -252,6 +252,10 @@ from odoo import models
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools.facade import Proxy, ProxyAttr, ProxyFunc
+>>>>>>> upstream/18.0
 =======
 from odoo.tools.facade import Proxy, ProxyAttr, ProxyFunc
 >>>>>>> upstream/18.0
@@ -1250,7 +1254,10 @@ except ImportError:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2013,6 +2020,9 @@ if vobject is not None:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2808,7 +2818,11 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return vcard
+=======
+        return VComponentProxy(vcard)
+>>>>>>> upstream/18.0
 =======
         return VComponentProxy(vcard)
 >>>>>>> upstream/18.0

@@ -26,7 +26,12 @@ export class LocationSchedule extends Component {
     getWeekDay(weekday) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return luxon.Info.weekdays()[weekday]
+=======
+        const dayName = luxon.Info.weekdays()[weekday];
+        return dayName.charAt(0).toUpperCase() + dayName.slice(1);
+>>>>>>> upstream/18.0
 =======
         const dayName = luxon.Info.weekdays()[weekday];
         return dayName.charAt(0).toUpperCase() + dayName.slice(1);

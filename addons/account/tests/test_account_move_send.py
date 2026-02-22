@@ -325,7 +325,11 @@ class TestAccountComposerPerformance(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 sending_methods=['email'],
+=======
+                sending_methods={'email'},
+>>>>>>> upstream/18.0
 =======
                 sending_methods={'email'},
 >>>>>>> upstream/18.0
@@ -1243,11 +1247,14 @@ class TestAccountMoveSendCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         wizard_model = 'account.move.send.wizard' if len(invoices) == 1 else 'account.move.send.batch.wizard'
         return self.env[wizard_model]\
             .with_context(active_model='account.move', active_ids=invoices.ids)\
             .create(kwargs)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1486,6 +1493,9 @@ class TestAccountMoveSendCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2058,6 +2068,12 @@ class TestAccountMoveSend(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertEqual(wizard.summary_data, {
+            'email': {'count': 1, 'label': 'by Email'},  # Only one will be actually sent by email
+        })
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(wizard.summary_data, {
             'email': {'count': 1, 'label': 'by Email'},  # Only one will be actually sent by email
@@ -3327,7 +3343,10 @@ class TestAccountMoveSend(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3345,6 +3364,9 @@ class TestAccountMoveSend(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3545,7 +3567,10 @@ class TestAccountMoveSend(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4047,6 +4072,9 @@ class TestAccountMoveSend(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4813,7 +4841,13 @@ class TestAccountMoveSend(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         wizard = self.create_send_and_print(invoice, mail_template_id=None, mail_subject=custom_subject)
+=======
+        wizard = self.create_send_and_print(invoice)
+        wizard.mail_template_id = None
+        wizard.mail_subject = custom_subject
+>>>>>>> upstream/18.0
 =======
         wizard = self.create_send_and_print(invoice)
         wizard.mail_template_id = None
@@ -6486,6 +6520,10 @@ class TestAccountMoveSend(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertFalse(wizard.sending_methods)
+>>>>>>> upstream/18.0
 =======
         self.assertFalse(wizard.sending_methods)
 >>>>>>> upstream/18.0
@@ -7246,6 +7284,7 @@ class TestAccountMoveSend(TestAccountMoveSendCommon):
     def test_get_sending_settings(self):
         invoice = self.init_invoice("out_invoice", amounts=[1000], post=True)
         wizard = self.create_send_and_print(invoice)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8216,6 +8255,8 @@ class TestAccountMoveSend(TestAccountMoveSendCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
         expected_results = {
             'sending_methods': {'email'},
@@ -8224,6 +8265,9 @@ class TestAccountMoveSend(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8406,7 +8450,10 @@ class TestAccountMoveSend(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8923,6 +8970,9 @@ class TestAccountMoveSend(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

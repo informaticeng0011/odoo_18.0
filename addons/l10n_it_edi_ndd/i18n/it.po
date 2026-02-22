@@ -105,6 +105,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* l10n_it_edi_ndd
 #
 =======
@@ -632,10 +633,17 @@
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# * l10n_it_edi_ndd
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# "Marianna Ciofani (cima)" <cima@odoo.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0+e\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1165,6 +1173,11 @@ msgstr ""
 "PO-Revision-Date: 2025-11-12 17:47+0000\n"
 >>>>>>> upstream/18.0
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+=======
+"POT-Creation-Date: 2025-12-29 19:02+0000\n"
+"PO-Revision-Date: 2026-02-21 10:02+0000\n"
+"Last-Translator: \"Marianna Ciofani (cima)\" <cima@odoo.com>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Italian <https://translate.odoo.com/projects/odoo-18-l10n/"
 "l10n_it_edi_ndd/it/>\n"
 "Language: it\n"
@@ -1172,6 +1185,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+<<<<<<< HEAD
 "X-Generator: Weblate 5.12.2\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1486,6 +1500,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: l10n_it_edi_ndd
 #: model:ir.model.fields,field_description:l10n_it_edi_ndd.field_l10n_it_document_type__code
@@ -1503,6 +1520,7 @@ msgid "Created on"
 msgstr "Creato il"
 
 #. module: l10n_it_edi_ndd
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1850,6 +1868,8 @@ msgstr "Fattura"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_04
 msgid "Credit note"
 msgstr "Nota di credito"
@@ -1867,6 +1887,7 @@ msgstr "Fattura differita"
 #. module: l10n_it_edi_ndd
 #: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_25
 msgid "Deferred invoice for dropshipping"
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2097,6 +2118,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+msgstr "Fattura differita per dropshipping"
+>>>>>>> upstream/18.0
 
 #. module: l10n_it_edi_ndd
 #: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_02
@@ -2109,6 +2133,7 @@ msgid "Deposit/advance on vendor bill"
 msgstr "Acconto/anticipo su fattura fornitore"
 
 #. module: l10n_it_edi_ndd
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3633,6 +3658,8 @@ msgstr "Autofattura per acquisti da San Marino con IVA (fattura cartacea)"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:l10n_it_edi_ndd.field_l10n_it_document_type__display_name
 msgid "Display Name"
 msgstr "Nome visualizzato"
@@ -3745,6 +3772,10 @@ msgstr "Nome visualizzato"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:l10n_it_edi_ndd.l10n_it_document_type_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:l10n_it_edi_ndd.l10n_it_document_type_form
 >>>>>>> upstream/18.0
@@ -4068,6 +4099,7 @@ msgid "Document Type"
 msgstr "Tipi di documento"
 
 #. module: l10n_it_edi_ndd
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4771,10 +4803,15 @@ msgstr "Tipi di documento"
 #. odoo-python
 #: code:addons/l10n_it_edi_ndd/models/l10n_it_document_type.py:0
 >>>>>>> upstream/18.0
+=======
+#. odoo-python
+#: code:addons/l10n_it_edi_ndd/models/l10n_it_document_type.py:0
+>>>>>>> upstream/18.0
 msgid "Document Type code must be unique."
 msgstr "Il codice del tipo di documento deve essere univoco."
 
 #. module: l10n_it_edi_ndd
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5422,6 +5459,8 @@ msgstr "ID"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:l10n_it_edi_ndd.field_l10n_it_document_type__id
 msgid "ID"
 msgstr "ID"
@@ -5506,6 +5545,9 @@ msgstr "Fattura"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5784,7 +5826,10 @@ msgstr "Registrazione contabile"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_it_edi_ndd.field_account_payment__l10n_it_document_type
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6109,7 +6154,10 @@ msgstr "L10N It Tipo di documento"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_it_edi_ndd.field_account_payment__l10n_it_payment_method
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6387,7 +6435,11 @@ msgstr "MP08 - Carta di pagamento"
 #: model:ir.model.fields.selection,name:l10n_it_edi_ndd.selection__account_move__l10n_it_payment_method__mp09
 #: model:ir.model.fields.selection,name:l10n_it_edi_ndd.selection__account_payment_method_line__l10n_it_payment_method__mp09
 msgid "MP09 - RID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "MP09 - RID"
+>>>>>>> upstream/18.0
 
 #. module: l10n_it_edi_ndd
 #: model:ir.model.fields.selection,name:l10n_it_edi_ndd.selection__account_move__l10n_it_payment_method__mp10
@@ -6405,13 +6457,21 @@ msgstr "MP11 - RID veloce"
 #: model:ir.model.fields.selection,name:l10n_it_edi_ndd.selection__account_move__l10n_it_payment_method__mp12
 #: model:ir.model.fields.selection,name:l10n_it_edi_ndd.selection__account_payment_method_line__l10n_it_payment_method__mp12
 msgid "MP12 - RIBA"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "MP12 - RIBA"
+>>>>>>> upstream/18.0
 
 #. module: l10n_it_edi_ndd
 #: model:ir.model.fields.selection,name:l10n_it_edi_ndd.selection__account_move__l10n_it_payment_method__mp13
 #: model:ir.model.fields.selection,name:l10n_it_edi_ndd.selection__account_payment_method_line__l10n_it_payment_method__mp13
 msgid "MP13 - MAV"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "MP13 - MAV"
+>>>>>>> upstream/18.0
 
 #. module: l10n_it_edi_ndd
 #: model:ir.model.fields.selection,name:l10n_it_edi_ndd.selection__account_move__l10n_it_payment_method__mp14
@@ -6447,13 +6507,21 @@ msgstr "MP18 - Bollettino di c/c postale"
 #: model:ir.model.fields.selection,name:l10n_it_edi_ndd.selection__account_move__l10n_it_payment_method__mp19
 #: model:ir.model.fields.selection,name:l10n_it_edi_ndd.selection__account_payment_method_line__l10n_it_payment_method__mp19
 msgid "MP19 - SEPA Direct Debit"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "MP19 - Addebito diretto SEPA"
+>>>>>>> upstream/18.0
 
 #. module: l10n_it_edi_ndd
 #: model:ir.model.fields.selection,name:l10n_it_edi_ndd.selection__account_move__l10n_it_payment_method__mp20
 #: model:ir.model.fields.selection,name:l10n_it_edi_ndd.selection__account_payment_method_line__l10n_it_payment_method__mp20
 msgid "MP20 - SEPA Direct Debit CORE"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "MP20 - Addebito diretto SEPA CORE"
+>>>>>>> upstream/18.0
 
 #. module: l10n_it_edi_ndd
 #: model:ir.model.fields.selection,name:l10n_it_edi_ndd.selection__account_move__l10n_it_payment_method__mp21
@@ -6471,7 +6539,11 @@ msgstr "MP22 - Trattenuta su somme già riscosse"
 #: model:ir.model.fields.selection,name:l10n_it_edi_ndd.selection__account_move__l10n_it_payment_method__mp23
 #: model:ir.model.fields.selection,name:l10n_it_edi_ndd.selection__account_payment_method_line__l10n_it_payment_method__mp23
 msgid "MP23 - PagoPA"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "MP23 - PagoPA"
+>>>>>>> upstream/18.0
 
 #. module: l10n_it_edi_ndd
 #: model:ir.model.fields,field_description:l10n_it_edi_ndd.field_l10n_it_document_type__name
@@ -6479,6 +6551,7 @@ msgid "Name"
 msgstr "Nome"
 
 #. module: l10n_it_edi_ndd
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6787,6 +6860,8 @@ msgstr "Parcella"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:l10n_it_edi_ndd.account_invoice_form_l10n_it
 msgid "Payment Method"
 msgstr "Metodi di pagamento"
@@ -6879,7 +6954,10 @@ msgstr "Acquisto"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7050,6 +7128,10 @@ msgid ""
 "Reverse charged vendor bill integration for purchase of goods from foreign "
 "markets"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Integrazione fattura fornitore con reverse charge per acquisto merci estere"
+>>>>>>> upstream/18.0
 
 #. module: l10n_it_edi_ndd
 #: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_18
@@ -7136,6 +7218,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7294,6 +7379,7 @@ msgid "Sale"
 msgstr "Vendita"
 
 #. module: l10n_it_edi_ndd
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7814,6 +7900,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_21
 msgid "Self-invoice for exceeded threshold"
 msgstr "Autofattura per splafonamento"
@@ -7910,6 +7998,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8157,6 +8248,9 @@ msgstr "Fattura semplificata"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8358,6 +8452,7 @@ msgid "The document type name"
 msgstr "Il nome del documento"
 
 #. module: l10n_it_edi_ndd
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8697,6 +8792,8 @@ msgstr "Tipo"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_26
 msgid "Transfer of depreciable assets and internal transfers"
 msgstr "Cessione di beni ammortizzabili e per passaggi interni"
@@ -8806,6 +8903,9 @@ msgstr "Estrazione beni da Deposito IVA con versamento dell'IVA"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

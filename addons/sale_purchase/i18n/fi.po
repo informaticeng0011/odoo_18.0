@@ -50,7 +50,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -258,7 +262,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -459,6 +467,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2024\n"
@@ -565,6 +574,9 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
+=======
+"POT-Creation-Date: 2026-02-20 18:39+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2024\n"
 "Language-Team: Finnish (https://app.transifex.com/odoo/teams/41243/fi/)\n"
@@ -620,6 +632,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -740,6 +755,7 @@ msgid "<span class=\"o_stat_text\">Sale</span>"
 msgstr "<span class=\"o_stat_text\">Myynti</span>"
 
 #. module: sale_purchase
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sale_purchase.sale_order_cancel_view_form
 msgid ""
 "<span id=\"display_invoice_alert\" position=\"after\">\n"
@@ -1345,6 +1361,8 @@ msgstr ""
 "            </span>"
 
 #. module: sale_purchase
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale_purchase.exception_sale_on_purchase_cancellation
 msgid "Exception(s) occurred on the purchase order(s):"
 msgstr "Ostotilauksissa tapahtui poikkeuksia:"
@@ -1497,6 +1515,16 @@ msgid "Subcontract Service"
 msgstr "Alihankittu palvelu"
 
 #. module: sale_purchase
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:sale_purchase.sale_order_cancel_view_form
+msgid ""
+"There are active purchase orders linked to this sale order that are not "
+"cancelled automatically! <br/>"
+msgstr ""
+
+#. module: sale_purchase
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/sale_purchase/models/sale_order_line.py:0
 msgid ""
@@ -1532,3 +1560,25 @@ msgstr "of"
 #: model_terms:ir.ui.view,arch_db:sale_purchase.exception_purchase_on_sale_quantity_decreased
 msgid "ordered instead of"
 msgstr "tilattu sen sijasta"
+<<<<<<< HEAD
+=======
+
+#~ msgid ""
+#~ "<span id=\"display_invoice_alert\" position=\"after\">\n"
+#~ "                <span id=\"display_purchase_orders_alert\" "
+#~ "invisible=\"not display_purchase_orders_alert\" "
+#~ "groups=\"purchase.group_purchase_user\">\n"
+#~ "                    There are active purchase orders linked to this sale "
+#~ "order that are not cancelled automatically! <br/>\n"
+#~ "                </span>\n"
+#~ "            </span>"
+#~ msgstr ""
+#~ "<span id=\"display_invoice_alert\" position=\"after\">\n"
+#~ "                <span id=\"display_purchase_orders_alert\" "
+#~ "invisible=\"not display_purchase_orders_alert\" "
+#~ "groups=\"purchase.group_purchase_user\">\n"
+#~ "                   Tähän ostotilaukseen liittyviä myyntitilauksia ei "
+#~ "automaattisesti peruta. <br/>\n"
+#~ "                </span>\n"
+#~ "            </span>"
+>>>>>>> upstream/18.0

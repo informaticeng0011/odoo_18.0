@@ -3,15 +3,21 @@ import re
 from xml.dom.minidom import parseString
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from stdnum.pl.nip import compact
 
 from odoo import api, fields, models
 =======
+=======
+>>>>>>> upstream/18.0
 from dateutil.relativedelta import relativedelta
 from lxml import etree
 from stdnum.pl.nip import compact
 
 from odoo import Command, api, fields, models
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 from odoo.exceptions import UserError
 from odoo.tools import float_compare, float_is_zero, float_repr, OrderedSet
@@ -54,11 +60,17 @@ class AccountMove(models.Model):
     )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     _sql_constraints = [
         ('unique_l10n_pl_edi_number', 'UNIQUE(l10n_pl_edi_number)', 'The KSeF number must be unique'),
     ]
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _l10n_pl_edi_check_mandatory_fields(self):
         errors = {}
@@ -452,7 +464,10 @@ class AccountMove(models.Model):
         # EXTENDS account
         return super()._get_fields_to_detach() + ['l10n_pl_edi_attachment_file', 'l10n_pl_edi_upo_file']
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     @api.model
     def l10n_pl_edi_get_ksef_bill_vals_from_xml(self, xml_content):
@@ -653,4 +668,7 @@ class AccountMove(models.Model):
         self.create(bills_vals_list)
 
         return blocking_error
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

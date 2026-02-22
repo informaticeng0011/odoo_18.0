@@ -35,8 +35,13 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'account_sale_tax_id': 'l10n_ee_vat_out_22_g',
                 'account_purchase_tax_id': 'l10n_ee_vat_in_22_g',
+=======
+                'account_sale_tax_id': 'l10n_ee_vat_out_24_g',
+                'account_purchase_tax_id': 'l10n_ee_vat_in_24_g',
+>>>>>>> upstream/18.0
 =======
                 'account_sale_tax_id': 'l10n_ee_vat_out_24_g',
                 'account_purchase_tax_id': 'l10n_ee_vat_in_24_g',

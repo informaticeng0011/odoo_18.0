@@ -28,6 +28,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* payment_adyen
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -179,6 +180,9 @@
 =======
 # * payment_adyen
 >>>>>>> upstream/18.0
+=======
+# * payment_adyen
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -231,6 +235,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -271,6 +276,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
@@ -360,6 +368,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -605,6 +614,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+"PO-Revision-Date: 2026-02-21 10:17+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Slovak <https://translate.odoo.com/projects/odoo-18/"
+"payment_adyen/sk/>\n"
+>>>>>>> upstream/18.0
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -659,6 +675,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -699,6 +716,9 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
 =======
 "X-Generator: Weblate 5.14.3\n"
@@ -788,6 +808,7 @@ msgstr ""
 #. module: payment_adyen
 #: model_terms:ir.ui.view,arch_db:payment_adyen.payment_provider_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -936,10 +957,13 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<strong>Warning:</strong> To capture the amount manually, you also need to "
 "set\n"
 "                    the Capture Delay to manual on your Adyen account "
 "settings."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1086,11 +1110,18 @@ msgid ""
 =======
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr ""
+"<strong>Upozornenie:</strong> Ak chcete sumu zaznamenať ručne, musíte v "
+"nastaveniach svojho účtu Adyen nastaviť\n"
+"                    aj oneskorenie zaznamenanie (Capture Delay) na ručné."
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #. odoo-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1338,6 +1369,10 @@ msgid ""
 "A request was sent to void the transaction with reference %(reference)s (%"
 "(provider)s)."
 >>>>>>> upstream/18.0
+=======
+"A request was sent to void the transaction with reference %(reference)s (%"
+"(provider)s)."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: payment_adyen
@@ -1348,7 +1383,11 @@ msgstr "API Kľúč"
 #. module: payment_adyen
 #: model:ir.model.fields,field_description:payment_adyen.field_payment_provider__adyen_api_url_prefix
 msgid "API URL Prefix"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "API URL Prefix"
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #: model:ir.model.fields.selection,name:payment_adyen.selection__payment_provider__code__adyen
@@ -1360,18 +1399,30 @@ msgstr "Adyen"
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid ""
 "An error occurred during the processing of your payment. Please try again."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pri spracovaní vašej platby došlo k chybe. Skúste to prosím znova."
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #. odoo-javascript
 #: code:addons/payment_adyen/static/src/js/payment_form.js:0
 msgid "Cannot display the payment form"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nie je možné zobraziť platobný formulár"
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #: model:ir.model.fields,field_description:payment_adyen.field_payment_provider__adyen_client_key
 msgid "Client Key"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kľúč klienta"
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #: model:ir.model.fields,field_description:payment_adyen.field_payment_provider__code
@@ -1387,18 +1438,30 @@ msgstr ""
 #. module: payment_adyen
 #: model:ir.model.fields,field_description:payment_adyen.field_payment_provider__adyen_hmac_key
 msgid "HMAC Key"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "HMAC kľúč"
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #: model:ir.model.fields,field_description:payment_adyen.field_payment_capture_wizard__has_adyen_tx
 msgid "Has Adyen Tx"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Má Adyen Tx"
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #. odoo-javascript
 #: code:addons/payment_adyen/static/src/js/payment_form.js:0
 msgid "Incorrect payment details"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nesprávne platobné údaje"
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #: model_terms:ir.ui.view,arch_db:payment_adyen.payment_provider_form
@@ -1419,7 +1482,11 @@ msgstr ""
 #. module: payment_adyen
 #: model:ir.model,name:payment_adyen.model_payment_capture_wizard
 msgid "Payment Capture Wizard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sprievodca zaplatením"
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #: model:ir.model,name:payment_adyen.model_payment_provider
@@ -1452,7 +1519,11 @@ msgid "Payment Provider"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poskytovateľ platieb"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poskytovateľ platieb"
 >>>>>>> upstream/18.0
@@ -1552,7 +1623,11 @@ msgstr "Platobná transakcia"
 #. odoo-javascript
 #: code:addons/payment_adyen/static/src/js/payment_form.js:0
 msgid "Payment processing failed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spracovanie platby zlyhalo"
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #. odoo-python
@@ -1564,7 +1639,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid "Received data with invalid payment state: %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prijaté údaje s neplatným stavom platby: %s"
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #. odoo-python
@@ -1576,28 +1655,48 @@ msgstr ""
 #. odoo-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid "Received data with missing payment state."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prijaté údaje s chýbajúcim stavom platby."
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #. odoo-python
 #: code:addons/payment_adyen/controllers/main.py:0
 msgid "Received tampered payment request data."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prijaté údaje o platobnej požiadavke boli pozmenené/sfalšované."
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #: model:ir.model.fields,field_description:payment_adyen.field_payment_token__adyen_shopper_reference
 msgid "Shopper Reference"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Referencie zákazníkov"
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #: model:ir.model.fields,help:payment_adyen.field_payment_provider__adyen_api_key
 msgid "The API key of the webservice user"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "API kľúč používateľa webovej služby"
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #: model:ir.model.fields,help:payment_adyen.field_payment_provider__adyen_hmac_key
 msgid "The HMAC key of the webhook"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kľúč HMAC webhooku"
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #. odoo-python
@@ -1606,11 +1705,20 @@ msgid ""
 "The amount processed by Adyen for the transaction %s is different than the "
 "one requested. Another transaction is created with the correct amount."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Suma spracovaná spoločnosťou Adyen pre transakciu %s sa líši od požadovanej "
+"sumy. Vytvorí sa ďalšia transakcia so správnou sumou."
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #: model:ir.model.fields,help:payment_adyen.field_payment_provider__adyen_api_url_prefix
 msgid "The base URL for the API endpoints"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Základná URL adresa pre koncové body API"
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #. odoo-python
@@ -1624,11 +1732,17 @@ msgid ""
 "The capture or void of the transaction might take a few minutes to be\n"
 "                    processed by Adyen and reflected in Odoo."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Zaznamenanie alebo zrušenie transakcie môže trvať niekoľko minút, kým ju\n"
+"                    spracuje spoločnosť Adyen a zobrazí sa v systéme Odoo."
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #. odoo-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1876,17 +1990,29 @@ msgid ""
 "The capture request of %(amount)s for the transaction with reference %(ref)s "
 "has been requested (%(provider_name)s)."
 >>>>>>> upstream/18.0
+=======
+"The capture request of %(amount)s for the transaction with reference %(ref)s "
+"has been requested (%(provider_name)s)."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: payment_adyen
 #: model:ir.model.fields,help:payment_adyen.field_payment_provider__adyen_client_key
 msgid "The client key of the webservice user"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kľúč klienta používateľa webovej služby"
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #: model:ir.model.fields,help:payment_adyen.field_payment_provider__adyen_merchant_account
 msgid "The code of the merchant account to use with this provider"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kód obchodného účtu, ktorý sa používa u tohto poskytovateľa"
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #. odoo-python
@@ -1897,7 +2023,11 @@ msgstr ""
 #. module: payment_adyen
 #: model:ir.model.fields,help:payment_adyen.field_payment_provider__code
 msgid "The technical code of this payment provider."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Technický kód tohto poskytovateľa platieb."
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #. odoo-python
@@ -1908,7 +2038,11 @@ msgstr ""
 #. module: payment_adyen
 #: model:ir.model.fields,help:payment_adyen.field_payment_token__adyen_shopper_reference
 msgid "The unique reference of the partner owning this token"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jedinečný odkaz partnera, ktorý vlastní tento token"
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #. odoo-python
@@ -1920,4 +2054,8 @@ msgstr ""
 #. odoo-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid "Your payment was refused. Please try again."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vaša platba bola odmietnutá. Skúste to prosím znovu."
+>>>>>>> upstream/18.0

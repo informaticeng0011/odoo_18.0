@@ -63,8 +63,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* data_recycle
 # 
+=======
+# * data_recycle
+#
+>>>>>>> upstream/18.0
 =======
 # * data_recycle
 #
@@ -385,6 +390,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
@@ -575,10 +581,14 @@
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -826,6 +836,10 @@ msgstr ""
 "POT-Creation-Date: 2025-12-29 18:36+0000\n"
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-12-19 16:13+0000\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:36+0000\n"
+"PO-Revision-Date: 2026-02-21 10:03+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Danish <https://translate.odoo.com/projects/odoo-18/"
 "data_recycle/da/>\n"
@@ -897,6 +911,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1029,12 +1046,21 @@ msgid ""
 "' recycling rule.<br/>\n"
 "You can validate those changes"
 msgstr ""
+<<<<<<< HEAD
+=======
+"' genbrugsregel.<br/>\n"
+"Du kan validere disse ændringer"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #. odoo-python
 #: code:addons/data_recycle/models/data_recycle_record.py:0
 msgid "**Record Deleted**"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "**Datasæt slettet**"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model_terms:ir.ui.view,arch_db:data_recycle.view_data_merge_model_form
@@ -1093,13 +1119,21 @@ msgstr "Data Rensning"
 #. module: data_recycle
 #: model:ir.actions.server,name:data_recycle.ir_cron_clean_records_ir_actions_server
 msgid "Data Recycle: Clean Records"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datagenbrug: Rens datasæt"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #. odoo-python
 #: code:addons/data_recycle/models/data_recycle_model.py:0
 msgid "Data to Recycle"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Data, der skal genbruges"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.model.fields.selection,name:data_recycle.selection__data_recycle_model__notify_frequency_period__days
@@ -1120,7 +1154,11 @@ msgstr "Delta"
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_model__time_field_delta_unit
 msgid "Delta Unit"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Deltaenhed"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model_terms:ir.ui.view,arch_db:data_recycle.view_data_recycle_record_list
@@ -1142,7 +1180,11 @@ msgstr "Vis navn"
 #: model:ir.actions.act_window,name:data_recycle.action_data_recycle_record
 #: model:ir.actions.act_window,name:data_recycle.action_data_recycle_record_notification
 msgid "Field Recycle Records"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Feltgenbrugsdatasæt"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_model__domain
@@ -1221,7 +1263,11 @@ msgid "Include Archived"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Inklusive arkiverede"
+>>>>>>> upstream/18.0
 =======
 msgstr "Inklusive arkiverede"
 >>>>>>> upstream/18.0
@@ -1433,6 +1479,10 @@ msgstr "Sidst opdateret den"
 #: model:ir.model.fields,help:data_recycle.field_data_recycle_model__notify_user_ids
 msgid "List of users to notify when there are new records to recycle"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Liste over brugere, der skal underrettes, når der er nye data til genbrug"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.model.fields.selection,name:data_recycle.selection__data_recycle_model__recycle_mode__manual
@@ -1502,58 +1552,102 @@ msgstr "Datasæt"
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_model__records_to_recycle_count
 msgid "Records To Recycle"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datasæt, der skal genbruges"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_model__recycle_action
 msgid "Recycle Action"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Genbrugshandling"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_model__recycle_mode
 msgid "Recycle Mode"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Genbrugstilstand"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_record__recycle_model_id
 msgid "Recycle Model"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Genbrugsmodel"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_model__recycle_record_ids
 msgid "Recycle Record"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Genbrug datasæt"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.ui.menu,name:data_recycle.menu_data_cleaning_config_rules_recycle
 #: model:ir.ui.menu,name:data_recycle.menu_data_recycle_record
 msgid "Recycle Records"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Genbrug datasæt"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model_terms:ir.ui.view,arch_db:data_recycle.view_data_recycle_record_list
 msgid "Recycle Rule"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Genbrugsregel"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model_terms:ir.ui.view,arch_db:data_recycle.view_data_recycle_record_search
 msgid "Recycle Rules"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Genbrugsregler"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.model,name:data_recycle.model_data_recycle_model
 msgid "Recycling Model"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Genbrugsmodel"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.model,name:data_recycle.model_data_recycle_record
 msgid "Recycling Record"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gebrugsdatasæt"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.actions.act_window,name:data_recycle.action_data_recycle_config
 msgid "Recyle Records Rules"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Regler for datasætgenbrug"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.ui.menu,name:data_recycle.menu_data_cleaning_config_rules
@@ -1563,12 +1657,20 @@ msgstr "Regler"
 #. module: data_recycle
 #: model_terms:ir.ui.view,arch_db:data_recycle.view_data_merge_model_form
 msgid "Run Now"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gennemfør nu"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model_terms:ir.ui.view,arch_db:data_recycle.view_data_merge_model_form
 msgid "Select a model to configure recycling actions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vælg en model til konfiguration af genbrugshandlinger"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.model.constraint,message:data_recycle.constraint_data_recycle_model_check_notif_freq
@@ -1579,18 +1681,30 @@ msgstr "Notifikations frekvensen bør være større end 0"
 #. odoo-python
 #: code:addons/data_recycle/models/data_recycle_model.py:0
 msgid "This model doesn't manage archived records. Only deletion is possible."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Denne model håndterer ikke arkiverede datasæt. Du kan kun slette."
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_model__time_field_id
 msgid "Time Field"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tidsfelt"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #. odoo-python
 #: code:addons/data_recycle/models/data_recycle_record.py:0
 msgid "Undefined Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Udefineret navn"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #. odoo-javascript
@@ -1608,7 +1722,11 @@ msgstr "Validér"
 #. module: data_recycle
 #: model_terms:ir.ui.view,arch_db:data_recycle.notification
 msgid "We've identified"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vi har identificeret"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.model.fields.selection,name:data_recycle.selection__data_recycle_model__notify_frequency_period__weeks

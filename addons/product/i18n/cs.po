@@ -163,8 +163,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* product
 # 
+=======
+# * product
+#
+>>>>>>> upstream/18.0
 =======
 # * product
 #
@@ -989,6 +994,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 =======
 # Vojtěch Olšan <vojtech.olsan@systee.cz>, 2025.
@@ -1549,10 +1555,16 @@
 # Vojtěch Olšan <vojtech.olsan@systee.cz>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 >>>>>>> upstream/18.0
+=======
+# Vojtěch Olšan <vojtech.olsan@systee.cz>, 2025, 2026.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+# "Marta (wacm)" <wacm@odoo.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2557,12 +2569,18 @@ msgstr ""
 "PO-Revision-Date: 2026-02-14 09:12+0000\n"
 "Last-Translator: Vojtěch Olšan <vojtech.olsan@systee.cz>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-02-21 10:12+0000\n"
+"Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Czech <https://translate.odoo.com/projects/odoo-18/product/cs/"
 ">\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3263,6 +3281,11 @@ msgstr ""
 "(n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : "
+"(n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -3272,6 +3295,12 @@ msgid ""
 "\n"
 "Note: products that you don't have access to will not be shown above."
 msgstr ""
+<<<<<<< HEAD
+=======
+"\n"
+"\n"
+"Poznámka: produkty, ke kterým nemáte přístup, se výše nezobrazí."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item__product_variant_count
@@ -3497,7 +3526,11 @@ msgid "$14.00"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "$14.00"
+>>>>>>> upstream/18.0
 =======
 msgstr "$14.00"
 >>>>>>> upstream/18.0
@@ -4373,7 +4406,11 @@ msgid "$15.00"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "$15.00"
+>>>>>>> upstream/18.0
 =======
 msgstr "$15.00"
 >>>>>>> upstream/18.0
@@ -5111,6 +5148,7 @@ msgstr "$15.00"
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5508,10 +5546,13 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "%(base)s with a %(discount)s %% %(discount_type)s and %(surcharge)s extra "
 "fee\n"
 "Example: %(amount)s * %(discount_charge)s + %(price_surcharge)s → %"
 "(total_amount)s"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5907,11 +5948,18 @@ msgid ""
 =======
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr ""
+"%(base)s s %(discount)s %% %(discount_type)s a příplatkem %(surcharge)s\n"
+"Příklad: %(amount)s * %(discount_charge)s + %(price_surcharge)s → %"
+"(total_amount)s"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6575,24 +6623,43 @@ msgid ""
 "(start_date)s)"
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"%(item_name)s: end date (%(end_date)s) should be after start date (%"
+"(start_date)s)"
+msgstr ""
+"%(item_name)s: datum ukončení (%(end_date)s) by mělo být po datu zahájení "
+"(%(start_date)s)"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "%(percentage)s %% %(discount_type)s on %(base)s %(extra)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(percentage)s %% %(discount_type)s z %(base)s %(extra)s"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "%(percentage)s %% discount on %(pricelist)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(percentage)s %% sleva na %(pricelist)s"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "%(percentage)s %% discount on sales price"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(percentage)s %% sleva z prodejní ceny"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -6620,19 +6687,31 @@ msgstr "'Balení produktů - %s' % (object.name)"
 #. odoo-python
 #: code:addons/product/models/product_template.py:0
 msgid "(e.g: product description, ebook, legal notice, ...)."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(např.: popis produktu, elektronická kniha, právní upozornění, ...)."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "+ %(amount)s extra fee"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "+ %(amount)s příplatek"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "- %(amount)s rebate"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "- Sleva %(amount)s"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -6769,7 +6848,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "- Barcode \"%(barcode)s\" already assigned to product(s): %(product_list)s"
+=======
+msgid ""
+"- Barcode \"%(barcode)s\" already assigned to product(s): %(product_list)s"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "- Barcode \"%(barcode)s\" already assigned to product(s): %(product_list)s"
@@ -7436,9 +7520,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- Instantly: All possible variants are created as soon as the attribute and its values are added to a product.\n"
 "        - Dynamically: Each variant is created only when its corresponding attributes and values are added to a sales order.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7836,6 +7923,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8102,6 +8190,17 @@ msgid ""
 "        - Never: Variants are never created for the attribute.\n"
 "        Note: this cannot be changed once the attribute is used on a product."
 msgstr ""
+=======
+"        - Never: Variants are never created for the attribute.\n"
+"        Note: this cannot be changed once the attribute is used on a product."
+msgstr ""
+"- Okamžitě: Všechny možné varianty jsou vytvořeny, jakmile jsou atribut a "
+"jeho hodnoty přidány k produktu.\n"
+"- Dynamicky: Každá varianta je vytvořena pouze tehdy, když jsou odpovídající "
+"atributy a hodnoty přidány k Prodejní objednávce.\n"
+"- Nikdy: Varianty nejsou pro atribut nikdy vytvořeny.\n"
+"Poznámka: toto nelze změnit, jakmile je atribut použit u produktu."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.attribute.value,name:product.product_attribute_value_5
@@ -8121,7 +8220,11 @@ msgstr "10"
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.report_pricelist_page
 msgid "10 Units"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "10 jednotek"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.report_packagingbarcode
@@ -8335,7 +8438,11 @@ msgid "123456789012"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "123456789012"
+>>>>>>> upstream/18.0
 =======
 msgstr "123456789012"
 >>>>>>> upstream/18.0
@@ -8997,7 +9104,11 @@ msgstr "4 x 7 s cenou"
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "<b>Tip: want to round at 9.99?</b>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<b>Tip: Chcete zaokrouhlit při 9,99?</b>"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
@@ -9010,6 +9121,7 @@ msgstr ""
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_view_kanban
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9407,6 +9519,8 @@ msgstr "<i class=\"fa fa-money\" role=\"img\" aria-label=\"Currency\" title=\"Cu
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "<i class=\"fa fa-money\" role=\"img\" aria-label=\"Currency\" "
 "title=\"Currency\"/>"
@@ -9544,6 +9658,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9946,7 +10063,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                        <span class=\"o_stat_text\" invisible=\"pricelist_item_count != 1\">\n"
+=======
+"                                        <span class=\"o_stat_text\" "
+"invisible=\"pricelist_item_count != 1\">\n"
+>>>>>>> upstream/18.0
 =======
 "                                        <span class=\"o_stat_text\" "
 "invisible=\"pricelist_item_count != 1\">\n"
@@ -10620,7 +10742,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <span class=\"o_stat_text\" invisible=\"pricelist_item_count != 1\">\n"
+=======
+"                                    <span class=\"o_stat_text\" "
+"invisible=\"pricelist_item_count != 1\">\n"
+>>>>>>> upstream/18.0
 =======
 "                                    <span class=\"o_stat_text\" "
 "invisible=\"pricelist_item_count != 1\">\n"
@@ -11285,8 +11412,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "</span> <span class=\"o_stat_text\" invisible=\"pricelist_item_count != 1\">"
 " Ceník </span>"
+=======
+"</span> <span class=\"o_stat_text\" invisible=\"pricelist_item_count != 1\"> "
+"Ceník </span>"
+>>>>>>> upstream/18.0
 =======
 "</span> <span class=\"o_stat_text\" invisible=\"pricelist_item_count != 1\"> "
 "Ceník </span>"
@@ -11987,7 +12119,11 @@ msgid "<span class=\"o_stat_text\">Products</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Produkty</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Produkty</span>"
 >>>>>>> upstream/18.0
@@ -12528,25 +12664,41 @@ msgstr "Čárový kód lze přiřadit pouze jednomu balení!"
 #. odoo-python
 #: code:addons/product/models/product_combo.py:0
 msgid "A combo choice can't contain duplicate products."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kombinovaná volba nemůže obsahovat duplicitní produkty."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_combo_item.py:0
 msgid "A combo choice can't contain products of type \"combo\"."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kombinovaná volba nemůže obsahovat produkty typu „kombinace“."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_combo.py:0
 msgid "A combo choice must contain at least 1 product."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kombinovaná volba musí obsahovat alespoň 1 produkt."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_template.py:0
 msgid "A combo product must contain at least 1 combo choice."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kombinovaná volba musí obsahovat alespoň 1 volbu combo."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__description_sale
@@ -12684,8 +12836,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A description of the Product that you want to communicate to your customers."
 " This description will be copied to every Sales Order, Delivery Order and "
+=======
+"A description of the Product that you want to communicate to your customers. "
+"This description will be copied to every Sales Order, Delivery Order and "
+>>>>>>> upstream/18.0
 =======
 "A description of the Product that you want to communicate to your customers. "
 "This description will be copied to every Sales Order, Delivery Order and "
@@ -13361,12 +13518,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A price is a set of sales prices or rules to compute the price of sales order lines based on products, product categories, dates and ordered quantities.\n"
 "            This is the perfect tool to handle several pricings, seasonal discounts, etc."
 msgstr ""
 "Cena je souborem prodejních cen nebo pravidel pro výpočet ceny prodejních objednávek založených na produktech, kategoriích produktů, termínech a objednaných množstvích.\n"
 "            Toto je perfektní nástroj pro zpracování několika cen, sezónních slev atd."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13779,6 +13939,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14041,6 +14202,9 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"Položka ceníku s „Jiným ceníkem“ jako základem musí mít base_pricelist_id."
 >>>>>>> upstream/18.0
 
 #. module: product
@@ -14053,7 +14217,11 @@ msgstr "Produkt již používá čárový kód"
 #. odoo-python
 #: code:addons/product/models/product_template.py:0
 msgid "A sellable combo product can only contain sellable products."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prodejný kombinovaný produkt může obsahovat pouze prodejné produkty."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_document__access_token
@@ -14063,12 +14231,20 @@ msgstr "Přístupový token"
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.report_pricelist_page
 msgid "Acme Widget"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Widget Acme"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.report_pricelist_page
 msgid "Acme Widget - Blue"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Acme Widget – modrý"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.template,name:product.product_template_acoustic_bloc_screens
@@ -14304,7 +14480,11 @@ msgid "Add Products"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Přidat produkty"
+>>>>>>> upstream/18.0
 =======
 msgstr "Přidat produkty"
 >>>>>>> upstream/18.0
@@ -14799,7 +14979,11 @@ msgstr "Přidat produkty"
 #. odoo-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.js:0
 msgid "Add Products to pricelist report"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Přidat produkty do přehledu ceníku"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
@@ -14814,22 +14998,40 @@ msgid ""
 "Add products using the \"Add Products\" button at the top right to\n"
 "                                include them in the report."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Přidejte produkty pomocí tlačítka „Přidat produkty“ v pravém horním rohu, "
+"aby\n"
+"byly zahrnuty do zprávy."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_attribute_value.py:0
 msgid "Add to all products"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Přidat ke všem produktům"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__update_product_attribute_value__mode__add
 msgid "Add to existing products"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Přidat k existujícím produktům"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_attribute_view_form
 msgid "Add to products"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Přidat k produktům"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_document_search
@@ -15074,10 +15276,15 @@ msgstr "Všechny varianty produktu používající štítek"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
+=======
+#. odoo-python
+#: code:addons/product/models/product_pricelist_item.py:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
@@ -16144,7 +16351,11 @@ msgid "All files uploaded"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Všechny  soubory nahrány"
+=======
+msgstr "Všechny soubory nahrány"
+>>>>>>> upstream/18.0
 =======
 msgstr "Všechny soubory nahrány"
 >>>>>>> upstream/18.0
@@ -16638,19 +16849,31 @@ msgstr "Všechny soubory nahrány"
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "All products"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Všechny produkty"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_tree_view_from_product
 msgid "All variants"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Všechny varianty"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_attribute_value__is_custom
 #: model:ir.model.fields,help:product.field_product_template_attribute_value__is_custom
 msgid "Allow customers to set their own value"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Umožněte zákazníkům nastavit si vlastní hodnotu"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.attribute.value,name:product.product_attribute_value_2
@@ -16823,7 +17046,11 @@ msgid "Applied On"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aplikováno na"
+=======
+msgstr "Použito na"
+>>>>>>> upstream/18.0
 =======
 msgstr "Použito na"
 >>>>>>> upstream/18.0
@@ -17485,7 +17712,11 @@ msgid "Apply To"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Použít na"
+>>>>>>> upstream/18.0
 =======
 msgstr "Použít na"
 >>>>>>> upstream/18.0
@@ -18238,8 +18469,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Čárový kód používaný k identifikaci obalu. Naskenujte tento čárový kód obalu"
 " z přenosu v aplikaci čárový kód a přesuňte všechny obsažené jednotky"
+=======
+"Čárový kód používaný k identifikaci obalu. Naskenujte tento čárový kód obalu "
+"z přenosu v aplikaci čárový kód a přesuňte všechny obsažené jednotky"
+>>>>>>> upstream/18.0
 =======
 "Čárový kód používaný k identifikaci obalu. Naskenujte tento čárový kód obalu "
 "z přenosu v aplikaci čárový kód a přesuňte všechny obsažené jednotky"
@@ -18789,6 +19025,13 @@ msgid ""
 "Cost Price: The base price will be the cost price.\n"
 "Other Pricelist: Computation of the base price based on another Pricelist."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Základní cena pro výpočet.\n"
+"Prodejní cena: Základní cenou bude prodejní cena.\n"
+"Cena nákladů: Základní cenou bude cena nákladů.\n"
+"Jiný ceník: Výpočet základní ceny na základě jiného ceníku."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item__base
@@ -18798,7 +19041,11 @@ msgstr "Založeno na"
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "Based price"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Základní cena"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:res.groups,name:product.group_product_pricelist
@@ -18993,7 +19240,11 @@ msgid "Bye-bye, record!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sbohem, zázname!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sbohem, zázname!"
 >>>>>>> upstream/18.0
@@ -19666,6 +19917,10 @@ msgid ""
 "Combos allow to choose one product amongst a selection of choices per "
 "category."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Kombinace umožňují vybrat jeden produkt z nabídky možností v dané kategorii."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model,name:product.model_res_company
@@ -20031,7 +20286,11 @@ msgid "Create on Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vytvořit objednávku"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vytvořit objednávku"
 >>>>>>> upstream/18.0
@@ -20773,12 +21032,20 @@ msgstr "Výchozí"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute_value__default_extra_price
 msgid "Default Extra Price"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Výchozí cena navíc"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute_value__default_extra_price_changed
 msgid "Default Extra Price Changed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Výchozí cena navíc změněna"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_packaging__product_uom_id
@@ -20882,12 +21149,20 @@ msgstr "Sleva (%)"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_supplierinfo__price_discounted
 msgid "Discounted Price"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Slevová cena"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item__display_applied_on
 msgid "Display Applied On"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zobrazení použito na"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute__display_name
@@ -20937,12 +21212,20 @@ msgstr "Dokumenty"
 #: model:ir.model.fields,field_description:product.field_product_product__product_document_count
 #: model:ir.model.fields,field_description:product.field_product_template__product_document_count
 msgid "Documents Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Počet dokumentů"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_document_search
 msgid "Documents of this variant"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dokumenty této varianty"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_document_kanban
@@ -20953,7 +21236,11 @@ msgstr "Stáhnout"
 #. odoo-python
 #: code:addons/product/models/product_template.py:0
 msgid "Download examples"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stáhnout příklady"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.template,name:product.product_product_27_product_template
@@ -20994,7 +21281,11 @@ msgstr ""
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.report_packagingbarcode
 msgid "Eco-friendly Wooden Chair"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ekologická dřevěná židle"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_document_kanban
@@ -21031,7 +21322,11 @@ msgstr "Ergonomický"
 #. odoo-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.js:0
 msgid "Error exporting file. Please try again."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Chyba při exportu souboru. Zkuste to znovu."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_template_attribute_value__exclude_for
@@ -21068,7 +21363,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:product.field_product_combo_item__extra_price
 #: model:ir.model.fields,field_description:product.field_product_template_attribute_value__price_extra
 msgid "Extra Price"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Extra cena"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_template_attribute_value__price_extra
@@ -21205,8 +21504,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Extra price for the variant with this attribute value on sale price. eg. 200"
 " price extra, 1000 + 200 = 1200."
+=======
+"Extra price for the variant with this attribute value on sale price. eg. 200 "
+"price extra, 1000 + 200 = 1200."
+>>>>>>> upstream/18.0
 =======
 "Extra price for the variant with this attribute value on sale price. eg. 200 "
 "price extra, 1000 + 200 = 1200."
@@ -21940,11 +22244,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "For the rule to apply, bought/sold quantity must be greater than or equal to the minimum quantity specified in this field.\n"
 "Expressed in the default unit of measure of the product."
 msgstr ""
 "Aby toto pravidlo platilo, musí být nakoupené / prodané množství větší nebo rovno minimálnímu množství uvedenému v tomto poli.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22344,6 +22651,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22633,12 +22943,20 @@ msgstr "Moderní kancelářská pracovní stanice pro čtyři osoby"
 #: model:ir.model.fields,field_description:product.field_product_attribute_value__is_custom
 #: model:ir.model.fields,field_description:product.field_product_template_attribute_value__is_custom
 msgid "Free text"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Volný text"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.template,name:product.product_product_furniture_product_template
 msgid "Furniture Assembly"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Montáž nábytku"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_search_view
@@ -22670,7 +22988,11 @@ msgstr "Poskytuje pořadí při zobrazování seznamu produktů"
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.report_pricelist_page
 msgid "Gold Member Pricelist"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ceník pro zlaté členy"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__product_template__type__consu
@@ -22895,6 +23217,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Zboží je hmatatelný materiál a produkty, které poskytujete.\n"
+"Služba je nehmotný produkt, který poskytujete."
+>>>>>>> upstream/18.0
 =======
 "Zboží je hmatatelný materiál a produkty, které poskytujete.\n"
 "Služba je nehmotný produkt, který poskytujete."
@@ -23844,6 +24171,11 @@ msgstr ""
 msgid ""
 "If unchecked, it will allow you to hide the attribute without removing it."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Pokud není zaškrtnuto, umožní vám to skrýt atribut, aniž byste jej "
+"odstranili."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist__active
@@ -24174,7 +24506,11 @@ msgid "Local Delivery"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Místní doručení"
+>>>>>>> upstream/18.0
 =======
 msgstr "Místní doručení"
 >>>>>>> upstream/18.0
@@ -24409,6 +24745,7 @@ msgstr ""
 #. module: product
 #: model:ir.model.fields,help:product.field_product_template_attribute_value__exclude_for
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25071,6 +25408,10 @@ msgid ""
 "Make this attribute value not compatible with other values of the product or "
 "some attribute values of optional and accessory products."
 >>>>>>> upstream/18.0
+=======
+"Make this attribute value not compatible with other values of the product or "
+"some attribute values of optional and accessory products."
+>>>>>>> upstream/18.0
 msgstr ""
 "Zajistěte, aby tato hodnota atributu nebyla kompatibilní s jinými hodnotami "
 "produktu nebo s některými hodnotami atributů volitelných a doplňkových "
@@ -25095,7 +25436,11 @@ msgstr "Marže"
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item__price_markup
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "Markup"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Přirážka"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
@@ -25143,7 +25488,11 @@ msgid "Min Qty"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Min množství"
+>>>>>>> upstream/18.0
 =======
 msgstr "Min množství"
 >>>>>>> upstream/18.0
@@ -25194,13 +25543,22 @@ msgstr "Stojan na monitor"
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__product_attribute__display_type__multi
 msgid "Multi-checkbox"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vícenásobné zaškrtávací políčko"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.constraint,message:product.constraint_product_attribute_check_multi_checkbox_no_variant
 msgid ""
 "Multi-checkbox display type is not compatible with the creation of variants"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Zobrazení s více zaškrtávacími políčky není kompatibilní s vytvářením "
+"variant."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist__my_activity_date_deadline
@@ -25280,7 +25638,11 @@ msgstr "Nebyly nalezeny žádné produkty."
 #. odoo-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 msgid "No products found in the report"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "V zprávě nebyly nalezeny žádné produkty."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_supplierinfo_type_action
@@ -25361,7 +25723,11 @@ msgstr "Kancelářská židle černá"
 #. module: product
 #: model:product.template,name:product.office_combo_product_template
 msgid "Office Combo"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kancelářská sada"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.template,name:product.product_order_01_product_template
@@ -25377,6 +25743,7 @@ msgstr "Kancelářská lampa"
 #. odoo-python
 #: code:addons/product/models/product_template_attribute_line.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25777,6 +26144,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "On the product %(product)s you cannot associate the value %(value)s with the "
 "attribute %(attribute)s because they do not match."
 msgstr ""
@@ -25913,6 +26282,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26181,6 +26553,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/product/models/product_template_attribute_line.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26843,6 +27216,10 @@ msgid ""
 "On the product %(product)s you cannot transform the attribute %"
 "(attribute_src)s into the attribute %(attribute_dest)s."
 >>>>>>> upstream/18.0
+=======
+"On the product %(product)s you cannot transform the attribute %"
+"(attribute_src)s into the attribute %(attribute_dest)s."
+>>>>>>> upstream/18.0
 msgstr ""
 "Na produktu %(product)s nemůžete atribut %(attribute_src)s převést na "
 "atribut %(attribute_dest)s."
@@ -26852,6 +27229,10 @@ msgstr ""
 #: code:addons/product/static/src/js/product_document_kanban/upload_button/upload_button.js:0
 msgid "Oops! '%(fileName)s' didn’t upload since its format isn’t allowed."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Jejda! '%(fileName)s' se nepodařilo nahrát, protože jeho formát není povolen."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_document__original_id
@@ -26861,7 +27242,11 @@ msgstr "Originální (neoptimalizovaná, nezměněná) příloha"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_combo_item__lst_price
 msgid "Original Price"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Původní cena"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item__base_pricelist_id
@@ -26873,12 +27258,20 @@ msgstr "Jiný ceník"
 #. module: product
 #: model:product.template,name:product.product_template_dining_table
 msgid "Outdoor dining table"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Venkovní jídelní stůl"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.report_packagingbarcode
 msgid "Package Type A"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Typ balíčku A"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_packaging_form_view
@@ -26922,7 +27315,11 @@ msgstr "Plast"
 #. odoo-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.js:0
 msgid "Please enter a positive whole number."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zadejte kladné celé číslo."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -26933,12 +27330,23 @@ msgid ""
 "\n"
 "Invalid URL: %s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Zadejte platnou adresu URL.\n"
+"Příklad: https://www.odoo.com\n"
+"\n"
+"Neplatná adresa URL: %s"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.js:0
 msgid "Please select some products first."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nejprve vyberte některé produkty."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -27054,7 +27462,11 @@ msgid "Price Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Typ ceny"
+>>>>>>> upstream/18.0
 =======
 msgstr "Typ ceny"
 >>>>>>> upstream/18.0
@@ -27255,7 +27667,11 @@ msgstr "Výkaz ceníku"
 #. odoo-python
 #: code:addons/product/models/product_pricelist.py:0
 msgid "Pricelist Report Preview"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Náhled přehledu ceníku"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model,name:product.model_product_pricelist_item
@@ -27362,7 +27778,11 @@ msgstr "Produktové atributy"
 #. module: product
 #: model:ir.model,name:product.model_product_catalog_mixin
 msgid "Product Catalog Mixin"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mixin katalogu produktů"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.actions.act_window,name:product.product_category_action_form
@@ -27416,22 +27836,38 @@ msgstr "Štítek produktu (PDF)"
 #. module: product
 #: model:ir.actions.report,name:product.report_product_template_label_2x7
 msgid "Product Label 2x7 (PDF)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Štítek produktu 2x7 (PDF)"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.actions.report,name:product.report_product_template_label_4x12
 msgid "Product Label 4x12 (PDF)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Štítek produktu 4x12 (PDF)"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.actions.report,name:product.report_product_template_label_4x12_noprice
 msgid "Product Label 4x12 No Price (PDF)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Štítek produktu 4x12 bez ceny (PDF)"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.actions.report,name:product.report_product_template_label_4x7
 msgid "Product Label 4x7 (PDF)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Štítek produktu 4x7 (PDF)"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model,name:product.model_report_product_report_producttemplatelabel_dymo
@@ -27441,22 +27877,38 @@ msgstr "Dokument produktových štítků"
 #. module: product
 #: model:ir.model,name:product.model_report_product_report_producttemplatelabel2x7
 msgid "Product Label Report 2x7"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zpráva o štítku produktu 2x7"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model,name:product.model_report_product_report_producttemplatelabel4x12
 msgid "Product Label Report 4x12"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zpráva o štítku produktu 4x12"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model,name:product.model_report_product_report_producttemplatelabel4x12noprice
 msgid "Product Label Report 4x12 No Price"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zpráva o štítku produktu 4x12 Bez ceny"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model,name:product.model_report_product_report_producttemplatelabel4x7
 msgid "Product Label Report 4x7"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zpráva o štítku produktu 4x7"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_product_view_form_normalized
@@ -27494,7 +27946,11 @@ msgstr "Produktové obaly"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_category__product_properties_definition
 msgid "Product Properties"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vlastnosti produktu"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model,name:product.model_product_tag
@@ -27836,7 +28292,11 @@ msgid "Purchase Unit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nákupní jendotka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nákupní jendotka"
 >>>>>>> upstream/18.0
@@ -28336,7 +28796,11 @@ msgstr "Množství"
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.report_pricelist_page
 msgid "Quantities (Price)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Množství (Cena)"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_label_layout__custom_quantity
@@ -28348,7 +28812,11 @@ msgstr "Množství"
 #. odoo-python
 #: code:addons/product/controllers/pricelist_report.py:0
 msgid "Quantity (%s UoM)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Množství (%s UoM)"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
@@ -28380,6 +28848,7 @@ msgstr "Reference"
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_supplierinfo_type_action
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28780,6 +29249,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Register the prices requested by your vendors for each product, based on the "
 "quantity and the period."
 msgstr ""
@@ -28916,6 +29387,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -29242,7 +29716,11 @@ msgstr "Výdaje na restauraci"
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "Round off to"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zaokrouhlit na"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_label_layout__rows
@@ -29322,12 +29800,23 @@ msgid ""
 "Rounding is applied after the discount and before the surcharge.\n"
 "To have prices that end in 9.99, round off to 10.00 and set an extra at -0.01"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Nastaví cenu tak, aby byla násobkem této hodnoty.\n"
+"Zaokrouhlování se provádí po slevě a před přirážkou.\n"
+"Chcete-li mít ceny končící na 9,99, zaokrouhlete na 10,00 a nastavte "
+"přirážku na -0,01."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 msgid "Show Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zobrazit název"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_search_view
@@ -29344,7 +29833,11 @@ msgstr "Velikost"
 #: model:ir.model.fields,field_description:product.field_res_partner__specific_property_product_pricelist
 #: model:ir.model.fields,field_description:product.field_res_users__specific_property_product_pricelist
 msgid "Specific Property Product Pricelist"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ceník konkrétních vlastností produktů"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__categ_id
@@ -29370,6 +29863,7 @@ msgid ""
 "Specify a template if this rule only applies to one product template. Keep "
 "empty otherwise."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30032,6 +30526,10 @@ msgstr ""
 "Zvolte šablonu pokud se toto pravidlo vztahuje jen na jednu šablonu výrobku. "
 "Jinak ponechte prázdné."
 >>>>>>> upstream/18.0
+=======
+"Zvolte šablonu pokud se toto pravidlo vztahuje jen na jednu šablonu výrobku. "
+"Jinak ponechte prázdné."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__price_surcharge
@@ -30128,7 +30626,11 @@ msgstr "Štítky se používají k vyhledání produktu pro dané téma."
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute__template_value_ids
 msgid "Template Values"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hodnoty šablony"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -30140,12 +30642,17 @@ msgstr "Interní reference '%s' již existuje."
 #. odoo-python
 #: code:addons/product/models/product_product.py:0
 msgid "The Reference '%s' already exists."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odkaz „%s “ již existuje."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_template_attribute_line.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30546,6 +31053,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "The attribute %(attribute)s must have at least one value for the product %"
 "(product)s."
 msgstr ""
@@ -30681,6 +31190,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -30960,6 +31472,7 @@ msgid ""
 "The default Unit of Measure and the purchase Unit of Measure must be in the "
 "same category."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -31613,6 +32126,9 @@ msgstr ""
 =======
 "Výchozí měrná jednotka a nákupní měrná jednotka musí být ve stejné kategorii."
 >>>>>>> upstream/18.0
+=======
+"Výchozí měrná jednotka a nákupní měrná jednotka musí být ve stejné kategorii."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.template,description_sale:product.desk_organizer_product_template
@@ -31621,6 +32137,12 @@ msgid ""
 "since the 5 boxes are loose, you can move and place them in the way that "
 "suits you and your things best."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Organizér na stůl je ideální pro ukládání všech druhů drobností a protože je "
+"5 boxů volných, můžete je přesouvat a umisťovat tak, jak vám nejlépe "
+"vyhovuje."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_attribute__display_type
@@ -31654,6 +32176,7 @@ msgstr "Minimální marže by měla být nižší než maximální marže."
 msgid ""
 "The minimum price among the products in this combo. This value will be used "
 "to prorate the price of this combo with respect to the other combos in a "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32317,6 +32840,15 @@ msgid ""
 "in a combo, it will always be the same price."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"combo product. This heuristic ensures that whatever product the user chooses "
+"in a combo, it will always be the same price."
+msgstr ""
+"Minimální cena mezi produkty v této kombinaci. Tato hodnota bude použita k "
+"poměrnému rozdělení ceny této kombinace s ohledem na ostatní kombinace v "
+"kombinovaném produktu. Tato metoda zajišťuje, že bez ohledu na to, jaký "
+"produkt si uživatel v kombinaci vybere, cena bude vždy stejná."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_category__product_count
@@ -32329,6 +32861,7 @@ msgstr "Počet produktů v této kategorii (Nezohledňuje podřízené kategorie
 #. odoo-python
 #: code:addons/product/models/product_template.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32994,6 +33527,17 @@ msgid ""
 "the sales order. To do so, open the form view of attributes and change the "
 "mode of *Create Variants*."
 msgstr ""
+=======
+"The number of variants to generate is above allowed limit. You should either "
+"not generate variants for each combination or generate them on demand from "
+"the sales order. To do so, open the form view of attributes and change the "
+"mode of *Create Variants*."
+msgstr ""
+"Počet variant, které mají být generovány, překračuje povolený limit. Neměli "
+"byste generovat varianty pro každou kombinaci, nebo je generujte na základě "
+"požadavku z Prodejní objednávky. Chcete-li tak učinit, otevřete formulářový "
+"pohled atributů a změňte režim *Vytvořit varianty*."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo__price
@@ -33159,8 +33703,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The sale price is managed from the product template. Click on the 'Configure"
 " Variants' button to set the extra attribute prices."
+=======
+"The sale price is managed from the product template. Click on the 'Configure "
+"Variants' button to set the extra attribute prices."
+>>>>>>> upstream/18.0
 =======
 "The sale price is managed from the product template. Click on the 'Configure "
 "Variants' button to set the extra attribute prices."
@@ -33832,8 +34381,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Hodnota %(value)s není definována pro atribut %(attribute)s na produktu "
 "%(product)s."
+=======
+"Hodnota %(value)s není definována pro atribut %(attribute)s na produktu %"
+"(product)s."
+>>>>>>> upstream/18.0
 =======
 "Hodnota %(value)s není definována pro atribut %(attribute)s na produktu %"
 "(product)s."
@@ -34424,11 +34978,17 @@ msgstr ""
 msgid ""
 "This product is part of a combo, so its type can't be changed to \"combo\"."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Tento produkt je součástí kombinace, takže jeho typ nelze změnit na "
+"„kombinace“."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/uom_uom.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -34829,6 +35389,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "This rounding precision is higher than the Decimal Accuracy (%(digits)s "
 "digits).\n"
 "This may cause inconsistencies in computations.\n"
@@ -34967,6 +35529,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -35380,8 +35945,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Při tisku požadavku na nabídku bude použit název produktu tohoto dodavatele."
 " Pokud chcete použít interní, ponechte prázdné."
+=======
+"Při tisku požadavku na nabídku bude použit název produktu tohoto dodavatele. "
+"Pokud chcete použít interní, ponechte prázdné."
+>>>>>>> upstream/18.0
 =======
 "Při tisku požadavku na nabídku bude použit název produktu tohoto dodavatele. "
 "Pokud chcete použít interní, ponechte prázdné."
@@ -36152,7 +36722,11 @@ msgid "UOM"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "MJ"
+>>>>>>> upstream/18.0
 =======
 msgstr "MJ"
 >>>>>>> upstream/18.0
@@ -36839,23 +37413,39 @@ msgstr "Kategorie MJ"
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_attribute_view_form
 msgid "Update extra prices"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aktualizovat dodatečné ceny"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model,name:product.model_update_product_attribute_value
 msgid "Update product attribute value"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aktualizovat hodnotu atributu produktu"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_attribute_value.py:0
 msgid "Update product extra prices"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aktualizovat ceny doplňků k produktu"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__update_product_attribute_value__mode__update_extra_price
 msgid "Update the extra price on existing products"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aktualizujte příplatek u stávajících produktů"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
@@ -36867,7 +37457,11 @@ msgstr "Nahrát"
 #. odoo-python
 #: code:addons/product/models/product_template.py:0
 msgid "Upload files to your product"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nahrajte soubory do svého produktu"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
@@ -36885,6 +37479,11 @@ msgid ""
 "Use the discount rules and activate the discount settings in order to show "
 "discount to customer."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Použijte pravidla slev a aktivujte nastavení slev, aby se zákazníkovi "
+"zobrazila sleva."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -36893,6 +37492,11 @@ msgid ""
 "Use this feature to store any files you would like to share with your "
 "customers"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Tuto funkci použijte k uložení všech souborů, které chcete sdílet se svými "
+"zákazníky."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute_value__is_used_on_products
@@ -36937,6 +37541,7 @@ msgstr "Počet hodnot"
 #: model:ir.model.fields,help:product.field_product_template__standard_price
 msgid ""
 "Value of the product (automatically computed in AVCO).\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -37600,6 +38205,16 @@ msgid ""
 >>>>>>> upstream/18.0
 "        Used to compute margins on sale orders."
 msgstr ""
+=======
+"        Used to value the product when the purchase cost is not known (e.g. "
+"inventory adjustment).\n"
+"        Used to compute margins on sale orders."
+msgstr ""
+"Hodnota produktu (automaticky vypočítaná v AVCO).\n"
+"Používá se k ocenění produktu, když není známa pořizovací cena "
+"(např. při úpravě skladů).\n"
+"Používá se k výpočtu marží u prodejních objednávek."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute__value_ids
@@ -37624,7 +38239,11 @@ msgstr "Počet variant"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute__create_variant
 msgid "Variant Creation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vytváření variant"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__image_variant_1920
@@ -37670,7 +38289,11 @@ msgstr "Prodejce varianty"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__additional_product_tag_ids
 msgid "Variant Tags"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Štítky variant"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__product_template_variant_value_ids
@@ -37729,7 +38352,11 @@ msgid "Vendor Product Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Produktový název prodejce"
+=======
+msgstr "Název produktu dodavatele"
+>>>>>>> upstream/18.0
 =======
 msgstr "Název produktu dodavatele"
 >>>>>>> upstream/18.0
@@ -37814,6 +38441,7 @@ msgstr "Varování"
 #. module: product
 #: model_terms:product.template,website_description:product.product_product_4_product_template
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -38214,6 +38842,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "We pay special attention to detail, which is why our desks are of a superior "
 "quality."
 msgstr ""
@@ -38349,6 +38979,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -38653,12 +39286,21 @@ msgid ""
 "You are about to add the value \"%(attribute_value)s\" to %(product_count)s "
 "products."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Chystáte se přidat hodnotu „%(attribute_value)s “ k produktům %"
+"(product_count)s."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/wizard/update_product_attribute_value.py:0
 msgid "You are about to update the extra price of %s products."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Chystáte se aktualizovat příplatek za %s produkty."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -38666,7 +39308,11 @@ msgstr ""
 msgid ""
 "You are deactivating the pricelist feature. Every active pricelist will be "
 "archived."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Deaktivujete funkci ceníku. Všechny aktivní ceníky budou archivovány."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -38807,7 +39453,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Please increase the rounding of those units of measure, or the digits of this Decimal Accuracy."
+=======
+"Please increase the rounding of those units of measure, or the digits of "
+"this Decimal Accuracy."
+>>>>>>> upstream/18.0
 =======
 "Please increase the rounding of those units of measure, or the digits of "
 "this Decimal Accuracy."
@@ -39472,7 +40123,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Zvyšte prosím zaokrouhlování těchto měrných jednotek nebo číslic této desetinné přesnosti."
+=======
+"Zvyšte prosím zaokrouhlování těchto měrných jednotek nebo číslic této "
+"desetinné přesnosti."
+>>>>>>> upstream/18.0
 =======
 "Zvyšte prosím zaokrouhlování těchto měrných jednotek nebo číslic této "
 "desetinné přesnosti."
@@ -40011,7 +40667,11 @@ msgstr "Přirážku můžete uplatnit nastavením záporné slevy."
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__price_markup
 msgid "You can apply a mark-up on the cost"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Na cenu můžete uplatnit přirážku."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_pricelist_action2
@@ -40037,7 +40697,11 @@ msgstr ""
 msgid ""
 "You can upload an image that will be used as the color of the attribute "
 "value."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Můžete nahrát obrázek, který bude použit jako barva hodnoty atributu."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
@@ -40051,6 +40715,10 @@ msgstr "Tento produkt nelze v katalogu upravit."
 msgid ""
 "You cannot archive this attribute as there are still products linked to it"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Tento atribut nelze archivovat, protože s ním jsou stále spojeny produkty."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -40195,7 +40863,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot change the Variants Creation Mode of the attribute %(attribute)s because it is used on the following products:\n"
+=======
+"You cannot change the Variants Creation Mode of the attribute %(attribute)s "
+"because it is used on the following products:\n"
+>>>>>>> upstream/18.0
 =======
 "You cannot change the Variants Creation Mode of the attribute %(attribute)s "
 "because it is used on the following products:\n"
@@ -40865,6 +41538,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot change the attribute of the value %(value)s because it is used on"
 " the following products: %(products)s"
 =======
@@ -41396,11 +42070,19 @@ msgid ""
 "the following products: %(products)s"
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"You cannot change the attribute of the value %(value)s because it is used on "
+"the following products: %(products)s"
+msgstr ""
+"Atribut hodnoty %(value)s nemůžete změnit, protože se používá v "
+"následujících produktech: %(products)s"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_template_attribute_value.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -41801,6 +42483,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "You cannot change the product of the value %(value)s set on product %"
 "(product)s."
 msgstr ""
@@ -41936,6 +42620,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -42336,12 +43023,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot change the value of the value %(value)s set on product "
 "%(product)s."
 msgstr ""
 "Hodnotu nelze změnit na hodnotu %(value)s nastavenou na produktu "
 "%(product)s."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -42739,6 +43429,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -43028,6 +43721,13 @@ msgid ""
 "They are used within pricelist(s):\n"
 "%(other_pricelists)s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ceníky nelze smazat:\n"
+"(%(pricelists)s)\n"
+"Jsou použity v cenících:\n"
+"%(other_pricelists)s"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -43039,6 +43739,7 @@ msgstr "Nemůžete smazat %s kategorii produktu"
 #. odoo-python
 #: code:addons/product/models/product_attribute.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -43438,6 +44139,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "You cannot delete the attribute %(attribute)s because it is used on the "
 "following products:\n"
 "%(products)s"
@@ -43575,6 +44278,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -43844,6 +44550,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/product/models/product_attribute_value.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -44507,6 +45214,15 @@ msgid ""
 >>>>>>> upstream/18.0
 "%(products)s\n"
 msgstr ""
+=======
+"You cannot delete the value %(value)s because it is used on the following "
+"products:\n"
+"%(products)s\n"
+msgstr ""
+"Hodnotu %(value)s nelze smazat, protože se používá u následujících produktů:"
+"\n"
+"%(products)s\n"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -44652,8 +45368,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot move the attribute %(attribute)s from the product %(product_src)s"
 " to the product %(product_dest)s."
+=======
+"You cannot move the attribute %(attribute)s from the product %(product_src)s "
+"to the product %(product_dest)s."
+>>>>>>> upstream/18.0
 =======
 "You cannot move the attribute %(attribute)s from the product %(product_src)s "
 "to the product %(product_dest)s."
@@ -45333,6 +46054,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            whether it's a storable product, a consumable or a service."
 =======
 "                            whether it's a storable product, a consumable or "
@@ -45863,6 +46585,13 @@ msgid ""
 "a service."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"                            whether it's a storable product, a consumable or "
+"a service."
+msgstr ""
+"Musíte definovat produkt pro vše, co prodáváte nebo kupujete, ať už jde o "
+"skladovatelný produkt, spotřební materiál nebo službu."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_normal_action
@@ -46004,7 +46733,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                ať už jde o skladovatelný produkt, spotřební materiál nebo službu."
+=======
+"                ať už jde o skladovatelný produkt, spotřební materiál nebo "
+"službu."
+>>>>>>> upstream/18.0
 =======
 "                ať už jde o skladovatelný produkt, spotřební materiál nebo "
 "službu."
@@ -46671,6 +47405,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                The product form contains information to simplify the sale process:\n"
 "                price, notes in the quotation, accounting data, procurement methods, etc."
 msgstr ""
@@ -46678,6 +47413,8 @@ msgstr ""
 "                ať už jde o fyzický produkt, spotřební materiál nebo službu.\n"
 "                Formulář produktu obsahuje informace pro usnadnění prodejního procesu:\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -47081,6 +47818,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -47481,6 +48221,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You must define a product for everything you sell, whether it's a physical product,\n"
 "                a consumable or a service you offer to customers.\n"
 "                The product form contains information to simplify the sale process:\n"
@@ -47490,6 +48231,8 @@ msgstr ""
 "                materiál nebo službu, kterou nabízíte zákazníkům.\n"
 "                Formulář produktu obsahuje informace pro usnadnění prodejního procesu:\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -47896,6 +48639,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -48165,7 +48911,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.js:0
 msgid "You must leave at least one quantity."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Musíte zadat alespoň jedno množství."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -48386,7 +49136,11 @@ msgid "csv"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "csv"
+>>>>>>> upstream/18.0
 =======
 msgstr "csv"
 >>>>>>> upstream/18.0
@@ -49030,12 +49784,20 @@ msgstr "sleva"
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_product_view_form_normalized
 msgid "e.g. 1234567890"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "např. 1234567890"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_combo_view_form
 msgid "e.g. Burger Choice"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "např. Sada burgerů"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_product_view_form_normalized
@@ -49056,7 +49818,11 @@ msgstr "např. Odoo Enterprise Subscription"
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
 msgid "e.g. Starter - Meal - Desert"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "např. předkrm – hlavní chod – dezert"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_view
@@ -49067,7 +49833,11 @@ msgstr "např. EUR prodejci"
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "markup"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "přirážka"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_document_form
@@ -49097,19 +49867,31 @@ msgstr "produkt"
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "product cost"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "cena produktu"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "round off to 10.00 and set an extra at -0.01"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "zaokrouhlit na 10,00 a nastavit příplatek na -0,01"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "sales price"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "prodejní cena"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.view_partner_property_form
@@ -49339,7 +50121,11 @@ msgid "xlsx"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "xlsx"
+>>>>>>> upstream/18.0
 =======
 msgstr "xlsx"
 >>>>>>> upstream/18.0

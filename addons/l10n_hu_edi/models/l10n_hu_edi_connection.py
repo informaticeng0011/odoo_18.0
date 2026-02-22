@@ -370,7 +370,11 @@ class L10nHuEdiConnection:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'operation': 'CREATE' or 'MODIFY',
+=======
+                'operation': 'CREATE' or 'MODIFY' or 'STORNO',
+>>>>>>> upstream/18.0
 =======
                 'operation': 'CREATE' or 'MODIFY' or 'STORNO',
 >>>>>>> upstream/18.0
@@ -1342,7 +1346,11 @@ class L10nHuEdiConnection:
             'passwordHash': self._calculate_password_hash(credentials['password']),
             'taxNumber': credentials['vat'][:8],
             'requestSignature': request_signature,
+<<<<<<< HEAD
             'softwareId': f'BE477472701-{module_version}'[:18],
+=======
+            'softwareId': f'BE477472701-{module_version}'.ljust(18, '0')[:18],
+>>>>>>> upstream/18.0
             'softwareName': 'Odoo Enterprise',
             'softwareOperation': 'ONLINE_SERVICE',
             'softwareMainVersion': odoo_version,

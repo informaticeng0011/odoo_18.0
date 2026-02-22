@@ -124,7 +124,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import fields, models, api
+=======
+from odoo import fields, models, api, _
+from odoo.exceptions import UserError
+>>>>>>> upstream/18.0
 =======
 from odoo import fields, models, api, _
 from odoo.exceptions import UserError
@@ -820,6 +825,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -867,6 +873,8 @@ class AccountMove(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1215,6 +1223,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1441,6 +1450,8 @@ class AccountMove(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def _recompute_cash_rounding_lines(self):
         self.ensure_one()
@@ -1449,6 +1460,9 @@ class AccountMove(models.Model):
             if pos_orders and self.reversed_entry_id.sudo().line_ids.filtered(lambda l: l.display_type == 'rounding' and not l.balance):
                 return
         super()._recompute_cash_rounding_lines()
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 

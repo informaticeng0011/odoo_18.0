@@ -79,7 +79,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import tagged, TransactionCase
+=======
+from odoo.fields import Command
+from odoo.tests import TransactionCase, tagged
+>>>>>>> upstream/18.0
 =======
 from odoo.fields import Command
 from odoo.tests import TransactionCase, tagged
@@ -524,7 +529,10 @@ class TestName(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -780,6 +788,9 @@ class TestName(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

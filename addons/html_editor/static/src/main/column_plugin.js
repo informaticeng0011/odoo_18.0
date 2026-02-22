@@ -178,7 +178,11 @@ import { closestElement } from "@html_editor/utils/dom_traversal";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const REGEX_BOOTSTRAP_COLUMN = /(?:^| )col(-[a-zA-Z]+)?(-\d+)?(?:$| )/;
+=======
+const REGEX_BOOTSTRAP_COLUMN = /(?:^| )col(-[a-zA-Z]+)?(-\d+)?(?= |$)/;
+>>>>>>> upstream/18.0
 =======
 const REGEX_BOOTSTRAP_COLUMN = /(?:^| )col(-[a-zA-Z]+)?(-\d+)?(?= |$)/;
 >>>>>>> upstream/18.0
@@ -899,7 +903,11 @@ export class ColumnPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     static dependencies = ["baseContainer", "selection", "history"];
+=======
+    static dependencies = ["baseContainer", "selection", "history", "dom"];
+>>>>>>> upstream/18.0
 =======
     static dependencies = ["baseContainer", "selection", "history", "dom"];
 >>>>>>> upstream/18.0
@@ -1491,9 +1499,12 @@ export class ColumnPlugin extends Plugin {
             }
         } else if (numberOfColumns) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.createColumns(anchor, numberOfColumns, addParagraphAfter);
         }
 =======
+=======
+>>>>>>> upstream/18.0
             const li = closestElement(anchor, "li");
             if (li) {
                 this.createColumnsFromList(anchor, li, numberOfColumns);
@@ -1502,13 +1513,19 @@ export class ColumnPlugin extends Plugin {
             this.createColumns(anchor, numberOfColumns, addParagraphAfter);
         }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         this.dependencies.selection.setSelection(selectionToRestore);
         this.dependencies.history.addStep();
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     createColumnsFromList(anchor, li, numberOfColumns) {
         const currentList = li.closest("ol, ul");
         let listBeforeBlock = currentList;
@@ -1541,6 +1558,9 @@ export class ColumnPlugin extends Plugin {
         this.dependencies.history.addStep();
     }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     removeColumns(anchor) {
         const container = closestElement(anchor, ".o_text_columns");
@@ -1559,7 +1579,10 @@ export class ColumnPlugin extends Plugin {
 
     createColumns(anchor, numberOfColumns, addParagraphAfter) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         const { container, columns } = this.buildColumnsContainer(anchor, numberOfColumns);
         const block = closestBlock(anchor);
         if (addParagraphAfter) {
@@ -1573,11 +1596,15 @@ export class ColumnPlugin extends Plugin {
     }
 
     buildColumnsContainer(anchor, numberOfColumns) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         const container = this.document.createElement("div");
         if (!closestElement(anchor, ".container")) {
             container.classList.add("container");
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2278,15 +2305,21 @@ export class ColumnPlugin extends Plugin {
         const block = closestBlock(anchor);
         // resetOuids(block);
 =======
+=======
+>>>>>>> upstream/18.0
         container.classList.add("o_text_columns", "o-contenteditable-false");
         const row = this.document.createElement("div");
         row.classList.add("row");
         container.append(row);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         const columnSize = Math.floor(12 / numberOfColumns);
         const columns = [];
         for (let i = 0; i < numberOfColumns; i++) {
             const column = this.document.createElement("div");
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2813,10 +2846,13 @@ export class ColumnPlugin extends Plugin {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             column.classList.add(`col-${columnSize}`, "o-contenteditable-true");
             row.append(column);
             columns.push(column);
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (addParagraphAfter) {
             const baseContainer = this.dependencies.baseContainer.createBaseContainer();
@@ -4044,6 +4080,8 @@ export class ColumnPlugin extends Plugin {
         this.dependencies.dom.insert(container);
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
         return { container, columns };
     }
 
@@ -4051,6 +4089,9 @@ export class ColumnPlugin extends Plugin {
         const baseContainer = this.dependencies.baseContainer.createBaseContainer();
         baseContainer.append(this.document.createElement("br"));
         return baseContainer;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
 
@@ -4247,7 +4288,11 @@ export class ColumnPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 column.classList.add(`col-${columnSize}`);
+=======
+                column.classList.add(`col-${columnSize}`, "o-contenteditable-true");
+>>>>>>> upstream/18.0
 =======
                 column.classList.add(`col-${columnSize}`, "o-contenteditable-true");
 >>>>>>> upstream/18.0

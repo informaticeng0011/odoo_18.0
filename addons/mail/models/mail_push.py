@@ -101,6 +101,12 @@ class MailPush(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            except Exception as e:  # noqa: BLE001
+                # Avoid blocking the whole cron just for a notification exception
+                _logger.error('An error occurred while trying to send web push: %s', e)
+>>>>>>> upstream/18.0
 =======
             except Exception as e:  # noqa: BLE001
                 # Avoid blocking the whole cron just for a notification exception

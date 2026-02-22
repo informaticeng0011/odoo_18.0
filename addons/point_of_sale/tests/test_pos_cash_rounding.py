@@ -2,6 +2,10 @@ from odoo import Command
 from odoo.addons.point_of_sale.tests.test_frontend import TestPointOfSaleHttpCommon
 from odoo.tests import tagged
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo import fields
+>>>>>>> upstream/18.0
 =======
 from odoo import fields
 >>>>>>> upstream/18.0
@@ -504,6 +508,10 @@ class TestPosCashRounding(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.skipTest('To re-introduce when feature is ready')
+>>>>>>> upstream/18.0
 =======
         self.skipTest('To re-introduce when feature is ready')
 >>>>>>> upstream/18.0
@@ -1538,6 +1546,10 @@ class TestPosCashRounding(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.skipTest('To re-introduce when feature is ready')
+>>>>>>> upstream/18.0
 =======
         self.skipTest('To re-introduce when feature is ready')
 >>>>>>> upstream/18.0
@@ -2572,6 +2584,10 @@ class TestPosCashRounding(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.skipTest('To re-introduce when feature is ready')
+>>>>>>> upstream/18.0
 =======
         self.skipTest('To re-introduce when feature is ready')
 >>>>>>> upstream/18.0
@@ -3606,6 +3622,10 @@ class TestPosCashRounding(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.skipTest('To re-introduce when feature is ready')
+>>>>>>> upstream/18.0
 =======
         self.skipTest('To re-introduce when feature is ready')
 >>>>>>> upstream/18.0
@@ -4678,7 +4698,10 @@ class TestPosCashRounding(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5467,6 +5490,7 @@ class TestPosCashRounding(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5967,6 +5991,8 @@ class TestPosCashRounding(TestPointOfSaleHttpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_no_rounding_on_card_credit_note(self):
         """
@@ -6028,4 +6054,7 @@ class TestPosCashRounding(TestPointOfSaleHttpCommon):
         reversal = invoice._reverse_moves(cancel=False)
         rounding_lines = reversal.line_ids.filtered(lambda l: l.name == 'cash_rounding_add_invoice_line')
         self.assertEqual(rounding_lines.balance, 0.0)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

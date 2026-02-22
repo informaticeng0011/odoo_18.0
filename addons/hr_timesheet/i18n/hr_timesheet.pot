@@ -58,6 +58,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
 "PO-Revision-Date: 2024-12-16 13:39+0000\n"
 =======
@@ -268,6 +269,10 @@ msgstr ""
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2025-12-29 18:37+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2026-02-20 18:38+0000\n"
+"PO-Revision-Date: 2026-02-20 18:38+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -392,6 +397,7 @@ msgstr ""
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.hr_employee_delete_wizard_form
 msgid ""
+<<<<<<< HEAD
 "<span invisible=\"not has_timesheet\">\n"
 "                        You cannot delete employees who have timesheets.\n"
 "                        <span invisible=\"not has_active_employee\">\n"
@@ -402,6 +408,9 @@ msgid ""
 "                        </span>\n"
 "                    </span>\n"
 "                    <span invisible=\"has_timesheet\">\n"
+=======
+"<span invisible=\"has_timesheet\">\n"
+>>>>>>> upstream/18.0
 "                        Are you sure you want to delete these employees?\n"
 "                    </span>"
 msgstr ""
@@ -967,6 +976,14 @@ msgid "Partner"
 msgstr ""
 
 #. module: hr_timesheet
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:hr_timesheet.hr_employee_delete_wizard_form
+msgid "Please first delete all of their timesheets."
+msgstr ""
+
+#. module: hr_timesheet
+>>>>>>> upstream/18.0
 #: model:ir.model,name:hr_timesheet.model_uom_uom
 msgid "Product Unit of Measure"
 msgstr ""
@@ -1605,6 +1622,18 @@ msgid "You cannot delete employees who have timesheets."
 msgstr ""
 
 #. module: hr_timesheet
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:hr_timesheet.hr_employee_delete_wizard_form
+msgid ""
+"You cannot delete employees who have timesheets.\n"
+"                        <span invisible=\"not has_active_employee\">\n"
+"                            You can either archive these employees or first delete all of their timesheets.\n"
+"                        </span>"
+msgstr ""
+
+#. module: hr_timesheet
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.project_invoice_form
 msgid ""
 "You cannot log timesheets on this project since it is linked to an inactive analytic account.<br/>\n"

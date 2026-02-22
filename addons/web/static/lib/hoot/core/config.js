@@ -212,8 +212,14 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const getSchemaDefaults = (schema) =>
     $fromEntries($entries(schema).map(([key, value]) => [key, value.default]));
+=======
+function getSchemaDefaults(schema) {
+    return $fromEntries($entries(schema).map(([key, value]) => [key, value.default]));
+}
+>>>>>>> upstream/18.0
 =======
 function getSchemaDefaults(schema) {
     return $fromEntries($entries(schema).map(([key, value]) => [key, value.default]));
@@ -1342,7 +1348,13 @@ function getSchemaDefaults(schema) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const getSchemaKeys = (schema) => $keys(schema);
+=======
+function getSchemaKeys(schema) {
+    return $keys(schema);
+}
+>>>>>>> upstream/18.0
 =======
 function getSchemaKeys(schema) {
     return $keys(schema);
@@ -2471,8 +2483,14 @@ function getSchemaKeys(schema) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const makeParser = (parse) => (valueIfEmpty) => (values) =>
     values.length ? parse(values) : valueIfEmpty;
+=======
+function makeParser(parse) {
+    return (valueIfEmpty) => (values) => values.length ? parse(values) : valueIfEmpty;
+}
+>>>>>>> upstream/18.0
 =======
 function makeParser(parse) {
     return (valueIfEmpty) => (values) => values.length ? parse(values) : valueIfEmpty;
@@ -3751,6 +3769,7 @@ export const FILTER_SCHEMA = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * IDs of the suites to run exclusively. The ID of a suite is generated deterministically
      * based on its full name.
      * @default []
@@ -3758,6 +3777,8 @@ export const FILTER_SCHEMA = {
     suite: {
         aliases: ["suites"],
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4250,6 +4271,9 @@ export const FILTER_SCHEMA = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4750,6 +4774,7 @@ export const FILTER_SCHEMA = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /**
      * IDs of the tests to run exclusively. The ID of a test is generated deterministically
      * based on its full name.
@@ -4760,6 +4785,8 @@ export const FILTER_SCHEMA = {
         default: [],
         parse: parseStringArray([]),
     },
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

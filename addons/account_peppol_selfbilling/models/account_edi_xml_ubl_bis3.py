@@ -7,11 +7,14 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _add_invoice_config_vals(self, vals):
         super()._add_invoice_config_vals(vals)
         invoice = vals['invoice']
         vals['process_type'] = 'selfbilling' if invoice.is_purchase_document() and self._can_export_selfbilling() else 'billing'
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -35,7 +38,10 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -55,6 +61,9 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
         vals['delivery'] = supplier
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

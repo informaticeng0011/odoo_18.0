@@ -216,9 +216,15 @@ import { Component, useState, xml } from "@odoo/owl";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { FILTER_KEYS, FILTER_SCHEMA } from "../core/config";
 import { createUrlFromId } from "../core/url";
 import { INCLUDE_LEVEL } from "../hoot_utils";
+=======
+import { FILTER_SCHEMA } from "../core/config";
+import { createUrlFromId } from "../core/url";
+import { ensureArray, INCLUDE_LEVEL } from "../hoot_utils";
+>>>>>>> upstream/18.0
 =======
 import { FILTER_SCHEMA } from "../core/config";
 import { createUrlFromId } from "../core/url";
@@ -1513,7 +1519,11 @@ import { ensureArray, INCLUDE_LEVEL } from "../hoot_utils";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  *  id?: string;
+=======
+ *  ids?: Record<import("../core/config").SearchFilter, string[]>;
+>>>>>>> upstream/18.0
 =======
  *  ids?: Record<import("../core/config").SearchFilter, string[]>;
 >>>>>>> upstream/18.0
@@ -2380,7 +2390,10 @@ import { ensureArray, INCLUDE_LEVEL } from "../hoot_utils";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  *  type?: import("../core/config").SearchFilter;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3030,7 +3043,10 @@ import { ensureArray, INCLUDE_LEVEL } from "../hoot_utils";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3681,6 +3697,9 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4350,8 +4369,11 @@ export class HootLink extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         id: { type: [String, { type: Array, element: String }], optional: true },
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4999,6 +5021,9 @@ export class HootLink extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5660,7 +5685,10 @@ export class HootLink extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         type: { type: FILTER_KEYS.map((value) => ({ value })), optional: true },
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6316,6 +6344,7 @@ export class HootLink extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (ev.altKey) {
             const { includeSpecs } = this.env.runner.state;
             const { id, type, options } = this.props;
@@ -6329,6 +6358,8 @@ export class HootLink extends Component {
             const finalValue = includeSpecs[type][id] === targetValue ? 0 : targetValue;
             this.env.runner.include(type, id, finalValue);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6990,6 +7021,9 @@ export class HootLink extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7640,8 +7674,14 @@ export class HootLink extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const { id, type, options } = this.props;
         this.state.href = createUrlFromId(id, type, options);
+=======
+        const { ids, options } = this.props;
+        const simplifiedIds = this.env.runner.simplifyUrlIds(ids);
+        this.state.href = createUrlFromId(simplifiedIds, options);
+>>>>>>> upstream/18.0
 =======
         const { ids, options } = this.props;
         const simplifiedIds = this.env.runner.simplifyUrlIds(ids);

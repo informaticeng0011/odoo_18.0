@@ -124,7 +124,10 @@ import { browser } from "../browser/browser";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -500,6 +503,9 @@ import { browser } from "../browser/browser";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -894,6 +900,7 @@ export class ConnectionAbortedError extends Error {}
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 export function makeErrorFromResponse(reponse) {
     // Odoo returns error like this, in a error field instead of properly
     // using http error codes...
@@ -901,6 +908,8 @@ export function makeErrorFromResponse(reponse) {
     const error = new RPCError();
     error.exceptionName = errorData.name;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1276,6 +1285,9 @@ export function makeErrorFromResponse(response) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1712,7 +1724,11 @@ rpc._rpc = function (url, params, settings) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for (let [header, value] of Object.entries(headers)) {
+=======
+        for (const [header, value] of Object.entries(headers)) {
+>>>>>>> upstream/18.0
 =======
         for (const [header, value] of Object.entries(headers)) {
 >>>>>>> upstream/18.0

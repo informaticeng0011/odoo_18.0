@@ -41,6 +41,10 @@ class TestSgUBLPint(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'l10n_sg_unique_entity_number': '301131415A',
+>>>>>>> upstream/18.0
 =======
             'l10n_sg_unique_entity_number': '301131415A',
 >>>>>>> upstream/18.0

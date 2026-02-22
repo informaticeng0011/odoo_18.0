@@ -189,7 +189,10 @@ class TestHolidaysOvertime(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -518,6 +521,9 @@ class TestHolidaysOvertime(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -939,8 +945,13 @@ class TestHolidaysOvertime(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertFalse(leave.overtime_id.exists(), "Overtime should not be created")
         self.assertEqual(self.employee.total_overtime, 8)
+=======
+        self.assertTrue(leave.overtime_id.exists(), "Overtime should created")
+        self.assertEqual(self.employee.total_overtime, 0)
+>>>>>>> upstream/18.0
 =======
         self.assertTrue(leave.overtime_id.exists(), "Overtime should created")
         self.assertEqual(self.employee.total_overtime, 0)
@@ -1898,7 +1909,10 @@ class TestHolidaysOvertime(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2406,6 +2420,9 @@ class TestHolidaysOvertime(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

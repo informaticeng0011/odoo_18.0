@@ -32,6 +32,7 @@ from datetime import timedelta
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -717,6 +718,11 @@ from freezegun import freeze_time
 
 from odoo import Command, fields
 >>>>>>> upstream/18.0
+=======
+from freezegun import freeze_time
+
+from odoo import Command, fields
+>>>>>>> upstream/18.0
 from odoo.tests import Form
 from odoo.addons.mrp.tests.common import TestMrpCommon
 from odoo.exceptions import UserError
@@ -1230,7 +1236,10 @@ class TestProcurement(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1761,6 +1770,9 @@ class TestProcurement(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2700,6 +2712,10 @@ class TestProcurement(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    @freeze_time("2025-11-3")
+>>>>>>> upstream/18.0
 =======
     @freeze_time("2025-11-3")
 >>>>>>> upstream/18.0
@@ -2884,7 +2900,11 @@ class TestProcurement(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'product_uom_qty': 15,
+=======
+                    'product_uom_qty': 8,
+>>>>>>> upstream/18.0
 =======
                     'product_uom_qty': 8,
 >>>>>>> upstream/18.0
@@ -2984,6 +3004,7 @@ class TestProcurement(TestMrpCommon):
             picking.action_confirm()
             if not mo:
                 mo = self.env['mrp.production'].search([('product_id', '=', product_1.id)])
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3253,6 +3274,8 @@ class TestProcurement(TestMrpCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             self.assertEqual(delta_hours(mo.date_finished - mo.date_start), i * 24)
 
         # Check the generated MO
@@ -3287,6 +3310,9 @@ class TestProcurement(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3485,6 +3511,9 @@ class TestProcurement(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

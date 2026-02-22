@@ -14,6 +14,12 @@ from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 from odoo.exceptions import UserError
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.l10n_pl_edi.exceptions import KSeFRateLimitError
+
+
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.l10n_pl_edi.exceptions import KSeFRateLimitError
 
@@ -52,7 +58,11 @@ class KsefApiService:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return 'https://ksef.mf.gov.pl/api/v2'
+=======
+            return 'https://api.ksef.mf.gov.pl/v2'
+>>>>>>> upstream/18.0
 =======
             return 'https://api.ksef.mf.gov.pl/v2'
 >>>>>>> upstream/18.0
@@ -129,6 +139,12 @@ class KsefApiService:
                 # Pass is_auth_retry=True to prevent looping
                 return self._make_request(method, endpoint, is_auth_retry=True, **kwargs)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            elif response.status_code == 429:
+                retry_after = response.headers.get('Retry-After')
+                raise KSeFRateLimitError("Too Many Requests", retry_after=retry_after)
+>>>>>>> upstream/18.0
 =======
             elif response.status_code == 429:
                 retry_after = response.headers.get('Retry-After')
@@ -414,7 +430,10 @@ class KsefApiService:
         except requests.exceptions.RequestException as e:
             raise UserError(self.env._("Failed to redeem token: %s", e.response.text if e.response else e))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def query_invoice_metadata(self, query_criteria, page_size=100, page_offset=0):
         endpoint = f"{self.api_url}/invoices/query/metadata"
@@ -432,4 +451,7 @@ class KsefApiService:
             return {'xml_content': response.content}
         except KSeFRateLimitError as e:
             return {'error': {'retry_after': e.retry_after, 'message': e.message}}
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -58,6 +58,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-26 08:56+0000\n"
 =======
@@ -268,6 +269,10 @@ msgstr ""
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2025-12-29 18:37+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2026-02-20 18:39+0000\n"
+"PO-Revision-Date: 2026-02-20 18:39+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -294,6 +299,7 @@ msgid "<span class=\"o_stat_text\">Sale</span>"
 msgstr ""
 
 #. module: sale_purchase
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sale_purchase.sale_order_cancel_view_form
 msgid ""
 "<span id=\"display_invoice_alert\" position=\"after\">\n"
@@ -304,6 +310,8 @@ msgid ""
 msgstr ""
 
 #. module: sale_purchase
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale_purchase.exception_sale_on_purchase_cancellation
 msgid "Exception(s) occurred on the purchase order(s):"
 msgstr ""
@@ -451,6 +459,16 @@ msgid "Subcontract Service"
 msgstr ""
 
 #. module: sale_purchase
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:sale_purchase.sale_order_cancel_view_form
+msgid ""
+"There are active purchase orders linked to this sale order that are not "
+"cancelled automatically! <br/>"
+msgstr ""
+
+#. module: sale_purchase
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/sale_purchase/models/sale_order_line.py:0
 msgid ""
