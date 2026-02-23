@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* account_qr_code_sepa
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -203,10 +204,15 @@
 # * account_qr_code_sepa
 #
 >>>>>>> upstream/18.0
+=======
+# * account_qr_code_sepa
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Kim Asplund <kim.asplund@gmail.com>, 2024
 # Martin Trigaux, 2024
 # Jakob Krabbe <jakob.krabbe@vertel.se>, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -408,10 +414,14 @@
 =======
 # Hanna Kharraziha <hakha@odoo.com>, 2026.
 >>>>>>> upstream/18.0
+=======
+# Hanna Kharraziha <hakha@odoo.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -572,16 +582,22 @@ msgstr ""
 "Last-Translator: Jakob Krabbe <jakob.krabbe@vertel.se>, 2024\n"
 "Language-Team: Swedish (https://app.transifex.com/odoo/teams/41243/sv/)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-02-21 10:02+0000\n"
 "Last-Translator: Hanna Kharraziha <hakha@odoo.com>\n"
 "Language-Team: Swedish <https://translate.odoo.com/projects/odoo-18/"
 "account_qr_code_sepa/sv/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -733,6 +749,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: account_qr_code_sepa
 #: model:ir.model,name:account_qr_code_sepa.model_res_partner_bank
@@ -744,7 +764,11 @@ msgstr "Bankkonton"
 #: code:addons/account_qr_code_sepa/models/res_bank.py:0
 msgid "Can't generate a SEPA QR Code with the %s currency."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Kan inte generera en SEPA QR-kod med %s valuta."
+=======
+msgstr "Det är inte möjligt att skapa en SEPA QR-kod med valutan %s."
+>>>>>>> upstream/18.0
 =======
 msgstr "Det är inte möjligt att skapa en SEPA QR-kod med valutan %s."
 >>>>>>> upstream/18.0
@@ -754,7 +778,13 @@ msgstr "Det är inte möjligt att skapa en SEPA QR-kod med valutan %s."
 #: code:addons/account_qr_code_sepa/models/res_bank.py:0
 msgid "Can't generate a SEPA QR code if the account type isn't IBAN."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Kan inte generera en SEPA QR-kod om kontotypen inte är IBAN."
+=======
+msgstr ""
+"Det är inte möjligt att skapa en SEPA QR-kod om kontot inte har ett IBAN-"
+"nummer."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Det är inte möjligt att skapa en SEPA QR-kod om kontot inte har ett IBAN-"
@@ -766,7 +796,13 @@ msgstr ""
 #: code:addons/account_qr_code_sepa/models/res_bank.py:0
 msgid "Can't generate a SEPA QR code with a non SEPA iban."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Kan inte generera en SEPA QR-kod med en iban som inte är SEPA."
+=======
+msgstr ""
+"Det är inte möjligt att skapa en SEPA QR-kod med ett IBAN-nummer som inte är "
+"en del av SEPA."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Det är inte möjligt att skapa en SEPA QR-kod med ett IBAN-nummer som inte är "
@@ -778,7 +814,11 @@ msgstr ""
 #: code:addons/account_qr_code_sepa/models/res_bank.py:0
 msgid "SEPA Credit Transfer QR"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "SEPA Betalnings QR"
+=======
+msgstr "SEPA-överföring med QR-kod"
+>>>>>>> upstream/18.0
 =======
 msgstr "SEPA-överföring med QR-kod"
 >>>>>>> upstream/18.0
@@ -791,8 +831,13 @@ msgid ""
 "partner name set."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Kontot som tar emot betalningen måste ha kontoinnehavarens namn eller "
 "partnernamnet inställt."
+=======
+"Kontot som betalningen skickas till måste tillhöra kontoinnehavaren eller "
+"partnern."
+>>>>>>> upstream/18.0
 =======
 "Kontot som betalningen skickas till måste tillhöra kontoinnehavaren eller "
 "partnern."

@@ -182,6 +182,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    onRpc,
+>>>>>>> upstream/18.0
 =======
     onRpc,
 >>>>>>> upstream/18.0
@@ -893,6 +897,10 @@ import { groupBy } from "@web/core/utils/arrays";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+const mockRpcRegistry = registry.category("mail.mock_rpc");
+>>>>>>> upstream/18.0
 =======
 const mockRpcRegistry = registry.category("mail.mock_rpc");
 >>>>>>> upstream/18.0
@@ -1660,7 +1668,11 @@ export function registerRoute(route, handler) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const beforeCallableHandler = async function (request) {
+=======
+    async function beforeCallableHandler(request) {
+>>>>>>> upstream/18.0
 =======
     async function beforeCallableHandler(request) {
 >>>>>>> upstream/18.0
@@ -2209,6 +2221,7 @@ export function registerRoute(route, handler) {
             return res;
         }
         return response;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3267,6 +3280,11 @@ export function registerRoute(route, handler) {
     mockRpcRegistry.add(route, beforeCallableHandler);
     onRpc(route, beforeCallableHandler);
 >>>>>>> upstream/18.0
+=======
+    }
+    mockRpcRegistry.add(route, beforeCallableHandler);
+    onRpc(route, beforeCallableHandler);
+>>>>>>> upstream/18.0
 }
 
 // RPC handlers
@@ -3376,7 +3394,11 @@ async function mail_attachment_upload(request) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const body = await request.text();
+=======
+    const body = await request.formData();
+>>>>>>> upstream/18.0
 =======
     const body = await request.formData();
 >>>>>>> upstream/18.0

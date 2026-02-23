@@ -174,7 +174,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     markup,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -678,7 +681,10 @@ import { cookie } from "@web/core/browser/cookie";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { rpc } from "@web/core/network/rpc";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1229,7 +1235,10 @@ export class Message extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             showTranslation: false,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1776,7 +1785,11 @@ export class Message extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         this.state.showTranslation
+=======
+                        this.message.showTranslation
+>>>>>>> upstream/18.0
 =======
                         this.message.showTranslation
 >>>>>>> upstream/18.0
@@ -2429,7 +2442,11 @@ export class Message extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this.state.showTranslation,
+=======
+                this.message.showTranslation,
+>>>>>>> upstream/18.0
 =======
                 this.message.showTranslation,
 >>>>>>> upstream/18.0
@@ -3372,6 +3389,7 @@ export class Message extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const message = toRaw(this.message);
         if (!message.translationValue) {
             const { error, lang_name, body } = await rpc("/mail/message/translate", {
@@ -3758,6 +3776,8 @@ export class Message extends Component {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         toRaw(this.props.message).onClickToggleTranslation();
     }
 
@@ -3866,6 +3886,9 @@ export class Message extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

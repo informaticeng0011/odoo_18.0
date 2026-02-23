@@ -5,6 +5,7 @@ import re
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from datetime import timedelta
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -818,6 +819,9 @@ from odoo import Command, http, fields, _
 =======
 from odoo import Command, http, fields, _
 >>>>>>> upstream/18.0
+=======
+from odoo import Command, http, fields, _
+>>>>>>> upstream/18.0
 from odoo.http import request
 from odoo.tools import float_round
 from odoo.osv import expression
@@ -1026,6 +1030,11 @@ from werkzeug.exceptions import NotFound, BadRequest, Unauthorized
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.exceptions import MissingError
+from odoo.tools import consteq
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import MissingError
 from odoo.tools import consteq
@@ -1881,6 +1890,10 @@ class PosSelfOrderController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self._check_records(pos_config, order)
+>>>>>>> upstream/18.0
 =======
         self._check_records(pos_config, order)
 >>>>>>> upstream/18.0
@@ -2073,6 +2086,12 @@ class PosSelfOrderController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if amount_total == 0:
+            order_ids._process_saved_order(False)
+
+>>>>>>> upstream/18.0
 =======
         if amount_total == 0:
             order_ids._process_saved_order(False)
@@ -3154,7 +3173,10 @@ class PosSelfOrderController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3777,6 +3799,9 @@ class PosSelfOrderController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4441,6 +4466,7 @@ class PosSelfOrderController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         domain = ['&', '&',
             ('table_id', '=', table.id),
@@ -4452,6 +4478,8 @@ class PosSelfOrderController(http.Controller):
             domain = expression.OR([domain, [
                 '&',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5218,6 +5246,9 @@ class PosSelfOrderController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5818,7 +5849,10 @@ class PosSelfOrderController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5877,6 +5911,9 @@ class PosSelfOrderController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

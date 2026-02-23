@@ -72,6 +72,10 @@ from . import account_edi_common
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import account_edi_ubl
+>>>>>>> upstream/18.0
 =======
 from . import account_edi_ubl
 >>>>>>> upstream/18.0
@@ -547,6 +551,10 @@ from . import account_move_send
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import ir_actions_report
+>>>>>>> upstream/18.0
 =======
 from . import ir_actions_report
 >>>>>>> upstream/18.0

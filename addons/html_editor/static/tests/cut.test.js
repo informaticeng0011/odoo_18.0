@@ -95,7 +95,11 @@ describe("range not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should cut a selection as text/plain, text/html and application/vnd.odoo.odoo-editor", async () => {
+=======
+    test("should cut a selection as text/plain, text/html and application/vnd.odoo.odoo-editor (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should cut a selection as text/plain, text/html and application/vnd.odoo.odoo-editor (1)", async () => {
 >>>>>>> upstream/18.0
@@ -368,6 +372,12 @@ describe("range not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should cut a selection as text/plain, text/html and application/vnd.odoo.odoo-editor (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 

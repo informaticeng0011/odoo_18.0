@@ -207,6 +207,7 @@ patch(OrderSummary.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await this.pos._onBeforeDeleteOrder(order);
         order.state = "cancel";
         this.pos.showScreen("FloorScreen");
@@ -601,6 +602,11 @@ patch(OrderSummary.prototype, {
 =======
         await this.pos.deleteOrders([order]);
         this.pos.showScreen(this.pos.firstScreen);
+>>>>>>> upstream/18.0
+=======
+        this.pos.showScreen(this.pos.firstScreen);
+        order.state = "cancel";
+        await this.pos.deleteOrders([order]);
 >>>>>>> upstream/18.0
 =======
         this.pos.showScreen(this.pos.firstScreen);

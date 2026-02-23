@@ -398,7 +398,11 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if status == 'AUTHORIZATION_REQUESTED':
+=======
+            if status == 'AUTHORIZATION_REQUESTED' and self.operation in ('online_token', 'offline'):
+>>>>>>> upstream/18.0
 =======
             if status == 'AUTHORIZATION_REQUESTED' and self.operation in ('online_token', 'offline'):
 >>>>>>> upstream/18.0

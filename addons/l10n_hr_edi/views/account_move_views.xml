@@ -58,11 +58,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         invisible="not l10n_hr_mer_document_eid or (amount_total - amount_residual) == l10n_hr_payment_reported_amount"
                     />
                 </xpath>
                 <xpath expr="//header" position="after">
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -137,6 +140,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <div class="alert alert-danger w-100 d-flex align-items-center gap-1" invisible="move_type not in ('in_invoice', 'in_refund') or not l10n_hr_mer_document_eid or l10n_hr_fiscalization_status == '0' or invoice_date &lt; '2026-01-01 00:00:00'"  role="alert">
                         <span>This document is not successfully fiscalized by MojEracun</span>
                     </div>
@@ -160,6 +164,8 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -317,7 +323,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 invisible="not l10n_hr_edi_addendum_id">
+=======
+                                invisible="not l10n_hr_edi_addendum_id or move_type not in ('out_invoice', 'out_refund')">
+>>>>>>> upstream/18.0
 =======
                                 invisible="not l10n_hr_edi_addendum_id or move_type not in ('out_invoice', 'out_refund')">
 >>>>>>> upstream/18.0

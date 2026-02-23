@@ -62,11 +62,14 @@ class ProductTemplate(models.Model):
     def _get_product_accounts(self):
         return {
 <<<<<<< HEAD
+<<<<<<< HEAD
             'income': self.property_account_income_id or self.categ_id.property_account_income_categ_id,
             'expense': self.property_account_expense_id or self.categ_id.property_account_expense_categ_id
         }
 
 =======
+=======
+>>>>>>> upstream/18.0
             'income': self.property_account_income_id or self._get_category_account('property_account_income_categ_id'),
             'expense': self.property_account_expense_id or self._get_category_account('property_account_expense_categ_id')
         }
@@ -84,6 +87,9 @@ class ProductTemplate(models.Model):
             categ = categ.parent_id
         return self.env['account.account']
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _get_asset_accounts(self):
         res = {}
@@ -224,7 +230,11 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         res = self.taxes_id.filtered(lambda t: t.company_id == self.env.company).compute_all(
+=======
+        res = self.taxes_id._filter_taxes_by_company(self.env.company).compute_all(
+>>>>>>> upstream/18.0
 =======
         res = self.taxes_id._filter_taxes_by_company(self.env.company).compute_all(
 >>>>>>> upstream/18.0
@@ -766,6 +776,7 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for product_grouped_by_tax in self.grouped('taxes_id').values():
             product_grouped_by_tax.taxes_id += default_customer_taxes
         self.invalidate_recordset(['taxes_id'])
@@ -776,6 +787,8 @@ class ProductTemplate(models.Model):
             product_grouped_by_tax.supplier_taxes_id += default_supplier_taxes
         self.invalidate_recordset(['supplier_taxes_id'])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1264,6 +1277,9 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1732,7 +1748,11 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         other_companies = self.env['res.company'].sudo().search([('id', 'not in', self.env.companies.ids)])
+=======
+        other_companies = self.env['res.company'].sudo().search(['!', ('id', 'child_of', self.env.companies.ids)])
+>>>>>>> upstream/18.0
 =======
         other_companies = self.env['res.company'].sudo().search(['!', ('id', 'child_of', self.env.companies.ids)])
 >>>>>>> upstream/18.0
@@ -2514,6 +2534,7 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if default_code:
             domains.append([('default_code', '=', default_code)])
         if barcode:
@@ -2537,6 +2558,8 @@ class ProductProduct(models.Model):
                 if product:
                     return product
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3164,8 +3187,11 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             domains += [[('name', '=', name)], [('name', 'ilike', name)]]
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3659,6 +3685,9 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3992,6 +4021,7 @@ class ProductProduct(models.Model):
             [*self.env['res.partner']._check_company_domain(company), ('company_id', '!=', False)],
             [('company_id', '=', False)],
         ):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4689,6 +4719,8 @@ class ProductProduct(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             for domain in domains:
                 product = self.env['product.product'].search(
                     expression.AND([
@@ -4761,6 +4793,9 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
