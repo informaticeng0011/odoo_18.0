@@ -252,7 +252,11 @@ class LunchOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             wallet_amount = self.env['lunch.cashmove'].get_wallet_balance(order.user_id, False) - price
+=======
+            wallet_amount = self.env['lunch.cashmove'].get_wallet_balance(order.user_id) - price
+>>>>>>> upstream/18.0
 =======
             wallet_amount = self.env['lunch.cashmove'].get_wallet_balance(order.user_id) - price
 >>>>>>> upstream/18.0
@@ -957,8 +961,14 @@ class LunchOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             })
             if lines.filtered(lambda l: l.state == 'new'):
+=======
+                'state': 'new',
+            })
+            if lines:
+>>>>>>> upstream/18.0
 =======
                 'state': 'new',
             })
@@ -1770,7 +1780,11 @@ class LunchOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             for line in self:
+=======
+            for line in self.filtered(lambda line: line.state not in ['sent', 'confirmed']):
+>>>>>>> upstream/18.0
 =======
             for line in self.filtered(lambda line: line.state not in ['sent', 'confirmed']):
 >>>>>>> upstream/18.0
@@ -2331,7 +2345,11 @@ class LunchOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 })
+=======
+                }) - line
+>>>>>>> upstream/18.0
 =======
                 }) - line
 >>>>>>> upstream/18.0

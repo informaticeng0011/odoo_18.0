@@ -128,12 +128,15 @@ pdfjs-bookmark-button-label = 目前頁面
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Used in Firefox for Android.
 pdfjs-open-in-app-button =
     .title = 在應用程式中開啟
 # Used in Firefox for Android.
 # Length of the translation matters since we are in a mobile context, with limited screen estate.
 pdfjs-open-in-app-button-label = 用程式開啟
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -390,8 +393,13 @@ pdfjs-scroll-page-button =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     .title = 使用頁面捲動功能
 pdfjs-scroll-page-button-label = 頁面捲動功能
+=======
+    .title = 使用單頁捲動版面
+pdfjs-scroll-page-button-label = 單頁捲動
+>>>>>>> upstream/18.0
 =======
     .title = 使用單頁捲動版面
 pdfjs-scroll-page-button-label = 單頁捲動
@@ -801,9 +809,12 @@ pdfjs-document-properties-button-label = 文件內容…
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 pdfjs-document-properties-file-name = 檔案名稱:
 pdfjs-document-properties-file-size = 檔案大小:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1042,6 +1053,9 @@ pdfjs-document-properties-size-mb = { NUMBER($mb, maximumSignificantDigits: 3) }
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1280,6 +1294,7 @@ pdfjs-document-properties-mb = { $size_mb } MB（{ $size_b } 位元組）
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 pdfjs-document-properties-title = 標題:
 pdfjs-document-properties-author = 作者:
 pdfjs-document-properties-subject = 主旨:
@@ -1287,6 +1302,8 @@ pdfjs-document-properties-keywords = 關鍵字:
 pdfjs-document-properties-creation-date = 建立日期:
 pdfjs-document-properties-modification-date = 修改日期:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1524,6 +1541,9 @@ pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "sh
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1681,6 +1701,7 @@ pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "sh
 #   $date (Date) - the creation/modification date of the PDF file
 #   $time (Time) - the creation/modification time of the PDF file
 pdfjs-document-properties-date-string = { $date } { $time }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1916,6 +1937,8 @@ pdfjs-document-properties-page-size = 頁面大小:
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 pdfjs-document-properties-creator = 建立者：
 pdfjs-document-properties-producer = PDF 產生器：
 pdfjs-document-properties-version = PDF 版本：
@@ -1997,6 +2020,9 @@ pdfjs-document-properties-page-size = 頁面大小：
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2250,7 +2276,11 @@ pdfjs-document-properties-page-size-dimension-name-string = { $width } × { $hei
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 pdfjs-document-properties-linearized = 快速 Web 檢視:
+=======
+pdfjs-document-properties-linearized = 快速 Web 檢視：
+>>>>>>> upstream/18.0
 =======
 pdfjs-document-properties-linearized = 快速 Web 檢視：
 >>>>>>> upstream/18.0
@@ -2675,6 +2705,12 @@ pdfjs-text-annotation-type =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Variables:
+#   $dateObj (Date) - the modification date and time of the annotation
+pdfjs-annotation-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+>>>>>>> upstream/18.0
 =======
 # Variables:
 #   $dateObj (Date) - the modification date and time of the annotation
@@ -3160,8 +3196,11 @@ pdfjs-editor-highlight-button-label = 強調
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 pdfjs-highlight-floating-button =
     .title = 強調
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3426,7 +3465,11 @@ pdfjs-free-text =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 pdfjs-free-text-default-content = 開始打字…
+=======
+pdfjs-free-text-default-content = 在此打字…
+>>>>>>> upstream/18.0
 =======
 pdfjs-free-text-default-content = 在此打字…
 >>>>>>> upstream/18.0
@@ -3769,7 +3812,10 @@ pdfjs-editor-resizer-label-middle-left = 中間左方 — 調整大小
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4014,6 +4060,9 @@ pdfjs-editor-resizer-middle-left =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4270,7 +4319,10 @@ pdfjs-editor-highlight-show-all-button =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4556,6 +4608,9 @@ pdfjs-editor-alt-text-settings-close-button = 關閉
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

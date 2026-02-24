@@ -39,6 +39,40 @@ export const uploadService = {
                 progressToast.isVisible = false;
             }
         };
+<<<<<<< HEAD
+=======
+
+        const convertWebpToJpeg = async (dataURL, name, attachmentId) => {
+            const image = document.createElement("img");
+            image.src = `data:image/webp;base64,${dataURL.split(",")[1]}`;
+            await new Promise((res, rej) => {
+                image.onload = res;
+                image.onerror = rej;
+            });
+
+            const canvas = document.createElement("canvas");
+            canvas.width = image.width;
+            canvas.height = image.height;
+
+            const ctx = canvas.getContext("2d");
+            ctx.fillStyle = "white";
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            ctx.drawImage(image, 0, 0);
+
+            const altDataURL = canvas.toDataURL("image/jpeg", 0.75);
+
+            await rpc("/web_editor/attachment/add_data", {
+                name: name.replace(/\.webp$/, ".jpg"),
+                data: altDataURL.split(",")[1],
+                res_id: attachmentId,
+                res_model: "ir.attachment",
+                is_image: true,
+                width: 0,
+                quality: 0,
+            });
+        };
+
+>>>>>>> upstream/18.0
         return {
             get progressToast() {
                 return progressToast;
@@ -66,11 +100,42 @@ export const uploadService = {
              * @param {Array<File>} files
              * @param {Object} options
              * @param {Function} onUploaded
+<<<<<<< HEAD
              */
             uploadFiles: async (files, { resModel, resId, isImage }, onUploaded) => {
                 // Upload the smallest file first to block the user the least possible.
                 const sortedFiles = Array.from(files).sort((a, b) => a.size - b.size);
                 for (const file of sortedFiles) {
+=======
+             * @param {Function} setAbortCallback // Optional - To abort uploads
+             */
+            uploadFiles: async (
+                files,
+                { resModel, resId, isImage },
+                onUploaded,
+                setAbortCallback
+            ) => {
+                // Upload the smallest file first to block the user the least possible.
+                const sortedFiles = Array.from(files).sort((a, b) => a.size - b.size);
+
+                const controller = new AbortController();
+                const { signal } = controller;
+
+                let currentXHR = null;
+                let addAttachmentRpc = null;
+
+                setAbortCallback?.(() => {
+                    controller.abort();
+                    addAttachmentRpc?.abort?.();
+                    currentXHR?.abort?.();
+                });
+
+                for (const file of sortedFiles) {
+                    if (signal.aborted) {
+                        return;
+                    }
+
+>>>>>>> upstream/18.0
                     let fileSize = file.size;
                     if (!checkFileSize(fileSize, notification)) {
                         return null;
@@ -95,10 +160,23 @@ export const uploadService = {
                 // Upload one file at a time: no need to parallel as upload is
                 // limited by bandwidth.
                 for (const sortedFile of sortedFiles) {
+<<<<<<< HEAD
+=======
+                    if (signal.aborted) {
+                        break;
+                    }
+
+>>>>>>> upstream/18.0
                     const file = progressToast.files[sortedFile.progressToastId];
                     let dataURL;
                     try {
                         dataURL = await getDataURLFromFile(sortedFile);
+<<<<<<< HEAD
+=======
+                        if (signal.aborted) {
+                            break;
+                        }
+>>>>>>> upstream/18.0
                     } catch {
                         deleteFile(file.id);
                         env.services.notification.add(
@@ -107,6 +185,7 @@ export const uploadService = {
                         );
                         continue;
                     }
+<<<<<<< HEAD
                     try {
                         const xhr = new XMLHttpRequest();
                         xhr.upload.addEventListener("progress", (ev) => {
@@ -118,6 +197,24 @@ export const uploadService = {
                             file.progress = 100;
                         });
                         const attachment = await rpc(
+=======
+
+                    currentXHR = new XMLHttpRequest();
+                    addAttachmentRpc = null;
+
+                    const onProgress = (ev) => {
+                        if (ev.lengthComputable) {
+                            file.progress = (ev.loaded / ev.total) * 100;
+                        }
+                    };
+                    const onLoad = () => (file.progress = 100);
+
+                    currentXHR.upload.addEventListener("progress", onProgress);
+                    currentXHR.upload.addEventListener("load", onLoad);
+
+                    try {
+                        addAttachmentRpc = rpc(
+>>>>>>> upstream/18.0
                             "/html_editor/attachment/add_data",
                             {
                                 name: file.name,
@@ -128,13 +225,25 @@ export const uploadService = {
                                 width: 0,
                                 quality: 0,
                             },
+<<<<<<< HEAD
                             { xhr }
                         );
+=======
+                            { xhr: currentXHR }
+                        );
+
+                        const attachment = await addAttachmentRpc;
+                        if (signal.aborted) {
+                            break;
+                        }
+
+>>>>>>> upstream/18.0
                         if (attachment.error) {
                             file.hasError = true;
                             file.errorMessage = attachment.error;
                         } else {
                             if (attachment.mimetype === "image/webp") {
+<<<<<<< HEAD
                                 // Generate alternate format for reports.
                                 const image = document.createElement("img");
                                 image.src = `data:image/webp;base64,${dataURL.split(",")[1]}`;
@@ -162,21 +271,61 @@ export const uploadService = {
                                     },
                                     { xhr }
                                 );
+=======
+                                try {
+                                    // Generate alternate format for reports.
+                                    await convertWebpToJpeg(
+                                        dataURL,
+                                        file.name,
+                                        attachment.id
+                                    );
+                                } catch (convErr) {
+                                    console.warn(
+                                        "[uploadService] webp conversion failed:",
+                                        convErr
+                                    );
+                                }
+>>>>>>> upstream/18.0
                             }
                             file.uploaded = true;
                             await onUploaded(attachment);
                         }
+<<<<<<< HEAD
+=======
+                    } catch (err) {
+                        if (signal.aborted) {
+                            break;
+                        }
+                        file.hasError = true;
+                        console.error("Upload error:", err);
+                        throw err;
+                    } finally {
+                        currentXHR.upload.removeEventListener(
+                            "progress",
+                            onProgress
+                        );
+                        currentXHR.upload.removeEventListener("load", onLoad);
+>>>>>>> upstream/18.0
                         // If there's an error, display the error message for longer
                         const message_autoclose_delay = file.hasError
                             ? AUTOCLOSE_DELAY_LONG
                             : AUTOCLOSE_DELAY;
                         setTimeout(() => deleteFile(file.id), message_autoclose_delay);
+<<<<<<< HEAD
                     } catch (error) {
                         file.hasError = true;
                         setTimeout(() => deleteFile(file.id), AUTOCLOSE_DELAY_LONG);
                         throw error;
                     }
                 }
+=======
+                        dataURL = null;
+                    }
+                }
+
+                currentXHR = null;
+                addAttachmentRpc = null;
+>>>>>>> upstream/18.0
             },
         };
     },

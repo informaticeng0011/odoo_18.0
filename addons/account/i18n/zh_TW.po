@@ -165,6 +165,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* account
 # 
 # Translators:
@@ -968,6 +969,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * account
 #
 # Translators:
@@ -976,6 +979,7 @@
 # Pak Wai Ho, 2025
 # Wil Odoo, 2025
 # Tony Ng, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1607,10 +1611,15 @@
 # "Tony Ng (ngto)" <ngto@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# "Tony Ng (ngto)" <ngto@odoo.com>, 2025, 2026.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3057,6 +3066,11 @@ msgstr ""
 "PO-Revision-Date: 2026-02-07 10:42+0000\n"
 "Last-Translator: \"Tony Ng (ngto)\" <ngto@odoo.com>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2026-02-20 18:37+0000\n"
+"PO-Revision-Date: 2026-02-07 10:42+0000\n"
+"Last-Translator: \"Tony Ng (ngto)\" <ngto@odoo.com>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Chinese (Traditional Han script) <https://translate.odoo.com/"
 "projects/odoo-18/account/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -3064,6 +3078,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3797,11 +3812,17 @@ msgstr ""
 
 #. module: account
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.14.3\n"
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:account.field_account_journal__type
 msgid ""
 "\n"
 "        Select 'Sale' for customer invoices journals.\n"
 "        Select 'Purchase' for vendor bills journals.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4628,6 +4649,10 @@ msgid ""
 "        Select 'Cash', 'Bank' or 'Credit Card' for journals that are used in "
 "customer or vendor payments.\n"
 >>>>>>> upstream/18.0
+=======
+"        Select 'Cash', 'Bank' or 'Credit Card' for journals that are used in "
+"customer or vendor payments.\n"
+>>>>>>> upstream/18.0
 "        Select 'General' for miscellaneous operations journals.\n"
 "        "
 msgstr ""
@@ -4667,7 +4692,10 @@ msgstr ""
 #. odoo-python
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: code:addons/account/models/account_move_send.py:0
@@ -4679,6 +4707,9 @@ msgstr ""
 #. module: account
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4711,6 +4742,7 @@ msgstr "已對賬結單記項數目"
 #: model:ir.model.fields,field_description:account.field_res_partner__supplier_invoice_count
 #: model:ir.model.fields,field_description:account.field_res_users__supplier_invoice_count
 msgid "# Vendor Bills"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5708,6 +5740,9 @@ msgstr "# 供應商賬單"
 =======
 msgstr "# 供應商賬單"
 >>>>>>> upstream/18.0
+=======
+msgstr "# 供應商賬單"
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -5743,6 +5778,7 @@ msgstr "%(amount)s 到期 %(date)s"
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6241,6 +6277,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "%(attachment_name)s (detached by %(user)s on %(date)s)%"
 "(attachment_extension)s"
 msgstr ""
@@ -6410,6 +6448,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6916,7 +6957,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "To be consistent, the journal entry must always have exactly one suspense line."
+=======
+"To be consistent, the journal entry must always have exactly one suspense "
+"line."
+>>>>>>> upstream/18.0
 =======
 "To be consistent, the journal entry must always have exactly one suspense "
 "line."
@@ -7756,12 +7802,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "%(order)s - %(order_line)s; %(quantity_billed)s Billed, "
 "%(quantity_received)s Received at %(unit_price)s each"
 msgstr ""
 "%(order)s - %(order_line)s；%(quantity_billed)s 已計入賬單，%(quantity_received)s "
 "已收到，每件單價為 %(unit_price)s"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8259,6 +8308,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8758,12 +8810,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "%(order)s - %(order_line)s; %(quantity_invoiced)s Invoiced, "
 "%(quantity_delivered)s Delivered at %(unit_price)s each"
 msgstr ""
 "%(order)s - %(order_line)s；%(quantity_invoiced)s "
 "已開立發票，%(quantity_delivered)s 已送貨，每件單價為 %(unit_price)s"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9261,6 +9316,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9611,6 +9669,7 @@ msgstr "%(tag)s (%(country_code)s)"
 
 #. module: account
 #. odoo-python
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10635,6 +10694,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/account/models/account_move.py:0
 msgid "%(tax_name)s (rounding)"
 msgstr "%(tax_name)s（捨入）"
@@ -10891,7 +10952,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "－ 加入「連稅總額」新欄位，以利用正確的帳戶及稅款自動產生記項，加快並加強管控帳單編碼過程。"
+=======
+msgstr ""
+"－ 加入「連稅總額」新欄位，以利用正確的帳戶及稅款自動產生記項，加快並加強管控"
+"帳單編碼過程。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "－ 加入「連稅總額」新欄位，以利用正確的帳戶及稅款自動產生記項，加快並加強管控"
@@ -11925,11 +11992,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
 msgid ". Please make sure that this is a wanted behavior."
 msgstr "。請確保這是你想要的操作。"
 
 #. module: account
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12706,6 +12776,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -12777,6 +12848,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13280,6 +13353,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13784,7 +13860,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t> (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>),\n"
+=======
+"            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t> "
+"(<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>),\n"
+>>>>>>> upstream/18.0
 =======
 "            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t> "
 "(<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>),\n"
@@ -14617,7 +14698,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            credit note <span style=\"font-weight:bold;\" t-out=\"object.name or ''\">RINV/2021/05/0001</span>\n"
+=======
+"            credit note <span style=\"font-weight:bold;\" t-"
+"out=\"object.name or ''\">RINV/2021/05/0001</span>\n"
+>>>>>>> upstream/18.0
 =======
 "            credit note <span style=\"font-weight:bold;\" t-"
 "out=\"object.name or ''\">RINV/2021/05/0001</span>\n"
@@ -15448,6 +15534,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            (with reference: <t t-out=\"object.invoice_origin or ''\">SUB003</t>)\n"
 "        </t>\n"
 "        amounting in <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount_total, object.currency_id) or ''\">$ 143,750.00</span>\n"
@@ -15458,6 +15545,8 @@ msgid ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.invoice_user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15964,6 +16053,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16467,11 +16559,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>（<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>）你好！\n"
 "        </t>\n"
 "        <t t-else=\"\">\n"
 "            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t> 你好！\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16971,6 +17066,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17469,7 +17567,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            退款單 <span style=\"font-weight:bold;\" t-out=\"object.name or ''\">RINV/2021/05/0001</span>\n"
+=======
+"            退款單 <span style=\"font-weight:bold;\" t-out=\"object.name or "
+"''\">RINV/2021/05/0001</span>\n"
+>>>>>>> upstream/18.0
 =======
 "            退款單 <span style=\"font-weight:bold;\" t-out=\"object.name or "
 "''\">RINV/2021/05/0001</span>\n"
@@ -18300,6 +18403,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            （參考編號： <t t-out=\"object.invoice_origin or ''\">SUB003</t>）\n"
 "        </t>\n"
 "        ，款項總額為 <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount_total, object.currency_id) or ''\">$ 143,750.00</span>。\n"
@@ -18310,6 +18414,8 @@ msgstr ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.invoice_user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18817,6 +18923,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19323,7 +19432,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t> (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>),\n"
+=======
+"            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t> "
+"(<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>),\n"
+>>>>>>> upstream/18.0
 =======
 "            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t> "
 "(<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>),\n"
@@ -20156,7 +20270,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            invoice <span style=\"font-weight:bold;\" t-out=\"object.name or ''\">INV/2021/05/0005</span>\n"
+=======
+"            invoice <span style=\"font-weight:bold;\" t-out=\"object.name or "
+"''\">INV/2021/05/0005</span>\n"
+>>>>>>> upstream/18.0
 =======
 "            invoice <span style=\"font-weight:bold;\" t-out=\"object.name or "
 "''\">INV/2021/05/0005</span>\n"
@@ -20987,10 +21106,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            (with reference: <t t-out=\"object.invoice_origin or ''\">SUB003</t>)\n"
 "        </t>\n"
 "        amounting in <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount_total, object.currency_id) or ''\">$ 143,750.00</span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21489,6 +21611,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21991,10 +22116,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                Please use the following communication for your payment: <strong t-out=\"object.payment_reference or ''\">INV/2021/05/0005</strong>\n"
 "                <t t-if=\"object.partner_bank_id\">\n"
 "                    on the account <strong t-out=\"object.partner_bank_id.acc_number\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22492,6 +22620,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22990,6 +23121,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-if=\"hasattr(object, 'timesheet_count') and object.timesheet_count\">\n"
 "            <br/><br/>\n"
 "            PS: you can review your timesheets <a t-att-href=\"'/my/timesheets?search_in=invoice&amp;search=%s' % object.name\">from the portal.</a>\n"
@@ -23000,6 +23132,8 @@ msgid ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.invoice_user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23506,6 +23640,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24008,7 +24145,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>（<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>）\n"
+=======
+"            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>"
+"（<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>）\n"
+>>>>>>> upstream/18.0
 =======
 "            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>"
 "（<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>）\n"
@@ -24842,7 +24984,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            發票 <span style=\"font-weight:bold;\" t-out=\"object.name or ''\">INV/2021/05/0005</span>\n"
+=======
+"            發票 <span style=\"font-weight:bold;\" t-out=\"object.name or "
+"''\">INV/2021/05/0005</span>\n"
+>>>>>>> upstream/18.0
 =======
 "            發票 <span style=\"font-weight:bold;\" t-out=\"object.name or "
 "''\">INV/2021/05/0005</span>\n"
@@ -25673,10 +25820,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            （參考編號： <t t-out=\"object.invoice_origin or ''\">SUB003</t>）\n"
 "        </t>\n"
 "        ，款項總額為 <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount_total, object.currency_id) or ''\">$ 143,750.00</span>，\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26175,6 +26325,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26678,6 +26831,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    以帳戶 <strong t-out=\"object.partner_bank_id.acc_number\"/>\n"
 "                </t>\n"
 "                付款時，請註明以下資料： <strong t-out=\"object.payment_reference or ''\">INV/2021/05/0005</strong>\n"
@@ -26694,6 +26848,8 @@ msgstr ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.invoice_user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -27207,6 +27363,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27711,11 +27870,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Dear <t t-out=\"object.partner_id.name or ''\">Azure Interior</t><br/><br/>\n"
 "        Thank you for your payment.\n"
 "        Here is your payment receipt <span style=\"font-weight:bold;\" t-out=\"(object.name or '').replace('/','-') or ''\">BNK1-2021-05-0002</span> amounting\n"
 "        to <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount, object.currency_id) or ''\">$ 10.00</span> from <t t-out=\"object.company_id.name or ''\">YourCompany</t>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -28217,6 +28379,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -28715,10 +28880,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-if=\"not is_html_empty(user.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -29216,6 +29384,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -29716,11 +29887,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-out=\"object.partner_id.name or ''\">Azure Interior</t> 你好！<br/><br/>\n"
 "        多謝你的付款。\n"
 "        附上你的付款收據 <span style=\"font-weight:bold;\" t-out=\"(object.name or '').replace('/','-') or ''\">BNK1-2021-05-0002</span>，款項總額為\n"
 "        <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount, object.currency_id) or ''\">$ 10.00</span>，付款由 <t t-out=\"object.company_id.name or ''\">YourCompany</t> 作出。\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -30223,6 +30397,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -30721,10 +30898,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-if=\"not is_html_empty(user.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -31222,6 +31402,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -31727,6 +31910,7 @@ msgstr "<b>發票草稿</b>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-clock-o fw-bold\" aria-label=\"Date\" role=\"img\" title=\"Date\"/>"
 msgstr "<i class=\"fa fa-clock-o fw-bold\" aria-label=\"日期\" role=\"img\" title=\"日期\"/>"
 
@@ -31740,6 +31924,8 @@ msgstr "<i class=\"fa fa-clock-o fw-bold\" role=\"img\" aria-label=\"日期\" ti
 msgid "<i class=\"fa fa-clock-o\" aria-label=\"Date\" role=\"img\" title=\"Date\"/>"
 msgstr "<i class=\"fa fa-clock-o\" aria-label=\"日期\" role=\"img\" title=\"日期\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -32254,6 +32440,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -32757,12 +32946,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-fw fa-check\" aria-label=\"Paid\" title=\"Paid\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> Paid</span>"
 msgstr ""
 "<i class=\"fa fa-fw fa-check\" aria-label=\"已付\" title=\"已付\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> 已付</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -33264,6 +33456,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -33762,12 +33957,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-fw fa-check\" aria-label=\"Reversed\" title=\"Reversed\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> Reversed</span>"
 msgstr ""
 "<i class=\"fa fa-fw fa-check\" aria-label=\"已撤銷\" title=\"已撤銷\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> 已撤銷</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -34269,6 +34467,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -34767,12 +34968,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-fw fa-check\" aria-label=\"processing_payment\" title=\"Processing Payment\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> Processing Payment</span>"
 msgstr ""
 "<i class=\"fa fa-fw fa-check\" aria-label=\"付款處理中\" title=\"付款處理中\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> 付款處理中</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -35274,6 +35478,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -35772,12 +35979,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-fw fa-clock-o\" aria-label=\"Opened\" title=\"Opened\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> Waiting for Payment</span>"
 msgstr ""
 "<i class=\"fa fa-fw fa-clock-o\" aria-label=\"未付清\" title=\"未付清\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> 等候付款</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -36279,6 +36489,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -36778,12 +36991,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        Don't worry, you can always change this setting later on the vendor's form.\n"
 "                        You also have the option to disable the feature for all vendors in the accounting settings."
 msgstr ""
 "<i class=\"fa fa-lightbulb-o\" role=\"img\"/>\n"
 "                        不用擔心，你稍後可隨時在企業應付帳單上，更改此設定。\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -37284,6 +37500,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -37639,6 +37858,7 @@ msgstr "<i class=\"oi oi-fw o_button_icon oi-arrow-right\"/> 配置別名域"
 #: model_terms:ir.ui.view,arch_db:account.portal_my_details_fields
 msgid ""
 "<small class=\"form-text text-muted\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -38187,6 +38407,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        You can choose how you want us to send your "
 "invoices, and with which electronic format.\n"
 "                    </small>"
@@ -38331,6 +38553,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -38782,6 +39007,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <i class=\"fa fa-fw fa-remove\" aria-label=\"Cancelled\" title=\"Cancelled\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> Cancelled</span>\n"
 "                                </span>"
@@ -38790,6 +39016,8 @@ msgstr ""
 "                                    <i class=\"fa fa-fw fa-remove\" aria-label=\"已取消\" title=\"已取消\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> 已取消</span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -39293,6 +39521,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -39793,6 +40024,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <span invisible=\"allow_out_payment\" class=\"text-muted\">Untrusted</span>\n"
 "                            <span invisible=\"not allow_out_payment\" class=\"text-success\">Trusted</span>\n"
 "                        </span>"
@@ -39801,6 +40033,8 @@ msgstr ""
 "                            <span invisible=\"allow_out_payment\" class=\"text-muted\">不信任</span>\n"
 "                            <span invisible=\"not allow_out_payment\" class=\"text-success\">受信任</span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -40304,6 +40538,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -40640,6 +40877,7 @@ msgstr ""
 msgid ""
 "<span class=\"figure-caption\">Never miss a deadline, with automated "
 "statements and alerts.</span>"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -41631,10 +41869,16 @@ msgstr ""
 "<span class=\"figure-caption\">利用自動報表及警報，永遠不會錯過最後期限。</"
 "span>"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"<span class=\"figure-caption\">利用自動報表及警報，永遠不會錯過最後期限。</"
+"span>"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -42151,6 +42395,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<span class=\"o_form_label mx-3 oe_edit_only text-center\" style=\"width: "
 "6ch;\" invisible=\"state != 'draft' or invoice_payment_term_id\">or</span>"
 msgstr ""
@@ -42320,6 +42566,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -42836,12 +43085,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"o_form_label\" invisible=\"match_amount != "
 "'between'\">and</span>"
 msgstr ""
 "<span class=\"o_form_label\" invisible=\"match_amount != 'between'\"> 與 "
 "</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -43339,6 +43591,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -43931,12 +44186,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"text-nowrap\">$ <span "
 "class=\"oe_currency_value\">11,750.00</span></span>"
 msgstr ""
 "<span class=\"text-nowrap\">$ <span "
 "class=\"oe_currency_value\">11,750.00</span></span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -44434,6 +44692,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -44767,6 +45028,7 @@ msgstr ""
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.bill_preview
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -45266,6 +45528,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<span class=\"text-nowrap\">$ <span class=\"oe_currency_value\">19,250.00</"
 "span></span>"
 msgstr ""
@@ -45435,6 +45699,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -45933,12 +46200,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"text-nowrap\">$ <span "
 "class=\"oe_currency_value\">7,500.00</span></span>"
 msgstr ""
 "<span class=\"text-nowrap\">$ <span "
 "class=\"oe_currency_value\">7,500.00</span></span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -46436,6 +46706,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -46950,7 +47223,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span invisible=\"name or name_placeholder or quick_edit_mode\">草稿</span>"
+=======
+msgstr ""
+"<span invisible=\"name or name_placeholder or quick_edit_mode\">草稿</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "<span invisible=\"name or name_placeholder or quick_edit_mode\">草稿</span>"
@@ -47796,11 +48074,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                        <span invisible=\"reconciled_invoices_type == 'invoice'\"> Credit Note</span>"
 msgstr ""
 "<span invisible=\"reconciled_invoices_type != 'invoice'\"> 發票</span>\n"
 "                                        <span invisible=\"reconciled_invoices_type == 'invoice'\"> 退款單</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -48299,6 +48580,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -48835,11 +49119,14 @@ msgstr "<span> (借)</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "<span> = </span>"
 msgstr "<span> = </span>"
 
 #. module: account
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -49370,11 +49657,16 @@ msgstr "<span>$ <span class=\"oe_currency_value\">19,250.00</span></span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<span>1 </span>"
 msgstr "<span>1 </span>"
 =======
 msgid "<span>1</span>"
 msgstr ""
+>>>>>>> upstream/18.0
+=======
+msgid "<span>1</span>"
+msgstr "<span>1</span>"
 >>>>>>> upstream/18.0
 =======
 msgid "<span>1</span>"
@@ -50214,6 +50506,7 @@ msgstr "<span><b>做得好！</b>你已完成本次導覽的所有步驟。</spa
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "<span>=</span>"
@@ -50550,11 +50843,14 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "<span>=</span>"
 msgstr "<span>=</span>"
 
 #. module: account
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -51450,6 +51746,11 @@ msgstr "<span>該貨幣金額</span>"
 msgid "<span>Amount In Currency</span>"
 msgstr "<span>該貨幣金額</span>"
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:account.report_payment_receipt_document
+msgid "<span>Amount In Currency</span>"
+msgstr "<span>該貨幣金額</span>"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.bill_preview
@@ -51472,6 +51773,7 @@ msgstr "<span>描述</span>"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<span>Disc.%</span>"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -52397,6 +52699,9 @@ msgstr "<span>折扣 %</span>"
 =======
 msgstr "<span>折扣 %</span>"
 >>>>>>> upstream/18.0
+=======
+msgstr "<span>折扣 %</span>"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_payment_form
@@ -52419,6 +52724,7 @@ msgid "<span>New</span>"
 msgstr "<span>新建</span>"
 
 #. module: account
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -52995,6 +53301,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
 msgid ""
 "<span>One or more Bank Accounts set on this partner are also used by others:"
@@ -53166,6 +53474,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -53705,7 +54016,10 @@ msgstr "<span>稅</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -54242,6 +54556,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -54766,7 +55083,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span>此記項是在安裝會計程式前，以發票程式產生的。其結餘已另行獨立匯入。</span>"
+=======
+msgstr ""
+"<span>此記項是在安裝會計程式前，以發票程式產生的。其結餘已另行獨立匯入。</"
+"span>"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "<span>此記項是在安裝會計程式前，以發票程式產生的。其結餘已另行獨立匯入。</"
@@ -55836,6 +56159,7 @@ msgstr "<span>警告：此文件可能與以下項目重複：</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -55854,6 +56178,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -56489,6 +56815,9 @@ msgstr "<strong class=\"d-block mt-3\">送貨地址</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -57189,11 +57518,14 @@ msgstr "<strong>參考</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<strong>Shipping Address</strong>"
 msgstr "<strong>送貨地址</strong>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -57803,9 +58135,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<strong>This currency has already been used to generate accounting entries.</strong> <br/>\n"
 "                        Changing its rounding factor now will not change the rounding made on previous entries; possibly causing an inconsistency with the new ones."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -58303,6 +58638,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -58880,7 +59218,10 @@ msgstr "<strong>類型：</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -59578,6 +59919,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -60213,10 +60557,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                journals. This feature provides an easy way to follow up cash\n"
 "                payments on a daily basis."
 msgstr "收銀機能簡化管理現金賬流水記項的工作。此功能方便用戶每天點算和跟進現金付款。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -60714,6 +61061,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -61063,6 +61413,7 @@ msgid "A bank account can belong to only one journal."
 msgstr "同一個銀行賬戶，只能連結至單一流水賬戶。"
 
 #. module: account
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -62084,6 +62435,8 @@ msgstr "銀行結單總結一個銀行賬戶在某段期間內發生的所有財
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account/models/res_partner_bank.py:0
 msgid ""
@@ -62267,6 +62620,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -62766,7 +63122,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                occurring over a given period of time on a credit account. You\n"
+=======
+"                occurring over a given period of time on a credit account. "
+"You\n"
+>>>>>>> upstream/18.0
 =======
 "                occurring over a given period of time on a credit account. "
 "You\n"
@@ -63654,8 +64015,12 @@ msgstr "付款容忍度百分比須介乎 0 至 100"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "A payment tolerance defined as an amount should always be higher than 0"
+=======
+msgid "A payment tolerance defined as an amount should always be higher than 0"
+>>>>>>> upstream/18.0
 =======
 msgid "A payment tolerance defined as an amount should always be higher than 0"
 >>>>>>> upstream/18.0
@@ -64341,7 +64706,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "若價格本身連稅，建議你對每個資料行都進行四捨五入。這樣，所有資料行的金額加起來，便會等於價格總和再四捨五入的數值。"
+=======
+msgstr ""
+"若價格本身連稅，建議你對每個資料行都進行四捨五入。這樣，所有資料行的金額加起"
+"來，便會等於價格總和再四捨五入的數值。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "若價格本身連稅，建議你對每個資料行都進行四捨五入。這樣，所有資料行的金額加起"
@@ -65445,8 +65816,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Account %s cannot be unmerged as it already belongs to a single company. The"
 " unmerge operation only splits an account based on its companies."
+=======
+"Account %s cannot be unmerged as it already belongs to a single company. The "
+"unmerge operation only splits an account based on its companies."
+>>>>>>> upstream/18.0
 =======
 "Account %s cannot be unmerged as it already belongs to a single company. The "
 "unmerge operation only splits an account based on its companies."
@@ -66214,7 +66590,10 @@ msgstr "賬目總表範本"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -66436,6 +66815,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -66953,10 +67335,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "legal reports, and set the rules to close a fiscal year and generate opening"
 " entries."
 msgstr "項目類型用於資訊目的，用於生成合乎各國財稅規範的報告，以及設定會計年度關閉的規則，並生成期初分錄."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -67454,6 +67839,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -67963,8 +68351,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Account codes must be unique. You can't create accounts with these duplicate"
 " codes: %s"
+=======
+"Account codes must be unique. You can't create accounts with these duplicate "
+"codes: %s"
+>>>>>>> upstream/18.0
 =======
 "Account codes must be unique. You can't create accounts with these duplicate "
 "codes: %s"
@@ -68795,8 +69188,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Account for the difference amount after the expense discount has been "
 "granted"
+=======
+"Account for the difference amount after the expense discount has been granted"
+>>>>>>> upstream/18.0
 =======
 "Account for the difference amount after the expense discount has been granted"
 >>>>>>> upstream/18.0
@@ -69524,7 +69921,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "此賬戶會是現金流水賬記項所產生的資料行用以誌賬的賬戶，並用作追蹤計稅基準金額。"
+=======
+msgstr ""
+"此賬戶會是現金流水賬記項所產生的資料行用以誌賬的賬戶，並用作追蹤計稅基準金"
+"額。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "此賬戶會是現金流水賬記項所產生的資料行用以誌賬的賬戶，並用作追蹤計稅基準金"
@@ -70543,7 +70946,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "用作過賬現金稅項金額的賬戶。若原本發票未完成對賬，金額將包含稅項。在對賬時，金額會在此賬戶註銷，轉往正常的稅項賬戶誌賬。"
+=======
+msgstr ""
+"用作過賬現金稅項金額的賬戶。若原本發票未完成對賬，金額將包含稅項。在對賬時，"
+"金額會在此賬戶註銷，轉往正常的稅項賬戶誌賬。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "用作過賬現金稅項金額的賬戶。若原本發票未完成對賬，金額將包含稅項。在對賬時，"
@@ -71543,8 +71952,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Account: Post draft entries with auto_post enabled and accounting date up to"
 " today"
+=======
+"Account: Post draft entries with auto_post enabled and accounting date up to "
+"today"
+>>>>>>> upstream/18.0
 =======
 "Account: Post draft entries with auto_post enabled and accounting date up to "
 "today"
@@ -72330,6 +72744,7 @@ msgstr "應計項目過賬"
 #. odoo-python
 #: code:addons/account/wizard/accrued_orders.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -73325,6 +73740,11 @@ msgstr ""
 "reverse entry: %(reverse_entry)s."
 msgstr ""
 >>>>>>> upstream/18.0
+=======
+"Accrual entry created on %(date)s: %(accrual_entry)s.                And its "
+"reverse entry: %(reverse_entry)s."
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -73581,7 +74001,11 @@ msgid "Activate Audit Trail"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "啟動審計軌跡"
+=======
+msgstr "啟動審計追蹤"
+>>>>>>> upstream/18.0
 =======
 msgstr "啟動審計追蹤"
 >>>>>>> upstream/18.0
@@ -74461,8 +74885,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Add a QR-code to your invoices so that your customers can pay instantly with"
 " their mobile banking application."
+=======
+"Add a QR-code to your invoices so that your customers can pay instantly with "
+"their mobile banking application."
+>>>>>>> upstream/18.0
 =======
 "Add a QR-code to your invoices so that your customers can pay instantly with "
 "their mobile banking application."
@@ -75342,7 +75771,11 @@ msgid "Add a rounding line"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "增加捨入明細"
+=======
+msgstr "新增捨入資料行"
+>>>>>>> upstream/18.0
 =======
 msgstr "新增捨入資料行"
 >>>>>>> upstream/18.0
@@ -76042,8 +76475,12 @@ msgstr "加入要通知的聯絡人⋯"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Add your terms & conditions at the bottom of invoices/orders/quotations"
+=======
+msgid "Add your terms & conditions at the bottom of invoices/orders/quotations"
+>>>>>>> upstream/18.0
 =======
 msgid "Add your terms & conditions at the bottom of invoices/orders/quotations"
 >>>>>>> upstream/18.0
@@ -76567,6 +77004,7 @@ msgstr "調整記項"
 #. odoo-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "Adjusting Entry {link} {percent}%% of {amount} recognized from {date}"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -77492,10 +77930,14 @@ msgstr "調整記項 {link} 款項 {amount} 的 {percent}%% ，由 {date} 開始
 =======
 msgstr "調整記項 {link} 款項 {amount} 的 {percent}%% ，由 {date} 開始認列"
 >>>>>>> upstream/18.0
+=======
+msgstr "調整記項 {link} 款項 {amount} 的 {percent}%% ，由 {date} 開始認列"
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78588,6 +79030,10 @@ msgstr "調整記項 {link} 款項 {amount} 的 {percent}%% ，於 {new_date} �
 msgid "Adjusting Entry {link} {percent}%% of {amount} recognized on {new_date}"
 msgstr "調整記項 {link} 款項 {amount} 的 {percent}%% ，於 {new_date} 認列"
 >>>>>>> upstream/18.0
+=======
+msgid "Adjusting Entry {link} {percent}%% of {amount} recognized on {new_date}"
+msgstr "調整記項 {link} 款項 {amount} 的 {percent}%% ，於 {new_date} 認列"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:res.groups,name:account.group_account_manager
@@ -78787,7 +79233,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "若為供應商匯入三張賬單而未作更改，Odoo 將建議自動驗證未來的賬單。你可隨時在供應商資料頁面，切換此功能。"
+=======
+msgstr ""
+"若為供應商匯入三張賬單而未作更改，Odoo 將建議自動驗證未來的賬單。你可隨時在供"
+"應商資料頁面，切換此功能。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "若為供應商匯入三張賬單而未作更改，Odoo 將建議自動驗證未來的賬單。你可隨時在供"
@@ -79991,7 +80443,11 @@ msgid "Amount in Currency"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "外幣金額"
+=======
+msgstr "該貨幣金額"
+>>>>>>> upstream/18.0
 =======
 msgstr "該貨幣金額"
 >>>>>>> upstream/18.0
@@ -80612,10 +81068,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                Companies present their annual accounts in two main parts: the\n"
 "                balance sheet and the income statement (profit and loss\n"
 "                account). The annual accounts of a company are required by law\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -81113,6 +81572,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -81454,6 +81916,7 @@ msgstr ""
 #. module: account
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -82492,6 +82955,11 @@ msgid ""
 "An error occurred when computing the inalterability. A gap has been detected "
 "in the sequence."
 >>>>>>> upstream/18.0
+=======
+msgid ""
+"An error occurred when computing the inalterability. A gap has been detected "
+"in the sequence."
+>>>>>>> upstream/18.0
 msgstr "計算不變性時發生錯誤。序列中偵測到間隙。"
 
 #. module: account
@@ -82574,7 +83042,11 @@ msgid "Analytic Lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "分析項目"
+=======
+msgstr "分析資料行"
+>>>>>>> upstream/18.0
 =======
 msgstr "分析資料行"
 >>>>>>> upstream/18.0
@@ -82669,7 +83141,11 @@ msgid "Analytic lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "分析明細"
+=======
+msgstr "分析資料行"
+>>>>>>> upstream/18.0
 =======
 msgstr "分析資料行"
 >>>>>>> upstream/18.0
@@ -82900,7 +83376,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "在該日期及之前（包括該日期）的任何條目，都將根據其日記賬順序，推遲至較後的時間。此鎖定日期不可逆轉，亦不允許任何例外。"
+=======
+msgstr ""
+"在該日期及之前（包括該日期）的任何條目，都將根據其日記賬順序，推遲至較後的時"
+"間。此鎖定日期不可逆轉，亦不允許任何例外。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "在該日期及之前（包括該日期）的任何條目，都將根據其日記賬順序，推遲至較後的時"
@@ -83897,7 +84379,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "在該日期及之前（包括該日期）的任何條目，都將根據其日記賬順序，推遲至較後的時間。"
+=======
+msgstr ""
+"在該日期及之前（包括該日期）的任何條目，都將根據其日記賬順序，推遲至較後的時"
+"間。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "在該日期及之前（包括該日期）的任何條目，都將根據其日記賬順序，推遲至較後的時"
@@ -84895,7 +85383,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "在該日期及之前（包括該日期）的任何連稅條目，都將根據其日記賬順序，推遲至較後的時間。稅務鎖定日期會在稅務結算記項過賬時自動設定。"
+=======
+msgstr ""
+"在該日期及之前（包括該日期）的任何連稅條目，都將根據其日記賬順序，推遲至較後"
+"的時間。稅務鎖定日期會在稅務結算記項過賬時自動設定。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "在該日期及之前（包括該日期）的任何連稅條目，都將根據其日記賬順序，推遲至較後"
@@ -85898,8 +86392,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Any journal item on a receivable account must have a due date and vice "
 "versa."
+=======
+"Any journal item on a receivable account must have a due date and vice versa."
+>>>>>>> upstream/18.0
 =======
 "Any journal item on a receivable account must have a due date and vice versa."
 >>>>>>> upstream/18.0
@@ -86567,7 +87065,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "在此日期及之前（包括此日期）的任何採購條目，都將根據其日記賬順序，推遲至較後的日期。"
+=======
+msgstr ""
+"在此日期及之前（包括此日期）的任何採購條目，都將根據其日記賬順序，推遲至較後"
+"的日期。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "在此日期及之前（包括此日期）的任何採購條目，都將根據其日記賬順序，推遲至較後"
@@ -87564,7 +88068,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "在此日期及之前（包括此日期）的任何銷售條目，都將根據其日記賬順序，推遲至較後的日期。"
+=======
+msgstr ""
+"在此日期及之前（包括此日期）的任何銷售條目，都將根據其日記賬順序，推遲至較後"
+"的日期。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "在此日期及之前（包括此日期）的任何銷售條目，都將根據其日記賬順序，推遲至較後"
@@ -88612,7 +89122,10 @@ msgstr "附件"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -88852,6 +89365,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -89226,7 +89742,11 @@ msgid "Audit Trail"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "審計軌跡"
+=======
+msgstr "審計追蹤"
+>>>>>>> upstream/18.0
 =======
 msgstr "審計追蹤"
 >>>>>>> upstream/18.0
@@ -90052,7 +90572,11 @@ msgid "Audit Trail Messages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "審計軌跡訊息"
+=======
+msgstr "審計追蹤訊息"
+>>>>>>> upstream/18.0
 =======
 msgstr "審計追蹤訊息"
 >>>>>>> upstream/18.0
@@ -90910,6 +91434,7 @@ msgstr "銀行帳戶"
 #. module: account
 #. odoo-python
 #: code:addons/account/models/res_partner_bank.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -92067,6 +92592,10 @@ msgstr "銀行賬戶 %(link)s（號碼 %(number)s）已封存"
 msgid "Bank Account %(link)s with number %(number)s archived"
 msgstr "銀行賬戶 %(link)s（號碼 %(number)s）已封存"
 >>>>>>> upstream/18.0
+=======
+msgid "Bank Account %(link)s with number %(number)s archived"
+msgstr "銀行賬戶 %(link)s（號碼 %(number)s）已封存"
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -92264,7 +92793,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "已支付的應收憑單將記錄銀行帳號. 如果這是客戶應收憑單或採購折讓單，則是公司銀行帳戶，否則是合作夥伴銀行帳號."
+=======
+msgstr ""
+"已支付的應收憑單將記錄銀行帳號. 如果這是客戶應收憑單或採購折讓單，則是公司銀"
+"行帳戶，否則是合作夥伴銀行帳號."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "已支付的應收憑單將記錄銀行帳號. 如果這是客戶應收憑單或採購折讓單，則是公司銀"
@@ -93351,7 +93886,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Bank Transactions are posted immediately after import or synchronization. Their counterparty is the bank suspense account.\n"
+=======
+"Bank Transactions are posted immediately after import or synchronization. "
+"Their counterparty is the bank suspense account.\n"
+>>>>>>> upstream/18.0
 =======
 "Bank Transactions are posted immediately after import or synchronization. "
 "Their counterparty is the bank suspense account.\n"
@@ -94273,7 +94813,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Based on Payment: the tax is due as soon as the payment of the invoice is received."
+=======
+"Based on Payment: the tax is due as soon as the payment of the invoice is "
+"received."
+>>>>>>> upstream/18.0
 =======
 "Based on Payment: the tax is due as soon as the payment of the invoice is "
 "received."
@@ -95086,7 +95631,10 @@ msgstr "批量付款"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -95463,6 +96011,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -96026,7 +96577,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "預設情況下，我們總是展開可能的明細. 如果勾選，預設不展開明細，並顯示一個折疊按鈕."
+=======
+msgstr ""
+"預設情況下，我們總是展開可能的明細. 如果勾選，預設不展開明細，並顯示一個折疊"
+"按鈕."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "預設情況下，我們總是展開可能的明細. 如果勾選，預設不展開明細，並顯示一個折疊"
@@ -97127,7 +97684,11 @@ msgid "Can't disable audit trail when there are existing records."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "若有現存記錄，便無法停用審計軌跡。"
+=======
+msgstr "若有現存記錄，便無法停用審計追蹤。"
+>>>>>>> upstream/18.0
 =======
 msgstr "若有現存記錄，便無法停用審計追蹤。"
 >>>>>>> upstream/18.0
@@ -98069,6 +98630,7 @@ msgstr "無法從不使用“整合”引擎的明細獲取整合詳細訊息"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -98203,6 +98765,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -98821,6 +99385,9 @@ msgstr "未能在產生的 PDF 中辨認發票：%s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -99582,7 +100149,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "某些國家根據其國內立法對應收憑單金額實行就源扣繳. 任何就源扣繳稅將由客戶支付給稅金機關. 在任何情況下都不能"
+=======
+msgstr ""
+"某些國家根據其國內立法對應收憑單金額實行就源扣繳. 任何就源扣繳稅將由客戶支付"
+"給稅金機關. 在任何情況下都不能"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "某些國家根據其國內立法對應收憑單金額實行就源扣繳. 任何就源扣繳稅將由客戶支付"
@@ -100607,6 +101180,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "一旦您的科目開具應收憑單，不可更改營業稅號碼. 如需要此操作，請直接與我們聯繫."
 =======
 msgstr ""
@@ -101268,11 +101842,16 @@ msgstr ""
 msgstr ""
 "一旦您的科目開具應收憑單，不可更改營業稅號碼. 如需要此操作，請直接與我們聯繫."
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"一旦您的科目開具應收憑單，不可更改營業稅號碼. 如需要此操作，請直接與我們聯繫."
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
 #: code:addons/account/controllers/portal.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -101770,6 +102349,8 @@ msgstr "在您的科目已有開出應收憑單的清況下， 不允許更改�
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Changing your company name is not allowed once invoices have been issued for "
 "your account. Please contact us directly for this operation."
 msgstr ""
@@ -101939,6 +102520,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -102440,7 +103024,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "一旦您的帳戶開具了應收憑單，就無法更改名字. 如需執行此操作，請直接與我們聯繫."
+=======
+msgstr ""
+"一旦您的帳戶開具了應收憑單，就無法更改名字. 如需執行此操作，請直接與我們聯繫."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "一旦您的帳戶開具了應收憑單，就無法更改名字. 如需執行此操作，請直接與我們聯繫."
@@ -103324,7 +103913,11 @@ msgid "Chart of Accounts Matches"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "會計科目表匹配"
+=======
+msgstr "會計賬目總表相符"
+>>>>>>> upstream/18.0
 =======
 msgstr "會計賬目總表相符"
 >>>>>>> upstream/18.0
@@ -103936,6 +104529,11 @@ msgstr "賬目總表已設置！"
 #. module: account
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/account/models/account_move_send.py:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-python
 #: code:addons/account/models/account_move_send.py:0
@@ -104136,8 +104734,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Check this box if you don't want to share the same sequence for invoices and"
 " credit notes made from this journal"
+=======
+"Check this box if you don't want to share the same sequence for invoices and "
+"credit notes made from this journal"
+>>>>>>> upstream/18.0
 =======
 "Check this box if you don't want to share the same sequence for invoices and "
 "credit notes made from this journal"
@@ -105016,6 +105619,10 @@ msgstr "關閉"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:account.field_account_payment_register__payment_method_code
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:account.field_account_payment_register__payment_method_code
 >>>>>>> upstream/18.0
@@ -105460,6 +106067,7 @@ msgstr "欄位"
 msgid ""
 "Comma-separated list of fields from account.move.line (Journal Item). When "
 "set, this line will generate sublines grouped by those keys."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -106561,6 +107169,11 @@ msgstr ""
 "以逗號分隔的 account.move.line（日記賬項目）欄位清單。設定後，此資料行會產生"
 "一系列子資料行，並按照該些索引鍵將子資料行分組。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"以逗號分隔的 account.move.line（日記賬項目）欄位清單。設定後，此資料行會產生"
+"一系列子資料行，並按照該些索引鍵將子資料行分組。"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line__commercial_partner_id
@@ -106570,6 +107183,7 @@ msgid "Commercial Entity"
 msgstr "商業實體"
 
 #. module: account
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -107360,6 +107974,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account.field_account_move_line__commercial_partner_country
 msgid "Commercial Partner Country"
 msgstr "商業夥伴國家/地區"
@@ -107607,6 +108223,9 @@ msgstr "商業夥伴國家/地區"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -108419,7 +109038,11 @@ msgid "Company has a chart of accounts"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "公司有科目表"
+=======
+msgstr "公司有賬目總表"
+>>>>>>> upstream/18.0
 =======
 msgstr "公司有賬目總表"
 >>>>>>> upstream/18.0
@@ -109474,6 +110097,11 @@ msgstr "建立自動分錄"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/account/models/chart_template.py:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-python
 #: code:addons/account/models/chart_template.py:0
@@ -110563,7 +111191,11 @@ msgid "Create a new customer in your address book"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "在您的地址簿中建立一個聯繫人"
+=======
+msgstr "在你的通訊錄中建立新客戶"
+>>>>>>> upstream/18.0
 =======
 msgstr "在你的通訊錄中建立新客戶"
 >>>>>>> upstream/18.0
@@ -111525,9 +112157,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Create as many ledger groups as needed to maintain separate ledgers for local GAAP, IFRS, or fiscal\n"
 "                    adjustments, ensuring compliance with diverse regulations."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -112024,6 +112659,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -113126,7 +113764,11 @@ msgid "Dashboard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "儀表板"
+=======
+msgstr "Dashboard"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dashboard"
 >>>>>>> upstream/18.0
@@ -113939,7 +114581,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "編碼重新排序的日期(含). 如果未設定，則將重新排序期末之前的所有日記帳分錄."
+=======
+msgstr ""
+"編碼重新排序的日期(含). 如果未設定，則將重新排序期末之前的所有日記帳分錄."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "編碼重新排序的日期(含). 如果未設定，則將重新排序期末之前的所有日記帳分錄."
@@ -114786,7 +115433,11 @@ msgid "Date:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "日期:"
+=======
+msgstr "日期："
+>>>>>>> upstream/18.0
 =======
 msgstr "日期："
 >>>>>>> upstream/18.0
@@ -115628,7 +116279,10 @@ msgstr "銷售該產品時，使用的預設稅項"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -116016,6 +116670,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -116457,7 +117114,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "定義哪些公司可在報表篩選器中，選擇多個分類賬。若不設定任何公司，則適用於所有公司"
+=======
+msgstr ""
+"定義哪些公司可在報表篩選器中，選擇多個分類賬。若不設定任何公司，則適用於所有"
+"公司"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "定義哪些公司可在報表篩選器中，選擇多個分類賬。若不設定任何公司，則適用於所有"
@@ -117468,8 +118131,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Defines the smallest coinage of the currency that can be used to pay by "
 "cash."
+=======
+"Defines the smallest coinage of the currency that can be used to pay by cash."
+>>>>>>> upstream/18.0
 =======
 "Defines the smallest coinage of the currency that can be used to pay by cash."
 >>>>>>> upstream/18.0
@@ -118209,8 +118876,12 @@ msgstr "說明"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Description on invoice (e.g. Payment terms: 30 days after invoice date)"
+=======
+msgid "Description on invoice (e.g. Payment terms: 30 days after invoice date)"
+>>>>>>> upstream/18.0
 =======
 msgid "Description on invoice (e.g. Payment terms: 30 days after invoice date)"
 >>>>>>> upstream/18.0
@@ -118896,7 +119567,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "決定可選取稅項的位置。注意：“無”表示稅項不能單獨使用，但它仍可在稅組中使用。“調整”是用作執行稅項調整。"
+=======
+msgstr ""
+"決定可選取稅項的位置。注意：“無”表示稅項不能單獨使用，但它仍可在稅組中使用。"
+"“調整”是用作執行稅項調整。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "決定可選取稅項的位置。注意：“無”表示稅項不能單獨使用，但它仍可在稅組中使用。"
@@ -119983,7 +120660,11 @@ msgid "Discount amount in Currency"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "折扣金額於幣別"
+=======
+msgstr "該貨幣折扣金額"
+>>>>>>> upstream/18.0
 =======
 msgstr "該貨幣折扣金額"
 >>>>>>> upstream/18.0
@@ -120491,7 +121172,10 @@ msgstr "顯示金額"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -120731,6 +121415,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -121439,7 +122126,10 @@ msgstr "到期期限"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -121979,6 +122669,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -122582,7 +123275,11 @@ msgid "EU Intra-community Distance Selling"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "歐盟內部遠端銷售"
+=======
+msgstr "歐盟共同體內部跨境銷售"
+>>>>>>> upstream/18.0
 =======
 msgstr "歐盟共同體內部跨境銷售"
 >>>>>>> upstream/18.0
@@ -123630,7 +124327,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "載入本地化資料時出錯：缺漏稅項標籤「%(tag_name)s」，相關國家/地區：%(country_name)s。請先嘗試更新本地化應用程式。"
+=======
+"載入本地化資料時出錯：缺漏稅項標籤「%(tag_name)s」，相關國家/地區：%"
+"(country_name)s。請先嘗試更新本地化應用程式。"
+>>>>>>> upstream/18.0
 =======
 "載入本地化資料時出錯：缺漏稅項標籤「%(tag_name)s」，相關國家/地區：%"
 "(country_name)s。請先嘗試更新本地化應用程式。"
@@ -124532,6 +125234,7 @@ msgstr "已排除的日記帳"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:account.field_res_company__expects_chart_of_accounts
 msgid "Expects a Chart of Accounts"
 <<<<<<< HEAD
@@ -124668,6 +125371,8 @@ msgstr "預期有會計賬目總表"
 msgstr "預期有會計賬目總表"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -125172,6 +125877,9 @@ msgstr "預期有會計賬目總表"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -125711,7 +126419,11 @@ msgid "Expense"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "費用"
+=======
+msgstr "開支"
+>>>>>>> upstream/18.0
 =======
 msgstr "開支"
 >>>>>>> upstream/18.0
@@ -126527,7 +127239,11 @@ msgid "Expenses"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "費用"
+=======
+msgstr "開支"
+>>>>>>> upstream/18.0
 =======
 msgstr "開支"
 >>>>>>> upstream/18.0
@@ -127574,7 +128290,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "財務狀況用於調整特定客戶的稅金和科目或銷售訂單/應收憑單. 預設值來自客戶."
+=======
+msgstr ""
+"財務狀況用於調整特定客戶的稅金和科目或銷售訂單/應收憑單. 預設值來自客戶."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "財務狀況用於調整特定客戶的稅金和科目或銷售訂單/應收憑單. 預設值來自客戶."
@@ -128536,7 +129257,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "強制此科目中的所有日記帳項目具有特定貨幣 (即銀行日記帳). 如果未設定幣別, 分錄可以使用任何貨幣."
+=======
+msgstr ""
+"強制此科目中的所有日記帳項目具有特定貨幣 (即銀行日記帳). 如果未設定幣別, 分錄"
+"可以使用任何貨幣."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "強制此科目中的所有日記帳項目具有特定貨幣 (即銀行日記帳). 如果未設定幣別, 分錄"
@@ -129594,8 +130321,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "表單 line_code.expression_label 內的算式。這允許為此表達式設定結轉目標（在帶有結轉標記 _carryover_* "
 "的表達式上），以避免與母行不同。"
+=======
+"表單 line_code.expression_label 內的算式。這允許為此表達式設定結轉目標（在帶"
+"有結轉標記 _carryover_* 的表達式上），以避免與母行不同。"
+>>>>>>> upstream/18.0
 =======
 "表單 line_code.expression_label 內的算式。這允許為此表達式設定結轉目標（在帶"
 "有結轉標記 _carryover_* 的表達式上），以避免與母行不同。"
@@ -130506,7 +131238,11 @@ msgid "From last fiscal year"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "從上一財年起"
+>>>>>>> upstream/18.0
 =======
 msgstr "從上一財年起"
 >>>>>>> upstream/18.0
@@ -131327,7 +132063,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "從這個報表中，您可以得到一個總的供應商的應收憑單總額. 搜尋功能也能用來個性化您的應收憑單報表等，例如根據您的需要匹配分析."
+=======
+msgstr ""
+"從這個報表中，您可以得到一個總的供應商的應收憑單總額. 搜尋功能也能用來個性化"
+"您的應收憑單報表等，例如根據您的需要匹配分析."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "從這個報表中，您可以得到一個總的供應商的應收憑單總額. 搜尋功能也能用來個性化"
@@ -132325,7 +133067,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "從這個報表中，您可以得到一個總的客戶的應收憑單總額. 搜尋功能也能用來個性化您的應收憑單報表等，例如根據您的需要匹配分析."
+=======
+msgstr ""
+"從這個報表中，您可以得到一個總的客戶的應收憑單總額. 搜尋功能也能用來個性化您"
+"的應收憑單報表等，例如根據您的需要匹配分析."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "從這個報表中，您可以得到一個總的客戶的應收憑單總額. 搜尋功能也能用來個性化您"
@@ -133352,7 +134100,10 @@ msgstr "全域鎖定日期"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -133719,6 +134470,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -134203,9 +134957,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Groupby feature isn't supported by aggregation engine. Please remove the "
 "groupby value on '%s'"
 msgstr "整合引擎不支援 分組依據 功能. 請刪除 '%s' 上的 分組依據 值"
+=======
+"Groupby feature isn't supported by '%(engine)s' engine. Please remove the "
+"groupby value on '%(report_line)s'"
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 "Groupby feature isn't supported by '%(engine)s' engine. Please remove the "
 "groupby value on '%(report_line)s'"
@@ -135300,7 +136060,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    Your email has been discarded. the e-mail address you have used only accepts new invoices:"
+=======
+"    Your email has been discarded. the e-mail address you have used only "
+"accepts new invoices:"
+>>>>>>> upstream/18.0
 =======
 "    Your email has been discarded. the e-mail address you have used only "
 "accepts new invoices:"
@@ -136163,7 +136928,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "最大日期，該日期之前（包括當天）的所有已過賬日記賬分錄，均受保護。只會考慮硬性鎖定日期之後的日記賬記項。"
+=======
+msgstr ""
+"最大日期，該日期之前（包括當天）的所有已過賬日記賬分錄，均受保護。只會考慮硬"
+"性鎖定日期之後的日記賬記項。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "最大日期，該日期之前（包括當天）的所有已過賬日記賬分錄，均受保護。只會考慮硬"
@@ -137172,6 +137943,7 @@ msgstr "在訂單和應收憑單中如何計算總稅額"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document_preview
 msgid "IBAN: BE76 4294 6878 9995"
 msgstr "IBAN 號碼：BE76 4294 6878 9995"
@@ -137506,6 +138278,8 @@ msgstr "IBAN 號碼：BE76 4294 6878 9995"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "ICE:"
 msgstr "ICE:"
@@ -137589,6 +138363,9 @@ msgstr "ICE:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -138067,7 +138844,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "如果為空，折扣將直接在收入/支出賬戶中折現。如果設置，發票折扣將在獨立賬戶中實現。"
+=======
+msgstr ""
+"如果為空，折扣將直接在收入/支出賬戶中折現。如果設置，發票折扣將在獨立賬戶中實"
+"現。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "如果為空，折扣將直接在收入/支出賬戶中折現。如果設置，發票折扣將在獨立賬戶中實"
@@ -139074,8 +139857,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If set, taxes with a lower sequence might affect this one, provided they try"
 " to do it."
+=======
+"If set, taxes with a lower sequence might affect this one, provided they try "
+"to do it."
+>>>>>>> upstream/18.0
 =======
 "If set, taxes with a lower sequence might affect this one, provided they try "
 "to do it."
@@ -139908,7 +140696,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "若設定，此稅項計算得出的金額，會分配至發票資料行（如有）所使用的相同分析賬戶"
+=======
+msgstr ""
+"若設定，此稅項計算得出的金額，會分配至發票資料行（如有）所使用的相同分析賬戶"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "若設定，此稅項計算得出的金額，會分配至發票資料行（如有）所使用的相同分析賬戶"
@@ -140743,9 +141536,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If set, this account will belong to Non Trade Receivable/Payable in reports and filters.\n"
 "If not, this account will belong to Trade Receivable/Payable in reports and filters."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -141242,6 +142038,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -141746,7 +142545,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "如果設定，此值將在文件上用作顯示前排除此稅組的小計的標籤. 如果未設定，稅組將顯示在'未稅金額'小計之後."
+=======
+msgstr ""
+"如果設定，此值將在文件上用作顯示前排除此稅組的小計的標籤. 如果未設定，稅組將"
+"顯示在'未稅金額'小計之後."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "如果設定，此值將在文件上用作顯示前排除此稅組的小計的標籤. 如果未設定，稅組將"
@@ -142750,10 +143555,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "the related information at the time of the creation of the move and that the"
 " move needs to be checked again."
 msgstr "此方格若未有勾選，表示使用者在建立分錄時，未能確定所有相關資訊，因此分錄需要再次檢查。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -143251,6 +144059,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -143754,7 +144565,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "如果勾選，記項過賬時，由該記項至上次最後一個雜湊記項的序列中，所有分錄會作追溯雜湊處理。你也可按需要，使用安全記項精靈執行雜湊處理。"
+=======
+msgstr ""
+"如果勾選，記項過賬時，由該記項至上次最後一個雜湊記項的序列中，所有分錄會作追"
+"溯雜湊處理。你也可按需要，使用安全記項精靈執行雜湊處理。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "如果勾選，記項過賬時，由該記項至上次最後一個雜湊記項的序列中，所有分錄會作追"
@@ -144771,7 +145588,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "如果您向歐盟國家/地區的客戶銷售商品和服務，則必須根據收貨地址收取增值稅. 無論您身在何處，此規則都適用."
+=======
+msgstr ""
+"如果您向歐盟國家/地區的客戶銷售商品和服務，則必須根據收貨地址收取增值稅. 無論"
+"您身在何處，此規則都適用."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "如果您向歐盟國家/地區的客戶銷售商品和服務，則必須根據收貨地址收取增值稅. 無論"
@@ -145956,8 +146779,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Incorrect fiscal year date: day is out of range for month. Month: %(month)s;"
 " Day: %(day)s"
+=======
+"Incorrect fiscal year date: day is out of range for month. Month: %(month)s; "
+"Day: %(day)s"
+>>>>>>> upstream/18.0
 =======
 "Incorrect fiscal year date: day is out of range for month. Month: %(month)s; "
 "Day: %(day)s"
@@ -146816,10 +147644,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "costs and responsibilities between buyer and seller and reflect state-of-"
 "the-art transportation practices."
 msgstr "貿易術語是一系列的銷售術語，用來劃分交易成本和買賣雙方的責任，並反映運輸方法的發展."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -147317,6 +148148,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -147914,7 +148748,11 @@ msgid "Insert your terms & conditions here..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "在這裡插入您的條款和條件..."
+=======
+msgstr "在此處插入你的條款及條件⋯"
+>>>>>>> upstream/18.0
 =======
 msgstr "在此處插入你的條款及條件⋯"
 >>>>>>> upstream/18.0
@@ -148889,8 +149727,12 @@ msgstr "用於縮短整合引擎的 expression_ids 建立的內部欄位"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Internal field to shorten expression_ids creation for the domain engine"
+=======
+msgid "Internal field to shorten expression_ids creation for the domain engine"
+>>>>>>> upstream/18.0
 =======
 msgid "Internal field to shorten expression_ids creation for the domain engine"
 >>>>>>> upstream/18.0
@@ -149595,10 +150437,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Invalid \"Zip Range\", You have to configure both \"From\" and \"To\" values"
 " for the zip range and \"To\" should be greater than \"From\"."
 msgstr "「郵遞區號範圍」無效，你必須為郵遞區號範圍設定「由」及「至」數值，而且「至」數值應大於「由」。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -150096,6 +150941,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -150648,6 +151496,9 @@ msgstr "應收憑單未付款信用借記小工具"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -150785,6 +151636,9 @@ msgstr "發票 PDF"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -151159,8 +152013,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Invoice and credit note repartition should have at least one tax repartition"
 " line."
+=======
+"Invoice and credit note repartition should have at least one tax repartition "
+"line."
+>>>>>>> upstream/18.0
 =======
 "Invoice and credit note repartition should have at least one tax repartition "
 "line."
@@ -152187,7 +153046,11 @@ msgid "Invoicing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "會計"
+=======
+msgstr "發票"
+>>>>>>> upstream/18.0
 =======
 msgstr "發票"
 >>>>>>> upstream/18.0
@@ -152970,7 +153833,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "由於有草稿、已取消或已刪除的賬單，而賬單包括上次鎖定日期之後的序列號碼，導致出現不一致。"
+=======
+msgstr ""
+"由於有草稿、已取消或已刪除的賬單，而賬單包括上次鎖定日期之後的序列號碼，導致"
+"出現不一致。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "由於有草稿、已取消或已刪除的賬單，而賬單包括上次鎖定日期之後的序列號碼，導致"
@@ -153968,7 +154837,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "由於有草稿、已取消或已刪除的發票，而發票包括上次鎖定日期之後的序列號碼，導致出現不一致。"
+=======
+msgstr ""
+"由於有草稿、已取消或已刪除的發票，而發票包括上次鎖定日期之後的序列號碼，導致"
+"出現不一致。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "由於有草稿、已取消或已刪除的發票，而發票包括上次鎖定日期之後的序列號碼，導致"
@@ -155168,7 +156043,11 @@ msgid "Items With Missing Analytic Distribution"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "缺漏分析分佈的項目"
+>>>>>>> upstream/18.0
 =======
 msgstr "缺漏分析分佈的項目"
 >>>>>>> upstream/18.0
@@ -156154,8 +157033,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Journal items where the account allows reconciliation no matter the residual"
 " amount"
+=======
+"Journal items where the account allows reconciliation no matter the residual "
+"amount"
+>>>>>>> upstream/18.0
 =======
 "Journal items where the account allows reconciliation no matter the residual "
 "amount"
@@ -156997,8 +157881,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Journal where the opening entry of this company's accounting has been "
 "posted."
+=======
+"Journal where the opening entry of this company's accounting has been posted."
+>>>>>>> upstream/18.0
 =======
 "Journal where the opening entry of this company's accounting has been posted."
 >>>>>>> upstream/18.0
@@ -157513,6 +158401,10 @@ msgstr "日記帳:"
 #: model:ir.ui.menu,name:account.menu_action_account_journal_form
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:account.view_account_move_line_filter
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:account.view_account_move_line_filter
 >>>>>>> upstream/18.0
@@ -157544,6 +158436,7 @@ msgid "June"
 msgstr "六月"
 
 #. module: account
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -158244,6 +159137,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:account.model_kpi_provider
 msgid "KPI Provider"
 msgstr "指標提供者"
@@ -158341,6 +159236,9 @@ msgstr "指標提供者"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -158561,6 +159459,7 @@ msgstr "保持這個欄位為空，使用來自產品類別的預設值."
 #: model:ir.model.fields,help:account.field_product_product__property_account_expense_id
 #: model:ir.model.fields,help:account.field_product_template__property_account_expense_id
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -159059,6 +159958,8 @@ msgstr "保持此欄位為空，以使用產品類別的預設值. 如果設定�
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Keep this field empty to use the default value from the product category. If "
 "anglo-saxon accounting with automated valuation method is configured, the "
 "expense account on the product category will be used."
@@ -159229,6 +160130,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -159897,8 +160801,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last date at which the discounted amount must be paid in order for the Early"
 " Payment Discount to be granted"
+=======
+"Last date at which the discounted amount must be paid in order for the Early "
+"Payment Discount to be granted"
+>>>>>>> upstream/18.0
 =======
 "Last date at which the discounted amount must be paid in order for the Early "
 "Payment Discount to be granted"
@@ -160845,7 +161754,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "資料行「%(line)s」將另一行「%(parent_line)s」設為其母項，但它在報表上出現的位置較前。母項必須先行。"
+=======
+msgstr ""
+"資料行「%(line)s」將另一行「%(parent_line)s」設為其母項，但它在報表上出現的位"
+"置較前。母項必須先行。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "資料行「%(line)s」將另一行「%(parent_line)s」設為其母項，但它在報表上出現的位"
@@ -161851,7 +162766,11 @@ msgid "Lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "明細列表"
+=======
+msgstr "資料行"
+>>>>>>> upstream/18.0
 =======
 msgstr "資料行"
 >>>>>>> upstream/18.0
@@ -162590,7 +163509,11 @@ msgid "Loss Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "損失項目"
+=======
+msgstr "虧損賬戶"
+>>>>>>> upstream/18.0
 =======
 msgstr "虧損賬戶"
 >>>>>>> upstream/18.0
@@ -163175,6 +164098,7 @@ msgstr "建立應計分錄"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_account_audit_trail_report
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -164163,6 +165087,10 @@ msgstr "請確保首先在會計設定中，啟動審計追蹤"
 msgid "Make sure you first activate the audit trail in the accounting settings"
 msgstr "請確保首先在會計設定中，啟動審計追蹤"
 >>>>>>> upstream/18.0
+=======
+msgid "Make sure you first activate the audit trail in the accounting settings"
+msgstr "請確保首先在會計設定中，啟動審計追蹤"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.ui.menu,name:account.account_management_menu
@@ -164351,6 +165279,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Payment Providers: Each payment provider has its own Payment Method. Request a transaction on/to a card thanks to a payment token saved by the partner when buying or subscribing online.\n"
 "Batch Deposit: Collect several customer checks at once generating and submitting a batch deposit to your bank. Module account_batch_payment is necessary.\n"
 "SEPA Direct Debit: Get paid in the SEPA zone thanks to a mandate your partner will have granted to you. Module account_sepa is necessary.\n"
@@ -164360,6 +165289,8 @@ msgstr ""
 "批量存款: 一次收集多張客戶支票，產生批量存款並將其提交給您的銀行. 模組 account_batch_payment 是必需的.\n"
 "SEPA 直接借記: 由於您的合作夥伴授予您的授權，在 SEPA 區獲得付款. 模組 account_sepa 是必需的.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -164868,6 +165799,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -165368,12 +166302,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "SEPA Credit Transfer: Pay in the SEPA zone by submitting a SEPA Credit Transfer file to your bank. Module account_sepa is necessary.\n"
 msgstr ""
 "手動: 通過 Odoo 之外的任何方式支付.\n"
 "支票: 通過支票支付帳單並從 Odoo 列印.\n"
 "SEPA Credit Transfer:通過向您的銀行提交 SEPA Credit Transfer 文件在 SEPA 區域付款. 模組 account_sepa 是必要的.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -165873,6 +166810,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -166373,6 +167313,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Payment Providers: Each payment provider has its own Payment Method. Request a transaction on/to a card thanks to a payment token saved by the partner when buying or subscribing online.\n"
 "Check: Pay bills by check and print it from Odoo.\n"
 "Batch Deposit: Collect several customer checks at once generating and submitting a batch deposit to your bank. Module account_batch_payment is necessary.\n"
@@ -166386,6 +167327,8 @@ msgstr ""
 "SEPA Credit Transfer: 通過向您的銀行提交 SEPA Credit Transfer 文件在 SEPA 區進行支付. 模組 account_sepa 是必需的.\n"
 "SEPA 直接借記: 由於您的合作夥伴授予您的授權，在 SEPA 區獲得付款。 模組 account_sepa 是必需的.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -166900,6 +167843,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -167518,10 +168464,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Matching number for this line, 'P' if it is only partially reconcile, or the"
 " name of the full reconcile if it exists."
 msgstr "此明細的匹配編號，如果只是部分核銷則為\"P\"，如果存在則為完整核銷的名稱."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -168018,6 +168967,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -168664,7 +169616,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "缺漏銀行結單文件？可使用文件管理應用程式索取該文件，並讓擁有人將其上載至正確位置。"
+=======
+msgstr ""
+"缺漏銀行結單文件？可使用文件管理應用程式索取該文件，並讓擁有人將其上載至正確"
+"位置。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "缺漏銀行結單文件？可使用文件管理應用程式索取該文件，並讓擁有人將其上載至正確"
@@ -169688,7 +170646,11 @@ msgid "Modify tax amount"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "修改稅金金額"
+=======
+msgstr "修改稅項金額"
+>>>>>>> upstream/18.0
 =======
 msgstr "修改稅項金額"
 >>>>>>> upstream/18.0
@@ -170426,7 +171388,11 @@ msgid "Monetary"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "貨幣的"
+=======
+msgstr "貨幣金額"
+>>>>>>> upstream/18.0
 =======
 msgstr "貨幣金額"
 >>>>>>> upstream/18.0
@@ -171542,7 +172508,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "在公司 %(company_name)s 中找不到任何這些類型的日記帳: %(journal_types)s"
+=======
+msgstr ""
+"在公司 %(company_name)s 中找不到任何這些類型的日記帳: %(journal_types)s"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "在公司 %(company_name)s 中找不到任何這些類型的日記帳: %(journal_types)s"
@@ -172697,7 +173668,11 @@ msgid "Odoo helps you easily track all activities related to a customer."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Odoo 求助您輕鬆跟進與客戶相關的所有活動."
+=======
+msgstr "Odoo 協助你輕鬆追蹤與客戶相關的所有活動。"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odoo 協助你輕鬆追蹤與客戶相關的所有活動。"
 >>>>>>> upstream/18.0
@@ -173521,7 +174496,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "安裝後，請在銀行賬戶設定中，將「銀行資料流」設為「檔案匯入」。系統會加入一個從會計 Dashboard 匯入的按鈕。"
+=======
+msgstr ""
+"安裝後，請在銀行賬戶設定中，將「銀行資料流」設為「檔案匯入」。系統會加入一個"
+"從會計 Dashboard 匯入的按鈕。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "安裝後，請在銀行賬戶設定中，將「銀行資料流」設為「檔案匯入」。系統會加入一個"
@@ -174533,11 +175514,14 @@ msgstr "發票就緒時，請確認它。"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
 msgid "One or more Bank Accounts set on this partner are also used by other"
 msgstr "此合作夥伴設定的一個或多個銀行賬戶也被其他人使用"
 
 #. module: account
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -175308,7 +176292,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "帳款應在 21 個工作日內支付，除非應收憑單或訂單上註明了另一個付款時間範圍,"
+=======
+msgstr ""
+"帳款應在 21 個工作日內支付，除非應收憑單或訂單上註明了另一個付款時間範圍,"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "帳款應在 21 個工作日內支付，除非應收憑單或訂單上註明了另一個付款時間範圍,"
@@ -176146,6 +177135,7 @@ msgstr "PAY001"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: model:ir.actions.report,name:account.account_invoices
 >>>>>>> upstream/18.0
@@ -176229,6 +177219,8 @@ msgstr "PAY001"
 >>>>>>> upstream/18.0
 =======
 #: model:ir.actions.report,name:account.account_invoices
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -176725,7 +177717,10 @@ msgstr "合作夥伴應該有電郵地址。"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -177275,7 +178270,10 @@ msgstr "雜湊記項使用的合作夥伴，不可合併。"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -177813,6 +178811,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -178652,7 +179653,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "支付用於登記流動性. 您可以通過自己的方式或使用安裝的設備來處理這些付款."
+=======
+msgstr ""
+"支付用於登記流動性. 您可以通過自己的方式或使用安裝的設備來處理這些付款."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "支付用於登記流動性. 您可以通過自己的方式或使用安裝的設備來處理這些付款."
@@ -179449,7 +180455,10 @@ msgstr "若合作夥伴未有指定銀行賬戶，相關付款將被跳過。"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -179837,6 +180846,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -180323,7 +181335,10 @@ msgstr "網絡釣魚風險：中"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -180825,6 +181840,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -181355,8 +182373,12 @@ msgstr "請設定一個嚴格的正捨入值."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Please set at least one of the match texts to create a partner mapping."
+=======
+msgid "Please set at least one of the match texts to create a partner mapping."
+>>>>>>> upstream/18.0
 =======
 msgid "Please set at least one of the match texts to create a partner mapping."
 >>>>>>> upstream/18.0
@@ -182099,7 +183121,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "向此供應商採購時的首選付款方式。為此供應商建立的所有對外付款，預設會使用此方式。"
+=======
+msgstr ""
+"向此供應商採購時的首選付款方式。為此供應商建立的所有對外付款，預設會使用此方"
+"式。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "向此供應商採購時的首選付款方式。為此供應商建立的所有對外付款，預設會使用此方"
@@ -183097,7 +184125,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "向此客戶銷售時的首選付款方式。為此客戶建立的所有收款，預設會使用此方式。"
+=======
+msgstr ""
+"向此客戶銷售時的首選付款方式。為此客戶建立的所有收款，預設會使用此方式。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "向此客戶銷售時的首選付款方式。為此客戶建立的所有收款，預設會使用此方式。"
@@ -184130,7 +185163,11 @@ msgid "Profit Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "利潤科目"
+=======
+msgstr "利潤賬戶"
+>>>>>>> upstream/18.0
 =======
 msgstr "利潤賬戶"
 >>>>>>> upstream/18.0
@@ -185100,7 +186137,11 @@ msgid "Recognition Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "確認日期"
+=======
+msgstr "認列日期"
+>>>>>>> upstream/18.0
 =======
 msgstr "認列日期"
 >>>>>>> upstream/18.0
@@ -185956,7 +186997,10 @@ msgstr "已對賬發票類型"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -186344,6 +187388,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -186665,6 +187712,7 @@ msgstr "編號"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_payment__payment_reference
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -187166,6 +188214,8 @@ msgstr "有問題的付款的相關單據. 比如校驗碼、檔名等."
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Reference of the document used to issue this payment. Eg. check number, file "
 "name, etc."
 msgstr "有問題的付款的相關單據. 比如校驗碼、檔名等."
@@ -187335,6 +188385,9 @@ msgstr "有問題的付款的相關單據. 比如校驗碼、檔名等."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -187834,6 +188887,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -188406,8 +189462,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Reload accounting data (taxes, accounts, ...) if you notice inconsistencies."
 " This action is irreversible."
+=======
+"Reload accounting data (taxes, accounts, ...) if you notice inconsistencies. "
+"This action is irreversible."
+>>>>>>> upstream/18.0
 =======
 "Reload accounting data (taxes, accounts, ...) if you notice inconsistencies. "
 "This action is irreversible."
@@ -189314,7 +190375,11 @@ msgid "Residual Amount in Currency"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "殘值金額幣別"
+=======
+msgstr "該貨幣剩餘金額"
+>>>>>>> upstream/18.0
 =======
 msgstr "該貨幣剩餘金額"
 >>>>>>> upstream/18.0
@@ -190017,7 +191082,10 @@ msgstr "已撤銷"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -190517,6 +191585,9 @@ msgstr "撤銷時間"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -191138,7 +192209,11 @@ msgid "Sanitized Account Number"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "核對銀行帳號"
+=======
+msgstr "已清理格式賬戶號碼"
+>>>>>>> upstream/18.0
 =======
 msgstr "已清理格式賬戶號碼"
 >>>>>>> upstream/18.0
@@ -191456,7 +192531,11 @@ msgid "Save this page and come back here to set up the feature."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "儲存這個頁面並返回來設定這個特性。"
+=======
+msgstr "請儲存變更，然後返回此處，進一步設定功能。"
+>>>>>>> upstream/18.0
 =======
 msgstr "請儲存變更，然後返回此處，進一步設定功能。"
 >>>>>>> upstream/18.0
@@ -192163,7 +193242,11 @@ msgstr "使用您的銀行App掃描."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document_preview
+=======
+#: model_terms:ir.ui.view,arch_db:account.report_invoice_qr_code_preview
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_qr_code_preview
 >>>>>>> upstream/18.0
@@ -192893,8 +193976,12 @@ msgstr "搜尋產品"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Search in the Statement's Label to find the Invoice/Payment's reference"
+=======
+msgid "Search in the Statement's Label to find the Invoice/Payment's reference"
+>>>>>>> upstream/18.0
 =======
 msgid "Search in the Statement's Label to find the Invoice/Payment's reference"
 >>>>>>> upstream/18.0
@@ -193476,6 +194563,7 @@ msgstr "檢視所有活動"
 #. odoo-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "See items"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -194321,6 +195409,9 @@ msgstr "查看項目"
 =======
 msgstr "查看項目"
 >>>>>>> upstream/18.0
+=======
+msgstr "查看項目"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_analytic_distribution_model__product_categ_id
@@ -194493,7 +195584,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "選擇將使用預設分析中指定的分析科目的產品類別 (例如，如果我們選擇此產品，則建立新的客戶應收憑單或銷售訂單，它將自動將其作為分析科目)"
+=======
+msgstr ""
+"選擇將使用預設分析中指定的分析科目的產品類別 (例如，如果我們選擇此產品，則建"
+"立新的客戶應收憑單或銷售訂單，它將自動將其作為分析科目)"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "選擇將使用預設分析中指定的分析科目的產品類別 (例如，如果我們選擇此產品，則建"
@@ -195491,7 +196588,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "選擇將使用分析分佈的產品 (例如，如果我們選擇此產品，則建立新的客戶應收憑單或銷售訂單，它將自動將其作為分析科目)"
+=======
+msgstr ""
+"選擇將使用分析分佈的產品 (例如，如果我們選擇此產品，則建立新的客戶應收憑單或"
+"銷售訂單，它將自動將其作為分析科目)"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "選擇將使用分析分佈的產品 (例如，如果我們選擇此產品，則建立新的客戶應收憑單或"
@@ -196509,7 +197612,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "如果稅金應使用現金基礎，選擇此項，這將在對帳期間在給定科目中建立此稅項的單據."
+=======
+msgstr ""
+"如果稅金應使用現金基礎，選擇此項，這將在對帳期間在給定科目中建立此稅項的單據."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "如果稅金應使用現金基礎，選擇此項，這將在對帳期間在給定科目中建立此稅項的單據."
@@ -197348,7 +198456,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "選擇此 \"警告\" 選項，將通知使用者此消息, 選擇 \"受阻消息\" 選項，將在流程受阻時將拋出一個消息. 消息寫入下一個欄位."
+=======
+msgstr ""
+"選擇此 \"警告\" 選項，將通知使用者此消息, 選擇 \"受阻消息\" 選項，將在流程受"
+"阻時將拋出一個消息. 消息寫入下一個欄位."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "選擇此 \"警告\" 選項，將通知使用者此消息, 選擇 \"受阻消息\" 選項，將在流程受"
@@ -198442,7 +199556,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "傳送帶有欺詐性賬戶號碼的虛假發票，是常見的網絡釣魚行為。為保障你自己，請務必驗證新的銀行賬戶號碼，最好是致電供應商，因為網絡釣魚通常在他們電子郵件已外洩時發生。完成驗證後，你便可以啟用匯款功能。"
+=======
+"傳送帶有欺詐性賬戶號碼的虛假發票，是常見的網絡釣魚行為。為保障你自己，請務必"
+"驗證新的銀行賬戶號碼，最好是致電供應商，因為網絡釣魚通常在他們電子郵件已外洩"
+"時發生。完成驗證後，你便可以啟用匯款功能。"
+>>>>>>> upstream/18.0
 =======
 "傳送帶有欺詐性賬戶號碼的虛假發票，是常見的網絡釣魚行為。為保障你自己，請務必"
 "驗證新的銀行賬戶號碼，最好是致電供應商，因為網絡釣魚通常在他們電子郵件已外洩"
@@ -199571,7 +200691,11 @@ msgid "Services"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "服務介紹"
+=======
+msgstr "服務"
+>>>>>>> upstream/18.0
 =======
 msgstr "服務"
 >>>>>>> upstream/18.0
@@ -200408,8 +201532,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Setting this field will turn the line into a link, executing the action when"
 " clicked."
+=======
+"Setting this field will turn the line into a link, executing the action when "
+"clicked."
+>>>>>>> upstream/18.0
 =======
 "Setting this field will turn the line into a link, executing the action when "
 "clicked."
@@ -201263,10 +202392,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Shorter name used for display. The journal entries of this journal will also"
 " be named using this prefix by default."
 msgstr "用於顯示的較短名稱. 預設情況下，此日記帳的日記帳分錄也將使用此前綴命名."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -201763,6 +202895,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -202435,10 +203570,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Specify an arbitrary value that will be accrued on a         default account"
 " for the entire order, regardless of the products on the different lines."
 msgstr "指定一個任意值，該值將在整個訂單的預設項目上累積，而不管不同明細上的產品如何."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -202935,6 +204073,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -203690,8 +204831,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Tags assigned to this line by the tax creating it, if any. It determines its"
 " impact on financial reports."
+=======
+"Tags assigned to this line by the tax creating it, if any. It determines its "
+"impact on financial reports."
+>>>>>>> upstream/18.0
 =======
 "Tags assigned to this line by the tax creating it, if any. It determines its "
 "impact on financial reports."
@@ -204841,7 +205987,11 @@ msgid "Tax on Product"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "產品上的稅"
+=======
+msgstr "產品稅項"
+>>>>>>> upstream/18.0
 =======
 msgstr "產品稅項"
 >>>>>>> upstream/18.0
@@ -205661,10 +206811,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Taxes exigible on payment and on invoice cannot be mixed on the same journal"
 " item if they share some tag."
 msgstr "如果付款和應收憑單上的稅費共享某些標籤，則它們不能在同一日記帳項目中混合使用."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -206161,6 +207314,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -206672,11 +207828,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Technical field containing the countries for which this company is using "
 "tax-related features(hence the ones for which l10n modules need to show tax-"
 "related fields)."
 msgstr "包含該公司使用稅金相關功能的國家/地區的技術欄位(因此 l10n 模組需要顯示稅金相關欄位的國家)."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -207175,6 +208334,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -207712,6 +208874,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Technical field used to enforce complex sequence composition that the system would normally misunderstand.\n"
 "This is a regex that can include all the following capture groups: prefix1, year, prefix2, month, prefix3, seq, suffix.\n"
 "The prefix* groups are the separators between the year, month and the actual increasing sequence number (seq).\n"
@@ -207723,6 +208886,8 @@ msgstr ""
 "\\d{4})(?P<prefix2> \\D*?)(?P<month> \\d{2})(?P<prefix3> \\D+?)(?P<seq> "
 "\\d+)(?P<suffix> \\D*?)$"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -208229,6 +209394,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -208788,12 +209956,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The %(date_field)s (%(date)s) you've entered isn't aligned with the existing sequence number (%(sequence)s). Clear the sequence number to proceed.\n"
 "To maintain date-based sequences, select entries and use the resequence option from the actions menu, available in developer mode."
 msgstr ""
 "輸入的 %(date_field)s（%(date)s）與現有序列號碼（%(sequence)s）不一致。請清除序列號碼以繼續。\n"
 "若要維護基於日期的序列，請選取所需記項，然後使用操作選單中的重新排序選項（該選項在開發人員模式可用）。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -209295,6 +210466,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -209796,7 +210970,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "不應直接選擇 %s 圖表範本。相反，你應該直接選擇與你適用國家/地區相關的圖表範本。"
+=======
+msgstr ""
+"不應直接選擇 %s 圖表範本。相反，你應該直接選擇與你適用國家/地區相關的圖表範"
+"本。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "不應直接選擇 %s 圖表範本。相反，你應該直接選擇與你適用國家/地區相關的圖表範"
@@ -210812,8 +211992,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The Early Payment Discount functionality can only be used with payment terms"
 " using a single 100% line. "
+=======
+"The Early Payment Discount functionality can only be used with payment terms "
+"using a single 100% line. "
+>>>>>>> upstream/18.0
 =======
 "The Early Payment Discount functionality can only be used with payment terms "
 "using a single 100% line. "
@@ -211687,7 +212872,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "付款期限必須至少有一行計算百分比的資料行，而所有百分比的總和必須為 100%。"
+=======
+msgstr ""
+"付款期限必須至少有一行計算百分比的資料行，而所有百分比的總和必須為 100%。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "付款期限必須至少有一行計算百分比的資料行，而所有百分比的總和必須為 100%。"
@@ -212355,6 +213545,7 @@ msgid ""
 "The Tax Identification Number. Values here will be validated based on the "
 "country format. You can use '/' to indicate that the partner is not subject "
 "to tax."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -213346,11 +214537,17 @@ msgstr ""
 "稅務識別號碼。此處的值將根據國家/地區格式進行驗證。可使用「/」表示合作夥伴不"
 "須納稅。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"稅務識別號碼。此處的值將根據國家/地區格式進行驗證。可使用「/」表示合作夥伴不"
+"須納稅。"
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -213848,6 +215045,8 @@ msgstr "你選擇了「%(uom)s」作為產品「%(product)s」的計量單位，
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "The Unit of Measure (UoM) '%(uom)s' you have selected for product '%"
 "(product)s', is incompatible with its category : %(category)s."
 msgstr ""
@@ -214017,6 +215216,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -214530,7 +215732,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "該科目已在'銷售'或'採購'日記帳中使用. 這意味著科目的類型不能是'應收'或'應付'."
+=======
+msgstr ""
+"該科目已在'銷售'或'採購'日記帳中使用. 這意味著科目的類型不能是'應收'或'應付'."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "該科目已在'銷售'或'採購'日記帳中使用. 這意味著科目的類型不能是'應收'或'應付'."
@@ -215363,7 +216570,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "在您的日記帳分錄中選擇的科目強制提供輔助幣別. 您應該刪除科目上的輔助幣別."
+=======
+msgstr ""
+"在您的日記帳分錄中選擇的科目強制提供輔助幣別. 您應該刪除科目上的輔助幣別."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "在您的日記帳分錄中選擇的科目強制提供輔助幣別. 您應該刪除科目上的輔助幣別."
@@ -216207,8 +217419,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The amount expressed in an optional other currency if it is a multi-currency"
 " entry."
+=======
+"The amount expressed in an optional other currency if it is a multi-currency "
+"entry."
+>>>>>>> upstream/18.0
 =======
 "The amount expressed in an optional other currency if it is a multi-currency "
 "entry."
@@ -217039,6 +218256,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The amount expressed in the secondary currency must be positive when account"
 " is debited and negative when account is credited. If the currency is the "
 "same as the one from the company, this amount must strictly be equal to the "
@@ -217046,6 +218264,8 @@ msgid ""
 msgstr ""
 "借記科目時，以次要幣別表示的金額必須為正數，貸記科目時，以次要幣別表示的金額必須為負數. 如果幣別與公司的幣別相同，則此金額必須嚴格等於餘額."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -217545,6 +218765,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -218044,11 +219267,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The amount for %(partner_name)s appears unusual. Based on your historical data, the expected amount is %(mean)s (± %(wiggle)s).\n"
 "Please verify if this amount is accurate."
 msgstr ""
 "%(partner_name)s 的金額似乎不正常。根據你的歷史數據，預計金額是 %(mean)s（± %(wiggle)s）。\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -218547,6 +219773,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -219073,11 +220302,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The billing frequency for %(partner_name)s appears unusual. Based on your historical data, the expected next invoice date is not before %(expected_date)s (every %(mean)s (± %(wiggle)s) days).\n"
 "Please verify if this date is accurate."
 msgstr ""
 "%(partner_name)s 的賬單頻率似乎不正常。根據你的歷史數據，預計下一次發票日期是不早於 %(expected_date)s（即每 %(mean)s ± %(wiggle)s 天）。\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -219577,6 +220809,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -220088,7 +221323,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "客戶明確放棄其自己的標準條款和條件，即使這些是在這些標准銷售條款和條件之後製定的. 為了有效，任何減損必須事先以書面形式明確同意."
+=======
+msgstr ""
+"客戶明確放棄其自己的標準條款和條件，即使這些是在這些標准銷售條款和條件之後製"
+"定的. 為了有效，任何減損必須事先以書面形式明確同意."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "客戶明確放棄其自己的標準條款和條件，即使這些是在這些標准銷售條款和條件之後製"
@@ -221143,7 +222384,10 @@ msgstr "日記帳上參考模型和參考類型的結合沒有實現"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -221758,6 +223002,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: account
@@ -222766,6 +224011,8 @@ msgstr "已為所有相關的會計記項，更新商業合作夥伴。"
 #. module: account
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgstr "已為所有相關的會計記項，更新商業合作夥伴。"
@@ -222780,6 +224027,9 @@ msgstr ""
 
 #. module: account
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -222956,8 +224206,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The country code of the foreign VAT number does not match any country in the"
 " group."
+=======
+"The country code of the foreign VAT number does not match any country in the "
+"group."
+>>>>>>> upstream/18.0
 =======
 "The country code of the foreign VAT number does not match any country in the "
 "group."
@@ -223799,8 +225054,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The country set on the foreign VAT fiscal position must match the one set on"
 " the report."
+=======
+"The country set on the foreign VAT fiscal position must match the one set on "
+"the report."
+>>>>>>> upstream/18.0
 =======
 "The country set on the foreign VAT fiscal position must match the one set on "
 "the report."
@@ -224636,7 +225896,10 @@ msgstr "使用該公司稅務報告的國家/地區"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -225135,6 +226398,9 @@ msgstr "貨幣匯率必須嚴格為正數。"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -225642,6 +226908,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The current total is %(current_total)s but the expected total is "
 "%(expected_total)s. In order to post the invoice/bill, you can adjust its "
 "lines or the expected Total (tax inc.)."
@@ -225649,6 +226916,8 @@ msgstr ""
 "當前總數為 %(current_total)s，但預期總數為 "
 "%(expected_total)s。為了過賬發票/賬單，你可調整其資料行或預期的總計(含稅)."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -226147,6 +227416,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -226648,7 +227920,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "日期設為早於 %(lock_date_info)s。日記賬記項會在過賬後，在 %(invoice_date)s 記入會計賬目。"
+=======
+msgstr ""
+"日期設為早於 %(lock_date_info)s。日記賬記項會在過賬後，在 %(invoice_date)s 記"
+"入會計賬目。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "日期設為早於 %(lock_date_info)s。日記賬記項會在過賬後，在 %(invoice_date)s 記"
@@ -227663,8 +228941,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The date the Sale Lock Date is set to by this exception. If the lock date is"
 " not changed it is set to the maximal date."
+=======
+"The date the Sale Lock Date is set to by this exception. If the lock date is "
+"not changed it is set to the maximal date."
+>>>>>>> upstream/18.0
 =======
 "The date the Sale Lock Date is set to by this exception. If the lock date is "
 "not changed it is set to the maximal date."
@@ -228410,6 +229693,7 @@ msgstr "記項 %(name)s（識別碼 %(id)s）必須為草稿。"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -228524,6 +229808,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:account.field_account_bank_statement_line__secured
 #: model:ir.model.fields,help:account.field_account_move__secured
 msgid "The entry is secured with an inalterable hash."
@@ -228539,7 +229825,10 @@ msgstr "記項會以無法更改的雜湊值進行保護。"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -228572,6 +229861,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -228596,6 +229888,7 @@ msgid ""
 "expense (Cost of Goods Sold account) is recognized at the customer invoice "
 "validation."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -229687,6 +230980,10 @@ msgstr ""
 "開支會在供應商賬單獲驗證時入賬，但在使用永續庫存估值的英式（Anglo-Saxon）會計"
 "中除外。在該情況下，開支（銷貨成本賬戶）會在客戶發票獲驗證時認列。"
 >>>>>>> upstream/18.0
+=======
+"開支會在供應商賬單獲驗證時入賬，但在使用永續庫存估值的英式（Anglo-Saxon）會計"
+"中除外。在該情況下，開支（銷貨成本賬戶）會在客戶發票獲驗證時認列。"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.constraint,message:account.constraint_account_report_expression_line_label_uniq
@@ -229913,7 +231210,10 @@ msgstr "以下賬戶必須分配給至少一間公司："
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -230453,6 +231753,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -230996,8 +232299,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The foreign currency set on the journal '%(journal)s' and the account "
 "'%(account)s' must be the same."
+=======
+"The foreign currency set on the journal '%(journal)s' and the account '%"
+"(account)s' must be the same."
+>>>>>>> upstream/18.0
 =======
 "The foreign currency set on the journal '%(journal)s' and the account '%"
 "(account)s' must be the same."
@@ -231834,7 +233142,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                            data without breaking the hash chain for subsequent parts."
+=======
+"                                            data without breaking the hash "
+"chain for subsequent parts."
+>>>>>>> upstream/18.0
 =======
 "                                            data without breaking the hash "
 "chain for subsequent parts."
@@ -232693,9 +234006,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The journal entry %s reached an invalid state regarding its related statement line.\n"
 "To be consistent, the journal entry must always have exactly one journal item involving the bank/cash account."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -233192,6 +234508,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -233720,8 +235039,12 @@ msgstr "此日記帳項目未連結到正確的財務科目"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "The last day of the month will be used if the chosen day doesn't exist."
+=======
+msgid "The last day of the month will be used if the chosen day doesn't exist."
+>>>>>>> upstream/18.0
 =======
 msgid "The last day of the month will be used if the chosen day doesn't exist."
 >>>>>>> upstream/18.0
@@ -234393,7 +235716,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- To Match the text at the beginning of the line (in label or notes), simply fill in your text.\n"
+=======
+"- To Match the text at the beginning of the line (in label or notes), simply "
+"fill in your text.\n"
+>>>>>>> upstream/18.0
 =======
 "- To Match the text at the beginning of the line (in label or notes), simply "
 "fill in your text.\n"
@@ -235245,9 +236573,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The operation is refused as it would impact an already issued tax statement."
 " Please change the journal entry date or the following lock dates to "
 "proceed: %(lock_date_info)s."
+=======
+"The operation is refused as it would impact an already issued tax statement. "
+"Please change the journal entry date or the following lock dates to proceed: "
+"%(lock_date_info)s."
+>>>>>>> upstream/18.0
 =======
 "The operation is refused as it would impact an already issued tax statement. "
 "Please change the journal entry date or the following lock dates to proceed: "
@@ -236252,7 +237586,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "這明細標識了可選數量，例如可銷售產品的數量這個數量不是必須的但是對很多報表很有用."
+=======
+msgstr ""
+"這明細標識了可選數量，例如可銷售產品的數量這個數量不是必須的但是對很多報表很"
+"有用."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "這明細標識了可選數量，例如可銷售產品的數量這個數量不是必須的但是對很多報表很"
@@ -237247,11 +238587,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The order in which distribution lines are displayed and matched. For refunds"
 " to work properly, invoice distribution lines should be arranged in the same"
 " order as the credit note distribution lines they correspond to."
 msgstr "分配明細的顯示和匹配順序. 為使退款正常工作，發票分配明細的排列順序應與其對應的退款單分配明細的順序相同."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -237750,6 +239093,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -238293,8 +239639,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The reconciliation model will only be applied to the selected "
 "customer/vendor categories."
+=======
+"The reconciliation model will only be applied to the selected customer/"
+"vendor categories."
+>>>>>>> upstream/18.0
 =======
 "The reconciliation model will only be applied to the selected customer/"
 "vendor categories."
@@ -239125,8 +240476,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The reconciliation model will only be applied to the selected "
 "customers/vendors."
+=======
+"The reconciliation model will only be applied to the selected customers/"
+"vendors."
+>>>>>>> upstream/18.0
 =======
 "The reconciliation model will only be applied to the selected customers/"
 "vendors."
@@ -239957,7 +241313,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The reconciliation model will only be applied to the selected transaction type:\n"
+=======
+"The reconciliation model will only be applied to the selected transaction "
+"type:\n"
+>>>>>>> upstream/18.0
 =======
 "The reconciliation model will only be applied to the selected transaction "
 "type:\n"
@@ -240809,7 +242170,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        * Contains: The proposition label must contains this string (case insensitive).\n"
+=======
+"        * Contains: The proposition label must contains this string (case "
+"insensitive).\n"
+>>>>>>> upstream/18.0
 =======
 "        * Contains: The proposition label must contains this string (case "
 "insensitive).\n"
@@ -241647,7 +243013,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        * Contains: The proposition note must contains this string (case insensitive).\n"
+=======
+"        * Contains: The proposition note must contains this string (case "
+"insensitive).\n"
+>>>>>>> upstream/18.0
 =======
 "        * Contains: The proposition note must contains this string (case "
 "insensitive).\n"
@@ -242485,7 +243856,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        * Contains: The proposition transaction type must contains this string (case insensitive).\n"
+=======
+"        * Contains: The proposition transaction type must contains this "
+"string (case insensitive).\n"
+>>>>>>> upstream/18.0
 =======
 "        * Contains: The proposition transaction type must contains this "
 "string (case insensitive).\n"
@@ -243213,7 +244589,10 @@ msgstr "運行餘額（%s）與指定的結束餘額不匹配。"
 #. odoo-python
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: code:addons/account/models/account_move_send.py:0
@@ -243225,6 +244604,9 @@ msgstr ""
 #. module: account
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -243405,7 +244787,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The selected destination account is set to use a specific currency. Every entry transferred to it will be converted into this currency, causing\n"
+=======
+"The selected destination account is set to use a specific currency. Every "
+"entry transferred to it will be converted into this currency, causing\n"
+>>>>>>> upstream/18.0
 =======
 "The selected destination account is set to use a specific currency. Every "
 "entry transferred to it will be converted into this currency, causing\n"
@@ -244240,8 +245627,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The selected payment method is not available for this payment, please select"
 " the payment method again."
+=======
+"The selected payment method is not available for this payment, please select "
+"the payment method again."
+>>>>>>> upstream/18.0
 =======
 "The selected payment method is not available for this payment, please select "
 "the payment method again."
@@ -245073,8 +246465,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The sending of invoices is not set up properly, make sure the report used is"
 " set for invoices."
+=======
+"The sending of invoices is not set up properly, make sure the report used is "
+"set for invoices."
+>>>>>>> upstream/18.0
 =======
 "The sending of invoices is not set up properly, make sure the report used is "
 "set for invoices."
@@ -245919,7 +247316,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The sequence regex should at least contain the seq grouping keys. For instance:\n"
+=======
+"The sequence regex should at least contain the seq grouping keys. For "
+"instance:\n"
+>>>>>>> upstream/18.0
 =======
 "The sequence regex should at least contain the seq grouping keys. For "
 "instance:\n"
@@ -246818,8 +248220,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The sequences of this journal are different for Invoices and Refunds but you"
 " selected some of both types."
+=======
+"The sequences of this journal are different for Invoices and Refunds but you "
+"selected some of both types."
+>>>>>>> upstream/18.0
 =======
 "The sequences of this journal are different for Invoices and Refunds but you "
 "selected some of both types."
@@ -247653,7 +249060,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "此日記帳的序列對於付款和未付款是不同的，但您選擇了這兩種類型中的一部份."
+=======
+msgstr ""
+"此日記帳的序列對於付款和未付款是不同的，但您選擇了這兩種類型中的一部份."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "此日記帳的序列對於付款和未付款是不同的，但您選擇了這兩種類型中的一部份."
@@ -248538,7 +249950,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "若更改捨入因數有危險、可能導致 res.currency 表單檢視畫面出錯，系統會顯示警告訊息。"
+=======
+msgstr ""
+"若更改捨入因數有危險、可能導致 res.currency 表單檢視畫面出錯，系統會顯示警告"
+"訊息。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "若更改捨入因數有危險、可能導致 res.currency 表單檢視畫面出錯，系統會顯示警告"
@@ -249574,10 +250992,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The entries from journal prefixes containing them will not be secured: "
 "%(prefix_info)s"
 msgstr "在所選日期之前，仍有未對賬的銀行結單資料行。以下日記賬字首包含這些資料行的記項，將不受保護：%(prefix_info)s"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -250075,6 +251496,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -250576,7 +252000,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "在你想鎖定的期間內，仍有未對賬的銀行結單資料行。你應該為它們進行對賬，或刪除它們。"
+=======
+msgstr ""
+"在你想鎖定的期間內，仍有未對賬的銀行結單資料行。你應該為它們進行對賬，或刪除"
+"它們。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "在你想鎖定的期間內，仍有未對賬的銀行結單資料行。你應該為它們進行對賬，或刪除"
@@ -251573,7 +253003,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "似乎沒有任何項目可以為所選訂單開立應收憑單. 但是，您可以使用金額欄位強制進行應計分錄."
+=======
+msgstr ""
+"似乎沒有任何項目可以為所選訂單開立應收憑單. 但是，您可以使用金額欄位強制進行"
+"應計分錄."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "似乎沒有任何項目可以為所選訂單開立應收憑單. 但是，您可以使用金額欄位強制進行"
@@ -252466,6 +253902,7 @@ msgstr "本年度"
 #. module: account
 #. odoo-python
 #: code:addons/account/models/account_account.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -253401,6 +254838,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid "This account was split off from %(account_name)s (%(company_name)s)."
 msgstr "賬戶已從 %(account_name)s（%(company_name)s）分拆出來。"
 
@@ -253434,6 +254873,7 @@ msgstr "此操作不適用於此單據."
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -253932,6 +255372,8 @@ msgstr "這使得會計人員能夠管理分析和交叉的預算. 一旦主預�
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "This allows accountants to manage analytic and crossovered budgets. Once the "
 "master budgets and the budgets are defined, the project managers can set the "
 "planned amount on each analytic account."
@@ -254102,6 +255544,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -254600,7 +256045,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This allows you grouping payments into a single batch and eases the reconciliation process.\n"
+=======
+"This allows you grouping payments into a single batch and eases the "
+"reconciliation process.\n"
+>>>>>>> upstream/18.0
 =======
 "This allows you grouping payments into a single batch and eases the "
 "reconciliation process.\n"
@@ -255466,7 +256916,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "這個虛擬欄位讓我們可以在欄位'name'上使用另一種搜索方法. 與'filter_domain'相比，這允許在如何搜索'name'方面有更多的自由. 請參閱'_search_name'和'_parse_name_search'\n"
+=======
+"這個虛擬欄位讓我們可以在欄位'name'上使用另一種搜索方法. 與'filter_domain'相"
+"比，這允許在如何搜索'name'方面有更多的自由. 請參"
+"閱'_search_name'和'_parse_name_search'\n"
+>>>>>>> upstream/18.0
 =======
 "這個虛擬欄位讓我們可以在欄位'name'上使用另一種搜索方法. 與'filter_domain'相"
 "比，這允許在如何搜索'name'方面有更多的自由. 請參"
@@ -256463,12 +257919,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This entry contains one or more taxes that are incompatible with your fiscal"
 " country. Check company fiscal country in the settings and tax country in "
 "taxes configuration."
 msgstr ""
 "此記項包含一項或多項與你的財政國家/地區不相容的稅項。請前往設定頁面，檢查公司的財政國家/地區設定，以及在稅務配置中，檢查所設定的國家/地區。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -256967,6 +258426,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -257466,10 +258928,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This entry contains taxes that are not compatible with your fiscal position."
 " Check the country set in fiscal position and in your tax configuration."
 msgstr "此記項包含與你的財務規則不相容的稅項。請檢查財務規則及稅務配置所設定的國家/地區。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -257967,6 +259432,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -258558,7 +260026,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "此分錄未能鎖定，因為部份擁有相同序列字首的分錄，其序號數字更高。你可能需要重新排序。"
+=======
+msgstr ""
+"此分錄未能鎖定，因為部份擁有相同序列字首的分錄，其序號數字更高。你可能需要重"
+"新排序。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "此分錄未能鎖定，因為部份擁有相同序列字首的分錄，其序號數字更高。你可能需要重"
@@ -259595,7 +261069,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If you want to change its Unit of Measure, please archive this product and create a new one."
+=======
+"If you want to change its Unit of Measure, please archive this product and "
+"create a new one."
+>>>>>>> upstream/18.0
 =======
 "If you want to change its Unit of Measure, please archive this product and "
 "create a new one."
@@ -260366,8 +261845,13 @@ msgstr "本經常性記項會一直自動過賬，直至及包括此日期。"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "This setting cannot be changed after an invoice is created."
 msgstr "建立發票後，將無法更改此設定。"
+=======
+msgid "This setting locks once a journal entry is created."
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgid "This setting locks once a journal entry is created."
 msgstr ""
@@ -260894,8 +262378,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This wizard will validate all journal entries selected. Once journal entries"
 " are validated, you can not update them anymore."
+=======
+"This wizard will validate all journal entries selected. Once journal entries "
+"are validated, you can not update them anymore."
+>>>>>>> upstream/18.0
 =======
 "This wizard will validate all journal entries selected. Once journal entries "
 "are validated, you can not update them anymore."
@@ -261783,8 +263272,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "To add information to a previously sent invoice, reply to your \"sent\" "
 "email"
+=======
+"To add information to a previously sent invoice, reply to your \"sent\" email"
+>>>>>>> upstream/18.0
 =======
 "To add information to a previously sent invoice, reply to your \"sent\" email"
 >>>>>>> upstream/18.0
@@ -262456,6 +263949,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "To keep the audit trail, you can not delete journal entries once they have been posted.\n"
 "Instead, you can cancel the journal entry."
 msgstr ""
@@ -262621,6 +264115,8 @@ msgstr ""
 "為保留審計追蹤，日記賬記項在完成過賬後便無法刪除。\n"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -263118,6 +264614,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -263624,11 +265123,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "manually validated. You should go on the partner bank account of %(partner)s"
 " in order to validate it."
 msgstr ""
 "若要使用 %(method_name)s 方法記錄付款，必須手動驗證收款人銀行賬戶。你應該前往合作夥伴 %(partner)s 的銀行賬戶進行驗證。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -264126,6 +265628,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -264626,10 +266131,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "be manually validated. You should go on the partner bank account in order to"
 " validate it."
 msgstr "若要使用 %(payment_method)s 方法記錄付款，必須手動驗證收款人銀行賬戶。你應該前往合作夥伴的銀行賬戶進行驗證。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -265127,6 +266635,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -265730,8 +267241,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Total amount due (including sales orders and this document): "
 "%(total_credit)s"
+=======
+"Total amount due (including sales orders and this document): %(total_credit)s"
+>>>>>>> upstream/18.0
 =======
 "Total amount due (including sales orders and this document): %(total_credit)s"
 >>>>>>> upstream/18.0
@@ -266538,6 +268053,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Total Receivable amount exceeding a limit."
 "                                      Set a value greater than 0.0 to "
 "activate a credit limit check"
@@ -266545,6 +268061,8 @@ msgstr ""
 "為合作夥伴建立發票及銷售單時，若單據的應收總金額超過指定限額，便觸發警報。                                      "
 "設定大於 0.0 的數值以啟用信用額度檢查"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -267044,6 +268562,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -267581,7 +269102,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "列印時為支付此帳款而建立的二維碼類型. 如果留空，將使用第一個可用和可用的方法."
+=======
+msgstr ""
+"列印時為支付此帳款而建立的二維碼類型. 如果留空，將使用第一個可用和可用的方法."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "列印時為支付此帳款而建立的二維碼類型. 如果留空，將使用第一個可用和可用的方法."
@@ -268506,7 +270032,11 @@ msgid "Unique identifier for this line."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "此明細的唯一識別."
+=======
+msgstr "此資料行的唯一識別碼。"
+>>>>>>> upstream/18.0
 =======
 msgstr "此資料行的唯一識別碼。"
 >>>>>>> upstream/18.0
@@ -269409,7 +270939,11 @@ msgid "Untaxed Amount in Currency"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "以貨幣計算的未稅金額"
+=======
+msgstr "該貨幣未連稅金額"
+>>>>>>> upstream/18.0
 =======
 msgstr "該貨幣未連稅金額"
 >>>>>>> upstream/18.0
@@ -270121,6 +271655,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Use the “<i>Send by Post</i>” option to post invoices automatically. For the"
 " cost of a local stamp, we do all the manual work: your invoice will be "
 "printed in the right country, put in an envelop and sent by snail mail. Use "
@@ -270128,6 +271663,8 @@ msgid ""
 msgstr ""
 "使用“<i>郵寄發送</i>”選項自動郵寄應收憑單.對於當地郵票的費用，我們完成所有手工工作:您的應收憑單將在正確的國家/地區列印，放入信封並通過郵件寄送.使用列表視圖中的此功能批次過帳數百張應收憑單."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -270628,6 +272165,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -271128,7 +272668,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Odoo will automatically create one invoice line with default values to match it."
+=======
+"Odoo will automatically create one invoice line with default values to match "
+"it."
+>>>>>>> upstream/18.0
 =======
 "Odoo will automatically create one invoice line with default values to match "
 "it."
@@ -271971,7 +273516,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "用來在報表中讓我們知道日記帳項目是否應該從期初或者僅僅是會計年度開始. 那些在新的會計區間開始應該為零的項目不應該有這樣的選項(例如費用，年營收) ."
+=======
+"用來在報表中讓我們知道日記帳項目是否應該從期初或者僅僅是會計年度開始. 那些在"
+"新的會計區間開始應該為零的項目不應該有這樣的選項(例如費用，年營收) ."
+>>>>>>> upstream/18.0
 =======
 "用來在報表中讓我們知道日記帳項目是否應該從期初或者僅僅是會計年度開始. 那些在"
 "新的會計區間開始應該為零的項目不應該有這樣的選項(例如費用，年營收) ."
@@ -272813,8 +274363,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Used to register a profit when the ending balance of a cash register differs"
 " from what the system computes"
+=======
+"Used to register a profit when the ending balance of a cash register differs "
+"from what the system computes"
+>>>>>>> upstream/18.0
 =======
 "Used to register a profit when the ending balance of a cash register differs "
 "from what the system computes"
@@ -273756,9 +275311,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    * Fixed: The fixed value of the writeoff. The amount will count as a debit if it is negative, as a credit if it is positive.\n"
 "    * From Label: There is no need for regex delimiter, only the regex is needed. For instance if you want to extract the amount from\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -274255,6 +275813,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -274755,9 +276316,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    * 固定值: 撤銷的固定值. 如果金額為負，則該金額將計為借方，如果為正，則計為貸方.\n"
 "    * 來自標籤: 不需要正規表達式分隔符，只需要正規表達式. 例如，如果您想從中擷取金額\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -275254,6 +276818,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -275892,7 +277459,11 @@ msgid "Vendor Bills"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "企業帳單"
+=======
+msgstr "供應商賬單"
+>>>>>>> upstream/18.0
 =======
 msgstr "供應商賬單"
 >>>>>>> upstream/18.0
@@ -276936,10 +278507,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "We cannot find a chart of accounts for this company, you should configure it. \n"
 "Please go to Account Configuration and select or install a fiscal localization."
 msgstr "找不到本公司的科目表，需要先設定一個. 請前往會計設定處選擇或安裝一個本地會計科目."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -277439,6 +279013,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -277977,8 +279554,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "When checked this line and everything after it will be printed on a new "
 "page."
+=======
+"When checked this line and everything after it will be printed on a new page."
+>>>>>>> upstream/18.0
 =======
 "When checked this line and everything after it will be printed on a new page."
 >>>>>>> upstream/18.0
@@ -278649,8 +280230,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "When checked, 0 values will not show when displaying this expression's "
 "value."
+=======
+"When checked, 0 values will not show when displaying this expression's value."
+>>>>>>> upstream/18.0
 =======
 "When checked, 0 values will not show when displaying this expression's value."
 >>>>>>> upstream/18.0
@@ -279319,7 +280904,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "當以表達式為目標進行結轉時，該表達式的標籤必須以 _applied_carryover_ 開頭"
+=======
+msgstr ""
+"當以表達式為目標進行結轉時，該表達式的標籤必須以 _applied_carryover_ 開頭"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "當以表達式為目標進行結轉時，該表達式的標籤必須以 _applied_carryover_ 開頭"
@@ -280289,6 +281879,7 @@ msgstr "會計記項的貸方或借方金額錯誤！"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -280392,6 +281983,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -281027,6 +282620,9 @@ msgstr "XML 格式"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -281508,6 +283104,7 @@ msgstr "當日記帳被散列鎖定時，您不能按日期重新排序."
 #. odoo-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -282376,6 +283973,10 @@ msgstr "對於未對賬的項目，你只可更改期間或記賬賬戶。"
 "You can only change the period/account for items that are not yet reconciled."
 msgstr "對於未對賬的項目，你只可更改期間或記賬賬戶。"
 >>>>>>> upstream/18.0
+=======
+"You can only change the period/account for items that are not yet reconciled."
+msgstr "對於未對賬的項目，你只可更改期間或記賬賬戶。"
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -282569,8 +284170,12 @@ msgstr "您只能為已過帳的日記帳分錄登記付款."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "You can only request a cancellation for invoice sent to the government."
+=======
+msgid "You can only request a cancellation for invoice sent to the government."
+>>>>>>> upstream/18.0
 =======
 msgid "You can only request a cancellation for invoice sent to the government."
 >>>>>>> upstream/18.0
@@ -283251,7 +284856,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "您可以在這裡設定預設通信方式，該通信將顯示在客戶應收憑單上，一旦驗證，以幫助客戶在付款時比對該特定憑單."
+=======
+msgstr ""
+"您可以在這裡設定預設通信方式，該通信將顯示在客戶應收憑單上，一旦驗證，以幫助"
+"客戶在付款時比對該特定憑單."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "您可以在這裡設定預設通信方式，該通信將顯示在客戶應收憑單上，一旦驗證，以幫助"
@@ -284273,7 +285884,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "若未有在公司或 %(journal)s 日記賬中的 %(payment_method)s 付款方式上，設定未結清付款/收款賬戶，便無法建立新付款。"
+=======
+"若未有在公司或 %(journal)s 日記賬中的 %(payment_method)s 付款方式上，設定未結"
+"清付款/收款賬戶，便無法建立新付款。"
+>>>>>>> upstream/18.0
 =======
 "若未有在公司或 %(journal)s 日記賬中的 %(payment_method)s 付款方式上，設定未結"
 "清付款/收款賬戶，便無法建立新付款。"
@@ -285133,9 +286749,12 @@ msgstr "如果未在 %s 日記帳上設定暫記科目，則無法建立新的�
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "You can't create payments for entries belonging to different branches."
 msgstr "你不可為不同分支的記項建立付款。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -285698,6 +287317,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -286240,8 +287862,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "You can't create payments for entries belonging to different companies."
+=======
+msgid "You can't create payments for entries belonging to different companies."
+>>>>>>> upstream/18.0
 =======
 msgid "You can't create payments for entries belonging to different companies."
 >>>>>>> upstream/18.0
@@ -286910,7 +288536,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "您不能刪除已發佈的日記賬項目。不要在會計記錄上做手腳，刪除前應將日記賬分錄重置為草稿。"
+=======
+msgstr ""
+"您不能刪除已發佈的日記賬項目。不要在會計記錄上做手腳，刪除前應將日記賬分錄重"
+"置為草稿。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "您不能刪除已發佈的日記賬項目。不要在會計記錄上做手腳，刪除前應將日記賬分錄重"
@@ -287918,10 +289550,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can't have two payment method lines of the same payment type "
 "(%(payment_type)s) and with the same name (%(name)s) on a single journal."
 msgstr "同一個日記賬內，不可有兩個付款方式資料行的付款類型（%(payment_type)s）及名稱（%(name)s）相同。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -288419,6 +290054,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -288753,6 +290391,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/wizard/account_payment_register.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -289580,12 +291219,17 @@ msgid ""
 "You can't open the register payment wizard without at least one receivable/"
 "payable line."
 >>>>>>> upstream/18.0
+=======
+"You can't open the register payment wizard without at least one receivable/"
+"payable line."
+>>>>>>> upstream/18.0
 msgstr "如果沒有至少一個應收/應付款明細，您將無法打開付款登記引導."
 
 #. module: account
 #. odoo-python
 #: code:addons/account/models/account_bank_statement_line.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -290547,6 +292191,11 @@ msgstr "若要提供外幣，必須在「該貨幣金額」欄位輸入金額。
 "in Currency' field."
 msgstr "若要提供外幣，必須在「該貨幣金額」欄位輸入金額。"
 >>>>>>> upstream/18.0
+=======
+"You can't provide a foreign currency without specifying an amount in 'Amount "
+"in Currency' field."
+msgstr "若要提供外幣，必須在「該貨幣金額」欄位輸入金額。"
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -290717,8 +292366,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can't provide an amount in foreign currency without specifying a foreign"
 " currency."
+=======
+"You can't provide an amount in foreign currency without specifying a foreign "
+"currency."
+>>>>>>> upstream/18.0
 =======
 "You can't provide an amount in foreign currency without specifying a foreign "
 "currency."
@@ -291574,8 +293228,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can't unlink this company from this account since there are some journal"
 " items linked to it."
+=======
+"You can't unlink this company from this account since there are some journal "
+"items linked to it."
+>>>>>>> upstream/18.0
 =======
 "You can't unlink this company from this account since there are some journal "
 "items linked to it."
@@ -292256,7 +293915,10 @@ msgstr "你不可新增/修改 %(lock_date_info)s 或之前（包括當天）的
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -292288,6 +293950,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -292480,8 +294145,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot change the type of an account set as Bank Account on a journal to"
 " Receivable or Payable."
+=======
+"You cannot change the type of an account set as Bank Account on a journal to "
+"Receivable or Payable."
+>>>>>>> upstream/18.0
 =======
 "You cannot change the type of an account set as Bank Account on a journal to "
 "Receivable or Payable."
@@ -293323,7 +294993,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "您不能在不為其分配狀態的情況下在您的財政國家內建立具有外國增值稅的財政政策."
+=======
+msgstr ""
+"您不能在不為其分配狀態的情況下在您的財政國家內建立具有外國增值稅的財政政策."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "您不能在不為其分配狀態的情況下在您的財政國家內建立具有外國增值稅的財政政策."
@@ -294198,7 +295873,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "不可刪除此記項，因它已使用序列內的一個號碼，而且不是數據鏈的最後一項。你也許應該恢復它。"
+=======
+msgstr ""
+"不可刪除此記項，因它已使用序列內的一個號碼，而且不是數據鏈的最後一項。你也許"
+"應該恢復它。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "不可刪除此記項，因它已使用序列內的一個號碼，而且不是數據鏈的最後一項。你也許"
@@ -295194,8 +296875,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot delete this mail template, it is used in the invoice sending "
 "flow."
+=======
+"You cannot delete this mail template, it is used in the invoice sending flow."
+>>>>>>> upstream/18.0
 =======
 "You cannot delete this mail template, it is used in the invoice sending flow."
 >>>>>>> upstream/18.0
@@ -295713,6 +297398,7 @@ msgstr "你不可棄用已用於稅務分佈的賬戶。"
 msgid ""
 "You cannot disable this setting because some of your taxes are cash basis. "
 "Modify your taxes first before disabling this setting."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -296704,11 +298390,17 @@ msgstr ""
 "您不能停用此設定，因為您的一些稅款是以現金收付. 在停用此設定之前先修改您的稅"
 "金設定."
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"您不能停用此設定，因為您的一些稅款是以現金收付. 在停用此設定之前先修改您的稅"
+"金設定."
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -297207,6 +298899,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "You cannot do this modification on a reconciled journal entry. You can just "
 "change some non legal fields or you must unreconcile first.\n"
 "Journal Entry (id): %(entry)s (%(id)s)"
@@ -297377,6 +299071,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -297898,7 +299595,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "如果賬戶分錄已過賬一次，便不可編輯其日記賬，除非移除名稱或將名稱設為「/」。此操作可能會令序列間斷。"
+=======
+msgstr ""
+"如果賬戶分錄已過賬一次，便不可編輯其日記賬，除非移除名稱或將名稱設為「/」。此"
+"操作可能會令序列間斷。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "如果賬戶分錄已過賬一次，便不可編輯其日記賬，除非移除名稱或將名稱設為「/」。此"
@@ -298897,7 +300600,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "如果賬戶分錄已獲分配序號，便不可編輯其日記賬，除非移除名稱或將名稱設為「/」。此操作可能會令序列間斷。"
+=======
+msgstr ""
+"如果賬戶分錄已獲分配序號，便不可編輯其日記賬，除非移除名稱或將名稱設為「/」。"
+"此操作可能會令序列間斷。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "如果賬戶分錄已獲分配序號，便不可編輯其日記賬，除非移除名稱或將名稱設為「/」。"
@@ -299913,8 +301622,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "若期初分錄（%s）已完成過賬，便不可匯入 openning_balance。                 "
 "如果絕對肯定想修改賬戶的期初結餘，請將分錄重設為草稿。"
+=======
+"若期初分錄（%s）已完成過賬，便不可匯入 openning_balance。                 如"
+"果絕對肯定想修改賬戶的期初結餘，請將分錄重設為草稿。"
+>>>>>>> upstream/18.0
 =======
 "若期初分錄（%s）已完成過賬，便不可匯入 openning_balance。                 如"
 "果絕對肯定想修改賬戶的期初結餘，請將分錄重設為草稿。"
@@ -300775,7 +302489,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "您不能修改與已過帳日記帳項目相關的稅費，您應該將日記帳分錄重置為草稿來這樣做."
+=======
+msgstr ""
+"您不能修改與已過帳日記帳項目相關的稅費，您應該將日記帳分錄重置為草稿來這樣做."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "您不能修改與已過帳日記帳項目相關的稅費，您應該將日記帳分錄重置為草稿來這樣做."
@@ -301489,7 +303208,10 @@ msgstr "您不能在已歸檔封存的日記帳(%(journal)s)中過帳分錄"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -301604,6 +303326,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -301954,7 +303679,10 @@ msgstr "在已經登記本幣日記帳分錄的情況下不能為該科目設定
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -302373,6 +304101,7 @@ msgstr "在已經登記本幣日記帳分錄的情況下不能為該科目設定
 msgid ""
 "You cannot set a partner as an invoicing address of another if they have a "
 "different %(vat_label)s."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -303092,6 +304821,8 @@ msgstr "若合作夥伴的 %(vat_label)s 不同，便不可將其中一個合作
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr ""
 "若合作夥伴的 %(vat_label)s 不同，便不可將其中一個合作夥伴，設為另一個合作夥伴"
 "的發票地址。"
@@ -303262,6 +304993,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -303609,8 +305343,14 @@ msgstr "如果某些部分對帳仍待處理，則您無法切換科目以阻止
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "You cannot switch the type of a document which has been posted once."
 msgstr "文件一經發佈或過賬，便不可切換其類型。"
+=======
+msgid ""
+"You cannot switch the type of a document with an existing sequence number."
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "You cannot switch the type of a document with an existing sequence number."
@@ -303840,7 +305580,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "若表達式中沒有以 _carryover_ 開頭的標籤，便不可使用欄位 carryover_target"
+=======
+msgstr ""
+"若表達式中沒有以 _carryover_ 開頭的標籤，便不可使用欄位 carryover_target"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "若表達式中沒有以 _carryover_ 開頭的標籤，便不可使用欄位 carryover_target"
@@ -304673,6 +306418,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "您不能在此日記帳中使用此科目(%s)，請檢查相關科目上的'允許的日記帳'欄位."
 =======
 msgstr ""
@@ -305334,11 +307080,16 @@ msgstr ""
 msgstr ""
 "您不能在此日記帳中使用此科目(%s)，請檢查相關科目上的'允許的日記帳'欄位."
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"您不能在此日記帳中使用此科目(%s)，請檢查相關科目上的'允許的日記帳'欄位."
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -305836,6 +307587,8 @@ msgstr "您不能在此日記帳中使用此科目(%s)，請檢查相關日計�
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "You cannot use this account (%s) in this journal, check the section 'Control-"
 "Access' under tab 'Advanced Settings' on the related journal."
 msgstr ""
@@ -306005,6 +307758,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -306356,6 +308112,7 @@ msgid ""
 "You cannot validate an invoice with a negative total amount. You should "
 "create a credit note instead. Use the action menu to transform it into a "
 "credit note or refund."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -307015,6 +308772,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr ""
 "您不能驗證總金額為負的發票. 您應該改建一個退款單. 使用操作功能表將其轉換為退"
 "款或退款單."
@@ -307185,6 +308944,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -307551,6 +309313,7 @@ msgid ""
 "You have to configure the 'Exchange Gain or Loss Journal' in your company "
 "settings, to manage automatically the booking of accounting entries related "
 "to differences between exchange rates."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -308472,6 +310235,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr ""
 "你必須在公司設定中，設定「匯兌損益日記賬」，以自動管理匯兌差額會計記項的記賬"
 "工作。"
@@ -308505,6 +310270,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -308741,7 +310509,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "您應該在您的公司設定中設定'匯率收益科目'，以自動管理與匯率差異相關的會計分錄."
+=======
+msgstr ""
+"您應該在您的公司設定中設定'匯率收益科目'，以自動管理與匯率差異相關的會計分錄."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "您應該在您的公司設定中設定'匯率收益科目'，以自動管理與匯率差異相關的會計分錄."
@@ -309575,7 +311348,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "您應該在公司設定中設定'匯率虧損科目'，以自動管理與匯率差異相關的會計分錄."
+=======
+msgstr ""
+"您應該在公司設定中設定'匯率虧損科目'，以自動管理與匯率差異相關的會計分錄."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "您應該在公司設定中設定'匯率虧損科目'，以自動管理與匯率差異相關的會計分錄."
@@ -310529,10 +312307,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "third party in the context of any claim for damages filed against the client"
 " by an end consumer."
 msgstr "在任何情況下，都不能被客戶要求在最終消費者向客戶提出的任何損害賠償索賠的背景下作為第三方出現."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -311030,6 +312811,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -311479,6 +313263,7 @@ msgstr "已套用。"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_position_form
 msgid "here"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -312273,6 +314058,8 @@ msgstr "此處"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "此處"
 
 #. module: account
@@ -312444,6 +314231,9 @@ msgstr "網誌："
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -312980,7 +314770,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            Double check if the account can be trusted by calling the vendor.<br/>"
+=======
+"                            Double check if the account can be trusted by "
+"calling the vendor.<br/>"
+>>>>>>> upstream/18.0
 =======
 "                            Double check if the account can be trusted by "
 "calling the vendor.<br/>"
@@ -313838,11 +315633,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "must be notified of any claim by means of a letter sent by recorded delivery"
 " to its registered office within 8 days of the delivery of the goods or the "
 "provision of the services."
 msgstr "為了使其被受理，必須在交付貨物或提供服務後 8 天內通過以掛號信方式將任何索賠通知到其註冊辦事處."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -314341,6 +316139,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -314936,7 +316737,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "承諾在約定的時間範圍內，盡最大努力在適當的時候提供優質服務. 但是，其任何義務都不能被視為實現結果的義務."
+=======
+msgstr ""
+"承諾在約定的時間範圍內，盡最大努力在適當的時候提供優質服務. 但是，其任何義務"
+"都不能被視為實現結果的義務."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "承諾在約定的時間範圍內，盡最大努力在適當的時候提供優質服務. 但是，其任何義務"
@@ -315974,8 +317781,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "{amount} ({debit_credit}) 已從支賬戶口 <strong>{account_source_name}</strong> "
 "轉賬至受款人 <strong>{account_target_name}</strong>，方式為 {link}"
+=======
+"{amount} ({debit_credit}) 已從支賬戶口 <strong>{account_source_name}</"
+"strong> 轉賬至受款人 <strong>{account_target_name}</strong>，方式為 {link}"
+>>>>>>> upstream/18.0
 =======
 "{amount} ({debit_credit}) 已從支賬戶口 <strong>{account_source_name}</"
 "strong> 轉賬至受款人 <strong>{account_target_name}</strong>，方式為 {link}"
@@ -316812,7 +318624,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "{{ object.company_id.name }} 退款單（參考編號： {{ object.name or '不適用' }}）"
+=======
+msgstr ""
+"{{ object.company_id.name }} 退款單（參考編號： {{ object.name or '不適"
+"用' }}）"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "{{ object.company_id.name }} 退款單（參考編號： {{ object.name or '不適"
@@ -317807,7 +319625,12 @@ msgid "{{ object.company_id.name }} Invoice (Ref {{ object.name or 'n/a' }})"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "{{ object.company_id.name }} 發票（參考編號： {{ object.name or '不適用' }}）"
+=======
+msgstr ""
+"{{ object.company_id.name }} 發票（參考編號： {{ object.name or '不適用' }}）"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "{{ object.company_id.name }} 發票（參考編號： {{ object.name or '不適用' }}）"
@@ -318472,6 +320295,7 @@ msgstr ""
 #. module: account
 #: model:mail.template,subject:account.mail_template_data_payment_receipt
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -319326,6 +321150,8 @@ msgstr "{{ object.company_id.name }} 付款收據(編號 {{ object.name 或 'n/a
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "{{ object.company_id.name }} Payment Receipt (Ref {{ object.name or 'n/a' }})"
 msgstr "{{ object.company_id.name }} 付款收據(編號 {{ object.name 或 'n/a' }})"
 
@@ -319341,6 +321167,9 @@ msgstr "{{ object.company_id.name }} 付款收據(編號 {{ object.name 或 'n/a
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -319387,6 +321216,9 @@ msgstr "{{ object.company_id.name }} 付款收據(編號 {{ object.name 或 'n/a
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -319521,6 +321353,9 @@ msgstr "{{ object.company_id.name }} 付款收據(編號 {{ object.name 或 'n/a
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -319793,6 +321628,9 @@ msgstr "{{ object.company_id.name }} 付款收據(編號 {{ object.name 或 'n/a
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -320098,6 +321936,9 @@ msgstr "{{ object.company_id.name }} 付款收據(編號 {{ object.name 或 'n/a
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -320475,6 +322316,9 @@ msgstr "{{ object.company_id.name }} 付款收據(編號 {{ object.name 或 'n/a
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -320926,6 +322770,9 @@ msgstr "{{ object.company_id.name }} 付款收據(編號 {{ object.name 或 'n/a
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

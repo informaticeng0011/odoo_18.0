@@ -150,8 +150,11 @@ class TestFECExport(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.init_invoice("out_invoice", self.partner_a, "2020-01-01", amounts=[1000, 2000], post=True)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -591,6 +594,9 @@ class TestFECExport(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -907,9 +913,15 @@ class TestFECExport(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         result = fec_export.generate_fec()
         self.assertEqual(
             result['file_content'].decode(),
+=======
+        result = fec_export.with_context(fec_test_mode=True).generate_fec()
+        self.assertEqual(
+            b''.join(result['file_content']).decode(),
+>>>>>>> upstream/18.0
 =======
         result = fec_export.with_context(fec_test_mode=True).generate_fec()
         self.assertEqual(
@@ -1092,9 +1104,15 @@ class TestFECExport(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         result = fec_export.generate_fec()
         self.assertEqual(
             result['file_content'].decode(),
+=======
+        result = fec_export.with_context(fec_test_mode=True).generate_fec()
+        self.assertEqual(
+            b''.join(result['file_content']).decode(),
+>>>>>>> upstream/18.0
 =======
         result = fec_export.with_context(fec_test_mode=True).generate_fec()
         self.assertEqual(
@@ -1260,9 +1278,15 @@ class TestFECExport(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         result = fec_export.generate_fec()
         self.assertEqual(
             result['file_content'].decode(),
+=======
+        result = fec_export.with_context(fec_test_mode=True).generate_fec()
+        self.assertEqual(
+            b''.join(result['file_content']).decode(),
+>>>>>>> upstream/18.0
 =======
         result = fec_export.with_context(fec_test_mode=True).generate_fec()
         self.assertEqual(

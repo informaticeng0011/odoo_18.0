@@ -76,6 +76,10 @@ export class MediaDialog extends Component {
             },
             () => [this.selectedMedia[this.state.activeTab].length]
         );
+<<<<<<< HEAD
+=======
+        this.abortUploads = null;
+>>>>>>> upstream/18.0
     }
 
     get initialActiveTab() {
@@ -106,6 +110,10 @@ export class MediaDialog extends Component {
                 selectedMedia: this.selectedMedia,
                 selectMedia: (...args) => this.selectMedia(...args, tab.id, additionalProps.multiSelect),
                 save: this.save.bind(this),
+<<<<<<< HEAD
+=======
+                setAbortUploadsCallback: (abortFunc) => this.abortUploads = abortFunc,
+>>>>>>> upstream/18.0
                 onAttachmentChange: this.props.onAttachmentChange,
                 errorMessages: (errorMessage) => this.errorMessages[tab.id] = errorMessage,
                 modalRef: this.modalRef,
@@ -338,7 +346,10 @@ export class MediaDialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -572,6 +583,9 @@ export class MediaDialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -764,4 +778,14 @@ export class MediaDialog extends Component {
     onTabChange(tab) {
         this.state.activeTab = tab;
     }
+<<<<<<< HEAD
+=======
+    async close() {
+        if (this.abortUploads) {
+            this.abortUploads();
+            delete this.abortUploads;
+        }
+        await this.props.close();
+    }
+>>>>>>> upstream/18.0
 }

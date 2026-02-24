@@ -1,6 +1,9 @@
 from odoo import Command
 from odoo.tests.common import tagged, freeze_time
+<<<<<<< HEAD
 from odoo.tools import file_open
+=======
+>>>>>>> upstream/18.0
 from odoo.addons.account_peppol.tests.test_peppol_messages import TestPeppolMessageCommon, FAKE_UUID
 
 
@@ -19,11 +22,14 @@ class TestPeppolSelfBilling(TestPeppolMessageCommon):
             'is_self_billing': True,
         })
 
+<<<<<<< HEAD
     @classmethod
     def _get_incoming_invoice_content(cls):
         with file_open('account_peppol_selfbilling/tests/assets/incoming_self_billed_invoice', mode='rb') as f:
             return f.read()
 
+=======
+>>>>>>> upstream/18.0
     def test_send_self_billed_invoice_via_peppol(self):
         """Test sending a self-billed invoice (vendor bill) via Peppol.
 
@@ -73,6 +79,7 @@ class TestPeppolSelfBilling(TestPeppolMessageCommon):
             }],
         )
         self.assertTrue(bool(vendor_bill.ubl_cii_xml_id))
+<<<<<<< HEAD
 
     def test_receive_self_billed_invoice_from_peppol(self):
         """Test receiving a self-billed invoice from Peppol.
@@ -126,3 +133,5 @@ class TestPeppolSelfBilling(TestPeppolMessageCommon):
                 'currency_id': self.env.ref('base.EUR').id,
             },
         ])
+=======
+>>>>>>> upstream/18.0

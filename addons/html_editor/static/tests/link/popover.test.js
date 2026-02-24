@@ -180,6 +180,9 @@ import { setupEditor } from "../_helpers/editor";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -448,6 +451,7 @@ import { cleanLinkArtifacts } from "../_helpers/format";
 import { getContent, setContent, setSelection } from "../_helpers/selection";
 import { insertLineBreak, insertText, splitBlock, undo } from "../_helpers/user_actions";
 import { execCommand } from "../_helpers/userCommands";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1279,10 +1283,14 @@ import { expectElementCount } from "../_helpers/ui_expectations";
 =======
 import { expectElementCount } from "../_helpers/ui_expectations";
 >>>>>>> upstream/18.0
+=======
+import { expectElementCount } from "../_helpers/ui_expectations";
+>>>>>>> upstream/18.0
 
 const base64Img =
     "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAAUA\n        AAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO\n            9TXL0Y4OHwAAAABJRU5ErkJggg==";
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2391,6 +2399,11 @@ describe("should open or close a popover", () => {
     test("should open a popover when the selection is inside a link and close outside of a link", async () => {
         const { el } = await setupEditor("<p>this is a <a>link</a></p>");
 >>>>>>> upstream/18.0
+=======
+describe("should open or close a popover", () => {
+    test("should open a popover when the selection is inside a link and close outside of a link", async () => {
+        const { el } = await setupEditor("<p>this is a <a>link</a></p>");
+>>>>>>> upstream/18.0
         await expectElementCount(".o-we-linkpopover", 0);
         // selection inside a link
         setContent(el, "<p>this is a <a>li[]nk</a></p>");
@@ -2399,6 +2412,7 @@ describe("should open or close a popover", () => {
         setContent(el, "<p>this []is a <a>link</a></p>");
         await expectElementCount(".o-we-linkpopover", 0);
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2668,6 +2682,8 @@ describe("should open or close a popover", () => {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3176,6 +3192,9 @@ describe("should open or close a popover", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3709,8 +3728,12 @@ describe("should open or close a popover", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await waitFor(".o-we-linkpopover");
         expect(".o-we-linkpopover").toHaveCount(1);
+=======
+        await expectElementCount(".o-we-linkpopover", 1);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-linkpopover", 1);
 >>>>>>> upstream/18.0
@@ -4538,7 +4561,11 @@ describe("should open or close a popover", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-linkpopover").toHaveCount(0);
+=======
+        await expectElementCount(".o-we-linkpopover", 0);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-linkpopover", 0);
 >>>>>>> upstream/18.0
@@ -5380,7 +5407,11 @@ describe("popover should switch UI depending on editing state", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-linkpopover").toHaveCount(1);
+=======
+        await expectElementCount(".o-we-linkpopover", 1);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-linkpopover", 1);
 >>>>>>> upstream/18.0
@@ -6176,7 +6207,10 @@ describe("popover should edit,copy,remove the link", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6682,6 +6716,9 @@ describe("popover should edit,copy,remove the link", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7230,7 +7267,11 @@ describe("popover should edit,copy,remove the link", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-linkpopover").toHaveCount(0);
+=======
+        await expectElementCount(".o-we-linkpopover", 0);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-linkpopover", 0);
 >>>>>>> upstream/18.0
@@ -8095,8 +8136,12 @@ describe("Link creation", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             await waitFor(".o-we-linkpopover");
             expect(".o-we-linkpopover").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-linkpopover", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-linkpopover", 1);
 >>>>>>> upstream/18.0
@@ -8915,8 +8960,12 @@ describe("Link creation", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             await waitFor(".o-we-linkpopover");
             expect(".o-we-linkpopover").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-linkpopover", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-linkpopover", 1);
 >>>>>>> upstream/18.0
@@ -9891,8 +9940,12 @@ describe("Link creation", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             await waitFor(".o-we-linkpopover", { timeout: 1500 });
             expect(".o-we-linkpopover").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-linkpopover", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-linkpopover", 1);
 >>>>>>> upstream/18.0
@@ -10698,8 +10751,12 @@ describe("Link creation", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             await waitFor(".o-we-linkpopover", { timeout: 1500 });
             expect(".o-we-linkpopover").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-linkpopover", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-linkpopover", 1);
 >>>>>>> upstream/18.0
@@ -11506,6 +11563,7 @@ describe("Link creation", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -11660,6 +11718,8 @@ describe("Link creation", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12148,7 +12208,10 @@ describe("shortcut", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12190,6 +12253,9 @@ describe("shortcut", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12217,6 +12283,7 @@ describe("shortcut", () => {
 
 describe("link preview", () => {
     test("test internal link preview", async () => {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12790,10 +12857,13 @@ describe("link preview", () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         onRpc("/html_editor/link_preview_internal", () => ({
             description: markup("Test description"),
             link_preview_name: "Task name | Project name",
         }));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13485,6 +13555,9 @@ describe("link preview", () => {
 =======
         onRpc("/odoo/project/1/tasks/8", () => "");
 >>>>>>> upstream/18.0
+=======
+        onRpc("/odoo/project/1/tasks/8", () => "");
+>>>>>>> upstream/18.0
         const { editor, el } = await setupEditor(`<p>[]</p>`);
         await insertText(editor, "/link");
         await animationFrame();
@@ -13504,6 +13577,7 @@ describe("link preview", () => {
         expect(cleanLinkArtifacts(el.textContent)).toBe("Task name | Project name");
     });
     test("test external link preview", async () => {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14081,6 +14155,8 @@ describe("link preview", () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         onRpc("/html_editor/link_preview_external", () => ({
             og_description:
                 "From ERP to CRM, eCommerce and CMS. Download Odoo or use it in the cloud. Grow Your Business.",
@@ -14278,6 +14354,9 @@ describe("link preview", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14676,6 +14755,7 @@ describe("link preview", () => {
                 link_preview_name: "Task name | Project name",
             };
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15433,6 +15513,9 @@ describe("link preview", () => {
 =======
         onRpc("/odoo/cachetest/8", () => "");
 >>>>>>> upstream/18.0
+=======
+        onRpc("/odoo/cachetest/8", () => "");
+>>>>>>> upstream/18.0
         const { editor } = await setupEditor(`<p>abc[]</p>`);
         await insertText(editor, "/link");
         await animationFrame();
@@ -15473,6 +15556,7 @@ describe("link preview", () => {
         });
 
         const currentProtocol = window.location.protocol;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16242,6 +16326,8 @@ describe("link preview", () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         onRpc("/odoo/cachetest/8", (request) => {
             const urlProtocol = new URL(request.url).protocol;
             expect(urlProtocol).toBe(currentProtocol);
@@ -16371,6 +16457,9 @@ describe("link preview", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16654,6 +16743,7 @@ describe("link preview", () => {
         expect.verifySteps([]);
     });
     test("test external metadata cached correctly", async () => {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17685,6 +17775,11 @@ describe("link preview", () => {
         const description =
             "From ERP to CRM, eCommerce and CMS. Download Odoo or use it in the cloud. Grow Your Business.";
 >>>>>>> upstream/18.0
+=======
+        const title = "Open Source ERP and CRM | Odoo";
+        const description =
+            "From ERP to CRM, eCommerce and CMS. Download Odoo or use it in the cloud. Grow Your Business.";
+>>>>>>> upstream/18.0
         onRpc("/html_editor/link_preview_external", () => {
             expect.step("/html_editor/link_preview_external");
             return {
@@ -17866,6 +17961,9 @@ describe("link preview", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18405,7 +18503,13 @@ describe("link preview", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o_we_url_link").toHaveText("Open Source ERP and CRM | Odoo");
+=======
+        await waitFor(".o_we_description_link_preview");
+        expect(".o_we_description_link_preview").toHaveText(description);
+        expect(".o_we_url_link").toHaveText(title);
+>>>>>>> upstream/18.0
 =======
         await waitFor(".o_we_description_link_preview");
         expect(".o_we_description_link_preview").toHaveText(description);
@@ -19511,8 +19615,12 @@ describe("link in templates", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await waitFor(".o-we-linkpopover");
         expect(".o-we-linkpopover").toHaveCount(1);
+=======
+        await expectElementCount(".o-we-linkpopover", 1);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-linkpopover", 1);
 >>>>>>> upstream/18.0
@@ -20324,8 +20432,12 @@ describe("link in templates", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await waitFor(".o-we-linkpopover");
         expect(".o-we-linkpopover").toHaveCount(1);
+=======
+        await expectElementCount(".o-we-linkpopover", 1);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-linkpopover", 1);
 >>>>>>> upstream/18.0
@@ -21168,7 +21280,11 @@ describe("links with inline image", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-linkpopover").toHaveCount(0);
+=======
+        await expectElementCount(".o-we-linkpopover", 0);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-linkpopover", 0);
 >>>>>>> upstream/18.0
@@ -22000,7 +22116,10 @@ describe("links with inline image", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22558,6 +22677,9 @@ describe("links with inline image", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23180,7 +23302,11 @@ describe("upload file via link popover", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             `<p><a href="${expectedUrl}">file.txt[]</a></p>`
+=======
+            `<p><a href="${expectedUrl}" data-attachment-id="1">file.txt[]</a></p>`
+>>>>>>> upstream/18.0
 =======
             `<p><a href="${expectedUrl}" data-attachment-id="1">file.txt[]</a></p>`
 >>>>>>> upstream/18.0
@@ -23983,9 +24109,13 @@ describe("upload file via link popover", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         onRpc("/web/dataset/call_kw/ir.attachment/read", () => {
             return [{ name: "file.txt", mimetype: "text/plain" }];
         });
+=======
+        onRpc("ir.attachment", "read", () => [{ name: "file.txt", mimetype: "text/plain" }]);
+>>>>>>> upstream/18.0
 =======
         onRpc("ir.attachment", "read", () => [{ name: "file.txt", mimetype: "text/plain" }]);
 >>>>>>> upstream/18.0
@@ -24741,6 +24871,7 @@ describe("upload file via link popover", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -24769,6 +24900,8 @@ describe("upload file via link popover", () => {
         test("label field should be hidden if <a> content is not text only", async () => {
             await setupEditor(`<a href="http://test.com/"><img src="${base64Img}">te[]xt</a>`);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25282,6 +25415,9 @@ describe("upload file via link popover", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25625,6 +25761,7 @@ describe("upload file via link popover", () => {
             expect(".o-we-linkpopover").toHaveCount(1);
             // open edit mode and check if label input is hidden
             await click(".o_we_edit_link");
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26330,6 +26467,9 @@ describe("upload file via link popover", () => {
 =======
             await waitFor(".o_we_href_input_link", { timeout: 1500 });
 >>>>>>> upstream/18.0
+=======
+            await waitFor(".o_we_href_input_link", { timeout: 1500 });
+>>>>>>> upstream/18.0
             expect(".o_we_label_link").not.toBeVisible();
             expect(".o_we_href_input_link").toHaveValue("http://test.com/");
         });
@@ -26515,6 +26655,7 @@ describe("upload file via link popover", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26783,6 +26924,8 @@ describe("upload file via link popover", () => {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26941,6 +27084,9 @@ test("Should properly show the preview if fetching metadata fails", async () => 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

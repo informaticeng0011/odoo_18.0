@@ -42,6 +42,7 @@ class TestPacking(TestPackingCommon):
         """
         self.env['stock.quant']._update_available_quantity(self.productA, self.stock_location, 20.0)
         self.env['stock.quant']._update_available_quantity(self.productB, self.stock_location, 20.0)
+<<<<<<< HEAD
         pick_move_a = self.env['stock.move'].create({
             'name': 'The ship move',
             'product_id': self.productA.id,
@@ -67,6 +68,25 @@ class TestPacking(TestPackingCommon):
         pick_move_a._assign_picking()
         pick_move_b._assign_picking()
         picking = pick_move_a.picking_id
+=======
+        picking = self.env['stock.picking'].create({
+            'picking_type_id': self.warehouse.out_type_id.id,
+            'location_id': self.stock_location.id,
+            'location_dest_id': self.pack_location.id,
+        })
+        move_values = {
+            'name': 'The ship move',
+            'product_uom_qty': 5.0,
+            'location_id': self.stock_location.id,
+            'location_dest_id': self.pack_location.id,
+            'warehouse_id': self.warehouse.id,
+            'picking_id': picking.id,
+        }
+        pick_move_a = self.env['stock.move'].create([
+            {**move_values, 'product_id': self.productA.id, 'product_uom': self.productA.uom_id.id},
+            {**move_values, 'product_id': self.productB.id, 'product_uom': self.productB.uom_id.id},
+        ])[0]
+>>>>>>> upstream/18.0
         picking.action_confirm()
         picking.action_assign()
         picking.button_validate()
@@ -2076,7 +2096,10 @@ class TestPacking(TestPackingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2521,6 +2544,9 @@ class TestPacking(TestPackingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

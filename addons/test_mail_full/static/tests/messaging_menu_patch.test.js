@@ -251,7 +251,11 @@ test("rating value displayed on the preview", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o-rating-preview-image[data-alt='top']");
+=======
+    await contains(".o-rating-preview-image[alt='top']");
+>>>>>>> upstream/18.0
 =======
     await contains(".o-rating-preview-image[alt='top']");
 >>>>>>> upstream/18.0
@@ -1186,7 +1190,11 @@ test("rating value displayed on the needaction preview", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o-rating-preview-image[data-alt='top']");
+=======
+    await contains(".o-rating-preview-image[alt='top']");
+>>>>>>> upstream/18.0
 =======
     await contains(".o-rating-preview-image[alt='top']");
 >>>>>>> upstream/18.0

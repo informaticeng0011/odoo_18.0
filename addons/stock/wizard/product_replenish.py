@@ -124,7 +124,11 @@ class ProductReplenish(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.env['procurement.group'].with_context(clean_context(self.env.context)).run([
+=======
+            self.env['procurement.group'].with_context(clean_context(self.env.context | self._additional_replenishment_context())).run([
+>>>>>>> upstream/18.0
 =======
             self.env['procurement.group'].with_context(clean_context(self.env.context | self._additional_replenishment_context())).run([
 >>>>>>> upstream/18.0

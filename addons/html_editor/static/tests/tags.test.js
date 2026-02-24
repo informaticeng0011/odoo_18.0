@@ -142,6 +142,10 @@ import { animationFrame, tick } from "@odoo/hoot-mock";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { defineStyle } from "@web/../tests/web_test_helpers";
+>>>>>>> upstream/18.0
 =======
 import { defineStyle } from "@web/../tests/web_test_helpers";
 >>>>>>> upstream/18.0
@@ -751,12 +755,15 @@ describe("to paragraph", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test.skip("should turn a heading 1 into a paragraph after a triple click", async () => {
         await testEditor({
             contentBefore: "<h1>[ab</h1><h2>]cd</h2>",
             stepFunction: setTag("p"),
             contentAfter: "<p>[ab</p><h2>]cd</h2>",
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1257,6 +1264,9 @@ describe("to paragraph", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1735,7 +1745,10 @@ describe("to paragraph", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2173,6 +2186,9 @@ describe("to paragraph", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2701,6 +2717,7 @@ describe("to heading 1", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should just turn the paragraph with selected content into a heading 1", async () => {
         await testEditor({
             contentBefore: "<p>[ab</p><p>]cd</p>",
@@ -2715,6 +2732,8 @@ describe("to heading 1", () => {
             stepFunction: setTag("h1"),
             contentAfter: "<p>ab[</p><h1>cd]</h1>",
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3223,6 +3242,9 @@ describe("to heading 1", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3728,6 +3750,7 @@ describe("to heading 1", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test.skip("should turn a paragraph into a heading 1 after a triple click", async () => {
         await testEditor({
             contentBefore: "<p>[ab</p><h2>]cd</h2>",
@@ -3787,6 +3810,8 @@ describe("to heading 1", () => {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4224,6 +4249,9 @@ describe("to heading 1", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4671,6 +4699,9 @@ describe("to heading 1", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5253,7 +5284,10 @@ describe("to heading 1", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5938,6 +5972,9 @@ describe("to heading 1", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6577,6 +6614,7 @@ describe("to heading 2", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test.skip("should turn a paragraph into a heading 2 after a triple click", async () => {
         await testEditor({
             contentBefore: "<p>[ab</p><h1>]cd</h1>",
@@ -6584,6 +6622,8 @@ describe("to heading 2", () => {
             contentAfter: "<h2>[ab</h2><h1>]cd</h1>",
         });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7081,6 +7121,9 @@ describe("to heading 2", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7630,12 +7673,15 @@ describe("to heading 3", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test.skip("should turn a paragraph into a heading 3 after a triple click", async () => {
         await testEditor({
             contentBefore: "<p>[ab</p><h1>]cd</h1>",
             stepFunction: setTag("h3"),
             contentAfter: "<h3>[ab</h3><h1>]cd</h1>",
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8136,6 +8182,9 @@ describe("to heading 3", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8750,12 +8799,15 @@ describe("to blockquote", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test.skip("should turn a heading 1 into a blockquote after a triple click", async () => {
         await testEditor({
             contentBefore: "<h1>[ab</h1><h2>]cd</h2>",
             stepFunction: setTag("blockquote"),
             contentAfter: "<blockquote>[ab</blockquote><h2>]cd</h2>",
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9256,6 +9308,9 @@ describe("to blockquote", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9849,6 +9904,10 @@ describe("to blockquote", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        await manuallyDispatchProgrammaticEvent(anchorNode, "click", { detail: 6 });
+>>>>>>> upstream/18.0
 =======
         await manuallyDispatchProgrammaticEvent(anchorNode, "click", { detail: 6 });
 >>>>>>> upstream/18.0

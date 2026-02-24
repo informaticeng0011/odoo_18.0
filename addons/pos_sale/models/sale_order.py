@@ -41,6 +41,10 @@ from odoo import api, fields, models, _
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools import groupby
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import groupby
 >>>>>>> upstream/18.0
@@ -180,6 +184,7 @@ class SaleOrder(models.Model):
     @api.model
     def _load_pos_data_fields(self, config_id):
         return ['name', 'state', 'user_id', 'order_line', 'partner_id', 'pricelist_id', 'fiscal_position_id', 'amount_total', 'amount_untaxed', 'amount_unpaid',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1133,6 +1138,9 @@ class SaleOrder(models.Model):
 =======
             'picking_ids', 'partner_shipping_id', 'partner_invoice_id', 'date_order', 'write_date', 'amount_paid']
 >>>>>>> upstream/18.0
+=======
+            'picking_ids', 'partner_shipping_id', 'partner_invoice_id', 'date_order', 'write_date', 'amount_paid']
+>>>>>>> upstream/18.0
 
     def _count_pos_order(self):
         for order in self:
@@ -1266,7 +1274,11 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends('order_line', 'amount_total', 'order_line.invoice_lines.parent_state', 'order_line.invoice_lines.price_total', 'order_line.pos_order_line_ids')
+=======
+    @api.depends('transaction_ids.state', 'transaction_ids.amount', 'order_line', 'amount_total', 'order_line.invoice_lines.parent_state', 'order_line.invoice_lines.price_total', 'order_line.pos_order_line_ids')
+>>>>>>> upstream/18.0
 =======
     @api.depends('transaction_ids.state', 'transaction_ids.amount', 'order_line', 'amount_total', 'order_line.invoice_lines.parent_state', 'order_line.invoice_lines.price_total', 'order_line.pos_order_line_ids')
 >>>>>>> upstream/18.0
@@ -1735,7 +1747,11 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             sale_order.amount_unpaid = sale_order.amount_total - (total_invoice_paid + total_pos_paid)
+=======
+            sale_order.amount_unpaid = max(sale_order.amount_total - total_invoice_paid - total_pos_paid - sale_order.amount_paid, 0.0)
+>>>>>>> upstream/18.0
 =======
             sale_order.amount_unpaid = max(sale_order.amount_total - total_invoice_paid - total_pos_paid - sale_order.amount_paid, 0.0)
 >>>>>>> upstream/18.0
@@ -2327,10 +2343,15 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if order.invoice_status == 'invoiced':
                 continue
             # We need to account for the downpayment paid in POS with and without invoice
             order_amount = sum(order.sudo().pos_order_line_ids.filtered(lambda pol: pol.sale_order_line_id.is_downpayment).mapped('price_subtotal_incl'))
+=======
+            # We need to account for all amount paid in POS with and without invoice
+            order_amount = sum(order.sudo().pos_order_line_ids.mapped('price_subtotal_incl'))
+>>>>>>> upstream/18.0
 =======
             # We need to account for all amount paid in POS with and without invoice
             order_amount = sum(order.sudo().pos_order_line_ids.mapped('price_subtotal_incl'))
@@ -3547,6 +3568,7 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'qty_invoiced', 'qty_to_invoice', 'display_type', 'name', 'tax_id', 'is_downpayment']
 =======
             'qty_invoiced', 'qty_to_invoice', 'display_type', 'name', 'tax_id', 'is_downpayment', 'write_date']
@@ -4484,11 +4506,14 @@ class SaleOrderLine(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             'qty_invoiced', 'qty_to_invoice', 'display_type', 'name', 'tax_id', 'is_downpayment', 'write_date']
 
     @api.depends('pos_order_line_ids.qty', 'pos_order_line_ids.order_id.picking_ids', 'pos_order_line_ids.order_id.picking_ids.state', 'pos_order_line_ids.refund_orderline_ids.order_id.picking_ids.state')
     def _compute_qty_delivered(self):
         super()._compute_qty_delivered()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4612,6 +4637,8 @@ class SaleOrderLine(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
         def update_qty_delivered_from_pickings(sale_line, pos_lines):
             if all(picking.state == 'done' for picking in pos_lines.order_id.picking_ids):
@@ -4656,6 +4683,9 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4737,6 +4767,7 @@ class SaleOrderLine(models.Model):
                 sale_line_uom = sale_line.product_uom
                 item = sale_line.read(field_names, load=False)[0]
                 if sale_line.product_id.tracking != 'none':
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5283,6 +5314,11 @@ class SaleOrderLine(models.Model):
 >>>>>>> upstream/18.0
 =======
                     item['lot_qty_by_name'] = {line.lot_id.name: line.quantity for line in sale_line.move_ids.move_line_ids}
+>>>>>>> upstream/18.0
+=======
+                    move_lines = sale_line.move_ids.move_line_ids.filtered(lambda ml: ml.product_id.id == sale_line.product_id.id)
+                    item['lot_names'] = move_lines.lot_id.mapped('name')
+                    item['lot_qty_by_name'] = {line.lot_id.name: line.quantity for line in move_lines}
 >>>>>>> upstream/18.0
 =======
                     move_lines = sale_line.move_ids.move_line_ids.filtered(lambda ml: ml.product_id.id == sale_line.product_id.id)

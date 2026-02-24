@@ -156,12 +156,15 @@ registry.category('web_tour.tours').add('update_shipping_after_discount', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: '[data-reward-type=discount] .oe_currency_value:not(:visible):contains(/^- 50.00$/)',
         },
         {
             content: "check eWallet discount",
             trigger: '[data-reward-type=discount] .oe_currency_value:not(:visible):contains(/^- 55.00$/)',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -488,6 +491,9 @@ registry.category('web_tour.tours').add('update_shipping_after_discount', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

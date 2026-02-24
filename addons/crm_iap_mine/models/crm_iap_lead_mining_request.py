@@ -38,7 +38,11 @@ import logging
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import api, fields, models, _
+=======
+from odoo import api, fields, models, _, release
+>>>>>>> upstream/18.0
 =======
 from odoo import api, fields, models, _, release
 >>>>>>> upstream/18.0
@@ -412,11 +416,14 @@ class CRMLeadMiningRequest(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         params = {
             'account_token': reveal_account.account_token,
             'dbuuid': dbuuid,
             'data': server_payload
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -528,6 +535,9 @@ class CRMLeadMiningRequest(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -648,7 +658,11 @@ class CRMLeadMiningRequest(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         endpoint = self.env['ir.config_parameter'].sudo().get_param('reveal.endpoint', DEFAULT_ENDPOINT) + '/iap/clearbit/2/lead_mining_request'
+=======
+        endpoint = self.env['ir.config_parameter'].sudo().get_param('reveal.endpoint', DEFAULT_ENDPOINT) + '/api/dnb/1/search_by_criteria'
+>>>>>>> upstream/18.0
 =======
         endpoint = self.env['ir.config_parameter'].sudo().get_param('reveal.endpoint', DEFAULT_ENDPOINT) + '/api/dnb/1/search_by_criteria'
 >>>>>>> upstream/18.0
@@ -797,6 +811,7 @@ class CRMLeadMiningRequest(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             lead_vals_list.append(self._lead_vals_from_response(data))
 
             template_values = data['company_data']
@@ -806,6 +821,8 @@ class CRMLeadMiningRequest(models.Model):
             })
             messages_to_post[data['company_data']['clearbit_id']] = template_values
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -920,6 +937,9 @@ class CRMLeadMiningRequest(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1037,8 +1057,13 @@ class CRMLeadMiningRequest(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         company_data = data.get('company_data')
         people_data = data.get('people_data')
+=======
+        company_data = data
+        people_data = []
+>>>>>>> upstream/18.0
 =======
         company_data = data
         people_data = []

@@ -245,8 +245,12 @@ class Partner extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "form,false": `<form><field name="display_name"/></form>`,
         "search,false": `<search/>`,
+=======
+        form: `<form><field name="display_name"/></form>`,
+>>>>>>> upstream/18.0
 =======
         form: `<form><field name="display_name"/></form>`,
 >>>>>>> upstream/18.0
@@ -1246,8 +1250,12 @@ test("error on onMounted", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "form,false": `<form><field name="display_name"/><field name="bar"/></form>`,
         "search,false": `<search/>`,
+=======
+        form: `<form><field name="display_name"/><field name="bar"/></form>`,
+>>>>>>> upstream/18.0
 =======
         form: `<form><field name="display_name"/><field name="bar"/></form>`,
 >>>>>>> upstream/18.0

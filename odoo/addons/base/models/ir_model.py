@@ -240,6 +240,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import inspect
+>>>>>>> upstream/18.0
 =======
 import inspect
 >>>>>>> upstream/18.0
@@ -1392,7 +1396,10 @@ class IrModel(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1620,6 +1627,9 @@ class IrModel(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2149,8 +2159,11 @@ class IrModelFields(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             safe_eval(field.domain or '[]')
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2415,6 +2428,9 @@ class IrModelFields(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3104,12 +3120,15 @@ class IrModelFields(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if vals.get('ttype') == 'one2many' and not self.search_count([
                     ('ttype', '=', 'many2one'),
                     ('model', '=', vals['relation']),
                     ('name', '=', vals['relation_field']),
                 ]):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3510,6 +3529,9 @@ class IrModelFields(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4380,7 +4402,11 @@ class ModelInherit(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         module_mapping = defaultdict(list)
+=======
+        module_mapping = defaultdict(OrderedSet)
+>>>>>>> upstream/18.0
 =======
         module_mapping = defaultdict(OrderedSet)
 >>>>>>> upstream/18.0
@@ -5357,11 +5383,14 @@ class ModelInherit(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ]
 
                 for item in items:
                     module_mapping[item].append(cls._module)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6089,6 +6118,9 @@ class ModelInherit(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6905,7 +6937,10 @@ class IrModelSelection(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6943,6 +6978,9 @@ class IrModelSelection(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6998,6 +7036,7 @@ class IrModelSelection(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             elif callable(ondelete):
                 ondelete(selection._get_records())
             elif ondelete == 'set null':
@@ -7016,6 +7055,8 @@ class IrModelSelection(models.Model):
                     policy=ondelete, field=selection,
                 ))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7108,6 +7149,9 @@ class IrModelSelection(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7185,11 +7229,14 @@ class IrModelSelection(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         query = 'SELECT id FROM "{table}" WHERE "{field}"=%s'.format(
             table=Model._table, field=self.field_id.name,
         )
         self.env.cr.execute(query, [self.value])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7277,6 +7324,9 @@ class IrModelSelection(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8217,7 +8267,11 @@ class IrModelData(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         field_ = Field(_base_fields=[field, Field(prefetch=False)])
+=======
+                        field_ = Field(_base_fields=(field, Field(prefetch=False)))
+>>>>>>> upstream/18.0
 =======
                         field_ = Field(_base_fields=(field, Field(prefetch=False)))
 >>>>>>> upstream/18.0
@@ -9015,8 +9069,11 @@ class IrModelData(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             delete(self.env[model].browse(item[1] for item in items))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9245,6 +9302,9 @@ class IrModelData(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
