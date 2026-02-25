@@ -206,7 +206,10 @@ import { fields, getKwArgs, makeKwArgs, webModels } from "@web/../tests/web_test
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { DEFAULT_MAIL_SEARCH_ID, DEFAULT_MAIL_VIEW_ID } from "./constants";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -631,6 +634,7 @@ export class ResPartner extends webModels.ResPartner {
     });
 
     _views = {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1453,6 +1457,9 @@ export class ResPartner extends webModels.ResPartner {
 =======
         form: /* xml */ `
 >>>>>>> upstream/18.0
+=======
+        form: /* xml */ `
+>>>>>>> upstream/18.0
             <form>
                 <sheet>
                     <field name="name"/>
@@ -1627,7 +1634,10 @@ export class ResPartner extends webModels.ResPartner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2135,6 +2145,9 @@ export class ResPartner extends webModels.ResPartner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2723,6 +2736,10 @@ export class ResPartner extends webModels.ResPartner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                            "signature",
+>>>>>>> upstream/18.0
 =======
                             "signature",
 >>>>>>> upstream/18.0
@@ -2849,6 +2866,12 @@ export class ResPartner extends webModels.ResPartner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                if (fields.includes("signature")) {
+                    data.signature = mainUser.signature;
+                }
+>>>>>>> upstream/18.0
 =======
                 if (fields.includes("signature")) {
                     data.signature = mainUser.signature;

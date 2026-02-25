@@ -39,6 +39,10 @@ import requests
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from json import JSONDecodeError
+>>>>>>> upstream/18.0
 =======
 from json import JSONDecodeError
 >>>>>>> upstream/18.0
@@ -211,6 +215,7 @@ def _make_request(company, endpoint_type, params=False):
     # Structure-specific error handling
     if response.status_code != 200:
         try:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -442,6 +447,11 @@ def _make_request(company, endpoint_type, params=False):
             error_message = error_message.get('errors') or error_message.get('message')
         except (JSONDecodeError, TypeError):
 >>>>>>> upstream/18.0
+=======
+            error_message = response.json()
+            error_message = error_message.get('errors') or error_message.get('message')
+        except (JSONDecodeError, TypeError):
+>>>>>>> upstream/18.0
             error_message = False
         raise UserError(company.env._("Error handling request: %s", error_message) if error_message else company.env._("HTTP %s: Connection error.", response.status_code))
 
@@ -481,7 +491,11 @@ def _make_request(company, endpoint_type, params=False):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         except (requests.exceptions.JSONDecodeError, TypeError):
+=======
+        except (JSONDecodeError, TypeError):
+>>>>>>> upstream/18.0
 =======
         except (JSONDecodeError, TypeError):
 >>>>>>> upstream/18.0
@@ -717,8 +731,13 @@ def _mer_api_query_document_process_status_inbox(company, electronic_id=None, st
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'From': date_from,
         'To': date_to,
+=======
+        'DateFrom': date_from,
+        'DateTo': date_to,
+>>>>>>> upstream/18.0
 =======
         'DateFrom': date_from,
         'DateTo': date_to,
@@ -859,8 +878,13 @@ def _mer_api_query_document_process_status_outbox(company, electronic_id=None, s
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'From': date_from,
         'To': date_to,
+=======
+        'DateFrom': date_from,
+        'DateTo': date_to,
+>>>>>>> upstream/18.0
 =======
         'DateFrom': date_from,
         'DateTo': date_to,
@@ -1009,7 +1033,11 @@ def _mer_api_mark_paid(company, electronic_id, payment_date, payment_amount, pay
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'PaymentAmoung': payment_amount,
+=======
+        'PaymentAmount': payment_amount,
+>>>>>>> upstream/18.0
 =======
         'PaymentAmount': payment_amount,
 >>>>>>> upstream/18.0
@@ -1130,7 +1158,11 @@ def _mer_api_reject_with_id(company, electronic_id, rejection_date, rejection_ty
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 def _mer_api_check_fiscalization_status_outbox(company, electronic_id=False, message_type=False, date_from=False, date_to=False, request_id=False, status=False):
+=======
+def _mer_api_check_fiscalization_status_outbox(company, electronic_id=False, message_type=False, date_from=False, date_to=False, by_update_date=False, request_id=False, status=False):
+>>>>>>> upstream/18.0
 =======
 def _mer_api_check_fiscalization_status_outbox(company, electronic_id=False, message_type=False, date_from=False, date_to=False, by_update_date=False, request_id=False, status=False):
 >>>>>>> upstream/18.0
@@ -1239,6 +1271,10 @@ def _mer_api_check_fiscalization_status_outbox(company, electronic_id=False, mes
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'ByUpdateDate': by_update_date,
+>>>>>>> upstream/18.0
 =======
         'ByUpdateDate': by_update_date,
 >>>>>>> upstream/18.0
@@ -1346,7 +1382,11 @@ def _mer_api_check_fiscalization_status_outbox(company, electronic_id=False, mes
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 def _mer_api_check_fiscalization_status_inbox(company, electronic_id=False, message_type=False, date_from=False, date_to=False, request_id=False, status=False):
+=======
+def _mer_api_check_fiscalization_status_inbox(company, electronic_id=False, message_type=False, date_from=False, date_to=False, by_update_date=False, request_id=False, status=False):
+>>>>>>> upstream/18.0
 =======
 def _mer_api_check_fiscalization_status_inbox(company, electronic_id=False, message_type=False, date_from=False, date_to=False, by_update_date=False, request_id=False, status=False):
 >>>>>>> upstream/18.0
@@ -1455,6 +1495,10 @@ def _mer_api_check_fiscalization_status_inbox(company, electronic_id=False, mess
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'ByUpdateDate': by_update_date,
+>>>>>>> upstream/18.0
 =======
         'ByUpdateDate': by_update_date,
 >>>>>>> upstream/18.0

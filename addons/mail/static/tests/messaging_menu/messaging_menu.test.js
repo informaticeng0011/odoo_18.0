@@ -18,7 +18,11 @@ import {
 } from "@mail/../tests/mail_test_helpers";
 import { mailDataHelpers } from "@mail/../tests/mock_server/mail_mock_server";
 
+<<<<<<< HEAD
 import { describe, expect, test } from "@odoo/hoot";
+=======
+import { describe, expect, mockPermission, test } from "@odoo/hoot";
+>>>>>>> upstream/18.0
 import { Deferred, mockUserAgent } from "@odoo/hoot-mock";
 import {
     Command,
@@ -57,7 +61,11 @@ test("messaging menu should have topbar buttons", async () => {
 });
 
 test("counter is taking into account failure notification", async () => {
+<<<<<<< HEAD
     patchBrowserNotification("denied");
+=======
+    mockPermission("notifications", "denied");
+>>>>>>> upstream/18.0
     const pyEnv = await startServer();
     const channelId = pyEnv["discuss.channel"].create({ display_name: "general" });
     const messageId = pyEnv["mail.message"].create({
@@ -82,7 +90,11 @@ test("counter is taking into account failure notification", async () => {
 });
 
 test("rendering with chat push notification default permissions", async () => {
+<<<<<<< HEAD
     patchBrowserNotification("default");
+=======
+    mockPermission("notifications", "default");
+>>>>>>> upstream/18.0
     const pyEnv = await startServer();
     const [odoobot] = pyEnv["res.partner"].read(serverState.odoobotId);
     await start();
@@ -99,7 +111,11 @@ test("rendering with chat push notification default permissions", async () => {
 });
 
 test("can quickly dismiss 'Turn on notification' suggestion", async () => {
+<<<<<<< HEAD
     patchBrowserNotification("default");
+=======
+    mockPermission("notifications", "prompt");
+>>>>>>> upstream/18.0
     await start();
     await contains(".o-mail-MessagingMenu-counter", { text: "1" });
     await click(".o_menu_systray i[aria-label='Messages']");
@@ -111,7 +127,11 @@ test("can quickly dismiss 'Turn on notification' suggestion", async () => {
 });
 
 test("rendering with chat push notification permissions denied", async () => {
+<<<<<<< HEAD
     patchBrowserNotification("denied");
+=======
+    mockPermission("notifications", "denied");
+>>>>>>> upstream/18.0
     await start();
     await click(".o_menu_systray i[aria-label='Messages']");
     await contains(".o-mail-MessagingMenu-counter", { count: 0 });
@@ -119,7 +139,11 @@ test("rendering with chat push notification permissions denied", async () => {
 });
 
 test("rendering with chat push notification permissions accepted", async () => {
+<<<<<<< HEAD
     patchBrowserNotification("granted");
+=======
+    mockPermission("notifications", "granted");
+>>>>>>> upstream/18.0
     await start();
     await click(".o_menu_systray i[aria-label='Messages']");
     await contains(".o-mail-MessagingMenu");
@@ -128,7 +152,11 @@ test("rendering with chat push notification permissions accepted", async () => {
 });
 
 test("respond to notification prompt (denied)", async () => {
+<<<<<<< HEAD
     patchBrowserNotification("default", "denied");
+=======
+    patchBrowserNotification("denied");
+>>>>>>> upstream/18.0
     await start();
     await click(".o_menu_systray i[aria-label='Messages']");
     await click(".o-mail-NotificationItem");
@@ -141,7 +169,11 @@ test("respond to notification prompt (denied)", async () => {
 });
 
 test("respond to notification prompt (granted)", async () => {
+<<<<<<< HEAD
     patchBrowserNotification("default", "granted");
+=======
+    patchBrowserNotification("granted");
+>>>>>>> upstream/18.0
     await start();
     await click(".o_menu_systray i[aria-label='Messages']");
     await click(".o-mail-NotificationItem");
@@ -151,7 +183,11 @@ test("respond to notification prompt (granted)", async () => {
 });
 
 test("no suggestion to enable chat push notifications in mobile app", async () => {
+<<<<<<< HEAD
     patchBrowserNotification("default");
+=======
+    mockPermission("notifications", "default");
+>>>>>>> upstream/18.0
     // simulate Android Odoo App
     mockUserAgent("Chrome/0.0.0 Android (OdooMobile; Linux; Android 13; Odoo TestSuite)");
     await start();
@@ -1143,7 +1179,11 @@ test("messaging menu should show new needaction messages from chatter", async ()
 });
 
 test("can open messaging menu even if messaging is not initialized", async () => {
+<<<<<<< HEAD
     patchBrowserNotification("default");
+=======
+    mockPermission("notifications", "prompt");
+>>>>>>> upstream/18.0
     await startServer();
     const def = new Deferred();
     onRpcBefore("/mail/data", async (args) => {
@@ -1157,7 +1197,11 @@ test("can open messaging menu even if messaging is not initialized", async () =>
 });
 
 test("can open messaging menu even if channels are not fetched", async () => {
+<<<<<<< HEAD
     patchBrowserNotification("denied");
+=======
+    mockPermission("notifications", "denied");
+>>>>>>> upstream/18.0
     const pyEnv = await startServer();
     pyEnv["discuss.channel"].create({ name: "General" });
     const def = new Deferred();
@@ -1392,6 +1436,12 @@ test("Can quick search when more than 20 items", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    await insertText(".o-mail-MessagingMenu input", "no threads", { replace: true });
+    await contains(".o-mail-MessagingMenu div.text-muted", { text: "No thread found." });
+    expect(".o-mail-MessagingMenu-list").toHaveText("No thread found."); // list should contain only this text
+>>>>>>> upstream/18.0
 =======
     await insertText(".o-mail-MessagingMenu input", "no threads", { replace: true });
     await contains(".o-mail-MessagingMenu div.text-muted", { text: "No thread found." });
@@ -2391,7 +2441,10 @@ test("failure is removed from messaging menu when message is deleted", async () 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2660,6 +2713,9 @@ test("user notification from inbox redirect to discuss inbox", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

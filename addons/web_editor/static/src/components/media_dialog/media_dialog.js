@@ -77,6 +77,10 @@ export class MediaDialog extends Component {
             () => [this.selectedMedia[this.state.activeTab].length]
         );
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.abortUploads = null;
+>>>>>>> upstream/18.0
 =======
         this.abortUploads = null;
 >>>>>>> upstream/18.0
@@ -111,6 +115,10 @@ export class MediaDialog extends Component {
                 selectMedia: (...args) => this.selectMedia(...args, tab.id, additionalProps.multiSelect),
                 save: this.save.bind(this),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                setAbortUploadsCallback: (abortFunc) => this.abortUploads = abortFunc,
+>>>>>>> upstream/18.0
 =======
                 setAbortUploadsCallback: (abortFunc) => this.abortUploads = abortFunc,
 >>>>>>> upstream/18.0
@@ -347,7 +355,10 @@ export class MediaDialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -584,6 +595,9 @@ export class MediaDialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -779,7 +793,10 @@ export class MediaDialog extends Component {
         this.state.activeTab = tab;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     async close() {
         if (this.abortUploads) {
             this.abortUploads();
@@ -787,5 +804,8 @@ export class MediaDialog extends Component {
         }
         await this.props.close();
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 }

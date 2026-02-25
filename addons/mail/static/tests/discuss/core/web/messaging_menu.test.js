@@ -5,13 +5,20 @@ import {
     defineMailModels,
     insertText,
     openDiscuss,
+<<<<<<< HEAD
     patchBrowserNotification,
+=======
+>>>>>>> upstream/18.0
     patchUiSize,
     start,
     startServer,
     triggerHotkey,
 } from "@mail/../tests/mail_test_helpers";
+<<<<<<< HEAD
 import { describe, expect, test } from "@odoo/hoot";
+=======
+import { describe, expect, mockPermission, test } from "@odoo/hoot";
+>>>>>>> upstream/18.0
 import { disableAnimations } from "@odoo/hoot-mock";
 import { Command, getService, serverState, withUser } from "@web/../tests/web_test_helpers";
 
@@ -172,7 +179,11 @@ test("channel preview ignores messages from the past", async () => {
 });
 
 test("counter is taking into account non-fetched channels", async () => {
+<<<<<<< HEAD
     patchBrowserNotification("denied");
+=======
+    mockPermission("notifications", "denied");
+>>>>>>> upstream/18.0
     const pyEnv = await startServer();
     const partnerId = pyEnv["res.partner"].create({ name: "Jane" });
     const channelId = pyEnv["discuss.channel"].create({
@@ -201,7 +212,11 @@ test("counter is taking into account non-fetched channels", async () => {
 });
 
 test("counter is updated on receiving message on non-fetched channels", async () => {
+<<<<<<< HEAD
     patchBrowserNotification("denied");
+=======
+    mockPermission("notifications", "denied");
+>>>>>>> upstream/18.0
     const pyEnv = await startServer();
     const partnerId = pyEnv["res.partner"].create({ name: "Jane" });
     const userId = pyEnv["res.users"].create({ partner_id: partnerId });

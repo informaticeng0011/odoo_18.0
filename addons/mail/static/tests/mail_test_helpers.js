@@ -165,6 +165,7 @@ import { addBusMessageHandler, busModels } from "@bus/../tests/bus_test_helpers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { after, before, expect, getFixture, registerDebugInfo } from "@odoo/hoot";
 =======
 import { after, before, expect, getFixture, registerDebugInfo, test } from "@odoo/hoot";
@@ -664,6 +665,17 @@ import { after, before, expect, getFixture, registerDebugInfo, test } from "@odo
 =======
 import { after, before, expect, getFixture, registerDebugInfo, test } from "@odoo/hoot";
 >>>>>>> upstream/18.0
+=======
+import {
+    after,
+    before,
+    expect,
+    getFixture,
+    mockPermission,
+    registerDebugInfo,
+    test,
+} from "@odoo/hoot";
+>>>>>>> upstream/18.0
 import { hover as hootHover, queryFirst, resize } from "@odoo/hoot-dom";
 import { Deferred } from "@odoo/hoot-mock";
 import {
@@ -700,6 +712,7 @@ import {
     mailDataHelpers,
 } from "./mock_server/mail_mock_server";
 import { Base } from "./mock_server/mock_models/base";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1316,6 +1329,8 @@ import { DEFAULT_MAIL_VIEW_ID } from "./mock_server/mock_models/constants";
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import { DiscussChannel } from "./mock_server/mock_models/discuss_channel";
 import { DiscussChannelMember } from "./mock_server/mock_models/discuss_channel_member";
 import { DiscussChannelRtcSession } from "./mock_server/mock_models/discuss_channel_rtc_session";
@@ -1421,6 +1436,7 @@ export const mailModels = {
  */
 export function onRpcBefore(route, callback) {
     if (typeof route === "string") {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2134,6 +2150,9 @@ export function onRpcBefore(route, callback) {
 =======
         const handler = registry.category("mail.mock_rpc").get(route);
 >>>>>>> upstream/18.0
+=======
+        const handler = registry.category("mail.mock_rpc").get(route);
+>>>>>>> upstream/18.0
         patchWithCleanup(handler, { before: callback });
     } else {
         const onRpcBeforeGlobal = registry.category("mail.on_rpc_before_global").get(true);
@@ -2149,6 +2168,7 @@ export function onRpcBefore(route, callback) {
  * @param {Function} callback - The function to execute just before the end of RPC call.
  */
 export function onRpcAfter(route, callback) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3368,6 +3388,27 @@ export function registerArchs(newArchs) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+    const handler = registry.category("mail.mock_rpc").get(route);
+    patchWithCleanup(handler, { after: callback });
+}
+/** @type {Map<string, string>} */
+const globalArchs = new Map();
+
+/**
+ * @param {Record<string, string>} newArchs
+ */
+export function registerArchs(newArchs) {
+    if (!globalArchs.size) {
+        after(() => globalArchs.clear());
+    }
+    globalArchs.clear();
+    for (const [key, value] of Object.entries(newArchs)) {
+        globalArchs.set(key, value);
+    }
+}
+
+>>>>>>> upstream/18.0
 export function onlineTest(...args) {
     if (navigator.onLine) {
         return test(...args);
@@ -3541,6 +3582,9 @@ export function onlineTest(...args) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4091,7 +4135,11 @@ export async function openFormView(resModel, resId, params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         views: [[getMailViewId(resModel, "form") || false, "form"]],
+=======
+        views: [[false, "form"]],
+>>>>>>> upstream/18.0
 =======
         views: [[false, "form"]],
 >>>>>>> upstream/18.0
@@ -4919,7 +4967,11 @@ export async function openKanbanView(resModel, params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         views: [[getMailViewId(resModel, "kanban"), "kanban"]],
+=======
+        views: [[false, "kanban"]],
+>>>>>>> upstream/18.0
 =======
         views: [[false, "kanban"]],
 >>>>>>> upstream/18.0
@@ -5747,7 +5799,11 @@ export async function openListView(resModel, params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         views: [[getMailViewId(resModel, "list"), "list"]],
+=======
+        views: [[false, "list"]],
+>>>>>>> upstream/18.0
 =======
         views: [[false, "list"]],
 >>>>>>> upstream/18.0
@@ -6586,6 +6642,7 @@ export async function openView({ context, res_model, res_id, views, domain, ...p
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         arch:
             params?.arch ||
             archs[viewId || res_model + `,${getMailViewId(res_model, type) || false},` + type] ||
@@ -7205,11 +7262,15 @@ export async function openView({ context, res_model, res_id, views, domain, ...p
 =======
         arch: params?.arch || archs[viewId || res_model + `,false,` + type] || undefined,
 >>>>>>> upstream/18.0
+=======
+        arch: params?.arch || globalArchs.get(viewId || res_model + `,false,` + type) || undefined,
+>>>>>>> upstream/18.0
         viewId: params?.arch || viewId,
         ...params,
     });
     await getService("action").doAction(action, { props: options });
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7836,6 +7897,12 @@ function getMailViewId(res_model, type) {
 
 let tabs = [];
 after(() => (tabs = []));
+=======
+
+/** @type {Set<HTMLElement>} */
+const globalTabs = new Set();
+
+>>>>>>> upstream/18.0
 /**
  * Add an item to the "Switch Tab" dropdown. If it doesn't exist, create the
  * dropdown and add the item afterwards.
@@ -7845,13 +7912,24 @@ after(() => (tabs = []));
  * item.
  */
 async function addSwitchTabDropdownItem(rootTarget, tabTarget) {
+<<<<<<< HEAD
     tabs.push(tabTarget);
+=======
+    if (!globalTabs.size) {
+        after(() => globalTabs.clear());
+    }
+    globalTabs.add(tabTarget);
+>>>>>>> upstream/18.0
     const zIndexMainTab = 100000;
     let dropdownDiv = rootTarget.querySelector(".o-mail-multi-tab-dropdown");
     const onClickDropdownItem = (e) => {
         const dropdownToggle = dropdownDiv.querySelector(".dropdown-toggle");
         dropdownToggle.innerText = `Switch Tab (${e.target.innerText})`;
+<<<<<<< HEAD
         tabs.forEach((tab) => (tab.style.zIndex = -zIndexMainTab));
+=======
+        globalTabs.forEach((tab) => (tab.style.zIndex = -zIndexMainTab));
+>>>>>>> upstream/18.0
         if (e.target.innerText !== "Hoot") {
             tabTarget.style.zIndex = zIndexMainTab;
         }
@@ -7867,7 +7945,11 @@ async function addSwitchTabDropdownItem(rootTarget, tabTarget) {
         dropdownDiv.classList.add("o-mail-multi-tab-dropdown");
         dropdownDiv.innerHTML = `
             <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+<<<<<<< HEAD
                 Switch Tab (${tabs.length})
+=======
+                Switch Tab (${globalTabs.size})
+>>>>>>> upstream/18.0
             </button>
             <ul class="dropdown-menu">
                 <li><a class="dropdown-item">Hoot</a></li>
@@ -7876,7 +7958,11 @@ async function addSwitchTabDropdownItem(rootTarget, tabTarget) {
         dropdownDiv.querySelector("a").onclick = onClickDropdownItem;
         rootTarget.appendChild(dropdownDiv);
     }
+<<<<<<< HEAD
     const tabIndex = tabs.length;
+=======
+    const tabIndex = globalTabs.size;
+>>>>>>> upstream/18.0
     const li = document.createElement("li");
     const a = document.createElement("a");
     li.appendChild(a);
@@ -8052,6 +8138,11 @@ async function addSwitchTabDropdownItem(rootTarget, tabTarget) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+let discussAsTabId = 0;
+
+>>>>>>> upstream/18.0
 =======
 let discussAsTabId = 0;
 
@@ -8925,6 +9016,10 @@ export async function start(options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        discussAsTabId++;
+>>>>>>> upstream/18.0
 =======
         discussAsTabId++;
 >>>>>>> upstream/18.0
@@ -9593,10 +9688,13 @@ export async function start(options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         rootTarget.appendChild(target);
         addSwitchTabDropdownItem(rootTarget, target);
         env = await makeMockEnv({}, { makeNew: true });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10097,6 +10195,9 @@ export async function start(options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10642,8 +10743,12 @@ export async function startServer() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const { env } = await makeMockServer();
     pyEnv = env;
+=======
+    const { env: pyEnv } = await makeMockServer();
+>>>>>>> upstream/18.0
 =======
     const { env: pyEnv } = await makeMockServer();
 >>>>>>> upstream/18.0
@@ -11469,7 +11574,11 @@ export async function startServer() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return env;
+=======
+    return pyEnv;
+>>>>>>> upstream/18.0
 =======
     return pyEnv;
 >>>>>>> upstream/18.0
@@ -12222,6 +12331,7 @@ export function mockGetMedia() {
  * based on the given value. Note that when `requestPermissionResult` is passed,
  * the `change` event of the `Permissions` API will also be triggered.
  *
+<<<<<<< HEAD
  * @param {"default" | "denied" | "granted"} permission
  * @param {"default" | "denied" | "granted"} requestPermissionResult
  */
@@ -12255,6 +12365,17 @@ export function patchBrowserNotification(permission = "default", requestPermissi
                 query.dispatchEvent(new Event("change"));
             }
             return requestPermissionResult;
+=======
+ * @param {PermissionName} requestPermissionResult
+ */
+export function patchBrowserNotification(requestPermissionResult) {
+    mockPermission("notifications", "prompt");
+
+    patchWithCleanup(Notification, {
+        requestPermission() {
+            mockPermission("notifications", requestPermissionResult);
+            return super.requestPermission();
+>>>>>>> upstream/18.0
         },
     });
 }

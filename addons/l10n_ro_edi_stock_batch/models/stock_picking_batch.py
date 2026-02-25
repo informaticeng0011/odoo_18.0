@@ -388,7 +388,11 @@ class StockPickingBatch(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self._l10n_ro_edi_stock_create_document_stock_sent({
+=======
+            edi_document = self._l10n_ro_edi_stock_create_document_stock_sent({
+>>>>>>> upstream/18.0
 =======
             edi_document = self._l10n_ro_edi_stock_create_document_stock_sent({
 >>>>>>> upstream/18.0
@@ -449,7 +453,10 @@ class StockPickingBatch(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -496,6 +503,9 @@ class StockPickingBatch(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

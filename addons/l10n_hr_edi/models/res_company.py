@@ -181,8 +181,12 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         :param undelivered (bool, optional): Import only undelivered documents. Defaults to True.
         :param notify (bool, optional): Run notify import API after importing. Defaults to True.
+=======
+        :param undelivered_only (bool, optional): Import only undelivered documents. Defaults to True.
+>>>>>>> upstream/18.0
 =======
         :param undelivered_only (bool, optional): Import only undelivered documents. Defaults to True.
 >>>>>>> upstream/18.0
@@ -221,6 +225,7 @@ class ResCompany(models.Model):
         job_count = self._context.get('mer_crons_job_count') or BATCH_SIZE
         need_retrigger = False
         imported_documents = {}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -378,6 +383,9 @@ class ResCompany(models.Model):
 =======
         for company in self.filtered(lambda c: c.l10n_hr_mer_connection_state == 'active'):
 >>>>>>> upstream/18.0
+=======
+        for company in self.filtered(lambda c: c.l10n_hr_mer_connection_state == 'active'):
+>>>>>>> upstream/18.0
             try:
                 response = _mer_api_query_inbox(company, 'Undelivered' if undelivered_only else None)
             except MojEracunServiceError as e:
@@ -395,10 +403,13 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if any(not (item.get('ElectronicId') and item.get('StatusId')) for item in response):
                 _logger.error("MojEracun service error: incorrect response format while querying inbox for company: %s", company.name)
                 continue
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -457,6 +468,9 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -495,6 +509,7 @@ class ResCompany(models.Model):
                 documents_to_import = documents_to_import[slc[0]:slc[1]]
             for document in documents_to_import:
                 try:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -651,6 +666,11 @@ class ResCompany(models.Model):
                     if fisc_data == []:
                         _logger.info("Fiscalization data for document eID %s is not available on MojEracun server.", document['mer_document_eid'])
 >>>>>>> upstream/18.0
+=======
+                    fisc_data = _mer_api_check_fiscalization_status_inbox(company, electronic_id=document['mer_document_eid'])
+                    if fisc_data == []:
+                        _logger.info("Fiscalization data for document eID %s is not available on MojEracun server.", document['mer_document_eid'])
+>>>>>>> upstream/18.0
                     else:
                         fisc_data = fisc_data[0]
                 except (MojEracunServiceError, UserError):
@@ -693,6 +713,9 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -785,6 +808,7 @@ class ResCompany(models.Model):
                         }
                     else:
                         raise
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -938,6 +962,8 @@ class ResCompany(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 if fisc_data:
                     document.update({
                         'fiscalization_status': str(fisc_data['messages'][-1].get('status')),
@@ -958,6 +984,9 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1065,7 +1094,11 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for company in self:
+=======
+        for company in self.filtered(lambda c: c.l10n_hr_mer_connection_state == 'active'):
+>>>>>>> upstream/18.0
 =======
         for company in self.filtered(lambda c: c.l10n_hr_mer_connection_state == 'active'):
 >>>>>>> upstream/18.0
@@ -1229,7 +1262,11 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     _logger.error("Failed to retreive fiscalizatio data for company %s", company.name)
+=======
+                    _logger.error("Failed to retreive fiscalization data for company %s", company.name)
+>>>>>>> upstream/18.0
 =======
                     _logger.error("Failed to retreive fiscalization data for company %s", company.name)
 >>>>>>> upstream/18.0

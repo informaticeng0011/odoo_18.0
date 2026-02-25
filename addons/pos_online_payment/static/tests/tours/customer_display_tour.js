@@ -3,6 +3,10 @@ import * as Order from "@point_of_sale/../tests/tours/utils/generic_components/o
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import * as Dialog from "@point_of_sale/../tests/tours/utils/dialog_util";
+>>>>>>> upstream/18.0
 =======
 import * as Dialog from "@point_of_sale/../tests/tours/utils/dialog_util";
 >>>>>>> upstream/18.0
@@ -27,6 +31,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { negateStep } from "@point_of_sale/../tests/tours/utils/common";
+>>>>>>> upstream/18.0
 =======
 import { negateStep } from "@point_of_sale/../tests/tours/utils/common";
 >>>>>>> upstream/18.0
@@ -118,6 +126,10 @@ registry.category("web_tour.tours").add("CustomerDisplayTourOnlinePayment", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            negateStep(Dialog.is()),
+>>>>>>> upstream/18.0
 =======
             negateStep(Dialog.is()),
 >>>>>>> upstream/18.0

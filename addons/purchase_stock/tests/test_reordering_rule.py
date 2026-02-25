@@ -36,10 +36,13 @@ from datetime import timedelta as td
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from json import loads
 
 from odoo import SUPERUSER_ID, Command
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -140,6 +143,9 @@ from odoo import SUPERUSER_ID, Command, fields
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -990,7 +996,11 @@ class TestReorderingRule(TransactionCase):
         self.assertRecordValues(po_line, [{"name": "[A] produit en français", "product_qty": 9.0}])
         self.assertEqual(len(po_line.order_id.order_line), 1)
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertRecordValues(po_line.move_dest_ids, [{"product_uom_qty": 9.0}])
+=======
+        self.assertRecordValues(po_line.move_dest_ids, [{"product_uom_qty": 5.0}, {"product_uom_qty": 4.0}])
+>>>>>>> upstream/18.0
 =======
         self.assertRecordValues(po_line.move_dest_ids, [{"product_uom_qty": 5.0}, {"product_uom_qty": 4.0}])
 >>>>>>> upstream/18.0
@@ -1005,7 +1015,12 @@ class TestReorderingRule(TransactionCase):
         # the moves_dest_ids are not expected to be merged since the scheduler is excuted by robodoo in en_US rather fr_FR
         self.assertRecordValues(po_line.move_dest_ids.sorted('product_uom_qty'), [
 <<<<<<< HEAD
+<<<<<<< HEAD
             {"description_picking": "produit en français", "product_uom_qty": 9.0},
+=======
+            {"description_picking": "produit en français", "product_uom_qty": 4.0},
+            {"description_picking": "produit en français", "product_uom_qty": 5.0},
+>>>>>>> upstream/18.0
 =======
             {"description_picking": "produit en français", "product_uom_qty": 4.0},
             {"description_picking": "produit en français", "product_uom_qty": 5.0},
@@ -1689,7 +1704,10 @@ class TestReorderingRule(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1836,6 +1854,9 @@ class TestReorderingRule(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2211,7 +2232,10 @@ class TestReorderingRule(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2721,6 +2745,7 @@ class TestReorderingRule(TransactionCase):
         backorder_wizard_dict = delivery.button_validate()
         backorder_wizard_form = Form.from_action(self.env, backorder_wizard_dict)
         backorder_wizard_form.save().process()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3449,6 +3474,8 @@ class TestReorderingRule(TransactionCase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         # Check the bakorder values
         purchase_order_line = self.env["purchase.order.line"].search([("product_id", "=", buy_product.id)])
         self.assertRecordValues(delivery.backorder_ids.move_ids, [{
@@ -3677,6 +3704,9 @@ class TestReorderingRule(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

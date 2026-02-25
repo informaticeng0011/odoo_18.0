@@ -166,6 +166,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import { isInstanceOf } from "../../hoot-dom/hoot_dom_utils";
 >>>>>>> upstream/18.0
@@ -566,6 +567,8 @@ import { getSyncValue, setSyncValue } from "./sync_values";
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import { isInstanceOf } from "../../hoot-dom/hoot_dom_utils";
 import {
     createMock,
@@ -673,6 +676,7 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -715,6 +719,9 @@ import {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+import { ensureTest } from "../main_runner";
 >>>>>>> upstream/18.0
 =======
 import { ensureTest } from "../main_runner";
@@ -970,6 +977,7 @@ const { userAgent: $userAgent } = navigator;
 // Internal
 //-----------------------------------------------------------------------------
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2333,6 +2341,11 @@ function getBlobValue(value) {
     return isInstanceOf(value, Blob) ? value.text() : value;
 }
 >>>>>>> upstream/18.0
+=======
+function getBlobValue(value) {
+    return isInstanceOf(value, Blob) ? value.text() : value;
+}
+>>>>>>> upstream/18.0
 
 /**
  * Returns the final synchronous value of several item types.
@@ -2340,6 +2353,7 @@ function getBlobValue(value) {
  * @param {unknown} value
  * @param {string} type
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3364,6 +3378,10 @@ function getClipboardValue(value, type) {
 function getClipboardValue(value, type) {
     return getBlobValue(isInstanceOf(value, ClipboardItem) ? value.getType(type) : value);
 >>>>>>> upstream/18.0
+=======
+function getClipboardValue(value, type) {
+    return getBlobValue(isInstanceOf(value, ClipboardItem) ? value.getType(type) : value);
+>>>>>>> upstream/18.0
 }
 
 function getMockValues() {
@@ -3600,6 +3618,9 @@ function getMockValues() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4057,6 +4078,7 @@ function getMockValues() {
 /**
  * @returns {Record<PermissionName, { name: string; state: PermissionState }>}
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4805,6 +4827,8 @@ const getUserAgentBrowser = () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 function getPermissions() {
     return {
         "background-sync": {
@@ -5101,6 +5125,9 @@ function getUserAgentBrowser() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5790,7 +5817,11 @@ function getUserAgentBrowser() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -6703,7 +6734,11 @@ function getUserAgentBrowser() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const makeUserAgent = (platform) => {
+=======
+function makeUserAgent(platform) {
+>>>>>>> upstream/18.0
 =======
 function makeUserAgent(platform) {
 >>>>>>> upstream/18.0
@@ -7644,7 +7679,11 @@ function makeUserAgent(platform) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -8330,6 +8369,7 @@ function makeUserAgent(platform) {
 /**
  * @param {string} fnName
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9245,6 +9285,8 @@ function throwNotImplemented(fnName) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 function throwNotImplemented(fnName) {
     return function notImplemented() {
         throw new HootError(`unmocked navigator method: ${fnName}`);
@@ -9400,6 +9442,9 @@ function throwNotImplemented(fnName) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9841,7 +9886,11 @@ export class MockClipboardItem extends ClipboardItem {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return getSyncValue(this)[type];
+=======
+        return getSyncValue(this, false)[type];
+>>>>>>> upstream/18.0
 =======
         return getSyncValue(this, false)[type];
 >>>>>>> upstream/18.0
@@ -10182,18 +10231,147 @@ export class MockPermissionStatus extends MockEventTarget {
     }
 }
 
+<<<<<<< HEAD
+=======
+export class MockServiceWorker extends MockEventTarget {
+    static publicListeners = ["error", "message"];
+
+    /** @type {ServiceWorkerState} */
+    state = "activated";
+
+    /**
+     * @param {string} scriptURL
+     */
+    constructor(scriptURL) {
+        super(...arguments);
+
+        /** @type {string} */
+        this.scriptURL = scriptURL;
+    }
+
+    /**
+     * @param {any} _message
+     */
+    postMessage(_message) {}
+}
+
+export class MockServiceWorkerContainer extends MockEventTarget {
+    static publicListeners = ["controllerchange", "message", "messageerror"];
+
+    /**
+     * @private
+     */
+    _readyResolved = false;
+
+    /**
+     * @private
+     * @type {Map<string, MockServiceWorkerRegistration>}
+     */
+    _registrations = new Map();
+
+    /** @type {MockServiceWorker | null} */
+    controller = null;
+
+    get ready() {
+        return this._readyPromise;
+    }
+
+    constructor() {
+        super(...arguments);
+
+        const { promise, resolve } = Promise.withResolvers();
+        /**
+         * @type {Promise<MockServiceWorkerRegistration>}
+         * @private
+         */
+        this._readyPromise = promise;
+        /**
+         * @type {(value: MockServiceWorkerRegistration) => void}
+         * @private
+         */
+        this._resolveReady = resolve;
+    }
+
+    async getRegistration(scope = "/") {
+        return this._registrations.get(scope);
+    }
+
+    async getRegistrations() {
+        return Array.from(this._registrations.values());
+    }
+
+    /**
+     * @param {string} scriptURL
+     * @param {{ scope?: string }} [options]
+     */
+    async register(scriptURL, options = {}) {
+        const scope = options.scope ?? "/";
+
+        const registration = new MockServiceWorkerRegistration(scriptURL, scope);
+        this._registrations.set(scope, registration);
+
+        if (!this.controller) {
+            this.controller = registration.active;
+            this.dispatchEvent(new Event("controllerchange"));
+        }
+
+        if (!this._readyResolved) {
+            this._readyResolved = true;
+            this._resolveReady(registration);
+        }
+
+        return registration;
+    }
+
+    startMessages() {}
+}
+
+export class MockServiceWorkerRegistration {
+    /** @type {MockServiceWorker | null} */
+    installing = null;
+    /** @type {MockServiceWorker | null} */
+    waiting = null;
+
+    /**
+     * @param {string} scriptURL
+     * @param {string} scope
+     */
+    constructor(scriptURL, scope) {
+        /** @type {MockServiceWorker | null} */
+        this.active = new MockServiceWorker(scriptURL);
+        /** @type {string} */
+        this.scope = scope;
+    }
+
+    async unregister() {
+        return true;
+    }
+
+    async update() {}
+}
+
+>>>>>>> upstream/18.0
 export const currentPermissions = getPermissions();
 
 export const mockClipboard = new MockClipboard();
 
 export const mockPermissions = new MockPermissions();
 
+<<<<<<< HEAD
+=======
+export const mockServiceWorker = new MockServiceWorkerContainer();
+
+>>>>>>> upstream/18.0
 export const mockNavigator = createMock(navigator, {
     clipboard: { value: mockClipboard },
     maxTouchPoints: { get: () => (globalThis.ontouchstart === undefined ? 0 : 1) },
     permissions: { value: mockPermissions },
     sendBeacon: { get: () => mockValues.sendBeacon },
+<<<<<<< HEAD
     serviceWorker: { get: () => undefined },
+=======
+    serviceWorker: { value: mockServiceWorker },
+>>>>>>> upstream/18.0
     userAgent: { get: () => mockValues.userAgent },
     vibrate: { get: () => mockValues.vibrate },
 });
@@ -10286,6 +10464,10 @@ export function mockPermission(name, value) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    ensureTest("mockPermission");
+>>>>>>> upstream/18.0
 =======
     ensureTest("mockPermission");
 >>>>>>> upstream/18.0
@@ -10613,6 +10795,10 @@ export function mockSendBeacon(callback) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    ensureTest("mockSendBeacon");
+>>>>>>> upstream/18.0
 =======
     ensureTest("mockSendBeacon");
 >>>>>>> upstream/18.0
@@ -10928,6 +11114,10 @@ export function mockUserAgent(platform = "linux") {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    ensureTest("mockUserAgent");
+>>>>>>> upstream/18.0
 =======
     ensureTest("mockUserAgent");
 >>>>>>> upstream/18.0
@@ -11243,6 +11433,10 @@ export function mockVibrate(callback) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    ensureTest("mockVibrate");
+>>>>>>> upstream/18.0
 =======
     ensureTest("mockVibrate");
 >>>>>>> upstream/18.0

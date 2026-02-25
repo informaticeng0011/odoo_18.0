@@ -107,6 +107,10 @@ export class LinkPopoverWidget {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.isDocument = !!(this.$target.attr("data-mimetype") && this.$target[0].dataset.mimetype.startsWith("image"));
+>>>>>>> upstream/18.0
 =======
         this.isDocument = !!(this.$target.attr("data-mimetype") && this.$target[0].dataset.mimetype.startsWith("image"));
 >>>>>>> upstream/18.0
@@ -332,7 +336,10 @@ export class LinkPopoverWidget {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -494,6 +501,9 @@ export class LinkPopoverWidget {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

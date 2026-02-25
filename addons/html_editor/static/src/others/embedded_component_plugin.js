@@ -1,4 +1,8 @@
 import { Plugin } from "@html_editor/plugin";
+<<<<<<< HEAD
+=======
+import { selectElements } from "@html_editor/utils/dom_traversal";
+>>>>>>> upstream/18.0
 import { memoize } from "@web/core/utils/functions";
 
 /**
@@ -19,6 +23,11 @@ export class EmbeddedComponentPlugin extends Plugin {
         step_added_handlers: ({ stepCommonAncestor }) => this.handleComponents(stepCommonAncestor),
         external_step_added_handlers: () => this.handleComponents(this.editable),
 
+<<<<<<< HEAD
+=======
+        before_sanitize_processors: this.preProcessSanitizedElem.bind(this),
+        after_sanitize_processors: this.postProcessSanitizedElem.bind(this),
+>>>>>>> upstream/18.0
         serializable_descendants_processors: this.processDescendantsToSerialize.bind(this),
         attribute_change_processors: this.onChangeAttribute.bind(this),
         savable_mutation_record_predicates: this.isMutationRecordSavable.bind(this),
@@ -170,6 +179,7 @@ export class EmbeddedComponentPlugin extends Plugin {
         // just before adding the root rendered html.
         const fiber = root.node.fiber;
         const fiberComplete = fiber.complete;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -790,6 +800,8 @@ export class EmbeddedComponentPlugin extends Plugin {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         fiber.complete = () => {
             host.replaceChildren();
             fiberComplete.call(fiber);
@@ -999,6 +1011,9 @@ export class EmbeddedComponentPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1510,4 +1525,37 @@ export class EmbeddedComponentPlugin extends Plugin {
             delete host.dataset.embeddedState;
         });
     }
+<<<<<<< HEAD
+=======
+
+    preProcessSanitizedElem(elem) {
+        if (elem?.nodeType !== Node.ELEMENT_NODE) {
+            return elem;
+        }
+        for (const host of selectElements(elem, "[data-embedded-props], [data-embedded-state]")) {
+            if (host.dataset.embeddedProps) {
+                host.dataset.embeddedProps = encodeURIComponent(host.dataset.embeddedProps);
+            }
+            if (host.dataset.embeddedState) {
+                host.dataset.embeddedState = encodeURIComponent(host.dataset.embeddedState);
+            }
+        }
+        return elem;
+    }
+
+    postProcessSanitizedElem(elem) {
+        if (elem?.nodeType !== Node.ELEMENT_NODE) {
+            return elem;
+        }
+        for (const host of selectElements(elem, "[data-embedded-props], [data-embedded-state]")) {
+            if (host.dataset.embeddedProps) {
+                host.dataset.embeddedProps = decodeURIComponent(host.dataset.embeddedProps);
+            }
+            if (host.dataset.embeddedState) {
+                host.dataset.embeddedState = decodeURIComponent(host.dataset.embeddedState);
+            }
+        }
+        return elem;
+    }
+>>>>>>> upstream/18.0
 }

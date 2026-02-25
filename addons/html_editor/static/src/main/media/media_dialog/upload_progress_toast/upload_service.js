@@ -40,7 +40,10 @@ export const uploadService = {
             }
         };
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
         const convertWebpToJpeg = async (dataURL, name, attachmentId) => {
             const image = document.createElement("img");
@@ -72,6 +75,9 @@ export const uploadService = {
             });
         };
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         return {
             get progressToast() {
@@ -101,12 +107,15 @@ export const uploadService = {
              * @param {Object} options
              * @param {Function} onUploaded
 <<<<<<< HEAD
+<<<<<<< HEAD
              */
             uploadFiles: async (files, { resModel, resId, isImage }, onUploaded) => {
                 // Upload the smallest file first to block the user the least possible.
                 const sortedFiles = Array.from(files).sort((a, b) => a.size - b.size);
                 for (const file of sortedFiles) {
 =======
+=======
+>>>>>>> upstream/18.0
              * @param {Function} setAbortCallback // Optional - To abort uploads
              */
             uploadFiles: async (
@@ -135,6 +144,9 @@ export const uploadService = {
                         return;
                     }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     let fileSize = file.size;
                     if (!checkFileSize(fileSize, notification)) {
@@ -161,17 +173,29 @@ export const uploadService = {
                 // limited by bandwidth.
                 for (const sortedFile of sortedFiles) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                     if (signal.aborted) {
                         break;
                     }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     const file = progressToast.files[sortedFile.progressToastId];
                     let dataURL;
                     try {
                         dataURL = await getDataURLFromFile(sortedFile);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                        if (signal.aborted) {
+                            break;
+                        }
+>>>>>>> upstream/18.0
 =======
                         if (signal.aborted) {
                             break;
@@ -186,6 +210,7 @@ export const uploadService = {
                         continue;
                     }
 <<<<<<< HEAD
+<<<<<<< HEAD
                     try {
                         const xhr = new XMLHttpRequest();
                         xhr.upload.addEventListener("progress", (ev) => {
@@ -198,6 +223,8 @@ export const uploadService = {
                         });
                         const attachment = await rpc(
 =======
+=======
+>>>>>>> upstream/18.0
 
                     currentXHR = new XMLHttpRequest();
                     addAttachmentRpc = null;
@@ -214,6 +241,9 @@ export const uploadService = {
 
                     try {
                         addAttachmentRpc = rpc(
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                             "/html_editor/attachment/add_data",
                             {
@@ -226,9 +256,12 @@ export const uploadService = {
                                 quality: 0,
                             },
 <<<<<<< HEAD
+<<<<<<< HEAD
                             { xhr }
                         );
 =======
+=======
+>>>>>>> upstream/18.0
                             { xhr: currentXHR }
                         );
 
@@ -237,12 +270,16 @@ export const uploadService = {
                             break;
                         }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                         if (attachment.error) {
                             file.hasError = true;
                             file.errorMessage = attachment.error;
                         } else {
                             if (attachment.mimetype === "image/webp") {
+<<<<<<< HEAD
 <<<<<<< HEAD
                                 // Generate alternate format for reports.
                                 const image = document.createElement("img");
@@ -272,6 +309,8 @@ export const uploadService = {
                                     { xhr }
                                 );
 =======
+=======
+>>>>>>> upstream/18.0
                                 try {
                                     // Generate alternate format for reports.
                                     await convertWebpToJpeg(
@@ -285,13 +324,19 @@ export const uploadService = {
                                         convErr
                                     );
                                 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                             }
                             file.uploaded = true;
                             await onUploaded(attachment);
                         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                     } catch (err) {
                         if (signal.aborted) {
                             break;
@@ -305,12 +350,16 @@ export const uploadService = {
                             onProgress
                         );
                         currentXHR.upload.removeEventListener("load", onLoad);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                         // If there's an error, display the error message for longer
                         const message_autoclose_delay = file.hasError
                             ? AUTOCLOSE_DELAY_LONG
                             : AUTOCLOSE_DELAY;
                         setTimeout(() => deleteFile(file.id), message_autoclose_delay);
+<<<<<<< HEAD
 <<<<<<< HEAD
                     } catch (error) {
                         file.hasError = true;
@@ -319,12 +368,17 @@ export const uploadService = {
                     }
                 }
 =======
+=======
+>>>>>>> upstream/18.0
                         dataURL = null;
                     }
                 }
 
                 currentXHR = null;
                 addAttachmentRpc = null;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             },
         };

@@ -4,7 +4,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Component } from "@odoo/owl";
+=======
+import { Component, onMounted, onWillUpdateProps, useRef } from "@odoo/owl";
+>>>>>>> upstream/18.0
 =======
 import { Component, onMounted, onWillUpdateProps, useRef } from "@odoo/owl";
 >>>>>>> upstream/18.0
@@ -44,7 +48,11 @@ export class TableMenu extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         overlay: Object,
+=======
+        close: Function,
+>>>>>>> upstream/18.0
 =======
         close: Function,
 >>>>>>> upstream/18.0
@@ -77,6 +85,10 @@ export class TableMenu extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.dropdownRef = useRef("dropdown");
+>>>>>>> upstream/18.0
 =======
         this.dropdownRef = useRef("dropdown");
 >>>>>>> upstream/18.0
@@ -110,7 +122,10 @@ export class TableMenu extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -133,6 +148,9 @@ export class TableMenu extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -160,10 +178,13 @@ export class TableMenu extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onSelected(item) {
         item.action(this.props.target);
         this.props.overlay.close();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -207,6 +228,9 @@ export class TableMenu extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

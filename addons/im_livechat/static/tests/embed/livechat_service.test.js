@@ -4,7 +4,11 @@ import {
     defineLivechatModels,
     loadDefaultEmbedConfig,
 } from "@im_livechat/../tests/livechat_test_helpers";
+<<<<<<< HEAD
 import { describe, test } from "@odoo/hoot";
+=======
+import { describe, expect, test } from "@odoo/hoot";
+>>>>>>> upstream/18.0
 import {
     assertSteps,
     click,
@@ -17,6 +21,10 @@ import {
     triggerHotkey,
 } from "@mail/../tests/mail_test_helpers";
 import { Command, mountWithCleanup, serverState } from "@web/../tests/web_test_helpers";
+<<<<<<< HEAD
+=======
+import { Deferred } from "@odoo/hoot-dom";
+>>>>>>> upstream/18.0
 
 describe.current.tags("desktop");
 defineLivechatModels();
@@ -136,3 +144,41 @@ test("Only necessary requests are made when creating a new chat", async () => {
         })}`,
     ]);
 });
+<<<<<<< HEAD
+=======
+
+test("Only create one channel when posting multiple messages", async () => {
+    const getSessionDeferred = new Deferred();
+    await loadDefaultEmbedConfig();
+    onRpcBefore("/im_livechat/get_session", async ({ persisted }) => {
+        if (persisted) {
+            await getSessionDeferred;
+        }
+        expect.step("/im_livechat/get_session");
+    });
+    onRpcBefore("/mail/message/post", (payload) => {
+        expect.step(`/mail/message/post - ${payload.post_data.body}`);
+    });
+    await start({ authenticateAs: false });
+    await mountWithCleanup(LivechatButton);
+    await click(".o-livechat-LivechatButton");
+    await expect.waitForSteps(["/im_livechat/get_session"]);
+    await insertText(".o-mail-Composer-input", "1");
+    await click(".o-mail-Composer-send:enabled");
+    await contains(".o-mail-Composer-input", { value: "" });
+    await insertText(".o-mail-Composer-input", "2");
+    await click(".o-mail-Composer-send:enabled");
+    await contains(".o-mail-Composer-input", { value: "" });
+    await insertText(".o-mail-Composer-input", "3");
+    await click(".o-mail-Composer-send:enabled");
+    await contains(".o-mail-Composer-input", { value: "" });
+    await expect.waitForSteps([]);
+    getSessionDeferred.resolve();
+    await expect.waitForSteps([
+        "/im_livechat/get_session",
+        "/mail/message/post - 1",
+        "/mail/message/post - 2",
+        "/mail/message/post - 3",
+    ]);
+});
+>>>>>>> upstream/18.0

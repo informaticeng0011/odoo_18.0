@@ -52,11 +52,19 @@ class ProductProduct(models.Model):
         return (self.allow_out_of_stock_order or not self._is_sold_out()) and super()._website_show_quick_add()
 
     def _send_availability_email(self):
+<<<<<<< HEAD
+=======
+        website = self.env['website'].get_current_website()
+>>>>>>> upstream/18.0
         for product in self.search([('stock_notification_partner_ids', '!=', False)]):
             if product._is_sold_out():
                 continue
             for partner in product.stock_notification_partner_ids:
+<<<<<<< HEAD
                 self_ctxt = self.with_context(lang=partner.lang)
+=======
+                self_ctxt = self.with_context(lang=partner.lang).with_user(website.salesperson_id)
+>>>>>>> upstream/18.0
                 product_ctxt = product.with_context(lang=partner.lang)
                 body_html = self_ctxt.env['ir.qweb']._render(
                     'website_sale_stock.availability_email_body', {'product': product_ctxt})
@@ -69,7 +77,11 @@ class ProductProduct(models.Model):
                 context = {'lang': partner.lang}  # Use partner lang to translate mail subject below
                 mail_values = {
                     "subject": _("The product '%(product_name)s' is now available", product_name=product_ctxt.name),
+<<<<<<< HEAD
                     "email_from": (product.company_id.partner_id or self.env.user).email_formatted,
+=======
+                    "email_from": (website.company_id.partner_id or self_ctxt.env.user).email_formatted,
+>>>>>>> upstream/18.0
                     "email_to": partner.email_formatted,
                     "body_html": full_mail,
                 }

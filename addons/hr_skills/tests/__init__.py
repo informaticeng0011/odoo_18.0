@@ -2,3 +2,7 @@
 
 from . import test_resource
 from . import test_ui
+<<<<<<< HEAD
+=======
+from . import test_report
+>>>>>>> upstream/18.0

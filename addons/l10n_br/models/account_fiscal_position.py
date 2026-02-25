@@ -27,12 +27,15 @@ class AccountFiscalPosition(models.Model):
             delivery = partner
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self.env.company.country_id.code != "BR" or delivery.country_id.code != 'BR':
             return super()._get_fiscal_position(partner, delivery=delivery)
 
         # manually set fiscal position on partner has a higher priority
         manual_fiscal_position = delivery.property_account_position_id or partner.property_account_position_id
 =======
+=======
+>>>>>>> upstream/18.0
         company = self.env.company
 
         if company.country_id.code != "BR" or delivery.country_id.code != 'BR':
@@ -40,11 +43,15 @@ class AccountFiscalPosition(models.Model):
 
         # manually set fiscal position on partner has a higher priority
         manual_fiscal_position = delivery.with_company(company).property_account_position_id or partner.with_company(company).property_account_position_id
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         if manual_fiscal_position:
             return manual_fiscal_position
 
         # Taxation in Brazil depends on both the state of the partner and the state of the company
+<<<<<<< HEAD
 <<<<<<< HEAD
         if self.env.company.state_id == delivery.state_id:
             return self.search([('l10n_br_fp_type', '=', 'internal'), ('company_id', '=', self.env.company.id)], limit=1)
@@ -52,9 +59,14 @@ class AccountFiscalPosition(models.Model):
             return self.search([('l10n_br_fp_type', '=', 'ss_nnm'), ('company_id', '=', self.env.company.id)], limit=1)
         return self.search([('l10n_br_fp_type', '=', 'interstate'), ('company_id', '=', self.env.company.id)], limit=1)
 =======
+=======
+>>>>>>> upstream/18.0
         if company.state_id == delivery.state_id:
             return self.search([('l10n_br_fp_type', '=', 'internal'), ('company_id', '=', company.id)], limit=1)
         if company.state_id.code in SOUTH_SOUTHEAST and delivery.state_id.code in NORTH_NORTHEAST_MIDWEST:
             return self.search([('l10n_br_fp_type', '=', 'ss_nnm'), ('company_id', '=', company.id)], limit=1)
         return self.search([('l10n_br_fp_type', '=', 'interstate'), ('company_id', '=', company.id)], limit=1)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

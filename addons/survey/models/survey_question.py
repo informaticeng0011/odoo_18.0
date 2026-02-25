@@ -210,6 +210,12 @@ class SurveyQuestion(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    survey_session_speed_rating = fields.Boolean(related="survey_id.session_speed_rating")
+    survey_session_speed_rating_time_limit = fields.Integer(related="survey_id.session_speed_rating_time_limit", string="General Time limit (seconds)")
+
+>>>>>>> upstream/18.0
 =======
     survey_session_speed_rating = fields.Boolean(related="survey_id.session_speed_rating")
     survey_session_speed_rating_time_limit = fields.Integer(related="survey_id.session_speed_rating_time_limit", string="General Time limit (seconds)")
@@ -1479,6 +1485,7 @@ class SurveyQuestion(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Empty comment
         if not self.survey_id.users_can_go_back \
                 and self.constr_mandatory \
@@ -1486,6 +1493,8 @@ class SurveyQuestion(models.Model):
                 and not (self.comments_allowed and self.comment_count_as_answer and comment):
             return {self.id: self.constr_error_msg or _('This question requires an answer.')}
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1910,6 +1919,9 @@ class SurveyQuestion(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2478,12 +2490,15 @@ class SurveyQuestion(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'count_text': _("%s Votes", count_data[suggested_answer]),
             }
             for suggested_answer in suggested_answers]
         graph_data = [{
             'text': _('Other (see comments)') if not suggested_answer else suggested_answer.value_label,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2984,6 +2999,9 @@ class SurveyQuestion(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

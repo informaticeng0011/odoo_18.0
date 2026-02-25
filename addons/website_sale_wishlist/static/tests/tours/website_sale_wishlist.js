@@ -201,6 +201,10 @@ registry.category("web_tour.tours").add('shop_wishlist', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -876,6 +880,12 @@ registry.category("web_tour.tours").add('shop_wishlist', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            trigger: ":not(:has(.my_wish_quantity:visible))",
+        },
+        {
+>>>>>>> upstream/18.0
 =======
             trigger: ":not(:has(.my_wish_quantity:visible))",
         },
@@ -1689,6 +1699,10 @@ registry.category("web_tour.tours").add('shop_wishlist', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -2389,9 +2403,12 @@ registry.category("web_tour.tours").add('shop_wishlist', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             content: "check that wishlist contains 1 item",
             trigger: ".my_wish_quantity:contains(1)",
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2741,6 +2758,9 @@ registry.category("web_tour.tours").add('shop_wishlist', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3095,7 +3115,10 @@ registry.category("web_tour.tours").add('shop_wishlist', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3445,6 +3468,9 @@ registry.category("web_tour.tours").add('shop_wishlist', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3938,6 +3964,10 @@ registry.category("web_tour.tours").add('shop_wishlist', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -4690,6 +4720,7 @@ registry.category("web_tour.tours").add('shop_wishlist', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -5018,6 +5049,8 @@ registry.category("web_tour.tours").add('shop_wishlist', {
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5248,6 +5281,9 @@ registry.category("web_tour.tours").add('shop_wishlist', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5611,6 +5647,10 @@ registry.category("web_tour.tours").add('shop_wishlist', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -6358,6 +6398,10 @@ registry.category("web_tour.tours").add('shop_wishlist', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -7124,6 +7168,10 @@ registry.category("web_tour.tours").add('shop_wishlist', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -7868,6 +7916,10 @@ registry.category("web_tour.tours").add('shop_wishlist', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -8626,6 +8678,10 @@ registry.category("web_tour.tours").add('shop_wishlist', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -9391,7 +9447,12 @@ registry.category("web_tour.tours").add('shop_wishlist', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             }
+=======
+            },
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             },
             expectUnloadPage: true,
@@ -10319,6 +10380,10 @@ registry.category("web_tour.tours").add('shop_wishlist', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -11063,6 +11128,10 @@ registry.category("web_tour.tours").add('shop_wishlist', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0

@@ -5,6 +5,10 @@ from datetime import datetime
 import time
 
 from odoo.fields import Command, first
+<<<<<<< HEAD
+=======
+from odoo.tests import Form
+>>>>>>> upstream/18.0
 from odoo.tools import float_compare
 
 from odoo.addons.product.tests.common import ProductCommon
@@ -428,7 +432,10 @@ class TestProductPricelist(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'base': 'pricelist',
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -722,6 +729,29 @@ class TestProductPricelist(ProductCommon):
         # Assert: The set value is kept
         self.assertEqual(pricelist_item.min_quantity, precise_value)
 
+<<<<<<< HEAD
+=======
+    def test_remove_product_on_0_product_variant_applied_on_rule(self):
+        """Test generation of applied on based on rule data"""
+        self.pricelist_item = self.env['product.pricelist.item'].create({
+             'pricelist_id': self.pricelist.id,
+             'applied_on': '0_product_variant',
+             'product_tmpl_id': self.product.product_tmpl_id.id,
+             'product_id': self.product.id,
+             'compute_price': 'fixed',
+             'fixed_price': 50,
+             'base': 'list_price',
+        })
+
+        self.assertEqual(self.pricelist_item.applied_on, '0_product_variant')
+        with Form(self.pricelist_item) as form:
+            form.product_tmpl_id = self.env['product.template']
+        # Test values after on change
+        self.assertFalse(self.pricelist_item.product_tmpl_id)
+        self.assertFalse(self.pricelist_item.product_id)
+        self.assertEqual(self.pricelist_item.applied_on, '3_global')
+
+>>>>>>> upstream/18.0
     def test_pricelist_sync_on_partners(self):
         ResPartner = self.env['res.partner']
 

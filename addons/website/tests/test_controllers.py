@@ -15,6 +15,10 @@ import json
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from werkzeug.test import EnvironBuilder
+>>>>>>> upstream/18.0
 =======
 from werkzeug.test import EnvironBuilder
 >>>>>>> upstream/18.0
@@ -73,6 +77,10 @@ from odoo.addons.website.controllers.main import Website
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.website.tools import MockRequest
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.website.tools import MockRequest
 >>>>>>> upstream/18.0
@@ -470,7 +478,10 @@ class TestControllers(tests.HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1071,6 +1082,7 @@ class TestControllers(tests.HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1433,6 +1445,8 @@ class TestControllers(tests.HttpCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1474,6 +1488,10 @@ class TestControllers(tests.HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.env.user.groups_id += self.env.ref('website.group_multi_website')
+>>>>>>> upstream/18.0
 =======
         self.env.user.groups_id += self.env.ref('website.group_multi_website')
 >>>>>>> upstream/18.0
@@ -1531,6 +1549,9 @@ class TestControllers(tests.HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -9,9 +9,13 @@ import {
 } from "@mail/../tests/mail_test_helpers";
 import { describe, test } from "@odoo/hoot";
 import { tick } from "@odoo/hoot-mock";
+<<<<<<< HEAD
 import { EventBus } from "@odoo/owl";
 import { Command, patchWithCleanup, withUser } from "@web/../tests/web_test_helpers";
 import { browser } from "@web/core/browser/browser";
+=======
+import { Command, withUser } from "@web/../tests/web_test_helpers";
+>>>>>>> upstream/18.0
 
 import { rpc } from "@web/core/network/rpc";
 
@@ -81,15 +85,22 @@ test.skip("bus subscription kept after receiving a message as non member", async
 });
 
 test("open channel in discuss from push notification", async () => {
+<<<<<<< HEAD
     patchWithCleanup(window.navigator, {
         serviceWorker: Object.assign(new EventBus(), { register: () => Promise.resolve() }),
     });
+=======
+>>>>>>> upstream/18.0
     const pyEnv = await startServer();
     const channelId = pyEnv["discuss.channel"].create({ name: "General" });
     await start();
     await openDiscuss();
     await contains(".o-mail-Discuss-threadName[title='Inbox']");
+<<<<<<< HEAD
     browser.navigator.serviceWorker.dispatchEvent(
+=======
+    navigator.serviceWorker.dispatchEvent(
+>>>>>>> upstream/18.0
         new MessageEvent("message", {
             data: { action: "OPEN_CHANNEL", data: { id: channelId } },
         })
