@@ -29,23 +29,35 @@ export class SanitizePlugin extends Plugin {
      */
     sanitize(elem) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return this.DOMPurify.sanitize(elem, {
 =======
+=======
+>>>>>>> upstream/18.0
         for (const cb of this.getResource("before_sanitize_processors")) {
             elem = cb(elem);
         }
         elem = this.DOMPurify.sanitize(elem, {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             IN_PLACE: true,
             ADD_TAGS: ["#document-fragment", "fake-el"],
             ADD_ATTR: ["contenteditable"],
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         for (const cb of this.getResource("after_sanitize_processors")) {
             elem = cb(elem);
         }
         return elem;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
 

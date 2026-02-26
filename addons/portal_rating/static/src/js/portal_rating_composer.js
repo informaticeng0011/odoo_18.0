@@ -172,6 +172,10 @@ import { user } from "@web/core/user";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { Component } from "@odoo/owl";
+>>>>>>> upstream/18.0
 =======
 import { Component } from "@odoo/owl";
 >>>>>>> upstream/18.0
@@ -918,6 +922,7 @@ const RatingPopupComposer = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.options.send_button_label = this.options.default_message_id ? _t("Update review") : _t("Post review");
 =======
 >>>>>>> upstream/18.0
@@ -1012,6 +1017,11 @@ const RatingPopupComposer = publicWidget.Widget.extend({
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        Component.env.bus.addEventListener("reload_rating_popup_composer", (ev) =>
+            this._onReloadRatingPopupComposer(ev.detail)
+        );
 >>>>>>> upstream/18.0
 =======
         Component.env.bus.addEventListener("reload_rating_popup_composer", (ev) =>
@@ -2108,6 +2118,11 @@ const RatingPopupComposer = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        // Change the text of send button
+        this.options.send_button_label = this.options.default_message_id ? _t("Update review") : _t("Post review");
+>>>>>>> upstream/18.0
 =======
         // Change the text of send button
         this.options.send_button_label = this.options.default_message_id ? _t("Update review") : _t("Post review");
@@ -3149,11 +3164,14 @@ const RatingPopupComposer = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param {OdooEvent} event
      */
     _onReloadRatingPopupComposer: function (event) {
         const data = event.data;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3656,6 +3674,9 @@ const RatingPopupComposer = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4004,6 +4025,7 @@ const RatingPopupComposer = publicWidget.Widget.extend({
         this._reloadRatingPopupComposer();
     },
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4513,6 +4535,8 @@ const RatingPopupComposer = publicWidget.Widget.extend({
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     /**
      * Update the widget options using data received from the mail composer or popup rating composer
      *
@@ -4565,6 +4589,9 @@ const RatingPopupComposer = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4664,6 +4691,7 @@ const RatingPopupComposer = publicWidget.Widget.extend({
             default_attachment_ids: data.default_attachment_ids || data["ir.attachment"],
             default_rating_value:
                 data.default_rating_value || this.rating_value || 4,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5165,6 +5193,8 @@ const RatingPopupComposer = publicWidget.Widget.extend({
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         };
         if (message?.author && message.author.id === this.options.partner_id) {
             Object.assign(this.options, data, updatedOptions);
@@ -5212,6 +5242,9 @@ const RatingPopupComposer = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

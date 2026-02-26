@@ -239,7 +239,10 @@ class TestAccountEarlyPaymentDiscount(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -783,6 +786,9 @@ class TestAccountEarlyPaymentDiscount(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1817,7 +1823,10 @@ class TestAccountEarlyPaymentDiscount(AccountTestInvoicingCommon):
         })
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_mixed_epd_global_rounding(self):
         """
             Ensure the early payment discount journal item is computed by rounding globally.
@@ -1860,6 +1869,9 @@ class TestAccountEarlyPaymentDiscount(AccountTestInvoicingCommon):
         discount = term_vals['balance'] - term_vals['discount_balance']
         self.assertAlmostEqual(discount, 0.19)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_register_payment_batch_with_discount_and_without_discount(self):
         """

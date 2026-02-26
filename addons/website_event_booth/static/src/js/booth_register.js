@@ -134,7 +134,11 @@ publicWidget.registry.boothRegistration = publicWidget.Widget.extend({
         }
 
         if (errors.includes('existingPartnerError')) {
+<<<<<<< HEAD
             errorMessages.push(_t("It looks like your email is linked to an existing account."));
+=======
+            errorMessages.push(_t("It looks like your email is already in our system."));
+>>>>>>> upstream/18.0
             if (errorSigninEl) {
                 errorSigninEl.classList.remove('d-none');
             }

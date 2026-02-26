@@ -5,7 +5,11 @@ import {
     loadDefaultEmbedConfig,
 } from "@im_livechat/../tests/livechat_test_helpers";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { describe, test } from "@odoo/hoot";
+=======
+import { describe, expect, test } from "@odoo/hoot";
+>>>>>>> upstream/18.0
 =======
 import { describe, expect, test } from "@odoo/hoot";
 >>>>>>> upstream/18.0
@@ -22,6 +26,10 @@ import {
 } from "@mail/../tests/mail_test_helpers";
 import { Command, mountWithCleanup, serverState } from "@web/../tests/web_test_helpers";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { Deferred } from "@odoo/hoot-dom";
+>>>>>>> upstream/18.0
 =======
 import { Deferred } from "@odoo/hoot-dom";
 >>>>>>> upstream/18.0
@@ -145,7 +153,10 @@ test("Only necessary requests are made when creating a new chat", async () => {
     ]);
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 test("Only create one channel when posting multiple messages", async () => {
     const getSessionDeferred = new Deferred();
@@ -181,4 +192,7 @@ test("Only create one channel when posting multiple messages", async () => {
         "/mail/message/post - 3",
     ]);
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

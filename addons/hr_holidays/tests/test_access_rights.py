@@ -17,6 +17,10 @@ from dateutil.relativedelta import relativedelta
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from freezegun import freeze_time
+>>>>>>> upstream/18.0
 =======
 from freezegun import freeze_time
 >>>>>>> upstream/18.0
@@ -451,6 +455,7 @@ class TestAcessRightsStates(TestHrHolidaysAccessRightsCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -513,6 +518,9 @@ class TestAcessRightsStates(TestHrHolidaysAccessRightsCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+    @freeze_time('2026-01-23 10:00:00')
 >>>>>>> upstream/18.0
 =======
     @freeze_time('2026-01-23 10:00:00')
@@ -615,6 +623,9 @@ class TestAcessRightsStates(TestHrHolidaysAccessRightsCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

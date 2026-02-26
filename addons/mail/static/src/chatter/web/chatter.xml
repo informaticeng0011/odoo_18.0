@@ -55,7 +55,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     }" t-att-disabled="!state.thread.hasWriteAccess and !(state.thread.hasReadAccess and state.thread.canPostOnReadonly) and props.threadId" data-hotkey="m" t-on-click="() => this.toggleComposer('message')">
+=======
+                    }" t-att-disabled="!state.thread.canPostMessage and props.threadId" data-hotkey="m" t-on-click="() => this.toggleComposer('message')">
+>>>>>>> upstream/18.0
 =======
                     }" t-att-disabled="!state.thread.canPostMessage and props.threadId" data-hotkey="m" t-on-click="() => this.toggleComposer('message')">
 >>>>>>> upstream/18.0
@@ -226,11 +230,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     }" t-att-disabled="!state.thread.hasWriteAccess and !(state.thread.hasReadAccess and state.thread.canPostOnReadonly) and props.threadId" data-hotkey="shift+m" t-on-click="() => this.toggleComposer('note')">
                         Log note
                     </button>
                     <button t-if="props.has_activities" class="o-mail-Chatter-activity btn btn-secondary text-nowrap" t-att-class="{ 'my-2': !props.compactHeight }" data-hotkey="shift+a" t-on-click="scheduleActivity">
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -357,6 +364,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -577,7 +587,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <button class="btn btn-link" type="button" t-att-disabled="!state.thread.hasWriteAccess">
+=======
+                                <button class="btn btn-link" type="button" t-att-disabled="!state.thread.canPostMessage">
+>>>>>>> upstream/18.0
 =======
                                 <button class="btn btn-link" type="button" t-att-disabled="!state.thread.canPostMessage">
 >>>>>>> upstream/18.0
@@ -795,7 +809,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <button class="o-mail-Chatter-attachFiles btn btn-link text-action px-1 d-flex align-items-center" aria-label="Attach files" t-att-class="{ 'my-2': !props.compactHeight }" t-on-click="onClickAddAttachments" t-att-disabled="state.isSearchOpen">
+=======
+    <button class="o-mail-Chatter-attachFiles btn btn-link text-action px-1 d-flex align-items-center" aria-label="Attach files" t-att-class="{ 'my-2': !props.compactHeight }" t-on-click="onClickAddAttachments"
+            t-att-disabled="state.isSearchOpen || (!state.thread.canPostMessage and attachments.length === 0)">
+>>>>>>> upstream/18.0
 =======
     <button class="o-mail-Chatter-attachFiles btn btn-link text-action px-1 d-flex align-items-center" aria-label="Attach files" t-att-class="{ 'my-2': !props.compactHeight }" t-on-click="onClickAddAttachments"
             t-att-disabled="state.isSearchOpen || (!state.thread.canPostMessage and attachments.length === 0)">

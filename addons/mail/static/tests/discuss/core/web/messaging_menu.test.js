@@ -6,7 +6,10 @@ import {
     insertText,
     openDiscuss,
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchBrowserNotification,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     patchUiSize,
@@ -15,7 +18,11 @@ import {
     triggerHotkey,
 } from "@mail/../tests/mail_test_helpers";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { describe, expect, test } from "@odoo/hoot";
+=======
+import { describe, expect, mockPermission, test } from "@odoo/hoot";
+>>>>>>> upstream/18.0
 =======
 import { describe, expect, mockPermission, test } from "@odoo/hoot";
 >>>>>>> upstream/18.0
@@ -180,7 +187,11 @@ test("channel preview ignores messages from the past", async () => {
 
 test("counter is taking into account non-fetched channels", async () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchBrowserNotification("denied");
+=======
+    mockPermission("notifications", "denied");
+>>>>>>> upstream/18.0
 =======
     mockPermission("notifications", "denied");
 >>>>>>> upstream/18.0
@@ -213,7 +224,11 @@ test("counter is taking into account non-fetched channels", async () => {
 
 test("counter is updated on receiving message on non-fetched channels", async () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchBrowserNotification("denied");
+=======
+    mockPermission("notifications", "denied");
+>>>>>>> upstream/18.0
 =======
     mockPermission("notifications", "denied");
 >>>>>>> upstream/18.0

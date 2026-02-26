@@ -53,6 +53,10 @@ class ProductProduct(models.Model):
 
     def _send_availability_email(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        website = self.env['website'].get_current_website()
+>>>>>>> upstream/18.0
 =======
         website = self.env['website'].get_current_website()
 >>>>>>> upstream/18.0
@@ -61,7 +65,11 @@ class ProductProduct(models.Model):
                 continue
             for partner in product.stock_notification_partner_ids:
 <<<<<<< HEAD
+<<<<<<< HEAD
                 self_ctxt = self.with_context(lang=partner.lang)
+=======
+                self_ctxt = self.with_context(lang=partner.lang).with_user(website.salesperson_id)
+>>>>>>> upstream/18.0
 =======
                 self_ctxt = self.with_context(lang=partner.lang).with_user(website.salesperson_id)
 >>>>>>> upstream/18.0
@@ -78,7 +86,11 @@ class ProductProduct(models.Model):
                 mail_values = {
                     "subject": _("The product '%(product_name)s' is now available", product_name=product_ctxt.name),
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "email_from": (product.company_id.partner_id or self.env.user).email_formatted,
+=======
+                    "email_from": (website.company_id.partner_id or self_ctxt.env.user).email_formatted,
+>>>>>>> upstream/18.0
 =======
                     "email_from": (website.company_id.partner_id or self_ctxt.env.user).email_formatted,
 >>>>>>> upstream/18.0

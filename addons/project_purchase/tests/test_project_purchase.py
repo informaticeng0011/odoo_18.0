@@ -173,11 +173,14 @@ class TestProjectPurchase(TestProjectPurchaseProfitability):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     def test_compute_purchase_orders_count(self):
         project1 = self.env['project.project'].create({'name': 'Project'})
         project1.account_id = self.analytic_account  # Project with analytics
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -526,6 +529,47 @@ class TestProjectPurchase(TestProjectPurchaseProfitability):
         # Create additional analytic plans at setup to avoid adding fields in project.project between tests
         cls.analytic_plan_1 = cls.env['account.analytic.plan'].create({'name': 'Purchase Project Plan 1'})
         cls.analytic_plan_2 = cls.env['account.analytic.plan'].create({'name': 'Purchase Project Plan 2'})
+<<<<<<< HEAD
+=======
+        cls.analytic_account_1 = cls.env['account.analytic.account'].create({
+            'name': 'Analytic Account - Plan 1',
+            'plan_id': cls.analytic_plan_1.id,
+        })
+        cls.analytic_account_2 = cls.env['account.analytic.account'].create({
+            'name': 'Analytic Account - Plan 2',
+            'plan_id': cls.analytic_plan_2.id,
+        })
+
+    def test_project_creation_on_po_with_manual_analytic(self):
+        """ Tests the interaction between manually added analytic account, distribution
+            model accounts and the project account created when the PO is confirmed.
+        """
+        self.env['account.analytic.distribution.model'].create({
+            'partner_id': self.partner.id,
+            'analytic_distribution': {self.analytic_account_1.id: 100},
+            'company_id': self.company.id,
+        })
+        analytic_distribution_manual = {str(self.analytic_account.id): 100}
+
+        purchase_order = self.env['purchase.order'].create({
+            'partner_id': self.partner.id,
+            'order_line': [
+                Command.create({
+                    'product_id': self.product_order.id,
+                }),
+            ],
+        })
+
+        # Add a manual analytic account and a project
+        purchase_order.order_line.analytic_distribution = {**purchase_order.order_line.analytic_distribution, **analytic_distribution_manual}
+        purchase_order.project_id = self.project1
+        # All accounts should still be in the line after confirmation
+        expected_analytic_distribution = {
+            f"{self.analytic_account.id},{purchase_order.project_id.account_id.id}": 100,
+            f"{self.analytic_account_1.id},{purchase_order.project_id.account_id.id}": 100,
+        }
+        self.assertEqual(purchase_order.order_line.analytic_distribution, expected_analytic_distribution)
+>>>>>>> upstream/18.0
 
     def test_project_on_pol_with_analytic_distribution_model(self):
         """ If a line has a distribution coming from an analytic distribution model, and the PO has a project,
@@ -534,6 +578,7 @@ class TestProjectPurchase(TestProjectPurchaseProfitability):
         """
         # We create one distribution model with two accounts in one line, based on product
         # and a second model with a different plan, based on partner
+<<<<<<< HEAD
         analytic_account_1 = self.env['account.analytic.account'].create({
             'name': 'Analytic Account - Plan 1',
             'plan_id': self.analytic_plan_1.id,
@@ -545,6 +590,11 @@ class TestProjectPurchase(TestProjectPurchaseProfitability):
         distribution_model_product = self.env['account.analytic.distribution.model'].create({
             'product_id': self.product_order.id,
             'analytic_distribution': {','.join([str(analytic_account_1.id), str(analytic_account_2.id)]): 100},
+=======
+        distribution_model_product = self.env['account.analytic.distribution.model'].create({
+            'product_id': self.product_order.id,
+            'analytic_distribution': {','.join([str(self.analytic_account_1.id), str(self.analytic_account_2.id)]): 100},
+>>>>>>> upstream/18.0
             'company_id': self.company.id,
         })
         distribution_model_partner = self.env['account.analytic.distribution.model'].create({
@@ -567,7 +617,11 @@ class TestProjectPurchase(TestProjectPurchaseProfitability):
         # When we add a project to the PO, it should keep the previous accounts + the project account
         purchase_order.project_id = self.project1
         expected_distribution_project = {
+<<<<<<< HEAD
             f"{analytic_account_1.id},{analytic_account_2.id},{self.project1.account_id.id}": 100,
+=======
+            f"{self.analytic_account_1.id},{self.analytic_account_2.id},{self.project1.account_id.id}": 100,
+>>>>>>> upstream/18.0
             f"{self.analytic_account.id},{self.project1.account_id.id}": 100,
         }
         self.assertEqual(purchase_order.order_line.analytic_distribution, expected_distribution_project)
@@ -740,6 +794,9 @@ class TestProjectPurchase(TestProjectPurchaseProfitability):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1255,7 +1312,11 @@ class TestProjectPurchase(TestProjectPurchaseProfitability):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'project_id': project1.id,
+=======
+                'project_id': self.project1.id,
+>>>>>>> upstream/18.0
 =======
                 'project_id': self.project1.id,
 >>>>>>> upstream/18.0
@@ -1929,12 +1990,15 @@ class TestProjectPurchase(TestProjectPurchaseProfitability):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'project_id': project1.id,
                 'order_line': [Command.create({**order_line_values, 'analytic_distribution': {self.analytic_account.id: 100}})]
             },
         ])
         self.assertEqual(project1.purchase_orders_count, 3, 'The number of purchase orders linked to project1 should be equal to 3.')
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2438,6 +2502,9 @@ class TestProjectPurchase(TestProjectPurchaseProfitability):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

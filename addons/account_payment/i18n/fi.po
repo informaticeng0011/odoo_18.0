@@ -25,6 +25,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* account_payment
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -547,6 +548,10 @@
 # * account_payment
 #
 >>>>>>> upstream/18.0
+=======
+# * account_payment
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Atte Isopuro <atte.isopuro@web-veistamo.fi>, 2024
 # Veikko Väätäjä <veikko.vaataja@gmail.com>, 2024
@@ -563,6 +568,7 @@
 # Tuomas Lyyra <tuomas.lyyra@legenda.fi>, 2024
 # Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2024
 # Jessica Jakara, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1084,10 +1090,14 @@
 =======
 # Saara Hakanen <sahak@odoo.com>, 2026.
 >>>>>>> upstream/18.0
+=======
+# Saara Hakanen <sahak@odoo.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1516,6 +1526,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-01-29 17:39+0000\n"
 "Last-Translator: Saara Hakanen <sahak@odoo.com>\n"
@@ -1545,6 +1557,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1598,6 +1613,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2037,6 +2053,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
@@ -2070,8 +2090,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "#%(number)s - Lyhennyserän <strong>%(amount)s</strong> eräpäivä on <strong "
 "class=\"text-primary\">%(date)s</strong>"
+=======
+"#%(number)s - Maksuerän <strong>%(amount)s</strong> eräpäivä <strong class"
+"=\"text-primary\">%(date)s</strong>"
+>>>>>>> upstream/18.0
 =======
 "#%(number)s - Maksuerän <strong>%(amount)s</strong> eräpäivä <strong class"
 "=\"text-primary\">%(date)s</strong>"
@@ -2207,7 +2232,11 @@ msgid "<b>Communication: </b>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<b>Viite: </b>"
+=======
+msgstr "<b>Viesti: </b>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<b>Viesti: </b>"
 >>>>>>> upstream/18.0
@@ -2359,7 +2388,11 @@ msgid "<span class=\"d-none d-md-inline\"> Pending</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span class=\"d-none d-md-inline\"> Vireillä</span>"
+=======
+msgstr "<span class=\"d-none d-md-inline\"> Odottaa</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"d-none d-md-inline\"> Odottaa</span>"
 >>>>>>> upstream/18.0
@@ -2472,7 +2505,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<strong>Lyhennyserä</strong>\n"
+=======
+"<strong>Maksuerä</strong>\n"
+>>>>>>> upstream/18.0
 =======
 "<strong>Maksuerä</strong>\n"
 >>>>>>> upstream/18.0
@@ -2554,6 +2591,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account_payment.payment_refund_wizard_view_form
 msgid ""
 "<strong>Warning!</strong> There is a refund pending for this payment.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2949,11 +2987,14 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        Wait a moment for it to be processed. If the refund "
 "is still pending in a\n"
 "                        few minutes, please check your payment provider "
 "configuration."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3346,6 +3387,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<strong>Varoitus!</strong> Tähän maksuun liittyy käsiteltävänä oleva "
 "takaisinmaksu.\n"
 "                        Odota, että se käsitellään. Jos takaisinmaksu "
@@ -3376,6 +3419,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3430,6 +3476,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/account_payment/wizards/payment_link_wizard.py:0
 msgid "A discount will be applied if the customer pays before %s included."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3532,10 +3579,14 @@ msgstr "Alennus myönnetään, jos asiakas maksaa ennen %s tai sinä päivänä.
 =======
 msgstr "Alennus myönnetään, jos asiakas maksaa ennen %s tai sinä päivänä."
 >>>>>>> upstream/18.0
+=======
+msgstr "Alennus myönnetään, jos asiakas maksaa ennen %s tai sinä päivänä."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4188,6 +4239,10 @@ msgid ""
 "A payment has already been made on this invoice, please make sure to not pay "
 "twice."
 >>>>>>> upstream/18.0
+=======
+"A payment has already been made on this invoice, please make sure to not pay "
+"twice."
+>>>>>>> upstream/18.0
 msgstr ""
 "Laskun tiedoilla on jo suoritettu maksu. Varmista, ettet maksa kahdesti."
 
@@ -4220,7 +4275,11 @@ msgid "A payment transaction with reference %s already exists."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Maksutapahtuma, jonka viite on %s, on jo olemassa."
+=======
+msgstr "Maksutapahtuma viitteellä %s on jo olemassa."
+>>>>>>> upstream/18.0
 =======
 msgstr "Maksutapahtuma viitteellä %s on jo olemassa."
 >>>>>>> upstream/18.0
@@ -4326,7 +4385,11 @@ msgid "A token is required to create a new payment transaction."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Uuden maksutapahtuman luomiseen vaaditaan tunnus."
+=======
+msgstr "Uuden maksutapahtuman luomiseen vaaditaan tunniste."
+>>>>>>> upstream/18.0
 =======
 msgstr "Uuden maksutapahtuman luomiseen vaaditaan tunniste."
 >>>>>>> upstream/18.0
@@ -4437,7 +4500,11 @@ msgid "Amount"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Arvo"
+=======
+msgstr "Määrä"
+>>>>>>> upstream/18.0
 =======
 msgstr "Määrä"
 >>>>>>> upstream/18.0
@@ -4542,7 +4609,11 @@ msgid "Amount Available For Refund"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Palautettavaksi käytettävissä oleva määrä"
+=======
+msgstr "Takaisinmaksuun saatavilla oleva määrä"
+>>>>>>> upstream/18.0
 =======
 msgstr "Takaisinmaksuun saatavilla oleva määrä"
 >>>>>>> upstream/18.0
@@ -4647,7 +4718,11 @@ msgid "Amount Due"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Erääntynyt summa"
+=======
+msgstr "Maksettava summa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Maksettava summa"
 >>>>>>> upstream/18.0
@@ -4761,8 +4836,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Are you sure you want to void the authorized transaction? This action can't "
 "be undone."
+=======
+"Haluatko varmasti mitätöidä valtuutetun tapahtuman? Tätä toimintoa ei voi "
+"peruuttaa."
+>>>>>>> upstream/18.0
 =======
 "Haluatko varmasti mitätöidä valtuutetun tapahtuman? Tätä toimintoa ei voi "
 "peruuttaa."
@@ -4898,7 +4978,11 @@ msgid "Capture Transaction"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Vastaanota siirto"
+=======
+msgstr "Tallenna tapahtuma"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tallenna tapahtuma"
 >>>>>>> upstream/18.0
@@ -4983,6 +5067,7 @@ msgid "Close"
 msgstr "Sulje"
 
 #. module: account_payment
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5378,6 +5463,8 @@ msgstr "Koodi"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:account_payment.model_res_config_settings
 msgid "Config Settings"
 msgstr "Asetukset"
@@ -5435,7 +5522,11 @@ msgid "Display Open Installments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Näytä avoimet erät"
+=======
+msgstr "Näytä avoimet maksuerät"
+>>>>>>> upstream/18.0
 =======
 msgstr "Näytä avoimet maksuerät"
 >>>>>>> upstream/18.0
@@ -5542,7 +5633,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Valmis, verkkomaksusi on käsitelty. Kiitos tilauksestasi."
+=======
+msgstr "Valmis, verkkomaksusi on käsitelty onnistuneesti. Kiitos tilauksestasi."
+>>>>>>> upstream/18.0
 =======
 msgstr "Valmis, verkkomaksusi on käsitelty onnistuneesti. Kiitos tilauksestasi."
 >>>>>>> upstream/18.0
@@ -5652,7 +5747,11 @@ msgid "Early Payment Discount of"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Varhaisen maksun kassa-alennus"
+=======
+msgstr "Ennakkomaksualennus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ennakkomaksualennus"
 >>>>>>> upstream/18.0
@@ -5762,7 +5861,11 @@ msgid "Full Only"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Vain täysi"
+=======
+msgstr "Vain kokonainen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vain kokonainen"
 >>>>>>> upstream/18.0
@@ -5877,7 +5980,11 @@ msgid "Has Eligible Epd"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Kelvollinen ennakkomaksualennukseen"
+=======
+msgstr "Sisältää kelvollisen ennakkomaksualennuksen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sisältää kelvollisen ennakkomaksualennuksen"
 >>>>>>> upstream/18.0
@@ -5982,7 +6089,11 @@ msgid "Has a pending refund"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Maksun palautus on käynnissä"
+=======
+msgstr "Sisältää odottavan takaisinmaksun"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sisältää odottavan takaisinmaksun"
 >>>>>>> upstream/18.0
@@ -6087,7 +6198,11 @@ msgid "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ID"
+=======
+msgstr "Tunnus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tunnus"
 >>>>>>> upstream/18.0
@@ -6196,7 +6311,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Kaikkia erääntyneitä laskuja ei voi maksaa, jos niillä ei ole sama valuutta."
+=======
+"Kaikkia erääntyneitä laskuja ei voi maksaa, jos ne eivät ole samassa "
+"valuutassa."
+>>>>>>> upstream/18.0
 =======
 "Kaikkia erääntyneitä laskuja ei voi maksaa, jos ne eivät ole samassa "
 "valuutassa."
@@ -6329,8 +6449,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Testitilassa väärennetty maksu käsitellään testimaksuliittymän kautta.\n"
 "Tätä tilaa suositellaan palveluntarjoajan perustamisen yhteydessä."
+=======
+"Testitilassa epäaidot maksut käsitellään testimaksuliittymän kautta.\n"
+"Tätä tilaa suositellaan palveluntarjoajan käyttöönoton yhteydessä."
+>>>>>>> upstream/18.0
 =======
 "Testitilassa epäaidot maksut käsitellään testimaksuliittymän kautta.\n"
 "Tätä tilaa suositellaan palveluntarjoajan käyttöönoton yhteydessä."
@@ -6482,7 +6607,11 @@ msgid "Invoices Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Laskujen määrä"
+=======
+msgstr "Laskujen lukumäärä"
+>>>>>>> upstream/18.0
 =======
 msgstr "Laskujen lukumäärä"
 >>>>>>> upstream/18.0
@@ -6587,7 +6716,11 @@ msgid "Invoices to pay"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Maksettavana olevat laskut"
+=======
+msgstr "Maksettavat laskut"
+>>>>>>> upstream/18.0
 =======
 msgstr "Maksettavat laskut"
 >>>>>>> upstream/18.0
@@ -6717,7 +6850,11 @@ msgid "Next Installments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Seuraavat erät"
+=======
+msgstr "Seuraavat maksuerät"
+>>>>>>> upstream/18.0
 =======
 msgstr "Seuraavat maksuerät"
 >>>>>>> upstream/18.0
@@ -6825,8 +6962,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Huomaa, että saatavilla on vain sellaisten palveluntarjoajien tunnisteita, "
 "jotka mahdollistavat summan tallentamisen."
+=======
+"Huomaa, että käytettävissä on vain sellaisten palveluntarjoajien "
+"tunnisteita, jotka sallivat summan tallentamisen."
+>>>>>>> upstream/18.0
 =======
 "Huomaa, että käytettävissä on vain sellaisten palveluntarjoajien "
 "tunnisteita, jotka sallivat summan tallentamisen."
@@ -6959,9 +7101,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Huomaa, että sellaisten palveluntarjoajien tunnisteet, jotka on asetettu "
 "vain hyväksymään tapahtumia (eikä tallentamaan summaa), eivät ole "
 "käytettävissä."
+=======
+"Huomaa, että sellaisten palveluntarjoajien tunnisteet, jotka on määritetty "
+"ainaoastaan valtuuttamaan tapahtumia (summan tallentamisen sijaan), eivät "
+"ole käytettävissä."
+>>>>>>> upstream/18.0
 =======
 "Huomaa, että sellaisten palveluntarjoajien tunnisteet, jotka on määritetty "
 "ainaoastaan valtuuttamaan tapahtumia (summan tallentamisen sijaan), eivät "
@@ -7237,6 +7385,7 @@ msgid "Online payment option is not enabled in Configuration."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8076,6 +8225,9 @@ msgstr "Verkkomaksuvaihtoehtoa ei ole otettu käyttöön asetuksissa."
 =======
 msgstr "Verkkomaksuvaihtoehtoa ei ole otettu käyttöön asetuksissa."
 >>>>>>> upstream/18.0
+=======
+msgstr "Verkkomaksuvaihtoehtoa ei ole otettu käyttöön asetuksissa."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
@@ -8106,7 +8258,11 @@ msgid "Overdue invoices should share the same company."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Erääntyneillä laskuilla tulee olla sama yritys."
+=======
+msgstr "Erääntyneillä laskuilla pitäisi olla sama yritys."
+>>>>>>> upstream/18.0
 =======
 msgstr "Erääntyneillä laskuilla pitäisi olla sama yritys."
 >>>>>>> upstream/18.0
@@ -8212,7 +8368,11 @@ msgid "Overdue invoices should share the same currency."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Erääntyneillä laskuilla tulee olla sama valuutta."
+=======
+msgstr "Erääntyneillä laskuilla pitäisi olla sama valuutta."
+>>>>>>> upstream/18.0
 =======
 msgstr "Erääntyneillä laskuilla pitäisi olla sama valuutta."
 >>>>>>> upstream/18.0
@@ -8318,7 +8478,11 @@ msgid "Overdue invoices should share the same partner."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Erääntyneillä laskuilla tulee olla sama yhteistyökumppani."
+=======
+msgstr "Erääntyneillä laskuilla pitäisi olla sama kumppani."
+>>>>>>> upstream/18.0
 =======
 msgstr "Erääntyneillä laskuilla pitäisi olla sama kumppani."
 >>>>>>> upstream/18.0
@@ -8445,7 +8609,11 @@ msgid "Pay Now"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Maksa"
+=======
+msgstr "Maksa nyt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Maksa nyt"
 >>>>>>> upstream/18.0
@@ -8555,7 +8723,11 @@ msgid "Pay overdue"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Maksa myöhässä olevat"
+=======
+msgstr "Maksa erääntyneet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Maksa erääntyneet"
 >>>>>>> upstream/18.0
@@ -8666,7 +8838,11 @@ msgid "Payment Amount"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Maksumäärä"
+=======
+msgstr "Maksun summa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Maksun summa"
 >>>>>>> upstream/18.0
@@ -8789,7 +8965,11 @@ msgid "Payment Providers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Maksupalvelujen tarjoajat"
+=======
+msgstr "Maksupalveluntarjoajat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Maksupalveluntarjoajat"
 >>>>>>> upstream/18.0
@@ -8894,7 +9074,11 @@ msgid "Payment Refund Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Maksujen palautuksen ohjattu toiminto"
+=======
+msgstr "Ohjattu takaisinmaksutoiminto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ohjattu takaisinmaksutoiminto"
 >>>>>>> upstream/18.0
@@ -9044,7 +9228,11 @@ msgid "Refund"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Hyvitys"
+=======
+msgstr "Takaisinmaksu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Takaisinmaksu"
 >>>>>>> upstream/18.0
@@ -9159,7 +9347,11 @@ msgid "Refunds"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Hyvitykset"
+=======
+msgstr "Takaisinmaksut"
+>>>>>>> upstream/18.0
 =======
 msgstr "Takaisinmaksut"
 >>>>>>> upstream/18.0
@@ -9264,7 +9456,11 @@ msgid "Refunds Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Palautusten määrä"
+=======
+msgstr "Hyvitysten lukumäärä"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hyvitysten lukumäärä"
 >>>>>>> upstream/18.0
@@ -9369,7 +9565,11 @@ msgid "SETUP"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ASETUS"
+=======
+msgstr "KÄYTTÖÖNOTTO"
+>>>>>>> upstream/18.0
 =======
 msgstr "KÄYTTÖÖNOTTO"
 >>>>>>> upstream/18.0
@@ -9489,7 +9689,11 @@ msgid "State"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Alue"
+=======
+msgstr "Tila"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tila"
 >>>>>>> upstream/18.0
@@ -9614,8 +9818,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Palautettavan määrän on oltava positiivinen, eikä se voi olla suurempi kuin "
 "%s."
+=======
+"Takaisinmaksettavan summan on oltava positiivinen, eikä se voi olla suurempi "
+"kuin %s."
+>>>>>>> upstream/18.0
 =======
 "Takaisinmaksettavan summan on oltava positiivinen, eikä se voi olla suurempi "
 "kuin %s."
@@ -9765,7 +9974,11 @@ msgid "The source payment of related refund payments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tähän liittyvien maksupalautusten lähdemaksu"
+=======
+msgstr "Liittyvien takaisinmaksujen lähdemaksu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Liittyvien takaisinmaksujen lähdemaksu"
 >>>>>>> upstream/18.0
@@ -10088,6 +10301,7 @@ msgid "There are pending transactions for this invoice."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Tällä laskulla ei ole odottavia maksutapahtumia."
@@ -10739,6 +10953,9 @@ msgstr "Tällä laskulla ei ole odottavia maksutapahtumia."
 >>>>>>> upstream/18.0
 =======
 msgstr "Tällä laskulla ei ole odottavia maksutapahtumia."
+>>>>>>> upstream/18.0
+=======
+msgstr "Tälle laskulle on käsiteltävänä olevia tapahtumia."
 >>>>>>> upstream/18.0
 =======
 msgstr "Tälle laskulle on käsiteltävänä olevia tapahtumia."
@@ -11062,7 +11279,11 @@ msgid "There is no amount to be paid."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ei maksetavaa."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ei maksetavaa."
 >>>>>>> upstream/18.0
@@ -12060,7 +12281,11 @@ msgid "This invoice cannot be paid online."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tätä laskua ei voi maksaa verkossa."
+>>>>>>> upstream/18.0
 =======
 msgstr "Tätä laskua ei voi maksaa verkossa."
 >>>>>>> upstream/18.0
@@ -13040,6 +13265,7 @@ msgid "This invoice isn't posted."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Tätä laskua ei ole tallennettu tai julkaistu."
@@ -13691,6 +13917,9 @@ msgstr "Tätä laskua ei ole tallennettu tai julkaistu."
 >>>>>>> upstream/18.0
 =======
 msgstr "Tätä laskua ei ole tallennettu tai julkaistu."
+>>>>>>> upstream/18.0
+=======
+msgstr "Tätä laskua ei ole kirjattu."
 >>>>>>> upstream/18.0
 =======
 msgstr "Tätä laskua ei ole kirjattu."
@@ -14014,6 +14243,7 @@ msgid "This is not an outgoing invoice."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Tämä ei ole lähetettävä lasku."
@@ -14741,6 +14971,9 @@ msgstr "Tämä ei ole lähtevä lasku."
 =======
 msgstr "Tämä ei ole lähtevä lasku."
 >>>>>>> upstream/18.0
+=======
+msgstr "Tämä ei ole lähtevä lasku."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_account_bank_statement_line__transaction_count
@@ -14771,7 +15004,11 @@ msgid "Transaction Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tilitapahtumien määrä"
+=======
+msgstr "Tapahtumien lukumäärä"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tapahtumien lukumäärä"
 >>>>>>> upstream/18.0
@@ -14893,7 +15130,11 @@ msgid "Void Transaction"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mitätön kauppa"
+=======
+msgstr "Mitätöity tapahtuma"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mitätöity tapahtuma"
 >>>>>>> upstream/18.0
@@ -14974,6 +15215,7 @@ msgstr "Mitätöity tapahtuma"
 #. odoo-python
 #: code:addons/account_payment/models/account_payment_method_line.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15367,10 +15609,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "You can't delete a payment method that is linked to a provider in the "
 "enabled or test state.\n"
 "Linked providers(s): %s"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15811,6 +16056,10 @@ msgstr ""
 "Et voi poistaa maksutapaa, joka on linkitetty palveluntarjoajaan sallitussa- "
 "tai testitilassa.\n"
 >>>>>>> upstream/18.0
+=======
+"Et voi poistaa maksutapaa, joka on linkitetty palveluntarjoajaan sallitussa- "
+"tai testitilassa.\n"
+>>>>>>> upstream/18.0
 "Linkitetyt palveluntarjoajat: %s"
 
 #. module: account_payment
@@ -15820,6 +16069,7 @@ msgid ""
 "You cannot uninstall this module as payments using this payment method "
 "already exist."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16472,6 +16722,10 @@ msgstr ""
 "Et voi poistaa tätä moduulia, koska tätä maksutapaa käyttäviä maksuja on jo "
 "olemassa."
 >>>>>>> upstream/18.0
+=======
+"Et voi poistaa tätä moduulia, koska tätä maksutapaa käyttäviä maksuja on jo "
+"olemassa."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
@@ -16480,6 +16734,7 @@ msgid ""
 "You must first deactivate a payment provider before deleting its journal.\n"
 "Linked providers: %s"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17131,6 +17386,10 @@ msgstr ""
 "Maksupalveluntarjoaja on poistettava käytöstä ennen sen päiväkirjan "
 "poistamista.\n"
 >>>>>>> upstream/18.0
+=======
+"Maksupalveluntarjoaja on poistettava käytöstä ennen sen päiväkirjan "
+"poistamista.\n"
+>>>>>>> upstream/18.0
 "Linkitetyt palveluntarjoajat: %s"
 
 #. module: account_payment
@@ -17168,7 +17427,11 @@ msgid "due today"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "eräpäivä tänään"
+=======
+msgstr "erääntyy tänään"
+>>>>>>> upstream/18.0
 =======
 msgstr "erääntyy tänään"
 >>>>>>> upstream/18.0
@@ -17384,6 +17647,12 @@ msgstr "myöhässä"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+#~ msgid "Code"
+#~ msgstr "Koodi"
+>>>>>>> upstream/18.0
 =======
 
 #~ msgid "Code"

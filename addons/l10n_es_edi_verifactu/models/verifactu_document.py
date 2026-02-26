@@ -589,7 +589,11 @@ class L10nEsEdiVerifactuDocument(models.Model):
         if vals['verifactu_move_type'] == 'invoice':
             tipo_rectificativa = None
 <<<<<<< HEAD
+<<<<<<< HEAD
             tipo_factura = 'F2' if vals['is_simplified'] else 'F1'
+=======
+            tipo_factura = 'F2' if vals['is_simplified'] else 'F3' if vals.get('was_simplified_invoice') else 'F1'
+>>>>>>> upstream/18.0
 =======
             tipo_factura = 'F2' if vals['is_simplified'] else 'F3' if vals.get('was_simplified_invoice') else 'F1'
 >>>>>>> upstream/18.0

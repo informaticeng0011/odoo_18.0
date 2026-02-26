@@ -198,6 +198,7 @@ export class ImageTransformButton extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         useExternalListener(this.props.document, "click", (ev) => {
             if (!this.isNodeInsideTransform(ev.target) && !this.mouseDownInsideTransform) {
                 this.closeImageTransformation();
@@ -303,6 +304,8 @@ export class ImageTransformButton extends Component {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -812,6 +815,9 @@ export class ImageTransformButton extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

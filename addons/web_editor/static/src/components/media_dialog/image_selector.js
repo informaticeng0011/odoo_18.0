@@ -162,8 +162,11 @@ export class ImageSelector extends FileSelector {
     async uploadFiles(files) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await this.uploadService.uploadFiles(files, { resModel: this.props.resModel, resId: this.props.resId, isImage: true }, (attachment) => this.onUploaded(attachment));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         let abortFn;
@@ -183,6 +186,9 @@ export class ImageSelector extends FileSelector {
         this.props.setAbortUploadsCallback(() => abortFn?.());
         await uploadPromise;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

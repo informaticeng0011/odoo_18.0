@@ -8,6 +8,7 @@ class PurchaseOrderLine(models.Model):
 
     @api.depends('product_id', 'order_id.partner_id', 'order_id.project_id')
     def _compute_analytic_distribution(self):
+<<<<<<< HEAD
         super()._compute_analytic_distribution()
         ProjectProject = self.env['project.project']
         for line in self:
@@ -520,6 +521,15 @@ class PurchaseOrderLine(models.Model):
             project = ProjectProject.browse(project_id) if project_id else line.order_id.project_id
             if line.display_type or not project:
                 continue
+=======
+        ctx_project = self.env['project.project'].browse(self.env.context.get('project_id'))
+        project_lines = self.filtered(lambda l: not l.display_type and (ctx_project or l.order_id.project_id))
+        empty_project_lines = project_lines.filtered(lambda l: not l.analytic_distribution)
+        super(PurchaseOrderLine, (self - project_lines) + empty_project_lines)._compute_analytic_distribution()
+
+        for line in project_lines:
+            project = ctx_project or line.order_id.project_id
+>>>>>>> upstream/18.0
             if line.analytic_distribution:
                 applied_root_plans = self.env['account.analytic.account'].browse(
                     list({int(account_id) for ids in line.analytic_distribution for account_id in ids.split(",")})
@@ -698,6 +708,9 @@ class PurchaseOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

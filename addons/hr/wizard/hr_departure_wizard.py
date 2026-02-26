@@ -28,7 +28,11 @@ class HrDepartureWizard(models.TransientModel):
     def action_register_departure(self):
         employee = self.employee_id
         if self.env.context.get('toggle_active', False) and employee.active:
+<<<<<<< HEAD
             employee.with_context(no_wizard=True).toggle_active()
+=======
+            employee.with_context(no_wizard=True).action_archive()
+>>>>>>> upstream/18.0
         employee.departure_reason_id = self.departure_reason_id
         employee.departure_description = self.departure_description
         employee.departure_date = self.departure_date

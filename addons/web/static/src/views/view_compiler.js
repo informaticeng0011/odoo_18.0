@@ -346,7 +346,11 @@ export class ViewCompiler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const newRoot = createElement("t", [child]);
+=======
+        const newRoot = createElement("t", child ? [child] : []);
+>>>>>>> upstream/18.0
 =======
         const newRoot = createElement("t", child ? [child] : []);
 >>>>>>> upstream/18.0

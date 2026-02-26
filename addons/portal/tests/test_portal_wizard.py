@@ -107,6 +107,7 @@ class TestPortalWizard(MailCommon):
         with self.mock_mail_gateway():
             portal_user.action_revoke_access()
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         self.assertEqual(portal_user.user_id, self.public_user, 'Must keep the user even if it is archived')
 <<<<<<< HEAD
@@ -682,11 +683,16 @@ class TestPortalWizard(MailCommon):
         self.assertFalse(portal_user.is_portal)
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
             portal_user.invalidate_recordset()
 
         self.assertEqual(portal_user.user_id, self.public_user, 'Must keep the user even if it is archived')
         self.assertFalse(portal_user.user_id.active, 'Must have archived the user')
         self.assertFalse(portal_user.is_portal)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         self.assertFalse(portal_user.is_internal)
         self.assertNotSentEmail()
@@ -751,7 +757,10 @@ class TestPortalWizard(MailCommon):
 
         self.assertEqual(portal_user.user_id.company_id, company_2, 'Must create the user in the same company as the partner.')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_portal_wizard_multiple_access_changes(self):
         portal_wizard = self.env['portal.wizard'].with_context(active_ids=[self.partner.id]).create({})
@@ -775,4 +784,7 @@ class TestPortalWizard(MailCommon):
             self.assertTrue(portal_user.user_id._is_portal())
             self.assertFalse(portal_user.is_portal)
             self.assertFalse(self.partner.signup_type)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

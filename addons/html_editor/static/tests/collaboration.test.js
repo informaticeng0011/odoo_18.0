@@ -470,9 +470,14 @@ test("wrapInlinesInBlocks should not create impossible mutations in a collaborat
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     // TODO selection in collab should be handled better.
     expect(getContent(e2.editable, { sortAttrs: true })).toBe(
         `<div class="oe_unbreakable">[]<p>myNode</p></div>`
+=======
+    expect(getContent(e2.editable, { sortAttrs: true })).toBe(
+        `<div class="oe_unbreakable"><p>myNode[]</p></div>`
+>>>>>>> upstream/18.0
 =======
     expect(getContent(e2.editable, { sortAttrs: true })).toBe(
         `<div class="oe_unbreakable"><p>myNode[]</p></div>`
@@ -2818,7 +2823,10 @@ describe("Collaboration with embedded components", () => {
             );
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
         test("should not sanitize data-embedded-props or data-embedded-state in case they contain specific characters flagged by DOMPurify regex", async () => {
             const peerInfos = await setupMultiEditor({
@@ -2867,6 +2875,9 @@ describe("Collaboration with embedded components", () => {
                 obj: { 1: "-->" },
             });
         });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     });
 });

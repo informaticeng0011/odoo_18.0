@@ -139,6 +139,10 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        cls.company_data["company"].state_id = cls.env.ref("base.state_es_ba").id
+>>>>>>> upstream/18.0
 =======
         cls.company_data["company"].state_id = cls.env.ref("base.state_es_ba").id
 >>>>>>> upstream/18.0
@@ -620,7 +624,11 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'bank_ids': [Command.create({'acc_number': 'FOO42'})]
+=======
+            'bank_ids': [Command.create({'acc_number': 'FOO42', 'allow_out_payment': True})]
+>>>>>>> upstream/18.0
 =======
             'bank_ids': [Command.create({'acc_number': 'FOO42', 'allow_out_payment': True})]
 >>>>>>> upstream/18.0
@@ -929,7 +937,10 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1547,6 +1558,10 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.main_pos_config.default_fiscal_position_id = self.fiscal_pos_a.id
+>>>>>>> upstream/18.0
 =======
         self.main_pos_config.default_fiscal_position_id = self.fiscal_pos_a.id
 >>>>>>> upstream/18.0
@@ -2211,6 +2226,7 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2394,6 +2410,9 @@ class TestUi(TestPointOfSaleHttpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        self.assertNotEqual(order.fiscal_position_id, self.fiscal_pos_a)
 >>>>>>> upstream/18.0
 =======
         self.assertNotEqual(order.fiscal_position_id, self.fiscal_pos_a)
@@ -2992,6 +3011,9 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -41,7 +41,10 @@ export const uploadService = {
         };
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -76,6 +79,9 @@ export const uploadService = {
         };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -108,12 +114,15 @@ export const uploadService = {
              * @param {Function} onUploaded
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
              */
             uploadFiles: async (files, { resModel, resId, isImage }, onUploaded) => {
                 // Upload the smallest file first to block the user the least possible.
                 const sortedFiles = Array.from(files).sort((a, b) => a.size - b.size);
                 for (const file of sortedFiles) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
              * @param {Function} setAbortCallback // Optional - To abort uploads
@@ -145,6 +154,9 @@ export const uploadService = {
                     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -174,7 +186,10 @@ export const uploadService = {
                 for (const sortedFile of sortedFiles) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                     if (signal.aborted) {
@@ -182,6 +197,9 @@ export const uploadService = {
                     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -191,6 +209,12 @@ export const uploadService = {
                         dataURL = await getDataURLFromFile(sortedFile);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                        if (signal.aborted) {
+                            break;
+                        }
+>>>>>>> upstream/18.0
 =======
                         if (signal.aborted) {
                             break;
@@ -211,6 +235,7 @@ export const uploadService = {
                     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     try {
                         const xhr = new XMLHttpRequest();
                         xhr.upload.addEventListener("progress", (ev) => {
@@ -223,6 +248,8 @@ export const uploadService = {
                         });
                         const attachment = await rpc(
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -242,6 +269,9 @@ export const uploadService = {
                     try {
                         addAttachmentRpc = rpc(
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -257,9 +287,12 @@ export const uploadService = {
                             },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             { xhr }
                         );
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                             { xhr: currentXHR }
@@ -271,6 +304,9 @@ export const uploadService = {
                         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -279,6 +315,7 @@ export const uploadService = {
                             file.errorMessage = attachment.error;
                         } else {
                             if (attachment.mimetype === "image/webp") {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                                 // Generate alternate format for reports.
@@ -311,6 +348,8 @@ export const uploadService = {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                                 try {
                                     // Generate alternate format for reports.
                                     await convertWebpToJpeg(
@@ -325,6 +364,9 @@ export const uploadService = {
                                     );
                                 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -334,7 +376,10 @@ export const uploadService = {
                         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                     } catch (err) {
@@ -351,6 +396,9 @@ export const uploadService = {
                         );
                         currentXHR.upload.removeEventListener("load", onLoad);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -359,6 +407,7 @@ export const uploadService = {
                             ? AUTOCLOSE_DELAY_LONG
                             : AUTOCLOSE_DELAY;
                         setTimeout(() => deleteFile(file.id), message_autoclose_delay);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                     } catch (error) {
@@ -370,6 +419,8 @@ export const uploadService = {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                         dataURL = null;
                     }
                 }
@@ -377,6 +428,9 @@ export const uploadService = {
                 currentXHR = null;
                 addAttachmentRpc = null;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

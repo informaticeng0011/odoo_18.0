@@ -178,6 +178,7 @@ export class PropertyDefinitionSelection extends Component {
             const newLabel = event.target.value;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (!newLabel || !newLabel.length) {
                 // press enter on an empty option, just ignore it, nothing to save
                 event.stopPropagation();
@@ -188,6 +189,8 @@ export class PropertyDefinitionSelection extends Component {
             this.onOptionChange(event, optionIndex);
             this.onOptionCreate(optionIndex + 1);
 =======
+=======
+>>>>>>> upstream/18.0
             // Event prevented because:
             // - either the label is empty -> "enter" keydown should be ignored
             // - or we swap to the "change" handler manually
@@ -200,6 +203,9 @@ export class PropertyDefinitionSelection extends Component {
                 // press enter on an empty option, just ignore it, nothing to save
                 event.stopPropagation();
             }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         } else if (["ArrowUp", "ArrowDown"].includes(event.key)) {
             event.stopPropagation();

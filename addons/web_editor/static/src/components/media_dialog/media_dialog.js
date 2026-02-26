@@ -78,6 +78,10 @@ export class MediaDialog extends Component {
         );
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.abortUploads = null;
+>>>>>>> upstream/18.0
 =======
         this.abortUploads = null;
 >>>>>>> upstream/18.0
@@ -116,6 +120,10 @@ export class MediaDialog extends Component {
                 save: this.save.bind(this),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                setAbortUploadsCallback: (abortFunc) => this.abortUploads = abortFunc,
+>>>>>>> upstream/18.0
 =======
                 setAbortUploadsCallback: (abortFunc) => this.abortUploads = abortFunc,
 >>>>>>> upstream/18.0
@@ -356,7 +364,10 @@ export class MediaDialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -596,6 +607,9 @@ export class MediaDialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -794,7 +808,10 @@ export class MediaDialog extends Component {
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     async close() {
@@ -805,6 +822,9 @@ export class MediaDialog extends Component {
         await this.props.close();
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

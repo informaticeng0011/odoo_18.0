@@ -2,6 +2,12 @@
 <odoo>
     <template id="frontend_layout" name="Main Frontend Layout" inherit_id="web.frontend_layout">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        <xpath expr="//html" position="attributes">
+            <attribute name="t-att-dir" add="request.env['res.lang']._get_data(code=request.env.lang).direction" separator=" "/>
+        </xpath>
+>>>>>>> upstream/18.0
 =======
         <xpath expr="//html" position="attributes">
             <attribute name="t-att-dir" add="request.env['res.lang']._get_data(code=request.env.lang).direction" separator=" "/>

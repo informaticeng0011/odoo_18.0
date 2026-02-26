@@ -264,7 +264,11 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     this.mainScreen.component.name !== "PaymentScreen" &&
+=======
+                    !["LoginScreen", "PaymentScreen"].includes(this.mainScreen.component.name) &&
+>>>>>>> upstream/18.0
 =======
                     !["LoginScreen", "PaymentScreen"].includes(this.mainScreen.component.name) &&
 >>>>>>> upstream/18.0
@@ -1390,6 +1394,7 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.addPendingOrder([order.id]);
         return order;
     },
@@ -1397,6 +1402,8 @@ patch(PosStore.prototype, {
         if (this.config.module_pos_restaurant && !this.get_order().uiState.booked) {
             this.get_order().setBooked(true);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2171,6 +2178,9 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2774,9 +2784,13 @@ patch(PosStore.prototype, {
         this.set_order(null);
     },
     getActiveOrdersOnTable(table) {
+<<<<<<< HEAD
         return this.models["pos.order"].filter(
             (o) => o.table_id?.id === table.id && !o.finalized && o.lines.length
         );
+=======
+        return this.models["pos.order"].filter((o) => o.table_id?.id === table.id && !o.finalized);
+>>>>>>> upstream/18.0
     },
     tableHasOrders(table) {
         return Boolean(table.getOrder());
@@ -2811,7 +2825,11 @@ patch(PosStore.prototype, {
             await this.setTable(destinationTable);
             return;
         }
+<<<<<<< HEAD
         if (!this.tableHasOrders(destinationTable)) {
+=======
+        if (!destinationOrder) {
+>>>>>>> upstream/18.0
             order.update({ table_id: destinationTable });
             this.set_order(order);
             this.addPendingOrder([order.id]);

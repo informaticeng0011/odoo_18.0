@@ -227,6 +227,10 @@ export class ListController extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        allowOpenAction: { type: Boolean, optional: true },
+>>>>>>> upstream/18.0
 =======
         allowOpenAction: { type: Boolean, optional: true },
 >>>>>>> upstream/18.0
@@ -906,6 +910,10 @@ export class ListController extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        allowOpenAction: true,
+>>>>>>> upstream/18.0
 =======
         allowOpenAction: true,
 >>>>>>> upstream/18.0
@@ -1687,12 +1695,18 @@ export class ListController extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (this.props.onSelectionChanged) {
                     const resIds = this.model.root.selection.map((record) => record.resId);
                     this.props.onSelectionChanged(resIds);
                 }
             },
             () => [this.model.root.selection.length]
+=======
+                this.onSelectionChanged();
+            },
+            () => [this.model.root.selection.length, this.model.root.isDomainSelected]
+>>>>>>> upstream/18.0
 =======
                 this.onSelectionChanged();
             },
@@ -2764,7 +2778,10 @@ export class ListController extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3270,6 +3287,9 @@ export class ListController extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3799,7 +3819,11 @@ export class ListController extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (this.archInfo.openAction) {
+=======
+        if (this.props.allowOpenAction && this.archInfo.openAction) {
+>>>>>>> upstream/18.0
 =======
         if (this.props.allowOpenAction && this.archInfo.openAction) {
 >>>>>>> upstream/18.0
@@ -4608,10 +4632,13 @@ export class ListController extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (this.props.onSelectionChanged) {
             const resIds = await this.model.root.getResIds(true);
             this.props.onSelectionChanged(resIds);
         }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

@@ -224,6 +224,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -676,11 +677,16 @@
 =======
 >>>>>>> upstream/18.0
 import binascii
+=======
+import binascii
+import re
+>>>>>>> upstream/18.0
 
 from base64 import b64decode
 from contextlib import suppress
 from lxml import etree
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1358,6 +1364,11 @@ from lxml import etree
 =======
 >>>>>>> upstream/18.0
 from odoo import _, api, fields, models, Command
+=======
+from odoo import _, api, fields, models, Command
+from odoo.exceptions import UserError
+from odoo.tools import frozendict
+>>>>>>> upstream/18.0
 
 
 class AccountMove(models.Model):
@@ -1367,6 +1378,7 @@ class AccountMove(models.Model):
         comodel_name='ir.attachment',
         string="Attachment",
         compute=lambda self: self._compute_linked_attachment_id('ubl_cii_xml_id', 'ubl_cii_xml_file'),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2036,6 +2048,9 @@ class AccountMove(models.Model):
 =======
         depends=['ubl_cii_xml_file']
 >>>>>>> upstream/18.0
+=======
+        depends=['ubl_cii_xml_file']
+>>>>>>> upstream/18.0
     )
     ubl_cii_xml_file = fields.Binary(
         attachment=True,
@@ -2087,6 +2102,110 @@ class AccountMove(models.Model):
             })
         return print_items
 
+<<<<<<< HEAD
+=======
+    def action_group_ungroup_lines_by_tax(self):
+        """
+        This action allows the user to reload an imported move, grouping or not lines by tax
+        """
+        self.ensure_one()
+        self._check_move_for_group_ungroup_lines_by_tax()
+
+        # Check if lines look like they're grouped
+        lines_grouped = any(
+            re.match(re.escape(self.partner_id.name or self.env._("Unknown partner")) + r' - \d+ - .*', line.name)
+            for line in self.line_ids.filtered(lambda x: x.display_type == 'product')
+        )
+
+        if lines_grouped:
+            self._ungroup_lines()
+        else:
+            self._group_lines_by_tax()
+
+    def _ungroup_lines(self):
+        """
+        Ungroup lines using the original file, used to import the move
+        """
+        error_message = self.env._("Cannot find the origin file, try by importing it again")
+        attachments = self.env['ir.attachment'].search([
+            ('res_model', '=', 'account.move'),
+            ('res_id', '=', self.id),
+        ], order='create_date')
+        if not attachments:
+            raise UserError(error_message)
+
+        success = False
+        for file_data in attachments._unwrap_edi_attachments():
+            if file_data.get('xml_tree') is None:
+                continue
+            ubl_cii_xml_builder = self._get_ubl_cii_builder_from_xml_tree(file_data['xml_tree'])
+            if ubl_cii_xml_builder is None:
+                continue
+            self.invoice_line_ids = [Command.clear()]
+            res = ubl_cii_xml_builder._import_invoice_ubl_cii(self, file_data)
+            if res:
+                success = True
+                self._message_log(body=self.env._("Ungrouped lines from %s", file_data['attachment'].name))
+                break
+        if not success:
+            raise UserError(error_message)
+
+    def _group_lines_by_tax(self):
+        """
+        Group lines by tax, based on the invoice lines
+        """
+        line_vals = self._get_line_vals_group_by_tax(self.partner_id)
+        self.invoice_line_ids = [Command.clear()]
+        self.invoice_line_ids = line_vals
+        self._message_log(body=self.env._("Grouped lines by tax"))
+
+    def _get_line_vals_group_by_tax(self, partner):
+        """
+        Create a collection of dicts containing the values to create invoice lines, grouped by
+        tax and deferred date if present.
+        :param partner: partner linked to the move
+        """
+        AccountTax = self.env['account.tax']
+
+        base_lines, _tax_lines = self._get_rounded_base_and_tax_lines()
+
+        def aggregate_function(target_base_line, base_line):
+            target_base_line.setdefault('_aggregated_quantity', 0.0)
+            target_base_line['_aggregated_quantity'] += base_line['quantity']
+
+        def grouping_function(base_line):
+            return {
+                '_grouping_key': frozendict(AccountTax._prepare_base_line_grouping_key(base_line)),
+            }
+
+        base_lines = AccountTax._reduce_base_lines_with_grouping_function(
+            base_lines,
+            grouping_function=grouping_function,
+            aggregate_function=aggregate_function,
+        )
+
+        to_create = []
+        for base_line in base_lines:
+            taxes = base_line['tax_ids']
+            account = base_line['account_id']
+            to_create.append(Command.create({
+                'name': " - ".join([partner.name or self.env._("Unknown partner"), account.code, " / ".join(taxes.mapped('name')) or self.env._("Untaxed")]),
+                'quantity': base_line['quantity'],
+                'price_unit': base_line['price_unit'],
+                **base_line['_grouping_key'],
+            }))
+        return to_create
+
+    def _check_move_for_group_ungroup_lines_by_tax(self):
+        """
+        Perform checks to evaluate if a move is eligible to grouping/ungrouping
+        """
+        if not self.is_purchase_document(include_receipts=True):
+            raise UserError(self.env._("You can only (un)group lines of a incoming invoice (vendor bill)"))
+        if self.state != 'draft':
+            raise UserError(self.env._("You can only (un)group lines of a draft invoice"))
+
+>>>>>>> upstream/18.0
     # -------------------------------------------------------------------------
     # EDI
     # -------------------------------------------------------------------------
@@ -2139,7 +2258,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if customization_id is not None:
+=======
+        if customization_id is not None and customization_id.text:
+>>>>>>> upstream/18.0
 =======
         if customization_id is not None and customization_id.text:
 >>>>>>> upstream/18.0
@@ -2488,10 +2611,13 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _get_edi_decoder(self, file_data, new=False):
         # EXTENDS 'account'
         if file_data['type'] == 'xml':
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3204,6 +3330,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3706,10 +3835,13 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             and self.is_sale_document() \
             and ubl_cii_format in self.env['res.partner']._get_ubl_cii_formats()
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3840,6 +3972,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

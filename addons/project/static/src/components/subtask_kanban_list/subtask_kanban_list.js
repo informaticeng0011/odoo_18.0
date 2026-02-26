@@ -39,7 +39,11 @@ export class SubtaskKanbanList extends Component {
     get closedList() {
         return this.list.records.filter((child) => {
             return !["1_done", "1_canceled"].includes(child.data.state);
+<<<<<<< HEAD
         });
+=======
+        }).sort((subtask1, subtask2) => subtask1.resId - subtask2.resId);
+>>>>>>> upstream/18.0
     }
 
     get fieldInfo() {

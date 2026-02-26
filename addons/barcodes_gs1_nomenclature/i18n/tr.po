@@ -95,6 +95,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* barcodes_gs1_nomenclature
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -765,6 +766,10 @@
 # * barcodes_gs1_nomenclature
 #
 >>>>>>> upstream/18.0
+=======
+# * barcodes_gs1_nomenclature
+#
+>>>>>>> upstream/18.0
 # Translators:
 # emre oktem, 2024
 # Umur Akın <umura@projetgrup.com>, 2024
@@ -775,6 +780,7 @@
 # Halil, 2024
 # Tugay Hatıl <tugayh@projetgrup.com>, 2024
 # Ahmet Altinisik <aaltinisik@altinkaya.com.tr>, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1444,10 +1450,14 @@
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2051,6 +2061,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-22 18:01+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Turkish <https://translate.odoo.com/projects/odoo-18/"
@@ -2149,6 +2162,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2438,6 +2454,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 =======
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
@@ -2729,6 +2749,7 @@ msgstr ""
 #: code:addons/barcodes_gs1_nomenclature/models/barcode_nomenclature.py:0
 msgid ""
 "A GS1 barcode nomenclature pattern was matched. However, the barcode failed "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3253,6 +3274,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "to be converted to a valid date: '%(error_message)s'"
 msgstr ""
 
@@ -3344,6 +3367,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3762,7 +3788,11 @@ msgid "The FNC1 Separator Alternative is not a valid Regex: %(error)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "FNC1 Ayırıcı Alternatifi geçerli bir Regex değildir: %(error)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "FNC1 Ayırıcı Alternatifi geçerli bir Regex değildir: %(error)s"
 >>>>>>> upstream/18.0
@@ -4058,6 +4088,7 @@ msgid ""
 "UoM;        * Numeric Identifier: fixed length barcode following a specific "
 "encoding;        * Alpha-Numeric Name: variable length barcode."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5063,6 +5094,11 @@ msgstr ""
 "tanımlar:       * Tarih: barkod bir Odoo tarih saatine dönüştürülür;       * "
 "Ölçü: barkodun değeri belirli bir ölçü birimiyle ilgilidir;       * Sayısal "
 >>>>>>> upstream/18.0
+=======
+"GS1 içerik türü, kuralın barkodu ne tür verileri işleyeceğini "
+"tanımlar:       * Tarih: barkod bir Odoo tarih saatine dönüştürülür;       * "
+"Ölçü: barkodun değeri belirli bir ölçü birimiyle ilgilidir;       * Sayısal "
+>>>>>>> upstream/18.0
 "Tanımlayıcı: belirli bir kodlamayı izleyen sabit uzunluklu barkod;       * "
 "Alfa-Sayısal Ad: değişken uzunluklu barkod."
 
@@ -5177,7 +5213,11 @@ msgid "The rule pattern '%(rule)s' is not a valid Regex: %(error)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "'%(rule)s' kural kalıbı geçerli bir Regex değildir: %(error)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "'%(rule)s' kural kalıbı geçerli bir Regex değildir: %(error)s"
 >>>>>>> upstream/18.0
@@ -5636,6 +5676,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If this rule uses decimal, check it can't get sometime else than a digit as last char for the Application Identifier.\n"
 "Check also the possible matched values can only be digits, otherwise the value can't be casted as a measure."
 msgstr ""
@@ -5643,6 +5684,8 @@ msgstr ""
 "Bu kural ondalık sayı kullanıyorsa, Uygulama Tanımlayıcısı için son karakter olarak bir rakamdan başka bir zaman alamadığını kontrol edin.\n"
 "Ayrıca olası eşleşen değerlerin yalnızca rakam olabileceğini kontrol edin, aksi takdirde değer bir ölçü olarak kullanılamaz."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6151,6 +6194,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6608,7 +6654,10 @@ msgstr "Tip"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6877,6 +6926,9 @@ msgstr "Tip"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

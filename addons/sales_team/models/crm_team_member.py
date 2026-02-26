@@ -114,7 +114,11 @@ class CrmTeamMember(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         check_company=True, index=True, ondelete="cascade", required=True)
+=======
+        check_company=False, index=True, ondelete="cascade", required=True)
+>>>>>>> upstream/18.0
 =======
         check_company=False, index=True, ondelete="cascade", required=True)
 >>>>>>> upstream/18.0
@@ -567,7 +571,10 @@ class CrmTeamMember(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -869,6 +876,9 @@ class CrmTeamMember(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
