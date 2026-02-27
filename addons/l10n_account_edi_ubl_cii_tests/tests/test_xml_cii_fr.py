@@ -31,7 +31,11 @@ class TestCIIFR(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'bank_ids': [(0, 0, {'acc_number': 'FR15001559627230'})],
+=======
+            'bank_ids': [(0, 0, {'acc_number': 'FR15001559627230', 'allow_out_payment': True})],
+>>>>>>> upstream/18.0
 =======
             'bank_ids': [(0, 0, {'acc_number': 'FR15001559627230', 'allow_out_payment': True})],
 >>>>>>> upstream/18.0
@@ -97,7 +101,11 @@ class TestCIIFR(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'bank_ids': [(0, 0, {'acc_number': 'FR90735788866632'})],
+=======
+            'bank_ids': [(0, 0, {'acc_number': 'FR90735788866632', 'allow_out_payment': True})],
+>>>>>>> upstream/18.0
 =======
             'bank_ids': [(0, 0, {'acc_number': 'FR90735788866632', 'allow_out_payment': True})],
 >>>>>>> upstream/18.0
@@ -234,6 +242,10 @@ class TestCIIFR(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'allow_out_payment': True,
+>>>>>>> upstream/18.0
 =======
             'allow_out_payment': True,
 >>>>>>> upstream/18.0
@@ -328,6 +340,7 @@ class TestCIIFR(TestUBLCommon):
             invoice.ubl_cii_xml_id,
             xpaths='''
                 <xpath expr="./*[local-name()='ExchangedDocument']/*[local-name()='ID']" position="replace">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -874,6 +887,8 @@ class TestCIIFR(TestUBLCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                         <ram:ID xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">___ignore___</ram:ID>
                 </xpath>
                 <xpath expr=".//*[local-name()='IssuerAssignedID']" position="replace">
@@ -1060,6 +1075,9 @@ class TestCIIFR(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1641,11 +1659,14 @@ class TestCIIFR(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <ID>___ignore___</ID>
                 </xpath>
                 <xpath expr=".//*[local-name()='IssuerAssignedID']" position="replace">
                         <IssuerAssignedID>___ignore___</IssuerAssignedID>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2187,6 +2208,9 @@ class TestCIIFR(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2776,11 +2800,14 @@ class TestCIIFR(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <ID>___ignore___</ID>
                 </xpath>
                 <xpath expr=".//*[local-name()='IssuerAssignedID']" position="replace">
                         <IssuerAssignedID>___ignore___</IssuerAssignedID>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3322,6 +3349,9 @@ class TestCIIFR(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3779,6 +3809,13 @@ class TestCIIFR(TestUBLCommon):
     def test_import_and_create_partner_facturx(self):
         """ Tests whether the partner is created at import if no match is found when decoding the EDI attachment
         """
+<<<<<<< HEAD
+=======
+        self.env['res.partner.bank'].sudo().create({
+            'acc_number': 'FR15001559627230',
+            'partner_id': self.company_data['company'].partner_id.id,
+        })
+>>>>>>> upstream/18.0
         partner_vals = {
             'name': "Buyer",
             'email': "buyer@yahoo.com",
@@ -3845,6 +3882,13 @@ class TestCIIFR(TestUBLCommon):
         )
 
     def test_import_fnfe_examples(self):
+<<<<<<< HEAD
+=======
+        self.env['res.partner.bank'].sudo().create({
+            'acc_number': 'FR76 1254 2547 2569 8542 5874 698',
+            'partner_id': self.company_data['company'].partner_id.id,
+        })
+>>>>>>> upstream/18.0
         # Source: official documentation of the FNFE (subdirectory: "5. FACTUR-X 1.0.06 - Examples")
         subfolder = 'tests/test_files/from_factur-x_doc'
         # the 2 following files have the same pdf but one is labelled as an invoice and the other as a refund
@@ -3890,6 +3934,13 @@ class TestCIIFR(TestUBLCommon):
         See the tests above to create these xml attachments ('test_export_with_fixed_taxes_case_[X]').
         NB: use move_type = 'out_invoice' s.t. we can retrieve the taxes used to create the invoices.
         """
+<<<<<<< HEAD
+=======
+        self.env['res.partner.bank'].sudo().create({
+            'acc_number': 'FR15001559627230',
+            'partner_id': self.company_data['company'].partner_id.id,
+        })
+>>>>>>> upstream/18.0
         subfolder = "tests/test_files/from_odoo"
         kwargs = {
             'subfolder': subfolder,

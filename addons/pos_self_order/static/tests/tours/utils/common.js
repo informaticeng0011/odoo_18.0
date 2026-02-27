@@ -124,7 +124,10 @@ export function clickBtn(buttonName) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -488,6 +491,9 @@ export function negateStep(step) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -951,6 +957,10 @@ export function changeLanguage(language) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0

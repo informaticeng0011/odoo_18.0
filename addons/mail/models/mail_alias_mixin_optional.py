@@ -365,7 +365,11 @@ class AliasMixinOptional(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self.env.context.get('default_alias_domain_id'):
+=======
+        if 'default_alias_domain_id' in self.env.context:
+>>>>>>> upstream/18.0
 =======
         if 'default_alias_domain_id' in self.env.context:
 >>>>>>> upstream/18.0

@@ -1042,7 +1042,10 @@ class TestCowViewSaving(TestViewSavingCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_view_translation_without_website(self):
@@ -1060,6 +1063,9 @@ class TestCowViewSaving(TestViewSavingCommon):
         self.assertEqual(views.browse(self.base_view.id).arch, '<div>hello</div>')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

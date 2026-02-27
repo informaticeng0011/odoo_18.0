@@ -240,7 +240,10 @@ class TestAccountEarlyPaymentDiscount(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -787,6 +790,9 @@ class TestAccountEarlyPaymentDiscount(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1824,7 +1830,10 @@ class TestAccountEarlyPaymentDiscount(AccountTestInvoicingCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_mixed_epd_global_rounding(self):
@@ -1870,6 +1879,9 @@ class TestAccountEarlyPaymentDiscount(AccountTestInvoicingCommon):
         self.assertAlmostEqual(discount, 0.19)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

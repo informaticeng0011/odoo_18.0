@@ -169,10 +169,13 @@ import base64
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from os.path import join as opj
 from typing import Optional, List, Dict
 from werkzeug.urls import url_quote
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -680,6 +683,9 @@ from werkzeug.urls import url_quote, url_unquote
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1099,6 +1105,23 @@ class PosConfig(models.Model):
     )
     has_paper = fields.Boolean("Has paper", default=True)
 
+<<<<<<< HEAD
+=======
+    @api.model
+    def _load_pos_self_data_fields(self, pos_config_id):
+        return ['id', 'name', 'company_id', 'journal_id', 'payment_method_ids', 'limit_categories',
+            'iface_available_categ_ids', 'iface_splitbill', 'module_pos_restaurant', 'self_ordering_mode',
+            'self_ordering_service_mode', 'self_ordering_default_language_id', 'self_ordering_available_language_ids',
+            'self_ordering_image_home_ids', 'self_ordering_default_user_id', 'self_ordering_pay_after',
+            'self_ordering_image_brand', 'self_ordering_image_brand_name', 'currency_id', 'printer_ids', 'has_paper',
+            'floor_ids', 'fiscal_position_ids', 'is_order_printer', 'iface_print_via_proxy', 'receipt_header',
+            'receipt_footer', 'proxy_ip', 'current_session_id', 'pricelist_id', 'available_pricelist_ids',
+            'default_fiscal_position_id', 'use_pricelist', 'module_pos_restaurant', 'is_header_or_footer',
+            'rounding_method', 'cash_rounding', 'only_round_cash_method', 'has_active_session', 'self_ordering_takeaway',
+            'epson_printer_ip', 'iface_tax_included', 'status', 'takeaway_fp_id', 'takeaway', 'trusted_config_ids',
+        ]
+
+>>>>>>> upstream/18.0
     def _update_access_token(self):
         self.access_token = uuid.uuid4().hex[:16]
         self.floor_ids.table_ids._update_identifier()
@@ -1261,6 +1284,7 @@ class PosConfig(models.Model):
                 'id': image.id,
                 'data': image.sudo().datas.decode('utf-8'),
             })
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1910,6 +1934,8 @@ class PosConfig(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         return encoded_images
 
     def _load_self_data_models(self):
@@ -2083,7 +2109,11 @@ class PosConfig(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'res.lang', 'product.attribute', 'product.attribute.custom.value', 'product.template.attribute.line', 'product.template.attribute.value',
+=======
+            'res.lang', 'product.template.attribute.line', 'product.attribute', 'product.attribute.custom.value', 'product.template.attribute.value',
+>>>>>>> upstream/18.0
 =======
             'res.lang', 'product.template.attribute.line', 'product.attribute', 'product.attribute.custom.value', 'product.template.attribute.value',
 >>>>>>> upstream/18.0
@@ -2786,6 +2816,7 @@ class PosConfig(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         })
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3013,6 +3044,10 @@ class PosConfig(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+            'self_ordering_pay_after': 'each',
+        })
 >>>>>>> upstream/18.0
 =======
             'self_ordering_pay_after': 'each',
@@ -3607,6 +3642,9 @@ class PosConfig(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

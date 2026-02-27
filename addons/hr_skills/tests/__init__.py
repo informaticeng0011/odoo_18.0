@@ -4,6 +4,10 @@ from . import test_resource
 from . import test_ui
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import test_report
+>>>>>>> upstream/18.0
 =======
 from . import test_report
 >>>>>>> upstream/18.0

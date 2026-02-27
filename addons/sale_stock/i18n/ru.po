@@ -133,6 +133,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sale_stock
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -273,6 +274,10 @@
 #
 >>>>>>> upstream/18.0
 =======
+#
+>>>>>>> upstream/18.0
+=======
+# * sale_stock
 #
 >>>>>>> upstream/18.0
 =======
@@ -979,6 +984,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 =======
 # Anastasiia Koroleva, 2025
@@ -1119,6 +1125,11 @@
 =======
 # Anastasiia Koroleva, 2025
 #
+>>>>>>> upstream/18.0
+=======
+# Anastasiia Koroleva, 2025
+#
+# "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
 >>>>>>> upstream/18.0
 =======
 # Anastasiia Koroleva, 2025
@@ -1957,6 +1968,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-03-19 20:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Ilya Rozhkov, 2025\n"
@@ -2379,6 +2391,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-10-22 07:20+0000\n"
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-18/"
@@ -2509,6 +2524,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2900,6 +2918,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
 "(n%100>=11 && n%100<=14)? 2 : 3);\n"
 <<<<<<< HEAD
@@ -3398,6 +3417,11 @@ msgstr ""
 =======
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || ("
 "n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
+=======
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
 =======
@@ -3713,6 +3737,7 @@ msgstr "<span class=\"o_stat_text\">Продажи</span>"
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.sale_order_portal_content_inherit_sale_stock
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4218,10 +4243,13 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<span class=\"small badge rounded-pill text-bg-success "
 "orders_label_text_align\">\n"
 "                                        <i class=\"fa fa-fw fa-truck\"/> "
 "Shipped\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4966,6 +4994,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                    </span>"
 msgstr ""
 "<span class=\"small badge rounded-pill text-bg-success "
@@ -5026,6 +5056,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5138,6 +5171,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_stock.sale_order_cancel_view_form_inherit
 msgid ""
 "<span invisible=\"not display_delivery_alert\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5646,6 +5680,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                    Some deliveries are already done. Returns can be created "
 "from the Delivery Orders.\n"
 "                </span>"
@@ -5820,6 +5856,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6328,7 +6367,11 @@ msgid "<strong>Customer Reference</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Референс клиента</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Референс клиента</strong>"
 >>>>>>> upstream/18.0
@@ -7016,6 +7059,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "According to product configuration, the delivered quantity can be automatically computed by mechanism:\n"
 "  - Manual: the quantity is set manually on the line\n"
 "  - Analytic From expenses: the quantity is the quantity sum from posted expenses\n"
@@ -7027,6 +7071,8 @@ msgstr ""
 "  - Аналитический из затрат: количество - это сумма количества из размещенных затрат\n"
 "  - Из таймшетов: количество - это сумма часов, записанных в заданиях, связанных с данной линией продаж\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7544,6 +7590,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8055,6 +8104,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Синий: Не доставлено / Не начато\n"
+"            Оранжевый: Частично доставлено\n"
+"            Зеленый: Полностью доставлено"
+>>>>>>> upstream/18.0
 =======
 "Синий: Не доставлено / Не начато\n"
 "            Оранжевый: Частично доставлено\n"
@@ -9040,9 +9095,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Если вы доставляете все товары одновременно, то доставка заказа будет "
 "планироваться в соответствии с товаром с наибольшим временем доставки. В "
 "противном случае, она будет основана на товаре с кратчайшем временем."
+=======
+"Если вы доставляете все товары сразу, заказ на доставку будет планироваться "
+"в соответствии с товаром с наибольшим временем доставки. В противном случае "
+"он будет основан на товаре с кратчайшим сроком доставки."
+>>>>>>> upstream/18.0
 =======
 "Если вы доставляете все товары сразу, заказ на доставку будет планироваться "
 "в соответствии с товаром с наибольшим временем доставки. В противном случае "
@@ -10153,8 +10214,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "for procurement and delivery that many days earlier than the actual promised"
 " date, to cope with unexpected delays in the supply chain."
+=======
+"for procurement and delivery that many days earlier than the actual promised "
+"date, to cope with unexpected delays in the supply chain."
+>>>>>>> upstream/18.0
 =======
 "for procurement and delivery that many days earlier than the actual promised "
 "date, to cope with unexpected delays in the supply chain."
@@ -10978,7 +11044,11 @@ msgid "No delivery yet! Automate them with sales orders."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Доставок еще нет! Автоматизируйте их с помощью заказов на продажу."
+>>>>>>> upstream/18.0
 =======
 msgstr "Доставок еще нет! Автоматизируйте их с помощью заказов на продажу."
 >>>>>>> upstream/18.0
@@ -11629,6 +11699,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                replenishment propositions, shipping connectors, barcode scanner, etc."
 =======
 "                replenishment propositions, shipping connectors, barcode "
@@ -12036,6 +12107,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                replenishment propositions, shipping connectors, barcode "
 "scanner, etc."
 msgstr ""
@@ -12175,6 +12248,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12772,6 +12848,7 @@ msgstr "Отчет о нормах запасов"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -13214,6 +13291,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:sale_stock.model_stock_valuation_layer
 msgid "Stock Valuation Layer"
 msgstr "Уровень оценки запасов"
@@ -13351,6 +13430,9 @@ msgstr "Уровень оценки запасов"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13631,6 +13713,7 @@ msgstr "Доставка"
 #: code:addons/sale_stock/models/sale_order.py:0
 msgid ""
 "The delivery address has been changed on the Sales Order<br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14136,10 +14219,13 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        From <strong>\"%(old_address)s\"</strong> to "
 "<strong>\"%(new_address)s\"</strong>,\n"
 "                        You should probably update the partner on this "
 "document."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14882,6 +14968,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr ""
 "Адрес доставки в заказе на продажу был изменен:<br/>\n"
 "                        С <strong>«%(old_address)s»</strong> на <strong>«%"
@@ -14941,6 +15029,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15221,8 +15312,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The ordered quantity cannot be decreased below the amount already delivered."
 " Instead, create a return in your inventory."
+=======
+"The ordered quantity cannot be decreased below the amount already delivered. "
+"Instead, create a return in your inventory."
+>>>>>>> upstream/18.0
 =======
 "The ordered quantity cannot be decreased below the amount already delivered. "
 "Instead, create a return in your inventory."
@@ -16109,6 +16205,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Необходимо указать склад для строки, которая использует доставку в другую "
+"компанию."
+>>>>>>> upstream/18.0
 =======
 "Необходимо указать склад для строки, которая использует доставку в другую "
 "компанию."
@@ -16779,7 +16880,11 @@ msgid "You must set a warehouse on your sale order to proceed."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Чтобы продолжить, необходимо указать склад в вашем заказе на продажу."
+>>>>>>> upstream/18.0
 =======
 msgstr "Чтобы продолжить, необходимо указать склад в вашем заказе на продажу."
 >>>>>>> upstream/18.0

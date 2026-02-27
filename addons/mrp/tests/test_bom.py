@@ -65,6 +65,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 from odoo import exceptions, Command, fields
 <<<<<<< HEAD
@@ -584,11 +585,15 @@ from datetime import timedelta
 =======
 from datetime import timedelta
 >>>>>>> upstream/18.0
+=======
+from datetime import timedelta
+>>>>>>> upstream/18.0
 
 from odoo import exceptions, Command, fields
 from odoo.api import UserError
 from odoo.tests import Form
 from odoo.addons.mrp.tests.common import TestMrpCommon
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -654,6 +659,8 @@ from odoo.addons.resource.models.utils import make_aware
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -990,7 +997,10 @@ class TestBoM(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1556,6 +1566,9 @@ class TestBoM(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2831,6 +2844,7 @@ class TestBoM(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -3127,6 +3141,8 @@ class TestBoM(TestMrpCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def test_bom_report_planning_with_producible_qty(self):
         """ Simulate a BoM of a pickaxe, and test that the BoM structure report
             respects the hardcoded limit of 700 planning days (mocked as 28 days).
@@ -3189,6 +3205,9 @@ class TestBoM(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3418,6 +3437,7 @@ class TestBoM(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # The planning is limited to 700 days and the calendar is 40h/week
         # So the 700 days limit is equivalent to 700 / 7 * 40 = 4000 hours
         # With 4000 hours, we can plan 16000 pickaxes.
@@ -3464,6 +3484,8 @@ class TestBoM(TestMrpCommon):
             revert(max(i[1] for i in work_intervals)).time(),
         )
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3634,6 +3656,9 @@ class TestBoM(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3755,6 +3780,7 @@ class TestBoM(TestMrpCommon):
             'time_type': 'other',
         })
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3952,6 +3978,8 @@ class TestBoM(TestMrpCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         # Check that we still have one available slot of 15 minutes
         self.assertEqual(
             workcenter._get_first_available_slot(date_start, 15),
@@ -4012,6 +4040,9 @@ class TestBoM(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4313,6 +4344,9 @@ class TestBoM(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5404,8 +5438,11 @@ class TestBoM(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'bom_line_ids': [Command.create({'product_id': p.id, 'product_qty': 1}) for p in [component_1, component_2]],
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5561,6 +5598,9 @@ class TestBoM(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5727,6 +5767,11 @@ class TestBoM(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        initial_move_raws = mo_1.move_raw_ids
+        inital_workorder_ids = mo_1.workorder_ids
+>>>>>>> upstream/18.0
 =======
         initial_move_raws = mo_1.move_raw_ids
         inital_workorder_ids = mo_1.workorder_ids
@@ -5989,7 +6034,11 @@ class TestBoM(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         bom.operation_ids = [Command.create({
+=======
+        bom.operation_ids = [Command.clear(), Command.create({
+>>>>>>> upstream/18.0
 =======
         bom.operation_ids = [Command.clear(), Command.create({
 >>>>>>> upstream/18.0
@@ -6201,6 +6250,10 @@ class TestBoM(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        bom.bom_line_ids = bom.bom_line_ids[:-1]
+>>>>>>> upstream/18.0
 =======
         bom.bom_line_ids = bom.bom_line_ids[:-1]
 >>>>>>> upstream/18.0
@@ -6413,7 +6466,10 @@ class TestBoM(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6569,6 +6625,9 @@ class TestBoM(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7116,7 +7175,11 @@ class TestBoM(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             {'product_id': self.product_2.id, 'product_uom_qty': 2},  # Ideally, this move should have been deleted but this isn't handled for now.
+=======
+            {'product_id': self.product_2.id, 'product_uom_qty': 0},  # Ideally, this move should have been deleted but this isn't handled for now (updated to 0 demand instead of removing).
+>>>>>>> upstream/18.0
 =======
             {'product_id': self.product_2.id, 'product_uom_qty': 0},  # Ideally, this move should have been deleted but this isn't handled for now (updated to 0 demand instead of removing).
 >>>>>>> upstream/18.0
@@ -8546,7 +8609,10 @@ class TestBoM(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9297,6 +9363,9 @@ class TestBoM(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10108,7 +10177,10 @@ class TestBoM(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10654,6 +10726,7 @@ class TestBoM(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10718,6 +10791,8 @@ class TestBoM(TestMrpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11191,6 +11266,9 @@ class TestBoM(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11721,7 +11799,11 @@ class TestTourBoM(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -12657,7 +12739,10 @@ class TestTourBoM(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13377,6 +13462,9 @@ class TestTourBoM(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

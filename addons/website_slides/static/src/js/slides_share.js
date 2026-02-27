@@ -28,13 +28,19 @@ publicWidget.registry.websiteSlidesShare = publicWidget.Widget.extend({
         this.call("dialog", "add", SlideShareDialog, {
             category: data.category,
 <<<<<<< HEAD
+<<<<<<< HEAD
             documentMaxPage: data.category == 'document' && this.getDocumentMaxPage(),
 =======
+=======
+>>>>>>> upstream/18.0
             documentMaxPage:
                 data.category == "document" &&
                 new URL($(data.embedCode).attr("src"), window.location.href).origin ===
                     window.location.origin &&
                 this.getDocumentMaxPage(),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             emailSharing: data.emailSharing === 'True',
             embedCode: data.embedCode,

@@ -30,8 +30,11 @@ export class SanitizePlugin extends Plugin {
     sanitize(elem) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return this.DOMPurify.sanitize(elem, {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         for (const cb of this.getResource("before_sanitize_processors")) {
@@ -39,6 +42,9 @@ export class SanitizePlugin extends Plugin {
         }
         elem = this.DOMPurify.sanitize(elem, {
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -48,7 +54,10 @@ export class SanitizePlugin extends Plugin {
         });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         for (const cb of this.getResource("after_sanitize_processors")) {
@@ -56,6 +65,9 @@ export class SanitizePlugin extends Plugin {
         }
         return elem;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

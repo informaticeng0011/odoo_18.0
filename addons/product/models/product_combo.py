@@ -58,7 +58,11 @@ class ProductCombo(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         digits='Product Price',
+=======
+        min_display_digits='Product Price',
+>>>>>>> upstream/18.0
 =======
         min_display_digits='Product Price',
 >>>>>>> upstream/18.0
@@ -404,6 +408,10 @@ class ProductCombo(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.combo_item_ids._check_company(fnames=['product_id'])
+>>>>>>> upstream/18.0
 =======
         self.combo_item_ids._check_company(fnames=['product_id'])
 >>>>>>> upstream/18.0

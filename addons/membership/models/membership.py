@@ -61,7 +61,11 @@ class MembershipLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         digits='Product Price', required=True,
+=======
+        min_display_digits='Product Price', required=True,
+>>>>>>> upstream/18.0
 =======
         min_display_digits='Product Price', required=True,
 >>>>>>> upstream/18.0

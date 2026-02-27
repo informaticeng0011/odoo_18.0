@@ -174,11 +174,14 @@ class TestProjectPurchase(TestProjectPurchaseProfitability):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     def test_compute_purchase_orders_count(self):
         project1 = self.env['project.project'].create({'name': 'Project'})
         project1.account_id = self.analytic_account  # Project with analytics
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -530,7 +533,10 @@ class TestProjectPurchase(TestProjectPurchaseProfitability):
         cls.analytic_plan_1 = cls.env['account.analytic.plan'].create({'name': 'Purchase Project Plan 1'})
         cls.analytic_plan_2 = cls.env['account.analytic.plan'].create({'name': 'Purchase Project Plan 2'})
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         cls.analytic_account_1 = cls.env['account.analytic.account'].create({
             'name': 'Analytic Account - Plan 1',
             'plan_id': cls.analytic_plan_1.id,
@@ -569,6 +575,9 @@ class TestProjectPurchase(TestProjectPurchaseProfitability):
             f"{self.analytic_account_1.id},{purchase_order.project_id.account_id.id}": 100,
         }
         self.assertEqual(purchase_order.order_line.analytic_distribution, expected_analytic_distribution)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def test_project_on_pol_with_analytic_distribution_model(self):
@@ -578,6 +587,7 @@ class TestProjectPurchase(TestProjectPurchaseProfitability):
         """
         # We create one distribution model with two accounts in one line, based on product
         # and a second model with a different plan, based on partner
+<<<<<<< HEAD
 <<<<<<< HEAD
         analytic_account_1 = self.env['account.analytic.account'].create({
             'name': 'Analytic Account - Plan 1',
@@ -590,6 +600,11 @@ class TestProjectPurchase(TestProjectPurchaseProfitability):
         distribution_model_product = self.env['account.analytic.distribution.model'].create({
             'product_id': self.product_order.id,
             'analytic_distribution': {','.join([str(analytic_account_1.id), str(analytic_account_2.id)]): 100},
+=======
+        distribution_model_product = self.env['account.analytic.distribution.model'].create({
+            'product_id': self.product_order.id,
+            'analytic_distribution': {','.join([str(self.analytic_account_1.id), str(self.analytic_account_2.id)]): 100},
+>>>>>>> upstream/18.0
 =======
         distribution_model_product = self.env['account.analytic.distribution.model'].create({
             'product_id': self.product_order.id,
@@ -618,7 +633,11 @@ class TestProjectPurchase(TestProjectPurchaseProfitability):
         purchase_order.project_id = self.project1
         expected_distribution_project = {
 <<<<<<< HEAD
+<<<<<<< HEAD
             f"{analytic_account_1.id},{analytic_account_2.id},{self.project1.account_id.id}": 100,
+=======
+            f"{self.analytic_account_1.id},{self.analytic_account_2.id},{self.project1.account_id.id}": 100,
+>>>>>>> upstream/18.0
 =======
             f"{self.analytic_account_1.id},{self.analytic_account_2.id},{self.project1.account_id.id}": 100,
 >>>>>>> upstream/18.0
@@ -795,6 +814,9 @@ class TestProjectPurchase(TestProjectPurchaseProfitability):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1313,7 +1335,11 @@ class TestProjectPurchase(TestProjectPurchaseProfitability):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'project_id': project1.id,
+=======
+                'project_id': self.project1.id,
+>>>>>>> upstream/18.0
 =======
                 'project_id': self.project1.id,
 >>>>>>> upstream/18.0
@@ -1991,12 +2017,15 @@ class TestProjectPurchase(TestProjectPurchaseProfitability):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'project_id': project1.id,
                 'order_line': [Command.create({**order_line_values, 'analytic_distribution': {self.analytic_account.id: 100}})]
             },
         ])
         self.assertEqual(project1.purchase_orders_count, 3, 'The number of purchase orders linked to project1 should be equal to 3.')
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2503,6 +2532,9 @@ class TestProjectPurchase(TestProjectPurchaseProfitability):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

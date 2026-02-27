@@ -488,6 +488,7 @@ class ResourceCalendar(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         result_per_resource_id = dict()
         for tz, resources in resources_per_tz.items():
             res = result_per_tz[tz]
@@ -1459,6 +1460,8 @@ class ResourceCalendar(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         resource_calendars = resources._get_calendar_at(start_dt, tz)
         result_per_resource_id = dict()
         for tz, tz_resources in resources_per_tz.items():
@@ -1595,6 +1598,9 @@ class ResourceCalendar(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1852,6 +1858,7 @@ class ResourceCalendar(models.Model):
                         'duration_hours': hours,
                         'duration_days': days,
                     })
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2716,6 +2723,10 @@ class ResourceCalendar(models.Model):
                     result_per_resource_id[resource.id] = WorkIntervals([(start_datetime, end_datetime, dummy_attendance)])
                 elif self.flexible_hours or (resource and resource_calendars[resource].flexible_hours):
 >>>>>>> upstream/18.0
+=======
+                    result_per_resource_id[resource.id] = WorkIntervals([(start_datetime, end_datetime, dummy_attendance)])
+                elif self.flexible_hours or (resource and resource_calendars[resource].flexible_hours):
+>>>>>>> upstream/18.0
                     # For flexible Calendars, we create intervals to fill in the weekly intervals with the average daily hours
                     # until the full time required hours are met. This gives us the most correct approximation when looking at a daily
                     # and weekly range for time offs and overtime calculations and work entry generation
@@ -2723,6 +2734,7 @@ class ResourceCalendar(models.Model):
                     end_datetime_adjusted = end_datetime - relativedelta(seconds=1)
                     end_date = end_datetime_adjusted.date()
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3332,6 +3344,8 @@ class ResourceCalendar(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                     calendar = resource_calendars[resource] if resource else self
 
                     full_time_required_hours = calendar.full_time_required_hours
@@ -3463,6 +3477,9 @@ class ResourceCalendar(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3891,6 +3908,9 @@ class ResourceCalendar(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4399,6 +4419,10 @@ class ResourceCalendar(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                        remaining_hours = min(remaining_hours, (end_dt - start_dt).total_seconds() / 3600)
+>>>>>>> upstream/18.0
 =======
                         remaining_hours = min(remaining_hours, (end_dt - start_dt).total_seconds() / 3600)
 >>>>>>> upstream/18.0
@@ -4979,11 +5003,14 @@ class ResourceCalendar(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 allocate_hours = min(max_hours_per_day, remaining_hours)
                                 remaining_hours -= allocate_hours
 
                                 # Create interval centered at 12:00 PM
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5205,6 +5232,9 @@ class ResourceCalendar(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5424,7 +5454,10 @@ class ResourceCalendar(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5645,6 +5678,9 @@ class ResourceCalendar(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5797,6 +5833,7 @@ class ResourceCalendar(models.Model):
 
                             current_day += timedelta(days=1)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6929,6 +6966,11 @@ class ResourceCalendar(models.Model):
 
                     result_per_resource_id[resource.id] = WorkIntervals(intervals)
 >>>>>>> upstream/18.0
+=======
+                        current_start_day += timedelta(days=7)
+
+                    result_per_resource_id[resource.id] = WorkIntervals(intervals)
+>>>>>>> upstream/18.0
                 elif resource in per_resource_result:
                     resource_specific_result = [(max(bounds_per_tz[tz][0], tz.localize(val[0])), min(bounds_per_tz[tz][1], tz.localize(val[1])), val[2])
                         for val in per_resource_result[resource]]
@@ -7053,6 +7095,7 @@ class ResourceCalendar(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             ('company_id', '=', self.company_id.id),
 >>>>>>> upstream/18.0
@@ -7220,6 +7263,8 @@ class ResourceCalendar(models.Model):
 >>>>>>> upstream/18.0
 =======
             ('company_id', 'in', [False] + [self.company_id.id]),
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7296,6 +7341,7 @@ class ResourceCalendar(models.Model):
                     tz_dates[(tz, end_dt)] = end
                 dt0 = string_to_datetime(leave_date_from).astimezone(tz)
                 dt1 = string_to_datetime(leave_date_to).astimezone(tz)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8133,6 +8179,9 @@ class ResourceCalendar(models.Model):
 =======
                 if leave_resource and leave_resource._is_fully_flexible():
 >>>>>>> upstream/18.0
+=======
+                if leave_resource and leave_resource._is_fully_flexible():
+>>>>>>> upstream/18.0
                     dt0, dt1 = self._handle_flexible_leave_interval(dt0, dt1, leave)
                 result[resource.id].append((max(start, dt0), min(end, dt1), leave))
 
@@ -8175,7 +8224,14 @@ class ResourceCalendar(models.Model):
         resources_work_intervals = self._work_intervals_batch(start_dt, end_dt, resources, domain, tz)
         result = {}
         for resource in resources_list:
+<<<<<<< HEAD
             if resource and resource._is_fully_flexible():
+=======
+            if resource and resource._is_flexible():
+                leaves = self._leave_intervals_batch(start_dt, end_dt, resource, domain, tz=tz)
+                if res_leaves := leaves.get(resource.id, []):
+                    result[resource.id] = [(i[0], i[1]) for i in res_leaves]
+>>>>>>> upstream/18.0
                 continue
             work_intervals = [(start, stop) for start, stop, meta in resources_work_intervals[resource.id]]
             # start + flatten(intervals) + end
@@ -8207,6 +8263,7 @@ class ResourceCalendar(models.Model):
             # If the interval covers only a part of the original attendance, we
             # take durations in days proportionally to what is left of the interval.
             interval_hours = (stop - start).total_seconds() / 3600
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8957,6 +9014,8 @@ class ResourceCalendar(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             if len(self) == 1 and self.flexible_hours:
                 day_hours[start.date()] += meta.duration_hours
                 day_days[start.date()] += meta.duration_days
@@ -9210,6 +9269,9 @@ class ResourceCalendar(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9986,6 +10048,7 @@ class ResourceCalendar(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         if self.flexible_hours:
             works = {d[0].date() for d in self._leave_intervals_batch(start_dt, end_dt, domain=domain)[False]}
@@ -10052,6 +10115,8 @@ class ResourceCalendar(models.Model):
             return {fields.Date.to_string(day.date()): (day.date() in works) for day in rrule(DAILY, start_dt, until=end_dt)}
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10559,6 +10624,9 @@ class ResourceCalendar(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

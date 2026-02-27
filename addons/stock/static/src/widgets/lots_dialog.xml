@@ -53,7 +53,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                         <input inputmode="numeric" t-ref="nextSerialCount" class="o_input" id="next_serial_count_0" type="text"/>
+=======
+                                        <input inputmode="numeric" t-ref="nextSerialCount" class="o_input" id="next_serial_count_0" type="number"
+                                            t-on-keydown="(ev) => props.move.data.has_tracking != 'lot' and ev.key === '.' and ev.preventDefault()"/>
+>>>>>>> upstream/18.0
 =======
                                         <input inputmode="numeric" t-ref="nextSerialCount" class="o_input" id="next_serial_count_0" type="number"
                                             t-on-keydown="(ev) => props.move.data.has_tracking != 'lot' and ev.key === '.' and ev.preventDefault()"/>
@@ -131,7 +136,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                         <input inputmode="numeric" t-ref="totalReceived" class="o_input" id="total_received_0" type="text"/>
+=======
+                                        <input inputmode="numeric" t-ref="totalReceived" class="o_input" id="total_received_0" type="number"/>
+>>>>>>> upstream/18.0
 =======
                                         <input inputmode="numeric" t-ref="totalReceived" class="o_input" id="total_received_0" type="number"/>
 >>>>>>> upstream/18.0

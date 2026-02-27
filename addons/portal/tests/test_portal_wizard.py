@@ -108,6 +108,7 @@ class TestPortalWizard(MailCommon):
             portal_user.action_revoke_access()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         self.assertEqual(portal_user.user_id, self.public_user, 'Must keep the user even if it is archived')
 <<<<<<< HEAD
@@ -683,6 +684,8 @@ class TestPortalWizard(MailCommon):
         self.assertFalse(portal_user.is_portal)
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             portal_user.invalidate_recordset()
@@ -691,6 +694,9 @@ class TestPortalWizard(MailCommon):
         self.assertFalse(portal_user.user_id.active, 'Must have archived the user')
         self.assertFalse(portal_user.is_portal)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -758,7 +764,10 @@ class TestPortalWizard(MailCommon):
         self.assertEqual(portal_user.user_id.company_id, company_2, 'Must create the user in the same company as the partner.')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -785,6 +794,9 @@ class TestPortalWizard(MailCommon):
             self.assertFalse(portal_user.is_portal)
             self.assertFalse(self.partner.signup_type)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

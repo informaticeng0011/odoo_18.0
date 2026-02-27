@@ -1,5 +1,9 @@
 # -*- coding: utf-8 -*-
 
+<<<<<<< HEAD
+=======
+from freezegun import freeze_time
+>>>>>>> upstream/18.0
 import time
 
 from odoo.tests.common import tagged, TransactionCase
@@ -63,6 +67,30 @@ class TestHrAttendance(TransactionCase):
                 'check_out': time.strftime('%Y-%m-10 11:30'),
             })
 
+<<<<<<< HEAD
+=======
+    @freeze_time("2024-02-05 11:00:00")
+    def test_attendance_in_the_future(self):
+        employee = self.env['hr.employee'].create({'name': "Test"})
+        self.attendance.create({
+            'employee_id': employee.id,
+            'check_in': time.strftime('2024-02-10 11:00'),
+            'check_out': time.strftime('2024-02-10 12:00'),
+        })
+        open_attendance = self.env['hr.attendance'].create({
+            'employee_id': employee.id,
+            'check_in': time.strftime('2024-02-05 10:00'),
+        })
+
+        self.assertEqual(employee.attendance_state, 'checked_in')
+
+        open_attendance.write({
+            'check_out': time.strftime('2024-02-05 11:30'),
+        })
+
+        self.assertEqual(employee.attendance_state, 'checked_out')
+
+>>>>>>> upstream/18.0
     def test_time_format_attendance(self):
         self.env.user.tz = 'UTC'
         self.env['res.lang']._activate_lang('en_US')
@@ -333,7 +361,10 @@ class TestHrAttendance(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1128,6 +1159,9 @@ class TestHrAttendance(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

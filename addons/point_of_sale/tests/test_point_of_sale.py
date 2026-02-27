@@ -5,6 +5,7 @@ from odoo.tests.common import TransactionCase
 
 
 class TestPointOfSale(TransactionCase):
+<<<<<<< HEAD
     def setUp(self):
         super(TestPointOfSale, self).setUp()
 
@@ -30,11 +31,42 @@ class TestPointOfSale(TransactionCase):
             'name': 'Bank',
             'type': 'bank',
             'company_id': self.company1.id,
+=======
+    @classmethod
+    def setUpClass(cls):
+        super().setUpClass()
+
+        # ignore pre-existing pricelists for the purpose of this test
+        cls.env["product.pricelist"].search([]).write({"active": False})
+
+        cls.currency = cls.env.ref("base.USD")
+        cls.company1, cls.company2 = cls.env["res.company"].create([{
+            "name": "company 1",
+            "currency_id": cls.currency.id
+        }, {
+            "name": "company 2",
+            "currency_id": cls.currency.id
+        }])
+        cls.company2_pricelist = cls.env["product.pricelist"].create({
+            "name": "company 2 pricelist",
+            "currency_id": cls.currency.id,
+            "company_id": cls.company2.id,
+            "sequence": 1,  # force this pricelist to be first
+        })
+        cls.bank_journal = cls.env['account.journal'].create({
+            'name': 'Bank',
+            'type': 'bank',
+            'company_id': cls.company1.id,
+>>>>>>> upstream/18.0
             'code': 'BNK',
             'sequence': 11,
         })
 
+<<<<<<< HEAD
         self.env.user.company_id = self.company1
+=======
+        cls.env.user.company_id = cls.company1
+>>>>>>> upstream/18.0
 
     def test_no_default_pricelist(self):
         """ Verify that the default pricelist isn't automatically set in the config """

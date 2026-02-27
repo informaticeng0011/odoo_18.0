@@ -219,7 +219,10 @@ registry.category("web_tour.tours").add("PosSettleOrderNotGroupable", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -491,6 +494,9 @@ registry.category("web_tour.tours").add("test_import_lot_groupable_and_non_group
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -730,6 +736,7 @@ registry.category("web_tour.tours").add("PosSettleCustomPrice", {
             PosSale.settleNthOrder(1),
             ProductScreen.selectedOrderlineHas("Product A", "1", "100"),
             ProductScreen.clickPartnerButton(),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1403,6 +1410,9 @@ registry.category("web_tour.tours").add("PosSettleCustomPrice", {
 =======
             ProductScreen.clickCustomer("A Test Partner AAA"),
 >>>>>>> upstream/18.0
+=======
+            ProductScreen.clickCustomer("A Test Partner AAA"),
+>>>>>>> upstream/18.0
             ProductScreen.selectedOrderlineHas("Product A", "1", "100"),
         ].flat(),
 });
@@ -1512,7 +1522,10 @@ registry.category("web_tour.tours").add("PoSSaleOrderWithDownpayment", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1802,6 +1815,9 @@ registry.category("web_tour.tours").add("test_settle_so_with_non_pos_groupable_u
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2329,7 +2345,10 @@ registry.category("web_tour.tours").add("PosSettleOrderShipLater", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2975,6 +2994,9 @@ registry.category("web_tour.tours").add("PosSettleOrderShipLater", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3603,6 +3625,7 @@ registry.category("web_tour.tours").add("PosSettleOrder5", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             Chrome.clickMenuOption("Backend"),
 =======
             Chrome.clickMenuOption("Backend", { expectUnloadPage: true }),
@@ -3699,6 +3722,8 @@ registry.category("web_tour.tours").add("PosSettleOrder5", {
 >>>>>>> upstream/18.0
 =======
             Chrome.clickMenuOption("Backend", { expectUnloadPage: true }),
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4216,7 +4241,11 @@ registry.category("web_tour.tours").add("POSSalePaymentScreenInvoiceOrder", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ProductScreen.clickCustomer("Test Partner"),
+=======
+            ProductScreen.clickCustomer("A Test Partner"),
+>>>>>>> upstream/18.0
 =======
             ProductScreen.clickCustomer("A Test Partner"),
 >>>>>>> upstream/18.0
@@ -4988,7 +5017,10 @@ registry.category("web_tour.tours").add("test_settle_order_with_lot", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5752,6 +5784,7 @@ registry.category("web_tour.tours").add("test_down_payment_displayed", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5914,6 +5947,8 @@ registry.category("web_tour.tours").add("test_down_payment_displayed", {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6427,7 +6462,10 @@ registry.category("web_tour.tours").add("test_multiple_lots_sale_order_2", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6795,6 +6833,9 @@ registry.category("web_tour.tours").add("test_multiple_lots_sale_order_3", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7213,6 +7254,7 @@ registry.category("web_tour.tours").add("test_multiple_lots_sale_order_3", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7237,6 +7279,8 @@ registry.category("web_tour.tours").add("test_multiple_lots_sale_order_3", {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7719,6 +7763,7 @@ registry.category("web_tour.tours").add("test_selected_partner_quotation_loading
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7793,6 +7838,8 @@ registry.category("web_tour.tours").add("test_selected_partner_quotation_loading
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8167,6 +8214,7 @@ registry.category("web_tour.tours").add("test_ecommerce_unpaid_order_is_shown_in
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8273,6 +8321,8 @@ registry.category("web_tour.tours").add("test_ecommerce_unpaid_order_is_shown_in
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8478,6 +8528,9 @@ registry.category("web_tour.tours").add("test_settle_groupable_lot_total_amount"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

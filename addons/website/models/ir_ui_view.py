@@ -279,6 +279,7 @@ class View(models.Model):
         # dispatch_parameters may not be added. Manually set
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # website_id. (It will then always fallback on a website, this
         # method should never be called in a generic context, even for
         # tests)
@@ -286,11 +287,16 @@ class View(models.Model):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         # website_id. (In the website environment, this method should
         # never be called in a generic context, even for tests)
         is_customization_code = self._context.get('is_customization_code', True)
         current_website = self.env['website'].get_current_website(fallback=is_customization_code)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -699,10 +705,13 @@ class View(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # background-video, background-shapes, parallax
         return super()._get_allowed_root_attrs() + [
             'data-bg-video-src', 'data-shape', 'data-scroll-background-ratio',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1266,6 +1275,9 @@ class View(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

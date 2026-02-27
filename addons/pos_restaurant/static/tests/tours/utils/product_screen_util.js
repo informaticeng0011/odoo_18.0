@@ -241,7 +241,10 @@ export function OrderButtonNotContain(data) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -813,6 +816,7 @@ export function bookOrReleaseTable() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1187,6 +1191,8 @@ export function bookOrReleaseTable() {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
 export function clickBookTable() {
     return [
@@ -1198,4 +1204,7 @@ export function clickBookTable() {
         },
     ];
 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

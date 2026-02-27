@@ -489,6 +489,7 @@ describe("Range collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1016,6 +1017,10 @@ describe("Range collapsed", () => {
 
         test("should convert list item with line breaks into a single paragraph (1)", async () => {
 >>>>>>> upstream/18.0
+=======
+
+        test("should convert list item with line breaks into a single paragraph (1)", async () => {
+>>>>>>> upstream/18.0
             await testEditor({
                 contentBefore: "<ul><li>ab<br>cd<br>ef[]</li></ul>",
                 stepFunction: toggleUnorderedList,
@@ -1090,6 +1095,12 @@ describe("Range collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should convert list item with line breaks into a single paragraph (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -1634,6 +1645,9 @@ describe("Range collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

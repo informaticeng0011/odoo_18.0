@@ -55,12 +55,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Chloe Wang, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -225,6 +228,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -336,6 +342,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -505,6 +512,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Chloe Wang, 2024\n"
@@ -567,6 +576,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -737,10 +749,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Working Schedule: Work entries will be generated from the working hours below.\n"
 "        Attendances: Work entries will be generated from the employee's attendances. (requires Attendance app)\n"
 "        Planning: Work entries will be generated from the employee's planning. (requires Planning app)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -906,6 +921,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1090,7 +1108,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "员工%(employee)s在%(date_start)s至%(date_end)s期间，有多份不同合约。工作记项不可与多份合约重叠。"
+=======
+msgstr ""
+"员工%(employee)s在%(date_start)s至%(date_end)s期间，有多份不同合约。工作记项"
+"不可与多份合约重叠。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "员工%(employee)s在%(date_start)s至%(date_end)s期间，有多份不同合约。工作记项"
@@ -1422,8 +1446,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-exclamation-triangle me-1\" "
 "title=\"Warning\"/>您不被允许重新生成已验证的工作条目。"
+=======
+"<i class=\"fa fa-exclamation-triangle me-1\" title=\"Warning\"/>您不被允许重"
+"新生成已验证的工作条目。"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-exclamation-triangle me-1\" title=\"Warning\"/>您不被允许重"
 "新生成已验证的工作条目。"
@@ -1705,7 +1734,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span class=\"text-muted\">警告：重新生成工作记录将删除选定时间段的所有手动更改。</span>"
+=======
+msgstr ""
+"<span class=\"text-muted\">警告：重新生成工作记录将删除选定时间段的所有手动更"
+"改。</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "<span class=\"text-muted\">警告：重新生成工作记录将删除选定时间段的所有手动更"
@@ -2157,6 +2192,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In order to regenerate the work entries, you need to provide the wizard with"
 " an employee_id, a date_from and a date_to. In addition to that, the time "
 "interval defined by date_from and date_to must not contain any validated "
@@ -2165,6 +2201,8 @@ msgstr ""
 "为了重新生成工作条目，您需要为向导提供一个employee_id，一个date_from和一个date_to。 "
 "除此之外，由date_from和date_to定义的时间间隔不得包含任何经过验证的工作条目。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2332,6 +2370,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2568,8 +2609,12 @@ msgstr "病假"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Sorry, generating work entries from cancelled contracts is not allowed."
+=======
+msgid "Sorry, generating work entries from cancelled contracts is not allowed."
+>>>>>>> upstream/18.0
 =======
 msgid "Sorry, generating work entries from cancelled contracts is not allowed."
 >>>>>>> upstream/18.0
@@ -2796,8 +2841,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "起始日期必须是> "
 "='%(earliest_available_date)s'，截止日期必须是<='%(latest_available_date)s'，对应于生成的工作条目时间间隔。"
+=======
+"起始日期必须是> ='%(earliest_available_date)s'，截止日期必须是<='%"
+"(latest_available_date)s'，对应于生成的工作条目时间间隔。"
+>>>>>>> upstream/18.0
 =======
 "起始日期必须是> ='%(earliest_available_date)s'，截止日期必须是<='%"
 "(latest_available_date)s'，对应于生成的工作条目时间间隔。"

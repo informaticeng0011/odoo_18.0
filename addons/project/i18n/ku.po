@@ -55,11 +55,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Raz Omer Hussein, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -223,6 +226,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -334,6 +340,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1191,6 +1198,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Raz Omer Hussein, 2025\n"
@@ -1252,6 +1261,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1423,7 +1435,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    Track major progress points that must be reached to achieve success.\n"
+=======
+"                    Track major progress points that must be reached to "
+"achieve success.\n"
+>>>>>>> upstream/18.0
 =======
 "                    Track major progress points that must be reached to "
 "achieve success.\n"
@@ -1705,7 +1722,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "export class ProjectTaskFormController extends FormControllerWithHTMLExpander {\n"
+=======
+"export class ProjectTaskFormController extends "
+"FormControllerWithHTMLExpander {\n"
+>>>>>>> upstream/18.0
 =======
 "export class ProjectTaskFormController extends "
 "FormControllerWithHTMLExpander {\n"
@@ -1997,7 +2019,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        const deleteConfirmationDialogProps = super.deleteConfirmationDialogProps;\n"
+=======
+"        const deleteConfirmationDialogProps = "
+"super.deleteConfirmationDialogProps;\n"
+>>>>>>> upstream/18.0
 =======
 "        const deleteConfirmationDialogProps = "
 "super.deleteConfirmationDialogProps;\n"
@@ -2280,12 +2307,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        const historyMetadata = record.data[\"html_field_history_metadata\"]?.[versionedFieldName];\n"
 "        if (!historyMetadata) {\n"
 "            this.notifications.add(\n"
 "                escape(_t(\n"
 "                    \"The task description lacks any past content that could be restored at the moment.\"\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2452,6 +2482,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2761,7 +2794,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:project.field_project_milestone__task_count
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3406,7 +3442,11 @@ msgid "%s (copy)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s (لەبەرگرتنەوە)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s (لەبەرگرتنەوە)"
 >>>>>>> upstream/18.0
@@ -4106,8 +4146,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "tag them)</i>. Use @ <b>mentions</b> to ping a colleague or # "
 "<b>mentions</b> to reach an entire team."
+=======
+"tag them)</i>. Use @ <b>mentions</b> to ping a colleague or # <b>mentions</"
+"b> to reach an entire team."
+>>>>>>> upstream/18.0
 =======
 "tag them)</i>. Use @ <b>mentions</b> to ping a colleague or # <b>mentions</"
 "b> to reach an entire team."
@@ -4384,6 +4429,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    <t t-set=\"access_token\" t-value=\"object._rating_get_access_token()\"/>\n"
 "    <t t-set=\"partner\" t-value=\"object._rating_get_partner()\"/>\n"
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"width:100%; margin:0px auto;\">\n"
@@ -4392,6 +4438,8 @@ msgid ""
 "            <t t-if=\"partner.name\">\n"
 "                Hello <t t-out=\"partner.name or ''\">Brandon Freeman</t>,<br/><br/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4561,6 +4609,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4726,10 +4777,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Please take a moment to rate our services related to the <strong t-out=\"object.name or ''\">Planning and budget</strong> task\n"
 "            <t t-if=\"object._rating_get_operator().name\">\n"
 "                assigned to <strong t-out=\"object._rating_get_operator().name or ''\">Mitchell Admin</strong>.<br/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4895,6 +4949,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5062,6 +5119,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"width:100%; margin: 32px 0px 32px 0px; display: inline-table;\">\n"
 "                <tr><td style=\"font-size: 13px;text-align:center;\">\n"
 "                    <strong>Tell us how you feel about our services</strong><br/>\n"
@@ -5084,6 +5142,8 @@ msgid ""
 "                                <a t-attf-href=\"/rate/{{ access_token }}/1\" t-att-class=\"'pe-none' if object._rating_get_operator() else ''\">\n"
 "                                    <img alt=\"Dissatisfied\" src=\"/rating/static/src/img/rating_1.png\" title=\"Dissatisfied\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5275,6 +5335,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5446,11 +5509,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                <br/><span style=\"margin: 0; font-size: 12px; opacity: 0.5; color: #454748;\">This satisfaction survey has been sent because your task has been moved to the <b t-out=\"object.stage_id.name or ''\">In progress</b> stage</span>\n"
 "            </t>\n"
 "            <t t-if=\"object.project_id.rating_status == 'periodic'\">\n"
 "                <br/><span style=\"margin: 0; font-size: 12px; opacity: 0.5; color: #454748;\">This satisfaction survey is sent <b t-out=\"object.project_id.rating_status_period or ''\">weekly</b> as long as the task is in the <b t-out=\"object.stage_id.name or ''\">In progress</b> stage.</span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5621,6 +5687,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5786,6 +5855,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "           <t t-out=\"object.project_id.company_id.name or ''\">YourCompany</t>\n"
 "        </td></tr>\n"
 "        <tr><td style=\"opacity: 0.5;\">\n"
@@ -5796,6 +5866,8 @@ msgid ""
 "            <t t-if=\"object.project_id.company_id.website\">\n"
 "                | <a t-attf-href=\"{{ object.project_id.company_id.website }}\" style=\"text-decoration:none; color: #454748;\" t-out=\"object.project_id.company_id.website or ''\">http://www.example.com</a>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5972,6 +6044,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6145,6 +6220,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    Dear <t t-out=\"object.partner_id.name or 'customer'\">Brandon Freeman</t>,<br/>\n"
 "    It is my pleasure to let you know that we have successfully completed the project \"<strong t-out=\"object.name or ''\">Renovations</strong>\".\n"
 "    <t t-if=\"user.signature\" data-o-mail-quote-container=\"1\">\n"
@@ -6154,6 +6230,8 @@ msgid ""
 "</div>\n"
 "<br/><span style=\"margin: 0px 0px 0px 0px; font-size: 12px; opacity: 0.5; color: #454748;\" groups=\"project.group_project_stages\">You are receiving this email because your project has been moved to the stage <b t-out=\"object.stage_id.name or ''\">Done</b></span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6327,6 +6405,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6495,11 +6576,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    Dear <t t-out=\"object.partner_id.name or 'customer'\">Brandon Freeman</t>,<br/><br/>\n"
 "    Thank you for contacting us. We appreciate your interest in our products/services.<br/>\n"
 "    Our team is currently reviewing your inquiry and will respond to your email as soon as possible.<br/>\n"
 "    If you have any further questions or concerns in the meantime, please do not hesitate to let us know. We are here to help.<br/><br/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6667,6 +6751,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6832,7 +6919,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+=======
+"        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-"
+"o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+>>>>>>> upstream/18.0
 =======
 "        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-"
 "o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
@@ -7111,10 +7203,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-fw o_button_icon fa-smile-o text-success\" invisible=\"rating_avg &lt; 3.66\" title=\"Satisfied\"/>\n"
 "                            <i class=\"fa fa-fw o_button_icon fa-meh-o text-warning\" invisible=\"rating_avg &lt; 2.33 or rating_avg &gt;= 3.66\" title=\"Okay\"/>\n"
 "                            <i class=\"fa fa-fw o_button_icon fa-frown-o text-danger\" invisible=\"rating_avg &gt;= 2.33\" title=\"Dissatisfied\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7281,6 +7376,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7505,7 +7603,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<span class=\"fa fa-user me-2\" aria-label=\"Partner\" title=\"Partner\"/>"
+=======
+msgid ""
+"<span class=\"fa fa-user me-2\" aria-label=\"Partner\" title=\"Partner\"/>"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "<span class=\"fa fa-user me-2\" aria-label=\"Partner\" title=\"Partner\"/>"
@@ -7816,7 +7919,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<span class=\"text-muted o_row ps-1 pb-3\">Send a rating request:</span>"
+=======
+msgid ""
+"<span class=\"text-muted o_row ps-1 pb-3\">Send a rating request:</span>"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "<span class=\"text-muted o_row ps-1 pb-3\">Send a rating request:</span>"
@@ -8093,10 +8201,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                                    <i class=\"fa fa-lightbulb-o pe-2\"/>\n"
 "                                                    <span invisible=\"rating_status == 'periodic'\">A rating request will be sent as soon as the task reaches a stage on which a Rating Email Template is defined.</span>\n"
 "                                                    <span invisible=\"rating_status == 'stage'\">Rating requests will be sent as long as the task remains in a stage on which a Rating Email Template is defined.</span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8266,6 +8377,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8619,7 +8733,11 @@ msgid "<span>Reporting</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>ڕاپۆرتکردن</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>ڕاپۆرتکردن</span>"
 >>>>>>> upstream/18.0
@@ -9584,7 +9702,11 @@ msgid "<span>View</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>بینین</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>بینین</span>"
 >>>>>>> upstream/18.0
@@ -10415,8 +10537,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A personal stage cannot be linked to a project because it is only visible to"
 " its corresponding user."
+=======
+"A personal stage cannot be linked to a project because it is only visible to "
+"its corresponding user."
+>>>>>>> upstream/18.0
 =======
 "A personal stage cannot be linked to a project because it is only visible to "
 "its corresponding user."
@@ -10838,7 +10965,11 @@ msgid "Access warning"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ئاگادارکردنەوەی دەستڕاگەیشتن"
+>>>>>>> upstream/18.0
 =======
 msgstr "ئاگادارکردنەوەی دەستڕاگەیشتن"
 >>>>>>> upstream/18.0
@@ -11587,7 +11718,11 @@ msgid "Action Needed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "کردەوەی پێویستە"
+>>>>>>> upstream/18.0
 =======
 msgstr "کردەوەی پێویستە"
 >>>>>>> upstream/18.0
@@ -12540,7 +12675,11 @@ msgid "Active"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "چالاک"
+>>>>>>> upstream/18.0
 =======
 msgstr "چالاک"
 >>>>>>> upstream/18.0
@@ -13496,7 +13635,11 @@ msgid "Activities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "چالاکیەکان"
+>>>>>>> upstream/18.0
 =======
 msgstr "چالاکیەکان"
 >>>>>>> upstream/18.0
@@ -14464,7 +14607,11 @@ msgid "Activity State"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دۆخی چالاکییەکان"
+>>>>>>> upstream/18.0
 =======
 msgstr "دۆخی چالاکییەکان"
 >>>>>>> upstream/18.0
@@ -15419,7 +15566,11 @@ msgid "Activity Type Icon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ئایکۆنی جۆری چالاکیی"
+>>>>>>> upstream/18.0
 =======
 msgstr "ئایکۆنی جۆری چالاکیی"
 >>>>>>> upstream/18.0
@@ -16435,7 +16586,11 @@ msgid "Administrator"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "کارگێڕ"
+>>>>>>> upstream/18.0
 =======
 msgstr "کارگێڕ"
 >>>>>>> upstream/18.0
@@ -17394,7 +17549,11 @@ msgid "Alias"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ناوی نادیار"
+>>>>>>> upstream/18.0
 =======
 msgstr "ناوی نادیار"
 >>>>>>> upstream/18.0
@@ -18367,7 +18526,11 @@ msgid "Alias Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ناوی نادیار"
+>>>>>>> upstream/18.0
 =======
 msgstr "ناوی نادیار"
 >>>>>>> upstream/18.0
@@ -19336,7 +19499,11 @@ msgid "All"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "گشت"
+>>>>>>> upstream/18.0
 =======
 msgstr "گشت"
 >>>>>>> upstream/18.0
@@ -20309,7 +20476,11 @@ msgid "Analytic"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "شیکاری"
+>>>>>>> upstream/18.0
 =======
 msgstr "شیکاری"
 >>>>>>> upstream/18.0
@@ -21251,7 +21422,11 @@ msgid "Analytic Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "شیکاری هەژمار"
+>>>>>>> upstream/18.0
 =======
 msgstr "شیکاری هەژمار"
 >>>>>>> upstream/18.0
@@ -22193,7 +22368,11 @@ msgid "Analytics"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "شیکاری"
+>>>>>>> upstream/18.0
 =======
 msgstr "شیکاری"
 >>>>>>> upstream/18.0
@@ -23100,7 +23279,11 @@ msgid "Architecture"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "تەلارسازی"
+>>>>>>> upstream/18.0
 =======
 msgstr "تەلارسازی"
 >>>>>>> upstream/18.0
@@ -23890,7 +24073,11 @@ msgid "Archived"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ئەرشیف کراوە"
+>>>>>>> upstream/18.0
 =======
 msgstr "ئەرشیف کراوە"
 >>>>>>> upstream/18.0
@@ -24936,7 +25123,11 @@ msgid "Attachment Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ژمارەی هاوپێچەکان"
+>>>>>>> upstream/18.0
 =======
 msgstr "ژمارەی هاوپێچەکان"
 >>>>>>> upstream/18.0
@@ -25877,7 +26068,11 @@ msgid "Attachments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "هاوپێچەکان"
+>>>>>>> upstream/18.0
 =======
 msgstr "هاوپێچەکان"
 >>>>>>> upstream/18.0
@@ -26658,10 +26853,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Automatically modify the state when the customer replies to the feedback for this stage.\n"
 " * Good feedback from the customer will update the state to 'Approved' (green bullet).\n"
 " * Neutral or bad feedback will set the kanban state to 'Changes Requested' (orange bullet).\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26827,6 +27025,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27228,7 +27429,11 @@ msgid "Balance"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "هاوسەنگی"
+>>>>>>> upstream/18.0
 =======
 msgstr "هاوسەنگی"
 >>>>>>> upstream/18.0
@@ -28105,7 +28310,11 @@ msgid "Billed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "پسووڵە کراوە"
+>>>>>>> upstream/18.0
 =======
 msgstr "پسووڵە کراوە"
 >>>>>>> upstream/18.0
@@ -28878,7 +29087,11 @@ msgid "Blocked"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بلۆک کراوە"
+>>>>>>> upstream/18.0
 =======
 msgstr "بلۆک کراوە"
 >>>>>>> upstream/18.0
@@ -29955,7 +30168,11 @@ msgid "Cancelled"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "هەڵوەشایەوە"
+>>>>>>> upstream/18.0
 =======
 msgstr "هەڵوەشایەوە"
 >>>>>>> upstream/18.0
@@ -30794,8 +31011,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "name of a customer, of a product, of a team, of a construction site, "
 "etc.</i>"
+=======
+"name of a customer, of a product, of a team, of a construction site, etc.</i>"
+>>>>>>> upstream/18.0
 =======
 "name of a customer, of a product, of a team, of a construction site, etc.</i>"
 >>>>>>> upstream/18.0
@@ -31089,10 +31310,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Collect feedback from your customers by sending them a rating request when a task enters a certain stage. To do so, define a rating email template on the corresponding stages.\n"
 "Rating when changing stage: an email will be automatically sent when the task reaches the stage on which the rating email template is set.\n"
 "Periodic rating: an email will be automatically sent at regular intervals as long as the task remains in the stage in which the rating email template is set."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -31260,6 +31484,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -31571,7 +31798,11 @@ msgid "Color"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ڕەنگ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ڕەنگ"
 >>>>>>> upstream/18.0
@@ -32228,7 +32459,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Communicate with customers on the task using the email gateway. Attach logo designs to the task, so that information flows from\n"
+=======
+"Communicate with customers on the task using the email gateway. Attach logo "
+"designs to the task, so that information flows from\n"
+>>>>>>> upstream/18.0
 =======
 "Communicate with customers on the task using the email gateway. Attach logo "
 "designs to the task, so that information flows from\n"
@@ -32707,7 +32943,11 @@ msgid "Communication history"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "مێژووی پەیوەندیکردن"
+>>>>>>> upstream/18.0
 =======
 msgstr "مێژووی پەیوەندیکردن"
 >>>>>>> upstream/18.0
@@ -33742,7 +33982,11 @@ msgid "Company"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "کۆمپانیا"
+>>>>>>> upstream/18.0
 =======
 msgstr "کۆمپانیا"
 >>>>>>> upstream/18.0
@@ -34788,7 +35032,11 @@ msgid "Confirm"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دڵنیاکردنەوە"
+>>>>>>> upstream/18.0
 =======
 msgstr "دڵنیاکردنەوە"
 >>>>>>> upstream/18.0
@@ -35742,7 +35990,11 @@ msgid "Construction"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بنیاتنان"
+>>>>>>> upstream/18.0
 =======
 msgstr "بنیاتنان"
 >>>>>>> upstream/18.0
@@ -36467,7 +36719,11 @@ msgid "Create Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " بەرواری دروستکردن"
+>>>>>>> upstream/18.0
 =======
 msgstr " بەرواری دروستکردن"
 >>>>>>> upstream/18.0
@@ -37063,8 +37319,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Create projects to organize your tasks. Define a different workflow for each"
 " project."
+=======
+"Create projects to organize your tasks. Define a different workflow for each "
+"project."
+>>>>>>> upstream/18.0
 =======
 "Create projects to organize your tasks. Define a different workflow for each "
 "project."
@@ -37553,7 +37814,11 @@ msgid "Created On"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دروستکراوە لە"
+>>>>>>> upstream/18.0
 =======
 msgstr "دروستکراوە لە"
 >>>>>>> upstream/18.0
@@ -38595,7 +38860,11 @@ msgid "Created by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دروستکراوە لەلایەن..."
+>>>>>>> upstream/18.0
 =======
 msgstr "دروستکراوە لەلایەن..."
 >>>>>>> upstream/18.0
@@ -39636,7 +39905,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دروستکراوە لە"
+>>>>>>> upstream/18.0
 =======
 msgstr "دروستکراوە لە"
 >>>>>>> upstream/18.0
@@ -40611,7 +40884,11 @@ msgid "Creation Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بەرواری دروستکردن"
+>>>>>>> upstream/18.0
 =======
 msgstr "بەرواری دروستکردن"
 >>>>>>> upstream/18.0
@@ -41518,7 +41795,11 @@ msgid "Customer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "کڕیار"
+>>>>>>> upstream/18.0
 =======
 msgstr "کڕیار"
 >>>>>>> upstream/18.0
@@ -42377,7 +42658,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Customers propose feedbacks by email; Odoo creates tasks automatically, and you can\n"
+=======
+"Customers propose feedbacks by email; Odoo creates tasks automatically, and "
+"you can\n"
+>>>>>>> upstream/18.0
 =======
 "Customers propose feedbacks by email; Odoo creates tasks automatically, and "
 "you can\n"
@@ -42869,7 +43155,11 @@ msgid "Dashboard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "داشبۆرد"
+>>>>>>> upstream/18.0
 =======
 msgstr "داشبۆرد"
 >>>>>>> upstream/18.0
@@ -43903,7 +44193,11 @@ msgid "Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ڕێکەوت"
+>>>>>>> upstream/18.0
 =======
 msgstr "ڕێکەوت"
 >>>>>>> upstream/18.0
@@ -44731,7 +45025,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Based on this information you can identify tasks that are stalling and get statistics on the time it usually takes to move tasks from one stage/state to another."
+=======
+"Based on this information you can identify tasks that are stalling and get "
+"statistics on the time it usually takes to move tasks from one stage/state "
+"to another."
+>>>>>>> upstream/18.0
 =======
 "Based on this information you can identify tasks that are stalling and get "
 "statistics on the time it usually takes to move tasks from one stage/state "
@@ -45279,7 +45579,11 @@ msgid "Days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ڕۆژەکان"
+>>>>>>> upstream/18.0
 =======
 msgstr "ڕۆژەکان"
 >>>>>>> upstream/18.0
@@ -46265,7 +46569,11 @@ msgid "Dear"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بەڕێز"
+>>>>>>> upstream/18.0
 =======
 msgstr "بەڕێز"
 >>>>>>> upstream/18.0
@@ -47092,7 +47400,11 @@ msgid "Default Values"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بەهاکانی پێشوەختە"
+>>>>>>> upstream/18.0
 =======
 msgstr "بەهاکانی پێشوەختە"
 >>>>>>> upstream/18.0
@@ -47854,7 +48166,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                creation of the task, up to the closing of the task or issue.\n"
+=======
+"                creation of the task, up to the closing of the task or "
+"issue.\n"
+>>>>>>> upstream/18.0
 =======
 "                creation of the task, up to the closing of the task or "
 "issue.\n"
@@ -48290,7 +48607,11 @@ msgid "Delete"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "سڕینەوە"
+>>>>>>> upstream/18.0
 =======
 msgstr "سڕینەوە"
 >>>>>>> upstream/18.0
@@ -49172,7 +49493,11 @@ msgid "Description"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "وەسف"
+>>>>>>> upstream/18.0
 =======
 msgstr "وەسف"
 >>>>>>> upstream/18.0
@@ -50160,7 +50485,11 @@ msgid "Discard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ڕەتکردنەوە"
+>>>>>>> upstream/18.0
 =======
 msgstr "ڕەتکردنەوە"
 >>>>>>> upstream/18.0
@@ -51108,7 +51437,11 @@ msgid "Done"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "تەواو"
+>>>>>>> upstream/18.0
 =======
 msgstr "تەواو"
 >>>>>>> upstream/18.0
@@ -51945,7 +52278,11 @@ msgid "Draft"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ڕەشنووس"
+>>>>>>> upstream/18.0
 =======
 msgstr "ڕەشنووس"
 >>>>>>> upstream/18.0
@@ -52972,7 +53309,11 @@ msgid "End Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بەرواری کۆتایی"
+>>>>>>> upstream/18.0
 =======
 msgstr "بەرواری کۆتایی"
 >>>>>>> upstream/18.0
@@ -53904,7 +54245,11 @@ msgid "Expiration Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بەرواری بەسەرچوون"
+>>>>>>> upstream/18.0
 =======
 msgstr "بەرواری بەسەرچوون"
 >>>>>>> upstream/18.0
@@ -54723,7 +55068,11 @@ msgid "Finance"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دارایی"
+>>>>>>> upstream/18.0
 =======
 msgstr "دارایی"
 >>>>>>> upstream/18.0
@@ -55590,7 +55939,11 @@ msgid "Followers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "فۆڵۆوەرەکان"
+>>>>>>> upstream/18.0
 =======
 msgstr "فۆڵۆوەرەکان"
 >>>>>>> upstream/18.0
@@ -56514,7 +56867,11 @@ msgid "Followers (Partners)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "فۆڵۆوەرەکان (هاوبەشەکان)"
+>>>>>>> upstream/18.0
 =======
 msgstr "فۆڵۆوەرەکان (هاوبەشەکان)"
 >>>>>>> upstream/18.0
@@ -57460,7 +57817,11 @@ msgid "Future Activities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "چالاکییەکانی داهاتوو"
+>>>>>>> upstream/18.0
 =======
 msgstr "چالاکییەکانی داهاتوو"
 >>>>>>> upstream/18.0
@@ -58206,8 +58567,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Get a snapshot of the status of your project and share its progress with key"
 " stakeholders."
+=======
+"Get a snapshot of the status of your project and share its progress with key "
+"stakeholders."
+>>>>>>> upstream/18.0
 =======
 "Get a snapshot of the status of your project and share its progress with key "
 "stakeholders."
@@ -58500,8 +58866,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Grant employees access to your project or tasks by adding them as followers."
 " Employees automatically get access to the tasks they are assigned to."
+=======
+"Grant employees access to your project or tasks by adding them as followers. "
+"Employees automatically get access to the tasks they are assigned to."
+>>>>>>> upstream/18.0
 =======
 "Grant employees access to your project or tasks by adding them as followers. "
 "Employees automatically get access to the tasks they are assigned to."
@@ -58779,8 +59150,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "tasks of the project are not included). To grant access to tasks to a portal"
 " user, add them as followers for these tasks."
+=======
+"tasks of the project are not included). To grant access to tasks to a portal "
+"user, add them as followers for these tasks."
+>>>>>>> upstream/18.0
 =======
 "tasks of the project are not included). To grant access to tasks to a portal "
 "user, add them as followers for these tasks."
@@ -59172,7 +59548,11 @@ msgid "Group By"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "گروپ لەلایەن..."
+>>>>>>> upstream/18.0
 =======
 msgstr "گروپ لەلایەن..."
 >>>>>>> upstream/18.0
@@ -59736,8 +60116,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Handle your idea gathering within Tasks of your new Project and discuss them"
 " in the chatter of the tasks."
+=======
+"Handle your idea gathering within Tasks of your new Project and discuss them "
+"in the chatter of the tasks."
+>>>>>>> upstream/18.0
 =======
 "Handle your idea gathering within Tasks of your new Project and discuss them "
 "in the chatter of the tasks."
@@ -60173,7 +60558,11 @@ msgid "Has Message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "نامە هەیە"
+>>>>>>> upstream/18.0
 =======
 msgstr "نامە هەیە"
 >>>>>>> upstream/18.0
@@ -61081,7 +61470,11 @@ msgid "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID"
 >>>>>>> upstream/18.0
@@ -61827,8 +62220,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "ID of the parent record holding the alias (example: project holding the task"
 " creation alias)"
+=======
+"ID of the parent record holding the alias (example: project holding the task "
+"creation alias)"
+>>>>>>> upstream/18.0
 =======
 "ID of the parent record holding the alias (example: project holding the task "
 "creation alias)"
@@ -62281,7 +62679,11 @@ msgid "Icon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ئایکۆن"
+>>>>>>> upstream/18.0
 =======
 msgstr "ئایکۆن"
 >>>>>>> upstream/18.0
@@ -63204,7 +63606,11 @@ msgid "Icon to indicate an exception activity."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ئایکۆن بۆ ئاماژەدان بە چالاکیەکی ئیستسناء."
+>>>>>>> upstream/18.0
 =======
 msgstr "ئایکۆن بۆ ئاماژەدان بە چالاکیەکی ئیستسناء."
 >>>>>>> upstream/18.0
@@ -64134,7 +64540,11 @@ msgid "If checked, new messages require your attention."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ئەگەر پشکنینیان بۆ کرا، پەیامە نوێیەکان پێویستیان بە سەرنجی تۆ هەیە."
+>>>>>>> upstream/18.0
 =======
 msgstr "ئەگەر پشکنینیان بۆ کرا، پەیامە نوێیەکان پێویستیان بە سەرنجی تۆ هەیە."
 >>>>>>> upstream/18.0
@@ -65062,7 +65472,11 @@ msgid "If checked, some messages have a delivery error."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ئەگەر پشکنینیان بۆ کرا، هەندێک لە نامەکان هەڵەی گەیاندنیان هەیە."
+>>>>>>> upstream/18.0
 =======
 msgstr "ئەگەر پشکنینیان بۆ کرا، هەندێک لە نامەکان هەڵەی گەیاندنیان هەیە."
 >>>>>>> upstream/18.0
@@ -65815,10 +66229,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If set, a rating request will automatically be sent by email to the customer when the task reaches this stage. \n"
 "Alternatively, it will be sent at a regular interval as long as the task remains in this stage, depending on the configuration of your project. \n"
 "To use this feature make sure that the 'Customer Ratings' option is enabled on your project."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -65984,6 +66401,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -66150,8 +66570,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If set, an email will be automatically sent to the customer when the project"
 " reaches this stage."
+=======
+"If set, an email will be automatically sent to the customer when the project "
+"reaches this stage."
+>>>>>>> upstream/18.0
 =======
 "If set, an email will be automatically sent to the customer when the project "
 "reaches this stage."
@@ -66617,7 +67042,11 @@ msgid "Internal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ناوخۆیی"
+>>>>>>> upstream/18.0
 =======
 msgstr "ناوخۆیی"
 >>>>>>> upstream/18.0
@@ -67491,7 +67920,11 @@ msgid "Invoiced"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "فاکتورە کراوە"
+>>>>>>> upstream/18.0
 =======
 msgstr "فاکتورە کراوە"
 >>>>>>> upstream/18.0
@@ -68391,7 +68824,11 @@ msgid "Is Follower"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "فۆڵۆوەرە"
+>>>>>>> upstream/18.0
 =======
 msgstr "فۆڵۆوەرە"
 >>>>>>> upstream/18.0
@@ -69068,7 +69505,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    Collaborate efficiently by chatting in real-time or via email."
+=======
+"                    Collaborate efficiently by chatting in real-time or via "
+"email."
+>>>>>>> upstream/18.0
 =======
 "                    Collaborate efficiently by chatting in real-time or via "
 "email."
@@ -69346,7 +69788,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                Collaborate efficiently by chatting in real-time or via email."
+=======
+"                Collaborate efficiently by chatting in real-time or via "
+"email."
+>>>>>>> upstream/18.0
 =======
 "                Collaborate efficiently by chatting in real-time or via "
 "email."
@@ -69814,7 +70261,11 @@ msgid "Last Month"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "مانگی ڕابردوو"
+>>>>>>> upstream/18.0
 =======
 msgstr "مانگی ڕابردوو"
 >>>>>>> upstream/18.0
@@ -70768,7 +71219,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دوایین نوێکردنەوە لەلایەن..."
+>>>>>>> upstream/18.0
 =======
 msgstr "دوایین نوێکردنەوە لەلایەن..."
 >>>>>>> upstream/18.0
@@ -71701,7 +72156,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دوایین نوێکردنەوە لە..."
+>>>>>>> upstream/18.0
 =======
 msgstr "دوایین نوێکردنەوە لە..."
 >>>>>>> upstream/18.0
@@ -72623,7 +73082,11 @@ msgid "Late Activities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "چالاکییەکانی دواتر"
+>>>>>>> upstream/18.0
 =======
 msgstr "چالاکییەکانی دواتر"
 >>>>>>> upstream/18.0
@@ -73577,7 +74040,11 @@ msgid "Live"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ڕاستەوخۆ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ڕاستەوخۆ"
 >>>>>>> upstream/18.0
@@ -74257,7 +74724,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Manage the lifecycle of your project using the kanban view. Add newly acquired projects,\n"
+=======
+"Manage the lifecycle of your project using the kanban view. Add newly "
+"acquired projects,\n"
+>>>>>>> upstream/18.0
 =======
 "Manage the lifecycle of your project using the kanban view. Add newly "
 "acquired projects,\n"
@@ -74754,7 +75226,11 @@ msgid "Menu"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "مێنۆ"
+>>>>>>> upstream/18.0
 =======
 msgstr "مێنۆ"
 >>>>>>> upstream/18.0
@@ -75663,7 +76139,11 @@ msgid "Message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "نامە"
+>>>>>>> upstream/18.0
 =======
 msgstr "نامە"
 >>>>>>> upstream/18.0
@@ -76575,7 +77055,11 @@ msgid "Message Delivery error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "نامەکە هەڵەی گەیاندنی تیایە"
+>>>>>>> upstream/18.0
 =======
 msgstr "نامەکە هەڵەی گەیاندنی تیایە"
 >>>>>>> upstream/18.0
@@ -77487,7 +77971,11 @@ msgid "Messages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "نامەکان "
+>>>>>>> upstream/18.0
 =======
 msgstr "نامەکان "
 >>>>>>> upstream/18.0
@@ -78433,7 +78921,11 @@ msgid "My Activity Deadline"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دوا وادەی چالاکییەکانم"
+>>>>>>> upstream/18.0
 =======
 msgstr "دوا وادەی چالاکییەکانم"
 >>>>>>> upstream/18.0
@@ -79381,7 +79873,11 @@ msgid "Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ناو"
+>>>>>>> upstream/18.0
 =======
 msgstr "ناو"
 >>>>>>> upstream/18.0
@@ -80313,7 +80809,11 @@ msgid "New"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "نوێ"
+>>>>>>> upstream/18.0
 =======
 msgstr "نوێ"
 >>>>>>> upstream/18.0
@@ -81206,7 +81706,11 @@ msgid "Newest"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "نوێترین"
+>>>>>>> upstream/18.0
 =======
 msgstr "نوێترین"
 >>>>>>> upstream/18.0
@@ -81897,7 +82401,11 @@ msgid "Next Activity Calendar Event"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "چالاکییەکانی داهاتووی ڕووداوی ساڵنامە"
+>>>>>>> upstream/18.0
 =======
 msgstr "چالاکییەکانی داهاتووی ڕووداوی ساڵنامە"
 >>>>>>> upstream/18.0
@@ -82576,7 +83084,11 @@ msgid "Next Activity Deadline"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دوا وادەی چالاکییەکانی داهاتوو"
+>>>>>>> upstream/18.0
 =======
 msgstr "دوا وادەی چالاکییەکانی داهاتوو"
 >>>>>>> upstream/18.0
@@ -83313,7 +83825,11 @@ msgid "Next Activity Summary"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "پوختەی چالاکییەکانی داهاتوو"
+>>>>>>> upstream/18.0
 =======
 msgstr "پوختەی چالاکییەکانی داهاتوو"
 >>>>>>> upstream/18.0
@@ -84224,7 +84740,11 @@ msgid "Next Activity Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "جۆری چالاکیی داهاتوو"
+>>>>>>> upstream/18.0
 =======
 msgstr "جۆری چالاکیی داهاتوو"
 >>>>>>> upstream/18.0
@@ -85208,7 +85728,11 @@ msgid "None"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "هیچکامیان"
+>>>>>>> upstream/18.0
 =======
 msgstr "هیچکامیان"
 >>>>>>> upstream/18.0
@@ -86111,7 +86635,11 @@ msgid "Note"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "تێبینی"
+>>>>>>> upstream/18.0
 =======
 msgstr "تێبینی"
 >>>>>>> upstream/18.0
@@ -87011,7 +87539,11 @@ msgid "Number of Actions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ژمارەی کردارەکان"
+>>>>>>> upstream/18.0
 =======
 msgstr "ژمارەی کردارەکان"
 >>>>>>> upstream/18.0
@@ -87911,7 +88443,11 @@ msgid "Number of errors"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ژمارەی هەڵەکان"
+>>>>>>> upstream/18.0
 =======
 msgstr "ژمارەی هەڵەکان"
 >>>>>>> upstream/18.0
@@ -88811,7 +89347,11 @@ msgid "Number of messages requiring action"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ژمارەی ئەو نامانەی کە پێویستیان بە کردار هەیە"
+>>>>>>> upstream/18.0
 =======
 msgstr "ژمارەی ئەو نامانەی کە پێویستیان بە کردار هەیە"
 >>>>>>> upstream/18.0
@@ -89711,7 +90251,11 @@ msgid "Number of messages with delivery error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ژمارەی ئەو نامانەی کە هەڵەی گەیاندنیان هەیە"
+>>>>>>> upstream/18.0
 =======
 msgstr "ژمارەی ئەو نامانەی کە هەڵەی گەیاندنیان هەیە"
 >>>>>>> upstream/18.0
@@ -90682,7 +91226,11 @@ msgid "Operation not supported"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ئۆپەراسیۆنەکە پشتگیری ناکرێت"
+>>>>>>> upstream/18.0
 =======
 msgstr "ئۆپەراسیۆنەکە پشتگیری ناکرێت"
 >>>>>>> upstream/18.0
@@ -91427,7 +91975,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    Collaborate efficiently by chatting in real-time or via email."
+=======
+"                    Collaborate efficiently by chatting in real-time or via "
+"email."
+>>>>>>> upstream/18.0
 =======
 "                    Collaborate efficiently by chatting in real-time or via "
 "email."
@@ -91879,7 +92432,11 @@ msgid "Overdue"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دواکەوتووە"
+>>>>>>> upstream/18.0
 =======
 msgstr "دواکەوتووە"
 >>>>>>> upstream/18.0
@@ -92636,8 +93193,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Parent model holding the alias. The model holding the alias reference is not"
 " necessarily the model given by alias_model_id (example: project "
+=======
+"Parent model holding the alias. The model holding the alias reference is not "
+"necessarily the model given by alias_model_id (example: project "
+>>>>>>> upstream/18.0
 =======
 "Parent model holding the alias. The model holding the alias reference is not "
 "necessarily the model given by alias_model_id (example: project "
@@ -92914,8 +93476,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Partner company cannot be different from its assigned projects' company"
+=======
+msgid "Partner company cannot be different from its assigned projects' company"
+>>>>>>> upstream/18.0
 =======
 msgid "Partner company cannot be different from its assigned projects' company"
 >>>>>>> upstream/18.0
@@ -93157,6 +93723,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- Invited internal users: when following a project, internal users will get access to all of its tasks without distinction. Otherwise, they will only get access to the specific tasks they are following.\n"
 " A user with the project > administrator access right level can still access this project and its tasks, even if they are not explicitly part of the followers.\n"
 "\n"
@@ -93170,6 +93737,8 @@ msgid ""
 "\n"
 "In any case, an internal user with no project access rights can still access a task, provided that they are given the corresponding URL (and that they are part of the followers if the project is private)."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -93354,6 +93923,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -93567,7 +94139,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- followers: only followers of the related document or members of following channels\n"
+=======
+"- followers: only followers of the related document or members of following "
+"channels\n"
+>>>>>>> upstream/18.0
 =======
 "- followers: only followers of the related document or members of following "
 "channels\n"
@@ -93850,8 +94427,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Portal users will be removed from the followers of the project and its "
 "tasks."
+=======
+"Portal users will be removed from the followers of the project and its tasks."
+>>>>>>> upstream/18.0
 =======
 "Portal users will be removed from the followers of the project and its tasks."
 >>>>>>> upstream/18.0
@@ -94203,7 +94784,11 @@ msgid "Priority"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ئەولەویەت"
+>>>>>>> upstream/18.0
 =======
 msgstr "ئەولەویەت"
 >>>>>>> upstream/18.0
@@ -94973,7 +95558,11 @@ msgid "Project"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "پرۆژە"
+>>>>>>> upstream/18.0
 =======
 msgstr "پرۆژە"
 >>>>>>> upstream/18.0
@@ -95801,8 +96390,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Projects in which this stage is present. If you follow a similar workflow in"
 " several projects, you can share this stage among them and get consolidated "
+=======
+"Projects in which this stage is present. If you follow a similar workflow in "
+"several projects, you can share this stage among them and get consolidated "
+>>>>>>> upstream/18.0
 =======
 "Projects in which this stage is present. If you follow a similar workflow in "
 "several projects, you can share this stage among them and get consolidated "
@@ -96275,7 +96869,11 @@ msgid "Quarterly"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "چارەک"
+>>>>>>> upstream/18.0
 =======
 msgstr "چارەک"
 >>>>>>> upstream/18.0
@@ -97236,7 +97834,11 @@ msgid "Ratings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "هەڵسەنگاندنەکان"
+>>>>>>> upstream/18.0
 =======
 msgstr "هەڵسەنگاندنەکان"
 >>>>>>> upstream/18.0
@@ -97971,9 +98573,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Edit with limited access: collaborators can view and edit tasks they follow in the Kanban view.\n"
 "Edit: collaborators can view and edit all tasks in the Kanban view. Additionally, they can choose which tasks they want to follow."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -98137,6 +98742,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -98516,7 +99124,11 @@ msgid "Rename"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ناوی بگۆڕە"
+>>>>>>> upstream/18.0
 =======
 msgstr "ناوی بگۆڕە"
 >>>>>>> upstream/18.0
@@ -99346,7 +99958,11 @@ msgid "Reporting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ڕاپۆرتکردن"
+>>>>>>> upstream/18.0
 =======
 msgstr "ڕاپۆرتکردن"
 >>>>>>> upstream/18.0
@@ -100217,7 +100833,11 @@ msgid "Research & Development"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "توێژینەوە و پەرەپێدان"
+>>>>>>> upstream/18.0
 =======
 msgstr "توێژینەوە و پەرەپێدان"
 >>>>>>> upstream/18.0
@@ -101059,7 +101679,11 @@ msgid "Responsible User"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بەکارهێنەری بەرپرسیار"
+>>>>>>> upstream/18.0
 =======
 msgstr "بەکارهێنەری بەرپرسیار"
 >>>>>>> upstream/18.0
@@ -101921,7 +102545,11 @@ msgid "SMS Delivery error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "هەڵەی گەیاندنی کورتەنامە"
+>>>>>>> upstream/18.0
 =======
 msgstr "هەڵەی گەیاندنی کورتەنامە"
 >>>>>>> upstream/18.0
@@ -102748,7 +103376,11 @@ msgid "Send"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ناردن"
+>>>>>>> upstream/18.0
 =======
 msgstr "ناردن"
 >>>>>>> upstream/18.0
@@ -103601,7 +104233,11 @@ msgid "Send Email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ئیمەیڵ بنێرە"
+>>>>>>> upstream/18.0
 =======
 msgstr "ئیمەیڵ بنێرە"
 >>>>>>> upstream/18.0
@@ -104416,7 +105052,11 @@ msgid "Sequence"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "زنجیرە"
+>>>>>>> upstream/18.0
 =======
 msgstr "زنجیرە"
 >>>>>>> upstream/18.0
@@ -105144,8 +105784,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Set on project's stages to inform customers when a project reaches that "
 "stage"
+=======
+"Set on project's stages to inform customers when a project reaches that stage"
+>>>>>>> upstream/18.0
 =======
 "Set on project's stages to inform customers when a project reaches that stage"
 >>>>>>> upstream/18.0
@@ -105579,7 +106223,11 @@ msgid "Show all records which has next action date is before today"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "هەموو تۆمارەکان پیشان بدە کە بەرواری کارکردنی پێش ئەمڕۆیە"
+>>>>>>> upstream/18.0
 =======
 msgstr "هەموو تۆمارەکان پیشان بدە کە بەرواری کارکردنی پێش ئەمڕۆیە"
 >>>>>>> upstream/18.0
@@ -106315,7 +106963,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Archiving these accounts will remove the option to log timesheets for their respective projects.\n"
+=======
+"Archiving these accounts will remove the option to log timesheets for their "
+"respective projects.\n"
+>>>>>>> upstream/18.0
 =======
 "Archiving these accounts will remove the option to log timesheets for their "
 "respective projects.\n"
@@ -106848,7 +107501,11 @@ msgid "State"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دۆخ"
+>>>>>>> upstream/18.0
 =======
 msgstr "دۆخ"
 >>>>>>> upstream/18.0
@@ -107733,7 +108390,11 @@ msgid "Status"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دۆخ"
+>>>>>>> upstream/18.0
 =======
 msgstr "دۆخ"
 >>>>>>> upstream/18.0
@@ -108619,7 +109280,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -109272,6 +109936,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -109975,7 +110642,11 @@ msgid "Tags"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "تاگەکان"
+>>>>>>> upstream/18.0
 =======
 msgstr "تاگەکان"
 >>>>>>> upstream/18.0
@@ -110922,8 +111593,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "The document does not exist or you do not have the rights to access it."
+=======
+msgid "The document does not exist or you do not have the rights to access it."
+>>>>>>> upstream/18.0
 =======
 msgid "The document does not exist or you do not have the rights to access it."
 >>>>>>> upstream/18.0
@@ -111167,9 +111842,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
+=======
+"The model (Odoo Document Kind) to which this alias corresponds. Any incoming "
+"email that does not reply to an existing record will cause the creation of a "
+"new record of this model (e.g. a Project Task)"
+>>>>>>> upstream/18.0
 =======
 "The model (Odoo Document Kind) to which this alias corresponds. Any incoming "
 "email that does not reply to an existing record will cause the creation of a "
@@ -111514,8 +112195,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The project's company cannot be changed if its analytic account has analytic"
 " lines or if more than one project is linked to it."
+=======
+"The project's company cannot be changed if its analytic account has analytic "
+"lines or if more than one project is linked to it."
+>>>>>>> upstream/18.0
 =======
 "The project's company cannot be changed if its analytic account has analytic "
 "lines or if more than one project is linked to it."
@@ -111798,8 +112484,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Chart or by \"Is Closed\" to represent a Burn-up chart. Without one of these"
 " groupings applied, the report will not provide relevant information."
+=======
+"Chart or by \"Is Closed\" to represent a Burn-up chart. Without one of these "
+"groupings applied, the report will not provide relevant information."
+>>>>>>> upstream/18.0
 =======
 "Chart or by \"Is Closed\" to represent a Burn-up chart. Without one of these "
 "groupings applied, the report will not provide relevant information."
@@ -112081,8 +112772,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "The task and the associated partner must be linked to the same company."
+=======
+msgid "The task and the associated partner must be linked to the same company."
+>>>>>>> upstream/18.0
 =======
 msgid "The task and the associated partner must be linked to the same company."
 >>>>>>> upstream/18.0
@@ -112306,8 +113001,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "project is too restricted. Set the privacy of the project to "
 "'%(visibility)s' in order to make it accessible by the recipient(s)."
+=======
+"project is too restricted. Set the privacy of the project to '%"
+"(visibility)s' in order to make it accessible by the recipient(s)."
+>>>>>>> upstream/18.0
 =======
 "project is too restricted. Set the privacy of the project to '%"
 "(visibility)s' in order to make it accessible by the recipient(s)."
@@ -112626,8 +113326,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "on your website. This includes leads/opportunities, quotations/sales orders,"
 " purchase orders, invoices and bills, timesheets, and tickets."
+=======
+"on your website. This includes leads/opportunities, quotations/sales orders, "
+"purchase orders, invoices and bills, timesheets, and tickets."
+>>>>>>> upstream/18.0
 =======
 "on your website. This includes leads/opportunities, quotations/sales orders, "
 "purchase orders, invoices and bills, timesheets, and tickets."
@@ -113066,7 +113771,11 @@ msgid "This Month"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ئەم مانگە"
+>>>>>>> upstream/18.0
 =======
 msgstr "ئەم مانگە"
 >>>>>>> upstream/18.0
@@ -113932,7 +114641,11 @@ msgid "This Week"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ئەم هەفتەیە"
+>>>>>>> upstream/18.0
 =======
 msgstr "ئەم هەفتەیە"
 >>>>>>> upstream/18.0
@@ -114637,7 +115350,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Archiving the account will remove the option to log timesheets for these projects.\n"
+=======
+"Archiving the account will remove the option to log timesheets for these "
+"projects.\n"
+>>>>>>> upstream/18.0
 =======
 "Archiving the account will remove the option to log timesheets for these "
 "projects.\n"
@@ -114916,8 +115634,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This follower is currently a project collaborator. Removing them will revoke"
 " their portal access to the project. Are you sure you want to proceed?"
+=======
+"This follower is currently a project collaborator. Removing them will revoke "
+"their portal access to the project. Are you sure you want to proceed?"
+>>>>>>> upstream/18.0
 =======
 "This follower is currently a project collaborator. Removing them will revoke "
 "their portal access to the project. Are you sure you want to proceed?"
@@ -115203,8 +115926,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "consider: either remove the company designation from the project or from the"
 " stage. Alternatively, you can update the company information for these "
+=======
+"consider: either remove the company designation from the project or from the "
+"stage. Alternatively, you can update the company information for these "
+>>>>>>> upstream/18.0
 =======
 "consider: either remove the company designation from the project or from the "
 "stage. Alternatively, you can update the company information for these "
@@ -115492,8 +116220,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "associated with %s. There are a couple of options to consider: either change"
 " the project's company to align with the stage's company or remove the "
+=======
+"associated with %s. There are a couple of options to consider: either change "
+"the project's company to align with the stage's company or remove the "
+>>>>>>> upstream/18.0
 =======
 "associated with %s. There are a couple of options to consider: either change "
 "the project's company to align with the stage's company or remove the "
@@ -116010,7 +116743,11 @@ msgid "To Invoice"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بۆ فاکتورەکردن"
+>>>>>>> upstream/18.0
 =======
 msgstr "بۆ فاکتورەکردن"
 >>>>>>> upstream/18.0
@@ -116886,7 +117623,11 @@ msgid "Today"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ئەمڕۆ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ئەمڕۆ"
 >>>>>>> upstream/18.0
@@ -117736,7 +118477,11 @@ msgid "Today Activities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "چالاکییەکانی ئەمڕۆ"
+>>>>>>> upstream/18.0
 =======
 msgstr "چالاکییەکانی ئەمڕۆ"
 >>>>>>> upstream/18.0
@@ -118586,7 +119331,11 @@ msgid "Total"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "کۆ"
+>>>>>>> upstream/18.0
 =======
 msgstr "کۆ"
 >>>>>>> upstream/18.0
@@ -119459,7 +120208,11 @@ msgid "Type of the exception activity on record."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "جۆری چالاکیی ئیستسنای تۆمارکراو."
+>>>>>>> upstream/18.0
 =======
 msgstr "جۆری چالاکیی ئیستسنای تۆمارکراو."
 >>>>>>> upstream/18.0
@@ -120150,7 +120903,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Make sure to use the right format and order e.g. Improve the configuration screen 5h #feature #v16 @Mitchell !"
+=======
+"        Make sure to use the right format and order e.g. Improve the "
+"configuration screen 5h #feature #v16 @Mitchell !"
+>>>>>>> upstream/18.0
 =======
 "        Make sure to use the right format and order e.g. Improve the "
 "configuration screen 5h #feature #v16 @Mitchell !"
@@ -120586,7 +121344,11 @@ msgid "View"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بینین"
+>>>>>>> upstream/18.0
 =======
 msgstr "بینین"
 >>>>>>> upstream/18.0
@@ -121409,7 +122171,11 @@ msgid "Waiting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "چاوەڕوان کردن"
+>>>>>>> upstream/18.0
 =======
 msgstr "چاوەڕوان کردن"
 >>>>>>> upstream/18.0
@@ -122135,7 +122901,11 @@ msgid "Website Messages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "پەیامەکانی ماڵپەڕ"
+>>>>>>> upstream/18.0
 =======
 msgstr "پەیامەکانی ماڵپەڕ"
 >>>>>>> upstream/18.0
@@ -122981,7 +123751,11 @@ msgid "Website communication history"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "مێژووی پەیوەندی ماڵپەڕ"
+>>>>>>> upstream/18.0
 =======
 msgstr "مێژووی پەیوەندی ماڵپەڕ"
 >>>>>>> upstream/18.0
@@ -123714,8 +124488,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Would you like to unarchive all of the projects contained in these stages as"
 " well?"
+=======
+"Would you like to unarchive all of the projects contained in these stages as "
+"well?"
+>>>>>>> upstream/18.0
 =======
 "Would you like to unarchive all of the projects contained in these stages as "
 "well?"
@@ -124164,7 +124943,11 @@ msgid "Yearly"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ساڵانە"
+>>>>>>> upstream/18.0
 =======
 msgstr "ساڵانە"
 >>>>>>> upstream/18.0
@@ -124855,9 +125638,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "since it currently includes projects associated with "
 "%(project_company_name)s. Please ensure that this stage exclusively consists"
 " of projects linked to %(company_name)s."
+=======
+"since it currently includes projects associated with %"
+"(project_company_name)s. Please ensure that this stage exclusively consists "
+"of projects linked to %(company_name)s."
+>>>>>>> upstream/18.0
 =======
 "since it currently includes projects associated with %"
 "(project_company_name)s. Please ensure that this stage exclusively consists "
@@ -125205,8 +125994,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot delete stages containing projects. You can either archive them or"
 " first delete all of their projects."
+=======
+"You cannot delete stages containing projects. You can either archive them or "
+"first delete all of their projects."
+>>>>>>> upstream/18.0
 =======
 "You cannot delete stages containing projects. You can either archive them or "
 "first delete all of their projects."
@@ -125482,8 +126276,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot delete stages containing projects. You should first delete all of"
 " their projects."
+=======
+"You cannot delete stages containing projects. You should first delete all of "
+"their projects."
+>>>>>>> upstream/18.0
 =======
 "You cannot delete stages containing projects. You should first delete all of "
 "their projects."
@@ -125807,8 +126606,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You have full control and can revoke portal access anytime. Are you ready to"
 " proceed?"
+=======
+"You have full control and can revoke portal access anytime. Are you ready to "
+"proceed?"
+>>>>>>> upstream/18.0
 =======
 "You have full control and can revoke portal access anytime. Are you ready to "
 "proceed?"
@@ -126337,7 +127141,11 @@ msgid "e.g. mycompany.com"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بۆ نموونە. mycompany.com"
+>>>>>>> upstream/18.0
 =======
 msgstr "بۆ نموونە. mycompany.com"
 >>>>>>> upstream/18.0
@@ -127264,12 +128072,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/project/static/src/project_sharing/components/chatter/chatter_composer.xml:0
 msgid "state.message"
 msgstr ""
 
 #. module: project
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

@@ -238,7 +238,11 @@ class HrEmployee(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         groups="hr_attendance.group_hr_attendance_manager",
+=======
+        groups="hr_attendance.group_hr_attendance_officer",
+>>>>>>> upstream/18.0
 =======
         groups="hr_attendance.group_hr_attendance_officer",
 >>>>>>> upstream/18.0
@@ -1043,9 +1047,17 @@ class HrEmployee(models.Model):
 
     @api.depends('attendance_ids')
     def _compute_last_attendance_id(self):
+<<<<<<< HEAD
         for employee in self:
             employee.last_attendance_id = self.env['hr.attendance'].search([
                 ('employee_id', 'in', employee.ids),
+=======
+        current_datetime = fields.Datetime.now()
+        for employee in self:
+            employee.last_attendance_id = self.env['hr.attendance'].search([
+                ('employee_id', 'in', employee.ids),
+                ('check_in', '<=', current_datetime),
+>>>>>>> upstream/18.0
             ], order="check_in desc", limit=1)
 
     @api.depends('last_attendance_id.check_in', 'last_attendance_id.check_out', 'last_attendance_id')

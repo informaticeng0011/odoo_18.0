@@ -88,6 +88,10 @@ from odoo.addons.project import _check_exists_collaborators_for_project_sharing
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools.sql import SQL
+>>>>>>> upstream/18.0
 =======
 from odoo.tools.sql import SQL
 >>>>>>> upstream/18.0
@@ -442,7 +446,10 @@ def _uninstall_hook(env):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -697,6 +704,9 @@ def _pre_init_hook(env):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
