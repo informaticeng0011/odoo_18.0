@@ -30,7 +30,11 @@ class AccountChartTemplate(models.AbstractModel):
                 'expense_currency_exchange_account_id': 'l10n_bg_624',
                 'account_sale_tax_id': 'l10n_bg_sale_vat_20',
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'account_purchase_tax_id': 'l10n_bg_purchase_vat_20_ptc',
+=======
+                'account_purchase_tax_id': 'l10n_bg_purchase_vat_20_ftc',
+>>>>>>> upstream/18.0
 =======
                 'account_purchase_tax_id': 'l10n_bg_purchase_vat_20_ftc',
 >>>>>>> upstream/18.0

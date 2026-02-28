@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Component } from "@odoo/owl";
 =======
 import { Component, onMounted, onWillUpdateProps, useRef } from "@odoo/owl";
@@ -35,6 +36,9 @@ import { Component, onMounted, onWillUpdateProps, useRef } from "@odoo/owl";
 =======
 import { Component, onMounted, onWillUpdateProps, useExternalListener, useRef } from "@odoo/owl";
 >>>>>>> upstream/18.0
+=======
+import { Component, onMounted, onWillUpdateProps, useExternalListener, useRef } from "@odoo/owl";
+>>>>>>> upstream/18.0
 import { Dropdown } from "@web/core/dropdown/dropdown";
 import { DropdownItem } from "@web/core/dropdown/dropdown_item";
 import { _t } from "@web/core/l10n/translation";
@@ -50,6 +54,7 @@ export class TableMenu extends Component {
         addRow: Function,
         removeRow: Function,
         resetTableSize: Function,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -87,10 +92,15 @@ export class TableMenu extends Component {
         dropdownState: Object,
         target: { validate: (el) => el.nodeType === Node.ELEMENT_NODE },
 =======
+=======
+>>>>>>> upstream/18.0
         close: Function,
         dropdownState: Object,
         target: { validate: (el) => el.nodeType === Node.ELEMENT_NODE },
         document: { validate: (el) => el.nodeType === Node.DOCUMENT_NODE },
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         direction: { type: String, optional: true },
     };
@@ -107,6 +117,10 @@ export class TableMenu extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.dropdownRef = useRef("dropdown");
+>>>>>>> upstream/18.0
 =======
         this.dropdownRef = useRef("dropdown");
 >>>>>>> upstream/18.0
@@ -152,7 +166,10 @@ export class TableMenu extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -184,6 +201,7 @@ export class TableMenu extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -200,6 +218,8 @@ export class TableMenu extends Component {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
         if (this.props.document.defaultView.frameElement) {
             useExternalListener(this.props.document, "scroll", () => {
                 this.updatePosition(this.props);
@@ -210,6 +230,9 @@ export class TableMenu extends Component {
                 }
             });
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
 
@@ -221,6 +244,7 @@ export class TableMenu extends Component {
         );
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -250,10 +274,13 @@ export class TableMenu extends Component {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     updatePosition({ target, type, direction }) {
         if (!this.overlayEl || !target) {
             return;
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
         const targetRect = target.getBoundingClientRect();
         const container = this.overlayEl.parentElement;
@@ -263,6 +290,8 @@ export class TableMenu extends Component {
                 top: `${targetRect.top - containerRect.top - this.overlayEl.offsetHeight}px`,
                 left: `${targetRect.left - containerRect.left}px`,
 =======
+=======
+>>>>>>> upstream/18.0
         let frameRect = { top: 0, left: 0 };
         let frameElement;
         try {
@@ -285,6 +314,9 @@ export class TableMenu extends Component {
                 position: "absolute",
                 top: `${top - this.overlayEl.offsetHeight}px`,
                 left: `${left}px`,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 width: `${targetRect.width}px`,
             });
@@ -292,16 +324,22 @@ export class TableMenu extends Component {
             const isLTR = direction === "ltr";
             const inlineStartOffset = isLTR
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ? targetRect.left - containerRect.left
                 : containerRect.right - targetRect.right;
             Object.assign(this.overlayEl.style, {
                 top: `${targetRect.top - containerRect.top}px`,
 =======
+=======
+>>>>>>> upstream/18.0
                 ? left
                 : containerRect.right - (frameRect.left + targetRect.right);
             Object.assign(this.overlayEl.style, {
                 position: "absolute",
                 top: `${top}px`,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 insetInlineStart: `${inlineStartOffset - this.overlayEl.offsetWidth}px`,
                 height: `${targetRect.height}px`,
@@ -319,6 +357,9 @@ export class TableMenu extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

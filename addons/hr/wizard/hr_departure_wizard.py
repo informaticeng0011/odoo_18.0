@@ -30,7 +30,11 @@ class HrDepartureWizard(models.TransientModel):
         if self.env.context.get('toggle_active', False) and employee.active:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             employee.with_context(no_wizard=True).toggle_active()
+=======
+            employee.with_context(no_wizard=True).action_archive()
+>>>>>>> upstream/18.0
 =======
             employee.with_context(no_wizard=True).action_archive()
 >>>>>>> upstream/18.0

@@ -14,6 +14,11 @@ from odoo.addons.l10n_hr_edi.tests.test_hr_edi_common import TestL10nHrEdiCommon
 from ..tools import (
     _mer_api_query_document_process_status_outbox,
     _mer_api_receive_document,
+<<<<<<< HEAD
+=======
+    _mer_api_query_inbox,
+    _mer_api_send,
+>>>>>>> upstream/18.0
 )
 
 
@@ -129,7 +134,11 @@ class TestL10nHrEdiMerApi(TestL10nHrEdiCommon, TestAccountMoveSendCommon):
             'StatusName': 'Preuzet',
             'OutboundFiscalizationStatus': None,
             'ReceiverBusinessNumber': 'BE0477472701',
+<<<<<<< HEAD
             'ReceiverBusinessUnit': '',
+=======
+            'ReceiverBusinessUnit': None,
+>>>>>>> upstream/18.0
             'ReceiverBusinessName': 'Odoo S.A.',
             'Created': '2025-12-11T13:06:20.3779916',
             'Updated': '2025-12-11T13:08:42.2070931',
@@ -217,7 +226,10 @@ class TestL10nHrEdiMerApi(TestL10nHrEdiCommon, TestAccountMoveSendCommon):
             self.assertEqual(any(line.l10n_hr_kpd_category_id for line in move.line_ids), True)
 
     # Currently results in random responses form the test server, cannot be set up to be tested properly
+<<<<<<< HEAD
     # NEEDS TO BE REWRITTEN FOR THE UPDATED PAYMENT FLOW
+=======
+>>>>>>> upstream/18.0
     def test_mer_flow_report_payment(self):
         """
         Test reporting a payment for a document within the MER system.
@@ -267,3 +279,19 @@ class TestL10nHrEdiMerApi(TestL10nHrEdiCommon, TestAccountMoveSendCommon):
         except UserError as e:
             if 'Error handling request:' in e.args:
                 pass
+<<<<<<< HEAD
+=======
+
+    def test_api_wrong_credentials(self):
+        """
+        Test that incorrect credentials errors (which have their own format) are handled properly.
+        """
+        self.env.company.write({
+            'l10n_hr_mer_username': 'WRONG USERNAME',
+            'l10n_hr_mer_password': 'WRONG PASSWORD',
+        })
+        with self.assertRaisesRegex(UserError, r"MER service returned an error: Username 'WRONG USERNAME': \['Korisničko ime i lozinka nisu ispravni\.'\]"):
+            _mer_api_query_inbox(self.env.company)
+        with self.assertRaisesRegex(UserError, r"MER service returned an error: Username 'WRONG USERNAME': \['Korisničko ime i lozinka nisu ispravni\.\. Trace ID:.*'\]"):
+            _mer_api_send(self.env.company, xml_file='Totally a file')
+>>>>>>> upstream/18.0

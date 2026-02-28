@@ -239,7 +239,11 @@ class TestUiSEPA(TestPosQrCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         qr_payment = cls.env['pos.payment.method'].create({
+=======
+        qr_payment = cls.env['pos.payment.method'].sudo().create({
+>>>>>>> upstream/18.0
 =======
         qr_payment = cls.env['pos.payment.method'].sudo().create({
 >>>>>>> upstream/18.0
@@ -911,13 +915,19 @@ class TestUiSEPA(TestPosQrCommon):
 
         # Set non sepa bank account to make the test failed
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.bank_account.write({
             'acc_number': 'SA4420000001234567891234',
 =======
+=======
+>>>>>>> upstream/18.0
         self.bank_account.allow_out_payment = False
         self.bank_account.write({
             'acc_number': 'SA4420000001234567891234',
             'allow_out_payment': True,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         })
         self.main_pos_config.with_user(self.pos_user).open_ui()
@@ -1178,7 +1188,11 @@ class TestUiCH(TestPosQrCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         qr_payment = cls.env['pos.payment.method'].create({
+=======
+        qr_payment = cls.env['pos.payment.method'].sudo().create({
+>>>>>>> upstream/18.0
 =======
         qr_payment = cls.env['pos.payment.method'].sudo().create({
 >>>>>>> upstream/18.0
@@ -2110,7 +2124,11 @@ class TestUiHK(TestPosQrCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         qr_payment = cls.env['pos.payment.method'].create({
+=======
+        qr_payment = cls.env['pos.payment.method'].sudo().create({
+>>>>>>> upstream/18.0
 =======
         qr_payment = cls.env['pos.payment.method'].sudo().create({
 >>>>>>> upstream/18.0
@@ -3037,7 +3055,11 @@ class TestUIBR(TestPosQrCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         qr_payment = cls.env['pos.payment.method'].create({
+=======
+        qr_payment = cls.env['pos.payment.method'].sudo().create({
+>>>>>>> upstream/18.0
 =======
         qr_payment = cls.env['pos.payment.method'].sudo().create({
 >>>>>>> upstream/18.0

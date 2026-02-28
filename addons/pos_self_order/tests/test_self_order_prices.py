@@ -38,6 +38,11 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
             'name': 'Big Combo',
             'type': 'combo',
             'lst_price': 200.0,
+<<<<<<< HEAD
+=======
+            'available_in_pos': True,
+            'self_order_available': True,
+>>>>>>> upstream/18.0
             'uom_id': self.env.ref('uom.product_uom_unit').id,
             'combo_ids': [(6, 0, [self.combo1.id, self.combo2.id, self.combo3.id])],
             'pos_categ_ids': [(6, 0, [self.combo_category.id])],
@@ -46,6 +51,11 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
         self.env['product.product'].create({
             'name': 'Random Product 1',
             'type': 'consu',
+<<<<<<< HEAD
+=======
+            'available_in_pos': True,
+            'self_order_available': True,
+>>>>>>> upstream/18.0
             'lst_price': 15.0,
             'taxes_id': [(6, 0, [self.tax_21.id])],
             'pos_categ_ids': [(6, 0, [self.combo_category.id])],
@@ -54,6 +64,11 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
             'name': 'Random Product 2',
             'type': 'consu',
             'lst_price': 25.0,
+<<<<<<< HEAD
+=======
+            'available_in_pos': True,
+            'self_order_available': True,
+>>>>>>> upstream/18.0
             'taxes_id': [(6, 0, [self.tax_12.id])],
             'pos_categ_ids': [(6, 0, [self.combo_category.id])],
         })
@@ -61,6 +76,11 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
             'name': 'Random Product 3',
             'type': 'consu',
             'lst_price': 35.0,
+<<<<<<< HEAD
+=======
+            'available_in_pos': True,
+            'self_order_available': True,
+>>>>>>> upstream/18.0
             'taxes_id': [(6, 0, [self.tax_6.id])],
             'pos_categ_ids': [(6, 0, [self.combo_category.id])],
         })
@@ -69,6 +89,10 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
             'name': 'Product with attributes',
             'is_storable': True,
             'available_in_pos': True,
+<<<<<<< HEAD
+=======
+            'self_order_available': True,
+>>>>>>> upstream/18.0
             'lst_price': 100.95,
             'pos_categ_ids': [(6, 0, [self.combo_category.id])],
             'taxes_id': [(6, 0, [self.tax_21.id])],
@@ -123,6 +147,10 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
             'name': f'{name} 1',
             'is_storable': True,
             'available_in_pos': True,
+<<<<<<< HEAD
+=======
+            'self_order_available': True,
+>>>>>>> upstream/18.0
             'lst_price': lst_price[0],
             'taxes_id': [(6, 0, [self.tax_6.id])],
         })
@@ -130,6 +158,10 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
             'name': f'{name} 2',
             'is_storable': True,
             'available_in_pos': True,
+<<<<<<< HEAD
+=======
+            'self_order_available': True,
+>>>>>>> upstream/18.0
             'lst_price': lst_price[1],
             'taxes_id': [(6, 0, [self.tax_12.id])],
         })
@@ -137,6 +169,10 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
             'name': f'{name} 3',
             'is_storable': True,
             'available_in_pos': True,
+<<<<<<< HEAD
+=======
+            'self_order_available': True,
+>>>>>>> upstream/18.0
             'lst_price': lst_price[2],
             'taxes_id': [(6, 0, [self.tax_21.id])],
         })

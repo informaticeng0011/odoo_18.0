@@ -41,6 +41,10 @@ export class DiscussChannel extends mailModels.DiscussChannel {
                 } else {
                     channelInfo.operator = false;
                 }
+<<<<<<< HEAD
+=======
+                channelInfo["livechat_active"] = channel.livechat_active;
+>>>>>>> upstream/18.0
                 channelInfo.livechatChannel = mailDataHelpers.Store.one(
                     this.env["im_livechat.channel"].browse(channel.livechat_channel_id),
                     makeKwArgs({ fields: ["name"] })

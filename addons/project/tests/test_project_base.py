@@ -525,7 +525,10 @@ class TestProjectBase(TestProjectCommon):
         self.assertTrue(copy_task2.active, "Archived task should be active when duplicating an archived task")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -544,6 +547,9 @@ class TestProjectBase(TestProjectCommon):
         parent_task.child_ids.active = False
         self.assertFalse(parent_task.copy().child_ids, "Archived subtask should not be copied")
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -213,7 +213,10 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -725,6 +728,9 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1244,6 +1250,10 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self._iap_replace_industry_code(iap_data)
+>>>>>>> upstream/18.0
 =======
         self._iap_replace_industry_code(iap_data)
 >>>>>>> upstream/18.0
@@ -1890,6 +1900,7 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def iap_partner_autocomplete_add_tags(self, unspsc_codes):
         """Called by JS to create the activity tags from the UNSPSC codes"""
 <<<<<<< HEAD
@@ -2484,6 +2495,11 @@ class ResPartner(models.Model):
     def iap_partner_autocomplete_add_tags(self, unspsc_codes):
         """Called by JS to create the activity tags from the UNSPSC codes"""
 >>>>>>> upstream/18.0
+=======
+    # TODO remove in master
+    def iap_partner_autocomplete_add_tags(self, unspsc_codes):
+        """Called by JS to create the activity tags from the UNSPSC codes"""
+>>>>>>> upstream/18.0
         # If the UNSPSC module is installed, we might have a translation, so let's use it
         if self.env['ir.module.module']._get('product_unspsc').state == 'installed':
             tag_names = self.env['product.unspsc.code']\
@@ -2500,6 +2516,7 @@ class ResPartner(models.Model):
                 tag_ids |= existing_tag
             else:
                 tag_ids |= self.env['res.partner.category'].create({'name': tag_name})
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3245,6 +3262,9 @@ class ResPartner(models.Model):
 =======
         return tag_ids.ids
 >>>>>>> upstream/18.0
+=======
+        return tag_ids.ids
+>>>>>>> upstream/18.0
 
     @api.model
     def _get_view(self, view_id=None, view_type='form', **options):
@@ -3271,7 +3291,10 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3346,6 +3369,9 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

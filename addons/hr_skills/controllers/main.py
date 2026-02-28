@@ -8,6 +8,11 @@ from odoo import _
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.base.models.ir_qweb import QWebException
+from odoo.exceptions import UserError
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.base.models.ir_qweb import QWebException
 from odoo.exceptions import UserError
@@ -43,6 +48,7 @@ class HrEmployeeCV(Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         pdf_content, dummy = request.env['ir.actions.report'].sudo()._render_qweb_pdf(
             report, employees.ids, data={
             'color_primary': color_primary,
@@ -54,6 +60,8 @@ class HrEmployeeCV(Controller):
             'show_others': 'show_others' in post,
         })
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -73,6 +81,9 @@ class HrEmployeeCV(Controller):
             raise UserError(error)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

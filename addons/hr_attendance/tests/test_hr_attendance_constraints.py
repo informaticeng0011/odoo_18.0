@@ -1,6 +1,10 @@
 # -*- coding: utf-8 -*-
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from freezegun import freeze_time
+>>>>>>> upstream/18.0
 =======
 from freezegun import freeze_time
 >>>>>>> upstream/18.0
@@ -68,7 +72,10 @@ class TestHrAttendance(TransactionCase):
             })
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @freeze_time("2024-02-05 11:00:00")
     def test_attendance_in_the_future(self):
         employee = self.env['hr.employee'].create({'name': "Test"})
@@ -90,6 +97,9 @@ class TestHrAttendance(TransactionCase):
 
         self.assertEqual(employee.attendance_state, 'checked_out')
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_time_format_attendance(self):
         self.env.user.tz = 'UTC'
@@ -362,7 +372,10 @@ class TestHrAttendance(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1160,6 +1173,9 @@ class TestHrAttendance(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

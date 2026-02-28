@@ -29,8 +29,11 @@ publicWidget.registry.websiteSlidesShare = publicWidget.Widget.extend({
             category: data.category,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             documentMaxPage: data.category == 'document' && this.getDocumentMaxPage(),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             documentMaxPage:
@@ -39,6 +42,9 @@ publicWidget.registry.websiteSlidesShare = publicWidget.Widget.extend({
                     window.location.origin &&
                 this.getDocumentMaxPage(),
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

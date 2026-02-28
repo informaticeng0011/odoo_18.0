@@ -167,6 +167,10 @@ from . import eu_account_map
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import eu_field_map
+>>>>>>> upstream/18.0
 =======
 from . import eu_field_map
 >>>>>>> upstream/18.0

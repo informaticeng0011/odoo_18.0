@@ -64,7 +64,10 @@ class TestL10nHrEdiXml(TestL10nHrEdiCommon, AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -153,6 +156,9 @@ class TestL10nHrEdiXml(TestL10nHrEdiCommon, AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -252,9 +258,15 @@ class TestL10nHrEdiXml(TestL10nHrEdiCommon, AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_export_invoice_with_exemption(self):
         """
         Test the content of a generated invoice with VAT exemption in Croation UBL format.
+=======
+    def test_export_invoice_with_exemption_k(self):
+        """
+        Test the content of a generated invoice with HR:K exemption in Croation UBL format.
+>>>>>>> upstream/18.0
 =======
     def test_export_invoice_with_exemption_k(self):
         """
@@ -489,8 +501,11 @@ class TestL10nHrEdiXml(TestL10nHrEdiCommon, AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with misc.file_open(f'addons/{self.test_module}/tests/test_files/test_invoice_exemption.xml', 'rb') as file:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -582,12 +597,15 @@ class TestL10nHrEdiXml(TestL10nHrEdiCommon, AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Test the content of a generated invoice with HR:E exemption in Croation UBL format.
         """
         self.setup_partner_as_hr(self.env.company.partner_id)
         self.setup_partner_as_hr_alt(self.partner_a)
         tax = self.env['account.chart.template'].ref('VAT_S_other_exempt_O')
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -640,6 +658,9 @@ class TestL10nHrEdiXml(TestL10nHrEdiCommon, AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -722,6 +743,9 @@ class TestL10nHrEdiXml(TestL10nHrEdiCommon, AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -831,3 +855,43 @@ class TestL10nHrEdiXml(TestL10nHrEdiCommon, AccountTestInvoicingCommon):
             self.get_xml_tree_from_string(actual_content),
             self.get_xml_tree_from_string(expected_content),
         )
+<<<<<<< HEAD
+=======
+
+    def test_export_invoice_with_no_oib(self):
+        """
+        Test that OIB is substituted correctly from VAT when it is not explicitly set on partner.
+        """
+        self.setup_partner_as_hr(self.env.company.partner_id)
+        self.env.company.partner_id.l10n_hr_personal_oib = False
+        self.setup_partner_as_hr_alt(self.partner_a)
+        tax = self.env['account.chart.template'].ref('VAT_S_IN_ROC_25')
+
+        invoice = self.env['account.move'].create({
+            'move_type': 'out_invoice',
+            'partner_id': self.partner_a.id,
+            'invoice_date': '2025-01-01',
+            'l10n_hr_process_type': 'P99',
+            'l10n_hr_customer_defined_process_name': 'Test custom process type',
+            'invoice_line_ids': [
+                Command.create({
+                    'product_id': self.product_a.id,
+                    'price_unit': 100.0,
+                    'tax_ids': [Command.set(tax.ids)],
+                }),
+            ],
+        })
+        invoice.action_post()
+        invoice.l10n_hr_edi_addendum_id = self.env['l10n_hr_edi.addendum'].create({
+            'move_id': invoice.id,
+            'invoice_sending_time': '2025-01-02',
+            'fiscalization_number': self.env['account.move']._get_l10n_hr_fiscalization_number(invoice.name),
+        })
+        actual_content, _dummy = self.env['account.edi.xml.ubl_hr'].with_context(lang='en_US')._export_invoice(invoice)
+        with misc.file_open(f'addons/{self.test_module}/tests/test_files/test_invoice.xml', 'rb') as file:
+            expected_content = file.read()
+        self.assertXmlTreeEqual(
+            self.get_xml_tree_from_string(actual_content),
+            self.get_xml_tree_from_string(expected_content),
+        )
+>>>>>>> upstream/18.0

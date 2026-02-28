@@ -8,6 +8,10 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
         vals = super()._get_invoice_line_item_vals(line, taxes_vals)
         vals['commodity_classification_vals'] = [{
             'item_classification_code': line.product_id.cpv_code_id.code,
+<<<<<<< HEAD
             'item_classification_attrs': {'listID': 'CPV'},
+=======
+            'item_classification_attrs': {'listID': 'STI'},
+>>>>>>> upstream/18.0
         }]
         return vals

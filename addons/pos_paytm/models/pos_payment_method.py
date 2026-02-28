@@ -75,7 +75,11 @@ class PosPaymentMethod(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     paytm_merchant_key = fields.Char(string="PayTM Merchant API Key", help="Merchant/AES key \n ex: B1o6Ivjy8L1@abc9")
+=======
+    paytm_merchant_key = fields.Char(string="PayTM Merchant API Key", help="Merchant/AES key \n ex: B1o6Ivjy8L1@abc9", groups='point_of_sale.group_pos_manager')
+>>>>>>> upstream/18.0
 =======
     paytm_merchant_key = fields.Char(string="PayTM Merchant API Key", help="Merchant/AES key \n ex: B1o6Ivjy8L1@abc9", groups='point_of_sale.group_pos_manager')
 >>>>>>> upstream/18.0
@@ -399,7 +403,11 @@ class PosPaymentMethod(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         paytm_signature = self._paytm_generate_signature(body, self.paytm_merchant_key)
+=======
+        paytm_signature = self._paytm_generate_signature(body, self.sudo().paytm_merchant_key)
+>>>>>>> upstream/18.0
 =======
         paytm_signature = self._paytm_generate_signature(body, self.sudo().paytm_merchant_key)
 >>>>>>> upstream/18.0

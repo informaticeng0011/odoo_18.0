@@ -132,6 +132,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+/* global posmodel */
+>>>>>>> upstream/18.0
 =======
 /* global posmodel */
 >>>>>>> upstream/18.0
@@ -735,11 +739,14 @@ export function clickMenuButton() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 export function clickMenuOption(name) {
     return [clickMenuButton(), clickMenuDropdownOption(name)];
 }
 export function clickMenuDropdownOption(name) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1299,6 +1306,9 @@ export function clickMenuDropdownOption(name, { expectUnloadPage = false } = {})
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1674,6 +1684,7 @@ export function clickMenuDropdownOption(name, { expectUnloadPage = false } = {})
         content: `click on something in the burger menu`,
         trigger: `span.dropdown-item:contains(${name})`,
         run: "click",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2346,6 +2357,8 @@ export function isCashMoveButtonHidden() {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         expectUnloadPage,
     };
 }
@@ -2506,6 +2519,9 @@ export function notExistMenuOption(name) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2974,6 +2990,9 @@ export function isCashMoveButtonHidden() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3514,12 +3533,15 @@ export function clickPlanButton() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return {
         content: "go back to the floor screen",
         trigger: ".pos-leftheader .back-button:not(.btn-primary)",
         run: "click",
     };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4032,6 +4054,9 @@ export function clickPlanButton() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4565,7 +4590,11 @@ export function startPoS() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 export function clickBtn(name) {
+=======
+export function clickBtn(name, { expectUnloadPage = false } = {}) {
+>>>>>>> upstream/18.0
 =======
 export function clickBtn(name, { expectUnloadPage = false } = {}) {
 >>>>>>> upstream/18.0
@@ -5314,6 +5343,7 @@ export function clickBtn(name, { expectUnloadPage = false } = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         expectUnloadPage,
 >>>>>>> upstream/18.0
@@ -5639,6 +5669,8 @@ export function clickBtn(name, { expectUnloadPage = false } = {}) {
         expectUnloadPage,
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5877,6 +5909,9 @@ export function hasBtn(name) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6071,6 +6106,7 @@ export function freezeDateTime(millis) {
         {
             trigger: "body",
             run: () => {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6794,6 +6830,9 @@ export function freezeDateTime(millis) {
 =======
                 DateTime.now = () => DateTime.fromMillis(millis);
 >>>>>>> upstream/18.0
+=======
+                DateTime.now = () => DateTime.fromMillis(millis);
+>>>>>>> upstream/18.0
             },
         },
     ];
@@ -6939,7 +6978,10 @@ export function isSynced() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7354,6 +7396,9 @@ export function storedOrderCount(expectedCount) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

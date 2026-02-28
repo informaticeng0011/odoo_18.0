@@ -39,15 +39,30 @@ Invoice = {
     'cbc:DueDate': {},
     'cbc:InvoiceTypeCode': {},
     'cbc:Note': {},
+<<<<<<< HEAD
+=======
+    'cbc:TaxPointDate': {},
+>>>>>>> upstream/18.0
     'cbc:DocumentCurrencyCode': {},
     'cbc:TaxCurrencyCode': {},
     'cbc:PricingCurrencyCode': {},
     'cbc:LineCountNumeric': {},
+<<<<<<< HEAD
+=======
+    'cbc:AccountingCost': {},
+>>>>>>> upstream/18.0
     'cbc:BuyerReference': {},
     'cac:InvoicePeriod': cac.Period,
     'cac:OrderReference': cac.OrderReference,
     'cac:BillingReference': cac.BillingReference,
+<<<<<<< HEAD
     'cac:AdditionalDocumentReference': cac.DocumentReference,
+=======
+    'cac:DespatchDocumentReference': cac.DespatchDocumentReference,
+    'cac:ContractDocumentReference': cac.ContractDocumentReference,
+    'cac:AdditionalDocumentReference': cac.DocumentReference,
+    'cac:ProjectReference': cac.ProjectReference,
+>>>>>>> upstream/18.0
     'cac:Signature': cac.Signature,
     'cac:AccountingSupplierParty': cac.SupplierParty,
     'cac:AccountingCustomerParty': cac.CustomerParty,

@@ -97,7 +97,11 @@ export class InvoiceButton extends Component {
 
         // Part 2: Invoice the order.
         // FIXME POSREF timeout
+<<<<<<< HEAD
         await this.pos.data.silentCall("pos.order", "action_pos_order_invoice", [orderId]);
+=======
+        await this.pos.data.call("pos.order", "action_pos_order_invoice", [orderId]);
+>>>>>>> upstream/18.0
 
         // Part 3: Download invoice.
         await this._downloadInvoice(orderId);

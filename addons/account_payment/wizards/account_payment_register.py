@@ -161,8 +161,11 @@ class AccountPaymentRegister(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     payment_method_code = fields.Char(
         related='payment_method_line_id.code')
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -443,6 +446,7 @@ class AccountPaymentRegister(models.TransientModel):
     @api.depends('payment_method_line_id')
     def _compute_suitable_payment_token_ids(self):
         for wizard in self:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -918,6 +922,8 @@ class AccountPaymentRegister(models.TransientModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             wizard.suitable_payment_token_ids = [Command.clear()]
             if wizard.can_edit_wizard and wizard.use_electronic_payment_method:
                 token_partners = wizard.partner_id
@@ -1036,6 +1042,9 @@ class AccountPaymentRegister(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1258,6 +1267,7 @@ class AccountPaymentRegister(models.TransientModel):
             codes = [key for key in dict(self.env['payment.provider']._fields['code']._description_selection(self.env))]
             wizard.use_electronic_payment_method = wizard.payment_method_code in codes
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1664,6 +1674,8 @@ class AccountPaymentRegister(models.TransientModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     @api.depends('can_edit_wizard', 'suitable_payment_token_ids', 'journal_id')
     def _compute_payment_token_id(self):
         codes = [key for key in dict(self.env['payment.provider']._fields['code']._description_selection(self.env))]
@@ -1804,6 +1816,9 @@ class AccountPaymentRegister(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

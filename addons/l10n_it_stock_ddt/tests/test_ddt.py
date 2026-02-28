@@ -23,6 +23,10 @@ class TestDDT(TestSaleCommon):
             'acc_number': 'IT60X0542811101000000123456',
             'partner_id': cls.company_data['company'].partner_id.id,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'allow_out_payment': True,
+>>>>>>> upstream/18.0
 =======
             'allow_out_payment': True,
 >>>>>>> upstream/18.0

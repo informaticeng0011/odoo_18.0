@@ -83,8 +83,12 @@ export class Chatbot extends Record {
 
     get completed() {
         return (
+<<<<<<< HEAD
             (this.currentStep?.isLast &&
                 (!this.currentStep.expectAnswer || this.currentStep?.completed)) ||
+=======
+            this.currentStep?.isLast ||
+>>>>>>> upstream/18.0
             this.currentStep?.operatorFound ||
             !this.thread.livechat_active
         );
@@ -94,7 +98,11 @@ export class Chatbot extends Record {
      * Go to the next step of the chatbot, fetch it if needed.
      */
     async _goToNextStep() {
+<<<<<<< HEAD
         if (!this.thread || this.currentStep?.isLast) {
+=======
+        if (!this.thread) {
+>>>>>>> upstream/18.0
             return;
         }
         if (this.steps.at(-1)?.eq(this.currentStep)) {
@@ -102,11 +110,18 @@ export class Chatbot extends Record {
                 channel_id: this.thread.id,
                 chatbot_script_id: this.script.id,
             });
+<<<<<<< HEAD
             if (!storeData) {
                 this.currentStep.isLast = true;
                 return;
             }
             const { ChatbotStep: steps } = this.store.insert(storeData, { html: true });
+=======
+            const { ChatbotStep: steps } = this.store.insert(storeData, { html: true });
+            if (this.currentStep.isLast) {
+                return;
+            }
+>>>>>>> upstream/18.0
             this.steps.push(steps[0]);
         } else {
             const nextStepIndex = this.steps.lastIndexOf(this.currentStep) + 1;

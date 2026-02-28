@@ -26,7 +26,11 @@ import base64
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests.common import HttpCase
+=======
+from odoo.tests.common import HttpCase, new_test_user
+>>>>>>> upstream/18.0
 =======
 from odoo.tests.common import HttpCase, new_test_user
 >>>>>>> upstream/18.0
@@ -132,7 +136,10 @@ class TestShareController(DashboardTestCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -212,6 +219,9 @@ class TestShareController(DashboardTestCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -331,6 +341,10 @@ class TestShareController(DashboardTestCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.authenticate('AlexPort', 'AlexPort')
+>>>>>>> upstream/18.0
 =======
         self.authenticate('AlexPort', 'AlexPort')
 >>>>>>> upstream/18.0
@@ -435,7 +449,10 @@ class TestShareController(DashboardTestCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -522,6 +539,9 @@ class TestShareController(DashboardTestCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -600,6 +620,10 @@ class TestShareController(DashboardTestCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.authenticate('AlexPort', 'AlexPort')
+>>>>>>> upstream/18.0
 =======
         self.authenticate('AlexPort', 'AlexPort')
 >>>>>>> upstream/18.0
@@ -706,6 +730,10 @@ class TestShareController(DashboardTestCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.authenticate('AlexPort', 'AlexPort')
+>>>>>>> upstream/18.0
 =======
         self.authenticate('AlexPort', 'AlexPort')
 >>>>>>> upstream/18.0

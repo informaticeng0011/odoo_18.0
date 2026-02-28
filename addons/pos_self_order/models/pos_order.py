@@ -1,9 +1,14 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 from odoo import models, fields, api, _
 from odoo.exceptions import UserError
+=======
+from odoo import Command, models, fields, api
+from odoo.tools import float_round
+>>>>>>> upstream/18.0
 =======
 from odoo import Command, models, fields, api
 from odoo.tools import float_round
@@ -279,6 +284,7 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             config.notify_synchronisation(config.current_session_id.id, self.env.context.get('login_number', 0))
 >>>>>>> upstream/18.0
@@ -905,6 +911,8 @@ class PosOrder(models.Model):
 >>>>>>> upstream/18.0
             config._notify('ORDER_STATE_CHANGED', {})
 =======
+=======
+>>>>>>> upstream/18.0
             config.notify_synchronisation(config.current_session_id.id, self.env.context.get('login_number', 0))
             config._notify('ORDER_STATE_CHANGED', {})
 
@@ -1088,4 +1096,7 @@ class PosOrder(models.Model):
                 'tax_ids': child_product.taxes_id,
             })
         lst_price = 0
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

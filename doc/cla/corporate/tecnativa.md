@@ -269,7 +269,11 @@ Jairo Llopis jairo.llopis@tecnativa.com https://github.com/yajo (up to 2021-11-2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 David Vidal david.vidal@tecnativa.com https://github.com/chienandalu
+=======
+David Vidal david.vidal@tecnativa.com https://github.com/chienandalu (up to 2025-03-31)
+>>>>>>> upstream/18.0
 =======
 David Vidal david.vidal@tecnativa.com https://github.com/chienandalu (up to 2025-03-31)
 >>>>>>> upstream/18.0
@@ -1204,6 +1208,7 @@ Josep Guardiola josep.guardiola@tecnativa.com https://github.com/josep-tecnativa
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Carlos Lopez carlos.lopez@tecnativa.com https://github.com/carlos-lopez-tecnativa
 >>>>>>> upstream/18.0
@@ -1862,6 +1867,8 @@ Eduardo Ezerouali eduardo.ezerouali@tecnativa.com https://github.com/eduezeroual
 Christian Ramos christian.ramos@tecnativa.com https://github.com/christian-ramos-tecnativa
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1896,6 +1903,9 @@ Juan Carlos Oñate juancarlos.onate@tecnativa.com https://github.com/juancarloso
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

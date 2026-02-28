@@ -131,6 +131,10 @@ publicWidget.registry.knowledgeBaseAutocomplete = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        carrierNumberField.removeAttribute("readonly");
+>>>>>>> upstream/18.0
 =======
         carrierNumberField.removeAttribute("readonly");
 >>>>>>> upstream/18.0
@@ -309,7 +313,10 @@ publicWidget.registry.knowledgeBaseAutocomplete = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this.el.querySelector("#l10n_tw_edi_carrier_type").disabled = true;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -398,7 +405,11 @@ publicWidget.registry.knowledgeBaseAutocomplete = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     message: _t("Carrier number is invalid"),
+=======
+                    message: _t("Storage Code is invalid"),
+>>>>>>> upstream/18.0
 =======
                     message: _t("Storage Code is invalid"),
 >>>>>>> upstream/18.0
@@ -554,7 +565,10 @@ publicWidget.registry.knowledgeBaseAutocomplete = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.el.querySelector("#l10n_tw_edi_carrier_type").disabled = false;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

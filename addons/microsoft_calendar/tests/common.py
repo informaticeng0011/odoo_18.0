@@ -9,15 +9,21 @@ from odoo import fields
 
 from odoo.tests.common import HttpCase
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 from odoo.addons.microsoft_calendar.models.microsoft_sync import MicrosoftSync
 
 =======
+=======
+>>>>>>> upstream/18.0
 from odoo.tools import mute_logger
 
 from odoo.addons.microsoft_calendar.models.microsoft_sync import MicrosoftSync
 
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 def mock_get_token(user):
     return f"TOKEN_FOR_USER_{user.id}"
@@ -47,11 +53,17 @@ class TestCommon(HttpCase):
     def setUp(self):
         super(TestCommon, self).setUp()
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         m = mute_logger('odoo.addons.auth_signup.models.res_users')
         mute_logger.__enter__(m)  # noqa: PLC2801
         self.addCleanup(mute_logger.__exit__, m, None, None, None)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         self.env.user.unpause_microsoft_synchronization()
 

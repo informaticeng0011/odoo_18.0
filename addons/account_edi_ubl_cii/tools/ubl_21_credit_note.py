@@ -22,7 +22,10 @@ CreditNoteLine = {
     'cac:Price': cac.Price,
     'cac:ItemPriceExtension': cac.ItemPriceExtension,
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 CreditNote = {
     '_tag': 'CreditNote',
     'ext:UBLExtensions': {},
@@ -34,11 +37,19 @@ CreditNote = {
     'cbc:CopyIndicator': {},
     'cbc:UUID': {},
     'cbc:IssueDate': {},
+<<<<<<< HEAD
+=======
+    'cbc:TaxPointDate': {},
+>>>>>>> upstream/18.0
     'cbc:IssueTime': {},
     'cbc:CreditNoteTypeCode': {},
     'cbc:Note': {},
     'cbc:DocumentCurrencyCode': {},
     'cbc:TaxCurrencyCode': {},
+<<<<<<< HEAD
+=======
+    'cbc:AccountingCost': {},
+>>>>>>> upstream/18.0
     'cbc:PricingCurrencyCode': {},
     'cbc:LineCountNumeric': {},
     'cbc:BuyerReference': {},
@@ -46,6 +57,11 @@ CreditNote = {
     'cac:DiscrepancyResponse': cac.DiscrepancyResponse,
     'cac:OrderReference': cac.OrderReference,
     'cac:BillingReference': cac.BillingReference,
+<<<<<<< HEAD
+=======
+    'cac:DespatchDocumentReference': cac.DespatchDocumentReference,
+    'cac:ContractDocumentReference': cac.ContractDocumentReference,
+>>>>>>> upstream/18.0
     'cac:AdditionalDocumentReference': cac.DocumentReference,
     'cac:Signature': cac.Signature,
     'cac:AccountingSupplierParty': cac.SupplierParty,
@@ -220,6 +236,10 @@ CreditNote = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'cac:PrepaidPayment': cac.PrepaidPayment,
+>>>>>>> upstream/18.0
 =======
     'cac:PrepaidPayment': cac.PrepaidPayment,
 >>>>>>> upstream/18.0

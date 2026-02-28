@@ -52,7 +52,11 @@ from odoo.addons.mail.models.mail_message import Message
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.mail.tests.common import MailCommon
+=======
+from odoo.addons.mail.tests.common import MailCommon, mail_new_test_user
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.mail.tests.common import MailCommon, mail_new_test_user
 >>>>>>> upstream/18.0
@@ -229,6 +233,10 @@ from odoo.tests import tagged, users, HttpCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tests.common import JsonRpcException
+>>>>>>> upstream/18.0
 =======
 from odoo.tests.common import JsonRpcException
 >>>>>>> upstream/18.0
@@ -446,7 +454,10 @@ class TestMailMCCommon(MailCommon, TestRecipients):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -582,6 +593,9 @@ class TestMailMCCommon(MailCommon, TestRecipients):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -876,6 +890,7 @@ class TestMultiCompanySetup(TestMailMCCommon, HttpCase):
                 subtype_xmlid="mail.mt_comment",
             )
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2294,6 +2309,8 @@ class TestMultiCompanyRedirect(MailCommon, HttpCase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
 @tagged('-at_install', 'post_install', 'multi_company', 'mail_controller')
 class TestMultiCompanyControllers(TestMailMCCommon, HttpCase):
@@ -2410,6 +2427,7 @@ class TestMultiCompanyControllers(TestMailMCCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2432,6 +2450,8 @@ class TestMultiCompanyControllers(TestMailMCCommon, HttpCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2535,6 +2555,9 @@ class TestMultiCompanyControllers(TestMailMCCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2831,8 +2854,12 @@ class TestMultiCompanyControllers(TestMailMCCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     self.assertTrue('cids' in response.request._cookies)
                     self.assertEqual(response.request._cookies.get('cids'), str(mc_record.company_id.id))
+=======
+                    self.assertNotIn('cids', response.request._cookies)
+>>>>>>> upstream/18.0
 =======
                     self.assertNotIn('cids', response.request._cookies)
 >>>>>>> upstream/18.0
@@ -3708,6 +3735,7 @@ class TestMultiCompanyControllers(TestMailMCCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # when being not logged, cids should be added based on
         # '_get_redirect_suggested_company'
         for test_record in nothreads:
@@ -3715,6 +3743,8 @@ class TestMultiCompanyControllers(TestMailMCCommon, HttpCase):
                 self.authenticate(None, None)
                 self.user_admin.write({'company_id': user_company.id})
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4317,6 +4347,9 @@ class TestMultiCompanyControllers(TestMailMCCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4721,6 +4754,7 @@ class TestMultiCompanyControllers(TestMailMCCommon, HttpCase):
                     timeout=15
                 )
                 self.assertEqual(response.status_code, 200)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5865,4 +5899,43 @@ class TestMultiCompanyThreadData(MailCommon, HttpCase):
 >>>>>>> upstream/18.0
 =======
                 self.assertNotIn('cids', response.request._cookies)
+>>>>>>> upstream/18.0
+=======
+                self.assertNotIn('cids', response.request._cookies)
+
+    def test_mail_message_post_other_company_with_cids(self):
+        """
+        Ensure that a user can post a message on a thread belonging to another
+        company when:
+
+        - The user has access to both companies via `company_ids`.
+        - The active company context only includes the other company.
+        - The target record belongs to a different company than the active one.
+
+        This reproduces the scenario where a user receives a notification from a
+        record in Company A while being active in Company B, and attempts to reply
+        from the inbox.
+        """
+        self.user_employee_c2.write({'company_ids': [(6, 0, [self.user_employee.company_id.id, self.company_2.id])]})
+        record_c1 = self.env["mail.test.multi.company"].sudo().create({
+            "name": "Thread in C1",
+            "company_id": self.user_employee.company_id.id,  # company 1
+        })
+        self.authenticate('employee_c2', 'employee_c2')
+        self.opener.cookies.set('cids', str(self.company_2.id))
+        payload = {
+            "thread_model": record_c1._name,
+            "thread_id": record_c1.id,
+            "post_data": {
+                "body": "<p>Reply from inbox</p>",
+                "message_type": "comment",
+                "subtype_xmlid": "mail.mt_comment",
+            },
+            "context": {
+                "allowed_company_ids": self.company_2.ids,
+            }
+        }
+        result = self.make_jsonrpc_request("/mail/message/post", payload)
+        self.assertEqual(result["mail.message"][0]["body"], payload["post_data"]["body"])
+        self.assertTrue(record_c1.message_ids.filtered(lambda m: "Reply from inbox" in (m.body or "")))
 >>>>>>> upstream/18.0

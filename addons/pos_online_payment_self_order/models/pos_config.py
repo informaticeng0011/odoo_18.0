@@ -22,10 +22,16 @@ class PosConfig(models.Model):
         res['pos_payment_methods'] += payment_methods
         return res
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     @api.model
     def _load_pos_self_data_fields(self, pos_config_id):
         fields = super()._load_pos_self_data_fields(pos_config_id)
         return fields + ['self_order_online_payment_method_id']
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

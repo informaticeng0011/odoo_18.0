@@ -236,7 +236,10 @@ class Menu(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -772,6 +775,9 @@ class Menu(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1282,7 +1288,11 @@ class Menu(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             Note: Particulary useful when installing a module that adds a menu like
+=======
+            Note: Particularly useful when installing a module that adds a menu like
+>>>>>>> upstream/18.0
 =======
             Note: Particularly useful when installing a module that adds a menu like
 >>>>>>> upstream/18.0
@@ -1978,6 +1988,7 @@ class Menu(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 # create for every site
                 w_vals = [dict(vals, **{
                     'website_id': website.id,
@@ -1987,6 +1998,8 @@ class Menu(models.Model):
                 # if creating a default menu, we should also save it as such
                 default_menu = self.env.ref('website.main_menu', raise_if_not_found=False)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2505,6 +2518,9 @@ class Menu(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2907,7 +2923,11 @@ class Menu(models.Model):
             url = self.page_id.sudo().url
         else:
             url = self.url
+<<<<<<< HEAD
             if url and not self.url.startswith('/'):
+=======
+            if url and not url.startswith('/') and url not in ('#top', '#bottom'):
+>>>>>>> upstream/18.0
                 if '@' in self.url:
                     if not self.url.startswith('mailto'):
                         url = 'mailto:%s' % self.url
@@ -3072,7 +3092,10 @@ class Menu(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3432,6 +3455,9 @@ class Menu(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3738,6 +3764,7 @@ class Menu(models.Model):
             if not menu['url'] or '#' in menu['url']:
                 # Multiple case possible
                 # 1. `#` => menu container (dropdown, ..)
+<<<<<<< HEAD
                 # 2. `#anchor` => anchor on current page
                 # 3. `/url#something` => valid internal URL
                 # 4. https://google.com#smth => valid external URL
@@ -3745,6 +3772,17 @@ class Menu(models.Model):
                     menu_id.page_id = None
                 if request and menu['url'] and menu['url'].startswith('#') and len(menu['url']) > 1:
                     # Working on case 2.: prefix anchor with referer URL
+=======
+                # 2. `#top` or `#bottom` => special anchors valid for any page
+                # 3. `#anchor` => anchor on current page
+                # 4. `/url#something` => valid internal URL
+                # 5. https://google.com#smth => valid external URL
+                if menu_id.page_id:
+                    menu_id.page_id = None
+                if request and menu['url'] and menu['url'].startswith('#') and \
+                        len(menu['url']) > 1 and menu['url'] not in ['#top', '#bottom']:
+                    # Working on case 3.: prefix anchor with referer URL
+>>>>>>> upstream/18.0
                     referer_url = werkzeug.urls.url_parse(request.httprequest.headers.get('Referer', '')).path
                     menu['url'] = referer_url + menu['url']
             else:

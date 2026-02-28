@@ -4,7 +4,12 @@ from collections.abc import Iterable
 
 from odoo import api, fields, models
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools import _, SQL
+=======
+from odoo.exceptions import UserError
+from odoo.tools import _, SQL, clean_context
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import UserError
 from odoo.tools import _, SQL, clean_context
@@ -107,6 +112,7 @@ class ResPartnerBank(models.Model):
         for bank in self:
             bank.acc_type = self.retrieve_acc_type(bank.acc_number)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1028,6 +1034,9 @@ class ResPartnerBank(models.Model):
 =======
     @api.depends('partner_id.name')
 >>>>>>> upstream/18.0
+=======
+    @api.depends('partner_id.name')
+>>>>>>> upstream/18.0
     def _compute_account_holder_name(self):
         for bank in self:
             bank.acc_holder_name = bank.partner_id.name
@@ -1200,7 +1209,10 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1658,6 +1670,9 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1970,7 +1985,10 @@ class ResPartnerBank(models.Model):
         self.action_archive()
         return True
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def _user_can_trust(self):
         self.ensure_one()
@@ -2015,4 +2033,7 @@ class ResPartnerBank(models.Model):
             *self.env['res.partner.bank']._check_company_domain(company),
             ('active', '=', True),
         ]).sudo(False)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

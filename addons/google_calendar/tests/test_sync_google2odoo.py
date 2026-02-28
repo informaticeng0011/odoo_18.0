@@ -17,22 +17,29 @@ from unittest.mock import patch
 @patch.object(User, '_get_google_calendar_token', lambda user: 'dummy-token')
 class TestSyncGoogle2Odoo(TestSyncGoogle):
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     def setUp(self):
         super().setUp()
         self.other_company = self.env['res.company'].create({'name': 'Other Company'})
         self.public_partner = self.env['res.partner'].create({
 =======
+=======
+>>>>>>> upstream/18.0
     @classmethod
     def setUpClass(cls):
         super().setUpClass()
         cls.other_company = cls.env['res.company'].create({'name': 'Other Company'})
         cls.public_partner = cls.env['res.partner'].create({
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             'name': 'Public Contact',
             'email': 'public_email@example.com',
             'type': 'contact',
         })
+<<<<<<< HEAD
 <<<<<<< HEAD
         self.env.ref('base.partner_admin').write({
             'name': 'Mitchell Admin',
@@ -43,6 +50,8 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
             'email': 'private_email@example.com',
             'company_id': self.other_company.id,
 =======
+=======
+>>>>>>> upstream/18.0
         cls.env.ref('base.partner_admin').write({
             'name': 'Mitchell Admin',
             'email': 'admin@yourcompany.example.com',
@@ -51,6 +60,9 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
             'name': 'Private Contact',
             'email': 'private_email@example.com',
             'company_id': cls.other_company.id,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         })
 
@@ -1528,7 +1540,10 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2157,6 +2172,9 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -173,6 +173,10 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    and not line.combo_item_id
+>>>>>>> upstream/18.0
 =======
                     and not line.combo_item_id
 >>>>>>> upstream/18.0
@@ -716,7 +720,11 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         if line:
+=======
+                        if line and not line.combo_item_id:
+>>>>>>> upstream/18.0
 =======
                         if line and not line.combo_item_id:
 >>>>>>> upstream/18.0

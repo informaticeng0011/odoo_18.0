@@ -174,7 +174,11 @@ import { formView } from "@web/views/form/form_view";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { startRegistration } from "../../lib/simplewebauthn.js"
+=======
+import * as passkeyLib from "../../lib/simplewebauthn.js";
+>>>>>>> upstream/18.0
 =======
 import * as passkeyLib from "../../lib/simplewebauthn.js";
 >>>>>>> upstream/18.0
@@ -866,11 +870,14 @@ export class PassKeyNameFormController extends FormController {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const name = document.querySelector("div[name='name'].o_field_widget input").value
             if(name.length > 0) {
                 const serverOptions = this.props.context.registration;
                 const registration = await startRegistration(serverOptions).catch(e => console.error(e));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1385,6 +1392,9 @@ export class PassKeyNameFormController extends FormController {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -288,7 +288,11 @@ class TestSMSMassPerformance(BaseMailPerformance, sms_common.MockSMS):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.mockSMSGateway(sms_allow_unlink=True), self.assertQueryCount(employee=56):
+=======
+        with self.mockSMSGateway(sms_allow_unlink=True), self.assertQueryCount(employee=57):
+>>>>>>> upstream/18.0
 =======
         with self.mockSMSGateway(sms_allow_unlink=True), self.assertQueryCount(employee=57):
 >>>>>>> upstream/18.0
@@ -980,7 +984,11 @@ class TestSMSMassPerformance(BaseMailPerformance, sms_common.MockSMS):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.mockSMSGateway(sms_allow_unlink=True), self.assertQueryCount(employee=59):
+=======
+        with self.mockSMSGateway(sms_allow_unlink=True), self.assertQueryCount(employee=60):
+>>>>>>> upstream/18.0
 =======
         with self.mockSMSGateway(sms_allow_unlink=True), self.assertQueryCount(employee=60):
 >>>>>>> upstream/18.0

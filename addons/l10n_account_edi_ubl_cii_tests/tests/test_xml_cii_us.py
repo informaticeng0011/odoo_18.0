@@ -54,11 +54,17 @@ class TestCIIUS(TestUBLCommon):
         should create the correct invoice
         """
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         self.env['res.partner.bank'].sudo().create({
             'acc_number': 'FR76 1254 2547 2569 8542 5874 698',
             'partner_id': self.company_data['company'].partner_id.id,
         })
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         self._assert_imported_invoice_from_file(
             subfolder='tests/test_files/from_factur-x_doc',

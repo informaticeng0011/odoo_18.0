@@ -208,9 +208,15 @@ class ProductTemplateAttributeLine(models.Model):
         for ptal in self:
             ptav_to_activate = ProductTemplateAttributeValue
 <<<<<<< HEAD
+<<<<<<< HEAD
             remaining_pav = ptal.value_ids
             for ptav in ptal.product_template_value_ids:
                 if ptav.product_attribute_value_id not in remaining_pav:
+=======
+            remaining_pav = set(ptal.value_ids.ids)
+            for ptav in ptal.product_template_value_ids:
+                if ptav.product_attribute_value_id.id not in remaining_pav:
+>>>>>>> upstream/18.0
 =======
             remaining_pav = set(ptal.value_ids.ids)
             for ptav in ptal.product_template_value_ids:
@@ -223,6 +229,7 @@ class ProductTemplateAttributeLine(models.Model):
                         ptav_to_unlink += ptav
                 else:
                     # Activate corresponding values that are currently archived.
+<<<<<<< HEAD
 <<<<<<< HEAD
                     remaining_pav -= ptav.product_attribute_value_id
                     if not ptav.ptav_active:
@@ -255,6 +262,8 @@ class ProductTemplateAttributeLine(models.Model):
                         'price_extra': pav.default_extra_price,
                     })
 =======
+=======
+>>>>>>> upstream/18.0
                     remaining_pav.remove(ptav.product_attribute_value_id.id)
                     if not ptav.ptav_active:
                         ptav_to_activate += ptav
@@ -281,6 +290,9 @@ class ProductTemplateAttributeLine(models.Model):
                     'attribute_line_id': ptal.id,
                     'price_extra': pav.default_extra_price,
                 })
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             # Handle active at each step in case a following line might want to
             # re-use a value that was archived at a previous step.
