@@ -28,8 +28,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* l10n_latam_invoice_document
 #
+=======
+# * l10n_latam_invoice_document
+#
+# "Fernanda Alvarez (mfar)" <mfar@odoo.com>, 2026.
+>>>>>>> upstream/18.0
 =======
 # * l10n_latam_invoice_document
 #
@@ -174,6 +180,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -821,6 +828,10 @@ msgstr ""
 "POT-Creation-Date: 2025-12-29 19:03+0000\n"
 "PO-Revision-Date: 2026-02-21 10:02+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 19:03+0000\n"
+"PO-Revision-Date: 2026-02-28 09:04+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
 "Language-Team: Spanish (Latin America) <https://translate.odoo.com/projects/"
 "odoo-18-l10n/l10n_latam_invoice_document/es_419/>\n"
@@ -857,6 +868,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -946,6 +960,7 @@ msgid ""
 "identify the kind of document we are working with. (not only related to "
 "account.move, could be for documents of other models like stock.picking)"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1458,6 +1473,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Análogo a account.move.move_type de Odoo, pero con más opciones que te "
 "permiten identificar el tipo de documento con el que trabajas. (No solo se "
 "relaciona con account.move, también puede aplicar a documentos de otros "
@@ -1489,6 +1506,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1588,7 +1608,11 @@ msgid "Country in which this type of document is valid"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "País donde el tipo de documento es valido"
+=======
+msgstr "País donde este tipo de documento es válido"
+>>>>>>> upstream/18.0
 =======
 msgstr "País donde este tipo de documento es válido"
 >>>>>>> upstream/18.0
@@ -1691,6 +1715,7 @@ msgstr "ID (identificación)"
 #: model:ir.model.fields,help:l10n_latam_invoice_document.field_account_journal__l10n_latam_use_documents
 #: model:ir.model.fields,help:l10n_latam_invoice_document.field_account_move__l10n_latam_use_documents
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2036,6 +2061,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "If active: will be using for legal invoicing (invoices, debit/credit notes). "
 "If not set means that will be used to register accounting entries not "
 "related to invoicing legal documents. For Example: Receipts, Tax Payments, "
@@ -2155,6 +2182,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2426,7 +2456,11 @@ msgid "L10N Latam Available Document Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tipo de documento disponible"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tipo de documento disponible"
 >>>>>>> upstream/18.0
@@ -2459,7 +2493,11 @@ msgid "L10N Latam Company Use Documents"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Usar documentos de la empresa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Usar documentos de la empresa"
 >>>>>>> upstream/18.0
@@ -2492,7 +2530,11 @@ msgid "L10N Latam Use Documents"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Usar documentos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Usar documentos"
 >>>>>>> upstream/18.0
@@ -2668,7 +2710,12 @@ msgid "Name that will be printed in reports, for example \"CREDIT NOTE\""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nombre que será impreso en los reportes, por ejemplo \"NOTA DE CREDITO\""
+=======
+msgstr ""
+"Nombre que será impreso en los reportes, por ejemplo \"NOTA DE CREDITO\""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Nombre que será impreso en los reportes, por ejemplo \"NOTA DE CREDITO\""
@@ -3244,8 +3291,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Prefix for Documents Codes on Invoices and Account Moves. For eg. 'FA ' will"
 " build 'FA 0001-0000001' Document Number"
+=======
+"Prefix for Documents Codes on Invoices and Account Moves. For eg. 'FA ' will "
+"build 'FA 0001-0000001' Document Number"
+>>>>>>> upstream/18.0
 =======
 "Prefix for Documents Codes on Invoices and Account Moves. For eg. 'FA ' will "
 "build 'FA 0001-0000001' Document Number"
@@ -3887,8 +3939,12 @@ msgid "You can not use a %s document type with a refund invoice"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "No puedes utilizar el tipo de documento %s en una factura de reembolso"
+=======
+msgstr "No puedes utilizar el tipo de documento %s en una factura de reembolso"
+>>>>>>> upstream/18.0
 =======
 msgstr "No puedes utilizar el tipo de documento %s en una factura de reembolso"
 >>>>>>> upstream/18.0
@@ -4346,11 +4402,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can only reverse documents with legal invoicing documents from Latin America one at a time.\n"
 "Problematic documents: %s"
 msgstr ""
 "Solo puede revertir documentos con documentos de facturación legales de Latino américa de uno en uno.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4693,6 +4752,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

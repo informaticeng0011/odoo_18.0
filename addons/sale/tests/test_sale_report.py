@@ -137,11 +137,16 @@ class TestSaleReportCurrencyRate(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     expected_rounded_price = pricelist.currency_id.round(
                         price_for_so_company * expected_so_currency_rate
                     )
 
                     expected_amount_total = qty * expected_rounded_price
+=======
+
+                    expected_amount_total = pricelist.currency_id.round(qty * price_for_so_company * expected_so_currency_rate)
+>>>>>>> upstream/18.0
 =======
 
                     expected_amount_total = pricelist.currency_id.round(qty * price_for_so_company * expected_so_currency_rate)

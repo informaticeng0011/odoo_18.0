@@ -239,6 +239,10 @@ import { advanceTime, Deferred, tick } from "@odoo/hoot-dom";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { disableAnimations } from "@odoo/hoot-mock";
+>>>>>>> upstream/18.0
 =======
 import { disableAnimations } from "@odoo/hoot-mock";
 >>>>>>> upstream/18.0
@@ -1165,6 +1169,10 @@ test("can highlight messages that are not yet loaded", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    disableAnimations();
+>>>>>>> upstream/18.0
 =======
     disableAnimations();
 >>>>>>> upstream/18.0
@@ -2108,6 +2116,10 @@ test("can highlight message (slow ref registration)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    disableAnimations();
+>>>>>>> upstream/18.0
 =======
     disableAnimations();
 >>>>>>> upstream/18.0

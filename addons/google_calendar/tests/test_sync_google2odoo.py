@@ -18,6 +18,7 @@ from unittest.mock import patch
 class TestSyncGoogle2Odoo(TestSyncGoogle):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     def setUp(self):
         super().setUp()
@@ -26,12 +27,17 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     @classmethod
     def setUpClass(cls):
         super().setUpClass()
         cls.other_company = cls.env['res.company'].create({'name': 'Other Company'})
         cls.public_partner = cls.env['res.partner'].create({
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -39,6 +45,7 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
             'email': 'public_email@example.com',
             'type': 'contact',
         })
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         self.env.ref('base.partner_admin').write({
@@ -52,6 +59,8 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         cls.env.ref('base.partner_admin').write({
             'name': 'Mitchell Admin',
             'email': 'admin@yourcompany.example.com',
@@ -61,6 +70,9 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
             'email': 'private_email@example.com',
             'company_id': cls.other_company.id,
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1541,7 +1553,10 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2173,6 +2188,9 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

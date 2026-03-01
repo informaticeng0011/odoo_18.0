@@ -206,6 +206,10 @@ SupplierParty = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'cac:SellerContact': Contact,
+>>>>>>> upstream/18.0
 =======
     'cac:SellerContact': Contact,
 >>>>>>> upstream/18.0
@@ -474,6 +478,10 @@ Delivery = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'cbc:ID': {},
+>>>>>>> upstream/18.0
 =======
         'cbc:ID': {},
 >>>>>>> upstream/18.0
@@ -972,6 +980,10 @@ MonetaryTotal = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'cbc:PayableRoundingAmount': {},
+>>>>>>> upstream/18.0
 =======
     'cbc:PayableRoundingAmount': {},
 >>>>>>> upstream/18.0
@@ -1542,7 +1554,10 @@ ItemPriceExtension = {
     'cbc:Amount': {},
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 ContractDocumentReference = {
     'cbc:ID': {},
@@ -1555,4 +1570,7 @@ DespatchDocumentReference = {
 ProjectReference = {
     'cbc:ID': {},
 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

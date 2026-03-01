@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* sale_mrp
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -705,11 +706,15 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+# * sale_mrp
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Jaisal Shah <jaisal13shah@gmail.com>, 2025
 # Ujjawal Pathak, 2025
+<<<<<<< HEAD
 #
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -877,10 +882,14 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1592,10 +1601,18 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Ujjawal Pathak, 2025\n"
 "Language-Team: Hindi (https://app.transifex.com/odoo/teams/41243/hi/)\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-02-24 23:33+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Hindi <https://translate.odoo.com/projects/odoo-18/sale_mrp/"
+"hi/>\n"
+>>>>>>> upstream/18.0
 "Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1763,6 +1780,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+=======
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: sale_mrp
 #: model_terms:ir.ui.view,arch_db:sale_mrp.sale_order_portal_content_inherit_sale_mrp
@@ -1787,7 +1808,11 @@ msgstr ""
 #. module: sale_mrp
 #: model_terms:ir.ui.view,arch_db:sale_mrp.sale_order_form_mrp
 msgid "<span class=\"o_stat_text\">Manufacturing</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">मैन्युफ़ैक्चरिंग</span>"
+>>>>>>> upstream/18.0
 
 #. module: sale_mrp
 #: model_terms:ir.ui.view,arch_db:sale_mrp.mrp_production_form_view_sale
@@ -1803,6 +1828,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/sale_mrp/models/mrp_bom.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2084,18 +2110,30 @@ msgid ""
 "As long as there are some sale order lines that must be delivered/invoiced "
 "and are related to these bills of materials, you can not remove them.\n"
 >>>>>>> upstream/18.0
+=======
+"As long as there are some sale order lines that must be delivered/invoiced "
+"and are related to these bills of materials, you can not remove them.\n"
+>>>>>>> upstream/18.0
 "The error concerns these products: %s"
 msgstr ""
 
 #. module: sale_mrp
 #: model:ir.model,name:sale_mrp.model_mrp_bom
 msgid "Bill of Material"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बिल ऑफ़ मैटेरियल"
+>>>>>>> upstream/18.0
 
 #. module: sale_mrp
 #: model:ir.model.fields,field_description:sale_mrp.field_sale_order__mrp_production_count
 msgid "Count of MO generated"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जनरेट किए गए एमओ की संख्या"
+>>>>>>> upstream/18.0
 
 #. module: sale_mrp
 #: model:ir.model.fields,field_description:sale_mrp.field_mrp_production__sale_order_count
@@ -2288,7 +2326,11 @@ msgid "Date:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "तारीख:"
+>>>>>>> upstream/18.0
 =======
 msgstr "तारीख:"
 >>>>>>> upstream/18.0
@@ -3031,7 +3073,11 @@ msgid "Journal Item"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जर्नल आइटम"
+>>>>>>> upstream/18.0
 =======
 msgstr "जर्नल आइटम"
 >>>>>>> upstream/18.0
@@ -3624,7 +3670,11 @@ msgstr ""
 #. module: sale_mrp
 #: model:ir.model,name:sale_mrp.model_stock_move_line
 msgid "Product Moves (Stock Move Line)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रॉडक्ट मूव्स (स्टॉक मूव लाइन)"
+>>>>>>> upstream/18.0
 
 #. module: sale_mrp
 #: model:ir.model,name:sale_mrp.model_sale_order
@@ -3818,7 +3868,11 @@ msgid "Sales Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सेल्स ऑर्डर"
+>>>>>>> upstream/18.0
 =======
 msgstr "सेल्स ऑर्डर"
 >>>>>>> upstream/18.0
@@ -4401,4 +4455,8 @@ msgstr ""
 #. module: sale_mrp
 #: model:ir.model,name:sale_mrp.model_stock_rule
 msgid "Stock Rule"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "स्टॉक रूल"
+>>>>>>> upstream/18.0

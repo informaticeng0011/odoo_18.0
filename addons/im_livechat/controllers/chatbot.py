@@ -63,8 +63,11 @@ class LivechatChatbotScriptController(http.Controller):
             # boolean is safe
             discuss_channel.sudo().livechat_active = False
 <<<<<<< HEAD
+<<<<<<< HEAD
             return None
 =======
+=======
+>>>>>>> upstream/18.0
             step_message = next(
                 # sudo - chatbot.message.id: visitor can access chat bot messages.
                 m.mail_message_id for m in discuss_channel.sudo().chatbot_message_ids
@@ -82,6 +85,9 @@ class LivechatChatbotScriptController(http.Controller):
                 }
             )
             return store.get_result()
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         posted_message = next_step._process_step(discuss_channel)
@@ -92,7 +98,10 @@ class LivechatChatbotScriptController(http.Controller):
             {
                 "id": (next_step.id, posted_message.id),
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "isLast": next_step._is_last_step(discuss_channel),
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 "message": Store.one(posted_message, only_id=True),

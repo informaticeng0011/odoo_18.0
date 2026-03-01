@@ -49,7 +49,11 @@ _logger = logging.getLogger(__name__)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class TestAr(AccountTestInvoicingCommon):
+=======
+class TestArCommon(AccountTestInvoicingCommon):
+>>>>>>> upstream/18.0
 =======
 class TestArCommon(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
@@ -231,6 +235,10 @@ class TestArCommon(AccountTestInvoicingCommon):
             'company_id': cls.company_ri.id,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'allow_out_payment': True,
+>>>>>>> upstream/18.0
 =======
             'allow_out_payment': True,
 >>>>>>> upstream/18.0
@@ -555,6 +563,7 @@ class TestArCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _create_test_invoices_like_demo(self, use_current_date=True):
         """ Create in the unit tests the same invoices created in demo data """
         payment_term_id = self.env.ref("account.account_payment_term_end_following_month")
@@ -575,6 +584,8 @@ class TestArCommon(AccountTestInvoicingCommon):
                 "invoice_line_ids": [
                     {'product_id': self.service_iva_21}
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -722,6 +733,9 @@ class TestArCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -805,6 +819,7 @@ class TestArCommon(AccountTestInvoicingCommon):
             },
             'test_invoice_2': {
                 "ref": "test_invoice_2: Invoice to Servicios Globales with vat 21, 27 and 10,5",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -933,6 +948,8 @@ class TestArCommon(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 "partner_id": cls.res_partner_servicios_globales,
                 "invoice_payment_term_id": payment_term,
                 "move_type": "out_invoice",
@@ -981,6 +998,9 @@ class TestArCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1064,6 +1084,7 @@ class TestArCommon(AccountTestInvoicingCommon):
             },
             'test_invoice_3': {
                 "ref": "test_invoice_3: Invoice to ADHOC with vat cero and 21",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1191,6 +1212,8 @@ class TestArCommon(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 "partner_id": cls.res_partner_adhoc,
                 "invoice_payment_term_id": payment_term,
                 "move_type": 'out_invoice',
@@ -1238,6 +1261,9 @@ class TestArCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1321,6 +1347,7 @@ class TestArCommon(AccountTestInvoicingCommon):
             },
             'test_invoice_4': {
                 'ref': 'test_invoice_4: Invoice to ADHOC with vat exempt and 21',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1448,6 +1475,8 @@ class TestArCommon(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 "partner_id": cls.res_partner_adhoc,
                 "invoice_payment_term_id": payment_term,
                 "move_type": 'out_invoice',
@@ -1495,6 +1524,9 @@ class TestArCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1578,6 +1610,7 @@ class TestArCommon(AccountTestInvoicingCommon):
             },
             'test_invoice_5': {
                 'ref': 'test_invoice_5: Invoice to ADHOC with all type of taxes',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1756,6 +1789,8 @@ class TestArCommon(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 "partner_id": cls.res_partner_adhoc,
                 "invoice_payment_term_id": payment_term,
                 "move_type": 'out_invoice',
@@ -1833,6 +1868,9 @@ class TestArCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1916,6 +1954,7 @@ class TestArCommon(AccountTestInvoicingCommon):
             },
             'test_invoice_10': {
                 'ref': 'test_invoice_10; Invoice to ADHOC in USD and vat 21',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2057,6 +2096,8 @@ class TestArCommon(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 "partner_id": cls.res_partner_adhoc,
                 "invoice_payment_term_id": payment_term,
                 "move_type": 'out_invoice',
@@ -2118,6 +2159,9 @@ class TestArCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2201,6 +2245,7 @@ class TestArCommon(AccountTestInvoicingCommon):
             },
             'test_invoice_12': {
                 'ref': 'test_invoice_12: Invoice to ADHOC with many lines in order to test rounding error, it is required to use a 4 decimal precision in prodct in order to the error occur',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2330,6 +2375,8 @@ class TestArCommon(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 "partner_id": cls.res_partner_adhoc,
                 "invoice_payment_term_id": payment_term,
                 "move_type": 'out_invoice',
@@ -2379,6 +2426,9 @@ class TestArCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2462,6 +2512,7 @@ class TestArCommon(AccountTestInvoicingCommon):
             },
             'test_invoice_13': {
                 'ref': 'test_invoice_13: Invoice to ADHOC with many lines in order to test zero amount invoices y rounding error. it is required to set the product decimal precision to 4 and change 260.59 for 260.60 in order to reproduce the error',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2595,6 +2646,8 @@ class TestArCommon(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 "partner_id": cls.res_partner_adhoc,
                 "invoice_payment_term_id": payment_term,
                 "move_type": 'out_invoice',
@@ -2648,6 +2701,9 @@ class TestArCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2731,6 +2787,7 @@ class TestArCommon(AccountTestInvoicingCommon):
             },
             'test_invoice_14': {
                 'ref': 'test_invoice_14: Export invoice to Barcelona food, fiscal position changes tax to exempt (type 1 because only products)',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2859,6 +2916,8 @@ class TestArCommon(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 "partner_id": cls.res_partner_barcelona_food,
                 "journal_id": cls.sale_expo_journal_ri,
                 "invoice_payment_term_id": payment_term,
@@ -2907,6 +2966,9 @@ class TestArCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2990,6 +3052,7 @@ class TestArCommon(AccountTestInvoicingCommon):
             },
             'test_invoice_15': {
                 'ref': 'test_invoice_15: Export invoice to Barcelona food, fiscal position changes tax to exempt (type 2 because only service)',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3118,6 +3181,8 @@ class TestArCommon(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 "partner_id": cls.res_partner_barcelona_food,
                 "journal_id": cls.sale_expo_journal_ri,
                 "invoice_payment_term_id": payment_term,
@@ -3166,6 +3231,9 @@ class TestArCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3249,6 +3317,7 @@ class TestArCommon(AccountTestInvoicingCommon):
             },
             'test_invoice_16': {
                 'ref': 'test_invoice_16: Export invoice to Barcelona food, fiscal position changes tax to exempt (type 1 because it have products only, used to test refund of expo)',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3377,6 +3446,8 @@ class TestArCommon(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 "partner_id": cls.res_partner_barcelona_food,
                 "journal_id": cls.sale_expo_journal_ri,
                 "invoice_payment_term_id": payment_term,
@@ -3425,6 +3496,9 @@ class TestArCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3508,6 +3582,7 @@ class TestArCommon(AccountTestInvoicingCommon):
             },
             'test_invoice_17': {
                 'ref': 'test_invoice_17: Invoice to ADHOC with 100%% of discount',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3634,6 +3709,8 @@ class TestArCommon(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 "partner_id": cls.res_partner_adhoc,
                 "invoice_payment_term_id": payment_term,
                 "move_type": 'out_invoice',
@@ -3680,6 +3757,9 @@ class TestArCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3763,6 +3843,7 @@ class TestArCommon(AccountTestInvoicingCommon):
             },
             'test_invoice_18': {
                 'ref': 'test_invoice_18: Invoice to ADHOC with 100%% of discount and with different VAT aliquots',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3891,6 +3972,8 @@ class TestArCommon(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 "partner_id": cls.res_partner_adhoc,
                 "invoice_payment_term_id": payment_term,
                 "move_type": 'out_invoice',
@@ -3939,6 +4022,9 @@ class TestArCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4022,6 +4108,7 @@ class TestArCommon(AccountTestInvoicingCommon):
             },
             'test_invoice_19': {
                 'ref': 'test_invoice_19: Invoice to ADHOC with multiple taxes and perceptions',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4150,6 +4237,8 @@ class TestArCommon(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 "partner_id": cls.res_partner_adhoc,
                 "invoice_payment_term_id": payment_term,
                 "move_type": 'out_invoice',
@@ -4198,6 +4287,9 @@ class TestArCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4281,6 +4373,7 @@ class TestArCommon(AccountTestInvoicingCommon):
             }
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4440,6 +4533,8 @@ class TestArCommon(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         for invoice_key, invoice_values in test_invoices_map.items():
             invoice_values.setdefault('invoice_payment_term_id', cls.env.ref("account.account_payment_term_end_following_month"))
             if use_current_date:
@@ -4488,6 +4583,9 @@ class TestArCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4612,7 +4710,12 @@ class TestArCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _create_journal(self, afip_ws, data=None):
+=======
+    @classmethod
+    def _create_journal(cls, afip_ws, data=None):
+>>>>>>> upstream/18.0
 =======
     @classmethod
     def _create_journal(cls, afip_ws, data=None):
@@ -4823,6 +4926,7 @@ class TestArCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                   'l10n_ar_afip_pos_system': self._get_afip_pos_system_real_name().get(afip_ws),
                   'l10n_ar_afip_pos_number': pos_number,
                   'l10n_latam_use_documents': True,
@@ -4986,6 +5090,8 @@ class TestArCommon(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                   'l10n_ar_afip_pos_system': cls._get_afip_pos_system_real_name().get(afip_ws),
                   'l10n_ar_afip_pos_number': pos_number,
                   'l10n_latam_use_documents': True,
@@ -5042,6 +5148,9 @@ class TestArCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

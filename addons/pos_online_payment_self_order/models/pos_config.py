@@ -23,7 +23,10 @@ class PosConfig(models.Model):
         return res
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -32,6 +35,9 @@ class PosConfig(models.Model):
         fields = super()._load_pos_self_data_fields(pos_config_id)
         return fields + ['self_order_online_payment_method_id']
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

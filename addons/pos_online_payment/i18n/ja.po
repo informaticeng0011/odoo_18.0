@@ -136,6 +136,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* pos_online_payment
 # 
 # Translators:
@@ -143,6 +144,8 @@
 # Junko Augias, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -555,6 +558,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -830,6 +836,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1302,6 +1309,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-10-15 05:31+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-18/"
@@ -1447,6 +1457,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1782,8 +1795,12 @@ msgstr "<strong>エラー:</strong>通貨がないか、間違っています "
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "<strong>Error:</strong> There was a problem during the payment process."
+=======
+msgid "<strong>Error:</strong> There was a problem during the payment process."
+>>>>>>> upstream/18.0
 =======
 msgid "<strong>Error:</strong> There was a problem during the payment process."
 >>>>>>> upstream/18.0
@@ -2025,8 +2042,12 @@ msgstr "決済オプションを指定して下さい。"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "A validation payment cannot be used for a Point of Sale online payment."
+=======
+msgid "A validation payment cannot be used for a Point of Sale online payment."
+>>>>>>> upstream/18.0
 =======
 msgid "A validation payment cannot be used for a Point of Sale online payment."
 >>>>>>> upstream/18.0
@@ -2266,7 +2287,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "オンライン決済方法用に設定された全ての決済プロバイダーは、販売仕訳帳と同じ通貨であるか、設定されていない場合はPOSの会社の通貨を使用する必要があります。"
+=======
+"オンライン決済方法用に設定された全ての決済プロバイダーは、販売仕訳帳と同じ通"
+"貨であるか、設定されていない場合はPOSの会社の通貨を使用する必要があります。"
+>>>>>>> upstream/18.0
 =======
 "オンライン決済方法用に設定された全ての決済プロバイダーは、販売仕訳帳と同じ通"
 "貨であるか、設定されていない場合はPOSの会社の通貨を使用する必要があります。"
@@ -2581,7 +2607,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "オンラインでない決済方法とオンライン会計決済でPOS決済を作成できません。"
+=======
+msgstr ""
+"オンラインでない決済方法とオンライン会計決済でPOS決済を作成できません。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "オンラインでない決済方法とオンライン会計決済でPOS決済を作成できません。"
@@ -2931,6 +2962,7 @@ msgstr "決済プロバイダー"
 #. module: pos_online_payment
 #: model:ir.model,name:pos_online_payment.model_payment_transaction
 msgid "Payment Transaction"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3476,6 +3508,9 @@ msgstr "支払取引"
 =======
 msgstr "支払取引"
 >>>>>>> upstream/18.0
+=======
+msgstr "支払取引"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model:ir.model,name:pos_online_payment.model_account_payment
@@ -3604,7 +3639,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "オンライン決済方法が見つからなかったため、POSオンライン決済 (tx.id=%d) が正常に保存できませんでした。"
+=======
+msgstr ""
+"オンライン決済方法が見つからなかったため、POSオンライン決済 (tx.id=%d) が正常"
+"に保存できませんでした。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "オンライン決済方法が見つからなかったため、POSオンライン決済 (tx.id=%d) が正常"
@@ -4011,7 +4052,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "支払いは直接か、リダイレクトか、トークンによるものである必要があります。"
+=======
+msgstr ""
+"支払いは直接か、リダイレクトか、トークンによるものである必要があります。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "支払いは直接か、リダイレクトか、トークンによるものである必要があります。"
@@ -4329,7 +4375,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "実行するオンライン支払の残額 (%s) がオーダの未払残額(%s)と一致しません。"
+=======
+msgstr ""
+"実行するオンライン支払の残額 (%s) がオーダの未払残額(%s)と一致しません。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "実行するオンライン支払の残額 (%s) がオーダの未払残額(%s)と一致しません。"
@@ -4623,7 +4674,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "サーバに問題が発生しました。オーダオンライン決済ステータスが取得できません。"
+=======
+msgstr ""
+"サーバに問題が発生しました。オーダオンライン決済ステータスが取得できません。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "サーバに問題が発生しました。オーダオンライン決済ステータスが取得できません。"
@@ -4911,7 +4967,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "サーバに問題が発生しました。オーダのオンライン決済ステータスが取得できません。このオーダにオンライン決済がないのは確かですか？"
+=======
+msgstr ""
+"サーバに問題が発生しました。オーダのオンライン決済ステータスが取得できませ"
+"ん。このオーダにオンライン決済がないのは確かですか？"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "サーバに問題が発生しました。オーダのオンライン決済ステータスが取得できませ"
@@ -5279,7 +5341,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POS コンフィグでオンライン決済方法を使用するには、その POSコンフィグの通貨をサポートする公開決済プロバイダが少なくとも 1 つ必要です。"
+=======
+"POS コンフィグでオンライン決済方法を使用するには、その POSコンフィグの通貨を"
+"サポートする公開決済プロバイダが少なくとも 1 つ必要です。"
+>>>>>>> upstream/18.0
 =======
 "POS コンフィグでオンライン決済方法を使用するには、その POSコンフィグの通貨を"
 "サポートする公開決済プロバイダが少なくとも 1 つ必要です。"
@@ -5593,7 +5660,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "オンライン決済用 (オンライン決済プロバイダを利用したウェブページ上での支払い)にはこの決済方法を使用して下さい。"
+=======
+msgstr ""
+"オンライン決済用 (オンライン決済プロバイダを利用したウェブページ上での支払い)"
+"にはこの決済方法を使用して下さい。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "オンライン決済用 (オンライン決済プロバイダを利用したウェブページ上での支払い)"

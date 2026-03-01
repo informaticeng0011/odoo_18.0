@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+/* global posmodel */
+
+>>>>>>> upstream/18.0
 import { registry } from "@web/core/registry";
 import * as Utils from "@pos_self_order/../tests/tours/utils/common";
 import * as CartPage from "@pos_self_order/../tests/tours/utils/cart_page_util";
@@ -231,7 +236,10 @@ registry.category("web_tour.tours").add("self_mobile_each_table_takeaway_in", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -863,6 +871,7 @@ registry.category("web_tour.tours").add("self_mobile_each_table_takeaway_in", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -907,6 +916,8 @@ registry.category("web_tour.tours").add("self_mobile_each_table_takeaway_in", {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1475,6 +1486,9 @@ registry.category("web_tour.tours").add("self_mobile_each_table_takeaway_in", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2254,7 +2268,10 @@ registry.category("web_tour.tours").add("SelfOrderOrderNumberTour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2809,6 +2826,7 @@ registry.category("web_tour.tours").add("self_order_mobile_0_price_order", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2929,6 +2947,8 @@ registry.category("web_tour.tours").add("self_order_mobile_0_price_order", {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3295,6 +3315,7 @@ registry.category("web_tour.tours").add("self_order_mobile_no_access_token", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3533,4 +3554,62 @@ registry.category("web_tour.tours").add("self_order_mobile_no_access_token", {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+const syncAnCheckTrackingNumber = {
+    trigger: "body",
+    run: async () => {
+        const trackingNumber = posmodel.currentOrder.tracking_number;
+        const posReference = posmodel.currentOrder.pos_reference;
+        const noOfLines = posmodel.currentOrder.lines.length;
+        const result = await posmodel.sendDraftOrderToServer();
+        if (!result) {
+            throw new Error("Failed to sync order with server");
+        }
+
+        if (posmodel.currentOrder.lines.length !== noOfLines) {
+            throw new Error(
+                `Number of lines changed after sync. Before: ${noOfLines}, After: ${posmodel.currentOrder.lines.length}`
+            );
+        }
+
+        if (posmodel.currentOrder.tracking_number !== trackingNumber) {
+            throw new Error(
+                `Tracking number changed after sync. Before: ${trackingNumber}, After: ${posmodel.currentOrder.tracking_number}`
+            );
+        }
+        if (posmodel.currentOrder.pos_reference !== posReference) {
+            throw new Error(
+                `POS reference changed after sync. Before: ${posReference}, After: ${posmodel.currentOrder.pos_reference}`
+            );
+        }
+    },
+};
+
+registry
+    .category("web_tour.tours")
+    .add("test_self_order_meal_do_not_change_tracking_number_on_sync", {
+        steps: () =>
+            [
+                Utils.checkIsNoBtn("My Order"),
+                Utils.clickBtn("Order Now"),
+                ProductPage.clickProduct("Coca-Cola"),
+                {
+                    trigger: "body",
+                    run: async () => {
+                        const table = posmodel.models["restaurant.table"].getFirst();
+                        posmodel.currentOrder.table_id = table;
+                        await posmodel.sendDraftOrderToServer();
+                    },
+                },
+                ProductPage.clickProduct("Coca-Cola"),
+                syncAnCheckTrackingNumber,
+                ProductPage.clickProduct("Coca-Cola"),
+                ProductPage.clickProduct("Fanta"),
+                syncAnCheckTrackingNumber,
+                ProductPage.clickProduct("Coca-Cola"),
+                syncAnCheckTrackingNumber,
+            ].flat(),
+    });
 >>>>>>> upstream/18.0

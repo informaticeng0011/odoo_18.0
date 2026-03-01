@@ -39,6 +39,11 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
             'type': 'combo',
             'lst_price': 200.0,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'available_in_pos': True,
+            'self_order_available': True,
+>>>>>>> upstream/18.0
 =======
             'available_in_pos': True,
             'self_order_available': True,
@@ -52,6 +57,11 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
             'name': 'Random Product 1',
             'type': 'consu',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'available_in_pos': True,
+            'self_order_available': True,
+>>>>>>> upstream/18.0
 =======
             'available_in_pos': True,
             'self_order_available': True,
@@ -65,6 +75,11 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
             'type': 'consu',
             'lst_price': 25.0,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'available_in_pos': True,
+            'self_order_available': True,
+>>>>>>> upstream/18.0
 =======
             'available_in_pos': True,
             'self_order_available': True,
@@ -77,6 +92,11 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
             'type': 'consu',
             'lst_price': 35.0,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'available_in_pos': True,
+            'self_order_available': True,
+>>>>>>> upstream/18.0
 =======
             'available_in_pos': True,
             'self_order_available': True,
@@ -90,6 +110,10 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
             'is_storable': True,
             'available_in_pos': True,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'self_order_available': True,
+>>>>>>> upstream/18.0
 =======
             'self_order_available': True,
 >>>>>>> upstream/18.0
@@ -148,6 +172,10 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
             'is_storable': True,
             'available_in_pos': True,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'self_order_available': True,
+>>>>>>> upstream/18.0
 =======
             'self_order_available': True,
 >>>>>>> upstream/18.0
@@ -159,6 +187,10 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
             'is_storable': True,
             'available_in_pos': True,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'self_order_available': True,
+>>>>>>> upstream/18.0
 =======
             'self_order_available': True,
 >>>>>>> upstream/18.0
@@ -170,6 +202,10 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
             'is_storable': True,
             'available_in_pos': True,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'self_order_available': True,
+>>>>>>> upstream/18.0
 =======
             'self_order_available': True,
 >>>>>>> upstream/18.0

@@ -55,7 +55,10 @@ class TestCIIUS(TestUBLCommon):
         """
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         self.env['res.partner.bank'].sudo().create({
@@ -63,6 +66,9 @@ class TestCIIUS(TestUBLCommon):
             'partner_id': self.company_data['company'].partner_id.id,
         })
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

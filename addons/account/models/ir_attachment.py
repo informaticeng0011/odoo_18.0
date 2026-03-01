@@ -47,7 +47,11 @@ class IrAttachment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             xml_tree = etree.fromstring(content)
+=======
+            xml_tree = etree.fromstring(content, parser=etree.XMLParser(remove_comments=True, resolve_entities=False))
+>>>>>>> upstream/18.0
 =======
             xml_tree = etree.fromstring(content, parser=etree.XMLParser(remove_comments=True, resolve_entities=False))
 >>>>>>> upstream/18.0

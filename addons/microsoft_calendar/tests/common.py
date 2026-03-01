@@ -10,10 +10,13 @@ from odoo import fields
 from odoo.tests.common import HttpCase
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 from odoo.addons.microsoft_calendar.models.microsoft_sync import MicrosoftSync
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 from odoo.tools import mute_logger
@@ -22,6 +25,9 @@ from odoo.addons.microsoft_calendar.models.microsoft_sync import MicrosoftSync
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -54,7 +60,10 @@ class TestCommon(HttpCase):
         super(TestCommon, self).setUp()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         m = mute_logger('odoo.addons.auth_signup.models.res_users')
@@ -62,6 +71,9 @@ class TestCommon(HttpCase):
         self.addCleanup(mute_logger.__exit__, m, None, None, None)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

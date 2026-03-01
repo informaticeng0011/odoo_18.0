@@ -7,6 +7,7 @@ from odoo.tests.common import TransactionCase
 class TestPointOfSale(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def setUp(self):
         super(TestPointOfSale, self).setUp()
 
@@ -35,6 +36,8 @@ class TestPointOfSale(TransactionCase):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     @classmethod
     def setUpClass(cls):
         super().setUpClass()
@@ -61,6 +64,9 @@ class TestPointOfSale(TransactionCase):
             'type': 'bank',
             'company_id': cls.company1.id,
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -70,7 +76,11 @@ class TestPointOfSale(TransactionCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.env.user.company_id = self.company1
+=======
+        cls.env.user.company_id = cls.company1
+>>>>>>> upstream/18.0
 =======
         cls.env.user.company_id = cls.company1
 >>>>>>> upstream/18.0

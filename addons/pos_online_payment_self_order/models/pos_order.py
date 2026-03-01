@@ -68,7 +68,10 @@ class PosOrder(models.Model):
         return res
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -78,6 +81,9 @@ class PosOrder(models.Model):
         data['use_self_order_online_payment'] = order.get('use_self_order_online_payment')
         return data
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

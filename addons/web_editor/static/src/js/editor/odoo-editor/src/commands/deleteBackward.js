@@ -121,7 +121,13 @@ HTMLElement.prototype.oDeleteBackward = function (offset, alreadyMoved = false, 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             leftNode.remove();
+=======
+            const parentEl = leftNode.parentElement;
+            leftNode.remove();
+            fillEmpty(parentEl);
+>>>>>>> upstream/18.0
 =======
             const parentEl = leftNode.parentElement;
             leftNode.remove();

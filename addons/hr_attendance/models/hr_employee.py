@@ -240,7 +240,11 @@ class HrEmployee(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         groups="hr_attendance.group_hr_attendance_manager",
+=======
+        groups="hr_attendance.group_hr_attendance_officer",
+>>>>>>> upstream/18.0
 =======
         groups="hr_attendance.group_hr_attendance_officer",
 >>>>>>> upstream/18.0
@@ -1053,10 +1057,13 @@ class HrEmployee(models.Model):
     def _compute_last_attendance_id(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for employee in self:
             employee.last_attendance_id = self.env['hr.attendance'].search([
                 ('employee_id', 'in', employee.ids),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         current_datetime = fields.Datetime.now()
@@ -1065,6 +1072,9 @@ class HrEmployee(models.Model):
                 ('employee_id', 'in', employee.ids),
                 ('check_in', '<=', current_datetime),
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

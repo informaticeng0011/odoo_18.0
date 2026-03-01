@@ -109,7 +109,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <xpath expr="//field[@name='currency_id']" position="after">
+=======
+            <xpath expr="//field[@name='allow_out_payment']/parent::group" position="inside">
+>>>>>>> upstream/18.0
 =======
             <xpath expr="//field[@name='allow_out_payment']/parent::group" position="inside">
 >>>>>>> upstream/18.0

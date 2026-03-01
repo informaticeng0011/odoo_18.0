@@ -347,7 +347,10 @@ registerWebsitePreviewTour("website_form_editor_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -960,6 +963,9 @@ registerWebsitePreviewTour("website_form_editor_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1524,7 +1530,10 @@ registerWebsitePreviewTour("website_form_editor_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1938,6 +1947,9 @@ registerWebsitePreviewTour("website_form_editor_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2602,7 +2614,10 @@ registerWebsitePreviewTour("website_form_editor_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3199,6 +3214,9 @@ registerWebsitePreviewTour("website_form_editor_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3796,10 +3814,13 @@ registerWebsitePreviewTour("website_form_editor_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         content: "Change first Option 3 label",
         trigger: 'we-list table input:eq(2)',
         run: "edit France",
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4404,6 +4425,9 @@ registerWebsitePreviewTour("website_form_editor_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5017,10 +5041,13 @@ registerWebsitePreviewTour("website_form_editor_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         trigger: 'we-list table input:eq(3)',
         // TODO: Fix code to avoid blur event
         run: "edit Canada",
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5621,6 +5648,9 @@ registerWebsitePreviewTour("website_form_editor_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6220,7 +6250,10 @@ registerWebsitePreviewTour("website_form_editor_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6819,6 +6852,9 @@ registerWebsitePreviewTour("website_form_editor_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7423,7 +7459,11 @@ registerWebsitePreviewTour("website_form_editor_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         trigger: 'we-list table input:eq(3)',
+=======
+        trigger: "we-list table input:eq(3)[name='Item']",
+>>>>>>> upstream/18.0
 =======
         trigger: "we-list table input:eq(3)[name='Item']",
 >>>>>>> upstream/18.0
@@ -8262,7 +8302,10 @@ registerWebsitePreviewTour("website_form_editor_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8681,6 +8724,9 @@ registerWebsitePreviewTour("website_form_editor_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9573,7 +9619,11 @@ registerWebsitePreviewTour("website_form_editable_content", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         trigger: ":iframe section.s_website_form h5:contains(/^ABC$/)",
+=======
+        trigger: ":iframe section.s_website_form h5:text(ABC)",
+>>>>>>> upstream/18.0
 =======
         trigger: ":iframe section.s_website_form h5:text(ABC)",
 >>>>>>> upstream/18.0
@@ -10112,7 +10162,10 @@ registerWebsitePreviewTour("website_form_special_characters", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ...addCustomField("char", "text", 'Test2`\\', false),
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10634,10 +10687,13 @@ registerWebsitePreviewTour("website_form_special_characters", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         content: "Complete the second added field",
         trigger: `:iframe input[name="${CSS.escape("Test2`\\")}"]`,
         run: "edit test2",
     }, {
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

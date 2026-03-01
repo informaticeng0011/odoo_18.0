@@ -3,6 +3,10 @@ import { Plugin } from "@html_editor/plugin";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { selectElements } from "@html_editor/utils/dom_traversal";
+>>>>>>> upstream/18.0
 =======
 import { selectElements } from "@html_editor/utils/dom_traversal";
 >>>>>>> upstream/18.0
@@ -39,6 +43,11 @@ export class EmbeddedComponentPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        before_sanitize_processors: this.preProcessSanitizedElem.bind(this),
+        after_sanitize_processors: this.postProcessSanitizedElem.bind(this),
+>>>>>>> upstream/18.0
 =======
         before_sanitize_processors: this.preProcessSanitizedElem.bind(this),
         after_sanitize_processors: this.postProcessSanitizedElem.bind(this),
@@ -206,6 +215,7 @@ export class EmbeddedComponentPlugin extends Plugin {
         // just before adding the root rendered html.
         const fiber = root.node.fiber;
         const fiberComplete = fiber.complete;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -838,6 +848,8 @@ export class EmbeddedComponentPlugin extends Plugin {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         fiber.complete = () => {
             host.replaceChildren();
             fiberComplete.call(fiber);
@@ -1051,6 +1063,9 @@ export class EmbeddedComponentPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1574,7 +1589,10 @@ export class EmbeddedComponentPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1614,6 +1632,9 @@ export class EmbeddedComponentPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

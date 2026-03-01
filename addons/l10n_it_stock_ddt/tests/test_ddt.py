@@ -24,6 +24,10 @@ class TestDDT(TestSaleCommon):
             'partner_id': cls.company_data['company'].partner_id.id,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'allow_out_payment': True,
+>>>>>>> upstream/18.0
 =======
             'allow_out_payment': True,
 >>>>>>> upstream/18.0

@@ -145,8 +145,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* account_fleet
 # 
+=======
+# * account_fleet
+#
+>>>>>>> upstream/18.0
 =======
 # * account_fleet
 #
@@ -881,6 +886,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 =======
 # Johannes Myrlander <johannes.myrlander@ucsonedo.se>, 2025.
@@ -1317,10 +1323,15 @@
 =======
 # Johannes Myrlander <johannes.myrlander@ucsonedo.se>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Johannes Myrlander <johannes.myrlander@ucsonedo.se>, 2025.
+# Hanna Kharraziha <hakha@odoo.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1822,6 +1833,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-10-06 22:21+0000\n"
 "Last-Translator: Johannes Myrlander <johannes.myrlander@ucsonedo.se>\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-02-25 12:22+0000\n"
+"Last-Translator: Hanna Kharraziha <hakha@odoo.com>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Swedish <https://translate.odoo.com/projects/odoo-18/"
 "account_fleet/sv/>\n"
 "Language: sv\n"
@@ -1829,6 +1845,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+<<<<<<< HEAD
 "X-Generator: Weblate 5.12.2\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2263,10 +2280,14 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: account_fleet
 #: model_terms:ir.ui.view,arch_db:account_fleet.fleet_vehicle_log_services_view_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2439,12 +2460,15 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<span class=\"o_stat_text text-success\" invisible=\"account_move_state != "
 "'posted'\" title=\"Service's Bill\">Service's Bill</span>\n"
 "                            <span class=\"o_stat_text text-warning\" "
 "invisible=\"account_move_state == 'posted'\" title=\"Service's "
 "Bill\">Service's Bill</span>"
 msgstr ""
+<<<<<<< HEAD
 "<span class=\"o_stat_text text-success\" invisible=\"account_move_state != "
 "'posted'\" title=\"Service's Bill\">Servicefaktura </span>\n"
 "                            <span class=\"o_stat_text text-warning\" "
@@ -2616,11 +2640,23 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"<span class=\"o_stat_text text-success\" invisible="
+"\"account_move_state != 'posted'\" title=\"Service's Bill\">Servicefaktura "
+"</span>\n"
+"                            <span class=\"o_stat_text text-warning\" "
+"invisible=\"account_move_state == 'posted'\" title=\"Service's Bill\""
+">Servicefaktura </span>"
+>>>>>>> upstream/18.0
 
 #. module: account_fleet
 #: model:ir.model.fields,field_description:account_fleet.field_fleet_vehicle__account_move_ids
 msgid "Account Move"
+<<<<<<< HEAD
 msgstr "Verifikat"
+=======
+msgstr "Transaktion"
+>>>>>>> upstream/18.0
 
 #. module: account_fleet
 #: model:ir.model.fields,field_description:account_fleet.field_fleet_vehicle_log_services__account_move_line_id
@@ -2631,11 +2667,16 @@ msgstr "Transaktionsrad"
 #. odoo-python
 #: code:addons/account_fleet/models/fleet_vehicle_log_services.py:0
 msgid "Bill"
+<<<<<<< HEAD
 msgstr "Faktura"
+=======
+msgstr "Leverantörsfaktura"
+>>>>>>> upstream/18.0
 
 #. module: account_fleet
 #: model_terms:ir.ui.view,arch_db:account_fleet.fleet_vehicle_view_form
 msgid "Bills"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3217,11 +3258,18 @@ msgstr "Leverantörsfakturor"
 =======
 msgstr "Leverantörsfakturor"
 >>>>>>> upstream/18.0
+=======
+msgstr "Leverantörsfakturor"
+>>>>>>> upstream/18.0
 
 #. module: account_fleet
 #: model:ir.model.fields,field_description:account_fleet.field_fleet_vehicle__bill_count
 msgid "Bills Count"
+<<<<<<< HEAD
 msgstr "Antal fakturor"
+=======
+msgstr "Antal leverantörsfakturor"
+>>>>>>> upstream/18.0
 
 #. module: account_fleet
 #: model:ir.model.fields,field_description:account_fleet.field_fleet_vehicle_log_services__amount
@@ -3231,22 +3279,38 @@ msgstr "Kostnad"
 #. module: account_fleet
 #: model:ir.model,name:account_fleet.model_account_automatic_entry_wizard
 msgid "Create Automatic Entries"
+<<<<<<< HEAD
 msgstr "Skapa automatiska poster"
+=======
+msgstr "Skapa bokföringsposter automatiskt"
+>>>>>>> upstream/18.0
 
 #. module: account_fleet
 #: model_terms:ir.ui.view,arch_db:account_fleet.account_move_view_tree
 msgid "Creation Date"
+<<<<<<< HEAD
 msgstr "Skapad datum"
+=======
+msgstr "Skapad den"
+>>>>>>> upstream/18.0
 
 #. module: account_fleet
 #: model:ir.model,name:account_fleet.model_account_move
 msgid "Journal Entry"
+<<<<<<< HEAD
 msgstr "Verifikat"
+=======
+msgstr "Bokföringspost"
+>>>>>>> upstream/18.0
 
 #. module: account_fleet
 #: model:ir.model,name:account_fleet.model_account_move_line
 msgid "Journal Item"
+<<<<<<< HEAD
 msgstr "Journalpost"
+=======
+msgstr "Affärshändelse"
+>>>>>>> upstream/18.0
 
 #. module: account_fleet
 #: model:ir.model.fields,field_description:account_fleet.field_account_move_line__need_vehicle
@@ -3257,12 +3321,20 @@ msgstr "Behöver fordon"
 #. odoo-python
 #: code:addons/account_fleet/models/account_move.py:0
 msgid "Service Vendor Bill: %s"
+<<<<<<< HEAD
 msgstr "Tjänsteleverantörsfaktura: %s"
+=======
+msgstr "Serviceleverantörsfaktura: %s"
+>>>>>>> upstream/18.0
 
 #. module: account_fleet
 #: model:ir.model,name:account_fleet.model_fleet_vehicle_log_services
 msgid "Services for vehicles"
+<<<<<<< HEAD
 msgstr "Service av fordon"
+=======
+msgstr "Fordonstjänster"
+>>>>>>> upstream/18.0
 
 #. module: account_fleet
 #: model:ir.model.fields,field_description:account_fleet.field_fleet_vehicle_log_services__account_move_state
@@ -3285,6 +3357,7 @@ msgstr "Leverantörsfaktura"
 #. odoo-python
 #: code:addons/account_fleet/models/fleet_vehicle_log_services.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4073,6 +4146,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"You cannot delete log services records because one or more of them were bill "
+"created."
+msgstr ""
+"Det är inte möjligt att ta bort de sparade tjänstehandlingarna eftersom en "
+"eller flera av dem skapades baserat på leverantörsfakturor."
+>>>>>>> upstream/18.0
 
 #. module: account_fleet
 #. odoo-python
@@ -4081,6 +4161,7 @@ msgid ""
 "You cannot modify amount of services linked to an account move line. Do it "
 "on the related accounting entry instead."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4363,8 +4444,17 @@ msgstr ""
 "Du kan inte ändra antalet tjänster kopplade till en transaktionsrad. Gör det "
 "på den relaterade bokföringsposten istället."
 >>>>>>> upstream/18.0
+=======
+"Det är inte möjligt att ändra antalet tjänster kopplade till en "
+"transaktionsrad. Genomför åtgärden istället på den relaterade "
+"bokföringsposten."
+>>>>>>> upstream/18.0
 
 #. module: account_fleet
 #: model_terms:ir.ui.view,arch_db:account_fleet.fleet_vehicle_view_form
 msgid "show the vendor bills for this vehicle"
+<<<<<<< HEAD
 msgstr "visa leverantörsfakturorna för detta fordon"
+=======
+msgstr "visa leverantörsfakturor för detta fordon"
+>>>>>>> upstream/18.0

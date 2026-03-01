@@ -42,6 +42,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* payment_mercado_pago
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -214,6 +215,9 @@
 =======
 # * payment_mercado_pago
 >>>>>>> upstream/18.0
+=======
+# * payment_mercado_pago
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -273,6 +277,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -341,6 +346,10 @@
 >>>>>>> upstream/18.0
 =======
 # "Marta (wacm)" <wacm@odoo.com>, 2026.
+>>>>>>> upstream/18.0
+=======
+# "Marta (wacm)" <wacm@odoo.com>, 2026.
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
 =======
 # "Marta (wacm)" <wacm@odoo.com>, 2026.
@@ -458,6 +467,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -770,11 +780,19 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+"PO-Revision-Date: 2026-02-24 23:32+0000\n"
+"Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
+"Language-Team: Polish <https://translate.odoo.com/projects/odoo-18/"
+"payment_mercado_pago/pl/>\n"
+>>>>>>> upstream/18.0
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1069,6 +1087,11 @@ msgstr ""
 "(n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || "
+"(n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: payment_mercado_pago
 #: model_terms:ir.ui.view,arch_db:payment_mercado_pago.payment_provider_form
@@ -1110,6 +1133,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Skontaktuj się z wystawcą karty, aby ją aktywować, lub skorzystaj z innej "
+"metody płatności. Numer telefonu znajduje się na odwrocie karty."
+>>>>>>> upstream/18.0
 =======
 "Skontaktuj się z wystawcą karty, aby ją aktywować, lub skorzystaj z innej "
 "metody płatności. Numer telefonu znajduje się na odwrocie karty."
@@ -1255,7 +1283,11 @@ msgid "Check expiration date."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sprawdź datę ważności."
+>>>>>>> upstream/18.0
 =======
 msgstr "Sprawdź datę ważności."
 >>>>>>> upstream/18.0
@@ -1373,7 +1405,11 @@ msgid "Check the card number."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sprawdź numer karty."
+>>>>>>> upstream/18.0
 =======
 msgstr "Sprawdź numer karty."
 >>>>>>> upstream/18.0
@@ -1491,7 +1527,11 @@ msgid "Check the card security code."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sprawdź kod zabezpieczający karty."
+>>>>>>> upstream/18.0
 =======
 msgstr "Sprawdź kod zabezpieczający karty."
 >>>>>>> upstream/18.0
@@ -1609,7 +1649,11 @@ msgid "Check the data."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sprawdź dane."
+>>>>>>> upstream/18.0
 =======
 msgstr "Sprawdź dane."
 >>>>>>> upstream/18.0
@@ -1742,7 +1786,11 @@ msgid "Mercado Pago Access Token"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Token dostępu Mercado Pago"
+>>>>>>> upstream/18.0
 =======
 msgstr "Token dostępu Mercado Pago"
 >>>>>>> upstream/18.0
@@ -1879,7 +1927,11 @@ msgid "Payment Provider"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dostawca Płatności"
+=======
+msgstr "Operator płatności"
+>>>>>>> upstream/18.0
 =======
 msgstr "Operator płatności"
 >>>>>>> upstream/18.0
@@ -2052,7 +2104,11 @@ msgid "Payment Transaction"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Transakcja płatności"
+=======
+msgstr "Transakcja płatnicza"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transakcja płatnicza"
 >>>>>>> upstream/18.0
@@ -2213,6 +2269,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Płatność nie została zrealizowana. Użyj innej karty lub skontaktuj się z "
+"wystawcą karty."
+>>>>>>> upstream/18.0
 =======
 "Płatność nie została zrealizowana. Użyj innej karty lub skontaktuj się z "
 "wystawcą karty."
@@ -2329,6 +2390,7 @@ msgstr ""
 #. module: payment_mercado_pago
 #. odoo-python
 #: code:addons/payment_mercado_pago/models/payment_transaction.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2561,6 +2623,10 @@ msgstr "Otrzymano dane o nieprawidłowym statusie: %s"
 msgid "Received data with invalid status: %s"
 msgstr "Otrzymano dane o nieprawidłowym statusie: %s"
 >>>>>>> upstream/18.0
+=======
+msgid "Received data with invalid status: %s"
+msgstr "Otrzymano dane o nieprawidłowym statusie: %s"
+>>>>>>> upstream/18.0
 
 #. module: payment_mercado_pago
 #. odoo-python
@@ -2594,7 +2660,11 @@ msgid "Received data with missing payment id."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otrzymano dane z brakującym identyfikatorem płatności."
+>>>>>>> upstream/18.0
 =======
 msgstr "Otrzymano dane z brakującym identyfikatorem płatności."
 >>>>>>> upstream/18.0
@@ -2712,6 +2782,7 @@ msgid "Received data with missing reference."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Otrzymano dane z bez referencji."
@@ -2775,6 +2846,9 @@ msgstr "Otrzymano dane z bez referencji."
 >>>>>>> upstream/18.0
 =======
 msgstr "Otrzymano dane z bez referencji."
+>>>>>>> upstream/18.0
+=======
+msgstr "Otrzymano dane bez referencji."
 >>>>>>> upstream/18.0
 =======
 msgstr "Otrzymano dane bez referencji."
@@ -2830,7 +2904,11 @@ msgid "Received data with missing status."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otrzymano dane z brakującym statusem."
+>>>>>>> upstream/18.0
 =======
 msgstr "Otrzymano dane z brakującym statusem."
 >>>>>>> upstream/18.0
@@ -2923,6 +3001,11 @@ msgid ""
 "The communication with the API failed. Mercado Pago gave us the following "
 "information: '%(error_message)s' (code %(error_code)s)"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Komunikacja z API się nie powiodła. Mercado Pago zwrócił następujące "
+"informacje: '%(error_message)s' (kod błędu: %(error_code)s)"
+>>>>>>> upstream/18.0
 
 #. module: payment_mercado_pago
 #. odoo-python
@@ -2931,6 +3014,11 @@ msgid ""
 "The communication with the API failed. The response is empty. Please verify "
 "your access token."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Komunikacja z API się nie powiodła. Odpowiedź jest pusta. Zweryfikuj swój "
+"token dostępu."
+>>>>>>> upstream/18.0
 
 #. module: payment_mercado_pago
 #: model:ir.model.fields,help:payment_mercado_pago.field_payment_provider__code
@@ -2969,7 +3057,11 @@ msgid "This payment method does not process payments in installments."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ta metoda płatności nie obsługuje płatności ratalnych."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ta metoda płatności nie obsługuje płatności ratalnych."
 >>>>>>> upstream/18.0
@@ -3090,6 +3182,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Przetwarzamy Twoją płatność. Nie martw się, w ciągu mniej niż 2 dni "
+"roboczych poinformujemy Cię e-mailem, czy Twoja płatność została "
+"zaksięgowana."
+>>>>>>> upstream/18.0
 =======
 "Przetwarzamy Twoją płatność. Nie martw się, w ciągu mniej niż 2 dni "
 "roboczych poinformujemy Cię e-mailem, czy Twoja płatność została "
@@ -3267,6 +3365,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Przetwarzamy Twoją płatność. Nie martw się, w ciągu mniej niż 2 dni "
+"roboczych powiadomimy Cię e-mailem, czy Twoja płatność została zaksięgowana, "
+"czy też potrzebujemy dodatkowych informacji."
+>>>>>>> upstream/18.0
 =======
 "Przetwarzamy Twoją płatność. Nie martw się, w ciągu mniej niż 2 dni "
 "roboczych powiadomimy Cię e-mailem, czy Twoja płatność została zaksięgowana, "
@@ -3442,6 +3546,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nie udało nam się przetworzyć Twojej płatności. Sprawdź dane swojej karty."
+>>>>>>> upstream/18.0
 =======
 "Nie udało nam się przetworzyć Twojej płatności. Sprawdź dane swojej karty."
 >>>>>>> upstream/18.0
@@ -3560,6 +3668,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nie udało nam się przetworzyć Twojej płatności. Proszę użyć innej karty."
+>>>>>>> upstream/18.0
 =======
 "Nie udało nam się przetworzyć Twojej płatności. Proszę użyć innej karty."
 >>>>>>> upstream/18.0
@@ -3680,6 +3792,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Już dokonałeś płatności za tę kwotę. Jeśli musisz zapłacić ponownie, użyj "
+"innej karty lub innej metody płatności."
+>>>>>>> upstream/18.0
 =======
 "Już dokonałeś płatności za tę kwotę. Jeśli musisz zapłacić ponownie, użyj "
 "innej karty lub innej metody płatności."
@@ -3797,6 +3914,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/payment_mercado_pago/const.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4023,6 +4141,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "You have reached the limit of allowed attempts. Choose another card or other "
 "means of payment."
 msgstr ""
@@ -4055,6 +4175,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4143,7 +4266,11 @@ msgid "You must authorize the payment with this card."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Musisz autoryzować płatność tą kartą."
+>>>>>>> upstream/18.0
 =======
 msgstr "Musisz autoryzować płatność tą kartą."
 >>>>>>> upstream/18.0
@@ -4261,7 +4388,11 @@ msgid "Your card has not enough funds."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Na Twojej karcie nie ma wystarczających środków."
+>>>>>>> upstream/18.0
 =======
 msgstr "Na Twojej karcie nie ma wystarczających środków."
 >>>>>>> upstream/18.0
@@ -4351,6 +4482,7 @@ msgstr "Na Twojej karcie nie ma wystarczających środków."
 #. odoo-python
 #: code:addons/payment_mercado_pago/const.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4577,6 +4709,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Your payment has been credited. In your summary you will see the charge as a "
 "statement descriptor."
 msgstr ""
@@ -4609,6 +4743,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -122,6 +122,11 @@ import odoo.tests
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+from urllib.parse import urlparse
+>>>>>>> upstream/18.0
 =======
 
 from urllib.parse import urlparse
@@ -856,6 +861,7 @@ class TestSelfOrderMobile(SelfOrderCommonTest):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -976,6 +982,8 @@ class TestSelfOrderMobile(SelfOrderCommonTest):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1348,6 +1356,9 @@ class TestSelfOrderMobile(SelfOrderCommonTest):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1800,6 +1811,7 @@ class TestSelfOrderMobile(SelfOrderCommonTest):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2668,4 +2680,20 @@ class TestSelfOrderMobile(SelfOrderCommonTest):
 
         order = self.env['pos.order'].search([], limit=1)
         self.assertEqual(order.picking_count, 1)
+>>>>>>> upstream/18.0
+=======
+
+        order = self.env['pos.order'].search([], limit=1)
+        self.assertEqual(order.picking_count, 1)
+
+    def test_self_order_meal_do_not_change_tracking_number_on_sync(self):
+        self.pos_config.write({
+            'self_ordering_mode': 'mobile',
+            'self_ordering_service_mode': 'table',
+        })
+
+        self.pos_config.self_ordering_pay_after = 'meal'
+        self.pos_config.with_user(self.pos_user).open_ui()
+        self.pos_config.current_session_id.set_opening_control(0, "")
+        self.start_tour(self.pos_config._get_self_order_route(), 'test_self_order_meal_do_not_change_tracking_number_on_sync')
 >>>>>>> upstream/18.0

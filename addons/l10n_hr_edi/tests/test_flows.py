@@ -49,6 +49,10 @@ from odoo import Command, fields
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.exceptions import UserError
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import UserError
 >>>>>>> upstream/18.0
@@ -333,6 +337,11 @@ class TestHrEdiFlowsMocked(TestL10nHrEdiCommon, TestAccountMoveSendCommon, Patch
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'invoice_date': '2025-01-01',
+            'date': '2025-01-01',
+>>>>>>> upstream/18.0
 =======
             'invoice_date': '2025-01-01',
             'date': '2025-01-01',
@@ -656,7 +665,10 @@ class TestHrEdiFlowsMocked(TestL10nHrEdiCommon, TestAccountMoveSendCommon, Patch
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -751,8 +763,11 @@ class TestHrEdiFlowsMocked(TestL10nHrEdiCommon, TestAccountMoveSendCommon, Patch
         tax = self.env['account.chart.template'].ref('VAT_S_IN_ROC_25')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         # 1. Create invoice
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         invoice = self.env['account.move'].create({
@@ -778,8 +793,11 @@ class TestHrEdiFlowsMocked(TestL10nHrEdiCommon, TestAccountMoveSendCommon, Patch
         }])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         # 2. Send invoice to MER
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         send_and_print = self.create_send_and_print(invoice)
@@ -788,15 +806,21 @@ class TestHrEdiFlowsMocked(TestL10nHrEdiCommon, TestAccountMoveSendCommon, Patch
             expected_invoice_xml = f.read()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.assertRaisesRegex(UserError, 'Korisničko ime i lozinka nisu ispravni.. Trace ID: 4f701362-96cc-49c6-a297-854e740ad719.'):
             with self.assertRequests([
                 (
                     # Request 1: Send invoice
 =======
+=======
+>>>>>>> upstream/18.0
         with self.assertRaisesRegex(UserError, r"MER service returned an error: Username '12513': \['Korisničko ime i lozinka nisu ispravni\.\. Trace ID: 4f701362-96cc-49c6-a297-854e740ad719\.'\]"):
             with self.assertRequests([
                 (
                     # Request 1: Send invoice - error should be triggered
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     self._build_request(
                         endpoint='/apis/v2/send',
@@ -810,7 +834,11 @@ class TestHrEdiFlowsMocked(TestL10nHrEdiCommon, TestAccountMoveSendCommon, Patch
                             'Username':
                                 {
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     'Value': 'Incorrect',
+=======
+                                    'Value': '12513',
+>>>>>>> upstream/18.0
 =======
                                     'Value': '12513',
 >>>>>>> upstream/18.0
@@ -866,6 +894,9 @@ class TestHrEdiFlowsMocked(TestL10nHrEdiCommon, TestAccountMoveSendCommon, Patch
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1128,7 +1159,10 @@ class TestHrEdiFlowsMocked(TestL10nHrEdiCommon, TestAccountMoveSendCommon, Patch
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'date': fields.Date.today(),
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1270,7 +1304,10 @@ class TestHrEdiFlowsMocked(TestL10nHrEdiCommon, TestAccountMoveSendCommon, Patch
 
         self.assertEqual(fetched_invoice.invoice_line_ids.tax_ids.amount, 13.0)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_query_inbox_error(self):
         self.setup_partner_as_hr(self.env.company.partner_id)
@@ -1292,4 +1329,7 @@ class TestHrEdiFlowsMocked(TestL10nHrEdiCommon, TestAccountMoveSendCommon, Patch
                 ),
             ]):
                 self.company_data['default_journal_purchase'].l10n_hr_mer_get_new_documents_all()
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
