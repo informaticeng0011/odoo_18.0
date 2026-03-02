@@ -30,6 +30,7 @@ Pro rules and show the errors.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'views/res_partner_views.xml',
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -45,6 +46,11 @@ Pro rules and show the errors.
         'report/account_edi_ubl_cii_report_templates.xml',
 >>>>>>> upstream/18.0
 =======
+        'report/account_edi_ubl_cii_report_templates.xml',
+>>>>>>> upstream/18.0
+=======
+        'views/account_move_views.xml',
+        'views/res_partner_views.xml',
         'report/account_edi_ubl_cii_report_templates.xml',
 >>>>>>> upstream/18.0
 =======
@@ -191,6 +197,10 @@ Pro rules and show the errors.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'uninstall_hook': 'uninstall_hook',
+>>>>>>> upstream/18.0
 =======
     'uninstall_hook': 'uninstall_hook',
 >>>>>>> upstream/18.0

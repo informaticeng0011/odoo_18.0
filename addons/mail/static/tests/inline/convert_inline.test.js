@@ -227,6 +227,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    createMso,
+>>>>>>> upstream/18.0
 =======
     createMso,
 >>>>>>> upstream/18.0
@@ -929,6 +933,7 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 } from "@mail/views/web/fields/html_mail_field/convert_inline";
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1513,6 +1518,11 @@ import { beforeEach, describe, expect, getFixture, test } from "@odoo/hoot";
 import { beforeEach, describe, expect, getFixture, test } from "@odoo/hoot";
 >>>>>>> upstream/18.0
 =======
+import { beforeEach, describe, expect, getFixture, test } from "@odoo/hoot";
+>>>>>>> upstream/18.0
+=======
+    splitSelectors,
+} from "@mail/views/web/fields/html_mail_field/convert_inline";
 import { beforeEach, describe, expect, getFixture, test } from "@odoo/hoot";
 >>>>>>> upstream/18.0
 =======
@@ -2650,7 +2660,10 @@ describe("Convert classes to inline styles", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         styleEl.type = "text/css";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3168,10 +3181,13 @@ describe("Convert classes to inline styles", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     afterEach(() => {
         // @todo to adapt when hoot has a better way to remove it
         document.head.removeChild(styleEl);
     });
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3652,7 +3668,10 @@ describe("Convert classes to inline styles", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4051,6 +4070,9 @@ describe("Convert classes to inline styles", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4447,9 +4469,15 @@ describe("Convert classes to inline styles", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const containerStyle = `border-radius: 0px; border-style: none; margin: 0px auto; box-sizing: border-box; border-width: 0px; max-width: 1320px; padding-left: 16px; padding-right: 16px; width: 100%;`;
         const rowStyle = `border-radius: 0px; border-style: none; padding: 0px; box-sizing: border-box; border-width: 0px; margin-left: -16px; margin-right: -16px; margin-top: 0px;`;
         const colStyle = `border-radius: 0px; border-style: none; box-sizing: border-box; border-width: 0px; margin-top: 0px; padding-left: 16px; padding-right: 16px; max-width: 100%; width: 100%;`;
+=======
+        const containerStyle = `border-radius: 0px; border-style: none; margin: 0px auto; box-sizing: border-box; border-width: 0px; max-width: 1320px; padding-left: 16px; padding-right: 16px; width: 100%; border-color: ${borderColor};`;
+        const rowStyle = `border-radius: 0px; border-style: none; padding: 0px; box-sizing: border-box; border-width: 0px; margin-left: -16px; margin-right: -16px; margin-top: 0px; border-color: ${borderColor};`;
+        const colStyle = `border-radius: 0px; border-style: none; box-sizing: border-box; border-width: 0px; margin-top: 0px; padding-left: 16px; padding-right: 16px; max-width: 100%; width: 100%; border-color: ${borderColor};`;
+>>>>>>> upstream/18.0
 =======
         const containerStyle = `border-radius: 0px; border-style: none; margin: 0px auto; box-sizing: border-box; border-width: 0px; max-width: 1320px; padding-left: 16px; padding-right: 16px; width: 100%; border-color: ${borderColor};`;
         const rowStyle = `border-radius: 0px; border-style: none; padding: 0px; box-sizing: border-box; border-width: 0px; margin-left: -16px; margin-right: -16px; margin-top: 0px; border-color: ${borderColor};`;
@@ -5245,6 +5273,10 @@ describe("Convert classes to inline styles", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        styleSheet.deleteRule(0);
+>>>>>>> upstream/18.0
 =======
         styleSheet.deleteRule(0);
 >>>>>>> upstream/18.0
@@ -6225,7 +6257,11 @@ describe("Convert classes to inline styles", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+        const borderColor = `rgb(255, 0, 0)`;
+>>>>>>> upstream/18.0
 =======
         const borderColor = `rgb(255, 0, 0)`;
 >>>>>>> upstream/18.0
@@ -6756,6 +6792,12 @@ describe("Convert classes to inline styles", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                div {
+                    border-color: ${borderColor} !important;
+                }
+>>>>>>> upstream/18.0
 =======
                 div {
                     border-color: ${borderColor} !important;
@@ -7549,10 +7591,13 @@ describe("Convert classes to inline styles", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             `<div class="o_layout" style="border-radius:0px;border-style:none;margin:0px;box-sizing:border-box;border-left-width:0px;border-bottom-width:0px;border-right-width:0px;border-top-width:0px;font-size:50px;color:white;background-color:red;padding: 50px;"></div>`,
             { message: "should have given all styles of body to .o_layout" }
         );
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7947,6 +7992,9 @@ describe("Convert classes to inline styles", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8427,6 +8475,7 @@ describe("Convert classes to inline styles", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 });
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8641,6 +8690,8 @@ describe("Convert classes to inline styles", () => {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9140,6 +9191,9 @@ describe("Convert classes to inline styles", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9689,6 +9743,7 @@ describe("Properly add MSO conditions", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10087,6 +10142,8 @@ describe("Properly add MSO conditions", () => {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10175,6 +10232,9 @@ describe("splitSelectors method", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

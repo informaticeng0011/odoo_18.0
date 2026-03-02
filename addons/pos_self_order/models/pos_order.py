@@ -3,9 +3,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 from odoo import models, fields, api, _
 from odoo.exceptions import UserError
+=======
+from odoo import Command, models, fields, api
+from odoo.tools import float_round
+>>>>>>> upstream/18.0
 =======
 from odoo import Command, models, fields, api
 from odoo.tools import float_round
@@ -291,6 +296,7 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             config.notify_synchronisation(config.current_session_id.id, self.env.context.get('login_number', 0))
 >>>>>>> upstream/18.0
@@ -917,6 +923,8 @@ class PosOrder(models.Model):
 >>>>>>> upstream/18.0
             config._notify('ORDER_STATE_CHANGED', {})
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -927,7 +935,11 @@ class PosOrder(models.Model):
     @api.model
     def _check_pos_order_lines(self, pos_config, order, line, fiscal_position_id):
 <<<<<<< HEAD
+<<<<<<< HEAD
         existing_order = pos_config.env['pos.order'].browse(order.get('id'))
+=======
+        existing_order = pos_config.env['pos.order'].search([('uuid', '=', order.get('uuid'))], limit=1)
+>>>>>>> upstream/18.0
 =======
         existing_order = pos_config.env['pos.order'].search([('uuid', '=', order.get('uuid'))], limit=1)
 >>>>>>> upstream/18.0
@@ -944,12 +956,18 @@ class PosOrder(models.Model):
             tax_ids = fiscal_position_id.map_tax(product.taxes_id)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             return [Command.CREATE, 0, {
 =======
+=======
+>>>>>>> upstream/18.0
             command = Command.CREATE if line[0] == Command.CREATE else Command.UPDATE
             id_to_use = line[1] if line[0] == Command.UPDATE else 0
 
             return [command, id_to_use, {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 'combo_id': line_data.get('combo_id'),
                 'product_id': line_data.get('product_id'),
@@ -981,6 +999,10 @@ class PosOrder(models.Model):
         pricelist_id = pos_config.pricelist_id
         lines = [self._check_pos_order_lines(pos_config, order, line, fiscal_position) for line in order.get('lines', [])]
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        lines = [line for line in lines if len(line)]
+>>>>>>> upstream/18.0
 =======
         lines = [line for line in lines if len(line)]
 >>>>>>> upstream/18.0
@@ -1121,6 +1143,9 @@ class PosOrder(models.Model):
         lst_price = 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

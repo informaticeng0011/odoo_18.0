@@ -179,7 +179,13 @@ from collections import defaultdict
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from datetime import datetime
+=======
+from contextlib import contextmanager
+from datetime import datetime
+from freezegun import freeze_time
+>>>>>>> upstream/18.0
 =======
 from contextlib import contextmanager
 from datetime import datetime
@@ -1248,6 +1254,7 @@ from odoo.addons.google_calendar.models.google_sync import google_calendar_token
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests.common import HttpCase, new_test_user
 from freezegun import freeze_time
 from contextlib import contextmanager
@@ -1952,12 +1959,17 @@ from odoo.tests.common import HttpCase
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 from odoo.addons.mail.tests.common import mail_new_test_user
 from odoo.tests.common import HttpCase
 
 from odoo.tools import mute_logger
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1973,6 +1985,7 @@ def patch_api(func):
 
 @patch.object(User, '_get_google_calendar_token', lambda user: 'dummy-token')
 class TestSyncGoogle(HttpCase):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2858,6 +2871,8 @@ class TestSyncGoogle(HttpCase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     @classmethod
     def setUpClass(cls):
         super().setUpClass()
@@ -2871,6 +2886,9 @@ class TestSyncGoogle(HttpCase):
         cls.addClassCleanup(mute_logger.__exit__, m, None, None, None)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

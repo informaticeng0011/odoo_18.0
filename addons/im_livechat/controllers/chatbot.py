@@ -64,8 +64,11 @@ class LivechatChatbotScriptController(http.Controller):
             discuss_channel.sudo().livechat_active = False
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return None
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             step_message = next(
@@ -86,6 +89,9 @@ class LivechatChatbotScriptController(http.Controller):
             )
             return store.get_result()
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -99,7 +105,10 @@ class LivechatChatbotScriptController(http.Controller):
                 "id": (next_step.id, posted_message.id),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "isLast": next_step._is_last_step(discuss_channel),
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

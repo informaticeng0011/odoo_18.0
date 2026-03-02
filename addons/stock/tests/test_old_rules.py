@@ -598,11 +598,14 @@ class TestOldRules(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # second out move, the "pick" picking should have lost its partner and origin
         move2._action_confirm()
         self.assertEqual(picking_pick.partner_id.id, False)
         self.assertEqual(picking_pick.origin, False)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1156,6 +1159,9 @@ class TestOldRules(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1798,8 +1804,13 @@ class TestOldRules(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         pick. When a second move is added, make sure the `partner_id` and
         `origin` fields are erased.
+=======
+        pick. When a second move is added, make sure the `partner_id` field is erased and
+        `origin` field is updated.
+>>>>>>> upstream/18.0
 =======
         pick. When a second move is added, make sure the `partner_id` field is erased and
         `origin` field is updated.
@@ -2557,7 +2568,11 @@ class TestOldRules(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         move2 = self.env['stock.move'].create({
+=======
+        move2, move3, move4 = self.env['stock.move'].create([{
+>>>>>>> upstream/18.0
 =======
         move2, move3, move4 = self.env['stock.move'].create([{
 >>>>>>> upstream/18.0
@@ -3148,8 +3163,11 @@ class TestOldRules(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         })
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3607,6 +3625,9 @@ class TestOldRules(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3903,6 +3924,7 @@ class TestOldRules(TestStockCommon):
         self.assertEqual(picking_pick.partner_id.id, procurement_group1.partner_id.id)
         self.assertEqual(picking_pick.origin, move1.group_id.name)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4740,6 +4762,8 @@ class TestOldRules(TestStockCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         # second out move, the "pick" picking should have lost its partner and have its origin updated
         (move2 | move3 | move4)._action_confirm()
         self.assertEqual(picking_pick.partner_id.id, False)
@@ -4888,6 +4912,9 @@ class TestOldRules(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5451,6 +5478,7 @@ class TestOldRules(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5561,6 +5589,8 @@ class TestOldRules(TestStockCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6144,6 +6174,9 @@ class TestOldRules(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

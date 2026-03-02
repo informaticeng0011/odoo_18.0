@@ -16,6 +16,11 @@ from ..tools import (
     _mer_api_receive_document,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    _mer_api_query_inbox,
+    _mer_api_send,
+>>>>>>> upstream/18.0
 =======
     _mer_api_query_inbox,
     _mer_api_send,
@@ -141,7 +146,11 @@ class TestL10nHrEdiMerApi(TestL10nHrEdiCommon, TestAccountMoveSendCommon):
             'ReceiverBusinessNumber': 'BE0477472701',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'ReceiverBusinessUnit': '',
+=======
+            'ReceiverBusinessUnit': None,
+>>>>>>> upstream/18.0
 =======
             'ReceiverBusinessUnit': None,
 >>>>>>> upstream/18.0
@@ -237,7 +246,10 @@ class TestL10nHrEdiMerApi(TestL10nHrEdiCommon, TestAccountMoveSendCommon):
     # Currently results in random responses form the test server, cannot be set up to be tested properly
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     # NEEDS TO BE REWRITTEN FOR THE UPDATED PAYMENT FLOW
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -293,7 +305,10 @@ class TestL10nHrEdiMerApi(TestL10nHrEdiCommon, TestAccountMoveSendCommon):
                 pass
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -310,6 +325,9 @@ class TestL10nHrEdiMerApi(TestL10nHrEdiCommon, TestAccountMoveSendCommon):
         with self.assertRaisesRegex(UserError, r"MER service returned an error: Username 'WRONG USERNAME': \['Korisničko ime i lozinka nisu ispravni\.\. Trace ID:.*'\]"):
             _mer_api_send(self.env.company, xml_file='Totally a file')
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

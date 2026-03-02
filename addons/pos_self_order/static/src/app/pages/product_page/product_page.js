@@ -114,7 +114,11 @@ export class ProductPage extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             order.lastChangesSent[this.selfOrder.editedLine.uuid]
+=======
+            order.uiState.lineChanges[this.selfOrder.editedLine.uuid]
+>>>>>>> upstream/18.0
 =======
             order.uiState.lineChanges[this.selfOrder.editedLine.uuid]
 >>>>>>> upstream/18.0

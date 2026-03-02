@@ -171,6 +171,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* mrp
 # 
 # Translators:
@@ -978,6 +979,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * mrp
 #
 # Translators:
@@ -987,6 +990,7 @@
 # Marta Wacławek, 2025
 # Denis Gobin, 2025
 # Vojtěch Olšan <vojtech.olsan@systee.cz>, 2025.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1612,10 +1616,15 @@
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 # "Marta (wacm)" <wacm@odoo.com>, 2026.
 >>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+# "Marta (wacm)" <wacm@odoo.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2946,11 +2955,17 @@ msgstr ""
 "PO-Revision-Date: 2026-02-25 12:24+0000\n"
 "Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:36+0000\n"
+"PO-Revision-Date: 2026-02-25 12:24+0000\n"
+"Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Czech <https://translate.odoo.com/projects/odoo-18/mrp/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3636,12 +3651,18 @@ msgstr ""
 "(n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : "
+"(n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_production__state
 #: model:ir.model.fields,help:mrp.field_mrp_workorder__production_state
 msgid ""
 " * Draft: The MO is not confirmed yet.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4343,6 +4364,10 @@ msgid ""
 " * Confirmed: The MO is confirmed, the stock rules and the reordering of the "
 "components are trigerred.\n"
 >>>>>>> upstream/18.0
+=======
+" * Confirmed: The MO is confirmed, the stock rules and the reordering of the "
+"components are trigerred.\n"
+>>>>>>> upstream/18.0
 " * In Progress: The production has started (on the MO or on the WO).\n"
 " * To Close: The production is done, the MO has to be closed.\n"
 " * Done: The MO is closed, the stock moves are posted. \n"
@@ -4405,7 +4430,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4581,6 +4609,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4705,6 +4736,7 @@ msgstr " <br/><br/> Komponenty budou převzaty z <b>%s</b>."
 #. odoo-python
 #: code:addons/mrp/models/stock_rule.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5378,6 +5410,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 " <br/><br/> The manufactured products will be moved towards <b>%"
 "(destination)s</b>, <br/> as specified from <b>%(operation)s</b> destination."
 msgstr ""
@@ -5397,6 +5431,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5478,7 +5515,11 @@ msgid "%(name)s Sequence picking before manufacturing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s Sekvence vychystávání před výrobou"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s Sekvence vychystávání před výrobou"
 >>>>>>> upstream/18.0
@@ -5544,7 +5585,11 @@ msgid "%(name)s Sequence production"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s Sekvenční výroba"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s Sekvenční výroba"
 >>>>>>> upstream/18.0
@@ -5610,7 +5655,11 @@ msgid "%(name)s Sequence stock after manufacturing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s Sekvenční sklad po výrobě"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s Sekvenční sklad po výrobě"
 >>>>>>> upstream/18.0
@@ -5676,7 +5725,11 @@ msgid "%(producible_qty)s Ready"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(producible_qty)s Připraveno"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(producible_qty)s Připraveno"
 >>>>>>> upstream/18.0
@@ -5742,7 +5795,11 @@ msgid "%(product)s: Insufficient Quantity To Unbuild"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(product)s: Nedostatečné množství k rozebrání"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(product)s: Nedostatečné množství k rozebrání"
 >>>>>>> upstream/18.0
@@ -6064,7 +6121,11 @@ msgid "'MO Overview - %s' % object.display_name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "'MO Přehled - %s' % object.display_name"
+>>>>>>> upstream/18.0
 =======
 msgstr "'MO Přehled - %s' % object.display_name"
 >>>>>>> upstream/18.0
@@ -6792,7 +6853,11 @@ msgid "(in"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(v"
+>>>>>>> upstream/18.0
 =======
 msgstr "(v"
 >>>>>>> upstream/18.0
@@ -6986,6 +7051,7 @@ msgstr "+ %d dní"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -7405,6 +7471,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7579,6 +7647,7 @@ msgstr "+ %s den(í)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7665,6 +7734,11 @@ msgstr "+ %s den(í)"
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "- Overview"
 msgstr ""
+=======
+#: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
+msgid "- Overview"
+msgstr "- Přehled"
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "- Overview"
@@ -7755,6 +7829,7 @@ msgstr ""
 msgid ""
 "1 Step: Consume components from stock and produce.\n"
 "              2 Steps: Pick components from stock and then produce.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8426,6 +8501,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "              3 Steps: Pick components from stock, produce, and then move "
 "final product(s) from production area to stock."
 msgstr ""
@@ -8447,6 +8524,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8703,7 +8783,11 @@ msgid "12345678901"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "12345678901"
+>>>>>>> upstream/18.0
 =======
 msgstr "12345678901"
 >>>>>>> upstream/18.0
@@ -9581,7 +9665,11 @@ msgid "2023-09-15"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "2023-09-15"
+>>>>>>> upstream/18.0
 =======
 msgstr "2023-09-15"
 >>>>>>> upstream/18.0
@@ -10491,7 +10579,11 @@ msgid "50"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "50"
+>>>>>>> upstream/18.0
 =======
 msgstr "50"
 >>>>>>> upstream/18.0
@@ -11258,7 +11350,11 @@ msgid "58"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "58"
+>>>>>>> upstream/18.0
 =======
 msgstr "58"
 >>>>>>> upstream/18.0
@@ -11537,7 +11633,11 @@ msgid "60"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "60"
+>>>>>>> upstream/18.0
 =======
 msgstr "60"
 >>>>>>> upstream/18.0
@@ -12244,7 +12344,11 @@ msgid "8 GB RAM"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "8 GB RAM"
+>>>>>>> upstream/18.0
 =======
 msgstr "8 GB RAM"
 >>>>>>> upstream/18.0
@@ -12309,7 +12413,11 @@ msgid "987654321098"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "987654321098"
+>>>>>>> upstream/18.0
 =======
 msgstr "987654321098"
 >>>>>>> upstream/18.0
@@ -12360,6 +12468,7 @@ msgstr "987654321098"
 #. odoo-javascript
 #: code:addons/mrp/static/src/workcenter_dashboard_graph/workcenter_dashboard_graph_field.js:0
 msgid ":  hours"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12788,6 +12897,8 @@ msgid "<i class=\"fa fa-play fs-6\" role=\"img\" aria-label=\"Run\" title=\"Run\
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr ":  hodiny"
 
 #. module: mrp
@@ -12806,6 +12917,9 @@ msgstr ":  hodiny"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12983,6 +13097,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13266,6 +13383,7 @@ msgstr ""
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.workcenter_line_kanban
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13687,6 +13805,8 @@ msgstr "<i class=\"fa fa-stop\" role=\"img\" aria-label=\"Stop\" title=\"Stop\"/
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "<i class=\"fa fa-stop\" role=\"img\" aria-label=\"Stop\" title=\"Stop\"/>"
 msgstr ""
@@ -13830,6 +13950,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14257,7 +14380,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        Use this feature to store any files, like drawings or specifications.\n"
+=======
+"                        Use this feature to store any files, like drawings "
+"or specifications.\n"
+>>>>>>> upstream/18.0
 =======
 "                        Use this feature to store any files, like drawings "
 "or specifications.\n"
@@ -14963,7 +15091,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        Tuto funkci použijte k uložení jakýchkoli souborů, jako jsou výkresy nebo specifikace.\n"
+=======
+"                        Tuto funkci použijte k uložení jakýchkoli souborů, "
+"jako jsou výkresy nebo specifikace.\n"
+>>>>>>> upstream/18.0
 =======
 "                        Tuto funkci použijte k uložení jakýchkoli souborů, "
 "jako jsou výkresy nebo specifikace.\n"
@@ -15544,7 +15677,11 @@ msgid "<span class=\"col-6\">In Progress</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"col-6\">Probíhá</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"col-6\">Probíhá</span>"
 >>>>>>> upstream/18.0
@@ -15614,7 +15751,11 @@ msgid "<span class=\"col-6\">To Close</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"col-6\">K zavření</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"col-6\">K zavření</span>"
 >>>>>>> upstream/18.0
@@ -15664,6 +15805,7 @@ msgstr "<span class=\"col-6\">K zavření</span>"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.stock_production_type_kanban
 msgid "<span class=\"col-6\">Waiting</span>"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16349,6 +16491,9 @@ msgstr "<span class=\"col-6\">Čekající</span>"
 =======
 msgstr "<span class=\"col-6\">Čekající</span>"
 >>>>>>> upstream/18.0
+=======
+msgstr "<span class=\"col-6\">Čekající</span>"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
@@ -16378,7 +16523,11 @@ msgid "<span class=\"o_stat_text\">BoM Overview</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Přehled kusovníku</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Přehled kusovníku</span>"
 >>>>>>> upstream/18.0
@@ -16484,7 +16633,11 @@ msgid "<span class=\"o_stat_text\">Overview</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Přehled</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Přehled</span>"
 >>>>>>> upstream/18.0
@@ -16743,7 +16896,11 @@ msgid "<span class=\"o_stat_text\">Traceability</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Sledovatelnost</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Sledovatelnost</span>"
 >>>>>>> upstream/18.0
@@ -17455,8 +17612,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "modify the quantities of components to consume for this manufacturing "
 "order.</span>"
+=======
+"modify the quantities of components to consume for this manufacturing order."
+"</span>"
+>>>>>>> upstream/18.0
 =======
 "modify the quantities of components to consume for this manufacturing order."
 "</span>"
@@ -18058,7 +18220,11 @@ msgid "<span>Generate BOM</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Generovat kusovník</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Generovat kusovník</span>"
 >>>>>>> upstream/18.0
@@ -18370,7 +18536,11 @@ msgid "<strong>Barcode</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Čárový kód</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Čárový kód</strong>"
 >>>>>>> upstream/18.0
@@ -19254,6 +19424,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                Instead, it is used to decompose a BoM into its components when:"
 =======
 "                                Instead, it is used to decompose a BoM into "
@@ -19785,6 +19956,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                Instead, it is used to decompose a BoM into "
 "its components when:"
 msgstr ""
@@ -19804,6 +19977,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19965,7 +20141,11 @@ msgid "All Move"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Všechny pochyby"
+>>>>>>> upstream/18.0
 =======
 msgstr "Všechny pochyby"
 >>>>>>> upstream/18.0
@@ -20030,7 +20210,11 @@ msgid "All Move Raw"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Všechny sýrové pohyby"
+>>>>>>> upstream/18.0
 =======
 msgstr "Všechny sýrové pohyby"
 >>>>>>> upstream/18.0
@@ -20082,6 +20266,7 @@ msgstr "Všechny sýrové pohyby"
 msgid ""
 "All product quantities must be greater or equal to 0.\n"
 "Lines with 0 quantities can be used as optional lines. \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20753,6 +20938,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "You should install the mrp_byproduct module if you want to manage extra "
 "products on BoMs!"
 msgstr ""
@@ -20774,6 +20961,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20827,7 +21017,11 @@ msgid "Allocation Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zpráva o přidělení"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zpráva o přidělení"
 >>>>>>> upstream/18.0
@@ -20892,7 +21086,11 @@ msgid "Allocation Report Labels"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Štítky pro zprávu o alokaci"
+>>>>>>> upstream/18.0
 =======
 msgstr "Štítky pro zprávu o alokaci"
 >>>>>>> upstream/18.0
@@ -21090,7 +21288,11 @@ msgid "Auto Print Allocation Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Automatický tisk zprávy o přidělení"
+>>>>>>> upstream/18.0
 =======
 msgstr "Automatický tisk zprávy o přidělení"
 >>>>>>> upstream/18.0
@@ -21155,7 +21357,11 @@ msgid "Auto Print Allocation Report Labels"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Automatický tisk štítků s přehledem přidělení"
+>>>>>>> upstream/18.0
 =======
 msgstr "Automatický tisk štítků s přehledem přidělení"
 >>>>>>> upstream/18.0
@@ -21220,7 +21426,11 @@ msgid "Auto Print Done Production Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Automatický tisk dokončené výrobní zakázky"
+>>>>>>> upstream/18.0
 =======
 msgstr "Automatický tisk dokončené výrobní zakázky"
 >>>>>>> upstream/18.0
@@ -21285,7 +21495,11 @@ msgid "Auto Print Generated Lot/SN Label"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Automatický tisk vygenerovaných štítků s číslem šarže/sériovým číslem"
+>>>>>>> upstream/18.0
 =======
 msgstr "Automatický tisk vygenerovaných štítků s číslem šarže/sériovým číslem"
 >>>>>>> upstream/18.0
@@ -21350,7 +21564,11 @@ msgid "Auto Print Produced Lot Label"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Automatický tisk štítků vyrobené šarže"
+>>>>>>> upstream/18.0
 =======
 msgstr "Automatický tisk štítků vyrobené šarže"
 >>>>>>> upstream/18.0
@@ -21415,7 +21633,11 @@ msgid "Auto Print Produced Product Labels"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Automatický tisk štítků na výrobky"
+>>>>>>> upstream/18.0
 =======
 msgstr "Automatický tisk štítků na výrobky"
 >>>>>>> upstream/18.0
@@ -21483,6 +21705,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Automatický tisk štítků šarže/série při použití tlačítka "
+"\"Vytvořit nové sériové/šaržové číslo\"."
+>>>>>>> upstream/18.0
 =======
 "Automatický tisk štítků šarže/série při použití tlačítka "
 "\"Vytvořit nové sériové/šaržové číslo\"."
@@ -21589,6 +21816,7 @@ msgstr "Avatar"
 msgid ""
 "Average lead time in days to manufacture this product. In the case of multi-"
 "level BOM, the manufacturing lead times of the components will be added. In "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22261,6 +22489,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "case the product is subcontracted, this can be used to determine the date at "
 "which components should be sent to the subcontractor."
 msgstr ""
@@ -22282,6 +22512,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22332,7 +22565,11 @@ msgid "Avg Cost of Components per Unit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Průměrná cena komponentů na jednotku"
+>>>>>>> upstream/18.0
 =======
 msgstr "Průměrná cena komponentů na jednotku"
 >>>>>>> upstream/18.0
@@ -22399,7 +22636,11 @@ msgid "Avg Cost of Operations per Unit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Průměrné provozní náklady na jednotku"
+>>>>>>> upstream/18.0
 =======
 msgstr "Průměrné provozní náklady na jednotku"
 >>>>>>> upstream/18.0
@@ -22466,7 +22707,11 @@ msgid "Avg Total Cost per Unit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Průměrné celkové náklady na jednotku"
+>>>>>>> upstream/18.0
 =======
 msgstr "Průměrné celkové náklady na jednotku"
 >>>>>>> upstream/18.0
@@ -22554,7 +22799,11 @@ msgid "Back to BoM"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zpět na kusovník"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zpět na kusovník"
 >>>>>>> upstream/18.0
@@ -22620,7 +22869,11 @@ msgid "Back to Production"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zpět k výrobě"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zpět k výrobě"
 >>>>>>> upstream/18.0
@@ -22696,6 +22949,7 @@ msgstr "Sekvence objednávek"
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_production__backorder_sequence
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23258,6 +23512,9 @@ msgid "Backorder sequence, if equals to 0 means there is not related backorder"
 =======
 msgid "Backorder sequence, if equals to 0 means there is not related backorder"
 >>>>>>> upstream/18.0
+=======
+msgid "Backorder sequence, if equals to 0 means there is not related backorder"
+>>>>>>> upstream/18.0
 msgstr ""
 "Pořadí zpětných objednávek, pokud se rovná 0, znamená to, že neexistuje "
 "žádná související zpětná objednávka."
@@ -23338,6 +23595,7 @@ msgstr "Kusovníky"
 #: model:ir.model.fields,help:mrp.field_mrp_unbuild__mo_bom_id
 #: model:ir.model.fields,help:mrp.field_mrp_workorder__production_bom_id
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24010,6 +24268,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Bills of Materials, also called recipes, are used to autocomplete components "
 "and work order instructions."
 msgstr ""
@@ -24029,6 +24289,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24063,6 +24326,7 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:mrp.mrp_bom_form_action
 msgid ""
 "Bills of materials allow you to define the list of required raw\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24487,6 +24751,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                materials used to make a finished product; through a "
 "manufacturing\n"
 "                order or a pack of products."
@@ -24633,6 +24899,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25005,7 +25274,11 @@ msgid "BoM Costs"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Náklady na kusovník"
+>>>>>>> upstream/18.0
 =======
 msgstr "Náklady na kusovník"
 >>>>>>> upstream/18.0
@@ -25104,6 +25377,7 @@ msgstr "Vedlejší produkt %s by neměl být stejný, jako produkt kusovníku."
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_stock_move__byproduct_id
 msgid "By-product line that generated the move in a manufacturing order"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25666,6 +25940,9 @@ msgstr "Vedlejší produktová položka, která vyvolala přesun ve výrobním p
 =======
 msgstr "Vedlejší produktová položka, která vyvolala přesun ve výrobním příkazu"
 >>>>>>> upstream/18.0
+=======
+msgstr "Vedlejší produktová položka, která vyvolala přesun ve výrobním příkazu"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom__byproduct_ids
@@ -25735,6 +26012,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nelze vypočítat počet dnů potřebných k přípravě kvůli chybějící trase pro "
+"alespoň 1 složku konečného produktu."
+>>>>>>> upstream/18.0
 =======
 "Nelze vypočítat počet dnů potřebných k přípravě kvůli chybějící trase pro "
 "alespoň 1 složku konečného produktu."
@@ -25853,7 +26135,11 @@ msgid "Center A"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Centrum A"
+>>>>>>> upstream/18.0
 =======
 msgstr "Centrum A"
 >>>>>>> upstream/18.0
@@ -25937,6 +26223,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Změna produktu nebo varianty trvale resetuje všechna dříve zakódovaná data "
+"související s variantou."
+>>>>>>> upstream/18.0
 =======
 "Změna produktu nebo varianty trvale resetuje všechna dříve zakódovaná data "
 "související s variantou."
@@ -26041,7 +26332,11 @@ msgid "Cleanup Time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Doba úklidu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Doba úklidu"
 >>>>>>> upstream/18.0
@@ -26106,7 +26401,11 @@ msgid "Cleanup Time (minutes)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Doba úklidu (minuty)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Doba úklidu (minuty)"
 >>>>>>> upstream/18.0
@@ -26242,7 +26541,11 @@ msgid "Components Available"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dostupné komponenty"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dostupné komponenty"
 >>>>>>> upstream/18.0
@@ -26314,6 +26617,7 @@ msgstr "Vypočítat na základě sledovaného času"
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_bom_form_view
 msgid ""
 "Compute the days required to resupply all components from BoM, by either "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -27157,6 +27461,11 @@ msgid ""
 "subassemblies.                                                       Also "
 "note that purchase security lead times will be added when appropriate."
 >>>>>>> upstream/18.0
+=======
+"buying or manufacturing the components and/or "
+"subassemblies.                                                       Also "
+"note that purchase security lead times will be added when appropriate."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mrp
@@ -27269,7 +27578,11 @@ msgid "Cost Breakdown of Products"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rozpis nákladů na produkty"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rozpis nákladů na produkty"
 >>>>>>> upstream/18.0
@@ -27335,7 +27648,11 @@ msgid "Cost Share (%)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sdílení nákladů (%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sdílení nákladů (%)"
 >>>>>>> upstream/18.0
@@ -27401,7 +27718,11 @@ msgid "Cost as it is currently accumulated"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Náklady v současné podobě"
+>>>>>>> upstream/18.0
 =======
 msgstr "Náklady v současné podobě"
 >>>>>>> upstream/18.0
@@ -27467,7 +27788,11 @@ msgid "Cost based on cost projection"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Náklady na základě odhadu nákladů"
+>>>>>>> upstream/18.0
 =======
 msgstr "Náklady na základě odhadu nákladů"
 >>>>>>> upstream/18.0
@@ -27534,6 +27859,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Náklady na základě souvisejících doplnění. Jinak náklady z produktového "
+"formuláře."
+>>>>>>> upstream/18.0
 =======
 "Náklady na základě souvisejících doplnění. Jinak náklady z produktového "
 "formuláře."
@@ -27796,8 +28126,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Create a backorder if you expect to process the remaining products later. Do"
 " not create a backorder if you will not process the remaining products."
+=======
+"Create a backorder if you expect to process the remaining products later. Do "
+"not create a backorder if you will not process the remaining products."
+>>>>>>> upstream/18.0
 =======
 "Create a backorder if you expect to process the remaining products later. Do "
 "not create a backorder if you will not process the remaining products."
@@ -28523,12 +28858,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Create and confirm Manufacturing Orders this many days in advance, to have enough time to replenish components or manufacture semi-finished products.\n"
 "Note that security lead times will also be considered when appropriate."
 msgstr ""
 "Vytvářejte a potvrzujte výrobní příkazy tolik dní předem, abyste měli dostatek času na doplnění komponentů nebo výrobu polotovarů.\n"
 "Všimněte si, že v případě potřeby budou zohledněny i doby realizace zabezpečení."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -28954,6 +29292,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -29471,6 +29812,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods stored at this Location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
 "stored in the Stock Location of the Warehouse of this Shop, or any of its children.\n"
@@ -29482,6 +29824,8 @@ msgstr ""
 "Uložené v Umístění zásob  Skladu tohoto Obchodu, nebo v některém z jeho potomků.\n"
 "V opačném případě, toto zahrnuje zboží uložené v kterémkoliv Umístění zásob typu \"interní\"."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -29917,6 +30261,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -30232,7 +30579,11 @@ msgid "Date Category"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kategorie data"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kategorie data"
 >>>>>>> upstream/18.0
@@ -30297,7 +30648,11 @@ msgid "Date by Month"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datum podle měsíce"
+>>>>>>> upstream/18.0
 =======
 msgstr "Datum podle měsíce"
 >>>>>>> upstream/18.0
@@ -30364,6 +30719,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Datum, kdy předpokládáte dokončení výroby, nebo skutečné datum dokončení "
+"výroby."
+>>>>>>> upstream/18.0
 =======
 "Datum, kdy předpokládáte dokončení výroby, nebo skutečné datum dokončení "
 "výroby."
@@ -30445,6 +30805,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Datum, kdy plánujete zahájit výrobu, nebo datum, kdy jste výrobu skutečně "
+"zahájili."
+>>>>>>> upstream/18.0
 =======
 "Datum, kdy plánujete zahájit výrobu, nebo datum, kdy jste výrobu skutečně "
 "zahájili."
@@ -30524,7 +30889,11 @@ msgid "Date: Last 365 Days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datum: Posledních 365 dní"
+>>>>>>> upstream/18.0
 =======
 msgstr "Datum: Posledních 365 dní"
 >>>>>>> upstream/18.0
@@ -30598,7 +30967,11 @@ msgid "Days to Supply Components"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dny k dodání komponentů"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dny k dodání komponentů"
 >>>>>>> upstream/18.0
@@ -30653,6 +31026,7 @@ msgstr "Dny na přípravu výrobní zakázky"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__date_deadline
 msgid "Deadline"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -31662,6 +32036,9 @@ msgstr "Termín"
 =======
 msgstr "Termín"
 >>>>>>> upstream/18.0
+=======
+msgstr "Termín"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_routing_workcenter_form_view
@@ -31678,6 +32055,7 @@ msgstr "Výchozí doba výroby"
 msgid ""
 "Default number of pieces (in product UoM) that can be produced in parallel "
 "(at the same time) at this work center. For example: the capacity is 5 and "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32380,6 +32758,10 @@ msgid ""
 "you need to produce 10 units, then the operation time listed on the BOM will "
 "be multiplied by two. However, note that both time before and after "
 >>>>>>> upstream/18.0
+=======
+"you need to produce 10 units, then the operation time listed on the BOM will "
+"be multiplied by two. However, note that both time before and after "
+>>>>>>> upstream/18.0
 "production will only be counted once."
 msgstr ""
 
@@ -32419,6 +32801,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Definujte pracovní rozvrh zdroje. Pokud není nastaveno, zdroj bude mít zcela "
+"flexibilní hodiny."
+>>>>>>> upstream/18.0
 =======
 "Definujte pracovní rozvrh zdroje. Pokud není nastaveno, zdroj bude mít zcela "
 "flexibilní hodiny."
@@ -32623,12 +33010,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Defines if you can consume more or less components than the quantity defined on the BoM:\n"
 "  * Allowed: allowed for all manufacturing users.\n"
 "  * Allowed with warning: allowed for all manufacturing users with summary of consumption differences when closing the manufacturing order.\n"
 "  Note that in the case of component Highlight Consumption, where consumption is registered manually exclusively, consumption warnings will still be issued when appropriate also.\n"
 "  * Blocked: only a manager can close a manufacturing order when the BoM consumption is not respected."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -33056,6 +33446,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -33307,6 +33698,8 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -33360,6 +33753,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -33413,7 +33809,11 @@ msgid "Delayed Productions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zpožděné produkce"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zpožděné produkce"
 >>>>>>> upstream/18.0
@@ -33478,7 +33878,11 @@ msgid "Delegate part of the production process to subcontractors"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Přeneste část výrobního procesu na subdodavatele"
+>>>>>>> upstream/18.0
 =======
 msgstr "Přeneste část výrobního procesu na subdodavatele"
 >>>>>>> upstream/18.0
@@ -33784,6 +34188,10 @@ msgstr "Objednávka demontáže"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 >>>>>>> upstream/18.0
@@ -34513,7 +34921,11 @@ msgstr "Zobrazit"
 #: model:ir.model.fields,field_description:mrp.field_stock_warn_insufficient_qty_unbuild__display_name
 msgid "Display Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Zobrazovací název"
+=======
+msgstr "Zobrazovaný název"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zobrazovaný název"
 >>>>>>> upstream/18.0
@@ -34541,7 +34953,11 @@ msgid "Displays the consumed Lot/Serial Numbers."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zobrazuje spotřebovaná čísla šarže/sériová čísla."
+>>>>>>> upstream/18.0
 =======
 msgstr "Zobrazuje spotřebovaná čísla šarže/sériová čísla."
 >>>>>>> upstream/18.0
@@ -34606,7 +35022,11 @@ msgid "Displays the produced Lot/Serial Numbers."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zobrazuje vyrobená čísla šarží/sériová čísla."
+>>>>>>> upstream/18.0
 =======
 msgstr "Zobrazuje vyrobená čísla šarží/sériová čísla."
 >>>>>>> upstream/18.0
@@ -34782,7 +35202,11 @@ msgid "Equipment Failure"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Porucha zařízení"
+>>>>>>> upstream/18.0
 =======
 msgstr "Porucha zařízení"
 >>>>>>> upstream/18.0
@@ -34900,7 +35324,11 @@ msgid "Files attached to the product."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Soubory přiložené k produktu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Soubory přiložené k produktu."
 >>>>>>> upstream/18.0
@@ -34970,7 +35398,11 @@ msgid "Final Location from procurement"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Konečné umístění ze zásobování"
+>>>>>>> upstream/18.0
 =======
 msgstr "Konečné umístění ze zásobování"
 >>>>>>> upstream/18.0
@@ -35261,6 +35693,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods stored in this location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
 "Otherwise, this includes goods stored in any Stock Location with 'internal' type."
@@ -35270,6 +35703,8 @@ msgstr ""
 "V souvislosti s jediným skladem se jedná o zboží uložené na skladovém místě tohoto skladu nebo kterékoli z jeho podřazených skladů.\n"
 "V opačném případě to zahrnuje zboží uložené na jakémkoli místě skladu s „interním“ typem."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -35701,6 +36136,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -36039,7 +36477,11 @@ msgid "Fully Productive Time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Plně produktivní čas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Plně produktivní čas"
 >>>>>>> upstream/18.0
@@ -36125,7 +36567,11 @@ msgid "Generate a new BoM from this Manufacturing Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Generovat nový kusovník z této výrobní zakázky"
+>>>>>>> upstream/18.0
 =======
 msgstr "Generovat nový kusovník z této výrobní zakázky"
 >>>>>>> upstream/18.0
@@ -36190,7 +36636,11 @@ msgid "Generated Lot/SN Label to Print"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vygenerovaný štítek s číslem šarže/sériovým číslem k tisku"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vygenerovaný štítek s číslem šarže/sériovým číslem k tisku"
 >>>>>>> upstream/18.0
@@ -36406,7 +36856,11 @@ msgid "Hardware"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hardware"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hardware"
 >>>>>>> upstream/18.0
@@ -36784,6 +37238,7 @@ msgid "Has Routing Lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: mrp
@@ -37337,6 +37792,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "Má trasovací čáry"
+
+#. module: mrp
 >>>>>>> upstream/18.0
 =======
 msgstr "Má trasovací čáry"
@@ -37616,6 +38076,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -38040,7 +38503,11 @@ msgid "Hourly processing cost."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hodinové náklady na zpracování."
+>>>>>>> upstream/18.0
 =======
 msgstr "Hodinové náklady na zpracování."
 >>>>>>> upstream/18.0
@@ -38207,6 +38674,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Pokud je toto políčko zaškrtnuto, Odoo automaticky vytiskne štítky s "
+"přehledem přidělení MO po dokončení."
+>>>>>>> upstream/18.0
 =======
 "Pokud je toto políčko zaškrtnuto, Odoo automaticky vytiskne štítky s "
 "přehledem přidělení MO po dokončení."
@@ -38289,6 +38761,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Pokud je toto políčko zaškrtnuto, Odoo automaticky vytiskne zprávu o "
+"přidělení MO, jakmile je hotová a má přiřazené přesuny."
+>>>>>>> upstream/18.0
 =======
 "Pokud je toto políčko zaškrtnuto, Odoo automaticky vytiskne zprávu o "
 "přidělení MO, jakmile je hotová a má přiřazené přesuny."
@@ -38371,6 +38848,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Pokud je toto políčko zaškrtnuto, Odoo automaticky vytiskne štítek s číslem "
+"šarže/sériovým číslem výrobní zakázky po její dokončení."
+>>>>>>> upstream/18.0
 =======
 "Pokud je toto políčko zaškrtnuto, Odoo automaticky vytiskne štítek s číslem "
 "šarže/sériovým číslem výrobní zakázky po její dokončení."
@@ -38435,6 +38917,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_stock_picking_type__auto_print_done_mrp_product_labels
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -39107,6 +39590,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "If this checkbox is ticked, Odoo will automatically print the product labels "
 "of a MO when it is done."
 msgstr ""
@@ -39126,6 +39611,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -39177,6 +39665,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Pokud je toto políčko zaškrtnuto, Odoo automaticky vytiskne výrobní příkaz, "
+"jakmile je hotový."
+>>>>>>> upstream/18.0
 =======
 "Pokud je toto políčko zaškrtnuto, Odoo automaticky vytiskne výrobní příkaz, "
 "jakmile je hotový."
@@ -39253,6 +39746,7 @@ msgstr "Importovat šablonu pro kusovníky"
 #. odoo-python
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -39815,6 +40309,9 @@ msgid ""
 =======
 "Impossible to plan the workorder. Please check the workcenter availabilities."
 >>>>>>> upstream/18.0
+=======
+"Impossible to plan the workorder. Please check the workcenter availabilities."
+>>>>>>> upstream/18.0
 msgstr ""
 "Nelze naplánovat pracovní příkaz. Zkontrolujte dostupnost pracovního "
 "střediska."
@@ -39838,7 +40335,11 @@ msgid "Impossible to plan. Please check the workcenter availabilities."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nelze naplánovat. Zkontrolujte prosím dostupnost pracovních středisk."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nelze naplánovat. Zkontrolujte prosím dostupnost pracovních středisk."
 >>>>>>> upstream/18.0
@@ -39916,7 +40417,11 @@ msgid "In Transit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "V tranzitu"
+>>>>>>> upstream/18.0
 =======
 msgstr "V tranzitu"
 >>>>>>> upstream/18.0
@@ -39981,7 +40486,11 @@ msgid "In the BoM"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "V kusovníku"
+>>>>>>> upstream/18.0
 =======
 msgstr "V kusovníku"
 >>>>>>> upstream/18.0
@@ -40046,7 +40555,11 @@ msgid "In the MO"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ve výrobní zakázce"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ve výrobní zakázce"
 >>>>>>> upstream/18.0
@@ -40109,6 +40622,7 @@ msgstr "Pohyby zásob"
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_workorder__move_line_ids
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -40671,6 +41185,9 @@ msgid "Inventory moves for which you must scan a lot number at this work order"
 =======
 msgid "Inventory moves for which you must scan a lot number at this work order"
 >>>>>>> upstream/18.0
+=======
+msgid "Inventory moves for which you must scan a lot number at this work order"
+>>>>>>> upstream/18.0
 msgstr ""
 "Pohyby inventáře, pro které musíte v této zakázce naskenovat číslo šarže"
 
@@ -40692,7 +41209,11 @@ msgid "Is Delayed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Je zpožděno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Je zpožděno"
 >>>>>>> upstream/18.0
@@ -40798,6 +41319,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Není možné zrušit plánování jednoho pracovního příkazu. Místo toho byste "
+"měli zrušit plánování výrobní zakázky, aby se zrušilo plánování všech "
+"propojených operací."
+>>>>>>> upstream/18.0
 =======
 "Není možné zrušit plánování jednoho pracovního příkazu. Místo toho byste "
 "měli zrušit plánování výrobní zakázky, aby se zrušilo plánování všech "
@@ -40902,6 +41429,7 @@ msgstr "Kanban graf dashboard"
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_bom__type__phantom
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_bom_filter
 msgid "Kit"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -41795,6 +42323,9 @@ msgstr "Sada"
 =======
 msgstr "Sada"
 >>>>>>> upstream/18.0
+=======
+msgstr "Sada"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrp_workorder
@@ -42016,7 +42547,11 @@ msgid "Laptop"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Laptop"
+>>>>>>> upstream/18.0
 =======
 msgstr "Laptop"
 >>>>>>> upstream/18.0
@@ -42687,7 +43222,11 @@ msgid "Laptop Model X"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Model notebooku X"
+>>>>>>> upstream/18.0
 =======
 msgstr "Model notebooku X"
 >>>>>>> upstream/18.0
@@ -42752,7 +43291,11 @@ msgid "Laptop model X"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Model notebooku X"
+>>>>>>> upstream/18.0
 =======
 msgstr "Model notebooku X"
 >>>>>>> upstream/18.0
@@ -42817,7 +43360,11 @@ msgid "Laptop with 16GB RAM"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Notebook s 16 GB RAM"
+>>>>>>> upstream/18.0
 =======
 msgstr "Notebook s 16 GB RAM"
 >>>>>>> upstream/18.0
@@ -42956,7 +43503,11 @@ msgid "Late Availability"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pozdní dostupnost"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pozdní dostupnost"
 >>>>>>> upstream/18.0
@@ -43029,6 +43580,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Aktuální stav dostupnosti komponent pro tuto výrobní zakázku. Pokud je "
+"zelený, znamená to, že VZ je připravena podle konfigurace kusovníku."
+>>>>>>> upstream/18.0
 =======
 "Aktuální stav dostupnosti komponent pro tuto výrobní zakázku. Pokud je "
 "zelený, znamená to, že VZ je připravena podle konfigurace kusovníku."
@@ -43257,7 +43813,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Select Bill of Materials to visualise this document as a product attachment when this product is in a bill of material."
+=======
+"Select Bill of Materials to visualise this document as a product attachment "
+"when this product is in a bill of material."
+>>>>>>> upstream/18.0
 =======
 "Select Bill of Materials to visualise this document as a product attachment "
 "when this product is in a bill of material."
@@ -44026,7 +44587,11 @@ msgid "Lock/Unlock"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zamknout/Odemknout"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zamknout/Odemknout"
 >>>>>>> upstream/18.0
@@ -45018,12 +45583,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Manufacturing operations are processed at Work Centers. A Work Center can be composed of\n"
 "                workers and/or machines, they are used for costing, scheduling, capacity planning, etc."
 msgstr ""
 "Výrobní operace se zpracovávají v pracovních střediscích. Pracovní středisko"
 " se může skládat z pracovníků a/nebo strojů, používá se pro kalkulaci "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -45448,6 +46016,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -45732,6 +46303,7 @@ msgstr ""
 #. module: mrp
 #: model_terms:ir.actions.act_window,help:mrp.mrp_workcenter_kanban_action
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -46157,6 +46729,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Manufacturing operations are processed at Work Centers. A Work Center can be "
 "composed of\n"
 "                workers and/or machines, they are used for costing, "
@@ -46304,6 +46878,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -46732,7 +47309,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            * Waiting: The material is not available to start the production.\n"
+=======
+"            * Waiting: The material is not available to start the "
+"production.\n"
+>>>>>>> upstream/18.0
 =======
 "            * Waiting: The material is not available to start the "
 "production.\n"
@@ -47614,7 +48196,10 @@ msgstr "Žádné zpětné objednávky"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -48038,6 +48623,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -48441,7 +49029,11 @@ msgid "Number of Manufacturing Orders In Progress"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Počet probíhajících výrobních zakázek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Počet probíhajících výrobních zakázek"
 >>>>>>> upstream/18.0
@@ -48511,7 +49103,11 @@ msgid "Number of Manufacturing Orders To Close"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Počet výrobních zakázek v uzavření"
+>>>>>>> upstream/18.0
 =======
 msgstr "Počet výrobních zakázek v uzavření"
 >>>>>>> upstream/18.0
@@ -48634,6 +49230,7 @@ msgstr "Cílová hodnota OEE"
 #: model_terms:ir.ui.view,arch_db:mrp.view_picking_type_form_inherit_mrp
 msgid ""
 "Odoo opens a PDF preview by default. If you want to print instantly,\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -49055,6 +49652,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                install the IoT App on a computer that is on "
 "the same local network as the\n"
 "                                barcode operator and configure the routing "
@@ -49198,6 +49797,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -49510,6 +50112,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Pouze výrobní zakázky ve stavu \"návrh\" nebo \"potvrzeno\" mohou být %s."
+>>>>>>> upstream/18.0
 =======
 "Pouze výrobní zakázky ve stavu \"návrh\" nebo \"potvrzeno\" mohou být %s."
 >>>>>>> upstream/18.0
@@ -49575,7 +50181,11 @@ msgid "Only manufacturing orders with a Bill of Materials can be %s."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pouze výrobní zakázky s kusovníkem mohou být %s."
+>>>>>>> upstream/18.0
 =======
 msgstr "Pouze výrobní zakázky s kusovníkem mohou být %s."
 >>>>>>> upstream/18.0
@@ -49662,6 +50272,7 @@ msgstr "Typ operace"
 #: model_terms:ir.actions.act_window,help:mrp.mrp_routing_action
 msgid ""
 "Operation define that need to be done to realize a Work Order.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -50085,6 +50696,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                Each operation is done at a specific Work Center and has a "
 "specific duration."
 msgstr ""
@@ -50230,6 +50843,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -50774,7 +51390,11 @@ msgid "Plan manufacturing or purchase orders based on forecasts"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Plánujte výrobu nebo nákupní objednávky na základě prognóz"
+>>>>>>> upstream/18.0
 =======
 msgstr "Plánujte výrobu nebo nákupní objednávky na základě prognóz"
 >>>>>>> upstream/18.0
@@ -50987,7 +51607,11 @@ msgid "Process manufacturing orders from the barcode application"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zpracujte výrobní zakázky přímo z aplikace Čárové kódy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zpracujte výrobní zakázky přímo z aplikace Čárové kódy"
 >>>>>>> upstream/18.0
@@ -51248,7 +51872,11 @@ msgid "Product Replenish Mixin"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produktové doplnění Mixin"
+>>>>>>> upstream/18.0
 =======
 msgstr "Produktové doplnění Mixin"
 >>>>>>> upstream/18.0
@@ -51901,8 +52529,12 @@ msgstr "Značka musí být jedinečná pro každou společnost!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Reference of the document that generated this production order request."
+=======
+msgid "Reference of the document that generated this production order request."
+>>>>>>> upstream/18.0
 =======
 msgid "Reference of the document that generated this production order request."
 >>>>>>> upstream/18.0
@@ -52828,6 +53460,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Some work orders are already done, so you cannot unplan this manufacturing order.\n"
 =======
 "Some work orders are already done, so you cannot unplan this manufacturing "
@@ -53361,6 +53994,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Some work orders are already done, so you cannot unplan this manufacturing "
 "order.\n"
 "\n"
@@ -53384,6 +54019,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -53418,6 +54056,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -54091,6 +54730,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Some work orders have already started, so you cannot unplan this "
 "manufacturing order.\n"
 "\n"
@@ -54114,6 +54755,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -54301,8 +54945,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Specific number of pieces that can be produced in parallel per product."
+=======
+msgid "Specific number of pieces that can be produced in parallel per product."
+>>>>>>> upstream/18.0
 =======
 msgid "Specific number of pieces that can be produced in parallel per product."
 >>>>>>> upstream/18.0
@@ -55014,7 +55662,11 @@ msgid "Subcontracting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Subdodavatelské smlouvy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Subdodavatelské smlouvy"
 >>>>>>> upstream/18.0
@@ -55556,6 +56208,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -56258,6 +56911,10 @@ msgid ""
 "The serial number %(number)s used for byproduct %(product_name)s has already "
 "been produced"
 >>>>>>> upstream/18.0
+=======
+"The serial number %(number)s used for byproduct %(product_name)s has already "
+"been produced"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mrp
@@ -56301,6 +56958,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Celkový podíl nákladů na vedlejší produkty výrobní zakázky nesmí překročit "
+"100."
+>>>>>>> upstream/18.0
 =======
 "Celkový podíl nákladů na vedlejší produkty výrobní zakázky nesmí překročit "
 "100."
@@ -56556,8 +57218,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "tomto pracovním středisku. Pokud například pracovní příkaz trvá jednu hodinu"
 " a faktor efektivity je 100 %, pak očekávaná doba trvání bude jedna hodina. "
+=======
+"tomto pracovním středisku. Pokud například pracovní příkaz trvá jednu hodinu "
+"a faktor efektivity je 100 %, pak očekávaná doba trvání bude jedna hodina. "
+>>>>>>> upstream/18.0
 =======
 "tomto pracovním středisku. Pokud například pracovní příkaz trvá jednu hodinu "
 "a faktor efektivity je 100 %, pak očekávaná doba trvání bude jedna hodina. "
@@ -57285,11 +57952,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This menu gives you the full traceability of inventory operations on a specific product.\n"
 "                You can filter on the product to see all the past movements for the product."
 msgstr ""
 "Toto menu Vám umožňuje sledovat pohyby zásob u specifických produktů inventáře.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -57714,6 +58384,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -58511,8 +59184,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Měrná jednotka (Měrná jednotka) je jednotka míry použitá pro řízení "
 "inventáře"
+=======
+"Měrná jednotka (Měrná jednotka) je jednotka míry použitá pro řízení inventáře"
+>>>>>>> upstream/18.0
 =======
 "Měrná jednotka (Měrná jednotka) je jednotka míry použitá pro řízení inventáře"
 >>>>>>> upstream/18.0
@@ -58957,7 +59634,11 @@ msgid "Unlock Manufacturing Orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odemknout výrobní zakázky"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odemknout výrobní zakázky"
 >>>>>>> upstream/18.0
@@ -59061,6 +59742,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Použijte výrobní zakázky (MO) k výrobě hotových produktů při spotřebě "
+"komponentů: tj. 1 stůl = 4 nohy stolu + 1 deska stolu"
+>>>>>>> upstream/18.0
 =======
 "Použijte výrobní zakázky (MO) k výrobě hotových produktů při spotřebě "
 "komponentů: tj. 1 stůl = 4 nohy stolu + 1 deska stolu"
@@ -59145,7 +59831,11 @@ msgid "Use Reception Report with Manufacturing Orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Použijte zprávu o přijetí s výrobními zakázkami"
+>>>>>>> upstream/18.0
 =======
 msgstr "Použijte zprávu o přijetí s výrobními zakázkami"
 >>>>>>> upstream/18.0
@@ -59236,6 +59926,7 @@ msgstr "Potvrdit"
 #: code:addons/mrp/wizard/mrp_consumption_warning.py:0
 msgid ""
 "Values cannot be set and validated because a Lot/Serial Number needs to be "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -59938,6 +60629,10 @@ msgid ""
 "specified for a tracked product that is having its consumed amount increased:"
 "%(products)s"
 >>>>>>> upstream/18.0
+=======
+"specified for a tracked product that is having its consumed amount increased:"
+"%(products)s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mrp
@@ -59977,6 +60672,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Zobrazit a přidělit výrobní množství k zákaznickým objednávkám nebo jiným "
+"výrobním zakázkám"
+>>>>>>> upstream/18.0
 =======
 "Zobrazit a přidělit výrobní množství k zákaznickým objednávkám nebo jiným "
 "výrobním zakázkám"
@@ -60214,8 +60914,12 @@ msgid "Waiting the previous work order, planned from %(start)s to %(end)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Čekání na předchozí pracovní příkaz, plánovaný od %(start)s do %(end)s"
+=======
+msgstr "Čekání na předchozí pracovní příkaz, plánovaný od %(start)s do %(end)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Čekání na předchozí pracovní příkaz, plánovaný od %(start)s do %(end)s"
 >>>>>>> upstream/18.0
@@ -60830,6 +61534,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "try to create a Manufacturing Order for that product using a BoM of the same"
 " operation type. That allows to define stock rules which trigger different "
 "manufacturing orders with different BoMs."
@@ -60838,6 +61543,8 @@ msgstr ""
 "vytvořit výrobní zakázku pro tento produkt pomocí BoM stejného typu provozu."
 " To umožňuje definovat skladová pravidla, která spouštějí různé výrobní "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -61262,6 +61969,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -61687,9 +62397,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "When activated, then the registration of consumption for that component is recorded manually exclusively.\n"
 "If not activated, and any of the components consumption is edited manually on the manufacturing order, Odoo assumes manual consumption also."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -62111,6 +62824,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -62362,6 +63076,8 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -62409,6 +63125,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -62472,6 +63191,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Když jsou produkty potřebné v <b>%s</b> , <br/>, je vytvořena výrobní "
+"zakázka, aby splnit potřebu."
+>>>>>>> upstream/18.0
 =======
 "Když jsou produkty potřebné v <b>%s</b> , <br/>, je vytvořena výrobní "
 "zakázka, aby splnit potřebu."
@@ -62802,8 +63526,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Work Order Operations vám umožní vytvářet a spravovat výrobní operace, které"
 " by měly být dodržovány ve vašich pracovních centrech za účelem výroby "
+=======
+"Work Order Operations vám umožní vytvářet a spravovat výrobní operace, které "
+"by měly být dodržovány ve vašich pracovních centrech za účelem výroby "
+>>>>>>> upstream/18.0
 =======
 "Work Order Operations vám umožní vytvářet a spravovat výrobní operace, které "
 "by měly být dodržovány ve vašich pracovních centrech za účelem výroby "
@@ -63552,7 +64281,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    Operations are defined in the bill of materials or added in the manufacturing order directly."
+=======
+"                    Operations are defined in the bill of materials or added "
+"in the manufacturing order directly."
+>>>>>>> upstream/18.0
 =======
 "                    Operations are defined in the bill of materials or added "
 "in the manufacturing order directly."
@@ -64265,11 +64999,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Operations are defined in the bill of materials or added in the manufacturing order directly."
 msgstr ""
 "Pracovní příkazy jsou operace, které je třeba provést v rámci výrobní zakázky.\n"
 "            Operace se definují v kusovníku nebo se přidávají přímo do výrobního příkazu."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -64694,6 +65431,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -65121,6 +65861,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Sloučit lze pouze výrobní zakázky identických produktů se stejným kusovníkem."
+>>>>>>> upstream/18.0
 =======
 "Sloučit lze pouze výrobní zakázky identických produktů se stejným kusovníkem."
 >>>>>>> upstream/18.0
@@ -65189,6 +65933,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Sloučit lze pouze výrobní zakázky bez dalších komponentů nebo vedlejších "
+"produktů."
+>>>>>>> upstream/18.0
 =======
 "Sloučit lze pouze výrobní zakázky bez dalších komponentů nebo vedlejších "
 "produktů."
@@ -65264,6 +66013,7 @@ msgstr ""
 
 #. module: mrp
 #. odoo-python
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -65762,6 +66512,11 @@ msgstr "Již dokončenou výrobní zakázku nelze zrušit."
 msgid "You cannot cancel a manufacturing order that is already done."
 msgstr "Již dokončenou výrobní zakázku nelze zrušit."
 >>>>>>> upstream/18.0
+=======
+#: code:addons/mrp/models/mrp_production.py:0
+msgid "You cannot cancel a manufacturing order that is already done."
+msgstr "Již dokončenou výrobní zakázku nelze zrušit."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -65880,6 +66635,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -66237,6 +66995,7 @@ msgstr "Nemůžete vytvořit cyklickou závislost."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -66759,6 +67518,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "You cannot delete a manufacturing order that is already done."
 msgstr "Již dokončenou výrobní zakázku nelze smazat."
@@ -66779,6 +67540,9 @@ msgstr "Již dokončenou výrobní zakázku nelze smazat."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -66968,8 +67732,12 @@ msgid "You cannot move a manufacturing order once it is cancelled or done."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Jakmile je výrobní zakázka zrušena nebo hotová, nemůžete ji přesunout."
+=======
+msgstr "Jakmile je výrobní zakázka zrušena nebo hotová, nemůžete ji přesunout."
+>>>>>>> upstream/18.0
 =======
 msgstr "Jakmile je výrobní zakázka zrušena nebo hotová, nemůžete ji přesunout."
 >>>>>>> upstream/18.0
@@ -67565,10 +68333,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            Please review your component consumption or ask a manager to validate\n"
 "                            <span invisible=\"mrp_production_count != 1\">this manufacturing order</span>\n"
 "                            <span invisible=\"mrp_production_count == 1\">these manufacturing orders</span>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -67992,6 +68763,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -68244,6 +69016,8 @@ msgid ""
 "                        </b>"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -68298,6 +69072,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -68350,6 +69127,7 @@ msgstr ""
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid ""
 "You need to define at least one productivity loss in the category "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -68775,6 +69553,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "'Productivity'. Create one from the Manufacturing app, menu: Configuration / "
 "Productivity Losses."
 msgstr ""
@@ -68920,6 +69700,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -69221,6 +70004,7 @@ msgstr "Musíte poskytnout produktové číslo pro hotový produkt."
 #. odoo-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -69923,6 +70707,10 @@ msgid ""
 "You need to supply Lot/Serial Number for products and 'consume' them: %"
 "(missing_products)s"
 >>>>>>> upstream/18.0
+=======
+"You need to supply Lot/Serial Number for products and 'consume' them: %"
+"(missing_products)s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mrp
@@ -69997,7 +70785,11 @@ msgid "it is added as a component in a manufacturing order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "je přidán jako součást výrobní zakázky"
+>>>>>>> upstream/18.0
 =======
 msgstr "je přidán jako součást výrobní zakázky"
 >>>>>>> upstream/18.0
@@ -70111,6 +70903,7 @@ msgstr "rozdělit"
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_routing_workcenter_form_view
 msgid "work orders"
 msgstr "pracovní příkazy"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -70635,6 +71428,8 @@ msgstr "{{ state.isFolded ? 'Rozvinout' : 'Složit' }}"
 >>>>>>> upstream/18.0
 =======
 msgstr "{{ state.isFolded ? 'Rozvinout' : 'Složit' }}"
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

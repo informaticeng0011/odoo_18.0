@@ -34,7 +34,10 @@ registry.category("web_tour.tours").add("website_livechat.question_selection_ove
         { trigger: ".o-livechat-root:shadow .o-mail-Message:contains(You selected maybe X)" },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         { trigger: ".o-livechat-root:shadow span:contains(Conversation ended...)" },
@@ -44,6 +47,9 @@ registry.category("web_tour.tours").add("website_livechat.question_selection_ove
         },
         { trigger: ".o-livechat-root:shadow p:contains(Did we correctly answer your question?)" },
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

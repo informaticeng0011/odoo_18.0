@@ -22,8 +22,11 @@ patch(ChatWindow.prototype, {
         const chatWindow = toRaw(this.props.chatWindow);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (chatWindow.thread.id > 0 && !this.livechatState.showCloseConfirmation) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         if (
@@ -32,6 +35,9 @@ patch(ChatWindow.prototype, {
             !this.livechatState.showCloseConfirmation
         ) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

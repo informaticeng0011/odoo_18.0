@@ -12,13 +12,19 @@ const comparePricesWithBackend = {
         const orderTotal = order.get_total_with_tax();
         const allUnitPrices = order.lines.map((l) => l.price_unit);
 <<<<<<< HEAD
+<<<<<<< HEAD
         await posmodel.sendDraftOrderToServer();
 =======
+=======
+>>>>>>> upstream/18.0
         const result = await posmodel.sendDraftOrderToServer();
         if (!result) {
             throw new Error("Failed to sync order with server");
         }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         const orderTotalAfterSync = order.get_total_with_tax();
         const allUnitPricesAfterSync = order.lines.map((l) => l.price_unit);
@@ -192,12 +198,18 @@ registry.category("web_tour.tours").add("test_prices_are_immutable_from_frontend
                 // 257.58 Order total
                 // 106.44 Line price unit
 <<<<<<< HEAD
+<<<<<<< HEAD
                 await posmodel.sendDraftOrderToServer();
 =======
+=======
+>>>>>>> upstream/18.0
                 const result = await posmodel.sendDraftOrderToServer();
                 if (!result) {
                     throw new Error("Failed to sync order with server");
                 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 const orderTotalAfterSync = order.get_total_with_tax();
                 const allUnitPricesAfterSync = order.lines.map((l) => l.price_unit);
@@ -262,12 +274,18 @@ registry.category("web_tour.tours").add("test_pricelist_should_not_be_changed_fr
                 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                 await posmodel.sendDraftOrderToServer();
 =======
+=======
+>>>>>>> upstream/18.0
                 const result = await posmodel.sendDraftOrderToServer();
                 if (!result) {
                     throw new Error("Failed to sync order with server");
                 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 const amountTotalAfterSync = order.get_total_with_tax();
                 if (amountTotalAfterSync === 0) {

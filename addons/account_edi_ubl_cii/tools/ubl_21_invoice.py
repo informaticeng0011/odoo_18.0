@@ -41,6 +41,10 @@ Invoice = {
     'cbc:Note': {},
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'cbc:TaxPointDate': {},
+>>>>>>> upstream/18.0
 =======
     'cbc:TaxPointDate': {},
 >>>>>>> upstream/18.0
@@ -53,6 +57,10 @@ Invoice = {
     'cbc:LineCountNumeric': {},
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'cbc:AccountingCost': {},
+>>>>>>> upstream/18.0
 =======
     'cbc:AccountingCost': {},
 >>>>>>> upstream/18.0
@@ -65,8 +73,11 @@ Invoice = {
     'cac:BillingReference': cac.BillingReference,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'cac:AdditionalDocumentReference': cac.DocumentReference,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     'cac:DespatchDocumentReference': cac.DespatchDocumentReference,
@@ -74,6 +85,9 @@ Invoice = {
     'cac:AdditionalDocumentReference': cac.DocumentReference,
     'cac:ProjectReference': cac.ProjectReference,
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

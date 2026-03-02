@@ -176,6 +176,10 @@ import { ask } from "@point_of_sale/app/store/make_awaitable_dialog";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { serializeDateTime } from "@web/core/l10n/dates";
+>>>>>>> upstream/18.0
 =======
 import { serializeDateTime } from "@web/core/l10n/dates";
 >>>>>>> upstream/18.0
@@ -864,7 +868,11 @@ patch(PaymentScreen.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.currentOrder.date_order = luxon.DateTime.now().toFormat("yyyy-MM-dd HH:mm:ss");
+=======
+            this.currentOrder.date_order = serializeDateTime(luxon.DateTime.now());
+>>>>>>> upstream/18.0
 =======
             this.currentOrder.date_order = serializeDateTime(luxon.DateTime.now());
 >>>>>>> upstream/18.0
@@ -1613,6 +1621,10 @@ patch(PaymentScreen.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    await this.pos.syncAllOrders({ orders: [this.currentOrder] });
+>>>>>>> upstream/18.0
 =======
                     await this.pos.syncAllOrders({ orders: [this.currentOrder] });
 >>>>>>> upstream/18.0
@@ -2031,6 +2043,10 @@ patch(PaymentScreen.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                                this.currentOrder.onlinePaymentData = {};
+>>>>>>> upstream/18.0
 =======
                                 this.currentOrder.onlinePaymentData = {};
 >>>>>>> upstream/18.0
@@ -2289,7 +2305,11 @@ patch(PaymentScreen.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (!orderJSON[0].raw.account_move) {
+=======
+            if (!orderJSON[0].account_move) {
+>>>>>>> upstream/18.0
 =======
             if (!orderJSON[0].account_move) {
 >>>>>>> upstream/18.0
@@ -2819,7 +2839,11 @@ patch(PaymentScreen.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 await this.invoiceService.downloadPdf(orderJSON[0].raw.account_move);
+=======
+                await this.invoiceService.downloadPdf(orderJSON[0].account_move);
+>>>>>>> upstream/18.0
 =======
                 await this.invoiceService.downloadPdf(orderJSON[0].account_move);
 >>>>>>> upstream/18.0

@@ -113,6 +113,7 @@ class IrDefault(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.constrains('json_value')
     def _check_json_format(self):
         for record in self:
@@ -121,6 +122,8 @@ class IrDefault(models.Model):
             except json.JSONDecodeError:
                 raise ValidationError(_('Invalid JSON format in Default Value field.'))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -396,6 +399,9 @@ class IrDefault(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -751,7 +757,11 @@ class IrDefault(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ])
+=======
+        ], limit=1)
+>>>>>>> upstream/18.0
 =======
         ], limit=1)
 >>>>>>> upstream/18.0

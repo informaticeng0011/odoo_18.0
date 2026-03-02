@@ -344,7 +344,11 @@ class WebsiteBlog(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         nav_list = tools.lazy(self.nav_list)
+=======
+        nav_list = tools.lazy(lambda: self.nav_list(blog))
+>>>>>>> upstream/18.0
 =======
         nav_list = tools.lazy(lambda: self.nav_list(blog))
 >>>>>>> upstream/18.0
@@ -1145,6 +1149,9 @@ class WebsiteBlog(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1501,6 +1508,7 @@ class WebsiteBlog(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1588,6 +1596,8 @@ class WebsiteBlog(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

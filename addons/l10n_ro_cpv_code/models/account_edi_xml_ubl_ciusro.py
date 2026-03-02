@@ -10,7 +10,11 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
             'item_classification_code': line.product_id.cpv_code_id.code,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'item_classification_attrs': {'listID': 'CPV'},
+=======
+            'item_classification_attrs': {'listID': 'STI'},
+>>>>>>> upstream/18.0
 =======
             'item_classification_attrs': {'listID': 'STI'},
 >>>>>>> upstream/18.0

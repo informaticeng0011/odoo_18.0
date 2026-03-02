@@ -85,8 +85,12 @@ export class Chatbot extends Record {
         return (
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             (this.currentStep?.isLast &&
                 (!this.currentStep.expectAnswer || this.currentStep?.completed)) ||
+=======
+            this.currentStep?.isLast ||
+>>>>>>> upstream/18.0
 =======
             this.currentStep?.isLast ||
 >>>>>>> upstream/18.0
@@ -104,7 +108,11 @@ export class Chatbot extends Record {
     async _goToNextStep() {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!this.thread || this.currentStep?.isLast) {
+=======
+        if (!this.thread) {
+>>>>>>> upstream/18.0
 =======
         if (!this.thread) {
 >>>>>>> upstream/18.0
@@ -120,6 +128,7 @@ export class Chatbot extends Record {
             });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (!storeData) {
                 this.currentStep.isLast = true;
                 return;
@@ -128,11 +137,16 @@ export class Chatbot extends Record {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             const { ChatbotStep: steps } = this.store.insert(storeData, { html: true });
             if (this.currentStep.isLast) {
                 return;
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
