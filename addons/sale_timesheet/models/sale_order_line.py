@@ -43,7 +43,11 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with_remaining_hours = self.env.context.get('with_remaining_hours')
+=======
+        with_remaining_hours = self.env.context.get('with_remaining_hours') and not self.env.context.get('skip_remaining_hours', False)
+>>>>>>> upstream/18.0
 =======
         with_remaining_hours = self.env.context.get('with_remaining_hours') and not self.env.context.get('skip_remaining_hours', False)
 >>>>>>> upstream/18.0
@@ -228,7 +232,11 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 remaining_hours = line.product_uom._compute_quantity(qty_left, uom_hour)
+=======
+                remaining_hours = line.product_uom._compute_quantity(qty_left, uom_hour, round=False)
+>>>>>>> upstream/18.0
 =======
                 remaining_hours = line.product_uom._compute_quantity(qty_left, uom_hour, round=False)
 >>>>>>> upstream/18.0
@@ -572,7 +580,12 @@ class SaleOrderLine(models.Model):
         for line in lines_by_timesheet:
             qty_to_invoice = mapping.get(line.id, 0.0)
             if qty_to_invoice:
+<<<<<<< HEAD
                 line.qty_to_invoice = qty_to_invoice
+=======
+                units_to_invoice = sum(line.timesheet_ids.filtered(lambda ts: start_date <= ts.date <= end_date and not ts.timesheet_invoice_id).mapped('unit_amount'))
+                line.qty_to_invoice = units_to_invoice
+>>>>>>> upstream/18.0
             else:
                 prev_inv_status = line.invoice_status
                 line.qty_to_invoice = qty_to_invoice

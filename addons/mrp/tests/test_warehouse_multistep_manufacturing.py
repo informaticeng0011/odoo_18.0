@@ -188,6 +188,11 @@ class TestMultistepManufacturingWarehouse(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Required for `product_id` to be visible in the view
+        cls.env.user.groups_id += cls.env.ref('product.group_product_variant')
+>>>>>>> upstream/18.0
 =======
         # Required for `product_id` to be visible in the view
         cls.env.user.groups_id += cls.env.ref('product.group_product_variant')
@@ -1851,7 +1856,10 @@ class TestMultistepManufacturingWarehouse(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2459,6 +2467,7 @@ class TestMultistepManufacturingWarehouse(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2497,6 +2506,8 @@ class TestMultistepManufacturingWarehouse(TestMrpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3025,6 +3036,9 @@ class TestMultistepManufacturingWarehouse(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

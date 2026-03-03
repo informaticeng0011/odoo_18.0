@@ -212,7 +212,11 @@ Toledo8217Protocol = SerialProtocol(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     statusRegexp=b"\x02\\s*(\\?.)\\r",
+=======
+    statusRegexp=b"\x02\\s*\\?([^\x00])\\r",
+>>>>>>> upstream/18.0
 =======
     statusRegexp=b"\x02\\s*\\?([^\x00])\\r",
 >>>>>>> upstream/18.0
@@ -799,6 +803,10 @@ class ScaleDriver(SerialDriver):
         self.device_type = 'scale'
         self._set_actions()
         self._is_reading = True
+<<<<<<< HEAD
+=======
+        self.tare_mode = False
+>>>>>>> upstream/18.0
 
         # The HW Proxy can only expose one scale,
         # only the last scale connected is kept
@@ -864,6 +872,13 @@ class ScaleDriver(SerialDriver):
         answer = self._get_raw_response(self._connection)
         match = re.search(self._protocol.measureRegexp, answer)
         if match:
+<<<<<<< HEAD
+=======
+            if self.net_weight_char and self.net_weight_char in answer:
+                self.tare_mode = True
+            else:
+                self.tare_mode = False
+>>>>>>> upstream/18.0
             self.data = {
                 'value': float(match.group(1)),
                 'status': self._status
@@ -1046,6 +1061,11 @@ class ScaleDriver(SerialDriver):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        else:
+            self._read_status(answer)
+>>>>>>> upstream/18.0
 =======
         else:
             self._read_status(answer)
@@ -1783,6 +1803,10 @@ class Toledo8217Driver(ScaleDriver):
     def __init__(self, identifier, device):
         super(Toledo8217Driver, self).__init__(identifier, device)
         self.device_manufacturer = 'Toledo'
+<<<<<<< HEAD
+=======
+        self.net_weight_char = b'N'
+>>>>>>> upstream/18.0
 
     @classmethod
     def supported(cls, device):
@@ -1988,6 +2012,7 @@ class Toledo8217Driver(ScaleDriver):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -2310,6 +2335,8 @@ class Toledo8217Driver(ScaleDriver):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2362,6 +2389,9 @@ class Toledo8217Driver(ScaleDriver):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2419,6 +2449,12 @@ class Toledo8217Driver(ScaleDriver):
             binary_status_char = format(ord(status_char), '08b')  # Example: '00001101'
             for index, bit in enumerate(binary_status_char[1:][::-1]):  # Read the bits in reverse order (LSB is at the last char) + ignore the first "parity" bit
                 if int(bit):
+<<<<<<< HEAD
+=======
+                    # Ignore the 'Net weight' error as it's normal in tare mode
+                    if index == 5 and self.tare_mode:
+                        continue
+>>>>>>> upstream/18.0
                     _logger.debug("Scale error: %s. Status string: %s. Scale answer: %s.", status_char_error_bits[index], binary_status_char, answer)
                     self.data = {
                         'value': 0,
@@ -2603,6 +2639,9 @@ class Toledo8217Driver(ScaleDriver):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2970,6 +3009,10 @@ class AdamEquipmentDriver(ScaleDriver):
         self._is_reading = False
         self._last_weight_time = 0
         self.device_manufacturer = 'Adam'
+<<<<<<< HEAD
+=======
+        self.net_weight_char = b''
+>>>>>>> upstream/18.0
 
     def _check_last_weight_time(self):
         """The ADAM doesn't make the difference between a value of 0 and "the same value as last time":
@@ -3210,6 +3253,12 @@ class AdamEquipmentDriver(ScaleDriver):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+    def _read_status(self, answer):
+        pass
+>>>>>>> upstream/18.0
 =======
 
     def _read_status(self, answer):

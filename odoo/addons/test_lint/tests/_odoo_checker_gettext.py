@@ -37,12 +37,20 @@ class OdooBaseChecker(BaseChecker):
         'E8502': (
             'Bad usage of _, _lt function.',
             'gettext-variable',
+<<<<<<< HEAD
             'See https://www.odoo.com/documentation/master/developer/misc/i18n/translations.html#variables'
+=======
+            'See https://www.odoo.com/documentation/master/developer/howtos/translations.html#variables',
+>>>>>>> upstream/18.0
         ),
         'E8505': (
             'Usage of _, _lt function with multiple unnamed placeholders',
             'gettext-placeholders',
+<<<<<<< HEAD
             'Use keyword arguments when you have multiple placeholders',
+=======
+            'Use named placeholders (e.g. %(name)s) when you have multiple of them. This allows translators to reorder them if needed.',
+>>>>>>> upstream/18.0
         ),
         'E8506': (
             'Usage of %r in _, _lt function',

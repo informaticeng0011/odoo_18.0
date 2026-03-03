@@ -255,11 +255,14 @@ export function getBasicServerData() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
  * @returns { {definition: Object, columns: Array<Object>}}
  */
 export function generateListDefinition(model, columns) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -778,6 +781,9 @@ export function generateListDefinition(model, columns, orderBy = []) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1310,7 +1316,11 @@ export function generateListDefinition(model, columns, orderBy = []) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 orderBy: [],
+=======
+                orderBy,
+>>>>>>> upstream/18.0
 =======
                 orderBy,
 >>>>>>> upstream/18.0
@@ -2048,8 +2058,11 @@ export function getBasicListArchs() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "partner,false,search": /* xml */ `<search/>`,
         "partner,false,form": /* xml */ `<form/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2609,12 +2622,15 @@ export class IrModel extends webModels.IrModel {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const records = this.env["ir.model"].search_read([["model", "in", models]]);
         return records.map((record) => ({
             model: record.model,
             display_name: record.name,
         }));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2956,6 +2972,9 @@ export class IrModel extends webModels.IrModel {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3664,8 +3683,11 @@ export class Partner extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         form: /* xml */ `<Form/>`,
         search: /* xml */ `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

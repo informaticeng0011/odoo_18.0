@@ -696,7 +696,10 @@ class TestCRMLead(TestCrmCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1056,6 +1059,9 @@ class TestCRMLead(TestCrmCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1849,7 +1855,11 @@ class TestLeadFormTools(FormatAddressCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @tagged('lead_internals')
+=======
+@tagged('lead_internals', 'is_query_count')
+>>>>>>> upstream/18.0
 =======
 @tagged('lead_internals', 'is_query_count')
 >>>>>>> upstream/18.0

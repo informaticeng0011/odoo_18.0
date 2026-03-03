@@ -81,6 +81,10 @@ import { expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { waitFor } from "@odoo/hoot-dom";
+>>>>>>> upstream/18.0
 =======
 import { waitFor } from "@odoo/hoot-dom";
 >>>>>>> upstream/18.0
@@ -427,7 +431,10 @@ test(`XML-like self-closing elements are fixed in a standalone HtmlViewer`, asyn
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -711,6 +718,9 @@ test(`copy from HtmlViewer must support application/vnd.odoo.odoo-editor`, async
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

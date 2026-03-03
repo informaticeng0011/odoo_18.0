@@ -8,6 +8,7 @@ import werkzeug.exceptions
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import _, api, fields, models
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -777,6 +778,10 @@ from odoo.fields import SQL
 from odoo import _, api, fields, models, SUPERUSER_ID, tools
 from odoo.fields import SQL
 >>>>>>> upstream/18.0
+=======
+from odoo import _, api, fields, models, SUPERUSER_ID, tools
+from odoo.fields import SQL
+>>>>>>> upstream/18.0
 from odoo.exceptions import UserError, ValidationError
 from odoo.tools.image import image_data_uri
 
@@ -1012,6 +1017,10 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    duplicate_bank_partner_ids = fields.Many2many('res.partner', compute="_compute_duplicate_bank_partner_ids")
+>>>>>>> upstream/18.0
 =======
     duplicate_bank_partner_ids = fields.Many2many('res.partner', compute="_compute_duplicate_bank_partner_ids")
 >>>>>>> upstream/18.0
@@ -1603,6 +1612,7 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if bank.allow_out_payment:
                 if not self.env.user.has_group('account.group_validate_bank_account'):
                     raise ValidationError(_('You do not have the right to trust or un-trust a bank account.'))
@@ -2190,6 +2200,11 @@ class ResPartnerBank(models.Model):
                 raise ValidationError(_('You do not have the right to trust or un-trust a bank account.'))
 
 >>>>>>> upstream/18.0
+=======
+            if bank.allow_out_payment and not bank._user_can_trust():
+                raise ValidationError(_('You do not have the right to trust or un-trust a bank account.'))
+
+>>>>>>> upstream/18.0
     @api.depends('acc_number')
     def _compute_duplicate_bank_partner_ids(self):
         id2duplicates = dict(self.env.execute_query(SQL(
@@ -2199,6 +2214,7 @@ class ResPartnerBank(models.Model):
                   FROM res_partner_bank this
              LEFT JOIN res_partner_bank other ON this.acc_number = other.acc_number
                                              AND this.id != other.id
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2495,6 +2511,8 @@ class ResPartnerBank(models.Model):
                  AND other.partner_id IS NOT NULL
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2907,6 +2925,9 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3362,6 +3383,9 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3915,6 +3939,9 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4334,9 +4361,14 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         user_has_group_validate_bank_account = self.env.user.has_group('account.group_validate_bank_account')
         for bank in self:
             bank.user_has_group_validate_bank_account = user_has_group_validate_bank_account
+=======
+        for bank in self:
+            bank.user_has_group_validate_bank_account = bank._user_can_trust()
+>>>>>>> upstream/18.0
 =======
         for bank in self:
             bank.user_has_group_validate_bank_account = bank._user_can_trust()
@@ -4499,6 +4531,7 @@ class ResPartnerBank(models.Model):
         """
         return None
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5286,6 +5319,8 @@ class ResPartnerBank(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def _user_can_trust(self):
         return super()._user_can_trust() and (
             self.env.su
@@ -5308,6 +5343,9 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5321,6 +5359,7 @@ class ResPartnerBank(models.Model):
                 if archived_res_partner_bank:
                     raise UserError(_("A bank account with Account Number %(number)s already exists for Partner %(partner)s, but is archived. Please unarchive it instead.", number=acc_number, partner=archived_res_partner_bank.partner_id.name))
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6103,6 +6142,8 @@ class ResPartnerBank(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         accounts = super().create(vals_list)
         for account, trust in zip(accounts, to_trust):
             if trust and account._user_can_trust():
@@ -6113,6 +6154,9 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6294,8 +6338,13 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         any_trusted_accounts = any(account.lock_trust_fields for account in self)
         if not any_trusted_accounts:
+=======
+        trusted_accounts = self.filtered(lambda x: x.lock_trust_fields)
+        if not trusted_accounts:
+>>>>>>> upstream/18.0
 =======
         trusted_accounts = self.filtered(lambda x: x.lock_trust_fields)
         if not trusted_accounts:
@@ -7056,6 +7105,7 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ('acc_number' in vals or 'partner_id' in vals) and not should_allow_changes:
             raise UserError(_("You cannot modify the account number or partner of an account that has been trusted."))
 
@@ -7445,6 +7495,8 @@ class ResPartnerBank(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         lock_fields = {'acc_number', 'sanitized_acc_number', 'partner_id', 'acc_type'}
         if not should_allow_changes and any(
             account[fname] != account._fields[fname].convert_to_record(
@@ -7456,6 +7508,7 @@ class ResPartnerBank(models.Model):
         ):
             raise UserError(_("You cannot modify the account number or partner of an account that has been trusted."))
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7912,6 +7965,9 @@ class ResPartnerBank(models.Model):
 =======
         if 'allow_out_payment' in vals and not self._user_can_trust():
 >>>>>>> upstream/18.0
+=======
+        if 'allow_out_payment' in vals and any(not bank._user_can_trust() for bank in self):
+>>>>>>> upstream/18.0
             raise UserError(_("You do not have the rights to trust or un-trust accounts."))
 
         res = super().write(vals)
@@ -8189,7 +8245,11 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             msg = _("Bank Account %(link)s with number %(number)s deleted", link=account._get_html_link(title=f"#{account.id}"), number=account.acc_number)
+=======
+            msg = _("Bank Account %(link)s with number %(number)s archived", link=account._get_html_link(title=f"#{account.id}"), number=account.acc_number)
+>>>>>>> upstream/18.0
 =======
             msg = _("Bank Account %(link)s with number %(number)s archived", link=account._get_html_link(title=f"#{account.id}"), number=account.acc_number)
 >>>>>>> upstream/18.0

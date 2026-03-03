@@ -139,7 +139,11 @@ publicWidget.registry.boothRegistration = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             errorMessages.push(_t("It looks like your email is linked to an existing account."));
+=======
+            errorMessages.push(_t("It looks like your email is already in our system."));
+>>>>>>> upstream/18.0
 =======
             errorMessages.push(_t("It looks like your email is already in our system."));
 >>>>>>> upstream/18.0

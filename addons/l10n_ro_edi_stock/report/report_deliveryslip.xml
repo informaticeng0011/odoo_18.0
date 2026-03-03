@@ -8,7 +8,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <xpath expr="//div/strong[text()='Tracking Number']/.. | //div/strong[text()='Total Weight']/.." position="after">
+=======
+        <xpath expr="//div[div[@t-field='o.carrier_tracking_ref']] | //div[div[span[@t-field='o.shipping_weight']]]" position="after">
+>>>>>>> upstream/18.0
 =======
         <xpath expr="//div[div[@t-field='o.carrier_tracking_ref']] | //div[div[span[@t-field='o.shipping_weight']]]" position="after">
 >>>>>>> upstream/18.0

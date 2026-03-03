@@ -227,7 +227,11 @@ from functools import partial
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.http import request
+=======
+from odoo.http import request, route
+>>>>>>> upstream/18.0
 =======
 from odoo.http import request, route
 >>>>>>> upstream/18.0
@@ -1135,7 +1139,10 @@ class WebsiteSaleLoyaltyDelivery(Delivery):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1819,6 +1826,9 @@ class WebsiteSaleLoyaltyDelivery(Delivery):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2276,6 +2286,7 @@ class WebsiteSaleLoyaltyDelivery(Delivery):
         res = super()._order_summary_values(order, **post)
         free_shipping_lines = order._get_free_shipping_lines()
         if free_shipping_lines:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3177,10 +3188,14 @@ class WebsiteSaleLoyaltyDelivery(Delivery):
 =======
             shipping_discount = sum(free_shipping_lines.mapped('price_total'))
 >>>>>>> upstream/18.0
+=======
+            shipping_discount = sum(free_shipping_lines.mapped('price_total'))
+>>>>>>> upstream/18.0
             res['amount_delivery_discounted'] = to_html(shipping_discount)
             res['delivery_discount_minor_amount'] = payment_utils.to_minor_currency_units(
                 shipping_discount, order.currency_id
             )
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3201,6 +3216,8 @@ class WebsiteSaleLoyaltyDelivery(Delivery):
             if reward.reward_type == 'discount'
         ]
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3250,6 +3267,9 @@ class WebsiteSaleLoyaltyDelivery(Delivery):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -321,6 +321,7 @@ class TestMailComposer(MailCommon, TestRecipients):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         base_context = {
             'default_model': records._name,
             'default_res_ids': records.ids,
@@ -336,6 +337,9 @@ class TestMailComposer(MailCommon, TestRecipients):
         if values:
             base_context.update(**values)
         return base_context
+=======
+        return self._get_mail_composer_web_context(records, add_web=add_web, **values)
+>>>>>>> upstream/18.0
 =======
         return self._get_mail_composer_web_context(records, add_web=add_web, **values)
 >>>>>>> upstream/18.0
@@ -3514,6 +3518,12 @@ class TestComposerResultsMass(TestMailComposer):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        composer.attachment_ids = self.env['ir.attachment'].sudo().create(
+            self._generate_attachments_data(1, res_model=composer._name, res_id=composer.id)
+        )
+>>>>>>> upstream/18.0
 =======
         composer.attachment_ids = self.env['ir.attachment'].sudo().create(
             self._generate_attachments_data(1, res_model=composer._name, res_id=composer.id)
@@ -3562,7 +3572,10 @@ class TestComposerResultsMass(TestMailComposer):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3577,6 +3590,9 @@ class TestComposerResultsMass(TestMailComposer):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

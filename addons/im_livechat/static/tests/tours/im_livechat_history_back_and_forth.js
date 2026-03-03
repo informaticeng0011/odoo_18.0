@@ -224,6 +224,10 @@ import { registry } from "@web/core/registry";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { delay } from "@web/core/utils/concurrency";
+>>>>>>> upstream/18.0
 =======
 import { delay } from "@web/core/utils/concurrency";
 >>>>>>> upstream/18.0
@@ -1075,6 +1079,7 @@ registry.category("web_tour.tours").add("im_livechat_history_back_and_forth_tour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             isActive: ["enterprise"],
             content: "open command palette",
             trigger: ".o_home_menu",
@@ -1267,6 +1272,8 @@ registry.category("web_tour.tours").add("im_livechat_history_back_and_forth_tour
             run: "click",
         },
         {
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1845,7 +1852,12 @@ registry.category("web_tour.tours").add("im_livechat_history_back_and_forth_tour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             run() {
+=======
+            async run() {
+                await delay(0);
+>>>>>>> upstream/18.0
 =======
             async run() {
                 await delay(0);
@@ -2976,7 +2988,12 @@ registry.category("web_tour.tours").add("im_livechat_history_back_and_forth_tour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             run() {
+=======
+            async run() {
+                await delay(0);
+>>>>>>> upstream/18.0
 =======
             async run() {
                 await delay(0);
@@ -4107,6 +4124,7 @@ registry.category("web_tour.tours").add("im_livechat_history_back_and_forth_tour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             run: "click",
         },
         {
@@ -4219,6 +4237,10 @@ registry.category("web_tour.tours").add("im_livechat_history_back_and_forth_tour
 >>>>>>> upstream/18.0
             async run(helpers) {
                 await delay(0)
+=======
+            async run(helpers) {
+                await delay(0);
+>>>>>>> upstream/18.0
 =======
             async run(helpers) {
                 await delay(0);
@@ -5138,6 +5160,9 @@ registry.category("web_tour.tours").add("im_livechat_history_back_and_forth_tour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

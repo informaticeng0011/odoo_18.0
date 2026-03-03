@@ -131,6 +131,10 @@ class PaymentProvider(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    _check_company_domain = models.check_company_domain_parent_of
+>>>>>>> upstream/18.0
 =======
     _check_company_domain = models.check_company_domain_parent_of
 >>>>>>> upstream/18.0

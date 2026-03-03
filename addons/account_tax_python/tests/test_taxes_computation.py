@@ -185,6 +185,7 @@ class TestTaxesComputation(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def python_tax(self, formula, **kwargs):
         self.number += 1
         vals = {
@@ -560,6 +561,8 @@ class TestTaxesComputation(TestTaxCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def _jsonify_tax(self, tax):
         values = super()._jsonify_tax(tax)
         values['formula_decoded_info'] = tax.formula_decoded_info
@@ -571,6 +574,7 @@ class TestTaxesComputation(TestTaxCommon):
         price_unit,
         expected_values,
         product_values=None,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1356,6 +1360,8 @@ class TestTaxesComputation(TestTaxCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         product_uom_values=None,
         price_include_override='tax_excluded',
     ):
@@ -1456,6 +1462,9 @@ class TestTaxesComputation(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1753,8 +1762,11 @@ class TestTaxesComputation(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return self.assert_taxes_computation(tax, price_unit, expected_values, product=product)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2053,6 +2065,9 @@ class TestTaxesComputation(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2269,6 +2284,7 @@ class TestTaxesComputation(TestTaxCommon):
                     (102.7, 27.3),
                 ),
             },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2986,6 +3002,9 @@ class TestTaxesComputation(TestTaxCommon):
 =======
             price_include_override='tax_included',
 >>>>>>> upstream/18.0
+=======
+            price_include_override='tax_included',
+>>>>>>> upstream/18.0
         )
         self.assert_python_taxes_computation(
             "product.volume * quantity * 0.35",
@@ -3142,7 +3161,10 @@ class TestTaxesComputation(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3443,6 +3465,9 @@ class TestTaxesComputation(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

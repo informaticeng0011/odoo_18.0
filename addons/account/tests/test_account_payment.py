@@ -22,6 +22,7 @@ from odoo import Command, fields
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -701,6 +702,11 @@ from odoo.addons.mail.tests.common import MailCommon
 from odoo.addons.mail.tests.common import MailCommon
 >>>>>>> upstream/18.0
 =======
+from odoo.addons.mail.tests.common import MailCommon
+>>>>>>> upstream/18.0
+=======
+from odoo.exceptions import UserError
+from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 from odoo.addons.mail.tests.common import MailCommon
 >>>>>>> upstream/18.0
 =======
@@ -808,6 +814,7 @@ from unittest.mock import patch
 
 
 @tagged('post_install', '-at_install')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1569,6 +1576,9 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 =======
 class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 >>>>>>> upstream/18.0
+=======
+class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
+>>>>>>> upstream/18.0
 
     @classmethod
     def setUpClass(cls):
@@ -1600,6 +1610,10 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'allow_out_payment': True,
+>>>>>>> upstream/18.0
 =======
             'allow_out_payment': True,
 >>>>>>> upstream/18.0
@@ -1621,6 +1635,10 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'allow_out_payment': True,
+>>>>>>> upstream/18.0
 =======
             'allow_out_payment': True,
 >>>>>>> upstream/18.0
@@ -2069,7 +2087,10 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2661,6 +2682,9 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3252,6 +3276,7 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -3283,6 +3308,8 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3852,7 +3879,10 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4662,6 +4692,9 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5402,7 +5435,11 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertTrue(invoice_1.matched_payment_ids.move_id)
+=======
+        self.assertTrue(invoice_1.reconciled_payment_ids.move_id)
+>>>>>>> upstream/18.0
 =======
         self.assertTrue(invoice_1.reconciled_payment_ids.move_id)
 >>>>>>> upstream/18.0
@@ -5979,7 +6016,11 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertFalse(invoice_2.matched_payment_ids.move_id)
+=======
+        self.assertFalse(invoice_2.reconciled_payment_ids.move_id)
+>>>>>>> upstream/18.0
 =======
         self.assertFalse(invoice_2.reconciled_payment_ids.move_id)
 >>>>>>> upstream/18.0
@@ -6680,6 +6721,7 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -6842,6 +6884,8 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7374,6 +7418,9 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7988,6 +8035,9 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8760,6 +8810,10 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        year = fields.Date.today().year
+>>>>>>> upstream/18.0
 =======
         year = fields.Date.today().year
 >>>>>>> upstream/18.0
@@ -9452,6 +9506,7 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'first_name': 'PBNK1/2025/00002',
         })
         wizard.resequence()
@@ -9459,6 +9514,8 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
         self.assertEqual(payment.move_id.name, 'PBNK1/2025/00002')
         self.assertEqual(payment.name, 'PBNK1/2025/00002')
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9978,6 +10035,9 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10561,7 +10621,10 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11188,6 +11251,7 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11554,6 +11618,8 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11639,6 +11705,9 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

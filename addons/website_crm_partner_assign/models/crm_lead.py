@@ -47,6 +47,10 @@ import random
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -384,7 +388,10 @@ class CrmLead(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -907,6 +914,9 @@ class CrmLead(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1566,6 +1576,10 @@ class CrmLead(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self._assert_portal_write_access()
+>>>>>>> upstream/18.0
 =======
         self._assert_portal_write_access()
 >>>>>>> upstream/18.0
@@ -2242,11 +2256,14 @@ class CrmLead(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             lead.message_post(body=message)
             lead.sudo().convert_opportunity(lead.partner_id)  # sudo required to convert partner data
 
     def partner_desinterested(self, comment=False, contacted=False, spam=False):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2753,6 +2770,9 @@ class CrmLead(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3265,7 +3285,11 @@ class CrmLead(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.message_post(body=message)
+=======
+        self.sudo().message_post(body=message)
+>>>>>>> upstream/18.0
 =======
         self.sudo().message_post(body=message)
 >>>>>>> upstream/18.0
@@ -3951,7 +3975,11 @@ class CrmLead(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.browse().check_access('write')
+=======
+        self._assert_portal_write_access()
+>>>>>>> upstream/18.0
 =======
         self._assert_portal_write_access()
 >>>>>>> upstream/18.0
@@ -4484,6 +4512,7 @@ class CrmLead(models.Model):
                         'summary': values['activity_summary'],
                         'date_deadline': values['activity_date_deadline'],
                     })
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5089,6 +5118,8 @@ class CrmLead(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
             # access checked with '_assert_portal_write_access' at method beginning
             lead.sudo().write(lead_values)
@@ -5164,6 +5195,9 @@ class CrmLead(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5411,7 +5445,10 @@ class CrmLead(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5509,6 +5546,7 @@ class CrmLead(models.Model):
         # as they do not have write access anymore on the lead itself, just specific
         # controllers and UI
         if operation == 'create' and res_ids and (not model_name or model_name == 'crm.lead'):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5647,6 +5685,8 @@ class CrmLead(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             leads = self.browse(res_ids).with_prefetch(self._prefetch_ids)  # force prefetch, lost otherwise with rebrowsing
             if all(lead.partner_assigned_id == self.env.user.partner_id for lead in leads):
                 return 'read'
@@ -5671,6 +5711,9 @@ class CrmLead(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -41,6 +41,11 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'available_in_pos': True,
+            'self_order_available': True,
+>>>>>>> upstream/18.0
 =======
             'available_in_pos': True,
             'self_order_available': True,
@@ -64,6 +69,11 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'available_in_pos': True,
+            'self_order_available': True,
+>>>>>>> upstream/18.0
 =======
             'available_in_pos': True,
             'self_order_available': True,
@@ -87,6 +97,11 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'available_in_pos': True,
+            'self_order_available': True,
+>>>>>>> upstream/18.0
 =======
             'available_in_pos': True,
             'self_order_available': True,
@@ -109,6 +124,11 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'available_in_pos': True,
+            'self_order_available': True,
+>>>>>>> upstream/18.0
 =======
             'available_in_pos': True,
             'self_order_available': True,
@@ -132,6 +152,10 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'self_order_available': True,
+>>>>>>> upstream/18.0
 =======
             'self_order_available': True,
 >>>>>>> upstream/18.0
@@ -198,6 +222,10 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'self_order_available': True,
+>>>>>>> upstream/18.0
 =======
             'self_order_available': True,
 >>>>>>> upstream/18.0
@@ -217,6 +245,10 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'self_order_available': True,
+>>>>>>> upstream/18.0
 =======
             'self_order_available': True,
 >>>>>>> upstream/18.0
@@ -236,6 +268,10 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'self_order_available': True,
+>>>>>>> upstream/18.0
 =======
             'self_order_available': True,
 >>>>>>> upstream/18.0

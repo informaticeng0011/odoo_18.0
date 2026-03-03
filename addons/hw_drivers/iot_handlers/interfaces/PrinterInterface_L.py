@@ -91,11 +91,14 @@ class PrinterInterface(Interface):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         as it may contain characters typically found in URLs or paths.
 
           - Removes characters: ':', '/', '.', '\', and space.
           - Removes the exact strings: "uuid=" and "serial=".
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -201,6 +204,9 @@ class PrinterInterface(Interface):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -311,7 +317,11 @@ class PrinterInterface(Interface):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return sub(r'[:\/\.\\ ]|(uuid=)|(serial=)', '', path)
+=======
+        return sub(r'[:\/\.\\ ]|(uuid=)|(serial=)', '', path)[:127]
+>>>>>>> upstream/18.0
 =======
         return sub(r'[:\/\.\\ ]|(uuid=)|(serial=)', '', path)[:127]
 >>>>>>> upstream/18.0

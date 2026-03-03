@@ -148,7 +148,13 @@ pivotNormalizationValueRegistry
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     .add("selection", (value) => toString(value))
+=======
+    .add("reference", (value) => toString(value))
+    .add("selection", (value) => toString(value))
+    .add("many2one_reference", (value) => toNumber(value, DEFAULT_LOCALE))
+>>>>>>> upstream/18.0
 =======
     .add("reference", (value) => toString(value))
     .add("selection", (value) => toString(value))

@@ -49,6 +49,7 @@ class LeaveReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 SELECT row_number() over(ORDER BY leaves.employee_id) as id,
                 leaves.employee_id as employee_id,
                 leaves.active_employee as active_employee,
@@ -128,6 +129,8 @@ class LeaveReport(models.Model):
                 INNER JOIN hr_employee as employee ON (request.employee_id = employee.id)
                 WHERE request.state IN ('confirm', 'validate', 'validate1')) leaves
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -296,6 +299,9 @@ class LeaveReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

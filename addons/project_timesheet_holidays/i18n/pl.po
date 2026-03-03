@@ -16,6 +16,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* project_timesheet_holidays
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -194,6 +195,9 @@
 =======
 # * project_timesheet_holidays
 >>>>>>> upstream/18.0
+=======
+# * project_timesheet_holidays
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2025
@@ -255,6 +259,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -337,6 +342,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# "Marta (wacm)" <wacm@odoo.com>, 2026.
 >>>>>>> upstream/18.0
 =======
 # "Marta (wacm)" <wacm@odoo.com>, 2026.
@@ -390,6 +398,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -619,12 +628,17 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-02-24 23:32+0000\n"
 "Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
 "Language-Team: Polish <https://translate.odoo.com/projects/odoo-18/"
 "project_timesheet_holidays/pl/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -633,6 +647,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -855,6 +870,11 @@ msgstr ""
 "(n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || "
+"(n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: project_timesheet_holidays
 #: model:ir.model,name:project_timesheet_holidays.model_account_analytic_line
@@ -888,7 +908,11 @@ msgstr "Firmy"
 msgid "Config Settings"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ustawienia konfiguracji"
+=======
+msgstr "Konfiguracja ustawień"
+>>>>>>> upstream/18.0
 =======
 msgstr "Konfiguracja ustawień"
 >>>>>>> upstream/18.0
@@ -926,6 +950,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Generuj ewidencję czasu pracy podczas zatwierdzania wniosków o urlop tego "
+"typu"
+>>>>>>> upstream/18.0
 =======
 "Generuj ewidencję czasu pracy podczas zatwierdzania wniosków o urlop tego "
 "typu"
@@ -1103,7 +1132,11 @@ msgid "Time Off Types Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Liczba typów urlopów"
+>>>>>>> upstream/18.0
 =======
 msgstr "Liczba typów urlopów"
 >>>>>>> upstream/18.0
@@ -1178,7 +1211,11 @@ msgid "View Time Off"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zobacz urlopy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zobacz urlopy"
 >>>>>>> upstream/18.0
@@ -1260,6 +1297,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nie możesz usuwać ewidencji czasu, która jest połączona z globalnym urlopem."
+>>>>>>> upstream/18.0
 =======
 "Nie możesz usuwać ewidencji czasu, która jest połączona z globalnym urlopem."
 >>>>>>> upstream/18.0
@@ -1374,8 +1415,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Nie można usunąć arkuszy czasu, które są powiązane z wnioskami o czas wolny."
 " Zamiast tego proszę anulować wniosek o czas wolny z aplikacji Czas wolny."
+=======
+"Nie można usunąć arkuszy czasu, które są powiązane z wnioskami o czas wolny. "
+"Zamiast tego proszę anulować wniosek o czas wolny z aplikacji Czas wolny."
+>>>>>>> upstream/18.0
 =======
 "Nie można usunąć arkuszy czasu, które są powiązane z wnioskami o czas wolny. "
 "Zamiast tego proszę anulować wniosek o czas wolny z aplikacji Czas wolny."
@@ -1674,8 +1720,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Nie można modyfikować arkuszy czasu, które są powiązane z wnioskami o wolne."
 " Zamiast tego należy użyć aplikacji Czas wolny do modyfikacji wniosków o "
+=======
+"Nie można modyfikować arkuszy czasu, które są powiązane z wnioskami o wolne. "
+"Zamiast tego należy użyć aplikacji Czas wolny do modyfikacji wniosków o "
+>>>>>>> upstream/18.0
 =======
 "Nie można modyfikować arkuszy czasu, które są powiązane z wnioskami o wolne. "
 "Zamiast tego należy użyć aplikacji Czas wolny do modyfikacji wniosków o "

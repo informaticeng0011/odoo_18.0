@@ -13,8 +13,11 @@ const comparePricesWithBackend = {
         const allUnitPrices = order.lines.map((l) => l.price_unit);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await posmodel.sendDraftOrderToServer();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         const result = await posmodel.sendDraftOrderToServer();
@@ -23,6 +26,9 @@ const comparePricesWithBackend = {
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -199,8 +205,11 @@ registry.category("web_tour.tours").add("test_prices_are_immutable_from_frontend
                 // 106.44 Line price unit
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 await posmodel.sendDraftOrderToServer();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 const result = await posmodel.sendDraftOrderToServer();
@@ -208,6 +217,9 @@ registry.category("web_tour.tours").add("test_prices_are_immutable_from_frontend
                     throw new Error("Failed to sync order with server");
                 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -275,8 +287,11 @@ registry.category("web_tour.tours").add("test_pricelist_should_not_be_changed_fr
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 await posmodel.sendDraftOrderToServer();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 const result = await posmodel.sendDraftOrderToServer();
@@ -284,6 +299,9 @@ registry.category("web_tour.tours").add("test_pricelist_should_not_be_changed_fr
                     throw new Error("Failed to sync order with server");
                 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

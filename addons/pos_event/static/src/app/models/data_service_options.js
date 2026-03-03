@@ -199,6 +199,12 @@ patch(DataServiceOptions.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    get pohibitedAutoLoadedModels() {
+        return [...super.pohibitedAutoLoadedModels, "event.registration"];
+    },
+>>>>>>> upstream/18.0
 =======
     get pohibitedAutoLoadedModels() {
         return [...super.pohibitedAutoLoadedModels, "event.registration"];

@@ -172,6 +172,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* event
 # 
 # Translators:
@@ -1022,6 +1023,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * event
 #
 # Translators:
@@ -1202,6 +1205,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1708,6 +1712,10 @@
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # "Marta (wacm)" <wacm@odoo.com>, 2025.
+>>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# "Marta (wacm)" <wacm@odoo.com>, 2025, 2026.
 >>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
@@ -1721,6 +1729,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3149,12 +3158,17 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-02-25 12:23+0000\n"
 "Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
 "Language-Team: Czech <https://translate.odoo.com/projects/odoo-18/event/cs/>"
 "\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3162,6 +3176,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3895,6 +3910,11 @@ msgstr ""
 "(n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : "
+"(n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_partner__event_count
@@ -3995,7 +4015,11 @@ msgid "%(event_name)s - Registration #%(registration_id)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(event_name)s - Registrace #%(registration_id)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(event_name)s - Registrace #%(registration_id)s"
 >>>>>>> upstream/18.0
@@ -4289,7 +4313,11 @@ msgid "%(event_name)s - Registration for %(attendee_name)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(event_name)s - Registrace pro %(attendee_name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(event_name)s - Registrace pro %(attendee_name)s"
 >>>>>>> upstream/18.0
@@ -4741,7 +4769,11 @@ msgid "%(start_date)s to %(end_date)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "od %(start_date)s do %(end_date)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "od %(start_date)s do %(end_date)s"
 >>>>>>> upstream/18.0
@@ -5520,7 +5552,11 @@ msgid "'%(name)s' badge sent to printer '%(printer)s'"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "'%(name)s' odznak odeslán do tiskárny '%(printer)s'"
+>>>>>>> upstream/18.0
 =======
 msgstr "'%(name)s' odznak odeslán do tiskárny '%(printer)s'"
 >>>>>>> upstream/18.0
@@ -5792,7 +5828,11 @@ msgid "'Attendee List - %s' % (object.name)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "„Seznam účastníků – %s “ % (object.name)"
+>>>>>>> upstream/18.0
 =======
 msgstr "„Seznam účastníků – %s “ % (object.name)"
 >>>>>>> upstream/18.0
@@ -6085,7 +6125,11 @@ msgid "'Attendee List'"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "„Seznam účastníků“"
+>>>>>>> upstream/18.0
 =======
 msgstr "„Seznam účastníků“"
 >>>>>>> upstream/18.0
@@ -6381,6 +6425,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"'Jmenovka - %s - %s' % ((object.event_id.name or 'Událost').replace('/',''), "
+"(object.name or '').replace('/',''))"
+>>>>>>> upstream/18.0
 =======
 "'Jmenovka - %s - %s' % ((object.event_id.name or 'Událost').replace('/',''), "
 "(object.name or '').replace('/',''))"
@@ -6745,7 +6794,11 @@ msgid "'Badge - %s' % (object.name or 'Event').replace('/','')"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "'Jmenovka - %s' % (object.name or 'Event').replace('/','')"
+>>>>>>> upstream/18.0
 =======
 msgstr "'Jmenovka - %s' % (object.name or 'Event').replace('/','')"
 >>>>>>> upstream/18.0
@@ -7141,7 +7194,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "'Celostránkový tiket - %s - %s ' % ((object.event_id.name nebo "
+=======
+"'Celostránkový tiket - %s - %s ' % ((object.event_id.name or "
+>>>>>>> upstream/18.0
 =======
 "'Celostránkový tiket - %s - %s ' % ((object.event_id.name or "
 >>>>>>> upstream/18.0
@@ -7853,7 +7910,11 @@ msgid "+123456789"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "+123456789"
+>>>>>>> upstream/18.0
 =======
 msgstr "+123456789"
 >>>>>>> upstream/18.0
@@ -8618,7 +8679,11 @@ msgid "1000 Brussels"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "1000 Brusel"
+>>>>>>> upstream/18.0
 =======
 msgstr "1000 Brusel"
 >>>>>>> upstream/18.0
@@ -9260,7 +9325,11 @@ msgid "4 per sheet"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "4 na list"
+>>>>>>> upstream/18.0
 =======
 msgstr "4 na list"
 >>>>>>> upstream/18.0
@@ -9551,7 +9620,11 @@ msgid "96x134mm (Badge Printer)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "96x134mm (tiskárna odznaků)"
+>>>>>>> upstream/18.0
 =======
 msgstr "96x134mm (tiskárna odznaků)"
 >>>>>>> upstream/18.0
@@ -9816,7 +9889,11 @@ msgid "96x82mm (Badge Printer)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "96x82mm (Tiskárna jmenovek)"
+>>>>>>> upstream/18.0
 =======
 msgstr "96x82mm (Tiskárna jmenovek)"
 >>>>>>> upstream/18.0
@@ -10028,6 +10105,7 @@ msgid ""
 "<b>Technical Rooms</b> - One dedicated to advanced Odoo developers, one for "
 "new developers."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10845,6 +10923,10 @@ msgstr ""
 "<b>Technické místnosti</b> – Jedna věnovaná pokročilým vývojářům Odoo, jedna "
 "pro nové vývojáře."
 >>>>>>> upstream/18.0
+=======
+"<b>Technické místnosti</b> – Jedna věnovaná pokročilým vývojářům Odoo, jedna "
+"pro nové vývojáře."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
@@ -11012,8 +11094,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<b>The Design Fair is preceded by 2 days of Training Sessions for "
 "experts!</b><br> We propose 3 different training sessions, 2 days each."
+=======
+"<b>The Design Fair is preceded by 2 days of Training Sessions for experts!</"
+"b><br> We propose 3 different training sessions, 2 days each."
+>>>>>>> upstream/18.0
 =======
 "<b>The Design Fair is preceded by 2 days of Training Sessions for experts!</"
 "b><br> We propose 3 different training sessions, 2 days each."
@@ -11846,9 +11933,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<b>The whole event is open to all public!</b> <br>We ask a participation fee"
 " of 49.50€ for the costs for the 3 days (coffee breaks, catering, drinks and"
 " a surprising concert and beer party).<br> For those who don't want to "
+=======
+"<b>The whole event is open to all public!</b> <br>We ask a participation fee "
+"of 49.50€ for the costs for the 3 days (coffee breaks, catering, drinks and "
+"a surprising concert and beer party).<br> For those who don't want to "
+>>>>>>> upstream/18.0
 =======
 "<b>The whole event is open to all public!</b> <br>We ask a participation fee "
 "of 49.50€ for the costs for the 3 days (coffee breaks, catering, drinks and "
@@ -12833,8 +12926,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "přispívat, je připravena volná vstupenka, takže v ceně není catering a vstup"
 " na večerní akce."
+=======
+"přispívat, je připravena volná vstupenka, takže v ceně není catering a vstup "
+"na večerní akce."
+>>>>>>> upstream/18.0
 =======
 "přispívat, je připravena volná vstupenka, takže v ceně není catering a vstup "
 "na večerní akce."
@@ -13684,6 +13782,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<br/>\n"
+"                                            <span class=\"me-1\">od</span>"
+>>>>>>> upstream/18.0
 =======
 "<br/>\n"
 "                                            <span class=\"me-1\">od</span>"
@@ -14616,6 +14719,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<br/>\n"
+"                                            <span class=\"me-1\">do</span>"
+>>>>>>> upstream/18.0
 =======
 "<br/>\n"
 "                                            <span class=\"me-1\">do</span>"
@@ -15361,6 +15469,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid ""
 "<br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16033,6 +16142,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                        <span class=\"text-muted\">Air your "
 "tracks online through a Youtube integration</span>"
 msgstr ""
@@ -16110,6 +16221,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16258,6 +16372,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid ""
 "<br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16930,6 +17045,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                        <span class=\"text-muted\">Share a "
 "quiz to your attendees once a track is over</span>"
 msgstr ""
@@ -17007,6 +17124,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17354,7 +17474,11 @@ msgid "<i class=\"fa fa-building\" title=\"Attendee Company\"/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-building\" title=\"Firma účastníka\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-building\" title=\"Firma účastníka\"/>"
 >>>>>>> upstream/18.0
@@ -17982,6 +18106,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "<i class=\"fa fa-check fa-3x\" role=\"img\" aria-label="
 "\"Tlačítko potvrdit účast\" title=\"Potvrdit účast\"/>"
@@ -18009,6 +18134,10 @@ msgstr ""
 =======
 "<i class=\"fa fa-check fa-3x\" role=\"img\" aria-label="
 "\"Tlačítko potvrdit účast\" title=\"Potvrdit účast\"/>"
+>>>>>>> upstream/18.0
+=======
+"<i class=\"fa fa-check fa-3x\" role=\"img\" aria-label=\"Tlačítko potvrdit "
+"účast\" title=\"Potvrdit účast\"/>"
 >>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-check fa-3x\" role=\"img\" aria-label=\"Tlačítko potvrdit "
@@ -18409,8 +18538,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-check fa-3x\" role=\"img\" aria-label=\"Reset To Registered"
 " Button\" title=\"Reset To Registered\"/>"
+=======
+"<i class=\"fa fa-check fa-3x\" role=\"img\" aria-label=\"Reset To Registered "
+"Button\" title=\"Reset To Registered\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-check fa-3x\" role=\"img\" aria-label=\"Reset To Registered "
 "Button\" title=\"Reset To Registered\"/>"
@@ -19253,7 +19387,11 @@ msgid "<i class=\"fa fa-group mt-1 me-2 text-center\" title=\"Attendees\"/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-group mt-1 me-2 text-center\" title=\"Účastníci\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-group mt-1 me-2 text-center\" title=\"Účastníci\"/>"
 >>>>>>> upstream/18.0
@@ -19993,6 +20131,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-map-marker mt-1 me-2 text-center ps-1\" title=\"Location\"/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20084,6 +20223,8 @@ msgstr "<i class=\"fa fa-map-marker mt-1 me-2 text-center ps-1\" title=\"Lokalit
 msgstr "<i class=\"fa fa-map-marker mt-1 me-2 text-center ps-1\" title=\"Lokalita\"/>"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20574,6 +20715,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21088,7 +21232,11 @@ msgid "<i class=\"fa fa-ticket\" title=\"Ticket type\"/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-ticket\" title=\"Typ vstupenky\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-ticket\" title=\"Typ vstupenky\"/>"
 >>>>>>> upstream/18.0
@@ -21833,7 +21981,11 @@ msgid "<i class=\"oi oi-arrow-right me-2\" title=\"End date\"/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"oi oi-arrow-right me-2\" title=\"Datum ukončení\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"oi oi-arrow-right me-2\" title=\"Datum ukončení\"/>"
 >>>>>>> upstream/18.0
@@ -22556,12 +22708,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"badge text-bg-secondary o_wevent_badge float-"
 "end\">SPEAKER</span>"
 msgstr ""
 "<span class=\"badge text-bg-secondary o_wevent_badge float-"
 "end\">MLUVČÍ</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23053,6 +23208,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23567,7 +23725,11 @@ msgid "<span class=\"me-1\">to</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"me-1\">do</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"me-1\">do</span>"
 >>>>>>> upstream/18.0
@@ -24200,6 +24362,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_event_badge_font_faded\">Zástupný znak mé společnosti</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_event_badge_font_faded\">Zástupný znak mé společnosti</span>"
 >>>>>>> upstream/18.0
@@ -24609,6 +24775,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text\">\n"
+"                                    Registrace\n"
+"                                </span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_stat_text\">\n"
 "                                    Registrace\n"
@@ -25707,6 +25879,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\"><tr><td align=\"center\">\n"
 "<t t-set=\"date_begin\" t-value=\"format_datetime(object.event_id.date_begin, tz='UTC', dt_format=&quot;yyyyMMdd'T'HHmmss'Z'&quot;)\"/>\n"
 "<t t-set=\"date_end\" t-value=\"format_datetime(object.event_id.date_end, tz='UTC', dt_format=&quot;yyyyMMdd'T'HHmmss'Z'&quot;)\"/>\n"
@@ -25716,6 +25889,8 @@ msgid ""
 "<t t-set=\"registration_ids\" t-value=\"object.ids if not is_sale else object._get_event_registration_ids_from_order()\"/>\n"
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 16px; background-color: white; color: #454748; border-collapse:separate;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26220,6 +26395,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26712,10 +26890,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"middle\">\n"
 "                    <span style=\"font-size: 10px;\">Your registration</span><br/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -27208,6 +27389,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27700,6 +27884,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <a t-attf-href=\"/event/{{ object.event_id.id }}/my_tickets?badge_mode=1&amp;registration_ids={{ registration_ids }}&amp;tickets_hash={{ object.event_id._get_tickets_access_hash(registration_ids) }}\" target=\"_blank\" style=\"padding: 8px 12px; font-size: 12px; color: #FFFFFF; text-decoration: none !important; font-weight: 400; background-color: #875A7B; border: 0px solid #875A7B; border-radius:3px\">\n"
 "                        Download Badges\n"
 "                    </a>\n"
@@ -27710,6 +27895,8 @@ msgid ""
 "                <tr><td colspan=\"2\" style=\"text-align:center;\">\n"
 "                  <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin:16px 0px 16px 0px;\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -28214,6 +28401,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -28709,6 +28899,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"top\" style=\"font-size: 14px;\">\n"
 "                    <div>\n"
@@ -28720,6 +28911,8 @@ msgid ""
 "                        <t t-else=\"\">\n"
 "                            <strong t-out=\"object.event_id.name or ''\">OpenWood Collection Online Reveal</strong>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -29222,6 +29415,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -29552,6 +29748,7 @@ msgid ""
 "                    <div>\n"
 "                        <br/>\n"
 "                        <strong>Add this event to your calendar</strong>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30047,6 +30244,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        <a t-attf-href=\"https://www.google.com/calendar/"
 "render?action=TEMPLATE&amp;text={{ object.event_id.name }}"
 "&amp;dates={{ date_begin }}/{{ date_end }}&amp;location={{ location }}"
@@ -30198,6 +30397,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -30676,6 +30878,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -31172,11 +31377,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <t t-out=\"event_organizer.name or ''\">YourCompany</t>\n"
 "                        </t>\n"
 "                        <t t-else=\"\">\n"
 "                            The <t t-out=\"object.event_id.name or ''\">OpenWood Collection Online Reveal</t> Team\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -31669,6 +31877,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -31999,6 +32210,7 @@ msgid ""
 "                    </div>\n"
 "                </td></tr>\n"
 "                <tr><td style=\"text-align:center;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32978,6 +33190,11 @@ msgid ""
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
 "size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
 >>>>>>> upstream/18.0
+=======
+"                  <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 "                </td></tr>\n"
 "            </table>\n"
 "        </td>\n"
@@ -33148,7 +33365,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+=======
+"            <table width=\"590\" border=\"0\" cellpadding=\"0\" "
+"cellspacing=\"0\" style=\"min-width: 590px; background-color: white; "
+"padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+>>>>>>> upstream/18.0
 =======
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" "
 "cellspacing=\"0\" style=\"min-width: 590px; background-color: white; "
@@ -34131,6 +34354,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <img src=\"/web_editor/font_to_img/61555/rgb(81,81,102)/34\" style=\"padding:4px;max-width:inherit;\" height=\"34\" alt=\"\"/>\n"
 "                            </td>\n"
 "                            <td style=\"padding: 0px 10px 0px 10px;width:50%;line-height:20px;vertical-align:top;\">\n"
@@ -34183,6 +34407,8 @@ msgid ""
 "                                        <div t-out=\"object.event_id.address_id.country_id.name\">Argentina</div>\n"
 "                                        <t t-set=\"location\" t-valuef=\"{{location}}, {{object.event_id.address_id.country_id.name}}\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -34762,6 +34988,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -35258,7 +35487,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -36244,6 +36479,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <span style=\"font-weight:300;margin:10px 0px\">Questions about this event?</span>\n"
 "                            <div>Please contact the organizer:</div>\n"
 "                            <ul>\n"
@@ -36254,6 +36490,8 @@ msgid ""
 "                                <t t-if=\"event_organizer.phone\">\n"
 "                                    <li>Phone: <t t-out=\"event_organizer.phone\">+1 650-123-4567</t></li>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -36754,6 +36992,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -37250,7 +37491,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -38236,7 +38483,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <strong>Get the best mobile experience.</strong>\n"
+=======
+"                            <strong>Get the best mobile experience.</"
+"strong>\n"
+>>>>>>> upstream/18.0
 =======
 "                            <strong>Get the best mobile experience.</"
 "strong>\n"
@@ -39059,7 +39311,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -40046,11 +40304,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <i class=\"fa fa-map-marker\"/>\n"
 "                                <a t-attf-href=\"https://maps.google.com/maps?q={{ location }}\" target=\"new\">\n"
 "                                    <img t-if=\"event_address.static_map_url and event_address.static_map_url_is_valid\" t-att-src=\"event_address.static_map_url\" style=\"vertical-align:bottom; width: 100%;\" alt=\"Google Maps\"/>\n"
 "                                    <t t-else=\"\">See location on Google Maps</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -40547,6 +40808,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -41049,6 +41313,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "        <tr><td style=\"text-align: center; font-size: 14px;\">\n"
 "            Sent by <a target=\"_blank\" t-attf-href=\"{{ object.company_id.website }}\" style=\"color: #875A7B;\" t-out=\"object.company_id.name or ''\">YourCompany</a>\n"
@@ -41056,6 +41321,8 @@ msgid ""
 "                <br/>\n"
 "                Discover <a href=\"/event\" style=\"color:#875A7B;\">all our events</a>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -41553,6 +41820,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -41886,6 +42156,7 @@ msgid ""
 "</table>\n"
 "            "
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -42775,6 +43046,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: "
 "16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; "
 "color: #454748; width: 100%; border-collapse:separate;\"><tr><td "
@@ -42844,8 +43117,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<t t-set=\"is_sale\" t-value=\"'sale_order_id' in object and "
 "object.sale_order_id\"/>\n"
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -43131,6 +43407,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -43460,6 +43739,7 @@ msgid ""
 "    <!-- HEADER -->\n"
 "    <tr>\n"
 "        <td align=\"center\" style=\"min-width: 590px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -43954,10 +44234,13 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" "
 "cellspacing=\"0\" style=\"min-width: 590px; background-color: white; "
 "padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"middle\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -45090,6 +45373,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                    <span style=\"font-size: 10px;\">Vaše registrace</"
 "span><br/>\n"
 "                    <span style=\"font-size: 20px; font-weight: bold;\">\n"
@@ -45165,6 +45450,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -45448,6 +45736,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -45780,6 +46071,7 @@ msgid ""
 "    <!-- EVENT DESCRIPTION -->\n"
 "    <tr>\n"
 "        <td align=\"center\" style=\"min-width: 590px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -46280,11 +46572,14 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" "
 "cellspacing=\"0\" style=\"min-width: 590px; background-color: white; "
 "padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"top\" style=\"font-size: 14px;\">\n"
 "                    <div>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -46636,6 +46931,11 @@ msgid ""
 "><br/>\n"
 "                        V příloze najdete vaši jmenovku na\n"
 >>>>>>> upstream/18.0
+=======
+"                        Dobrý den <t t-out=\"object.name or 'Guest'\"/>,<br/"
+"><br/>\n"
+"                        V příloze najdete vaši jmenovku na\n"
+>>>>>>> upstream/18.0
 "                        <t t-if=\"is_online\">\n"
 "                            <a t-att-href=\"object.event_id.website_url\" "
 "style=\"font-weight:bold;color:#875A7B;text-decoration:none;\" t-"
@@ -46643,6 +46943,7 @@ msgid ""
 "                        </t>\n"
 "                        <t t-else=\"\">\n"
 "                            <strong t-out=\"object.event_id.name or "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -47458,6 +47759,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "''\">OpenWood Collection Online Reveal</strong>.\n"
 "                        </t>\n"
 "                    </div>\n"
@@ -47521,6 +47824,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -47787,6 +48093,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -48265,6 +48574,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -48757,6 +49069,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        We confirm your registration and hope to meet you there,<br/>\n"
 "                        <span style=\"color: #454748;\">\n"
 "                        -- <br/>\n"
@@ -48975,6 +49288,8 @@ msgid ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -49510,6 +49825,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -49798,6 +50116,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -50128,6 +50449,7 @@ msgid ""
 "                    </div>\n"
 "                </td></tr>\n"
 "                <tr><td style=\"text-align:center;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -51107,6 +51429,11 @@ msgid ""
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
 "size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
 >>>>>>> upstream/18.0
+=======
+"                  <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 "                </td></tr>\n"
 "            </table>\n"
 "        </td>\n"
@@ -51277,7 +51604,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+=======
+"            <table width=\"590\" border=\"0\" cellpadding=\"0\" "
+"cellspacing=\"0\" style=\"min-width: 590px; background-color: white; "
+"padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+>>>>>>> upstream/18.0
 =======
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" "
 "cellspacing=\"0\" style=\"min-width: 590px; background-color: white; "
@@ -52260,6 +52593,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <img src=\"/web_editor/font_to_img/61555/rgb(81,81,102)/34\" style=\"padding:4px;max-width:inherit;\" height=\"34\" alt=\"\"/>\n"
 "                            </td>\n"
 "                            <td style=\"padding: 0px 10px 0px 10px;width:50%;line-height:20px;vertical-align:top;\">\n"
@@ -52312,6 +52646,8 @@ msgid ""
 "                                        <div t-out=\"object.event_id.address_id.country_id.name or ''\">Argentina</div>\n"
 "                                        <t t-set=\"location\" t-value=\"'%s, %s' % (location, object.event_id.address_id.country_id.name)\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -52892,6 +53228,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -53388,7 +53727,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -54374,6 +54719,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <span style=\"font-weight:300;margin:10px 0px\">Questions about this event?</span>\n"
 "                            <div>Please contact the organizer:</div>\n"
 "                            <ul>\n"
@@ -54384,6 +54730,8 @@ msgid ""
 "                                <t t-if=\"event_organizer.phone\">\n"
 "                                    <li>Phone: <t t-out=\"event_organizer.phone or ''\"/></li>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -54884,6 +55232,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -55379,8 +55730,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <hr t-if=\"is_online or event_address\" width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -55871,6 +56225,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -56370,8 +56727,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <hr t-if=\"is_online and event_address\" width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -56862,6 +57222,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -57354,6 +57717,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <table t-if=\"event_address and location\" style=\"width:100%;\"><tr><td>\n"
 "                        <div>\n"
 "                            <i class=\"fa fa-map-marker\"/>\n"
@@ -57361,6 +57725,8 @@ msgid ""
 "                                <img t-if=\"event_address.static_map_url and event_address.static_map_url_is_valid\" t-attf-src=\"{{ event_address.static_map_url }}\" style=\"vertical-align:bottom; width: 100%;\" alt=\"Google Maps\"/>\n"
 "                                <span t-else=\"\">See location on Google Maps</span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -57860,6 +58226,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -58360,6 +58729,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    <table t-if=\"object.company_id\" width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 14px;\">\n"
 "        Sent by <a target=\"_blank\" t-attf-href=\"{{ object.company_id.website }}\" style=\"color: #875A7B;\" t-out=\"object.company_id.name or ''\">YourCompany</a>\n"
@@ -58367,6 +58737,8 @@ msgid ""
 "            <br/>\n"
 "            Discover <a href=\"/event\" style=\"color:#875A7B;\">all our events</a>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -58865,6 +59237,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -59197,6 +59572,7 @@ msgid ""
 "</table>\n"
 "            "
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -60094,6 +60470,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: "
 "16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; "
 "color: #454748; width: 100%; border-collapse:separate;\"><tr><td "
@@ -60276,6 +60654,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -60768,6 +61149,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"middle\">\n"
 "                    <span style=\"font-size: 10px;\">Your registration</span><br/>\n"
@@ -61096,10 +61478,13 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" "
 "cellspacing=\"0\" style=\"min-width: 590px; background-color: white; "
 "padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"middle\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -61907,6 +62292,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                    <span style=\"font-size: 10px;\">Vaše registrace</"
 "span><br/>\n"
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-"
@@ -61969,6 +62356,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -62091,6 +62481,7 @@ msgid ""
 "size: 12px; color: #FFFFFF; text-decoration: none !important; font-weight: "
 "400; background-color: #875A7B; border: 0px solid #875A7B; border-"
 "radius:3px\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -62908,6 +63299,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                            Zobrazit vstupenky\n"
 "                        </a>\n"
 "                    </div>\n"
@@ -62971,6 +63364,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -63245,6 +63641,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -63731,6 +64130,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -64226,6 +64628,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"top\" style=\"font-size: 14px;\">\n"
 "                    <div>\n"
@@ -64449,6 +64852,8 @@ msgid ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -64981,6 +65386,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -65280,6 +65688,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -65772,6 +66183,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        The order for this ticket has reference <t t-out=\"object.sale_order_id.name\"/>\n"
 "                        and was placed on <t t-out=\"object.sale_order_id.date_order.date()\"/>\n"
 "                        <t t-if=\"object.sale_order_line_id.price_unit\"> for an amount of\n"
@@ -66101,10 +66513,13 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        The order for this ticket has reference <t t-"
 "out=\"object.sale_order_id.name\"/>\n"
 "                        and was placed on <t t-"
 "out=\"object.sale_order_id.date_order.date()\"/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -66596,6 +67011,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        <t t-if=\"object.sale_order_line_id.price_total\"> "
 "for an amount of\n"
 "                            <t t-"
@@ -66700,6 +67117,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -66904,6 +67324,7 @@ msgid ""
 "                    <div>\n"
 "                        <br/>\n"
 "                        <strong>Add this event to your calendar</strong>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -67399,6 +67820,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        <a t-attf-href=\"https://www.google.com/calendar/"
 "render?action=TEMPLATE&amp;text={{ object.event_id.name }}"
 "&amp;dates={{ date_begin }}/{{ date_end }}&amp;location={{ location }}"
@@ -67550,6 +67973,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -68028,6 +68454,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -68524,11 +68953,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <t t-out=\"event_organizer.name\">YourCompany</t>\n"
 "                        </t>\n"
 "                        <t t-else=\"\">\n"
 "                            The <t t-out=\"object.event_id.name or ''\">OpenWood Collection Online Reveal</t> Team\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -69021,6 +69453,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -69351,6 +69786,7 @@ msgid ""
 "                    </div>\n"
 "                </td></tr>\n"
 "                <tr><td style=\"text-align:center;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -70330,6 +70766,11 @@ msgid ""
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
 "size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
 >>>>>>> upstream/18.0
+=======
+"                  <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 "                </td></tr>\n"
 "            </table>\n"
 "        </td>\n"
@@ -70500,7 +70941,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+=======
+"            <table width=\"590\" border=\"0\" cellpadding=\"0\" "
+"cellspacing=\"0\" style=\"min-width: 590px; background-color: white; "
+"padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+>>>>>>> upstream/18.0
 =======
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" "
 "cellspacing=\"0\" style=\"min-width: 590px; background-color: white; "
@@ -71483,6 +71930,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <img src=\"/web_editor/font_to_img/61555/rgb(81,81,102)/34\" style=\"padding:4px;max-width:inherit;\" height=\"34\" alt=\"\"/>\n"
 "                            </td>\n"
 "                            <td style=\"padding: 0px 10px 0px 10px;width:50%;line-height:20px;vertical-align:top;\">\n"
@@ -71535,6 +71983,8 @@ msgid ""
 "                                        <div t-out=\"object.event_id.address_id.country_id.name\">Argentina</div>\n"
 "                                        <t t-set=\"location\" t-valuef=\"{{location}}, {{object.event_id.address_id.country_id.name}}\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -72114,6 +72564,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -72610,7 +73063,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -73596,6 +74055,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <span style=\"font-weight:300;margin:10px 0px\">Questions about this event?</span>\n"
 "                            <div>Please contact the organizer:</div>\n"
 "                            <ul>\n"
@@ -73606,6 +74066,8 @@ msgid ""
 "                                <t t-if=\"event_organizer.phone\">\n"
 "                                    <li>Phone: <t t-out=\"event_organizer.phone\">+1 650-123-4567</t></li>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -74106,6 +74568,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -74602,7 +75067,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -75588,7 +76059,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <strong>Get the best mobile experience.</strong>\n"
+=======
+"                            <strong>Get the best mobile experience.</"
+"strong>\n"
+>>>>>>> upstream/18.0
 =======
 "                            <strong>Get the best mobile experience.</"
 "strong>\n"
@@ -76411,7 +76887,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -77398,11 +77880,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <i class=\"fa fa-map-marker\"/>\n"
 "                                <a t-attf-href=\"https://maps.google.com/maps?q={{ location }}\" target=\"new\">\n"
 "                                    <img t-if=\"event_address.static_map_url and event_address.static_map_url_is_valid\" t-att-src=\"event_address.static_map_url\" style=\"vertical-align:bottom; width: 100%;\" alt=\"Google Maps\"/>\n"
 "                                    <t t-else=\"\">See location on Google Maps</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -77899,6 +78384,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -78401,6 +78889,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "        <tr><td style=\"text-align: center; font-size: 14px;\">\n"
 "            Sent by <a target=\"_blank\" t-attf-href=\"{{ object.company_id.website }}\" style=\"color: #875A7B;\" t-out=\"object.company_id.name or ''\">YourCompany</a>\n"
@@ -78408,6 +78897,8 @@ msgid ""
 "                <br/>\n"
 "                Discover <a href=\"/event\" style=\"color:#875A7B;\">all our events</a>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -78905,6 +79396,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -79401,6 +79895,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\"><tr><td align=\"center\">\n"
 "<t t-set=\"date_begin\" t-value=\"format_datetime(object.event_id.date_begin, tz='UTC', dt_format=&quot;yyyyMMdd'T'HHmmss'Z'&quot;)\"/>\n"
 "<t t-set=\"date_end\" t-value=\"format_datetime(object.event_id.date_end, tz='UTC', dt_format=&quot;yyyyMMdd'T'HHmmss'Z'&quot;)\"/>\n"
@@ -79437,6 +79932,8 @@ msgstr ""
 "<t t-set=\"is_sale\" t-value="
 "\"'sale_order_id' in object and object.sale_order_id\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -79621,6 +80118,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -79740,6 +80240,7 @@ msgstr ""
 "<t t-set=\"event_address\" t-value=\"object.event_id.address_id\"/>\n"
 "<t t-set=\"registration_ids\" t-value=\"object.ids if not is_sale else "
 "object._get_event_registration_ids_from_order()\"/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -80110,10 +80611,16 @@ msgstr ""
 "style=\"padding: 16px; background-color: white; color: #454748; border-"
 "collapse:separate;\">\n"
 >>>>>>> upstream/18.0
+=======
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" "
+"style=\"padding: 16px; background-color: white; color: #454748; border-"
+"collapse:separate;\">\n"
+>>>>>>> upstream/18.0
 "<tbody>\n"
 "    <!-- HEADER -->\n"
 "    <tr>\n"
 "        <td align=\"center\" style=\"min-width: 590px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -80335,6 +80842,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" "
 "cellspacing=\"0\" style=\"min-width: 590px; background-color: white; "
 "padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
@@ -80398,6 +80907,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -80517,6 +81029,7 @@ msgstr ""
 "                        <t t-out=\"object.name or 'Guest'\"/>\n"
 "                    </span>\n"
 "                    <div style=\"margin-bottom: 5px;margin-top: 18px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -80737,6 +81250,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        <a t-attf-href=\"/event/{{ object.event_id.id }}/"
 "my_tickets?registration_ids={{ registration_ids }}"
 "&amp;tickets_hash={{ object.event_id._get_tickets_access_hash(registration_ids) }}"
@@ -80801,6 +81316,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -80922,6 +81440,7 @@ msgstr ""
 "                </td><td valign=\"middle\" align=\"right\">\n"
 "                    <t t-if=\"object.barcode\"> \n"
 "                        <div style=\"margin-bottom: 5px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -81160,6 +81679,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                            <img t-attf-src=\"/report/barcode/QR/"
 "{{object.barcode}}?&amp;width=100&amp;height=100&amp;quiet=0\" width=\"100\" "
 "height=\"100\" alt=\"QR Code\" t-att-style=\"'height: 100px !important;'\"/"
@@ -81234,6 +81755,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -81356,6 +81880,7 @@ msgstr ""
 "    <!-- EVENT DESCRIPTION -->\n"
 "    <tr>\n"
 "        <td align=\"center\" style=\"min-width: 590px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -81740,6 +82265,11 @@ msgstr ""
 "cellspacing=\"0\" style=\"min-width: 590px; background-color: white; "
 "padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 >>>>>>> upstream/18.0
+=======
+"            <table width=\"590\" border=\"0\" cellpadding=\"0\" "
+"cellspacing=\"0\" style=\"min-width: 590px; background-color: white; "
+"padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+>>>>>>> upstream/18.0
 "                <tr><td valign=\"top\" style=\"font-size: 14px;\">\n"
 "                    <div>\n"
 "                        Dobrý den <t t-out=\"object.name or 'Guest'\"/>,<br/"
@@ -81747,6 +82277,7 @@ msgstr ""
 "                        S radostí potvrzujeme Vaši účast na akci\n"
 "                        <t t-if=\"is_online\">\n"
 "                            <a t-att-href=\"object.event_id.website_url\" "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -81950,6 +82481,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "style=\"color:#875A7B;text-decoration:none;font-weight:bold;\" t-"
 "out=\"object.event_id.name or ''\">OpenWood Collection Online Reveal</a>\n"
 "                        </t>\n"
@@ -82018,6 +82551,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -82137,6 +82673,7 @@ msgstr ""
 "                    </div>\n"
 "                    <div t-if=\"is_sale\">\n"
 "                        <br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -82362,6 +82899,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        Objednávka lístku má referenční číslo <t t-"
 "out=\"object.sale_order_id.name\"/>\n"
 "                        a byla provedena dne <t t-"
@@ -82428,6 +82967,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -82547,6 +83089,7 @@ msgstr ""
 "                    </div>\n"
 "                    <div>\n"
 "                        <br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -82789,6 +83332,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        <strong>Přidat tuto událost do kalendáře</strong>\n"
 "                        <a t-attf-href=\"https://www.google.com/calendar/"
 "render?action=TEMPLATE&amp;text={{ object.event_id.name }}"
@@ -82872,6 +83417,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -82991,6 +83539,7 @@ msgstr ""
 "                        <br/><br/>\n"
 "                    </div>\n"
 "                    <div>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -83193,10 +83742,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        Brzy na viděnou,<br/>\n"
 "                        <span style=\"color: #454748;\">\n"
 "                        -- <br/>\n"
 "                        <t t-if=\"event_organizer\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -83395,6 +83947,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                            <t t-out=\"event_organizer.name\">YourCompany</"
 "t>\n"
 "                        </t>\n"
@@ -83458,6 +84012,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -83578,6 +84135,7 @@ msgstr ""
 "                    </div>\n"
 "                </td></tr>\n"
 "                <tr><td style=\"text-align:center;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -83969,6 +84527,11 @@ msgstr ""
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
 "size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
 >>>>>>> upstream/18.0
+=======
+"                  <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 "                </td></tr>\n"
 "            </table>\n"
 "        </td>\n"
@@ -83976,6 +84539,7 @@ msgstr ""
 "    <!-- DETAILS -->\n"
 "    <tr>\n"
 "        <td align=\"center\" style=\"min-width: 590px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -84367,10 +84931,16 @@ msgstr ""
 "cellspacing=\"0\" style=\"min-width: 590px; background-color: white; "
 "padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 >>>>>>> upstream/18.0
+=======
+"            <table width=\"590\" border=\"0\" cellpadding=\"0\" "
+"cellspacing=\"0\" style=\"min-width: 590px; background-color: white; "
+"padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+>>>>>>> upstream/18.0
 "                <tr><td valign=\"top\" style=\"font-size: 14px;\">\n"
 "                    <table style=\"width:100%;\">\n"
 "                        <tr>\n"
 "                            <td style=\"vertical-align:top;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -84630,6 +85200,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                <img src=\"/web_editor/font_to_img/61555/"
 "rgb(81,81,102)/34\" style=\"padding:4px;max-width:inherit;\" height=\"34\" "
 "alt=\"\"/>\n"
@@ -84701,6 +85273,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -84822,6 +85397,7 @@ msgstr ""
 "                                </div>\n"
 "                                <div>\n"
 "                                    <strong>Do</strong>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -85087,6 +85663,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                    <t t-out=\"object.event_id.date_end\" t-"
 "options=\"{&quot;widget&quot;: &quot;datetime&quot;, &quot;date_only&quot;: "
 "True, &quot;tz_name&quot;: object.event_id.date_tz, &quot;format&quot;: "
@@ -85217,6 +85795,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -85405,6 +85986,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
 =======
 "                        <hr width=\"100%\" style=\"background-color:rgb"
@@ -85440,6 +86022,11 @@ msgstr ""
 "                        <hr width=\"100%\" style=\"background-color:rgb"
 "(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-"
 "height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
 >>>>>>> upstream/18.0
 =======
 "                        <hr width=\"100%\" style=\"background-"
@@ -85803,6 +86390,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <span style=\"font-weight:300;margin:10px 0px\">Máte otázky k této události?</span>\n"
 "                            <div>Kontaktujte prosím organizátora:</div>\n"
 "                            <ul>\n"
@@ -85860,6 +86448,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -86045,6 +86635,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -86233,6 +86826,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
 =======
 "                        <hr width=\"100%\" style=\"background-color:rgb"
@@ -86268,6 +86862,11 @@ msgstr ""
 "                        <hr width=\"100%\" style=\"background-color:rgb"
 "(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-"
 "height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
 >>>>>>> upstream/18.0
 =======
 "                        <hr width=\"100%\" style=\"background-"
@@ -86631,6 +87230,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <strong>Získejte nejlepší mobilní zážitek.</strong>\n"
 "                            <a href=\"/event\">Nainstalujte si naši mobilní aplikaci</a>\n"
 =======
@@ -86670,6 +87270,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -86845,6 +87447,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -87031,6 +87636,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
 =======
 "                        <hr width=\"100%\" style=\"background-color:rgb"
@@ -87066,6 +87672,11 @@ msgstr ""
 "                        <hr width=\"100%\" style=\"background-color:rgb"
 "(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-"
 "height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
 >>>>>>> upstream/18.0
 =======
 "                        <hr width=\"100%\" style=\"background-"
@@ -87430,6 +88041,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <i class=\"fa fa-map-marker\"/>\n"
 "                                <a t-attf-href=\"https://maps.google.com/maps?q={{ location }}\" target=\"new\">\n"
 "                                    <img t-if=\"event_address.static_map_url and event_address.static_map_url_is_valid\" t-att-src=\"event_address.static_map_url\" style=\"vertical-align:bottom; width: 100%;\" alt=\"Google Maps\"/>\n"
@@ -87478,6 +88090,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -87659,6 +88273,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -87788,6 +88405,7 @@ msgstr ""
 "<!-- FOOTER BY -->\n"
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 "    <t t-if=\"object.company_id\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -87994,6 +88612,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "        <table width=\"590\" border=\"0\" cellpadding=\"0\" "
 "cellspacing=\"0\" style=\"min-width: 590px; background-color: #F1F1F1; "
 "color: #454748; padding: 8px; border-collapse:separate;\">\n"
@@ -88058,6 +88678,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -88241,6 +88864,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -88442,6 +89068,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -88851,7 +89480,11 @@ msgid "A4 foldable"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skládací formát A4"
+>>>>>>> upstream/18.0
 =======
 msgstr "Skládací formát A4"
 >>>>>>> upstream/18.0
@@ -89123,6 +89756,7 @@ msgstr "Přidat popis..."
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -89940,6 +90574,10 @@ msgid ""
 "Add a navigation menu to your event web pages with schedule, tracks, a track "
 "proposal form, etc."
 >>>>>>> upstream/18.0
+=======
+"Add a navigation menu to your event web pages with schedule, tracks, a track "
+"proposal form, etc."
+>>>>>>> upstream/18.0
 msgstr ""
 "Přidat navigační nabídku na webové stránky vaší události s plánem, "
 "itinerářem, formulářem návrhu itineráře atd."
@@ -90060,7 +90698,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Všechny e-maily zasílané účastníkům budou přeloženy do tohoto jazyka."
+>>>>>>> upstream/18.0
 =======
 msgstr "Všechny e-maily zasílané účastníkům budou přeloženy do tohoto jazyka."
 >>>>>>> upstream/18.0
@@ -90449,12 +91091,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "And this time, we go fully ONLINE! Meet us in our live streams from the comfort of your house.<br>\n"
 "        Special discount codes will be handed out during the various streams, make sure to be there on time."
 msgstr ""
 "A tentokrát jdeme plně ONLINE! Seznamte se s námi v našich živých přenosech z pohodlí vašeho domova.<br>\n"
 "        Speciální slevové kódy budou rozdány během různých streamů, buďte tam včas."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -90950,6 +91595,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -91412,7 +92060,11 @@ msgid "Ask once per order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zeptejte se jednou za objednávku"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zeptejte se jednou za objednávku"
 >>>>>>> upstream/18.0
@@ -91754,7 +92406,11 @@ msgid "Attendee List"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Seznam účastníků"
+>>>>>>> upstream/18.0
 =======
 msgstr "Seznam účastníků"
 >>>>>>> upstream/18.0
@@ -92052,7 +92708,11 @@ msgid "Attendee Selection Answers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odpovědi od vybraných účastníků"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odpovědi od vybraných účastníků"
 >>>>>>> upstream/18.0
@@ -92345,7 +93005,11 @@ msgid "Attendee list"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Seznam účastníků"
+>>>>>>> upstream/18.0
 =======
 msgstr "Seznam účastníků"
 >>>>>>> upstream/18.0
@@ -92645,7 +93309,11 @@ msgid "Auto-Print"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Automatický tisk"
+>>>>>>> upstream/18.0
 =======
 msgstr "Automatický tisk"
 >>>>>>> upstream/18.0
@@ -92921,7 +93589,11 @@ msgid "Badge (96x134mm)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jmenovka (96x134mm)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Jmenovka (96x134mm)"
 >>>>>>> upstream/18.0
@@ -93186,7 +93858,11 @@ msgid "Badge (96x82mm)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jmenovka (96x82mm)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Jmenovka (96x82mm)"
 >>>>>>> upstream/18.0
@@ -93458,7 +94134,11 @@ msgid "Badge Background"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pozadí jmenovky"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pozadí jmenovky"
 >>>>>>> upstream/18.0
@@ -93751,7 +94431,11 @@ msgid "Badge Dimension"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rozměry jmenovky"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rozměry jmenovky"
 >>>>>>> upstream/18.0
@@ -94044,7 +94728,11 @@ msgid "Badge Example"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Příklad jmenovky"
+>>>>>>> upstream/18.0
 =======
 msgstr "Příklad jmenovky"
 >>>>>>> upstream/18.0
@@ -94434,8 +95122,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Bands like Bar Fighters, Led Slippers and Link Floyd will offer you the show"
 " of the century during our three day event."
+=======
+"Bands like Bar Fighters, Led Slippers and Link Floyd will offer you the show "
+"of the century during our three day event."
+>>>>>>> upstream/18.0
 =======
 "Bands like Bar Fighters, Led Slippers and Link Floyd will offer you the show "
 "of the century during our three day event."
@@ -95323,8 +96016,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Bring your outdoor field hockey season to the next level by taking the field"
 " at this 9th annual Field Hockey tournament."
+=======
+"Bring your outdoor field hockey season to the next level by taking the field "
+"at this 9th annual Field Hockey tournament."
+>>>>>>> upstream/18.0
 =======
 "Bring your outdoor field hockey season to the next level by taking the field "
 "at this 9th annual Field Hockey tournament."
@@ -96084,7 +96782,11 @@ msgid "Cancelled registration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zrušená registrace"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zrušená registrace"
 >>>>>>> upstream/18.0
@@ -96399,6 +97101,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Vyberte šablonu pro automatické vyplňování lístků, komunikace, popisů a "
+"dalších polí."
+>>>>>>> upstream/18.0
 =======
 "Vyberte šablonu pro automatické vyplňování lístků, komunikace, popisů a "
 "dalších polí."
@@ -96774,6 +97481,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Vraťte se, až budete mít registrace, abyste si mohli prohlédnout odpovědi."
+>>>>>>> upstream/18.0
 =======
 "Vraťte se, až budete mít registrace, abyste si mohli prohlédnout odpovědi."
 >>>>>>> upstream/18.0
@@ -97142,7 +97853,11 @@ msgid "Confirm Attendance Button"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tlačítko potvrdit účast"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tlačítko potvrdit účast"
 >>>>>>> upstream/18.0
@@ -97415,7 +98130,11 @@ msgid "Confirm attendance?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Potvrdit docházku?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Potvrdit docházku?"
 >>>>>>> upstream/18.0
@@ -97803,7 +98522,11 @@ msgstr "Diskusní místnosti"
 msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Zobrazovací název"
+=======
+msgstr "Zobrazovaný název"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zobrazovaný název"
 >>>>>>> upstream/18.0
@@ -97934,7 +98657,11 @@ msgid "Enable barcode scanning"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Povolit skenování čárových kódů"
+>>>>>>> upstream/18.0
 =======
 msgstr "Povolit skenování čárových kódů"
 >>>>>>> upstream/18.0
@@ -98227,7 +98954,11 @@ msgid "Enable or Disable Event Barcode functionality."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Povolit nebo zakázat funkci čárového kódu události."
+>>>>>>> upstream/18.0
 =======
 msgstr "Povolit nebo zakázat funkci čárového kódu události."
 >>>>>>> upstream/18.0
@@ -98469,6 +99200,7 @@ msgstr "Skončilo"
 #: model:event.event,subtitle:event.event_2
 msgid "Enhance your architectural business and improve professional skills."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -99123,6 +99855,9 @@ msgstr ""
 =======
 "Vylepšete svoje architektonické podnikání a zlepšete profesionální zručnosti."
 >>>>>>> upstream/18.0
+=======
+"Vylepšete svoje architektonické podnikání a zlepšete profesionální zručnosti."
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
@@ -99260,7 +99995,11 @@ msgid "Event Mail Template Reference"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Referenční šablona e-mailu o události"
+>>>>>>> upstream/18.0
 =======
 msgstr "Referenční šablona e-mailu o události"
 >>>>>>> upstream/18.0
@@ -99785,12 +100524,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                usually based on the types of events you organize (e.g. \"Workshop\",\n"
 "                \"Roadshow\", \"Online Webinar\", etc)."
 msgstr ""
 "Šablony událostí kombinují nastavení, které často používáte a jsou\n"
 "                obvykle na základě typů akcí, které pořádáte (např. „Workshop“,\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -100284,6 +101026,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -100861,12 +101606,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Every year we invite our community, partners and end-users to come and meet us! It's the ideal event to get together and present new features, roadmap of future versions, achievements of the software, workshops, training sessions, etc...\n"
 "            This event is also an opportunity to showcase our partners' case studies, methodology or developments. Be there and see directly from the source the features of the new version!"
 msgstr ""
 "Každý rok zveme naši komunitu, partnery a koncové uživatele, aby se s námi setkali! Je to ideální událost, kde se setkat a představit nové funkce, plán budoucích verzí, úspěchy softwaru, workshopy, školení atd...\n"
 "            Tato akce je také příležitostí předvést případové studie, metodiku nebo vývoj našich partnerů. Buďte u toho a podívejte se přímo ze zdroje na funkce nové verze!"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -101367,6 +102115,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -101793,6 +102544,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ukončené události. Odoo je automaticky přesune do této fáze, jakmile uplyne "
+"jejich datum ukončení."
+>>>>>>> upstream/18.0
 =======
 "Ukončené události. Odoo je automaticky přesune do této fáze, jakmile uplyne "
 "jejich datum ukončení."
@@ -102217,7 +102973,11 @@ msgid "Free entrance, no food!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vstup zdarma, žádné jídlo!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vstup zdarma, žádné jídlo!"
 >>>>>>> upstream/18.0
@@ -102444,6 +103204,7 @@ msgstr "Čerstvě vytvořené"
 #: model_terms:ir.actions.act_window,help:event.action_registration
 #: model_terms:ir.actions.act_window,help:event.event_registration_action_stats_from_event
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -103261,6 +104022,10 @@ msgid ""
 "From this dashboard you can report, analyze and detect trends regarding your "
 "event registrations."
 >>>>>>> upstream/18.0
+=======
+"From this dashboard you can report, analyze and detect trends regarding your "
+"event registrations."
+>>>>>>> upstream/18.0
 msgstr ""
 "Z tohoto ovládacího panelu můžete hlásit, analyzovat a zjišťovat trendy "
 "týkající se vašich registrací na události."
@@ -103386,7 +104151,11 @@ msgid "Google Maps API key"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Klíč API Google Maps"
+>>>>>>> upstream/18.0
 =======
 msgstr "Klíč API Google Maps"
 >>>>>>> upstream/18.0
@@ -103679,7 +104448,11 @@ msgid "Google Maps API secret"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Google Maps API heslo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Google Maps API heslo"
 >>>>>>> upstream/18.0
@@ -103972,7 +104745,11 @@ msgid "Google Maps static API"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Statické API Google Maps"
+>>>>>>> upstream/18.0
 =======
 msgstr "Statické API Google Maps"
 >>>>>>> upstream/18.0
@@ -104292,7 +105069,11 @@ msgid "Guest #"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Host #"
+>>>>>>> upstream/18.0
 =======
 msgstr "Host #"
 >>>>>>> upstream/18.0
@@ -104603,7 +105384,11 @@ msgid "Here it is, the 12th edition of our Live Musical Festival!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tady je, 12. ročník našeho živého hudebního festivalu!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tady je, 12. ročník našeho živého hudebního festivalu!"
 >>>>>>> upstream/18.0
@@ -105098,9 +105883,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If you don't know anything about Hockey, this is a great introduction to this wonderful sport as you will will be able to see some training process and also have some time\n"
 "                to chat with experienced players and trainers once the tournament is over!"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -105592,6 +106380,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -105775,6 +106564,8 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -105993,6 +106784,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -106243,7 +107037,11 @@ msgid "Insert dynamic Google Maps in your email templates"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vložte dynamické mapy Google do svých e-mailových šablon"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vložte dynamické mapy Google do svých e-mailových šablon"
 >>>>>>> upstream/18.0
@@ -106611,7 +107409,11 @@ msgid "Join us for the greatest ballon race of all times!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Připojte se k nám na největší balónové závody všech dob!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Připojte se k nám na největší balónové závody všech dob!"
 >>>>>>> upstream/18.0
@@ -106956,7 +107758,11 @@ msgid "Last Attendee"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poslední účastník"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poslední účastník"
 >>>>>>> upstream/18.0
@@ -107369,7 +108175,11 @@ msgid "Manage & publish a schedule with tracks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Správa a publikování harmonogramu s trasami"
+>>>>>>> upstream/18.0
 =======
 msgstr "Správa a publikování harmonogramu s trasami"
 >>>>>>> upstream/18.0
@@ -107857,7 +108667,11 @@ msgid "Number of Taken Seats"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Počet obsazených míst"
+>>>>>>> upstream/18.0
 =======
 msgstr "Počet obsazených míst"
 >>>>>>> upstream/18.0
@@ -108173,7 +108987,11 @@ msgid "Odoo Community Days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dny komunity Odoo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dny komunity Odoo"
 >>>>>>> upstream/18.0
@@ -108472,7 +109290,11 @@ msgid "Once per Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jednou za objednávku"
+>>>>>>> upstream/18.0
 =======
 msgstr "Jednou za objednávku"
 >>>>>>> upstream/18.0
@@ -108776,7 +109598,11 @@ msgid "Online Event"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Online událost"
+>>>>>>> upstream/18.0
 =======
 msgstr "Online událost"
 >>>>>>> upstream/18.0
@@ -109079,7 +109905,11 @@ msgid "Online if not set"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Online, pokud není nastaveno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Online, pokud není nastaveno"
 >>>>>>> upstream/18.0
@@ -109374,6 +110204,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Otevřete výběr časového rozmezí.<br/>Vyberte počáteční a koncové datum vaší "
+"události."
+>>>>>>> upstream/18.0
 =======
 "Otevřete výběr časového rozmezí.<br/>Vyberte počáteční a koncové datum vaší "
 "události."
@@ -109829,8 +110664,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "OpenElec Applications reserves the right to cancel, re-name or re-locate the"
 " event or change the dates on which it is held."
+=======
+"OpenElec Applications reserves the right to cancel, re-name or re-locate the "
+"event or change the dates on which it is held."
+>>>>>>> upstream/18.0
 =======
 "OpenElec Applications reserves the right to cancel, re-name or re-locate the "
 "event or change the dates on which it is held."
@@ -110689,8 +111529,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Override the default value displayed for the done state for kanban "
 "selection."
+=======
+"Override the default value displayed for the done state for kanban selection."
+>>>>>>> upstream/18.0
 =======
 "Override the default value displayed for the done state for kanban selection."
 >>>>>>> upstream/18.0
@@ -111297,7 +112141,11 @@ msgid "Please enter a valid base64 secret"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zadejte platný tajný kód base64."
+>>>>>>> upstream/18.0
 =======
 msgstr "Zadejte platný tajný kód base64."
 >>>>>>> upstream/18.0
@@ -111644,7 +112492,11 @@ msgid "Question cannot be linked to both an Event and an Event Type."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dotazy nemohou být propojené zároveň s události a typem události."
+>>>>>>> upstream/18.0
 =======
 msgstr "Dotazy nemohou být propojené zároveň s události a typem události."
 >>>>>>> upstream/18.0
@@ -112014,7 +112866,11 @@ msgid "Registration Properties"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vlastnosti registrace"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vlastnosti registrace"
 >>>>>>> upstream/18.0
@@ -112511,7 +113367,11 @@ msgid "Registration open"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Registrace otevřena"
+>>>>>>> upstream/18.0
 =======
 msgstr "Registrace otevřena"
 >>>>>>> upstream/18.0
@@ -113556,7 +114416,11 @@ msgid "Registration statistics"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Statistiky registrace"
+>>>>>>> upstream/18.0
 =======
 msgstr "Statistiky registrace"
 >>>>>>> upstream/18.0
@@ -114611,7 +115475,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -115393,6 +116260,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -116176,7 +117046,11 @@ msgid "Registrations started"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Registrace začaly"
+>>>>>>> upstream/18.0
 =======
 msgstr "Registrace začaly"
 >>>>>>> upstream/18.0
@@ -117066,7 +117940,11 @@ msgid "Responsive Html Full Page Ticket"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Responzivní HTML celostránkový lístek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Responzivní HTML celostránkový lístek"
 >>>>>>> upstream/18.0
@@ -117359,7 +118237,11 @@ msgid "Rue de la Paix 123"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rue de la Paix 123"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rue de la Paix 123"
 >>>>>>> upstream/18.0
@@ -117664,7 +118546,11 @@ msgid "Scan or Tap"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naskenujte nebo klepněte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Naskenujte nebo klepněte"
 >>>>>>> upstream/18.0
@@ -117986,7 +118872,11 @@ msgid "Scheduler Emails"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "E-maily plánovače"
+>>>>>>> upstream/18.0
 =======
 msgstr "E-maily plánovače"
 >>>>>>> upstream/18.0
@@ -118279,7 +119169,11 @@ msgid "Seasoned Hockey Fans and curious people, this tournament is for you!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zkušení fanoušci hokeje a zvědaví lidé, tento turnaj je pro vás!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zkušení fanoušci hokeje a zvědaví lidé, tento turnaj je pro vás!"
 >>>>>>> upstream/18.0
@@ -118577,7 +119471,11 @@ msgid "Select printer..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vybrat tiskárnu..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Vybrat tiskárnu..."
 >>>>>>> upstream/18.0
@@ -118864,7 +119762,11 @@ msgid "Sell tickets with Point of Sale"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prodávejte vstupenky prostřednictvím Pokladního systému"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prodávejte vstupenky prostřednictvím Pokladního systému"
 >>>>>>> upstream/18.0
@@ -119345,7 +120247,11 @@ msgid "Sell tickets with sales orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prodávejte tikety s prodejními objednávkami"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prodávejte tikety s prodejními objednávkami"
 >>>>>>> upstream/18.0
@@ -120410,6 +121316,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Automaticky odesláno účastníkům, pokud je u události definováno připomenutí"
+>>>>>>> upstream/18.0
 =======
 "Automaticky odesláno účastníkům, pokud je u události definováno připomenutí"
 >>>>>>> upstream/18.0
@@ -121454,7 +122364,11 @@ msgid "Sent automatically to someone after they registered to an event"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Automaticky odesláno někomu poté, co se zaregistroval na událost"
+>>>>>>> upstream/18.0
 =======
 msgstr "Automaticky odesláno někomu poté, co se zaregistroval na událost"
 >>>>>>> upstream/18.0
@@ -122499,7 +123413,11 @@ msgid "Sent to attendees after registering to an event"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odesláno účastníkům po registraci na událost"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odesláno účastníkům po registraci na událost"
 >>>>>>> upstream/18.0
@@ -123617,7 +124535,11 @@ msgid "Stage description"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Popis fáze"
+>>>>>>> upstream/18.0
 =======
 msgstr "Popis fáze"
 >>>>>>> upstream/18.0
@@ -124681,7 +125603,11 @@ msgid "Start sale date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datum zahájení prodeje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Datum zahájení prodeje"
 >>>>>>> upstream/18.0
@@ -125539,7 +126465,11 @@ msgid "Static Map Url"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Statická mapa URL"
+>>>>>>> upstream/18.0
 =======
 msgstr "Statická mapa URL"
 >>>>>>> upstream/18.0
@@ -125833,7 +126763,11 @@ msgid "Static Map Url Is Valid"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Statická adresa URL mapy je platná"
+>>>>>>> upstream/18.0
 =======
 msgstr "Statická adresa URL mapy je platná"
 >>>>>>> upstream/18.0
@@ -126152,7 +127086,11 @@ msgid "Successfully registered!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Úspěšně zaregistrováno!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Úspěšně zaregistrováno!"
 >>>>>>> upstream/18.0
@@ -126472,7 +127410,11 @@ msgid "Taken Seats"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obsazená místa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obsazená místa"
 >>>>>>> upstream/18.0
@@ -126985,6 +127927,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Great Reno Balloon Race je největší světová akce v létání horkovzdušným "
+"balónem zdarma."
+>>>>>>> upstream/18.0
 =======
 "Great Reno Balloon Race je největší světová akce v létání horkovzdušným "
 "balónem zdarma."
@@ -128291,7 +129238,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nejlepší hokejové týmy země se utkají o národní hokejovou trofej."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nejlepší hokejové týmy země se utkají o národní hokejovou trofej."
 >>>>>>> upstream/18.0
@@ -129339,6 +130290,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Na této akci se sejdou nejlepší aeronauti světa, aby vám nabídli tu "
+"nejvelkolepější show."
+>>>>>>> upstream/18.0
 =======
 "Na této akci se sejdou nejlepší aeronauti světa, aby vám nabídli tu "
 "nejvelkolepější show."
@@ -130649,7 +131605,11 @@ msgid "The event has been cancelled"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Událost byla zrušena"
+>>>>>>> upstream/18.0
 =======
 msgstr "Událost byla zrušena"
 >>>>>>> upstream/18.0
@@ -131694,7 +132654,11 @@ msgid "The event has been publicly announced"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Událost byla veřejně oznámena"
+>>>>>>> upstream/18.0
 =======
 msgstr "Událost byla veřejně oznámena"
 >>>>>>> upstream/18.0
@@ -132646,8 +133610,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "místa. Pokud se použije prodej vstupenek a všechny vstupenky jsou vyprodány,"
 " bude akce vyprodána."
+=======
+"místa. Pokud se použije prodej vstupenek a všechny vstupenky jsou vyprodány, "
+"bude akce vyprodána."
+>>>>>>> upstream/18.0
 =======
 "místa. Pokud se použije prodej vstupenek a všechny vstupenky jsou vyprodány, "
 "bude akce vyprodána."
@@ -133567,6 +134536,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nejlepší OpenWood nábytek přichází do vašeho domu ve zcela nové kolekci"
+>>>>>>> upstream/18.0
 =======
 "Nejlepší OpenWood nábytek přichází do vašeho domu ve zcela nové kolekci"
 >>>>>>> upstream/18.0
@@ -134352,6 +135325,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/event/models/event_ticket.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -135328,6 +136302,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "The following tickets cannot be deleted while they have one or more "
 "registrations linked to them:\n"
 "- %s"
@@ -135497,6 +136473,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -135898,7 +136877,11 @@ msgid "The safety of our attendees and our aeronauts comes first!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bezpečnost našich účastníků a letců je na prvním místě!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bezpečnost našich účastníků a letců je na prvním místě!"
 >>>>>>> upstream/18.0
@@ -136120,6 +137103,7 @@ msgstr "Bezpečnost našich účastníků a letců je na prvním místě!"
 #. odoo-python
 #: code:addons/event/models/event_ticket.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -137096,6 +138080,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "The stop date cannot be earlier than the start date. Please check ticket %"
 "(ticket_name)s"
 msgstr ""
@@ -137263,6 +138249,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -137854,7 +138843,11 @@ msgid "There are not enough seats available for:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Není k dispozici dostatek míst pro:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Není k dispozici dostatek míst pro:"
 >>>>>>> upstream/18.0
@@ -138908,6 +139901,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Tato akce je také příležitostí předvést případové studie, metodiku nebo "
 "vývoj našich partnerů. Buďte u toho a podívejte se přímo ze zdroje na funkce"
@@ -139392,6 +140386,11 @@ msgstr ""
 "Tato akce je také příležitostí předvést případové studie, metodiku nebo "
 "vývoj našich partnerů. Buďte u toho a podívejte se přímo ze zdroje na funkce"
 " verze 12!"
+>>>>>>> upstream/18.0
+=======
+"Tato akce je také příležitostí předvést případové studie, metodiku nebo "
+"vývoj našich partnerů. Buďte u toho a podívejte se přímo ze zdroje na funkce "
+"verze 12!"
 >>>>>>> upstream/18.0
 =======
 "Tato akce je také příležitostí předvést případové studie, metodiku nebo "
@@ -140375,6 +141374,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This event is fully online and FREE, if you have paid for tickets, you should get a refund.<br>\n"
 "        It will require a good Internet connection to get the best video quality."
 msgstr ""
@@ -141188,6 +142188,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "This event is fully online and FREE, if you have paid for tickets, you "
 "should get a refund.<br>\n"
 "        It will require a good Internet connection to get the best video "
@@ -141359,6 +142361,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -141949,7 +142954,11 @@ msgid "This information will be printed on your tickets."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tyto informace budou vytištěny na vašich tiketech."
+>>>>>>> upstream/18.0
 =======
 msgstr "Tyto informace budou vytištěny na vašich tiketech."
 >>>>>>> upstream/18.0
@@ -142995,7 +144004,11 @@ msgid "This is the <b>name</b> your guests will see when registering."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Toto je <b>jméno</b>, které vaši hosté uvidí při registraci."
+>>>>>>> upstream/18.0
 =======
 msgstr "Toto je <b>jméno</b>, které vaši hosté uvidí při registraci."
 >>>>>>> upstream/18.0
@@ -143855,6 +144868,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Je to ideální místo pro strávení příjemného dne s rodinou, zaručujeme vám, "
+"že odjedete s krásnými vzpomínkami, které vám zůstanou navždy!"
+>>>>>>> upstream/18.0
 =======
 "Je to ideální místo pro strávení příjemného dne s rodinou, zaručujeme vám, "
 "že odjedete s krásnými vzpomínkami, které vám zůstanou navždy!"
@@ -144410,6 +145428,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Toto je ideální místo, kde můžete strávit příjemný čas se svými přáteli při "
+"poslechu některých z nejznámějších rockových písní všech dob!"
+>>>>>>> upstream/18.0
 =======
 "Toto je ideální místo, kde můžete strávit příjemný čas se svými přáteli při "
 "poslechu některých z nejznámějších rockových písní všech dob!"
@@ -145538,7 +146561,11 @@ msgid "This ticket is for another event!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vstupenka je na jinou událost!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vstupenka je na jinou událost!"
 >>>>>>> upstream/18.0
@@ -146036,7 +147063,11 @@ msgid "Ticket Instructions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pokyny pro tikety"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pokyny pro tikety"
 >>>>>>> upstream/18.0
@@ -146903,7 +147934,11 @@ msgid "Ticket already scanned!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vstupenka již naskenována!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vstupenka již naskenována!"
 >>>>>>> upstream/18.0
@@ -147224,7 +148259,11 @@ msgid "Ticket type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Typ tiketu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Typ tiketu"
 >>>>>>> upstream/18.0
@@ -147605,6 +148644,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Typy vstupenek vám umožňují rozlišovat účastníky. Pojďme <b>vytvořit</b> "
+"nový typ."
+>>>>>>> upstream/18.0
 =======
 "Typy vstupenek vám umožňují rozlišovat účastníky. Pojďme <b>vytvořit</b> "
 "nový typ."
@@ -148098,7 +149142,11 @@ msgid "Tickets can be printed or scanned directly from your phone."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vstupenky lze vytisknout nebo skenovat přímo z vašeho mobilu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Vstupenky lze vytisknout nebo skenovat přímo z vašeho mobilu."
 >>>>>>> upstream/18.0
@@ -148867,7 +149915,11 @@ msgid "Tickets with PoS"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Listky s PoS"
+>>>>>>> upstream/18.0
 =======
 msgstr "Listky s PoS"
 >>>>>>> upstream/18.0
@@ -149636,7 +150688,11 @@ msgid "Tickets with Sale"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Listky s Prodejem"
+>>>>>>> upstream/18.0
 =======
 msgstr "Listky s Prodejem"
 >>>>>>> upstream/18.0
@@ -150432,7 +151488,11 @@ msgid "Total Registrations for this Event"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Celkové registrace na tuto událost"
+>>>>>>> upstream/18.0
 =======
 msgstr "Celkové registrace na tuto událost"
 >>>>>>> upstream/18.0
@@ -151095,6 +152155,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Společnost Tree Dealers vnáší do dřevařského průmyslu poctivost a serióznost "
+"a zároveň pomáhá zákazníkům při péči o stromy, květiny a houby."
+>>>>>>> upstream/18.0
 =======
 "Společnost Tree Dealers vnáší do dřevařského průmyslu poctivost a serióznost "
 "a zároveň pomáhá zákazníkům při péči o stromy, květiny a houby."
@@ -151416,6 +152481,7 @@ msgstr "Nepotvrzené"
 #. module: event
 #: model:ir.model.fields,help:event.field_event_registration__state
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -152232,10 +153298,15 @@ msgid ""
 "Unconfirmed: registrations in a pending state waiting for an action "
 "(specific case, notably with sale status)\n"
 >>>>>>> upstream/18.0
+=======
+"Unconfirmed: registrations in a pending state waiting for an action "
+"(specific case, notably with sale status)\n"
+>>>>>>> upstream/18.0
 "Registered: registrations considered taken by a client\n"
 "Attended: registrations for which the attendee attended the event\n"
 "Cancelled: registrations cancelled manually"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -152495,6 +153566,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Nepotvrzené: registrace v čekacím stavu, které čekají na akci (konkrétní "
 "případ, zejména se stavem prodeje)\n"
 "Registrované: registrace považované za přijaté klientem\n"
@@ -152557,6 +153630,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -152751,6 +153827,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"V této technické nabídce najdete veškerou plánovanou komunikaci související "
+"s vašimi událostmi."
+>>>>>>> upstream/18.0
 =======
 "V této technické nabídce najdete veškerou plánovanou komunikaci související "
 "s vašimi událostmi."
@@ -153142,7 +154223,11 @@ msgid "Use Barcode"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Použít čárový kód"
+>>>>>>> upstream/18.0
 =======
 msgstr "Použít čárový kód"
 >>>>>>> upstream/18.0
@@ -153435,7 +154520,11 @@ msgid "Use Event Barcode"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Použít čárový kód události"
+>>>>>>> upstream/18.0
 =======
 msgstr "Použít čárový kód události"
 >>>>>>> upstream/18.0
@@ -153729,6 +154818,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Pomocí kategorií značek událostí můžete své značky událostí třídit a "
+"organizovat."
+>>>>>>> upstream/18.0
 =======
 "Pomocí kategorií značek událostí můžete své značky událostí třídit a "
 "organizovat."
@@ -154094,7 +155188,11 @@ msgid "Use the <b>breadcrumbs</b> to go back to your kanban overview."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pomocí navigace <b>breadcrumbs</b> se vraťte zpět do přehledu kanban."
+>>>>>>> upstream/18.0
 =======
 msgstr "Pomocí navigace <b>breadcrumbs</b> se vraťte zpět do přehledu kanban."
 >>>>>>> upstream/18.0
@@ -154387,7 +155485,11 @@ msgid "Used Seats"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Použité místa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Použité místa"
 >>>>>>> upstream/18.0
@@ -154700,7 +155802,11 @@ msgid "Venue"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Místo konání"
+>>>>>>> upstream/18.0
 =======
 msgstr "Místo konání"
 >>>>>>> upstream/18.0
@@ -154993,7 +156099,11 @@ msgid "Venue (formatted for one line uses)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Místo konání (formátováno pro použití v jednom řádku)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Místo konání (formátováno pro použití v jednom řádku)"
 >>>>>>> upstream/18.0
@@ -155280,7 +156390,11 @@ msgid "WARNING: Event Scheduler Error for event: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "VAROVÁNÍ: Chyba plánovače události pro akci: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "VAROVÁNÍ: Chyba plánovače události pro akci: %s"
 >>>>>>> upstream/18.0
@@ -155557,6 +156671,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Počkejte, až se účastníci zaregistrují na vaši akci, nebo je zaregistrujte "
+"ručně."
+>>>>>>> upstream/18.0
 =======
 "Počkejte, až se účastníci zaregistrují na vaši akci, nebo je zaregistrujte "
 "ručně."
@@ -155862,6 +156981,7 @@ msgstr "Varování"
 #: model_terms:event.event,description:event.event_3
 #: model_terms:event.event,description:event.event_5
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -156535,6 +157655,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "We reserve the right to cancel, re-name or re-locate the event or change the "
 "dates on which it is held in case the weather fails us."
 msgstr ""
@@ -156611,6 +157733,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -156854,7 +157979,11 @@ msgid "What's new?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Co je nového?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Co je nového?"
 >>>>>>> upstream/18.0
@@ -157151,6 +158280,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Kdy se má událost konat "
 "(vyjádřeno ve vašem místním časovém pásmu v zobrazení formuláře)."
@@ -157206,6 +158336,10 @@ msgstr ""
 =======
 "Kdy se má událost konat "
 "(vyjádřeno ve vašem místním časovém pásmu v zobrazení formuláře)."
+>>>>>>> upstream/18.0
+=======
+"Kdy se má událost konat (vyjádřeno ve vašem místním časovém pásmu v "
+"zobrazení formuláře)."
 >>>>>>> upstream/18.0
 =======
 "Kdy se má událost konat (vyjádřeno ve vašem místním časovém pásmu v "
@@ -157520,7 +158654,11 @@ msgid "Whether it is possible to sell these tickets"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zda je možné tyto vstupenky prodat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zda je možné tyto vstupenky prodat"
 >>>>>>> upstream/18.0
@@ -157813,7 +158951,11 @@ msgid "Whether seats are not available for this ticket."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zda jsou pro tuto jízdenku k dispozici volná místa."
+>>>>>>> upstream/18.0
 =======
 msgstr "Zda jsou pro tuto jízdenku k dispozici volná místa."
 >>>>>>> upstream/18.0
@@ -158106,7 +159248,11 @@ msgid "You are truly among the best."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jste opravdu mezi nejlepšími."
+>>>>>>> upstream/18.0
 =======
 msgstr "Jste opravdu mezi nejlepšími."
 >>>>>>> upstream/18.0
@@ -158327,6 +159473,7 @@ msgstr "Jste opravdu mezi nejlepšími."
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_stage_view_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -159144,6 +160291,10 @@ msgid ""
 "You can also add a description to help your coworkers understand the meaning "
 "and purpose of the stage."
 >>>>>>> upstream/18.0
+=======
+"You can also add a description to help your coworkers understand the meaning "
+"and purpose of the stage."
+>>>>>>> upstream/18.0
 msgstr ""
 "Můžete také přidat popis, který pomůže spolupracovníkům pochopit smysl a "
 "účel fáze."
@@ -159219,6 +160370,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Zde můžete definovat štítky, které budou zobrazeny jako stav místo výchozích "
+"štítků v zobrazení kanban."
+>>>>>>> upstream/18.0
 =======
 "Zde můžete definovat štítky, které budou zobrazeny jako stav místo výchozích "
 "štítků v zobrazení kanban."
@@ -159557,7 +160713,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nemůžete smazat dotaz, na který již účastnící odpověděli."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nemůžete smazat dotaz, na který již účastnící odpověděli."
 >>>>>>> upstream/18.0
@@ -159831,7 +160991,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odpověď, kterou již účastníci vybrali, nelze smazat."
+>>>>>>> upstream/18.0
 =======
 msgstr "Odpověď, kterou již účastníci vybrali, nelze smazat."
 >>>>>>> upstream/18.0
@@ -160305,7 +161469,11 @@ msgid "Your badge for {{ object.event_id.name }}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Váš odznak pro {{ object.event_id.name }}"
+>>>>>>> upstream/18.0
 =======
 msgstr "Váš odznak pro {{ object.event_id.name }}"
 >>>>>>> upstream/18.0
@@ -161322,7 +162490,11 @@ msgid "Your registration at {{ object.event_id.name }}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vaše registrace pro {{ object.event_id.name }}"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vaše registrace pro {{ object.event_id.name }}"
 >>>>>>> upstream/18.0
@@ -162158,7 +163330,11 @@ msgid "e.g. \"12-16 years old\""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "např. „12–16 let“"
+>>>>>>> upstream/18.0
 =======
 msgstr "např. „12–16 let“"
 >>>>>>> upstream/18.0
@@ -162451,7 +163627,11 @@ msgid "e.g. \"Age Category\""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "např. „Věková kategorie“"
+>>>>>>> upstream/18.0
 =======
 msgstr "např. „Věková kategorie“"
 >>>>>>> upstream/18.0
@@ -162744,7 +163924,11 @@ msgid "e.g. \"Azure Interior\""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "např. „Azure Interior“"
+>>>>>>> upstream/18.0
 =======
 msgstr "např. „Azure Interior“"
 >>>>>>> upstream/18.0
@@ -163038,7 +164222,11 @@ msgid "e.g. \"Do you have any diet restrictions?\""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "např. „Máte nějaké dietní omezení?“"
+>>>>>>> upstream/18.0
 =======
 msgstr "např. „Máte nějaké dietní omezení?“"
 >>>>>>> upstream/18.0
@@ -163331,7 +164519,11 @@ msgid "e.g. \"Promoting\""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "např. „Propagace“"
+>>>>>>> upstream/18.0
 =======
 msgstr "např. „Propagace“"
 >>>>>>> upstream/18.0
@@ -163631,7 +164823,11 @@ msgid "e.g. How to get to your event, door closing time, ..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "např. Jak se dostat na vaši akci, čas zavření dveří, ..."
+>>>>>>> upstream/18.0
 =======
 msgstr "např. Jak se dostat na vaši akci, čas zavření dveří, ..."
 >>>>>>> upstream/18.0
@@ -163924,7 +165120,11 @@ msgid "e.g. Online Conferences"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "např. online konference"
+>>>>>>> upstream/18.0
 =======
 msgstr "např. online konference"
 >>>>>>> upstream/18.0
@@ -164220,7 +165420,11 @@ msgid "events@penwood.example.com"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "events@penwood.example.com"
+>>>>>>> upstream/18.0
 =======
 msgstr "events@penwood.example.com"
 >>>>>>> upstream/18.0
@@ -164500,7 +165704,11 @@ msgid "https://www.example.com"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "https://www.example.com"
+>>>>>>> upstream/18.0
 =======
 msgstr "https://www.example.com"
 >>>>>>> upstream/18.0
@@ -164823,7 +166031,11 @@ msgid "organizer@email.com"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "organizer@email.com"
+>>>>>>> upstream/18.0
 =======
 msgstr "organizer@email.com"
 >>>>>>> upstream/18.0
@@ -165119,6 +166331,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"registrace byly zahájeny, pokud je aktuální datum a čas pozdější než "
+"nejbližší datum zahájení prodeje vstupenek."
+>>>>>>> upstream/18.0
 =======
 "registrace byly zahájeny, pokud je aktuální datum a čas pozdější než "
 "nejbližší datum zahájení prodeje vstupenek."
@@ -165483,7 +166700,11 @@ msgid "reserved"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "rezervováno"
+>>>>>>> upstream/18.0
 =======
 msgstr "rezervováno"
 >>>>>>> upstream/18.0
@@ -165975,6 +167196,7 @@ msgid "{{ object.event_id.name }}: {{ object.event_date_range }}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "{{ object.event_id.name }}: {{ object.event_date_range }}"
@@ -166247,6 +167469,8 @@ msgstr "{{ object.event_id.name }}: {{ object.event_date_range }}"
 msgstr "{{ object.event_id.name }}: {{ object.event_date_range }}"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -167503,6 +168727,9 @@ msgstr "{{ object.event_id.name }}: {{ object.event_date_range }}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
