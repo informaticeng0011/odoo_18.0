@@ -157,6 +157,10 @@ from . import test_string_to_hash
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import test_hash
+>>>>>>> upstream/18.0
 =======
 from . import test_hash
 >>>>>>> upstream/18.0

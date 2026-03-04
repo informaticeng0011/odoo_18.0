@@ -1,6 +1,10 @@
 import uuid
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from unittest.mock import patch
+>>>>>>> upstream/18.0
 =======
 from unittest.mock import patch
 >>>>>>> upstream/18.0
@@ -367,6 +371,7 @@ class TestSaleOrderDownPayment(TestSaleCommon):
         self._assert_invoice_lines_values(invoice.line_ids, expected)
 
     def test_tax_fixed_amount_breakdown(self):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -983,6 +988,8 @@ class TestSaleOrderDownPayment(TestSaleCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         tax_10_fix_a = self.create_tax(10, {'amount_type': 'fixed', 'include_base_amount': True, 'sequence': 1})
         tax_10_fix_b = self.create_tax(10, {'amount_type': 'fixed', 'include_base_amount': True, 'sequence': 3})
         tax_10_fix_c = self.create_tax(10, {'amount_type': 'fixed', 'sequence': 5})
@@ -1193,6 +1200,9 @@ class TestSaleOrderDownPayment(TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1944,12 +1954,15 @@ class TestSaleOrderDownPayment(TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         tax_10_fix_a = self.create_tax(10, {'amount_type': 'fixed', 'include_base_amount': True})
         tax_10_fix_b = self.create_tax(10, {'amount_type': 'fixed', 'include_base_amount': True})
         tax_10_fix_c = self.create_tax(10, {'amount_type': 'fixed'})
         tax_10_a = self.tax_10
         tax_10_b = self.create_tax(10)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2566,6 +2579,9 @@ class TestSaleOrderDownPayment(TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3562,7 +3578,10 @@ class TestSaleOrderDownPayment(TestSaleCommon):
         self.assertEqual(reversal_move.move_type, 'out_refund')
         self.assertIn('ref', so_dp_line.name)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_tax_fixed_amount_invoice_require_tax(self):
         tax_fix = self.create_tax(5, {'amount_type': 'fixed'})
@@ -3592,4 +3611,7 @@ class TestSaleOrderDownPayment(TestSaleCommon):
             sale_order.action_confirm()
             tax_0 = self.env['account.tax'].search([('amount', '=', 0), ('amount_type', '=', 'percent')], limit=1)
             self.assertEqual(sale_order.invoice_ids.line_ids.filtered(lambda l: l.is_downpayment).tax_ids, tax_0)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

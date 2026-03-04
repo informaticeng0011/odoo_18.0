@@ -49,11 +49,14 @@ import { registry } from "@web/core/registry";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 registry.category("web_tour.tours").add("portal_rating_tour", {
     steps: () => [
         {
             trigger: "#chatterRoot:shadow :not(:has(.o_website_rating_card_container))",
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -208,6 +211,9 @@ registry.category("web_tour.tours").add("portal_rating_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -364,6 +370,7 @@ registry.category("web_tour.tours").add("portal_rating_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: "#chatterRoot:shadow .o_website_rating_card_container",
         },
         {
@@ -371,6 +378,8 @@ registry.category("web_tour.tours").add("portal_rating_tour", {
         },
         
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -537,6 +546,9 @@ registry.category("web_tour.tours").add("portal_not_display_rating_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -213,7 +213,11 @@ Toledo8217Protocol = SerialProtocol(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     statusRegexp=b"\x02\\s*(\\?.)\\r",
+=======
+    statusRegexp=b"\x02\\s*\\?([^\x00])\\r",
+>>>>>>> upstream/18.0
 =======
     statusRegexp=b"\x02\\s*\\?([^\x00])\\r",
 >>>>>>> upstream/18.0
@@ -804,6 +808,10 @@ class ScaleDriver(SerialDriver):
         self._set_actions()
         self._is_reading = True
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.tare_mode = False
+>>>>>>> upstream/18.0
 =======
         self.tare_mode = False
 >>>>>>> upstream/18.0
@@ -873,11 +881,17 @@ class ScaleDriver(SerialDriver):
         match = re.search(self._protocol.measureRegexp, answer)
         if match:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             if self.net_weight_char and self.net_weight_char in answer:
                 self.tare_mode = True
             else:
                 self.tare_mode = False
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             self.data = {
                 'value': float(match.group(1)),
@@ -1062,6 +1076,11 @@ class ScaleDriver(SerialDriver):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        else:
+            self._read_status(answer)
+>>>>>>> upstream/18.0
 =======
         else:
             self._read_status(answer)
@@ -1804,6 +1823,10 @@ class Toledo8217Driver(ScaleDriver):
         super(Toledo8217Driver, self).__init__(identifier, device)
         self.device_manufacturer = 'Toledo'
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.net_weight_char = b'N'
+>>>>>>> upstream/18.0
 =======
         self.net_weight_char = b'N'
 >>>>>>> upstream/18.0
@@ -2013,6 +2036,7 @@ class Toledo8217Driver(ScaleDriver):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -2335,6 +2359,8 @@ class Toledo8217Driver(ScaleDriver):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2390,6 +2416,9 @@ class Toledo8217Driver(ScaleDriver):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2450,6 +2479,12 @@ class Toledo8217Driver(ScaleDriver):
             for index, bit in enumerate(binary_status_char[1:][::-1]):  # Read the bits in reverse order (LSB is at the last char) + ignore the first "parity" bit
                 if int(bit):
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    # Ignore the 'Net weight' error as it's normal in tare mode
+                    if index == 5 and self.tare_mode:
+                        continue
+>>>>>>> upstream/18.0
 =======
                     # Ignore the 'Net weight' error as it's normal in tare mode
                     if index == 5 and self.tare_mode:
@@ -2640,6 +2675,9 @@ class Toledo8217Driver(ScaleDriver):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3010,6 +3048,10 @@ class AdamEquipmentDriver(ScaleDriver):
         self._last_weight_time = 0
         self.device_manufacturer = 'Adam'
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.net_weight_char = b''
+>>>>>>> upstream/18.0
 =======
         self.net_weight_char = b''
 >>>>>>> upstream/18.0
@@ -3254,6 +3296,12 @@ class AdamEquipmentDriver(ScaleDriver):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+    def _read_status(self, answer):
+        pass
+>>>>>>> upstream/18.0
 =======
 
     def _read_status(self, answer):

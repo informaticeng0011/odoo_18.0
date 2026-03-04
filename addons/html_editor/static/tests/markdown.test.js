@@ -78,7 +78,11 @@ describe("inline code", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should convert text into inline code (start)", async () => {
+=======
+    test("should convert text into inline code (start) (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should convert text into inline code (start) (1)", async () => {
 >>>>>>> upstream/18.0
@@ -380,6 +384,12 @@ describe("inline code", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should convert text into inline code (start) (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -832,7 +842,11 @@ describe("inline code", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should convert text into inline code (middle)", async () => {
+=======
+    test("should convert text into inline code (middle) (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should convert text into inline code (middle) (1)", async () => {
 >>>>>>> upstream/18.0
@@ -1134,6 +1148,12 @@ describe("inline code", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should convert text into inline code (middle) (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -1586,7 +1606,11 @@ describe("inline code", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should convert text into inline code (end)", async () => {
+=======
+    test("should convert text into inline code (end) (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should convert text into inline code (end) (1)", async () => {
 >>>>>>> upstream/18.0
@@ -1888,6 +1912,12 @@ describe("inline code", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should convert text into inline code (end) (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -2340,7 +2370,11 @@ describe("inline code", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should convert text into inline code, with parasite backticks", async () => {
+=======
+    test("should convert text into inline code, with parasite backticks (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should convert text into inline code, with parasite backticks (1)", async () => {
 >>>>>>> upstream/18.0
@@ -2643,6 +2677,12 @@ describe("inline code", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should convert text into inline code, with parasite backticks (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -3119,7 +3159,11 @@ describe("inline code", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should convert text into inline code even when text nodes are split", async () => {
+=======
+    test("should convert text into inline code even when text nodes are split (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should convert text into inline code even when text nodes are split (1)", async () => {
 >>>>>>> upstream/18.0
@@ -3429,6 +3473,12 @@ describe("inline code", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should convert text into inline code even when text nodes are split (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -3878,7 +3928,10 @@ describe("inline code", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4102,6 +4155,9 @@ describe("inline code", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4327,6 +4383,12 @@ describe("inline code", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should convert text into inline code even when text nodes are split (3)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -4777,7 +4839,10 @@ describe("inline code", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5001,6 +5066,9 @@ describe("inline code", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5228,7 +5296,11 @@ describe("inline code", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should convert text into inline code even when the other backtick is in a separate text node", async () => {
+=======
+    test("should convert text into inline code even when the other backtick is in a separate text node (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should convert text into inline code even when the other backtick is in a separate text node (1)", async () => {
 >>>>>>> upstream/18.0
@@ -5538,6 +5610,12 @@ describe("inline code", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should convert text into inline code even when the other backtick is in a separate text node (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -5987,7 +6065,10 @@ describe("inline code", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6211,6 +6292,9 @@ describe("inline code", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6438,7 +6522,11 @@ describe("inline code", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should not convert text into inline code when content is empty", async () => {
+=======
+    test("should not convert text into inline code when content is empty (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should not convert text into inline code when content is empty (1)", async () => {
 >>>>>>> upstream/18.0
@@ -6740,6 +6828,12 @@ describe("inline code", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should not convert text into inline code when content is empty (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -7189,6 +7283,12 @@ describe("inline code", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should not convert text into inline code when content is empty (3)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -7638,6 +7738,12 @@ describe("inline code", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should not convert text into inline code when content is empty (4)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 

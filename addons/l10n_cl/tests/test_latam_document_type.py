@@ -82,7 +82,10 @@ class TestClLatamDocumentType(AccountTestInvoicingCommon):
             'l10n_latam_document_type_id': document_type_46.id,
         }])
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_miscellaneous_journal_skip_numeric_folio_validation(self):
         """Ensure numeric folio validation is skipped for miscellaneous entries."""
@@ -91,4 +94,7 @@ class TestClLatamDocumentType(AccountTestInvoicingCommon):
             'journal_id': self.env['account.journal'].search([('type', '=', 'general')], limit=1).id,
             'l10n_latam_document_number': 'ABC123',
         })
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -95,7 +95,11 @@ class L10nHuEdiTaxAuditExport(models.TransientModel):
                 # To correctly generate the XML for invoices created before l10n_hu_edi was installed,
                 # we need to temporarily set the chain index and line numbers, so we do this in a savepoint.
 <<<<<<< HEAD
+<<<<<<< HEAD
                 with contextlib.closing(self.env.cr.savepoint(flush=False)):
+=======
+                with contextlib.closing(self.env.cr.savepoint()):
+>>>>>>> upstream/18.0
 =======
                 with contextlib.closing(self.env.cr.savepoint()):
 >>>>>>> upstream/18.0

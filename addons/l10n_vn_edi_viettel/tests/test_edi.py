@@ -211,7 +211,11 @@ class TestVNEDI(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'city': 'Hoan Kiem District',
+=======
+            'city': 'Hà Nội',
+>>>>>>> upstream/18.0
 =======
             'city': 'Hà Nội',
 >>>>>>> upstream/18.0
@@ -981,8 +985,12 @@ class TestVNEDI(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'buyerDistrictName': 'Hà Nội',
                     'buyerCityName': 'Hoan Kiem District',
+=======
+                    'buyerCityName': 'Hà Nội',
+>>>>>>> upstream/18.0
 =======
                     'buyerCityName': 'Hà Nội',
 >>>>>>> upstream/18.0
@@ -1573,7 +1581,11 @@ class TestVNEDI(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'itemName': 'product_a',
+=======
+                    'itemName': '[BN/1035] product_a',
+>>>>>>> upstream/18.0
 =======
                     'itemName': '[BN/1035] product_a',
 >>>>>>> upstream/18.0
@@ -1816,7 +1828,10 @@ class TestVNEDI(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2049,6 +2064,9 @@ class TestVNEDI(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2200,6 +2218,7 @@ class TestVNEDI(AccountTestInvoicingCommon):
         # 2. Check the itemInfo to ensure that the values make sense
         expected = {
             'unitPrice': -100.0,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2722,6 +2741,8 @@ class TestVNEDI(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             'itemTotalAmountWithoutTax': 100.0,
             'taxAmount': 10.0,
             'itemTotalAmountWithTax': 110.0,
@@ -2898,6 +2919,9 @@ class TestVNEDI(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3365,7 +3389,11 @@ class TestVNEDI(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(json_data['generalInvoiceInfo']['exchangeRate'], 0.5)
+=======
+        self.assertEqual(json_data['generalInvoiceInfo']['exchangeRate'], "0.50")
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(json_data['generalInvoiceInfo']['exchangeRate'], "0.50")
 >>>>>>> upstream/18.0
@@ -3690,7 +3718,10 @@ class TestVNEDI(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3828,6 +3859,9 @@ class TestVNEDI(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

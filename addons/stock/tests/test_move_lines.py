@@ -26,6 +26,10 @@ from freezegun import freeze_time
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo import Command
+>>>>>>> upstream/18.0
 =======
 from odoo import Command
 >>>>>>> upstream/18.0
@@ -346,7 +350,10 @@ class StockMoveLine(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -444,6 +451,7 @@ class StockMoveLine(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -486,6 +494,8 @@ class StockMoveLine(TestStockCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_action_detailed_operations_domain_includes_new_lines(self):
         """Test that newly created move lines remain visible in detailed operations view."""
@@ -518,4 +528,7 @@ class StockMoveLine(TestStockCommon):
             'quantity': 5.0,
         })
         self.assertEqual(initial_move_line | new_move_line, self.env['stock.move.line'].search(action['domain']))
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

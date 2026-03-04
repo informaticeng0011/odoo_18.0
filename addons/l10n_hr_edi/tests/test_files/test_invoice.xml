@@ -31,7 +31,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:hrextac="urn:hzn.hr:schema:xsd:HRExtensionAggregateComponents-1">
+=======
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:hrextac="urn:mfin.gov.hr:schema:xsd:HRExtensionAggregateComponents-1">
+>>>>>>> upstream/18.0
 =======
 <Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:hrextac="urn:mfin.gov.hr:schema:xsd:HRExtensionAggregateComponents-1">
 >>>>>>> upstream/18.0
@@ -148,6 +152,7 @@
             </hrextac:HRTaxSubtotal>
           </hrextac:HRTaxTotal>
           <hrextac:HRLegalMonetaryTotal>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -344,6 +349,10 @@
             <cbc:TaxExclusiveAmount currencyID="EUR">100.00</cbc:TaxExclusiveAmount>
             <hrextac:OutOfScopeOfVATAmount currencyID="EUR">0.00</hrextac:OutOfScopeOfVATAmount>
 >>>>>>> upstream/18.0
+=======
+            <cbc:TaxExclusiveAmount currencyID="EUR">100.00</cbc:TaxExclusiveAmount>
+            <hrextac:OutOfScopeOfVATAmount currencyID="EUR">0.00</hrextac:OutOfScopeOfVATAmount>
+>>>>>>> upstream/18.0
           </hrextac:HRLegalMonetaryTotal>
         </hrextac:HRFISK20Data>
       </ext:ExtensionContent>
@@ -367,7 +376,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <cbc:EndpointID schemeID="9934">HR68139364755</cbc:EndpointID>
+=======
+      <cbc:EndpointID schemeID="9934">68139364755</cbc:EndpointID>
+>>>>>>> upstream/18.0
 =======
       <cbc:EndpointID schemeID="9934">68139364755</cbc:EndpointID>
 >>>>>>> upstream/18.0
@@ -420,7 +433,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <cbc:EndpointID schemeID="9934">HR08971065561</cbc:EndpointID>
+=======
+      <cbc:EndpointID schemeID="9934">08971065561</cbc:EndpointID>
+>>>>>>> upstream/18.0
 =======
       <cbc:EndpointID schemeID="9934">08971065561</cbc:EndpointID>
 >>>>>>> upstream/18.0

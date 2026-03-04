@@ -142,6 +142,7 @@ from odoo.addons.account.tests.test_account_move_send import TestAccountMoveSend
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.l10n_it_edi.tests.common import TestItEdi
 
 @tagged('post_install_l10n', 'post_install', '-at_install')
@@ -869,6 +870,8 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 from odoo.addons.account_edi_proxy_client.models.account_edi_proxy_user import AccountEdiProxyError
 from odoo.addons.l10n_it_edi.tests.common import TestItEdi
 
@@ -1019,6 +1022,9 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1301,6 +1307,7 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
             invoices |= super().init_invoice(
                 "out_invoice",
                 partner=partner,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2804,6 +2811,11 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
                 amounts=[1000],
                 taxes=taxes or self.default_tax,
 >>>>>>> upstream/18.0
+=======
+                company=company or self.company,
+                amounts=[1000],
+                taxes=taxes or self.default_tax,
+>>>>>>> upstream/18.0
                 post=True)
         return invoices
 
@@ -2953,7 +2965,10 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3373,6 +3388,9 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3994,7 +4012,10 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4665,7 +4686,11 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with patch('odoo.addons.l10n_it_edi.models.account_move.AccountMove._l10n_it_edi_upload', return_value={}, autospec=True) as mock_check:
+=======
+        with patch('odoo.addons.l10n_it_edi.models.account_move.AccountMove._l10n_it_edi_upload_single', return_value={}, autospec=True) as mock_check:
+>>>>>>> upstream/18.0
 =======
         with patch('odoo.addons.l10n_it_edi.models.account_move.AccountMove._l10n_it_edi_upload_single', return_value={}, autospec=True) as mock_check:
 >>>>>>> upstream/18.0
@@ -5340,6 +5365,7 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5562,6 +5588,8 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6046,6 +6074,7 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6242,6 +6271,8 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6380,6 +6411,9 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

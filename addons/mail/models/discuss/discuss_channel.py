@@ -233,7 +233,10 @@ class Channel(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ('channel_type_not_null', 'CHECK(channel_type IS NOT NULL)', 'The channel type cannot be empty'),
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -904,7 +907,11 @@ class Channel(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             membership_pids = [cmd[2]['partner_id'] for cmd in membership_ids_cmd if cmd[0] == 0]
+=======
+            membership_pids = [cmd[2]['partner_id'] for cmd in membership_ids_cmd if cmd[0] == 0 and 'partner_id' in cmd[2]]
+>>>>>>> upstream/18.0
 =======
             membership_pids = [cmd[2]['partner_id'] for cmd in membership_ids_cmd if cmd[0] == 0 and 'partner_id' in cmd[2]]
 >>>>>>> upstream/18.0
@@ -1985,6 +1992,10 @@ class Channel(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        msg_vals = msg_vals or {}
+>>>>>>> upstream/18.0
 =======
         msg_vals = msg_vals or {}
 >>>>>>> upstream/18.0
@@ -2608,7 +2619,12 @@ class Channel(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Automatically set the message posted by the current user as seen for themselves.
+=======
+            - Automatically set the message posted by the current user as seen for themselves.
+            - Invite mentioned partners to sub-channel.
+>>>>>>> upstream/18.0
 =======
             - Automatically set the message posted by the current user as seen for themselves.
             - Invite mentioned partners to sub-channel.
@@ -2780,7 +2796,10 @@ class Channel(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2890,6 +2909,9 @@ class Channel(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3152,7 +3174,10 @@ class Channel(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3685,6 +3710,9 @@ class Channel(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4724,6 +4752,7 @@ class Channel(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 msg = _(
                     "You are in a private conversation with %(member_names)s.",
                     member_names=html_escape(
@@ -4734,6 +4763,8 @@ class Channel(models.Model):
                         for member in members
                     },
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5257,6 +5288,9 @@ class Channel(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5808,6 +5842,7 @@ class Channel(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             msg = _(
                 "Users in this channel: %(members)s.",
                 members=html_escape(format_list(self.env, list_params))
@@ -5816,6 +5851,8 @@ class Channel(models.Model):
                     for member in members
                 },
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6339,6 +6376,9 @@ class Channel(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

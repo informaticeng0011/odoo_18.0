@@ -499,7 +499,12 @@ export function isVisible(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             isProtecting(node))
+=======
+            isProtecting(node) ||
+            isEmbeddedComponent(node))
+>>>>>>> upstream/18.0
 =======
             isProtecting(node) ||
             isEmbeddedComponent(node))
@@ -1673,6 +1678,11 @@ export const ICON_SELECTOR = iconTags
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+export const EDITABLE_MEDIA_CLASS = "o_editable_media";
+
+>>>>>>> upstream/18.0
 =======
 export const EDITABLE_MEDIA_CLASS = "o_editable_media";
 
@@ -2732,7 +2742,10 @@ export function containsAnyNonPhrasingContent(element) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3451,6 +3464,9 @@ export function isEmbeddedComponent(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4157,9 +4173,13 @@ export function isUnprotecting(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 // TODO add: this list should contain PRE, but the spec currently is to
 // paste flow content inside the PRE, so it is removed temporarily.
 export const paragraphRelatedElements = ["P", "H1", "H2", "H3", "H4", "H5", "H6"];
+=======
+export const paragraphRelatedElements = ["P", "H1", "H2", "H3", "H4", "H5", "H6", "PRE"];
+>>>>>>> upstream/18.0
 =======
 export const paragraphRelatedElements = ["P", "H1", "H2", "H3", "H4", "H5", "H6", "PRE"];
 >>>>>>> upstream/18.0
@@ -4903,7 +4923,11 @@ const allowedContent = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     PRE: flowContent, // HTML spec: phrasing content
+=======
+    PRE: phrasingContent,
+>>>>>>> upstream/18.0
 =======
     PRE: phrasingContent,
 >>>>>>> upstream/18.0
@@ -5689,7 +5713,10 @@ export function areSimilarElements(node, node2) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5857,6 +5884,9 @@ export function areSimilarElements(node, node2) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6205,6 +6235,7 @@ export function isContentEditableAncestor(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -6439,6 +6470,8 @@ export function isContentEditableAncestor(node) {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6743,6 +6776,9 @@ function hasStylesSubset(node, node2) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7035,8 +7071,13 @@ function hasStylesSubset(node, node2) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  *   - All classes exist in the closest element's class list.
  *   - All inline styles are present in the closest element's style attribute.
+=======
+ *   - All classes exist in the closest element's class list (subset check).
+ *   - All inline styles are present in the closest element's style attribute (subset check).
+>>>>>>> upstream/18.0
 =======
  *   - All classes exist in the closest element's class list (subset check).
  *   - All inline styles are present in the closest element's style attribute (subset check).
@@ -7539,9 +7580,13 @@ export function isRedundantElement(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const nodeClasses = nodeAttrVal.trim().split(/\s+/);
             const closestElClasses = closestElAttrVal.trim().split(/\s+/);
             if (!nodeClasses.every((cls) => closestElClasses.includes(cls))) {
+=======
+            if (!hasClassesSubset(nodeAttrVal, closestElAttrVal)) {
+>>>>>>> upstream/18.0
 =======
             if (!hasClassesSubset(nodeAttrVal, closestElAttrVal)) {
 >>>>>>> upstream/18.0
@@ -7926,6 +7971,7 @@ export function isRedundantElement(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const nodeStyles = nodeAttrVal
                 .split(";")
                 .map((style) => style.trim())
@@ -7935,6 +7981,9 @@ export function isRedundantElement(node) {
                 .map((style) => style.trim())
                 .filter(Boolean);
             if (!nodeStyles.every((style) => closestElStyles.includes(style))) {
+=======
+            if (!hasStylesSubset(nodeAttrVal, closestElAttrVal)) {
+>>>>>>> upstream/18.0
 =======
             if (!hasStylesSubset(nodeAttrVal, closestElAttrVal)) {
 >>>>>>> upstream/18.0
@@ -8443,6 +8492,7 @@ export function isRedundantElement(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8825,6 +8875,11 @@ export function isRedundantElement(node) {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+// Selector for QWeb-specific attributes
+export const PROTECTED_QWEB_SELECTOR = "[t-esc], [t-raw], [t-out], [t-field]";
 >>>>>>> upstream/18.0
 =======
 

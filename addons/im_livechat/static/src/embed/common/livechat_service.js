@@ -11,6 +11,10 @@ import { registry } from "@web/core/registry";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { Deferred } from "@web/core/utils/concurrency";
+>>>>>>> upstream/18.0
 =======
 import { Deferred } from "@web/core/utils/concurrency";
 >>>>>>> upstream/18.0
@@ -148,6 +152,7 @@ export class LivechatService {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -168,6 +173,8 @@ export class LivechatService {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         if (this._persistDeferred) {
             return this._persistDeferred;
         }
@@ -176,6 +183,9 @@ export class LivechatService {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -205,6 +215,7 @@ export class LivechatService {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         this._persistResolvers.resolve(this.thread);
         this._persistResolvers = null;
@@ -212,6 +223,10 @@ export class LivechatService {
 =======
         this._persistResolvers.resolve(this.thread);
         this._persistResolvers = null;
+>>>>>>> upstream/18.0
+=======
+        this._persistDeferred.resolve(this.thread);
+        this._persistDeferred = null;
 >>>>>>> upstream/18.0
 =======
         this._persistDeferred.resolve(this.thread);
@@ -317,9 +332,13 @@ export class LivechatService {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 chatbot_script_id: this.savedState
                     ? this.thread.chatbot?.script.id
                     : this.rule.chatbotScript?.id,
+=======
+                chatbot_script_id: this.thread?.chatbot?.script.id ?? this.rule.chatbotScript?.id,
+>>>>>>> upstream/18.0
 =======
                 chatbot_script_id: this.thread?.chatbot?.script.id ?? this.rule.chatbotScript?.id,
 >>>>>>> upstream/18.0

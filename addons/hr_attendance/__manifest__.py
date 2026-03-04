@@ -209,6 +209,12 @@ actions(Check in/Check out) performed by them.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'web.assets_unit_tests': [
+            'hr_attendance/static/tests/*.test.js',
+        ],
+>>>>>>> upstream/18.0
 =======
         'web.assets_unit_tests': [
             'hr_attendance/static/tests/*.test.js',

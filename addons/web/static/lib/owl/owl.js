@@ -698,7 +698,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const NO_OP = () => { };
+=======
+    const NO_OP$1 = () => { };
+>>>>>>> upstream/18.0
 =======
     const NO_OP$1 = () => { };
 >>>>>>> upstream/18.0
@@ -1084,7 +1088,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         updateData: NO_OP,
+=======
+                        updateData: NO_OP$1,
+>>>>>>> upstream/18.0
 =======
                         updateData: NO_OP$1,
 >>>>>>> upstream/18.0
@@ -1766,6 +1774,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                fibersInError.set(current, error);
+>>>>>>> upstream/18.0
 =======
                 fibersInError.set(current, error);
 >>>>>>> upstream/18.0
@@ -2568,6 +2580,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             render = batched(node.render.bind(node, false));
             batchedRenderFunctions.set(node, render);
             // manual implementation of onWillDestroy to break cyclic dependency
@@ -2576,6 +2589,8 @@
         return reactive(state, render);
     }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2628,6 +2643,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4300,8 +4318,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const TRANSLATABLE_ATTRS = ["label", "title", "placeholder", "alt"];
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4864,6 +4885,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6073,7 +6097,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const n = ast.content.filter((c) => c.type !== 6 /* TSet */).length;
+=======
+                const n = ast.content.filter((c) => !c.hasNoRepresentation).length;
+>>>>>>> upstream/18.0
 =======
                 const n = ast.content.filter((c) => !c.hasNoRepresentation).length;
 >>>>>>> upstream/18.0
@@ -6731,6 +6759,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const isTSet = child.type === 6 /* TSet */;
                 const subCtx = createContext(ctx, {
                     block,
@@ -6741,6 +6770,8 @@
                 this.compileAST(child, subCtx);
                 if (!isTSet) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7230,6 +7261,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8151,6 +8185,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             parseTEscNode(node, ctx) ||
             parseTOutNode(node, ctx) ||
             parseTKey(node, ctx) ||
@@ -8599,6 +8634,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             parseTTranslation(node, ctx) ||
             parseTTranslationContext(node, ctx) ||
             parseTKey(node, ctx) ||
@@ -8764,6 +8801,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9313,11 +9353,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return {
                 type: 12 /* TDebug */,
                 content: parseNode(node, ctx),
             };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9807,6 +9850,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10293,12 +10339,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return {
                 type: 13 /* TLog */,
                 expr,
                 content: parseNode(node, ctx),
             };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10789,6 +10838,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11500,12 +11552,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const body = parseNode(node, ctx);
         if (!body) {
             return null;
         }
         return { type: 10 /* TKey */, expr: key, content: body };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11999,6 +12054,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12589,7 +12647,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return { type: 6 /* TSet */, name, value, defaultValue, body };
+=======
+        return { type: 6 /* TSet */, name, value, defaultValue, body, hasNoRepresentation: true };
+>>>>>>> upstream/18.0
 =======
         return { type: 6 /* TSet */, name, value, defaultValue, body, hasNoRepresentation: true };
 >>>>>>> upstream/18.0
@@ -13412,7 +13474,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13900,6 +13965,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14387,11 +14455,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return {
             type: 16 /* TTranslation */,
             content: parseNode(node, ctx),
         };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14878,6 +14949,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15364,7 +15438,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15856,6 +15933,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16344,12 +16424,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return {
             type: 17 /* TTranslationContext */,
             content: parseNode(node, ctx),
             translationCtx,
         };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16836,6 +16919,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17362,7 +17448,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17850,6 +17939,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18344,7 +18436,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 return { type: 3 /* Multi */, content: children };
+=======
+                return makeASTMulti(children);
+>>>>>>> upstream/18.0
 =======
                 return makeASTMulti(children);
 >>>>>>> upstream/18.0
@@ -19116,6 +19212,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const version = "2.7.0";
 =======
     const version = "2.8.0";
@@ -19672,6 +19769,9 @@
 =======
     const version = "2.8.2";
 >>>>>>> upstream/18.0
+=======
+    const version = "2.8.2";
+>>>>>>> upstream/18.0
 
     // -----------------------------------------------------------------------------
     //  Scheduler
@@ -20180,6 +20280,7 @@
     Object.defineProperty(exports, '__esModule', { value: true });
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21050,6 +21151,10 @@
 =======
     __info__.date = '2025-09-23T07:17:45.055Z';
     __info__.hash = '5211116';
+>>>>>>> upstream/18.0
+=======
+    __info__.date = '2026-01-30T07:49:47.618Z';
+    __info__.hash = '52abf8d';
 >>>>>>> upstream/18.0
 =======
     __info__.date = '2026-01-30T07:49:47.618Z';
