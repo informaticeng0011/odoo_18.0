@@ -140,7 +140,13 @@ class TestTRNilveraMockedRequests(TestUBLTRCommon):
 
         invoices_data = {
 <<<<<<< HEAD
+<<<<<<< HEAD
             invoice: {**invoice.read()[0], 'extra_edis': {'tr_nilvera'}}
+=======
+            invoice: {
+                **self.env['account.move.send']._get_default_sending_settings(invoice),
+            }
+>>>>>>> upstream/18.0
 =======
             invoice: {
                 **self.env['account.move.send']._get_default_sending_settings(invoice),

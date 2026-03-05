@@ -102,6 +102,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sale_timesheet
 # 
 # Translators:
@@ -109,6 +110,8 @@
 # Wil Odoo, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -418,6 +421,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -612,6 +616,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# "Marta (wacm)" <wacm@odoo.com>, 2026.
 >>>>>>> upstream/18.0
 =======
 # "Marta (wacm)" <wacm@odoo.com>, 2026.
@@ -629,6 +636,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1139,12 +1147,18 @@ msgstr ""
 "PO-Revision-Date: 2026-02-25 12:25+0000\n"
 "Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+"PO-Revision-Date: 2026-02-25 12:25+0000\n"
+"Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Czech <https://translate.odoo.com/projects/odoo-18/"
 "sale_timesheet/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1737,6 +1751,11 @@ msgstr ""
 "(n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : "
+"(n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #. odoo-python
@@ -1841,7 +1860,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    Track your working hours by projects every day and invoice this time to your customers.\n"
+=======
+"                    Track your working hours by projects every day and "
+"invoice this time to your customers.\n"
+>>>>>>> upstream/18.0
 =======
 "                    Track your working hours by projects every day and "
 "invoice this time to your customers.\n"
@@ -2324,7 +2348,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    Každý den můžete sledovat své pracovní hodiny podle projektů a fakturovat tento čas svým zákazníkům.\n"
+=======
+"                    Každý den můžete sledovat své pracovní hodiny podle "
+"projektů a fakturovat tento čas svým zákazníkům.\n"
+>>>>>>> upstream/18.0
 =======
 "                    Každý den můžete sledovat své pracovní hodiny podle "
 "projektů a fakturovat tento čas svým zákazníkům.\n"
@@ -2812,9 +2841,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    You can register and track your workings hours by project every\n"
 "                    day. Every time spent on a project will become a cost and can be re-invoiced to\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3101,6 +3133,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3393,9 +3428,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    Své pracovní hodiny můžete evidovat a sledovat podle jednotlivých projektů každý\n"
 "                    den. Každý čas strávený na projektu se stane nákladem a může být přefakturován \n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3682,6 +3720,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4034,9 +4075,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            Define the rate at which an employee's time is billed based on their expertise, skills, or experience.\n"
 "                            To bill the same service at a different rate, create separate sales order items.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4323,6 +4367,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4702,11 +4749,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "According to product configuration, the delivered quantity can be automatically computed by mechanism:\n"
 "  - Manual: the quantity is set manually on the line\n"
 "  - Analytic From expenses: the quantity is the quantity sum from posted expenses\n"
 "  - Timesheet: the quantity is the sum of hours recorded on tasks linked to this sale line\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4996,6 +5046,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5284,12 +5337,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "  - Analytický Z výdajů: množství je součtem množství ze zaúčtovaných výdajů.\n"
 "  - Timesheet: množství je součtem hodin zaznamenaných na úkolech spojených s touto prodejní položkou.\n"
 "  - Skladové pohyby: množství pochází z potvrzených vyskladnění\n"
 
 #. module: sale_timesheet
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5584,6 +5640,9 @@ msgstr "Storno účetního záznamu"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5910,8 +5969,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Zaměstnance nelze pro mapování vybrat více než jednou. Vymažte duplikát(y) a"
 " zkuste to znovu."
+=======
+"Zaměstnance nelze pro mapování vybrat více než jednou. Vymažte duplikát(y) a "
+"zkuste to znovu."
+>>>>>>> upstream/18.0
 =======
 "Zaměstnance nelze pro mapování vybrat více než jednou. Vymažte duplikát(y) a "
 "zkuste to znovu."
@@ -6404,6 +6468,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        to create and deploy disruptive products.</b> Come work at a growing company\n"
 "                        that offers great benefits with opportunities to moving forward and learn\n"
 "                        alongside accomplished leaders. We're seeking an experienced and outstanding\n"
@@ -6413,6 +6478,8 @@ msgid ""
 "                        outside the box. We expect the candidate to be proactive and have a \"get it done\"\n"
 "                        spirit. To be successful, you will have solid solving problem skills."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6709,6 +6776,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7111,7 +7181,11 @@ msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Zobrazovací název"
+=======
+msgstr "Zobrazovaný název"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zobrazovaný název"
 >>>>>>> upstream/18.0
@@ -7231,11 +7305,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    You can make a real contribution to the success of the company.\n"
 "                    <br>\n"
 "                    Several activities are often organized all over the year, such as weekly\n"
 "                    sports sessions, team building events, monthly drink, and much more"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7525,6 +7602,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7899,7 +7979,11 @@ msgid "Handyman"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Údržbář"
+>>>>>>> upstream/18.0
 =======
 msgstr "Údržbář"
 >>>>>>> upstream/18.0
@@ -8443,6 +8527,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Manually set quantities on order: Invoice based on the manually entered quantity, without creating an analytic account.\n"
 "Timesheets on contract: Invoice based on the tracked hours on the related timesheet.\n"
 "Create a task and track hours: Create a task on the sales order validation and track the work hours."
@@ -8450,6 +8535,8 @@ msgstr ""
 "Manuálně nastavené veličiny na objednávku: Faktura na základě ručně zadaného"
 " množství, bez vytvoření analytického účtu. Pracovní výkazy na zakázce: "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8741,6 +8828,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9170,8 +9260,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "všechny pracovní výkazy, které ještě nebyly fakturovány (a případně ověřeny)"
 " bez rozdílu."
+=======
+"všechny pracovní výkazy, které ještě nebyly fakturovány (a případně ověřeny) "
+"bez rozdílu."
+>>>>>>> upstream/18.0
 =======
 "všechny pracovní výkazy, které ještě nebyly fakturovány (a případně ověřeny) "
 "bez rozdílu."
@@ -9817,8 +9912,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Prohlédněte si výkazy práce podle typu účtování a ujistěte se, že je váš čas"
 " zúčtovatelný."
+=======
+"Prohlédněte si výkazy práce podle typu účtování a ujistěte se, že je váš čas "
+"zúčtovatelný."
+>>>>>>> upstream/18.0
 =======
 "Prohlédněte si výkazy práce podle typu účtování a ujistěte se, že je váš čas "
 "zúčtovatelný."
@@ -10348,6 +10448,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Sales order item that will be selected by default on the timesheets of the corresponding employee. It bypasses the sales order item defined on the project and the task, and can be modified on each timesheet entry if necessary. In other words, it defines the rate at which an employee's time is billed based on their expertise, skills or experience, for instance.\n"
 "If you would like to bill the same service at a different rate, you need to create two separate sales order items as each sales order item can only have a single unit price at a time.\n"
 "You can also define the hourly company cost of your employees for their timesheets on this project specifically. It will bypass the timesheet cost set on the employee."
@@ -10356,6 +10457,8 @@ msgstr ""
 "Pokud chcete stejnou službu účtovat v jiné sazbě, musíte vytvořit dvě samostatné položky prodejního příkazu, protože každá položka prodejního příkazu může mít vždy jen jednu jednotkovou cenu.\n"
 "Můžete také definovat hodinové firemní náklady svých zaměstnanců pro jejich časové výkazy konkrétně na tomto projektu. Překoná se tím cena timesheetu nastavená na zaměstnanci."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10662,6 +10765,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11004,8 +11110,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Služba, která se ve výchozím nastavení použije při fakturaci času stráveného"
 " na úkolu. Lze ji upravit u každého úkolu zvlášť výběrem konkrétní položky "
+=======
+"Služba, která se ve výchozím nastavení použije při fakturaci času stráveného "
+"na úkolu. Lze ji upravit u každého úkolu zvlášť výběrem konkrétní položky "
+>>>>>>> upstream/18.0
 =======
 "Služba, která se ve výchozím nastavení použije při fakturaci času stráveného "
 "na úkolu. Lze ji upravit u každého úkolu zvlášť výběrem konkrétní položky "
@@ -11577,8 +11688,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "employee who performed it. The employee rate is preferable if your employees"
 " deliver the same service at a different rate. For instance, junior and "
+=======
+"employee who performed it. The employee rate is preferable if your employees "
+"deliver the same service at a different rate. For instance, junior and "
+>>>>>>> upstream/18.0
 =======
 "employee who performed it. The employee rate is preferable if your employees "
 "deliver the same service at a different rate. For instance, junior and "
@@ -12287,8 +12403,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Celková zaznamenaná doba trvání, vyjádřená v kódovacím MJ, a zaokrouhlená na"
 " jednotku"
+=======
+"Celková zaznamenaná doba trvání, vyjádřená v kódovacím MJ, a zaokrouhlená na "
+"jednotku"
+>>>>>>> upstream/18.0
 =======
 "Celková zaznamenaná doba trvání, vyjádřená v kódovacím MJ, a zaokrouhlená na "
 "jednotku"
@@ -12775,8 +12896,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Track your working hours by projects every day and invoice this time to your"
 " customers."
+=======
+"Track your working hours by projects every day and invoice this time to your "
+"customers."
+>>>>>>> upstream/18.0
 =======
 "Track your working hours by projects every day and invoice this time to your "
 "customers."

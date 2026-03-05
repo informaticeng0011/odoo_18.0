@@ -174,6 +174,10 @@ from odoo import models, _
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools import float_is_zero
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import float_is_zero
 >>>>>>> upstream/18.0
@@ -715,7 +719,10 @@ ANZ_TAX_CATEGORIES = {'S', 'E', 'Z', 'G', 'O'}
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -767,6 +774,9 @@ class AccountEdiXmlUBL21(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -911,7 +921,10 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1213,6 +1226,9 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1518,6 +1534,7 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         vals = super()._get_partner_party_vals(partner, role)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1712,6 +1729,8 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
         vals.setdefault('party_tax_scheme_vals', [])
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2013,6 +2032,9 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2319,6 +2341,11 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -2837,6 +2864,11 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -3347,6 +3379,11 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -3753,6 +3790,7 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
         return vals_list
 
     def _get_customization_ids(self):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4228,6 +4266,8 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         # TODO remove in master: backward compatibility
         return super()._get_customization_ids()
 
@@ -4249,6 +4289,9 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4460,6 +4503,7 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -4610,6 +4654,8 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
     def _get_invoice_line_item_vals(self, line, taxes_vals):
         # EXTENDS account.edi.xml.ubl_bis3
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4911,6 +4957,9 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5293,6 +5342,7 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5443,6 +5493,8 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
     def _export_invoice_vals(self, invoice):
         # EXTENDS account_edi_ubl_cii
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5744,6 +5796,9 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6056,7 +6111,10 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6365,6 +6423,9 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6572,6 +6633,7 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
         for tax_total_val in vals['vals']['tax_total_vals']:
             for tax_subtotal_val in tax_total_val.get('tax_subtotal_vals', ()):
                 if tax_subtotal_val['tax_category_vals']['tax_category_code'] not in ANZ_TAX_CATEGORIES:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7261,6 +7323,10 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
                     constraints['anz_vat_category_required'] = _("You must set a tax category on each taxes of the invoice.\nValid categories are: S, E, Z, G, O")
 
 >>>>>>> upstream/18.0
+=======
+                    constraints['anz_vat_category_required'] = _("You must set a tax category on each taxes of the invoice.\nValid categories are: S, E, Z, G, O")
+
+>>>>>>> upstream/18.0
         # Tax category of type "Not subject to tax" must have tax amount 0
         count_outside_of_scope_breakdown = 0
         for tax_category, tax_category_vals in vals['taxes_vals']['tax_details'].items():
@@ -7294,6 +7360,7 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
                 self.env._("A tax breakdown of type 'Not subject to tax' should appear at most"
                            " once in the tax breakdown")
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7820,6 +7887,8 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         constraints.update(self._export_invoice_constraints_anz_partner(vals))
 
         return constraints
@@ -7911,6 +7980,7 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -7918,6 +7988,8 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
         # EXTENDS account.edi.xml.ubl_bis3
         grouping_key = super()._ubl_default_tax_category_grouping_key(base_line, tax_data, vals, currency)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8164,6 +8236,7 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8327,6 +8400,8 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         # A business not registered for GST cannot issue tax invoices.
         # In this case, the tax category code should be O (Outside scope of tax).
         # See https://docs.peppol.eu/poac/aunz/pint-aunz/bis/#_tax_category_code
@@ -8426,6 +8501,9 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8599,6 +8677,7 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
         document_node['cbc:CustomizationID'] = {'_text': self._get_customization_ids()['pint_anz']}
         document_node['cbc:ProfileID'] = {'_text': 'urn:peppol:bis:billing'}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9108,6 +9187,8 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def _ubl_add_party_legal_entity_nodes(self, vals):
         # EXTENDS
         super()._ubl_add_party_legal_entity_nodes(vals)
@@ -9145,6 +9226,9 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9262,8 +9346,13 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if tax_subtotal_node['cac:TaxCategory']['cbc:ID']['_text'] not in ANZ_TAX_CATEGORIES:
                 constraints['sg_vat_category_required'] = _("You must set a tax category on each taxes of the invoice.\nValid categories are: S, E, Z, G, O")
+=======
+            if any(tax_category_node['cbc:ID']['_text'] not in ANZ_TAX_CATEGORIES for tax_category_node in tax_subtotal_node['cac:TaxCategory']):
+                constraints['anz_vat_category_required'] = _("You must set a tax category on each taxes of the invoice.\nValid categories are: S, E, Z, G, O")
+>>>>>>> upstream/18.0
 =======
             if any(tax_category_node['cbc:ID']['_text'] not in ANZ_TAX_CATEGORIES for tax_category_node in tax_subtotal_node['cac:TaxCategory']):
                 constraints['anz_vat_category_required'] = _("You must set a tax category on each taxes of the invoice.\nValid categories are: S, E, Z, G, O")
@@ -9683,7 +9772,11 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if tax_subtotal['cac:TaxCategory']['cbc:ID']['_text'] != 'O':
+=======
+            if any(tax_category_node['cbc:ID']['_text'] != 'O' for tax_category_node in tax_subtotal['cac:TaxCategory']):
+>>>>>>> upstream/18.0
 =======
             if any(tax_category_node['cbc:ID']['_text'] != 'O' for tax_category_node in tax_subtotal['cac:TaxCategory']):
 >>>>>>> upstream/18.0
@@ -10062,6 +10155,9 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

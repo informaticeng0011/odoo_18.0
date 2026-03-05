@@ -236,6 +236,10 @@ import { after, before, beforeEach, createJobScopedGetter } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { validateType } from "@odoo/owl";
+>>>>>>> upstream/18.0
 =======
 import { validateType } from "@odoo/owl";
 >>>>>>> upstream/18.0
@@ -1246,7 +1250,10 @@ const SERVER_STATE_VALUES = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1970,6 +1977,9 @@ const SERVER_STATE_VALUES_SCHEMA = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2715,11 +2725,14 @@ export const serverState = new Proxy(SERVER_STATE_VALUES, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     get(target, p) {
         return Reflect.get(getServerStateValues(), p);
     },
     set(target, p, newValue) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3438,6 +3451,9 @@ export const serverState = new Proxy(SERVER_STATE_VALUES, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

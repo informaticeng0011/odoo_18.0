@@ -1,8 +1,15 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
+<<<<<<< HEAD
 from odoo.exceptions import ValidationError
 from odoo.tests.common import TransactionCase
+=======
+from unittest.mock import patch
+
+from odoo.exceptions import ValidationError
+from odoo.tests.common import Command, TransactionCase
+>>>>>>> upstream/18.0
 
 
 class TestCompany(TransactionCase):
@@ -54,3 +61,16 @@ class TestCompany(TransactionCase):
     def test_create_branch_with_default_parent_id(self):
         branch = self.env['res.company'].with_context(default_parent_id=self.env.company.id).create({'name': 'Branch Company'})
         self.assertFalse(branch.partner_id.parent_id)
+<<<<<<< HEAD
+=======
+
+    def test_write_company_root_delegated_field_names(self):
+        self.env['res.company'].with_context(default_parent_id=self.env.company.id).create({'name': 'foo'})
+        new_currency = self.env['res.currency'].create({
+            'name': 'AAA',
+            'symbol': 'AAA',
+            'rate_ids': [Command.create({'name': '2009-09-09', 'rate': 1})]
+        })
+        with patch('odoo.addons.base.models.res_company.Company._get_company_root_delegated_field_names', return_value=["currency_id", "zip"]):
+            self.env.company.write({'currency_id': new_currency.id, 'zip': '12345'})
+>>>>>>> upstream/18.0

@@ -172,6 +172,10 @@ class IrWebsocket(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            channels.append((guest, "presence"))
+>>>>>>> upstream/18.0
 =======
             channels.append((guest, "presence"))
 >>>>>>> upstream/18.0

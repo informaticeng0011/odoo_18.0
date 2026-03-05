@@ -579,7 +579,11 @@ class TestMultiCompany(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         partner = self.env['res.partner'].create({'name': 'Deco Addict'})
+=======
+        partner = self.env['res.partner'].create({'name': 'Acme Corporation'})
+>>>>>>> upstream/18.0
 =======
         partner = self.env['res.partner'].create({'name': 'Acme Corporation'})
 >>>>>>> upstream/18.0

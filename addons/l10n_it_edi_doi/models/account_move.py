@@ -193,9 +193,12 @@ class AccountMove(models.Model):
             if declaration_lines and not declaration:
                 errors.append(_('Given the tax %s is applied, there should be a Declaration of Intent selected.',
                                 declaration_of_intent_tax.name))
+<<<<<<< HEAD
             if any(line.tax_ids != declaration_of_intent_tax for line in declaration_lines):
                 errors.append(_('A line using tax %s should not contain any other taxes',
                                 declaration_of_intent_tax.name))
+=======
+>>>>>>> upstream/18.0
         if errors:
             raise UserError('\n'.join(errors))
 

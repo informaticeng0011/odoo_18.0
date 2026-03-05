@@ -53,6 +53,10 @@ from odoo import Command, fields
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.exceptions import UserError
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import UserError
 >>>>>>> upstream/18.0
@@ -353,6 +357,11 @@ class TestHrEdiFlowsMocked(TestL10nHrEdiCommon, TestAccountMoveSendCommon, Patch
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'invoice_date': '2025-01-01',
+            'date': '2025-01-01',
+>>>>>>> upstream/18.0
 =======
             'invoice_date': '2025-01-01',
             'date': '2025-01-01',
@@ -696,7 +705,10 @@ class TestHrEdiFlowsMocked(TestL10nHrEdiCommon, TestAccountMoveSendCommon, Patch
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -803,8 +815,11 @@ class TestHrEdiFlowsMocked(TestL10nHrEdiCommon, TestAccountMoveSendCommon, Patch
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # 1. Create invoice
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -842,8 +857,11 @@ class TestHrEdiFlowsMocked(TestL10nHrEdiCommon, TestAccountMoveSendCommon, Patch
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # 2. Send invoice to MER
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -864,11 +882,14 @@ class TestHrEdiFlowsMocked(TestL10nHrEdiCommon, TestAccountMoveSendCommon, Patch
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.assertRaisesRegex(UserError, 'Korisničko ime i lozinka nisu ispravni.. Trace ID: 4f701362-96cc-49c6-a297-854e740ad719.'):
             with self.assertRequests([
                 (
                     # Request 1: Send invoice
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -885,6 +906,9 @@ class TestHrEdiFlowsMocked(TestL10nHrEdiCommon, TestAccountMoveSendCommon, Patch
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -910,7 +934,11 @@ class TestHrEdiFlowsMocked(TestL10nHrEdiCommon, TestAccountMoveSendCommon, Patch
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     'Value': 'Incorrect',
+=======
+                                    'Value': '12513',
+>>>>>>> upstream/18.0
 =======
                                     'Value': '12513',
 >>>>>>> upstream/18.0
@@ -982,6 +1010,9 @@ class TestHrEdiFlowsMocked(TestL10nHrEdiCommon, TestAccountMoveSendCommon, Patch
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1256,7 +1287,10 @@ class TestHrEdiFlowsMocked(TestL10nHrEdiCommon, TestAccountMoveSendCommon, Patch
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'date': fields.Date.today(),
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1410,7 +1444,10 @@ class TestHrEdiFlowsMocked(TestL10nHrEdiCommon, TestAccountMoveSendCommon, Patch
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1444,6 +1481,9 @@ class TestHrEdiFlowsMocked(TestL10nHrEdiCommon, TestAccountMoveSendCommon, Patch
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

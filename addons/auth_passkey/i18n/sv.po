@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* auth_passkey
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -246,6 +247,10 @@
 # * auth_passkey
 #
 >>>>>>> upstream/18.0
+=======
+# * auth_passkey
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Robin Calvin, 2024
 # Haojun Zou <apollo_zhj@msn.com>, 2024
@@ -255,6 +260,7 @@
 # Mikael Åkerberg <mikael.akerberg@mariaakerberg.com>, 2024
 # Lasse L, 2024
 # Jakob Krabbe <jakob.krabbe@vertel.se>, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -496,10 +502,14 @@
 =======
 # Hanna Kharraziha <hakha@odoo.com>, 2026.
 >>>>>>> upstream/18.0
+=======
+# Hanna Kharraziha <hakha@odoo.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -690,6 +700,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-02-24 23:29+0000\n"
 "Last-Translator: Hanna Kharraziha <hakha@odoo.com>\n"
@@ -698,6 +710,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -709,6 +724,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -896,6 +912,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_login
@@ -909,7 +929,11 @@ msgid "<strong>Use your passkey to authenticate</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<strong>Använd din lösenordsnyckel för att autentisera dig</strong>"
+=======
+msgstr "<strong>Använd lösenordsnyckeln för att autentisera dig</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Använd lösenordsnyckeln för att autentisera dig</strong>"
 >>>>>>> upstream/18.0
@@ -930,7 +954,11 @@ msgid "Add Passkey"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Lägg till Passkey"
+=======
+msgstr "Lägg till lösenordsnyckel"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lägg till lösenordsnyckel"
 >>>>>>> upstream/18.0
@@ -951,7 +979,11 @@ msgid "Auth Method"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Auth-metod"
+=======
+msgstr "Autentiseringsmetod"
+>>>>>>> upstream/18.0
 =======
 msgstr "Autentiseringsmetod"
 >>>>>>> upstream/18.0
@@ -972,7 +1004,11 @@ msgid "Auth Passkey Key"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Auth Nyckel Nyckel"
+=======
+msgstr "Lösenordsnyckel för autentisering"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lösenordsnyckel för autentisering"
 >>>>>>> upstream/18.0
@@ -1005,7 +1041,11 @@ msgid "Create Passkey"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Skapa passerkod"
+=======
+msgstr "Skapa lösenordsnyckel"
+>>>>>>> upstream/18.0
 =======
 msgstr "Skapa lösenordsnyckel"
 >>>>>>> upstream/18.0
@@ -1026,7 +1066,11 @@ msgid "Create Passkey Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Guiden Skapa passerkort"
+=======
+msgstr "Verktyg för att skapa lösenordsnyckel"
+>>>>>>> upstream/18.0
 =======
 msgstr "Verktyg för att skapa lösenordsnyckel"
 >>>>>>> upstream/18.0
@@ -1047,7 +1091,11 @@ msgid "Create a Passkey"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Skapa en passerkod"
+=======
+msgstr "Skapa en lösenordsnyckel"
+>>>>>>> upstream/18.0
 =======
 msgstr "Skapa en lösenordsnyckel"
 >>>>>>> upstream/18.0
@@ -1086,7 +1134,11 @@ msgid "Credential Identifier"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Legitimationsidentifierare"
+=======
+msgstr "Identifieringsinformation"
+>>>>>>> upstream/18.0
 =======
 msgstr "Identifieringsinformation"
 >>>>>>> upstream/18.0
@@ -1129,8 +1181,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Felaktig lösenord. Ange en giltig lösenordsnyckel eller använd en annan "
 "autentiseringsmetod."
+=======
+"Lösenordsnyckeln kunde inte verifieras. Vänligen ange en giltig "
+"lösenordsnyckel eller använd en annan autentiseringsmetod."
+>>>>>>> upstream/18.0
 =======
 "Lösenordsnyckeln kunde inte verifieras. Vänligen ange en giltig "
 "lösenordsnyckel eller använd en annan autentiseringsmetod."
@@ -1168,7 +1225,11 @@ msgid "Last used:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Senast använt:"
+=======
+msgstr "Användes senast:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Användes senast:"
 >>>>>>> upstream/18.0
@@ -1206,7 +1267,11 @@ msgid "Passkey"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Passkey"
+=======
+msgstr "Lösenordsnyckel"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lösenordsnyckel"
 >>>>>>> upstream/18.0
@@ -1228,7 +1293,11 @@ msgid "Passkeys"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Passkeys"
+=======
+msgstr "Lösenordsnycklar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lösenordsnycklar"
 >>>>>>> upstream/18.0
@@ -1258,7 +1327,11 @@ msgid "Password Check Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Guiden för kontroll av lösenord"
+=======
+msgstr "Guide för att verifiera lösenord"
+>>>>>>> upstream/18.0
 =======
 msgstr "Guide för att verifiera lösenord"
 >>>>>>> upstream/18.0
@@ -1279,7 +1352,11 @@ msgid "Public Key"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Allmän nyckel"
+=======
+msgstr "Offentlig nyckel"
+>>>>>>> upstream/18.0
 =======
 msgstr "Offentlig nyckel"
 >>>>>>> upstream/18.0
@@ -1300,7 +1377,11 @@ msgid "Rename"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Byt namn på"
+=======
+msgstr "Döp om"
+>>>>>>> upstream/18.0
 =======
 msgstr "Döp om"
 >>>>>>> upstream/18.0
@@ -1322,7 +1403,11 @@ msgid "Rename Passkey"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Byt namn på nyckeln"
+=======
+msgstr "Ändra namn på lösenordsnyckeln"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ändra namn på lösenordsnyckeln"
 >>>>>>> upstream/18.0
@@ -1354,7 +1439,11 @@ msgid "Sign Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sign Count"
+=======
+msgstr "Antal underskrifter"
+>>>>>>> upstream/18.0
 =======
 msgstr "Antal underskrifter"
 >>>>>>> upstream/18.0
@@ -1375,7 +1464,11 @@ msgid "The credential identifier should be unique."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Legitimationsidentifieraren ska vara unik."
+=======
+msgstr "Identifieringsinformationen måste vara unik."
+>>>>>>> upstream/18.0
 =======
 msgstr "Identifieringsinformationen måste vara unik."
 >>>>>>> upstream/18.0
@@ -1397,7 +1490,11 @@ msgid "Unknown passkey"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Okänd lösenkod"
+=======
+msgstr "Okänd lösenordsnyckel"
+>>>>>>> upstream/18.0
 =======
 msgstr "Okänd lösenordsnyckel"
 >>>>>>> upstream/18.0
@@ -1418,7 +1515,11 @@ msgid "Use Passkey"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Använd passerkod"
+=======
+msgstr "Använd lösenordsnyckel"
+>>>>>>> upstream/18.0
 =======
 msgstr "Använd lösenordsnyckel"
 >>>>>>> upstream/18.0

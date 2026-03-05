@@ -175,6 +175,10 @@ import logging
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import json
+>>>>>>> upstream/18.0
 =======
 import json
 >>>>>>> upstream/18.0
@@ -865,6 +869,10 @@ from pprint import pformat
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from uuid import uuid4
+>>>>>>> upstream/18.0
 =======
 from uuid import uuid4
 >>>>>>> upstream/18.0
@@ -1356,6 +1364,7 @@ import psycopg2
 import pytz
 
 from odoo import api, fields, models, tools, _, Command
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2053,6 +2062,9 @@ from odoo.tools import float_is_zero, float_round, float_repr, float_compare, fo
 =======
 from odoo.tools import float_is_zero, float_round, float_repr, float_compare, formatLang, SQL
 >>>>>>> upstream/18.0
+=======
+from odoo.tools import float_is_zero, float_round, float_repr, float_compare, formatLang, SQL
+>>>>>>> upstream/18.0
 from odoo.exceptions import ValidationError, UserError
 from odoo.osv.expression import AND
 import base64
@@ -2221,8 +2233,11 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         draft = True if order.get('state') == 'draft' else False
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2554,6 +2569,9 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3053,7 +3071,10 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3823,6 +3844,9 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4338,6 +4362,7 @@ class PosOrder(models.Model):
             # when vals change the state to 'paid'
             for field in ['lines', 'payment_ids']:
                 if order.get(field):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5797,6 +5822,11 @@ class PosOrder(models.Model):
                     existing_records_vals = [r for r in order[field] if r[0] not in [1, 2, 3, 4] or r[1] in existing_record_ids]
                     pos_order.write({field: existing_records_vals})
 >>>>>>> upstream/18.0
+=======
+                    existing_record_ids = self.env[pos_order[field]._name].browse([r[1] for r in order[field] if r[1] != 0]).exists().ids
+                    existing_records_vals = [r for r in order[field] if r[0] not in [1, 2, 3, 4] or r[1] in existing_record_ids]
+                    pos_order.write({field: existing_records_vals})
+>>>>>>> upstream/18.0
                     order[field] = []
 
             del order['uuid']
@@ -5957,6 +5987,7 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             if order.get('state') == 'paid':
                 # The "paid" state will be assigned later by `_process_saved_order`
@@ -6186,6 +6217,8 @@ class PosOrder(models.Model):
             if order.get('state') == 'paid':
                 # The "paid" state will be assigned later by `_process_saved_order`
                 order['state'] = pos_order.state
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6438,6 +6471,7 @@ class PosOrder(models.Model):
 
     def _process_saved_order(self, draft):
         self.ensure_one()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7487,6 +7521,9 @@ class PosOrder(models.Model):
 =======
         if not draft and self.state != 'cancel':
 >>>>>>> upstream/18.0
+=======
+        if not draft and self.state != 'cancel':
+>>>>>>> upstream/18.0
             try:
                 self.action_pos_order_paid()
             except psycopg2.DatabaseError:
@@ -7521,6 +7558,7 @@ class PosOrder(models.Model):
         :type draft: bool.
         """
         prec_acc = order.currency_id.decimal_places
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7853,6 +7891,8 @@ class PosOrder(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         order = order.with_context(backend_recomputation=True)
 
         # Recompute amount paid because we don't trust the client
@@ -7966,6 +8006,9 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8433,7 +8476,10 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8959,6 +9005,9 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9343,7 +9392,11 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             .mapped('picking_ids.move_ids')\
+=======
+            ._get_stock_moves()\
+>>>>>>> upstream/18.0
 =======
             ._get_stock_moves()\
 >>>>>>> upstream/18.0
@@ -9694,7 +9747,10 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10222,6 +10278,9 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10749,12 +10808,15 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             value = value.zfill(3)
             search = '% ____' + value[0] + '-___-__' + value[1:]
             return [('pos_reference', operator, search or '')]
         else:
             raise NotImplementedError(_("Unsupported search operation"))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11244,6 +11306,7 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         raise NotImplementedError(_("Unsupported search operation"))
 <<<<<<< HEAD
@@ -11374,6 +11437,8 @@ class PosOrder(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11768,6 +11833,9 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12208,7 +12276,11 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             order.refunded_order_id = order.lines.refunded_orderline_id.order_id
+=======
+            order.refunded_order_id = next(iter(order.lines.refunded_orderline_id.order_id), False)
+>>>>>>> upstream/18.0
 =======
             order.refunded_order_id = next(iter(order.lines.refunded_orderline_id.order_id), False)
 >>>>>>> upstream/18.0
@@ -13033,8 +13105,11 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if values.get('state') and values['state'] == 'paid' and not values.get('name'):
             values['name'] = self._compute_order_name(session)
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13639,6 +13714,12 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            allowed_vals = ['paid', 'done', 'invoiced']
+            if vals.get('state') and vals['state'] not in allowed_vals and order.state in allowed_vals:
+                raise UserError(_('This order has already been paid. You cannot set it back to draft or edit it.'))
+>>>>>>> upstream/18.0
 =======
             allowed_vals = ['paid', 'done', 'invoiced']
             if vals.get('state') and vals['state'] not in allowed_vals and order.state in allowed_vals:
@@ -15013,6 +15094,12 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def _get_stock_moves(self):
+        return self.picking_ids.move_ids
+
+>>>>>>> upstream/18.0
 =======
     def _get_stock_moves(self):
         return self.picking_ids.move_ids
@@ -15196,6 +15283,7 @@ class PosOrder(models.Model):
         return currency.round(amount) if currency else amount
 
     def _get_partner_bank_id(self):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         bank_partner_id = False
@@ -16067,6 +16155,8 @@ class PosOrder(models.Model):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         self.ensure_one()
         partner_bank_id = False
 
@@ -16089,6 +16179,9 @@ class PosOrder(models.Model):
 
         return partner_bank_id.id if partner_bank_id else False
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16269,6 +16362,10 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'partner_shipping_id': self.partner_id.address_get(['delivery'])['delivery'],
+>>>>>>> upstream/18.0
 =======
             'partner_shipping_id': self.partner_id.address_get(['delivery'])['delivery'],
 >>>>>>> upstream/18.0
@@ -16537,7 +16634,10 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'invoice_cash_rounding_id': self.config_id.rounding_method.id,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16578,7 +16678,10 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16616,6 +16719,9 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16817,7 +16923,10 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17355,6 +17464,9 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17907,6 +18019,7 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             order_line = base_line_vals['record']
             amount_currency = update_base_line_vals['amount_currency']
             balance = company_currency.round(amount_currency * rate)
@@ -17926,6 +18039,8 @@ class PosOrder(models.Model):
             total_amount_currency += amount_currency
             total_balance += balance
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18449,6 +18564,9 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18974,8 +19092,11 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             amount_currency = cash_rounding.compute_difference(self.currency_id, total_amount_currency)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19502,6 +19623,9 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19897,7 +20021,11 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 expense_account = stock_move.product_id._get_product_accounts()['expense']
+=======
+                expense_account = stock_move.with_company(stock_move.company_id).product_id._get_product_accounts()['expense']
+>>>>>>> upstream/18.0
 =======
                 expense_account = stock_move.with_company(stock_move.company_id).product_id._get_product_accounts()['expense']
 >>>>>>> upstream/18.0
@@ -20052,8 +20180,14 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.write({'to_invoice': True})
         if self.company_id.anglo_saxon_accounting and self.session_id.update_stock_at_closing and self.session_id.state != 'closed':
+=======
+        is_picking_created = self._should_create_picking_real_time()
+        self.write({'to_invoice': True})
+        if not is_picking_created and self._should_create_picking_real_time() and self.session_id.state != 'closed':
+>>>>>>> upstream/18.0
 =======
         is_picking_created = self._should_create_picking_real_time()
         self.write({'to_invoice': True})
@@ -20345,6 +20479,11 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        for config in self.config_id:
+            config.notify_synchronisation(config.current_session_id.id, self.env.context.get('login_number', 0))
+>>>>>>> upstream/18.0
 =======
         for config in self.config_id:
             config.notify_synchronisation(config.current_session_id.id, self.env.context.get('login_number', 0))
@@ -21095,7 +21234,10 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21637,6 +21779,9 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22255,6 +22400,7 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22378,6 +22524,10 @@ class PosOrder(models.Model):
 =======
 >>>>>>> upstream/18.0
             if existing_order and existing_order.state == 'draft':
+=======
+            if existing_order and existing_order.state == 'draft':
+                existing_order._ensure_to_keep_last_preparation_change(order)
+>>>>>>> upstream/18.0
 =======
             if existing_order and existing_order.state == 'draft':
                 existing_order._ensure_to_keep_last_preparation_change(order)
@@ -23256,6 +23406,7 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 order_ids.append(existing_order.id)
                 _logger.info("PoS synchronisation #%d order %s sync ignored for existing PoS order %s (state: %s)", sync_token, order_log_name, existing_order, existing_order.state)
 <<<<<<< HEAD
@@ -23468,6 +23619,11 @@ class PosOrder(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+                existing_order._ensure_to_keep_last_preparation_change(order)
+                order_ids.append(existing_order.id)
+                _logger.info("PoS synchronisation #%d order %s sync ignored for existing PoS order %s (state: %s)", sync_token, order_log_name, existing_order, existing_order.state)
 >>>>>>> upstream/18.0
 =======
                 existing_order._ensure_to_keep_last_preparation_change(order)
@@ -24392,8 +24548,11 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return not self.session_id.update_stock_at_closing or (self.company_id.anglo_saxon_accounting and self.to_invoice)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24455,6 +24614,9 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24691,7 +24853,12 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'is_total_cost_computed': False
+=======
+            'is_total_cost_computed': False,
+            'uuid': str(uuid4()),
+>>>>>>> upstream/18.0
 =======
             'is_total_cost_computed': False,
             'uuid': str(uuid4()),
@@ -25546,6 +25713,10 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        refund_orders._compute_prices()
+>>>>>>> upstream/18.0
 =======
         refund_orders._compute_prices()
 >>>>>>> upstream/18.0
@@ -26223,7 +26394,11 @@ class PosOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     total_cost = fields.Float(string='Total cost', digits='Product Price', readonly=True)
+=======
+    total_cost = fields.Float(string='Total cost', min_display_digits='Product Price', readonly=True)
+>>>>>>> upstream/18.0
 =======
     total_cost = fields.Float(string='Total cost', min_display_digits='Product Price', readonly=True)
 >>>>>>> upstream/18.0
@@ -26537,6 +26712,11 @@ class PosOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    _sql_constraints = [('uuid_unique', 'unique (uuid)', "An order line with this uuid already exists")]
+
+>>>>>>> upstream/18.0
 =======
     _sql_constraints = [('uuid_unique', 'unique (uuid)', "An order line with this uuid already exists")]
 
@@ -27487,7 +27667,11 @@ class PosOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'qty', 'attribute_value_ids', 'custom_attribute_value_ids', 'price_unit', 'skip_change', 'uuid', 'price_subtotal', 'price_subtotal_incl', 'order_id', 'note', 'price_type',
+=======
+            'qty', 'attribute_value_ids', 'custom_attribute_value_ids', 'price_unit', 'skip_change', 'uuid', 'price_subtotal', 'price_subtotal_incl', 'order_id', 'note', 'price_type', 'write_date',
+>>>>>>> upstream/18.0
 =======
             'qty', 'attribute_value_ids', 'custom_attribute_value_ids', 'price_unit', 'skip_change', 'uuid', 'price_subtotal', 'price_subtotal_incl', 'order_id', 'note', 'price_type', 'write_date',
 >>>>>>> upstream/18.0
@@ -28483,11 +28667,14 @@ class PosOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends('refund_orderline_ids')
     def _compute_refund_qty(self):
         for orderline in self:
             orderline.refunded_qty = -sum(orderline.mapped('refund_orderline_ids.qty'))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -29231,6 +29418,9 @@ class PosOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -29963,7 +30153,12 @@ class PosOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         src_loc_quants = self.sudo().env['stock.quant'].search([
+=======
+
+        domain = [
+>>>>>>> upstream/18.0
 =======
 
         domain = [
@@ -30839,6 +31034,7 @@ class PosOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ])
         available_lots = src_loc_quants.\
             filtered(lambda q: float_compare(q.quantity, 0, precision_rounding=q.product_id.uom_id.rounding) > 0).\
@@ -30846,6 +31042,8 @@ class PosOrderLine(models.Model):
 
         return available_lots.read(['id', 'name', 'product_qty'])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -31385,6 +31583,9 @@ class PosOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -31776,6 +31977,7 @@ class PosOrderLine(models.Model):
                 self.price_subtotal = taxes['total_excluded']
                 self.price_subtotal_incl = taxes['total_included']
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32329,6 +32531,9 @@ class PosOrderLine(models.Model):
 =======
     @api.depends('order_id', 'order_id.fiscal_position_id', 'tax_ids')
 >>>>>>> upstream/18.0
+=======
+    @api.depends('order_id', 'order_id.fiscal_position_id', 'tax_ids')
+>>>>>>> upstream/18.0
     def _get_tax_ids_after_fiscal_position(self):
         for line in self:
             line.tax_ids_after_fiscal_position = line.order_id.fiscal_position_id.map_tax(line.tax_ids)
@@ -32426,6 +32631,7 @@ class PosOrderLine(models.Model):
         """
         for line in self.filtered(lambda l: not l.is_total_cost_computed):
             product = line.product_id
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -33260,6 +33466,8 @@ class PosOrderLine(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             cost_currency = product.sudo().cost_currency_id
             if line._is_product_storable_fifo_avco() and stock_moves:
                 product_cost = product._compute_average_price(0, line.qty, line._get_stock_moves_to_consider(stock_moves, product))
@@ -33422,6 +33630,9 @@ class PosOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -33842,7 +34053,11 @@ class PosOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         original_price = self.tax_ids.compute_all(self.price_unit, self.currency_id, self.qty, product=self.product_id, partner=self.order_id.partner_id)['total_included']
+=======
+        original_price = self.tax_ids_after_fiscal_position.compute_all(self.price_unit, self.currency_id, self.qty, product=self.product_id, partner=self.order_id.partner_id)['total_included']
+>>>>>>> upstream/18.0
 =======
         original_price = self.tax_ids_after_fiscal_position.compute_all(self.price_unit, self.currency_id, self.qty, product=self.product_id, partner=self.order_id.partner_id)['total_included']
 >>>>>>> upstream/18.0
@@ -34197,7 +34412,11 @@ class PosOrderLineLot(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return ['lot_name', 'pos_order_line_id']
+=======
+        return ['lot_name', 'pos_order_line_id', 'write_date']
+>>>>>>> upstream/18.0
 =======
         return ['lot_name', 'pos_order_line_id', 'write_date']
 >>>>>>> upstream/18.0

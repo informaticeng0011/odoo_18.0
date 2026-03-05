@@ -43,6 +43,11 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'available_in_pos': True,
+            'self_order_available': True,
+>>>>>>> upstream/18.0
 =======
             'available_in_pos': True,
             'self_order_available': True,
@@ -76,6 +81,11 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'available_in_pos': True,
+            'self_order_available': True,
+>>>>>>> upstream/18.0
 =======
             'available_in_pos': True,
             'self_order_available': True,
@@ -109,6 +119,11 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'available_in_pos': True,
+            'self_order_available': True,
+>>>>>>> upstream/18.0
 =======
             'available_in_pos': True,
             'self_order_available': True,
@@ -141,6 +156,11 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'available_in_pos': True,
+            'self_order_available': True,
+>>>>>>> upstream/18.0
 =======
             'available_in_pos': True,
             'self_order_available': True,
@@ -165,6 +185,7 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
             'pos_categ_ids': [(6, 0, [self.combo_category.id])],
         })
 
+<<<<<<< HEAD
         price_extra_product = self.env['product.product'].create({
             'name': 'Product with attributes',
             'is_storable': True,
@@ -187,6 +208,13 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
             'self_order_available': True,
 >>>>>>> upstream/18.0
 =======
+            'self_order_available': True,
+>>>>>>> upstream/18.0
+=======
+        self.price_extra_product = self.env['product.product'].create({
+            'name': 'Product with attributes',
+            'is_storable': True,
+            'available_in_pos': True,
             'self_order_available': True,
 >>>>>>> upstream/18.0
             'lst_price': 100.95,
@@ -219,12 +247,20 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
             'attribute_id': no_price_extra.id,
         }])
         self.env['product.template.attribute.line'].create({
+<<<<<<< HEAD
             'product_tmpl_id': price_extra_product.product_tmpl_id.id,
+=======
+            'product_tmpl_id': self.price_extra_product.product_tmpl_id.id,
+>>>>>>> upstream/18.0
             'attribute_id': price_extra.id,
             'value_ids': [(6, 0, price_extra_values.ids)],
         })
         self.env['product.template.attribute.line'].create({
+<<<<<<< HEAD
             'product_tmpl_id': price_extra_product.product_tmpl_id.id,
+=======
+            'product_tmpl_id': self.price_extra_product.product_tmpl_id.id,
+>>>>>>> upstream/18.0
             'attribute_id': no_price_extra.id,
             'value_ids': [(6, 0, no_price_extra_values.ids)],
         })
@@ -248,6 +284,10 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'self_order_available': True,
+>>>>>>> upstream/18.0
 =======
             'self_order_available': True,
 >>>>>>> upstream/18.0
@@ -275,6 +315,10 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'self_order_available': True,
+>>>>>>> upstream/18.0
 =======
             'self_order_available': True,
 >>>>>>> upstream/18.0
@@ -302,6 +346,10 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'self_order_available': True,
+>>>>>>> upstream/18.0
 =======
             'self_order_available': True,
 >>>>>>> upstream/18.0
@@ -429,3 +477,33 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
         self.pos_config.current_session_id.set_opening_control(0, '')
         self_route = self.pos_config._get_self_order_route()
         self.start_tour(self_route, 'test_pricelist_should_not_be_changed_from_frontend')
+<<<<<<< HEAD
+=======
+
+    def test_fiscal_position_between_frontend_and_backend(self):
+        self.tax_21.price_include_override = 'tax_included'
+        self.tax_6.price_include_override = 'tax_included'
+
+        fp = self.env['account.fiscal.position'].create({
+            'name': 'Take out',
+            'tax_ids': [(0, 0, {
+                'tax_src_id': self.tax_21.id,
+                'tax_dest_id': self.tax_6.id,
+            })],
+        })
+        self.pos_config.write({
+            'tax_regime_selection': True,
+            'default_fiscal_position_id': fp.id,
+            'fiscal_position_ids': [Command.set(fp.ids)],
+        })
+
+        self.pos_config.with_user(self.pos_user).open_ui()
+        self.pos_config.current_session_id.set_opening_control(0, '')
+        self_route = self.pos_config._get_self_order_route()
+        self.start_tour(self_route, 'test_fiscal_position_between_frontend_and_backend')
+
+        self.tax_21.price_include_override = 'tax_excluded'
+        self.tax_6.price_include_override = 'tax_excluded'
+
+        self.start_tour(self_route, 'test_fiscal_position_between_frontend_and_backend')
+>>>>>>> upstream/18.0

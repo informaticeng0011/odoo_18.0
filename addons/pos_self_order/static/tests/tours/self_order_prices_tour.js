@@ -15,8 +15,11 @@ const comparePricesWithBackend = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await posmodel.sendDraftOrderToServer();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -31,6 +34,9 @@ const comparePricesWithBackend = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -213,8 +219,11 @@ registry.category("web_tour.tours").add("test_prices_are_immutable_from_frontend
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 await posmodel.sendDraftOrderToServer();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -228,6 +237,9 @@ registry.category("web_tour.tours").add("test_prices_are_immutable_from_frontend
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -301,8 +313,11 @@ registry.category("web_tour.tours").add("test_pricelist_should_not_be_changed_fr
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 await posmodel.sendDraftOrderToServer();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -316,6 +331,9 @@ registry.category("web_tour.tours").add("test_pricelist_should_not_be_changed_fr
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -333,3 +351,26 @@ registry.category("web_tour.tours").add("test_pricelist_should_not_be_changed_fr
         },
     ],
 });
+<<<<<<< HEAD
+=======
+
+registry.category("web_tour.tours").add("test_fiscal_position_between_frontend_and_backend", {
+    steps: () => [
+        Utils.clickBtn("Order Now"),
+        ...commonStepWithSpecificPrice,
+        {
+            content: "Check that the fiscal position is applied",
+            trigger: "body",
+            run: async () => {
+                const order = posmodel.currentOrder;
+                if (order.fiscal_position_id?.name !== "Take out") {
+                    throw new Error(
+                        `The fiscal position should not be "Take out", but it is ${order.fiscal_position_id?.name}`
+                    );
+                }
+            },
+        },
+        comparePricesWithBackend,
+    ],
+});
+>>>>>>> upstream/18.0

@@ -232,6 +232,10 @@ class TestModel(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertEqual(rec1.versioned_field_1, "<p>mock content 2</p>")
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(rec1.versioned_field_1, "<p>mock content 2</p>")
 >>>>>>> upstream/18.0
@@ -1070,7 +1074,10 @@ class TestModel(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1701,6 +1708,9 @@ class TestModel(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

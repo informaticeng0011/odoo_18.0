@@ -11,6 +11,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* payment
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -253,11 +254,16 @@
 # * payment
 #
 >>>>>>> upstream/18.0
+=======
+# * payment
+#
+>>>>>>> upstream/18.0
 # Translators:
 # a75f12d3d37ea5bf159c4b3e85eb30e7_0fa6927, 2024
 # Martin Trigaux, 2024
 # Wil Odoo, 2024
 # Maitê Dietze, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -510,10 +516,15 @@
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
+=======
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1461,6 +1472,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2026-01-15 18:39+0000\n"
 "PO-Revision-Date: 2026-02-21 10:12+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -1476,6 +1489,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1501,6 +1517,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1714,6 +1731,11 @@ msgstr ""
 "((n != 0 && n % 1000000 == 0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : "
+"((n != 0 && n % 1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_provider_onboarding_wizard___data_fetched
@@ -1735,6 +1757,7 @@ msgstr "7Eleven"
 #: code:addons/payment/wizards/payment_onboarding_wizard.py:0
 msgid ""
 "<h3>Please make a payment to: </h3><ul><li>Bank: %(bank)s</li><li>Account "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1920,6 +1943,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Number: %(account_number)s</li><li>Account Holder: %(account_holder)s</li></"
 "ul>"
 msgstr ""
@@ -1985,6 +2010,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2169,6 +2197,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                match the behavior of providers and that of their integration with\n"
 "                                Odoo regarding this payment method. Any change may result in errors\n"
 "                                and should be tested on a test database first."
@@ -2183,6 +2212,8 @@ msgstr ""
 msgid "<i class=\"fa fa-home\" role=\"img\" title=\"Home\" aria-label=\"Home\"/>"
 msgstr "<i class=\"fa fa-home\" role=\"img\" title=\"Home\" aria-label=\"Home\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2382,6 +2413,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2565,6 +2599,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-info-circle oe_inline\" invisible=\"support_partial_capture"
 " != 'full_only'\" title=\"Some of the transactions you intend to capture can"
 " only be captured in full. Handle the transactions individually to capture a"
@@ -2575,6 +2610,8 @@ msgstr ""
 " only be captured in full. Handle the transactions individually to capture a"
 " partial amount.\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2761,6 +2798,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2968,7 +3008,12 @@ msgid "<small class=\"text-600\">Save my payment details</small>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<small class=\"text-600\">Salvar minhas informações de pagamento</small>"
+=======
+msgstr ""
+"<small class=\"text-600\">Salvar minhas informações de pagamento</small>"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "<small class=\"text-600\">Salvar minhas informações de pagamento</small>"
@@ -3315,11 +3360,14 @@ msgstr "<span><i class=\"fa fa-lock\"/> Protegido por</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<strong><i class=\"fa fa-file-text\"/> Show availability report</strong>"
 msgstr ""
 "<strong><i class=\"fa fa-file-text\"/>Mostrar relatório de "
 "disponibilidade</strong>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3502,6 +3550,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3690,7 +3741,12 @@ msgid "<strong><i class=\"oi oi-arrow-right\"/> Payment Providers</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<strong><i class=\"oi oi-arrow-right\"/> Provedores de pagamento</strong>"
+=======
+msgstr ""
+"<strong><i class=\"oi oi-arrow-right\"/> Provedores de pagamento</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "<strong><i class=\"oi oi-arrow-right\"/> Provedores de pagamento</strong>"
@@ -4001,12 +4057,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    moment for it to be processed. Check your payment provider configuration if\n"
 "                    the capture is still pending after a few minutes."
 msgstr ""
 "<strong>Aviso:</strong> há uma captura parcial pendente. Espere até\n"
 "                    que seja processada. Verifique a configuração do seu provedor de pagamento se\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4191,6 +4250,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4378,7 +4440,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<strong>Aviso:</strong> não é possível capturar uma quantia negativa ou mais\n"
+=======
+"<strong>Aviso:</strong> não é possível capturar uma quantia negativa ou "
+"mais\n"
+>>>>>>> upstream/18.0
 =======
 "<strong>Aviso:</strong> não é possível capturar uma quantia negativa ou "
 "mais\n"
@@ -4684,11 +4751,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<strong>Warning</strong> Creating a payment provider from the <em>CREATE</em> button is not supported.\n"
 "                        Please use the <em>Duplicate</em> action instead."
 msgstr ""
 "<strong>Aviso:</strong> A criação de um provedor de pagamento a partir do botão <em>CRIAR</em> não é suportada.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4872,6 +4942,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5057,11 +5130,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    correct partner before making this payment."
 msgstr ""
 "<strong>Aviso</strong> Certifique-se de estar conectado com o\n"
 "                                    usuário correto antes de fazer este pagamento."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5245,6 +5321,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5442,9 +5521,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Uma solicitação de reembolso no valor de %(amount)s foi enviada. O pagamento"
 " será criado em breve. Referência de transação de reembolso: %(ref)s "
 "(%(provider_name)s)."
+=======
+"Uma solicitação de reembolso no valor de %(amount)s foi enviada. O pagamento "
+"será criado em breve. Referência de transação de reembolso: %(ref)s (%"
+"(provider_name)s)."
+>>>>>>> upstream/18.0
 =======
 "Uma solicitação de reembolso no valor de %(amount)s foi enviada. O pagamento "
 "será criado em breve. Referência de transação de reembolso: %(ref)s (%"
@@ -5983,6 +6068,7 @@ msgstr "Aplicar"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -6181,6 +6267,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:payment.method,name:payment.payment_method_appota
 msgid "Appota"
 msgstr "Appota"
@@ -6196,6 +6284,9 @@ msgstr "Appota"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6983,8 +7074,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "forma de pagamento que fornece todas as informações de entrega e de cobrança"
 " necessárias, possibilitando assim pular o processo de checkout."
+=======
+"forma de pagamento que fornece todas as informações de entrega e de cobrança "
+"necessárias, possibilitando assim pular o processo de checkout."
+>>>>>>> upstream/18.0
 =======
 "forma de pagamento que fornece todas as informações de entrega e de cobrança "
 "necessárias, possibilitando assim pular o processo de checkout."
@@ -7445,8 +7541,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If you believe that it is an error, please contact the website "
 "administrator."
+=======
+"If you believe that it is an error, please contact the website administrator."
+>>>>>>> upstream/18.0
 =======
 "If you believe that it is an error, please contact the website administrator."
 >>>>>>> upstream/18.0
@@ -7703,7 +7803,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "No modo de teste, um pagamento falso é processado por meio de uma interface de pagamento de teste.\n"
+=======
+"No modo de teste, um pagamento falso é processado por meio de uma interface "
+"de pagamento de teste.\n"
+>>>>>>> upstream/18.0
 =======
 "No modo de teste, um pagamento falso é processado por meio de uma interface "
 "de pagamento de teste.\n"
@@ -8100,7 +8205,10 @@ msgstr "KrungThai Bank"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8241,6 +8349,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8655,8 +8766,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Nenhuma forma de pagamento manual foi encontrada para esta empresa. Crie uma"
 " no menu de provedores de serviços de pagamentos."
+=======
+"Nenhuma forma de pagamento manual foi encontrada para esta empresa. Crie uma "
+"no menu de provedores de serviços de pagamentos."
+>>>>>>> upstream/18.0
 =======
 "Nenhuma forma de pagamento manual foi encontrada para esta empresa. Crie uma "
 "no menu de provedores de serviços de pagamentos."
@@ -9574,8 +9690,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "O reembolso é um recurso que permite reembolsar os clientes diretamente pelo"
 " pagamento no Odoo"
+=======
+"O reembolso é um recurso que permite reembolsar os clientes diretamente pelo "
+"pagamento no Odoo"
+>>>>>>> upstream/18.0
 =======
 "O reembolso é um recurso que permite reembolsar os clientes diretamente pelo "
 "pagamento no Odoo"
@@ -9999,12 +10120,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Some of the transactions you intend to capture can only be captured in full."
 " Handle the transactions individually to capture a partial amount."
 msgstr ""
 "Algumas das transações que você pretende capturar só podem ser capturadas na"
 " íntegra. Processe as transações individualmente para capturar um valor "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10187,6 +10311,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10487,11 +10614,17 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The brands of the payment methods that will be displayed on the payment "
 "form."
 msgstr ""
 "As marcas da forma de pagamento que serão exibidas no formulário de "
 "pagamento"
+=======
+"The brands of the payment methods that will be displayed on the payment form."
+msgstr ""
+"As marcas da forma de pagamento que serão exibidas no formulário de pagamento"
+>>>>>>> upstream/18.0
 =======
 "The brands of the payment methods that will be displayed on the payment form."
 msgstr ""
@@ -10879,8 +11012,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Os países nos quais esta forma de pagamento está disponível. Deixe em branco"
 " para disponibilizar a todos os países."
+=======
+"Os países nos quais esta forma de pagamento está disponível. Deixe em branco "
+"para disponibilizar a todos os países."
+>>>>>>> upstream/18.0
 =======
 "Os países nos quais esta forma de pagamento está disponível. Deixe em branco "
 "para disponibilizar a todos os países."
@@ -11222,9 +11360,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The list of currencies for that are supported by this payment method (if the"
 " provider allows it). When paying with another currency, this payment method"
 " is not available to customers."
+=======
+"The list of currencies for that are supported by this payment method (if the "
+"provider allows it). When paying with another currency, this payment method "
+"is not available to customers."
+>>>>>>> upstream/18.0
 =======
 "The list of currencies for that are supported by this payment method (if the "
 "provider allows it). When paying with another currency, this payment method "
@@ -11655,12 +11799,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The primary payment method of the current payment method, if the latter is a brand.\n"
 "For example, \"Card\" is the primary payment method of the card brand \"VISA\"."
 msgstr ""
 "A forma de pagamento primária da forma de pagamento atual, se esta última for uma marca.\n"
 "Por exemplo, \"cartão\" é a forma de pagamento primária da marca de cartões \"VISA\"."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11847,6 +11994,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12106,8 +12256,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The transaction with reference %(ref)s for %(amount)s encountered an error "
 "(%(provider_name)s)."
+=======
+"The transaction with reference %(ref)s for %(amount)s encountered an error (%"
+"(provider_name)s)."
+>>>>>>> upstream/18.0
 =======
 "The transaction with reference %(ref)s for %(amount)s encountered an error (%"
 "(provider_name)s)."
@@ -12416,12 +12571,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The transaction with reference %(ref)s for %(amount)s has been authorized "
 "(%(provider_name)s)."
 msgstr ""
 "A transação com a referência %(ref)s no valor de %(amount)s foi autorizada "
 "(%(provider_name)s)."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12604,6 +12762,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12788,12 +12949,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The transaction with reference %(ref)s for %(amount)s has been confirmed "
 "(%(provider_name)s)."
 msgstr ""
 "A transação com a referência %(ref)s no valor de %(amount)s foi confirmada "
 "(%(provider_name)s)."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12976,6 +13140,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13184,8 +13351,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Essa ação também arquivará %s tokens que estão registrados com essa forma de"
 " pagamento."
+=======
+"Essa ação também arquivará %s tokens que estão registrados com essa forma de "
+"pagamento."
+>>>>>>> upstream/18.0
 =======
 "Essa ação também arquivará %s tokens que estão registrados com essa forma de "
 "pagamento."
@@ -13494,8 +13666,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Essa ação também arquivará %s tokens que estão registrados com essa forma de"
 " pagamento."
+=======
+"Essa ação também arquivará %s tokens que estão registrados com essa forma de "
+"pagamento."
+>>>>>>> upstream/18.0
 =======
 "Essa ação também arquivará %s tokens que estão registrados com essa forma de "
 "pagamento."
@@ -13800,6 +13977,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This controls whether customers can save their payment methods as payment tokens.\n"
 "A payment token is an anonymous link to the payment method details saved in the\n"
 "provider's database, allowing the customer to reuse it for a next purchase."
@@ -13808,6 +13986,8 @@ msgstr ""
 "Um token de pagamento é um link anônimo para as informações da forma de pagamento salva no\n"
 "banco de dados do provedor, permitindo que o cliente o reutilize em uma próxima compra."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13997,6 +14177,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14185,8 +14368,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "checkout expresso permite que os clientes paguem com Google Pay e Apple Pay,"
 " de onde o endereço é coletado no momento do pagamento."
+=======
+"checkout expresso permite que os clientes paguem com Google Pay e Apple Pay, "
+"de onde o endereço é coletado no momento do pagamento."
+>>>>>>> upstream/18.0
 =======
 "checkout expresso permite que os clientes paguem com Google Pay e Apple Pay, "
 "de onde o endereço é coletado no momento do pagamento."
@@ -14491,11 +14679,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This partner has no email, which may cause issues with some payment providers.\n"
 "                     Setting an email for this partner is advised."
 msgstr ""
 "Este usuário não tem e-mail informado, o que pode causar problemas com alguns provedores de serviços de pagamento.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14679,6 +14870,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14867,8 +15061,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Esta forma de pagamento precisa de um parceiro; você deve primeiro habilitar"
 " um provedor de pagamentos que suporte este método."
+=======
+"Esta forma de pagamento precisa de um parceiro; você deve primeiro habilitar "
+"um provedor de pagamentos que suporte este método."
+>>>>>>> upstream/18.0
 =======
 "Esta forma de pagamento precisa de um parceiro; você deve primeiro habilitar "
 "um provedor de pagamentos que suporte este método."
@@ -15177,8 +15376,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Esta transação foi confirmada em decorrência do processamento das transações"
 " de captura parcial e de cancelamento parcial (%(provider)s)."
+=======
+"Esta transação foi confirmada em decorrência do processamento das transações "
+"de captura parcial e de cancelamento parcial (%(provider)s)."
+>>>>>>> upstream/18.0
 =======
 "Esta transação foi confirmada em decorrência do processamento das transações "
 "de captura parcial e de cancelamento parcial (%(provider)s)."
@@ -15590,7 +15794,10 @@ msgstr "VISA"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15736,6 +15943,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15883,7 +16093,10 @@ msgstr "Venmo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16024,6 +16237,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16166,7 +16382,10 @@ msgstr "Vietcombank"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16307,6 +16526,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16529,7 +16751,10 @@ msgstr "Transferência bancária"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16670,6 +16895,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16792,6 +17020,7 @@ msgstr ""
 
 #. module: payment
 #. odoo-python
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17622,6 +17851,8 @@ msgstr "You cannot delete the default payment method."
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/payment/models/payment_method.py:0
 msgid "You cannot delete the default payment method."
 msgstr "Não é possível excluir a forma de pagamento padrão."
@@ -17832,6 +18063,9 @@ msgstr "Não é possível excluir a forma de pagamento padrão."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18306,8 +18540,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Você não pode excluir o provedor de pagamento %s; em vez disso, desabilite-o"
 " ou desinstale-o."
+=======
+"Você não pode excluir o provedor de pagamento %s; em vez disso, desabilite-o "
+"ou desinstale-o."
+>>>>>>> upstream/18.0
 =======
 "Você não pode excluir o provedor de pagamento %s; em vez disso, desabilite-o "
 "ou desinstale-o."

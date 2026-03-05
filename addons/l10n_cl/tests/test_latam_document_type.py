@@ -83,7 +83,10 @@ class TestClLatamDocumentType(AccountTestInvoicingCommon):
         }])
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -95,6 +98,9 @@ class TestClLatamDocumentType(AccountTestInvoicingCommon):
             'l10n_latam_document_number': 'ABC123',
         })
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

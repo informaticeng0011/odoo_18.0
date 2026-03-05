@@ -27,6 +27,10 @@ from . import test_working_hours
 from . import test_dashboard
 from . import test_expiring_leaves
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import test_hr_leave_report
+>>>>>>> upstream/18.0
 =======
 from . import test_hr_leave_report
 >>>>>>> upstream/18.0

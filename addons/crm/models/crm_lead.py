@@ -429,7 +429,11 @@ class Lead(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if not lead.stage_id:
+=======
+            if not lead.stage_id or (lead.team_id and lead.stage_id.team_id and lead.team_id != lead.stage_id.team_id):
+>>>>>>> upstream/18.0
 =======
             if not lead.stage_id or (lead.team_id and lead.stage_id.team_id and lead.team_id != lead.stage_id.team_id):
 >>>>>>> upstream/18.0
@@ -982,15 +986,21 @@ class Lead(models.Model):
                 lead.meeting_display_label = _('No Meeting')
             elif lead_meeting_info['next_meeting_date']:
 <<<<<<< HEAD
+<<<<<<< HEAD
                 lead.meeting_display_date = lead_meeting_info['next_meeting_date']
                 lead.meeting_display_label = _('Next Meeting')
             else:
                 lead.meeting_display_date = lead_meeting_info['last_meeting_date']
 =======
+=======
+>>>>>>> upstream/18.0
                 lead.meeting_display_date = fields.Datetime.context_timestamp(lead, lead_meeting_info['next_meeting_date'])
                 lead.meeting_display_label = _('Next Meeting')
             else:
                 lead.meeting_display_date = fields.Datetime.context_timestamp(lead, lead_meeting_info['last_meeting_date'])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 lead.meeting_display_label = _('Last Meeting')
 
@@ -1517,7 +1527,11 @@ class Lead(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             vals['date_open'] = now if lead.type == 'opportunity' else False
+=======
+            vals['date_open'] = now if lead.type == 'opportunity' and lead.user_id.active else False
+>>>>>>> upstream/18.0
 =======
             vals['date_open'] = now if lead.type == 'opportunity' and lead.user_id.active else False
 >>>>>>> upstream/18.0
@@ -2689,7 +2703,11 @@ class Lead(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'priority': lambda fname, leads: max(leads.mapped('priority')) if leads else False,
+=======
+            'priority': lambda fname, leads: max(priorities) if (priorities := leads.filtered('priority').mapped('priority')) else False,
+>>>>>>> upstream/18.0
 =======
             'priority': lambda fname, leads: max(priorities) if (priorities := leads.filtered('priority').mapped('priority')) else False,
 >>>>>>> upstream/18.0
@@ -4005,7 +4023,11 @@ class Lead(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             name_from_email = self.partner_name or self.contact_name
+=======
+            name_from_email = self.contact_name or self.partner_name
+>>>>>>> upstream/18.0
 =======
             name_from_email = self.contact_name or self.partner_name
 >>>>>>> upstream/18.0

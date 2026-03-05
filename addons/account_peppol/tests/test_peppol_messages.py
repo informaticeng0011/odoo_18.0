@@ -129,6 +129,7 @@ from contextlib import contextmanager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from requests import Session, PreparedRequest, Response
 from unittest.mock import patch
 
@@ -400,11 +401,15 @@ from lxml import etree
 =======
 from lxml import etree
 >>>>>>> upstream/18.0
+=======
+from lxml import etree
+>>>>>>> upstream/18.0
 from unittest.mock import patch
 from urllib import parse
 
 from requests import PreparedRequest, Response, Session
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1139,6 +1144,8 @@ from odoo.addons.account.tests.test_account_move_send import TestAccountMoveSend
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 from odoo import Command
 from odoo.tests.common import tagged, freeze_time
 from odoo.tools.misc import file_open
@@ -1192,6 +1199,9 @@ from odoo.addons.account.tests.test_account_move_send import TestAccountMoveSend
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1344,9 +1354,14 @@ FILE_PATH = 'account_peppol/tests/assets'
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @freeze_time('2023-01-01')
 @tagged('-at_install', 'post_install')
 class TestPeppolMessage(TestAccountMoveSendCommon):
+=======
+
+class TestPeppolMessageCommon(TestAccountMoveSendCommon):
+>>>>>>> upstream/18.0
 =======
 
 class TestPeppolMessageCommon(TestAccountMoveSendCommon):
@@ -1596,6 +1611,10 @@ class TestPeppolMessageCommon(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'allow_out_payment': True,
+>>>>>>> upstream/18.0
 =======
             'allow_out_payment': True,
 >>>>>>> upstream/18.0
@@ -1635,6 +1654,7 @@ class TestPeppolMessageCommon(TestAccountMoveSendCommon):
             ],
         })
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1828,6 +1848,8 @@ class TestPeppolMessageCommon(TestAccountMoveSendCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     @contextmanager
     def _set_context(self, other_context):
         previous_context = self.env.context
@@ -1839,6 +1861,7 @@ class TestPeppolMessageCommon(TestAccountMoveSendCommon):
     def _request_handler(cls, s: Session, r: PreparedRequest, /, **kw):
         response = Response()
         response.status_code = 200
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2599,6 +2622,8 @@ class TestPeppolMessageCommon(TestAccountMoveSendCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         url = r.path_url.lower()
         if r.path_url.startswith('/api/peppol/1/lookup'):
             peppol_identifier = parse.parse_qs(r.path_url.rsplit('?')[1])['peppol_identifier'][0].lower()
@@ -2685,8 +2710,11 @@ class TestPeppolMessageCommon(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2836,6 +2864,9 @@ class TestPeppolMessageCommon(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2950,6 +2981,7 @@ class TestPeppolMessageCommon(TestAccountMoveSendCommon):
                 }
                 return response
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3462,6 +3494,8 @@ class TestPeppolMessageCommon(TestAccountMoveSendCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         body = json.loads(r.body)
         if url == '/api/peppol/1/send_document':
             num_invoices = len(body['params']['documents'])
@@ -3571,6 +3605,9 @@ class TestPeppolMessage(TestPeppolMessageCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3772,6 +3809,9 @@ class TestPeppolMessage(TestPeppolMessageCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4221,7 +4261,10 @@ class TestPeppolMessage(TestPeppolMessageCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5010,6 +5053,9 @@ class TestPeppolMessage(TestPeppolMessageCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5627,7 +5673,11 @@ class TestPeppolMessage(TestPeppolMessageCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(self._get_mail_message(move).preview, 'The document has been sent to the Peppol Access Point for processing')
+=======
+        self.assertEqual(self._get_mail_message(move).preview, 'The invoice has been sent to the Peppol Access Point. The following attachments were sent with the XML:')
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(self._get_mail_message(move).preview, 'The invoice has been sent to the Peppol Access Point. The following attachments were sent with the XML:')
 >>>>>>> upstream/18.0
@@ -6029,7 +6079,10 @@ class TestPeppolMessage(TestPeppolMessageCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6092,6 +6145,9 @@ class TestPeppolMessage(TestPeppolMessageCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6180,6 +6236,7 @@ class TestPeppolMessage(TestPeppolMessageCommon):
             'peppol_eas': '0208',
             'peppol_endpoint': '0477472701',
             'invoice_edi_format': 'ubl_bis3',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7134,12 +7191,17 @@ class TestPeppolMessage(TestPeppolMessageCommon):
         }])
         # but not valid for company 2
 >>>>>>> upstream/18.0
+=======
+        }])
+        # but not valid for company 2
+>>>>>>> upstream/18.0
         new_partner.with_company(company_2).invoice_edi_format = 'nlcius'
         self.assertRecordValues(new_partner.with_company(company_2), [{
             'peppol_verification_state': 'not_valid_format',
             'peppol_eas': '0208',
             'peppol_endpoint': '0477472701',
             'invoice_edi_format': 'nlcius',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7925,6 +7987,8 @@ class TestPeppolMessage(TestPeppolMessageCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         }])
         move_1 = self.create_move(new_partner)
         move_2 = self.create_move(new_partner)
@@ -7934,6 +7998,7 @@ class TestPeppolMessage(TestPeppolMessageCommon):
         wizard = self.create_send_and_print(move_1 + move_2 + move_3)
         wizard.action_send_and_print()
         self.assertEqual((move_1 + move_2 + move_3).mapped('is_being_sent'), [True, True, True])
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9270,6 +9335,8 @@ class TestPeppolMessage(TestPeppolMessageCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         # the cron is run asynchronously and should be agnostic from the current self.env.company
         self.env.ref('account.ir_cron_account_move_send').with_company(company_2).method_direct_trigger()
         # only move 1 & 2 should be processed, move_3 is related to an invalid partner (with regard to company_2) thus should not be sent by Peppol
@@ -9353,6 +9420,9 @@ class TestPeppolMessage(TestPeppolMessageCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9785,7 +9855,10 @@ class TestPeppolMessage(TestPeppolMessageCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10628,6 +10701,7 @@ class TestPeppolMessage(TestPeppolMessageCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10804,6 +10878,8 @@ class TestPeppolMessage(TestPeppolMessageCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11335,6 +11411,7 @@ class TestPeppolMessage(TestPeppolMessageCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11519,6 +11596,8 @@ class TestPeppolMessage(TestPeppolMessageCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11811,6 +11890,7 @@ class TestPeppolMessage(TestPeppolMessageCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11951,6 +12031,8 @@ class TestPeppolMessage(TestPeppolMessageCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12012,12 +12094,15 @@ class TestPeppolMessage(TestPeppolMessageCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12104,6 +12189,9 @@ class TestPeppolSelfBillingImport(TestPeppolMessageCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

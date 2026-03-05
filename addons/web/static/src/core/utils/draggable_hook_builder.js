@@ -302,6 +302,12 @@ function makeDOMHelpers(cleanup) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+        rect.height = el.offsetHeight;
+
+>>>>>>> upstream/18.0
 =======
 
         rect.height = el.offsetHeight;
@@ -899,8 +905,13 @@ export function makeDraggableHook(hookParams) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const isDocumentScrollingElement = ctx.current.container
                     === ctx.current.container.ownerDocument.scrollingElement;
+=======
+                const isDocumentScrollingElement =
+                    ctx.current.container === ctx.current.container.ownerDocument.scrollingElement;
+>>>>>>> upstream/18.0
 =======
                 const isDocumentScrollingElement =
                     ctx.current.container === ctx.current.container.ownerDocument.scrollingElement;
@@ -1581,8 +1592,12 @@ export function makeDraggableHook(hookParams) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 [ctx.current.scrollParentX, ctx.current.scrollParentY] =
                     isDocumentScrollingElement
+=======
+                [ctx.current.scrollParentX, ctx.current.scrollParentY] = isDocumentScrollingElement
+>>>>>>> upstream/18.0
 =======
                 [ctx.current.scrollParentX, ctx.current.scrollParentY] = isDocumentScrollingElement
 >>>>>>> upstream/18.0
@@ -2186,7 +2201,11 @@ export function makeDraggableHook(hookParams) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         if (target) {
+=======
+                        if (target && ctx.current.element.isConnected) {
+>>>>>>> upstream/18.0
 =======
                         if (target && ctx.current.element.isConnected) {
 >>>>>>> upstream/18.0
@@ -2936,6 +2955,11 @@ export function makeDraggableHook(hookParams) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                } else if (!ctx.current.element.isConnected) {
+                    return dragEnd(null);
+>>>>>>> upstream/18.0
 =======
                 } else if (!ctx.current.element.isConnected) {
                     return dragEnd(null);

@@ -11,7 +11,13 @@ class AlarmManager(models.AbstractModel):
     def _get_notify_alert_extra_conditions(self):
         base = super()._get_notify_alert_extra_conditions()
 <<<<<<< HEAD
+<<<<<<< HEAD
         return SQL("%s AND event.microsoft_id IS NULL", base)
+=======
+        if self.env.context.get('alarm_type') == 'email':
+            return SQL("%s AND event.microsoft_id IS NULL", base)
+        return base
+>>>>>>> upstream/18.0
 =======
         if self.env.context.get('alarm_type') == 'email':
             return SQL("%s AND event.microsoft_id IS NULL", base)

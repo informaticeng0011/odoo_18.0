@@ -27,7 +27,10 @@ CreditNoteLine = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -54,6 +57,10 @@ CreditNote = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'cbc:TaxPointDate': {},
+>>>>>>> upstream/18.0
 =======
     'cbc:TaxPointDate': {},
 >>>>>>> upstream/18.0
@@ -79,6 +86,10 @@ CreditNote = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'cbc:AccountingCost': {},
+>>>>>>> upstream/18.0
 =======
     'cbc:AccountingCost': {},
 >>>>>>> upstream/18.0
@@ -106,6 +117,11 @@ CreditNote = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'cac:DespatchDocumentReference': cac.DespatchDocumentReference,
+    'cac:ContractDocumentReference': cac.ContractDocumentReference,
+>>>>>>> upstream/18.0
 =======
     'cac:DespatchDocumentReference': cac.DespatchDocumentReference,
     'cac:ContractDocumentReference': cac.ContractDocumentReference,
@@ -305,6 +321,10 @@ CreditNote = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'cac:PrepaidPayment': cac.PrepaidPayment,
+>>>>>>> upstream/18.0
 =======
     'cac:PrepaidPayment': cac.PrepaidPayment,
 >>>>>>> upstream/18.0

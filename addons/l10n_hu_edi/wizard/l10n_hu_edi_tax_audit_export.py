@@ -96,7 +96,11 @@ class L10nHuEdiTaxAuditExport(models.TransientModel):
                 # we need to temporarily set the chain index and line numbers, so we do this in a savepoint.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 with contextlib.closing(self.env.cr.savepoint(flush=False)):
+=======
+                with contextlib.closing(self.env.cr.savepoint()):
+>>>>>>> upstream/18.0
 =======
                 with contextlib.closing(self.env.cr.savepoint()):
 >>>>>>> upstream/18.0
