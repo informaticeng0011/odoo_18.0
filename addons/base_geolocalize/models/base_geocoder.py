@@ -10,6 +10,13 @@ from odoo.exceptions import UserError
 _logger = logging.getLogger(__name__)
 
 
+<<<<<<< HEAD
+=======
+def get_google_map_api_key(env):
+    return env['ir.config_parameter'].sudo().get_param('base_geolocalize.google_map_api_key')
+
+
+>>>>>>> upstream/18.0
 class GeoProvider(models.Model):
     _name = "base.geo_provider"
     _description = "Geo Provider"
@@ -103,7 +110,11 @@ class GeoCoder(models.AbstractModel):
         """ Use google maps API. It won't work without a valid API key.
         :return: (latitude, longitude) or None if not found
         """
+<<<<<<< HEAD
         apikey = self.env['ir.config_parameter'].sudo().get_param('base_geolocalize.google_map_api_key')
+=======
+        apikey = get_google_map_api_key(self.env)
+>>>>>>> upstream/18.0
         if not apikey:
             raise UserError(_(
                 "API key for GeoCoding (Places) required.\n"

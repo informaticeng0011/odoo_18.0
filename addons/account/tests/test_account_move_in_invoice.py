@@ -1066,6 +1066,11 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.other_currency.rounding = 0.001
+
+>>>>>>> upstream/18.0
 =======
         self.other_currency.rounding = 0.001
 
@@ -1653,7 +1658,11 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'price_unit': 0.05,
+=======
+                'price_unit': 0.045,
+>>>>>>> upstream/18.0
 =======
                 'price_unit': 0.045,
 >>>>>>> upstream/18.0
@@ -1862,12 +1871,15 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'price_unit': 0.05,
                 'price_subtotal': 0.01,
                 'price_total': 0.01,
                 'amount_currency': 0.01,
                 'debit': 0.01,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1990,6 +2002,9 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2119,8 +2134,13 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'amount_currency': -208.01,
                 'credit': 208.01,
+=======
+                'amount_currency': -208.0,
+                'credit': 208.0,
+>>>>>>> upstream/18.0
 =======
                 'amount_currency': -208.0,
                 'credit': 208.0,
@@ -2327,9 +2347,15 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'amount_untaxed': 160.01,
             'amount_tax': 48.0,
             'amount_total': 208.01,
+=======
+            'amount_untaxed': 160.0,
+            'amount_tax': 48.0,
+            'amount_total': 208.0,
+>>>>>>> upstream/18.0
 =======
             'amount_untaxed': 160.0,
             'amount_tax': 48.0,
@@ -2581,6 +2607,10 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'allow_out_payment': True,
+>>>>>>> upstream/18.0
 =======
             'allow_out_payment': True,
 >>>>>>> upstream/18.0
@@ -2716,7 +2746,11 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'name': False,
+=======
+                'name': 'Reversal of: %s, %s' % (self.invoice.name, move_reversal.reason),
+>>>>>>> upstream/18.0
 =======
                 'name': 'Reversal of: %s, %s' % (self.invoice.name, move_reversal.reason),
 >>>>>>> upstream/18.0
@@ -2962,7 +2996,11 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'name': False,
+=======
+                'name': 'Reversal of: %s, %s' % (self.invoice.name, move_reversal.reason),
+>>>>>>> upstream/18.0
 =======
                 'name': 'Reversal of: %s, %s' % (self.invoice.name, move_reversal.reason),
 >>>>>>> upstream/18.0
@@ -3697,7 +3735,10 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4087,6 +4128,9 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4853,6 +4897,7 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         def create_statement_line(move, amount):
             statement_line = self.env['account.bank.statement.line'].create({
                 'payment_ref': 'ref',
@@ -4869,6 +4914,8 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
             (st_suspense_lines + line).reconcile()
             assert_partial(st_suspense_lines, line)
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5021,7 +5068,12 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 create_statement_line(move, counterpart_amount)
+=======
+                reconciliation_info = self.pay_with_statement_line(move, self.company_data['default_journal_bank'].id, '2020-01-10', counterpart_amount)
+                assert_partial(reconciliation_info['statement_line_reconciled'], reconciliation_info['move_reconciled'])
+>>>>>>> upstream/18.0
 =======
                 reconciliation_info = self.pay_with_statement_line(move, self.company_data['default_journal_bank'].id, '2020-01-10', counterpart_amount)
                 assert_partial(reconciliation_info['statement_line_reconciled'], reconciliation_info['move_reconciled'])
@@ -5421,6 +5473,7 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_onchange_payment_reference(self):
         """
         Ensure payment reference propagation from move to payment term
@@ -5607,6 +5660,8 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def test_onchange_ref(self):
         """
         Ensure that updating the ref field updates the payment term line name when payment reference is empty.
@@ -5644,6 +5699,9 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5972,7 +6030,10 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6244,6 +6305,9 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

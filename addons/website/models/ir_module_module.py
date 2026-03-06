@@ -670,6 +670,7 @@ class IrModuleModule(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # assume there are not too many records
         self.env.cr.execute(""" SELECT generic.arch_db, specific.arch_db, specific.id
                           FROM ir_ui_view generic
@@ -703,6 +704,8 @@ class IrModuleModule(models.Model):
                     lambda term: specific_translation_dictionary.get(term, {lang: None})[lang], specific_arch_db_en)
             cache.update_raw(View.browse(specific_id), field, [specific_arch_db], dirty=True)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1258,6 +1261,9 @@ class IrModuleModule(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

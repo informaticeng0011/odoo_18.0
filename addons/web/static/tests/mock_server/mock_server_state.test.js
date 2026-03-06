@@ -208,7 +208,11 @@ test("default state", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect("view_info" in s).toBe(true);
+=======
+    expect(s).toInclude("view_info");
+>>>>>>> upstream/18.0
 =======
     expect(s).toInclude("view_info");
 >>>>>>> upstream/18.0

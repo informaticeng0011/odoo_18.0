@@ -10,7 +10,11 @@
                 <div t-if="props.data.company.name" t-esc="props.data.company.name" />
                 <t t-if="props.data.company.phone">
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <div>Tel:<t t-esc="props.data.company.phone" /></div>
+=======
+                    <div>Tel:<span dir="ltr"><t t-esc="props.data.company.phone" /></span></div>
+>>>>>>> upstream/18.0
 =======
                     <div>Tel:<span dir="ltr"><t t-esc="props.data.company.phone" /></span></div>
 >>>>>>> upstream/18.0

@@ -109,6 +109,10 @@ class TestSwissQR(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'allow_out_payment': True,
+>>>>>>> upstream/18.0
 =======
                 'allow_out_payment': True,
 >>>>>>> upstream/18.0
@@ -200,6 +204,7 @@ class TestSwissQR(AccountTestInvoicingCommon):
             "0200\n"
             "1\n"
             "{iban}\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -537,6 +542,8 @@ class TestSwissQR(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             "S\n"
             "company_1_data\n"
             "Route de Berne\n"
@@ -653,6 +660,9 @@ class TestSwissQR(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -878,6 +888,7 @@ class TestSwissQR(AccountTestInvoicingCommon):
             "\n\n\n\n\n\n\n"
             "42.00\n"
             "CHF\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1215,6 +1226,8 @@ class TestSwissQR(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             "S\n"
             "Partner\n"
             "Route de Berne\n"
@@ -1331,6 +1344,9 @@ class TestSwissQR(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

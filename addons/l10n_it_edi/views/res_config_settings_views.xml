@@ -236,6 +236,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <block title="Italian Electronic Invoicing" invisible="country_code != 'IT'" id='account_edi'>
 =======
                 <block title="Italian Electronic Invoicing" invisible="country_code != 'IT' or company_parent_id" id='account_edi'>
@@ -789,6 +790,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 <block title="Italian Electronic Invoicing" invisible="country_code != 'IT' or use_root_proxy_user" id='account_edi'>
                     <setting id="italian_edi">
                         <div class="group-content">
@@ -968,6 +971,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1351,6 +1357,7 @@
                         </div>
                     </setting>
                 </block>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2108,6 +2115,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 <block title="Italian Electronic Invoicing" invisible="(country_code != 'IT') or not use_root_proxy_user" id='account_edi_branch'>
                     <span class="o_form_label">
                         This branch shares the same VAT number and Codice Fiscale as its parent company. Select the parent company to configure the EDI settings.
@@ -2318,6 +2327,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

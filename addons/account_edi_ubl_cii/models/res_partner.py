@@ -188,6 +188,7 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ('facturx', "Factur-X (CII)"),
             ('ubl_bis3', "BIS Billing 3.0"),
             ('xrechnung', "XRechnung CIUS"),
@@ -1312,6 +1313,8 @@ class ResPartner(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             ('facturx', "France (FacturX)"),
             ('ubl_bis3', "EU Standard (Peppol Bis 3.0)"),
             ('zugferd', "Germany (ZUGFeRD)"),
@@ -1321,6 +1324,9 @@ class ResPartner(models.Model):
             ('ubl_sg', "Singapore (BIS Billing 3.0 SG)"),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1545,6 +1551,11 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            ('0225', "France FRCTC Electronic Address"),
+            ('0240', "France Register of legal persons"),
+>>>>>>> upstream/18.0
 =======
             ('0225', "France FRCTC Electronic Address"),
             ('0240', "France Register of legal persons"),
@@ -2430,6 +2441,10 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            ('0218', "Latvia Unified registration number"),
+>>>>>>> upstream/18.0
 =======
             ('0218', "Latvia Unified registration number"),
 >>>>>>> upstream/18.0
@@ -3157,6 +3172,10 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            ('0235', "UAE Tax Identification Number (TIN)"),
+>>>>>>> upstream/18.0
 =======
             ('0235', "UAE Tax Identification Number (TIN)"),
 >>>>>>> upstream/18.0
@@ -3914,7 +3933,10 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4559,6 +4581,7 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4638,6 +4661,11 @@ class ResPartner(models.Model):
 >>>>>>> upstream/18.0
         ]
     )
+=======
+        ]
+    )
+    available_peppol_eas = fields.Json(compute='_compute_available_peppol_eas')
+>>>>>>> upstream/18.0
 =======
         ]
     )
@@ -5620,8 +5648,11 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'ubl_bis3': {'countries': list(PEPPOL_DEFAULT_COUNTRIES), 'on_peppol': True, 'sequence': 200},
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5898,6 +5929,7 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6083,6 +6115,9 @@ class ResPartner(models.Model):
 =======
             'xrechnung': {'countries': ['DE'], 'sequence': 200, 'on_peppol': True},
 >>>>>>> upstream/18.0
+=======
+            'xrechnung': {'countries': ['DE'], 'sequence': 200, 'on_peppol': True},
+>>>>>>> upstream/18.0
             'ubl_a_nz': {'countries': ['NZ', 'AU'], 'on_peppol': False},  # Not yet available through Odoo's Access Point, although it's a Peppol valid format
             'nlcius': {'countries': ['NL'], 'on_peppol': True},
             'ubl_sg': {'countries': ['SG'], 'on_peppol': False},  # Same.
@@ -6090,6 +6125,10 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'zugferd': {'countries': ['DE'], 'on_peppol': False},
+>>>>>>> upstream/18.0
 =======
             'zugferd': {'countries': ['DE'], 'on_peppol': False},
 >>>>>>> upstream/18.0
@@ -6126,6 +6165,11 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                if self.peppol_eas == '0204':
+                    return 'xrechnung'
+>>>>>>> upstream/18.0
 =======
                 if self.peppol_eas == '0204':
                     return 'xrechnung'
@@ -6267,7 +6311,10 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6563,6 +6610,7 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6754,6 +6802,9 @@ class ResPartner(models.Model):
 =======
     @api.depends('peppol_eas')
 >>>>>>> upstream/18.0
+=======
+    @api.depends('peppol_eas')
+>>>>>>> upstream/18.0
     def _compute_peppol_endpoint(self):
         """ If the EAS changes and a valid endpoint is available, set it. Otherwise, keep the existing value."""
         for partner in self:
@@ -6855,11 +6906,17 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if field \
                         and field in partner._fields \
                         and partner[field] \
                         and not partner._build_error_peppol_endpoint(partner.peppol_eas, partner[field]):
                     partner.peppol_endpoint = partner[field]
+=======
+                value = partner._get_peppol_endpoint_value(country_code, field)
+                if field and value and not partner._build_error_peppol_endpoint(partner.peppol_eas, value):
+                    partner.peppol_endpoint = value
+>>>>>>> upstream/18.0
 =======
                 value = partner._get_peppol_endpoint_value(country_code, field)
                 if field and value and not partner._build_error_peppol_endpoint(partner.peppol_eas, value):
@@ -7440,8 +7497,14 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         if field and field in partner._fields and partner[field]:
                             if not partner._build_error_peppol_endpoint(eas, partner[field]):
+=======
+                        if field and field in partner._fields:
+                            value = partner._get_peppol_endpoint_value(country_code, field)
+                            if value and not partner._build_error_peppol_endpoint(eas, value):
+>>>>>>> upstream/18.0
 =======
                         if field and field in partner._fields:
                             value = partner._get_peppol_endpoint_value(country_code, field)
@@ -8091,7 +8154,10 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8620,6 +8686,9 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8987,7 +9056,12 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if invoice_edi_format == 'facturx':
+=======
+        # Same template for the two formats (France and Germany)
+        if invoice_edi_format in ('facturx', 'zugferd'):
+>>>>>>> upstream/18.0
 =======
         # Same template for the two formats (France and Germany)
         if invoice_edi_format in ('facturx', 'zugferd'):

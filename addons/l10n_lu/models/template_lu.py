@@ -205,7 +205,11 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'account_journal_suspense_account_id': 'lu_2011_account_485',
+=======
+                'account_journal_suspense_account_id': 'lu_2011_account_484',
+>>>>>>> upstream/18.0
 =======
                 'account_journal_suspense_account_id': 'lu_2011_account_484',
 >>>>>>> upstream/18.0

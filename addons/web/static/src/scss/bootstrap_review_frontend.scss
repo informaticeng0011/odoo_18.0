@@ -73,7 +73,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 :where(.card:not([data-vxml])) .card-body {
+=======
+:where(.card:not([data-vxml])) .card-body:not(.card[data-vxml] .card-body) {
+>>>>>>> upstream/18.0
 =======
 :where(.card:not([data-vxml])) .card-body:not(.card[data-vxml] .card-body) {
 >>>>>>> upstream/18.0

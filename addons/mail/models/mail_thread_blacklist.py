@@ -88,7 +88,11 @@ class MailBlackListMixin(models.AbstractModel):
         # TODO : Should remove the sudo as compute_sudo defined on methods.
         # But if user doesn't have access to mail.blacklist, doen't work without sudo().
 <<<<<<< HEAD
+<<<<<<< HEAD
         blacklist = set(self.env['mail.blacklist'].sudo().search([
+=======
+        blacklist = set(self.env['mail.blacklist'].sudo().with_context(active_test=True).search([
+>>>>>>> upstream/18.0
 =======
         blacklist = set(self.env['mail.blacklist'].sudo().with_context(active_test=True).search([
 >>>>>>> upstream/18.0

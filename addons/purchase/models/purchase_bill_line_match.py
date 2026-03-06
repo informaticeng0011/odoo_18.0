@@ -212,6 +212,7 @@ class PurchaseBillMatch(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     pol_id = fields.Many2one(comodel_name='purchase.order.line')
     aml_id = fields.Many2one(comodel_name='account.move.line')
     company_id = fields.Many2one(comodel_name='res.company')
@@ -226,6 +227,8 @@ class PurchaseBillMatch(models.Model):
     currency_id = fields.Many2one(comodel_name='res.currency')
     state = fields.Char()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -836,6 +839,9 @@ class PurchaseBillMatch(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1454,7 +1460,11 @@ class PurchaseBillMatch(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                AND pol.product_qty > pol.qty_invoiced
+=======
+               AND (pol.product_qty > pol.qty_invoiced OR pol.qty_to_invoice != 0)
+>>>>>>> upstream/18.0
 =======
                AND (pol.product_qty > pol.qty_invoiced OR pol.qty_to_invoice != 0)
 >>>>>>> upstream/18.0
@@ -2149,9 +2159,12 @@ class PurchaseBillMatch(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         context = {
             'default_partner_id': self.partner_id.id,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2643,6 +2656,9 @@ class PurchaseBillMatch(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

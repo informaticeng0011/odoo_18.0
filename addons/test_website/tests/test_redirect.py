@@ -269,7 +269,10 @@ class TestRedirect(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -931,6 +934,9 @@ class TestRedirect(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1597,8 +1603,13 @@ class TestRedirect(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.assertEqual(resp.status_code, 403)
             self.assertEqual(resp.text, "CUSTOM 403")
+=======
+            self.assertEqual(resp.status_code, 404)
+            self.assertEqual(resp.text, "CUSTOM 404")
+>>>>>>> upstream/18.0
 =======
             self.assertEqual(resp.status_code, 404)
             self.assertEqual(resp.text, "CUSTOM 404")
@@ -2480,8 +2491,13 @@ class TestRedirect(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.assertEqual(resp.status_code, 403)
             self.assertEqual(resp.text, "CUSTOM 403")
+=======
+            self.assertEqual(resp.status_code, 404)
+            self.assertEqual(resp.text, "CUSTOM 404")
+>>>>>>> upstream/18.0
 =======
             self.assertEqual(resp.status_code, 404)
             self.assertEqual(resp.text, "CUSTOM 404")
@@ -3374,8 +3390,13 @@ class TestRedirect(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.assertEqual(resp.status_code, 403)
             self.assertEqual(resp.text, "CUSTOM 403")
+=======
+            self.assertEqual(resp.status_code, 404)
+            self.assertEqual(resp.text, "CUSTOM 404")
+>>>>>>> upstream/18.0
 =======
             self.assertEqual(resp.status_code, 404)
             self.assertEqual(resp.text, "CUSTOM 404")
@@ -4285,11 +4306,14 @@ class TestRedirect(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # 2. Accessing unpublished record: expecting 403 by default
         rec1.is_published = False
         r = self.url_open(url_rec1)
         self.assertEqual(r.status_code, 403)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4816,6 +4840,9 @@ class TestRedirect(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

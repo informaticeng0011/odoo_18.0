@@ -21,7 +21,11 @@ class TestSubcontractingLandedCosts(TestMrpSubcontractingCommon):
                 'name': self.finished.name,
                 'product_id': self.finished.id,
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'product_uom_qty': 10,
+=======
+                'product_qty': 10,
+>>>>>>> upstream/18.0
 =======
                 'product_qty': 10,
 >>>>>>> upstream/18.0
@@ -37,6 +41,7 @@ class TestSubcontractingLandedCosts(TestMrpSubcontractingCommon):
         action = po.action_view_picking()
         in_picking = self.env[action['res_model']].browse(action['res_id'])
 <<<<<<< HEAD
+<<<<<<< HEAD
         in_picking.move_ids.quantity = 10
         in_picking.move_ids.picked = True
         in_picking.button_validate()
@@ -48,6 +53,8 @@ class TestSubcontractingLandedCosts(TestMrpSubcontractingCommon):
         })
         default_vals.update({
 =======
+=======
+>>>>>>> upstream/18.0
         in_picking.move_ids.picked = True
         in_picking.button_validate()
         self.assertEqual(self.finished.standard_price, 10)
@@ -58,6 +65,9 @@ class TestSubcontractingLandedCosts(TestMrpSubcontractingCommon):
             'name': 'Freight Charges',
         })
         stock_landed_cost = self.env['stock.landed.cost'].create({
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             'picking_ids': [in_picking.id],
             'cost_lines': [(0, 0, {
@@ -68,8 +78,11 @@ class TestSubcontractingLandedCosts(TestMrpSubcontractingCommon):
             })],
         })
 <<<<<<< HEAD
+<<<<<<< HEAD
         stock_landed_cost = self.env['stock.landed.cost'].create(default_vals)
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         # compute the landed cost using compute button
@@ -87,11 +100,14 @@ class TestSubcontractingLandedCosts(TestMrpSubcontractingCommon):
         # confirm the landed cost
         stock_landed_cost.button_validate()
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(stock_landed_cost.state, "done")
 
         self.assertEqual(len(in_picking.move_ids.stock_valuation_layer_ids), 1)
         self.assertEqual(in_picking.move_ids.stock_valuation_layer_ids.value, 99)
 =======
+=======
+>>>>>>> upstream/18.0
         self.assertEqual(self.finished.standard_price, 19.9)
         self.assertEqual(stock_landed_cost.state, "done")
         self.assertEqual(len(mo.move_finished_ids.stock_valuation_layer_ids), 2)
@@ -101,6 +117,9 @@ class TestSubcontractingLandedCosts(TestMrpSubcontractingCommon):
             # the svl added after the landed cost validation
             {'value': 99},
         ])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         new_po = self.env['purchase.order'].create({
@@ -109,7 +128,11 @@ class TestSubcontractingLandedCosts(TestMrpSubcontractingCommon):
                 'name': self.finished.name,
                 'product_id': self.finished.id,
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'product_uom_qty': 10,
+=======
+                'product_qty': 10,
+>>>>>>> upstream/18.0
 =======
                 'product_qty': 10,
 >>>>>>> upstream/18.0
@@ -136,7 +159,10 @@ class TestSubcontractingLandedCosts(TestMrpSubcontractingCommon):
         action = new_po.action_view_picking()
         in_picking = self.env[action['res_model']].browse(action['res_id'])
 <<<<<<< HEAD
+<<<<<<< HEAD
         in_picking.move_ids.quantity = 10
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         in_picking.move_ids.picked = True
@@ -170,7 +196,10 @@ class TestSubcontractingLandedCosts(TestMrpSubcontractingCommon):
         stock_landed_cost.button_validate()
         self.assertEqual(stock_landed_cost.state, "done")
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_subcontracting_landed_cost_pro_rata_product_out(self):
         """
@@ -236,4 +265,7 @@ class TestSubcontractingLandedCosts(TestMrpSubcontractingCommon):
             {'account_id': expense_acc_id,    'product_id': self.finished.id,    'debit': 3.0,  'credit': 0.0},
             {'account_id': stock_out_acc_id,   'product_id': self.finished.id,    'debit': 0.0,   'credit': 3.0},
         ])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

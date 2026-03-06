@@ -100,6 +100,7 @@ import { closestBlock, isBlock } from "./blocks";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { isParagraphRelatedElement, isShrunkBlock, isVisible } from "./dom_info";
 =======
 import { isEmptyTextNode, isParagraphRelatedElement, isShrunkBlock, isVisible } from "./dom_info";
@@ -402,6 +403,8 @@ import { isEmptyTextNode, isParagraphRelatedElement, isShrunkBlock, isVisible } 
 import { isEmptyTextNode, isParagraphRelatedElement, isShrunkBlock, isVisible } from "./dom_info";
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 import {
     isElement,
     isEmptyTextNode,
@@ -410,6 +413,9 @@ import {
     isTextNode,
     isVisible,
 } from "./dom_info";
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 import { callbacksForCursorUpdate } from "./selection";
 import { isEmptyBlock, isPhrasingContent } from "../utils/dom_info";
@@ -781,7 +787,10 @@ export function cleanTextNode(node, char, cursors) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1099,6 +1108,9 @@ export function removeEmptyTextNodes(root, cursors) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1339,7 +1351,10 @@ export function splitTextNode(textNode, offset, originalNodeSide = DIRECTIONS.RI
     return parentOffset;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 /**
  * This is used as a replacement for `node.normalize()` which in Safari
@@ -1373,4 +1388,7 @@ export function mergeAdjacentTextNodes(node, cursor) {
         }
     }
 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

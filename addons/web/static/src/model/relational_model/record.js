@@ -14,6 +14,10 @@ import {
     parseServerValue,
 } from "./utils";
 import { FetchRecordError } from "./errors";
+<<<<<<< HEAD
+=======
+import { RequestEntityTooLargeError } from "@web/core/network/rpc";
+>>>>>>> upstream/18.0
 
 export class Record extends DataPoint {
     static type = "Record";
@@ -1071,7 +1075,11 @@ export class Record extends DataPoint {
                 kwargs
             );
         } catch (e) {
+<<<<<<< HEAD
             if (onError) {
+=======
+            if (onError && !(e instanceof RequestEntityTooLargeError)) {
+>>>>>>> upstream/18.0
                 return onError(e, { discard: () => this._discard() });
             }
             if (!this.isInEdition) {

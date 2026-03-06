@@ -214,9 +214,15 @@ class ProductTemplateAttributeLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             remaining_pav = ptal.value_ids
             for ptav in ptal.product_template_value_ids:
                 if ptav.product_attribute_value_id not in remaining_pav:
+=======
+            remaining_pav = set(ptal.value_ids.ids)
+            for ptav in ptal.product_template_value_ids:
+                if ptav.product_attribute_value_id.id not in remaining_pav:
+>>>>>>> upstream/18.0
 =======
             remaining_pav = set(ptal.value_ids.ids)
             for ptav in ptal.product_template_value_ids:
@@ -259,6 +265,7 @@ class ProductTemplateAttributeLine(models.Model):
                         ptav_to_unlink += ptav
                 else:
                     # Activate corresponding values that are currently archived.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -309,6 +316,8 @@ class ProductTemplateAttributeLine(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                     remaining_pav.remove(ptav.product_attribute_value_id.id)
                     if not ptav.ptav_active:
                         ptav_to_activate += ptav
@@ -341,6 +350,9 @@ class ProductTemplateAttributeLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -250,6 +250,7 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     repair_id = fields.Many2one('repair.order', check_company=True)
 =======
     repair_id = fields.Many2one('repair.order', check_company=True, copy=False)
@@ -895,6 +896,9 @@ class StockMove(models.Model):
 >>>>>>> upstream/18.0
 =======
     repair_id = fields.Many2one('repair.order', check_company=True, copy=False)
+>>>>>>> upstream/18.0
+=======
+    repair_id = fields.Many2one('repair.order', check_company=True, copy=False, ondelete='cascade')
 >>>>>>> upstream/18.0
 =======
     repair_id = fields.Many2one('repair.order', check_company=True, copy=False, ondelete='cascade')

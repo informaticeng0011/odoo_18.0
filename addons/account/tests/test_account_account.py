@@ -559,7 +559,10 @@ class TestAccountAccount(TestAccountMergeCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.env.invalidate_all()
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1793,6 +1796,10 @@ class TestAccountAccount(TestAccountMergeCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            account_form.account_type = 'asset_current'
+>>>>>>> upstream/18.0
 =======
             account_form.account_type = 'asset_current'
 >>>>>>> upstream/18.0
@@ -2639,7 +2646,10 @@ class TestAccountAccount(TestAccountMergeCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3099,6 +3109,9 @@ class TestAccountAccount(TestAccountMergeCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
