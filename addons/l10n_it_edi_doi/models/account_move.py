@@ -195,9 +195,12 @@ class AccountMove(models.Model):
                                 declaration_of_intent_tax.name))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if any(line.tax_ids != declaration_of_intent_tax for line in declaration_lines):
                 errors.append(_('A line using tax %s should not contain any other taxes',
                                 declaration_of_intent_tax.name))
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

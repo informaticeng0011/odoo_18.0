@@ -15,6 +15,7 @@ import io
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import models
 from odoo.tools import pdf
 from odoo.tools.pdf import OdooPdfFileReader, OdooPdfFileWriter
@@ -32,6 +33,11 @@ from odoo.tools.pdf import OdooPdfFileReader, OdooPdfFileWriter, PdfReadError
 from odoo import models, _
 from odoo.tools import pdf
 from odoo.tools.pdf import OdooPdfFileReader, OdooPdfFileWriter, PdfReadError
+>>>>>>> upstream/18.0
+=======
+from odoo import models, _
+from odoo.tools import pdf
+from odoo.tools.pdf import OdooPdfFileReader, OdooPdfFileWriter, PdfReadError, DependencyError
 >>>>>>> upstream/18.0
 =======
 from odoo import models, _
@@ -120,6 +126,7 @@ class IrActionsReport(models.Model):
                 expense_report = OdooPdfFileReader(stream, strict=False)
                 output_pdf = OdooPdfFileWriter()
                 output_pdf.appendPagesFromReader(expense_report)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -805,6 +812,9 @@ class IrActionsReport(models.Model):
 =======
                 for attachment in self._prepare_local_attachments(attachments):
 >>>>>>> upstream/18.0
+=======
+                for attachment in self._prepare_local_attachments(attachments):
+>>>>>>> upstream/18.0
                     if attachment.mimetype == 'application/pdf':
                         attachment_stream = pdf.to_pdf_stream(attachment)
                     else:
@@ -815,6 +825,7 @@ class IrActionsReport(models.Model):
                         attachment_prep_stream = self._render_qweb_pdf_prepare_streams('hr_expense.report_expense_sheet_img', data, res_ids=res_ids)
                         attachment_stream = attachment_prep_stream[expense_sheet.id]['stream']
                     attachment_reader = OdooPdfFileReader(attachment_stream, strict=False)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -905,6 +916,11 @@ class IrActionsReport(models.Model):
                         output_pdf.appendPagesFromReader(attachment_reader)
                     except (PdfReadError, DependencyError) as e:
 >>>>>>> upstream/18.0
+=======
+                    try:
+                        output_pdf.appendPagesFromReader(attachment_reader)
+                    except (PdfReadError, DependencyError) as e:
+>>>>>>> upstream/18.0
                         expense_sheet._message_log(body=_(
                             "The attachment (%(attachment_name)s) has not been added to the report due to the following error: '%(error)s'",
                             attachment_name=attachment.name,
@@ -926,6 +942,9 @@ class IrActionsReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

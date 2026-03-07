@@ -3,9 +3,12 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.exceptions import ValidationError
 from odoo.tests.common import TransactionCase
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 from unittest.mock import patch
@@ -13,6 +16,9 @@ from unittest.mock import patch
 from odoo.exceptions import ValidationError
 from odoo.tests.common import Command, TransactionCase
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -69,7 +75,10 @@ class TestCompany(TransactionCase):
         self.assertFalse(branch.partner_id.parent_id)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -83,6 +92,9 @@ class TestCompany(TransactionCase):
         with patch('odoo.addons.base.models.res_company.Company._get_company_root_delegated_field_names', return_value=["currency_id", "zip"]):
             self.env.company.write({'currency_id': new_currency.id, 'zip': '12345'})
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

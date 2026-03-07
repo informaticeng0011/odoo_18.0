@@ -132,6 +132,7 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return self.account_fiscal_country_id.code == "AR" or super()._localization_use_documents()
 =======
         return self.chart_template in {'ar_base', 'ar_ex', 'ar_ri'} or super()._localization_use_documents()
@@ -279,6 +280,9 @@ class ResCompany(models.Model):
 >>>>>>> upstream/18.0
 =======
         return self.chart_template in {'ar_base', 'ar_ex', 'ar_ri'} or super()._localization_use_documents()
+>>>>>>> upstream/18.0
+=======
+        return self.chart_template in {'ar_base', 'ar_ex', 'ar_ri'} or self.account_fiscal_country_id.code == "AR" or super()._localization_use_documents()
 >>>>>>> upstream/18.0
 =======
         return self.chart_template in {'ar_base', 'ar_ex', 'ar_ri'} or self.account_fiscal_country_id.code == "AR" or super()._localization_use_documents()

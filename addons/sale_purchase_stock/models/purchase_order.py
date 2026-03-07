@@ -149,6 +149,12 @@ class PurchaseOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def _get_sale_order_line_product(self):
+        return self.sale_line_id.product_id
+
+>>>>>>> upstream/18.0
 =======
     def _get_sale_order_line_product(self):
         return self.sale_line_id.product_id
@@ -719,4 +725,9 @@ class PurchaseOrderLine(models.Model):
     def _prepare_purchase_order_line_from_procurement(self, product_id, product_qty, product_uom, location_dest_id, name, origin, company_id, values, po):
         res = super()._prepare_purchase_order_line_from_procurement(product_id, product_qty, product_uom, location_dest_id, name, origin, company_id, values, po)
         res['sale_line_id'] = values.get('sale_line_id', False)
+<<<<<<< HEAD
+=======
+        if values.get('analytic_distribution'):
+            res['analytic_distribution'] = values['analytic_distribution']
+>>>>>>> upstream/18.0
         return res

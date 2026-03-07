@@ -153,6 +153,7 @@ import { KanbanController } from "@web/views/kanban/kanban_controller";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import { hasTouch } from "@web/core/browser/feature_detection";
 >>>>>>> upstream/18.0
@@ -203,6 +204,8 @@ import { hasTouch } from "@web/core/browser/feature_detection";
 >>>>>>> upstream/18.0
 =======
 import { hasTouch } from "@web/core/browser/feature_detection";
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -617,6 +620,7 @@ export class PosKanbanController extends KanbanController {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         this.autofocus = hasTouch() ? false : true;
 
@@ -684,6 +688,8 @@ export class PosKanbanController extends KanbanController {
 =======
         this.autofocus = hasTouch() ? false : true;
 
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

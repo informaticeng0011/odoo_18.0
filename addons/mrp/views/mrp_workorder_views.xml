@@ -354,6 +354,10 @@
                 <field name="workcenter_id" invisible="True"/>
                 <field name="product_uom_id" invisible="True" force_save="True"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                <field name="operation_id" invisible="True"/>
+>>>>>>> upstream/18.0
 =======
                 <field name="operation_id" invisible="True"/>
 >>>>>>> upstream/18.0
@@ -572,7 +576,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <field name="product_id"/>, <field name="qty_production" class="ms-1"/> <field name="product_uom_id"/><t t-if="record.finished_lot_id.value">, </t> <field t-if="record.finished_lot_id.value" name="finished_lot_id" class="ms-1"/>
+=======
+                                <field name="product_id"/>, <field name="qty_production" class="ms-1"/> <field name="product_uom_id" groups="uom.group_uom"/><t t-if="record.finished_lot_id.value">, </t> <field t-if="record.finished_lot_id.value" name="finished_lot_id" class="ms-1"/>
+>>>>>>> upstream/18.0
 =======
                                 <field name="product_id"/>, <field name="qty_production" class="ms-1"/> <field name="product_uom_id" groups="uom.group_uom"/><t t-if="record.finished_lot_id.value">, </t> <field t-if="record.finished_lot_id.value" name="finished_lot_id" class="ms-1"/>
 >>>>>>> upstream/18.0

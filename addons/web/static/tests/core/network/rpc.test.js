@@ -6,6 +6,10 @@ import {
     ConnectionAbortedError,
     ConnectionLostError,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    RequestEntityTooLargeError,
+>>>>>>> upstream/18.0
 =======
     RequestEntityTooLargeError,
 >>>>>>> upstream/18.0
@@ -135,9 +139,12 @@ test("check connection aborted", async () => {
 test("trigger a ConnectionLostError when response isn't json parsable", async () => {
     mockFetch(() => new Response("<h...", { status: 500 }));
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     const error = new ConnectionLostError("/test/");
 =======
+=======
+>>>>>>> upstream/18.0
     const error = new ConnectionLostError("/test/");
     onRpcResponse(({ detail }) => {
         expect(detail.error).toEqual(error);
@@ -151,12 +158,16 @@ test("trigger a RequestEntityTooLargeError when status is 413 even if response i
     onRpcResponse(({ detail }) => {
         expect(detail.error).toEqual(error);
     });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     await expect(rpc("/test/")).rejects.toThrow(error);
 });
 
 test("rpc can send additional headers", async () => {
     mockFetch((url, settings) => {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -568,6 +579,8 @@ test("rpc can send additional headers", async () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         expect(settings.headers).toEqual(
             new Headers([
                 ["Content-Type", "application/json"],
@@ -709,6 +722,9 @@ test("rpc can send additional headers", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

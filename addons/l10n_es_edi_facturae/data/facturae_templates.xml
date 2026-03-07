@@ -343,9 +343,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <ReceiverTransactionReference t-out="line.get('ReceiverTransactionReference')"/>
                 <FileReference t-out="line.get('FileReference')"/>
                 <ReceiverContractReference t-out="line.get('ReceiverContractReference')"/>
+=======
+                <ReceiverContractReference t-out="line.get('ReceiverContractReference')"/>
+                <ReceiverTransactionReference t-out="line.get('ReceiverTransactionReference')"/>
+                <FileReference t-out="line.get('FileReference')"/>
+>>>>>>> upstream/18.0
 =======
                 <ReceiverContractReference t-out="line.get('ReceiverContractReference')"/>
                 <ReceiverTransactionReference t-out="line.get('ReceiverTransactionReference')"/>
@@ -1579,6 +1585,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <UnitPriceWithoutTax t-out="float_repr(refund_multiplier*line['UnitPriceWithoutTax'], file_currency.decimal_places)"/>
                 <TotalCost t-out="float_repr(refund_multiplier*line['TotalCost'], file_currency.decimal_places)"/>
 =======
@@ -2153,11 +2160,16 @@
                 <UnitPriceWithoutTax t-out="float_repr(refund_multiplier*line['UnitPriceWithoutTax'], 8)"/>
                 <TotalCost t-out="float_repr(refund_multiplier*line['TotalCost'], file_currency.decimal_places)"/>
 >>>>>>> upstream/18.0
+=======
+                <UnitPriceWithoutTax t-out="float_repr(refund_multiplier*line['UnitPriceWithoutTax'], 8)"/>
+                <TotalCost t-out="float_repr(refund_multiplier*line['TotalCost'], file_currency.decimal_places)"/>
+>>>>>>> upstream/18.0
                 <DiscountsAndRebates t-if="line.get('DiscountsAndRebates')">
                     <t t-foreach="line['DiscountsAndRebates']" t-as="discount">
                         <Discount>
                             <DiscountReason t-out="discount['DiscountReason']"/>
                             <DiscountRate t-out="discount.get('DiscountRate')"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2685,6 +2697,9 @@
 >>>>>>> upstream/18.0
 =======
                             <DiscountAmount t-out="float_repr(refund_multiplier*discount['DiscountAmount'], 8)"/>
+>>>>>>> upstream/18.0
+=======
+                            <DiscountAmount t-out="float_repr(refund_multiplier*discount['DiscountAmount'], file_currency.decimal_places)"/>
 >>>>>>> upstream/18.0
 =======
                             <DiscountAmount t-out="float_repr(refund_multiplier*discount['DiscountAmount'], file_currency.decimal_places)"/>
@@ -2882,6 +2897,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2917,6 +2935,7 @@
                     </t>
                 </Charges>
                 <GrossAmount t-out="float_repr(refund_multiplier*line['GrossAmount'], file_currency.decimal_places)"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3604,6 +3623,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 <TaxesWithheld t-if="line.get('TaxesWithheld')">
                     <t t-foreach="line['TaxesWithheld']" t-as="tax"><t t-call="l10n_es_edi_facturae.tax_type"/></t>
                 </TaxesWithheld>
@@ -3729,7 +3750,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <CorrectionMethodDescription>Rectificación modelo íntegro.</CorrectionMethodDescription>
+=======
+                <CorrectionMethodDescription>Rectificación íntegra</CorrectionMethodDescription>
+>>>>>>> upstream/18.0
 =======
                 <CorrectionMethodDescription>Rectificación íntegra</CorrectionMethodDescription>
 >>>>>>> upstream/18.0

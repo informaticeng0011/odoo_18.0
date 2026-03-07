@@ -183,6 +183,10 @@ from . import loyalty_program
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import product_pricelist
+>>>>>>> upstream/18.0
 =======
 from . import product_pricelist
 >>>>>>> upstream/18.0

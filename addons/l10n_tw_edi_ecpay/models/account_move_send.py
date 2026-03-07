@@ -15,7 +15,11 @@ class AccountMoveSend(models.AbstractModel):
                 and ('debit_origin_id' not in self.env['account.move']._fields or not move.debit_origin_id)
                 and move.state == 'posted'
 <<<<<<< HEAD
+<<<<<<< HEAD
                 and move.company_id.country_id.code == 'TW'
+=======
+                and move.company_id.account_fiscal_country_id.code == 'TW'
+>>>>>>> upstream/18.0
 =======
                 and move.company_id.account_fiscal_country_id.code == 'TW'
 >>>>>>> upstream/18.0
@@ -27,7 +31,11 @@ class AccountMoveSend(models.AbstractModel):
         return (move.move_type == 'out_refund'
                 and move.state == 'posted'
 <<<<<<< HEAD
+<<<<<<< HEAD
                 and move.company_id.country_id.code == 'TW'
+=======
+                and move.company_id.account_fiscal_country_id.code == 'TW'
+>>>>>>> upstream/18.0
 =======
                 and move.company_id.account_fiscal_country_id.code == 'TW'
 >>>>>>> upstream/18.0

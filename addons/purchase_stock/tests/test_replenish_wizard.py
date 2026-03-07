@@ -222,6 +222,11 @@ from odoo import fields
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.fields import Command
+from odoo.tests import Form
+>>>>>>> upstream/18.0
 =======
 from odoo.fields import Command
 from odoo.tests import Form
@@ -1798,6 +1803,7 @@ class TestReplenishWizard(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(last_po_id.order_line.price_unit, 60)
 =======
         self.assertEqual(last_po_id.order_line.price_unit, 0)
@@ -2552,6 +2558,8 @@ class TestReplenishWizard(TestStockCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         self.assertEqual(last_po_id.order_line.price_unit, 0)
 
     def test_correct_supplier(self):
@@ -2628,6 +2636,9 @@ class TestReplenishWizard(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2765,6 +2776,10 @@ class TestReplenishWizard(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'date_end': '2026-01-01',
+>>>>>>> upstream/18.0
 =======
             'date_end': '2026-01-01',
 >>>>>>> upstream/18.0
@@ -2941,6 +2956,10 @@ class TestReplenishWizard(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'date_end': '2999-01-01',
+>>>>>>> upstream/18.0
 =======
             'date_end': '2999-01-01',
 >>>>>>> upstream/18.0
@@ -3117,6 +3136,10 @@ class TestReplenishWizard(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'date_end': '2999-01-01',
+>>>>>>> upstream/18.0
 =======
             'date_end': '2999-01-01',
 >>>>>>> upstream/18.0
@@ -3254,6 +3277,7 @@ class TestReplenishWizard(TestStockCommon):
             'product_uom_id': self.uom_unit.id,
             'quantity': 1,
             'warehouse_id': self.wh.id,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3914,6 +3938,8 @@ class TestReplenishWizard(TestStockCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             'route_id': buy_pull_route.id,
             'supplier_id': product.seller_ids[2].id  # partner_b price 100$
         })
@@ -3962,6 +3988,9 @@ class TestReplenishWizard(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4275,8 +4304,11 @@ class TestReplenishWizard(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4953,6 +4985,9 @@ class TestReplenishWizard(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -1,7 +1,11 @@
 import { _t } from "@web/core/l10n/translation";
 import { browser } from "../browser/browser";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { ConnectionLostError, RPCError, rpc } from "../network/rpc";
+=======
+import { ConnectionLostError, RPCError, RequestEntityTooLargeError, rpc } from "../network/rpc";
+>>>>>>> upstream/18.0
 =======
 import { ConnectionLostError, RPCError, RequestEntityTooLargeError, rpc } from "../network/rpc";
 >>>>>>> upstream/18.0
@@ -13,6 +17,10 @@ import {
     ErrorDialog,
     NetworkErrorDialog,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    RequestEntityTooLargeErrorDialog,
+>>>>>>> upstream/18.0
 =======
     RequestEntityTooLargeErrorDialog,
 >>>>>>> upstream/18.0
@@ -140,7 +148,10 @@ errorHandlerRegistry.add("lostConnectionHandler", lostConnectionHandler, { seque
 
 // -----------------------------------------------------------------------------
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 // Request entity too large errors
 // -----------------------------------------------------------------------------
 
@@ -162,6 +173,9 @@ export function requestEntityTooLargeHandler(env, error, originalError) {
 errorHandlerRegistry.add("requestEntityTooLargeHandler", requestEntityTooLargeHandler, { sequence: 99 });
 
 // -----------------------------------------------------------------------------
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 // Default handler
 // -----------------------------------------------------------------------------

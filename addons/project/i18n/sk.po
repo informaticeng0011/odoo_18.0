@@ -97,8 +97,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* project
 # 
+=======
+# * project
+#
+>>>>>>> upstream/18.0
 =======
 # * project
 #
@@ -669,6 +674,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Chris Podivinsky, 2025
 >>>>>>> upstream/18.0
@@ -1295,10 +1301,15 @@
 # Chris Podivinsky, 2025
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 >>>>>>> upstream/18.0
+=======
+# Chris Podivinsky, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2430,6 +2441,10 @@ msgstr ""
 "POT-Creation-Date: 2025-12-29 18:36+0000\n"
 "PO-Revision-Date: 2026-02-14 18:01+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:36+0000\n"
+"PO-Revision-Date: 2026-02-14 18:01+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Slovak <https://translate.odoo.com/projects/odoo-18/project/"
 "sk/>\n"
@@ -2439,6 +2454,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n "
 ">= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2791,6 +2807,9 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-python
@@ -2862,7 +2881,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    Track major progress points that must be reached to achieve success.\n"
+=======
+"                    Track major progress points that must be reached to "
+"achieve success.\n"
+>>>>>>> upstream/18.0
 =======
 "                    Track major progress points that must be reached to "
 "achieve success.\n"
@@ -3184,7 +3208,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "export class ProjectTaskFormController extends FormControllerWithHTMLExpander {\n"
+=======
+"export class ProjectTaskFormController extends "
+"FormControllerWithHTMLExpander {\n"
+>>>>>>> upstream/18.0
 =======
 "export class ProjectTaskFormController extends "
 "FormControllerWithHTMLExpander {\n"
@@ -3516,7 +3545,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        const deleteConfirmationDialogProps = super.deleteConfirmationDialogProps;\n"
+=======
+"        const deleteConfirmationDialogProps = "
+"super.deleteConfirmationDialogProps;\n"
+>>>>>>> upstream/18.0
 =======
 "        const deleteConfirmationDialogProps = "
 "super.deleteConfirmationDialogProps;\n"
@@ -3839,12 +3873,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        const historyMetadata = record.data[\"html_field_history_metadata\"]?.[versionedFieldName];\n"
 "        if (!historyMetadata) {\n"
 "            this.notifications.add(\n"
 "                escape(_t(\n"
 "                    \"The task description lacks any past content that could be restored at the moment.\"\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4035,6 +4072,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4179,6 +4219,7 @@ msgstr "# Hodnotenia"
 #. module: project
 #. odoo-javascript
 #: code:addons/project/static/src/views/burndown_chart/burndown_chart_model.js:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4747,6 +4788,8 @@ msgstr "# Hodnotenia"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:project.field_report_project_task_user__nbr
 msgid "# of Tasks"
 msgstr "# Počet úloh"
@@ -4787,7 +4830,11 @@ msgid "%(closedCount)s sub-tasks closed out of %(totalCount)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(closedCount)s uzavretých podúloh z %(totalCount)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(closedCount)s uzavretých podúloh z %(totalCount)s"
 >>>>>>> upstream/18.0
@@ -4873,7 +4920,11 @@ msgid "%(closed_task_count)s / %(task_count)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(closed_task_count)s / %(task_count)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(closed_task_count)s / %(task_count)s"
 >>>>>>> upstream/18.0
@@ -4959,7 +5010,11 @@ msgid "%(closed_task_count)s / %(task_count)s (%(closed_rate)s%%)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(closed_task_count)s / %(task_count)s (%(closed_rate)s%%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(closed_task_count)s / %(task_count)s (%(closed_rate)s%%)"
 >>>>>>> upstream/18.0
@@ -5045,7 +5100,11 @@ msgid "%(count1)s/%(count2)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(count1)s/%(count2)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(count1)s/%(count2)s"
 >>>>>>> upstream/18.0
@@ -5131,7 +5190,11 @@ msgid "%(name)s Dashboard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s Dashboard"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s Dashboard"
 >>>>>>> upstream/18.0
@@ -5217,7 +5280,11 @@ msgid "%(name)s's Burndown Chart"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s's Graf postupu"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s's Graf postupu"
 >>>>>>> upstream/18.0
@@ -5303,7 +5370,11 @@ msgid "%(name)s's Milestones"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Milníky %(name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Milníky %(name)s"
 >>>>>>> upstream/18.0
@@ -5389,7 +5460,11 @@ msgid "%(name)s's Rating"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hodnotenia %(name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hodnotenia %(name)s"
 >>>>>>> upstream/18.0
@@ -5475,7 +5550,11 @@ msgid "%(name)s's Tasks Analysis"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Analýza úloh %(name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Analýza úloh %(name)s"
 >>>>>>> upstream/18.0
@@ -5561,7 +5640,11 @@ msgid "%(partner_name)s's Tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Úlohy pre %(partner_name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Úlohy pre %(partner_name)s"
 >>>>>>> upstream/18.0
@@ -5656,7 +5739,11 @@ msgid "%s closed tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s zavreté úlohy"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s zavreté úlohy"
 >>>>>>> upstream/18.0
@@ -5752,7 +5839,11 @@ msgid "(other) tasks to which you do not have access."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(iné) úlohy, ku ktorým nemáte prístup."
+>>>>>>> upstream/18.0
 =======
 msgstr "(iné) úlohy, ku ktorým nemáte prístup."
 >>>>>>> upstream/18.0
@@ -5841,6 +5932,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+",\n"
+"    <br/><br/>"
+>>>>>>> upstream/18.0
 =======
 ",\n"
 "    <br/><br/>"
@@ -6001,8 +6097,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "tag them)</i>. Use @ <b>mentions</b> to ping a colleague or # "
 "<b>mentions</b> to reach an entire team."
+=======
+"tag them)</i>. Use @ <b>mentions</b> to ping a colleague or # <b>mentions</"
+"b> to reach an entire team."
+>>>>>>> upstream/18.0
 =======
 "tag them)</i>. Use @ <b>mentions</b> to ping a colleague or # <b>mentions</"
 "b> to reach an entire team."
@@ -6319,6 +6420,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    <t t-set=\"access_token\" t-value=\"object._rating_get_access_token()\"/>\n"
 "    <t t-set=\"partner\" t-value=\"object._rating_get_partner()\"/>\n"
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"width:100%; margin:0px auto;\">\n"
@@ -6327,6 +6429,8 @@ msgid ""
 "            <t t-if=\"partner.name\">\n"
 "                Hello <t t-out=\"partner.name or ''\">Brandon Freeman</t>,<br/><br/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6520,6 +6624,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6709,10 +6816,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Please take a moment to rate our services related to the <strong t-out=\"object.name or ''\">Planning and budget</strong> task\n"
 "            <t t-if=\"object._rating_get_operator().name\">\n"
 "                assigned to <strong t-out=\"object._rating_get_operator().name or ''\">Mitchell Admin</strong>.<br/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6902,6 +7012,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7093,6 +7206,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"width:100%; margin: 32px 0px 32px 0px; display: inline-table;\">\n"
 "                <tr><td style=\"font-size: 13px;text-align:center;\">\n"
 "                    <strong>Tell us how you feel about our services</strong><br/>\n"
@@ -7115,6 +7229,8 @@ msgid ""
 "                                <a t-attf-href=\"/rate/{{ access_token }}/1\" t-att-class=\"'pe-none' if object._rating_get_operator() else ''\">\n"
 "                                    <img alt=\"Dissatisfied\" src=\"/rating/static/src/img/rating_1.png\" title=\"Dissatisfied\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7330,6 +7446,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7525,11 +7644,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                <br/><span style=\"margin: 0; font-size: 12px; opacity: 0.5; color: #454748;\">This satisfaction survey has been sent because your task has been moved to the <b t-out=\"object.stage_id.name or ''\">In progress</b> stage</span>\n"
 "            </t>\n"
 "            <t t-if=\"object.project_id.rating_status == 'periodic'\">\n"
 "                <br/><span style=\"margin: 0; font-size: 12px; opacity: 0.5; color: #454748;\">This satisfaction survey is sent <b t-out=\"object.project_id.rating_status_period or ''\">weekly</b> as long as the task is in the <b t-out=\"object.stage_id.name or ''\">In progress</b> stage.</span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7724,6 +7846,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7913,6 +8038,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "           <t t-out=\"object.project_id.company_id.name or ''\">YourCompany</t>\n"
 "        </td></tr>\n"
 "        <tr><td style=\"opacity: 0.5;\">\n"
@@ -7923,6 +8049,8 @@ msgid ""
 "            <t t-if=\"object.project_id.company_id.website\">\n"
 "                | <a t-attf-href=\"{{ object.project_id.company_id.website }}\" style=\"text-decoration:none; color: #454748;\" t-out=\"object.project_id.company_id.website or ''\">http://www.example.com</a>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8123,6 +8251,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8320,6 +8451,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    Dear <t t-out=\"object.partner_id.name or 'customer'\">Brandon Freeman</t>,<br/>\n"
 "    It is my pleasure to let you know that we have successfully completed the project \"<strong t-out=\"object.name or ''\">Renovations</strong>\".\n"
 "    <t t-if=\"user.signature\" data-o-mail-quote-container=\"1\">\n"
@@ -8329,6 +8461,8 @@ msgid ""
 "</div>\n"
 "<br/><span style=\"margin: 0px 0px 0px 0px; font-size: 12px; opacity: 0.5; color: #454748;\" groups=\"project.group_project_stages\">You are receiving this email because your project has been moved to the stage <b t-out=\"object.stage_id.name or ''\">Done</b></span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8526,6 +8660,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8718,11 +8855,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    Dear <t t-out=\"object.partner_id.name or 'customer'\">Brandon Freeman</t>,<br/><br/>\n"
 "    Thank you for contacting us. We appreciate your interest in our products/services.<br/>\n"
 "    Our team is currently reviewing your inquiry and will respond to your email as soon as possible.<br/>\n"
 "    If you have any further questions or concerns in the meantime, please do not hesitate to let us know. We are here to help.<br/><br/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8914,6 +9054,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9103,7 +9246,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+=======
+"        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-"
+"o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+>>>>>>> upstream/18.0
 =======
 "        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-"
 "o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
@@ -9422,10 +9570,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-fw o_button_icon fa-smile-o text-success\" invisible=\"rating_avg &lt; 3.66\" title=\"Satisfied\"/>\n"
 "                            <i class=\"fa fa-fw o_button_icon fa-meh-o text-warning\" invisible=\"rating_avg &lt; 2.33 or rating_avg &gt;= 3.66\" title=\"Okay\"/>\n"
 "                            <i class=\"fa fa-fw o_button_icon fa-frown-o text-danger\" invisible=\"rating_avg &gt;= 2.33\" title=\"Dissatisfied\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9616,6 +9767,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9769,7 +9923,11 @@ msgid "<i class=\"fa fa-lock\"/> Private"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-lock\"/> Súkromné"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-lock\"/> Súkromné"
 >>>>>>> upstream/18.0
@@ -9866,7 +10024,11 @@ msgid "<i class=\"oi oi-arrow-right me-1\"/>Back to edit mode"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"oi oi-arrow-right me-1\"/>Späť do režimu úprav"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"oi oi-arrow-right me-1\"/>Späť do režimu úprav"
 >>>>>>> upstream/18.0
@@ -9951,7 +10113,11 @@ msgid "<i title=\"Private Task\" class=\"fa fa-lock\"/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i title=\"Súkromná úloha\" class=\"fa fa-lock\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i title=\"Súkromná úloha\" class=\"fa fa-lock\"/>"
 >>>>>>> upstream/18.0
@@ -10041,7 +10207,11 @@ msgid "<small class=\"text-muted\">Assignees</small>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<small class=\"text-muted\">Pridelené</small>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<small class=\"text-muted\">Pridelené</small>"
 >>>>>>> upstream/18.0
@@ -10131,7 +10301,11 @@ msgid "<span class=\"fa fa-clock-o me-2\" title=\"Dates\"/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"fa fa-clock-o me-2\" title=\"Dátumy\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"fa fa-clock-o me-2\" title=\"Dátumy\"/>"
 >>>>>>> upstream/18.0
@@ -10199,6 +10373,7 @@ msgid ""
 "<span class=\"fa fa-envelope-o me-2\" aria-label=\"Domain Alias\" "
 "title=\"Domain Alias\"/>"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10473,6 +10648,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<span class=\"fa fa-envelope-o me-2\" aria-label=\"Alias domény\" title="
 "\"Alias domény\"/>"
 
@@ -10501,6 +10678,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10564,7 +10744,11 @@ msgid "<span class=\"fw-normal\"> Done</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"fw-normal\"> Dokončené</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"fw-normal\"> Dokončené</span>"
 >>>>>>> upstream/18.0
@@ -10649,7 +10833,11 @@ msgid "<span class=\"fw-normal\"> Tasks</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"fw-normal\"> Úlohy</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"fw-normal\"> Úlohy</span>"
 >>>>>>> upstream/18.0
@@ -10734,7 +10922,11 @@ msgid "<span class=\"o_stat_text\">Blocked Tasks</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Blokované úlohy</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Blokované úlohy</span>"
 >>>>>>> upstream/18.0
@@ -10819,7 +11011,11 @@ msgid "<span class=\"o_stat_text\">Last Rating</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Posledné hodnotenie</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Posledné hodnotenie</span>"
 >>>>>>> upstream/18.0
@@ -10905,7 +11101,11 @@ msgid "<span class=\"o_stat_text\">Parent Task</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Nadriadená úloha</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Nadriadená úloha</span>"
 >>>>>>> upstream/18.0
@@ -10990,7 +11190,11 @@ msgid "<span class=\"o_stat_text\">Sub-tasks</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Podriadené úlohy</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Podriadené úlohy</span>"
 >>>>>>> upstream/18.0
@@ -11121,7 +11325,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<span class=\"text-muted o_row ps-1 pb-3\">Send a rating request:</span>"
+=======
+msgid ""
+"<span class=\"text-muted o_row ps-1 pb-3\">Send a rating request:</span>"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "<span class=\"text-muted o_row ps-1 pb-3\">Send a rating request:</span>"
@@ -11438,10 +11647,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                                    <i class=\"fa fa-lightbulb-o pe-2\"/>\n"
 "                                                    <span invisible=\"rating_status == 'periodic'\">A rating request will be sent as soon as the task reaches a stage on which a Rating Email Template is defined.</span>\n"
 "                                                    <span invisible=\"rating_status == 'stage'\">Rating requests will be sent as long as the task remains in a stage on which a Rating Email Template is defined.</span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11635,6 +11847,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11799,7 +12014,11 @@ msgid "<strong>Milestone:</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Míľnik:</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Míľnik:</strong>"
 >>>>>>> upstream/18.0
@@ -11911,6 +12130,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Spolupracovník nemôže byť vybraný viac ako raz v rámci zdieľania prístupu k "
+"projektu. Odstráňte duplicitné záznamy a skúste to znova."
+>>>>>>> upstream/18.0
 =======
 "Spolupracovník nemôže byť vybraný viac ako raz v rámci zdieľania prístupu k "
 "projektu. Odstráňte duplicitné záznamy a skúste to znova."
@@ -12016,7 +12240,11 @@ msgid "A new task has been created and is not part of any project."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bola vytvorená nová úloha, ktorá nie je súčasťou žiadneho projektu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Bola vytvorená nová úloha, ktorá nie je súčasťou žiadneho projektu."
 >>>>>>> upstream/18.0
@@ -12102,7 +12330,11 @@ msgid "A new task has been created in the \"%(project_name)s\" project."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "V projekte „%(project_name)s“ bola vytvorená nová úloha."
+>>>>>>> upstream/18.0
 =======
 msgstr "V projekte „%(project_name)s“ bola vytvorená nová úloha."
 >>>>>>> upstream/18.0
@@ -12168,6 +12400,7 @@ msgstr "V projekte „%(project_name)s“ bola vytvorená nová úloha."
 #. odoo-python
 #: code:addons/project/models/project_task_type.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12440,6 +12673,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "A personal stage cannot be linked to a project because it is only visible to "
 "its corresponding user."
 msgstr ""
@@ -12464,6 +12699,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12527,7 +12765,11 @@ msgid "A private task cannot have a parent."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Súkromná úloha nemôže mať nadradenú úlohu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Súkromná úloha nemôže mať nadradenú úlohu."
 >>>>>>> upstream/18.0
@@ -12701,6 +12943,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Plány aktivít sa používajú na priradenie zoznamu činností len niekoľkými "
+"kliknutiami\n"
+"                    (napr. „Správa o pokroku“, „Stand-up Meeting“...)"
+>>>>>>> upstream/18.0
 =======
 "Plány aktivít sa používajú na priradenie zoznamu činností len niekoľkými "
 "kliknutiami\n"
@@ -12838,7 +13086,11 @@ msgid "Add a sub-task"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pridať podúlohu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pridať podúlohu"
 >>>>>>> upstream/18.0
@@ -12927,6 +13179,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Pridajte stĺpce, aby ste svoje úlohy usporiadali do <b>fáz</b> <i>napr. Nové "
+"– V riešení – Hotové</i>."
+>>>>>>> upstream/18.0
 =======
 "Pridajte stĺpce, aby ste svoje úlohy usporiadali do <b>fáz</b> <i>napr. Nové "
 "– V riešení – Hotové</i>."
@@ -13032,7 +13289,11 @@ msgid "Add details about this task..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pridať podrobnosti o tejto úlohe..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Pridať podrobnosti o tejto úlohe..."
 >>>>>>> upstream/18.0
@@ -13125,6 +13386,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Pridajte do úloh špecifické projektové polia, aby ste prispôsobili proces "
+"riadenia projektu."
+>>>>>>> upstream/18.0
 =======
 "Pridajte do úloh špecifické projektové polia, aby ste prispôsobili proces "
 "riadenia projektu."
@@ -13309,7 +13575,11 @@ msgid "Allocated Time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alokovaný čas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alokovaný čas"
 >>>>>>> upstream/18.0
@@ -13395,7 +13665,11 @@ msgid "Allocated Time:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alokovaný čas:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alokovaný čas:"
 >>>>>>> upstream/18.0
@@ -13500,6 +13774,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Analyzujte, ako rýchlo váš tím plní úlohy projektu, a skontrolujte, či "
+"všetko prebieha podľa plánu."
+>>>>>>> upstream/18.0
 =======
 "Analyzujte, ako rýchlo váš tím plní úlohy projektu, a skontrolujte, či "
 "všetko prebieha podľa plánu."
@@ -13605,7 +13884,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Analyzujte pokrok vašich projektov a výkonnosť vašich zamestnancov."
+>>>>>>> upstream/18.0
 =======
 msgstr "Analyzujte pokrok vašich projektov a výkonnosť vašich zamestnancov."
 >>>>>>> upstream/18.0
@@ -13690,7 +13973,11 @@ msgid "Anyone with this link can access the project in read mode."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Každý, kto má tento odkaz, má prístup k projektu v režime čítania."
+>>>>>>> upstream/18.0
 =======
 msgstr "Každý, kto má tento odkaz, má prístup k projektu v režime čítania."
 >>>>>>> upstream/18.0
@@ -13788,7 +14075,11 @@ msgid "Archive Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Archivovať účet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Archivovať účet"
 >>>>>>> upstream/18.0
@@ -13874,7 +14165,11 @@ msgid "Archive Accounts"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Archivovať účty"
+>>>>>>> upstream/18.0
 =======
 msgstr "Archivovať účty"
 >>>>>>> upstream/18.0
@@ -13984,7 +14279,11 @@ msgid "Are you sure you want to delete these stages?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naozaj chcete odstrániť tieto fázy?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Naozaj chcete odstrániť tieto fázy?"
 >>>>>>> upstream/18.0
@@ -14077,7 +14376,11 @@ msgid "Are you sure you want to restore this version ?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naozaj chcete obnoviť túto verziu?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Naozaj chcete obnoviť túto verziu?"
 >>>>>>> upstream/18.0
@@ -14179,7 +14482,11 @@ msgid "Assign a responsible to your task"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prideľte zodpovednú osobu k vašej úlohe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prideľte zodpovednú osobu k vašej úlohe"
 >>>>>>> upstream/18.0
@@ -14316,6 +14623,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Pripojte všetky dokumenty alebo odkazy priamo k úlohe, aby ste mali všetky "
+"potrebné informácie na jednom mieste."
+>>>>>>> upstream/18.0
 =======
 "Pripojte všetky dokumenty alebo odkazy priamo k úlohe, aby ste mali všetky "
 "potrebné informácie na jednom mieste."
@@ -14433,7 +14745,11 @@ msgid "Attachments that don't come from a message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prílohy, ktoré nepochádzajú zo správy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prílohy, ktoré nepochádzajú zo správy"
 >>>>>>> upstream/18.0
@@ -14575,10 +14891,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Automatically modify the state when the customer replies to the feedback for this stage.\n"
 " * Good feedback from the customer will update the state to 'Approved' (green bullet).\n"
 " * Neutral or bad feedback will set the kanban state to 'Changes Requested' (orange bullet).\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14768,6 +15087,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14853,6 +15173,8 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14917,6 +15239,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14983,6 +15308,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Automaticky odosielajte e-maily zákazníkom, keď úloha dosiahne určitú fázu "
+"projektu, nastavením tejto šablóny v príslušnej fáze"
+>>>>>>> upstream/18.0
 =======
 "Automaticky odosielajte e-maily zákazníkom, keď úloha dosiahne určitú fázu "
 "projektu, nastavením tejto šablóny v príslušnej fáze"
@@ -15106,7 +15436,11 @@ msgid "Average Rating (1-5)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Priemerné hodnotenie (1-5)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Priemerné hodnotenie (1-5)"
 >>>>>>> upstream/18.0
@@ -15243,7 +15577,11 @@ msgid "Blocked Tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Blokované úlohy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Blokované úlohy"
 >>>>>>> upstream/18.0
@@ -15329,7 +15667,11 @@ msgid "Blocking"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Blokujúce"
+>>>>>>> upstream/18.0
 =======
 msgstr "Blokujúce"
 >>>>>>> upstream/18.0
@@ -15420,7 +15762,11 @@ msgid "Bug"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Chyba"
+>>>>>>> upstream/18.0
 =======
 msgstr "Chyba"
 >>>>>>> upstream/18.0
@@ -15511,7 +15857,11 @@ msgid "Burndown Chart"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Graf postupu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Graf postupu"
 >>>>>>> upstream/18.0
@@ -15614,7 +15964,11 @@ msgid "Changes Requested"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Požadujú sa zmeny"
+>>>>>>> upstream/18.0
 =======
 msgstr "Požadujú sa zmeny"
 >>>>>>> upstream/18.0
@@ -15681,6 +16035,7 @@ msgstr "Požadujú sa zmeny"
 #: code:addons/project/static/src/js/tours/project.js:0
 msgid ""
 "Choose a <b>name</b> for your project. <i>It can be anything you want: the "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15911,6 +16266,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "name of a customer, of a product, of a team, of a construction site, etc.</i>"
 msgstr ""
 "Vyberte si <b>názov</b> svojho projektu. <i>Môže to byť čokoľvek, čo chcete: "
@@ -15934,6 +16291,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16000,6 +16360,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Vyberte <b>názov</b> úlohy <i>(napr. Návrh webovej stránky, Nákup tovaru...)"
+"</i>"
+>>>>>>> upstream/18.0
 =======
 "Vyberte <b>názov</b> úlohy <i>(napr. Návrh webovej stránky, Nákup tovaru...)"
 "</i>"
@@ -16105,6 +16470,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Vyberte jeden z nasledujúcich režimov prístupu pre svojich spolupracovníkov:"
+>>>>>>> upstream/18.0
 =======
 "Vyberte jeden z nasledujúcich režimov prístupu pre svojich spolupracovníkov:"
 >>>>>>> upstream/18.0
@@ -16196,7 +16565,11 @@ msgid "Close the sub-tasks list"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zatvoriť zoznam podúloh úloh"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zatvoriť zoznam podúloh úloh"
 >>>>>>> upstream/18.0
@@ -16281,7 +16654,11 @@ msgid "Closed Depending on Tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uzavreté v závislosti od úloh"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uzavreté v závislosti od úloh"
 >>>>>>> upstream/18.0
@@ -16372,7 +16749,11 @@ msgid "Closed Tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zatvorené úlohy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zatvorené úlohy"
 >>>>>>> upstream/18.0
@@ -16458,7 +16839,11 @@ msgid "Closed state"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uzavretý stav"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uzavretý stav"
 >>>>>>> upstream/18.0
@@ -16543,7 +16928,11 @@ msgid "Closed tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zatvorené úlohy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zatvorené úlohy"
 >>>>>>> upstream/18.0
@@ -16691,10 +17080,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Collect feedback from your customers by sending them a rating request when a task enters a certain stage. To do so, define a rating email template on the corresponding stages.\n"
 "Rating when changing stage: an email will be automatically sent when the task reaches the stage on which the rating email template is set.\n"
 "Periodic rating: an email will be automatically sent at regular intervals as long as the task remains in the stage in which the rating email template is set."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16886,6 +17278,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17020,6 +17415,7 @@ msgstr "Farba"
 #. odoo-javascript
 #: code:addons/project/static/src/xml/project_task_kanban_examples.xml:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17292,6 +17688,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Communicate with customers on the task using the email gateway. Attach logo "
 "designs to the task, so that information flows from\n"
 "      designers to the workers who print the t-shirt."
@@ -17318,6 +17716,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17427,7 +17828,11 @@ msgid "Congratulations, you are now a master of project management."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gratulujeme, teraz ste majstrom projektového manažmentu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Gratulujeme, teraz ste majstrom projektového manažmentu."
 >>>>>>> upstream/18.0
@@ -17529,7 +17934,11 @@ msgid "Convert Task"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Previesť úlohu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Previesť úlohu"
 >>>>>>> upstream/18.0
@@ -17616,7 +18025,11 @@ msgid "Convert to Task/Sub-Task"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Previesť na úlohu / podúlohu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Previesť na úlohu / podúlohu"
 >>>>>>> upstream/18.0
@@ -17721,6 +18134,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Vytvorte <b>aktivity</b>, aby ste si stanovili úkoly alebo naplánovali "
+"stretnutia."
+>>>>>>> upstream/18.0
 =======
 "Vytvorte <b>aktivity</b>, aby ste si stanovili úkoly alebo naplánovali "
 "stretnutia."
@@ -17835,7 +18253,11 @@ msgid "Create a Task Activity Plan"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vytvoriť plán aktivít úlohy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vytvoriť plán aktivít úlohy"
 >>>>>>> upstream/18.0
@@ -17926,7 +18348,11 @@ msgid "Create a new sub-task"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vytvoriť novú podúlohu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vytvoriť novú podúlohu"
 >>>>>>> upstream/18.0
@@ -18011,7 +18437,11 @@ msgid "Create project"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vytvoriť projekt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vytvoriť projekt"
 >>>>>>> upstream/18.0
@@ -18099,6 +18529,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Vytvárajte projekty na organizovanie svojich úloh a definujte pre každý "
+"projekt iný pracovný postup."
+>>>>>>> upstream/18.0
 =======
 "Vytvárajte projekty na organizovanie svojich úloh a definujte pre každý "
 "projekt iný pracovný postup."
@@ -18183,6 +18618,7 @@ msgstr ""
 #. module: project
 #: model_terms:ir.actions.act_window,help:project.open_view_project_all
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18455,6 +18891,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Create projects to organize your tasks. Define a different workflow for each "
 "project."
 msgstr ""
@@ -18479,6 +18917,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18548,7 +18989,11 @@ msgid "Create tasks by sending an email to the email address of your project."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Úlohy vytvoríte zaslaním e-mailu na e-mailovú adresu vášho projektu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Úlohy vytvoríte zaslaním e-mailu na e-mailovú adresu vášho projektu."
 >>>>>>> upstream/18.0
@@ -18739,6 +19184,7 @@ msgstr "Stav zákazníckych hodnotení"
 #. odoo-javascript
 #: code:addons/project/static/src/xml/project_task_kanban_examples.xml:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19011,6 +19457,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Customers propose feedbacks by email; Odoo creates tasks automatically, and "
 "you can\n"
 "      communicate on the task directly."
@@ -19037,6 +19485,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19101,7 +19552,11 @@ msgid "Customers will be added to the followers of their project and tasks."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zákazníci budú pridaní medzi odberateľov svojho projektu a úloh."
+>>>>>>> upstream/18.0
 =======
 msgstr "Zákazníci budú pridaní medzi odberateľov svojho projektu a úloh."
 >>>>>>> upstream/18.0
@@ -19189,6 +19644,7 @@ msgstr "Dátum"
 #: model:ir.model.fields,help:project.field_project_task__date_last_stage_update
 msgid ""
 "Date on which the state of your task has last been modified.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19502,6 +19958,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Based on this information you can identify tasks that are stalling and get "
 "statistics on the time it usually takes to move tasks from one stage/state "
 "to another."
@@ -19529,6 +19987,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19595,6 +20056,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Dátum ukončenia tohto projektu. Pri zobrazení plánu projektu sa zohľadňuje "
+"časový rámec definovaný v projekte."
+>>>>>>> upstream/18.0
 =======
 "Dátum ukončenia tohto projektu. Pri zobrazení plánu projektu sa zohľadňuje "
 "časový rámec definovaný v projekte."
@@ -19702,6 +20168,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Dátum, kedy bola táto úloha naposledy pridelená (alebo odobraná). Na základe "
+"toho môžete získať štatistiky o čase, koľko zvyčajne trvá pridelenie úloh."
+>>>>>>> upstream/18.0
 =======
 "Dátum, kedy bola táto úloha naposledy pridelená (alebo odobraná). Na základe "
 "toho môžete získať štatistiky o čase, koľko zvyčajne trvá pridelenie úloh."
@@ -19821,6 +20292,7 @@ msgstr "Predvolené hodnoty"
 #: model_terms:ir.actions.act_window,help:project.open_task_type_form_domain
 msgid ""
 "Define the steps that will be used in the project from the\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20132,6 +20604,10 @@ msgid ""
 "                creation of the task, up to the closing of the task or "
 "issue.\n"
 >>>>>>> upstream/18.0
+=======
+"                creation of the task, up to the closing of the task or "
+"issue.\n"
+>>>>>>> upstream/18.0
 "                You will use these stages in order to track the progress in\n"
 "                solving a task or an issue."
 msgstr ""
@@ -20165,6 +20641,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Definujte kroky, ktorými prechádzajú vaše projekty od vytvorenia až po "
+"dokončenie."
+>>>>>>> upstream/18.0
 =======
 "Definujte kroky, ktorými prechádzajú vaše projekty od vytvorenia až po "
 "dokončenie."
@@ -20270,6 +20751,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Definujte kroky, ktorými prechádzajú vaše úlohy od vytvorenia až po "
+"dokončenie."
+>>>>>>> upstream/18.0
 =======
 "Definujte kroky, ktorými prechádzajú vaše úlohy od vytvorenia až po "
 "dokončenie."
@@ -20392,7 +20878,11 @@ msgid "Delete Project Stage"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odstrániť fázu projektu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odstrániť fázu projektu"
 >>>>>>> upstream/18.0
@@ -20490,6 +20980,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Dodajte svoje služby automaticky po dosiahnutí míľnika tak, že ho prepojíte "
+"s položkou predajnej objednávky."
+>>>>>>> upstream/18.0
 =======
 "Dodajte svoje služby automaticky po dosiahnutí míľnika tak, že ho prepojíte "
 "s položkou predajnej objednávky."
@@ -20606,7 +21101,11 @@ msgid "Depending on Tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Závisí na úlohe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Závisí na úlohe"
 >>>>>>> upstream/18.0
@@ -20704,7 +21203,11 @@ msgid "Description to provide more information and context about this project"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Popis poskytujúci viac informácií a kontextu o tomto projekte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Popis poskytujúci viac informácií a kontextu o tomto projekte"
 >>>>>>> upstream/18.0
@@ -20899,6 +21402,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Každý používateľ by mal mať aspoň jednu osobnú fázu. Vytvorte novú fázu, do "
+"ktorej môžu byť úlohy presunuté po vymazaní vybraných úloh."
+>>>>>>> upstream/18.0
 =======
 "Každý používateľ by mal mať aspoň jednu osobnú fázu. Vytvorte novú fázu, do "
 "ktorej môžu byť úlohy presunuté po vymazaní vybraných úloh."
@@ -21008,7 +21516,11 @@ msgid "Edit with limited access"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Upravovať s obmedzením"
+>>>>>>> upstream/18.0
 =======
 msgstr "Upravovať s obmedzením"
 >>>>>>> upstream/18.0
@@ -21096,6 +21608,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Upravovať s obmedzením: spolupracovníci môžu zobraziť a upravovať úlohy, "
+"ktoré sledujú v zobrazení Kanban."
+>>>>>>> upstream/18.0
 =======
 "Upravovať s obmedzením: spolupracovníci môžu zobraziť a upravovať úlohy, "
 "ktoré sledujú v zobrazení Kanban."
@@ -21203,6 +21720,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Upravovať: spolupracovníci môžu zobraziť a upravovať všetky úlohy v "
+"zobrazení Kanban. Okrem toho si môžu vybrať, ktoré úlohy chcú sledovať."
+>>>>>>> upstream/18.0
 =======
 "Upravovať: spolupracovníci môžu zobraziť a upravovať všetky úlohy v "
 "zobrazení Kanban. Okrem toho si môžu vybrať, ktoré úlohy chcú sledovať."
@@ -21327,6 +21849,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"E-mailové adresy, ktoré boli v kópii prichádzajúcich e-mailov z tejto úlohy "
+"a ktoré momentálne nie sú prepojené s existujúcim zákazníkom."
+>>>>>>> upstream/18.0
 =======
 "E-mailové adresy, ktoré boli v kópii prichádzajúcich e-mailov z tejto úlohy "
 "a ktoré momentálne nie sú prepojené s existujúcim zákazníkom."
@@ -21473,7 +22000,11 @@ msgid "Everyone can propose ideas, and the Editor marks the best ones as"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Každý môže navrhovať nápady a redaktor označí tie najlepšie ako"
+>>>>>>> upstream/18.0
 =======
 msgstr "Každý môže navrhovať nápady a redaktor označí tie najlepšie ako"
 >>>>>>> upstream/18.0
@@ -21564,7 +22095,11 @@ msgid "Experiment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Experiment"
+>>>>>>> upstream/18.0
 =======
 msgstr "Experiment"
 >>>>>>> upstream/18.0
@@ -21654,7 +22189,11 @@ msgid "External"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Externé"
+>>>>>>> upstream/18.0
 =======
 msgstr "Externé"
 >>>>>>> upstream/18.0
@@ -21750,7 +22289,11 @@ msgid "Favorite Projects"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obľúbené projekty"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obľúbené projekty"
 >>>>>>> upstream/18.0
@@ -22015,7 +22558,11 @@ msgid "Follow and comments tasks of your projects"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sledujte a pridávajte komentáre k úlohám vašich projektov"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sledujte a pridávajte komentáre k úlohám vašich projektov"
 >>>>>>> upstream/18.0
@@ -22724,7 +23271,11 @@ msgid "Follow the evolution of your projects"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sledujte vývoj vašich projektov"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sledujte vývoj vašich projektov"
 >>>>>>> upstream/18.0
@@ -23375,6 +23926,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Get a snapshot of the status of your project and share its progress with key"
 " stakeholders."
 =======
@@ -23585,6 +24137,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Get a snapshot of the status of your project and share its progress with key "
 "stakeholders."
 msgstr ""
@@ -23609,6 +24163,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23678,7 +24235,11 @@ msgid "Give the sub-task a <b>name</b>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dajte podúlohe <b>názov</b>"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dajte podúlohe <b>názov</b>"
 >>>>>>> upstream/18.0
@@ -23749,6 +24310,7 @@ msgstr "Udeliť prístup k portálu"
 #. odoo-python
 #: code:addons/project/models/project_project.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24021,6 +24583,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Grant employees access to your project or tasks by adding them as followers. "
 "Employees automatically get access to the tasks they are assigned to."
 msgstr ""
@@ -24046,6 +24610,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24153,8 +24720,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "tasks of the project are not included). To grant access to tasks to a portal"
 " user, add them as followers for these tasks."
+=======
+"tasks of the project are not included). To grant access to tasks to a portal "
+"user, add them as followers for these tasks."
+>>>>>>> upstream/18.0
 =======
 "tasks of the project are not included). To grant access to tasks to a portal "
 "user, add them as followers for these tasks."
@@ -24478,6 +25050,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Handle your idea gathering within Tasks of your new Project and discuss them"
 " in the chatter of the tasks."
 =======
@@ -24688,6 +25261,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Handle your idea gathering within Tasks of your new Project and discuss them "
 "in the chatter of the tasks."
 msgstr ""
@@ -24712,6 +25287,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24801,7 +25379,11 @@ msgid "Hide closed tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skryť uzavreté úlohy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Skryť uzavreté úlohy"
 >>>>>>> upstream/18.0
@@ -24902,7 +25484,11 @@ msgid "History data"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Historické dáta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Historické dáta"
 >>>>>>> upstream/18.0
@@ -24987,7 +25573,11 @@ msgid "History metadata"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Metadáta histórie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Metadáta histórie"
 >>>>>>> upstream/18.0
@@ -25078,7 +25668,11 @@ msgid "Home Construction"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stavba domu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stavba domu"
 >>>>>>> upstream/18.0
@@ -25163,7 +25757,11 @@ msgid "Home Make Over"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Premena domu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Premena domu"
 >>>>>>> upstream/18.0
@@ -25257,6 +25855,7 @@ msgstr "ID"
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_parent_thread_id
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25447,6 +26046,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "ID of the parent record holding the alias (example: project holding the task "
 "creation alias)"
 msgstr ""
@@ -25513,6 +26114,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25749,10 +26353,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If set, a rating request will automatically be sent by email to the customer when the task reaches this stage. \n"
 "Alternatively, it will be sent at a regular interval as long as the task remains in this stage, depending on the configuration of your project. \n"
 "To use this feature make sure that the 'Customer Ratings' option is enabled on your project."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25942,6 +26549,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26070,6 +26680,7 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project_stage__mail_template_id
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26342,6 +26953,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "If set, an email will be automatically sent to the customer when the project "
 "reaches this stage."
 msgstr ""
@@ -26366,6 +26979,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26432,6 +27048,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ak je táto možnosť nastavená, zákazníkovi bude automaticky zaslaný e-mail, "
+"keď úloha vstúpi do tejto fáze."
+>>>>>>> upstream/18.0
 =======
 "Ak je táto možnosť nastavená, zákazníkovi bude automaticky zaslaný e-mail, "
 "keď úloha vstúpi do tejto fáze."
@@ -26571,7 +27192,11 @@ msgid "Interior"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Interiér"
+>>>>>>> upstream/18.0
 =======
 msgstr "Interiér"
 >>>>>>> upstream/18.0
@@ -26651,6 +27276,7 @@ msgid ""
 "automatically synchronized with Tasks (or optionally Issues if the Issue "
 "Tracker module is installed)."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -27026,6 +27652,11 @@ msgstr ""
 "synchronizované s úlohami (alebo voliteľne s problémami, ak je nainštalovaný "
 "sledovač problémov). "
 >>>>>>> upstream/18.0
+=======
+"Interný email spojený s tymto projektom. Prichádzajúce emaily sú automaticky "
+"synchronizované s úlohami (alebo voliteľne s problémami, ak je nainštalovaný "
+"sledovač problémov). "
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-javascript
@@ -27084,7 +27715,11 @@ msgid "Is Closed (Burn-up Chart)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uzavreté (graf postupu)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uzavreté (graf postupu)"
 >>>>>>> upstream/18.0
@@ -27179,7 +27814,11 @@ msgid "Is toggle mode"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Je prepínací režim"
+>>>>>>> upstream/18.0
 =======
 msgstr "Je prepínací režim"
 >>>>>>> upstream/18.0
@@ -27270,7 +27909,11 @@ msgid "JSON that maps ids from a many2one field to seconds spent"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "JSON, ktorý mapuje identifikátory z poľa many2one na sekundy strávené"
+>>>>>>> upstream/18.0
 =======
 msgstr "JSON, ktorý mapuje identifikátory z poľa many2one na sekundy strávené"
 >>>>>>> upstream/18.0
@@ -27339,6 +27982,7 @@ msgstr "JSON, ktorý mapuje identifikátory z poľa many2one na sekundy stráven
 #: model_terms:ir.actions.act_window,help:project.project_task_action_sub_task
 msgid ""
 "Keep track of the progress of your tasks from creation to completion.<br>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -27610,6 +28254,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                    Collaborate efficiently by chatting in real-time or via "
 "email."
 msgstr ""
@@ -27635,6 +28281,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27680,6 +28329,7 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:project.project_sharing_project_task_recurring_tasks_action
 msgid ""
 "Keep track of the progress of your tasks from creation to completion.<br>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -27951,6 +28601,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                Collaborate efficiently by chatting in real-time or via "
 "email."
 msgstr ""
@@ -27976,6 +28628,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -28061,7 +28716,11 @@ msgid "Last Rating (1-5)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Posledné hodnotenie (1-5)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Posledné hodnotenie (1-5)"
 >>>>>>> upstream/18.0
@@ -28202,7 +28861,11 @@ msgid "Late Milestones"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oneskoré míľniky"
+>>>>>>> upstream/18.0
 =======
 msgstr "Oneskoré míľniky"
 >>>>>>> upstream/18.0
@@ -28416,7 +29079,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Manage the lifecycle of your project using the kanban view. Add newly acquired projects,\n"
+=======
+"Manage the lifecycle of your project using the kanban view. Add newly "
+"acquired projects,\n"
+>>>>>>> upstream/18.0
 =======
 "Manage the lifecycle of your project using the kanban view. Add newly "
 "acquired projects,\n"
@@ -29233,7 +29901,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    Collaborate efficiently by chatting in real-time or via email."
+=======
+"                    Collaborate efficiently by chatting in real-time or via "
+"email."
+>>>>>>> upstream/18.0
 =======
 "                    Collaborate efficiently by chatting in real-time or via "
 "email."
@@ -29590,8 +30263,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Parent model holding the alias. The model holding the alias reference is not"
 " necessarily the model given by alias_model_id (example: project "
+=======
+"Parent model holding the alias. The model holding the alias reference is not "
+"necessarily the model given by alias_model_id (example: project "
+>>>>>>> upstream/18.0
 =======
 "Parent model holding the alias. The model holding the alias reference is not "
 "necessarily the model given by alias_model_id (example: project "
@@ -29911,8 +30589,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Partner company cannot be different from its assigned projects' company"
+=======
+msgid "Partner company cannot be different from its assigned projects' company"
+>>>>>>> upstream/18.0
 =======
 msgid "Partner company cannot be different from its assigned projects' company"
 >>>>>>> upstream/18.0
@@ -30186,6 +30868,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- Invited internal users: when following a project, internal users will get access to all of its tasks without distinction. Otherwise, they will only get access to the specific tasks they are following.\n"
 " A user with the project > administrator access right level can still access this project and its tasks, even if they are not explicitly part of the followers.\n"
 "\n"
@@ -30199,6 +30882,8 @@ msgid ""
 "\n"
 "In any case, an internal user with no project access rights can still access a task, provided that they are given the corresponding URL (and that they are part of the followers if the project is private)."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -30407,6 +31092,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -30631,8 +31319,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Prosím, odstráňte existujúce úlohy v rámci projektu prepojené na účty, ktoré"
 " chcete odstrániť."
+=======
+"Prosím, odstráňte existujúce úlohy v rámci projektu prepojené na účty, ktoré "
+"chcete odstrániť."
+>>>>>>> upstream/18.0
 =======
 "Prosím, odstráňte existujúce úlohy v rámci projektu prepojené na účty, ktoré "
 "chcete odstrániť."
@@ -30956,7 +31649,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- followers: only followers of the related document or members of following channels\n"
+=======
+"- followers: only followers of the related document or members of following "
+"channels\n"
+>>>>>>> upstream/18.0
 =======
 "- followers: only followers of the related document or members of following "
 "channels\n"
@@ -31271,7 +31969,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- odberatelia: iba odberatelia pridruženého dokumentu alebo členovia príslušných kanálov\n"
+=======
+"- odberatelia: iba odberatelia pridruženého dokumentu alebo členovia "
+"príslušných kanálov\n"
+>>>>>>> upstream/18.0
 =======
 "- odberatelia: iba odberatelia pridruženého dokumentu alebo členovia "
 "príslušných kanálov\n"
@@ -31594,8 +32297,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Portal users will be removed from the followers of the project and its "
 "tasks."
+=======
+"Portal users will be removed from the followers of the project and its tasks."
+>>>>>>> upstream/18.0
 =======
 "Portal users will be removed from the followers of the project and its tasks."
 >>>>>>> upstream/18.0
@@ -31923,7 +32630,11 @@ msgid "Project Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Projektový účet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Projektový účet"
 >>>>>>> upstream/18.0
@@ -32211,7 +32922,11 @@ msgid "Project: Project Completed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Projekt: Projekt dokončený"
+>>>>>>> upstream/18.0
 =======
 msgstr "Projekt: Projekt dokončený"
 >>>>>>> upstream/18.0
@@ -32381,8 +33096,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Projects in which this stage is present. If you follow a similar workflow in"
 " several projects, you can share this stage among them and get consolidated "
+=======
+"Projects in which this stage is present. If you follow a similar workflow in "
+"several projects, you can share this stage among them and get consolidated "
+>>>>>>> upstream/18.0
 =======
 "Projects in which this stage is present. If you follow a similar workflow in "
 "several projects, you can share this stage among them and get consolidated "
@@ -32778,7 +33498,11 @@ msgid "Read"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čítať"
+>>>>>>> upstream/18.0
 =======
 msgstr "Čítať"
 >>>>>>> upstream/18.0
@@ -32863,7 +33587,11 @@ msgid "Read: collaborators can view tasks but cannot edit them."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čítať: spolupracovníci môžu úlohy zobraziť, ale nemôžu ich upravovať."
+>>>>>>> upstream/18.0
 =======
 msgstr "Čítať: spolupracovníci môžu úlohy zobraziť, ale nemôžu ich upravovať."
 >>>>>>> upstream/18.0
@@ -32929,6 +33657,7 @@ msgstr "Čítať: spolupracovníci môžu úlohy zobraziť, ale nemôžu ich upr
 #: model:ir.model.fields,help:project.field_project_share_collaborator_wizard__access_mode
 msgid ""
 "Read: collaborators can view tasks but cannot edit them.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -33116,6 +33845,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Edit with limited access: collaborators can view and edit tasks they follow "
 "in the Kanban view.\n"
 "Edit: collaborators can view and edit all tasks in the Kanban view. "
@@ -33181,6 +33912,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -33266,6 +33998,8 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -33329,6 +34063,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -33743,8 +34480,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Set on project's stages to inform customers when a project reaches that "
 "stage"
+=======
+"Set on project's stages to inform customers when a project reaches that stage"
+>>>>>>> upstream/18.0
 =======
 "Set on project's stages to inform customers when a project reaches that stage"
 >>>>>>> upstream/18.0
@@ -34078,7 +34819,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Archiving these accounts will remove the option to log timesheets for their respective projects.\n"
+=======
+"Archiving these accounts will remove the option to log timesheets for their "
+"respective projects.\n"
+>>>>>>> upstream/18.0
 =======
 "Archiving these accounts will remove the option to log timesheets for their "
 "respective projects.\n"
@@ -34822,8 +35568,12 @@ msgstr "Štádium osobnej úlohy aktuálneho používateľa."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "The document does not exist or you do not have the rights to access it."
+=======
+msgid "The document does not exist or you do not have the rights to access it."
+>>>>>>> upstream/18.0
 =======
 msgid "The document does not exist or you do not have the rights to access it."
 >>>>>>> upstream/18.0
@@ -35099,6 +35849,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
@@ -35107,6 +35858,8 @@ msgstr ""
 "prichádzajúci email ktorý neodpovie na existujúci záznam, spôsobí vytvorenie"
 " nového záznamu tohto modelu (napr požiadavku projektu)"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -35297,6 +36050,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -35503,8 +36259,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The project's company cannot be changed if its analytic account has analytic"
 " lines or if more than one project is linked to it."
+=======
+"The project's company cannot be changed if its analytic account has analytic "
+"lines or if more than one project is linked to it."
+>>>>>>> upstream/18.0
 =======
 "The project's company cannot be changed if its analytic account has analytic "
 "lines or if more than one project is linked to it."
@@ -35827,8 +36588,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Chart or by \"Is Closed\" to represent a Burn-up chart. Without one of these"
 " groupings applied, the report will not provide relevant information."
+=======
+"Chart or by \"Is Closed\" to represent a Burn-up chart. Without one of these "
+"groupings applied, the report will not provide relevant information."
+>>>>>>> upstream/18.0
 =======
 "Chart or by \"Is Closed\" to represent a Burn-up chart. Without one of these "
 "groupings applied, the report will not provide relevant information."
@@ -36150,8 +36916,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "The task and the associated partner must be linked to the same company."
+=======
+msgid "The task and the associated partner must be linked to the same company."
+>>>>>>> upstream/18.0
 =======
 msgid "The task and the associated partner must be linked to the same company."
 >>>>>>> upstream/18.0
@@ -36407,8 +37177,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "project is too restricted. Set the privacy of the project to "
 "'%(visibility)s' in order to make it accessible by the recipient(s)."
+=======
+"project is too restricted. Set the privacy of the project to '%"
+"(visibility)s' in order to make it accessible by the recipient(s)."
+>>>>>>> upstream/18.0
 =======
 "project is too restricted. Set the privacy of the project to '%"
 "(visibility)s' in order to make it accessible by the recipient(s)."
@@ -36767,8 +37542,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "on your website. This includes leads/opportunities, quotations/sales orders,"
 " purchase orders, invoices and bills, timesheets, and tickets."
+=======
+"on your website. This includes leads/opportunities, quotations/sales orders, "
+"purchase orders, invoices and bills, timesheets, and tickets."
+>>>>>>> upstream/18.0
 =======
 "on your website. This includes leads/opportunities, quotations/sales orders, "
 "purchase orders, invoices and bills, timesheets, and tickets."
@@ -37106,7 +37886,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Archiving the account will remove the option to log timesheets for these projects.\n"
+=======
+"Archiving the account will remove the option to log timesheets for these "
+"projects.\n"
+>>>>>>> upstream/18.0
 =======
 "Archiving the account will remove the option to log timesheets for these "
 "projects.\n"
@@ -37425,8 +38210,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This follower is currently a project collaborator. Removing them will revoke"
 " their portal access to the project. Are you sure you want to proceed?"
+=======
+"This follower is currently a project collaborator. Removing them will revoke "
+"their portal access to the project. Are you sure you want to proceed?"
+>>>>>>> upstream/18.0
 =======
 "This follower is currently a project collaborator. Removing them will revoke "
 "their portal access to the project. Are you sure you want to proceed?"
@@ -37752,8 +38542,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "consider: either remove the company designation from the project or from the"
 " stage. Alternatively, you can update the company information for these "
+=======
+"consider: either remove the company designation from the project or from the "
+"stage. Alternatively, you can update the company information for these "
+>>>>>>> upstream/18.0
 =======
 "consider: either remove the company designation from the project or from the "
 "stage. Alternatively, you can update the company information for these "
@@ -38081,8 +38876,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "associated with %s. There are a couple of options to consider: either change"
 " the project's company to align with the stage's company or remove the "
+=======
+"associated with %s. There are a couple of options to consider: either change "
+"the project's company to align with the stage's company or remove the "
+>>>>>>> upstream/18.0
 =======
 "associated with %s. There are a couple of options to consider: either change "
 "the project's company to align with the stage's company or remove the "
@@ -38696,7 +39496,11 @@ msgid "Usability"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Použiteľnosť"
+>>>>>>> upstream/18.0
 =======
 msgstr "Použiteľnosť"
 >>>>>>> upstream/18.0
@@ -39123,7 +39927,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Make sure to use the right format and order e.g. Improve the configuration screen 5h #feature #v16 @Mitchell !"
+=======
+"        Make sure to use the right format and order e.g. Improve the "
+"configuration screen 5h #feature #v16 @Mitchell !"
+>>>>>>> upstream/18.0
 =======
 "        Make sure to use the right format and order e.g. Improve the "
 "configuration screen 5h #feature #v16 @Mitchell !"
@@ -39559,8 +40368,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Would you like to unarchive all of the projects contained in these stages as"
 " well?"
+=======
+"Would you like to unarchive all of the projects contained in these stages as "
+"well?"
+>>>>>>> upstream/18.0
 =======
 "Would you like to unarchive all of the projects contained in these stages as "
 "well?"
@@ -39908,9 +40722,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "since it currently includes projects associated with "
 "%(project_company_name)s. Please ensure that this stage exclusively consists"
 " of projects linked to %(company_name)s."
+=======
+"since it currently includes projects associated with %"
+"(project_company_name)s. Please ensure that this stage exclusively consists "
+"of projects linked to %(company_name)s."
+>>>>>>> upstream/18.0
 =======
 "since it currently includes projects associated with %"
 "(project_company_name)s. Please ensure that this stage exclusively consists "
@@ -40306,8 +41126,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot delete stages containing projects. You can either archive them or"
 " first delete all of their projects."
+=======
+"You cannot delete stages containing projects. You can either archive them or "
+"first delete all of their projects."
+>>>>>>> upstream/18.0
 =======
 "You cannot delete stages containing projects. You can either archive them or "
 "first delete all of their projects."
@@ -40623,8 +41448,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot delete stages containing projects. You should first delete all of"
 " their projects."
+=======
+"You cannot delete stages containing projects. You should first delete all of "
+"their projects."
+>>>>>>> upstream/18.0
 =======
 "You cannot delete stages containing projects. You should first delete all of "
 "their projects."
@@ -40952,8 +41782,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Etapy obsahujúce úlohy nemôžete vymazať. Najprv by ste mali odstrániť všetky"
 " ich úlohy."
+=======
+"Etapy obsahujúce úlohy nemôžete vymazať. Najprv by ste mali odstrániť všetky "
+"ich úlohy."
+>>>>>>> upstream/18.0
 =======
 "Etapy obsahujúce úlohy nemôžete vymazať. Najprv by ste mali odstrániť všetky "
 "ich úlohy."
@@ -41302,8 +42137,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You have full control and can revoke portal access anytime. Are you ready to"
 " proceed?"
+=======
+"You have full control and can revoke portal access anytime. Are you ready to "
+"proceed?"
+>>>>>>> upstream/18.0
 =======
 "You have full control and can revoke portal access anytime. Are you ready to "
 "proceed?"
@@ -41640,7 +42480,11 @@ msgid "alias"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "alias"
+>>>>>>> upstream/18.0
 =======
 msgstr "alias"
 >>>>>>> upstream/18.0
@@ -41969,7 +42813,11 @@ msgid "e.g. mycompany.com"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "napr. mojaspolocnost.sk"
+>>>>>>> upstream/18.0
 =======
 msgstr "napr. mojaspolocnost.sk"
 >>>>>>> upstream/18.0
@@ -42475,12 +43323,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/project/static/src/project_sharing/components/chatter/chatter_composer.xml:0
 msgid "state.message"
 msgstr ""
 
 #. module: project
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

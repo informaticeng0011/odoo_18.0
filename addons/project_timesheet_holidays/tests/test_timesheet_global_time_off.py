@@ -112,6 +112,33 @@ class TestTimesheetGlobalTimeOff(common.TransactionCase):
 
         self.assertFalse(leave_task.timesheet_ids.ids)
 
+<<<<<<< HEAD
+=======
+    def test_timesheet_creation_multi_company(self):
+        """
+        Check timesheet generation is limited to the company of the public holiday in a multi-company
+        environment with a shared working schedule between companies.
+        """
+        self.test_company.resource_calendar_id.write({'company_id': False})
+        self.env['hr.employee'].create({
+            'name': 'Employee Company 2',
+            'company_id': self.test_company_2.id,
+            'resource_calendar_id': self.test_company.resource_calendar_id.id,
+        })
+
+        # Create Public Holiday with both companies selected
+        global_time_off_test_company = self.env['resource.calendar.leaves'].with_context(allowed_company_ids=[self.test_company.id, self.test_company_2.id]).create({
+            'name': 'Test',
+            'calendar_id': self.test_company.resource_calendar_id.id,
+            'date_from': datetime(2021, 1, 4, 7, 0, 0, 0),
+            'date_to': datetime(2021, 1, 4, 19, 0, 0, 0),
+        })
+
+        self.assertEqual(global_time_off_test_company.company_id, self.test_company)
+        self.assertEqual(global_time_off_test_company.timesheet_ids.mapped('employee_id'), self.full_time_employee + self.full_time_employee_2,
+                         'Timesheets should have been created only for employees of the first company')
+
+>>>>>>> upstream/18.0
     @freeze_time('2022-01-01 08:00:00')
     def test_timesheet_creation_and_deletion_on_employee_archive(self):
         """ Test the timesheets linked to the global time off in the future when the employee is archived """
@@ -620,9 +647,15 @@ class TestTimesheetGlobalTimeOff(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # create overlapping global time off
         global_leave_start_datetime = hr_leave_start_datetime + timedelta(days=2)
         global_leave_end_datetime = global_leave_start_datetime + timedelta(hours=9)
+=======
+        # create overlapping global time off, with some margin over working day to account for different timezones
+        global_leave_start_datetime = hr_leave_start_datetime + timedelta(days=2, hours=-3)
+        global_leave_end_datetime = global_leave_start_datetime + timedelta(hours=12)
+>>>>>>> upstream/18.0
 =======
         # create overlapping global time off, with some margin over working day to account for different timezones
         global_leave_start_datetime = hr_leave_start_datetime + timedelta(days=2, hours=-3)
@@ -1742,7 +1775,10 @@ class TestTimesheetGlobalTimeOff(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2286,6 +2322,9 @@ class TestTimesheetGlobalTimeOff(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2831,7 +2870,10 @@ class TestTimesheetGlobalTimeOff(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3188,7 +3230,11 @@ class TestTimesheetGlobalTimeOff(common.TransactionCase):
             when a global time off is created.
         """
         self.part_time_calendar.company_id = False
+<<<<<<< HEAD
         self.env['resource.calendar.leaves'].create({
+=======
+        self.env['resource.calendar.leaves'].with_company(self.part_time_employee.company_id).create({
+>>>>>>> upstream/18.0
             'name': 'Public Holiday',
             'date_from': datetime(2021, 1, 4, 0, 0, 0),
             'date_to': datetime(2021, 1, 4, 23, 59, 59),
@@ -3371,6 +3417,7 @@ class TestTimesheetGlobalTimeOff(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3395,6 +3442,8 @@ class TestTimesheetGlobalTimeOff(common.TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3731,6 +3780,10 @@ class TestTimesheetGlobalTimeOff(common.TransactionCase):
             'hours_per_day': 7.0,
             'full_time_required_hours': 7.0,
             'flexible_hours': True,
+<<<<<<< HEAD
+=======
+            'company_id': self.test_company.id,
+>>>>>>> upstream/18.0
         })
 
         self.flexible_employee = self.env['hr.employee'].create({
@@ -3739,7 +3792,11 @@ class TestTimesheetGlobalTimeOff(common.TransactionCase):
             'resource_calendar_id': self.flexible_calendar.id,
         })
 
+<<<<<<< HEAD
         self.env['resource.calendar.leaves'].create({
+=======
+        self.env['resource.calendar.leaves'].with_company(self.test_company).create({
+>>>>>>> upstream/18.0
             'name': 'Public Holiday',
             'date_from': datetime(2021, 1, 4, 0, 0, 0),
             'date_to': datetime(2021, 1, 4, 23, 59, 59),
@@ -3909,6 +3966,9 @@ class TestTimesheetGlobalTimeOff(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -22,7 +22,11 @@ class TestSubcontractingLandedCosts(TestMrpSubcontractingCommon):
                 'product_id': self.finished.id,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'product_uom_qty': 10,
+=======
+                'product_qty': 10,
+>>>>>>> upstream/18.0
 =======
                 'product_qty': 10,
 >>>>>>> upstream/18.0
@@ -42,6 +46,7 @@ class TestSubcontractingLandedCosts(TestMrpSubcontractingCommon):
         in_picking = self.env[action['res_model']].browse(action['res_id'])
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         in_picking.move_ids.quantity = 10
         in_picking.move_ids.picked = True
         in_picking.button_validate()
@@ -55,6 +60,8 @@ class TestSubcontractingLandedCosts(TestMrpSubcontractingCommon):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         in_picking.move_ids.picked = True
         in_picking.button_validate()
         self.assertEqual(self.finished.standard_price, 10)
@@ -66,6 +73,9 @@ class TestSubcontractingLandedCosts(TestMrpSubcontractingCommon):
         })
         stock_landed_cost = self.env['stock.landed.cost'].create({
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -79,8 +89,11 @@ class TestSubcontractingLandedCosts(TestMrpSubcontractingCommon):
         })
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         stock_landed_cost = self.env['stock.landed.cost'].create(default_vals)
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -101,11 +114,14 @@ class TestSubcontractingLandedCosts(TestMrpSubcontractingCommon):
         stock_landed_cost.button_validate()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(stock_landed_cost.state, "done")
 
         self.assertEqual(len(in_picking.move_ids.stock_valuation_layer_ids), 1)
         self.assertEqual(in_picking.move_ids.stock_valuation_layer_ids.value, 99)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         self.assertEqual(self.finished.standard_price, 19.9)
@@ -118,6 +134,9 @@ class TestSubcontractingLandedCosts(TestMrpSubcontractingCommon):
             {'value': 99},
         ])
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -129,7 +148,11 @@ class TestSubcontractingLandedCosts(TestMrpSubcontractingCommon):
                 'product_id': self.finished.id,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'product_uom_qty': 10,
+=======
+                'product_qty': 10,
+>>>>>>> upstream/18.0
 =======
                 'product_qty': 10,
 >>>>>>> upstream/18.0
@@ -160,7 +183,10 @@ class TestSubcontractingLandedCosts(TestMrpSubcontractingCommon):
         in_picking = self.env[action['res_model']].browse(action['res_id'])
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         in_picking.move_ids.quantity = 10
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -197,7 +223,10 @@ class TestSubcontractingLandedCosts(TestMrpSubcontractingCommon):
         self.assertEqual(stock_landed_cost.state, "done")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -266,6 +295,9 @@ class TestSubcontractingLandedCosts(TestMrpSubcontractingCommon):
             {'account_id': stock_out_acc_id,   'product_id': self.finished.id,    'debit': 0.0,   'credit': 3.0},
         ])
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

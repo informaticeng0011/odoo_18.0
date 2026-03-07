@@ -186,6 +186,10 @@ class TestResPartnerBank(SavepointCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertEqual(partner_bank.sanitized_acc_number, sanitized_acc_number)
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(partner_bank.sanitized_acc_number, sanitized_acc_number)
 >>>>>>> upstream/18.0
@@ -824,7 +828,10 @@ class TestResPartnerBank(SavepointCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1291,6 +1298,7 @@ class TestResPartnerBank(SavepointCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1599,6 +1607,8 @@ class TestResPartnerBank(SavepointCaseWithUserDemo):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_find_or_create_bank_account_create(self):
         partner = self.env['res.partner'].create({'name': 'partner name'})
@@ -1703,4 +1713,7 @@ class TestResPartnerBank(SavepointCaseWithUserDemo):
             company=self.env.company,
         )
         self.assertEqual(contact_bank, found_bank)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

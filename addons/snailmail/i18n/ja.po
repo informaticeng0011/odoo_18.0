@@ -41,6 +41,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* snailmail
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -952,6 +953,9 @@
 =======
 # * snailmail
 >>>>>>> upstream/18.0
+=======
+# * snailmail
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -1018,6 +1022,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1058,6 +1063,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# "Junko Augias (juau)" <juau@odoo.com>, 2026.
 >>>>>>> upstream/18.0
 =======
 # "Junko Augias (juau)" <juau@odoo.com>, 2026.
@@ -1186,6 +1194,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2146,6 +2155,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2026-02-07 10:37+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
@@ -2177,6 +2188,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2295,6 +2309,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2337,6 +2352,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
+=======
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 =======
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.14.3\n"
@@ -2751,6 +2770,7 @@ msgstr "ID"
 #. module: snailmail
 #: model:ir.model.fields.selection,name:snailmail.selection__snailmail_letter__state__pending
 msgid "In Queue"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3720,6 +3740,9 @@ msgstr "送信予約済"
 =======
 msgstr "送信予約済"
 >>>>>>> upstream/18.0
+=======
+msgstr "送信予約済"
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #: model:ir.model.fields,field_description:snailmail.field_snailmail_letter__info_msg
@@ -3821,6 +3844,7 @@ msgstr "印刷・添付するレポート"
 #: model_terms:ir.ui.view,arch_db:snailmail.snailmail_letter_format_error
 msgid ""
 "Our service cannot read your letter due to its format.<br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4132,6 +4156,10 @@ msgid ""
 "                Please modify the format of the template or update your "
 "settings\n"
 >>>>>>> upstream/18.0
+=======
+"                Please modify the format of the template or update your "
+"settings\n"
+>>>>>>> upstream/18.0
 "                to automatically add a blank cover page to all letters."
 msgstr ""
 "当社サービスでは、フォーマットの問題でレターを読むことができません。<br/>\n"
@@ -4163,6 +4191,7 @@ msgstr "カラー印刷"
 #. odoo-javascript
 #: code:addons/snailmail/static/src/core_ui/snailmail_error.xml:0
 msgid "Re-send letter"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4944,6 +4973,9 @@ msgstr "手紙を再送"
 =======
 msgstr "手紙を再送"
 >>>>>>> upstream/18.0
+=======
+msgstr "手紙を再送"
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #: model:ir.model.fields,field_description:snailmail.field_snailmail_letter__partner_id
@@ -5009,7 +5041,11 @@ msgid "Send your customer invoices and follow-up reports by post, worldwide."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "顧客請求書とフォローアップレポートを世界中に郵送しましょう。"
+=======
+msgstr "請求書や督促レポートを、世界中のお客様に郵送で送付できます。"
+>>>>>>> upstream/18.0
 =======
 msgstr "請求書や督促レポートを、世界中のお客様に郵送で送付できます。"
 >>>>>>> upstream/18.0
@@ -5236,6 +5272,7 @@ msgstr "エラー中のSnailmailメッセージ"
 #. module: snailmail
 #: model:ir.actions.server,name:snailmail.snailmail_print_ir_actions_server
 msgid "Snailmail: process letters queue"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6205,6 +6242,9 @@ msgstr "Snailmail：送信予約済みレターの処理"
 =======
 msgstr "Snailmail：送信予約済みレターの処理"
 >>>>>>> upstream/18.0
+=======
+msgstr "Snailmail：送信予約済みレターの処理"
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #: model:iap.service,unit_name:snailmail.iap_service_snailmail
@@ -6260,6 +6300,7 @@ msgstr "宛先の住所が不完全です。"
 #. odoo-python
 #: code:addons/snailmail/models/snailmail_letter.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6448,6 +6489,8 @@ msgstr "レターの添付ファイルを送信できませんでした。内容
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "The attachment of the letter could not be sent. Please check its content and "
 "contact the support if the problem persists."
 msgstr ""
@@ -6514,6 +6557,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6719,7 +6765,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "顧客の住所はまだ完成されていません。こちらから住所を更新して、再度手紙を送ってください。"
+=======
+msgstr ""
+"顧客の住所はまだ完成されていません。こちらから住所を更新して、再度手紙を送っ"
+"てください。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "顧客の住所はまだ完成されていません。こちらから住所を更新して、再度手紙を送っ"
@@ -7103,10 +7155,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The letter could not be sent due to insufficient credits on your IAP "
 "account."
 msgstr "IAPアカウントのクレジットが不十分なため、レターを送信することができませんでした。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7294,6 +7349,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7515,7 +7573,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "'auto_comment': generated by automated notification mechanism e.g. acknowledgment\n"
+=======
+"'auto_comment': generated by automated notification mechanism e.g. "
+"acknowledgment\n"
+>>>>>>> upstream/18.0
 =======
 "'auto_comment': generated by automated notification mechanism e.g. "
 "acknowledgment\n"
@@ -7830,11 +7893,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "comment': ディスカッションやコンポーザーなどのユーザー入力によって生成されます\n"
 "email_outgoing': メーリングによって生成されたもの\n"
 "notification」: トラッキングメッセージなど、システムによって生成されます。\n"
 "auto_comment': 自動通知メカニズム（acknowledgementなど）によって生成されます。\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8024,6 +8090,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8216,12 +8285,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If not, it will got in state 'Error' and the error message will be displayed in the field 'Error Message'."
 msgstr ""
 "レターが作成されると、ステータスは'保留'になります。\n"
 "レターが正しく送信されると、ステータスは'送信済'になり、\n"
 "そうでない場合は、'エラー'ステータスになり、エラーメッセージが'エラーメッセージ'フィールドに表示されます。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8412,6 +8484,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8605,8 +8680,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "このサービス用に登録されたIAPアカウントがありません。<br>無料クレジットを申請するには<a href=%s "
 "target=\"new\">iap.odoo.com</a>に行って下さい。"
+=======
+"このサービス用に登録されたIAPアカウントがありません。<br>無料クレジットを申請"
+"するには<a href=%s target=\"new\">iap.odoo.com</a>に行って下さい。"
+>>>>>>> upstream/18.0
 =======
 "このサービス用に登録されたIAPアカウントがありません。<br>無料クレジットを申請"
 "するには<a href=%s target=\"new\">iap.odoo.com</a>に行って下さい。"

@@ -55,6 +55,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* phone_validation
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1061,6 +1062,9 @@
 =======
 # * phone_validation
 >>>>>>> upstream/18.0
+=======
+# * phone_validation
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2025
@@ -1127,6 +1131,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1139,6 +1144,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# "Tony Ng (ngto)" <ngto@odoo.com>, 2026.
 >>>>>>> upstream/18.0
 =======
 # "Tony Ng (ngto)" <ngto@odoo.com>, 2026.
@@ -1309,6 +1317,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2484,6 +2493,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2026-01-10 09:08+0000\n"
 "Last-Translator: \"Tony Ng (ngto)\" <ngto@odoo.com>\n"
@@ -2543,6 +2554,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2717,6 +2731,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2731,6 +2746,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
+=======
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 =======
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.14.3\n"
@@ -3207,7 +3226,10 @@ msgstr "已封存"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3886,6 +3908,9 @@ msgstr "您確定要將該電話號碼從黑名單中刪除嗎?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4448,7 +4473,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "已封鎖，因為 %(user_name)s（#%(user_id)s）已刪除客戶頁面帳號 %(portal_user_name)s"
+=======
+msgstr ""
+"已封鎖，因為 %(user_name)s（#%(user_id)s）已刪除客戶頁面帳號 %"
+"(portal_user_name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "已封鎖，因為 %(user_name)s（#%(user_id)s）已刪除客戶頁面帳號 %"
@@ -4793,6 +4824,7 @@ msgstr "顯示名稱"
 msgid ""
 "Field used to store sanitized phone number. Helps speeding up searches and "
 "comparisons."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5550,6 +5582,9 @@ msgstr "此欄位用於儲存已清理格式的電話號碼，有助加快資料
 =======
 msgstr "此欄位用於儲存已清理格式的電話號碼，有助加快資料搜尋及比對。"
 >>>>>>> upstream/18.0
+=======
+msgstr "此欄位用於儲存已清理格式的電話號碼，有助加快資料搜尋及比對。"
+>>>>>>> upstream/18.0
 
 #. module: phone_validation
 #: model:ir.model.fields,field_description:phone_validation.field_mail_thread_phone__message_follower_ids
@@ -5590,6 +5625,7 @@ msgstr "勾選代表有訊息發生傳送錯誤。"
 #. module: phone_validation
 #: model:ir.model.fields,help:phone_validation.field_mail_thread_phone__phone_sanitized_blacklisted
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5778,6 +5814,8 @@ msgstr "如果已清理的電話號碼在黑名單中，則該聯絡人將不會
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "If the sanitized phone number is on the blacklist, the contact won't receive "
 "mass mailing sms anymore, from any list"
 msgstr ""
@@ -5843,6 +5881,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6059,7 +6100,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "指示列入黑名單的已清理電話號碼是否為手機號碼。當模型中同時存在手機和電話欄位時，有助於區分哪個號碼被列入黑名單。"
+=======
+msgstr ""
+"指示列入黑名單的已清理電話號碼是否為手機號碼。當模型中同時存在手機和電話欄位"
+"時，有助於區分哪個號碼被列入黑名單。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "指示列入黑名單的已清理電話號碼是否為手機號碼。當模型中同時存在手機和電話欄位"
@@ -6439,7 +6486,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "指示列入黑名單的已清理電話號碼是否為電話號碼。當模型中同時存在手機和電話欄位時，有助於區分哪個號碼被列入黑名單。"
+=======
+msgstr ""
+"指示列入黑名單的已清理電話號碼是否為電話號碼。當模型中同時存在手機和電話欄位"
+"時，有助於區分哪個號碼被列入黑名單。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "指示列入黑名單的已清理電話號碼是否為電話號碼。當模型中同時存在手機和電話欄位"
@@ -6945,7 +6998,11 @@ msgid "Sanitized Number"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "消毒數量"
+=======
+msgstr "已清理格式號碼"
+>>>>>>> upstream/18.0
 =======
 msgstr "已清理格式號碼"
 >>>>>>> upstream/18.0
@@ -7360,7 +7417,10 @@ msgstr "使用者"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8041,6 +8101,9 @@ msgstr "你沒有權限將電話號碼從黑名單中移除。請聯絡你的系
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

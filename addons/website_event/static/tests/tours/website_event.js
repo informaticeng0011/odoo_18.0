@@ -254,6 +254,7 @@ function websiteCreateEventTourSteps() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         }), {
             // Wait until the drag and drop is resolved (causing a history step)
             // before clicking save.
@@ -267,6 +268,10 @@ function websiteCreateEventTourSteps() {
         {
             trigger: ":iframe body:not(.editor_enable)",
         },
+=======
+        }),
+        ...clickOnSave(),
+>>>>>>> upstream/18.0
 =======
         }),
         ...clickOnSave(),
@@ -1341,7 +1346,10 @@ function websiteEditEventTourSteps() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2057,6 +2065,9 @@ function websiteEditEventTourSteps() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

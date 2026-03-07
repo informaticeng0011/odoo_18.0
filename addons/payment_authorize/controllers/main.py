@@ -29,9 +29,12 @@ class AuthorizeController(http.Controller):
             raise ValidationError("Authorize.Net: " + _("Received tampered payment request data."))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Make the payment request to Authorize.Net
         tx_sudo = request.env['payment.transaction'].sudo().search([('reference', '=', reference)])
 =======
+=======
+>>>>>>> upstream/18.0
         # Retrieve the transaction
         tx_sudo = request.env['payment.transaction'].sudo().search([('reference', '=', reference)])
         if not tx_sudo:
@@ -46,6 +49,9 @@ class AuthorizeController(http.Controller):
         )
 
         # Make the payment request to Authorize.Net
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         response_content = tx_sudo._authorize_create_transaction_request(opaque_data)
 

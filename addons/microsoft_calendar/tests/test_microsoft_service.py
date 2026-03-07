@@ -37,7 +37,11 @@ from odoo.addons.microsoft_calendar.utils.microsoft_event import MicrosoftEvent
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.microsoft_account.models.microsoft_service import MicrosoftService
+=======
+from odoo.addons.microsoft_account.models.microsoft_service import MicrosoftService, DEFAULT_MICROSOFT_TOKEN_ENDPOINT
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.microsoft_account.models.microsoft_service import MicrosoftService, DEFAULT_MICROSOFT_TOKEN_ENDPOINT
 >>>>>>> upstream/18.0
@@ -624,7 +628,10 @@ class TestMicrosoftService(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -755,6 +762,9 @@ class TestMicrosoftService(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

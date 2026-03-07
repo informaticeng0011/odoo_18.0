@@ -50,6 +50,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import json
 from contextlib import contextmanager
 <<<<<<< HEAD
@@ -638,6 +639,8 @@ class TestPeppolParticipant(TransactionCase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 from base64 import b64encode
 
 from odoo import Command
@@ -656,6 +659,10 @@ from odoo.exceptions import ValidationError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tests.form import Form
+>>>>>>> upstream/18.0
 =======
 from odoo.tests.form import Form
 >>>>>>> upstream/18.0
@@ -759,6 +766,9 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -867,6 +877,7 @@ class TestPeppolParticipant(PeppolConnectorCommon):
     def setUpClass(cls):
         super().setUpClass()
         cls.env['ir.config_parameter'].sudo().set_param('account_peppol.edi.mode', 'test')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2761,6 +2772,8 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         cls.private_key = cls.env['certificate.key'].create({
             'name': 'Test key PEPPOL',
             'content': b64encode(file_open('account_peppol/tests/assets/private_key.pem', 'rb').read()),
@@ -2832,6 +2845,9 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2946,6 +2962,7 @@ class TestPeppolParticipant(PeppolConnectorCommon):
             'proxy_type': 'peppol',
             'edi_mode': 'demo',
         }])
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3737,6 +3754,8 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         with self._mock_requests([
             self._mock_lookup_participant(),
         ]):
@@ -3793,6 +3812,9 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3905,6 +3927,7 @@ class TestPeppolParticipant(PeppolConnectorCommon):
         with self.assertRaises(ValidationError), self.cr.savepoint():
             wizard.button_peppol_sender_registration()
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4547,6 +4570,8 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def test_register_participant_for_the_first_time_as_sender_then_receiver_then_unregister(self):
         # not_register -> sender
         with self._mock_requests([
@@ -4617,6 +4642,10 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            self._mock_participant_status('receiver'),
+>>>>>>> upstream/18.0
 =======
             self._mock_participant_status('receiver'),
 >>>>>>> upstream/18.0
@@ -4889,6 +4918,10 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            self._mock_participant_status('sender'),
+>>>>>>> upstream/18.0
 =======
             self._mock_participant_status('sender'),
 >>>>>>> upstream/18.0
@@ -5159,6 +5192,10 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            self._mock_participant_status('sender'),
+>>>>>>> upstream/18.0
 =======
             self._mock_participant_status('sender'),
 >>>>>>> upstream/18.0
@@ -5355,6 +5392,7 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5375,6 +5413,8 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5521,6 +5561,7 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5577,6 +5618,8 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5658,6 +5701,7 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5684,4 +5728,58 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_do_not_reset_peppol_endpoint(self):
+        be_country = self.env.ref('base.be')
+        self.env.company.write({
+            'country_id': be_country.id,
+            'vat': 'BE0477472701',
+        })
+        with self._mock_requests([
+            self._mock_create_user(),
+            self._mock_lookup_participant(),
+            self._mock_register_sender(),
+        ]):
+            wizard = self.env['peppol.registration'].create({
+                'peppol_eas': '0088',
+                'peppol_endpoint': '88888888888',
+                'phone_number': '+32483123456',
+                'contact_email': 'yourcompany@test.example.com',
+            })
+            wizard.button_register_peppol_participant()
+        with self._mock_requests([self._mock_participant_status('sender')]):
+            self.env.company.account_edi_proxy_client_ids._peppol_get_participant_status()
+        self.env.company.vat = 'BE0475646428'
+        self.assertRecordValues(self.env.company.partner_id, [{
+            'peppol_eas': '0088',
+            'peppol_endpoint': '88888888888',
+        }])
+
+        with Form(self.env.company.partner_id) as partner:
+            # Test with NewID record
+            partner.vat = 'BE0477472701'
+        self.assertRecordValues(self.env.company.partner_id, [{
+            'peppol_eas': '0088',
+            'peppol_endpoint': '88888888888',
+        }])
+
+        company_partner = self.env.company.partner_id
+
+        other_company = self.env['res.company'].create({'name': 'new company 3', 'country_id': be_country.id})
+        self.env = self.env(context=dict(allowed_company_ids=other_company.ids))
+        # Do not raise even if no access to a registered company
+
+        company_partner.vat = 'BE0477472701'
+        self.assertRecordValues(company_partner, [{
+            'peppol_eas': '0088',
+            'peppol_endpoint': '88888888888',
+        }])
+
+        self.env.company.vat = 'BE0475646428'
+        self.assertRecordValues(self.env.company.partner_id, [{
+            'peppol_eas': '0208',
+            'peppol_endpoint': '0475646428',
+        }])
 >>>>>>> upstream/18.0

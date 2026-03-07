@@ -215,7 +215,11 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return move.l10n_jo_edi_is_needed and move.l10n_jo_edi_state != 'sent'
+=======
+        return move.l10n_jo_edi_is_needed and move.l10n_jo_edi_state not in move._l10n_jo_edi_state_sent_options()
+>>>>>>> upstream/18.0
 =======
         return move.l10n_jo_edi_is_needed and move.l10n_jo_edi_state not in move._l10n_jo_edi_state_sent_options()
 >>>>>>> upstream/18.0
@@ -876,6 +880,7 @@ class AccountMoveSend(models.AbstractModel):
         # EXTENDS 'account'
         return super()._get_invoice_extra_attachments(move) + move.l10n_jo_edi_xml_attachment_id
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1934,6 +1939,8 @@ class AccountMoveSend(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def _get_placeholder_mail_attachments_data(self, move, invoice_edi_format=None, extra_edis=None):
         if extra_edis is None:
             extra_edis = {}
@@ -2114,6 +2121,9 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

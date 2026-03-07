@@ -98,7 +98,11 @@ export class TodoFormController extends FormControllerWithHTMLExpander {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (this.projectAccess) {
+=======
+        if (this.projectAccess && !this.model.root.data.project_id) {
+>>>>>>> upstream/18.0
 =======
         if (this.projectAccess && !this.model.root.data.project_id) {
 >>>>>>> upstream/18.0

@@ -3,6 +3,10 @@ from dateutil.relativedelta import relativedelta
 from pytz import UTC
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.exceptions import UserError
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import UserError
 >>>>>>> upstream/18.0
@@ -36,7 +40,10 @@ class TestMicrosoftEvent(TestCommon):
         self.assertEqual(mapped._events[event_id]["_odoo_id"], self.simple_event.id)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_forbid_edit_outlook_recurring_event(self):
         """
         Test that no user can edit a recurring event imported from Outlook
@@ -97,6 +104,9 @@ class TestMicrosoftEvent(TestCommon):
             })
             self.assertEqual(recurring_event.name, f'Changed by {user.name}')
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_map_an_event_using_global_id(self):
         # arrange

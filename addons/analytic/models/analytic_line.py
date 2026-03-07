@@ -245,10 +245,13 @@ class AnalyticPlanFields(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _get_analytic_distribution(self):
         account_ids = self._get_analytic_accounts().ids
         return {} if not account_ids else {",".join(str(account_id) for account_id in account_ids): 100}
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -798,6 +801,9 @@ class AnalyticPlanFields(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1423,7 +1429,11 @@ class AnalyticPlanFields(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if account_node is not None or account_filter_node is not None:
+=======
+            if account_node is not None:
+>>>>>>> upstream/18.0
 =======
             if account_node is not None:
 >>>>>>> upstream/18.0
@@ -2263,9 +2273,12 @@ class AnalyticPlanFields(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if account_filter_node is not None:
                         account_filter_node.addnext(E.filter(name=fname, context=f"{{'group_by': '{fname}'}}"))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2894,6 +2907,9 @@ class AnalyticPlanFields(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3551,7 +3567,10 @@ class AccountAnalyticLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4060,6 +4079,11 @@ class AccountAnalyticLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if not final_distribution:
+                continue
+>>>>>>> upstream/18.0
 =======
             if not final_distribution:
                 continue
@@ -4799,6 +4823,9 @@ class AccountAnalyticLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

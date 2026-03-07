@@ -129,7 +129,11 @@ export class ChatBotService {
             return "";
         }
         if (this.chatbot.completed) {
+<<<<<<< HEAD
             return _t("Conversation ended...");
+=======
+            return _t("This conversation has ended.");
+>>>>>>> upstream/18.0
         }
         if (
             this.chatbot.currentStep?.type === "question_selection" &&

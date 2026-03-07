@@ -213,6 +213,7 @@ from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools import cleanup_xml_node
 =======
 from odoo.tools import file_open
@@ -309,6 +310,9 @@ from odoo.tools import file_open
 >>>>>>> upstream/18.0
 =======
 from odoo.tools import file_open
+>>>>>>> upstream/18.0
+=======
+from odoo.tools import file_open, cleanup_xml_node
 >>>>>>> upstream/18.0
 =======
 from odoo.tools import file_open, cleanup_xml_node
@@ -1114,6 +1118,10 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'ref': "MY-REF",
+>>>>>>> upstream/18.0
 =======
             'ref': "MY-REF",
 >>>>>>> upstream/18.0
@@ -2038,8 +2046,13 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(errors, set())
         self.assertTrue(file)
+=======
+        self.assertFalse(errors)
+
+>>>>>>> upstream/18.0
 =======
         self.assertFalse(errors)
 
@@ -3151,7 +3164,10 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3777,6 +3793,9 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4409,7 +4428,13 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         file, _errors = basic_invoice._l10n_my_edi_generate_invoice_xml()
+=======
+        file, errors = basic_invoice._l10n_my_edi_generate_invoice_xml()
+        self.assertFalse(errors)
+
+>>>>>>> upstream/18.0
 =======
         file, errors = basic_invoice._l10n_my_edi_generate_invoice_xml()
         self.assertFalse(errors)
@@ -5685,7 +5710,10 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6311,6 +6339,9 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6954,7 +6985,13 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         file, _errors = basic_invoice._l10n_my_edi_generate_invoice_xml()
+=======
+        file, errors = basic_invoice._l10n_my_edi_generate_invoice_xml()
+        self.assertFalse(errors)
+
+>>>>>>> upstream/18.0
 =======
         file, errors = basic_invoice._l10n_my_edi_generate_invoice_xml()
         self.assertFalse(errors)
@@ -8229,7 +8266,11 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'CustomsImportForm',
+=======
+            'K2',
+>>>>>>> upstream/18.0
 =======
             'K2',
 >>>>>>> upstream/18.0
@@ -9129,7 +9170,10 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9755,6 +9799,9 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10399,7 +10446,13 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         file, _errors = credit_note._l10n_my_edi_generate_invoice_xml()
+=======
+        file, errors = credit_note._l10n_my_edi_generate_invoice_xml()
+        self.assertFalse(errors)
+
+>>>>>>> upstream/18.0
 =======
         file, errors = credit_note._l10n_my_edi_generate_invoice_xml()
         self.assertFalse(errors)
@@ -11668,7 +11721,10 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12294,6 +12350,9 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12921,6 +12980,7 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         basic_invoice = self.init_invoice(
             'out_invoice', currency=self.other_currency, products=self.product_a
         )
@@ -12936,6 +12996,8 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
         file = etree.tostring(cleanup_xml_node(xml_content), xml_declaration=True, encoding='UTF-8')
         root = etree.fromstring(file)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13589,6 +13651,9 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14216,7 +14281,10 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14842,6 +14910,9 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15475,9 +15546,14 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(errors, set())
         self.assertTrue(file)
         # The file is working! Now we assert that the foreign customer information is in there.
+=======
+        self.assertFalse(errors)
+
+>>>>>>> upstream/18.0
 =======
         self.assertFalse(errors)
 
@@ -16533,7 +16609,10 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17159,6 +17238,9 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17801,7 +17883,11 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertTrue(file)
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -18674,6 +18760,7 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -18702,6 +18789,8 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19327,6 +19416,9 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19954,11 +20046,14 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         bill = self.init_invoice(
             'in_invoice', products=self.product_a
         )
         bill.write({
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20592,6 +20687,9 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21220,7 +21318,13 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         file, _errors = bill._l10n_my_edi_generate_invoice_xml()
+=======
+        file, errors = bill._l10n_my_edi_generate_invoice_xml()
+        self.assertFalse(errors)
+
+>>>>>>> upstream/18.0
 =======
         file, errors = bill._l10n_my_edi_generate_invoice_xml()
         self.assertFalse(errors)
@@ -22477,7 +22581,10 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23103,6 +23210,9 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23735,7 +23845,13 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         file, _errors = invoice._l10n_my_edi_generate_invoice_xml()
+=======
+        file, errors = invoice._l10n_my_edi_generate_invoice_xml()
+        self.assertFalse(errors)
+
+>>>>>>> upstream/18.0
 =======
         file, errors = invoice._l10n_my_edi_generate_invoice_xml()
         self.assertFalse(errors)
@@ -25004,6 +25120,7 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25032,6 +25149,8 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25657,6 +25776,7 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25721,6 +25841,8 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26266,6 +26388,7 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26378,6 +26501,8 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26793,6 +26918,7 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27031,6 +27157,42 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+    def test_13_prepaid_amount_on_debit_credit_refund_notes(self):
+        """
+        Ensure that the prepaid amount is 0 and payable_amount is invoice.amount_total
+        """
+        basic_invoice = self.init_invoice('out_invoice', currency=self.other_currency, amounts=[2000],
+                                          post=True)
+
+        action = basic_invoice.action_reverse()
+        reversal_wizard = self.env[action['res_model']].with_context(
+            active_ids=basic_invoice.ids,
+            active_model='account.move',
+            default_journal_id=basic_invoice.journal_id.id,
+        ).create({})
+        action = reversal_wizard.reverse_moves()
+        credit_note = self.env['account.move'].browse(action['res_id'])
+        credit_note.action_post()
+
+        file, _errors = credit_note._l10n_my_edi_generate_invoice_xml()
+        root = etree.fromstring(file)
+
+        # Check that the prepaid amount is 0
+        self._assert_node_values(
+            root,
+            'cac:PrepaidPayment/cbc:PaidAmount',
+            '0.00',
+        )
+
+        # Check that the payable amount is the total amount of the invoice
+        self._assert_node_values(
+            root,
+            'cac:LegalMonetaryTotal/cbc:PayableAmount',
+            '2000.00',
+        )
+
 >>>>>>> upstream/18.0
     def _assert_node_values(self, root, node_path, text, attributes=None):
         node = root.xpath(node_path, namespaces=NS_MAP)
