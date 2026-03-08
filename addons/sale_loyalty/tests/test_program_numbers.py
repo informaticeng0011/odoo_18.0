@@ -766,7 +766,10 @@ class TestSaleCouponProgramNumbers(TestSaleCouponNumbersCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1303,6 +1306,9 @@ class TestSaleCouponProgramNumbers(TestSaleCouponNumbersCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2429,7 +2435,10 @@ class TestSaleCouponProgramNumbers(TestSaleCouponNumbersCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2727,6 +2736,9 @@ class TestSaleCouponProgramNumbers(TestSaleCouponNumbersCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3620,7 +3632,10 @@ class TestSaleCouponProgramNumbers(TestSaleCouponNumbersCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4185,6 +4200,7 @@ class TestSaleCouponProgramNumbers(TestSaleCouponNumbersCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4537,6 +4553,8 @@ class TestSaleCouponProgramNumbers(TestSaleCouponNumbersCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
     def test_rounding_program_application(self):
         """Check that the loyalty program is applied with the currency settings of the order."""
         self.env.company = self.env['res.company'].create({
@@ -4596,6 +4614,9 @@ class TestSaleCouponProgramNumbers(TestSaleCouponNumbersCommon):
         self.assertEqual(order.reward_amount, -0.04, '10% promotion should be applied')
         self.assertEqual(order.amount_total, 0.36, '10% promotion should be applied')
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_apply_order_and_specific_discounts(self):
         """Ensure you can apply a full-order discount, and then a product-specific discount."""

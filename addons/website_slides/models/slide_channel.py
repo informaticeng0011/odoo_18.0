@@ -995,6 +995,10 @@ class Channel(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                ("rating_ids", "!=", False),
+>>>>>>> upstream/18.0
 =======
                 ("rating_ids", "!=", False),
 >>>>>>> upstream/18.0
@@ -2025,6 +2029,7 @@ class Channel(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -2381,6 +2386,8 @@ class Channel(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def _get_access_action(self, access_uid=None, force_website=False):
         """ Instead of the classic form view, redirect non-internal users to website
         if it is published. """
@@ -2400,6 +2407,9 @@ class Channel(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2613,6 +2623,9 @@ class Channel(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3368,6 +3381,7 @@ class Channel(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
     def _mail_get_partner_fields(self, introspect_fields=False):
@@ -3779,6 +3793,8 @@ class Channel(models.Model):
         return []
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4314,6 +4330,9 @@ class Channel(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

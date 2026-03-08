@@ -175,11 +175,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { click, contains, start, startServer } from "@mail/../tests/mail_test_helpers";
 import { test } from "@odoo/hoot";
 import { Command, serverState } from "@web/../tests/web_test_helpers";
 import { defineLivechatModels } from "./livechat_test_helpers";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -721,6 +724,9 @@ import { rpc } from "@web/core/network/rpc";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1278,7 +1284,10 @@ test("closing a chat window with no message from admin side unpins it", async ()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1857,6 +1866,9 @@ test("Show livechats with new message in chat hub even when in discuss app)", as
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

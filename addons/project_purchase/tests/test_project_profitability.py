@@ -931,7 +931,10 @@ class TestProjectPurchaseProfitability(TestProjectProfitabilityCommon, TestPurch
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1527,6 +1530,9 @@ class TestProjectPurchaseProfitability(TestProjectProfitabilityCommon, TestPurch
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

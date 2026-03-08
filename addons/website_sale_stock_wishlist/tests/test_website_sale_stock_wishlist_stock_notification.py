@@ -61,6 +61,12 @@ class TestStockNotificationWishlist(HttpCase):
         quants.action_apply_inventory()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        website = self.env['website'].get_current_website()
+        website.company_id.partner_id.email = "test@test.com"
+
+>>>>>>> upstream/18.0
 =======
         website = self.env['website'].get_current_website()
         website.company_id.partner_id.email = "test@test.com"

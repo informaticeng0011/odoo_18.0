@@ -24,6 +24,10 @@ from odoo import api, fields, models
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.exceptions import ValidationError
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import ValidationError
 >>>>>>> upstream/18.0
@@ -159,9 +163,12 @@ class WebsiteControllerPage(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for record in self:
             self.env[record.model_id.model].check_access('read')
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -233,6 +240,9 @@ class WebsiteControllerPage(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

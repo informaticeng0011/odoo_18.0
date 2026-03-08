@@ -186,7 +186,11 @@ from odoo.tests.common import users
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @tagged('website_visitor')
+=======
+@tagged('website_visitor', 'is_query_count')
+>>>>>>> upstream/18.0
 =======
 @tagged('website_visitor', 'is_query_count')
 >>>>>>> upstream/18.0

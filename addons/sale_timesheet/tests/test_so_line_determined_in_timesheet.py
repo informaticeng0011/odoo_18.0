@@ -237,7 +237,10 @@ class TestSoLineDeterminedInTimesheet(TestCommonSaleTimesheet):
         # 6) Check if the task and timesheet has no SOL.
         self.assertFalse(timesheet.so_line, 'No SOL should be linked to the timesheet because the project is non billable')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_sol_determined_with_multi_company_and_billing_rate(self):
         """ Test the sol give to the timesheet when the pricing type in the project is employee rate
@@ -325,4 +328,7 @@ class TestSoLineDeterminedInTimesheet(TestCommonSaleTimesheet):
             'project_id': so_lines[0].project_id.id,
         })
         self.assertEqual(timesheet.so_line.id, so_lines[1].id)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -4,6 +4,10 @@ from pytz import UTC
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.exceptions import UserError
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import UserError
 >>>>>>> upstream/18.0
@@ -41,7 +45,10 @@ class TestMicrosoftEvent(TestCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_forbid_edit_outlook_recurring_event(self):
@@ -105,6 +112,9 @@ class TestMicrosoftEvent(TestCommon):
             self.assertEqual(recurring_event.name, f'Changed by {user.name}')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

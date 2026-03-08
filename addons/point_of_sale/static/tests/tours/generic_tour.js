@@ -111,6 +111,10 @@ import * as PaymentScreen from "@point_of_sale/../tests/tours/utils/payment_scre
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import * as ReceiptScreen from "@point_of_sale/../tests/tours/utils/receipt_screen_util";
+>>>>>>> upstream/18.0
 =======
 import * as ReceiptScreen from "@point_of_sale/../tests/tours/utils/receipt_screen_util";
 >>>>>>> upstream/18.0
@@ -564,6 +568,7 @@ registry.category("web_tour.tours").add("generic_localization_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ProductScreen.closePos(),
             Dialog.confirm("Close Register"),
             {
@@ -572,6 +577,8 @@ registry.category("web_tour.tours").add("generic_localization_tour", {
                 expectUnloadPage: true,
             },
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -903,6 +910,9 @@ registry.category("web_tour.tours").add("generic_localization_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

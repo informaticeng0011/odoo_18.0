@@ -64,12 +64,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Fernanda Alvarez, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -261,6 +264,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -390,6 +396,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -588,6 +595,9 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
+=======
+"POT-Creation-Date: 2026-03-06 18:39+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Fernanda Alvarez, 2024\n"
 "Language-Team: Spanish (Latin America) (https://app.transifex.com/odoo/teams/"
@@ -660,6 +670,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -852,6 +865,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<select id=\"o_authorize_account_type\" required=\"\" class=\"form-select\">\n"
 "                        <option value=\"checking\">Personal Checking</option>\n"
 "                        <option value=\"savings\">Personal Savings</option>\n"
@@ -863,6 +877,8 @@ msgstr ""
 "                        <option value=\"savings\">Ahorros personales</option>\n"
 "                        <option value=\"businessChecking\">Cheques de la empresa</option>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1066,6 +1082,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1338,8 +1357,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "No fue posible obtener los detalles de la transacción. (Código de error: "
 "%(error_code)s; detalles del error: %(error_message)s) "
+=======
+"No fue posible obtener los detalles de la transacción. (Código de error: %"
+"(error_code)s; detalles del error: %(error_message)s) "
+>>>>>>> upstream/18.0
 =======
 "No fue posible obtener los detalles de la transacción. (Código de error: %"
 "(error_code)s; detalles del error: %(error_message)s) "
@@ -1727,7 +1751,12 @@ msgstr "Error al procesar el pago"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Received data with status code \"%(status)s\" and error code \"%(error)s\""
+=======
+msgid ""
+"Received data with status code \"%(status)s\" and error code \"%(error)s\""
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "Received data with status code \"%(status)s\" and error code \"%(error)s\""
@@ -2084,8 +2113,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "La transacción no está en un estado en el que se pueda reembolsar. (Estado: "
 "%(status)s, detalles: %(message)s)"
+=======
+"La transacción no está en un estado en el que se pueda reembolsar. (Estado: %"
+"(status)s, detalles: %(message)s)"
+>>>>>>> upstream/18.0
 =======
 "La transacción no está en un estado en el que se pueda reembolsar. (Estado: %"
 "(status)s, detalles: %(message)s)"
@@ -2414,8 +2448,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "La referencia única para la combinación de contacto y token en el backend de"
 " Authorize.Net."
+=======
+"La referencia única para la combinación de contacto y token en el backend de "
+"Authorize.Net."
+>>>>>>> upstream/18.0
 =======
 "La referencia única para la combinación de contacto y token en el backend de "
 "Authorize.Net."
@@ -2676,6 +2715,15 @@ msgid "This action cannot be performed while the provider is disabled."
 msgstr "Esta acción no se puede realizar si el proveedor está deshabilitado."
 
 #. module: payment_authorize
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/payment_authorize/controllers/main.py:0
+msgid "Transaction not found."
+msgstr ""
+
+#. module: payment_authorize
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:payment_authorize.inline_form
 msgid "YY"
 msgstr "YY"

@@ -407,7 +407,10 @@ class WebsitePublishedMixin(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -940,6 +943,9 @@ class WebsitePublishedMixin(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1602,7 +1608,11 @@ class WebsiteSearchableMixin(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         count = model.search_count(domain)
+=======
+        count = model.search_count(domain) if limit and limit == len(results) else len(results)
+>>>>>>> upstream/18.0
 =======
         count = model.search_count(domain) if limit and limit == len(results) else len(results)
 >>>>>>> upstream/18.0

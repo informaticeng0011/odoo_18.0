@@ -233,7 +233,10 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         #pylint: disable=sql-injection        
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -688,6 +691,7 @@ class AccountMoveLine(models.Model):
             tax_line_4      5                                                       275         base_line_2/3
             */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1504,6 +1508,9 @@ class AccountMoveLine(models.Model):
 =======
             WITH base_tax_line_mapping AS (
 >>>>>>> upstream/18.0
+=======
+            WITH base_tax_line_mapping AS (
+>>>>>>> upstream/18.0
 
                 /*
                 Create the mapping of each tax lines with their corresponding base lines.
@@ -1558,8 +1565,13 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         OR
                         sign(account_move_line.balance) = sign(base_line.balance * tax.amount * tax_rep.factor_percent)
+=======
+                        OR (tax.tax_exigibility = 'on_payment' AND tax.cash_basis_transition_account_id IS NOT NULL)
+                        OR sign(account_move_line.balance) = sign(base_line.balance * tax.amount * tax_rep.factor_percent)
+>>>>>>> upstream/18.0
 =======
                         OR (tax.tax_exigibility = 'on_payment' AND tax.cash_basis_transition_account_id IS NOT NULL)
                         OR sign(account_move_line.balance) = sign(base_line.balance * tax.amount * tax_rep.factor_percent)
@@ -1817,7 +1829,11 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         (tax.analytic IS NULL OR tax.analytic = FALSE)
+=======
+                        (tax.analytic IS NOT TRUE AND tax_rep.use_in_tax_closing IS TRUE)
+>>>>>>> upstream/18.0
 =======
                         (tax.analytic IS NOT TRUE AND tax_rep.use_in_tax_closing IS TRUE)
 >>>>>>> upstream/18.0
@@ -2552,6 +2568,7 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 LEFT JOIN affecting_base_tax_ids tax_line_tax_ids ON tax_line_tax_ids.id = account_move_line.id
                 JOIN affecting_base_tax_ids base_line_tax_ids ON base_line_tax_ids.id = base_line.id
                 WHERE account_move_line.tax_repartition_line_id IS NOT NULL
@@ -2559,6 +2576,8 @@ class AccountMoveLine(models.Model):
                     AND (
                         -- keeping only the rows from affecting_base_tax_lines that end with the same taxes applied (see comment in affecting_base_tax_ids)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3184,6 +3203,9 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3958,6 +3980,7 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                     tax_line.analytic_distribution,
 >>>>>>> upstream/18.0
@@ -3987,6 +4010,8 @@ class AccountMoveLine(models.Model):
 >>>>>>> upstream/18.0
 =======
                     tax_line.analytic_distribution,
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4599,6 +4624,7 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 sub.analytic_distribution,
 >>>>>>> upstream/18.0
@@ -4628,6 +4654,8 @@ class AccountMoveLine(models.Model):
 >>>>>>> upstream/18.0
 =======
                 sub.analytic_distribution,
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

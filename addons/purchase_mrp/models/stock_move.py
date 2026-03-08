@@ -2,7 +2,13 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import _, models, fields
+=======
+from collections import defaultdict
+
+from odoo import _, api, models, fields
+>>>>>>> upstream/18.0
 =======
 from collections import defaultdict
 
@@ -75,7 +81,11 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         cost_share = self.bom_line_id._get_cost_share()
+=======
+        cost_share = self.cost_share / 100
+>>>>>>> upstream/18.0
 =======
         cost_share = self.cost_share / 100
 >>>>>>> upstream/18.0
@@ -262,7 +272,10 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -340,6 +353,7 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -386,6 +400,8 @@ class StockMove(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     @api.model
     def _round_in_svl_value(self, svl_vals_list):
@@ -409,4 +425,7 @@ class StockMove(models.Model):
                 val['value'] = currency.round(val['value'] + rounding_error)
                 val['remaining_value'] = val['value']
         return svl_vals_list
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

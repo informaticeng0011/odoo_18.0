@@ -31,7 +31,10 @@ class BaseAutomationTestUi(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -87,6 +90,9 @@ class BaseAutomationTestUi(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -291,7 +297,11 @@ class BaseAutomationTestUi(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             del context["active_test"]
+=======
+            del context["search_default_inactive"]
+>>>>>>> upstream/18.0
 =======
             del context["search_default_inactive"]
 >>>>>>> upstream/18.0

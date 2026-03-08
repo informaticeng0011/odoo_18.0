@@ -177,6 +177,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sale_gelato
 # 
 # Translators:
@@ -849,6 +850,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * sale_gelato
 #
 # Translators:
@@ -1033,6 +1036,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1175,6 +1179,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
@@ -1495,6 +1502,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2636,6 +2644,11 @@ msgstr ""
 "PO-Revision-Date: 2025-11-27 13:55+0000\n"
 "Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@odoo.com>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2025-11-27 13:55+0000\n"
+"Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@odoo.com>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Catalan <https://translate.odoo.com/projects/odoo-18/"
 "sale_gelato/ca/>\n"
 "Language: ca\n"
@@ -2643,6 +2656,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3271,12 +3285,16 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: sale_gelato
 #: model:mail.template,body_html:sale_gelato.order_status_update
 msgid ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "                <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3721,6 +3739,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                    Hello <t t-out=\"object.partner_id.name or ''\">Brandon "
 "Freeman</t>,<br/><br/>\n"
 "                    <!-- Order in transit body -->\n"
@@ -3730,6 +3750,7 @@ msgid ""
 "                        <t t-if=\"len(ctx['tracking_data']) == 1\">\n"
 "                            <t t-set=\"tracking_url\" t-"
 "value=\"list(ctx['tracking_data'].keys())[0]\"/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4444,11 +4465,16 @@ msgid ""
 "                            Your tracking number is <a t-att-"
 "href=\"tracking_url\" t-out=\"ctx['tracking_data'][tracking_url]\"/>.\n"
 >>>>>>> upstream/18.0
+=======
+"                            Your tracking number is <a t-att-"
+"href=\"tracking_url\" t-out=\"ctx['tracking_data'][tracking_url]\"/>.\n"
+>>>>>>> upstream/18.0
 "                            <br/><br/>\n"
 "                        </t>\n"
 "                        <t t-else=\"\">\n"
 "                            Your tracking numbers are:\n"
 "                            <ul>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4913,6 +4939,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                <li t-foreach=\"ctx['tracking_data']\" t-"
 "as=\"tracking_url\">\n"
 "                                    <a t-att-href=\"tracking_url\" t-"
@@ -5054,6 +5082,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5481,6 +5512,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        We are glad to inform you that your order has been delivered.\n"
 "                        <br/><br/>\n"
 "                    </t>\n"
@@ -5489,6 +5521,8 @@ msgid ""
 "                        <br/>\n"
 "                        <t t-out=\"object.user_id.name or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5934,6 +5968,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6230,6 +6267,7 @@ msgid ""
 "            </div>\n"
 "        "
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6865,10 +6903,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "                <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "                    Hola, <t t-out=\"object.partner_id.name or ''\">Brandon "
 "Freeman</t>:<br/><br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7239,11 +7280,14 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                    <!-- Order in transit body -->\n"
 "                    <t t-if=\"ctx.get('tracking_data')\">\n"
 "                        Ens complau informar-lo que la seva comanda és en "
 "trànsit.\n"
 "                        <t t-if=\"len(ctx['tracking_data']) == 1\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7539,6 +7583,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                            <t t-set=\"tracking_url\" t-"
 "value=\"list(ctx['tracking_data'].keys())[0]\"/>\n"
 "                            El seu número de seguiment és <a t-att-"
@@ -7605,6 +7651,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7735,6 +7784,7 @@ msgstr ""
 "                        <t t-else=\"\">\n"
 "                            Els seus números de seguiment són:\n"
 "                            <ul>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8185,6 +8235,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                <li t-foreach=\"ctx['tracking_data']\" t-"
 "as=\"tracking_url\">\n"
 "                                    <a t-att-href=\"tracking_url\" t-"
@@ -8251,6 +8303,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8382,6 +8437,7 @@ msgstr ""
 "                    </t>\n"
 "                    <!-- Order delivered body -->\n"
 "                    <t t-if=\"ctx.get('order_delivered')\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8904,6 +8960,10 @@ msgstr ""
 "                        Ens complau informar-lo que la seva comanda ha estat "
 "lliurada.\n"
 >>>>>>> upstream/18.0
+=======
+"                        Ens complau informar-lo que la seva comanda ha estat "
+"lliurada.\n"
+>>>>>>> upstream/18.0
 "                        <br/><br/>\n"
 "                    </t>\n"
 "                    Gràcies,\n"
@@ -9017,6 +9077,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9429,6 +9492,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9908,6 +9974,7 @@ msgstr ""
 #. module: sale_gelato
 #: model_terms:ir.ui.view,arch_db:sale_gelato.product_template_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10536,6 +10603,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<i title=\"All print images are set\" invisible=\"gelato_missing_images\" "
 "class=\"fa fa-check-circle text-success fs-3 me-3\"/>\n"
 "                        <i title=\"Some print images are missing\" "
@@ -10692,6 +10761,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11185,7 +11257,11 @@ msgid "Could not establish the connection to the Gelato API."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "No ha estat possible establir la connexió amb l'API de Gelato."
+>>>>>>> upstream/18.0
 =======
 msgstr "No ha estat possible establir la connexió amb l'API de Gelato."
 >>>>>>> upstream/18.0
@@ -11827,7 +11903,11 @@ msgid "Could not synchronize with Gelato"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "No ha estat possible la sincronització amb Gelato"
+>>>>>>> upstream/18.0
 =======
 msgstr "No ha estat possible la sincronització amb Gelato"
 >>>>>>> upstream/18.0
@@ -12325,7 +12405,11 @@ msgid "Express Delivery"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Enviament exprés"
+>>>>>>> upstream/18.0
 =======
 msgstr "Enviament exprés"
 >>>>>>> upstream/18.0
@@ -12975,7 +13059,11 @@ msgid "Gelato"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gelato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gelato"
 >>>>>>> upstream/18.0
@@ -13481,8 +13569,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Gelato could not proceed with the fulfillment of order %(order_reference)s: "
 "%(gelato_message)s"
+=======
+"Gelato could not proceed with the fulfillment of order %(order_reference)s: %"
+"(gelato_message)s"
+>>>>>>> upstream/18.0
 =======
 "Gelato could not proceed with the fulfillment of order %(order_reference)s: %"
 "(gelato_message)s"
@@ -14310,7 +14403,11 @@ msgid "Product Document"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Document del producte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Document del producte"
 >>>>>>> upstream/18.0
@@ -15107,7 +15204,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15555,6 +15655,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15999,7 +16102,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16499,6 +16605,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

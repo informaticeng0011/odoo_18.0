@@ -105,6 +105,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* pos_hr
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -217,6 +218,10 @@
 #
 >>>>>>> upstream/18.0
 =======
+#
+>>>>>>> upstream/18.0
+=======
+# * pos_hr
 #
 >>>>>>> upstream/18.0
 =======
@@ -778,6 +783,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 =======
 #
@@ -1185,10 +1191,15 @@
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # "Marta (wacm)" <wacm@odoo.com>, 2026.
 >>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# "Marta (wacm)" <wacm@odoo.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1996,10 +2007,18 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-03-05 13:54+0000\n"
+"Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
+"Language-Team: Polish <https://translate.odoo.com/projects/odoo-18/pos_hr/"
+"pl/>\n"
+>>>>>>> upstream/18.0
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2718,11 +2737,21 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
+"(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
+"n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Generator: Weblate 5.16.1\n"
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #: model:ir.model,name:pos_hr.model_report_pos_hr_multi_employee_sales_report
 msgid "A collection of single session reports. One for each employee"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kolekcja raportów z jednej sesji. Po jednym na każdego pracownika."
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #: model_terms:ir.ui.view,arch_db:pos_hr.single_employee_sales_report
@@ -2832,7 +2861,11 @@ msgid "Abigal Peterson"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Abigal Peterson"
+>>>>>>> upstream/18.0
 =======
 msgstr "Abigal Peterson"
 >>>>>>> upstream/18.0
@@ -3153,12 +3186,20 @@ msgstr "Abigal Peterson"
 #. odoo-javascript
 #: code:addons/pos_hr/static/src/overrides/screens/product_screen/order_summary/order_summary.js:0
 msgid "Access Denied"
+<<<<<<< HEAD
 msgstr "Brak dostępu"
+=======
+msgstr "Odmowa dostępu"
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #: model:ir.model.fields,field_description:pos_hr.field_pos_daily_sales_reports_wizard__add_report_per_employee
 msgid "Add a report per each employee"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodaj raport dla każdego pracownika"
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #: model_terms:ir.ui.view,arch_db:pos_hr.pos_config_form_view_inherit
@@ -3269,7 +3310,11 @@ msgid "Advanced rights"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zaawansowane uprawnienia"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zaawansowane uprawnienia"
 >>>>>>> upstream/18.0
@@ -3706,7 +3751,11 @@ msgid "Basic rights"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Podstawowe uprawnienia"
+>>>>>>> upstream/18.0
 =======
 msgstr "Podstawowe uprawnienia"
 >>>>>>> upstream/18.0
@@ -4029,12 +4078,21 @@ msgid ""
 "Can't generate a report per employee! as selected session has no orders "
 "associated with any employee."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Nie można wygenerować raportu wg. pracownika, ponieważ wybrana sesja nie ma "
+"zamówień związanych z żadnym z pracowników."
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #. odoo-javascript
 #: code:addons/pos_hr/static/src/overrides/components/closing_popup/closing_popup.xml:0
 msgid "Cash in/out"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Wpłata/Wypłata"
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #: model:ir.model.fields,field_description:pos_hr.field_pos_order__employee_id
@@ -4048,12 +4106,20 @@ msgstr "Kasjer"
 #. odoo-python
 #: code:addons/pos_hr/models/pos_order.py:0
 msgid "Cashier %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kasjer %s"
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #: model:ir.model.fields,field_description:pos_hr.field_pos_order__cashier
 msgid "Cashier name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Imię kasjera"
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #. odoo-javascript
@@ -4077,7 +4143,11 @@ msgid "Config Settings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ustawienia konfiguracji"
+=======
+msgstr "Konfiguracja ustawień"
+>>>>>>> upstream/18.0
 =======
 msgstr "Konfiguracja ustawień"
 >>>>>>> upstream/18.0
@@ -4130,12 +4200,20 @@ msgstr "Pracownik"
 #. module: pos_hr
 #: model:ir.actions.report,name:pos_hr.multi_employee_sales_report_action
 msgid "Employee Sales Details"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Szczegóły sprzedażowe pracownika"
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #: model_terms:ir.ui.view,arch_db:pos_hr.single_employee_sales_report
 msgid "Employee Sales Report"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Raport sprzedaży pracowniczej"
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #: model_terms:ir.ui.view,arch_db:pos_hr.single_employee_sales_report
@@ -4146,6 +4224,7 @@ msgstr "Pracownik:"
 #. odoo-python
 #: code:addons/pos_hr/models/hr_employee.py:0
 msgid "Employee: %(employee)s - PoS Config(s): %(config_list)s \n"
+<<<<<<< HEAD
 msgstr "Pracownik: %(employee)s - Konfiguracja(e) PoS: %(config_list)s\n"
 
 #. module: pos_hr
@@ -4547,12 +4626,18 @@ msgstr "Pracownik: %(employee)s - Konfiguracja(e) PoS: %(config_list)s\n"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+msgstr "Pracownik: %(employee)s - Konfiguracja(e) PoS: %(config_list)s \n"
+
+#. module: pos_hr
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:pos_hr.field_pos_config__advanced_employee_ids
 #: model:ir.model.fields,help:pos_hr.field_res_config_settings__pos_advanced_employee_ids
 msgid ""
 "Employees linked to users with the PoS Manager role are automatically added "
 "to this list"
 msgstr ""
+<<<<<<< HEAD
 
 #. module: pos_hr
 <<<<<<< HEAD
@@ -4955,6 +5040,12 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"Pracownicy powiązani z użytkownikami pełniącymi rolę menedżera PoS są "
+"automatycznie dodawani do tej listy"
+
+#. module: pos_hr
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:pos_hr.field_pos_config__basic_employee_ids
 #: model:ir.model.fields,field_description:pos_hr.field_res_config_settings__pos_basic_employee_ids
 msgid "Employees with basic access"
@@ -5063,6 +5154,9 @@ msgstr "Pracownicy z podstawowym dostępem"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5382,7 +5476,11 @@ msgid "Employees with manager access"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pracownicy z dostępem menadżera"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pracownicy z dostępem menadżera"
 >>>>>>> upstream/18.0
@@ -5703,12 +5801,17 @@ msgstr "Pracownicy z dostępem menadżera"
 #. odoo-javascript
 #: code:addons/pos_hr/static/src/overrides/screens/login_screen/login_screen.xml:0
 msgid "Enter your PIN"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Wprowadź swój PIN"
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #: model:ir.model.fields,help:pos_hr.field_pos_config__basic_employee_ids
 #: model:ir.model.fields,help:pos_hr.field_res_config_settings__pos_basic_employee_ids
 msgid "If left empty, all employees can log in to PoS"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6432,6 +6535,11 @@ msgstr "Jeśli pole jest puste, wszyscy pracownicy mogą się zalogować do PoS"
 
 #. module: pos_hr
 >>>>>>> upstream/18.0
+=======
+msgstr "Jeśli pole jest puste, wszyscy pracownicy mogą się zalogować do PoS"
+
+#. module: pos_hr
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/pos_hr/static/src/overrides/components/navbar/navbar.xml:0
 msgid "Lock"
@@ -6441,6 +6549,7 @@ msgstr "Zablokuj"
 #. odoo-javascript
 #: code:addons/pos_hr/static/src/app/select_cashier_mixin.js:0
 msgid "No Cashiers"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: pos_hr
@@ -6695,12 +6804,19 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "Brak kasjerów"
+
+#. module: pos_hr
+#. odoo-javascript
 >>>>>>> upstream/18.0
 #: code:addons/pos_hr/static/src/overrides/screens/login_screen/login_screen.js:0
 msgid ""
 "Only the cashier linked to the logged-in user (%s) can proceed to the "
 "Backend."
 msgstr ""
+<<<<<<< HEAD
 
 #. module: pos_hr
 #. odoo-javascript
@@ -6953,6 +7069,13 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"Tylko kasjer powiązany z zalogowanym użytkownikiem (%s) może przejść do "
+"zaplecza."
+
+#. module: pos_hr
+#. odoo-javascript
 >>>>>>> upstream/18.0
 #: code:addons/pos_hr/static/src/overrides/screens/login_screen/login_screen.xml:0
 msgid "Open Register"
@@ -6962,7 +7085,11 @@ msgstr "Otwórz kasę"
 #. odoo-python
 #: code:addons/pos_hr/models/pos_session.py:0
 msgid "Opened register"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otwarta kasa"
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #. odoo-javascript
@@ -6980,7 +7107,11 @@ msgstr "Inne"
 #. odoo-javascript
 #: code:addons/pos_hr/static/src/app/select_cashier_mixin.js:0
 msgid "PIN not found"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nie znaleziono PINu"
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #. odoo-javascript
@@ -6992,13 +7123,21 @@ msgstr "Hasło?"
 #. odoo-javascript
 #: code:addons/pos_hr/static/src/overrides/components/closing_popup/closing_popup.xml:0
 msgid "Payments"
+<<<<<<< HEAD
 msgstr "Wpłaty"
+=======
+msgstr "Płatności"
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #. odoo-javascript
 #: code:addons/pos_hr/static/src/overrides/components/closing_popup/closing_popup.js:0
 msgid "Payments in %(paymentMethod)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Płatności w %(paymentMethod)s"
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #: model:ir.model,name:pos_hr.model_pos_config
@@ -7150,7 +7289,11 @@ msgid "Select Employee(s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Wybierz pracowników"
+>>>>>>> upstream/18.0
 =======
 msgstr "Wybierz pracowników"
 >>>>>>> upstream/18.0
@@ -7470,35 +7613,59 @@ msgstr "Wybierz pracowników"
 #. module: pos_hr
 #: model:ir.model,name:pos_hr.model_report_pos_hr_single_employee_sales_report
 msgid "Session sales details for a single employee"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Szczegóły sprzedaży sesji dla pojedynczego pracownika"
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #: model:ir.model.fields,help:pos_hr.field_pos_session__employee_id
 msgid "The employee who currently uses the cash register"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pracownik, który obecnie korzysta z kasy fiskalnej"
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #: model:ir.model.fields,help:pos_hr.field_account_bank_statement_line__employee_id
 msgid "The employee who made the cash move."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pracownik, który dokonał transferu gotówki."
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #: model:ir.model.fields,help:pos_hr.field_pos_order__employee_id
 #: model:ir.model.fields,help:pos_hr.field_pos_payment__employee_id
 msgid "The employee who uses the cash register."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pracownik obsługujący kasę fiskalną."
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #. odoo-javascript
 #: code:addons/pos_hr/static/src/app/select_cashier_mixin.js:0
 msgid "There is no cashier available."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Brak dostępnego kasjera."
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #. odoo-javascript
 #: code:addons/pos_hr/static/src/overrides/screens/login_screen/login_screen.xml:0
 msgid "Unlock Register"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odblokuj kasę fiskalną"
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #. odoo-javascript
@@ -7510,7 +7677,11 @@ msgstr "Nieprawidłowy PIN"
 #. odoo-javascript
 #: code:addons/pos_hr/static/src/overrides/screens/product_screen/order_summary/order_summary.js:0
 msgid "You are not allowed to change the price of a product."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nie masz uprawnień do zmiany ceny produktu."
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #. odoo-python
@@ -7520,4 +7691,8 @@ msgid ""
 "close the session(s) first: \n"
 msgstr ""
 "Nie możesz usunąć pracownika który może być użyty w aktywnej sesji PoS, "
+<<<<<<< HEAD
 "najpierw zamknij sesję:\n"
+=======
+"najpierw zamknij sesję: \n"
+>>>>>>> upstream/18.0

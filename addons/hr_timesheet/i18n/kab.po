@@ -102,6 +102,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -400,6 +404,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -819,6 +824,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2026-02-20 18:38+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2026-02-20 18:38+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-12-31 16:37+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Kabyle <https://translate.odoo.com/projects/odoo-18/"
@@ -885,6 +893,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1113,6 +1124,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
@@ -1219,6 +1231,8 @@ msgstr ""
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1453,6 +1467,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1645,7 +1662,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "%s Spent"
+=======
+msgid ""
+"'%(missing_plan_names)s' analytic plan(s) required on the project '%"
+"(project_name)s' linked to the timesheet."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "'%(missing_plan_names)s' analytic plan(s) required on the project '%"
@@ -2045,7 +2068,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2247,6 +2273,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2378,6 +2407,7 @@ msgstr ""
 
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.view_kanban_account_analytic_line
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2818,6 +2848,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "<i class=\"fa fa-calendar me-1\" role=\"img\" aria-label=\"Date\" "
 "title=\"Date\"/>"
@@ -2888,6 +2920,9 @@ msgid "<i class=\"fa fa-print\"/> View Details"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3086,10 +3121,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "<span class=\"text-nowrap\" attrs=\"{'invisible' : [('encode_uom_in_days', '=', True)]}\">Hours Spent on Sub-tasks:</span>\n"
 "                                <span class=\"text-nowrap\" attrs=\"{'invisible' : [('encode_uom_in_days', '=', False)]}\">Days Spent on Sub-tasks:</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3220,6 +3258,7 @@ msgstr ""
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.hr_employee_delete_wizard_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3463,6 +3502,11 @@ msgid ""
 "                        Are you sure you want to delete these employees?\n"
 "                    </span>"
 >>>>>>> upstream/18.0
+=======
+"<span invisible=\"has_timesheet\">\n"
+"                        Are you sure you want to delete these employees?\n"
+"                    </span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_timesheet
@@ -3492,6 +3536,7 @@ msgstr ""
 
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.timesheet_table
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3765,6 +3810,9 @@ msgid "<span>Time Spent</span>"
 =======
 msgid "<span>Time Spent</span>"
 >>>>>>> upstream/18.0
+=======
+msgid "<span>Time Spent</span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_timesheet
@@ -3836,9 +3884,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr_timesheet.field_project_task__analytic_account_active
 msgid "Active Analytic Account"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4047,6 +4098,9 @@ msgid "<strong>Total Time Spent: </strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4275,7 +4329,11 @@ msgid "Administrator"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Anedbal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Anedbal"
 >>>>>>> upstream/18.0
@@ -4673,7 +4731,11 @@ msgid "All"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Akkw"
+>>>>>>> upstream/18.0
 =======
 msgstr "Akkw"
 >>>>>>> upstream/18.0
@@ -5040,6 +5102,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Allocated Hours"
 msgstr ""
 
@@ -5297,10 +5360,15 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_timesheet.field_project_update__allocated_time
 #: model:ir.model.fields,field_description:hr_timesheet.field_report_project_task_user__allocated_hours
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields,field_description:hr_timesheet.field_project_update__allocated_time
+#: model:ir.model.fields,field_description:hr_timesheet.field_report_project_task_user__allocated_hours
+>>>>>>> upstream/18.0
 msgid "Allocated Time"
 msgstr ""
 
 #. module: hr_timesheet
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5827,6 +5895,11 @@ msgstr "Azal"
 msgid "Amount"
 msgstr "Azal"
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields,field_description:hr_timesheet.field_timesheets_analysis_report__amount
+msgid "Amount"
+msgstr "Azal"
+>>>>>>> upstream/18.0
 
 #. module: hr_timesheet
 #. odoo-python
@@ -5835,6 +5908,7 @@ msgid "Analysis"
 msgstr ""
 
 #. module: hr_timesheet
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6169,6 +6243,8 @@ msgstr "Amiḍan n tusliṭ"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.hr_timesheet_line_form
 msgid "Analytic Entry"
 msgstr ""
@@ -6176,6 +6252,7 @@ msgstr ""
 #. module: hr_timesheet
 #: model:ir.model,name:hr_timesheet.model_account_analytic_line
 msgid "Analytic Line"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6513,6 +6590,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "Ajerrid n tesleḍt"
 
 #. module: hr_timesheet
@@ -6580,6 +6659,9 @@ msgid "Analytic Plan's Applicabilities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6775,7 +6857,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Analyze the projects and tasks on which your employees spend their time.<br>\n"
+=======
+"Analyze the projects and tasks on which your employees spend their time."
+"<br>\n"
+>>>>>>> upstream/18.0
 =======
 "Analyze the projects and tasks on which your employees spend their time."
 "<br>\n"
@@ -7105,9 +7192,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr_timesheet.field_project_project__timesheet_ids
 msgid "Associated Timesheets"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7301,6 +7391,9 @@ msgid "Average of Progress"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7507,7 +7600,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7699,6 +7795,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7929,7 +8028,11 @@ msgid "Companies"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tikebbaniyin"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tikebbaniyin"
 >>>>>>> upstream/18.0
@@ -8326,7 +8429,11 @@ msgid "Company"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Takebbwanit"
+>>>>>>> upstream/18.0
 =======
 msgstr "Takebbwanit"
 >>>>>>> upstream/18.0
@@ -8723,7 +8830,11 @@ msgid "Config Settings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sefrek aɣewwaṛ"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sefrek aɣewwaṛ"
 >>>>>>> upstream/18.0
@@ -9120,7 +9231,11 @@ msgid "Configuration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tawila"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tawila"
 >>>>>>> upstream/18.0
@@ -9518,7 +9633,11 @@ msgid "Confirmation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Asentem"
+>>>>>>> upstream/18.0
 =======
 msgstr "Asentem"
 >>>>>>> upstream/18.0
@@ -9915,7 +10034,11 @@ msgid "Created by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yerna-t"
+>>>>>>> upstream/18.0
 =======
 msgstr "Yerna-t"
 >>>>>>> upstream/18.0
@@ -10312,7 +10435,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yerna di"
+>>>>>>> upstream/18.0
 =======
 msgstr "Yerna di"
 >>>>>>> upstream/18.0
@@ -10709,7 +10836,11 @@ msgid "Currency"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tanfalit"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tanfalit"
 >>>>>>> upstream/18.0
@@ -11072,6 +11203,7 @@ msgstr "Tanfalit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.hr_timesheet_line_search_base
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.portal_my_timesheets
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.portal_timesheet_table
@@ -11342,6 +11474,8 @@ msgstr "Azemz"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.portal_my_timesheets
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.portal_timesheet_table
 msgid "Date"
@@ -11408,6 +11542,9 @@ msgstr "Azemz"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11540,6 +11677,7 @@ msgid "Days / Half-Days"
 msgstr ""
 
 #. module: hr_timesheet
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11740,6 +11878,8 @@ msgid "Days recorded on sub-tasks:"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.project_sharing_inherit_project_task_view_form
 msgid "Days Remaining"
 msgstr ""
@@ -11810,6 +11950,9 @@ msgid "Deactivate the account."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12007,7 +12150,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Define an 'hourly cost' on the employee to track the cost of their time."
+=======
+msgid ""
+"Define an 'hourly cost' on the employee to track the cost of their time."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "Define an 'hourly cost' on the employee to track the cost of their time."
@@ -12363,7 +12511,11 @@ msgid "Delete"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kkes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kkes"
 >>>>>>> upstream/18.0
@@ -12728,6 +12880,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr_timesheet.field_account_analytic_line__department_id
 #: model:ir.model.fields,field_description:hr_timesheet.field_timesheets_analysis_report__department_id
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.hr_timesheet_line_search_base
@@ -12998,6 +13151,8 @@ msgstr "Agezdu"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:hr_timesheet.field_account_analytic_line__milestone_id
 #: model:ir.model.fields,help:hr_timesheet.field_timesheets_analysis_report__milestone_id
 msgid ""
@@ -13073,6 +13228,9 @@ msgstr "Agezdu"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13314,7 +13472,11 @@ msgid "Discard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sefsex"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sefsex"
 >>>>>>> upstream/18.0
@@ -13615,6 +13777,7 @@ msgstr "Sefsex"
 #: model:ir.model.fields,field_description:hr_timesheet.field_project_task__display_name
 #: model:ir.model.fields,field_description:hr_timesheet.field_timesheets_analysis_report__display_name
 msgid "Display Name"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14234,6 +14397,8 @@ msgstr "Timirt"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "Isem n Ubeqqeḍ"
 
 #. module: hr_timesheet
@@ -14302,6 +14467,9 @@ msgstr "Taɣult"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14441,6 +14609,7 @@ msgstr ""
 #: model:ir.model,name:hr_timesheet.model_hr_employee
 #: model:ir.model.fields,field_description:hr_timesheet.field_account_analytic_line__employee_id
 #: model:ir.model.fields,field_description:hr_timesheet.field_timesheets_analysis_report__employee_id
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14774,6 +14943,8 @@ msgstr "Amaris"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.hr_timesheet_line_search
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.portal_my_timesheets
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.portal_timesheet_table
@@ -14841,6 +15012,9 @@ msgstr "Amaris"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14984,6 +15158,7 @@ msgid "Employee Termination"
 msgstr ""
 
 #. module: hr_timesheet
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15318,12 +15493,15 @@ msgstr "Imuras"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/hr_timesheet/wizard/hr_employee_delete_wizard.py:0
 msgid "Employees' Timesheets"
 msgstr ""
 
 #. module: hr_timesheet
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15519,6 +15697,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr_timesheet.field_res_config_settings__timesheet_encode_method
 msgid "Encoding Method"
 msgstr ""
@@ -15587,8 +15767,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr_timesheet.field_account_analytic_line__encoding_uom_id
 msgid "Encoding Uom"
+=======
+#. odoo-python
+#: code:addons/hr_timesheet/models/project_project.py:0
+msgid "Extra Time"
+>>>>>>> upstream/18.0
 =======
 #. odoo-python
 #: code:addons/hr_timesheet/models/project_project.py:0
@@ -15975,6 +16161,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.hr_timesheet_line_search_base
 msgid "Group By"
 msgstr "Sdukel s"
@@ -16106,11 +16293,14 @@ msgstr "Sdukel s"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:hr_timesheet.model_ir_http
 msgid "HTTP Routing"
 msgstr ""
 
 #. module: hr_timesheet
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16456,6 +16646,8 @@ msgstr "Asragen"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr_timesheet.field_timesheets_analysis_report__has_department_manager_access
 msgid "Has Department Manager Access"
 msgstr ""
@@ -16523,6 +16715,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16653,6 +16848,7 @@ msgid "Hours / Minutes"
 msgstr ""
 
 #. module: hr_timesheet
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16988,12 +17184,17 @@ msgid "Hours By Task (Including Subtasks)"
 #: model:ir.model.fields,field_description:hr_timesheet.field_report_project_task_user__total_hours_spent
 msgid "Hours By Task (Including Subtasks)"
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields,field_description:hr_timesheet.field_report_project_task_user__total_hours_spent
+msgid "Hours By Task (Including Subtasks)"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_timesheet
 #: model:ir.model.fields,field_description:hr_timesheet.field_hr_employee_delete_wizard__id
 #: model:ir.model.fields,field_description:hr_timesheet.field_timesheets_analysis_report__id
 msgid "ID"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17392,6 +17593,9 @@ msgstr "Asulay"
 =======
 msgstr "Asulay"
 >>>>>>> upstream/18.0
+=======
+msgstr "Asulay"
+>>>>>>> upstream/18.0
 
 #. module: hr_timesheet
 #. odoo-python
@@ -17496,7 +17700,11 @@ msgid "Internal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Agensan"
+>>>>>>> upstream/18.0
 =======
 msgstr "Agensan"
 >>>>>>> upstream/18.0
@@ -17873,6 +18081,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr_timesheet.field_res_config_settings__is_encode_uom_days
 msgid "Is Encode Uom Days"
 msgstr ""
@@ -17886,6 +18095,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_timesheet.field_account_analytic_line__job_title
 msgid "Job Title"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18081,6 +18292,9 @@ msgid "Last Quarter"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18309,7 +18523,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aleqqem aneggaru sɣuṛ"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aleqqem aneggaru sɣuṛ"
 >>>>>>> upstream/18.0
@@ -18706,7 +18924,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aleqqem aneggaru di"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aleqqem aneggaru di"
 >>>>>>> upstream/18.0
@@ -19005,6 +19227,7 @@ msgstr "Aleqqem aneggaru di"
 #. module: hr_timesheet
 #. odoo-python
 #: code:addons/hr_timesheet/controllers/portal.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19321,11 +19544,16 @@ msgid "Last Week"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.hr_timesheet_line_search
 msgid "Last Week"
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:hr_timesheet.hr_timesheet_line_search
+msgid "Last Week"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_timesheet
 #. odoo-python
 #: code:addons/hr_timesheet/controllers/portal.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19396,6 +19624,9 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_timesheet/controllers/portal.py:0
 msgid "Last year"
+=======
+msgid "Last Year"
+>>>>>>> upstream/18.0
 =======
 msgid "Last Year"
 >>>>>>> upstream/18.0
@@ -19659,7 +19890,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.hr_timesheet_line_search_base
+=======
+#: model_terms:ir.ui.view,arch_db:hr_timesheet.hr_timesheet_line_search
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.hr_timesheet_line_search
 >>>>>>> upstream/18.0
@@ -19861,6 +20096,7 @@ msgstr ""
 #. module: hr_timesheet
 #: model:ir.model,name:hr_timesheet.model_ir_ui_menu
 msgid "Menu"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20194,6 +20430,8 @@ msgid "My Department's Ratings"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "Umuɣ"
 
 #. module: hr_timesheet
@@ -20268,6 +20506,9 @@ msgid "Milestone"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20464,11 +20705,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.rating_rating_view_search_project_inherited
 msgid "My Team's Ratings"
 msgstr ""
 
 #. module: hr_timesheet
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20666,7 +20910,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.hr_timesheet_line_search_base
+=======
+#: model_terms:ir.ui.view,arch_db:hr_timesheet.hr_timesheet_line_search
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.hr_timesheet_line_search
 >>>>>>> upstream/18.0
@@ -20929,7 +21177,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21126,6 +21377,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21365,7 +21619,11 @@ msgid "None"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ulac"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ulac"
 >>>>>>> upstream/18.0
@@ -21767,7 +22025,11 @@ msgid "Ok"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ih"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ih"
 >>>>>>> upstream/18.0
@@ -22133,10 +22395,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr_timesheet.field_account_analytic_line__parent_task_id
 #: model:ir.model.fields,field_description:hr_timesheet.field_timesheets_analysis_report__parent_task_id
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.hr_timesheet_line_search_base
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22328,6 +22593,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22458,6 +22726,7 @@ msgstr ""
 
 #. module: hr_timesheet
 #: model:ir.model.fields,field_description:hr_timesheet.field_account_analytic_line__partner_id
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23080,6 +23349,8 @@ msgstr "Amendid"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr_timesheet.field_timesheets_analysis_report__partner_id
 msgid "Partner"
 msgstr "Amendid"
@@ -23101,6 +23372,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23230,7 +23504,11 @@ msgid "Product Unit of Measure"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aferdis n usɣel n ufaris"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aferdis n usɣel n ufaris"
 >>>>>>> upstream/18.0
@@ -23604,6 +23882,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.hr_timesheet_line_search_base
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.portal_my_timesheets
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.report_timesheet
@@ -23874,6 +24153,8 @@ msgstr "Asenfaṛ"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.hr_timesheet_line_search
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.portal_my_timesheets
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.report_timesheet
@@ -23947,6 +24228,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24143,8 +24427,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr_timesheet.field_project_project__is_project_overtime
 msgid "Project in Overtime"
+=======
+#: model:ir.model,name:hr_timesheet.model_project_update
+msgid "Project Update"
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model,name:hr_timesheet.model_project_update
 msgid "Project Update"
@@ -24468,6 +24757,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr_timesheet.field_account_analytic_line__readonly_timesheet
 msgid "Readonly Timesheet"
 msgstr ""
@@ -24726,11 +25016,16 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:hr_timesheet.act_hr_timesheet_line_by_project
 #: model_terms:ir.actions.act_window,help:hr_timesheet.timesheet_action_from_employee
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.actions.act_window,help:hr_timesheet.act_hr_timesheet_line_by_project
+#: model_terms:ir.actions.act_window,help:hr_timesheet.timesheet_action_from_employee
+>>>>>>> upstream/18.0
 msgid "Record a new activity"
 msgstr ""
 
 #. module: hr_timesheet
 #: model_terms:digest.tip,tip_description:hr_timesheet.digest_tip_hr_timesheet_0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25146,6 +25441,11 @@ msgid ""
 "Record your timesheets in an instant by pressing Shift + the corresponding "
 "hotkey to add 15min to your projects."
 >>>>>>> upstream/18.0
+=======
+msgid ""
+"Record your timesheets in an instant by pressing Shift + the corresponding "
+"hotkey to add 15min to your projects."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_timesheet
@@ -25217,10 +25517,13 @@ msgstr "Assaɣen"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/hr_timesheet/controllers/portal.py:0
 msgid "Search in All"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25419,6 +25722,9 @@ msgid "Review all timesheets related to your projects"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25624,7 +25930,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25817,6 +26126,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25965,6 +26277,7 @@ msgstr ""
 
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.res_config_settings_view_form
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26344,6 +26657,11 @@ msgid ""
 "Send a periodical email reminder to timesheets approvers that still have "
 "timesheets to validate"
 >>>>>>> upstream/18.0
+=======
+msgid ""
+"Send a periodical email reminder to timesheets approvers that still have "
+"timesheets to validate"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_timesheet
@@ -26411,7 +26729,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Send a periodical email reminder to timesheets users that still have timesheets to encode"
+=======
+msgid ""
+"Send a periodical email reminder to timesheets users that still have "
+"timesheets to encode"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "Send a periodical email reminder to timesheets users that still have "
@@ -26830,6 +27154,7 @@ msgid "Settings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Tawila"
@@ -26937,6 +27262,8 @@ msgstr "Tawila"
 msgstr "Tawila"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -27129,6 +27456,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27258,6 +27588,7 @@ msgstr ""
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.project_sharing_inherit_project_task_view_form
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.view_task_form2_inherited
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -27511,6 +27842,9 @@ msgid "Sub-tasks Time Spent"
 =======
 msgid "Sub-tasks Time Spent"
 >>>>>>> upstream/18.0
+=======
+msgid "Sub-tasks Time Spent"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_timesheet
@@ -27519,6 +27853,7 @@ msgstr ""
 #: model:ir.model,name:hr_timesheet.model_project_task
 #: model:ir.model.fields,field_description:hr_timesheet.field_account_analytic_line__task_id
 #: model:ir.model.fields,field_description:hr_timesheet.field_timesheets_analysis_report__task_id
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -27851,6 +28186,8 @@ msgstr "Tawuri"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.hr_timesheet_line_search
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.portal_my_timesheets
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.timesheet_table
@@ -27918,6 +28255,9 @@ msgstr "Tawuri"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -28150,7 +28490,11 @@ msgid "Tasks Analysis"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tasleṭ n Tiwuriwin"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tasleṭ n Tiwuriwin"
 >>>>>>> upstream/18.0
@@ -28516,7 +28860,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -28711,6 +29058,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -28843,6 +29193,7 @@ msgstr ""
 #. module: hr_timesheet
 #. odoo-python
 #: code:addons/hr_timesheet/models/project_project.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -29222,6 +29573,11 @@ msgid ""
 "These projects have some timesheet entries referencing them. Before removing "
 "these projects, you have to remove these timesheet entries."
 >>>>>>> upstream/18.0
+=======
+msgid ""
+"These projects have some timesheet entries referencing them. Before removing "
+"these projects, you have to remove these timesheet entries."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_timesheet
@@ -29290,8 +29646,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "These tasks have some timesheet entries referencing them. Before removing these tasks, you have to remove these timesheet entries."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -29487,6 +29846,9 @@ msgid "This Month"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -29623,6 +29985,7 @@ msgstr ""
 #. module: hr_timesheet
 #. odoo-python
 #: code:addons/hr_timesheet/controllers/portal.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -29953,6 +30316,8 @@ msgstr "Agur agi"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.hr_timesheet_line_search
 msgid "This Week"
 msgstr ""
@@ -30024,6 +30389,9 @@ msgstr "Aseggwass agi"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -30159,6 +30527,7 @@ msgstr ""
 #. module: hr_timesheet
 #. odoo-python
 #: code:addons/hr_timesheet/models/project_project.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30538,11 +30907,17 @@ msgid ""
 "This project has some timesheet entries referencing it. Before removing this "
 "project, you have to remove these timesheet entries."
 >>>>>>> upstream/18.0
+=======
+msgid ""
+"This project has some timesheet entries referencing it. Before removing this "
+"project, you have to remove these timesheet entries."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_timesheet
 #. odoo-python
 #: code:addons/hr_timesheet/models/project_task.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30859,11 +31234,16 @@ msgid ""
 msgid ""
 "This task cannot be private because there are some timesheets linked to it."
 >>>>>>> upstream/18.0
+=======
+msgid ""
+"This task cannot be private because there are some timesheets linked to it."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_timesheet
 #. odoo-python
 #: code:addons/hr_timesheet/models/project_task.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -31249,6 +31629,11 @@ msgid ""
 "This task has some timesheet entries referencing it. Before removing this "
 "task, you have to remove these timesheet entries."
 >>>>>>> upstream/18.0
+=======
+msgid ""
+"This task has some timesheet entries referencing it. Before removing this "
+"task, you have to remove these timesheet entries."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_timesheet
@@ -31319,6 +31704,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If you use the timesheet linked to projects, don't forget to setup the right unit of measure in your employees."
 msgstr ""
 
@@ -31326,6 +31712,10 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_timesheet/controllers/portal.py:0
 msgid "This year"
+=======
+"If you use the timesheet linked to projects, don't forget to setup the right "
+"unit of measure in your employees."
+>>>>>>> upstream/18.0
 =======
 "If you use the timesheet linked to projects, don't forget to setup the right "
 "unit of measure in your employees."
@@ -31655,8 +32045,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,help:hr_timesheet.field_project_task__subtask_effective_hours
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -31896,6 +32289,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -32103,7 +32499,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.hr_timesheet_line_search_base
+=======
+#: model:ir.model.fields.selection,name:hr_timesheet.selection__account_analytic_applicability__business_domain__timesheet
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields.selection,name:hr_timesheet.selection__account_analytic_applicability__business_domain__timesheet
 >>>>>>> upstream/18.0
@@ -32373,6 +32773,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:hr_timesheet.timesheets_analysis_report_list
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.timesheets_analysis_report_list
 >>>>>>> upstream/18.0
@@ -32637,7 +33041,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr_timesheet.field_project_project__timesheet_encode_uom_id
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -32837,8 +33244,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.hr_timesheet_line_search_base
 msgid "Timesheet by Date"
+=======
+#: model:ir.model.fields,field_description:hr_timesheet.field_project_update__timesheet_time
+msgid "Timesheet Time"
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:hr_timesheet.field_project_update__timesheet_time
 msgid "Timesheet Time"
@@ -33159,6 +33571,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/hr_timesheet/models/project_project.py:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/hr_timesheet/models/project_project.py:0
 >>>>>>> upstream/18.0
@@ -33418,8 +33834,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr_timesheet.field_project_project__allow_timesheets
 #: model:ir.model.fields,field_description:hr_timesheet.field_project_task__timesheet_ids
+=======
+#: model:ir.embedded.actions,name:hr_timesheet.project_embedded_action_timesheets
+#: model:ir.embedded.actions,name:hr_timesheet.project_embedded_action_timesheets_dashboard
+#: model:ir.model.fields,field_description:hr_timesheet.field_project_project__allow_timesheets
+>>>>>>> upstream/18.0
 =======
 #: model:ir.embedded.actions,name:hr_timesheet.project_embedded_action_timesheets
 #: model:ir.embedded.actions,name:hr_timesheet.project_embedded_action_timesheets_dashboard
@@ -33812,7 +34234,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.timesheet_project_task_page
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -34045,7 +34470,11 @@ msgid "Timesheets"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tiferka n wakud"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tiferka n wakud"
 >>>>>>> upstream/18.0
@@ -34422,6 +34851,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:hr_timesheet.timesheets_analysis_report_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.timesheets_analysis_report_form
 >>>>>>> upstream/18.0
@@ -34706,11 +35139,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,help:hr_timesheet.field_project_task__allow_timesheets
 msgid "Timesheets can be logged on this task."
 msgstr ""
 
 #. module: hr_timesheet
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -34845,6 +35281,7 @@ msgstr ""
 #. module: hr_timesheet
 #. odoo-python
 #: code:addons/hr_timesheet/models/hr_timesheet.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -35161,6 +35598,10 @@ msgid ""
 msgid ""
 "Timesheets must be created with an active employee in the selected companies."
 >>>>>>> upstream/18.0
+=======
+msgid ""
+"Timesheets must be created with an active employee in the selected companies."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_timesheet
@@ -35229,7 +35670,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Timesheets must be created with an active employee in the selected companies."
+=======
+msgid ""
+"Timesheets must be created with at least an active analytic account defined "
+"in the plan '%(plan_name)s'."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "Timesheets must be created with at least an active analytic account defined "
@@ -35623,6 +36070,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/hr_timesheet/controllers/portal.py:0
 msgid "Today"
 <<<<<<< HEAD
@@ -35770,6 +36218,8 @@ msgstr "Assa"
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.hr_timesheet_line_tree
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -35973,6 +36423,9 @@ msgstr "Assa"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -36165,6 +36618,10 @@ msgstr "Asemday"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:hr_timesheet.project_sharing_inherit_project_task_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.project_sharing_inherit_project_task_view_form
 >>>>>>> upstream/18.0
@@ -36424,8 +36881,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.view_task_form2_inherited
 msgid "Total Days"
+=======
+msgid "Total Days Spent"
+>>>>>>> upstream/18.0
 =======
 msgid "Total Days Spent"
 >>>>>>> upstream/18.0
@@ -36682,6 +37143,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr_timesheet.field_report_project_task_user__total_hours_spent
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.project_sharing_inherit_project_task_view_form
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.view_task_form2_inherited
@@ -36697,6 +37159,8 @@ msgstr ""
 #: model:ir.model.fields,help:hr_timesheet.field_project_project__total_timesheet_time
 msgid "Total number of time (in the proper UoM) recorded in the project, rounded to the unit."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -36887,6 +37351,9 @@ msgid "Total Time Spent"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -37115,7 +37582,11 @@ msgid "Total:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Asemday:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Asemday:"
 >>>>>>> upstream/18.0
@@ -37478,7 +37949,13 @@ msgstr "Asemday:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Track your working hours by projects every day and invoice this time to your customers."
+=======
+msgid ""
+"Track your working hours by projects every day and invoice this time to your "
+"customers."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "Track your working hours by projects every day and invoice this time to your "
@@ -37891,7 +38368,11 @@ msgid "Training"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Asileɣ"
+>>>>>>> upstream/18.0
 =======
 msgstr "Asileɣ"
 >>>>>>> upstream/18.0
@@ -38239,7 +38720,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Make sure to use the right format and order e.g. Improve the configuration screen 5h #feature #v16 @Mitchell !"
+=======
+"        Make sure to use the right format and order e.g. Improve the "
+"configuration screen 5h #feature #v16 @Mitchell !"
+>>>>>>> upstream/18.0
 =======
 "        Make sure to use the right format and order e.g. Improve the "
 "configuration screen 5h #feature #v16 @Mitchell !"
@@ -38596,7 +39082,11 @@ msgid "User"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aseqdac"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aseqdac"
 >>>>>>> upstream/18.0
@@ -38966,9 +39456,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr_timesheet.field_uom_uom__timesheet_widget
 msgid "Widget"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -39166,6 +39659,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -39369,6 +39865,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.view_task_form2_inherited
 msgid "You cannot log timesheets on this project since it is linked to an inactive analytic account. Please change this account, or reactivate the current one to timesheet on the project."
 =======
@@ -39495,6 +39992,8 @@ msgid "You cannot log timesheets on this project since it is linked to an inacti
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.hr_employee_delete_wizard_form
 msgid ""
 "You cannot delete employees who have timesheets.\n"
@@ -39518,6 +40017,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -39621,6 +40123,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -39751,6 +40256,7 @@ msgstr ""
 #. module: hr_timesheet
 #. odoo-python
 #: code:addons/hr_timesheet/models/hr_timesheet.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -40095,6 +40601,8 @@ msgstr "Ussan"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid "You cannot set an archived employee on existing timesheets."
 msgstr ""
 
@@ -40161,6 +40669,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -40355,7 +40866,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.timesheet_project_task_page
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -40486,6 +41000,7 @@ msgid "for the"
 msgstr ""
 
 #. module: hr_timesheet
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -40824,6 +41339,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.view_task_form2_inherited
 msgid ""
 "on\n"
@@ -40891,6 +41408,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -41087,7 +41607,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -41310,6 +41833,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

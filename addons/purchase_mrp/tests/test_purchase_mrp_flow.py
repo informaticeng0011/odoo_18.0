@@ -287,7 +287,11 @@ class TestPurchaseMrpFlow(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(sum([k.standard_price * k.qty_available for k in components]), 120 * 1260)
+=======
+        self.assertAlmostEqual(sum(k.standard_price * k.qty_available for k in components), 120 * 1260, delta=0.5)
+>>>>>>> upstream/18.0
 =======
         self.assertAlmostEqual(sum(k.standard_price * k.qty_available for k in components), 120 * 1260, delta=0.5)
 >>>>>>> upstream/18.0
@@ -1489,6 +1493,7 @@ class TestPurchaseMrpFlow(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(self.component_a.standard_price, 10)
         self.assertEqual(lot_a.standard_price, 10)
 =======
@@ -1654,6 +1659,10 @@ class TestPurchaseMrpFlow(AccountTestInvoicingCommon):
 =======
         self.assertAlmostEqual(self.component_a.standard_price, 9.99899999)
         self.assertAlmostEqual(lot_a.standard_price, 9.99899999)
+>>>>>>> upstream/18.0
+=======
+        self.assertAlmostEqual(self.component_a.standard_price, 10)
+        self.assertAlmostEqual(lot_a.standard_price, 10)
 >>>>>>> upstream/18.0
 =======
         self.assertAlmostEqual(self.component_a.standard_price, 10)
@@ -1948,7 +1957,10 @@ class TestPurchaseMrpFlow(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2652,6 +2664,10 @@ class TestPurchaseMrpFlow(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'purchase_method': 'purchase',
+>>>>>>> upstream/18.0
 =======
             'purchase_method': 'purchase',
 >>>>>>> upstream/18.0
@@ -3375,11 +3391,14 @@ class TestPurchaseMrpFlow(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'order_line': [Command.create({
                 'product_id': kit_product.id,
                 'product_qty': 1,
             })],
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3918,6 +3937,9 @@ class TestPurchaseMrpFlow(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4467,10 +4489,13 @@ class TestPurchaseMrpFlow(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 {'account_id': stock_input_account.id,       'product_id': kit_product.id,     'reconciled': True,    'debit': 10.0,   'credit':  0.0},
                 {'account_id': tax_paid_account.id,          'product_id': False,              'reconciled': False,   'debit':  1.5,   'credit':  0.0},
                 {'account_id': account_payable_account.id,   'product_id': False,              'reconciled': False,   'debit':  0.0,   'credit': 11.5},
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5005,6 +5030,9 @@ class TestPurchaseMrpFlow(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5617,6 +5645,7 @@ class TestPurchaseMrpFlow(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6049,6 +6078,8 @@ class TestPurchaseMrpFlow(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6193,6 +6224,9 @@ class TestPurchaseMrpFlow(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

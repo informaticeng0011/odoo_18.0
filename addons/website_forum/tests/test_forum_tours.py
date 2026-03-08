@@ -196,6 +196,11 @@ class TestUi(HttpCaseGamification):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        tags = self.env['forum.tag'].search([('name', 'in', ['Tag', 'tag', 'test tag'])])
+        self.assertEqual(len(tags), 3)
+>>>>>>> upstream/18.0
 =======
         tags = self.env['forum.tag'].search([('name', 'in', ['Tag', 'tag', 'test tag'])])
         self.assertEqual(len(tags), 3)

@@ -200,11 +200,14 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _get_l10n_hr_fiscal_user_id_domain(self):
         internal_users = self.env.ref('base.group_user')
         domain = [('user_ids', 'in', internal_users.users.ids)]
         return domain
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -326,10 +329,13 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if move.company_id.country_code == 'HR' and move.is_purchase_document() and move.l10n_hr_business_document_status == '1':
                 raise UserError(self.env._("This vendor bill is already rejected according to the Tax Authority."))
         return super()._post(soft)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -489,6 +495,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -632,6 +641,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             response_fisc = _mer_api_check_fiscalization_status_outbox(self.company_id, electronic_id=self.l10n_hr_mer_document_eid)[0]
         elif self.is_purchase_document():
             response_mer = _mer_api_query_document_process_status_inbox(self.company_id, electronic_id=self.l10n_hr_mer_document_eid)[0]
@@ -748,6 +758,8 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             response_fisc = _mer_api_check_fiscalization_status_outbox(self.company_id, electronic_id=self.l10n_hr_mer_document_eid)
             if isinstance(response_fisc, list):
                 response_fisc = {} if len(response_fisc) == 0 else response_fisc[0]
@@ -795,6 +807,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -889,6 +904,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     _logger.error("Failed to report payments document: %s", move.l10n_hr_mer_document_eid)
                     continue
                 move.l10n_hr_edi_addendum_id.payment_reported_amount += amount_to_report
@@ -903,6 +919,8 @@ class AccountMove(models.Model):
                 )
                 attachment.write({'res_model': 'account.move', 'res_id': move.id})
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1027,6 +1045,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1142,7 +1163,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     attachment_ids=attachment.ids,
+=======
+                    attachment_ids=attachment.ids if attachment else False,
+>>>>>>> upstream/18.0
 =======
                     attachment_ids=attachment.ids if attachment else False,
 >>>>>>> upstream/18.0
