@@ -88,6 +88,12 @@ from odoo.tests.common import TransactionCase, tagged
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo import fields
+import pytz
+
+>>>>>>> upstream/18.0
 =======
 from odoo import fields
 import pytz
@@ -964,8 +970,13 @@ class TestFrenchLeaves(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         - Employee works from 8 to 12 and 14 to 17 Monday to Wednesday
         - Company works from 9 to 12 and 13 to 18 Monday to Friday
+=======
+        - Employee works from 8 to 12 and 14 to 17 Monday to Wednesday -> 7h/d
+        - Company works from 9 to 12 and 13 to 18 Monday to Friday -> 8h/d
+>>>>>>> upstream/18.0
 =======
         - Employee works from 8 to 12 and 14 to 17 Monday to Wednesday -> 7h/d
         - Company works from 9 to 12 and 13 to 18 Monday to Friday -> 8h/d
@@ -1906,6 +1917,10 @@ class TestFrenchLeaves(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertNotEqual(leave.number_of_hours, 8.0, 'Company and employee hours per day should not match in this case')
+>>>>>>> upstream/18.0
 =======
         self.assertNotEqual(leave.number_of_hours, 8.0, 'Company and employee hours per day should not match in this case')
 >>>>>>> upstream/18.0
@@ -2631,6 +2646,10 @@ class TestFrenchLeaves(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertNotEqual(leave.number_of_hours, 8.0, 'Company and employee hours per day should not match in this case')
+>>>>>>> upstream/18.0
 =======
         self.assertNotEqual(leave.number_of_hours, 8.0, 'Company and employee hours per day should not match in this case')
 >>>>>>> upstream/18.0
@@ -3348,6 +3367,10 @@ class TestFrenchLeaves(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertNotEqual(leave.number_of_hours, 8.0, 'Company and employee hours per day should not match in this case')
+>>>>>>> upstream/18.0
 =======
         self.assertNotEqual(leave.number_of_hours, 8.0, 'Company and employee hours per day should not match in this case')
 >>>>>>> upstream/18.0
@@ -4078,7 +4101,10 @@ class TestFrenchLeaves(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4555,6 +4581,7 @@ class TestFrenchLeaves(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4689,6 +4716,8 @@ class TestFrenchLeaves(TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4982,6 +5011,7 @@ class TestFrenchLeaves(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5070,6 +5100,8 @@ class TestFrenchLeaves(TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5260,6 +5292,9 @@ class TestFrenchLeaves(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

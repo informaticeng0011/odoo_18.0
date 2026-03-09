@@ -131,7 +131,11 @@ export class ChatBotService {
         if (this.chatbot.completed) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return _t("Conversation ended...");
+=======
+            return _t("This conversation has ended.");
+>>>>>>> upstream/18.0
 =======
             return _t("This conversation has ended.");
 >>>>>>> upstream/18.0

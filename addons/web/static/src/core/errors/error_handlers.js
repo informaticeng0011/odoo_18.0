@@ -3,7 +3,11 @@ import { browser } from "../browser/browser";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { ConnectionLostError, RPCError, rpc } from "../network/rpc";
+=======
+import { ConnectionLostError, RPCError, RequestEntityTooLargeError, rpc } from "../network/rpc";
+>>>>>>> upstream/18.0
 =======
 import { ConnectionLostError, RPCError, RequestEntityTooLargeError, rpc } from "../network/rpc";
 >>>>>>> upstream/18.0
@@ -23,6 +27,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    RequestEntityTooLargeErrorDialog,
+>>>>>>> upstream/18.0
 =======
     RequestEntityTooLargeErrorDialog,
 >>>>>>> upstream/18.0
@@ -158,7 +166,10 @@ errorHandlerRegistry.add("lostConnectionHandler", lostConnectionHandler, { seque
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -186,6 +197,9 @@ errorHandlerRegistry.add("requestEntityTooLargeHandler", requestEntityTooLargeHa
 // -----------------------------------------------------------------------------
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

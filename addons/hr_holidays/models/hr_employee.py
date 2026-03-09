@@ -220,8 +220,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from datetime import datetime, time
 from collections import defaultdict
+=======
+from datetime import datetime
+>>>>>>> upstream/18.0
 =======
 from datetime import datetime
 >>>>>>> upstream/18.0
@@ -1186,11 +1190,14 @@ class HrEmployee(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             domain += [
                 '|',
                 ('department_ids', '=', False),
                 ('department_ids', 'parent_of', self.department_id.id),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1727,6 +1734,9 @@ class HrEmployee(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2308,6 +2318,7 @@ class HrEmployee(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.model
     def _get_contextual_employee(self):
         ctx = self.env.context
@@ -2515,6 +2526,8 @@ class HrEmployee(models.Model):
 
         return (allocations_leaves_consumed, to_recheck_leaves_per_leave_type)
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

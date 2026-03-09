@@ -47,7 +47,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <field name="l10n_sa_additional_identification_number" invisible="country_code != 'SA' or l10n_sa_additional_identification_scheme == 'TIN'"/>
+=======
+                    <field name="l10n_sa_additional_identification_number" invisible="'SA' not in fiscal_country_codes and country_code != 'SA' or l10n_sa_additional_identification_scheme == 'TIN'"/>
+>>>>>>> upstream/18.0
 =======
                     <field name="l10n_sa_additional_identification_number" invisible="'SA' not in fiscal_country_codes and country_code != 'SA' or l10n_sa_additional_identification_scheme == 'TIN'"/>
 >>>>>>> upstream/18.0

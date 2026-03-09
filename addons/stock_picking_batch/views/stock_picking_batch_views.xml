@@ -79,6 +79,7 @@
                     <button name="action_done" string="Validate" type="object" class="oe_highlight"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         invisible="state != 'in_progress' or show_check_availability"/>
                     <button name="action_assign" string="Check Availability" type="object" class="oe_highlight"
                         invisible="state != 'in_progress' or not show_check_availability"/>
@@ -87,12 +88,17 @@
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                         invisible="not picking_ids or state != 'in_progress' or show_check_availability"/>
                     <button name="action_assign" string="Check Availability" type="object" class="oe_highlight"
                         invisible="state != 'in_progress' or not show_check_availability"/>
                     <button name="action_done" string="Validate" type="object"
                         invisible="not picking_ids or state != 'in_progress' or not show_check_availability"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -174,9 +174,13 @@ class TestStockValuation(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(move.stock_valuation_layer_ids.unit_cost,
             last_po_id.currency_id.round(ap_price),
             "Wrong Unit price")
+=======
+        self.assertAlmostEqual(move.stock_valuation_layer_ids.unit_cost, ap_price, msg="Wrong Unit price")
+>>>>>>> upstream/18.0
 =======
         self.assertAlmostEqual(move.stock_valuation_layer_ids.unit_cost, ap_price, msg="Wrong Unit price")
 >>>>>>> upstream/18.0
@@ -1632,7 +1636,11 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertAlmostEqual(product_avg.standard_price, 42.86)
+=======
+        self.assertAlmostEqual(product_avg.standard_price, 42.8571429)
+>>>>>>> upstream/18.0
 =======
         self.assertAlmostEqual(product_avg.standard_price, 42.8571429)
 >>>>>>> upstream/18.0
@@ -2032,7 +2040,11 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertAlmostEqual(product_avg.standard_price, 42.86)
+=======
+        self.assertAlmostEqual(product_avg.standard_price, 42.8571429)
+>>>>>>> upstream/18.0
 =======
         self.assertAlmostEqual(product_avg.standard_price, 42.8571429)
 >>>>>>> upstream/18.0
@@ -2259,7 +2271,11 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertAlmostEqual(product_avg.standard_price, 14.09)
+=======
+        self.assertAlmostEqual(product_avg.standard_price, 14.091)
+>>>>>>> upstream/18.0
 =======
         self.assertAlmostEqual(product_avg.standard_price, 14.091)
 >>>>>>> upstream/18.0
@@ -4061,7 +4077,11 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         company.anglo_saxon_accounting = False
+=======
+        company.anglo_saxon_accounting = True
+>>>>>>> upstream/18.0
 =======
         company.anglo_saxon_accounting = True
 >>>>>>> upstream/18.0
@@ -5006,7 +5026,10 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5766,6 +5789,7 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         product_accounts = self.product1.product_tmpl_id.get_product_accounts()
         payable_id = self.company_data['default_account_payable'].id
         stock_in_id = product_accounts['stock_input'].id
@@ -5786,6 +5810,8 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
             {'debit': 0,   'credit': 50.0,    'account_id': stock_in_id,  'reconciled': False, 'amount_currency': -110.0},
             {'debit': 50.0,   'credit': 0,    'account_id': stock_valuation,  'reconciled': False, 'amount_currency': 110.0},
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6499,6 +6525,9 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7424,7 +7453,10 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7624,6 +7656,9 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8038,7 +8073,10 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8473,7 +8511,10 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8718,6 +8759,9 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9045,6 +9089,7 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9207,6 +9252,8 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9532,6 +9579,7 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9700,6 +9748,8 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9767,6 +9817,9 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

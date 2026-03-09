@@ -404,7 +404,12 @@ class ReceptionReport(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     for move_line_id in new_out.move_line_ids:
+=======
+                    matching_locations = potential_ins.location_dest_id
+                    for move_line_id in new_out.move_line_ids.sorted(lambda ml: ml.location_id not in matching_locations):
+>>>>>>> upstream/18.0
 =======
                     matching_locations = potential_ins.location_dest_id
                     for move_line_id in new_out.move_line_ids.sorted(lambda ml: ml.location_id not in matching_locations):

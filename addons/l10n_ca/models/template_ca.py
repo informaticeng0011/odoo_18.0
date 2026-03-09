@@ -207,7 +207,11 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'NS': ('hst_sale_tax_15', 'hst_purchase_tax_15'),
+=======
+            'NS': ('hst_sale_tax_14', 'hst_purchase_tax_14'),
+>>>>>>> upstream/18.0
 =======
             'NS': ('hst_sale_tax_14', 'hst_purchase_tax_14'),
 >>>>>>> upstream/18.0

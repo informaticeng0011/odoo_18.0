@@ -238,7 +238,10 @@ class TestSoLineDeterminedInTimesheet(TestCommonSaleTimesheet):
         self.assertFalse(timesheet.so_line, 'No SOL should be linked to the timesheet because the project is non billable')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -329,6 +332,9 @@ class TestSoLineDeterminedInTimesheet(TestCommonSaleTimesheet):
         })
         self.assertEqual(timesheet.so_line.id, so_lines[1].id)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

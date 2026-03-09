@@ -23,6 +23,12 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        doc = self.pos_order_ids.l10n_es_edi_verifactu_document_ids._get_last('submission')
+        if doc:
+            vals['was_simplified_invoice'] = doc._get_document_dict()['RegistroAlta']['TipoFactura'] == 'F2'
+>>>>>>> upstream/18.0
 =======
         doc = self.pos_order_ids.l10n_es_edi_verifactu_document_ids._get_last('submission')
         if doc:

@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* project_stock_account
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -198,11 +199,15 @@
 =======
 # * project_stock_account
 >>>>>>> upstream/18.0
+=======
+# * project_stock_account
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Marta Wacławek, 2024
 # Wil Odoo, 2024
 #
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -394,10 +399,14 @@
 =======
 # "Marta (wacm)" <wacm@odoo.com>, 2026.
 >>>>>>> upstream/18.0
+=======
+# "Marta (wacm)" <wacm@odoo.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -601,11 +610,16 @@ msgstr ""
 "Last-Translator: Wil Odoo, 2024\n"
 "Language-Team: Polish (https://app.transifex.com/odoo/teams/41243/pl/)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-03-05 13:54+0000\n"
 "Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
 "Language-Team: Polish <https://translate.odoo.com/projects/odoo-18/"
 "project_stock_account/pl/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -614,6 +628,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
 "(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
 "n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -805,11 +820,15 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.16.1\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.16.1\n"
+>>>>>>> upstream/18.0
 
 #. module: project_stock_account
 #. odoo-python
 #: code:addons/project_stock_account/models/stock_move.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1130,18 +1149,27 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "'%(missing_plan_names)s' analytic plan(s) required on the project '%"
 "(project_name)s' linked to the stock picking."
 msgstr ""
 "„%(missing_plan_names)s ” plany analityczne wymagane w projekcie „%"
 "(project_name)s ” powiązane z procesem kompletacji towarów."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project_stock_account
 #: model:ir.model.fields,field_description:project_stock_account.field_stock_picking_type__analytic_costs
 msgid "Analytic Costs"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koszty analityczne"
+>>>>>>> upstream/18.0
 =======
 msgstr "Koszty analityczne"
 >>>>>>> upstream/18.0
@@ -1150,7 +1178,11 @@ msgstr "Koszty analityczne"
 #: model:ir.model,name:project_stock_account.model_account_analytic_line
 msgid "Analytic Line"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Wiersz analityczny"
+=======
+msgstr "Pozycja analityczna"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pozycja analityczna"
 >>>>>>> upstream/18.0
@@ -1174,7 +1206,11 @@ msgstr "Domena"
 #: model:ir.model.fields.selection,name:project_stock_account.selection__account_analytic_line__category__picking_entry
 msgid "Inventory Transfer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transfer magazynowy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transfer magazynowy"
 >>>>>>> upstream/18.0
@@ -1189,7 +1225,11 @@ msgstr "Materiały"
 #: model:ir.model,name:project_stock_account.model_stock_picking_type
 msgid "Picking Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Typ pobrania"
+=======
+msgstr "Typ kompletacji"
+>>>>>>> upstream/18.0
 =======
 msgstr "Typ kompletacji"
 >>>>>>> upstream/18.0
@@ -1203,7 +1243,11 @@ msgstr "Projekt"
 #: model:ir.model,name:project_stock_account.model_stock_move
 msgid "Stock Move"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Przesunięcie"
+=======
+msgstr "Ruch magazynowy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ruch magazynowy"
 >>>>>>> upstream/18.0
@@ -1212,7 +1256,11 @@ msgstr "Ruch magazynowy"
 #: model:ir.model.fields.selection,name:project_stock_account.selection__account_analytic_applicability__business_domain__stock_picking
 msgid "Stock Picking"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pobranie"
+=======
+msgstr "Kompletacja magazynowa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kompletacja magazynowa"
 >>>>>>> upstream/18.0
@@ -1224,6 +1272,12 @@ msgid ""
 "project. Products set for re-invoicing will also be billed to the customer."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Weryfikacja kompletacji spowoduje wygenerowanie pozycji analitycznych dla "
+"wybranego projektu. Produkty przeznaczone do ponownego fakturowania zostaną "
+"również zafakturowane klientowi."
+>>>>>>> upstream/18.0
 =======
 "Weryfikacja kompletacji spowoduje wygenerowanie pozycji analitycznych dla "
 "wybranego projektu. Produkty przeznaczone do ponownego fakturowania zostaną "

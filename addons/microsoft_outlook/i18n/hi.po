@@ -106,6 +106,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* microsoft_outlook
 # 
 <<<<<<< HEAD
@@ -865,11 +866,14 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * microsoft_outlook
 #
 # Translators:
 # Ujjawal Pathak, 2025
 #
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1216,10 +1220,14 @@
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 >>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2003,6 +2011,10 @@ msgstr ""
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-03-07 18:00+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-03-07 18:00+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Hindi <https://translate.odoo.com/projects/odoo-18/"
 "microsoft_outlook/hi/>\n"
@@ -2011,6 +2023,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2357,6 +2370,9 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.16.1\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.16.1\n"
+>>>>>>> upstream/18.0
 
 #. module: microsoft_outlook
 #: model_terms:ir.ui.view,arch_db:microsoft_outlook.fetchmail_server_view_form
@@ -2372,6 +2388,11 @@ msgid ""
 "                        Connect your Outlook account"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-arrow-right\"/>\n"
+"                         अपने Outlook खाते से कनेक्ट करें"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"oi oi-arrow-right\"/>\n"
 "                         अपने Outlook खाते से कनेक्ट करें"
@@ -2380,6 +2401,7 @@ msgstr ""
 #. module: microsoft_outlook
 #: model_terms:ir.ui.view,arch_db:microsoft_outlook.fetchmail_server_view_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2701,6 +2723,8 @@ msgid ""
 "                    </span>"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "<span invisible=\"server_type != 'outlook' or not "
 "microsoft_outlook_refresh_token\" class=\"badge text-bg-success\">\n"
 "                        Outlook Token Valid\n"
@@ -2710,11 +2734,15 @@ msgstr ""
 "microsoft_outlook_refresh_token\" class=\"badge text-bg-success\">\n"
 "                        Outlook टोकन मान्य\n"
 "                    </span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: microsoft_outlook
 #: model_terms:ir.ui.view,arch_db:microsoft_outlook.ir_mail_server_view_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3036,6 +3064,8 @@ msgid ""
 "                    </span>"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "<span invisible=\"smtp_authentication != 'outlook' or not "
 "microsoft_outlook_refresh_token\" class=\"badge text-bg-success\">\n"
 "                        Outlook Token Valid\n"
@@ -3045,6 +3075,9 @@ msgstr ""
 "microsoft_outlook_refresh_token\" class=\"badge text-bg-success\">\n"
 "                        Outlook टोकन मान्य\n"
 "                    </span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: microsoft_outlook
@@ -3052,7 +3085,11 @@ msgstr ""
 #: code:addons/microsoft_outlook/models/microsoft_outlook_mixin.py:0
 msgid "An error occurred when fetching the access token. %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐक्सेस टोकन लाने में कोई गड़बड़ी हुई है. %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐक्सेस टोकन लाने में कोई गड़बड़ी हुई है. %s"
 >>>>>>> upstream/18.0
@@ -3061,7 +3098,11 @@ msgstr "ऐक्सेस टोकन लाने में कोई गड�
 #: model:ir.model.fields,field_description:microsoft_outlook.field_ir_mail_server__smtp_authentication
 msgid "Authenticate with"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "के साथ प्रमाणित करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "के साथ प्रमाणित करें"
 >>>>>>> upstream/18.0
@@ -3072,7 +3113,11 @@ msgstr "के साथ प्रमाणित करें"
 #: model:ir.model.fields,field_description:microsoft_outlook.field_microsoft_outlook_mixin__microsoft_outlook_uri
 msgid "Authentication URI"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रमाणित करने का लिंक"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्रमाणित करने का लिंक"
 >>>>>>> upstream/18.0
@@ -3271,7 +3316,11 @@ msgid "Config Settings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कॉन्फ़िगरेशन सेटिंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "कॉन्फ़िगरेशन सेटिंग"
 >>>>>>> upstream/18.0
@@ -3915,6 +3964,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "By default, only a user with a matching email address will be able to use this server. To extend its use, you should set a \"mail.default.from\" system parameter."
 =======
 "By default, only a user with a matching email address will be able to use "
@@ -4233,6 +4283,8 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "By default, only a user with a matching email address will be able to use "
 "this server. To extend its use, you should set a \"mail.default.from\" "
 "system parameter."
@@ -4241,6 +4293,9 @@ msgstr ""
 "डिफ़ॉल्ट रूप से, सिर्फ़ मेल खाने वाले ईमेल पते वाला उपयोगकर्ता ही इस सर्वर का इस्तेमाल कर "
 "पाएगा. इसका इस्तेमाल बढ़ाने के लिए, आपको \"mail.default.from\" सिस्टम पैरामीटर सेट "
 "करना चाहिए।"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: microsoft_outlook
@@ -4251,6 +4306,11 @@ msgid ""
 "You will be redirected to the Outlook login page to accept the permissions."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"अपने पर्सनल Outlook को OAuth के ज़रिए जोड़ें. \n"
+"अनुमति देने के लिए आपको Outlook लॉगिन पेज पर भेज दिया जाएगा।"
+>>>>>>> upstream/18.0
 =======
 "अपने पर्सनल Outlook को OAuth के ज़रिए जोड़ें. \n"
 "अनुमति देने के लिए आपको Outlook लॉगिन पेज पर भेज दिया जाएगा।"
@@ -4260,7 +4320,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:microsoft_outlook.microsoft_outlook_oauth_error
 msgid "Go back to your mail server"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अपने मेल सर्वर पर वापस जाएं"
+>>>>>>> upstream/18.0
 =======
 msgstr "अपने मेल सर्वर पर वापस जाएं"
 >>>>>>> upstream/18.0
@@ -4465,7 +4529,11 @@ msgid "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आईडी"
+>>>>>>> upstream/18.0
 =======
 msgstr "आईडी"
 >>>>>>> upstream/18.0
@@ -5062,7 +5130,11 @@ msgstr "आईडी"
 #: model_terms:ir.ui.view,arch_db:microsoft_outlook.res_config_settings_view_form
 msgid "ID of your Outlook app"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आपके Outlook ऐप्लिकेशन की आईडी"
+>>>>>>> upstream/18.0
 =======
 msgstr "आपके Outlook ऐप्लिकेशन की आईडी"
 >>>>>>> upstream/18.0
@@ -5099,7 +5171,11 @@ msgid "Incoming Mail Server"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इनकमिंग मेल सर्वर"
+>>>>>>> upstream/18.0
 =======
 msgstr "इनकमिंग मेल सर्वर"
 >>>>>>> upstream/18.0
@@ -5192,6 +5268,7 @@ msgstr "इनकमिंग मेल सर्वर"
 #. odoo-python
 #: code:addons/microsoft_outlook/models/ir_mail_server.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5512,11 +5589,16 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "Incorrect Connection Security for Outlook mail server “%s”. Please set it to "
 "\"TLS (STARTTLS)\"."
 msgstr ""
 "Outlook मेल सर्वर \"%s\" के लिए कनेक्शन सुरक्षा गलत है. कृपया इसे \"TLS (STARTTLS)\" "
 "पर सेट करें।"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: microsoft_outlook
@@ -5525,7 +5607,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:microsoft_outlook.field_microsoft_outlook_mixin__is_microsoft_outlook_configured
 msgid "Is Outlook Credential Configured"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "क्या Outlook क्रेडेंशियल कॉन्फ़िगर किया गया है"
+>>>>>>> upstream/18.0
 =======
 msgstr "क्या Outlook क्रेडेंशियल कॉन्फ़िगर किया गया है"
 >>>>>>> upstream/18.0
@@ -5639,7 +5725,11 @@ msgid "Mail Server"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेल सर्वर"
+>>>>>>> upstream/18.0
 =======
 msgstr "मेल सर्वर"
 >>>>>>> upstream/18.0
@@ -5963,7 +6053,11 @@ msgstr "मेल सर्वर"
 #: model:ir.model,name:microsoft_outlook.model_microsoft_outlook_mixin
 msgid "Microsoft Outlook Mixin"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Microsoft Outlook मिक्सिन"
+>>>>>>> upstream/18.0
 =======
 msgstr "Microsoft Outlook मिक्सिन"
 >>>>>>> upstream/18.0
@@ -5973,7 +6067,11 @@ msgstr "Microsoft Outlook मिक्सिन"
 #: code:addons/microsoft_outlook/models/microsoft_outlook_mixin.py:0
 msgid "Only the administrator can link an Outlook mail server."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सिर्फ़ एडमिन के पास Outlook मेल सर्वर जोड़ने का अधिकार है।"
+>>>>>>> upstream/18.0
 =======
 msgstr "सिर्फ़ एडमिन के पास Outlook मेल सर्वर जोड़ने का अधिकार है।"
 >>>>>>> upstream/18.0
@@ -5984,7 +6082,11 @@ msgstr "सिर्फ़ एडमिन के पास Outlook मेल �
 #: model:ir.model.fields,field_description:microsoft_outlook.field_microsoft_outlook_mixin__microsoft_outlook_access_token
 msgid "Outlook Access Token"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Outlook ऐक्सेस टोकन"
+>>>>>>> upstream/18.0
 =======
 msgstr "Outlook ऐक्सेस टोकन"
 >>>>>>> upstream/18.0
@@ -5995,7 +6097,11 @@ msgstr "Outlook ऐक्सेस टोकन"
 #: model:ir.model.fields,field_description:microsoft_outlook.field_microsoft_outlook_mixin__microsoft_outlook_access_token_expiration
 msgid "Outlook Access Token Expiration Timestamp"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Outlook टोकन ऐक्सेस टोकन खत्म होने का समय"
+>>>>>>> upstream/18.0
 =======
 msgstr "Outlook टोकन ऐक्सेस टोकन खत्म होने का समय"
 >>>>>>> upstream/18.0
@@ -6109,7 +6215,11 @@ msgid "Outlook Client Id"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Outlook क्लाइंट आईडी"
+>>>>>>> upstream/18.0
 =======
 msgstr "Outlook क्लाइंट आईडी"
 >>>>>>> upstream/18.0
@@ -6538,7 +6648,11 @@ msgid "Outlook Client Secret"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Outlook क्लाइंट सीक्रेट"
+>>>>>>> upstream/18.0
 =======
 msgstr "Outlook क्लाइंट सीक्रेट"
 >>>>>>> upstream/18.0
@@ -6863,7 +6977,11 @@ msgstr "Outlook क्लाइंट सीक्रेट"
 #: model:ir.model.fields.selection,name:microsoft_outlook.selection__ir_mail_server__smtp_authentication__outlook
 msgid "Outlook OAuth Authentication"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Outlook OAuth प्रमाणीकरण"
+>>>>>>> upstream/18.0
 =======
 msgstr "Outlook OAuth प्रमाणीकरण"
 >>>>>>> upstream/18.0
@@ -6874,7 +6992,11 @@ msgstr "Outlook OAuth प्रमाणीकरण"
 #: model:ir.model.fields,field_description:microsoft_outlook.field_microsoft_outlook_mixin__microsoft_outlook_refresh_token
 msgid "Outlook Refresh Token"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Outlook रीफ्रेश टोकन"
+>>>>>>> upstream/18.0
 =======
 msgstr "Outlook रीफ्रेश टोकन"
 >>>>>>> upstream/18.0
@@ -6884,7 +7006,11 @@ msgstr "Outlook रीफ्रेश टोकन"
 #: code:addons/microsoft_outlook/models/microsoft_outlook_mixin.py:0
 msgid "Please configure your Outlook credentials."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कृपया अपने Outlook क्रेडेंशियल कॉन्फ़िगर करें।"
+>>>>>>> upstream/18.0
 =======
 msgstr "कृपया अपने Outlook क्रेडेंशियल कॉन्फ़िगर करें।"
 >>>>>>> upstream/18.0
@@ -6894,7 +7020,11 @@ msgstr "कृपया अपने Outlook क्रेडेंशियल �
 #: code:addons/microsoft_outlook/models/microsoft_outlook_mixin.py:0
 msgid "Please connect with your Outlook account before using it."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कृपया इसका इस्तेमाल करने से पहले अपने Outlook अकाउंट से कनेक्ट करें।"
+>>>>>>> upstream/18.0
 =======
 msgstr "कृपया इसका इस्तेमाल करने से पहले अपने Outlook अकाउंट से कनेक्ट करें।"
 >>>>>>> upstream/18.0
@@ -6908,6 +7038,11 @@ msgid ""
 "the Outlook OAuthentication Token."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"कृपया \"यूज़रनेम\" फ़ील्ड में अपना Outlook/Office365 यूज़रनेम (अपना ईमेल पता) भरें. यह वही "
+"अकाउंट होना चाहिए जिसका उपयोग Outlook OAuth टोकन के लिए किया गया है।"
+>>>>>>> upstream/18.0
 =======
 "कृपया \"यूज़रनेम\" फ़ील्ड में अपना Outlook/Office365 यूज़रनेम (अपना ईमेल पता) भरें. यह वही "
 "अकाउंट होना चाहिए जिसका उपयोग Outlook OAuth टोकन के लिए किया गया है।"
@@ -6921,6 +7056,11 @@ msgid ""
 "OAuth process does not require it"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"कृपया Outlook मेल सर्वर \"%s\" के लिए पासवर्ड फ़ील्ड को खाली छोड़ दें. OAuth प्रक्रिया में "
+"इसकी ज़रूरत नहीं है"
+>>>>>>> upstream/18.0
 =======
 "कृपया Outlook मेल सर्वर \"%s\" के लिए पासवर्ड फ़ील्ड को खाली छोड़ दें. OAuth प्रक्रिया में "
 "इसकी ज़रूरत नहीं है"
@@ -7035,7 +7175,11 @@ msgid "Read More"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ज़्यादा जानें"
+>>>>>>> upstream/18.0
 =======
 msgstr "ज़्यादा जानें"
 >>>>>>> upstream/18.0
@@ -7360,7 +7504,11 @@ msgstr "ज़्यादा जानें"
 #: code:addons/microsoft_outlook/models/fetchmail_server.py:0
 msgid "SSL is required for server “%s”."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सर्वर \"%s\" के लिए SSL ज़रूरी है।"
+>>>>>>> upstream/18.0
 =======
 msgstr "सर्वर \"%s\" के लिए SSL ज़रूरी है।"
 >>>>>>> upstream/18.0
@@ -7474,7 +7622,11 @@ msgid "Secret"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सीक्रेट"
+>>>>>>> upstream/18.0
 =======
 msgstr "सीक्रेट"
 >>>>>>> upstream/18.0
@@ -7798,7 +7950,11 @@ msgstr "सीक्रेट"
 #: model_terms:ir.ui.view,arch_db:microsoft_outlook.res_config_settings_view_form
 msgid "Secret of your Outlook app"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आपके Outlook ऐप का सीक्रेट"
+>>>>>>> upstream/18.0
 =======
 msgstr "आपके Outlook ऐप का सीक्रेट"
 >>>>>>> upstream/18.0
@@ -7835,7 +7991,11 @@ msgid "Server Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सर्वर टाइप"
+>>>>>>> upstream/18.0
 =======
 msgstr "सर्वर टाइप"
 >>>>>>> upstream/18.0
@@ -7928,6 +8088,7 @@ msgstr "सर्वर टाइप"
 #: model_terms:ir.ui.view,arch_db:microsoft_outlook.fetchmail_server_view_form
 #: model_terms:ir.ui.view,arch_db:microsoft_outlook.ir_mail_server_view_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8248,10 +8409,15 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "Setup your Outlook API credentials in the general settings to link a Outlook "
 "account."
 msgstr ""
 "Outlook अकाउंट लिंक करने के लिए सामान्य सेटिंग में अपने Outlook API क्रेडेंशियल सेटअप करें।"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: microsoft_outlook
@@ -8260,7 +8426,11 @@ msgstr ""
 #: model:ir.model.fields,help:microsoft_outlook.field_microsoft_outlook_mixin__microsoft_outlook_uri
 msgid "The URL to generate the authorization code from Outlook"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Outlook से प्रमाणीकरण कोड जनरेट करने का यूआरएल"
+>>>>>>> upstream/18.0
 =======
 msgstr "Outlook से प्रमाणीकरण कोड जनरेट करने का यूआरएल"
 >>>>>>> upstream/18.0
@@ -8270,7 +8440,11 @@ msgstr "Outlook से प्रमाणीकरण कोड जनरेट 
 #: code:addons/microsoft_outlook/models/microsoft_outlook_mixin.py:0
 msgid "Unknown error."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अनजानी गड़बड़ी।"
+>>>>>>> upstream/18.0
 =======
 msgstr "अनजानी गड़बड़ी।"
 >>>>>>> upstream/18.0

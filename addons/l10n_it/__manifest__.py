@@ -133,6 +133,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'version': '0.7',
 =======
     'version': '0.8',
@@ -445,6 +446,9 @@
 >>>>>>> upstream/18.0
 =======
     'version': '0.8',
+>>>>>>> upstream/18.0
+=======
+    'version': '0.9',
 >>>>>>> upstream/18.0
 =======
     'version': '0.9',

@@ -19,7 +19,11 @@ import { NameAndSignature } from "@web/core/signature/name_and_signature";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { expect, test } from "@odoo/hoot";
+=======
+import { expect, queryOne, test } from "@odoo/hoot";
+>>>>>>> upstream/18.0
 =======
 import { expect, queryOne, test } from "@odoo/hoot";
 >>>>>>> upstream/18.0
@@ -437,7 +441,10 @@ test("signature field should render initials", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -511,6 +518,9 @@ test("error loading url", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

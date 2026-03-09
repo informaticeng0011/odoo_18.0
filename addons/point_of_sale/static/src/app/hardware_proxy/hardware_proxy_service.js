@@ -292,6 +292,7 @@ export class HardwareProxy extends EventBus {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                     targetAddressSpace: "local",
 >>>>>>> upstream/18.0
@@ -521,6 +522,9 @@ export class HardwareProxy extends EventBus {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+                    targetAddressSpace: odoo.use_lna ? "local" : undefined,
 >>>>>>> upstream/18.0
 =======
                     targetAddressSpace: odoo.use_lna ? "local" : undefined,
@@ -632,6 +636,7 @@ export class HardwareProxy extends EventBus {
     }
 
     async openCashbox(action = false) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1044,6 +1049,8 @@ export class HardwareProxy extends EventBus {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const isPrinterConnected =
             ["connected", "init"].includes(this.connectionInfo.status) ||
             this.pos.config.epson_printer_ip;
@@ -1183,6 +1190,9 @@ export class HardwareProxy extends EventBus {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
