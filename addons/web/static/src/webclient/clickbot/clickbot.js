@@ -570,6 +570,10 @@ async function _clickEverywhere(xmlId, light, currentState) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            state.xmlId = xmlId;
+>>>>>>> upstream/18.0
 =======
             state.xmlId = xmlId;
 >>>>>>> upstream/18.0

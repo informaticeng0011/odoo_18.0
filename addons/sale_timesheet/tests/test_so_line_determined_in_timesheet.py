@@ -239,7 +239,10 @@ class TestSoLineDeterminedInTimesheet(TestCommonSaleTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -333,6 +336,9 @@ class TestSoLineDeterminedInTimesheet(TestCommonSaleTimesheet):
         self.assertEqual(timesheet.so_line.id, so_lines[1].id)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

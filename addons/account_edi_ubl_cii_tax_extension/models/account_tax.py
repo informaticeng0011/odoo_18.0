@@ -104,6 +104,11 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            ('VATEX-EU-144', 'VATEX-EU-144 - Exempt based on article 144 of Council Directive 2006/112/EC'),
+            ('VATEX-EU-146-1E', 'VATEX-EU-146-1E - Exempt based on article 146 section 1 (e) of Council Directive 2006/112/EC'),
+>>>>>>> upstream/18.0
 =======
             ('VATEX-EU-144', 'VATEX-EU-144 - Exempt based on article 144 of Council Directive 2006/112/EC'),
             ('VATEX-EU-146-1E', 'VATEX-EU-146-1E - Exempt based on article 146 section 1 (e) of Council Directive 2006/112/EC'),
@@ -354,6 +359,11 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            ('VATEX-EU-153', 'VATEX-EU-153 - Exempt based on article 153 of Council Directive 2006/112/EC'),
+            ('VATEX-EU-159', 'VATEX-EU-159 - Exempt based on article 159 of Council Directive 2006/112/EC'),
+>>>>>>> upstream/18.0
 =======
             ('VATEX-EU-153', 'VATEX-EU-153 - Exempt based on article 153 of Council Directive 2006/112/EC'),
             ('VATEX-EU-159', 'VATEX-EU-159 - Exempt based on article 159 of Council Directive 2006/112/EC'),
@@ -600,7 +610,10 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -763,6 +776,9 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -246,7 +246,14 @@
                                                     t-options="{'widget': 'monetary', 'display_currency': sale_order.currency_id}"
                                                     class="fw-bold"
                                                 />
+<<<<<<< HEAD
                                                 (<b t-esc="sale_order.prepayment_percent * 100"/>%),
+=======
+                                                (<b
+                                                    t-esc="sale_order.prepayment_percent * 100"
+                                                    t-options="{'widget': 'float'}"
+                                                />%),
+>>>>>>> upstream/18.0
                                             </span>
                                             <span id="o_sale_portal_use_amount_total">
                                                 By paying,
@@ -455,7 +462,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -580,6 +590,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1030,7 +1043,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1408,6 +1424,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -117,6 +117,7 @@ export class MailAttachments extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return this.props.record.data[this.props.name] || [];
 =======
 =======
@@ -133,6 +134,8 @@ export class MailAttachments extends Component {
 >>>>>>> upstream/18.0
         const attachments = this.props.record.data[this.props.name] || [];
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -399,6 +402,9 @@ export class MailAttachments extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -675,6 +681,9 @@ export class MailAttachments extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -874,6 +883,7 @@ export class MailAttachments extends Component {
         return file.name.replace(/^.*\./, "");
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1181,6 +1191,8 @@ export class MailAttachments extends Component {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     get iconsSupported() {
         // Technical getter to display icons in view
         return this.getRenderedValue().some(attachment => !!attachment.tooltip);
@@ -1273,6 +1285,9 @@ export class MailAttachments extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

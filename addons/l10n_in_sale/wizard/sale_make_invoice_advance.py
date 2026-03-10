@@ -191,7 +191,11 @@ class SaleAdvancePaymentInv(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             res['l10n_in_reseller_partner_id'] = order.l10n_in_reseller_partner_id
+=======
+            res['l10n_in_reseller_partner_id'] = order.l10n_in_reseller_partner_id.id
+>>>>>>> upstream/18.0
 =======
             res['l10n_in_reseller_partner_id'] = order.l10n_in_reseller_partner_id.id
 >>>>>>> upstream/18.0

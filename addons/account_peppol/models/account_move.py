@@ -248,7 +248,11 @@ from odoo.exceptions import UserError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.account.models.company import PEPPOL_DEFAULT_COUNTRIES
+=======
+from odoo.addons.account.models.company import PEPPOL_MAILING_COUNTRIES
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.account.models.company import PEPPOL_MAILING_COUNTRIES
 >>>>>>> upstream/18.0
@@ -997,6 +1001,7 @@ class AccountMove(models.Model):
         selection=[
             ('ready', 'Ready to send'),
             ('to_send', 'Queued'),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2066,6 +2071,9 @@ class AccountMove(models.Model):
 =======
             ('skipped', 'Skipped'),  # TODO remove this state in master, we now put a regular error.
 >>>>>>> upstream/18.0
+=======
+            ('skipped', 'Skipped'),  # TODO remove this state in master, we now put a regular error.
+>>>>>>> upstream/18.0
             ('processing', 'Pending Reception'),
             ('done', 'Done'),
             ('error', 'Error'),
@@ -2104,6 +2112,7 @@ class AccountMove(models.Model):
             else:
                 move.peppol_move_state = move.peppol_move_state
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2860,6 +2869,8 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def _notify_by_email_prepare_rendering_context(self, message, msg_vals=False, model_description=False,
                                                    force_email_company=False, force_email_lang=False):
         render_context = super()._notify_by_email_prepare_rendering_context(
@@ -3079,6 +3090,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3510,6 +3524,7 @@ class AccountMove(models.Model):
                 'peppol_country': invoice_country,
                 'is_peppol_sent': invoice.peppol_move_state in ('processing', 'done'),
                 'partner_on_peppol': invoice.commercial_partner_id.peppol_verification_state in ('valid', 'not_valid_format'),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4228,6 +4243,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+            }
+        return render_context
 >>>>>>> upstream/18.0
 =======
             }

@@ -287,6 +287,10 @@ function cycle(num, max) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ *     keywords: Array<String> // to add synonyms for command
+>>>>>>> upstream/18.0
 =======
  *     keywords: Array<String> // to add synonyms for command
 >>>>>>> upstream/18.0
@@ -1682,7 +1686,13 @@ export class Powerbox {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         return commandText.match(fuzzyRegex) || commandDescription.match(exactRegex);
+=======
+                        return commandText.match(fuzzyRegex)
+                            || commandDescription.match(exactRegex)
+                            || command.keywords?.some(keyword => exactRegex.test(keyword));
+>>>>>>> upstream/18.0
 =======
                         return commandText.match(fuzzyRegex)
                             || commandDescription.match(exactRegex)

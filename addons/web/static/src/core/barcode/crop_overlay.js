@@ -53,6 +53,10 @@ import { browser } from "@web/core/browser/browser";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { isIOS } from "@web/core/browser/feature_detection";
+>>>>>>> upstream/18.0
 =======
 import { isIOS } from "@web/core/browser/feature_detection";
 >>>>>>> upstream/18.0
@@ -292,6 +296,10 @@ export class CropOverlay extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.isIOS = isIOS();
+>>>>>>> upstream/18.0
 =======
         this.isIOS = isIOS();
 >>>>>>> upstream/18.0

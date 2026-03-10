@@ -265,7 +265,13 @@ export class CalendarModel extends Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             hasCreateRight: null,
+=======
+            // Just keep hasCreateRight in stable for compatibility,
+            // Set it to its correct value though.
+            hasCreateRight: this.canCreate,
+>>>>>>> upstream/18.0
 =======
             // Just keep hasCreateRight in stable for compatibility,
             // Set it to its correct value though.
@@ -1690,7 +1696,11 @@ export class CalendarModel extends Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return this.meta.canCreate && this.data.hasCreateRight;
+=======
+        return this.meta.canCreate;
+>>>>>>> upstream/18.0
 =======
         return this.meta.canCreate;
 >>>>>>> upstream/18.0
@@ -2817,6 +2827,12 @@ export class CalendarModel extends Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    getAllDayDates(start, end) {
+        return [start.set({ hours: 7 }), end.set({ hours: 19 })];
+    }
+>>>>>>> upstream/18.0
 =======
     getAllDayDates(start, end) {
         return [start.set({ hours: 7 }), end.set({ hours: 19 })];
@@ -4443,8 +4459,12 @@ export class CalendarModel extends Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 start = start.set({ hours: 7 });
                 end = end.set({ hours: 19 });
+=======
+                [start, end] = this.getAllDayDates(start, end);
+>>>>>>> upstream/18.0
 =======
                 [start, end] = this.getAllDayDates(start, end);
 >>>>>>> upstream/18.0
@@ -5540,9 +5560,12 @@ export class CalendarModel extends Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (data.hasCreateRight === null) {
             data.hasCreateRight = await user.checkAccessRight(this.meta.resModel, "create");
         }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

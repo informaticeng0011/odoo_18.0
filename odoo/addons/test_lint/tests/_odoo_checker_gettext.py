@@ -44,7 +44,11 @@ class OdooBaseChecker(BaseChecker):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'See https://www.odoo.com/documentation/master/developer/misc/i18n/translations.html#variables'
+=======
+            'See https://www.odoo.com/documentation/master/developer/howtos/translations.html#variables',
+>>>>>>> upstream/18.0
 =======
             'See https://www.odoo.com/documentation/master/developer/howtos/translations.html#variables',
 >>>>>>> upstream/18.0
@@ -77,7 +81,11 @@ class OdooBaseChecker(BaseChecker):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'Use keyword arguments when you have multiple placeholders',
+=======
+            'Use named placeholders (e.g. %(name)s) when you have multiple of them. This allows translators to reorder them if needed.',
+>>>>>>> upstream/18.0
 =======
             'Use named placeholders (e.g. %(name)s) when you have multiple of them. This allows translators to reorder them if needed.',
 >>>>>>> upstream/18.0

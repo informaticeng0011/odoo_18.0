@@ -418,7 +418,10 @@ class TestProductConfiguratorData(HttpCaseWithUserDemo, ProductVariantsCommon, S
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -762,6 +765,9 @@ class TestProductConfiguratorData(HttpCaseWithUserDemo, ProductVariantsCommon, S
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -86,6 +86,7 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                                     'cbc:TaxExemptionReason': {},
 >>>>>>> upstream/18.0
@@ -105,6 +106,10 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
                                     'cbc:TaxExemptionReason': {},
 >>>>>>> upstream/18.0
 =======
+                                    'cbc:TaxExemptionReason': {},
+>>>>>>> upstream/18.0
+=======
+                                    'cbc:TaxExemptionReasonCode': {},
                                     'cbc:TaxExemptionReason': {},
 >>>>>>> upstream/18.0
 =======
@@ -339,7 +344,11 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             'hrextac:HRTaxExclusiveAmount': {},
+=======
+                            'cbc:TaxExclusiveAmount': {},
+>>>>>>> upstream/18.0
 =======
                             'cbc:TaxExclusiveAmount': {},
 >>>>>>> upstream/18.0
@@ -527,7 +536,11 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'hrextac': "urn:hzn.hr:schema:xsd:HRExtensionAggregateComponents-1",
+=======
+            'hrextac': "urn:mfin.gov.hr:schema:xsd:HRExtensionAggregateComponents-1",
+>>>>>>> upstream/18.0
 =======
             'hrextac': "urn:mfin.gov.hr:schema:xsd:HRExtensionAggregateComponents-1",
 >>>>>>> upstream/18.0
@@ -664,8 +677,11 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         constraints = super()._export_invoice_constraints_new(invoice, vals)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -722,6 +738,9 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -770,8 +789,14 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if any(c.isspace() for c in vals['document_node']['cac:PaymentMeans']['cac:PayeeFinancialAccount']['cbc:ID'].get('_text')):
                 constraints.update({'ubl_hr_br_1': self.env._("HR-BR-1: The account number must not contain whitespace characters.")})
+=======
+            for node in vals['document_node']['cac:PaymentMeans']:
+                if any(char.isspace() for char in node.get('cac:PayeeFinancialAccount', {}).get('cbc:ID', {}).get('_text', '')):
+                    constraints['ubl_hr_br_1'] = self.env._("HR-BR-1: The account number must not contain whitespace characters.")
+>>>>>>> upstream/18.0
 =======
             for node in vals['document_node']['cac:PaymentMeans']:
                 if any(char.isspace() for char in node.get('cac:PayeeFinancialAccount', {}).get('cbc:ID', {}).get('_text', '')):
@@ -819,6 +844,7 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
         self._add_hr_extension_node(document_node)
         return document_node
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1003,6 +1029,8 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def _ubl_add_id_node(self, vals):
         # EXTENDS account.edi.xml.ubl_bis3
         super()._ubl_add_id_node(vals)
@@ -1097,6 +1125,9 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1110,6 +1141,7 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
                 'cbc:IssueDate': {
                     '_text': invoice.reversed_entry_id.invoice_date
                 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1545,6 +1577,11 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
 
     def _add_hr_extension_node(self, document_node):
 >>>>>>> upstream/18.0
+=======
+            }]
+
+    def _add_hr_extension_node(self, document_node):
+>>>>>>> upstream/18.0
         """
         This function constructs hrextac node from existing data within the document.
         The structure mostly follows that of 'cac:TaxTotal' node of a UBL 2.1/BIS 3 document,
@@ -1607,6 +1644,9 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1702,6 +1742,9 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1797,6 +1840,7 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
                     'ext:ExtensionContent': {
                         'hrextac:HRFISK20Data': {
                             'hrextac:HRObracunPDVPoNaplati': cash_basis_line,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1980,6 +2024,8 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                             'hrextac:HRTaxTotal': hr_tax_totals,
                             'hrextac:HRLegalMonetaryTotal': {
                                 'cbc:TaxExclusiveAmount': document_node['cac:LegalMonetaryTotal']['cbc:TaxExclusiveAmount'],
@@ -2007,6 +2053,9 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2061,6 +2110,7 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
             }
         })
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2345,12 +2395,15 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def _ubl_add_party_endpoint_id_node(self, vals):
         # EXTENDS account.edi.ubl_bis3
         super()._ubl_add_party_endpoint_id_node(vals)
         partner = vals['party_vals']['partner']
         commercial_partner = partner.commercial_partner_id
         if commercial_partner.l10n_hr_personal_oib:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2389,6 +2442,8 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             endpoint = commercial_partner.l10n_hr_personal_oib
             scheme_id = '9934'
         elif commercial_partner.company_registry:
@@ -2403,6 +2458,9 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2415,6 +2473,7 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
         super()._ubl_add_party_identification_nodes(vals)
         partner = vals['party_vals']['partner']
         commercial_partner = partner.commercial_partner_id
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2495,6 +2554,8 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         if commercial_partner.l10n_hr_business_unit_code:
             bu_code = '::HR99:' + commercial_partner.l10n_hr_business_unit_code
         else:
@@ -2523,6 +2584,9 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2579,6 +2643,9 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2657,6 +2724,7 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2682,6 +2750,10 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        hr_category = tax.l10n_hr_tax_category_id if tax else None
+
 >>>>>>> upstream/18.0
 =======
         hr_category = tax.l10n_hr_tax_category_id if tax else None
@@ -2783,6 +2855,7 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
         # a document-level expense VAT category code (HR-BT-6) from table HR-TB-2 HR VAT category codes
         #   Instead of determining what the elements should be from the invoice details, here we directly use
         #   the data of the VAT expence category defined on the tax by the user
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3125,6 +3198,8 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         if (
             tax.l10n_hr_tax_category_id
             and tax.amount_type == 'percent'
@@ -3155,10 +3230,13 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'tax_category_code': tax.l10n_hr_tax_category_id.code_untdid,
                 'tax_exemption_reason': tax.l10n_hr_tax_category_id.description,
             })
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3234,6 +3312,9 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3339,6 +3420,7 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3397,6 +3479,8 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3413,6 +3497,9 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3462,6 +3549,12 @@ class AccountEdiXmlUBLHR(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if line_values is None:
+                continue
+
+>>>>>>> upstream/18.0
 =======
             if line_values is None:
                 continue

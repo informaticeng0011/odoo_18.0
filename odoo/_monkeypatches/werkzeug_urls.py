@@ -7,12 +7,19 @@ import os
 import re
 import sys
 import typing as t
+<<<<<<< HEAD
 import warnings
+=======
+>>>>>>> upstream/18.0
 from shutil import copyfileobj
 from types import CodeType
 
 from werkzeug import urls
+<<<<<<< HEAD
 from werkzeug.datastructures import FileStorage, MultiDict
+=======
+from werkzeug.datastructures import FileStorage, MultiDict, iter_multi_items
+>>>>>>> upstream/18.0
 from werkzeug.routing import Rule
 from werkzeug.urls import _decode_idna
 from werkzeug.wrappers import Request, Response
@@ -171,7 +178,10 @@ _always_safe_chars = (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "$!'()*+,;"  # RFC3986 sub-delims set, not including query string delimiters &=
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -671,6 +681,7 @@ class URL(BaseURL):
         """Encodes the URL to a tuple made out of bytes.  The charset is
         only being used for the path, query and fragment.
         """
+<<<<<<< HEAD
         with warnings.catch_warnings():
             warnings.filterwarnings("ignore", "'werkzeug", DeprecationWarning)
             return BytesURL(
@@ -680,6 +691,15 @@ class URL(BaseURL):
                 self.query.encode(charset, errors),
                 self.fragment.encode(charset, errors),
             )
+=======
+        return BytesURL(
+            self.scheme.encode("ascii"),
+            self.encode_netloc(),
+            self.path.encode(charset, errors),
+            self.query.encode(charset, errors),
+            self.fragment.encode(charset, errors),
+        )
+>>>>>>> upstream/18.0
 
 
 class BytesURL(BaseURL):
@@ -706,6 +726,7 @@ class BytesURL(BaseURL):
         """Decodes the URL to a tuple made out of strings.  The charset is
         only being used for the path, query and fragment.
         """
+<<<<<<< HEAD
         with warnings.catch_warnings():
             warnings.filterwarnings("ignore", "'werkzeug", DeprecationWarning)
             return URL(
@@ -715,6 +736,15 @@ class BytesURL(BaseURL):
                 self.query.decode(charset, errors),  # type: ignore
                 self.fragment.decode(charset, errors),  # type: ignore
             )
+=======
+        return URL(
+            self.scheme.decode("ascii"),  # type: ignore
+            self.decode_netloc(),
+            self.path.decode(charset, errors),  # type: ignore
+            self.query.decode(charset, errors),  # type: ignore
+            self.fragment.decode(charset, errors),  # type: ignore
+        )
+>>>>>>> upstream/18.0
 
 
 _unquote_maps: dict[frozenset[int], dict[bytes, int]] = {frozenset(): _hextobyte}
@@ -757,8 +787,11 @@ def _url_encode_impl(
     sort: bool,
     key: t.Callable[[tuple[str, str]], t.Any] | None,
 ) -> t.Iterator[str]:
+<<<<<<< HEAD
     from werkzeug.datastructures import iter_multi_items
 
+=======
+>>>>>>> upstream/18.0
     iterable: t.Iterable[tuple[str, str]] = iter_multi_items(obj)
 
     if sort:
@@ -840,9 +873,13 @@ def url_parse(
 
     result_type = URL if is_text_based else BytesURL
 
+<<<<<<< HEAD
     with warnings.catch_warnings():
         warnings.filterwarnings("ignore", "'werkzeug", DeprecationWarning)
         return result_type(scheme, netloc, url, query, fragment)
+=======
+    return result_type(scheme, netloc, url, query, fragment)
+>>>>>>> upstream/18.0
 
 
 def _make_fast_url_quote(
@@ -937,9 +974,13 @@ def url_quote_plus(
         Will be removed in Werkzeug 2.4. Use ``urllib.parse.quote_plus`` instead.
     """
 
+<<<<<<< HEAD
     with warnings.catch_warnings():
         warnings.filterwarnings("ignore", "'werkzeug", DeprecationWarning)
         return url_quote(string, charset, errors, safe + " ", "+").replace(" ", "+")
+=======
+    return url_quote(string, charset, errors, safe + " ", "+").replace(" ", "+")
+>>>>>>> upstream/18.0
 
 
 def url_unparse(components: tuple[str, str, str, str, str]) -> str:
@@ -1023,9 +1064,13 @@ def url_unquote_plus(
     else:
         s = s.replace(b"+", b" ")
 
+<<<<<<< HEAD
     with warnings.catch_warnings():
         warnings.filterwarnings("ignore", "'werkzeug", DeprecationWarning)
         return url_unquote(s, charset, errors)
+=======
+    return url_unquote(s, charset, errors)
+>>>>>>> upstream/18.0
 
 
 def url_fix(s: str, charset: str = "utf-8") -> str:
@@ -1054,6 +1099,7 @@ def url_fix(s: str, charset: str = "utf-8") -> str:
     if s.startswith("file://") and s[7:8].isalpha() and s[8:10] in (":/", "|/"):
         s = f"file:///{s[7:]}"
 
+<<<<<<< HEAD
     with warnings.catch_warnings():
         warnings.filterwarnings("ignore", "'werkzeug", DeprecationWarning)
         url = url_parse(s)
@@ -1061,6 +1107,13 @@ def url_fix(s: str, charset: str = "utf-8") -> str:
         qs = url_quote_plus(url.query, charset, safe=":&%=+$!*'(),")
         anchor = url_quote_plus(url.fragment, charset, safe=":&%=+$!*'(),")
         return url_unparse((url.scheme, url.encode_netloc(), path, qs, anchor))
+=======
+    url = url_parse(s)
+    path = url_quote(url.path, charset, safe="/%+$!*'(),")
+    qs = url_quote_plus(url.query, charset, safe=":&%=+$!*'(),")
+    anchor = url_quote_plus(url.fragment, charset, safe=":&%=+$!*'(),")
+    return url_unparse((url.scheme, url.encode_netloc(), path, qs, anchor))
+>>>>>>> upstream/18.0
 
 
 def url_decode(
@@ -1156,9 +1209,13 @@ def url_decode_stream(
 
         cls = MultiDict
 
+<<<<<<< HEAD
     with warnings.catch_warnings():
         warnings.filterwarnings("ignore", "'make_chunk_iter", DeprecationWarning)
         return cls(decoder)
+=======
+    return cls(decoder)
+>>>>>>> upstream/18.0
 
 
 def _url_decode_impl(

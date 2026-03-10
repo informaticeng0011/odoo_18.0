@@ -234,6 +234,10 @@ import { Dialog } from "@web/core/dialog/dialog";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { RPCError } from "@web/core/network/rpc";
+>>>>>>> upstream/18.0
 =======
 import { RPCError } from "@web/core/network/rpc";
 >>>>>>> upstream/18.0
@@ -1173,6 +1177,7 @@ export class OpeningControlPopup extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await this.pos.data.call(
             "pos.session",
             "set_opening_control",
@@ -1181,6 +1186,8 @@ export class OpeningControlPopup extends Component {
             true
         );
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1880,6 +1887,9 @@ export class OpeningControlPopup extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

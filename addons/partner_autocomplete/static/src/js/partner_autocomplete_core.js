@@ -132,6 +132,7 @@ import { _t } from "@web/core/l10n/translation";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { browser } from "@web/core/browser/browser";
 import { KeepLast } from "@web/core/utils/concurrency";
 import { useService } from "@web/core/utils/hooks";
@@ -914,6 +915,8 @@ import { onWillStart } from "@odoo/owl";
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import { KeepLast } from "@web/core/utils/concurrency";
 import { useService } from "@web/core/utils/hooks";
 import { renderToMarkup } from "@web/core/utils/render";
@@ -1046,6 +1049,9 @@ import { onWillStart } from "@odoo/owl";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1576,7 +1582,10 @@ export function usePartnerAutocomplete() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2355,6 +2364,9 @@ export function usePartnerAutocomplete() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3136,9 +3148,12 @@ export function usePartnerAutocomplete() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // Lazyload jsvat only if the component is being used.
         await loadJS("/partner_autocomplete/static/lib/jsvat.js");
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3850,6 +3865,7 @@ export function usePartnerAutocomplete() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return new Promise((resolve) => {
             // Fetch additional company info via Autocomplete Enrichment API
             const enrichPromise = enrichCompany(company);
@@ -4307,6 +4323,11 @@ export function usePartnerAutocomplete() {
             // Fetch additional company info via Autocomplete Enrichment API
             let isEnrichAccessible = false;
 >>>>>>> upstream/18.0
+=======
+        return enrichCompany(company).then((companyData) => {
+            // Fetch additional company info via Autocomplete Enrichment API
+            let isEnrichAccessible = false;
+>>>>>>> upstream/18.0
             if (companyData.error) {
                 if (companyData.error_message === 'Insufficient Credit') {
                     notifyNoCredits();
@@ -4322,6 +4343,7 @@ export function usePartnerAutocomplete() {
                     ...companyData,
                 };
             }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4661,6 +4683,8 @@ export function usePartnerAutocomplete() {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4745,6 +4769,9 @@ export function usePartnerAutocomplete() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4947,7 +4974,10 @@ export function usePartnerAutocomplete() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             suggestion.logoUrl = await getClearbitLogoUrl(suggestion);
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5349,6 +5379,7 @@ export function usePartnerAutocomplete() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * Utility to wait for multiple promises
      * Promise.all will reject all promises whenever a promise is rejected
      * This utility will continue
@@ -5364,6 +5395,8 @@ export function usePartnerAutocomplete() {
     }
 
     /**
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

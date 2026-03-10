@@ -1,5 +1,9 @@
 from PyPDF2 import errors, filters, generic, PdfReader, PdfWriter as _Writer
 from PyPDF2.generic import create_string_object
+<<<<<<< HEAD
+=======
+from PyPDF2 import __version__  # noqa: F401
+>>>>>>> upstream/18.0
 
 __all__ = [
     "PdfReader",
