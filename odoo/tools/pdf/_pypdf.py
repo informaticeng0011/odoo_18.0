@@ -4,6 +4,10 @@ import pypdf
 from pypdf import errors, filters, generic, PdfReader as _Reader, PdfWriter as _Writer
 from pypdf.generic import create_string_object
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from pypdf import __version__  # noqa: F401
+>>>>>>> upstream/18.0
 =======
 from pypdf import __version__  # noqa: F401
 >>>>>>> upstream/18.0
@@ -248,8 +252,13 @@ class PdfWriter(_Writer):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def addBlankPage(self):
         return self.add_blank_page()
+=======
+    def addBlankPage(self, width=None, height=None):
+        return self.add_blank_page(width=width, height=height)
+>>>>>>> upstream/18.0
 =======
     def addBlankPage(self, width=None, height=None):
         return self.add_blank_page(width=width, height=height)

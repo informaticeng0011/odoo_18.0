@@ -10,6 +10,7 @@ from uuid import uuid4
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 from odoo.addons.point_of_sale.tests.test_frontend import TestPointOfSaleHttpCommon
 <<<<<<< HEAD
@@ -146,6 +147,11 @@ from odoo.addons.point_of_sale.tests.common import TestPoSCommon
 <<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+from odoo.addons.point_of_sale.tests.test_frontend import TestPointOfSaleHttpCommon
+from odoo.addons.point_of_sale.tests.common import TestPoSCommon
 >>>>>>> upstream/18.0
 =======
 
@@ -359,6 +365,10 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.main_pos_config.current_session_id.update_stock_at_closing = True
+>>>>>>> upstream/18.0
 =======
         self.main_pos_config.current_session_id.update_stock_at_closing = True
 >>>>>>> upstream/18.0
@@ -719,7 +729,10 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1075,6 +1088,9 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1657,7 +1673,11 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.env['res.partner'].create({'name': 'Test Partner AAA'})
+=======
+        self.env['res.partner'].create({'name': 'A Test Partner AAA'})
+>>>>>>> upstream/18.0
 =======
         self.env['res.partner'].create({'name': 'A Test Partner AAA'})
 >>>>>>> upstream/18.0
@@ -2427,7 +2447,10 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2773,6 +2796,9 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3191,7 +3217,11 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'email': 'deco.addict82@example.com',
+=======
+            'email': 'acme.corp82@example.com',
+>>>>>>> upstream/18.0
 =======
             'email': 'acme.corp82@example.com',
 >>>>>>> upstream/18.0
@@ -3406,6 +3436,7 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
         self.start_tour("/pos/ui?config_id=%d" % self.main_pos_config.id, 'PosRepairSettleOrder', login="pos_user")
         self.assertEqual(len(self.product_1.stock_move_ids.ids), 2, "Paying for the order in PoS should not create new stock moves")
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4083,6 +4114,8 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def test_settle_order_ship_later_effect_on_so(self):
         """This test create an order, settle it in the PoS and ship it later.
             We need to make sure that the quantity delivered on the original sale is updated correctly,
@@ -4311,6 +4344,9 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4993,7 +5029,10 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5672,6 +5711,9 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6355,7 +6397,11 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         sale_order = self.env['sale.order'].create({
+=======
+        sale_order_single = self.env['sale.order'].create({
+>>>>>>> upstream/18.0
 =======
         sale_order_single = self.env['sale.order'].create({
 >>>>>>> upstream/18.0
@@ -7265,6 +7311,7 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         sale_order.action_confirm()
 
         self.assertEqual(sale_order.order_line[0].qty_delivered, 0)
@@ -7282,6 +7329,8 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
         pickings.button_validate()
         self.assertEqual(sale_order.order_line[0].qty_delivered, 1)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7993,6 +8042,9 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8780,7 +8832,11 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'name': 'Test Partner',
+=======
+            'name': 'A Test Partner',
+>>>>>>> upstream/18.0
 =======
             'name': 'A Test Partner',
 >>>>>>> upstream/18.0
@@ -9619,6 +9675,7 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'order_line': [(0, 0, {
                 'product_id': product.id,
                 'name': product.name,
@@ -9627,6 +9684,8 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
                 'price_unit': product.lst_price,
             })],
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10300,6 +10359,9 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11006,7 +11068,10 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11546,6 +11611,7 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
         })
         self.main_pos_config.down_payment_product_id = self.env.ref("pos_sale.default_downpayment_product")
         self.main_pos_config.open_ui()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12507,6 +12573,9 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 =======
         self.start_pos_tour('test_down_payment_displayed', "accountman")
 >>>>>>> upstream/18.0
+=======
+        self.start_pos_tour('test_down_payment_displayed', "accountman")
+>>>>>>> upstream/18.0
 
     def test_amount_to_invoice(self):
         """
@@ -12834,6 +12903,7 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12870,6 +12940,8 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13646,6 +13718,7 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13756,6 +13829,8 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14281,7 +14356,10 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14323,6 +14401,9 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14359,11 +14440,15 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'lot_id': self.env['stock.lot'].create({
                 'name': '1001',
                 'product_id': self.product.id,
                 'location_id': self.shelf_1.id,
             }).id,
+=======
+            'lot_id': lot_1001.id,
+>>>>>>> upstream/18.0
 =======
             'lot_id': lot_1001.id,
 >>>>>>> upstream/18.0
@@ -14413,12 +14498,15 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'lot_id': self.env['stock.lot'].create({
                 'name': '1002',
                 'product_id': self.product.id,
                 'location_id': self.shelf_2.id,
             }).id,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14456,6 +14544,9 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14487,6 +14578,7 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
             'order_line': [(0, 0, {
                 'product_id': self.product.id,
                 'name': self.product.name,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14532,6 +14624,9 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 =======
                 'product_uom_qty': 6,
 >>>>>>> upstream/18.0
+=======
+                'product_uom_qty': 6,
+>>>>>>> upstream/18.0
                 'product_uom': self.product.uom_id.id,
                 'price_unit': self.product.lst_price,
             })],
@@ -14540,6 +14635,7 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
         self.start_tour("/pos/ui?config_id=%d" % self.main_pos_config.id, 'test_multiple_lots_sale_order_1', login="accountman")
         sale_order.action_confirm()
         self.start_tour("/pos/ui?config_id=%d" % self.main_pos_config.id, 'test_multiple_lots_sale_order_2', login="accountman")
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15564,6 +15660,8 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         self.start_tour("/pos/ui?config_id=%d" % self.main_pos_config.id, 'test_multiple_lots_sale_order_3', login="accountman")
         self.main_pos_config.current_session_id.action_pos_session_close()
         picking = sale_order.pos_order_line_ids.order_id.picking_ids
@@ -15584,6 +15682,9 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15807,6 +15908,7 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15908,6 +16010,8 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16332,6 +16436,9 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16768,6 +16875,7 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16854,6 +16962,8 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17222,6 +17332,7 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17304,6 +17415,8 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 
     def test_refund_ship_later_qty_delivered(self):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17447,6 +17560,9 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17681,6 +17797,7 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         pos_order_refund_record.picking_ids.button_validate()
         self.assertEqual(sale_order.order_line.qty_delivered, 2)
 <<<<<<< HEAD
@@ -17701,6 +17818,11 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        for picking in pos_order_refund_record.picking_ids:
+            picking.button_validate()
+        self.assertEqual(sale_order.order_line.qty_delivered, 2)
 >>>>>>> upstream/18.0
 =======
         for picking in pos_order_refund_record.picking_ids:
@@ -18081,6 +18203,7 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18337,6 +18460,8 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
     def test_amount_unpaid_with_downpayment_and_credit_note(self):
         """ Test that amount_unpaid is well calculated when a downpayment is not made in the PoS """
@@ -18386,6 +18511,9 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18514,6 +18642,9 @@ class TestPosSaleAccount(TestPoSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

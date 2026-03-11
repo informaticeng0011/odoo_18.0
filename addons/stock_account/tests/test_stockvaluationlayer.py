@@ -633,11 +633,17 @@ class TestStockValuationAVCO(TestStockValuationCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertIn('Rounding Adjustment: -0.01', move_out.stock_valuation_layer_ids.description)
 
         self.assertEqual(self.product1.value_svl, 0)
         self.assertEqual(self.product1.quantity_svl, 0)
         self.assertEqual(self.product1.standard_price, 1.00)
+=======
+        self.assertEqual(self.product1.value_svl, 0)
+        self.assertEqual(self.product1.quantity_svl, 0)
+        self.assertAlmostEqual(self.product1.standard_price, 1.00333333)
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(self.product1.value_svl, 0)
         self.assertEqual(self.product1.quantity_svl, 0)
@@ -918,11 +924,17 @@ class TestStockValuationAVCO(TestStockValuationCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertIn('Rounding Adjustment: +0.01', move_out.stock_valuation_layer_ids.description)
 
         self.assertEqual(self.product1.value_svl, 0)
         self.assertEqual(self.product1.quantity_svl, 0)
         self.assertEqual(self.product1.standard_price, 1.01)
+=======
+        self.assertEqual(self.product1.value_svl, 0)
+        self.assertEqual(self.product1.quantity_svl, 0)
+        self.assertAlmostEqual(self.product1.standard_price, 1.00666666)
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(self.product1.value_svl, 0)
         self.assertEqual(self.product1.quantity_svl, 0)
@@ -1198,7 +1210,11 @@ class TestStockValuationAVCO(TestStockValuationCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(self.product1.standard_price, 0.20)
+=======
+        self.assertAlmostEqual(self.product1.standard_price, 0.19666666)
+>>>>>>> upstream/18.0
 =======
         self.assertAlmostEqual(self.product1.standard_price, 0.19666666)
 >>>>>>> upstream/18.0
@@ -1393,7 +1409,11 @@ class TestStockValuationAVCO(TestStockValuationCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(self.product1.standard_price, 3.49)
+=======
+        self.assertAlmostEqual(self.product1.standard_price, 3.4942857)
+>>>>>>> upstream/18.0
 =======
         self.assertAlmostEqual(self.product1.standard_price, 3.4942857)
 >>>>>>> upstream/18.0
@@ -1585,6 +1605,7 @@ class TestStockValuationAVCO(TestStockValuationCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(self.product1.standard_price, 18.42)
 
         self._make_out_move(self.product1, 10)
@@ -1597,6 +1618,8 @@ class TestStockValuationAVCO(TestStockValuationCommon):
         self._make_out_move(self.product1, 1)
         self.assertEqual(self.product1.value_svl, 0)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1740,6 +1763,9 @@ class TestStockValuationAVCO(TestStockValuationCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2120,7 +2146,10 @@ class TestStockValuationAVCO(TestStockValuationCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2953,6 +2982,7 @@ class TestStockValuationAVCO(TestStockValuationCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3127,6 +3157,8 @@ class TestStockValuationAVCO(TestStockValuationCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3711,6 +3743,9 @@ class TestStockValuationAVCO(TestStockValuationCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4390,7 +4425,11 @@ class TestStockValuationChangeCostMethod(TestStockValuationCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(self.product1.value_svl, 289.94)
+=======
+        self.assertEqual(self.product1.value_svl, 290)
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(self.product1.value_svl, 290)
 >>>>>>> upstream/18.0
@@ -4585,7 +4624,11 @@ class TestStockValuationChangeCostMethod(TestStockValuationCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(self.product1.value_svl, 289.94)
+=======
+        self.assertEqual(self.product1.value_svl, 290)
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(self.product1.value_svl, 290)
 >>>>>>> upstream/18.0

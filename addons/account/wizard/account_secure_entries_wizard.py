@@ -247,7 +247,11 @@ class AccountSecureEntries(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             chains_to_hash = wizard._get_chains_to_hash(wizard.company_id, today)
+=======
+            chains_to_hash = wizard.with_context(chain_info_warnings=False)._get_chains_to_hash(wizard.company_id, today)
+>>>>>>> upstream/18.0
 =======
             chains_to_hash = wizard.with_context(chain_info_warnings=False)._get_chains_to_hash(wizard.company_id, today)
 >>>>>>> upstream/18.0
@@ -973,8 +977,11 @@ class AccountSecureEntries(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 wizard.max_hash_date = min(move.date for move in moves) - timedelta(days=1)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1518,6 +1525,9 @@ class AccountSecureEntries(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1884,6 +1894,7 @@ class AccountSecureEntries(models.TransientModel):
     def _get_chains_to_hash(self, company_id, hash_date):
         self.ensure_one()
         res = []
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2447,6 +2458,8 @@ class AccountSecureEntries(models.TransientModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         for *__, chain_moves in self.env['account.move'].sudo()._read_group(
             domain=self._get_unhashed_moves_in_hashed_period_domain(company_id, hash_date, [('state', '=', 'posted')]),
             groupby=['journal_id', 'sequence_prefix'],
@@ -2650,6 +2663,9 @@ class AccountSecureEntries(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

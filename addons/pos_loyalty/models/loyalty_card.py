@@ -12,6 +12,7 @@ class LoyaltyCard(models.Model):
 
     @api.model
     def _load_pos_data_domain(self, data):
+<<<<<<< HEAD
         return [('program_id', 'in', [program["id"] for program in data["loyalty.program"]['data']])]
 
     @api.model
@@ -1027,6 +1028,16 @@ class LoyaltyCard(models.Model):
         return ['partner_id', 'code', 'points', 'program_id', 'expiration_date', 'write_date']
 >>>>>>> upstream/18.0
 =======
+        return ['partner_id', 'code', 'points', 'program_id', 'expiration_date', 'write_date']
+>>>>>>> upstream/18.0
+=======
+        return [
+            ('partner_id', 'in', [partner["id"] for partner in data["res.partner"]['data']]),
+            ('program_id', 'in', [program["id"] for program in data["loyalty.program"]['data']]),
+        ]
+
+    @api.model
+    def _load_pos_data_fields(self, config_id):
         return ['partner_id', 'code', 'points', 'program_id', 'expiration_date', 'write_date']
 >>>>>>> upstream/18.0
 

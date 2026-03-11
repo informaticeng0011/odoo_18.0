@@ -540,7 +540,10 @@ class test_convert_import_data(TransactionCase):
         self.assertItemsEqual(results['messages'], [])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_date_fields_with_slash_ymd(self):
         self.env['res.lang']._activate_lang('de_DE')
         import_wizard = self.env['base_import.import'].with_context(lang='de_DE').create({
@@ -601,6 +604,9 @@ class test_convert_import_data(TransactionCase):
         # if results empty, no errors
         self.assertItemsEqual(results['messages'], [])
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_parse_relational_fields(self):
         """ Ensure that relational fields float and date are correctly

@@ -284,7 +284,11 @@ QUnit.module('favorite filter widget', (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 {id: 2, name: 'Deco Addict'},
+=======
+                {id: 2, name: 'Acme Corporation'},
+>>>>>>> upstream/18.0
 =======
                 {id: 2, name: 'Acme Corporation'},
 >>>>>>> upstream/18.0

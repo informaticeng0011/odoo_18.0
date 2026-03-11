@@ -69,7 +69,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <div t-att-class="{'flex-grow-1 w-100 mw-100': ui.isSmall, 'd-none': ui.isSmall and pos.mobile_pane !== 'left'}"
+=======
+            <div t-att-class="{'flex-grow-1 w-100 mw-100': ui.isSmall, 'flex-shrink-0': !ui.isSmall, 'd-none': ui.isSmall and pos.mobile_pane !== 'left'}"
+>>>>>>> upstream/18.0
 =======
             <div t-att-class="{'flex-grow-1 w-100 mw-100': ui.isSmall, 'flex-shrink-0': !ui.isSmall, 'd-none': ui.isSmall and pos.mobile_pane !== 'left'}"
 >>>>>>> upstream/18.0

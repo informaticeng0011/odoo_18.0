@@ -240,7 +240,11 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             orders = self.env['pos.order'].search([('state', 'in', ['paid', 'done', 'invoiced']), ('company_id', '=', self.id),
+=======
+            orders = self.with_context(prefetch_fields=False).env['pos.order'].search([('state', 'in', ['paid', 'done', 'invoiced']), ('company_id', '=', self.id),
+>>>>>>> upstream/18.0
 =======
             orders = self.with_context(prefetch_fields=False).env['pos.order'].search([('state', 'in', ['paid', 'done', 'invoiced']), ('company_id', '=', self.id),
 >>>>>>> upstream/18.0

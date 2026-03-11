@@ -5,6 +5,10 @@ from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 from odoo.addons.stock_account.tests.test_stockvaluation import _create_accounting_data
 from odoo.tests import Form, tagged
 from odoo import fields, Command
+<<<<<<< HEAD
+=======
+from unittest.mock import patch
+>>>>>>> upstream/18.0
 
 class TestAccountMoveStockCommon(AccountTestInvoicingCommon):
     @classmethod
@@ -608,6 +612,7 @@ class TestAccountMove(TestAccountMoveStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -986,6 +991,8 @@ class TestAccountMove(TestAccountMoveStockCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1185,6 +1192,9 @@ class TestAccountMove(TestAccountMoveStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1571,6 +1581,7 @@ class TestAccountMove(TestAccountMoveStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1893,6 +1904,8 @@ class TestAccountMove(TestAccountMoveStockCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2166,6 +2179,7 @@ class TestAccountMove(TestAccountMoveStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2334,4 +2348,37 @@ class TestAccountMove(TestAccountMoveStockCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_product_standard_price_multicompany_with_taxes(self):
+        """Test updating standard price on storable product with taxes from multiple companies."""
+        def _mock_get_product_accounts(p_self):
+            tax_income = p_self.taxes_id.filtered_domain(p_self.env['account.tax']._check_company_domain(p_self.env.company))
+            tax_expense = p_self.supplier_taxes_id.filtered_domain(p_self.env['account.tax']._check_company_domain(p_self.env.company))
+            return {
+                'income': p_self.env['account.account'].search([
+                    ('internal_group', '=', 'income'),
+                    ('tax_ids', 'in', tax_income.ids),
+                ], limit=1),
+                'expense': p_self.env['account.account'].search([
+                    ('internal_group', '=', 'expense'),
+                    ('tax_ids', 'in', tax_expense.ids),
+                ], limit=1),
+            }
+        product = self.env['product.product'].create({
+            'name': 'Test Product',
+            'type': 'consu',
+            'is_storable': True,
+            'categ_id': self.env.ref('product.product_category_all').id,
+            'taxes_id': [Command.set(self.company_data['default_tax_sale'].ids)],
+        })
+        with patch('odoo.addons.account.models.product.ProductTemplate._get_product_accounts', _mock_get_product_accounts):
+            product.quantity_svl = 10.0
+            product.standard_price = 100
+            specification = {
+                'standard_price': {},
+                'taxes_id': {'fields': {'name': {}}},
+            }
+            product.web_read(specification)
 >>>>>>> upstream/18.0

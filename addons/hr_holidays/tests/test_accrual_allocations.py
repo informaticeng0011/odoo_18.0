@@ -112,7 +112,10 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -395,6 +398,7 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -515,6 +519,8 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -621,6 +627,9 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2495,7 +2504,11 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'carryover_day': 20,
+=======
+            'carryover_day': 31,
+>>>>>>> upstream/18.0
 =======
             'carryover_day': 31,
 >>>>>>> upstream/18.0
@@ -3393,7 +3406,11 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with freeze_time("2023-04-20"):
+=======
+        with freeze_time("2023-04-30"):
+>>>>>>> upstream/18.0
 =======
         with freeze_time("2023-04-30"):
 >>>>>>> upstream/18.0
@@ -4285,12 +4302,15 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'date_from': '2023-04-20',
             })
             allocation.action_validate()
 
         with freeze_time("2024-04-20"):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4956,6 +4976,9 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7774,7 +7797,10 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8691,6 +8717,7 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8855,6 +8882,8 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9488,6 +9517,7 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9616,6 +9646,8 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9983,6 +10015,7 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10053,6 +10086,8 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10367,6 +10402,7 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10486,6 +10522,8 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10793,6 +10831,9 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10928,6 +10969,7 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11040,4 +11082,53 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_timeoff_allocation_with_unused_accrual_lost(self):
+        """
+        Create an accrual plan:
+           * Set the accrued gain time to "At the start of the accrual period"
+           * Set the carry-over time to "At the start of the year"
+        Create a milestone:
+           * Set the number of accrued days to 1
+           * Set the accrual frequency to "monthly" and
+            the carry over to "None.Accrued time reset to 0"
+        Create an allocation:
+           * Set the start date to 2025-01-01
+           * Set the accrual plan to the one created above
+        Use future allocations to see the number of days accrued on
+        2026-02-01(feb). It should be 2.
+        """
+        with freeze_time('2025-01-01'):
+            accrual_plan = self.env['hr.leave.accrual.plan'].with_context(tracking_disable=True).create({
+                'name': 'Accrual Plan For Test',
+                'accrued_gain_time': 'start',
+                'level_ids': [Command.create({
+                    'start_count': 0,
+                    'frequency': 'monthly',
+                    'action_with_unused_accruals': 'lost',
+                })],
+            })
+            allocation = self.env['hr.leave.allocation'].create({
+                'name': 'Accrual allocation for employee',
+                'accrual_plan_id': accrual_plan.id,
+                'employee_id': self.employee_emp.id,
+                'holiday_status_id': self.leave_type.id,
+                'date_from': '2025-01-01',
+                'allocation_type': 'accrual',
+                'number_of_days': 0,
+                'already_accrued': False,
+            })
+            allocation.action_validate()
+            assertions = (
+                # Do not run the update on 2026-01-01 otherwise the bug disappears on 2026-02-01
+                # ('2026-01-01', 1),
+                ('2026-02-01', 2),
+                ('2026-03-01', 3),
+            )
+            for test_date, expected_remaining_leaves in assertions:
+                with freeze_time(test_date):
+                    allocation._update_accrual()
+                    self.assertEqual(allocation.number_of_days, expected_remaining_leaves)
 >>>>>>> upstream/18.0
