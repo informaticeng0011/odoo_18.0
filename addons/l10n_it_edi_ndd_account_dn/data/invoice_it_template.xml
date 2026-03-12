@@ -3,15 +3,21 @@
     <template id="account_invoice_it_FatturaPA_export_debit_note" inherit_id="l10n_it_edi.account_invoice_it_FatturaPA_export">
         <xpath expr="//DatiOrdineAcquisto" position="after">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <Datifatturecollegate t-elif="record.debit_origin_id">
                 <IdDocumento t-out="format_alphanumeric(record.ref, 20)"/>
                 <Data t-out="format_date(record.debit_origin_id.date)"/>
             </Datifatturecollegate>
 =======
+=======
+>>>>>>> upstream/18.0
             <DatiFattureCollegate t-elif="record.debit_origin_id">
                 <IdDocumento t-out="format_alphanumeric(record.ref, 20)"/>
                 <Data t-out="format_date(record.debit_origin_id.date)"/>
             </DatiFattureCollegate>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         </xpath>
     </template>

@@ -13,6 +13,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 from lxml import etree
 <<<<<<< HEAD
@@ -1134,6 +1135,11 @@ from unittest.mock import patch
 from lxml import etree
 from unittest.mock import patch
 >>>>>>> upstream/18.0
+=======
+
+from lxml import etree
+from unittest.mock import patch
+>>>>>>> upstream/18.0
 from odoo import fields, Command
 from odoo.addons.account_edi_ubl_cii.tests.common import TestUblCiiCommon
 from odoo.tests import tagged
@@ -1232,6 +1238,9 @@ class TestAccountEdiUblCii(TestUblCiiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1613,7 +1622,10 @@ class TestAccountEdiUblCii(TestUblCiiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1982,6 +1994,7 @@ class TestAccountEdiUblCii(TestUblCiiCommon):
             'xsi': "http://www.w3.org/2001/XMLSchema-instance",
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3112,11 +3125,14 @@ class TestAccountEdiUblCii(TestUblCiiCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         cls.ubl_namespaces = {
             'cbc': "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2",
             'cac': "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2",
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3307,6 +3323,8 @@ class TestAccountEdiUblCii(TestUblCiiCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3331,6 +3349,9 @@ class TestAccountEdiUblCii(TestUblCiiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3605,6 +3626,7 @@ class TestAccountEdiUblCii(TestUblCiiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4050,6 +4072,8 @@ class TestAccountEdiUblCii(TestUblCiiCommon):
             {
                 'product_id': self.place_prdct.id,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4129,6 +4153,9 @@ class TestAccountEdiUblCii(TestUblCiiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4210,114 +4237,10 @@ class TestAccountEdiUblCii(TestUblCiiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 'name': 'Displacement',
 >>>>>>> upstream/18.0
-=======
-                'name': 'Displacement',
->>>>>>> upstream/18.0
-=======
-                'name': 'Displacement',
->>>>>>> upstream/18.0
-=======
-                'name': 'Displacement',
->>>>>>> upstream/18.0
-=======
-                'name': 'Displacement',
->>>>>>> upstream/18.0
-=======
-                'name': 'Displacement',
->>>>>>> upstream/18.0
-=======
-                'name': 'Displacement',
->>>>>>> upstream/18.0
-=======
-                'name': 'Displacement',
->>>>>>> upstream/18.0
-=======
-                'name': 'Displacement',
->>>>>>> upstream/18.0
-=======
-                'name': 'Displacement',
->>>>>>> upstream/18.0
-=======
-                'name': 'Displacement',
->>>>>>> upstream/18.0
-=======
-                'name': 'Displacement',
->>>>>>> upstream/18.0
-=======
-                'name': 'Displacement',
->>>>>>> upstream/18.0
-=======
-                'name': 'Displacement',
->>>>>>> upstream/18.0
-=======
-                'name': 'Displacement',
->>>>>>> upstream/18.0
-=======
-                'name': 'Displacement',
->>>>>>> upstream/18.0
-=======
-                'name': 'Displacement',
->>>>>>> upstream/18.0
-=======
-                'name': 'Displacement',
->>>>>>> upstream/18.0
-=======
-                'name': 'Displacement',
->>>>>>> upstream/18.0
-=======
-                'name': 'Displacement',
->>>>>>> upstream/18.0
-=======
-                'name': 'Displacement',
->>>>>>> upstream/18.0
-=======
-                'name': 'Displacement',
->>>>>>> upstream/18.0
-=======
-                'name': 'Displacement',
->>>>>>> upstream/18.0
-=======
-                'name': 'Displacement',
->>>>>>> upstream/18.0
-=======
-                'name': 'Displacement',
->>>>>>> upstream/18.0
-=======
-                'name': 'Displacement',
->>>>>>> upstream/18.0
-                'product_uom_id': self.uom_units.id,
-                'tax_ids': [self.company_data_2['default_tax_sale'].id]
-            }, {
-                'product_id': self.displace_prdct.id,
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 =======
                 'name': 'Displacement',
 >>>>>>> upstream/18.0
@@ -4400,6 +4323,119 @@ class TestAccountEdiUblCii(TestUblCiiCommon):
                 'tax_ids': [self.company_data_2['default_tax_sale'].id]
             }, {
                 'product_id': self.displace_prdct.id,
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'name': 'Displacement',
+>>>>>>> upstream/18.0
+=======
+                'name': 'Displacement',
+>>>>>>> upstream/18.0
+=======
+                'name': 'Displacement',
+>>>>>>> upstream/18.0
+=======
+                'name': 'Displacement',
+>>>>>>> upstream/18.0
+=======
+                'name': 'Displacement',
+>>>>>>> upstream/18.0
+=======
+                'name': 'Displacement',
+>>>>>>> upstream/18.0
+=======
+                'name': 'Displacement',
+>>>>>>> upstream/18.0
+=======
+                'name': 'Displacement',
+>>>>>>> upstream/18.0
+=======
+                'name': 'Displacement',
+>>>>>>> upstream/18.0
+=======
+                'name': 'Displacement',
+>>>>>>> upstream/18.0
+=======
+                'name': 'Displacement',
+>>>>>>> upstream/18.0
+=======
+                'name': 'Displacement',
+>>>>>>> upstream/18.0
+=======
+                'name': 'Displacement',
+>>>>>>> upstream/18.0
+=======
+                'name': 'Displacement',
+>>>>>>> upstream/18.0
+=======
+                'name': 'Displacement',
+>>>>>>> upstream/18.0
+=======
+                'name': 'Displacement',
+>>>>>>> upstream/18.0
+=======
+                'name': 'Displacement',
+>>>>>>> upstream/18.0
+=======
+                'name': 'Displacement',
+>>>>>>> upstream/18.0
+=======
+                'name': 'Displacement',
+>>>>>>> upstream/18.0
+=======
+                'name': 'Displacement',
+>>>>>>> upstream/18.0
+=======
+                'name': 'Displacement',
+>>>>>>> upstream/18.0
+=======
+                'name': 'Displacement',
+>>>>>>> upstream/18.0
+=======
+                'name': 'Displacement',
+>>>>>>> upstream/18.0
+=======
+                'name': 'Displacement',
+>>>>>>> upstream/18.0
+=======
+                'name': 'Displacement',
+>>>>>>> upstream/18.0
+=======
+                'name': 'Displacement',
+>>>>>>> upstream/18.0
+=======
+                'name': 'Displacement',
+>>>>>>> upstream/18.0
+                'product_uom_id': self.uom_units.id,
+                'tax_ids': [self.company_data_2['default_tax_sale'].id]
+            }, {
+                'product_id': self.displace_prdct.id,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5144,6 +5180,8 @@ class TestAccountEdiUblCii(TestUblCiiCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 'name': 'Displacement',
                 'product_uom_id': self.uom_dozens.id,
                 'tax_ids': [self.company_data_2['default_tax_sale'].id]
@@ -5175,6 +5213,9 @@ class TestAccountEdiUblCii(TestUblCiiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5256,6 +5297,10 @@ class TestAccountEdiUblCii(TestUblCiiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'name': 'XYZ',
+>>>>>>> upstream/18.0
 =======
                 'name': 'XYZ',
 >>>>>>> upstream/18.0
@@ -5364,6 +5409,10 @@ class TestAccountEdiUblCii(TestUblCiiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'name': 'XXX',
+>>>>>>> upstream/18.0
 =======
                 'name': 'XXX',
 >>>>>>> upstream/18.0
@@ -5472,6 +5521,7 @@ class TestAccountEdiUblCii(TestUblCiiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'product_uom_id': self.uom_units.id,
                 'tax_ids': [self.company_data_2['default_tax_sale'].id],
             },
@@ -6137,6 +6187,8 @@ class TestAccountEdiUblCii(TestUblCiiCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6216,6 +6268,9 @@ class TestAccountEdiUblCii(TestUblCiiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6274,6 +6329,7 @@ class TestAccountEdiUblCii(TestUblCiiCommon):
         company.email = 'company@site.ext'
         company.phone = '+33499999999'
         company.zip = '78440'
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7314,6 +7370,8 @@ class TestAccountEdiUblCii(TestUblCiiCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         company.partner_id.bank_ids = [Command.create({
             'acc_number': '999999',
             'partner_id': company.partner_id.id,
@@ -7346,6 +7404,9 @@ class TestAccountEdiUblCii(TestUblCiiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7623,6 +7684,9 @@ class TestAccountEdiUblCii(TestUblCiiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8112,7 +8176,11 @@ class TestAccountEdiUblCii(TestUblCiiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         bill = self.import_attachment(xml_attachment, self.company_data["default_journal_purchase"])
+=======
+        bill = self._import_as_attachment_on(attachment=xml_attachment)
+>>>>>>> upstream/18.0
 =======
         bill = self._import_as_attachment_on(attachment=xml_attachment)
 >>>>>>> upstream/18.0
@@ -8482,7 +8550,11 @@ class TestAccountEdiUblCii(TestUblCiiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         bill = self.import_attachment(xml_attachment, self.company_data["default_journal_purchase"])
+=======
+        bill = self._import_as_attachment_on(attachment=xml_attachment)
+>>>>>>> upstream/18.0
 =======
         bill = self._import_as_attachment_on(attachment=xml_attachment)
 >>>>>>> upstream/18.0
@@ -8843,6 +8915,7 @@ class TestAccountEdiUblCii(TestUblCiiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_import_partner_peppol_fields(self):
         """ Check that the peppol fields are used to retrieve the partner when importing a Bis 3 xml. """
 <<<<<<< HEAD
@@ -9138,6 +9211,8 @@ class TestAccountEdiUblCii(TestUblCiiCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def test_export_company_registry_in_party_nodes(self):
         """Check that company_registry is used for PartyIdentification and CompanyID."""
         self.partner_be.company_registry = '1234567890'
@@ -9211,6 +9286,9 @@ class TestAccountEdiUblCii(TestUblCiiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9335,6 +9413,7 @@ class TestAccountEdiUblCii(TestUblCiiCommon):
             'email': "mypartner@email.com",
         })
         # Change the fields of the partner, keep the peppol fields
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9696,11 +9775,15 @@ class TestAccountEdiUblCii(TestUblCiiCommon):
 =======
         self.partner_be.update({
 >>>>>>> upstream/18.0
+=======
+        self.partner_be.update({
+>>>>>>> upstream/18.0
             'name': "Turlututu",
             'email': False,
             'vat': False,
         })
         # The partner should be retrieved based on the peppol fields
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10153,6 +10236,10 @@ class TestAccountEdiUblCii(TestUblCiiCommon):
         imported_invoice = self._import_as_attachment_on(attachment=xml_attachment, journal=self.company_data["default_journal_sale"])
         self.assertEqual(imported_invoice.partner_id, self.partner_be)
 >>>>>>> upstream/18.0
+=======
+        imported_invoice = self._import_as_attachment_on(attachment=xml_attachment, journal=self.company_data["default_journal_sale"])
+        self.assertEqual(imported_invoice.partner_id, self.partner_be)
+>>>>>>> upstream/18.0
 
     def test_actual_delivery_date_in_cii_xml(self):
 
@@ -10169,6 +10256,7 @@ class TestAccountEdiUblCii(TestUblCiiCommon):
             'name': 'test_invoice.xml',
         })
         xml_tree = etree.fromstring(xml_attachment.raw)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11462,6 +11550,11 @@ class TestAccountEdiUblCii(TestUblCiiCommon):
         self.assertEqual(actual_delivery_date.text, '20241231')
 
 >>>>>>> upstream/18.0
+=======
+        actual_delivery_date = xml_tree.find('.//ram:ActualDeliverySupplyChainEvent/ram:OccurrenceDateTime/udt:DateTimeString', self.namespaces)
+        self.assertEqual(actual_delivery_date.text, '20241231')
+
+>>>>>>> upstream/18.0
     def test_billing_date_in_cii_xml(self):
         invoice = self.env['account.move'].create({
             'partner_id': self.partner_a.id,
@@ -11478,6 +11571,7 @@ class TestAccountEdiUblCii(TestUblCiiCommon):
             'name': 'test_invoice.xml',
         })
         xml_tree = etree.fromstring(xml_attachment.raw)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12232,6 +12326,8 @@ class TestAccountEdiUblCii(TestUblCiiCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         start_date = xml_tree.find('.//ram:ApplicableHeaderTradeSettlement/ram:BillingSpecifiedPeriod/ram:StartDateTime/udt:DateTimeString', self.namespaces)
         end_date = xml_tree.find('.//ram:ApplicableHeaderTradeSettlement/ram:BillingSpecifiedPeriod/ram:EndDateTime/udt:DateTimeString', self.namespaces)
         self.assertEqual(start_date.text, '20241201')
@@ -12491,6 +12587,9 @@ class TestAccountEdiUblCii(TestUblCiiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12954,7 +13053,11 @@ class TestAccountEdiUblCii(TestUblCiiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         bill = self.import_attachment(xml_attachment, self.company_data["default_journal_purchase"])
+=======
+        bill = self._import_as_attachment_on(attachment=xml_attachment)
+>>>>>>> upstream/18.0
 =======
         bill = self._import_as_attachment_on(attachment=xml_attachment)
 >>>>>>> upstream/18.0
@@ -13473,6 +13576,7 @@ class TestAccountEdiUblCii(TestUblCiiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -13922,6 +14026,8 @@ class TestAccountEdiUblCii(TestUblCiiCommon):
 
     def test_import_bill(self):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13965,6 +14071,9 @@ class TestAccountEdiUblCii(TestUblCiiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14039,6 +14148,7 @@ comment-->1000.0</TaxExclusiveAmount></xpath>"""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14065,6 +14175,8 @@ comment-->1000.0</TaxExclusiveAmount></xpath>"""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14126,6 +14238,9 @@ comment-->1000.0</TaxExclusiveAmount></xpath>"""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14364,12 +14479,15 @@ comment-->1000.0</TaxExclusiveAmount></xpath>"""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'invoice_line_ids': [Command.create({
                 'product_id': self.product_a.id,
                 'quantity': 3,
                 'price_unit': 11.34,
             })],
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15003,6 +15121,9 @@ comment-->1000.0</TaxExclusiveAmount></xpath>"""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15423,6 +15544,7 @@ comment-->1000.0</TaxExclusiveAmount></xpath>"""
             'raw': self.env['account.edi.xml.cii']._export_invoice(invoice)[0],
             'name': 'test_invoice.xml',
         })
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16277,6 +16399,9 @@ comment-->1000.0</TaxExclusiveAmount></xpath>"""
 =======
         imported_invoice = self._import_as_attachment_on(attachment=xml_attachment, journal=self.company_data["default_journal_sale"])
 >>>>>>> upstream/18.0
+=======
+        imported_invoice = self._import_as_attachment_on(attachment=xml_attachment, journal=self.company_data["default_journal_sale"])
+>>>>>>> upstream/18.0
         for line in imported_invoice.invoice_line_ids:
             self.assertFalse(line.discount, "A discount on the imported lines signals a rounding error in the discount computation")
 
@@ -16313,6 +16438,10 @@ comment-->1000.0</TaxExclusiveAmount></xpath>"""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'allow_out_payment': True,
+>>>>>>> upstream/18.0
 =======
                 'allow_out_payment': True,
 >>>>>>> upstream/18.0
@@ -16440,9 +16569,12 @@ comment-->1000.0</TaxExclusiveAmount></xpath>"""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             company_bank_journal.bank_account_id.bank_id = bank_ing
             self.partner_a.country_id = self.env.ref('base.nl').id
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16523,6 +16655,9 @@ comment-->1000.0</TaxExclusiveAmount></xpath>"""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16629,7 +16764,10 @@ comment-->1000.0</TaxExclusiveAmount></xpath>"""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16739,6 +16877,9 @@ comment-->1000.0</TaxExclusiveAmount></xpath>"""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16786,6 +16927,7 @@ comment-->1000.0</TaxExclusiveAmount></xpath>"""
         partner = self.partner_a
         partner.peppol_endpoint = '00000000001020304050'
         partner.country_id = self.env.ref('base.nl').id
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16891,6 +17033,9 @@ comment-->1000.0</TaxExclusiveAmount></xpath>"""
 =======
         partner.bank_ids = [Command.create({'acc_number': "0123456789", 'allow_out_payment': True})]
 >>>>>>> upstream/18.0
+=======
+        partner.bank_ids = [Command.create({'acc_number': "0123456789", 'allow_out_payment': True})]
+>>>>>>> upstream/18.0
         invoice = self.env['account.move'].create({
             'partner_id': partner.id,
             'move_type': 'out_invoice',
@@ -16899,6 +17044,7 @@ comment-->1000.0</TaxExclusiveAmount></xpath>"""
             'invoice_line_ids': [Command.create({'product_id': self.product_a.id})],
         })
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17391,10 +17537,13 @@ comment-->1000.0</TaxExclusiveAmount></xpath>"""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         invoice.partner_id.commercial_partner_id.invoice_edi_format = 'ubl_bis3'
         invoice.action_post()
         invoice.invoice_date_due = fields.Date.from_string('2024-12-31')
         builder = invoice.partner_id.commercial_partner_id._get_edi_builder('ubl_bis3')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18708,6 +18857,8 @@ comment-->1000.0</TaxExclusiveAmount></xpath>"""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         xml_content = builder._export_invoice(invoice)[0]
         xml_tree = etree.fromstring(xml_content)
         scheme_ID = xml_tree.find('.//cac:PartyLegalEntity/cbc:CompanyID[@schemeID]', self.ubl_namespaces)
@@ -18741,6 +18892,9 @@ comment-->1000.0</TaxExclusiveAmount></xpath>"""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18908,6 +19062,10 @@ comment-->1000.0</TaxExclusiveAmount></xpath>"""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'invoice_date': fields.Date.from_string('2025-12-22'),
+>>>>>>> upstream/18.0
 =======
             'invoice_date': fields.Date.from_string('2025-12-22'),
 >>>>>>> upstream/18.0
@@ -19216,6 +19374,10 @@ comment-->1000.0</TaxExclusiveAmount></xpath>"""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'invoice_date': fields.Date.from_string('2025-12-22'),
+>>>>>>> upstream/18.0
 =======
             'invoice_date': fields.Date.from_string('2025-12-22'),
 >>>>>>> upstream/18.0
@@ -19465,6 +19627,7 @@ comment-->1000.0</TaxExclusiveAmount></xpath>"""
             "rsm": "urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100",
         })
         self.assertEqual(node[0].text, self.company.vat, "Company VAT fallback")
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19939,6 +20102,8 @@ comment-->1000.0</TaxExclusiveAmount></xpath>"""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
     def test_generate_pdf_when_xml_does_not_provide_one(self):
         def _run_wkhtmltopdf(*args, **kwargs):
@@ -19962,6 +20127,7 @@ comment-->1000.0</TaxExclusiveAmount></xpath>"""
         self.assertTrue(bill)
 
         # Ensure the created move has 2 attachments: the original XML and a generated PDF
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         self.assertEqual(len(bill.attachment_ids), 2)
@@ -20021,6 +20187,11 @@ comment-->1000.0</TaxExclusiveAmount></xpath>"""
         self.assertEqual(len(bill.attachment_ids), 1)  # Generated PDF
         self.assertTrue(any('pdf' in attachment.mimetype for attachment in bill.attachment_ids))
 >>>>>>> upstream/18.0
+=======
+        self.assertTrue(bill.ubl_cii_xml_id)  # Original XML
+        self.assertEqual(len(bill.attachment_ids), 1)  # Generated PDF
+        self.assertTrue(any('pdf' in attachment.mimetype for attachment in bill.attachment_ids))
+>>>>>>> upstream/18.0
 
     def test_import_and_group_lines_by_tax(self):
         """
@@ -20028,7 +20199,10 @@ comment-->1000.0</TaxExclusiveAmount></xpath>"""
         """
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -20047,6 +20221,9 @@ comment-->1000.0</TaxExclusiveAmount></xpath>"""
 
         # Datas
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20066,6 +20243,7 @@ comment-->1000.0</TaxExclusiveAmount></xpath>"""
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         file_path = "bis3_bill_group_by_tax.xml"
         file_path = f"{self.test_module}/tests/test_files/{file_path}"
         with file_open(file_path, 'rb') as file:
@@ -20079,6 +20257,9 @@ comment-->1000.0</TaxExclusiveAmount></xpath>"""
         # Should group lines by tax
         bill.action_group_ungroup_lines_by_tax()
         self.assertRecordValues(bill.invoice_line_ids, [
+=======
+        lines_grouped = [
+>>>>>>> upstream/18.0
 =======
         lines_grouped = [
 >>>>>>> upstream/18.0
@@ -20101,6 +20282,7 @@ comment-->1000.0</TaxExclusiveAmount></xpath>"""
             },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ])
         self.assertRecordValues(bill, [{
             'amount_untaxed': 1900.0,
@@ -20112,6 +20294,8 @@ comment-->1000.0</TaxExclusiveAmount></xpath>"""
         bill.action_group_ungroup_lines_by_tax()
         self.assertRecordValues(bill.invoice_line_ids, [
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         ]
@@ -20140,6 +20324,9 @@ comment-->1000.0</TaxExclusiveAmount></xpath>"""
         bill_2.action_group_ungroup_lines_by_tax()
         self.assertRecordValues(bill_2.invoice_line_ids, [
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20165,6 +20352,7 @@ comment-->1000.0</TaxExclusiveAmount></xpath>"""
                 'tax_ids': tax_21.ids,
             },
         ])
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         self.assertRecordValues(bill, [{
@@ -20211,6 +20399,9 @@ comment-->1000.0</TaxExclusiveAmount></xpath>"""
 =======
         self.assertRecordValues(bill_2, total_values)
 >>>>>>> upstream/18.0
+=======
+        self.assertRecordValues(bill_2, total_values)
+>>>>>>> upstream/18.0
 
     def test_bank_details_import(self):
         acc_number = '1234567890'
@@ -20231,6 +20422,7 @@ comment-->1000.0</TaxExclusiveAmount></xpath>"""
         partner_bank.active = True
         self.env['account.edi.common']._import_partner_bank(invoice, [acc_number])
         self.assertEqual(invoice.partner_bank_id, partner_bank)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20328,6 +20520,8 @@ comment-->1000.0</TaxExclusiveAmount></xpath>"""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
     def test_invoice_optional_fields(self):
         """Test that optional invoice and invoice lines custom fields added by the user are exported correctly"""
@@ -20373,6 +20567,9 @@ comment-->1000.0</TaxExclusiveAmount></xpath>"""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20398,12 +20595,15 @@ comment-->1000.0</TaxExclusiveAmount></xpath>"""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'invoice_line_ids': [Command.create({
                 'product_id': self.product_a.id,
                 'x_studio_peppol_order_line_reference_id': "order_line1-1234",
                 'x_studio_peppol_buyers_item_id': "item1-1234",
             }),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20428,6 +20628,9 @@ comment-->1000.0</TaxExclusiveAmount></xpath>"""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20503,6 +20706,7 @@ comment-->1000.0</TaxExclusiveAmount></xpath>"""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         IrModelFields = self.env["ir.model.fields"].with_context(studio=True)
         model = self.env["ir.model"].search([("model", "=", "account.move")])
 
@@ -20570,6 +20774,8 @@ comment-->1000.0</TaxExclusiveAmount></xpath>"""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         model_id = self.env["ir.model"]._get_id("account.move")
 
         credit_note_fields = [
@@ -20612,6 +20818,9 @@ comment-->1000.0</TaxExclusiveAmount></xpath>"""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20694,6 +20903,7 @@ comment-->1000.0</TaxExclusiveAmount></xpath>"""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20702,6 +20912,8 @@ comment-->1000.0</TaxExclusiveAmount></xpath>"""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20781,6 +20993,9 @@ comment-->1000.0</TaxExclusiveAmount></xpath>"""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

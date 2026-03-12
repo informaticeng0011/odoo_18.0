@@ -241,6 +241,7 @@ export class MassMailingWysiwyg extends Wysiwyg {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const res = await super._insertSnippetMenu();
         // Hide the snippetsMenu at first, other code will handle
         // if it should be shown or not.
@@ -436,6 +437,8 @@ export class MassMailingWysiwyg extends Wysiwyg {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         // Hide the snippetsMenu at first, other code will handle
         // if it should be shown or not.
         this.state.snippetsMenuFolded = true;
@@ -535,6 +538,9 @@ export class MassMailingWysiwyg extends Wysiwyg {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -960,7 +966,12 @@ export class MassMailingWysiwyg extends Wysiwyg {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const finalOptions = { ...options, autoActivateContentEditable: false, allowCommandVideo: false };
+=======
+        const direction = options.document.body.matches(".o_rtl") ? "rtl" : "ltr" ;
+        const finalOptions = { ...options, autoActivateContentEditable: false, allowCommandVideo: false, direction: direction };
+>>>>>>> upstream/18.0
 =======
         const direction = options.document.body.matches(".o_rtl") ? "rtl" : "ltr" ;
         const finalOptions = { ...options, autoActivateContentEditable: false, allowCommandVideo: false, direction: direction };

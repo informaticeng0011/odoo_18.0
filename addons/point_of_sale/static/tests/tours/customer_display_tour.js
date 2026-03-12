@@ -286,7 +286,10 @@ export const NEW_ORDER =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1086,7 +1089,11 @@ const PAY_WITH_CARD = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     qrPaymentData: undefined,
+=======
+    qrPaymentData: null,
+>>>>>>> upstream/18.0
 =======
     qrPaymentData: null,
 >>>>>>> upstream/18.0
@@ -2148,6 +2155,9 @@ const SEND_QR = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2963,7 +2973,10 @@ registry.category("web_tour.tours").add("CustomerDisplayTour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3762,6 +3775,9 @@ registry.category("web_tour.tours").add("CustomerDisplayTourWithQr", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

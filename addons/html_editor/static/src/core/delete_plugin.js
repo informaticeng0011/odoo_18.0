@@ -185,12 +185,18 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     isEditorTab,
     isEmpty,
     isInPre,
     isMediaElement,
     isProtected,
     isSelfClosingElement,
+=======
+    isEmpty,
+    isInPre,
+    isProtected,
+>>>>>>> upstream/18.0
 =======
     isEmpty,
     isInPre,
@@ -1336,7 +1342,11 @@ import { compareListTypes } from "@html_editor/main/list/utils";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { hasTouch, isBrowserChrome } from "@web/core/browser/feature_detection";
+=======
+import { hasTouch, isBrowserChrome, isMacOS } from "@web/core/browser/feature_detection";
+>>>>>>> upstream/18.0
 =======
 import { hasTouch, isBrowserChrome, isMacOS } from "@web/core/browser/feature_detection";
 >>>>>>> upstream/18.0
@@ -2184,7 +2194,11 @@ export class DeletePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     static dependencies = ["baseContainer", "selection", "history", "input"];
+=======
+    static dependencies = ["baseContainer", "selection", "history", "input", "userCommand"];
+>>>>>>> upstream/18.0
 =======
     static dependencies = ["baseContainer", "selection", "history", "input", "userCommand"];
 >>>>>>> upstream/18.0
@@ -3059,7 +3073,10 @@ export class DeletePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3708,6 +3725,9 @@ export class DeletePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4321,7 +4341,10 @@ export class DeletePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4875,6 +4898,9 @@ export class DeletePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5504,7 +5530,10 @@ export class DeletePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6025,6 +6054,9 @@ export class DeletePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6915,8 +6947,11 @@ export class DeletePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (sibling && !isBlock(sibling) && !(sibling.nodeType === Node.TEXT_NODE && !isVisibleTextNode(sibling))) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7462,6 +7497,9 @@ export class DeletePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8301,10 +8339,13 @@ export class DeletePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const { startContainer, endContainer, commonAncestorContainer: commonAncestor } = range;
         const isNonEditable = (node) => !isContentEditable(node);
         const startUneditable = findFurthest(startContainer, commonAncestor, isNonEditable);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8890,6 +8931,9 @@ export class DeletePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9469,7 +9513,11 @@ export class DeletePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const leaf = previousLeaf(startUneditable);
+=======
+            const leaf = previousLeaf(startUneditable, this.editable);
+>>>>>>> upstream/18.0
 =======
             const leaf = previousLeaf(startUneditable, this.editable);
 >>>>>>> upstream/18.0
@@ -10244,8 +10292,11 @@ export class DeletePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const endUneditable = findFurthest(endContainer, commonAncestor, isNonEditable);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10823,6 +10874,9 @@ export class DeletePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11569,10 +11623,13 @@ export class DeletePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // @todo: register these as resources by other plugins?
         if (
             [isSelfClosingElement, isMediaElement, isEditorTab].some((predicate) => predicate(leaf))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12117,6 +12174,9 @@ export class DeletePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

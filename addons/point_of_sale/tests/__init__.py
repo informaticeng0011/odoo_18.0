@@ -203,6 +203,10 @@ from . import test_res_config_settings
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import test_generic_localization
+>>>>>>> upstream/18.0
 =======
 from . import test_generic_localization
 >>>>>>> upstream/18.0

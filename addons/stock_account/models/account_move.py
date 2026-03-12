@@ -153,7 +153,12 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.mapped('line_ids').filtered(lambda line: line.display_type == 'cogs').unlink()
+=======
+        with self.env.protecting(self.env['account.move']._get_protected_vals({}, self)):
+            self.mapped('line_ids').filtered(lambda line: line.display_type == 'cogs').unlink()
+>>>>>>> upstream/18.0
 =======
         with self.env.protecting(self.env['account.move']._get_protected_vals({}, self)):
             self.mapped('line_ids').filtered(lambda line: line.display_type == 'cogs').unlink()
@@ -702,7 +707,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'name': line.name[:64],
+=======
+                    'name': line.name[:64] if line.name else '',
+>>>>>>> upstream/18.0
 =======
                     'name': line.name[:64] if line.name else '',
 >>>>>>> upstream/18.0
@@ -1062,7 +1071,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'name': line.name[:64],
+=======
+                    'name': line.name[:64] if line.name else '',
+>>>>>>> upstream/18.0
 =======
                     'name': line.name[:64] if line.name else '',
 >>>>>>> upstream/18.0
@@ -1382,6 +1395,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            move = move.with_company(move.company_id)
+>>>>>>> upstream/18.0
 =======
             move = move.with_company(move.company_id)
 >>>>>>> upstream/18.0
@@ -1537,6 +1554,7 @@ class AccountMoveLine(models.Model):
         if float_is_zero(self.quantity, precision_rounding=self.product_uom_id.rounding):
             return self.price_unit
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2306,12 +2324,15 @@ class AccountMoveLine(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         if self.discount != 100:
             if not any(t.price_include for t in self.tax_ids) and self.discount:
                 price_unit = self.price_unit * (1 - self.discount / 100)
             else:
                 price_unit = self.price_subtotal / self.quantity
         else:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3442,6 +3463,10 @@ class AccountMoveLine(models.Model):
             price_unit = 0
 
 >>>>>>> upstream/18.0
+=======
+            price_unit = 0
+
+>>>>>>> upstream/18.0
         return -price_unit if self.move_id.move_type == 'in_refund' else price_unit
 
     def _get_stock_valuation_layers(self, move):
@@ -3469,6 +3494,7 @@ class AccountMoveLine(models.Model):
     @api.onchange('product_id')
     def _inverse_product_id(self):
         super(AccountMoveLine, self.filtered(lambda l: l.display_type != 'cogs'))._inverse_product_id()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4278,6 +4304,8 @@ class AccountMoveLine(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
     def _get_exchange_journal(self, company):
         if (
@@ -4538,6 +4566,7 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4928,6 +4957,9 @@ class AccountMoveLine(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+            self.product_id.categ_id.property_cost_method != 'standard' and
 >>>>>>> upstream/18.0
 =======
             self.product_id.categ_id.property_cost_method != 'standard' and
@@ -5376,6 +5408,7 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self and self.move_id.stock_valuation_layer_ids and
 =======
             self and self.move_id.sudo().stock_valuation_layer_ids and
@@ -5964,6 +5997,10 @@ class AccountMoveLine(models.Model):
 >>>>>>> upstream/18.0
 =======
             self and self.move_id.sudo().stock_valuation_layer_ids and
+>>>>>>> upstream/18.0
+=======
+            self and self.move_id.sudo().stock_valuation_layer_ids and
+            self.product_id.categ_id.property_cost_method != 'standard' and
 >>>>>>> upstream/18.0
 =======
             self and self.move_id.sudo().stock_valuation_layer_ids and
@@ -6481,6 +6518,9 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

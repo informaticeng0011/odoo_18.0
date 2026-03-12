@@ -26,6 +26,7 @@ from odoo.tools.mail import email_split_and_format, formataddr
 @tagged('mail_gateway')
 class TestEmailParsing(MailCommon):
 
+<<<<<<< HEAD
     def test_message_parse_and_replace_binary_octetstream(self):
         """ Incoming email containing a wrong Content-Type as described in RFC2046/section-3 """
         received_mail = self.from_string(test_mail_data.MAIL_MULTIPART_BINARY_OCTET_STREAM)
@@ -388,6 +389,26 @@ class TestEmailParsing(MailCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+    def test_message_parse_and_replace_bad_content_type(self):
+        """Incoming emails with unsupported attachment Content-Types should not crash parsing."""
+        for content_type in ('binary/octet-stream', '*/*', 'bin/plain'):
+            with self.subTest(content_type=content_type):
+                received_mail = self.format(test_mail_data.MAIL_PDF_MIME_TEMPLATE, pdf_mime=content_type)
+                self.assertIn(f"Content-Type: {content_type}", received_mail, f"{content_type} content-type not found")
+                with self.assertLogs("odoo.addons.mail.models.mail_thread", level="WARNING") as capture:
+                    extracted_mail = self.env['mail.thread'].message_parse(self.from_string(received_mail))
+
+                self.assertEqual(len(extracted_mail['attachments']), 1)
+                attachment = extracted_mail['attachments'][0]
+                self.assertEqual(attachment.fname, 'scan_soraya.lernout_1691652648.pdf')
+                self.assertEqual(attachment.content, test_mail_data.PDF_PARSED)
+                self.assertEqual(capture.output, [
+                    ("WARNING:odoo.addons.mail.models.mail_thread:Message containing an unexpected "
+                    f"Content-Type '{content_type}', assuming 'application/octet-stream'"),
+                ])
+
 >>>>>>> upstream/18.0
     def test_message_parse_body(self):
         # test pure plaintext
@@ -1786,9 +1807,12 @@ class TestMailgateway(MailGatewayCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertNotIn(self.partner_1, test_channel.channel_partner_ids)
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2276,6 +2300,9 @@ class TestMailgateway(MailGatewayCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3206,7 +3233,11 @@ class TestMailgateway(MailGatewayCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for encoding in ['', 'UTF-8', 'UTF-16LE', 'UTF-32BE']:
+=======
+        for encoding in ['', 'UTF-8', 'UTF-16LE', 'UTF-32BE', 'cp-850']:
+>>>>>>> upstream/18.0
 =======
         for encoding in ['', 'UTF-8', 'UTF-16LE', 'UTF-32BE', 'cp-850']:
 >>>>>>> upstream/18.0
@@ -3684,7 +3715,11 @@ class TestMailgateway(MailGatewayCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if encoding not in ['', 'UTF-8']:
+=======
+            if encoding not in ['', 'UTF-8', 'cp-850']:
+>>>>>>> upstream/18.0
 =======
             if encoding not in ['', 'UTF-8', 'cp-850']:
 >>>>>>> upstream/18.0
@@ -4495,6 +4530,10 @@ class TestMailGatewayLoops(MailGatewayCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'message_type': 'email'
+>>>>>>> upstream/18.0
 =======
                 'message_type': 'email'
 >>>>>>> upstream/18.0

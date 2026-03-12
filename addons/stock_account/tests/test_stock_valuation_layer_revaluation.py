@@ -195,6 +195,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo import Command
+>>>>>>> upstream/18.0
 =======
 from odoo import Command
 >>>>>>> upstream/18.0
@@ -926,7 +930,11 @@ class TestStockValuationLayerRevaluation(TestStockValuationCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(self.product1.standard_price, 1.33)
+=======
+        self.assertAlmostEqual(self.product1.standard_price, 1.3333333)
+>>>>>>> upstream/18.0
 =======
         self.assertAlmostEqual(self.product1.standard_price, 1.3333333)
 >>>>>>> upstream/18.0
@@ -1149,12 +1157,15 @@ class TestStockValuationLayerRevaluation(TestStockValuationCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(self.product1.standard_price, 0.02)
         self.assertEqual(self.product1.quantity_svl, 10000)
 
         layer = self.product1.stock_valuation_layer_ids
         self.assertEqual(layer.value, 200)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1295,6 +1306,9 @@ class TestStockValuationLayerRevaluation(TestStockValuationCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1390,6 +1404,7 @@ class TestStockValuationLayerRevaluation(TestStockValuationCommon):
         # Second Move
         self.product1.write({'standard_price': 0.053})
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1533,6 +1548,8 @@ class TestStockValuationLayerRevaluation(TestStockValuationCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         self.assertEqual(self.product1.standard_price, 0.053)
         self.assertEqual(self.product1.quantity_svl, 10000)
 
@@ -1584,6 +1601,9 @@ class TestStockValuationLayerRevaluation(TestStockValuationCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2032,6 +2052,7 @@ class TestStockValuationLayerRevaluation(TestStockValuationCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -2096,6 +2117,8 @@ class TestStockValuationLayerRevaluation(TestStockValuationCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2479,7 +2502,11 @@ class TestStockValuationLayerRevaluation(TestStockValuationCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(self.product1.standard_price, 0.01)
+=======
+        self.assertAlmostEqual(self.product1.standard_price, 0.00952)
+>>>>>>> upstream/18.0
 =======
         self.assertAlmostEqual(self.product1.standard_price, 0.00952)
 >>>>>>> upstream/18.0
@@ -2623,6 +2650,7 @@ class TestStockValuationLayerRevaluation(TestStockValuationCommon):
         revaluation_wizard.account_id = self.stock_valuation_account
         revaluation_wizard.save().action_validate_revaluation()
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3154,6 +3182,9 @@ class TestStockValuationLayerRevaluation(TestStockValuationCommon):
 =======
         self.assertAlmostEqual(self.product1.standard_price, 0.0193527)
 >>>>>>> upstream/18.0
+=======
+        self.assertAlmostEqual(self.product1.standard_price, 0.0193527)
+>>>>>>> upstream/18.0
 
     def test_multi_company_fifo_svl_negative_revaluation(self):
         """
@@ -3391,6 +3422,9 @@ class TestStockValuationLayerRevaluation(TestStockValuationCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

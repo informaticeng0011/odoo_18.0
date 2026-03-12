@@ -6,13 +6,19 @@ from odoo.addons.l10n_it_edi.tests.common import TestItEdi
 class TestItDocumentType(TestItEdi):
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @classmethod
     def setUpClass(cls):
         super().setUpClass()
 
         cls.module = 'l10n_it_edi_ndd_account_dn'
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_l10n_it_edi_debit_note_document_type(self):
         original_move = self.init_invoice('out_invoice', amounts=[1000], post=True)
@@ -38,7 +44,10 @@ class TestItDocumentType(TestItEdi):
         # when debit note is posted, the IT document type changes to correct type of debit note
         self.assertEqual(debit_note.l10n_it_document_type.code, 'TD05')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_l10n_it_edi_export_debit_note(self):
         """Test that a Debit Note generates the 'DatiFattureCollegate' tag correctly."""
@@ -62,4 +71,7 @@ class TestItDocumentType(TestItEdi):
             invoice_line_ids=[self._prepare_invoice_line(price_unit=100, tax_ids=self.default_tax, name='Debit Note Adjustment')]
         )
         self._assert_export_invoice(debit_note, 'it_edi_debit_note.xml')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

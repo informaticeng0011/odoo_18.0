@@ -64,6 +64,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <div class="o_setting_right_pane border-0">
                         <div invisible="account_peppol_proxy_state not in ('sender', 'receiver', 'smp_registration')">
                             Your Peppol ID <field name="account_peppol_edi_identification" class="oe_inline o_form_label" readonly="1"/> <field name="account_peppol_proxy_state" class="oe_inline o_form_label text-lowercase" readonly="1"/> invoices and credit notes.
@@ -458,6 +459,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                     <field name="peppol_use_parent_company" invisible="1"/>
                     <div class="o_setting_right_pane border-0">
                         <div invisible="peppol_use_parent_company or account_peppol_proxy_state not in ('sender', 'receiver', 'smp_registration')">
@@ -523,6 +526,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -697,9 +703,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <!-- The participant registered as a sender: display register as a receiver button, email, migration key field -->
                         <div class="row" invisible="account_peppol_proxy_state not in ('sender', 'smp_registration', 'receiver')">
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -875,6 +884,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -995,6 +1007,7 @@
                         </div>
 
                         <!-- The participant is waiting to be registered on the SMP -->
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1224,6 +1237,9 @@
 =======
                         <div invisible="peppol_use_parent_company or account_peppol_proxy_state not in ('smp_registration', 'receiver')">
 >>>>>>> upstream/18.0
+=======
+                        <div invisible="peppol_use_parent_company or account_peppol_proxy_state not in ('smp_registration', 'receiver')">
+>>>>>>> upstream/18.0
                             <div class="row">
                                 <label string="Incoming Invoices Journal"
                                        for="account_peppol_purchase_journal_id"
@@ -1238,6 +1254,7 @@
                             </div>
                         </div>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1704,6 +1721,10 @@
                         <div class="mt-4"
                              invisible="peppol_use_parent_company or account_peppol_proxy_state != 'receiver'"
 >>>>>>> upstream/18.0
+=======
+                        <div class="mt-4"
+                             invisible="peppol_use_parent_company or account_peppol_proxy_state != 'receiver'"
+>>>>>>> upstream/18.0
                              groups="base.group_no_one">
                             <div invisible="not account_peppol_migration_key">
                                 Your migration key is:
@@ -1713,6 +1734,7 @@
                             </div>
                         </div>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2348,6 +2370,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                         <!-- All action buttons -->
                         <div invisible="peppol_use_parent_company or account_peppol_proxy_state != 'receiver' or account_peppol_edi_mode == 'demo'">
                             <!-- Note: Deprecated; the button is permanently invisible. -->
@@ -2409,6 +2433,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2526,6 +2553,7 @@
                                     name="button_account_peppol_configure_services"
                                     type="object"
                                     class="btn-link mt-3 mb-3"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3086,6 +3114,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                                     icon="oi-arrow-right"
                                     invisible="1"/>
                         </div>
@@ -3148,6 +3178,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3327,8 +3360,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     invisible="account_peppol_proxy_state not in ('sender', 'smp_registration', 'receiver')"/>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3506,6 +3542,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

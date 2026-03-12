@@ -32,6 +32,12 @@ from odoo.exceptions import UserError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.l10n_pl_edi.exceptions import KSeFRateLimitError
+
+
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.l10n_pl_edi.exceptions import KSeFRateLimitError
 
@@ -178,7 +184,11 @@ class KsefApiService:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return 'https://ksef.mf.gov.pl/api/v2'
+=======
+            return 'https://api.ksef.mf.gov.pl/v2'
+>>>>>>> upstream/18.0
 =======
             return 'https://api.ksef.mf.gov.pl/v2'
 >>>>>>> upstream/18.0
@@ -327,6 +337,12 @@ class KsefApiService:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            elif response.status_code == 429:
+                retry_after = response.headers.get('Retry-After')
+                raise KSeFRateLimitError("Too Many Requests", retry_after=retry_after)
+>>>>>>> upstream/18.0
 =======
             elif response.status_code == 429:
                 retry_after = response.headers.get('Retry-After')
@@ -720,7 +736,10 @@ class KsefApiService:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -792,6 +811,9 @@ class KsefApiService:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

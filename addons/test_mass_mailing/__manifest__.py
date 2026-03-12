@@ -193,6 +193,10 @@ test_mail. """,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'sms_twilio',
+>>>>>>> upstream/18.0
 =======
         'sms_twilio',
 >>>>>>> upstream/18.0

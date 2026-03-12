@@ -86,7 +86,10 @@ class TestAccountMoveDE(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -267,6 +270,7 @@ class TestAccountMoveDE(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -373,6 +377,8 @@ class TestAccountMoveDE(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_public_user_invoice_creation_with_product_record_rule(self):
         public_user = self.env['res.users'].create({'name': 'Public User test', 'login': 'blablabla', 'is_public': True})
@@ -389,4 +395,7 @@ class TestAccountMoveDE(AccountTestInvoicingCommon):
             'invoice_line_ids': [Command.create({'product_id': self.product_a.id})],
         })
         self.assertTrue(move)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -84,7 +84,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                         <t t-set="move_lines" t-value="loc_move_line.filtered(lambda x: x.location_dest_id==location_dest).sorted(lambda ml: ml.picking_id.batch_sequence)"/>
+=======
+                                        <t t-set="move_lines" t-value="loc_move_line.filtered(lambda x: x.location_dest_id==location_dest).sorted(lambda ml: ml.product_id.id)"/>
+>>>>>>> upstream/18.0
 =======
                                         <t t-set="move_lines" t-value="loc_move_line.filtered(lambda x: x.location_dest_id==location_dest).sorted(lambda ml: ml.product_id.id)"/>
 >>>>>>> upstream/18.0

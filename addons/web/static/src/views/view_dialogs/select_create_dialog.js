@@ -256,6 +256,10 @@ export class SelectCreateDialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            props.allowOpenAction = false;
+>>>>>>> upstream/18.0
 =======
             props.allowOpenAction = false;
 >>>>>>> upstream/18.0

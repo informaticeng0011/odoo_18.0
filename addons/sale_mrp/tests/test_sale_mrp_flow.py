@@ -214,6 +214,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from freezegun import freeze_time
+
+>>>>>>> upstream/18.0
 =======
 from freezegun import freeze_time
 
@@ -1499,7 +1504,10 @@ class TestSaleMrpFlowCommon(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         p.uom_po_id = uom_id
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4103,11 +4111,14 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
         """
         Create and confirm a SO with a kit product.
 <<<<<<< HEAD
+<<<<<<< HEAD
         Deliver & Return the components
         Set the SOL qty to 0
         """
         stock_location = self.company_data['default_warehouse'].lot_stock_id
 =======
+=======
+>>>>>>> upstream/18.0
         Deliver in two steps & Return the components
         Set the SOL qty to 0
 
@@ -4115,6 +4126,9 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
         """
         stock_location = self.company_data['default_warehouse'].lot_stock_id
         self.company_data['default_warehouse'].delivery_steps = 'pick_ship'
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         grp_uom = self.env.ref('uom.group_uom')
@@ -4134,12 +4148,15 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
         so.action_confirm()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         delivery = so.picking_ids
         for m in delivery.move_ids:
             m.write({'quantity': m.product_uom_qty, 'picked': True})
         delivery.button_validate()
 
 =======
+=======
+>>>>>>> upstream/18.0
         pick = so.picking_ids
         for m in pick.move_ids:
             m.write({'quantity': m.product_uom_qty, 'picked': True})
@@ -4149,6 +4166,9 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
         for m in delivery.move_ids:
             m.write({'quantity': m.product_uom_qty, 'picked': True})
         delivery.button_validate()
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         self.assertEqual(delivery.state, 'done')
         self.assertEqual(so.order_line.qty_delivered, 2)
@@ -4170,8 +4190,11 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
                 line.product_uom_qty = 0
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(so.picking_ids, delivery | return_picking)
 =======
+=======
+>>>>>>> upstream/18.0
         self.assertEqual(so.picking_ids, pick | delivery | return_picking)
         self.assertRecordValues(so.picking_ids.move_ids.sorted(lambda m: (m.picking_id.id, m.product_id.id)), [
             {'picking_id': pick.id, 'product_id': self.component_f.id, 'quantity': 20.0},
@@ -4181,6 +4204,9 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
             {'picking_id': return_picking.id, 'product_id': self.component_f.id, 'quantity': 20.0},
             {'picking_id': return_picking.id, 'product_id': self.component_g.id, 'quantity': 40.0},
         ])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def test_fifo_reverse_and_create_new_invoice(self):
@@ -4658,7 +4684,10 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5493,6 +5522,7 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5563,6 +5593,8 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6256,6 +6288,7 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6274,6 +6307,8 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6956,6 +6991,7 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7006,6 +7042,8 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7590,12 +7628,15 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8206,6 +8247,7 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8296,6 +8338,8 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8733,6 +8777,7 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(len(mo.backorder_ids), 2)
 
         mo.backorder_ids[0].button_mark_done()
@@ -8776,6 +8821,8 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9165,6 +9212,9 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

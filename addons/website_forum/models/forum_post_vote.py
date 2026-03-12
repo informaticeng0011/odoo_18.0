@@ -169,6 +169,11 @@ class Vote(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                vals.pop('recipient_id', None)
+            self = self.with_context({k: v for k, v in self.env.context.items() if k not in ['default_user_id', 'default_recipient_id']})  # noqa: PLW0642
+>>>>>>> upstream/18.0
 =======
                 vals.pop('recipient_id', None)
             self = self.with_context({k: v for k, v in self.env.context.items() if k not in ['default_user_id', 'default_recipient_id']})  # noqa: PLW0642
@@ -804,6 +809,10 @@ class Vote(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            values.pop('recipient_id', None)
+>>>>>>> upstream/18.0
 =======
             values.pop('recipient_id', None)
 >>>>>>> upstream/18.0
