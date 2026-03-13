@@ -124,6 +124,7 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 taxes = self.taxes_id.filtered_domain(self.env['account.tax']._check_company_domain(company))
 =======
                 taxes = self.sudo(False).taxes_id.filtered_domain(self.env['account.tax']._check_company_domain(company))
@@ -439,6 +440,9 @@ class ProductTemplate(models.Model):
 >>>>>>> upstream/18.0
 =======
                 taxes = self.sudo(False).taxes_id.filtered_domain(self.env['account.tax']._check_company_domain(company))
+>>>>>>> upstream/18.0
+=======
+                taxes = self.taxes_id.filtered_domain(self.env['account.tax']._check_company_domain(company))
 >>>>>>> upstream/18.0
 =======
                 taxes = self.taxes_id.filtered_domain(self.env['account.tax']._check_company_domain(company))
@@ -455,6 +459,7 @@ class ProductTemplate(models.Model):
                     ], limit=1)
                     result['income'] = result_income or result['income']
             if not self.property_account_expense_id:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -877,6 +882,9 @@ class ProductTemplate(models.Model):
 >>>>>>> upstream/18.0
 =======
                 supplier_taxes = self.sudo(False).supplier_taxes_id.filtered_domain(self.env['account.tax']._check_company_domain(company))
+>>>>>>> upstream/18.0
+=======
+                supplier_taxes = self.supplier_taxes_id.filtered_domain(self.env['account.tax']._check_company_domain(company))
 >>>>>>> upstream/18.0
 =======
                 supplier_taxes = self.supplier_taxes_id.filtered_domain(self.env['account.tax']._check_company_domain(company))

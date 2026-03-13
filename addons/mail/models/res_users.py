@@ -336,7 +336,11 @@ class Users(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         activities_to_delete = self.env['mail.activity'].search([('user_id', 'in', self.ids)])
+=======
+        activities_to_delete = self.env['mail.activity'].sudo().search([('user_id', 'in', self.ids)])
+>>>>>>> upstream/18.0
 =======
         activities_to_delete = self.env['mail.activity'].sudo().search([('user_id', 'in', self.ids)])
 >>>>>>> upstream/18.0
@@ -1122,9 +1126,12 @@ class Users(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if has_model_access_right:
                 allowed_records = Model.browse(res_ids)._filtered_access('read')
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1300,6 +1307,9 @@ class Users(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1478,7 +1488,11 @@ class Users(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 unallowed_records -= unallowed_records.with_context(
+=======
+                unallowed_records -= (unallowed_records & existing).with_context(
+>>>>>>> upstream/18.0
 =======
                 unallowed_records -= (unallowed_records & existing).with_context(
 >>>>>>> upstream/18.0

@@ -32,7 +32,11 @@
                         registerMessageRef="registerMessageRef"
                         messageToReplyTo="props.messageToReplyTo"
                         squashed="isSquashed(msg, prevMsg)"
+<<<<<<< HEAD
                         onParentMessageClick.bind="() => msg.parentMessage and env.messageHighlight?.highlightMessage(msg.parentMessage, props.thread)"
+=======
+                        onParentMessageClick.bind="() => this.onParentMessageClick(msg.parentMessage)"
+>>>>>>> upstream/18.0
                         thread="props.thread"
                         messageEdition="props.messageEdition"
                         isFirstMessage="msg_first"
@@ -131,6 +135,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        <span t-if="props.thread.hasLoadingFailedError" class="o-xsmaller text-muted" t-esc="props.thread.hasLoadingFailedError"/>
+>>>>>>> upstream/18.0
 =======
         <span t-if="props.thread.hasLoadingFailedError" class="o-xsmaller text-muted" t-esc="props.thread.hasLoadingFailedError"/>
 >>>>>>> upstream/18.0

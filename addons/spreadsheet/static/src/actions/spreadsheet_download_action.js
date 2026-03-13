@@ -38,10 +38,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { download } from "@web/core/network/download";
 import { registry } from "@web/core/registry";
 import { createSpreadsheetModel, waitForDataLoaded } from "@spreadsheet/helpers/model";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -158,6 +161,9 @@ import { user } from "@web/core/user";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -277,11 +283,14 @@ async function downloadSpreadsheet(env, action) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     let { name, data, stateUpdateMessages, xlsxData } = action.params;
     if (!xlsxData) {
         const model = await createSpreadsheetModel({ env, data, revisions: stateUpdateMessages });
         await waitForDataLoaded(model);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -409,6 +418,9 @@ async function downloadSpreadsheet(env, action) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -528,8 +540,11 @@ async function downloadSpreadsheet(env, action) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             files: new Blob([JSON.stringify(xlsxData.files)], { type: "application/json" }),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -647,6 +662,9 @@ async function downloadSpreadsheet(env, action) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

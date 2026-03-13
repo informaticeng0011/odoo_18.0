@@ -102,6 +102,7 @@ class AccountPaymentCommon(PaymentCommon, AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with cls.mocked_get_payment_method_information(cls):
             cls.dummy_provider_method = cls.env['account.payment.method'].sudo().create({
                 'name': 'Dummy method',
@@ -110,6 +111,8 @@ class AccountPaymentCommon(PaymentCommon, AccountTestInvoicingCommon):
             })
             cls.dummy_provider.journal_id = cls.company_data['default_journal_bank']
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -381,6 +384,9 @@ class AccountPaymentCommon(PaymentCommon, AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -678,6 +684,7 @@ class AccountPaymentCommon(PaymentCommon, AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     #=== Utils ===#
 
@@ -692,6 +699,8 @@ class AccountPaymentCommon(PaymentCommon, AccountTestInvoicingCommon):
 
         with patch.object(self.env.registry['account.payment.method'], '_get_payment_method_information', _get_payment_method_information):
             yield
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

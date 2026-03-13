@@ -161,6 +161,10 @@ export class Thread extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.ui = useService("ui");
+>>>>>>> upstream/18.0
 =======
         this.ui = useService("ui");
 >>>>>>> upstream/18.0
@@ -865,6 +869,25 @@ export class Thread extends Component {
         this.env.services.action.doAction(actionDescription);
     }
 
+<<<<<<< HEAD
+=======
+    async onParentMessageClick(parentMessage) {
+        if (!parentMessage) {
+            return;
+        }
+        const targetThread = parentMessage.thread;
+        if (!targetThread) {
+            return;
+        }
+        if (targetThread.eq(this.props.thread)) {
+            this.env.messageHighlight?.highlightMessage(parentMessage, targetThread);
+        } else {
+            targetThread.highlightMessage = parentMessage;
+            await targetThread.open({ focus: true });
+        }
+    }
+
+>>>>>>> upstream/18.0
     getMessageClassName(message) {
         return !message.isNotification && this.messageHighlight?.highlightedMessageId === message.id
             ? "o-highlighted bg-view shadow-lg pb-1"
@@ -961,6 +984,12 @@ export class Thread extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (!this.ui.isSmall) {
+            this.props.thread.composer.autofocus++;
+        }
+>>>>>>> upstream/18.0
 =======
         if (!this.ui.isSmall) {
             this.props.thread.composer.autofocus++;
@@ -1683,6 +1712,12 @@ export class Thread extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (msg.is_note) {
+            return false;
+        }
+>>>>>>> upstream/18.0
 =======
         if (msg.is_note) {
             return false;

@@ -103,7 +103,11 @@ export class OrderWidget extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     acc.price += line.get_display_price();
+=======
+                    acc.price += line.getDisplayPriceWithQty(value.qty);
+>>>>>>> upstream/18.0
 =======
                     acc.price += line.getDisplayPriceWithQty(value.qty);
 >>>>>>> upstream/18.0

@@ -228,7 +228,10 @@ class TestExpensesMailImport(TestExpenseCommon):
         expense = self.env['hr.expense'].message_new(message)
         self.assertRaisesRegex(UserError, r"You can not create report without category\.", expense._get_default_expense_sheet_values)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_import_expense_from_email_several_companies_one_employee(self):
         """ Import an expense for a user who has access to several companies,
@@ -253,4 +256,7 @@ class TestExpensesMailImport(TestExpenseCommon):
             'employee_id': self.expense_employee.id,
             'company_id': self.expense_employee.company_id.id,
         }])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

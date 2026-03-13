@@ -56,6 +56,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import json
 from contextlib import contextmanager
 <<<<<<< HEAD
@@ -656,6 +657,8 @@ class TestPeppolParticipant(TransactionCase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 from base64 import b64encode
 
 from odoo import Command
@@ -680,6 +683,10 @@ from odoo.exceptions import ValidationError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tests.form import Form
+>>>>>>> upstream/18.0
 =======
 from odoo.tests.form import Form
 >>>>>>> upstream/18.0
@@ -807,6 +814,9 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -927,6 +937,7 @@ class TestPeppolParticipant(PeppolConnectorCommon):
     def setUpClass(cls):
         super().setUpClass()
         cls.env['ir.config_parameter'].sudo().set_param('account_peppol.edi.mode', 'test')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2839,6 +2850,8 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         cls.private_key = cls.env['certificate.key'].create({
             'name': 'Test key PEPPOL',
             'content': b64encode(file_open('account_peppol/tests/assets/private_key.pem', 'rb').read()),
@@ -2916,6 +2929,9 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3042,6 +3058,7 @@ class TestPeppolParticipant(PeppolConnectorCommon):
             'proxy_type': 'peppol',
             'edi_mode': 'demo',
         }])
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3851,6 +3868,8 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         with self._mock_requests([
             self._mock_lookup_participant(),
         ]):
@@ -3913,6 +3932,9 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4037,6 +4059,7 @@ class TestPeppolParticipant(PeppolConnectorCommon):
         with self.assertRaises(ValidationError), self.cr.savepoint():
             wizard.button_peppol_sender_registration()
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4697,6 +4720,8 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def test_register_participant_for_the_first_time_as_sender_then_receiver_then_unregister(self):
         # not_register -> sender
         with self._mock_requests([
@@ -4773,6 +4798,10 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            self._mock_participant_status('receiver'),
+>>>>>>> upstream/18.0
 =======
             self._mock_participant_status('receiver'),
 >>>>>>> upstream/18.0
@@ -5069,6 +5098,10 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            self._mock_participant_status('sender'),
+>>>>>>> upstream/18.0
 =======
             self._mock_participant_status('sender'),
 >>>>>>> upstream/18.0
@@ -5363,6 +5396,10 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            self._mock_participant_status('sender'),
+>>>>>>> upstream/18.0
 =======
             self._mock_participant_status('sender'),
 >>>>>>> upstream/18.0
@@ -5583,6 +5620,7 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5603,6 +5641,8 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5767,6 +5807,7 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5823,6 +5864,8 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5922,6 +5965,7 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5950,6 +5994,8 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6017,6 +6063,9 @@ class TestPeppolParticipant(PeppolConnectorCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -213,6 +213,7 @@ import { expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { click, edit, press, queryAllTexts, waitFor } from "@odoo/hoot-dom";
 import { animationFrame, Deferred } from "@odoo/hoot-mock";
 import {
@@ -241,6 +242,8 @@ import {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -884,6 +887,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1537,6 +1543,7 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1579,6 +1586,8 @@ import {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2223,6 +2232,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2918,7 +2930,11 @@ test("formviewdialog buttons in footer are positioned properly", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["form,false"] = /* xml */ `
+=======
+    Partner._views["form"] = /* xml */ `
+>>>>>>> upstream/18.0
 =======
     Partner._views["form"] = /* xml */ `
 >>>>>>> upstream/18.0
@@ -3826,7 +3842,11 @@ test("modifiers are considered on multiple <footer/> tags", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["form,false"] = /* xml */ `
+=======
+    Partner._views["form"] = /* xml */ `
+>>>>>>> upstream/18.0
 =======
     Partner._views["form"] = /* xml */ `
 >>>>>>> upstream/18.0
@@ -4747,7 +4767,11 @@ test("formviewdialog buttons in footer are not duplicated", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["form,false"] = /* xml */ `
+=======
+    Partner._views["form"] = /* xml */ `
+>>>>>>> upstream/18.0
 =======
     Partner._views["form"] = /* xml */ `
 >>>>>>> upstream/18.0
@@ -5668,7 +5692,11 @@ test("Form dialog and subview with _view_ref contexts", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Instrument._views["form,false"] = /* xml */ `
+=======
+    Instrument._views["form"] = /* xml */ `
+>>>>>>> upstream/18.0
 =======
     Instrument._views["form"] = /* xml */ `
 >>>>>>> upstream/18.0
@@ -6558,7 +6586,11 @@ test("Form dialog and subview with _view_ref contexts", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Badassery._views["list,false"] = /* xml */ `<list><field name="level"/></list>`;
+=======
+    Badassery._views["list"] = /* xml */ `<list><field name="level"/></list>`;
+>>>>>>> upstream/18.0
 =======
     Badassery._views["list"] = /* xml */ `<list><field name="level"/></list>`;
 >>>>>>> upstream/18.0
@@ -7496,7 +7528,11 @@ test("click on view buttons in a FormViewDialog", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["form,false"] = /* xml */ `
+=======
+    Partner._views["form"] = /* xml */ `
+>>>>>>> upstream/18.0
 =======
     Partner._views["form"] = /* xml */ `
 >>>>>>> upstream/18.0
@@ -8410,7 +8446,11 @@ test("formviewdialog is not closed when button handlers return a rejected promis
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["form,false"] = /* xml */ `
+=======
+    Partner._views["form"] = /* xml */ `
+>>>>>>> upstream/18.0
 =======
     Partner._views["form"] = /* xml */ `
 >>>>>>> upstream/18.0
@@ -9285,7 +9325,11 @@ test("formviewdialog is not closed when button handlers return a rejected promis
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("web_save", async () => {
+=======
+    onRpc("web_save", () => {
+>>>>>>> upstream/18.0
 =======
     onRpc("web_save", () => {
 >>>>>>> upstream/18.0
@@ -10157,7 +10201,11 @@ test("FormViewDialog with remove button", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["form,false"] = /* xml */ `<form><field name="foo"/></form>`;
+=======
+    Partner._views["form"] = /* xml */ `<form><field name="foo"/></form>`;
+>>>>>>> upstream/18.0
 =======
     Partner._views["form"] = /* xml */ `<form><field name="foo"/></form>`;
 >>>>>>> upstream/18.0
@@ -11059,7 +11107,11 @@ test("Buttons are set as disabled on click", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["form,false"] = /* xml */ `
+=======
+    Partner._views["form"] = /* xml */ `
+>>>>>>> upstream/18.0
 =======
     Partner._views["form"] = /* xml */ `
 >>>>>>> upstream/18.0
@@ -11977,7 +12029,11 @@ test("FormViewDialog with discard button", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["form,false"] = /* xml */ `<form><field name="foo"/></form>`;
+=======
+    Partner._views["form"] = /* xml */ `<form><field name="foo"/></form>`;
+>>>>>>> upstream/18.0
 =======
     Partner._views["form"] = /* xml */ `<form><field name="foo"/></form>`;
 >>>>>>> upstream/18.0
@@ -12879,7 +12935,11 @@ test("Save a FormViewDialog when a required field is empty don't close the dialo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["form,false"] = /* xml */ `
+=======
+    Partner._views["form"] = /* xml */ `
+>>>>>>> upstream/18.0
 =======
     Partner._views["form"] = /* xml */ `
 >>>>>>> upstream/18.0
@@ -13841,6 +13901,7 @@ test("Save a FormViewDialog when a required field is empty don't close the dialo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test.tags("desktop");
 =======
 >>>>>>> upstream/18.0
@@ -14005,6 +14066,8 @@ test("new record has an expand button", async () => {
     Partner._records = [];
     onRpc("web_save", async () => {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14624,6 +14687,9 @@ test("new record has an expand button", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15330,6 +15396,7 @@ test("new record has an expand button", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test.tags("desktop");
 =======
 >>>>>>> upstream/18.0
@@ -15492,6 +15559,11 @@ test("existing record has an expand button", async () => {
     Partner._views["form"] = /* xml */ `<form><field name="foo"/></form>`;
 >>>>>>> upstream/18.0
     onRpc("web_save", async () => {
+=======
+test("existing record has an expand button", async () => {
+    Partner._views["form"] = /* xml */ `<form><field name="foo"/></form>`;
+    onRpc("web_save", () => {
+>>>>>>> upstream/18.0
 =======
 test("existing record has an expand button", async () => {
     Partner._views["form"] = /* xml */ `<form><field name="foo"/></form>`;
@@ -16713,6 +16785,10 @@ test("existing record has an expand button", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                actionRequest.context,
+>>>>>>> upstream/18.0
 =======
                 actionRequest.context,
 >>>>>>> upstream/18.0
@@ -17448,6 +17524,10 @@ test("existing record has an expand button", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        context: {key: "val"}
+>>>>>>> upstream/18.0
 =======
         context: {key: "val"}
 >>>>>>> upstream/18.0
@@ -18001,6 +18081,7 @@ test("existing record has an expand button", async () => {
     await fieldInput("foo").edit("hola");
     await click(".o_dialog .modal-header .o_expand_button");
     await animationFrame();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18860,6 +18941,8 @@ test("expand button with save and new", async () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     expect.verifySteps([
         "save",
         [
@@ -19055,6 +19138,9 @@ test("expand button with save and new", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19627,6 +19713,9 @@ test("expand button with save and new", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20295,7 +20384,11 @@ test("close dialog with escape after modifying a field with onchange (no blur)",
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["form,false"] = `<form><field name="foo"/></form>`;
+=======
+    Partner._views["form"] = `<form><field name="foo"/></form>`;
+>>>>>>> upstream/18.0
 =======
     Partner._views["form"] = `<form><field name="foo"/></form>`;
 >>>>>>> upstream/18.0
@@ -21199,7 +21292,10 @@ test("close dialog with escape after modifying a field with onchange (no blur)",
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21882,6 +21978,9 @@ test("display a dialog if onchange result is a warning from within a dialog", as
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

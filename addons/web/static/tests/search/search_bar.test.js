@@ -244,6 +244,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    edit,
+>>>>>>> upstream/18.0
 =======
     edit,
 >>>>>>> upstream/18.0
@@ -1128,7 +1132,11 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Deferred, animationFrame, mockDate, mockTimeZone } from "@odoo/hoot-mock";
+=======
+import { Deferred, animationFrame, mockDate, mockTimeZone, mockTouch } from "@odoo/hoot-mock";
+>>>>>>> upstream/18.0
 =======
 import { Deferred, animationFrame, mockDate, mockTimeZone, mockTouch } from "@odoo/hoot-mock";
 >>>>>>> upstream/18.0
@@ -1789,9 +1797,15 @@ import { browser } from "@web/core/browser/browser";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { pick } from "@web/core/utils/objects";
 import { SearchBar } from "@web/search/search_bar/search_bar";
 import { useSearchBarToggler } from "@web/search/search_bar/search_bar_toggler";
+=======
+import { SearchBar } from "@web/search/search_bar/search_bar";
+import { useSearchBarToggler } from "@web/search/search_bar/search_bar_toggler";
+
+>>>>>>> upstream/18.0
 =======
 import { SearchBar } from "@web/search/search_bar/search_bar";
 import { useSearchBarToggler } from "@web/search/search_bar/search_bar_toggler";
@@ -3096,7 +3110,12 @@ defineActions([
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test.tags`desktop`("basic rendering", async () => {
+=======
+test.tags("desktop");
+test("basic rendering", async () => {
+>>>>>>> upstream/18.0
 =======
 test.tags("desktop");
 test("basic rendering", async () => {
@@ -4320,7 +4339,12 @@ test("basic rendering", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test.tags`desktop`("navigation with facets", async () => {
+=======
+test.tags("desktop");
+test("navigation with facets", async () => {
+>>>>>>> upstream/18.0
 =======
 test.tags("desktop");
 test("navigation with facets", async () => {
@@ -5555,7 +5579,12 @@ test("navigation with facets", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test.tags`desktop`("navigation with facets (2)", async () => {
+=======
+test.tags("desktop");
+test("navigation with facets (2)", async () => {
+>>>>>>> upstream/18.0
 =======
 test.tags("desktop");
 test("navigation with facets (2)", async () => {
@@ -6734,7 +6763,10 @@ test("search input is focused when being toggled", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7182,6 +7214,9 @@ test("search input is not focused on larger touch devices", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7862,7 +7897,12 @@ test("select an autocomplete field with `context` key", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test.tags`desktop`("no search text triggers a reload", async () => {
+=======
+test.tags("desktop");
+test("no search text triggers a reload", async () => {
+>>>>>>> upstream/18.0
 =======
 test.tags("desktop");
 test("no search text triggers a reload", async () => {
@@ -9133,7 +9173,11 @@ test("update suggested filters in autocomplete menu with Japanese IME", async ()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const テスト = "テスト";
+=======
+    const TEST_JP = "テスト";
+>>>>>>> upstream/18.0
 =======
     const TEST_JP = "テスト";
 >>>>>>> upstream/18.0
@@ -10113,6 +10157,7 @@ test("update suggested filters in autocomplete menu with Japanese IME", async ()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     // Simulate typing "TEST" on search view.
     await contains(`.o_searchview input`).edit(TEST, { composition: true, confirm: false });
     expect(`.o_searchview_autocomplete`).toHaveCount(1);
@@ -10127,6 +10172,8 @@ test("update suggested filters in autocomplete menu with Japanese IME", async ()
     expect(`.o_searchview_autocomplete`).toHaveCount(1);
     expect(queryFirst`.o_searchview_autocomplete li`).toHaveText("Search Foo for: TEST");
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10871,6 +10918,9 @@ test("update suggested filters in autocomplete menu with Japanese IME", async ()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11804,7 +11854,11 @@ test("checks that an arrowDown always selects an item", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await hover(`.o_searchview_autocomplete li.o_menu_item.o_indent:last-child`);
+=======
+    await hover(".o_searchview_autocomplete li.o_menu_item.o_indent:last");
+>>>>>>> upstream/18.0
 =======
     await hover(".o_searchview_autocomplete li.o_menu_item.o_indent:last");
 >>>>>>> upstream/18.0
@@ -12797,7 +12851,11 @@ test("checks that an arrowUp always selects an item", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await hover(`.o_searchview_autocomplete li.o_menu_item.o_indent:last-child`);
+=======
+    await hover(`.o_searchview_autocomplete li.o_menu_item.o_indent:last`);
+>>>>>>> upstream/18.0
 =======
     await hover(`.o_searchview_autocomplete li.o_menu_item.o_indent:last`);
 >>>>>>> upstream/18.0
@@ -13774,7 +13832,11 @@ test("check kwargs of a rpc call with a domain", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(pick(params, "args", "kwargs", "method", "model")).toEqual({
+=======
+        expect(params).toMatchObject({
+>>>>>>> upstream/18.0
 =======
         expect(params).toMatchObject({
 >>>>>>> upstream/18.0
@@ -14556,7 +14618,10 @@ test("check kwargs of a rpc call with a domain", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 context: { lang: "en", uid: 7, tz: "taht", allowed_company_ids: [1] },
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15952,7 +16017,12 @@ test("no rpc for getting display_name for facets if known", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test.tags`desktop`("clicking on search input trigger the search menu", async () => {
+=======
+test.tags("desktop");
+test("clicking on search input trigger the search menu", async () => {
+>>>>>>> upstream/18.0
 =======
 test.tags("desktop");
 test("clicking on search input trigger the search menu", async () => {
@@ -17362,9 +17432,13 @@ test("dropdown menu last element is 'Add Custom Filter'", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const dropdownMenu = queryFirst(".o_searchview_autocomplete");
     const lastElement = dropdownMenu.querySelector("li:last-child");
     expect(lastElement.textContent.trim()).toBe("Add Custom Filter");
+=======
+    expect(".o_searchview_autocomplete li:last").toHaveText("Add Custom Filter");
+>>>>>>> upstream/18.0
 =======
     expect(".o_searchview_autocomplete li:last").toHaveText("Add Custom Filter");
 >>>>>>> upstream/18.0

@@ -209,6 +209,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <field name="company_country_code" invisible="1"/>
 =======
                 <field name="company_country_code" invisible="1"/> <!-- TODO: to be removed in master -->
@@ -266,6 +267,9 @@
 >>>>>>> upstream/18.0
 =======
                 <field name="company_country_code" invisible="1"/> <!-- TODO: to be removed in master -->
+>>>>>>> upstream/18.0
+=======
+                <field name="company_country_code" invisible="1"/>
 >>>>>>> upstream/18.0
 =======
                 <field name="company_country_code" invisible="1"/>
@@ -886,7 +890,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             context="{'default_company_id': company_id}"/>
+=======
+                            context="{'default_company_id': company_id}" required="company_country_code == 'FR'"/>
+>>>>>>> upstream/18.0
 =======
                             context="{'default_company_id': company_id}" required="company_country_code == 'FR'"/>
 >>>>>>> upstream/18.0

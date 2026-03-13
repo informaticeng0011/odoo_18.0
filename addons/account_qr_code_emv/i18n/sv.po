@@ -182,6 +182,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* account_qr_code_emv
 # 
 # Translators:
@@ -189,6 +190,8 @@
 # Jakob Krabbe <jakob.krabbe@vertel.se>, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -737,6 +740,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1075,6 +1079,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# Hanna Kharraziha <hakha@odoo.com>, 2026.
 >>>>>>> upstream/18.0
 =======
 # Hanna Kharraziha <hakha@odoo.com>, 2026.
@@ -1116,6 +1123,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1764,6 +1772,11 @@ msgstr ""
 "PO-Revision-Date: 2026-02-25 12:22+0000\n"
 "Last-Translator: Hanna Kharraziha <hakha@odoo.com>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-02-25 12:22+0000\n"
+"Last-Translator: Hanna Kharraziha <hakha@odoo.com>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Swedish <https://translate.odoo.com/projects/odoo-18/"
 "account_qr_code_emv/sv/>\n"
 "Language: sv\n"
@@ -1771,6 +1784,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2328,6 +2342,9 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: account_qr_code_emv
 #. odoo-python
@@ -2345,7 +2362,11 @@ msgid "A bank account is required for EMV QR Code generation."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ett bankkonto krävs för generering av EMV QR-kod."
+=======
+msgstr "Ett bankkonto krävs för att skapa en EMV QR-kod."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ett bankkonto krävs för att skapa en EMV QR-kod."
 >>>>>>> upstream/18.0
@@ -2404,7 +2425,11 @@ msgid "Display Qr Setting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Display Qr Inställning"
+=======
+msgstr "Visa inställningar för QR-koder"
+>>>>>>> upstream/18.0
 =======
 msgstr "Visa inställningar för QR-koder"
 >>>>>>> upstream/18.0
@@ -2458,7 +2483,11 @@ msgid "EMV Merchant-Presented QR-code"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "EMV QR-kod som visas av handlaren"
+=======
+msgstr "EMV QR-kod som presenteras av leverantören"
+>>>>>>> upstream/18.0
 =======
 msgstr "EMV QR-kod som presenteras av leverantören"
 >>>>>>> upstream/18.0
@@ -2517,7 +2546,11 @@ msgid "Include Reference"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Inkludera referens"
+=======
+msgstr "Inkludera referensnummer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Inkludera referensnummer"
 >>>>>>> upstream/18.0
@@ -2571,7 +2604,11 @@ msgid "Include the reference in the QR code."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ange referens i QR-koden."
+=======
+msgstr "Inkludera referensnumret i QR-koden."
+>>>>>>> upstream/18.0
 =======
 msgstr "Inkludera referensnumret i QR-koden."
 >>>>>>> upstream/18.0
@@ -2625,7 +2662,11 @@ msgid "Missing Merchant Account Information."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Saknad information om handelskonto."
+=======
+msgstr "Information om leverantörens konto saknas."
+>>>>>>> upstream/18.0
 =======
 msgstr "Information om leverantörens konto saknas."
 >>>>>>> upstream/18.0
@@ -2667,6 +2708,7 @@ msgstr "Information om leverantörens konto saknas."
 #. odoo-python
 #: code:addons/account_qr_code_emv/models/res_bank.py:0
 msgid "Missing Merchant City."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3396,11 +3438,15 @@ msgstr "Information om leverantörens stad saknas."
 =======
 msgstr "Information om leverantörens stad saknas."
 >>>>>>> upstream/18.0
+=======
+msgstr "Information om leverantörens stad saknas."
+>>>>>>> upstream/18.0
 
 #. module: account_qr_code_emv
 #. odoo-python
 #: code:addons/account_qr_code_emv/models/res_bank.py:0
 msgid "Missing Proxy Type."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4130,11 +4176,15 @@ msgstr "Information om proxy-typen saknas."
 =======
 msgstr "Information om proxy-typen saknas."
 >>>>>>> upstream/18.0
+=======
+msgstr "Information om proxy-typen saknas."
+>>>>>>> upstream/18.0
 
 #. module: account_qr_code_emv
 #. odoo-python
 #: code:addons/account_qr_code_emv/models/res_bank.py:0
 msgid "Missing Proxy Value."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4184,11 +4234,15 @@ msgstr "Information om proxyns värde saknas."
 =======
 msgstr "Information om proxyns värde saknas."
 >>>>>>> upstream/18.0
+=======
+msgstr "Information om proxyns värde saknas."
+>>>>>>> upstream/18.0
 
 #. module: account_qr_code_emv
 #. odoo-python
 #: code:addons/account_qr_code_emv/models/res_bank.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4507,6 +4561,8 @@ msgstr "Ingen EMV QR-kod är tillgänglig för kontolandet%(account_number)s."
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "No EMV QR Code is available for the country of the account %"
 "(account_number)s."
 msgstr ""
@@ -4523,6 +4579,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4568,7 +4627,11 @@ msgid "Proxy Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Typ av fullmakt"
+=======
+msgstr "Typ av proxy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Typ av proxy"
 >>>>>>> upstream/18.0
@@ -4622,7 +4685,11 @@ msgid "Proxy Value"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Värde av fullmakt"
+=======
+msgstr "Proxyns värde"
+>>>>>>> upstream/18.0
 =======
 msgstr "Proxyns värde"
 >>>>>>> upstream/18.0

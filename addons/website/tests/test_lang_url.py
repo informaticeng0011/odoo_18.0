@@ -145,6 +145,10 @@ from urllib.parse import urlparse
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import odoo
+>>>>>>> upstream/18.0
 =======
 import odoo
 >>>>>>> upstream/18.0
@@ -713,10 +717,16 @@ from odoo.tests import HttpCase, tagged
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @tagged('-at_install', 'post_install')
 class TestLangUrl(HttpCase):
     def setUp(self):
         super(TestLangUrl, self).setUp()
+=======
+class TestLangUrlCommon(HttpCase):
+    def setUp(self):
+        super().setUp()
+>>>>>>> upstream/18.0
 =======
 class TestLangUrlCommon(HttpCase):
     def setUp(self):
@@ -1571,6 +1581,12 @@ class TestLangUrlCommon(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+@tagged('-at_install', 'post_install')
+class TestLangUrl(TestLangUrlCommon):
+>>>>>>> upstream/18.0
 =======
 
 @tagged('-at_install', 'post_install')
@@ -2458,7 +2474,10 @@ class TestLangUrl(TestLangUrlCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2884,6 +2903,9 @@ class TestLangUrl(TestLangUrlCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3323,7 +3345,10 @@ class TestLangUrl(TestLangUrlCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3757,6 +3782,9 @@ class TestLangUrl(TestLangUrlCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4212,7 +4240,11 @@ class TestLangUrl(TestLangUrlCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class TestControllerRedirect(TestLangUrl):
+=======
+class TestControllerRedirect(TestLangUrlCommon):
+>>>>>>> upstream/18.0
 =======
 class TestControllerRedirect(TestLangUrlCommon):
 >>>>>>> upstream/18.0

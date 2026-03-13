@@ -208,7 +208,10 @@ class TestHolidaysOvertime(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -594,6 +597,9 @@ class TestHolidaysOvertime(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1072,8 +1078,13 @@ class TestHolidaysOvertime(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertFalse(leave.overtime_id.exists(), "Overtime should not be created")
         self.assertEqual(self.employee.total_overtime, 8)
+=======
+        self.assertTrue(leave.overtime_id.exists(), "Overtime should created")
+        self.assertEqual(self.employee.total_overtime, 0)
+>>>>>>> upstream/18.0
 =======
         self.assertTrue(leave.overtime_id.exists(), "Overtime should created")
         self.assertEqual(self.employee.total_overtime, 0)
@@ -2126,7 +2137,10 @@ class TestHolidaysOvertime(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2691,6 +2705,7 @@ class TestHolidaysOvertime(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3053,4 +3068,57 @@ class TestHolidaysOvertime(TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_public_leave_reevaluate_overtime(self):
+        # employee's working schedule needs to be in their company
+        calendar = self.employee.resource_calendar_id.copy({'company_id': self.company.id})
+        self.employee.write({
+            'resource_calendar_id': calendar.id
+        })
+
+        leave_type = self.env['hr.leave.type'].create({
+            'name': 'Sick Leave',
+            'company_id': self.company.id,
+            'requires_allocation': 'no',
+        })
+
+        leave = self.env['hr.leave'].create({
+            'name': '3 day leave',
+            'employee_id': self.employee.id,
+            'holiday_status_id': leave_type.id,
+            'request_date_from': '2025-09-01',
+            'request_date_to': '2025-09-03',
+        })
+        # 1hr attendance every day of the leave
+        self.new_attendance(check_in=datetime(2025, 9, 1, 8), check_out=datetime(2025, 9, 1, 9))
+        self.new_attendance(check_in=datetime(2025, 9, 2, 8), check_out=datetime(2025, 9, 2, 9))
+        self.new_attendance(check_in=datetime(2025, 9, 3, 8), check_out=datetime(2025, 9, 3, 9))
+
+        leave.with_user(self.user_manager).action_validate()
+        self.assertEqual(self.employee.total_overtime, 3)
+
+        # create a public leave that coincides with the leave set for the employee
+        self.env['resource.calendar.leaves'].create({
+            'name': 'Public Holiday',
+            'company_id': self.company.id,
+            'date_from': datetime(2025, 9, 2, 6),
+            'date_to': datetime(2025, 9, 2, 18),
+            'calendar_id': calendar.id,
+        })
+        self.assertEqual(self.employee.total_overtime, 3)
+
+        # 2hr attendance outside the leave
+        self.new_attendance(check_in=datetime(2025, 9, 4, 8), check_out=datetime(2025, 9, 4, 10))
+
+        # create a public leave outside the leave set for the employee to ensure the 2hr attendance turns into overtime
+        self.env['resource.calendar.leaves'].create({
+            'name': 'Public Holiday 2',
+            'company_id': self.company.id,
+            'date_from': datetime(2025, 9, 4, 6),
+            'date_to': datetime(2025, 9, 4, 18),
+            'calendar_id': calendar.id,
+        })
+        self.assertEqual(self.employee.total_overtime, 5)
 >>>>>>> upstream/18.0

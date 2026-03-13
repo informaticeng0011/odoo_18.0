@@ -239,7 +239,11 @@ registry.category("web_tour.tours").add("discuss_channel_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: ".o-mail-Message:contains(today at)",
+=======
+            trigger: ".o-mail-Message[data-persistent]:contains(today at)",
+>>>>>>> upstream/18.0
 =======
             trigger: ".o-mail-Message[data-persistent]:contains(today at)",
 >>>>>>> upstream/18.0

@@ -4,6 +4,7 @@
         <xpath expr="//DatiOrdineAcquisto" position="after">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <Datifatturecollegate t-elif="record.debit_origin_id">
                 <IdDocumento t-out="format_alphanumeric(record.ref, 20)"/>
                 <Data t-out="format_date(record.debit_origin_id.date)"/>
@@ -11,11 +12,16 @@
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             <DatiFattureCollegate t-elif="record.debit_origin_id">
                 <IdDocumento t-out="format_alphanumeric(record.ref, 20)"/>
                 <Data t-out="format_date(record.debit_origin_id.date)"/>
             </DatiFattureCollegate>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

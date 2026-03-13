@@ -204,7 +204,11 @@ class XenditController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def xendit_payment(self, reference, token_ref):
+=======
+    def xendit_payment(self, reference, token_ref, auth_id=None):
+>>>>>>> upstream/18.0
 =======
     def xendit_payment(self, reference, token_ref, auth_id=None):
 >>>>>>> upstream/18.0
@@ -937,11 +941,14 @@ class XenditController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         :return: None
         """
         tx_sudo = request.env['payment.transaction'].sudo().search([('reference', '=', reference)])
         tx_sudo._xendit_create_charge(token_ref)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1490,6 +1497,9 @@ class XenditController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

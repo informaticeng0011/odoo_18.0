@@ -188,6 +188,10 @@ pivotToFunctionValueRegistry
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    .add("reference", _toString)
+>>>>>>> upstream/18.0
 =======
     .add("reference", _toString)
 >>>>>>> upstream/18.0
@@ -780,6 +784,10 @@ pivotToFunctionValueRegistry
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    .add("many2one_reference", _toNumber)
+>>>>>>> upstream/18.0
 =======
     .add("many2one_reference", _toNumber)
 >>>>>>> upstream/18.0

@@ -3,10 +3,16 @@
 import { _t } from "@web/core/l10n/translation";
 import { markup } from "@odoo/owl";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { InputConfirmationDialog } from "@portal/js/components/input_confirmation_dialog/input_confirmation_dialog";
 import { handleCheckIdentity } from "@portal/js/portal_security";
 import publicWidget from "@web/legacy/js/public/public_widget";
 import { browser } from "@web/core/browser/browser";
+=======
+import { TotpConfirmationDialog } from "../components/totp_confirmation_dialog";
+import { handleCheckIdentity } from "@portal/js/portal_security";
+import publicWidget from "@web/legacy/js/public/public_widget";
+>>>>>>> upstream/18.0
 =======
 import { TotpConfirmationDialog } from "../components/totp_confirmation_dialog";
 import { handleCheckIdentity } from "@portal/js/portal_security";
@@ -55,6 +61,7 @@ function fromField(f, record) {
         const copyButton = document.createElement('button');
         copyButton.setAttribute('class', 'btn btn-sm btn-primary o_clipboard_button o_btn_char_copy py-0 px-2');
 <<<<<<< HEAD
+<<<<<<< HEAD
         copyButton.onclick = async function(event) {
             event.preventDefault();
             $(copyButton).tooltip({title: _t("Copied!"), trigger: "manual", placement: "bottom"});
@@ -62,6 +69,8 @@ function fromField(f, record) {
             $(copyButton).tooltip('show');
             setTimeout(() => $(copyButton).tooltip("hide"), 800);
         };
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -172,7 +181,11 @@ publicWidget.registry.TOTPButton = publicWidget.Widget.extend({
         const [body, ,] = fixupViewBody(xmlBody, record);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.call("dialog", "add", InputConfirmationDialog, {
+=======
+        this.call("dialog", "add", TotpConfirmationDialog, {
+>>>>>>> upstream/18.0
 =======
         this.call("dialog", "add", TotpConfirmationDialog, {
 >>>>>>> upstream/18.0

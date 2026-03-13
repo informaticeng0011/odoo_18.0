@@ -21,7 +21,11 @@ import { Plugin } from "../plugin";
 export class ShortCutPlugin extends Plugin {
     static id = "shortcut";
 <<<<<<< HEAD
+<<<<<<< HEAD
     static dependencies = ["userCommand"];
+=======
+    static dependencies = ["userCommand", "selection"];
+>>>>>>> upstream/18.0
 =======
     static dependencies = ["userCommand", "selection"];
 >>>>>>> upstream/18.0
@@ -32,7 +36,10 @@ export class ShortCutPlugin extends Plugin {
             throw new Error("ShorcutPlugin needs hotkey service to properly work");
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
         // We override the command palette shortcut to open a palette with an
         // onClose callback to focus the editor and keep the selection without
@@ -52,6 +59,9 @@ export class ShortCutPlugin extends Plugin {
                 area: () => this.editable,
             }
         );
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         if (document !== this.document) {
             hotkeyService.registerIframe({ contentWindow: this.document.defaultView });
@@ -65,11 +75,17 @@ export class ShortCutPlugin extends Plugin {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     destroy() {
         this.removeEditorCommandPalette();
     }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     addShortcut(hotkey, action) {
         this.services.hotkey.add(hotkey, action, {

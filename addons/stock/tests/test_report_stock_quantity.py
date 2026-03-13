@@ -186,6 +186,7 @@ from odoo import fields, tests
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import Form
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -237,6 +238,11 @@ from freezegun import freeze_time
 from freezegun import freeze_time
 >>>>>>> upstream/18.0
 =======
+from freezegun import freeze_time
+>>>>>>> upstream/18.0
+=======
+from odoo.fields import Command
+from odoo.tests import Form
 from freezegun import freeze_time
 >>>>>>> upstream/18.0
 =======
@@ -1351,6 +1357,12 @@ class TestReportStockQuantity(tests.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # freeze time to avoid test errors due to the class being initialized before 00:00:00 and the test run after
+        cls.fake_today = fields.Date.today()
+        cls.startClassPatcher(freeze_time(cls.fake_today))
+>>>>>>> upstream/18.0
 =======
         # freeze time to avoid test errors due to the class being initialized before 00:00:00 and the test run after
         cls.fake_today = fields.Date.today()
@@ -2730,7 +2742,10 @@ class TestReportStockQuantity(tests.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3359,6 +3374,7 @@ class TestReportStockQuantity(tests.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3499,6 +3515,8 @@ class TestReportStockQuantity(tests.TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3851,6 +3869,9 @@ class TestReportStockQuantity(tests.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
