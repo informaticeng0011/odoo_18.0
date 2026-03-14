@@ -209,7 +209,10 @@ class TestHolidaysOvertime(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -598,6 +601,9 @@ class TestHolidaysOvertime(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1079,8 +1085,13 @@ class TestHolidaysOvertime(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertFalse(leave.overtime_id.exists(), "Overtime should not be created")
         self.assertEqual(self.employee.total_overtime, 8)
+=======
+        self.assertTrue(leave.overtime_id.exists(), "Overtime should created")
+        self.assertEqual(self.employee.total_overtime, 0)
+>>>>>>> upstream/18.0
 =======
         self.assertTrue(leave.overtime_id.exists(), "Overtime should created")
         self.assertEqual(self.employee.total_overtime, 0)
@@ -2138,7 +2149,10 @@ class TestHolidaysOvertime(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2706,6 +2720,7 @@ class TestHolidaysOvertime(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3070,6 +3085,8 @@ class TestHolidaysOvertime(TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_public_leave_reevaluate_overtime(self):
         # employee's working schedule needs to be in their company
@@ -3121,4 +3138,7 @@ class TestHolidaysOvertime(TransactionCase):
             'calendar_id': calendar.id,
         })
         self.assertEqual(self.employee.total_overtime, 5)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

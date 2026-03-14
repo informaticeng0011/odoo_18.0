@@ -144,7 +144,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import fields, models, api
+=======
+from odoo import fields, models, api, _
+from odoo.exceptions import UserError
+>>>>>>> upstream/18.0
 =======
 from odoo import fields, models, api, _
 from odoo.exceptions import UserError
@@ -940,6 +945,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -987,6 +993,8 @@ class AccountMove(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1395,6 +1403,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1621,6 +1630,8 @@ class AccountMove(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1689,6 +1700,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1748,3 +1762,17 @@ class AccountMoveLine(models.Model):
     def _compute_name(self):
         amls = self.filtered(lambda l: not l.move_id.pos_session_ids)
         super(AccountMoveLine, amls)._compute_name()
+<<<<<<< HEAD
+=======
+
+    def _get_discount_lines(self):
+        lines = super()._get_discount_lines()
+        discount_line_ids = []
+        for line in self - lines:
+            pos_orders = line.move_id.sudo().pos_order_ids
+            if pos_orders and line.product_id in pos_orders.config_id.discount_product_id:
+                discount_line_ids.append(line.id)
+        if discount_line_ids:
+            lines |= self.browse(discount_line_ids)
+        return lines
+>>>>>>> upstream/18.0

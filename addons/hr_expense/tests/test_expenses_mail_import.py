@@ -229,7 +229,10 @@ class TestExpensesMailImport(TestExpenseCommon):
         self.assertRaisesRegex(UserError, r"You can not create report without category\.", expense._get_default_expense_sheet_values)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -257,6 +260,9 @@ class TestExpensesMailImport(TestExpenseCommon):
             'company_id': self.expense_employee.company_id.id,
         }])
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

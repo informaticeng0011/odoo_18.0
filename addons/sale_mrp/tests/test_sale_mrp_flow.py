@@ -216,6 +216,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from freezegun import freeze_time
+
+>>>>>>> upstream/18.0
 =======
 from freezegun import freeze_time
 
@@ -1511,7 +1516,10 @@ class TestSaleMrpFlowCommon(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         p.uom_po_id = uom_id
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4121,11 +4129,14 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Deliver & Return the components
         Set the SOL qty to 0
         """
         stock_location = self.company_data['default_warehouse'].lot_stock_id
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4139,6 +4150,9 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
         self.company_data['default_warehouse'].delivery_steps = 'pick_ship'
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4164,12 +4178,15 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         delivery = so.picking_ids
         for m in delivery.move_ids:
             m.write({'quantity': m.product_uom_qty, 'picked': True})
         delivery.button_validate()
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4185,6 +4202,9 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
         delivery.button_validate()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4212,8 +4232,11 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(so.picking_ids, delivery | return_picking)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4229,6 +4252,9 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
         ])
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4712,7 +4738,10 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5553,6 +5582,7 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5623,6 +5653,8 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6322,6 +6354,7 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6340,6 +6373,8 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7028,6 +7063,7 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7078,6 +7114,8 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7668,12 +7706,15 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8290,6 +8331,7 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8380,6 +8422,8 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8823,6 +8867,7 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(len(mo.backorder_ids), 2)
 
         mo.backorder_ids[0].button_mark_done()
@@ -8866,6 +8911,8 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9261,6 +9308,9 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

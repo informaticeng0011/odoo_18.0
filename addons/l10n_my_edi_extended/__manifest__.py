@@ -206,6 +206,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'views/account_portal_templates.xml',
+>>>>>>> upstream/18.0
 =======
         'views/account_portal_templates.xml',
 >>>>>>> upstream/18.0

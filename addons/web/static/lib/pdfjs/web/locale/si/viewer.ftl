@@ -140,12 +140,15 @@ pdfjs-bookmark-button-label = පවතින පිටුව
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Used in Firefox for Android.
 pdfjs-open-in-app-button =
     .title = යෙදුමෙහි අරින්න
 # Used in Firefox for Android.
 # Length of the translation matters since we are in a mobile context, with limited screen estate.
 pdfjs-open-in-app-button-label = යෙදුමෙහි අරින්න
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -616,7 +619,10 @@ pdfjs-editor-ink-button-label = අඳින්න
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -905,6 +911,9 @@ pdfjs-editor-ink-button-label = අඳින්න
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1204,7 +1213,10 @@ pdfjs-free-text-default-content = ලිවීීම අරඹන්න…
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1501,6 +1513,9 @@ pdfjs-free-text-default-content = ලිවීීම අරඹන්න…
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

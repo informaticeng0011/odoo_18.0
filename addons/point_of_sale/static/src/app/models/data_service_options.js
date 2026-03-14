@@ -62,6 +62,7 @@ export class DataServiceOptions {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 condition: (record) => record.finalized && typeof record.id === "number",
             },
             "pos.order.line": {
@@ -74,6 +75,8 @@ export class DataServiceOptions {
                 condition: (record) =>
                     record.pos_order_id?.finalized && typeof record.pos_order_id.id === "number",
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -251,6 +254,9 @@ export class DataServiceOptions {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -425,8 +431,12 @@ export class DataServiceOptions {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     record.pos_order_line_id?.order_id?.finalized &&
                     typeof record.pos_order_line_id.order_id.id === "number",
+=======
+                    record.pos_order_line_id?.order_id?.canBeRemovedFromIndexedDB,
+>>>>>>> upstream/18.0
 =======
                     record.pos_order_line_id?.order_id?.canBeRemovedFromIndexedDB,
 >>>>>>> upstream/18.0
@@ -663,6 +673,12 @@ export class DataServiceOptions {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                getRecordsBasedOnLines: (orderlines) => {
+                    return orderlines.flatMap((line) => line.custom_attribute_value_ids);
+                },
+>>>>>>> upstream/18.0
 =======
                 getRecordsBasedOnLines: (orderlines) => {
                     return orderlines.flatMap((line) => line.custom_attribute_value_ids);

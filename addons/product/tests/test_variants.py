@@ -656,7 +656,10 @@ class TestVariants(ProductVariantsCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1459,6 +1462,7 @@ class TestVariants(ProductVariantsCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1653,6 +1657,8 @@ class TestVariants(ProductVariantsCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2179,6 +2185,9 @@ class TestVariants(ProductVariantsCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3539,7 +3548,10 @@ class TestVariantsArchive(ProductVariantsCommon):
         self.assertFalse(products.exists())
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @mute_logger('odoo.models.unlink')
     def test_add_attribute_to_archived_template(self):
         template = self.env['product.template'].create({
@@ -3571,6 +3583,9 @@ class TestVariantsArchive(ProductVariantsCommon):
         for variant in all_variants:
             self.assertFalse(variant.active, "Variants should remain archived when template is archived")
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 @tagged('post_install', '-at_install')
 class TestVariantWrite(TransactionCase):

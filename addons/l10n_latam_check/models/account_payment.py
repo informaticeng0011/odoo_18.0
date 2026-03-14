@@ -254,7 +254,10 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             liquidity_balance = 0.0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -583,7 +586,11 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     liquidity_balance = payment.currency_id.round(payment_liquidity_line.balance - liquidity_balance)
+=======
+                    liquidity_balance = payment.currency_id.round(payment_liquidity_line.balance - liquidity_balance_total)
+>>>>>>> upstream/18.0
 =======
                     liquidity_balance = payment.currency_id.round(payment_liquidity_line.balance - liquidity_balance_total)
 >>>>>>> upstream/18.0
@@ -1185,7 +1192,11 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         ('payment_id.state', '!=', 'draft'),
+=======
+                        ('payment_id.state', 'not in', ['draft', 'canceled']),
+>>>>>>> upstream/18.0
 =======
                         ('payment_id.state', 'not in', ['draft', 'canceled']),
 >>>>>>> upstream/18.0

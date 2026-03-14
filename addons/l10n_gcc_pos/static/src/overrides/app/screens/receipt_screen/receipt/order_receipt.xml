@@ -185,7 +185,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <t t-if="props.data.is_gcc_country">
+=======
+            <t t-if="props.data.is_gcc_country and props.data.show_title">
+>>>>>>> upstream/18.0
 =======
             <t t-if="props.data.is_gcc_country and props.data.show_title">
 >>>>>>> upstream/18.0
@@ -958,7 +962,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <div>Served by / خدم بواسطة <t t-esc="props.data.cashier"/></div>
+=======
+                <div>Served by / خدم بواسطة <t t-esc="props.data.gcc_cashier"/></div>
+>>>>>>> upstream/18.0
 =======
                 <div>Served by / خدم بواسطة <t t-esc="props.data.gcc_cashier"/></div>
 >>>>>>> upstream/18.0

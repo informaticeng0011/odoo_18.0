@@ -227,7 +227,11 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'company_id': self.env.context.get('default_company_id') or self.env.company.id,
+=======
+                    'company_id': self.env.context.get('company_id') or self.env.company.id,
+>>>>>>> upstream/18.0
 =======
                     'company_id': self.env.context.get('company_id') or self.env.company.id,
 >>>>>>> upstream/18.0
@@ -867,6 +871,7 @@ class SaleOrderLine(models.Model):
 
     @api.depends('order_id.partner_id', 'product_id', 'order_id.project_id')
     def _compute_analytic_distribution(self):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2173,6 +2178,8 @@ class SaleOrderLine(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         ctx_project = self.env['project.project'].browse(self.env.context.get('project_id'))
         project_lines = self.filtered(lambda l: not l.display_type and (ctx_project or l.product_id.project_id or l.order_id.project_id))
         empty_project_lines = project_lines.filtered(lambda l: not l.analytic_distribution)
@@ -2198,6 +2205,9 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2400,6 +2410,9 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2958,6 +2971,9 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3647,6 +3663,10 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'account_id': self.env.context.get('project_account_id') or self.order_id.project_account_id.id or self.env['account.analytic.account'].create(self.order_id._prepare_analytic_account_data()).id,
+>>>>>>> upstream/18.0
 =======
             'account_id': self.env.context.get('project_account_id') or self.order_id.project_account_id.id or self.env['account.analytic.account'].create(self.order_id._prepare_analytic_account_data()).id,
 >>>>>>> upstream/18.0
@@ -4314,6 +4334,7 @@ class SaleOrderLine(models.Model):
     def _timesheet_create_task_prepare_values(self, project):
         self.ensure_one()
         allocated_hours = 0.0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6029,6 +6050,8 @@ class SaleOrderLine(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         if self.product_id.service_type != 'milestones':
             allocated_hours = self._convert_qty_company_hours(self.company_id)
         sale_line_name_parts = self.name.split('\n')
@@ -6077,6 +6100,9 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6226,6 +6252,7 @@ class SaleOrderLine(models.Model):
             if so_line.product_id.service_tracking in ['project_only', 'task_in_project']:
                 project = so_line.project_id
             if not project and _can_create_project(so_line):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6834,11 +6861,14 @@ class SaleOrderLine(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 # If no reference analytic account exists, set the account of the generated project to the account of the project's SO or create a new one
                 account = map_account_per_so.get(so_line.order_id.id)
                 if not account:
                     account = so_line.order_id.project_account_id or self.env['account.analytic.account'].create(so_line.order_id._prepare_analytic_account_data())
                     map_account_per_so[so_line.order_id.id] = account
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7443,6 +7473,8 @@ class SaleOrderLine(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 project = so_line.with_context(project_account_id=account.id)._timesheet_create_project()
                 # If the SO generates projects on confirmation and the project's SO is not set, set it to the project's SOL with the lowest (sequence, id)
                 if not so_line.order_id.project_id:
@@ -7647,6 +7679,9 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8113,6 +8148,7 @@ class SaleOrderLine(models.Model):
             to this sale order line, or the analytic account of the project which uses this sale order line, if it exists.
         """
         values = super(SaleOrderLine, self)._prepare_invoice_line(**optional_values)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9006,6 +9042,9 @@ class SaleOrderLine(models.Model):
 =======
         if not values.get('analytic_distribution') and not self.analytic_distribution:
 >>>>>>> upstream/18.0
+=======
+        if not values.get('analytic_distribution') and not self.analytic_distribution:
+>>>>>>> upstream/18.0
             if self.task_id.project_id.account_id:
                 values['analytic_distribution'] = {self.task_id.project_id.account_id.id: 100}
             elif self.project_id.account_id:
@@ -9213,7 +9252,11 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self.project_id:
+=======
+        if self.order_id.project_id:
+>>>>>>> upstream/18.0
 =======
         if self.order_id.project_id:
 >>>>>>> upstream/18.0

@@ -3,6 +3,7 @@ from odoo.tests.common import TransactionCase
 
 from odoo.addons.account.tools import (
     is_valid_structured_reference_be,
+<<<<<<< HEAD
     is_valid_structured_reference_fi,
     is_valid_structured_reference_no_se,
     is_valid_structured_reference_nl,
@@ -818,6 +819,12 @@ from odoo.addons.account.tools import (
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+    is_valid_structured_reference_dk,
+    is_valid_structured_reference_fi,
+    is_valid_structured_reference_no_se,
+    is_valid_structured_reference_nl,
+>>>>>>> upstream/18.0
     is_valid_structured_reference_si,
     is_valid_structured_reference_iso,
     is_valid_structured_reference,
@@ -846,6 +853,9 @@ from odoo.addons.account.tools import (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -932,6 +942,34 @@ class StructuredReferenceTest(TransactionCase):
         # Validates the entire string
         self.assertFalse(is_valid_structured_reference_be('020343053497-OTHER-RANDOM-STUFF'))
 
+<<<<<<< HEAD
+=======
+    def test_structured_reference_dk(self):
+        # Accepts FIK 71 references (14-digit payment ID + check digit)
+        self.assertTrue(is_valid_structured_reference_dk('+71<000000001234566+88655702<'))
+        self.assertTrue(is_valid_structured_reference_dk(' 71<000000001234566+88655702< '))
+
+        # Accepts FIK 75 references (15-digit payment ID + check digit)
+        self.assertTrue(is_valid_structured_reference_dk('+75<0000000001234566+88655702<'))
+
+        # Does not validate invalid structured format
+        self.assertFalse(is_valid_structured_reference_dk('71<000000001234566+88655702'))   # missing <
+        self.assertFalse(is_valid_structured_reference_dk('+71<00000000123456688655702<'))  # missing +
+
+        # Does not validate invalid length
+        self.assertFalse(is_valid_structured_reference_dk('+71<12345678901234+88655702<'))  # 14 instead of 15
+        self.assertFalse(is_valid_structured_reference_dk('+75<123456789012345+88655702<'))  # 15 instead of 16
+
+        # Does not validate invalid checksum
+        self.assertFalse(is_valid_structured_reference_dk('+71<000000001234567+88655702<'))  # checksum digit altered
+
+        # Does not validate invalid creditor number
+        self.assertFalse(is_valid_structured_reference_dk('+71<000000001234566+8865570<'))
+
+        # Must validate full string
+        self.assertFalse(is_valid_structured_reference_dk('+71<000000001234566+88655702<-EXTRA'))
+
+>>>>>>> upstream/18.0
     def test_structured_reference_fi(self):
         # Accepts references in structured format
         self.assertTrue(is_valid_structured_reference_fi('2023 0000 98'))
@@ -1204,7 +1242,10 @@ class StructuredReferenceTest(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1853,6 +1894,9 @@ class StructuredReferenceTest(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2275,6 +2319,7 @@ class StructuredReferenceTest(TransactionCase):
         self.assertTrue(is_valid_structured_reference(' RF18 5390 0754 7034 '))  # ISO
         self.assertTrue(is_valid_structured_reference(' +++020/3430/57642+++'))  # BE
         self.assertTrue(is_valid_structured_reference('***020/3430/57642*** '))  # BE
+<<<<<<< HEAD
         self.assertTrue(is_valid_structured_reference('2023 0000 98'))  # FI
         self.assertTrue(is_valid_structured_reference('1234 5678 97'))  # NO-SE
         self.assertTrue(is_valid_structured_reference('5000056789012345'))  # NL
@@ -3956,6 +4001,21 @@ class StructuredReferenceTest(TransactionCase):
 =======
         self.assertTrue(is_valid_structured_reference("  SI01 25  - 2 0-85  "))  # SI
 >>>>>>> upstream/18.0
+=======
+        self.assertTrue(is_valid_structured_reference('+71<000000001234566+88655702<'))  # DK
+        self.assertTrue(is_valid_structured_reference('2023 0000 98'))  # FI
+        self.assertTrue(is_valid_structured_reference('1234 5678 97'))  # NO-SE
+        self.assertTrue(is_valid_structured_reference('5000056789012345'))  # NL
+        self.assertTrue(is_valid_structured_reference("SI01 25-20-85"))  # SI
+        # Accept references in unstructured format
+        self.assertTrue(is_valid_structured_reference(' RF18539007547034'))  # ISO
+        self.assertTrue(is_valid_structured_reference(' 020343057642'))  # BE
+        self.assertTrue(is_valid_structured_reference(' 71<000000001234566+88655702< '))  # DK
+        self.assertTrue(is_valid_structured_reference('2023000098'))  # FI
+        self.assertTrue(is_valid_structured_reference('1234567897'))  # NO-SE
+        self.assertTrue(is_valid_structured_reference('5 000 0567 8901 2345'))  # NL
+        self.assertTrue(is_valid_structured_reference("  SI01 25  - 2 0-85  "))  # SI
+>>>>>>> upstream/18.0
         # Validates with zero's added in front
         self.assertTrue(is_valid_structured_reference('RF18000000000539007547034'))  # ISO
         self.assertTrue(is_valid_structured_reference('00000000002023000098'))  # FI
@@ -3964,6 +4024,7 @@ class StructuredReferenceTest(TransactionCase):
         # Does not validate invalid structured format
         self.assertFalse(is_valid_structured_reference('18539007547034RF'))  # ISO
         self.assertFalse(is_valid_structured_reference('***02/03430/57642***'))  # BE
+<<<<<<< HEAD
         self.assertFalse(is_valid_structured_reference('2023/0000/98'))  # FI
         self.assertFalse(is_valid_structured_reference('1234/5678/97'))  # NO-SE
         self.assertFalse(is_valid_structured_reference('(5)000 0567 8901 2345'))  # NL
@@ -5619,6 +5680,20 @@ class StructuredReferenceTest(TransactionCase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+        self.assertFalse(is_valid_structured_reference('71<000000001234566+88655702'))  # DK
+        self.assertFalse(is_valid_structured_reference('2023/0000/98'))  # FI
+        self.assertFalse(is_valid_structured_reference('1234/5678/97'))  # NO-SE
+        self.assertFalse(is_valid_structured_reference('(5)000 0567 8901 2345'))  # NL
+        self.assertFalse(is_valid_structured_reference("0519123584503"))  # SI
+        # Does not validate invalid checksum
+        self.assertFalse(is_valid_structured_reference('RF17539007547034'))  # ISO
+        self.assertFalse(is_valid_structured_reference('020343057641'))  # BE
+        self.assertFalse(is_valid_structured_reference('+71<000000001234567+88655702<'))  # DK
+        self.assertFalse(is_valid_structured_reference('2023000095'))  # FI
+        self.assertFalse(is_valid_structured_reference('1234567898'))  # NO-SE
+        self.assertFalse(is_valid_structured_reference('6000056789012345'))  # NL
+>>>>>>> upstream/18.0
         self.assertFalse(is_valid_structured_reference("SI01 19-1235-84504"))  # SI
 
     def test_structured_reference_for_country(self):
@@ -5659,6 +5734,9 @@ class StructuredReferenceTest(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

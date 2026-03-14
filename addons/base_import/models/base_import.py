@@ -427,9 +427,12 @@ class Import(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if not target_model.has_access('read'):  # ignore if you cannot read target_model at all
                 continue
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -761,6 +764,9 @@ class Import(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1337,7 +1343,13 @@ class Import(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not encoding:
+=======
+        encoding_guessed = False
+        if not encoding:
+            encoding_guessed = True
+>>>>>>> upstream/18.0
 =======
         encoding_guessed = False
         if not encoding:
@@ -2019,8 +2031,11 @@ class Import(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         csv_text = csv_data.decode(encoding)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2362,6 +2377,9 @@ class Import(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3459,7 +3477,11 @@ class Import(models.TransientModel):
         import_result = model.load(import_fields, merged_data)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         _logger.info('done')
+=======
+        _logger.info('done importing data into model: %s', model._name)
+>>>>>>> upstream/18.0
 =======
         _logger.info('done importing data into model: %s', model._name)
 >>>>>>> upstream/18.0
@@ -3479,6 +3501,10 @@ class Import(models.TransientModel):
             self.pool.reset_changes()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            _logger.info('Previous import was a dry/test run, changes were reset')
+>>>>>>> upstream/18.0
 =======
             _logger.info('Previous import was a dry/test run, changes were reset')
 >>>>>>> upstream/18.0
@@ -3682,7 +3708,11 @@ class Import(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             elif field.type == 'binary' and field.attachment and any(f in name for f in IMAGE_FIELDS) and name in import_fields:
+=======
+            elif field.type == 'binary' and field.attachment and name in import_fields:
+>>>>>>> upstream/18.0
 =======
             elif field.type == 'binary' and field.attachment and name in import_fields:
 >>>>>>> upstream/18.0
@@ -4341,6 +4371,10 @@ def to_re(pattern):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    pattern = re.sub(r"([\\.^$*+?\(\){}\[\]|])", r"\\\1", pattern)
+>>>>>>> upstream/18.0
 =======
     pattern = re.sub(r"([\\.^$*+?\(\){}\[\]|])", r"\\\1", pattern)
 >>>>>>> upstream/18.0

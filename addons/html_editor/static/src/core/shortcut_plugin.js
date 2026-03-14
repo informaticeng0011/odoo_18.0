@@ -22,7 +22,11 @@ export class ShortCutPlugin extends Plugin {
     static id = "shortcut";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     static dependencies = ["userCommand"];
+=======
+    static dependencies = ["userCommand", "selection"];
+>>>>>>> upstream/18.0
 =======
     static dependencies = ["userCommand", "selection"];
 >>>>>>> upstream/18.0
@@ -37,7 +41,10 @@ export class ShortCutPlugin extends Plugin {
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -60,6 +67,9 @@ export class ShortCutPlugin extends Plugin {
             }
         );
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -76,7 +86,10 @@ export class ShortCutPlugin extends Plugin {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     destroy() {
@@ -84,6 +97,9 @@ export class ShortCutPlugin extends Plugin {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
