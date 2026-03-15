@@ -77,7 +77,11 @@ class AccountMoveSend(models.AbstractModel):
                         'l10n_pl_edi_ref': l10n_pl_edi_ref,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         'l10n_pl_edi_session_id': move.company_id.l10n_pl_edi_session_id,
+=======
+                        'l10n_pl_edi_session_id': move.company_id.sudo().l10n_pl_edi_session_id,
+>>>>>>> upstream/18.0
 =======
                         'l10n_pl_edi_session_id': move.company_id.sudo().l10n_pl_edi_session_id,
 >>>>>>> upstream/18.0

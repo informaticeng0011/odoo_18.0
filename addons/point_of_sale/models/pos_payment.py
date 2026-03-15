@@ -226,6 +226,11 @@ class PosPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    _sql_constraints = [('uuid_unique', 'unique (uuid)', "A payment with this uuid already exists")]
+
+>>>>>>> upstream/18.0
 =======
     _sql_constraints = [('uuid_unique', 'unique (uuid)', "A payment with this uuid already exists")]
 
@@ -993,8 +998,11 @@ class PosPayment(models.Model):
         payment_to_change = self.filtered(lambda p: not p.is_change and p.payment_method_id.type == 'cash')[:1]
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for payment in self - change_payment:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         payments = self
@@ -1003,6 +1011,9 @@ class PosPayment(models.Model):
 
         for payment in payments:
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

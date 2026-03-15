@@ -174,7 +174,11 @@ class PosOrder(models.Model):
         return {
             **vals,
 <<<<<<< HEAD
+<<<<<<< HEAD
             'ref': self.l10n_jo_edi_pos_return_reason,
+=======
+            'ref': self.l10n_jo_edi_pos_return_reason or vals.get('ref', False),
+>>>>>>> upstream/18.0
 =======
             'ref': self.l10n_jo_edi_pos_return_reason or vals.get('ref', False),
 >>>>>>> upstream/18.0

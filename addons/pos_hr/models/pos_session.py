@@ -156,8 +156,13 @@ class PosSession(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def set_opening_control(self, cashbox_value: int, notes: str):
         super().set_opening_control(cashbox_value, notes)
+=======
+    def _set_opening_control_data(self, cashbox_value: int, notes: str):
+        super()._set_opening_control_data(cashbox_value, notes)
+>>>>>>> upstream/18.0
 =======
     def _set_opening_control_data(self, cashbox_value: int, notes: str):
         super()._set_opening_control_data(cashbox_value, notes)

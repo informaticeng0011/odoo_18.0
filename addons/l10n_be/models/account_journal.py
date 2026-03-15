@@ -7,12 +7,18 @@ class AccountJournal(models.Model):
     _inherit = 'account.journal'
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     invoice_reference_model = fields.Selection(selection_add=[
         ('be', 'Belgium')
         ], ondelete={'be': lambda recs: recs.write({'invoice_reference_model': 'odoo'})})
 =======
+=======
+>>>>>>> upstream/18.0
     invoice_reference_model = fields.Selection(
         selection_add=[('be', 'Belgium')],
         ondelete={'be': lambda recs: recs.write({'invoice_reference_model': 'odoo'})}
     )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

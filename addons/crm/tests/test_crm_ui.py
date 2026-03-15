@@ -183,6 +183,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import os
+
+from unittest import skipIf
+>>>>>>> upstream/18.0
 =======
 import os
 
@@ -1276,6 +1282,7 @@ class TestUi(HttpCase, TestCrmCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # TODO: The tour is raising a JS error when selecting Brandon Freeman
         # but with the demo data it succeeds to continue if there is already another lead
         # in the pipe. Then the tour is using a record in the Qualified stage to create
@@ -1405,6 +1412,8 @@ class TestUi(HttpCase, TestCrmCommon):
     @skipIf(os.getenv("ODOO_FAKETIME_TEST_MODE"), 'This tour uses CURRENT_DATE which cannot work in faketime mode')
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1885,6 +1894,9 @@ class TestUi(HttpCase, TestCrmCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -233,6 +233,7 @@ import zipfile
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from contextlib import suppress
 >>>>>>> upstream/18.0
@@ -334,6 +335,8 @@ from contextlib import suppress
 >>>>>>> upstream/18.0
 =======
 from contextlib import suppress
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -827,9 +830,14 @@ class AttachmentController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         thread = request.env[thread_model]._get_thread_with_access(
             int(thread_id), mode=request.env[thread_model]._mail_post_access, **kwargs
         )
+=======
+        post_access = request.env[thread_model].sudo()._get_mail_message_access(int(thread_id), "create")
+        thread = request.env[thread_model]._get_thread_with_access(int(thread_id), mode=post_access, **kwargs)
+>>>>>>> upstream/18.0
 =======
         post_access = request.env[thread_model].sudo()._get_mail_message_access(int(thread_id), "create")
         thread = request.env[thread_model]._get_thread_with_access(int(thread_id), mode=post_access, **kwargs)
@@ -1333,6 +1341,9 @@ class AttachmentController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1923,6 +1934,7 @@ class AttachmentController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -2029,6 +2041,8 @@ class AttachmentController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -90,7 +90,11 @@ partnerCompareRegistry.add(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     { sequence: 45 }
+=======
+    { sequence: 25 }
+>>>>>>> upstream/18.0
 =======
     { sequence: 25 }
 >>>>>>> upstream/18.0

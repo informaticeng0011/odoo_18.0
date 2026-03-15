@@ -675,8 +675,11 @@ export class Store extends BaseStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onStarted() {}
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1290,6 +1293,7 @@ export class Store extends BaseStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (isTabFocused && thread?.isDisplayed) {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1369,6 +1373,8 @@ export class Store extends BaseStore {
                     navigator.serviceWorker.controller?.postMessage({
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1807,6 +1813,9 @@ export class Store extends BaseStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2331,6 +2340,9 @@ export class Store extends BaseStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3330,7 +3342,11 @@ export const storeService = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         store.insert(session.storeData);
+=======
+        store.insert(session.storeData, { html: true });
+>>>>>>> upstream/18.0
 =======
         store.insert(session.storeData, { html: true });
 >>>>>>> upstream/18.0

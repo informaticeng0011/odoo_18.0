@@ -244,6 +244,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                     <button name="action_print" string="Print" class="oe_highlight" type="object" invisible="not state in ['challan', 'generated']" data-hotkey="f"/>
 >>>>>>> upstream/18.0
@@ -395,6 +396,8 @@
                 </header>
                 <div class="alert alert-danger" role="alert" style="margin-bottom:0px;" invisible="not error_message or blocking_level == 'error'">
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -948,6 +951,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1503,7 +1509,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <div class="alert alert-warning" role="alert" style="margin-bottom:0px;" invisible="not error_message or blocking_level == 'warning'">
+=======
+                <div class="alert alert-warning" role="alert" style="margin-bottom:0px;" invisible="not error_message or blocking_level == 'error'">
+>>>>>>> upstream/18.0
 =======
                 <div class="alert alert-warning" role="alert" style="margin-bottom:0px;" invisible="not error_message or blocking_level == 'error'">
 >>>>>>> upstream/18.0
@@ -2334,7 +2344,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                    required="mode == '1'"
+=======
+                                   required="mode == '1' and not transportation_doc_no"
+>>>>>>> upstream/18.0
 =======
                                    required="mode == '1' and not transportation_doc_no"
 >>>>>>> upstream/18.0
@@ -3174,6 +3188,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                                     <field name="description_picking" string="Description" help="Max 100-character description is allowed"/>
 >>>>>>> upstream/18.0
@@ -3194,6 +3209,9 @@
 >>>>>>> upstream/18.0
 =======
                                     <field name="description_picking" string="Description" help="Max 100-character description is allowed"/>
+>>>>>>> upstream/18.0
+=======
+                                    <field name="description_picking" string="Description" help="Max 100-character description is allowed" readonly="1"/>
 >>>>>>> upstream/18.0
 =======
                                     <field name="description_picking" string="Description" help="Max 100-character description is allowed" readonly="1"/>

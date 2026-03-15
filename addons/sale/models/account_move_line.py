@@ -244,7 +244,10 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -907,6 +910,7 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             vals |= self.sale_line_ids.analytic_distribution or {}
         return vals
 
@@ -943,6 +947,11 @@ class AccountMoveLine(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+            vals |= self.sale_line_ids[0].analytic_distribution or {}
+        return vals
+
 >>>>>>> upstream/18.0
 =======
             vals |= self.sale_line_ids[0].analytic_distribution or {}
@@ -2343,6 +2352,10 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'analytic_distribution': self.analytic_distribution,
+>>>>>>> upstream/18.0
 =======
             'analytic_distribution': self.analytic_distribution,
 >>>>>>> upstream/18.0
@@ -2954,7 +2967,10 @@ class AccountMoveLine(models.Model):
         # OVERRIDE
         return self.sale_line_ids.filtered('is_downpayment').invoice_lines.filtered(lambda line: line.move_id._is_downpayment())
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def _get_discount_lines(self):
         lines = super()._get_discount_lines()
@@ -2966,4 +2982,7 @@ class AccountMoveLine(models.Model):
         if discount_line_ids:
             lines |= self.browse(discount_line_ids)
         return lines
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

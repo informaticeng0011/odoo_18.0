@@ -149,7 +149,11 @@ import { registry } from "@web/core/registry";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { checkSimplifiedInvoiceNumber, pay } from "./utils/receipt_util";
+=======
+import { checkSimplifiedInvoiceNumber, checkCompanyState, pay } from "./utils/receipt_util";
+>>>>>>> upstream/18.0
 =======
 import { checkSimplifiedInvoiceNumber, checkCompanyState, pay } from "./utils/receipt_util";
 >>>>>>> upstream/18.0
@@ -758,6 +762,10 @@ registry.category("web_tour.tours").add("spanish_pos_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            checkCompanyState("Badajoz"),
+>>>>>>> upstream/18.0
 =======
             checkCompanyState("Badajoz"),
 >>>>>>> upstream/18.0
@@ -1335,6 +1343,10 @@ registry.category("web_tour.tours").add("spanish_pos_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            checkCompanyState("Badajoz"),
+>>>>>>> upstream/18.0
 =======
             checkCompanyState("Badajoz"),
 >>>>>>> upstream/18.0
@@ -2044,7 +2056,10 @@ registry.category("web_tour.tours").add("l10n_es_pos_settle_account_due", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2714,6 +2729,10 @@ registry.category("web_tour.tours").add("test_simplified_invoice_not_override_se
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            ProductScreen.clickFiscalPosition("Original Tax"),
+>>>>>>> upstream/18.0
 =======
             ProductScreen.clickFiscalPosition("Original Tax"),
 >>>>>>> upstream/18.0
@@ -3448,6 +3467,7 @@ registry.category("web_tour.tours").add("test_simplified_invoice_not_override_se
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3584,6 +3604,8 @@ registry.category("web_tour.tours").add("test_simplified_invoice_not_override_se
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4146,6 +4168,9 @@ registry.category("web_tour.tours").add("test_simplified_partner_inactive_case",
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

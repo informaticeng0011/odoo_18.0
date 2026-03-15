@@ -39,6 +39,10 @@ from odoo.exceptions import UserError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools.float_utils import float_round
+>>>>>>> upstream/18.0
 =======
 from odoo.tools.float_utils import float_round
 >>>>>>> upstream/18.0
@@ -526,7 +530,10 @@ STATE_CODES = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1005,6 +1012,9 @@ _eu_country_vat = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1656,7 +1666,11 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             picking.l10n_ro_edi_stock_enable = picking.company_id.account_fiscal_country_id.code == 'RO'
+=======
+            picking.l10n_ro_edi_stock_enable = picking.picking_type_code != 'internal' and picking.company_id.account_fiscal_country_id.code == 'RO'
+>>>>>>> upstream/18.0
 =======
             picking.l10n_ro_edi_stock_enable = picking.picking_type_code != 'internal' and picking.company_id.account_fiscal_country_id.code == 'RO'
 >>>>>>> upstream/18.0
@@ -2575,9 +2589,12 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if partner.country_id.code != 'RO':
             errors.append(_("The delivery carrier partner has to be located in Romania."))
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3348,7 +3365,11 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self._l10n_ro_edi_stock_create_document_stock_sent({
+=======
+            edi_document = self._l10n_ro_edi_stock_create_document_stock_sent({
+>>>>>>> upstream/18.0
 =======
             edi_document = self._l10n_ro_edi_stock_create_document_stock_sent({
 >>>>>>> upstream/18.0
@@ -3481,7 +3502,10 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3582,6 +3606,9 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3761,12 +3788,15 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         'cantitate': move.product_qty,
                         'codUnitateMasura': move.product_uom._get_unece_code(),
                         'greutateNeta': move.weight,
                         'greutateBruta': self._l10n_ro_edi_stock_get_gross_weight(move),
                         'valoareLeiFaraTva': product.list_price,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3865,6 +3895,9 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4091,7 +4124,11 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'codTara': commercial_partner.country_code,
+=======
+                    'codTara': _eu_country_vat.get(commercial_partner.country_code, commercial_partner.country_code),
+>>>>>>> upstream/18.0
 =======
                     'codTara': _eu_country_vat.get(commercial_partner.country_code, commercial_partner.country_code),
 >>>>>>> upstream/18.0
@@ -4735,7 +4772,11 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'codTaraOrgTransport': transport_partner.country_code,
+=======
+                    'codTaraOrgTransport': _eu_country_vat.get(transport_partner.country_code, transport_partner.country_code),
+>>>>>>> upstream/18.0
 =======
                     'codTaraOrgTransport': _eu_country_vat.get(transport_partner.country_code, transport_partner.country_code),
 >>>>>>> upstream/18.0

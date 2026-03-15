@@ -217,6 +217,11 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.fetch(['is_service', 'product_id'])
+        self.product_id.fetch(['type'])
+>>>>>>> upstream/18.0
 =======
         self.fetch(['is_service', 'product_id'])
         self.product_id.fetch(['type'])

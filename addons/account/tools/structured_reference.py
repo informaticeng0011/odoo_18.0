@@ -47,7 +47,10 @@ def is_valid_structured_reference_be(reference):
     return be_ref and int(be_ref.group(1)) % 97 == int(be_ref.group(2)) % 97
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 def is_valid_structured_reference_dk(reference):
     """Check whether the provided reference is a valid structured reference for Denmark.
@@ -63,6 +66,9 @@ def is_valid_structured_reference_dk(reference):
     payment_ref = match.group(1) or match.group(2)
     return luhn.is_valid(payment_ref)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 def is_valid_structured_reference_fi(reference):
     """Check whether the provided reference is a valid structured reference for Finland.
@@ -335,7 +341,10 @@ def is_valid_structured_reference_nl(reference):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1008,6 +1017,9 @@ def is_valid_structured_reference_si(reference):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1438,6 +1450,7 @@ def is_valid_structured_reference(reference):
     return (
         is_valid_structured_reference_be(reference) or
 <<<<<<< HEAD
+<<<<<<< HEAD
         is_valid_structured_reference_fi(reference) or
         is_valid_structured_reference_no_se(reference) or
         is_valid_structured_reference_nl(reference) or
@@ -2254,10 +2267,15 @@ def is_valid_structured_reference(reference):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
         is_valid_structured_reference_dk(reference) or
         is_valid_structured_reference_fi(reference) or
         is_valid_structured_reference_no_se(reference) or
         is_valid_structured_reference_nl(reference) or
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         is_valid_structured_reference_si(reference) or
         is_valid_structured_reference_iso(reference)
@@ -2309,6 +2327,9 @@ def is_valid_structured_reference_for_country(reference, country_code=''):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
