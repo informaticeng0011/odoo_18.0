@@ -364,7 +364,11 @@ class AccountEdiXmlUblTr(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "percent": subtotal_percent if withholding else tax_category_vals.get("percent"),
+=======
+                    "percent": subtotal_percent if withholding else vals.get("_tax_category_vals_", {}).get("percent"),
+>>>>>>> upstream/18.0
 =======
                     "percent": subtotal_percent if withholding else vals.get("_tax_category_vals_", {}).get("percent"),
 >>>>>>> upstream/18.0
@@ -971,7 +975,10 @@ class AccountEdiXmlUblTr(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1413,6 +1420,9 @@ class AccountEdiXmlUblTr(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1856,7 +1866,13 @@ class AccountEdiXmlUblTr(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Used to fill the cac:InvoiceLine/cac:Item node in UBL TR XML export.
+=======
+        cac:InvoiceLine/cac:Item node in UBL TR XML export, the ID
+        node is required to be present inside the shipmemnt delivery
+        block before GoodsItem node.
+>>>>>>> upstream/18.0
 =======
         cac:InvoiceLine/cac:Item node in UBL TR XML export, the ID
         node is required to be present inside the shipmemnt delivery
@@ -2762,6 +2778,10 @@ class AccountEdiXmlUblTr(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            "id": "NO_ID",
+>>>>>>> upstream/18.0
 =======
             "id": "NO_ID",
 >>>>>>> upstream/18.0

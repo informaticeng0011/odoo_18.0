@@ -221,6 +221,7 @@ class TestL10nInHSNSummary(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def create_base_line_dict(self, l10n_in_hsn_code, quantity, price_unit, discount, uom, taxes=None, product=None):
         return {
             'l10n_in_hsn_code': l10n_in_hsn_code,
@@ -232,6 +233,8 @@ class TestL10nInHSNSummary(TestTaxCommon):
             'taxes_data': taxes or self.env['account.tax'],
         }
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

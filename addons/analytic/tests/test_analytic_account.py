@@ -548,11 +548,14 @@ class TestAnalyticAccount(AnalyticCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             plan_2_col: self.analytic_account_2.id,
         })
         with self.assertRaisesRegex(RedirectWarning, "Making this change would wipe out"):
             self.analytic_plan_1.parent_id = self.analytic_plan_2
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1355,6 +1358,7 @@ class TestAnalyticAccount(AnalyticCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1581,6 +1585,8 @@ class TestAnalyticAccount(AnalyticCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2043,6 +2049,7 @@ class TestAnalyticAccount(AnalyticCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2113,6 +2120,8 @@ class TestAnalyticAccount(AnalyticCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2448,6 +2457,9 @@ class TestAnalyticAccount(AnalyticCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

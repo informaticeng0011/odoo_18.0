@@ -496,7 +496,11 @@ export class GraphModel extends Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const groupedDataPoints = {};
+=======
+            const groupedDataPoints = Object.create(null);
+>>>>>>> upstream/18.0
 =======
             const groupedDataPoints = Object.create(null);
 >>>>>>> upstream/18.0

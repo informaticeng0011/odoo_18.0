@@ -113,8 +113,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sale
 # 
+=======
+# * sale
+#
+>>>>>>> upstream/18.0
 =======
 # * sale
 #
@@ -813,6 +818,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Larissa Manderfeld, 2025
 # Wil Odoo, 2025
 =======
@@ -1751,6 +1757,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # Larissa Manderfeld, 2025
 # Wil Odoo, 2025
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
@@ -1776,6 +1784,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1823,6 +1834,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3090,6 +3102,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2026-02-20 18:39+0000\n"
 "PO-Revision-Date: 2026-02-21 18:01+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -3116,6 +3130,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3164,6 +3181,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3587,6 +3605,9 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_payment_provider_onboarding_wizard___data_fetched
@@ -3738,6 +3759,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-set=\"transaction_sudo\" t-value=\"object.get_portal_last_transaction()\"/>\n"
 "        Hello,\n"
 "        <br/><br/>\n"
@@ -3752,6 +3774,8 @@ msgid ""
 "            <br/>\n"
 "            <t t-if=\"object.currency_id.compare_amounts(object.amount_paid + transaction_sudo.amount, object.amount_total) &gt;= 0 and object.state in ('draft', 'sent')\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3983,6 +4007,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4199,7 +4226,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount_total - object.amount_paid - transaction_sudo.amount, object.currency_id) or ''\">$ 10.00</span>\n"
+=======
+"                <span style=\"font-weight:bold;\" t-"
+"out=\"format_amount(object.amount_total - object.amount_paid - "
+"transaction_sudo.amount, object.currency_id) or ''\">$ 10.00</span>\n"
+>>>>>>> upstream/18.0
 =======
 "                <span style=\"font-weight:bold;\" t-"
 "out=\"format_amount(object.amount_total - object.amount_paid - "
@@ -4631,10 +4664,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <t t-if=\"object.currency_id.compare_amounts(object.amount_paid, object.amount_total) &lt; 0\">\n"
 "                <br/>\n"
 "                <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount_total - object.amount_paid, object.currency_id) or ''\">$ 10.00</span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4851,6 +4887,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5070,10 +5109,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5289,6 +5331,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5515,10 +5560,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-set=\"tx_sudo\" t-value=\"object.get_portal_last_transaction()\"/>\n"
 "        Your order <span style=\"font-weight:bold;\" t-out=\"object.name or ''\">S00049</span> amounting in <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount_total, object.currency_id) or ''\">$ 10.00</span>\n"
 "        <t t-if=\"object.state == 'sale' or (tx_sudo and tx_sudo.state in ('done', 'authorized'))\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5737,6 +5785,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5955,12 +6006,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                Your payment reference is <span style=\"font-weight:bold;\" t-out=\"object.reference or ''\"/>.\n"
 "            </t>\n"
 "        </t>\n"
 "        <br/>\n"
 "        <t t-set=\"documents\" t-value=\"object._get_product_documents()\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6178,6 +6232,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6401,7 +6458,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <a t-out=\"document.ir_attachment_id.name\" t-att-href=\"object.get_portal_url('/document/' + str(document.id))\" t-att-target=\"target\"/>\n"
+=======
+"                        <a t-out=\"document.ir_attachment_id.name\" t-att-"
+"href=\"object.get_portal_url('/document/' + str(document.id))\" t-att-"
+"target=\"target\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <a t-out=\"document.ir_attachment_id.name\" t-att-"
 "href=\"object.get_portal_url('/document/' + str(document.id))\" t-att-"
@@ -6834,10 +6897,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7053,6 +7119,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7270,6 +7339,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <table width=\"100%\" style=\"color: #454748; font-size: 12px; border-collapse: collapse; white-space: nowrap;\">\n"
 "            <tr style=\"border-bottom: 2px solid #dee2e6;\">\n"
 "                <td style=\"width: 150px;\"><span style=\"font-weight:bold;\">Products</span></td>\n"
@@ -7279,6 +7349,8 @@ msgid ""
 "                    <span style=\"font-weight:bold;\">\n"
 "                        <t t-if=\"object.website_id.show_line_subtotals_tax_selection == 'tax_excluded'\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7502,6 +7574,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7725,6 +7800,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <t t-set=\"line_subtotal\" t-value=\"                     line.price_subtotal                     if object.website_id.show_line_subtotals_tax_selection == 'tax_excluded'                     else line.price_total                 \"/>\n"
 "            <t t-set=\"current_subtotal\" t-value=\"current_subtotal + line_subtotal\"/>\n"
 "            <t t-if=\"(not hasattr(line, 'is_delivery') or not line.is_delivery) and (                     line.display_type in ['line_section', 'line_note']                     or line.product_type == 'combo'                 )\">\n"
@@ -7741,6 +7817,8 @@ msgid ""
 "                            <t t-elif=\"line.display_type == 'line_note'\">\n"
 "                                <i t-out=\"line.name or ''\">Taking care of Trees Course</i>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7983,6 +8061,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8200,6 +8281,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <t t-elif=\"(not hasattr(line, 'is_delivery') or not line.is_delivery)\">\n"
 "                <table width=\"100%\" style=\"color: #454748; font-size: 12px; border-collapse: collapse;\">\n"
 "                    <t t-set=\"loop_cycle_number\" t-value=\"loop_cycle_number or 0\"/>\n"
@@ -8217,6 +8299,8 @@ msgid ""
 "                        <t t-else=\"\">\n"
 "                            <t t-out=\"format_amount(line.price_reduce_taxinc, object.currency_id) or ''\">$ 10.00</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8459,6 +8543,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8676,6 +8763,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <t t-if=\"current_section and (                     line_last                     or object.order_line[line_index+1].display_type == 'line_section'                     or object.order_line[line_index+1].product_type == 'combo'                     or (                         line.combo_item_id                         and not object.order_line[line_index+1].combo_item_id                     )                 ) and not line.is_downpayment\">\n"
 "                <t t-set=\"current_section\" t-value=\"None\"/>\n"
 "                <table width=\"100%\" style=\"color: #454748; font-size: 12px; border-collapse: collapse;\">\n"
@@ -8686,6 +8774,8 @@ msgid ""
 "                            <span style=\"font-weight: bold;\">Subtotal:</span>\n"
 "                            <span t-out=\"format_amount(current_subtotal, object.currency_id) or ''\">$ 10.00</span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8919,6 +9009,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9137,6 +9230,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    <div style=\"margin: 0px; padding: 0px;\" t-if=\"hasattr(object, 'carrier_id') and object.carrier_id\">\n"
 "        <table width=\"100%\" style=\"color: #454748; font-size: 12px; border-spacing: 0px 4px; white-space: nowrap;\" align=\"right\">\n"
 "            <tr>\n"
@@ -9149,6 +9243,8 @@ msgid ""
 "                <td style=\"width: 30%;\" align=\"right\"><span style=\"font-weight:bold;\">Untaxed Amount:</span></td>\n"
 "                <td style=\"width: 10%;\" align=\"right\" t-out=\"format_amount(object.amount_untaxed, object.currency_id) or ''\">$ 10.00</td>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9378,6 +9474,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9594,12 +9693,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <table width=\"100%\" style=\"color: #454748; font-size: 12px; border-spacing: 0px 4px; white-space: nowrap;\" align=\"right\">\n"
 "            <tr>\n"
 "                <td style=\"width: 60%\"/>\n"
 "                <td style=\"width: 30%; border-top: 1px solid #dee2e6;\" align=\"right\"><span style=\"font-weight:bold;\">Untaxed Amount:</span></td>\n"
 "                <td style=\"width: 10%; border-top: 1px solid #dee2e6;\" align=\"right\" t-out=\"format_amount(object.amount_untaxed, object.currency_id) or ''\">$ 10.00</td>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9820,6 +9922,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10036,6 +10141,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <table width=\"100%\" style=\"color: #454748; font-size: 12px; border-spacing: 0px 4px; white-space: nowrap;\" align=\"right\">\n"
 "            <tr>\n"
 "                <td style=\"width: 60%\"/>\n"
@@ -10051,6 +10157,8 @@ msgid ""
 "    </div>\n"
 "    <div t-if=\"object.partner_invoice_id\" style=\"margin: 0px; padding: 0px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10283,6 +10391,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10499,12 +10610,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <t t-out=\"object.partner_invoice_id.street or ''\">1201 S Figueroa St</t>\n"
 "                    <t t-out=\"object.partner_invoice_id.city or ''\">Los Angeles</t>\n"
 "                    <t t-out=\"object.partner_invoice_id.state_id.name or ''\">California</t>\n"
 "                    <t t-out=\"object.partner_invoice_id.zip or ''\">90015</t>\n"
 "                    <t t-out=\"object.partner_invoice_id.country_id.name or ''\">United States</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10725,6 +10839,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10941,7 +11058,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <span style=\"font-weight:bold;\">Payment Method:</span>\n"
+=======
+"                    <span style=\"font-weight:bold;\">Payment Method:</"
+"span>\n"
+>>>>>>> upstream/18.0
 =======
 "                    <span style=\"font-weight:bold;\">Payment Method:</"
 "span>\n"
@@ -11301,10 +11423,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <t t-out=\"tx_sudo.provider_id.sudo().name or ''\"/>\n"
 "                    </t>\n"
 "                    (<t t-out=\"format_amount(tx_sudo.amount, object.currency_id) or ''\">$ 10.00</t>)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11520,6 +11645,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11736,7 +11864,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    <div t-if=\"object.partner_shipping_id and not object.only_services\" style=\"margin: 0px; padding: 0px;\">\n"
+=======
+"    <div t-if=\"object.partner_shipping_id and not object.only_services\" "
+"style=\"margin: 0px; padding: 0px;\">\n"
+>>>>>>> upstream/18.0
 =======
 "    <div t-if=\"object.partner_shipping_id and not object.only_services\" "
 "style=\"margin: 0px; padding: 0px;\">\n"
@@ -12097,6 +12230,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <t t-out=\"object.partner_shipping_id.street or ''\">1201 S Figueroa St</t>\n"
 "                    <t t-out=\"object.partner_shipping_id.city or ''\">Los Angeles</t>\n"
 "                    <t t-out=\"object.partner_shipping_id.state_id.name or ''\">California</t>\n"
@@ -12110,6 +12244,8 @@ msgid ""
 "                <td>\n"
 "                    <span style=\"font-weight:bold;\">Shipping Method:</span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12339,6 +12475,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12556,7 +12695,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        (<t t-out=\"format_amount(object.amount_delivery, object.currency_id) or ''\">$ 10.00</t>)\n"
+=======
+"                        (<t t-out=\"format_amount(object.amount_delivery, "
+"object.currency_id) or ''\">$ 10.00</t>)\n"
+>>>>>>> upstream/18.0
 =======
 "                        (<t t-out=\"format_amount(object.amount_delivery, "
 "object.currency_id) or ''\">$ 10.00</t>)\n"
@@ -12932,7 +13076,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-set=\"doc_name\" t-value=\"'quotation' if object.state in ('draft', 'sent') else 'order'\"/>\n"
+=======
+"        <t t-set=\"doc_name\" t-value=\"'quotation' if object.state in "
+"('draft', 'sent') else 'order'\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "        <t t-set=\"doc_name\" t-value=\"'quotation' if object.state in "
 "('draft', 'sent') else 'order'\"/>\n"
@@ -13292,6 +13441,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Pro forma invoice for <t t-out=\"doc_name or ''\">quotation</t> <span style=\"font-weight: bold;\" t-out=\"object.name or ''\">S00052</span>\n"
 "            <t t-if=\"object.origin\">\n"
 "                (with reference: <t t-out=\"object.origin or ''\"/> )\n"
@@ -13308,6 +13458,8 @@ msgid ""
 "        <br/>\n"
 "        <t t-set=\"documents\" t-value=\"object._get_product_documents()\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13542,6 +13694,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13765,7 +13920,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <a t-out=\"document.ir_attachment_id.name\" t-att-href=\"object.get_portal_url('/document/' + str(document.id))\" t-att-target=\"target\"/>\n"
+=======
+"                        <a t-out=\"document.ir_attachment_id.name\" t-att-"
+"href=\"object.get_portal_url('/document/' + str(document.id))\" t-att-"
+"target=\"target\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <a t-out=\"document.ir_attachment_id.name\" t-att-"
 "href=\"object.get_portal_url('/document/' + str(document.id))\" t-att-"
@@ -14198,10 +14359,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14417,6 +14581,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14645,6 +14812,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-out=\"doc_name or ''\">quotation</t> <strong t-out=\"object.name or ''\">S00052</strong>\n"
 "        <t t-if=\"object.origin\">\n"
 "            (with reference: <t t-out=\"object.origin or ''\">S00052</t> )\n"
@@ -14652,6 +14820,8 @@ msgid ""
 "        has been cancelled. Therefore, you should not be charged further for this order.\n"
 "        If any refund is necessary, this will be executed at best convenience.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14871,6 +15041,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15128,9 +15301,12 @@ msgstr "<i class=\"fa fa-fw fa-clock-o\"/> Väntande betalning"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-fw fa-money me-1\" aria-label=\"Quotations\" role=\"img\"/>"
 msgstr "<i class=\"fa fa-fw fa-money me-1\" aria-label=\"Citat\" role=\"img\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15345,6 +15521,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15546,6 +15725,7 @@ msgid ""
 "product is archived\" invisible=\"state not in ['draft', 'sent'] or not "
 "is_product_archived\"/>"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15870,6 +16050,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<span class=\"fa fa-exclamation-triangle text-warning me-1\" title=\"Den här "
 "produkten är arkiverad\" invisible=\"state not in ['draft', 'sent'] or not "
 "is_product_archived\"/>"
@@ -15896,6 +16078,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16032,7 +16217,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span id=\"o_sale_portal_use_amount_total\"> <span id=\"o_sale_portal_use_amount_total\">\n"
+=======
+"<span id=\"o_sale_portal_use_amount_total\"> <span "
+"id=\"o_sale_portal_use_amount_total\">\n"
+>>>>>>> upstream/18.0
 =======
 "<span id=\"o_sale_portal_use_amount_total\"> <span "
 "id=\"o_sale_portal_use_amount_total\">\n"
@@ -16394,7 +16584,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span invisible=\"1\" class=\"oe_inline text-danger\" title=\"The Down Payment is greater than the amount remaining to be invoiced.\">\n"
+=======
+"<span invisible=\"1\" class=\"oe_inline text-danger\" title=\"The Down "
+"Payment is greater than the amount remaining to be invoiced.\">\n"
+>>>>>>> upstream/18.0
 =======
 "<span invisible=\"1\" class=\"oe_inline text-danger\" title=\"The Down "
 "Payment is greater than the amount remaining to be invoiced.\">\n"
@@ -16764,11 +16959,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span><b>Congratulations</b>, your first quotation is sent!<br>Check your email to validate the quote.\n"
 "        </span>"
 msgstr ""
 "<span><b>Gratulerar </b>, din första offert är skickad!<br>Kontrollera din epost för att validera offerten.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16985,6 +17183,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17209,6 +17410,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <span id=\"display_invoice_alert\" invisible=\"not display_invoice_alert\">\n"
 "                            Draft invoices for this order will be cancelled. <br/>\n"
 "                        </span>"
@@ -17217,6 +17419,8 @@ msgstr ""
 "                        <span id=\"display_invoice_alert\" invisible=\"not display_invoice_alert\">\n"
 "                            Utkast till fakturor för denna order kommer att annulleras. <br/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17438,6 +17642,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17671,8 +17878,12 @@ msgid "<span>Warning: This quote contains archived product(s)</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "<span>Varning: Denna offert innehåller arkiverad(e) produkt(er)</span>"
+=======
+msgstr "<span>Varning: Denna offert innehåller arkiverad(e) produkt(er)</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Varning: Denna offert innehåller arkiverad(e) produkt(er)</span>"
 >>>>>>> upstream/18.0
@@ -18128,6 +18339,7 @@ msgstr "<span>Varning: denna order kan vara en kopia av</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -18960,6 +19172,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid "<strong class=\"d-block mt-3\">Shipping Address</strong>"
 msgstr "<strong class=\"d-block mt-3\">Leveransadress</strong>"
 
@@ -19077,6 +19291,9 @@ msgstr "<strong class=\"d-block mt-3\">Leveransadress</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19323,6 +19540,7 @@ msgstr "<strong>Säljare</strong>"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20030,6 +20248,8 @@ msgstr "<strong>Leveransadress</strong>"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid "<strong>Signature</strong>"
 msgstr "<strong>Signatur</strong>"
 
@@ -20098,6 +20318,7 @@ msgstr "Titel på ett avsnitt"
 #: model:ir.model.fields,help:sale.field_sale_advance_payment_inv__advance_payment_method
 msgid ""
 "A standard invoice is issued with all the order lines ready for "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20455,6 +20676,10 @@ msgid ""
 "invoicing,according to their invoicing policy (based on ordered or delivered "
 "quantity)."
 >>>>>>> upstream/18.0
+=======
+"invoicing,according to their invoicing policy (based on ordered or delivered "
+"quantity)."
+>>>>>>> upstream/18.0
 msgstr ""
 "En standardfaktura utfärdas med alla orderrader klara för fakturering, "
 "enligt deras faktureringspolicy (baserat på beställd eller levererad "
@@ -20484,6 +20709,7 @@ msgstr "Accepterad och betalt offert"
 #. odoo-python
 #: code:addons/sale/models/sale_order.py:0
 msgid "Accept & Sign Quotation"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21373,6 +21599,9 @@ msgstr "Acceptera och signera offert"
 =======
 msgstr "Acceptera och signera offert"
 >>>>>>> upstream/18.0
+=======
+msgstr "Acceptera och signera offert"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
@@ -21463,6 +21692,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "According to product configuration, the delivered quantity can be automatically computed by mechanism:\n"
 "  - Manual: the quantity is set manually on the line\n"
 "  - Analytic From expenses: the quantity is the quantity sum from posted expenses\n"
@@ -21474,6 +21704,8 @@ msgstr ""
 "  - Objekt Från kostnader: kvantiteten är kvantitetssumman från bokförda kostnader\n"
 "  - Timesheet: kvantiteten är summan av timmar som registrerats på uppgifter kopplade till denna försäljningsrad\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21700,6 +21932,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21970,11 +22205,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                (e.g. \"Delivery scheduling\", \"Order Payment Follow-up\", ...)"
 msgstr ""
 "Aktivitetsplaner används för att tilldela en lista med aktiviteter med bara några få klick\n"
 "                (t.ex. \"Leveransplanering\", \"Uppföljning av orderbetalning\", ...)"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22192,6 +22430,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22472,6 +22713,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Leave it empty if you don't want to share this document with sales customer.\n"
 "On quote: the document will be sent to and accessible by customers at any time.\n"
 "e.g. this option can be useful to share Product description files.\n"
@@ -22487,6 +22729,8 @@ msgstr ""
 "till exempel det här alternativet kan vara användbart för att dela användarmanual eller digitalt innehåll köpt på e-handel.\n"
 "Inre offert: Dokumentet kommer att inkluderas i pdf:en för offerten och försäljningsordern mellan rubriksidorna och offerttabellen."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22721,6 +22965,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22976,11 +23223,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            ordered quantities, and the invoicing policy is based on ordered quantities."
 msgstr ""
 "En order är att sälja mer när levererade kvantiteter är över initialt\n"
 " beställda kvantiteter, och faktureringspolicyn är baserad på beställda kvantiteter."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23197,6 +23447,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23452,8 +23705,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "beräknade från prislistor (möjlighet att aktivera i "
 "prislistkonfigurationen)."
+=======
+"beräknade från prislistor (möjlighet att aktivera i prislistkonfigurationen)."
+>>>>>>> upstream/18.0
 =======
 "beräknade från prislistor (möjlighet att aktivera i prislistkonfigurationen)."
 >>>>>>> upstream/18.0
@@ -23852,8 +24109,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Öka försäljningen med onlinebetalningar eller signaturer, merförsäljning och"
 " en bra kundportal."
+=======
+"Öka försäljningen med onlinebetalningar eller signaturer, merförsäljning och "
+"en bra kundportal."
+>>>>>>> upstream/18.0
 =======
 "Öka försäljningen med onlinebetalningar eller signaturer, merförsäljning och "
 "en bra kundportal."
@@ -24308,9 +24570,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "   • For consumable or storable products, open the product, go to the 'General Information' tab and change the 'Invoicing Policy' from 'Delivered Quantities' to 'Ordered Quantities'.\n"
 "   • For services (and other products), change the 'Invoicing Policy' to 'Prepaid/Fixed Price'.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24526,6 +24791,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24746,9 +25014,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "   - För förbrukningsvaror eller lagringsbara produkter öppnar du produkten, går till fliken \"Allmän information\" och ändrar \"Faktureringspolicy\" från \"Levererade kvantiteter\" till \"Beställda kvantiteter\".\n"
 "   - För tjänster (och andra produkter) ändrar du \"Faktureringspolicy\" till \"Förskottsbetalning/Fastpris\".\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24964,6 +25235,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25209,6 +25483,7 @@ msgstr "Layout för företagsdokument"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26240,6 +26515,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Compute shipping costs and ship with DHL<br/>\n"
 "                                    <strong>(please go to Home&gt;Apps to "
@@ -26318,6 +26595,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26467,6 +26747,7 @@ msgstr "Beräkna fraktkostnad och skicka med Easypost"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -27498,6 +27779,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Compute shipping costs and ship with FedEx<br/>\n"
 "                                    <strong>(please go to Home&gt;Apps to "
@@ -27576,6 +27859,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27735,6 +28021,7 @@ msgstr "Beräkna fraktkostnader och skicka med Starshipit"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28301,6 +28588,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Compute shipping costs and ship with UPS<br/>\n"
 "                                    <strong>(please go to Home&gt;Apps to "
@@ -28375,6 +28664,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -28522,6 +28814,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid ""
 "Compute shipping costs and ship with USPS<br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28937,6 +29230,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"                                    <strong>(please go to Home&gt;Apps to "
+"install)</strong>"
+msgstr ""
 >>>>>>> upstream/18.0
 =======
 "                                    <strong>(please go to Home&gt;Apps to "
@@ -29767,7 +30065,10 @@ msgstr "Kunder"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -30328,6 +30629,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -30841,7 +31145,10 @@ msgstr "Leveransdatum"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -30973,6 +31280,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -31148,8 +31458,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "leveranspolicy att tas i beaktande för att använda antingen den minsta eller"
 " största ledtiden för orderlinjerna."
+=======
+"leveranspolicy att tas i beaktande för att använda antingen den minsta eller "
+"största ledtiden för orderlinjerna."
+>>>>>>> upstream/18.0
 =======
 "leveranspolicy att tas i beaktande för att använda antingen den minsta eller "
 "största ledtiden för orderlinjerna."
@@ -31750,7 +32065,10 @@ msgstr "Distribution Analytic Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -32311,6 +32629,9 @@ msgstr "Dokumentation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -33028,7 +33349,10 @@ msgstr "E-post"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -33688,6 +34012,9 @@ msgstr "E-postredigeringsguide"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -34372,6 +34699,10 @@ msgstr "Extra rader med %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -35013,8 +35344,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "customers or sales orders/invoices.The default value comes from the "
 "customer."
+=======
+"customers or sales orders/invoices.The default value comes from the customer."
+>>>>>>> upstream/18.0
 =======
 "customers or sales orders/invoices.The default value comes from the customer."
 >>>>>>> upstream/18.0
@@ -35375,8 +35710,12 @@ msgstr "Generera betallänk"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Generate the invoice automatically when the online payment is confirmed"
+=======
+msgid "Generate the invoice automatically when the online payment is confirmed"
+>>>>>>> upstream/18.0
 =======
 msgid "Generate the invoice automatically when the online payment is confirmed"
 >>>>>>> upstream/18.0
@@ -36071,8 +36410,12 @@ msgstr "Är produkten konfigurerbar?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Is true if the sales order line comes from an expense or a vendor bills"
+=======
+msgid "Is true if the sales order line comes from an expense or a vendor bills"
+>>>>>>> upstream/18.0
 =======
 msgid "Is true if the sales order line comes from an expense or a vendor bills"
 >>>>>>> upstream/18.0
@@ -36486,8 +36829,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Gör din offert attraktiv genom att lägga till sidhuvud, produktbeskrivningar"
 " och sidfötter till din offert."
+=======
+"Gör din offert attraktiv genom att lägga till sidhuvud, produktbeskrivningar "
+"och sidfötter till din offert."
+>>>>>>> upstream/18.0
 =======
 "Gör din offert attraktiv genom att lägga till sidhuvud, produktbeskrivningar "
 "och sidfötter till din offert."
@@ -36873,6 +37221,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Manually set quantities on order: Invoice based on the manually entered quantity, without creating an analytic account.\n"
 "Timesheets on contract: Invoice based on the tracked hours on the related timesheet.\n"
 "Create a task and track hours: Create a task on the sales order validation and track the work hours."
@@ -36881,6 +37230,8 @@ msgstr ""
 "Tidrapporter på kontrakt: Fakturera baserat på de loggade timmarna på den relaterade tidrapporten.\n"
 "Skapa en uppgift och spåra timmar: Skapa en uppgift vid validering av försäljningsordern och spåra arbetstimmar."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -37104,6 +37455,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -37556,11 +37910,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Once a sales order is confirmed, you can't remove one of its lines (we need to track if something gets invoiced or delivered).\n"
 "                Set the quantity to 0 instead."
 msgstr ""
 "När en försäljningsorder har bekräftats kan du inte ta bort en av dess rader (vi måste spåra om något faktureras eller levereras).\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -37777,6 +38134,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -37996,8 +38356,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Once the quotation is confirmed by the customer, it becomes a sales "
 "order.<br> You will be able to create an invoice and collect the payment."
+=======
+"Once the quotation is confirmed by the customer, it becomes a sales order."
+"<br> You will be able to create an invoice and collect the payment."
+>>>>>>> upstream/18.0
 =======
 "Once the quotation is confirmed by the customer, it becomes a sales order."
 "<br> You will be able to create an invoice and collect the payment."
@@ -38449,6 +38814,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "a placeholder expression that provides the appropriate language, e.g. {{ "
 "object.partner_id.lang }}."
 msgstr ""
@@ -38457,6 +38823,8 @@ msgstr ""
 "vanligtvis vara ett platshållaruttryck som anger lämpligt språk, t.ex. {{ "
 "object.partner_id.lang }}."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -38674,6 +39042,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -39289,7 +39660,11 @@ msgid "Product Tags"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Produkt Taggar"
+=======
+msgstr "Produktetiketter"
+>>>>>>> upstream/18.0
 =======
 msgstr "Produktetiketter"
 >>>>>>> upstream/18.0
@@ -39771,8 +40146,12 @@ msgid "Quotation Validity is required and must be greater or equal to 0."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Quotation Validity är ett krav och måste vara större eller lika med 0."
+=======
+msgstr "Quotation Validity är ett krav och måste vara större eller lika med 0."
+>>>>>>> upstream/18.0
 =======
 msgstr "Quotation Validity är ett krav och måste vara större eller lika med 0."
 >>>>>>> upstream/18.0
@@ -40699,7 +41078,10 @@ msgstr "Säljare"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -41359,6 +41741,9 @@ msgstr "Schemalagt meddelande"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -41941,8 +42326,12 @@ msgid "Send a product-specific email once the invoice is validated"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Skicka ett produktspecifikt e-postmeddelande när fakturan är bekräftad"
+=======
+msgstr "Skicka ett produktspecifikt e-postmeddelande när fakturan är bekräftad"
+>>>>>>> upstream/18.0
 =======
 msgstr "Skicka ett produktspecifikt e-postmeddelande när fakturan är bekräftad"
 >>>>>>> upstream/18.0
@@ -42273,8 +42662,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Sent to customers when a payment is received but doesn't immediately confirm"
 " their order"
+=======
+"Sent to customers when a payment is received but doesn't immediately confirm "
+"their order"
+>>>>>>> upstream/18.0
 =======
 "Sent to customers when a payment is received but doesn't immediately confirm "
 "their order"
@@ -42967,8 +43361,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The Sales Order %(order)s to be reinvoiced is cancelled. You cannot register"
 " an expense on a cancelled Sales Order."
+=======
+"The Sales Order %(order)s to be reinvoiced is cancelled. You cannot register "
+"an expense on a cancelled Sales Order."
+>>>>>>> upstream/18.0
 =======
 "The Sales Order %(order)s to be reinvoiced is cancelled. You cannot register "
 "an expense on a cancelled Sales Order."
@@ -43390,6 +43789,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The following products cannot be restricted to the company %(company)s because they have already been used in quotations or sales orders in another company:\n"
 "%(used_products)s\n"
 "You can archive these products and recreate them with your company restriction instead, or leave them as shared product."
@@ -43398,6 +43798,8 @@ msgstr ""
 "%(used_products)s\n"
 "Du kan arkivera dessa produkter och återskapa dem med din företagsbegränsning istället, eller låta dem vara delade produkter."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -43620,6 +44022,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -43836,6 +44241,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The invoice is generated automatically and available in the customer portal when the transaction is confirmed by the payment provider.\n"
 "The invoice is marked as paid and the payment is registered in the payment journal defined in the configuration of the payment provider.\n"
 "This mode is advised if you issue the final invoice at the order and not after the delivery."
@@ -43844,6 +44250,8 @@ msgstr ""
 "Fakturan markeras som betald och betalningen registreras i betalningsjournalen som definierats i konfigurationen för betalningsleverantören.\n"
 "Detta läge rekommenderas om du utfärdar den slutliga fakturan vid beställningen och inte efter leveransen."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -44068,6 +44476,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -44284,8 +44695,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The margin is computed as the sum of product sales prices minus the cost set"
 " in their detail form."
+=======
+"The margin is computed as the sum of product sales prices minus the cost set "
+"in their detail form."
+>>>>>>> upstream/18.0
 =======
 "The margin is computed as the sum of product sales prices minus the cost set "
 "in their detail form."
@@ -44649,8 +45065,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Den nya fakturan kommer att dra av utkast till fakturor som är kopplade till"
 " denna försäljningsorder."
+=======
+"Den nya fakturan kommer att dra av utkast till fakturor som är kopplade till "
+"denna försäljningsorder."
+>>>>>>> upstream/18.0
 =======
 "Den nya fakturan kommer att dra av utkast till fakturor som är kopplade till "
 "denna försäljningsorder."
@@ -45055,8 +45476,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Den procentandel av det önskade beloppet som måste betalas av kunden för att"
 " bekräfta ordern."
+=======
+"Den procentandel av det önskade beloppet som måste betalas av kunden för att "
+"bekräfta ordern."
+>>>>>>> upstream/18.0
 =======
 "Den procentandel av det önskade beloppet som måste betalas av kunden för att "
 "bekräfta ordern."
@@ -45406,7 +45832,10 @@ msgstr "De angivna parametern är felaktiga."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -45540,6 +45969,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -45746,8 +46178,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This is a name that helps you keep track of your different campaign efforts,"
 " e.g. Fall_Drive, Christmas_Special"
+=======
+"This is a name that helps you keep track of your different campaign efforts, "
+"e.g. Fall_Drive, Christmas_Special"
+>>>>>>> upstream/18.0
 =======
 "This is a name that helps you keep track of your different campaign efforts, "
 "e.g. Fall_Drive, Christmas_Special"
@@ -46152,8 +46589,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This product is packaged by %(pack_size).2f %(pack_name)s. You should sell "
 "%(quantity).2f %(unit)s."
+=======
+"This product is packaged by %(pack_size).2f %(pack_name)s. You should sell %"
+"(quantity).2f %(unit)s."
+>>>>>>> upstream/18.0
 =======
 "This product is packaged by %(pack_size).2f %(pack_name)s. You should sell %"
 "(quantity).2f %(unit)s."
@@ -46520,8 +46962,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "check your sales revenues and sort it by different group criteria (salesman,"
 " partner, product, etc.) Use this report to perform analysis on sales not "
+=======
+"check your sales revenues and sort it by different group criteria (salesman, "
+"partner, product, etc.) Use this report to perform analysis on sales not "
+>>>>>>> upstream/18.0
 =======
 "check your sales revenues and sort it by different group criteria (salesman, "
 "partner, product, etc.) Use this report to perform analysis on sales not "
@@ -46958,8 +47405,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "För att skicka inbjudningar i B2B-läge, öppna en kontakt eller markera flera"
 " i listvyn och klicka på alternativet 'Portalåtkomsthantering' i "
+=======
+"För att skicka inbjudningar i B2B-läge, öppna en kontakt eller markera flera "
+"i listvyn och klicka på alternativet 'Portalåtkomsthantering' i "
+>>>>>>> upstream/18.0
 =======
 "För att skicka inbjudningar i B2B-läge, öppna en kontakt eller markera flera "
 "i listvyn och klicka på alternativet 'Portalåtkomsthantering' i "
@@ -47513,7 +47965,10 @@ msgstr "Transaktioner"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -48155,6 +48610,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -48793,6 +49251,10 @@ msgstr "Typ för att hitta en produkt..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -49542,6 +50004,10 @@ msgstr "UPS Connector"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -50267,7 +50733,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -50336,6 +50805,9 @@ msgstr "Värden som anges här är företagsspecifika."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -50390,6 +50862,7 @@ msgstr "Visa detaljer"
 #. module: sale
 #. odoo-python
 #: code:addons/sale/models/sale_order.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -51053,6 +51526,8 @@ msgstr "Visa order"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid "View Quotation"
 msgstr "Visa offert"
 
@@ -51201,8 +51676,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Du kan inte radera en skickad offert eller en bekräftad försäljningsorder.Du"
 " måste först avbryta den."
+=======
+"Du kan inte radera en skickad offert eller en bekräftad försäljningsorder.Du "
+"måste först avbryta den."
+>>>>>>> upstream/18.0
 =======
 "Du kan inte radera en skickad offert eller en bekräftad försäljningsorder.Du "
 "måste först avbryta den."
@@ -51571,8 +52051,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can set here the communication type that will appear on sales orders.The"
 " communication will be given to the customer when they choose the payment "
+=======
+"You can set here the communication type that will appear on sales orders.The "
+"communication will be given to the customer when they choose the payment "
+>>>>>>> upstream/18.0
 =======
 "You can set here the communication type that will appear on sales orders.The "
 "communication will be given to the customer when they choose the payment "
@@ -51964,8 +52449,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Du kan inte ändra typen av en försäljningsorder-rad. Istället bör du ta bort"
 " den nuvarande raden och skapa en ny rad av rätt typ."
+=======
+"Du kan inte ändra typen av en försäljningsorder-rad. Istället bör du ta bort "
+"den nuvarande raden och skapa en ny rad av rätt typ."
+>>>>>>> upstream/18.0
 =======
 "Du kan inte ändra typen av en försäljningsorder-rad. Istället bör du ta bort "
 "den nuvarande raden och skapa en ny rad av rätt typ."
@@ -52392,12 +52882,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Your quotation contains products from company %(product_company)s whereas your quotation belongs to company %(quote_company)s. \n"
 " Please change the company of your quotation or remove the products from other companies (%(bad_products)s)."
 msgstr ""
 "Ditt erbjudande innehåller produkter från företaget %(product_company)s medan ditt erbjudande tillhör företaget %(quote_company)s. \n"
 " Var god ändra företaget för ditt erbjudande eller ta bort produkterna från andra företag (%(bad_products)s)."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -52617,6 +53110,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -52908,6 +53404,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "== 'pending') and 'Pending Order' or 'Order' }} (Ref {{ object.name or 'n/a'"
 " }})"
 msgstr ""
@@ -52915,6 +53412,8 @@ msgstr ""
 "== 'pending') and 'Pending Order' or 'Order' }} (Ref {{ object.name or 'n/a'"
 " }})"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -53131,6 +53630,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -53348,6 +53850,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "(ctx.get('proforma') and 'Proforma' or 'Quotation') or 'Order' }} (Ref {{ "
 "object.name or 'n/a' }})"
 msgstr ""
@@ -53355,6 +53858,8 @@ msgstr ""
 "(ctx.get('proforma') and 'Proforma' or 'Quotation') or 'Order' }} (Ref {{ "
 "object.name or 'n/a' }})"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -53571,6 +54076,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -53787,12 +54295,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "{{ object.company_id.name }} {{ object.type_name }} Cancelled (Ref {{ "
 "object.name or 'n/a' }})"
 msgstr ""
 "{{ object.company_id.name }} {{ object.type_name }} Cancelled (Ref {{ "
 "object.name or 'n/a' }})"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -54008,6 +54519,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -54106,6 +54618,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -54176,6 +54690,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

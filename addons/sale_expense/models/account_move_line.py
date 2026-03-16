@@ -123,6 +123,10 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            res['analytic_distribution'] = self.analytic_distribution
+>>>>>>> upstream/18.0
 =======
             res['analytic_distribution'] = self.analytic_distribution
 >>>>>>> upstream/18.0

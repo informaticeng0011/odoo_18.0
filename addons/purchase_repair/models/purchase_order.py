@@ -117,12 +117,15 @@ class PurchaseOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             purchase.repair_count = len(purchase.order_line.move_dest_ids.repair_id)
 
     def action_view_repair_orders(self):
         self.ensure_one()
         repair_ids = self.order_line.move_dest_ids.repair_id
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -452,6 +455,9 @@ class PurchaseOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

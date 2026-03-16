@@ -145,8 +145,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* website_sale_collect
 # 
+=======
+# * website_sale_collect
+#
+>>>>>>> upstream/18.0
 =======
 # * website_sale_collect
 #
@@ -917,6 +922,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Anastasiia Koroleva, 2025
 >>>>>>> upstream/18.0
@@ -1766,10 +1772,16 @@
 #
 # "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Anastasiia Koroleva, 2025
+#
+# "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2593,6 +2605,10 @@ msgstr ""
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2025-10-22 09:27+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+"PO-Revision-Date: 2025-10-22 09:27+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-18/"
 "website_sale_collect/ru/>\n"
@@ -2601,6 +2617,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3250,10 +3267,16 @@ msgstr ""
 "(n%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
+=======
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: website_sale_collect
 #: model_terms:payment.provider,pending_msg:website_sale_collect.payment_provider_on_site
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3979,6 +4002,11 @@ msgstr "<i>Ваш заказ подтвержден.</i><br>Ждем вас в �
 "your products."
 msgstr "<i>Ваш заказ подтвержден.</i><br>Ждем вас в магазине для оплаты."
 >>>>>>> upstream/18.0
+=======
+"<i>Your order has been confirmed.</i><br>Please come to the store to pay for "
+"your products."
+msgstr "<i>Ваш заказ подтвержден.</i><br>Ждем вас в магазине для оплаты."
+>>>>>>> upstream/18.0
 
 #. module: website_sale_collect
 #: model_terms:ir.ui.view,arch_db:website_sale_collect.payment_confirmation_status
@@ -4128,7 +4156,11 @@ msgid "<span class=\"text-muted\"> (In-store pickup)</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"text-muted\"> (Самовывоз из магазина)</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"text-muted\"> (Самовывоз из магазина)</span>"
 >>>>>>> upstream/18.0
@@ -4731,7 +4763,11 @@ msgid "Configure Pickup Locations"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Настроить пункты самовывоза"
+>>>>>>> upstream/18.0
 =======
 msgstr "Настроить пункты самовывоза"
 >>>>>>> upstream/18.0
@@ -5327,7 +5363,11 @@ msgid "In-store Delivery Method"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Способ доставки «Самовывоз из магазина»"
+>>>>>>> upstream/18.0
 =======
 msgstr "Способ доставки «Самовывоз из магазина»"
 >>>>>>> upstream/18.0
@@ -5926,7 +5966,11 @@ msgid "Only %(new_qty)s available"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Доступно только %(new_qty)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Доступно только %(new_qty)s"
 >>>>>>> upstream/18.0
@@ -6522,7 +6566,11 @@ msgid "Pay on Site"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Оплата на месте"
+>>>>>>> upstream/18.0
 =======
 msgstr "Оплата на месте"
 >>>>>>> upstream/18.0
@@ -7108,7 +7156,11 @@ msgid "Pay on site"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Оплата на месте"
+>>>>>>> upstream/18.0
 =======
 msgstr "Оплата на месте"
 >>>>>>> upstream/18.0
@@ -7747,7 +7799,11 @@ msgid "Pick up in store"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Самовывоз из магазина"
+>>>>>>> upstream/18.0
 =======
 msgstr "Самовывоз из магазина"
 >>>>>>> upstream/18.0
@@ -8453,7 +8509,11 @@ msgid "Please choose a store to collect your order."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Пожалуйста, выберите магазин для получения заказа."
+>>>>>>> upstream/18.0
 =======
 msgstr "Пожалуйста, выберите магазин для получения заказа."
 >>>>>>> upstream/18.0
@@ -9063,7 +9123,11 @@ msgid "Some of the products are not available at"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Некоторые товары недоступны в"
+>>>>>>> upstream/18.0
 =======
 msgstr "Некоторые товары недоступны в"
 >>>>>>> upstream/18.0
@@ -9650,7 +9714,11 @@ msgid "Some products are not available in the selected store."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Некоторые товары недоступны в выбранном магазине."
+>>>>>>> upstream/18.0
 =======
 msgstr "Некоторые товары недоступны в выбранном магазине."
 >>>>>>> upstream/18.0
@@ -10277,7 +10345,11 @@ msgid "Sorry, we are unable to ship your order."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "К сожалению, мы не можем доставить ваш заказ."
+>>>>>>> upstream/18.0
 =======
 msgstr "К сожалению, мы не можем доставить ваш заказ."
 >>>>>>> upstream/18.0
@@ -11026,7 +11098,11 @@ msgid "Stores"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Заведения"
+>>>>>>> upstream/18.0
 =======
 msgstr "Заведения"
 >>>>>>> upstream/18.0
@@ -11732,7 +11808,11 @@ msgid "The delivery method and a warehouse must share the same company"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Способ доставки и склад должны принадлежать одной компании"
+>>>>>>> upstream/18.0
 =======
 msgstr "Способ доставки и склад должны принадлежать одной компании"
 >>>>>>> upstream/18.0
@@ -12319,8 +12399,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Для публикации способа доставки должен быть привязан как минимум один склад."
+>>>>>>> upstream/18.0
+=======
+"Чтобы опубликовать этот способ доставки, укажите как минимум один склад."
 >>>>>>> upstream/18.0
 =======
 "Чтобы опубликовать этот способ доставки, укажите как минимум один склад."
@@ -12769,6 +12853,7 @@ msgstr "Сайт"
 #. odoo-python
 #: code:addons/website_sale_collect/controllers/payment.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13354,6 +13439,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "You can only pay on site when selecting the pick up in store delivery method."
 msgstr ""
 "Оплата на месте возможна только при выборе способа доставки «Самовывоз из "
@@ -13428,6 +13515,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13741,7 +13831,11 @@ msgid "no in-store delivery methods available"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "нет доступных способов самовывоза из магазина"
+>>>>>>> upstream/18.0
 =======
 msgstr "нет доступных способов самовывоза из магазина"
 >>>>>>> upstream/18.0

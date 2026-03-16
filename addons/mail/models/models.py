@@ -677,9 +677,12 @@ class BaseModel(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         """To be override to get desired timezone of the model
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1248,6 +1251,9 @@ class BaseModel(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1815,7 +1821,13 @@ class BaseModel(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         tz = self.env.user.tz or 'UTC'
+=======
+        if default_tz is True:
+            default_tz = self.env.user.tz or 'UTC'
+        tz = default_tz
+>>>>>>> upstream/18.0
 =======
         if default_tz is True:
             default_tz = self.env.user.tz or 'UTC'

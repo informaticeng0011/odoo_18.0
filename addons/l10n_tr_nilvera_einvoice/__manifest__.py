@@ -193,6 +193,11 @@ For sending and receiving electronic invoices to Nilvera.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'data/ubl_tr_templates.xml',
+        'data/res_partner_category_data.xml',
+>>>>>>> upstream/18.0
 =======
         'data/ubl_tr_templates.xml',
         'data/res_partner_category_data.xml',

@@ -30,6 +30,11 @@ from ..tools import (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    _mer_api_query_inbox,
+    _mer_api_send,
+>>>>>>> upstream/18.0
 =======
     _mer_api_query_inbox,
     _mer_api_send,
@@ -225,7 +230,11 @@ class TestL10nHrEdiMerApi(TestL10nHrEdiCommon, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'ReceiverBusinessUnit': '',
+=======
+            'ReceiverBusinessUnit': None,
+>>>>>>> upstream/18.0
 =======
             'ReceiverBusinessUnit': None,
 >>>>>>> upstream/18.0
@@ -377,7 +386,10 @@ class TestL10nHrEdiMerApi(TestL10nHrEdiCommon, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     # NEEDS TO BE REWRITTEN FOR THE UPDATED PAYMENT FLOW
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -475,7 +487,10 @@ class TestL10nHrEdiMerApi(TestL10nHrEdiCommon, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -534,6 +549,9 @@ class TestL10nHrEdiMerApi(TestL10nHrEdiCommon, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

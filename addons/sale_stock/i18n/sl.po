@@ -132,6 +132,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sale_stock
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -991,6 +992,9 @@
 =======
 # * sale_stock
 >>>>>>> upstream/18.0
+=======
+# * sale_stock
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -1180,6 +1184,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1677,6 +1682,11 @@
 =======
 # Jan Zorko <jan.zorko@implex.si>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
+=======
+# Jan Zorko <jan.zorko@implex.si>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Žiga Trček <ziga.trcek@implex.si>, 2026.
 >>>>>>> upstream/18.0
 =======
 # Jan Zorko <jan.zorko@implex.si>, 2025.
@@ -1827,6 +1837,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3158,6 +3169,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-02-14 09:32+0000\n"
 "Last-Translator: Žiga Trček <ziga.trcek@implex.si>\n"
@@ -3191,6 +3204,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3252,6 +3268,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4203,6 +4220,11 @@ msgstr ""
 "n%100==4 ? 2 : 3;\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3;\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.exception_on_picking
@@ -4451,7 +4473,11 @@ msgid "<span class=\"o_stat_text\">Sales</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Prodaja</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Prodaja</span>"
 >>>>>>> upstream/18.0
@@ -5086,6 +5112,7 @@ msgstr "<span class=\"o_stat_text\">Prodaja</span>"
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.sale_order_portal_content_inherit_sale_stock
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5642,6 +5669,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<span class=\"small badge rounded-pill text-bg-success "
 "orders_label_text_align\">\n"
 "                                        <i class=\"fa fa-fw fa-truck\"/> "
@@ -5830,6 +5859,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6391,7 +6423,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    Some deliveries are already done. Returns can be created from the Delivery Orders.\n"
+=======
+"                    Some deliveries are already done. Returns can be created "
+"from the Delivery Orders.\n"
+>>>>>>> upstream/18.0
 =======
 "                    Some deliveries are already done. Returns can be created "
 "from the Delivery Orders.\n"
@@ -7404,7 +7441,11 @@ msgid "<strong>Incoterm</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Inkoterm</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Inkoterm</strong>"
 >>>>>>> upstream/18.0
@@ -8379,11 +8420,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "According to product configuration, the delivered quantity can be automatically computed by mechanism:\n"
 "  - Manual: the quantity is set manually on the line\n"
 "  - Analytic From expenses: the quantity is the quantity sum from posted expenses\n"
 "  - Timesheet: the quantity is the sum of hours recorded on tasks linked to this sale line\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8943,6 +8987,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9422,6 +9469,7 @@ msgid ""
 msgstr ""
 "Datum dobave, ki ga lahko obljubite stranki, izračunan iz minimalnega roka "
 "za izvedbo naročil v primeru storitvenih izdelkov. V primeru pošiljanja se "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10349,6 +10397,10 @@ msgstr ""
 "upošteva politika pošiljanja naročila, da se uporabi najmanjši ali najdaljši "
 "rok izvedbe iz postavk naročila."
 >>>>>>> upstream/18.0
+=======
+"upošteva politika pošiljanja naročila, da se uporabi najmanjši ali najdaljši "
+"rok izvedbe iz postavk naročila."
+>>>>>>> upstream/18.0
 
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_sale_order_line__display_qty_widget
@@ -10497,7 +10549,11 @@ msgid "Effective Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "DUR"
+=======
+msgstr "Izvedeno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izvedeno"
 >>>>>>> upstream/18.0
@@ -11177,8 +11233,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Mednarodni pogoji (INCOTERMS) so v naprej določeni komercialni pogoji, ki se"
 " uporabljajo pri mednarodnih prevozih."
+=======
+"Mednarodni pogoji (INCOTERMS) so v naprej določeni komercialni pogoji, ki se "
+"uporabljajo pri mednarodnih prevozih."
+>>>>>>> upstream/18.0
 =======
 "Mednarodni pogoji (INCOTERMS) so v naprej določeni komercialni pogoji, ki se "
 "uporabljajo pri mednarodnih prevozih."
@@ -12169,8 +12230,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "for procurement and delivery that many days earlier than the actual promised"
 " date, to cope with unexpected delays in the supply chain."
+=======
+"for procurement and delivery that many days earlier than the actual promised "
+"date, to cope with unexpected delays in the supply chain."
+>>>>>>> upstream/18.0
 =======
 "for procurement and delivery that many days earlier than the actual promised "
 "date, to cope with unexpected delays in the supply chain."
@@ -13144,7 +13210,11 @@ msgid "On"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vklopljeno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vklopljeno"
 >>>>>>> upstream/18.0
@@ -13796,7 +13866,11 @@ msgid "Product Moves (Stock Move Line)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Premiki zaloge"
+>>>>>>> upstream/18.0
 =======
 msgstr "Premiki zaloge"
 >>>>>>> upstream/18.0
@@ -14221,7 +14295,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                replenishment propositions, shipping connectors, barcode scanner, etc."
+=======
+"                replenishment propositions, shipping connectors, barcode "
+"scanner, etc."
+>>>>>>> upstream/18.0
 =======
 "                replenishment propositions, shipping connectors, barcode "
 "scanner, etc."
@@ -15185,7 +15264,11 @@ msgid "Returns"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vračila"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vračila"
 >>>>>>> upstream/18.0
@@ -16091,6 +16174,7 @@ msgstr "Poročilo o zalogah"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -16678,6 +16762,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:sale_stock.model_stock_valuation_layer
 msgid "Stock Valuation Layer"
 msgstr "Sloj vrednotenja zalog"
@@ -16795,6 +16881,9 @@ msgstr "Sloj vrednotenja zalog"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17035,6 +17124,7 @@ msgstr "Dostava"
 #: code:addons/sale_stock/models/sale_order.py:0
 msgid ""
 "The delivery address has been changed on the Sales Order<br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17591,6 +17681,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        From <strong>\"%(old_address)s\"</strong> to "
 "<strong>\"%(new_address)s\"</strong>,\n"
 "                        You should probably update the partner on this "
@@ -17779,6 +17871,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18339,10 +18434,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The ordered quantity cannot be decreased below the amount already delivered."
 " Instead, create a return in your inventory."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18900,6 +18998,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19316,7 +19417,11 @@ msgid "Track Inventory"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sledenje zaloge"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sledenje zaloge"
 >>>>>>> upstream/18.0
@@ -19692,6 +19797,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:sale_stock.model_stock_warehouse
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model,name:sale_stock.model_stock_warehouse
 >>>>>>> upstream/18.0

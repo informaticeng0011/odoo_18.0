@@ -224,7 +224,11 @@ class MailRtcSession(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return [('write_date', '<', fields.Datetime.now() - relativedelta(minutes=1))]
+=======
+        return [('write_date', '<', fields.Datetime.now() - relativedelta(minutes=1, seconds=15))]
+>>>>>>> upstream/18.0
 =======
         return [('write_date', '<', fields.Datetime.now() - relativedelta(minutes=1, seconds=15))]
 >>>>>>> upstream/18.0

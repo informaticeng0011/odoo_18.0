@@ -5,6 +5,7 @@ from odoo.addons.account.tools import (
     is_valid_structured_reference_be,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     is_valid_structured_reference_fi,
     is_valid_structured_reference_no_se,
     is_valid_structured_reference_nl,
@@ -823,11 +824,16 @@ from odoo.addons.account.tools import (
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     is_valid_structured_reference_dk,
     is_valid_structured_reference_fi,
     is_valid_structured_reference_no_se,
     is_valid_structured_reference_nl,
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -861,6 +867,9 @@ from odoo.addons.account.tools import (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -953,7 +962,10 @@ class StructuredReferenceTest(TransactionCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_structured_reference_dk(self):
@@ -982,6 +994,9 @@ class StructuredReferenceTest(TransactionCase):
         self.assertFalse(is_valid_structured_reference_dk('+71<000000001234566+88655702<-EXTRA'))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1259,7 +1274,10 @@ class StructuredReferenceTest(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1914,6 +1932,9 @@ class StructuredReferenceTest(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2342,6 +2363,7 @@ class StructuredReferenceTest(TransactionCase):
         self.assertTrue(is_valid_structured_reference('***020/3430/57642*** '))  # BE
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertTrue(is_valid_structured_reference('2023 0000 98'))  # FI
         self.assertTrue(is_valid_structured_reference('1234 5678 97'))  # NO-SE
         self.assertTrue(is_valid_structured_reference('5000056789012345'))  # NL
@@ -4024,6 +4046,8 @@ class StructuredReferenceTest(TransactionCase):
         self.assertTrue(is_valid_structured_reference("  SI01 25  - 2 0-85  "))  # SI
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         self.assertTrue(is_valid_structured_reference('+71<000000001234566+88655702<'))  # DK
@@ -4040,6 +4064,9 @@ class StructuredReferenceTest(TransactionCase):
         self.assertTrue(is_valid_structured_reference('5 000 0567 8901 2345'))  # NL
         self.assertTrue(is_valid_structured_reference("  SI01 25  - 2 0-85  "))  # SI
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4051,6 +4078,7 @@ class StructuredReferenceTest(TransactionCase):
         # Does not validate invalid structured format
         self.assertFalse(is_valid_structured_reference('18539007547034RF'))  # ISO
         self.assertFalse(is_valid_structured_reference('***02/03430/57642***'))  # BE
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         self.assertFalse(is_valid_structured_reference('2023/0000/98'))  # FI
@@ -5709,6 +5737,8 @@ class StructuredReferenceTest(TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         self.assertFalse(is_valid_structured_reference('71<000000001234566+88655702'))  # DK
@@ -5724,6 +5754,9 @@ class StructuredReferenceTest(TransactionCase):
         self.assertFalse(is_valid_structured_reference('1234567898'))  # NO-SE
         self.assertFalse(is_valid_structured_reference('6000056789012345'))  # NL
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5769,6 +5802,9 @@ class StructuredReferenceTest(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

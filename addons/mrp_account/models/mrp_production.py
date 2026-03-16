@@ -84,6 +84,12 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if mo.workorder_ids.time_ids.account_move_line_id:
+                continue
+
+>>>>>>> upstream/18.0
 =======
             if mo.workorder_ids.time_ids.account_move_line_id:
                 continue
@@ -139,6 +145,7 @@ class MrpProduction(models.Model):
             workorders = defaultdict(self.env['mrp.workorder'].browse)
             for wo in mo.workorder_ids:
                 account = wo.workcenter_id.expense_account_id or product_accounts['expense']
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -880,6 +887,9 @@ class MrpProduction(models.Model):
 =======
                 labour_amounts[account] += wo.company_id.currency_id.round(wo._cal_cost())
 >>>>>>> upstream/18.0
+=======
+                labour_amounts[account] += wo.company_id.currency_id.round(wo._cal_cost())
+>>>>>>> upstream/18.0
                 workorders[account] |= wo
             workcenter_cost = sum(labour_amounts.values())
 
@@ -905,6 +915,7 @@ class MrpProduction(models.Model):
             for line in account_move.line_ids[:-1]:
                 workorders[line.account_id].time_ids.write({'account_move_line_id': line.id})
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1028,6 +1039,11 @@ class MrpProduction(models.Model):
 >>>>>>> upstream/18.0
 =======
         self.filtered(lambda mo: not mo.reservation_state and mo.state == 'done')._post_labour()
+>>>>>>> upstream/18.0
+=======
+    def button_mark_done(self):
+        res = super().button_mark_done()
+        self.filtered(lambda mo: mo.state == 'done' and not mo.reservation_state)._post_labour()
 >>>>>>> upstream/18.0
 =======
     def button_mark_done(self):

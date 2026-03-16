@@ -222,8 +222,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { convertBrToLineBreak } from "@mail/utils/common/format";
 import { mailDataHelpers } from "@mail/../tests/mock_server/mail_mock_server";
+=======
+import { mailDataHelpers } from "@mail/../tests/mock_server/mail_mock_server";
+import { convertBrToLineBreak } from "@mail/utils/common/format";
+>>>>>>> upstream/18.0
 =======
 import { mailDataHelpers } from "@mail/../tests/mock_server/mail_mock_server";
 import { convertBrToLineBreak } from "@mail/utils/common/format";
@@ -1358,7 +1363,10 @@ import { uniqueId } from "@web/core/utils/functions";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { DEFAULT_MAIL_SEARCH_ID, DEFAULT_MAIL_VIEW_ID } from "./constants";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2039,11 +2047,14 @@ export class DiscussChannel extends models.ServerModel {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     _views = {
         [`search,${DEFAULT_MAIL_SEARCH_ID}`]: `<search/>`,
         [`form,${DEFAULT_MAIL_VIEW_ID}`]: `<form/>`,
     };
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

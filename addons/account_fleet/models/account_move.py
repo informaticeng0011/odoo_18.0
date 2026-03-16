@@ -150,6 +150,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import fields, models, _
 =======
 from odoo import api, fields, models, _
@@ -258,6 +259,9 @@ from odoo.tools import SQL
 =======
 from odoo import api, fields, models, _
 from odoo.tools import SQL
+>>>>>>> upstream/18.0
+=======
+from odoo import fields, models, _
 >>>>>>> upstream/18.0
 =======
 from odoo import fields, models, _
@@ -836,6 +840,7 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -924,6 +929,8 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
