@@ -159,6 +159,12 @@ class PurchaseOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def _get_sale_order_line_product(self):
+        return self.sale_line_id.product_id
+
+>>>>>>> upstream/18.0
 =======
     def _get_sale_order_line_product(self):
         return self.sale_line_id.product_id
@@ -789,6 +795,11 @@ class PurchaseOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if values.get('analytic_distribution'):
+            res['analytic_distribution'] = values['analytic_distribution']
+>>>>>>> upstream/18.0
 =======
         if values.get('analytic_distribution'):
             res['analytic_distribution'] = values['analytic_distribution']

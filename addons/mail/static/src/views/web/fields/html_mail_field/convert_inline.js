@@ -73,7 +73,10 @@ const RE_COL_MATCH = /(^| )col(-[\w\d]+)*( |$)/;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const RE_COMMAS_OUTSIDE_PARENTHESES = /,(?![^(]*?\))/g;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -194,7 +197,12 @@ export const TABLE_STYLES = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "border-collapse": "collapse",
+=======
+    "border-collapse": "separate",
+    "border-spacing": "0px",
+>>>>>>> upstream/18.0
 =======
     "border-collapse": "separate",
     "border-spacing": "0px",
@@ -408,7 +416,10 @@ const GROUPED_STYLES = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -848,6 +859,9 @@ const GROUPED_STYLES = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1512,6 +1526,10 @@ export function cardToTable(element) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            subTable.style.height = "100%";
+>>>>>>> upstream/18.0
 =======
             subTable.style.height = "100%";
 >>>>>>> upstream/18.0
@@ -1805,6 +1823,10 @@ export function classToStyle(element, cssRules) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        style = correctBorderAttributes(style);
+>>>>>>> upstream/18.0
 =======
         style = correctBorderAttributes(style);
 >>>>>>> upstream/18.0
@@ -2592,7 +2614,11 @@ export function classToStyle(element, cssRules) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     _createMso(`<table align="center" border="0"
+=======
+                    createMso(`<table align="center" border="0"
+>>>>>>> upstream/18.0
 =======
                     createMso(`<table align="center" border="0"
 >>>>>>> upstream/18.0
@@ -3561,7 +3587,11 @@ export function classToStyle(element, cssRules) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     _createMso(`</td>
+=======
+                    createMso(`</td>
+>>>>>>> upstream/18.0
 =======
                     createMso(`</td>
 >>>>>>> upstream/18.0
@@ -4605,7 +4635,11 @@ function enforceTablesResponsivity(element) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     _createMso(`
+=======
+                    createMso(`
+>>>>>>> upstream/18.0
 =======
                     createMso(`
 >>>>>>> upstream/18.0
@@ -5567,11 +5601,14 @@ function enforceTablesResponsivity(element) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 div.before(_createMso(`</td><td valign="top" style="width: ${width};">`));
             }
             if (index === tds.length - 1) {
                 div.after(_createMso(`</td></tr></table>`));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6290,6 +6327,9 @@ function enforceTablesResponsivity(element) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6888,6 +6928,7 @@ function enforceImagesResponsivity(element) {
     // Remove the height attribute in card images so they can resize
     // responsively, but leave it for Outlook.
     for (const image of element.querySelectorAll('img[width="100%"][height]')) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7845,6 +7886,9 @@ function enforceImagesResponsivity(element) {
 =======
         image.before(createMso(image.outerHTML));
 >>>>>>> upstream/18.0
+=======
+        image.before(createMso(image.outerHTML));
+>>>>>>> upstream/18.0
         image.classList.add("mso-hide");
         image.removeAttribute("height");
     }
@@ -8010,7 +8054,10 @@ export async function toInline(element, cssRules) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8453,6 +8500,9 @@ export async function toInline(element, cssRules) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8994,7 +9044,11 @@ export async function toInline(element, cssRules) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         image.before(_createMso(clone.outerHTML));
+=======
+        image.before(createMso(clone.outerHTML));
+>>>>>>> upstream/18.0
 =======
         image.before(createMso(clone.outerHTML));
 >>>>>>> upstream/18.0
@@ -10028,7 +10082,11 @@ function flattenBackgroundImages(element) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             backgroundImage.after(_createMso(vml));
+=======
+            backgroundImage.after(createMso(vml));
+>>>>>>> upstream/18.0
 =======
             backgroundImage.after(createMso(vml));
 >>>>>>> upstream/18.0
@@ -11076,7 +11134,10 @@ export function formatTables(element) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11214,6 +11275,9 @@ export function splitSelectors(str) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11375,7 +11439,11 @@ export function getCSSRules(doc) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 for (const selector of selectorText.split(RE_COMMAS_OUTSIDE_PARENTHESES)) {
+=======
+                for (const selector of splitSelectors(selectorText)) {
+>>>>>>> upstream/18.0
 =======
                 for (const selector of splitSelectors(selectorText)) {
 >>>>>>> upstream/18.0
@@ -11889,7 +11957,11 @@ function responsiveToStaticForOutlook(element) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         td.before(_createMso(outlookTd.outerHTML.replace("</td>", "")));
+=======
+        td.before(createMso(outlookTd.outerHTML.replace("</td>", "")));
+>>>>>>> upstream/18.0
 =======
         td.before(createMso(outlookTd.outerHTML.replace("</td>", "")));
 >>>>>>> upstream/18.0
@@ -13045,9 +13117,12 @@ function _createColumnGrid() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 function _createMso(content = "") {
     return document.createComment(`[if mso]>${content}<![endif]`);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13771,6 +13846,9 @@ export function createMso(content = "") {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14566,7 +14644,12 @@ function _getMatchedCSSRules(node, cssRules) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const styles = cssRules.map((rule) => rule.style).filter(Boolean);
+=======
+
+    const styles = cssRules.map((rule) => removeBlacklistedStyles(rule, node)).filter(Boolean);
+>>>>>>> upstream/18.0
 =======
 
     const styles = cssRules.map((rule) => removeBlacklistedStyles(rule, node)).filter(Boolean);
@@ -15859,8 +15942,11 @@ function _hideForOutlook(node, onlyHideTag = false) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         node.setAttribute("style", `${node.getAttribute("style") || ""} mso-hide: all;`.trim());
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16376,6 +16462,9 @@ function _hideForOutlook(node, onlyHideTag = false) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17007,7 +17096,10 @@ function _wrap(element, wrapperTag, wrapperClass, wrapperStyle) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17734,6 +17826,7 @@ function removeBlacklistedStyles(rule, node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17868,6 +17961,8 @@ function removeBlacklistedStyles(rule, node) {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18428,6 +18523,9 @@ function correctBorderAttributes(style) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

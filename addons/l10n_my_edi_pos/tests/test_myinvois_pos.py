@@ -203,7 +203,11 @@ from odoo.tools import file_open, mute_logger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.account_reports.tests.common import TestAccountReportsCommon
+=======
+from odoo.addons.account.tests.common import AccountTestInvoicingCommon
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 >>>>>>> upstream/18.0
@@ -986,7 +990,11 @@ class TestMyInvoisPoS(TestPoSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @TestAccountReportsCommon.setup_country('my')
+=======
+    @AccountTestInvoicingCommon.setup_country('my')
+>>>>>>> upstream/18.0
 =======
     @AccountTestInvoicingCommon.setup_country('my')
 >>>>>>> upstream/18.0
@@ -1748,6 +1756,35 @@ class TestMyInvoisPoS(TestPoSCommon):
                 self.assertEqual(len(consolidated_invoice), 2)  # Two consolidated invoices of a single line due to the MAX_LINE_COUNT_PER_INVOICE
 
     @mute_logger('odoo.addons.point_of_sale.models.pos_order')
+<<<<<<< HEAD
+=======
+    def test_consolidate_invoices_prepayment_unlink(self):
+        """Ensure that consolidated invoices have a PaidAmount of 0.00 and the correct PayableAmount."""
+        with freeze_time("2025-01-01"):
+            with self.with_pos_session():
+                first_order = self._create_order({'pos_order_lines_ui_args': [(self.product_one, 1.0)]})
+                second_order = self._create_order({'pos_order_lines_ui_args': [(self.product_two, 1.0)]})
+
+            wizard = self.env['myinvois.consolidate.invoice.wizard'].create({
+                'date_from': '2025-01-01',
+                'date_to': '2025-01-31',
+            })
+            wizard.button_consolidate_orders()
+
+            consolidated_invoice = (first_order | second_order).consolidated_invoice_ids
+            self.assertEqual(len(consolidated_invoice), 1)
+
+            consolidated_invoice.action_generate_xml_file()
+            xml_tree = etree.fromstring(consolidated_invoice.myinvois_file_id.raw)
+            tax_inclusive_node = xml_tree.xpath("cac:LegalMonetaryTotal/cbc:TaxInclusiveAmount", namespaces=NS_MAP)
+            self.assertTrue(tax_inclusive_node, "TaxInclusiveAmount node is missing from the XML.")
+            expected_total = tax_inclusive_node[0].text
+
+            self._assert_node_values(xml_tree, "cac:PrepaidPayment/cbc:PaidAmount", '0.00')
+            self._assert_node_values(xml_tree, "cac:LegalMonetaryTotal/cbc:PayableAmount", expected_total)
+
+    @mute_logger('odoo.addons.point_of_sale.models.pos_order')
+>>>>>>> upstream/18.0
     def test_send_consolidated_invoice(self):
         with freeze_time("2025-01-01"):
             # Create the orders
@@ -1964,7 +2001,10 @@ class TestMyInvoisPoS(TestPoSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2149,6 +2189,9 @@ class TestMyInvoisPoS(TestPoSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -16,6 +16,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* hr_contract
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -237,6 +238,9 @@
 =======
 # * hr_contract
 >>>>>>> upstream/18.0
+=======
+# * hr_contract
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -313,6 +317,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -423,6 +428,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# "Marta (wacm)" <wacm@odoo.com>, 2026.
 >>>>>>> upstream/18.0
 =======
 # "Marta (wacm)" <wacm@odoo.com>, 2026.
@@ -476,6 +484,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -703,6 +712,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-02-24 23:30+0000\n"
 "Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
@@ -723,6 +734,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -759,6 +773,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1023,6 +1038,11 @@ msgstr ""
 "(n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || "
+"(n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_history__contract_count
@@ -1120,7 +1140,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"o_stat_text text-danger\" invisible=\"not contract_warning\" title=\"In Contract Since\">\n"
+=======
+"<span class=\"o_stat_text text-danger\" invisible=\"not contract_warning\" "
+"title=\"In Contract Since\">\n"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_stat_text text-danger\" invisible=\"not contract_warning\" "
 "title=\"In Contract Since\">\n"
@@ -1498,7 +1523,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <span invisible=\"contracts_count == 1\" class=\"o_stat_text text-danger\">\n"
+=======
+"                                <span invisible=\"contracts_count == 1\" "
+"class=\"o_stat_text text-danger\">\n"
+>>>>>>> upstream/18.0
 =======
 "                                <span invisible=\"contracts_count == 1\" "
 "class=\"o_stat_text text-danger\">\n"
@@ -1869,7 +1899,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <span invisible=\"contracts_count &gt; 1\" class=\"o_stat_text\">\n"
+=======
+"                                    <span invisible=\"contracts_count &gt; "
+"1\" class=\"o_stat_text\">\n"
+>>>>>>> upstream/18.0
 =======
 "                                    <span invisible=\"contracts_count &gt; "
 "1\" class=\"o_stat_text\">\n"
@@ -2311,12 +2346,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "An employee can only have one contract at the same time. (Excluding Draft and Cancelled contracts).\n"
 "\n"
 "Employee: %(employee_name)s"
 msgstr ""
 "Pracownik może mieć w tym samym czasie tylko jedną umowę. (Z wyłączeniem umów wstępnych i anulowanych).\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2537,6 +2575,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2766,7 +2807,11 @@ msgid "Config Settings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ustawienia konfiguracji"
+=======
+msgstr "Konfiguracja ustawień"
+>>>>>>> upstream/18.0
 =======
 msgstr "Konfiguracja ustawień"
 >>>>>>> upstream/18.0
@@ -3041,7 +3086,11 @@ msgid "Contract Expiry Notice Period"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Okres powiadomienia o wygaśnięciu umowy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Okres powiadomienia o wygaśnięciu umowy"
 >>>>>>> upstream/18.0
@@ -4202,7 +4251,11 @@ msgid "Legal Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Imię i nazwisko (zgodne z dokumentami)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Imię i nazwisko (zgodne z dokumentami)"
 >>>>>>> upstream/18.0
@@ -4917,8 +4970,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Liczba dni przed datą końca umowy, kiedy ostrzeżenie o wygaśnięciu kontraktu"
 " jest wyzwalane."
+=======
+"Liczba dni przed datą końca umowy, kiedy ostrzeżenie o wygaśnięciu kontraktu "
+"jest wyzwalane."
+>>>>>>> upstream/18.0
 =======
 "Liczba dni przed datą końca umowy, kiedy ostrzeżenie o wygaśnięciu kontraktu "
 "jest wyzwalane."
@@ -5591,7 +5649,11 @@ msgid "The work permit of %s is about to expire."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pozwolenie na pracę osoby %s jest blisko wygaśnięcia."
+>>>>>>> upstream/18.0
 =======
 msgstr "Pozwolenie na pracę osoby %s jest blisko wygaśnięcia."
 >>>>>>> upstream/18.0
@@ -6407,7 +6469,11 @@ msgid "Work Permit Expiry Notice Period"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Okres powiadomienia o wygaśnięciu pozwolenia na pracę"
+>>>>>>> upstream/18.0
 =======
 msgstr "Okres powiadomienia o wygaśnięciu pozwolenia na pracę"
 >>>>>>> upstream/18.0

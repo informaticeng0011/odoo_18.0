@@ -353,7 +353,11 @@ class IrQWeb(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if value is not None and value is not False:
+=======
+            if value not in (None, False, ()):
+>>>>>>> upstream/18.0
 =======
             if value not in (None, False, ()):
 >>>>>>> upstream/18.0
@@ -1109,9 +1113,15 @@ class IrQWeb(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if name in atts:
                 atts[name] = website.get_cdn_url(atts[name])
             if data_name in atts:
+=======
+            if name in atts and atts[name] not in (False, None, ()):
+                atts[name] = website.get_cdn_url(atts[name])
+            if data_name in atts and atts[data_name] not in (False, None, ()):
+>>>>>>> upstream/18.0
 =======
             if name in atts and atts[name] not in (False, None, ()):
                 atts[name] = website.get_cdn_url(atts[name])
@@ -2270,7 +2280,11 @@ class IrQWeb(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'website.assets_all_wysiwyg',
+=======
+            'website.assets_all_wysiwyg_inside',
+>>>>>>> upstream/18.0
 =======
             'website.assets_all_wysiwyg_inside',
 >>>>>>> upstream/18.0

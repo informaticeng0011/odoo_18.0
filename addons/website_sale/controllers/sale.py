@@ -69,6 +69,10 @@ from odoo.addons.sale.controllers import portal as sale_portal
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.http import request
+>>>>>>> upstream/18.0
 =======
 from odoo.http import request
 >>>>>>> upstream/18.0
@@ -354,8 +358,11 @@ class CustomerPortal(sale_portal.CustomerPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         website_id = website_id or order_sudo.website_id.id
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -563,6 +570,9 @@ class CustomerPortal(sale_portal.CustomerPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

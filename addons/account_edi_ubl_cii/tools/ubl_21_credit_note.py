@@ -2,6 +2,10 @@
 # It can be passed as the `template` argument to `dict_to_xml` to enforce the order of nodes.
 
 import odoo.addons.account_edi_ubl_cii.tools.ubl_21_common as cac
+<<<<<<< HEAD
+=======
+import odoo.addons.account_edi_ubl_cii.tools.ubl_21_extensions as ext
+>>>>>>> upstream/18.0
 
 CreditNoteLine = {
     'cbc:ID': {},
@@ -22,6 +26,7 @@ CreditNoteLine = {
     'cac:Price': cac.Price,
     'cac:ItemPriceExtension': cac.ItemPriceExtension,
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -88,6 +93,12 @@ CreditNoteLine = {
 CreditNote = {
     '_tag': 'CreditNote',
     'ext:UBLExtensions': {},
+=======
+
+CreditNote = {
+    '_tag': 'CreditNote',
+    'ext:UBLExtensions': ext.UBLExtensions,
+>>>>>>> upstream/18.0
     'cbc:UBLVersionID': {},
     'cbc:CustomizationID': {},
     'cbc:ProfileID': {},
@@ -113,6 +124,10 @@ CreditNote = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'cbc:TaxPointDate': {},
+>>>>>>> upstream/18.0
 =======
     'cbc:TaxPointDate': {},
 >>>>>>> upstream/18.0
@@ -186,6 +201,10 @@ CreditNote = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'cbc:AccountingCost': {},
+>>>>>>> upstream/18.0
 =======
     'cbc:AccountingCost': {},
 >>>>>>> upstream/18.0
@@ -261,6 +280,11 @@ CreditNote = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'cac:DespatchDocumentReference': cac.DespatchDocumentReference,
+    'cac:ContractDocumentReference': cac.ContractDocumentReference,
+>>>>>>> upstream/18.0
 =======
     'cac:DespatchDocumentReference': cac.DespatchDocumentReference,
     'cac:ContractDocumentReference': cac.ContractDocumentReference,
@@ -520,6 +544,10 @@ CreditNote = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'cac:PrepaidPayment': cac.PrepaidPayment,
+>>>>>>> upstream/18.0
 =======
     'cac:PrepaidPayment': cac.PrepaidPayment,
 >>>>>>> upstream/18.0

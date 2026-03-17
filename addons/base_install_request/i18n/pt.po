@@ -114,8 +114,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* base_install_request
 # 
+=======
+# * base_install_request
+#
+>>>>>>> upstream/18.0
 =======
 # * base_install_request
 #
@@ -772,6 +777,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Maitê Dietze, 2025
 >>>>>>> upstream/18.0
@@ -1519,10 +1525,16 @@
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # "Pedro Silva (Exo)" <pedrocs@exo.pt>, 2026.
 >>>>>>> upstream/18.0
+=======
+# Maitê Dietze, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# "Pedro Silva (Exo)" <pedrocs@exo.pt>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2363,12 +2375,18 @@ msgstr ""
 "PO-Revision-Date: 2026-01-27 23:14+0000\n"
 "Last-Translator: \"Pedro Silva (Exo)\" <pedrocs@exo.pt>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-01-27 23:14+0000\n"
+"Last-Translator: \"Pedro Silva (Exo)\" <pedrocs@exo.pt>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Portuguese <https://translate.odoo.com/projects/odoo-18/"
 "base_install_request/pt/>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2844,6 +2862,11 @@ msgstr ""
 "((n != 0 && n % 1000000 == 0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : "
+"((n != 0 && n % 1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: base_install_request
 #: model:mail.template,body_html:base_install_request.mail_template_base_install_request
@@ -2852,6 +2875,7 @@ msgid ""
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        Hello,\n"
 "        <br/><br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2937,6 +2961,8 @@ msgid ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3173,6 +3199,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3322,6 +3351,7 @@ msgid ""
 "</div>\n"
 "            "
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4016,6 +4046,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        Caro(a),\n"
@@ -4071,6 +4103,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4206,11 +4241,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "decoration:none; color:#fff; border-radius:5px\" t-attf-href=\"/odoo/"
 "{{ object.module_id.id }}/action-"
 "base_install_request.action_base_module_install_review?"
 "menu_id={{ ctx['menu_id'] }}\">Revisar solicitação</a>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4344,6 +4382,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4480,6 +4521,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-"
 "quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 <<<<<<< HEAD
@@ -4563,6 +4605,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote="
+"\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 >>>>>>> upstream/18.0
 =======
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote="
@@ -4940,6 +4986,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5450,6 +5499,7 @@ msgid "Activation Request of \"%s\""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Solicitação de ativação de \"%s\""
@@ -5660,6 +5710,9 @@ msgstr "Solicitação de ativação de \"%s\""
 >>>>>>> upstream/18.0
 =======
 msgstr "Solicitação de ativação de \"%s\""
+>>>>>>> upstream/18.0
+=======
+msgstr "Solicitação de Ativação de \"%s\""
 >>>>>>> upstream/18.0
 =======
 msgstr "Solicitação de Ativação de \"%s\""
@@ -5934,6 +5987,7 @@ msgid "Depending Apps"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Aplicativos dependentes"
@@ -6277,6 +6331,9 @@ msgstr "Apps Dependentes"
 =======
 msgstr "Apps Dependentes"
 >>>>>>> upstream/18.0
+=======
+msgstr "Apps Dependentes"
+>>>>>>> upstream/18.0
 
 #. module: base_install_request
 #: model:ir.model.fields,field_description:base_install_request.field_base_module_install_request__display_name
@@ -6332,7 +6389,11 @@ msgid "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Id."
+=======
+msgstr "ID"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID"
 >>>>>>> upstream/18.0
@@ -6583,6 +6644,7 @@ msgid "Install App"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Instalar app"
@@ -6793,6 +6855,9 @@ msgstr "Instalar app"
 >>>>>>> upstream/18.0
 =======
 msgstr "Instalar app"
+>>>>>>> upstream/18.0
+=======
+msgstr "Instalar App"
 >>>>>>> upstream/18.0
 =======
 msgstr "Instalar App"
@@ -7056,6 +7121,7 @@ msgid "Mail: Install Request"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "E-mail: solicitação de instalação"
@@ -7266,6 +7332,9 @@ msgstr "E-mail: solicitação de instalação"
 >>>>>>> upstream/18.0
 =======
 msgstr "E-mail: solicitação de instalação"
+>>>>>>> upstream/18.0
+=======
+msgstr "Correio: Solicitação de Instalação"
 >>>>>>> upstream/18.0
 =======
 msgstr "Correio: Solicitação de Instalação"
@@ -7524,6 +7593,7 @@ msgid "Module Activation Request"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Solicitação de ativação de módulo"
@@ -7734,6 +7804,9 @@ msgstr "Solicitação de ativação de módulo"
 >>>>>>> upstream/18.0
 =======
 msgstr "Solicitação de ativação de módulo"
+>>>>>>> upstream/18.0
+=======
+msgstr "Solicitação de Ativação do Módulo"
 >>>>>>> upstream/18.0
 =======
 msgstr "Solicitação de Ativação do Módulo"
@@ -7986,6 +8059,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Solicitação de ativação de módulo para \"{{ object.module_id.shortdesc }}\""
+>>>>>>> upstream/18.0
 =======
 "Solicitação de ativação de módulo para \"{{ object.module_id.shortdesc }}\""
 >>>>>>> upstream/18.0
@@ -8446,6 +8523,7 @@ msgid "Module Activation Review"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Revisão da ativação do módulo"
@@ -8656,6 +8734,9 @@ msgstr "Revisão da ativação do módulo"
 >>>>>>> upstream/18.0
 =======
 msgstr "Revisão da ativação do módulo"
+>>>>>>> upstream/18.0
+=======
+msgstr "Revisão de Ativação do Módulo"
 >>>>>>> upstream/18.0
 =======
 msgstr "Revisão de Ativação do Módulo"
@@ -8907,6 +8988,7 @@ msgid "Modules Description"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Descrição dos módulos"
@@ -9117,6 +9199,9 @@ msgstr "Descrição dos módulos"
 >>>>>>> upstream/18.0
 =======
 msgstr "Descrição dos módulos"
+>>>>>>> upstream/18.0
+=======
+msgstr "Descrição dos Módulos"
 >>>>>>> upstream/18.0
 =======
 msgstr "Descrição dos Módulos"
@@ -9298,7 +9383,11 @@ msgid "No extra cost, this application is free."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sem custo extra, este aplicativo é gratuito."
+>>>>>>> upstream/18.0
 =======
 msgstr "Sem custo extra, este aplicativo é gratuito."
 >>>>>>> upstream/18.0
@@ -9550,6 +9639,7 @@ msgid "No module selected."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Nenhum módulo foi selecionado."
@@ -9760,6 +9850,9 @@ msgstr "Nenhum módulo foi selecionado."
 >>>>>>> upstream/18.0
 =======
 msgstr "Nenhum módulo foi selecionado."
+>>>>>>> upstream/18.0
+=======
+msgstr "Nenhum módulo selecionado."
 >>>>>>> upstream/18.0
 =======
 msgstr "Nenhum módulo selecionado."
@@ -10011,6 +10104,7 @@ msgid "Request Access"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Solicitar acesso"
@@ -10221,6 +10315,9 @@ msgstr "Solicitar acesso"
 >>>>>>> upstream/18.0
 =======
 msgstr "Solicitar acesso"
+>>>>>>> upstream/18.0
+=======
+msgstr "Solicitar Acesso"
 >>>>>>> upstream/18.0
 =======
 msgstr "Solicitar Acesso"
@@ -10472,6 +10569,7 @@ msgid "Request Activation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Solicitar ativação"
@@ -10682,6 +10780,9 @@ msgstr "Solicitar ativação"
 >>>>>>> upstream/18.0
 =======
 msgstr "Solicitar ativação"
+>>>>>>> upstream/18.0
+=======
+msgstr "Solicitar Ativação"
 >>>>>>> upstream/18.0
 =======
 msgstr "Solicitar Ativação"
@@ -10934,7 +11035,11 @@ msgid "Send to:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Enviar para:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Enviar para:"
 >>>>>>> upstream/18.0
@@ -11395,7 +11500,11 @@ msgid "The following apps will be installed:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Os seguintes aplicativos serão instalados:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Os seguintes aplicativos serão instalados:"
 >>>>>>> upstream/18.0
@@ -11857,7 +11966,11 @@ msgid "The module is already installed."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O módulo já está instalado."
+>>>>>>> upstream/18.0
 =======
 msgstr "O módulo já está instalado."
 >>>>>>> upstream/18.0
@@ -12251,6 +12364,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Esta app está incluída na sua subscrição. É gratuito para ativar, mas "
+"somente um administrador pode fazê-lo. Preencha este formulário para enviar "
+"uma solicitação de ativação."
+>>>>>>> upstream/18.0
 =======
 "Esta app está incluída na sua subscrição. É gratuito para ativar, mas "
 "somente um administrador pode fazê-lo. Preencha este formulário para enviar "
@@ -12594,6 +12713,7 @@ msgid "Why do you need this module?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Por que você precisa deste módulo?"
@@ -12804,6 +12924,9 @@ msgstr "Por que você precisa deste módulo?"
 >>>>>>> upstream/18.0
 =======
 msgstr "Por que você precisa deste módulo?"
+>>>>>>> upstream/18.0
+=======
+msgstr "Por que precisa deste módulo?"
 >>>>>>> upstream/18.0
 =======
 msgstr "Por que precisa deste módulo?"
@@ -13055,6 +13178,7 @@ msgid "You are about to install an extra application"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Você está prestes a instalar um aplicativo adicional"
@@ -13265,6 +13389,9 @@ msgstr "Você está prestes a instalar um aplicativo adicional"
 >>>>>>> upstream/18.0
 =======
 msgstr "Você está prestes a instalar um aplicativo adicional"
+>>>>>>> upstream/18.0
+=======
+msgstr "Está prestes a instalar um aplicativo extra"
 >>>>>>> upstream/18.0
 =======
 msgstr "Está prestes a instalar um aplicativo extra"
@@ -13517,6 +13644,7 @@ msgid "Your request has been successfully sent"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Sua solicitação foi enviada com sucesso"
@@ -13727,6 +13855,9 @@ msgstr "Sua solicitação foi enviada com sucesso"
 >>>>>>> upstream/18.0
 =======
 msgstr "Sua solicitação foi enviada com sucesso"
+>>>>>>> upstream/18.0
+=======
+msgstr "A sua solicitação foi enviada com sucesso"
 >>>>>>> upstream/18.0
 =======
 msgstr "A sua solicitação foi enviada com sucesso"
@@ -13981,6 +14112,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Por exemplo, eu gostaria de usar o módulo de Marketing por SMS para "
 "organizar a promoção de nossos eventos internos e exposições. Preciso de "
@@ -14330,6 +14462,11 @@ msgstr ""
 "Por exemplo, eu gostaria de usar o módulo de Marketing por SMS para "
 "organizar a promoção de nossos eventos internos e exposições. Preciso de "
 "acesso para 3 pessoas da minha equipe."
+>>>>>>> upstream/18.0
+=======
+"p. ex., gostaria de usar o módulo SMS Marketing para organizar a promoção "
+"dos nossos eventos internos e exposições. Preciso de acesso para 3 pessoas "
+"da minha equipa."
 >>>>>>> upstream/18.0
 =======
 "p. ex., gostaria de usar o módulo SMS Marketing para organizar a promoção "

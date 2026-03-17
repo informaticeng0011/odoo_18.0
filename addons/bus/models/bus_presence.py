@@ -45,8 +45,24 @@ class BusPresence(models.Model):
         return result
 
     def unlink(self):
+<<<<<<< HEAD
         self._send_presence("offline")
         return super().unlink()
+=======
+        identity_data_by_target = {
+            presence._get_bus_target(): presence._get_identity_data()
+            for presence in self
+        }
+        res = super().unlink()
+        for target, identity_data in identity_data_by_target.items():
+            if target and identity_data:
+                self._send_status_updated_notification(
+                    target=target,
+                    identity_data=identity_data,
+                    status="offline",
+                )
+        return res
+>>>>>>> upstream/18.0
 
     @api.model
     def update_presence(self, inactivity_period, identity_field, identity_value):
@@ -104,6 +120,7 @@ class BusPresence(models.Model):
         for presence in self:
             identity_data = presence._get_identity_data()
             target = presence._get_bus_target()
+<<<<<<< HEAD
             target = bus_target or (target and (target, "presence"))
             if identity_data and target:
                 self.env["bus.bus"]._sendone(
@@ -116,6 +133,28 @@ class BusPresence(models.Model):
                     },
                 )
 
+=======
+            if identity_data and target:
+                self._send_status_updated_notification(
+                    target=target,
+                    identity_data=identity_data,
+                    status=im_status or target.im_status,
+                    bus_target=bus_target,
+                )
+
+    @api.model
+    def _send_status_updated_notification(self, *, target, identity_data, status, bus_target=None):
+        self.env["bus.bus"]._sendone(
+            bus_target or (target, "presence"),
+            "bus.bus/im_status_updated",
+            {
+                "presence_status": status,
+                "im_status": target.im_status,
+                **identity_data,
+            },
+        )
+
+>>>>>>> upstream/18.0
     @api.autovacuum
     def _gc_bus_presence(self):
         self.search(

@@ -153,7 +153,11 @@
         </cac:Party>
     </cac:AccountingCustomerParty>
     <cac:PrepaidPayment>
+<<<<<<< HEAD
         <cbc:PaidAmount currencyID="USD">1768.00</cbc:PaidAmount>
+=======
+        <cbc:PaidAmount currencyID="USD">0.00</cbc:PaidAmount>
+>>>>>>> upstream/18.0
     </cac:PrepaidPayment>
     <cac:TaxExchangeRate>
         <cbc:SourceCurrencyCode>USD</cbc:SourceCurrencyCode>
@@ -192,7 +196,11 @@
         <cbc:TaxExclusiveAmount currencyID="USD">1680.00</cbc:TaxExclusiveAmount>
         <cbc:TaxInclusiveAmount currencyID="USD">1768.00</cbc:TaxInclusiveAmount>
         <cbc:PrepaidAmount currencyID="USD">0.00</cbc:PrepaidAmount>
+<<<<<<< HEAD
         <cbc:PayableAmount currencyID="USD">0.00</cbc:PayableAmount>
+=======
+        <cbc:PayableAmount currencyID="USD">1768.00</cbc:PayableAmount>
+>>>>>>> upstream/18.0
     </cac:LegalMonetaryTotal>
     <cac:InvoiceLine>
         <cbc:ID>1</cbc:ID>

@@ -297,7 +297,11 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'Error while receiving the document from Nemhandel Proxy: %s', e.message,
+=======
+                    'Error while receiving the document from Nemhandel Proxy: %s', ', '.join(e.args),
+>>>>>>> upstream/18.0
 =======
                     'Error while receiving the document from Nemhandel Proxy: %s', ', '.join(e.args),
 >>>>>>> upstream/18.0
@@ -901,7 +905,11 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if e.message != "The user doesn't exist on the proxy":
+=======
+                if e.args and e.args[0] != "The user doesn't exist on the proxy":
+>>>>>>> upstream/18.0
 =======
                 if e.args and e.args[0] != "The user doesn't exist on the proxy":
 >>>>>>> upstream/18.0

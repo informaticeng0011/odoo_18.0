@@ -153,7 +153,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { clickOnSave, registerWebsitePreviewTour } from "@website/js/tours/tour_utils";
+=======
+import { registerWebsitePreviewTour } from "@website/js/tours/tour_utils";
+>>>>>>> upstream/18.0
 =======
 import { registerWebsitePreviewTour } from "@website/js/tours/tour_utils";
 >>>>>>> upstream/18.0
@@ -620,6 +624,7 @@ import { registerWebsitePreviewTour } from "@website/js/tours/tour_utils";
  */
 registerWebsitePreviewTour("blog_tags_with_date", {
     url: "/blog",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1244,6 +1249,9 @@ registerWebsitePreviewTour("blog_tags_with_date", {
 =======
 }, () => [{
 >>>>>>> upstream/18.0
+=======
+}, () => [{
+>>>>>>> upstream/18.0
         content: "Check that the sidebar is present",
         trigger: ":iframe #o_wblog_sidebar",
     }, {
@@ -1408,8 +1416,11 @@ registerWebsitePreviewTour("blog_tags_with_date", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         run: "selectByLabel October",
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1850,6 +1861,9 @@ registerWebsitePreviewTour("blog_tags_with_date", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

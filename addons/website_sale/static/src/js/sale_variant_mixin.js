@@ -653,7 +653,13 @@ var VariantMixin = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 $pricePerUom.text(this._priceToStr(combination.base_unit_price));
+=======
+                $pricePerUom.text(
+                    this._priceToStr(combination.base_unit_price, combination.currency_precision)
+                );
+>>>>>>> upstream/18.0
 =======
                 $pricePerUom.text(
                     this._priceToStr(combination.base_unit_price, combination.currency_precision)
@@ -1694,9 +1700,12 @@ var VariantMixin = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $price.text(self._priceToStr(combination.price));
         $default_price.text(self._priceToStr(combination.list_price));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2199,6 +2208,9 @@ var VariantMixin = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2583,6 +2595,7 @@ var VariantMixin = {
             .trigger('change');
 
         $parent
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3516,6 +3529,10 @@ var VariantMixin = {
             .find('.o_product_tags:first')
             .replaceWith(combination.product_tags);
 >>>>>>> upstream/18.0
+=======
+            .find('.o_product_tags:first')
+            .replaceWith(combination.product_tags);
+>>>>>>> upstream/18.0
 
         this.handleCustomValues($(ev.target));
     },
@@ -3525,6 +3542,7 @@ var VariantMixin = {
      *
      * @private
      * @param {float} price
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4031,6 +4049,8 @@ var VariantMixin = {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
      * @param {integer} precision
      * @returns {string}
      */
@@ -4203,6 +4223,9 @@ var VariantMixin = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

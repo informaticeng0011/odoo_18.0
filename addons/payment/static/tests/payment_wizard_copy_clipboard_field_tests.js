@@ -142,7 +142,11 @@ QUnit.test("copy link immediatly after entering the amount", async (assert) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     assert.expect(2);
+=======
+    assert.expect(3);
+>>>>>>> upstream/18.0
 =======
     assert.expect(3);
 >>>>>>> upstream/18.0
@@ -615,7 +619,10 @@ QUnit.test("copy link immediatly after entering the amount", async (assert) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -948,6 +955,9 @@ QUnit.test("copy link immediatly after entering the amount", async (assert) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -395,7 +395,11 @@ class TestMyDATAInvoice(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assert_mydata_error(invoice, 'Missing MyDATA Invoice Type.')
+=======
+        self.assert_mydata_error(invoice, 'Missing myDATA Invoice Type.')
+>>>>>>> upstream/18.0
 =======
         self.assert_mydata_error(invoice, 'Missing myDATA Invoice Type.')
 >>>>>>> upstream/18.0
@@ -1144,7 +1148,11 @@ class TestMyDATAInvoice(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assert_mydata_error(invoice, 'Missing MyDATA classification category on line 1.')
+=======
+        self.assert_mydata_error(invoice, 'Missing myDATA classification category on line 1.')
+>>>>>>> upstream/18.0
 =======
         self.assert_mydata_error(invoice, 'Missing myDATA classification category on line 1.')
 >>>>>>> upstream/18.0
@@ -1893,7 +1901,11 @@ class TestMyDATAInvoice(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assert_mydata_error(invoice, 'Missing MyDATA classification type on line 1.')
+=======
+        self.assert_mydata_error(invoice, 'Missing myDATA classification type on line 1.')
+>>>>>>> upstream/18.0
 =======
         self.assert_mydata_error(invoice, 'Missing myDATA classification type on line 1.')
 >>>>>>> upstream/18.0
@@ -2662,7 +2674,11 @@ class TestMyDATAInvoice(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assert_mydata_error(invoice, 'MyDATA does not support multiple taxes on line 1.')
+=======
+        self.assert_mydata_error(invoice, 'myDATA does not support multiple taxes on line 1.')
+>>>>>>> upstream/18.0
 =======
         self.assert_mydata_error(invoice, 'myDATA does not support multiple taxes on line 1.')
 >>>>>>> upstream/18.0
@@ -3421,7 +3437,11 @@ class TestMyDATAInvoice(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assert_mydata_error(invoice, 'Missing MyDATA Tax Exemption Category for line 1.')
+=======
+        self.assert_mydata_error(invoice, 'Missing myDATA Tax Exemption Category for line 1.')
+>>>>>>> upstream/18.0
 =======
         self.assert_mydata_error(invoice, 'Missing myDATA Tax Exemption Category for line 1.')
 >>>>>>> upstream/18.0
