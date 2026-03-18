@@ -46,9 +46,12 @@ class BusPresence(models.Model):
 
     def unlink(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
         self._send_presence("offline")
         return super().unlink()
 =======
+=======
+>>>>>>> upstream/18.0
         identity_data_by_target = {
             presence._get_bus_target(): presence._get_identity_data()
             for presence in self
@@ -62,6 +65,9 @@ class BusPresence(models.Model):
                     status="offline",
                 )
         return res
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     @api.model
@@ -121,6 +127,7 @@ class BusPresence(models.Model):
             identity_data = presence._get_identity_data()
             target = presence._get_bus_target()
 <<<<<<< HEAD
+<<<<<<< HEAD
             target = bus_target or (target and (target, "presence"))
             if identity_data and target:
                 self.env["bus.bus"]._sendone(
@@ -134,6 +141,8 @@ class BusPresence(models.Model):
                 )
 
 =======
+=======
+>>>>>>> upstream/18.0
             if identity_data and target:
                 self._send_status_updated_notification(
                     target=target,
@@ -154,6 +163,9 @@ class BusPresence(models.Model):
             },
         )
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     @api.autovacuum
     def _gc_bus_presence(self):

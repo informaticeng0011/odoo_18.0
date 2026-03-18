@@ -193,6 +193,7 @@ from odoo.addons.mail.tests.common import MailCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import Form, tagged
 from odoo.exceptions import UserError, ValidationError
 <<<<<<< HEAD
@@ -280,6 +281,8 @@ from odoo import Command
 from odoo import Command
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -842,6 +845,9 @@ from odoo import Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1312,7 +1318,11 @@ class TestAccountJournal(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_account_control_create_journal_entry(self):
+=======
+    def test_account_control_post_journal_entry(self):
+>>>>>>> upstream/18.0
 =======
     def test_account_control_post_journal_entry(self):
 >>>>>>> upstream/18.0
@@ -1581,12 +1591,15 @@ class TestAccountJournal(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.env['account.move'].create(move_vals)
 
         # Should be allowed because both accounts are accepted.
         self.company_data['default_journal_misc'].account_control_ids |= self.company_data['default_account_expense']
         self.env['account.move'].create(move_vals)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1775,6 +1788,9 @@ class TestAccountJournal(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2398,7 +2414,10 @@ class TestAccountJournalAlias(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3056,6 +3075,7 @@ class TestAccountJournalAlias(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3098,6 +3118,8 @@ class TestAccountJournalAlias(AccountTestInvoicingCommon, MailCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3675,6 +3697,7 @@ class TestAccountJournalAlias(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3767,6 +3790,8 @@ class TestAccountJournalAlias(AccountTestInvoicingCommon, MailCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4207,6 +4232,7 @@ class TestAccountJournalAlias(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4263,6 +4289,8 @@ class TestAccountJournalAlias(AccountTestInvoicingCommon, MailCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4587,7 +4615,11 @@ class TestAccountJournalAlias(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         new_outbound_payment_line = outbound_method_lines[0].copy({'payment_account_id': outstanding_payment_account.id})
+=======
+        new_outbound_payment_line = outbound_method_lines[0].copy({'payment_account_id': self.company_data['default_account_deferred_expense'].id})
+>>>>>>> upstream/18.0
 =======
         new_outbound_payment_line = outbound_method_lines[0].copy({'payment_account_id': self.company_data['default_account_deferred_expense'].id})
 >>>>>>> upstream/18.0
@@ -4969,6 +5001,9 @@ class TestAccountJournalAlias(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

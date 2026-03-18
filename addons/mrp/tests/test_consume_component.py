@@ -2,7 +2,11 @@ import copy
 
 from odoo.exceptions import UserError
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import common, tagged, Form
+=======
+from odoo.tests import common, Command, tagged, Form
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import common, Command, tagged, Form
 >>>>>>> upstream/18.0
@@ -700,6 +704,7 @@ class TestConsumeComponent(TestConsumeComponentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1164,6 +1169,8 @@ class TestConsumeComponent(TestConsumeComponentCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_multi_lot_component_consumption(self):
         """
@@ -1196,6 +1203,9 @@ class TestConsumeComponent(TestConsumeComponentCommon):
             {'quantity': 1.0},
             {'quantity': 1.0},
         ])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def test_no_component_consumption_on_lot_removal(self):
@@ -1454,6 +1464,9 @@ class TestConsumeComponent(TestConsumeComponentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -347,7 +347,11 @@ class StockScrap(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             else:
+=======
+            elif scrap.company_id:
+>>>>>>> upstream/18.0
 =======
             elif scrap.company_id:
 >>>>>>> upstream/18.0
@@ -1439,7 +1443,12 @@ class StockScrap(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             scrap.scrap_location_id = locations_per_company[scrap.company_id.id]
+=======
+            if scrap.company_id:
+                scrap.scrap_location_id = locations_per_company[scrap.company_id.id]
+>>>>>>> upstream/18.0
 =======
             if scrap.company_id:
                 scrap.scrap_location_id = locations_per_company[scrap.company_id.id]

@@ -288,11 +288,14 @@ class AccountAnalyticDistributionModel(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         applicable_models = self._get_applicable_models(vals)
 
         res = {}
         applied_plans = self.env['account.analytic.plan']
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -975,6 +978,9 @@ class AccountAnalyticDistributionModel(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

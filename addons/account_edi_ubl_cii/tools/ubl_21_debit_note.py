@@ -3,6 +3,10 @@
 
 import odoo.addons.account_edi_ubl_cii.tools.ubl_21_common as cac
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import odoo.addons.account_edi_ubl_cii.tools.ubl_21_extensions as ext
+>>>>>>> upstream/18.0
 =======
 import odoo.addons.account_edi_ubl_cii.tools.ubl_21_extensions as ext
 >>>>>>> upstream/18.0
@@ -30,7 +34,11 @@ DebitNoteLine = {
 DebitNote = {
     '_tag': 'DebitNote',
 <<<<<<< HEAD
+<<<<<<< HEAD
     'ext:UBLExtensions': {},
+=======
+    'ext:UBLExtensions': ext.UBLExtensions,
+>>>>>>> upstream/18.0
 =======
     'ext:UBLExtensions': ext.UBLExtensions,
 >>>>>>> upstream/18.0

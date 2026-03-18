@@ -188,11 +188,14 @@ class L10nInTestInvoicingCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         cls.outside_in_company = cls._create_company(
             name='Outside India Company',
             country_id=cls.country_us.id,
         )
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -668,6 +671,9 @@ class L10nInTestInvoicingCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1190,6 +1196,7 @@ class L10nInTestInvoicingCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1236,6 +1243,8 @@ class L10nInTestInvoicingCommon(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1760,6 +1769,9 @@ class L10nInTestInvoicingCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2109,6 +2121,7 @@ class L10nInTestInvoicingCommon(AccountTestInvoicingCommon):
             # No state_id defined
         })
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2673,6 +2686,8 @@ class L10nInTestInvoicingCommon(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         # === Taxes === #
         AccountChartTemplate = cls.env['account.chart.template']
         cls.sgst_sale_5 = AccountChartTemplate.ref('sgst_sale_5')
@@ -2855,6 +2870,7 @@ class L10nInTestInvoicingCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2893,6 +2909,9 @@ class L10nInTestInvoicingCommon(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        cls.igst_sale_18_sez_exp_inc = cls.igst_sale_18_sez_exp.copy({'price_include_override': 'tax_included'})
 >>>>>>> upstream/18.0
 =======
         cls.igst_sale_18_sez_exp_inc = cls.igst_sale_18_sez_exp.copy({'price_include_override': 'tax_included'})
@@ -3580,7 +3599,10 @@ class L10nInTestInvoicingCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4146,6 +4168,7 @@ class L10nInTestInvoicingCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4176,6 +4199,8 @@ class L10nInTestInvoicingCommon(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4724,6 +4749,7 @@ class L10nInTestInvoicingCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4764,6 +4790,8 @@ class L10nInTestInvoicingCommon(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5223,6 +5251,9 @@ class L10nInTestInvoicingCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

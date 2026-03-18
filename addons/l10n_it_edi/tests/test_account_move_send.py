@@ -156,6 +156,7 @@ from odoo.addons.account.tests.test_account_move_send import TestAccountMoveSend
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.l10n_it_edi.tests.common import TestItEdi
 
 @tagged('post_install_l10n', 'post_install', '-at_install')
@@ -911,6 +912,8 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 from odoo.addons.account_edi_proxy_client.models.account_edi_proxy_user import AccountEdiProxyError
 from odoo.addons.l10n_it_edi.tests.common import TestItEdi
 
@@ -1075,6 +1078,9 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1385,6 +1391,7 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
             invoices |= super().init_invoice(
                 "out_invoice",
                 partner=partner,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2972,6 +2979,11 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
                 amounts=[1000],
                 taxes=taxes or self.default_tax,
 >>>>>>> upstream/18.0
+=======
+                company=company or self.company,
+                amounts=[1000],
+                taxes=taxes or self.default_tax,
+>>>>>>> upstream/18.0
                 post=True)
         return invoices
 
@@ -3135,7 +3147,10 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3597,6 +3612,9 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4260,7 +4278,10 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4973,7 +4994,11 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with patch('odoo.addons.l10n_it_edi.models.account_move.AccountMove._l10n_it_edi_upload', return_value={}, autospec=True) as mock_check:
+=======
+        with patch('odoo.addons.l10n_it_edi.models.account_move.AccountMove._l10n_it_edi_upload_single', return_value={}, autospec=True) as mock_check:
+>>>>>>> upstream/18.0
 =======
         with patch('odoo.addons.l10n_it_edi.models.account_move.AccountMove._l10n_it_edi_upload_single', return_value={}, autospec=True) as mock_check:
 >>>>>>> upstream/18.0
@@ -5704,6 +5729,7 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5926,6 +5952,8 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6244,6 +6272,50 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
             self.assertEqual(invoice.l10n_it_edi_state, "processing")
             self.assertEqual(invoice.l10n_it_edi_transaction, success['id_transaction'])
 
+<<<<<<< HEAD
+=======
+    def test_pa_state_keeps_updating_after_sdi_validation(self):
+        """
+        Ensure that the PA state is fetched from the server even when the SDI validation is passed
+        """
+        invoice = self.init_invoice(self.italian_partner_b)
+        self.assertTrue(invoice.l10n_it_partner_is_public_administration)
+        invoice.l10n_it_origin_document_type = 'purchase_order'
+        self.generate_l10n_it_edi_send_attachments(invoice)
+        success = {
+            'id_transaction': "SDI ID 1",
+            'signed': False,
+            'signed_data': False,
+        }
+        l10n_it_move = 'odoo.addons.l10n_it_edi.models.account_move.AccountMove'
+        with patch(f'{l10n_it_move}._l10n_it_edi_upload_single', return_value=success) as mock_check:
+            attachments_vals = {invoice: {'name': invoice.l10n_it_edi_attachment_id.name, 'raw': invoice.l10n_it_edi_attachment_file}}
+            results = invoice._l10n_it_edi_send(attachments_vals)
+
+            self.assertEqual(mock_check.call_count, 1)
+            self.assertEqual(results, {invoice.l10n_it_edi_attachment_id.name: success})
+            self.assertEqual(invoice.l10n_it_edi_state, "processing")
+            self.assertEqual(invoice.l10n_it_edi_transaction, success['id_transaction'])
+
+            invoice.l10n_it_edi_state = 'forwarded'
+            self.assertRecordValues(invoice, [
+                {
+                    'l10n_it_edi_state': 'forwarded',
+                    'l10n_it_partner_is_public_administration': True,
+                },
+            ])
+
+            with (
+                patch(f'{l10n_it_move}._l10n_it_edi_update_send_state', autospec=True) as update_send_state,
+                patch(f'{l10n_it_move}._l10n_it_edi_download_invoices')
+            ):
+                invoice.action_check_l10n_it_edi()
+                update_send_state.assert_called_once()
+
+                invoice.cron_l10n_it_edi_download_and_update()
+                self.assertEqual(update_send_state.call_count, 2)
+
+>>>>>>> upstream/18.0
     def test_l10n_it_edi_send_proxy_error(self):
         invoice = self.init_invoice(self.italian_partner_a)
         self.generate_l10n_it_edi_send_attachments(invoice)
@@ -6452,6 +6524,7 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6648,6 +6721,8 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6828,6 +6903,9 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

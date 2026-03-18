@@ -214,7 +214,11 @@ class Binary(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ], type='http', auth='public', readonly=True)
+=======
+    ], type='http', auth='public', readonly=True, save_session=False)
+>>>>>>> upstream/18.0
 =======
     ], type='http', auth='public', readonly=True, save_session=False)
 >>>>>>> upstream/18.0

@@ -187,8 +187,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* website_event_track
 # 
+=======
+# * website_event_track
+#
+>>>>>>> upstream/18.0
 =======
 # * website_event_track
 #
@@ -1194,7 +1199,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Xavier, 2024
+=======
+# Harcogourmet, 2024
+>>>>>>> upstream/18.0
 =======
 # Harcogourmet, 2024
 >>>>>>> upstream/18.0
@@ -2210,6 +2219,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Santiago Payà <santiagopim@gmail.com>, 2025
 >>>>>>> upstream/18.0
@@ -2488,6 +2498,11 @@
 # Santiago Payà <santiagopim@gmail.com>, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# Noemi Pla, 2025
+# Santiago Payà <santiagopim@gmail.com>, 2025
+# "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Noemi Pla, 2025
 # Santiago Payà <santiagopim@gmail.com>, 2025
@@ -3663,6 +3678,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:41+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 <<<<<<< HEAD
@@ -4456,6 +4472,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2026-02-20 18:39+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2026-02-20 18:39+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-09-04 16:45+0000\n"
 "Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@odoo.com>\n"
 "Language-Team: Catalan <https://translate.odoo.com/projects/odoo-18/"
@@ -4652,6 +4671,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5103,6 +5125,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    Dear <t t-out=\"object.partner_id.name or object.partner_name or ''\">Brandon Freeman</t><br/>\n"
 "    We are pleased to inform you that your proposal <t t-out=\"object.name or ''\">What This Event Is All About</t> has been accepted and confirmed for the event <t t-out=\"object.event_id.name or ''\">OpenWood Collection Online Reveal</t>.\n"
 "    <br/>\n"
@@ -5110,6 +5133,8 @@ msgid ""
 "    <div style=\"margin: 16px 0px 16px 0px;\">\n"
 "        <a t-attf-href=\"/event/{{ object.event_id.id }}/track/{{ object.id }}\" style=\"padding: 8px 16px 8px 16px; font-size: 14px; color: #FFFFFF; text-decoration: none !important; background-color: #875A7B; border: 0px solid #875A7B; border-radius:3px\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5339,6 +5364,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5491,6 +5519,7 @@ msgid ""
 "    Thank you,\n"
 "    <t t-if=\"user.signature\" data-o-mail-quote-container=\"1\">\n"
 "        <br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6243,6 +6272,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-"
 "o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 "    </t>\n"
@@ -6333,6 +6364,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6485,6 +6519,7 @@ msgstr ""
 "    Gràcies,\n"
 "    <t t-if=\"user.signature\" data-o-mail-quote-container=\"1\">\n"
 "        <br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7448,6 +7483,11 @@ msgstr ""
 "o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 "    </t>\n"
 >>>>>>> upstream/18.0
+=======
+"        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-"
+"o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+"    </t>\n"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #. odoo-python
@@ -7566,6 +7606,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:website_event_track.res_config_settings_view_form
 msgid ""
 "<span class=\"fa fa-lg fa-globe\" title=\"Values set here are website-"
@@ -7623,6 +7664,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:website_event_track.agenda_online
 #: model_terms:ir.ui.view,arch_db:website_event_track.tracks_main
 msgid "<span class=\"fa fa-plus me-1\"/> Schedule Tracks"
@@ -7632,6 +7675,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
 msgid ""
 "<span class=\"o_wetrack_proposal_error_section text-danger d-none ml8\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7852,6 +7896,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                    <i class=\"fa fa-close mr4\" "
 "role=\"img\" aria-label=\"Error\" title=\"Error\"/>\n"
 "                                    <span "
@@ -7928,6 +7974,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8219,7 +8268,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 " * Green indica que la pista està preparada per ser estirada a la següent etapa"
+=======
+" * Green indica que la pista està preparada per ser estirada a la següent "
+"etapa"
+>>>>>>> upstream/18.0
 =======
 " * Green indica que la pista està preparada per ser estirada a la següent "
 "etapa"
@@ -8640,8 +8694,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Afegeixi etiquetes als seus enregistraments per a ajudar els seus assistents"
 " a navegar en la seva pàgina web d'esdeveniments."
+=======
+"Afegeixi etiquetes als seus enregistraments per a ajudar els seus assistents "
+"a navegar en la seva pàgina web d'esdeveniments."
+>>>>>>> upstream/18.0
 =======
 "Afegeixi etiquetes als seus enregistraments per a ajudar els seus assistents "
 "a navegar en la seva pàgina web d'esdeveniments."
@@ -9090,6 +9149,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "As you may have heard before, making your own furniture is actually not as difficult or as complicated as you think.\n"
 "    In fact, some projects are so easy anyone could successfully complete them. For example, making a cute stool out of\n"
 "    a old tire is a real piece of cake and if you’re in need of a coffee table you can easily put one together using\n"
@@ -9099,6 +9159,8 @@ msgstr ""
 "    De fet, alguns projectes són tan fàcils que qualsevol podria completar-los amb èxit. Per exemple, fent un tamboret bonic a partir de\n"
 "    un pneumàtic vell és un tros de pastís i si necessites una taula de cafè, pots muntar-ne una fàcilment utilitzant-la\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9329,6 +9391,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9802,7 +9867,11 @@ msgid "Coming soon ..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pròximament ..."
+=======
+msgstr "Pròximament..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Pròximament..."
 >>>>>>> upstream/18.0
@@ -10898,7 +10967,11 @@ msgid "Event Wrapup"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ajustament d'esdeveniments"
+=======
+msgstr "Ajust d'esdeveniments"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ajust d'esdeveniments"
 >>>>>>> upstream/18.0
@@ -11715,7 +11788,11 @@ msgid "First Day Wrapup"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ajustament del primer dia"
+=======
+msgstr "Resum del primer dia"
+>>>>>>> upstream/18.0
 =======
 msgstr "Resum del primer dia"
 >>>>>>> upstream/18.0
@@ -12313,6 +12390,7 @@ msgstr "Icona Font Awesome p.e. fa-tasks"
 #. module: website_event_track
 #: model:event.track.tag.category,name:website_event_track.event_track_tag_category_2
 msgid "Format"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13350,6 +13428,9 @@ msgstr "Format"
 =======
 msgstr "Format"
 >>>>>>> upstream/18.0
+=======
+msgstr "Format"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_stage__is_fully_accessible
@@ -13606,12 +13687,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If set, the talk will be set as favorite for each attendee registered to the"
 " event."
 msgstr ""
 "Si s'estableix, la conversa s'establirà com a preferida per a cada assistent"
 " registrat a l'esdeveniment."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13833,6 +13917,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14098,6 +14185,7 @@ msgstr "Lloc de treball"
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
 msgid "Job Title"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14863,6 +14951,9 @@ msgstr "Títol del treball"
 =======
 msgstr "Títol del treball"
 >>>>>>> upstream/18.0
+=======
+msgstr "Títol del treball"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__legend_blocked
@@ -15024,8 +15115,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "bloqueig. Estimeu projectes senzills i de tipus de transformació com aquest!"
 " :)-"
+=======
+"bloqueig. Estimeu projectes senzills i de tipus de transformació com "
+"aquest! :)-"
+>>>>>>> upstream/18.0
 =======
 "bloqueig. Estimeu projectes senzills i de tipus de transformació com "
 "aquest! :)-"
@@ -15655,8 +15751,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Introduïu una adreça de correu electrònic de contacte o un número de telèfon"
 " de contacte."
+=======
+"Introduïu una adreça de correu electrònic de contacte o un número de telèfon "
+"de contacte."
+>>>>>>> upstream/18.0
 =======
 "Introduïu una adreça de correu electrònic de contacte o un número de telèfon "
 "de contacte."
@@ -16057,8 +16158,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "començar a treballar la fusta! En aquest vídeo comparteixo amb vosaltres "
 "com/per què vaig començar a construir mobles!"
+=======
+"començar a treballar la fusta! En aquest vídeo comparteixo amb vosaltres com/"
+"per què vaig començar a construir mobles!"
+>>>>>>> upstream/18.0
 =======
 "començar a treballar la fusta! En aquest vídeo comparteixo amb vosaltres com/"
 "per què vaig començar a construir mobles!"
@@ -16561,8 +16667,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Enviat a altaveus la proposta dels quals s'accepta (establiu la plantilla en"
 " l'etapa correcta)"
+=======
+"Enviat a altaveus la proposta dels quals s'accepta (establiu la plantilla en "
+"l'etapa correcta)"
+>>>>>>> upstream/18.0
 =======
 "Enviat a altaveus la proposta dels quals s'accepta (establiu la plantilla en "
 "l'etapa correcta)"
@@ -17150,8 +17261,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Hi ha un munt d'idees que val la pena explorar, així que comencem amb les 10"
 " idees de mobles per a principiants absoluts."
+=======
+"Hi ha un munt d'idees que val la pena explorar, així que comencem amb les 10 "
+"idees de mobles per a principiants absoluts."
+>>>>>>> upstream/18.0
 =======
 "Hi ha un munt d'idees que val la pena explorar, així que comencem amb les 10 "
 "idees de mobles per a principiants absoluts."
@@ -17521,12 +17637,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "There are several variants of wood is available in the world but we are talking about most expensive\n"
 "    ones in the world and keeping to the point we have arranged ten most expensive wood."
 msgstr ""
 "Hi ha diverses variants de fusta disponibles en el món, però estem parlant del més car\n"
 "    Uns altres del món i mantenint el punt que hem disposat deu fusta més cara."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17752,6 +17871,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17986,8 +18108,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "They will be created automatically once attendees start browsing your "
 "events."
+=======
+"They will be created automatically once attendees start browsing your events."
+>>>>>>> upstream/18.0
 =======
 "They will be created automatically once attendees start browsing your events."
 >>>>>>> upstream/18.0
@@ -18290,8 +18416,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Aquest camp conté la imatge utilitzada com a icona d'aplicació mòbil al lloc"
 " web (format PNG)."
+=======
+"Aquest camp conté la imatge utilitzada com a icona d'aplicació mòbil al lloc "
+"web (format PNG)."
+>>>>>>> upstream/18.0
 =======
 "Aquest camp conté la imatge utilitzada com a icona d'aplicació mòbil al lloc "
 "web (format PNG)."
@@ -18723,12 +18854,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Top most expensive wood in the world is quite interesting topic and several people may be surprised\n"
 "    that there are hundreds of wood types exist around the globe following different properties and use."
 msgstr ""
 "La fusta més cara del món és un tema molt interessant i diverses persones poden estar sorpreses\n"
 "    que hi ha centenars de tipus de fusta a tot el món seguint diferents propietats i usos."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18954,6 +19088,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19514,7 +19651,10 @@ msgstr "Missatges sense llegir"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19992,6 +20132,7 @@ msgid "Unsupported 'Not In' operation on track wishlist visitors"
 msgstr ""
 
 #. module: website_event_track
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20706,6 +20847,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:event.track,description:website_event_track.event_7_track_6
 msgid ""
 "Use these simple steps to easily haul LONG lumber in a short box pickup "
@@ -20793,6 +20936,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21015,12 +21161,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Using a unique wrapping method for a tie down strap (NOT Bungee cords!!!) allows lumber to be\n"
 "    cinched securely WITHOUT the need to tie and untie tricky or complicated knots."
 msgstr ""
 "L'ús d'un únic mètode d'embolcall per a una corretja de desempat (NO cordons Bungee!!!) permet que la fusta sigui\n"
 "    Es va esquinçar amb seguretat sense la necessitat de lligar i deslligar nusos complicats o difícils."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21246,6 +21395,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21344,6 +21494,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21418,6 +21570,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21750,8 +21905,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Heu d'habilitar les notificacions emergents per a obtenir recordatoris per a"
 " les vostres pistes preferides."
+=======
+"Heu d'habilitar les notificacions emergents per a obtenir recordatoris per a "
+"les vostres pistes preferides."
+>>>>>>> upstream/18.0
 =======
 "Heu d'habilitar les notificacions emergents per a obtenir recordatoris per a "
 "les vostres pistes preferides."
@@ -22147,7 +22307,10 @@ msgstr "comença el"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22224,6 +22387,9 @@ msgstr "comença el"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

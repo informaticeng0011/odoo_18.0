@@ -215,6 +215,10 @@ registry.category("web_tour.tours").add('website_event_booth_tour', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -1035,6 +1039,10 @@ registry.category("web_tour.tours").add('website_event_booth_tour', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -1862,6 +1870,10 @@ registry.category("web_tour.tours").add('website_event_booth_tour', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -2689,6 +2701,10 @@ registry.category("web_tour.tours").add('website_event_booth_tour', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -3308,6 +3324,13 @@ registry.category("web_tour.tours").add('website_event_booth_tour', {
     total: '220.00',
 }),
 wsTourUtils.goToCheckout(),
+<<<<<<< HEAD
+=======
+{
+    content: 'Confirm Order page',
+    trigger: 'h3:contains("Confirm order")',
+},
+>>>>>>> upstream/18.0
 ...wsTourUtils.assertCartAmounts({
     taxes: '20.00',
     untaxed: '200.00',

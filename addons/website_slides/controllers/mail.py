@@ -161,6 +161,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from lxml import etree, html
+from markupsafe import Markup
+>>>>>>> upstream/18.0
 =======
 from lxml import etree, html
 from markupsafe import Markup
@@ -1008,8 +1013,11 @@ class SlidesPortalChatter(PortalChatter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         message_body = plaintext2html(post_data.get('body', ''))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1496,6 +1504,9 @@ class SlidesPortalChatter(PortalChatter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

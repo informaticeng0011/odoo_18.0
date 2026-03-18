@@ -278,6 +278,11 @@ class StockPicking(models.Model):
             domain = expression.AND([domain, [('picking_ids.location_id', '=', self.location_id.id)]])
         if self.picking_type_id.batch_group_by_dest_loc:
             domain = expression.AND([domain, [('picking_ids.location_dest_id', '=', self.location_dest_id.id)]])
+<<<<<<< HEAD
+=======
+        if self.env.context.get('batches_to_validate'):
+            domain = expression.AND([domain, [('id', 'not in', self.env.context.get('batches_to_validate'))]])
+>>>>>>> upstream/18.0
 
         return domain
 
@@ -487,7 +492,10 @@ class StockPicking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1050,6 +1058,9 @@ class StockPicking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

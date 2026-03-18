@@ -14,6 +14,10 @@ class AccountChartTemplate(models.AbstractModel):
             'property_account_expense_categ_id': 'co_puc_610000',
             'property_account_income_categ_id': 'co_puc_417500',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'property_stock_valuation_account_id': 'co_puc_140500',
+>>>>>>> upstream/18.0
 =======
             'property_stock_valuation_account_id': 'co_puc_140500',
 >>>>>>> upstream/18.0

@@ -324,6 +324,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <field name="l10n_it_edi_is_self_invoice" invisible="1"/>
                     <field name="l10n_it_edi_attachment_id" invisible="1"/>
 =======
@@ -401,6 +402,10 @@
 =======
                     <field name="l10n_it_edi_is_self_invoice" invisible="1"/> <!-- TODO: to be removed in master -->
                     <field name="l10n_it_edi_attachment_id" invisible="1"/> <!-- TODO: to be removed in master -->
+>>>>>>> upstream/18.0
+=======
+                    <field name="l10n_it_edi_is_self_invoice" invisible="1"/>
+                    <field name="l10n_it_edi_attachment_id" invisible="1"/>
 >>>>>>> upstream/18.0
 =======
                     <field name="l10n_it_edi_is_self_invoice" invisible="1"/>
@@ -1169,7 +1174,12 @@
                         string="Check Sending"
                         class="oe_highlight"
                         data-hotkey="shift+K"
+<<<<<<< HEAD
                         invisible="l10n_it_edi_state not in ('being_sent', 'processing', 'forward_attempt')"
+=======
+                        invisible="l10n_it_edi_state not in ('being_sent', 'processing', 'forward_attempt', 'forwarded')
+                                   or (l10n_it_edi_state == 'forwarded' and not l10n_it_partner_is_public_administration)"
+>>>>>>> upstream/18.0
                     />
                 </xpath>
                 <xpath expr="//page[@name='other_info']" position="after">
@@ -1183,6 +1193,7 @@
                                 <field name="l10n_it_stamp_duty" readonly="state != 'draft'"/>
                                 <field name="l10n_it_ddt_id" readonly="state != 'draft'" invisible="move_type not in ('out_invoice', 'out_refund')"/>
                             </group>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1447,6 +1458,9 @@
 >>>>>>> upstream/18.0
 =======
                             <field name="l10n_it_partner_pa" invisible="1"/> <!-- TODO: to be removed in master -->
+>>>>>>> upstream/18.0
+=======
+                            <field name="l10n_it_partner_pa" invisible="1"/>
 >>>>>>> upstream/18.0
 =======
                             <field name="l10n_it_partner_pa" invisible="1"/>

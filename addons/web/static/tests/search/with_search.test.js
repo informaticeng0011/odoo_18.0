@@ -255,7 +255,10 @@ class Animal extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -999,6 +1002,7 @@ test("load search view description if not provided and loadSearchView=true", asy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(kwargs).toEqual({
             context: {
                 allowed_company_ids: [1],
@@ -1006,6 +1010,9 @@ test("load search view description if not provided and loadSearchView=true", asy
                 tz: "taht",
                 uid: 7,
             },
+=======
+        expect(kwargs).toMatchObject({
+>>>>>>> upstream/18.0
 =======
         expect(kwargs).toMatchObject({
 >>>>>>> upstream/18.0

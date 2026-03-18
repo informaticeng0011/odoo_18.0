@@ -32,6 +32,10 @@ from odoo.addons.l10n_in.models.iap_account import IAP_SERVICE_NAME
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.osv import expression
+>>>>>>> upstream/18.0
 =======
 from odoo.osv import expression
 >>>>>>> upstream/18.0
@@ -173,7 +177,10 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -302,6 +309,9 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

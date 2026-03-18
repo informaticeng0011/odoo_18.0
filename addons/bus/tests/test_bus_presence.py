@@ -1,6 +1,11 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import json
+
+>>>>>>> upstream/18.0
 =======
 import json
 
@@ -11,6 +16,10 @@ from freezegun import freeze_time
 from odoo.tests import HttpCase, tagged, new_test_user
 from ..models.bus_presence import PRESENCE_OUTDATED_TIMER
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.bus.models.bus import channel_with_db, json_dump
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.bus.models.bus import channel_with_db, json_dump
 >>>>>>> upstream/18.0
@@ -40,7 +49,10 @@ class TestBusPresence(HttpCase):
         )
         self.assertEqual(bob_user.im_status, "online")
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_unlinking_sends_correct_im_status(self):
         bob = new_test_user(self.env, login="bob_userg", groups="base.group_user")
@@ -55,4 +67,7 @@ class TestBusPresence(HttpCase):
         )
         self.assertEqual(json.loads(bus_notif.message)["payload"]["presence_status"], "offline")
         self.assertEqual(json.loads(bus_notif.message)["payload"]["im_status"], "offline")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

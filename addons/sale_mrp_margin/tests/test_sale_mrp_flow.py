@@ -51,7 +51,10 @@ class TestSaleMrpFlow(test_sale_mrp_flow.TestSaleMrpFlowCommon):
         so.action_confirm()
         self.assertEqual(so.order_line.purchase_price, 60)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_kit_cost_calculation_multi_qty_bom(self):
         """ Check that the average cost price is correctly normalized by bom.product_qty.
@@ -89,4 +92,7 @@ class TestSaleMrpFlow(test_sale_mrp_flow.TestSaleMrpFlowCommon):
         so = so_form.save()
         so.action_confirm()
         self.assertEqual(so.order_line.purchase_price, 30)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
