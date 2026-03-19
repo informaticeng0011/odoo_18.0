@@ -195,7 +195,11 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         string='MyDATA Default Tax Exemption Category',
+=======
+        string='Default Tax Exemption Category',
+>>>>>>> upstream/18.0
 =======
         string='Default Tax Exemption Category',
 >>>>>>> upstream/18.0

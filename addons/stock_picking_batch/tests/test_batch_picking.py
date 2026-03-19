@@ -292,7 +292,10 @@ class TestBatchPicking(TransactionCase):
         self.assertFalse(sum(quant_B.mapped('quantity')))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_batch_with_backorder_wizard_partially_done(self):
         """ Validate a batch when only one picking has done quantities.
             Scenario:
@@ -348,6 +351,9 @@ class TestBatchPicking(TransactionCase):
         self.assertEqual(pickings[0].move_ids.product_uom_qty, 4, 'initial demand should be 4 after picking split')
         self.assertTrue(self.env['stock.picking'].search([('backorder_id', '=', pickings[0].id)]), 'no back order created')
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_batch_with_immediate_transfer_and_backorder_wizard_with_manual_operations(self):
         """ Test a simple batch picking with only one quantity fully available.
@@ -677,7 +683,10 @@ class TestBatchPicking(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -855,6 +864,9 @@ class TestBatchPicking(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

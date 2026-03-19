@@ -91,7 +91,11 @@ import publicWidget from "@web/legacy/js/public/public_widget";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { deserializeDateTime } from "@web/core/l10n/dates";
+=======
+import { deserializeDate } from "@web/core/l10n/dates";
+>>>>>>> upstream/18.0
 =======
 import { deserializeDate } from "@web/core/l10n/dates";
 >>>>>>> upstream/18.0
@@ -473,7 +477,11 @@ var PortalSidebar = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             var dateTime = deserializeDateTime($(el).attr('datetime')).startOf('day'),
+=======
+            var dateTime = deserializeDate($(el).attr('datetime')).startOf('day'),
+>>>>>>> upstream/18.0
 =======
             var dateTime = deserializeDate($(el).attr('datetime')).startOf('day'),
 >>>>>>> upstream/18.0

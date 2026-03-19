@@ -310,7 +310,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <span t-if="isDomainSelected">All <b t-esc="nbTotal"/> selected</span>
+=======
+                <span t-if="isDomainSelected">All <b><t t-esc="nbTotal"/><t t-if="model.root.hasLimitedCount">+</t></b> selected</span>
+>>>>>>> upstream/18.0
 =======
                 <span t-if="isDomainSelected">All <b><t t-esc="nbTotal"/><t t-if="model.root.hasLimitedCount">+</t></b> selected</span>
 >>>>>>> upstream/18.0
@@ -1086,7 +1090,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         Select all <span t-if="model.root.isRecordCountTrustable" t-esc="nbTotal"/>
+=======
+                        Select all <span t-if="model.root.isRecordCountTrustable"><t t-esc="nbTotal"/><t t-if="model.root.hasLimitedCount">+</t></span>
+>>>>>>> upstream/18.0
 =======
                         Select all <span t-if="model.root.isRecordCountTrustable"><t t-esc="nbTotal"/><t t-if="model.root.hasLimitedCount">+</t></span>
 >>>>>>> upstream/18.0

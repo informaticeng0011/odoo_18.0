@@ -7,6 +7,10 @@ Updated:
     2021-03-02
     2025-03-06
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    2025-10-07
+>>>>>>> upstream/18.0
 =======
     2025-10-07
 >>>>>>> upstream/18.0
@@ -28,12 +32,15 @@ List of contributors:
 *  Lara Freeke lfreeke@therp.nl https://github.com/lfreeke
 *  Ronald Portier ronald@therp.nl https://github.com/nl66278
 <<<<<<< HEAD
+<<<<<<< HEAD
 *  George Daramouskas gdaramouskas@therp.nl https://github.com/daramousk
 *  Nikos Tsirintanis ntsirintanis@therp.nl https://github.com/ntsirintanis
 *  Jan Verbeek jverbeek@therp.nl https://github.com/janverb
 *  Danny de Jong ddejong@therp.nl https://github.com/ddejong-therp
 
 =======
+=======
+>>>>>>> upstream/18.0
 *  George Daramouskas gdaramouskas@therp.nl https://github.com/daramousk (up to 2019-10-31)
 *  Nikos Tsirintanis ntsirintanis@therp.nl https://github.com/ntsirintanis
 *  Jan Verbeek jverbeek@therp.nl https://github.com/janverb (up to 2021-08-31)
@@ -42,4 +49,7 @@ List of contributors:
 *  Gijs-Jan Otten gjotten@therp.nl https://github.com/gjotten
 *  Dan Kiplangat dkiplangat@therp.nl https://github.com/kiplangatdan
 *  Kevin Kahumba kkahumba@therp.nl https://github.com/kkamaa
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -52,7 +52,10 @@ class TestSaleMrpFlow(test_sale_mrp_flow.TestSaleMrpFlowCommon):
         self.assertEqual(so.order_line.purchase_price, 60)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -93,6 +96,9 @@ class TestSaleMrpFlow(test_sale_mrp_flow.TestSaleMrpFlowCommon):
         so.action_confirm()
         self.assertEqual(so.order_line.purchase_price, 30)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

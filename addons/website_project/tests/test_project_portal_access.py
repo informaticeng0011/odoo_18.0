@@ -45,6 +45,10 @@ from re import search
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo import http
+>>>>>>> upstream/18.0
 =======
 from odoo import http
 >>>>>>> upstream/18.0
@@ -247,7 +251,10 @@ class TestProjectPortalAccess(TestProjectSharingCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -396,6 +403,9 @@ class TestProjectPortalAccess(TestProjectSharingCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

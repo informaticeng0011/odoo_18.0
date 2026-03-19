@@ -309,7 +309,12 @@ class LunchSupplier(models.Model):
         fieldname = WEEKDAY_TO_NAME[date.weekday()]
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return not (self.recurrency_end_date and date.date() >= self.recurrency_end_date) and self[fieldname]
+=======
+        date = fields.Date.to_date(date)
+        return not (self.recurrency_end_date and date >= self.recurrency_end_date) and self[fieldname]
+>>>>>>> upstream/18.0
 =======
         date = fields.Date.to_date(date)
         return not (self.recurrency_end_date and date >= self.recurrency_end_date) and self[fieldname]

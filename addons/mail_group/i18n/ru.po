@@ -167,6 +167,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* mail_group
 # 
 # Translators:
@@ -262,6 +263,8 @@
 >>>>>>> upstream/18.0
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -768,6 +771,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1105,6 +1111,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1932,6 +1939,10 @@ msgstr ""
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2025-10-14 05:46+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2025-10-14 05:46+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-18/"
 "mail_group/ru/>\n"
@@ -1940,6 +1951,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2664,11 +2676,17 @@ msgstr ""
 "(n%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
+=======
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_message_reject_form
 msgid ") <span invisible=\"not send_email\">and send them an email</span>."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3041,6 +3059,10 @@ msgstr ""
 ") <span invisible=\"not send_email\">и отправьте им электронное письмо</"
 "span>."
 >>>>>>> upstream/18.0
+=======
+") <span invisible=\"not send_email\">и отправьте им электронное письмо</"
+"span>."
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.confirmation_subscription
@@ -3053,6 +3075,7 @@ msgstr ""
 msgid ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "                Hello,<br/><br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3568,6 +3591,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                You have requested to be subscribed to the mailing list "
 "<strong t-out=\"object.name or ''\"/>.\n"
 "                <br/><br/>\n"
@@ -3662,6 +3687,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3980,6 +4008,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4319,6 +4350,7 @@ msgstr ""
 msgid ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "                Hello,<br/><br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4834,6 +4866,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                You have requested to be unsubscribed to the mailing list "
 "<strong t-out=\"object.name or ''\"/>.\n"
 "                <br/><br/>\n"
@@ -4928,6 +4962,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5246,6 +5283,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5585,6 +5625,7 @@ msgstr ""
 msgid ""
 "<div>\n"
 "                <p>Hello <t t-out=\"object.partner_id.name or ''\"/>,</p>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6384,6 +6425,8 @@ msgid "<i class=\"fa fa-envelope-o me-1\" role=\"img\" aria-label=\"Alias\" titl
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                <p>Please find below the guidelines of the <t t-"
 "out=\"object.mail_group_id.name\"/> mailing list.</p>\n"
 "                <p><t t-out=\"object.mail_group_id.moderation_guidelines_msg "
@@ -6486,6 +6529,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6713,9 +6759,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-envelope-o\" role=\"img\" aria-label=\"Alias\" title=\"Alias\"/>"
 msgstr "<i class=\"fa fa-envelope-o\" role=\"img\" aria-label=\"Alias\" title=\"Alias\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6941,6 +6990,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7193,12 +7245,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"oi oi-chevron-down\" role=\"img\" aria-label=\"Show attachments\""
 " title=\"Show attachments\"/>"
 msgstr ""
 "<i class=\"oi oi-chevron-down\" role=\"img\" aria-label=\"Show attachments\""
 " title=\"Show attachments\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7423,6 +7478,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7680,12 +7738,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"ms-2 badge text-bg-success\" invisible=\"author_moderation != 'allow'\">Whitelisted</span>\n"
 "                            <span class=\"ms-2 badge text-bg-danger\" invisible=\"author_moderation != 'ban'\">Banned</span>"
 msgstr ""
 "<span class=\"ms-2 badge text-bg-success\" invisible=\"author_moderation != 'allow'\">Внесен в белый список</span>\n"
 "                            <span class=\"ms-2 badge text-bg-danger\" invisible=\"author_moderation != 'ban'\">Запрещено</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7914,6 +7975,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8296,8 +8360,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Author of the message. If not set, email_from may hold an email address that"
 " did not match any partner."
+=======
+"Author of the message. If not set, email_from may hold an email address that "
+"did not match any partner."
+>>>>>>> upstream/18.0
 =======
 "Author of the message. If not set, email_from may hold an email address that "
 "did not match any partner."
@@ -8887,7 +8956,11 @@ msgid "Created by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Создано:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создано:"
 >>>>>>> upstream/18.0
@@ -9647,7 +9720,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Дата создания:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата создания:"
 >>>>>>> upstream/18.0
@@ -10445,8 +10522,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "ID of the parent record holding the alias (example: project holding the task"
 " creation alias)"
+=======
+"ID of the parent record holding the alias (example: project holding the task "
+"creation alias)"
+>>>>>>> upstream/18.0
 =======
 "ID of the parent record holding the alias (example: project holding the task "
 "creation alias)"
@@ -11001,7 +11083,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Последнее обновление:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Последнее обновление:"
 >>>>>>> upstream/18.0
@@ -11766,7 +11852,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Дата последнего обновления:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата последнего обновления:"
 >>>>>>> upstream/18.0
@@ -12666,8 +12756,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "oi-arrow-down float-end\" role=\"img\" aria-label=\"\" title=\"Read this "
 "!\"/>"
+=======
+"oi-arrow-down float-end\" role=\"img\" aria-label=\"\" title=\"Read this !\"/"
+">"
+>>>>>>> upstream/18.0
 =======
 "oi-arrow-down float-end\" role=\"img\" aria-label=\"\" title=\"Read this !\"/"
 ">"
@@ -13043,8 +13138,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Новички в этой модерируемой группе автоматически получают руководство."
+=======
+msgstr "Новички в этой модерируемой группе автоматически получают руководство."
+>>>>>>> upstream/18.0
 =======
 msgstr "Новички в этой модерируемой группе автоматически получают руководство."
 >>>>>>> upstream/18.0
@@ -13407,9 +13506,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Необязательный идентификатор потока (записи), к которому будут прикрепляться"
 " все входящие сообщения, даже если на них не было ответа. Если установить "
 "это значение, то создание новых записей будет полностью запрещено."
+=======
+"Необязательный идентификатор потока (записи), к которому будут прикрепляться "
+"все входящие сообщения, даже если на них не было ответа. Если установить это "
+"значение, то создание новых записей будет полностью запрещено."
+>>>>>>> upstream/18.0
 =======
 "Необязательный идентификатор потока (записи), к которому будут прикрепляться "
 "все входящие сообщения, даже если на них не было ответа. Если установить это "
@@ -13873,8 +13978,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Parent model holding the alias. The model holding the alias reference is not"
 " necessarily the model given by alias_model_id (example: project "
+=======
+"Parent model holding the alias. The model holding the alias reference is not "
+"necessarily the model given by alias_model_id (example: project "
+>>>>>>> upstream/18.0
 =======
 "Parent model holding the alias. The model holding the alias reference is not "
 "necessarily the model given by alias_model_id (example: project "
@@ -14296,7 +14406,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- followers: only followers of the related document or members of following channels\n"
+=======
+"- followers: only followers of the related document or members of following "
+"channels\n"
+>>>>>>> upstream/18.0
 =======
 "- followers: only followers of the related document or members of following "
 "channels\n"
@@ -14671,7 +14786,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- последователи: только последователи связанного документа или участники следующих каналов\n"
+=======
+"- последователи: только последователи связанного документа или участники "
+"следующих каналов\n"
+>>>>>>> upstream/18.0
 =======
 "- последователи: только последователи связанного документа или участники "
 "следующих каналов\n"
@@ -15225,12 +15345,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Template \"mail_group.mail_template_guidelines\" was not found. No email has"
 " been sent. Please contact an administrator to fix this issue."
 msgstr ""
 "Шаблон \"mail_group.mail_template_guidelines\" не найден. Электронное письмо"
 " не было отправлено. Пожалуйста, свяжитесь с администратором, чтобы решить "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15455,6 +15578,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15721,6 +15847,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
@@ -15729,6 +15856,8 @@ msgstr ""
 "входящая электронная почта, которая не отвечает существующей записи, вызовет"
 " создание новогой записи этой модели (например, Задача Проекта)"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15955,6 +16084,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16255,8 +16387,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Когда люди будут отправлять письма на псевдоним списка, они будут появляться"
 " здесь."
+=======
+"Когда люди будут отправлять письма на псевдоним списка, они будут появляться "
+"здесь."
+>>>>>>> upstream/18.0
 =======
 "Когда люди будут отправлять письма на псевдоним списка, они будут появляться "
 "здесь."
@@ -16649,8 +16786,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Вы можете создать только одно правило для данного адреса электронной почты в"
 " группе."
+=======
+"Вы можете создать только одно правило для данного адреса электронной почты в "
+"группе."
+>>>>>>> upstream/18.0
 =======
 "Вы можете создать только одно правило для данного адреса электронной почты в "
 "группе."
@@ -17077,11 +17219,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <i class=\"fa fa-fw fa-envelope-o\" role=\"img\" aria-label=\"Traffic\" title=\"Traffic\"/>"
 msgstr ""
 "члены<br/>\n"
 "                        <i class=\"fa fa-fw fa-envelope-o\" role=\"img\" aria-label=\"Traffic\" title=\"Traffic\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17307,6 +17452,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

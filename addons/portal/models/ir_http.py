@@ -2,7 +2,12 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import models
+=======
+from odoo import models, api
+from odoo.http import request
+>>>>>>> upstream/18.0
 =======
 from odoo import models, api
 from odoo.http import request
@@ -22,7 +27,10 @@ class IrHttp(models.AbstractModel):
         return mods + ['portal']
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -35,6 +43,9 @@ class IrHttp(models.AbstractModel):
                 result["current_tour"] = self.env["web_tour.tour"].get_current_tour()
         return result
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

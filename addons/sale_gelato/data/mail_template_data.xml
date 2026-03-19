@@ -165,7 +165,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             Your tracking number is <a t-attf-href="tracking_url" t-out="ctx['tracking_data'][tracking_url]"/>.
+=======
+                            Your tracking number is <a t-att-href="tracking_url" t-out="ctx['tracking_data'][tracking_url]"/>.
+>>>>>>> upstream/18.0
 =======
                             Your tracking number is <a t-att-href="tracking_url" t-out="ctx['tracking_data'][tracking_url]"/>.
 >>>>>>> upstream/18.0
@@ -768,7 +772,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <a t-attf-href="{{tracking_url}}" t-out="ctx['tracking_data'][tracking_url]"/>
+=======
+                                    <a t-att-href="tracking_url" t-out="ctx['tracking_data'][tracking_url]"/>
+>>>>>>> upstream/18.0
 =======
                                     <a t-att-href="tracking_url" t-out="ctx['tracking_data'][tracking_url]"/>
 >>>>>>> upstream/18.0

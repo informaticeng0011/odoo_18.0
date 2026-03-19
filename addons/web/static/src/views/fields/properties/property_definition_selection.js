@@ -199,6 +199,7 @@ export class PropertyDefinitionSelection extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (!newLabel || !newLabel.length) {
                 // press enter on an empty option, just ignore it, nothing to save
                 event.stopPropagation();
@@ -209,6 +210,8 @@ export class PropertyDefinitionSelection extends Component {
             this.onOptionChange(event, optionIndex);
             this.onOptionCreate(optionIndex + 1);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -284,6 +287,9 @@ export class PropertyDefinitionSelection extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

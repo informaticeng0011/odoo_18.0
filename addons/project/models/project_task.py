@@ -193,6 +193,10 @@ PROJECT_TASK_READABLE_FIELDS = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'partner_id',
+>>>>>>> upstream/18.0
 =======
     'partner_id',
 >>>>>>> upstream/18.0
@@ -750,7 +754,10 @@ PROJECT_TASK_WRITABLE_FIELDS = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'partner_id',
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1332,7 +1339,11 @@ class Task(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         stage_ids = stages.sudo()._search(search_domain, order=stages._order)
+=======
+        stage_ids = stages._search(search_domain, order=stages._order)
+>>>>>>> upstream/18.0
 =======
         stage_ids = stages._search(search_domain, order=stages._order)
 >>>>>>> upstream/18.0
@@ -2366,7 +2377,11 @@ class Task(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     website_message_ids = fields.One2many(domain=lambda self: [('model', '=', self._name), ('message_type', 'in', ['email', 'comment', 'email_outgoing'])], export_string_translation=False)
+=======
+    website_message_ids = fields.One2many(domain=lambda self: [('model', '=', self._name), ('message_type', 'in', ['email', 'comment', 'email_outgoing', 'auto_comment'])], export_string_translation=False)
+>>>>>>> upstream/18.0
 =======
     website_message_ids = fields.One2many(domain=lambda self: [('model', '=', self._name), ('message_type', 'in', ['email', 'comment', 'email_outgoing', 'auto_comment'])], export_string_translation=False)
 >>>>>>> upstream/18.0
@@ -3212,6 +3227,7 @@ class Task(models.Model):
     @api.depends('project_id', 'parent_id')
     def _compute_show_display_in_project(self):
         for task in self:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4759,6 +4775,11 @@ class Task(models.Model):
 
     @api.depends('stage_id', 'depend_on_ids.state')
 >>>>>>> upstream/18.0
+=======
+            task.show_display_in_project = bool(task.parent_id) and task.project_id == task.parent_id.sudo().project_id
+
+    @api.depends('stage_id', 'depend_on_ids.state')
+>>>>>>> upstream/18.0
     def _compute_state(self):
         for task in self:
             dependent_open_tasks = []
@@ -4869,6 +4890,7 @@ class Task(models.Model):
     def message_subscribe(self, partner_ids=None, subtype_ids=None):
         """ Set task notification based on project notification preference if user follow the project"""
         if not subtype_ids:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5954,6 +5976,9 @@ class Task(models.Model):
 =======
             project_followers = self.project_id.sudo().message_follower_ids.filtered(lambda f: f.partner_id.id in partner_ids)
 >>>>>>> upstream/18.0
+=======
+            project_followers = self.project_id.sudo().message_follower_ids.filtered(lambda f: f.partner_id.id in partner_ids)
+>>>>>>> upstream/18.0
             for project_follower in project_followers:
                 project_subtypes = project_follower.subtype_ids
                 task_subtypes = (project_subtypes.mapped('parent_id') | project_subtypes.filtered(lambda sub: sub.internal or sub.default)).ids if project_subtypes else None
@@ -6098,11 +6123,14 @@ class Task(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
             if task.date_assign:
                 dt_date_assign = fields.Datetime.from_string(task.date_assign)
                 duration_data = task.project_id.resource_calendar_id.get_work_duration_data(dt_create_date, dt_date_assign, compute_leaves=True)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6203,6 +6231,9 @@ class Task(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6309,7 +6340,11 @@ class Task(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 duration_data = task.project_id.resource_calendar_id.get_work_duration_data(dt_create_date, dt_date_end, compute_leaves=True)
+=======
+                duration_data = task.project_id.resource_calendar_id.get_work_duration_data(dt_create_date, dt_date_end, compute_leaves=True, domain=domain)
+>>>>>>> upstream/18.0
 =======
                 duration_data = task.project_id.resource_calendar_id.get_work_duration_data(dt_create_date, dt_date_end, compute_leaves=True, domain=domain)
 >>>>>>> upstream/18.0
@@ -6653,7 +6688,11 @@ class Task(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 vals['child_ids'] = [Command.create(child_id.copy_data(default)[0]) for child_id in task.child_ids]
+=======
+                vals['child_ids'] = [Command.create(child_id.copy_data(default)[0]) for child_id in task.child_ids.filtered(lambda c: c.active)]
+>>>>>>> upstream/18.0
 =======
                 vals['child_ids'] = [Command.create(child_id.copy_data(default)[0]) for child_id in task.child_ids.filtered(lambda c: c.active)]
 >>>>>>> upstream/18.0
@@ -7059,7 +7098,10 @@ class Task(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7610,8 +7652,11 @@ class Task(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 **{key[8:]: value for key, value in self.env.context.items() if key.startswith("default_")},
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8124,6 +8169,9 @@ class Task(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8658,6 +8706,9 @@ class Task(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9113,7 +9164,12 @@ class Task(models.Model):
     def _load_records_create(self, vals_list):
         for vals in vals_list:
             if vals.get('recurring_task'):
+<<<<<<< HEAD
                 if not vals.get('recurrence_id'):
+=======
+                rec_fields = vals.keys() & self._get_recurrence_fields()
+                if not vals.get('recurrence_id') and not rec_fields:
+>>>>>>> upstream/18.0
                     default_val = self.default_get(self._get_recurrence_fields())
                     vals.update(**default_val)
             project_id = vals.get('project_id')
@@ -9336,7 +9392,11 @@ class Task(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 self._ensure_fields_are_accessible(vals.keys(), operation='write', check_group_user=False)
+=======
+                self._ensure_fields_write(vals, check_group_user=False, defaults=True)
+>>>>>>> upstream/18.0
 =======
                 self._ensure_fields_write(vals, check_group_user=False, defaults=True)
 >>>>>>> upstream/18.0
@@ -10176,7 +10236,11 @@ class Task(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self._ensure_fields_are_accessible(vals.keys(), operation='write', check_group_user=False)
+=======
+            self._ensure_fields_write(vals, check_group_user=False, defaults=False)
+>>>>>>> upstream/18.0
 =======
             self._ensure_fields_write(vals, check_group_user=False, defaults=False)
 >>>>>>> upstream/18.0
@@ -11022,11 +11086,14 @@ class Task(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     op = "ilike" if op == "child_of" else op
                     if isinstance(value, list) and all(isinstance(val, int) for val in value):
                         new_domain.append(("id", op, value))
                     if isinstance(value, str) or (isinstance(value, list) and not all(isinstance(val, str) for val in value)):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11327,6 +11394,9 @@ class Task(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12329,7 +12399,11 @@ class Task(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'url': f"/odoo/1/action-project.act_project_project_2_project_task_all/{self.id}?menu_id={menu_id}",
+=======
+            'url': f"/odoo/{self.project_id.id}/action-project.act_project_project_2_project_task_all/{self.id}?menu_id={menu_id}",
+>>>>>>> upstream/18.0
 =======
             'url': f"/odoo/{self.project_id.id}/action-project.act_project_project_2_project_task_all/{self.id}?menu_id={menu_id}",
 >>>>>>> upstream/18.0

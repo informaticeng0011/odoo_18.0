@@ -273,7 +273,11 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _generate_single_qr_code(self, url):
+=======
+    def __generate_single_qr_code(self, url):
+>>>>>>> upstream/18.0
 =======
     def __generate_single_qr_code(self, url):
 >>>>>>> upstream/18.0
@@ -1021,7 +1025,10 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1549,6 +1556,9 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2096,7 +2106,11 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'image': self._generate_single_qr_code(url_unquote(self.pos_config_id._get_self_order_url(table.id))),
+=======
+                    'image': self.__generate_single_qr_code(url_unquote(self.pos_config_id._get_self_order_url(table.id))),
+>>>>>>> upstream/18.0
 =======
                     'image': self.__generate_single_qr_code(url_unquote(self.pos_config_id._get_self_order_url(table.id))),
 >>>>>>> upstream/18.0
@@ -2853,7 +2867,11 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'image': self._generate_single_qr_code(url_unquote(self.pos_config_id._get_self_order_url())),
+=======
+                'image': self.__generate_single_qr_code(url_unquote(self.pos_config_id._get_self_order_url())),
+>>>>>>> upstream/18.0
 =======
                 'image': self.__generate_single_qr_code(url_unquote(self.pos_config_id._get_self_order_url())),
 >>>>>>> upstream/18.0
@@ -3453,6 +3471,7 @@ class ResConfigSettings(models.TransientModel):
         """
         Generate the data needed to print the QR codes page
         """
+<<<<<<< HEAD
         if self.pos_self_ordering_mode == 'mobile' and self.pos_module_pos_restaurant:
             table_ids = self.pos_config_id.floor_ids.table_ids
 
@@ -3464,6 +3483,18 @@ class ResConfigSettings(models.TransientModel):
         else:
             url = url_unquote(self.pos_config_id._get_self_order_url())
             name = ""
+=======
+        name = ""
+        url = url_unquote(self.pos_config_id._get_self_order_url())
+        if self.pos_self_ordering_mode == 'mobile' and self.pos_module_pos_restaurant:
+            table_ids = self.pos_config_id.floor_ids.table_ids
+            if not table_ids:
+                raise ValidationError(_("In Self-Order mode, you must have at least one table to generate QR codes"))
+
+            if self.pos_self_ordering_service_mode == 'table':
+                url = url_unquote(self.pos_config_id._get_self_order_url(table_ids[0].id))
+                name = table_ids[0].table_number
+>>>>>>> upstream/18.0
 
         return self.env.ref("pos_self_order.report_self_order_qr_codes_page").report_action(
             [], data={

@@ -33,6 +33,10 @@ from . import test_unlink_reward
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import test_product_loading
+>>>>>>> upstream/18.0
 =======
 from . import test_product_loading
 >>>>>>> upstream/18.0

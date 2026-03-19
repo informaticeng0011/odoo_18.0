@@ -134,7 +134,10 @@ Party = {
         'cac:RegistrationAddress': Address,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         'cac:CorporateRegistrationScheme': {
@@ -142,6 +145,9 @@ Party = {
             'cbc:Name': {},
         },
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -237,6 +243,10 @@ SupplierParty = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'cac:SellerContact': Contact,
+>>>>>>> upstream/18.0
 =======
     'cac:SellerContact': Contact,
 >>>>>>> upstream/18.0
@@ -577,6 +587,10 @@ Delivery = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'cbc:ID': {},
+>>>>>>> upstream/18.0
 =======
         'cbc:ID': {},
 >>>>>>> upstream/18.0
@@ -928,6 +942,10 @@ TaxCategory = {
 AllowanceCharge = {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'cbc:ID': {},
+>>>>>>> upstream/18.0
 =======
     'cbc:ID': {},
 >>>>>>> upstream/18.0
@@ -1155,6 +1173,10 @@ MonetaryTotal = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'cbc:PayableRoundingAmount': {},
+>>>>>>> upstream/18.0
 =======
     'cbc:PayableRoundingAmount': {},
 >>>>>>> upstream/18.0
@@ -1797,7 +1819,10 @@ ItemPriceExtension = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1864,6 +1889,9 @@ ProjectReference = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

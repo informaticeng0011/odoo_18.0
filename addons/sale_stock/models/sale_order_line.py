@@ -340,7 +340,10 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -759,6 +762,9 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1221,6 +1227,7 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if 'product_packaging_id' in values:
             self.move_ids.filtered(
                 lambda m: m.state not in ['cancel', 'done']
@@ -1229,6 +1236,8 @@ class SaleOrderLine(models.Model):
         previous_product_uom_qty = {line.id: line.product_uom_qty for line in lines}
         res = super(SaleOrderLine, self).write(values)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1801,6 +1810,9 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2454,12 +2466,15 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (strict and move.location_dest_id._is_outgoing()) or \
                (not strict and move.rule_id.id in triggering_rule_ids and (move.location_final_id or move.location_dest_id)._is_outgoing()):
                 if not move.origin_returned_move_id or (move.origin_returned_move_id and move.to_refund):
                     outgoing_moves_ids.add(move.id)
             elif move.location_id._is_outgoing() and move.to_refund:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2841,6 +2856,7 @@ class SaleOrderLine(models.Model):
             )):
                 if not move.origin_returned_move_id or (move.origin_returned_move_id and move.to_refund):
                     outgoing_moves_ids.add(move.id)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3403,6 +3419,8 @@ class SaleOrderLine(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             elif move.to_refund and (
                 (strict and move._is_incoming() or move.location_id._is_outgoing()) or (
                 not strict and move.rule_id.id in triggering_rule_ids and
@@ -3519,6 +3537,9 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3953,7 +3974,11 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             origin = f'{line.order_id.name} - {line.order_id.client_order_ref}' if line.order_id.client_order_ref else line.order_id.name
+=======
+            origin = line.order_id.name
+>>>>>>> upstream/18.0
 =======
             origin = line.order_id.name
 >>>>>>> upstream/18.0
@@ -4586,7 +4611,10 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4968,6 +4996,9 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

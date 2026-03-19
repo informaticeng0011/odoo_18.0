@@ -119,6 +119,10 @@ class User(models.Model):
     employee_bank_account_id = fields.Many2one(related='employee_id.bank_account_id', string="Employee's Bank Account Number", related_sudo=False, readonly=False)
     employee_country_id = fields.Many2one(related='employee_id.country_id', string="Employee's Country", readonly=False, related_sudo=False)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    employee_country_code = fields.Char(related='employee_id.company_country_code', string="Employee's Country Code", readonly=True, related_sudo=False)
+>>>>>>> upstream/18.0
 =======
     employee_country_code = fields.Char(related='employee_id.company_country_code', string="Employee's Country Code", readonly=True, related_sudo=False)
 >>>>>>> upstream/18.0

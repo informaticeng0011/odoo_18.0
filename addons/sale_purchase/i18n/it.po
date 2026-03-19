@@ -18,6 +18,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sale_purchase
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -700,6 +701,9 @@
 =======
 # * sale_purchase
 >>>>>>> upstream/18.0
+=======
+# * sale_purchase
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -722,6 +726,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -888,6 +893,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# "Marianna Ciofani (cima)" <cima@odoo.com>, 2026.
 >>>>>>> upstream/18.0
 =======
 # "Marianna Ciofani (cima)" <cima@odoo.com>, 2026.
@@ -947,6 +955,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1643,6 +1652,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2026-02-20 18:39+0000\n"
 "PO-Revision-Date: 2026-02-24 23:33+0000\n"
 "Last-Translator: \"Marianna Ciofani (cima)\" <cima@odoo.com>\n"
@@ -1665,6 +1676,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1704,6 +1718,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1980,6 +1995,11 @@ msgstr ""
 " ? 1 : 2);\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: sale_purchase
 #: model_terms:ir.ui.view,arch_db:sale_purchase.exception_purchase_on_sale_cancellation
@@ -2002,6 +2022,7 @@ msgid "<span class=\"o_stat_text\">Sale</span>"
 msgstr "<span class=\"o_stat_text\">Vendita</span>"
 
 #. module: sale_purchase
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2683,6 +2704,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale_purchase.exception_sale_on_purchase_cancellation
 msgid "Exception(s) occurred on the purchase order(s):"
 msgstr "Eccezioni che si sono verificate negli ordini di acquisto:"
@@ -2901,10 +2924,16 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Se selezionato, ogni volta che vendi questo prodotto con un ordine di "
 "vendita, viene creata automaticamente una richiesta di preventivo per "
 "acquistare il prodotto. Suggerimento: non dimenticare di impostare un "
 "fornitore sul prodotto."
+=======
+"Se selezionata, ogni volta che il prodotto viene venduto tramite un OdV, "
+"viene creata in modo automatico una RdP per acquistarlo. Suggerimento: non "
+"dimenticarsi di impostare un fornitore per il prodotto."
+>>>>>>> upstream/18.0
 =======
 "Se selezionata, ogni volta che il prodotto viene venduto tramite un OdV, "
 "viene creata in modo automatico una RdP per acquistarlo. Suggerimento: non "
@@ -4047,7 +4076,11 @@ msgid "Number of Source Sale"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Numero di vendita di fonti"
+=======
+msgstr "Numero vendite alla fonte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Numero vendite alla fonte"
 >>>>>>> upstream/18.0
@@ -4810,7 +4843,11 @@ msgid "Ordered quantity decreased!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Quantità ordinata ridotta!"
+=======
+msgstr "È diminuita la quantità ordinata!"
+>>>>>>> upstream/18.0
 =======
 msgstr "È diminuita la quantità ordinata!"
 >>>>>>> upstream/18.0
@@ -5567,7 +5604,11 @@ msgid "Origin Sale Item"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Articolo di vendita di origine"
+=======
+msgstr "Voce di vendita originaria"
+>>>>>>> upstream/18.0
 =======
 msgstr "Voce di vendita originaria"
 >>>>>>> upstream/18.0
@@ -6368,8 +6409,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Riga di acquisto generata dall'articolo di vendita, alla conferma d'ordine o"
 " dopo l'incremento della quantità."
+=======
+"Riga di acquisto generata dalla voce di vendita, alla conferma d'ordine o "
+"dopo l'incremento della quantità."
+>>>>>>> upstream/18.0
 =======
 "Riga di acquisto generata dalla voce di vendita, alla conferma d'ordine o "
 "dopo l'incremento della quantità."
@@ -7314,7 +7360,11 @@ msgid "Reordering"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Riordino"
+=======
+msgstr "Riordini"
+>>>>>>> upstream/18.0
 =======
 msgstr "Riordini"
 >>>>>>> upstream/18.0
@@ -7938,7 +7988,10 @@ msgstr "Subappalto"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8010,6 +8063,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: sale_purchase
 <<<<<<< HEAD
@@ -8032,6 +8086,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8087,6 +8143,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8324,8 +8383,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Hai ridotto la quantità ordinata! Non dimenticare di aggiornare l'ordine di "
 "acquisto se è necessario. "
+=======
+"È stata ridotta la quantità ordinata. Non dimenticarsi, se necessario, di "
+"aggiornare manualmente l'ordine di acquisto."
+>>>>>>> upstream/18.0
 =======
 "È stata ridotta la quantità ordinata. Non dimenticarsi, se necessario, di "
 "aggiornare manualmente l'ordine di acquisto."
@@ -9271,7 +9335,11 @@ msgid "cancelled"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "annullato"
+=======
+msgstr "annullati"
+>>>>>>> upstream/18.0
 =======
 msgstr "annullati"
 >>>>>>> upstream/18.0
@@ -9873,7 +9941,10 @@ msgstr "ordinati al posto di"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9966,6 +10037,9 @@ msgstr "ordinati al posto di"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

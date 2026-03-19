@@ -16,7 +16,10 @@ from odoo.exceptions import AccessDenied, UserError
 from odoo.addons.auth_signup.models.res_users import SignupError
 
 from odoo.addons import base
+<<<<<<< HEAD
 base.models.res_users.USER_PRIVATE_FIELDS.append('oauth_access_token')
+=======
+>>>>>>> upstream/18.0
 
 class ResUsers(models.Model):
     _inherit = 'res.users'
@@ -153,3 +156,10 @@ class ResUsers(models.Model):
 
     def _get_session_token_fields(self):
         return super(ResUsers, self)._get_session_token_fields() | {'oauth_access_token'}
+<<<<<<< HEAD
+=======
+
+    @property
+    def USER_PRIVATE_FIELDS(self):
+        return super().USER_PRIVATE_FIELDS + ['oauth_access_token']
+>>>>>>> upstream/18.0

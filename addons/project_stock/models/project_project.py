@@ -215,6 +215,12 @@ class ProjectProject(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        view_mode = "list,kanban,form,calendar"
+        if picking_type != 'outgoing':
+            view_mode += ",activity"
+>>>>>>> upstream/18.0
 =======
         view_mode = "list,kanban,form,calendar"
         if picking_type != 'outgoing':
@@ -1347,7 +1353,11 @@ class ProjectProject(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'view_mode': f"list,kanban,form,calendar,{'map' if picking_type == 'outgoing' else 'activity'}",
+=======
+            'view_mode': view_mode,
+>>>>>>> upstream/18.0
 =======
             'view_mode': view_mode,
 >>>>>>> upstream/18.0

@@ -435,7 +435,11 @@ class Groups(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             group_name = values.pop().strip()
+=======
+            group_name = values.pop().strip() if values else ''
+>>>>>>> upstream/18.0
 =======
             group_name = values.pop().strip() if values else ''
 >>>>>>> upstream/18.0
@@ -1387,7 +1391,11 @@ class Users(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'share', 'device_ids',
+=======
+            'share', 'device_ids', 'display_name',
+>>>>>>> upstream/18.0
 =======
             'share', 'device_ids', 'display_name',
 >>>>>>> upstream/18.0
@@ -2277,12 +2285,25 @@ class Users(models.Model):
     def onchange_parent_id(self):
         return self.partner_id.onchange_parent_id()
 
+<<<<<<< HEAD
     def _fetch_query(self, query, fields):
         records = super()._fetch_query(query, fields)
         if not set(USER_PRIVATE_FIELDS).isdisjoint(field.name for field in fields):
             if self.browse().has_access('write'):
                 return records
             for fname in USER_PRIVATE_FIELDS:
+=======
+    @property
+    def USER_PRIVATE_FIELDS(self):
+        return list(USER_PRIVATE_FIELDS)
+
+    def _fetch_query(self, query, fields):
+        records = super()._fetch_query(query, fields)
+        if not set(self.USER_PRIVATE_FIELDS).isdisjoint(field.name for field in fields):
+            if self.browse().has_access('write'):
+                return records
+            for fname in self.USER_PRIVATE_FIELDS:
+>>>>>>> upstream/18.0
                 self.env.cache.update(records, self._fields[fname], repeat('********'))
         return records
 
@@ -2390,14 +2411,22 @@ class Users(models.Model):
         except Exception:
             # may happen if aggregate_spec == '__count', for instance
             fname = None
+<<<<<<< HEAD
         if fname in USER_PRIVATE_FIELDS:
+=======
+        if fname in self.USER_PRIVATE_FIELDS:
+>>>>>>> upstream/18.0
             raise AccessError(_("Cannot aggregate on %s parameter", fname))
         return super()._read_group_select(aggregate_spec, query)
 
     @api.model
     def _read_group_groupby(self, groupby_spec, query):
         fname, __, __ = models.parse_read_group_spec(groupby_spec)
+<<<<<<< HEAD
         if fname in USER_PRIVATE_FIELDS:
+=======
+        if fname in self.USER_PRIVATE_FIELDS:
+>>>>>>> upstream/18.0
             raise AccessError(_("Cannot groupby on %s parameter", fname))
         return super()._read_group_groupby(groupby_spec, query)
 
@@ -2405,7 +2434,11 @@ class Users(models.Model):
     def _search(self, domain, offset=0, limit=None, order=None):
         if not self.env.su and domain:
             domain_fields = {term[0] for term in domain if isinstance(term, (tuple, list))}
+<<<<<<< HEAD
             if domain_fields.intersection(USER_PRIVATE_FIELDS):
+=======
+            if domain_fields.intersection(self.USER_PRIVATE_FIELDS):
+>>>>>>> upstream/18.0
                 raise AccessError(_('Invalid search criterion'))
         return super()._search(domain, offset, limit, order)
 
@@ -2644,6 +2677,10 @@ class Users(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        public_user = self.env.ref('base.public_user', False)
+>>>>>>> upstream/18.0
 =======
         public_user = self.env.ref('base.public_user', False)
 >>>>>>> upstream/18.0
@@ -3188,6 +3225,11 @@ class Users(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if public_user and public_user in self:
+            raise UserError(_("Deleting the public user is not allowed. Deleting this profile will compromise critical functionalities."))
+>>>>>>> upstream/18.0
 =======
         if public_user and public_user in self:
             raise UserError(_("Deleting the public user is not allowed. Deleting this profile will compromise critical functionalities."))
@@ -3811,7 +3853,11 @@ class Users(models.Model):
     def _get_invalidation_fields(self):
         return {
             'groups_id', 'active', 'lang', 'tz', 'company_id', 'company_ids',
+<<<<<<< HEAD
             *USER_PRIVATE_FIELDS,
+=======
+            *self.USER_PRIVATE_FIELDS,
+>>>>>>> upstream/18.0
             *self._get_session_token_fields()
         }
 
@@ -4755,7 +4801,11 @@ class UsersImplied(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         res = super(UsersImplied, self).write(values)
+=======
+        res = super(UsersImplied, self.with_context(no_add_implied_groups=True)).write(values)
+>>>>>>> upstream/18.0
 =======
         res = super(UsersImplied, self.with_context(no_add_implied_groups=True)).write(values)
 >>>>>>> upstream/18.0
@@ -5705,6 +5755,12 @@ class UsersImplied(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if self.env.context.get('no_add_implied_groups'):
+            # in a recursive write, defer adding implied groups to the base call
+            return res
+>>>>>>> upstream/18.0
 =======
         if self.env.context.get('no_add_implied_groups'):
             # in a recursive write, defer adding implied groups to the base call
@@ -7285,7 +7341,11 @@ class GroupsView(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             user_type_invisible = f'{user_type_field_name} != {group_employee.id}' if user_type_field_name else None
+=======
+            user_type_invisible = f'{user_type_field_name} != {group_employee.id}' if user_type_field_name else ''
+>>>>>>> upstream/18.0
 =======
             user_type_invisible = f'{user_type_field_name} != {group_employee.id}' if user_type_field_name else ''
 >>>>>>> upstream/18.0
@@ -8590,7 +8650,10 @@ class UsersView(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9265,6 +9328,9 @@ class UsersView(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10053,7 +10119,10 @@ class APIKeysUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10621,6 +10690,9 @@ class APIKeysUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

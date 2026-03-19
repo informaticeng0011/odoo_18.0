@@ -37,6 +37,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from contextlib import nullcontext
+>>>>>>> upstream/18.0
 =======
 from contextlib import nullcontext
 >>>>>>> upstream/18.0
@@ -515,7 +519,11 @@ class TestBaseAPIPerformance(BaseMailPerformance):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.assertQueryCount(admin=14, employee=13):  # tm 10/10
+=======
+        with self.assertQueryCount(admin=15, employee=14):  # tm 10/10
+>>>>>>> upstream/18.0
 =======
         with self.assertQueryCount(admin=15, employee=14):  # tm 10/10
 >>>>>>> upstream/18.0
@@ -742,6 +750,7 @@ class TestBaseAPIPerformance(BaseMailPerformance):
 
         record.write({'name': 'Dupe write'})
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1495,6 +1504,9 @@ class TestBaseAPIPerformance(BaseMailPerformance):
 =======
         with self.assertQueryCount(admin=18, employee=17):  # tm 12/12
 >>>>>>> upstream/18.0
+=======
+        with self.assertQueryCount(admin=18, employee=17):  # tm 12/12
+>>>>>>> upstream/18.0
             record.action_close('Dupe feedback')
 
         self.assertEqual(record.activity_ids, self.env['mail.activity'])
@@ -1520,6 +1532,7 @@ class TestBaseAPIPerformance(BaseMailPerformance):
 
         record.write({'name': 'Dupe write'})
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2273,6 +2286,9 @@ class TestBaseAPIPerformance(BaseMailPerformance):
 =======
         with self.assertQueryCount(admin=19, employee=18):  # tm 12/12
 >>>>>>> upstream/18.0
+=======
+        with self.assertQueryCount(admin=19, employee=18):  # tm 12/12
+>>>>>>> upstream/18.0
             record.action_close('Dupe feedback', attachment_ids=attachments.ids)
 
         # notifications
@@ -2517,7 +2533,11 @@ class TestBaseAPIPerformance(BaseMailPerformance):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.assertQueryCount(admin=9, employee=9):  # tm 8/8
+=======
+        with self.assertQueryCount(admin=10, employee=10):  # tm 8/8
+>>>>>>> upstream/18.0
 =======
         with self.assertQueryCount(admin=10, employee=10):  # tm 8/8
 >>>>>>> upstream/18.0
@@ -3297,7 +3317,11 @@ class TestBaseAPIPerformance(BaseMailPerformance):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.assertQueryCount(admin=4, employee=4):
+=======
+        with self.assertQueryCount(admin=5, employee=5):
+>>>>>>> upstream/18.0
 =======
         with self.assertQueryCount(admin=5, employee=5):
 >>>>>>> upstream/18.0
@@ -4089,6 +4113,7 @@ class TestBaseAPIPerformance(BaseMailPerformance):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.assertQueryCount(admin=28, employee=28):  # tm 16/16
 =======
         with self.assertQueryCount(admin=29, employee=29):  # tm 16/16
@@ -4654,6 +4679,9 @@ class TestBaseAPIPerformance(BaseMailPerformance):
 =======
         with self.assertQueryCount(admin=31, employee=31):  # tm 16/16
 >>>>>>> upstream/18.0
+=======
+        with self.assertQueryCount(admin=31, employee=31):  # tm 16/16
+>>>>>>> upstream/18.0
             composer = self.env['mail.compose.message'].with_context({
                 'default_composition_mode': 'comment',
                 'default_model': test_record._name,
@@ -4677,6 +4705,7 @@ class TestBaseAPIPerformance(BaseMailPerformance):
     def test_mail_composer_w_template_attachments(self):
         test_record, test_template = self._create_test_records()
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5430,6 +5459,9 @@ class TestBaseAPIPerformance(BaseMailPerformance):
 =======
         with self.assertQueryCount(admin=32, employee=32):  # tm 17/17
 >>>>>>> upstream/18.0
+=======
+        with self.assertQueryCount(admin=32, employee=32):  # tm 17/17
+>>>>>>> upstream/18.0
             composer = self.env['mail.compose.message'].with_context({
                 'default_composition_mode': 'comment',
                 'default_model': test_record._name,
@@ -5458,6 +5490,7 @@ class TestBaseAPIPerformance(BaseMailPerformance):
         test_template.write({'attachment_ids': [(5, 0)]})
 
         customer = self.env['res.partner'].browse(self.customer.ids)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6174,6 +6207,9 @@ class TestBaseAPIPerformance(BaseMailPerformance):
 >>>>>>> upstream/18.0
 =======
         with self.assertQueryCount(admin=39, employee=39):  # tm 24/24
+>>>>>>> upstream/18.0
+=======
+        with self.assertQueryCount(admin=41, employee=41):  # tm 24/24
 >>>>>>> upstream/18.0
 =======
         with self.assertQueryCount(admin=41, employee=41):  # tm 24/24
@@ -6428,6 +6464,7 @@ class TestBaseAPIPerformance(BaseMailPerformance):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.assertQueryCount(admin=37, employee=37):  # tm 24/24
 =======
         with self.assertQueryCount(admin=39, employee=39):  # tm 24/24
@@ -6956,6 +6993,9 @@ class TestBaseAPIPerformance(BaseMailPerformance):
 >>>>>>> upstream/18.0
 =======
         with self.assertQueryCount(admin=39, employee=39):  # tm 24/24
+>>>>>>> upstream/18.0
+=======
+        with self.assertQueryCount(admin=41, employee=41):  # tm 24/24
 >>>>>>> upstream/18.0
 =======
         with self.assertQueryCount(admin=41, employee=41):  # tm 24/24
@@ -7218,7 +7258,11 @@ class TestBaseAPIPerformance(BaseMailPerformance):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.assertQueryCount(admin=40, employee=39):
+=======
+        with self.assertQueryCount(admin=41, employee=40):
+>>>>>>> upstream/18.0
 =======
         with self.assertQueryCount(admin=41, employee=40):
 >>>>>>> upstream/18.0
@@ -7979,7 +8023,11 @@ class TestBaseAPIPerformance(BaseMailPerformance):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.assertQueryCount(admin=22, employee=21):
+=======
+        with self.assertQueryCount(admin=23, employee=22):
+>>>>>>> upstream/18.0
 =======
         with self.assertQueryCount(admin=23, employee=22):
 >>>>>>> upstream/18.0
@@ -8657,7 +8705,11 @@ class TestBaseAPIPerformance(BaseMailPerformance):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.assertQueryCount(admin=7, employee=7):
+=======
+        with self.assertQueryCount(admin=8, employee=8):
+>>>>>>> upstream/18.0
 =======
         with self.assertQueryCount(admin=8, employee=8):
 >>>>>>> upstream/18.0
@@ -8924,7 +8976,11 @@ class TestBaseAPIPerformance(BaseMailPerformance):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.assertQueryCount(admin=7, employee=7):
+=======
+        with self.assertQueryCount(admin=8, employee=8):
+>>>>>>> upstream/18.0
 =======
         with self.assertQueryCount(admin=8, employee=8):
 >>>>>>> upstream/18.0
@@ -9556,7 +9612,11 @@ class TestMailAPIPerformance(BaseMailPerformance):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.assertQueryCount(admin=4, employee=4):
+=======
+        with self.assertQueryCount(admin=5, employee=5):
+>>>>>>> upstream/18.0
 =======
         with self.assertQueryCount(admin=5, employee=5):
 >>>>>>> upstream/18.0
@@ -10383,7 +10443,11 @@ class TestMailAPIPerformance(BaseMailPerformance):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.assertQueryCount(admin=42, employee=42):
+=======
+        with self.assertQueryCount(admin=43, employee=43):
+>>>>>>> upstream/18.0
 =======
         with self.assertQueryCount(admin=43, employee=43):
 >>>>>>> upstream/18.0
@@ -11155,7 +11219,11 @@ class TestMailAPIPerformance(BaseMailPerformance):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.assertQueryCount(admin=92, employee=92):
+=======
+        with self.assertQueryCount(admin=93, employee=93):
+>>>>>>> upstream/18.0
 =======
         with self.assertQueryCount(admin=93, employee=93):
 >>>>>>> upstream/18.0
@@ -11875,7 +11943,10 @@ class TestMailAPIPerformance(BaseMailPerformance):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12090,6 +12161,9 @@ class TestMailAccessPerformance(BaseMailPerformance):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12366,7 +12440,11 @@ class TestMessageToStorePerformance(BaseMailPerformance):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.assertQueryCount(employee=27):
+=======
+        with self.assertQueryCount(employee=22):
+>>>>>>> upstream/18.0
 =======
         with self.assertQueryCount(employee=22):
 >>>>>>> upstream/18.0
@@ -12635,7 +12713,11 @@ class TestMessageToStorePerformance(BaseMailPerformance):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.assertQueryCount(employee=27):
+=======
+        with self.assertQueryCount(employee=22):
+>>>>>>> upstream/18.0
 =======
         with self.assertQueryCount(employee=22):
 >>>>>>> upstream/18.0
@@ -12912,7 +12994,11 @@ class TestMessageToStorePerformance(BaseMailPerformance):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.assertQueryCount(employee=7):
+=======
+        with self.assertQueryCount(employee=5):
+>>>>>>> upstream/18.0
 =======
         with self.assertQueryCount(employee=5):
 >>>>>>> upstream/18.0
@@ -13175,7 +13261,11 @@ class TestMessageToStorePerformance(BaseMailPerformance):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.assertQueryCount(employee=15):
+=======
+        with self.assertQueryCount(employee=14):
+>>>>>>> upstream/18.0
 =======
         with self.assertQueryCount(employee=14):
 >>>>>>> upstream/18.0
@@ -13625,7 +13715,11 @@ class TestMessageToStorePerformance(BaseMailPerformance):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     "scheduledDatetime": None,
+=======
+                                    "scheduledDatetime": False,
+>>>>>>> upstream/18.0
 =======
                                     "scheduledDatetime": False,
 >>>>>>> upstream/18.0
@@ -14483,7 +14577,11 @@ class TestMessageToStorePerformance(BaseMailPerformance):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     "scheduledDatetime": None,
+=======
+                                    "scheduledDatetime": False,
+>>>>>>> upstream/18.0
 =======
                                     "scheduledDatetime": False,
 >>>>>>> upstream/18.0

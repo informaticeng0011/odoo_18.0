@@ -217,7 +217,12 @@ class TestPartnerAssign(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class TestPartnerLeadPortal(TestCrmCommon):
+=======
+@tagged('lead_portal')
+class TestPartnerLeadPortal(TestCrmCommon, HttpCase):
+>>>>>>> upstream/18.0
 =======
 @tagged('lead_portal')
 class TestPartnerLeadPortal(TestCrmCommon, HttpCase):
@@ -718,7 +723,10 @@ class TestPartnerLeadPortal(TestCrmCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1196,7 +1204,10 @@ class TestPartnerLeadPortal(TestCrmCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1464,6 +1475,9 @@ class TestPartnerLeadPortal(TestCrmCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1831,6 +1845,9 @@ class TestPartnerLeadPortal(TestCrmCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2265,7 +2282,10 @@ class TestPartnerLeadPortal(TestCrmCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2471,6 +2491,9 @@ class TestPartnerLeadPortal(TestCrmCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
