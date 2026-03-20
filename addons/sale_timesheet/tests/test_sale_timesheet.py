@@ -196,7 +196,11 @@ from odoo.addons.sale_timesheet.tests.common import TestCommonSaleTimesheet
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import Form, tagged
+=======
+from odoo.tests import Form, tagged, new_test_user
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import Form, tagged, new_test_user
 >>>>>>> upstream/18.0
@@ -964,7 +968,10 @@ class TestSaleTimesheet(TestCommonSaleTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1568,6 +1575,9 @@ class TestSaleTimesheet(TestCommonSaleTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3125,7 +3135,10 @@ class TestSaleTimesheet(TestCommonSaleTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3572,6 +3585,7 @@ class TestSaleTimesheet(TestCommonSaleTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3806,6 +3820,8 @@ class TestSaleTimesheet(TestCommonSaleTimesheet):
         """Checks that when an invoice is created, the hours that have already been invoiced aren't taken into
         account."""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_invoice_with_already_invoiced_timesheets(self):
@@ -3815,6 +3831,9 @@ class TestSaleTimesheet(TestCommonSaleTimesheet):
             self.skipTest("This test requires the installation of the account_account module")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3904,6 +3923,9 @@ class TestSaleTimesheet(TestCommonSaleTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

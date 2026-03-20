@@ -1,15 +1,21 @@
 import { Record } from "@mail/core/common/record";
 import { assignDefined } from "@mail/utils/common/misc";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { _t } from "@web/core/l10n/translation";
 import { formatDate, formatDateTime } from "@web/core/l10n/dates";
 =======
+=======
+>>>>>>> upstream/18.0
 
 import { isEmptyBlock } from "@html_editor/utils/dom_info";
 
 import { _t } from "@web/core/l10n/translation";
 import { formatDate, formatDateTime } from "@web/core/l10n/dates";
 import { setElementContent } from "@web/core/utils/html";
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 /**
@@ -115,7 +121,10 @@ export class Activity extends Record {
     /** @type {number} */
     id;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     /** @type {boolean} */
     isNoteEmpty = Record.attr(true, {
         /** @this {import("models").Activity} */
@@ -128,6 +137,9 @@ export class Activity extends Record {
             return isEmptyBlock(element);
         },
     });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     /** @type {Object[]} */
     mail_template_ids;

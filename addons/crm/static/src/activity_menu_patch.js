@@ -189,6 +189,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { Domain } from "@web/core/domain";
+>>>>>>> upstream/18.0
 =======
 import { Domain } from "@web/core/domain";
 >>>>>>> upstream/18.0
@@ -992,6 +996,7 @@ patch(ActivityMenu.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             context["active_test"] = 0; // to show lost leads in the activity
 >>>>>>> upstream/18.0
@@ -1038,6 +1043,8 @@ patch(ActivityMenu.prototype, {
                 additionalContext: context,
                 clearBreadcrumbs: true,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1612,6 +1619,9 @@ patch(ActivityMenu.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

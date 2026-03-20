@@ -22,7 +22,11 @@ class TestStockValuation(ValuationReconciliationTestCommon):
         })
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _dropship_product1(self):
+=======
+    def _dropship_product1(self, bill_price=None):
+>>>>>>> upstream/18.0
 =======
     def _dropship_product1(self, bill_price=None):
 >>>>>>> upstream/18.0
@@ -74,6 +78,11 @@ class TestStockValuation(ValuationReconciliationTestCommon):
             with move_form.invoice_line_ids.edit(i) as line_form:
                 line_form.tax_ids.clear()
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                if bill_price:
+                    line_form.price_unit = bill_price
+>>>>>>> upstream/18.0
 =======
                 if bill_price:
                     line_form.price_unit = bill_price
@@ -569,7 +578,10 @@ class TestStockValuation(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1320,6 +1332,7 @@ class TestStockValuation(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1760,6 +1773,8 @@ class TestStockValuation(ValuationReconciliationTestCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_dropship_avco_anglo_saxon_price_diff_bill(self):
         """ Check that the correction amls from expense to stock interim receipt
@@ -1779,4 +1794,7 @@ class TestStockValuation(ValuationReconciliationTestCommon):
         }
 
         self._check_results(expected_aml, 12, all_amls)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

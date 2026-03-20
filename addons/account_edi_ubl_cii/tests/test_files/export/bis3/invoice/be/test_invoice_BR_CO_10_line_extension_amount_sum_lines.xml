@@ -48,7 +48,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 				<cbc:ID>0202239951</cbc:ID>
+=======
+				<cbc:ID schemeID="0208">0202239951</cbc:ID>
+>>>>>>> upstream/18.0
 =======
 				<cbc:ID schemeID="0208">0202239951</cbc:ID>
 >>>>>>> upstream/18.0
@@ -185,7 +189,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 				<cbc:CompanyID>0202239951</cbc:CompanyID>
+=======
+				<cbc:CompanyID schemeID="0208">0202239951</cbc:CompanyID>
+>>>>>>> upstream/18.0
 =======
 				<cbc:CompanyID schemeID="0208">0202239951</cbc:CompanyID>
 >>>>>>> upstream/18.0
@@ -312,7 +320,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 				<cbc:ID>0477472701</cbc:ID>
+=======
+				<cbc:ID schemeID="0208">0477472701</cbc:ID>
+>>>>>>> upstream/18.0
 =======
 				<cbc:ID schemeID="0208">0477472701</cbc:ID>
 >>>>>>> upstream/18.0
@@ -449,7 +461,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 				<cbc:CompanyID>0477472701</cbc:CompanyID>
+=======
+				<cbc:CompanyID schemeID="0208">0477472701</cbc:CompanyID>
+>>>>>>> upstream/18.0
 =======
 				<cbc:CompanyID schemeID="0208">0477472701</cbc:CompanyID>
 >>>>>>> upstream/18.0
@@ -570,7 +586,11 @@
 	<cac:TaxTotal>
 		<cbc:TaxAmount currencyID="EUR">210.67</cbc:TaxAmount>
 		<cac:TaxSubtotal>
+<<<<<<< HEAD
 			<cbc:TaxableAmount currencyID="EUR">1003.19</cbc:TaxableAmount>
+=======
+			<cbc:TaxableAmount currencyID="EUR">1003.21</cbc:TaxableAmount>
+>>>>>>> upstream/18.0
 			<cbc:TaxAmount currencyID="EUR">210.67</cbc:TaxAmount>
 			<cac:TaxCategory>
 				<cbc:ID>S</cbc:ID>
@@ -582,16 +602,28 @@
 		</cac:TaxSubtotal>
 	</cac:TaxTotal>
 	<cac:LegalMonetaryTotal>
+<<<<<<< HEAD
 		<cbc:LineExtensionAmount currencyID="EUR">1003.19</cbc:LineExtensionAmount>
 		<cbc:TaxExclusiveAmount currencyID="EUR">1003.19</cbc:TaxExclusiveAmount>
 		<cbc:TaxInclusiveAmount currencyID="EUR">1213.86</cbc:TaxInclusiveAmount>
 		<cbc:PrepaidAmount currencyID="EUR">0.00</cbc:PrepaidAmount>
+=======
+		<cbc:LineExtensionAmount currencyID="EUR">1003.21</cbc:LineExtensionAmount>
+		<cbc:TaxExclusiveAmount currencyID="EUR">1003.21</cbc:TaxExclusiveAmount>
+		<cbc:TaxInclusiveAmount currencyID="EUR">1213.88</cbc:TaxInclusiveAmount>
+		<cbc:PrepaidAmount currencyID="EUR">0.00</cbc:PrepaidAmount>
+		<cbc:PayableRoundingAmount currencyID="EUR">-0.02</cbc:PayableRoundingAmount>
+>>>>>>> upstream/18.0
 		<cbc:PayableAmount currencyID="EUR">1213.86</cbc:PayableAmount>
 	</cac:LegalMonetaryTotal>
 	<cac:InvoiceLine>
 		<cbc:ID>___ignore___</cbc:ID>
 		<cbc:InvoicedQuantity unitCode="C62">1.0</cbc:InvoicedQuantity>
+<<<<<<< HEAD
 		<cbc:LineExtensionAmount currencyID="EUR">0.45</cbc:LineExtensionAmount>
+=======
+		<cbc:LineExtensionAmount currencyID="EUR">0.46</cbc:LineExtensionAmount>
+>>>>>>> upstream/18.0
 		<cac:Item>
 			<cbc:Description>Test Product</cbc:Description>
 			<cbc:Name>Test Product</cbc:Name>
@@ -610,7 +642,11 @@
 	<cac:InvoiceLine>
 		<cbc:ID>___ignore___</cbc:ID>
 		<cbc:InvoicedQuantity unitCode="C62">1.0</cbc:InvoicedQuantity>
+<<<<<<< HEAD
 		<cbc:LineExtensionAmount currencyID="EUR">0.45</cbc:LineExtensionAmount>
+=======
+		<cbc:LineExtensionAmount currencyID="EUR">0.46</cbc:LineExtensionAmount>
+>>>>>>> upstream/18.0
 		<cac:Item>
 			<cbc:Description>Test Product</cbc:Description>
 			<cbc:Name>Test Product</cbc:Name>

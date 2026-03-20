@@ -192,8 +192,13 @@ import threading
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from uuid import uuid4
 
+=======
+
+from uuid import uuid4
+>>>>>>> upstream/18.0
 =======
 
 from uuid import uuid4
@@ -1160,7 +1165,11 @@ class SmsSms(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     IAP_TO_SMS_FAILURE_TYPE = {
+=======
+    IAP_TO_SMS_FAILURE_TYPE = {  # TODO RIGR remove me in master
+>>>>>>> upstream/18.0
 =======
     IAP_TO_SMS_FAILURE_TYPE = {  # TODO RIGR remove me in master
 >>>>>>> upstream/18.0
@@ -1990,6 +1999,7 @@ class SmsSms(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self = self.filtered(lambda sms: sms.state == 'outgoing' and not sms.to_delete)
         for batch_ids in self._split_batch():
             self.browse(batch_ids)._send(unlink_failed=unlink_failed, unlink_sent=unlink_sent, raise_exception=raise_exception)
@@ -1997,6 +2007,8 @@ class SmsSms(models.Model):
             if auto_commit is True and not getattr(threading.current_thread(), 'testing', False):
                 self._cr.commit()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2576,6 +2588,9 @@ class SmsSms(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3196,9 +3211,12 @@ class SmsSms(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _split_batch(self):
         batch_size = int(self.env['ir.config_parameter'].sudo().get_param('sms.session.batch.size', 500))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3771,6 +3789,9 @@ class SmsSms(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4342,7 +4363,10 @@ class SmsSms(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4922,6 +4946,9 @@ class SmsSms(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5495,7 +5522,11 @@ class SmsSms(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             results = SmsApi(self.env)._send_sms_batch(messages, delivery_reports_url=delivery_reports_url)
+=======
+            results = sms_api._send_sms_batch(messages, delivery_reports_url=delivery_reports_url)
+>>>>>>> upstream/18.0
 =======
             results = sms_api._send_sms_batch(messages, delivery_reports_url=delivery_reports_url)
 >>>>>>> upstream/18.0
@@ -6263,7 +6294,11 @@ class SmsSms(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for iap_state, results_group in tools.groupby(results, key=lambda result: result['state']):
+=======
+        for (iap_state, failure_reason), results_group in tools.groupby(results, key=lambda result: (result['state'], result.get('failure_reason'))):
+>>>>>>> upstream/18.0
 =======
         for (iap_state, failure_reason), results_group in tools.groupby(results, key=lambda result: (result['state'], result.get('failure_reason'))):
 >>>>>>> upstream/18.0
@@ -7026,6 +7061,7 @@ class SmsSms(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 failure_type = self.IAP_TO_SMS_FAILURE_TYPE.get(iap_state, 'unknown')
                 if failure_type != 'unknown':
                     sms_sudo.sms_tracker_id._action_update_from_sms_state('error', failure_type=failure_type)
@@ -7035,6 +7071,8 @@ class SmsSms(models.Model):
                 sms_sudo.write({'state': 'error', 'failure_type': failure_type, **to_delete})
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7608,6 +7646,9 @@ class SmsSms(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7990,6 +8031,7 @@ class SmsSms(models.Model):
     def _update_sms_state_and_trackers(self, new_state, failure_type=None):
         """Update sms state update and related tracking records (notifications, traces)."""
         self.write({'state': new_state, 'failure_type': failure_type})
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9017,6 +9059,11 @@ class SmsSms(models.Model):
         self.sms_tracker_id.sudo()._action_update_from_sms_state(new_state, failure_type=failure_type)
 
 >>>>>>> upstream/18.0
+=======
+        # Use sudo on mail.notification to allow writing other users' notifications; rights are already checked by sms write
+        self.sms_tracker_id.sudo()._action_update_from_sms_state(new_state, failure_type=failure_type)
+
+>>>>>>> upstream/18.0
     def _handle_call_result_hook(self, results):
         """Further process SMS sending API results."""
         pass
@@ -9209,6 +9256,9 @@ class SmsSms(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

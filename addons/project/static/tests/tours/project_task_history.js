@@ -216,7 +216,10 @@ function changeDescriptionContentAndSave(newContent) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -803,6 +806,9 @@ function insertEditorContent(newContent) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1393,12 +1399,15 @@ registry.category("web_tour.tours").add("project_task_history_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         trigger: ".modal button.btn-primary:contains(/^Restore history$/)",
         run: "click",
     }, {
         content: "Verify the confirmation dialog is opened",
         trigger: ".modal button.btn-primary:contains(/^Restore$/)",
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1797,6 +1806,9 @@ registry.category("web_tour.tours").add("project_task_history_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2317,7 +2329,10 @@ registry.category("web_tour.tours").add("project_task_history_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2866,7 +2881,11 @@ registry.category("web_tour.tours").add("project_task_last_history_steps_tour", 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         trigger: '.modal button.btn-primary:contains(/^Restore$/)',
+=======
+        trigger: '.modal button.btn-primary:text(Restore)',
+>>>>>>> upstream/18.0
 =======
         trigger: '.modal button.btn-primary:text(Restore)',
 >>>>>>> upstream/18.0
@@ -3468,6 +3487,9 @@ registry.category("web_tour.tours").add("project_task_last_history_steps_tour", 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

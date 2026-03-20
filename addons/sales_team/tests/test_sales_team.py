@@ -123,6 +123,10 @@ from odoo.tests import tagged, users
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.mail.tests.common import mail_new_test_user
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.mail.tests.common import mail_new_test_user
 >>>>>>> upstream/18.0
@@ -764,7 +768,11 @@ class TestMultiCompany(TestSalesMC):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # cannot add someone from another company
+=======
+        # cannot add someone from another company (when user allowed only in c1 and team is in c2)
+>>>>>>> upstream/18.0
 =======
         # cannot add someone from another company (when user allowed only in c1 and team is in c2)
 >>>>>>> upstream/18.0
@@ -1254,11 +1262,14 @@ class TestMultiCompany(TestSalesMC):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # cannot change company as it breaks memberships mc check
         with self.assertRaises(exceptions.UserError):
             team_c2.write({'company_id': self.company_2.id})
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1635,6 +1646,9 @@ class TestMultiCompany(TestSalesMC):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

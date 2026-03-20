@@ -117,6 +117,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* event_sms
 # 
 # Translators:
@@ -124,6 +125,8 @@
 # Marta Wacławek, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -479,6 +482,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -716,6 +722,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1150,6 +1157,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-12 14:22+0000\n"
 "Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
 "Language-Team: Polish <https://translate.odoo.com/projects/odoo-18/event_sms/"
@@ -1158,6 +1168,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1510,6 +1521,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
 "(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
 "n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
@@ -1588,6 +1601,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1858,7 +1874,11 @@ msgid "Event Automated Mailing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Automatyczny emailing Wydarzenia"
+=======
+msgstr "Automatyczny emailing wydarzenia"
+>>>>>>> upstream/18.0
 =======
 msgstr "Automatyczny emailing wydarzenia"
 >>>>>>> upstream/18.0
@@ -2341,7 +2361,11 @@ msgid "Mail Scheduling on Event Category"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Planowanie e-maili na Kategorie Wydarzenia"
+=======
+msgstr "Planowanie e-maili na kategorie wydarzenia"
+>>>>>>> upstream/18.0
 =======
 msgstr "Planowanie e-maili na kategorie wydarzenia"
 >>>>>>> upstream/18.0
@@ -2773,6 +2797,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "{{ 'It starts at %s' % format_time(time=object.event_begin_date, tz=object.event_id.date_tz, time_format='short', lang_code=object.partner_id.lang) + (', at %s' % object.event_id.address_inline if object.event_id.address_inline else '') + '.\\nSee you there!' if object.event_id.address_inline or 'website_published' not in object.event_id._fields else 'Join us on %s/event/%i!' % (object.get_base_url(), object.event_id.id) }}"
 msgstr ""
 "Gotowy na \"{{ object.event_id.name }}\" {{ object.event_date_range }}?\n"
@@ -3051,6 +3076,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "{{ 'It starts at %s' % format_time(time=object.event_begin_date, "
 "tz=object.event_id.date_tz, time_format='short', "
 "lang_code=object.partner_id.lang) + (', at %s' % "
@@ -3134,6 +3161,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3287,6 +3317,7 @@ msgstr ""
 "tz=object.event_id.date_tz, time_format='short', "
 "lang_code=object.partner_id.lang) + (', at %s' % "
 "object.event_id.address_inline if object.event_id.address_inline else '') + "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3865,6 +3896,11 @@ msgstr ""
 "'website_published' not in object.event_id._fields else 'Dołącz do nas na %s/"
 "event/%i!' % (object.get_base_url(), object.event_id.id) }}"
 >>>>>>> upstream/18.0
+=======
+"'.\\nDo zobaczenia!' if object.event_id.address_inline or "
+"'website_published' not in object.event_id._fields else 'Dołącz do nas na %s/"
+"event/%i!' % (object.get_base_url(), object.event_id.id) }}"
+>>>>>>> upstream/18.0
 
 #. module: event_sms
 #: model:ir.model,name:event_sms.model_event_mail_registration
@@ -3986,7 +4022,11 @@ msgid "Registration Mail Scheduler"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Planista wiadomości rejestracyjnych"
+=======
+msgstr "Planner wiadomości rejestracyjnych"
+>>>>>>> upstream/18.0
 =======
 msgstr "Planner wiadomości rejestracyjnych"
 >>>>>>> upstream/18.0
@@ -4491,8 +4531,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "user.env.company.name }}:Jesteśmy szczęśliwi potwierdzając Twoją rejestrację"
 " na wydarzenie  {{ object.event_id.name }}"
+=======
+"user.env.company.name }}: Z przyjemnością potwierdzamy Twoją rejestrację na "
+"wydarzenie {{ object.event_id.name }}."
+>>>>>>> upstream/18.0
 =======
 "user.env.company.name }}: Z przyjemnością potwierdzamy Twoją rejestrację na "
 "wydarzenie {{ object.event_id.name }}."

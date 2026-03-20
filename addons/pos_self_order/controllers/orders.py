@@ -30,6 +30,7 @@ import re
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from datetime import timedelta
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1940,6 +1941,8 @@ from odoo.tools import consteq
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 from odoo import Command, http, _
 from odoo.http import request
 from odoo.osv import expression
@@ -1966,6 +1969,9 @@ from odoo.tools import consteq
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2019,6 +2025,7 @@ class PosSelfOrderController(http.Controller):
         pos_config, table = self._verify_authorization(access_token, table_identifier, is_takeaway)
         pos_session = pos_config.current_session_id
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2151,6 +2158,8 @@ class PosSelfOrderController(http.Controller):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         existing_order = pos_config.env['pos.order'].search([('uuid', '=', order.get('uuid'))], limit=1)
         if not existing_order.exists():
             ir_sequence_session = pos_config.env['ir.sequence'].with_context(company_id=pos_config.company_id.id).next_by_code(f'pos.order_{pos_session.id}')
@@ -2159,6 +2168,7 @@ class PosSelfOrderController(http.Controller):
                 sequence_number = re.findall(r'\d+', ir_sequence_session)[0]
             order_reference = self._generate_unique_id(pos_session.id, pos_config.id, sequence_number, device_type)
             order['pos_reference'] = order_reference
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2202,6 +2212,10 @@ class PosSelfOrderController(http.Controller):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+            order['sequence_number'] = sequence_number
+            order['name'] = order_reference
 >>>>>>> upstream/18.0
 =======
             order['sequence_number'] = sequence_number
@@ -2257,6 +2271,9 @@ class PosSelfOrderController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2495,6 +2512,12 @@ class PosSelfOrderController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if amount_total == 0:
+            order_ids._process_saved_order(False)
+
+>>>>>>> upstream/18.0
 =======
         if amount_total == 0:
             order_ids._process_saved_order(False)
@@ -3474,6 +3497,7 @@ class PosSelfOrderController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         pricelist = pos_config.pricelist_id
         sale_price_digits = pos_config.env['decimal.precision'].precision_get('Product Price')
 
@@ -4225,6 +4249,10 @@ class PosSelfOrderController(http.Controller):
         lines.order_id.recompute_prices()
 
 >>>>>>> upstream/18.0
+=======
+        lines.order_id.recompute_prices()
+
+>>>>>>> upstream/18.0
     @http.route('/pos-self-order/remove-order', auth='public', type='json', website=True)
     def remove_order(self, access_token, order_id, order_access_token):
         pos_config = self._verify_pos_config(access_token)
@@ -4466,6 +4494,9 @@ class PosSelfOrderController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5205,6 +5236,7 @@ class PosSelfOrderController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         domain = ['&', '&',
             ('table_id', '=', table.id),
@@ -5216,6 +5248,8 @@ class PosSelfOrderController(http.Controller):
             domain = expression.OR([domain, [
                 '&',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6057,6 +6091,9 @@ class PosSelfOrderController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6732,7 +6769,10 @@ class PosSelfOrderController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6866,6 +6906,9 @@ class PosSelfOrderController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

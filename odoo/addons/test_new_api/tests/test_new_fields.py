@@ -1127,7 +1127,10 @@ class TestFields(TransactionCaseWithUserDemo, TransactionExpressionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1710,6 +1713,7 @@ class TestFields(TransactionCaseWithUserDemo, TransactionExpressionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1946,6 +1950,8 @@ class TestFields(TransactionCaseWithUserDemo, TransactionExpressionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2184,6 +2190,9 @@ class TestFields(TransactionCaseWithUserDemo, TransactionExpressionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2617,7 +2626,10 @@ class TestFields(TransactionCaseWithUserDemo, TransactionExpressionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3065,6 +3077,9 @@ class TestFields(TransactionCaseWithUserDemo, TransactionExpressionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5599,7 +5614,10 @@ class TestFields(TransactionCaseWithUserDemo, TransactionExpressionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5946,6 +5964,9 @@ class TestFields(TransactionCaseWithUserDemo, TransactionExpressionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6985,6 +7006,7 @@ class TestHtmlField(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # in a perfect world this should be 1, but at the moment the value is
         # sanitized more than once during creation of the record
         self.assertEqual(patch.call_count, 2)
@@ -6995,6 +7017,8 @@ class TestHtmlField(TransactionCase):
 
         # the value is already sanitized for flushing
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7568,6 +7592,9 @@ class TestHtmlField(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8369,6 +8396,10 @@ class TestSelectionOndelete(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    MODEL_COMPANY_DEPENDENT = 'test_new_api.model_selection_company_dependent'
+>>>>>>> upstream/18.0
 =======
     MODEL_COMPANY_DEPENDENT = 'test_new_api.model_selection_company_dependent'
 >>>>>>> upstream/18.0
@@ -8709,7 +8740,10 @@ class TestSelectionOndelete(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8884,6 +8918,9 @@ class TestSelectionOndelete(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9021,7 +9058,11 @@ class TestSelectionOndeleteAdvanced(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.addCleanup(setattr, Model, '_BaseModel__base_classes', Model._BaseModel__base_classes)
+=======
+            self.patch(Model, '_BaseModel__base_classes', Model._BaseModel__base_classes)
+>>>>>>> upstream/18.0
 =======
             self.patch(Model, '_BaseModel__base_classes', Model._BaseModel__base_classes)
 >>>>>>> upstream/18.0

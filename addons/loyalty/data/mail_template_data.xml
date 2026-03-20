@@ -167,7 +167,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             before <t t-out="object.expiration_date or ''">2021-06-16</t>
+=======
+            before <t t-out="format_date(object.expiration_date) or ''">2021-06-16</t>
+>>>>>>> upstream/18.0
 =======
             before <t t-out="format_date(object.expiration_date) or ''">2021-06-16</t>
 >>>>>>> upstream/18.0

@@ -61,6 +61,10 @@ export class DiscussChannel extends mailModels.DiscussChannel {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                channelInfo["livechat_active"] = channel.livechat_active;
+>>>>>>> upstream/18.0
 =======
                 channelInfo["livechat_active"] = channel.livechat_active;
 >>>>>>> upstream/18.0

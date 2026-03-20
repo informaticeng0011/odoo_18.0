@@ -187,7 +187,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # -*- coding: utf-8 -*-
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -658,12 +661,18 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for partner in self:
             pls = self.env['product.pricelist'].search(
                 [('country_group_ids.country_ids.code', '=', partner.country_id and partner.country_id.code or False)],
                 limit=1
             )
             default_for_country = pls
+=======
+        defaults = self.env['product.pricelist']._get_country_pricelist_multi(self.country_id.ids)
+        for partner in self:
+            default_for_country = defaults.get(partner.country_id.id)
+>>>>>>> upstream/18.0
 =======
         defaults = self.env['product.pricelist']._get_country_pricelist_multi(self.country_id.ids)
         for partner in self:
@@ -1134,12 +1143,18 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return super()._commercial_fields() + ['property_product_pricelist']
 
     def _company_dependent_commercial_fields(self):
         return [
             *super()._company_dependent_commercial_fields(),
             'specific_property_product_pricelist'
+=======
+        return [
+            *super()._commercial_fields(),
+            'specific_property_product_pricelist',
+>>>>>>> upstream/18.0
 =======
         return [
             *super()._commercial_fields(),

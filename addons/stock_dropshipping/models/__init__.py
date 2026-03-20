@@ -231,6 +231,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import product
+>>>>>>> upstream/18.0
 =======
 from . import product
 >>>>>>> upstream/18.0

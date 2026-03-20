@@ -67,7 +67,11 @@
                         <span t-elif="col and line.lot_name === col">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <span class="o_stock_report_lot_action" t-esc="col" />
+=======
+                            <a class="o_stock_report_lot_action" t-esc="col" t-on-click.prevent="() => this.onCLickOpenLot(line)"/>
+>>>>>>> upstream/18.0
 =======
                             <a class="o_stock_report_lot_action" t-esc="col" t-on-click.prevent="() => this.onCLickOpenLot(line)"/>
 >>>>>>> upstream/18.0

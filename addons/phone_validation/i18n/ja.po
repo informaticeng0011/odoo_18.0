@@ -40,6 +40,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* phone_validation
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1177,6 +1178,9 @@
 =======
 # * phone_validation
 >>>>>>> upstream/18.0
+=======
+# * phone_validation
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Junko Augias, 2025
@@ -1256,6 +1260,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1324,6 +1329,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# "Junko Augias (juau)" <juau@odoo.com>, 2026.
 >>>>>>> upstream/18.0
 =======
 # "Junko Augias (juau)" <juau@odoo.com>, 2026.
@@ -1449,6 +1457,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2754,6 +2763,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2026-02-07 10:36+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
@@ -2798,6 +2809,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2955,6 +2969,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3025,6 +3040,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
+=======
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 =======
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.14.3\n"
@@ -3201,6 +3220,7 @@ msgstr "要アクション"
 #. module: phone_validation
 #: model:ir.model.fields,field_description:phone_validation.field_phone_blacklist__active
 msgid "Active"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4246,6 +4266,9 @@ msgstr "有効"
 =======
 msgstr "有効"
 >>>>>>> upstream/18.0
+=======
+msgstr "有効"
+>>>>>>> upstream/18.0
 
 #. module: phone_validation
 #: model_terms:ir.actions.act_window,help:phone_validation.phone_blacklist_action
@@ -4498,7 +4521,10 @@ msgstr "アーカイブ済"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5216,6 +5242,9 @@ msgstr "本当にこの電話番号のブラックリストを解除しますか
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5818,8 +5847,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "ポータルアカウント %(portal_user_name)s の削除、 %(user_name)s "
 "(#%(user_id)s)による、によってブロックされています。"
+=======
+"ポータルアカウント %(portal_user_name)s の削除、 %(user_name)s (#%(user_id)s)"
+"による、によってブロックされています。"
+>>>>>>> upstream/18.0
 =======
 "ポータルアカウント %(portal_user_name)s の削除、 %(user_name)s (#%(user_id)s)"
 "による、によってブロックされています。"
@@ -6229,7 +6263,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "サニタイズされた電話番号を保存するためのフィールド。検索や比較のスピードアップに役立ちます。"
+=======
+msgstr ""
+"サニタイズされた電話番号を保存するためのフィールド。検索や比較のスピードアッ"
+"プに役立ちます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "サニタイズされた電話番号を保存するためのフィールド。検索や比較のスピードアッ"
@@ -6720,10 +6760,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If the sanitized phone number is on the blacklist, the contact won't receive"
 " mass mailing sms anymore, from any list"
 msgstr "サニタイズされた電話番号がブラックリストに登録されている場合、その連絡先は、どのリストからも、一括送信のSMSを受信できなくなります。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6951,6 +6994,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7207,7 +7253,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "ブラックリストに登録された電話番号が携帯電話番号であるかどうかを示します。モデル内に携帯電話フィールドと電話番号フィールドの両方がある場合に、　　　どちらの番号がブラックリストに登録されているかを区別するのに役立ちます。"
+=======
+"ブラックリストに登録された電話番号が携帯電話番号であるかどうかを示します。モ"
+"デル内に携帯電話フィールドと電話番号フィールドの両方がある場合に、　　　どち"
+"らの番号がブラックリストに登録されているかを区別するのに役立ちます。"
+>>>>>>> upstream/18.0
 =======
 "ブラックリストに登録された電話番号が携帯電話番号であるかどうかを示します。モ"
 "デル内に携帯電話フィールドと電話番号フィールドの両方がある場合に、　　　どち"
@@ -7666,8 +7718,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "ブラックリストに登録されたサニタイズされた電話番号が電話番号であるかどうかを示します。モデル内に携帯電話フィールドと電話フィールドの両方がある場合に、　　　どちらの番号がブラックリストに登録されているかを区別するのに役立ちます。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7894,6 +7949,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8241,7 +8299,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "電話番号/携帯電話番号を検索する場合は、少なくとも3文字以上を入力して下さい。"
+=======
+msgstr ""
+"電話番号/携帯電話番号を検索する場合は、少なくとも3文字以上を入力して下さい。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "電話番号/携帯電話番号を検索する場合は、少なくとも3文字以上を入力して下さい。"
@@ -8821,7 +8884,10 @@ msgstr "ユーザ"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9301,6 +9367,7 @@ msgstr "ユーザ"
 msgid ""
 "You do not have the access right to unblacklist phone numbers. Please "
 "contact your administrator."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10015,6 +10082,8 @@ msgstr "電話番号のブラックリスト解除を行うアクセス権限が
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr ""
 "電話番号のブラックリスト解除を行うアクセス権限がありません。管理者にお問い合"
 "わせ下さい。"
@@ -10094,6 +10163,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

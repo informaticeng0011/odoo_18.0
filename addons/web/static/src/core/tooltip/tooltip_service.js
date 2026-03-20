@@ -160,6 +160,12 @@ export const tooltipService = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if (element && element === target) {
+                return;
+            }
+>>>>>>> upstream/18.0
 =======
             if (element && element === target) {
                 return;
@@ -365,7 +371,11 @@ export const tooltipService = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (target === ev.target.closest("[data-tooltip], [data-tooltip-template]")) {
+=======
+            if (target == ev.target) {
+>>>>>>> upstream/18.0
 =======
             if (target == ev.target) {
 >>>>>>> upstream/18.0

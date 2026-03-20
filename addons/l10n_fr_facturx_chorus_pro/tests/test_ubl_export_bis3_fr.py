@@ -7,12 +7,18 @@ from odoo.tests import tagged
 class TestUblExportBis3FRChorusPro(TestUblBis3Common, TestUblCiiFRCommonChorusPro):
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @classmethod
     def subfolders(cls):
         subfolder_format, _subfolder_document, subfolder_country = super().subfolders()
         return subfolder_format, 'invoice', subfolder_country
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _assert_invoice_partner_party_identifiers(self, partner, test_file):
         tax_20 = self.percent_tax(20.0)

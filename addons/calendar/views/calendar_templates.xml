@@ -18,9 +18,12 @@
                     </div>
                     <div class="card-body">
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <div class="clearfix mb16" t-if="attendee.state != 'needsAction'">
                             <span class="float-end badge text-bg-info">
 =======
+=======
+>>>>>>> upstream/18.0
                         <div class="clearfix mb16 d-flex justify-content-between align-content-center flex-grow-0">
                             <div class="col d-flex">
                                 <form t-if="attendee.state != 'accepted'" method="POST" t-attf-action="/calendar/meeting/accept?{{keep_query()}}" class="me-1 d-inline-block">
@@ -33,6 +36,9 @@
                                 </form>
                             </div>
                             <span class="float-end badge text-bg-info align-self-center" t-if="attendee.state != 'needsAction'">
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                                 <t t-if="attendee.state == 'accepted'">Yes I'm going.</t>
                                 <t t-if="attendee.state == 'declined'">No I'm not going.</t>

@@ -275,7 +275,11 @@ class WebsiteForum(WebsiteProfile):
     @http.route('/forum/get_url_title', type='json', auth="user", methods=['POST'], website=True)
     def get_url_title(self, **kwargs):
         try:
+<<<<<<< HEAD
             req = requests.get(kwargs.get('url'))
+=======
+            req = requests.get(kwargs.get('url'), timeout=10)
+>>>>>>> upstream/18.0
             req.raise_for_status()
             arch = lxml.html.fromstring(req.content)
             return arch.find(".//title").text
