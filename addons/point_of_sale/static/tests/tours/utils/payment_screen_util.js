@@ -279,6 +279,7 @@ export function clickValidate() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             isActive: ["desktop"],
             content: "validate payment",
             trigger: `.payment-screen .button.next.highlight`,
@@ -288,6 +289,10 @@ export function clickValidate() {
             isActive: ["mobile"],
             content: "validate payment",
             trigger: `.payment-screen .btn-switchpane:contains('Validate')`,
+=======
+            content: "validate payment",
+            trigger: `.payment-screen button.validation-button.next`,
+>>>>>>> upstream/18.0
 =======
             content: "validate payment",
             trigger: `.payment-screen button.validation-button.next`,
@@ -1399,6 +1404,7 @@ export function validateButtonIsHighlighted(isHighlighted = true) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             content: `validate button is ${isHighlighted ? "highlighted" : "not highligted"}`,
             trigger: isHighlighted
                 ? `.payment-screen .button.next.highlight`
@@ -1411,6 +1417,8 @@ export function validateButtonIsHighlighted(isHighlighted = true) {
                 ? `.payment-screen .btn-switchpane:not(.secondary):contains('Validate')`
                 : `.payment-screen .btn-switchpane.secondary:contains('Validate')`,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1982,6 +1990,9 @@ export function validateButtonIsHighlighted(isHighlighted = true) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2599,7 +2610,11 @@ export function clickPartnerButton() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: `.modal ${PartnerList.clickPartner().trigger}`,
+=======
+            trigger: `${PartnerList.clickPartner().trigger}`,
+>>>>>>> upstream/18.0
 =======
             trigger: `${PartnerList.clickPartner().trigger}`,
 >>>>>>> upstream/18.0
@@ -3130,7 +3145,10 @@ export function shippingLaterHighlighted() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3335,6 +3353,9 @@ export function isInvoiceButtonUnchecked() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

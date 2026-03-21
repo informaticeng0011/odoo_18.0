@@ -53,6 +53,10 @@ class JoEdiCommon(AccountTestInvoicingCommon):
         })
 
         # The rate of 1 USD = 2 JOD is meant to simplify tests
+<<<<<<< HEAD
+=======
+        cls.jod = cls.env.ref('base.JOD')
+>>>>>>> upstream/18.0
         cls.usd = cls.env.ref('base.USD')
         cls.setup_currency_rate(cls.usd, 0.5)
 
@@ -290,8 +294,13 @@ class JoEdiCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _l10n_jo_create_refund(self, invoice_vals, return_reason, refund_vals):
         invoice = self._l10n_jo_create_invoice(invoice_vals)
+=======
+    def _l10n_jo_create_refund(self, invoice, return_reason, refund_vals):
+        invoice = self._l10n_jo_create_invoice(invoice) if isinstance(invoice, dict) else invoice
+>>>>>>> upstream/18.0
 =======
     def _l10n_jo_create_refund(self, invoice, return_reason, refund_vals):
         invoice = self._l10n_jo_create_invoice(invoice) if isinstance(invoice, dict) else invoice

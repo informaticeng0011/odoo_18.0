@@ -2,6 +2,10 @@
 
 from odoo.service.common import exp_version
 from odoo import http, _
+<<<<<<< HEAD
+=======
+from odoo.exceptions import UserError
+>>>>>>> upstream/18.0
 from odoo.http import request
 from odoo.osv import expression
 from odoo.tools import float_round, py_to_js_locale, SQL
@@ -300,6 +304,7 @@ class HrAttendance(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             department_list = [{'id': dep["id"],
                                  'name': dep["name"],
                                  'count': dep["total_employee"]
@@ -308,6 +313,8 @@ class HrAttendance(http.Controller):
                                                                                                       "name",
                                                                                                       "total_employee"])]
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -960,6 +967,7 @@ class HrAttendance(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1014,6 +1022,8 @@ class HrAttendance(http.Controller):
                 request.session.logout(keep_db=True)
             if (from_trial_mode or not has_password):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1585,6 +1595,9 @@ class HrAttendance(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2019,6 +2032,17 @@ class HrAttendance(http.Controller):
 
     @http.route('/hr_attendance/employees_infos', type="json", auth="public")
     def employees_infos(self, token, limit, offset, domain):
+<<<<<<< HEAD
+=======
+        for condition in domain:
+            field_name, operator, _value = condition  # Force '&' implicit syntax
+            if field_name not in ('name', 'department_id') or operator not in ('=', 'ilike'):
+                raise UserError(_(
+                    "Invalid domain, use 'name' and/or 'department_id' fields "
+                    "with '=' and/or 'ilike' operators.",
+                ))
+
+>>>>>>> upstream/18.0
         company = self._get_company(token)
         if company:
             domain = expression.AND([domain, [('company_id', '=', company.id)]])

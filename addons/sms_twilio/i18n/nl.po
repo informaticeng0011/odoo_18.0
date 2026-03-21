@@ -118,6 +118,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sms_twilio
 #
 =======
@@ -710,10 +711,16 @@
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 >>>>>>> upstream/18.0
+=======
+# * sms_twilio
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0+e\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1580,6 +1587,10 @@ msgstr ""
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2026-01-28 16:40+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+"PO-Revision-Date: 2026-01-28 16:40+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Dutch <https://translate.odoo.com/projects/odoo-18/sms_twilio/"
 "nl/>\n"
@@ -1588,6 +1599,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2052,11 +2064,15 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #. odoo-python
 #: code:addons/sms_twilio/wizard/sms_twilio_account_manage.py:0
 msgid "%(failure_type)s: %(failure_reason)s"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2616,6 +2632,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "%(failure_type)s:%(failure_reason)s"
+
+#. module: sms_twilio
 >>>>>>> upstream/18.0
 =======
 msgstr "%(failure_type)s:%(failure_reason)s"
@@ -3298,6 +3319,9 @@ msgstr "+1 555-123-4567"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3537,6 +3561,7 @@ msgstr "+1 555-123-4567"
 #. module: sms_twilio
 #. odoo-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4402,6 +4427,10 @@ msgstr "Een nummer van de ontvanger ('Aan') is verplicht"
 msgid "A 'To' phone number is required"
 msgstr "Een nummer van de ontvanger ('Aan') is verplicht"
 >>>>>>> upstream/18.0
+=======
+msgid "A 'To' phone number is required"
+msgstr "Een nummer van de ontvanger ('Aan') is verplicht"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model_terms:ir.ui.view,arch_db:sms_twilio.sms_twilio_account_manage_view_form
@@ -4524,7 +4553,11 @@ msgid "ACabcde12345abcde12345abcde12345ab"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ACabcde12345abcde12345abcde12345ab"
+>>>>>>> upstream/18.0
 =======
 msgstr "ACabcde12345abcde12345abcde12345ab"
 >>>>>>> upstream/18.0
@@ -5002,7 +5035,11 @@ msgid "Account SID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Account-SID"
+>>>>>>> upstream/18.0
 =======
 msgstr "Account-SID"
 >>>>>>> upstream/18.0
@@ -5473,7 +5510,11 @@ msgid "An error occurred while fetching the numbers."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Er is een fout opgetreden tijdens het ophalen van de nummers."
+>>>>>>> upstream/18.0
 =======
 msgstr "Er is een fout opgetreden tijdens het ophalen van de nummers."
 >>>>>>> upstream/18.0
@@ -5930,6 +5971,7 @@ msgid "Auth Token"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: sms_twilio
@@ -6214,6 +6256,8 @@ msgstr ""
 #: model:ir.model.fields.selection,name:sms_twilio.selection__mail_notification__failure_type__twilio_authentication
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6569,6 +6613,7 @@ msgstr "Authenticatietoken"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6711,6 +6756,11 @@ msgstr "Authenticatietoken"
 #: model:ir.model.fields.selection,name:sms_twilio.selection__sms_sms__failure_type__twilio_authentication
 msgid "Authentication Error\""
 msgstr ""
+=======
+#: model:ir.model.fields.selection,name:sms_twilio.selection__sms_sms__failure_type__twilio_authentication
+msgid "Authentication Error\""
+msgstr "Authenticatiefout\""
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields.selection,name:sms_twilio.selection__sms_sms__failure_type__twilio_authentication
 msgid "Authentication Error\""
@@ -7073,7 +7123,11 @@ msgid "Companies"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bedrijven"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bedrijven"
 >>>>>>> upstream/18.0
@@ -7552,7 +7606,11 @@ msgid "Company"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bedrijf"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bedrijf"
 >>>>>>> upstream/18.0
@@ -8029,7 +8087,11 @@ msgid "Config Settings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Configuratie-instellingen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Configuratie-instellingen"
 >>>>>>> upstream/18.0
@@ -8436,7 +8498,11 @@ msgid "Configure Twilio Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Twilio-account configureren"
+>>>>>>> upstream/18.0
 =======
 msgstr "Twilio-account configureren"
 >>>>>>> upstream/18.0
@@ -8703,7 +8769,11 @@ msgid "Country"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Land"
+>>>>>>> upstream/18.0
 =======
 msgstr "Land"
 >>>>>>> upstream/18.0
@@ -9180,7 +9250,11 @@ msgid "Country Code"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Landcode"
+>>>>>>> upstream/18.0
 =======
 msgstr "Landcode"
 >>>>>>> upstream/18.0
@@ -9658,7 +9732,11 @@ msgid "Created by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aangemaakt door"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aangemaakt door"
 >>>>>>> upstream/18.0
@@ -10136,7 +10214,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aangemaakt op"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aangemaakt op"
 >>>>>>> upstream/18.0
@@ -10613,7 +10695,11 @@ msgid "Credentials"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Inloggegevens"
+>>>>>>> upstream/18.0
 =======
 msgstr "Inloggegevens"
 >>>>>>> upstream/18.0
@@ -11090,7 +11176,11 @@ msgid "Delete"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Verwijderen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Verwijderen"
 >>>>>>> upstream/18.0
@@ -11567,7 +11657,11 @@ msgid "Discard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Negeren"
+>>>>>>> upstream/18.0
 =======
 msgstr "Negeren"
 >>>>>>> upstream/18.0
@@ -12045,7 +12139,11 @@ msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Schermnaam"
+>>>>>>> upstream/18.0
 =======
 msgstr "Schermnaam"
 >>>>>>> upstream/18.0
@@ -12523,7 +12621,11 @@ msgid "Error: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fout: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fout: %s"
 >>>>>>> upstream/18.0
@@ -13000,6 +13102,7 @@ msgid "Failure Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: sms_twilio
@@ -13216,6 +13319,8 @@ msgstr ""
 msgid "Failure type"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13573,6 +13678,9 @@ msgstr "Fouttype"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13813,6 +13921,7 @@ msgstr "Fouttype"
 #: model:ir.model.fields.selection,name:sms_twilio.selection__mail_notification__failure_type__twilio_from_to
 #: model:ir.model.fields.selection,name:sms_twilio.selection__sms_sms__failure_type__twilio_from_to
 msgid "From / To identic"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14569,6 +14678,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "Zelfde verzender / ontvanger"
+
+#. module: sms_twilio
 >>>>>>> upstream/18.0
 =======
 msgstr "Zelfde verzender / ontvanger"
@@ -14937,6 +15051,9 @@ msgstr "Foute omleidings-URL"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15298,6 +15415,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ongeldige Twilio-account-SID: mag alleen alfanumerieke tekens bevatten na "
+"'AC'."
+>>>>>>> upstream/18.0
 =======
 "Ongeldige Twilio-account-SID: mag alleen alfanumerieke tekens bevatten na "
 "'AC'."
@@ -15895,6 +16017,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ongeldige Twilio-account-SID: moet beginnen met 'AC' en 34 tekens lang zijn."
+>>>>>>> upstream/18.0
 =======
 "Ongeldige Twilio-account-SID: moet beginnen met 'AC' en 34 tekens lang zijn."
 >>>>>>> upstream/18.0
@@ -16372,7 +16498,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Laatst bijgewerkt door"
+>>>>>>> upstream/18.0
 =======
 msgstr "Laatst bijgewerkt door"
 >>>>>>> upstream/18.0
@@ -16850,7 +16980,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Laatst bijgewerkt op"
+>>>>>>> upstream/18.0
 =======
 msgstr "Laatst bijgewerkt op"
 >>>>>>> upstream/18.0
@@ -17327,7 +17461,11 @@ msgid "Link SMS to mailing/sms tracking models"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koppel SMS aan mailing-/sms-trackingmodellen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Koppel SMS aan mailing-/sms-trackingmodellen"
 >>>>>>> upstream/18.0
@@ -17806,6 +17944,7 @@ msgid "Manage Twilio SMS"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: sms_twilio
@@ -18022,6 +18161,8 @@ msgstr ""
 msgid "Message Notifications"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18379,6 +18520,9 @@ msgstr "Bericht notificaties"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18619,6 +18763,7 @@ msgstr "Bericht notificaties"
 #: model:ir.model.fields.selection,name:sms_twilio.selection__mail_notification__failure_type__twilio_from_missing
 #: model:ir.model.fields.selection,name:sms_twilio.selection__sms_sms__failure_type__twilio_from_missing
 msgid "Missing From Number"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19087,6 +19232,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "Nummer van verzender ontbreekt"
+
+#. module: sms_twilio
 >>>>>>> upstream/18.0
 =======
 msgstr "Nummer van verzender ontbreekt"
@@ -19382,6 +19532,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Hulp nodig?\n"
+"                            <i class=\"fa fa-external-link\" aria-hidden="
+"\"true\"/>"
+>>>>>>> upstream/18.0
 =======
 "Hulp nodig?\n"
 "                            <i class=\"fa fa-external-link\" aria-hidden="
@@ -19745,7 +19901,11 @@ msgid "Numbers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Getallen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Getallen"
 >>>>>>> upstream/18.0
@@ -20222,7 +20382,11 @@ msgid "Outgoing SMS"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uitgaande SMS"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uitgaande SMS"
 >>>>>>> upstream/18.0
@@ -20629,7 +20793,11 @@ msgid "Phone Numbers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Telefoonnummers"
+>>>>>>> upstream/18.0
 =======
 msgstr "Telefoonnummers"
 >>>>>>> upstream/18.0
@@ -20897,7 +21065,11 @@ msgid "Please set the number to which you want to send a test SMS."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stel het nummer in waarnaar je een test-sms wilt sturen."
+>>>>>>> upstream/18.0
 =======
 msgstr "Stel het nummer in waarnaar je een test-sms wilt sturen."
 >>>>>>> upstream/18.0
@@ -21374,7 +21546,11 @@ msgid "Reload Numbers from Twilio"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nummers van Twilio herladen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nummers van Twilio herladen"
 >>>>>>> upstream/18.0
@@ -21853,7 +22029,11 @@ msgid "SMS Provider"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sms-provider"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sms-provider"
 >>>>>>> upstream/18.0
@@ -22330,7 +22510,11 @@ msgid "SMS Twilio Connection Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Wizard voor verbinding met Sms Twilio"
+>>>>>>> upstream/18.0
 =======
 msgstr "Wizard voor verbinding met Sms Twilio"
 >>>>>>> upstream/18.0
@@ -22807,7 +22991,11 @@ msgid "Send SMS Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Verzend SMS wizard"
+>>>>>>> upstream/18.0
 =======
 msgstr "Verzend SMS wizard"
 >>>>>>> upstream/18.0
@@ -23284,7 +23472,11 @@ msgid "Send test SMS"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Test-sms verzenden"
+>>>>>>> upstream/18.0
 =======
 msgstr "Test-sms verzenden"
 >>>>>>> upstream/18.0
@@ -23691,7 +23883,11 @@ msgid "Send via Odoo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Verzenden via Odoo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Verzenden via Odoo"
 >>>>>>> upstream/18.0
@@ -23916,7 +24112,11 @@ msgid "Send via Twilio"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Verzenden met Twilio"
+>>>>>>> upstream/18.0
 =======
 msgstr "Verzenden met Twilio"
 >>>>>>> upstream/18.0
@@ -24267,7 +24467,11 @@ msgid "Sequence"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Reeks"
+>>>>>>> upstream/18.0
 =======
 msgstr "Reeks"
 >>>>>>> upstream/18.0
@@ -24674,7 +24878,11 @@ msgid "Test Number"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Testnummer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Testnummer"
 >>>>>>> upstream/18.0
@@ -24944,6 +25152,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"De ISO-landcode in twee letters.\n"
+"Je kunt dit veld gebruiken voor snelzoeken."
+>>>>>>> upstream/18.0
 =======
 "De ISO-landcode in twee letters.\n"
 "Je kunt dit veld gebruiken voor snelzoeken."
@@ -25539,7 +25752,11 @@ msgid "The SMS has been sent from %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "De sms is verzonden vanaf %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "De sms is verzonden vanaf %s"
 >>>>>>> upstream/18.0
@@ -25898,6 +26115,7 @@ msgstr "De sms is verzonden vanaf %s"
 #. module: sms_twilio
 #. odoo-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26763,6 +26981,10 @@ msgstr "Het nummer dat je probeert te bereiken heeft niet het juiste formaat"
 msgid "The number you're trying to reach is not correctly formatted"
 msgstr "Het nummer dat je probeert te bereiken heeft niet het juiste formaat"
 >>>>>>> upstream/18.0
+=======
+msgid "The number you're trying to reach is not correctly formatted"
+msgstr "Het nummer dat je probeert te bereiken heeft niet het juiste formaat"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #. odoo-python
@@ -26886,7 +27108,11 @@ msgid "This is a test SMS from Odoo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dit is een test-sms van Odoo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dit is een test-sms van Odoo"
 >>>>>>> upstream/18.0
@@ -27433,6 +27659,7 @@ msgstr "Dit is een test-sms van Odoo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -28032,10 +28259,15 @@ msgstr "Limiet voor proefaccount"
 msgid "Trial Account Limitation"
 msgstr "Limiet voor proefaccount"
 >>>>>>> upstream/18.0
+=======
+msgid "Trial Account Limitation"
+msgstr "Limiet voor proefaccount"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #. odoo-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28364,6 +28596,10 @@ msgstr "Limiet voor proefaccount"
 >>>>>>> upstream/18.0
 msgid "Twilio Authentication Error"
 msgstr ""
+=======
+msgid "Twilio Authentication Error"
+msgstr "Authenticatiefout bij Twilio"
+>>>>>>> upstream/18.0
 =======
 msgid "Twilio Authentication Error"
 msgstr "Authenticatiefout bij Twilio"
@@ -28959,7 +29195,11 @@ msgid "Twilio Number"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Twilio-nummer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Twilio-nummer"
 >>>>>>> upstream/18.0
@@ -29437,7 +29677,11 @@ msgid "Twilio SMS"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Twilio SMS"
+>>>>>>> upstream/18.0
 =======
 msgstr "Twilio SMS"
 >>>>>>> upstream/18.0
@@ -29914,7 +30158,11 @@ msgid "Twilio SMS Manage Connection"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Twilio SMS: Verbinding beheren"
+>>>>>>> upstream/18.0
 =======
 msgstr "Twilio SMS: Verbinding beheren"
 >>>>>>> upstream/18.0
@@ -30392,7 +30640,11 @@ msgid "Twilio SMS SID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Twilio SMS SID"
+>>>>>>> upstream/18.0
 =======
 msgstr "Twilio SMS SID"
 >>>>>>> upstream/18.0
@@ -30800,7 +31052,11 @@ msgid "Twilio StatusCallback URL is incorrect"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Twilio StatusCallback-URL is onjuist"
+>>>>>>> upstream/18.0
 =======
 msgstr "Twilio StatusCallback-URL is onjuist"
 >>>>>>> upstream/18.0
@@ -31068,7 +31324,11 @@ msgid "Unknown error, please contact Odoo support"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Onbekende fout, neem contact op met Odoo support"
+>>>>>>> upstream/18.0
 =======
 msgstr "Onbekende fout, neem contact op met Odoo support"
 >>>>>>> upstream/18.0
@@ -31539,6 +31799,7 @@ msgid "Unknown failure at sending, please contact Odoo support"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: sms_twilio
@@ -32008,6 +32269,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -32347,6 +32610,7 @@ msgstr "Niet-geverifieerde ontvanger op proefaccount"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -32475,6 +32739,11 @@ msgstr "Niet-geverifieerde ontvanger op proefaccount"
 #: model_terms:ir.ui.view,arch_db:sms_twilio.sms_twilio_account_manage_view_form
 msgid "Update Account"
 msgstr ""
+=======
+#: model_terms:ir.ui.view,arch_db:sms_twilio.sms_twilio_account_manage_view_form
+msgid "Update Account"
+msgstr "Account bijwerken"
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:sms_twilio.sms_twilio_account_manage_view_form
 msgid "Update Account"
@@ -32767,7 +33036,11 @@ msgid "abcde12345abcde12345abcde12345ab"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "abcde12345abcde12345abcde12345ab"
+>>>>>>> upstream/18.0
 =======
 msgstr "abcde12345abcde12345abcde12345ab"
 >>>>>>> upstream/18.0

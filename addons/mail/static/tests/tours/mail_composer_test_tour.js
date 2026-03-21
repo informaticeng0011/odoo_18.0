@@ -230,7 +230,11 @@ registry.category("web_tour.tours").add("mail/static/tests/tours/mail_composer_t
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: ".o-mail-AttachmentCard:not(.o-isUploading)", // waiting the attachment to be uploaded
+=======
+            trigger: '.o-mail-AttachmentCard:not(.o-isUploading):contains("file1.txt")',
+>>>>>>> upstream/18.0
 =======
             trigger: '.o-mail-AttachmentCard:not(.o-isUploading):contains("file1.txt")',
 >>>>>>> upstream/18.0
@@ -860,7 +864,10 @@ registry.category("web_tour.tours").add("mail/static/tests/tours/mail_composer_t
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             content: "Trigger channel mention with #",
             trigger: ".odoo-editor-editable",
             run() {
@@ -888,6 +895,9 @@ registry.category("web_tour.tours").add("mail/static/tests/tours/mail_composer_t
             trigger: '.o_field_html[name="body"] .o_channel_redirect:contains(general)',
         },
         {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             content: "Drop a file on the full composer",
             trigger: ".o_mail_composer_form_view",
@@ -1085,7 +1095,11 @@ registry.category("web_tour.tours").add("mail/static/tests/tours/mail_composer_t
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             }
+=======
+            },
+>>>>>>> upstream/18.0
 =======
             },
 >>>>>>> upstream/18.0
@@ -1862,7 +1876,10 @@ registry.category("web_tour.tours").add("mail/static/tests/tours/mail_composer_t
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2444,6 +2461,9 @@ registry.category("web_tour.tours").add("mail/static/tests/tours/mail_composer_t
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2973,7 +2993,11 @@ registry.category("web_tour.tours").add("mail/static/tests/tours/mail_composer_t
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: ".o-mail-MessageNotificationPopover:contains('Not A Demo User\nJane')",
+=======
+            trigger: ".o-mail-MessageNotificationPopover:contains('Not A Demo User Jane')",
+>>>>>>> upstream/18.0
 =======
             trigger: ".o-mail-MessageNotificationPopover:contains('Not A Demo User Jane')",
 >>>>>>> upstream/18.0
@@ -3596,7 +3620,11 @@ registry.category("web_tour.tours").add("mail/static/tests/tours/mail_composer_t
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             }
+=======
+            },
+>>>>>>> upstream/18.0
 =======
             },
 >>>>>>> upstream/18.0
@@ -4403,7 +4431,11 @@ registry.category("web_tour.tours").add("mail/static/tests/tours/mail_composer_t
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             }
+=======
+            },
+>>>>>>> upstream/18.0
 =======
             },
 >>>>>>> upstream/18.0
@@ -5177,8 +5209,13 @@ registry.category("web_tour.tours").add("mail/static/tests/tours/mail_composer_t
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: ".o-mail-Composer-send",
             run: "click"
+=======
+            trigger: ".o-mail-Composer-send:enabled",
+            run: "click",
+>>>>>>> upstream/18.0
 =======
             trigger: ".o-mail-Composer-send:enabled",
             run: "click",
@@ -6148,8 +6185,13 @@ registry.category("web_tour.tours").add("mail/static/tests/tours/mail_composer_t
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: ".o-mail-Composer-send",
             run: "click"
+=======
+            trigger: ".o-mail-Composer-send:enabled",
+            run: "click",
+>>>>>>> upstream/18.0
 =======
             trigger: ".o-mail-Composer-send:enabled",
             run: "click",

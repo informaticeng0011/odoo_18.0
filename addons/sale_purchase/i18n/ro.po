@@ -77,6 +77,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Lyall Kindmurr, 2024
@@ -689,6 +690,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Lyall Kindmurr, 2024
@@ -770,6 +773,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -925,6 +931,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1645,6 +1652,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2026-02-20 18:39+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2026-02-20 18:39+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Larisa_nexterp, 2025\n"
 "Language-Team: Romanian (https://app.transifex.com/odoo/teams/41243/ro/)\n"
@@ -1729,6 +1739,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1902,6 +1915,7 @@ msgid "<span class=\"o_stat_text\">Sale</span>"
 msgstr "<span class=\"o_stat_text\">Vânzare</span>"
 
 #. module: sale_purchase
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3720,6 +3734,11 @@ msgstr "Au apărut excepții la comenzile de achiziție:"
 msgid "Exception(s) occurred on the purchase order(s):"
 msgstr "Au apărut excepții la comenzile de achiziție:"
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:sale_purchase.exception_sale_on_purchase_cancellation
+msgid "Exception(s) occurred on the purchase order(s):"
+msgstr "Au apărut excepții la comenzile de achiziție:"
+>>>>>>> upstream/18.0
 
 #. module: sale_purchase
 #: model_terms:ir.ui.view,arch_db:sale_purchase.exception_purchase_on_sale_cancellation
@@ -3915,7 +3934,11 @@ msgid "Exception(s) occurred on the sale order(s):"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Excepție survenită la comanda de vânzare:"
+=======
+msgstr "Au apărut excepții la comenzile de vânzare:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Au apărut excepții la comenzile de vânzare:"
 >>>>>>> upstream/18.0
@@ -4682,7 +4705,11 @@ msgid "Exception(s):"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Excepție:"
+=======
+msgstr "Excepție(i):"
+>>>>>>> upstream/18.0
 =======
 msgstr "Excepție(i):"
 >>>>>>> upstream/18.0
@@ -5267,6 +5294,7 @@ msgid ""
 "automatically created to buy the product. Tip: don't forget to set a vendor "
 "on the product."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6410,6 +6438,11 @@ msgstr ""
 "de vânzare, se creează automat o cerere de ofertă pentru a cumpăra produsul. "
 "Sfat: nu uitați să setați un furnizor pentru produs."
 >>>>>>> upstream/18.0
+=======
+"Dacă este bifat, de fiecare dată când vindeți acest produs printr-o comandă "
+"de vânzare, se creează automat o cerere de ofertă pentru a cumpăra produsul. "
+"Sfat: nu uitați să setați un furnizor pentru produs."
+>>>>>>> upstream/18.0
 
 #. module: sale_purchase
 #: model_terms:ir.ui.view,arch_db:sale_purchase.exception_purchase_on_sale_quantity_decreased
@@ -6625,7 +6658,11 @@ msgid "Ordered quantity decreased!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cantitate comandată micșorată!"
+=======
+msgstr "Cantitatea comandată a fost micșorată!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cantitatea comandată a fost micșorată!"
 >>>>>>> upstream/18.0
@@ -7390,7 +7427,11 @@ msgid "Origin Sale Item"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Origine Linie Vânzare "
+=======
+msgstr "Linie de vânzare de origine"
+>>>>>>> upstream/18.0
 =======
 msgstr "Linie de vânzare de origine"
 >>>>>>> upstream/18.0
@@ -8159,7 +8200,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Vă rugăm să definiți furnizorul de la care doriți să cumpărați acest "
+=======
+"Vă rugăm să definiți furnizorul de la care doriți să achiziționați acest "
+>>>>>>> upstream/18.0
 =======
 "Vă rugăm să definiți furnizorul de la care doriți să achiziționați acest "
 >>>>>>> upstream/18.0
@@ -8931,7 +8976,11 @@ msgid "Product that is not a service can not create RFQ."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Produsul care nu este un serviciu nu poate crea CdO."
+=======
+msgstr "Un produs care nu este serviciu nu poate crea cerere de ofertă."
+>>>>>>> upstream/18.0
 =======
 msgstr "Un produs care nu este serviciu nu poate crea cerere de ofertă."
 >>>>>>> upstream/18.0
@@ -9712,7 +9761,11 @@ msgid "Purchase Order generated from %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Comandă de achiziție generată din %s "
+=======
+msgstr "Comandă de achiziție generată din %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Comandă de achiziție generată din %s"
 >>>>>>> upstream/18.0
@@ -10480,8 +10533,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Linia de achiziție generată de acestă linie de vânzare la confirmarea "
 "comenzii sau când a fost mărită cantitatea."
+=======
+"Linia de achiziție generată de această linie de vânzare la confirmarea "
+"comenzii sau când cantitatea a fost mărită."
+>>>>>>> upstream/18.0
 =======
 "Linia de achiziție generată de această linie de vânzare la confirmarea "
 "comenzii sau când cantitatea a fost mărită."
@@ -11436,7 +11494,11 @@ msgid "Reordering"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Comandare"
+=======
+msgstr "Recomandare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Recomandare"
 >>>>>>> upstream/18.0
@@ -12211,7 +12273,11 @@ msgid "Sales Order Cancel"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Anulare Comandă de Vânzare"
+=======
+msgstr "Anulare comandă de vânzare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Anulare comandă de vânzare"
 >>>>>>> upstream/18.0
@@ -12982,7 +13048,11 @@ msgid "Sources Sale Orders %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Surse Comenzi de Vânzare %s"
+=======
+msgstr "Surse comenzi de vânzare %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Surse comenzi de vânzare %s"
 >>>>>>> upstream/18.0
@@ -13588,7 +13658,10 @@ msgstr "Serviciu subcontractat"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13674,6 +13747,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13923,8 +13999,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Nu există furnizor alocat la produsul %s. Vă rog să definiți furnizorul "
 "acestui produs."
+=======
+"Nu există furnizor asociat produsului %s. Vă rugăm să definiți un furnizor "
+"pentru acest produs."
+>>>>>>> upstream/18.0
 =======
 "Nu există furnizor asociat produsului %s. Vă rugăm să definiți un furnizor "
 "pentru acest produs."
@@ -14884,7 +14965,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "achiziție, dacă este nevoie."
+=======
+"achiziție, dacă este necesar."
+>>>>>>> upstream/18.0
 =======
 "achiziție, dacă este necesar."
 >>>>>>> upstream/18.0
@@ -15657,7 +15742,11 @@ msgid "of"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "de"
+=======
+msgstr "din"
+>>>>>>> upstream/18.0
 =======
 msgstr "din"
 >>>>>>> upstream/18.0
@@ -16260,7 +16349,10 @@ msgstr "comandat în loc de"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16358,6 +16450,9 @@ msgstr "comandat în loc de"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

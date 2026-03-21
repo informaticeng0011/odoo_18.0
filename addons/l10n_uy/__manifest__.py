@@ -191,7 +191,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'website': 'https://www.odoo.com/documentation/master/applications/finance/fiscal_localizations.html',
+=======
+    'website': 'https://www.odoo.com/documentation/master/applications/finance/fiscal_localizations/uruguay.html',
+>>>>>>> upstream/18.0
 =======
     'website': 'https://www.odoo.com/documentation/master/applications/finance/fiscal_localizations/uruguay.html',
 >>>>>>> upstream/18.0

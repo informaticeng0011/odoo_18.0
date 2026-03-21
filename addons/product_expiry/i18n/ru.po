@@ -155,6 +155,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* product_expiry
 # 
 # Translators:
@@ -305,6 +306,8 @@
 >>>>>>> upstream/18.0
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -774,6 +777,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1087,6 +1093,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1930,6 +1937,10 @@ msgstr ""
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2025-10-22 07:20+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2025-10-22 07:20+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-18/"
 "product_expiry/ru/>\n"
@@ -1938,6 +1949,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2632,6 +2644,11 @@ msgstr ""
 "(n%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
+=======
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: product_expiry
 #: model_terms:ir.ui.view,arch_db:product_expiry.view_move_form_expiry
@@ -2804,6 +2821,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "<span title=\"Alert\" class=\"fa fa-exclamation-triangle text-danger me-2\" "
 "invisible="
@@ -3198,6 +3216,11 @@ msgstr ""
 "<span title=\"Alert\" class=\"fa fa-exclamation-triangle text-danger me-2\" "
 "invisible="
 "\"product_qty &lt;= 0 or not product_expiry_alert or not expiration_date\"/>"
+>>>>>>> upstream/18.0
+=======
+"<span title=\"Alert\" class=\"fa fa-exclamation-triangle text-danger me-2\" "
+"invisible=\"product_qty &lt;= 0 or not product_expiry_alert or not "
+"expiration_date\"/>"
 >>>>>>> upstream/18.0
 =======
 "<span title=\"Alert\" class=\"fa fa-exclamation-triangle text-danger me-2\" "
@@ -3833,7 +3856,11 @@ msgid "Created by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Создано:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создано:"
 >>>>>>> upstream/18.0
@@ -4598,7 +4625,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Дата создания:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата создания:"
 >>>>>>> upstream/18.0
@@ -5456,7 +5487,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Последнее обновление:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Последнее обновление:"
 >>>>>>> upstream/18.0
@@ -6225,7 +6260,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Дата последнего обновления:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата последнего обновления:"
 >>>>>>> upstream/18.0
@@ -6894,9 +6933,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Количество дней после получения продукции (от поставщика или на складе после"
 " производства), по истечении которых товар может стать опасным и не подлежит"
 " употреблению. Оно рассчитывается по номеру партии/серийному номеру."
+=======
+"Количество дней после получения продукции (от поставщика или на складе после "
+"производства), по истечении которых товар может стать опасным и не подлежит "
+"употреблению. Оно рассчитывается по номеру партии/серийному номеру."
+>>>>>>> upstream/18.0
 =======
 "Количество дней после получения продукции (от поставщика или на складе после "
 "производства), по истечении которых товар может стать опасным и не подлежит "
@@ -7373,9 +7418,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Количество дней до даты истечения срока годности, по истечении которых товар"
 " должен быть удален со склада. Оно рассчитывается по номеру партии/серийному"
 " номеру."
+=======
+"Количество дней до даты истечения срока годности, по истечении которых товар "
+"должен быть удален со склада. Оно рассчитывается по номеру партии/серийному "
+"номеру."
+>>>>>>> upstream/18.0
 =======
 "Количество дней до даты истечения срока годности, по истечении которых товар "
 "должен быть удален со склада. Оно рассчитывается по номеру партии/серийному "
@@ -7838,12 +7889,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "deteriorating, without being dangerous yet. It will be computed on the "
 "lot/serial number."
 msgstr ""
 "Количество дней до даты истечения срока годности, по истечении которых товар"
 " начинает портиться, еще не являясь опасным. Оно рассчитывается по номеру "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8074,6 +8128,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8387,8 +8444,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Это дата, с которой товар с данным серийным номером может стать опасным и не"
 " подлежит употреблению."
+=======
+"Это дата, с которой товар с данным серийным номером может стать опасным и не "
+"подлежит употреблению."
+>>>>>>> upstream/18.0
 =======
 "Это дата, с которой товар с данным серийным номером может стать опасным и не "
 "подлежит употреблению."
@@ -8778,8 +8840,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "склада. Эта дата будет использоваться в стратегии удаления товаров со склада"
 " FEFO."
+=======
+"склада. Эта дата будет использоваться в стратегии удаления товаров со склада "
+"FEFO."
+>>>>>>> upstream/18.0
 =======
 "склада. Эта дата будет использоваться в стратегии удаления товаров со склада "
 "FEFO."
@@ -9193,6 +9260,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "When this box is ticked, you have the possibility to specify dates to manage"
 " product expiration, on the product and on the corresponding lot/serial "
 "numbers"
@@ -9201,6 +9269,8 @@ msgstr ""
 " сроком годности продукта, на продукте и на соответствующих номерах "
 "партии/серии"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9433,6 +9503,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9668,7 +9741,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Вы собираетесь доставить несколько партий товара с истекшим сроком годности.\n"
+=======
+"Вы собираетесь доставить несколько партий товара с истекшим сроком "
+"годности.\n"
+>>>>>>> upstream/18.0
 =======
 "Вы собираетесь доставить несколько партий товара с истекшим сроком "
 "годности.\n"
@@ -10055,11 +10133,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You are going to deliver the product %(product_name)s, %(lot_name)s which is expired.\n"
 "Do you confirm you want to proceed?"
 msgstr ""
 "Вы собираетесь доставить продукт %(product_name)s, %(lot_name)s, срок годности которого истек.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10291,6 +10372,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

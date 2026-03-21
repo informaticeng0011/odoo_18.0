@@ -220,8 +220,14 @@ class ResetGoogleAccount(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             events.google_id = False
             recurrences.google_id = False
+=======
+            # Flag need_sync as False in order to skip the write permission when resetting.
+            events.with_context(skip_event_permission=True).google_id = False
+            recurrences.with_context(skip_event_permission=True).google_id = False
+>>>>>>> upstream/18.0
 =======
             # Flag need_sync as False in order to skip the write permission when resetting.
             events.with_context(skip_event_permission=True).google_id = False
@@ -1301,7 +1307,11 @@ class ResetGoogleAccount(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             events.write(next_sync_update)
+=======
+            events.with_context(skip_event_permission=True).write(next_sync_update)
+>>>>>>> upstream/18.0
 =======
             events.with_context(skip_event_permission=True).write(next_sync_update)
 >>>>>>> upstream/18.0

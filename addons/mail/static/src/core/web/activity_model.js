@@ -2,9 +2,12 @@ import { Record } from "@mail/core/common/record";
 import { assignDefined } from "@mail/utils/common/misc";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { _t } from "@web/core/l10n/translation";
 import { formatDate, formatDateTime } from "@web/core/l10n/dates";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -14,6 +17,9 @@ import { _t } from "@web/core/l10n/translation";
 import { formatDate, formatDateTime } from "@web/core/l10n/dates";
 import { setElementContent } from "@web/core/utils/html";
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -122,7 +128,10 @@ export class Activity extends Record {
     id;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     /** @type {boolean} */
@@ -138,6 +147,9 @@ export class Activity extends Record {
         },
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -189,7 +189,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from datetime import datetime
+=======
+import json
+from base64 import b64decode
+>>>>>>> upstream/18.0
 =======
 import json
 from base64 import b64decode
@@ -1148,6 +1153,7 @@ class TestSaEdiCommon(AccountEdiTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     @classmethod
     @AccountEdiTestCommon.setup_edi_format('l10n_sa_edi.edi_sa_zatca')
@@ -1308,6 +1314,8 @@ class TestSaEdiCommon(AccountEdiTestCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2035,6 +2043,9 @@ class TestSaEdiCommon(AccountEdiTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2615,7 +2626,10 @@ class TestSaEdiCommon(AccountEdiTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3187,6 +3201,9 @@ class TestSaEdiCommon(AccountEdiTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3574,6 +3591,7 @@ class TestSaEdiCommon(AccountEdiTestCommon):
             </xpath>
             <xpath expr="//*[local-name()='InvoiceLine']/*[local-name()='ID']" position="replace">
                 <cbc:ID xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">___ignore___</cbc:ID>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4253,6 +4271,8 @@ class TestSaEdiCommon(AccountEdiTestCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             </xpath>
         '''
 
@@ -4447,6 +4467,9 @@ class TestSaEdiCommon(AccountEdiTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4840,6 +4863,7 @@ class TestSaEdiCommon(AccountEdiTestCommon):
             </xpath>
             <xpath expr="//*[local-name()='InvoiceLine']/*[local-name()='ID']" position="replace">
                 <cbc:ID xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">___ignore___</cbc:ID>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5622,6 +5646,8 @@ class TestSaEdiCommon(AccountEdiTestCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             </xpath>
         '''
 
@@ -5674,7 +5700,12 @@ class TestSaEdiCommon(AccountEdiTestCommon):
         invoice_date='2025-01-01',
         invoice_date_due='2025-01-01',
         currency_id=None,
+<<<<<<< HEAD
         invoice_line_ids=[]):
+=======
+        invoice_line_ids=[],
+        **kwargs):
+>>>>>>> upstream/18.0
         """
         Create a draft invoice with the given parameters.
         """
@@ -5700,6 +5731,10 @@ class TestSaEdiCommon(AccountEdiTestCommon):
             'invoice_line_ids': [
                 _create_invoice_line(line) for line in invoice_line_ids
             ],
+<<<<<<< HEAD
+=======
+            **kwargs,
+>>>>>>> upstream/18.0
         }
         return self.env['account.move'].create(vals)
 
@@ -5967,6 +6002,9 @@ class TestSaEdiCommon(AccountEdiTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

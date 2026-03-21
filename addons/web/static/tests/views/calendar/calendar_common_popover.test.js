@@ -62,6 +62,10 @@ const FAKE_RECORD = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        description: "<p>Test description</p>",
+>>>>>>> upstream/18.0
 =======
         description: "<p>Test description</p>",
 >>>>>>> upstream/18.0
@@ -266,6 +270,10 @@ test(`mount a CalendarCommonPopover`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expect(`.list-group.o_cw_popover_fields_secondary div[name="description"]`).toHaveClass("text-wrap");
+>>>>>>> upstream/18.0
 =======
     expect(`.list-group.o_cw_popover_fields_secondary div[name="description"]`).toHaveClass("text-wrap");
 >>>>>>> upstream/18.0
