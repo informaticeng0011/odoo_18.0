@@ -164,10 +164,15 @@ class TestSalePrices(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.assertEqual(order_line.pricelist_item_id, pricelist_rule)
             self.assertEqual(
                 order_line.price_unit,
                 self.product.lst_price)
+=======
+            self.assertAlmostEqual(order_line.pricelist_item_id, pricelist_rule)
+            self.assertAlmostEqual(order_line.price_unit, self.product.lst_price)
+>>>>>>> upstream/18.0
 =======
             self.assertAlmostEqual(order_line.pricelist_item_id, pricelist_rule)
             self.assertAlmostEqual(order_line.price_unit, self.product.lst_price)
@@ -818,7 +823,10 @@ class TestSalePrices(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1298,9 +1306,15 @@ class TestSalePrices(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 self.assertEqual(line_form.price_unit, 0.83)
                 line_form.product_uom_qty = 1000
                 self.assertEqual(line_form.price_unit, 0.55)
+=======
+                self.assertAlmostEqual(line_form.price_unit, 0.825)
+                line_form.product_uom_qty = 1000
+                self.assertAlmostEqual(line_form.price_unit, 0.55)
+>>>>>>> upstream/18.0
 =======
                 self.assertAlmostEqual(line_form.price_unit, 0.825)
                 line_form.product_uom_qty = 1000
@@ -1788,6 +1802,9 @@ class TestSalePrices(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2880,7 +2897,10 @@ class TestSalePrices(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3535,6 +3555,9 @@ class TestSalePrices(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4389,7 +4412,10 @@ class TestSalePrices(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5003,6 +5029,9 @@ class TestSalePrices(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

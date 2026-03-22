@@ -13,7 +13,11 @@ registry.category("web_tour.tours").add("L10nJoEdiPosTour", {
             ProductScreen.addOrderline("Desk Pad", "1"),
             ProductScreen.clickPayButton(),
 <<<<<<< HEAD
+<<<<<<< HEAD
             PaymentScreen.clickPaymentMethod("Bank"),
+=======
+            PaymentScreen.clickPaymentMethod("Cash"),
+>>>>>>> upstream/18.0
 =======
             PaymentScreen.clickPaymentMethod("Cash"),
 >>>>>>> upstream/18.0

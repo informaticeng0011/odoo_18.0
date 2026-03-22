@@ -110,6 +110,7 @@ class LoyaltyRule(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.constrains('code', 'website_id')
     def _constrains_code(self):
         #Programs with the same code are allowed to coexist as long
@@ -121,6 +122,8 @@ class LoyaltyRule(models.Model):
             ('mode', '=', 'with_code'), ('code', 'in', mapped_codes),
             ('id', 'not in', with_code.ids)],
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -430,6 +433,9 @@ class LoyaltyRule(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -739,7 +745,13 @@ class LoyaltyRule(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self.env['loyalty.card'].search_count([('code', 'in', mapped_codes)]):
+=======
+        if self.env['loyalty.card'].search_count([
+            ('code', 'in', mapped_codes), ('active', '=', True)
+        ]):
+>>>>>>> upstream/18.0
 =======
         if self.env['loyalty.card'].search_count([
             ('code', 'in', mapped_codes), ('active', '=', True)

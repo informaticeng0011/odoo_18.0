@@ -166,6 +166,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+from pprint import pformat
+
+>>>>>>> upstream/18.0
 =======
 
 from pprint import pformat
@@ -1176,6 +1182,10 @@ FIELDS_MAPPING = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'postal_town': ['city'],  # Used instead of locality in some countries
+>>>>>>> upstream/18.0
 =======
     'postal_town': ['city'],  # Used instead of locality in some countries
 >>>>>>> upstream/18.0
@@ -1847,7 +1857,11 @@ FIELDS_MAPPING = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 FIELDS_PRIORITY = ['country', 'street_number', 'neighborhood', 'locality', 'route', 'postal_code',
+=======
+FIELDS_PRIORITY = ['country', 'street_number', 'locality', 'postal_town', 'route', 'postal_code',
+>>>>>>> upstream/18.0
 =======
 FIELDS_PRIORITY = ['country', 'street_number', 'locality', 'postal_town', 'route', 'postal_code',
 >>>>>>> upstream/18.0
@@ -2533,7 +2547,10 @@ class AutoCompleteController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3034,6 +3051,9 @@ class AutoCompleteController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3625,10 +3645,13 @@ class AutoCompleteController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Keep only the first type from the list of types
         for res in results:
             res['type'] = res.pop('types')[0]
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4128,6 +4151,9 @@ class AutoCompleteController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

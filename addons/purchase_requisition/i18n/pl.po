@@ -119,8 +119,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* purchase_requisition
 # 
+=======
+# * purchase_requisition
+#
+>>>>>>> upstream/18.0
 =======
 # * purchase_requisition
 #
@@ -720,6 +725,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 =======
 #
@@ -1218,10 +1224,16 @@
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 # "Marta (wacm)" <wacm@odoo.com>, 2026.
 >>>>>>> upstream/18.0
+=======
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+# "Marta (wacm)" <wacm@odoo.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1708,12 +1720,18 @@ msgstr ""
 "PO-Revision-Date: 2026-03-03 17:41+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-03-21 09:23+0000\n"
+"Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Polish <https://translate.odoo.com/projects/odoo-18/"
 "purchase_requisition/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2307,11 +2325,21 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
+"(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
+"n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisition_document
 msgid "$50"
+<<<<<<< HEAD
 msgstr "50 USD"
+=======
+msgstr "$50"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisition_document
@@ -2356,7 +2384,11 @@ msgstr "<strong>Kontakt:</strong><br/>"
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisition_document
 msgid "<strong>Reference:</strong><br/>"
+<<<<<<< HEAD
 msgstr "<strong>Odniesienie:</strong><br/>"
+=======
+msgstr "<strong>Referencja:</strong><br/>"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition__message_needaction
@@ -2371,7 +2403,11 @@ msgstr "Aktywne"
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition__activity_ids
 msgid "Activities"
+<<<<<<< HEAD
 msgstr "Czynności"
+=======
+msgstr "Aktywności"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition__activity_exception_decoration
@@ -2399,17 +2435,29 @@ msgstr "Umowa"
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_order__requisition_type
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition__requisition_type
 msgid "Agreement Type"
+<<<<<<< HEAD
 msgstr "Typ Kontraktu"
+=======
+msgstr "Typ umowy"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_form
 msgid "Agreement Validity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ważność umowy"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisition_document
 msgid "Agreement Validity:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ważność umowy:"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_order__alternative_po_ids
@@ -2569,7 +2617,11 @@ msgid "Company Subtotal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Suma częściowa firmy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Suma częściowa firmy"
 >>>>>>> upstream/18.0
@@ -2859,7 +2911,11 @@ msgid "Company Total"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Suma firmy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Suma firmy"
 >>>>>>> upstream/18.0
@@ -3594,12 +3650,20 @@ msgstr "Suma firmy"
 #. odoo-python
 #: code:addons/purchase_requisition/models/purchase.py:0
 msgid "Compare Order Lines"
+<<<<<<< HEAD
 msgstr "Porównanie linii zamówień"
+=======
+msgstr "Porównaj pozycje zamówień"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.purchase_order_form_inherit
 msgid "Compare Product Lines"
+<<<<<<< HEAD
 msgstr "Porównanie linii produktów"
+=======
+msgstr "Porównaj pozycje produktów"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model,name:purchase_requisition.model_res_config_settings
@@ -3625,7 +3689,11 @@ msgid "Config Settings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ustawienia konfiguracji"
+=======
+msgstr "Konfiguracja ustawień"
+>>>>>>> upstream/18.0
 =======
 msgstr "Konfiguracja ustawień"
 >>>>>>> upstream/18.0
@@ -3712,7 +3780,11 @@ msgstr ""
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_create_alternative__copy_products
 msgid "Copy Products"
+<<<<<<< HEAD
 msgstr "Kopiowanie produktów"
+=======
+msgstr "Kopiuj produkty"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.purchase_order_form_inherit
@@ -3800,10 +3872,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Create a call for tender by adding alternative requests for quotation to different vendors.\n"
 "                            Make your choice by selecting the best combination of lead time, OTD and/or total amount.\n"
 "                            By comparing product lines you can also decide to order some products from one vendor and others from another vendor."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4038,6 +4113,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4192,6 +4268,16 @@ msgid ""
 =======
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr ""
+"Utwórz zapytanie ofertowe, dodając alternatywne zapytania ofertowe do "
+"różnych dostawców.\n"
+"                                 Dokonaj wyboru, wybierając najlepszą "
+"kombinację czasu realizacji, OTD i/lub całkowitej kwoty.\n"
+"                                 Porównując pozycje produktów, możesz "
+"również zdecydować się na zamówienie niektórych produktów od jednego "
+"dostawcy, a innych od innego."
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #. odoo-python
@@ -4235,7 +4321,11 @@ msgstr "Data"
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisition_document
 msgid "Demo Reference"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Demo Referencja"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition__description
@@ -4265,18 +4355,30 @@ msgstr "Konto dystrybucji analitycznej"
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
 msgid "Done"
+<<<<<<< HEAD
 msgstr "Wykonano"
+=======
+msgstr "Gotowe"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields.selection,name:purchase_requisition.selection__purchase_requisition__state__draft
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
 msgid "Draft"
+<<<<<<< HEAD
 msgstr "Projekt"
+=======
+msgstr "Wersja robocza"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition__date_end
 msgid "End Date"
+<<<<<<< HEAD
 msgstr "Data końcowa"
+=======
+msgstr "Data zakończenia"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #. odoo-python
@@ -4285,21 +4387,38 @@ msgid ""
 "End date cannot be earlier than start date. Please check dates for "
 "agreements: %s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Data zakończenia nie może być wcześniej niż data rozpoczęcia. Sprawdź daty "
+"umów: %s"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisition_document
 msgid "Expected on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oczekiwane dnia"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition__message_follower_ids
 msgid "Followers"
+<<<<<<< HEAD
 msgstr "Obserwatorzy"
+=======
+msgstr "Obserwujący"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition__message_partner_ids
 msgid "Followers (Partners)"
+<<<<<<< HEAD
 msgstr "Obserwatorzy (partnerzy)"
+=======
+msgstr "Obserwujący (partnerzy)"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields,help:purchase_requisition.field_purchase_requisition__activity_type_icon
@@ -4310,6 +4429,7 @@ msgstr "Ikona Font awesome np. fa-tasks"
 #: model_terms:ir.actions.act_window,help:purchase_requisition.action_purchase_requisition
 msgid ""
 "For a blanket order, you can record an agreement for a specific period\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4545,10 +4665,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "            (e.g. a year) and you order products within this agreement to "
 "benefit\n"
 "            from the negotiated prices."
 msgstr ""
+<<<<<<< HEAD
 "W przypadku zamówienia zbiorczego można zarejestrować umowę na określony "
 "okres (np. rok) i zamówić produkty w ramach tej umowy.\n"
 "(np. rok) i zamówić produkty w ramach tej umowy, aby skorzystać z "
@@ -4783,11 +4906,21 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "z wynegocjowanych cen."
+=======
+"W przypadku zamówienia zbiorczego można zawrzeć umowę na określony okres\n"
+"            (np. rok) i zamawiać produkty w ramach tej umowy i płacić za "
+"nie\n"
+"            wcześniej wynegocjowaną, stałą cenę."
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
 msgid "Future Activities"
+<<<<<<< HEAD
 msgstr "Przyszłe czynności"
+=======
+msgstr "Przyszłe aktywności"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
@@ -4841,6 +4974,7 @@ msgstr ""
 #: model:ir.model.fields,help:purchase_requisition.field_purchase_requisition_create_alternative__creation_blocked
 msgid ""
 "If the chosen vendor or if any of the products in the original PO have a "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5080,6 +5214,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "blocking warning then we prevent creation of alternative PO. This is because "
 "normally these fields are cleared w/warning message within form view, but we "
 "cannot recreate that in this case."
@@ -5165,6 +5301,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5330,7 +5469,11 @@ msgstr ""
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition__message_is_follower
 msgid "Is Follower"
+<<<<<<< HEAD
 msgstr "Jest obserwatorem"
+=======
+msgstr "Jest obserwującym"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.purchase_requisition_alternative_warning_form
@@ -5344,7 +5487,11 @@ msgstr "Zachowaj alternatywy"
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_create_alternative__write_uid
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_line__write_uid
 msgid "Last Updated by"
+<<<<<<< HEAD
 msgstr "Ostatnio aktualizowane przez"
+=======
+msgstr "Ostatnio zaktualizowane przez"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_order_group__write_date
@@ -5482,7 +5629,11 @@ msgid "Link RFQs together and compare them"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Połącz ze sobą RFQ i porównaj je"
+>>>>>>> upstream/18.0
 =======
 msgstr "Połącz ze sobą RFQ i porównaj je"
 >>>>>>> upstream/18.0
@@ -5849,7 +6000,11 @@ msgstr "Link do istniejącego RfQ"
 #. module: purchase_requisition
 #: model:res.groups,name:purchase_requisition.group_purchase_alternatives
 msgid "Manage Purchase Alternatives"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zarządzaj alternatywami zakupu"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition__message_has_error
@@ -5869,7 +6024,11 @@ msgstr "Mitchell Admin"
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition__my_activity_date_deadline
 msgid "My Activity Deadline"
+<<<<<<< HEAD
 msgstr "Ostateczny terminin moich aktywności"
+=======
+msgstr "Ostateczny termin moich aktywności"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
@@ -5900,28 +6059,48 @@ msgstr "Nowa oferta"
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
+<<<<<<< HEAD
 msgstr "Następna Czynność wydarzenia w kalendarzu"
+=======
+msgstr "Następna aktywność wydarzenia w kalendarzu"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition__activity_date_deadline
 msgid "Next Activity Deadline"
+<<<<<<< HEAD
 msgstr "Termin kolejnej czynności"
+=======
+msgstr "Termin kolejnej aktywności"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition__activity_summary
 msgid "Next Activity Summary"
+<<<<<<< HEAD
 msgstr "Podsumowanie kolejnej czynności"
+=======
+msgstr "Podsumowanie kolejnej aktywności"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition__activity_type_id
 msgid "Next Activity Type"
+<<<<<<< HEAD
 msgstr "Typ następnej czynności"
+=======
+msgstr "Typ następnej aktywności"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #. odoo-python
 #: code:addons/purchase_requisition/models/purchase.py:0
 msgid "Nothing to clear"
+<<<<<<< HEAD
 msgstr "Nic do czyszczenia"
+=======
+msgstr "Nic do wyczyszczenia"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition__message_needaction_counter
@@ -5972,7 +6151,11 @@ msgstr "Zamówienia"
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_create_alternative__origin_po_id
 msgid "Origin Po"
+<<<<<<< HEAD
 msgstr "Pochodzenie Po"
+=======
+msgstr "Oryginalne zamówienie"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields,help:purchase_requisition.field_purchase_order__alternative_po_ids
@@ -5982,7 +6165,11 @@ msgstr "Inne potencjalne zamówienia zakupu produktów"
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_alternative_warning__po_ids
 msgid "POs to Confirm"
+<<<<<<< HEAD
 msgstr "PO do potwierdzenia"
+=======
+msgstr "Zamówienia do potwierdzenia"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition__product_id
@@ -6020,7 +6207,11 @@ msgstr "Umowa kupna"
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisition_document
 msgid "Purchase Agreement:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Umowa kupna:"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.actions.act_window,name:purchase_requisition.action_purchase_requisition
@@ -6153,7 +6344,11 @@ msgid "Purchase Alternatives"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alternatywne opcje zakupu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alternatywne opcje zakupu"
 >>>>>>> upstream/18.0
@@ -6545,7 +6740,11 @@ msgstr "Zamówienia zakupu ze zleceniem"
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisition_document
 msgid "Purchase Reference"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Referencja zakupu"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition__user_id
@@ -6567,12 +6766,20 @@ msgstr "Pozycja zlecenia zakupu"
 #. module: purchase_requisition
 #: model:ir.model.fields.selection,name:purchase_requisition.selection__purchase_requisition__requisition_type__purchase_template
 msgid "Purchase Template"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Szablon zakupu"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
 msgid "Purchase Templates"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Szablony zakupu"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_line__product_qty
@@ -6603,7 +6810,11 @@ msgstr "Oceny"
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisition_document
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
 msgid "Reference"
+<<<<<<< HEAD
 msgstr "Odnośnik"
+=======
+msgstr "Referencja"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.actions.act_window,name:purchase_requisition.action_purchase_requisition_to_so
@@ -6613,7 +6824,11 @@ msgstr "Zapytanie ofertowe"
 #. module: purchase_requisition
 #: model:ir.actions.act_window,name:purchase_requisition.action_purchase_requisition_list
 msgid "Request for Quotations"
+<<<<<<< HEAD
 msgstr "Dokonaj zapytania ofertowego"
+=======
+msgstr "Zapytanie ofertowe"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.purchase_order_search_inherit
@@ -6623,7 +6838,11 @@ msgstr "Zlecenie"
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_form
 msgid "Reset to Draft"
+<<<<<<< HEAD
 msgstr "Przywróć do projektu"
+=======
+msgstr "Przywróć do wersji roboczej"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition__activity_user_id
@@ -6651,7 +6870,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/purchase_requisition/models/purchase.py:0
 msgid "Some not cleared"
+<<<<<<< HEAD
 msgstr "Niektóre nie zostały wyczyszczone"
+=======
+msgstr "Niektóre niewyczyszczone"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #. odoo-python
@@ -6665,12 +6888,20 @@ msgstr ""
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition__date_start
 msgid "Start Date"
+<<<<<<< HEAD
 msgstr "Data początkowa"
+=======
+msgstr "Data rozpoczęcia"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.actions.act_window,help:purchase_requisition.action_purchase_requisition
 msgid "Start a new purchase agreement"
+<<<<<<< HEAD
 msgstr "Rozpoczęcie nowej umowy zakupu"
+=======
+msgstr "Rozpoczęcie nowej umowy kupna"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition__state
@@ -6687,10 +6918,17 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
+<<<<<<< HEAD
 "Status na podstawie czynności\n"
 "Zaległe: Termin już minął\n"
 "Dzisiaj: Data czynności przypada na dzisiaj\n"
 "Zaplanowane: Przyszłe czynności."
+=======
+"Status na podstawie aktywności\n"
+"Zaległe: Termin już minął\n"
+"Dzisiaj: Data aktywności przypada na dzisiaj\n"
+"Zaplanowane: Przyszłe aktywności."
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_line__supplier_info_ids
@@ -6706,7 +6944,12 @@ msgstr "Cennik dostawcy"
 #: model:ir.model,name:purchase_requisition.model_purchase_order_group
 msgid "Technical model to group PO for call to tenders"
 msgstr ""
+<<<<<<< HEAD
 "Model techniczny do grupowania PO na potrzeby zaproszenia do składania ofert"
+=======
+"Model techniczny do grupowania zamówień na potrzeby zaproszenia do składania "
+"ofert"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_form
@@ -6723,6 +6966,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/purchase_requisition/wizard/purchase_requisition_create_alternative.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7188,6 +7432,11 @@ msgid ""
 "from the original order has a blocking warning on it and cannot be selected "
 "to create an alternative."
 >>>>>>> upstream/18.0
+=======
+"The vendor you have selected or at least one of the products you are copying "
+"from the original order has a blocking warning on it and cannot be selected "
+"to create an alternative."
+>>>>>>> upstream/18.0
 msgstr ""
 "Wybrany sprzedawca lub co najmniej jeden z produktów kopiowanych z "
 "oryginalnego zamówienia ma ostrzeżenie o blokowaniu i nie można go wybrać w "
@@ -7207,7 +7456,11 @@ msgid ""
 "complete this open blanket order, instead of creating a new one."
 msgstr ""
 "Istnieje już otwarte zamówienie zbiorcze dla tego dostawcy. Sugerujemy "
+<<<<<<< HEAD
 "wypełnienie tego otwartego zamówienia zbiorczego zamiast tworzenia nowego."
+=======
+"dokończenie tego otwartego zamówienia zbiorczego zamiast tworzenia nowego."
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #. odoo-python
@@ -7221,6 +7474,7 @@ msgstr "To jest ostrzeżenie o blokowaniu!\n"
 msgid ""
 "To close this purchase requisition, cancel related Requests for Quotation.\n"
 "\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7608,11 +7862,24 @@ msgid ""
 "double the trouble :)"
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"Imagine the mess if someone confirms these duplicates: double the order, "
+"double the trouble :)"
+msgstr ""
+"Aby zamknąć to zlecenie zakupu, anuluj powiązane zapytania ofertowe.\n"
+"\n"
+"Wyobraź sobie bałagan, gdyby ktoś potwierdził te duplikaty: podwójne "
+"zamówienie, podwójny kłopot :)"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
 msgid "Today Activities"
+<<<<<<< HEAD
 msgstr "Dzisiejsze czynności"
+=======
+msgstr "Dzisiejsze aktywności"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.purchase_order_line_compare_tree
@@ -7623,7 +7890,11 @@ msgstr "Suma"
 #. module: purchase_requisition
 #: model:ir.model.fields,help:purchase_requisition.field_purchase_requisition__activity_exception_decoration
 msgid "Type of the exception activity on record."
+<<<<<<< HEAD
 msgstr "Typ wyjątku działania na rekordzie."
+=======
+msgstr "Typ wyjątku aktywności na rekordzie."
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisition_document
@@ -7677,7 +7948,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/purchase_requisition/models/purchase_requisition.py:0
 msgid "Warning for %s"
+<<<<<<< HEAD
 msgstr "Ostrzeżenie do %s"
+=======
+msgstr "Ostrzeżenie %s"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition__website_message_ids
@@ -7693,11 +7968,16 @@ msgstr "Historia komunikacji"
 #. odoo-python
 #: code:addons/purchase_requisition/models/purchase.py:0
 msgid "What about the alternative Requests for Quotations?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A co z alternatywnymi zapytaniami ofertowymi?"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields,help:purchase_requisition.field_purchase_order__has_alternatives
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8085,6 +8365,10 @@ msgid ""
 "Whether or not this purchase order is linked to another purchase order as an "
 "alternative."
 >>>>>>> upstream/18.0
+=======
+"Whether or not this purchase order is linked to another purchase order as an "
+"alternative."
+>>>>>>> upstream/18.0
 msgstr ""
 "Czy to zamówienie zakupu jest alternatywnie powiązane z innym zamówieniem "
 "zakupu."
@@ -8093,7 +8377,12 @@ msgstr ""
 #: model:ir.model,name:purchase_requisition.model_purchase_requisition_alternative_warning
 msgid "Wizard in case PO still has open alternative requests for quotation"
 msgstr ""
+<<<<<<< HEAD
 "Kreator w przypadku, gdy PO nadal ma otwarte alternatywne zapytania ofertowe"
+=======
+"Kreator w przypadku, gdy zamówienie nadal ma otwarte alternatywne zapytania "
+"ofertowe"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model,name:purchase_requisition.model_purchase_requisition_create_alternative
@@ -8113,23 +8402,39 @@ msgid ""
 "You cannot change the Agreement Type or Company of a not draft purchase "
 "agreement."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Nie można zmienić typu umowy ani nazwy firmy w umowie zakupu, która nie jest "
+"wersją roboczą."
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #. odoo-python
 #: code:addons/purchase_requisition/models/purchase_requisition.py:0
 msgid "You cannot confirm a blanket order with lines missing a price."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Nie można potwierdzić zamówienia zbiorczego, w którym u niektórych pozycji "
+"brakuje ceny."
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #. odoo-python
 #: code:addons/purchase_requisition/models/purchase_requisition.py:0
 msgid "You cannot confirm a blanket order with lines missing a quantity."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Nie można potwierdzić zamówienia zbiorczego, w którym u niektórych pozycji "
+"brakuje ilości."
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #. odoo-python
 #: code:addons/purchase_requisition/models/purchase_requisition.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8518,6 +8823,13 @@ msgid ""
 "product lines."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"You cannot confirm agreement '%(agreement)s' because it does not contain any "
+"product lines."
+msgstr ""
+"Nie można potwierdzić umowy „%(agreement)s ”, ponieważ nie zawiera ona "
+"żadnych pozycji produktów."
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #. odoo-python
@@ -8526,6 +8838,11 @@ msgid ""
 "You cannot have a negative or unit price of 0 for an already confirmed "
 "blanket order."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Nie można podać ceny ujemnej ani ceny jednostkowej równej 0 dla już "
+"potwierdzonego zamówienia ramowego."
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_form

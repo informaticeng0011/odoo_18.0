@@ -53,6 +53,10 @@ import logging
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import math
+>>>>>>> upstream/18.0
 =======
 import math
 >>>>>>> upstream/18.0
@@ -400,7 +404,11 @@ from odoo import api, fields, models, tools
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools import posix_to_ldml, float_utils, format_date, format_duration
+=======
+from odoo.tools import posix_to_ldml, float_is_zero, float_utils, format_date, format_duration
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import posix_to_ldml, float_is_zero, float_utils, format_date, format_duration
 >>>>>>> upstream/18.0
@@ -1186,6 +1194,7 @@ class FloatConverter(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if 'decimal_precision' in options:
             precision = self.env['decimal.precision'].precision_get(options['decimal_precision'])
         else:
@@ -1208,6 +1217,8 @@ class FloatConverter(models.AbstractModel):
 
         return formatted
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1372,8 +1383,11 @@ class FloatConverter(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             precision = 6
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1525,6 +1539,9 @@ class FloatConverter(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1694,6 +1711,9 @@ class FloatConverter(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1867,6 +1887,7 @@ class FloatConverter(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         if 'min_precision' not in options:
             min_precision = record._fields[field_name].get_min_display_digits(record.env)
@@ -1878,6 +1899,8 @@ class FloatConverter(models.AbstractModel):
             options = dict(options, min_precision=min_precision)
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2042,6 +2065,9 @@ class FloatConverter(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2462,7 +2488,10 @@ class ManyToManyConverter(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2965,6 +2994,9 @@ class OneToManyConverter(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3332,6 +3364,7 @@ class ImageConverter(models.AbstractModel):
         except binascii.Error:
             raise ValueError("Invalid image content") from None
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3916,6 +3949,8 @@ class ImageConverter(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         mimetype = guess_mimetype(img_b64, '') if img_b64 else None
         if mimetype == 'image/webp':
             return self.env["ir.qweb"]._get_converted_image_data_uri(value)
@@ -4120,6 +4155,9 @@ class ImageConverter(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4518,7 +4556,11 @@ class ImageUrlConverter(models.AbstractModel):
     def value_to_html(self, value, options):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return Markup('<img src="%s">' % (value))
+=======
+        return Markup('<img src="%s">') % (value)
+>>>>>>> upstream/18.0
 =======
         return Markup('<img src="%s">') % (value)
 >>>>>>> upstream/18.0
@@ -4765,6 +4807,12 @@ class MonetaryConverter(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if float_is_zero(value, precision_digits=display_currency.decimal_places):
+            value = 0.0
+
+>>>>>>> upstream/18.0
 =======
         if float_is_zero(value, precision_digits=display_currency.decimal_places):
             value = 0.0

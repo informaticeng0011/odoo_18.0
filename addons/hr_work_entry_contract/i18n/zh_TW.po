@@ -78,12 +78,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Tony Ng, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -317,6 +320,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -474,6 +480,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -712,6 +719,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Tony Ng, 2024\n"
@@ -797,6 +806,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1036,10 +1048,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Working Schedule: Work entries will be generated from the working hours below.\n"
 "        Attendances: Work entries will be generated from the employee's attendances. (requires Attendance app)\n"
 "        Planning: Work entries will be generated from the employee's planning. (requires Planning app)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1274,6 +1289,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1528,7 +1546,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "員工 %(employee)s 在 %(date_start)s 至 %(date_end)s 期間，有多份不同合約。工作記項不可與多份合約重疊。"
+=======
+"員工 %(employee)s 在 %(date_start)s 至 %(date_end)s 期間，有多份不同合約。工"
+"作記項不可與多份合約重疊。"
+>>>>>>> upstream/18.0
 =======
 "員工 %(employee)s 在 %(date_start)s 至 %(date_end)s 期間，有多份不同合約。工"
 "作記項不可與多份合約重疊。"
@@ -1920,7 +1943,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-exclamation-triangle me-1\" title=\"警告\"/> 已驗證的工作記錄不可重新生成"
+=======
+msgstr ""
+"<i class=\"fa fa-exclamation-triangle me-1\" title=\"警告\"/> 已驗證的工作記"
+"錄不可重新生成"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "<i class=\"fa fa-exclamation-triangle me-1\" title=\"警告\"/> 已驗證的工作記"
@@ -2394,7 +2423,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span class=\"text-muted\">警告：重新生成工作記錄將刪除選定時間段的所有手動更改。</span>"
+=======
+msgstr ""
+"<span class=\"text-muted\">警告：重新生成工作記錄將刪除選定時間段的所有手動更"
+"改。</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "<span class=\"text-muted\">警告：重新生成工作記錄將刪除選定時間段的所有手動更"
@@ -2984,6 +3019,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In order to regenerate the work entries, you need to provide the wizard with"
 " an employee_id, a date_from and a date_to. In addition to that, the time "
 "interval defined by date_from and date_to must not contain any validated "
@@ -2992,6 +3028,8 @@ msgstr ""
 "為了重新生成工時紀錄，您需要為嚮導提供一個employee_id、一個date_from 和一個date_to。除此之外，由 date_from 和 "
 "date_to 定義的時間間隔不得包含任何經過驗證的工時紀錄。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3228,6 +3266,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3533,8 +3574,12 @@ msgstr "病假"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Sorry, generating work entries from cancelled contracts is not allowed."
+=======
+msgid "Sorry, generating work entries from cancelled contracts is not allowed."
+>>>>>>> upstream/18.0
 =======
 msgid "Sorry, generating work entries from cancelled contracts is not allowed."
 >>>>>>> upstream/18.0
@@ -3853,8 +3898,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "起始日期必須 >= '%(earliest_available_date)s'，結束日期必須為 <= "
 "'%(latest_available_date)s'，它們對應於生成的工時紀錄時間間隔。"
+=======
+"起始日期必須 >= '%(earliest_available_date)s'，結束日期必須為 <= '%"
+"(latest_available_date)s'，它們對應於生成的工時紀錄時間間隔。"
+>>>>>>> upstream/18.0
 =======
 "起始日期必須 >= '%(earliest_available_date)s'，結束日期必須為 <= '%"
 "(latest_available_date)s'，它們對應於生成的工時紀錄時間間隔。"

@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* pos_loyalty
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -310,12 +311,17 @@
 =======
 #
 >>>>>>> upstream/18.0
+=======
+# * pos_loyalty
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Mads Søndergaard, 2024
 # lhmflexerp <lhm@flexerp.dk>, 2024
 # Mads Søndergaard, 2024
 # Martin Trigaux, 2024
 # Sanne Kristensen <sanne@vkdata.dk>, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1158,10 +1164,15 @@
 # Kira Petersen, 2025
 #
 >>>>>>> upstream/18.0
+=======
+# Kira Petersen, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1860,10 +1871,18 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Kira Petersen, 2025\n"
 "Language-Team: Danish (https://app.transifex.com/odoo/teams/41243/da/)\n"
+=======
+"POT-Creation-Date: 2026-03-20 18:37+0000\n"
+"PO-Revision-Date: 2026-03-21 18:01+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Danish <https://translate.odoo.com/projects/odoo-18/"
+"pos_loyalty/da/>\n"
+>>>>>>> upstream/18.0
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2094,11 +2113,16 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+=======
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_pos_order_line__reward_identifier_code
 msgid ""
 "\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2334,6 +2358,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "        Technical field used to link multiple reward lines from the same "
 "reward together.\n"
 "    "
@@ -2417,6 +2443,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2788,7 +2817,11 @@ msgid "A coupon/loyalty card must have a unique code."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "En rabatkupon/medlemskort skal have en unik kode."
+>>>>>>> upstream/18.0
 =======
 msgstr "En rabatkupon/medlemskort skal have en unik kode."
 >>>>>>> upstream/18.0
@@ -3573,7 +3606,11 @@ msgid "Active loyalty cards"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aktive medlemskort"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aktive medlemskort"
 >>>>>>> upstream/18.0
@@ -4343,7 +4380,11 @@ msgid "Add Balance"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tilføj balance"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tilføj balance"
 >>>>>>> upstream/18.0
@@ -5139,7 +5180,11 @@ msgid "Available rewards"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tilgængelige belønninger"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tilgængelige belønninger"
 >>>>>>> upstream/18.0
@@ -5986,7 +6031,11 @@ msgid "Enter Gift Card Number"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Indtast nummer på gavekort"
+>>>>>>> upstream/18.0
 =======
 msgstr "Indtast nummer på gavekort"
 >>>>>>> upstream/18.0
@@ -6756,7 +6805,11 @@ msgid "Enter amount"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Indtast beløb"
+>>>>>>> upstream/18.0
 =======
 msgstr "Indtast beløb"
 >>>>>>> upstream/18.0
@@ -7411,6 +7464,14 @@ msgid "Is Reward Line"
 msgstr "Er belønning linje"
 
 #. module: pos_loyalty
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:pos_loyalty.model_account_move_line
+msgid "Journal Item"
+msgstr "Posteringslinje"
+
+#. module: pos_loyalty
+>>>>>>> upstream/18.0
 #: model:ir.model,name:pos_loyalty.model_loyalty_mail
 msgid "Loyalty Communication"
 msgstr "Loyalitetskommunikation"
@@ -7654,7 +7715,11 @@ msgid "Onsite %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "På stedet %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "På stedet %s"
 >>>>>>> upstream/18.0
@@ -8405,8 +8470,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Det er ikke tilladt at refundere et opfyldnings- eller belønningsprodukt for"
 " et eWallet- eller gavekort kampagne."
+=======
+"Det er ikke tilladt at refundere et opfyldnings- eller belønningsprodukt for "
+"et eWallet- eller gavekort kampagne."
+>>>>>>> upstream/18.0
 =======
 "Det er ikke tilladt at refundere et opfyldnings- eller belønningsprodukt for "
 "et eWallet- eller gavekort kampagne."
@@ -8940,7 +9010,11 @@ msgid "Sell physical gift card?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sælge fysiske gavekort?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sælge fysiske gavekort?"
 >>>>>>> upstream/18.0
@@ -9710,7 +9784,11 @@ msgid "Sell/Manage physical gift card"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sælge/administrere fysiske gavekort"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sælge/administrere fysiske gavekort"
 >>>>>>> upstream/18.0
@@ -10518,7 +10596,11 @@ msgid "That promo code program is expired."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kampagnekoden er udløbet."
+>>>>>>> upstream/18.0
 =======
 msgstr "Kampagnekoden er udløbet."
 >>>>>>> upstream/18.0
@@ -11288,7 +11370,11 @@ msgid "That promo code program is not yet valid."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kampagnekoden er endnu ikke gyldig."
+>>>>>>> upstream/18.0
 =======
 msgstr "Kampagnekoden er endnu ikke gyldig."
 >>>>>>> upstream/18.0
@@ -11955,7 +12041,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The following codes already exist in the database, perhaps they were already sold?\n"
+=======
+"The following codes already exist in the database, perhaps they were already "
+"sold?\n"
+>>>>>>> upstream/18.0
 =======
 "The following codes already exist in the database, perhaps they were already "
 "sold?\n"
@@ -12352,8 +12443,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Rapporthandlingen, der skal udføres ved oprettelse af en "
 "kupon/gavekort/loyalitetskort i PoS."
+=======
+"Rapporthandlingen, der skal udføres ved oprettelse af en kupon/gavekort/"
+"loyalitetskort i PoS."
+>>>>>>> upstream/18.0
 =======
 "Rapporthandlingen, der skal udføres ved oprettelse af en kupon/gavekort/"
 "loyalitetskort i PoS."
@@ -12787,8 +12883,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Der er ingen e-mail-skabelon på gavekort kampagnen, og din Pos er indstillet"
 " til at udskrive dem."
+=======
+"Der er ingen e-mail-skabelon på gavekort kampagnen, og din Pos er indstillet "
+"til at udskrive dem."
+>>>>>>> upstream/18.0
 =======
 "Der er ingen e-mail-skabelon på gavekort kampagnen, og din Pos er indstillet "
 "til at udskrive dem."
@@ -13308,7 +13409,11 @@ msgid "This Gift card has already been sold."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gavekortet er allerede blevet solgt."
+>>>>>>> upstream/18.0
 =======
 msgstr "Gavekortet er allerede blevet solgt."
 >>>>>>> upstream/18.0
@@ -14117,7 +14222,11 @@ msgid "This programs requires a code to be applied."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kampagnen kræver, at der anvendes en kode."
+>>>>>>> upstream/18.0
 =======
 msgstr "Kampagnen kræver, at der anvendes en kode."
 >>>>>>> upstream/18.0

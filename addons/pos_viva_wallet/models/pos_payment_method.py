@@ -87,7 +87,11 @@ class PosPaymentMethod(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     viva_wallet_api_key = fields.Char(string="API Key", help='Used when connecting to Viva Wallet: https://developer.vivawallet.com/getting-started/find-your-account-credentials/merchant-id-and-api-key/')
+=======
+    viva_wallet_api_key = fields.Char(string="API Key", groups='point_of_sale.group_pos_manager', help='Used when connecting to Viva Wallet: https://developer.vivawallet.com/getting-started/find-your-account-credentials/merchant-id-and-api-key/')
+>>>>>>> upstream/18.0
 =======
     viva_wallet_api_key = fields.Char(string="API Key", groups='point_of_sale.group_pos_manager', help='Used when connecting to Viva Wallet: https://developer.vivawallet.com/getting-started/find-your-account-credentials/merchant-id-and-api-key/')
 >>>>>>> upstream/18.0
@@ -425,7 +429,11 @@ class PosPaymentMethod(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     viva_wallet_latest_response = fields.Json() # used to buffer the latest asynchronous notification from Adyen.
+=======
+    viva_wallet_latest_response = fields.Json()  # not used anymore, to remove in master
+>>>>>>> upstream/18.0
 =======
     viva_wallet_latest_response = fields.Json()  # not used anymore, to remove in master
 >>>>>>> upstream/18.0
@@ -988,7 +996,10 @@ class PosPaymentMethod(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.viva_wallet_latest_response = data
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1235,6 +1246,7 @@ class PosPaymentMethod(models.Model):
         pos_session_sudo = self.env["pos.session"].browse(int(data.get('pos_session_id', False)))
         if pos_session_sudo:
             pos_session_sudo.config_id._notify('VIVA_WALLET_LATEST_RESPONSE', {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1638,6 +1650,8 @@ class PosPaymentMethod(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 'config_id': pos_session_sudo.config_id.id,
                 'session_id': data.get('sessionId'),
                 'success': data.get('success', False),
@@ -1759,6 +1773,9 @@ class PosPaymentMethod(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2099,7 +2116,11 @@ class PosPaymentMethod(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 self.viva_wallet_api_key
+=======
+                self.sudo().viva_wallet_api_key
+>>>>>>> upstream/18.0
 =======
                 self.sudo().viva_wallet_api_key
 >>>>>>> upstream/18.0
@@ -2403,7 +2424,11 @@ class PosPaymentMethod(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     record.viva_wallet_api_key,
+=======
+                    record.sudo().viva_wallet_api_key,
+>>>>>>> upstream/18.0
 =======
                     record.sudo().viva_wallet_api_key,
 >>>>>>> upstream/18.0
@@ -2743,12 +2768,17 @@ class PosPaymentMethod(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not self.env.user.has_group('point_of_sale.group_pos_user'):
             raise AccessError(_("Only 'group_pos_user' are allowed to get latest transaction status"))
 
         self.ensure_one()
         latest_response = self.sudo().viva_wallet_latest_response
         return latest_response
+=======
+        # Not used anymore, to remove in master
+        return {'error': 'Your POS is out of date, please refresh the page.'}
+>>>>>>> upstream/18.0
 =======
         # Not used anymore, to remove in master
         return {'error': 'Your POS is out of date, please refresh the page.'}

@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* sale_loyalty_delivery
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -235,6 +236,9 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+# * sale_loyalty_delivery
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -315,6 +319,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -467,11 +472,15 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -715,10 +724,18 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Odoo, 2024\n"
 "Language-Team: Slovak (https://app.transifex.com/odoo/teams/41243/sk/)\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-03-21 09:31+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Slovak <https://translate.odoo.com/projects/odoo-18/"
+"sale_loyalty_delivery/sk/>\n"
+>>>>>>> upstream/18.0
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n "
 ">= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
 <<<<<<< HEAD
@@ -950,23 +967,40 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && "
+"n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty_delivery
 #. odoo-python
 #: code:addons/sale_loyalty_delivery/models/loyalty_reward.py:0
 msgid " (Max %s)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " (Max %s)"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty_delivery
 #: model_terms:ir.ui.view,arch_db:sale_loyalty_delivery.loyalty_reward_view_kanban_inherit_loyalty_delivery
 msgid "( Max"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "( Max."
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty_delivery
 #. odoo-python
 #: code:addons/sale_loyalty_delivery/models/loyalty_program.py:0
 msgid "Automatic promotion: free shipping on orders higher than $50"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Automatická akcia: doprava zadarmo pri objednávkach nad 50 €"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty_delivery
 #: model:ir.model.fields.selection,name:sale_loyalty_delivery.selection__loyalty_reward__reward_type__shipping
@@ -977,7 +1011,11 @@ msgstr "Dopravné zdarma"
 #. odoo-python
 #: code:addons/sale_loyalty_delivery/models/sale_order.py:0
 msgid "Free Shipping - %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Doprava zadarmo - %s"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty_delivery
 #. odoo-python
@@ -985,7 +1023,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_loyalty_delivery.loyalty_reward_view_form_inherit_loyalty_delivery
 #: model_terms:ir.ui.view,arch_db:sale_loyalty_delivery.loyalty_reward_view_kanban_inherit_loyalty_delivery
 msgid "Free shipping"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Doprava zadarmo"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty_delivery
 #: model:ir.model,name:sale_loyalty_delivery.model_loyalty_program

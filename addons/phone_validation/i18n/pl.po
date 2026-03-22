@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* phone_validation
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1051,6 +1052,9 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+# * phone_validation
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Marta Wacławek, 2025
@@ -1132,6 +1136,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1284,11 +1289,15 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# "Marta (wacm)" <wacm@odoo.com>, 2026.
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2510,6 +2519,13 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Odoo, 2025\n"
 "Language-Team: Polish (https://app.transifex.com/odoo/teams/41243/pl/)\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+"PO-Revision-Date: 2026-03-21 09:21+0000\n"
+"Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
+"Language-Team: Polish <https://translate.odoo.com/projects/odoo-18/"
+"phone_validation/pl/>\n"
+>>>>>>> upstream/18.0
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2593,6 +2609,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2745,13 +2762,20 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.16.2\n"
 >>>>>>> upstream/18.0
 
 #. module: phone_validation
 #. odoo-python
 #: code:addons/phone_validation/models/phone_blacklist.py:0
 msgid "%(error)s Please correct the number and try again."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(error)s Popraw numer i spróbuj ponownie."
+>>>>>>> upstream/18.0
 
 #. module: phone_validation
 #: model:ir.model.fields,field_description:phone_validation.field_mail_thread_phone__message_needaction
@@ -3017,7 +3041,10 @@ msgstr "Zarchiwizowane"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3741,6 +3768,7 @@ msgstr "Czy na pewno chcesz odblokować ten numer telefonu?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4223,6 +4251,11 @@ msgstr "Czy na pewno chcesz odblokować ten numer telefonu?"
 #: code:addons/phone_validation/models/phone_blacklist.py:0
 msgid "Are you sure you want to unblacklist this phone number?"
 msgstr ""
+=======
+#: code:addons/phone_validation/models/phone_blacklist.py:0
+msgid "Are you sure you want to unblacklist this phone number?"
+msgstr "Czy na pewno chcesz usunąć ten numer telefonu z czarnej listy?"
+>>>>>>> upstream/18.0
 
 #. module: phone_validation
 #: model:ir.model.fields,field_description:phone_validation.field_mail_thread_phone__message_attachment_count
@@ -4274,6 +4307,7 @@ msgid ""
 "Blocked by deletion of portal account %(portal_user_name)s by %(user_name)s "
 "(#%(user_id)s)"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4661,6 +4695,10 @@ msgstr ""
 "Zablokowane przez usunięcie konta portalu %(portal_user_name)s przez %"
 "(user_name)s (#%(user_id)s)"
 >>>>>>> upstream/18.0
+=======
+"Zablokowane z powodu usunięcia konta na portalu %(portal_user_name)s przez %"
+"(user_name)s (#%(user_id)s)"
+>>>>>>> upstream/18.0
 
 #. module: phone_validation
 #: model:ir.model,name:phone_validation.model_res_partner
@@ -4703,13 +4741,21 @@ msgstr ""
 #: model:ir.model.fields,field_description:phone_validation.field_mail_thread_phone__message_follower_ids
 #: model:ir.model.fields,field_description:phone_validation.field_phone_blacklist__message_follower_ids
 msgid "Followers"
+<<<<<<< HEAD
 msgstr "Obserwatorzy"
+=======
+msgstr "Obserwujący"
+>>>>>>> upstream/18.0
 
 #. module: phone_validation
 #: model:ir.model.fields,field_description:phone_validation.field_mail_thread_phone__message_partner_ids
 #: model:ir.model.fields,field_description:phone_validation.field_phone_blacklist__message_partner_ids
 msgid "Followers (Partners)"
+<<<<<<< HEAD
 msgstr "Obserwatorzy (partnerzy)"
+=======
+msgstr "Obserwujący (partnerzy)"
+>>>>>>> upstream/18.0
 
 #. module: phone_validation
 #: model:ir.model.fields,field_description:phone_validation.field_mail_thread_phone__has_message
@@ -4739,6 +4785,7 @@ msgstr ""
 #. module: phone_validation
 #: model:ir.model.fields,help:phone_validation.field_mail_thread_phone__phone_sanitized_blacklisted
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4974,6 +5021,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "If the sanitized phone number is on the blacklist, the contact won't receive "
 "mass mailing sms anymore, from any list"
 msgstr ""
@@ -5055,6 +5104,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5213,25 +5265,41 @@ msgstr ""
 #. odoo-python
 #: code:addons/phone_validation/tools/phone_validation.py:0
 msgid "Impossible number %s: not a valid country prefix."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nieprawidłowy numer %s: nieprawidłowy prefiks kraju."
+>>>>>>> upstream/18.0
 
 #. module: phone_validation
 #. odoo-python
 #: code:addons/phone_validation/tools/phone_validation.py:0
 msgid "Impossible number %s: not enough digits."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nieprawidłowy numer %s: za mało cyfr."
+>>>>>>> upstream/18.0
 
 #. module: phone_validation
 #. odoo-python
 #: code:addons/phone_validation/tools/phone_validation.py:0
 msgid "Impossible number %s: probably invalid number of digits."
+<<<<<<< HEAD
 msgstr "Niemożliwy numer %s: prawdopodobnie nieprawidłowa liczba cyfr."
+=======
+msgstr "Nieprawidłowy numer %s: prawdopodobnie nieprawidłowa liczba cyfr."
+>>>>>>> upstream/18.0
 
 #. module: phone_validation
 #. odoo-python
 #: code:addons/phone_validation/tools/phone_validation.py:0
 msgid "Impossible number %s: too many digits."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nieprawidłowy numer %s: za mało cyfr."
+>>>>>>> upstream/18.0
 
 #. module: phone_validation
 #: model:ir.model.fields,help:phone_validation.field_mail_thread_phone__mobile_blacklisted
@@ -5318,8 +5386,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "numerem komórkowym. Pomaga odróżnić, który numer jest na czarnej liście, gdy"
 " w modelu jest zarówno pole telefonu jak i komórki."
+=======
+"numerem komórkowym. Pomaga odróżnić, który numer jest na czarnej liście, gdy "
+"w modelu jest zarówno pole telefonu jak i komórki."
+>>>>>>> upstream/18.0
 =======
 "numerem komórkowym. Pomaga odróżnić, który numer jest na czarnej liście, gdy "
 "w modelu jest zarówno pole telefonu jak i komórki."
@@ -5714,8 +5787,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "numerem telefonu. Pomaga odróżnić, który numer jest na czarnej liście, gdy w"
 " modelu jest zarówno pole telefonu jak i komórki."
+=======
+"numerem telefonu. Pomaga odróżnić, który numer jest na czarnej liście, gdy w "
+"modelu jest zarówno pole telefonu jak i komórki."
+>>>>>>> upstream/18.0
 =======
 "numerem telefonu. Pomaga odróżnić, który numer jest na czarnej liście, gdy w "
 "modelu jest zarówno pole telefonu jak i komórki."
@@ -6035,13 +6113,21 @@ msgstr "Niepoprawny numer %s: prawdopodobnie błędny prefix."
 #. odoo-python
 #: code:addons/phone_validation/models/mail_thread_phone.py:0
 msgid "Invalid primary phone field on model %s"
+<<<<<<< HEAD
 msgstr "Nieprawidłowe pole telefonu głównego w modelu %s"
+=======
+msgstr "Nieprawidłowe główne pole telefonu w modelu %s"
+>>>>>>> upstream/18.0
 
 #. module: phone_validation
 #: model:ir.model.fields,field_description:phone_validation.field_mail_thread_phone__message_is_follower
 #: model:ir.model.fields,field_description:phone_validation.field_phone_blacklist__message_is_follower
 msgid "Is Follower"
+<<<<<<< HEAD
 msgstr "Jest obserwatorem"
+=======
+msgstr "Jest obserwującym"
+>>>>>>> upstream/18.0
 
 #. module: phone_validation
 #: model:ir.model.fields,field_description:phone_validation.field_phone_blacklist__write_uid
@@ -6147,15 +6233,23 @@ msgstr "Telefon/Komórka"
 #: code:addons/phone_validation/models/mail_thread_phone.py:0
 msgid ""
 "Please enter at least 3 characters when searching a Phone/Mobile number."
+<<<<<<< HEAD
 msgstr ""
 "Przy wyszukiwaniu numeru telefonu/komórki prosimy o wpisanie co najmniej 3 "
 "znaków."
+=======
+msgstr "Przy wyszukiwaniu numeru telefonu/komórki wpisz przynajmniej 3 znaków."
+>>>>>>> upstream/18.0
 
 #. module: phone_validation
 #: model:ir.model.fields,field_description:phone_validation.field_phone_blacklist_remove__reason
 #: model_terms:ir.ui.view,arch_db:phone_validation.phone_blacklist_remove_view_form
 msgid "Reason"
+<<<<<<< HEAD
 msgstr "Przyczyna"
+=======
+msgstr "Powód"
+>>>>>>> upstream/18.0
 
 #. module: phone_validation
 #: model:ir.model,name:phone_validation.model_phone_blacklist_remove
@@ -6431,7 +6525,10 @@ msgstr "Użytkownik"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6916,6 +7013,7 @@ msgid ""
 "You do not have the access right to unblacklist phone numbers. Please "
 "contact your administrator."
 msgstr ""
+<<<<<<< HEAD
 
 #. module: phone_validation
 <<<<<<< HEAD
@@ -7635,6 +7733,12 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"Nie masz uprawnień do usunięcia numerów telefonów z czarnej listy. "
+"Skontaktuj się z administratorem."
+
+#. module: phone_validation
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:phone_validation.phone_blacklist_remove_view_form
 msgid "e.g \"Asked to receive our next newsletters\""

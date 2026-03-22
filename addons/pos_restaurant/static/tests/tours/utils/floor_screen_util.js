@@ -121,7 +121,10 @@ export function isChildTable(child) {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 export function clickAddFloor() {
     return {
         content: "click add floor",
@@ -130,6 +133,9 @@ export function clickAddFloor() {
     };
 }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 import { TourHelpers } from "@web_tour/tour_service/tour_helpers";
 import { patch } from "@web/core/utils/patch";

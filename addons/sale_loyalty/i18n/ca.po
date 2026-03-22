@@ -191,8 +191,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sale_loyalty
 # 
+=======
+# * sale_loyalty
+#
+>>>>>>> upstream/18.0
 =======
 # * sale_loyalty
 #
@@ -1240,6 +1245,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Noemi Pla, 2025
 >>>>>>> upstream/18.0
@@ -2430,10 +2436,17 @@
 # Santiago Payà <santiagopim@gmail.com>, 2025
 # "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Noemi Pla, 2025
+# Santiago Payà <santiagopim@gmail.com>, 2025
+# "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3653,6 +3666,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-25 13:41+0000\n"
 "Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@odoo.com>\n"
+=======
+"POT-Creation-Date: 2026-03-20 18:37+0000\n"
+"PO-Revision-Date: 2026-03-21 18:01+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Catalan <https://translate.odoo.com/projects/odoo-18/"
 "sale_loyalty/ca/>\n"
 "Language: ca\n"
@@ -3660,6 +3678,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+<<<<<<< HEAD
 "X-Generator: Weblate 5.12.2\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4232,6 +4251,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #. odoo-python
@@ -4428,7 +4450,11 @@ msgid " - On products with the following taxes: %(taxes)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " - En els productes amb els següents impostos: %(taxes)s"
+>>>>>>> upstream/18.0
 =======
 msgstr " - En els productes amb els següents impostos: %(taxes)s"
 >>>>>>> upstream/18.0
@@ -5202,7 +5228,11 @@ msgid "<strong>Loyalty Card</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Targeta de fidelització</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Targeta de fidelització</strong>"
 >>>>>>> upstream/18.0
@@ -5956,8 +5986,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Un mínim de %(amount)s %(currency)ss'ha de comprar per obtenir la recompensa"
 " "
+=======
+"Un mínim de %(amount)s %(currency)ss'ha de comprar per obtenir la recompensa "
+>>>>>>> upstream/18.0
 =======
 "Un mínim de %(amount)s %(currency)ss'ha de comprar per obtenir la recompensa "
 >>>>>>> upstream/18.0
@@ -6807,7 +6841,11 @@ msgid "Discount %(desc)s%(tax_str)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Descompte %(desc)s%(tax_str)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Descompte %(desc)s%(tax_str)s"
 >>>>>>> upstream/18.0
@@ -7810,7 +7848,11 @@ msgid "Discount & Loyalty"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Lleialtat del descompte"
+=======
+msgstr "Descomptes i Fidelització"
+>>>>>>> upstream/18.0
 =======
 msgstr "Descomptes i Fidelització"
 >>>>>>> upstream/18.0
@@ -8570,12 +8612,15 @@ msgstr "Data de venciment:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid "Free Product - %(product)s"
 msgstr "Producte lliure - %(product)s"
 
 #. module: sale_loyalty
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8970,6 +9015,14 @@ msgid "Issued :"
 msgstr ""
 
 #. module: sale_loyalty
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:sale_loyalty.model_account_move_line
+msgid "Journal Item"
+msgstr "Apunt comptable"
+
+#. module: sale_loyalty
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_loyalty_coupon_wizard__write_uid
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_loyalty_reward_wizard__write_uid
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_order_coupon_points__write_uid
@@ -9183,7 +9236,11 @@ msgid "Loyalty Coupon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cupó lleial"
+=======
+msgstr "Cupó de fidelització"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cupó de fidelització"
 >>>>>>> upstream/18.0
@@ -9959,6 +10016,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "No card found for this loyalty program and no points will be given with this"
 " order."
 msgstr ""
@@ -10060,6 +10118,8 @@ msgstr ""
 "No s'ha trobat cap targeta per a aquest programa de fidelització i no es "
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10562,6 +10622,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10899,6 +10962,7 @@ msgstr ""
 
 #. module: sale_loyalty
 #. odoo-python
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11712,6 +11776,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/sale_loyalty/wizard/sale_loyalty_reward_wizard.py:0
 msgid "No reward selected."
 msgstr "No s'ha seleccionat cap recompensa."
@@ -11980,7 +12046,11 @@ msgid "Sale Loyalty - Apply Coupon Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Lleialtat de vendes - Assistent d'aplicació de cupons"
+=======
+msgstr "Fidelització de vendes - Assistent d'aplicació de cupons"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fidelització de vendes - Assistent d'aplicació de cupons"
 >>>>>>> upstream/18.0
@@ -12749,7 +12819,11 @@ msgid "Sale Loyalty - Reward Selection Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Lleialtat de vendes - Auxiliar de reenviament de la selecció"
+=======
+msgstr "Fidelització de vendes - Auxiliar de reenviament de la selecció"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fidelització de vendes - Auxiliar de reenviament de la selecció"
 >>>>>>> upstream/18.0
@@ -13642,8 +13716,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Actualitza les línies promocionals actuals i selecciona noves recompenses si"
 " escau."
+=======
+"Actualitza les línies promocionals actuals i selecciona noves recompenses si "
+"escau."
+>>>>>>> upstream/18.0
 =======
 "Actualitza les línies promocionals actuals i selecciona noves recompenses si "
 "escau."
@@ -14504,9 +14583,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Trobareu sota el codi de targetes de regal. S'ha enviat un correu electrònic"
 " amb ell. Pots utilitzar-lo ara mateix."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15010,6 +15092,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

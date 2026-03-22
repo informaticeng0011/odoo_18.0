@@ -98,6 +98,10 @@ except ImportError:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+SMTP_TIMEOUT = 5
+>>>>>>> upstream/18.0
 =======
 SMTP_TIMEOUT = 5
 >>>>>>> upstream/18.0
@@ -426,7 +430,11 @@ class Certificate:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @patch('odoo.addons.base.models.ir_mail_server.SMTP_TIMEOUT', .1)
+=======
+@patch('odoo.addons.base.models.ir_mail_server.SMTP_TIMEOUT', SMTP_TIMEOUT)
+>>>>>>> upstream/18.0
 =======
 @patch('odoo.addons.base.models.ir_mail_server.SMTP_TIMEOUT', SMTP_TIMEOUT)
 >>>>>>> upstream/18.0
@@ -864,8 +872,13 @@ class TestIrMailServerSMTPD(TransactionCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         family, _, cls.port = _find_free_local_address()
         cls.localhost = getaddrinfo('localhost', cls.port, family)
+=======
+        family, addr, cls.port = _find_free_local_address()
+        cls.localhost = getaddrinfo(addr, cls.port, family)
+>>>>>>> upstream/18.0
 =======
         family, addr, cls.port = _find_free_local_address()
         cls.localhost = getaddrinfo(addr, cls.port, family)
@@ -1622,7 +1635,13 @@ class TestIrMailServerSMTPD(TransactionCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             with self.assertRaises(UserError) as error_capture:
+=======
+                            timeout = .1 if 'timed out' in error_pattern else SMTP_TIMEOUT
+                            with self.assertRaises(UserError) as error_capture, \
+                                 patch('odoo.addons.base.models.ir_mail_server.SMTP_TIMEOUT', timeout):
+>>>>>>> upstream/18.0
 =======
                             timeout = .1 if 'timed out' in error_pattern else SMTP_TIMEOUT
                             with self.assertRaises(UserError) as error_capture, \
@@ -2066,7 +2085,10 @@ class TestIrMailServerSMTPD(TransactionCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2331,7 +2353,13 @@ class TestIrMailServerSMTPD(TransactionCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             with self.assertRaises(UserError) as capture:
+=======
+                            timeout = .1 if 'timed out' in error_pattern else SMTP_TIMEOUT
+                            with self.assertRaises(UserError) as capture, \
+                                 patch('odoo.addons.base.models.ir_mail_server.SMTP_TIMEOUT', timeout):
+>>>>>>> upstream/18.0
 =======
                             timeout = .1 if 'timed out' in error_pattern else SMTP_TIMEOUT
                             with self.assertRaises(UserError) as capture, \
@@ -2826,7 +2854,13 @@ class TestIrMailServerSMTPD(TransactionCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     with self.assertRaises(UserError) as capture:
+=======
+                    timeout = .1 if 'timed out' in error_pattern else SMTP_TIMEOUT
+                    with self.assertRaises(UserError) as capture, \
+                         patch('odoo.addons.base.models.ir_mail_server.SMTP_TIMEOUT', timeout):
+>>>>>>> upstream/18.0
 =======
                     timeout = .1 if 'timed out' in error_pattern else SMTP_TIMEOUT
                     with self.assertRaises(UserError) as capture, \

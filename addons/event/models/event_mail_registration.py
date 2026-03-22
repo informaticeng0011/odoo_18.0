@@ -92,7 +92,13 @@ class EventMailRegistration(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             scheduler._send_mail(reg_mails.registration_id)
+=======
+            # exclusion_list should not be applied as registering to an event is implicitly
+            # subscribing to the emails relevant to the event such as the email containing the ticket
+            scheduler.with_context(default_use_exclusion_list=False)._send_mail(reg_mails.registration_id)
+>>>>>>> upstream/18.0
 =======
             # exclusion_list should not be applied as registering to an event is implicitly
             # subscribing to the emails relevant to the event such as the email containing the ticket

@@ -10,6 +10,10 @@ import * as Utils from "@point_of_sale/../tests/tours/utils/common";
 import * as PaymentScreen from "@point_of_sale/../tests/tours/utils/payment_screen_util";
 import * as ReceiptScreen from "@point_of_sale/../tests/tours/utils/receipt_screen_util";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import * as TextInputPopup from "@point_of_sale/../tests/tours/utils/text_input_popup_util";
+>>>>>>> upstream/18.0
 =======
 import * as TextInputPopup from "@point_of_sale/../tests/tours/utils/text_input_popup_util";
 >>>>>>> upstream/18.0
@@ -153,7 +157,10 @@ registry.category("web_tour.tours").add("FloorScreenTour", {
             FloorScreen.selectedFloorIs("Second Floor"),
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             // add new floor
             Chrome.clickMenuOption("Edit Plan"),
             FloorScreen.clickAddFloor(),
@@ -163,6 +170,9 @@ registry.category("web_tour.tours").add("FloorScreenTour", {
             Dialog.confirm(),
             FloorScreen.clickSaveEditButton(),
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             // Check the linking of tables
             FloorScreen.clickFloor("Main Floor"),

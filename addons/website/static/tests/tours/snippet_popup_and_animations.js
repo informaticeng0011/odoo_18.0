@@ -191,6 +191,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { waitUntil } from "@odoo/hoot-dom";
+>>>>>>> upstream/18.0
 =======
 import { waitUntil } from "@odoo/hoot-dom";
 >>>>>>> upstream/18.0
@@ -1030,6 +1034,7 @@ registerWebsitePreviewTour("snippet_popup_and_animations", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         trigger: ":iframe .s_three_columns .row > :last-child:not(.o_animating)",
         run() {
             // If the column has been animated successfully, the animation delay
@@ -1041,6 +1046,8 @@ registerWebsitePreviewTour("snippet_popup_and_animations", {
             }
         },
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1618,6 +1625,9 @@ registerWebsitePreviewTour("snippet_popup_and_animations", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2041,6 +2051,7 @@ registerWebsitePreviewTour("snippet_popup_and_animations", {
     },
     {
         content: "Wait until the column is no longer animated/visible.",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2743,6 +2754,8 @@ registerWebsitePreviewTour("snippet_popup_and_animations", {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         trigger: ":iframe .s_three_columns .row > .o_animating:last-child",
         isActive: [`:iframe .s_three_columns .row > .o_animating:last-child`],
         run: (helpers) =>
@@ -2940,6 +2953,9 @@ registerWebsitePreviewTour("snippet_popup_and_animations", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

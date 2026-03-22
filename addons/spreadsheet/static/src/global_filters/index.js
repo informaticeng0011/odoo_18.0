@@ -28,6 +28,10 @@ readonlyAllowedCommands.add("SET_MANY_GLOBAL_FILTER_VALUE");
 readonlyAllowedCommands.add("CLEAR_GLOBAL_FILTER_VALUE");
 readonlyAllowedCommands.add("UPDATE_OBJECT_DOMAINS");
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+readonlyAllowedCommands.add("LOG_DATASOURCE_EXPORT");
+>>>>>>> upstream/18.0
 =======
 readonlyAllowedCommands.add("LOG_DATASOURCE_EXPORT");
 >>>>>>> upstream/18.0

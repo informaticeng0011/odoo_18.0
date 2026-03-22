@@ -152,12 +152,15 @@ from odoo import fields
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import HttpCase, tagged
 
 
 @tagged('post_install', '-at_install')
 class TestWebsiteSaleMail(HttpCase):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -605,6 +608,9 @@ class TestWebsiteSaleMail(HttpCaseWithUserPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -935,6 +941,7 @@ class TestWebsiteSaleMail(HttpCaseWithUserPortal):
                                                     order='create_date DESC', limit=1)
             self.assertTrue(new_mail)
             self.assertIn('Your', new_mail.body_html)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1551,6 +1558,8 @@ class TestWebsiteSaleMail(HttpCaseWithUserPortal):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             self.assertIn('order', new_mail.body_html)
 
     def test_shop_product_mail_action_redirection(self):
@@ -1726,6 +1735,9 @@ class TestWebsiteSaleMail(HttpCaseWithUserPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

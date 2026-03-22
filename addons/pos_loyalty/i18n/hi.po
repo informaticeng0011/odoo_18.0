@@ -119,8 +119,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* pos_loyalty
 # 
+=======
+# * pos_loyalty
+#
+>>>>>>> upstream/18.0
 =======
 # * pos_loyalty
 #
@@ -809,6 +814,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Ujjawal Pathak, 2025
 >>>>>>> upstream/18.0
@@ -1550,10 +1556,15 @@
 # Ujjawal Pathak, 2025
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 >>>>>>> upstream/18.0
+=======
+# Ujjawal Pathak, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2426,6 +2437,10 @@ msgstr ""
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-01-17 09:06+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2026-03-20 18:37+0000\n"
+"PO-Revision-Date: 2026-03-21 18:01+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Hindi <https://translate.odoo.com/projects/odoo-18/"
 "pos_loyalty/hi/>\n"
@@ -2434,6 +2449,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2867,11 +2883,15 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_pos_order_line__reward_identifier_code
 msgid ""
 "\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3230,6 +3250,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "        Technical field used to link multiple reward lines from the same "
 "reward together.\n"
 "    "
@@ -3310,6 +3332,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3585,6 +3610,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3827,12 +3855,20 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/partner_line/partner_line.js:0
 msgid "%s Points"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s पॉइंट"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:loyalty.program,name:pos_loyalty.15_pc_on_next_order
 msgid "15% on next order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगले ऑर्डर पर 15%"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:loyalty.reward,description:pos_loyalty.15_pc_on_next_order_reward
@@ -3956,7 +3992,11 @@ msgid "15% on your order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आपके ऑर्डर पर 15% की छूट"
+>>>>>>> upstream/18.0
 =======
 msgstr "आपके ऑर्डर पर 15% की छूट"
 >>>>>>> upstream/18.0
@@ -4319,7 +4359,11 @@ msgstr "आपके ऑर्डर पर 15% की छूट"
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_order.js:0
 msgid "A better global discount is already applied."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एक बेहतर ग्लोबल डिस्काउंट पहले से ही लागू है।"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -4402,7 +4446,11 @@ msgid "A coupon/loyalty card must have a unique code."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कूपन/लॉयल्टी कार्ड का कोड यूनीक होना चाहिए।"
+>>>>>>> upstream/18.0
 =======
 msgstr "कूपन/लॉयल्टी कार्ड का कोड यूनीक होना चाहिए।"
 >>>>>>> upstream/18.0
@@ -4639,7 +4687,11 @@ msgstr "कूपन/लॉयल्टी कार्ड का कोड य�
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_store.js:0
 msgid "A reward could not be loaded"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिवॉर्ड लोड नहीं हो सका"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_loyalty_rule__promo_barcode
@@ -4647,6 +4699,11 @@ msgid ""
 "A technical field used as an alternative to the promo code. This is "
 "automatically generated when the promo code is changed."
 msgstr ""
+<<<<<<< HEAD
+=======
+"प्रोमो कोड के विकल्प के रूप में उपयोग किया जाने वाला एक टेक्निकल फ़ील्ड. यह प्रोमो कोड "
+"बदलने पर अपने आप जेनरेट हो जाता है।"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,field_description:pos_loyalty.field_res_partner__loyalty_card_count
@@ -4729,7 +4786,11 @@ msgid "Active loyalty cards"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐक्टिव लॉयल्टी कार्ड"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐक्टिव लॉयल्टी कार्ड"
 >>>>>>> upstream/18.0
@@ -4966,12 +5027,20 @@ msgstr "ऐक्टिव लॉयल्टी कार्ड"
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/utils/manage_giftcard_popup/manage_giftcard_popup.xml:0
 msgid "Add Balance"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैलेंस जोड़ें"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model_terms:ir.ui.view,arch_db:pos_loyalty.loyalty_program_view_form_inherit_pos_loyalty
 msgid "All PoS"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सभी पीओएस"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -5045,7 +5114,11 @@ msgid "Any Product"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कोई भी प्रॉडक्ट"
+>>>>>>> upstream/18.0
 =======
 msgstr "कोई भी प्रॉडक्ट"
 >>>>>>> upstream/18.0
@@ -5243,12 +5316,21 @@ msgid ""
 "Are you sure you want to remove %s from this order?\n"
 " You will still be able to claim it through the reward button."
 msgstr ""
+<<<<<<< HEAD
+=======
+"क्या आप वाकई इस ऑर्डर से %s को हटाना चाहते हैं?\n"
+" आप अभी भी रिवॉर्ड बटन के माध्यम से इसका क्लेम कर सकेंगे।"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/control_buttons/control_buttons.js:0
 msgid "Available rewards"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपलब्ध इनाम"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -5461,7 +5543,11 @@ msgid "Balance"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैलेंस"
+>>>>>>> upstream/18.0
 =======
 msgstr "बैलेंस"
 >>>>>>> upstream/18.0
@@ -6208,7 +6294,11 @@ msgid "Barcode"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बारकोड"
+>>>>>>> upstream/18.0
 =======
 msgstr "बारकोड"
 >>>>>>> upstream/18.0
@@ -6570,7 +6660,11 @@ msgstr "बारकोड"
 #. module: pos_loyalty
 #: model:ir.model,name:pos_loyalty.model_barcode_rule
 msgid "Barcode Rule"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बारकोड से जुड़ा नियम"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model,name:pos_loyalty.model_res_partner
@@ -6658,7 +6752,11 @@ msgid "Coupon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कूपन"
+>>>>>>> upstream/18.0
 =======
 msgstr "कूपन"
 >>>>>>> upstream/18.0
@@ -6977,7 +7075,11 @@ msgid "Coupon point(s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कूपन पॉइंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "कूपन पॉइंट"
 >>>>>>> upstream/18.0
@@ -7214,7 +7316,11 @@ msgstr "कूपन पॉइंट"
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/product_screen/order_summary/order_summary.xml:0
 msgid "Current Balance:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मौजूदा बैलेंस:"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -7226,13 +7332,21 @@ msgstr "साथी"
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_store.js:0
 msgid "Customer needed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ग्राहक की ज़रूरत"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/product_screen/order_summary/order_summary.js:0
 msgid "Deactivating reward"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिवॉर्ड बंद किया जा रहा है"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.ui.menu,name:pos_loyalty.menu_discount_loyalty_type_config
@@ -7315,7 +7429,11 @@ msgid "Discount & Loyalty"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिस्काउंट और लॉयल्टी"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिस्काउंट और लॉयल्टी"
 >>>>>>> upstream/18.0
@@ -7553,19 +7671,31 @@ msgstr "डिस्काउंट और लॉयल्टी"
 #: code:addons/pos_loyalty/static/src/overrides/components/control_buttons/control_buttons.js:0
 #: code:addons/pos_loyalty/static/src/overrides/components/control_buttons/control_buttons.xml:0
 msgid "Enter Code"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कोड डालें"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/product_screen/order_summary/order_summary.js:0
 msgid "Enter Gift Card Number"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गिफ़्ट कार्ड नंबर डालें"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/utils/manage_giftcard_popup/manage_giftcard_popup.xml:0
 msgid "Enter amount"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रकम डालें"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -7577,7 +7707,11 @@ msgstr "त्रुटि!"
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/payment_screen/payment_screen.js:0
 msgid "Error validating rewards"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इनाम की पुष्टि करते समय गड़बड़ी"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -7702,7 +7836,11 @@ msgid "Expiration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "समय सीमा समाप्ति"
+>>>>>>> upstream/18.0
 =======
 msgstr "समय सीमा समाप्ति"
 >>>>>>> upstream/18.0
@@ -8064,7 +8202,11 @@ msgstr "समय सीमा समाप्ति"
 #. module: pos_loyalty
 #: model:loyalty.reward,description:pos_loyalty.loyalty_program_reward
 msgid "Free Product - Simple Pen"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़्री प्रॉडक्ट - सामान्य पेन"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -8073,12 +8215,21 @@ msgid ""
 "Gift Card: %s\n"
 "Balance: %s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"गिफ़्ट कार्ड: %s\n"
+"बैलेंस: %s"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/control_buttons/control_buttons.js:0
 msgid "Gift card or Discount code"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गिफ़्ट कार्ड या डिस्काउंट कोड"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.ui.menu,name:pos_loyalty.menu_gift_ewallet_type_config
@@ -8161,7 +8312,11 @@ msgid "Gift cards & eWallet"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गिफ़्ट कार्ड और ई-वॉलेट"
+>>>>>>> upstream/18.0
 =======
 msgstr "गिफ़्ट कार्ड और ई-वॉलेट"
 >>>>>>> upstream/18.0
@@ -8397,36 +8552,65 @@ msgstr "गिफ़्ट कार्ड और ई-वॉलेट"
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_pos_order_line__points_cost
 msgid "How many point this reward cost on the coupon."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कूपन पर इस रिवॉर्ड की कीमत कितने पॉइंट है।"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_config.py:0
 msgid "Invalid gift card program reward. Use 1 currency per point discount."
 msgstr ""
+<<<<<<< HEAD
+=======
+"अमान्य गिफ़्ट कार्ड प्रोग्राम रिवॉर्ड. हर पॉइंट डिस्काउंट के लिए 1 करेंसी का उपयोग करें।"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_config.py:0
 msgid "Invalid gift card program rule. Use 1 point per currency spent."
 msgstr ""
+<<<<<<< HEAD
+=======
+"अमान्य गिफ्ट कार्ड प्रोग्राम नियम. खर्च की गई हर करेंसी के लिए 1 पॉइंट का उपयोग करें।"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_config.py:0
 msgid "Invalid gift card program. More than one reward."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अमान्य गिफ़्ट कार्ड प्रोग्राम. एक से ज़्यादा रिवॉर्ड।"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_config.py:0
 msgid "Invalid gift card program. More than one rule."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अमान्य गिफ़्ट कार्ड प्रोग्राम. एक से ज़्यादा नियम।"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,field_description:pos_loyalty.field_pos_order_line__is_reward_line
 msgid "Is Reward Line"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिवॉर्ड लाइन है"
+
+#. module: pos_loyalty
+#: model:ir.model,name:pos_loyalty.model_account_move_line
+msgid "Journal Item"
+msgstr "जर्नल आइटम"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model,name:pos_loyalty.model_loyalty_mail
@@ -8508,7 +8692,11 @@ msgid "Loyalty Communication"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लॉयल्टी कम्यूनिकेशन"
+>>>>>>> upstream/18.0
 =======
 msgstr "लॉयल्टी कम्यूनिकेशन"
 >>>>>>> upstream/18.0
@@ -8821,7 +9009,11 @@ msgid "Loyalty Coupon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लॉयल्टी कूपन"
+>>>>>>> upstream/18.0
 =======
 msgstr "लॉयल्टी कूपन"
 >>>>>>> upstream/18.0
@@ -9057,7 +9249,11 @@ msgstr "लॉयल्टी कूपन"
 #. module: pos_loyalty
 #: model:loyalty.program,portal_point_name:pos_loyalty.loyalty_program
 msgid "Loyalty Points"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लॉयल्टी पॉइंट"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model,name:pos_loyalty.model_loyalty_program
@@ -9182,7 +9378,11 @@ msgid "Loyalty Program"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लॉयल्टी प्रोग्राम"
+>>>>>>> upstream/18.0
 =======
 msgstr "लॉयल्टी प्रोग्राम"
 >>>>>>> upstream/18.0
@@ -9621,7 +9821,11 @@ msgid "Loyalty Reward"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लॉयल्टी रिवॉर्ड"
+>>>>>>> upstream/18.0
 =======
 msgstr "लॉयल्टी रिवॉर्ड"
 >>>>>>> upstream/18.0
@@ -9934,7 +10138,11 @@ msgid "Loyalty Rule"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लॉयल्टी से जुड़ा नियम"
+>>>>>>> upstream/18.0
 =======
 msgstr "लॉयल्टी से जुड़ा नियम"
 >>>>>>> upstream/18.0
@@ -10177,40 +10385,68 @@ msgstr "नही"
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_config.py:0
 msgid "No reward can be claimed with this coupon."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस कूपन से किसी भी रिवॉर्ड का दावा नहीं किया जा सकता।"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/control_buttons/control_buttons.js:0
 msgid "No valid eWallet found"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कोई भी मान्य ई-वॉलेट नहीं मिला"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_order.py:0
 msgid "Onsite %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑनसाइट %s"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/control_buttons/control_buttons.js:0
 msgid "Please select a product for this reward"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कृपया इस रिवॉर्ड के लिए एक प्रॉडक्ट चुनें"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_program__pos_order_count
 msgid "PoS Order Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पीओएस ऑर्डर संख्या"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_card__source_pos_order_id
 msgid "PoS Order Reference"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पीओएस ऑर्डर रेफ़रेंस"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_loyalty_card__source_pos_order_id
 msgid "PoS order where this coupon was generated."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पीओएस ऑर्डर जहां यह कूपन जेनरेट किया गया था।"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_program__pos_ok
@@ -10335,7 +10571,11 @@ msgid "Point of Sale"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पॉइंट ऑफ़ सेल"
+>>>>>>> upstream/18.0
 =======
 msgstr "पॉइंट ऑफ़ सेल"
 >>>>>>> upstream/18.0
@@ -10697,22 +10937,38 @@ msgstr "पॉइंट ऑफ़ सेल"
 #. module: pos_loyalty
 #: model:ir.model,name:pos_loyalty.model_pos_config
 msgid "Point of Sale Configuration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पॉइंट ऑफ़ सेल कॉन्फ़िगरेशन"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model,name:pos_loyalty.model_pos_order_line
 msgid "Point of Sale Order Lines"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पॉइंट ऑफ़ सेल ऑर्डर लाइन"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model,name:pos_loyalty.model_pos_order
 msgid "Point of Sale Orders"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पॉइंट ऑफ़ सेल ऑर्डर"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model,name:pos_loyalty.model_pos_session
 msgid "Point of Sale Session"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पॉइंट ऑफ़ सेल सेशन"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_program__pos_config_ids
@@ -10836,7 +11092,11 @@ msgid "Point of Sales"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पॉइंट ऑफ़ सेल"
+>>>>>>> upstream/18.0
 =======
 msgstr "पॉइंट ऑफ़ सेल"
 >>>>>>> upstream/18.0
@@ -11390,7 +11650,11 @@ msgid "Points"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पॉइंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "पॉइंट"
 >>>>>>> upstream/18.0
@@ -11968,13 +12232,21 @@ msgstr "पॉइंट"
 #. module: pos_loyalty
 #: model:ir.model.fields,field_description:pos_loyalty.field_pos_order_line__points_cost
 msgid "Points Cost"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पॉइंट की कीमत"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_mail__pos_report_print_id
 #: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_program__pos_report_print_id
 msgid "Print Report"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिपोर्ट प्रिंट करें"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model,name:pos_loyalty.model_product_product
@@ -11985,19 +12257,31 @@ msgstr "उत्पाद प्रकार"
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_config.py:0
 msgid "Program: %(name)s, Reward Product: `%(reward_product)s`"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रोग्राम: %(name)s, रिवॉर्ड प्रॉडक्ट: `%(reward_product)s`"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_config.py:0
 msgid "Program: %(name)s, Rule Product: `%(rule_product)s`"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रोग्राम: %(name)s, रूल प्रॉडक्ट: `%(rule_product)s`"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/control_buttons/control_buttons.js:0
 msgid "Refund with eWallet"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ई-वॉलेट के साथ रिफ़ंड करें"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -12006,17 +12290,30 @@ msgid ""
 "Refunding a top up or reward product for an eWallet or gift card program is "
 "not allowed."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ई-वॉलेट या गिफ़्ट कार्ड प्रोग्राम के लिए टॉप-अप या रिवॉर्ड प्रॉडक्ट का रिफंड करना मुमकिन "
+"नहीं है।"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/control_buttons/control_buttons.xml:0
 msgid "Reset Programs"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रोग्राम रीसेट करें"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_loyalty_program__pos_config_ids
 msgid "Restrict publishing to those shops."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इन दुकानों के लिए पब्लिशिंग को सीमित करें।"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -12142,7 +12439,11 @@ msgid "Reward"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इनाम"
+>>>>>>> upstream/18.0
 =======
 msgstr "इनाम"
 >>>>>>> upstream/18.0
@@ -12504,30 +12805,50 @@ msgstr "इनाम"
 #. module: pos_loyalty
 #: model:ir.model.fields,field_description:pos_loyalty.field_pos_order_line__reward_identifier_code
 msgid "Reward Identifier Code"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिवॉर्ड आइडेंटिफ़ॉयर कोड"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_store.js:0
 msgid "Select program"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रोग्राम चुनें"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/product_screen/order_summary/order_summary.xml:0
 msgid "Sell physical gift card?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फिज़िकल गिफ़्ट कार्ड बेचें?"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/product_screen/order_summary/order_summary.js:0
 msgid "Sell/Manage physical gift card"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फिज़िकल गिफ़्ट कार्ड बेचे या मैनेज करें"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:product.template,name:pos_loyalty.simple_pen_product_template
 msgid "Simple Pen"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सामान्य पेन"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
@@ -12536,57 +12857,94 @@ msgid ""
 "Some coupons are invalid. The applied coupons have been updated. Please "
 "check the order."
 msgstr ""
+<<<<<<< HEAD
+=======
+"कुछ कूपन अमान्य हैं. लागू किए गए कूपन अपडेट कर दिए गए हैं. कृपया ऑर्डर की जांच करें।"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/order_receipt/order_receipt.xml:0
 msgid "Spent:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "खर्च किया गया:"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_loyalty_rule__any_product
 msgid "Technical field, whether all product match"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एक टेक्निकल फ़ील्ड कि क्या सभी प्रॉडक्ट मैच करते हैं"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_store.js:0
 msgid "That coupon code has already been scanned and activated."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यह कूपन कोड पहले ही स्कैन और चालू किया जा चुका है।"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_store.js:0
 msgid "That promo code program has already been activated."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यह प्रोमो कोड प्रोग्राम पहले से चालू है।"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_store.js:0
 msgid "That promo code program is expired."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उस प्रोमो कोड प्रोग्राम की समय सीमा खत्म हो गई है।"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_store.js:0
 msgid "That promo code program is not yet valid."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वह प्रोमो कोड प्रोग्राम अभी तक मान्य नहीं है।"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_store.js:0
 msgid "That promo code program requires a specific pricelist."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उस प्रोमो कोड प्रोग्राम के लिए एक खास प्राइसलिस्ट की ज़रूरत है।"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_pos_order_line__coupon_id
 msgid "The coupon used to claim that reward."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिवॉर्ड पाने के लिए इस्तेमाल हुआ कूपन।"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_order.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12975,6 +13333,14 @@ msgid ""
 >>>>>>> upstream/18.0
 "%s"
 msgstr ""
+=======
+"The following codes already exist in the database, perhaps they were already "
+"sold?\n"
+"%s"
+msgstr ""
+"ये कोड हमारे डेटाबेस में पहले से हैं. हो सकता है कि इन्हें पहले ही किसी को बेचा जा चुका हो?\n"
+"%s"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_loyalty_mail__pos_report_print_id
@@ -12982,6 +13348,10 @@ msgid ""
 "The report action to be executed when creating a coupon/gift card/loyalty "
 "card in the PoS."
 msgstr ""
+<<<<<<< HEAD
+=======
+"पीओएस में कूपन/गिफ़्ट कार्ड/लॉयल्टी कार्ड बनाते समय एक्ज़ीक्यूट की जाने वाली रिपोर्ट ऐक्शन।"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -12990,35 +13360,60 @@ msgid ""
 "The reward \"%s\" contain an error in its domain, your domain must be "
 "compatible with the PoS client"
 msgstr ""
+<<<<<<< HEAD
+=======
+"रिवॉर्ड \"%s\" के डोमेन में कोई गड़बड़ी है, आपका डोमेन पीओएस क्लाइंट के साथ काम करना "
+"चाहिए"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_pos_order_line__reward_id
 msgid "The reward associated with this line."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस लाइन से जुड़ा रिवॉर्ड।"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_order.js:0
 msgid "The reward could not be applied."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिवॉर्ड लागू नहीं किया जा सका।"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_order.py:0
 msgid "There are not enough points for the coupon: %s."
 msgstr ""
+<<<<<<< HEAD
+=======
+"इस कूपन कोड को इस्तेमाल करने के लिए आपके पास ज़रूरी रिवॉर्ड पॉइंट कम हैं: %s।"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_order.js:0
 msgid "There are not enough points on the coupon to claim this reward."
 msgstr ""
+<<<<<<< HEAD
+=======
+"इस रिवॉर्ड को हासिल करने के लिए आपके कूपन में जितने पॉइंट होने चाहिए, उतने नहीं हैं।"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_order.js:0
 msgid "There are not enough products in the basket to claim this reward."
 msgstr ""
+<<<<<<< HEAD
+=======
+"इस रिवॉर्ड को हासिल करने के लिए आपने अपनी टोकरी में ज़रूरी संख्या में सामान नहीं जोड़ा है।"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
@@ -13027,6 +13422,11 @@ msgid ""
 "There is no email template on the gift card program and your pos is set to "
 "print them."
 msgstr ""
+<<<<<<< HEAD
+=======
+"गिफ़्ट कार्ड प्रोग्राम में कोई ईमेल टेम्पलेट नहीं है और आपका पीओएस उन्हें प्रिंट करने के लिए सेट "
+"किया गया है।"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
@@ -13035,41 +13435,70 @@ msgid ""
 "There is no print report on the gift card program and your pos is set to "
 "print them."
 msgstr ""
+<<<<<<< HEAD
+=======
+"गिफ़्ट कार्ड प्रोग्राम पर कोई प्रिंट रिपोर्ट नहीं है और आपका पीओएस उन्हें प्रिंट करने के लिए "
+"सेट किया गया है।"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_loyalty_rule__valid_product_ids
 msgid "These are the products that are valid for this rule."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ये वे प्रॉडक्ट हैं जो इस नियम के लिए मान्य हैं।"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/product_screen/order_summary/order_summary.js:0
 msgid "This Gift card has already been sold."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यह गिफ़्ट कार्ड पहले ही बेचा जा चुका है।"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_config.py:0
 msgid "This coupon is expired (%s)."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस कूपन की समय सीमा खत्म हो गई है (%s)।"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_config.py:0
 msgid "This coupon is invalid (%s)."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यह कूपन अमान्य है (%s)।"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_config.py:0
 msgid "This coupon is not available with the current pricelist."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यह कूपन मौजूदा प्राइसलिस्ट के साथ उपलब्ध नहीं है।"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_config.py:0
 msgid "This coupon is not yet valid (%s)."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यह कूपन अभी तक मान्य नहीं है (%s)।"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -13078,17 +13507,30 @@ msgid ""
 "This gift card is not linked to any order. Do you really want to apply its "
 "reward?"
 msgstr ""
+<<<<<<< HEAD
+=======
+"यह गिफ़्ट कार्ड किसी भी ऑर्डर से जुड़ा नहीं है. क्या आप वाकई इसका रिवॉर्ड लागू करना चाहते "
+"हैं?"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_loyalty_program__pos_report_print_id
 msgid "This is used to print the generated gift cards from PoS."
 msgstr ""
+<<<<<<< HEAD
+=======
+"इसका उपयोग पीओएस से जनरेट किए गए गिफ़्ट कार्ड प्रिंट करने के लिए किया जाता है।"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_config.py:0
 msgid "This programs requires a code to be applied."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस प्रोग्राम के लिए एक कोड चाहिए।"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
@@ -13096,6 +13538,10 @@ msgstr ""
 msgid ""
 "To continue, make the following reward products available in Point of Sale."
 msgstr ""
+<<<<<<< HEAD
+=======
+"जारी रखने के लिए, नीचे दिए गए रिवॉर्ड प्रॉडक्ट पॉइंट ऑफ़ सेल में उपलब्ध कराएं।"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,field_description:pos_loyalty.field_barcode_rule__type
@@ -13106,30 +13552,50 @@ msgstr "प्रकार"
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_order.js:0
 msgid "Unknown discount type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अज्ञात डिस्काउंट टाइप"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_store.js:0
 msgid "Unpaid gift card"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बाकी पेमेंट वाला गिफ़्ट कार्ड"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_store.js:0
 msgid "Unpaid gift card rejected."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बाकी पेमेंट वाला गिफ़्ट कार्ड अस्वीकार कर दिया गया।"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/control_buttons/control_buttons.js:0
 msgid "Use eWallet to pay"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चुकाने के लिए ई-वॉलेट का इस्तेमाल करें"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_rule__valid_product_ids
 msgid "Valid Product"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मान्य प्रॉडक्ट"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -13141,18 +13607,30 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/product_screen/order_summary/order_summary.js:0
 msgid "Validation Error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पुष्टिकरण में गड़बड़ी"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_pos_order_line__is_reward_line
 msgid "Whether this line is part of a reward or not."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यह लाइन रिवॉर्ड का हिस्सा है या नहीं।"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/order_receipt/order_receipt.xml:0
 msgid "Won:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जीता:"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -13165,6 +13643,10 @@ msgstr "हाँ"
 #: code:addons/pos_loyalty/static/src/overrides/components/product_screen/order_summary/order_summary.js:0
 msgid "You cannot set negative quantity or price to gift card or ewallet."
 msgstr ""
+<<<<<<< HEAD
+=======
+"गिफ़्ट कार्ड या ई-वॉलेट के लिए नेगेटिव मात्रा या कीमत सेट नहीं की जा सकती।"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -13177,7 +13659,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/pos_loyalty/models/loyalty_program.py:0
 msgid "You must set '%(mail_template)s' before setting '%(report)s'."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "'%(report)s' सेट करने से पहले आपको '%(mail_template)s' सेट करना होगा।"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -13302,7 +13788,11 @@ msgid "eWallet"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ई-वॉलेट"
+>>>>>>> upstream/18.0
 =======
 msgstr "ई-वॉलेट"
 >>>>>>> upstream/18.0
@@ -13665,28 +14155,48 @@ msgstr "ई-वॉलेट"
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/control_buttons/control_buttons.xml:0
 msgid "eWallet Pay"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ई-वॉलेट पे"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/control_buttons/control_buttons.xml:0
 msgid "eWallet Refund"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ई-वॉलेट रिफ़ंड"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_store.js:0
 msgid "eWallet requires a customer to be selected"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ई-वॉलेट के लिए ग्राहक को चुनना ज़रूरी है"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/order_receipt/order_receipt.xml:0
 msgid "no expiration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "समाप्त होने की कोई तारीख नहीं"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_order.js:0
 msgid "the gift cards"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गिफ़्ट कार्ड"
+>>>>>>> upstream/18.0

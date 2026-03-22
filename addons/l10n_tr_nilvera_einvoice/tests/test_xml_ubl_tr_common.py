@@ -58,7 +58,11 @@ class TestUBLTRCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'bank_ids': [Command.create({'acc_number': 'TR0123456789'})],
+=======
+            'bank_ids': [Command.create({'acc_number': 'TR0123456789', 'allow_out_payment': True})],
+>>>>>>> upstream/18.0
 =======
             'bank_ids': [Command.create({'acc_number': 'TR0123456789', 'allow_out_payment': True})],
 >>>>>>> upstream/18.0
@@ -215,7 +219,11 @@ class TestUBLTRCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'bank_ids': [Command.create({'acc_number': 'TR9876543210'})],
+=======
+            'bank_ids': [Command.create({'acc_number': 'TR9876543210', 'allow_out_payment': True})],
+>>>>>>> upstream/18.0
 =======
             'bank_ids': [Command.create({'acc_number': 'TR9876543210', 'allow_out_payment': True})],
 >>>>>>> upstream/18.0
@@ -375,7 +383,11 @@ class TestUBLTRCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'bank_ids': [Command.create({'acc_number': 'TR9876543210'})],
+=======
+            'bank_ids': [Command.create({'acc_number': 'TR9876543210', 'allow_out_payment': True})],
+>>>>>>> upstream/18.0
 =======
             'bank_ids': [Command.create({'acc_number': 'TR9876543210', 'allow_out_payment': True})],
 >>>>>>> upstream/18.0
@@ -672,7 +684,11 @@ class TestUBLTRCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _generate_invoice_xml(self, partner_id, tax=None, **kwargs):
+=======
+    def _generate_invoice_xml(self, partner_id, tax=None, include_invoice=False, **kwargs):
+>>>>>>> upstream/18.0
 =======
     def _generate_invoice_xml(self, partner_id, tax=None, include_invoice=False, **kwargs):
 >>>>>>> upstream/18.0
@@ -1369,6 +1385,11 @@ class TestUBLTRCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if include_invoice:
+            return self.env['account.edi.xml.ubl.tr']._export_invoice(invoice)[0], invoice
+>>>>>>> upstream/18.0
 =======
         if include_invoice:
             return self.env['account.edi.xml.ubl.tr']._export_invoice(invoice)[0], invoice

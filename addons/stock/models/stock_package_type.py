@@ -198,6 +198,10 @@ class PackageType(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    _order = "sequence, id"
+>>>>>>> upstream/18.0
 =======
     _order = "sequence, id"
 >>>>>>> upstream/18.0

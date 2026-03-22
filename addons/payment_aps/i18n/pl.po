@@ -63,6 +63,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* payment_aps
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -298,6 +299,9 @@
 =======
 # * payment_aps
 >>>>>>> upstream/18.0
+=======
+# * payment_aps
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -378,6 +382,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -425,6 +430,10 @@
 >>>>>>> upstream/18.0
 =======
 # "Marta (wacm)" <wacm@odoo.com>, 2026.
+>>>>>>> upstream/18.0
+=======
+# "Marta (wacm)" <wacm@odoo.com>, 2026.
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
 =======
 # "Marta (wacm)" <wacm@odoo.com>, 2026.
@@ -654,6 +663,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -984,6 +994,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2026-02-14 09:11+0000\n"
 "Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
@@ -1023,6 +1035,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1097,6 +1112,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1517,6 +1533,11 @@ msgstr ""
 "(n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || "
+"(n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: payment_aps
 #: model:ir.model.fields,field_description:payment_aps.field_payment_provider__aps_access_code
@@ -1556,7 +1577,11 @@ msgid "APS Access Code"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kod dostępu APS"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kod dostępu APS"
 >>>>>>> upstream/18.0
@@ -1701,7 +1726,11 @@ msgid "APS Merchant Identifier"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Identyfikator sprzedawcy APS"
+>>>>>>> upstream/18.0
 =======
 msgstr "Identyfikator sprzedawcy APS"
 >>>>>>> upstream/18.0
@@ -1846,7 +1875,11 @@ msgid "APS SHA Request Phrase"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fraza żądania APS SHA"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fraza żądania APS SHA"
 >>>>>>> upstream/18.0
@@ -1991,7 +2024,11 @@ msgid "APS SHA Response Phrase"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fraza odpowiedzi APS SHA"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fraza odpowiedzi APS SHA"
 >>>>>>> upstream/18.0
@@ -2136,7 +2173,11 @@ msgid "Access Code"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kod dostępu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kod dostępu"
 >>>>>>> upstream/18.0
@@ -2291,7 +2332,11 @@ msgid "Merchant Identifier"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Identyfikator sprzedawcy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Identyfikator sprzedawcy"
 >>>>>>> upstream/18.0
@@ -2470,7 +2515,11 @@ msgid "Payment Provider"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dostawca Płatności"
+=======
+msgstr "Operator płatności"
+>>>>>>> upstream/18.0
 =======
 msgstr "Operator płatności"
 >>>>>>> upstream/18.0
@@ -2727,7 +2776,11 @@ msgid "Payment Transaction"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Transakcja płatności"
+=======
+msgstr "Transakcja płatnicza"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transakcja płatnicza"
 >>>>>>> upstream/18.0
@@ -2978,6 +3031,7 @@ msgid "Received data with missing payment state."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Otrzymano dane z brakującym statusem płatności."
@@ -3041,6 +3095,9 @@ msgstr "Otrzymano dane z brakującym statusem płatności."
 >>>>>>> upstream/18.0
 =======
 msgstr "Otrzymano dane z brakującym statusem płatności."
+>>>>>>> upstream/18.0
+=======
+msgstr "Otrzymano dane z brakującym statusem płatnosci."
 >>>>>>> upstream/18.0
 =======
 msgstr "Otrzymano dane z brakującym statusem płatnosci."
@@ -3208,6 +3265,7 @@ msgid "Received data with missing reference %(ref)s."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Otrzymane dane z brakującym numerem referencyjnym %(ref)s."
@@ -3377,10 +3435,14 @@ msgstr "Otrzymano dane z brakującym numerem referencyjnym %(ref)s."
 =======
 msgstr "Otrzymano dane z brakującym numerem referencyjnym %(ref)s."
 >>>>>>> upstream/18.0
+=======
+msgstr "Otrzymano dane z brakującym numerem referencyjnym %(ref)s."
+>>>>>>> upstream/18.0
 
 #. module: payment_aps
 #. odoo-python
 #: code:addons/payment_aps/models/payment_transaction.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3656,6 +3718,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid "Received invalid transaction status %(status)s and reason '%(reason)s'."
 msgstr ""
 "Otrzymano nieprawidłowy status transakcji %(status)s oraz powód "
@@ -3694,6 +3758,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3802,7 +3869,11 @@ msgid "SHA Request Phrase"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fraza żądania SHA"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fraza żądania SHA"
 >>>>>>> upstream/18.0
@@ -3947,7 +4018,11 @@ msgid "SHA Response Phrase"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fraza odpowiedzi SHA"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fraza odpowiedzi SHA"
 >>>>>>> upstream/18.0
@@ -4092,7 +4167,11 @@ msgid "The access code associated with the merchant account."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kod dostępu powiązany z kontem sprzedawcy."
+>>>>>>> upstream/18.0
 =======
 msgstr "Kod dostępu powiązany z kontem sprzedawcy."
 >>>>>>> upstream/18.0
@@ -4237,7 +4316,11 @@ msgid "The code of the merchant account to use with this provider."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kod konta sprzedawcy, który należy używać w przypadku tego dostawcy."
+>>>>>>> upstream/18.0
 =======
 msgstr "Kod konta sprzedawcy, który należy używać w przypadku tego dostawcy."
 >>>>>>> upstream/18.0
