@@ -135,7 +135,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <div t-attf-class="o_attachment o_attachment_many2many #{ editable ? 'o_attachment_editable' : '' } #{upload ? 'o_attachment_uploading' : ''}" t-att-title="file.name">
+=======
+    <div name="attachment" t-attf-class="o_attachment o_attachment_many2many #{ editable ? 'o_attachment_editable' : '' } #{upload ? 'o_attachment_uploading' : ''}" t-att-title="file.name">
+>>>>>>> upstream/18.0
 =======
     <div name="attachment" t-attf-class="o_attachment o_attachment_many2many #{ editable ? 'o_attachment_editable' : '' } #{upload ? 'o_attachment_uploading' : ''}" t-att-title="file.name">
 >>>>>>> upstream/18.0

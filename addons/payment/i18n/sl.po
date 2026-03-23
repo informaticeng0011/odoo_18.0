@@ -43,6 +43,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* payment
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -183,6 +184,10 @@
 #
 >>>>>>> upstream/18.0
 =======
+#
+>>>>>>> upstream/18.0
+=======
+# * payment
 #
 >>>>>>> upstream/18.0
 =======
@@ -628,6 +633,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Aleš Pipan, 2025
 >>>>>>> upstream/18.0
@@ -1551,10 +1557,16 @@
 #
 # Jan Zorko <jan.zorko@implex.si>, 2026.
 >>>>>>> upstream/18.0
+=======
+# Aleš Pipan, 2025
+#
+# Jan Zorko <jan.zorko@implex.si>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2955,6 +2967,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2026-01-15 18:39+0000\n"
 "PO-Revision-Date: 2026-02-07 10:43+0000\n"
 "Last-Translator: Jan Zorko <jan.zorko@implex.si>\n"
@@ -3002,6 +3016,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3091,6 +3108,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3454,6 +3472,11 @@ msgstr ""
 "n%100==4 ? 2 : 3;\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3;\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_provider_onboarding_wizard___data_fetched
@@ -3553,8 +3576,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Number: %(account_number)s</li><li>Account Holder: "
 "%(account_holder)s</li></ul>"
+=======
+"Number: %(account_number)s</li><li>Account Holder: %(account_holder)s</li></"
+"ul>"
+>>>>>>> upstream/18.0
 =======
 "Number: %(account_number)s</li><li>Account Holder: %(account_holder)s</li></"
 "ul>"
@@ -3951,10 +3979,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                match the behavior of providers and that of their integration with\n"
 "                                Odoo regarding this payment method. Any change may result in errors\n"
 "                                and should be tested on a test database first."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4192,6 +4223,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4429,7 +4463,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-home\" role=\"img\" title=\"Home\" aria-label=\"Home\"/>"
+=======
+msgid ""
+"<i class=\"fa fa-home\" role=\"img\" title=\"Home\" aria-label=\"Home\"/>"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "<i class=\"fa fa-home\" role=\"img\" title=\"Home\" aria-label=\"Home\"/>"
@@ -4825,11 +4864,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-info-circle oe_inline\" invisible=\"support_partial_capture"
 " != 'full_only'\" title=\"Some of the transactions you intend to capture can"
 " only be captured in full. Handle the transactions individually to capture a"
 " partial amount.\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5065,6 +5107,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5363,7 +5408,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<strong><i class=\"fa fa-file-text\"/> Show availability report</strong>"
+=======
+msgid ""
+"<strong><i class=\"fa fa-file-text\"/> Show availability report</strong>"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "<strong><i class=\"fa fa-file-text\"/> Show availability report</strong>"
@@ -5775,7 +5825,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    moment for it to be processed. Check your payment provider configuration if\n"
+=======
+"                    moment for it to be processed. Check your payment "
+"provider configuration if\n"
+>>>>>>> upstream/18.0
 =======
 "                    moment for it to be processed. Check your payment "
 "provider configuration if\n"
@@ -6179,7 +6234,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<strong>Warning</strong> Creating a payment provider from the <em>CREATE</em> button is not supported.\n"
+=======
+"<strong>Warning</strong> Creating a payment provider from the <em>CREATE</"
+"em> button is not supported.\n"
+>>>>>>> upstream/18.0
 =======
 "<strong>Warning</strong> Creating a payment provider from the <em>CREATE</"
 "em> button is not supported.\n"
@@ -6577,7 +6637,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    correct partner before making this payment."
+=======
+"                                    correct partner before making this "
+"payment."
+>>>>>>> upstream/18.0
 =======
 "                                    correct partner before making this "
 "payment."
@@ -7154,6 +7219,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<strong>Opozorilo\n"
+"</strong> Za plačilo morate biti prijavljeni."
+>>>>>>> upstream/18.0
 =======
 "<strong>Opozorilo\n"
 "</strong> Za plačilo morate biti prijavljeni."
@@ -8476,7 +8546,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9280,6 +9353,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10024,7 +10100,10 @@ msgstr "Uporabi"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10219,6 +10298,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10644,7 +10726,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11448,6 +11533,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12333,7 +12421,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13142,6 +13233,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13986,7 +14080,11 @@ msgid "Bank Transfer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bančno nakazilo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bančno nakazilo"
 >>>>>>> upstream/18.0
@@ -14984,7 +15082,11 @@ msgid "Benefit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Korist"
+>>>>>>> upstream/18.0
 =======
 msgstr "Korist"
 >>>>>>> upstream/18.0
@@ -15867,7 +15969,11 @@ msgid "Brands"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Blagovne znamke"
+>>>>>>> upstream/18.0
 =======
 msgstr "Blagovne znamke"
 >>>>>>> upstream/18.0
@@ -17291,7 +17397,11 @@ msgid "Enabled"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Omogočeno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Omogočeno"
 >>>>>>> upstream/18.0
@@ -18365,7 +18475,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19169,6 +19282,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19980,7 +20096,11 @@ msgid "Full Only"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samo polno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Samo polno"
 >>>>>>> upstream/18.0
@@ -21012,7 +21132,11 @@ msgid "Generate Sales Payment Link"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ustvari povezavo za plačilo prodaje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ustvari povezavo za plačilo prodaje"
 >>>>>>> upstream/18.0
@@ -21967,8 +22091,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If you believe that it is an error, please contact the website "
 "administrator."
+=======
+"If you believe that it is an error, please contact the website administrator."
+>>>>>>> upstream/18.0
 =======
 "If you believe that it is an error, please contact the website administrator."
 >>>>>>> upstream/18.0
@@ -22470,6 +22598,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"V testnem načinu se lažno plačilo obdela prek testnega plačilnega vmesnika.\n"
+"This mode is advised when setting up the provider."
+>>>>>>> upstream/18.0
 =======
 "V testnem načinu se lažno plačilo obdela prek testnega plačilnega vmesnika.\n"
 "This mode is advised when setting up the provider."
@@ -23655,7 +23788,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23850,6 +23986,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24301,7 +24440,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25105,6 +25247,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26127,7 +26272,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26931,6 +27079,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27763,7 +27914,11 @@ msgid "Onboarding Step"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Korak uvajanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Korak uvajanja"
 >>>>>>> upstream/18.0
@@ -28861,7 +29016,11 @@ msgid "Online Payments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spletna plačila"
+>>>>>>> upstream/18.0
 =======
 msgstr "Spletna plačila"
 >>>>>>> upstream/18.0
@@ -29991,7 +30150,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -30795,6 +30957,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -31570,7 +31735,11 @@ msgid "Pay Later"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Plačaj pozneje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Plačaj pozneje"
 >>>>>>> upstream/18.0
@@ -32789,7 +32958,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -33593,6 +33765,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -34459,7 +34634,10 @@ msgstr "SEPA direktna bremenitev"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -35263,6 +35441,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -35907,7 +36088,11 @@ msgid "Skip <i class=\"oi oi-arrow-right ms-1 small\"/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preskoči <i class=\"oi oi-arrow-right ms-1 small\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "Preskoči <i class=\"oi oi-arrow-right ms-1 small\"/>"
 >>>>>>> upstream/18.0
@@ -36125,8 +36310,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Some of the transactions you intend to capture can only be captured in full."
 " Handle the transactions individually to capture a partial amount."
+=======
+"Some of the transactions you intend to capture can only be captured in full. "
+"Handle the transactions individually to capture a partial amount."
+>>>>>>> upstream/18.0
 =======
 "Some of the transactions you intend to capture can only be captured in full. "
 "Handle the transactions individually to capture a partial amount."
@@ -36727,7 +36917,11 @@ msgid "Step Completed!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Korak zaključen!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Korak zaključen!"
 >>>>>>> upstream/18.0
@@ -37692,8 +37886,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The brands of the payment methods that will be displayed on the payment "
 "form."
+=======
+"The brands of the payment methods that will be displayed on the payment form."
+>>>>>>> upstream/18.0
 =======
 "The brands of the payment methods that will be displayed on the payment form."
 >>>>>>> upstream/18.0
@@ -38070,9 +38268,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The list of currencies for that are supported by this payment method (if the"
 " provider allows it). When paying with another currency, this payment method"
 " is not available to customers."
+=======
+"The list of currencies for that are supported by this payment method (if the "
+"provider allows it). When paying with another currency, this payment method "
+"is not available to customers."
+>>>>>>> upstream/18.0
 =======
 "The list of currencies for that are supported by this payment method (if the "
 "provider allows it). When paying with another currency, this payment method "
@@ -38598,9 +38802,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The primary payment method of the current payment method, if the latter is a brand.\n"
 "For example, \"Card\" is the primary payment method of the card brand \"VISA\"."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -38836,6 +39043,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -39066,6 +39276,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -39458,12 +39669,17 @@ msgid ""
 "The transaction with reference %(ref)s for %(amount)s encountered an error (%"
 "(provider_name)s)."
 >>>>>>> upstream/18.0
+=======
+"The transaction with reference %(ref)s for %(amount)s encountered an error (%"
+"(provider_name)s)."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: payment
 #. odoo-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -39856,6 +40072,10 @@ msgid ""
 "The transaction with reference %(ref)s for %(amount)s has been authorized (%"
 "(provider_name)s)."
 >>>>>>> upstream/18.0
+=======
+"The transaction with reference %(ref)s for %(amount)s has been authorized (%"
+"(provider_name)s)."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: payment
@@ -39940,8 +40160,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The transaction with reference %(ref)s for %(amount)s has been confirmed "
 "(%(provider_name)s)."
+=======
+"The transaction with reference %(ref)s for %(amount)s has been confirmed (%"
+"(provider_name)s)."
+>>>>>>> upstream/18.0
 =======
 "The transaction with reference %(ref)s for %(amount)s has been confirmed (%"
 "(provider_name)s)."
@@ -40374,9 +40599,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This controls whether customers can save their payment methods as payment tokens.\n"
 "A payment token is an anonymous link to the payment method details saved in the\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -40612,6 +40840,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -40859,7 +41090,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This partner has no email, which may cause issues with some payment providers.\n"
+=======
+"This partner has no email, which may cause issues with some payment "
+"providers.\n"
+>>>>>>> upstream/18.0
 =======
 "This partner has no email, which may cause issues with some payment "
 "providers.\n"
@@ -41544,7 +41780,11 @@ msgid "Unsupported"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nepodprto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nepodprto"
 >>>>>>> upstream/18.0
@@ -42386,7 +42626,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -42586,6 +42829,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -42787,7 +43033,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -42982,6 +43231,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -43178,7 +43430,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -43373,6 +43628,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -43820,7 +44078,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -44624,6 +44885,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -45246,7 +45510,10 @@ msgstr "Bančno nakazilo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -45441,6 +45708,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -45853,7 +46123,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -46631,6 +46904,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -47450,6 +47726,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:payment.provider,auth_msg:payment.payment_provider_nuvei
+>>>>>>> upstream/18.0
 =======
 #: model_terms:payment.provider,auth_msg:payment.payment_provider_nuvei
 >>>>>>> upstream/18.0
@@ -48540,6 +48820,10 @@ msgstr "Vaše plačilo je bilo potrjeno."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:payment.provider,cancel_msg:payment.payment_provider_nuvei
+>>>>>>> upstream/18.0
 =======
 #: model_terms:payment.provider,cancel_msg:payment.payment_provider_nuvei
 >>>>>>> upstream/18.0
@@ -49630,6 +49914,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:payment.provider,pending_msg:payment.payment_provider_nuvei
+>>>>>>> upstream/18.0
 =======
 #: model_terms:payment.provider,pending_msg:payment.payment_provider_nuvei
 >>>>>>> upstream/18.0
@@ -50720,6 +51008,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:payment.provider,done_msg:payment.payment_provider_nuvei
+>>>>>>> upstream/18.0
 =======
 #: model_terms:payment.provider,done_msg:payment.payment_provider_nuvei
 >>>>>>> upstream/18.0

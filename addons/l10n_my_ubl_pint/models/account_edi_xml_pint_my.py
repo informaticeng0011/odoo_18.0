@@ -36,7 +36,10 @@ from odoo import models, _
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -142,6 +145,9 @@ class AccountEdiXmlUBL21(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -338,7 +344,10 @@ class AccountEdiXmlUBLPINTMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -694,6 +703,9 @@ class AccountEdiXmlUBLPINTMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -966,6 +978,7 @@ class AccountEdiXmlUBLPINTMY(models.AbstractModel):
             # TIN
             gst_tax_scheme = tax_scheme_vals_list[0].copy()
             gst_tax_scheme.update({
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1735,6 +1748,9 @@ class AccountEdiXmlUBLPINTMY(models.AbstractModel):
 =======
                 'company_id': partner.vat or 'NA',
 >>>>>>> upstream/18.0
+=======
+                'company_id': partner.vat or 'NA',
+>>>>>>> upstream/18.0
                 'tax_scheme_vals': {'id': 'GST'},
             })
             tax_scheme_vals_list.append(gst_tax_scheme)
@@ -1903,7 +1919,10 @@ class AccountEdiXmlUBLPINTMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2244,6 +2263,7 @@ class AccountEdiXmlUBLPINTMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _get_tax_category_code(self, customer, supplier, tax):
         """
         In malaysia, only the following codes can be used: T, E, O
@@ -2251,6 +2271,8 @@ class AccountEdiXmlUBLPINTMY(models.AbstractModel):
         """
         # OVERRIDE account_edi_ubl_cii
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2559,10 +2581,16 @@ class AccountEdiXmlUBLPINTMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        if not grouping_key:
+            return
+
 >>>>>>> upstream/18.0
 =======
         if not grouping_key:
@@ -3164,6 +3192,7 @@ class AccountEdiXmlUBLPINTMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not supplier.sst_registration_number:
             return 'O'
         elif tax.amount != 0:
@@ -3187,6 +3216,8 @@ class AccountEdiXmlUBLPINTMY(models.AbstractModel):
 
         vals['tax_grouping_function'] = modified_tax_grouping_function
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3496,6 +3527,7 @@ class AccountEdiXmlUBLPINTMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3606,6 +3638,8 @@ class AccountEdiXmlUBLPINTMY(models.AbstractModel):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3754,6 +3788,9 @@ class AccountEdiXmlUBLPINTMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3852,6 +3889,7 @@ class AccountEdiXmlUBLPINTMY(models.AbstractModel):
         document_node['cbc:CustomizationID'] = {'_text': self._get_customization_ids()['pint_my']}
         document_node['cbc:ProfileID'] = {'_text': 'urn:peppol:bis:billing'}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4400,6 +4438,8 @@ class AccountEdiXmlUBLPINTMY(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def _ubl_add_party_tax_scheme_nodes(self, vals):
         # EXTENDS account.edi.ubl_bis3
         super()._ubl_add_party_tax_scheme_nodes(vals)
@@ -4460,6 +4500,9 @@ class AccountEdiXmlUBLPINTMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4528,6 +4571,7 @@ class AccountEdiXmlUBLPINTMY(models.AbstractModel):
         constraints = super()._export_invoice_constraints_new(invoice, vals)
 
         # A tax category "Outside of tax cope" can only have an amount of 0.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4839,6 +4883,8 @@ class AccountEdiXmlUBLPINTMY(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         for tax_total_node in vals['document_node']['cac:TaxTotal']:
             for tax_subtotal_node in tax_total_node['cac:TaxSubtotal']:
                 for tax_category_node in tax_subtotal_node['cac:TaxCategory']:
@@ -4948,6 +4994,9 @@ class AccountEdiXmlUBLPINTMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5273,6 +5322,9 @@ class AccountEdiXmlUBLPINTMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

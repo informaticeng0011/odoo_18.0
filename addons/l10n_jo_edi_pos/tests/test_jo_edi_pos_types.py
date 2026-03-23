@@ -312,6 +312,7 @@ class TestJoEdiPosTypes(JoEdiPosCommon):
     def test_different_payment_methods(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         def get_xml_order_type(order, amount_cash, amount_bank):
             cash_pm = order.config_id.payment_method_ids.filtered(lambda pm: pm.l10n_jo_edi_pos_is_cash)[0]
             bank_pm = order.config_id.payment_method_ids.filtered(lambda pm: not pm.l10n_jo_edi_pos_is_cash)[0]
@@ -320,6 +321,9 @@ class TestJoEdiPosTypes(JoEdiPosCommon):
                 self.make_payment(order, cash_pm, amount_cash)
             if amount_bank:
                 self.make_payment(order, bank_pm, amount_bank)
+=======
+        def get_xml_order_type(order):
+>>>>>>> upstream/18.0
 =======
         def get_xml_order_type(order):
 >>>>>>> upstream/18.0
@@ -338,11 +342,14 @@ class TestJoEdiPosTypes(JoEdiPosCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for (cash_amount, bank_amount, expected_type) in [
             (100, 0, '011'),
             (0, 100, '021'),
             (50, 50, False),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         cash_pm1, cash_pm2, bank_pm1, bank_pm2 = self.env['pos.payment.method'].create([
@@ -379,6 +386,9 @@ class TestJoEdiPosTypes(JoEdiPosCommon):
             ([(cash_pm1, 50), (cash_pm2, 50)], '011'),
             ([(bank_pm1, 50), (bank_pm2, 50)], '021'),
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -399,10 +409,13 @@ class TestJoEdiPosTypes(JoEdiPosCommon):
             }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             order = self._l10n_jo_create_order(order_vals)
             order_type = get_xml_order_type(order, cash_amount, bank_amount)
             self.assertEqual(order_type, expected_type)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             order = self._l10n_jo_create_order(order_vals, payments=payments, default_payment=False)
@@ -466,6 +479,9 @@ class TestJoEdiPosTypes(JoEdiPosCommon):
             order = self._l10n_jo_create_order(order_vals, payments=[(payment_method, amount_total)], default_payment=False)
             self.assertEqual(bool(order._l10n_jo_validate_fields()), not is_valid)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

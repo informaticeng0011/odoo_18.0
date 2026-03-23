@@ -43,6 +43,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* account_update_tax_tags
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -357,12 +358,17 @@
 # * account_update_tax_tags
 #
 >>>>>>> upstream/18.0
+=======
+# * account_update_tax_tags
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Martin Trigaux, 2024
 # Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2024
 # Kari Lindgren <kari.lindgren@emsystems.fi>, 2024
 # Tuomo Aura <tuomo.aura@web-veistamo.fi>, 2024
 # Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -676,10 +682,14 @@
 =======
 # Saara Hakanen <sahak@odoo.com>, 2026.
 >>>>>>> upstream/18.0
+=======
+# Saara Hakanen <sahak@odoo.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -924,6 +934,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-02-07 10:31+0000\n"
 "Last-Translator: Saara Hakanen <sahak@odoo.com>\n"
@@ -971,6 +983,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1060,6 +1075,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1379,6 +1395,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: account_update_tax_tags
 #: model:ir.model.fields,field_description:account_update_tax_tags.field_account_update_tax_tags_wizard__company_id
@@ -1441,7 +1461,11 @@ msgid "Date from which journal items will be updated."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Päivämäärä, josta alkaen päiväkirjan kohteet päivitetään."
+=======
+msgstr "Päivämäärä, josta alkaen kirjausrivit päivitetään."
+>>>>>>> upstream/18.0
 =======
 msgstr "Päivämäärä, josta alkaen kirjausrivit päivitetään."
 >>>>>>> upstream/18.0
@@ -1623,7 +1647,11 @@ msgid "Display Lock Date Warning"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Näytä lukituspäivämäärän varoitus"
+=======
+msgstr "Näytä lukituspäivän varoitus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Näytä lukituspäivän varoitus"
 >>>>>>> upstream/18.0
@@ -1805,7 +1833,11 @@ msgid "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ID"
+=======
+msgstr "Tunnus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tunnus"
 >>>>>>> upstream/18.0
@@ -1956,6 +1988,7 @@ msgstr "Alkaen"
 msgid ""
 "The date you chose is violating the tax lock date, do this at your own risk."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2270,6 +2303,9 @@ msgstr ""
 =======
 "Valitsemasi päivämäärä rikkoo verolukituspäivää, tee tämä omalla vastuullasi."
 >>>>>>> upstream/18.0
+=======
+"Valitsemasi päivämäärä rikkoo verolukituspäivää, tee tämä omalla vastuullasi."
+>>>>>>> upstream/18.0
 
 #. module: account_update_tax_tags
 #: model_terms:ir.ui.view,arch_db:account_update_tax_tags.view_account_update_tax_tags_wizard_form
@@ -2322,7 +2358,11 @@ msgid "Update Tax Tags Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ohjattu veromerkintöjen päivitys"
+=======
+msgstr "Ohjattu verotunnusten päivitystoiminto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ohjattu verotunnusten päivitystoiminto"
 >>>>>>> upstream/18.0
@@ -2500,7 +2540,11 @@ msgid "Update tax tags on existing Journal Entries"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Päivitä olemassa olevien päiväkirjamerkintöjen veromerkinnät"
+=======
+msgstr "Päivitä olemassa olevien päiväkirjan kirjausten verotunnisteet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Päivitä olemassa olevien päiväkirjan kirjausten verotunnisteet"
 >>>>>>> upstream/18.0
@@ -2680,7 +2724,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Verojen päivitys useammasta ylätason verosta ei ole tuettu."
+=======
+msgstr "Useamman kantaveron omaavien alisteisten verojen päivitystä ei tueta."
+>>>>>>> upstream/18.0
 =======
 msgstr "Useamman kantaveron omaavien alisteisten verojen päivitystä ei tueta."
 >>>>>>> upstream/18.0
@@ -2814,6 +2862,7 @@ msgstr "Useamman kantaveron omaavien alisteisten verojen päivitystä ei tueta."
 #. module: account_update_tax_tags
 #: model_terms:ir.ui.view,arch_db:account_update_tax_tags.view_account_update_tax_tags_wizard_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3057,6 +3106,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Updating tax tags on existing Journal Entries is an <b>irreversible</b> "
 "action that will impact\n"
 "                    your reports.<br/>\n"
@@ -3067,6 +3118,7 @@ msgstr ""
 "                    so that it matches with the current configuration of "
 "your taxes.<br/>"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3306,6 +3358,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Olemassa olevien kirjausten verotunnisteiden päivittäminen on "
 "<b>peruuttamaton</b> toiminto, joka vaikuttaa\n"
 "                    raportteihisi.<br/>\n"
@@ -3356,6 +3410,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

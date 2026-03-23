@@ -256,6 +256,7 @@ def migrate(cr, version):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         env['account.chart.template'].try_loading('vn', company)
 =======
         env['account.chart.template'].try_loading('vn', company, force_create=False)
@@ -862,6 +863,8 @@ def migrate(cr, version):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         ChartTemplate = env['account.chart.template'].with_company(company)
         data = {
             'account.tax.group': ChartTemplate._get_account_tax_group(company.chart_template),
@@ -1018,6 +1021,9 @@ def migrate(cr, version):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -52,9 +52,12 @@ class PosOrder(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _get_order_payment_method_code(self):
         return '1' if any(self.payment_ids.payment_method_id.mapped('l10n_jo_edi_pos_is_cash')) else '2'
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _l10n_jo_edi_pos_get_payment_type(self):
@@ -68,6 +71,9 @@ class PosOrder(models.Model):
     def _get_order_payment_method_code(self):
         return '1' if self._l10n_jo_edi_pos_get_payment_type() == 'cash' else '2'
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -113,9 +119,12 @@ class PosOrder(models.Model):
             error_msgs.append(self.env._("Downpayments, global discounts, and negative lines are not supported at the moment. To revert this order, please go to Orders > Select the Order > Refund or create a Return from the backend by going to Orders > Select the Order > Return"))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if len(self.payment_ids.payment_method_id.mapped('l10n_jo_edi_pos_is_cash')) > 1:
             error_msgs.append(self.env._("Please select the payment methods that are consistent with the value set in 'JoFotara Cash'. If set, the payment method is Cash. If empty, then it is Receivable."))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         if not self._l10n_jo_edi_pos_get_payment_type():
@@ -127,6 +136,9 @@ class PosOrder(models.Model):
             if not self.partner_id and (self._l10n_jo_edi_pos_get_payment_type() == 'receivable' or amount_total_requires_customer):
                 error_msgs.append(self.env._("Customer is required on either Receivable or more than 10,000 JOD Cash Orders."))
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -218,7 +230,11 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'ref': self.l10n_jo_edi_pos_return_reason,
+=======
+            'ref': self.l10n_jo_edi_pos_return_reason or vals.get('ref', False),
+>>>>>>> upstream/18.0
 =======
             'ref': self.l10n_jo_edi_pos_return_reason or vals.get('ref', False),
 >>>>>>> upstream/18.0

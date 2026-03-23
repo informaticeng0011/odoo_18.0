@@ -323,7 +323,11 @@ export class TicketScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ((!clickedOrder || clickedOrder.uiState.locked) && !this.getSelectedOrderlineId()) {
+=======
+        if ((!clickedOrder || clickedOrder.finalized) && !this.getSelectedOrderlineId()) {
+>>>>>>> upstream/18.0
 =======
         if ((!clickedOrder || clickedOrder.finalized) && !this.getSelectedOrderlineId()) {
 >>>>>>> upstream/18.0
@@ -1116,7 +1120,11 @@ export class TicketScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (this.getSelectedOrder()?.uiState.locked) {
+=======
+        if (this.getSelectedOrder()?.finalized) {
+>>>>>>> upstream/18.0
 =======
         if (this.getSelectedOrder()?.finalized) {
 >>>>>>> upstream/18.0
@@ -2060,7 +2068,11 @@ export class TicketScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.getSelectedOrder()?.uiState.locked &&
+=======
+            this.getSelectedOrder()?.finalized &&
+>>>>>>> upstream/18.0
 =======
             this.getSelectedOrder()?.finalized &&
 >>>>>>> upstream/18.0
@@ -2897,7 +2909,11 @@ export class TicketScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             order.uiState?.locked &&
+=======
+            order.finalized &&
+>>>>>>> upstream/18.0
 =======
             order.finalized &&
 >>>>>>> upstream/18.0
@@ -3736,7 +3752,11 @@ export class TicketScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 !refund.destination_order_id
+=======
+                !refund.destination_order
+>>>>>>> upstream/18.0
 =======
                 !refund.destination_order
 >>>>>>> upstream/18.0

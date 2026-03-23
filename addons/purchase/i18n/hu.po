@@ -22,6 +22,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* purchase
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -728,6 +729,10 @@
 # * purchase
 #
 >>>>>>> upstream/18.0
+=======
+# * purchase
+#
+>>>>>>> upstream/18.0
 # Translators:
 # f1b3a33e3b33fcf18004a5292e501f50_3500ca8 <373b677b151624c4521d9efc77b996fd_750224>, 2024
 # Gergő Kertész <gergo.kertesz@maxflow.hu>, 2024
@@ -736,6 +741,7 @@
 # 5768b353f27900ae76ad88cc42dfd5b8_3bb349f, 2024
 # Ákos Nagy <akos.nagy@oregional.hu>, 2024
 # Martin Trigaux, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1568,11 +1574,14 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # Tamás Németh <ntomasz81@gmail.com>, 2024
 # krnkris, 2025
 # Pammer József, 2025
 # Valics Lehel, 2025
 # gezza <geza.nagy@oregional.hu>, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2576,10 +2585,14 @@
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3769,16 +3782,22 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:36+0000\n"
 "PO-Revision-Date: 2026-03-21 09:23+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Hungarian <https://translate.odoo.com/projects/odoo-18/"
 "purchase/hu/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4350,6 +4369,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.16.2\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.actions.report,print_report_name:purchase.action_report_purchase_order
@@ -4531,7 +4554,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                (object.state in ('draft', 'sent') and 'Request for Quotation - %s' % (object.name) or\n"
+=======
+"                (object.state in ('draft', 'sent') and 'Request for "
+"Quotation - %s' % (object.name) or\n"
+>>>>>>> upstream/18.0
 =======
 "                (object.state in ('draft', 'sent') and 'Request for "
 "Quotation - %s' % (object.name) or\n"
@@ -5429,8 +5457,12 @@ msgid "%(product)s from %(original_receipt_date)s to %(new_receipt_date)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "%(product)s ettől %(original_receipt_date)s eddig %(new_receipt_date)s"
+=======
+msgstr "%(product)s ettől %(original_receipt_date)s eddig %(new_receipt_date)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(product)s ettől %(original_receipt_date)s eddig %(new_receipt_date)s"
 >>>>>>> upstream/18.0
@@ -5990,6 +6022,11 @@ msgid ""
 "sales."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+", 100% díjmentesen! Időt fog megspórolni gyönyörű ajánlatok készítésével és "
+"értékesítési nyomkövetésével."
+>>>>>>> upstream/18.0
 =======
 ", 100% díjmentesen! Időt fog megspórolni gyönyörű ajánlatok készítésével és "
 "értékesítési nyomkövetésével."
@@ -6194,6 +6231,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
 "        </t>\n"
 "        <br/><br/>\n"
@@ -6205,6 +6243,8 @@ msgid ""
 "        <t t-if=\"object.date_planned\">\n"
 "            <span style=\"font-weight:bold;\" t-out=\"format_date(object.date_planned) or ''\">05/05/2021</span>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6744,6 +6784,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7276,10 +7319,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7810,6 +7856,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8350,6 +8399,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
 "        </t>\n"
 "        <br/><br/>\n"
@@ -8369,6 +8419,8 @@ msgid ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8920,6 +8972,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9460,6 +9515,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
 "        </t>\n"
 "        <br/><br/>\n"
@@ -9467,6 +9523,8 @@ msgid ""
 "        <t t-if=\"object.partner_ref\">\n"
 "            with reference: <t t-out=\"object.partner_ref or ''\">REF_XXX</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10001,6 +10059,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10533,6 +10594,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <a t-att-href=\"object.get_confirm_url(confirm_type='reception')\" target=\"_blank\" style=\"padding: 5px 10px; color: #FFFFFF; text-decoration: none; background-color: #875A7B; border: 1px solid #875A7B; border-radius: 3px\">\n"
 "                Accept</a>\n"
 "\n"
@@ -10544,6 +10606,8 @@ msgid ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11087,6 +11151,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11679,11 +11746,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                          <span class=\"d-block d-md-none\">Confirmation</span>"
 msgstr ""
 "<span class=\"d-none d-md-inline\">Visszaigazolás dátuma</span>\n"
 "                          <span class=\"d-block d-md-none\">Visszaigazolás</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12215,6 +12285,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12764,9 +12837,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"o_form_label\" invisible=\"state not in ('draft', 'sent')\">Request for Quotation </span>\n"
 "                        <span class=\"o_form_label\" invisible=\"state in ('draft', 'sent')\">Purchase Order </span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13296,6 +13372,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13950,7 +14029,10 @@ msgstr "<strong class=\"d-block mb-1\">Számlák</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14681,6 +14763,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15197,7 +15282,11 @@ msgid "<strong>Buyer</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Beszerző</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Beszerző</strong>"
 >>>>>>> upstream/18.0
@@ -15565,6 +15654,7 @@ msgstr "<strong>Ajánlatkérés dátuma:</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
 msgid "<strong>Shipping address:</strong>"
 msgstr "<strong>Szállítási cím:</strong>"
@@ -15575,6 +15665,8 @@ msgid "<strong>Shipping address</strong>"
 msgstr ""
 
 #. module: purchase
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16313,7 +16405,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "According to product configuration, the received quantity can be automatically computed by mechanism:\n"
+=======
+"According to product configuration, the received quantity can be "
+"automatically computed by mechanism:\n"
+>>>>>>> upstream/18.0
 =======
 "According to product configuration, the received quantity can be "
 "automatically computed by mechanism:\n"
@@ -17273,7 +17370,11 @@ msgid "Add Products"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Termékek hozzáadása"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termékek hozzáadása"
 >>>>>>> upstream/18.0
@@ -18056,7 +18157,11 @@ msgid "Are you sure you want to cancel the selected RFQs/Orders?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Visszavonja a kijelölt ajánlatkéréseket/rendeléseket?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Visszavonja a kijelölt ajánlatkéréseket/rendeléseket?"
 >>>>>>> upstream/18.0
@@ -18406,7 +18511,11 @@ msgid "Confirm RFQ"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ajánlatkérés megerősítés"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ajánlatkérés megerősítés"
 >>>>>>> upstream/18.0
@@ -18512,7 +18621,11 @@ msgstr "A jóváhagyott beszerzési rendelések nem szerkeszthetők"
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "Connect with your software!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kapcsolja össze saját szoftverével!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kapcsolja össze saját szoftverével!"
 >>>>>>> upstream/18.0
@@ -18787,6 +18900,11 @@ msgid ""
 "quotations in Odoo. Enjoy the automation!"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Húzza az ajánlatkérés PDF-fájlját az Odoo ajánlati listájába. Élvezze az "
+"automatizációt!"
+>>>>>>> upstream/18.0
 =======
 "Húzza az ajánlatkérés PDF-fájlját az Odoo ajánlati listájába. Élvezze az "
 "automatizációt!"
@@ -19068,7 +19186,11 @@ msgid "From %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Forrás %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Forrás %s"
 >>>>>>> upstream/18.0
@@ -20003,6 +20125,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"A termékek kézzel megfogható, anyagiasult dolgok.\n"
+"A szolgáltatásoknak nincs anyagi formája."
+>>>>>>> upstream/18.0
 =======
 "A termékek kézzel megfogható, anyagiasult dolgok.\n"
 "A szolgáltatásoknak nincs anyagi formája."
@@ -21264,8 +21391,12 @@ msgid "If checked, some messages have a delivery error."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Ha be van jelölve, akkor néhány üzenetnél kézbesítési hiba lépett fel."
+=======
+msgstr "Ha be van jelölve, akkor néhány üzenetnél kézbesítési hiba lépett fel."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ha be van jelölve, akkor néhány üzenetnél kézbesítési hiba lépett fel."
 >>>>>>> upstream/18.0
@@ -22093,7 +22224,11 @@ msgid "In the Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A rendelésen"
+>>>>>>> upstream/18.0
 =======
 msgstr "A rendelésen"
 >>>>>>> upstream/18.0
@@ -23056,8 +23191,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A Nemzetközi Kereskedelmi Feltételek olyan előredefiniált üzleti feltételek,"
 " melyeket nemzetközi ügyleteknél használnak."
+=======
+"A Nemzetközi Kereskedelmi Feltételek olyan előredefiniált üzleti feltételek, "
+"melyeket nemzetközi ügyleteknél használnak."
+>>>>>>> upstream/18.0
 =======
 "A Nemzetközi Kereskedelmi Feltételek olyan előredefiniált üzleti feltételek, "
 "melyeket nemzetközi ügyleteknél használnak."
@@ -24028,8 +24168,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Let's try the Purchase app to manage the flow from purchase to reception and"
 " invoice control."
+=======
+"Let's try the Purchase app to manage the flow from purchase to reception and "
+"invoice control."
+>>>>>>> upstream/18.0
 =======
 "Let's try the Purchase app to manage the flow from purchase to reception and "
 "invoice control."
@@ -24985,8 +25130,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Orders for procuring products, they will be scheduled that many days earlier"
 " to cope with unexpected vendor delays."
+=======
+"Orders for procuring products, they will be scheduled that many days earlier "
+"to cope with unexpected vendor delays."
+>>>>>>> upstream/18.0
 =======
 "Orders for procuring products, they will be scheduled that many days earlier "
 "to cope with unexpected vendor delays."
@@ -25877,6 +26027,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Orders for reordering products,they will be scheduled that many days earlier"
 " to cope with unexpected vendor delays."
 msgstr ""
@@ -25884,6 +26035,8 @@ msgstr ""
 "generál termékek újrarendelése során, akkor a rendelés ennyi nappal korábbra"
 " kerül ütemezésre a váratlan beszállítói késések kezelése érdekében."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26415,6 +26568,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26936,7 +27092,11 @@ msgstr "Nem elfogadott"
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "Not using Odoo?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Még nem használja az Odoo-t?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Még nem használja az Odoo-t?"
 >>>>>>> upstream/18.0
@@ -27160,6 +27320,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: purchase
 <<<<<<< HEAD
@@ -27624,6 +27785,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -27691,6 +27854,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27915,6 +28081,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -28762,7 +28931,11 @@ msgid "RFQ merged with %(oldest_rfq_name)s and %(cancelled_rfq)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ajánlatkérés egyesítve: %(oldest_rfq_name)s és %(cancelled_rfq)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ajánlatkérés egyesítve: %(oldest_rfq_name)s és %(cancelled_rfq)s"
 >>>>>>> upstream/18.0
@@ -28856,7 +29029,11 @@ msgid "RFQ merged with %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ajánlatkérés egyesítve: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ajánlatkérés egyesítve: %s"
 >>>>>>> upstream/18.0
@@ -28954,7 +29131,11 @@ msgstr "E-mail újraküldése"
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "Read the documentation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Olvassa el dokumentációt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Olvassa el dokumentációt"
 >>>>>>> upstream/18.0
@@ -29216,8 +29397,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Reference of the document that generated this purchase order request (e.g. a"
 " sales order)"
+=======
+"Reference of the document that generated this purchase order request (e.g. a "
+"sales order)"
+>>>>>>> upstream/18.0
 =======
 "Reference of the document that generated this purchase order request (e.g. a "
 "sales order)"
@@ -30108,8 +30294,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "hivatkozás. Ez főként összeegyeztetésre használja, mikor beérkeznek az áruk,"
 " mivel ezek a referencia hivatkozások általában rá vannak írva a beszállító "
+=======
+"hivatkozás. Ez főként összeegyeztetésre használja, mikor beérkeznek az áruk, "
+"mivel ezek a referencia hivatkozások általában rá vannak írva a beszállító "
+>>>>>>> upstream/18.0
 =======
 "hivatkozás. Ez főként összeegyeztetésre használja, mikor beérkeznek az áruk, "
 "mivel ezek a referencia hivatkozások általában rá vannak írva a beszállító "
@@ -31044,9 +31235,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Requests for quotation are documents that will be sent to your suppliers to request prices for different products you consider buying.\n"
 "                Once an agreement has been found with the supplier, they will be confirmed and turned into purchase orders."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -31576,6 +31770,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -32086,6 +32283,7 @@ msgstr "Megosztás"
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 msgid "Show all records which has next action date is before today"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32968,6 +33166,10 @@ msgstr ""
 "Az összes olyan rekord megjelenítése, melynél a következő akció dátuma a mai "
 "nap előtti"
 >>>>>>> upstream/18.0
+=======
+"Az összes olyan rekord megjelenítése, melynél a következő akció dátuma a mai "
+"nap előtti"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_union__reference
@@ -32989,7 +33191,11 @@ msgstr "Csillagozott"
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "Start on Odoo"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Váltson Odoo-ra"
+>>>>>>> upstream/18.0
 =======
 msgstr "Váltson Odoo-ra"
 >>>>>>> upstream/18.0
@@ -33335,7 +33541,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    converted into a purchase order, you will be able to control the receipt\n"
+=======
+"                    converted into a purchase order, you will be able to "
+"control the receipt\n"
+>>>>>>> upstream/18.0
 =======
 "                    converted into a purchase order, you will be able to "
 "control the receipt\n"
@@ -34226,8 +34437,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The vendor asked to decline this confirmed RfQ, if you agree on that, cancel"
 " this PO"
+=======
+"The vendor asked to decline this confirmed RfQ, if you agree on that, cancel "
+"this PO"
+>>>>>>> upstream/18.0
 =======
 "The vendor asked to decline this confirmed RfQ, if you agree on that, cancel "
 "this PO"
@@ -35138,9 +35354,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This analysis allows you to easily check and analyse your company purchase history and performance.\n"
 "                You can track your negotiation performance, the delivery performance of your vendors, etc"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -35670,6 +35889,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -36094,6 +36316,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nincs beszerzési rendelés ehhez a szállítóhoz. Hozzon létre egy új "
+"ajánlatkérést"
+>>>>>>> upstream/18.0
 =======
 "Nincs beszerzési rendelés ehhez a szállítóhoz. Hozzon létre egy új "
 "ajánlatkérést"
@@ -36400,6 +36627,11 @@ msgid ""
 "format."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"A fenti REST URL használatával lekérhető a beszerzési rendelés strukturált "
+"adata UBL formátumban."
+>>>>>>> upstream/18.0
 =======
 "A fenti REST URL használatával lekérhető a beszerzési rendelés strukturált "
 "adata UBL formátumban."
@@ -36654,7 +36886,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    vagy nyugták alapján. Ez lehetővé teszi a beszállítóktól kapott \n"
+=======
+"                    vagy nyugták alapján. Ez lehetővé teszi a beszállítóktól "
+"kapott \n"
+>>>>>>> upstream/18.0
 =======
 "                    vagy nyugták alapján. Ez lehetővé teszi a beszállítóktól "
 "kapott \n"
@@ -37647,7 +37884,11 @@ msgid "View Details"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Részletek megtekintése"
+>>>>>>> upstream/18.0
 =======
 msgstr "Részletek megtekintése"
 >>>>>>> upstream/18.0
@@ -38515,7 +38756,11 @@ msgstr "Várakozó ajánlatkérések"
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "Want to import this document in Odoo?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Szeretné a dokumentumot az Odoo-ba importálni?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Szeretné a dokumentumot az Odoo-ba importálni?"
 >>>>>>> upstream/18.0
@@ -38568,6 +38813,7 @@ msgid ""
 "When creating a purchase order, have a look at the vendor's <i>On Time "
 "Delivery</i> rate: the percentage of products shipped on time. If it is too "
 "low, activate the <i>automated reminders</i>. A few days before the due "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -39450,6 +39696,10 @@ msgid ""
 "shipment, Odoo will send the vendor an email to ask confirmation of shipment "
 "dates and keep you informed in case of any delays. To get the vendor's "
 >>>>>>> upstream/18.0
+=======
+"shipment, Odoo will send the vendor an email to ask confirmation of shipment "
+"dates and keep you informed in case of any delays. To get the vendor's "
+>>>>>>> upstream/18.0
 "performance statistics, click on the OTD rate."
 msgstr ""
 
@@ -39486,7 +39736,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "You don't use a good CRM software?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nincs egy jó CRM szoftvere?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nincs egy jó CRM szoftvere?"
 >>>>>>> upstream/18.0
@@ -39744,6 +39998,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Minden értékesítéshez és beszerzéshez szükséges megadni egy terméket,\n"
+"                ami lehet készletezett termék, fogyóeszköz vagy szolgáltatás."
+>>>>>>> upstream/18.0
 =======
 "Minden értékesítéshez és beszerzéshez szükséges megadni egy terméket,\n"
 "                ami lehet készletezett termék, fogyóeszköz vagy szolgáltatás."
@@ -40927,6 +41186,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Your quotation contains products from company %(product_company)s whereas your quotation belongs to company %(quote_company)s. \n"
 " Please change the company of your quotation or remove the products from other companies (%(bad_products)s)."
 msgstr ""
@@ -41681,6 +41941,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Your quotation contains products from company %(product_company)s whereas "
 "your quotation belongs to company %(quote_company)s. \n"
 " Please change the company of your quotation or remove the products from "
@@ -41865,6 +42127,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -42248,7 +42513,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "to learn all the ways to connect your software with"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr ", hogy megtanulja, hogyan tud összekapcsolódni a szoftvere és az"
+>>>>>>> upstream/18.0
 =======
 msgstr ", hogy megtanulja, hogyan tud összekapcsolódni a szoftvere és az"
 >>>>>>> upstream/18.0

@@ -261,7 +261,11 @@ import { useGetDefaultLeafDomain } from "@web/core/domain_selector/utils";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { treeFromDomain } from "@web/core/tree_editor/condition_tree";
+=======
+import { domainContainsExpresssions, treeFromDomain } from "@web/core/tree_editor/condition_tree";
+>>>>>>> upstream/18.0
 =======
 import { domainContainsExpresssions, treeFromDomain } from "@web/core/tree_editor/condition_tree";
 >>>>>>> upstream/18.0
@@ -1275,6 +1279,10 @@ export class DomainField extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        allowExpressions: { type: Boolean, optional: true },
+>>>>>>> upstream/18.0
 =======
         allowExpressions: { type: Boolean, optional: true },
 >>>>>>> upstream/18.0
@@ -2279,6 +2287,10 @@ export class DomainField extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        allowExpressions: false,
+>>>>>>> upstream/18.0
 =======
         allowExpressions: false,
 >>>>>>> upstream/18.0
@@ -3285,6 +3297,10 @@ export class DomainField extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.notification = useService("notification");
+>>>>>>> upstream/18.0
 =======
         this.notification = useService("notification");
 >>>>>>> upstream/18.0
@@ -4334,7 +4350,10 @@ export class DomainField extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5089,6 +5108,9 @@ export class DomainField extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5849,7 +5871,10 @@ export class DomainField extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6611,6 +6636,9 @@ export class DomainField extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7541,7 +7569,10 @@ export const domainField = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8295,6 +8326,9 @@ export const domainField = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9055,6 +9089,10 @@ export const domainField = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            allowExpressions: options.allow_expressions,
+>>>>>>> upstream/18.0
 =======
             allowExpressions: options.allow_expressions,
 >>>>>>> upstream/18.0

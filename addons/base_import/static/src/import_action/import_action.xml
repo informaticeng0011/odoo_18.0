@@ -214,8 +214,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <div t-foreach="importTemplates" t-as="template" t-key="template">
                             <a class="btn btn-outline-primary mb32 mt8" t-att-href="template.template" aria-label="Download" data-tooltip="Download">
+=======
+                        <div t-foreach="importTemplates" t-as="template" t-key="template.template">
+                            <a class="btn btn-outline-primary my8" t-att-href="template.template" aria-label="Download" data-tooltip="Download">
+>>>>>>> upstream/18.0
 =======
                         <div t-foreach="importTemplates" t-as="template" t-key="template.template">
                             <a class="btn btn-outline-primary my8" t-att-href="template.template" aria-label="Download" data-tooltip="Download">

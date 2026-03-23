@@ -197,6 +197,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import wUtils from '@website/js/utils';
+>>>>>>> upstream/18.0
 =======
 import wUtils from '@website/js/utils';
 >>>>>>> upstream/18.0
@@ -986,12 +990,15 @@ registerWebsitePreviewTour('drop_404_ir_attachment_url', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         run() {
             const imgEl = this.anchor;
             if (!imgEl.complete
                 || imgEl.naturalWidth !== 0
                 || imgEl.naturalHeight !== 0) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1569,6 +1576,9 @@ registerWebsitePreviewTour('drop_404_ir_attachment_url', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2153,12 +2163,15 @@ registerWebsitePreviewTour('drop_404_ir_attachment_url', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         run() {
             const imgEl = this.anchor;
             if (!imgEl.complete
                 || imgEl.naturalWidth === 0
                 || imgEl.naturalHeight === 0) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2736,6 +2749,9 @@ registerWebsitePreviewTour('drop_404_ir_attachment_url', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

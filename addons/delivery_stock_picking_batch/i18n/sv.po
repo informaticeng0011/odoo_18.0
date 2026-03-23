@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* delivery_stock_picking_batch
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -315,12 +316,17 @@
 # * delivery_stock_picking_batch
 #
 >>>>>>> upstream/18.0
+=======
+# * delivery_stock_picking_batch
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Levi Siuzdak (sile), 2024
 # Lasse L, 2024
 # Anders Wallenquist <anders.wallenquist@vertel.se>, 2024
 # Mikael Åkerberg <mikael.akerberg@mariaakerberg.com>, 2024
 # Jakob Krabbe <jakob.krabbe@vertel.se>, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -634,10 +640,14 @@
 =======
 # Hanna Kharraziha <hakha@odoo.com>, 2026.
 >>>>>>> upstream/18.0
+=======
+# Hanna Kharraziha <hakha@odoo.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -882,16 +892,22 @@ msgstr ""
 "Last-Translator: Jakob Krabbe <jakob.krabbe@vertel.se>, 2024\n"
 "Language-Team: Swedish (https://app.transifex.com/odoo/teams/41243/sv/)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-03-21 09:17+0000\n"
 "Last-Translator: Hanna Kharraziha <hakha@odoo.com>\n"
 "Language-Team: Swedish <https://translate.odoo.com/projects/odoo-18/"
 "delivery_stock_picking_batch/sv/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1127,10 +1143,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.16.2\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: delivery_stock_picking_batch
 #: model:ir.model.fields,help:delivery_stock_picking_batch.field_stock_picking_type__batch_max_weight
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1368,10 +1389,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "A transfer will not be automatically added to batches that will exceed this "
 "weight if the transfer is added to it.\n"
 "Leave this value as '0' if no weight limit."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "En överföring kommer inte att läggas till automatiskt i partier som kommer "
 "att överstiga denna vikt om överföringen läggs till den.\n"
@@ -1610,12 +1634,21 @@ msgstr ""
 "överskrider denna vikt om transporten läggs till.\n"
 "Låt värdet vara \"0\" för att inte ange någon viktgräns."
 >>>>>>> upstream/18.0
+=======
+"En transport kommer inte att läggas till automatiskt i batcher som "
+"överskrider denna vikt om transporten läggs till.\n"
+"Låt värdet vara \"0\" för att inte ange någon viktgräns."
+>>>>>>> upstream/18.0
 
 #. module: delivery_stock_picking_batch
 #: model:ir.model.fields,help:delivery_stock_picking_batch.field_stock_picking_type__batch_group_by_carrier
 msgid "Automatically group batches by carriers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Gruppera partier automatiskt efter transportörer"
+=======
+msgstr "Gruppera batcher automatiskt efter transportföretag"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gruppera batcher automatiskt efter transportföretag"
 >>>>>>> upstream/18.0
@@ -1624,7 +1657,11 @@ msgstr "Gruppera batcher automatiskt efter transportföretag"
 #: model:ir.model,name:delivery_stock_picking_batch.model_stock_picking_batch
 msgid "Batch Transfer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Parti Förflyttning"
+=======
+msgstr "Batchtransport"
+>>>>>>> upstream/18.0
 =======
 msgstr "Batchtransport"
 >>>>>>> upstream/18.0
@@ -1633,7 +1670,11 @@ msgstr "Batchtransport"
 #: model:ir.model.fields,field_description:delivery_stock_picking_batch.field_stock_picking_type__batch_group_by_carrier
 msgid "Carrier"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Bärare"
+=======
+msgstr "Transportföretag"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transportföretag"
 >>>>>>> upstream/18.0
@@ -1642,7 +1683,11 @@ msgstr "Transportföretag"
 #: model:ir.model.fields,field_description:delivery_stock_picking_batch.field_stock_picking_type__batch_max_weight
 msgid "Maximum weight"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Max vikt"
+=======
+msgstr "Maxvikt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Maxvikt"
 >>>>>>> upstream/18.0
@@ -1651,7 +1696,11 @@ msgstr "Maxvikt"
 #: model:ir.model,name:delivery_stock_picking_batch.model_stock_picking_type
 msgid "Picking Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Plocktyp"
+=======
+msgstr "Plockningstyp"
+>>>>>>> upstream/18.0
 =======
 msgstr "Plockningstyp"
 >>>>>>> upstream/18.0
@@ -1660,7 +1709,11 @@ msgstr "Plockningstyp"
 #: model:ir.model,name:delivery_stock_picking_batch.model_stock_picking
 msgid "Transfer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Överföring"
+=======
+msgstr "Transport"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transport"
 >>>>>>> upstream/18.0
@@ -1669,7 +1722,11 @@ msgstr "Transport"
 #: model:ir.model.fields,field_description:delivery_stock_picking_batch.field_stock_picking_type__weight_uom_name
 msgid "Weight unit of measure label"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Vikt måttenhet etikett"
+=======
+msgstr "Etikett för måttenheten vikt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etikett för måttenheten vikt"
 >>>>>>> upstream/18.0

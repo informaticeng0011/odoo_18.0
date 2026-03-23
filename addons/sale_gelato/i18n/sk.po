@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sale_gelato
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -239,10 +240,14 @@
 =======
 # * sale_gelato
 >>>>>>> upstream/18.0
+=======
+# * sale_gelato
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2025
 #
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -476,10 +481,14 @@
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -725,16 +734,22 @@ msgstr ""
 "Last-Translator: Wil Odoo, 2025\n"
 "Language-Team: Slovak (https://app.transifex.com/odoo/teams/41243/sk/)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-03-21 09:31+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Slovak <https://translate.odoo.com/projects/odoo-18/"
 "sale_gelato/sk/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n "
 ">= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
@@ -972,12 +987,18 @@ msgstr ""
 "n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
 "X-Generator: Weblate 5.16.2\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && "
+"n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: sale_gelato
 #: model:mail.template,body_html:sale_gelato.order_status_update
 msgid ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "                <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1064,6 +1085,8 @@ msgid ""
 "                            <t t-set=\"tracking_url\" t-value=\"list(ctx['tracking_data'].keys())[0]\"/>\n"
 "                            Your tracking number is <a t-attf-href=\"tracking_url\" t-out=\"ctx['tracking_data'][tracking_url]\"/>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1306,6 +1329,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1544,9 +1570,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <li t-foreach=\"ctx['tracking_data']\" t-as=\"tracking_url\">\n"
 "                                    <a t-attf-href=\"{{tracking_url}}\" t-out=\"ctx['tracking_data'][tracking_url]\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1782,6 +1811,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2021,6 +2053,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        We are glad to inform you that your order has been delivered.\n"
 "                        <br/><br/>\n"
 "                    </t>\n"
@@ -2029,6 +2062,8 @@ msgid ""
 "                        <br/>\n"
 "                        <t t-out=\"object.user_id.name or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2270,6 +2305,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2512,9 +2550,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i title=\"All print images are set\" invisible=\"gelato_missing_images\" class=\"fa fa-check-circle text-success fs-3 me-3\"/>\n"
 "                        <i title=\"Some print images are missing\" invisible=\"not gelato_missing_images\" class=\"fa fa-question-circle text-danger fs-3 me-3\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2751,6 +2792,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2906,6 +2948,8 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr ""
 "<i title=\"Všetky obrázky na tlač sú nastavené\" "
 "invisible=\"gelato_missing_images\" class=\"fa fa-check-circle text-success "
@@ -2913,6 +2957,9 @@ msgstr ""
 "                        <i title=\"Chýbajú niektoré obrázky na tlač\" "
 "invisible=\"not gelato_missing_images\" class=\"fa fa-question-circle text-"
 "danger fs-3 me-3\"/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale_gelato
@@ -2940,7 +2987,11 @@ msgstr "Kontakt"
 #: code:addons/sale_gelato/utils.py:0
 msgid "Could not establish the connection to the Gelato API."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nepodarilo sa nadviazať spojenie s rozhraním Gelato API."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nepodarilo sa nadviazať spojenie s rozhraním Gelato API."
 >>>>>>> upstream/18.0
@@ -2950,7 +3001,11 @@ msgstr "Nepodarilo sa nadviazať spojenie s rozhraním Gelato API."
 #: code:addons/sale_gelato/models/product_template.py:0
 msgid "Could not synchronize with Gelato"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nepodarilo sa synchronizovať s Gelato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nepodarilo sa synchronizovať s Gelato"
 >>>>>>> upstream/18.0
@@ -2960,7 +3015,11 @@ msgstr "Nepodarilo sa synchronizovať s Gelato"
 #: model:ir.model.fields.selection,name:sale_gelato.selection__delivery_carrier__gelato_shipping_service_type__express
 msgid "Express Delivery"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Expresné doručenie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Expresné doručenie"
 >>>>>>> upstream/18.0
@@ -2969,7 +3028,11 @@ msgstr "Expresné doručenie"
 #: model:product.template,name:sale_gelato.express_delivery_product_product_template
 msgid "Express Delivery (Gelato)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Expresné doručenie (Gelato)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Expresné doručenie (Gelato)"
 >>>>>>> upstream/18.0
@@ -2982,7 +3045,11 @@ msgstr "Expresné doručenie (Gelato)"
 #: model_terms:ir.ui.view,arch_db:sale_gelato.product_template_form
 msgid "Gelato"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gelato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gelato"
 >>>>>>> upstream/18.0
@@ -2992,7 +3059,11 @@ msgstr "Gelato"
 #: model:ir.model.fields,field_description:sale_gelato.field_res_config_settings__gelato_api_key
 msgid "Gelato API Key"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gelato API kľúč"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gelato API kľúč"
 >>>>>>> upstream/18.0
@@ -3002,7 +3073,11 @@ msgstr "Gelato API kľúč"
 #: model:ir.model.fields,field_description:sale_gelato.field_product_template__gelato_image_ids
 msgid "Gelato Print Images"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tlač obrázkov Gelato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tlač obrázkov Gelato"
 >>>>>>> upstream/18.0
@@ -3011,7 +3086,11 @@ msgstr "Tlač obrázkov Gelato"
 #: model:ir.model.fields,field_description:sale_gelato.field_product_template__gelato_product_uid
 msgid "Gelato Product UID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "UID Gelato produktu"
+>>>>>>> upstream/18.0
 =======
 msgstr "UID Gelato produktu"
 >>>>>>> upstream/18.0
@@ -3020,7 +3099,11 @@ msgstr "UID Gelato produktu"
 #: model:ir.model.fields,field_description:sale_gelato.field_product_product__gelato_product_uid
 msgid "Gelato Product Uid"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "UID Gelato produktu"
+>>>>>>> upstream/18.0
 =======
 msgstr "UID Gelato produktu"
 >>>>>>> upstream/18.0
@@ -3029,7 +3112,11 @@ msgstr "UID Gelato produktu"
 #: model:ir.model.fields,field_description:sale_gelato.field_delivery_carrier__gelato_shipping_service_type
 msgid "Gelato Shipping Service Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Typ služby doručenia Gelato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Typ služby doručenia Gelato"
 >>>>>>> upstream/18.0
@@ -3039,7 +3126,11 @@ msgstr "Typ služby doručenia Gelato"
 #: model:ir.model.fields,field_description:sale_gelato.field_product_template__gelato_template_ref
 msgid "Gelato Template Reference"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Referencia k šablóne Gelato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Referencia k šablóne Gelato"
 >>>>>>> upstream/18.0
@@ -3049,7 +3140,11 @@ msgstr "Referencia k šablóne Gelato"
 #: model:ir.model.fields,field_description:sale_gelato.field_res_config_settings__gelato_webhook_secret
 msgid "Gelato Webhook Secret"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Webhook secret Gelato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Webhook secret Gelato"
 >>>>>>> upstream/18.0
@@ -3058,6 +3153,7 @@ msgstr "Webhook secret Gelato"
 #. odoo-python
 #: code:addons/sale_gelato/controlers/main.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3448,11 +3544,16 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "Gelato could not proceed with the fulfillment of order %(order_reference)s: %"
 "(gelato_message)s"
 msgstr ""
 "Gelato nemohlo pokračovať v spracovaní objednávky %(order_reference)s: %"
 "(gelato_message)s"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale_gelato
@@ -3460,7 +3561,11 @@ msgstr ""
 #: code:addons/sale_gelato/controlers/main.py:0
 msgid "Gelato has returned order %(reference)s."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gelato vrátilo objednávku %(reference)s."
+>>>>>>> upstream/18.0
 =======
 msgstr "Gelato vrátilo objednávku %(reference)s."
 >>>>>>> upstream/18.0
@@ -3469,7 +3574,11 @@ msgstr "Gelato vrátilo objednávku %(reference)s."
 #: model:mail.template,name:sale_gelato.order_status_update
 msgid "Gelato: Order status update"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gelato: Aktualizácia stavu objednávky"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gelato: Aktualizácia stavu objednávky"
 >>>>>>> upstream/18.0
@@ -3478,7 +3587,11 @@ msgstr "Gelato: Aktualizácia stavu objednávky"
 #: model:ir.model.fields,field_description:sale_gelato.field_product_document__is_gelato
 msgid "Is Gelato"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Je Gelato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Je Gelato"
 >>>>>>> upstream/18.0
@@ -3487,7 +3600,11 @@ msgstr "Je Gelato"
 #: model_terms:ir.ui.view,arch_db:sale_gelato.res_config_settings_form
 msgid "Manage Delivery Methods"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spravovať spôsoby doručenia"
+>>>>>>> upstream/18.0
 =======
 msgstr "Spravovať spôsoby doručenia"
 >>>>>>> upstream/18.0
@@ -3497,7 +3614,11 @@ msgstr "Spravovať spôsoby doručenia"
 #: model:ir.model.fields,field_description:sale_gelato.field_product_template__gelato_missing_images
 msgid "Missing Print Images"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Chýbajúce obrázky na tlač"
+>>>>>>> upstream/18.0
 =======
 msgstr "Chýbajúce obrázky na tlač"
 >>>>>>> upstream/18.0
@@ -3507,7 +3628,11 @@ msgstr "Chýbajúce obrázky na tlač"
 #: code:addons/sale_gelato/models/product_template.py:0
 msgid "Missing product variants and images have been successfully created."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Chýbajúce varianty produktov a obrázky boli úspešne vytvorené."
+>>>>>>> upstream/18.0
 =======
 msgstr "Chýbajúce varianty produktov a obrázky boli úspešne vytvorené."
 >>>>>>> upstream/18.0
@@ -3516,7 +3641,11 @@ msgstr "Chýbajúce varianty produktov a obrázky boli úspešne vytvorené."
 #: model_terms:ir.ui.view,arch_db:sale_gelato.res_config_settings_form
 msgid "Place orders through Gelato's print-on-demand service"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zadávajte objednávky do služby tlač na požiadanie spoločnosti Gelato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zadávajte objednávky do služby tlač na požiadanie spoločnosti Gelato"
 >>>>>>> upstream/18.0
@@ -3525,7 +3654,11 @@ msgstr "Zadávajte objednávky do služby tlač na požiadanie spoločnosti Gela
 #: model_terms:ir.ui.view,arch_db:sale_gelato.product_template_form
 msgid "Print Images"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obrázky na tlač"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obrázky na tlač"
 >>>>>>> upstream/18.0
@@ -3535,7 +3668,11 @@ msgstr "Obrázky na tlač"
 #: code:addons/sale_gelato/models/product_document.py:0
 msgid "Print images must be set on products before they can be ordered."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pred objednaním tovaru je potrebné na výrobky umiestniť obrázky."
+>>>>>>> upstream/18.0
 =======
 msgstr "Pred objednaním tovaru je potrebné na výrobky umiestniť obrázky."
 >>>>>>> upstream/18.0
@@ -3549,7 +3686,11 @@ msgstr "Produkt"
 #: model:ir.model,name:sale_gelato.model_product_document
 msgid "Product Document"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produktový dokument"
+>>>>>>> upstream/18.0
 =======
 msgstr "Produktový dokument"
 >>>>>>> upstream/18.0
@@ -3560,7 +3701,11 @@ msgstr "Produktový dokument"
 #: model_terms:ir.ui.view,arch_db:sale_gelato.product_template_form
 msgid "Product UID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "UID produktu"
+>>>>>>> upstream/18.0
 =======
 msgstr "UID produktu"
 >>>>>>> upstream/18.0
@@ -3590,6 +3735,10 @@ msgstr "Položka objednávok"
 msgid "Sent to the customer when Gelato updates the status of an order"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Zasiela sa zákazníkovi, keď spoločnosť Gelato aktualizuje stav objednávky"
+>>>>>>> upstream/18.0
 =======
 "Zasiela sa zákazníkovi, keď spoločnosť Gelato aktualizuje stav objednávky"
 >>>>>>> upstream/18.0
@@ -3604,7 +3753,11 @@ msgstr "Spôsoby dopravy"
 #: model:ir.model.fields.selection,name:sale_gelato.selection__delivery_carrier__gelato_shipping_service_type__normal
 msgid "Standard Delivery"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Štandardné doručenie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Štandardné doručenie"
 >>>>>>> upstream/18.0
@@ -3613,7 +3766,11 @@ msgstr "Štandardné doručenie"
 #: model:product.template,name:sale_gelato.standard_delivery_product_product_template
 msgid "Standard Delivery (Gelato)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Štandardné doručenie (Gelato)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Štandardné doručenie (Gelato)"
 >>>>>>> upstream/18.0
@@ -3623,7 +3780,11 @@ msgstr "Štandardné doručenie (Gelato)"
 #: code:addons/sale_gelato/models/product_template.py:0
 msgid "Successfully synchronized with Gelato"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Úspešne synchronizované s Gelato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Úspešne synchronizované s Gelato"
 >>>>>>> upstream/18.0
@@ -3638,7 +3799,11 @@ msgstr "Synchronizovať"
 #: model:ir.model.fields,help:sale_gelato.field_product_template__gelato_template_ref
 msgid "Synchronize to fetch variants from Gelato"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Synchronizovať a načítať varianty z Gelato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Synchronizovať a načítať varianty z Gelato"
 >>>>>>> upstream/18.0
@@ -3647,7 +3812,11 @@ msgstr "Synchronizovať a načítať varianty z Gelato"
 #: model_terms:ir.ui.view,arch_db:sale_gelato.product_template_form
 msgid "Template Reference"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Referencia šablóny"
+>>>>>>> upstream/18.0
 =======
 msgstr "Referencia šablóny"
 >>>>>>> upstream/18.0
@@ -3657,7 +3826,11 @@ msgstr "Referencia šablóny"
 #: code:addons/sale_gelato/models/delivery_carrier.py:0
 msgid "The delivery method is not available for this order."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tento spôsob doručenia nie je pre túto objednávku k dispozícii."
+>>>>>>> upstream/18.0
 =======
 msgstr "Tento spôsob doručenia nie je pre túto objednávku k dispozícii."
 >>>>>>> upstream/18.0
@@ -3667,7 +3840,11 @@ msgstr "Tento spôsob doručenia nie je pre túto objednávku k dispozícii."
 #: code:addons/sale_gelato/models/delivery_carrier.py:0
 msgid "The following required address fields are missing: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Chýbajú nasledujúce povinné polia adresy: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Chýbajú nasledujúce povinné polia adresy: %s"
 >>>>>>> upstream/18.0
@@ -3677,7 +3854,11 @@ msgstr "Chýbajú nasledujúce povinné polia adresy: %s"
 #: code:addons/sale_gelato/models/sale_order.py:0
 msgid "The order has been successfully passed on Gelato."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Objednávka bola úspešne odoslaná do Gelato."
+>>>>>>> upstream/18.0
 =======
 msgstr "Objednávka bola úspešne odoslaná do Gelato."
 >>>>>>> upstream/18.0
@@ -3690,6 +3871,7 @@ msgid ""
 "Reason: %(error_message)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: sale_gelato
 <<<<<<< HEAD
@@ -3927,6 +4109,8 @@ msgstr ""
 msgid "Unable to confirm the order %s on Gelato."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "Objednávka s číslom %(order_reference)s nebola odoslaná do Gelato.\n"
 "Dôvod: %(error_message)s"
 
@@ -3935,6 +4119,9 @@ msgstr ""
 #: code:addons/sale_gelato/models/sale_order.py:0
 msgid "Unable to confirm the order %s on Gelato."
 msgstr "Objednávku %s sa v systéme Gelato nepodarilo potvrdiť."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale_gelato
@@ -3942,6 +4129,7 @@ msgstr "Objednávku %s sa v systéme Gelato nepodarilo potvrdiť."
 #: code:addons/sale_gelato/models/sale_order.py:0
 msgid "Unable to delete the order %s on Gelato."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: sale_gelato
@@ -4178,12 +4366,17 @@ msgstr ""
 msgid "Webhook Secret"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Objednávku %s nie je možné v systéme Gelato vymazať."
 
 #. module: sale_gelato
 #: model_terms:ir.ui.view,arch_db:sale_gelato.res_config_settings_form
 msgid "Webhook Secret"
 msgstr "Webhook secret"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale_gelato
@@ -4193,6 +4386,11 @@ msgid ""
 "You cannot mix Gelato products with non-Gelato products in the same order."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"V jednej objednávke nemožno kombinovať výrobky značky Gelato s výrobkami "
+"iných značiek."
+>>>>>>> upstream/18.0
 =======
 "V jednej objednávke nemožno kombinovať výrobky značky Gelato s výrobkami "
 "iných značiek."
@@ -4202,7 +4400,11 @@ msgstr ""
 #: model:mail.template,subject:sale_gelato.order_status_update
 msgid "{{ object.reference }}"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "{{ object.reference }}"
+>>>>>>> upstream/18.0
 =======
 msgstr "{{ object.reference }}"
 >>>>>>> upstream/18.0

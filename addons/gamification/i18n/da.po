@@ -15,6 +15,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* gamification
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -329,12 +330,17 @@
 # * gamification
 #
 >>>>>>> upstream/18.0
+=======
+# * gamification
+#
+>>>>>>> upstream/18.0
 # Translators:
 # lhmflexerp <lhm@flexerp.dk>, 2024
 # Mads Søndergaard, 2024
 # Sanne Kristensen <sanne@vkdata.dk>, 2024
 # Mads Søndergaard, 2024
 # Martin Trigaux, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -648,10 +654,14 @@
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -896,6 +906,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2026-03-03 17:41+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -915,6 +927,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -948,6 +963,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1211,6 +1227,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.16.1\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.16.1\n"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:mail.template,body_html:gamification.email_template_goal_reminder
@@ -1295,8 +1315,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    You have not updated your progress for the goal <t t-out=\"object.definition_id.name or ''\"/> (currently reached at <t t-out=\"object.completeness or ''\"/>%) for at least <t t-out=\"object.remind_update_delay or ''\"/> days. Do not forget to do it.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1532,6 +1555,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1794,9 +1820,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<div style=\"color:#515166;padding:10px 0px;font-family:Arial,Helvetica,sans-serif;font-size:14px;\">\n"
 "<table style=\"width:600px;margin:0px auto;background:white;border:1px solid #e1e1e1;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2032,6 +2061,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2273,6 +2305,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    You just reached a new rank: <strong t-out=\"object.rank_id.name or ''\">Newbie</strong>\n"
 "                </p>\n"
 "                <t t-if=\"object.next_rank_id.name\">\n"
@@ -2285,6 +2318,8 @@ msgid ""
 "                        <t t-set=\"label\" t-value=\"data['label']\"/>\n"
 "                        <a t-att-href=\"url\" style=\"background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;\" t-out=\"label or ''\">LABEL</a>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2533,6 +2568,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2693,6 +2731,7 @@ msgid ""
 "            </td>\n"
 "            <td style=\"padding:15px 20px 10px 20px;\">\n"
 "                <p style=\"text-align: center;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3084,10 +3123,15 @@ msgid ""
 "                    <img t-attf-src=\"/web/image/gamification.karma.rank/"
 "{{ object.rank_id.id }}/image_128\"/>\n"
 >>>>>>> upstream/18.0
+=======
+"                    <img t-attf-src=\"/web/image/gamification.karma.rank/"
+"{{ object.rank_id.id }}/image_128\"/>\n"
+>>>>>>> upstream/18.0
 "                </p>\n"
 "            </td>\n"
 "        </tr>\n"
 "        <tr>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3323,6 +3367,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "            <td t-if=\"not user.share and user.active\" style=\"padding:15px "
 "20px 10px 20px;\" data-o-mail-quote-container=\"1\">\n"
 "                <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--"
@@ -3404,6 +3450,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3614,7 +3663,11 @@ msgid "<span class=\"o_stat_text\">Related Goals</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Tilknyttede mål</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Tilknyttede mål</span>"
 >>>>>>> upstream/18.0
@@ -3747,9 +3800,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<table border=\"0\" cellpadding=\"0\" style=\"padding-top: 16px; background-color: #F1F1F1; color: #454748; width: 100%; border-collapse:separate;\"><tr><td align=\"center\">\n"
 "<table border=\"0\" width=\"590\" cellpadding=\"0\" style=\"padding: 16px; background-color: white; color: #454748; border-collapse:separate;\" summary=\"o_mail_notification\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3987,6 +4043,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4224,6 +4283,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"middle\">\n"
 "                    <span style=\"font-size: 10px;\">Your Badge</span><br/>\n"
@@ -4234,6 +4294,8 @@ msgid ""
 "                <tr><td colspan=\"2\" style=\"text-align:center;\">\n"
 "                  <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4483,6 +4545,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4723,6 +4788,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"top\" style=\"font-size: 14px;\">\n"
 "                    <div>\n"
@@ -4736,6 +4802,8 @@ msgid ""
 "                                <td valign=\"center\">\n"
 "                                    <cite t-out=\"object.badge_id.description or ''\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4989,6 +5057,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5227,11 +5298,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            This badge was granted by <strong t-out=\"object.sender_id.name or ''\"/>.\n"
 "                        </t>\n"
 "                        <br/>\n"
 "                        <t t-if=\"object.comment\" t-out=\"object.comment or ''\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5469,6 +5543,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5711,7 +5788,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                  <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                  <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                  <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -6187,6 +6270,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" style=\"min-width: 590px; background-color: white; font-size: 12px; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"middle\" align=\"left\">\n"
 "                    <t t-out=\"object.user_id.company_id.name or ''\">YourCompany</t>\n"
@@ -6199,6 +6283,8 @@ msgid ""
 "                    <t t-if=\"object.user_id.company_id.website\">\n"
 "                        | <a t-attf-href=\"'%s' % {{ object.user_id.company_id.website }}\" style=\"text-decoration:none; color: #454748;\" t-out=\"object.user_id.company_id.website or ''\">http://www.example.com</a>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6452,6 +6538,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6695,10 +6784,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    <table width=\"590\" border=\"0\" cellpadding=\"0\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 14px;\">\n"
 "        Powered by <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=gamification\" style=\"color: #875A7B;\">Odoo</a>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6937,6 +7029,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7179,6 +7274,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<table cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"background-color: #EEE; border-collapse: collapse;\">\n"
 "<tr>\n"
 "    <td valign=\"top\" align=\"center\">\n"
@@ -7187,6 +7283,8 @@ msgid ""
 "        <t t-set=\"challenge_lines\" t-value=\"ctx.get('challenge_lines', [])\"/>\n"
 "        <table cellspacing=\"0\" cellpadding=\"0\" width=\"600\" style=\"margin: 0 auto; width: 570px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7429,6 +7527,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7666,10 +7767,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <t t-if=\"object.visibility_mode == 'ranking'\">\n"
 "                                <td style=\"padding:15px;\">\n"
 "                                    <p style=\"font-size:20px;color:#666666;\" align=\"center\">Leaderboard</p>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7906,6 +8010,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8144,12 +8251,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                <table cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" bgcolor=\"#fff\" style=\"background-color:#fff;\">\n"
 "                    <tr><td style=\"padding: 15px;\">\n"
 "                        <t t-if=\"object.visibility_mode == 'personal'\">\n"
 "                            <span style=\"color:#666666;font-size:13px;\">Here is your current progress in the challenge <strong t-out=\"object.name or ''\"/>.</span>\n"
 "                            <table cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"margin-top:20px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8390,6 +8500,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8629,6 +8742,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <table cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"margin-top:30px;color:#666666;\">\n"
 "                                <thead>\n"
 "                                    <tr style=\"color:#9A6C8E; font-size:12px;\">\n"
@@ -8660,6 +8774,8 @@ msgid ""
 "                                    <tr>\n"
 "                                        <td colspan=\"5\" style=\"height:1px;background-color:#e3e3e3;\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8940,6 +9056,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9179,6 +9298,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                Challenge: <strong t-out=\"object.name or ''\"/>.\n"
 "                            </span> \n"
 "                            <t t-foreach=\"challenge_lines\" t-as=\"line\">\n"
@@ -9188,6 +9308,8 @@ msgid ""
 "                                        <td width=\"50%\">\n"
 "                                            <div>Top Achievers for goal <strong t-out=\"line['name'] or ''\"/></div>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9430,6 +9552,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9668,6 +9793,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <table cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"margin-top:10px;\">\n"
 "                                        <tr><td style=\"padding:0 30px;\">\n"
 "                                            <table cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"table-layout: fixed;\">\n"
@@ -9717,6 +9843,8 @@ msgid ""
 "                                                                    <t t-if=\"line['suffix'] or line['monetary']\">\n"
 "                                                                        <t t-out=\"line['full_suffix'] or ''\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10041,6 +10169,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10286,6 +10417,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <table cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"margin-bottom:5px\">\n"
 "                                    <tr>\n"
 "                                        <td>\n"
@@ -10324,6 +10456,8 @@ msgid ""
 "                                                    <tr>\n"
 "                                                        <td colspan=\"5\" style=\"height:1px;background-color:#DADADA;\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10625,6 +10759,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10812,7 +10949,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11155,6 +11295,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11267,6 +11410,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                It can be deserved automatically when some conditions are met or manually by users.\n"
 "                Some badges are harder than others to get with specific conditions."
 msgstr ""
@@ -11274,6 +11418,8 @@ msgstr ""
 "                 Det kan opnås automatisk når visse betingelser opnås, eller manuelt af brugere.\n"
 "                  Visse emblemer er svære at opnå end andre med specifikke betingelser."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11516,6 +11662,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11754,11 +11903,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                The dates, values to reach or users are defined in goal instance."
 msgstr ""
 "En mål definition er en teknisk specifikation af en betingelse der skal opnås.\n"
 "                 Datoerne, værdierne der skal opnås, eller brugere, er defineret i mål instansen."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11997,6 +12149,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12239,8 +12394,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Et mål betragtes som opnået, når den aktuelle værdi ved sammenligning svarer"
 " til den værdi der skal opnås"
+=======
+"Et mål betragtes som opnået, når den aktuelle værdi ved sammenligning svarer "
+"til den værdi der skal opnås"
+>>>>>>> upstream/18.0
 =======
 "Et mål betragtes som opnået, når den aktuelle værdi ved sammenligning svarer "
 "til den værdi der skal opnås"
@@ -12644,12 +12804,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A rank correspond to a fixed karma level. The more you have karma, the more your rank is high.\n"
 "                    This is used to quickly know which user is new or old or highly or not active."
 msgstr ""
 "Et rang svarer til et fikseret karma niveau. Jo mere karma du har, dets højere dit rang.\n"
 "                   Dette bruges for hurtigt at finde ud af hvilke brugere er nye eller gamle, aktive eller ej."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12890,6 +13053,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13088,7 +13254,11 @@ msgid "Add Manually"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tilføj manuelt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tilføj manuelt"
 >>>>>>> upstream/18.0
@@ -13174,7 +13344,11 @@ msgid "Assign Challenge to"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tildel udfordring til"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tildel udfordring til"
 >>>>>>> upstream/18.0
@@ -13303,6 +13477,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                The challenge can use a period (weekly, monthly...) for automatic creation of goals.\n"
 "                The goals are created for the specified users or member of the group."
 msgstr ""
@@ -13310,6 +13485,8 @@ msgstr ""
 "                  Udfordringen kan bruge en periode (ugentlig, månedlig...) for automatisk oprettelse af mål.\n"
 "                  Målene er oprettet for de specificerede brugere eller medlemmer af gruppen."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13551,6 +13728,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13940,8 +14120,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Udfordring der oprettede målet, tildel udfordring til brugere for at oprette"
 " mål med en værdi i dette felt."
+=======
+"Udfordring der oprettede målet, tildel udfordring til brugere for at oprette "
+"mål med en værdi i dette felt."
+>>>>>>> upstream/18.0
 =======
 "Udfordring der oprettede målet, tildel udfordring til brugere for at oprette "
 "mål med en værdi i dette felt."
@@ -14338,7 +14523,11 @@ msgid "Consolidation from %(from_date)s to %(end_date)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Konsolideret fra %(from_date)s til %(end_date)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Konsolideret fra %(from_date)s til %(end_date)s"
 >>>>>>> upstream/18.0
@@ -14594,6 +14783,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Rapporter vil være individuelle eller delte, afhængig af visnings "
 "tilstanden."
 
@@ -14602,6 +14792,8 @@ msgstr ""
 msgid ""
 "Describe the challenge: what is does, who it targets, why it matters..."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14838,6 +15030,9 @@ msgid "Describe the challenge: what is does, who it targets, why it matters..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15054,6 +15249,7 @@ msgid ""
 "[('state', '=', 'done')]. The expression can contain reference to 'user' "
 "which is a browse record of the current user if not in batch mode."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15526,6 +15722,11 @@ msgstr ""
 "[('state', '=', 'done')]. Udtrykket kan indeholde en henvisning til 'user', "
 "hvilket er et browser datasæt for den nuværende bruger ikke i parti tilstand."
 >>>>>>> upstream/18.0
+=======
+"Domæne til filtrering af datasæt. Generel regel, ikke brugerafhængig, f.eks. "
+"[('state', '=', 'done')]. Udtrykket kan indeholde en henvisning til 'user', "
+"hvilket er et browser datasæt for den nuværende bruger ikke i parti tilstand."
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_challenge__state__done
@@ -15558,7 +15759,11 @@ msgid "Earn your first points and join the adventure!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Optjen først dine point, og lad eventyret begynde!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Optjen først dine point, og lad eventyret begynde!"
 >>>>>>> upstream/18.0
@@ -15767,7 +15972,11 @@ msgid "Gamification: Badge Received"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gamificering: Badge modtaget"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gamificering: Badge modtaget"
 >>>>>>> upstream/18.0
@@ -15832,7 +16041,11 @@ msgid "Gamification: Challenge Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gamificering: udfordringsrapport"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gamificering: udfordringsrapport"
 >>>>>>> upstream/18.0
@@ -15907,7 +16120,11 @@ msgid "Gamification: New Rank Reached"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gamificering: Ny rang opnået"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gamificering: Ny rang opnået"
 >>>>>>> upstream/18.0
@@ -15972,7 +16189,11 @@ msgid "Gamification: Reminder For Goal Update"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gamificering: Påmindelse for målopdatering"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gamificering: Påmindelse for målopdatering"
 >>>>>>> upstream/18.0
@@ -16133,7 +16354,11 @@ msgid "Granted By"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tildelt af"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tildelt af"
 >>>>>>> upstream/18.0
@@ -16315,6 +16540,7 @@ msgid ""
 "In batch mode, this indicates which field distinguishes one user from the "
 "other, e.g. user_id, partner_id..."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16707,6 +16933,10 @@ msgstr ""
 "I parti tilstand, indikere dette hvilket felt der adskiller én bruger fra en "
 "anden, f.eks. user_id, partner_id..."
 >>>>>>> upstream/18.0
+=======
+"I parti tilstand, indikere dette hvilket felt der adskiller én bruger fra en "
+"anden, f.eks. user_id, partner_id..."
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_goal__last_update
@@ -16776,7 +17006,11 @@ msgid "Karma Owner"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Karma-ejer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Karma-ejer"
 >>>>>>> upstream/18.0
@@ -16842,7 +17076,11 @@ msgid "Karma Tracking"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Karma-sporing"
+>>>>>>> upstream/18.0
 =======
 msgstr "Karma-sporing"
 >>>>>>> upstream/18.0
@@ -16908,7 +17146,11 @@ msgid "Karma Updates"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Karma-opdateringer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Karma-opdateringer"
 >>>>>>> upstream/18.0
@@ -17096,7 +17338,11 @@ msgid "Motivational phrase to reach this rank on your profile page"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Motivationssætning for at opnå denne rang på din profilside"
+>>>>>>> upstream/18.0
 =======
 msgstr "Motivationssætning for at opnå denne rang på din profilside"
 >>>>>>> upstream/18.0
@@ -17166,7 +17412,11 @@ msgid "My Karma"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Min karma"
+>>>>>>> upstream/18.0
 =======
 msgstr "Min karma"
 >>>>>>> upstream/18.0
@@ -17266,7 +17516,11 @@ msgid "New badge {{ object.badge_id.name }} granted"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nyt badge {{ object.badge_id.name }} tildelt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nyt badge {{ object.badge_id.name }} tildelt"
 >>>>>>> upstream/18.0
@@ -17331,7 +17585,11 @@ msgid "New rank: {{ object.rank_id.name }}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ny rang: {{ object.rank_id.name }}"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ny rang: {{ object.rank_id.name }}"
 >>>>>>> upstream/18.0
@@ -17411,7 +17669,11 @@ msgid "No Karma Tracking"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ingen karma-sporing"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ingen karma-sporing"
 >>>>>>> upstream/18.0
@@ -17500,6 +17762,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ingen har opnået alle mål, og der er ikke tildelt noget badge for denne "
+"udfordring."
+>>>>>>> upstream/18.0
 =======
 "Ingen har opnået alle mål, og der er ikke tildelt noget badge for denne "
 "udfordring."
@@ -17661,6 +17928,7 @@ msgstr "Periode"
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_challenge__period
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18023,6 +18291,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Period of automatic goal assignment. If none is selected, should be launched "
 "manually."
 msgstr ""
@@ -18042,6 +18312,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18095,7 +18368,11 @@ msgid "Previous Total"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Forrige samlet beløb"
+>>>>>>> upstream/18.0
 =======
 msgstr "Forrige samlet beløb"
 >>>>>>> upstream/18.0
@@ -18212,7 +18489,11 @@ msgid "Reach the next rank and become a Master!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nå den næste rang, og bliv mester!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nå den næste rang, og bliv mester!"
 >>>>>>> upstream/18.0
@@ -18277,7 +18558,11 @@ msgid "Reach the next rank and become a powerful user!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nå næste rang, og bliv en mægtig bruger!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nå næste rang, og bliv en mægtig bruger!"
 >>>>>>> upstream/18.0
@@ -18342,7 +18627,11 @@ msgid "Reach the next rank and gain a very magic wand!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nå den næste rang, og få en særlig magisk tryllestav!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nå den næste rang, og få en særlig magisk tryllestav!"
 >>>>>>> upstream/18.0
@@ -18407,7 +18696,11 @@ msgid "Reach the next rank and gain a very nice hat!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nå den næste rang, og få en fin hat!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nå den næste rang, og få en fin hat!"
 >>>>>>> upstream/18.0
@@ -18472,7 +18765,11 @@ msgid "Reach the next rank and gain a very nice mug!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nå den næste rang, og få et rigtig fint krus!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nå den næste rang, og få et rigtig fint krus!"
 >>>>>>> upstream/18.0
@@ -18537,7 +18834,11 @@ msgid "Reach the next rank and gain a very nice unicorn!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nå den næste rang, og få en skøn enhjørning!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nå den næste rang, og få en skøn enhjørning!"
 >>>>>>> upstream/18.0
@@ -18602,7 +18903,11 @@ msgid "Reach the next rank to improve your status!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nå den næste rang for at forbedre din status!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nå den næste rang for at forbedre din status!"
 >>>>>>> upstream/18.0
@@ -18667,7 +18972,11 @@ msgid "Reach the next rank to show the rest of the world you exist."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nå den næste rang for at vise resten af verden, at du findes."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nå den næste rang for at vise resten af verden, at du findes."
 >>>>>>> upstream/18.0
@@ -18805,6 +19114,7 @@ msgstr "Belønning"
 #. odoo-python
 #: code:addons/gamification/models/gamification_challenge.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19167,6 +19477,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Reward (badge %(badge_name)s) for every succeeding user was sent to %"
 "(users)s."
 msgstr ""
@@ -19186,6 +19498,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19318,7 +19633,11 @@ msgid "Send a challenge report to all participants"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Send en udfordringsrapport til alle deltagere"
+>>>>>>> upstream/18.0
 =======
 msgstr "Send en udfordringsrapport til alle deltagere"
 >>>>>>> upstream/18.0
@@ -19393,7 +19712,11 @@ msgid "Sent automatically to participant who haven't updated their goal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Send automatisk til deltagere, der ikke har opdateret deres mål"
+>>>>>>> upstream/18.0
 =======
 msgstr "Send automatisk til deltagere, der ikke har opdateret deres mål"
 >>>>>>> upstream/18.0
@@ -19458,7 +19781,11 @@ msgid "Sent automatically to the user who received a badge"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Send automatisk til den bruger, der modtog et badge"
+>>>>>>> upstream/18.0
 =======
 msgstr "Send automatisk til den bruger, der modtog et badge"
 >>>>>>> upstream/18.0
@@ -19523,7 +19850,11 @@ msgid "Sent automatically when user reaches a new rank"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Send automatisk, når bruger når en ny rang"
+>>>>>>> upstream/18.0
 =======
 msgstr "Send automatisk, når bruger når en ny rang"
 >>>>>>> upstream/18.0
@@ -19648,6 +19979,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Særlige belønninger blev sendt til de bedste deltagere. Ranglisten for denne "
+"udfordring er:"
+>>>>>>> upstream/18.0
 =======
 "Særlige belønninger blev sendt til de bedste deltagere. Ranglisten for denne "
 "udfordring er:"
@@ -19795,7 +20131,11 @@ msgid "Test Reason"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Testårsag"
+>>>>>>> upstream/18.0
 =======
 msgstr "Testårsag"
 >>>>>>> upstream/18.0
@@ -19949,8 +20289,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Dagen hvor en ny udfordring vil blive afsluttet automatisk. Vil gøre brug af"
 " denne dato som slutdato for målet, hvis ingen periode af angivet."
+=======
+"Dagen hvor en ny udfordring vil blive afsluttet automatisk. Vil gøre brug af "
+"denne dato som slutdato for målet, hvis ingen periode af angivet."
+>>>>>>> upstream/18.0
 =======
 "Dagen hvor en ny udfordring vil blive afsluttet automatisk. Vil gøre brug af "
 "denne dato som slutdato for målet, hvis ingen periode af angivet."
@@ -20355,12 +20700,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The domain for the definition %(definition)s seems incorrect, please check it.\n"
 "\n"
 "%(error_message)s"
 msgstr ""
 "Domænet for definitionen %(definition)s virker til at være ukorrekt, tjek venligst igen.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20599,6 +20947,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20793,6 +21144,7 @@ msgstr "Jo lavere jo bedre"
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_badge__rule_max_number
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21187,11 +21539,16 @@ msgstr "Det maksimale antal gange dette badge kan sendes per måned per person."
 msgid "The maximum number of time this badge can be sent per month per person."
 msgstr "Det maksimale antal gange dette badge kan sendes per måned per person."
 >>>>>>> upstream/18.0
+=======
+msgid "The maximum number of time this badge can be sent per month per person."
+msgstr "Det maksimale antal gange dette badge kan sendes per måned per person."
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #. odoo-python
 #: code:addons/gamification/models/gamification_goal_definition.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21430,6 +21787,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "The model configuration for the definition %(name)s seems incorrect, please "
 "check it.\n"
 "\n"
@@ -21514,6 +21873,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21754,12 +22116,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The model configuration for the definition %(name)s seems incorrect, please check it.\n"
 "\n"
 "%(field_name)s not stored"
 msgstr ""
 "Model konfigurationen for definitionen %(name)s ser ud til at være forkert, tjek den venligst.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21998,6 +22363,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22167,6 +22535,7 @@ msgstr ""
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_badge__stat_my_this_month
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22481,6 +22850,9 @@ msgid "The number of time the current user has received this badge this month."
 =======
 msgid "The number of time the current user has received this badge this month."
 >>>>>>> upstream/18.0
+=======
+msgid "The number of time the current user has received this badge this month."
+>>>>>>> upstream/18.0
 msgstr "Antal gange den aktuelle bruger har modtaget dette badge denne måned."
 
 #. module: gamification
@@ -22546,7 +22918,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "De brugere, der har opnået disse mål, modtager badget automatisk."
+>>>>>>> upstream/18.0
 =======
 msgstr "De brugere, der har opnået disse mål, modtager badget automatisk."
 >>>>>>> upstream/18.0
@@ -22608,6 +22984,7 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:gamification.goals_from_challenge_act
 msgid ""
 "There is no goal associated to this challenge matching your search.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22845,6 +23222,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "            Make sure that your challenge is active and assigned to at least "
 "one user."
 msgstr ""
@@ -22928,6 +23307,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23134,7 +23516,11 @@ msgid "Track the sources of the users karma and monitor"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spor brugerens kilder, og hold øje med dem"
+>>>>>>> upstream/18.0
 =======
 msgstr "Spor brugerens kilder, og hold øje med dem"
 >>>>>>> upstream/18.0
@@ -23248,7 +23634,11 @@ msgid "User Creation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Brugeroprettelse"
+>>>>>>> upstream/18.0
 =======
 msgstr "Brugeroprettelse"
 >>>>>>> upstream/18.0
@@ -23505,8 +23895,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "e.g. A Master Chief knows quite everything on the forum! You cannot beat "
 "him!"
+=======
+"e.g. A Master Chief knows quite everything on the forum! You cannot beat him!"
+>>>>>>> upstream/18.0
 =======
 "e.g. A Master Chief knows quite everything on the forum! You cannot beat him!"
 >>>>>>> upstream/18.0

@@ -16,11 +16,14 @@ class ProductTemplate(models.Model):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (
             bool(website.sudo().in_store_dm_id)  # Click & Collect is enabled.
             and product_or_template.is_product_variant
             and product_or_template.is_storable
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         in_store_dm = website.sudo().in_store_dm_id
@@ -30,6 +33,9 @@ class ProductTemplate(models.Model):
             and product_or_template.is_storable
             and not (in_store_dm.excluded_tag_ids & product_or_template.all_product_tag_ids)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

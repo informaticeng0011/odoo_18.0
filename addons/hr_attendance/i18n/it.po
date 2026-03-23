@@ -159,6 +159,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* hr_attendance
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1217,12 +1218,16 @@
 =======
 # * hr_attendance
 >>>>>>> upstream/18.0
+=======
+# * hr_attendance
+>>>>>>> upstream/18.0
 #
 # Translators:
 # pezzin <christian.pezzin@gmail.com>, 2024
 # Marianna Ciofani, 2025
 # Wil Odoo, 2025
 # Sergio Zanchetta <primes2h@gmail.com>, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1865,10 +1870,15 @@
 # "Marianna Ciofani (cima)" <cima@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
+=======
+# "Marianna Ciofani (cima)" <cima@odoo.com>, 2025, 2026.
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3437,16 +3447,22 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2026-03-20 18:37+0000\n"
 "PO-Revision-Date: 2026-03-21 18:00+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Italian <https://translate.odoo.com/projects/odoo-18/"
 "hr_attendance/it/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4407,11 +4423,17 @@ msgstr ""
 "0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.16.2\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
+"0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: hr_attendance
 #. odoo-python
 #: code:addons/hr_attendance/models/hr_attendance.py:0
 msgid "\"Check Out\" time cannot be earlier than \"Check In\" time."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5212,6 +5234,9 @@ msgstr "L'orario di «Uscita» non può essere precedente a quello di «Ingresso
 =======
 msgstr "L'orario di «Uscita» non può essere precedente a quello di «Ingresso»."
 >>>>>>> upstream/18.0
+=======
+msgstr "L'orario di «Uscita» non può essere precedente a quello di «Ingresso»."
+>>>>>>> upstream/18.0
 
 #. module: hr_attendance
 #. odoo-python
@@ -5388,7 +5413,13 @@ msgstr "'Documentazione'"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-calendar me-1\" aria-label=\"Period\" role=\"img\" title=\"Period\"/>"
+=======
+msgid ""
+"<i class=\"fa fa-calendar me-1\" aria-label=\"Period\" role=\"img\" "
+"title=\"Period\"/>"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "<i class=\"fa fa-calendar me-1\" aria-label=\"Period\" role=\"img\" "
@@ -6376,11 +6407,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"fa fa-circle text-warning me-1\" role=\"img\" aria-label=\"Not available\" title=\"Not available\">\n"
 "                                    </span>"
 msgstr ""
 "<span class=\"fa fa-circle text-warning me-1\" role=\"img\" aria-label=\"Not available\" title=\"Not available\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6867,6 +6901,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7237,6 +7274,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_user_view_form
 #: model_terms:ir.ui.view,arch_db:hr_attendance.view_employee_form_inherit_hr_attendance
 msgid "<span class=\"o_stat_text\">Extra Hours</span>"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8006,6 +8044,9 @@ msgstr "<span class=\"o_stat_text\">Ore aggiuntive</span>"
 =======
 msgstr "<span class=\"o_stat_text\">Ore aggiuntive</span>"
 >>>>>>> upstream/18.0
+=======
+msgstr "<span class=\"o_stat_text\">Ore aggiuntive</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
@@ -8038,6 +8079,7 @@ msgstr "Dipendenti attivi"
 #. module: hr_attendance
 #: model_terms:ir.actions.act_window,help:hr_attendance.hr_employee_attendance_action_kanban
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8680,6 +8722,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Add a few employees to be able to select an employee here and perform his "
 "check in / check out.\n"
 "                To create employees go to the Employees menu."
@@ -8847,6 +8891,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9313,6 +9360,7 @@ msgstr "Presenza"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -9352,6 +9400,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9463,6 +9513,9 @@ msgstr "Errore presenza"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9649,6 +9702,7 @@ msgstr "Approvato automaticamente"
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 msgid ""
 "Automatically Check-Out Employees based on their working schedule with an "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10312,10 +10366,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "additional tolerance. Does not apply to employees with a flexible working "
 "schedule."
 msgstr ""
 "Esegui il check out dei dipendenti automaticamente in base agli orari di "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11280,6 +11337,10 @@ msgstr ""
 "lavoro con una tolleranza aggiuntiva. Non si applica ai dipendenti con orari "
 "di lavoro flessibili."
 >>>>>>> upstream/18.0
+=======
+"lavoro con una tolleranza aggiuntiva. Non si applica ai dipendenti con orari "
+"di lavoro flessibili."
+>>>>>>> upstream/18.0
 
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_filter
@@ -11509,7 +11570,11 @@ msgid "Barcode / RFID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Codice a barre/sensore RFID"
+=======
+msgstr "Codice a barre / RFID"
+>>>>>>> upstream/18.0
 =======
 msgstr "Codice a barre / RFID"
 >>>>>>> upstream/18.0
@@ -12282,7 +12347,11 @@ msgid "Barcode / RFID and Manual Selection"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Codice a barre/RFID e selezione manuale"
+=======
+msgstr "Codice a barre / RFID e selezione manuale"
+>>>>>>> upstream/18.0
 =======
 msgstr "Codice a barre / RFID e selezione manuale"
 >>>>>>> upstream/18.0
@@ -13093,8 +13162,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Non posso creare nuovi record di presenza per %(empl_name)s, il dipendente "
 "non ha registrato uscita da %(datetime)s"
+=======
+"Impossibile creare un nuovo registro presenze per %(empl_name)s, il "
+"dipendente non ha registrato l'uscita dal %(datetime)s"
+>>>>>>> upstream/18.0
 =======
 "Impossibile creare un nuovo registro presenze per %(empl_name)s, il "
 "dipendente non ha registrato l'uscita dal %(datetime)s"
@@ -14063,8 +14137,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Non posso creare nuovi record di presenza per %(empl_name)s, il dipendente "
 "ha registrato un ingresso il %(datetime)s"
+=======
+"Impossibile creare un nuovo registro presenze per %(empl_name)s, il "
+"dipendente ha già registrato l'ingresso il %(datetime)s"
+>>>>>>> upstream/18.0
 =======
 "Impossibile creare un nuovo registro presenze per %(empl_name)s, il "
 "dipendente ha già registrato l'ingresso il %(datetime)s"
@@ -15034,9 +15113,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Non puoi effettuare uscita per %(empl_name)s, non è possibile trovare "
 "l'ingresso corrispondente. Probabilmente le tue presenze sono state "
 "modificate manualmente."
+=======
+"Impossibile effettuare l'uscita per %(empl_name)s, non è stato trovato il "
+"corrispondente ingresso. È probabile che le presenze siano state modificate "
+"manualmente dalle risorse umane."
+>>>>>>> upstream/18.0
 =======
 "Impossibile effettuare l'uscita per %(empl_name)s, non è stato trovato il "
 "corrispondente ingresso. È probabile che le presenze siano state modificate "
@@ -16194,7 +16279,11 @@ msgid "Check IN"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Check IN"
+=======
+msgstr "INGRESSO"
+>>>>>>> upstream/18.0
 =======
 msgstr "INGRESSO"
 >>>>>>> upstream/18.0
@@ -16977,7 +17066,11 @@ msgid "Check OUT"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Check OUT"
+=======
+msgstr "USCITA"
+>>>>>>> upstream/18.0
 =======
 msgstr "USCITA"
 >>>>>>> upstream/18.0
@@ -17771,7 +17864,11 @@ msgid "Checked in"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ingresso"
+=======
+msgstr "Ingresso registrato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ingresso registrato"
 >>>>>>> upstream/18.0
@@ -18545,7 +18642,11 @@ msgid "Checked in at"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ingresso il"
+=======
+msgstr "Ingresso registrato alle"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ingresso registrato alle"
 >>>>>>> upstream/18.0
@@ -19318,7 +19419,11 @@ msgid "Checked out"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Uscita"
+=======
+msgstr "Uscita registrata"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uscita registrata"
 >>>>>>> upstream/18.0
@@ -20092,7 +20197,11 @@ msgid "Checked out at"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Uscita il"
+=======
+msgstr "Uscita registrata alle"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uscita registrata alle"
 >>>>>>> upstream/18.0
@@ -20783,6 +20892,7 @@ msgstr "Collega un lettore RFID e scansiona un token."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -20822,6 +20932,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20933,6 +21045,9 @@ msgstr "Connessione persa. Impossibile registrare check-in/out."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21062,6 +21177,7 @@ msgid "Define the way the user will be identified by the application."
 msgstr "Indica il mod in cui l'utente verrà autenticato dall'applicazione."
 
 #. module: hr_attendance
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21873,6 +21989,10 @@ msgstr "Dipartimento"
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance__department_id
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_filter
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance__department_id
+#: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_filter
+>>>>>>> upstream/18.0
 msgid "Department"
 msgstr "Ufficio"
 
@@ -21915,6 +22035,7 @@ msgstr "Tempo di visualizzazione"
 #. odoo-python
 #: code:addons/hr_attendance/models/hr_attendance.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22519,6 +22640,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Do not have access, user cannot edit the attendances that are not their own "
 "or if they are not the attendance manager of the employee."
 msgstr ""
@@ -22580,6 +22703,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22914,7 +23040,11 @@ msgid "Employee attendances"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Presenze Dipendenti"
+=======
+msgstr "Presenze dipendente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Presenze dipendente"
 >>>>>>> upstream/18.0
@@ -23693,7 +23823,11 @@ msgid "Error: could not find corresponding employee."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Errore: impossibile trovare il dipendente corrispondente."
+=======
+msgstr "Errore: impossibile trovare una corrispondenza per il dipendente."
+>>>>>>> upstream/18.0
 =======
 msgstr "Errore: impossibile trovare una corrispondenza per il dipendente."
 >>>>>>> upstream/18.0
@@ -24483,7 +24617,11 @@ msgid "Extra Hours"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ore extra"
+=======
+msgstr "Ore aggiuntive"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ore aggiuntive"
 >>>>>>> upstream/18.0
@@ -25344,7 +25482,11 @@ msgid "Hours Last Month"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ore mese precedente"
+=======
+msgstr "Ore mese scorso"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ore mese scorso"
 >>>>>>> upstream/18.0
@@ -26146,7 +26288,11 @@ msgid "Hr Attendance Search"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "HR Cerca Presenze"
+=======
+msgstr "Ricerca presenze RU"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ricerca presenze RU"
 >>>>>>> upstream/18.0
@@ -26932,7 +27078,11 @@ msgid "Identify Manually"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Identificare manualmente"
+=======
+msgstr "Identifica manualmente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Identifica manualmente"
 >>>>>>> upstream/18.0
@@ -27513,6 +27663,7 @@ msgstr "Identifica manualmente"
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28336,6 +28487,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "If checked, days not covered by an attendance will be visible in the Report. "
 "Does not apply to employees with a flexible working schedule."
 msgstr ""
@@ -28501,6 +28654,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -28852,7 +29008,10 @@ msgstr "Installa"
 
 #. module: hr_attendance
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/hr_attendance/controllers/main.py:0
 msgid ""
@@ -28861,6 +29020,9 @@ msgid ""
 msgstr ""
 
 #. module: hr_attendance
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/hr_attendance/static/src/components/greetings/greetings.xml:0
@@ -29074,7 +29236,11 @@ msgid "Kiosk Mode"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Kiosk Mode"
+=======
+msgstr "Modalità chiosco"
+>>>>>>> upstream/18.0
 =======
 msgstr "Modalità chiosco"
 >>>>>>> upstream/18.0
@@ -30029,7 +30195,11 @@ msgid "No attendance records found"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nessuna presenza trovata"
+=======
+msgstr "Nessun registro presenze trovato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nessun registro presenze trovato"
 >>>>>>> upstream/18.0
@@ -30803,7 +30973,11 @@ msgid "No employee corresponding to Badge ID '%(barcode)s.'"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nessun dipendente corrisponde al Badge ID \"%(barcode)s\"."
+=======
+msgstr "Nessun dipendente corrisponde all'ID tesserino \"%(barcode)s\"."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nessun dipendente corrisponde all'ID tesserino \"%(barcode)s\"."
 >>>>>>> upstream/18.0
@@ -31553,7 +31727,11 @@ msgid "Number of errors"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Numero di azioni"
+=======
+msgstr "Numero di errori"
+>>>>>>> upstream/18.0
 =======
 msgstr "Numero di errori"
 >>>>>>> upstream/18.0
@@ -32194,7 +32372,11 @@ msgid "Number of messages requiring action"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Numero di messagig che richiedono un'azione"
+=======
+msgstr "Numero di messaggi che richiedono un'azione"
+>>>>>>> upstream/18.0
 =======
 msgstr "Numero di messaggi che richiedono un'azione"
 >>>>>>> upstream/18.0
@@ -32961,7 +33143,11 @@ msgid "Please return to the main menu."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Torna al menu principale."
+=======
+msgstr "Ritornare al menù principale."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ritornare al menù principale."
 >>>>>>> upstream/18.0
@@ -33780,6 +33966,9 @@ msgstr "Token RFID con lettore su tablet"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -34427,6 +34616,9 @@ msgstr "Valutazioni"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -34886,6 +35078,7 @@ msgstr "Non accettata"
 #. module: hr_attendance
 #: model:ir.ui.menu,name:hr_attendance.menu_hr_attendance_reporting
 msgid "Reporting"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -35989,12 +36182,17 @@ msgstr "Resoconti"
 msgstr "Resoconti"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Resoconti"
 
 #. module: hr_attendance
 #: model:ir.model,name:hr_attendance.model_resource_calendar_leaves
 msgid "Resource Time Off Detail"
 msgstr "Dettaglio ferie della risorsa"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_attendance
@@ -36198,7 +36396,11 @@ msgid "Scan your badge"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Scansiona il tuo badge"
+=======
+msgstr "Leggi tesserino"
+>>>>>>> upstream/18.0
 =======
 msgstr "Leggi tesserino"
 >>>>>>> upstream/18.0
@@ -36988,9 +37190,13 @@ msgid "Set PIN codes in the employee detail form (in HR Settings tab)."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Imposta il codice PIN nella pagina di dettaglio del dipendente (nel tab "
 "impostazioni HR)"
+=======
+msgstr "Imposta codici PIN nel modulo del dipendente (scheda impostazioni RU)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Imposta codici PIN nel modulo del dipendente (scheda impostazioni RU)"
 >>>>>>> upstream/18.0
@@ -37775,7 +37981,11 @@ msgid "Sign out"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Uscita"
+=======
+msgstr "Esci"
+>>>>>>> upstream/18.0
 =======
 msgstr "Esci"
 >>>>>>> upstream/18.0
@@ -38567,7 +38777,11 @@ msgid "The attendance records of your employees will be displayed here."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Le presenze dei tuoi dipendenti saranno mostrate qui."
+=======
+msgstr "I registri presenze dei dipendenti saranno visualizzati qui."
+>>>>>>> upstream/18.0
 =======
 msgstr "I registri presenze dei dipendenti saranno visualizzati qui."
 >>>>>>> upstream/18.0
@@ -39335,8 +39549,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "L'utente avrà accesso alle proprie prensenze nel proprio profilo "
 "utente/dipendente"
+=======
+"L'utente avrà accesso alle proprie prensenze nel proprio profilo utente/"
+"dipendente"
+>>>>>>> upstream/18.0
 =======
 "L'utente avrà accesso alle proprie prensenze nel proprio profilo utente/"
 "dipendente"
@@ -40166,8 +40385,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This attendance was automatically created to cover an unjustified absence on"
 " that day."
+=======
+"This attendance was automatically created to cover an unjustified absence on "
+"that day."
+>>>>>>> upstream/18.0
 =======
 "This attendance was automatically created to cover an unjustified absence on "
 "that day."
@@ -41055,8 +41279,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Usa codici pin (definiti sui profili dei dipendenti) per effettuare il "
 "check-in."
+=======
+"Usa codici pin (definiti sui profili dei dipendenti) per effettuare il check-"
+"in."
+>>>>>>> upstream/18.0
 =======
 "Usa codici pin (definiti sui profili dei dipendenti) per effettuare il check-"
 "in."
@@ -41866,8 +42095,12 @@ msgid "Use this url to access your kiosk mode from any device."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Usa l'URL per accedere alla modalità chiosco da qualsiasi dispositivo."
+=======
+msgstr "Usa l'URL per accedere alla modalità chiosco da qualsiasi dispositivo."
+>>>>>>> upstream/18.0
 =======
 msgstr "Usa l'URL per accedere alla modalità chiosco da qualsiasi dispositivo."
 >>>>>>> upstream/18.0
@@ -42578,7 +42811,11 @@ msgid "Work Hours"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ore lavorative"
+=======
+msgstr "Ore di lavoro"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ore di lavoro"
 >>>>>>> upstream/18.0
@@ -43387,7 +43624,11 @@ msgid "You cannot duplicate an attendance."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Non puoi duplicare un record presenza."
+=======
+msgstr "Impossibile duplicare una presenza."
+>>>>>>> upstream/18.0
 =======
 msgstr "Impossibile duplicare una presenza."
 >>>>>>> upstream/18.0
@@ -44179,6 +44420,7 @@ msgstr "con codice PIN opzionale"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 #~ msgid "Departement"
@@ -44665,6 +44907,8 @@ msgstr "con codice PIN opzionale"
 #~ msgstr "Dipartimento"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -44863,6 +45107,9 @@ msgstr "con codice PIN opzionale"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

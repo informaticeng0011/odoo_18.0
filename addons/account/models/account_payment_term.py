@@ -243,8 +243,11 @@ class AccountPaymentTerm(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return self.currency_id.round(total_amount - discount_amount_currency)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -783,6 +786,9 @@ class AccountPaymentTerm(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1334,6 +1340,7 @@ class AccountPaymentTerm(models.Model):
             return None
         return format_date(self.env, self._get_last_discount_date(date_ref))
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2177,6 +2184,8 @@ class AccountPaymentTerm(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def copy_data(self, default=None):
         default = dict(default or {})
         vals_list = super().copy_data(default=default)
@@ -2460,6 +2469,9 @@ class AccountPaymentTerm(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

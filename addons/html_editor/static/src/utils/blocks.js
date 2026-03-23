@@ -169,7 +169,13 @@ export function isBlock(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (style.display) {
+=======
+    // In case the node has display `none` we don't know what is its display
+    // so we check its tagName in `blockTagNames`
+    if (style.display && style.display !== "none") {
+>>>>>>> upstream/18.0
 =======
     // In case the node has display `none` we don't know what is its display
     // so we check its tagName in `blockTagNames`
