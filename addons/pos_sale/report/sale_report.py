@@ -57,7 +57,11 @@ class SaleReport(models.Model):
             count(*) AS nbr,
             pos.name AS name,
             pos.date_order AS date,
+<<<<<<< HEAD
             (CASE WHEN pos.state = 'done' THEN 'sale' ELSE pos.state END) AS state,
+=======
+            pos.state AS state,
+>>>>>>> upstream/18.0
             NULL as invoice_status,
             pos.partner_id AS partner_id,
             pos.user_id AS user_id,

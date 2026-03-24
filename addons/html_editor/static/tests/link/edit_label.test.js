@@ -98,7 +98,11 @@ describe("range collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should not change the url when a link is not edited", async () => {
+=======
+    test("should not change the url when a link is not edited (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should not change the url when a link is not edited (1)", async () => {
 >>>>>>> upstream/18.0
@@ -479,6 +483,12 @@ describe("range collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should not change the url when a link is not edited (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -1054,7 +1064,11 @@ describe("range collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should change the url when the label change", async () => {
+=======
+    test("should change the url when the label change (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should change the url when the label change (1)", async () => {
 >>>>>>> upstream/18.0
@@ -1438,6 +1452,12 @@ describe("range collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should change the url when the label change (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -2009,6 +2029,12 @@ describe("range collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should change the url when the label change (3)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -2580,6 +2606,12 @@ describe("range collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should change the url when the label change (4)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -3151,6 +3183,12 @@ describe("range collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should change the url when the label change (5)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -3724,7 +3762,11 @@ describe("range collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should change the url when the label change, without changing the protocol", async () => {
+=======
+    test("should change the url when the label change, without changing the protocol (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should change the url when the label change, without changing the protocol (1)", async () => {
 >>>>>>> upstream/18.0
@@ -4108,6 +4150,12 @@ describe("range collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should change the url when the label change, without changing the protocol (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -4681,7 +4729,11 @@ describe("range collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should change the url when the label change, changing to the suitable protocol", async () => {
+=======
+    test("should change the url when the label change, changing to the suitable protocol (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should change the url when the label change, changing to the suitable protocol (1)", async () => {
 >>>>>>> upstream/18.0
@@ -5065,6 +5117,12 @@ describe("range collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should change the url when the label change, changing to the suitable protocol (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -5673,7 +5731,11 @@ describe("range not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should change the url when the label change", async () => {
+=======
+    test("should change the url when the label change (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should change the url when the label change (1)", async () => {
 >>>>>>> upstream/18.0
@@ -6057,6 +6119,12 @@ describe("range not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should change the url when the label change (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -6628,6 +6696,12 @@ describe("range not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should change the url when the label change (3)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -7201,7 +7275,11 @@ describe("range not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should not change the url when the label change", async () => {
+=======
+    test("should not change the url when the label change (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should not change the url when the label change (1)", async () => {
 >>>>>>> upstream/18.0
@@ -7585,6 +7663,12 @@ describe("range not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should not change the url when the label change (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 

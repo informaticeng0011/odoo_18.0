@@ -234,7 +234,12 @@ class TestTrackerHttpRequests(MockLinkTracker, common.HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             }
+=======
+            },
+            allow_redirects=False,
+>>>>>>> upstream/18.0
 =======
             },
             allow_redirects=False,
@@ -1308,7 +1313,12 @@ class TestTrackerHttpRequests(MockLinkTracker, common.HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             }
+=======
+            },
+            allow_redirects=False,
+>>>>>>> upstream/18.0
 =======
             },
             allow_redirects=False,
@@ -2382,7 +2392,12 @@ class TestTrackerHttpRequests(MockLinkTracker, common.HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             }
+=======
+            },
+            allow_redirects=False,
+>>>>>>> upstream/18.0
 =======
             },
             allow_redirects=False,

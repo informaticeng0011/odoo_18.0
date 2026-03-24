@@ -203,10 +203,13 @@ registry.category("web_tour.tours").add('crm_tour', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     trigger: ".ui-menu-item > a",
     run: "click",
 }, {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -710,6 +713,9 @@ registry.category("web_tour.tours").add('crm_tour', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1320,7 +1326,11 @@ registry.category("web_tour.tours").add('crm_tour', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     trigger: ".o_opportunity_kanban .o_kanban_group:first-child .o_kanban_record:last-of-type",
+=======
+    trigger: ".o_opportunity_kanban:not(:has(.o_view_sample_data)) .o_kanban_group .o_kanban_record:last-of-type",
+>>>>>>> upstream/18.0
 =======
     trigger: ".o_opportunity_kanban:not(:has(.o_view_sample_data)) .o_kanban_group .o_kanban_record:last-of-type",
 >>>>>>> upstream/18.0

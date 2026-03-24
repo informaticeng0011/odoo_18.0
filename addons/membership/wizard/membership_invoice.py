@@ -67,7 +67,11 @@ class MembershipInvoice(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     member_price = fields.Float(string='Member Price', digits='Product Price', required=True)
+=======
+    member_price = fields.Float(string='Member Price', min_display_digits='Product Price', required=True)
+>>>>>>> upstream/18.0
 =======
     member_price = fields.Float(string='Member Price', min_display_digits='Product Price', required=True)
 >>>>>>> upstream/18.0
@@ -445,6 +449,10 @@ class MembershipInvoice(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'context': {'default_move_type': 'out_invoice'},
+>>>>>>> upstream/18.0
 =======
             'context': {'default_move_type': 'out_invoice'},
 >>>>>>> upstream/18.0

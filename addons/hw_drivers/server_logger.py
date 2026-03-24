@@ -132,6 +132,7 @@ class AsyncHTTPHandler(logging.Handler):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     _FLUSH_INTERVAL = 0.5
     """How much seconds it will sleep before checking for new logs to send"""
     _REQUEST_TIMEOUT = 0.5
@@ -147,6 +148,11 @@ class AsyncHTTPHandler(logging.Handler):
 >>>>>>> upstream/18.0
 =======
     _FLUSH_INTERVAL = 12
+    """How much seconds it will sleep before checking for new logs to send"""
+    _REQUEST_TIMEOUT = 10
+>>>>>>> upstream/18.0
+=======
+    _FLUSH_INTERVAL = 0.5
     """How much seconds it will sleep before checking for new logs to send"""
     _REQUEST_TIMEOUT = 10
 >>>>>>> upstream/18.0
@@ -860,8 +866,13 @@ class AsyncHTTPHandler(logging.Handler):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         except Exception as _:
             _logger.exception('Unexpected error happened while sending logs to server')
+=======
+        except Exception:  # noqa: BLE001
+            _logger.error('Unexpected error happened while sending logs to server')
+>>>>>>> upstream/18.0
 =======
         except Exception:  # noqa: BLE001
             _logger.error('Unexpected error happened while sending logs to server')

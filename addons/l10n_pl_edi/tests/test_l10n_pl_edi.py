@@ -30,6 +30,11 @@ import base64
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from datetime import timedelta
+
+>>>>>>> upstream/18.0
 =======
 from datetime import timedelta
 
@@ -192,6 +197,10 @@ from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.base.tests.test_ir_cron import CronMixinCase
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.base.tests.test_ir_cron import CronMixinCase
 >>>>>>> upstream/18.0
@@ -324,7 +333,11 @@ def attachment_to_dict(attachment):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class TestL10nPlEdi(AccountTestInvoicingCommon):
+=======
+class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
+>>>>>>> upstream/18.0
 =======
 class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
 >>>>>>> upstream/18.0
@@ -738,7 +751,12 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'bank_id': self.env['res.bank'].create({'name': 'Test Bank PL'}).id
+=======
+            'bank_id': self.env['res.bank'].create({'name': 'Test Bank PL'}).id,
+            'allow_out_payment': True,
+>>>>>>> upstream/18.0
 =======
             'bank_id': self.env['res.bank'].create({'name': 'Test Bank PL'}).id,
             'allow_out_payment': True,
@@ -1109,7 +1127,10 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1288,6 +1309,10 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        start = fields.Datetime.now()
+>>>>>>> upstream/18.0
 =======
         start = fields.Datetime.now()
 >>>>>>> upstream/18.0
@@ -1321,6 +1346,7 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
         self.assertFalse(bill_2)
 
         self.assertEqual(len(capt.records), cron_runs_before + 1)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1401,6 +1427,10 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        self.assertGreaterEqual(capt.records[-1].call_at, start + timedelta(seconds=120))
+        self.assertLessEqual(capt.records[-1].call_at, start + timedelta(seconds=240))
 >>>>>>> upstream/18.0
 =======
         self.assertGreaterEqual(capt.records[-1].call_at, start + timedelta(seconds=120))

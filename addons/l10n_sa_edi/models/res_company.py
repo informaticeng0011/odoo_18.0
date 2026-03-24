@@ -217,12 +217,15 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _get_company_root_delegated_field_names(self):
         return super()._get_company_root_delegated_field_names() + [
             'l10n_sa_api_mode',
             'l10n_sa_private_key_id',
         ]
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

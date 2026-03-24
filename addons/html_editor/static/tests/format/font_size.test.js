@@ -95,6 +95,7 @@ import { unformat } from "../_helpers/format";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { strong } from "../_helpers/tags";
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -196,6 +197,9 @@ import { strong } from "../_helpers/tags";
 <<<<<<< HEAD
 <<<<<<< HEAD
 import { setFontSize } from "../_helpers/user_actions";
+=======
+import { setFontSize, tripleClick } from "../_helpers/user_actions";
+>>>>>>> upstream/18.0
 =======
 import { setFontSize, tripleClick } from "../_helpers/user_actions";
 >>>>>>> upstream/18.0
@@ -994,8 +998,11 @@ test("should change the font size of a whole heading after a triple click", asyn
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         stepFunction: setFontSize("36px"),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1576,6 +1583,9 @@ test("should change the font size of a whole heading after a triple click", asyn
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2199,11 +2209,17 @@ test("should add style to a span parent of an inline", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         contentBefore: `<p>a<span style="background-color: black;">${strong(`[bc]`)}</span>d</p>`,
         stepFunction: setFontSize("10px"),
         contentAfter: `<p>a<span style="background-color: black; font-size: 10px;">${strong(
             `[bc]`
         )}</span>d</p>`,
+=======
+        contentBefore: `<p>a<span style="background-color: black;"><strong>[bc]</strong></span>d</p>`,
+        stepFunction: setFontSize("10px"),
+        contentAfter: `<p>a<span style="background-color: black; font-size: 10px;"><strong>[bc]</strong></span>d</p>`,
+>>>>>>> upstream/18.0
 =======
         contentBefore: `<p>a<span style="background-color: black;"><strong>[bc]</strong></span>d</p>`,
         stepFunction: setFontSize("10px"),

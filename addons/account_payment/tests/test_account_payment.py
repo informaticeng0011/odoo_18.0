@@ -208,7 +208,10 @@ class TestAccountPayment(AccountPaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -461,6 +464,7 @@ class TestAccountPayment(AccountPaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -619,6 +623,31 @@ class TestAccountPayment(AccountPaymentCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+    def test_pending_tx_does_not_cancel_payment(self):
+        """When a token charge results in a 'pending' transaction (e.g SEPA),
+        the payment must stay in draft, and be posted once the tx becomes 'done'"""
+        payment_token = self._create_token()
+        payment = self.env['account.payment'].create({
+            'payment_type': 'inbound',
+            'partner_type': 'customer',
+            'amount': 100.0,
+            'currency_id': self.currency.id,
+            'partner_id': self.partner.id,
+            'journal_id': self.provider.journal_id.id,
+            'payment_method_line_id': self.inbound_payment_method_line.id,
+            'payment_token_id': payment_token.id,
+            'write_off_line_vals': [],
+        })
+
+        with patch.object(self.env.registry['payment.transaction'], '_send_payment_request',
+                          lambda self: self._set_pending()):
+            payment.action_post()
+
+        self.assertEqual(payment.payment_transaction_id.state, 'pending')
+        self.assertEqual(payment.state, 'in_process')
+
 >>>>>>> upstream/18.0
     def test_action_post_calls_send_payment_request_only_once(self):
         payment_token = self._create_token()
@@ -990,7 +1019,10 @@ class TestAccountPayment(AccountPaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1782,6 +1814,7 @@ class TestAccountPayment(AccountPaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1885,6 +1918,8 @@ class TestAccountPayment(AccountPaymentCommon):
         """
         Test that modifying and reposting a vendor payment does not change its name.
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2483,6 +2518,9 @@ class TestAccountPayment(AccountPaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3121,6 +3159,7 @@ class TestAccountPayment(AccountPaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3134,6 +3173,8 @@ class TestAccountPayment(AccountPaymentCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3575,8 +3616,13 @@ class TestAccountPayment(AccountPaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         new_payment_method_line = new_journal.inbound_payment_method_line_ids[0]
         new_payment_method_line.write({'payment_account_id': self.company_data['default_account_receivable'].id})
+=======
+        new_payment_method_line = new_journal.outbound_payment_method_line_ids[0]
+        new_payment_method_line.write({'payment_account_id': payment.payment_method_line_id.payment_account_id.id})
+>>>>>>> upstream/18.0
 =======
         new_payment_method_line = new_journal.outbound_payment_method_line_ids[0]
         new_payment_method_line.write({'payment_account_id': payment.payment_method_line_id.payment_account_id.id})
@@ -3949,6 +3995,9 @@ class TestAccountPayment(AccountPaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4574,6 +4623,7 @@ class TestAccountPayment(AccountPaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4722,6 +4772,8 @@ class TestAccountPayment(AccountPaymentCommon):
     def test_payment_token_for_invoice_partner_is_available(self):
         """Test that the payment token of the invoice partner is available"""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5116,6 +5168,9 @@ class TestAccountPayment(AccountPaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5513,6 +5568,7 @@ class TestAccountPayment(AccountPaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             child_partner = self.env['res.partner'].create(
                 {
                     'name': "test_payment_token_for_invoice_partner_is_available",
@@ -5521,6 +5577,8 @@ class TestAccountPayment(AccountPaymentCommon):
                 }
             )
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5922,6 +5980,9 @@ class TestAccountPayment(AccountPaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6326,11 +6387,15 @@ class TestAccountPayment(AccountPaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             wizard = (
                 self.env["account.payment.register"]
                 .with_context(active_model="account.move", active_ids=invoice.ids)
                 .create({"payment_method_line_id": payment_method_line.id})
             )
+=======
+            wizard = payment_register_wizard(invoice)
+>>>>>>> upstream/18.0
 =======
             wizard = payment_register_wizard(invoice)
 >>>>>>> upstream/18.0
@@ -6881,6 +6946,7 @@ class TestAccountPayment(AccountPaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6927,6 +6993,8 @@ class TestAccountPayment(AccountPaymentCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7330,6 +7398,9 @@ class TestAccountPayment(AccountPaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

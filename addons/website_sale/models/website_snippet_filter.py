@@ -120,7 +120,11 @@ class WebsiteSnippetFilter(models.Model):
     def _get_products(self, mode, **kwargs):
         dynamic_filter = self.env.context.get('dynamic_filter')
 <<<<<<< HEAD
+<<<<<<< HEAD
         handler = getattr(self, '_get_products_%s' % mode, self._get_products_latest_sold)
+=======
+        handler = getattr(self.sudo(False), '_get_products_%s' % mode, self.sudo(False)._get_products_latest_sold)
+>>>>>>> upstream/18.0
 =======
         handler = getattr(self.sudo(False), '_get_products_%s' % mode, self.sudo(False)._get_products_latest_sold)
 >>>>>>> upstream/18.0

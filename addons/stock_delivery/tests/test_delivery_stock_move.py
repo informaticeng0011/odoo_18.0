@@ -193,8 +193,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -777,6 +780,9 @@ from odoo.fields import Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1611,7 +1617,10 @@ class StockMoveInvoice(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2228,6 +2237,7 @@ class StockMoveInvoice(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2612,4 +2622,36 @@ class StockMoveInvoice(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_delivery_slip_product_value(self):
+        """Test that product value reported on the delivery slip is correct.
+        """
+        product = self.product_cable_management_box
+        tax = self.company_data['default_tax_sale']
+        sale_order = self.env['sale.order'].create({
+            'partner_id': self.partner_a.id,
+            'partner_invoice_id': self.partner_a.id,
+            'partner_shipping_id': self.partner_a.id,
+            'order_line': [
+                Command.create({
+                    'name': product.name,
+                    'product_id': product.id,
+                    'product_uom_qty': 180,
+                    'product_uom': product.uom_id.id,
+                    'price_unit': 1.49,
+                    'tax_id': [Command.set(tax.ids)],
+                })],
+        })
+
+        sale_order.action_confirm()
+
+        # Testing full quantity, should be equal to the price total on the sale order line
+        sale_order.picking_ids.move_ids.quantity = 180
+        self.assertEqual(sale_order.picking_ids.move_line_ids.sale_price, sale_order.order_line.price_total, "Price on delivery slip is not correct")
+
+        # Testing a partial quantity
+        sale_order.picking_ids.move_ids.quantity = 150
+        self.assertEqual(sale_order.picking_ids.move_line_ids.sale_price, 257.03, "Price on delivery slip is not correct")
 >>>>>>> upstream/18.0

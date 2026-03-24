@@ -196,6 +196,10 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            ('SZJ', 'SZJ - Service Registry Code'),
+>>>>>>> upstream/18.0
 =======
             ('SZJ', 'SZJ - Service Registry Code'),
 >>>>>>> upstream/18.0

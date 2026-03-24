@@ -255,7 +255,10 @@ class TestMrpSerialMassProduce(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -930,6 +933,9 @@ class TestMrpSerialMassProduce(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1610,9 +1616,15 @@ class TestMrpSerialMassProduce(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Initial MO should have a backorder-sequenced name and be in confirmed state
         self.assertTrue("-001" in mo.name)
         self.assertEqual(mo.state, "confirmed")
+=======
+        # Initial MO should have a backorder-sequenced name and be in progress state
+        self.assertTrue("-001" in mo.name)
+        self.assertEqual(mo.state, "progress")
+>>>>>>> upstream/18.0
 =======
         # Initial MO should have a backorder-sequenced name and be in progress state
         self.assertTrue("-001" in mo.name)

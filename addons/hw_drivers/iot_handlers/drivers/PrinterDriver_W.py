@@ -100,6 +100,10 @@ import win32print
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import pywintypes
+>>>>>>> upstream/18.0
 =======
 import pywintypes
 >>>>>>> upstream/18.0
@@ -588,6 +592,10 @@ from odoo.addons.hw_drivers.websocket_client import send_to_controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.hw_drivers.iot_handlers.interfaces.PrinterInterface_W import win32print_lock
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.hw_drivers.iot_handlers.interfaces.PrinterInterface_W import win32print_lock
 >>>>>>> upstream/18.0
@@ -1271,6 +1279,7 @@ class PrinterDriver(Driver):
         event_manager.device_changed(self)
 
     def print_raw(self, data):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2153,6 +2162,8 @@ class PrinterDriver(Driver):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         job_id = False
         page_started = False
         try:
@@ -2267,6 +2278,9 @@ class PrinterDriver(Driver):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2612,6 +2626,7 @@ class PrinterDriver(Driver):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "-dPrinted", "-dBATCH", "-dNOPAUSE", "-dNOPROMPT",
 =======
                 "-dPrinted", "-dBATCH", "-dNOPAUSE", "-dNOPROMPT", "-dPDFFitPage",
@@ -2690,6 +2705,9 @@ class PrinterDriver(Driver):
 >>>>>>> upstream/18.0
 =======
                 "-dPrinted", "-dBATCH", "-dNOPAUSE", "-dNOPROMPT", "-dPDFFitPage",
+>>>>>>> upstream/18.0
+=======
+                "-dPrinted", "-dBATCH", "-dNOPAUSE", "-dNOPROMPT",
 >>>>>>> upstream/18.0
 =======
                 "-dPrinted", "-dBATCH", "-dNOPAUSE", "-dNOPROMPT",
@@ -3277,6 +3295,9 @@ class PrinterDriver(Driver):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

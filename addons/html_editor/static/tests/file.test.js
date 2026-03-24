@@ -215,6 +215,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { beforeEach, describe, expect, test } from "@odoo/hoot";
 import { setupEditor } from "./_helpers/editor";
 import { EMBEDDED_COMPONENT_PLUGINS, MAIN_PLUGINS } from "@html_editor/plugin_sets";
@@ -227,6 +228,8 @@ import { getContent } from "./_helpers/selection";
 import { isZwnbsp } from "@html_editor/utils/dom_info";
 import { EmbeddedFilePlugin } from "@html_editor/others/embedded_components/plugins/embedded_file_plugin/embedded_file_plugin";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -703,7 +706,11 @@ import { describe, expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { animationFrame, click, press, queryOne, waitFor } from "@odoo/hoot-dom";
+=======
+import { animationFrame, click, press, queryAll, queryOne, waitFor } from "@odoo/hoot-dom";
+>>>>>>> upstream/18.0
 =======
 import { animationFrame, click, press, queryAll, queryOne, waitFor } from "@odoo/hoot-dom";
 >>>>>>> upstream/18.0
@@ -1042,6 +1049,7 @@ import { execCommand } from "./_helpers/userCommands";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1396,6 +1404,9 @@ import { execCommand } from "./_helpers/userCommands";
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+import { nodeSize } from "@html_editor/utils/position";
 >>>>>>> upstream/18.0
 =======
 import { nodeSize } from "@html_editor/utils/position";
@@ -1566,6 +1577,7 @@ describe("file command", () => {
         // No download button in file card.
         expect(".o_file_box .fa-download").toHaveCount(0);
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2229,6 +2241,8 @@ describe("document tab in media dialog", () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
     describe("static file box interactions", () => {
         test.tags("desktop");
@@ -2441,6 +2455,9 @@ describe("document tab in media dialog", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2743,6 +2760,9 @@ describe("document tab in media dialog", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

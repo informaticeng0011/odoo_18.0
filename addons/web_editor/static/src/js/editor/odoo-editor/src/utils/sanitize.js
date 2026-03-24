@@ -147,6 +147,11 @@ export const UNMERGEABLE_SELECTORS = [];
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+const FORMATTABLE_TAGS = ["SPAN", "FONT", "B", "STRONG", "I", "EM", "U", "S", "SMALL"];
+
+>>>>>>> upstream/18.0
 =======
 const FORMATTABLE_TAGS = ["SPAN", "FONT", "B", "STRONG", "I", "EM", "U", "S", "SMALL"];
 
@@ -728,7 +733,10 @@ export function areSimilarElements(node, node2) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -956,6 +964,9 @@ export function areSimilarElements(node, node2) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1346,7 +1357,10 @@ function sanitizeNode(node, root) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1697,6 +1711,9 @@ function sanitizeNode(node, root) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2160,11 +2177,14 @@ function sanitizeNode(node, root) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const paragraph = document.createElement('p');
         paragraph.replaceChildren(...node.childNodes);
         node.replaceWith(paragraph);
         node = paragraph; // The node has been removed, update the reference.
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2756,6 +2776,9 @@ function sanitizeNode(node, root) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3398,7 +3421,10 @@ export function sanitize(nodeToSanitize, root = nodeToSanitize) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3818,6 +3844,9 @@ export function isRedundantElement(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -28,7 +28,10 @@ _logger = logging.getLogger(__name__)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -84,6 +87,9 @@ def get_google_map_api_key(env):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -230,7 +236,11 @@ class GeoCoder(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         apikey = self.env['ir.config_parameter'].sudo().get_param('base_geolocalize.google_map_api_key')
+=======
+        apikey = get_google_map_api_key(self.env)
+>>>>>>> upstream/18.0
 =======
         apikey = get_google_map_api_key(self.env)
 >>>>>>> upstream/18.0
