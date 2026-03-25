@@ -457,6 +457,12 @@ class Goal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    field_name = definition.field_id.name
+                    field = Obj._fields.get(field_name)
+                    sum_supported = bool(field) and field.type in {'integer', 'float', 'monetary'}
+>>>>>>> upstream/18.0
 =======
                     field_name = definition.field_id.name
                     field = Obj._fields.get(field_name)
@@ -1943,8 +1949,12 @@ class Goal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         if definition.computation_mode == 'sum':
                             field_name = definition.field_id.name
+=======
+                        if definition.computation_mode == 'sum' and sum_supported:
+>>>>>>> upstream/18.0
 =======
                         if definition.computation_mode == 'sum' and sum_supported:
 >>>>>>> upstream/18.0

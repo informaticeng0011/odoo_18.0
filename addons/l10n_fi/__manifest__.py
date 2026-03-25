@@ -154,6 +154,11 @@ Set the payment reference type from the Sales Journal.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'views/res_company_views.xml',
+        'views/res_partner_views.xml',
+>>>>>>> upstream/18.0
 =======
         'views/res_company_views.xml',
         'views/res_partner_views.xml',

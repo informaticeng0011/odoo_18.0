@@ -2,6 +2,10 @@ import { BasePrinter } from "@point_of_sale/app/printer/base_printer";
 import { _t } from "@web/core/l10n/translation";
 import { getTemplate } from "@web/core/templates";
 import { createElement, append, createTextNode } from "@web/core/utils/xml";
+<<<<<<< HEAD
+=======
+import { getLNATargetAddressSpace } from "@point_of_sale/app/utils/init_lna";
+>>>>>>> upstream/18.0
 
 function ePOSPrint(children) {
     let ePOSLayout = getTemplate("pos_epson_printer.ePOSLayout");
@@ -22,6 +26,7 @@ function ePOSPrint(children) {
 export class EpsonPrinter extends BasePrinter {
     setup({ ip }) {
         super.setup(...arguments);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -780,6 +785,15 @@ export class EpsonPrinter extends BasePrinter {
         this.url = protocol + "//" + ip;
 >>>>>>> upstream/18.0
         this.address = this.url + "/cgi-bin/epos/service.cgi?devid=local_printer";
+=======
+
+        const protocol = odoo.use_lna ? "http:" : window.location.protocol;
+        this.url = protocol + "//" + ip;
+        this.address = this.url + "/cgi-bin/epos/service.cgi?devid=local_printer";
+        if (odoo.use_lna) {
+            this.lnaTargetAddressSpace = getLNATargetAddressSpace(this.address);
+        }
+>>>>>>> upstream/18.0
     }
 
     /**
@@ -815,6 +829,7 @@ export class EpsonPrinter extends BasePrinter {
      * @override
      */
     async sendPrintingJob(img) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1196,11 +1211,14 @@ export class EpsonPrinter extends BasePrinter {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const params = {
             method: "POST",
             body: img,
         };
 
+<<<<<<< HEAD
         if (odoo.use_lna) {
             params.targetAddressSpace = "local";
         }
@@ -1581,6 +1599,13 @@ export class EpsonPrinter extends BasePrinter {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        if (this.lnaTargetAddressSpace) {
+            params.targetAddressSpace = this.lnaTargetAddressSpace;
+        }
+
+        const res = await fetch(this.address, params);
 >>>>>>> upstream/18.0
         const body = await res.text();
         const parser = new DOMParser();

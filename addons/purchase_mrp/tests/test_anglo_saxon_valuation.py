@@ -62,6 +62,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.fields import Date, Datetime
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -773,10 +774,15 @@ from odoo.fields import Command, Date, Datetime
 from odoo.exceptions import UserError
 from odoo.fields import Command, Date, Datetime
 >>>>>>> upstream/18.0
+=======
+from odoo.exceptions import UserError
+from odoo.fields import Command, Date, Datetime
+>>>>>>> upstream/18.0
 from odoo.tools import mute_logger
 from odoo.tests import Form, tagged
 from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 from odoo.addons.stock_account.tests.test_stockvaluation import _create_accounting_data
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -907,6 +913,8 @@ from odoo import Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1436,7 +1444,10 @@ class TestAngloSaxonValuationPurchaseMRP(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1614,6 +1625,9 @@ class TestAngloSaxonValuationPurchaseMRP(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1735,6 +1749,7 @@ class TestAngloSaxonValuationPurchaseMRP(AccountTestInvoicingCommon):
         manufacturing_order.move_raw_ids.quantity = 1
 
         self.assertEqual(self.product_a.standard_price, 100)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2388,6 +2403,8 @@ class TestAngloSaxonValuationPurchaseMRP(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
     def test_kit_valuation_no_pull(self):
         """ When selling a kit without ever moving it using a Pull rule, ensure that
@@ -2632,6 +2649,7 @@ class TestAngloSaxonValuationPurchaseMRP(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2770,6 +2788,8 @@ class TestAngloSaxonValuationPurchaseMRP(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2934,7 +2954,11 @@ class TestAngloSaxonValuationPurchaseMRP(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         components = component01, component02, component03, component04, component05 = self.env['product.product'].create([{
+=======
+        component01, component02, component03, component04, component05 = self.env['product.product'].create([{
+>>>>>>> upstream/18.0
 =======
         component01, component02, component03, component04, component05 = self.env['product.product'].create([{
 >>>>>>> upstream/18.0
@@ -3070,6 +3094,7 @@ class TestAngloSaxonValuationPurchaseMRP(AccountTestInvoicingCommon):
         #   1.0 * 0.6 * 0.5 * 0.5 (0%) = 0.15 -> 15%
         #   1.0 * 0.2 * 0.5 (0%) = 0.1 -> 10%
         #   1.0 * 0.0 * 1.0 = 0.0 -> 0%
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3411,6 +3436,8 @@ class TestAngloSaxonValuationPurchaseMRP(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         moves = purchase_order.order_line.move_ids.sorted('cost_share')
         cost_share_values = moves.mapped('cost_share')
         self.assertEqual(sum(cost_share_values), 100.0)
@@ -3442,6 +3469,9 @@ class TestAngloSaxonValuationPurchaseMRP(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3733,6 +3763,7 @@ class TestAngloSaxonValuationPurchaseMRP(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3819,6 +3850,8 @@ class TestAngloSaxonValuationPurchaseMRP(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3906,6 +3939,9 @@ class TestAngloSaxonValuationPurchaseMRP(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

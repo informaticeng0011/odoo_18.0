@@ -195,6 +195,10 @@ import json
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from importlib import metadata
+>>>>>>> upstream/18.0
 =======
 from importlib import metadata
 >>>>>>> upstream/18.0
@@ -985,12 +989,16 @@ from .test_common import TestHttpBase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 try:
     from importlib import metadata
     werkzeug_version = metadata.version('werkzeug')
 except ImportError:
     import werkzeug
     werkzeug_version = werkzeug.__version__
+=======
+werkzeug_version = metadata.version('werkzeug')
+>>>>>>> upstream/18.0
 =======
 werkzeug_version = metadata.version('werkzeug')
 >>>>>>> upstream/18.0
@@ -1715,7 +1723,11 @@ class TestHttpCors(TestHttpBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(res_opt.headers.get('Access-Control-Allow-Headers'), 'Origin, X-Requested-With, Content-Type, Accept, Authorization')
+=======
+        self.assertEqual(res_opt.headers.get('Access-Control-Allow-Headers'), 'Origin, X-Requested-With, Content-Type, Accept, Authorization, Range')
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(res_opt.headers.get('Access-Control-Allow-Headers'), 'Origin, X-Requested-With, Content-Type, Accept, Authorization, Range')
 >>>>>>> upstream/18.0
@@ -1748,7 +1760,11 @@ class TestHttpCors(TestHttpBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(res_opt.headers.get('Access-Control-Allow-Headers'), 'Origin, X-Requested-With, Content-Type, Accept, Authorization')
+=======
+        self.assertEqual(res_opt.headers.get('Access-Control-Allow-Headers'), 'Origin, X-Requested-With, Content-Type, Accept, Authorization, Range')
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(res_opt.headers.get('Access-Control-Allow-Headers'), 'Origin, X-Requested-With, Content-Type, Accept, Authorization, Range')
 >>>>>>> upstream/18.0
@@ -1781,7 +1797,11 @@ class TestHttpCors(TestHttpBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(res_opt.headers.get('Access-Control-Allow-Headers'), 'Origin, X-Requested-With, Content-Type, Accept, Authorization')
+=======
+        self.assertEqual(res_opt.headers.get('Access-Control-Allow-Headers'), 'Origin, X-Requested-With, Content-Type, Accept, Authorization, Range')
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(res_opt.headers.get('Access-Control-Allow-Headers'), 'Origin, X-Requested-With, Content-Type, Accept, Authorization, Range')
 >>>>>>> upstream/18.0

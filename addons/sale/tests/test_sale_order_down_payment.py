@@ -22,11 +22,14 @@ import uuid
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from unittest.mock import patch
 >>>>>>> upstream/18.0
 =======
 from unittest.mock import patch
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -656,12 +659,15 @@ class TestSaleOrderDownPayment(TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         tax_10_fix_a = self.create_tax(10, {'amount_type': 'fixed', 'include_base_amount': True})
         tax_10_fix_b = self.create_tax(10, {'amount_type': 'fixed', 'include_base_amount': True})
         tax_10_fix_c = self.create_tax(10, {'amount_type': 'fixed'})
         tax_10_a = self.tax_10
         tax_10_b = self.create_tax(10)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1341,6 +1347,9 @@ class TestSaleOrderDownPayment(TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1819,6 +1828,7 @@ class TestSaleOrderDownPayment(TestSaleCommon):
             # keys
             ['account_id',               'tax_ids',                 'balance',    'price_total'],
             # base lines
+<<<<<<< HEAD
             [self.revenue_account.id,    (tax_10_a + tax_10_b).ids, -110,         132          ],
             [self.revenue_account.id,    tax_10_b.ids,              -10,          11           ],
             [self.revenue_account.id,    tax_10_a.ids,              -200,         220          ],
@@ -1828,6 +1838,16 @@ class TestSaleOrderDownPayment(TestSaleCommon):
             [self.tax_account.id,        self.env['account.tax'],   -12,          0            ],
             # receivable
             [self.receivable_account.id, self.env['account.tax'],   473,          0            ],
+=======
+            [self.revenue_account.id,    (tax_10_a + tax_10_b).ids, -100,         120          ],
+            [self.revenue_account.id,    tax_10_a.ids,              -200,         220          ],
+            [self.revenue_account.id,    self.env['account.tax'],   -100,         100          ],
+            # taxes
+            [self.tax_account.id,        self.env['account.tax'],   -30,          0            ],
+            [self.tax_account.id,        self.env['account.tax'],   -10,          0            ],
+            # receivable
+            [self.receivable_account.id, self.env['account.tax'],   440,          0            ],
+>>>>>>> upstream/18.0
         ]
         self._assert_invoice_lines_values(invoice.line_ids, expected)
 
@@ -1930,6 +1950,7 @@ class TestSaleOrderDownPayment(TestSaleCommon):
         analytic_plan = self.env['account.analytic.plan'].create({'name': 'Plan Test'})
         an_acc_01 = str(self.env['account.analytic.account'].create({'name': 'Account 01', 'plan_id': analytic_plan.id}).id)
         an_acc_02 = str(self.env['account.analytic.account'].create({'name': 'Account 02', 'plan_id': analytic_plan.id}).id)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2609,6 +2630,8 @@ class TestSaleOrderDownPayment(TestSaleCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         tax_10_fix_a = self.create_tax(10, {'amount_type': 'fixed', 'include_base_amount': True, 'sequence': 1})
         tax_10_fix_b = self.create_tax(10, {'amount_type': 'fixed', 'include_base_amount': True, 'sequence': 3})
         tax_10_fix_c = self.create_tax(10, {'amount_type': 'fixed', 'sequence': 4})
@@ -2840,6 +2863,9 @@ class TestSaleOrderDownPayment(TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3319,6 +3345,7 @@ class TestSaleOrderDownPayment(TestSaleCommon):
             # keys
             ['account_id',               'tax_ids',                 'balance',    'price_total', 'analytic_distribution'],
             # base lines
+<<<<<<< HEAD
             [self.revenue_account.id,    (tax_10_a + tax_10_b).ids, -110,         132,            {an_acc_01: 50, an_acc_02: 50}],
             [self.revenue_account.id,    tax_10_b.ids,              -10,          11,             {an_acc_01: 50, an_acc_02: 50}],
             [self.revenue_account.id,    tax_10_a.ids,              -200,         220,            False                         ],
@@ -3328,6 +3355,16 @@ class TestSaleOrderDownPayment(TestSaleCommon):
             [self.tax_account.id,        self.env['account.tax'],   -12,          0,              False                         ],
             # receivable
             [self.receivable_account.id, self.env['account.tax'],   473,          0,              False                         ],
+=======
+            [self.revenue_account.id,    (tax_10_a + tax_10_b).ids, -100,         120,            {an_acc_01: 50, an_acc_02: 50}],
+            [self.revenue_account.id,    tax_10_a.ids,              -200,         220,            False                         ],
+            [self.revenue_account.id,    self.env['account.tax'],   -100,         100,            False                         ],
+            # taxes
+            [self.tax_account.id,        self.env['account.tax'],   -30,          0,              False                         ],
+            [self.tax_account.id,        self.env['account.tax'],   -10,          0,              False                         ],
+            # receivable
+            [self.receivable_account.id, self.env['account.tax'],   440,          0,              False                         ],
+>>>>>>> upstream/18.0
         ]
         self._assert_invoice_lines_values(invoice.line_ids, expected)
 
@@ -3899,6 +3936,7 @@ class TestSaleOrderDownPayment(TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -3932,6 +3970,8 @@ class TestSaleOrderDownPayment(TestSaleCommon):
             tax_0 = self.env['account.tax'].search([('amount', '=', 0), ('amount_type', '=', 'percent')], limit=1)
             self.assertEqual(sale_order.invoice_ids.line_ids.filtered(lambda l: l.is_downpayment).tax_ids, tax_0)
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

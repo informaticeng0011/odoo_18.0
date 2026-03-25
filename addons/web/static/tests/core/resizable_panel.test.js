@@ -242,10 +242,13 @@ test("handles resize handle at start in fixed position", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(resizablePanelEl).toHaveRect({
         width: 100 + queryRect(".o_resizable_panel_handle").width / 2,
     });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -710,6 +713,9 @@ test("handles resize handle at start in fixed position", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

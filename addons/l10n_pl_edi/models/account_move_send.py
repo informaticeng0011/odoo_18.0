@@ -87,6 +87,7 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         'l10n_pl_edi_session_id': move.company_id.l10n_pl_edi_session_id,
 =======
                         'l10n_pl_edi_session_id': move.company_id.sudo().l10n_pl_edi_session_id,
@@ -128,6 +129,26 @@ class AccountMoveSend(models.AbstractModel):
                     })
                     # Will be linked in _link_invoice_documents
                     invoices_data[move]['l10n_pl_edi_attachment_file'] = xml_content
+=======
+                        'l10n_pl_edi_session_id': move.company_id.sudo().l10n_pl_edi_session_id,
+                        'l10n_pl_edi_header': False,
+                        'l10n_pl_edi_attachment_id': self.env['ir.attachment'].sudo().create({
+                            'description': self.env._('KSeF Sent Invoice XML'),
+                            'name': f"FA3-{move.name.replace('/', '_')}.xml",
+                            'type': 'binary',
+                            'mimetype': 'application/xml',
+                            'raw': xml_content,
+                            'res_id': move.id,
+                            'res_model': move._name,
+                            'res_field': 'l10n_pl_edi_attachment_file',
+                        }).id,
+                    })
+                    move.sudo().with_context(no_new_invoice=True).message_post(
+                        body=self.env._("The KSeF XML has been attached."),
+                        attachment_ids=move.l10n_pl_edi_attachment_id.ids,
+                    )
+                    move.invalidate_recordset(fnames=['l10n_pl_edi_attachment_id', 'l10n_pl_edi_attachment_file'])
+>>>>>>> upstream/18.0
 
                 except Exception as errors:  # noqa: BLE001
                     set_error(move, str(errors))
@@ -138,6 +159,7 @@ class AccountMoveSend(models.AbstractModel):
         # Check the status already
         if moves_by_company:
             self.env.ref('l10n_pl_edi.cron_auto_checks_the_polish_invoice_status')._trigger()
+<<<<<<< HEAD
 
     def _link_invoice_documents(self, invoices_data):
         # EXTENDS 'account'
@@ -164,3 +186,5 @@ class AccountMoveSend(models.AbstractModel):
             'l10n_pl_edi_attachment_id',
             'l10n_pl_edi_attachment_file',
         ])
+=======
+>>>>>>> upstream/18.0

@@ -245,6 +245,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'html_editor',
+>>>>>>> upstream/18.0
 =======
         'html_editor',
 >>>>>>> upstream/18.0
@@ -1355,6 +1359,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'website/static/src/core/errors/beforeunload_error_handler.js',
+>>>>>>> upstream/18.0
 =======
             'website/static/src/core/errors/beforeunload_error_handler.js',
 >>>>>>> upstream/18.0
@@ -2215,7 +2223,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'website/static/src/snippets/observing_cookie_mixin.js',
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2678,6 +2689,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'website/static/src/snippets/observing_cookie_mixin.js',
+            'website/static/src/js/content/generate_video_iframe.js',
+>>>>>>> upstream/18.0
 =======
             'website/static/src/snippets/observing_cookie_mixin.js',
             'website/static/src/js/content/generate_video_iframe.js',
@@ -3445,6 +3461,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            ('remove', 'website/static/src/snippets/observing_cookie_mixin.js'),
+            ('remove', 'website/static/src/js/content/generate_video_iframe.js'),
+>>>>>>> upstream/18.0
 =======
             ('remove', 'website/static/src/snippets/observing_cookie_mixin.js'),
             ('remove', 'website/static/src/js/content/generate_video_iframe.js'),
@@ -4340,6 +4361,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         'web.assets_unit_tests': [
             'website/static/tests/website_html_editor.test.js',
@@ -4921,6 +4943,8 @@
         ],
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5276,6 +5300,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5757,7 +5784,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6461,6 +6491,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7157,6 +7190,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'website/static/src/scss/website.wysiwyg.fonts.scss',
+>>>>>>> upstream/18.0
 =======
             'website/static/src/scss/website.wysiwyg.fonts.scss',
 >>>>>>> upstream/18.0
@@ -8104,7 +8141,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8778,6 +8818,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -2,6 +2,11 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from markupsafe import Markup
+
+>>>>>>> upstream/18.0
 =======
 from markupsafe import Markup
 
@@ -11,6 +16,10 @@ from odoo.addons.im_livechat.tests.chatbot_common import ChatbotCase
 from odoo.addons.website_livechat.tests.common import TestLivechatCommon as TestWebsiteLivechatCommon
 from odoo.addons.im_livechat.tests.common import TestImLivechatCommon
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools import html2plaintext
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import html2plaintext
 >>>>>>> upstream/18.0
@@ -87,15 +96,21 @@ class TestLivechatChatbotUI(TestImLivechatCommon, TestWebsiteLivechatCommon, Cha
             ("How can I help you?", operator, self.step_dispatch_operator),
             ("I want to speak with an operator", False, False),
 <<<<<<< HEAD
+<<<<<<< HEAD
             ("I will transfer you to a human", operator, False),
             (
                 'invited <a href="#" data-oe-model="res.partner" data-oe-id="'
                 f'{operator_member.partner_id.id}">@Operator Michel</a> to the channel',
 =======
+=======
+>>>>>>> upstream/18.0
             ("I will transfer you to a human.", operator, False),
             # Wrap with div to keep html2plaintext output consistent for comparison.
             (
                 f'<div class="o_mail_notification">invited <a href="#" data-oe-model="res.partner" data-oe-id="{operator_member.partner_id.id}">@Operator Michel</a> to the channel</div>',
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 self.chatbot_script.operator_partner_id,
                 False,
@@ -126,7 +141,10 @@ class TestLivechatChatbotUI(TestImLivechatCommon, TestWebsiteLivechatCommon, Cha
                     ], limit=1).user_script_answer_id
                 )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         # History should only include messages after the conversation restart.
         history = livechat_discuss_channel._get_channel_history()
         visitor_partner = conversation_messages.author_id.filtered(lambda p: p != operator)
@@ -134,6 +152,9 @@ class TestLivechatChatbotUI(TestImLivechatCommon, TestWebsiteLivechatCommon, Cha
             Markup("%s: %s<br/>") % (operator.name if operator else visitor_partner.name or livechat_discuss_channel.anonymous_name, html2plaintext(body)) for body, operator, _ in expected_messages[-6:]
         )
         self.assertEqual(history, expected_history)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def test_complete_chatbot_flow_ui(self):

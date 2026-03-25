@@ -58,7 +58,11 @@ class SaleReport(models.Model):
             pos.name AS name,
             pos.date_order AS date,
 <<<<<<< HEAD
+<<<<<<< HEAD
             (CASE WHEN pos.state = 'done' THEN 'sale' ELSE pos.state END) AS state,
+=======
+            pos.state AS state,
+>>>>>>> upstream/18.0
 =======
             pos.state AS state,
 >>>>>>> upstream/18.0

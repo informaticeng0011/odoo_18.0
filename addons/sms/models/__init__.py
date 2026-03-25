@@ -203,6 +203,10 @@ from . import models
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import res_company
+>>>>>>> upstream/18.0
 =======
 from . import res_company
 >>>>>>> upstream/18.0

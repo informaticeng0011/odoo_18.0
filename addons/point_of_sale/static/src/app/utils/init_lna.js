@@ -30,3 +30,19 @@ export const initLNA = async (notificationService) => {
         notificationService.add(message, { type: "warning" });
     }
 };
+<<<<<<< HEAD
+=======
+
+export function getLNATargetAddressSpace(url) {
+    let hostname;
+    try {
+        hostname = new URL(url).hostname;
+    } catch {
+        hostname = url;
+    }
+    if (hostname === "localhost" || hostname === "127.0.0.1") {
+        return "loopback";
+    }
+    return "local";
+}
+>>>>>>> upstream/18.0

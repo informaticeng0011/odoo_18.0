@@ -199,6 +199,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-09-05 18:40+0000\n"
 =======
 "POT-Creation-Date: 2025-09-12 01:51+0000\n"
@@ -967,6 +968,10 @@ msgstr ""
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2025-09-15 06:06+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+"PO-Revision-Date: 2025-09-15 06:06+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@odoo.com>\n"
 "Language-Team: Korean <https://translate.odoo.com/projects/odoo-18/"
 "sms_twilio/ko/>\n"
@@ -984,6 +989,7 @@ msgid "%(failure_type)s: %(failure_reason)s"
 msgstr "%(failure_type)s: %(failure_reason)s"
 
 #. module: sms_twilio
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1568,6 +1574,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
 msgid "'To' and 'From' numbers cannot be the same"
@@ -1763,6 +1771,9 @@ msgstr "'발신자' 번호와 ‘수신자’ 번호는 동일할 수 없습니�
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2341,6 +2352,7 @@ msgstr "+1 555-123-4567"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "A 'To' phone number is required."
 msgstr "'받는 사람' 전화번호가 있어야 합니다."
 =======
@@ -2350,6 +2362,10 @@ msgstr ""
 =======
 msgid "A 'To' phone number is required"
 msgstr ""
+>>>>>>> upstream/18.0
+=======
+msgid "A 'To' phone number is required"
+msgstr "'받는 사람' 전화번호가 있어야 합니다"
 >>>>>>> upstream/18.0
 =======
 msgid "A 'To' phone number is required"
@@ -3328,6 +3344,10 @@ msgstr "인증 토큰"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:sms_twilio.selection__mail_notification__failure_type__twilio_authentication
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields.selection,name:sms_twilio.selection__mail_notification__failure_type__twilio_authentication
 >>>>>>> upstream/18.0
@@ -4177,7 +4197,10 @@ msgstr "실패 유형"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4758,12 +4781,18 @@ msgid "From / To identic"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: sms_twilio
 <<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "발신자 / 수신자 동일"
+
+#. module: sms_twilio
 >>>>>>> upstream/18.0
 =======
 msgstr "발신자 / 수신자 동일"
@@ -5913,6 +5942,10 @@ msgstr "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:sms_twilio.selection__mail_notification__failure_type__twilio_callback
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields.selection,name:sms_twilio.selection__mail_notification__failure_type__twilio_callback
 >>>>>>> upstream/18.0
@@ -6727,7 +6760,10 @@ msgstr "Twilio SMS 관리"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7308,12 +7344,18 @@ msgid "Missing From Number"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: sms_twilio
 <<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "발신자 번호 누락"
+
+#. module: sms_twilio
 >>>>>>> upstream/18.0
 =======
 msgstr "발신자 번호 누락"
@@ -8464,8 +8506,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <i class=\"fa fa-external-link\" aria-hidden="
 "\"true\"/>"
+=======
+"                            <i class=\"fa fa-external-link\" aria-"
+"hidden=\"true\"/>"
+>>>>>>> upstream/18.0
 =======
 "                            <i class=\"fa fa-external-link\" aria-"
 "hidden=\"true\"/>"
@@ -9514,6 +9561,7 @@ msgstr "SMS가 %s부터 발송되었습니다"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "The number you're trying to reach is not correctly formatted."
 msgstr "연락 번호 형식이 올바르지 않습니다."
 =======
@@ -9523,6 +9571,10 @@ msgstr ""
 =======
 msgid "The number you're trying to reach is not correctly formatted"
 msgstr ""
+>>>>>>> upstream/18.0
+=======
+msgid "The number you're trying to reach is not correctly formatted"
+msgstr "수신자 번호 형식이 올바르지 않습니다"
 >>>>>>> upstream/18.0
 =======
 msgid "The number you're trying to reach is not correctly formatted"
@@ -10486,11 +10538,16 @@ msgstr "Odoo에서 전송한 테스트 SMS입니다"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
 msgid "Trial Account Limitation"
 msgstr ""
+=======
+msgid "Trial Account Limitation"
+msgstr "체험 계정 한도"
+>>>>>>> upstream/18.0
 =======
 msgid "Trial Account Limitation"
 msgstr "체험 계정 한도"
@@ -11446,6 +11503,9 @@ msgstr "체험 계정 한도"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12066,6 +12126,7 @@ msgstr "전송 중 알 수 없는 오류가 발생했습니다. Odoo 고객 지�
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -12080,6 +12141,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12653,6 +12716,9 @@ msgstr "테스트용 계정 미확인 수신자"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13233,7 +13299,10 @@ msgstr "abcde12345abcde12345abcde12345ab"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13813,6 +13882,9 @@ msgstr "abcde12345abcde12345abcde12345ab"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14403,6 +14475,7 @@ msgstr "abcde12345abcde12345abcde12345ab"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #~ msgid "Failure type"
 #~ msgstr "실패 유형"
 
@@ -14412,6 +14485,11 @@ msgstr "abcde12345abcde12345abcde12345ab"
 #~ msgid "Message Notifications"
 #~ msgstr "메시지 알림"
 
+=======
+#~ msgid "Manage Twilio Connection"
+#~ msgstr "Twilio 연결 관리"
+
+>>>>>>> upstream/18.0
 =======
 #~ msgid "Manage Twilio Connection"
 #~ msgstr "Twilio 연결 관리"
