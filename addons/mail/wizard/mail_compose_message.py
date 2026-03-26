@@ -60,8 +60,14 @@ class MailComposer(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self.env.context.get('default_subtype_xmlid'):
             self = self.with_context(
+=======
+        composer = self
+        if self.env.context.get('default_subtype_xmlid'):
+            composer = composer.with_context(
+>>>>>>> upstream/18.0
 =======
         composer = self
         if self.env.context.get('default_subtype_xmlid'):
@@ -111,9 +117,12 @@ class MailComposer(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         result = super().default_get(fields_list)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -143,6 +152,9 @@ class MailComposer(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1066,6 +1078,10 @@ class MailComposer(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        counter_mails_done = 0
+>>>>>>> upstream/18.0
 =======
         counter_mails_done = 0
 >>>>>>> upstream/18.0
@@ -1948,6 +1964,12 @@ class MailComposer(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                counter_mails_done += len(res_ids_values)
+                self.env['ir.cron']._notify_progress(done=counter_mails_done,
+                                                      remaining=len(res_ids) - counter_mails_done)
+>>>>>>> upstream/18.0
 =======
                 counter_mails_done += len(res_ids_values)
                 self.env['ir.cron']._notify_progress(done=counter_mails_done,
@@ -3354,8 +3376,11 @@ class MailComposer(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     {'model': 'mail.message', 'res_id': 0}
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3438,6 +3463,9 @@ class MailComposer(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -389,11 +389,14 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for move in sorted_moves:
             if move.warehouse_id.id not in seen_wh_ids:
                 triggering_rule_ids.append(move.rule_id.id)
                 seen_wh_ids.add(move.warehouse_id.id)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1186,6 +1189,9 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1938,7 +1944,11 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if bom:
+=======
+        if bom and self.move_ids:
+>>>>>>> upstream/18.0
 =======
         if bom and self.move_ids:
 >>>>>>> upstream/18.0
@@ -2781,6 +2791,11 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        elif bom and previous_product_uom_qty:
+            return previous_product_uom_qty.get(self.id)
+>>>>>>> upstream/18.0
 =======
         elif bom and previous_product_uom_qty:
             return previous_product_uom_qty.get(self.id)

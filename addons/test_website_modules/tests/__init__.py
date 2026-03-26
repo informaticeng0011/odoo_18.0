@@ -3,3 +3,7 @@
 
 from . import test_configurator
 from . import test_controllers
+<<<<<<< HEAD
+=======
+from . import test_models
+>>>>>>> upstream/18.0

@@ -268,6 +268,7 @@ export function OrderButtonNotContain(data) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -696,6 +697,23 @@ export function OrderButtonNotContain(data) {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+export function OrderButtonCategoryQty(category, qty) {
+    return [
+        {
+            isActive: ["desktop"],
+            content: "Check quantity for category on order button",
+            trigger: `.product-screen .submit-order div:contains("${category}") label:contains("${qty}")`,
+        },
+        {
+            isActive: ["mobile"],
+            content: "Check total quantity order button",
+            trigger: `.btn-switchpane.pay-button small:contains("${qty}")`,
+        },
+    ];
+}
 >>>>>>> upstream/18.0
 
 export function bookOrReleaseTable() {
@@ -921,6 +939,7 @@ export function bookOrReleaseTable() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1295,6 +1314,8 @@ export function bookOrReleaseTable() {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1387,6 +1408,9 @@ export function clickBookTable() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

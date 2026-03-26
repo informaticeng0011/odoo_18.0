@@ -21,6 +21,10 @@ from . import res_users
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import resource_calendar_leaves
+>>>>>>> upstream/18.0
 =======
 from . import resource_calendar_leaves
 >>>>>>> upstream/18.0

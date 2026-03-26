@@ -232,11 +232,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { defineModels, fields, models, mountView, onRpc } from "@web/../tests/web_test_helpers";
 import { expect, test } from "@odoo/hoot";
 import { animationFrame } from "@odoo/hoot-mock";
 import { click, queryFirst } from "@odoo/hoot-dom";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -947,6 +950,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1723,7 +1729,11 @@ test("HandleField with falsy values", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o_row_handle:visible").toHaveCount(Partner._records.length, {
+=======
+    expect(".o_row_handle:visible").toHaveCount(MockServer.env["partner"].length, {
+>>>>>>> upstream/18.0
 =======
     expect(".o_row_handle:visible").toHaveCount(MockServer.env["partner"].length, {
 >>>>>>> upstream/18.0

@@ -3,6 +3,11 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from markupsafe import Markup
+
+>>>>>>> upstream/18.0
 =======
 from markupsafe import Markup
 
@@ -17,6 +22,10 @@ from odoo.addons.website_livechat.tests.common import TestLivechatCommon as Test
 from odoo.addons.im_livechat.tests.common import TestImLivechatCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools import html2plaintext
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import html2plaintext
 >>>>>>> upstream/18.0
@@ -97,6 +106,7 @@ class TestLivechatChatbotUI(TestImLivechatCommon, TestWebsiteLivechatCommon, Cha
             ("I want to speak with an operator", False, False),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ("I will transfer you to a human", operator, False),
             (
                 'invited <a href="#" data-oe-model="res.partner" data-oe-id="'
@@ -104,11 +114,16 @@ class TestLivechatChatbotUI(TestImLivechatCommon, TestWebsiteLivechatCommon, Cha
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             ("I will transfer you to a human.", operator, False),
             # Wrap with div to keep html2plaintext output consistent for comparison.
             (
                 f'<div class="o_mail_notification">invited <a href="#" data-oe-model="res.partner" data-oe-id="{operator_member.partner_id.id}">@Operator Michel</a> to the channel</div>',
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -142,7 +157,10 @@ class TestLivechatChatbotUI(TestImLivechatCommon, TestWebsiteLivechatCommon, Cha
                 )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         # History should only include messages after the conversation restart.
@@ -153,6 +171,9 @@ class TestLivechatChatbotUI(TestImLivechatCommon, TestWebsiteLivechatCommon, Cha
         )
         self.assertEqual(history, expected_history)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

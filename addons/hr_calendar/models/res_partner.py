@@ -329,6 +329,10 @@ class Partner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                calendar = calendar or self.env.company.resource_calendar_id  # No calendar if fully flexible
+>>>>>>> upstream/18.0
 =======
                 calendar = calendar or self.env.company.resource_calendar_id  # No calendar if fully flexible
 >>>>>>> upstream/18.0
@@ -1441,7 +1445,10 @@ class Partner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             calendar = calendar or self.env.company.resource_calendar_id # No calendar if fully flexible
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

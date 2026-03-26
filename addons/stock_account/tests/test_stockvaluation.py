@@ -2132,7 +2132,10 @@ class TestStockValuation(TestStockValuationBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2666,6 +2669,9 @@ class TestStockValuation(TestStockValuationBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3503,7 +3509,11 @@ class TestStockValuation(TestStockValuationBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertAlmostEqual(self.product1.standard_price, 16.67)
+=======
+        self.assertAlmostEqual(self.product1.standard_price, 16.6666667)
+>>>>>>> upstream/18.0
 =======
         self.assertAlmostEqual(self.product1.standard_price, 16.6666667)
 >>>>>>> upstream/18.0
@@ -4426,6 +4436,7 @@ class TestStockValuation(TestStockValuationBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 {'account_id': self.stock_input_account.id, 'debit': 240, 'credit': 0},
                 {'account_id': self.stock_valuation_account.id, 'debit': 0, 'credit': 240},
                 {'account_id': self.stock_valuation_account.id, 'debit': 239.97, 'credit': 0},
@@ -4435,6 +4446,8 @@ class TestStockValuation(TestStockValuationBase):
 
         self.assertEqual(self.product1.standard_price, 12.63)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4620,6 +4633,9 @@ class TestStockValuation(TestStockValuationBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4876,6 +4892,7 @@ class TestStockValuation(TestStockValuationBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 {'account_id': self.stock_valuation_account.id, 'debit': 239.97, 'credit': 0},
                 {'account_id': self.stock_input_account.id, 'debit': 0, 'credit': 239.97},
             ]
@@ -4883,6 +4900,8 @@ class TestStockValuation(TestStockValuationBase):
 
         self.assertEqual(self.product1.standard_price, 12.63)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5066,6 +5085,9 @@ class TestStockValuation(TestStockValuationBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6648,7 +6670,10 @@ class TestStockValuation(TestStockValuationBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7509,6 +7534,7 @@ class TestStockValuation(TestStockValuationBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8051,4 +8077,52 @@ class TestStockValuation(TestStockValuationBase):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_transit_move_does_not_change_valuation(self):
+        category = self.env['product.category'].create({
+            'name': 'Test Category',
+            'property_cost_method': 'fifo',
+            'property_valuation': 'real_time',
+        })
+        product = self.env['product.product'].create({
+            'name': 'Transit Valuation Product',
+            'is_storable': True,
+            'categ_id': category.id,
+        })
+        transit_location = self.env['stock.location'].create({
+            'name': 'Test Transit Location',
+            'usage': 'transit',
+        })
+
+        self._make_in_move(product, 100, unit_cost=10)
+        self._make_out_move(product, 10)
+
+        initial_value = product.total_value
+        self.assertEqual(initial_value, 900)
+        self.assertEqual(product.qty_available, 90)
+
+        move_internal = self.env['stock.move'].create({
+            'name': 'Stock → Transit',
+            'product_id': product.id,
+            'product_uom_qty': 20,
+            'product_uom': product.uom_id.id,
+            'location_id': self.env.ref('stock.stock_location_stock').id,
+            'location_dest_id': transit_location.id,
+        })
+        move_internal._action_confirm()
+        move_internal._action_assign()
+        move_internal.move_line_ids.quantity = 20
+        move_internal.picked = True
+        move_internal._action_done()
+
+        self.assertEqual(product.qty_available, 70)
+        product._compute_value_svl()
+
+        self.assertEqual(
+            product.total_value,
+            initial_value,
+            "Valuation should not change when moving to transit location"
+        )
 >>>>>>> upstream/18.0

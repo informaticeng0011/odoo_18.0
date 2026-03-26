@@ -86,6 +86,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    stepAllNetworkCalls,
+>>>>>>> upstream/18.0
 =======
     stepAllNetworkCalls,
 >>>>>>> upstream/18.0
@@ -422,7 +426,11 @@ class Color extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <field name="hex_color" widget="color" />
+=======
+                    <field name="hex_color" widget="color"/>
+>>>>>>> upstream/18.0
 =======
                     <field name="hex_color" widget="color"/>
 >>>>>>> upstream/18.0
@@ -848,7 +856,10 @@ test("color field change via anoter field's onchange", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1150,6 +1161,9 @@ test(`color field in list view => no save if autosave is false`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

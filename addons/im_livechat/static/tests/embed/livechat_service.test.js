@@ -33,7 +33,11 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { describe, test } from "@odoo/hoot";
+=======
+import { describe, expect, test } from "@odoo/hoot";
+>>>>>>> upstream/18.0
 =======
 import { describe, expect, test } from "@odoo/hoot";
 >>>>>>> upstream/18.0
@@ -162,6 +166,10 @@ import { Command, mountWithCleanup, serverState } from "@web/../tests/web_test_h
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { Deferred } from "@odoo/hoot-dom";
+>>>>>>> upstream/18.0
 =======
 import { Deferred } from "@odoo/hoot-dom";
 >>>>>>> upstream/18.0
@@ -397,7 +405,10 @@ test("Only necessary requests are made when creating a new chat", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -517,6 +528,9 @@ test("Only create one channel when posting multiple messages", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

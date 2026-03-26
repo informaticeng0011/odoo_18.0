@@ -97,7 +97,11 @@ class SupplierInfo(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'Price', default=0.0, digits='Product Price',
+=======
+        'Price', default=0.0, min_display_digits='Product Price',
+>>>>>>> upstream/18.0
 =======
         'Price', default=0.0, min_display_digits='Product Price',
 >>>>>>> upstream/18.0

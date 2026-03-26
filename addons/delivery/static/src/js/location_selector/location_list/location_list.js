@@ -68,7 +68,11 @@ export class LocationList extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             document.getElementById(`location-${this.props.selectedLocationId}`).focus();
+=======
+            document.getElementById(`location-${this.props.selectedLocationId}`)?.focus();
+>>>>>>> upstream/18.0
 =======
             document.getElementById(`location-${this.props.selectedLocationId}`)?.focus();
 >>>>>>> upstream/18.0

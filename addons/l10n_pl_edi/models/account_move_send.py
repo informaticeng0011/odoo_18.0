@@ -88,6 +88,7 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         'l10n_pl_edi_session_id': move.company_id.l10n_pl_edi_session_id,
 =======
                         'l10n_pl_edi_session_id': move.company_id.sudo().l10n_pl_edi_session_id,
@@ -130,6 +131,8 @@ class AccountMoveSend(models.AbstractModel):
                     # Will be linked in _link_invoice_documents
                     invoices_data[move]['l10n_pl_edi_attachment_file'] = xml_content
 =======
+=======
+>>>>>>> upstream/18.0
                         'l10n_pl_edi_session_id': move.company_id.sudo().l10n_pl_edi_session_id,
                         'l10n_pl_edi_header': False,
                         'l10n_pl_edi_attachment_id': self.env['ir.attachment'].sudo().create({
@@ -148,6 +151,9 @@ class AccountMoveSend(models.AbstractModel):
                         attachment_ids=move.l10n_pl_edi_attachment_id.ids,
                     )
                     move.invalidate_recordset(fnames=['l10n_pl_edi_attachment_id', 'l10n_pl_edi_attachment_file'])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
                 except Exception as errors:  # noqa: BLE001
@@ -159,6 +165,7 @@ class AccountMoveSend(models.AbstractModel):
         # Check the status already
         if moves_by_company:
             self.env.ref('l10n_pl_edi.cron_auto_checks_the_polish_invoice_status')._trigger()
+<<<<<<< HEAD
 <<<<<<< HEAD
 
     def _link_invoice_documents(self, invoices_data):
@@ -186,5 +193,7 @@ class AccountMoveSend(models.AbstractModel):
             'l10n_pl_edi_attachment_id',
             'l10n_pl_edi_attachment_file',
         ])
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

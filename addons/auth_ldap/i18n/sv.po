@@ -18,8 +18,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* auth_ldap
 # 
+=======
+# * auth_ldap
+#
+>>>>>>> upstream/18.0
 =======
 # * auth_ldap
 #
@@ -119,7 +124,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# Hanna Kharraziha <hakha@odoo.com>, 2026.
+>>>>>>> upstream/18.0
 =======
 # Hanna Kharraziha <hakha@odoo.com>, 2026.
 >>>>>>> upstream/18.0
@@ -197,6 +206,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Martin Trigaux, 2024\n"
 "Language-Team: Swedish (https://app.transifex.com/odoo/teams/41243/sv/)\n"
@@ -206,6 +216,8 @@ msgstr ""
 "Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -267,6 +279,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -337,12 +352,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    Filter som används för att söka upp användarkonton i LDAP-databasen. Det är ett godtyckligt LDAP-filter i strängrepresentation. Alla `%s` platshållare kommer att ersättas av inloggningen (identifieraren) som tillhandahålls av användaren, filtret bör innehålla minst en sådan platshållare.\n"
 "\n"
 "    Filtret måste resultera i exakt ett (1) resultat, annars kommer inloggningen att anses vara ogiltig.\n"
 "\n"
 "    Exempel (aktuella attribut beror på LDAP-server och inställningar):\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -403,6 +421,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -470,8 +491,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Skapa automatiskt lokala användarkonton för att nya användare som ska "
 "autentisera via LDAP"
+=======
+"Skapa automatiskt lokala användarkonton för nya användare som autentiseras "
+"via LDAP"
+>>>>>>> upstream/18.0
 =======
 "Skapa automatiskt lokala användarkonton för nya användare som autentiseras "
 "via LDAP"
@@ -604,8 +630,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "DN för användarsökningens omfattning: alla ättlingar till denna bas kommer "
 "att sökas efter användare."
+=======
+"Omfånget för användarens sökning: unika namn för alla användare som skapats "
+"utifrån denna bas."
+>>>>>>> upstream/18.0
 =======
 "Omfånget för användarens sökning: unika namn för alla användare som skapats "
 "utifrån denna bas."
@@ -711,7 +742,11 @@ msgid "LDAP Configuration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "LDAP-konfiguration"
+=======
+msgstr "Konfiguration av LDAP"
+>>>>>>> upstream/18.0
 =======
 msgstr "Konfiguration av LDAP"
 >>>>>>> upstream/18.0
@@ -789,7 +824,11 @@ msgid "LDAP Parameters"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "LDAP-parametrar"
+=======
+msgstr "Parametrar för LDAP"
+>>>>>>> upstream/18.0
 =======
 msgstr "Parametrar för LDAP"
 >>>>>>> upstream/18.0
@@ -876,7 +915,11 @@ msgid "LDAP Server port"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "LDAP serverport"
+=======
+msgstr "LDAP-serverport"
+>>>>>>> upstream/18.0
 =======
 msgstr "LDAP-serverport"
 >>>>>>> upstream/18.0
@@ -963,7 +1006,11 @@ msgid "LDAP filter"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "LDAP-filter"
+=======
+msgstr "Filter för LDAP"
+>>>>>>> upstream/18.0
 =======
 msgstr "Filter för LDAP"
 >>>>>>> upstream/18.0
@@ -1040,7 +1087,11 @@ msgid "LDAP password"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "LDAP-lösenord"
+=======
+msgstr "Lösenord för LDAP"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lösenord för LDAP"
 >>>>>>> upstream/18.0
@@ -1134,8 +1185,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ingen lokal användare hittades för LDAP-inloggning och det är inte "
 "konfigurerat att skapa en"
+=======
+"Ingen lokal användare hittades för inloggning via LDAP och det är inte "
+"möjligt att skapa en ny"
+>>>>>>> upstream/18.0
 =======
 "Ingen lokal användare hittades för inloggning via LDAP och det är inte "
 "möjligt att skapa en ny"
@@ -1239,9 +1295,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Begär säker TLS / SSL-kryptering vid anslutning till LDAP-servern. Det här "
 "alternativet kräver en server med STARTTLS aktiverad, annars kommer alla "
 "autentiseringsförsök att misslyckas."
+=======
+"Ange ett krav på säker TLS/SSL-kryptering när någon ansluter till LDAP-"
+"servern. Det här alternativet gör att en server med STARTTLS aktiverad "
+"krävs, annars kommer alla autentiseringsförsök att misslyckas."
+>>>>>>> upstream/18.0
 =======
 "Ange ett krav på säker TLS/SSL-kryptering när någon ansluter till LDAP-"
 "servern. Det här alternativet gör att en server med STARTTLS aktiverad "
@@ -1364,7 +1426,11 @@ msgid "Setup your LDAP Server"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ställ in din LDAP-server"
+=======
+msgstr "Konfigurera din LDAP-server"
+>>>>>>> upstream/18.0
 =======
 msgstr "Konfigurera din LDAP-server"
 >>>>>>> upstream/18.0
@@ -1441,7 +1507,11 @@ msgid "Template User"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mallanvändare"
+=======
+msgstr "Användarmall"
+>>>>>>> upstream/18.0
 =======
 msgstr "Användarmall"
 >>>>>>> upstream/18.0
@@ -1521,8 +1591,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Lösenordet för användarkontot på LDAP-servern som används för att fråga "
 "katalogen."
+=======
+"Användarkontots lösenord i LDAP-servern som används för att anropa frågan i "
+"registret."
+>>>>>>> upstream/18.0
 =======
 "Användarkontots lösenord i LDAP-servern som används för att anropa frågan i "
 "registret."
@@ -1620,8 +1695,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Lösenordet för användarkontot på LDAP-servern som används för att fråga "
 "katalogen. Lämna blankt för att ansluta anonymt."
+=======
+"Användarkontots lösenord i LDAP-servern som används för att anropa frågan i "
+"registret. Lämnas tom för att ansluta anonymt."
+>>>>>>> upstream/18.0
 =======
 "Användarkontots lösenord i LDAP-servern som används för att anropa frågan i "
 "registret. Lämnas tom för att ansluta anonymt."
@@ -1731,7 +1811,11 @@ msgid "User to copy when creating new users"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Användare att kopiera när nya användare skapas"
+=======
+msgstr "Välj en användare som ska användas som mall när nya användare skapas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Välj en användare som ska användas som mall när nya användare skapas"
 >>>>>>> upstream/18.0

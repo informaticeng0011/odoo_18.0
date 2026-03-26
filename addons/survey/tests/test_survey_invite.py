@@ -9,7 +9,11 @@ from odoo import fields, Command
 from odoo.addons.survey.tests import common
 from odoo.addons.mail.tests.common import MailCommon
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.exceptions import UserError
+=======
+from odoo.exceptions import AccessError, UserError
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import AccessError, UserError
 >>>>>>> upstream/18.0
@@ -331,6 +335,10 @@ class TestSurveyInvite(common.TestSurveyCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertEqual(invite.subject, self.env["mail.template"].browse(invite_form._env.context['default_template_id']).subject)
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(invite.subject, self.env["mail.template"].browse(invite_form._env.context['default_template_id']).subject)
 >>>>>>> upstream/18.0
@@ -1137,7 +1145,10 @@ class TestSurveyInvite(common.TestSurveyCommon, MailCommon):
             ('email_to', '=', 'test_survey_invite_with_template_attachment@odoo.gov')
         ]).attachment_ids, mail_template.attachment_ids)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_survey_invite_mixed_langs(self):
         """ Test that survey invitations are sent in the correct language when recipients have different languages. """
@@ -1235,4 +1246,7 @@ class TestSurveyInvite(common.TestSurveyCommon, MailCommon):
             with self.mock_mail_gateway():
                 invite2.action_invite()
         self.assertEqual(len(self._new_mails), 1)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

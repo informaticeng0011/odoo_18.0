@@ -189,6 +189,10 @@ class PosController(PortalAccount):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        use_lna = bool(pos_session.env["ir.config_parameter"].get_param("point_of_sale.use_lna"))
+>>>>>>> upstream/18.0
 =======
         use_lna = bool(pos_session.env["ir.config_parameter"].get_param("point_of_sale.use_lna"))
 >>>>>>> upstream/18.0
@@ -705,6 +709,10 @@ class PosController(PortalAccount):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'use_lna': use_lna,
+>>>>>>> upstream/18.0
 =======
             'use_lna': use_lna,
 >>>>>>> upstream/18.0
@@ -1215,6 +1223,12 @@ class PosController(PortalAccount):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if not request.env['res.company']._with_locked_records(pos_order, allow_raising=False):
+            return
+
+>>>>>>> upstream/18.0
 =======
         if not request.env['res.company']._with_locked_records(pos_order, allow_raising=False):
             return
@@ -1755,7 +1769,11 @@ class PosController(PortalAccount):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if request.env.user._is_public() and not pos_order.partner_id.id:
+=======
+        if kwargs:
+>>>>>>> upstream/18.0
 =======
         if kwargs:
 >>>>>>> upstream/18.0
@@ -2596,6 +2614,10 @@ class PosController(PortalAccount):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if request.env.user._is_public() and not pos_order.partner_id.id:
+>>>>>>> upstream/18.0
 =======
         if request.env.user._is_public() and not pos_order.partner_id.id:
 >>>>>>> upstream/18.0

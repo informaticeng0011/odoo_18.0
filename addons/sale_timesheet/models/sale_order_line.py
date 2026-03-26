@@ -66,7 +66,11 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with_remaining_hours = self.env.context.get('with_remaining_hours')
+=======
+        with_remaining_hours = self.env.context.get('with_remaining_hours') and not self.env.context.get('skip_remaining_hours', False)
+>>>>>>> upstream/18.0
 =======
         with_remaining_hours = self.env.context.get('with_remaining_hours') and not self.env.context.get('skip_remaining_hours', False)
 >>>>>>> upstream/18.0
@@ -343,7 +347,11 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 remaining_hours = line.product_uom._compute_quantity(qty_left, uom_hour)
+=======
+                remaining_hours = line.product_uom._compute_quantity(qty_left, uom_hour, round=False)
+>>>>>>> upstream/18.0
 =======
                 remaining_hours = line.product_uom._compute_quantity(qty_left, uom_hour, round=False)
 >>>>>>> upstream/18.0
@@ -752,6 +760,7 @@ class SaleOrderLine(models.Model):
         if end_date:
             domain = expression.AND([domain, [('date', '<=', end_date)]])
         mapping = lines_by_timesheet.sudo()._get_delivered_quantity_by_analytic(domain)
+<<<<<<< HEAD
 
         for line in lines_by_timesheet:
             qty_to_invoice = mapping.get(line.id, 0.0)
@@ -870,6 +879,17 @@ class SaleOrderLine(models.Model):
 >>>>>>> upstream/18.0
 =======
                 units_to_invoice = sum(line.timesheet_ids.filtered(lambda ts: start_date <= ts.date <= end_date and not ts.timesheet_invoice_id).mapped('unit_amount'))
+                line.qty_to_invoice = units_to_invoice
+>>>>>>> upstream/18.0
+=======
+        timesheet_uom = self.order_id.timesheet_encode_uom_id
+
+        for line in lines_by_timesheet:
+            qty_to_invoice = mapping.get(line.id, 0.0)
+            is_different_uom_category = line.product_uom.category_id == timesheet_uom.category_id
+            if qty_to_invoice:
+                unit_amount = sum(line.timesheet_ids.filtered(lambda ts: start_date <= ts.date <= end_date and not ts.timesheet_invoice_id).mapped('unit_amount'))
+                units_to_invoice = timesheet_uom._compute_quantity(unit_amount, line.product_uom, rounding_method='HALF-UP') if is_different_uom_category else unit_amount
                 line.qty_to_invoice = units_to_invoice
 >>>>>>> upstream/18.0
             else:

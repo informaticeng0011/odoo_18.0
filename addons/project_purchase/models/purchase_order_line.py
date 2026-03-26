@@ -36,6 +36,7 @@ class PurchaseOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         super()._compute_analytic_distribution()
         ProjectProject = self.env['project.project']
         for line in self:
@@ -603,6 +604,8 @@ class PurchaseOrderLine(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         ctx_project = self.env['project.project'].browse(self.env.context.get('project_id'))
         project_lines = self.filtered(lambda l: not l.display_type and (ctx_project or l.order_id.project_id))
         empty_project_lines = project_lines.filtered(lambda l: not l.analytic_distribution)
@@ -637,6 +640,9 @@ class PurchaseOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -898,6 +904,9 @@ class PurchaseOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

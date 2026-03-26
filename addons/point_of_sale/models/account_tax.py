@@ -12,7 +12,11 @@ class AccountTax(models.Model):
     def write(self, vals):
         forbidden_fields = {
             'amount_type', 'amount', 'type_tax_use', 'tax_group_id', 'price_include',
+<<<<<<< HEAD
             'include_base_amount', 'is_base_affected',
+=======
+            'price_include_override', 'include_base_amount', 'is_base_affected',
+>>>>>>> upstream/18.0
         }
         if forbidden_fields & set(vals.keys()):
             lines = self.env['pos.order.line'].sudo().search([

@@ -220,6 +220,7 @@ describe('Odoo fields', () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             contentAfterEdit: `<p><span data-oe-model="product.template" data-oe-id="27" data-oe-field="name" data-oe-type="char" data-oe-expression="product.name" data-oe-xpath="/t[1]/div[1]/h3[2]/span[1]" class="o_editable" data-oe-zws-empty-inline="">[]\u200b</span><br></p>`,
             contentAfter: `<p><span data-oe-model="product.template" data-oe-id="27" data-oe-field="name" data-oe-type="char" data-oe-expression="product.name" data-oe-xpath="/t[1]/div[1]/h3[2]/span[1]" class="o_editable">[]</span><br></p>`,
         });
@@ -368,6 +369,8 @@ describe('Odoo fields', () => {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -954,6 +957,9 @@ describe('Odoo fields', () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1604,6 +1610,9 @@ describe('Odoo fields', () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
