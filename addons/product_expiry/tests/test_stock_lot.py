@@ -519,7 +519,10 @@ class TestStockLot(TestStockCommon):
         the latter should be applied on the SML
         """
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         self.apple_product.use_expiration_date = False
         # Create a lot without expiration date to be sure that the date applied on the SML is the one of the lot and not a default one
         lot_without_expiration = self.env['stock.lot'].create({
@@ -528,6 +531,9 @@ class TestStockLot(TestStockCommon):
         })
         self.assertFalse(lot_without_expiration.expiration_date)
         self.apple_product.use_expiration_date = True
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         exp_date = fields.Datetime.today() + relativedelta(days=15)
         sml_exp_date = fields.Datetime.today() + relativedelta(days=10)
@@ -560,6 +566,11 @@ class TestStockLot(TestStockCommon):
         sml.lot_id = lot
         self.assertEqual(sml.expiration_date, exp_date)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        sml.lot_id = lot_without_expiration
+        self.assertFalse(sml.expiration_date)
+>>>>>>> upstream/18.0
 =======
         sml.lot_id = lot_without_expiration
         self.assertFalse(sml.expiration_date)
@@ -914,7 +925,10 @@ class TestStockLot(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1656,6 +1670,9 @@ class TestStockLot(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

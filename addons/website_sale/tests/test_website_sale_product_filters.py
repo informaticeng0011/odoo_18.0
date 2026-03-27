@@ -1,15 +1,21 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import Command
 from odoo.tests import tagged
 =======
+=======
+>>>>>>> upstream/18.0
 import json
 from datetime import datetime, timedelta
 from freezegun import freeze_time
 from lxml import html
 from odoo import Command, fields
 from odoo.tests import tagged, HttpCase
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 from odoo.addons.sale.tests.test_sale_product_attribute_value_config import (
@@ -21,7 +27,11 @@ from odoo.addons.website_sale.tests.common import WebsiteSaleCommon
 
 @tagged('post_install', '-at_install')
 <<<<<<< HEAD
+<<<<<<< HEAD
 class TestWebsiteSaleProductFilters(WebsiteSaleCommon, TestSaleProductAttributeValueCommon):
+=======
+class TestWebsiteSaleProductFilters(WebsiteSaleCommon, TestSaleProductAttributeValueCommon, HttpCase):
+>>>>>>> upstream/18.0
 =======
 class TestWebsiteSaleProductFilters(WebsiteSaleCommon, TestSaleProductAttributeValueCommon, HttpCase):
 >>>>>>> upstream/18.0
@@ -110,7 +120,10 @@ class TestWebsiteSaleProductFilters(WebsiteSaleCommon, TestSaleProductAttributeV
         cls.env['product.template'].search([('id', 'not in', cls.product_tmpls.ids)]).active = False
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def assert_snippet_filters_route_public_access(self, filter, products, **kwargs):
         """Assert the access as a public user to the data returned by the route /website/snippet/filters"""
 
@@ -145,6 +158,9 @@ class TestWebsiteSaleProductFilters(WebsiteSaleCommon, TestSaleProductAttributeV
             self.assertIn('You do not have enough rights to access the fields "standard_price"', logs.output[0])
             self.assertTrue(result.get('error'))
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_latest_sold_filter(self):
         """Check the latest sold filter after selling 1 computer and 3 different cases.
@@ -205,12 +221,18 @@ class TestWebsiteSaleProductFilters(WebsiteSaleCommon, TestSaleProductAttributeV
             )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         self.assert_snippet_filters_route_public_access(
             dyn_filter,
             computer + self.black_case_M + self.pink_case_M + self.pink_case_L
         )
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_latest_viewed_filter(self):
         """Check the latest viewed filter after viewing 2 different cases and 1 computer.
@@ -247,7 +269,10 @@ class TestWebsiteSaleProductFilters(WebsiteSaleCommon, TestSaleProductAttributeV
             )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         now = datetime.now()
         for i, product in enumerate(viewed_products):
             with freeze_time(now - timedelta(seconds=i)):
@@ -259,6 +284,9 @@ class TestWebsiteSaleProductFilters(WebsiteSaleCommon, TestSaleProductAttributeV
 
         self.assert_snippet_filters_route_public_access(dyn_filter, viewed_products)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_recently_sold_with_filter(self):
         """Check the recently-sold-with filter after selling 1 computer, 1 monitor & 1 case.
@@ -300,13 +328,19 @@ class TestWebsiteSaleProductFilters(WebsiteSaleCommon, TestSaleProductAttributeV
             )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         self.assert_snippet_filters_route_public_access(
             dyn_filter,
             self.pink_case_L + monitor,
             productTemplateId=str(self.computer.id)
         )
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_accessories_filter(self):
         """Check the accessories filter on the computer product.
@@ -337,13 +371,19 @@ class TestWebsiteSaleProductFilters(WebsiteSaleCommon, TestSaleProductAttributeV
             )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         self.assert_snippet_filters_route_public_access(
             dyn_filter,
             self.computer_case.product_variant_ids[:16],
             productTemplateId=str(self.computer.id)
         )
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_alternative_products_filter(self):
         """Check the alternative products filter on the Mac product.
@@ -374,13 +414,19 @@ class TestWebsiteSaleProductFilters(WebsiteSaleCommon, TestSaleProductAttributeV
             )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         self.assert_snippet_filters_route_public_access(
             dyn_filter,
             self.mac.alternative_product_ids.product_variant_ids[:16],
             productTemplateId=str(self.mac.id)
         )
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_newest_products_filter(self):
         """Check the newest products filter.
@@ -416,7 +462,10 @@ class TestWebsiteSaleProductFilters(WebsiteSaleCommon, TestSaleProductAttributeV
                 "When displaying newest product templates, 16 unique templates should be shown",
             )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
         products = self.computer_case.product_variant_ids[:16]
         now = datetime.now()
@@ -426,4 +475,7 @@ class TestWebsiteSaleProductFilters(WebsiteSaleCommon, TestSaleProductAttributeV
                 (fields.Datetime.to_string(now + timedelta(seconds=i)), product.id)
             )
         self.assert_snippet_filters_route_public_access(dyn_filter, products.sorted(reverse=True))
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

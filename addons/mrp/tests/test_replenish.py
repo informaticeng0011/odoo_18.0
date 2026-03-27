@@ -387,7 +387,10 @@ class TestMrpReplenish(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1223,6 +1226,9 @@ class TestMrpReplenish(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1988,7 +1994,10 @@ class TestMrpReplenish(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2650,6 +2659,7 @@ class TestMrpReplenish(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2672,6 +2682,8 @@ class TestMrpReplenish(TestMrpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3263,6 +3275,7 @@ class TestMrpReplenish(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_manuf_lead_time_without_bom(self):
         """
         Test that the manufacturing lead time is correctly applied to a product
@@ -3270,6 +3283,8 @@ class TestMrpReplenish(TestMrpCommon):
         """
         self.env.company.write({'manufacturing_lead': 3.0})
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3772,6 +3787,9 @@ class TestMrpReplenish(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4118,6 +4136,7 @@ class TestMrpReplenish(TestMrpCommon):
             'product_min_qty': 0,
             'product_max_qty': 5,
         })
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4746,6 +4765,8 @@ class TestMrpReplenish(TestMrpCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         self.assertEqual(orderpoint.lead_days_date, fields.Date.today() + timedelta(days=365))
 
     def test_orderpoint_with_kit_bom_in_another_company(self):
@@ -4883,6 +4904,9 @@ class TestMrpReplenish(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

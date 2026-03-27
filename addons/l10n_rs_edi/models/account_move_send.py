@@ -44,6 +44,7 @@ class AccountMoveSend(models.AbstractModel):
                 continue
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             invoice_data['l10n_rs_edi_attachment_values'] = invoice._l10n_rs_edi_get_attachment_values(xml)
 
             if self._can_commit():
@@ -65,6 +66,8 @@ class AccountMoveSend(models.AbstractModel):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             attachment_values = invoice._l10n_rs_edi_get_attachment_values(xml)
             self.env['ir.attachment'].with_user(SUPERUSER_ID).create(attachment_values)
             invoice.invalidate_recordset(fnames=['l10n_rs_edi_attachment_id', 'l10n_rs_edi_attachment_file'])
@@ -72,6 +75,9 @@ class AccountMoveSend(models.AbstractModel):
             if self._can_commit():
                 self.env.cr.commit()
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

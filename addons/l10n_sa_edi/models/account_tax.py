@@ -4,7 +4,11 @@ from odoo.exceptions import UserError
 
 EXEMPTION_REASON_CODES = [
     ('VATEX-SA-29', 'VATEX-SA-29 Financial services mentioned in Article 29 of the VAT Regulations.'),
+<<<<<<< HEAD
     ('VATEX-SA-29-7', 'VATEX-SA-29-7 Life insurance services mentioned in Article 29 of the VAT.'),
+=======
+    ('VATEX-SA-29-7', 'VATEX-SA-29-7 Life insurance services mentioned in Article 29 of the VAT Regulations.'),
+>>>>>>> upstream/18.0
     ('VATEX-SA-30', 'VATEX-SA-30 Real estate transactions mentioned in Article 30 of the VAT Regulations.'),
     ('VATEX-SA-32', 'VATEX-SA-32 Export of goods.'),
     ('VATEX-SA-33', 'VATEX-SA-33 Export of Services.'),
@@ -205,7 +209,11 @@ EXEMPTION_REASON_CODES = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ('VATEX-SA-34-2', 'VATEX-SA-34-1 The international transport of Passengers.'),
+=======
+    ('VATEX-SA-34-2', 'VATEX-SA-34-2 The international transport of Passengers.'),
+>>>>>>> upstream/18.0
 =======
     ('VATEX-SA-34-2', 'VATEX-SA-34-2 The international transport of Passengers.'),
 >>>>>>> upstream/18.0

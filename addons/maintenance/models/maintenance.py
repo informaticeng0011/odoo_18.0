@@ -273,7 +273,11 @@ class MaintenanceMixin(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             record.mttr = len(maintenance_requests) and (sum(int((request.close_date - request.request_date).days) for request in maintenance_requests) / len(maintenance_requests)) or 0
+=======
+            record.mttr = len(maintenance_requests) and (sum(int((request.close_date - request.request_date).days) if request.close_date and request.request_date else 0 for request in maintenance_requests) / len(maintenance_requests)) or 0
+>>>>>>> upstream/18.0
 =======
             record.mttr = len(maintenance_requests) and (sum(int((request.close_date - request.request_date).days) if request.close_date and request.request_date else 0 for request in maintenance_requests) / len(maintenance_requests)) or 0
 >>>>>>> upstream/18.0
@@ -1174,7 +1178,11 @@ class MaintenanceTeam(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             team.todo_request_count_high_priority = sum(count for (_, priority, _, count) in data if priority == 3)
+=======
+            team.todo_request_count_high_priority = sum(count for (_, priority, _, count) in data if priority == '3')
+>>>>>>> upstream/18.0
 =======
             team.todo_request_count_high_priority = sum(count for (_, priority, _, count) in data if priority == '3')
 >>>>>>> upstream/18.0

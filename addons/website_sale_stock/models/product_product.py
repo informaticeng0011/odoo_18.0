@@ -82,6 +82,10 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        website = self.env['website'].get_current_website()
+>>>>>>> upstream/18.0
 =======
         website = self.env['website'].get_current_website()
 >>>>>>> upstream/18.0
@@ -206,7 +210,11 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 self_ctxt = self.with_context(lang=partner.lang)
+=======
+                self_ctxt = self.with_context(lang=partner.lang).with_user(website.salesperson_id)
+>>>>>>> upstream/18.0
 =======
                 self_ctxt = self.with_context(lang=partner.lang).with_user(website.salesperson_id)
 >>>>>>> upstream/18.0
@@ -339,6 +347,7 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "email_from": (product.company_id.partner_id or self.env.user).email_formatted,
 =======
                     "email_from": (website.company_id.partner_id or self_ctxt.env.user).email_formatted,
@@ -409,6 +418,8 @@ class ProductProduct(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                     "email_from": (
                         website.company_id.partner_id.email_formatted
                         or website.salesperson_id.email_formatted
@@ -432,6 +443,9 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

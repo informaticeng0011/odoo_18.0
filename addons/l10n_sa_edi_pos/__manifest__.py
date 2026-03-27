@@ -199,7 +199,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'version': '0.1',
+=======
+    'version': '0.2',
+>>>>>>> upstream/18.0
 =======
     'version': '0.2',
 >>>>>>> upstream/18.0
@@ -998,6 +1002,7 @@ E-invoice implementation for Saudi Arabia; Integration with ZATCA (POS)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'l10n_sa_edi_pos/static/src/overrides/**/*.js',
 =======
             'l10n_sa_edi_pos/static/src/**/*',
@@ -1015,6 +1020,8 @@ E-invoice implementation for Saudi Arabia; Integration with ZATCA (POS)
             'l10n_sa_edi_pos/static/src/**/*',
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1589,6 +1596,9 @@ E-invoice implementation for Saudi Arabia; Integration with ZATCA (POS)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

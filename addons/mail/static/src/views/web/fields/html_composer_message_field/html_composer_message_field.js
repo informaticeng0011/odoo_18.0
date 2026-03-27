@@ -234,6 +234,10 @@ import { SIGNATURE_CLASS } from "@html_editor/main/signature_plugin";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { fillEmpty } from "@html_editor/utils/dom";
+>>>>>>> upstream/18.0
 =======
 import { fillEmpty } from "@html_editor/utils/dom";
 >>>>>>> upstream/18.0
@@ -1172,7 +1176,10 @@ export class HtmlComposerMessageField extends HtmlMailField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1868,6 +1875,9 @@ export class HtmlComposerMessageField extends HtmlMailField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2393,7 +2403,10 @@ export class HtmlComposerMessageField extends HtmlMailField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2530,6 +2543,9 @@ export class HtmlComposerMessageField extends HtmlMailField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

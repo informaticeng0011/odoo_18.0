@@ -82,7 +82,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <img class="w-100 h-100 rounded o_object_fit_cover" t-att-src="props.activity.persona.avatarUrl" />
+=======
+                <img class="o-mail-Activity-avatar o_avatar rounded" t-att-src="props.activity.persona.avatarUrl" />
+>>>>>>> upstream/18.0
 =======
                 <img class="o-mail-Activity-avatar o_avatar rounded" t-att-src="props.activity.persona.avatarUrl" />
 >>>>>>> upstream/18.0
@@ -357,7 +361,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <div t-if="props.activity.note" class="o-mail-Activity-note text-break" t-out="props.activity.note"/>
+=======
+            <div t-if="!props.activity.isNoteEmpty" class="o-mail-Activity-note text-break" t-out="props.activity.note"/>
+>>>>>>> upstream/18.0
 =======
             <div t-if="!props.activity.isNoteEmpty" class="o-mail-Activity-note text-break" t-out="props.activity.note"/>
 >>>>>>> upstream/18.0

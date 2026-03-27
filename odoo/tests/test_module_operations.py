@@ -374,6 +374,7 @@ def test_standalone(args):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     # load the registry once for script discovery
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -600,6 +601,10 @@ def test_standalone(args):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+    odoo.service.db._check_faketime_mode(args.database)  # noqa: SLF001
+    # load the registry once for script discovery
 >>>>>>> upstream/18.0
 =======
     odoo.service.db._check_faketime_mode(args.database)  # noqa: SLF001
@@ -1679,7 +1684,11 @@ def test_standalone(args):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     _logger.info("%d standalone scripts executed in %.2fs" % (len(funcs), time.time() - start_time))
+=======
+    _logger.info("%d standalone scripts executed in %.2fs", len(funcs), time.time() - start_time)
+>>>>>>> upstream/18.0
 =======
     _logger.info("%d standalone scripts executed in %.2fs", len(funcs), time.time() - start_time)
 >>>>>>> upstream/18.0
@@ -2769,6 +2778,7 @@ if __name__ == '__main__':
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     config['dbname'] = threading.current_thread().dbname = args.database
 >>>>>>> upstream/18.0
@@ -2993,6 +3003,9 @@ if __name__ == '__main__':
 >>>>>>> upstream/18.0
 =======
     config['dbname'] = threading.current_thread().dbname = args.database
+>>>>>>> upstream/18.0
+=======
+    config['db_name'] = threading.current_thread().dbname = args.database
 >>>>>>> upstream/18.0
 =======
     config['db_name'] = threading.current_thread().dbname = args.database
@@ -3705,8 +3718,13 @@ if __name__ == '__main__':
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         _logger.error("%s tests failed", args.func.__name__[5:])
         raise
+=======
+        _logger.exception("%s tests failed", args.func.__name__[5:])
+        exit(1)
+>>>>>>> upstream/18.0
 =======
         _logger.exception("%s tests failed", args.func.__name__[5:])
         exit(1)

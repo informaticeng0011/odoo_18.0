@@ -281,7 +281,11 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _generate_single_qr_code(self, url):
+=======
+    def __generate_single_qr_code(self, url):
+>>>>>>> upstream/18.0
 =======
     def __generate_single_qr_code(self, url):
 >>>>>>> upstream/18.0
@@ -1061,7 +1065,10 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1613,6 +1620,9 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2184,7 +2194,11 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'image': self._generate_single_qr_code(url_unquote(self.pos_config_id._get_self_order_url(table.id))),
+=======
+                    'image': self.__generate_single_qr_code(url_unquote(self.pos_config_id._get_self_order_url(table.id))),
+>>>>>>> upstream/18.0
 =======
                     'image': self.__generate_single_qr_code(url_unquote(self.pos_config_id._get_self_order_url(table.id))),
 >>>>>>> upstream/18.0
@@ -2973,7 +2987,11 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'image': self._generate_single_qr_code(url_unquote(self.pos_config_id._get_self_order_url())),
+=======
+                'image': self.__generate_single_qr_code(url_unquote(self.pos_config_id._get_self_order_url())),
+>>>>>>> upstream/18.0
 =======
                 'image': self.__generate_single_qr_code(url_unquote(self.pos_config_id._get_self_order_url())),
 >>>>>>> upstream/18.0
@@ -3605,6 +3623,7 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self.pos_self_ordering_mode == 'mobile' and self.pos_module_pos_restaurant:
             table_ids = self.pos_config_id.floor_ids.table_ids
 
@@ -3617,6 +3636,8 @@ class ResConfigSettings(models.TransientModel):
             url = url_unquote(self.pos_config_id._get_self_order_url())
             name = ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3648,6 +3669,9 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

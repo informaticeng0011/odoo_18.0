@@ -208,7 +208,11 @@ from odoo.addons.hr_expense.tests.common import TestExpenseCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.exceptions import RedirectWarning, UserError, ValidationError
+=======
+from odoo.exceptions import UserError, ValidationError
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import UserError, ValidationError
 >>>>>>> upstream/18.0
@@ -1020,7 +1024,11 @@ class TestExpenses(TestExpenseCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             {'balance': -1760.00, 'account_id': default_account_payable_id, 'name': False,                                   'date': date(2021, 10, 31),           'invoice_date': date(2021, 10, 10)},
+=======
+            {'balance': -1760.00, 'account_id': default_account_payable_id, 'name': 'Expense for John Smith',                                   'date': date(2021, 10, 31),           'invoice_date': date(2021, 10, 10)},
+>>>>>>> upstream/18.0
 =======
             {'balance': -1760.00, 'account_id': default_account_payable_id, 'name': 'Expense for John Smith',                                   'date': date(2021, 10, 31),           'invoice_date': date(2021, 10, 10)},
 >>>>>>> upstream/18.0
@@ -2022,7 +2030,10 @@ class TestExpenses(TestExpenseCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2257,6 +2268,9 @@ class TestExpenses(TestExpenseCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2870,6 +2884,7 @@ class TestExpenses(TestExpenseCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_expense_sheet_with_employee_of_no_work_email(self):
         """
         Should raise a RedirectWarning when the selected employee in the sheet doesn't have a work email.
@@ -2888,6 +2903,8 @@ class TestExpenses(TestExpenseCommon):
         with self.assertRaises(RedirectWarning):
             sheet.action_approve_expense_sheets()
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4080,7 +4097,10 @@ class TestExpenses(TestExpenseCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4735,6 +4755,7 @@ class TestExpenses(TestExpenseCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4965,6 +4986,8 @@ class TestExpenses(TestExpenseCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5248,6 +5271,7 @@ class TestExpenses(TestExpenseCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5420,4 +5444,79 @@ class TestExpenses(TestExpenseCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_expense_sheet_branch_company(self):
+        """
+        Test that when an expense is created in a branch company, the company of the sheet and the move
+        associated to the expense is in the branch company.
+        """
+        branch_company = self.setup_other_company(name='Branch', parent_id=self.company_data['company'].id)['company']
+        employee = self.env['hr.employee'].create({
+            'name': 'Employee XYZ',
+            'company_id': branch_company.id,
+        })
+        allowed_companies = branch_company + self.company_data['company']
+        # Create an expense paid by company
+        expense_paid_by_company = self.env['hr.expense'].with_context(allowed_company_ids=allowed_companies.ids).create({
+            'employee_id': employee.id,
+            'name': 'Company expense',
+            'date': self.frozen_today,
+            'payment_mode': 'company_account',
+            'account_id': self.company_data['default_account_expense'].id,
+            'product_id': self.product_c.id,
+            'total_amount_currency': 1000.00,
+            'currency_id': self.company_data['currency'].id,
+            'company_id': branch_company.id,
+        })
+        expense_sheet_company_paid = expense_paid_by_company._create_sheets_from_expense()
+        self.assertEqual(
+            expense_sheet_company_paid.company_id,
+            branch_company,
+            "The expense sheet should be in the Branch company",
+        )
+        expense_sheet_company_paid.action_submit_sheet()
+        expense_sheet_company_paid.action_approve_expense_sheets()
+        expense_sheet_company_paid.action_sheet_move_post()
+
+        payment_move_company = expense_sheet_company_paid.account_move_ids
+        self.assertEqual(
+            payment_move_company.company_id,
+            branch_company,
+            "The journal entry linked to the payment should be in the Branch company",
+        )
+        self.assertEqual(
+            payment_move_company.origin_payment_id.company_id,
+            branch_company,
+            "The payment should also be in the Branch company",
+        )
+        # Create an expense paid by employee
+        expense_paid_by_employee = self.env['hr.expense'].with_context(allowed_company_ids=allowed_companies.ids).create({
+            'employee_id': employee.id,
+            'name': 'Employee expense',
+            'date': self.frozen_today,
+            'payment_mode': 'own_account',
+            'account_id': self.company_data['default_account_expense'].id,
+            'product_id': self.product_c.id,
+            'total_amount_currency': 2000.00,
+            'currency_id': self.company_data['currency'].id,
+            'company_id': branch_company.id,
+        })
+        expense_sheet_employee_paid = expense_paid_by_employee._create_sheets_from_expense()
+        self.assertEqual(
+            expense_sheet_employee_paid.company_id,
+            branch_company,
+            "The expense sheet should be in the Branch company",
+        )
+        expense_sheet_employee_paid.action_submit_sheet()
+        expense_sheet_employee_paid.action_approve_expense_sheets()
+        expense_sheet_employee_paid.action_sheet_move_post()
+
+        bill = expense_sheet_employee_paid.account_move_ids
+        self.assertEqual(
+            bill.company_id,
+            branch_company,
+            "The bill generated by the expense should be in the Branch company",
+        )
 >>>>>>> upstream/18.0

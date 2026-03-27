@@ -6,6 +6,10 @@ from . import bus_presence
 from . import ir_attachment
 from . import ir_http
 from . import ir_model
+<<<<<<< HEAD
+=======
+from . import ir_qweb
+>>>>>>> upstream/18.0
 from . import ir_websocket
 from . import res_groups
 from . import res_users

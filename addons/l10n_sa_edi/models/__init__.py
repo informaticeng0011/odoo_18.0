@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+<<<<<<< HEAD
 from . import account_edi_format
 from . import account_journal
 from . import account_move
@@ -1144,4 +1145,18 @@ from . import ir_attachment
 >>>>>>> upstream/18.0
 =======
 from . import ir_attachment
+>>>>>>> upstream/18.0
+=======
+from . import account_chart_template
+from . import account_edi_format
+from . import account_edi_xml_ubl_21_zatca
+from . import account_journal
+from . import account_move
+from . import account_move_send
+from . import account_tax
+from . import certificate
+from . import ir_attachment
+from . import res_company
+from . import res_config_settings
+from . import res_partner
 >>>>>>> upstream/18.0

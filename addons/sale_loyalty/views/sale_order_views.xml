@@ -30,7 +30,11 @@
             <xpath expr="//list//field[@name='tax_id']" position="attributes">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <attribute name="readonly" add="is_reward_line" separator=" or "/>
+=======
+                <attribute name="readonly" add="is_reward_line and state in ['draft', 'sent']" separator=" or "/>
+>>>>>>> upstream/18.0
 =======
                 <attribute name="readonly" add="is_reward_line and state in ['draft', 'sent']" separator=" or "/>
 >>>>>>> upstream/18.0

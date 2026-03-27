@@ -908,7 +908,10 @@ class TestPoSProductsWithTax(TestPoSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1580,6 +1583,9 @@ class TestPoSProductsWithTax(TestPoSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2040,7 +2046,10 @@ class TestPoSProductsWithTax(TestPoSCommon):
             with Form(self.variant_product.product_tmpl_id) as product:
                 product.type = "combo"
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_tax_change_blocked_when_open_pos_session(self):
         """Changing a POS sale tax must be blocked when a POS session is open"""
@@ -2063,4 +2072,7 @@ class TestPoSProductsWithTax(TestPoSCommon):
             tax.write({
                 'price_include_override': 'tax_included',
             })
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

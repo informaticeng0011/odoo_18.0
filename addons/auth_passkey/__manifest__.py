@@ -219,8 +219,13 @@ When a user logs in with a Passkey, MFA will not be required.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'auth_passkey/static/src/views/*',
             'auth_passkey/static/lib/simplewebauthn.js',
+=======
+            'auth_passkey/static/lib/simplewebauthn.js',
+            'auth_passkey/static/src/views/*',
+>>>>>>> upstream/18.0
 =======
             'auth_passkey/static/lib/simplewebauthn.js',
             'auth_passkey/static/src/views/*',
@@ -1216,6 +1221,12 @@ When a user logs in with a Passkey, MFA will not be required.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'web.assets_tests': [
+            'auth_passkey/static/tests/*.js',
+        ],
+>>>>>>> upstream/18.0
 =======
         'web.assets_tests': [
             'auth_passkey/static/tests/*.js',

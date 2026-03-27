@@ -369,6 +369,10 @@ import base64
 import contextlib
 import fnmatch
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import glob
+>>>>>>> upstream/18.0
 =======
 import glob
 >>>>>>> upstream/18.0
@@ -391,16 +395,22 @@ from itertools import count, chain
 from lxml import etree
 from dateutil.relativedelta import relativedelta
 <<<<<<< HEAD
+<<<<<<< HEAD
 from psycopg2.extensions import TransactionRollbackError
 
 from odoo import api, models, tools
 from odoo.modules import registry
 =======
+=======
+>>>>>>> upstream/18.0
 from os.path import join as opj
 from psycopg2.extensions import TransactionRollbackError
 
 from odoo import api, models, tools
 from odoo.modules import get_module_path, registry
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 from odoo.tools import config, safe_eval, pycompat
 from odoo.tools.constants import SUPPORTED_DEBUGGER, EXTERNAL_ASSET
@@ -408,7 +418,11 @@ from odoo.tools.safe_eval import assert_valid_codeobj, _BUILTINS, to_opcodes, _E
 from odoo.tools.json import scriptsafe
 from odoo.tools.lru import LRU
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools.misc import str2bool
+=======
+from odoo.tools.misc import file_open, str2bool
+>>>>>>> upstream/18.0
 =======
 from odoo.tools.misc import file_open, str2bool
 >>>>>>> upstream/18.0
@@ -637,6 +651,10 @@ _SAFE_QWEB_OPCODES = _EXPR_OPCODES.union(to_opcodes([
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'EXTENDED_ARG',
+>>>>>>> upstream/18.0
 =======
     'EXTENDED_ARG',
 >>>>>>> upstream/18.0
@@ -1415,7 +1433,10 @@ T_CALL_SLOT = '0'
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1834,6 +1855,9 @@ MALICIOUS_SCHEMES = re.compile(r'javascript:(?!( ?)((window\.)?)history\.back\(\
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3129,7 +3153,11 @@ class IrQWeb(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             attrib = self._post_processing_att(el.tag, el.attrib)
+=======
+            attrib = self._post_processing_att(el.tag, {**el.attrib, '__is_static_node': True})
+>>>>>>> upstream/18.0
 =======
             attrib = self._post_processing_att(el.tag, {**el.attrib, '__is_static_node': True})
 >>>>>>> upstream/18.0
@@ -3715,7 +3743,11 @@ class IrQWeb(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             attrib = self._post_processing_att(el.tag, attrib)
+=======
+            attrib = self._post_processing_att(el.tag, {**attrib, '__is_static_node': True})
+>>>>>>> upstream/18.0
 =======
             attrib = self._post_processing_att(el.tag, {**attrib, '__is_static_node': True})
 >>>>>>> upstream/18.0
@@ -4687,7 +4719,11 @@ class IrQWeb(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for item in el:
+=======
+        for item in list(el):
+>>>>>>> upstream/18.0
 =======
         for item in list(el):
 >>>>>>> upstream/18.0
@@ -6090,6 +6126,11 @@ class IrQWeb(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if not atts.pop('__is_static_node', False) and (href := atts.get('href')) and MALICIOUS_SCHEMES(str(href)):
+            atts['href'] = ""
+>>>>>>> upstream/18.0
 =======
         if not atts.pop('__is_static_node', False) and (href := atts.get('href')) and MALICIOUS_SCHEMES(str(href)):
             atts['href'] = ""
@@ -6894,13 +6935,19 @@ class IrQWeb(models.AbstractModel):
         Returns the list of bundles to pregenerate.
         """
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+>>>>>>> upstream/18.0
         js_views_bundles, css_views_bundles = self._get_bundles_from_views()
         lazy_bundles = self._get_lazy_bundles_from_js()
         return (js_views_bundles | lazy_bundles, css_views_bundles | lazy_bundles)
 
     def _get_bundles_from_views(self):
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         views = self.env['ir.ui.view'].search([('type', '=', 'qweb'), ('arch_db', 'like', 't-call-assets')])
         js_bundles = set()
@@ -6917,7 +6964,10 @@ class IrQWeb(models.AbstractModel):
         return (js_bundles, css_bundles)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _get_lazy_bundles_from_js(self):
         modules = self.env['ir.module.module'].search([('state', '=', 'installed')]).mapped('name')
         lazy_bundle_regex = re.compile(r'\bloadBundle\((["\'`])([\w\.-]+)\1\)', flags=re.ASCII)
@@ -6931,6 +6981,9 @@ class IrQWeb(models.AbstractModel):
         return bundles
 
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 def render(template_name, values, load, **options):
     """ Rendering of a qweb template without database and outside the registry.

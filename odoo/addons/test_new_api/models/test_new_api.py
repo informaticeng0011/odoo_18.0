@@ -586,6 +586,10 @@ class Related(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    foo_float_id = fields.Float(related='foo_id.test_float')
+>>>>>>> upstream/18.0
 =======
     foo_float_id = fields.Float(related='foo_id.test_float')
 >>>>>>> upstream/18.0
@@ -1082,6 +1086,10 @@ class RelatedFoo(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    test_float = fields.Float(digits='ORM Precision')
+>>>>>>> upstream/18.0
 =======
     test_float = fields.Float(digits='ORM Precision')
 >>>>>>> upstream/18.0
@@ -2537,7 +2545,10 @@ class SelectionRequiredWithWriteOverride(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2719,6 +2730,9 @@ class SelectionCompanyDependentNullImplicit(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3076,7 +3090,10 @@ class ComputeMember(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3695,6 +3712,9 @@ class ComputeCreated(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4543,6 +4563,10 @@ class RelatedTranslation2(models.Model):
     name = fields.Char('Name Related', related='related_id.name', readonly=False)
     html = fields.Html('HTML Related', related='related_id.html', readonly=False)
     computed_name = fields.Char('Name Computed', compute='_compute_name')
+<<<<<<< HEAD
+=======
+    name_en = fields.Char('Name EN', compute='_compute_name_en')
+>>>>>>> upstream/18.0
     computed_html = fields.Char('HTML Computed', compute='_compute_html')
 
     @api.depends_context('lang')
@@ -4551,6 +4575,14 @@ class RelatedTranslation2(models.Model):
         for record in self:
             record.computed_name = record.related_id.name
 
+<<<<<<< HEAD
+=======
+    @api.depends('name')
+    def _compute_name_en(self):
+        for record in self.with_context(lang='en_US'):
+            record.name_en = record.name
+
+>>>>>>> upstream/18.0
     @api.depends_context('lang')
     @api.depends('related_id.html')
     def _compute_html(self):
@@ -4957,7 +4989,10 @@ class SharedComputeMethod(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5593,6 +5628,9 @@ class BinaryTest(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

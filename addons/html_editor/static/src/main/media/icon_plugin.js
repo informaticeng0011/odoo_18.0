@@ -198,6 +198,7 @@ import { ColorSelector } from "../font/color_selector";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import { isZWS } from "@html_editor/utils/dom_info";
 import { nodeSize } from "@html_editor/utils/position";
@@ -811,6 +812,8 @@ import { isZWS } from "@html_editor/utils/dom_info";
 import { nodeSize } from "@html_editor/utils/position";
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -941,6 +944,9 @@ import { closestElement } from "@html_editor/utils/dom_traversal";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1263,6 +1269,7 @@ export class IconPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 isApplied: (traversedNodes) =>
                     traversedNodes.every(
                         (node) =>
@@ -1271,6 +1278,9 @@ export class IconPlugin extends Plugin {
                             node.parentElement.classList.contains("fa") ||
                             (node.querySelector?.(".fa") && node.isContentEditable !== false)
                     ),
+=======
+                isApplied: this.isSelectingOnlyIcons.bind(this),
+>>>>>>> upstream/18.0
 =======
                 isApplied: this.isSelectingOnlyIcons.bind(this),
 >>>>>>> upstream/18.0
@@ -2125,6 +2135,7 @@ export class IconPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         color_apply_overrides: this.applyIconColor.bind(this),
     };
 
@@ -2146,6 +2157,8 @@ export class IconPlugin extends Plugin {
         if (size !== "1") {
             selectedIcon.classList.add(`fa-${size}x`);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2592,7 +2605,11 @@ export class IconPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return targetedNodes.find((node) => node.classList?.contains?.("fa"));
+=======
+        return targetedNodes.map((node) => closestElement(node, ".fa")).find(Boolean);
+>>>>>>> upstream/18.0
 =======
         return targetedNodes.map((node) => closestElement(node, ".fa")).find(Boolean);
 >>>>>>> upstream/18.0
@@ -2784,6 +2801,7 @@ export class IconPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.dependencies.selection.setSelection(
                 {
                     anchorNode: selectedIcon,
@@ -2791,6 +2809,8 @@ export class IconPlugin extends Plugin {
                     focusNode: selectedIcon,
                     focusOffset: nodeSize(selectedIcon),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2928,6 +2948,9 @@ export class IconPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3226,6 +3249,9 @@ export class IconPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3818,7 +3844,11 @@ export class IconPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const selectedIcon = this.getSelectedIcon();
+=======
+        const selectedIcon = this.getTargetedIcon();
+>>>>>>> upstream/18.0
 =======
         const selectedIcon = this.getTargetedIcon();
 >>>>>>> upstream/18.0
@@ -4607,11 +4637,14 @@ export class IconPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     }
 
     hasIconSize(size) {
         const selectedIcon = this.getSelectedIcon();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5202,6 +5235,9 @@ export class IconPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5801,7 +5837,11 @@ export class IconPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const selectedIcon = this.getSelectedIcon();
+=======
+        const selectedIcon = this.getTargetedIcon();
+>>>>>>> upstream/18.0
 =======
         const selectedIcon = this.getTargetedIcon();
 >>>>>>> upstream/18.0
@@ -6591,6 +6631,7 @@ export class IconPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     applyIconColor(color, mode) {
         const selectedIcon = this.getSelectedIcon();
@@ -6600,6 +6641,8 @@ export class IconPlugin extends Plugin {
         this.dependencies.color.colorElement(selectedIcon, color, mode);
         return true;
     }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

@@ -182,7 +182,10 @@ export const isGif = (mimetype) => mimetype === 'image/gif';
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -681,6 +684,9 @@ export function isWebGLEnabled() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1465,7 +1471,12 @@ export async function applyModifications(img, dataOptions = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (glFilter) {
+=======
+    const canUseWebGL = glFilter && isWebGLEnabled() && window.WebGLImageFilter;
+    if (canUseWebGL) {
+>>>>>>> upstream/18.0
 =======
     const canUseWebGL = glFilter && isWebGLEnabled() && window.WebGLImageFilter;
     if (canUseWebGL) {
