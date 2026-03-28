@@ -103,7 +103,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should do nothing", async () => {
+=======
+        test("should do nothing (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should do nothing (1)", async () => {
 >>>>>>> upstream/18.0
@@ -501,6 +505,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should do nothing (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -1094,6 +1104,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should do nothing (3)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -1687,6 +1703,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should do nothing (4)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -2308,7 +2330,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should remove the only character in a list", async () => {
+=======
+        test("should remove the only character in a list (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should remove the only character in a list (1)", async () => {
 >>>>>>> upstream/18.0
@@ -2706,6 +2732,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should remove the only character in a list (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -3301,7 +3333,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should merge a list item with its next list item", async () => {
+=======
+        test("should merge a list item with its next list item (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should merge a list item with its next list item (1)", async () => {
 >>>>>>> upstream/18.0
@@ -3699,6 +3735,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should merge a list item with its next list item (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -4293,6 +4335,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should merge a list item with its next list item (3)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -5053,7 +5101,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should remove the only character in a checklist", async () => {
+=======
+        test("should remove the only character in a checklist (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should remove the only character in a checklist (1)", async () => {
 >>>>>>> upstream/18.0
@@ -5451,6 +5503,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should remove the only character in a checklist (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -6047,7 +6105,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should merge a checklist item with its next list item", async () => {
+=======
+        test("should merge a checklist item with its next list item (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should merge a checklist item with its next list item (1)", async () => {
 >>>>>>> upstream/18.0
@@ -6446,6 +6508,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should merge a checklist item with its next list item (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -7042,6 +7110,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should merge a checklist item with its next list item (3)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -7778,7 +7852,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should merge an indented list item into a non-indented list item 1", async () => {
+=======
+        test("should merge an indented list item into a non-indented list item 1 (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should merge an indented list item into a non-indented list item 1 (1)", async () => {
 >>>>>>> upstream/18.0
@@ -8180,6 +8258,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should merge an indented list item into a non-indented list item 1 (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -8895,7 +8979,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should treat two blocks in a checklist item (checked/unchecked) as two list items and merge them", async () => {
+=======
+        test("should treat two blocks in a checklist item (checked/unchecked) as two list items and merge them (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should treat two blocks in a checklist item (checked/unchecked) as two list items and merge them (1)", async () => {
 >>>>>>> upstream/18.0
@@ -9297,6 +9385,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should treat two blocks in a checklist item (checked/unchecked) as two list items and merge them (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -9907,7 +10001,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should merge a bold list item (checked/unchecked) into a non-formatted list item", async () => {
+=======
+        test("should merge a bold list item (checked/unchecked) into a non-formatted list item (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should merge a bold list item (checked/unchecked) into a non-formatted list item (1)", async () => {
 >>>>>>> upstream/18.0
@@ -10308,6 +10406,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should merge a bold list item (checked/unchecked) into a non-formatted list item (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -10904,6 +11008,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should merge a bold list item (checked/unchecked) into a non-formatted list item (3)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -11502,7 +11612,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should merge a paragraph starting with bold text into a checklist item with ending without formatting", async () => {
+=======
+        test("should merge a paragraph starting with bold text into a checklist item with ending without formatting (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should merge a paragraph starting with bold text into a checklist item with ending without formatting (1)", async () => {
 >>>>>>> upstream/18.0
@@ -11901,6 +12015,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should merge a paragraph starting with bold text into a checklist item with ending without formatting (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -12499,7 +12619,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should merge a paragraph starting with bold text into a checklist item with ending with italic text", async () => {
+=======
+        test("should merge a paragraph starting with bold text into a checklist item with ending with italic text (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should merge a paragraph starting with bold text into a checklist item with ending with italic text (1)", async () => {
 >>>>>>> upstream/18.0
@@ -12899,6 +13023,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should merge a paragraph starting with bold text into a checklist item with ending with italic text (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -13526,7 +13656,11 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should delete text within a list item", async () => {
+=======
+        test("should delete text within a list item (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should delete text within a list item (1)", async () => {
 >>>>>>> upstream/18.0
@@ -13925,6 +14059,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should delete text within a list item (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -14521,7 +14661,11 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should delete all the text in a list item", async () => {
+=======
+        test("should delete all the text in a list item (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should delete all the text in a list item (1)", async () => {
 >>>>>>> upstream/18.0
@@ -14920,6 +15064,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should delete all the text in a list item (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -15516,7 +15666,11 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should delete across two list items", async () => {
+=======
+        test("should delete across two list items (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should delete across two list items (1)", async () => {
 >>>>>>> upstream/18.0
@@ -15915,6 +16069,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should delete across two list items (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -16511,7 +16671,11 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should delete across an unindented list item and an indented list item", async () => {
+=======
+        test("should delete across an unindented list item and an indented list item (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should delete across an unindented list item and an indented list item (1)", async () => {
 >>>>>>> upstream/18.0
@@ -16911,6 +17075,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should delete across an unindented list item and an indented list item (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -17508,7 +17678,11 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should delete a list", async () => {
+=======
+        test("should delete a list (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should delete a list (1)", async () => {
 >>>>>>> upstream/18.0
@@ -17907,6 +18081,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should delete a list (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -18503,7 +18683,11 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should merge the contents of a list item within a block into a heading, and leave the rest of its list as it is", async () => {
+=======
+        test("should merge the contents of a list item within a block into a heading, and leave the rest of its list as it is (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should merge the contents of a list item within a block into a heading, and leave the rest of its list as it is (1)", async () => {
 >>>>>>> upstream/18.0
@@ -18904,6 +19088,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should merge the contents of a list item within a block into a heading, and leave the rest of its list as it is (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -19504,7 +19694,11 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should delete text within a list item", async () => {
+=======
+        test("should delete text within a list item (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should delete text within a list item (1)", async () => {
 >>>>>>> upstream/18.0
@@ -19903,6 +20097,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should delete text within a list item (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -20499,7 +20699,11 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should delete all the text in a list item", async () => {
+=======
+        test("should delete all the text in a list item (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should delete all the text in a list item (1)", async () => {
 >>>>>>> upstream/18.0
@@ -20898,6 +21102,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should delete all the text in a list item (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -21494,7 +21704,11 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should delete across two list items", async () => {
+=======
+        test("should delete across two list items (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should delete across two list items (1)", async () => {
 >>>>>>> upstream/18.0
@@ -21893,6 +22107,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should delete across two list items (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -22489,7 +22709,11 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should delete across an unindented list item and an indented list item", async () => {
+=======
+        test("should delete across an unindented list item and an indented list item (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should delete across an unindented list item and an indented list item (1)", async () => {
 >>>>>>> upstream/18.0
@@ -22889,6 +23113,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should delete across an unindented list item and an indented list item (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -23486,7 +23716,11 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should delete a list", async () => {
+=======
+        test("should delete a list (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should delete a list (1)", async () => {
 >>>>>>> upstream/18.0
@@ -23885,6 +24119,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should delete a list (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -24481,7 +24721,11 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should merge the contents of a list item within a block into a heading, and leave the rest of its list as it is", async () => {
+=======
+        test("should merge the contents of a list item within a block into a heading, and leave the rest of its list as it is (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should merge the contents of a list item within a block into a heading, and leave the rest of its list as it is (1)", async () => {
 >>>>>>> upstream/18.0
@@ -24882,6 +25126,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should merge the contents of a list item within a block into a heading, and leave the rest of its list as it is (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -25481,7 +25731,11 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should delete text within a checklist item", async () => {
+=======
+        test("should delete text within a checklist item (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should delete text within a checklist item (1)", async () => {
 >>>>>>> upstream/18.0
@@ -25880,7 +26134,10 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26176,6 +26433,9 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26474,6 +26734,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should delete text within a checklist item (3)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -27068,7 +27334,10 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -27364,6 +27633,9 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27664,7 +27936,11 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should delete all the text in a checklist item", async () => {
+=======
+        test("should delete all the text in a checklist item (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should delete all the text in a checklist item (1)", async () => {
 >>>>>>> upstream/18.0
@@ -28063,7 +28339,10 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -28359,6 +28638,9 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -28657,6 +28939,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should delete all the text in a checklist item (3)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -29251,7 +29539,10 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -29547,6 +29838,9 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -29751,6 +30045,7 @@ describe("Selection not collapsed", () => {
 
         describe("should delete across two list items", () => {});
         // Forward selection
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30284,6 +30579,8 @@ describe("Selection not collapsed", () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         test("should delete across two list items (1)", async () => {
             await testEditor({
                 contentBefore:
@@ -30608,6 +30905,9 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -30907,6 +31207,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            });
+
+            test("should delete across an ordered list and an unordered list (2)", async () => {
+>>>>>>> upstream/18.0
 =======
             });
 
@@ -31503,7 +31809,11 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             test("should delete across an ordered list item and an unordered list item within an ordered list", async () => {
+=======
+            test("should delete across an ordered list item and an unordered list item within an ordered list (1)", async () => {
+>>>>>>> upstream/18.0
 =======
             test("should delete across an ordered list item and an unordered list item within an ordered list (1)", async () => {
 >>>>>>> upstream/18.0
@@ -31903,6 +32213,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            });
+
+            test("should delete across an ordered list item and an unordered list item within an ordered list (2)", async () => {
+>>>>>>> upstream/18.0
 =======
             });
 
@@ -32500,7 +32816,11 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             test("should delete an ordered list and an unordered list", async () => {
+=======
+            test("should delete an ordered list and an unordered list (1)", async () => {
+>>>>>>> upstream/18.0
 =======
             test("should delete an ordered list and an unordered list (1)", async () => {
 >>>>>>> upstream/18.0
@@ -32899,6 +33219,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            });
+
+            test("should delete an ordered list and an unordered list (2)", async () => {
+>>>>>>> upstream/18.0
 =======
             });
 
@@ -33496,7 +33822,11 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             test("should delete across an unordered list and an ordered list", async () => {
+=======
+            test("should delete across an unordered list and an ordered list (1)", async () => {
+>>>>>>> upstream/18.0
 =======
             test("should delete across an unordered list and an ordered list (1)", async () => {
 >>>>>>> upstream/18.0
@@ -33895,6 +34225,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            });
+
+            test("should delete across an unordered list and an ordered list (2)", async () => {
+>>>>>>> upstream/18.0
 =======
             });
 
@@ -34491,7 +34827,11 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             test("should delete across an unordered list item and an ordered list item within an unordered list", async () => {
+=======
+            test("should delete across an unordered list item and an ordered list item within an unordered list (1)", async () => {
+>>>>>>> upstream/18.0
 =======
             test("should delete across an unordered list item and an ordered list item within an unordered list (1)", async () => {
 >>>>>>> upstream/18.0
@@ -34891,6 +35231,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            });
+
+            test("should delete across an unordered list item and an ordered list item within an unordered list (2)", async () => {
+>>>>>>> upstream/18.0
 =======
             });
 
@@ -35488,7 +35834,11 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             test("should delete an ordered list and an unordered list", async () => {
+=======
+            test("should delete an ordered list and an unordered list (1)", async () => {
+>>>>>>> upstream/18.0
 =======
             test("should delete an ordered list and an unordered list (1)", async () => {
 >>>>>>> upstream/18.0
@@ -35887,6 +36237,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            });
+
+            test("should delete an ordered list and an unordered list (2)", async () => {
+>>>>>>> upstream/18.0
 =======
             });
 
@@ -36491,7 +36847,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         contentAfter: '<ul class="o_checklist"><li class="o_checked">ab[]gh</li></ul>',
+=======
+                        contentAfter:
+                            '<ul class="o_checklist"><li class="o_checked">ab[]gh</li></ul>',
+>>>>>>> upstream/18.0
 =======
                         contentAfter:
                             '<ul class="o_checklist"><li class="o_checked">ab[]gh</li></ul>',
@@ -36993,12 +37354,15 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 await testEditor({
                         contentBefore:
                             '<ul class="o_checklist"><li class="o_checked">ab[cd</li></ul><ul><li>ef]gh</li></ul>',
                         stepFunction: deleteForward,
                         contentAfter: '<ul class="o_checklist"><li class="o_checked">ab[]gh</li></ul>',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -37296,6 +37660,9 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -37605,12 +37972,15 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         contentAfter: '<ul class="o_checklist"><li class="o_checked">ab[]gh</li></ul>',
                     });
                 });
                 test("should delete across an checklist list and an unordered list (6)", async () => {
                 await testEditor({
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -37908,6 +38278,9 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -38212,7 +38585,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         contentAfter: '<ul class="o_checklist"><li class="o_checked">ab[]gh</li></ul>',
+=======
+                        contentAfter:
+                            '<ul class="o_checklist"><li class="o_checked">ab[]gh</li></ul>',
+>>>>>>> upstream/18.0
 =======
                         contentAfter:
                             '<ul class="o_checklist"><li class="o_checked">ab[]gh</li></ul>',
@@ -38722,7 +39100,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         contentAfter: '<ul class="o_checklist"><li class="o_checked">ab[]gh</li></ul>',
+=======
+                        contentAfter:
+                            '<ul class="o_checklist"><li class="o_checked">ab[]gh</li></ul>',
+>>>>>>> upstream/18.0
 =======
                         contentAfter:
                             '<ul class="o_checklist"><li class="o_checked">ab[]gh</li></ul>',
@@ -39229,7 +39612,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         contentAfter: '<ul class="o_checklist"><li class="o_checked">ab[]gh</li></ul>',
+=======
+                        contentAfter:
+                            '<ul class="o_checklist"><li class="o_checked">ab[]gh</li></ul>',
+>>>>>>> upstream/18.0
 =======
                         contentAfter:
                             '<ul class="o_checklist"><li class="o_checked">ab[]gh</li></ul>',
@@ -39732,7 +40120,11 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             test("should delete an checklist list and an unordered list", async () => {
+=======
+            test("should delete an checklist list and an unordered list (1)", async () => {
+>>>>>>> upstream/18.0
 =======
             test("should delete an checklist list and an unordered list (1)", async () => {
 >>>>>>> upstream/18.0
@@ -40132,6 +40524,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            });
+
+            test("should delete an checklist list and an unordered list (2)", async () => {
+>>>>>>> upstream/18.0
 =======
             });
 
@@ -40730,7 +41128,11 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             test("should delete across an unordered list and an checklist list", async () => {
+=======
+            test("should delete across an unordered list and an checklist list (1)", async () => {
+>>>>>>> upstream/18.0
 =======
             test("should delete across an unordered list and an checklist list (1)", async () => {
 >>>>>>> upstream/18.0
@@ -41130,6 +41532,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            });
+
+            test("should delete across an unordered list and an checklist list (2)", async () => {
+>>>>>>> upstream/18.0
 =======
             });
 
@@ -41727,7 +42135,11 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             test("should delete across an unordered list item and an checklist list item within an unordered list", async () => {
+=======
+            test("should delete across an unordered list item and an checklist list item within an unordered list (1)", async () => {
+>>>>>>> upstream/18.0
 =======
             test("should delete across an unordered list item and an checklist list item within an unordered list (1)", async () => {
 >>>>>>> upstream/18.0
@@ -42127,6 +42539,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            });
+
+            test("should delete across an unordered list item and an checklist list item within an unordered list (2)", async () => {
+>>>>>>> upstream/18.0
 =======
             });
 
@@ -42724,7 +43142,11 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             test("should delete an checklist list and an unordered list", async () => {
+=======
+            test("should delete an checklist list and an unordered list (1)", async () => {
+>>>>>>> upstream/18.0
 =======
             test("should delete an checklist list and an unordered list (1)", async () => {
 >>>>>>> upstream/18.0
@@ -43124,6 +43546,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            });
+
+            test("should delete an checklist list and an unordered list (2)", async () => {
+>>>>>>> upstream/18.0
 =======
             });
 

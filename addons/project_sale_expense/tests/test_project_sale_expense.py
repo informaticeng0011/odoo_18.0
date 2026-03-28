@@ -197,6 +197,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo import Command
+
+>>>>>>> upstream/18.0
 =======
 from odoo import Command
 
@@ -1216,12 +1221,15 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         project = self.env['project.project'].create({'name': 'SO Project'})
         project.account_id = self.analytic_account_1
         so_values = {
             'partner_id': self.partner_a.id,
             'order_line': [(0, 0, {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1723,9 +1731,12 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         project = self.env['project.project'].create({'name': 'SO Project'})
         project.account_id = self.analytic_account_1
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2041,6 +2052,9 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2246,6 +2260,7 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
         so_values = {
             'partner_id': self.partner_a.id,
             'order_line': [Command.create({
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3324,6 +3339,8 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 'name': self.product_c.name,
                 'product_id': self.product_c.id,
                 'product_uom_qty': 2,
@@ -3434,6 +3451,9 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3639,6 +3659,7 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
             'name': 'Expense Test',
             'employee_id': self.expense_employee.id,
             'sale_order_id': so1.id,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4814,6 +4835,8 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             'product_id': self.product_c.id,
         })
 
@@ -4926,6 +4949,9 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5132,6 +5158,7 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
         with Form(expense) as exp_form:
             exp_form.sale_order_id = so2
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6011,6 +6038,8 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         self.assertEqual(
             expense.analytic_distribution,
             {str(self.analytic_account_1.id): 100},
@@ -6127,6 +6156,9 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6571,6 +6603,9 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

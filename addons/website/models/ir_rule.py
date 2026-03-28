@@ -2,6 +2,10 @@ from odoo import api, models
 from odoo.addons.website.models import ir_http
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.http import request
+>>>>>>> upstream/18.0
 =======
 from odoo.http import request
 >>>>>>> upstream/18.0
@@ -21,10 +25,13 @@ class IrRule(models.Model):
         # (that could be different than current company). We can't use
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # `get_current_website(falback=False)` as it could also return a website
         # in backend (if domain set & match)..
         is_frontend = ir_http.get_request_website()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         # `get_current_website(fallback=False)` as it could also return a
@@ -36,6 +43,9 @@ class IrRule(models.Model):
         # it as a fallback to reliably detect frontend requests.
         is_frontend = ir_http.get_request_website() or request and getattr(request, 'is_frontend', False)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -197,6 +197,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* product_expiry
 # 
 # Translators:
@@ -204,6 +205,8 @@
 # Larissa Manderfeld, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -799,6 +802,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1196,6 +1202,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1878,6 +1885,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-25 10:09+0000\n"
 "Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
 "Language-Team: Spanish <https://translate.odoo.com/projects/odoo-18/"
@@ -1886,6 +1896,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2727,6 +2738,11 @@ msgstr ""
 "0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
+"0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: product_expiry
 #: model_terms:ir.ui.view,arch_db:product_expiry.view_move_form_expiry
@@ -2827,8 +2843,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span title=\"Alerta\" class=\"fa fa-exclamation-triangle text-danger me-2\""
 " invisible=\"product_qty <= 0 or not product_expiry_alert or not "
+=======
+"<span title=\"Alerta\" class=\"fa fa-exclamation-triangle text-danger me-2\" "
+"invisible=\"product_qty <= 0 or not product_expiry_alert or not "
+>>>>>>> upstream/18.0
 =======
 "<span title=\"Alerta\" class=\"fa fa-exclamation-triangle text-danger me-2\" "
 "invisible=\"product_qty <= 0 or not product_expiry_alert or not "
@@ -3266,6 +3287,7 @@ msgstr "Mostrar la fecha de caducidad en los albaranes de entrega"
 #. module: product_expiry
 #: model:ir.model.fields,field_description:product_expiry.field_expiry_picking_confirmation__display_name
 msgid "Display Name"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4055,6 +4077,9 @@ msgstr "Nombre para mostrar"
 =======
 msgstr "Nombre para mostrar"
 >>>>>>> upstream/18.0
+=======
+msgstr "Nombre para mostrar"
+>>>>>>> upstream/18.0
 
 #. module: product_expiry
 #: model_terms:ir.ui.view,arch_db:product_expiry.report_lot_label_expiry
@@ -4224,8 +4249,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Número de días después de la recepción de los productos (del proveedor o del"
 " stock después de la producción) después de los cuales los bienes pueden "
+=======
+"Número de días después de la recepción de los productos (del proveedor o del "
+"stock después de la producción) después de los cuales los bienes pueden "
+>>>>>>> upstream/18.0
 =======
 "Número de días después de la recepción de los productos (del proveedor o del "
 "stock después de la producción) después de los cuales los bienes pueden "
@@ -4663,8 +4693,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Número de días antes de la fecha de caducidad después de los cuales se deben"
 " retirar los bienes del stock. Se registrará sobre el número de lote/serie."
+=======
+"Número de días antes de la fecha de caducidad después de los cuales se deben "
+"retirar los bienes del stock. Se registrará sobre el número de lote/serie."
+>>>>>>> upstream/18.0
 =======
 "Número de días antes de la fecha de caducidad después de los cuales se deben "
 "retirar los bienes del stock. Se registrará sobre el número de lote/serie."
@@ -5086,8 +5121,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "deteriorating, without being dangerous yet. It will be computed on the "
 "lot/serial number."
+=======
+"deteriorating, without being dangerous yet. It will be computed on the lot/"
+"serial number."
+>>>>>>> upstream/18.0
 =======
 "deteriorating, without being dangerous yet. It will be computed on the lot/"
 "serial number."
@@ -5592,8 +5632,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Esta fecha indica que los bienes con este número de serie pueden representar"
 " un riesgo y no se deben consumir."
+=======
+"Esta fecha indica que los bienes con este número de serie pueden representar "
+"un riesgo y no se deben consumir."
+>>>>>>> upstream/18.0
 =======
 "Esta fecha indica que los bienes con este número de serie pueden representar "
 "un riesgo y no se deben consumir."
@@ -6017,8 +6062,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Es la fecha en la que los productos con este número de serie deben salir del"
 " stock. Esta fecha se utilizará en la estrategia de salida FEFO."
+=======
+"Es la fecha en la que los productos con este número de serie deben salir del "
+"stock. Esta fecha se utilizará en la estrategia de salida FEFO."
+>>>>>>> upstream/18.0
 =======
 "Es la fecha en la que los productos con este número de serie deben salir del "
 "stock. Esta fecha se utilizará en la estrategia de salida FEFO."
@@ -6467,6 +6517,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "When this box is ticked, you have the possibility to specify dates to manage"
 " product expiration, on the product and on the corresponding lot/serial "
 "numbers"
@@ -6475,6 +6526,8 @@ msgstr ""
 "la caducidad de un producto, ya sea en el producto o en los números de "
 "lote/serie."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6728,6 +6781,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6991,11 +7047,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You are going to deliver the product %(product_name)s, %(lot_name)s which is expired.\n"
 "Do you confirm you want to proceed?"
 msgstr ""
 "Va a enviar el producto %(product_name)s, %(lot_name)s el cual está caducado.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7248,6 +7307,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

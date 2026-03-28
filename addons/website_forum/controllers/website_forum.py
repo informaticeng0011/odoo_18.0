@@ -283,7 +283,11 @@ class WebsiteForum(WebsiteProfile):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             req = requests.get(kwargs.get('url'))
+=======
+            req = requests.get(kwargs.get('url'), timeout=10)
+>>>>>>> upstream/18.0
 =======
             req = requests.get(kwargs.get('url'), timeout=10)
 >>>>>>> upstream/18.0

@@ -96,7 +96,10 @@ class IrConfigParameter(models.Model):
 
         return super().set_param(key, value)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def _sanitize_param_value(self, key, value):
         """ Dispatcher for sanitization logic """
@@ -118,4 +121,7 @@ class IrConfigParameter(models.Model):
                 key = vals.get('key', record.key)
                 vals['value'] = self._sanitize_param_value(key, vals['value'])
         return super().write(vals)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

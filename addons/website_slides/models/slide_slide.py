@@ -1148,6 +1148,10 @@ class Slide(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        params['supportsAllDrives'] = 'true'  # Allow Shared Drive links
+>>>>>>> upstream/18.0
 =======
         params['supportsAllDrives'] = 'true'  # Allow Shared Drive links
 >>>>>>> upstream/18.0
@@ -1749,6 +1753,12 @@ class Slide(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+    def _mail_get_partner_fields(self, introspect_fields=False):
+        return []
+>>>>>>> upstream/18.0
 =======
 
     def _mail_get_partner_fields(self, introspect_fields=False):

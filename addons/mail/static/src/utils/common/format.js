@@ -17,6 +17,7 @@ const urlRegexp =
     /\b(?:https?:\/\/\d{1,3}(?:\.\d{1,3}){3}|(?:https?:\/\/|(?:www\.))[-a-z0-9@:%._+~#=\u00C0-\u024F\u1E00-\u1EFF]{1,256}\.[a-z]{2,13})\b(?:[-a-z0-9@:%_+~#?&[\]^|{}`\\'$//=\u00C0-\u024F\u1E00-\u1EFF]|[.]*[-a-z0-9@:%_+~#?&[\]^|{}`\\'$//=\u00C0-\u024F\u1E00-\u1EFF]|,(?!$| )|\.(?!$| |\.)|;(?!$| ))*/gi;
 
 /**
+<<<<<<< HEAD
  * Escape < > & as html entities
  *
  * @param {string}
@@ -36,6 +37,8 @@ const _escapeEntities = (function () {
 })();
 
 /**
+=======
+>>>>>>> upstream/18.0
  * @param rawBody {string|ReturnType<markup>}
  * @param validRecords {Object}
  * @param validRecords.partners {Partner}
@@ -114,6 +117,7 @@ function linkify(text) {
     let result = "";
     let match;
     while ((match = urlRegexp.exec(text)) !== null) {
+<<<<<<< HEAD
         result = htmlJoin(result, text.slice(curIndex, match.index));
         // Decode the url first, in case it's already an encoded url
         const url = decodeURI(match[0]);
@@ -125,6 +129,19 @@ function linkify(text) {
                     url
                 )}</a>`
             )
+=======
+        const url = match[0];
+        const fixedUrl = !/^https?:\/\//i.test(url) ? `http://${url}` : url;
+        if (!URL.canParse(fixedUrl)) {
+            continue;
+        }
+        result = htmlJoin(result, text.slice(curIndex, match.index));
+        // Decode the url first, in case it's already an encoded url
+        const { href } = URL.parse(fixedUrl);
+        result = htmlJoin(
+            result,
+            markup`<a target="_blank" rel="noreferrer noopener" href="${href}">${url}</a>`
+>>>>>>> upstream/18.0
         );
         curIndex = match.index + match[0].length;
     }

@@ -172,6 +172,10 @@ import { testEditor } from "./_helpers/editor";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { unformat } from "./_helpers/format";
+>>>>>>> upstream/18.0
 =======
 import { unformat } from "./_helpers/format";
 >>>>>>> upstream/18.0
@@ -868,7 +872,10 @@ test("should remove empty class attribute", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1420,6 +1427,9 @@ test("should remove `style.color` from table and apply it to td without `style.c
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -30,6 +30,7 @@ class StockMoveLine(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends('product_id', 'lot_id.expiration_date', 'picking_id.scheduled_date')
     def _compute_expiration_date(self):
         for move_line in self:
@@ -38,12 +39,17 @@ class StockMoveLine(models.Model):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     @api.depends('product_id', 'lot_id.expiration_date', 'picking_id.scheduled_date', 'quant_id')
     def _compute_expiration_date(self):
         for move_line in self:
             if lot_id := move_line.quant_id.lot_id or move_line.lot_id:
                 move_line.expiration_date = lot_id.expiration_date
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -90,6 +90,10 @@ class PaymentToken(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    _rec_names_search = ['payment_details', 'partner_id', 'provider_id']
+>>>>>>> upstream/18.0
 =======
     _rec_names_search = ['payment_details', 'partner_id', 'provider_id']
 >>>>>>> upstream/18.0

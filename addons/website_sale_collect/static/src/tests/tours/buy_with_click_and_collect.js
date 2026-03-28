@@ -180,6 +180,7 @@ import * as tourUtils from '@website_sale/js/tours/tour_utils';
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 registry.category('web_tour.tours').add('website_sale_collect_buy_product', {
     url: '/shop',
     steps: () => [
@@ -885,6 +886,8 @@ registry.category('web_tour.tours').add('website_sale_collect_buy_product', {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 registry.category('web_tour.tours').add('website_sale_collect_widget', {
     url: '/shop',
     steps: () => [
@@ -1075,6 +1078,9 @@ registry.category('web_tour.tours').add('website_sale_collect_widget', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

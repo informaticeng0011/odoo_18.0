@@ -5,7 +5,11 @@ from freezegun import freeze_time
 from unittest.mock import patch, PropertyMock
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import fields
+=======
+from odoo import Command, fields
+>>>>>>> upstream/18.0
 =======
 from odoo import Command, fields
 >>>>>>> upstream/18.0
@@ -401,7 +405,10 @@ class TestGetDiscussChannel(TestImLivechatCommon, MailCommon):
         )
         self.assertEqual(self_member.partner_id, self.operators[0].partner_id)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_livechat_conversation_history(self):
         self.authenticate(self.operators[0].login, self.password)
@@ -420,4 +427,7 @@ class TestGetDiscussChannel(TestImLivechatCommon, MailCommon):
         channel.with_user(self.visitor_user).message_post(author_id=self.visitor_user.partner_id.id, body="Visitor Here")
         channel_history = channel._get_channel_history()
         self.assertEqual(channel_history, "Michel: Operator Here<br/>Rajesh: Visitor Here<br/>")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

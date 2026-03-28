@@ -253,6 +253,7 @@ test("Receiving a new message out of discuss app should open a chat bubble", asy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test("Receiving a new message in discuss app should open a chat bubble after leaving discuss app", async () => {
     const pyEnv = await startServer();
     const partnerId = pyEnv["res.partner"].create({ name: "Dumbledore" });
@@ -292,6 +293,8 @@ test("Receiving a new message in discuss app should open a chat bubble after lea
     await openFormView("res.partner", partnerId);
     await contains(".o-mail-ChatBubble[name='Dumbledore']");
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -948,6 +951,9 @@ test("Show conversations with new message in chat hub (outside of discuss app)",
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -329,8 +329,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <td>
                                         <span t-field="move.quantity"/>
+=======
+                                    <td class="o_td_quantity">
+                                        <span t-field="move.quantity" class="text-nowrap"/>
+>>>>>>> upstream/18.0
 =======
                                     <td class="o_td_quantity">
                                         <span t-field="move.quantity" class="text-nowrap"/>
@@ -1177,6 +1182,7 @@
                                         <span t-field="move.sale_line_id.discount"/>
                                     </td>
                                     <td>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2186,6 +2192,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                                         <!-- TODO: original block kept for XPath backward compatibility in stable.
                                              lst_price will be overwritten if 'stock_delivery' is installed.
                                              Remove this in master
@@ -2195,6 +2203,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2210,6 +2221,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                                        <t t-set="lst_price" t-value="move.move_line_ids[0].sale_price"/>
+>>>>>>> upstream/18.0
 =======
                                         <t t-set="lst_price" t-value="move.move_line_ids[0].sale_price"/>
 >>>>>>> upstream/18.0

@@ -54,7 +54,11 @@ registry.category("web_tour.tours").add("time_off_request_calendar_view", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const el = document.querySelector(".fc-daygrid-day.fc-day-thu").firstChild;
+=======
+                const el = document.querySelector(".fc-daygrid-day.fc-day-thu:not(.fc-day-disabled)").firstChild;
+>>>>>>> upstream/18.0
 =======
                 const el = document.querySelector(".fc-daygrid-day.fc-day-thu:not(.fc-day-disabled)").firstChild;
 >>>>>>> upstream/18.0

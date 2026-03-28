@@ -197,6 +197,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* account_update_tax_tags
 # 
 # Translators:
@@ -208,6 +209,8 @@
 >>>>>>> upstream/18.0
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -804,6 +807,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1201,6 +1207,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2044,6 +2051,10 @@ msgstr ""
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2025-10-22 09:09+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2025-10-22 09:09+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-18/"
 "account_update_tax_tags/ru/>\n"
@@ -2052,6 +2063,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2893,6 +2905,11 @@ msgstr ""
 "(n%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
+=======
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: account_update_tax_tags
 #: model:ir.model.fields,field_description:account_update_tax_tags.field_account_update_tax_tags_wizard__company_id
@@ -3099,7 +3116,11 @@ msgid "Created by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Создано:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создано:"
 >>>>>>> upstream/18.0
@@ -3892,7 +3913,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Дата создания:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата создания:"
 >>>>>>> upstream/18.0
@@ -4685,7 +4710,11 @@ msgid "Date from which journal items will be updated."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Дата, начиная с которой будут обновлены бухгалтерские проводки."
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата, начиная с которой будут обновлены бухгалтерские проводки."
 >>>>>>> upstream/18.0
@@ -5483,7 +5512,11 @@ msgid "Display Lock Date Warning"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Отображать предупреждение о дате блокировки"
+>>>>>>> upstream/18.0
 =======
 msgstr "Отображать предупреждение о дате блокировки"
 >>>>>>> upstream/18.0
@@ -6287,7 +6320,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Последнее обновление:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Последнее обновление:"
 >>>>>>> upstream/18.0
@@ -7084,7 +7121,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Дата последнего обновления:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата последнего обновления:"
 >>>>>>> upstream/18.0
@@ -7880,7 +7921,11 @@ msgid "Starting from"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Начало периода"
+>>>>>>> upstream/18.0
 =======
 msgstr "Начало периода"
 >>>>>>> upstream/18.0
@@ -8675,6 +8720,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Указанная дата нарушает установленную дату блокировки по налогам. Продолжая, "
+"вы берете на себя все возможные риски, связанные с некорректным расчетом "
+"налогов."
+>>>>>>> upstream/18.0
 =======
 "Указанная дата нарушает установленную дату блокировки по налогам. Продолжая, "
 "вы берете на себя все возможные риски, связанные с некорректным расчетом "
@@ -9866,6 +9917,7 @@ msgid "Update Tax Tags Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Инструмент для обновления налоговых тегов"
@@ -9989,6 +10041,9 @@ msgstr "Инструмент для обновления налоговых те
 >>>>>>> upstream/18.0
 =======
 msgstr "Инструмент для обновления налоговых тегов"
+>>>>>>> upstream/18.0
+=======
+msgstr "Мастер обновления налоговых тегов"
 >>>>>>> upstream/18.0
 =======
 msgstr "Мастер обновления налоговых тегов"
@@ -10669,6 +10724,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Обновление не поддерживается: дочерние налоги, относящиеся к нескольким "
+"родительским налогам."
+>>>>>>> upstream/18.0
 =======
 "Обновление не поддерживается: дочерние налоги, относящиеся к нескольким "
 "родительским налогам."
@@ -11544,6 +11604,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Updating tax tags on existing Journal Entries is an <b>irreversible</b> action that will impact\n"
 "                    your reports.<br/>\n"
 "                    It is highly recommended to backup your database beforehand.<br/>\n"
@@ -11555,6 +11616,8 @@ msgstr ""
 "                  Рекомендуется заранее сделать резервную копию базы данных.<br/> \n"
 "                  Изменения затронут налоговые теги в бухгалтерской истории, начиная с выбранной даты, \n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11818,6 +11881,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

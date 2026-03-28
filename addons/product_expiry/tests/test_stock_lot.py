@@ -520,7 +520,10 @@ class TestStockLot(TestStockCommon):
         """
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         self.apple_product.use_expiration_date = False
@@ -532,6 +535,9 @@ class TestStockLot(TestStockCommon):
         self.assertFalse(lot_without_expiration.expiration_date)
         self.apple_product.use_expiration_date = True
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -567,6 +573,11 @@ class TestStockLot(TestStockCommon):
         self.assertEqual(sml.expiration_date, exp_date)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        sml.lot_id = lot_without_expiration
+        self.assertFalse(sml.expiration_date)
+>>>>>>> upstream/18.0
 =======
         sml.lot_id = lot_without_expiration
         self.assertFalse(sml.expiration_date)
@@ -926,7 +937,10 @@ class TestStockLot(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1671,6 +1685,9 @@ class TestStockLot(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

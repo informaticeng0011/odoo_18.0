@@ -7,6 +7,10 @@ from . import chatbot_script_step
 from . import res_users
 from . import res_partner
 from . import im_livechat_channel
+<<<<<<< HEAD
+=======
+from . import ir_qweb
+>>>>>>> upstream/18.0
 from . import discuss_channel
 from . import discuss_channel_member
 from . import mail_message

@@ -1,4 +1,5 @@
 import { _t } from "@web/core/l10n/translation";
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -814,11 +815,23 @@ const { DateTime } = luxon;
 >>>>>>> upstream/18.0
 export default class IndexedDB {
     constructor(dbName, dbVersion, dbStores) {
+=======
+import { AlertDialog } from "@web/core/confirmation_dialog/confirmation_dialog";
+
+export default class IndexedDB {
+    constructor(dbName, dbVersion, dbStores, dialog) {
+>>>>>>> upstream/18.0
         this.db = null;
         this.dbName = dbName;
         this.dbVersion = dbVersion;
         this.dbStores = dbStores;
         this.dbInstance = null;
+<<<<<<< HEAD
+=======
+        this.dialog = dialog;
+        this._isReconnecting = false;
+        this._reloadDialogShown = false;
+>>>>>>> upstream/18.0
         this.databaseEventListener();
     }
 
@@ -837,11 +850,28 @@ export default class IndexedDB {
         this.dbInstance = indexedDB;
         const dbInstance = indexedDB.open(this.dbName, this.dbVersion);
         dbInstance.onerror = (event) => {
+<<<<<<< HEAD
             console.error("Database error: " + event.target.errorCode);
+=======
+            const err = event.target.error;
+            console.error("Database error:", err);
+            // Known iOS/Safari WebKit bug: the IDB server process was killed by the OS.
+            // No reconnect will succeed — only a page reload restores the daemon.
+            if (
+                err?.name === "UnknownError" &&
+                err.message.includes("Connection to Indexed Database server lost")
+            ) {
+                this._showReloadDialog();
+            }
+>>>>>>> upstream/18.0
         };
         dbInstance.onsuccess = (event) => {
             this.db = event.target.result;
             console.info(`IndexedDB ${this.dbVersion} Ready`);
+<<<<<<< HEAD
+=======
+            this._setupVisibilityProbe();
+>>>>>>> upstream/18.0
         };
         dbInstance.onupgradeneeded = (event) => {
             for (const [id, storeName] of this.dbStores) {
@@ -871,6 +901,7 @@ export default class IndexedDB {
                         delete alreadyExists.write_date;
                     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1956,6 +1987,9 @@ export default class IndexedDB {
 =======
                     if (alreadyExists && JSON.stringify(alreadyExists) === JSON.stringify(data)) {
 >>>>>>> upstream/18.0
+=======
+                    if (alreadyExists && JSON.stringify(alreadyExists) === JSON.stringify(data)) {
+>>>>>>> upstream/18.0
                         delete arrData[idx];
                     }
                 }
@@ -1976,6 +2010,7 @@ export default class IndexedDB {
             });
         });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3059,6 +3094,9 @@ export default class IndexedDB {
 =======
         return Promise.allSettled(promises).then((results) => results);
 >>>>>>> upstream/18.0
+=======
+        return Promise.allSettled(promises).then((results) => results);
+>>>>>>> upstream/18.0
     }
     getNewTransaction(dbStore) {
         try {
@@ -3069,10 +3107,72 @@ export default class IndexedDB {
             return this.db.transaction(dbStore, "readwrite");
         } catch (e) {
             console.info("DATABASE is not ready yet", e);
+<<<<<<< HEAD
+=======
+            if (e.name === "InvalidStateError") {
+                this.db = null;
+                this._attemptReconnect();
+            }
+>>>>>>> upstream/18.0
             return false;
         }
     }
 
+<<<<<<< HEAD
+=======
+    _attemptReconnect() {
+        if (this._isReconnecting) {
+            return;
+        }
+        this._isReconnecting = true;
+        setTimeout(() => {
+            if (this.db) {
+                try {
+                    this.db.close();
+                } catch {
+                    // already closed
+                }
+                this.db = null;
+            }
+            this.databaseEventListener();
+            this._isReconnecting = false;
+        }, 3000);
+    }
+
+    _setupVisibilityProbe() {
+        if (this._visibilityProbeAttached) {
+            return;
+        }
+        this._visibilityProbeAttached = true;
+        document.addEventListener("visibilitychange", () => {
+            if (document.visibilityState !== "visible" || !this.db) {
+                return;
+            }
+            try {
+                this.db.transaction([this.dbStores[0][1]], "readonly").abort();
+            } catch {
+                this.db = null;
+                this._attemptReconnect();
+            }
+        });
+    }
+
+    _showReloadDialog() {
+        if (!this.dialog || this._reloadDialogShown) {
+            return;
+        }
+        this._reloadDialogShown = true;
+        this.dialog.add(AlertDialog, {
+            title: _t("Database Connection Lost"),
+            body: _t(
+                "The connection to the local database was lost. Reloading the page will restore it and prevent any loss of unsaved orders."
+            ),
+            confirmLabel: _t("Reload"),
+            confirm: () => window.location.reload(),
+        });
+    }
+
+>>>>>>> upstream/18.0
     reset() {
         if (!this.dbInstance) {
             return;
@@ -3382,8 +3482,13 @@ export default class IndexedDB {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return Promise.allSettled(promises).then((results) => {
             return results.reduce((acc, result) => {
+=======
+        return Promise.allSettled(promises).then((results) =>
+            results.reduce((acc, result) => {
+>>>>>>> upstream/18.0
 =======
         return Promise.allSettled(promises).then((results) =>
             results.reduce((acc, result) => {
@@ -4739,8 +4844,13 @@ export default class IndexedDB {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             }, {});
         });
+=======
+            }, {})
+        );
+>>>>>>> upstream/18.0
 =======
             }, {})
         );

@@ -19,7 +19,11 @@ registry.category("web_tour.tours").add("L10nJoEdiPosTour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             PaymentScreen.clickPaymentMethod("Bank"),
+=======
+            PaymentScreen.clickPaymentMethod("Cash"),
+>>>>>>> upstream/18.0
 =======
             PaymentScreen.clickPaymentMethod("Cash"),
 >>>>>>> upstream/18.0

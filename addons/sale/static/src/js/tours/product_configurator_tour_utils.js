@@ -281,6 +281,7 @@ function selectAttribute(productName, attributeName, attributeValue, attributeTy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -777,6 +778,8 @@ function selectAttribute(productName, attributeName, attributeValue, attributeTy
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             return {
                 content: content,
                 trigger: `${ptalSelector}:has(label:text(${attributeValue})) input[type="checkbox"]`,
@@ -921,6 +924,9 @@ function selectAttribute(productName, attributeName, attributeValue, attributeTy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

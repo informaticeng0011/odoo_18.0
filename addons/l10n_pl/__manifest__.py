@@ -42,7 +42,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'version': '2.0',
+=======
+    'version': '2.1',
+>>>>>>> upstream/18.0
 =======
     'version': '2.1',
 >>>>>>> upstream/18.0

@@ -118,6 +118,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* account_check_printing
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -917,6 +918,9 @@
 =======
 # * account_check_printing
 >>>>>>> upstream/18.0
+=======
+# * account_check_printing
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2025
@@ -1094,6 +1098,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1202,6 +1207,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
@@ -1561,6 +1569,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2394,6 +2403,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-25 09:48+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-18/"
@@ -2515,6 +2527,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2926,6 +2941,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3036,6 +3052,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
+=======
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 =======
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.12.2\n"
@@ -3770,7 +3790,13 @@ msgid "Check this option if your pre-printed checks are not numbered."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "印刷済の小切手が番号付けされていない場合は、このオプションをチェックしてください。"
+=======
+msgstr ""
+"印刷済の小切手が番号付けされていない場合は、このオプションをチェックしてくだ"
+"さい。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "印刷済の小切手が番号付けされていない場合は、このオプションをチェックしてくだ"
@@ -4884,10 +4910,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In order to print multiple checks at once, they must belong to the same bank"
 " journal."
 msgstr "一度に複数の小切手を印刷するためには、同じ銀行の台帳に属している必要があります。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5409,6 +5438,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5953,6 +5985,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Payment Providers: Each payment provider has its own Payment Method. Request a transaction on/to a card thanks to a payment token saved by the partner when buying or subscribing online.\n"
 "Check: Pay bills by check and print it from Odoo.\n"
 "Batch Deposit: Collect several customer checks at once generating and submitting a batch deposit to your bank. Module account_batch_payment is necessary.\n"
@@ -5966,6 +5999,8 @@ msgstr ""
 "SEPA Credit Transfer：SEPA Credit Transferファイルを銀行に提出することでSEPAゾーンで支払うことができます。会計_SEPA（account_sepa）モジュールが必要です。\n"
 "SEPA Direct Debit： パートナーから付与された権限により、SEPAゾーンで支払いを受けることができます。会計_SEPA（account_sepa）モジュールが必要です。\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6506,6 +6541,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6897,6 +6935,7 @@ msgstr "支払"
 msgid ""
 "Payments to print as a checks must have 'Check' selected as payment method "
 "and not have already been reconciled"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7936,6 +7975,11 @@ msgstr ""
 "小切手を支払い方法として選択する場合は、支払い方法に'小切手'を選択していると"
 "共に、未消込みである必要があります。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"小切手を支払い方法として選択する場合は、支払い方法に'小切手'を選択していると"
+"共に、未消込みである必要があります。"
+>>>>>>> upstream/18.0
 
 #. module: account_check_printing
 #: model_terms:ir.ui.view,arch_db:account_check_printing.print_pre_numbered_checks_view
@@ -8113,8 +8157,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Please enter the number of the first pre-printed check that you are about to"
 " print on."
+=======
+"Please enter the number of the first pre-printed check that you are about to "
+"print on."
+>>>>>>> upstream/18.0
 =======
 "Please enter the number of the first pre-printed check that you are about to "
 "print on."
@@ -9026,7 +9075,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Select the format corresponding to the check paper you will be printing your checks on.\n"
+=======
+"Select the format corresponding to the check paper you will be printing your "
+"checks on.\n"
+>>>>>>> upstream/18.0
 =======
 "Select the format corresponding to the check paper you will be printing your "
 "checks on.\n"
@@ -9918,8 +9972,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "チェックレイアウトにて何か問題が起きました、請求書発行/会計設定で別のレイアウトを選択して、もう一度お試しください。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10392,6 +10449,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10695,6 +10753,11 @@ msgstr "入力されたチェック番号（%(num)s ）が最大許容値（%(ma
 =======
 msgstr "入力されたチェック番号（%(num)s ）が最大許容値（%(max)d ）を超えています。 "
 "より小さい番号を入力してください。"
+>>>>>>> upstream/18.0
+=======
+msgstr ""
+"入力されたチェック番号（%(num)s ）が最大許容値（%(max)d ）を超えています。 よ"
+"り小さい番号を入力してください。"
 >>>>>>> upstream/18.0
 =======
 msgstr ""
@@ -11128,6 +11191,7 @@ msgstr ""
 msgid ""
 "The last check number was %s. In order to avoid a check being rejected by "
 "the bank, you can only use a greater number."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12167,6 +12231,11 @@ msgstr ""
 "最後のチェックの数は%sでした。銀行によって却下された小切手の利用を回避するた"
 "めに、より大きな番号を使用することができます。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"最後のチェックの数は%sでした。銀行によって却下された小切手の利用を回避するた"
+"めに、より大きな番号を使用することができます。"
+>>>>>>> upstream/18.0
 
 #. module: account_check_printing
 #: model:ir.model.fields,help:account_check_printing.field_account_payment__check_number
@@ -12175,6 +12244,7 @@ msgid ""
 "printed check paper already has numbers or if the current numbering is "
 "wrong, you can change it in the journal configuration page."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13434,6 +13504,11 @@ msgstr ""
 "手用紙は、既に番号を持っているか、現在の番号が間違っている場合は、仕訳帳の設"
 "定ページで変更できます。"
 >>>>>>> upstream/18.0
+=======
+"選択された台帳は、小切手番号を印刷するように構成されています。印刷済みの小切"
+"手用紙は、既に番号を持っているか、現在の番号が間違っている場合は、仕訳帳の設"
+"定ページで変更できます。"
+>>>>>>> upstream/18.0
 
 #. module: account_check_printing
 #: model:ir.model.fields,help:account_check_printing.field_res_company__account_check_printing_multi_stub
@@ -13614,7 +13689,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "このオプションは、それらが単一ページに収まらない場合は、複数ページのチェックの詳細情報（スタブ）を印刷することができます。"
+=======
+msgstr ""
+"このオプションは、それらが単一ページに収まらない場合は、複数ページのチェック"
+"の詳細情報（スタブ）を印刷することができます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "このオプションは、それらが単一ページに収まらない場合は、複数ページのチェック"
@@ -14687,7 +14768,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "あなたが小切手のレイアウトを選択する必要があります。このため、'小切手のレイアウト'とセット1を検索し、請求書発行/会計セッティングに行きます。"
+=======
+"あなたが小切手のレイアウトを選択する必要があります。このため、'小切手のレイア"
+"ウト'とセット1を検索し、請求書発行/会計セッティングに行きます。"
+>>>>>>> upstream/18.0
 =======
 "あなたが小切手のレイアウトを選択する必要があります。このため、'小切手のレイア"
 "ウト'とセット1を検索し、請求書発行/会計セッティングに行きます。"

@@ -198,7 +198,11 @@ class ProjectProject(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     reinvoiced_sale_order_id = fields.Many2one('sale.order', string='Sales Order', groups='sales_team.group_sale_salesman', copy=False, domain="[('partner_id', '=', partner_id)]",
+=======
+    reinvoiced_sale_order_id = fields.Many2one('sale.order', string='Sales Order', groups='sales_team.group_sale_salesman', copy=False, domain="[('partner_id', '=', partner_id)]", index='btree_not_null',
+>>>>>>> upstream/18.0
 =======
     reinvoiced_sale_order_id = fields.Many2one('sale.order', string='Sales Order', groups='sales_team.group_sale_salesman', copy=False, domain="[('partner_id', '=', partner_id)]", index='btree_not_null',
 >>>>>>> upstream/18.0
@@ -1139,7 +1143,10 @@ class ProjectProject(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1841,7 +1848,11 @@ class ProjectProject(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'views': [[False, 'tree'], [False, 'form']],
+=======
+                'views': [[False, 'list'], [False, 'form']],
+>>>>>>> upstream/18.0
 =======
                 'views': [[False, 'list'], [False, 'form']],
 >>>>>>> upstream/18.0
@@ -2750,6 +2761,9 @@ class ProjectProject(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3706,6 +3720,10 @@ class ProjectProject(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'cost_of_goods_sold': self.env._('Cost of Goods Sold'),
+>>>>>>> upstream/18.0
 =======
             'cost_of_goods_sold': self.env._('Cost of Goods Sold'),
 >>>>>>> upstream/18.0
@@ -4771,6 +4789,10 @@ class ProjectProject(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'cost_of_goods_sold': 21,
+>>>>>>> upstream/18.0
 =======
             'cost_of_goods_sold': 21,
 >>>>>>> upstream/18.0
@@ -6049,6 +6071,10 @@ class ProjectProject(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    # TODO: rename method (+ variables and etc.) to reflect that this method now also gets `costs` items
+>>>>>>> upstream/18.0
 =======
     # TODO: rename method (+ variables and etc.) to reflect that this method now also gets `costs` items
 >>>>>>> upstream/18.0
@@ -7207,6 +7233,7 @@ class ProjectProject(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ['price_subtotal', 'parent_state', 'currency_id', 'analytic_distribution', 'move_type', 'move_id']
         )
         # TODO: invoices_move_lines.with_context(prefetch_fields=False).move_id.move_type ??
@@ -7429,6 +7456,9 @@ class ProjectProject(models.Model):
 =======
 >>>>>>> upstream/18.0
             ['price_subtotal', 'parent_state', 'currency_id', 'analytic_distribution', 'move_type', 'move_id', 'display_type']
+=======
+            ['balance', 'parent_state', 'company_currency_id', 'analytic_distribution', 'move_id', 'display_type', 'date']
+>>>>>>> upstream/18.0
 =======
             ['balance', 'parent_state', 'company_currency_id', 'analytic_distribution', 'move_id', 'display_type', 'date']
 >>>>>>> upstream/18.0
@@ -8303,7 +8333,10 @@ class ProjectProject(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             amount_invoiced = amount_to_invoice = 0.0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8850,6 +8883,7 @@ class ProjectProject(models.Model):
                 else:
                     revenues_lines.append(move_line)
             for move_lines, ml_type in ((revenues_lines, 'revenues'), (cogs_lines, 'costs')):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9735,6 +9769,8 @@ class ProjectProject(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 amount_invoiced = amount_to_invoice = 0.0
                 for move_line in move_lines:
                     currency = move_line.company_currency_id
@@ -9935,6 +9971,9 @@ class ProjectProject(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10531,6 +10570,7 @@ class ProjectProject(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         if move_line.move_type == 'out_invoice':
                             amount_to_invoice += price_subtotal * analytic_contribution
                         else:  # move_line.move_type == 'out_refund'
@@ -10540,6 +10580,11 @@ class ProjectProject(models.Model):
                             amount_invoiced += price_subtotal * analytic_contribution
                         else:  # moves_read['move_type'] == 'out_refund'
                             amount_invoiced -= price_subtotal * analytic_contribution
+=======
+                        amount_to_invoice -= line_balance * analytic_contribution
+                    else:  # move_line.parent_state == 'posted'
+                        amount_invoiced -= line_balance * analytic_contribution
+>>>>>>> upstream/18.0
 =======
                         amount_to_invoice -= line_balance * analytic_contribution
                     else:  # move_line.parent_state == 'posted'
@@ -11832,6 +11877,9 @@ class ProjectProject(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12697,10 +12745,13 @@ class ProjectProject(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         profitability_items['revenues']['data'] += revenue_items_from_invoices['data']
         profitability_items['revenues']['total']['to_invoice'] += revenue_items_from_invoices['total']['to_invoice']
         profitability_items['revenues']['total']['invoiced'] += revenue_items_from_invoices['total']['invoiced']
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13559,6 +13610,9 @@ class ProjectProject(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

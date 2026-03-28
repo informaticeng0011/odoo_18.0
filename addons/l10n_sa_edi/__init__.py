@@ -1,7 +1,10 @@
 # -*- coding: utf-8 -*-
 from . import models, wizard
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 
 def _l10n_sa_edi_post_init(env):
@@ -19,4 +22,7 @@ def _l10n_sa_edi_post_init(env):
             Template._load_data({
                 'account.tax': tax_data,
             })
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
