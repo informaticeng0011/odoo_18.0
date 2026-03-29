@@ -424,9 +424,12 @@ class IrHttp(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         user_context = request.session.context if request.session.uid else {}
         lang = user_context.get('lang')
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -901,6 +904,9 @@ class IrHttp(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1653,8 +1659,13 @@ class IrHttp(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 except odoo.exceptions.MissingError:
                     raise werkzeug.exceptions.NotFound()
+=======
+                except odoo.exceptions.MissingError as exc:
+                    raise werkzeug.exceptions.NotFound() from exc
+>>>>>>> upstream/18.0
 =======
                 except odoo.exceptions.MissingError as exc:
                     raise werkzeug.exceptions.NotFound() from exc
@@ -2797,10 +2808,13 @@ class IrHttp(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             endpoint = router.match(path, method='POST', query_args=query_args)
         except werkzeug.exceptions.MethodNotAllowed:
             endpoint = router.match(path, method='GET', query_args=query_args)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3513,6 +3527,9 @@ class IrHttp(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

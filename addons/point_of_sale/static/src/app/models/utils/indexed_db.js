@@ -1,5 +1,6 @@
 import { _t } from "@web/core/l10n/translation";
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -816,10 +817,15 @@ const { DateTime } = luxon;
 export default class IndexedDB {
     constructor(dbName, dbVersion, dbStores) {
 =======
+=======
+>>>>>>> upstream/18.0
 import { AlertDialog } from "@web/core/confirmation_dialog/confirmation_dialog";
 
 export default class IndexedDB {
     constructor(dbName, dbVersion, dbStores, dialog) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         this.db = null;
         this.dbName = dbName;
@@ -827,6 +833,12 @@ export default class IndexedDB {
         this.dbStores = dbStores;
         this.dbInstance = null;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.dialog = dialog;
+        this._isReconnecting = false;
+        this._reloadDialogShown = false;
+>>>>>>> upstream/18.0
 =======
         this.dialog = dialog;
         this._isReconnecting = false;
@@ -851,8 +863,11 @@ export default class IndexedDB {
         const dbInstance = indexedDB.open(this.dbName, this.dbVersion);
         dbInstance.onerror = (event) => {
 <<<<<<< HEAD
+<<<<<<< HEAD
             console.error("Database error: " + event.target.errorCode);
 =======
+=======
+>>>>>>> upstream/18.0
             const err = event.target.error;
             console.error("Database error:", err);
             // Known iOS/Safari WebKit bug: the IDB server process was killed by the OS.
@@ -863,12 +878,19 @@ export default class IndexedDB {
             ) {
                 this._showReloadDialog();
             }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         };
         dbInstance.onsuccess = (event) => {
             this.db = event.target.result;
             console.info(`IndexedDB ${this.dbVersion} Ready`);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            this._setupVisibilityProbe();
+>>>>>>> upstream/18.0
 =======
             this._setupVisibilityProbe();
 >>>>>>> upstream/18.0
@@ -901,6 +923,7 @@ export default class IndexedDB {
                         delete alreadyExists.write_date;
                     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1990,6 +2013,9 @@ export default class IndexedDB {
 =======
                     if (alreadyExists && JSON.stringify(alreadyExists) === JSON.stringify(data)) {
 >>>>>>> upstream/18.0
+=======
+                    if (alreadyExists && JSON.stringify(alreadyExists) === JSON.stringify(data)) {
+>>>>>>> upstream/18.0
                         delete arrData[idx];
                     }
                 }
@@ -2010,6 +2036,7 @@ export default class IndexedDB {
             });
         });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3097,6 +3124,9 @@ export default class IndexedDB {
 =======
         return Promise.allSettled(promises).then((results) => results);
 >>>>>>> upstream/18.0
+=======
+        return Promise.allSettled(promises).then((results) => results);
+>>>>>>> upstream/18.0
     }
     getNewTransaction(dbStore) {
         try {
@@ -3108,18 +3138,27 @@ export default class IndexedDB {
         } catch (e) {
             console.info("DATABASE is not ready yet", e);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             if (e.name === "InvalidStateError") {
                 this.db = null;
                 this._attemptReconnect();
             }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             return false;
         }
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     _attemptReconnect() {
         if (this._isReconnecting) {
             return;
@@ -3172,6 +3211,9 @@ export default class IndexedDB {
         });
     }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     reset() {
         if (!this.dbInstance) {
@@ -3483,8 +3525,13 @@ export default class IndexedDB {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return Promise.allSettled(promises).then((results) => {
             return results.reduce((acc, result) => {
+=======
+        return Promise.allSettled(promises).then((results) =>
+            results.reduce((acc, result) => {
+>>>>>>> upstream/18.0
 =======
         return Promise.allSettled(promises).then((results) =>
             results.reduce((acc, result) => {
@@ -4845,8 +4892,13 @@ export default class IndexedDB {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             }, {});
         });
+=======
+            }, {})
+        );
+>>>>>>> upstream/18.0
 =======
             }, {})
         );

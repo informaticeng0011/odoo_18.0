@@ -97,7 +97,10 @@ class IrConfigParameter(models.Model):
         return super().set_param(key, value)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -122,6 +125,9 @@ class IrConfigParameter(models.Model):
                 vals['value'] = self._sanitize_param_value(key, vals['value'])
         return super().write(vals)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

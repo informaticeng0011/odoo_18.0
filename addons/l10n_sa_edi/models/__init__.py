@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from . import account_edi_format
 from . import account_journal
 from . import account_move
@@ -1148,6 +1149,8 @@ from . import ir_attachment
 from . import ir_attachment
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 from . import account_chart_template
@@ -1163,6 +1166,9 @@ from . import res_company
 from . import res_config_settings
 from . import res_partner
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

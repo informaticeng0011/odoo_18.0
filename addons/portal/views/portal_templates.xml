@@ -33,6 +33,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        <xpath expr="//html" position="attributes">
+            <attribute name="t-att-dir" add="request.env['res.lang']._get_data(code=request.env.lang).direction" separator=" "/>
+        </xpath>
+>>>>>>> upstream/18.0
 =======
         <xpath expr="//html" position="attributes">
             <attribute name="t-att-dir" add="request.env['res.lang']._get_data(code=request.env.lang).direction" separator=" "/>
@@ -740,7 +746,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <option t-att-value="country.id" t-att-selected="country.id == int(country_id) if country_id else country.id == partner.country_id.id">
+=======
+                    <option t-att-value="country.id" t-att-selected="country.id == (False if country_id == 'False' else int(country_id)) if country_id else country.id == partner.country_id.id">
+>>>>>>> upstream/18.0
 =======
                     <option t-att-value="country.id" t-att-selected="country.id == (False if country_id == 'False' else int(country_id)) if country_id else country.id == partner.country_id.id">
 >>>>>>> upstream/18.0

@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sale_management
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -326,6 +327,9 @@
 =======
 # * sale_management
 >>>>>>> upstream/18.0
+=======
+# * sale_management
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -434,6 +438,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -628,6 +633,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
@@ -654,6 +662,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1057,6 +1066,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:36+0000\n"
 "PO-Revision-Date: 2026-03-21 09:31+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -1068,6 +1079,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1085,6 +1099,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1421,6 +1436,11 @@ msgstr ""
 "n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
 "X-Generator: Weblate 5.16.2\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && "
+"n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: sale_management
 #: model_terms:ir.ui.view,arch_db:sale_management.report_saleorder_document_inherit_sale_management
@@ -1442,7 +1462,11 @@ msgid "<span invisible=\"not require_payment\">of</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span invisible=\"not require_payment\">z</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span invisible=\"not require_payment\">z</span>"
 >>>>>>> upstream/18.0
@@ -1555,6 +1579,7 @@ msgid ""
 "Conversion between Units of Measure can only occur if they belong to the "
 "same category. The conversion will be made based on the ratios."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2082,6 +2107,10 @@ msgstr ""
 "Ku konverzii medzi mernými jednotkami môže dôjsť len v prípade, že patria do "
 "rovnakej kategórie. Konverzia bude spravená na základe pomerov."
 >>>>>>> upstream/18.0
+=======
+"Ku konverzii medzi mernými jednotkami môže dôjsť len v prípade, že patria do "
+"rovnakej kategórie. Konverzia bude spravená na základe pomerov."
+>>>>>>> upstream/18.0
 
 #. module: sale_management
 #: model_terms:ir.ui.view,arch_db:sale_management.res_config_settings_view_form
@@ -2119,7 +2148,11 @@ msgid "Default Sale Template"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Predvolená šablóna objednávky"
+>>>>>>> upstream/18.0
 =======
 msgstr "Predvolená šablóna objednávky"
 >>>>>>> upstream/18.0
@@ -2208,6 +2241,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Zakázaný produkt, množstvo a merná jednotka v neúčtovateľnom riadku ponuky"
+>>>>>>> upstream/18.0
 =======
 "Zakázaný produkt, množstvo a merná jednotka v neúčtovateľnom riadku ponuky"
 >>>>>>> upstream/18.0
@@ -2268,6 +2305,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ak je táto možnosť nastavená, objednávka s touto šablónou bude fakturovať do "
+"tohto denníka; v opačnom prípade sa použije denník predaja s najnižším "
+"poradovým číslom."
+>>>>>>> upstream/18.0
 =======
 "Ak je táto možnosť nastavená, objednávka s touto šablónou bude fakturovať do "
 "tohto denníka; v opačnom prípade sa použije denník predaja s najnižším "
@@ -2323,7 +2366,11 @@ msgid "Invoicing Journal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fakturačný denník"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fakturačný denník"
 >>>>>>> upstream/18.0
@@ -2382,6 +2429,7 @@ msgstr "Riadky"
 #: model:ir.model.constraint,message:sale_management.constraint_sale_order_template_line_accountable_product_id_required
 msgid "Missing required product and UoM on accountable sale quote line."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2804,6 +2852,9 @@ msgstr ""
 =======
 "Chýba požadovaný produkt a merná jednotka na zodpovedajúcich riadkoch ponuky."
 >>>>>>> upstream/18.0
+=======
+"Chýba požadovaný produkt a merná jednotka na zodpovedajúcich riadkoch ponuky."
+>>>>>>> upstream/18.0
 
 #. module: sale_management
 #: model:ir.model.fields.selection,name:sale_management.selection__sale_order_template_line__display_type__line_note
@@ -2854,7 +2905,11 @@ msgid "Prepayment percentage"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Percento preddavku"
+>>>>>>> upstream/18.0
 =======
 msgstr "Percento preddavku"
 >>>>>>> upstream/18.0
@@ -2888,7 +2943,11 @@ msgid "Prepayment percentage must be a valid percentage."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Percento zálohy musí byť platné percento."
+>>>>>>> upstream/18.0
 =======
 msgstr "Percento zálohy musí byť platné percento."
 >>>>>>> upstream/18.0
@@ -2990,7 +3049,11 @@ msgid "Quotation Validity"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Platnosť ponuky"
+>>>>>>> upstream/18.0
 =======
 msgstr "Platnosť ponuky"
 >>>>>>> upstream/18.0
@@ -3096,6 +3159,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Predávate ten istý produkt v rôznych veľkostiach alebo farbách? Vyskúšajte "
+"produktovú mriežku a vyplňte svoje objednávky viacerými kusmi každej "
+"varianty. Táto funkcia je k dispozícii aj v aplikácii Nákup."
+>>>>>>> upstream/18.0
 =======
 "Predávate ten istý produkt v rôznych veľkostiach alebo farbách? Vyskúšajte "
 "produktovú mriežku a vyplňte svoje objednávky viacerými kusmi každej "
@@ -3153,7 +3222,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3176,6 +3248,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3220,7 +3295,11 @@ msgid "The percentage of the amount needed to be paid to confirm quotations."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " Percento sumy, ktorú je potrebné zaplatiť na potvrdenie ponúk."
+>>>>>>> upstream/18.0
 =======
 msgstr " Percento sumy, ktorú je potrebné zaplatiť na potvrdenie ponúk."
 >>>>>>> upstream/18.0
@@ -3272,7 +3351,11 @@ msgid "Tip: Odoo supports configurable products"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tip: Odoo podporuje konfigurovateľné produkty"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tip: Odoo podporuje konfigurovateľné produkty"
 >>>>>>> upstream/18.0
@@ -3306,7 +3389,11 @@ msgid "Tip: Sell or buy products in bulk with matrixes"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tip: Predávajte alebo nakupujte produkty vo veľkom pomocou matíc"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tip: Predávajte alebo nakupujte produkty vo veľkom pomocou matíc"
 >>>>>>> upstream/18.0
@@ -3462,12 +3549,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                Send these quotes by email and let your customers sign online.\n"
 "                Use cross-selling and discounts to push and boost your sales."
 msgstr ""
 "Vytvárajte pomocou šablón upravené, profesionálne cenové ponuky v priebehu niekoľkých minút.\n"
 "Odošlite tieto ponuky emailom a nechajte vašich zákazníkov podpísať ich online.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3788,6 +3878,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4124,6 +4217,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Your quotation contains products from company %(product_company)s whereas your quotation belongs to company %(quote_company)s. \n"
 " Please change the company of your quotation or remove the products from other companies (%(bad_products)s)."
 msgstr ""
@@ -4136,6 +4230,8 @@ msgstr ""
 msgid "Your template cannot contain products from multiple companies."
 msgstr "Vaša šablóna nemôže obsahovať produkty od viacerých spoločností."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4457,6 +4553,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4671,6 +4770,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/sale_management/models/sale_order_template.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4987,6 +5087,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Your template belongs to company %(template_company)s but contains products "
 "from company (%(product_company)s) that are not accessible to %"
 "(template_company)s.\n"
@@ -5000,7 +5102,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5024,6 +5129,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5055,7 +5163,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5079,6 +5190,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5204,6 +5318,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5401,6 +5516,8 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5423,6 +5540,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5452,6 +5572,7 @@ msgid "e.g. Standard Consultancy Package"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6054,6 +6175,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "napr. Štandardný konzultačný balík"
 
 #~ msgid "Your template cannot contain products from multiple companies."
@@ -6064,6 +6187,9 @@ msgstr "napr. Štandardný konzultačný balík"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

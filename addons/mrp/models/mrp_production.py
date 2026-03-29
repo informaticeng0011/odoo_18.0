@@ -508,8 +508,11 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if any(float_compare(move.forecast_availability, 0 if move.state == 'draft' else move.product_qty, precision_rounding=move.product_id.uom_id.rounding) == -1 for move in production.move_raw_ids):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -904,6 +907,9 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1491,11 +1497,14 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for order in self:
             order.picking_ids = self.env['stock.picking'].search([
                 ('group_id', '=', order.procurement_group_id.id), ('group_id', '!=', False),
             ])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2181,6 +2190,9 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2741,7 +2753,11 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             deleted_workorders_ids = production.workorder_ids.filtered(lambda wo: wo.operation_id and wo.operation_id.bom_id not in relevant_boms).ids
+=======
+            deleted_workorders_ids = production.workorder_ids.filtered(lambda wo: wo.operation_id and wo.operation_id.bom_id not in relevant_boms).mapped('id')
+>>>>>>> upstream/18.0
 =======
             deleted_workorders_ids = production.workorder_ids.filtered(lambda wo: wo.operation_id and wo.operation_id.bom_id not in relevant_boms).mapped('id')
 >>>>>>> upstream/18.0
@@ -2824,6 +2840,7 @@ class MrpProduction(models.Model):
             if not production.bom_id and not production._origin.product_id:
                 production.workorder_ids = workorders_list
             # if the product has changed or if in a second onchange with bom resets the relations
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3389,6 +3406,11 @@ class MrpProduction(models.Model):
                 or (not production._origin.bom_id and production.bom_id) \
                 or (production._origin.bom_id != production.bom_id and production._origin.bom_id.operation_ids and not production.workorder_ids.filtered(lambda wo: wo.ids and wo.operation_id)):
 >>>>>>> upstream/18.0
+=======
+            if production.product_id != production._origin.product_id \
+                or (not production._origin.bom_id and production.bom_id) \
+                or (production._origin.bom_id != production.bom_id and production._origin.bom_id.operation_ids and not production.workorder_ids.filtered(lambda wo: wo.ids and wo.operation_id)):
+>>>>>>> upstream/18.0
                 production.workorder_ids = [Command.clear()]
             if production.bom_id and production.product_id and production.product_qty > 0:
                 # keep manual entries
@@ -3402,6 +3424,7 @@ class MrpProduction(models.Model):
                     if not (bom.operation_ids and (not bom_data['parent_line'] or bom_data['parent_line'].bom_id.operation_ids != bom.operation_ids)):
                         continue
                     for operation in bom.operation_ids:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4095,6 +4118,9 @@ class MrpProduction(models.Model):
 =======
                         if operation.with_context(never_attribute_ids=production.never_product_template_attribute_value_ids)._skip_operation_line(bom_data['product'] if not bom_data['parent_line'] else bom_data['parent_line']['product_id']):
 >>>>>>> upstream/18.0
+=======
+                        if operation.with_context(never_attribute_ids=production.never_product_template_attribute_value_ids)._skip_operation_line(bom_data['product'] if not bom_data['parent_line'] else bom_data['parent_line']['product_id']):
+>>>>>>> upstream/18.0
                             workorder = production.workorder_ids.filtered(lambda wo: wo.operation_id == operation and wo.operation_id.bom_id == bom)
                             if workorder:
                                 # If for some reason a non-relevant workorder is still there, e.g. after a change in never_product_template_attribute_value_ids
@@ -4135,7 +4161,11 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     lambda wo: wo.operation_id and wo.ids and wo.id not in deleted_workorders_ids)}
+=======
+                    lambda wo: wo.operation_id and wo.id not in deleted_workorders_ids)}
+>>>>>>> upstream/18.0
 =======
                     lambda wo: wo.operation_id and wo.id not in deleted_workorders_ids)}
 >>>>>>> upstream/18.0
@@ -4249,7 +4279,11 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 production.workorder_ids = [Command.delete(wo.id) for wo in production.workorder_ids.filtered(lambda wo: wo.ids and wo.operation_id)]
+=======
+                production.workorder_ids = [Command.delete(wo_id) for wo_id in production.workorder_ids.filtered(lambda wo: wo.operation_id).mapped('id')]
+>>>>>>> upstream/18.0
 =======
                 production.workorder_ids = [Command.delete(wo_id) for wo_id in production.workorder_ids.filtered(lambda wo: wo.operation_id).mapped('id')]
 >>>>>>> upstream/18.0
@@ -4464,8 +4498,11 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             relevant_move_state = production.move_raw_ids.filtered(lambda m: not (m.picked or float_is_zero(m.product_uom_qty, precision_rounding=m.product_uom.rounding)))._get_relevant_state_among_moves()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4862,6 +4899,9 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5231,6 +5271,7 @@ class MrpProduction(models.Model):
             days_delay = production.bom_id.produce_delay
             date_finished = production.date_start + relativedelta(days=days_delay)
             if production._should_postpone_date_finished(date_finished):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6004,6 +6045,8 @@ class MrpProduction(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 date_finished = production._calculate_expected_finished_date(date_finished) or \
                     (date_finished + relativedelta(minutes=sum(production.workorder_ids.mapped('duration_expected')) or 60))
             production.date_finished = date_finished
@@ -6095,6 +6138,9 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6332,7 +6378,10 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6535,6 +6584,9 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6860,7 +6912,11 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if move_str not in vals or self.state in ['draft', 'cancel', 'done']:
+=======
+            if move_str not in vals or self.state in ['cancel', 'done']:
+>>>>>>> upstream/18.0
 =======
             if move_str not in vals or self.state in ['cancel', 'done']:
 >>>>>>> upstream/18.0
@@ -7131,6 +7187,7 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         res = super().write(vals)
 =======
 =======
@@ -7187,6 +7244,9 @@ class MrpProduction(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        res = super().write(vals)
 >>>>>>> upstream/18.0
 =======
         res = super().write(vals)
@@ -7420,7 +7480,10 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7852,6 +7915,9 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8429,9 +8495,15 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             action['views'] = [(self.env.ref('stock.view_picking_form').id, 'form')]
             if 'views' in action:
                 action['views'] += [(state, view) for state, view in action['views'] if view != 'form']
+=======
+            picking_form = self.env.ref('stock.view_picking_form', False)
+            picking_form_view = [(picking_form and picking_form.id or False, 'form')]
+            action['views'] = picking_form_view + [(state, view) for state, view in action.get('views', []) if view != 'form']
+>>>>>>> upstream/18.0
 =======
             picking_form = self.env.ref('stock.view_picking_form', False)
             picking_form_view = [(picking_form and picking_form.id or False, 'form')]
@@ -9903,7 +9975,11 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'move_dest_ids': [(4, x.id) for x in self.move_dest_ids if not byproduct_id],
+=======
+            'move_dest_ids': [(4, x.id) for x in move_dest_ids if not byproduct_id],
+>>>>>>> upstream/18.0
 =======
             'move_dest_ids': [(4, x.id) for x in move_dest_ids if not byproduct_id],
 >>>>>>> upstream/18.0
@@ -10715,8 +10791,11 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for move in (self.move_raw_ids.filtered(lambda m: not is_waiting or m.product_id.tracking == 'none') | self.move_finished_ids.filtered(lambda m: m.product_id != self.product_id)):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11405,6 +11484,9 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12116,6 +12198,7 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if not move.manual_consumption or pick_manual_consumption_moves:
 =======
             if (not move.manual_consumption or pick_manual_consumption_moves) and move.quantity:
@@ -12161,6 +12244,11 @@ class MrpProduction(models.Model):
 >>>>>>> upstream/18.0
 =======
             if (not move.manual_consumption or pick_manual_consumption_moves) and move.quantity:
+>>>>>>> upstream/18.0
+=======
+            if (not move.manual_consumption or pick_manual_consumption_moves) \
+                    and move.quantity \
+                    and (move.product_id != self.product_id or not move.production_id or move.product_id.tracking != 'serial'):
 >>>>>>> upstream/18.0
 =======
             if (not move.manual_consumption or pick_manual_consumption_moves) \
@@ -13765,7 +13853,11 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         workorders = self.workorder_ids.filtered(lambda w: w.state not in ['done', 'cancel'])
+=======
+        workorders = self.workorder_ids.filtered(lambda w: w.leave_id and w.state not in ['done', 'cancel'])
+>>>>>>> upstream/18.0
 =======
         workorders = self.workorder_ids.filtered(lambda w: w.leave_id and w.state not in ['done', 'cancel'])
 >>>>>>> upstream/18.0
@@ -14530,6 +14622,11 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if any(mo.state == 'done' for mo in self):
+            raise UserError(_("You cannot cancel a manufacturing order that is already done."))
+>>>>>>> upstream/18.0
 =======
         if any(mo.state == 'done' for mo in self):
             raise UserError(_("You cannot cancel a manufacturing order that is already done."))
@@ -15335,7 +15432,11 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             for move_raw_id in self.move_raw_ids.filtered(lambda m: m.state not in ('done', 'cancel')):
+=======
+            for move_raw_id in production.move_raw_ids.filtered(lambda m: m.state not in ('done', 'cancel')):
+>>>>>>> upstream/18.0
 =======
             for move_raw_id in production.move_raw_ids.filtered(lambda m: m.state not in ('done', 'cancel')):
 >>>>>>> upstream/18.0
@@ -16247,6 +16348,11 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if self.env.context.get('skip_activity'):
+                continue
+>>>>>>> upstream/18.0
 =======
             if self.env.context.get('skip_activity'):
                 continue
@@ -17238,8 +17344,13 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         (finish_moves | raw_moves)._action_cancel()
         picking_ids = self.picking_ids.filtered(lambda x: x.state not in ('done', 'cancel'))
+=======
+        (finish_moves | raw_moves).with_context(skip_mo_check=True)._action_cancel()
+        picking_ids = self.picking_ids.filtered(lambda x: x.state not in ('done', 'cancel') and not any(mo.state == 'done' for mo in x.production_ids))
+>>>>>>> upstream/18.0
 =======
         (finish_moves | raw_moves).with_context(skip_mo_check=True)._action_cancel()
         picking_ids = self.picking_ids.filtered(lambda x: x.state not in ('done', 'cancel') and not any(mo.state == 'done' for mo in x.production_ids))
@@ -17792,7 +17903,11 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if workorder.duration == 0.0:
+=======
+                if workorder.duration == 0.0 and workorder.state != 'cancel':
+>>>>>>> upstream/18.0
 =======
                 if workorder.duration == 0.0 and workorder.state != 'cancel':
 >>>>>>> upstream/18.0
@@ -18618,7 +18733,11 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if regex.search(name) and sequence > 1:
+=======
+        if regex.search(name) and (max(self.procurement_group_id.mrp_production_ids.mapped("backorder_sequence")) > 1 or sequence > 1):
+>>>>>>> upstream/18.0
 =======
         if regex.search(name) and (max(self.procurement_group_id.mrp_production_ids.mapped("backorder_sequence")) > 1 or sequence > 1):
 >>>>>>> upstream/18.0
@@ -20099,6 +20218,11 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                if res is not True:
+                    res['context'] = dict(res.get('context', {}), marked_as_done=all(mo.state == 'done' for mo in self))
+>>>>>>> upstream/18.0
 =======
                 if res is not True:
                     res['context'] = dict(res.get('context', {}), marked_as_done=all(mo.state == 'done' for mo in self))
@@ -21255,6 +21379,10 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'location_final_id': all(mo.location_final_id for mo in self) and len(self.location_final_id) == 1 and self.location_final_id.id,
+>>>>>>> upstream/18.0
 =======
             'location_final_id': all(mo.location_final_id for mo in self) and len(self.location_final_id) == 1 and self.location_final_id.id,
 >>>>>>> upstream/18.0
@@ -21636,6 +21764,7 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self.state == 'draft' and self.bom_id == bom:
             # Empties `bom_id` field so when the BoM is reassigns to this field, depending computes
             # will be triggered (doesn't happen if the field's value doesn't change).
@@ -21647,6 +21776,8 @@ class MrpProduction(models.Model):
                 moves_to_unlink = self.move_raw_ids
                 workorders_to_unlink = self.workorder_ids
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21842,6 +21973,11 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                # Only remove manual lines (not coming from BoM)
+                workorders_to_unlink = workorders_to_unlink.filtered(lambda w: not w.operation_id)
+>>>>>>> upstream/18.0
 =======
                 # Only remove manual lines (not coming from BoM)
                 workorders_to_unlink = workorders_to_unlink.filtered(lambda w: not w.operation_id)
@@ -22042,6 +22178,9 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22553,6 +22692,11 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if self.warehouse_id.manufacture_steps in ('pbm', 'pbm_sam'):
+            moves_to_unlink.product_uom_qty = 0
+>>>>>>> upstream/18.0
 =======
         if self.warehouse_id.manufacture_steps in ('pbm', 'pbm_sam'):
             moves_to_unlink.product_uom_qty = 0
@@ -23794,7 +23938,10 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24131,6 +24278,9 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

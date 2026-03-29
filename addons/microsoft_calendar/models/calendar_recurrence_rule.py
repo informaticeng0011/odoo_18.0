@@ -102,8 +102,11 @@ class RecurrenceRule(models.Model):
         new_event_values = self.env["calendar.event"]._microsoft_to_odoo_values(microsoft_event)
         # Edge case:  if the base event was deleted manually in 'self_only' update, skip applying recurrence.
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self._has_base_event_time_fields_changed(new_event_values) and (new_event_values['start'] >= self.base_event_id.start):
 =======
+=======
+>>>>>>> upstream/18.0
         # Also skip when the base event is an exception (follow_recurrence=False), because its
         # modified time will differ from the seriesMaster pattern without the master having changed,
         # and entering the destructive path would clear all Microsoft IDs
@@ -112,6 +115,9 @@ class RecurrenceRule(models.Model):
             (new_event_values['start'] >= self.base_event_id.start) and
             self.base_event_id.follow_recurrence
         ):
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             # we need to recreate the recurrence, time_fields were modified.
             base_event_id = self.base_event_id
@@ -460,7 +466,10 @@ class RecurrenceRule(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1241,6 +1250,9 @@ class RecurrenceRule(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

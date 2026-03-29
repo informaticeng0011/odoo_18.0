@@ -1419,7 +1419,10 @@ class TestUpdateEvents(TestCommon):
         self.assertTrue(all(ev.need_sync_m for ev in self.recurrent_events))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @freeze_time('2021-09-22')
     @patch.object(MicrosoftCalendarService, 'get_events')
     def test_resync_recurrence_with_exception_base_event_preserves_microsoft_ids(self, mock_get_events):
@@ -1497,6 +1500,9 @@ class TestUpdateEvents(TestCommon):
 
         self.assertFalse(base_event.follow_recurrence, "Base event should remain an exception")
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     @patch.object(MicrosoftSync, '_write_from_microsoft')
     @patch.object(MicrosoftCalendarService, 'get_events')

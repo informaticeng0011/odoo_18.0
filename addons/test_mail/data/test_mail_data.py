@@ -295,6 +295,7 @@ Content-ID: <f_lfosfm0l0>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 MAIL_MULTIPART_BINARY_OCTET_STREAM = """X-Original-To: raoul@grosbedon.fr
 Delivered-To: raoul@grosbedon.fr
 Received: by mail1.grosbedon.com (Postfix, from userid 10002)
@@ -323,6 +324,8 @@ SGVsbG8gd29ybGQK
 --Apple-Mail=_9331E12B-8BD2-4EC7-B53E-01F3FBEC9227--
 """
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1519,6 +1522,10 @@ Content-Type: {pdf_mime}; name="scan_soraya.lernout_1691652648.pdf"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Content-Disposition: attachment; filename="scan_soraya.lernout_1691652648.pdf"
+>>>>>>> upstream/18.0
 =======
 Content-Disposition: attachment; filename="scan_soraya.lernout_1691652648.pdf"
 >>>>>>> upstream/18.0

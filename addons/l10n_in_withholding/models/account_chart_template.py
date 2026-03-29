@@ -1,6 +1,10 @@
 from odoo import models
 from odoo.addons.account.models.chart_template import template
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.exceptions import UserError, RedirectWarning
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import UserError, RedirectWarning
 >>>>>>> upstream/18.0
@@ -27,7 +31,10 @@ class AccountChartTemplate(models.AbstractModel):
             },
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def _get_tag_mapper(self, country_id):
         original_mapper = super()._get_tag_mapper(country_id)
@@ -50,4 +57,7 @@ class AccountChartTemplate(models.AbstractModel):
                     button_text=self.env._("Update app"),
                 )
         return wrapped_mapper
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

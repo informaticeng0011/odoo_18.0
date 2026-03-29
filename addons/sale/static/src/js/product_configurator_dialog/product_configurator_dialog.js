@@ -269,8 +269,13 @@ export class ProductConfiguratorDialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const { price } = await this._updateCombination(product, quantity);
         product.quantity = quantity;
+=======
+        product.quantity = quantity;
+        const { price } = await this._updateCombination(product, quantity);
+>>>>>>> upstream/18.0
 =======
         product.quantity = quantity;
         const { price } = await this._updateCombination(product, quantity);

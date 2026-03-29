@@ -150,6 +150,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* hr_work_entry_contract
 # 
 # Translators:
@@ -771,6 +772,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * hr_work_entry_contract
 #
 # Translators:
@@ -927,6 +930,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1230,6 +1236,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2088,6 +2095,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-10-28 19:44+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-18/"
@@ -2247,6 +2257,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2554,6 +2567,7 @@ msgid ""
 "\n"
 "        Defines the source for work entries generation\n"
 "\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3688,6 +3702,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "        Working Schedule: Work entries will be generated from the working "
 "hours below.\n"
 "        Attendances: Work entries will be generated from the employee's "
@@ -3786,6 +3802,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3960,6 +3979,7 @@ msgstr ""
 #: code:addons/hr_work_entry_contract/models/hr_work_entry.py:0
 msgid ""
 "%(employee)s does not have a contract from %(date_start)s to %(date_end)s."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4381,6 +4401,10 @@ msgstr ""
 msgstr ""
 "%(employee)sには %(date_start)s から %(date_end)sまでの契約書がありません。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"%(employee)sには %(date_start)s から %(date_end)sまでの契約書がありません。"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry_contract
 #. odoo-python
@@ -4389,6 +4413,7 @@ msgid ""
 "%(employee)s has multiple contracts from %(date_start)s to %(date_end)s. A "
 "work entry cannot overlap multiple contracts."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5391,6 +5416,10 @@ msgstr ""
 "%(employee)sは%(date_start)s から%(date_end)sへの複数契約を持っています。勤務"
 "記録は複数の契約で重複することはできません。 "
 >>>>>>> upstream/18.0
+=======
+"%(employee)sは%(date_start)s から%(date_end)sへの複数契約を持っています。勤務"
+"記録は複数の契約で重複することはできません。 "
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry_contract
 #: model_terms:ir.ui.view,arch_db:hr_work_entry_contract.hr_work_entry_regeneration_wizard
@@ -5398,6 +5427,7 @@ msgid ""
 "<i class=\"fa fa-exclamation-triangle me-1\" title=\"Warning\"/>You are not "
 "allowed to regenerate validated work entries"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6400,6 +6430,10 @@ msgstr ""
 "<i class=\"fa fa-exclamation-triangle me-1\" title=\"Warning\"/>検証済の勤務"
 "記録を再生成することはできません。"
 >>>>>>> upstream/18.0
+=======
+"<i class=\"fa fa-exclamation-triangle me-1\" title=\"Warning\"/>検証済の勤務"
+"記録を再生成することはできません。"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry_contract
 #: model_terms:ir.ui.view,arch_db:hr_work_entry_contract.hr_work_entry_regeneration_wizard
@@ -6411,6 +6445,7 @@ msgstr "<i class=\"fa fa-info-circle me-1\" title=\"Hint\"/>"
 msgid ""
 "<span class=\"text-muted\">Warning: The work entry regeneration will delete "
 "all manual changes on the selected period.</span>"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7496,6 +7531,11 @@ msgstr ""
 "<span class=\"text-muted\">警告: 勤務記録再生成は、選択された期間のすべての手"
 "動変更を削除します。</span>"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"<span class=\"text-muted\">警告: 勤務記録再生成は、選択された期間のすべての手"
+"動変更を削除します。</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry_contract
 #: model:ir.model.fields,help:hr_work_entry_contract.field_hr_work_entry_type__is_leave
@@ -7729,7 +7769,11 @@ msgid "Allow the work entry type to be linked with time off types."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "作業エントリのタイプを休暇のタイプとリンクできるようにします。"
+=======
+msgstr "勤務記録のタイプを休暇のタイプとリンクできるようにします。"
+>>>>>>> upstream/18.0
 =======
 msgstr "勤務記録のタイプを休暇のタイプとリンクできるようにします。"
 >>>>>>> upstream/18.0
@@ -8707,7 +8751,11 @@ msgid "Everybody's work entries"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "全員の作業エントリ"
+=======
+msgstr "全員の勤務記録"
+>>>>>>> upstream/18.0
 =======
 msgstr "全員の勤務記録"
 >>>>>>> upstream/18.0
@@ -9643,7 +9691,11 @@ msgid "Generate Missing Work Entries"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "欠落している作業エントリの作成"
+=======
+msgstr "欠落している勤務記録の作成"
+>>>>>>> upstream/18.0
 =======
 msgstr "欠落している勤務記録の作成"
 >>>>>>> upstream/18.0
@@ -10579,6 +10631,7 @@ msgid "HR Work Entry"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "HR作業エントリ"
 =======
 msgstr "HR勤務記録"
@@ -11267,10 +11320,14 @@ msgstr "人事勤務記録"
 =======
 msgstr "人事勤務記録"
 >>>>>>> upstream/18.0
+=======
+msgstr "人事勤務記録"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry_contract
 #: model:ir.model,name:hr_work_entry_contract.model_hr_work_entry_type
 msgid "HR Work Entry Type"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12188,6 +12245,9 @@ msgstr "人事勤務記録タイプ"
 =======
 msgstr "人事勤務記録タイプ"
 >>>>>>> upstream/18.0
+=======
+msgstr "人事勤務記録タイプ"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry_contract
 #: model:hr.work.entry.type,name:hr_work_entry_contract.work_entry_type_home_working
@@ -12203,6 +12263,7 @@ msgstr "ID"
 #. odoo-python
 #: code:addons/hr_work_entry_contract/wizard/hr_work_entry_regeneration_wizard.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13040,6 +13101,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "In order to regenerate the work entries, you need to provide the wizard with "
 "an employee_id, a date_from and a date_to. In addition to that, the time "
 "interval defined by date_from and date_to must not contain any validated "
@@ -13131,6 +13194,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13305,6 +13371,7 @@ msgstr ""
 msgid ""
 "Invalid option: For fully flexible calendars, the work entry source cannot "
 "be 'Working Hours'."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14390,6 +14457,11 @@ msgstr ""
 " 無効なオプション: 完全フレックスのカレンダの場合、勤務記録元は'就業時間'には"
 "できません。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+" 無効なオプション: 完全フレックスのカレンダの場合、勤務記録元は'就業時間'には"
+"できません。"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry_contract
 #: model:ir.model.fields,field_description:hr_work_entry_contract.field_hr_contract__last_generation_date
@@ -14659,7 +14731,11 @@ msgid "Regenerate Employee Work Entries"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "従業員作業エントリを再生成"
+=======
+msgstr "従業員勤務記録を再生成"
+>>>>>>> upstream/18.0
 =======
 msgstr "従業員勤務記録を再生成"
 >>>>>>> upstream/18.0
@@ -15582,7 +15658,11 @@ msgid "Regenerate Work Entries"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "作業エントリの再生成"
+=======
+msgstr "勤務記録の再生成"
+>>>>>>> upstream/18.0
 =======
 msgstr "勤務記録の再生成"
 >>>>>>> upstream/18.0
@@ -16289,6 +16369,7 @@ msgstr "病気休暇"
 #. module: hr_work_entry_contract
 #. odoo-python
 #: code:addons/hr_work_entry_contract/models/hr_contract.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17292,6 +17373,10 @@ msgstr "申し訳ありませんが、取消済の契約書からの勤務記録
 msgid "Sorry, generating work entries from cancelled contracts is not allowed."
 msgstr "申し訳ありませんが、取消済の契約書からの勤務記録は許可されていません。"
 >>>>>>> upstream/18.0
+=======
+msgid "Sorry, generating work entries from cancelled contracts is not allowed."
+msgstr "申し訳ありませんが、取消済の契約書からの勤務記録は許可されていません。"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry_contract
 #. odoo-python
@@ -17302,6 +17387,7 @@ msgid ""
 "entries time interval."
 msgstr ""
 "開始日付は >= '%(earliest_available_date)s'である必要があり、終了日付は  <= "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18303,6 +18389,10 @@ msgstr ""
 "'%(latest_available_date)s'である必要があり、 生成された勤務記録の時間間隔に"
 "対応します。"
 >>>>>>> upstream/18.0
+=======
+"'%(latest_available_date)s'である必要があり、 生成された勤務記録の時間間隔に"
+"対応します。"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry_contract
 #: model_terms:ir.ui.view,arch_db:hr_work_entry_contract.hr_work_entry_contract_view_form_inherit
@@ -18536,7 +18626,11 @@ msgid "This work entry cannot be validated. The work entry type is undefined."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "この作業エントリは検証することができません。作業エントリタイプが未定義です。"
+=======
+msgstr "この勤務記録は検証することができません。勤務記録タイプが未定義です。"
+>>>>>>> upstream/18.0
 =======
 msgstr "この勤務記録は検証することができません。勤務記録タイプが未定義です。"
 >>>>>>> upstream/18.0
@@ -19477,7 +19571,11 @@ msgid "Work Entries"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "作業エントリ"
+=======
+msgstr "勤務記録"
+>>>>>>> upstream/18.0
 =======
 msgstr "勤務記録"
 >>>>>>> upstream/18.0
@@ -20398,7 +20496,11 @@ msgid "Work Entries Within Interval"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "間隔内の作業エントリ"
+=======
+msgstr "間隔内の勤務記録"
+>>>>>>> upstream/18.0
 =======
 msgstr "間隔内の勤務記録"
 >>>>>>> upstream/18.0
@@ -21319,7 +21421,11 @@ msgid "Work Entry Regeneration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "作業エントリ再生成"
+=======
+msgstr "勤務記録再生成"
+>>>>>>> upstream/18.0
 =======
 msgstr "勤務記録再生成"
 >>>>>>> upstream/18.0
@@ -22241,7 +22347,11 @@ msgid "Work Entry Source"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "作業エントリ元"
+=======
+msgstr "勤務記録元"
+>>>>>>> upstream/18.0
 =======
 msgstr "勤務記録元"
 >>>>>>> upstream/18.0
@@ -23162,7 +23272,11 @@ msgid "Work Entry Source Calendar Invalid"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "作業エントリ元カレンダが無効です"
+=======
+msgstr "勤務記録元カレンダが無効です"
+>>>>>>> upstream/18.0
 =======
 msgstr "勤務記録元カレンダが無効です"
 >>>>>>> upstream/18.0

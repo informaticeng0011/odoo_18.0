@@ -85,9 +85,12 @@ test("addLink: utility function and special entities", () => {
         // Already encoded url should not be encoded twice
         [
 <<<<<<< HEAD
+<<<<<<< HEAD
             markup("https://odoo.com/%5B%5D"),
             `<a target="_blank" rel="noreferrer noopener" href="https://odoo.com/%5B%5D">https://odoo.com/[]</a>`,
 =======
+=======
+>>>>>>> upstream/18.0
             markup`https://odoo.com/%5B%5D`,
             `<a target="_blank" rel="noreferrer noopener" href="https://odoo.com/%5B%5D">https://odoo.com/%5B%5D</a>`,
         ],
@@ -109,6 +112,9 @@ test("addLink: utility function and special entities", () => {
         [
             markup`http://999.999.999.999 www.odoo.com`,
             `http://999.999.999.999 <a target="_blank" rel="noreferrer noopener" href="http://www.odoo.com/">www.odoo.com</a>`,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         ],
     ];

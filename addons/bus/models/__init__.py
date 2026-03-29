@@ -8,6 +8,10 @@ from . import ir_http
 from . import ir_model
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import ir_qweb
+>>>>>>> upstream/18.0
 =======
 from . import ir_qweb
 >>>>>>> upstream/18.0
