@@ -93,6 +93,11 @@ export class CustomContentKanbanLikeWidget extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            is_so_locked: true,
+            is_sol_locked: true,
+>>>>>>> upstream/18.0
 =======
             is_so_locked: true,
             is_sol_locked: true,
@@ -463,7 +468,11 @@ export class CustomContentKanbanLikeWidget extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         }, () => [this.props.record.data.sale_order_template_id]);
+=======
+        }, () => [this.props.record.data.sale_order_template_id, this.props.record.data.locked]);
+>>>>>>> upstream/18.0
 =======
         }, () => [this.props.record.data.sale_order_template_id, this.props.record.data.locked]);
 >>>>>>> upstream/18.0
@@ -767,6 +776,11 @@ export class CustomContentKanbanLikeWidget extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            this.state.is_so_locked = this.props.record.data.locked;
+            this.state.is_sol_locked = this.props.record._isReadonly('order_line');
+>>>>>>> upstream/18.0
 =======
             this.state.is_so_locked = this.props.record.data.locked;
             this.state.is_sol_locked = this.props.record._isReadonly('order_line');

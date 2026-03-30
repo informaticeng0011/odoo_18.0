@@ -14,6 +14,11 @@
         'data/account_tax_report_tds_data.xml',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'data/account_tax_report_tcs_it_act_25_data.xml',
+        'data/account_tax_report_tds_it_act_25_data.xml',
+>>>>>>> upstream/18.0
 =======
         'data/account_tax_report_tcs_it_act_25_data.xml',
         'data/account_tax_report_tds_it_act_25_data.xml',

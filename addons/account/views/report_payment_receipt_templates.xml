@@ -275,7 +275,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <t t-set="amountPayment" t-value="-par[0].amount"/>
+=======
+                                    <t t-set="amountPayment" t-value="-(par[0].debit_amount_currency if par[2].debit > 0 else par[0].credit_amount_currency)"/>
+>>>>>>> upstream/18.0
 =======
                                     <t t-set="amountPayment" t-value="-(par[0].debit_amount_currency if par[2].debit > 0 else par[0].credit_amount_currency)"/>
 >>>>>>> upstream/18.0

@@ -283,7 +283,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <t t-set="company" t-value="docs.project_id.company_id if len(docs.project_id) == 1 else docs.env.company"/>
+=======
+                <t t-set="company" t-value="docs.project_id.sudo().company_id if len(docs.project_id) == 1 else docs.env.company"/>
+>>>>>>> upstream/18.0
 =======
                 <t t-set="company" t-value="docs.project_id.sudo().company_id if len(docs.project_id) == 1 else docs.env.company"/>
 >>>>>>> upstream/18.0
@@ -953,7 +957,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                         for the <t t-out="docs.project_id.name">Research and Development</t> Project
+=======
+                                        for the <t t-out="docs.project_id.sudo().name">Research and Development</t> Project
+>>>>>>> upstream/18.0
 =======
                                         for the <t t-out="docs.project_id.sudo().name">Research and Development</t> Project
 >>>>>>> upstream/18.0

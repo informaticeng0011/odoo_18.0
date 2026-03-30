@@ -308,6 +308,7 @@ import wUtils from '@website/js/utils';
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1062,6 +1063,8 @@ import wUtils from '@website/js/utils';
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 // We do not initialize the datetime picker in edit mode but want the dates to be formated
                 this.el.querySelectorAll('.s_website_form_input.datetimepicker-input').forEach(el => {
                     const value = el.getAttribute('value');
@@ -1076,6 +1079,7 @@ import wUtils from '@website/js/utils';
             }
             return this._super(...arguments);
         },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2129,6 +2133,9 @@ import wUtils from '@website/js/utils';
 =======
         // Todo: remove in master
 >>>>>>> upstream/18.0
+=======
+        // Todo: remove in master
+>>>>>>> upstream/18.0
         /**
          * @private
          */
@@ -2415,6 +2422,9 @@ import wUtils from '@website/js/utils';
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3159,6 +3169,12 @@ import wUtils from '@website/js/utils';
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    // Disable virtual keyboard to fix popover display issues on
+                    // small screens
+                    input.setAttribute("inputmode", "none");
+>>>>>>> upstream/18.0
 =======
                     // Disable virtual keyboard to fix popover display issues on
                     // small screens
@@ -4142,9 +4158,12 @@ import wUtils from '@website/js/utils';
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             // Reset the initial default values.
             for (const [fieldEl, initialValue] of this.initialValues.entries()) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4982,6 +5001,9 @@ import wUtils from '@website/js/utils';
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5698,7 +5720,10 @@ import wUtils from '@website/js/utils';
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6067,6 +6092,9 @@ import wUtils from '@website/js/utils';
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -289,6 +289,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @version 18.0.22
  * @date 2025-04-04T08:57:27.182Z
  * @hash 89a327918
@@ -1727,6 +1728,11 @@
  * @date 2026-03-27T06:25:57.011Z
  * @hash 046ebe02e
 >>>>>>> upstream/18.0
+=======
+ * @version 18.0.61
+ * @date 2026-03-27T06:25:57.011Z
+ * @hash 046ebe02e
+>>>>>>> upstream/18.0
  */
 
 import { useEnv, useSubEnv, onWillUnmount, useComponent, status, Component, useRef, onMounted, useEffect, useState, onPatched, onWillPatch, onWillUpdateProps, useExternalListener, onWillStart, xml, useChildSubEnv, markRaw, toRaw } from '@odoo/owl';
@@ -1821,7 +1827,12 @@ function createAction(item) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     .map(createAction);
+=======
+                    .map(createAction)
+                    .sort((a, b) => a.sequence - b.sequence);
+>>>>>>> upstream/18.0
 =======
                     .map(createAction)
                     .sort((a, b) => a.sequence - b.sequence);
@@ -2424,6 +2435,10 @@ const DEFAULT_STYLE = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+const DEFAULT_NUMBER_STYLE = { ...DEFAULT_STYLE, align: "right" };
+>>>>>>> upstream/18.0
 =======
 const DEFAULT_NUMBER_STYLE = { ...DEFAULT_STYLE, align: "right" };
 >>>>>>> upstream/18.0
@@ -3344,6 +3359,10 @@ const newLineRegexp = /(\r\n|\r)/g;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+const whiteSpaceCharacters = specialWhiteSpaceSpecialCharacters.concat([" "]);
+>>>>>>> upstream/18.0
 =======
 const whiteSpaceCharacters = specialWhiteSpaceSpecialCharacters.concat([" "]);
 >>>>>>> upstream/18.0
@@ -4177,9 +4196,12 @@ function memoize(func) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 function removeIndexesFromArray(array, indexes) {
     return array.filter((_, index) => !indexes.includes(index));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4763,6 +4785,7 @@ function removeIndexesFromArray(array, indexes) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4803,6 +4826,11 @@ function insertItemsAtIndex(array, items, index) {
     const newArray = [...array];
     newArray.splice(index, 0, ...items);
     return newArray;
+=======
+}
+function insertItemsAtIndex(array, items, index) {
+    return array.slice(0, index).concat(items).concat(array.slice(index));
+>>>>>>> upstream/18.0
 =======
 }
 function insertItemsAtIndex(array, items, index) {
@@ -6514,8 +6542,12 @@ function lettersToNumber(letters) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const charCode = letters.charCodeAt(i);
         const colIndex = charCode >= 65 && charCode <= 90 ? charCode - 64 : charCode - 96;
+=======
+        const colIndex = charToNumber(letters[i]);
+>>>>>>> upstream/18.0
 =======
         const colIndex = charToNumber(letters[i]);
 >>>>>>> upstream/18.0
@@ -7536,7 +7568,10 @@ function lettersToNumber(letters) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8300,6 +8335,9 @@ function charToNumber(char) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9067,7 +9105,10 @@ function isCharADigit(char) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9859,6 +9900,9 @@ function consumeDigits(chars) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10376,6 +10420,7 @@ function consumeDigits(chars) {
  * Note: it also accepts lowercase coordinates, but not fixed references
  */
 function toCartesian(xc) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11164,6 +11209,8 @@ function toCartesian(xc) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     const chars = new TokenizingChars(xc);
     consumeSpaces(chars);
     const letterPart = consumeLetters(chars);
@@ -11428,6 +11475,9 @@ function toCartesian(xc) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12600,6 +12650,7 @@ class LazyTranslatedString extends String {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /** Reference of a cell (eg. A1, $B$5) */
 const cellReference = new RegExp(/\$?([A-Z]{1,3})\$?([0-9]{1,7})/, "i");
 // Same as above, but matches the exact string (nothing before or after)
@@ -12661,6 +12712,8 @@ function getFullReference(sheetName, xc) {
     return sheetName !== undefined ? `${getCanonicalSymbolName(sheetName)}!${xc}` : xc;
 }
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13440,6 +13493,7 @@ function toZoneWithoutBoundaryChanges(xc) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (xc.includes("!")) {
         xc = xc.split("!").at(-1);
     }
@@ -13457,6 +13511,8 @@ function toZoneWithoutBoundaryChanges(xc) {
         firstRangePart = xc.trim();
     }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14224,6 +14280,9 @@ function toZoneWithoutBoundaryChanges(xc) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14735,6 +14794,7 @@ function toZoneWithoutBoundaryChanges(xc) {
     let fullCol = false;
     let fullRow = false;
     let hasHeader = false;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15503,6 +15563,8 @@ function toZoneWithoutBoundaryChanges(xc) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     if (leftNumbers === -1) {
         left = right = leftLetters - 1;
         top = bottom = 0;
@@ -15763,6 +15825,9 @@ function toZoneWithoutBoundaryChanges(xc) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16528,6 +16593,7 @@ function toZoneWithoutBoundaryChanges(xc) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const c = toCartesian(firstRangePart);
         left = right = c.col;
         top = bottom = c.row;
@@ -16547,6 +16613,8 @@ function toZoneWithoutBoundaryChanges(xc) {
             right = c.col;
             bottom = c.row;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17327,6 +17395,9 @@ function toZoneWithoutBoundaryChanges(xc) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18093,9 +18164,12 @@ function toZoneWithoutBoundaryChanges(xc) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (fullCol && fullRow) {
         throw new Error("Wrong zone xc. The zone cannot be at the same time a full column and a full row");
     }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18886,8 +18960,11 @@ function toUnboundedZone(xc) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return reorderZone(zone);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19657,6 +19734,9 @@ function toUnboundedZone(xc) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20991,8 +21071,14 @@ const ymdDateRegexp = /^\d{3,4}(\/|-|\s)\d{1,2}(\/|-|\s)\d{1,2}$/;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const dateSeparatorsRegex = /\/|-|\s/;
 const dateRegexp = /^(\d{1,4})[\/-\s](\d{1,4})([\/-\s](\d{1,4}))?$/;
+=======
+const whiteSpaceChars = whiteSpaceCharacters.join("");
+const dateSeparatorsRegex = new RegExp(`\/|-|${whiteSpaceCharacters.join("|")}`);
+const dateRegexp = new RegExp(`^(\\d{1,4})[\/${whiteSpaceChars}\-](\\d{1,4})([\/${whiteSpaceChars}\-](\\d{1,4}))?$`);
+>>>>>>> upstream/18.0
 =======
 const whiteSpaceChars = whiteSpaceCharacters.join("");
 const dateSeparatorsRegex = new RegExp(`\/|-|${whiteSpaceCharacters.join("|")}`);
@@ -22741,7 +22827,11 @@ const getFormulaNumberRegex = memoize(function getFormulaNumberRegex(decimalSepa
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return new RegExp(`(?:^-?\\d+(?:${decimalSeparator}?\\d*(?:e\\d+)?)?|^-?${decimalSeparator}\\d+)(?!\\w|!)`);
+=======
+    return new RegExp(`(?:^-?\\d+(?:${decimalSeparator}?\\d*(?:e(\\+|-)?\\d+)?)?|^-?${decimalSeparator}\\d+)(?!\\w|!)`);
+>>>>>>> upstream/18.0
 =======
     return new RegExp(`(?:^-?\\d+(?:${decimalSeparator}?\\d*(?:e(\\+|-)?\\d+)?)?|^-?${decimalSeparator}\\d+)(?!\\w|!)`);
 >>>>>>> upstream/18.0
@@ -23761,7 +23851,10 @@ const invalidateEvaluationCommands = new Set([
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "DUPLICATE_SHEET",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24232,6 +24325,10 @@ const invalidateBordersCommands = new Set([
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    "SET_BORDERS_ON_TARGET",
+>>>>>>> upstream/18.0
 =======
     "SET_BORDERS_ON_TARGET",
 >>>>>>> upstream/18.0
@@ -25173,6 +25270,10 @@ const coreTypes = new Set([
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    "SET_BORDERS_ON_TARGET",
+>>>>>>> upstream/18.0
 =======
     "SET_BORDERS_ON_TARGET",
 >>>>>>> upstream/18.0
@@ -26309,6 +26410,10 @@ var CommandResult;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    CommandResult["CannotMoveTableHeader"] = "CannotMoveTableHeader";
+>>>>>>> upstream/18.0
 =======
     CommandResult["CannotMoveTableHeader"] = "CannotMoveTableHeader";
 >>>>>>> upstream/18.0
@@ -27297,6 +27402,10 @@ var CommandResult;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    CommandResult["InvalidPivotDataSet"] = "InvalidPivotDataSet";
+>>>>>>> upstream/18.0
 =======
     CommandResult["InvalidPivotDataSet"] = "InvalidPivotDataSet";
 >>>>>>> upstream/18.0
@@ -28464,12 +28573,15 @@ const errorTypes = new Set(Object.values(CellErrorType));
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class EvaluationError extends Error {
     value;
     constructor(message = _t("Error"), value = CellErrorType.GenericError) {
         super(message);
         this.value = value;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -29311,6 +29423,9 @@ class EvaluationError {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -30125,8 +30240,11 @@ function toNumberMatrix(data, argName) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 throw new EvaluationError(_t("Function [[FUNCTION_NAME]] expects number values for %s, but got a %s.", argName, typeof cell.value));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -30627,6 +30745,9 @@ function toNumberMatrix(data, argName) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -31449,7 +31570,10 @@ function transposeMatrix(matrix) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -32298,6 +32422,9 @@ function applyVectorization(formula, args, acceptToVectorize = undefined) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -33811,7 +33938,11 @@ function tokensToTextInternalFormat(tokens) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * preceded by a data token "h", then it's not a month but an minute.
+=======
+ * preceded by a data token "h", then it's not a month but a minute.
+>>>>>>> upstream/18.0
 =======
  * preceded by a data token "h", then it's not a month but a minute.
 >>>>>>> upstream/18.0
@@ -34546,6 +34677,12 @@ function internalFormatPartToFormat(internalFormat) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            case "DATE_PART":
+                format += token.value === "MM" ? "mm" : token.value; // Convert "MM" back to "mm" for minutes
+                break;
+>>>>>>> upstream/18.0
 =======
             case "DATE_PART":
                 format += token.value === "MM" ? "mm" : token.value; // Convert "MM" back to "mm" for minutes
@@ -36352,7 +36489,13 @@ function evaluateLiteral(literalCell, localeFormat) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const value = isTextFormat(localeFormat.format) ? literalCell.content : literalCell.parsedValue;
+=======
+    const value = isTextFormat(localeFormat.format) && literalCell.parsedValue !== null
+        ? literalCell.content
+        : literalCell.parsedValue;
+>>>>>>> upstream/18.0
 =======
     const value = isTextFormat(localeFormat.format) && literalCell.parsedValue !== null
         ? literalCell.content
@@ -37787,6 +37930,12 @@ function _createEvaluatedCell(functionResult, locale, cell) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    if (value === null) {
+        return emptyCell(format);
+    }
+>>>>>>> upstream/18.0
 =======
     if (value === null) {
         return emptyCell(format);
@@ -39180,9 +39329,12 @@ function _createEvaluatedCell(functionResult, locale, cell) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (value === null) {
         return emptyCell(format);
     }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -39811,6 +39963,7 @@ function toCriterionDateNumber(dateValue) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return jsDateToNumber(today);
         case "yesterday":
             return jsDateToNumber(DateTime.fromTimestamp(today.setDate(today.getDate() - 1)));
@@ -39823,6 +39976,8 @@ function toCriterionDateNumber(dateValue) {
         case "lastYear":
             return jsDateToNumber(DateTime.fromTimestamp(today.setFullYear(today.getFullYear() - 1)));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -40125,6 +40280,9 @@ function toCriterionDateNumber(dateValue) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -40598,7 +40756,10 @@ function scrollDelay(value) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -41419,6 +41580,9 @@ function getFullReference(sheetName, xc) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -42494,7 +42658,10 @@ function moveHeaderIndexesOnHeaderDeletion(deletedHeaders, headers) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -43297,8 +43464,11 @@ function getDuplicateSheetName(nameToDuplicate, existingNames) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -44086,6 +44256,9 @@ function isSheetNameEqual(name1, name2) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -44681,12 +44854,15 @@ function computeTextLinesHeight(textLineHeight, numberOfLines = 1) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 function getDefaultCellHeight(ctx, cell, colSize) {
     if (!cell || (!cell.isFormula && !cell.content)) {
         return DEFAULT_CELL_HEIGHT;
     }
     const content = cell.isFormula ? "" : cell.content;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -44899,6 +45075,9 @@ function getDefaultCellHeight(ctx, cell, locale, colSize) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -45329,6 +45508,11 @@ function splitTextToWidth(ctx, text, style, width) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    if (isMarkdownLink(text))
+        text = parseMarkdownLink(text).label;
+>>>>>>> upstream/18.0
 =======
     if (isMarkdownLink(text))
         text = parseMarkdownLink(text).label;
@@ -46624,6 +46808,7 @@ function parseOSClipboardContent(content) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const oSheetClipboardData = htmlDocument
         .querySelector("div")
         ?.getAttribute("data-osheet-clipboard");
@@ -46696,6 +46881,8 @@ function parseOSClipboardContent(content) {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -47306,6 +47493,9 @@ function getOSheetDataFromHTML(htmlDocument) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -47979,6 +48169,9 @@ const selectPastedZone = (selection, sourceZones, pastedZones) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -48625,7 +48818,11 @@ class ClipboardHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     copy(data) {
+=======
+    copy(data, mode = "copyPaste") {
+>>>>>>> upstream/18.0
 =======
     copy(data, mode = "copyPaste") {
 >>>>>>> upstream/18.0
@@ -49440,7 +49637,11 @@ class AbstractCellClipboardHandler extends ClipboardHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     copy(data) {
+=======
+    copy(data, mode = "copyPaste") {
+>>>>>>> upstream/18.0
 =======
     copy(data, mode = "copyPaste") {
 >>>>>>> upstream/18.0
@@ -50353,6 +50554,10 @@ class BorderClipboardHandler extends AbstractCellClipboardHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    queuedBordersToAdd = {};
+>>>>>>> upstream/18.0
 =======
     queuedBordersToAdd = {};
 >>>>>>> upstream/18.0
@@ -51531,6 +51736,10 @@ class BorderClipboardHandler extends AbstractCellClipboardHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.executeQueuedChanges(sheetId);
+>>>>>>> upstream/18.0
 =======
         this.executeQueuedChanges(sheetId);
 >>>>>>> upstream/18.0
@@ -52697,8 +52906,11 @@ class BorderClipboardHandler extends AbstractCellClipboardHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.dispatch("SET_BORDER", { ...target, border });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -53571,6 +53783,9 @@ class BorderClipboardHandler extends AbstractCellClipboardHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -54540,7 +54755,10 @@ function tokenizeString(chars) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -55399,6 +55617,9 @@ const unicodeSymbolCharRegexp = /\p{L}|\p{N}|_|\.|!|\$/u;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -56293,7 +56514,12 @@ function tokenizeSymbol(chars) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     while (chars.current && SYMBOL_CHARS.has(chars.current)) {
+=======
+    while (chars.current &&
+        (SYMBOL_CHARS.has(chars.current) || chars.current.match(unicodeSymbolCharRegexp))) {
+>>>>>>> upstream/18.0
 =======
     while (chars.current &&
         (SYMBOL_CHARS.has(chars.current) || chars.current.match(unicodeSymbolCharRegexp))) {
@@ -57987,9 +58213,12 @@ function invertMatrix(M) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (M.length !== M[0].length) {
         throw new EvaluationError(_t("Function [[FUNCTION_NAME]] invert matrix error, only square matrices are invertible"));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -58589,6 +58818,9 @@ function invertMatrix(M) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -59253,9 +59485,12 @@ function multiplyMatrices(matrix1, matrix2) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (matrix1.length !== matrix2[0].length) {
         throw new EvaluationError(_t("Cannot multiply matrices : incompatible matrices size."));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -59855,6 +60090,9 @@ function multiplyMatrices(matrix1, matrix2) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -60272,6 +60510,7 @@ function multiplyMatrices(matrix1, matrix2) {
 /**
  * Return the input if it's a scalar or the first element of the input if it's a matrix.
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -61023,6 +61262,8 @@ function toScalar(matrix) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 function toScalar(arg) {
     if (!isMatrix(arg)) {
         return arg;
@@ -61227,7 +61468,11 @@ function toScalar(arg) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         throw new EvaluationError(_t("The value should be a scalar or a 1x1 matrix"));
+=======
+        throw new Error("The value should be a scalar or a 1x1 matrix");
+>>>>>>> upstream/18.0
 =======
         throw new Error("The value should be a scalar or a 1x1 matrix");
 >>>>>>> upstream/18.0
@@ -62080,6 +62325,9 @@ function isMultipleElementMatrix(arg) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -62987,7 +63235,10 @@ function predictLinearValues(Y, X, newX, computeIntercept) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -63592,6 +63843,9 @@ function assertNonEmpty(...data) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -64590,7 +64844,10 @@ const monthNumberAdapter = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -65392,6 +65649,9 @@ const monthAdapter = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -66306,6 +66566,10 @@ pivotTimeAdapterRegistry
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    .add("month", nullHandlerDecorator(monthAdapter))
+>>>>>>> upstream/18.0
 =======
     .add("month", nullHandlerDecorator(monthAdapter))
 >>>>>>> upstream/18.0
@@ -67369,6 +67633,9 @@ const AGGREGATOR_NAMES = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -68105,6 +68372,7 @@ const AGGREGATORS_BY_FIELD_TYPE = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 const AGGREGATORS_BY_FIELD_TYPE = {
     integer: ["max", "min", "avg", "sum", "count_distinct", "count"],
@@ -68189,6 +68457,8 @@ const AGGREGATORS_BY_FIELD_TYPE = {
 const AGGREGATORS_BY_FIELD_TYPE = {
     integer: ["max", "min", "avg", "sum", "count_distinct", "count"],
     char: ["count_distinct", "count"],
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -69020,7 +69290,10 @@ function toNormalizedPivotValue(dimension, groupValue) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -69628,6 +69901,9 @@ function toNormalizedPivotValue(dimension, groupValue) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -70313,10 +70589,14 @@ function normalizeDateTime(value, granularity) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (!granularity) {
         throw new Error("Missing granularity");
     }
     return pivotTimeAdapter(granularity).normalizeFunctionValue(value);
+=======
+    return pivotTimeAdapter(granularity ?? "month").normalizeFunctionValue(value);
+>>>>>>> upstream/18.0
 =======
     return pivotTimeAdapter(granularity ?? "month").normalizeFunctionValue(value);
 >>>>>>> upstream/18.0
@@ -71376,10 +71656,14 @@ function toFunctionValueDateTime(value, granularity) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (!granularity) {
         throw new Error("Missing granularity");
     }
     return pivotTimeAdapter(granularity).toFunctionValue(value);
+=======
+    return pivotTimeAdapter(granularity ?? "month").toFunctionValue(value);
+>>>>>>> upstream/18.0
 =======
     return pivotTimeAdapter(granularity ?? "month").toFunctionValue(value);
 >>>>>>> upstream/18.0
@@ -72409,7 +72693,11 @@ class CellClipboardHandler extends AbstractCellClipboardHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     copy(data) {
+=======
+    copy(data, mode = "copyPaste") {
+>>>>>>> upstream/18.0
 =======
     copy(data, mode = "copyPaste") {
 >>>>>>> upstream/18.0
@@ -73218,7 +73506,11 @@ class CellClipboardHandler extends AbstractCellClipboardHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (pivotId && spreader) {
+=======
+                if (mode !== "shiftCells" && pivotId && spreader) {
+>>>>>>> upstream/18.0
 =======
                 if (mode !== "shiftCells" && pivotId && spreader) {
 >>>>>>> upstream/18.0
@@ -74032,7 +74324,11 @@ class CellClipboardHandler extends AbstractCellClipboardHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 else {
+=======
+                else if (mode !== "shiftCells") {
+>>>>>>> upstream/18.0
 =======
                 else if (mode !== "shiftCells") {
 >>>>>>> upstream/18.0
@@ -74927,7 +75223,11 @@ class CellClipboardHandler extends AbstractCellClipboardHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const originFormat = origin?.format ?? origin.evaluatedCell.format;
+=======
+        const originFormat = origin?.format || origin.evaluatedCell.format;
+>>>>>>> upstream/18.0
 =======
         const originFormat = origin?.format || origin.evaluatedCell.format;
 >>>>>>> upstream/18.0
@@ -75433,7 +75733,10 @@ class CellClipboardHandler extends AbstractCellClipboardHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 format: originFormat,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -75929,6 +76232,10 @@ class ConditionalFormatClipboardHandler extends AbstractCellClipboardHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            const originZone = positionToZone(origin.position);
+>>>>>>> upstream/18.0
 =======
             const originZone = positionToZone(origin.position);
 >>>>>>> upstream/18.0
@@ -77082,7 +77389,11 @@ class ConditionalFormatClipboardHandler extends AbstractCellClipboardHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     toRemoveZones.push(positionToZone(origin.position));
+=======
+                    toRemoveZones.push(originZone);
+>>>>>>> upstream/18.0
 =======
                     toRemoveZones.push(originZone);
 >>>>>>> upstream/18.0
@@ -78344,6 +78655,10 @@ class DataValidationClipboardHandler extends AbstractCellClipboardHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            const originZone = positionToZone(origin.position);
+>>>>>>> upstream/18.0
 =======
             const originZone = positionToZone(origin.position);
 >>>>>>> upstream/18.0
@@ -79503,7 +79818,11 @@ class DataValidationClipboardHandler extends AbstractCellClipboardHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 toRemoveZone.push(positionToZone(origin.position));
+=======
+                toRemoveZone.push(originZone);
+>>>>>>> upstream/18.0
 =======
                 toRemoveZone.push(originZone);
 >>>>>>> upstream/18.0
@@ -80711,7 +81030,11 @@ class DataValidationClipboardHandler extends AbstractCellClipboardHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     rule: dv,
+=======
+                    rule: { id: dv.id, criterion: dv.criterion, isBlocking: dv.isBlocking },
+>>>>>>> upstream/18.0
 =======
                     rule: { id: dv.id, criterion: dv.criterion, isBlocking: dv.isBlocking },
 >>>>>>> upstream/18.0
@@ -81942,7 +82265,11 @@ class TableClipboardHandler extends AbstractCellClipboardHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     copy(data) {
+=======
+    copy(data, mode = "copyPaste") {
+>>>>>>> upstream/18.0
 =======
     copy(data, mode = "copyPaste") {
 >>>>>>> upstream/18.0
@@ -82772,12 +83099,15 @@ class TableClipboardHandler extends AbstractCellClipboardHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 tableCellsInRow.push({
                     table: copiedTable,
                     style: this.getTableStyleToCopy(position),
                     isWholeTableCopied: copiedTablesIds.has(table.id),
                 });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -83379,6 +83709,9 @@ class TableClipboardHandler extends AbstractCellClipboardHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -84182,7 +84515,11 @@ function transformZone(zone, executed) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return { ...zone };
+=======
+    return zone;
+>>>>>>> upstream/18.0
 =======
     return zone;
 >>>>>>> upstream/18.0
@@ -85529,8 +85866,11 @@ function proxifyStoreMutation(store, callback) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         Reflect.apply(target, thisStore, argArray);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -86315,6 +86655,9 @@ function proxifyStoreMutation(store, callback) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -87118,7 +87461,11 @@ class RendererStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     mutators = ["register", "unRegister"];
+=======
+    mutators = ["register", "unRegister", "drawLayer"];
+>>>>>>> upstream/18.0
 =======
     mutators = ["register", "unRegister", "drawLayer"];
 >>>>>>> upstream/18.0
@@ -88182,6 +88529,7 @@ class RendererStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!renderers) {
             return;
         }
@@ -88191,6 +88539,8 @@ class RendererStore {
             context.ctx.restore();
         }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -88979,6 +89329,9 @@ class RendererStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -89813,7 +90166,11 @@ class ComposerFocusStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return;
+=======
+            return "noStateChange";
+>>>>>>> upstream/18.0
 =======
             return "noStateChange";
 >>>>>>> upstream/18.0
@@ -90863,11 +91220,14 @@ class ComposerFocusStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     }
     focusActiveComposer(args) {
         if (this.getters.isReadonly()) {
             return;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -91653,6 +92013,9 @@ class ComposerFocusStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -92443,6 +92806,10 @@ class ComposerFocusStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        return;
+>>>>>>> upstream/18.0
 =======
         return;
 >>>>>>> upstream/18.0
@@ -93878,7 +94245,10 @@ const chartShowValuesPlugin = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -94372,6 +94742,9 @@ const chartShowValuesPlugin = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -94993,7 +95366,12 @@ function drawLineOrBarChartValues(chart, options, ctx) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             drawTextWithBackground(options.callback(value - 0), xPosition, yPosition, ctx);
+=======
+            const valueToDisplay = options.callback(Number(value), dataset, i);
+            drawTextWithBackground(valueToDisplay, xPosition, yPosition, ctx);
+>>>>>>> upstream/18.0
 =======
             const valueToDisplay = options.callback(Number(value), dataset, i);
             drawTextWithBackground(valueToDisplay, xPosition, yPosition, ctx);
@@ -96192,7 +96570,11 @@ function drawHorizontalBarChartValues(chart, options, ctx) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const displayValue = options.callback(value - 0);
+=======
+            const displayValue = options.callback(value, dataset, i);
+>>>>>>> upstream/18.0
 =======
             const displayValue = options.callback(value, dataset, i);
 >>>>>>> upstream/18.0
@@ -97169,6 +97551,7 @@ function drawPieChartValues(chart, options, ctx) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const y = bar.y + midRadius * Math.sin(midAngle) + 7;
             ctx.fillStyle = chartFontColor(options.background);
             ctx.strokeStyle = options.background || "#ffffff";
@@ -97198,6 +97581,8 @@ function drawPieChartValues(chart, options, ctx) {
             const displayValue = options.callback(value, dataset, i);
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -97904,6 +98289,9 @@ function drawPieChartValues(chart, options, ctx) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -98942,6 +99330,7 @@ iconsOnCellRegistry.add("conditional_formatting", (getters, position) => {
     }
 });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -109726,6 +110115,8 @@ function getHtmlContentFromPattern(pattern, value, highlightColor, className) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 //------------------------------------------------------------------------------
 // Arg description DSL
 //------------------------------------------------------------------------------
@@ -110131,6 +110522,7 @@ const MINVERSE = {
         assertSquareMatrix(_t("The argument square_matrix must have the same number of columns and rows."), _matrix);
         const { inverted } = invertMatrix(_matrix);
         if (!inverted) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -111248,6 +111640,9 @@ const MINVERSE = {
 =======
             return new EvaluationError(_t("The matrix is not invertible."));
 >>>>>>> upstream/18.0
+=======
+            return new EvaluationError(_t("The matrix is not invertible."));
+>>>>>>> upstream/18.0
         }
         return inverted;
     },
@@ -111464,6 +111859,10 @@ const MMULT = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        assert(() => _matrix1.length > 0 && _matrix2.length > 0, _t("The first and second arguments of [[FUNCTION_NAME]] must be non-empty matrices."));
+>>>>>>> upstream/18.0
 =======
         assert(() => _matrix1.length > 0 && _matrix2.length > 0, _t("The first and second arguments of [[FUNCTION_NAME]] must be non-empty matrices."));
 >>>>>>> upstream/18.0
@@ -112482,7 +112881,11 @@ const TOCOL = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new NotAvailableError(_t("No results for the given arguments of TOCOL."));
+=======
+            return new NotAvailableError(_t("No results for the given arguments of TOCOL."));
+>>>>>>> upstream/18.0
 =======
             return new NotAvailableError(_t("No results for the given arguments of TOCOL."));
 >>>>>>> upstream/18.0
@@ -113619,7 +114022,11 @@ const TOROW = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new NotAvailableError(_t("No results for the given arguments of TOROW."));
+=======
+            return new NotAvailableError(_t("No results for the given arguments of TOROW."));
+>>>>>>> upstream/18.0
 =======
             return new NotAvailableError(_t("No results for the given arguments of TOROW."));
 >>>>>>> upstream/18.0
@@ -115582,7 +115989,11 @@ const PRODUCT = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             throw j;
+=======
+                            return j;
+>>>>>>> upstream/18.0
 =======
                             return j;
 >>>>>>> upstream/18.0
@@ -117404,6 +117815,10 @@ const FORECAST = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        assertNonEmpty(flatDataX, flatDataY);
+>>>>>>> upstream/18.0
 =======
         assertNonEmpty(flatDataX, flatDataY);
 >>>>>>> upstream/18.0
@@ -118017,6 +118432,7 @@ const GROWTH = {
         arg("b (boolean, default=TRUE)", _t("Given a general exponential form of y = b*m^x for a curve fit, calculates b if TRUE or forces b to be 1 and only calculates the m values if FALSE.")),
     ],
     compute: function (knownDataY, knownDataX = [[]], newDataX = [[]], b = { value: true }) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -118978,6 +119394,10 @@ const GROWTH = {
         assertNonEmptyMatrix(knownDataY, "known_data_y");
         return expM(predictLinearValues(logM(toNumberMatrix(knownDataY, "known_data_y")), toNumberMatrix(knownDataX, "known_data_x"), toNumberMatrix(newDataX, "new_data_y"), toBoolean(b)));
 >>>>>>> upstream/18.0
+=======
+        assertNonEmptyMatrix(knownDataY, "known_data_y");
+        return expM(predictLinearValues(logM(toNumberMatrix(knownDataY, "known_data_y")), toNumberMatrix(knownDataX, "known_data_x"), toNumberMatrix(newDataX, "new_data_y"), toBoolean(b)));
+>>>>>>> upstream/18.0
     },
 };
 // -----------------------------------------------------------------------------
@@ -119190,6 +119610,10 @@ const INTERCEPT = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        assertNonEmpty(flatDataX, flatDataY);
+>>>>>>> upstream/18.0
 =======
         assertNonEmpty(flatDataX, flatDataY);
 >>>>>>> upstream/18.0
@@ -119836,6 +120260,7 @@ const LINEST = {
         arg("verbose (boolean, default=FALSE)", _t("A flag specifying whether to return additional regression statistics or only the linear coefficients and the y-intercept")),
     ],
     compute: function (dataY, dataX = [[]], calculateB = { value: true }, verbose = { value: false }) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -120797,6 +121222,10 @@ const LINEST = {
         assertNonEmptyMatrix(dataY, "data_y");
         return fullLinearRegression(toNumberMatrix(dataX, "data_x"), toNumberMatrix(dataY, "data_y"), toBoolean(calculateB), toBoolean(verbose));
 >>>>>>> upstream/18.0
+=======
+        assertNonEmptyMatrix(dataY, "data_y");
+        return fullLinearRegression(toNumberMatrix(dataX, "data_x"), toNumberMatrix(dataY, "data_y"), toBoolean(calculateB), toBoolean(verbose));
+>>>>>>> upstream/18.0
     },
     isExported: true,
 };
@@ -120812,6 +121241,7 @@ const LOGEST = {
         arg("verbose (boolean, default=FALSE)", _t("A flag specifying whether to return additional regression statistics or only the linear coefficients and the y-intercept")),
     ],
     compute: function (dataY, dataX = [[]], calculateB = { value: true }, verbose = { value: false }) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -121773,6 +122203,10 @@ const LOGEST = {
         assertNonEmptyMatrix(dataY, "data_y");
         const coeffs = fullLinearRegression(toNumberMatrix(dataX, "data_x"), logM(toNumberMatrix(dataY, "data_y")), toBoolean(calculateB), toBoolean(verbose));
 >>>>>>> upstream/18.0
+=======
+        assertNonEmptyMatrix(dataY, "data_y");
+        const coeffs = fullLinearRegression(toNumberMatrix(dataX, "data_x"), logM(toNumberMatrix(dataY, "data_y")), toBoolean(calculateB), toBoolean(verbose));
+>>>>>>> upstream/18.0
         for (let i = 0; i < coeffs.length; i++) {
             coeffs[i][0] = Math.exp(coeffs[i][0]);
         }
@@ -121793,6 +122227,7 @@ const MATTHEWS = {
         const flatX = dataX.flat();
         const flatY = dataY.flat();
         assertSameNumberOfElements(flatX, flatY);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -122912,6 +123347,9 @@ const MATTHEWS = {
 =======
         assertNonEmpty(flatX, flatY);
 >>>>>>> upstream/18.0
+=======
+        assertNonEmpty(flatX, flatY);
+>>>>>>> upstream/18.0
         const n = flatX.length;
         let trueN = 0, trueP = 0, falseP = 0, falseN = 0;
         for (let i = 0; i < n; ++i) {
@@ -123274,12 +123712,16 @@ function pearson(dataY, dataX) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (flatDataX.length === 0) {
         throw new EvaluationError(_t("[[FUNCTION_NAME]] expects non-empty ranges for both parameters."));
     }
     if (flatDataX.length < 2) {
         throw new EvaluationError(_t("[[FUNCTION_NAME]] needs at least two values for both parameters."));
     }
+=======
+    assertNonEmpty(flatDataX, flatDataY);
+>>>>>>> upstream/18.0
 =======
     assertNonEmpty(flatDataX, flatDataY);
 >>>>>>> upstream/18.0
@@ -124164,6 +124606,10 @@ const POLYFIT_COEFFS = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        assertNonEmpty(flatDataX, flatDataY);
+>>>>>>> upstream/18.0
 =======
         assertNonEmpty(flatDataX, flatDataY);
 >>>>>>> upstream/18.0
@@ -124979,6 +125425,10 @@ const POLYFIT_FORECAST = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        assertNonEmpty(flatDataX, flatDataY);
+>>>>>>> upstream/18.0
 =======
         assertNonEmpty(flatDataX, flatDataY);
 >>>>>>> upstream/18.0
@@ -125661,6 +126111,7 @@ const RANK = {
             }
         }
         if (!found) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -126778,6 +127229,9 @@ const RANK = {
 =======
             return new NotAvailableError(_t("Value not found in the given data."));
 >>>>>>> upstream/18.0
+=======
+            return new NotAvailableError(_t("Value not found in the given data."));
+>>>>>>> upstream/18.0
         }
         return rank;
     },
@@ -127007,6 +127461,10 @@ const SLOPE = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        assertNonEmpty(flatDataX, flatDataY);
+>>>>>>> upstream/18.0
 =======
         assertNonEmpty(flatDataX, flatDataY);
 >>>>>>> upstream/18.0
@@ -127851,6 +128309,10 @@ const SPEARMAN = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        assertNonEmpty(flatDataX, flatDataY);
+>>>>>>> upstream/18.0
 =======
         assertNonEmpty(flatDataX, flatDataY);
 >>>>>>> upstream/18.0
@@ -128757,6 +129219,10 @@ const STEYX = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        assertNonEmpty(flatDataX, flatDataY);
+>>>>>>> upstream/18.0
 =======
         assertNonEmpty(flatDataX, flatDataY);
 >>>>>>> upstream/18.0
@@ -129570,6 +130036,7 @@ const TREND = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         assertNonEmptyMatrix(knownDataY, "known_data_y");
 >>>>>>> upstream/18.0
@@ -129676,6 +130143,10 @@ const TREND = {
         assertNonEmptyMatrix(knownDataY, "known_data_y");
 >>>>>>> upstream/18.0
         return predictLinearValues(toNumberMatrix(knownDataY, "the first argument (known_data_y)"), toNumberMatrix(knownDataX, "the second argument (known_data_x)"), toNumberMatrix(newDataX, "the third argument (new_data_y)"), toBoolean(b));
+=======
+        assertNonEmptyMatrix(knownDataY, "known_data_y");
+        return predictLinearValues(toNumberMatrix(knownDataY, "known_data_y"), toNumberMatrix(knownDataX, "known_data_x"), toNumberMatrix(newDataX, "new_data_y"), toBoolean(b));
+>>>>>>> upstream/18.0
 =======
         assertNonEmptyMatrix(knownDataY, "known_data_y");
         return predictLinearValues(toNumberMatrix(knownDataY, "known_data_y"), toNumberMatrix(knownDataX, "known_data_x"), toNumberMatrix(newDataX, "new_data_y"), toBoolean(b));
@@ -131852,8 +132323,14 @@ function sortMatrix(matrix, locale, ...criteria) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     for (const [i, value] of criteria.entries()) {
         assert(() => value !== undefined, _t("Value for parameter %d is missing, while the function [[FUNCTION_NAME]] expect a number or a range.", i + 1));
+=======
+    for (let i = 0; i < criteria.length; i++) {
+        const param = i % 2 === 0 ? "sort_column" : "is_ascending";
+        assert(() => criteria[i] !== undefined, _t("Value for parameter %s is missing in [[FUNCTION_NAME]].", param));
+>>>>>>> upstream/18.0
 =======
     for (let i = 0; i < criteria.length; i++) {
         const param = i % 2 === 0 ? "sort_column" : "is_ascending";
@@ -133175,6 +133652,7 @@ const FILTER = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new NotAvailableError(_t("No match found in FILTER evaluation"));
 =======
             return new NotAvailableError(_t("No match found in FILTER evaluation"));
@@ -133274,6 +133752,8 @@ const FILTER = {
     },
     isExported: true,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -134020,6 +134500,9 @@ const FILTER = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -134918,7 +135401,11 @@ const UNIQUE = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new EvaluationError(_t("No unique values found"));
+=======
+            return new EvaluationError(_t("No unique values found"));
+>>>>>>> upstream/18.0
 =======
             return new EvaluationError(_t("No unique values found"));
 >>>>>>> upstream/18.0
@@ -138034,7 +138521,10 @@ var financial = /*#__PURE__*/Object.freeze({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -138769,6 +139259,9 @@ function rangeTokenize(formula, locale = DEFAULT_LOCALE) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -140177,6 +140670,7 @@ const IF = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         arg("logical_expression (boolean)", _t("An expression or reference to a cell containing an expression that represents some logical value, i.e. TRUE or FALSE.")),
         arg("value_if_true (any)", _t("The value the function returns if logical_expression is TRUE.")),
         arg("value_if_false (any, default=FALSE)", _t("The value the function returns if logical_expression is FALSE.")),
@@ -140245,6 +140739,8 @@ const IF = {
             return { ...result, value: "" };
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -141004,6 +141500,9 @@ const IF = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -141510,6 +142009,7 @@ const IF = {
 const IFERROR = {
     description: _t("Value if it is not an error, otherwise 2nd argument."),
     args: [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -142319,6 +142819,8 @@ const IFERROR = {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         arg("value (any, range)", _t("The value to return if value itself is not an error.")),
         arg(`value_if_error (any, range, default="empty")`, _t("The value the function returns if value is an error.")),
     ],
@@ -142583,6 +143085,9 @@ const IFERROR = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -143089,6 +143594,7 @@ const IFERROR = {
 const IFNA = {
     description: _t("Value if it is not an #N/A error, otherwise 2nd argument."),
     args: [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -143898,6 +144404,8 @@ const IFNA = {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         arg("value (any, range)", _t("The value to return if value itself is not #N/A an error.")),
         arg(`value_if_error (any, range, default="empty")`, _t("The value the function returns if value is an #N/A error.")),
     ],
@@ -144162,6 +144670,9 @@ const IFNA = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -144668,6 +145179,7 @@ const IFNA = {
 const IFS = {
     description: _t("Returns a value depending on multiple logical expressions."),
     args: [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -145611,6 +146123,8 @@ const IFS = {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         arg("condition1 (boolean, range<boolean>)", _t("The first condition to be evaluated. This can be a boolean, a number, an array, or a reference to any of those.")),
         arg("value1 (any, range)", _t("The returned value if condition1 is TRUE.")),
         arg("condition2 (boolean, any, range, repeating)", _t("Additional conditions to be evaluated if the previous ones are FALSE.")),
@@ -145886,6 +146400,9 @@ const IFS = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -146557,10 +147074,13 @@ function assertDomainLength(domain) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 function addPivotDependencies(evalContext, coreDefinition, forMeasures) {
     //TODO This function can be very costly when used with PIVOT.VALUE and PIVOT.HEADER
     const dependencies = [];
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -146784,6 +147304,9 @@ function addPivotDependencies(evalContext, pivotId, forMeasures) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -147200,7 +147723,10 @@ function addPivotDependencies(evalContext, pivotId, forMeasures) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -147989,6 +148515,9 @@ function addPivotDependencies(evalContext, pivotId, forMeasures) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -148590,8 +149119,12 @@ function addPivotDependencies(evalContext, pivotId, forMeasures) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const formula = evalContext.getters.getMeasureCompiledFormula(measure);
             dependencies.push(...formula.dependencies.filter((range) => !range.invalidXc));
+=======
+            dependencies.push(...evalContext.getters.getMeasureFullDependencies(pivotId, measure));
+>>>>>>> upstream/18.0
 =======
             dependencies.push(...evalContext.getters.getMeasureFullDependencies(pivotId, measure));
 >>>>>>> upstream/18.0
@@ -148886,6 +149419,7 @@ const COLUMN = {
     ],
     compute: function (cellReference) {
         if (isEvaluationError(cellReference?.value)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -149809,6 +150343,8 @@ const COLUMN = {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             return cellReference;
         }
         if (cellReference === undefined) {
@@ -150020,6 +150556,9 @@ const COLUMN = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -150707,7 +151246,11 @@ const COLUMNS = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw range;
+=======
+            return range;
+>>>>>>> upstream/18.0
 =======
             return range;
 >>>>>>> upstream/18.0
@@ -151901,12 +152444,15 @@ const INDIRECT = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new InvalidReferenceError(_t("Reference should be defined."));
         }
         const _useA1Notation = toBoolean(useA1Notation);
         if (!_useA1Notation) {
             throw new EvaluationError(_t("R1C1 notation is not supported."));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -152746,6 +153292,9 @@ const INDIRECT = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -153593,7 +154142,11 @@ const INDIRECT = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new InvalidReferenceError();
+=======
+            return new InvalidReferenceError();
+>>>>>>> upstream/18.0
 =======
             return new InvalidReferenceError();
 >>>>>>> upstream/18.0
@@ -154820,6 +155373,7 @@ const ROW = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw cellReference;
 =======
             return cellReference;
@@ -155464,6 +156018,8 @@ const ROW = {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             return cellReference;
         }
         if (cellReference === undefined) {
@@ -155675,6 +156231,9 @@ const ROW = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -156083,6 +156642,7 @@ const ROWS = {
     args: [arg("range (meta)", _t("The range whose row count will be returned."))],
     compute: function (range) {
         if (isEvaluationError(range?.value)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -157200,6 +157760,9 @@ const ROWS = {
 =======
             return range;
 >>>>>>> upstream/18.0
+=======
+            return range;
+>>>>>>> upstream/18.0
         }
         const zone = toZone(range.value);
         return zone.bottom - zone.top + 1;
@@ -157388,7 +157951,11 @@ const PIVOT_VALUE = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         addPivotDependencies(this, coreDefinition, coreDefinition.measures.filter((m) => m.id === _measure));
+=======
+        addPivotDependencies(this, pivotId, coreDefinition.measures.filter((m) => m.id === _measure));
+>>>>>>> upstream/18.0
 =======
         addPivotDependencies(this, pivotId, coreDefinition.measures.filter((m) => m.id === _measure));
 >>>>>>> upstream/18.0
@@ -157885,6 +158452,12 @@ const PIVOT_VALUE = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (this.getters.getActiveSheetId() === this.__originSheetId) {
+            this.getters.getPivotPresenceTracker(pivotId)?.trackValue(_measure, domain);
+        }
+>>>>>>> upstream/18.0
 =======
         if (this.getters.getActiveSheetId() === this.__originSheetId) {
             this.getters.getPivotPresenceTracker(pivotId)?.trackValue(_measure, domain);
@@ -159280,8 +159853,12 @@ const PIVOT_HEADER = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const coreDefinition = this.getters.getPivotCoreDefinition(_pivotId);
         addPivotDependencies(this, coreDefinition, []);
+=======
+        addPivotDependencies(this, _pivotId, []);
+>>>>>>> upstream/18.0
 =======
         addPivotDependencies(this, _pivotId, []);
 >>>>>>> upstream/18.0
@@ -159778,6 +160355,12 @@ const PIVOT_HEADER = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (this.getters.getActiveSheetId() === this.__originSheetId) {
+            this.getters.getPivotPresenceTracker(_pivotId)?.trackHeader(domain);
+        }
+>>>>>>> upstream/18.0
 =======
         if (this.getters.getActiveSheetId() === this.__originSheetId) {
             this.getters.getPivotPresenceTracker(_pivotId)?.trackHeader(domain);
@@ -161388,12 +161971,15 @@ const PIVOT = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new EvaluationError(_t("The number of rows must be positive."));
         }
         const _columnCount = toNumber(columnCount, this.locale);
         if (_columnCount < 0) {
             throw new EvaluationError(_t("The number of columns must be positive."));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -162233,6 +162819,9 @@ const PIVOT = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -162870,7 +163459,11 @@ const PIVOT = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         addPivotDependencies(this, coreDefinition, coreDefinition.measures);
+=======
+        addPivotDependencies(this, pivotId, coreDefinition.measures);
+>>>>>>> upstream/18.0
 =======
         addPivotDependencies(this, pivotId, coreDefinition.measures);
 >>>>>>> upstream/18.0
@@ -163153,6 +163746,7 @@ const OFFSET = {
         }
         const _cellReference = cellReference?.value;
         if (!_cellReference) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -164270,6 +164864,9 @@ const OFFSET = {
 =======
             return new EvaluationError("In this context, the function OFFSET needs to have a cell or range in parameter.");
 >>>>>>> upstream/18.0
+=======
+            return new EvaluationError("In this context, the function OFFSET needs to have a cell or range in parameter.");
+>>>>>>> upstream/18.0
         }
         const zone = toZone(_cellReference);
         let offsetHeight = zone.bottom - zone.top + 1;
@@ -164502,7 +165099,11 @@ const OFFSET = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const range = this.getters.getRangeFromZone(this.__originSheetId, dependencyZone);
+=======
+        const range = this.getters.getRangeFromZone(sheetId, dependencyZone);
+>>>>>>> upstream/18.0
 =======
         const range = this.getters.getRangeFromZone(sheetId, dependencyZone);
 >>>>>>> upstream/18.0
@@ -165450,6 +166051,12 @@ const getNeutral = { number: 0, string: "", boolean: false };
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+function areAlmostEqual(value1, value2, epsilon = 2e-16) {
+    return Math.abs(value1 - value2) < epsilon;
+}
+>>>>>>> upstream/18.0
 =======
 function areAlmostEqual(value1, value2, epsilon = 2e-16) {
     return Math.abs(value1 - value2) < epsilon;
@@ -167031,6 +167638,12 @@ const EQ = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (typeof _value1 === "number" && typeof _value2 === "number") {
+            return areAlmostEqual(_value1, _value2);
+        }
+>>>>>>> upstream/18.0
 =======
         if (typeof _value1 === "number" && typeof _value2 === "number") {
             return areAlmostEqual(_value1, _value2);
@@ -168636,6 +169249,12 @@ const GT = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if (typeof v1 === "number" && typeof v2 === "number") {
+                return !areAlmostEqual(v1, v2) && v1 > v2;
+            }
+>>>>>>> upstream/18.0
 =======
             if (typeof v1 === "number" && typeof v2 === "number") {
                 return !areAlmostEqual(v1, v2) && v1 > v2;
@@ -170217,6 +170836,12 @@ const GTE = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if (typeof v1 === "number" && typeof v2 === "number") {
+                return areAlmostEqual(v1, v2) || v1 > v2;
+            }
+>>>>>>> upstream/18.0
 =======
             if (typeof v1 === "number" && typeof v2 === "number") {
                 return areAlmostEqual(v1, v2) || v1 > v2;
@@ -172505,7 +173130,11 @@ const SPLIT = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     isExported: true,
+=======
+    isExported: false,
+>>>>>>> upstream/18.0
 =======
     isExported: false,
 >>>>>>> upstream/18.0
@@ -173690,6 +174319,7 @@ for (let category of categories) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const notAvailableError = new NotAvailableError(_t("Array arguments to [[FUNCTION_NAME]] are of different size."));
 function createComputeFunction(descr, functionName) {
     function vectorizedCompute(...args) {
@@ -174265,6 +174895,8 @@ function createComputeFunction(descr, functionName) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 //------------------------------------------------------------------------------
 // CREATE COMPUTE FUNCTION
 //------------------------------------------------------------------------------
@@ -174279,6 +174911,7 @@ function createComputeFunction(descr, functionName) {
             }
             acceptToVectorize.push(!argDefinition.acceptMatrix);
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -175021,6 +175654,8 @@ function createComputeFunction(descr, functionName) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         return replaceErrorPlaceholderInResult(applyVectorization(errorHandlingCompute.bind(this), args, acceptToVectorize));
     }
     function replaceErrorPlaceholderInResult(result) {
@@ -175097,6 +175732,9 @@ function createComputeFunction(descr, functionName) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -175320,7 +175958,10 @@ function createComputeFunction(descr, functionName) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 replaceFunctionNamePlaceholder(result, functionName);
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -175527,7 +176168,10 @@ function createComputeFunction(descr, functionName) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             matrixForEach(result, (result) => replaceFunctionNamePlaceholder(result, functionName));
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -175897,7 +176541,10 @@ function hasStringMessage(obj) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -177770,6 +178417,10 @@ function extractStyle(cell, data) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            shrinkToFit: style.wrapping === "clip" ? true : undefined,
+>>>>>>> upstream/18.0
 =======
             shrinkToFit: style.wrapping === "clip" ? true : undefined,
 >>>>>>> upstream/18.0
@@ -178064,6 +178715,10 @@ function normalizeStyle(construct, styles) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            shrinkToFit: styles.alignment.shrinkToFit,
+>>>>>>> upstream/18.0
 =======
             shrinkToFit: styles.alignment.shrinkToFit,
 >>>>>>> upstream/18.0
@@ -178755,7 +179410,11 @@ function convertFormula(formula, data) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const sheetIndex = data.externalBooks[externalRefId].sheetNames.findIndex((name) => isSheetNameEqual(name, sheetName));
+=======
+        const sheetIndex = data.externalBooks[externalRefId]?.sheetNames.findIndex((name) => isSheetNameEqual(name, sheetName)) ?? -1;
+>>>>>>> upstream/18.0
 =======
         const sheetIndex = data.externalBooks[externalRefId]?.sheetNames.findIndex((name) => isSheetNameEqual(name, sheetName)) ?? -1;
 >>>>>>> upstream/18.0
@@ -183130,7 +183789,11 @@ let ScorecardChart$1 = class ScorecardChart extends AbstractChart {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             keyValue: context.range ? context.range[0].dataRange : undefined,
+=======
+            keyValue: context.range?.[0]?.dataRange,
+>>>>>>> upstream/18.0
 =======
             keyValue: context.range?.[0]?.dataRange,
 >>>>>>> upstream/18.0
@@ -184651,6 +185314,9 @@ function getHtmlContentFromPattern(pattern, value, highlightColor, className) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -185357,11 +186023,14 @@ class DOMFocusableElementStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     mutators = ["setFocusableElement"];
     focusableElement = undefined;
     setFocusableElement(element) {
         this.focusableElement = element;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -186154,6 +186823,9 @@ class DOMFocusableElementStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -187504,7 +188176,11 @@ class FunctionDescriptionProvider extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const functions$2 = functionRegistry.content;
+=======
+const functions = functionRegistry.content;
+>>>>>>> upstream/18.0
 =======
 const functions = functionRegistry.content;
 >>>>>>> upstream/18.0
@@ -188574,7 +189250,11 @@ class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this.DOMFocusableElementStore.focusableElement?.focus();
+=======
+                this.DOMFocusableElementStore.focus();
+>>>>>>> upstream/18.0
 =======
                 this.DOMFocusableElementStore.focus();
 >>>>>>> upstream/18.0
@@ -189712,7 +190392,10 @@ class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.props.composerStore.stopComposerRangeSelection();
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -190195,6 +190878,7 @@ class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.assistant.forcedClosed = true;
     }
     openAssistant() {
@@ -190389,6 +191073,8 @@ class Composer extends Component {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -190992,6 +191678,9 @@ class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -191657,6 +192346,7 @@ class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -191781,6 +192471,11 @@ class Composer extends Component {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+    get canBeToggled() {
+        return this.autoCompleteState.provider?.canBeToggled ?? true;
+    }
 >>>>>>> upstream/18.0
 =======
     get canBeToggled() {
@@ -193145,11 +193840,14 @@ class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 parentFunction in functions$2 &&
                 token.type !== "UNKNOWN") {
                 // initialize Formula Assistant
                 const description = functions$2[parentFunction];
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -193748,6 +194446,9 @@ class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -194154,6 +194855,7 @@ class Composer extends Component {
         }
     }
     autoComplete(value) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -194951,6 +195653,9 @@ class Composer extends Component {
 =======
         if (!value || (this.assistant.forcedClosed && this.canBeToggled)) {
 >>>>>>> upstream/18.0
+=======
+        if (!value || (this.assistant.forcedClosed && this.canBeToggled)) {
+>>>>>>> upstream/18.0
             return;
         }
         this.autoCompleteState.provider?.selectProposal(value);
@@ -194958,6 +195663,7 @@ class Composer extends Component {
     }
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -195944,6 +196650,8 @@ function getFunctionsFromAST(ast, functionNames) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 const PIVOT_FUNCTIONS = ["PIVOT.VALUE", "PIVOT.HEADER", "PIVOT"];
 /**
  * Create a proposal entry for the compose autowcomplete
@@ -196109,7 +196817,10 @@ function insertTokenAfterArgSeparator(tokenAtCursor, value) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.composer.stopComposerRangeSelection();
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -196502,7 +197213,10 @@ function insertTokenAfterLeftParenthesis(tokenAtCursor, value) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.composer.stopComposerRangeSelection();
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -197770,7 +198484,11 @@ class GaugeChartComponent extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return [rect.width, rect.height, this.runtime, this.canvas.el];
+=======
+            return [rect.width, rect.height, this.runtime, this.canvas.el, window.devicePixelRatio];
+>>>>>>> upstream/18.0
 =======
             return [rect.width, rect.height, this.runtime, this.canvas.el, window.devicePixelRatio];
 >>>>>>> upstream/18.0
@@ -199004,9 +199722,12 @@ class BarChart extends AbstractChart {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // Excel does not support aggregating labels
         if (this.aggregated)
             return undefined;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -199916,6 +200637,10 @@ function getChartTimeOptions(labels, labelFormat, locale) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        tooltipFormat: luxonFormat,
+>>>>>>> upstream/18.0
 =======
         tooltipFormat: luxonFormat,
 >>>>>>> upstream/18.0
@@ -201107,10 +201832,13 @@ class ComboChart extends AbstractChart {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // Excel does not support aggregating labels
         if (this.aggregated) {
             return undefined;
         }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -201921,7 +202649,11 @@ class GaugeChart extends AbstractChart {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             dataRange: context.range ? context.range[0].dataRange : undefined,
+=======
+            dataRange: context.range?.[0]?.dataRange,
+>>>>>>> upstream/18.0
 =======
             dataRange: context.range?.[0]?.dataRange,
 >>>>>>> upstream/18.0
@@ -202860,9 +203592,12 @@ class LineChart extends AbstractChart {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // Excel does not support aggregating labels
         if (this.aggregated)
             return undefined;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -203789,9 +204524,12 @@ class PieChart extends AbstractChart {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // Excel does not support aggregating labels
         if (this.aggregated)
             return undefined;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -204839,7 +205577,11 @@ function createPyramidChartRuntime(chart, getters) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     config.options.plugins.chartShowValuesPlugin.callback = (x) => callback(Math.abs(x));
+=======
+    config.options.plugins.chartShowValuesPlugin.callback = (value, dataset, index) => callback(Math.abs(value), dataset, index);
+>>>>>>> upstream/18.0
 =======
     config.options.plugins.chartShowValuesPlugin.callback = (value, dataset, index) => callback(Math.abs(value), dataset, index);
 >>>>>>> upstream/18.0
@@ -205851,10 +206593,13 @@ class ScatterChart extends AbstractChart {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // Excel does not support aggregating labels
         if (this.aggregated) {
             return undefined;
         }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -206659,7 +207404,11 @@ class WaterfallChart extends AbstractChart {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 function getWaterfallConfiguration(chart, labels, dataSeriesLabels, localeFormat) {
+=======
+function getWaterfallConfiguration(chart, labels, dataSeriesLabels, localeFormat, dataSetsValues) {
+>>>>>>> upstream/18.0
 =======
 function getWaterfallConfiguration(chart, labels, dataSeriesLabels, localeFormat, dataSetsValues) {
 >>>>>>> upstream/18.0
@@ -207700,11 +208449,14 @@ function getWaterfallConfiguration(chart, labels, dataSeriesLabels, localeFormat
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     config.options.plugins.chartShowValuesPlugin = {
         showValues: chart.showValues,
         background: chart.background,
         callback: formatTickValue(localeFormat),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -208429,6 +209181,9 @@ function getWaterfallConfiguration(chart, labels, dataSeriesLabels, localeFormat
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -209159,10 +209914,14 @@ function createWaterfallChartRuntime(chart, getters) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const config = getWaterfallConfiguration(chart, labels, dataSeriesLabels, {
         format: dataSetFormat,
         locale,
     });
+=======
+    const config = getWaterfallConfiguration(chart, labels, dataSeriesLabels, { format: dataSetFormat, locale }, dataSetsValues);
+>>>>>>> upstream/18.0
 =======
     const config = getWaterfallConfiguration(chart, labels, dataSeriesLabels, { format: dataSetFormat, locale }, dataSetsValues);
 >>>>>>> upstream/18.0
@@ -210291,7 +211050,10 @@ class ChartFigure extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         onFigureDeleted: Function,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -210666,7 +211428,10 @@ class ImageFigure extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         onFigureDeleted: Function,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -211075,7 +211840,11 @@ figureRegistry.add("image", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 function getChartMenu(figureId, onFigureDeleted, env) {
+=======
+function getChartMenu(figureId, env) {
+>>>>>>> upstream/18.0
 =======
 function getChartMenu(figureId, env) {
 >>>>>>> upstream/18.0
@@ -211557,12 +212326,15 @@ function getChartMenu(figureId, env) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         getDeleteMenuItem(figureId, onFigureDeleted, env),
     ];
     return createActions(menuItemSpecs);
 }
 function getImageMenuRegistry(figureId, onFigureDeleted, env) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -211916,6 +212688,9 @@ function getImageMenuRegistry(figureId, env) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -212291,7 +213066,11 @@ function getImageMenuRegistry(figureId, env) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         getDeleteMenuItem(figureId, onFigureDeleted, env),
+=======
+        getDeleteMenuItem(figureId, env),
+>>>>>>> upstream/18.0
 =======
         getDeleteMenuItem(figureId, env),
 >>>>>>> upstream/18.0
@@ -212791,7 +213570,11 @@ function getCutMenuItem(figureId, env) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 function getDeleteMenuItem(figureId, onFigureDeleted, env) {
+=======
+function getDeleteMenuItem(figureId, env) {
+>>>>>>> upstream/18.0
 =======
 function getDeleteMenuItem(figureId, env) {
 >>>>>>> upstream/18.0
@@ -213269,7 +214052,10 @@ function getDeleteMenuItem(figureId, env) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             onFigureDeleted();
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -213979,6 +214765,7 @@ class HoveredCellStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.col = position.col;
         this.row = position.row;
     }
@@ -213986,6 +214773,8 @@ class HoveredCellStore extends SpreadsheetStore {
         this.col = undefined;
         this.row = undefined;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -214780,6 +215569,9 @@ class HoveredCellStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -215583,8 +216375,11 @@ class CellPopoverStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.persistentPopover = undefined;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -216370,6 +217165,9 @@ class CellPopoverStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -217620,6 +218418,7 @@ class FilterMenu extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const strValues = [...cellValues, ...filterValues];
         const normalizedFilteredValues = filterValues.map(toLowerCase);
         // Set with lowercase values to avoid duplicates
@@ -217634,6 +218433,8 @@ class FilterMenu extends Component {
             };
         });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -218344,6 +219145,9 @@ class FilterMenu extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -219331,11 +220135,14 @@ const duplicateSheet = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const sheetIdTo = env.model.uuidGenerator.smallUuid();
         env.model.dispatch("DUPLICATE_SHEET", {
             sheetId: sheetIdFrom,
             sheetIdTo,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -220126,6 +220933,9 @@ const duplicateSheet = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -220987,6 +221797,7 @@ function useInterval(callback, delay) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     useEffect(() => {
         intervalId = setInterval(callback, delay);
         return () => clearInterval(intervalId);
@@ -221000,6 +221811,8 @@ function useInterval(callback, delay) {
             if (intervalId === undefined) {
                 intervalId = setInterval(callback, delay);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -221835,6 +222648,9 @@ function useInterval(callback, delay) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -223361,7 +224177,10 @@ const CAN_REMOVE_COLUMNS_ROWS = (dimension, env) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -224035,6 +224854,9 @@ const CAN_REMOVE_COLUMNS_ROWS = (dimension, env) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -225786,7 +226608,11 @@ const reinsertDynamicPivotMenu = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     sequence: 1020,
+=======
+    sequence: 60,
+>>>>>>> upstream/18.0
 =======
     sequence: 60,
 >>>>>>> upstream/18.0
@@ -226590,7 +227416,11 @@ const reinsertStaticPivotMenu = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     sequence: 1020,
+=======
+    sequence: 70,
+>>>>>>> upstream/18.0
 =======
     sequence: 70,
 >>>>>>> upstream/18.0
@@ -228960,8 +229790,14 @@ topbarMenuRegistry
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     .addChild("data_sources_data", ["data"], (env) => {
     const sequence = 50;
+=======
+    .addChild("pivot_data_sources", ["data"], (env) => {
+    const sequence = 50;
+    const numberOfPivots = env.model.getters.getPivotIds().length;
+>>>>>>> upstream/18.0
 =======
     .addChild("pivot_data_sources", ["data"], (env) => {
     const sequence = 50;
@@ -230165,7 +231001,11 @@ topbarMenuRegistry
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             sequence: sequence + index,
+=======
+            sequence: sequence + index / numberOfPivots,
+>>>>>>> upstream/18.0
 =======
             sequence: sequence + index / numberOfPivots,
 >>>>>>> upstream/18.0
@@ -231008,12 +231848,15 @@ class OTRegistry extends Registry {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for (let toTransform of toTransforms) {
             if (!this.content[toTransform]) {
                 this.content[toTransform] = new Map();
             }
             this.content[toTransform].set(executed, fn);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -231688,6 +232531,9 @@ class OTRegistry extends Registry {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -232367,7 +233213,11 @@ class OTRegistry extends Registry {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return this.content[toTransform] && this.content[toTransform].get(executed);
+=======
+        return this.content[executed] && this.content[executed].get(toTransform);
+>>>>>>> upstream/18.0
 =======
         return this.content[executed] && this.content[executed].get(toTransform);
 >>>>>>> upstream/18.0
@@ -234670,7 +235520,11 @@ class ColorPicker extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const val = ev.target.value.slice(0, 7);
+=======
+        const val = ev.target.value.replace("##", "#").slice(0, 7);
+>>>>>>> upstream/18.0
 =======
         const val = ev.target.value.replace("##", "#").slice(0, 7);
 >>>>>>> upstream/18.0
@@ -237014,6 +237868,7 @@ class AbstractComposerStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         this.editionMode = "editing";
 >>>>>>> upstream/18.0
@@ -237037,6 +237892,9 @@ class AbstractComposerStore extends SpreadsheetStore {
 >>>>>>> upstream/18.0
 =======
         this.editionMode = "editing";
+>>>>>>> upstream/18.0
+=======
+        this.stopComposerRangeSelection();
 >>>>>>> upstream/18.0
 =======
         this.stopComposerRangeSelection();
@@ -237906,7 +238764,11 @@ class AbstractComposerStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (this.getters.getSheetName(activeSheetId) !== sheetName) {
+=======
+            if (!isSheetNameEqual(this.getters.getSheetName(activeSheetId), sheetName)) {
+>>>>>>> upstream/18.0
 =======
             if (!isSheetNameEqual(this.getters.getSheetName(activeSheetId), sheetName)) {
 >>>>>>> upstream/18.0
@@ -239034,6 +239896,10 @@ class AbstractComposerStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    canBeToggled: provider.canBeToggled,
+>>>>>>> upstream/18.0
 =======
                     canBeToggled: provider.canBeToggled,
 >>>>>>> upstream/18.0
@@ -239641,6 +240507,7 @@ class AbstractComposerStore extends SpreadsheetStore {
                 proposals &&
                 !["ARG_SEPARATOR", "LEFT_PAREN", "OPERATOR"].includes(tokenAtCursor.type)) {
                 const filteredProposals = fuzzyLookup(searchTerm, proposals, (p) => p.fuzzySearchKey || p.text);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -240634,6 +241501,9 @@ class AbstractComposerStore extends SpreadsheetStore {
 =======
                 if (!exactMatch || filteredProposals.length) {
 >>>>>>> upstream/18.0
+=======
+                if (!exactMatch || filteredProposals.length) {
+>>>>>>> upstream/18.0
                     proposals = filteredProposals;
                 }
             }
@@ -240844,6 +241714,10 @@ class AbstractComposerStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    canBeToggled: provider.canBeToggled,
+>>>>>>> upstream/18.0
 =======
                     canBeToggled: provider.canBeToggled,
 >>>>>>> upstream/18.0
@@ -241758,6 +242632,10 @@ class StandaloneComposerStore extends AbstractComposerStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        let content = this._currentContent;
+>>>>>>> upstream/18.0
 =======
         let content = this._currentContent;
 >>>>>>> upstream/18.0
@@ -242779,7 +243657,11 @@ class StandaloneComposerStore extends AbstractComposerStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return rangeTokenize(this.args().content)
+=======
+            content = rangeTokenize(this.args().content)
+>>>>>>> upstream/18.0
 =======
             content = rangeTokenize(this.args().content)
 >>>>>>> upstream/18.0
@@ -243805,7 +244687,11 @@ class StandaloneComposerStore extends AbstractComposerStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return this._currentContent;
+=======
+        return localizeContent(content, this.getters.getLocale());
+>>>>>>> upstream/18.0
 =======
         return localizeContent(content, this.getters.getLocale());
 >>>>>>> upstream/18.0
@@ -245136,7 +246022,11 @@ css /* scss */ `
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   .o-cf-preview {
+=======
+  .o-spreadsheet .o-cf-preview {
+>>>>>>> upstream/18.0
 =======
   .o-spreadsheet .o-cf-preview {
 >>>>>>> upstream/18.0
@@ -245558,8 +246448,14 @@ css /* scss */ `
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     height: 60px;
     padding: 10px;
+=======
+    height: 80px;
+    padding: 10px;
+    box-sizing: border-box;
+>>>>>>> upstream/18.0
 =======
     height: 80px;
     padding: 10px;
@@ -246197,7 +247093,10 @@ css /* scss */ `
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       position: absolute;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -246518,12 +247417,15 @@ css /* scss */ `
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       left: 65px;
       margin-bottom: auto;
       margin-right: 8px;
       margin-top: auto;
       position: relative;
       width: 142px;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -246845,11 +247747,14 @@ css /* scss */ `
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     .o-cf-delete {
       left: 90%;
       top: 39%;
       position: absolute;
     }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -247166,7 +248071,11 @@ css /* scss */ `
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       left: -8px;
+=======
+      left: 2px;
+>>>>>>> upstream/18.0
 =======
       left: 2px;
 >>>>>>> upstream/18.0
@@ -248453,7 +249362,11 @@ dataValidationEvaluatorRegistry.add("dateIs", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const today = jsDateToRoundNumber(DateTime.now());
+=======
+            const today = Math.floor(jsDateToNumber(DateTime.now()));
+>>>>>>> upstream/18.0
 =======
             const today = Math.floor(jsDateToNumber(DateTime.now()));
 >>>>>>> upstream/18.0
@@ -249787,6 +250700,7 @@ class DataValidationEditor extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     setup() {
         if (this.props.rule) {
             const sheetId = this.env.model.getters.getActiveSheetId();
@@ -249794,6 +250708,8 @@ class DataValidationEditor extends Component {
                 ...this.props.rule,
                 ranges: this.props.rule.ranges.map((range) => this.env.model.getters.getRangeString(range, sheetId)),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -250290,6 +251206,9 @@ class DataValidationEditor extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -250814,7 +251733,10 @@ class DataValidationEditor extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const sheetId = this.env.model.getters.getActiveSheetId();
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -251314,8 +252236,13 @@ class DataValidationEditor extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             sheetId,
             ranges: this.state.rule.ranges.map((xc) => this.env.model.getters.getRangeDataFromXc(sheetId, xc)),
+=======
+            sheetId: this.editingSheetId,
+            ranges: this.state.rule.ranges.map((xc) => this.env.model.getters.getRangeDataFromXc(this.editingSheetId, xc)),
+>>>>>>> upstream/18.0
 =======
             sheetId: this.editingSheetId,
             ranges: this.state.rule.ranges.map((xc) => this.env.model.getters.getRangeDataFromXc(this.editingSheetId, xc)),
@@ -252259,7 +253186,10 @@ class FindAndReplaceStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -252484,6 +253414,7 @@ class FindAndReplaceStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -252530,6 +253461,8 @@ class FindAndReplaceStore extends SpreadsheetStore {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -252687,6 +253620,9 @@ class FindAndReplaceStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -253197,6 +254133,10 @@ class FindAndReplaceStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.preserveSelectedMatchIndex = true;
+>>>>>>> upstream/18.0
 =======
         this.preserveSelectedMatchIndex = true;
 >>>>>>> upstream/18.0
@@ -254151,7 +255091,11 @@ class FindAndReplaceStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.selectNextCell(Direction.next);
+=======
+        this.preserveSelectedMatchIndex = false;
+>>>>>>> upstream/18.0
 =======
         this.preserveSelectedMatchIndex = false;
 >>>>>>> upstream/18.0
@@ -255162,10 +256106,13 @@ class FindAndReplacePanel extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     get pendingSearch() {
         return this.updateSearchContent.isDebouncePending();
     }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -255399,6 +256346,9 @@ class FindAndReplacePanel extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -256430,6 +257380,7 @@ class PivotMeasureEditor extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     get isCalculatedMeasureInvalid() {
         return this.env.model.getters.getMeasureCompiledFormula(this.props.measure).isBadExpression;
@@ -256743,6 +257694,11 @@ class PivotMeasureEditor extends Component {
 =======
     get isCalculatedMeasureInvalid() {
         return this.env.model.getters.getMeasureCompiledFormula(this.props.measure).isBadExpression;
+    }
+>>>>>>> upstream/18.0
+=======
+    get isCalculatedMeasureInvalid() {
+        return compile(this.props.measure.computedBy?.formula ?? "").isBadExpression;
     }
 >>>>>>> upstream/18.0
 =======
@@ -258076,7 +259032,11 @@ class PivotLayoutConfigurator extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const baseId = fieldName + (aggregator ? `:${aggregator}` : "");
+=======
+        const baseId = fieldName.replaceAll("'", "") + (aggregator ? `:${aggregator}` : "");
+>>>>>>> upstream/18.0
 =======
         const baseId = fieldName.replaceAll("'", "") + (aggregator ? `:${aggregator}` : "");
 >>>>>>> upstream/18.0
@@ -258880,6 +259840,7 @@ class PivotLayoutConfigurator extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.props.onDimensionsUpdated({
             measures: measures.concat([
                 {
@@ -258887,6 +259848,8 @@ class PivotLayoutConfigurator extends Component {
                     fieldName: measureName,
                     aggregator: "sum",
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -259464,6 +260427,9 @@ class PivotLayoutConfigurator extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -260806,7 +261772,13 @@ function compareDimensionValues(dimension, a, b) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return dimension.order === "asc" ? Number(a) - Number(b) : Number(b) - Number(a);
+=======
+        return dimension.order === "asc"
+            ? toNumber(a, DEFAULT_LOCALE) - toNumber(b, DEFAULT_LOCALE)
+            : toNumber(b, DEFAULT_LOCALE) - toNumber(a, DEFAULT_LOCALE);
+>>>>>>> upstream/18.0
 =======
         return dimension.order === "asc"
             ? toNumber(a, DEFAULT_LOCALE) - toNumber(b, DEFAULT_LOCALE)
@@ -262315,8 +263287,13 @@ function createDate(dimension, value, locale) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const granularity = dimension.granularity;
     if (!granularity || !(granularity in MAP_VALUE_DIMENSION_DATE)) {
+=======
+    const granularity = dimension.granularity || "month";
+    if (!(granularity in MAP_VALUE_DIMENSION_DATE)) {
+>>>>>>> upstream/18.0
 =======
     const granularity = dimension.granularity || "month";
     if (!(granularity in MAP_VALUE_DIMENSION_DATE)) {
@@ -263645,6 +264622,12 @@ function createDate(dimension, value, locale) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                case "month":
+                    number = Math.floor(toNumber(value, locale));
+                    break;
+>>>>>>> upstream/18.0
 =======
                 case "month":
                     number = Math.floor(toNumber(value, locale));
@@ -265310,7 +266293,10 @@ const MAP_VALUE_DIMENSION_DATE = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -266098,6 +267084,9 @@ const MAP_VALUE_DIMENSION_DATE = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -266831,6 +267820,7 @@ class SpreadsheetPivot {
         const cells = this.filterDataEntriesFromDomain(this.dataEntries, domain);
         const finalCell = cells[0]?.[dimension.nameWithGranularity];
         if (dimension.type === "datetime") {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -267880,6 +268870,9 @@ class SpreadsheetPivot {
 =======
             const adapter = pivotTimeAdapter((dimension.granularity || "month"));
 >>>>>>> upstream/18.0
+=======
+            const adapter = pivotTimeAdapter((dimension.granularity || "month"));
+>>>>>>> upstream/18.0
             return adapter.toValueAndFormat(lastNode.value, this.getters.getLocale());
         }
         if (!finalCell) {
@@ -268090,10 +269083,14 @@ class SpreadsheetPivot {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return {
             value: finalCell.value,
             format: finalCell.format,
         };
+=======
+        return finalCell;
+>>>>>>> upstream/18.0
 =======
         return finalCell;
 >>>>>>> upstream/18.0
@@ -268991,10 +269988,13 @@ class SpreadsheetPivot {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const { field, value } = domain;
         const { nameWithGranularity } = this.getDimension(field);
         return dataEntries.filter((entry) => entry[nameWithGranularity]?.value === value);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -269598,6 +270598,9 @@ class SpreadsheetPivot {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -270001,6 +271004,7 @@ class SpreadsheetPivot {
     }
     getTypeFromZone(sheetId, zone) {
         const cells = this.getters.getEvaluatedCellsInZone(sheetId, zone);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -270833,6 +271837,8 @@ class SpreadsheetPivot {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const nonEmptyCells = cells.filter((cell) => !(cell.type === CellValueType.empty || cell.value === ""));
         if (nonEmptyCells.length === 0) {
             return "integer";
@@ -271057,6 +272063,9 @@ class SpreadsheetPivot {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -271576,6 +272585,7 @@ class SpreadsheetPivot {
                     entry[field.name] = { value: null, type: CellValueType.empty, formattedValue: "" };
                 }
                 else {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -272658,6 +273668,9 @@ class SpreadsheetPivot {
 =======
                     entry[field.name] = cell;
 >>>>>>> upstream/18.0
+=======
+                    entry[field.name] = cell;
+>>>>>>> upstream/18.0
                 }
             }
             entry["__count"] = { value: 1, type: CellValueType.number, formattedValue: "1" };
@@ -272933,7 +273946,11 @@ class SpreadsheetPivot {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     const adapter = pivotTimeAdapter(dimension.granularity);
+=======
+                    const adapter = pivotTimeAdapter((dimension.granularity || "month"));
+>>>>>>> upstream/18.0
 =======
                     const adapter = pivotTimeAdapter((dimension.granularity || "month"));
 >>>>>>> upstream/18.0
@@ -274001,6 +275018,10 @@ const dateGranularities = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    "month",
+>>>>>>> upstream/18.0
 =======
     "month",
 >>>>>>> upstream/18.0
@@ -274792,6 +275813,7 @@ const dateGranularities = [
     "day",
     "day_of_week",
 ];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -275661,6 +276683,8 @@ pivotRegistry.add("SPREADSHEET", {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 const datetimeGranularities = [
     ...dateGranularities,
     "hour_number",
@@ -275692,6 +276716,9 @@ pivotRegistry.add("SPREADSHEET", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -275863,6 +276890,9 @@ function adaptPivotRange(range, applyChange) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -276290,7 +277320,11 @@ class PivotSidePanelStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const granularity = unusedGranularities[dimension.fieldName]?.values().next().value || "year";
+=======
+                const granularity = unusedGranularities[dimension.fieldName]?.values().next().value;
+>>>>>>> upstream/18.0
 =======
                 const granularity = unusedGranularities[dimension.fieldName]?.values().next().value;
 >>>>>>> upstream/18.0
@@ -276371,6 +277405,7 @@ class PivotSidePanelStore extends SpreadsheetStore {
                 : this.datetimeGranularities);
         }
         for (const field of dateFields) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -277362,6 +278397,9 @@ class PivotSidePanelStore extends SpreadsheetStore {
 >>>>>>> upstream/18.0
 =======
             granularitiesPerFields[field.fieldName].delete(field.granularity || "month");
+>>>>>>> upstream/18.0
+=======
+            granularitiesPerFields[field.fieldName].delete(field.granularity);
 >>>>>>> upstream/18.0
 =======
             granularitiesPerFields[field.fieldName].delete(field.granularity);
@@ -278926,7 +279964,10 @@ class FigureComponent extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         onFigureDeleted: { type: Function, optional: true },
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -279283,7 +280324,10 @@ class FigureComponent extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         onFigureDeleted: () => { },
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -279708,9 +280752,12 @@ class FigureComponent extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         onWillUnmount(() => {
             this.props.onFigureDeleted();
         });
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -280079,7 +281126,10 @@ class FigureComponent extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this.props.onFigureDeleted();
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -280494,7 +281544,11 @@ class FigureComponent extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             .menuBuilder(this.props.figure.id, this.props.onFigureDeleted, this.env);
+=======
+            .menuBuilder(this.props.figure.id, this.env);
+>>>>>>> upstream/18.0
 =======
             .menuBuilder(this.props.figure.id, this.env);
 >>>>>>> upstream/18.0
@@ -281048,11 +282102,17 @@ class ArrayFormulaHighlight extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         let zone;
         const position = this.model.getters.getActivePosition();
         const cell = this.getters.getEvaluatedCell(position);
         const spreader = this.model.getters.getArrayFormulaSpreadingOn(position);
         zone = spreader
+=======
+        const position = this.model.getters.getActivePosition();
+        const spreader = this.model.getters.getArrayFormulaSpreadingOn(position);
+        const zone = spreader
+>>>>>>> upstream/18.0
 =======
         const position = this.model.getters.getActivePosition();
         const spreader = this.model.getters.getArrayFormulaSpreadingOn(position);
@@ -281598,6 +282658,10 @@ class ArrayFormulaHighlight extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        const isArrayFormulaBlocked = this.model.getters.isArrayFormulaSpillBlocked(spreader ?? position);
+>>>>>>> upstream/18.0
 =======
         const isArrayFormulaBlocked = this.model.getters.isArrayFormulaSpillBlocked(spreader ?? position);
 >>>>>>> upstream/18.0
@@ -281962,7 +283026,11 @@ class ArrayFormulaHighlight extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 dashed: cell.value === CellErrorType.SpilledBlocked,
+=======
+                dashed: isArrayFormulaBlocked,
+>>>>>>> upstream/18.0
 =======
                 dashed: isArrayFormulaBlocked,
 >>>>>>> upstream/18.0
@@ -282476,6 +283544,7 @@ class CellComposerStore extends AbstractComposerStore {
         if (!spreader) {
             return undefined;
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -283470,6 +284539,9 @@ class CellComposerStore extends AbstractComposerStore {
 =======
         return this.getters.getCellText(spreader, { showFormula: true });
 >>>>>>> upstream/18.0
+=======
+        return this.getters.getCellText(spreader, { showFormula: true });
+>>>>>>> upstream/18.0
     }
     get currentEditedCell() {
         return {
@@ -283607,8 +284679,11 @@ class CellComposerStore extends AbstractComposerStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const evaluated = this.getters.evaluateFormula(this.sheetId, content);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -283722,6 +284797,9 @@ class CellComposerStore extends AbstractComposerStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -284076,7 +285154,10 @@ class GridComposer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -284676,6 +285757,9 @@ class GridComposer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -285301,7 +286385,11 @@ class GridComposer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const { col, row, sheetId } = this.composerStore.currentEditedCell;
+=======
+        const { col, row, sheetId } = this.currentEditedCell;
+>>>>>>> upstream/18.0
 =======
         const { col, row, sheetId } = this.currentEditedCell;
 >>>>>>> upstream/18.0
@@ -286179,6 +287267,11 @@ class GridComposer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        // Remove the wrapper border width
+        const maxHeight = this.props.gridDims.height - this.rect.y - 2 * COMPOSER_BORDER_WIDTH;
+>>>>>>> upstream/18.0
 =======
         // Remove the wrapper border width
         const maxHeight = this.props.gridDims.height - this.rect.y - 2 * COMPOSER_BORDER_WIDTH;
@@ -287506,6 +288599,10 @@ class GridComposer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            inputStyle: `max-height: ${maxHeight}px;`,
+>>>>>>> upstream/18.0
 =======
             inputStyle: `max-height: ${maxHeight}px;`,
 >>>>>>> upstream/18.0
@@ -288545,6 +289642,10 @@ class GridComposer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        let shouldRecomputeRect = isEditing && !deepEquals(this.currentEditedCell, this.composerStore.currentEditedCell);
+>>>>>>> upstream/18.0
 =======
         let shouldRecomputeRect = isEditing && !deepEquals(this.currentEditedCell, this.composerStore.currentEditedCell);
 >>>>>>> upstream/18.0
@@ -289347,7 +290448,10 @@ class GridComposer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -289946,6 +291050,9 @@ class GridComposer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -290967,9 +292074,13 @@ class FiguresContainer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     static props = {
         onFigureDeleted: Function,
     };
+=======
+    static props = {};
+>>>>>>> upstream/18.0
 =======
     static props = {};
 >>>>>>> upstream/18.0
@@ -291794,10 +292905,16 @@ class GridAddRowsFooter extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     static props = {
         focusGrid: Function,
     };
     static components = { ValidationMessages };
+=======
+    static props = {};
+    static components = { ValidationMessages };
+    DOMFocusableElementStore;
+>>>>>>> upstream/18.0
 =======
     static props = {};
     static components = { ValidationMessages };
@@ -292506,6 +293623,10 @@ class GridAddRowsFooter extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.DOMFocusableElementStore = useStore(DOMFocusableElementStore);
+>>>>>>> upstream/18.0
 =======
         this.DOMFocusableElementStore = useStore(DOMFocusableElementStore);
 >>>>>>> upstream/18.0
@@ -292991,7 +294112,11 @@ class GridAddRowsFooter extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.props.focusGrid();
+=======
+            this.focusDefaultElement();
+>>>>>>> upstream/18.0
 =======
             this.focusDefaultElement();
 >>>>>>> upstream/18.0
@@ -293485,7 +294610,11 @@ class GridAddRowsFooter extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.props.focusGrid();
+=======
+        this.focusDefaultElement();
+>>>>>>> upstream/18.0
 =======
         this.focusDefaultElement();
 >>>>>>> upstream/18.0
@@ -293849,6 +294978,7 @@ class GridAddRowsFooter extends Component {
         if (this.inputRef.el !== document.activeElement || ev.target === this.inputRef.el) {
             return;
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -294520,6 +295650,8 @@ class PaintFormatStore extends SpreadsheetStore {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         this.focusDefaultElement();
     }
     focusDefaultElement() {
@@ -294645,6 +295777,9 @@ class PaintFormatStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -295107,6 +296242,9 @@ class PaintFormatStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -295796,6 +296934,7 @@ class PaintFormatStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     copyFormats() {
         const sheetId = this.getters.getActiveSheetId();
         const zones = this.getters.getSelectedZones();
@@ -295803,6 +296942,8 @@ class PaintFormatStore extends SpreadsheetStore {
         for (const handler of this.clipboardHandlers) {
             Object.assign(copiedData, handler.copy(getClipboardDataPositions(sheetId, zones)));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -296478,6 +297619,9 @@ class PaintFormatStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -296921,6 +298065,7 @@ class PaintFormatStore extends SpreadsheetStore {
         return copiedData;
     }
     paintFormat(sheetId, target) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -297588,6 +298733,8 @@ class PaintFormatStore extends SpreadsheetStore {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         if (!this.copiedData) {
             return;
         }
@@ -297817,6 +298964,9 @@ class PaintFormatStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -298361,6 +299511,7 @@ function useCellHovered(env, gridRef, callback) {
     }
     return hoveredPosition;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -299249,6 +300400,8 @@ function useTouchMove(gridRef, handler, canMoveUp) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 class GridOverlay extends Component {
     static template = "o-spreadsheet-GridOverlay";
     static props = {
@@ -299374,7 +300527,10 @@ class GridOverlay extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         onFigureDeleted: { type: Function, optional: true },
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -299741,7 +300897,10 @@ class GridOverlay extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         onFigureDeleted: () => { },
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -299998,6 +301157,7 @@ class GridOverlay extends Component {
         onWillUnmount(() => {
             resizeObserver.disconnect();
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -300857,6 +302017,8 @@ class GridOverlay extends Component {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         this.cellPopovers = useStore(CellPopoverStore);
         this.paintFormatStore = useStore(PaintFormatStore);
     }
@@ -301120,8 +302282,11 @@ class AbstractResizer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (this.state.isResizing || this.state.isMoving || this.state.isSelecting) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -301498,6 +302663,9 @@ class AbstractResizer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -301924,7 +303092,10 @@ class AbstractResizer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -302301,6 +303472,9 @@ class AbstractResizer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -302924,7 +304098,11 @@ css /* scss */ `
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     right: 0;
+=======
+    right: ${SCROLLBAR_WIDTH}px;
+>>>>>>> upstream/18.0
 =======
     right: ${SCROLLBAR_WIDTH}px;
 >>>>>>> upstream/18.0
@@ -304178,9 +305356,14 @@ css /* scss */ `
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     right: 0;
     width: ${HEADER_WIDTH}px;
     height: calc(100% - ${HEADER_HEIGHT + SCROLLBAR_WIDTH}px);
+=======
+    bottom: ${SCROLLBAR_WIDTH}px;
+    width: ${HEADER_WIDTH}px;
+>>>>>>> upstream/18.0
 =======
     bottom: ${SCROLLBAR_WIDTH}px;
     width: ${HEADER_WIDTH}px;
@@ -305583,9 +306766,12 @@ class RowResizer extends AbstractResizer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!result.isSuccessful && result.reasons.includes("WillRemoveExistingMerge" /* CommandResult.WillRemoveExistingMerge */)) {
             this.env.raiseError(MergeErrorMessage);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -306187,6 +307373,9 @@ class RowResizer extends AbstractResizer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -307204,6 +308393,7 @@ class GridRenderer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const maxWidth = width - 2 * MIN_CELL_TEXT_MARGIN;
 =======
         // we want to give priority to the style, so if there is one we don't fill with white spaces
@@ -307309,6 +308499,8 @@ class GridRenderer {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const maxWidth = width - 2 * MIN_CELL_TEXT_MARGIN;
         const formatWidth = style.align ? 0 : maxWidth;
         const multiLineText = this.getters.getCellMultiLineText(position, {
@@ -307317,6 +308509,9 @@ class GridRenderer {
             wrapText,
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -307746,10 +308941,13 @@ function useGridDrawing(refName, model, canvasSize) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             // @ts-ignore 'drawLayer' is not declated as a mutator because:
             // it does not mutate anything. Most importantly it's used
             // during rendering. Invoking a mutator during rendering would
             // trigger another rendering, ultimately resulting in an infinite loop.
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -308562,6 +309760,7 @@ function useGridDrawing(refName, model, canvasSize) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -308639,6 +309838,8 @@ const friction = 0.95;
 const verticalScrollFactor = 1;
 const horizontalScrollFactor = 1;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -309384,6 +310585,9 @@ const resetTimeoutDuration = 100;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -310134,6 +311338,10 @@ function useTouchScroll(ref, updateScroll, canMoveUp) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    let resetTimeout = null;
+>>>>>>> upstream/18.0
 =======
     let resetTimeout = null;
 >>>>>>> upstream/18.0
@@ -311138,7 +312346,10 @@ function useTouchScroll(ref, updateScroll, canMoveUp) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -311884,6 +313095,9 @@ function useTouchScroll(ref, updateScroll, canMoveUp) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -312621,6 +313835,12 @@ function useTouchScroll(ref, updateScroll, canMoveUp) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (!elapsedTime) {
+            return;
+        }
+>>>>>>> upstream/18.0
 =======
         if (!elapsedTime) {
             return;
@@ -314065,7 +315285,10 @@ function useTouchScroll(ref, updateScroll, canMoveUp) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -314811,6 +316034,9 @@ function useTouchScroll(ref, updateScroll, canMoveUp) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -315548,7 +316774,10 @@ function useTouchScroll(ref, updateScroll, canMoveUp) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -316262,6 +317491,9 @@ function useTouchScroll(ref, updateScroll, canMoveUp) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -317043,6 +318275,9 @@ function useTouchScroll(ref, updateScroll, canMoveUp) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -318137,7 +319372,11 @@ class SidePanelStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     initialPanelProps = {};
+=======
+    currentPanelProps = {};
+>>>>>>> upstream/18.0
 =======
     currentPanelProps = {};
 >>>>>>> upstream/18.0
@@ -318644,11 +319883,14 @@ class SidePanelStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return this.computeState(this.componentTag, this.initialPanelProps).isOpen;
     }
     get panelProps() {
         const state = this.computeState(this.componentTag, this.initialPanelProps);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -319025,6 +320267,9 @@ class SidePanelStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -319405,7 +320650,11 @@ class SidePanelStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const state = this.computeState(this.componentTag, this.initialPanelProps);
+=======
+        const state = this.computeState(this.componentTag, this.currentPanelProps);
+>>>>>>> upstream/18.0
 =======
         const state = this.computeState(this.componentTag, this.currentPanelProps);
 >>>>>>> upstream/18.0
@@ -319917,11 +321166,14 @@ class SidePanelStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.initialPanelProps?.onCloseSidePanel?.();
         }
         this.componentTag = componentTag;
         this.initialPanelProps = state.props ?? {};
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -320298,6 +321550,9 @@ class SidePanelStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -320682,8 +321937,13 @@ class SidePanelStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.initialPanelProps.onCloseSidePanel?.();
         this.initialPanelProps = {};
+=======
+        this.currentPanelProps.onCloseSidePanel?.();
+        this.currentPanelProps = {};
+>>>>>>> upstream/18.0
 =======
         this.currentPanelProps.onCloseSidePanel?.();
         this.currentPanelProps = {};
@@ -321334,8 +322594,11 @@ class SidePanelStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return customComputeState(this.getters, panelProps);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -321713,6 +322976,9 @@ class SidePanelStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -322108,6 +323374,7 @@ class Grid extends Component {
         this.cellPopovers = useStore(CellPopoverStore);
         useEffect(() => {
             if (!this.sidePanel.isOpen) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -323748,6 +325015,11 @@ class Grid extends Component {
             }
         }, () => [this.sidePanel.isOpen]);
 >>>>>>> upstream/18.0
+=======
+                this.DOMFocusableElementStore.focus();
+            }
+        }, () => [this.sidePanel.isOpen]);
+>>>>>>> upstream/18.0
         useTouchScroll(this.gridRef, this.moveCanvas.bind(this), () => {
             const { scrollY } = this.env.model.getters.getActiveSheetScrollInfo();
             return scrollY > 0;
@@ -324036,6 +325308,9 @@ class Grid extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -325067,7 +326342,11 @@ class Grid extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.DOMFocusableElementStore.focusableElement?.focus();
+=======
+            this.DOMFocusableElementStore.focus();
+>>>>>>> upstream/18.0
 =======
             this.DOMFocusableElementStore.focus();
 >>>>>>> upstream/18.0
@@ -326481,7 +327760,10 @@ class EditableName extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -327578,6 +328860,9 @@ class PivotHTMLRenderer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -328562,7 +329847,10 @@ class BordersPlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -329430,6 +330718,9 @@ class BordersPlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -330885,7 +332176,11 @@ class CellPlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const style = this.removeDefaultStyleValues(cell.style);
+=======
+                const style = this.extractCustomStyle(cell);
+>>>>>>> upstream/18.0
 =======
                 const style = this.extractCustomStyle(cell);
 >>>>>>> upstream/18.0
@@ -331194,7 +332489,11 @@ class CellPlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     sheet.cells[xc].style = getItemId(this.removeDefaultStyleValues(cell.style), data.styles);
+=======
+                    sheet.cells[xc].style = getItemId(this.extractCustomStyle(cell), data.styles);
+>>>>>>> upstream/18.0
 =======
                     sheet.cells[xc].style = getItemId(this.extractCustomStyle(cell), data.styles);
 >>>>>>> upstream/18.0
@@ -331485,11 +332784,14 @@ class CellPlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     removeDefaultStyleValues(style) {
         const cleanedStyle = { ...style };
         for (const property in DEFAULT_STYLE) {
             if (cleanedStyle[property] === DEFAULT_STYLE[property]) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -331696,6 +332998,9 @@ class CellPlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -332033,10 +333338,13 @@ class CellPlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const hasContent = "content" in after || "formula" in after;
         // Compute the new cell properties
         const afterContent = hasContent ? replaceNewLines(after?.content) : before?.content || "";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -332192,6 +333500,9 @@ class CellPlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -332351,7 +333662,11 @@ class CellPlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const format = "format" in after ? after.format : before && before.format;
+=======
+        const format = after.format !== undefined ? after.format : before && before.format;
+>>>>>>> upstream/18.0
 =======
         const format = after.format !== undefined ? after.format : before && before.format;
 >>>>>>> upstream/18.0
@@ -333120,9 +334435,13 @@ class ChartPlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return this.getters.getFigureSheetId(cmd.id)
             ? "Success" /* CommandResult.Success */
             : "ChartDoesNotExist" /* CommandResult.ChartDoesNotExist */;
+=======
+        return this.isChartDefined(cmd.id) ? "Success" /* CommandResult.Success */ : "ChartDoesNotExist" /* CommandResult.ChartDoesNotExist */;
+>>>>>>> upstream/18.0
 =======
         return this.isChartDefined(cmd.id) ? "Success" /* CommandResult.Success */ : "ChartDoesNotExist" /* CommandResult.ChartDoesNotExist */;
 >>>>>>> upstream/18.0
@@ -334709,7 +336028,11 @@ class DataValidationPlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const adaptedRules = this.removeRangesFromRules(sheetId, newRule.ranges, rules);
+=======
+        const adaptedRules = this.removeRangesFromRules(sheetId, newRule.ranges, rules, newRule.id);
+>>>>>>> upstream/18.0
 =======
         const adaptedRules = this.removeRangesFromRules(sheetId, newRule.ranges, rules, newRule.id);
 >>>>>>> upstream/18.0
@@ -335599,10 +336922,13 @@ class DataValidationPlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     removeRangesFromRules(sheetId, ranges, rules) {
         rules = deepCopy(rules);
         for (const rule of rules) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -336266,6 +337592,9 @@ class DataValidationPlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -337188,7 +338517,11 @@ class HeaderSizePlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 sizes.splice(addIndex, 0, ...Array(cmd.quantity).fill(baseSize));
+=======
+                sizes = insertItemsAtIndex(sizes, Array(cmd.quantity).fill(baseSize), addIndex);
+>>>>>>> upstream/18.0
 =======
                 sizes = insertItemsAtIndex(sizes, Array(cmd.quantity).fill(baseSize), addIndex);
 >>>>>>> upstream/18.0
@@ -338032,9 +339365,14 @@ class HeaderVisibilityPlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const hiddenHeaders = [...this.hiddenHeaders[cmd.sheetId][cmd.dimension]];
                 const addIndex = getAddHeaderStartIndex(cmd.position, cmd.base);
                 hiddenHeaders.splice(addIndex, 0, ...Array(cmd.quantity).fill(false));
+=======
+                const addIndex = getAddHeaderStartIndex(cmd.position, cmd.base);
+                const hiddenHeaders = insertItemsAtIndex([...this.hiddenHeaders[cmd.sheetId][cmd.dimension]], Array(cmd.quantity).fill(false), addIndex);
+>>>>>>> upstream/18.0
 =======
                 const addIndex = getAddHeaderStartIndex(cmd.position, cmd.base);
                 const hiddenHeaders = insertItemsAtIndex([...this.hiddenHeaders[cmd.sheetId][cmd.dimension]], Array(cmd.quantity).fill(false), addIndex);
@@ -339564,6 +340902,10 @@ class RangeAdapter {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    isAdaptingRanges = false;
+>>>>>>> upstream/18.0
 =======
     isAdaptingRanges = false;
 >>>>>>> upstream/18.0
@@ -340008,6 +341350,12 @@ class RangeAdapter {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (this.isAdaptingRanges) {
+            throw new Error("Plugins cannot dispatch commands during adaptRanges phase");
+        }
+>>>>>>> upstream/18.0
 =======
         if (this.isAdaptingRanges) {
             throw new Error("Plugins cannot dispatch commands during adaptRanges phase");
@@ -340631,6 +341979,7 @@ class RangeAdapter {
                     if (range.sheetId === cmd.sheetId) {
                         return { changeType: "CHANGE", range };
                     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -341676,6 +343025,9 @@ class RangeAdapter {
 =======
                     if (isSheetNameEqual(range.invalidSheetName, cmd.name)) {
 >>>>>>> upstream/18.0
+=======
+                    if (isSheetNameEqual(range.invalidSheetName, cmd.name)) {
+>>>>>>> upstream/18.0
                         const invalidSheetName = undefined;
                         const sheetId = cmd.sheetId;
                         const newRange = range.clone({ sheetId, invalidSheetName });
@@ -341831,6 +343183,10 @@ class RangeAdapter {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.isAdaptingRanges = true;
+>>>>>>> upstream/18.0
 =======
         this.isAdaptingRanges = true;
 >>>>>>> upstream/18.0
@@ -342251,6 +343607,10 @@ class RangeAdapter {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.isAdaptingRanges = false;
+>>>>>>> upstream/18.0
 =======
         this.isAdaptingRanges = false;
 >>>>>>> upstream/18.0
@@ -342832,7 +344192,11 @@ class RangeAdapter {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 sheetName = rangeImpl.invalidSheetName;
+=======
+                sheetName = getCanonicalSymbolName(rangeImpl.invalidSheetName);
+>>>>>>> upstream/18.0
 =======
                 sheetName = getCanonicalSymbolName(rangeImpl.invalidSheetName);
 >>>>>>> upstream/18.0
@@ -343651,6 +345015,10 @@ class SheetPlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        "getDuplicateSheetName",
+>>>>>>> upstream/18.0
 =======
         "getDuplicateSheetName",
 >>>>>>> upstream/18.0
@@ -344723,8 +346091,11 @@ class SheetPlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 return this.sheets[cmd.sheetIdTo] ? "DuplicatedSheetId" /* CommandResult.DuplicatedSheetId */ : "Success" /* CommandResult.Success */;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -345513,6 +346884,9 @@ class SheetPlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -346374,7 +347748,11 @@ class SheetPlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this.duplicateSheet(cmd.sheetId, cmd.sheetIdTo);
+=======
+                this.duplicateSheet(cmd.sheetId, cmd.sheetIdTo, cmd.sheetNameTo);
+>>>>>>> upstream/18.0
 =======
                 this.duplicateSheet(cmd.sheetId, cmd.sheetIdTo, cmd.sheetNameTo);
 >>>>>>> upstream/18.0
@@ -347562,7 +348940,11 @@ class SheetPlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (key.toUpperCase() === unquotedName.toUpperCase()) {
+=======
+                if (isSheetNameEqual(key, unquotedName)) {
+>>>>>>> upstream/18.0
 =======
                 if (isSheetNameEqual(key, unquotedName)) {
 >>>>>>> upstream/18.0
@@ -348672,6 +350054,7 @@ class SheetPlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         let i = 1;
         const names = this.orderedSheetIds.map(this.getSheetName.bind(this));
         let name = `${baseName}${i}`;
@@ -348680,6 +350063,10 @@ class SheetPlugin extends CorePlugin {
             i++;
         }
         return name;
+=======
+        const names = this.orderedSheetIds.map(this.getSheetName.bind(this));
+        return getNextSheetName(names, baseName);
+>>>>>>> upstream/18.0
 =======
         const names = this.orderedSheetIds.map(this.getSheetName.bind(this));
         return getNextSheetName(names, baseName);
@@ -350170,7 +351557,11 @@ class SheetPlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (orderedSheetIds.find((id) => sheets[id]?.name.toLowerCase() === name && id !== cmd.sheetId)) {
+=======
+        if (orderedSheetIds.find((id) => isSheetNameEqual(sheets[id]?.name, name) && id !== cmd.sheetId)) {
+>>>>>>> upstream/18.0
 =======
         if (orderedSheetIds.find((id) => isSheetNameEqual(sheets[id]?.name, name) && id !== cmd.sheetId)) {
 >>>>>>> upstream/18.0
@@ -351279,9 +352670,14 @@ class SheetPlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     duplicateSheet(fromId, toId) {
         const sheet = this.getSheet(fromId);
         const toName = this.getDuplicateSheetName(sheet.name);
+=======
+    duplicateSheet(fromId, toId, toName) {
+        const sheet = this.getSheet(fromId);
+>>>>>>> upstream/18.0
 =======
     duplicateSheet(fromId, toId, toName) {
         const sheet = this.getSheet(fromId);
@@ -352623,6 +354019,7 @@ class SheetPlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         let i = 1;
         const names = this.orderedSheetIds.map(this.getSheetName.bind(this));
         const baseName = _t("Copy of %s", sheetName);
@@ -352632,6 +354029,10 @@ class SheetPlugin extends CorePlugin {
             i++;
         }
         return name;
+=======
+        const names = this.orderedSheetIds.map(this.getSheetName.bind(this));
+        return getDuplicateSheetName(sheetName, names);
+>>>>>>> upstream/18.0
 =======
         const names = this.orderedSheetIds.map(this.getSheetName.bind(this));
         return getDuplicateSheetName(sheetName, names);
@@ -354228,7 +355629,13 @@ class TablePlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this.dispatch("REMOVE_MERGE", { sheetId: cmd.sheetId, target: mergesInTarget });
+=======
+                if (mergesInTarget.length) {
+                    this.dispatch("REMOVE_MERGE", { sheetId: cmd.sheetId, target: mergesInTarget });
+                }
+>>>>>>> upstream/18.0
 =======
                 if (mergesInTarget.length) {
                     this.dispatch("REMOVE_MERGE", { sheetId: cmd.sheetId, target: mergesInTarget });
@@ -355725,6 +357132,7 @@ class TablePlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for (const position of positions(zoneToCheckIfEmpty)) {
             const cellPosition = { sheetId, ...position };
             // Since this plugin is loaded before CellPlugin, the getters still give us the old cell content
@@ -355734,6 +357142,8 @@ class TablePlugin extends CorePlugin {
                 this.getTablesOverlappingZones(sheetId, [positionToZone(position)]).length) {
                 return "none";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -356434,6 +357844,9 @@ class TablePlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -357671,6 +359084,10 @@ class PivotCorePlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        "getMeasureFullDependencies",
+>>>>>>> upstream/18.0
 =======
         "getMeasureFullDependencies",
 >>>>>>> upstream/18.0
@@ -358049,7 +359466,11 @@ class PivotCorePlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this.compileCalculatedMeasures(cmd.pivot.measures);
+=======
+                this.compileCalculatedMeasures(cmd.pivotId, cmd.pivot.measures);
+>>>>>>> upstream/18.0
 =======
                 this.compileCalculatedMeasures(cmd.pivotId, cmd.pivot.measures);
 >>>>>>> upstream/18.0
@@ -358381,7 +359802,10 @@ class PivotCorePlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -358703,6 +360127,7 @@ class PivotCorePlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -358766,6 +360191,8 @@ class PivotCorePlugin extends CorePlugin {
             for (const formulaString in this.compiledMeasureFormulas[sheetId]) {
                 const compiledFormula = this.compiledMeasureFormulas[sheetId][formulaString];
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -358993,6 +360420,9 @@ class PivotCorePlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -359225,8 +360655,14 @@ class PivotCorePlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (newFormulaString !== formulaString) {
                     this.replaceMeasureFormula(sheetId, formulaString, newFormulaString);
+=======
+                const oldFormulaString = measure.computedBy.formula;
+                if (newFormulaString !== oldFormulaString) {
+                    this.replaceMeasureFormula(pivotId, measure, newFormulaString);
+>>>>>>> upstream/18.0
 =======
                 const oldFormulaString = measure.computedBy.formula;
                 if (newFormulaString !== oldFormulaString) {
@@ -359708,6 +361144,7 @@ class PivotCorePlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     getMeasureCompiledFormula(measure) {
         if (!measure.computedBy) {
             throw new Error(`Measure ${measure.fieldName} is not computed by formula`);
@@ -359715,6 +361152,8 @@ class PivotCorePlugin extends CorePlugin {
         const sheetId = measure.computedBy.sheetId;
         return this.compiledMeasureFormulas[sheetId][measure.computedBy.formula];
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -359945,6 +361384,9 @@ class PivotCorePlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -360172,6 +361614,7 @@ class PivotCorePlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.compileCalculatedMeasures(pivot.measures);
         this.history.update("formulaIds", formulaId, pivotId);
         this.history.update("nextFormulaId", this.nextFormulaId + 1);
@@ -360185,6 +361628,8 @@ class PivotCorePlugin extends CorePlugin {
             }
         }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -360440,6 +361885,9 @@ class PivotCorePlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -360644,6 +362092,7 @@ class PivotCorePlugin extends CorePlugin {
             dependencies: rangeDependencies,
         };
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -361146,6 +362595,8 @@ class PivotCorePlugin extends CorePlugin {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     replaceMeasureFormula(pivotId, measure, newFormulaString) {
         const pivot = this.pivots[pivotId];
         if (!pivot) {
@@ -361230,6 +362681,9 @@ class PivotCorePlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -361472,6 +362926,7 @@ class SettingsPlugin extends CorePlugin {
     }
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -362406,6 +363861,9 @@ class SpreadsheetPivotCorePlugin extends CorePlugin {
 =======
 class SpreadsheetPivotCorePlugin extends CorePlugin {
 >>>>>>> upstream/18.0
+=======
+class SpreadsheetPivotCorePlugin extends CorePlugin {
+>>>>>>> upstream/18.0
     allowDispatch(cmd) {
         switch (cmd.type) {
             case "ADD_PIVOT":
@@ -362415,6 +363873,7 @@ class SpreadsheetPivotCorePlugin extends CorePlugin {
         }
         return "Success" /* CommandResult.Success */;
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -363828,6 +365287,8 @@ class SpreadsheetPivotCorePlugin extends CorePlugin {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     checkDataSetValidity(definition) {
         if (definition.type === "SPREADSHEET" && definition.dataSet) {
             const { zone, sheetId } = definition.dataSet;
@@ -364109,6 +365570,9 @@ class SpreadsheetPivotCorePlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -364989,7 +366453,11 @@ onIterationEndEvaluationRegistry.add("pivots", (getters) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         pivotRegistry.get(pivot.type).onIterationEndEvaluation(pivot);
+=======
+        pivot.markAsDirtyForEvaluation?.();
+>>>>>>> upstream/18.0
 =======
         pivot.markAsDirtyForEvaluation?.();
 >>>>>>> upstream/18.0
@@ -366567,6 +368035,7 @@ class SpreadsheetRTree {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return (left.data == right.data &&
             left.boundingBox.sheetId === right.boundingBox.sheetId &&
             left.boundingBox?.zone.left === right.boundingBox.zone.left &&
@@ -366574,6 +368043,8 @@ class SpreadsheetRTree {
             left.boundingBox?.zone.right === right.boundingBox.zone.right &&
             left.boundingBox?.zone.bottom === right.boundingBox.zone.bottom);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -367096,6 +368567,9 @@ class SpreadsheetRTree {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -367677,7 +369151,11 @@ class FormulaDependencyGraph {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     getCellsDependingOn(ranges) {
+=======
+    getCellsDependingOn(ranges, ignore) {
+>>>>>>> upstream/18.0
 =======
     getCellsDependingOn(ranges, ignore) {
 >>>>>>> upstream/18.0
@@ -368348,7 +369826,11 @@ class FormulaDependencyGraph {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (!visited.has(position)) {
+=======
+                if (!visited.has(position) && !ignore.has(position)) {
+>>>>>>> upstream/18.0
 =======
                 if (!visited.has(position) && !ignore.has(position)) {
 >>>>>>> upstream/18.0
@@ -369157,12 +370639,15 @@ class SpreadingRelation {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * Remove a node, also remove it from other nodes adjacency list
      */
     removeNode(position) {
         this.resultsToArrayFormulas.remove({
             boundingBox: { sheetId: position.sheetId, zone: positionToZone(position) },
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -369371,6 +370856,9 @@ class SpreadingRelation {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -369525,6 +371013,7 @@ class SpreadingRelation {
 const EMPTY_ARRAY = [];
 
 const MAX_ITERATION = 30;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -370837,6 +372326,10 @@ const EMPTY_CELL = Object.freeze(createEvaluatedCell({ value: null }));
 const ERROR_CYCLE_CELL = Object.freeze(createEvaluatedCell(new CircularDependencyError()));
 const EMPTY_CELL = Object.freeze(createEvaluatedCell({ value: null }));
 >>>>>>> upstream/18.0
+=======
+const ERROR_CYCLE_CELL = Object.freeze(createEvaluatedCell(new CircularDependencyError()));
+const EMPTY_CELL = Object.freeze(createEvaluatedCell({ value: null }));
+>>>>>>> upstream/18.0
 class Evaluator {
     context;
     getters;
@@ -370872,6 +372365,7 @@ class Evaluator {
         return this.evaluatedCells.keysForSheet(sheetId);
     }
     getArrayFormulaSpreadingOn(position) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -372400,6 +373894,11 @@ class Evaluator {
         if (isEmpty) {
             return undefined;
 >>>>>>> upstream/18.0
+=======
+        const isEmpty = this.getEvaluatedCell(position).type === CellValueType.empty;
+        if (isEmpty) {
+            return undefined;
+>>>>>>> upstream/18.0
         }
         const arrayFormulas = this.spreadingRelations.searchFormulaPositionsSpreadingOn(position.sheetId, positionToZone(position));
         return Array.from(arrayFormulas).find((position) => !this.blockedArrayFormulas.has(position));
@@ -372494,6 +373993,12 @@ class Evaluator {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    isArrayFormulaSpillBlocked(position) {
+        return this.blockedArrayFormulas.has(position);
+    }
+>>>>>>> upstream/18.0
 =======
     isArrayFormulaSpillBlocked(position) {
         return this.blockedArrayFormulas.has(position);
@@ -373059,6 +374564,7 @@ class Evaluator {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const sheetId = range.sheetId;
             const { left, bottom, right, top } = range.zone;
             for (let col = left; col <= right; col++) {
@@ -373410,6 +374916,8 @@ class Evaluator {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             // ensure that all ranges are computed
             this.compilationParams.ensureRange(range);
         }
@@ -373460,6 +374968,9 @@ class Evaluator {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -373644,11 +375155,14 @@ class Evaluator {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     evaluateFormulaResult(sheetId, formulaString) {
         const compiledFormula = compile(formulaString);
         const ranges = compiledFormula.dependencies.map((xc) => this.getters.getRangeFromSheetXC(sheetId, xc));
         this.updateCompilationParameters();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -373761,6 +375275,9 @@ class Evaluator {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -373917,7 +375434,11 @@ class Evaluator {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.updateCompilationParameters();
+=======
+            this.updateCompilationParametersForGridEvaluation();
+>>>>>>> upstream/18.0
 =======
             this.updateCompilationParametersForGridEvaluation();
 >>>>>>> upstream/18.0
@@ -374201,7 +375722,10 @@ class Evaluator {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -374509,6 +376033,7 @@ class Evaluator {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -374579,6 +376104,8 @@ class Evaluator {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -374781,6 +376308,9 @@ class Evaluator {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -375095,7 +376625,11 @@ class Evaluator {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const invalidatedPositions = this.formulaDependencies().getCellsDependingOn(excludeTopLeft(resultZone).map((zone) => ({ sheetId, zone })));
+=======
+        const invalidatedPositions = this.formulaDependencies().getCellsDependingOn(excludeTopLeft(resultZone).map((zone) => ({ sheetId, zone })), this.nextPositionsToUpdate);
+>>>>>>> upstream/18.0
 =======
         const invalidatedPositions = this.formulaDependencies().getCellsDependingOn(excludeTopLeft(resultZone).map((zone) => ({ sheetId, zone })), this.nextPositionsToUpdate);
 >>>>>>> upstream/18.0
@@ -375866,7 +377400,11 @@ class Evaluator {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return this.formulaDependencies().getCellsDependingOn(ranges);
+=======
+        return this.formulaDependencies().getCellsDependingOn(ranges, this.nextPositionsToUpdate);
+>>>>>>> upstream/18.0
 =======
         return this.formulaDependencies().getCellsDependingOn(ranges, this.nextPositionsToUpdate);
 >>>>>>> upstream/18.0
@@ -376437,10 +377975,13 @@ function updateEvalContextAndExecute(compiledFormula, compilationParams, sheetId
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     compilationParams.evalContext.__originCellPosition = originCellPosition;
     compilationParams.evalContext.__originSheetId = sheetId;
     return compiledFormula.execute(compiledFormula.dependencies, compilationParams.referenceDenormalizer, compilationParams.ensureRange, getSymbolValue, compilationParams.evalContext);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -376600,6 +378141,9 @@ function updateEvalContextAndExecute(compiledFormula, compilationParams, sheetId
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -376900,6 +378444,10 @@ class EvaluationPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        "isArrayFormulaSpillBlocked",
+>>>>>>> upstream/18.0
 =======
         "isArrayFormulaSpillBlocked",
 >>>>>>> upstream/18.0
@@ -377256,8 +378804,13 @@ class EvaluationPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     evaluateFormula(sheetId, formulaString) {
         const result = this.evaluateFormulaResult(sheetId, formulaString);
+=======
+    evaluateFormula(sheetId, formulaString, originCellPosition) {
+        const result = this.evaluateFormulaResult(sheetId, formulaString, originCellPosition);
+>>>>>>> upstream/18.0
 =======
     evaluateFormula(sheetId, formulaString, originCellPosition) {
         const result = this.evaluateFormulaResult(sheetId, formulaString, originCellPosition);
@@ -377448,8 +379001,13 @@ class EvaluationPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     evaluateFormulaResult(sheetId, formulaString) {
         return this.evaluator.evaluateFormulaResult(sheetId, formulaString);
+=======
+    evaluateFormulaResult(sheetId, formulaString, originCellPosition) {
+        return this.evaluator.evaluateFormulaResult(sheetId, formulaString, originCellPosition);
+>>>>>>> upstream/18.0
 =======
     evaluateFormulaResult(sheetId, formulaString, originCellPosition) {
         return this.evaluator.evaluateFormulaResult(sheetId, formulaString, originCellPosition);
@@ -377742,6 +379300,12 @@ class EvaluationPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    isArrayFormulaSpillBlocked(position) {
+        return this.evaluator.isArrayFormulaSpillBlocked(position);
+    }
+>>>>>>> upstream/18.0
 =======
     isArrayFormulaSpillBlocked(position) {
         return this.evaluator.isArrayFormulaSpillBlocked(position);
@@ -379353,7 +380917,11 @@ class DynamicTablesPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             (cmd.type === "UPDATE_CELL" && "content" in cmd) ||
+=======
+            (cmd.type === "UPDATE_CELL" && ("content" in cmd || "format" in cmd)) ||
+>>>>>>> upstream/18.0
 =======
             (cmd.type === "UPDATE_CELL" && ("content" in cmd || "format" in cmd)) ||
 >>>>>>> upstream/18.0
@@ -380236,9 +381804,12 @@ class DynamicTablesPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (overlap(tableZone, staticTable.range.zone)) {
                     tableZone = { ...tableZone, right: staticTable.range.zone.left - 1 };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -380326,6 +381897,9 @@ class DynamicTablesPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -380481,9 +382055,12 @@ class DynamicTablesPlugin extends UIPlugin {
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     exportForExcel(data) {
         for (const sheet of data.sheets) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     /** Check if a table contains array formula, as we cannot have them in a table in Excel */
@@ -380497,6 +382074,9 @@ class DynamicTablesPlugin extends UIPlugin {
         for (const sheet of data.sheets) {
             const exportedTables = [];
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -380507,12 +382087,15 @@ class DynamicTablesPlugin extends UIPlugin {
                 const table = this.getTable(topLeft);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (coreTable?.type !== "dynamic" || !table) {
                     continue;
                 }
                 tableData.range = zoneToXc(table.range.zone);
             }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 if (!coreTable || !table || this.isTableExcelExportable(sheet.id, coreTable)) {
@@ -380544,6 +382127,9 @@ class DynamicTablesPlugin extends UIPlugin {
             }
             sheet.tables = exportedTables;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -380754,7 +382340,10 @@ class HeaderSizeUIPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -381366,6 +382955,7 @@ class HeaderSizeUIPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -381633,6 +383223,8 @@ class HeaderSizeUIPlugin extends UIPlugin {
         switch (cmd.type) {
             case "START":
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -381835,6 +383427,9 @@ class HeaderSizeUIPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -381994,6 +383589,7 @@ class HeaderSizeUIPlugin extends UIPlugin {
                 this.history.update("tallestCellInRow", cmd.sheetId, tallestCells);
                 break;
             }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -382601,6 +384197,8 @@ class HeaderSizeUIPlugin extends UIPlugin {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             case "RESIZE_COLUMNS_ROWS":
                 {
                     const sheetId = cmd.sheetId;
@@ -382747,7 +384345,11 @@ class HeaderSizeUIPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return getDefaultCellHeight(this.ctx, cell, colSize);
+=======
+        return getDefaultCellHeight(this.ctx, cell, this.getters.getLocale(), colSize);
+>>>>>>> upstream/18.0
 =======
         return getDefaultCellHeight(this.ctx, cell, this.getters.getLocale(), colSize);
 >>>>>>> upstream/18.0
@@ -383069,6 +384671,10 @@ function withPivotPresentationLayer (PivotClass) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        pivotId;
+>>>>>>> upstream/18.0
 =======
         pivotId;
 >>>>>>> upstream/18.0
@@ -383296,6 +384902,7 @@ function withPivotPresentationLayer (PivotClass) {
         rankDesc = {};
         runningTotal = {};
         runningTotalInPercent = {};
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -384034,6 +385641,8 @@ function withPivotPresentationLayer (PivotClass) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         constructor(pivotId, custom, params) {
             super(custom, params);
             this.getters = params.getters;
@@ -384113,6 +385722,9 @@ function withPivotPresentationLayer (PivotClass) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -384467,7 +386079,11 @@ function withPivotPresentationLayer (PivotClass) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             super.init(params);
+=======
+            super.markAsDirtyForEvaluation?.();
+>>>>>>> upstream/18.0
 =======
             super.markAsDirtyForEvaluation?.();
 >>>>>>> upstream/18.0
@@ -385293,7 +386909,11 @@ function withPivotPresentationLayer (PivotClass) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (columns.length + rows.length !== domain.length) {
+=======
+            if (measure.aggregator && columns.length + rows.length !== domain.length) {
+>>>>>>> upstream/18.0
 =======
             if (measure.aggregator && columns.length + rows.length !== domain.length) {
 >>>>>>> upstream/18.0
@@ -385953,7 +387573,11 @@ function withPivotPresentationLayer (PivotClass) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const formula = this.getters.getMeasureCompiledFormula(measure);
+=======
+            const formula = this.getters.getMeasureCompiledFormula(this.pivotId, measure);
+>>>>>>> upstream/18.0
 =======
             const formula = this.getters.getMeasureCompiledFormula(this.pivotId, measure);
 >>>>>>> upstream/18.0
@@ -386372,6 +387996,12 @@ function withPivotPresentationLayer (PivotClass) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    if (symbolIndex === -1) {
+                        return new NotAvailableError();
+                    }
+>>>>>>> upstream/18.0
 =======
                     if (symbolIndex === -1) {
                         return new NotAvailableError();
@@ -387523,6 +389153,12 @@ function withPivotPresentationLayer (PivotClass) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    if (symbolIndex === -1) {
+                        return new NotAvailableError();
+                    }
+>>>>>>> upstream/18.0
 =======
                     if (symbolIndex === -1) {
                         return new NotAvailableError();
@@ -388795,7 +390431,10 @@ function withPivotPresentationLayer (PivotClass) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -389640,6 +391279,9 @@ function withPivotPresentationLayer (PivotClass) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -390423,7 +392065,11 @@ function withPivotPresentationLayer (PivotClass) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return tree;
+=======
+            return [];
+>>>>>>> upstream/18.0
 =======
             return [];
 >>>>>>> upstream/18.0
@@ -391617,7 +393263,11 @@ function withPivotPresentationLayer (PivotClass) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const UNDO_REDO_PIVOT_COMMANDS = ["ADD_PIVOT", "UPDATE_PIVOT"];
+=======
+const UNDO_REDO_PIVOT_COMMANDS = ["ADD_PIVOT", "UPDATE_PIVOT", "REMOVE_PIVOT"];
+>>>>>>> upstream/18.0
 =======
 const UNDO_REDO_PIVOT_COMMANDS = ["ADD_PIVOT", "UPDATE_PIVOT", "REMOVE_PIVOT"];
 >>>>>>> upstream/18.0
@@ -392363,9 +394013,13 @@ class PivotUIPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (!pivotRegistry.get(this.getters.getPivotCoreDefinition(pivotId).type).externalData) {
                     this.setupPivot(pivotId, { recreate: true });
                 }
+=======
+                this.setupPivot(pivotId, { recreate: true });
+>>>>>>> upstream/18.0
 =======
                 this.setupPivot(pivotId, { recreate: true });
 >>>>>>> upstream/18.0
@@ -393030,7 +394684,11 @@ class PivotUIPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const { functionName, args } = result;
+=======
+        let { functionName, args } = result;
+>>>>>>> upstream/18.0
 =======
         let { functionName, args } = result;
 >>>>>>> upstream/18.0
@@ -393856,6 +395514,12 @@ class PivotUIPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            const offsetRow = position.row - mainPosition.row;
+            const offsetCol = position.col - mainPosition.col;
+            args = args.map((arg) => (isMatrix(arg) ? arg[offsetCol][offsetRow] : arg));
+>>>>>>> upstream/18.0
 =======
             const offsetRow = position.row - mainPosition.row;
             const offsetCol = position.col - mainPosition.col;
@@ -395025,6 +396689,7 @@ class PivotUIPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const definition = this.getters.getPivotCoreDefinition(pivotId);
 =======
         const definition = deepCopy(this.getters.getPivotCoreDefinition(pivotId));
@@ -395305,6 +396970,8 @@ class PivotUIPlugin extends UIPlugin {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const definition = deepCopy(this.getters.getPivotCoreDefinition(pivotId));
         if (!(pivotId in this.pivots)) {
             const Pivot = withPivotPresentationLayer(pivotRegistry.get(definition.type).ui);
@@ -395382,6 +397049,9 @@ class PivotUIPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -395942,6 +397612,7 @@ class AutofillPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             case "AUTOFILL_CELL":
                 this.autoFillMerge(cmd.originCol, cmd.originRow, cmd.col, cmd.row);
                 const sheetId = this.getters.getActiveSheetId();
@@ -395961,6 +397632,8 @@ class AutofillPlugin extends UIPlugin {
                 });
                 this.autofillCF(cmd.originCol, cmd.originRow, cmd.col, cmd.row);
                 this.autofillDV(cmd.originCol, cmd.originRow, cmd.col, cmd.row);
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -396845,6 +398518,10 @@ class AutofillPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        const autofillCellsData = [];
+>>>>>>> upstream/18.0
 =======
         const autofillCellsData = [];
 >>>>>>> upstream/18.0
@@ -398002,7 +399679,11 @@ class AutofillPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         this.computeNewCell(generator, col, row, apply);
+=======
+                        autofillCellsData.push(this.computeNewCell(generator, col, row));
+>>>>>>> upstream/18.0
 =======
                         autofillCellsData.push(this.computeNewCell(generator, col, row));
 >>>>>>> upstream/18.0
@@ -399162,7 +400843,11 @@ class AutofillPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         this.computeNewCell(generator, col, row, apply);
+=======
+                        autofillCellsData.push(this.computeNewCell(generator, col, row));
+>>>>>>> upstream/18.0
 =======
                         autofillCellsData.push(this.computeNewCell(generator, col, row));
 >>>>>>> upstream/18.0
@@ -400322,7 +402007,11 @@ class AutofillPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         this.computeNewCell(generator, col, row, apply);
+=======
+                        autofillCellsData.push(this.computeNewCell(generator, col, row));
+>>>>>>> upstream/18.0
 =======
                         autofillCellsData.push(this.computeNewCell(generator, col, row));
 >>>>>>> upstream/18.0
@@ -401482,7 +403171,11 @@ class AutofillPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         this.computeNewCell(generator, col, row, apply);
+=======
+                        autofillCellsData.push(this.computeNewCell(generator, col, row));
+>>>>>>> upstream/18.0
 =======
                         autofillCellsData.push(this.computeNewCell(generator, col, row));
 >>>>>>> upstream/18.0
@@ -402636,7 +404329,10 @@ class AutofillPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -403509,6 +405205,9 @@ class AutofillPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -404377,7 +406076,10 @@ class AutofillPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -405325,6 +407027,9 @@ class AutofillPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -406263,6 +407968,7 @@ class AutofillPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     computeNewCell(generator, col, row, apply) {
         const { cellData, tooltip, origin } = generator.next();
         const { content, style, border, format } = cellData;
@@ -406280,6 +407986,8 @@ class AutofillPlugin extends UIPlugin {
             });
         }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -407152,6 +408860,9 @@ class AutofillPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -408079,8 +409790,13 @@ class AutofillPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     autoFillMerge(originCol, originRow, col, row) {
         const sheetId = this.getters.getActiveSheetId();
+=======
+    autofillMerge(sheetId, data) {
+        const { originCol, originRow, col, row } = data;
+>>>>>>> upstream/18.0
 =======
     autofillMerge(sheetId, data) {
         const { originCol, originRow, col, row } = data;
@@ -409542,6 +411258,7 @@ class AutofillPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     autofillCF(originCol, originRow, col, row) {
         const sheetId = this.getters.getActiveSheetId();
         const cfOrigin = this.getters.getRulesByCell(sheetId, originCol, originRow);
@@ -409571,6 +411288,8 @@ class AutofillPlugin extends UIPlugin {
             sheetId,
         });
     }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -410809,10 +412528,15 @@ function mergeTransformation(toTransform, executed) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for (const zone2 of executed.target) {
             if (!overlap(zone1, zone2)) {
                 target.push({ ...zone1 });
             }
+=======
+        if (executed.target.every((zone2) => !overlap(zone1, zone2))) {
+            target.push(zone1);
+>>>>>>> upstream/18.0
 =======
         if (executed.target.every((zone2) => !overlap(zone1, zone2))) {
             target.push(zone1);
@@ -412308,11 +414032,14 @@ function transformAll(toTransform, executed) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     for (const executedCommand of executed) {
         transformedCommands = transformedCommands
             .map((cmd) => transform(cmd, executedCommand))
             .filter(isDefined);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -412996,6 +414723,9 @@ function transformAll(toTransform, executed) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -414152,7 +415882,10 @@ class Session extends EventBus {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.waitingAck = true;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -414854,6 +416587,10 @@ class Session extends EventBus {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.waitingAck = true;
+>>>>>>> upstream/18.0
 =======
         this.waitingAck = true;
 >>>>>>> upstream/18.0
@@ -416565,12 +418302,15 @@ class SheetUIPlugin extends UIPlugin {
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     getCellMultiLineText(position, args) {
         const style = this.getters.getCellStyle(position);
         const text = this.getters.getCellText(position, {
             showFormula: this.getters.shouldShowFormulas(),
             availableWidth: args.maxWidth,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     getCellMultiLineText(position, 
@@ -416582,6 +418322,9 @@ class SheetUIPlugin extends UIPlugin {
             showFormula: this.getters.shouldShowFormulas(),
             availableWidth: args.formatWidth,
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -416907,7 +418650,11 @@ class SheetUIPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (cell.isFormula) {
+=======
+                if (cell.isFormula || this.getters.getArrayFormulaSpreadingOn(position)) {
+>>>>>>> upstream/18.0
 =======
                 if (cell.isFormula || this.getters.getArrayFormulaSpreadingOn(position)) {
 >>>>>>> upstream/18.0
@@ -417889,7 +419636,11 @@ class TableComputedStylePlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             (cmd.type === "UPDATE_CELL" && "content" in cmd) ||
+=======
+            (cmd.type === "UPDATE_CELL" && ("content" in cmd || "format" in cmd)) ||
+>>>>>>> upstream/18.0
 =======
             (cmd.type === "UPDATE_CELL" && ("content" in cmd || "format" in cmd)) ||
 >>>>>>> upstream/18.0
@@ -419591,7 +421342,10 @@ class HistoryPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -420421,6 +422175,9 @@ class PivotPresencePlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -421479,7 +423236,11 @@ class ClipboardPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const copiedData = this.copy(cut);
+=======
+                const copiedData = this.copy(cut, "shiftCells");
+>>>>>>> upstream/18.0
 =======
                 const copiedData = this.copy(cut, "shiftCells");
 >>>>>>> upstream/18.0
@@ -422280,7 +424041,11 @@ class ClipboardPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const copiedData = this.copy(cut);
+=======
+                const copiedData = this.copy(cut, "shiftCells");
+>>>>>>> upstream/18.0
 =======
                 const copiedData = this.copy(cut, "shiftCells");
 >>>>>>> upstream/18.0
@@ -423166,7 +424931,11 @@ class ClipboardPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const copiedData = this.copy(cut);
+=======
+                const copiedData = this.copy(cut, "shiftCells");
+>>>>>>> upstream/18.0
 =======
                 const copiedData = this.copy(cut, "shiftCells");
 >>>>>>> upstream/18.0
@@ -423968,7 +425737,11 @@ class ClipboardPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const copiedData = this.copy(cut);
+=======
+                const copiedData = this.copy(cut, "shiftCells");
+>>>>>>> upstream/18.0
 =======
                 const copiedData = this.copy(cut, "shiftCells");
 >>>>>>> upstream/18.0
@@ -424879,12 +426652,15 @@ class ClipboardPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     copy(zones) {
         let copiedData = {};
         const clipboardData = this.getClipboardData(zones);
         for (const { handlerName, handler } of this.selectClipboardHandlers(clipboardData)) {
             const data = handler.copy(clipboardData);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -425484,6 +427260,9 @@ class ClipboardPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -425895,6 +427674,7 @@ class ClipboardPlugin extends UIPlugin {
         if (!copiedData) {
             return;
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -426597,6 +428377,8 @@ class ClipboardPlugin extends UIPlugin {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const sheetId = this.getters.getActiveSheetId();
         const handlers = this.selectClipboardHandlers(copiedData);
         const { target, zone, selectedZones } = getPasteTargetFromHandlers(sheetId, zones, copiedData, handlers, options);
@@ -426827,6 +428609,9 @@ class ClipboardPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -427805,10 +429590,13 @@ class FilterEvaluationPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             for (let row = filteredZone.top; row <= filteredZone.bottom; row++) {
                 const value = this.getCellValueAsString(sheetId, filter.col, row);
                 if (filteredValues.includes(value)) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -428503,6 +430291,9 @@ class FilterEvaluationPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -429648,6 +431439,11 @@ class GridSelectionPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        const { col, row } = this.gridSelection.anchor.cell;
+        this.moveClient({ sheetId: this.activeSheet.id, col, row });
+>>>>>>> upstream/18.0
 =======
         const { col, row } = this.gridSelection.anchor.cell;
         this.moveClient({ sheetId: this.activeSheet.id, col, row });
@@ -431026,7 +432822,10 @@ class GridSelectionPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -431629,6 +433428,9 @@ class GridSelectionPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -432035,6 +433837,7 @@ class GridSelectionPlugin extends UIPlugin {
             },
         ];
         const sheetId = this.getActiveSheetId();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -432751,6 +434554,8 @@ class GridSelectionPlugin extends UIPlugin {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const base = isBasedBefore ? cmd.base : cmd.base + 1;
         const pasteTarget = [
             {
@@ -432760,6 +434565,7 @@ class GridSelectionPlugin extends UIPlugin {
                 bottom: !isCol ? base + thickness - 1 : this.getters.getNumberRows(cmd.sheetId) - 1,
             },
         ];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -434071,6 +435877,11 @@ class GridSelectionPlugin extends UIPlugin {
             const handler = new Handler(this.getters, this.dispatch);
             const data = handler.copy(getClipboardDataPositions(sheetId, target), "shiftCells");
 >>>>>>> upstream/18.0
+=======
+        for (const Handler of clipboardHandlersRegistries.cellHandlers.getAll()) {
+            const handler = new Handler(this.getters, this.dispatch);
+            const data = handler.copy(getClipboardDataPositions(sheetId, target), "shiftCells");
+>>>>>>> upstream/18.0
             if (!data) {
                 continue;
             }
@@ -434312,6 +436123,9 @@ class GridSelectionPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -434988,6 +436802,7 @@ class GridSelectionPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const toRemove = isBasedBefore ? cmd.elements.map((el) => el + thickness) : cmd.elements;
         let currentIndex = isBasedBefore ? cmd.base : cmd.base + 1;
         for (const element of toRemove) {
@@ -434997,6 +436812,8 @@ class GridSelectionPlugin extends UIPlugin {
                 sheetId: cmd.sheetId,
                 size,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -435597,6 +437414,9 @@ class GridSelectionPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -436221,9 +438041,12 @@ class GridSelectionPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return "Success" /* CommandResult.Success */;
     }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -436845,6 +438668,9 @@ class GridSelectionPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -438089,9 +439915,12 @@ class SheetViewPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this.sheetsWithDirtyViewports.add(cmd.sheetId);
                 break;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -438910,6 +440739,9 @@ class SheetViewPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -439465,6 +441297,7 @@ class SheetViewPlugin extends UIPlugin {
             case "FOLD_HEADER_GROUPS_IN_ZONE":
             case "UNFOLD_HEADER_GROUPS_IN_ZONE":
             case "UNFOLD_ALL_HEADER_GROUPS":
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -441101,6 +442934,8 @@ class SheetViewPlugin extends UIPlugin {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             case "FOLD_ALL_HEADER_GROUPS":
                 this.sheetsWithDirtyViewports.add(cmd.sheetId);
                 break;
@@ -441110,6 +442945,9 @@ class SheetViewPlugin extends UIPlugin {
                 for (const sheetId of this.getters.getSheetIds()) {
                     this.sheetsWithDirtyViewports.add(sheetId);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -441394,6 +443232,7 @@ class SheetViewPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             case "UNFREEZE_ROWS":
             case "UNFREEZE_COLUMNS":
             case "FREEZE_COLUMNS":
@@ -441401,6 +443240,8 @@ class SheetViewPlugin extends UIPlugin {
             case "UNFREEZE_COLUMNS_ROWS":
                 this.resetViewports(this.getters.getActiveSheetId());
                 break;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -442494,6 +444335,11 @@ class HeaderPositionsUIPlugin extends UIPlugin {
             case "UPDATE_CELL":
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                // Either the content, format or style can impact the header sizes of a sheet
+                // As such, every command can have a potential effect on the viewport
+>>>>>>> upstream/18.0
 =======
                 // Either the content, format or style can impact the header sizes of a sheet
                 // As such, every command can have a potential effect on the viewport
@@ -442891,6 +444737,10 @@ const featurePluginRegistry = new Registry()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    .add("pivot_presence", PivotPresencePlugin)
+>>>>>>> upstream/18.0
 =======
     .add("pivot_presence", PivotPresencePlugin)
 >>>>>>> upstream/18.0
@@ -444314,12 +446164,15 @@ class BottomBarSheet extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.DOMFocusableElementStore.focusableElement?.focus();
         }
         if (ev.key === "Escape") {
             this.cancelEdition();
             this.DOMFocusableElementStore.focusableElement?.focus();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -445105,6 +446958,9 @@ class BottomBarSheet extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -445836,6 +447692,7 @@ class BottomBarSheet extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const input = this.sheetNameRef.el;
         if (!this.state.isEditing || !input)
             return;
@@ -445845,6 +447702,8 @@ class BottomBarSheet extends Component {
         const inputValue = this.getInputContent() || "";
         input.innerText = inputValue;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -446445,6 +448304,9 @@ class BottomBarSheet extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -447215,7 +449077,11 @@ class AggregateStatisticsStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             (cmd.type === "UPDATE_CELL" && "content" in cmd)) {
+=======
+            (cmd.type === "UPDATE_CELL" && ("content" in cmd || "format" in cmd))) {
+>>>>>>> upstream/18.0
 =======
             (cmd.type === "UPDATE_CELL" && ("content" in cmd || "format" in cmd))) {
 >>>>>>> upstream/18.0
@@ -448799,7 +450665,10 @@ class SpreadsheetDashboard extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -449656,6 +451525,9 @@ class SpreadsheetDashboard extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -451965,7 +453837,11 @@ class Spreadsheet extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         }, () => [this.env.model.getters.getActiveSheetId()]);
+=======
+        });
+>>>>>>> upstream/18.0
 =======
         });
 >>>>>>> upstream/18.0
@@ -453697,7 +455573,12 @@ class SelectionStreamProcessorImpl {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const { col: refCol, row: refRow } = this.getReferencePosition();
+=======
+        const { cell: refCell, zone: refZone } = this.getReferenceAnchor();
+        const { col: refCol, row: refRow } = refCell;
+>>>>>>> upstream/18.0
 =======
         const { cell: refCell, zone: refZone } = this.getReferenceAnchor();
         const { col: refCol, row: refRow } = refCell;
@@ -454784,6 +456665,7 @@ class SelectionStreamProcessorImpl {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 result = refCol <= right - n ? expand({ top, left, bottom, right: newRight }) : null;
             }
             if (deltaCol > 0) {
@@ -454798,6 +456680,8 @@ class SelectionStreamProcessorImpl {
                 const newTop = this.getNextAvailableRow(deltaRow, refCol, top + (n - 1));
                 result = top + n <= refRow ? expand({ top: newTop, left, bottom, right }) : null;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -455457,6 +457341,9 @@ class SelectionStreamProcessorImpl {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -456333,7 +458220,11 @@ class SelectionStreamProcessorImpl {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     getReferencePosition() {
+=======
+    getReferenceAnchor() {
+>>>>>>> upstream/18.0
 =======
     getReferenceAnchor() {
 >>>>>>> upstream/18.0
@@ -457202,6 +459093,7 @@ class SelectionStreamProcessorImpl {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return {
             col: this.getters.isColHidden(sheetId, anchorCol)
                 ? this.getters.findVisibleHeader(sheetId, "COL", left, right) || anchorCol
@@ -457210,6 +459102,8 @@ class SelectionStreamProcessorImpl {
                 ? this.getters.findVisibleHeader(sheetId, "ROW", top, bottom) || anchorRow
                 : anchorRow,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -457870,6 +459764,9 @@ class SelectionStreamProcessorImpl {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -459948,6 +461845,12 @@ function addStyles(styles) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (style.alignment && style.alignment.shrinkToFit) {
+            alignAttrs.push(["shrinkToFit", "1"]);
+        }
+>>>>>>> upstream/18.0
 =======
         if (style.alignment && style.alignment.shrinkToFit) {
             alignAttrs.push(["shrinkToFit", "1"]);
@@ -461917,6 +463820,10 @@ const components = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    PivotHTMLRenderer,
+>>>>>>> upstream/18.0
 =======
     PivotHTMLRenderer,
 >>>>>>> upstream/18.0
@@ -462750,6 +464657,7 @@ const constants = {
 export { AbstractCellClipboardHandler, AbstractChart, AbstractFigureClipboardHandler, CellErrorType, CommandResult, CorePlugin, DispatchResult, EvaluationError, Model, PivotRuntimeDefinition, Registry, Revision, SPREADSHEET_DIMENSIONS, Spreadsheet, SpreadsheetPivotTable, UIPlugin, __info__, addFunction, addRenderingLayer, astToFormula, compile, compileTokens, components, constants, convertAstNodes, coreTypes, findCellInNewZone, functionCache, helpers, hooks, invalidateCFEvaluationCommands, invalidateDependenciesCommands, invalidateEvaluationCommands, iterateAstNodes, links, load, parse, parseTokens, readonlyAllowedCommands, registries, setDefaultSheetViewSize, setTranslationMethod, stores, tokenColors, tokenize };
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -464464,6 +466372,11 @@ __info__.hash = "562645fb9";
 __info__.version = "18.0.60";
 __info__.date = "2026-03-20T12:47:03.293Z";
 __info__.hash = "562645fb9";
+>>>>>>> upstream/18.0
+=======
+__info__.version = "18.0.61";
+__info__.date = "2026-03-27T06:25:57.011Z";
+__info__.hash = "046ebe02e";
 >>>>>>> upstream/18.0
 =======
 __info__.version = "18.0.61";

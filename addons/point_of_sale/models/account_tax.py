@@ -16,7 +16,11 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'include_base_amount', 'is_base_affected',
+=======
+            'price_include_override', 'include_base_amount', 'is_base_affected',
+>>>>>>> upstream/18.0
 =======
             'price_include_override', 'include_base_amount', 'is_base_affected',
 >>>>>>> upstream/18.0

@@ -193,6 +193,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* purchase
 # 
 # Translators:
@@ -792,6 +793,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * purchase
 #
 # Translators:
@@ -992,6 +995,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1192,6 +1196,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# "Junko Augias (juau)" <juau@odoo.com>, 2025.
 >>>>>>> upstream/18.0
 =======
 # "Junko Augias (juau)" <juau@odoo.com>, 2025.
@@ -1473,6 +1480,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2650,6 +2658,11 @@ msgstr ""
 "PO-Revision-Date: 2025-12-26 14:00+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:36+0000\n"
+"PO-Revision-Date: 2025-12-26 14:00+0000\n"
+"Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Chinese (Traditional Han script) <https://translate.odoo.com/"
 "projects/odoo-18/purchase/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -2657,6 +2670,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3327,11 +3341,15 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.actions.report,print_report_name:purchase.action_report_purchase_order
 msgid ""
 "\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3885,6 +3903,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                (object.state in ('draft', 'sent') and 'Request for "
 "Quotation - %s' % (object.name) or\n"
 "                'Purchase Order - %s' % (object.name))"
@@ -4074,6 +4094,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4693,6 +4716,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
 "        </t>\n"
 "        <br/><br/>\n"
@@ -4704,6 +4728,8 @@ msgid ""
 "        <t t-if=\"object.date_planned\">\n"
 "            <span style=\"font-weight:bold;\" t-out=\"format_date(object.date_planned) or ''\">05/05/2021</span>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5264,6 +5290,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5817,10 +5846,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6372,6 +6404,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6929,6 +6964,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            （<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>）\n"
 "        </t>\n"
 "        你好！\n"
@@ -6941,6 +6977,8 @@ msgstr ""
 "        <t t-if=\"object.date_planned\">\n"
 "            <span style=\"font-weight:bold;\" t-out=\"format_date(object.date_planned) or ''\">05/05/2021</span>。\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7502,6 +7540,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8055,10 +8096,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8610,6 +8654,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9170,6 +9217,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
 "        </t>\n"
 "        <br/><br/>\n"
@@ -9189,6 +9237,8 @@ msgid ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9761,6 +9811,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10318,6 +10371,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            （<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>）\n"
 "        </t>\n"
 "        你好！\n"
@@ -10338,6 +10392,8 @@ msgstr ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10912,6 +10968,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11472,6 +11531,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
 "        </t>\n"
 "        <br/><br/>\n"
@@ -11479,6 +11539,8 @@ msgid ""
 "        <t t-if=\"object.partner_ref\">\n"
 "            with reference: <t t-out=\"object.partner_ref or ''\">REF_XXX</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12034,6 +12096,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12587,6 +12652,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <a t-att-href=\"object.get_confirm_url(confirm_type='reception')\" target=\"_blank\" style=\"padding: 5px 10px; color: #FFFFFF; text-decoration: none; background-color: #875A7B; border: 1px solid #875A7B; border-radius: 3px\">\n"
 "                Accept</a>\n"
 "\n"
@@ -12598,6 +12664,8 @@ msgid ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13162,6 +13230,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13718,6 +13789,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            （<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>）\n"
 "        </t>\n"
 "        你好！\n"
@@ -13741,6 +13813,8 @@ msgstr ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\">Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14321,6 +14395,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14878,7 +14955,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-credit-card me-1\" aria-label=\"採購\" role=\"img\" title=\"採購\"/>"
+=======
+msgstr ""
+"<i class=\"fa fa-credit-card me-1\" aria-label=\"採購\" role=\"img\" "
+"title=\"採購\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "<i class=\"fa fa-credit-card me-1\" aria-label=\"採購\" role=\"img\" "
@@ -15984,8 +16067,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-fw fa-check\" role=\"img\" aria-label=\"完成\" "
 "title=\"完成\"/><span class=\"d-none d-md-inline\"> 完成</span>"
+=======
+"<i class=\"fa fa-fw fa-check\" role=\"img\" aria-label=\"完成\" title=\"完成"
+"\"/><span class=\"d-none d-md-inline\"> 完成</span>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-fw fa-check\" role=\"img\" aria-label=\"完成\" title=\"完成"
 "\"/><span class=\"d-none d-md-inline\"> 完成</span>"
@@ -16933,8 +17021,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-fw fa-remove\" role=\"img\" aria-label=\"已取消\" "
 "title=\"已取消\"/><span class=\"d-none d-md-inline\"> 已取消</span>"
+=======
+"<i class=\"fa fa-fw fa-remove\" role=\"img\" aria-label=\"已取消\" title=\"已"
+"取消\"/><span class=\"d-none d-md-inline\"> 已取消</span>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-fw fa-remove\" role=\"img\" aria-label=\"已取消\" title=\"已"
 "取消\"/><span class=\"d-none d-md-inline\"> 已取消</span>"
@@ -17860,7 +17953,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                          <span class=\"d-block d-md-none\">Confirmation</span>"
+=======
+"                          <span class=\"d-block d-md-none\">Confirmation</"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "                          <span class=\"d-block d-md-none\">Confirmation</"
 "span>"
@@ -18801,12 +18899,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"o_form_label\" invisible=\"state not in ('draft', 'sent')\">Request for Quotation </span>\n"
 "                        <span class=\"o_form_label\" invisible=\"state in ('draft', 'sent')\">Purchase Order </span>"
 msgstr ""
 "<span class=\"o_form_label\" invisible=\"state not in ('draft', 'sent')\">報價請求</span>\n"
 "                        <span class=\"o_form_label\" invisible=\"state in ('draft', 'sent')\">採購訂單</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19362,6 +19463,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19933,8 +20037,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"text-muted\" invisible=\"not "
 "mail_reminder_confirmed\">（供應商已確認）</span>"
+=======
+"<span class=\"text-muted\" invisible=\"not mail_reminder_confirmed\">（供應商"
+"已確認）</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"text-muted\" invisible=\"not mail_reminder_confirmed\">（供應商"
 "已確認）</span>"
@@ -20952,6 +21061,7 @@ msgstr "<strong class=\"d-block mb-1\">發票</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -20960,6 +21070,11 @@ msgstr "<strong class=\"d-block mb-1\">發票</strong>"
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
 msgid "<strong class=\"d-block mt-3\">Shipping address:</strong>"
 msgstr ""
+=======
+#: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
+msgid "<strong class=\"d-block mt-3\">Shipping address:</strong>"
+msgstr "<strong class=\"d-block mt-3\">送貨地址：</strong>"
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
 msgid "<strong class=\"d-block mt-3\">Shipping address:</strong>"
@@ -22434,6 +22549,7 @@ msgid "<strong class=\"d-block mt-3\">Shipping address</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: purchase
@@ -22443,6 +22559,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "<strong class=\"d-block mt-3\">送貨地址</strong>"
+
+#. module: purchase
 >>>>>>> upstream/18.0
 =======
 msgstr "<strong class=\"d-block mt-3\">送貨地址</strong>"
@@ -23991,6 +24112,7 @@ msgstr "<strong>詢價日期:</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
 msgid "<strong>Shipping address:</strong>"
 msgstr "<strong>送貨地址:</strong>"
@@ -24001,6 +24123,8 @@ msgid "<strong>Shipping address</strong>"
 msgstr "<strong>送貨地址</strong>"
 
 #. module: purchase
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24725,7 +24849,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "一攬子採購訂單是買方與供應商之間，在一段時間內以預設價格向買方交付商品或服務的採購協議。"
+=======
+msgstr ""
+"一攬子採購訂單是買方與供應商之間，在一段時間內以預設價格向買方交付商品或服務"
+"的採購協議。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "一攬子採購訂單是買方與供應商之間，在一段時間內以預設價格向買方交付商品或服務"
@@ -25858,7 +25988,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "According to product configuration, the received quantity can be automatically computed by mechanism:\n"
+=======
+"According to product configuration, the received quantity can be "
+"automatically computed by mechanism:\n"
+>>>>>>> upstream/18.0
 =======
 "According to product configuration, the received quantity can be "
 "automatically computed by mechanism:\n"
@@ -26931,7 +27066,11 @@ msgid "Add a product"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "添加產品"
+=======
+msgstr "加入產品"
+>>>>>>> upstream/18.0
 =======
 msgstr "加入產品"
 >>>>>>> upstream/18.0
@@ -28501,7 +28640,11 @@ msgid "Date:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "日期:"
+=======
+msgstr "日期："
+>>>>>>> upstream/18.0
 =======
 msgstr "日期："
 >>>>>>> upstream/18.0
@@ -29420,7 +29563,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "將報價請求的 PDF 檔案，拖放至 Odoo 系統的報價單清單內，然後享受自動化的好處！"
+=======
+msgstr ""
+"將報價請求的 PDF 檔案，拖放至 Odoo 系統的報價單清單內，然後享受自動化的好處！"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "將報價請求的 PDF 檔案，拖放至 Odoo 系統的報價單清單內，然後享受自動化的好處！"
@@ -30613,7 +30761,11 @@ msgid "Invoicing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "會計"
+=======
+msgstr "發票"
+>>>>>>> upstream/18.0
 =======
 msgstr "發票"
 >>>>>>> upstream/18.0
@@ -31576,8 +31728,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Let's try the Purchase app to manage the flow from purchase to reception and"
 " invoice control."
+=======
+"Let's try the Purchase app to manage the flow from purchase to reception and "
+"invoice control."
+>>>>>>> upstream/18.0
 =======
 "Let's try the Purchase app to manage the flow from purchase to reception and "
 "invoice control."
@@ -32568,10 +32725,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Orders for procuring products, they will be scheduled that many days earlier"
 " to cope with unexpected vendor delays."
 msgstr "供應商提前期的誤差範圍.當系統為採購產品產生採購訂單，它們需要提前多天下單以應付不可預期的供應商交貨延期."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -33123,6 +33283,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -33676,10 +33839,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Orders for reordering products,they will be scheduled that many days earlier"
 " to cope with unexpected vendor delays."
 msgstr "供應商提前期誤差幅度。當系統生成重新訂購產品的採購訂單時，它們將被調度提前幾天以應付意外的供應商延遲。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -34231,6 +34397,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -34693,6 +34862,7 @@ msgstr "名稱"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Name, TIN, Email, or Reference"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -35790,6 +35960,9 @@ msgstr "名稱、稅務編號/統一編號、電郵，或參考編號"
 =======
 msgstr "名稱、稅務編號/統一編號、電郵，或參考編號"
 >>>>>>> upstream/18.0
+=======
+msgstr "名稱、稅務編號/統一編號、電郵，或參考編號"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
@@ -36063,7 +36236,11 @@ msgid "Order Date: Last 365 Days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "訂單日期：過去365天"
+=======
+msgstr "訂單日期：直近365天"
+>>>>>>> upstream/18.0
 =======
 msgstr "訂單日期：直近365天"
 >>>>>>> upstream/18.0
@@ -36612,8 +36789,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "要進行合併，請至少選擇兩個狀態為「報價請求」及「報價請求已發送」的採購單。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -37168,6 +37348,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -37813,7 +37996,11 @@ msgid "Product Description"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "產品說明"
+=======
+msgstr "產品描述"
+>>>>>>> upstream/18.0
 =======
 msgstr "產品描述"
 >>>>>>> upstream/18.0
@@ -38755,7 +38942,11 @@ msgid "Purchase Description"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "採購說明"
+=======
+msgstr "採購描述"
+>>>>>>> upstream/18.0
 =======
 msgstr "採購描述"
 >>>>>>> upstream/18.0
@@ -39696,7 +39887,11 @@ msgid "Purchased in the last 365 days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "在過去365天內採購的"
+=======
+msgstr "在直近365天內採購的"
+>>>>>>> upstream/18.0
 =======
 msgstr "在直近365天內採購的"
 >>>>>>> upstream/18.0
@@ -40373,8 +40568,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Reference of the document that generated this purchase order request (e.g. a"
 " sales order)"
+=======
+"Reference of the document that generated this purchase order request (e.g. a "
+"sales order)"
+>>>>>>> upstream/18.0
 =======
 "Reference of the document that generated this purchase order request (e.g. a "
 "sales order)"
@@ -41298,7 +41498,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "供應商會發送銷售訂單或投標的參照.當您收到貨物後，這是作為編碼來匹配，而且它通常寫在您的供應商發來的送貨單."
+=======
+msgstr ""
+"供應商會發送銷售訂單或投標的參照.當您收到貨物後，這是作為編碼來匹配，而且它通"
+"常寫在您的供應商發來的送貨單."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "供應商會發送銷售訂單或投標的參照.當您收到貨物後，這是作為編碼來匹配，而且它通"
@@ -42450,9 +42656,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Requests for quotation are documents that will be sent to your suppliers to request prices for different products you consider buying.\n"
 "                Once an agreement has been found with the supplier, they will be confirmed and turned into purchase orders."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -43003,6 +43212,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -43634,7 +43846,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "選擇此 \"警告\" 選項，將通知使用者此消息, 選擇 \"受阻消息\" 選項，將在流程受阻時將拋出一個消息. 消息寫入下一個欄位."
+=======
+msgstr ""
+"選擇此 \"警告\" 選項，將通知使用者此消息, 選擇 \"受阻消息\" 選項，將在流程受"
+"阻時將拋出一個消息. 消息寫入下一個欄位."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "選擇此 \"警告\" 選項，將通知使用者此消息, 選擇 \"受阻消息\" 選項，將在流程受"
@@ -44994,7 +45212,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    converted into a purchase order, you will be able to control the receipt\n"
+=======
+"                    converted into a purchase order, you will be able to "
+"control the receipt\n"
+>>>>>>> upstream/18.0
 =======
 "                    converted into a purchase order, you will be able to "
 "control the receipt\n"
@@ -45919,8 +46142,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The vendor asked to decline this confirmed RfQ, if you agree on that, cancel"
 " this PO"
+=======
+"The vendor asked to decline this confirmed RfQ, if you agree on that, cancel "
+"this PO"
+>>>>>>> upstream/18.0
 =======
 "The vendor asked to decline this confirmed RfQ, if you agree on that, cancel "
 "this PO"
@@ -46861,7 +47089,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "沒有須支付明細. 如果產品有基於收貨數量的帳單控制策略，請確認已接收數量."
+=======
+msgstr ""
+"沒有須支付明細. 如果產品有基於收貨數量的帳單控制策略，請確認已接收數量."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "沒有須支付明細. 如果產品有基於收貨數量的帳單控制策略，請確認已接收數量."
@@ -47781,9 +48014,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This analysis allows you to easily check and analyse your company purchase history and performance.\n"
 "                You can track your negotiation performance, the delivery performance of your vendors, etc"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -48334,6 +48570,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -48913,7 +49152,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "此產品由 %(pack_size).2f %(pack_name)s 包裝.您應該購買 %(quantity).2f %(unit)s."
+=======
+msgstr ""
+"此產品由 %(pack_size).2f %(pack_name)s 包裝.您應該購買 %(quantity).2f %"
+"(unit)s."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "此產品由 %(pack_size).2f %(pack_name)s 包裝.您應該購買 %(quantity).2f %"
@@ -50422,6 +50667,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "shipment, Odoo will send the vendor an email to ask confirmation of shipment"
 " dates and keep you informed in case of any delays. To get the vendor's "
 "performance statistics, click on the OTD rate."
@@ -50429,6 +50675,8 @@ msgstr ""
 "建立採購訂單時，你可看看供應商的<u>準時交貨率</u>（OTD），即按時出貨產品的百分比。若準時率太低，你可啟動<u>自動提醒</u>。於到期出貨前幾天，Odoo"
 " 會向供應商發送電郵，要求確認出貨日期，若有任何延誤會立即通知你。若要取得供應商的表現統計數據，請按一下準時交貨率數值。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -50983,6 +51231,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -51540,8 +51791,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "通過電子郵件發送採購訂單時，Odoo "
 "會要求供應商確認收到訂單.當供應商通過單擊電子郵件中的按鈕確認訂單時，該訊息將增加到採購訂單中.使用過濾器追蹤尚未確認的訂單."
+=======
+"通過電子郵件發送採購訂單時，Odoo 會要求供應商確認收到訂單.當供應商通過單擊電"
+"子郵件中的按鈕確認訂單時，該訊息將增加到採購訂單中.使用過濾器追蹤尚未確認的訂"
+"單."
+>>>>>>> upstream/18.0
 =======
 "通過電子郵件發送採購訂單時，Odoo 會要求供應商確認收到訂單.當供應商通過單擊電"
 "子郵件中的按鈕確認訂單時，該訊息將增加到採購訂單中.使用過濾器追蹤尚未確認的訂"
@@ -52695,12 +52952,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Your quotation contains products from company %(product_company)s whereas your quotation belongs to company %(quote_company)s. \n"
 " Please change the company of your quotation or remove the products from other companies (%(bad_products)s)."
 msgstr ""
 "你的報價單包含來自公司 %(product_company)s 的產品，而你的報價單屬於公司 %(quote_company)s。 "
 "請變更報價單公司或從其他公司移除產品 (%(bad_products)s)."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -53254,6 +53514,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -53846,7 +54109,12 @@ msgid "{{ object.company_id.name }} Order (Ref {{ object.name or 'n/a' }})"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "{{ object.company_id.name }} 採購訂單 (參照 {{ object.name or 'n/a' }})"
+=======
+msgstr ""
+"{{ object.company_id.name }} 採購訂單 (參照 {{ object.name or 'n/a' }})"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "{{ object.company_id.name }} 採購訂單 (參照 {{ object.name or 'n/a' }})"

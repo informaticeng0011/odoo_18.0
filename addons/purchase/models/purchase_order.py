@@ -127,7 +127,11 @@ from odoo.tools.float_utils import float_is_zero
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.exceptions import UserError, ValidationError
+=======
+from odoo.exceptions import AccessDenied, UserError, ValidationError
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import AccessDenied, UserError, ValidationError
 >>>>>>> upstream/18.0
@@ -681,7 +685,11 @@ class PurchaseOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends('order_line.price_subtotal', 'company_id')
+=======
+    @api.depends('order_line.price_subtotal', 'company_id', 'currency_id')
+>>>>>>> upstream/18.0
 =======
     @api.depends('order_line.price_subtotal', 'company_id', 'currency_id')
 >>>>>>> upstream/18.0
@@ -1540,6 +1548,7 @@ class PurchaseOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     partner_id = fields.Many2one('res.partner', string='Vendor', required=True, change_default=True, tracking=True, check_company=True, help="You can find a vendor by its Name, TIN, Email or Internal Reference.")
     dest_address_id = fields.Many2one('res.partner', check_company=True, string='Dropship Address',
         help="Put an address if you want to deliver directly from the vendor to the customer. "
@@ -1547,6 +1556,8 @@ class PurchaseOrder(models.Model):
     currency_id = fields.Many2one('res.currency', 'Currency', required=True,
         default=lambda self: self.env.company.currency_id.id)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2152,6 +2163,9 @@ class PurchaseOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2851,7 +2865,11 @@ class PurchaseOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 order.tax_totals['amount_total_cc'] = f"({formatLang(self.env, order.amount_total_cc, currency_obj=self.company_currency_id)})"
+=======
+                order.tax_totals['amount_total_cc'] = f"({formatLang(self.env, order.amount_total_cc, currency_obj=order.company_currency_id)})"
+>>>>>>> upstream/18.0
 =======
                 order.tax_totals['amount_total_cc'] = f"({formatLang(self.env, order.amount_total_cc, currency_obj=order.company_currency_id)})"
 >>>>>>> upstream/18.0
@@ -3585,6 +3603,7 @@ class PurchaseOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         default_currency = self._context.get("default_currency_id")
         if not self.partner_id:
             self.fiscal_position_id = False
@@ -3990,6 +4009,8 @@ class PurchaseOrder(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         if not self.partner_id:
             self.fiscal_position_id = False
         else:
@@ -4193,6 +4214,9 @@ class PurchaseOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4793,7 +4817,10 @@ class PurchaseOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5397,6 +5424,9 @@ class PurchaseOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5986,6 +6016,10 @@ class PurchaseOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            base_url = self.get_base_url()
+>>>>>>> upstream/18.0
 =======
             base_url = self.get_base_url()
 >>>>>>> upstream/18.0
@@ -6510,6 +6544,7 @@ class PurchaseOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     {'url': self.get_confirm_url(confirm_type='reminder'), 'title': _('Accept')},
                     {'url': self.get_update_url(), 'title': _('Update Dates')},
                 ])
@@ -6517,6 +6552,8 @@ class PurchaseOrder(models.Model):
                 access_opt['title'] = _('View Quotation') if self.state in ('draft', 'sent') else _('View Order')
                 access_opt['url'] = self.get_confirm_url()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6910,6 +6947,9 @@ class PurchaseOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7458,7 +7498,11 @@ class PurchaseOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ('partner_id', '=', self.partner_id.id),
+=======
+                ('partner_id', 'in', (self.partner_id | self.partner_id.commercial_partner_id).ids),
+>>>>>>> upstream/18.0
 =======
                 ('partner_id', 'in', (self.partner_id | self.partner_id.commercial_partner_id).ids),
 >>>>>>> upstream/18.0
@@ -8130,7 +8174,12 @@ class PurchaseOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     existing_line = oldest_rfq.order_line.filtered(lambda l: l.product_id == rfq_line.product_id and
+=======
+                    existing_line = oldest_rfq.order_line.filtered(lambda l: l.display_type not in ['line_note', 'line_section'] and
+                                                                                l.product_id == rfq_line.product_id and
+>>>>>>> upstream/18.0
 =======
                     existing_line = oldest_rfq.order_line.filtered(lambda l: l.display_type not in ['line_note', 'line_section'] and
                                                                                 l.product_id == rfq_line.product_id and
@@ -9222,6 +9271,11 @@ class PurchaseOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if not self.env.user._is_internal():
+            raise AccessDenied()
+>>>>>>> upstream/18.0
 =======
         if not self.env.user._is_internal():
             raise AccessDenied()
@@ -10094,9 +10148,12 @@ class PurchaseOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             product_infos.update(
                 price=seller.price_discounted,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10696,6 +10753,9 @@ class PurchaseOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11237,6 +11297,7 @@ class PurchaseOrder(models.Model):
                 date=pol.order_id.date_order and pol.order_id.date_order.date() or fields.Date.context_today(pol),
                 uom_id=pol.product_uom)
             if seller:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12233,6 +12294,8 @@ class PurchaseOrder(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 price = seller.price
                 if seller.currency_id != self.currency_id:
                     price = seller.currency_id._convert(seller.price, self.currency_id)
@@ -12305,6 +12368,9 @@ class PurchaseOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

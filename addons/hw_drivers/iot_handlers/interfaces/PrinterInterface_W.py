@@ -205,6 +205,10 @@ import logging
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from threading import Lock
+>>>>>>> upstream/18.0
 =======
 from threading import Lock
 >>>>>>> upstream/18.0
@@ -1023,6 +1027,11 @@ _logger = logging.getLogger(__name__)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+win32print_lock = Lock()  # Calling win32print in parallel can cause failed prints
+
+>>>>>>> upstream/18.0
 =======
 win32print_lock = Lock()  # Calling win32print in parallel can cause failed prints
 
@@ -2045,6 +2054,7 @@ class PrinterInterface(Interface):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         printers = win32print.EnumPrinters(win32print.PRINTER_ENUM_LOCAL)
 
         for printer in printers:
@@ -2067,6 +2077,8 @@ class PrinterInterface(Interface):
                 'port': printer_port,
             }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2695,6 +2707,9 @@ class PrinterInterface(Interface):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

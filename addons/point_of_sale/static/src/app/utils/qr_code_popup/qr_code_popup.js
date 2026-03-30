@@ -297,6 +297,7 @@ export class QRPopup extends ConfirmationDialog {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.showCustomerScreen();
     }
 
@@ -313,6 +314,8 @@ export class QRPopup extends ConfirmationDialog {
     async execButton(callback) {
         delete this.props.order.uiState.PaymentScreen.qrPaymentData;
         return super.execButton(callback);
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

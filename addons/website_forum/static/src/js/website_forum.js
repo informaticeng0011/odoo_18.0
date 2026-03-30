@@ -247,12 +247,18 @@ class WebsiteForumTagsWrapper extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const choice = {
             label: string.trim(),
             value: `_${string.trim()}`,
         };
         this.state.choices.push(choice);
         this.onSelect([...this.state.value, choice.value]);
+=======
+        const choices = string.split(",").map((c) => ({ label: c.trim(), value: `_${c.trim()}` }));
+        this.state.choices.push(...choices);
+        this.onSelect([...this.state.value, ...choices.map((c) => c.value)]);
+>>>>>>> upstream/18.0
 =======
         const choices = string.split(",").map((c) => ({ label: c.trim(), value: `_${c.trim()}` }));
         this.state.choices.push(...choices);
@@ -1346,7 +1352,11 @@ publicWidget.registry.websiteForum = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 disabled: isReadOnly,
+=======
+                isReadOnly: isReadOnly,
+>>>>>>> upstream/18.0
 =======
                 isReadOnly: isReadOnly,
 >>>>>>> upstream/18.0
@@ -1581,6 +1591,10 @@ publicWidget.registry.websiteForum = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    showImageWidth: false,
+>>>>>>> upstream/18.0
 =======
                     showImageWidth: false,
 >>>>>>> upstream/18.0
@@ -1998,6 +2012,10 @@ publicWidget.registry.websiteForum = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                disableTransform: true,
+>>>>>>> upstream/18.0
 =======
                 disableTransform: true,
 >>>>>>> upstream/18.0

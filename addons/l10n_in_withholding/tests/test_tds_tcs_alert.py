@@ -16,6 +16,7 @@ class TestTdsTcsAlert(L10nInTestInvoicingCommon):
         cls.purchase_account.write({
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'l10n_in_tds_tcs_section_id': cls.env.ref('l10n_in_withholding.tds_section_194c').id
         })
         cls.house_expense_account = ChartTemplate.ref('p2103')
@@ -36,6 +37,8 @@ class TestTdsTcsAlert(L10nInTestInvoicingCommon):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             'l10n_in_tds_tcs_section_id': cls.env.ref('l10n_in_withholding.tds_section_393_1_6_i_a_contr_ind_huf').id
         })
         cls.house_expense_account = ChartTemplate.ref('p2103')
@@ -54,6 +57,9 @@ class TestTdsTcsAlert(L10nInTestInvoicingCommon):
         cls.sale_account.write({
             'l10n_in_tds_tcs_section_id': cls.env.ref('l10n_in_withholding.tcs_section_394_1_7_b_lrs_oth').id
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -62,6 +68,7 @@ class TestTdsTcsAlert(L10nInTestInvoicingCommon):
         cls.creditors_account = ChartTemplate.ref('p11211')
 
         # ==== Taxes ====
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         cls.tax_194c = ChartTemplate.ref('tds_20_us_194c')
@@ -75,11 +82,16 @@ class TestTdsTcsAlert(L10nInTestInvoicingCommon):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         cls.tax_393_1_6_i_a = ChartTemplate.ref('tds_sale_1_us_393_1_6_i_a')
         cls.tax_393_1_6_iii_b = ChartTemplate.ref('tds_sale_10_us_393_1_6_iii_b')
         cls.tax_393_1_2_ii_b = ChartTemplate.ref('tds_sale_10_us_393_1_2_ii_b')
         cls.tax_394_1_7_b = ChartTemplate.ref('tcs_20_us_394_1_7_b_lrs_oth')
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -184,7 +196,11 @@ class TestTdsTcsAlert(L10nInTestInvoicingCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(move.l10n_in_tcs_tds_warning, False)
+=======
+        self.assertFalse(move.l10n_in_tcs_tds_warning)
+>>>>>>> upstream/18.0
 =======
         self.assertFalse(move.l10n_in_tcs_tds_warning)
 >>>>>>> upstream/18.0
@@ -206,7 +222,11 @@ class TestTdsTcsAlert(L10nInTestInvoicingCommon):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(move.l10n_in_tcs_tds_warning, "It's advisable to deduct TDS u/s 194C on this transaction.")
+=======
+        self.assertEqual(move.l10n_in_tcs_tds_warning, "It's advisable to deduct TDS u/s 393(1)6(i)(a) CONTR IND/HUF on this transaction.")
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(move.l10n_in_tcs_tds_warning, "It's advisable to deduct TDS u/s 393(1)6(i)(a) CONTR IND/HUF on this transaction.")
 >>>>>>> upstream/18.0
@@ -221,6 +241,7 @@ class TestTdsTcsAlert(L10nInTestInvoicingCommon):
             company=self.branch_b,
             quantities=[1]
         )
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         self.assertEqual(move_1.l10n_in_tcs_tds_warning, "It's advisable to deduct TDS u/s 194C on this transaction.")
@@ -238,10 +259,14 @@ class TestTdsTcsAlert(L10nInTestInvoicingCommon):
 =======
         self.assertEqual(move_1.l10n_in_tcs_tds_warning, "It's advisable to deduct TDS u/s 393(1)6(i)(a) CONTR IND/HUF on this transaction.")
 >>>>>>> upstream/18.0
+=======
+        self.assertEqual(move_1.l10n_in_tcs_tds_warning, "It's advisable to deduct TDS u/s 393(1)6(i)(a) CONTR IND/HUF on this transaction.")
+>>>>>>> upstream/18.0
 
         move_3 = self.create_invoice(
             partner=self.partner_b,
             invoice_date='2024-06-05',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             amounts=[31000],
@@ -252,12 +277,17 @@ class TestTdsTcsAlert(L10nInTestInvoicingCommon):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             amounts=[15000],
             company=self.branch_b,
             quantities=[1]
         )
         self.assertFalse(move_3.l10n_in_tcs_tds_warning)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -277,7 +307,11 @@ class TestTdsTcsAlert(L10nInTestInvoicingCommon):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(move.l10n_in_tcs_tds_warning, False)
+=======
+        self.assertFalse(move.l10n_in_tcs_tds_warning)
+>>>>>>> upstream/18.0
 =======
         self.assertFalse(move.l10n_in_tcs_tds_warning)
 >>>>>>> upstream/18.0
@@ -294,7 +328,11 @@ class TestTdsTcsAlert(L10nInTestInvoicingCommon):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(move_1.l10n_in_tcs_tds_warning, False)
+=======
+        self.assertFalse(move_1.l10n_in_tcs_tds_warning)
+>>>>>>> upstream/18.0
 =======
         self.assertFalse(move_1.l10n_in_tcs_tds_warning)
 >>>>>>> upstream/18.0
@@ -311,7 +349,11 @@ class TestTdsTcsAlert(L10nInTestInvoicingCommon):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(move_2.l10n_in_tcs_tds_warning, "It's advisable to deduct TDS u/s 194IB on this transaction.")
+=======
+        self.assertEqual(move_2.l10n_in_tcs_tds_warning, "It's advisable to deduct TDS u/s 393(1)2(ii)(b) RENT LAND on this transaction.")
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(move_2.l10n_in_tcs_tds_warning, "It's advisable to deduct TDS u/s 393(1)2(ii)(b) RENT LAND on this transaction.")
 >>>>>>> upstream/18.0
@@ -328,7 +370,11 @@ class TestTdsTcsAlert(L10nInTestInvoicingCommon):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(move_3.l10n_in_tcs_tds_warning, False)
+=======
+        self.assertFalse(move_3.l10n_in_tcs_tds_warning)
+>>>>>>> upstream/18.0
 =======
         self.assertFalse(move_3.l10n_in_tcs_tds_warning)
 >>>>>>> upstream/18.0
@@ -345,7 +391,11 @@ class TestTdsTcsAlert(L10nInTestInvoicingCommon):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(move_4.l10n_in_tcs_tds_warning, "It's advisable to deduct TDS u/s 194IB on this transaction.")
+=======
+        self.assertEqual(move_4.l10n_in_tcs_tds_warning, "It's advisable to deduct TDS u/s 393(1)2(ii)(b) RENT LAND on this transaction.")
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(move_4.l10n_in_tcs_tds_warning, "It's advisable to deduct TDS u/s 393(1)2(ii)(b) RENT LAND on this transaction.")
 >>>>>>> upstream/18.0
@@ -368,7 +418,11 @@ class TestTdsTcsAlert(L10nInTestInvoicingCommon):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(move.l10n_in_tcs_tds_warning, False)
+=======
+        self.assertFalse(move.l10n_in_tcs_tds_warning)
+>>>>>>> upstream/18.0
 =======
         self.assertFalse(move.l10n_in_tcs_tds_warning)
 >>>>>>> upstream/18.0
@@ -385,7 +439,11 @@ class TestTdsTcsAlert(L10nInTestInvoicingCommon):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(move_1.l10n_in_tcs_tds_warning, False)
+=======
+        self.assertFalse(move_1.l10n_in_tcs_tds_warning)
+>>>>>>> upstream/18.0
 =======
         self.assertFalse(move_1.l10n_in_tcs_tds_warning)
 >>>>>>> upstream/18.0
@@ -403,7 +461,11 @@ class TestTdsTcsAlert(L10nInTestInvoicingCommon):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(move_2.l10n_in_tcs_tds_warning, False)
+=======
+        self.assertFalse(move_2.l10n_in_tcs_tds_warning)
+>>>>>>> upstream/18.0
 =======
         self.assertFalse(move_2.l10n_in_tcs_tds_warning)
 >>>>>>> upstream/18.0
@@ -420,7 +482,11 @@ class TestTdsTcsAlert(L10nInTestInvoicingCommon):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(move_3.l10n_in_tcs_tds_warning, "It's advisable to deduct TDS u/s 194J on this transaction.")
+=======
+        self.assertEqual(move_3.l10n_in_tcs_tds_warning, "It's advisable to deduct TDS u/s 393(1)6(iii)(b) PROF on this transaction.")
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(move_3.l10n_in_tcs_tds_warning, "It's advisable to deduct TDS u/s 393(1)6(iii)(b) PROF on this transaction.")
 >>>>>>> upstream/18.0
@@ -441,7 +507,11 @@ class TestTdsTcsAlert(L10nInTestInvoicingCommon):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(move.l10n_in_tcs_tds_warning, False)
+=======
+        self.assertFalse(move.l10n_in_tcs_tds_warning)
+>>>>>>> upstream/18.0
 =======
         self.assertFalse(move.l10n_in_tcs_tds_warning)
 >>>>>>> upstream/18.0
@@ -457,8 +527,12 @@ class TestTdsTcsAlert(L10nInTestInvoicingCommon):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(move_1.l10n_in_tcs_tds_warning, False)
 
+=======
+        self.assertFalse(move_1.l10n_in_tcs_tds_warning)
+>>>>>>> upstream/18.0
 =======
         self.assertFalse(move_1.l10n_in_tcs_tds_warning)
 >>>>>>> upstream/18.0
@@ -473,7 +547,11 @@ class TestTdsTcsAlert(L10nInTestInvoicingCommon):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(move_2.l10n_in_tcs_tds_warning, "It's advisable to deduct TDS u/s 194C on this transaction.")
+=======
+        self.assertEqual(move_2.l10n_in_tcs_tds_warning, "It's advisable to deduct TDS u/s 393(1)6(i)(a) CONTR IND/HUF on this transaction.")
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(move_2.l10n_in_tcs_tds_warning, "It's advisable to deduct TDS u/s 393(1)6(i)(a) CONTR IND/HUF on this transaction.")
 >>>>>>> upstream/18.0
@@ -489,7 +567,11 @@ class TestTdsTcsAlert(L10nInTestInvoicingCommon):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(move_3.l10n_in_tcs_tds_warning, False)
+=======
+        self.assertFalse(move_3.l10n_in_tcs_tds_warning)
+>>>>>>> upstream/18.0
 =======
         self.assertFalse(move_3.l10n_in_tcs_tds_warning)
 >>>>>>> upstream/18.0
@@ -505,7 +587,11 @@ class TestTdsTcsAlert(L10nInTestInvoicingCommon):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(move_4.l10n_in_tcs_tds_warning, False)
+=======
+        self.assertFalse(move_4.l10n_in_tcs_tds_warning)
+>>>>>>> upstream/18.0
 =======
         self.assertFalse(move_4.l10n_in_tcs_tds_warning)
 >>>>>>> upstream/18.0
@@ -521,7 +607,11 @@ class TestTdsTcsAlert(L10nInTestInvoicingCommon):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(move_5.l10n_in_tcs_tds_warning, "It's advisable to deduct TDS u/s 194C on this transaction.")
+=======
+        self.assertEqual(move_5.l10n_in_tcs_tds_warning, "It's advisable to deduct TDS u/s 393(1)6(i)(a) CONTR IND/HUF on this transaction.")
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(move_5.l10n_in_tcs_tds_warning, "It's advisable to deduct TDS u/s 393(1)6(i)(a) CONTR IND/HUF on this transaction.")
 >>>>>>> upstream/18.0
@@ -543,7 +633,11 @@ class TestTdsTcsAlert(L10nInTestInvoicingCommon):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(move.l10n_in_tcs_tds_warning, False)
+=======
+        self.assertFalse(move.l10n_in_tcs_tds_warning)
+>>>>>>> upstream/18.0
 =======
         self.assertFalse(move.l10n_in_tcs_tds_warning)
 >>>>>>> upstream/18.0
@@ -562,7 +656,11 @@ class TestTdsTcsAlert(L10nInTestInvoicingCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(move_1.l10n_in_tcs_tds_warning, False)
+=======
+        self.assertFalse(move_1.l10n_in_tcs_tds_warning)
+>>>>>>> upstream/18.0
 =======
         self.assertFalse(move_1.l10n_in_tcs_tds_warning)
 >>>>>>> upstream/18.0
@@ -579,7 +677,11 @@ class TestTdsTcsAlert(L10nInTestInvoicingCommon):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(move_2.l10n_in_tcs_tds_warning, False)
+=======
+        self.assertFalse(move_2.l10n_in_tcs_tds_warning)
+>>>>>>> upstream/18.0
 =======
         self.assertFalse(move_2.l10n_in_tcs_tds_warning)
 >>>>>>> upstream/18.0
@@ -600,6 +702,7 @@ class TestTdsTcsAlert(L10nInTestInvoicingCommon):
             amounts=[710000],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             taxes=[self.tax_206c1g_r],
             company=self.branch_a,
         )
@@ -608,12 +711,17 @@ class TestTdsTcsAlert(L10nInTestInvoicingCommon):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             taxes=[self.tax_394_1_7_b],
             company=self.branch_a,
         )
 
         self.assertFalse(move.l10n_in_tcs_tds_warning)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -645,6 +753,7 @@ class TestTdsTcsAlert(L10nInTestInvoicingCommon):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.tds_wizard_entry(move=move_1, lines=[(self.tax_194ib, 100000), (self.tax_194j, 100000), (self.tax_194c, 100000)])
         move_1.button_draft()
         move_1.action_post()
@@ -652,11 +761,16 @@ class TestTdsTcsAlert(L10nInTestInvoicingCommon):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         self.tds_wizard_entry(move=move_1, lines=[(self.tax_393_1_2_ii_b, 100000), (self.tax_393_1_6_iii_b, 100000), (self.tax_393_1_6_i_a, 100000)])
         move_1.button_draft()
         move_1.action_post()
         self.assertFalse(move_1.l10n_in_tcs_tds_warning)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -673,7 +787,11 @@ class TestTdsTcsAlert(L10nInTestInvoicingCommon):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(move.l10n_in_tcs_tds_warning, "It's advisable to deduct TDS u/s 194C on this transaction.")
+=======
+        self.assertEqual(move.l10n_in_tcs_tds_warning, "It's advisable to deduct TDS u/s 393(1)6(i)(a) CONTR IND/HUF on this transaction.")
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(move.l10n_in_tcs_tds_warning, "It's advisable to deduct TDS u/s 393(1)6(i)(a) CONTR IND/HUF on this transaction.")
 >>>>>>> upstream/18.0
@@ -689,7 +807,11 @@ class TestTdsTcsAlert(L10nInTestInvoicingCommon):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(move_1.l10n_in_tcs_tds_warning, False)
+=======
+        self.assertFalse(move_1.l10n_in_tcs_tds_warning)
+>>>>>>> upstream/18.0
 =======
         self.assertFalse(move_1.l10n_in_tcs_tds_warning)
 >>>>>>> upstream/18.0
@@ -711,6 +833,7 @@ class TestTdsTcsAlert(L10nInTestInvoicingCommon):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(move.l10n_in_tcs_tds_warning, "It's advisable to deduct TDS u/s 194C on this transaction.")
         self.tds_wizard_entry(move=move, lines=[(self.tax_194c, 100000)])
         move.button_draft()
@@ -719,12 +842,17 @@ class TestTdsTcsAlert(L10nInTestInvoicingCommon):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         self.assertEqual(move.l10n_in_tcs_tds_warning, "It's advisable to deduct TDS u/s 393(1)6(i)(a) CONTR IND/HUF on this transaction.")
         self.tds_wizard_entry(move=move, lines=[(self.tax_393_1_6_i_a, 100000)])
         move.button_draft()
         move.action_post()
         self.assertFalse(move.l10n_in_tcs_tds_warning)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -766,7 +894,11 @@ class TestTdsTcsAlert(L10nInTestInvoicingCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(move.l10n_in_tcs_tds_warning, "It's advisable to deduct TDS u/s 194C on this transaction.")
+=======
+        self.assertEqual(move.l10n_in_tcs_tds_warning, "It's advisable to deduct TDS u/s 393(1)6(i)(a) CONTR IND/HUF on this transaction.")
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(move.l10n_in_tcs_tds_warning, "It's advisable to deduct TDS u/s 393(1)6(i)(a) CONTR IND/HUF on this transaction.")
 >>>>>>> upstream/18.0
@@ -788,7 +920,11 @@ class TestTdsTcsAlert(L10nInTestInvoicingCommon):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(move.l10n_in_tcs_tds_warning, False)
+=======
+        self.assertFalse(move.l10n_in_tcs_tds_warning)
+>>>>>>> upstream/18.0
 =======
         self.assertFalse(move.l10n_in_tcs_tds_warning)
 >>>>>>> upstream/18.0
@@ -810,7 +946,11 @@ class TestTdsTcsAlert(L10nInTestInvoicingCommon):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(move.l10n_in_tcs_tds_warning, False)
+=======
+        self.assertFalse(move.l10n_in_tcs_tds_warning)
+>>>>>>> upstream/18.0
 =======
         self.assertFalse(move.l10n_in_tcs_tds_warning)
 >>>>>>> upstream/18.0
@@ -833,7 +973,11 @@ class TestTdsTcsAlert(L10nInTestInvoicingCommon):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(move.l10n_in_tcs_tds_warning, "It's advisable to deduct TDS u/s 194C on this transaction.")
+=======
+        self.assertEqual(move.l10n_in_tcs_tds_warning, "It's advisable to deduct TDS u/s 393(1)6(i)(a) CONTR IND/HUF on this transaction.")
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(move.l10n_in_tcs_tds_warning, "It's advisable to deduct TDS u/s 393(1)6(i)(a) CONTR IND/HUF on this transaction.")
 >>>>>>> upstream/18.0
@@ -850,7 +994,11 @@ class TestTdsTcsAlert(L10nInTestInvoicingCommon):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(move_1.l10n_in_tcs_tds_warning, False)
+=======
+        self.assertFalse(move_1.l10n_in_tcs_tds_warning)
+>>>>>>> upstream/18.0
 =======
         self.assertFalse(move_1.l10n_in_tcs_tds_warning)
 >>>>>>> upstream/18.0
@@ -867,7 +1015,11 @@ class TestTdsTcsAlert(L10nInTestInvoicingCommon):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(move_2.l10n_in_tcs_tds_warning, False)
+=======
+        self.assertFalse(move_2.l10n_in_tcs_tds_warning)
+>>>>>>> upstream/18.0
 =======
         self.assertFalse(move_2.l10n_in_tcs_tds_warning)
 >>>>>>> upstream/18.0
@@ -883,7 +1035,11 @@ class TestTdsTcsAlert(L10nInTestInvoicingCommon):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(move_3.l10n_in_tcs_tds_warning, "It's advisable to deduct TDS u/s 194C on this transaction.")
+=======
+        self.assertEqual(move_3.l10n_in_tcs_tds_warning, "It's advisable to deduct TDS u/s 393(1)6(i)(a) CONTR IND/HUF on this transaction.")
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(move_3.l10n_in_tcs_tds_warning, "It's advisable to deduct TDS u/s 393(1)6(i)(a) CONTR IND/HUF on this transaction.")
 >>>>>>> upstream/18.0
@@ -907,7 +1063,11 @@ class TestTdsTcsAlert(L10nInTestInvoicingCommon):
         move.button_cancel()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(move.l10n_in_tcs_tds_warning, False)
+=======
+        self.assertFalse(move.l10n_in_tcs_tds_warning)
+>>>>>>> upstream/18.0
 =======
         self.assertFalse(move.l10n_in_tcs_tds_warning)
 >>>>>>> upstream/18.0
@@ -924,7 +1084,11 @@ class TestTdsTcsAlert(L10nInTestInvoicingCommon):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(move_1.l10n_in_tcs_tds_warning, False)
+=======
+        self.assertFalse(move_1.l10n_in_tcs_tds_warning)
+>>>>>>> upstream/18.0
 =======
         self.assertFalse(move_1.l10n_in_tcs_tds_warning)
 >>>>>>> upstream/18.0
@@ -941,7 +1105,11 @@ class TestTdsTcsAlert(L10nInTestInvoicingCommon):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(move_2.l10n_in_tcs_tds_warning, "It's advisable to deduct TDS u/s 194C on this transaction.")
+=======
+        self.assertEqual(move_2.l10n_in_tcs_tds_warning, "It's advisable to deduct TDS u/s 393(1)6(i)(a) CONTR IND/HUF on this transaction.")
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(move_2.l10n_in_tcs_tds_warning, "It's advisable to deduct TDS u/s 393(1)6(i)(a) CONTR IND/HUF on this transaction.")
 >>>>>>> upstream/18.0
@@ -961,6 +1129,7 @@ class TestTdsTcsAlert(L10nInTestInvoicingCommon):
             amounts=[710000, 710000],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             taxes=[self.tax_206c1g_r],
             company=self.branch_a,
         )
@@ -969,12 +1138,17 @@ class TestTdsTcsAlert(L10nInTestInvoicingCommon):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             taxes=[self.tax_394_1_7_b],
             company=self.branch_a,
         )
 
         self.assertEqual(move.l10n_in_tcs_tds_warning, "It's advisable to collect TCS u/s TCS 394(1)7(b) Remittance (Other) on this transaction.")
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

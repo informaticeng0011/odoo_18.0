@@ -86,6 +86,10 @@ from docutils.writers.html4css1 import Writer
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from markupsafe import Markup
+>>>>>>> upstream/18.0
 =======
 from markupsafe import Markup
 >>>>>>> upstream/18.0
@@ -403,6 +407,10 @@ from odoo.osv import expression
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools import config
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import config
 >>>>>>> upstream/18.0
@@ -1024,8 +1032,11 @@ class MyFilterMessages(Transform):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for node in self.document.traverse(nodes.system_message):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1430,6 +1441,7 @@ class MyFilterMessages(Transform):
             nodes_iter = self.document.traverse(nodes.system_message)
 
         for node in nodes_iter:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2092,6 +2104,9 @@ class MyFilterMessages(Transform):
 =======
             _logger.debug("docutils' system message present: %s", str(node))
 >>>>>>> upstream/18.0
+=======
+            _logger.debug("docutils' system message present: %s", str(node))
+>>>>>>> upstream/18.0
             node.parent.remove(node)
 
 
@@ -2247,8 +2262,11 @@ class Module(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 output = publish_string(source=module.description if not module.application and module.description else '', settings_overrides=overrides, writer=MyWriter())
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2452,6 +2470,9 @@ class Module(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2903,8 +2924,11 @@ class Module(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             modules = self.search(auto_domain).filtered(must_install)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3240,6 +3264,9 @@ class Module(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

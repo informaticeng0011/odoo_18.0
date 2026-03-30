@@ -103,8 +103,11 @@ class RecurrenceRule(models.Model):
         # Edge case:  if the base event was deleted manually in 'self_only' update, skip applying recurrence.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self._has_base_event_time_fields_changed(new_event_values) and (new_event_values['start'] >= self.base_event_id.start):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         # Also skip when the base event is an exception (follow_recurrence=False), because its
@@ -116,6 +119,9 @@ class RecurrenceRule(models.Model):
             self.base_event_id.follow_recurrence
         ):
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -467,7 +473,10 @@ class RecurrenceRule(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1251,6 +1260,9 @@ class RecurrenceRule(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

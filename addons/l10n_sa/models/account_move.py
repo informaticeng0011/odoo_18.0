@@ -129,6 +129,7 @@ import base64
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1101,6 +1102,8 @@ from odoo.tools import float_repr, format_datetime
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 from datetime import datetime
 from pytz import timezone, utc
 
@@ -1138,6 +1141,9 @@ from odoo.tools import float_repr, format_datetime
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1207,6 +1213,7 @@ class AccountMove(models.Model):
     _inherit = 'account.move'
 
     l10n_sa_qr_code_str = fields.Char(string='Zatka QR Code', compute='_compute_qr_code_str')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2103,6 +2110,8 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     l10n_sa_confirmation_datetime = fields.Datetime(string='ZATCA Issue Date',
                                                     readonly=True,
                                                     copy=False,
@@ -2234,6 +2243,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2515,6 +2527,7 @@ class AccountMove(models.Model):
                 seller_name_enc = get_qr_encoding(1, record.company_id.display_name)
                 company_vat_enc = get_qr_encoding(2, record.company_id.vat)
                 time_sa = fields.Datetime.context_timestamp(self.with_context(tz='Asia/Riyadh'), record.l10n_sa_confirmation_datetime)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2892,6 +2905,9 @@ class AccountMove(models.Model):
 =======
                 timestamp_enc = get_qr_encoding(3, time_sa.strftime(self._get_iso_format_asia_riyadh_date('T')))
 >>>>>>> upstream/18.0
+=======
+                timestamp_enc = get_qr_encoding(3, time_sa.strftime(self._get_iso_format_asia_riyadh_date('T')))
+>>>>>>> upstream/18.0
                 totals = record._get_l10n_sa_totals()
                 invoice_total_enc = get_qr_encoding(4, float_repr(abs(totals['total_amount']), 2))
                 total_vat_enc = get_qr_encoding(5, float_repr(abs(totals['total_tax']), 2))
@@ -2904,6 +2920,7 @@ class AccountMove(models.Model):
         res = super()._post(soft)
         for move in self:
             if move.country_code == 'SA' and move.is_sale_document():
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4627,6 +4644,11 @@ class AccountMove(models.Model):
                 if not move.l10n_sa_confirmation_datetime:
                     vals['l10n_sa_confirmation_datetime'] = self._get_normalized_l10n_sa_confirmation_datetime(move.invoice_date)
 >>>>>>> upstream/18.0
+=======
+                vals = {}
+                if not move.l10n_sa_confirmation_datetime:
+                    vals['l10n_sa_confirmation_datetime'] = self._get_normalized_l10n_sa_confirmation_datetime(move.invoice_date)
+>>>>>>> upstream/18.0
                 if not move.delivery_date:
                     vals['delivery_date'] = move.invoice_date
                 move.write(vals)
@@ -4919,6 +4941,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -5067,6 +5090,8 @@ class AccountMove(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5707,6 +5732,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6136,6 +6164,7 @@ class AccountMove(models.Model):
         for move in self.filtered(lambda m: m.country_code == 'SA'):
             move.l10n_sa_confirmation_datetime = False
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7197,6 +7226,11 @@ class AccountMove(models.Model):
         return f'%Y-%m-%d{separator}%H:%M:%S'
 
 >>>>>>> upstream/18.0
+=======
+    def _get_iso_format_asia_riyadh_date(self, separator=' '):
+        return f'%Y-%m-%d{separator}%H:%M:%S'
+
+>>>>>>> upstream/18.0
     def _get_l10n_sa_totals(self):
         self.ensure_one()
         return {
@@ -7402,7 +7436,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8002,6 +8039,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8335,6 +8373,8 @@ class AccountMove(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8439,6 +8479,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8509,6 +8552,7 @@ class AccountMove(models.Model):
         if not invoice_date:
             return result
         for move in self.filtered('l10n_sa_confirmation_datetime'):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8988,6 +9032,11 @@ class AccountMove(models.Model):
             move.l10n_sa_confirmation_datetime = self._get_normalized_l10n_sa_confirmation_datetime(invoice_date, sa_time)
         return result
 >>>>>>> upstream/18.0
+=======
+            sa_time = move.l10n_sa_confirmation_datetime.replace(tzinfo=utc).astimezone(timezone('Asia/Riyadh')).time()
+            move.l10n_sa_confirmation_datetime = self._get_normalized_l10n_sa_confirmation_datetime(invoice_date, sa_time)
+        return result
+>>>>>>> upstream/18.0
 
     def _l10n_sa_is_simplified(self):
         """
@@ -9121,6 +9170,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

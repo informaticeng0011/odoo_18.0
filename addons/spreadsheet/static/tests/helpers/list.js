@@ -215,10 +215,13 @@ import { createModelWithDataSource } from "@spreadsheet/../tests/helpers/model";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  */
 export function insertListInSpreadsheet(model, params) {
     const { definition, columns } = generateListDefinition(params.model, params.columns);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -821,6 +824,9 @@ export function insertListInSpreadsheet(model, params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1440,6 +1446,10 @@ export function insertListInSpreadsheet(model, params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ * @param {{name: string, asc: boolean}[]} [params.orderBy]
+>>>>>>> upstream/18.0
 =======
  * @param {{name: string, asc: boolean}[]} [params.orderBy]
 >>>>>>> upstream/18.0
@@ -2251,6 +2261,10 @@ export async function createSpreadsheetWithList(params = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        orderBy: params.orderBy,
+>>>>>>> upstream/18.0
 =======
         orderBy: params.orderBy,
 >>>>>>> upstream/18.0

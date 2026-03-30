@@ -199,8 +199,12 @@ import { describe, test } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { mountWithCleanup } from "@web/../tests/web_test_helpers";
 import { serverState } from "@web/../tests/_framework/mock_server_state.hoot";
+=======
+import { mountWithCleanup, serverState } from "@web/../tests/web_test_helpers";
+>>>>>>> upstream/18.0
 =======
 import { mountWithCleanup, serverState } from "@web/../tests/web_test_helpers";
 >>>>>>> upstream/18.0

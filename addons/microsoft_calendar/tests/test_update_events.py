@@ -1420,7 +1420,10 @@ class TestUpdateEvents(TestCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     @freeze_time('2021-09-22')
@@ -1501,6 +1504,9 @@ class TestUpdateEvents(TestCommon):
         self.assertFalse(base_event.follow_recurrence, "Base event should remain an exception")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

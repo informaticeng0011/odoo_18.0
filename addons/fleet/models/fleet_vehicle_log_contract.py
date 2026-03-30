@@ -345,7 +345,11 @@ class FleetVehicleLogContract(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         reminder_activity_type = self.env.ref('fleet.mail_act_fleet_contract_to_renew', raise_if_not_found=False) or self.env['mail.activity.type']
+=======
+        reminder_activity_type = self.env.ref('fleet.mail_act_fleet_contract_to_renew')
+>>>>>>> upstream/18.0
 =======
         reminder_activity_type = self.env.ref('fleet.mail_act_fleet_contract_to_renew')
 >>>>>>> upstream/18.0

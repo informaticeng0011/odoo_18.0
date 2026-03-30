@@ -9,6 +9,10 @@ from . import res_partner
 from . import im_livechat_channel
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import ir_qweb
+>>>>>>> upstream/18.0
 =======
 from . import ir_qweb
 >>>>>>> upstream/18.0
