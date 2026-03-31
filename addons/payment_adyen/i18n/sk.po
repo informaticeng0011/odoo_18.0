@@ -65,6 +65,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* payment_adyen
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -327,6 +328,9 @@
 =======
 # * payment_adyen
 >>>>>>> upstream/18.0
+=======
+# * payment_adyen
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -416,6 +420,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -456,6 +461,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
@@ -656,6 +664,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1097,6 +1106,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2026-03-21 09:30+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -1110,6 +1121,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1131,6 +1145,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1472,10 +1487,16 @@ msgstr ""
 "n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
 "X-Generator: Weblate 5.16.2\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && "
+"n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #: model_terms:ir.ui.view,arch_db:payment_adyen.payment_provider_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1735,10 +1756,13 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<strong>Warning:</strong> To capture the amount manually, you also need to "
 "set\n"
 "                    the Capture Delay to manual on your Adyen account "
 "settings."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1923,6 +1947,8 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2035,6 +2061,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2113,6 +2142,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2545,6 +2575,10 @@ msgid ""
 "A request was sent to void the transaction with reference %(reference)s (%"
 "(provider)s)."
 >>>>>>> upstream/18.0
+=======
+"A request was sent to void the transaction with reference %(reference)s (%"
+"(provider)s)."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: payment_adyen
@@ -2592,7 +2626,11 @@ msgid "API URL Prefix"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "API URL Prefix"
+>>>>>>> upstream/18.0
 =======
 msgstr "API URL Prefix"
 >>>>>>> upstream/18.0
@@ -2752,7 +2790,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pri spracovaní vašej platby došlo k chybe. Skúste to prosím znova."
+>>>>>>> upstream/18.0
 =======
 msgstr "Pri spracovaní vašej platby došlo k chybe. Skúste to prosím znova."
 >>>>>>> upstream/18.0
@@ -2906,7 +2948,11 @@ msgid "Cannot display the payment form"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nie je možné zobraziť platobný formulár"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nie je možné zobraziť platobný formulár"
 >>>>>>> upstream/18.0
@@ -3059,7 +3105,11 @@ msgid "Client Key"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kľúč klienta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kľúč klienta"
 >>>>>>> upstream/18.0
@@ -3190,7 +3240,11 @@ msgid "Could not establish the connection to the API."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nepodarilo sa nadviazať spojenie s API."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nepodarilo sa nadviazať spojenie s API."
 >>>>>>> upstream/18.0
@@ -3259,7 +3313,11 @@ msgid "HMAC Key"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "HMAC kľúč"
+>>>>>>> upstream/18.0
 =======
 msgstr "HMAC kľúč"
 >>>>>>> upstream/18.0
@@ -3412,7 +3470,11 @@ msgid "Has Adyen Tx"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Má Adyen Tx"
+>>>>>>> upstream/18.0
 =======
 msgstr "Má Adyen Tx"
 >>>>>>> upstream/18.0
@@ -3566,7 +3628,11 @@ msgid "Incorrect payment details"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nesprávne platobné údaje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nesprávne platobné údaje"
 >>>>>>> upstream/18.0
@@ -3735,7 +3801,11 @@ msgid "Payment Capture Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sprievodca zaplatením"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sprievodca zaplatením"
 >>>>>>> upstream/18.0
@@ -3916,7 +3986,11 @@ msgid "Payment Provider"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poskytovateľ platieb"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poskytovateľ platieb"
 >>>>>>> upstream/18.0
@@ -4164,7 +4238,11 @@ msgid "Payment processing failed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spracovanie platby zlyhalo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Spracovanie platby zlyhalo"
 >>>>>>> upstream/18.0
@@ -4324,7 +4402,11 @@ msgid "Received data with invalid payment state: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prijaté údaje s neplatným stavom platby: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prijaté údaje s neplatným stavom platby: %s"
 >>>>>>> upstream/18.0
@@ -4484,7 +4566,11 @@ msgid "Received data with missing payment state."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prijaté údaje s chýbajúcim stavom platby."
+>>>>>>> upstream/18.0
 =======
 msgstr "Prijaté údaje s chýbajúcim stavom platby."
 >>>>>>> upstream/18.0
@@ -4638,7 +4724,11 @@ msgid "Received tampered payment request data."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prijaté údaje o platobnej požiadavke boli pozmenené/sfalšované."
+>>>>>>> upstream/18.0
 =======
 msgstr "Prijaté údaje o platobnej požiadavke boli pozmenené/sfalšované."
 >>>>>>> upstream/18.0
@@ -4791,7 +4881,11 @@ msgid "Shopper Reference"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Referencie zákazníkov"
+>>>>>>> upstream/18.0
 =======
 msgstr "Referencie zákazníkov"
 >>>>>>> upstream/18.0
@@ -4944,7 +5038,11 @@ msgid "The API key of the webservice user"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "API kľúč používateľa webovej služby"
+>>>>>>> upstream/18.0
 =======
 msgstr "API kľúč používateľa webovej služby"
 >>>>>>> upstream/18.0
@@ -5097,7 +5195,11 @@ msgid "The HMAC key of the webhook"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kľúč HMAC webhooku"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kľúč HMAC webhooku"
 >>>>>>> upstream/18.0
@@ -5254,6 +5356,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Suma spracovaná spoločnosťou Adyen pre transakciu %s sa líši od požadovanej "
+"sumy. Vytvorí sa ďalšia transakcia so správnou sumou."
+>>>>>>> upstream/18.0
 =======
 "Suma spracovaná spoločnosťou Adyen pre transakciu %s sa líši od požadovanej "
 "sumy. Vytvorí sa ďalšia transakcia so správnou sumou."
@@ -5443,7 +5550,11 @@ msgid "The base URL for the API endpoints"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Základná URL adresa pre koncové body API"
+>>>>>>> upstream/18.0
 =======
 msgstr "Základná URL adresa pre koncové body API"
 >>>>>>> upstream/18.0
@@ -5605,6 +5716,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Zaznamenanie alebo zrušenie transakcie môže trvať niekoľko minút, kým ju\n"
+"                    spracuje spoločnosť Adyen a zobrazí sa v systéme Odoo."
+>>>>>>> upstream/18.0
 =======
 "Zaznamenanie alebo zrušenie transakcie môže trvať niekoľko minút, kým ju\n"
 "                    spracuje spoločnosť Adyen a zobrazí sa v systéme Odoo."
@@ -5758,6 +5874,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6190,6 +6307,10 @@ msgid ""
 "The capture request of %(amount)s for the transaction with reference %(ref)s "
 "has been requested (%(provider_name)s)."
 >>>>>>> upstream/18.0
+=======
+"The capture request of %(amount)s for the transaction with reference %(ref)s "
+"has been requested (%(provider_name)s)."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: payment_adyen
@@ -6232,7 +6353,11 @@ msgid "The client key of the webservice user"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kľúč klienta používateľa webovej služby"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kľúč klienta používateľa webovej služby"
 >>>>>>> upstream/18.0
@@ -6385,7 +6510,11 @@ msgid "The code of the merchant account to use with this provider"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kód obchodného účtu, ktorý sa používa u tohto poskytovateľa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kód obchodného účtu, ktorý sa používa u tohto poskytovateľa"
 >>>>>>> upstream/18.0
@@ -6544,7 +6673,11 @@ msgid "The technical code of this payment provider."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Technický kód tohto poskytovateľa platieb."
+>>>>>>> upstream/18.0
 =======
 msgstr "Technický kód tohto poskytovateľa platieb."
 >>>>>>> upstream/18.0
@@ -6703,7 +6836,11 @@ msgid "The unique reference of the partner owning this token"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jedinečný odkaz partnera, ktorý vlastní tento token"
+>>>>>>> upstream/18.0
 =======
 msgstr "Jedinečný odkaz partnera, ktorý vlastní tento token"
 >>>>>>> upstream/18.0
@@ -6863,7 +7000,11 @@ msgid "Your payment was refused. Please try again."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vaša platba bola odmietnutá. Skúste to prosím znovu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Vaša platba bola odmietnutá. Skúste to prosím znovu."
 >>>>>>> upstream/18.0

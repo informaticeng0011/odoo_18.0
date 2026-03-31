@@ -127,7 +127,11 @@ class WebsiteSnippetFilter(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         handler = getattr(self, '_get_products_%s' % mode, self._get_products_latest_sold)
+=======
+        handler = getattr(self.sudo(False), '_get_products_%s' % mode, self.sudo(False)._get_products_latest_sold)
+>>>>>>> upstream/18.0
 =======
         handler = getattr(self.sudo(False), '_get_products_%s' % mode, self.sudo(False)._get_products_latest_sold)
 >>>>>>> upstream/18.0

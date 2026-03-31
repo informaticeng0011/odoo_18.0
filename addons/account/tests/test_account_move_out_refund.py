@@ -728,6 +728,11 @@ class TestAccountMoveOutRefundOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.other_currency.rounding = 0.001
+
+>>>>>>> upstream/18.0
 =======
         self.other_currency.rounding = 0.001
 
@@ -1439,7 +1444,11 @@ class TestAccountMoveOutRefundOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'price_unit': 0.05,
+=======
+                'price_unit': 0.045,
+>>>>>>> upstream/18.0
 =======
                 'price_unit': 0.045,
 >>>>>>> upstream/18.0
@@ -1749,12 +1758,15 @@ class TestAccountMoveOutRefundOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'price_unit': 0.05,
                 'price_subtotal': 0.01,
                 'price_total': 0.01,
                 'amount_currency': 0.01,
                 'debit': 0.01,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1952,6 +1964,9 @@ class TestAccountMoveOutRefundOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2156,8 +2171,13 @@ class TestAccountMoveOutRefundOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'amount_currency': -260.01,
                 'credit': 260.01,
+=======
+                'amount_currency': -260.0,
+                'credit': 260.0,
+>>>>>>> upstream/18.0
 =======
                 'amount_currency': -260.0,
                 'credit': 260.0,
@@ -2489,9 +2509,15 @@ class TestAccountMoveOutRefundOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'amount_untaxed': 200.01,
             'amount_tax': 60.0,
             'amount_total': 260.01,
+=======
+            'amount_untaxed': 200.0,
+            'amount_tax': 60.0,
+            'amount_total': 260.0,
+>>>>>>> upstream/18.0
 =======
             'amount_untaxed': 200.0,
             'amount_tax': 60.0,

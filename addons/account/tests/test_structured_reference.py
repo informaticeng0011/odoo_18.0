@@ -20,6 +20,7 @@ from odoo.addons.account.tools import (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     is_valid_structured_reference_fi,
     is_valid_structured_reference_no_se,
     is_valid_structured_reference_nl,
@@ -868,6 +869,8 @@ from odoo.addons.account.tools import (
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     is_valid_structured_reference_dk,
     is_valid_structured_reference_fi,
     is_valid_structured_reference_no_se,
@@ -888,6 +891,9 @@ from odoo.addons.account.tools import (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -966,6 +972,9 @@ from odoo.addons.account.tools import (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1103,7 +1112,10 @@ class StructuredReferenceTest(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1177,6 +1189,9 @@ class StructuredReferenceTest(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1499,7 +1514,10 @@ class StructuredReferenceTest(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2199,6 +2217,9 @@ class StructuredReferenceTest(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2672,6 +2693,7 @@ class StructuredReferenceTest(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertTrue(is_valid_structured_reference('2023 0000 98'))  # FI
         self.assertTrue(is_valid_structured_reference('1234 5678 97'))  # NO-SE
         self.assertTrue(is_valid_structured_reference('5000056789012345'))  # NL
@@ -4354,6 +4376,8 @@ class StructuredReferenceTest(TransactionCase):
         self.assertTrue(is_valid_structured_reference("  SI01 25  - 2 0-85  "))  # SI
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4415,6 +4439,9 @@ class StructuredReferenceTest(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4456,6 +4483,7 @@ class StructuredReferenceTest(TransactionCase):
         # Does not validate invalid structured format
         self.assertFalse(is_valid_structured_reference('18539007547034RF'))  # ISO
         self.assertFalse(is_valid_structured_reference('***02/03430/57642***'))  # BE
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6129,6 +6157,8 @@ class StructuredReferenceTest(TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6189,6 +6219,9 @@ class StructuredReferenceTest(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6279,6 +6312,9 @@ class StructuredReferenceTest(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

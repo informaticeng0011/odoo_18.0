@@ -30,6 +30,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* account_debit_note
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -634,6 +635,9 @@
 =======
 # * account_debit_note
 >>>>>>> upstream/18.0
+=======
+# * account_debit_note
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -837,6 +841,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1175,6 +1180,10 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# Jakub Krkoska <jakub.krkoska@26house.com>, 2026.
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
 =======
 # Jakub Krkoska <jakub.krkoska@26house.com>, 2026.
@@ -1300,6 +1309,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1967,6 +1977,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-02-26 17:29+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -2001,6 +2013,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2064,6 +2079,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2754,6 +2770,11 @@ msgstr ""
 "(n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : "
+"(n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: account_debit_note
 #: model_terms:ir.ui.view,arch_db:account_debit_note.view_move_form_debit
@@ -2773,6 +2794,7 @@ msgstr "Zrušit"
 #. module: account_debit_note
 #: model:ir.model.fields,help:account_debit_note.field_account_journal__debit_sequence
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3715,6 +3737,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Check this box if you don't want to share the same sequence for invoices and "
 "debit notes made from this journal"
 msgstr ""
@@ -3749,6 +3773,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3891,7 +3918,11 @@ msgid "Dedicated Debit Note Sequence"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sekvence vyhrazených vrubopisů"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sekvence vyhrazených vrubopisů"
 >>>>>>> upstream/18.0
@@ -4016,7 +4047,11 @@ msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Zobrazovací název"
+=======
+msgstr "Zobrazovaný název"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zobrazovaný název"
 >>>>>>> upstream/18.0
@@ -4386,8 +4421,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "ISO kód země ve dvou znacích. Toto pole můžete použít pro rychlé "
 "vyhledávání."
+=======
+"ISO kód země ve dvou znacích. Toto pole můžete použít pro rychlé vyhledávání."
+>>>>>>> upstream/18.0
 =======
 "ISO kód země ve dvou znacích. Toto pole můžete použít pro rychlé vyhledávání."
 >>>>>>> upstream/18.0
@@ -5197,7 +5236,11 @@ msgstr "Opravné daňové doklady, vytvořené pro tuto fakturu"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/account_debit_note/wizard/account_debit_note.py:0
+=======
+#: code:addons/account_debit_note/models/account_move.py:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/account_debit_note/models/account_move.py:0
 >>>>>>> upstream/18.0
@@ -6026,12 +6069,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can't make a debit note for an invoice that is already linked to a debit"
 " note."
 msgstr ""
 "Nemůžete vytvořit opravný daňový doklad na fakturu, na kterou je již napojen"
 " jiný opravný daňový doklad."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6634,6 +6680,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

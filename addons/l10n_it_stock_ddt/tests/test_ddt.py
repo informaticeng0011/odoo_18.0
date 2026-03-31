@@ -54,6 +54,10 @@ class TestDDT(TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'allow_out_payment': True,
+>>>>>>> upstream/18.0
 =======
             'allow_out_payment': True,
 >>>>>>> upstream/18.0

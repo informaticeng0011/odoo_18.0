@@ -37,6 +37,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* onboarding
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -299,6 +300,9 @@
 =======
 # * onboarding
 >>>>>>> upstream/18.0
+=======
+# * onboarding
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -388,6 +392,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -484,6 +489,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# "Marta (wacm)" <wacm@odoo.com>, 2026.
 >>>>>>> upstream/18.0
 =======
 # "Marta (wacm)" <wacm@odoo.com>, 2026.
@@ -600,6 +608,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -869,6 +878,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2026-02-21 10:09+0000\n"
 "Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
@@ -910,6 +921,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -988,6 +1002,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1357,6 +1372,11 @@ msgstr ""
 "(n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || "
+"(n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: onboarding
 #: model_terms:ir.ui.view,arch_db:onboarding.onboarding_step
@@ -1403,7 +1423,11 @@ msgid "All Onboarding Progress Records (across companies)."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Wszystkie rekordy postępu wdrożenia"
+=======
+msgstr "Wszystkie zapisy postępu wdrożenia (we wszystkich firmach)."
+>>>>>>> upstream/18.0
 =======
 msgstr "Wszystkie zapisy postępu wdrożenia (we wszystkich firmach)."
 >>>>>>> upstream/18.0
@@ -1561,7 +1585,11 @@ msgid "All related Onboarding Progress Step Records (across companies)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Wszystkie powiązane rekordy etapów wdrożenia (we wszystkich spółkach)"
+=======
+msgstr "Wszystkie powiązane zapisy etapów wdrożenia (we wszystkich firmach)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Wszystkie powiązane zapisy etapów wdrożenia (we wszystkich firmach)"
 >>>>>>> upstream/18.0
@@ -1714,7 +1742,11 @@ msgid "Alt Text for the Step Image"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tekst alternatywny dla obrazu kroku"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tekst alternatywny dla obrazu kroku"
 >>>>>>> upstream/18.0
@@ -1831,6 +1863,7 @@ msgstr "Tekst alternatywny dla obrazu kroku"
 #. odoo-python
 #: code:addons/onboarding/models/onboarding_onboarding_step.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2189,6 +2222,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "An \"Opening Action\" is required for the following steps to be linked to an "
 "onboarding panel: %(step_titles)s"
 msgstr ""
@@ -2230,6 +2265,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2344,7 +2382,11 @@ msgid "Are you sure you want to hide these configuration steps?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Czy na pewno chcesz ukryć te kroki konfiguracji?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Czy na pewno chcesz ukryć te kroki konfiguracji?"
 >>>>>>> upstream/18.0
@@ -2512,7 +2554,11 @@ msgid "Close Panel"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zamknij panel"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zamknij panel"
 >>>>>>> upstream/18.0
@@ -2690,7 +2736,11 @@ msgid "Created by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Utworzył(a)"
+=======
+msgstr "Utworzone przez"
+>>>>>>> upstream/18.0
 =======
 msgstr "Utworzone przez"
 >>>>>>> upstream/18.0
@@ -2877,7 +2927,11 @@ msgid "Get them out of my sight!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zabierzcie ich z moich oczu!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zabierzcie ich z moich oczu!"
 >>>>>>> upstream/18.0
@@ -3030,7 +3084,11 @@ msgid "Hide Onboarding Tips"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ukryj wskazówki wdrażania nowych pracowników"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ukryj wskazówki wdrażania nowych pracowników"
 >>>>>>> upstream/18.0
@@ -3191,7 +3249,11 @@ msgid "Is per company"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Czy jest wg. firmy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Czy jest wg. firmy"
 >>>>>>> upstream/18.0
@@ -3375,7 +3437,11 @@ msgid "Message at completion"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Komunikat po zakończeniu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Komunikat po zakończeniu"
 >>>>>>> upstream/18.0
@@ -3571,7 +3637,11 @@ msgid "Onboarding Progress Records"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rekordy postępów wdrożenia"
+=======
+msgstr "Zapisy postępów wdrożenia"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zapisy postępów wdrożenia"
 >>>>>>> upstream/18.0
@@ -3724,7 +3794,11 @@ msgid "Onboarding Progress Step Records"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rekordy kroków etapu wdrożenia"
+=======
+msgstr "Zapisy kroków etapu wdrożenia"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zapisy kroków etapu wdrożenia"
 >>>>>>> upstream/18.0
@@ -3979,7 +4053,11 @@ msgid "Show when impossible to load the image"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pokaż, gdy nie można załadować obrazu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pokaż, gdy nie można załadować obrazu"
 >>>>>>> upstream/18.0
@@ -4138,7 +4216,11 @@ msgid "Step Image"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obraz kroku"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obraz kroku"
 >>>>>>> upstream/18.0
@@ -4291,7 +4373,11 @@ msgid "Step Image Filename"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Krok Nazwa pliku obrazu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Krok Nazwa pliku obrazu"
 >>>>>>> upstream/18.0
@@ -4459,7 +4545,11 @@ msgid "Text shown on onboarding when completed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tekst wyświetlany po zakończeniu procesu rejestracji"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tekst wyświetlany po zakończeniu procesu rejestracji"
 >>>>>>> upstream/18.0

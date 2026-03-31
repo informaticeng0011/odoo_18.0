@@ -83,7 +83,11 @@ class L10nARWebsiteSale(WebsiteSale):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _validate_address_values(self, address_values, partner_sudo, address_type, *args, **kwargs):
+=======
+    def _validate_address_values(self, address_values, partner_sudo, address_type, use_delivery_as_billing=None, *args, **kwargs):
+>>>>>>> upstream/18.0
 =======
     def _validate_address_values(self, address_values, partner_sudo, address_type, use_delivery_as_billing=None, *args, **kwargs):
 >>>>>>> upstream/18.0
@@ -216,6 +220,7 @@ class L10nARWebsiteSale(WebsiteSale):
         * Any other (Monotributista, RI, etc): should select always "CUIT" identification type
         """
         invalid_fields, missing_fields, error_messages = super()._validate_address_values(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -519,6 +524,8 @@ class L10nARWebsiteSale(WebsiteSale):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             address_values, partner_sudo, address_type, use_delivery_as_billing, *args, **kwargs
         )
 
@@ -568,6 +575,9 @@ class L10nARWebsiteSale(WebsiteSale):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -762,6 +772,9 @@ class L10nARWebsiteSale(WebsiteSale):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

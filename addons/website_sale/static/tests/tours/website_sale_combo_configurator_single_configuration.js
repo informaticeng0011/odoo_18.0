@@ -223,7 +223,11 @@ registry
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ...wsTourUtils.addToCart({ productName: "Combo product", search: false }),
+=======
+            ...wsTourUtils.addToCart({ productName: "Combo product", search: false, expectUnloadPage: true }),
+>>>>>>> upstream/18.0
 =======
             ...wsTourUtils.addToCart({ productName: "Combo product", search: false, expectUnloadPage: true }),
 >>>>>>> upstream/18.0

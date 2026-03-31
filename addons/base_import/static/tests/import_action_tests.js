@@ -173,7 +173,11 @@ function parsePreview(opts) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ["Foo", "Deco addict", "Azure Interior", "Brandon Freeman"],
+=======
+        ["Foo", "Acme Corporation", "Azure Interior", "Brandon Freeman"],
+>>>>>>> upstream/18.0
 =======
         ["Foo", "Acme Corporation", "Azure Interior", "Brandon Freeman"],
 >>>>>>> upstream/18.0
@@ -746,6 +750,10 @@ QUnit.module("Base Import Tests", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        const secondTemplateURL = "/mySecondTemplateURL.xlsx";
+>>>>>>> upstream/18.0
 =======
         const secondTemplateURL = "/mySecondTemplateURL.xlsx";
 >>>>>>> upstream/18.0
@@ -1424,7 +1432,10 @@ QUnit.module("Base Import Tests", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1924,6 +1935,9 @@ QUnit.module("Base Import Tests", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2438,6 +2452,7 @@ QUnit.module("Base Import Tests", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             target.querySelector(".o_nocontent_help .btn-outline-primary").textContent,
             " Some Import Template"
         );
@@ -2446,6 +2461,8 @@ QUnit.module("Base Import Tests", (hooks) => {
             window.location.origin + templateURL,
             "button has the right download url"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2962,6 +2979,9 @@ QUnit.module("Base Import Tests", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3448,7 +3468,11 @@ QUnit.module("Base Import Tests", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "Deco addict",
+=======
+            "Acme Corporation",
+>>>>>>> upstream/18.0
 =======
             "Acme Corporation",
 >>>>>>> upstream/18.0
@@ -3718,7 +3742,11 @@ QUnit.module("Base Import Tests", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             '{"lines":["Deco addict","Azure Interior","Brandon Freeman"]}',
+=======
+            '{"lines":["Acme Corporation","Azure Interior","Brandon Freeman"]}',
+>>>>>>> upstream/18.0
 =======
             '{"lines":["Acme Corporation","Azure Interior","Brandon Freeman"]}',
 >>>>>>> upstream/18.0
@@ -4183,7 +4211,10 @@ QUnit.module("Base Import Tests", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4599,6 +4630,9 @@ QUnit.module("Base Import Tests", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4998,7 +5032,10 @@ QUnit.module("Base Import Tests", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5420,6 +5457,9 @@ QUnit.module("Base Import Tests", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5758,7 +5798,11 @@ QUnit.module("Base Import Tests", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "Foo, Deco addict, Azure Interior, Brandon Freeman",
+=======
+                "Foo, Acme Corporation, Azure Interior, Brandon Freeman",
+>>>>>>> upstream/18.0
 =======
                 "Foo, Acme Corporation, Azure Interior, Brandon Freeman",
 >>>>>>> upstream/18.0
@@ -6666,7 +6710,10 @@ QUnit.module("Base Import Tests", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7175,6 +7222,9 @@ QUnit.module("Base Import Tests", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7689,7 +7739,12 @@ QUnit.module("Base Import Tests", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             get isBatched() { // Make sure the UI displays the batched import options
+=======
+            get isBatched() {
+                // Make sure the UI displays the batched import options
+>>>>>>> upstream/18.0
 =======
             get isBatched() {
                 // Make sure the UI displays the batched import options

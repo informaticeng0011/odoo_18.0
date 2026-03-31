@@ -208,6 +208,7 @@ Eduardo Martinez eduardoms@vauxoo.com https://github.com/emtz10
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Jonathan Osorio Alcalá jonathan@vauxoo.com https://github.com/jonathanosalc
 >>>>>>> upstream/18.0
@@ -567,6 +568,10 @@ Jonathan Osorio Alcalá jonathan@vauxoo.com https://github.com/jonathanosalc
 >>>>>>> upstream/18.0
 =======
 Jonathan Osorio Alcalá jonathan@vauxoo.com https://github.com/jonathanosalc
+>>>>>>> upstream/18.0
+=======
+Jonathan Osorio Alcalá jonathan@vauxoo.com https://github.com/jonathanosalc
+Edilianny Sánchez edilianny@vauxoo.com https://github.com/edy1192
 >>>>>>> upstream/18.0
 =======
 Jonathan Osorio Alcalá jonathan@vauxoo.com https://github.com/jonathanosalc

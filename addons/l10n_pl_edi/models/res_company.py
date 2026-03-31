@@ -22,7 +22,11 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     l10n_pl_edi_register = fields.Boolean("KSeF Integration Enabled", compute="_compute_l10n_pl_edi_register")
+=======
+    l10n_pl_edi_register = fields.Boolean("KSeF Integration Enabled", compute="_compute_l10n_pl_edi_register", compute_sudo=True)
+>>>>>>> upstream/18.0
 =======
     l10n_pl_edi_register = fields.Boolean("KSeF Integration Enabled", compute="_compute_l10n_pl_edi_register", compute_sudo=True)
 >>>>>>> upstream/18.0

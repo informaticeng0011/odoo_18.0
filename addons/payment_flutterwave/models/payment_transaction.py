@@ -2,6 +2,7 @@
 
 import logging
 import pprint
+<<<<<<< HEAD
 
 from werkzeug import urls
 
@@ -534,6 +535,13 @@ from odoo import _, api, models
 =======
 from odoo import _, api, models
 >>>>>>> upstream/18.0
+=======
+import re
+
+from werkzeug import urls
+
+from odoo import _, api, models
+>>>>>>> upstream/18.0
 from odoo.exceptions import UserError, ValidationError
 
 from odoo.addons.payment import utils as payment_utils
@@ -679,7 +687,10 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1104,6 +1115,9 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1406,7 +1420,11 @@ class PaymentTransaction(models.Model):
             'customer': {
                 'email': self.partner_email,
                 'name': self.partner_name,
+<<<<<<< HEAD
                 'phonenumber': self.partner_phone,
+=======
+                'phonenumber': re.sub(r"[^\d]", "", (self.partner_phone or "").replace("+", "00")),
+>>>>>>> upstream/18.0
             },
             'customizations': {
                 'title': self.company_id.name,

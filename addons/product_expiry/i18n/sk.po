@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* product_expiry
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -272,6 +273,9 @@
 =======
 # * product_expiry
 >>>>>>> upstream/18.0
+=======
+# * product_expiry
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -362,6 +366,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -514,6 +519,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
@@ -546,6 +554,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -815,6 +824,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-03-21 09:30+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -828,6 +839,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -849,6 +863,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1134,6 +1149,11 @@ msgstr ""
 "n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
 "X-Generator: Weblate 5.16.2\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && "
+"n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: product_expiry
 #: model_terms:ir.ui.view,arch_db:product_expiry.view_move_form_expiry
@@ -1158,6 +1178,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span title=\"Upozornenie\" class=\"fa fa-exclamation-triangle text-danger "
+"me-2\" invisible=\"product_qty &lt;= 0 or not product_expiry_alert or not "
+"expiration_date\"/>"
+>>>>>>> upstream/18.0
 =======
 "<span title=\"Upozornenie\" class=\"fa fa-exclamation-triangle text-danger "
 "me-2\" invisible=\"product_qty &lt;= 0 or not product_expiry_alert or not "
@@ -1216,7 +1242,11 @@ msgid "<span> days after receipt</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span> dni po prijatí</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span> dni po prijatí</span>"
 >>>>>>> upstream/18.0
@@ -1257,7 +1287,11 @@ msgid "<span> days before expiration date</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span> dní pred dátumom exspirácie</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span> dní pred dátumom exspirácie</span>"
 >>>>>>> upstream/18.0
@@ -1305,7 +1339,11 @@ msgid "Alert Date Reached"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dátum výstrahy dosiahnuté"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dátum výstrahy dosiahnuté"
 >>>>>>> upstream/18.0
@@ -1346,7 +1384,11 @@ msgid "B.b."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Min. trvanlivosť"
+>>>>>>> upstream/18.0
 =======
 msgstr "Min. trvanlivosť"
 >>>>>>> upstream/18.0
@@ -1388,7 +1430,11 @@ msgid "Best Before Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dátum minimálnej trvanlivosti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dátum minimálnej trvanlivosti"
 >>>>>>> upstream/18.0
@@ -1469,6 +1515,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Dátum na určenie exspirovaných šarží a sériových čísel pomocou filtra „"
+"Upozornenia na exspiráciu“."
+>>>>>>> upstream/18.0
 =======
 "Dátum na určenie exspirovaných šarží a sériových čísel pomocou filtra „"
 "Upozornenia na exspiráciu“."
@@ -1534,7 +1585,11 @@ msgid "Display Expiration Dates on Delivery Slips"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zobrazenie dátumov spotreby na dodacích listoch"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zobrazenie dátumov spotreby na dodacích listoch"
 >>>>>>> upstream/18.0
@@ -1580,7 +1635,11 @@ msgid "Exp."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Exsp."
+>>>>>>> upstream/18.0
 =======
 msgstr "Exsp."
 >>>>>>> upstream/18.0
@@ -1622,7 +1681,11 @@ msgid "Expiration Alerts"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Upozornenia na exspiráciu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Upozornenia na exspiráciu"
 >>>>>>> upstream/18.0
@@ -1674,7 +1737,11 @@ msgid "Expiration dates will appear on the delivery slip"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dátumy spotreby budú uvedené na dodacom liste"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dátumy spotreby budú uvedené na dodacom liste"
 >>>>>>> upstream/18.0
@@ -1715,7 +1782,11 @@ msgid "Expiration:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Exspirácia:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Exspirácia:"
 >>>>>>> upstream/18.0
@@ -1756,7 +1827,11 @@ msgid "Expired Lot(s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Exspirované šarže"
+>>>>>>> upstream/18.0
 =======
 msgstr "Exspirované šarže"
 >>>>>>> upstream/18.0
@@ -1797,7 +1872,11 @@ msgid "Expiry has been reminded"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bola vytvorená upomienka o uplynutí platnosti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bola vytvorená upomienka o uplynutí platnosti"
 >>>>>>> upstream/18.0
@@ -1838,7 +1917,11 @@ msgid "First Expiry First Out (FEFO)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "First Expiry First Out (FEFO)"
+>>>>>>> upstream/18.0
 =======
 msgstr "First Expiry First Out (FEFO)"
 >>>>>>> upstream/18.0
@@ -1884,7 +1967,11 @@ msgid "Include expiration dates on delivery slip"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uviesť dátumy spotreby na dodacom liste"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uviesť dátumy spotreby na dodacom liste"
 >>>>>>> upstream/18.0
@@ -1950,6 +2037,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Počet dní po prijatí výrobkov (od dodávateľa alebo skladom po výrobe), po "
+"uplynutí ktorých sa tovar môže stať nebezpečným a nesmie sa konzumovať. "
+"Vypočíta sa na základe čísla šarže/sériového čísla."
+>>>>>>> upstream/18.0
 =======
 "Počet dní po prijatí výrobkov (od dodávateľa alebo skladom po výrobe), po "
 "uplynutí ktorých sa tovar môže stať nebezpečným a nesmie sa konzumovať. "
@@ -2013,6 +2106,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Počet dní pred dátumom exspirácie, po uplynutí ktorých by malo byť vydané "
+"upozornenie týkajúce sa čísla šarže/sériového čísla. Vypočíta sa na základe "
+"čísla šarže/sériového čísla."
+>>>>>>> upstream/18.0
 =======
 "Počet dní pred dátumom exspirácie, po uplynutí ktorých by malo byť vydané "
 "upozornenie týkajúce sa čísla šarže/sériového čísla. Vypočíta sa na základe "
@@ -2072,6 +2171,7 @@ msgstr ""
 #: model:ir.model.fields,help:product_expiry.field_product_template__use_time
 msgid ""
 "Number of days before the Expiration Date after which the goods starts "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2486,6 +2586,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "deteriorating, without being dangerous yet. It will be computed on the lot/"
 "serial number."
 msgstr ""
@@ -2499,6 +2601,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2578,7 +2683,11 @@ msgid "Removal:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vyradenie:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vyradenie:"
 >>>>>>> upstream/18.0
@@ -2619,7 +2728,11 @@ msgid "Show Lots"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zobraziť šarže"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zobraziť šarže"
 >>>>>>> upstream/18.0
@@ -2672,7 +2785,11 @@ msgid "The alert date has been reached for this lot/serial number"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dátum upozornenia pre túto šaržu/sériové číslo bol dosiahnutý"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dátum upozornenia pre túto šaržu/sériové číslo bol dosiahnutý"
 >>>>>>> upstream/18.0
@@ -2726,6 +2843,7 @@ msgid ""
 "This is the date on which the goods with this Serial Number start "
 "deteriorating, without being dangerous yet."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3158,6 +3276,10 @@ msgstr ""
 "Toto je dátum kedy začne byť tovar s týmto sériovým číslom opotrebovaný, bez "
 "toho aby bol už nebezpečný."
 >>>>>>> upstream/18.0
+=======
+"Toto je dátum kedy začne byť tovar s týmto sériovým číslom opotrebovaný, bez "
+"toho aby bol už nebezpečný."
+>>>>>>> upstream/18.0
 
 #. module: product_expiry
 #: model:ir.model,name:product_expiry.model_stock_picking
@@ -3172,6 +3294,7 @@ msgstr "Prevod"
 #: model:ir.model.fields,field_description:product_expiry.field_stock_move_line__use_expiration_date
 #: model:ir.model.fields,field_description:product_expiry.field_stock_quant__use_expiration_date
 msgid "Use Expiration Date"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3209,6 +3332,9 @@ msgstr "Použiť dátum exspirácie"
 =======
 msgstr "Použiť dátum exspirácie"
 >>>>>>> upstream/18.0
+=======
+msgstr "Použiť dátum exspirácie"
+>>>>>>> upstream/18.0
 
 #. module: product_expiry
 #: model:ir.model.fields,help:product_expiry.field_product_product__use_expiration_date
@@ -3218,6 +3344,7 @@ msgstr "Použiť dátum exspirácie"
 #: model:ir.model.fields,help:product_expiry.field_stock_move_line__use_expiration_date
 #: model:ir.model.fields,help:product_expiry.field_stock_quant__use_expiration_date
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3633,6 +3760,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "When this box is ticked, you have the possibility to specify dates to manage "
 "product expiration, on the product and on the corresponding lot/serial "
 "numbers"
@@ -3648,6 +3777,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3682,6 +3814,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Chystáte sa dodať niektoré produkty s prekročenou dobou spotreby.\n"
+"Potvrdzujete, že chcete pokračovať?"
+>>>>>>> upstream/18.0
 =======
 "Chystáte sa dodať niektoré produkty s prekročenou dobou spotreby.\n"
 "Potvrdzujete, že chcete pokračovať?"
@@ -3723,6 +3860,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/product_expiry/wizard/confirm_expiry.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4154,6 +4292,10 @@ msgid ""
 "You are going to deliver the product %(product_name)s, %(lot_name)s which is "
 "expired.\n"
 >>>>>>> upstream/18.0
+=======
+"You are going to deliver the product %(product_name)s, %(lot_name)s which is "
+"expired.\n"
+>>>>>>> upstream/18.0
 "Do you confirm you want to proceed?"
 msgstr ""
 
@@ -4169,7 +4311,11 @@ msgid "^A0N,44,33^FDUse by:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "^A0N,44,33^FDSpotrebovať do:"
+>>>>>>> upstream/18.0
 =======
 msgstr "^A0N,44,33^FDSpotrebovať do:"
 >>>>>>> upstream/18.0
@@ -4213,6 +4359,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"^BCN,100,Y,N,N\n"
+"^FD"
+>>>>>>> upstream/18.0
 =======
 "^BCN,100,Y,N,N\n"
 "^FD"
@@ -4262,7 +4413,11 @@ msgid "^FO100,150"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "^FO100,150"
+>>>>>>> upstream/18.0
 =======
 msgstr "^FO100,150"
 >>>>>>> upstream/18.0
@@ -4306,6 +4461,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"^FO100,150\n"
+"^A0N,44,33^FDMinimálna trvanlivosť:"
+>>>>>>> upstream/18.0
 =======
 "^FO100,150\n"
 "^A0N,44,33^FDMinimálna trvanlivosť:"
@@ -4358,6 +4518,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"^FO100,150\n"
+"^A0N,44,33^FDSpotrebovať do:"
+>>>>>>> upstream/18.0
 =======
 "^FO100,150\n"
 "^A0N,44,33^FDSpotrebovať do:"
@@ -4407,7 +4572,11 @@ msgid "^FO100,200"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "^FO100,200"
+>>>>>>> upstream/18.0
 =======
 msgstr "^FO100,200"
 >>>>>>> upstream/18.0
@@ -4451,6 +4620,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"^FO100,200\n"
+"^A0N,44,33^FDSpotrebovať do:"
+>>>>>>> upstream/18.0
 =======
 "^FO100,200\n"
 "^A0N,44,33^FDSpotrebovať do:"
@@ -4500,7 +4674,11 @@ msgid "^FO100,200^BY3"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "^FO100,200^BY3"
+>>>>>>> upstream/18.0
 =======
 msgstr "^FO100,200^BY3"
 >>>>>>> upstream/18.0
@@ -4544,6 +4722,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"^FO100,50\n"
+"^A0N,44,33^FD"
+>>>>>>> upstream/18.0
 =======
 "^FO100,50\n"
 "^A0N,44,33^FD"
@@ -4593,7 +4776,11 @@ msgid "^FS"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "^FS"
+>>>>>>> upstream/18.0
 =======
 msgstr "^FS"
 >>>>>>> upstream/18.0
@@ -4638,6 +4825,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"^FS\n"
+"^FO100,100\n"
+"^A0N,44,33^FDLN/SN:"
+>>>>>>> upstream/18.0
 =======
 "^FS\n"
 "^FO100,100\n"
@@ -4701,7 +4894,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4730,6 +4926,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4763,6 +4962,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"^FS\n"
+"^FO100,250^BY3"
+>>>>>>> upstream/18.0
 =======
 "^FS\n"
 "^FO100,250^BY3"
@@ -4812,7 +5016,11 @@ msgid "fefo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "fefo"
+>>>>>>> upstream/18.0
 =======
 msgstr "fefo"
 >>>>>>> upstream/18.0

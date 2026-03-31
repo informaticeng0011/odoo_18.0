@@ -214,6 +214,10 @@ class GelatoController(Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    subtype_xmlid='mail.mt_comment',
+>>>>>>> upstream/18.0
 =======
                     subtype_xmlid='mail.mt_comment',
 >>>>>>> upstream/18.0
@@ -821,6 +825,10 @@ class GelatoController(Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    subtype_xmlid='mail.mt_comment',
+>>>>>>> upstream/18.0
 =======
                     subtype_xmlid='mail.mt_comment',
 >>>>>>> upstream/18.0
@@ -1427,6 +1435,10 @@ class GelatoController(Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    subtype_xmlid='mail.mt_comment',
+>>>>>>> upstream/18.0
 =======
                     subtype_xmlid='mail.mt_comment',
 >>>>>>> upstream/18.0
@@ -2100,7 +2112,10 @@ class GelatoController(Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2705,6 +2720,9 @@ class GelatoController(Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

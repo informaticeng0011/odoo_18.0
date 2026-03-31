@@ -8,7 +8,11 @@ from cryptography.hazmat.primitives.serialization import Encoding, pkcs12
 
 from odoo import _, api, fields, models
 from .key import STR_TO_HASH, _get_formatted_value
+<<<<<<< HEAD
 from odoo.exceptions import UserError
+=======
+from odoo.exceptions import UserError, ValidationError
+>>>>>>> upstream/18.0
 from odoo.osv import expression
 from odoo.tools import parse_version
 
@@ -180,7 +184,16 @@ class Certificate(models.Model):
                     certificate.date_start = None
                     certificate.date_end = None
                     certificate.serial_number = None
+<<<<<<< HEAD
                     certificate.loading_error = _("This certificate could not be loaded. Either the content or the password is erroneous.")
+=======
+
+                    if not certificate.pkcs12_password:
+                        certificate.loading_error = ""
+                    else:
+                        certificate.loading_error = _(
+                            "This certificate could not be loaded. Either the content or the password is erroneous.")
+>>>>>>> upstream/18.0
                     continue
 
                 try:
@@ -248,21 +261,37 @@ class Certificate(models.Model):
 
                 if certificate.private_key_id:
                     if certificate.private_key_id.loading_error:
+<<<<<<< HEAD
                         raise UserError(certificate.private_key_id.loading_error)
+=======
+                        raise ValidationError(certificate.private_key_id.loading_error)
+>>>>>>> upstream/18.0
                     pkey_public_key_bytes = base64.b64decode(
                         certificate.private_key_id._get_public_key_bytes(encoding='pem')
                     )
                     if not constant_time.bytes_eq(pkey_public_key_bytes, cert_public_key_bytes):
+<<<<<<< HEAD
                         raise UserError(_("The certificate and private key are not compatible."))
 
                 if certificate.public_key_id:
                     if certificate.public_key_id.loading_error:
                         raise UserError(certificate.public_key_id.loading_error)
+=======
+                        raise ValidationError(_("The certificate and private key are not compatible."))
+
+                if certificate.public_key_id:
+                    if certificate.public_key_id.loading_error:
+                        raise ValidationError(certificate.public_key_id.loading_error)
+>>>>>>> upstream/18.0
                     pkey_public_key_bytes = base64.b64decode(
                         certificate.public_key_id._get_public_key_bytes(encoding='pem')
                     )
                     if not constant_time.bytes_eq(pkey_public_key_bytes, cert_public_key_bytes):
+<<<<<<< HEAD
                         raise UserError(_("The certificate and public key are not compatible."))
+=======
+                        raise ValidationError(_("The certificate and public key are not compatible."))
+>>>>>>> upstream/18.0
 
     # -------------------------------------------------------
     #                   Business Methods                    #
@@ -549,7 +578,10 @@ class Certificate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1396,6 +1428,9 @@ class Certificate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2240,7 +2275,10 @@ class Certificate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3088,6 +3126,9 @@ class Certificate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3934,7 +3975,10 @@ class Certificate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4781,6 +4825,9 @@ class Certificate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5625,7 +5672,10 @@ class Certificate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6473,6 +6523,9 @@ class Certificate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7323,7 +7376,10 @@ class Certificate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8173,6 +8229,9 @@ class Certificate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9033,8 +9092,11 @@ class Certificate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         """ Return the base64 encoded signature of message. """
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9883,6 +9945,9 @@ class Certificate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10450,3 +10515,16 @@ class Certificate(models.Model):
             raise UserError(_("No private key linked to the certificate, it is required to sign documents."))
 
         return self.private_key_id._sign(message, hashing_algorithm=hashing_algorithm, formatting=formatting)
+<<<<<<< HEAD
+=======
+
+    @api.constrains('content', 'pem_certificate')
+    def _constrains_certificate_loaded(self):
+        for certificate in self:
+            if certificate.content and not certificate.pem_certificate:
+                raise ValidationError(
+                    certificate.loading_error
+                    or _(
+                        "This certificate could not be loaded. Please provide the certificate password.")
+                )
+>>>>>>> upstream/18.0

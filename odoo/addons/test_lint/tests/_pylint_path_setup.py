@@ -273,6 +273,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from __future__ import annotations
+
+>>>>>>> upstream/18.0
 =======
 from __future__ import annotations
 
@@ -1546,8 +1551,13 @@ class AddonsPackageFinder(spec.Finder):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def find_module(
         self,
+=======
+    @staticmethod
+    def find_module(
+>>>>>>> upstream/18.0
 =======
     @staticmethod
     def find_module(
@@ -2361,6 +2371,11 @@ class AddonsPackageFinder(spec.Finder):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        else:
+            return None
+>>>>>>> upstream/18.0
 =======
         else:
             return None

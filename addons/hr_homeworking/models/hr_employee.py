@@ -99,6 +99,7 @@ class HrEmployeeBase(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return res
 
 <<<<<<< HEAD
@@ -779,6 +780,8 @@ class HrEmployeeBase(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         res["models"][self._name]["fields"].update(self.fields_get([dayfield]))
         return res
 
@@ -843,6 +846,9 @@ class HrEmployeeBase(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -80,6 +80,10 @@ from odoo.exceptions import UserError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools import index_exists
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import index_exists
 >>>>>>> upstream/18.0
@@ -393,7 +397,10 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -632,6 +639,9 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -798,6 +808,7 @@ class AccountEdiProxyClientUser(models.Model):
                 raise UserError(_('Please fill your codice fiscale to be able to receive invoices from FatturaPA'))
             return company.partner_id._l10n_it_edi_normalized_codice_fiscale()
         return super()._get_proxy_identification(company, proxy_type)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1629,6 +1640,8 @@ class AccountEdiProxyClientUser(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
     def _get_iap_params(self, company, proxy_type, private_key_sudo):
         iap_params = super()._get_iap_params(company, proxy_type, private_key_sudo)
@@ -1833,6 +1846,9 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2467,6 +2483,9 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
