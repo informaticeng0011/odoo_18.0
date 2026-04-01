@@ -221,6 +221,7 @@ export class Follower extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /** @returns {boolean} */
     get isEditable() {
         const hasWriteAccess = this.thread ? this.thread.hasWriteAccess : false;
@@ -428,6 +429,8 @@ export class Follower extends Record {
             : hasWriteAccess;
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1038,6 +1041,9 @@ export class Follower extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

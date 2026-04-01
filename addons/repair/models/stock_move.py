@@ -276,6 +276,7 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     repair_id = fields.Many2one('repair.order', check_company=True)
 =======
     repair_id = fields.Many2one('repair.order', check_company=True, copy=False)
@@ -1066,6 +1067,9 @@ class StockMove(models.Model):
 =======
     repair_id = fields.Many2one('repair.order', check_company=True, copy=False, ondelete='cascade')
 >>>>>>> upstream/18.0
+=======
+    repair_id = fields.Many2one('repair.order', check_company=True, copy=False, ondelete='cascade')
+>>>>>>> upstream/18.0
     repair_line_type = fields.Selection([
         ('add', 'Add'),
         ('remove', 'Remove'),
@@ -1184,7 +1188,10 @@ class StockMove(models.Model):
         return super()._action_cancel()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _prepare_repair_so_line_vals(self):
         self.ensure_one()
         product_qty = self.product_uom_qty if self.repair_id.state != 'done' else self.quantity
@@ -1202,6 +1209,9 @@ class StockMove(models.Model):
             vals['price_unit'] = self.price_unit
         return vals
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _create_repair_sale_order_line(self):
         if not self:
@@ -1210,6 +1220,7 @@ class StockMove(models.Model):
         for move in self:
             if move.sale_line_id or move.repair_line_type != 'add' or not move.repair_id.sale_order_id:
                 continue
+<<<<<<< HEAD
 <<<<<<< HEAD
             product_qty = move.product_uom_qty if move.repair_id.state != 'done' else move.quantity
             so_line_vals.append({
@@ -1224,6 +1235,9 @@ class StockMove(models.Model):
                 so_line_vals[-1]['price_unit'] = 0.0
             elif move.price_unit:
                 so_line_vals[-1]['price_unit'] = move.price_unit
+=======
+            so_line_vals.append(move._prepare_repair_so_line_vals())
+>>>>>>> upstream/18.0
 =======
             so_line_vals.append(move._prepare_repair_so_line_vals())
 >>>>>>> upstream/18.0

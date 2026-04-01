@@ -97,10 +97,16 @@ export class DiscussCoreWeb {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const notification = _t(
                 "%(user)s connected. This is their first connection. Wish them luck.",
                 { user: username }
             );
+=======
+            const notification = _t("%(user)s just connected for the first time. Wish them luck!", {
+                user: username,
+            });
+>>>>>>> upstream/18.0
 =======
             const notification = _t("%(user)s just connected for the first time. Wish them luck!", {
                 user: username,

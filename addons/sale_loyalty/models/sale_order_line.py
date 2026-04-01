@@ -242,6 +242,12 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def _is_discount_line(self):
+        return super()._is_discount_line() or self.reward_id.reward_type == 'discount'
+
+>>>>>>> upstream/18.0
 =======
     def _is_discount_line(self):
         return super()._is_discount_line() or self.reward_id.reward_type == 'discount'
@@ -1392,6 +1398,7 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             previous_cost = {l: l.points_cost for l in self}
         res = super().write(vals)
         if cost_in_vals:
@@ -1400,6 +1407,8 @@ class SaleOrderLine(models.Model):
                 if previous_cost[line] != line.points_cost and line.state == 'sale':
                     line.coupon_id.points += (previous_cost[line] - line.points_cost)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1923,6 +1932,9 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

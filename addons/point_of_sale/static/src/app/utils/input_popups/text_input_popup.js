@@ -298,6 +298,7 @@ export class TextInputPopup extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             ev.stopPropagation();
 >>>>>>> upstream/18.0
@@ -1025,6 +1026,8 @@ export class TextInputPopup extends Component {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             ev.preventDefault();
             ev.stopPropagation();
             if (this.state.inputValue.trim()) {
@@ -1040,6 +1043,9 @@ export class TextInputPopup extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

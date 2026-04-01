@@ -31,6 +31,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* base_iban
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -381,12 +382,17 @@
 # * base_iban
 #
 >>>>>>> upstream/18.0
+=======
+# * base_iban
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Martin Wilderoth <martin.wilderoth@linserv.se>, 2024
 # Kim Asplund <kim.asplund@gmail.com>, 2024
 # Chrille Hedberg <hedberg.chrille@gmail.com>, 2024
 # Martin Trigaux, 2024
 # Simon Nilsson, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -736,10 +742,14 @@
 =======
 # Hanna Kharraziha <hakha@odoo.com>, 2026.
 >>>>>>> upstream/18.0
+=======
+# Hanna Kharraziha <hakha@odoo.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1011,6 +1021,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-02-24 23:29+0000\n"
 "Last-Translator: Hanna Kharraziha <hakha@odoo.com>\n"
@@ -1046,6 +1058,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1111,6 +1126,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1433,11 +1449,16 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: base_iban
 #. odoo-javascript
 #: code:addons/base_iban/static/src/components/iban_widget/iban_widget.xml:0
 msgid "Account isn't a valid IBAN"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1563,6 +1584,9 @@ msgstr "Kontot har inte ett giltigt IBAN-nummer"
 =======
 msgstr "Kontot har inte ett giltigt IBAN-nummer"
 >>>>>>> upstream/18.0
+=======
+msgstr "Kontot har inte ett giltigt IBAN-nummer"
+>>>>>>> upstream/18.0
 
 #. module: base_iban
 #: model:ir.model,name:base_iban.model_res_partner_bank
@@ -1573,6 +1597,7 @@ msgstr "Bankkonton"
 #. odoo-python
 #: code:addons/base_iban/models/res_partner_bank.py:0
 msgid "Cannot compute the BBAN because the account number is not an IBAN."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1729,6 +1754,10 @@ msgstr ""
 msgstr ""
 "Kunde inte beräkna BBAN eftersom kontonumret inte utgörs av ett IBAN-nummer."
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"Kunde inte beräkna BBAN eftersom kontonumret inte utgörs av ett IBAN-nummer."
+>>>>>>> upstream/18.0
 
 #. module: base_iban
 #. odoo-python
@@ -1740,6 +1769,7 @@ msgstr "IBAN"
 #. odoo-python
 #: code:addons/base_iban/models/res_partner_bank.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2005,11 +2035,14 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "The IBAN does not seem to be correct. You should have entered something like "
 "this %s\n"
 "Where B = National bank code, S = Branch code, C = Account No, k = Check "
 "digit"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2366,6 +2399,11 @@ msgstr ""
 "Där B = Identifierar banken, S = Identifierar specifikt bankkontor, C = "
 "Anger kontonummer, k = Anger en kontrollsiffra"
 >>>>>>> upstream/18.0
+=======
+"IBAN kunde inte verifieras. Ett IBAN-nummer borde se ut enligt följande %s\n"
+"Där B = Identifierar banken, S = Identifierar specifikt bankkontor, C = "
+"Anger kontonummer, k = Anger en kontrollsiffra"
+>>>>>>> upstream/18.0
 
 #. module: base_iban
 #. odoo-python
@@ -2402,7 +2440,13 @@ msgid "The IBAN is invalid, it should begin with the country code"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "IBAN är felaktig, den måste inledas med landskod"
+=======
+msgstr ""
+"Det angivna IBAN-numret är ogiltigt. En giltig kod bör inledas med en "
+"landskod"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Det angivna IBAN-numret är ogiltigt. En giltig kod bör inledas med en "
@@ -2594,7 +2638,11 @@ msgid "There is no IBAN code."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Det finns ingen IBAN-kod."
+=======
+msgstr "Hittade inget IBAN-nummer."
+>>>>>>> upstream/18.0
 =======
 msgstr "Hittade inget IBAN-nummer."
 >>>>>>> upstream/18.0
@@ -2725,7 +2773,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Denna IBAN kan inte godkännas. Vänligen kontrollera den och försök igen."
+=======
+"IBAN-numret kunde inte verifieras. Vänligen kontrollera det angivna numret "
+"och försök igen."
+>>>>>>> upstream/18.0
 =======
 "IBAN-numret kunde inte verifieras. Vänligen kontrollera det angivna numret "
 "och försök igen."

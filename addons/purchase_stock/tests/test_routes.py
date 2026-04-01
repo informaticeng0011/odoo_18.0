@@ -69,7 +69,10 @@ class TestRoutes(TransactionCase):
         self.assertEqual(wh.reception_steps, 'two_steps')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_po_final_location(self):
         """
         When confirming PO with Operation Type is a sublocation, computation
@@ -109,4 +112,7 @@ class TestRoutes(TransactionCase):
 
         forecast = product.with_context(location=sub_location.id).virtual_available
         self.assertEqual(forecast, 10.0, "forecasted quantity should increment to 10.0 units")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

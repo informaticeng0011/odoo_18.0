@@ -338,6 +338,10 @@ class TestJoEdiTypes(JoEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'currency_id': self.usd.id,  # should not affect values as they are reported in invoice currency
+>>>>>>> upstream/18.0
 =======
             'currency_id': self.usd.id,  # should not affect values as they are reported in invoice currency
 >>>>>>> upstream/18.0
@@ -1052,6 +1056,7 @@ class TestJoEdiTypes(JoEdiCommon):
         }
         refund_vals = {
             'name': 'TestEIN022R',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2023,6 +2028,9 @@ class TestJoEdiTypes(JoEdiCommon):
 =======
             'currency_id': self.usd.id,  # should not affect values as they are reported in invoice currency
 >>>>>>> upstream/18.0
+=======
+            'currency_id': self.usd.id,  # should not affect values as they are reported in invoice currency
+>>>>>>> upstream/18.0
             'invoice_date': '2023-11-10',
         }
         refund = self._l10n_jo_create_refund(invoice_vals, 'Test/Return', refund_vals)
@@ -2274,6 +2282,10 @@ class TestJoEdiTypes(JoEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'currency_id': self.usd.id,  # should not affect values as they are reported in invoice currency
+>>>>>>> upstream/18.0
 =======
             'currency_id': self.usd.id,  # should not affect values as they are reported in invoice currency
 >>>>>>> upstream/18.0
@@ -3257,6 +3269,7 @@ class TestJoEdiTypes(JoEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_jo_special_refund_usd(self):
         """
         same test as `test_jo_special_refund`, but with price divided over 2
@@ -3365,6 +3378,8 @@ class TestJoEdiTypes(JoEdiCommon):
 =======
 >>>>>>> upstream/18.0
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4144,6 +4159,7 @@ class TestJoEdiTypes(JoEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4218,6 +4234,8 @@ class TestJoEdiTypes(JoEdiCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4949,6 +4967,7 @@ class TestJoEdiTypes(JoEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5391,4 +5410,61 @@ class TestJoEdiTypes(JoEdiCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_credit_notes_lines_matching_2(self):
+        self.company.l10n_jo_edi_taxpayer_type = 'income'
+        self.company.l10n_jo_edi_sequence_income_source = '4419618'
+
+        invoice_vals = {
+            'name': 'EIN00017',
+            'invoice_line_ids': [
+                Command.create({  # id = 1
+                    'product_id': self.product_a.id,
+                    'price_unit': 10,
+                    'quantity': 1,
+                }),
+                Command.create({  # id = 2
+                    'product_id': self.product_a.id,
+                    'price_unit': 10,
+                    'quantity': 3,
+                }),
+                Command.create({  # id = 3
+                    'product_id': self.product_a.id,
+                    'price_unit': 10,
+                    'quantity': 2,
+                }),
+            ],
+        }
+        refund_vals = {
+            'name': 'EIN998833',
+            'invoice_date': '2022-09-27',
+            'narration': 'ملاحظات 2',
+            'invoice_line_ids': [
+                Command.create({  # id = 3
+                    'product_id': self.product_a.id,
+                    'price_unit': 10,
+                    'quantity': 2,
+                    'name': '3',  # label should not affect matching
+                }),
+                Command.create({  # id = 1
+                    'product_id': self.product_a.id,
+                    'price_unit': 10,
+                    'quantity': 1,
+                    'name': '1',
+                }),
+                Command.create({  # id = 2
+                    'product_id': self.product_a.id,
+                    'price_unit': 10,
+                    'quantity': 2,
+                    'name': '2',
+                }),
+            ],
+        }
+        refund = self._l10n_jo_create_refund(invoice_vals, 'change price', refund_vals)
+        xml_string = self.env['account.edi.xml.ubl_21.jo']._export_invoice(refund)[0]
+        xml_tree = self.get_xml_tree_from_string(xml_string)
+        for xml_line, expected_line_id in zip(xml_tree.findall('./{*}InvoiceLine'), [3, 1, 2]):
+            self.assertEqual(int(xml_line.findtext('{*}ID')), expected_line_id)
 >>>>>>> upstream/18.0

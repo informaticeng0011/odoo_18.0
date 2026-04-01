@@ -215,6 +215,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'version': '0.1',
 =======
     'version': '0.2',
@@ -849,6 +850,9 @@
 =======
     'version': '0.3',
 >>>>>>> upstream/18.0
+=======
+    'version': '0.3',
+>>>>>>> upstream/18.0
     'depends': [
         'account_edi',
         'account_edi_ubl_cii',
@@ -870,6 +874,10 @@ E-invoice implementation for Saudi Arabia; Integration with ZATCA
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'post_init_hook': '_l10n_sa_edi_post_init',
+>>>>>>> upstream/18.0
 =======
     'post_init_hook': '_l10n_sa_edi_post_init',
 >>>>>>> upstream/18.0

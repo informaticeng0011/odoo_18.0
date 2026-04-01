@@ -6,6 +6,10 @@ from odoo.addons.website.models import ir_http
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.http import request
+>>>>>>> upstream/18.0
 =======
 from odoo.http import request
 >>>>>>> upstream/18.0
@@ -41,10 +45,13 @@ class IrRule(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # `get_current_website(falback=False)` as it could also return a website
         # in backend (if domain set & match)..
         is_frontend = ir_http.get_request_website()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -68,6 +75,9 @@ class IrRule(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

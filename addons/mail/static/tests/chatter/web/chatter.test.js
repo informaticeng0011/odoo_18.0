@@ -393,12 +393,15 @@ test("chatter: drop attachments", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o-mail-AttachmentCard", { count: 2 });
     const extraFiles = [text3];
     await dragenterFiles(".o-mail-Chatter", extraFiles);
     await dropFiles(".o-Dropzone", extraFiles);
     await contains(".o-mail-AttachmentCard", { count: 3 });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1004,6 +1007,9 @@ test("chatter: drop attachments", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

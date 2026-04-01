@@ -586,7 +586,11 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         journal_bank_cash = self.filtered(lambda j: j.type in ('bank', 'cash'))
+=======
+        journal_bank_cash = self.filtered(lambda j: j.type in ('bank', 'cash', 'credit'))
+>>>>>>> upstream/18.0
 =======
         journal_bank_cash = self.filtered(lambda j: j.type in ('bank', 'cash', 'credit'))
 >>>>>>> upstream/18.0
@@ -1558,6 +1562,7 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 default_methods = journal._default_inbound_payment_methods()
                 pay_method_line_ids_commands += [Command.create({
                     'name': pay_method.name,
@@ -1625,6 +1630,8 @@ class AccountJournal(models.Model):
                 for pay_method in default_methods:
                     payment_account = existing_method_lines.filtered(lambda m: m.payment_method_id == pay_method).payment_account_id
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1920,6 +1927,9 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2252,6 +2262,9 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2639,6 +2652,7 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 default_methods = journal._default_outbound_payment_methods()
                 pay_method_line_ids_commands += [Command.create({
                     'name': pay_method.name,
@@ -2706,6 +2720,8 @@ class AccountJournal(models.Model):
                 for pay_method in default_methods:
                     payment_account = existing_method_lines.filtered(lambda m: m.payment_method_id == pay_method).payment_account_id
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3001,6 +3017,9 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3333,6 +3352,9 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3892,6 +3914,7 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -3915,6 +3938,8 @@ class AccountJournal(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4003,6 +4028,9 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4262,7 +4290,11 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             domain.append(('alias_domain', '=', alias_domain_name))
+=======
+            domain.extend(['|', ('alias_domain', '=', alias_domain_name), ('alias_domain_id', '=', False)])
+>>>>>>> upstream/18.0
 =======
             domain.extend(['|', ('alias_domain', '=', alias_domain_name), ('alias_domain_id', '=', False)])
 >>>>>>> upstream/18.0
@@ -4909,9 +4941,12 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if journal.type == 'bank' and not journal.bank_account_id and vals.get('bank_acc_number'):
                 journal.set_bank_account(vals.get('bank_acc_number'), vals.get('bank_id'))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5013,6 +5048,9 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5084,6 +5122,7 @@ class AccountJournal(models.Model):
     def set_bank_account(self, acc_number, bank_id=None):
         """ Create a res.partner.bank (if not exists) and set it as value of the field bank_account_id """
         self.ensure_one()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5196,6 +5235,8 @@ class AccountJournal(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         self.bank_account_id = self.env['res.partner.bank']._find_or_create_bank_account(
             account_number=acc_number,
             partner=self.company_id.partner_id, allow_company_account_creation=True,
@@ -5238,6 +5279,9 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5526,7 +5570,11 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if journal.currency_id and journal.currency_id != journal.company_id.currency_id:
+=======
+            if journal.currency_id and journal.currency_id != journal.company_id.sudo().currency_id:
+>>>>>>> upstream/18.0
 =======
             if journal.currency_id and journal.currency_id != journal.company_id.sudo().currency_id:
 >>>>>>> upstream/18.0

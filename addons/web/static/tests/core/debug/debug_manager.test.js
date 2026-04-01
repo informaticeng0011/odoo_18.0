@@ -238,6 +238,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { browser } from "@web/core/browser/browser";
 import { user } from "@web/core/user";
 import { regenerateAssets, becomeSuperuser } from "@web/core/debug/debug_menu_items";
@@ -338,6 +339,8 @@ import { queryOne, queryAll, queryAllTexts, click, queryAllProperties } from "@o
 import { beforeEach, describe, expect, test } from "@odoo/hoot";
 import { click, queryAll, queryAllProperties, queryAllTexts, queryOne } from "@odoo/hoot-dom";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -959,6 +962,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1633,6 +1639,9 @@ import { WebClient } from "@web/webclient/webclient";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2414,8 +2423,12 @@ describe("DebugMenu", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const items = [...queryAll(".dropdown-menu .dropdown-item")] || [];
         for (const item of items) {
+=======
+        for (const item of queryAll(".dropdown-menu .dropdown-item")) {
+>>>>>>> upstream/18.0
 =======
         for (const item of queryAll(".dropdown-menu .dropdown-item")) {
 >>>>>>> upstream/18.0
@@ -3357,9 +3370,12 @@ describe("DebugMenu", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const items = [...queryAll(".dropdown-menu .dropdown-item")];
         expect(items.map((el) => el.textContent)).toEqual(["Item 1", "Item 2", "Item 3", "Item 4"]);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4038,6 +4054,9 @@ describe("DebugMenu", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4775,8 +4794,13 @@ describe("DebugMenu", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const items = [...queryAll(".dropdown-menu .dropdown-item")] || [];
         expect(items.map((el) => el.textContent)).toEqual(["Item 1", "Item 2"]);
+=======
+        const items = queryAll(".dropdown-menu .dropdown-item");
+        expect(queryAllTexts(items)).toEqual(["Item 1", "Item 2"]);
+>>>>>>> upstream/18.0
 =======
         const items = queryAll(".dropdown-menu .dropdown-item");
         expect(queryAllTexts(items)).toEqual(["Item 1", "Item 2"]);
@@ -5950,9 +5974,13 @@ describe("DebugMenu", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         webModels.IrUiView._views.search = `<search/>`;
         webModels.ResPartner._views["form,1"] = `<form><div class="some_view"/></form>`;
         webModels.ResPartner._views.search = `<search/>`;
+=======
+        webModels.ResPartner._views["form,1"] = `<form><div class="some_view"/></form>`;
+>>>>>>> upstream/18.0
 =======
         webModels.ResPartner._views["form,1"] = `<form><div class="some_view"/></form>`;
 >>>>>>> upstream/18.0
@@ -6938,7 +6966,10 @@ describe("DebugMenu", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         webModels.ResPartner._views.search = `<search/>`;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7680,10 +7711,15 @@ describe("DebugMenu", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         webModels.ResPartner._views.search = `<search/>`;
         webModels.IrUiView._records.push({ id: 18, name: "Edit View" });
         webModels.IrUiView._views.form = `<form><field name="id"/></form>`;
         webModels.IrUiView._views.search = `<search/>`;
+=======
+        webModels.IrUiView._records.push({ id: 18, name: "Edit View" });
+        webModels.IrUiView._views.form = `<form><field name="id"/></form>`;
+>>>>>>> upstream/18.0
 =======
         webModels.IrUiView._records.push({ id: 18, name: "Edit View" });
         webModels.IrUiView._views.form = `<form><field name="id"/></form>`;
@@ -8913,7 +8949,10 @@ describe("DebugMenu", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         webModels.IrUiView._views.search = `<search/>`;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9659,7 +9698,10 @@ describe("DebugMenu", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         webModels.IrUiView._views.search = `<search/>`;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10402,7 +10444,10 @@ describe("DebugMenu", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         webModels.ResPartner._views.search = `<search/>`;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11145,7 +11190,10 @@ describe("DebugMenu", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         webModels.ResPartner._views.search = "<search/>";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11899,7 +11947,10 @@ describe("DebugMenu", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         webModels.ResPartner._views.search = "<search/>";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12652,7 +12703,10 @@ describe("DebugMenu", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         webModels.ResPartner._views.search = "<search/>";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13366,6 +13420,7 @@ describe("DebugMenu", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             raw = fields.Binary();
 >>>>>>> upstream/18.0
@@ -13379,6 +13434,8 @@ describe("DebugMenu", () => {
             raw = fields.Binary();
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13988,6 +14045,9 @@ describe("DebugMenu", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14394,6 +14454,7 @@ describe("DebugMenu", () => {
                 {
                     id: 1,
                     name: "custom1",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15132,6 +15193,8 @@ describe("DebugMenu", () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                     raw: "<raw>",
                     properties: [
                         {
@@ -15343,6 +15406,9 @@ describe("DebugMenu", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15759,6 +15825,7 @@ describe("DebugMenu", () => {
         await contains(".o_debug_manager button").click();
         await contains(".dropdown-menu .dropdown-item:contains(/^Data/)").click();
         expect(".modal").toHaveCount(1);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16396,6 +16463,8 @@ describe("DebugMenu", () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const data = queryText(".modal-body pre");
         const modalObj = JSON.parse(data);
         expect(modalObj).toInclude("create_date");
@@ -16615,6 +16684,9 @@ describe("DebugMenu", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17276,8 +17348,11 @@ describe("DebugMenu", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         webModels.ResPartner._views.form = `<form></form>`;
         webModels.ResPartner._views.search = "<search/>";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18059,7 +18134,11 @@ describe("DebugMenu", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 form: `
+=======
+                "form,18": /* xml */ `
+>>>>>>> upstream/18.0
 =======
                 "form,18": /* xml */ `
 >>>>>>> upstream/18.0
@@ -19024,8 +19103,13 @@ describe("DebugMenu", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     </form>`,
                 search: "<search/>",
+=======
+                    </form>
+                `,
+>>>>>>> upstream/18.0
 =======
                     </form>
                 `,
@@ -20281,7 +20365,10 @@ describe("DebugMenu", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         webModels.ResPartner._views.search = "<search/>";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21008,7 +21095,10 @@ describe("DebugMenu", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         webModels.IrModel._views.search = "<search/>";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21782,7 +21872,10 @@ describe("DebugMenu", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 search: "<search/>",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22524,7 +22617,11 @@ describe("DebugMenu", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             views: [[18, "form"]],
+=======
+            views: [[false, "form"]],
+>>>>>>> upstream/18.0
 =======
             views: [[false, "form"]],
 >>>>>>> upstream/18.0

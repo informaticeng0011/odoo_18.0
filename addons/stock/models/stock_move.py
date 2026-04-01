@@ -436,6 +436,11 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        customer_loc, __ = self.env['stock.warehouse']._get_partner_locations()
+        inter_comp_location = self.env.ref('stock.stock_location_inter_company', raise_if_not_found=False)
+>>>>>>> upstream/18.0
 =======
         customer_loc, __ = self.env['stock.warehouse']._get_partner_locations()
         inter_comp_location = self.env.ref('stock.stock_location_inter_company', raise_if_not_found=False)
@@ -1526,6 +1531,7 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             elif move.picking_type_id:
                 location_dest = move.picking_type_id.default_location_dest_id
             is_move_to_interco_transit = False
@@ -1549,6 +1555,8 @@ class StockMove(models.Model):
             if location_dest:
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2194,6 +2202,9 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2829,7 +2840,11 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             elif move.move_line_ids:
+=======
+            else:
+>>>>>>> upstream/18.0
 =======
             else:
 >>>>>>> upstream/18.0
@@ -3860,7 +3875,10 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4561,6 +4579,9 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5032,6 +5053,7 @@ Please change the quantity done or the rounding precision of your unit of measur
         already_propagate_ids.update(self.ids)
         self = self.with_context(date_deadline_propagate_ids=already_propagate_ids)
         for move in self:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5965,6 +5987,9 @@ Please change the quantity done or the rounding precision of your unit of measur
 =======
             moves_to_update = move._get_moves_to_propagate_date_deadline()
 >>>>>>> upstream/18.0
+=======
+            moves_to_update = move._get_moves_to_propagate_date_deadline()
+>>>>>>> upstream/18.0
             if move.date_deadline:
                 delta = move.date_deadline - fields.Datetime.to_datetime(new_deadline)
             else:
@@ -6046,7 +6071,11 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 else:
+=======
+                elif not move_update.date_deadline or move_update.date_deadline != new_deadline:
+>>>>>>> upstream/18.0
 =======
                 elif not move_update.date_deadline or move_update.date_deadline != new_deadline:
 >>>>>>> upstream/18.0
@@ -6345,7 +6374,11 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         if reserved_quants:
+=======
+                        if reserved_quants and reserved_quants[0][0].lot_id:
+>>>>>>> upstream/18.0
 =======
                         if reserved_quants and reserved_quants[0][0].lot_id:
 >>>>>>> upstream/18.0
@@ -6661,9 +6694,12 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (vals.get('quantity') or vals.get('move_line_ids')) and 'lot_ids' in vals:
                 vals.pop('lot_ids')
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6866,6 +6902,9 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7623,7 +7662,11 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 new_move = rule._run_push(move)
+=======
+                new_move = rule._run_push(move) or new_move
+>>>>>>> upstream/18.0
 =======
                 new_move = rule._run_push(move) or new_move
 >>>>>>> upstream/18.0
@@ -8639,7 +8682,11 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return ['description_picking', 'price_unit']
+=======
+        return ['description_picking']
+>>>>>>> upstream/18.0
 =======
         return ['description_picking']
 >>>>>>> upstream/18.0
@@ -9613,6 +9660,7 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -10211,6 +10259,8 @@ Please change the quantity done or the rounding precision of your unit of measur
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def _merge_move_itemgetter(self, distinct_fields, excluded_fields=None):
         fields = set(distinct_fields or []) - set(excluded_fields or [])
         float_fields = {f_name for f_name in fields if self.env['stock.move']._fields[f_name].type == 'float'}
@@ -10333,7 +10383,11 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             currency_precision = self.company_id.currency_id.decimal_places
+=======
+            currency_precision = min(self.company_id.mapped('currency_id.decimal_places')) if self.company_id else False
+>>>>>>> upstream/18.0
 =======
             currency_precision = min(self.company_id.mapped('currency_id.decimal_places')) if self.company_id else False
 >>>>>>> upstream/18.0
@@ -10883,6 +10937,9 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11567,7 +11624,11 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         neg_key = itemgetter(*[field for field in distinct_fields if field not in excluded_fields])
+=======
+        neg_key = self._merge_move_itemgetter(distinct_fields, excluded_fields)
+>>>>>>> upstream/18.0
 =======
         neg_key = self._merge_move_itemgetter(distinct_fields, excluded_fields)
 >>>>>>> upstream/18.0
@@ -12537,7 +12598,11 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             for __, g in groupby(candidate_moves, key=itemgetter(*distinct_fields)):
+=======
+            for __, g in groupby(candidate_moves, key=self._merge_move_itemgetter(distinct_fields)):
+>>>>>>> upstream/18.0
 =======
             for __, g in groupby(candidate_moves, key=self._merge_move_itemgetter(distinct_fields)):
 >>>>>>> upstream/18.0
@@ -13519,6 +13584,7 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 currency_prec = pos_move.product_id.currency_id.decimal_places
                 rounding = min(currency_prec, price_unit_prec)
                 if float_compare(pos_move.price_unit, neg_move.price_unit, precision_digits=rounding) == 0:
@@ -13628,6 +13694,8 @@ Please change the quantity done or the rounding precision of your unit of measur
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14367,6 +14435,9 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15120,6 +15191,9 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15798,6 +15872,7 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self.partner_id and not self.group_id:
             keys += (self.partner_id, )
 =======
@@ -15863,6 +15938,10 @@ Please change the quantity done or the rounding precision of your unit of measur
 =======
         if self.move_orig_ids.picking_id and not self.group_id:
             keys += (self.move_orig_ids.picking_id, )
+>>>>>>> upstream/18.0
+=======
+        if self.partner_id and not self.group_id:
+            keys += (self.partner_id, )
 >>>>>>> upstream/18.0
 =======
         if self.partner_id and not self.group_id:
@@ -15990,6 +16069,7 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self.partner_id and not self.group_id:
             domain += [('partner_id', '=', self.partner_id.id)]
 =======
@@ -16023,6 +16103,10 @@ Please change the quantity done or the rounding precision of your unit of measur
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        if self.partner_id and not self.group_id:
+            domain += [('partner_id', '=', self.partner_id.id)]
 >>>>>>> upstream/18.0
 =======
         if self.partner_id and not self.group_id:
@@ -16144,6 +16228,7 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         if not self.group_id:
             return self.env['stock.picking']
@@ -16207,6 +16292,8 @@ Please change the quantity done or the rounding precision of your unit of measur
 =======
         if not self.group_id:
             return self.env['stock.picking']
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16290,6 +16377,7 @@ Please change the quantity done or the rounding precision of your unit of measur
         if any(picking.partner_id != m.partner_id for m in self):
             vals['partner_id'] = False
         if any(picking.origin != m.origin for m in self):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17054,6 +17142,8 @@ Please change the quantity done or the rounding precision of your unit of measur
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             current_origins = picking.origin.split(',') if picking.origin else []
             new_moves_origins = [move.origin for move in self if move.origin]
             new_origin = ','.join(OrderedSet(current_origins + new_moves_origins))
@@ -17233,6 +17323,9 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17980,7 +18073,11 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         move_create_proc = self.browse(move_create_proc)
+=======
+        move_create_proc = self.browse(move_create_proc) if not self.env.context.get('bypass_procurement_creation', False) else self.env['stock.move']
+>>>>>>> upstream/18.0
 =======
         move_create_proc = self.browse(move_create_proc) if not self.env.context.get('bypass_procurement_creation', False) else self.env['stock.move']
 >>>>>>> upstream/18.0
@@ -19107,11 +19204,16 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                        and (move._should_bypass_reservation()
                             or move.picking_type_id.reservation_method == 'at_confirm'
                             or (move.reservation_date and move.reservation_date <= fields.Date.today())))\
              ._action_assign()
 
+=======
+                       and (move._should_bypass_reservation() or move._should_assign_at_confirm()))\
+             ._action_assign()
+>>>>>>> upstream/18.0
 =======
                        and (move._should_bypass_reservation() or move._should_assign_at_confirm()))\
              ._action_assign()
@@ -20337,7 +20439,11 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             dates_info = self.product_id._get_dates_info(self.date, self.location_id, route_ids=self.route_ids)
+=======
+            dates_info = self.product_id.with_context(exclude_inter_wh_rules=True)._get_dates_info(self.date, self.location_id, route_ids=self.route_ids)
+>>>>>>> upstream/18.0
 =======
             dates_info = self.product_id.with_context(exclude_inter_wh_rules=True)._get_dates_info(self.date, self.location_id, route_ids=self.route_ids)
 >>>>>>> upstream/18.0
@@ -21150,6 +21256,10 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'picked': self.picked,
+>>>>>>> upstream/18.0
 =======
             'picked': self.picked,
 >>>>>>> upstream/18.0
@@ -21906,7 +22016,10 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22514,6 +22627,9 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23159,9 +23275,13 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if move_line_vals:
             self.env['stock.move.line'].create(move_line_vals)
         return taken_quantity
+=======
+        return move_line_vals, taken_quantity
+>>>>>>> upstream/18.0
 =======
         return move_line_vals, taken_quantity
 >>>>>>> upstream/18.0
@@ -24015,6 +24135,12 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def _should_assign_at_confirm(self):
+        return self._should_bypass_reservation() or self.picking_type_id.reservation_method == 'at_confirm' or (self.reservation_date and self.reservation_date <= fields.Date.today())
+
+>>>>>>> upstream/18.0
 =======
     def _should_assign_at_confirm(self):
         return self._should_bypass_reservation() or self.picking_type_id.reservation_method == 'at_confirm' or (self.reservation_date and self.reservation_date <= fields.Date.today())
@@ -25568,6 +25694,10 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            move = move.with_company(move.company_id)
+>>>>>>> upstream/18.0
 =======
             move = move.with_company(move.company_id)
 >>>>>>> upstream/18.0
@@ -26612,9 +26742,12 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     for (location_id, lot_id, package_id, owner_id), quantity in available_move_lines.items():
                         need = move.product_qty - sum(move.move_line_ids.mapped('quantity_product_uom'))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -27201,7 +27334,12 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         taken_quantities[need, location_id, lot_id, package_id, owner_id] = taken_quantity
+=======
+                        if move_line_vals:  # Only subtract for new lines (updates are already reflected in sum(move_line_ids))
+                            taken_quantities[need, location_id, lot_id, package_id, owner_id] = taken_quantity
+>>>>>>> upstream/18.0
 =======
                         if move_line_vals:  # Only subtract for new lines (updates are already reflected in sum(move_line_ids))
                             taken_quantities[need, location_id, lot_id, package_id, owner_id] = taken_quantity
@@ -28122,6 +28260,9 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -28730,9 +28871,12 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
                         taken_quantity = move.with_context(quants_cache=quants_cache)._update_reserved_quantity(
                             min(quantity, need), location_id, lot_id, package_id, owner_id)
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -29169,6 +29313,7 @@ Please change the quantity done or the rounding precision of your unit of measur
             if move.propagate_cancel:
                 # only cancel the next move if all my siblings are also cancelled
                 if all(state == 'cancel' for state in siblings_states):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30153,6 +30298,8 @@ Please change the quantity done or the rounding precision of your unit of measur
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                     move_dest_to_cancel = move.move_dest_ids.filtered(lambda m: m.state != 'done' and move.location_dest_id == m.location_id)
                     move_dest_to_cancel._action_cancel()
                     # Unlink from dest if dest is not in the chain
@@ -30251,6 +30398,9 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -30450,6 +30600,7 @@ Please change the quantity done or the rounding precision of your unit of measur
         return True
 
     def _skip_push(self):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32156,6 +32307,11 @@ Please change the quantity done or the rounding precision of your unit of measur
             self.move_dest_ids and any(m.location_id._child_of(self.location_dest_id) for m in self.move_dest_ids)
         )
 >>>>>>> upstream/18.0
+=======
+        return self.is_inventory or (
+            self.move_dest_ids and any(m.location_id._child_of(self.location_dest_id) for m in self.move_dest_ids)
+        )
+>>>>>>> upstream/18.0
 
     def _check_quantity(self):
         return self.env['stock.quant'].search([
@@ -32216,8 +32372,11 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 raise UserError(_('You cannot move the same package content more than once in the same transfer or split the same package into two location.'))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -32281,6 +32440,9 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -32366,6 +32528,7 @@ Please change the quantity done or the rounding precision of your unit of measur
         backorder_moves = self.env['stock.move'].create(backorder_moves_vals)
         # The backorder moves are not yet in their own picking. We do not want to check entire packs for those
         # ones as it could messed up the result_package_id of the moves being currently validated
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -33471,6 +33634,9 @@ Please change the quantity done or the rounding precision of your unit of measur
 =======
         backorder_moves.with_context(bypass_entire_pack=True, bypass_procurement_creation=True)._action_confirm(merge=False)
 >>>>>>> upstream/18.0
+=======
+        backorder_moves.with_context(bypass_entire_pack=True, bypass_procurement_creation=True)._action_confirm(merge=False)
+>>>>>>> upstream/18.0
         return backorder_moves
 
     @api.ondelete(at_uninstall=False)
@@ -33699,6 +33865,10 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self._recompute_state()
+>>>>>>> upstream/18.0
 =======
         self._recompute_state()
 >>>>>>> upstream/18.0
@@ -34210,6 +34380,7 @@ Please change the quantity done or the rounding precision of your unit of measur
         self.ensure_one()
         from_wh = self.location_id.warehouse_id
         to_wh = self.location_dest_id.warehouse_id
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -35171,6 +35342,9 @@ Please change the quantity done or the rounding precision of your unit of measur
 =======
         return self.picking_type_id.code in ('internal', 'outgoing') or (from_wh and to_wh and from_wh != to_wh)
 >>>>>>> upstream/18.0
+=======
+        return self.picking_type_id.code in ('internal', 'outgoing') or (from_wh and to_wh and from_wh != to_wh)
+>>>>>>> upstream/18.0
 
     def _get_lang(self):
         """Determine language to use for translated description"""
@@ -35184,6 +35358,7 @@ Please change the quantity done or the rounding precision of your unit of measur
         return self.picking_id or False
 
     def _get_upstream_documents_and_responsibles(self, visited):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -35945,6 +36120,9 @@ Please change the quantity done or the rounding precision of your unit of measur
 =======
         if self not in visited and self.move_orig_ids and any(m.state not in ('done', 'cancel') for m in self.move_orig_ids):
 >>>>>>> upstream/18.0
+=======
+        if self not in visited and self.move_orig_ids and any(m.state not in ('done', 'cancel') for m in self.move_orig_ids):
+>>>>>>> upstream/18.0
             result = set()
             visited |= self
             for move in self.move_orig_ids:
@@ -35955,6 +36133,7 @@ Please change the quantity done or the rounding precision of your unit of measur
         else:
             return []
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -36359,6 +36538,8 @@ Please change the quantity done or the rounding precision of your unit of measur
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def _get_report_description_picking(self):
         self.ensure_one()
         description = self.description_picking or ""
@@ -36419,6 +36600,9 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -36720,6 +36904,9 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -36975,6 +37162,7 @@ Please change the quantity done or the rounding precision of your unit of measur
                 vals['quantity'] = qty
                 res.append((0, 0, vals))
             else:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -37481,6 +37669,9 @@ Please change the quantity done or the rounding precision of your unit of measur
 =======
                 for _i in range(0, int(qty)):
 >>>>>>> upstream/18.0
+=======
+                for _i in range(0, int(qty)):
+>>>>>>> upstream/18.0
                     vals = self._prepare_move_line_vals(quantity=0)
                     vals['quantity'] = 1
                     vals['product_uom_id'] = self.product_id.uom_id.id
@@ -37495,6 +37686,7 @@ Please change the quantity done or the rounding precision of your unit of measur
         @param qty: quantity in the UoM of move.product_uom
         """
         existing_smls = self.move_line_ids
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -37543,6 +37735,9 @@ Please change the quantity done or the rounding precision of your unit of measur
 >>>>>>> upstream/18.0
 =======
         self.with_context(auto_conso=True).move_line_ids = self._set_quantity_done_prepare_vals(qty)
+>>>>>>> upstream/18.0
+=======
+        self.move_line_ids = self._set_quantity_done_prepare_vals(qty)
 >>>>>>> upstream/18.0
 =======
         self.move_line_ids = self._set_quantity_done_prepare_vals(qty)
@@ -37919,6 +38114,10 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        moves_to_reserve = moves_to_reserve.sorted(key=lambda m: m.group_id.id in self.group_id.ids, reverse=True)
+>>>>>>> upstream/18.0
 =======
         moves_to_reserve = moves_to_reserve.sorted(key=lambda m: m.group_id.id in self.group_id.ids, reverse=True)
 >>>>>>> upstream/18.0
@@ -39057,7 +39256,10 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -39420,6 +39622,9 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

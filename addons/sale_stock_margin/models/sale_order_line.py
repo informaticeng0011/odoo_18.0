@@ -25,6 +25,7 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             product = line.product_id.with_company(line.company_id)
             if not line.has_valued_move_ids():
                 line_ids_to_pass.add(line.id)
@@ -337,6 +338,8 @@ class SaleOrderLine(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             line = line.with_company(line.company_id)
             product = line.product_id
             if not line.has_valued_move_ids():
@@ -354,6 +357,9 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -385,6 +391,7 @@ class SaleOrderLine(models.Model):
                 # don't overwrite any existing value unless non-standard cost method
                 qty_from_delivery = line.qty_delivered if line.product_id.invoice_policy == 'order' else line.qty_to_invoice
                 purch_price = product._compute_average_price(0, line.product_uom_qty or qty_from_delivery, line.move_ids)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1518,6 +1525,8 @@ class SaleOrderLine(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 if line.product_uom != product.uom_id:
                     purch_price = product.uom_id._compute_price(purch_price, line.product_uom)
                 line.purchase_price = line._convert_to_sol_currency(
@@ -1766,6 +1775,12 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            elif not line.product_uom_qty and line.qty_delivered:
+                # if line added from delivery and standard price, pass to super
+                line_ids_to_pass.add(line.id)
+>>>>>>> upstream/18.0
 =======
             elif not line.product_uom_qty and line.qty_delivered:
                 # if line added from delivery and standard price, pass to super
