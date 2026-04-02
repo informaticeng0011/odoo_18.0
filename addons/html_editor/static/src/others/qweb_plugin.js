@@ -51,7 +51,12 @@ import { QWebPicker } from "./qweb_picker";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { isElement } from "@html_editor/utils/dom_info";
+=======
+import { isElement, PROTECTED_QWEB_SELECTOR } from "@html_editor/utils/dom_info";
+import { normalizeCursorPosition } from "@html_editor/utils/selection";
+>>>>>>> upstream/18.0
 =======
 import { isElement, PROTECTED_QWEB_SELECTOR } from "@html_editor/utils/dom_info";
 import { normalizeCursorPosition } from "@html_editor/utils/selection";
@@ -313,8 +318,11 @@ const isUnsplittableQWebElement = (node) =>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const PROTECTED_QWEB_SELECTOR = "[t-esc], [t-raw], [t-out], [t-field]";
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -597,6 +605,7 @@ export class QWebPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 closestElement(selection.anchorNode, "[t-field],[t-esc],[t-out]");
             if (qwebNode && this.editable.contains(qwebNode)) {
                 // select the whole qweb node
@@ -609,6 +618,8 @@ export class QWebPlugin extends Plugin {
                     focusOffset,
                 });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -770,6 +781,9 @@ export class QWebPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

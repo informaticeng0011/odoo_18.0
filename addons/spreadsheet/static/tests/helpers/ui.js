@@ -100,7 +100,11 @@ export async function mountSpreadsheet(model) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 export async function mountPublicSpreadsheet(dataUrl, mode, downloadExcelUrl = "downloadUrl") {
+=======
+export async function mountPublicSpreadsheet(dataUrl, mode, downloadExcelUrl = "") {
+>>>>>>> upstream/18.0
 =======
 export async function mountPublicSpreadsheet(dataUrl, mode, downloadExcelUrl = "") {
 >>>>>>> upstream/18.0

@@ -132,6 +132,10 @@ import { useService } from "@web/core/utils/hooks";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { formatFloat } from "@web/views/fields/formatters";
+>>>>>>> upstream/18.0
 =======
 import { formatFloat } from "@web/views/fields/formatters";
 >>>>>>> upstream/18.0
@@ -672,7 +676,11 @@ patch(ProductCatalogKanbanRecord.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             Math.floor(this.productCatalogData.quantity / packaging.qty) + 1;
+=======
+            Math.floor(parseFloat(formatFloat(this.productCatalogData.quantity / packaging.qty))) + 1;
+>>>>>>> upstream/18.0
 =======
             Math.floor(parseFloat(formatFloat(this.productCatalogData.quantity / packaging.qty))) + 1;
 >>>>>>> upstream/18.0

@@ -82,6 +82,10 @@
   </cac:AccountingCustomerParty>
   <cac:Delivery>
     <cac:DeliveryLocation>
+<<<<<<< HEAD
+=======
+      <cbc:ID schemeID="0088">0123456789</cbc:ID>
+>>>>>>> upstream/18.0
       <cac:Address>
         <cbc:StreetName>Chaussée de Namur 40</cbc:StreetName>
         <cbc:CityName>Ramillies</cbc:CityName>
@@ -93,7 +97,11 @@
     </cac:DeliveryLocation>
     <cac:DeliveryParty>
       <cac:PartyName>
+<<<<<<< HEAD
         <cbc:Name>company_1_data</cbc:Name>
+=======
+        <cbc:Name>custom delivery address</cbc:Name>
+>>>>>>> upstream/18.0
       </cac:PartyName>
     </cac:DeliveryParty>
   </cac:Delivery>

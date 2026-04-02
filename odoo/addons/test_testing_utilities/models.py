@@ -355,6 +355,13 @@ class ResConfigTest(models.Model):
         'res.config',
         config_parameter="resConfigTest.parameter2")
 
+<<<<<<< HEAD
+=======
+    param_bool = fields.Boolean(
+        string='Test boolean parameter',
+        config_parameter='resConfigTest.parameterBool')
+
+>>>>>>> upstream/18.0
 
 class Wide(models.Model):
     _name = _description = 'test_testing_utilities.wide'

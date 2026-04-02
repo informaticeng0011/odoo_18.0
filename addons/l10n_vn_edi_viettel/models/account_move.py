@@ -74,6 +74,10 @@ import re
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import textwrap
+>>>>>>> upstream/18.0
 =======
 import textwrap
 >>>>>>> upstream/18.0
@@ -295,6 +299,7 @@ from datetime import datetime, timedelta
 import requests
 from requests import RequestException
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -620,6 +625,11 @@ from odoo.tools import float_round, float_repr
 from odoo.tools import float_round, float_repr
 >>>>>>> upstream/18.0
 =======
+from odoo.tools import float_round, float_repr
+>>>>>>> upstream/18.0
+=======
+from odoo import _, api, fields, models, SUPERUSER_ID
+from odoo.exceptions import UserError
 from odoo.tools import float_round, float_repr
 >>>>>>> upstream/18.0
 =======
@@ -1013,8 +1023,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'strIssueDate': self._l10n_vn_edi_format_date(self.l10n_vn_edi_issue_date),
                 'transactionUuid': self.l10n_vn_edi_invoice_transaction_id,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1327,7 +1340,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1389,6 +1405,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1766,7 +1785,12 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             invoice_data['exchangeRate'] = self.env['res.currency']._get_conversion_rate(
+=======
+            # Sinvoice only allow upto 2 decimal place for exchange rate
+            exchange_rate = self.env['res.currency']._get_conversion_rate(
+>>>>>>> upstream/18.0
 =======
             # Sinvoice only allow upto 2 decimal place for exchange rate
             exchange_rate = self.env['res.currency']._get_conversion_rate(
@@ -2197,6 +2221,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            invoice_data['exchangeRate'] = float_repr(float_round(exchange_rate, 2), 2)
+>>>>>>> upstream/18.0
 =======
             invoice_data['exchangeRate'] = float_repr(float_round(exchange_rate, 2), 2)
 >>>>>>> upstream/18.0
@@ -2489,6 +2517,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        buyer_address = self.partner_id._display_address(without_company=True)
+        formatted_address = ', '.join(part.strip() for part in buyer_address.splitlines() if part.strip())
+>>>>>>> upstream/18.0
 =======
         buyer_address = self.partner_id._display_address(without_company=True)
         formatted_address = ', '.join(part.strip() for part in buyer_address.splitlines() if part.strip())
@@ -2541,6 +2574,7 @@ class AccountMove(models.Model):
             'buyerName': self.partner_id.name,
             'buyerLegalName': self.commercial_partner_id.name,
             'buyerTaxCode': self.commercial_partner_id.vat or '',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3341,6 +3375,8 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             'buyerAddressLine': formatted_address,
             'buyerPhoneNumber': commercial_partner_phone or '',
             'buyerEmail': self.commercial_partner_id.email or '',
@@ -3356,6 +3392,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3407,11 +3446,14 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         seller_information = {
             'sellerLegalName': self.company_id.name,
             'sellerTaxCode': self.company_id.vat,
             'sellerAddressLine': self.company_id.street,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3451,6 +3493,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3515,6 +3560,7 @@ class AccountMove(models.Model):
             'line_note': 2,
             'discount': 3,
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4249,6 +4295,8 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         discount_lines = self.invoice_line_ids._get_discount_lines()
         downpayment_lines = self.invoice_line_ids._get_downpayment_lines()
         for line in self.invoice_line_ids.filtered(lambda ln: ln.display_type in code_map):
@@ -4272,6 +4320,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4313,6 +4364,7 @@ class AccountMove(models.Model):
             item_information = {
                 'itemCode': line.product_id.code or '',
                 'itemName': textwrap.shorten(item_name, width=500, placeholder='...'),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4763,6 +4815,8 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 'unitName': line.product_uom_id.name or 'Units',
                 'unitPrice': line.currency_id.round(line.price_unit * sign),
                 'quantity': line.quantity,
@@ -4772,6 +4826,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4785,6 +4842,7 @@ class AccountMove(models.Model):
                 # Values are either: -2 (no tax), -1 (not declaring/paying taxes), 0,5,8,10 (the tax %)
                 # Most use cases will be -2 or a tax percentage, so we limit the support to these.
                 'taxPercentage': line.tax_ids and line.tax_ids[0].amount or -2,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5788,10 +5846,13 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 'taxAmount': line.currency_id.round(line.price_total - line.price_subtotal),
                 'discount': line.discount,
                 'itemTotalAmountAfterDiscount': line.price_subtotal,
                 'itemTotalAmountWithTax': line.price_total,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6007,6 +6068,8 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 'selection': code_map[line.display_type],
             }
             if (
@@ -6040,6 +6103,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6101,6 +6167,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if line.display_type == 'line_note':
+                item_information = {'selection': item_information['selection'], 'itemName': item_information['itemName']}
+>>>>>>> upstream/18.0
 =======
             if line.display_type == 'line_note':
                 item_information = {'selection': item_information['selection'], 'itemName': item_information['itemName']}

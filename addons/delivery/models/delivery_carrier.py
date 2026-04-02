@@ -414,8 +414,11 @@ class DeliveryCarrier(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return all(tag in order.order_line.product_id.all_product_tag_ids for tag in self.must_have_tag_ids)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1107,6 +1110,9 @@ class DeliveryCarrier(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1781,7 +1787,11 @@ class DeliveryCarrier(models.Model):
                 total_delivery += line.price_total
             if not line.product_id or line.is_delivery:
                 continue
+<<<<<<< HEAD
             if line.product_id.type == "service":
+=======
+            if line.product_id.type in {"service", "combo"}:
+>>>>>>> upstream/18.0
                 continue
             qty = line.product_uom._compute_quantity(line.product_uom_qty, line.product_id.uom_id)
             weight += (line.product_id.weight or 0.0) * qty

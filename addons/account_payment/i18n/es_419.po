@@ -95,6 +95,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* account_payment
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -595,6 +596,9 @@
 =======
 # * account_payment
 >>>>>>> upstream/18.0
+=======
+# * account_payment
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -764,6 +768,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -965,6 +970,9 @@
 >>>>>>> upstream/18.0
 =======
 # "Fernanda Alvarez (mfar)" <mfar@odoo.com>, 2025.
+>>>>>>> upstream/18.0
+=======
+# "Fernanda Alvarez (mfar)" <mfar@odoo.com>, 2025, 2026.
 >>>>>>> upstream/18.0
 =======
 # "Fernanda Alvarez (mfar)" <mfar@odoo.com>, 2025, 2026.
@@ -1192,6 +1200,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1778,6 +1787,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-01-17 09:02+0000\n"
 "Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
@@ -1856,6 +1867,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2007,6 +2021,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2787,6 +2802,11 @@ msgstr ""
 " ? 1 : 2);\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
@@ -3044,6 +3064,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        Wait a moment for it to be processed. If the refund is still pending in a\n"
 "                        few minutes, please check your payment provider configuration."
 msgstr ""
@@ -3051,6 +3072,8 @@ msgstr ""
 "                        Espere un momento a que se procese. Si el reembolso sigue pendiente en\n"
 "                        unos minutos, verifique la configuración de su proveedor de pago."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3553,6 +3576,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4058,10 +4084,16 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A payment has already been made on this invoice, please make sure to not pay"
 " twice."
 msgstr ""
 "Ya realizó un pago para esta factura, asegúrese de no pagar dos veces."
+=======
+"A payment has already been made on this invoice, please make sure to not pay "
+"twice."
+msgstr "Ya realizó un pago para esta factura, asegúrese de no pagar dos veces."
+>>>>>>> upstream/18.0
 =======
 "A payment has already been made on this invoice, please make sure to not pay "
 "twice."
@@ -5169,7 +5201,11 @@ msgid "A payment transaction with reference %s already exists."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ya existe una transacción de pago con referencia %s."
+=======
+msgstr "Ya existe una transacción de pago con la referencia %s."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ya existe una transacción de pago con la referencia %s."
 >>>>>>> upstream/18.0
@@ -6283,7 +6319,11 @@ msgid "A token is required to create a new payment transaction."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Se requiere un token para crear una nueva transacción de pago."
+=======
+msgstr "Necesita un token para crear una nueva transacción de pago."
+>>>>>>> upstream/18.0
 =======
 msgstr "Necesita un token para crear una nueva transacción de pago."
 >>>>>>> upstream/18.0
@@ -7336,11 +7376,14 @@ msgstr "Cerrar"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:account_payment.field_account_payment_register__payment_method_code
 msgid "Code"
 msgstr "Código"
 
 #. module: account_payment
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7725,6 +7768,7 @@ msgstr "Descuento por pago anticipado de"
 #. module: account_payment
 #: model:onboarding.onboarding.step,description:account_payment.onboarding_onboarding_step_payment_provider
 msgid "Enable credit & debit card payments supported by Stripe."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8387,6 +8431,9 @@ msgstr "Habilite pagos con tarjeta de crédito y débito compatibles con Stripe.
 =======
 msgstr "Habilite pagos con tarjeta de crédito y débito compatibles con Stripe."
 >>>>>>> upstream/18.0
+=======
+msgstr "Habilite pagos con tarjeta de crédito y débito compatibles con Stripe."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields.selection,name:account_payment.selection__payment_refund_wizard__support_refund__full_only
@@ -8434,6 +8481,7 @@ msgid ""
 "In test mode, a fake payment is processed through a test payment interface.\n"
 "This mode is advised when setting up the provider."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9260,6 +9308,10 @@ msgstr ""
 "En el modo de prueba, se procesa un pago falso mediante una interfaz de pago "
 "de prueba.\n"
 >>>>>>> upstream/18.0
+=======
+"En el modo de prueba, se procesa un pago falso mediante una interfaz de pago "
+"de prueba.\n"
+>>>>>>> upstream/18.0
 "Se recomienda este modo al establecer el proveedor."
 
 #. module: account_payment
@@ -9360,7 +9412,11 @@ msgid "Invoice Online Payment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pago de factura en línea"
+=======
+msgstr "Pago de facturas en línea"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pago de facturas en línea"
 >>>>>>> upstream/18.0
@@ -9875,8 +9931,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Tenga en cuenta que solo están disponibles los tokens de los proveedores que"
 " permiten captar el importe."
+=======
+"Tenga en cuenta que solo están disponibles los tokens de los proveedores que "
+"permiten captar el importe."
+>>>>>>> upstream/18.0
 =======
 "Tenga en cuenta que solo están disponibles los tokens de los proveedores que "
 "permiten captar el importe."
@@ -10959,8 +11020,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Se ha registrado el pago relacionado a la transacción con referencia "
 "%(ref)s: %(link)s"
+=======
+"Se ha registrado el pago relacionado a la transacción con referencia %"
+"(ref)s: %(link)s"
+>>>>>>> upstream/18.0
 =======
 "Se ha registrado el pago relacionado a la transacción con referencia %"
 "(ref)s: %(link)s"
@@ -11892,11 +11958,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can't delete a payment method that is linked to a provider in the enabled or test state.\n"
 "Linked providers(s): %s"
 msgstr ""
 "No puede eliminar un método de pago vinculado a un proveedor en el estado habilitado o de prueba.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12395,6 +12464,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12931,6 +13003,12 @@ msgstr "vencidas"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+#~ msgid "Code"
+#~ msgstr "Código"
+>>>>>>> upstream/18.0
 =======
 
 #~ msgid "Code"

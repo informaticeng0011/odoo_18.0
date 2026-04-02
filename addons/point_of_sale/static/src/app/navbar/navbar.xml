@@ -191,7 +191,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <ProxyStatus t-if="pos.config.use_proxy" />
+=======
+                                <ProxyStatus t-if="pos.useProxy()" />
+>>>>>>> upstream/18.0
 =======
                                 <ProxyStatus t-if="pos.useProxy()" />
 >>>>>>> upstream/18.0

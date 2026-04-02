@@ -197,6 +197,10 @@ import * as ReceiptScreen from "@point_of_sale/../tests/tours/utils/receipt_scre
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import * as Utils from "@point_of_sale/../tests/tours/utils/common";
+>>>>>>> upstream/18.0
 =======
 import * as Utils from "@point_of_sale/../tests/tours/utils/common";
 >>>>>>> upstream/18.0
@@ -1090,7 +1094,10 @@ registry.category("web_tour.tours").add("PhysicalGiftCardProgramSaleTour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1723,6 +1730,9 @@ registry.category("web_tour.tours").add("MultiplePhysicalGiftCardProgramSaleTour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2335,7 +2345,11 @@ registry.category("web_tour.tours").add("GiftCardProgramInvoice", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ProductScreen.clickCustomer("Test Partner"),
+=======
+            ProductScreen.clickCustomer("A Test Partner"),
+>>>>>>> upstream/18.0
 =======
             ProductScreen.clickCustomer("A Test Partner"),
 >>>>>>> upstream/18.0
@@ -3251,7 +3265,10 @@ registry.category("web_tour.tours").add("test_gift_card_no_date", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4039,7 +4056,11 @@ registry.category("web_tour.tours").add("test_physical_gift_card_invoiced", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ProductScreen.clickCustomer("Test Partner"),
+=======
+            ProductScreen.clickCustomer("A Test Partner"),
+>>>>>>> upstream/18.0
 =======
             ProductScreen.clickCustomer("A Test Partner"),
 >>>>>>> upstream/18.0
@@ -4946,6 +4967,7 @@ registry.category("web_tour.tours").add("test_physical_gift_card_invoiced", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5146,6 +5168,8 @@ registry.category("web_tour.tours").add("test_physical_gift_card_invoiced", {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5604,6 +5628,10 @@ registry.category("web_tour.tours").add("test_coupon_code_stays_set", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            ProductScreen.selectedOrderlineHas("Gift Card", "1.00", "50"),
+>>>>>>> upstream/18.0
 =======
             ProductScreen.selectedOrderlineHas("Gift Card", "1.00", "50"),
 >>>>>>> upstream/18.0
@@ -5893,6 +5921,7 @@ registry.category("web_tour.tours").add("test_coupon_code_stays_set", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ].flat(),
 });
 <<<<<<< HEAD
@@ -6406,6 +6435,8 @@ registry.category("web_tour.tours").add("test_coupon_code_stays_set", {
 });
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6540,6 +6571,9 @@ registry.category("web_tour.tours").add("test_multiple_physical_gift_card_sale",
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

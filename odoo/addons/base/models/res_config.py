@@ -6,6 +6,10 @@ from ast import literal_eval
 
 from odoo import api, models, _
 from odoo.exceptions import AccessError, RedirectWarning, UserError
+<<<<<<< HEAD
+=======
+from odoo.tools import str2bool
+>>>>>>> upstream/18.0
 
 _logger = logging.getLogger(__name__)
 
@@ -312,7 +316,11 @@ class ResConfigSettings(models.TransientModel, ResConfigModuleInstallationMixin)
                         _logger.warning(WARNING_MESSAGE, value, field, icp)
                         value = 0.0
                 elif field.type == 'boolean':
+<<<<<<< HEAD
                     value = bool(value)
+=======
+                    value = str2bool(value, bool(value))
+>>>>>>> upstream/18.0
             res[name] = value
 
         res.update(self.get_values())

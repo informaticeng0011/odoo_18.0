@@ -165,6 +165,7 @@ from ast import literal_eval
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import models, fields, api, SUPERUSER_ID
 =======
 =======
@@ -982,6 +983,12 @@ from odoo.exceptions import ValidationError
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+from lxml import html
+
+from odoo import SUPERUSER_ID, _, api, fields, models
+from odoo.exceptions import ValidationError
+>>>>>>> upstream/18.0
 from odoo.http import request
 from odoo.osv import expression
 
@@ -1289,7 +1296,10 @@ class website_form_model_fields(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1622,7 +1632,11 @@ class website_form_model_fields(models.Model):
                 domain = [(field_name, 'ilike', f'data-model_name="{field.model}"')]
                 records = self.env[model_name].with_context(active_test=False).search(domain)
                 for record in records:
+<<<<<<< HEAD
                     arch_parsed = etree.fromstring(record[field_name])
+=======
+                    arch_parsed = html.fromstring(record[field_name])
+>>>>>>> upstream/18.0
                     xpath_selector = f'//form[@data-model_name="{field.model}"]//*[@name="{field.name}"]'
                     if arch_parsed.xpath(xpath_selector):
                         raise ValidationError(_(
@@ -1796,6 +1810,9 @@ class website_form_model_fields(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

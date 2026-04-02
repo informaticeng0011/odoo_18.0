@@ -130,8 +130,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* auth_oauth
 # 
+=======
+# * auth_oauth
+#
+>>>>>>> upstream/18.0
 =======
 # * auth_oauth
 #
@@ -920,6 +925,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Daniel Reis, 2025
 >>>>>>> upstream/18.0
@@ -1900,10 +1906,16 @@
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # "Pedro Silva (Exo)" <pedrocs@exo.pt>, 2026.
 >>>>>>> upstream/18.0
+=======
+# Daniel Reis, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# "Pedro Silva (Exo)" <pedrocs@exo.pt>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3044,12 +3056,18 @@ msgstr ""
 "PO-Revision-Date: 2026-01-27 23:14+0000\n"
 "Last-Translator: \"Pedro Silva (Exo)\" <pedrocs@exo.pt>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-01-27 23:14+0000\n"
+"Last-Translator: \"Pedro Silva (Exo)\" <pedrocs@exo.pt>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Portuguese <https://translate.odoo.com/projects/odoo-18/"
 "auth_oauth/pt/>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3621,6 +3639,11 @@ msgstr ""
 "((n != 0 && n % 1000000 == 0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : "
+"((n != 0 && n % 1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: auth_oauth
 #: model_terms:ir.ui.view,arch_db:auth_oauth.providers
@@ -3651,6 +3674,7 @@ msgstr "Permitido"
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider__auth_endpoint
 msgid "Authorization URL"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4172,6 +4196,9 @@ msgstr "URL de Autorização"
 =======
 msgstr "URL de Autorização"
 >>>>>>> upstream/18.0
+=======
+msgstr "URL de Autorização"
+>>>>>>> upstream/18.0
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider__css_class
@@ -4242,7 +4269,11 @@ msgid "Client ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Id. de Cliente"
+=======
+msgstr "ID de Cliente"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID de Cliente"
 >>>>>>> upstream/18.0
@@ -4487,7 +4518,11 @@ msgid "Client ID:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Id. de cliente:"
+=======
+msgstr "ID de Cliente:"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID de Cliente:"
 >>>>>>> upstream/18.0
@@ -4817,6 +4852,7 @@ msgid "Data Endpoint"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Endpoint de dados"
@@ -5208,6 +5244,9 @@ msgstr "Endpoint de Dados"
 =======
 msgstr "Endpoint de Dados"
 >>>>>>> upstream/18.0
+=======
+msgstr "Endpoint de Dados"
+>>>>>>> upstream/18.0
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider__display_name
@@ -5282,7 +5321,11 @@ msgid "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Id."
+=======
+msgstr "ID"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID"
 >>>>>>> upstream/18.0
@@ -5607,6 +5650,7 @@ msgid "Link text in Login Dialog"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Texto do link na caixa de diálogo de login"
@@ -5817,6 +5861,9 @@ msgstr "Texto do link na caixa de diálogo de login"
 >>>>>>> upstream/18.0
 =======
 msgstr "Texto do link na caixa de diálogo de login"
+>>>>>>> upstream/18.0
+=======
+msgstr "Texto do link no Diálogo de Login"
 >>>>>>> upstream/18.0
 =======
 msgstr "Texto do link no Diálogo de Login"
@@ -6062,7 +6109,11 @@ msgid "Log in with Facebook"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Entrar com Facebook"
+>>>>>>> upstream/18.0
 =======
 msgstr "Entrar com Facebook"
 >>>>>>> upstream/18.0
@@ -6307,7 +6358,11 @@ msgid "Log in with Google"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Entrar com Google"
+>>>>>>> upstream/18.0
 =======
 msgstr "Entrar com Google"
 >>>>>>> upstream/18.0
@@ -6552,7 +6607,11 @@ msgid "Log in with Odoo.com"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Entrar com Odoo.com"
+>>>>>>> upstream/18.0
 =======
 msgstr "Entrar com Odoo.com"
 >>>>>>> upstream/18.0
@@ -6867,7 +6926,11 @@ msgid "Login button label"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rótulo do botão de login"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rótulo do botão de login"
 >>>>>>> upstream/18.0
@@ -7343,7 +7406,11 @@ msgid "OAuth User ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Id de utilizador OAuth"
+=======
+msgstr "ID de Utilizador OAuth"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID de Utilizador OAuth"
 >>>>>>> upstream/18.0
@@ -7842,7 +7909,11 @@ msgid "Tutorial"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tutorial"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tutorial"
 >>>>>>> upstream/18.0
@@ -8771,6 +8842,7 @@ msgid "UserInfo URL"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "URL de UserInfo"
@@ -8981,6 +9053,9 @@ msgstr "URL de UserInfo"
 >>>>>>> upstream/18.0
 =======
 msgstr "URL de UserInfo"
+>>>>>>> upstream/18.0
+=======
+msgstr "URL de informações do utilizador"
 >>>>>>> upstream/18.0
 =======
 msgstr "URL de informações do utilizador"
@@ -9238,7 +9313,11 @@ msgid "arch"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "arco"
+=======
+msgstr "arch"
+>>>>>>> upstream/18.0
 =======
 msgstr "arch"
 >>>>>>> upstream/18.0

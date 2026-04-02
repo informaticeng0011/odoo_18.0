@@ -968,7 +968,11 @@ class NumberToWords_BG(Num2Word_Base):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     _digits[-1] = [None, 'една', None] + _digits[0][2:]
+=======
+    _digits[-1] = [None, 'една'] + _digits[0][2:]
+>>>>>>> upstream/18.0
 =======
     _digits[-1] = [None, 'една'] + _digits[0][2:]
 >>>>>>> upstream/18.0
@@ -1907,6 +1911,7 @@ def patch_num2words():
     try:
         import num2words  # noqa: PLC0415
     except ImportError:
+<<<<<<< HEAD
         _logger = logging.getLogger(__name__)
         _logger.warning("num2words is not available, Arabic number to words conversion will not work")
         return
@@ -1914,3 +1919,15 @@ def patch_num2words():
         raise RuntimeError("The num2words monkey patch is obsolete. Bump the version of the library to the latest available in the official package repository, if it hasn't already been done, and remove the patch.")
     num2words.CONVERTER_CLASSES["ar"] = Num2Word_AR_Fixed()
     num2words.CONVERTER_CLASSES["bg"] = NumberToWords_BG()
+=======
+        return
+    if MIN_PY_VERSION >= (3, 12):
+        raise RuntimeError("The num2words monkey patch for Arabic is obsolete. Bump the version of the library to the latest available in the official package repository, if it hasn't already been done, and remove the patch.")
+    if MIN_PY_VERSION >= (3, 13):
+        raise RuntimeError("The num2words monkey patch for Czech is obsolete. Bump the version of the library to the latest available in the official package repository, if it hasn't already been done, and remove the patch.")
+    num2words.CONVERTER_CLASSES["ar"] = Num2Word_AR_Fixed()
+    num2words.CONVERTER_CLASSES["bg"] = NumberToWords_BG()
+    if 'cz' in num2words.CONVERTER_CLASSES and not 'cs' in num2words.CONVERTER_CLASSES:
+        # There is a mistake in the Czech language code in versions < 0.5.14. Map it to the correct code here.
+        num2words.CONVERTER_CLASSES['cs'] = num2words.CONVERTER_CLASSES['cz']
+>>>>>>> upstream/18.0

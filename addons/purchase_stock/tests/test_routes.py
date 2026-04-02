@@ -70,7 +70,10 @@ class TestRoutes(TransactionCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_po_final_location(self):
@@ -113,6 +116,9 @@ class TestRoutes(TransactionCase):
         forecast = product.with_context(location=sub_location.id).virtual_available
         self.assertEqual(forecast, 10.0, "forecasted quantity should increment to 10.0 units")
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

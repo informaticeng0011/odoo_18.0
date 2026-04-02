@@ -271,6 +271,10 @@ from odoo.addons.base.models.assetsbundle import AssetsBundle
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.base.models.ir_qweb_fields import nl2br
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.base.models.ir_qweb_fields import nl2br
 >>>>>>> upstream/18.0
@@ -1498,7 +1502,10 @@ class LivechatController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         reason = Markup("<br>" + re.sub(r'\r\n|\r|\n', "<br>", reason) if reason else "")
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2289,7 +2296,11 @@ class LivechatController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "reason": reason,
+=======
+            "reason": nl2br("\n" + reason) if reason else "",
+>>>>>>> upstream/18.0
 =======
             "reason": nl2br("\n" + reason) if reason else "",
 >>>>>>> upstream/18.0

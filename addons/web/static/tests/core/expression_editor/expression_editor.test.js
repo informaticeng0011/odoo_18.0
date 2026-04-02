@@ -290,7 +290,11 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchWithCleanup,
+=======
+    serverState,
+>>>>>>> upstream/18.0
 =======
     serverState,
 >>>>>>> upstream/18.0
@@ -1410,7 +1414,11 @@ beforeEach(() => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchWithCleanup(odoo, { debug: true });
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -2487,7 +2495,11 @@ test("rendering of 'expr'", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchWithCleanup(odoo, { debug: false });
+=======
+    serverState.debug = "";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "";
 >>>>>>> upstream/18.0
@@ -3597,7 +3609,11 @@ test("change path, operator and value", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchWithCleanup(odoo, { debug: false });
+=======
+    serverState.debug = "";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "";
 >>>>>>> upstream/18.0
@@ -4814,7 +4830,11 @@ test("check condition by default when creating a new rule", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchWithCleanup(odoo, { debug: false });
+=======
+    serverState.debug = "";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "";
 >>>>>>> upstream/18.0
@@ -5900,7 +5920,11 @@ test("no field of type properties in model field selector", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchWithCleanup(odoo, { debug: false });
+=======
+    serverState.debug = "";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "";
 >>>>>>> upstream/18.0
@@ -6979,7 +7003,11 @@ test("no special fields in fields", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchWithCleanup(odoo, { debug: false });
+=======
+    serverState.debug = "";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "";
 >>>>>>> upstream/18.0

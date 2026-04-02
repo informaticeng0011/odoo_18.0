@@ -118,6 +118,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from odoo.fields import Date
 >>>>>>> upstream/18.0
@@ -468,6 +469,12 @@ from odoo.fields import Date
 >>>>>>> upstream/18.0
 =======
 from odoo.fields import Date
+>>>>>>> upstream/18.0
+=======
+from datetime import datetime
+from freezegun import freeze_time
+from pytz import timezone
+
 >>>>>>> upstream/18.0
 from odoo.tests import tagged, TransactionCase
 
@@ -815,7 +822,10 @@ class TestRecruitment(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1262,6 +1272,7 @@ class TestRecruitment(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1554,6 +1565,12 @@ class TestRecruitment(TransactionCase):
 >>>>>>> upstream/18.0
 
     def test_job_overdue_activities(self):
+=======
+
+    @freeze_time('2026-01-01 12:30:00')
+    def test_job_overdue_activities(self):
+        self.env.user.tz = 'Europe/Brussels'
+>>>>>>> upstream/18.0
         job = self.env["hr.job"].create({
             "name": "Test Job",
         })
@@ -1578,7 +1595,11 @@ class TestRecruitment(TransactionCase):
         })
         activity = self.env["mail.activity"].create({
             "activity_type_id": persistent_activity_type.id,
+<<<<<<< HEAD
             "date_deadline": Date.today(),
+=======
+            "date_deadline": datetime.now(tz=timezone(self.env.user.tz)).date(),
+>>>>>>> upstream/18.0
             "res_id": applicant.id,
             "res_model_id": self.env["ir.model"]._get_id("hr.applicant"),
             "user_id": self.env.user.id,
@@ -1708,6 +1729,9 @@ class TestRecruitment(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -256,7 +256,11 @@ beforeEach(() => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "kanban,false": `
+=======
+        kanban: `
+>>>>>>> upstream/18.0
 =======
         kanban: `
 >>>>>>> upstream/18.0
@@ -1258,7 +1262,11 @@ test("Check is_favorite field is readonly if the field is readonly", async () =>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ProjectProject._views["kanban,false"] = ProjectProject._views["kanban,false"].replace(
+=======
+    ProjectProject._views["kanban"] = ProjectProject._views["kanban"].replace(
+>>>>>>> upstream/18.0
 =======
     ProjectProject._views["kanban"] = ProjectProject._views["kanban"].replace(
 >>>>>>> upstream/18.0

@@ -202,7 +202,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* gamification
+=======
+# * gamification
+>>>>>>> upstream/18.0
 =======
 # * gamification
 >>>>>>> upstream/18.0
@@ -814,6 +818,7 @@
 # Uros Kalajdzic <ukalajdzic@gmail.com>, 2022
 # Djordje Marjanovic <djvmarjanovic@gmail.com>, 2022
 # Martin Trigaux, 2022
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1754,10 +1759,15 @@
 # Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2023, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2023, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0beta\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2724,6 +2734,11 @@ msgstr ""
 "PO-Revision-Date: 2025-12-31 16:35+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+"PO-Revision-Date: 2025-12-31 16:35+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Serbian (Latin script) <https://translate.odoo.com/projects/"
 "odoo-18/gamification/sr_Latn/>\n"
 "Language: sr@latin\n"
@@ -2732,6 +2747,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3336,6 +3352,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "X-Generator: Weblate 5.14.3\n"
 
 #. module: gamification
@@ -3441,6 +3459,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3751,7 +3772,11 @@ msgid "# Users"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "# Korisnici"
+>>>>>>> upstream/18.0
 =======
 msgstr "# Korisnici"
 >>>>>>> upstream/18.0
@@ -4258,6 +4283,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    You just reached a new rank: <strong t-out=\"object."
 "rank_id.name or ''\">Newbie</strong>\n"
 "                </p>\n"
@@ -4273,6 +4299,8 @@ msgid ""
 "                        <t t-set=\"url\" t-value=\"data['url']\"></t>\n"
 "                        <t t-set=\"label\" t-value=\"data['label']\"></t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4548,6 +4576,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4820,7 +4851,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "{{ object.rank_id.id }}/image_128\">\n"
+=======
+"{{ object.rank_id.id }}/image_128\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "{{ object.rank_id.id }}/image_128\"/>\n"
 >>>>>>> upstream/18.0
@@ -5178,12 +5213,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "20px 10px 20px;\">\n"
 "                <t t-out=\"user.signature or ''\">--<br>Mitchell Admin</t>\n"
 "            </td>\n"
 "            <td t-else=\"\" style=\"padding:15px 20px 10px 20px;\">\n"
 "                <t t-out=\"user.company_id.name or ''\"></t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5451,6 +5489,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5722,6 +5763,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:mail.template,body_html:gamification.email_template_goal_reminder
 msgid ""
 "<div>\n"
@@ -5740,6 +5782,8 @@ msgid ""
 msgstr ""
 
 #. module: gamification
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6051,6 +6095,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <span style=\"font-size: 10px;\">Your Badge</span><br>\n"
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-"
 "out=\"object.badge_id.name or ''\"></span>\n"
@@ -6065,6 +6110,8 @@ msgid ""
 "rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;"
 "min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6340,6 +6387,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6616,6 +6666,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "''\"></t>!<br>\n"
 "                        You just received badge <strong t-out=\"object."
 "badge_id.name or ''\"></strong>!<br>\n"
@@ -6623,6 +6674,8 @@ msgid ""
 "description)\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" "
 "style=\"width: 560px; margin-top: 5px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6890,6 +6943,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7070,6 +7126,7 @@ msgid ""
 "                                    <img t-attf-src=\"/web/image/"
 "gamification.badge/{{ object.badge_id.id }}/image_128/80x80\" "
 "style=\"padding: 0px; margin: 0px; height: auto; width: 80px;\" t-att-"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7355,6 +7412,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "alt=\"user.company_id.name\"/>\n"
 "                                </td>\n"
 "                                <td valign=\"center\">\n"
@@ -7463,6 +7522,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7730,9 +7792,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                  <hr width=\"100%\" style=\"background-color:"
 "rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;"
 "min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\">\n"
+=======
+"                  <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                  <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -8280,6 +8348,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        | <a t-attf-href=\"'mailto:%s' % {{ object.user_id."
 "company_id.email }}\" style=\"text-decoration:none; color: #454748;\" t-"
 "out=\"object.user_id.company_id.email or ''\">info@yourcompany.com</a>\n"
@@ -8289,6 +8358,8 @@ msgid ""
 "company_id.website }}\" style=\"text-decoration:none; color: #454748;\" t-"
 "out=\"object.user_id.company_id.website or ''\">http://www.example.com</a>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8560,6 +8631,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8853,12 +8927,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-set=\"object_ctx\" t-value=\"ctx.get('object')\"></t>\n"
 "        <t t-set=\"company\" t-value=\"object_ctx and object_ctx.company_id "
 "or user.company_id\"></t>\n"
 "        <t t-set=\"challenge_lines\" t-value=\"ctx.get('challenge_lines', "
 "[])\"></t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9125,6 +9202,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9397,8 +9477,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <p style=\"font-size:20px;color:#666666;"
 "\" align=\"center\">Leaderboard</p>\n"
+=======
+"                                    <p style=\"font-"
+"size:20px;color:#666666;\" align=\"center\">Leaderboard</p>\n"
+>>>>>>> upstream/18.0
 =======
 "                                    <p style=\"font-"
 "size:20px;color:#666666;\" align=\"center\">Leaderboard</p>\n"
@@ -9849,8 +9934,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "\">Here is your current progress in the challenge <strong t-out=\"object."
 "name or ''\"></strong>.</span>\n"
+=======
+"\">Here is your current progress in the challenge <strong t-"
+"out=\"object.name or ''\"/>.</span>\n"
+>>>>>>> upstream/18.0
 =======
 "\">Here is your current progress in the challenge <strong t-"
 "out=\"object.name or ''\"/>.</span>\n"
@@ -10306,6 +10396,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                        <th style=\"width:20%;text-align:"
 "right;\" align=\"left\">Target</th>\n"
 "                                        <th style=\"width:20%;text-align:"
@@ -10317,6 +10408,8 @@ msgid ""
 "                                        <td colspan=\"5\" style=\"height:1px;"
 "background-color:#9A6C8E;\"></td>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10588,6 +10681,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10770,6 +10866,7 @@ msgid ""
 "                                    <tr style=\"font-weight:bold;\">\n"
 "                                        <td style=\"padding: 20px 0;\" "
 "align=\"left\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11058,6 +11155,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                            <t t-out=\"line['name'] or ''\"/"
 ">\n"
 "                                            <t t-if=\"line['suffix'] or "
@@ -11170,6 +11269,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11440,7 +11542,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "''\"></strong>.\n"
+=======
+"''\"/>.\n"
+>>>>>>> upstream/18.0
 =======
 "''\"/>.\n"
 >>>>>>> upstream/18.0
@@ -11801,7 +11907,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<strong t-out=\"line['name'] or ''\"></strong></div>\n"
+=======
+"<strong t-out=\"line['name'] or ''\"/></div>\n"
+>>>>>>> upstream/18.0
 =======
 "<strong t-out=\"line['name'] or ''\"/></div>\n"
 >>>>>>> upstream/18.0
@@ -12166,7 +12276,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "value=\"line['goals'][:3]\"></t>\n"
+=======
+"value=\"line['goals'][:3]\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "value=\"line['goals'][:3]\"/>\n"
 >>>>>>> upstream/18.0
@@ -12523,6 +12637,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                                            <t t-if=\"loop."
 "index == 1\">\n"
 "                                                                <t t-"
@@ -12570,6 +12685,8 @@ msgid ""
 "                                                                <t t-"
 "set=\"podiumPosition\" t-value=\"'3'\"></t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12877,6 +12994,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13146,7 +13266,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "out=\"extra_div or ''\"></t>\n"
+=======
+"out=\"extra_div or ''\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "out=\"extra_div or ''\"/>\n"
 >>>>>>> upstream/18.0
@@ -13503,8 +13627,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "fit:cover;\" t-att-src=\"image_data_uri(object.env['res.users']."
 "browse(goal['user_id']).partner_id.image_128)\" t-att-alt=\"goal['name']\">\n"
+=======
+"fit:cover;\" t-att-"
+"src=\"image_data_uri(object.env['res.users'].browse(goal['user_id']).partner_id.image_128)\" "
+"t-att-alt=\"goal['name']\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "fit:cover;\" t-att-"
 "src=\"image_data_uri(object.env['res.users'].browse(goal['user_id']).partner_id.image_128)\" "
@@ -14037,7 +14167,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "out=\"goal['name'] or ''\"></t>\n"
+=======
+"out=\"goal['name'] or ''\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "out=\"goal['name'] or ''\"/>\n"
 >>>>>>> upstream/18.0
@@ -14396,7 +14530,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "out=\"podiumPosition or ''\"></span></strong>\n"
+=======
+"out=\"podiumPosition or ''\"/></strong>\n"
+>>>>>>> upstream/18.0
 =======
 "out=\"podiumPosition or ''\"/></strong>\n"
 >>>>>>> upstream/18.0
@@ -14753,12 +14891,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "out=\"&quot;%.2f&quot; % goal['current'] or ''\"></t>\n"
 "                                                                    <t t-"
 "if=\"line['suffix'] or line['monetary']\">\n"
 "                                                                        <t t-"
 "out=\"line['full_suffix'] or ''\"></t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15025,6 +15166,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15305,12 +15449,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "cellpadding=\"0\" width=\"100%\" style=\"margin-top:30px;margin-bottom:5px;"
 "color:#666666;\">\n"
 "                                                <thead>\n"
 "                                                    <tr style=\"color:"
 "#9A6C8E; font-size:12px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15577,6 +15724,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15849,7 +15999,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "out=\"line['suffix'] or ''\"></t>)\n"
+=======
+"out=\"line['suffix'] or ''\"/>)\n"
+>>>>>>> upstream/18.0
 =======
 "out=\"line['suffix'] or ''\"/>)\n"
 >>>>>>> upstream/18.0
@@ -16206,7 +16360,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "out=\"company.currency_id.symbol or ''\"></t>)\n"
+=======
+"out=\"company.currency_id.symbol or ''\"/>)\n"
+>>>>>>> upstream/18.0
 =======
 "out=\"company.currency_id.symbol or ''\"/>)\n"
 >>>>>>> upstream/18.0
@@ -16566,7 +16724,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "style=\"height:1px;background-color:#9A6C8E;\"></td>\n"
+=======
+"style=\"height:1px;background-color:#9A6C8E;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "style=\"height:1px;background-color:#9A6C8E;\"/>\n"
 >>>>>>> upstream/18.0
@@ -16925,6 +17087,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "set=\"tdBgColor\" t-value=\"'#fff'\"></t>\n"
 "                                                        <t t-set=\"tdColor\" "
 "t-value=\"'gray'\"></t>\n"
@@ -16937,6 +17100,8 @@ msgid ""
 "{{ tdBgColor }};padding :5px 0;font-size:20px;\"><t t-out=\"goal['rank']+1 "
 "or ''\"></t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17209,6 +17374,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17388,6 +17556,7 @@ msgid ""
 "                                                        <td width=\"25%\" "
 "align=\"left\" valign=\"middle\" t-attf-style=\"background-color:"
 "{{ tdBgColor }};padding :5px 0;font-size:13px;\"><t t-out=\"goal['name'] or "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17666,6 +17835,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "''\"/></td>\n"
 "                                                        <td width=\"30%\" "
 "align=\"right\" t-attf-style=\"background-color:{{ tdBgColor }};padding:5px "
@@ -17769,6 +17940,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18315,7 +18489,11 @@ msgid "Cancelled"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otkazano"
+>>>>>>> upstream/18.0
 =======
 msgstr "Otkazano"
 >>>>>>> upstream/18.0
@@ -18854,7 +19032,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19121,6 +19302,9 @@ msgstr "Indeks boje"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19420,7 +19604,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Consolidation from %s to %s"
+=======
+msgid "Consolidation from %(from_date)s to %(end_date)s"
+>>>>>>> upstream/18.0
 =======
 msgid "Consolidation from %(from_date)s to %(end_date)s"
 >>>>>>> upstream/18.0
@@ -19820,7 +20008,11 @@ msgid "Create User"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreiraj korisnika"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kreiraj korisnika"
 >>>>>>> upstream/18.0
@@ -20432,7 +20624,11 @@ msgid "Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datum"
+>>>>>>> upstream/18.0
 =======
 msgstr "Datum"
 >>>>>>> upstream/18.0
@@ -21039,7 +21235,11 @@ msgid "Doctor"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Doktor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Doktor"
 >>>>>>> upstream/18.0
@@ -21607,7 +21807,11 @@ msgid "Everyone"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Svi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Svi"
 >>>>>>> upstream/18.0
@@ -22646,7 +22850,11 @@ msgid "Manual"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ručno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ručno"
 >>>>>>> upstream/18.0
@@ -23368,7 +23576,11 @@ msgid "Number of messages requiring action"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj poruka koje zahtevaju akciju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Broj poruka koje zahtevaju akciju"
 >>>>>>> upstream/18.0
@@ -23885,11 +24097,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:gamification.badge_kanban_view
 msgid "Owner"
 msgstr "Vlasnik"
 
 #. module: gamification
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24205,7 +24420,11 @@ msgid "Participants"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Učesnici"
+>>>>>>> upstream/18.0
 =======
 msgstr "Učesnici"
 >>>>>>> upstream/18.0
@@ -24744,6 +24963,7 @@ msgid "Related Goals"
 msgstr ""
 
 #. module: gamification
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25469,6 +25689,8 @@ msgstr "Povezano korisničko ime za resurs radi upravljanja njegovim pristupom."
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__remaining_sending
 msgid "Remaining Sending Allowed"
 msgstr ""
@@ -25616,8 +25838,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Reward (badge %(badge_name)s) for every succeeding user was sent to "
 "%(users)s."
+=======
+"Reward (badge %(badge_name)s) for every succeeding user was sent to %"
+"(users)s."
+>>>>>>> upstream/18.0
 =======
 "Reward (badge %(badge_name)s) for every succeeding user was sent to %"
 "(users)s."
@@ -26262,7 +26489,11 @@ msgid "Source"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izvorno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izvorno"
 >>>>>>> upstream/18.0
@@ -26788,7 +27019,11 @@ msgid "Source Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta izvora"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrsta izvora"
 >>>>>>> upstream/18.0
@@ -27350,7 +27585,11 @@ msgid "Student"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Student"
+>>>>>>> upstream/18.0
 =======
 msgstr "Student"
 >>>>>>> upstream/18.0
@@ -27893,7 +28132,11 @@ msgid "Target"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cilj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cilj"
 >>>>>>> upstream/18.0
@@ -28430,10 +28673,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The domain for the definition %s seems incorrect, please check it.\n"
 "\n"
 "%s"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -28699,6 +28945,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -29086,8 +29335,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "reference to 'user' which is a browse record of the current user, e.g. user."
 "id, user.partner_id.id..."
+=======
+"reference to 'user' which is a browse record of the current user, e.g. "
+"user.id, user.partner_id.id..."
+>>>>>>> upstream/18.0
 =======
 "reference to 'user' which is a browse record of the current user, e.g. "
 "user.id, user.partner_id.id..."
@@ -29610,7 +29864,11 @@ msgid "Track Karma Changes"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prati promene Karme"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prati promene Karme"
 >>>>>>> upstream/18.0
@@ -30234,7 +30492,11 @@ msgid "Yearly"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Godišnje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Godišnje"
 >>>>>>> upstream/18.0
@@ -30866,7 +31128,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -31135,6 +31400,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

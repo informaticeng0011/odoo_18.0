@@ -32,6 +32,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* website_event_track
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -386,10 +387,15 @@
 # * website_event_track
 #
 >>>>>>> upstream/18.0
+=======
+# * website_event_track
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Wil Odoo, 2024
 # Paweł Wodyński <pw@myodoo.pl>, 2024
 # Marta Wacławek, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -743,10 +749,14 @@
 =======
 # "Marta (wacm)" <wacm@odoo.com>, 2026.
 >>>>>>> upstream/18.0
+=======
+# "Marta (wacm)" <wacm@odoo.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1029,6 +1039,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2026-02-20 18:39+0000\n"
 "PO-Revision-Date: 2026-02-24 23:34+0000\n"
 "Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
@@ -1065,6 +1077,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1133,6 +1148,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1493,11 +1509,17 @@ msgstr ""
 "(n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || "
+"(n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:mail.template,body_html:website_event_track.mail_template_data_track_confirmation
 msgid ""
 "\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1593,6 +1615,8 @@ msgid ""
 "    <div style=\"margin: 16px 0px 16px 0px;\">\n"
 "        <a t-attf-href=\"/event/{{ object.event_id.id }}/track/{{ object.id }}\" style=\"padding: 8px 16px 8px 16px; font-size: 14px; color: #FFFFFF; text-decoration: none !important; background-color: #875A7B; border: 0px solid #875A7B; border-radius:3px\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1867,6 +1891,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2137,7 +2164,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+=======
+"        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-"
+"o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+>>>>>>> upstream/18.0
 =======
 "        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-"
 "o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
@@ -2625,6 +2657,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:website_event_track.res_config_settings_view_form
 msgid ""
 "<span class=\"fa fa-lg fa-globe\" title=\"Values set here are website-"
@@ -2712,6 +2745,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:website_event_track.agenda_online
 #: model_terms:ir.ui.view,arch_db:website_event_track.tracks_main
 msgid "<span class=\"fa fa-plus me-1\"/> Schedule Tracks"
@@ -2721,6 +2756,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
 msgid ""
 "<span class=\"o_wetrack_proposal_error_section text-danger d-none ml8\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2986,6 +3022,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                    <i class=\"fa fa-close mr4\" "
 "role=\"img\" aria-label=\"Error\" title=\"Error\"/>\n"
 "                                    <span "
@@ -3077,6 +3115,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3409,11 +3450,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Stan wystąpień kanban wskazuje na szczególne sytuacje, które na nią wpływają:\n"
 " * Szary jest domyślną sytuacją\n"
 " * Kolor czerwony oznacza, że coś przeszkadza w postępie tej ścieżki\n"
 " * Kolor zielony oznacza, że ścieżka jest gotowa do przeniesienia do następnego etapu"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3681,6 +3725,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3981,8 +4028,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Dodaj opis by pomóc swoim współpracowniikom zrozumieć powód i cel tego "
 "etapu."
+=======
+"Dodaj opis by pomóc swoim współpracowniikom zrozumieć powód i cel tego etapu."
+>>>>>>> upstream/18.0
 =======
 "Dodaj opis by pomóc swoim współpracowniikom zrozumieć powód i cel tego etapu."
 >>>>>>> upstream/18.0
@@ -4351,8 +4402,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Dodaj znaczniki do swoich wystąpień by pomóc uczestnikom przeszukiwać strony"
 " internetowe Twojego wydarzenia."
+=======
+"Dodaj znaczniki do swoich wystąpień by pomóc uczestnikom przeszukiwać strony "
+"internetowe Twojego wydarzenia."
+>>>>>>> upstream/18.0
 =======
 "Dodaj znaczniki do swoich wystąpień by pomóc uczestnikom przeszukiwać strony "
 "internetowe Twojego wydarzenia."
@@ -4869,8 +4925,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Kluczowe wystąpienie nie może zostać nieulubione, to pole przetrzymuje wybór"
 " kontaktu aby usunąć przypomnienie o kluczowym wystąpieniu."
+=======
+"Kluczowe wystąpienie nie może zostać nieulubione, to pole przetrzymuje wybór "
+"kontaktu aby usunąć przypomnienie o kluczowym wystąpieniu."
+>>>>>>> upstream/18.0
 =======
 "Kluczowe wystąpienie nie może zostać nieulubione, to pole przetrzymuje wybór "
 "kontaktu aby usunąć przypomnienie o kluczowym wystąpieniu."
@@ -5315,6 +5376,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "As you may have heard before, making your own furniture is actually not as difficult or as complicated as you think.\n"
 "    In fact, some projects are so easy anyone could successfully complete them. For example, making a cute stool out of\n"
 "    a old tire is a real piece of cake and if you’re in need of a coffee table you can easily put one together using\n"
@@ -5324,6 +5386,8 @@ msgstr ""
 "W zasadzie, wiele projektów jest tak łatwe, że każdy mógłby zakończyć je z sukcesem. Na przykład, stworzenie ślicznego stołka z \n"
 "starej opony jest jak bułka z masłem i jeżeli potrzebujesz stolika możesz taki łatwo zrobić poprzez złączenie razem\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5599,6 +5663,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5962,7 +6029,11 @@ msgid "Config Settings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ustawienia konfiguracji"
+=======
+msgstr "Konfiguracja ustawień"
+>>>>>>> upstream/18.0
 =======
 msgstr "Konfiguracja ustawień"
 >>>>>>> upstream/18.0
@@ -6167,8 +6238,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "więcej na temat procesu konstrukcji i końcowy efekt. Proste wyjaśnienie krok"
 " po kroku! Zainteresowany? "
+=======
+"więcej na temat procesu konstrukcji i końcowy efekt. Proste wyjaśnienie krok "
+"po kroku! Zainteresowany? "
+>>>>>>> upstream/18.0
 =======
 "więcej na temat procesu konstrukcji i końcowy efekt. Proste wyjaśnienie krok "
 "po kroku! Zainteresowany? "
@@ -6721,8 +6797,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Zdefiniuj kolejność, w jakiej lokacje będą wyświetlane na stronie "
 "\"Agenda\"."
+=======
+"Zdefiniuj kolejność, w jakiej lokacje będą wyświetlane na stronie \"Agenda\"."
+>>>>>>> upstream/18.0
 =======
 "Zdefiniuj kolejność, w jakiej lokacje będą wyświetlane na stronie \"Agenda\"."
 >>>>>>> upstream/18.0
@@ -7497,8 +7577,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Jeśli zaznaczone, automatycznie publikuje wystąpienia, żeby linki z dostępem"
 "  zostały dostarczone do klientów"
+=======
+"Jeśli zaznaczone, automatycznie publikuje wystąpienia, żeby linki z "
+"dostępem  zostały dostarczone do klientów"
+>>>>>>> upstream/18.0
 =======
 "Jeśli zaznaczone, automatycznie publikuje wystąpienia, żeby linki z "
 "dostępem  zostały dostarczone do klientów"
@@ -7971,8 +8056,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If set, the talk will be set as favorite for each attendee registered to the"
 " event."
+=======
+"If set, the talk will be set as favorite for each attendee registered to the "
+"event."
+>>>>>>> upstream/18.0
 =======
 "If set, the talk will be set as favorite for each attendee registered to the "
 "event."
@@ -8690,8 +8780,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Zarządzaj stąd miejsca w których organizujesz swoje wystąpienia (np. pokoje,"
 " pomieszczenia)"
+=======
+"Zarządzaj stąd miejsca w których organizujesz swoje wystąpienia (np. pokoje, "
+"pomieszczenia)"
+>>>>>>> upstream/18.0
 =======
 "Zarządzaj stąd miejsca w których organizujesz swoje wystąpienia (np. pokoje, "
 "pomieszczenia)"
@@ -9262,8 +9357,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Pamiętaj, że znaczniki bez koloru nie będą widocznie na stronie "
 "internetowej."
+=======
+"Pamiętaj, że znaczniki bez koloru nie będą widocznie na stronie internetowej."
+>>>>>>> upstream/18.0
 =======
 "Pamiętaj, że znaczniki bez koloru nie będą widocznie na stronie internetowej."
 >>>>>>> upstream/18.0
@@ -9673,8 +9772,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Zaplanuj swoje doznanie poprzez dodanie ulubionych wystąpień do swojej listy"
 " życzeń"
+=======
+"Zaplanuj swoje doznanie poprzez dodanie ulubionych wystąpień do swojej listy "
+"życzeń"
+>>>>>>> upstream/18.0
 =======
 "Zaplanuj swoje doznanie poprzez dodanie ulubionych wystąpień do swojej listy "
 "życzeń"
@@ -10295,8 +10399,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Wysłane do prelegentów, których propozycja wystąpienia została zaakceptowana"
 " (ustaw szablon na właściwym etapie)"
+=======
+"Wysłane do prelegentów, których propozycja wystąpienia została zaakceptowana "
+"(ustaw szablon na właściwym etapie)"
+>>>>>>> upstream/18.0
 =======
 "Wysłane do prelegentów, których propozycja wystąpienia została zaakceptowana "
 "(ustaw szablon na właściwym etapie)"
@@ -10924,8 +11033,12 @@ msgid "Task in progress. Click to block or set as done."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Zadanie w trakcie. Naciśnij by oznaczyć jako zablokowane lub zrobione."
+=======
+msgstr "Zadanie w trakcie. Naciśnij by oznaczyć jako zablokowane lub zrobione."
+>>>>>>> upstream/18.0
 =======
 msgstr "Zadanie w trakcie. Naciśnij by oznaczyć jako zablokowane lub zrobione."
 >>>>>>> upstream/18.0
@@ -11319,12 +11432,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "There are several variants of wood is available in the world but we are talking about most expensive\n"
 "    ones in the world and keeping to the point we have arranged ten most expensive wood."
 msgstr ""
 "Jest wiele różnych rodzajów drewna dostępnych na świecie ale tutaj porozmiawmy o tych najdroższych\n"
 "na świecie i trzymając się tematu, ułożyliśmy dziesięć najdroższych gatunków drewna."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11595,6 +11711,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11874,8 +11993,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "They will be created automatically once attendees start browsing your "
 "events."
+=======
+"They will be created automatically once attendees start browsing your events."
+>>>>>>> upstream/18.0
 =======
 "They will be created automatically once attendees start browsing your events."
 >>>>>>> upstream/18.0
@@ -12238,8 +12361,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "To pole przetrzymuje grafikę używaną jako ikona mobilnej aplikacji na "
 "stronie"
+=======
+"To pole przetrzymuje grafikę używaną jako ikona mobilnej aplikacji na stronie"
+>>>>>>> upstream/18.0
 =======
 "To pole przetrzymuje grafikę używaną jako ikona mobilnej aplikacji na stronie"
 >>>>>>> upstream/18.0
@@ -12657,12 +12784,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Top most expensive wood in the world is quite interesting topic and several people may be surprised\n"
 "    that there are hundreds of wood types exist around the globe following different properties and use."
 msgstr ""
 "Najdroższe typy drewna na świecie to dosyć ciekawy temat i wiele ludzi może być zaskoczonych,\n"
 "że są setki typów drewna istniejących na całym świecie, które mają różne właściwości i użycie."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12933,6 +13063,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13342,8 +13475,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Wystąpienia definiują harmonogram wydarzenia. To mogą być rozmowy, warsztaty"
 " lub jakakolwiek inna aktywność."
+=======
+"Wystąpienia definiują harmonogram wydarzenia. To mogą być rozmowy, warsztaty "
+"lub jakakolwiek inna aktywność."
+>>>>>>> upstream/18.0
 =======
 "Wystąpienia definiują harmonogram wydarzenia. To mogą być rozmowy, warsztaty "
 "lub jakakolwiek inna aktywność."
@@ -13814,6 +13952,7 @@ msgstr "Nieprzeczytane wiadomości"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:event.track,description:website_event_track.event_7_track_6
 msgid ""
 "Use these simple steps to easily haul LONG lumber in a short box pickup truck.  A dose of carpenter's\n"
@@ -13823,6 +13962,8 @@ msgstr ""
 "Użyj tych prostych kroków by łatwo załadować DŁUGI budulec do krótkiego pickupa. Wiele cieśli\n"
 "próbuje z pomocą kilku desek, wytrzymałego paska, kilku śrób. Wszystko czego ja używam by łatwo załadować\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14104,6 +14245,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14372,12 +14516,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Using a unique wrapping method for a tie down strap (NOT Bungee cords!!!) allows lumber to be\n"
 "    cinched securely WITHOUT the need to tie and untie tricky or complicated knots."
 msgstr ""
 "Używając unikalnej metody pakowania na pasek do wiązania (nie Bungee) pozwala budulcowi na zostanie\n"
 "ścieśniętych bezpiecznie BEZ potrzeby na wiązanie i odwiązywanie zawiłych i skomplikowanych wiązadeł. "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14648,6 +14795,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14746,6 +14894,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14865,6 +15015,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15013,6 +15166,7 @@ msgid ""
 "                                inclusion in the programme."
 msgstr ""
 "Przyjmiemy szeroką gamę\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15278,6 +15432,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                prezentacji, od raportów dotyczących "
 "projektów\n"
 "                                akademickich i komercyjnych, po tutoriale i "
@@ -15369,6 +15525,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15808,7 +15967,10 @@ msgstr "zaczyna się"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15930,6 +16092,9 @@ msgstr "zaczyna się"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

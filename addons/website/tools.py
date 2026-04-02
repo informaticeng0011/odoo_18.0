@@ -326,6 +326,10 @@ def MockRequest(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            force_website_id=website and website.id,
+>>>>>>> upstream/18.0
 =======
             force_website_id=website and website.id,
 >>>>>>> upstream/18.0
@@ -1314,7 +1318,12 @@ def add_form_signature(html_fragment, env_sudo):
         email_to_value = form_values['email_to'].attrib.get('value')
         if (not email_to_value
             or (email_to_value == 'info@yourcompany.example.com'
+<<<<<<< HEAD
                 and html_fragment.xpath('//span[@data-for="contactus_form"]'))):
+=======
+                and html_fragment.xpath('//span[@data-for="contactus_form"]')
+                and html_fragment.xpath('//form[@id="contactus_form"]'))):
+>>>>>>> upstream/18.0
             # This means that the mail will be sent to the value of the dataFor
             # which is the company email.
             email_to_value = env_sudo.company.email or ''
