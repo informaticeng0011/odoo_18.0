@@ -23,7 +23,10 @@ class TestUblBis3SelfBilling(TestUblBis3Common, TestUblCiiBECommon):
 
     def test_export_selfbilling(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         self.env['res.partner'].create({
             'name': 'custom delivery address',
             'parent_id': self.company.partner_id.id,
@@ -35,6 +38,9 @@ class TestUblBis3SelfBilling(TestUblBis3Common, TestUblCiiBECommon):
             'country_id': self.ref('base.be'),
         })
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         tax_21 = self.percent_tax(21.0)
         product = self._create_product(lst_price=100.0, taxes_id=tax_21)

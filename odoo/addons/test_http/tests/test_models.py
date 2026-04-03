@@ -245,7 +245,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import html
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1050,7 +1053,11 @@ class TestHttpModels(TestHttpBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertIn("The goa'uld destroyed the gate", html.unescape(res.text))
+=======
+        self.assertIn("The goauld destroyed the gate", res.text)
+>>>>>>> upstream/18.0
 =======
         self.assertIn("The goauld destroyed the gate", res.text)
 >>>>>>> upstream/18.0

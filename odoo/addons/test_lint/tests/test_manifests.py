@@ -16,6 +16,11 @@ MANIFEST_KEYS = {
     *_DEFAULT_MANIFEST,                        # optional keys
     'contributors', 'maintainer', 'url',       # unused "informative" keys
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    # for odoo apps store
+    'price', 'currency', 'support', 'live_test_url'
+>>>>>>> upstream/18.0
 =======
     # for odoo apps store
     'price', 'currency', 'support', 'live_test_url'

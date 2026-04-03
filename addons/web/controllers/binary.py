@@ -95,9 +95,15 @@ class Binary(http.Controller):
         assert isinstance(assets_params, dict)
         debug_assets = unique == 'debug'
 <<<<<<< HEAD
+<<<<<<< HEAD
         if unique in ('any', '%'):
             unique = ANY_UNIQUE
         attachment = None
+=======
+        stream = None
+        if unique in ('any', '%'):
+            unique = ANY_UNIQUE
+>>>>>>> upstream/18.0
 =======
         stream = None
         if unique in ('any', '%'):
@@ -116,7 +122,13 @@ class Binary(http.Controller):
             ]
             attachment = env['ir.attachment'].sudo().search(domain, limit=1)
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not attachment:
+=======
+            if attachment:
+                stream = env['ir.binary']._get_stream_from(attachment, 'raw', filename)
+        if stream is None:
+>>>>>>> upstream/18.0
 =======
             if attachment:
                 stream = env['ir.binary']._get_stream_from(attachment, 'raw', filename)
@@ -150,6 +162,7 @@ class Binary(http.Controller):
                     if not debug_assets and unique != ANY_UNIQUE and unique != bundle.get_version(asset_type):
                         return request.redirect(bundle.get_link(asset_type))
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if css and bundle.stylesheets:
                         attachment = env['ir.attachment'].sudo().browse(bundle.css().id)
                     elif js and bundle.javascripts:
@@ -161,6 +174,8 @@ class Binary(http.Controller):
             raise request.not_found()
         stream = env['ir.binary']._get_stream_from(attachment, 'raw', filename)
 =======
+=======
+>>>>>>> upstream/18.0
                     attachment = None
                     if css and bundle.stylesheets:
                         attachment = bundle.css()
@@ -173,6 +188,9 @@ class Binary(http.Controller):
                     raise request.not_found() from e
         if stream is None:
             raise request.not_found()
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         send_file_kwargs = {'as_attachment': False, 'content_security_policy': None}
         if unique and unique != 'debug':
@@ -257,7 +275,11 @@ class Binary(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ], type='http', auth='public', readonly=True)
+=======
+    ], type='http', auth='public', readonly=True, save_session=False)
+>>>>>>> upstream/18.0
 =======
     ], type='http', auth='public', readonly=True, save_session=False)
 >>>>>>> upstream/18.0

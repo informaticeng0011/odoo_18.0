@@ -234,7 +234,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     previousLeaf,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -932,7 +935,11 @@ import { Plugin } from "../plugin";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { DIRECTIONS, endPos, leftPos, nodeSize, rightPos } from "../utils/position";
+=======
+import { DIRECTIONS, leftPos, nodeSize, rightPos } from "../utils/position";
+>>>>>>> upstream/18.0
 =======
 import { DIRECTIONS, leftPos, nodeSize, rightPos } from "../utils/position";
 >>>>>>> upstream/18.0
@@ -1885,7 +1892,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { isElement } from "../utils/dom_info";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2557,9 +2567,12 @@ import { closestScrollableY } from "@web/core/utils/scrolling";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property {(node: Node, newOffset: number) => Cursors} setOffset
  * @property {(node: Node, shiftOffset: number) => Cursors} shiftOffset
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2926,6 +2939,9 @@ import { closestScrollableY } from "@web/core/utils/scrolling";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3202,6 +3218,7 @@ export function isNotAllowedContent(node) {
     return isArtificialVoidElement(node) || VOID_ELEMENT_NAMES.includes(node.nodeName);
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3814,6 +3831,8 @@ export function isNotAllowedContent(node) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 function getUnselectedEdgeNodes(selection) {
     const startEdgeNodes = (node, offset) =>
         node === selection.commonAncestorContainer || offset < nodeSize(node)
@@ -3842,6 +3861,7 @@ function scrollToSelection(selection) {
         return;
     }
     let rect = range.getBoundingClientRect();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4634,6 +4654,8 @@ function scrollToSelection(selection) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     // If the range is invisible (0 width & height),
     // We call `getBoundingClientRect` on closest element.
     if (rect.width === 0 && rect.height === 0 && selection.isCollapsed) {
@@ -4896,6 +4918,9 @@ function scrollToSelection(selection) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5419,6 +5444,7 @@ function scrollToSelection(selection) {
     const offsetTop = rect.top - containerRect.top + container.scrollTop;
     const offsetBottom = rect.bottom - containerRect.top + container.scrollTop;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6636,6 +6662,10 @@ function scrollToSelection(selection) {
     if (rect.bottom > containerRect.top && rect.top < containerRect.bottom) {
         // If selection is partially visible, no need to scroll.
 >>>>>>> upstream/18.0
+=======
+    if (rect.bottom > containerRect.top && rect.top < containerRect.bottom) {
+        // If selection is partially visible, no need to scroll.
+>>>>>>> upstream/18.0
         return;
     }
     // Simulate the "nearest" behavior by scrolling to the closest top/bottom edge
@@ -6858,10 +6888,13 @@ function scrollToSelection(selection) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property { SelectionPlugin['modifySelection'] } modifySelection
  * @property { SelectionPlugin['preserveSelection'] } preserveSelection
  * @property { SelectionPlugin['rectifySelection'] } rectifySelection
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7474,6 +7507,9 @@ function scrollToSelection(selection) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8100,12 +8136,15 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "getSelectedNodes",
         "getTraversedNodes",
         "getTraversedBlocks",
         "modifySelection",
         "rectifySelection",
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8720,6 +8759,9 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9333,6 +9375,10 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        "isNodeEditable",
+>>>>>>> upstream/18.0
 =======
         "isNodeEditable",
 >>>>>>> upstream/18.0
@@ -10149,6 +10195,10 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        is_node_editable_predicates: (node) => node.parentElement?.isContentEditable,
+>>>>>>> upstream/18.0
 =======
         is_node_editable_predicates: (node) => node.parentElement?.isContentEditable,
 >>>>>>> upstream/18.0
@@ -10770,6 +10820,7 @@ export class SelectionPlugin extends Plugin {
             }
         });
         this.addDomListener(this.editable, "mousedown", (ev) => {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12007,6 +12058,10 @@ export class SelectionPlugin extends Plugin {
             if (ev.detail === 2) {
                 this.correctDoubleClick = true;
 >>>>>>> upstream/18.0
+=======
+            if (ev.detail === 2) {
+                this.correctDoubleClick = true;
+>>>>>>> upstream/18.0
             }
             this.handleEmptySelection();
         });
@@ -12252,7 +12307,10 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12942,6 +13000,7 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13486,6 +13545,8 @@ export class SelectionPlugin extends Plugin {
         this.preservedCursors = [];
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13510,6 +13571,9 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13536,6 +13600,7 @@ export class SelectionPlugin extends Plugin {
         this.activeSelection = this.makeActiveSelection();
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14224,6 +14289,8 @@ export class SelectionPlugin extends Plugin {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     onTripleClick(ev) {
         const selectionData = this.getSelectionData();
         if (selectionData.documentSelectionIsInEditable) {
@@ -14348,6 +14415,9 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14820,6 +14890,9 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15543,6 +15616,7 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (this.correctTripleClick) {
                 this.correctTripleClick = false;
                 let { anchorNode, anchorOffset, focusNode, focusOffset } = this.activeSelection;
@@ -15567,6 +15641,8 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16321,6 +16397,9 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16903,10 +16982,13 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (
                 this.activeSelection &&
                 (isProtecting(anchorNode) ||
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17083,6 +17165,9 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17256,7 +17341,10 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17429,6 +17517,7 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17450,6 +17539,8 @@ export class SelectionPlugin extends Plugin {
                 focusOffset,
                 direction ? "right" : "left"
             );
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17720,10 +17811,13 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (documentSelectionIsInEditable) {
             this.activeSelection = this.makeActiveSelection(selection);
         } else if (!this.activeSelection.anchorNode.isConnected) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17930,6 +18024,9 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18316,10 +18413,13 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         return {
             restore: () => {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18637,6 +18737,9 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18953,11 +19056,14 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         anchorNode: anchor.node,
                         anchorOffset: anchor.offset,
                         focusNode: focus.node,
                         focusOffset: focus.offset,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19271,6 +19377,9 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19586,6 +19695,7 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             update(callback) {
                 callback(anchor);
                 callback(focus);
@@ -19594,6 +19704,8 @@ export class SelectionPlugin extends Plugin {
             remapNode(node, newNode) {
                 return this.update((cursor) => {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19915,6 +20027,9 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20248,6 +20363,7 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -20341,6 +20457,8 @@ export class SelectionPlugin extends Plugin {
             setOffset(node, newOffset) {
                 return this.update((cursor) => {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20660,6 +20778,9 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20977,7 +21098,11 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 return this.update((cursor) => {
+=======
+                return cursor.update((cursor) => {
+>>>>>>> upstream/18.0
 =======
                 return cursor.update((cursor) => {
 >>>>>>> upstream/18.0
@@ -21416,6 +21541,7 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             anchor,
             focus,
@@ -21785,6 +21911,8 @@ export class SelectionPlugin extends Plugin {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22101,6 +22229,9 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22539,6 +22670,9 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22949,6 +23083,7 @@ export class SelectionPlugin extends Plugin {
      * @returns {Node[]}
      */
     getSelectedNodes() {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23570,6 +23705,8 @@ export class SelectionPlugin extends Plugin {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         return this.getTraversedNodes().filter((node) =>
             this.areNodeContentsFullySelected(node, false)
         );
@@ -23780,6 +23917,9 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24422,7 +24562,10 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25099,6 +25242,9 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25714,7 +25860,10 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26330,6 +26479,9 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26866,7 +27018,11 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             focusTarget.previousSibling === anchorTarget &&
+=======
+            focusTarget?.previousSibling === anchorTarget &&
+>>>>>>> upstream/18.0
 =======
             focusTarget?.previousSibling === anchorTarget &&
 >>>>>>> upstream/18.0
@@ -27128,6 +27284,7 @@ export class SelectionPlugin extends Plugin {
         );
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -27747,6 +27904,8 @@ export class SelectionPlugin extends Plugin {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     isNodeEditable(node) {
         return this.getResource("is_node_editable_predicates").some((p) => p(node));
     }
@@ -27901,7 +28060,12 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (this.editable.contains(this.document.activeElement)) {
+=======
+        const { editableSelection, documentSelectionIsInEditable } = this.getSelectionData();
+        if (this.editable.contains(this.document.activeElement) && documentSelectionIsInEditable) {
+>>>>>>> upstream/18.0
 =======
         const { editableSelection, documentSelectionIsInEditable } = this.getSelectionData();
         if (this.editable.contains(this.document.activeElement) && documentSelectionIsInEditable) {
@@ -28651,6 +28815,7 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const { editableSelection, documentSelectionIsInEditable } = this.getSelectionData();
 
 =======
@@ -28971,6 +29136,11 @@ export class SelectionPlugin extends Plugin {
         // Use the copy of the original focus but prevent scrolling.
         this.editableOriginalFocus.call(this.editable, { preventScroll: true });
 >>>>>>> upstream/18.0
+=======
+        // Manualy focusing the editable is necessary to avoid some non-deterministic error in the HOOT unit tests.
+        // Use the copy of the original focus but prevent scrolling.
+        this.editableOriginalFocus.call(this.editable, { preventScroll: true });
+>>>>>>> upstream/18.0
 
         if (!documentSelectionIsInEditable) {
             // Selection is outside the editor — restore it.
@@ -29181,6 +29351,9 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -298,7 +298,10 @@ class TestSaleOrder(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -368,6 +371,9 @@ class TestSaleOrder(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -438,6 +444,7 @@ class TestSaleOrder(SaleCommon):
             self.sale_order.partner_id.name,
             self.sale_order.with_context(sale_show_partner_name=True).display_name)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1259,6 +1266,8 @@ class TestSaleOrder(SaleCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def test_sol_names(self):
         """Check that the SOL description gets used for the display name."""
         no_variant_attr = self.env['product.attribute'].create({
@@ -1520,7 +1529,10 @@ class TestSaleOrder(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2245,6 +2257,9 @@ class TestSaleOrder(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2734,6 +2749,7 @@ class TestSaleOrder(SaleCommon):
                 'product_id': no_variant_product.id,
                 'product_no_variant_attribute_value_ids': ptav1.ids,
             }),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4210,11 +4226,17 @@ class TestSaleOrder(SaleCommon):
         ]
         sol1, sol2, sol3, sol4, sol5, sol6 = self.sale_order.order_line
 >>>>>>> upstream/18.0
+=======
+            Command.create({'product_id': product_with_desc.id}),
+        ]
+        sol1, sol2, sol3, sol4, sol5, sol6 = self.sale_order.order_line
+>>>>>>> upstream/18.0
         sol1.name += "\nOK THANK YOU\nGOOD BYE"
 
         self.assertEqual(
             sol1.display_name,
             f"{self.sale_order.name} - OK THANK YOU ({self.partner.name})",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4942,6 +4964,8 @@ class TestSaleOrder(SaleCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             "Product line with a custom description should display the first line of description",
         )
         self.assertEqual(
@@ -5187,6 +5211,9 @@ class TestSaleOrder(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5931,6 +5958,7 @@ class TestSaleOrder(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5994,6 +6022,8 @@ class TestSaleOrder(SaleCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6741,6 +6771,7 @@ class TestSaleOrder(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6771,6 +6802,8 @@ class TestSaleOrder(SaleCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7497,6 +7530,9 @@ class TestSaleOrder(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8356,7 +8392,10 @@ class TestSaleOrder(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9101,6 +9140,9 @@ class TestSaleOrder(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9999,7 +10041,10 @@ class TestSaleOrder(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10648,6 +10693,7 @@ class TestSaleOrder(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10658,6 +10704,8 @@ class TestSaleOrder(SaleCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11275,6 +11323,9 @@ class TestSaleOrder(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12002,7 +12053,12 @@ class TestSaleMailComposerUI(MailCommon, HttpCase):
         cls.env['mail.alias.domain'].create({'name': 'example.com'})
         cls.partner = cls.env['res.partner'].create({
             'name': 'test customer',
+<<<<<<< HEAD
             'email': 'dummy@example.com'
+=======
+            'lang': 'en_US',
+            'email': 'en@example.com',
+>>>>>>> upstream/18.0
         })
         cls.quotation = cls.env['sale.order'].create({
             'partner_id': cls.partner.id,
@@ -12016,3 +12072,57 @@ class TestSaleMailComposerUI(MailCommon, HttpCase):
                 "mail_attachment_removal_tour",
                 login="admin",
             )
+<<<<<<< HEAD
+=======
+
+    def test_mail_button_translation(self):
+        """Test the final rendering context to ensure the button is properly translated
+        for each recipient's language, checking both the 'View' and the type_name. """
+        self.env['res.lang']._activate_lang('fr_FR')
+        self.partner_fr = self.env['res.partner'].create({
+            'name': 'French Customer',
+            'lang': 'fr_FR',
+            'email': 'fr@example.com',
+        })
+        # Quotation -> SO
+        self.quotation.action_confirm()
+        self.message = self.env['mail.message'].create({
+            'model': 'sale.order',
+            'res_id': self.quotation.id,
+            'body': 'Testing button translation',
+            'message_type': 'comment',
+        })
+        recipients_data = [
+            {'id': self.partner.id, 'lang': 'en_US', 'type': 'customer', 'notif': 'email',
+             'groups': []},
+            {'id': self.partner_fr.id, 'lang': 'fr_FR', 'type': 'follower', 'notif': 'email',
+             'groups': []},
+        ]
+
+        iterator = self.quotation._notify_get_classified_recipients_iterator(
+            message=self.message,
+            recipients_data=recipients_data,
+            msg_vals={'model': 'sale.order'}
+        )
+        results = {lang: group for lang, render_values, group in iterator}
+
+        button_en = results['en_US'].get('button_access', {}).get('title', '')
+        button_fr = results['fr_FR'].get('button_access', {}).get('title', '')
+
+        self.assertNotEqual(
+            button_en,
+            button_fr,
+            "The button text is identical, the context language was not fetched correctly."
+        )
+
+        self.assertEqual(
+            button_en,
+            "View Sales Order",
+            f"Expected 'View Sales Order', got '{button_en}'"
+        )
+        self.assertEqual(
+            button_fr,
+            "Voir Commande client",
+            f"Expected 'Voir Commande client', got '{button_fr}'"
+        )
+>>>>>>> upstream/18.0

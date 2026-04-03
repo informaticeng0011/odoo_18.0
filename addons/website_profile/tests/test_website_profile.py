@@ -1,13 +1,19 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import odoo.tests
 =======
+=======
+>>>>>>> upstream/18.0
 from unittest.mock import patch
 from datetime import date
 from dateutil.relativedelta import relativedelta
 import odoo.tests
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 from odoo.addons.gamification.tests.common import HttpCaseGamification
 
@@ -21,7 +27,10 @@ class TestWebsiteProfile(HttpCaseGamification):
         )
         self.start_tour("/", 'website_profile_description', login="admin")
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     @patch('odoo.addons.website_profile.controllers.main.WebsiteProfile._users_per_page', 2)
     def test_leaderboard_pagination_by_period(self):
@@ -78,4 +87,7 @@ class TestWebsiteProfile(HttpCaseGamification):
                         self.assertIn(user.name, html)
                     else:
                         self.assertNotIn(user.name, html)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

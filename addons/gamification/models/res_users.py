@@ -124,7 +124,10 @@ class Users(models.Model):
         return True
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @api.model
     def _get_user_ids_ranked_by_karma(self, user_domain, from_date=None, to_date=None, limit=30, offset=0):
         """ Return the list of user_ids satisfying the domain, sorted by their
@@ -158,6 +161,9 @@ class Users(models.Model):
         res = self.env.cr.fetchall()
         return [r[0] for r in res]
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _get_tracking_karma_gain_position(self, user_domain, from_date=None, to_date=None):
         """ Get absolute position in term of gained karma for users. First a ranking

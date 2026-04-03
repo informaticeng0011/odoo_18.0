@@ -283,7 +283,11 @@ from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import Form, tagged
+=======
+from odoo.tests import Form, tagged, users
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import Form, tagged, users
 >>>>>>> upstream/18.0
@@ -1484,7 +1488,10 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2017,6 +2024,9 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2654,6 +2664,10 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    @users('simple_accountman')
+>>>>>>> upstream/18.0
 =======
     @users('simple_accountman')
 >>>>>>> upstream/18.0
@@ -4568,6 +4582,10 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        foreign_curr.rounding = 0.001   # to be able to check the amounts up to the 3rd digit
+>>>>>>> upstream/18.0
 =======
         foreign_curr.rounding = 0.001   # to be able to check the amounts up to the 3rd digit
 >>>>>>> upstream/18.0
@@ -5998,7 +6016,10 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6980,6 +7001,7 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7118,6 +7140,8 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7846,6 +7870,9 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9127,6 +9154,11 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
         self.assertFullReconcile(receivable_lines_1.full_reconcile_id, receivable_lines_1)
         self.assertEqual(len(tax_cash_basis_moves), 2)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+        caba_base_name = f'{cash_basis_move.name} - {payment_move.name}'
+>>>>>>> upstream/18.0
 =======
 
         caba_base_name = f'{cash_basis_move.name} - {payment_move.name}'
@@ -9154,12 +9186,18 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
             {'debit': 0.0,      'credit': 0.0,      'account_id': self.tax_account_2.id},
         ])
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         caba_base_lines = tax_cash_basis_moves.line_ids.filtered(lambda l: l.account_id.id == self.cash_basis_base_account.id)
         self.assertTrue(
             all(name == caba_base_name for name in caba_base_lines.mapped('name')),
             'All cash basis basis base journal items should have the name of the moves that triggered them'
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         self.assertAmountsGroupByAccount([
@@ -9216,12 +9254,18 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
             {'debit': 0.0,      'credit': 0.0,      'account_id': self.tax_account_2.id},
         ])
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         caba_base_lines = tax_cash_basis_moves.line_ids.filtered(lambda l: l.account_id.id == self.cash_basis_base_account.id)
         self.assertTrue(
             all(name == caba_base_name for name in caba_base_lines.mapped('name')),
             'All cash basis basis base journal items should have the name of the moves that triggered them'
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         self.assertAmountsGroupByAccount([
@@ -9254,12 +9298,18 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
             {'debit': 0.0,      'credit': 0.0,      'account_id': self.tax_account_2.id},
         ])
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         caba_base_lines = tax_cash_basis_moves.line_ids.filtered(lambda l: l.account_id.id == self.cash_basis_base_account.id)
         self.assertTrue(
             all(name == caba_base_name for name in caba_base_lines.mapped('name')),
             'All cash basis basis base journal items should have the name of the moves that triggered them'
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         self.assertRecordValues(payable_lines_1.full_reconcile_id.exchange_move_id.line_ids, [
@@ -9360,7 +9410,11 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
 
         (cash_basis_move + payment_move).action_post()
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+        caba_base_name = f'{cash_basis_move.name} - {payment_move.name}'
+>>>>>>> upstream/18.0
 =======
         caba_base_name = f'{cash_basis_move.name} - {payment_move.name}'
 >>>>>>> upstream/18.0
@@ -9408,12 +9462,18 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
             {'debit': 0.0,      'credit': 0.0,      'amount_currency': -0.003,  'currency_id': currency_id,     'account_id': self.tax_account_2.id},
         ])
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         caba_base_lines = tax_cash_basis_moves.line_ids.filtered(lambda l: l.account_id.id == self.cash_basis_base_account.id)
         self.assertTrue(
             all(name == caba_base_name for name in caba_base_lines.mapped('name')),
             'All cash basis basis base journal items should have the name of the moves that triggered them'
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         caba_transition_lines_1 = tax_cash_basis_moves.line_ids.filtered(lambda x: x.account_id == self.cash_basis_transfer_account)
@@ -9482,12 +9542,18 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
             {'debit': 0.0,      'credit': 0.0,      'amount_currency': -0.003,  'currency_id': currency_id,     'account_id': self.tax_account_2.id},
         ])
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         caba_base_lines = tax_cash_basis_moves.line_ids.filtered(lambda l: l.account_id.id == self.cash_basis_base_account.id)
         self.assertTrue(
             all(name == caba_base_name for name in caba_base_lines.mapped('name')),
             'All cash basis basis base journal items should have the name of the moves that triggered them'
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         caba_transition_lines_2 = tax_cash_basis_moves.line_ids.filtered(lambda x: x.account_id == self.cash_basis_transfer_account)
@@ -9536,13 +9602,19 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
             {'debit': 0.0,      'credit': 0.0,      'amount_currency': 0.0,     'currency_id': currency_id,     'account_id': self.tax_account_2.id},
         ])
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         caba_base_lines = tax_cash_basis_moves.line_ids.filtered(lambda l: l.account_id.id == self.cash_basis_base_account.id)
         self.assertTrue(
             all(name == caba_base_name for name in caba_base_lines.mapped('name')),
             'All cash basis basis base journal items should have the name of the moves that triggered them'
         )
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         self.assertRecordValues(payable_lines_1.full_reconcile_id.exchange_move_id.line_ids, [
@@ -9991,15 +10063,21 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
             .reconcile()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Check the cash basis moves
         self.assertRecordValues(
             self.env['account.move'].search([('tax_cash_basis_origin_move_id', '=', invoice.id)]).line_ids,
 =======
+=======
+>>>>>>> upstream/18.0
         invoice_caba_base_name = f'{invoice.name} - {refund.name}'
         invoice_caba_moves = self._get_caba_moves(invoice)
         # Check the cash basis moves
         self.assertRecordValues(
             invoice_caba_moves.line_ids,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             [
                 {
@@ -10041,10 +10119,13 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
             ]
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         self.assertRecordValues(
             self.env['account.move'].search([('tax_cash_basis_origin_move_id', '=', refund.id)]).line_ids,
 =======
+=======
+>>>>>>> upstream/18.0
         caba_base_lines = invoice_caba_moves.line_ids.filtered(lambda l: l.account_id.id == self.cash_basis_base_account.id)
         self.assertTrue(
             all(name == invoice_caba_base_name for name in caba_base_lines.mapped('name')),
@@ -10055,6 +10136,9 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
         refund_caba_moves = self._get_caba_moves(refund)
         self.assertRecordValues(
             refund_caba_moves.line_ids,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             [
                 {
@@ -10096,13 +10180,19 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
             ]
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+>>>>>>> upstream/18.0
         refund_caba_base_lines = refund_caba_moves.line_ids.filtered(lambda l: l.account_id.id == self.cash_basis_base_account.id)
         self.assertTrue(
             all(name == refund_caba_base_name for name in refund_caba_base_lines.mapped('name')),
             'All cash basis basis base journal items should have the name of the moves that triggered them'
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         # Check the exchange difference move, to be sure no cash basis rounding data was added into it
         self.assertRecordValues(
@@ -10177,7 +10267,10 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
 
         (invoice_move + payment_move).action_post()
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         receivable_lines = (invoice_move + payment_move).line_ids\
@@ -10190,7 +10283,10 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
         self.assertFullReconcile(receivable_lines.full_reconcile_id, receivable_lines)
         self.assertEqual(len(tax_cash_basis_moves), 1)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         caba_base_name = f'{invoice_move.name} - {payment_move.name}'
 
         caba_base_lines = tax_cash_basis_moves.line_ids.filtered(lambda l: l.account_id.id == self.cash_basis_base_account.id)
@@ -10198,6 +10294,9 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
             all(name == caba_base_name for name in caba_base_lines.mapped('name')),
             'All cash basis basis base journal items should have the name of the moves that triggered them'
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         # == Check the reconciliation of invoice with tax cash basis journal entry.
@@ -10216,12 +10315,18 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
 
         tax_cash_basis_move_reverse = tax_cash_basis_move._reverse_moves(cancel=True)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         reverse_caba_base_lines = tax_cash_basis_move_reverse.line_ids.filtered(lambda l: l.account_id.id == self.cash_basis_base_account.id)
         self.assertTrue(
             all(name == caba_base_name for name in reverse_caba_base_lines.mapped('name')),
             'The reversal of the cash basis basis base journal items should have the name of the moves that triggered the originals'
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         self.assertFullReconcile(receivable_lines.full_reconcile_id, receivable_lines)
@@ -11344,7 +11449,10 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11769,6 +11877,9 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12684,6 +12795,7 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             def create_move_payment(move, payment_amount, with_outstanding_account=False):
                 payment = self.env['account.payment.register'].with_context(
                     active_model='account.move',
@@ -12697,6 +12809,8 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
                 self.assertEqual(payment.state, 'in_process')
                 return payment
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13228,7 +13342,12 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             payment = create_move_payment(vendor_bill, 10)
+=======
+            payment = self.create_move_payment(vendor_bill, 10)
+            self.assertEqual(payment.state, 'in_process')
+>>>>>>> upstream/18.0
 =======
             payment = self.create_move_payment(vendor_bill, 10)
             self.assertEqual(payment.state, 'in_process')
@@ -14105,10 +14224,13 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             payment1 = create_move_payment(customer_invoice, 200)
             payment2 = create_move_payment(customer_invoice, 50)
             payment3 = create_move_payment(customer_invoice, 10)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14634,6 +14756,9 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15162,10 +15287,13 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             payment1 = create_move_payment(customer_invoice_foreign, 30)
             payment2 = create_move_payment(customer_invoice_foreign, 60)
             payment3 = create_move_payment(customer_invoice_foreign, 15)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15691,6 +15819,9 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16219,10 +16350,13 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             payment1 = create_move_payment(customer_invoice_different_currencies, 5)
             payment2 = create_move_payment(customer_invoice_different_currencies, 10)
             payment3 = create_move_payment(customer_invoice_different_currencies, 20)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16748,6 +16882,9 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17275,9 +17412,12 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             payment1 = create_move_payment(customer_invoice_outstanding, 12, True)
             payment2 = create_move_payment(customer_invoice_outstanding, 12)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17801,6 +17941,9 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18403,7 +18546,10 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19185,6 +19331,7 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19324,6 +19471,8 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19859,6 +20008,9 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20438,6 +20590,7 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20458,6 +20611,8 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21083,6 +21238,9 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

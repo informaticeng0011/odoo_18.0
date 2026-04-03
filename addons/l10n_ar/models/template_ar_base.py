@@ -232,6 +232,10 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'sequence': 1,
+>>>>>>> upstream/18.0
 =======
             'sequence': 1,
 >>>>>>> upstream/18.0
@@ -1160,7 +1164,11 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "name": "Ventas Preimpreso",
+=======
+                "name": self.env._("Ventas Preimpreso"),
+>>>>>>> upstream/18.0
 =======
                 "name": self.env._("Ventas Preimpreso"),
 >>>>>>> upstream/18.0

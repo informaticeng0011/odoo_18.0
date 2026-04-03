@@ -136,6 +136,10 @@ import { baseContainerGlobalSelector } from "@html_editor/utils/base_container";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { closestBlock } from "@html_editor/utils/blocks";
+>>>>>>> upstream/18.0
 =======
 import { closestBlock } from "@html_editor/utils/blocks";
 >>>>>>> upstream/18.0
@@ -727,7 +731,11 @@ function target(selectionData) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const el = node.nodeType === Node.ELEMENT_NODE ? node : node.parentElement;
+=======
+    const el = closestBlock(node);
+>>>>>>> upstream/18.0
 =======
     const el = closestBlock(node);
 >>>>>>> upstream/18.0
@@ -1185,6 +1193,7 @@ export class PowerboxPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         user_commands: {
             id: "openPowerbox",
             run: () =>
@@ -1193,6 +1202,8 @@ export class PowerboxPlugin extends Plugin {
                     categories: this.getResource("powerbox_categories"),
                 }),
         },
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1326,11 +1337,14 @@ export class PowerboxPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         power_buttons: withSequence(100, {
             commandId: "openPowerbox",
             title: _t("More options"),
             icon: "fa-ellipsis-v",
         }),
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

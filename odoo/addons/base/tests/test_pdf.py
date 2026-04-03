@@ -68,13 +68,19 @@ class TestPdf(TransactionCase):
         self.assertEqual(len(attachments), 2)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_odoo_pdf_file_reader_with_nested_attachments(self):
         with file_open('base/tests/multi_kids_embedded.pdf', 'rb') as file:
             pdf_reader = pdf.OdooPdfFileReader(file, strict=False)
             attachments = list(pdf_reader.getAttachments())
         self.assertEqual(len(attachments), 2)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_merge_pdf(self):
         self.assertEqual(self.minimal_pdf_reader.getNumPages(), 1)

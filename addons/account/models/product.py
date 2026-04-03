@@ -1,5 +1,10 @@
 # -*- coding: utf-8 -*-
 
+<<<<<<< HEAD
+=======
+from difflib import SequenceMatcher
+
+>>>>>>> upstream/18.0
 from odoo import api, Command, fields, models, _
 from odoo.exceptions import ValidationError
 from odoo.osv import expression
@@ -7,6 +12,10 @@ from odoo.tools import format_amount
 
 ACCOUNT_DOMAIN = "['&', ('deprecated', '=', False), ('account_type', 'not in', ('asset_receivable','liability_payable','asset_cash','liability_credit_card','off_balance'))]"
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 class ProductCategory(models.Model):
     _inherit = "product.category"
 
@@ -101,11 +110,14 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'income': self.property_account_income_id or self.categ_id.property_account_income_categ_id,
             'expense': self.property_account_expense_id or self.categ_id.property_account_expense_categ_id
         }
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -240,6 +252,9 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -497,7 +512,11 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         res = self.taxes_id.filtered(lambda t: t.company_id == self.env.company).compute_all(
+=======
+        res = self.taxes_id._filter_taxes_by_company(self.env.company).compute_all(
+>>>>>>> upstream/18.0
 =======
         res = self.taxes_id._filter_taxes_by_company(self.env.company).compute_all(
 >>>>>>> upstream/18.0
@@ -1195,6 +1214,7 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for product_grouped_by_tax in self.grouped('taxes_id').values():
             product_grouped_by_tax.taxes_id += default_customer_taxes
         self.invalidate_recordset(['taxes_id'])
@@ -1205,6 +1225,8 @@ class ProductTemplate(models.Model):
             product_grouped_by_tax.supplier_taxes_id += default_supplier_taxes
         self.invalidate_recordset(['supplier_taxes_id'])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1810,6 +1832,9 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2214,6 +2239,7 @@ class ProductTemplate(models.Model):
         # If no company was set for the product, the product will be available for all companies and therefore should
         # have the default taxes of the other companies as well. sudo() is used since we're going to need to fetch all
         # the other companies default taxes which the user may not have access to.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2939,6 +2965,9 @@ class ProductTemplate(models.Model):
 =======
         other_companies = self.env['res.company'].sudo().search(['!', ('id', 'child_of', self.env.companies.ids)])
 >>>>>>> upstream/18.0
+=======
+        other_companies = self.env['res.company'].sudo().search(['!', ('id', 'child_of', self.env.companies.ids)])
+>>>>>>> upstream/18.0
         if other_companies and products:
             products_without_company = products.filtered(lambda p: not p.company_id).sudo()
             products_without_company._force_default_tax(other_companies)
@@ -3060,10 +3089,38 @@ class ProductProduct(models.Model):
         :param extra_domain:    Any extra domain to add to the search.
         :returns:               A product or an empty recordset if not found.
         '''
+<<<<<<< HEAD
+=======
+
+        def find_product_by_name_similarity(base_domain):
+            """ Returns the first product whose name similarity ratio with the provided name is at least 90%. """
+
+            # Get similarity threshold from system parameter, fallback to 0.9 if missing, invalid, or out of range (0, 1].
+            try:
+                similarity_threshold = float(
+                    self.env['ir.config_parameter'].sudo().get_param('account.product_name_similarity_threshold', '0.9')
+                )
+                if similarity_threshold <= 0.0 or similarity_threshold > 1.0:
+                    similarity_threshold = 0.9
+            except ValueError:
+                similarity_threshold = 0.9
+
+            products = self.search(
+                expression.AND([
+                    [('name', 'ilike', name)],
+                    base_domain,
+                ]),
+            )
+            for product in products:
+                if SequenceMatcher(None, name.lower(), product.name.lower()).ratio() >= similarity_threshold:
+                    return product
+
+>>>>>>> upstream/18.0
         if name and '\n' in name:
             # cut Sales Description from the name
             name = name.split('\n')[0]
         domains = []
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3892,11 +3949,14 @@ class ProductProduct(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         if barcode:
             domains.append([('barcode', '=', barcode)])
         if default_code:
             domains.append([('default_code', '=', default_code)])
         if name:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5117,12 +5177,16 @@ class ProductProduct(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+            domains.append([('name', '=ilike', name)])
+>>>>>>> upstream/18.0
 
         company = company or self.env.company
         for company_domain in (
             [*self.env['res.partner']._check_company_domain(company), ('company_id', '!=', False)],
             [('company_id', '=', False)],
         ):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5937,12 +6001,19 @@ class ProductProduct(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+            base_domain = expression.AND([company_domain, extra_domain or []])
+>>>>>>> upstream/18.0
             for domain in domains:
                 product = self.env['product.product'].search(
                     expression.AND([
                         domain,
+<<<<<<< HEAD
                         company_domain,
                         extra_domain or [],
+=======
+                        base_domain,
+>>>>>>> upstream/18.0
                     ]),
                     limit=1
                 )
@@ -6048,6 +6119,7 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6246,5 +6318,12 @@ class ProductProduct(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+            # checking length to avoid matching unrelated products whose names merely contain that short string
+            if name and len(name) > 4 and (product := find_product_by_name_similarity(base_domain)):
+                return product
+
 >>>>>>> upstream/18.0
         return self.env['product.product']

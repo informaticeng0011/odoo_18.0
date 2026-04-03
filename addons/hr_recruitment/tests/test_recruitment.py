@@ -119,6 +119,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from odoo.fields import Date
 >>>>>>> upstream/18.0
@@ -471,10 +472,15 @@ from odoo.fields import Date
 from odoo.fields import Date
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 from datetime import datetime
 from freezegun import freeze_time
 from pytz import timezone
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 from odoo.tests import tagged, TransactionCase
 
@@ -823,7 +829,10 @@ class TestRecruitment(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1273,6 +1282,7 @@ class TestRecruitment(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1566,10 +1576,15 @@ class TestRecruitment(TransactionCase):
 
     def test_job_overdue_activities(self):
 =======
+=======
+>>>>>>> upstream/18.0
 
     @freeze_time('2026-01-01 12:30:00')
     def test_job_overdue_activities(self):
         self.env.user.tz = 'Europe/Brussels'
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         job = self.env["hr.job"].create({
             "name": "Test Job",
@@ -1596,7 +1611,11 @@ class TestRecruitment(TransactionCase):
         activity = self.env["mail.activity"].create({
             "activity_type_id": persistent_activity_type.id,
 <<<<<<< HEAD
+<<<<<<< HEAD
             "date_deadline": Date.today(),
+=======
+            "date_deadline": datetime.now(tz=timezone(self.env.user.tz)).date(),
+>>>>>>> upstream/18.0
 =======
             "date_deadline": datetime.now(tz=timezone(self.env.user.tz)).date(),
 >>>>>>> upstream/18.0
@@ -1730,6 +1749,7 @@ class TestRecruitment(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1964,4 +1984,36 @@ class TestRecruitment(TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_default_template_applicant_refuse_reason_when_archived(self):
+        """
+        Ensure that an archived email template linked to a refuse reason
+        is not automatically set on the refuse wizard
+        """
+        candidate = self.env['hr.candidate'].create({'partner_name': 'Test'})
+        email_template = self.env['mail.template'].create({
+            'model_id': self.env['ir.model']._get('hr.applicant').id,
+            'name': 'template1',
+        })
+        application = self.env['hr.applicant'].create({'candidate_id': candidate.id})
+        refuse_reason = self.env['hr.applicant.refuse.reason'].create({
+            'name': 'Fired',
+            'template_id': email_template.id,
+        })
+        wizard = self.env['applicant.get.refuse.reason'].create({
+            'refuse_reason_id': refuse_reason.id,
+            'applicant_ids': [application.id],
+        })
+
+        self.assertEqual(wizard.template_id, email_template)
+
+        email_template.active = False
+        wizard = self.env['applicant.get.refuse.reason'].create({
+            'refuse_reason_id': refuse_reason.id,
+            'applicant_ids': [application.id],
+        })
+
+        self.assertFalse(wizard.template_id)
 >>>>>>> upstream/18.0

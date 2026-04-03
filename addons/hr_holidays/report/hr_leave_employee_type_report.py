@@ -80,6 +80,7 @@ class LeaveReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 SELECT row_number() over(ORDER BY leaves.employee_id) as id,
                 leaves.employee_id as employee_id,
                 leaves.active_employee as active_employee,
@@ -243,6 +244,8 @@ class LeaveReport(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 WITH
                 /* Validated leaves */
                 validated_leaves as (
@@ -265,7 +268,11 @@ class LeaveReport(models.Model):
 						employee.active as active_employee,
 						allocation.number_of_days as number_of_days,
 						allocation.number_of_hours_display as number_of_hours,
+<<<<<<< HEAD
 						allocation.department_id as department_id,
+=======
+						employee.department_id as department_id,
+>>>>>>> upstream/18.0
 						allocation.holiday_status_id as leave_type,
 						allocation.state as state,
 						allocation.date_from as date_from,
@@ -331,8 +338,11 @@ class LeaveReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         AND vl.date_to   >= oa.date_from
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -425,6 +435,9 @@ class LeaveReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -546,7 +559,11 @@ class LeaveReport(models.Model):
 						employee.active as active_employee,
 						request.number_of_days as number_of_days,
 						request.number_of_hours as number_of_hours,
+<<<<<<< HEAD
 						request.department_id as department_id,
+=======
+						employee.department_id as department_id,
+>>>>>>> upstream/18.0
 						request.holiday_status_id as leave_type,
 						request.state as state,
 						request.date_from as date_from,
@@ -602,6 +619,9 @@ class LeaveReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

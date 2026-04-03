@@ -231,7 +231,10 @@ registry.category("web_tour.tours").add("hr_skills_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -843,6 +846,9 @@ registry.category("web_tour.tours").add("hr_skills_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1447,7 +1453,10 @@ registry.category("web_tour.tours").add("hr_skills_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1633,7 +1642,11 @@ registry.category("web_tour.tours").add("hr_skills_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: ".modal:not(.o_inactive_modal) .modal-footer .btn-primary",
+=======
+            trigger: ".modal:contains(validation error) .modal-footer .btn-primary",
+>>>>>>> upstream/18.0
 =======
             trigger: ".modal:contains(validation error) .modal-footer .btn-primary",
 >>>>>>> upstream/18.0
@@ -1875,6 +1888,9 @@ registry.category("web_tour.tours").add("hr_skills_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

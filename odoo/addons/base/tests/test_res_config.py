@@ -163,7 +163,10 @@ class TestResConfigExecute(TransactionCase):
             self.env[config_settings.name].create({}).execute()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_boolean_config_parameter(self):
         ICP = self.env['ir.config_parameter'].sudo()
         ResConfigTest = self.env['res.config.test']
@@ -182,6 +185,9 @@ class TestResConfigExecute(TransactionCase):
         defaults = ResConfigTest.default_get(['param_bool'])
         self.assertTrue(defaults['param_bool'])
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_settings_access(self):
         """Check that settings user are able to open & save settings

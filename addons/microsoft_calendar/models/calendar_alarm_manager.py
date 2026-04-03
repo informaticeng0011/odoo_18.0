@@ -40,7 +40,13 @@ class AlarmManager(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return SQL("%s AND event.microsoft_id IS NULL", base)
+=======
+        if self.env.context.get('alarm_type') == 'email':
+            return SQL("%s AND event.microsoft_id IS NULL", base)
+        return base
+>>>>>>> upstream/18.0
 =======
         if self.env.context.get('alarm_type') == 'email':
             return SQL("%s AND event.microsoft_id IS NULL", base)

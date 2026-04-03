@@ -16,7 +16,11 @@ Ibrahima GUEYE 44674493+optesis-ibg@users.noreply.github.com https://github.com/
 Anta NIANG 51160361+optesis-ang@users.noreply.github.com https://github.com/optesis-ang
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Mame Abdoul Aziz SY 149785030+optesis-msy@users.noreply.github.com https://github.com/optesis-msy
+=======
+Ibrahima NIASSE EXT 64529673+iniass-dev@users.noreply.github.com https://github.com/iniass-dev
+>>>>>>> upstream/18.0
 =======
 Ibrahima NIASSE EXT 64529673+iniass-dev@users.noreply.github.com https://github.com/iniass-dev
 >>>>>>> upstream/18.0

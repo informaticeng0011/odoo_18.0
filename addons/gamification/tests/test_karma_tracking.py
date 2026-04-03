@@ -51,7 +51,10 @@ class TestKarmaTrackingCommon(common.TransactionCase):
             track_date = track_date + relativedelta(days=days_delta)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_get_user_ids_ranked_by_karma(self):
         """Test the optimized raw SQL ranking method with various timeframes and pagination."""
         self._create_trackings(self.test_user, 20, 2, self.test_date, days_delta=30)
@@ -82,6 +85,9 @@ class TestKarmaTrackingCommon(common.TransactionCase):
         user_ids = self.env["res.users"]._get_user_ids_ranked_by_karma(domain, limit=1, offset=1)
         self.assertEqual(user_ids, [self.test_user.id])
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_computation_gain(self):
         self._create_trackings(self.test_user, 20, 2, self.test_date, days_delta=30)

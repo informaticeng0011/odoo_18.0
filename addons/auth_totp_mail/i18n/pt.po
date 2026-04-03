@@ -131,6 +131,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* auth_totp_mail
 # 
 # Translators:
@@ -1011,6 +1012,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * auth_totp_mail
 #
 # Translators:
@@ -1149,6 +1152,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1287,6 +1291,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# "Pedro Silva (Exo)" <pedrocs@exo.pt>, 2026.
 >>>>>>> upstream/18.0
 =======
 # "Pedro Silva (Exo)" <pedrocs@exo.pt>, 2026.
@@ -1475,6 +1482,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2621,12 +2629,18 @@ msgstr ""
 "PO-Revision-Date: 2026-01-27 23:14+0000\n"
 "Last-Translator: \"Pedro Silva (Exo)\" <pedrocs@exo.pt>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-01-27 23:14+0000\n"
+"Last-Translator: \"Pedro Silva (Exo)\" <pedrocs@exo.pt>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Portuguese <https://translate.odoo.com/projects/odoo-18/"
 "auth_totp_mail/pt/>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3204,6 +3218,11 @@ msgstr ""
 "((n != 0 && n % 1000000 == 0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : "
+"((n != 0 && n % 1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp_mail
 #: model:mail.template,body_html:auth_totp_mail.mail_template_totp_invite
@@ -3211,6 +3230,7 @@ msgid ""
 "<div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        Dear <t t-out=\"object.partner_id.name or ''\"/><br/><br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3308,6 +3328,8 @@ msgid ""
 "        </p><p style=\"margin: 16px 0px 16px 0px; text-align: center;\">\n"
 "            <a t-att-href=\"object.get_totp_invite_url()\" style=\"background-color:#875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3585,6 +3607,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3769,6 +3794,7 @@ msgid ""
 "</div>\n"
 "        "
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4512,6 +4538,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        Caro(a) <t t-out=\"object.partner_id.name or ''\"/><br/><br/>\n"
@@ -4589,6 +4617,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4927,6 +4958,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5620,7 +5654,11 @@ msgid "<span>Consider</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Considere</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Considere</span>"
 >>>>>>> upstream/18.0
@@ -6480,6 +6518,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Um dispositivo confiável acaba de ser adicionado à sua conta: %(device_name)s"
+>>>>>>> upstream/18.0
 =======
 "Um dispositivo confiável acaba de ser adicionado à sua conta: %(device_name)s"
 >>>>>>> upstream/18.0
@@ -6669,6 +6711,7 @@ msgstr ""
 #: code:addons/auth_totp_mail/models/auth_totp_device.py:0
 msgid ""
 "A trusted device has just been removed from your account: %(device_names)s"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7010,6 +7053,10 @@ msgstr "Um dispositivo confiável foi removido da sua conta: %(device_names)s"
 >>>>>>> upstream/18.0
 =======
 msgstr "Um dispositivo confiável foi removido da sua conta: %(device_names)s"
+>>>>>>> upstream/18.0
+=======
+msgstr ""
+"Um dispositivo confiável acaba de ser removido da sua conta: %(device_names)s"
 >>>>>>> upstream/18.0
 =======
 msgstr ""
@@ -7396,6 +7443,7 @@ msgid "Authentication Device"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Dispositivo de autenticação"
@@ -7606,6 +7654,9 @@ msgstr "Dispositivo de autenticação"
 >>>>>>> upstream/18.0
 =======
 msgstr "Dispositivo de autenticação"
+>>>>>>> upstream/18.0
+=======
+msgstr "Dispositivo de Autenticação"
 >>>>>>> upstream/18.0
 =======
 msgstr "Dispositivo de Autenticação"
@@ -7925,6 +7976,7 @@ msgid "Invitation to activate two-factor authentication on your Odoo account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Convite para ativar autenticação de dois fatores na sua conta Odoo"
@@ -8135,6 +8187,9 @@ msgstr "Convite para ativar autenticação de dois fatores na sua conta Odoo"
 >>>>>>> upstream/18.0
 =======
 msgstr "Convite para ativar autenticação de dois fatores na sua conta Odoo"
+>>>>>>> upstream/18.0
+=======
+msgstr "Convite para ativar a autenticação de dois fatores em sua conta Odoo"
 >>>>>>> upstream/18.0
 =======
 msgstr "Convite para ativar a autenticação de dois fatores em sua conta Odoo"
@@ -8458,6 +8513,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Convite para ativar autenticação de dois fatores enviado para os seguintes "
 "usuários: %s"
@@ -8737,6 +8793,10 @@ msgstr ""
 =======
 "Convite para ativar autenticação de dois fatores enviado para os seguintes "
 "usuários: %s"
+>>>>>>> upstream/18.0
+=======
+"Convite para usar a autenticação de dois fatores enviada para o(s) seguinte"
+"(s) utilizador(es): %s"
 >>>>>>> upstream/18.0
 =======
 "Convite para usar a autenticação de dois fatores enviada para o(s) seguinte"
@@ -9117,6 +9177,7 @@ msgid "Invite to use 2FA"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Convite para utilizar 2FA"
@@ -9327,6 +9388,9 @@ msgstr "Convite para utilizar 2FA"
 >>>>>>> upstream/18.0
 =======
 msgstr "Convite para utilizar 2FA"
+>>>>>>> upstream/18.0
+=======
+msgstr "Convidar para usar 2FA"
 >>>>>>> upstream/18.0
 =======
 msgstr "Convidar para usar 2FA"
@@ -9646,6 +9710,7 @@ msgid "Invite to use two-factor authentication"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Convite para utilizar a autenticação de dois fatores"
@@ -9856,6 +9921,9 @@ msgstr "Convite para utilizar a autenticação de dois fatores"
 >>>>>>> upstream/18.0
 =======
 msgstr "Convite para utilizar a autenticação de dois fatores"
+>>>>>>> upstream/18.0
+=======
+msgstr "Convide para usar a autenticação de dois fatores"
 >>>>>>> upstream/18.0
 =======
 msgstr "Convide para usar a autenticação de dois fatores"
@@ -10180,6 +10248,7 @@ msgid "Open two-factor authentication configuration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Abrir configurações da autenticação de dois fatores"
@@ -10390,6 +10459,9 @@ msgstr "Abrir configurações da autenticação de dois fatores"
 >>>>>>> upstream/18.0
 =======
 msgstr "Abrir configurações da autenticação de dois fatores"
+>>>>>>> upstream/18.0
+=======
+msgstr "Abra a configuração de autenticação de dois fatores"
 >>>>>>> upstream/18.0
 =======
 msgstr "Abra a configuração de autenticação de dois fatores"
@@ -10710,6 +10782,7 @@ msgid "Security Update: 2FA Activated"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Atualização de segurança: 2FA ativada"
@@ -10920,6 +10993,9 @@ msgstr "Atualização de segurança: 2FA ativada"
 >>>>>>> upstream/18.0
 =======
 msgstr "Atualização de segurança: 2FA ativada"
+>>>>>>> upstream/18.0
+=======
+msgstr "Atualização de Segurança: 2FA ativado"
 >>>>>>> upstream/18.0
 =======
 msgstr "Atualização de Segurança: 2FA ativado"
@@ -11240,6 +11316,7 @@ msgid "Security Update: 2FA Deactivated"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Atualização de segurança: 2FA desativada"
@@ -11450,6 +11527,9 @@ msgstr "Atualização de segurança: 2FA desativada"
 >>>>>>> upstream/18.0
 =======
 msgstr "Atualização de segurança: 2FA desativada"
+>>>>>>> upstream/18.0
+=======
+msgstr "Atualização de Segurança: 2FA Desativada"
 >>>>>>> upstream/18.0
 =======
 msgstr "Atualização de Segurança: 2FA Desativada"
@@ -11700,7 +11780,11 @@ msgid "Security Update: Device Added"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Atualização de Segurança: Dispositivo Adicionado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Atualização de Segurança: Dispositivo Adicionado"
 >>>>>>> upstream/18.0
@@ -12020,6 +12104,7 @@ msgid "Security Update: Device Removed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Atualização de segurança: dispositivo removido"
@@ -12230,6 +12315,9 @@ msgstr "Atualização de segurança: dispositivo removido"
 >>>>>>> upstream/18.0
 =======
 msgstr "Atualização de segurança: dispositivo removido"
+>>>>>>> upstream/18.0
+=======
+msgstr "Atualização de Segurança: Dispositivo Removido"
 >>>>>>> upstream/18.0
 =======
 msgstr "Atualização de Segurança: Dispositivo Removido"
@@ -12549,6 +12637,7 @@ msgid "Settings: 2Fa Invitation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Definições: convite para 2FA"
@@ -12759,6 +12848,9 @@ msgstr "Definições: convite para 2FA"
 >>>>>>> upstream/18.0
 =======
 msgstr "Definições: convite para 2FA"
+>>>>>>> upstream/18.0
+=======
+msgstr "Configurações: Convite 2Fa"
 >>>>>>> upstream/18.0
 =======
 msgstr "Configurações: Convite 2Fa"
@@ -13079,6 +13171,7 @@ msgid "Two-factor authentication has been activated on your account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "A autenticação dois fatores foi ativada na sua conta"
@@ -13289,6 +13382,9 @@ msgstr "A autenticação dois fatores foi ativada na sua conta"
 >>>>>>> upstream/18.0
 =======
 msgstr "A autenticação dois fatores foi ativada na sua conta"
+>>>>>>> upstream/18.0
+=======
+msgstr "A autenticação de dois fatores foi ativada na sua conta"
 >>>>>>> upstream/18.0
 =======
 msgstr "A autenticação de dois fatores foi ativada na sua conta"
@@ -13609,6 +13705,7 @@ msgid "Two-factor authentication has been deactivated on your account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "A autenticação dois fatores foi desativada na sua conta"
@@ -13819,6 +13916,9 @@ msgstr "A autenticação dois fatores foi desativada na sua conta"
 >>>>>>> upstream/18.0
 =======
 msgstr "A autenticação dois fatores foi desativada na sua conta"
+>>>>>>> upstream/18.0
+=======
+msgstr "A autenticação de dois fatores foi desativada na sua conta"
 >>>>>>> upstream/18.0
 =======
 msgstr "A autenticação de dois fatores foi desativada na sua conta"
@@ -14143,6 +14243,7 @@ msgid "activating Two-factor Authentication"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "ativar a autenticação de dois fatores"
@@ -14353,6 +14454,9 @@ msgstr "ativar a autenticação de dois fatores"
 >>>>>>> upstream/18.0
 =======
 msgstr "ativar a autenticação de dois fatores"
+>>>>>>> upstream/18.0
+=======
+msgstr "a ativar a autenticação de dois fatores"
 >>>>>>> upstream/18.0
 =======
 msgstr "a ativar a autenticação de dois fatores"

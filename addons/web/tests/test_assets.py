@@ -193,7 +193,10 @@ class TestWebAssetsCursors(HttpCase):
             'Only one readwrite cursor should be used to generate assets without replica',
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_web_binary_streams_generated_asset_from_rw_cursor(self):
         """
@@ -222,4 +225,7 @@ class TestWebAssetsCursors(HttpCase):
             with patch('odoo.addons.base.models.ir_binary.IrBinary._get_stream_from', autospec=True, side_effect=get_stream_from):
                 response = self.url_open(f'/web/assets/{self.bundle_version}/{self.bundle_name}.min.css', allow_redirects=False)
                 self.assertEqual(response.status_code, 200)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

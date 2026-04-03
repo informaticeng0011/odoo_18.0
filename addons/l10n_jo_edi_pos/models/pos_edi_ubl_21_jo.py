@@ -4,7 +4,11 @@ from types import SimpleNamespace
 from odoo import models
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools import float_round, float_is_zero
+=======
+from odoo.tools import float_compare, float_round, float_is_zero
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import float_compare, float_round, float_is_zero
 >>>>>>> upstream/18.0
@@ -66,7 +70,10 @@ class PosEdiXmlUBL21Jo(models.AbstractModel):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _add_base_lines_edi_ids(self, vals):
@@ -101,6 +108,9 @@ class PosEdiXmlUBL21Jo(models.AbstractModel):
                     overflow_edi_id += 1
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -139,6 +149,10 @@ class PosEdiXmlUBL21Jo(models.AbstractModel):
         self._add_pos_order_discount_vals(vals)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self._add_base_lines_edi_ids(vals)
+>>>>>>> upstream/18.0
 =======
         self._add_base_lines_edi_ids(vals)
 >>>>>>> upstream/18.0
@@ -323,6 +337,7 @@ class PosEdiXmlUBL21Jo(models.AbstractModel):
     def _get_pos_order_line_id(self, vals):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not vals['is_refund']:
             return vals['line_idx']
 
@@ -339,6 +354,9 @@ class PosEdiXmlUBL21Jo(models.AbstractModel):
             line_id = len(order_lines) + vals['line_idx']
 
         return line_id
+=======
+        return vals['base_lines_edi_ids'].get(vals['line_idx'], vals['line_idx'])
+>>>>>>> upstream/18.0
 =======
         return vals['base_lines_edi_ids'].get(vals['line_idx'], vals['line_idx'])
 >>>>>>> upstream/18.0

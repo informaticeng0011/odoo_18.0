@@ -502,7 +502,10 @@ class TestDeliveryCost(DeliveryCommon, SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1145,6 +1148,9 @@ class TestDeliveryCost(DeliveryCommon, SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1814,7 +1820,10 @@ class TestDeliveryCost(DeliveryCommon, SaleCommon):
         self.assertEqual(delivery_sol.product_id, delivery.product_id)
         self.assertEqual(delivery_sol.price_subtotal, 12.5)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_base_on_rule_cost_for_combo_product(self):
         """
@@ -1863,4 +1872,7 @@ class TestDeliveryCost(DeliveryCommon, SaleCommon):
         })
 
         self.assertEqual(delivery._get_price_available(so), 25)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -156,7 +156,11 @@ const pwaService = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     document.querySelector("link[rel=manifest")?.getAttribute("href"),
+=======
+                    document.querySelector("link[rel=manifest]")?.getAttribute("href"),
+>>>>>>> upstream/18.0
 =======
                     document.querySelector("link[rel=manifest]")?.getAttribute("href"),
 >>>>>>> upstream/18.0

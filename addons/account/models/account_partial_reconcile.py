@@ -224,7 +224,12 @@ class AccountPartialReconcile(models.Model):
 
         for partial in self:
 <<<<<<< HEAD
+<<<<<<< HEAD
             for move in {partial.debit_move_id.move_id, partial.credit_move_id.move_id}:
+=======
+            for field, counterpart_field in (('debit', 'credit'), ('credit', 'debit')):
+                move, counterpart_move = partial[f'{field}_move_id'].move_id, partial[f'{counterpart_field}_move_id'].move_id
+>>>>>>> upstream/18.0
 =======
             for field, counterpart_field in (('debit', 'credit'), ('credit', 'debit')):
                 move, counterpart_move = partial[f'{field}_move_id'].move_id, partial[f'{counterpart_field}_move_id'].move_id
@@ -318,6 +323,10 @@ class AccountPartialReconcile(models.Model):
                     'percentage': percentage,
                     'payment_rate': payment_rate,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    'counterpart_move': counterpart_move,
+>>>>>>> upstream/18.0
 =======
                     'counterpart_move': counterpart_move,
 >>>>>>> upstream/18.0
@@ -569,6 +578,11 @@ class AccountPartialReconcile(models.Model):
 
                         cb_line_vals = self._prepare_cash_basis_base_line_vals(line, balance, amount_currency)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                        cb_line_vals['name'] = ' - '.join(filter(None, (line.move_id.name, partial_values['counterpart_move'].name)))
+
+>>>>>>> upstream/18.0
 =======
                         cb_line_vals['name'] = ' - '.join(filter(None, (line.move_id.name, partial_values['counterpart_move'].name)))
 
