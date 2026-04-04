@@ -265,9 +265,15 @@ import { Component } from "@odoo/owl";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 import { Registry } from "@web/core/registry";
 import { patchWithCleanup } from "../web_test_helpers";
+=======
+import { serverState } from "@web/../tests/web_test_helpers";
+
+import { Registry } from "@web/core/registry";
+>>>>>>> upstream/18.0
 =======
 import { serverState } from "@web/../tests/web_test_helpers";
 
@@ -2019,7 +2025,11 @@ test("can validate the values from a schema", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchWithCleanup(odoo, { debug: true });
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -3094,7 +3104,11 @@ test("can validate by adding a schema after the registry is filled", async () =>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchWithCleanup(odoo, { debug: true });
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -4162,7 +4176,11 @@ test("can validate subclassess", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchWithCleanup(odoo, { debug: true });
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0

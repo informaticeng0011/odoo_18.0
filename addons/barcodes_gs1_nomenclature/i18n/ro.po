@@ -205,6 +205,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Lyall Kindmurr, 2024
@@ -251,6 +252,8 @@
 >>>>>>> upstream/18.0
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -866,6 +869,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1277,6 +1283,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2063,6 +2070,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Larisa_nexterp, 2025\n"
 "Language-Team: Romanian (https://app.transifex.com/odoo/teams/41243/ro/)\n"
@@ -2078,6 +2088,7 @@ msgstr ""
 #: code:addons/barcodes_gs1_nomenclature/models/barcode_nomenclature.py:0
 msgid ""
 "A GS1 barcode nomenclature pattern was matched. However, the barcode failed "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2940,6 +2951,10 @@ msgstr ""
 "to be converted to a valid date: '%(error_message)s'"
 msgstr ""
 >>>>>>> upstream/18.0
+=======
+"to be converted to a valid date: '%(error_message)s'"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: barcodes_gs1_nomenclature
 #: model:ir.model.fields.selection,name:barcodes_gs1_nomenclature.selection__barcode_rule__gs1_content_type__alpha
@@ -3166,8 +3181,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Delimitator alternativ regex pentru FNC1. Delimitatorul nu trebuie să se "
 "potrivească la începutul / sfârșitul oricărui model de reguli asociat."
+=======
+"Delimitator regex alternativ pentru FNC1. Separatorul nu trebuie să se "
+"potrivească la începutul/sfârșitul niciunui model de reguli asociat."
+>>>>>>> upstream/18.0
 =======
 "Delimitator regex alternativ pentru FNC1. Separatorul nu trebuie să se "
 "potrivească la începutul/sfârșitul niciunui model de reguli asociat."
@@ -4277,7 +4297,11 @@ msgid "Encoding"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Codificare:"
+=======
+msgstr "Codificare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Codificare"
 >>>>>>> upstream/18.0
@@ -5165,6 +5189,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Dacă este adevărat, utilizați ultima cifră a AI pentru a determina unde este"
 =======
 "Dacă este adevărat, folosește ultima cifră a AI pentru a determina unde este"
@@ -5197,6 +5222,10 @@ msgstr ""
 "Dacă este adevărat, folosește ultima cifră a AI pentru a determina unde este"
 >>>>>>> upstream/18.0
 " prima zecimală"
+=======
+"Dacă este adevărat, folosește ultima cifră a AI pentru a determina unde este "
+"prima zecimală"
+>>>>>>> upstream/18.0
 =======
 "Dacă este adevărat, folosește ultima cifră a AI pentru a determina unde este "
 "prima zecimală"
@@ -6290,7 +6319,11 @@ msgid "The FNC1 Separator Alternative is not a valid Regex: %(error)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Separatorul FNC1 alternativ nu este un Regex valid: %(error)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Separatorul FNC1 alternativ nu este un Regex valid: %(error)s"
 >>>>>>> upstream/18.0
@@ -7157,12 +7190,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Tipul conținutului GS1 definește ce fel de date va procesa regulile codul de"
 " bare ca* Dată: codul de bare va fi convertit într-o dată Odoo;* Măsurare: "
 "valoarea codului de bare este legată de o anumită UM;* Identificator "
 "numeric: cod de bare cu lungime fixă care urmează un anumit codificare;* "
 "Nume alfanumeric: cod de bare cu lungime variabilă."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7807,6 +7843,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8465,7 +8504,11 @@ msgid "The rule pattern '%(rule)s' is not a valid Regex: %(error)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Modelul regulii '%(rule)s' nu este un Regex valid: %(error)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Modelul regulii '%(rule)s' nu este un Regex valid: %(error)s"
 >>>>>>> upstream/18.0
@@ -9318,6 +9361,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If this rule uses decimal, check it can't get sometime else than a digit as last char for the Application Identifier.\n"
 "Check also the possible matched values can only be digits, otherwise the value can't be casted as a measure."
 msgstr ""
@@ -9375,6 +9419,8 @@ msgstr ""
 "Verificați și ca valorile posibile să fie doar cifre, altfel valoarea nu poate fi convertită într-o măsură."
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9994,6 +10040,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10409,6 +10458,7 @@ msgid ""
 "This Nomenclature use the GS1 specification, only GS1-128 encoding rules is "
 "accepted is this kind of nomenclature."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11471,6 +11521,10 @@ msgstr ""
 "Această nomenclatură folosește specificația GS1, doar regulile de codificare "
 "GS1-128 sunt acceptate pentru acest tip de nomenclatură."
 >>>>>>> upstream/18.0
+=======
+"Această nomenclatură folosește specificația GS1, doar regulile de codificare "
+"GS1-128 sunt acceptate pentru acest tip de nomenclatură."
+>>>>>>> upstream/18.0
 
 #. module: barcodes_gs1_nomenclature
 #. odoo-javascript
@@ -11680,8 +11734,12 @@ msgid "This barcode can't be parsed by any barcode rules."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Acest cod de bare nu poate fi analizat de nicio regulă de cod de bare."
+=======
+msgstr "Acest cod de bare nu poate fi analizat de nicio regulă de cod de bare."
+>>>>>>> upstream/18.0
 =======
 msgstr "Acest cod de bare nu poate fi analizat de nicio regulă de cod de bare."
 >>>>>>> upstream/18.0
@@ -12521,7 +12579,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Această regulă se va aplica numai dacă codul de bare este codificat cu "
+=======
+"Această regulă se va aplica doar dacă codul de bare este codificat cu "
+>>>>>>> upstream/18.0
 =======
 "Această regulă se va aplica doar dacă codul de bare este codificat cu "
 >>>>>>> upstream/18.0

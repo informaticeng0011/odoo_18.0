@@ -1,8 +1,15 @@
+<<<<<<< HEAD
 # -*- coding: utf-8 -*-
+=======
+>>>>>>> upstream/18.0
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 from unittest.mock import patch
 from odoo.tests.common import TransactionCase
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 class TestResConfig(TransactionCase):
 
     def test_00_add_parameter_with_default_value(self):
@@ -16,3 +23,24 @@ class TestResConfig(TransactionCase):
             self.env['res.config.test'].create({}).execute()
 
         set_param_mock.assert_not_called()
+<<<<<<< HEAD
+=======
+
+    def test_boolean_config_parameter(self):
+        ICP = self.env['ir.config_parameter'].sudo()
+        ResConfigTest = self.env['res.config.test']
+
+        # If no `ir.config_parameter` record exists yet for the config, value
+        # should be `False`
+        ICP.search([('key', '=', 'resConfigTest.parameterBool')]).unlink()
+        defaults = ResConfigTest.default_get(['param_bool'])
+        self.assertFalse(defaults['param_bool'])
+
+        ICP.set_param('resConfigTest.parameterBool', 'False')
+        defaults = ResConfigTest.default_get(['param_bool'])
+        self.assertFalse(defaults['param_bool'])
+
+        ICP.set_param('resConfigTest.parameterBool', 'True')
+        defaults = ResConfigTest.default_get(['param_bool'])
+        self.assertTrue(defaults['param_bool'])
+>>>>>>> upstream/18.0

@@ -534,7 +534,10 @@ class TestReportSession(TestPoSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1287,6 +1290,7 @@ class TestReportSession(TestPoSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1643,6 +1647,8 @@ class TestReportSession(TestPoSCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1868,6 +1874,7 @@ class TestReportSession(TestPoSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1984,4 +1991,42 @@ class TestReportSession(TestPoSCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_report_session_category_qty_round(self):
+        self.config.open_ui()
+        session_id_1 = self.config.current_session_id.id
+        quantities = [12.45, 88.21, 45.09, 7.33, 56.12, 92.84, 31.56, 19.47, 64.91, 5.02, 77.38, 41.65, 23.19, 99.72, 10.88]
+        products = [self.create_product(f'Product {i}', self.categ_basic, 100) for i in range(len(quantities))]
+        total = sum(quantities)
+        order_info = {
+            'company_id': self.env.company.id,
+            'session_id': session_id_1,
+            'partner_id': self.partner_a.id,
+            'lines': [(0, 0, {
+                'name': f"OL/{str(i).zfill(4)}",
+                'product_id': product.id,
+                'price_unit': 1,
+                'discount': 0,
+                'qty': qty,
+                'tax_ids': [],
+                'price_subtotal': qty,
+                'price_subtotal_incl': qty,
+                }) for i, (product, qty) in enumerate(zip(products, quantities), 1)],
+            'pricelist_id': self.config.pricelist_id.id,
+            'amount_paid': total,
+            'amount_total': total,
+            'amount_tax': 0.0,
+            'amount_return': 0.0,
+            'to_invoice': False,
+        }
+
+        order = self.env['pos.order'].create(order_info)
+        self.make_payment(order, self.bank_pm1, total)
+        self.config.current_session_id.action_pos_session_closing_control()
+
+        report = self.env['report.point_of_sale.report_saledetails'].get_sale_details()
+        self.assertEqual(report['products'][0]['qty'], 675.82)
+        self.assertEqual(report['products'][0]['total'], 675.82)
 >>>>>>> upstream/18.0

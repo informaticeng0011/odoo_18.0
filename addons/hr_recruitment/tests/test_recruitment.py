@@ -120,6 +120,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from odoo.fields import Date
 >>>>>>> upstream/18.0
@@ -472,6 +473,8 @@ from odoo.fields import Date
 from odoo.fields import Date
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 from datetime import datetime
@@ -479,6 +482,9 @@ from freezegun import freeze_time
 from pytz import timezone
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -830,7 +836,10 @@ class TestRecruitment(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1283,6 +1292,7 @@ class TestRecruitment(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1576,6 +1586,8 @@ class TestRecruitment(TransactionCase):
 
     def test_job_overdue_activities(self):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -1583,6 +1595,9 @@ class TestRecruitment(TransactionCase):
     def test_job_overdue_activities(self):
         self.env.user.tz = 'Europe/Brussels'
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1612,7 +1627,11 @@ class TestRecruitment(TransactionCase):
             "activity_type_id": persistent_activity_type.id,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "date_deadline": Date.today(),
+=======
+            "date_deadline": datetime.now(tz=timezone(self.env.user.tz)).date(),
+>>>>>>> upstream/18.0
 =======
             "date_deadline": datetime.now(tz=timezone(self.env.user.tz)).date(),
 >>>>>>> upstream/18.0
@@ -1750,6 +1769,7 @@ class TestRecruitment(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1986,6 +2006,8 @@ class TestRecruitment(TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_default_template_applicant_refuse_reason_when_archived(self):
         """
@@ -2016,4 +2038,7 @@ class TestRecruitment(TransactionCase):
         })
 
         self.assertFalse(wizard.template_id)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

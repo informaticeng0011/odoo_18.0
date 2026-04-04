@@ -357,7 +357,10 @@ class ResConfigTest(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     param_bool = fields.Boolean(
@@ -365,6 +368,9 @@ class ResConfigTest(models.Model):
         config_parameter='resConfigTest.parameterBool')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

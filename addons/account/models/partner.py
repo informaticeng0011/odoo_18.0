@@ -257,9 +257,12 @@ from odoo.exceptions import ValidationError, UserError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.base.models.res_partner import WARNING_MESSAGE, WARNING_HELP
 from odoo.tools import SQL, unique
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -996,6 +999,9 @@ from odoo.addons.base.models.res_partner import WARNING_MESSAGE, WARNING_HELP
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1628,6 +1634,10 @@ _ref_company_registry = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'fi': '8763054-9',
+>>>>>>> upstream/18.0
 =======
     'fi': '8763054-9',
 >>>>>>> upstream/18.0
@@ -2279,7 +2289,11 @@ class AccountFiscalPosition(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if tl.tax_dest_id:
+=======
+                if tl.tax_dest_active:
+>>>>>>> upstream/18.0
 =======
                 if tl.tax_dest_active:
 >>>>>>> upstream/18.0
@@ -3269,6 +3283,10 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    duplicate_bank_partner_ids = fields.Many2many(related="bank_ids.duplicate_bank_partner_ids")
+>>>>>>> upstream/18.0
 =======
     duplicate_bank_partner_ids = fields.Many2many(related="bank_ids.duplicate_bank_partner_ids")
 >>>>>>> upstream/18.0
@@ -4103,6 +4121,7 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             record.fiscal_country_codes = ",".join(allowed_companies.mapped('account_fiscal_country_id.code'))
 =======
 =======
@@ -4186,6 +4205,8 @@ class ResPartner(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4607,6 +4628,9 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5365,6 +5389,7 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     duplicated_bank_account_partners_count = fields.Integer(
         compute='_compute_duplicated_bank_account_partners_count',
     )
@@ -5509,6 +5534,8 @@ class ResPartner(models.Model):
     # DEPRECATED, DO NOT USE, TO BE REMOVED IN MASTER
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6183,6 +6210,9 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6635,6 +6665,7 @@ class ResPartner(models.Model):
     property_outbound_payment_method_line_id = fields.Many2one(
         comodel_name='account.payment.method.line',
         company_dependent=True,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7385,6 +7416,8 @@ class ResPartner(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         domain=lambda self: [
             ('journal_id.active', '=', True),
             ('payment_type', '=', 'outbound'),
@@ -7455,6 +7488,9 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7593,6 +7629,7 @@ class ResPartner(models.Model):
     property_inbound_payment_method_line_id = fields.Many2one(
         comodel_name='account.payment.method.line',
         company_dependent=True,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8343,6 +8380,8 @@ class ResPartner(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         domain=lambda self: [
             ('journal_id.active', '=', True),
             ('payment_type', '=', 'inbound'),
@@ -8413,6 +8452,9 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8799,6 +8841,10 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    # TODO remove in master
+>>>>>>> upstream/18.0
 =======
     # TODO remove in master
 >>>>>>> upstream/18.0
@@ -9730,7 +9776,11 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends('commercial_partner_id.country_code')
+=======
+    @api.depends('country_code')
+>>>>>>> upstream/18.0
 =======
     @api.depends('country_code')
 >>>>>>> upstream/18.0
@@ -10754,6 +10804,10 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    # TODO remove in master
+>>>>>>> upstream/18.0
 =======
     # TODO remove in master
 >>>>>>> upstream/18.0
@@ -11725,6 +11779,7 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     def write(self, vals):
         if 'parent_id' not in vals:
@@ -11775,6 +11830,8 @@ class ResPartner(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12471,7 +12528,11 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if partner2moves and vals['parent_id'] and {parent_vat} != set(self.mapped('vat')):
+=======
+            if partner2moves and vals['parent_id'] and any((partner.vat or '') != (parent_vat or '') for partner in self):
+>>>>>>> upstream/18.0
 =======
             if partner2moves and vals['parent_id'] and any((partner.vat or '') != (parent_vat or '') for partner in self):
 >>>>>>> upstream/18.0
@@ -13341,6 +13402,9 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13921,6 +13985,7 @@ class ResPartner(models.Model):
     # -------------------------------------------------------------------------
 
     @api.model
+<<<<<<< HEAD
     def _retrieve_partner_with_vat(self, vat, extra_domain):
         if not vat:
             return None
@@ -14323,10 +14388,51 @@ class ResPartner(models.Model):
                 query.add_where(SQL(
                     "%s ~ %s",
                     Partner._field_to_sql(Partner._table, 'vat'),
+=======
+    def _import_retrieve_customer_from_vat(self, customer_values):
+        vat = customer_values.get('vat')
+        if not vat:
+            return
+
+        # Sometimes, the vat is specified with some whitespaces or dots.
+        normalized_vat = vat.replace(' ', '').replace('.', '')
+        country_prefix = re.match('^[a-zA-Z]{2}|^', vat).group()
+
+        criteria = [{'domain': [('vat', 'in', (normalized_vat, vat))]}]
+        if country_prefix:
+            criteria.append({
+                'domain': [
+                    ('vat', 'in', (normalized_vat[2:], vat[2:])),
+                    ('country_id.code', '=', country_prefix.upper()),
+                ],
+            })
+            criteria.append({
+                'domain': [
+                    ('vat', 'in', (normalized_vat[2:], vat[2:])),
+                    ('country_id.code', '=', False),
+                ],
+            })
+
+        try:
+            vat_only_numeric = str(int(re.sub(r'^\D{2}', '', normalized_vat) or 0))
+        except ValueError:
+            vat_only_numeric = None
+        if vat_only_numeric:
+
+            def search_vat_regex(values):
+                static_domain = values['static_domain']
+                vat_prefix_regex = values['vat_prefix_regex']
+
+                query = self._search(static_domain + [('active', '=', True)], limit=2)
+                query.add_where(SQL(
+                    "%s ~ %s",
+                    self._field_to_sql(self._table, 'vat'),
+>>>>>>> upstream/18.0
                     f'^{vat_prefix_regex}0*{vat_only_numeric}$',
                 ))
                 partner_row = list(query)
                 if partner_row and len(partner_row) == 1:
+<<<<<<< HEAD
                     partner = Partner.browse(partner_row[0])
 
         return partner
@@ -14353,6 +14459,127 @@ class ResPartner(models.Model):
         if not name:
             return None
         return self.env['res.partner'].search([('name', 'ilike', name)] + extra_domain, limit=2)
+=======
+                    return self.browse(partner_row[0])
+
+            if country_prefix:
+                vat_prefix_regex = f'({country_prefix})?'
+            else:
+                vat_prefix_regex = '([A-z]{2})?'
+
+            criteria.append({
+                'vat_prefix_regex': vat_prefix_regex,
+                'search_method': search_vat_regex,
+            })
+
+        return {
+            'criteria': criteria,
+        }
+
+    @api.model
+    def _import_retrieve_customer_from_phone(self, customer_values):
+        phone = customer_values.get('phone')
+        if not phone:
+            return
+
+        return {
+            'criteria': [{
+                'domain': ['|', ('phone', '=', phone), ('mobile', '=', phone)],
+            }],
+        }
+
+    @api.model
+    def _import_retrieve_customer_from_email(self, customer_values):
+        email = customer_values.get('email')
+        if not email:
+            return
+
+        return {
+            'criteria': [{
+                'domain': [('phone', '=', email)],
+            }],
+        }
+
+    @api.model
+    def _import_retrieve_customer_from_name(self, customer_values):
+        name = customer_values.get('name')
+        if not name:
+            return
+
+        return {
+            'criteria': [{
+                'domain': [('name', 'ilike', name)],
+            }],
+        }
+
+    @api.model
+    def _import_retrieve_customer(self, search_plan, company, customer_values_list):
+        cache = {}
+
+        static_domain = expression.OR([
+            [*self._check_company_domain(company), ('company_id', '!=', False)],
+            [('company_id', '=', False)],
+        ])
+        for customer_values in customer_values_list:
+            partner = None
+            for plan in search_plan:
+                plan_values = plan(customer_values)
+                if not plan_values:
+                    continue
+
+                for criteria in plan_values['criteria']:
+                    domain = criteria.get('domain')
+                    search_method = criteria.get('search_method')
+                    if domain:
+                        cache_key = str(domain)
+                    else:
+                        cache_key = criteria.get('cache_key')
+
+                    # Look at the cache if the value has already been tested with this key.
+                    if cache_key in cache:
+                        if partner := cache[cache_key]:
+                            customer_values['customer'] = partner
+                            break
+                        else:
+                            continue
+
+                    if domain:
+                        full_domain = expression.AND([static_domain, domain])
+                        partner = self.search(
+                            full_domain,
+                            order='company_id, id DESC',
+                            limit=1,
+                        )
+                    elif search_method:
+                        partner = search_method({
+                            **criteria,
+                            'static_domain': static_domain,
+                        })
+
+                    if partner:
+                        if cache_key:
+                            cache[cache_key] = partner
+                        customer_values['customer'] = partner
+                        break
+
+                if partner:
+                    break
+
+    @api.model
+    def _retrieve_partner_with_vat(self, vat, extra_domain):
+        # DEPRECATED: TO BE REMOVED IN MASTER
+        return self._retrieve_partner(vat=vat)
+
+    @api.model
+    def _retrieve_partner_with_phone_email(self, phone, email, extra_domain):
+        # DEPRECATED: TO BE REMOVED IN MASTER
+        return self._retrieve_partner(phone=phone, email=email)
+
+    @api.model
+    def _retrieve_partner_with_name(self, name, extra_domain):
+        # DEPRECATED: TO BE REMOVED IN MASTER
+        return self._retrieve_partner(name=name)
+>>>>>>> upstream/18.0
 
     def _retrieve_partner(self, name=None, phone=None, email=None, vat=None, domain=None, company=None):
         '''Search all partners and find one that matches one of the parameters.
@@ -14364,6 +14591,7 @@ class ResPartner(models.Model):
         :param company: The company of the partner.
         :returns:       A partner or an empty recordset if not found.
         '''
+<<<<<<< HEAD
 
         def search_with_vat(extra_domain):
             return self._retrieve_partner_with_vat(vat, extra_domain)
@@ -14392,6 +14620,26 @@ class ResPartner(models.Model):
                 if partner and len(partner) == 1:
                     return partner
         return self.env['res.partner']
+=======
+        customer_values = {
+            'vat': vat,
+            'phone': phone,
+            'email': email,
+            'name': name,
+        }
+        self._import_retrieve_customer(
+            search_plan=[
+                self._import_retrieve_customer_from_vat,
+                lambda collected_values: {'criteria': [{'domain': domain}]} if domain else None,
+                self._import_retrieve_customer_from_email,
+                self._import_retrieve_customer_from_phone,
+                self._import_retrieve_customer_from_name,
+            ],
+            company=company or self.env.company,
+            customer_values_list=[customer_values],
+        )
+        return customer_values.get('customer') or self.env['res.partner']
+>>>>>>> upstream/18.0
 
     def _merge_method(self, destination, source):
         """
@@ -14658,6 +14906,7 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
     def action_open_business_doc(self):
@@ -15039,6 +15288,8 @@ class ResPartner(models.Model):
         return self._get_records_action()
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15500,6 +15751,9 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

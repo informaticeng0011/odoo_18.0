@@ -13,6 +13,10 @@ class AccountChartTemplate(models.AbstractModel):
             'property_account_payable_id': 'pcg_4011',
             'property_account_expense_categ_id': 'ro_pcg_expense',
             'property_account_income_categ_id': 'ro_pcg_sale',
+<<<<<<< HEAD
+=======
+            'property_stock_valuation_account_id': 'pcg_301',
+>>>>>>> upstream/18.0
             'code_digits': '6',
             'use_storno_accounting': True,
         }
@@ -235,8 +239,13 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'account_sale_tax_id': 'tvac_19',
                 'account_purchase_tax_id': 'tvad_19',
+=======
+                'account_sale_tax_id': 'tvac_21',
+                'account_purchase_tax_id': 'tvad_21',
+>>>>>>> upstream/18.0
 =======
                 'account_sale_tax_id': 'tvac_21',
                 'account_purchase_tax_id': 'tvad_21',

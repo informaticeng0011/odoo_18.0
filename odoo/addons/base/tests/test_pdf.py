@@ -69,7 +69,10 @@ class TestPdf(TransactionCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_odoo_pdf_file_reader_with_nested_attachments(self):
@@ -79,6 +82,9 @@ class TestPdf(TransactionCase):
         self.assertEqual(len(attachments), 2)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

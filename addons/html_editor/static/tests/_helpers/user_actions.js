@@ -229,8 +229,12 @@ import { findInSelection } from "@html_editor/utils/selection";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { click, manuallyDispatchProgrammaticEvent, press, waitFor } from "@odoo/hoot-dom";
 import { tick } from "@odoo/hoot-mock";
+=======
+import { click, manuallyDispatchProgrammaticEvent, press, tick, waitFor } from "@odoo/hoot-dom";
+>>>>>>> upstream/18.0
 =======
 import { click, manuallyDispatchProgrammaticEvent, press, tick, waitFor } from "@odoo/hoot-dom";
 >>>>>>> upstream/18.0
@@ -1180,7 +1184,11 @@ export async function insertText(editor, text) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const keydownEvent = await manuallyDispatchProgrammaticEvent.silent(
+=======
+        const [keydownEvent] = await manuallyDispatchProgrammaticEvent.silent(
+>>>>>>> upstream/18.0
 =======
         const [keydownEvent] = await manuallyDispatchProgrammaticEvent.silent(
 >>>>>>> upstream/18.0
@@ -2101,7 +2109,11 @@ export async function insertText(editor, text) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const beforeinputEvent = await manuallyDispatchProgrammaticEvent.silent(
+=======
+        const [beforeinputEvent] = await manuallyDispatchProgrammaticEvent.silent(
+>>>>>>> upstream/18.0
 =======
         const [beforeinputEvent] = await manuallyDispatchProgrammaticEvent.silent(
 >>>>>>> upstream/18.0
@@ -3022,7 +3034,11 @@ export async function insertText(editor, text) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const inputEvent = await manuallyDispatchProgrammaticEvent.silent(
+=======
+        const [inputEvent] = await manuallyDispatchProgrammaticEvent.silent(
+>>>>>>> upstream/18.0
 =======
         const [inputEvent] = await manuallyDispatchProgrammaticEvent.silent(
 >>>>>>> upstream/18.0
@@ -3721,6 +3737,50 @@ export async function insertText(editor, text) {
     }
 }
 
+<<<<<<< HEAD
+=======
+/**
+ * @param {Editor} editor
+ */
+export async function insertSpace(editor) {
+    const keydownEvent = await manuallyDispatchProgrammaticEvent(editor.editable, "keydown", {
+        key: " ",
+    });
+    if (keydownEvent.defaultPrevented) {
+        return;
+    }
+    // InputEvent is required to simulate the insert text.
+    const [beforeinputEvent] = await manuallyDispatchProgrammaticEvent(
+        editor.editable,
+        "beforeinput",
+        {
+            inputType: "insertText",
+            data: " ",
+        }
+    );
+    if (beforeinputEvent.defaultPrevented) {
+        return;
+    }
+    const range = editor.document.getSelection().getRangeAt(0);
+    if (!range.collapsed) {
+        throw new Error("need to implement something... maybe");
+    }
+
+    // mimic the behavior of the browser when inserting a &nbsp
+    document.execCommand("insertText", false, " ");
+
+    const [inputEvent] = await manuallyDispatchProgrammaticEvent(editor.editable, "input", {
+        inputType: "insertText",
+        data: " ",
+    });
+    if (inputEvent.defaultPrevented) {
+        return;
+    }
+    // KeyUpEvent is not required but is triggered like the browser would.
+    await manuallyDispatchProgrammaticEvent(editor.editable, "keyup", { key: " " });
+}
+
+>>>>>>> upstream/18.0
 /** @param {Editor} editor */
 export function deleteForward(editor) {
     execCommand(editor, "deleteForward");
@@ -3900,9 +3960,12 @@ export async function simulateArrowKeyPress(editor, keys) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await press(keys);
     const keysArray = Array.isArray(keys) ? keys : [keys];
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4158,6 +4221,9 @@ export async function simulateArrowKeyPress(editor, keys) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4660,7 +4726,10 @@ export async function tripleClick(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5350,6 +5419,9 @@ export async function splitTripleClick(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6047,11 +6119,14 @@ export async function splitTripleClick(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await manuallyDispatchProgrammaticEvent.silent(node, "mouseup", { detail: 3 });
     await manuallyDispatchProgrammaticEvent.as("tripleClick")(node, "click", { detail: 3 });
 
     await tick();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6738,6 +6813,9 @@ export async function splitTripleClick(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -206,6 +206,10 @@ class WebsiteSaleVariantController(Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        combination_info['currency_precision'] = combination_info['currency'].decimal_places
+>>>>>>> upstream/18.0
 =======
         combination_info['currency_precision'] = combination_info['currency'].decimal_places
 >>>>>>> upstream/18.0

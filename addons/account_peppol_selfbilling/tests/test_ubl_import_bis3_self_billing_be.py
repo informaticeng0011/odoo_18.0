@@ -6,6 +6,10 @@ from odoo.tests import tagged
 
 @tagged('post_install_l10n', 'post_install', '-at_install', *TestUblBis3Common.extra_tags)
 class TestUblBis3SelfBilling(TestUblBis3Common, TestUblCiiBECommon):
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
     @classmethod
     def setUpClass(cls):
         super().setUpClass()
@@ -24,7 +28,10 @@ class TestUblBis3SelfBilling(TestUblBis3Common, TestUblCiiBECommon):
     def test_export_selfbilling(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         self.env['res.partner'].create({
@@ -39,6 +46,9 @@ class TestUblBis3SelfBilling(TestUblBis3Common, TestUblCiiBECommon):
         })
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

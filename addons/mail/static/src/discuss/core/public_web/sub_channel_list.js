@@ -189,7 +189,11 @@ export class SubChannelList extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         useVisible("load-more", (isVisible) => {
+=======
+        this.loadMoreState = useVisible("load-more", (isVisible) => {
+>>>>>>> upstream/18.0
 =======
         this.loadMoreState = useVisible("load-more", (isVisible) => {
 >>>>>>> upstream/18.0

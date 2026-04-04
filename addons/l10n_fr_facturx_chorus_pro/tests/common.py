@@ -3,6 +3,10 @@ from odoo.addons.account_edi_ubl_cii.models.account_edi_xml_ubl_bis3 import CHOR
 
 
 class TestUblCiiCommonChorusPro(TestUblCiiCommon):
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
     @classmethod
     def setUpClass(cls):
         super().setUpClass()
@@ -31,3 +35,11 @@ class TestUblCiiFRCommonChorusPro(TestUblCiiCommonChorusPro, TestUblCiiFRCommon)
     def _create_company(cls, **create_values):
         create_values.setdefault('siret', '40678483500521')
         return super()._create_company(**create_values)
+<<<<<<< HEAD
+=======
+
+    @classmethod
+    def subfolders(cls):
+        subfolder_format, subfolder_document, _subfolder_country = super().subfolders()
+        return subfolder_format, subfolder_document, 'fr'
+>>>>>>> upstream/18.0

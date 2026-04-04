@@ -73,6 +73,10 @@ from unittest.mock import patch
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from urllib import parse
+>>>>>>> upstream/18.0
 =======
 from urllib import parse
 >>>>>>> upstream/18.0
@@ -385,6 +389,10 @@ class TestNemhandelMessage(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'allow_out_payment': True,
+>>>>>>> upstream/18.0
 =======
             'allow_out_payment': True,
 >>>>>>> upstream/18.0
@@ -525,6 +533,10 @@ class TestNemhandelMessage(TestAccountMoveSendCommon):
                 'state': 'done' if not error else 'error',
                 'direction': 'outgoing',
                 'document_type': 'Invoice',
+<<<<<<< HEAD
+=======
+                'origin_message_uuid': FAKE_UUID[0],
+>>>>>>> upstream/18.0
             },
             FAKE_UUID[1]: {
                 'accounting_supplier_party': '0184:16356706',
@@ -534,6 +546,10 @@ class TestNemhandelMessage(TestAccountMoveSendCommon):
                 'state': 'done' if not error else 'error',
                 'direction': 'incoming',
                 'document_type': 'Invoice',
+<<<<<<< HEAD
+=======
+                'origin_message_uuid': FAKE_UUID[1],
+>>>>>>> upstream/18.0
             },
         }
 
@@ -555,7 +571,12 @@ class TestNemhandelMessage(TestAccountMoveSendCommon):
                         'error': False if not error else 'Test error',
                     }
                 ],
+<<<<<<< HEAD
             }}
+=======
+            }},
+            '/api/nemhandel/1/send_response': {'result': {'messages': [{'message_uuid': 'rrrrrrrr-rrrr-rrrr-rrrr-rrrrrrrrrrrr'}] * nr_invoices}},
+>>>>>>> upstream/18.0
         }
         return proxy_documents, responses
 
@@ -570,6 +591,7 @@ class TestNemhandelMessage(TestAccountMoveSendCommon):
     def _request_handler(cls, s: Session, r: PreparedRequest, /, **kw):
         response = Response()
         response.status_code = 200
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -817,6 +839,11 @@ class TestNemhandelMessage(TestAccountMoveSendCommon):
                     },
                 }
                 return response
+=======
+        if r.path_url.startswith('/api/peppol/1/lookup'):
+            nemhandel_identifier = parse.parse_qs(r.path_url.rsplit('?')[1])['peppol_identifier'][0].lower()
+            url_quoted_nemhandel_identifier = parse.quote_plus(nemhandel_identifier)
+>>>>>>> upstream/18.0
             if nemhandel_identifier.endswith('12345674'):
                 response.status_code = 404
                 response.json = lambda: {"error": {"code": "NOT_FOUND", "message": "no naptr record", "retryable": False}}
@@ -850,6 +877,7 @@ class TestNemhandelMessage(TestAccountMoveSendCommon):
                     },
                 }
                 return response
+<<<<<<< HEAD
 
         url = r.path_url.lower()
 <<<<<<< HEAD
@@ -1060,11 +1088,37 @@ class TestNemhandelMessage(TestAccountMoveSendCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+            response.status_code = 200
+            response.json = lambda: {
+                "result": {
+                    'identifier': nemhandel_identifier,
+                    'smp_base_url': "https://smp-demo.nemhandel.dk",
+                    'ttl': 60,
+                    'service_group_url': f'http:///smp-demo.nemhandel.dk/iso6523-actorid-upis%3A%3A{url_quoted_nemhandel_identifier}',
+                    'services': [
+                        {
+                            "href": f"https://smp-demo.nemhandel.dk/iso6523-actorid-upis%3A%3A{url_quoted_nemhandel_identifier}/services/busdox-docid-qns%3A%3Aurn%3Aoasis%3Anames%3Aspecification%3Aubl%3Aschema%3Axsd%3ACreditNote-2%3A%3ACreditNote%23%23OIOUBL-2.1%3A%3A2.1",
+                            "document_id": "busdox-docid-qns::urn:oasis:names:specification:ubl:schema:xsd:Invoice-2::Invoice##OIOUBL-2.1::2.1",
+                        },
+                    ],
+                },
+            }
+            return response
+
+        url = r.path_url.lower()
+>>>>>>> upstream/18.0
         body = json.loads(r.body)
         if url == '/api/nemhandel/1/send_document':
             if not body['params']['documents']:
                 raise UserError('No documents were provided')
             proxy_documents, responses = cls._get_mock_data(cls.env.context.get('error'), nr_invoices=len(body['params']['documents']))
+<<<<<<< HEAD
+=======
+        elif url == '/api/nemhandel/1/send_response':
+            num_responses = len(body['params']['reference_uuids'])
+            proxy_documents, responses = cls._get_mock_data(cls.env.context.get('error'), nr_invoices=num_responses)
+>>>>>>> upstream/18.0
         else:
             proxy_documents, responses = cls._get_mock_data(cls.env.context.get('error'))
 
@@ -1273,7 +1327,10 @@ class TestNemhandelMessage(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

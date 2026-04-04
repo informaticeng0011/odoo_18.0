@@ -175,7 +175,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 t-on-click="navigateToOdooMenu">
+=======
+                t-on-click="onClick">
+>>>>>>> upstream/18.0
 =======
                 t-on-click="onClick">
 >>>>>>> upstream/18.0
@@ -864,7 +868,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <attribute name="t-on-click">() => this.onClick()</attribute>
+=======
+            <attribute name="t-on-click">() => env.isDashboard() ? this.onClick() : ""</attribute>
+>>>>>>> upstream/18.0
 =======
             <attribute name="t-on-click">() => env.isDashboard() ? this.onClick() : ""</attribute>
 >>>>>>> upstream/18.0

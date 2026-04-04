@@ -44,6 +44,10 @@ import logging
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from unittest.mock import patch
+>>>>>>> upstream/18.0
 =======
 from unittest.mock import patch
 >>>>>>> upstream/18.0
@@ -243,10 +247,14 @@ class TestAPIKeys(TestTOTPMixin, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.registry['ir.logging'].send_key = log
         @self.addCleanup
         def remove_callback():
             del self.registry['ir.logging'].send_key
+=======
+        self.startPatcher(patch.object(self.registry['ir.logging'], 'send_key', log, create=True))
+>>>>>>> upstream/18.0
 =======
         self.startPatcher(patch.object(self.registry['ir.logging'], 'send_key', log, create=True))
 >>>>>>> upstream/18.0

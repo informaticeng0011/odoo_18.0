@@ -2,8 +2,11 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import odoo.tests
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 from unittest.mock import patch
@@ -12,6 +15,9 @@ from dateutil.relativedelta import relativedelta
 import odoo.tests
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -28,7 +34,10 @@ class TestWebsiteProfile(HttpCaseGamification):
         self.start_tour("/", 'website_profile_description', login="admin")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -88,6 +97,9 @@ class TestWebsiteProfile(HttpCaseGamification):
                     else:
                         self.assertNotIn(user.name, html)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

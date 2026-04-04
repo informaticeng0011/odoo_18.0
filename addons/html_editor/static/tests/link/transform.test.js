@@ -3,6 +3,7 @@ import { manuallyDispatchProgrammaticEvent } from "@odoo/hoot-dom";
 import { patchWithCleanup } from "@web/../tests/web_test_helpers";
 import { setupEditor, testEditor } from "../_helpers/editor";
 import { cleanLinkArtifacts } from "../_helpers/format";
+<<<<<<< HEAD
 import { getContent, setSelection } from "../_helpers/selection";
 import { insertText, undo } from "../_helpers/user_actions";
 
@@ -1887,6 +1888,10 @@ async function insertSpace(editor) {
     // KeyUpEvent is not required but is triggered like the browser would.
     await manuallyDispatchProgrammaticEvent(editor.editable, "keyup", { key: " " });
 }
+=======
+import { getContent } from "../_helpers/selection";
+import { insertSpace, insertText, undo } from "../_helpers/user_actions";
+>>>>>>> upstream/18.0
 
 /**
  * Automatic link creation when pressing Space, Enter or Shift+Enter after an url
@@ -1996,7 +2001,11 @@ async function insertSpace(editor) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test("should transform url after space", async () => {
+=======
+test("should transform url after space (1)", async () => {
+>>>>>>> upstream/18.0
 =======
 test("should transform url after space (1)", async () => {
 >>>>>>> upstream/18.0
@@ -2425,6 +2434,11 @@ test("should transform url after space (1)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+});
+test("should transform url after space (2)", async () => {
+>>>>>>> upstream/18.0
 =======
 });
 test("should transform url after space (2)", async () => {
@@ -2966,7 +2980,11 @@ test("should transform url after space (2)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test("should transform url followed by punctuation characters after space", async () => {
+=======
+test("should transform url followed by punctuation characters after space (1)", async () => {
+>>>>>>> upstream/18.0
 =======
 test("should transform url followed by punctuation characters after space (1)", async () => {
 >>>>>>> upstream/18.0
@@ -3394,6 +3412,11 @@ test("should transform url followed by punctuation characters after space (1)", 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+});
+test("should transform url followed by punctuation characters after space (2)", async () => {
+>>>>>>> upstream/18.0
 =======
 });
 test("should transform url followed by punctuation characters after space (2)", async () => {
@@ -3924,6 +3947,11 @@ test("should transform url followed by punctuation characters after space (2)", 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+});
+test("should transform url followed by punctuation characters after space (3)", async () => {
+>>>>>>> upstream/18.0
 =======
 });
 test("should transform url followed by punctuation characters after space (3)", async () => {
@@ -4454,6 +4482,11 @@ test("should transform url followed by punctuation characters after space (3)", 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+});
+test("should transform url followed by punctuation characters after space (4)", async () => {
+>>>>>>> upstream/18.0
 =======
 });
 test("should transform url followed by punctuation characters after space (4)", async () => {
@@ -4984,6 +5017,11 @@ test("should transform url followed by punctuation characters after space (4)", 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+});
+test("should transform url followed by punctuation characters after space (5)", async () => {
+>>>>>>> upstream/18.0
 =======
 });
 test("should transform url followed by punctuation characters after space (5)", async () => {
@@ -5452,7 +5490,11 @@ test("should not transform an email url after space", async () => {
     await testEditor({
         contentBefore: "<p>user@domain.com[]</p>",
         stepFunction: (editor) => insertSpace(editor),
+<<<<<<< HEAD
         contentAfter: "<p>user@domain.com []</p>",
+=======
+        contentAfter: "<p>user@domain.com&nbsp;[]</p>",
+>>>>>>> upstream/18.0
     });
 });
 
@@ -5467,15 +5509,24 @@ test("should not transform url after two space", async () => {
 
 test("transform text url into link and undo it", async () => {
     const { el, editor } = await setupEditor(`<p>[]</p>`);
+<<<<<<< HEAD
     await insertText(editor, "www.abc.jpg ");
+=======
+    await insertText(editor, "www.abc.jpg");
+    await insertSpace(editor);
+>>>>>>> upstream/18.0
     expect(cleanLinkArtifacts(getContent(el))).toBe(
         '<p><a href="http://www.abc.jpg">www.abc.jpg</a>&nbsp;[]</p>'
     );
 
     undo(editor);
+<<<<<<< HEAD
     expect(cleanLinkArtifacts(getContent(el))).toBe(
         '<p><a href="http://www.abc.jpg">www.abc.jpg</a>[]</p>'
     );
+=======
+    expect(cleanLinkArtifacts(getContent(el))).toBe("<p>www.abc.jpg&nbsp;[]</p>");
+>>>>>>> upstream/18.0
 
     undo(editor);
     expect(cleanLinkArtifacts(getContent(el))).toBe("<p>www.abc.jpg[]</p>");

@@ -238,6 +238,7 @@ export function patchWebsocketWorkerWithCleanup(params = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     });
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -834,6 +835,8 @@ export function patchWebsocketWorkerWithCleanup(params = {}) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         // Browser can't be imported in the worker bundle, but intervals should
         // be cleared during tests.
         setInterval: browser.setInterval.bind(browser),
@@ -1002,6 +1005,9 @@ export function patchWebsocketWorkerWithCleanup(params = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

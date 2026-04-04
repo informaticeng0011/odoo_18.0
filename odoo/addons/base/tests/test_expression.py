@@ -1205,8 +1205,11 @@ class TestExpression(SavepointCaseWithUserDemo, TransactionExpressionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.assertRaisesRegex(ValueError, r"^stray % in format '%'$"):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1820,6 +1823,9 @@ class TestExpression(SavepointCaseWithUserDemo, TransactionExpressionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2334,6 +2340,7 @@ class TestExpression(SavepointCaseWithUserDemo, TransactionExpressionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         deco_addict = self._search(Partner, [('name', '=', 'Pepper Street')])
 
         not_be = self._search(Partner, [('country_id', '!=', 'Belgium')])
@@ -2343,6 +2350,8 @@ class TestExpression(SavepointCaseWithUserDemo, TransactionExpressionCase):
         not_be = self._search(Partner, [('country_id', '!=', 'Belgique')])
         self.assertNotIn(deco_addict, not_be)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2558,6 +2567,9 @@ class TestExpression(SavepointCaseWithUserDemo, TransactionExpressionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

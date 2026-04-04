@@ -11,7 +11,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'version': '2.0',
+=======
+    'version': '2.1',
+>>>>>>> upstream/18.0
 =======
     'version': '2.1',
 >>>>>>> upstream/18.0
@@ -61,6 +65,7 @@ Activates:
         'data/account_data.xml',
         'data/account_tax_report_data.xml',
         'data/report_paperformat_data.xml',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -533,6 +538,11 @@ Activates:
         'views/report_templates_views.xml'
 >>>>>>> upstream/18.0
 =======
+        'views/report_templates_views.xml'
+>>>>>>> upstream/18.0
+=======
+        'views/account_move_views.xml',
+        'views/report_invoice.xml',
         'views/report_templates_views.xml'
 >>>>>>> upstream/18.0
 =======

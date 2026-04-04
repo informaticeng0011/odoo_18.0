@@ -204,6 +204,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* repair
 # 
 # Translators:
@@ -908,6 +909,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * repair
 #
 # Translators:
@@ -1119,6 +1122,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1548,6 +1552,10 @@
 >>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+>>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+# "Marta (wacm)" <wacm@odoo.com>, 2026.
 >>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
@@ -1717,6 +1725,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2858,6 +2867,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-02-25 12:24+0000\n"
 "Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
@@ -2896,6 +2907,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2967,6 +2981,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3724,6 +3739,11 @@ msgstr ""
 "(n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : "
+"(n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #. odoo-python
@@ -3770,7 +3790,11 @@ msgid "%(name)s Sequence repair"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s Oprava sekvence"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s Oprava sekvence"
 >>>>>>> upstream/18.0
@@ -3940,7 +3964,11 @@ msgid "%(product)s: Insufficient Quantity To Repair"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(product)s: Nedostatečné množství k opravě"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(product)s: Nedostatečné množství k opravě"
 >>>>>>> upstream/18.0
@@ -4109,7 +4137,11 @@ msgid "('Repair Order - %s' % (object.name))"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(„Opravný příkaz – %s “ % (object.name))"
+>>>>>>> upstream/18.0
 =======
 msgstr "(„Opravný příkaz – %s “ % (object.name))"
 >>>>>>> upstream/18.0
@@ -4499,7 +4531,11 @@ msgid "(<i>Recycle</i>)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(<i>Recyklovat</i>)"
+>>>>>>> upstream/18.0
 =======
 msgstr "(<i>Recyklovat</i>)"
 >>>>>>> upstream/18.0
@@ -5494,7 +5530,11 @@ msgid "(<i>Remove</i>)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Odstranit"
+=======
+msgstr "(<i>Odstranit</i>)"
+>>>>>>> upstream/18.0
 =======
 msgstr "(<i>Odstranit</i>)"
 >>>>>>> upstream/18.0
@@ -6201,7 +6241,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "* The 'New' status is used when a user is encoding a new and unconfirmed repair order.\n"
+=======
+"* The 'New' status is used when a user is encoding a new and unconfirmed "
+"repair order.\n"
+>>>>>>> upstream/18.0
 =======
 "* The 'New' status is used when a user is encoding a new and unconfirmed "
 "repair order.\n"
@@ -6608,7 +6653,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6735,6 +6783,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6820,6 +6871,7 @@ msgstr ""
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
 msgid "<i>(Add)</i>"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7637,6 +7689,9 @@ msgstr "<i>(Přidat)</i>"
 =======
 msgstr "<i>(Přidat)</i>"
 >>>>>>> upstream/18.0
+=======
+msgstr "<i>(Přidat)</i>"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.stock_repair_type_kanban
@@ -7682,7 +7737,11 @@ msgid "<span class=\"col-6\">Confirmed</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"col-6\">Potvrzeno</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"col-6\">Potvrzeno</span>"
 >>>>>>> upstream/18.0
@@ -7856,7 +7915,11 @@ msgid "<span class=\"col-6\">Under Repair</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"col-6\">V opravě</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"col-6\">V opravě</span>"
 >>>>>>> upstream/18.0
@@ -8025,7 +8088,11 @@ msgid "<span class=\"o_stat_text\">Done:</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Hotovo:</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Hotovo:</span>"
 >>>>>>> upstream/18.0
@@ -8194,7 +8261,11 @@ msgid "<span class=\"o_stat_text\">Repair Parts:</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Náhradní díly:</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Náhradní díly:</span>"
 >>>>>>> upstream/18.0
@@ -8468,7 +8539,11 @@ msgid "<span class=\"o_stat_text\">Sale Order</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Prodejní objednávka</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Prodejní objednávka</span>"
 >>>>>>> upstream/18.0
@@ -8952,7 +9027,11 @@ msgid "<span class=\"o_stat_text\">To Do:</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Úkoly:</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Úkoly:</span>"
 >>>>>>> upstream/18.0
@@ -9126,7 +9205,11 @@ msgid "<span>Repair Order #</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Opravný příkaz #</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Opravný příkaz #</span>"
 >>>>>>> upstream/18.0
@@ -9504,7 +9587,11 @@ msgid "<strong>Customer:</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Zákazník:</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Zákazník:</strong>"
 >>>>>>> upstream/18.0
@@ -10509,7 +10596,11 @@ msgid "<strong>Lot/Serial:</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Šarže/série:</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Šarže/série:</strong>"
 >>>>>>> upstream/18.0
@@ -11514,7 +11605,11 @@ msgid "<strong>Product:</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Produkt:</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Produkt:</strong>"
 >>>>>>> upstream/18.0
@@ -12529,7 +12624,11 @@ msgid "Activity view"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pohled aktivity"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pohled aktivity"
 >>>>>>> upstream/18.0
@@ -13250,7 +13349,11 @@ msgid "Added Parts Destination Location"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Místo určení přidaných dílů"
+>>>>>>> upstream/18.0
 =======
 msgstr "Místo určení přidaných dílů"
 >>>>>>> upstream/18.0
@@ -13430,7 +13533,11 @@ msgid "All Parts are available"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Všechny díly jsou k dispozici"
+>>>>>>> upstream/18.0
 =======
 msgstr "Všechny díly jsou k dispozici"
 >>>>>>> upstream/18.0
@@ -13599,7 +13706,11 @@ msgid "Allowed Lot"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Povolená šarže"
+>>>>>>> upstream/18.0
 =======
 msgstr "Povolená šarže"
 >>>>>>> upstream/18.0
@@ -13778,7 +13889,11 @@ msgid "Any Part is late"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jakákoli část je opožděná"
+>>>>>>> upstream/18.0
 =======
 msgstr "Jakákoli část je opožděná"
 >>>>>>> upstream/18.0
@@ -13960,7 +14075,11 @@ msgid "Back to Repair"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zpět na opravu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zpět na opravu"
 >>>>>>> upstream/18.0
@@ -14413,6 +14532,7 @@ msgid "Component Destination Location"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Cílové Umístění Součástky "
@@ -15076,6 +15196,9 @@ msgstr "Cílové Umístění Součástky "
 >>>>>>> upstream/18.0
 =======
 msgstr "Cílové Umístění Součástky "
+>>>>>>> upstream/18.0
+=======
+msgstr "Cílové Umístění Součástky"
 >>>>>>> upstream/18.0
 =======
 msgstr "Cílové Umístění Součástky"
@@ -15467,7 +15590,11 @@ msgid "Component Source Location"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zdrojové Umístění Součástky"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zdrojové Umístění Součástky"
 >>>>>>> upstream/18.0
@@ -16353,6 +16480,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Vytvořit propojený opravný příkaz v potvrzení prodejní objednávky tohoto "
+"produktu."
+>>>>>>> upstream/18.0
 =======
 "Vytvořit propojený opravný příkaz v potvrzení prodejní objednávky tohoto "
 "produktu."
@@ -16594,7 +16726,11 @@ msgid "Date Category"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kategorie data"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kategorie data"
 >>>>>>> upstream/18.0
@@ -16795,7 +16931,11 @@ msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Zobrazovací název"
+=======
+msgstr "Zobrazovaný název"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zobrazovaný název"
 >>>>>>> upstream/18.0
@@ -16992,6 +17132,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"U některých dílů existuje rozdíl mezi původní poptávkou a skutečným "
+"množstvím, které bylo použito. Opravdu chcete potvrdit?"
+>>>>>>> upstream/18.0
 =======
 "U některých dílů existuje rozdíl mezi původní poptávkou a skutečným "
 "množstvím, které bylo použito. Opravdu chcete potvrdit?"
@@ -17226,7 +17371,11 @@ msgid "Has Uncomplete Moves"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Má dekončené tahy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Má dekončené tahy"
 >>>>>>> upstream/18.0
@@ -17426,6 +17575,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Pokud je zaškrtnuto, prodejní cena bude nastavena na 0 pro všechny produkty "
+"převedené z opravného příkazu."
+>>>>>>> upstream/18.0
 =======
 "Pokud je zaškrtnuto, prodejní cena bude nastavena na 0 pro všechny produkty "
 "převedené z opravného příkazu."
@@ -17602,6 +17756,7 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:repair.action_repair_order_tree
 msgid ""
 "In a repair order, you can detail the components you remove,\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17973,6 +18128,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                add or replace and record the time you spent on the "
 "different\n"
 "                operations."
@@ -18018,6 +18175,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18146,7 +18306,11 @@ msgid "In repair count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Počet položek v opravě"
+>>>>>>> upstream/18.0
 =======
 msgstr "Počet položek v opravě"
 >>>>>>> upstream/18.0
@@ -18315,7 +18479,11 @@ msgid "In the Repair Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "V opravném příkazu"
+>>>>>>> upstream/18.0
 =======
 msgstr "V opravném příkazu"
 >>>>>>> upstream/18.0
@@ -18504,7 +18672,11 @@ msgid "Is Repairable"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Je opravitelný"
+>>>>>>> upstream/18.0
 =======
 msgstr "Je opravitelný"
 >>>>>>> upstream/18.0
@@ -18673,7 +18845,11 @@ msgid "Jane Smith"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jane Smithová"
+>>>>>>> upstream/18.0
 =======
 msgstr "Jane Smithová"
 >>>>>>> upstream/18.0
@@ -19056,7 +19232,11 @@ msgid "L12345"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "L12345"
+>>>>>>> upstream/18.0
 =======
 msgstr "L12345"
 >>>>>>> upstream/18.0
@@ -20061,7 +20241,11 @@ msgid "Laptop"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Laptop"
+>>>>>>> upstream/18.0
 =======
 msgstr "Laptop"
 >>>>>>> upstream/18.0
@@ -20885,6 +21069,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Aktuální stav dostupnosti dílů pro tento OP. Pokud je zelený, znamená to, že "
+"OP je připraven."
+>>>>>>> upstream/18.0
 =======
 "Aktuální stav dostupnosti dílů pro tento OP. Pokud je zelený, znamená to, že "
 "OP je připraven."
@@ -21158,7 +21347,11 @@ msgid "No repair order found. Let's create one!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nebyla nalezena žádná objednávka opravy. Pojďme ji vytvořit!"
+=======
+msgstr "Nebyl nalezen žádný opravný příkaz. Pojďme nějaký vytvořit!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nebyl nalezen žádný opravný příkaz. Pojďme nějaký vytvořit!"
 >>>>>>> upstream/18.0
@@ -21350,7 +21543,11 @@ msgid "Number of Late Repair Orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Počet opožděných oprav"
+>>>>>>> upstream/18.0
 =======
 msgstr "Počet opožděných oprav"
 >>>>>>> upstream/18.0
@@ -21519,7 +21716,11 @@ msgid "Number of Repair Orders Confirmed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Počet potvrzených opravných příkazů"
+>>>>>>> upstream/18.0
 =======
 msgstr "Počet potvrzených opravných příkazů"
 >>>>>>> upstream/18.0
@@ -21688,7 +21889,11 @@ msgid "Number of Repair Orders Under Repair"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Počet opravných zakázek v opravě"
+>>>>>>> upstream/18.0
 =======
 msgstr "Počet opravných zakázek v opravě"
 >>>>>>> upstream/18.0
@@ -21857,7 +22062,11 @@ msgid "Number of Repair Orders to Process"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Počet opravných zakázek k zpracování"
+>>>>>>> upstream/18.0
 =======
 msgstr "Počet opravných zakázek k zpracování"
 >>>>>>> upstream/18.0
@@ -22041,7 +22250,11 @@ msgid "Number of repairs linked to this picking"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Počet oprav spojených s tímto vyzvednutím"
+=======
+msgstr "Počet oprav spojených s tímto vychystáváním"
+>>>>>>> upstream/18.0
 =======
 msgstr "Počet oprav spojených s tímto vychystáváním"
 >>>>>>> upstream/18.0
@@ -22210,7 +22423,11 @@ msgid "Open"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Volný"
+=======
+msgstr "Otevřený"
+>>>>>>> upstream/18.0
 =======
 msgstr "Otevřený"
 >>>>>>> upstream/18.0
@@ -22342,6 +22559,7 @@ msgstr "Typ operace"
 
 #. module: repair
 #. odoo-python
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22704,6 +22922,9 @@ msgstr "Typ operace"
 =======
 #: code:addons/repair/models/product.py:0 code:addons/repair/models/repair.py:0
 >>>>>>> upstream/18.0
+=======
+#: code:addons/repair/models/product.py:0 code:addons/repair/models/repair.py:0
+>>>>>>> upstream/18.0
 msgid "Operation not supported"
 msgstr "Operace není podporována"
 
@@ -22773,7 +22994,11 @@ msgid "Parts Availability State"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stav dostupnosti dílů"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stav dostupnosti dílů"
 >>>>>>> upstream/18.0
@@ -22947,7 +23172,11 @@ msgid "Picking Product"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produkt vychystávání"
+>>>>>>> upstream/18.0
 =======
 msgstr "Produkt vychystávání"
 >>>>>>> upstream/18.0
@@ -23139,7 +23368,11 @@ msgid "Product A"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produkt A"
+>>>>>>> upstream/18.0
 =======
 msgstr "Produkt A"
 >>>>>>> upstream/18.0
@@ -23308,7 +23541,11 @@ msgid "Product B"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produkt B"
+>>>>>>> upstream/18.0
 =======
 msgstr "Produkt B"
 >>>>>>> upstream/18.0
@@ -23477,7 +23714,11 @@ msgid "Product Catalog Product Is In Repair"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Katalog produktů Produkt je v opravě"
+>>>>>>> upstream/18.0
 =======
 msgstr "Katalog produktů Produkt je v opravě"
 >>>>>>> upstream/18.0
@@ -23868,7 +24109,11 @@ msgid "Product Destination Location"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cílové Umístění Produktu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cílové Umístění Produktu"
 >>>>>>> upstream/18.0
@@ -24937,7 +25182,11 @@ msgid "Product Source Location"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zdrojové Umístění Produktu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zdrojové Umístění Produktu"
 >>>>>>> upstream/18.0
@@ -25799,7 +26048,11 @@ msgid "Products repaired are all belonging to this lot"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Opravené výrobky patří k tomuto produktovému číslu"
+=======
+msgstr "Opravené produkty patří k tomuto produktovému číslu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Opravené produkty patří k tomuto produktovému číslu"
 >>>>>>> upstream/18.0
@@ -25973,7 +26226,11 @@ msgid "Quant"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Množství"
+=======
+msgstr "Množ."
+>>>>>>> upstream/18.0
 =======
 msgstr "Množ."
 >>>>>>> upstream/18.0
@@ -26358,7 +26615,11 @@ msgid "RO123456"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "RO123456"
+>>>>>>> upstream/18.0
 =======
 msgstr "RO123456"
 >>>>>>> upstream/18.0
@@ -27160,7 +27421,11 @@ msgid "Ready"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Připraveno"
+=======
+msgstr "Hotové"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hotové"
 >>>>>>> upstream/18.0
@@ -27550,7 +27815,11 @@ msgid "Recycle"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Recyklovat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Recyklovat"
 >>>>>>> upstream/18.0
@@ -28603,7 +28872,11 @@ msgid "Recycle Destination Location"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cílové Umístění Recyklované Součástky"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cílové Umístění Recyklované Součástky"
 >>>>>>> upstream/18.0
@@ -29656,7 +29929,11 @@ msgid "Recycled Parts Destination Location"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cílové Umístění Recyklovaných Součástek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cílové Umístění Recyklovaných Součástek"
 >>>>>>> upstream/18.0
@@ -30714,6 +30991,7 @@ msgid "Remove Destination Location"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Cílové Umístění Zmetku"
@@ -31377,6 +31655,9 @@ msgstr "Cílové Umístění Zmetku"
 >>>>>>> upstream/18.0
 =======
 msgstr "Cílové Umístění Zmetku"
+>>>>>>> upstream/18.0
+=======
+msgstr "Odebrat cílové umístění"
 >>>>>>> upstream/18.0
 =======
 msgstr "Odebrat cílové umístění"
@@ -31767,6 +32048,7 @@ msgid "Removed Parts Destination Location"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Cílové Umístění Odstraněných Součástek"
@@ -32430,6 +32712,9 @@ msgstr "Cílové Umístění Odstraněných Součástek"
 >>>>>>> upstream/18.0
 =======
 msgstr "Cílové Umístění Odstraněných Součástek"
+>>>>>>> upstream/18.0
+=======
+msgstr "Cílové umístění odstraněných součástek"
 >>>>>>> upstream/18.0
 =======
 msgstr "Cílové umístění odstraněných součástek"
@@ -32608,7 +32893,11 @@ msgid "Repair MTO Rule"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pravidlo opravy MTO"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pravidlo opravy MTO"
 >>>>>>> upstream/18.0
@@ -32783,7 +33072,11 @@ msgid "Repair Operation Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Typ opravy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Typ opravy"
 >>>>>>> upstream/18.0
@@ -32956,7 +33249,11 @@ msgid "Repair Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Příkaz opravy"
+=======
+msgstr "Opravný příkaz"
+>>>>>>> upstream/18.0
 =======
 msgstr "Opravný příkaz"
 >>>>>>> upstream/18.0
@@ -33125,7 +33422,11 @@ msgid "Repair Order(s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opravné příkazy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Opravné příkazy"
 >>>>>>> upstream/18.0
@@ -33306,7 +33607,11 @@ msgid "Repair Orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Příkazy opravy"
+=======
+msgstr "Opravné příkazy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Opravné příkazy"
 >>>>>>> upstream/18.0
@@ -33480,7 +33785,11 @@ msgid "Repair Overview"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Přehled oprav"
+>>>>>>> upstream/18.0
 =======
 msgstr "Přehled oprav"
 >>>>>>> upstream/18.0
@@ -33649,7 +33958,11 @@ msgid "Repair Properties"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vlastnosti opravy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vlastnosti opravy"
 >>>>>>> upstream/18.0
@@ -33823,7 +34136,11 @@ msgid "Repair Request"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Žádost o opravu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Žádost o opravu"
 >>>>>>> upstream/18.0
@@ -34004,7 +34321,11 @@ msgid "Repair must be under repair in order to end reparation."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Oprava musí být vpořádku, aby mohlo být opravování ukončeno."
+=======
+msgstr "Oprava musí být ve stavu v opravě, aby bylo možné ukončit opravy."
+>>>>>>> upstream/18.0
 =======
 msgstr "Oprava musí být ve stavu v opravě, aby bylo možné ukončit opravy."
 >>>>>>> upstream/18.0
@@ -34174,7 +34495,11 @@ msgid "Repair orders of %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Příkazy oprav z %s"
+=======
+msgstr "Opravné příkazy z %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Opravné příkazy z %s"
 >>>>>>> upstream/18.0
@@ -34343,7 +34668,11 @@ msgid "Repair part count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Počet opravných dílů"
+>>>>>>> upstream/18.0
 =======
 msgstr "Počet opravných dílů"
 >>>>>>> upstream/18.0
@@ -34518,7 +34847,11 @@ msgid "Repaired count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Počet oprav"
+>>>>>>> upstream/18.0
 =======
 msgstr "Počet oprav"
 >>>>>>> upstream/18.0
@@ -34699,7 +35032,11 @@ msgid "Repairs order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Příkazy opravy"
+=======
+msgstr "Opravné příkazy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Opravné příkazy"
 >>>>>>> upstream/18.0
@@ -34927,7 +35264,11 @@ msgid "Sale Order Line Description."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Popis položky prodejní objednávky."
+>>>>>>> upstream/18.0
 =======
 msgstr "Popis položky prodejní objednávky."
 >>>>>>> upstream/18.0
@@ -35096,7 +35437,11 @@ msgid "Sale Order Line from which the Repair Order comes from."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Položka prodejní objednávky, ze které pochází opravný příkaz."
+>>>>>>> upstream/18.0
 =======
 msgstr "Položka prodejní objednávky, ze které pochází opravný příkaz."
 >>>>>>> upstream/18.0
@@ -35265,7 +35610,11 @@ msgid "Sale Order from which the Repair Order comes from."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prodejní objednávka, ze které vychází opravný příkaz."
+>>>>>>> upstream/18.0
 =======
 msgstr "Prodejní objednávka, ze které vychází opravný příkaz."
 >>>>>>> upstream/18.0
@@ -35449,7 +35798,11 @@ msgid "Search Repair Orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Vyhledávání objednávek opravy"
+=======
+msgstr "Vyhledávání opravných příkazů"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vyhledávání opravných příkazů"
 >>>>>>> upstream/18.0
@@ -35619,7 +35972,11 @@ msgid "Serial number is required for product to repair : %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pro opravu produktu je nutné zadat sériové číslo: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pro opravu produktu je nutné zadat sériové číslo: %s"
 >>>>>>> upstream/18.0
@@ -35794,7 +36151,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Zobrazit všechny záznamy, které mají datum příští aktivity před dneškem"
+=======
+"Zobrazit všechny záznamy, které mají následující datum akce před dneškem"
+>>>>>>> upstream/18.0
 =======
 "Zobrazit všechny záznamy, které mají následující datum akce před dneškem"
 >>>>>>> upstream/18.0
@@ -36021,6 +36382,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Technické pole, které je třeba zkontrolovat, kdy můžeme zrušit rezervaci"
+>>>>>>> upstream/18.0
 =======
 "Technické pole, které je třeba zkontrolovat, kdy můžeme zrušit rezervaci"
 >>>>>>> upstream/18.0
@@ -36190,7 +36555,11 @@ msgid "The day after tomorrow"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pozítří"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pozítří"
 >>>>>>> upstream/18.0
@@ -36369,7 +36738,11 @@ msgid "This is a repair note."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Toto je poznámka k opravě."
+>>>>>>> upstream/18.0
 =======
 msgstr "Toto je poznámka k opravě."
 >>>>>>> upstream/18.0
@@ -36541,6 +36914,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Toto je výchozí místo určení pro produkt, který má být opraven v opravných "
+"příkazech s tímto typem operace."
+>>>>>>> upstream/18.0
 =======
 "Toto je výchozí místo určení pro produkt, který má být opraven v opravných "
 "příkazech s tímto typem operace."
@@ -36974,6 +37352,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Toto je výchozí umístění recyklovaných součástek, když vytvoříte objednávku "
+"opravy s tímto typem operace."
+>>>>>>> upstream/18.0
 =======
 "Toto je výchozí umístění recyklovaných součástek, když vytvoříte objednávku "
 "opravy s tímto typem operace."
@@ -38291,6 +38674,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Toto je výchozí cílové umístění zmetku, když vytvoříte objednávku opravy s "
+"tímto typem operace."
+>>>>>>> upstream/18.0
 =======
 "Toto je výchozí cílové umístění zmetku, když vytvoříte objednávku opravy s "
 "tímto typem operace."
@@ -39433,6 +39821,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This is the default source location for the product to be repaired in repair"
 " orders with this operation type."
 =======
@@ -39713,6 +40102,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "This is the default source location for the product to be repaired in repair "
 "orders with this operation type."
 msgstr ""
@@ -39758,6 +40149,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -39886,6 +40280,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Toto je místo, kde se nacházejí součásti produktu, který má být opraven."
+>>>>>>> upstream/18.0
 =======
 "Toto je místo, kde se nacházejí součásti produktu, který má být opraven."
 >>>>>>> upstream/18.0
@@ -40060,7 +40458,11 @@ msgid "This is the location where the repair parts are located."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Toto je místo, kde se nacházejí náhradní díly."
+>>>>>>> upstream/18.0
 =======
 msgstr "Toto je místo, kde se nacházejí náhradní díly."
 >>>>>>> upstream/18.0
@@ -40230,7 +40632,11 @@ msgid "This is the location where the repaired product is located."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Toto je místo, kde se nachází opravený produkt."
+>>>>>>> upstream/18.0
 =======
 msgstr "Toto je místo, kde se nachází opravený produkt."
 >>>>>>> upstream/18.0
@@ -40399,7 +40805,11 @@ msgid "To Repair"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "K opravě"
+>>>>>>> upstream/18.0
 =======
 msgstr "K opravě"
 >>>>>>> upstream/18.0
@@ -40620,7 +41030,11 @@ msgid "Under Repair"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Opravuje se"
+=======
+msgstr "V opravě"
+>>>>>>> upstream/18.0
 =======
 msgstr "V opravě"
 >>>>>>> upstream/18.0
@@ -40860,7 +41274,11 @@ msgid "You cannot cancel a Repair Order that's already been completed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opravu, která již byla dokončena, nelze zrušit."
+>>>>>>> upstream/18.0
 =======
 msgstr "Opravu, která již byla dokončena, nelze zrušit."
 >>>>>>> upstream/18.0
@@ -40989,6 +41407,7 @@ msgstr "Opravu, která již byla dokončena, nelze zrušit."
 #. odoo-python
 #: code:addons/repair/models/repair.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -41360,6 +41779,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "You cannot create a quotation for a repair order that is already linked to "
 "an existing sale order.\n"
 "Concerned repair order(s):\n"
@@ -41409,6 +41830,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -41495,6 +41919,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/repair/models/repair.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -41866,6 +42291,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "You need to define a customer for a repair order in order to create an "
 "associated quotation.\n"
 "Concerned repair order(s):\n"
@@ -41915,6 +42342,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -42046,7 +42476,11 @@ msgid "stock.repair.type.overview"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "stock.repair.type.overview"
+>>>>>>> upstream/18.0
 =======
 msgstr "stock.repair.type.overview"
 >>>>>>> upstream/18.0

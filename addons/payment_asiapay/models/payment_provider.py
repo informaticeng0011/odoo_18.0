@@ -279,6 +279,10 @@ class PaymentProvider(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        allowed_codes = set(const.CURRENCY_MAPPING.keys())
+>>>>>>> upstream/18.0
 =======
         allowed_codes = set(const.CURRENCY_MAPPING.keys())
 >>>>>>> upstream/18.0
@@ -1223,7 +1227,10 @@ class PaymentProvider(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1937,6 +1944,9 @@ class PaymentProvider(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

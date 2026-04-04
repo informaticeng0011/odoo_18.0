@@ -13,6 +13,7 @@ class TestUblImportBis3InvoiceBEAutoGeneratePDF(TestUblImportBis3InvoiceBE):
             return file_content
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Import the document that doesn't contain an embedded PDF
         with patch.object(self.env.registry['ir.actions.report'], '_run_wkhtmltopdf', _run_wkhtmltopdf):
             bill = self._import_invoice_as_attachment_on(
@@ -24,6 +25,8 @@ class TestUblImportBis3InvoiceBEAutoGeneratePDF(TestUblImportBis3InvoiceBE):
         self.assertEqual(len(bill.attachment_ids), 1)  # Generated PDF
         self.assertTrue(bill.attachment_ids.mimetype, 'pdf')
 =======
+=======
+>>>>>>> upstream/18.0
         def _set_pdf_param(value):
             self.env['ir.config_parameter'].sudo().set_param(
                 'account_edi_ubl_cii.disable_pdf_in_xml',
@@ -53,4 +56,7 @@ class TestUblImportBis3InvoiceBEAutoGeneratePDF(TestUblImportBis3InvoiceBE):
 
         # Return default behaviour
         _set_pdf_param('False')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

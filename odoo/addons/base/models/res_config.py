@@ -8,6 +8,10 @@ from odoo import api, models, _
 from odoo.exceptions import AccessError, RedirectWarning, UserError
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools import str2bool
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import str2bool
 >>>>>>> upstream/18.0
@@ -322,7 +326,11 @@ class ResConfigSettings(models.TransientModel, ResConfigModuleInstallationMixin)
                 elif field.type == 'boolean':
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     value = bool(value)
+=======
+                    value = str2bool(value, bool(value))
+>>>>>>> upstream/18.0
 =======
                     value = str2bool(value, bool(value))
 >>>>>>> upstream/18.0

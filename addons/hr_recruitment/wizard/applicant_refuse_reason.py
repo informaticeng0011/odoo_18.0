@@ -17,7 +17,11 @@ class ApplicantGetRefuseReason(models.TransientModel):
     send_mail = fields.Boolean("Send Email", compute='_compute_send_mail', store=True, readonly=False)
     template_id = fields.Many2one('mail.template', string='Email Template',
 <<<<<<< HEAD
+<<<<<<< HEAD
         compute='_compute_send_mail', store=True, readonly=False,
+=======
+        compute='_compute_send_mail', store=True, readonly=False, context={'active_test': True},
+>>>>>>> upstream/18.0
 =======
         compute='_compute_send_mail', store=True, readonly=False, context={'active_test': True},
 >>>>>>> upstream/18.0
@@ -34,8 +38,13 @@ class ApplicantGetRefuseReason(models.TransientModel):
         for wizard in self:
             template = wizard.refuse_reason_id.template_id
 <<<<<<< HEAD
+<<<<<<< HEAD
             wizard.send_mail = template and not wizard.applicant_without_email
             wizard.template_id = template
+=======
+            wizard.send_mail = template.active and not wizard.applicant_without_email
+            wizard.template_id = template.active and template
+>>>>>>> upstream/18.0
 =======
             wizard.send_mail = template.active and not wizard.applicant_without_email
             wizard.template_id = template.active and template

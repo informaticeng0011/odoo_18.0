@@ -185,15 +185,21 @@
 
           <!-- P_15: Total gross amount of the invoice (including all taxes). -->
 <<<<<<< HEAD
+<<<<<<< HEAD
         <P_15 t-out="float_repr(invoice.amount_total_signed, 2)"/>
 
           <!-- KursWalutyZ: Exchange rate of the currency to PLN on the invoice date. TO-CHECK -->
           <KursWalutyZ t-out="invoice.invoice_currency_rate"/>
 =======
+=======
+>>>>>>> upstream/18.0
         <P_15 t-out="float_repr(invoice.amount_total_in_currency_signed, 2)"/>
 
           <!-- KursWalutyZ: Exchange rate of the currency to PLN on the invoice date. TO-CHECK -->
           <KursWalutyZ t-out="float_repr(1 / (invoice.invoice_currency_rate or 1), 5)"/>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         <!--
           ======================================================================

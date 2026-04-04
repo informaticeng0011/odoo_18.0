@@ -78,7 +78,11 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         digits='Product Price', store=True, groups="base.group_user", precompute=True)
+=======
+        min_display_digits='Product Price', store=True, groups="base.group_user", precompute=True)
+>>>>>>> upstream/18.0
 =======
         min_display_digits='Product Price', store=True, groups="base.group_user", precompute=True)
 >>>>>>> upstream/18.0
@@ -359,7 +363,11 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         digits='Product Price', store=True, readonly=False, copy=False, precompute=True,
+=======
+        min_display_digits='Product Price', store=True, readonly=False, copy=False, precompute=True,
+>>>>>>> upstream/18.0
 =======
         min_display_digits='Product Price', store=True, readonly=False, copy=False, precompute=True,
 >>>>>>> upstream/18.0

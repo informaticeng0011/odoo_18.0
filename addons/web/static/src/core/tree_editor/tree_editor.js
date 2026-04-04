@@ -89,6 +89,11 @@ function collectDifferences(tree, otherTree) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            } else if (tree.operator === "starts_with" && otherTree.operator === "ends_with") {
+                return [{ type: "replacement", tree, operator: "ends_with" }];
+>>>>>>> upstream/18.0
 =======
             } else if (tree.operator === "starts_with" && otherTree.operator === "ends_with") {
                 return [{ type: "replacement", tree, operator: "ends_with" }];

@@ -204,7 +204,11 @@ import { registry } from "@web/core/registry";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 registry.category("web_tour.tours").add("test_mail_full.chatbot_redirect_to_portal", {
+=======
+registry.category("web_tour.tours").add("chatbot_redirect_to_portal", {
+>>>>>>> upstream/18.0
 =======
 registry.category("web_tour.tours").add("chatbot_redirect_to_portal", {
 >>>>>>> upstream/18.0
@@ -1039,6 +1043,10 @@ registry.category("web_tour.tours").add("chatbot_redirect_to_portal", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        { trigger: "#chatterRoot:shadow .o-mail-Chatter" },
+>>>>>>> upstream/18.0
 =======
         { trigger: "#chatterRoot:shadow .o-mail-Chatter" },
 >>>>>>> upstream/18.0

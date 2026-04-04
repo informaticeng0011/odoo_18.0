@@ -332,7 +332,11 @@ class TestStockLandedCostsRounding(TestStockLandedCostsCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(self.product_a.standard_price, 7.47)
+=======
+        self.assertAlmostEqual(self.product_a.standard_price, 7.4742857)
+>>>>>>> upstream/18.0
 =======
         self.assertAlmostEqual(self.product_a.standard_price, 7.4742857)
 >>>>>>> upstream/18.0

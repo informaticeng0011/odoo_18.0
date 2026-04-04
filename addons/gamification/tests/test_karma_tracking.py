@@ -52,7 +52,10 @@ class TestKarmaTrackingCommon(common.TransactionCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_get_user_ids_ranked_by_karma(self):
@@ -86,6 +89,9 @@ class TestKarmaTrackingCommon(common.TransactionCase):
         self.assertEqual(user_ids, [self.test_user.id])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

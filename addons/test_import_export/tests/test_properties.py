@@ -129,7 +129,11 @@ import json
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests.common import RecordCapturer, HttpCase
+=======
+from odoo.tests.common import RecordCapturer, HttpCase, new_test_user
+>>>>>>> upstream/18.0
 =======
 from odoo.tests.common import RecordCapturer, HttpCase, new_test_user
 >>>>>>> upstream/18.0
@@ -1052,7 +1056,10 @@ class TestPropertiesExportImport(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1788,6 +1795,9 @@ class TestPropertiesExportImport(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2569,6 +2579,10 @@ class TestPropertiesExportImport(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            {'char_prop': 'One Text', 'selection_prop': False, 'm2o_prop': self.partners[1].id},
+>>>>>>> upstream/18.0
 =======
             {'char_prop': 'One Text', 'selection_prop': False, 'm2o_prop': self.partners[1].id},
 >>>>>>> upstream/18.0
@@ -3557,7 +3571,11 @@ class TestPropertiesExportImport(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 f"TextType ({def_record_1.display_name})", f"many2one ({def_record_1.display_name})",
+=======
+                f"TextType ({def_record_1.display_name})", f"many2one ({def_record_1.display_name})", f"One Selection ({def_record_1.display_name})",
+>>>>>>> upstream/18.0
 =======
                 f"TextType ({def_record_1.display_name})", f"many2one ({def_record_1.display_name})", f"One Selection ({def_record_1.display_name})",
 >>>>>>> upstream/18.0
@@ -4540,6 +4558,7 @@ class TestPropertiesExportImport(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'SSBIYXRlIHRoaXMgZmVhdHVyZQ==', str(self.partners[2].id),
                 '', '', '',
             ],
@@ -4554,6 +4573,8 @@ class TestPropertiesExportImport(HttpCase):
                 external_ids[2], str(def_record_2.id),
                 '', '',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5301,6 +5322,9 @@ class TestPropertiesExportImport(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6036,7 +6060,11 @@ class TestPropertiesExportImport(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 '', '',
+=======
+                '', '', '',
+>>>>>>> upstream/18.0
 =======
                 '', '', '',
 >>>>>>> upstream/18.0
@@ -7032,10 +7060,13 @@ class TestPropertiesExportImport(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 4: ['properties.bool_prop'],
                 5: ['properties.tags_prop'],
                 6: ['properties.m2m_prop'],
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7769,6 +7800,9 @@ class TestPropertiesExportImport(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8509,6 +8543,10 @@ class TestPropertiesExportImport(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'properties.selection_prop',
+>>>>>>> upstream/18.0
 =======
                 'properties.selection_prop',
 >>>>>>> upstream/18.0
@@ -9497,6 +9535,7 @@ class TestPropertiesExportImport(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             {'bool_prop': False, 'tags_prop': ['bb', 'cc'], 'm2m_prop': False},
             {'bool_prop': True, 'tags_prop': ['bb'], 'm2m_prop': self.partners[1:].ids},
 =======
@@ -10071,6 +10110,8 @@ class TestPropertiesExportImport(HttpCase):
 >>>>>>> upstream/18.0
         ])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10531,6 +10572,9 @@ class TestPropertiesExportImport(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
