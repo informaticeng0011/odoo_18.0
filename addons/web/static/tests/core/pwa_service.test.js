@@ -137,8 +137,12 @@ import { describe, expect, getFixture, test } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { mockFetch } from "@odoo/hoot-mock";
 import { getService, makeMockEnv, patchWithCleanup } from "@web/../tests/web_test_helpers";
+=======
+import { getService, makeMockEnv, onRpc, patchWithCleanup } from "@web/../tests/web_test_helpers";
+>>>>>>> upstream/18.0
 =======
 import { getService, makeMockEnv, onRpc, patchWithCleanup } from "@web/../tests/web_test_helpers";
 >>>>>>> upstream/18.0
@@ -707,8 +711,13 @@ test("PWA service fetches the manifest found in the page", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     mockFetch((route) => {
         expect.step(route);
+=======
+    onRpc("/*", (request) => {
+        expect.step(new URL(request.url).pathname);
+>>>>>>> upstream/18.0
 =======
     onRpc("/*", (request) => {
         expect.step(new URL(request.url).pathname);
@@ -1418,8 +1427,13 @@ test("PWA installation process", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     mockFetch((route) => {
         expect.step(route);
+=======
+    onRpc("/*", (request) => {
+        expect.step(new URL(request.url).pathname);
+>>>>>>> upstream/18.0
 =======
     onRpc("/*", (request) => {
         expect.step(new URL(request.url).pathname);

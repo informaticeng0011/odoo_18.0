@@ -2,7 +2,11 @@ import { describe, expect, test } from "@odoo/hoot";
 import { setupEditor } from "../_helpers/editor";
 import { getContent } from "../_helpers/selection";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { simulateArrowKeyPress } from "../_helpers/user_actions";
+=======
+import { insertSpace, simulateArrowKeyPress } from "../_helpers/user_actions";
+>>>>>>> upstream/18.0
 =======
 import { insertSpace, simulateArrowKeyPress } from "../_helpers/user_actions";
 >>>>>>> upstream/18.0
@@ -114,7 +118,10 @@ describe("simulateArrowKeyPress method", () => {
     });
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 describe("insertSpace method", () => {
     test("insert first space", async () => {
@@ -143,4 +150,7 @@ describe("insertSpace method", () => {
         expect(getContent(el)).toBe("<p>a&nbsp;[]</p>");
     });
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

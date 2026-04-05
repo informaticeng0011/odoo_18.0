@@ -178,7 +178,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # -*- coding: utf-8 -*-
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -551,6 +554,7 @@ class IrUiMenu(models.Model):
         res = super()._load_menus_blacklist()
         is_interviewer = self.env.user.has_group('hr_recruitment.group_hr_recruitment_interviewer')
         is_user = self.env.user.has_group('hr_recruitment.group_hr_recruitment_user')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1248,6 +1252,9 @@ class IrUiMenu(models.Model):
 =======
         job_menu = self.env.ref('hr.menu_view_hr_job', raise_if_not_found=False)
 >>>>>>> upstream/18.0
+=======
+        job_menu = self.env.ref('hr.menu_view_hr_job', raise_if_not_found=False)
+>>>>>>> upstream/18.0
         pos_menu = self.env.ref('hr_recruitment.menu_hr_job_position', raise_if_not_found=False)
         int_menu = self.env.ref('hr_recruitment.menu_hr_job_position_interviewer', raise_if_not_found=False)
         if job_menu and not is_interviewer:
@@ -1435,6 +1442,9 @@ class IrUiMenu(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

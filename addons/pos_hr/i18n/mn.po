@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* pos_hr
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1187,12 +1188,16 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+# * pos_hr
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Batmunkh Ganbat <batmunkh2522@gmail.com>, 2024
 # Sanjaajamts Badamjunai <b.sanjaajamtsfc@gmail.com>, 2024
 # Martin Trigaux, 2024
 # Batmunkh Ganbat <batmunkh.g@bumanit.mn>, 2024
+<<<<<<< HEAD
 # Baskhuu Lodoikhuu <baskhuujacara@gmail.com>, 2025
 #
 <<<<<<< HEAD
@@ -1676,10 +1681,14 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+# Baskhuu Lodoikhuu <baskhuujacara@gmail.com>, 2025, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2750,10 +2759,18 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Baskhuu Lodoikhuu <baskhuujacara@gmail.com>, 2025\n"
 "Language-Team: Mongolian (https://app.transifex.com/odoo/teams/41243/mn/)\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-03-29 12:15+0000\n"
+"Last-Translator: Lodoikhuu <baskhuujacara@gmail.com>\n"
+"Language-Team: Mongolian <https://translate.odoo.com/projects/odoo-18/pos_hr/"
+"mn/>\n"
+>>>>>>> upstream/18.0
 "Language: mn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3236,16 +3253,30 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+=======
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #: model:ir.model,name:pos_hr.model_report_pos_hr_multi_employee_sales_report
 msgid "A collection of single session reports. One for each employee"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: pos_hr
 #: model_terms:ir.ui.view,arch_db:pos_hr.single_employee_sales_report
 msgid "Abigal Peterson"
 msgstr ""
+=======
+msgstr "Нэг сешнийн тайлангуудын цуглуулга. Ажилтан бүрт нэг байна"
+
+#. module: pos_hr
+#: model_terms:ir.ui.view,arch_db:pos_hr.single_employee_sales_report
+#, fuzzy
+msgid "Abigal Peterson"
+msgstr "Abigal Peterson"
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #. odoo-javascript
@@ -3256,19 +3287,31 @@ msgstr "Хандалтыг татгалзав"
 #. module: pos_hr
 #: model:ir.model.fields,field_description:pos_hr.field_pos_daily_sales_reports_wizard__add_report_per_employee
 msgid "Add a report per each employee"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ажилтан бүрээр тайлан гаргах"
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #: model_terms:ir.ui.view,arch_db:pos_hr.pos_config_form_view_inherit
 #: model_terms:ir.ui.view,arch_db:pos_hr.res_config_settings_view_form
 msgid "Advanced rights"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ахисан төвшний эрх"
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #: model_terms:ir.ui.view,arch_db:pos_hr.pos_config_form_view_inherit
 #: model_terms:ir.ui.view,arch_db:pos_hr.res_config_settings_view_form
 msgid "All Employees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Бүх ажилчид"
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #: model:ir.model,name:pos_hr.model_account_bank_statement_line
@@ -3279,7 +3322,11 @@ msgstr "Касс, харилцахын хуулганы мөр"
 #: model_terms:ir.ui.view,arch_db:pos_hr.pos_config_form_view_inherit
 #: model_terms:ir.ui.view,arch_db:pos_hr.res_config_settings_view_form
 msgid "Basic rights"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Энгийн эрх"
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #: model_terms:ir.ui.view,arch_db:pos_hr.view_pos_daily_sales_reports_wizard
@@ -3287,12 +3334,21 @@ msgid ""
 "Can't generate a report per employee! as selected session has no orders "
 "associated with any employee."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ажилтан бүрээр тайлан үүсгэх боломжгүй! Учир нь сонгосон сешнд ямар ч "
+"ажилтантай холбогдсон захиалга алга."
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #. odoo-javascript
 #: code:addons/pos_hr/static/src/overrides/components/closing_popup/closing_popup.xml:0
 msgid "Cash in/out"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Мөнгө оруулах/гаргах"
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #: model:ir.model.fields,field_description:pos_hr.field_pos_order__employee_id
@@ -3306,12 +3362,20 @@ msgstr "Кассчин"
 #. odoo-python
 #: code:addons/pos_hr/models/pos_order.py:0
 msgid "Cashier %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Кассир %s"
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #: model:ir.model.fields,field_description:pos_hr.field_pos_order__cashier
 msgid "Cashier name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Кассир нэр"
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #. odoo-javascript
@@ -3600,6 +3664,7 @@ msgid "Closed Register"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Хаагдсан бүртгэл"
@@ -4431,6 +4496,9 @@ msgstr "Хаагдсан бүртгэл"
 >>>>>>> upstream/18.0
 =======
 msgstr "Хаагдсан бүртгэл"
+>>>>>>> upstream/18.0
+=======
+msgstr "Сэшн хаасан"
 >>>>>>> upstream/18.0
 
 #. module: pos_hr
@@ -4468,22 +4536,35 @@ msgstr "Ажилтан"
 #. module: pos_hr
 #: model:ir.actions.report,name:pos_hr.multi_employee_sales_report_action
 msgid "Employee Sales Details"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ажилтны борлуулалтын дэлгэрэнгүй"
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #: model_terms:ir.ui.view,arch_db:pos_hr.single_employee_sales_report
 msgid "Employee Sales Report"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ажилтны борлуулалтын тайлан"
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #: model_terms:ir.ui.view,arch_db:pos_hr.single_employee_sales_report
 msgid "Employee:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ажилтан:"
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #. odoo-python
 #: code:addons/pos_hr/models/hr_employee.py:0
 msgid "Employee: %(employee)s - PoS Config(s): %(config_list)s \n"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: pos_hr
@@ -4968,6 +5049,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "Ажилтан: %(employee)s - Борлуулалтын цэг(үүд): %(config_list)s \n"
+
+#. module: pos_hr
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,help:pos_hr.field_pos_config__advanced_employee_ids
 #: model:ir.model.fields,help:pos_hr.field_res_config_settings__pos_advanced_employee_ids
@@ -4975,6 +5061,7 @@ msgid ""
 "Employees linked to users with the PoS Manager role are automatically added "
 "to this list"
 msgstr ""
+<<<<<<< HEAD
 
 #. module: pos_hr
 <<<<<<< HEAD
@@ -5462,23 +5549,42 @@ msgstr ""
 #: model:ir.model.fields,field_description:pos_hr.field_res_config_settings__pos_basic_employee_ids
 msgid "Employees with basic access"
 msgstr ""
+=======
+"ПОС Менежер үүрэгтэй хэрэглэгчтэй холбогдсон ажилтнууд энэ жагсаалтад "
+"автоматаар нэмэгдэнэ"
+
+#. module: pos_hr
+#: model:ir.model.fields,field_description:pos_hr.field_pos_config__basic_employee_ids
+#: model:ir.model.fields,field_description:pos_hr.field_res_config_settings__pos_basic_employee_ids
+msgid "Employees with basic access"
+msgstr "Энгийн эрхтэй ажилчид"
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #: model:ir.model.fields,field_description:pos_hr.field_pos_config__advanced_employee_ids
 #: model:ir.model.fields,field_description:pos_hr.field_res_config_settings__pos_advanced_employee_ids
 msgid "Employees with manager access"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Менежер эрхтэй ажилчид"
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #. odoo-javascript
 #: code:addons/pos_hr/static/src/overrides/screens/login_screen/login_screen.xml:0
 msgid "Enter your PIN"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ПИН дугаараа оруулна уу"
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #: model:ir.model.fields,help:pos_hr.field_pos_config__basic_employee_ids
 #: model:ir.model.fields,help:pos_hr.field_res_config_settings__pos_basic_employee_ids
 msgid "If left empty, all employees can log in to PoS"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: pos_hr
@@ -5971,6 +6077,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+msgstr "Хэрэв хоосон бол, бүх ажилчид уг ПОС-д хандаж чадна"
+
+#. module: pos_hr
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/pos_hr/static/src/overrides/components/navbar/navbar.xml:0
 msgid "Lock"
@@ -5980,6 +6091,7 @@ msgstr "Түгжих"
 #. odoo-javascript
 #: code:addons/pos_hr/static/src/app/select_cashier_mixin.js:0
 msgid "No Cashiers"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: pos_hr
@@ -6981,12 +7093,23 @@ msgstr "Сэшн нээх"
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "Кассир алга"
+
+#. module: pos_hr
+#. odoo-javascript
 >>>>>>> upstream/18.0
 #: code:addons/pos_hr/static/src/overrides/screens/login_screen/login_screen.js:0
 msgid ""
 "Only the cashier linked to the logged-in user (%s) can proceed to the "
 "Backend."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Зөвхөн нэвтэрсэн хэрэглэгчтэй (%s) холбогдсон кассчин л Backend рүү "
+"үргэлжлүүлэх боломжтой."
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #. odoo-javascript
@@ -7104,6 +7227,9 @@ msgstr "Сэшн нээх"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7332,13 +7458,21 @@ msgstr "Сэшн нээх"
 #. odoo-python
 #: code:addons/pos_hr/models/pos_session.py:0
 msgid "Opened register"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Сэшн нээсэн"
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #. odoo-javascript
 #: code:addons/pos_hr/static/src/overrides/components/closing_popup/closing_popup.xml:0
 msgid "Opening"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Нээлт"
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #. odoo-python
@@ -7350,7 +7484,11 @@ msgstr "Бусад"
 #. odoo-javascript
 #: code:addons/pos_hr/static/src/app/select_cashier_mixin.js:0
 msgid "PIN not found"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ПИН олдсонгүй"
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #. odoo-javascript
@@ -7601,7 +7739,11 @@ msgid "Password?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Нууц үг?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Нууц үг?"
 >>>>>>> upstream/18.0
@@ -8348,7 +8490,11 @@ msgstr "Төлбөрүүд"
 #. odoo-javascript
 #: code:addons/pos_hr/static/src/overrides/components/closing_popup/closing_popup.js:0
 msgid "Payments in %(paymentMethod)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(paymentMethod)s-ын төлбөрүүд"
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #: model:ir.model,name:pos_hr.model_pos_config
@@ -8635,7 +8781,11 @@ msgid "Point of Sale Daily Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Борлуулалтын цэгийн өдрийн тайлан"
+>>>>>>> upstream/18.0
 =======
 msgstr "Борлуулалтын цэгийн өдрийн тайлан"
 >>>>>>> upstream/18.0
@@ -9503,40 +9653,68 @@ msgstr "Барааны хувилбар"
 #: model_terms:ir.ui.view,arch_db:pos_hr.pos_config_form_view_inherit
 #: model_terms:ir.ui.view,arch_db:pos_hr.res_config_settings_view_form
 msgid "Select Employee(s)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ажилтан сонгох"
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #: model:ir.model,name:pos_hr.model_report_pos_hr_single_employee_sales_report
 msgid "Session sales details for a single employee"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Нэг ажилтны сешний борлуулалтын дэлгэрэнгүй мэдээлэл"
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #: model:ir.model.fields,help:pos_hr.field_pos_session__employee_id
 msgid "The employee who currently uses the cash register"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Одоогоор касс ашиглаж буй ажилтан"
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #: model:ir.model.fields,help:pos_hr.field_account_bank_statement_line__employee_id
 msgid "The employee who made the cash move."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Бэлэн мөнгөний нэмэгдүүлэх/хорогдуулах хөдөлгөөн хийсэн ажилтан\n"
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #: model:ir.model.fields,help:pos_hr.field_pos_order__employee_id
 #: model:ir.model.fields,help:pos_hr.field_pos_payment__employee_id
 msgid "The employee who uses the cash register."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Уг касс дээр одоогоор ажилж буй ажилтан."
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #. odoo-javascript
 #: code:addons/pos_hr/static/src/app/select_cashier_mixin.js:0
 msgid "There is no cashier available."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Боломжтой кассчин алга."
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #. odoo-javascript
 #: code:addons/pos_hr/static/src/overrides/screens/login_screen/login_screen.xml:0
 msgid "Unlock Register"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Кассын түгжээг тайлах"
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #. odoo-javascript
@@ -9548,7 +9726,11 @@ msgstr "Буруу PIN"
 #. odoo-javascript
 #: code:addons/pos_hr/static/src/overrides/screens/product_screen/order_summary/order_summary.js:0
 msgid "You are not allowed to change the price of a product."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Та барааны үнийг өөрчлөх эрхгүй."
+>>>>>>> upstream/18.0
 
 #. module: pos_hr
 #. odoo-python
@@ -9557,3 +9739,8 @@ msgid ""
 "You cannot delete an employee that may be used in an active PoS session, "
 "close the session(s) first: \n"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Идэвхтэй ПОС сешнд ашиглагдаж байж болзошгүй ажилтныг устгах боломжгүй. "
+"Эхлээд дараах сешн(үүд)-ийг хаана уу:"
+>>>>>>> upstream/18.0

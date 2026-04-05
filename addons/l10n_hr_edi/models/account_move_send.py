@@ -100,8 +100,14 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 move.l10n_hr_edi_addendum_id = self.env['l10n_hr_edi.addendum'].create({
                     'move_id': move.id,
+=======
+                if not move.l10n_hr_edi_addendum_id:
+                    move.l10n_hr_edi_addendum_id = self.env['l10n_hr_edi.addendum'].create({'move_id': move.id})
+                move.l10n_hr_edi_addendum_id.write({
+>>>>>>> upstream/18.0
 =======
                 if not move.l10n_hr_edi_addendum_id:
                     move.l10n_hr_edi_addendum_id = self.env['l10n_hr_edi.addendum'].create({'move_id': move.id})
@@ -253,6 +259,7 @@ class AccountMoveSend(models.AbstractModel):
                 addendum.mer_document_status = '50'
                 invoice_data['error'] = e.message
             else:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -567,6 +574,9 @@ class AccountMoveSend(models.AbstractModel):
 =======
                 if not response.get('ElectronicId'):
 >>>>>>> upstream/18.0
+=======
+                if not response.get('ElectronicId'):
+>>>>>>> upstream/18.0
                     addendum.mer_document_status = '50'
                     errors = []
                     for key in response:
@@ -651,6 +661,9 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

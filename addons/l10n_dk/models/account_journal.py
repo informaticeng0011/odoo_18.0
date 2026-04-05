@@ -1,8 +1,14 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 from odoo import api, Command, models
+=======
+# Part of Odoo. See LICENSE file for full copyright and licensing details.
+
+from odoo import Command, api, models
+>>>>>>> upstream/18.0
 =======
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
@@ -24,9 +30,15 @@ class AccountJournal(models.Model):
             account_vals.setdefault('tag_ids', [])
             if vals.get('type') == 'bank':
 <<<<<<< HEAD
+<<<<<<< HEAD
                 account_vals['tag_ids'].append(Command.link(self.env.ref('l10n_dk.account_tag_6481').id))
             elif vals.get('type') == 'cash':
                 account_vals['tag_ids'].append(Command.link(self.env.ref('l10n_dk.account_tag_6471').id))
+=======
+                account_vals['tag_ids'].append(Command.link(self.env.ref('l10n_dk.account_tag_6480').id))
+            elif vals.get('type') == 'cash':
+                account_vals['tag_ids'].append(Command.link(self.env.ref('l10n_dk.account_tag_6470').id))
+>>>>>>> upstream/18.0
 =======
                 account_vals['tag_ids'].append(Command.link(self.env.ref('l10n_dk.account_tag_6480').id))
             elif vals.get('type') == 'cash':

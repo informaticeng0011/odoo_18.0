@@ -70,6 +70,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <rng:define name="report">
         <rng:element name="report">
             <rng:optional><rng:attribute name="id"/></rng:optional>
@@ -98,6 +99,8 @@
         </rng:element>
     </rng:define>
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -390,7 +393,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -882,6 +888,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1258,6 +1267,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <rng:define name="act_window">
         <rng:element name="act_window">
             <rng:attribute name="id" />
@@ -1301,6 +1311,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     <rng:define name="odoo_openerp_data">
         <rng:element>
             <rng:choice>
@@ -1318,6 +1330,7 @@
                     <rng:ref name="menuitem" />
                     <rng:ref name="record" />
                     <rng:ref name="template" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1938,6 +1951,10 @@
                     <rng:ref name="delete" />
                     <rng:ref name="act_window" />
                     <rng:ref name="report" />
+=======
+                    <rng:ref name="asset" />
+                    <rng:ref name="delete" />
+>>>>>>> upstream/18.0
 =======
                     <rng:ref name="asset" />
                     <rng:ref name="delete" />

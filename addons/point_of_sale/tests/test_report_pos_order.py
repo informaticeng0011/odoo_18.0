@@ -108,7 +108,10 @@ class TestReportPoSOrder(TestPoSCommon):
         self.assertEqual(reports[0].margin, 135)
         self.assertEqual(reports[0].price_total, 135)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_report_pos_order_margin_other_currency(self):
         """Test that the currency_rate set on the order is correctly taken into account when generating the report"""
@@ -142,4 +145,7 @@ class TestReportPoSOrder(TestPoSCommon):
         self.assertEqual(reports[0].margin, 150)
         self.assertEqual(reports[0].price_subtotal_excl, 150)
         self.assertEqual(reports[0].price_total, 150)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

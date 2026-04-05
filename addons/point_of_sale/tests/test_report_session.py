@@ -535,7 +535,10 @@ class TestReportSession(TestPoSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1291,6 +1294,7 @@ class TestReportSession(TestPoSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1647,6 +1651,8 @@ class TestReportSession(TestPoSCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1875,6 +1881,7 @@ class TestReportSession(TestPoSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1993,6 +2000,8 @@ class TestReportSession(TestPoSCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_report_session_category_qty_round(self):
         self.config.open_ui()
@@ -2029,4 +2038,7 @@ class TestReportSession(TestPoSCommon):
         report = self.env['report.point_of_sale.report_saledetails'].get_sale_details()
         self.assertEqual(report['products'][0]['qty'], 675.82)
         self.assertEqual(report['products'][0]['total'], 675.82)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

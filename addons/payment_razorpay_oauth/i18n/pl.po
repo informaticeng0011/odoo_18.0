@@ -1,12 +1,19 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* payment_razorpay_oauth
 #
+=======
+# * payment_razorpay_oauth
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2025-12-29 18:38+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -14,16 +21,37 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
+=======
+"PO-Revision-Date: 2026-03-29 12:17+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Polish <https://translate.odoo.com/projects/odoo-18/"
+"payment_razorpay_oauth/pl/>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: payment_razorpay_oauth
 #: model_terms:ir.ui.view,arch_db:payment_razorpay_oauth.payment_provider_form_razorpay_oauth
 msgid "Account ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID konta"
+>>>>>>> upstream/18.0
 
 #. module: payment_razorpay_oauth
 #: model_terms:ir.ui.view,arch_db:payment_razorpay_oauth.authorization_error
 msgid "An error occurred"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Wystąpił błąd"
+>>>>>>> upstream/18.0
 
 #. module: payment_razorpay_oauth
 #. odoo-python
@@ -34,22 +62,38 @@ msgstr ""
 #. module: payment_razorpay_oauth
 #: model_terms:ir.ui.view,arch_db:payment_razorpay_oauth.authorization_error
 msgid "An error occurred while linking your Razorpay account with Odoo."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Wystąpił błąd podczas łączenia konta Razorpay z Odoo."
+>>>>>>> upstream/18.0
 
 #. module: payment_razorpay_oauth
 #: model_terms:ir.ui.view,arch_db:payment_razorpay_oauth.payment_provider_form_razorpay_oauth
 msgid "Are you sure you want to disconnect?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Czy na pewno chcesz się rozłączyć?"
+>>>>>>> upstream/18.0
 
 #. module: payment_razorpay_oauth
 #: model_terms:ir.ui.view,arch_db:payment_razorpay_oauth.authorization_error
 msgid "Back to the Razorpay provider"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Powrót do dostawcy Razorpay"
+>>>>>>> upstream/18.0
 
 #. module: payment_razorpay_oauth
 #: model_terms:ir.ui.view,arch_db:payment_razorpay_oauth.payment_provider_form_razorpay_oauth
 msgid "Connect"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Połącz"
+>>>>>>> upstream/18.0
 
 #. module: payment_razorpay_oauth
 #. odoo-python
@@ -61,63 +105,111 @@ msgstr ""
 #. odoo-python
 #: code:addons/payment_razorpay_oauth/controllers/onboarding.py:0
 msgid "Could not find Razorpay provider with id %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nie można znaleźć operatora Razorpay o identyfikatorze %s"
+>>>>>>> upstream/18.0
 
 #. module: payment_razorpay_oauth
 #: model_terms:ir.ui.view,arch_db:payment_razorpay_oauth.payment_provider_form_razorpay_oauth
 msgid "Generate your webhook"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Wygeneruj swój webhook"
+>>>>>>> upstream/18.0
 
 #. module: payment_razorpay_oauth
 #. odoo-python
 #: code:addons/payment_razorpay_oauth/models/payment_provider.py:0
 msgid "Other Payment Providers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pozostali dostawcy płatności"
+>>>>>>> upstream/18.0
 
 #. module: payment_razorpay_oauth
 #: model:ir.model,name:payment_razorpay_oauth.model_payment_provider
 msgid "Payment Provider"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Operator płatności"
+>>>>>>> upstream/18.0
 
 #. module: payment_razorpay_oauth
 #: model:ir.model.fields,field_description:payment_razorpay_oauth.field_payment_provider__razorpay_access_token
 msgid "Razorpay Access Token"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Token dostępu Razorpay"
+>>>>>>> upstream/18.0
 
 #. module: payment_razorpay_oauth
 #: model:ir.model.fields,field_description:payment_razorpay_oauth.field_payment_provider__razorpay_access_token_expiry
 msgid "Razorpay Access Token Expiry"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Wygaśnięcie tokenu dostępu Razorpay"
+>>>>>>> upstream/18.0
 
 #. module: payment_razorpay_oauth
 #: model:ir.model.fields,field_description:payment_razorpay_oauth.field_payment_provider__razorpay_account_id
 msgid "Razorpay Account ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Identyfikator konta Razorpay"
+>>>>>>> upstream/18.0
 
 #. module: payment_razorpay_oauth
 #: model:ir.model.fields,field_description:payment_razorpay_oauth.field_payment_provider__razorpay_key_id
 msgid "Razorpay Key Id"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Klucz identyfikacyjny Razorpay"
+>>>>>>> upstream/18.0
 
 #. module: payment_razorpay_oauth
 #: model:ir.model.fields,field_description:payment_razorpay_oauth.field_payment_provider__razorpay_key_secret
 msgid "Razorpay Key Secret"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tajny klucz Razorpay"
+>>>>>>> upstream/18.0
 
 #. module: payment_razorpay_oauth
 #: model:ir.model.fields,field_description:payment_razorpay_oauth.field_payment_provider__razorpay_public_token
 msgid "Razorpay Public Token"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Publiczny token Razorpay"
+>>>>>>> upstream/18.0
 
 #. module: payment_razorpay_oauth
 #: model:ir.model.fields,field_description:payment_razorpay_oauth.field_payment_provider__razorpay_refresh_token
 msgid "Razorpay Refresh Token"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Token odświeżający Razorpay"
+>>>>>>> upstream/18.0
 
 #. module: payment_razorpay_oauth
 #: model:ir.model.fields,field_description:payment_razorpay_oauth.field_payment_provider__razorpay_webhook_secret
 msgid "Razorpay Webhook Secret"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Klucz webhook Razorpay"
+>>>>>>> upstream/18.0
 
 #. module: payment_razorpay_oauth
 #. odoo-python
@@ -134,26 +226,47 @@ msgid ""
 "Razorpay is not available in your country; please use another payment "
 "provider."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Razorpay nie jest dostępny w Twoim kraju; skorzystaj z usług innego dostawcy "
+"usług płatniczych."
+>>>>>>> upstream/18.0
 
 #. module: payment_razorpay_oauth
 #: model_terms:ir.ui.view,arch_db:payment_razorpay_oauth.payment_provider_form_razorpay_oauth
 msgid "Reset Your Razorpay Account"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zresetuj swoje konto Razorpay"
+>>>>>>> upstream/18.0
 
 #. module: payment_razorpay_oauth
 #: model:ir.model.fields,help:payment_razorpay_oauth.field_payment_provider__razorpay_key_id
 msgid "The key solely used to identify the account with Razorpay."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Klucz używany wyłącznie do identyfikacji konta w Razorpay."
+>>>>>>> upstream/18.0
 
 #. module: payment_razorpay_oauth
 #: model_terms:ir.ui.view,arch_db:payment_razorpay_oauth.payment_provider_form_razorpay_oauth
 msgid "This provider is linked with your Razorpay account."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ten operator jest powiązany z Twoim kontem Razorpay."
+>>>>>>> upstream/18.0
 
 #. module: payment_razorpay_oauth
 #: model_terms:ir.ui.view,arch_db:payment_razorpay_oauth.payment_provider_form_razorpay_oauth
 msgid "Webhook Secret"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Klucz Webhook"
+>>>>>>> upstream/18.0
 
 #. module: payment_razorpay_oauth
 #: model_terms:ir.ui.view,arch_db:payment_razorpay_oauth.payment_provider_form_razorpay_oauth
@@ -162,9 +275,20 @@ msgid ""
 "                    deprecated. Click the \"Connect\" button below to use the recommended OAuth\n"
 "                    method."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Obecnie jesteś połączony z Razorpay za pomocą metody uwierzytelniania, która "
+"jest\n"
+"                    przestarzała. Kliknij przycisk „Połącz” poniżej, aby "
+"skorzystać z zalecanej metody OAuth."
+>>>>>>> upstream/18.0
 
 #. module: payment_razorpay_oauth
 #. odoo-python
 #: code:addons/payment_razorpay_oauth/models/payment_provider.py:0
 msgid "Your Razorpay webhook was successfully set up!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Twój webhook Razorpay został pomyślnie skonfigurowany!"
+>>>>>>> upstream/18.0

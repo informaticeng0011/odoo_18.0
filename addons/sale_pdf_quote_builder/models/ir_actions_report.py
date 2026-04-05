@@ -221,6 +221,11 @@ class IrActionsReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if order.id not in result or 'stream' not in result[order.id]:
+                continue
+>>>>>>> upstream/18.0
 =======
             if order.id not in result or 'stream' not in result[order.id]:
                 continue
@@ -1347,7 +1352,11 @@ class IrActionsReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 elif not value_:
+=======
+                elif not value_ and field_type_ not in {'integer', 'float'}:
+>>>>>>> upstream/18.0
 =======
                 elif not value_ and field_type_ not in {'integer', 'float'}:
 >>>>>>> upstream/18.0
@@ -2100,6 +2109,12 @@ class IrActionsReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    # Check parent object for '/T' if missing.
+                    if '/T' not in reader_annot and '/Parent' in reader_annot:
+                        reader_annot = reader_annot['/Parent'].getObject()
+>>>>>>> upstream/18.0
 =======
                     # Check parent object for '/T' if missing.
                     if '/T' not in reader_annot and '/Parent' in reader_annot:

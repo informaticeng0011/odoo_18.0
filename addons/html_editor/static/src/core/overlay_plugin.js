@@ -32,6 +32,10 @@ export class OverlayPlugin extends Plugin {
         });
         this.addDomListener(this.topDocument.defaultView, "resize", this.throttledUpdateContainer);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.targetRectProviders = this.getResource("overlay_selection_target_rect_providers");
+>>>>>>> upstream/18.0
 =======
         this.targetRectProviders = this.getResource("overlay_selection_target_rect_providers");
 >>>>>>> upstream/18.0
@@ -70,7 +74,10 @@ export class OverlayPlugin extends Plugin {
         );
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     getCustomRect() {
         for (const cb of this.targetRectProviders) {
@@ -80,6 +87,9 @@ export class OverlayPlugin extends Plugin {
             }
         }
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 }
 
@@ -111,13 +121,19 @@ export class Overlay {
             let initialSelection;
             if (selection && selection.type !== "None") {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 initialSelection = {
                     range: selection.getRangeAt(0),
 =======
+=======
+>>>>>>> upstream/18.0
                 const rect = this.plugin.getCustomRect();
                 initialSelection = {
                     range: selection.getRangeAt(0),
                     rect,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 };
             }
@@ -131,6 +147,10 @@ export class Overlay {
                     target,
                     initialSelection,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    getCustomRect: this.plugin.getCustomRect.bind(this.plugin),
+>>>>>>> upstream/18.0
 =======
                     getCustomRect: this.plugin.getCustomRect.bind(this.plugin),
 >>>>>>> upstream/18.0

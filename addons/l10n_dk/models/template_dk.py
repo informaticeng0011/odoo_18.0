@@ -1,6 +1,10 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 from odoo import models
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -18,7 +22,11 @@ class AccountChartTemplate(models.AbstractModel):
             'property_account_expense_categ_id': 'dk_coa_1610',
             'property_account_income_categ_id': 'dk_coa_1010',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'code_digits': '4',
+=======
+            'code_digits': '6',
+>>>>>>> upstream/18.0
 =======
             'code_digits': '6',
 >>>>>>> upstream/18.0
@@ -31,6 +39,7 @@ class AccountChartTemplate(models.AbstractModel):
                 'anglo_saxon_accounting': True,
                 'account_fiscal_country_id': 'base.dk',
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'bank_account_code_prefix': '648',
                 'cash_account_code_prefix': '647',
                 'transfer_account_code_prefix': '683',
@@ -40,6 +49,8 @@ class AccountChartTemplate(models.AbstractModel):
                 'account_journal_early_pay_discount_loss_account_id': 'dk_coa_2720',
                 'account_journal_early_pay_discount_gain_account_id': 'dk_coa_2720',
 =======
+=======
+>>>>>>> upstream/18.0
                 'bank_account_code_prefix': '6480',
                 'cash_account_code_prefix': '6470',
                 'transfer_account_id': 'dk_coa_64809',
@@ -50,6 +61,9 @@ class AccountChartTemplate(models.AbstractModel):
                 'account_journal_early_pay_discount_gain_account_id': 'dk_coa_35301',
                 'default_cash_difference_income_account_id': 'dk_coa_2720',
                 'default_cash_difference_expense_account_id': 'dk_coa_2720',
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 'account_sale_tax_id': 'tax_s1',
                 'account_purchase_tax_id': 'tax_k1',
@@ -61,8 +75,13 @@ class AccountChartTemplate(models.AbstractModel):
         super()._setup_utility_bank_accounts(template_code, company, template_data)
         if template_code == 'dk':
 <<<<<<< HEAD
+<<<<<<< HEAD
             company.account_journal_suspense_account_id.tag_ids = self.env.ref('l10n_dk.account_tag_6482')
             company.transfer_account_id.tag_ids = self.env.ref('l10n_dk.account_tag_6831')
+=======
+            company.account_journal_suspense_account_id.tag_ids = self.env.ref('l10n_dk.account_tag_6480')
+            company.transfer_account_id.tag_ids = self.env.ref('l10n_dk.account_tag_6480')
+>>>>>>> upstream/18.0
 =======
             company.account_journal_suspense_account_id.tag_ids = self.env.ref('l10n_dk.account_tag_6480')
             company.transfer_account_id.tag_ids = self.env.ref('l10n_dk.account_tag_6480')

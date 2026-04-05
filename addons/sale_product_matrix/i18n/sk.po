@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* sale_product_matrix
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -277,6 +278,9 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+# * sale_product_matrix
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -371,6 +375,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -551,11 +556,15 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -841,10 +850,18 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Odoo, 2024\n"
 "Language-Team: Slovak (https://app.transifex.com/odoo/teams/41243/sk/)\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-03-29 12:15+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Slovak <https://translate.odoo.com/projects/odoo-18/"
+"sale_product_matrix/sk/>\n"
+>>>>>>> upstream/18.0
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n "
 ">= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
 <<<<<<< HEAD
@@ -1118,19 +1135,29 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && "
+"n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: sale_product_matrix
 #: model:ir.model.fields,field_description:sale_product_matrix.field_product_product__product_add_mode
 #: model:ir.model.fields,field_description:sale_product_matrix.field_product_template__product_add_mode
 #: model:ir.model.fields,field_description:sale_product_matrix.field_sale_order_line__product_add_mode
 msgid "Add product mode"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Režim pridávania produktov"
+>>>>>>> upstream/18.0
 
 #. module: sale_product_matrix
 #: model:ir.model.fields,help:sale_product_matrix.field_product_product__product_add_mode
 #: model:ir.model.fields,help:sale_product_matrix.field_product_template__product_add_mode
 #: model:ir.model.fields,help:sale_product_matrix.field_sale_order_line__product_add_mode
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1589,31 +1616,60 @@ msgid ""
 >>>>>>> upstream/18.0
 "Grid: add several variants at once from the grid of attribute values"
 msgstr ""
+=======
+"Configurator: choose attribute values to add the matching product variant to "
+"the order.\n"
+"Grid: add several variants at once from the grid of attribute values"
+msgstr ""
+"Konfigurátor: vyberte hodnoty atribútov, aby sa do objednávky pridala "
+"zodpovedajúca varianta produktu.\n"
+"Mriežka: pridajte naraz viacero variantov z mriežky hodnôt atribútov"
+>>>>>>> upstream/18.0
 
 #. module: sale_product_matrix
 #: model:ir.model.fields,field_description:sale_product_matrix.field_sale_order__grid_product_tmpl_id
 msgid "Grid Product Tmpl"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Šablóna produktu v mriežke"
+>>>>>>> upstream/18.0
 
 #. module: sale_product_matrix
 #: model:ir.model.fields,field_description:sale_product_matrix.field_sale_order__grid_update
 msgid "Grid Update"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aktualizácia mriežky"
+>>>>>>> upstream/18.0
 
 #. module: sale_product_matrix
 #: model:ir.model.fields,field_description:sale_product_matrix.field_sale_order__grid
 msgid "Matrix local storage"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lokálne úložisko Matrix"
+>>>>>>> upstream/18.0
 
 #. module: sale_product_matrix
 #: model:ir.model.fields.selection,name:sale_product_matrix.selection__product_template__product_add_mode__matrix
 msgid "Order Grid Entry"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Režim mriežky na objednávke"
+>>>>>>> upstream/18.0
 
 #. module: sale_product_matrix
 #: model:ir.model.fields,field_description:sale_product_matrix.field_sale_order__report_grids
 msgid "Print Variant Grids"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tlač tabuľky variantov"
+>>>>>>> upstream/18.0
 
 #. module: sale_product_matrix
 #: model:ir.model,name:sale_product_matrix.model_product_template
@@ -1647,6 +1703,12 @@ msgid ""
 "If grid_update, will be loaded on the SO.\n"
 "If not, represents the matrix to open."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Technické lokálne uloženie mriežky. \n"
+"V prípade grid_update sa načíta na predajnej objednávke.\n"
+"V opačnom prípade ide o maticu, ktorú treba otvoriť."
+>>>>>>> upstream/18.0
 
 #. module: sale_product_matrix
 #. odoo-python

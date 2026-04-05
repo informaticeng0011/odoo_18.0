@@ -296,6 +296,11 @@ class StockPicking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if self.env.context.get('batches_to_validate'):
+            domain = expression.AND([domain, [('id', 'not in', self.env.context.get('batches_to_validate'))]])
+>>>>>>> upstream/18.0
 =======
         if self.env.context.get('batches_to_validate'):
             domain = expression.AND([domain, [('id', 'not in', self.env.context.get('batches_to_validate'))]])
@@ -595,7 +600,10 @@ class StockPicking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1212,6 +1220,9 @@ class StockPicking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

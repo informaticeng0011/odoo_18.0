@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* hr_recruitment_survey
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -834,6 +835,9 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+# * hr_recruitment_survey
+>>>>>>> upstream/18.0
 #
 # Translators:
 # itpilot, 2024
@@ -930,6 +934,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1110,11 +1115,15 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1955,10 +1964,18 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Kira Petersen, 2025\n"
 "Language-Team: Danish (https://app.transifex.com/odoo/teams/41243/da/)\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-03-29 12:11+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Danish <https://translate.odoo.com/projects/odoo-18/"
+"hr_recruitment_survey/da/>\n"
+>>>>>>> upstream/18.0
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2231,12 +2248,17 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+=======
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_survey
 #: model:mail.template,body_html:hr_recruitment_survey.mail_template_applicant_interview_invite
 msgid ""
 "<div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2335,6 +2357,8 @@ msgid ""
 "        </p><div style=\"margin: 16px 0px 16px 0px;\">\n"
 "            <a t-att-href=\"(object.get_start_url())\" style=\"background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2615,6 +2639,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2893,11 +2920,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Please answer the interview for <t t-out=\"format_date(object.deadline)\">[deadline date]</t>.<br/><br/>\n"
 "        </t>\n"
 "        <t>\n"
 "            We wish you good luck! Thank you in advance for your participation.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3174,6 +3204,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3364,7 +3397,11 @@ msgstr ""
 #. module: hr_recruitment_survey
 #: model_terms:ir.ui.view,arch_db:hr_recruitment_survey.hr_recruitment_survey_button_form_view
 msgid "<i class=\"oi oi-fw oi-arrow-right\"/>Go to Recruitment"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"oi oi-fw oi-arrow-right\"/>Gå til Rekruttering"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_survey
 #: model_terms:ir.ui.view,arch_db:hr_recruitment_survey.hr_applicant_view_form_inherit
@@ -3400,12 +3437,17 @@ msgstr "Ansøger"
 #. module: hr_recruitment_survey
 #: model:mail.template,name:hr_recruitment_survey.mail_template_applicant_interview_invite
 msgid "Applicant: Interview"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ansøger: samtale"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_survey
 #: model:ir.model.fields,help:hr_recruitment_survey.field_hr_applicant__survey_id
 #: model:ir.model.fields,help:hr_recruitment_survey.field_hr_job__survey_id
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3683,6 +3725,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Choose an interview form for this job position and you will be able to print/"
 "answer this interview from all applicants who apply for this job"
 msgstr ""
@@ -3778,6 +3822,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3974,6 +4021,10 @@ msgstr "Uddannelse"
 #: model:survey.question,title:hr_recruitment_survey.survey_recruitment_form_p1_q2
 msgid "From which university did or will you graduate?"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Fra hvilket universitet er du dimitteret, eller forventer du at dimittere?"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_survey
 #: model:survey.question.answer,value:hr_recruitment_survey.survey_recruitment_form_p1_q8_row2
@@ -4015,19 +4066,31 @@ msgstr "Samtaleskema"
 #. odoo-python
 #: code:addons/hr_recruitment_survey/models/hr_job.py:0
 msgid "Interview Form: %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samtaleskema: %s"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_survey
 #: model_terms:ir.ui.view,arch_db:hr_recruitment_survey.res_config_settings_view_form
 msgid "Interview Survey"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samtaleundersøgelse"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_survey
 #: model:ir.actions.act_window,name:hr_recruitment_survey.survey_survey_action_recruitment
 #: model:ir.ui.menu,name:hr_recruitment_survey.menu_hr_recruitment_config_surveys
 #: model_terms:ir.ui.view,arch_db:hr_recruitment_survey.view_hr_job_kanban_inherit
 msgid "Interviews"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samtaler"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_survey
 #: model:ir.model,name:hr_recruitment_survey.model_hr_job
@@ -4058,7 +4121,11 @@ msgstr "Kontor lokation"
 #. module: hr_recruitment_survey
 #: model:mail.template,subject:hr_recruitment_survey.mail_template_applicant_interview_invite
 msgid "Participate to {{ object.survey_id.display_name }} interview"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Deltag i samtalen: {{ object.survey_id.display_name }}"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_survey
 #: model:survey.question,title:hr_recruitment_survey.survey_recruitment_form_p1_q5
@@ -4071,10 +4138,16 @@ msgid ""
 "Please answer those questions to help recruitment officers to preprocess "
 "your application."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Besvar venligst disse spørgsmål, så personaleafdelingen kan vurdere din "
+"ansøgning bedre."
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_survey
 #: model_terms:survey.question,description:hr_recruitment_survey.survey_recruitment_form_p1
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4533,6 +4606,15 @@ msgid ""
 >>>>>>> upstream/18.0
 "    It will help us managing your application."
 msgstr ""
+=======
+"Please fill information about you: who you are, what are your education, "
+"experience, and activities.\n"
+"    It will help us managing your application."
+msgstr ""
+"Fortæl os venligst om dig selv: Hvem du er, din uddannelse, erfaring og "
+"aktiviteter\n"
+"    – så vi bedre kan behandle din ansøgning."
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_survey
 #. odoo-python
@@ -4758,6 +4840,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Beskriv kort din uddannelsesmæssige baggrund: skoler, placering og opnåede "
+"eksamener osv."
+>>>>>>> upstream/18.0
 =======
 "Beskriv kort din uddannelsesmæssige baggrund: skoler, placering og opnåede "
 "eksamener osv."
@@ -5612,6 +5699,10 @@ msgstr ""
 msgid ""
 "Please tell us a bit more about yourself: what are your main activities, ..."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Fortæl os lidt om dig selv: Hvilke aktiviteter er de vigtigste for dig ..."
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_survey
 #: model:ir.model.fields.selection,name:hr_recruitment_survey.selection__survey_survey__survey_type__recruitment
@@ -5626,7 +5717,11 @@ msgstr "Rekruteringsskema"
 #. module: hr_recruitment_survey
 #: model:ir.model.fields,field_description:hr_recruitment_survey.field_hr_applicant__response_ids
 msgid "Responses"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Svar"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_survey
 #: model_terms:ir.ui.view,arch_db:hr_recruitment_survey.hr_applicant_view_form_inherit
@@ -5636,13 +5731,21 @@ msgstr "Vis interview rapport"
 #. module: hr_recruitment_survey
 #: model_terms:ir.ui.view,arch_db:hr_recruitment_survey.hr_applicant_view_form_inherit
 msgid "Send Interview"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Send samtale"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_survey
 #. odoo-python
 #: code:addons/hr_recruitment_survey/models/hr_applicant.py:0
 msgid "Send an interview"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Send en samtale"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_survey
 #. odoo-python
@@ -5890,7 +5993,11 @@ msgid "Survey Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Undersøgelsestype"
+>>>>>>> upstream/18.0
 =======
 msgstr "Undersøgelsestype"
 >>>>>>> upstream/18.0
@@ -6598,13 +6705,21 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_recruitment_survey/models/survey_user_input.py:0
 msgid "The applicant \"%s\" has finished the survey."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ansøgeren \"%s\" har afsluttet spørgeskemaet."
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_survey
 #. odoo-python
 #: code:addons/hr_recruitment_survey/wizard/survey_invite.py:0
 msgid "The survey %(survey_link)s has been sent to %(partner_link)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spørgeskeamet %(survey_link)s er blevet sendt til %(partner_link)s"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_survey
 #: model:survey.question.answer,value:hr_recruitment_survey.survey_recruitment_form_p1_q8_col3
@@ -6620,16 +6735,28 @@ msgstr "Blev du henvist af en medarbejder?"
 #: model_terms:survey.question,description:hr_recruitment_survey.survey_recruitment_form_p1_q6
 msgid "What are your main knowledge regarding the job you are applying to?"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Hvilke kompetencer mener du er mest relevante for den stilling, du søger?"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_survey
 #: model:survey.question,title:hr_recruitment_survey.survey_recruitment_form_p1_q8
 msgid "What is important for you?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hvad er vigtigt for dig?"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_survey
 #: model:survey.question,title:hr_recruitment_survey.survey_recruitment_form_p1_q1
 msgid "Which country are you from?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hvilket land kommer du fra?"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_survey
 #: model:survey.question.answer,value:hr_recruitment_survey.survey_recruitment_form_p1_q8_row4
@@ -6872,6 +6999,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Du kan oprette undersøgelser til brug ved rekruttering. Design nemt din jobsamtale,\n"
 "                send invitationer og analysér svarene."
@@ -7426,6 +7554,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "Du kan oprette undersøgelser til brug ved rekruttering. Design nemt din jobsamtale,\n"
+"                send invitationer og analysér svarene."
+>>>>>>> upstream/18.0
+=======
+"Du kan oprette undersøgelser til brug ved rekruttering. Design nemt din "
+"jobsamtale,\n"
 "                send invitationer og analysér svarene."
 >>>>>>> upstream/18.0
 =======

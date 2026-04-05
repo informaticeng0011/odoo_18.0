@@ -214,7 +214,11 @@ class HrExpense(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         digits='Product Price',
+=======
+        min_display_digits='Product Price',
+>>>>>>> upstream/18.0
 =======
         min_display_digits='Product Price',
 >>>>>>> upstream/18.0
@@ -1039,6 +1043,11 @@ class HrExpense(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if not self.has_access('write') or (self.sheet_id and not self.sheet_id.has_access('write')):
+            raise UserError(_("You don't have the rights to attach a document to a submitted expense. Please reset the expense report to draft first."))
+>>>>>>> upstream/18.0
 =======
         if not self.has_access('write') or (self.sheet_id and not self.sheet_id.has_access('write')):
             raise UserError(_("You don't have the rights to attach a document to a submitted expense. Please reset the expense report to draft first."))
@@ -2133,6 +2142,7 @@ class HrExpense(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -2872,6 +2882,11 @@ class HrExpense(models.Model):
                 'state' in vals
                 and vals['state'] not in {'draft', 'submitted'}
 >>>>>>> upstream/18.0
+=======
+        if (
+                'state' in vals
+                and vals['state'] not in {'draft', 'submitted'}
+>>>>>>> upstream/18.0
                 and not (self.env.user.has_group('hr_expense.group_hr_expense_manager') or self.env.su)
                 and any(state == 'draft' for state in self.mapped('state'))
         ):
@@ -3092,6 +3107,9 @@ class HrExpense(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3883,6 +3901,7 @@ class HrExpense(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'line_ids': [Command.create(line) for line in move_lines],
             'attachment_ids': [
                 Command.create(attachment.copy_data({'res_model': 'account.move', 'res_id': False, 'raw': attachment.raw})[0])
@@ -4184,6 +4203,8 @@ class HrExpense(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             'company_id': self.company_id.id,
             'line_ids': [Command.create(line) for line in move_lines],
             'attachment_ids': [
@@ -4197,6 +4218,9 @@ class HrExpense(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4282,7 +4306,11 @@ class HrExpense(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             account = self.product_id.product_tmpl_id._get_product_accounts()['expense']
+=======
+            account = self.product_id.with_company(self.company_id).product_tmpl_id._get_product_accounts()['expense']
+>>>>>>> upstream/18.0
 =======
             account = self.product_id.with_company(self.company_id).product_tmpl_id._get_product_accounts()['expense']
 >>>>>>> upstream/18.0
@@ -4528,12 +4556,17 @@ class HrExpense(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if employee.user_id:
             company = employee.user_id.company_id
             currencies = company.currency_id | employee.user_id.company_ids.mapped('currency_id')
         else:
             company = employee.company_id
             currencies = company.currency_id
+=======
+        company = employee.company_id
+        currencies = company.currency_id
+>>>>>>> upstream/18.0
 =======
         company = employee.company_id
         currencies = company.currency_id

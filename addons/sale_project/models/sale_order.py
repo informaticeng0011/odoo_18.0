@@ -142,7 +142,12 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     project_id = fields.Many2one('project.project', domain=[('allow_billable', '=', True)], copy=False, help="A task will be created for the project upon sales order confirmation. The analytic distribution of this project will also serve as a reference for newly created sales order items.")
+=======
+    project_id = fields.Many2one('project.project', domain=[('allow_billable', '=', True)], copy=False, index='btree_not_null',
+                                 help="A task will be created for the project upon sales order confirmation. The analytic distribution of this project will also serve as a reference for newly created sales order items.")
+>>>>>>> upstream/18.0
 =======
     project_id = fields.Many2one('project.project', domain=[('allow_billable', '=', True)], copy=False, index='btree_not_null',
                                  help="A task will be created for the project upon sales order confirmation. The analytic distribution of this project will also serve as a reference for newly created sales order items.")
@@ -704,6 +709,7 @@ class SaleOrder(models.Model):
             if not is_project_manager:
                 projects = projects._filtered_access('read')
             order.project_ids = projects
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1465,6 +1471,9 @@ class SaleOrder(models.Model):
 =======
             order.project_count = len(projects.filtered('active'))
 >>>>>>> upstream/18.0
+=======
+            order.project_count = len(projects.filtered('active'))
+>>>>>>> upstream/18.0
 
     def _action_confirm(self):
         """ On SO confirmation, some lines should generate a task or a project. """
@@ -1651,7 +1660,13 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             action = self.env['ir.actions.actions'].with_context({'active_id': project_ids.id})._for_xml_id('project.act_project_project_2_project_task_all')
+=======
+            action = self.env['ir.actions.actions'].with_context(
+                active_id=project_ids.id,
+            )._for_xml_id('project.act_project_project_2_project_task_all')
+>>>>>>> upstream/18.0
 =======
             action = self.env['ir.actions.actions'].with_context(
                 active_id=project_ids.id,
@@ -2707,7 +2722,11 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'domain': ['|', ('sale_order_id', '=', self.id), ('id', 'in', self.with_context(active_test=False).project_ids.ids), ('active', 'in', [True, False])],
+=======
+            'domain': ['|', ('sale_order_id', '=', self.id), ('id', 'in', self.project_ids.ids)],
+>>>>>>> upstream/18.0
 =======
             'domain': ['|', ('sale_order_id', '=', self.id), ('id', 'in', self.project_ids.ids)],
 >>>>>>> upstream/18.0
@@ -3478,7 +3497,11 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if len(self.with_context(active_test=False).project_ids) == 1:
+=======
+        if len(self.project_ids) == 1:
+>>>>>>> upstream/18.0
 =======
         if len(self.project_ids) == 1:
 >>>>>>> upstream/18.0

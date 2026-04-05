@@ -1,6 +1,11 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from datetime import date
+
+>>>>>>> upstream/18.0
 =======
 from datetime import date
 
@@ -100,11 +105,17 @@ class HrLeaveAllocationGenerateMultiWizard(models.TransientModel):
                 mail_activity_automation_skip=True
             ).create(vals_list)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             accrual_allocations = allocations.filtered(lambda a: a.allocation_type == 'accrual')
             for date_to, allocation in accrual_allocations.grouped('date_to').items():
                 date_to = min(date_to, date.today()) if date_to else False
                 allocation._process_accrual_plans(date_to)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             allocations.filtered(lambda c: c.validation_type != 'no_validation').action_validate()
 

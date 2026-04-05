@@ -43,6 +43,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Component } from "@odoo/owl";
 =======
 import { Component, onMounted, onWillUpdateProps, useRef } from "@odoo/owl";
@@ -67,6 +68,9 @@ import { Component, onMounted, onWillUpdateProps, useRef } from "@odoo/owl";
 >>>>>>> upstream/18.0
 =======
 import { Component, onMounted, onWillUpdateProps, useRef } from "@odoo/owl";
+>>>>>>> upstream/18.0
+=======
+import { Component, onMounted, onWillUpdateProps, useExternalListener, useRef } from "@odoo/owl";
 >>>>>>> upstream/18.0
 =======
 import { Component, onMounted, onWillUpdateProps, useExternalListener, useRef } from "@odoo/owl";
@@ -239,6 +243,7 @@ export class TableMenu extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         overlay: Object,
 =======
         close: Function,
@@ -267,6 +272,8 @@ export class TableMenu extends Component {
         dropdownState: Object,
         target: { validate: (el) => el.nodeType === Node.ELEMENT_NODE },
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -379,6 +386,9 @@ export class TableMenu extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -503,6 +513,10 @@ export class TableMenu extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.dropdownRef = useRef("dropdown");
+>>>>>>> upstream/18.0
 =======
         this.dropdownRef = useRef("dropdown");
 >>>>>>> upstream/18.0
@@ -692,7 +706,10 @@ export class TableMenu extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -832,6 +849,7 @@ export class TableMenu extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -848,6 +866,8 @@ export class TableMenu extends Component {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -966,6 +986,9 @@ export class TableMenu extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1049,6 +1072,7 @@ export class TableMenu extends Component {
         );
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1186,10 +1210,13 @@ export class TableMenu extends Component {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     updatePosition({ target, type, direction }) {
         if (!this.overlayEl || !target) {
             return;
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1235,6 +1262,8 @@ export class TableMenu extends Component {
                 top: `${targetRect.top - containerRect.top - this.overlayEl.offsetHeight}px`,
                 left: `${targetRect.left - containerRect.left}px`,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1365,6 +1394,9 @@ export class TableMenu extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1480,11 +1512,14 @@ export class TableMenu extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ? targetRect.left - containerRect.left
                 : containerRect.right - targetRect.right;
             Object.assign(this.overlayEl.style, {
                 top: `${targetRect.top - containerRect.top}px`,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1598,6 +1633,9 @@ export class TableMenu extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1723,6 +1761,9 @@ export class TableMenu extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

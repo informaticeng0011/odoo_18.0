@@ -98,6 +98,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-03 15:47+0000\n"
@@ -573,6 +574,12 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"Project-Id-Version: Odoo Server 18.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-03 19:16+0000\n"
+"PO-Revision-Date: 2026-04-03 19:16+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -783,7 +790,11 @@ msgstr ""
 
 #. module: l10n_vn_edi_viettel
 #. odoo-python
+<<<<<<< HEAD
 #: code:addons/l10n_vn_edi_viettel/models/account_move_send.py:0
+=======
+#: code:addons/l10n_vn_edi_viettel/models/account_move.py:0
+>>>>>>> upstream/18.0
 msgid "Error when receiving SInvoice files."
 msgstr ""
 
@@ -860,7 +871,11 @@ msgstr ""
 
 #. module: l10n_vn_edi_viettel
 #. odoo-python
+<<<<<<< HEAD
 #: code:addons/l10n_vn_edi_viettel/models/account_move_send.py:0
+=======
+#: code:addons/l10n_vn_edi_viettel/models/account_move.py:0
+>>>>>>> upstream/18.0
 msgid "Invoice sent to SInvoice"
 msgstr ""
 
@@ -936,6 +951,16 @@ msgid ""
 msgstr ""
 
 #. module: l10n_vn_edi_viettel
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/l10n_vn_edi_viettel/models/account_move.py:0
+msgid ""
+"Please send the invoice to SInvoice before fetching the tax invoice files."
+msgstr ""
+
+#. module: l10n_vn_edi_viettel
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:l10n_vn_edi_viettel.selection__account_move__l10n_vn_edi_invoice_state__ready_to_send
 msgid "Ready to send"
 msgstr ""

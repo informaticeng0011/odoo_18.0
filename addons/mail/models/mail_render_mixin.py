@@ -330,6 +330,7 @@ class MailRenderMixin(models.AbstractModel):
                            group_name=group.name)
                     ) from e
 <<<<<<< HEAD
+<<<<<<< HEAD
                 _logger.info("Failed to render template: %s", template_src, exc_info=True)
                 raise UserError(
                     _("Failed to render QWeb template: %(template_src)s\n\n%(template_traceback)s)",
@@ -337,6 +338,8 @@ class MailRenderMixin(models.AbstractModel):
                       template_traceback=traceback.format_exc())
                     ) from e
 =======
+=======
+>>>>>>> upstream/18.0
                 elif isinstance(e, QWebException):
                     # We extract the message before the template dump to clean out the full template
                     # source, since it will be added later again
@@ -393,6 +396,9 @@ class MailRenderMixin(models.AbstractModel):
                     error_details=error_details,
                     template_src=truncated_src)
                 ) from e
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             results[record.id] = render_result
 
@@ -543,13 +549,19 @@ class MailRenderMixin(models.AbstractModel):
                 _logger.info("Failed to render inline_template: \n%s", str(template_txt), exc_info=True)
                 raise UserError(
 <<<<<<< HEAD
+<<<<<<< HEAD
                     _("Failed to render inline_template template: %(template_txt)s",
                       template_txt=template_txt)
 =======
+=======
+>>>>>>> upstream/18.0
                     _("Failed to render inline_template template: %(template_txt)s\n"
                     "Error details: %(error)s",
                     template_txt=template_txt,
                     error=str(e))
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 ) from e
 

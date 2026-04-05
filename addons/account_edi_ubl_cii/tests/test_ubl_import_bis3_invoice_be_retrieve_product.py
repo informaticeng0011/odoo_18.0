@@ -2,6 +2,11 @@ from odoo.addons.account_edi_ubl_cii.tests.test_ubl_import_bis3_invoice_be impor
 from odoo.tests import tagged
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from freezegun import freeze_time
+
+>>>>>>> upstream/18.0
 =======
 from freezegun import freeze_time
 
@@ -44,7 +49,10 @@ class TestUblImportBis3InvoiceBERetrieveProduct(TestUblImportBis3InvoiceBE):
             'product_id': product.id,
         }])
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     @freeze_time('2020-01-01')
     def test_partial_import_product_invoice_predictive(self):
@@ -70,4 +78,7 @@ class TestUblImportBis3InvoiceBERetrieveProduct(TestUblImportBis3InvoiceBE):
             'name': "turlutututu",
             'product_id': product.id,
         }])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

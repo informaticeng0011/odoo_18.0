@@ -152,6 +152,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Project-Id-Version: Odoo Server 17.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-02 09:58+0000\n"
@@ -899,6 +900,12 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"Project-Id-Version: Odoo Server 18.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-03 19:14+0000\n"
+"PO-Revision-Date: 2026-04-03 19:14+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -1061,6 +1068,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: model:ir.model,name:l10n_in_withholding.model_account_account
 >>>>>>> upstream/18.0
@@ -1503,6 +1511,19 @@ msgstr ""
 #: model:ir.model,name:l10n_in_withholding.model_account_account
 >>>>>>> upstream/18.0
 =======
+#: model:ir.model,name:l10n_in_withholding.model_account_account
+>>>>>>> upstream/18.0
+=======
+#: model:account.report,name:l10n_in_withholding.tcs_report
+msgid "ACT 1961 TCS Report"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report,name:l10n_in_withholding.tds_report
+msgid "ACT 1961 TDS Report"
+msgstr ""
+
+#. module: l10n_in_withholding
 #: model:ir.model,name:l10n_in_withholding.model_account_account
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:l10n_in_withholding.res_config_settings_view_form_inherit_l10n_in_withholding
@@ -1663,7 +1684,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1978,6 +2002,15 @@ msgid "Aggregate limit must be positive"
 msgstr ""
 
 #. module: l10n_in_withholding
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/l10n_in_withholding/models/account_chart_template.py:0
+msgid "App need to update"
+msgstr ""
+
+#. module: l10n_in_withholding
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:l10n_in_withholding.account_move_view_form_inherit_l10n_in_withholding
 msgid "Apply Higher TCS"
 msgstr ""
@@ -1989,6 +2022,7 @@ msgid "As the Partner's PAN missing/invalid apply TCS at the higher rate."
 msgstr ""
 
 #. module: l10n_in_withholding
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2313,6 +2347,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 #: model:account.report.column,name:l10n_in_withholding.tcs_report_balance
+=======
+#: model:account.report.column,name:l10n_in_withholding.tcs_report_25_balance
+#: model:account.report.column,name:l10n_in_withholding.tcs_report_balance
+#: model:account.report.column,name:l10n_in_withholding.tds_report_25_balance
+>>>>>>> upstream/18.0
 #: model:account.report.column,name:l10n_in_withholding.tds_report_balance
 msgid "Balance"
 msgstr ""
@@ -2465,6 +2504,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2938,7 +2980,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3385,6 +3430,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3833,6 +3881,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:l10n_in_withholding.field_l10n_in_section_alert__create_uid
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:l10n_in_withholding.field_l10n_in_section_alert__create_uid
 >>>>>>> upstream/18.0
@@ -4431,6 +4483,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:l10n_in_withholding.field_l10n_in_section_alert__create_date
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:l10n_in_withholding.field_l10n_in_section_alert__create_date
 >>>>>>> upstream/18.0
@@ -5035,7 +5091,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5483,6 +5542,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5936,6 +5998,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:l10n_in_withholding.field_l10n_in_section_alert__display_name
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:l10n_in_withholding.field_l10n_in_section_alert__display_name
 >>>>>>> upstream/18.0
@@ -6534,7 +6600,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6993,6 +7062,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7447,10 +7519,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_in_withholding.field_account_bank_statement_line__l10n_in_withhold_move_ids
 #: model:ir.model.fields,field_description:l10n_in_withholding.field_account_move__l10n_in_withhold_move_ids
 #: model:ir.model.fields,field_description:l10n_in_withholding.field_account_payment__l10n_in_withhold_move_ids
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7899,6 +7974,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8348,7 +8426,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_in_withholding.field_account_payment__l10n_in_withholding_line_ids
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8799,7 +8880,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_in_withholding.field_account_payment__l10n_in_withholding_ref_move_id
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9261,7 +9345,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_in_withholding.field_account_payment__l10n_in_is_withholding
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9710,7 +9797,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10160,6 +10250,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10619,7 +10712,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11073,6 +11169,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11522,6 +11621,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:l10n_in_withholding.field_l10n_in_section_alert__write_date
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:l10n_in_withholding.field_l10n_in_section_alert__write_date
 >>>>>>> upstream/18.0
@@ -12120,10 +12223,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/l10n_in_withholding/wizard/l10n_in_withhold_wizard.py:0
 #, python-format
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12572,6 +12678,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13021,7 +13130,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13480,10 +13592,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/l10n_in_withholding/wizard/l10n_in_withhold_wizard.py:0
 #, python-format
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13942,6 +14057,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14391,6 +14509,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
 =======
 >>>>>>> upstream/18.0
@@ -14479,6 +14598,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14799,6 +14920,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15161,7 +15285,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:l10n_in_withholding.selection__l10n_in_withhold_wizard__withhold_type__in_withhold
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15610,11 +15737,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:l10n_in_withholding.selection__l10n_in_withhold_wizard__withhold_type__in_refund_withhold
 msgid "Purchase Refund"
 msgstr ""
 
 #. module: l10n_in_withholding
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16066,7 +16196,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,help:l10n_in_withholding.field_account_payment__l10n_in_withholding_ref_move_id
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16516,7 +16649,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:l10n_in_withholding.selection__l10n_in_withhold_wizard__withhold_type__out_withhold
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16965,9 +17101,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:l10n_in_withholding.selection__l10n_in_withhold_wizard__withhold_type__out_refund_withhold
 msgid "Sale Refund"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17531,6 +17670,431 @@ msgid "Section 206C(1H): Sale of Goods"
 msgstr ""
 
 #. module: l10n_in_withholding
+<<<<<<< HEAD
+=======
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_392_1
+msgid "Section 392(1): Salary income based on slab rate"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_1_1_i
+msgid ""
+"Section 393(1)1(i): Insurance Commission - Person other than "
+"Company/Domestic Company"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_1_1_ii
+msgid "Section 393(1)1(ii): Commission/brokerage (other than insurance)"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_1_2_i
+msgid "Section 393(1)2(i): Rent paid by non-specified person"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_1_2_ii_a
+msgid ""
+"Section 393(1)2(ii)(a): Rent of machinery/plant/equipment (specified person)"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_1_2_ii_b
+msgid ""
+"Section 393(1)2(ii)(b): Rent of land/building/furniture/fittings (specified "
+"person)"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_1_3_i
+msgid ""
+"Section 393(1)3(i): Consideration for immovable property transfer (higher of"
+" consideration or stamp duty value)"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_1_3_ii
+msgid ""
+"Section 393(1)3(ii): Consideration for property transfer under section "
+"67(14) agreement"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_1_3_iii
+msgid ""
+"Section 393(1)3(iii): Compensation/consideration for compulsory acquisition "
+"of immovable property"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_1_4_i
+msgid ""
+"Section 393(1)4(i): Income from Mutual Fund units / specified undertaking / "
+"specified company"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_1_4_ii
+msgid ""
+"Section 393(1)4(ii): Distributed income payable by Business Trust to "
+"unitholders (Sch V Sl. 3 & 4)"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_1_4_iii
+msgid ""
+"Section 393(1)4(iii): Income from Investment Fund units (other than exempt "
+"portion)"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_1_4_iv
+msgid "Section 393(1)4(iv): Income from investment in Securitisation Trust"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_1_6_i_a
+msgid ""
+"Section 393(1)6(i)(a): Contract payments to Individual/HUF contractor "
+"(designated person)"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_1_6_i_b
+msgid ""
+"Section 393(1)6(i)(b): Contract payments to non-individual/HUF contractor "
+"(designated person)"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_1_6_ii
+msgid ""
+"Section 393(1)6(ii): Contract payments to non-individual/HUF contractor "
+"(designated person)"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_1_6_iii_a
+msgid ""
+"Section 393(1)6(iii)(a): Technical services (non-professional) / royalty for"
+" films / call centre operation"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_1_6_iii_b
+msgid ""
+"Section 393(1)6(iii)(b): Professional services / royalty / Sec 26(2)(h) sum"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_1_7
+msgid ""
+"Section 393(1)7: Dividend (including preference shares) declared by domestic"
+" company"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_1_8_i
+msgid ""
+"Section 393(1)8(i): Income component of life insurance policy sum (including"
+" bonus)"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_1_8_ii
+msgid ""
+"Section 393(1)8(ii): Purchase of goods exceeding ₹50 lakh (on amount above "
+"₹50L)"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_1_8_iv
+msgid ""
+"Section 393(1)8(iv): Benefit or perquisite (cash/kind) arising from "
+"business/profession to resident"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_1_8_v
+msgid ""
+"Section 393(1)8(v): Gross sale/services amount by e-commerce operator to "
+"e-commerce participant"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_1_8_vi
+msgid ""
+"Section 393(1)8(vi): Consideration for transfer of Virtual Digital Asset"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_2_10
+msgid ""
+"Section 393(2)10: Income from Mutual Fund units [Sch VII Sl.20 or 21] or "
+"units from specified company, to non-resident/foreign company"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_2_11
+msgid ""
+"Section 393(2)11: Income in respect of units referred to in section 208 "
+"payable by any person to an offshore fund"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_2_12
+msgid ""
+"Section 393(2)12: Long-term capital gains arising from transfer of units "
+"referred to in section 208, payable to offshore fund"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_2_13
+msgid ""
+"Section 393(2)13: Income by way of interest or dividends on bonds or Global "
+"Depository Receipts referred to in section 209, payable to non-resident"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_2_14
+msgid ""
+"Section 393(2)14: Long-term capital gains arising from transfer of bonds or "
+"Global Depository Receipts referred to in section 209, payable to non-"
+"resident"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_2_15
+msgid ""
+"Section 393(2)15: Income in respect of securities u/s 210(1) Table Sl.1 "
+"payable to Foreign Institutional Investor (FII)"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_2_16
+msgid ""
+"Section 393(2)16: Income in respect of securities u/s 210(1) Table Sl.1 "
+"payable to specified fund referred to in Sch VI Note 1(g)"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_2_17
+msgid ""
+"Section 393(2)17: Any interest (not covered under Sl.2,3,4,5) or any other "
+"sum chargeable to tax (not being salary) payable to non-resident (not a "
+"company) or foreign company by any person"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_2_1
+msgid ""
+"Section 393(2)1: Income of non-resident sportsman (incl. athlete) or "
+"entertainer who is not a citizen of India, or a non-resident sports "
+"association/institution"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_2_2
+msgid ""
+"Section 393(2)2: Interest payable on money borrowed in foreign currency "
+"under loan agreement or LT infrastructure bond (1 Jul 2012 – 1 Jul 2023), "
+"approved by Central Govt"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_2_3
+msgid ""
+"Section 393(2)3: Interest on money borrowed outside India via rupee "
+"denominated bond before 1 Jul 2023, payable to non-resident (not a company) "
+"or foreign company"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_2_4_a
+msgid ""
+"Section 393(2)4(a): Interest on LT bond or rupee denominated bond listed "
+"only on recognised stock exchange in IFSC, issued on or after 1 Apr 2020 but"
+" before 1 Jul 2023"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_2_4_b
+msgid ""
+"Section 393(2)4(b): Interest on LT bond or rupee denominated bond listed "
+"only on recognised stock exchange in IFSC, issued on or after 1 Jul 2023"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_2_5
+msgid ""
+"Section 393(2)5: Interest income paid by infrastructure debt fund [Sch VII "
+"Table Sl. No. 46] to non-resident (not a company) or foreign company"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_2_6_a
+msgid ""
+"Section 393(2)6(a): Distributed income referred to in section 223 of the "
+"nature in Sch V Table Sl.3.B(a) payable to non-resident/foreign company "
+"unitholder by Business Trust"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_2_6_b
+msgid ""
+"Section 393(2)6(b): Distributed income referred to in section 223 of the "
+"nature in Sch V Table Sl.3.B(b) payable to non-resident/foreign company "
+"unitholder by Business Trust"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_2_7
+msgid ""
+"Section 393(2)7: Distributed income (section 223, Sch V Sl.4) payable to "
+"non-resident/foreign company unitholder by Business Trust – actual rate as "
+"per DTAA/slab"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_2_8
+msgid ""
+"Section 393(2)8: Income (other than exempt portion under Sch V Sl.2) from "
+"units of investment fund u/s 224, payable to non-resident/foreign company "
+"unitholder"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_2_9
+msgid ""
+"Section 393(2)9: Income from investment in securitisation trust u/s 221, "
+"payable to non-resident/foreign company investor"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_3_1
+msgid ""
+"Section 393(3)1: Winnings from lottery, crossword puzzle, card game, other "
+"games, gambling or betting. Threshold: ₹10,000 per single transaction"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_3_2
+msgid ""
+"Section 393(3)2: Net winnings from online games at end of tax year and/or at"
+" time of withdrawal; computed as per prescribed manner"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_3_3
+msgid ""
+"Section 393(3)3: Winnings from horse race by a bookmaker or licensed person "
+"under law. Threshold: ₹10,000 per single transaction"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_3_4
+msgid ""
+"Section 393(3)4: Commission, remuneration or prize paid to person stocking, "
+"distributing, purchasing or selling lottery tickets. Threshold: ₹20,000"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_3_5_a
+msgid ""
+"Section 393(3)5(a): Sum paid in cash from one or more accounts by banking "
+"company / co-operative bank / post office where recipient is a co-operative "
+"society. Threshold: ₹3,00,00,000"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_3_5_b
+msgid ""
+"Section 393(3)5(b): Sum paid in cash from one or more accounts by banking "
+"company / co-operative bank / post office where recipient is other than co-"
+"operative society. Threshold: ₹1,00,00,000"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_3_6
+msgid ""
+"Section 393(3)6: Any amount referred to in section 80CCA(2)(a) of the "
+"Income-tax Act, 1961 (National Savings Scheme deposit withdrawals). "
+"Threshold: ₹2,500"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tds_report_line_section_393_3_7
+msgid ""
+"Section 393(3)7: Salary, remuneration, commission, bonus or interest paid to"
+" a partner of the firm or credited to partner's account (including capital "
+"account). Threshold: ₹20,000"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tcs_report_line_section_394_1_1
+msgid "Section 394(1)1: Sale of alcoholic liquor for human consumption"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tcs_report_line_section_394_1_2
+msgid "Section 394(1)2: Sale of tendu leaves"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tcs_report_line_section_394_1_3
+msgid ""
+"Section 394(1)3: Sale of timber (forest lease or otherwise) or other forest "
+"produce (non-tendu) under forest lease"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tcs_report_line_section_394_1_4
+msgid "Section 394(1)4: Sale of scrap"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tcs_report_line_section_394_1_5
+msgid "Section 394(1)5: Sale of minerals – coal, lignite, or iron ore"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tcs_report_line_section_394_1_6_a
+msgid ""
+"Section 394(1)6(a): Sale of motor vehicle where consideration exceeds ₹10 "
+"lakh"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tcs_report_line_section_394_1_6_b
+msgid ""
+"Section 394(1)6(b): Sale of notified goods where consideration exceeds ₹10 "
+"lakh"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tcs_report_line_section_394_1_7_a
+msgid ""
+"Section 394(1)7(a): Remittance under LRS for education or medical treatment "
+"(aggregate > ₹10 lakh)"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tcs_report_line_section_394_1_7_b
+msgid ""
+"Section 394(1)7(b): Remittance under LRS for purposes other than education "
+"or medical (aggregate > ₹10 lakh)"
+msgstr ""
+
+#. module: l10n_in_withholding
+#: model:account.report.line,name:l10n_in_withholding.tcs_report_line_section_394_1_9
+msgid ""
+"Section 394(1)9: Use of parking lot / toll plaza / mine / quarry (excluding "
+"mineral oil mining)"
+msgstr ""
+
+#. module: l10n_in_withholding
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:l10n_in_withholding.field_l10n_in_section_alert__name
 #: model_terms:ir.ui.view,arch_db:l10n_in_withholding.l10n_in_section_alert_view_form
 msgid "Section Name"
@@ -17542,8 +18106,13 @@ msgid "TCS"
 msgstr ""
 
 #. module: l10n_in_withholding
+<<<<<<< HEAD
 #: model:account.report,name:l10n_in_withholding.tcs_report
 msgid "TCS Report"
+=======
+#: model:account.report,name:l10n_in_withholding.tcs_report_it_act_25
+msgid "TCS I.T. Act 25 Report"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: l10n_in_withholding
@@ -17707,6 +18276,9 @@ msgid "TDS"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18023,6 +18595,14 @@ msgid "TDS Entry"
 msgstr ""
 
 #. module: l10n_in_withholding
+<<<<<<< HEAD
+=======
+#: model:account.report,name:l10n_in_withholding.tds_report_it_act_25
+msgid "TDS I.T. Act 25 Report"
+msgstr ""
+
+#. module: l10n_in_withholding
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:l10n_in_withholding.account_move_view_form_inherit_l10n_in_withholding
 msgid "TDS Information"
 msgstr ""
@@ -18039,6 +18619,7 @@ msgid "TDS Lines"
 msgstr ""
 
 #. module: l10n_in_withholding
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18929,6 +19510,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:l10n_in_withholding.field_l10n_in_withhold_wizard_line__tax_id
 msgid "TDS Tax"
 msgstr ""
@@ -19099,7 +19682,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19550,7 +20136,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20003,7 +20592,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20454,7 +21046,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20903,7 +21498,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model,name:l10n_in_withholding.model_account_tax
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21353,10 +21951,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,help:l10n_in_withholding.field_account_bank_statement_line__l10n_in_is_withholding
 #: model:ir.model.fields,help:l10n_in_withholding.field_account_move__l10n_in_is_withholding
 #: model:ir.model.fields,help:l10n_in_withholding.field_account_payment__l10n_in_is_withholding
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21810,6 +22411,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22257,7 +22861,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22710,6 +23317,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23158,6 +23768,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:l10n_in_withholding.selection__l10n_in_section_alert__consider_amount__total_amount
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields.selection,name:l10n_in_withholding.selection__l10n_in_section_alert__consider_amount__total_amount
 >>>>>>> upstream/18.0
@@ -23762,7 +24376,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_in_withholding.field_account_payment__l10n_in_total_withholding_amount
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24213,7 +24830,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,help:l10n_in_withholding.field_account_payment__l10n_in_total_withholding_amount
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24519,6 +25139,7 @@ msgid "Type"
 msgstr ""
 
 #. module: l10n_in_withholding
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25261,11 +25882,22 @@ msgid "Untaxed Amount"
 #: model:ir.model.fields.selection,name:l10n_in_withholding.selection__l10n_in_section_alert__consider_amount__untaxed_amount
 msgid "Untaxed Amount"
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields.selection,name:l10n_in_withholding.selection__l10n_in_section_alert__consider_amount__untaxed_amount
+msgid "Untaxed Amount"
+msgstr ""
+
+#. module: l10n_in_withholding
+#. odoo-python
+#: code:addons/l10n_in_withholding/models/account_chart_template.py:0
+msgid "Update app"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: l10n_in_withholding
 #. odoo-python
 #: code:addons/l10n_in_withholding/wizard/l10n_in_withhold_wizard.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26036,6 +26668,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid "Vendor Payment"
 msgstr ""
 
@@ -26193,6 +26827,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26503,6 +27140,7 @@ msgid "Withhold Wizard Lines"
 msgstr ""
 
 #. module: l10n_in_withholding
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -27245,6 +27883,10 @@ msgid "Withholding warning"
 #: model:ir.model.fields,field_description:l10n_in_withholding.field_l10n_in_withhold_wizard__l10n_in_withholding_warning
 msgid "Withholding warning"
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields,field_description:l10n_in_withholding.field_l10n_in_withhold_wizard__l10n_in_withholding_warning
+msgid "Withholding warning"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: l10n_in_withholding
@@ -27398,7 +28040,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -27849,10 +28494,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
 msgid "You must input at least one withhold line"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -28301,6 +28949,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

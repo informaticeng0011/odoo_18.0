@@ -2,6 +2,11 @@ from odoo.addons.account_edi_ubl_cii.tests.common import TestUblBis3Common, Test
 from odoo.tests import tagged
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from freezegun import freeze_time
+
+>>>>>>> upstream/18.0
 =======
 from freezegun import freeze_time
 
@@ -15,7 +20,10 @@ class TestUblImportBis3InvoiceBE(TestUblBis3Common, TestUblCiiBECommon):
         subfolder_format, _subfolder_document, subfolder_country = super().subfolders()
         return subfolder_format, 'invoice', subfolder_country
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     @freeze_time('2020-01-01')
     def test_import_discount_per_line_price_on_big_quantity(self):
@@ -106,4 +114,7 @@ class TestUblImportBis3InvoiceBE(TestUblBis3Common, TestUblCiiBECommon):
                 },
             ],
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -20,6 +20,7 @@ class PosOrder(models.Model):
     def read_pos_data(self, data, config_id):
         results = super().read_pos_data(data, config_id)
 <<<<<<< HEAD
+<<<<<<< HEAD
         paid_orders = self.filtered_domain([('state', 'in', ['paid', 'done', 'invoiced'])])
 
         if not paid_orders:
@@ -31,6 +32,8 @@ class PosOrder(models.Model):
         event_registrations_fields = self.env['event.registration']._load_pos_data_fields(paid_orders[0].config_id.id)
         event_registrations_answer_fields = self.env['event.registration.answer']._load_pos_data_fields(paid_orders[0].config_id.id)
 =======
+=======
+>>>>>>> upstream/18.0
         if not self:
             return results
 
@@ -39,6 +42,9 @@ class PosOrder(models.Model):
         event_ticket_fields = self.env['event.event.ticket']._load_pos_data_fields(self[0].config_id.id)
         event_registrations_fields = self.env['event.registration']._load_pos_data_fields(self[0].config_id.id)
         event_registrations_answer_fields = self.env['event.registration.answer']._load_pos_data_fields(self[0].config_id.id)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         results['event.registration'] = lines_with_event.event_registration_ids.read(event_registrations_fields, load=False)
         results['event.event'] = lines_with_event.event_registration_ids.mapped('event_id').read(event_event_fields, load=False)
@@ -46,7 +52,10 @@ class PosOrder(models.Model):
         results['event.registration.answer'] = lines_with_event.event_registration_ids.mapped('registration_answer_ids').read(event_registrations_answer_fields, load=False)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         return results
 
     def action_pos_order_paid(self):
@@ -57,14 +66,20 @@ class PosOrder(models.Model):
         return res
 
     def send_paid_order_mail(self, lines_with_event):
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         for registration in lines_with_event.event_registration_ids:
             if registration.email:
                 registration.action_send_badge_email()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         return results
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     @api.model

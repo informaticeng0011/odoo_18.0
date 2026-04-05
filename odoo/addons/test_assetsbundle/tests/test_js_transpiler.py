@@ -630,9 +630,15 @@ const a = 12;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const b = 15;
 
 export { a, b };
+=======
+const $b = 15;
+
+export { a, $b };
+>>>>>>> upstream/18.0
 =======
 const $b = 15;
 
@@ -2020,9 +2026,15 @@ const a = 12;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const b = 15;
 
 Object.assign(__exports, { a,  b });
+=======
+const $b = 15;
+
+Object.assign(__exports, { a,  $b });
+>>>>>>> upstream/18.0
 =======
 const $b = 15;
 
@@ -3383,7 +3395,10 @@ return __exports;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3741,6 +3756,9 @@ return __exports;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

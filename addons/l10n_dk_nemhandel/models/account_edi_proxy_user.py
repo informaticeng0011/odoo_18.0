@@ -140,7 +140,11 @@ class AccountEdiProxyClientUser(models.Model):
         :param nemhandel_state: the state of the received Nemhandel document
         :param uuid: the UUID of the Nemhandel document
 <<<<<<< HEAD
+<<<<<<< HEAD
         :return: `True` if the document was saved, `False` if it was not
+=======
+        :return: the created invoice if the document was saved, `False` if it was not
+>>>>>>> upstream/18.0
 =======
         :return: the created invoice if the document was saved, `False` if it was not
 >>>>>>> upstream/18.0
@@ -169,7 +173,11 @@ class AccountEdiProxyClientUser(models.Model):
         )
         attachment.write({'res_model': 'account.move', 'res_id': move.id})
 <<<<<<< HEAD
+<<<<<<< HEAD
         return True
+=======
+        return move
+>>>>>>> upstream/18.0
 =======
         return move
 >>>>>>> upstream/18.0
@@ -185,6 +193,10 @@ class AccountEdiProxyClientUser(models.Model):
         }
         for edi_user in self:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            edi_user = edi_user.with_company(edi_user.company_id)
+>>>>>>> upstream/18.0
 =======
             edi_user = edi_user.with_company(edi_user.company_id)
 >>>>>>> upstream/18.0
@@ -197,6 +209,7 @@ class AccountEdiProxyClientUser(models.Model):
                 )
             except UserError as e:
                 _logger.error(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -722,6 +735,9 @@ class AccountEdiProxyClientUser(models.Model):
 =======
                     'Error while receiving the document from Nemhandel Proxy: %s', ', '.join(e.args),
 >>>>>>> upstream/18.0
+=======
+                    'Error while receiving the document from Nemhandel Proxy: %s', ', '.join(e.args),
+>>>>>>> upstream/18.0
                 )
                 continue
 
@@ -736,7 +752,10 @@ class AccountEdiProxyClientUser(models.Model):
             message_uuids = message_uuids[:job_count]
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             proxy_acks = []
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             # retrieve attachments for filtered messages
@@ -745,6 +764,7 @@ class AccountEdiProxyClientUser(models.Model):
                 params={'message_uuids': message_uuids},
             )
 
+<<<<<<< HEAD
 <<<<<<< HEAD
             for uuid, content in all_messages.items():
                 enc_key = content["enc_key"]
@@ -774,6 +794,8 @@ class AccountEdiProxyClientUser(models.Model):
             self.env.ref('l10n_dk_nemhandel.ir_cron_nemhandel_get_new_documents')._trigger()
 
 =======
+=======
+>>>>>>> upstream/18.0
             processed_uuids, moves = edi_user._nemhandel_process_new_messages(all_messages)
 
             if not tools.config['test_enable']:
@@ -821,11 +843,15 @@ class AccountEdiProxyClientUser(models.Model):
         for partner in moves.partner_id.filtered(lambda partner: partner.nemhandel_verification_state in ('not_verified', False)):
             partner.button_nemhandel_check_partner_endpoint()
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _nemhandel_get_message_status(self, batch_size=None):
         job_count = batch_size or BATCH_SIZE
         need_retrigger = False
         for edi_user in self:
+<<<<<<< HEAD
 <<<<<<< HEAD
             edi_user_moves = self.env['account.move'].search(
                 [
@@ -875,6 +901,8 @@ class AccountEdiProxyClientUser(models.Model):
             self.env.ref('l10n_dk_nemhandel.ir_cron_nemhandel_get_message_status')._trigger()
 
 =======
+=======
+>>>>>>> upstream/18.0
             documents = edi_user._nemhandel_get_documents_for_status(job_count)
             if not documents:
                 continue
@@ -939,6 +967,9 @@ class AccountEdiProxyClientUser(models.Model):
             processed_message_uuids.append(uuid)
         return processed_message_uuids
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _nemhandel_get_participant_status(self):
         for edi_user in self:
@@ -1128,7 +1159,11 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if e.message != "The user doesn't exist on the proxy":
+=======
+                if e.args and e.args[0] != "The user doesn't exist on the proxy":
+>>>>>>> upstream/18.0
 =======
                 if e.args and e.args[0] != "The user doesn't exist on the proxy":
 >>>>>>> upstream/18.0

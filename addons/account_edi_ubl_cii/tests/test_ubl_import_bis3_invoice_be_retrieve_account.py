@@ -12,6 +12,7 @@ class TestUblImportBis3InvoiceBERetrieveAccount(TestUblImportBis3InvoiceBE):
         self.ensure_installed('account_accountant')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         account = self.company_data['default_account_revenue'].copy()
 
         # First invoice to train the prediction.
@@ -19,6 +20,8 @@ class TestUblImportBis3InvoiceBERetrieveAccount(TestUblImportBis3InvoiceBE):
             name="turlututu",
             price_unit=1.0,
 =======
+=======
+>>>>>>> upstream/18.0
         account = self.company_data['default_account_revenue'].copy(default={'name': "turlututu"})
         product = self._create_product(name='turlututu', barcode='12345678912345')
 
@@ -29,6 +32,9 @@ class TestUblImportBis3InvoiceBERetrieveAccount(TestUblImportBis3InvoiceBE):
         self._create_invoice_one_line(
             name="turlututu",
             product_id=product,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             account_id=account.id,
             partner_id=self.partner_be,
@@ -45,6 +51,10 @@ class TestUblImportBis3InvoiceBERetrieveAccount(TestUblImportBis3InvoiceBE):
             'name': "turlutututu",
             'account_id': account.id,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'product_id': product.id,
+>>>>>>> upstream/18.0
 =======
             'product_id': product.id,
 >>>>>>> upstream/18.0

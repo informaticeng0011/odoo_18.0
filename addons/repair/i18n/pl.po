@@ -205,6 +205,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* repair
 # 
 # Translators:
@@ -620,12 +621,15 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * repair
 #
 # Translators:
 # Wil Odoo, 2024
 # Marta Wacławek, 2025
 #
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1408,10 +1412,15 @@
 # "Marta (wacm)" <wacm@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
+=======
+# "Marta (wacm)" <wacm@odoo.com>, 2025, 2026.
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2298,10 +2307,18 @@ msgstr ""
 >>>>>>> upstream/18.0
 "Language-Team: Polish <https://translate.odoo.com/projects/odoo-18/repair/pl/"
 ">\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-03-29 12:13+0000\n"
+"Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
+"Language-Team: Polish <https://translate.odoo.com/projects/odoo-18/repair/"
+"pl/>\n"
+>>>>>>> upstream/18.0
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3194,12 +3211,22 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
+"(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
+"n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #. odoo-python
 #: code:addons/repair/models/stock_warehouse.py:0
 msgid "%(name)s Sequence repair"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s Naprawa sekwencji"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #. odoo-python
@@ -3410,7 +3437,11 @@ msgid "%(product)s: Insufficient Quantity To Repair"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(product)s: Niewystarczająca ilość do naprawy"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(product)s: Niewystarczająca ilość do naprawy"
 >>>>>>> upstream/18.0
@@ -4030,12 +4061,20 @@ msgstr "%(product)s: Niewystarczająca ilość do naprawy"
 #. module: repair
 #: model:ir.actions.report,print_report_name:repair.action_report_repair_order
 msgid "('Repair Order - %s' % (object.name))"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "('Zlecenie naprawy - %s' % (object.name))"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
 msgid "(<i>Recycle</i>)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(<i>Recykluj</i>)"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
@@ -4045,6 +4084,7 @@ msgstr "(<i>Usuń</i>)"
 #. module: repair
 #: model:ir.model.fields,help:repair.field_repair_order__state
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4501,11 +4541,25 @@ msgid ""
 "* The 'New' status is used when a user is encoding a new and unconfirmed "
 "repair order.\n"
 >>>>>>> upstream/18.0
+=======
+"* The 'New' status is used when a user is encoding a new and unconfirmed "
+"repair order.\n"
+>>>>>>> upstream/18.0
 "* The 'Confirmed' status is used when a user confirms the repair order.\n"
 "* The 'Under Repair' status is used when the repair is ongoing.\n"
 "* The 'Repaired' status is set when repairing is completed.\n"
 "* The 'Cancelled' status is used when user cancel repair order."
 msgstr ""
+<<<<<<< HEAD
+=======
+"* Status „Nowy” jest używany, gdy użytkownik wprowadza nowe i "
+"niepotwierdzone zlecenie naprawy.\n"
+"* Status „Potwierdzone” jest używany, gdy użytkownik potwierdzi zlecenie "
+"naprawy.\n"
+"* Status „W trakcie naprawy” jest używany, gdy naprawa jest w toku.\n"
+"* Status „Naprawione” jest ustawiany po zakończeniu naprawy.\n"
+"* Status „Anulowane” jest używany, gdy użytkownik anuluje zlecenie naprawy."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
@@ -4515,27 +4569,47 @@ msgstr "<i>(Dodaj)</i>"
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.stock_repair_type_kanban
 msgid "<span class=\"col-6\">Confirmed</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"col-6\">Potwierdzono</span>"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.stock_repair_type_kanban
 msgid "<span class=\"col-6\">Late</span>"
+<<<<<<< HEAD
 msgstr "<span class=\"col-6\">Późne</span>"
+=======
+msgstr "<span class=\"col-6\">Zaległe</span>"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.stock_repair_type_kanban
 msgid "<span class=\"col-6\">Under Repair</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"col-6\">W naprawie</span>"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.stock_production_lot_view_form
 msgid "<span class=\"o_stat_text\">Done:</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Gotowe:</span>"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.stock_production_lot_view_form
 msgid "<span class=\"o_stat_text\">Repair Parts:</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Części naprawy:</span>"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
@@ -4545,7 +4619,11 @@ msgstr "<span class=\"o_stat_text\">Zamówienie sprzedaży</span>"
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.stock_production_lot_view_form
 msgid "<span class=\"o_stat_text\">To Do:</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Do zrobienia:</span>"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.stock_repair_type_kanban
@@ -4555,7 +4633,11 @@ msgstr "<span>Zamówienia</span>"
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
 msgid "<span>Repair Order #</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Zlecenie naprawy #</span>"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
@@ -4565,7 +4647,11 @@ msgstr "<strong>Klient:</strong>"
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
 msgid "<strong>Lot/Serial:</strong>"
+<<<<<<< HEAD
 msgstr "<strong>Partia/n. serii:</strong>"
+=======
+msgstr "<strong>Partia/seria:</strong>"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
@@ -4595,7 +4681,11 @@ msgstr "Wymagane działanie"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__activity_ids
 msgid "Activities"
+<<<<<<< HEAD
 msgstr "Czynności"
+=======
+msgstr "Aktywności"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__activity_exception_decoration
@@ -4635,7 +4725,11 @@ msgstr "Dodaj wewnętrzne notatki."
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__location_dest_id
 msgid "Added Parts Destination Location"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Miejsce docelowe dodanych części"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields.selection,name:repair.selection__repair_order__search_date_category__after
@@ -4651,12 +4745,20 @@ msgstr "Wszystko"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__is_parts_available
 msgid "All Parts are available"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Wszystkie części są dostępne"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__allowed_lot_ids
 msgid "Allowed Lot"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dozwolona partia"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__reserve_visible
@@ -4666,12 +4768,20 @@ msgstr "Dozwolona produkcja rezerwowa"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__unreserve_visible
 msgid "Allowed to Unreserve Production"
+<<<<<<< HEAD
 msgstr "Zezwolono na odrezerwowanie produkcji"
+=======
+msgstr "Dozwolone anulowanie rezerwacji produkcji"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__is_parts_late
 msgid "Any Part is late"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jakakolwiek część jest opóźniona"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__message_attachment_count
@@ -4689,7 +4799,11 @@ msgstr "Dostępny"
 #. odoo-javascript
 #: code:addons/repair/static/src/components/product_catalog/kanban_controller.js:0
 msgid "Back to Repair"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Powrót do Naprawy"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields.selection,name:repair.selection__repair_order__search_date_category__before
@@ -4700,13 +4814,21 @@ msgstr "Przed"
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.product_view_search_catalog
 msgid "BoM Components"
+<<<<<<< HEAD
 msgstr "Komponenty zest. mat."
+=======
+msgstr "Komponenty zestawienia materiałów"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #. odoo-python
 #: code:addons/repair/models/stock_warehouse.py:0
 msgid "Can't find any production location."
+<<<<<<< HEAD
 msgstr "Nie można znaleźć lokalizacji produkcji"
+=======
+msgstr "Nie można znaleźć lokalizacji produkcji."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
@@ -4758,18 +4880,30 @@ msgstr "Firma"
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.repair_view_picking_type_form
 msgid "Component Destination Location"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lokalizacja docelowa komponentu"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__location_id
 #: model_terms:ir.ui.view,arch_db:repair.repair_view_picking_type_form
 msgid "Component Source Location"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lokalizacja źródła komponentu"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__parts_availability
 msgid "Component Status"
+<<<<<<< HEAD
 msgstr "Status Komponentu"
+=======
+msgstr "Status komponentu"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.ui.menu,name:repair.repair_menu_config
@@ -4802,7 +4936,11 @@ msgstr ""
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
 msgid "Create Quotation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stwórz ofertę"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #. odoo-python
@@ -4823,6 +4961,11 @@ msgstr "Tworzenie zleceń naprawy na podstawie zwrotów"
 msgid ""
 "Create a linked Repair Order on Sale Order confirmation of this product."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Utwórz powiązane zlecenie naprawy w potwierdzeniu zamówienia sprzedaży tego "
+"produktu."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.actions.act_window,help:repair.action_repair_order_tag
@@ -4852,12 +4995,20 @@ msgstr "Klient"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__search_date_category
 msgid "Date Category"
+<<<<<<< HEAD
 msgstr "Data kategorii"
+=======
+msgstr "Kategoria daty"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
 msgid "Demand"
+<<<<<<< HEAD
 msgstr "Zapotrzebowanie"
+=======
+msgstr "Popyt"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
@@ -4901,6 +5052,7 @@ msgstr "Zapewnij identyfikowalność produktu rejestrowanego w Twoim magazynie."
 #. odoo-python
 #: code:addons/repair/models/repair.py:0
 msgid "Exp %s"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5722,10 +5874,14 @@ msgstr "Oczekiwano %s"
 =======
 msgstr "Oczekiwano %s"
 >>>>>>> upstream/18.0
+=======
+msgstr "Exp %s"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields.selection,name:repair.selection__repair_order__parts_availability_state__expected
 msgid "Expected"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6547,16 +6703,27 @@ msgstr "Oczekiwano"
 =======
 msgstr "Oczekiwano"
 >>>>>>> upstream/18.0
+=======
+msgstr "Spodziewany"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__message_follower_ids
 msgid "Followers"
+<<<<<<< HEAD
 msgstr "Obserwatorzy"
+=======
+msgstr "Obserwujący"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__message_partner_ids
 msgid "Followers (Partners)"
+<<<<<<< HEAD
 msgstr "Obserwatorzy (partnerzy)"
+=======
+msgstr "Obserwujący (partnerzy)"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,help:repair.field_repair_order__activity_type_icon
@@ -6569,6 +6736,12 @@ msgid ""
 "For some of the parts, there is a difference between the initial demand and "
 "the actual quantity that was used. Are you sure you want to confirm ?"
 msgstr ""
+<<<<<<< HEAD
+=======
+"W przypadku niektórych części występuje różnica między początkowym "
+"zapotrzebowaniem a faktycznie wykorzystaną ilością. Czy na pewno chcesz "
+"potwierdzić?"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
@@ -6578,6 +6751,7 @@ msgstr "Raport prognozy"
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
 msgid "Forecasted"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6775,11 +6949,18 @@ msgstr "Prognozowane"
 =======
 msgstr "Prognozowane"
 >>>>>>> upstream/18.0
+=======
+msgstr "Prognozowane"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form_filter
 msgid "Future Activities"
+<<<<<<< HEAD
 msgstr "Przyszłe czynności"
+=======
+msgstr "Przyszłe aktywności"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form_filter
@@ -6794,7 +6975,11 @@ msgstr "Ma wiadomość"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__has_uncomplete_moves
 msgid "Has Uncomplete Moves"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zawiera niekompletne ruchy"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__id
@@ -6831,12 +7016,18 @@ msgid ""
 "If ticked, the sales price will be set to 0 for all products transferred "
 "from the repair order."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Jeśli opcja jest zaznaczona, cena sprzedaży zostanie ustawiona na 0 dla "
+"wszystkich produktów przeniesionych ze zlecenia naprawy."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,help:repair.field_stock_picking_type__is_repairable
 msgid ""
 "If ticked, you will be able to directly create repair orders from a return."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7294,11 +7485,16 @@ msgstr ""
 "Jeśli opcja ta jest zaznaczona, możliwe będzie bezpośrednie tworzenie zleceń "
 "naprawy ze zwrotów."
 >>>>>>> upstream/18.0
+=======
+"Jeśli opcja ta jest zaznaczona, możliwe będzie bezpośrednie tworzenie zleceń "
+"naprawy ze zwrotów."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.actions.act_window,help:repair.action_repair_order_tree
 msgid ""
 "In a repair order, you can detail the components you remove,\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7760,16 +7956,33 @@ msgstr ""
 "W zleceniu naprawy można wyszczególnić komponenty, które zostały usunięte,\n"
 "dodawane lub wymieniane i rejestrować czas spędzony na różnych operacjach.\n"
 "operacje."
+=======
+"                add or replace and record the time you spent on the "
+"different\n"
+"                operations."
+msgstr ""
+"W zleceniu naprawy można wyszczególnić komponenty usunięte,\n"
+"dodawane lub wymieniane i rejestrować czas spędzony na różnych\n"
+"operacjach."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_stock_lot__in_repair_count
 msgid "In repair count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Liczba pozycji w naprawie"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.product_view_search_catalog
 msgid "In the Repair Order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "W zleceniu naprawy"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__internal_notes
@@ -7779,27 +7992,47 @@ msgstr "Notatki wewnętrzne"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__move_id
 msgid "Inventory Move"
+<<<<<<< HEAD
 msgstr "Przesunięcie zapasów"
+=======
+msgstr "Ruch magazynowy"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.actions.act_window,name:repair.action_repair_move_lines
 msgid "Inventory Moves"
+<<<<<<< HEAD
 msgstr "Ruchy zapasów"
+=======
+msgstr "Ruchy magazynowe"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__message_is_follower
 msgid "Is Follower"
+<<<<<<< HEAD
 msgstr "Jest obserwatorem"
+=======
+msgstr "Jest obserwującym"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_stock_picking__is_repairable
 msgid "Is Repairable"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nadaje się do naprawy"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
 msgid "Jane Smith"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jane Smith"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
@@ -7839,7 +8072,11 @@ msgstr "Zaległe"
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form_filter
 msgid "Late Activities"
+<<<<<<< HEAD
 msgstr "Czynności zaległe"
+=======
+msgstr "Zaległe aktywności"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,help:repair.field_repair_order__parts_availability
@@ -7847,6 +8084,11 @@ msgid ""
 "Latest parts availability status for this RO. If green, then the RO's "
 "readiness status is ready."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Aktualny status dostępności części dla tego ZN. Jeśli kolor jest zielony, "
+"oznacza to, że ZN jest gotowe."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_stock_warn_insufficient_qty_repair__location_id
@@ -7883,7 +8125,11 @@ msgstr "Różne"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__my_activity_date_deadline
 msgid "My Activity Deadline"
+<<<<<<< HEAD
 msgstr "Ostateczny terminin moich aktywności"
+=======
+msgstr "Ostateczny termin moich aktywności"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields.selection,name:repair.selection__repair_order__state__draft
@@ -7895,27 +8141,47 @@ msgstr "Nowe"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
+<<<<<<< HEAD
 msgstr "Następna Czynność wydarzenia w kalendarzu"
+=======
+msgstr "Następna aktywność wydarzenia w kalendarzu"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__activity_date_deadline
 msgid "Next Activity Deadline"
+<<<<<<< HEAD
 msgstr "Termin kolejnej czynności"
+=======
+msgstr "Termin kolejnej aktywności"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__activity_summary
 msgid "Next Activity Summary"
+<<<<<<< HEAD
 msgstr "Podsumowanie kolejnej czynności"
+=======
+msgstr "Podsumowanie kolejnej aktywności"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__activity_type_id
 msgid "Next Activity Type"
+<<<<<<< HEAD
 msgstr "Typ następnej czynności"
+=======
+msgstr "Typ następnej aktywności"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.actions.act_window,help:repair.action_repair_order_tree
 msgid "No repair order found. Let's create one!"
+<<<<<<< HEAD
 msgstr "Nie znaleziono zlecenia naprawy. Utwórzmy je!"
+=======
+msgstr "Nie znaleziono zlecenia naprawy. Stwórzmy jakieś!"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields.selection,name:repair.selection__repair_order__priority__0
@@ -7926,15 +8192,23 @@ msgstr "Zwykły"
 #. odoo-python
 #: code:addons/repair/models/repair.py:0
 msgid "Not Available"
+<<<<<<< HEAD
 msgstr "Niedostępny/e"
+=======
+msgstr "Niedostępne"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #. odoo-python
 #: code:addons/repair/models/repair.py:0
 msgid ""
 "Note that the warehouses of the return and repair locations don't match!"
+<<<<<<< HEAD
 msgstr ""
 "Należy pamiętać, że magazyny lokalizacji zwrotu i naprawy nie pokrywają się!"
+=======
+msgstr "Uwaga: magazyny lokalizacji zwrotu i naprawy nie pokrywają się!"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__message_needaction_counter
@@ -7944,22 +8218,38 @@ msgstr "Liczba akcji"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_stock_picking_type__count_repair_late
 msgid "Number of Late Repair Orders"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Liczba zaległych zleceń naprawy"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_stock_picking_type__count_repair_confirmed
 msgid "Number of Repair Orders Confirmed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Liczba potwierdzonych zleceń naprawy"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_stock_picking_type__count_repair_under_repair
 msgid "Number of Repair Orders Under Repair"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Liczba zleceń naprawy w trakcie naprawy"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_stock_picking_type__count_repair_ready
 msgid "Number of Repair Orders to Process"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Liczba zleceń naprawy do przetworzenia"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__message_has_error_counter
@@ -7979,7 +8269,11 @@ msgstr "Liczba wiadomości z błędami przy doręczeniu"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_stock_picking__nbr_repairs
 msgid "Number of repairs linked to this picking"
+<<<<<<< HEAD
 msgstr "Liczba napraw związanych z tym typowaniem"
+=======
+msgstr "Liczba napraw związanych z tą kompletacją"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.stock_repair_type_kanban
@@ -7993,6 +8287,7 @@ msgstr "Typ operacji"
 
 #. module: repair
 #. odoo-python
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8359,6 +8654,9 @@ msgstr "Typ operacji"
 =======
 #: code:addons/repair/models/product.py:0 code:addons/repair/models/repair.py:0
 >>>>>>> upstream/18.0
+=======
+#: code:addons/repair/models/product.py:0 code:addons/repair/models/repair.py:0
+>>>>>>> upstream/18.0
 msgid "Operation not supported"
 msgstr "Operacja nie jest wspierana"
 
@@ -8387,7 +8685,11 @@ msgstr "Części"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__parts_availability_state
 msgid "Parts Availability State"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stan dostępności części"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
@@ -8397,12 +8699,20 @@ msgstr "Oczekujące"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__picking_product_ids
 msgid "Picking Product"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kompletacja produktu"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model,name:repair.model_stock_picking_type
 msgid "Picking Type"
+<<<<<<< HEAD
 msgstr "Typ pobrania"
+=======
+msgstr "Typ kompletacji"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__priority
@@ -8425,23 +8735,39 @@ msgstr "Produkt"
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
 msgid "Product A"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produkt A"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
 msgid "Product B"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produkt B"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_product_product__product_catalog_product_is_in_repair
 msgid "Product Catalog Product Is In Repair"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Katalog produktów - Produkt jest w naprawie"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__product_location_dest_id
 #: model:ir.model.fields,field_description:repair.field_stock_picking_type__default_product_location_dest_id
 msgid "Product Destination Location"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lokalizacja docelowa produktu"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
@@ -8451,7 +8777,11 @@ msgstr "Przesunięcia produktu"
 #. module: repair
 #: model:ir.model,name:repair.model_stock_move_line
 msgid "Product Moves (Stock Move Line)"
+<<<<<<< HEAD
 msgstr "Przesunięcia produktu (pozycja przesunięcia zasobów)"
+=======
+msgstr "Przesunięcia produktu (pozycja ruchu magazynowego)"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__product_qty
@@ -8462,7 +8792,11 @@ msgstr "Ilość produktu"
 #: model:ir.model.fields,field_description:repair.field_repair_order__product_location_src_id
 #: model:ir.model.fields,field_description:repair.field_stock_picking_type__default_product_location_src_id
 msgid "Product Source Location"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lokalizacja źródłowa produktu"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__tracking
@@ -8507,7 +8841,11 @@ msgstr "Właściwości"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_stock_warn_insufficient_qty_repair__quant_ids
 msgid "Quant"
+<<<<<<< HEAD
 msgstr "Kwant"
+=======
+msgstr "Ilość"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_stock_warn_insufficient_qty_repair__quantity
@@ -8535,17 +8873,29 @@ msgstr "Gotowe"
 #. module: repair
 #: model:ir.model.fields.selection,name:repair.selection__stock_move__repair_line_type__recycle
 msgid "Recycle"
+<<<<<<< HEAD
 msgstr "Recykling"
+=======
+msgstr "Recykluj"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_stock_picking_type__default_recycle_location_dest_id
 msgid "Recycle Destination Location"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lokalizacja miejsca recyklingu"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__recycle_location_id
 msgid "Recycled Parts Destination Location"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lokalizacja docelowa części poddanych recyklingowi"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields.selection,name:repair.selection__stock_move__repair_line_type__remove
@@ -8555,12 +8905,20 @@ msgstr "Usuń"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_stock_picking_type__default_remove_location_dest_id
 msgid "Remove Destination Location"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Usuń lokalizację docelową"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__parts_location_id
 msgid "Removed Parts Destination Location"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lokacja docelowa usuniętych części"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_stock_move__repair_id
@@ -8574,7 +8932,11 @@ msgstr "Naprawa"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_stock_warehouse__repair_mto_pull_id
 msgid "Repair MTO Rule"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Reguła naprawiania MTO"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
@@ -8585,7 +8947,11 @@ msgstr "Uwagi dotyczące naprawy"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_stock_warehouse__repair_type_id
 msgid "Repair Operation Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Typ operacji naprawy"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.actions.report,name:repair.action_report_repair_order
@@ -8594,12 +8960,20 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form_filter
 msgid "Repair Order"
+<<<<<<< HEAD
 msgstr "Zamówienia naprawy"
+=======
+msgstr "Zlecenie naprawy"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_sale_order__repair_count
 msgid "Repair Order(s)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zlecenia naprawy"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #. odoo-python
@@ -8616,32 +8990,56 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_graph
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_pivot
 msgid "Repair Orders"
+<<<<<<< HEAD
 msgstr "Zamówienie naprawy"
+=======
+msgstr "Zlecenia naprawy"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.ui.menu,name:repair.repair_menu_tag
 msgid "Repair Orders Tags"
+<<<<<<< HEAD
 msgstr "Tagi Zlecenia naprawy"
+=======
+msgstr "Tagi zlecenia naprawy"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.actions.act_window,name:repair.action_repair_picking_type_kanban
 msgid "Repair Overview"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Przegląd napraw"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_stock_picking_type__repair_properties_definition
 msgid "Repair Properties"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Właściwości naprawy"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__name
 msgid "Repair Reference"
+<<<<<<< HEAD
 msgstr "Odnośnik naprawy"
+=======
+msgstr "Referencja naprawy"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__repair_request
 msgid "Repair Request"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zgłoszenie naprawy"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:product.template,name:repair.product_service_order_repair_product_template
@@ -8658,6 +9056,7 @@ msgstr "Tagi naprawy"
 #. odoo-python
 #: code:addons/repair/models/repair.py:0
 msgid "Repair must be under repair in order to end reparation."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9479,6 +9878,9 @@ msgstr "Status musi być w trakcie naprawy, aby zakończyć naprawianie."
 =======
 msgstr "Status musi być w trakcie naprawy, aby zakończyć naprawianie."
 >>>>>>> upstream/18.0
+=======
+msgstr "Naprawa musi być w trakcie naprawy, aby zakończyć naprawę."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #. odoo-python
@@ -9489,7 +9891,11 @@ msgstr "Zlecenia naprawy %s"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_stock_lot__repair_part_count
 msgid "Repair part count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Liczba części naprawczych"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields.selection,name:repair.selection__repair_order__state__done
@@ -9500,7 +9906,11 @@ msgstr "Naprawione"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_stock_lot__repaired_count
 msgid "Repaired count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Liczba napraw"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #. odoo-python
@@ -9581,17 +9991,29 @@ msgstr "Pozycja zamówienia sprzedaży"
 #. module: repair
 #: model:ir.model.fields,help:repair.field_repair_order__repair_request
 msgid "Sale Order Line Description."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opis pozycji zamówienia sprzedaży."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,help:repair.field_repair_order__sale_order_line_id
 msgid "Sale Order Line from which the Repair Order comes from."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pozycja zamówienia sprzedaży z której pochodzi zlecenie naprawy."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,help:repair.field_repair_order__sale_order_id
 msgid "Sale Order from which the Repair Order comes from."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zamówienie sprzedaży z którego pochodzi zlecenie naprawy."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model,name:repair.model_sale_order
@@ -9822,7 +10244,11 @@ msgid "Serial number is required for product to repair : %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Wymagane jest podanie numeru seryjnego, aby naprawiać: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Wymagane jest podanie numeru seryjnego, aby naprawiać: %s"
 >>>>>>> upstream/18.0
@@ -10526,7 +10952,11 @@ msgid "Set to Draft"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ustaw jako projekt"
+=======
+msgstr "Ustaw jako wersję roboczą"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ustaw jako wersję roboczą"
 >>>>>>> upstream/18.0
@@ -10814,7 +11244,11 @@ msgstr ""
 #. module: repair
 #: model:ir.model,name:repair.model_stock_move
 msgid "Stock Move"
+<<<<<<< HEAD
 msgstr "Przesunięcie"
+=======
+msgstr "Ruch magazynowy"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model,name:repair.model_stock_forecasted_product_product
@@ -10829,7 +11263,11 @@ msgstr "Nazwa tagu"
 #. module: repair
 #: model:ir.model.constraint,message:repair.constraint_repair_tags_name_uniq
 msgid "Tag name already exists!"
+<<<<<<< HEAD
 msgstr "Nazwa etykiety już istnieje!"
+=======
+msgstr "Nazwa tagu już istnieje!"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.actions.act_window,name:repair.action_repair_order_tag
@@ -10861,6 +11299,7 @@ msgstr "Pojutrze"
 msgid ""
 "The product unit of measure you chose has a different category than the "
 "product unit of measure."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11775,11 +12214,19 @@ msgstr ""
 msgstr ""
 "Wybrana jednostka miary ma inną kategorię niż jednostka miary produktu."
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"Wybrana jednostka miary ma inną kategorię niż jednostka miary produktu."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
 msgid "This is a repair note."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "To jest notatka dotycząca naprawy."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,help:repair.field_stock_picking_type__default_product_location_dest_id
@@ -11787,6 +12234,11 @@ msgid ""
 "This is the default destination location for the product to be repaired in "
 "repair orders with this operation type."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Jest to domyślna lokalizacja docelowa dla produktu, który ma zostać "
+"naprawiony w zleceniach naprawy z tym typem operacji."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,help:repair.field_stock_picking_type__default_recycle_location_dest_id
@@ -11794,6 +12246,11 @@ msgid ""
 "This is the default recycle destination location when you create a repair "
 "order with this operation type."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Jest to domyślna lokalizacja miejsca przeznaczenia recyklingu podczas "
+"tworzenia zlecenia naprawy z tym typem operacji."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,help:repair.field_stock_picking_type__default_remove_location_dest_id
@@ -11801,10 +12258,16 @@ msgid ""
 "This is the default remove destination location when you create a repair "
 "order with this operation type."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Jest to domyślna lokalizacja miejsca docelowego usuwania podczas tworzenia "
+"zlecenia naprawy z tym typem operacji."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,help:repair.field_stock_picking_type__default_product_location_src_id
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12263,12 +12726,24 @@ msgid ""
 "orders with this operation type."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"This is the default source location for the product to be repaired in repair "
+"orders with this operation type."
+msgstr ""
+"Jest to domyślna lokalizacja źródłowa produktu, który ma zostać naprawiony w "
+"zleceniach naprawy o tym typie operacji."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,help:repair.field_repair_order__location_id
 msgid ""
 "This is the location where the components of product to repair is located."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Jest to lokalizacja, w której znajdują się komponenty produktu przeznaczone "
+"do naprawy."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,help:repair.field_repair_order__product_location_src_id
@@ -12279,24 +12754,40 @@ msgstr "Jest to lokalizacja, w której znajduje się produkt do naprawy."
 #: model:ir.model.fields,help:repair.field_repair_order__parts_location_id
 #: model:ir.model.fields,help:repair.field_repair_order__recycle_location_id
 msgid "This is the location where the repair parts are located."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "W tym miejscu znajdują się części zamienne."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,help:repair.field_repair_order__location_dest_id
 #: model:ir.model.fields,help:repair.field_repair_order__product_location_dest_id
 msgid "This is the location where the repaired product is located."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "W tym miejscu znajduje się naprawiony produkt."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.stock_repair_type_kanban
 msgid "To Repair"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Do naprawy"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields.selection,name:repair.selection__repair_order__search_date_category__today
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form_filter
 msgid "Today"
+<<<<<<< HEAD
 msgstr "Na dzisiaj"
+=======
+msgstr "Dzisiaj"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form_filter
@@ -12317,7 +12808,11 @@ msgstr "Raport śledzenia"
 #. module: repair
 #: model:ir.model,name:repair.model_stock_picking
 msgid "Transfer"
+<<<<<<< HEAD
 msgstr "Przekaz"
+=======
+msgstr "Transfer"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,help:repair.field_repair_order__is_returned
@@ -12436,7 +12931,11 @@ msgid "Under Warranty"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "W ramach gwarancji"
+>>>>>>> upstream/18.0
 =======
 msgstr "W ramach gwarancji"
 >>>>>>> upstream/18.0
@@ -12705,7 +13204,11 @@ msgstr "Jednostki"
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
 msgid "Unreserve"
+<<<<<<< HEAD
 msgstr "Skasuj rezerwację"
+=======
+msgstr "Anuluj rezerwację"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields.selection,name:repair.selection__repair_order__priority__1
@@ -12725,7 +13228,11 @@ msgstr "Magazyn"
 #. module: repair
 #: model:ir.model,name:repair.model_stock_warn_insufficient_qty_repair
 msgid "Warn Insufficient Repair Quantity"
+<<<<<<< HEAD
 msgstr "Ostrzeżenie Niewystarczająca ilość napraw"
+=======
+msgstr "Ostrzeżenie: niewystarczająca ilość napraw"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #. odoo-python
@@ -12759,12 +13266,17 @@ msgstr "Nie możesz wprowadzić ujemnych ilości."
 #. odoo-python
 #: code:addons/repair/models/repair.py:0
 msgid "You cannot cancel a Repair Order that's already been completed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nie możesz anulować zlecenia naprawy, które już dobiegło końca."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #. odoo-python
 #: code:addons/repair/models/repair.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13224,11 +13736,23 @@ msgid ""
 "Concerned repair order(s):\n"
 "%(ref_str)s"
 msgstr ""
+=======
+"You cannot create a quotation for a repair order that is already linked to "
+"an existing sale order.\n"
+"Concerned repair order(s):\n"
+"%(ref_str)s"
+msgstr ""
+"Nie można stworzyć oferty na zlecenie naprawy, które jest już powiązane z "
+"istniejącym zamówieniem sprzedaży.\n"
+"Zlecenia naprawy, których to dotyczy:\n"
+"%(ref_str)s"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #. odoo-python
 #: code:addons/repair/models/repair.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13688,6 +14212,17 @@ msgid ""
 "Concerned repair order(s):\n"
 "%(ref_str)s"
 msgstr ""
+=======
+"You need to define a customer for a repair order in order to create an "
+"associated quotation.\n"
+"Concerned repair order(s):\n"
+"%(ref_str)s"
+msgstr ""
+"Aby utworzyć powiązaną ofertę, należy zdefiniować klienta dla zlecenia "
+"naprawy.\n"
+"Zlecenia naprawy, których to dotyczy:\n"
+"%(ref_str)s"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.stock_warn_insufficient_qty_repair_form_view
