@@ -1,8 +1,14 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* cloud_storage_migration
 #
+=======
+# * cloud_storage_migration
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
 =======
 # * cloud_storage_migration
 #
@@ -14,6 +20,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "PO-Revision-Date: 2025-12-29 18:37+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -22,6 +29,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2026-03-29 12:21+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-18/"
@@ -32,13 +41,20 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.16.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_res_config_settings__cloud_storage_migration_all_model_ids
 msgid "All Attachments"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "すべての添付ファイル"
+>>>>>>> upstream/18.0
 =======
 msgstr "すべての添付ファイル"
 >>>>>>> upstream/18.0
@@ -47,7 +63,11 @@ msgstr "すべての添付ファイル"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__all_to_migrate
 msgid "All Attachments Migration"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "すべての添付ファイルの移行"
+>>>>>>> upstream/18.0
 =======
 msgstr "すべての添付ファイルの移行"
 >>>>>>> upstream/18.0
@@ -56,7 +76,11 @@ msgstr "すべての添付ファイルの移行"
 #: model:ir.model,name:cloud_storage_migration.model_ir_attachment
 msgid "Attachment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "添付ファイル"
+>>>>>>> upstream/18.0
 =======
 msgstr "添付ファイル"
 >>>>>>> upstream/18.0
@@ -69,6 +93,11 @@ msgid ""
 "cloud storage."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"添付ファイル (%s) には保存されたファイル名がなく、クラウドストレージに移行で"
+"きません。"
+>>>>>>> upstream/18.0
 =======
 "添付ファイル (%s) には保存されたファイル名がなく、クラウドストレージに移行で"
 "きません。"
@@ -82,6 +111,11 @@ msgid ""
 "storage."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"添付ファイル (%s) はバイナリ形式の添付ファイルではないため、"
+"クラウドストレージへ移行できません。"
+>>>>>>> upstream/18.0
 =======
 "添付ファイル (%s) はバイナリ形式の添付ファイルではないため、"
 "クラウドストレージへ移行できません。"
@@ -91,7 +125,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:cloud_storage_migration.cloud_storage_migration_config_settings_view_form
 msgid "Attachments Report"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "添付ファイルレポート"
+>>>>>>> upstream/18.0
 =======
 msgstr "添付ファイルレポート"
 >>>>>>> upstream/18.0
@@ -100,7 +138,11 @@ msgstr "添付ファイルレポート"
 #: model_terms:ir.ui.view,arch_db:cloud_storage_migration.cloud_storage_migration_config_settings_view_form
 msgid "Cloud Storage Migration"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "クラウドストレージ移行"
+>>>>>>> upstream/18.0
 =======
 msgstr "クラウドストレージ移行"
 >>>>>>> upstream/18.0
@@ -109,7 +151,11 @@ msgstr "クラウドストレージ移行"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_res_config_settings__cloud_storage_migration_all_models
 msgid "Cloud Storage Migration All Models"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "クラウドストレージ移行 全モデル"
+>>>>>>> upstream/18.0
 =======
 msgstr "クラウドストレージ移行 全モデル"
 >>>>>>> upstream/18.0
@@ -118,7 +164,11 @@ msgstr "クラウドストレージ移行 全モデル"
 #: model:ir.actions.act_window,name:cloud_storage_migration.action_cloud_storage_migration_cron
 msgid "Cloud Storage Migration Cron"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "クラウドストレージ移行Cron"
+>>>>>>> upstream/18.0
 =======
 msgstr "クラウドストレージ移行Cron"
 >>>>>>> upstream/18.0
@@ -127,7 +177,11 @@ msgstr "クラウドストレージ移行Cron"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_res_config_settings__cloud_storage_migration_message_models
 msgid "Cloud Storage Migration Message Models"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "クラウドストレージ移行メッセージモデル"
+>>>>>>> upstream/18.0
 =======
 msgstr "クラウドストレージ移行メッセージモデル"
 >>>>>>> upstream/18.0
@@ -138,7 +192,11 @@ msgstr "クラウドストレージ移行メッセージモデル"
 #: model_terms:ir.ui.view,arch_db:cloud_storage_migration.view_cloud_storage_migration_report_list
 msgid "Cloud Storage Migration Report"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "クラウドストレージ移行レポート"
+>>>>>>> upstream/18.0
 =======
 msgstr "クラウドストレージ移行レポート"
 >>>>>>> upstream/18.0
@@ -148,7 +206,11 @@ msgstr "クラウドストレージ移行レポート"
 #: code:addons/cloud_storage_migration/models/ir_attachment.py:0
 msgid "Cloud storage provider is not configured"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "クラウドストレージプロバイダーが設定されていません"
+>>>>>>> upstream/18.0
 =======
 msgstr "クラウドストレージプロバイダーが設定されていません"
 >>>>>>> upstream/18.0
@@ -157,7 +219,11 @@ msgstr "クラウドストレージプロバイダーが設定されていませ
 #: model:ir.model,name:cloud_storage_migration.model_res_config_settings
 msgid "Config Settings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "構成設定"
+>>>>>>> upstream/18.0
 =======
 msgstr "構成設定"
 >>>>>>> upstream/18.0
@@ -166,7 +232,11 @@ msgstr "構成設定"
 #: model_terms:ir.ui.view,arch_db:cloud_storage_migration.cloud_storage_migration_config_settings_view_form
 msgid "Cron Job"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cronジョブ"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cronジョブ"
 >>>>>>> upstream/18.0
@@ -175,7 +245,11 @@ msgstr "Cronジョブ"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__display_name
 msgid "Display Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "表示名"
+>>>>>>> upstream/18.0
 =======
 msgstr "表示名"
 >>>>>>> upstream/18.0
@@ -184,7 +258,11 @@ msgstr "表示名"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__has_attachment_rel
 msgid "Has Attachment Field"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "添付ファイルフィールドあり"
+>>>>>>> upstream/18.0
 =======
 msgstr "添付ファイルフィールドあり"
 >>>>>>> upstream/18.0
@@ -193,7 +271,11 @@ msgstr "添付ファイルフィールドあり"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__id
 msgid "ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID"
 >>>>>>> upstream/18.0
@@ -205,6 +287,11 @@ msgid ""
 "for cloud storage migration"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"このモデルに関連付けられているすべての添付ファイルがクラウドストレージ移行の"
+"スケジュール対象であるかどうかを示します"
+>>>>>>> upstream/18.0
 =======
 "このモデルに関連付けられているすべての添付ファイルがクラウドストレージ移行の"
 "スケジュール対象であるかどうかを示します"
@@ -217,6 +304,11 @@ msgid ""
 "scheduled for cloud storage migration"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"このモデルのメールメッセージに関連付けられた添付ファイルが、"
+"クラウドストレージへの移行対象としてスケジュールされているかどうかを示します"
+>>>>>>> upstream/18.0
 =======
 "このモデルのメールメッセージに関連付けられた添付ファイルが、"
 "クラウドストレージへの移行対象としてスケジュールされているかどうかを示します"
@@ -229,6 +321,11 @@ msgid ""
 " model"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"このモデルがir.attachmentモデルにリンクするリレーショナルフィールドを持つかど"
+"うかを示します"
+>>>>>>> upstream/18.0
 =======
 "このモデルがir.attachmentモデルにリンクするリレーショナルフィールドを持つかど"
 "うかを示します"
@@ -238,7 +335,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__all_max_size
 msgid "Largest Attachment (MB)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "最大添付ファイルサイズ (MB)"
+>>>>>>> upstream/18.0
 =======
 msgstr "最大添付ファイルサイズ (MB)"
 >>>>>>> upstream/18.0
@@ -247,7 +348,11 @@ msgstr "最大添付ファイルサイズ (MB)"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_res_config_settings__cloud_storage_migration_message_model_ids
 msgid "Message Attachments"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "メッセージ添付ファイル"
+>>>>>>> upstream/18.0
 =======
 msgstr "メッセージ添付ファイル"
 >>>>>>> upstream/18.0
@@ -256,7 +361,11 @@ msgstr "メッセージ添付ファイル"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__message_count
 msgid "Message Attachments Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "メッセージ添付ファイル数"
+>>>>>>> upstream/18.0
 =======
 msgstr "メッセージ添付ファイル数"
 >>>>>>> upstream/18.0
@@ -265,7 +374,11 @@ msgstr "メッセージ添付ファイル数"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__message_to_migrate
 msgid "Message Attachments Migration"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "メッセージ添付ファイルの移行"
+>>>>>>> upstream/18.0
 =======
 msgstr "メッセージ添付ファイルの移行"
 >>>>>>> upstream/18.0
@@ -274,7 +387,11 @@ msgstr "メッセージ添付ファイルの移行"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__message_sum_size
 msgid "Message Attachments Size (MB)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "メッセージ添付ファイルのサイズ (MB)"
+>>>>>>> upstream/18.0
 =======
 msgstr "メッセージ添付ファイルのサイズ (MB)"
 >>>>>>> upstream/18.0
@@ -283,7 +400,11 @@ msgstr "メッセージ添付ファイルのサイズ (MB)"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__message_max_size
 msgid "Message Largest Attachment (MB)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "メッセージの最大添付ファイルサイズ (MB)"
+>>>>>>> upstream/18.0
 =======
 msgstr "メッセージの最大添付ファイルサイズ (MB)"
 >>>>>>> upstream/18.0
@@ -292,7 +413,11 @@ msgstr "メッセージの最大添付ファイルサイズ (MB)"
 #: model:ir.actions.server,name:cloud_storage_migration.ir_cron_manual_migrate_local_to_cloud_storage_ir_actions_server
 msgid "Migrate Local Attachment Binaries to Cloud Storage"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ローカル添付バイナリをクラウドストレージに移行"
+>>>>>>> upstream/18.0
 =======
 msgstr "ローカル添付バイナリをクラウドストレージに移行"
 >>>>>>> upstream/18.0
@@ -301,7 +426,11 @@ msgstr "ローカル添付バイナリをクラウドストレージに移行"
 #: model:ir.model.fields,help:cloud_storage_migration.field_res_config_settings__cloud_storage_migration_all_model_ids
 msgid "Migrate Models' All Attachments"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "モデルのすべての添付ファイルを移行"
+>>>>>>> upstream/18.0
 =======
 msgstr "モデルのすべての添付ファイルを移行"
 >>>>>>> upstream/18.0
@@ -310,7 +439,11 @@ msgstr "モデルのすべての添付ファイルを移行"
 #: model:ir.model.fields,help:cloud_storage_migration.field_res_config_settings__cloud_storage_migration_message_model_ids
 msgid "Migrate Models' Message Attachments"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "モデルのメッセージ添付ファイルを移行"
+>>>>>>> upstream/18.0
 =======
 msgstr "モデルのメッセージ添付ファイルを移行"
 >>>>>>> upstream/18.0
@@ -319,7 +452,11 @@ msgstr "モデルのメッセージ添付ファイルを移行"
 #: model_terms:ir.ui.view,arch_db:cloud_storage_migration.cloud_storage_migration_config_settings_view_form
 msgid "Migrate local attachments to cloud storage"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ローカルの添付ファイルをクラウドストレージに移行"
+>>>>>>> upstream/18.0
 =======
 msgstr "ローカルの添付ファイルをクラウドストレージに移行"
 >>>>>>> upstream/18.0
@@ -328,7 +465,11 @@ msgstr "ローカルの添付ファイルをクラウドストレージに移行
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_res_config_settings__cloud_storage_migration_progress
 msgid "Migration Progress"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "移行の進捗状況"
+>>>>>>> upstream/18.0
 =======
 msgstr "移行の進捗状況"
 >>>>>>> upstream/18.0
@@ -337,7 +478,11 @@ msgstr "移行の進捗状況"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__res_model
 msgid "Model"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "モデル"
+>>>>>>> upstream/18.0
 =======
 msgstr "モデル"
 >>>>>>> upstream/18.0
@@ -346,7 +491,11 @@ msgstr "モデル"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__res_model_name
 msgid "Model Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "モデル名"
+>>>>>>> upstream/18.0
 =======
 msgstr "モデル名"
 >>>>>>> upstream/18.0
@@ -355,7 +504,11 @@ msgstr "モデル名"
 #: model_terms:ir.actions.act_window,help:cloud_storage_migration.action_cloud_storage_migration_report
 msgid "No attachment data found"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "添付データが見つかりませんでした"
+>>>>>>> upstream/18.0
 =======
 msgstr "添付データが見つかりませんでした"
 >>>>>>> upstream/18.0
@@ -365,7 +518,11 @@ msgstr "添付データが見つかりませんでした"
 #: code:addons/cloud_storage_migration/models/ir_attachment.py:0
 msgid "No model for cloud storage migration"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "クラウドストレージ移行のモデルなし"
+>>>>>>> upstream/18.0
 =======
 msgstr "クラウドストレージ移行のモデルなし"
 >>>>>>> upstream/18.0
@@ -374,7 +531,11 @@ msgstr "クラウドストレージ移行のモデルなし"
 #: model_terms:ir.ui.view,arch_db:cloud_storage_migration.cloud_storage_migration_config_settings_view_form
 msgid "Parameters"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "パラメータ"
+>>>>>>> upstream/18.0
 =======
 msgstr "パラメータ"
 >>>>>>> upstream/18.0
@@ -383,7 +544,11 @@ msgstr "パラメータ"
 #: model:ir.model.fields,help:cloud_storage_migration.field_res_config_settings__cloud_storage_migration_progress
 msgid "Shows the progress of cloud storage migration (current/total)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "クラウドストレージ移行の進捗状況(現在/合計)を表示します"
+>>>>>>> upstream/18.0
 =======
 msgstr "クラウドストレージ移行の進捗状況(現在/合計)を表示します"
 >>>>>>> upstream/18.0
@@ -395,6 +560,11 @@ msgid ""
 "this model"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"このモデルのレコードに関連付けられた最大の添付ファイルのサイズ(メガバイト単"
+"位)"
+>>>>>>> upstream/18.0
 =======
 "このモデルのレコードに関連付けられた最大の添付ファイルのサイズ(メガバイト単"
 "位)"
@@ -407,6 +577,11 @@ msgid ""
 " model"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"このモデルにおけるメールメッセージにリンクされた最大添付ファイルのサイズ"
+"(メガバイト単位)"
+>>>>>>> upstream/18.0
 =======
 "このモデルにおけるメールメッセージにリンクされた最大添付ファイルのサイズ"
 "(メガバイト単位)"
@@ -419,6 +594,11 @@ msgid ""
 "cloud storage."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"このレポートは、クラウドストレージに移行可能な添付ファイルに関する統計情報を"
+"示しています。"
+>>>>>>> upstream/18.0
 =======
 "このレポートは、クラウドストレージに移行可能な添付ファイルに関する統計情報を"
 "示しています。"
@@ -428,7 +608,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__all_count
 msgid "Total Attachments Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "添付ファイルの総数"
+>>>>>>> upstream/18.0
 =======
 msgstr "添付ファイルの総数"
 >>>>>>> upstream/18.0
@@ -437,7 +621,11 @@ msgstr "添付ファイルの総数"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__all_sum_size
 msgid "Total Attachments Size (MB)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "添付ファイルの合計サイズ (MB)"
+>>>>>>> upstream/18.0
 =======
 msgstr "添付ファイルの合計サイズ (MB)"
 >>>>>>> upstream/18.0
@@ -446,7 +634,11 @@ msgstr "添付ファイルの合計サイズ (MB)"
 #: model:ir.model.fields,help:cloud_storage_migration.field_cloud_storage_migration_report__all_count
 msgid "Total number of attachments associated with all records of this model"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "このモデルの全レコードに関連付けられた添付ファイルの総数"
+>>>>>>> upstream/18.0
 =======
 msgstr "このモデルの全レコードに関連付けられた添付ファイルの総数"
 >>>>>>> upstream/18.0
@@ -455,7 +647,11 @@ msgstr "このモデルの全レコードに関連付けられた添付ファイ
 #: model:ir.model.fields,help:cloud_storage_migration.field_cloud_storage_migration_report__message_count
 msgid "Total number of attachments linked to mail messages for this model"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "このモデルにおけるメールメッセージにリンクされた添付ファイルの総数"
+>>>>>>> upstream/18.0
 =======
 msgstr "このモデルにおけるメールメッセージにリンクされた添付ファイルの総数"
 >>>>>>> upstream/18.0
@@ -467,6 +663,11 @@ msgid ""
 "model"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"このモデルのレコードに関連付けられたすべての添付ファイルの合計サイズ"
+"(メガバイト単位)"
+>>>>>>> upstream/18.0
 =======
 "このモデルのレコードに関連付けられたすべての添付ファイルの合計サイズ"
 "(メガバイト単位)"
@@ -479,6 +680,11 @@ msgid ""
 "model"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"このモデルにおけるメールメッセージにリンクされたすべての添付ファイルの合計"
+"サイズ(メガバイト単位)"
+>>>>>>> upstream/18.0
 =======
 "このモデルにおけるメールメッセージにリンクされたすべての添付ファイルの合計"
 "サイズ(メガバイト単位)"

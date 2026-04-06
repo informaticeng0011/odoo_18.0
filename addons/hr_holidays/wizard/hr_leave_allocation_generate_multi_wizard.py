@@ -2,6 +2,11 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from datetime import date
+
+>>>>>>> upstream/18.0
 =======
 from datetime import date
 
@@ -106,7 +111,10 @@ class HrLeaveAllocationGenerateMultiWizard(models.TransientModel):
             ).create(vals_list)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             accrual_allocations = allocations.filtered(lambda a: a.allocation_type == 'accrual')
@@ -114,6 +122,9 @@ class HrLeaveAllocationGenerateMultiWizard(models.TransientModel):
                 date_to = min(date_to, date.today()) if date_to else False
                 allocation._process_accrual_plans(date_to)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

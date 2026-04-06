@@ -1,8 +1,14 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* cloud_storage_migration
 #
+=======
+# * cloud_storage_migration
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
 =======
 # * cloud_storage_migration
 #
@@ -14,6 +20,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "PO-Revision-Date: 2025-12-29 18:37+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -22,6 +29,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2026-03-29 12:21+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.odoo.com/projects/odoo-"
@@ -32,13 +41,20 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 5.16.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_res_config_settings__cloud_storage_migration_all_model_ids
 msgid "All Attachments"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Todos os anexos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Todos os anexos"
 >>>>>>> upstream/18.0
@@ -47,7 +63,11 @@ msgstr "Todos os anexos"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__all_to_migrate
 msgid "All Attachments Migration"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Migração de todos os anexos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Migração de todos os anexos"
 >>>>>>> upstream/18.0
@@ -56,7 +76,11 @@ msgstr "Migração de todos os anexos"
 #: model:ir.model,name:cloud_storage_migration.model_ir_attachment
 msgid "Attachment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Anexo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Anexo"
 >>>>>>> upstream/18.0
@@ -69,6 +93,11 @@ msgid ""
 "cloud storage."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"O anexo (%s) não tem um nome de arquivo armazenado e não pode ser migrado "
+"para o armazenamento em nuvem."
+>>>>>>> upstream/18.0
 =======
 "O anexo (%s) não tem um nome de arquivo armazenado e não pode ser migrado "
 "para o armazenamento em nuvem."
@@ -82,6 +111,11 @@ msgid ""
 "storage."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"O anexo (%s) não é um anexo binário e não pode ser migrado para o "
+"armazenamento em nuvem."
+>>>>>>> upstream/18.0
 =======
 "O anexo (%s) não é um anexo binário e não pode ser migrado para o "
 "armazenamento em nuvem."
@@ -91,7 +125,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:cloud_storage_migration.cloud_storage_migration_config_settings_view_form
 msgid "Attachments Report"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Relatório de anexos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Relatório de anexos"
 >>>>>>> upstream/18.0
@@ -100,7 +138,11 @@ msgstr "Relatório de anexos"
 #: model_terms:ir.ui.view,arch_db:cloud_storage_migration.cloud_storage_migration_config_settings_view_form
 msgid "Cloud Storage Migration"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Migração para armazenamento em nuvem"
+>>>>>>> upstream/18.0
 =======
 msgstr "Migração para armazenamento em nuvem"
 >>>>>>> upstream/18.0
@@ -109,7 +151,11 @@ msgstr "Migração para armazenamento em nuvem"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_res_config_settings__cloud_storage_migration_all_models
 msgid "Cloud Storage Migration All Models"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Migração para armazenamento em nuvem Todos os modelos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Migração para armazenamento em nuvem Todos os modelos"
 >>>>>>> upstream/18.0
@@ -118,7 +164,11 @@ msgstr "Migração para armazenamento em nuvem Todos os modelos"
 #: model:ir.actions.act_window,name:cloud_storage_migration.action_cloud_storage_migration_cron
 msgid "Cloud Storage Migration Cron"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Migração para armazenamento em nuvem Cron"
+>>>>>>> upstream/18.0
 =======
 msgstr "Migração para armazenamento em nuvem Cron"
 >>>>>>> upstream/18.0
@@ -127,7 +177,11 @@ msgstr "Migração para armazenamento em nuvem Cron"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_res_config_settings__cloud_storage_migration_message_models
 msgid "Cloud Storage Migration Message Models"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Modelos de mensagens de migração para armazenamento em nuvem"
+>>>>>>> upstream/18.0
 =======
 msgstr "Modelos de mensagens de migração para armazenamento em nuvem"
 >>>>>>> upstream/18.0
@@ -138,7 +192,11 @@ msgstr "Modelos de mensagens de migração para armazenamento em nuvem"
 #: model_terms:ir.ui.view,arch_db:cloud_storage_migration.view_cloud_storage_migration_report_list
 msgid "Cloud Storage Migration Report"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Relatório de migração para armazenamento em nuvem"
+>>>>>>> upstream/18.0
 =======
 msgstr "Relatório de migração para armazenamento em nuvem"
 >>>>>>> upstream/18.0
@@ -148,7 +206,11 @@ msgstr "Relatório de migração para armazenamento em nuvem"
 #: code:addons/cloud_storage_migration/models/ir_attachment.py:0
 msgid "Cloud storage provider is not configured"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O provedor de armazenamento em nuvem não está configurado"
+>>>>>>> upstream/18.0
 =======
 msgstr "O provedor de armazenamento em nuvem não está configurado"
 >>>>>>> upstream/18.0
@@ -157,7 +219,11 @@ msgstr "O provedor de armazenamento em nuvem não está configurado"
 #: model:ir.model,name:cloud_storage_migration.model_res_config_settings
 msgid "Config Settings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Configurações"
+>>>>>>> upstream/18.0
 =======
 msgstr "Configurações"
 >>>>>>> upstream/18.0
@@ -166,7 +232,11 @@ msgstr "Configurações"
 #: model_terms:ir.ui.view,arch_db:cloud_storage_migration.cloud_storage_migration_config_settings_view_form
 msgid "Cron Job"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tarefa Cron"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tarefa Cron"
 >>>>>>> upstream/18.0
@@ -175,7 +245,11 @@ msgstr "Tarefa Cron"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__display_name
 msgid "Display Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nome exibido"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nome exibido"
 >>>>>>> upstream/18.0
@@ -184,7 +258,11 @@ msgstr "Nome exibido"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__has_attachment_rel
 msgid "Has Attachment Field"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Possui campo de anexo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Possui campo de anexo"
 >>>>>>> upstream/18.0
@@ -193,7 +271,11 @@ msgstr "Possui campo de anexo"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__id
 msgid "ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID"
 >>>>>>> upstream/18.0
@@ -205,6 +287,11 @@ msgid ""
 "for cloud storage migration"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Indica se todos os anexos associados a este modelo estão programados para "
+"migração para armazenamento em nuvem"
+>>>>>>> upstream/18.0
 =======
 "Indica se todos os anexos associados a este modelo estão programados para "
 "migração para armazenamento em nuvem"
@@ -217,6 +304,11 @@ msgid ""
 "scheduled for cloud storage migration"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Indica se os anexos vinculados às mensagens de e-mail para este modelo estão "
+"programados para migração para o armazenamento em nuvem."
+>>>>>>> upstream/18.0
 =======
 "Indica se os anexos vinculados às mensagens de e-mail para este modelo estão "
 "programados para migração para o armazenamento em nuvem."
@@ -229,6 +321,11 @@ msgid ""
 " model"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Indica se este modelo possui um campo relacional vinculado ao modelo "
+"ir.attachment"
+>>>>>>> upstream/18.0
 =======
 "Indica se este modelo possui um campo relacional vinculado ao modelo "
 "ir.attachment"
@@ -238,7 +335,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__all_max_size
 msgid "Largest Attachment (MB)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Maior anexo (MB)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Maior anexo (MB)"
 >>>>>>> upstream/18.0
@@ -247,7 +348,11 @@ msgstr "Maior anexo (MB)"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_res_config_settings__cloud_storage_migration_message_model_ids
 msgid "Message Attachments"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Anexos de mensagens"
+>>>>>>> upstream/18.0
 =======
 msgstr "Anexos de mensagens"
 >>>>>>> upstream/18.0
@@ -256,7 +361,11 @@ msgstr "Anexos de mensagens"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__message_count
 msgid "Message Attachments Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Contagem de anexos de mensagens"
+>>>>>>> upstream/18.0
 =======
 msgstr "Contagem de anexos de mensagens"
 >>>>>>> upstream/18.0
@@ -265,7 +374,11 @@ msgstr "Contagem de anexos de mensagens"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__message_to_migrate
 msgid "Message Attachments Migration"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Migração de anexos de mensagens"
+>>>>>>> upstream/18.0
 =======
 msgstr "Migração de anexos de mensagens"
 >>>>>>> upstream/18.0
@@ -274,7 +387,11 @@ msgstr "Migração de anexos de mensagens"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__message_sum_size
 msgid "Message Attachments Size (MB)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tamanho dos anexos da mensagem (MB)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tamanho dos anexos da mensagem (MB)"
 >>>>>>> upstream/18.0
@@ -283,7 +400,11 @@ msgstr "Tamanho dos anexos da mensagem (MB)"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__message_max_size
 msgid "Message Largest Attachment (MB)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mensagem com anexo maior (MB)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mensagem com anexo maior (MB)"
 >>>>>>> upstream/18.0
@@ -292,7 +413,11 @@ msgstr "Mensagem com anexo maior (MB)"
 #: model:ir.actions.server,name:cloud_storage_migration.ir_cron_manual_migrate_local_to_cloud_storage_ir_actions_server
 msgid "Migrate Local Attachment Binaries to Cloud Storage"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Migrar binários de anexos locais para o armazenamento em nuvem"
+>>>>>>> upstream/18.0
 =======
 msgstr "Migrar binários de anexos locais para o armazenamento em nuvem"
 >>>>>>> upstream/18.0
@@ -301,7 +426,11 @@ msgstr "Migrar binários de anexos locais para o armazenamento em nuvem"
 #: model:ir.model.fields,help:cloud_storage_migration.field_res_config_settings__cloud_storage_migration_all_model_ids
 msgid "Migrate Models' All Attachments"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Migrar todos os anexos dos modelos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Migrar todos os anexos dos modelos"
 >>>>>>> upstream/18.0
@@ -310,7 +439,11 @@ msgstr "Migrar todos os anexos dos modelos"
 #: model:ir.model.fields,help:cloud_storage_migration.field_res_config_settings__cloud_storage_migration_message_model_ids
 msgid "Migrate Models' Message Attachments"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Migrar anexos de mensagens dos modelos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Migrar anexos de mensagens dos modelos"
 >>>>>>> upstream/18.0
@@ -319,7 +452,11 @@ msgstr "Migrar anexos de mensagens dos modelos"
 #: model_terms:ir.ui.view,arch_db:cloud_storage_migration.cloud_storage_migration_config_settings_view_form
 msgid "Migrate local attachments to cloud storage"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Migrar anexos locais para armazenamento em nuvem"
+>>>>>>> upstream/18.0
 =======
 msgstr "Migrar anexos locais para armazenamento em nuvem"
 >>>>>>> upstream/18.0
@@ -328,7 +465,11 @@ msgstr "Migrar anexos locais para armazenamento em nuvem"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_res_config_settings__cloud_storage_migration_progress
 msgid "Migration Progress"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Progresso da migração"
+>>>>>>> upstream/18.0
 =======
 msgstr "Progresso da migração"
 >>>>>>> upstream/18.0
@@ -337,7 +478,11 @@ msgstr "Progresso da migração"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__res_model
 msgid "Model"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Modelo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Modelo"
 >>>>>>> upstream/18.0
@@ -346,7 +491,11 @@ msgstr "Modelo"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__res_model_name
 msgid "Model Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nome do modelo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nome do modelo"
 >>>>>>> upstream/18.0
@@ -355,7 +504,11 @@ msgstr "Nome do modelo"
 #: model_terms:ir.actions.act_window,help:cloud_storage_migration.action_cloud_storage_migration_report
 msgid "No attachment data found"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não foram encontrados dados anexados"
+>>>>>>> upstream/18.0
 =======
 msgstr "Não foram encontrados dados anexados"
 >>>>>>> upstream/18.0
@@ -365,7 +518,11 @@ msgstr "Não foram encontrados dados anexados"
 #: code:addons/cloud_storage_migration/models/ir_attachment.py:0
 msgid "No model for cloud storage migration"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não há modelo para migração de armazenamento em nuvem"
+>>>>>>> upstream/18.0
 =======
 msgstr "Não há modelo para migração de armazenamento em nuvem"
 >>>>>>> upstream/18.0
@@ -374,7 +531,11 @@ msgstr "Não há modelo para migração de armazenamento em nuvem"
 #: model_terms:ir.ui.view,arch_db:cloud_storage_migration.cloud_storage_migration_config_settings_view_form
 msgid "Parameters"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Parâmetros"
+>>>>>>> upstream/18.0
 =======
 msgstr "Parâmetros"
 >>>>>>> upstream/18.0
@@ -383,7 +544,11 @@ msgstr "Parâmetros"
 #: model:ir.model.fields,help:cloud_storage_migration.field_res_config_settings__cloud_storage_migration_progress
 msgid "Shows the progress of cloud storage migration (current/total)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mostra o progresso da migração do armazenamento em nuvem (atual/total)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mostra o progresso da migração do armazenamento em nuvem (atual/total)"
 >>>>>>> upstream/18.0
@@ -395,6 +560,11 @@ msgid ""
 "this model"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Tamanho em megabytes do maior anexo associado a qualquer registro deste "
+"modelo"
+>>>>>>> upstream/18.0
 =======
 "Tamanho em megabytes do maior anexo associado a qualquer registro deste "
 "modelo"
@@ -407,6 +577,11 @@ msgid ""
 " model"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Tamanho em megabytes do maior anexo vinculado às mensagens de e-mail para "
+"este modelo"
+>>>>>>> upstream/18.0
 =======
 "Tamanho em megabytes do maior anexo vinculado às mensagens de e-mail para "
 "este modelo"
@@ -419,6 +594,11 @@ msgid ""
 "cloud storage."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Este relatório apresenta estatísticas sobre anexos que podem ser migrados "
+"para o armazenamento em nuvem."
+>>>>>>> upstream/18.0
 =======
 "Este relatório apresenta estatísticas sobre anexos que podem ser migrados "
 "para o armazenamento em nuvem."
@@ -428,7 +608,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__all_count
 msgid "Total Attachments Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Contagem total de anexos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Contagem total de anexos"
 >>>>>>> upstream/18.0
@@ -437,7 +621,11 @@ msgstr "Contagem total de anexos"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__all_sum_size
 msgid "Total Attachments Size (MB)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tamanho total dos anexos (MB)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tamanho total dos anexos (MB)"
 >>>>>>> upstream/18.0
@@ -446,7 +634,11 @@ msgstr "Tamanho total dos anexos (MB)"
 #: model:ir.model.fields,help:cloud_storage_migration.field_cloud_storage_migration_report__all_count
 msgid "Total number of attachments associated with all records of this model"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Número total de anexos associados a todos os registros deste modelo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Número total de anexos associados a todos os registros deste modelo"
 >>>>>>> upstream/18.0
@@ -456,6 +648,10 @@ msgstr "Número total de anexos associados a todos os registros deste modelo"
 msgid "Total number of attachments linked to mail messages for this model"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Número total de anexos vinculados a mensagens de e-mail para este modelo"
+>>>>>>> upstream/18.0
 =======
 "Número total de anexos vinculados a mensagens de e-mail para este modelo"
 >>>>>>> upstream/18.0
@@ -467,6 +663,11 @@ msgid ""
 "model"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Tamanho total em megabytes de todos os anexos associados aos registros deste "
+"modelo"
+>>>>>>> upstream/18.0
 =======
 "Tamanho total em megabytes de todos os anexos associados aos registros deste "
 "modelo"
@@ -479,6 +680,11 @@ msgid ""
 "model"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Tamanho total em megabytes de todos os anexos vinculados às mensagens de e-"
+"mail para este modelo"
+>>>>>>> upstream/18.0
 =======
 "Tamanho total em megabytes de todos os anexos vinculados às mensagens de e-"
 "mail para este modelo"

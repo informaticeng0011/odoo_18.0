@@ -1,8 +1,14 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* cloud_storage_migration
 #
+=======
+# * cloud_storage_migration
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
 =======
 # * cloud_storage_migration
 #
@@ -14,6 +20,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "PO-Revision-Date: 2025-12-29 18:37+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -22,6 +29,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2026-03-29 12:21+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: French <https://translate.odoo.com/projects/odoo-18/"
@@ -32,13 +41,20 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 5.16.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_res_config_settings__cloud_storage_migration_all_model_ids
 msgid "All Attachments"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Toutes les pièces jointes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Toutes les pièces jointes"
 >>>>>>> upstream/18.0
@@ -47,7 +63,11 @@ msgstr "Toutes les pièces jointes"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__all_to_migrate
 msgid "All Attachments Migration"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Migration de toutes les pièces jointes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Migration de toutes les pièces jointes"
 >>>>>>> upstream/18.0
@@ -56,7 +76,11 @@ msgstr "Migration de toutes les pièces jointes"
 #: model:ir.model,name:cloud_storage_migration.model_ir_attachment
 msgid "Attachment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pièce jointe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pièce jointe"
 >>>>>>> upstream/18.0
@@ -69,6 +93,11 @@ msgid ""
 "cloud storage."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"La pièce jointe (%s) n’a pas de nom de fichier enregistré et ne peut pas "
+"être migrée vers le stockage cloud."
+>>>>>>> upstream/18.0
 =======
 "La pièce jointe (%s) n’a pas de nom de fichier enregistré et ne peut pas "
 "être migrée vers le stockage cloud."
@@ -82,6 +111,11 @@ msgid ""
 "storage."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"La pièce jointe (%s) n’est pas une pièce jointe binaire et ne peut pas être "
+"migrée vers le stockage cloud."
+>>>>>>> upstream/18.0
 =======
 "La pièce jointe (%s) n’est pas une pièce jointe binaire et ne peut pas être "
 "migrée vers le stockage cloud."
@@ -91,7 +125,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:cloud_storage_migration.cloud_storage_migration_config_settings_view_form
 msgid "Attachments Report"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rapport des pièces jointes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rapport des pièces jointes"
 >>>>>>> upstream/18.0
@@ -100,7 +138,11 @@ msgstr "Rapport des pièces jointes"
 #: model_terms:ir.ui.view,arch_db:cloud_storage_migration.cloud_storage_migration_config_settings_view_form
 msgid "Cloud Storage Migration"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Migration vers le stockage cloud"
+>>>>>>> upstream/18.0
 =======
 msgstr "Migration vers le stockage cloud"
 >>>>>>> upstream/18.0
@@ -109,7 +151,11 @@ msgstr "Migration vers le stockage cloud"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_res_config_settings__cloud_storage_migration_all_models
 msgid "Cloud Storage Migration All Models"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Migration vers le stockage cloud - Tous les modèles"
+>>>>>>> upstream/18.0
 =======
 msgstr "Migration vers le stockage cloud - Tous les modèles"
 >>>>>>> upstream/18.0
@@ -118,7 +164,11 @@ msgstr "Migration vers le stockage cloud - Tous les modèles"
 #: model:ir.actions.act_window,name:cloud_storage_migration.action_cloud_storage_migration_cron
 msgid "Cloud Storage Migration Cron"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Migration vers le stockage cloud - Cron"
+>>>>>>> upstream/18.0
 =======
 msgstr "Migration vers le stockage cloud - Cron"
 >>>>>>> upstream/18.0
@@ -127,7 +177,11 @@ msgstr "Migration vers le stockage cloud - Cron"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_res_config_settings__cloud_storage_migration_message_models
 msgid "Cloud Storage Migration Message Models"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Migration vers le stockage cloud - Modèles de messages"
+>>>>>>> upstream/18.0
 =======
 msgstr "Migration vers le stockage cloud - Modèles de messages"
 >>>>>>> upstream/18.0
@@ -138,7 +192,11 @@ msgstr "Migration vers le stockage cloud - Modèles de messages"
 #: model_terms:ir.ui.view,arch_db:cloud_storage_migration.view_cloud_storage_migration_report_list
 msgid "Cloud Storage Migration Report"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rapport de migration vers le stockage cloud"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rapport de migration vers le stockage cloud"
 >>>>>>> upstream/18.0
@@ -148,7 +206,11 @@ msgstr "Rapport de migration vers le stockage cloud"
 #: code:addons/cloud_storage_migration/models/ir_attachment.py:0
 msgid "Cloud storage provider is not configured"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Le fournisseur de stockage cloud n’est pas configuré"
+>>>>>>> upstream/18.0
 =======
 msgstr "Le fournisseur de stockage cloud n’est pas configuré"
 >>>>>>> upstream/18.0
@@ -157,7 +219,11 @@ msgstr "Le fournisseur de stockage cloud n’est pas configuré"
 #: model:ir.model,name:cloud_storage_migration.model_res_config_settings
 msgid "Config Settings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Paramètres de configuration"
+>>>>>>> upstream/18.0
 =======
 msgstr "Paramètres de configuration"
 >>>>>>> upstream/18.0
@@ -166,7 +232,11 @@ msgstr "Paramètres de configuration"
 #: model_terms:ir.ui.view,arch_db:cloud_storage_migration.cloud_storage_migration_config_settings_view_form
 msgid "Cron Job"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tâche planifiée"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tâche planifiée"
 >>>>>>> upstream/18.0
@@ -175,7 +245,11 @@ msgstr "Tâche planifiée"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__display_name
 msgid "Display Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nom d'affichage"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nom d'affichage"
 >>>>>>> upstream/18.0
@@ -184,7 +258,11 @@ msgstr "Nom d'affichage"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__has_attachment_rel
 msgid "Has Attachment Field"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Possède un champ de pièce jointe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Possède un champ de pièce jointe"
 >>>>>>> upstream/18.0
@@ -193,7 +271,11 @@ msgstr "Possède un champ de pièce jointe"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__id
 msgid "ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID"
 >>>>>>> upstream/18.0
@@ -205,6 +287,11 @@ msgid ""
 "for cloud storage migration"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Indique si toutes les pièces jointes associées à ce modèle sont planifiées "
+"pour la migration vers le stockage cloud"
+>>>>>>> upstream/18.0
 =======
 "Indique si toutes les pièces jointes associées à ce modèle sont planifiées "
 "pour la migration vers le stockage cloud"
@@ -217,6 +304,11 @@ msgid ""
 "scheduled for cloud storage migration"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Indique si les pièces jointes liées aux messages e-mail pour ce modèle sont "
+"planifiées pour la migration vers le stockage cloud"
+>>>>>>> upstream/18.0
 =======
 "Indique si les pièces jointes liées aux messages e-mail pour ce modèle sont "
 "planifiées pour la migration vers le stockage cloud"
@@ -229,6 +321,10 @@ msgid ""
 " model"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Indique si ce modèle possède un champ relationnel lié au modèle ir.attachment"
+>>>>>>> upstream/18.0
 =======
 "Indique si ce modèle possède un champ relationnel lié au modèle ir.attachment"
 >>>>>>> upstream/18.0
@@ -237,7 +333,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__all_max_size
 msgid "Largest Attachment (MB)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pièce jointe la plus volumineuse (Mo)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pièce jointe la plus volumineuse (Mo)"
 >>>>>>> upstream/18.0
@@ -246,7 +346,11 @@ msgstr "Pièce jointe la plus volumineuse (Mo)"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_res_config_settings__cloud_storage_migration_message_model_ids
 msgid "Message Attachments"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pièces jointes des messages"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pièces jointes des messages"
 >>>>>>> upstream/18.0
@@ -255,7 +359,11 @@ msgstr "Pièces jointes des messages"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__message_count
 msgid "Message Attachments Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nombre de pièces jointes des messages"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nombre de pièces jointes des messages"
 >>>>>>> upstream/18.0
@@ -264,7 +372,11 @@ msgstr "Nombre de pièces jointes des messages"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__message_to_migrate
 msgid "Message Attachments Migration"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Migration des pièces jointes des messages"
+>>>>>>> upstream/18.0
 =======
 msgstr "Migration des pièces jointes des messages"
 >>>>>>> upstream/18.0
@@ -273,7 +385,11 @@ msgstr "Migration des pièces jointes des messages"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__message_sum_size
 msgid "Message Attachments Size (MB)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Taille des pièces jointes des messages (Mo)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Taille des pièces jointes des messages (Mo)"
 >>>>>>> upstream/18.0
@@ -282,7 +398,11 @@ msgstr "Taille des pièces jointes des messages (Mo)"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__message_max_size
 msgid "Message Largest Attachment (MB)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pièce jointe de message la plus volumineuse (Mo)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pièce jointe de message la plus volumineuse (Mo)"
 >>>>>>> upstream/18.0
@@ -292,6 +412,11 @@ msgstr "Pièce jointe de message la plus volumineuse (Mo)"
 msgid "Migrate Local Attachment Binaries to Cloud Storage"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Migrer les fichiers de pièces jointes locales (binaires) vers le stockage "
+"cloud"
+>>>>>>> upstream/18.0
 =======
 "Migrer les fichiers de pièces jointes locales (binaires) vers le stockage "
 "cloud"
@@ -301,7 +426,11 @@ msgstr ""
 #: model:ir.model.fields,help:cloud_storage_migration.field_res_config_settings__cloud_storage_migration_all_model_ids
 msgid "Migrate Models' All Attachments"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Migrer toutes les pièces jointes des modèles"
+>>>>>>> upstream/18.0
 =======
 msgstr "Migrer toutes les pièces jointes des modèles"
 >>>>>>> upstream/18.0
@@ -310,7 +439,11 @@ msgstr "Migrer toutes les pièces jointes des modèles"
 #: model:ir.model.fields,help:cloud_storage_migration.field_res_config_settings__cloud_storage_migration_message_model_ids
 msgid "Migrate Models' Message Attachments"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Migrer les pièces jointes des messages des modèles"
+>>>>>>> upstream/18.0
 =======
 msgstr "Migrer les pièces jointes des messages des modèles"
 >>>>>>> upstream/18.0
@@ -319,7 +452,11 @@ msgstr "Migrer les pièces jointes des messages des modèles"
 #: model_terms:ir.ui.view,arch_db:cloud_storage_migration.cloud_storage_migration_config_settings_view_form
 msgid "Migrate local attachments to cloud storage"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Migrer les pièces jointes locales vers le stockage cloud"
+>>>>>>> upstream/18.0
 =======
 msgstr "Migrer les pièces jointes locales vers le stockage cloud"
 >>>>>>> upstream/18.0
@@ -328,7 +465,11 @@ msgstr "Migrer les pièces jointes locales vers le stockage cloud"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_res_config_settings__cloud_storage_migration_progress
 msgid "Migration Progress"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Avancement de la migration"
+>>>>>>> upstream/18.0
 =======
 msgstr "Avancement de la migration"
 >>>>>>> upstream/18.0
@@ -337,7 +478,11 @@ msgstr "Avancement de la migration"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__res_model
 msgid "Model"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Modèle"
+>>>>>>> upstream/18.0
 =======
 msgstr "Modèle"
 >>>>>>> upstream/18.0
@@ -346,7 +491,11 @@ msgstr "Modèle"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__res_model_name
 msgid "Model Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nom de modèle"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nom de modèle"
 >>>>>>> upstream/18.0
@@ -355,7 +504,11 @@ msgstr "Nom de modèle"
 #: model_terms:ir.actions.act_window,help:cloud_storage_migration.action_cloud_storage_migration_report
 msgid "No attachment data found"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aucune donnée de pièce jointe trouvée"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aucune donnée de pièce jointe trouvée"
 >>>>>>> upstream/18.0
@@ -365,7 +518,11 @@ msgstr "Aucune donnée de pièce jointe trouvée"
 #: code:addons/cloud_storage_migration/models/ir_attachment.py:0
 msgid "No model for cloud storage migration"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aucun modèle pour la migration vers le stockage cloud"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aucun modèle pour la migration vers le stockage cloud"
 >>>>>>> upstream/18.0
@@ -374,7 +531,11 @@ msgstr "Aucun modèle pour la migration vers le stockage cloud"
 #: model_terms:ir.ui.view,arch_db:cloud_storage_migration.cloud_storage_migration_config_settings_view_form
 msgid "Parameters"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Paramètres"
+>>>>>>> upstream/18.0
 =======
 msgstr "Paramètres"
 >>>>>>> upstream/18.0
@@ -384,6 +545,10 @@ msgstr "Paramètres"
 msgid "Shows the progress of cloud storage migration (current/total)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Affiche l’avancement de la migration vers le stockage cloud (actuel/total)"
+>>>>>>> upstream/18.0
 =======
 "Affiche l’avancement de la migration vers le stockage cloud (actuel/total)"
 >>>>>>> upstream/18.0
@@ -395,6 +560,11 @@ msgid ""
 "this model"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Taille en mégaoctets de la pièce jointe la plus volumineuse associée à un "
+"enregistrement de ce modèle"
+>>>>>>> upstream/18.0
 =======
 "Taille en mégaoctets de la pièce jointe la plus volumineuse associée à un "
 "enregistrement de ce modèle"
@@ -407,6 +577,11 @@ msgid ""
 " model"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Taille en mégaoctets de la pièce jointe la plus volumineuse liée aux "
+"messages e-mail pour ce modèle"
+>>>>>>> upstream/18.0
 =======
 "Taille en mégaoctets de la pièce jointe la plus volumineuse liée aux "
 "messages e-mail pour ce modèle"
@@ -419,6 +594,11 @@ msgid ""
 "cloud storage."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ce rapport affiche des statistiques sur les pièces jointes pouvant être "
+"migrées vers le stockage cloud."
+>>>>>>> upstream/18.0
 =======
 "Ce rapport affiche des statistiques sur les pièces jointes pouvant être "
 "migrées vers le stockage cloud."
@@ -428,7 +608,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__all_count
 msgid "Total Attachments Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nombre total de pièces jointes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nombre total de pièces jointes"
 >>>>>>> upstream/18.0
@@ -437,7 +621,11 @@ msgstr "Nombre total de pièces jointes"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__all_sum_size
 msgid "Total Attachments Size (MB)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Taille totale des pièces jointes (Mo)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Taille totale des pièces jointes (Mo)"
 >>>>>>> upstream/18.0
@@ -447,6 +635,11 @@ msgstr "Taille totale des pièces jointes (Mo)"
 msgid "Total number of attachments associated with all records of this model"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nombre total de pièces jointes associées à tous les enregistrements de ce "
+"modèle"
+>>>>>>> upstream/18.0
 =======
 "Nombre total de pièces jointes associées à tous les enregistrements de ce "
 "modèle"
@@ -456,7 +649,11 @@ msgstr ""
 #: model:ir.model.fields,help:cloud_storage_migration.field_cloud_storage_migration_report__message_count
 msgid "Total number of attachments linked to mail messages for this model"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nombre total de pièces jointes liées aux messages e-mail pour ce modèle"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nombre total de pièces jointes liées aux messages e-mail pour ce modèle"
 >>>>>>> upstream/18.0
@@ -468,6 +665,11 @@ msgid ""
 "model"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Taille totale en mégaoctets de toutes les pièces jointes associées aux "
+"enregistrements de ce modèle"
+>>>>>>> upstream/18.0
 =======
 "Taille totale en mégaoctets de toutes les pièces jointes associées aux "
 "enregistrements de ce modèle"
@@ -480,6 +682,11 @@ msgid ""
 "model"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Taille totale en mégaoctets de toutes les pièces jointes liées aux messages "
+"e-mail pour ce modèle"
+>>>>>>> upstream/18.0
 =======
 "Taille totale en mégaoctets de toutes les pièces jointes liées aux messages "
 "e-mail pour ce modèle"

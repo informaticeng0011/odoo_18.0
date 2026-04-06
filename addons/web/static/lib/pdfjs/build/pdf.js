@@ -120,7 +120,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * Copyright 2023 Mozilla Foundation
+=======
+ * Copyright 2024 Mozilla Foundation
+>>>>>>> upstream/18.0
 =======
  * Copyright 2024 Mozilla Foundation
 >>>>>>> upstream/18.0
@@ -643,7 +647,10 @@ __webpack_require__.d(__webpack_exports__, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   CMapCompressionType: () => (/* reexport */ CMapCompressionType),
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1007,7 +1014,11 @@ __webpack_require__.d(__webpack_exports__, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   Outliner: () => (/* reexport */ Outliner),
+=======
+  OutputScale: () => (/* reexport */ OutputScale),
+>>>>>>> upstream/18.0
 =======
   OutputScale: () => (/* reexport */ OutputScale),
 >>>>>>> upstream/18.0
@@ -1503,6 +1514,7 @@ __webpack_require__.d(__webpack_exports__, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   renderTextLayer: () => (/* reexport */ renderTextLayer),
   setLayerDimensions: () => (/* reexport */ setLayerDimensions),
   shadow: () => (/* reexport */ shadow),
@@ -1512,6 +1524,8 @@ __webpack_require__.d(__webpack_exports__, {
 
 ;// CONCATENATED MODULE: ./src/shared/util.js
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1869,6 +1883,9 @@ __webpack_require__.d(__webpack_exports__, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2237,6 +2254,10 @@ const RenderingIntentFlag = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  IS_EDITING: 0x80,
+>>>>>>> upstream/18.0
 =======
   IS_EDITING: 0x80,
 >>>>>>> upstream/18.0
@@ -2872,10 +2893,13 @@ const VerbosityLevel = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const CMapCompressionType = {
   NONE: 0,
   BINARY: 1
 };
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3318,7 +3342,13 @@ const OPS = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   constructPath: 91
+=======
+  constructPath: 91,
+  setStrokeTransparent: 92,
+  setFillTransparent: 93
+>>>>>>> upstream/18.0
 =======
   constructPath: 91,
   setStrokeTransparent: 92,
@@ -4107,9 +4137,12 @@ const BaseException = function BaseExceptionClosure() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (this.constructor === BaseException) {
       unreachable("Cannot initialize BaseException.");
     }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4556,8 +4589,13 @@ function isLittleEndian() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Odoo: don't support scripting
 function isEvalSupported() {
+=======
+function isEvalSupported() {
+  // Odoo: don't support scripting
+>>>>>>> upstream/18.0
 =======
 function isEvalSupported() {
   // Odoo: don't support scripting
@@ -5163,12 +5201,15 @@ class util_FeatureTest {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         isMac: navigator.platform.includes("Mac")
       });
     }
     return shadow(this, "platform", {
       isMac: false
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5529,6 +5570,9 @@ class util_FeatureTest {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6144,6 +6188,7 @@ const FontRenderOps = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ;// CONCATENATED MODULE: ./src/display/base_factory.js
 
@@ -6534,6 +6579,8 @@ class BaseSVGFactory {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 function toHexUtil(arr) {
   if (Uint8Array.prototype.toHex) {
     return arr.toHex();
@@ -6671,6 +6718,9 @@ function fromBase64Util(str) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6913,6 +6963,7 @@ class PixelsPerInch {
   static PDF = 72.0;
   static PDF_TO_CSS_UNITS = this.CSS / this.PDF;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7582,6 +7633,8 @@ class DOMCanvasFactory extends BaseCanvasFactory {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 async function fetchData(url, type = "text") {
   if (isValidFetchUrl(url, document.baseURI)) {
     const response = await fetch(url);
@@ -7740,6 +7793,7 @@ async function fetchData(url, type = "text") {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class DOMCMapReaderFactory extends BaseCMapReaderFactory {
   _fetchData(url, compressionType) {
     return fetchData(url, this.isCompressed ? "arraybuffer" : "text").then(data => ({
@@ -7758,6 +7812,8 @@ class DOMSVGFactory extends BaseSVGFactory {
     return document.createElementNS(SVG_NS, type);
   }
 }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8318,8 +8374,13 @@ function deprecated(details) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 let pdfDateStringRegex;
 class PDFDateString {
+=======
+class PDFDateString {
+  static #regex;
+>>>>>>> upstream/18.0
 =======
 class PDFDateString {
   static #regex;
@@ -8914,8 +8975,13 @@ class PDFDateString {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     pdfDateStringRegex ||= new RegExp("^D:" + "(\\d{4})" + "(\\d{2})?" + "(\\d{2})?" + "(\\d{2})?" + "(\\d{2})?" + "(\\d{2})?" + "([Z|+|-])?" + "(\\d{2})?" + "'?" + "(\\d{2})?" + "'?");
     const matches = pdfDateStringRegex.exec(input);
+=======
+    this.#regex ||= new RegExp("^D:" + "(\\d{4})" + "(\\d{2})?" + "(\\d{2})?" + "(\\d{2})?" + "(\\d{2})?" + "(\\d{2})?" + "([Z|+|-])?" + "(\\d{2})?" + "'?" + "(\\d{2})?" + "'?");
+    const matches = this.#regex.exec(input);
+>>>>>>> upstream/18.0
 =======
     this.#regex ||= new RegExp("^D:" + "(\\d{4})" + "(\\d{2})?" + "(\\d{2})?" + "(\\d{2})?" + "(\\d{2})?" + "(\\d{2})?" + "([Z|+|-])?" + "(\\d{2})?" + "'?" + "(\\d{2})?" + "'?");
     const matches = this.#regex.exec(input);
@@ -9609,8 +9675,13 @@ function setLayerDimensions(div, viewport, mustFlip = false, mustRotate = true) 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const widthStr = useRound ? `round(${w}, 1px)` : `calc(${w})`,
       heightStr = useRound ? `round(${h}, 1px)` : `calc(${h})`;
+=======
+    const widthStr = useRound ? `round(down, ${w}, var(--scale-round-x, 1px))` : `calc(${w})`,
+      heightStr = useRound ? `round(down, ${h}, var(--scale-round-y, 1px))` : `calc(${h})`;
+>>>>>>> upstream/18.0
 =======
     const widthStr = useRound ? `round(down, ${w}, var(--scale-round-x, 1px))` : `calc(${w})`,
       heightStr = useRound ? `round(down, ${h}, var(--scale-round-y, 1px))` : `calc(${h})`;
@@ -10213,9 +10284,12 @@ function setLayerDimensions(div, viewport, mustFlip = false, mustRotate = true) 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ;// CONCATENATED MODULE: ./src/display/editor/toolbar.js
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10582,6 +10656,9 @@ class OutputScale {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10941,6 +11018,7 @@ class EditorToolbar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   constructor(editor) {
     this.#editor = editor;
   }
@@ -10951,6 +11029,8 @@ class EditorToolbar {
     editToolbar.addEventListener("contextmenu", noContextMenu);
     editToolbar.addEventListener("pointerdown", EditorToolbar.#pointerDown);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11324,6 +11404,9 @@ class EditorToolbar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11692,6 +11775,12 @@ class EditorToolbar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  get div() {
+    return this.#toolbar;
+  }
+>>>>>>> upstream/18.0
 =======
   get div() {
     return this.#toolbar;
@@ -12414,6 +12503,7 @@ class EditorToolbar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     element.addEventListener("focusin", this.#focusIn.bind(this), {
       capture: true
     });
@@ -12422,6 +12512,8 @@ class EditorToolbar {
     });
     element.addEventListener("contextmenu", noContextMenu);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12785,6 +12877,9 @@ class EditorToolbar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13145,6 +13240,7 @@ class EditorToolbar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   }
   #addDeleteButton() {
     const button = document.createElement("button");
@@ -13155,6 +13251,8 @@ class EditorToolbar {
     button.addEventListener("click", e => {
       this.#editor._uiManager.delete();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13522,6 +13620,9 @@ class EditorToolbar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13883,10 +13984,13 @@ class EditorToolbar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   addAltTextButton(button) {
     this.#addListenersToElement(button);
     this.#buttons.prepend(button, this.#divider);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14243,6 +14347,9 @@ class EditorToolbar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14620,7 +14727,13 @@ class HighlightToolbar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     editToolbar.addEventListener("contextmenu", noContextMenu);
+=======
+    editToolbar.addEventListener("contextmenu", noContextMenu, {
+      signal: this.#uiManager._signal
+    });
+>>>>>>> upstream/18.0
 =======
     editToolbar.addEventListener("contextmenu", noContextMenu, {
       signal: this.#uiManager._signal
@@ -15380,10 +15493,13 @@ class HighlightToolbar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     button.addEventListener("contextmenu", noContextMenu);
     button.addEventListener("click", () => {
       this.#uiManager.highlightSelection("floating_button");
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15743,6 +15859,9 @@ class HighlightToolbar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16101,7 +16220,11 @@ class HighlightToolbar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/editor/tools.js
+=======
+;// ./src/display/editor/tools.js
+>>>>>>> upstream/18.0
 =======
 ;// ./src/display/editor/tools.js
 >>>>>>> upstream/18.0
@@ -16598,7 +16721,13 @@ class ImageManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const ctx = canvas.getContext("2d");
+=======
+    const ctx = canvas.getContext("2d", {
+      willReadFrequently: true
+    });
+>>>>>>> upstream/18.0
 =======
     const ctx = canvas.getContext("2d", {
       willReadFrequently: true
@@ -17336,9 +17465,12 @@ class ImageManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       } else {
         image = data.file = rawData;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17694,6 +17826,9 @@ class ImageManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18092,7 +18227,10 @@ class ImageManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18448,6 +18586,9 @@ class ImageManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18814,9 +18955,12 @@ class ImageManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return this.getFromUrl(data.url);
   }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19197,6 +19341,9 @@ class ImageManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19567,7 +19714,10 @@ class ImageManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19929,6 +20079,9 @@ class ImageManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20479,6 +20632,10 @@ class AnnotationEditorUIManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  #abortController = new AbortController();
+>>>>>>> upstream/18.0
 =======
   #abortController = new AbortController();
 >>>>>>> upstream/18.0
@@ -20958,6 +21115,10 @@ class AnnotationEditorUIManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  #copyPasteAC = null;
+>>>>>>> upstream/18.0
 =======
   #copyPasteAC = null;
 >>>>>>> upstream/18.0
@@ -21436,9 +21597,12 @@ class AnnotationEditorUIManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   #filterFactory = null;
   #focusMainContainerTimeoutId = null;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21795,6 +21959,9 @@ class AnnotationEditorUIManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22154,6 +22321,10 @@ class AnnotationEditorUIManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  #keyboardManagerAC = null;
+>>>>>>> upstream/18.0
 =======
   #keyboardManagerAC = null;
 >>>>>>> upstream/18.0
@@ -22634,6 +22805,7 @@ class AnnotationEditorUIManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   #boundBlur = this.blur.bind(this);
   #boundFocus = this.focus.bind(this);
   #boundCopy = this.copy.bind(this);
@@ -22646,6 +22818,8 @@ class AnnotationEditorUIManager {
   #boundOnScaleChanging = this.onScaleChanging.bind(this);
   #boundSelectionChange = this.#selectionChange.bind(this);
   #boundOnRotationChanging = this.onRotationChanging.bind(this);
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23012,6 +23186,10 @@ class AnnotationEditorUIManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  #updateModeCapability = null;
+>>>>>>> upstream/18.0
 =======
   #updateModeCapability = null;
 >>>>>>> upstream/18.0
@@ -23544,7 +23722,12 @@ class AnnotationEditorUIManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   constructor(container, viewer, altTextManager, eventBus, pdfDocument, pageColors, highlightColors, enableHighlightFloatingButton, mlManager) {
+=======
+  constructor(container, viewer, altTextManager, eventBus, pdfDocument, pageColors, highlightColors, enableHighlightFloatingButton, enableUpdatedAddImage, enableNewAltTextWhenAddingImage, mlManager) {
+    const signal = this._signal = this.#abortController.signal;
+>>>>>>> upstream/18.0
 =======
   constructor(container, viewer, altTextManager, eventBus, pdfDocument, pageColors, highlightColors, enableHighlightFloatingButton, enableUpdatedAddImage, enableNewAltTextWhenAddingImage, mlManager) {
     const signal = this._signal = this.#abortController.signal;
@@ -24139,12 +24322,15 @@ class AnnotationEditorUIManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this._eventBus._on("editingaction", this.#boundOnEditingAction);
     this._eventBus._on("pagechanging", this.#boundOnPageChanging);
     this._eventBus._on("scalechanging", this.#boundOnScaleChanging);
     this._eventBus._on("rotationchanging", this.#boundOnRotationChanging);
     this.#addSelectionListener();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24516,6 +24702,9 @@ class AnnotationEditorUIManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24875,6 +25064,11 @@ class AnnotationEditorUIManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    this.#enableUpdatedAddImage = enableUpdatedAddImage;
+    this.#enableNewAltTextWhenAddingImage = enableNewAltTextWhenAddingImage;
+>>>>>>> upstream/18.0
 =======
     this.#enableUpdatedAddImage = enableUpdatedAddImage;
     this.#enableNewAltTextWhenAddingImage = enableNewAltTextWhenAddingImage;
@@ -25473,6 +25667,7 @@ class AnnotationEditorUIManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.#removeKeyboardManager();
     this.#removeFocusManager();
     this._eventBus._off("editingaction", this.#boundOnEditingAction);
@@ -25480,6 +25675,8 @@ class AnnotationEditorUIManager {
     this._eventBus._off("scalechanging", this.#boundOnScaleChanging);
     this._eventBus._off("rotationchanging", this.#boundOnRotationChanging);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25836,6 +26033,9 @@ class AnnotationEditorUIManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26209,6 +26409,7 @@ class AnnotationEditorUIManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.#removeSelectionListener();
   }
   async mlGuess(data) {
@@ -26217,6 +26418,8 @@ class AnnotationEditorUIManager {
   get hasMLManager() {
     return !!this.#mlManager;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26580,6 +26783,9 @@ class AnnotationEditorUIManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26949,9 +27155,12 @@ class AnnotationEditorUIManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   editAltText(editor) {
     this.#altTextManager?.editAltText(this, editor);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -27332,6 +27541,9 @@ class AnnotationEditorUIManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27737,7 +27949,10 @@ class AnnotationEditorUIManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -28103,6 +28318,9 @@ class AnnotationEditorUIManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -28357,6 +28575,7 @@ class AnnotationEditorUIManager {
       return;
     }
     selection.empty();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28734,6 +28953,8 @@ class AnnotationEditorUIManager {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     const layer = this.#getLayerForTextLayer(textLayer);
     const isNoneMode = this.#mode === AnnotationEditorType.NONE;
     const callback = () => {
@@ -28875,6 +29096,9 @@ class AnnotationEditorUIManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -29291,7 +29515,10 @@ class AnnotationEditorUIManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -29647,6 +29874,9 @@ class AnnotationEditorUIManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -30004,8 +30234,13 @@ class AnnotationEditorUIManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         window.removeEventListener("pointerup", pointerup);
         window.removeEventListener("blur", pointerup);
+=======
+        ac.abort();
+        activeLayer?.toggleDrawing(true);
+>>>>>>> upstream/18.0
 =======
         ac.abort();
         activeLayer?.toggleDrawing(true);
@@ -30600,9 +30835,12 @@ class AnnotationEditorUIManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       window.addEventListener("pointerup", pointerup);
       window.addEventListener("blur", pointerup);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -30960,6 +31198,9 @@ class AnnotationEditorUIManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -31323,6 +31564,7 @@ class AnnotationEditorUIManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     document.addEventListener("selectionchange", this.#boundSelectionChange);
   }
   #removeSelectionListener() {
@@ -31336,6 +31578,8 @@ class AnnotationEditorUIManager {
     window.removeEventListener("focus", this.#boundFocus);
     window.removeEventListener("blur", this.#boundBlur);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -31707,6 +31951,9 @@ class AnnotationEditorUIManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -32090,7 +32337,12 @@ class AnnotationEditorUIManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       once: true
+=======
+      once: true,
+      signal: this._signal
+>>>>>>> upstream/18.0
 =======
       once: true,
       signal: this._signal
@@ -32685,6 +32937,7 @@ class AnnotationEditorUIManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     window.addEventListener("keydown", this.#boundKeydown);
     window.addEventListener("keyup", this.#boundKeyup);
   }
@@ -32702,6 +32955,8 @@ class AnnotationEditorUIManager {
     document.removeEventListener("cut", this.#boundCut);
     document.removeEventListener("paste", this.#boundPaste);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -33097,6 +33352,9 @@ class AnnotationEditorUIManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -33459,7 +33717,10 @@ class AnnotationEditorUIManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -33835,6 +34096,9 @@ class AnnotationEditorUIManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -34210,7 +34474,11 @@ class AnnotationEditorUIManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   paste(event) {
+=======
+  async paste(event) {
+>>>>>>> upstream/18.0
 =======
   async paste(event) {
 >>>>>>> upstream/18.0
@@ -34713,7 +34981,11 @@ class AnnotationEditorUIManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const deserializedEditor = layer.deserialize(editor);
+=======
+        const deserializedEditor = await layer.deserialize(editor);
+>>>>>>> upstream/18.0
 =======
         const deserializedEditor = await layer.deserialize(editor);
 >>>>>>> upstream/18.0
@@ -35313,11 +35585,14 @@ class AnnotationEditorUIManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   updateMode(mode, editId = null, isFromKeyboard = false) {
     if (this.#mode === mode) {
       return;
     }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -35680,6 +35955,9 @@ class AnnotationEditorUIManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -36037,11 +36315,14 @@ class AnnotationEditorUIManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       return;
     }
     this.setEditingState(true);
     this.#enableAll();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -36398,6 +36679,9 @@ class AnnotationEditorUIManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -36637,6 +36921,7 @@ class AnnotationEditorUIManager {
     for (const layer of this.#allLayers.values()) {
       layer.updateMode(mode);
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -36995,6 +37280,8 @@ class AnnotationEditorUIManager {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     if (!editId) {
       if (isFromKeyboard) {
         this.addNewEditorFromKeyboard();
@@ -37117,6 +37404,9 @@ class AnnotationEditorUIManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -37476,10 +37766,13 @@ class AnnotationEditorUIManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         break;
       }
     }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -37836,6 +38129,9 @@ class AnnotationEditorUIManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -38262,6 +38558,7 @@ class AnnotationEditorUIManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   #enableAll() {
     if (!this.#isEnabled) {
       this.#isEnabled = true;
@@ -38269,6 +38566,8 @@ class AnnotationEditorUIManager {
         layer.enable();
       }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -38628,6 +38927,9 @@ class AnnotationEditorUIManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -39471,6 +39773,7 @@ class AnnotationEditorUIManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/editor/alt_text.js
 
 class AltText {
@@ -39488,6 +39791,8 @@ class AltText {
   static initialize(l10nPromise) {
     AltText._l10nPromise ||= l10nPromise;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -39870,6 +40175,9 @@ class AltText {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -40227,6 +40535,7 @@ class AltText {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const msg = await AltText._l10nPromise.get("pdfjs-editor-alt-text-button-label");
     altText.textContent = msg;
     altText.setAttribute("aria-label", msg);
@@ -40240,6 +40549,8 @@ class AltText {
     altText.addEventListener("click", onClick, {
       capture: true
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -40624,6 +40935,9 @@ class AltText {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -40983,6 +41297,11 @@ class AltText {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    }, {
+      signal
+>>>>>>> upstream/18.0
 =======
     }, {
       signal
@@ -41577,6 +41896,12 @@ class AltText {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  get #label() {
+    return this.#altText && "added" || this.#altText === null && this.guessedText && "review" || "missing";
+  }
+>>>>>>> upstream/18.0
 =======
   get #label() {
     return this.#altText && "added" || this.#altText === null && this.guessedText && "review" || "missing";
@@ -42295,9 +42620,12 @@ class AltText {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return !this.#altText && !this.#altTextDecorative;
   }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -42698,6 +43026,9 @@ class AltText {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -43059,6 +43390,7 @@ class AltText {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     decorative
   }) {
     if (this.#altText === altText && this.#altTextDecorative === decorative) {
@@ -43067,6 +43399,8 @@ class AltText {
     this.#altText = altText;
     this.#altTextDecorative = decorative;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -43434,6 +43768,9 @@ class AltText {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -43799,11 +44136,14 @@ class AltText {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   destroy() {
     this.#altTextButton?.remove();
     this.#altTextButton = null;
     this.#altTextTooltip = null;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -44170,6 +44510,9 @@ class AltText {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -44529,6 +44872,7 @@ class AltText {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (!this.#altText && !this.#altTextDecorative) {
       button.classList.remove("done");
       this.#altTextTooltip?.remove();
@@ -44539,6 +44883,8 @@ class AltText {
       button.setAttribute("aria-label", msg);
     });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -44907,6 +45253,9 @@ class AltText {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -45265,10 +45614,13 @@ class AltText {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       const id = tooltip.id = `alt-text-tooltip-${this.#editor.id}`;
       button.setAttribute("aria-describedby", id);
       const DELAY_TO_SHOW_TOOLTIP = 100;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -45629,6 +45981,9 @@ class AltText {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -45990,6 +46345,11 @@ class AltText {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      }, {
+        signal
+>>>>>>> upstream/18.0
 =======
       }, {
         signal
@@ -46587,10 +46947,13 @@ class AltText {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       });
     }
     tooltip.innerText = this.#altTextDecorative ? await AltText._l10nPromise.get("pdfjs-editor-alt-text-decorative-tooltip") : this.#altText;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -46952,6 +47315,9 @@ class AltText {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -47313,7 +47679,11 @@ class AltText {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/editor/editor.js
+=======
+;// ./src/display/editor/editor.js
+>>>>>>> upstream/18.0
 =======
 ;// ./src/display/editor/editor.js
 >>>>>>> upstream/18.0
@@ -47792,6 +48162,10 @@ class AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  #accessibilityData = null;
+>>>>>>> upstream/18.0
 =======
   #accessibilityData = null;
 >>>>>>> upstream/18.0
@@ -48270,9 +48644,13 @@ class AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   #boundFocusin = this.focusin.bind(this);
   #boundFocusout = this.focusout.bind(this);
   #editToolbar = null;
+=======
+  #focusAC = null;
+>>>>>>> upstream/18.0
 =======
   #focusAC = null;
 >>>>>>> upstream/18.0
@@ -48755,12 +49133,15 @@ class AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   _initialOptions = Object.create(null);
   _isVisible = true;
   _uiManager = null;
   _focusEventsAllowed = true;
   _l10nPromise = null;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -49120,6 +49501,9 @@ class AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -49502,9 +49886,12 @@ class AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (this.constructor === AnnotationEditor) {
       unreachable("Cannot initialize AnnotationEditor.");
     }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -49905,6 +50292,7 @@ class AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   static initialize(l10n, _uiManager, options) {
     AnnotationEditor._l10nPromise ||= new Map(["pdfjs-editor-alt-text-button-label", "pdfjs-editor-alt-text-edit-button-label", "pdfjs-editor-alt-text-decorative-tooltip", "pdfjs-editor-resizer-label-topLeft", "pdfjs-editor-resizer-label-topMiddle", "pdfjs-editor-resizer-label-topRight", "pdfjs-editor-resizer-label-middleRight", "pdfjs-editor-resizer-label-bottomRight", "pdfjs-editor-resizer-label-bottomMiddle", "pdfjs-editor-resizer-label-bottomLeft", "pdfjs-editor-resizer-label-middleLeft"].map(str => [str, l10n.get(str.replaceAll(/([A-Z])/g, c => `-${c.toLowerCase()}`))]));
     if (options?.strings) {
@@ -49913,6 +50301,8 @@ class AnnotationEditor {
       }
     }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -50276,6 +50666,9 @@ class AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -50906,9 +51299,13 @@ class AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const scaledWidth = pageWidth * parentScale;
     const scaledHeight = pageHeight * parentScale;
     return util_FeatureTest.isCSSRoundSupported ? [Math.round(scaledWidth), Math.round(scaledHeight)] : [scaledWidth, scaledHeight];
+=======
+    return [pageWidth * parentScale, pageHeight * parentScale];
+>>>>>>> upstream/18.0
 =======
     return [pageWidth * parentScale, pageHeight * parentScale];
 >>>>>>> upstream/18.0
@@ -51420,6 +51817,10 @@ class AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    const signal = this._uiManager._signal;
+>>>>>>> upstream/18.0
 =======
     const signal = this._uiManager._signal;
 >>>>>>> upstream/18.0
@@ -51897,9 +52298,12 @@ class AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       div.addEventListener("pointerdown", this.#resizerPointerdown.bind(this, name));
       div.addEventListener("contextmenu", noContextMenu);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -52257,6 +52661,9 @@ class AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -52623,6 +53030,7 @@ class AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const boundResizerPointermove = this.#resizerPointermove.bind(this, name);
     const savedDraggable = this._isDraggable;
     this._isDraggable = false;
@@ -52634,6 +53042,8 @@ class AnnotationEditor {
     window.addEventListener("pointermove", boundResizerPointermove, pointerMoveOptions);
     window.addEventListener("contextmenu", noContextMenu);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -52998,6 +53408,9 @@ class AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -53359,6 +53772,7 @@ class AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       this.parent.togglePointerEvents(true);
       this.#altText?.toggle(true);
       this._isDraggable = savedDraggable;
@@ -53367,6 +53781,8 @@ class AnnotationEditor {
       window.removeEventListener("pointermove", boundResizerPointermove, pointerMoveOptions);
       window.removeEventListener("contextmenu", noContextMenu);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -53722,6 +54138,9 @@ class AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -54079,9 +54498,12 @@ class AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     window.addEventListener("pointerup", pointerUpCallback);
     window.addEventListener("blur", pointerUpCallback);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -54439,6 +54861,9 @@ class AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -54913,6 +55338,7 @@ class AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (this.#editToolbar || this.#isInEditMode) {
       return this.#editToolbar;
     }
@@ -54932,6 +55358,8 @@ class AnnotationEditor {
     this.#altText?.destroy();
   }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -55309,6 +55737,9 @@ class AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -55669,9 +56100,12 @@ class AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     AltText.initialize(AnnotationEditor._l10nPromise);
     this.#altText = new AltText(this);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -56029,6 +56463,9 @@ class AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -56393,9 +56830,12 @@ class AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   hasAltText() {
     return !this.#altText?.isEmpty();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -56761,6 +57201,9 @@ class AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -57125,8 +57568,12 @@ class AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.div.addEventListener("focusin", this.#boundFocusin);
     this.div.addEventListener("focusout", this.#boundFocusout);
+=======
+    this.#addFocusListeners();
+>>>>>>> upstream/18.0
 =======
     this.#addFocusListeners();
 >>>>>>> upstream/18.0
@@ -57624,6 +58071,12 @@ class AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  get isSelected() {
+    return this._uiManager.isSelected(this);
+  }
+>>>>>>> upstream/18.0
 =======
   get isSelected() {
     return this._uiManager.isSelected(this);
@@ -58343,6 +58796,7 @@ class AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const isSelected = this._uiManager.isSelected(this);
     this._uiManager.setUpDragSession();
     let pointerMoveOptions, pointerMoveCallback;
@@ -58356,6 +58810,8 @@ class AnnotationEditor {
       this.#prevDragY = event.clientY;
       pointerMoveCallback = e => {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -58718,6 +59174,9 @@ class AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -59080,6 +59539,7 @@ class AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       window.addEventListener("pointermove", pointerMoveCallback, pointerMoveOptions);
     }
     const pointerUpCallback = () => {
@@ -59089,6 +59549,8 @@ class AnnotationEditor {
         this.div.classList.remove("moving");
         window.removeEventListener("pointermove", pointerMoveCallback, pointerMoveOptions);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -59450,6 +59912,9 @@ class AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -59809,9 +60274,12 @@ class AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     window.addEventListener("pointerup", pointerUpCallback);
     window.addEventListener("blur", pointerUpCallback);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -60169,6 +60637,9 @@ class AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -60597,6 +61068,7 @@ class AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   rebuild() {
     this.div?.addEventListener("focusin", this.#boundFocusin);
     this.div?.addEventListener("focusout", this.#boundFocusout);
@@ -60607,6 +61079,8 @@ class AnnotationEditor {
   }
   static deserialize(data, parent, uiManager) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -60987,6 +61461,9 @@ class AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -61346,6 +61823,10 @@ class AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    editor.#accessibilityData = data.accessibilityData;
+>>>>>>> upstream/18.0
 =======
     editor.#accessibilityData = data.accessibilityData;
 >>>>>>> upstream/18.0
@@ -61830,8 +62311,13 @@ class AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.div.removeEventListener("focusin", this.#boundFocusin);
     this.div.removeEventListener("focusout", this.#boundFocusout);
+=======
+    this.#focusAC?.abort();
+    this.#focusAC = null;
+>>>>>>> upstream/18.0
 =======
     this.#focusAC?.abort();
     this.#focusAC = null;
@@ -62473,6 +62959,7 @@ class AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       for (const div of this.#allResizerDivs) {
         const name = div.getAttribute("data-resizer-name");
         div.setAttribute("role", "spinbutton");
@@ -62481,6 +62968,8 @@ class AnnotationEditor {
         div.addEventListener("focus", this.#resizerFocus.bind(this, name));
         AnnotationEditor._l10nPromise.get(`pdfjs-editor-resizer-label-${name}`).then(msg => div.setAttribute("aria-label", msg));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -62846,6 +63335,9 @@ class AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -63224,7 +63716,11 @@ class AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         AnnotationEditor._l10nPromise.get(`pdfjs-editor-resizer-label-${name}`).then(msg => child.setAttribute("aria-label", msg));
+=======
+        child.setAttribute("data-l10n-id", AnnotationEditor._l10nResizer[name]);
+>>>>>>> upstream/18.0
 =======
         child.setAttribute("data-l10n-id", AnnotationEditor._l10nResizer[name]);
 >>>>>>> upstream/18.0
@@ -63756,11 +64252,14 @@ class AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (!this.#editToolbar) {
       this.addEditToolbar().then(() => {
         if (this.div?.classList.contains("selectedEditor")) {
           this.#editToolbar?.show();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -64116,6 +64615,9 @@ class AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -64473,7 +64975,12 @@ class AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.#editToolbar?.show();
+=======
+    this._editToolbar?.show();
+    this.#altText?.toggleAltTextBadge(false);
+>>>>>>> upstream/18.0
 =======
     this._editToolbar?.show();
     this.#altText?.toggleAltTextBadge(false);
@@ -65073,7 +65580,12 @@ class AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.#editToolbar?.hide();
+=======
+    this._editToolbar?.hide();
+    this.#altText?.toggleAltTextBadge(true);
+>>>>>>> upstream/18.0
 =======
     this._editToolbar?.hide();
     this.#altText?.toggleAltTextBadge(true);
@@ -65776,7 +66288,11 @@ class AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (firstChild.nodeName === "DIV" && firstChild.classList.contains("annotationContent")) {
+=======
+    if (firstChild?.nodeName === "DIV" && firstChild.classList.contains("annotationContent")) {
+>>>>>>> upstream/18.0
 =======
     if (firstChild?.nodeName === "DIV" && firstChild.classList.contains("annotationContent")) {
 >>>>>>> upstream/18.0
@@ -66260,6 +66776,7 @@ class FakeEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return {
       id: this.annotationElementId,
       deleted: true,
@@ -66270,6 +66787,8 @@ class FakeEditor extends AnnotationEditor {
 
 ;// CONCATENATED MODULE: ./src/shared/murmurhash3.js
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -66626,6 +67145,9 @@ class FakeEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -67071,7 +67593,11 @@ class MurmurHash3_64 {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/annotation_storage.js
+=======
+;// ./src/display/annotation_storage.js
+>>>>>>> upstream/18.0
 =======
 ;// ./src/display/annotation_storage.js
 >>>>>>> upstream/18.0
@@ -67554,6 +68080,10 @@ class AnnotationStorage {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  #modifiedIds = null;
+>>>>>>> upstream/18.0
 =======
   #modifiedIds = null;
 >>>>>>> upstream/18.0
@@ -68177,7 +68707,10 @@ class AnnotationStorage {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -68548,6 +69081,9 @@ class AnnotationStorage {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -68926,10 +69462,13 @@ class PrintAnnotationStorage extends AnnotationStorage {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 
 ;// CONCATENATED MODULE: ./src/display/font_loader.js
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -69290,6 +69829,9 @@ class PrintAnnotationStorage extends AnnotationStorage {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -69883,8 +70425,12 @@ class FontFaceObject {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const data = bytesToString(this.data);
     const url = `url(data:${this.mimetype};base64,${btoa(data)});`;
+=======
+    const url = `url(data:${this.mimetype};base64,${toBase64Util(this.data)});`;
+>>>>>>> upstream/18.0
 =======
     const url = `url(data:${this.mimetype};base64,${toBase64Util(this.data)});`;
 >>>>>>> upstream/18.0
@@ -70450,8 +70996,11 @@ class FontFaceObject {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/node_utils.js
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -71280,6 +71829,9 @@ class DOMStandardFontDataFactory extends BaseStandardFontDataFactory {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -71639,11 +72191,14 @@ if (isNodeJS) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const fs = await import( /*webpackIgnore: true*/"fs"),
       http = await import( /*webpackIgnore: true*/"http"),
       https = await import( /*webpackIgnore: true*/"https"),
       url = await import( /*webpackIgnore: true*/"url");
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -71999,6 +72554,9 @@ if (isNodeJS) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -72379,11 +72937,14 @@ class NodePackages {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const node_utils_fetchData = function (url) {
   const fs = NodePackages.get("fs");
   return fs.promises.readFile(url).then(data => new Uint8Array(data));
 };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -72740,6 +73301,9 @@ async function node_utils_fetchData(url) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -72983,6 +73547,7 @@ class NodeCanvasFactory extends BaseCanvasFactory {
   }
 }
 class NodeCMapReaderFactory extends BaseCMapReaderFactory {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -73345,6 +73910,8 @@ class NodeStandardFontDataFactory extends BaseStandardFontDataFactory {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
   async _fetch(url) {
     return node_utils_fetchData(url);
   }
@@ -73468,6 +74035,9 @@ class NodeStandardFontDataFactory extends BaseStandardFontDataFactory {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -73825,7 +74395,11 @@ class NodeStandardFontDataFactory extends BaseStandardFontDataFactory {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/pattern_helper.js
+=======
+;// ./src/display/pattern_helper.js
+>>>>>>> upstream/18.0
 =======
 ;// ./src/display/pattern_helper.js
 >>>>>>> upstream/18.0
@@ -74316,11 +74890,14 @@ class BaseShadingPattern {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   constructor() {
     if (this.constructor === BaseShadingPattern) {
       unreachable("Cannot initialize BaseShadingPattern.");
     }
   }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -74709,7 +75286,11 @@ class RadialAxialShadingPattern extends BaseShadingPattern {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       const tmpCanvas = owner.cachedCanvases.getCanvas("pattern", width, height, true);
+=======
+      const tmpCanvas = owner.cachedCanvases.getCanvas("pattern", width, height);
+>>>>>>> upstream/18.0
 =======
       const tmpCanvas = owner.cachedCanvases.getCanvas("pattern", width, height);
 >>>>>>> upstream/18.0
@@ -75366,7 +75947,11 @@ class MeshShadingPattern extends BaseShadingPattern {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const tmpCanvas = cachedCanvases.getCanvas("mesh", paddedWidth, paddedHeight, false);
+=======
+    const tmpCanvas = cachedCanvases.getCanvas("mesh", paddedWidth, paddedHeight);
+>>>>>>> upstream/18.0
 =======
     const tmpCanvas = cachedCanvases.getCanvas("mesh", paddedWidth, paddedHeight);
 >>>>>>> upstream/18.0
@@ -75923,6 +76508,7 @@ class TilingPattern {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const operatorList = this.operatorList;
     const bbox = this.bbox;
     const xstep = this.xstep;
@@ -75932,6 +76518,8 @@ class TilingPattern {
     const color = this.color;
     const canvasGraphicsFactory = this.canvasGraphicsFactory;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -76297,6 +76885,9 @@ class TilingPattern {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -76655,6 +77246,7 @@ class TilingPattern {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const matrixScale = Util.singularValueDecompose2dScale(this.matrix);
     const curMatrixScale = Util.singularValueDecompose2dScale(this.baseTransform);
     const combinedScale = [matrixScale[0] * curMatrixScale[0], matrixScale[1] * curMatrixScale[1]];
@@ -76662,6 +77254,8 @@ class TilingPattern {
     const dimy = this.getSizeAndScale(ystep, this.ctx.canvas.height, combinedScale[1]);
     const tmpCanvas = owner.cachedCanvases.getCanvas("pattern", dimx.size, dimy.size, true);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -77040,6 +77634,9 @@ class TilingPattern {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -77397,6 +77994,7 @@ class TilingPattern {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     let adjustedX0 = x0;
     let adjustedY0 = y0;
     let adjustedX1 = x1;
@@ -77417,6 +78015,8 @@ class TilingPattern {
     graphics.executeOperatorList(operatorList);
     graphics.endDrawing();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -77805,6 +78405,9 @@ class TilingPattern {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -78044,6 +78647,7 @@ class TilingPattern {
       canvas: tmpCanvas.canvas,
       scaleX: dimx.scale,
       scaleY: dimy.scale,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78403,6 +79007,8 @@ class TilingPattern {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
       offsetX: x0,
       offsetY: y0
     };
@@ -78525,6 +79131,9 @@ class TilingPattern {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -78938,7 +79547,11 @@ class TilingPattern {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/shared/image_utils.js
+=======
+;// ./src/shared/image_utils.js
+>>>>>>> upstream/18.0
 =======
 ;// ./src/shared/image_utils.js
 >>>>>>> upstream/18.0
@@ -79517,7 +80130,11 @@ function grayToRGBA(src, dest) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/canvas.js
+=======
+;// ./src/display/canvas.js
+>>>>>>> upstream/18.0
 =======
 ;// ./src/display/canvas.js
 >>>>>>> upstream/18.0
@@ -80687,6 +81304,10 @@ class CanvasGraphics {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    this.current.activeSMask = null;
+>>>>>>> upstream/18.0
 =======
     this.current.activeSMask = null;
 >>>>>>> upstream/18.0
@@ -81196,8 +81817,13 @@ class CanvasGraphics {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const width = img.width;
     const height = img.height;
+=======
+    const width = img.width ?? img.displayWidth;
+    const height = img.height ?? img.displayHeight;
+>>>>>>> upstream/18.0
 =======
     const width = img.width ?? img.displayWidth;
     const height = img.height ?? img.displayHeight;
@@ -82038,6 +82664,10 @@ class CanvasGraphics {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      const backdropRGB = Util.makeHexColor(...backdrop);
+>>>>>>> upstream/18.0
 =======
       const backdropRGB = Util.makeHexColor(...backdrop);
 >>>>>>> upstream/18.0
@@ -82514,6 +83144,7 @@ class CanvasGraphics {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (backdrop.some(c => c !== 0)) {
           ctx.globalCompositeOperation = "destination-atop";
           ctx.fillStyle = Util.makeHexColor(...backdrop);
@@ -82524,6 +83155,8 @@ class CanvasGraphics {
         maskX = maskY = 0;
       } else if (backdrop.some(c => c !== 0)) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -82882,6 +83515,9 @@ class CanvasGraphics {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -83242,7 +83878,11 @@ class CanvasGraphics {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         maskCtx.fillStyle = Util.makeHexColor(...backdrop);
+=======
+        maskCtx.fillStyle = backdropRGB;
+>>>>>>> upstream/18.0
 =======
         maskCtx.fillStyle = backdropRGB;
 >>>>>>> upstream/18.0
@@ -84311,6 +84951,7 @@ class CanvasGraphics {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const color = Util.makeHexColor(r, g, b);
     this.ctx.strokeStyle = color;
     this.current.strokeColor = color;
@@ -84320,6 +84961,8 @@ class CanvasGraphics {
     this.ctx.fillStyle = color;
     this.current.fillColor = color;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -84682,6 +85325,9 @@ class CanvasGraphics {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -85227,10 +85873,13 @@ class CanvasGraphics {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.ctx.rect(rect[0], rect[1], width, height);
         this.ctx.clip();
         this.endPath();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -85586,6 +86235,9 @@ class CanvasGraphics {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -86307,7 +86959,11 @@ for (const op in OPS) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/worker_options.js
+=======
+;// ./src/display/worker_options.js
+>>>>>>> upstream/18.0
 =======
 ;// ./src/display/worker_options.js
 >>>>>>> upstream/18.0
@@ -86803,7 +87459,11 @@ class GlobalWorkerOptions {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/shared/message_handler.js
+=======
+;// ./src/shared/message_handler.js
+>>>>>>> upstream/18.0
 =======
 ;// ./src/shared/message_handler.js
 >>>>>>> upstream/18.0
@@ -87313,6 +87973,10 @@ class MessageHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  #messageAC = new AbortController();
+>>>>>>> upstream/18.0
 =======
   #messageAC = new AbortController();
 >>>>>>> upstream/18.0
@@ -87795,6 +88459,7 @@ class MessageHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this._onComObjOnMessage = event => {
       const data = event.data;
       if (data.targetName !== this.sourceName) {
@@ -87856,6 +88521,8 @@ class MessageHandler {
     };
     comObj.addEventListener("message", this._onComObjOnMessage);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -88271,6 +88938,9 @@ class MessageHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -88915,12 +89585,15 @@ class MessageHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.comObj.removeEventListener("message", this._onComObjOnMessage);
   }
 }
 
 ;// CONCATENATED MODULE: ./src/display/metadata.js
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -89278,6 +89951,9 @@ class MessageHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -89656,7 +90332,11 @@ class Metadata {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/optional_content_config.js
+=======
+;// ./src/display/optional_content_config.js
+>>>>>>> upstream/18.0
 =======
 ;// ./src/display/optional_content_config.js
 >>>>>>> upstream/18.0
@@ -90140,7 +90820,12 @@ class OptionalContentGroup {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     usage
+=======
+    usage,
+    rbGroups
+>>>>>>> upstream/18.0
 =======
     usage,
     rbGroups
@@ -90737,6 +91422,10 @@ class OptionalContentGroup {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    this.rbGroups = rbGroups;
+>>>>>>> upstream/18.0
 =======
     this.rbGroups = rbGroups;
 >>>>>>> upstream/18.0
@@ -91372,7 +92061,11 @@ class OptionalContentConfig {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   setVisibility(id, visible = true) {
+=======
+  setVisibility(id, visible = true, preserveRB = true) {
+>>>>>>> upstream/18.0
 =======
   setVisibility(id, visible = true, preserveRB = true) {
 >>>>>>> upstream/18.0
@@ -91850,7 +92543,10 @@ class OptionalContentConfig {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -92211,6 +92907,9 @@ class OptionalContentConfig {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -92586,6 +93285,7 @@ class OptionalContentConfig {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           group._setVisible(INTERNAL, true);
           break;
         case "OFF":
@@ -92594,6 +93294,8 @@ class OptionalContentConfig {
         case "Toggle":
           group._setVisible(INTERNAL, !group.visible);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -92952,6 +93654,9 @@ class OptionalContentConfig {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -93340,7 +94045,11 @@ class OptionalContentConfig {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/transport_stream.js
+=======
+;// ./src/display/transport_stream.js
+>>>>>>> upstream/18.0
 =======
 ;// ./src/display/transport_stream.js
 >>>>>>> upstream/18.0
@@ -94080,7 +94789,11 @@ class PDFDataTransportStreamRangeReader {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/content_disposition.js
+=======
+;// ./src/display/content_disposition.js
+>>>>>>> upstream/18.0
 =======
 ;// ./src/display/content_disposition.js
 >>>>>>> upstream/18.0
@@ -94683,6 +95396,7 @@ function getFilenameFromContentDispositionHeader(contentDisposition) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/network_utils.js
 
 
@@ -94690,6 +95404,8 @@ function getFilenameFromContentDispositionHeader(contentDisposition) {
 function validateRangeRequestCapabilities({
   getResponseHeader,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -95060,6 +95776,9 @@ function validateRangeRequestCapabilities({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -95421,7 +96140,11 @@ function validateRangeRequestCapabilities({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   const length = parseInt(getResponseHeader("Content-Length"), 10);
+=======
+  const length = parseInt(responseHeaders.get("Content-Length"), 10);
+>>>>>>> upstream/18.0
 =======
   const length = parseInt(responseHeaders.get("Content-Length"), 10);
 >>>>>>> upstream/18.0
@@ -95904,11 +96627,14 @@ function validateRangeRequestCapabilities({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   if (getResponseHeader("Accept-Ranges") !== "bytes") {
     return returnValues;
   }
   const contentEncoding = getResponseHeader("Content-Encoding") || "identity";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -96264,6 +96990,9 @@ function validateRangeRequestCapabilities({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -96623,8 +97352,13 @@ function validateRangeRequestCapabilities({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 function extractFilenameFromHeader(getResponseHeader) {
   const contentDisposition = getResponseHeader("Content-Disposition");
+=======
+function extractFilenameFromHeader(responseHeaders) {
+  const contentDisposition = responseHeaders.get("Content-Disposition");
+>>>>>>> upstream/18.0
 =======
 function extractFilenameFromHeader(responseHeaders) {
   const contentDisposition = responseHeaders.get("Content-Disposition");
@@ -97238,7 +97972,11 @@ function validateResponseStatus(status) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/fetch_stream.js
+=======
+;// ./src/display/fetch_stream.js
+>>>>>>> upstream/18.0
 =======
 ;// ./src/display/fetch_stream.js
 >>>>>>> upstream/18.0
@@ -97723,6 +98461,7 @@ function createFetchOptions(headers, withCredentials, abortController) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 function createHeaders(httpHeaders) {
   const headers = new Headers();
   for (const property in httpHeaders) {
@@ -97734,6 +98473,8 @@ function createHeaders(httpHeaders) {
   }
   return headers;
 }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -98102,7 +98843,11 @@ class PDFFetchStream {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.httpHeaders = this.isHttp && source.httpHeaders || {};
+=======
+    this.headers = createHeaders(this.isHttp, source.httpHeaders);
+>>>>>>> upstream/18.0
 =======
     this.headers = createHeaders(this.isHttp, source.httpHeaders);
 >>>>>>> upstream/18.0
@@ -98619,9 +99364,15 @@ class PDFFetchStreamReader {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this._headers = createHeaders(this._stream.httpHeaders);
     const url = source.url;
     fetch(url, createFetchOptions(this._headers, this._withCredentials, this._abortController)).then(response => {
+=======
+    const headers = new Headers(stream.headers);
+    const url = source.url;
+    fetch(url, createFetchOptions(headers, this._withCredentials, this._abortController)).then(response => {
+>>>>>>> upstream/18.0
 =======
     const headers = new Headers(stream.headers);
     const url = source.url;
@@ -99335,7 +100086,11 @@ class PDFFetchStreamReader {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       const getResponseHeader = name => response.headers.get(name);
+=======
+      const responseHeaders = response.headers;
+>>>>>>> upstream/18.0
 =======
       const responseHeaders = response.headers;
 >>>>>>> upstream/18.0
@@ -99812,8 +100567,13 @@ class PDFFetchStreamReader {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         getResponseHeader,
         isHttp: this._stream.isHttp,
+=======
+        responseHeaders,
+        isHttp: stream.isHttp,
+>>>>>>> upstream/18.0
 =======
         responseHeaders,
         isHttp: stream.isHttp,
@@ -100409,7 +101169,11 @@ class PDFFetchStreamReader {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       this._filename = extractFilenameFromHeader(getResponseHeader);
+=======
+      this._filename = extractFilenameFromHeader(responseHeaders);
+>>>>>>> upstream/18.0
 =======
       this._filename = extractFilenameFromHeader(responseHeaders);
 >>>>>>> upstream/18.0
@@ -100940,11 +101704,14 @@ class PDFFetchStreamRangeReader {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this._headers = createHeaders(this._stream.httpHeaders);
     this._headers.append("Range", `bytes=${begin}-${end - 1}`);
     const url = source.url;
     fetch(url, createFetchOptions(this._headers, this._withCredentials, this._abortController)).then(response => {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -101300,6 +102067,9 @@ class PDFFetchStreamRangeReader {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -101691,7 +102461,11 @@ class PDFFetchStreamRangeReader {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/network.js
+=======
+;// ./src/display/network.js
+>>>>>>> upstream/18.0
 =======
 ;// ./src/display/network.js
 >>>>>>> upstream/18.0
@@ -102176,12 +102950,15 @@ class NetworkManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   constructor(url, args = {}) {
     this.url = url;
     this.isHttp = /^https?:/i.test(url);
     this.httpHeaders = this.isHttp && args.httpHeaders || Object.create(null);
     this.withCredentials = args.withCredentials || false;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -102542,6 +103319,9 @@ class NetworkManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -102919,12 +103699,17 @@ class NetworkManager {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     for (const property in this.httpHeaders) {
       const value = this.httpHeaders[property];
       if (value === undefined) {
         continue;
       }
       xhr.setRequestHeader(property, value);
+=======
+    for (const [key, val] of this.headers) {
+      xhr.setRequestHeader(key, val);
+>>>>>>> upstream/18.0
 =======
     for (const [key, val] of this.headers) {
       xhr.setRequestHeader(key, val);
@@ -103603,10 +104388,14 @@ class PDFNetworkStream {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this._manager = new NetworkManager(source.url, {
       httpHeaders: source.httpHeaders,
       withCredentials: source.withCredentials
     });
+=======
+    this._manager = new NetworkManager(source);
+>>>>>>> upstream/18.0
 =======
     this._manager = new NetworkManager(source);
 >>>>>>> upstream/18.0
@@ -104118,7 +104907,11 @@ class PDFNetworkStreamFullRequestReader {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this._headersReceivedCapability = Promise.withResolvers();
+=======
+    this._headersCapability = Promise.withResolvers();
+>>>>>>> upstream/18.0
 =======
     this._headersCapability = Promise.withResolvers();
 >>>>>>> upstream/18.0
@@ -104609,8 +105402,11 @@ class PDFNetworkStreamFullRequestReader {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const getResponseHeader = name => fullRequestXhr.getResponseHeader(name);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -104966,6 +105762,9 @@ class PDFNetworkStreamFullRequestReader {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -105323,7 +106122,11 @@ class PDFNetworkStreamFullRequestReader {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       getResponseHeader,
+=======
+      responseHeaders,
+>>>>>>> upstream/18.0
 =======
       responseHeaders,
 >>>>>>> upstream/18.0
@@ -105804,12 +106607,15 @@ class PDFNetworkStreamFullRequestReader {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this._filename = extractFilenameFromHeader(getResponseHeader);
     if (this._isRangeSupported) {
       this._manager.abortRequest(fullRequestXhrId);
     }
     this._headersReceivedCapability.resolve();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -106166,6 +106972,9 @@ class PDFNetworkStreamFullRequestReader {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -106546,7 +107355,11 @@ class PDFNetworkStreamFullRequestReader {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this._headersReceivedCapability.reject(this._storedError);
+=======
+    this._headersCapability.reject(this._storedError);
+>>>>>>> upstream/18.0
 =======
     this._headersCapability.reject(this._storedError);
 >>>>>>> upstream/18.0
@@ -107044,7 +107857,11 @@ class PDFNetworkStreamFullRequestReader {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return this._headersReceivedCapability.promise;
+=======
+    return this._headersCapability.promise;
+>>>>>>> upstream/18.0
 =======
     return this._headersCapability.promise;
 >>>>>>> upstream/18.0
@@ -107541,7 +108358,11 @@ class PDFNetworkStreamFullRequestReader {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this._headersReceivedCapability.reject(reason);
+=======
+    this._headersCapability.reject(reason);
+>>>>>>> upstream/18.0
 =======
     this._headersCapability.reject(reason);
 >>>>>>> upstream/18.0
@@ -108124,6 +108945,7 @@ class PDFNetworkStreamRangeRequestReader {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/node_stream.js
 
 
@@ -108143,6 +108965,8 @@ function parseUrl(sourceUrl) {
   }
   return parsedUrl;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -108517,6 +109341,9 @@ function createRequest(url, headers, callback) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -108874,11 +109701,14 @@ class PDFNodeStream {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.url = parseUrl(source.url);
     this.isHttp = this.url.protocol === "http:" || this.url.protocol === "https:";
     this.isFsUrl = this.url.protocol === "file:";
     this.httpHeaders = this.isHttp && source.httpHeaders || {};
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -109234,6 +110064,9 @@ class PDFNodeStream {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -109778,6 +110611,7 @@ class BaseRangeReader {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 function createRequestOptions(parsedUrl, headers) {
   return {
     protocol: parsedUrl.protocol,
@@ -109793,6 +110627,8 @@ class PDFNodeStreamFullReader extends BaseFullReader {
   constructor(stream) {
     super(stream);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -110148,6 +110984,9 @@ class PDFNodeStreamFullReader extends BaseFullReader {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -110510,7 +111349,11 @@ class PDFNodeStreamFullReader extends BaseFullReader {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       const getResponseHeader = name => this._readableStream.headers[name.toLowerCase()];
+=======
+      const responseHeaders = new Headers(this._readableStream.headers);
+>>>>>>> upstream/18.0
 =======
       const responseHeaders = new Headers(this._readableStream.headers);
 >>>>>>> upstream/18.0
@@ -110987,7 +111830,11 @@ class PDFNodeStreamFullReader extends BaseFullReader {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         getResponseHeader,
+=======
+        responseHeaders,
+>>>>>>> upstream/18.0
 =======
         responseHeaders,
 >>>>>>> upstream/18.0
@@ -111348,6 +112195,7 @@ class PDFNodeStreamFullReader extends BaseFullReader {
       });
       this._isRangeSupported = allowRangeRequests;
       this._contentLength = suggestedLength || this._contentLength;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -112066,6 +112914,11 @@ class PDFNodeStreamFullReader extends BaseFullReader {
     };
     this._request = createRequest(this._url, headers, handleResponse);
 >>>>>>> upstream/18.0
+=======
+      this._filename = extractFilenameFromHeader(responseHeaders);
+    };
+    this._request = createRequest(this._url, headers, handleResponse);
+>>>>>>> upstream/18.0
     this._request.on("error", reason => {
       this._storedError = reason;
       this._headersCapability.reject(reason);
@@ -112076,6 +112929,7 @@ class PDFNodeStreamFullReader extends BaseFullReader {
 class PDFNodeStreamRangeReader extends BaseRangeReader {
   constructor(stream, start, end) {
     super(stream);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -112675,6 +113529,10 @@ class PDFNodeStreamRangeReader extends BaseRangeReader {
     const headers = Object.fromEntries(stream.headers);
     headers.Range = `bytes=${start}-${end - 1}`;
 >>>>>>> upstream/18.0
+=======
+    const headers = Object.fromEntries(stream.headers);
+    headers.Range = `bytes=${start}-${end - 1}`;
+>>>>>>> upstream/18.0
     const handleResponse = response => {
       if (response.statusCode === 404) {
         const error = new MissingPDFException(`Missing PDF "${this._url}".`);
@@ -112801,6 +113659,7 @@ class PDFNodeStreamRangeReader extends BaseRangeReader {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this._request = null;
     if (this._url.protocol === "http:") {
       const http = NodePackages.get("http");
@@ -112809,6 +113668,9 @@ class PDFNodeStreamRangeReader extends BaseRangeReader {
       const https = NodePackages.get("https");
       this._request = https.request(createRequestOptions(this._url, this._httpHeaders), handleResponse);
     }
+=======
+    this._request = createRequest(this._url, headers, handleResponse);
+>>>>>>> upstream/18.0
 =======
     this._request = createRequest(this._url, headers, handleResponse);
 >>>>>>> upstream/18.0
@@ -113290,6 +114152,7 @@ class PDFNodeStreamFsFullReader extends BaseFullReader {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     let path = decodeURIComponent(this._url.path);
     if (fileUriRegex.test(this._url.href)) {
       path = path.replace(/^\//, "");
@@ -113303,6 +114166,8 @@ class PDFNodeStreamFsFullReader extends BaseFullReader {
       if (error.code === "ENOENT") {
         error = new MissingPDFException(`Missing PDF "${path}".`);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -113662,6 +114527,9 @@ class PDFNodeStreamFsFullReader extends BaseFullReader {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -113906,6 +114774,7 @@ class PDFNodeStreamFsFullReader extends BaseFullReader {
 class PDFNodeStreamFsRangeReader extends BaseRangeReader {
   constructor(stream, start, end) {
     super(stream);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -114502,6 +115371,10 @@ class PDFNodeStreamFsRangeReader extends BaseRangeReader {
     const fs = NodePackages.get("fs");
     this._setReadableStream(fs.createReadStream(this._url, {
 >>>>>>> upstream/18.0
+=======
+    const fs = NodePackages.get("fs");
+    this._setReadableStream(fs.createReadStream(this._url, {
+>>>>>>> upstream/18.0
       start,
       end: end - 1
     }));
@@ -114626,7 +115499,11 @@ class PDFNodeStreamFsRangeReader extends BaseRangeReader {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/text_layer.js
+=======
+;// ./src/display/text_layer.js
+>>>>>>> upstream/18.0
 =======
 ;// ./src/display/text_layer.js
 >>>>>>> upstream/18.0
@@ -115125,6 +116002,11 @@ class TextLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  static #canvasCtxFonts = new WeakMap();
+  static #minFontSize = null;
+>>>>>>> upstream/18.0
 =======
   static #canvasCtxFonts = new WeakMap();
   static #minFontSize = null;
@@ -115737,8 +116619,11 @@ class TextLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       prevFontSize: null,
       prevFontFamily: null,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -116106,6 +116991,7 @@ class TextLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     setLayerDimensions(container, viewport);
     this.#capability.promise.catch(() => {}).then(() => {
       TextLayer.#pendingTextLayers.delete(this);
@@ -116113,6 +116999,8 @@ class TextLayer {
       this.#styleCache = null;
     });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -116478,6 +117366,9 @@ class TextLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -116870,8 +117761,11 @@ class TextLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         prevFontSize: null,
         prevFontFamily: null,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -117253,7 +118147,11 @@ class TextLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.#layoutTextParams.ctx ||= TextLayer.#getCtx(this.#lang);
+=======
+    this.#layoutTextParams.ctx ??= TextLayer.#getCtx(this.#lang);
+>>>>>>> upstream/18.0
 =======
     this.#layoutTextParams.ctx ??= TextLayer.#getCtx(this.#lang);
 >>>>>>> upstream/18.0
@@ -117768,7 +118666,12 @@ class TextLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const fontFamily = this.#fontInspectorEnabled && style.fontSubstitution || style.fontFamily;
+=======
+    let fontFamily = this.#fontInspectorEnabled && style.fontSubstitution || style.fontFamily;
+    fontFamily = TextLayer.fontFamilyMap.get(fontFamily) || fontFamily;
+>>>>>>> upstream/18.0
 =======
     let fontFamily = this.#fontInspectorEnabled && style.fontSubstitution || style.fontFamily;
     fontFamily = TextLayer.fontFamilyMap.get(fontFamily) || fontFamily;
@@ -118378,7 +119281,11 @@ class TextLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     divStyle.fontSize = `${scaleFactorStr}${fontHeight.toFixed(2)}px)`;
+=======
+    divStyle.fontSize = `${scaleFactorStr}${(TextLayer.#minFontSize * fontHeight).toFixed(2)}px)`;
+>>>>>>> upstream/18.0
 =======
     divStyle.fontSize = `${scaleFactorStr}${(TextLayer.#minFontSize * fontHeight).toFixed(2)}px)`;
 >>>>>>> upstream/18.0
@@ -118892,9 +119799,13 @@ class TextLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       ctx,
       prevFontSize,
       prevFontFamily
+=======
+      ctx
+>>>>>>> upstream/18.0
 =======
       ctx
 >>>>>>> upstream/18.0
@@ -119372,6 +120283,12 @@ class TextLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    if (TextLayer.#minFontSize > 1) {
+      transform = `scale(${1 / TextLayer.#minFontSize})`;
+    }
+>>>>>>> upstream/18.0
 =======
     if (TextLayer.#minFontSize > 1) {
       transform = `scale(${1 / TextLayer.#minFontSize})`;
@@ -120088,11 +121005,15 @@ class TextLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       if (prevFontSize !== fontSize || prevFontFamily !== fontFamily) {
         ctx.font = `${fontSize * this.#scale}px ${fontFamily}`;
         params.prevFontSize = fontSize;
         params.prevFontFamily = fontFamily;
       }
+=======
+      TextLayer.#ensureCtxFont(ctx, fontSize * this.#scale, fontFamily);
+>>>>>>> upstream/18.0
 =======
       TextLayer.#ensureCtxFont(ctx, fontSize * this.#scale, fontFamily);
 >>>>>>> upstream/18.0
@@ -120569,7 +121490,11 @@ class TextLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         transform = `scaleX(${canvasWidth * this.#scale / width})`;
+=======
+        transform = `scaleX(${canvasWidth * this.#scale / width}) ${transform}`;
+>>>>>>> upstream/18.0
 =======
         transform = `scaleX(${canvasWidth * this.#scale / width}) ${transform}`;
 >>>>>>> upstream/18.0
@@ -121064,8 +121989,13 @@ class TextLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     let canvasContext = this.#canvasContexts.get(lang ||= "");
     if (!canvasContext) {
+=======
+    let ctx = this.#canvasContexts.get(lang ||= "");
+    if (!ctx) {
+>>>>>>> upstream/18.0
 =======
     let ctx = this.#canvasContexts.get(lang ||= "");
     if (!ctx) {
@@ -121660,6 +122590,7 @@ class TextLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       canvasContext = canvas.getContext("2d", {
         alpha: false
       });
@@ -121667,6 +122598,8 @@ class TextLayer {
     }
     return canvasContext;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -122052,6 +122985,9 @@ class TextLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -122412,9 +123348,14 @@ class TextLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const savedFont = ctx.font;
     ctx.canvas.width = ctx.canvas.height = DEFAULT_FONT_SIZE;
     ctx.font = `${DEFAULT_FONT_SIZE}px ${fontFamily}`;
+=======
+    ctx.canvas.width = ctx.canvas.height = DEFAULT_FONT_SIZE;
+    this.#ensureCtxFont(ctx, DEFAULT_FONT_SIZE, fontFamily);
+>>>>>>> upstream/18.0
 =======
     ctx.canvas.width = ctx.canvas.height = DEFAULT_FONT_SIZE;
     this.#ensureCtxFont(ctx, DEFAULT_FONT_SIZE, fontFamily);
@@ -123012,7 +123953,10 @@ class TextLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       ctx.font = savedFont;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -123391,7 +124335,10 @@ class TextLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ctx.font = savedFont;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -123751,6 +124698,7 @@ class TextLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 function renderTextLayer() {
   deprecated("`renderTextLayer`, please use `TextLayer` instead.");
   const {
@@ -123784,6 +124732,10 @@ function updateTextLayer() {
 }
 
 ;// CONCATENATED MODULE: ./src/display/xfa_text.js
+=======
+
+;// ./src/display/xfa_text.js
+>>>>>>> upstream/18.0
 =======
 
 ;// ./src/display/xfa_text.js
@@ -124416,8 +125368,11 @@ class XfaText {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/api.js
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -124774,6 +125729,9 @@ class XfaText {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -125150,7 +126108,11 @@ const DefaultStandardFontDataFactory = isNodeJS ? NodeStandardFontDataFactory : 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 function getDocument(src) {
+=======
+function getDocument(src = {}) {
+>>>>>>> upstream/18.0
 =======
 function getDocument(src = {}) {
 >>>>>>> upstream/18.0
@@ -125632,12 +126594,15 @@ function getDocument(src = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   if (typeof src !== "object") {
     throw new Error("Invalid parameter in getDocument, need parameter object.");
   }
   if (!src.url && !src.data && !src.range) {
     throw new Error("Invalid parameter object: need either .data, .range or .url");
   }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -126015,6 +126980,10 @@ function getDocument(src = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  const isChrome = typeof src.isChrome === "boolean" ? src.isChrome : !util_FeatureTest.platform.isFirefox && typeof window !== "undefined" && !!window?.chrome;
+>>>>>>> upstream/18.0
 =======
   const isChrome = typeof src.isChrome === "boolean" ? src.isChrome : !util_FeatureTest.platform.isFirefox && typeof window !== "undefined" && !!window?.chrome;
 >>>>>>> upstream/18.0
@@ -126496,6 +127465,7 @@ function getDocument(src = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   const length = rangeTransport ? rangeTransport.length : src.length ?? NaN;
   const useSystemFonts = typeof src.useSystemFonts === "boolean" ? src.useSystemFonts : !isNodeJS && !disableFontFace;
   const useWorkerFetch = typeof src.useWorkerFetch === "boolean" ? src.useWorkerFetch : CMapReaderFactory === DOMCMapReaderFactory && StandardFontDataFactory === DOMStandardFontDataFactory && cMapUrl && standardFontDataUrl && isValidFetchUrl(cMapUrl, document.baseURI) && isValidFetchUrl(standardFontDataUrl, document.baseURI);
@@ -126522,6 +127492,8 @@ function getDocument(src = {}) {
     });
   }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -126904,6 +127876,9 @@ function getDocument(src = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -127267,7 +128242,11 @@ function getDocument(src = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     apiVersion: "4.3.136",
+=======
+    apiVersion: "4.8.69",
+>>>>>>> upstream/18.0
 =======
     apiVersion: "4.8.69",
 >>>>>>> upstream/18.0
@@ -127753,6 +128732,10 @@ function getDocument(src = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      isChrome,
+>>>>>>> upstream/18.0
 =======
       isChrome,
 >>>>>>> upstream/18.0
@@ -128258,6 +129241,7 @@ function getDocument(src = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       const createPDFNetworkStream = params => {
         if (isNodeJS) {
           const isFetchSupported = function () {
@@ -128269,6 +129253,8 @@ function getDocument(src = {}) {
       };
       networkStream = createPDFNetworkStream({
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -128631,6 +129617,9 @@ function getDocument(src = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -129139,6 +130128,12 @@ class PDFDocumentProxy {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  get canvasFactory() {
+    return this._transport.canvasFactory;
+  }
+>>>>>>> upstream/18.0
 =======
   get canvasFactory() {
     return this._transport.canvasFactory;
@@ -130025,11 +131020,14 @@ class PDFPageProxy {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     printAnnotationStorage = null
   }) {
     this._stats?.time("Overall");
     const intentArgs = this._transport.getRenderingIntent(intent, annotationMode, printAnnotationStorage);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -130386,6 +131384,9 @@ class PDFPageProxy {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -130831,7 +131832,12 @@ class PDFPageProxy {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     printAnnotationStorage = null
+=======
+    printAnnotationStorage = null,
+    isEditing = false
+>>>>>>> upstream/18.0
 =======
     printAnnotationStorage = null,
     isEditing = false
@@ -131429,7 +132435,11 @@ class PDFPageProxy {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const intentArgs = this._transport.getRenderingIntent(intent, annotationMode, printAnnotationStorage, true);
+=======
+    const intentArgs = this._transport.getRenderingIntent(intent, annotationMode, printAnnotationStorage, isEditing, true);
+>>>>>>> upstream/18.0
 =======
     const intentArgs = this._transport.getRenderingIntent(intent, annotationMode, printAnnotationStorage, isEditing, true);
 >>>>>>> upstream/18.0
@@ -132059,7 +133069,12 @@ class PDFPageProxy {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     annotationStorageSerializable
+=======
+    annotationStorageSerializable,
+    modifiedIds
+>>>>>>> upstream/18.0
 =======
     annotationStorageSerializable,
     modifiedIds
@@ -132659,7 +133674,12 @@ class PDFPageProxy {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       annotationStorage: map
+=======
+      annotationStorage: map,
+      modifiedIds
+>>>>>>> upstream/18.0
 =======
       annotationStorage: map,
       modifiedIds
@@ -133341,7 +134361,11 @@ class LoopbackPort {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   #listeners = new Set();
+=======
+  #listeners = new Map();
+>>>>>>> upstream/18.0
 =======
   #listeners = new Map();
 >>>>>>> upstream/18.0
@@ -133822,7 +134846,11 @@ class LoopbackPort {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       for (const listener of this.#listeners) {
+=======
+      for (const [listener] of this.#listeners) {
+>>>>>>> upstream/18.0
 =======
       for (const [listener] of this.#listeners) {
 >>>>>>> upstream/18.0
@@ -134299,6 +135327,7 @@ class LoopbackPort {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   addEventListener(name, listener) {
     this.#listeners.add(listener);
   }
@@ -134341,6 +135370,8 @@ const PDFWorkerUtil = {
 class PDFWorker {
   static #workerPorts;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -134749,6 +135780,9 @@ class PDFWorker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -135130,7 +136164,10 @@ class PDFWorker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -135488,6 +136525,9 @@ class PDFWorker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -135733,6 +136773,7 @@ class PDFWorker {
     this._port = port;
     this._messageHandler = new MessageHandler("main", "worker", port);
     this._messageHandler.on("ready", function () {});
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -136161,6 +137202,8 @@ class PDFWorker {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     this.#resolve();
   }
   _initialize() {
@@ -136345,6 +137388,9 @@ class PDFWorker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -136702,9 +137748,15 @@ class PDFWorker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (!PDFWorkerUtil.isWorkerDisabled) {
       warn("Setting up fake worker.");
       PDFWorkerUtil.isWorkerDisabled = true;
+=======
+    if (!PDFWorker.#isWorkerDisabled) {
+      warn("Setting up fake worker.");
+      PDFWorker.#isWorkerDisabled = true;
+>>>>>>> upstream/18.0
 =======
     if (!PDFWorker.#isWorkerDisabled) {
       warn("Setting up fake worker.");
@@ -137421,6 +138473,7 @@ class PDFWorker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       const id = `fake${PDFWorkerUtil.fakeWorkerId++}`;
       const workerHandler = new MessageHandler(id + "_worker", id, port);
       WorkerMessageHandler.setup(workerHandler, port);
@@ -137431,6 +138484,8 @@ class PDFWorker {
         verbosity: this.verbosity
       });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -137787,6 +138842,9 @@ class PDFWorker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -138188,7 +139246,11 @@ class PDFWorker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       const worker = await import( /*webpackIgnore: true*/this.workerSrc);
+=======
+      const worker = await import(/*webpackIgnore: true*/this.workerSrc);
+>>>>>>> upstream/18.0
 =======
       const worker = await import(/*webpackIgnore: true*/this.workerSrc);
 >>>>>>> upstream/18.0
@@ -138706,7 +139768,11 @@ class WorkerTransport {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   getRenderingIntent(intent, annotationMode = AnnotationMode.ENABLE, printAnnotationStorage = null, isOpList = false) {
+=======
+  getRenderingIntent(intent, annotationMode = AnnotationMode.ENABLE, printAnnotationStorage = null, isEditing = false, isOpList = false) {
+>>>>>>> upstream/18.0
 =======
   getRenderingIntent(intent, annotationMode = AnnotationMode.ENABLE, printAnnotationStorage = null, isEditing = false, isOpList = false) {
 >>>>>>> upstream/18.0
@@ -139193,6 +140259,10 @@ class WorkerTransport {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    const annotationStorage = renderingIntent & RenderingIntentFlag.PRINT && printAnnotationStorage instanceof PrintAnnotationStorage ? printAnnotationStorage : this.annotationStorage;
+>>>>>>> upstream/18.0
 =======
     const annotationStorage = renderingIntent & RenderingIntentFlag.PRINT && printAnnotationStorage instanceof PrintAnnotationStorage ? printAnnotationStorage : this.annotationStorage;
 >>>>>>> upstream/18.0
@@ -139676,7 +140746,10 @@ class WorkerTransport {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const annotationStorage = renderingIntent & RenderingIntentFlag.PRINT && printAnnotationStorage instanceof PrintAnnotationStorage ? printAnnotationStorage : this.annotationStorage;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -140036,6 +141109,7 @@ class WorkerTransport {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (isOpList) {
       renderingIntent += RenderingIntentFlag.OPLIST;
     }
@@ -140044,6 +141118,8 @@ class WorkerTransport {
       cacheKey: `${renderingIntent}_${annotationStorageSerializable.hash}`,
       annotationStorageSerializable
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -140411,6 +141487,9 @@ class WorkerTransport {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -140839,6 +141918,7 @@ class WorkerTransport {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     messageHandler.on("ReaderHeadersReady", data => {
       const headersCapability = Promise.withResolvers();
       const fullReader = this._fullReader;
@@ -140862,6 +141942,8 @@ class WorkerTransport {
       }, headersCapability.reject);
       return headersCapability.promise;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -141236,6 +142318,9 @@ class WorkerTransport {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -141786,6 +142871,7 @@ class WorkerTransport {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     messageHandler.on("FetchBuiltInCMap", data => {
       if (this.destroyed) {
         return Promise.reject(new Error("Worker was destroyed."));
@@ -141802,6 +142888,8 @@ class WorkerTransport {
       if (!this.standardFontDataFactory) {
         return Promise.reject(new Error("StandardFontDataFactory not initialized, see the `useWorkerFetch` parameter."));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -142168,6 +143256,9 @@ class WorkerTransport {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -142767,6 +143858,10 @@ class InternalRenderTask {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  #rAF = null;
+>>>>>>> upstream/18.0
 =======
   #rAF = null;
 >>>>>>> upstream/18.0
@@ -143323,7 +144418,10 @@ class InternalRenderTask {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -143679,6 +144777,9 @@ class InternalRenderTask {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -144059,7 +145160,12 @@ class InternalRenderTask {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       window.requestAnimationFrame(() => {
+=======
+      this.#rAF = window.requestAnimationFrame(() => {
+        this.#rAF = null;
+>>>>>>> upstream/18.0
 =======
       this.#rAF = window.requestAnimationFrame(() => {
         this.#rAF = null;
@@ -144671,11 +145777,14 @@ class InternalRenderTask {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const version = "4.3.136";
 const build = "0cec64437";
 
 ;// CONCATENATED MODULE: ./src/shared/scripting_utils.js
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -145031,6 +146140,9 @@ const build = "3634dab10";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -145442,8 +146554,11 @@ class ColorConverters {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/xfa_layer.js
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -145830,6 +146945,9 @@ class DOMSVGFactory extends BaseSVGFactory {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -146393,7 +147511,12 @@ class XfaLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/annotation_layer.js
+=======
+;// ./src/display/annotation_layer.js
+
+>>>>>>> upstream/18.0
 =======
 ;// ./src/display/annotation_layer.js
 
@@ -147095,6 +148218,12 @@ class AnnotationElement {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  get _isEditable() {
+    return this.data.isEditable;
+  }
+>>>>>>> upstream/18.0
 =======
   get _isEditable() {
     return this.data.isEditable;
@@ -147880,9 +149009,12 @@ class AnnotationElement {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (data.popupRef) {
       container.setAttribute("aria-haspopup", "dialog");
     }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -148456,6 +149588,7 @@ class AnnotationElement {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const [rectBlX, rectBlY, rectTrX, rectTrY] = this.data.rect;
     if (quadPoints.length === 1) {
       const [, {
@@ -148465,6 +149598,11 @@ class AnnotationElement {
         x: blX,
         y: blY
       }] = quadPoints[0];
+=======
+    const [rectBlX, rectBlY, rectTrX, rectTrY] = this.data.rect.map(x => Math.fround(x));
+    if (quadPoints.length === 8) {
+      const [trX, trY, blX, blY] = quadPoints.subarray(2, 6);
+>>>>>>> upstream/18.0
 =======
     const [rectBlX, rectBlY, rectTrX, rectTrY] = this.data.rect.map(x => Math.fround(x));
     if (quadPoints.length === 8) {
@@ -149206,6 +150344,7 @@ class AnnotationElement {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     for (const [, {
       x: trX,
       y: trY
@@ -149214,6 +150353,8 @@ class AnnotationElement {
       y: blY
     }] of quadPoints) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -149570,6 +150711,9 @@ class AnnotationElement {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -149944,10 +151088,15 @@ class AnnotationElement {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       container,
       data
     } = this;
     container.setAttribute("aria-haspopup", "dialog");
+=======
+      data
+    } = this;
+>>>>>>> upstream/18.0
 =======
       data
     } = this;
@@ -150633,9 +151782,12 @@ class AnnotationElement {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   get _isEditable() {
     return false;
   }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -152114,6 +153266,10 @@ class PopupAnnotationElement extends AnnotationElement {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      element.container.ariaHasPopup = "dialog";
+>>>>>>> upstream/18.0
 =======
       element.container.ariaHasPopup = "dialog";
 >>>>>>> upstream/18.0
@@ -152678,10 +153834,16 @@ class PopupElement {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       modificationDate.setAttribute("data-l10n-id", "pdfjs-annotation-date-string");
       modificationDate.setAttribute("data-l10n-args", JSON.stringify({
         date: this.#dateObj.toLocaleDateString(),
         time: this.#dateObj.toLocaleTimeString()
+=======
+      modificationDate.setAttribute("data-l10n-id", "pdfjs-annotation-date-time-string");
+      modificationDate.setAttribute("data-l10n-args", JSON.stringify({
+        dateObj: this.#dateObj.valueOf()
+>>>>>>> upstream/18.0
 =======
       modificationDate.setAttribute("data-l10n-id", "pdfjs-annotation-date-time-string");
       modificationDate.setAttribute("data-l10n-args", JSON.stringify({
@@ -153627,9 +154789,12 @@ class FreeTextAnnotationElement extends AnnotationElement {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   get _isEditable() {
     return this.data.hasOwnCanvas;
   }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -154113,6 +155278,7 @@ class PolylineAnnotationElement extends AnnotationElement {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const data = this.data;
     const {
       width,
@@ -154125,6 +155291,8 @@ class PolylineAnnotationElement extends AnnotationElement {
       const y = data.rect[3] - coordinate.y;
       points.push(x + "," + y);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -154497,6 +155665,9 @@ class PolylineAnnotationElement extends AnnotationElement {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -154854,7 +156025,11 @@ class PolylineAnnotationElement extends AnnotationElement {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     polyline.setAttribute("stroke-width", data.borderStyle.width || 1);
+=======
+    polyline.setAttribute("stroke-width", borderStyle.width || 1);
+>>>>>>> upstream/18.0
 =======
     polyline.setAttribute("stroke-width", borderStyle.width || 1);
 >>>>>>> upstream/18.0
@@ -155331,7 +156506,11 @@ class PolylineAnnotationElement extends AnnotationElement {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (!data.popupRef && this.hasPopupData) {
+=======
+    if (!popupRef && this.hasPopupData) {
+>>>>>>> upstream/18.0
 =======
     if (!popupRef && this.hasPopupData) {
 >>>>>>> upstream/18.0
@@ -155846,6 +157025,7 @@ class InkAnnotationElement extends AnnotationElement {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.annotationEditorType = AnnotationEditorType.INK;
   }
   render() {
@@ -155862,6 +157042,8 @@ class InkAnnotationElement extends AnnotationElement {
         const x = coordinate.x - data.rect[0];
         const y = data.rect[3] - coordinate.y;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -156235,6 +157417,9 @@ class InkAnnotationElement extends AnnotationElement {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -156476,6 +157661,7 @@ class InkAnnotationElement extends AnnotationElement {
       const polyline = this.svgFactory.createElement(this.svgElementName);
       this.#polylines.push(polyline);
       polyline.setAttribute("points", points);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -156838,6 +158024,8 @@ class InkAnnotationElement extends AnnotationElement {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
       polyline.setAttribute("stroke-width", borderStyle.width || 1);
       polyline.setAttribute("stroke", "transparent");
       polyline.setAttribute("fill", "transparent");
@@ -156965,6 +158153,9 @@ class InkAnnotationElement extends AnnotationElement {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -157334,6 +158525,10 @@ class HighlightAnnotationElement extends AnnotationElement {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    this.annotationEditorType = AnnotationEditorType.HIGHLIGHT;
+>>>>>>> upstream/18.0
 =======
     this.annotationEditorType = AnnotationEditorType.HIGHLIGHT;
 >>>>>>> upstream/18.0
@@ -157812,6 +159007,10 @@ class HighlightAnnotationElement extends AnnotationElement {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    this._editOnDoubleClick();
+>>>>>>> upstream/18.0
 =======
     this._editOnDoubleClick();
 >>>>>>> upstream/18.0
@@ -158341,6 +159540,7 @@ class StampAnnotationElement extends AnnotationElement {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   }
   render() {
     this.container.classList.add("stampAnnotation");
@@ -158348,6 +159548,8 @@ class StampAnnotationElement extends AnnotationElement {
       this._createPopup();
     }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -158708,6 +159910,9 @@ class StampAnnotationElement extends AnnotationElement {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -159128,6 +160333,10 @@ class AnnotationLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  #structTreeLayer = null;
+>>>>>>> upstream/18.0
 =======
   #structTreeLayer = null;
 >>>>>>> upstream/18.0
@@ -159606,7 +160815,12 @@ class AnnotationLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     viewport
+=======
+    viewport,
+    structTreeLayer
+>>>>>>> upstream/18.0
 =======
     viewport,
     structTreeLayer
@@ -160201,6 +161415,10 @@ class AnnotationLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    this.#structTreeLayer = structTreeLayer || null;
+>>>>>>> upstream/18.0
 =======
     this.#structTreeLayer = structTreeLayer || null;
 >>>>>>> upstream/18.0
@@ -160678,10 +161896,13 @@ class AnnotationLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   #appendElement(element, id) {
     const contentElement = element.firstChild || element;
     contentElement.id = `${AnnotationPrefix}${id}`;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -161045,6 +162266,9 @@ class AnnotationLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -161460,8 +162684,13 @@ class AnnotationLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       this.#appendElement(rendered, data.id);
       if (element.annotationEditorType > 0) {
+=======
+      await this.#appendElement(rendered, data.id);
+      if (element._isEditable) {
+>>>>>>> upstream/18.0
 =======
       await this.#appendElement(rendered, data.id);
       if (element._isEditable) {
@@ -162103,7 +163332,11 @@ class AnnotationLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/editor/freetext.js
+=======
+;// ./src/display/editor/freetext.js
+>>>>>>> upstream/18.0
 =======
 ;// ./src/display/editor/freetext.js
 >>>>>>> upstream/18.0
@@ -162582,6 +163815,7 @@ class FreeTextEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   #boundEditorDivBlur = this.editorDivBlur.bind(this);
   #boundEditorDivFocus = this.editorDivFocus.bind(this);
   #boundEditorDivInput = this.editorDivInput.bind(this);
@@ -162593,6 +163827,8 @@ class FreeTextEditor extends AnnotationEditor {
   #fontSize;
   #initialData = null;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -162949,6 +164185,9 @@ class FreeTextEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -163350,9 +164589,13 @@ class FreeTextEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     AnnotationEditor.initialize(l10n, uiManager, {
       strings: ["pdfjs-free-text-default-content"]
     });
+=======
+    AnnotationEditor.initialize(l10n, uiManager);
+>>>>>>> upstream/18.0
 =======
     AnnotationEditor.initialize(l10n, uiManager);
 >>>>>>> upstream/18.0
@@ -163917,12 +165160,15 @@ class FreeTextEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.editorDiv.addEventListener("keydown", this.#boundEditorDivKeydown);
     this.editorDiv.addEventListener("focus", this.#boundEditorDivFocus);
     this.editorDiv.addEventListener("blur", this.#boundEditorDivBlur);
     this.editorDiv.addEventListener("input", this.#boundEditorDivInput);
     this.editorDiv.addEventListener("paste", this.#boundEditorDivPaste);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -164291,6 +165537,9 @@ class FreeTextEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -164655,11 +165904,16 @@ class FreeTextEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.editorDiv.removeEventListener("keydown", this.#boundEditorDivKeydown);
     this.editorDiv.removeEventListener("focus", this.#boundEditorDivFocus);
     this.editorDiv.removeEventListener("blur", this.#boundEditorDivBlur);
     this.editorDiv.removeEventListener("input", this.#boundEditorDivInput);
     this.editorDiv.removeEventListener("paste", this.#boundEditorDivPaste);
+=======
+    this.#editModeAC?.abort();
+    this.#editModeAC = null;
+>>>>>>> upstream/18.0
 =======
     this.#editModeAC?.abort();
     this.#editModeAC = null;
@@ -165290,9 +166544,12 @@ class FreeTextEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     for (const child of this.editorDiv.childNodes) {
       buffer.push(FreeTextEditor.#getNodeContent(child));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -165651,6 +166908,9 @@ class FreeTextEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -166117,9 +167377,15 @@ class FreeTextEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.editorDiv.setAttribute("data-l10n-id", "pdfjs-free-text");
     this.enableEditing();
     AnnotationEditor._l10nPromise.get("pdfjs-free-text-default-content").then(msg => this.editorDiv?.setAttribute("default-content", msg));
+=======
+    this.editorDiv.setAttribute("data-l10n-id", "pdfjs-free-text2");
+    this.editorDiv.setAttribute("data-l10n-attrs", "default-content");
+    this.enableEditing();
+>>>>>>> upstream/18.0
 =======
     this.editorDiv.setAttribute("data-l10n-id", "pdfjs-free-text2");
     this.editorDiv.setAttribute("data-l10n-attrs", "default-content");
@@ -166844,7 +168110,11 @@ class FreeTextEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         } = this.#initialData;
+=======
+        } = this._initialData;
+>>>>>>> upstream/18.0
 =======
         } = this._initialData;
 >>>>>>> upstream/18.0
@@ -167455,7 +168725,11 @@ class FreeTextEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   static deserialize(data, parent, uiManager) {
+=======
+  static async deserialize(data, parent, uiManager) {
+>>>>>>> upstream/18.0
 =======
   static async deserialize(data, parent, uiManager) {
 >>>>>>> upstream/18.0
@@ -167938,7 +169212,12 @@ class FreeTextEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           id
+=======
+          id,
+          popupRef
+>>>>>>> upstream/18.0
 =======
           id,
           popupRef
@@ -168551,11 +169830,14 @@ class FreeTextEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         deleted: false
       };
     }
     const editor = super.deserialize(data, parent, uiManager);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -168912,6 +170194,9 @@ class FreeTextEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -169269,7 +170554,11 @@ class FreeTextEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     editor.#initialData = initialData;
+=======
+    editor._initialData = initialData;
+>>>>>>> upstream/18.0
 =======
     editor._initialData = initialData;
 >>>>>>> upstream/18.0
@@ -169749,11 +171038,15 @@ class FreeTextEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       return {
         pageIndex: this.pageIndex,
         id: this.annotationElementId,
         deleted: true
       };
+=======
+      return this.serializeDeleted();
+>>>>>>> upstream/18.0
 =======
       return this.serializeDeleted();
 >>>>>>> upstream/18.0
@@ -170255,7 +171548,11 @@ class FreeTextEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     } = this.#initialData;
+=======
+    } = this._initialData;
+>>>>>>> upstream/18.0
 =======
     } = this._initialData;
 >>>>>>> upstream/18.0
@@ -170759,10 +172056,13 @@ class FreeTextEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/editor/outliner.js
 
 class Outliner {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -171527,6 +172827,9 @@ class HighlightOutliner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -172067,6 +173370,7 @@ class HighlightOutliner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class Outline {
   toSVGPath() {
     throw new Error("Abstract method `toSVGPath` must be implemented.");
@@ -172081,6 +173385,8 @@ class Outline {
     return this instanceof FreeHighlightOutline;
   }
 }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -172362,6 +173668,7 @@ class HighlightOutline extends Outline {
   get box() {
     return this.#box;
   }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -173067,6 +174374,8 @@ class FreeHighlightOutline extends Outline {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
   get classNamesForDrawing() {
     return ["highlight"];
   }
@@ -173212,6 +174521,9 @@ class FreeHighlightOutline extends FreeDrawOutline {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -173569,8 +174881,11 @@ class ColorPicker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   #boundKeyDown = this.#keyDown.bind(this);
   #boundPointerDown = this.#pointerDown.bind(this);
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -173933,9 +175248,12 @@ class ColorPicker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   #uiManager = null;
   #type;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -174291,6 +175609,9 @@ class ColorPicker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -174662,7 +175983,10 @@ class ColorPicker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -175021,6 +176345,9 @@ class ColorPicker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -175381,9 +176708,12 @@ class ColorPicker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     button.addEventListener("click", this.#openDropdown.bind(this));
     button.addEventListener("keydown", this.#boundKeyDown);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -175742,6 +177072,9 @@ class ColorPicker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -176110,8 +177443,11 @@ class ColorPicker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     div.addEventListener("contextmenu", noContextMenu);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -176467,6 +177803,9 @@ class ColorPicker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -176831,7 +178170,11 @@ class ColorPicker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       button.setAttribute("data-l10n-id", `pdfjs-editor-colorpicker-${name}`);
+=======
+      button.setAttribute("data-l10n-id", ColorPicker.#l10nColor[name]);
+>>>>>>> upstream/18.0
 =======
       button.setAttribute("data-l10n-id", ColorPicker.#l10nColor[name]);
 >>>>>>> upstream/18.0
@@ -177309,11 +178652,14 @@ class ColorPicker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       button.addEventListener("click", this.#colorSelect.bind(this, color));
       div.append(button);
     }
     div.addEventListener("keydown", this.#boundKeyDown);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -177673,6 +179019,9 @@ class ColorPicker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -178093,8 +179442,11 @@ class ColorPicker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     window.addEventListener("pointerdown", this.#boundPointerDown);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -178452,6 +179804,9 @@ class ColorPicker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -178820,7 +180175,12 @@ class ColorPicker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     window.removeEventListener("pointerdown", this.#boundPointerDown);
+=======
+    this.#openDropdownAC?.abort();
+    this.#openDropdownAC = null;
+>>>>>>> upstream/18.0
 =======
     this.#openDropdownAC?.abort();
     this.#openDropdownAC = null;
@@ -179450,7 +180810,12 @@ class ColorPicker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/editor/highlight.js
+=======
+;// ./src/display/editor/highlight.js
+
+>>>>>>> upstream/18.0
 =======
 ;// ./src/display/editor/highlight.js
 
@@ -180060,7 +181425,10 @@ class HighlightEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   #boundKeydown = this.#keydown.bind(this);
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -180424,7 +181792,10 @@ class HighlightEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   static _l10nPromise;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -180812,7 +182183,11 @@ class HighlightEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     } else {
+=======
+    } else if (this.#boxes) {
+>>>>>>> upstream/18.0
 =======
     } else if (this.#boxes) {
 >>>>>>> upstream/18.0
@@ -181315,7 +182690,11 @@ class HighlightEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const outliner = new Outliner(this.#boxes, 0.001);
+=======
+    const outliner = new HighlightOutliner(this.#boxes, 0.001);
+>>>>>>> upstream/18.0
 =======
     const outliner = new HighlightOutliner(this.#boxes, 0.001);
 >>>>>>> upstream/18.0
@@ -181795,7 +183174,11 @@ class HighlightEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const outlinerForOutline = new Outliner(this.#boxes, 0.0025, 0.001, this._uiManager.direction === "ltr");
+=======
+    const outlinerForOutline = new HighlightOutliner(this.#boxes, 0.0025, 0.001, this._uiManager.direction === "ltr");
+>>>>>>> upstream/18.0
 =======
     const outlinerForOutline = new HighlightOutliner(this.#boxes, 0.0025, 0.001, this._uiManager.direction === "ltr");
 >>>>>>> upstream/18.0
@@ -182286,7 +183669,11 @@ class HighlightEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       this.#outlineId = this.parent.drawLayer.highlightOutline(this.#focusOutlines);
+=======
+      this.#outlineId = this.parent.drawLayer.drawOutline(this.#focusOutlines);
+>>>>>>> upstream/18.0
 =======
       this.#outlineId = this.parent.drawLayer.drawOutline(this.#focusOutlines);
 >>>>>>> upstream/18.0
@@ -182844,6 +184231,7 @@ class HighlightEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const setColor = col => {
       this.color = col;
       this.parent?.drawLayer.changeColor(this.#id, col);
@@ -182854,6 +184242,8 @@ class HighlightEditor extends AnnotationEditor {
       cmd: setColor.bind(this, color),
       undo: setColor.bind(this, savedColor),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -183217,6 +184607,9 @@ class HighlightEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -183632,7 +185025,13 @@ class HighlightEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.parent.addUndoableEditor(this);
+=======
+    if (!this.annotationElementId) {
+      this.parent.addUndoableEditor(this);
+    }
+>>>>>>> upstream/18.0
 =======
     if (!this.annotationElementId) {
       this.parent.addUndoableEditor(this);
@@ -184404,8 +185803,13 @@ class HighlightEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     } = parent.drawLayer.highlight(this.#highlightOutlines, this.color, this.#opacity));
     this.#outlineId = parent.drawLayer.highlightOutline(this.#focusOutlines);
+=======
+    } = parent.drawLayer.draw(this.#highlightOutlines, this.color, this.#opacity));
+    this.#outlineId = parent.drawLayer.drawOutline(this.#focusOutlines);
+>>>>>>> upstream/18.0
 =======
     } = parent.drawLayer.draw(this.#highlightOutlines, this.color, this.#opacity));
     this.#outlineId = parent.drawLayer.drawOutline(this.#focusOutlines);
@@ -185064,7 +186468,13 @@ class HighlightEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       this.div.addEventListener("keydown", this.#boundKeydown);
+=======
+      this.div.addEventListener("keydown", this.#keydown.bind(this), {
+        signal: this._uiManager._signal
+      });
+>>>>>>> upstream/18.0
 =======
       this.div.addEventListener("keydown", this.#keydown.bind(this), {
         signal: this._uiManager._signal
@@ -185786,11 +187196,14 @@ class HighlightEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.parent.drawLayer.addClass(this.#outlineId, "hovered");
   }
   pointerleave() {
     this.parent.drawLayer.removeClass(this.#outlineId, "hovered");
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -186150,6 +187563,9 @@ class HighlightEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -186567,8 +187983,14 @@ class HighlightEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const boxes = this.#boxes;
     const quadPoints = new Array(boxes.length * 8);
+=======
+    const [pageX, pageY] = this.pageTranslation;
+    const boxes = this.#boxes;
+    const quadPoints = new Float32Array(boxes.length * 8);
+>>>>>>> upstream/18.0
 =======
     const [pageX, pageY] = this.pageTranslation;
     const boxes = this.#boxes;
@@ -187284,8 +188706,13 @@ class HighlightEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       const sx = x * pageWidth;
       const sy = (1 - y - height) * pageHeight;
+=======
+      const sx = x * pageWidth + pageX;
+      const sy = (1 - y - height) * pageHeight + pageY;
+>>>>>>> upstream/18.0
 =======
       const sx = x * pageWidth + pageX;
       const sy = (1 - y - height) * pageHeight + pageY;
@@ -187898,6 +189325,7 @@ class HighlightEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const pointerMove = e => {
       this.#highlightMove(parent, e);
     };
@@ -187905,6 +189333,10 @@ class HighlightEditor extends AnnotationEditor {
       capture: true,
       passive: false
     };
+=======
+    const ac = new AbortController();
+    const signal = parent.combinedSignal(ac);
+>>>>>>> upstream/18.0
 =======
     const ac = new AbortController();
     const signal = parent.combinedSignal(ac);
@@ -188500,6 +189932,7 @@ class HighlightEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       textLayer.removeEventListener("pointermove", pointerMove);
       window.removeEventListener("blur", pointerUpCallback);
       window.removeEventListener("pointerup", pointerUpCallback);
@@ -188514,6 +189947,8 @@ class HighlightEditor extends AnnotationEditor {
     textLayer.addEventListener("pointermove", pointerMove);
     this._freeHighlight = new FreeOutliner({
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -188886,6 +190321,9 @@ class HighlightEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -189245,7 +190683,11 @@ class HighlightEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     } = parent.drawLayer.highlight(this._freeHighlight, this._defaultColor, this._defaultOpacity, true));
+=======
+    } = parent.drawLayer.draw(this._freeHighlight, this._defaultColor, this._defaultOpacity, true));
+>>>>>>> upstream/18.0
 =======
     } = parent.drawLayer.draw(this._freeHighlight, this._defaultColor, this._defaultOpacity, true));
 >>>>>>> upstream/18.0
@@ -189733,7 +191175,11 @@ class HighlightEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       parent.drawLayer.removeFreeHighlight(this._freeHighlightId);
+=======
+      parent.drawLayer.remove(this._freeHighlightId);
+>>>>>>> upstream/18.0
 =======
       parent.drawLayer.remove(this._freeHighlightId);
 >>>>>>> upstream/18.0
@@ -190211,6 +191657,7 @@ class HighlightEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   static deserialize(data, parent, uiManager) {
     const editor = super.deserialize(data, parent, uiManager);
     const {
@@ -190234,6 +191681,8 @@ class HighlightEditor extends AnnotationEditor {
     }
     editor.#createOutlines();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -190703,6 +192152,9 @@ class HighlightEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -191062,10 +192514,13 @@ class HighlightEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const rect = this.getRect(0, 0);
     const color = AnnotationEditor._colorManager.convert(this.color);
     return {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -191423,6 +192878,9 @@ class HighlightEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -191787,7 +193245,10 @@ class HighlightEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -192156,6 +193617,9 @@ class HighlightEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -192515,7 +193979,11 @@ class HighlightEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/editor/ink.js
+=======
+;// ./src/display/editor/ink.js
+>>>>>>> upstream/18.0
 =======
 ;// ./src/display/editor/ink.js
 >>>>>>> upstream/18.0
@@ -192996,6 +194464,7 @@ class InkEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   #boundCanvasPointermove = this.canvasPointermove.bind(this);
   #boundCanvasPointerleave = this.canvasPointerleave.bind(this);
   #boundCanvasPointerup = this.canvasPointerup.bind(this);
@@ -193007,6 +194476,8 @@ class InkEditor extends AnnotationEditor {
   #isCanvasInitialized = false;
   #observer = null;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -193366,6 +194837,9 @@ class InkEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -193861,7 +195335,11 @@ class InkEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.#observer.disconnect();
+=======
+    this.#observer?.disconnect();
+>>>>>>> upstream/18.0
 =======
     this.#observer?.disconnect();
 >>>>>>> upstream/18.0
@@ -194357,7 +195835,11 @@ class InkEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.canvas.addEventListener("pointerdown", this.#boundCanvasPointerdown);
+=======
+    this.#addPointerdownListener();
+>>>>>>> upstream/18.0
 =======
     this.#addPointerdownListener();
 >>>>>>> upstream/18.0
@@ -194838,7 +196320,11 @@ class InkEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.canvas.removeEventListener("pointerdown", this.#boundCanvasPointerdown);
+=======
+    this.#removePointerdownListener();
+>>>>>>> upstream/18.0
 =======
     this.#removePointerdownListener();
 >>>>>>> upstream/18.0
@@ -195350,12 +196836,15 @@ class InkEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.canvas.addEventListener("contextmenu", noContextMenu);
     this.canvas.addEventListener("pointerleave", this.#boundCanvasPointerleave);
     this.canvas.addEventListener("pointermove", this.#boundCanvasPointermove);
     this.canvas.addEventListener("pointerup", this.#boundCanvasPointerup);
     this.canvas.removeEventListener("pointerdown", this.#boundCanvasPointerdown);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -195722,6 +197211,9 @@ class InkEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -196262,7 +197754,10 @@ class InkEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -196628,6 +198123,9 @@ class InkEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -197006,10 +198504,16 @@ class InkEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.canvas.removeEventListener("pointerleave", this.#boundCanvasPointerleave);
     this.canvas.removeEventListener("pointermove", this.#boundCanvasPointermove);
     this.canvas.removeEventListener("pointerup", this.#boundCanvasPointerup);
     this.canvas.addEventListener("pointerdown", this.#boundCanvasPointerdown);
+=======
+    this.#drawingAC?.abort();
+    this.#drawingAC = null;
+    this.#addPointerdownListener();
+>>>>>>> upstream/18.0
 =======
     this.#drawingAC?.abort();
     this.#drawingAC = null;
@@ -197745,7 +199249,10 @@ class InkEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -198103,6 +199610,9 @@ class InkEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -198701,12 +200211,15 @@ class InkEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   static deserialize(data, parent, uiManager) {
     if (data instanceof InkAnnotationElement) {
       return null;
     }
     const editor = super.deserialize(data, parent, uiManager);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -199063,6 +200576,9 @@ class InkEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -199480,7 +200996,11 @@ class InkEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/editor/stamp.js
+=======
+;// ./src/display/editor/stamp.js
+>>>>>>> upstream/18.0
 =======
 ;// ./src/display/editor/stamp.js
 >>>>>>> upstream/18.0
@@ -199997,7 +201517,10 @@ class StampEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -200368,6 +201891,9 @@ class StampEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -200739,10 +202265,13 @@ class StampEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (this.#canvas) {
       this.div.focus();
     }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -201164,6 +202693,9 @@ class StampEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -201541,6 +203073,10 @@ class StampEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    const signal = this._uiManager._signal;
+>>>>>>> upstream/18.0
 =======
     const signal = this._uiManager._signal;
 >>>>>>> upstream/18.0
@@ -202020,10 +203556,13 @@ class StampEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           this.#getBitmapFetched(data);
         }
         resolve();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -202386,6 +203925,9 @@ class StampEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -202743,6 +204285,11 @@ class StampEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      }, {
+        signal
+>>>>>>> upstream/18.0
 =======
       }, {
         signal
@@ -203391,6 +204938,10 @@ class StampEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    this.div.setAttribute("role", "figure");
+>>>>>>> upstream/18.0
 =======
     this.div.setAttribute("role", "figure");
 >>>>>>> upstream/18.0
@@ -203869,7 +205420,11 @@ class StampEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (this.width) {
+=======
+    if (this.width && !this.annotationElementId) {
+>>>>>>> upstream/18.0
 =======
     if (this.width && !this.annotationElementId) {
 >>>>>>> upstream/18.0
@@ -204369,9 +205924,12 @@ class StampEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     div.append(canvas);
     div.hidden = false;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -204728,6 +206286,9 @@ class StampEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -205094,7 +206655,10 @@ class StampEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -205530,6 +207094,9 @@ class StampEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -205887,7 +207454,10 @@ class StampEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.setDims(width, height);
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -206282,6 +207852,7 @@ class StampEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width = Math.ceil(width);
     height = Math.ceil(height);
     const canvas = this.#canvas;
@@ -206317,6 +207888,8 @@ class StampEditor extends AnnotationEditor {
     ctx.filter = this._uiManager.hcmFilter;
     ctx.drawImage(bitmap, 0, 0, bitmap.width, bitmap.height, 0, 0, width, height);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -206681,6 +208254,9 @@ class StampEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -207067,6 +208643,12 @@ class StampEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    if (!this._uiManager._signal) {
+      return;
+    }
+>>>>>>> upstream/18.0
 =======
     if (!this._uiManager._signal) {
       return;
@@ -207782,6 +209364,7 @@ class StampEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   }
   static deserialize(data, parent, uiManager) {
     if (data instanceof StampAnnotationElement) {
@@ -207791,6 +209374,8 @@ class StampEditor extends AnnotationEditor {
     const {
       rect,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -208193,6 +209778,9 @@ class StampEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -208553,6 +210141,12 @@ class StampEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      if (bitmap) {
+        editor.#bitmap = bitmap;
+      }
+>>>>>>> upstream/18.0
 =======
       if (bitmap) {
         editor.#bitmap = bitmap;
@@ -209268,10 +210862,13 @@ class StampEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (accessibilityData) {
       editor.altTextData = accessibilityData;
     }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -209629,6 +211226,9 @@ class StampEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -209988,6 +211588,12 @@ class StampEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    if (this.deleted) {
+      return this.serializeDeleted();
+    }
+>>>>>>> upstream/18.0
 =======
     if (this.deleted) {
       return this.serializeDeleted();
@@ -210707,7 +212313,11 @@ class StampEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       serialized.accessibilityData = this.altTextData;
+=======
+      serialized.accessibilityData = this.serializeAltText(true);
+>>>>>>> upstream/18.0
 =======
       serialized.accessibilityData = this.serializeAltText(true);
 >>>>>>> upstream/18.0
@@ -211185,7 +212795,11 @@ class StampEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     } = this.altTextData;
+=======
+    } = this.serializeAltText(false);
+>>>>>>> upstream/18.0
 =======
     } = this.serializeAltText(false);
 >>>>>>> upstream/18.0
@@ -211664,7 +213278,10 @@ class StampEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -212028,6 +213645,9 @@ class StampEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -212402,10 +214022,13 @@ class StampEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 
 ;// CONCATENATED MODULE: ./src/display/editor/annotation_editor_layer.js
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -212782,6 +214405,9 @@ class StampEditor extends AnnotationEditor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -213146,9 +214772,13 @@ class AnnotationEditorLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   #boundPointerup = null;
   #boundPointerdown = null;
   #boundTextLayerPointerDown = null;
+=======
+  #clickAC = null;
+>>>>>>> upstream/18.0
 =======
   #clickAC = null;
 >>>>>>> upstream/18.0
@@ -213627,6 +215257,10 @@ class AnnotationEditorLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  #textSelectionAC = null;
+>>>>>>> upstream/18.0
 =======
   #textSelectionAC = null;
 >>>>>>> upstream/18.0
@@ -214106,6 +215740,10 @@ class AnnotationEditorLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    structTreeLayer,
+>>>>>>> upstream/18.0
 =======
     structTreeLayer,
 >>>>>>> upstream/18.0
@@ -214601,6 +216239,10 @@ class AnnotationEditorLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    this._structTree = structTreeLayer;
+>>>>>>> upstream/18.0
 =======
     this._structTree = structTreeLayer;
 >>>>>>> upstream/18.0
@@ -215145,6 +216787,12 @@ class AnnotationEditorLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  toggleDrawing(enabled = false) {
+    this.div.classList.toggle("drawing", !enabled);
+  }
+>>>>>>> upstream/18.0
 =======
   toggleDrawing(enabled = false) {
     this.div.classList.toggle("drawing", !enabled);
@@ -215859,7 +217507,11 @@ class AnnotationEditorLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   enable() {
+=======
+  async enable() {
+>>>>>>> upstream/18.0
 =======
   async enable() {
 >>>>>>> upstream/18.0
@@ -216355,7 +218007,11 @@ class AnnotationEditorLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       const editor = this.deserialize(editable);
+=======
+      const editor = await this.deserialize(editable);
+>>>>>>> upstream/18.0
 =======
       const editor = await this.deserialize(editable);
 >>>>>>> upstream/18.0
@@ -216874,8 +218530,14 @@ class AnnotationEditorLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           editor.renderAnnotationElement(editable);
           editor.show(false);
+=======
+          if (editor.renderAnnotationElement(editable)) {
+            editor.show(false);
+          }
+>>>>>>> upstream/18.0
 =======
           if (editor.renderAnnotationElement(editable)) {
             editor.show(false);
@@ -217614,10 +219276,13 @@ class AnnotationEditorLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (this.#textLayer?.div && !this.#boundTextLayerPointerDown) {
       this.#boundTextLayerPointerDown = this.#textLayerPointerDown.bind(this);
       this.#textLayer.div.addEventListener("pointerdown", this.#boundTextLayerPointerDown);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -217975,6 +219640,9 @@ class AnnotationEditorLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -218333,9 +220001,15 @@ class AnnotationEditorLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (this.#textLayer?.div && this.#boundTextLayerPointerDown) {
       this.#textLayer.div.removeEventListener("pointerdown", this.#boundTextLayerPointerDown);
       this.#boundTextLayerPointerDown = null;
+=======
+    if (this.#textLayer?.div && this.#textSelectionAC) {
+      this.#textSelectionAC.abort();
+      this.#textSelectionAC = null;
+>>>>>>> upstream/18.0
 =======
     if (this.#textLayer?.div && this.#textSelectionAC) {
       this.#textSelectionAC.abort();
@@ -219049,8 +220723,11 @@ class AnnotationEditorLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (event.target === this.#textLayer.div) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -219406,6 +221083,9 @@ class AnnotationEditorLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -219767,12 +221447,15 @@ class AnnotationEditorLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       HighlightEditor.startHighlighting(this, this.#uiManager.direction === "ltr", event);
       this.#textLayer.div.addEventListener("pointerup", () => {
         this.#textLayer.div.classList.remove("free");
       }, {
         once: true
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -220136,6 +221819,9 @@ class AnnotationEditorLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -220376,6 +222062,7 @@ class AnnotationEditorLayer {
     }
   }
   enableClick() {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -220745,6 +222432,8 @@ class AnnotationEditorLayer {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     if (this.#clickAC) {
       return;
     }
@@ -220877,6 +222566,9 @@ class AnnotationEditorLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -221305,7 +222997,12 @@ class AnnotationEditorLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             once: true
+=======
+            once: true,
+            signal: this.#uiManager._signal
+>>>>>>> upstream/18.0
 =======
             once: true,
             signal: this.#uiManager._signal
@@ -221931,6 +223628,12 @@ class AnnotationEditorLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  combinedSignal(ac) {
+    return this.#uiManager.combinedSignal(ac);
+  }
+>>>>>>> upstream/18.0
 =======
   combinedSignal(ac) {
     return this.#uiManager.combinedSignal(ac);
@@ -222667,8 +224370,13 @@ class AnnotationEditorLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   deserialize(data) {
     return AnnotationEditorLayer.#editorTypes.get(data.annotationType ?? data.annotationEditorType)?.deserialize(data, this, this.#uiManager) || null;
+=======
+  async deserialize(data) {
+    return (await AnnotationEditorLayer.#editorTypes.get(data.annotationType ?? data.annotationEditorType)?.deserialize(data, this, this.#uiManager)) || null;
+>>>>>>> upstream/18.0
 =======
   async deserialize(data) {
     return (await AnnotationEditorLayer.#editorTypes.get(data.annotationType ?? data.annotationEditorType)?.deserialize(data, this, this.#uiManager)) || null;
@@ -223304,9 +225012,12 @@ class AnnotationEditorLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   isSelected(editor) {
     return this.#uiManager.isSelected(editor);
   }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -223786,7 +225497,11 @@ class AnnotationEditorLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/draw_layer.js
+=======
+;// ./src/display/draw_layer.js
+>>>>>>> upstream/18.0
 =======
 ;// ./src/display/draw_layer.js
 >>>>>>> upstream/18.0
@@ -224322,6 +226037,7 @@ class DrawLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   highlight(outlines, color, opacity, isPathUpdatable = false) {
     const id = this.#id++;
     const root = this.#createSVG(outlines.box);
@@ -224330,6 +226046,8 @@ class DrawLayer {
       root.classList.add("free");
     }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -224685,6 +226403,9 @@ class DrawLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -225060,11 +226781,14 @@ class DrawLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   highlightOutline(outlines) {
     const id = this.#id++;
     const root = this.#createSVG(outlines.box);
     root.classList.add("highlightOutline");
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -225420,6 +227144,9 @@ class DrawLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -225782,8 +227509,12 @@ class DrawLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (outlines.free) {
       root.classList.add("free");
+=======
+    if (outlines.mustRemoveSelfIntersections) {
+>>>>>>> upstream/18.0
 =======
     if (outlines.mustRemoveSelfIntersections) {
 >>>>>>> upstream/18.0
@@ -226299,10 +228030,13 @@ class DrawLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   removeFreeHighlight(id) {
     this.remove(id);
     this.#toUpdate.delete(id);
   }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -226681,8 +228415,11 @@ class DrawLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   remove(id) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -227039,6 +228776,9 @@ class DrawLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -227404,11 +229144,14 @@ class DrawLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   }
 }
 
 ;// CONCATENATED MODULE: ./src/pdf.js
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -227765,6 +229508,9 @@ class DrawLayer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -228012,6 +229758,7 @@ class DrawLayer {
 
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -228132,6 +229879,11 @@ class DrawLayer {
 <<<<<<< HEAD
 const pdfjsVersion = "4.3.136";
 const pdfjsBuild = "0cec64437";
+=======
+
+const pdfjsVersion = "4.8.69";
+const pdfjsBuild = "3634dab10";
+>>>>>>> upstream/18.0
 =======
 
 const pdfjsVersion = "4.8.69";
@@ -228848,7 +230600,10 @@ var __webpack_exports__AnnotationMode = __webpack_exports__.AnnotationMode;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 var __webpack_exports__CMapCompressionType = __webpack_exports__.CMapCompressionType;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -229212,7 +230967,11 @@ var __webpack_exports__OPS = __webpack_exports__.OPS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 var __webpack_exports__Outliner = __webpack_exports__.Outliner;
+=======
+var __webpack_exports__OutputScale = __webpack_exports__.OutputScale;
+>>>>>>> upstream/18.0
 =======
 var __webpack_exports__OutputScale = __webpack_exports__.OutputScale;
 >>>>>>> upstream/18.0
@@ -229708,6 +231467,7 @@ var __webpack_exports__normalizeUnicode = __webpack_exports__.normalizeUnicode;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 var __webpack_exports__renderTextLayer = __webpack_exports__.renderTextLayer;
 var __webpack_exports__setLayerDimensions = __webpack_exports__.setLayerDimensions;
 var __webpack_exports__shadow = __webpack_exports__.shadow;
@@ -229717,6 +231477,8 @@ export { __webpack_exports__AbortException as AbortException, __webpack_exports_
 
 //# sourceMappingURL=pdf.js.map
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -230073,6 +231835,10 @@ export { __webpack_exports__AbortException as AbortException, __webpack_exports_
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+//# sourceMappingURL=pdf.mjs.map
+>>>>>>> upstream/18.0
+=======
 //# sourceMappingURL=pdf.mjs.map
 >>>>>>> upstream/18.0
 =======

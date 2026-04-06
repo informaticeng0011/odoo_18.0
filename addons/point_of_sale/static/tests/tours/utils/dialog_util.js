@@ -207,7 +207,11 @@ export function confirm(confirmationText, button = ".btn-primary") {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     let trigger = `.modal .modal-footer ${button}`;
+=======
+    let trigger = `.modal:not(.o_inactive_modal) .modal-footer ${button}`;
+>>>>>>> upstream/18.0
 =======
     let trigger = `.modal:not(.o_inactive_modal) .modal-footer ${button}`;
 >>>>>>> upstream/18.0
@@ -888,7 +892,10 @@ export function bodyIs(body) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -941,6 +948,9 @@ export function isButtonDisabled(text) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

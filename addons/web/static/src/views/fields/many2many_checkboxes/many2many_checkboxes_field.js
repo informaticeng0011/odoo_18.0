@@ -220,6 +220,10 @@ export class Many2ManyCheckboxesField extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        context: { type: Object, optional: true },
+>>>>>>> upstream/18.0
 =======
         context: { type: Object, optional: true },
 >>>>>>> upstream/18.0
@@ -1050,7 +1054,13 @@ export class Many2ManyCheckboxesField extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return orm.call(relation, "name_search", ["", domain]);
+=======
+            return orm.call(relation, "name_search", ["", domain], {
+                context: this.props.context || {},
+            });
+>>>>>>> upstream/18.0
 =======
             return orm.call(relation, "name_search", ["", domain], {
                 context: this.props.context || {},
@@ -2345,6 +2355,10 @@ export const many2ManyCheckboxesField = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            context: dynamicInfo.context,
+>>>>>>> upstream/18.0
 =======
             context: dynamicInfo.context,
 >>>>>>> upstream/18.0

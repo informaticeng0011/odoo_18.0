@@ -185,6 +185,10 @@ export class Thread extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.ui = useService("ui");
+>>>>>>> upstream/18.0
 =======
         this.ui = useService("ui");
 >>>>>>> upstream/18.0
@@ -985,7 +989,10 @@ export class Thread extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1071,6 +1078,9 @@ export class Thread extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1238,6 +1248,12 @@ export class Thread extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (!this.ui.isSmall) {
+            this.props.thread.composer.autofocus++;
+        }
+>>>>>>> upstream/18.0
 =======
         if (!this.ui.isSmall) {
             this.props.thread.composer.autofocus++;
@@ -2104,6 +2120,12 @@ export class Thread extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (msg.is_note) {
+            return false;
+        }
+>>>>>>> upstream/18.0
 =======
         if (msg.is_note) {
             return false;

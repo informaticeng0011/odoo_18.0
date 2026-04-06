@@ -77,7 +77,11 @@ from odoo import models, fields, api, exceptions, _
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.resource.models.utils import Intervals
+=======
+from odoo.addons.resource.models.utils import Intervals, sum_intervals
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.resource.models.utils import Intervals, sum_intervals
 >>>>>>> upstream/18.0
@@ -598,7 +602,11 @@ class HrAttendance(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                   ('refused', "Refused")], compute="_compute_overtime_status", store=True, tracking=True)
+=======
+                                                  ('refused', "Refused")], compute="_compute_overtime_status", store=True, tracking=True, readonly=False)
+>>>>>>> upstream/18.0
 =======
                                                   ('refused', "Refused")], compute="_compute_overtime_status", store=True, tracking=True, readonly=False)
 >>>>>>> upstream/18.0
@@ -1806,6 +1814,12 @@ class HrAttendance(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if isinstance(attendance.id, models.NewId):
+                # We ignore NewId records here as we want to make sure a new value means it has been manually set by the user.
+                continue
+>>>>>>> upstream/18.0
 =======
             if isinstance(attendance.id, models.NewId):
                 # We ignore NewId records here as we want to make sure a new value means it has been manually set by the user.
@@ -2942,6 +2956,7 @@ class HrAttendance(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 calendar = attendance._get_employee_calendar()
                 resource = attendance.employee_id.resource_id
                 tz = timezone(resource.tz) if not calendar else timezone(calendar.tz)
@@ -2957,6 +2972,8 @@ class HrAttendance(models.Model):
                 attendance.worked_hours = False
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3177,6 +3194,9 @@ class HrAttendance(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3437,6 +3457,7 @@ class HrAttendance(models.Model):
                 overtime_duration_real = 0
                 # Overtime is not counted if any shift is not closed or if there are no attendances for that day,
                 # this could happen when deleting attendances.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4192,6 +4213,8 @@ class HrAttendance(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
                 # No overtime computed for fully flexible employees
                 if emp.is_fully_flexible:
@@ -4446,6 +4469,9 @@ class HrAttendance(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5026,12 +5052,15 @@ class HrAttendance(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         overtime_duration = work_duration - planned_work_duration
                         if pre_work_time > company_threshold:
                             overtime_duration += pre_work_time
                         if post_work_time > company_threshold:
                             overtime_duration += post_work_time
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5277,6 +5306,9 @@ class HrAttendance(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5681,11 +5713,14 @@ class HrAttendance(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.env.add_to_compute(self._fields['overtime_hours'],
                                 to_recompute)
         self.env.add_to_compute(self._fields['validated_overtime_hours'],
                                 to_recompute)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6344,6 +6379,9 @@ class HrAttendance(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6825,6 +6863,7 @@ class HrAttendance(models.Model):
                 stop_dt = min(planned_end_dt, local_check_out)
                 work_duration += (stop_dt - start_dt).total_seconds() / 3600.0
                 # remove lunch time from work duration
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8309,6 +8348,11 @@ class HrAttendance(models.Model):
                     lunch_intervals = employee._employee_attendance_intervals(start_dt, stop_dt, lunch=True)
                     work_duration -= sum((i[1] - i[0]).total_seconds() / 3600.0 for i in lunch_intervals)
 >>>>>>> upstream/18.0
+=======
+                if not employee.is_flexible:
+                    lunch_intervals = employee._employee_attendance_intervals(start_dt, stop_dt, lunch=True)
+                    work_duration -= sum((i[1] - i[0]).total_seconds() / 3600.0 for i in lunch_intervals)
+>>>>>>> upstream/18.0
 
             # There is an overtime at the end of the day
             if local_check_out > planned_end_dt:
@@ -8529,6 +8573,11 @@ class HrAttendance(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        no_validation = res.filtered(lambda att: att.employee_id.company_id.attendance_overtime_validation == 'no_validation')
+        self.env.add_to_compute(self._fields['validated_overtime_hours'], no_validation)
+>>>>>>> upstream/18.0
 =======
         no_validation = res.filtered(lambda att: att.employee_id.company_id.attendance_overtime_validation == 'no_validation')
         self.env.add_to_compute(self._fields['validated_overtime_hours'], no_validation)
@@ -9456,6 +9505,7 @@ class HrAttendance(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             not self.env.user.has_group('hr_attendance.group_hr_attendance_officer'):
             raise AccessError(_("Do not have access, user cannot edit the attendances that are not his own."))
         attendances_dates = self._get_attendances_dates()
@@ -10096,6 +10146,8 @@ class HrAttendance(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             not self.env.user.has_group('hr_attendance.group_hr_attendance_manager') and \
             self.env['hr.employee'].sudo().browse(vals['employee_id']).attendance_manager_id.id != self.env.user.id:
             raise AccessError(_("Do not have access, user cannot edit the attendances that are not their own or if they are not the attendance manager of the employee."))
@@ -10147,6 +10199,9 @@ class HrAttendance(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10247,6 +10302,7 @@ class HrAttendance(models.Model):
             vals.update({'out_mode': 'manual'})
         if vals.get('check_in') and self.in_mode == 'technical':
             vals.update({'in_mode': 'manual'})
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10912,6 +10968,9 @@ class HrAttendance(models.Model):
 =======
         result = super().write(vals)
 >>>>>>> upstream/18.0
+=======
+        result = super().write(vals)
+>>>>>>> upstream/18.0
         if any(field in vals for field in ['employee_id', 'check_in', 'check_out']):
             # Merge attendance dates before and after write to recompute the
             # overtime if the attendances have been moved to another day
@@ -10959,6 +11018,7 @@ class HrAttendance(models.Model):
     def _load_demo_data(self):
         if self.has_demo_data():
             return
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11534,6 +11594,8 @@ class HrAttendance(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         env_sudo = self.sudo().with_context({}).env
         env_sudo['hr.employee']._load_scenario()
         # Load employees, schedules, departments and partners
@@ -11728,6 +11790,9 @@ class HrAttendance(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12248,6 +12313,7 @@ class HrAttendance(models.Model):
 
     def _read_group_employee_id(self, resources, domain):
         user_domain = self.env.context.get('user_domain')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13131,10 +13197,13 @@ class HrAttendance(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         employee_domain = [('company_id', 'in', self.env.context.get('allowed_company_ids', []))]
         if not self.env.user.has_group('hr_attendance.group_hr_attendance_manager'):
             employee_domain = AND([employee_domain, [('attendance_manager_id', '=', self.env.user.id)]])
         if not user_domain:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14015,6 +14084,8 @@ class HrAttendance(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             # Workaround to make it work only for list view.
             if 'gantt_start_date' in self.env.context:
                 return self.env['hr.employee'].search(employee_domain)
@@ -14224,6 +14295,9 @@ class HrAttendance(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14640,6 +14714,7 @@ class HrAttendance(models.Model):
             for leaf in user_domain:
                 if len(leaf) == 3 and leaf[0] == 'employee_id':
                     employee_name_domain.append([('name', leaf[1], leaf[2])])
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15817,6 +15892,9 @@ class HrAttendance(models.Model):
 =======
             return resources | self.env['hr.employee'].search(AND([OR(employee_name_domain), employee_domain]))
 >>>>>>> upstream/18.0
+=======
+            return resources | self.env['hr.employee'].search(AND([OR(employee_name_domain), employee_domain]))
+>>>>>>> upstream/18.0
 
     def action_approve_overtime(self):
         self.write({
@@ -15829,6 +15907,7 @@ class HrAttendance(models.Model):
         })
 
     def _cron_auto_check_out(self):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17101,6 +17180,11 @@ class HrAttendance(models.Model):
             """Returns check-in time in calendar's timezone."""
             return attendance.check_in.astimezone(pytz.timezone(attendance.employee_id._get_tz()))
 >>>>>>> upstream/18.0
+=======
+        def check_in_tz(attendance):
+            """Returns check-in time in calendar's timezone."""
+            return attendance.check_in.astimezone(pytz.timezone(attendance.employee_id._get_tz()))
+>>>>>>> upstream/18.0
 
         to_verify = self.env['hr.attendance'].search(
             [('check_out', '=', False),
@@ -17315,6 +17399,9 @@ class HrAttendance(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17739,6 +17826,7 @@ class HrAttendance(models.Model):
         if not to_verify:
             return
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18379,6 +18467,8 @@ class HrAttendance(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         to_verify_min_date = min(to_verify.mapped('check_in')).replace(hour=0, minute=0, second=0)
         previous_attendances = self.env['hr.attendance'].search([
                     ('employee_id', 'in', to_verify.mapped('employee_id').ids),
@@ -18556,6 +18646,9 @@ class HrAttendance(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19118,6 +19211,9 @@ class HrAttendance(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19544,6 +19640,7 @@ class HrAttendance(models.Model):
             max_tol = company.auto_check_out_tolerance
             to_verify_company = to_verify.filtered(lambda a: a.employee_id.company_id.id == company.id)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20619,6 +20716,8 @@ class HrAttendance(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             for att in to_verify_company:
 
                 employee_timezone = pytz.timezone(att.employee_id._get_tz())
@@ -20818,6 +20917,9 @@ class HrAttendance(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21180,6 +21282,7 @@ class HrAttendance(models.Model):
 
         technical_attendances_vals = []
         absent_employees = self.env['hr.employee'].search([('id', 'not in', checked_in_employees.ids),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22564,6 +22667,8 @@ class HrAttendance(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                                                            ('company_id', 'in', companies.ids),
                                                            ('resource_calendar_id.flexible_hours', '=', False)])
 
@@ -22574,6 +22679,9 @@ class HrAttendance(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

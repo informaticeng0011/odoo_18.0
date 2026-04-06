@@ -45,6 +45,10 @@ import { FetchRecordError } from "./errors";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { RequestEntityTooLargeError } from "@web/core/network/rpc";
+>>>>>>> upstream/18.0
 =======
 import { RequestEntityTooLargeError } from "@web/core/network/rpc";
 >>>>>>> upstream/18.0
@@ -1226,7 +1230,11 @@ export class Record extends DataPoint {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (onError) {
+=======
+            if (onError && !(e instanceof RequestEntityTooLargeError)) {
+>>>>>>> upstream/18.0
 =======
             if (onError && !(e instanceof RequestEntityTooLargeError)) {
 >>>>>>> upstream/18.0

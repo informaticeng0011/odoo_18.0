@@ -241,7 +241,10 @@ class TestMailAliasCommon(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -901,6 +904,9 @@ class TestMailAliasCommon(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1356,7 +1362,11 @@ class TestMailAlias(TestMailAliasCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for value, expected in [
+=======
+        test_cases = [
+>>>>>>> upstream/18.0
 =======
         test_cases = [
 >>>>>>> upstream/18.0
@@ -1402,10 +1412,13 @@ class TestMailAlias(TestMailAliasCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ]:
             self.env['ir.config_parameter'].set_param('mail.catchall.domain.allowed', value)
             self.assertEqual(self.env['ir.config_parameter'].get_param('mail.catchall.domain.allowed'), expected)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1475,6 +1488,9 @@ class TestMailAlias(TestMailAliasCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2170,6 +2186,10 @@ class TestAliasCompany(TestMailAliasCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertFalse(self.company_no_alias.alias_domain_id)
+>>>>>>> upstream/18.0
 =======
         self.assertFalse(self.company_no_alias.alias_domain_id)
 >>>>>>> upstream/18.0
@@ -3476,6 +3496,11 @@ class TestMailAliasMixin(TestMailAliasCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            # company without alias domain -> set False on alias also, to avoid MC issues
+            (self.company_no_alias.id, self.company_no_alias, self.env['mail.alias.domain']),
+>>>>>>> upstream/18.0
 =======
             # company without alias domain -> set False on alias also, to avoid MC issues
             (self.company_no_alias.id, self.company_no_alias, self.env['mail.alias.domain']),

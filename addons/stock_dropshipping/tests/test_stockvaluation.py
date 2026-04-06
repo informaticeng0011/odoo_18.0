@@ -39,7 +39,11 @@ class TestStockValuation(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _dropship_product1(self):
+=======
+    def _dropship_product1(self, bill_price=None):
+>>>>>>> upstream/18.0
 =======
     def _dropship_product1(self, bill_price=None):
 >>>>>>> upstream/18.0
@@ -159,6 +163,11 @@ class TestStockValuation(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                if bill_price:
+                    line_form.price_unit = bill_price
+>>>>>>> upstream/18.0
 =======
                 if bill_price:
                     line_form.price_unit = bill_price
@@ -739,7 +748,10 @@ class TestStockValuation(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1541,6 +1553,7 @@ class TestStockValuation(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1981,6 +1994,8 @@ class TestStockValuation(ValuationReconciliationTestCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2051,6 +2066,9 @@ class TestStockValuation(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

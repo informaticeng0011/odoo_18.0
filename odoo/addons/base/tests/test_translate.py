@@ -12,7 +12,11 @@ import io
 from odoo.exceptions import UserError
 from odoo.tools import sql
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools.translate import quote, unquote, xml_translate, html_translate, TranslationImporter, TranslationModuleReader
+=======
+from odoo.tools.translate import _push, quote, unquote, xml_translate, html_translate, TranslationImporter, TranslationModuleReader, TranslationReader
+>>>>>>> upstream/18.0
 =======
 from odoo.tools.translate import _push, quote, unquote, xml_translate, html_translate, TranslationImporter, TranslationModuleReader, TranslationReader
 >>>>>>> upstream/18.0
@@ -208,7 +212,10 @@ class TranslationToolsTestCase(BaseCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -427,6 +434,9 @@ class TranslationToolsTestCase(BaseCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -705,7 +715,10 @@ class TranslationToolsTestCase(BaseCase):
         self.assertEqual(result, source)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_push_filters_no_letter_strings(self):
         """Strings with no letters should not be exported for translation."""
         terms = []
@@ -724,6 +737,9 @@ class TranslationToolsTestCase(BaseCase):
         _push(lambda term, line: terms.append(term), 'g', 1)
         self.assertEqual(terms, ['g'])
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 class TestLanguageInstall(TransactionCase):
@@ -757,7 +773,10 @@ class TestTranslationExport(TransactionCase):
             TranslationModuleReader(self.env.cr)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_push_translation_filters_no_letter_strings(self):
         """Strings with no letters should not be queued for translation export."""
         reader = TranslationReader(self.env.cr)
@@ -775,6 +794,9 @@ class TestTranslationExport(TransactionCase):
         sources = [entry[1] for entry in reader._to_translate]
         self.assertEqual(sources, ['g'])
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 class TestTranslation(TransactionCase):
@@ -1682,7 +1704,11 @@ class TestXMLTranslation(TransactionCase):
         self.assertEqual(view.arch_db, archf % terms_en)
         self.assertEqual(view.with_context(lang='fr_FR').arch_db, archf % terms_fr)
 <<<<<<< HEAD
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0

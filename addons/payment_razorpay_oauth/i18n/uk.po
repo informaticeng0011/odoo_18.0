@@ -1,8 +1,14 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* payment_razorpay_oauth
 #
+=======
+# * payment_razorpay_oauth
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
 =======
 # * payment_razorpay_oauth
 #
@@ -14,6 +20,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "PO-Revision-Date: 2025-12-29 18:38+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -22,6 +29,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2026-03-29 12:17+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Ukrainian <https://translate.odoo.com/projects/odoo-18/"
@@ -33,13 +42,20 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.16.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment_razorpay_oauth
 #: model_terms:ir.ui.view,arch_db:payment_razorpay_oauth.payment_provider_form_razorpay_oauth
 msgid "Account ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID облікового запису"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID облікового запису"
 >>>>>>> upstream/18.0
@@ -48,7 +64,11 @@ msgstr "ID облікового запису"
 #: model_terms:ir.ui.view,arch_db:payment_razorpay_oauth.authorization_error
 msgid "An error occurred"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Виникла помилка"
+>>>>>>> upstream/18.0
 =======
 msgstr "Виникла помилка"
 >>>>>>> upstream/18.0
@@ -78,7 +98,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:payment_razorpay_oauth.payment_provider_form_razorpay_oauth
 msgid "Connect"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "З'єднати"
+>>>>>>> upstream/18.0
 =======
 msgstr "З'єднати"
 >>>>>>> upstream/18.0
@@ -99,7 +123,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:payment_razorpay_oauth.payment_provider_form_razorpay_oauth
 msgid "Generate your webhook"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Створіть ваш webhook"
+>>>>>>> upstream/18.0
 =======
 msgstr "Створіть ваш webhook"
 >>>>>>> upstream/18.0
@@ -109,7 +137,11 @@ msgstr "Створіть ваш webhook"
 #: code:addons/payment_razorpay_oauth/models/payment_provider.py:0
 msgid "Other Payment Providers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Інші провайдери платежу"
+>>>>>>> upstream/18.0
 =======
 msgstr "Інші провайдери платежу"
 >>>>>>> upstream/18.0
@@ -118,7 +150,11 @@ msgstr "Інші провайдери платежу"
 #: model:ir.model,name:payment_razorpay_oauth.model_payment_provider
 msgid "Payment Provider"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Провайдер платежу"
+>>>>>>> upstream/18.0
 =======
 msgstr "Провайдер платежу"
 >>>>>>> upstream/18.0
@@ -142,7 +178,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:payment_razorpay_oauth.field_payment_provider__razorpay_key_id
 msgid "Razorpay Key Id"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Id ключа Razorpay"
+>>>>>>> upstream/18.0
 =======
 msgstr "Id ключа Razorpay"
 >>>>>>> upstream/18.0
@@ -151,7 +191,11 @@ msgstr "Id ключа Razorpay"
 #: model:ir.model.fields,field_description:payment_razorpay_oauth.field_payment_provider__razorpay_key_secret
 msgid "Razorpay Key Secret"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Секретний ключ Razorpay"
+>>>>>>> upstream/18.0
 =======
 msgstr "Секретний ключ Razorpay"
 >>>>>>> upstream/18.0
@@ -170,7 +214,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:payment_razorpay_oauth.field_payment_provider__razorpay_webhook_secret
 msgid "Razorpay Webhook Secret"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Секрет Webhook Razorpay"
+>>>>>>> upstream/18.0
 =======
 msgstr "Секрет Webhook Razorpay"
 >>>>>>> upstream/18.0
@@ -201,6 +249,11 @@ msgstr ""
 msgid "The key solely used to identify the account with Razorpay."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ключ, який використовується виключно для ідентифікації облікового запису в "
+"Razorpay."
+>>>>>>> upstream/18.0
 =======
 "Ключ, який використовується виключно для ідентифікації облікового запису в "
 "Razorpay."
@@ -215,7 +268,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:payment_razorpay_oauth.payment_provider_form_razorpay_oauth
 msgid "Webhook Secret"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Секрет Webhook"
+>>>>>>> upstream/18.0
 =======
 msgstr "Секрет Webhook"
 >>>>>>> upstream/18.0

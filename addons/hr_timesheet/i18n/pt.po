@@ -134,8 +134,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* hr_timesheet
 # 
+=======
+# * hr_timesheet
+#
+>>>>>>> upstream/18.0
 =======
 # * hr_timesheet
 #
@@ -945,6 +950,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Daniel Reis, 2025
 >>>>>>> upstream/18.0
@@ -1936,10 +1942,16 @@
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # "Pedro Silva (Exo)" <pedrocs@exo.pt>, 2026.
 >>>>>>> upstream/18.0
+=======
+# Daniel Reis, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# "Pedro Silva (Exo)" <pedrocs@exo.pt>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3092,12 +3104,18 @@ msgstr ""
 "PO-Revision-Date: 2026-01-28 08:40+0000\n"
 "Last-Translator: \"Pedro Silva (Exo)\" <pedrocs@exo.pt>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2026-02-20 18:38+0000\n"
+"PO-Revision-Date: 2026-01-28 08:40+0000\n"
+"Last-Translator: \"Pedro Silva (Exo)\" <pedrocs@exo.pt>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Portuguese <https://translate.odoo.com/projects/odoo-18/"
 "hr_timesheet/pt/>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3693,6 +3711,11 @@ msgstr ""
 "1000000 == 0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
+"1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.portal_timesheet_table
@@ -3961,7 +3984,11 @@ msgid "#{timesheet.employee_id.name}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "#{timesheet.employee_id.name}"
+>>>>>>> upstream/18.0
 =======
 msgstr "#{timesheet.employee_id.name}"
 >>>>>>> upstream/18.0
@@ -4893,7 +4920,11 @@ msgid "%(effective)s %(uom_name)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(effective)s %(uom_name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(effective)s %(uom_name)s"
 >>>>>>> upstream/18.0
@@ -5435,6 +5466,7 @@ msgid "%(effective)s / %(allocated)s %(uom_name)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "%(effective)s/%(allocated)s %(uom_name)s"
@@ -5645,6 +5677,9 @@ msgstr "%(effective)s/%(allocated)s %(uom_name)s"
 >>>>>>> upstream/18.0
 =======
 msgstr "%(effective)s/%(allocated)s %(uom_name)s"
+>>>>>>> upstream/18.0
+=======
+msgstr "%(effective)s / %(allocated)s %(uom_name)s"
 >>>>>>> upstream/18.0
 =======
 msgstr "%(effective)s / %(allocated)s %(uom_name)s"
@@ -5977,6 +6012,7 @@ msgid "%(effective)s / %(allocated)s %(uom_name)s (%(success_rate)s%%)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "%(effective)s/%(allocated)s %(uom_name)s (%(success_rate)s%%)"
@@ -6187,6 +6223,9 @@ msgstr "%(effective)s/%(allocated)s %(uom_name)s (%(success_rate)s%%)"
 >>>>>>> upstream/18.0
 =======
 msgstr "%(effective)s/%(allocated)s %(uom_name)s (%(success_rate)s%%)"
+>>>>>>> upstream/18.0
+=======
+msgstr "%(effective)s / %(allocated)s %(uom_name)s (%(success_rate)s%%)"
 >>>>>>> upstream/18.0
 =======
 msgstr "%(effective)s / %(allocated)s %(uom_name)s (%(success_rate)s%%)"
@@ -6519,7 +6558,11 @@ msgid "%(exceeding_hours)s %(uom_name)s (+%(exceeding_rate)s%%)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(exceeding_hours)s %(uom_name)s (+%(exceeding_rate)s%%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(exceeding_hours)s %(uom_name)s (+%(exceeding_rate)s%%)"
 >>>>>>> upstream/18.0
@@ -7191,7 +7234,11 @@ msgid "%(hours)sh"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(hours)sh"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(hours)sh"
 >>>>>>> upstream/18.0
@@ -8253,7 +8300,11 @@ msgid "%(hours)sh%(minutes)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(hours)sh%(minutes)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(hours)sh%(minutes)s"
 >>>>>>> upstream/18.0
@@ -9185,6 +9236,7 @@ msgid "%(name)s's Timesheets"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Planilha de horas de %(name)s"
@@ -9588,11 +9640,15 @@ msgstr "Registo de Horas de %(name)s"
 =======
 msgstr "Registo de Horas de %(name)s"
 >>>>>>> upstream/18.0
+=======
+msgstr "Registo de Horas de %(name)s"
+>>>>>>> upstream/18.0
 
 #. module: hr_timesheet
 #. odoo-python
 #: code:addons/hr_timesheet/models/hr_timesheet.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10167,6 +10223,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "'%(missing_plan_names)s' analytic plan(s) required on the project '%"
 "(project_name)s' linked to the timesheet."
 msgstr ""
@@ -10235,6 +10293,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10501,6 +10562,7 @@ msgid "(%(sign)s%(hours)s:%(minutes)s remaining)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "(%(sign)s%(hours)s:%(minutes)s restante)"
@@ -10711,6 +10773,9 @@ msgstr "(%(sign)s%(hours)s:%(minutes)s restante)"
 >>>>>>> upstream/18.0
 =======
 msgstr "(%(sign)s%(hours)s:%(minutes)s restante)"
+>>>>>>> upstream/18.0
+=======
+msgstr "(%(sign)s%(hours)s:%(minutes)s restantes)"
 >>>>>>> upstream/18.0
 =======
 msgstr "(%(sign)s%(hours)s:%(minutes)s restantes)"
@@ -11043,7 +11108,11 @@ msgid "(%s days remaining)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(%s dias restantes)"
+>>>>>>> upstream/18.0
 =======
 msgstr "(%s dias restantes)"
 >>>>>>> upstream/18.0
@@ -11715,7 +11784,11 @@ msgid "(incl."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(incl."
+>>>>>>> upstream/18.0
 =======
 msgstr "(incl."
 >>>>>>> upstream/18.0
@@ -12646,7 +12719,11 @@ msgid "1 day"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "1 dia"
+>>>>>>> upstream/18.0
 =======
 msgstr "1 dia"
 >>>>>>> upstream/18.0
@@ -13187,7 +13264,11 @@ msgid "2 hours"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "2 horas"
+>>>>>>> upstream/18.0
 =======
 msgstr "2 horas"
 >>>>>>> upstream/18.0
@@ -13858,6 +13939,7 @@ msgid "2021-09-01"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "2021-09-01"
@@ -14458,6 +14540,9 @@ msgstr "2021-09-01"
 >>>>>>> upstream/18.0
 =======
 msgstr "2021-09-01"
+>>>>>>> upstream/18.0
+=======
+msgstr "01-09-2021"
 >>>>>>> upstream/18.0
 =======
 msgstr "01-09-2021"
@@ -14656,6 +14741,7 @@ msgstr "01-09-2021"
 #: model_terms:digest.tip,tip_description:hr_timesheet.digest_tip_hr_timesheet_0
 msgid "<b class=\"tip_title\">Tip: Record your Timesheets faster</b>"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15421,6 +15507,9 @@ msgstr ""
 =======
 "<b class=\"tip_title\">Dica: Registe as suas Folhas de Horas mais "
 >>>>>>> upstream/18.0
+=======
+"<b class=\"tip_title\">Dica: Registe as suas Folhas de Horas mais "
+>>>>>>> upstream/18.0
 "rapidamente</b>"
 
 #. module: hr_timesheet
@@ -15493,6 +15582,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-calendar me-1\" role=\"img\" aria-label=\"Date\" "
 "title=\"Date\"/>"
 <<<<<<< HEAD
@@ -15660,6 +15750,10 @@ msgstr ""
 =======
 "<i class=\"fa fa-calendar me-1\" role=\"img\" aria-label=\"Data\" title="
 "\"Data\"/>"
+>>>>>>> upstream/18.0
+=======
+"<i class=\"fa fa-calendar me-1\" role=\"img\" aria-label=\"Data\" "
+"title=\"Data\"/>"
 >>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-calendar me-1\" role=\"img\" aria-label=\"Data\" "
@@ -15901,7 +15995,11 @@ msgid "<i class=\"fa fa-print\"/> View Details"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-print\"> Ver detalhes"
+=======
+msgstr "<i class=\"fa fa-print\"/>Ver Detalhes"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-print\"/>Ver Detalhes"
 >>>>>>> upstream/18.0
@@ -16238,6 +16336,7 @@ msgid "<span class=\"text-nowrap\">Time Spent on Sub-tasks:</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "<span class=\"text-nowrap\">Tempo gasto em subtarefas:</span>"
@@ -16641,10 +16740,14 @@ msgstr "<span class=\"text-nowrap\"> Tempo Gasto em Sub-tarefas: </span>"
 =======
 msgstr "<span class=\"text-nowrap\"> Tempo Gasto em Sub-tarefas: </span>"
 >>>>>>> upstream/18.0
+=======
+msgstr "<span class=\"text-nowrap\"> Tempo Gasto em Sub-tarefas: </span>"
+>>>>>>> upstream/18.0
 
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.hr_employee_delete_wizard_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17222,6 +17325,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<span invisible=\"has_timesheet\">\n"
 "                        Are you sure you want to delete these employees?\n"
 "                    </span>"
@@ -17268,6 +17373,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17491,6 +17599,7 @@ msgid "<span style=\"margin-right: 15px;\">Total (Days)</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "<span style=\"margin-right: 15px;\">Total (dias)</span>"
@@ -17701,6 +17810,9 @@ msgstr "<span style=\"margin-right: 15px;\">Total (dias)</span>"
 >>>>>>> upstream/18.0
 =======
 msgstr "<span style=\"margin-right: 15px;\">Total (dias)</span>"
+>>>>>>> upstream/18.0
+=======
+msgstr "<span style=\"margin-right: 15px;\">Total (Dias)</span>"
 >>>>>>> upstream/18.0
 =======
 msgstr "<span style=\"margin-right: 15px;\">Total (Dias)</span>"
@@ -18032,6 +18144,7 @@ msgid "<span style=\"margin-right: 15px;\">Total (Hours)</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "<span style=\"margin-right: 15px;\">Total (horas)</span>"
@@ -18242,6 +18355,9 @@ msgstr "<span style=\"margin-right: 15px;\">Total (horas)</span>"
 >>>>>>> upstream/18.0
 =======
 msgstr "<span style=\"margin-right: 15px;\">Total (horas)</span>"
+>>>>>>> upstream/18.0
+=======
+msgstr "<span style=\"margin-right: 15px;\">Total (Horas)</span>"
 >>>>>>> upstream/18.0
 =======
 msgstr "<span style=\"margin-right: 15px;\">Total (Horas)</span>"
@@ -18713,7 +18829,11 @@ msgid "<span>Employee</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Funcionário</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Funcionário</span>"
 >>>>>>> upstream/18.0
@@ -19644,6 +19764,7 @@ msgid "<span>Time Spent</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "<span>Tempo gasto</span>"
@@ -19854,6 +19975,9 @@ msgstr "<span>Tempo gasto</span>"
 >>>>>>> upstream/18.0
 =======
 msgstr "<span>Tempo gasto</span>"
+>>>>>>> upstream/18.0
+=======
+msgstr "<span>Tempo Gasto</span>"
 >>>>>>> upstream/18.0
 =======
 msgstr "<span>Tempo Gasto</span>"
@@ -20315,7 +20439,11 @@ msgid "<strong>Progress:</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Progresso:</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Progresso:</strong>"
 >>>>>>> upstream/18.0
@@ -21246,6 +21374,7 @@ msgid "<strong>Time Remaining: </strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "<strong>Tempo restante: </strong>"
@@ -21456,6 +21585,9 @@ msgstr "<strong>Tempo restante: </strong>"
 >>>>>>> upstream/18.0
 =======
 msgstr "<strong>Tempo restante: </strong>"
+>>>>>>> upstream/18.0
+=======
+msgstr "<strong>Tempo Restante: </strong>"
 >>>>>>> upstream/18.0
 =======
 msgstr "<strong>Tempo Restante: </strong>"
@@ -21787,6 +21919,7 @@ msgid "<strong>Time recorded on sub-tasks: </strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "<strong>Tempo registrado nas subtarefas: </strong>"
@@ -21997,6 +22130,9 @@ msgstr "<strong>Tempo registrado nas subtarefas: </strong>"
 >>>>>>> upstream/18.0
 =======
 msgstr "<strong>Tempo registrado nas subtarefas: </strong>"
+>>>>>>> upstream/18.0
+=======
+msgstr "<strong>Tempo registado em sub-tarefas: </strong>"
 >>>>>>> upstream/18.0
 =======
 msgstr "<strong>Tempo registado em sub-tarefas: </strong>"
@@ -22328,6 +22464,7 @@ msgid "<strong>Total Days: </strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "<strong>Total de dias:</strong>"
@@ -22538,6 +22675,9 @@ msgstr "<strong>Total de dias:</strong>"
 >>>>>>> upstream/18.0
 =======
 msgstr "<strong>Total de dias:</strong>"
+>>>>>>> upstream/18.0
+=======
+msgstr "<strong>Total de Dias: </strong>"
 >>>>>>> upstream/18.0
 =======
 msgstr "<strong>Total de Dias: </strong>"
@@ -22869,6 +23009,7 @@ msgid "<strong>Total Hours: </strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "<strong>Total de horas: </strong>"
@@ -23079,6 +23220,9 @@ msgstr "<strong>Total de horas: </strong>"
 >>>>>>> upstream/18.0
 =======
 msgstr "<strong>Total de horas: </strong>"
+>>>>>>> upstream/18.0
+=======
+msgstr "<strong>Total de Horas: </strong>"
 >>>>>>> upstream/18.0
 =======
 msgstr "<strong>Total de Horas: </strong>"
@@ -23410,6 +23554,7 @@ msgid "<strong>Total Time Spent: </strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "<strong>Tempo total gasto: </strong>"
@@ -23620,6 +23765,9 @@ msgstr "<strong>Tempo total gasto: </strong>"
 >>>>>>> upstream/18.0
 =======
 msgstr "<strong>Tempo total gasto: </strong>"
+>>>>>>> upstream/18.0
+=======
+msgstr "<strong> Tempo Total Gasto: </strong>"
 >>>>>>> upstream/18.0
 =======
 msgstr "<strong> Tempo Total Gasto: </strong>"
@@ -23970,6 +24118,7 @@ msgid "Allocated Time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Tempo alocado"
@@ -24373,6 +24522,9 @@ msgstr "Tempo Alocado"
 =======
 msgstr "Tempo Alocado"
 >>>>>>> upstream/18.0
+=======
+msgstr "Tempo Alocado"
+>>>>>>> upstream/18.0
 
 #. module: hr_timesheet
 #: model:ir.model.fields,field_description:hr_timesheet.field_timesheets_analysis_report__amount
@@ -24452,7 +24604,11 @@ msgid "Analytic Entry"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Movimento Analítico"
+=======
+msgstr "Entrada Analítica"
+>>>>>>> upstream/18.0
 =======
 msgstr "Entrada Analítica"
 >>>>>>> upstream/18.0
@@ -24718,7 +24874,11 @@ msgid "Analytic Plan's Applicabilities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aplicações do plano analítico"
+=======
+msgstr "Aplicabilidades do Plano Analítico"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aplicabilidades do Plano Analítico"
 >>>>>>> upstream/18.0
@@ -24917,6 +25077,7 @@ msgstr "Aplicabilidades do Plano Analítico"
 #: model_terms:ir.actions.act_window,help:hr_timesheet.timesheet_action_report_by_project
 #: model_terms:ir.actions.act_window,help:hr_timesheet.timesheet_action_report_by_task
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25320,10 +25481,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Analyze the projects and tasks on which your employees spend their time."
 "<br>\n"
 "                Evaluate which part is billable and what costs it represents."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26002,10 +26166,16 @@ msgstr ""
 "<br>\n"
 "                Avalie que parte é faturável e que custos representa."
 >>>>>>> upstream/18.0
+=======
+"Analise os projetos e tarefas aos quais os seus funcionários dedicam tempo."
+"<br>\n"
+"                Avalie que parte é faturável e que custos representa."
+>>>>>>> upstream/18.0
 
 #. module: hr_timesheet
 #: model:ir.model.fields,field_description:hr_timesheet.field_res_config_settings__reminder_allow
 msgid "Approver Reminder"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26350,6 +26520,9 @@ msgstr "Lembrete ao aprovador"
 >>>>>>> upstream/18.0
 =======
 msgstr "Lembrete ao aprovador"
+>>>>>>> upstream/18.0
+=======
+msgstr "Lembrete do Aprovador"
 >>>>>>> upstream/18.0
 =======
 msgstr "Lembrete do Aprovador"
@@ -26681,6 +26854,7 @@ msgid "Archive Employees"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Arquivar funcionários"
@@ -26891,6 +27065,9 @@ msgstr "Arquivar funcionários"
 >>>>>>> upstream/18.0
 =======
 msgstr "Arquivar funcionários"
+>>>>>>> upstream/18.0
+=======
+msgstr "Arquivar Funcionários"
 >>>>>>> upstream/18.0
 =======
 msgstr "Arquivar Funcionários"
@@ -27222,7 +27399,11 @@ msgid "Audrey Peterson"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Audrey Peterson"
+>>>>>>> upstream/18.0
 =======
 msgstr "Audrey Peterson"
 >>>>>>> upstream/18.0
@@ -27763,6 +27944,7 @@ msgid "Average of Progress"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Média do progresso"
@@ -27973,6 +28155,9 @@ msgstr "Média do progresso"
 >>>>>>> upstream/18.0
 =======
 msgstr "Média do progresso"
+>>>>>>> upstream/18.0
+=======
+msgstr "Média de Progresso"
 >>>>>>> upstream/18.0
 =======
 msgstr "Média de Progresso"
@@ -28314,6 +28499,7 @@ msgid "By Task"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Por tarefa"
@@ -28524,6 +28710,9 @@ msgstr "Por tarefa"
 >>>>>>> upstream/18.0
 =======
 msgstr "Por tarefa"
+>>>>>>> upstream/18.0
+=======
+msgstr "Por Tarefa"
 >>>>>>> upstream/18.0
 =======
 msgstr "Por Tarefa"
@@ -28855,6 +29044,7 @@ msgid "Call client and discuss project"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Ligar para o cliente e debater o projeto"
@@ -29065,6 +29255,9 @@ msgstr "Ligar para o cliente e debater o projeto"
 >>>>>>> upstream/18.0
 =======
 msgstr "Ligar para o cliente e debater o projeto"
+>>>>>>> upstream/18.0
+=======
+msgstr "Ligar para o cliente e discutir o projeto"
 >>>>>>> upstream/18.0
 =======
 msgstr "Ligar para o cliente e discutir o projeto"
@@ -29396,6 +29589,7 @@ msgid "Collaborators in project shared"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Colaboradores no projeto compartilhado"
@@ -29606,6 +29800,9 @@ msgstr "Colaboradores no projeto compartilhado"
 >>>>>>> upstream/18.0
 =======
 msgstr "Colaboradores no projeto compartilhado"
+>>>>>>> upstream/18.0
+=======
+msgstr "Colaboradores no projeto partilhado"
 >>>>>>> upstream/18.0
 =======
 msgstr "Colaboradores no projeto partilhado"
@@ -29987,6 +30184,7 @@ msgid "Days / Half-Days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Dias/Dias parciais"
@@ -30197,6 +30395,9 @@ msgstr "Dias/Dias parciais"
 >>>>>>> upstream/18.0
 =======
 msgstr "Dias/Dias parciais"
+>>>>>>> upstream/18.0
+=======
+msgstr "Dias / Meio-dias"
 >>>>>>> upstream/18.0
 =======
 msgstr "Dias / Meio-dias"
@@ -30528,6 +30729,7 @@ msgid "Days Remaining"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Dias restantes"
@@ -30738,6 +30940,9 @@ msgstr "Dias restantes"
 >>>>>>> upstream/18.0
 =======
 msgstr "Dias restantes"
+>>>>>>> upstream/18.0
+=======
+msgstr "Dias Restantes"
 >>>>>>> upstream/18.0
 =======
 msgstr "Dias Restantes"
@@ -31070,7 +31275,11 @@ msgid "Deactivate the account."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Desativar a conta."
+>>>>>>> upstream/18.0
 =======
 msgstr "Desativar a conta."
 >>>>>>> upstream/18.0
@@ -31612,6 +31821,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Valor padrão do projeto para a folha de tempos gerada a partir do tipo tempo "
 "livre."
@@ -31891,6 +32101,10 @@ msgstr ""
 =======
 "Valor padrão do projeto para a folha de tempos gerada a partir do tipo tempo "
 "livre."
+>>>>>>> upstream/18.0
+=======
+"Valor padrão do projeto para a folha de horas gerada a partir do tipo de "
+"ausência."
 >>>>>>> upstream/18.0
 =======
 "Valor padrão do projeto para a folha de horas gerada a partir do tipo de "
@@ -32288,6 +32502,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Defina o \"custo por hora\" no funcionário para registrar o custo do seu "
 "tempo."
@@ -32567,6 +32782,10 @@ msgstr ""
 =======
 "Defina o \"custo por hora\" no funcionário para registrar o custo do seu "
 "tempo."
+>>>>>>> upstream/18.0
+=======
+"Defina um \"custo por hora\" para o funcionário para monitorizar o custo do "
+"seu tempo."
 >>>>>>> upstream/18.0
 =======
 "Defina um \"custo por hora\" para o funcionário para monitorizar o custo do "
@@ -32967,6 +33186,7 @@ msgid "Delete Employee"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Excluir funcionário"
@@ -33177,6 +33397,9 @@ msgstr "Excluir funcionário"
 >>>>>>> upstream/18.0
 =======
 msgstr "Excluir funcionário"
+>>>>>>> upstream/18.0
+=======
+msgstr "Excluir Funcionário"
 >>>>>>> upstream/18.0
 =======
 msgstr "Excluir Funcionário"
@@ -33512,6 +33735,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Entregue seus serviços automaticamente quando um marco for atingido, "
 "vinculando-o a um item do pedido de vendas."
@@ -33791,6 +34015,10 @@ msgstr ""
 =======
 "Entregue seus serviços automaticamente quando um marco for atingido, "
 "vinculando-o a um item do pedido de vendas."
+>>>>>>> upstream/18.0
+=======
+"Forneça os seus serviços automaticamente quando um marco for atingido, "
+"vinculando-o a uma linha de nota de encomenda."
 >>>>>>> upstream/18.0
 =======
 "Forneça os seus serviços automaticamente quando um marco for atingido, "
@@ -34243,6 +34471,7 @@ msgid "Employee Delete Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Assistente de exclusão de funcionário"
@@ -34453,6 +34682,9 @@ msgstr "Assistente de exclusão de funcionário"
 >>>>>>> upstream/18.0
 =======
 msgstr "Assistente de exclusão de funcionário"
+>>>>>>> upstream/18.0
+=======
+msgstr "Assistente de Exclusão de Funcionários"
 >>>>>>> upstream/18.0
 =======
 msgstr "Assistente de Exclusão de Funcionários"
@@ -34784,6 +35016,7 @@ msgid "Employee Reminder"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Lembrete ao funcionário"
@@ -35187,6 +35420,9 @@ msgstr "Lembrete de Funcionários"
 =======
 msgstr "Lembrete de Funcionários"
 >>>>>>> upstream/18.0
+=======
+msgstr "Lembrete de Funcionários"
+>>>>>>> upstream/18.0
 
 #. module: hr_timesheet
 #. odoo-python
@@ -35256,7 +35492,11 @@ msgid "Employee Termination"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rescisão do funcionário"
+=======
+msgstr "Rescisão de Empregado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rescisão de Empregado"
 >>>>>>> upstream/18.0
@@ -35588,6 +35828,7 @@ msgid "Employees' Timesheets"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Planilhas de horas dos funcionários"
@@ -35798,6 +36039,9 @@ msgstr "Planilhas de horas dos funcionários"
 >>>>>>> upstream/18.0
 =======
 msgstr "Planilhas de horas dos funcionários"
+>>>>>>> upstream/18.0
+=======
+msgstr "Folhas de Horas dos Funcionários"
 >>>>>>> upstream/18.0
 =======
 msgstr "Folhas de Horas dos Funcionários"
@@ -36129,6 +36373,7 @@ msgid "Encoding Method"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Método de codificação"
@@ -36532,11 +36777,15 @@ msgstr "Método de Codificação"
 =======
 msgstr "Método de Codificação"
 >>>>>>> upstream/18.0
+=======
+msgstr "Método de Codificação"
+>>>>>>> upstream/18.0
 
 #. module: hr_timesheet
 #. odoo-python
 #: code:addons/hr_timesheet/models/project_project.py:0
 msgid "Extra Time"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -37262,11 +37511,15 @@ msgstr "Tempo Extra"
 =======
 msgstr "Tempo Extra"
 >>>>>>> upstream/18.0
+=======
+msgstr "Tempo Extra"
+>>>>>>> upstream/18.0
 
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.res_config_settings_view_form
 msgid "Generate timesheets for validated time off requests and public holidays"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -37607,6 +37860,9 @@ msgstr ""
 =======
 "Gerar folhas de horas para solicitações de ausências validadas e feriados"
 >>>>>>> upstream/18.0
+=======
+"Gerar folhas de horas para solicitações de ausências validadas e feriados"
+>>>>>>> upstream/18.0
 
 #. module: hr_timesheet
 #: model:ir.model,name:hr_timesheet.model_ir_http
@@ -37675,7 +37931,11 @@ msgid "HTTP Routing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Roteamento HTTP"
+=======
+msgstr "Rotas HTTP"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rotas HTTP"
 >>>>>>> upstream/18.0
@@ -37936,7 +38196,11 @@ msgid "Has Department Manager Access"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tem acesso de gestor de departamento"
+=======
+msgstr "Tem Acesso de Gerente de Departamento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tem Acesso de Gerente de Departamento"
 >>>>>>> upstream/18.0
@@ -38267,6 +38531,7 @@ msgid "Hours / Minutes"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Horas/Minutos"
@@ -38477,6 +38742,9 @@ msgstr "Horas/Minutos"
 >>>>>>> upstream/18.0
 =======
 msgstr "Horas/Minutos"
+>>>>>>> upstream/18.0
+=======
+msgstr "Horas / Minutos"
 >>>>>>> upstream/18.0
 =======
 msgstr "Horas / Minutos"
@@ -38738,7 +39006,11 @@ msgid "Hours By Task (Including Subtasks)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Horas por Tarefa (incluindo Sub-tarefas)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Horas por Tarefa (incluindo Sub-tarefas)"
 >>>>>>> upstream/18.0
@@ -39000,7 +39272,11 @@ msgid "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Id."
+=======
+msgstr "ID"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID"
 >>>>>>> upstream/18.0
@@ -39338,6 +39614,7 @@ msgid "Internal Project"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Projeto interno"
@@ -39548,6 +39825,9 @@ msgstr "Projeto interno"
 >>>>>>> upstream/18.0
 =======
 msgstr "Projeto interno"
+>>>>>>> upstream/18.0
+=======
+msgstr "Projeto Interno"
 >>>>>>> upstream/18.0
 =======
 msgstr "Projeto Interno"
@@ -39810,7 +40090,11 @@ msgid "Invalid operator: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Operador inválido: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Operador inválido: %s"
 >>>>>>> upstream/18.0
@@ -40072,7 +40356,11 @@ msgid "Invalid value: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Valor inválido: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valor inválido: %s"
 >>>>>>> upstream/18.0
@@ -40340,7 +40628,11 @@ msgid "Last Quarter"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Último Trimestre"
+=======
+msgstr "Trimestre Passado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trimestre Passado"
 >>>>>>> upstream/18.0
@@ -40719,6 +41011,7 @@ msgid "Message Partner"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Mensagem ao parceiro"
@@ -41122,6 +41415,9 @@ msgstr "Parceiro de Mensagem"
 =======
 msgstr "Parceiro de Mensagem"
 >>>>>>> upstream/18.0
+=======
+msgstr "Parceiro de Mensagem"
+>>>>>>> upstream/18.0
 
 #. module: hr_timesheet
 #: model:ir.model.fields,field_description:hr_timesheet.field_account_analytic_line__milestone_id
@@ -41191,7 +41487,11 @@ msgid "Milestone"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Milestone"
+=======
+msgstr "Marco"
+>>>>>>> upstream/18.0
 =======
 msgstr "Marco"
 >>>>>>> upstream/18.0
@@ -41522,6 +41822,7 @@ msgid "My Department's Updates"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Atualizações do meu departamento"
@@ -41732,6 +42033,9 @@ msgstr "Atualizações do meu departamento"
 >>>>>>> upstream/18.0
 =======
 msgstr "Atualizações do meu departamento"
+>>>>>>> upstream/18.0
+=======
+msgstr "Atualizações do Meu Departamento"
 >>>>>>> upstream/18.0
 =======
 msgstr "Atualizações do Meu Departamento"
@@ -42063,6 +42367,7 @@ msgid "My Team's Updates"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Atualizações da minha equipe"
@@ -42273,6 +42578,9 @@ msgstr "Atualizações da minha equipe"
 >>>>>>> upstream/18.0
 =======
 msgstr "Atualizações da minha equipe"
+>>>>>>> upstream/18.0
+=======
+msgstr "Atualizações da Minha Equipa"
 >>>>>>> upstream/18.0
 =======
 msgstr "Atualizações da Minha Equipa"
@@ -42618,6 +42926,7 @@ msgid "No Parent Task"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Sem tarefa principal"
@@ -42828,6 +43137,9 @@ msgstr "Sem tarefa principal"
 >>>>>>> upstream/18.0
 =======
 msgstr "Sem tarefa principal"
+>>>>>>> upstream/18.0
+=======
+msgstr "Sem Tarefa Ascendente"
 >>>>>>> upstream/18.0
 =======
 msgstr "Sem Tarefa Ascendente"
@@ -43159,6 +43471,7 @@ msgid "No Task"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Nenhuma tarefa"
@@ -43369,6 +43682,9 @@ msgstr "Nenhuma tarefa"
 >>>>>>> upstream/18.0
 =======
 msgstr "Nenhuma tarefa"
+>>>>>>> upstream/18.0
+=======
+msgstr "Sem Tarefa"
 >>>>>>> upstream/18.0
 =======
 msgstr "Sem Tarefa"
@@ -43701,6 +44017,7 @@ msgid "No activities found. Let's start a new one!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Nenhuma atividade encontrada. Vamos iniciar a primeira!"
@@ -44104,6 +44421,9 @@ msgstr "Não foram encontradas atividades. Vamos começar uma nova!"
 =======
 msgstr "Não foram encontradas atividades. Vamos começar uma nova!"
 >>>>>>> upstream/18.0
+=======
+msgstr "Não foram encontradas atividades. Vamos começar uma nova!"
+>>>>>>> upstream/18.0
 
 #. module: hr_timesheet
 #: model_terms:ir.actions.act_window,help:hr_timesheet.act_hr_timesheet_report
@@ -44174,7 +44494,11 @@ msgid "No data yet!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sem dados ainda!"
+=======
+msgstr "Sem dados!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sem dados!"
 >>>>>>> upstream/18.0
@@ -44511,7 +44835,11 @@ msgid "Number of allocated hours minus the number of hours spent."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Número de horas alocadas menos o número de horas gastas."
+>>>>>>> upstream/18.0
 =======
 msgstr "Número de horas alocadas menos o número de horas gastas."
 >>>>>>> upstream/18.0
@@ -44985,7 +45313,10 @@ msgstr "Parceiro"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -45117,6 +45448,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -45365,6 +45699,7 @@ msgid "Project Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Conta do projeto"
@@ -45575,6 +45910,9 @@ msgstr "Conta do projeto"
 >>>>>>> upstream/18.0
 =======
 msgstr "Conta do projeto"
+>>>>>>> upstream/18.0
+=======
+msgstr "Conta do Projeto"
 >>>>>>> upstream/18.0
 =======
 msgstr "Conta do Projeto"
@@ -45917,6 +46255,7 @@ msgid "Project's Timesheets"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Planilhas de horas do projeto"
@@ -46127,6 +46466,9 @@ msgstr "Planilhas de horas do projeto"
 >>>>>>> upstream/18.0
 =======
 msgstr "Planilhas de horas do projeto"
+>>>>>>> upstream/18.0
+=======
+msgstr "Folhas de Horas do Projeto"
 >>>>>>> upstream/18.0
 =======
 msgstr "Folhas de Horas do Projeto"
@@ -46459,6 +46801,7 @@ msgid "Record a new activity"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Registrar uma nova atividade"
@@ -46669,6 +47012,9 @@ msgstr "Registrar uma nova atividade"
 >>>>>>> upstream/18.0
 =======
 msgstr "Registrar uma nova atividade"
+>>>>>>> upstream/18.0
+=======
+msgstr "Registar uma nova atividade"
 >>>>>>> upstream/18.0
 =======
 msgstr "Registar uma nova atividade"
@@ -47003,6 +47349,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Registre suas planilhas de horas em um instante pressionando Shift + a tecla "
 "de atalho correspondente para adicionar 15 min aos seus projetos."
@@ -47282,6 +47629,10 @@ msgstr ""
 =======
 "Registre suas planilhas de horas em um instante pressionando Shift + a tecla "
 "de atalho correspondente para adicionar 15 min aos seus projetos."
+>>>>>>> upstream/18.0
+=======
+"Registe as suas folhas de horas num instante pressionando Shift + a tecla de "
+"atalho correspondente para adicionar 15 minutos aos seus projetos."
 >>>>>>> upstream/18.0
 =======
 "Registe as suas folhas de horas num instante pressionando Shift + a tecla de "
@@ -47607,7 +47958,11 @@ msgid "Reporting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "A Reportar"
+=======
+msgstr "Relatórios"
+>>>>>>> upstream/18.0
 =======
 msgstr "Relatórios"
 >>>>>>> upstream/18.0
@@ -47938,7 +48293,11 @@ msgid "Research and Development"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pesquisa e Desenvolvimento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pesquisa e Desenvolvimento"
 >>>>>>> upstream/18.0
@@ -48479,6 +48838,7 @@ msgid "Research and Development/New Portal System"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Pesquisa e desenvolvimento/Novo sistema do portal"
@@ -48689,6 +49049,9 @@ msgstr "Pesquisa e desenvolvimento/Novo sistema do portal"
 >>>>>>> upstream/18.0
 =======
 msgstr "Pesquisa e desenvolvimento/Novo sistema do portal"
+>>>>>>> upstream/18.0
+=======
+msgstr "Pesquisa e Desenvolvimento/Novo Sistema de Portal"
 >>>>>>> upstream/18.0
 =======
 msgstr "Pesquisa e Desenvolvimento/Novo Sistema de Portal"
@@ -49020,6 +49383,7 @@ msgid "Review all timesheets related to your projects"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Revisar todas as planilhas de horas relacionadas aos seus projetos"
@@ -49230,6 +49594,9 @@ msgstr "Revisar todas as planilhas de horas relacionadas aos seus projetos"
 >>>>>>> upstream/18.0
 =======
 msgstr "Revisar todas as planilhas de horas relacionadas aos seus projetos"
+>>>>>>> upstream/18.0
+=======
+msgstr "Reveja todos as folhas de horas relacionadas com os seus projetos"
 >>>>>>> upstream/18.0
 =======
 msgstr "Reveja todos as folhas de horas relacionadas com os seus projetos"
@@ -49562,6 +49929,7 @@ msgid "Search in Description"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Buscar em Descrição"
@@ -49772,6 +50140,9 @@ msgstr "Buscar em Descrição"
 >>>>>>> upstream/18.0
 =======
 msgstr "Buscar em Descrição"
+>>>>>>> upstream/18.0
+=======
+msgstr "Pesquisar na Descrição"
 >>>>>>> upstream/18.0
 =======
 msgstr "Pesquisar na Descrição"
@@ -50104,6 +50475,7 @@ msgid "Search in Employee"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Buscar em funcionários"
@@ -50314,6 +50686,9 @@ msgstr "Buscar em funcionários"
 >>>>>>> upstream/18.0
 =======
 msgstr "Buscar em funcionários"
+>>>>>>> upstream/18.0
+=======
+msgstr "Pesquisar em Funcionário"
 >>>>>>> upstream/18.0
 =======
 msgstr "Pesquisar em Funcionário"
@@ -50646,6 +51021,7 @@ msgid "Search in Parent Task"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Pesquisar em Tarefas principais"
@@ -51049,6 +51425,9 @@ msgstr "Pesquisar na Tarefa Ascendente"
 =======
 msgstr "Pesquisar na Tarefa Ascendente"
 >>>>>>> upstream/18.0
+=======
+msgstr "Pesquisar na Tarefa Ascendente"
+>>>>>>> upstream/18.0
 
 #. module: hr_timesheet
 #. odoo-python
@@ -51118,7 +51497,11 @@ msgid "Search in Project"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pesquisar em Projeto"
+=======
+msgstr "Pesquisar no Projeto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pesquisar no Projeto"
 >>>>>>> upstream/18.0
@@ -51450,6 +51833,7 @@ msgid "Search in Task"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Buscar em tarefas"
@@ -51660,6 +52044,9 @@ msgstr "Buscar em tarefas"
 >>>>>>> upstream/18.0
 =======
 msgstr "Buscar em tarefas"
+>>>>>>> upstream/18.0
+=======
+msgstr "Pesquisar em Tarefa"
 >>>>>>> upstream/18.0
 =======
 msgstr "Pesquisar em Tarefa"
@@ -51991,6 +52378,7 @@ msgid "See Timesheets"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Ver planilhas de horas"
@@ -52201,6 +52589,9 @@ msgstr "Ver planilhas de horas"
 >>>>>>> upstream/18.0
 =======
 msgstr "Ver planilhas de horas"
+>>>>>>> upstream/18.0
+=======
+msgstr "Ver Folhas de Horas"
 >>>>>>> upstream/18.0
 =======
 msgstr "Ver Folhas de Horas"
@@ -52534,6 +52925,7 @@ msgid "See timesheet entries"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Veja as entradas das planilhas de horas"
@@ -52744,6 +53136,9 @@ msgstr "Veja as entradas das planilhas de horas"
 >>>>>>> upstream/18.0
 =======
 msgstr "Veja as entradas das planilhas de horas"
+>>>>>>> upstream/18.0
+=======
+msgstr "Ver entradas de folhas de horas"
 >>>>>>> upstream/18.0
 =======
 msgstr "Ver entradas de folhas de horas"
@@ -53078,6 +53473,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Envie um lembrete de e-mail periódico para os aprovadores de planilhas de "
 "horas que ainda têm planilhas a validar"
@@ -53357,6 +53753,10 @@ msgstr ""
 =======
 "Envie um lembrete de e-mail periódico para os aprovadores de planilhas de "
 "horas que ainda têm planilhas a validar"
+>>>>>>> upstream/18.0
+=======
+"Envie um lembrete periódico por e-mail aos aprovadores de folhas de horas "
+"que ainda têm folhas de horas para validar"
 >>>>>>> upstream/18.0
 =======
 "Envie um lembrete periódico por e-mail aos aprovadores de folhas de horas "
@@ -53755,6 +54155,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Envie um lembrete de e-mail periódico para usuários de planilhas que ainda "
 "têm planilhas para codificar"
@@ -54034,6 +54435,10 @@ msgstr ""
 =======
 "Envie um lembrete de e-mail periódico para usuários de planilhas que ainda "
 "têm planilhas para codificar"
+>>>>>>> upstream/18.0
+=======
+"Enviar um lembrete periódico por e-mail para utilizadores de folhas de horas "
+"que ainda têm folhas de horas para codificar"
 >>>>>>> upstream/18.0
 =======
 "Enviar um lembrete periódico por e-mail para utilizadores de folhas de horas "
@@ -54359,7 +54764,11 @@ msgid "Settings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Configurações"
+=======
+msgstr "Definições"
+>>>>>>> upstream/18.0
 =======
 msgstr "Definições"
 >>>>>>> upstream/18.0
@@ -54556,6 +54965,7 @@ msgstr "Definições"
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.timesheet_report_subtask
 msgid "Sub-Task of '"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -54900,6 +55310,9 @@ msgstr "Subtarefa de '"
 >>>>>>> upstream/18.0
 =======
 msgstr "Subtarefa de '"
+>>>>>>> upstream/18.0
+=======
+msgstr "Sub-tarefa de '"
 >>>>>>> upstream/18.0
 =======
 msgstr "Sub-tarefa de '"
@@ -55232,6 +55645,7 @@ msgid "Sub-tasks Time Spent"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Tempo gasto em subtarefas"
@@ -55442,6 +55856,9 @@ msgstr "Tempo gasto em subtarefas"
 >>>>>>> upstream/18.0
 =======
 msgstr "Tempo gasto em subtarefas"
+>>>>>>> upstream/18.0
+=======
+msgstr "Sub-tarefas Tempo gasto"
 >>>>>>> upstream/18.0
 =======
 msgstr "Sub-tarefas Tempo gasto"
@@ -55785,6 +56202,7 @@ msgid "Task's Timesheets"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Planilhas de horas da tarefa"
@@ -55995,6 +56413,9 @@ msgstr "Planilhas de horas da tarefa"
 >>>>>>> upstream/18.0
 =======
 msgstr "Planilhas de horas da tarefa"
+>>>>>>> upstream/18.0
+=======
+msgstr "Folhas de Horas da Tarefa"
 >>>>>>> upstream/18.0
 =======
 msgstr "Folhas de Horas da Tarefa"
@@ -56332,6 +56753,7 @@ msgid "The Internal Project of a company should be in that company."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "O projeto interno de uma empresa deve estar nessa empresa."
@@ -56735,11 +57157,15 @@ msgstr "O Projeto Interno de uma empresa deve estar nessa empresa."
 =======
 msgstr "O Projeto Interno de uma empresa deve estar nessa empresa."
 >>>>>>> upstream/18.0
+=======
+msgstr "O Projeto Interno de uma empresa deve estar nessa empresa."
+>>>>>>> upstream/18.0
 
 #. module: hr_timesheet
 #. odoo-python
 #: code:addons/hr_timesheet/models/hr_timesheet.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -57314,6 +57740,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "The project, the task and the analytic accounts of the timesheet must belong "
 "to the same company."
 msgstr ""
@@ -57382,6 +57810,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -57519,6 +57950,7 @@ msgstr "Não existem registos de horas."
 #. odoo-python
 #: code:addons/hr_timesheet/models/project_project.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -58093,6 +58525,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "These projects have some timesheet entries referencing them. Before removing "
 "these projects, you have to remove these timesheet entries."
 msgstr ""
@@ -58161,6 +58595,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -58360,6 +58797,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Essas tarefas têm algumas entradas de folhas de horas que as referenciam. "
+"Antes de remover essas tarefas, precisa de remover esses registos de horas."
+>>>>>>> upstream/18.0
 =======
 "Essas tarefas têm algumas entradas de folhas de horas que as referenciam. "
 "Antes de remover essas tarefas, precisa de remover esses registos de horas."
@@ -58710,7 +59152,11 @@ msgid "This operator %s is not supported in this search method."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Este operador %s não é suportado neste método de pesquisa."
+>>>>>>> upstream/18.0
 =======
 msgstr "Este operador %s não é suportado neste método de pesquisa."
 >>>>>>> upstream/18.0
@@ -58908,6 +59354,7 @@ msgstr "Este operador %s não é suportado neste método de pesquisa."
 #. odoo-python
 #: code:addons/hr_timesheet/models/project_project.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -59482,6 +59929,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "This project has some timesheet entries referencing it. Before removing this "
 "project, you have to remove these timesheet entries."
 msgstr ""
@@ -59550,6 +59999,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -59818,6 +60270,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Esta tarefa não pode ser privada pois há planilhas de horas vinculadas a ela."
 >>>>>>> upstream/18.0
@@ -60027,6 +60480,10 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "Esta tarefa não pode ser privada pois há planilhas de horas vinculadas a ela."
+>>>>>>> upstream/18.0
+=======
+"Esta tarefa não pode ser privada porque há algumas folhas de horas a ela "
+"vinculados."
 >>>>>>> upstream/18.0
 =======
 "Esta tarefa não pode ser privada porque há algumas folhas de horas a ela "
@@ -60356,6 +60813,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Esta tarefa tem algumas entradas de folhas de horas que a referenciam. Antes "
+"de a remover, precisa de remover esse registos de horas."
+>>>>>>> upstream/18.0
 =======
 "Esta tarefa tem algumas entradas de folhas de horas que a referenciam. Antes "
 "de a remover, precisa de remover esse registos de horas."
@@ -60710,11 +61172,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If you use the timesheet linked to projects, don't forget to setup the right unit of measure in your employees."
 msgstr ""
 "Isto irá definir a unidade de medida usada em projetos e tarefas.\n"
 "Se usar o registo de horas ligado aos projetos, não se esqueça de definir a unidade de medida correta nos seus empregados."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -60994,6 +61459,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -61315,6 +61783,7 @@ msgid "Time Encoding"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Codificação de tempo"
@@ -61525,6 +61994,9 @@ msgstr "Codificação de tempo"
 >>>>>>> upstream/18.0
 =======
 msgstr "Codificação de tempo"
+>>>>>>> upstream/18.0
+=======
+msgstr "Codificação de Tempo"
 >>>>>>> upstream/18.0
 =======
 msgstr "Codificação de Tempo"
@@ -61866,6 +62338,7 @@ msgid "Time Remaining"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Dias restantes"
@@ -62076,6 +62549,9 @@ msgstr "Dias restantes"
 >>>>>>> upstream/18.0
 =======
 msgstr "Dias restantes"
+>>>>>>> upstream/18.0
+=======
+msgstr "Tempo Restante"
 >>>>>>> upstream/18.0
 =======
 msgstr "Tempo Restante"
@@ -62407,6 +62883,7 @@ msgid "Time Remaining Percentage"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Porcentagem de tempo restante"
@@ -62617,6 +63094,9 @@ msgstr "Porcentagem de tempo restante"
 >>>>>>> upstream/18.0
 =======
 msgstr "Porcentagem de tempo restante"
+>>>>>>> upstream/18.0
+=======
+msgstr "Percentagem de Tempo Restante"
 >>>>>>> upstream/18.0
 =======
 msgstr "Percentagem de Tempo Restante"
@@ -62948,6 +63428,7 @@ msgid "Time Remaining on SO"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Tempo restante no SO"
@@ -63351,6 +63832,9 @@ msgstr "Tempo Restante na EV"
 =======
 msgstr "Tempo Restante na EV"
 >>>>>>> upstream/18.0
+=======
+msgstr "Tempo Restante na EV"
+>>>>>>> upstream/18.0
 
 #. module: hr_timesheet
 #: model:ir.model.fields,field_description:hr_timesheet.field_project_project__effective_hours
@@ -63435,7 +63919,11 @@ msgid "Time Spent"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tempo despendido"
+=======
+msgstr "Tempo Gasto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tempo Gasto"
 >>>>>>> upstream/18.0
@@ -63767,6 +64255,7 @@ msgid "Time Spent on Sub-Tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Tempo gasto em subtarefas"
@@ -63977,6 +64466,9 @@ msgstr "Tempo gasto em subtarefas"
 >>>>>>> upstream/18.0
 =======
 msgstr "Tempo gasto em subtarefas"
+>>>>>>> upstream/18.0
+=======
+msgstr "Tempo Gasto em Sub-tarefas"
 >>>>>>> upstream/18.0
 =======
 msgstr "Tempo Gasto em Sub-tarefas"
@@ -64308,6 +64800,7 @@ msgid "Time Spent on Sub-tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Tempo gasto em subtarefas"
@@ -64518,6 +65011,9 @@ msgstr "Tempo gasto em subtarefas"
 >>>>>>> upstream/18.0
 =======
 msgstr "Tempo gasto em subtarefas"
+>>>>>>> upstream/18.0
+=======
+msgstr "Tempo Gasto em Sub-tarefas"
 >>>>>>> upstream/18.0
 =======
 msgstr "Tempo Gasto em Sub-tarefas"
@@ -64850,6 +65346,7 @@ msgid "Time spent on the sub-tasks (and their own sub-tasks) of this task."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Tempo gasto em subtarefas (e suas próprias subtarefas) desta tarefa."
@@ -65123,6 +65620,10 @@ msgstr "Tempo gasto nas sub-tarefas (e suas próprias sub-tarefas) desta tarefa.
 >>>>>>> upstream/18.0
 =======
 msgstr "Tempo gasto nas sub-tarefas (e suas próprias sub-tarefas) desta tarefa."
+>>>>>>> upstream/18.0
+=======
+msgstr ""
+"Tempo gasto nas sub-tarefas (e suas próprias sub-tarefas) desta tarefa."
 >>>>>>> upstream/18.0
 =======
 msgstr ""
@@ -65435,6 +65936,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Tempo gasto nesta tarefa e nas suas subtarefas (e nas subtarefas delas)."
 >>>>>>> upstream/18.0
@@ -65644,6 +66146,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "Tempo gasto nesta tarefa e nas suas subtarefas (e nas subtarefas delas)."
+>>>>>>> upstream/18.0
+=======
+"Tempo gasto nesta tarefa e suas sub-tarefas (e suas próprias sub-tarefas)."
 >>>>>>> upstream/18.0
 =======
 "Tempo gasto nesta tarefa e suas sub-tarefas (e suas próprias sub-tarefas)."
@@ -65975,6 +66480,7 @@ msgid "Time spent on this task, including its sub-tasks."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Tempo gasto nesta tarefa, incluindo suas subtarefas."
@@ -66185,6 +66691,9 @@ msgstr "Tempo gasto nesta tarefa, incluindo suas subtarefas."
 >>>>>>> upstream/18.0
 =======
 msgstr "Tempo gasto nesta tarefa, incluindo suas subtarefas."
+>>>>>>> upstream/18.0
+=======
+msgstr "Tempo gasto nesta tarefa, incluindo as sub-tarefas."
 >>>>>>> upstream/18.0
 =======
 msgstr "Tempo gasto nesta tarefa, incluindo as sub-tarefas."
@@ -66516,6 +67025,7 @@ msgid "Time unit used to record your timesheets"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Unidade de tempo utilizada para registrar sua planilha de horas"
@@ -66726,6 +67236,9 @@ msgstr "Unidade de tempo utilizada para registrar sua planilha de horas"
 >>>>>>> upstream/18.0
 =======
 msgstr "Unidade de tempo utilizada para registrar sua planilha de horas"
+>>>>>>> upstream/18.0
+=======
+msgstr "Unidade de tempo usada para registar as suas folhas de horas"
 >>>>>>> upstream/18.0
 =======
 msgstr "Unidade de tempo usada para registar as suas folhas de horas"
@@ -67083,6 +67596,7 @@ msgid "Timesheet Costs"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Custos de planilha de horas"
@@ -67293,6 +67807,9 @@ msgstr "Custos de planilha de horas"
 >>>>>>> upstream/18.0
 =======
 msgstr "Custos de planilha de horas"
+>>>>>>> upstream/18.0
+=======
+msgstr "Custos da Folha de Horas"
 >>>>>>> upstream/18.0
 =======
 msgstr "Custos da Folha de Horas"
@@ -67624,6 +68141,7 @@ msgid "Timesheet Encoding Unit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Unidade de codificação da planilha de horas"
@@ -67834,6 +68352,9 @@ msgstr "Unidade de codificação da planilha de horas"
 >>>>>>> upstream/18.0
 =======
 msgstr "Unidade de codificação da planilha de horas"
+>>>>>>> upstream/18.0
+=======
+msgstr "Unidade de Codificação da Folha de Ponto"
 >>>>>>> upstream/18.0
 =======
 msgstr "Unidade de Codificação da Folha de Ponto"
@@ -68165,6 +68686,7 @@ msgid "Timesheet Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Relatório da planilha de horas"
@@ -68375,6 +68897,9 @@ msgstr "Relatório da planilha de horas"
 >>>>>>> upstream/18.0
 =======
 msgstr "Relatório da planilha de horas"
+>>>>>>> upstream/18.0
+=======
+msgstr "Relatório de folha de horas"
 >>>>>>> upstream/18.0
 =======
 msgstr "Relatório de folha de horas"
@@ -68706,6 +69231,7 @@ msgid "Timesheet Time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Tempo de planilha de horas"
@@ -69109,6 +69635,9 @@ msgstr "Tempo do Registo de Horas"
 =======
 msgstr "Tempo do Registo de Horas"
 >>>>>>> upstream/18.0
+=======
+msgstr "Tempo do Registo de Horas"
+>>>>>>> upstream/18.0
 
 #. module: hr_timesheet
 #. odoo-python
@@ -69210,7 +69739,11 @@ msgid "Timesheets"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Folhas de Horas"
+=======
+msgstr "Registos de Horas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Registos de Horas"
 >>>>>>> upstream/18.0
@@ -69542,6 +70075,7 @@ msgid "Timesheets - %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Planilhas de horas – %s"
@@ -69752,6 +70286,9 @@ msgstr "Planilhas de horas – %s"
 >>>>>>> upstream/18.0
 =======
 msgstr "Planilhas de horas – %s"
+>>>>>>> upstream/18.0
+=======
+msgstr "Folhas de Horas - %s"
 >>>>>>> upstream/18.0
 =======
 msgstr "Folhas de Horas - %s"
@@ -70083,6 +70620,7 @@ msgid "Timesheets 80%"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Planilhas de horas – 80%"
@@ -70293,6 +70831,9 @@ msgstr "Planilhas de horas – 80%"
 >>>>>>> upstream/18.0
 =======
 msgstr "Planilhas de horas – 80%"
+>>>>>>> upstream/18.0
+=======
+msgstr "Folhas de Horas 80%"
 >>>>>>> upstream/18.0
 =======
 msgstr "Folhas de Horas 80%"
@@ -70625,6 +71166,7 @@ msgid "Timesheets >100%"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Planilhas de horas – >100%"
@@ -70835,6 +71377,9 @@ msgstr "Planilhas de horas – >100%"
 >>>>>>> upstream/18.0
 =======
 msgstr "Planilhas de horas – >100%"
+>>>>>>> upstream/18.0
+=======
+msgstr "Folhas de Horas >100%"
 >>>>>>> upstream/18.0
 =======
 msgstr "Folhas de Horas >100%"
@@ -71169,6 +71714,7 @@ msgid "Timesheets Analysis"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Análise de planilhas de horas"
@@ -71379,6 +71925,9 @@ msgstr "Análise de planilhas de horas"
 >>>>>>> upstream/18.0
 =======
 msgstr "Análise de planilhas de horas"
+>>>>>>> upstream/18.0
+=======
+msgstr "Análise de folhas de horas"
 >>>>>>> upstream/18.0
 =======
 msgstr "Análise de folhas de horas"
@@ -71710,6 +72259,7 @@ msgid "Timesheets Analysis Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Relatório de análise de planilhas de horas"
@@ -71920,6 +72470,9 @@ msgstr "Relatório de análise de planilhas de horas"
 >>>>>>> upstream/18.0
 =======
 msgstr "Relatório de análise de planilhas de horas"
+>>>>>>> upstream/18.0
+=======
+msgstr "Relatório de Análise das Folhas de Ponto"
 >>>>>>> upstream/18.0
 =======
 msgstr "Relatório de Análise das Folhas de Ponto"
@@ -72251,6 +72804,7 @@ msgid "Timesheets Control"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Controle de planilhas de horas"
@@ -72461,6 +73015,9 @@ msgstr "Controle de planilhas de horas"
 >>>>>>> upstream/18.0
 =======
 msgstr "Controle de planilhas de horas"
+>>>>>>> upstream/18.0
+=======
+msgstr "Controlo de Folhas de Horas"
 >>>>>>> upstream/18.0
 =======
 msgstr "Controlo de Folhas de Horas"
@@ -72792,6 +73349,7 @@ msgid "Timesheets by Employee"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Planilhas de horas por funcionário"
@@ -73002,6 +73560,9 @@ msgstr "Planilhas de horas por funcionário"
 >>>>>>> upstream/18.0
 =======
 msgstr "Planilhas de horas por funcionário"
+>>>>>>> upstream/18.0
+=======
+msgstr "Registo de Horas por Funcionário"
 >>>>>>> upstream/18.0
 =======
 msgstr "Registo de Horas por Funcionário"
@@ -73333,6 +73894,7 @@ msgid "Timesheets by Project"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Planilhas de horas por projeto"
@@ -73543,6 +74105,9 @@ msgstr "Planilhas de horas por projeto"
 >>>>>>> upstream/18.0
 =======
 msgstr "Planilhas de horas por projeto"
+>>>>>>> upstream/18.0
+=======
+msgstr "Registos de Horas por Projeto"
 >>>>>>> upstream/18.0
 =======
 msgstr "Registos de Horas por Projeto"
@@ -73874,6 +74439,7 @@ msgid "Timesheets by Task"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Planilhas de horas por tarefa"
@@ -74084,6 +74650,9 @@ msgstr "Planilhas de horas por tarefa"
 >>>>>>> upstream/18.0
 =======
 msgstr "Planilhas de horas por tarefa"
+>>>>>>> upstream/18.0
+=======
+msgstr "Registos de Horas por Tarefa"
 >>>>>>> upstream/18.0
 =======
 msgstr "Registos de Horas por Tarefa"
@@ -74416,6 +74985,7 @@ msgid "Timesheets cannot be created on a private task."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Planilhas de horas não podem ser criadas em tarefas privadas."
@@ -74819,11 +75389,15 @@ msgstr "Não é possível criar folhas de horas numa tarefa privada."
 =======
 msgstr "Não é possível criar folhas de horas numa tarefa privada."
 >>>>>>> upstream/18.0
+=======
+msgstr "Não é possível criar folhas de horas numa tarefa privada."
+>>>>>>> upstream/18.0
 
 #. module: hr_timesheet
 #. odoo-python
 #: code:addons/hr_timesheet/models/hr_timesheet.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -75397,6 +75971,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Timesheets must be created with an active employee in the selected companies."
 msgstr ""
 "As folhas de horas devem ser criadas com um funcionário ativo nas empresas "
@@ -75464,6 +76040,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -75733,6 +76312,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "As planilhas de horas devem ser criadas com pelo menos uma conta analítica "
 "ativa definida no plano '%(plan_name)s'."
@@ -76011,6 +76591,10 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "As planilhas de horas devem ser criadas com pelo menos uma conta analítica "
+"ativa definida no plano '%(plan_name)s'."
+>>>>>>> upstream/18.0
+=======
+"As folhas de horas devem ser criadas com pelo menos uma conta analítica "
 "ativa definida no plano '%(plan_name)s'."
 >>>>>>> upstream/18.0
 =======
@@ -76338,7 +76922,11 @@ msgid "Timesheets of %(name)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Registos de horas de %(name)s"
+=======
+msgstr "Folhas de horas de %(name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Folhas de horas de %(name)s"
 >>>>>>> upstream/18.0
@@ -76669,6 +77257,7 @@ msgid "Tip: Record your Timesheets faster"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Dica: Registre suas Planilhas de horas mais rapidamente"
@@ -76879,6 +77468,9 @@ msgstr "Dica: Registre suas Planilhas de horas mais rapidamente"
 >>>>>>> upstream/18.0
 =======
 msgstr "Dica: Registre suas Planilhas de horas mais rapidamente"
+>>>>>>> upstream/18.0
+=======
+msgstr "Dica: registe as suas horas mais rapidamente"
 >>>>>>> upstream/18.0
 =======
 msgstr "Dica: registe as suas horas mais rapidamente"
@@ -77215,6 +77807,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Para usar o recurso de planilhas de horas, você precisa de uma conta "
 "analítica para o seu projeto. Configure uma no plano '%(plan_name)s' ou "
@@ -77564,6 +78157,11 @@ msgstr ""
 "Para usar o recurso de planilhas de horas, você precisa de uma conta "
 "analítica para o seu projeto. Configure uma no plano '%(plan_name)s' ou "
 "desative o recurso de planilhas de horas."
+>>>>>>> upstream/18.0
+=======
+"Para usar a funcionalidade de folhas de horas, precisa de uma conta "
+"analítica para o seu projeto. Configure uma no plano '%(plan_name)s' ou "
+"desative a funcionalidade de folhas de horas."
 >>>>>>> upstream/18.0
 =======
 "Para usar a funcionalidade de folhas de horas, precisa de uma conta "
@@ -78038,6 +78636,7 @@ msgid "Total Allocated Time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Total de tempo alocado"
@@ -78248,6 +78847,9 @@ msgstr "Total de tempo alocado"
 >>>>>>> upstream/18.0
 =======
 msgstr "Total de tempo alocado"
+>>>>>>> upstream/18.0
+=======
+msgstr "Tempo Total Alocado"
 >>>>>>> upstream/18.0
 =======
 msgstr "Tempo Total Alocado"
@@ -78579,6 +79181,7 @@ msgid "Total Days Spent"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Total de dias gastos"
@@ -78789,6 +79392,9 @@ msgstr "Total de dias gastos"
 >>>>>>> upstream/18.0
 =======
 msgstr "Total de dias gastos"
+>>>>>>> upstream/18.0
+=======
+msgstr "Total de Dias Gastos"
 >>>>>>> upstream/18.0
 =======
 msgstr "Total de Dias Gastos"
@@ -79123,6 +79729,7 @@ msgid "Total Time Spent"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Total de tempo gasto"
@@ -79526,6 +80133,9 @@ msgstr "Total de Tempo Gasto"
 =======
 msgstr "Total de Tempo Gasto"
 >>>>>>> upstream/18.0
+=======
+msgstr "Total de Tempo Gasto"
+>>>>>>> upstream/18.0
 
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.portal_my_timesheets
@@ -79537,6 +80147,7 @@ msgstr "Total:"
 #: model_terms:ir.actions.act_window,help:hr_timesheet.act_hr_timesheet_line_by_project
 #: model_terms:ir.actions.act_window,help:hr_timesheet.timesheet_action_all
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -80111,6 +80722,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Track your working hours by projects every day and invoice this time to your "
 "customers."
 msgstr ""
@@ -80179,6 +80792,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -80323,6 +80939,7 @@ msgid ""
 "        @user Assign the task to a user\n"
 "        ! Set the task a high priority\n"
 "\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -80656,6 +81273,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "        Make sure to use the right format and order e.g. Improve the "
 "configuration screen 5h #feature #v16 @Mitchell !"
 msgstr ""
@@ -80731,6 +81350,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -81002,6 +81624,7 @@ msgid "User: all timesheets"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Usuário: Todas as planilhas de horas"
@@ -81212,6 +81835,9 @@ msgstr "Usuário: Todas as planilhas de horas"
 >>>>>>> upstream/18.0
 =======
 msgstr "Usuário: Todas as planilhas de horas"
+>>>>>>> upstream/18.0
+=======
+msgstr "Utilizador: todos as folhas de horas"
 >>>>>>> upstream/18.0
 =======
 msgstr "Utilizador: todos as folhas de horas"
@@ -81543,6 +82169,7 @@ msgid "User: own timesheets only"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Usuário: Somente suas planilhas de horas"
@@ -81946,10 +82573,14 @@ msgstr "Utilizador: somente folhas de horas próprias"
 =======
 msgstr "Utilizador: somente folhas de horas próprias"
 >>>>>>> upstream/18.0
+=======
+msgstr "Utilizador: somente folhas de horas próprias"
+>>>>>>> upstream/18.0
 
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.portal_my_task
 msgid "View Details"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -82207,11 +82838,15 @@ msgstr "Ver Detalhes"
 =======
 msgstr "Ver Detalhes"
 >>>>>>> upstream/18.0
+=======
+msgstr "Ver Detalhes"
+>>>>>>> upstream/18.0
 
 #. module: hr_timesheet
 #: model_terms:ir.actions.act_window,help:hr_timesheet.timesheet_action_from_employee
 msgid ""
 "You can register and track your workings hours by project every\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -82742,10 +83377,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                    day. Every time spent on a project will become a cost "
 "and can be re-invoiced to\n"
 "                    customers if required."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -83022,6 +83660,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Pode registar e rastrear as suas horas de trabalho por projeto todos os\n"
 "dias. Cada tempo gasto num projeto tornar-se-á um custo e poderá ser "
 "faturado novamente a\n"
@@ -83089,6 +83729,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -83221,6 +83864,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_timesheet/models/hr_timesheet.py:0
 msgid "You cannot access timesheets that are not yours."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -83565,6 +84209,9 @@ msgstr "Você não pode acessar planilhas de horas que não são suas."
 >>>>>>> upstream/18.0
 =======
 msgstr "Você não pode acessar planilhas de horas que não são suas."
+>>>>>>> upstream/18.0
+=======
+msgstr "Não pode aceder a folhas de horas que não são suas."
 >>>>>>> upstream/18.0
 =======
 msgstr "Não pode aceder a folhas de horas que não são suas."
@@ -83897,6 +84544,7 @@ msgid "You cannot delete employees who have timesheets."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Você não pode excluir funcionários que têm planilhas de horas."
@@ -84172,6 +84820,8 @@ msgstr "Não pode excluir funcionários que tenham folhas de horas."
 msgstr "Não pode excluir funcionários que tenham folhas de horas."
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -84309,6 +84959,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -84398,6 +85051,7 @@ msgstr ""
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.project_invoice_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -84801,11 +85455,14 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "You cannot log timesheets on this project since it is linked to an inactive "
 "analytic account.<br/>\n"
 "                            Please switch to another account, or reactivate "
 "the current one to timesheet on the project."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -85291,6 +85948,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Não pode registar folhas de horas neste projeto, pois ele está vinculado a "
 "uma conta analítica inativa.<br/>\n"
 "Por favor, troque para outra conta ou reative a atual para registar folhas "
@@ -85358,6 +86017,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -85490,6 +86152,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.view_task_form2_inherited
 msgid ""
 "You cannot log timesheets on this project since it is linked to an inactive "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -86107,6 +86770,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "analytic account.<br/> Please change this account, or reactivate the current "
 "one to timesheet on the project."
 msgstr ""
@@ -86176,6 +86841,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -86443,6 +87111,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Você não pode definir um funcionário arquivado em planilhas de horas "
 "existentes."
@@ -86721,6 +87390,10 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "Você não pode definir um funcionário arquivado em planilhas de horas "
+"existentes."
+>>>>>>> upstream/18.0
+=======
+"Não é possível definir um funcionário arquivado em folhas de horas "
 "existentes."
 >>>>>>> upstream/18.0
 =======
@@ -87047,7 +87720,11 @@ msgid "for"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "para"
+=======
+msgstr "por"
+>>>>>>> upstream/18.0
 =======
 msgstr "por"
 >>>>>>> upstream/18.0
@@ -87378,6 +88055,7 @@ msgid "for the"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "para o/a"
@@ -87781,11 +88459,15 @@ msgstr "para o"
 =======
 msgstr "para o"
 >>>>>>> upstream/18.0
+=======
+msgstr "para o"
+>>>>>>> upstream/18.0
 
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.view_task_form2_inherited
 msgid ""
 "on\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -88315,10 +88997,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                            <span class=\"fw-bold text-dark\"> Sub-tasks</"
 "span>)"
 msgstr ""
 "em\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -88659,6 +89344,9 @@ msgstr ""
 =======
 "<span class=\"fw-bold text-dark\"> Sub-tarefas </span>)"
 >>>>>>> upstream/18.0
+=======
+"<span class=\"fw-bold text-dark\"> Sub-tarefas </span>)"
+>>>>>>> upstream/18.0
 
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.project_sharing_inherit_project_task_view_form
@@ -88800,6 +89488,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "em\n"
 "                        <span class=\"fw-bold text-dark\"> Subtarefas</span>)"
@@ -89165,6 +89854,8 @@ msgstr ""
 "<span class=\"fw-bold text-dark\"> Sub-tarefas </span>)"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -89327,6 +90018,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

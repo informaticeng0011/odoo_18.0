@@ -361,6 +361,7 @@ class SurveyInvite(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for invite in self:
             if invite.subject:
                 continue
@@ -391,6 +392,11 @@ class SurveyInvite(models.TransientModel):
 >>>>>>> upstream/18.0
 =======
         for invite in self.filtered(lambda inv: not inv.subject):
+            if invite.template_id and invite.template_id.subject:
+                invite.subject = invite.template_id.subject
+>>>>>>> upstream/18.0
+=======
+        for invite in self:
             if invite.template_id and invite.template_id.subject:
                 invite.subject = invite.template_id.subject
 >>>>>>> upstream/18.0
@@ -1481,8 +1487,13 @@ class SurveyInvite(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         subject = self._render_field('subject', answer.ids)[answer.id]
         body = self._render_field('body', answer.ids)[answer.id]
+=======
+        subject = self._render_field('subject', answer.ids, compute_lang=True)[answer.id]
+        body = self._render_field('body', answer.ids, compute_lang=True)[answer.id]
+>>>>>>> upstream/18.0
 =======
         subject = self._render_field('subject', answer.ids, compute_lang=True)[answer.id]
         body = self._render_field('body', answer.ids, compute_lang=True)[answer.id]

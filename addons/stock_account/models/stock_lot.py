@@ -89,7 +89,11 @@ class StockLot(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         digits='Product Price', groups="base.group_user",
+=======
+        min_display_digits='Product Price', groups="base.group_user",
+>>>>>>> upstream/18.0
 =======
         min_display_digits='Product Price', groups="base.group_user",
 >>>>>>> upstream/18.0
@@ -572,7 +576,11 @@ class StockLot(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self.product_id.filtered(lambda p: p.valuation == 'real_time') and not self.env['stock.valuation.layer'].check_access_rights('read', raise_exception=False):
+=======
+        if self.product_id.filtered(lambda p: p.valuation == 'real_time') and not self.env['stock.valuation.layer'].has_access('read'):
+>>>>>>> upstream/18.0
 =======
         if self.product_id.filtered(lambda p: p.valuation == 'real_time') and not self.env['stock.valuation.layer'].has_access('read'):
 >>>>>>> upstream/18.0

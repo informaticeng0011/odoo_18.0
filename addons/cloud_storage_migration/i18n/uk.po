@@ -1,19 +1,26 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* cloud_storage_migration
 #
 =======
+=======
+>>>>>>> upstream/18.0
 # * cloud_storage_migration
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 # Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2026.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2025-12-29 18:37+0000\n"
 "Last-Translator: \n"
@@ -23,6 +30,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2026-03-31 10:48+0000\n"
 "Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>\n"
 "Language-Team: Ukrainian <https://translate.odoo.com/projects/odoo-18/"
@@ -34,13 +43,20 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.16.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_res_config_settings__cloud_storage_migration_all_model_ids
 msgid "All Attachments"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Усі прикріплення"
+>>>>>>> upstream/18.0
 =======
 msgstr "Усі прикріплення"
 >>>>>>> upstream/18.0
@@ -49,7 +65,11 @@ msgstr "Усі прикріплення"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__all_to_migrate
 msgid "All Attachments Migration"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Міграція усіх прикріплень"
+>>>>>>> upstream/18.0
 =======
 msgstr "Міграція усіх прикріплень"
 >>>>>>> upstream/18.0
@@ -58,7 +78,11 @@ msgstr "Міграція усіх прикріплень"
 #: model:ir.model,name:cloud_storage_migration.model_ir_attachment
 msgid "Attachment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Прикріплення"
+>>>>>>> upstream/18.0
 =======
 msgstr "Прикріплення"
 >>>>>>> upstream/18.0
@@ -71,6 +95,11 @@ msgid ""
 "cloud storage."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Прикріплення (%s) не має збереженого імені файлу та не може бути перенесено "
+"до хмарного сховища."
+>>>>>>> upstream/18.0
 =======
 "Прикріплення (%s) не має збереженого імені файлу та не може бути перенесено "
 "до хмарного сховища."
@@ -84,6 +113,11 @@ msgid ""
 "storage."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Прикріплення (%s) не є двійковим вкладенням і не може бути перенесено до "
+"хмарного сховища."
+>>>>>>> upstream/18.0
 =======
 "Прикріплення (%s) не є двійковим вкладенням і не може бути перенесено до "
 "хмарного сховища."
@@ -93,7 +127,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:cloud_storage_migration.cloud_storage_migration_config_settings_view_form
 msgid "Attachments Report"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Звіт прикріплень"
+>>>>>>> upstream/18.0
 =======
 msgstr "Звіт прикріплень"
 >>>>>>> upstream/18.0
@@ -102,7 +140,11 @@ msgstr "Звіт прикріплень"
 #: model_terms:ir.ui.view,arch_db:cloud_storage_migration.cloud_storage_migration_config_settings_view_form
 msgid "Cloud Storage Migration"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Міграція хмарного сховища"
+>>>>>>> upstream/18.0
 =======
 msgstr "Міграція хмарного сховища"
 >>>>>>> upstream/18.0
@@ -111,7 +153,11 @@ msgstr "Міграція хмарного сховища"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_res_config_settings__cloud_storage_migration_all_models
 msgid "Cloud Storage Migration All Models"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Усі моделі міграції хмарного сховища"
+>>>>>>> upstream/18.0
 =======
 msgstr "Усі моделі міграції хмарного сховища"
 >>>>>>> upstream/18.0
@@ -120,7 +166,11 @@ msgstr "Усі моделі міграції хмарного сховища"
 #: model:ir.actions.act_window,name:cloud_storage_migration.action_cloud_storage_migration_cron
 msgid "Cloud Storage Migration Cron"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Крон міграції хмарного сховища"
+>>>>>>> upstream/18.0
 =======
 msgstr "Крон міграції хмарного сховища"
 >>>>>>> upstream/18.0
@@ -129,7 +179,11 @@ msgstr "Крон міграції хмарного сховища"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_res_config_settings__cloud_storage_migration_message_models
 msgid "Cloud Storage Migration Message Models"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Модулі повідомлень міграції хмарного сховища"
+>>>>>>> upstream/18.0
 =======
 msgstr "Модулі повідомлень міграції хмарного сховища"
 >>>>>>> upstream/18.0
@@ -140,7 +194,11 @@ msgstr "Модулі повідомлень міграції хмарного с
 #: model_terms:ir.ui.view,arch_db:cloud_storage_migration.view_cloud_storage_migration_report_list
 msgid "Cloud Storage Migration Report"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Звіт міграції хмарного сховища"
+>>>>>>> upstream/18.0
 =======
 msgstr "Звіт міграції хмарного сховища"
 >>>>>>> upstream/18.0
@@ -150,7 +208,11 @@ msgstr "Звіт міграції хмарного сховища"
 #: code:addons/cloud_storage_migration/models/ir_attachment.py:0
 msgid "Cloud storage provider is not configured"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Провайдер хмарного сховища не підтримується"
+>>>>>>> upstream/18.0
 =======
 msgstr "Провайдер хмарного сховища не підтримується"
 >>>>>>> upstream/18.0
@@ -159,7 +221,11 @@ msgstr "Провайдер хмарного сховища не підтриму
 #: model:ir.model,name:cloud_storage_migration.model_res_config_settings
 msgid "Config Settings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Налаштування"
+>>>>>>> upstream/18.0
 =======
 msgstr "Налаштування"
 >>>>>>> upstream/18.0
@@ -168,7 +234,11 @@ msgstr "Налаштування"
 #: model_terms:ir.ui.view,arch_db:cloud_storage_migration.cloud_storage_migration_config_settings_view_form
 msgid "Cron Job"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Робота крону"
+>>>>>>> upstream/18.0
 =======
 msgstr "Робота крону"
 >>>>>>> upstream/18.0
@@ -177,7 +247,11 @@ msgstr "Робота крону"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__display_name
 msgid "Display Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Назва для відображення"
+>>>>>>> upstream/18.0
 =======
 msgstr "Назва для відображення"
 >>>>>>> upstream/18.0
@@ -186,7 +260,11 @@ msgstr "Назва для відображення"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__has_attachment_rel
 msgid "Has Attachment Field"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Є поле прикріплення"
+>>>>>>> upstream/18.0
 =======
 msgstr "Є поле прикріплення"
 >>>>>>> upstream/18.0
@@ -195,7 +273,11 @@ msgstr "Є поле прикріплення"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__id
 msgid "ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID"
 >>>>>>> upstream/18.0
@@ -207,6 +289,11 @@ msgid ""
 "for cloud storage migration"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Вказує, чи всі прикріплення, пов’язані з цією моделлю, заплановані для "
+"міграції до хмарного сховища"
+>>>>>>> upstream/18.0
 =======
 "Вказує, чи всі прикріплення, пов’язані з цією моделлю, заплановані для "
 "міграції до хмарного сховища"
@@ -219,6 +306,11 @@ msgid ""
 "scheduled for cloud storage migration"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Вказує, чи заплановано перенесення прикріплень, пов’язаних із поштовими "
+"повідомленнями для цієї моделі, у хмарне сховище"
+>>>>>>> upstream/18.0
 =======
 "Вказує, чи заплановано перенесення прикріплень, пов’язаних із поштовими "
 "повідомленнями для цієї моделі, у хмарне сховище"
@@ -231,6 +323,10 @@ msgid ""
 " model"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Вказує, чи має ця модель реляційне поле, що пов'язане з моделлю ir.attachment"
+>>>>>>> upstream/18.0
 =======
 "Вказує, чи має ця модель реляційне поле, що пов'язане з моделлю ir.attachment"
 >>>>>>> upstream/18.0
@@ -239,7 +335,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__all_max_size
 msgid "Largest Attachment (MB)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Найбільше прикріплення (MB)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Найбільше прикріплення (MB)"
 >>>>>>> upstream/18.0
@@ -248,7 +348,11 @@ msgstr "Найбільше прикріплення (MB)"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_res_config_settings__cloud_storage_migration_message_model_ids
 msgid "Message Attachments"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Прикріплення повідомлення"
+>>>>>>> upstream/18.0
 =======
 msgstr "Прикріплення повідомлення"
 >>>>>>> upstream/18.0
@@ -257,7 +361,11 @@ msgstr "Прикріплення повідомлення"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__message_count
 msgid "Message Attachments Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Підрахунок прикріплень повідомлень"
+>>>>>>> upstream/18.0
 =======
 msgstr "Підрахунок прикріплень повідомлень"
 >>>>>>> upstream/18.0
@@ -266,7 +374,11 @@ msgstr "Підрахунок прикріплень повідомлень"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__message_to_migrate
 msgid "Message Attachments Migration"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Міграція прикріплень повідомлень"
+>>>>>>> upstream/18.0
 =======
 msgstr "Міграція прикріплень повідомлень"
 >>>>>>> upstream/18.0
@@ -275,7 +387,11 @@ msgstr "Міграція прикріплень повідомлень"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__message_sum_size
 msgid "Message Attachments Size (MB)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Розмір прикріплень повідомлень (MB)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Розмір прикріплень повідомлень (MB)"
 >>>>>>> upstream/18.0
@@ -284,7 +400,11 @@ msgstr "Розмір прикріплень повідомлень (MB)"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__message_max_size
 msgid "Message Largest Attachment (MB)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Найбільше прикрпілення повідомлення (MB)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Найбільше прикрпілення повідомлення (MB)"
 >>>>>>> upstream/18.0
@@ -293,7 +413,11 @@ msgstr "Найбільше прикрпілення повідомлення (MB
 #: model:ir.actions.server,name:cloud_storage_migration.ir_cron_manual_migrate_local_to_cloud_storage_ir_actions_server
 msgid "Migrate Local Attachment Binaries to Cloud Storage"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Перенесення локальних бінарних файлів прикріплень до хмарного сховища"
+>>>>>>> upstream/18.0
 =======
 msgstr "Перенесення локальних бінарних файлів прикріплень до хмарного сховища"
 >>>>>>> upstream/18.0
@@ -302,7 +426,11 @@ msgstr "Перенесення локальних бінарних файлів 
 #: model:ir.model.fields,help:cloud_storage_migration.field_res_config_settings__cloud_storage_migration_all_model_ids
 msgid "Migrate Models' All Attachments"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Міграція прикріплень усіх моделей"
+>>>>>>> upstream/18.0
 =======
 msgstr "Міграція прикріплень усіх моделей"
 >>>>>>> upstream/18.0
@@ -311,7 +439,11 @@ msgstr "Міграція прикріплень усіх моделей"
 #: model:ir.model.fields,help:cloud_storage_migration.field_res_config_settings__cloud_storage_migration_message_model_ids
 msgid "Migrate Models' Message Attachments"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Міграція прикріплень моделей повідомлень"
+>>>>>>> upstream/18.0
 =======
 msgstr "Міграція прикріплень моделей повідомлень"
 >>>>>>> upstream/18.0
@@ -320,7 +452,11 @@ msgstr "Міграція прикріплень моделей повідомл�
 #: model_terms:ir.ui.view,arch_db:cloud_storage_migration.cloud_storage_migration_config_settings_view_form
 msgid "Migrate local attachments to cloud storage"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Міграція локальних прикріплень до хмарного сховища"
+>>>>>>> upstream/18.0
 =======
 msgstr "Міграція локальних прикріплень до хмарного сховища"
 >>>>>>> upstream/18.0
@@ -329,7 +465,11 @@ msgstr "Міграція локальних прикріплень до хмар
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_res_config_settings__cloud_storage_migration_progress
 msgid "Migration Progress"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Прогрес міграції"
+>>>>>>> upstream/18.0
 =======
 msgstr "Прогрес міграції"
 >>>>>>> upstream/18.0
@@ -338,7 +478,11 @@ msgstr "Прогрес міграції"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__res_model
 msgid "Model"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Модель"
+>>>>>>> upstream/18.0
 =======
 msgstr "Модель"
 >>>>>>> upstream/18.0
@@ -347,7 +491,11 @@ msgstr "Модель"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__res_model_name
 msgid "Model Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Назва моделі"
+>>>>>>> upstream/18.0
 =======
 msgstr "Назва моделі"
 >>>>>>> upstream/18.0
@@ -356,7 +504,11 @@ msgstr "Назва моделі"
 #: model_terms:ir.actions.act_window,help:cloud_storage_migration.action_cloud_storage_migration_report
 msgid "No attachment data found"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Не знайдено даних прикріплень"
+>>>>>>> upstream/18.0
 =======
 msgstr "Не знайдено даних прикріплень"
 >>>>>>> upstream/18.0
@@ -366,7 +518,11 @@ msgstr "Не знайдено даних прикріплень"
 #: code:addons/cloud_storage_migration/models/ir_attachment.py:0
 msgid "No model for cloud storage migration"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Немає моделі для міграції хмарного сховища"
+>>>>>>> upstream/18.0
 =======
 msgstr "Немає моделі для міграції хмарного сховища"
 >>>>>>> upstream/18.0
@@ -375,7 +531,11 @@ msgstr "Немає моделі для міграції хмарного схо�
 #: model_terms:ir.ui.view,arch_db:cloud_storage_migration.cloud_storage_migration_config_settings_view_form
 msgid "Parameters"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Параметри"
+>>>>>>> upstream/18.0
 =======
 msgstr "Параметри"
 >>>>>>> upstream/18.0
@@ -384,7 +544,11 @@ msgstr "Параметри"
 #: model:ir.model.fields,help:cloud_storage_migration.field_res_config_settings__cloud_storage_migration_progress
 msgid "Shows the progress of cloud storage migration (current/total)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Показує хід міграції хмарного сховища (поточний/загальний)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Показує хід міграції хмарного сховища (поточний/загальний)"
 >>>>>>> upstream/18.0
@@ -396,6 +560,11 @@ msgid ""
 "this model"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Розмір у мегабайтах найбільшого вкладення, пов'язаного з будь-яким записом "
+"цієї моделі"
+>>>>>>> upstream/18.0
 =======
 "Розмір у мегабайтах найбільшого вкладення, пов'язаного з будь-яким записом "
 "цієї моделі"
@@ -408,6 +577,11 @@ msgid ""
 " model"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Розмір у мегабайтах найбільшого вкладення, пов’язаного з поштовими "
+"повідомленнями для цієї моделі"
+>>>>>>> upstream/18.0
 =======
 "Розмір у мегабайтах найбільшого вкладення, пов’язаного з поштовими "
 "повідомленнями для цієї моделі"
@@ -420,6 +594,11 @@ msgid ""
 "cloud storage."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Цей звіт показує статистику щодо вкладень, які можна перенести до хмарного "
+"сховища."
+>>>>>>> upstream/18.0
 =======
 "Цей звіт показує статистику щодо вкладень, які можна перенести до хмарного "
 "сховища."
@@ -429,7 +608,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__all_count
 msgid "Total Attachments Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Загальна кількість прикріплень"
+>>>>>>> upstream/18.0
 =======
 msgstr "Загальна кількість прикріплень"
 >>>>>>> upstream/18.0
@@ -438,7 +621,11 @@ msgstr "Загальна кількість прикріплень"
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__all_sum_size
 msgid "Total Attachments Size (MB)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Загальний розмір прикріплень (MB)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Загальний розмір прикріплень (MB)"
 >>>>>>> upstream/18.0
@@ -447,7 +634,11 @@ msgstr "Загальний розмір прикріплень (MB)"
 #: model:ir.model.fields,help:cloud_storage_migration.field_cloud_storage_migration_report__all_count
 msgid "Total number of attachments associated with all records of this model"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Загальна кількість вкладень, пов'язаних з усіма записами цієї моделі"
+>>>>>>> upstream/18.0
 =======
 msgstr "Загальна кількість вкладень, пов'язаних з усіма записами цієї моделі"
 >>>>>>> upstream/18.0
@@ -457,6 +648,11 @@ msgstr "Загальна кількість вкладень, пов'язани�
 msgid "Total number of attachments linked to mail messages for this model"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Загальна кількість вкладень, пов’язаних з електронними повідомленнями для "
+"цієї моделі"
+>>>>>>> upstream/18.0
 =======
 "Загальна кількість вкладень, пов’язаних з електронними повідомленнями для "
 "цієї моделі"
@@ -469,6 +665,11 @@ msgid ""
 "model"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Загальний розмір у мегабайтах усіх вкладень, пов'язаних із записами цієї "
+"моделі"
+>>>>>>> upstream/18.0
 =======
 "Загальний розмір у мегабайтах усіх вкладень, пов'язаних із записами цієї "
 "моделі"
@@ -481,6 +682,11 @@ msgid ""
 "model"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Загальний розмір у мегабайтах усіх вкладень, пов’язаних із електронними "
+"повідомленнями для цієї моделі"
+>>>>>>> upstream/18.0
 =======
 "Загальний розмір у мегабайтах усіх вкладень, пов’язаних із електронними "
 "повідомленнями для цієї моделі"

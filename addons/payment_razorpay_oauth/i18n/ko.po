@@ -1,8 +1,14 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* payment_razorpay_oauth
 #
+=======
+# * payment_razorpay_oauth
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
 =======
 # * payment_razorpay_oauth
 #
@@ -14,6 +20,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "PO-Revision-Date: 2025-12-29 18:38+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -22,6 +29,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2026-03-29 12:17+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Korean <https://translate.odoo.com/projects/odoo-18/"
@@ -32,13 +41,20 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.16.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment_razorpay_oauth
 #: model_terms:ir.ui.view,arch_db:payment_razorpay_oauth.payment_provider_form_razorpay_oauth
 msgid "Account ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "계정 ID"
+>>>>>>> upstream/18.0
 =======
 msgstr "계정 ID"
 >>>>>>> upstream/18.0
@@ -47,7 +63,11 @@ msgstr "계정 ID"
 #: model_terms:ir.ui.view,arch_db:payment_razorpay_oauth.authorization_error
 msgid "An error occurred"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "오류가 발생했습니다."
+>>>>>>> upstream/18.0
 =======
 msgstr "오류가 발생했습니다."
 >>>>>>> upstream/18.0
@@ -57,7 +77,11 @@ msgstr "오류가 발생했습니다."
 #: code:addons/payment_razorpay_oauth/models/payment_provider.py:0
 msgid "An error occurred when communicating with the proxy."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "프록시와 통신하는 동안 오류가 발생했습니다."
+>>>>>>> upstream/18.0
 =======
 msgstr "프록시와 통신하는 동안 오류가 발생했습니다."
 >>>>>>> upstream/18.0
@@ -66,7 +90,11 @@ msgstr "프록시와 통신하는 동안 오류가 발생했습니다."
 #: model_terms:ir.ui.view,arch_db:payment_razorpay_oauth.authorization_error
 msgid "An error occurred while linking your Razorpay account with Odoo."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razorpay 계정을 Odoo와 연결하는 동안 오류가 발생했습니다."
+>>>>>>> upstream/18.0
 =======
 msgstr "Razorpay 계정을 Odoo와 연결하는 동안 오류가 발생했습니다."
 >>>>>>> upstream/18.0
@@ -75,7 +103,11 @@ msgstr "Razorpay 계정을 Odoo와 연결하는 동안 오류가 발생했습니
 #: model_terms:ir.ui.view,arch_db:payment_razorpay_oauth.payment_provider_form_razorpay_oauth
 msgid "Are you sure you want to disconnect?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "연결을 해제하시겠습니까?"
+>>>>>>> upstream/18.0
 =======
 msgstr "연결을 해제하시겠습니까?"
 >>>>>>> upstream/18.0
@@ -84,7 +116,11 @@ msgstr "연결을 해제하시겠습니까?"
 #: model_terms:ir.ui.view,arch_db:payment_razorpay_oauth.authorization_error
 msgid "Back to the Razorpay provider"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razorpay 제공업체로 돌아가기"
+>>>>>>> upstream/18.0
 =======
 msgstr "Razorpay 제공업체로 돌아가기"
 >>>>>>> upstream/18.0
@@ -93,7 +129,11 @@ msgstr "Razorpay 제공업체로 돌아가기"
 #: model_terms:ir.ui.view,arch_db:payment_razorpay_oauth.payment_provider_form_razorpay_oauth
 msgid "Connect"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "연결"
+>>>>>>> upstream/18.0
 =======
 msgstr "연결"
 >>>>>>> upstream/18.0
@@ -103,7 +143,11 @@ msgstr "연결"
 #: code:addons/payment_razorpay_oauth/models/payment_provider.py:0
 msgid "Could not establish the connection."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "연결을 설정할 수 없습니다."
+>>>>>>> upstream/18.0
 =======
 msgstr "연결을 설정할 수 없습니다."
 >>>>>>> upstream/18.0
@@ -113,7 +157,11 @@ msgstr "연결을 설정할 수 없습니다."
 #: code:addons/payment_razorpay_oauth/controllers/onboarding.py:0
 msgid "Could not find Razorpay provider with id %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID %s에 해당하는 Razorpay 제공업체를 찾을 수 없습니다."
+>>>>>>> upstream/18.0
 =======
 msgstr "ID %s에 해당하는 Razorpay 제공업체를 찾을 수 없습니다."
 >>>>>>> upstream/18.0
@@ -122,7 +170,11 @@ msgstr "ID %s에 해당하는 Razorpay 제공업체를 찾을 수 없습니다."
 #: model_terms:ir.ui.view,arch_db:payment_razorpay_oauth.payment_provider_form_razorpay_oauth
 msgid "Generate your webhook"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "webhook 생성"
+>>>>>>> upstream/18.0
 =======
 msgstr "webhook 생성"
 >>>>>>> upstream/18.0
@@ -132,7 +184,11 @@ msgstr "webhook 생성"
 #: code:addons/payment_razorpay_oauth/models/payment_provider.py:0
 msgid "Other Payment Providers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "기타 결제대행업체"
+>>>>>>> upstream/18.0
 =======
 msgstr "기타 결제대행업체"
 >>>>>>> upstream/18.0
@@ -141,7 +197,11 @@ msgstr "기타 결제대행업체"
 #: model:ir.model,name:payment_razorpay_oauth.model_payment_provider
 msgid "Payment Provider"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "결제대행업체"
+>>>>>>> upstream/18.0
 =======
 msgstr "결제대행업체"
 >>>>>>> upstream/18.0
@@ -150,7 +210,11 @@ msgstr "결제대행업체"
 #: model:ir.model.fields,field_description:payment_razorpay_oauth.field_payment_provider__razorpay_access_token
 msgid "Razorpay Access Token"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razorpay 액세스 토큰"
+>>>>>>> upstream/18.0
 =======
 msgstr "Razorpay 액세스 토큰"
 >>>>>>> upstream/18.0
@@ -159,7 +223,11 @@ msgstr "Razorpay 액세스 토큰"
 #: model:ir.model.fields,field_description:payment_razorpay_oauth.field_payment_provider__razorpay_access_token_expiry
 msgid "Razorpay Access Token Expiry"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razorpay 액세스 토큰 만료"
+>>>>>>> upstream/18.0
 =======
 msgstr "Razorpay 액세스 토큰 만료"
 >>>>>>> upstream/18.0
@@ -168,7 +236,11 @@ msgstr "Razorpay 액세스 토큰 만료"
 #: model:ir.model.fields,field_description:payment_razorpay_oauth.field_payment_provider__razorpay_account_id
 msgid "Razorpay Account ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razorpay 계정 ID"
+>>>>>>> upstream/18.0
 =======
 msgstr "Razorpay 계정 ID"
 >>>>>>> upstream/18.0
@@ -177,7 +249,11 @@ msgstr "Razorpay 계정 ID"
 #: model:ir.model.fields,field_description:payment_razorpay_oauth.field_payment_provider__razorpay_key_id
 msgid "Razorpay Key Id"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razorpay 키 Id"
+>>>>>>> upstream/18.0
 =======
 msgstr "Razorpay 키 Id"
 >>>>>>> upstream/18.0
@@ -186,7 +262,11 @@ msgstr "Razorpay 키 Id"
 #: model:ir.model.fields,field_description:payment_razorpay_oauth.field_payment_provider__razorpay_key_secret
 msgid "Razorpay Key Secret"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razorpay 보안 키"
+>>>>>>> upstream/18.0
 =======
 msgstr "Razorpay 보안 키"
 >>>>>>> upstream/18.0
@@ -195,7 +275,11 @@ msgstr "Razorpay 보안 키"
 #: model:ir.model.fields,field_description:payment_razorpay_oauth.field_payment_provider__razorpay_public_token
 msgid "Razorpay Public Token"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razorpay 공개 토큰"
+>>>>>>> upstream/18.0
 =======
 msgstr "Razorpay 공개 토큰"
 >>>>>>> upstream/18.0
@@ -204,7 +288,11 @@ msgstr "Razorpay 공개 토큰"
 #: model:ir.model.fields,field_description:payment_razorpay_oauth.field_payment_provider__razorpay_refresh_token
 msgid "Razorpay Refresh Token"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razorpay 새로고침 토큰"
+>>>>>>> upstream/18.0
 =======
 msgstr "Razorpay 새로고침 토큰"
 >>>>>>> upstream/18.0
@@ -213,7 +301,11 @@ msgstr "Razorpay 새로고침 토큰"
 #: model:ir.model.fields,field_description:payment_razorpay_oauth.field_payment_provider__razorpay_webhook_secret
 msgid "Razorpay Webhook Secret"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razorpay Webhook 보안"
+>>>>>>> upstream/18.0
 =======
 msgstr "Razorpay Webhook 보안"
 >>>>>>> upstream/18.0
@@ -233,7 +325,11 @@ msgid ""
 "Razorpay is not available in your country; please use another payment "
 "provider."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razorpay가 지원되지 않는 국가입니다. 다른 결제 서비스를 선택하세요."
+>>>>>>> upstream/18.0
 =======
 msgstr "Razorpay가 지원되지 않는 국가입니다. 다른 결제 서비스를 선택하세요."
 >>>>>>> upstream/18.0
@@ -242,7 +338,11 @@ msgstr "Razorpay가 지원되지 않는 국가입니다. 다른 결제 서비스
 #: model_terms:ir.ui.view,arch_db:payment_razorpay_oauth.payment_provider_form_razorpay_oauth
 msgid "Reset Your Razorpay Account"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razorpay 계정 재설정"
+>>>>>>> upstream/18.0
 =======
 msgstr "Razorpay 계정 재설정"
 >>>>>>> upstream/18.0
@@ -251,7 +351,11 @@ msgstr "Razorpay 계정 재설정"
 #: model:ir.model.fields,help:payment_razorpay_oauth.field_payment_provider__razorpay_key_id
 msgid "The key solely used to identify the account with Razorpay."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razorpay에서 계정을 식별하는 데 사용되는 키입니다."
+>>>>>>> upstream/18.0
 =======
 msgstr "Razorpay에서 계정을 식별하는 데 사용되는 키입니다."
 >>>>>>> upstream/18.0
@@ -260,7 +364,11 @@ msgstr "Razorpay에서 계정을 식별하는 데 사용되는 키입니다."
 #: model_terms:ir.ui.view,arch_db:payment_razorpay_oauth.payment_provider_form_razorpay_oauth
 msgid "This provider is linked with your Razorpay account."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "이 제공업체는 귀하의 Razorpay 계정과 연결되어 있습니다."
+>>>>>>> upstream/18.0
 =======
 msgstr "이 제공업체는 귀하의 Razorpay 계정과 연결되어 있습니다."
 >>>>>>> upstream/18.0
@@ -269,7 +377,11 @@ msgstr "이 제공업체는 귀하의 Razorpay 계정과 연결되어 있습니�
 #: model_terms:ir.ui.view,arch_db:payment_razorpay_oauth.payment_provider_form_razorpay_oauth
 msgid "Webhook Secret"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Webhook 보안"
+>>>>>>> upstream/18.0
 =======
 msgstr "Webhook 보안"
 >>>>>>> upstream/18.0
@@ -282,11 +394,17 @@ msgid ""
 "                    method."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "현재 사용 중인 Razorpay 인증 방법은 더 이상 사용되지 않는 인증 방법입니다.\n"
 "                    아래의 “연결” 버튼을 클릭하여 권장되는 OAuth 인증 "
 "방법으로\n"
 "                    전환하십시오."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment_razorpay_oauth
@@ -294,7 +412,11 @@ msgstr ""
 #: code:addons/payment_razorpay_oauth/models/payment_provider.py:0
 msgid "Your Razorpay webhook was successfully set up!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razorpay 웹훅이 성공적으로 설정되었습니다!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Razorpay 웹훅이 성공적으로 설정되었습니다!"
 >>>>>>> upstream/18.0

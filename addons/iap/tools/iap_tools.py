@@ -250,7 +250,11 @@ _MAIL_PROVIDERS = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'eim.ae',
+=======
+    'eim.ae', 'pm.me',
+>>>>>>> upstream/18.0
 =======
     'eim.ae', 'pm.me',
 >>>>>>> upstream/18.0

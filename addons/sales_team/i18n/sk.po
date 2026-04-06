@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sales_team
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -371,10 +372,15 @@
 # * sales_team
 #
 >>>>>>> upstream/18.0
+=======
+# * sales_team
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Tomáš Píšek, 2024
 # Dávid Kováč, 2024
 # Wil Odoo, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -745,10 +751,15 @@
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
+=======
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1036,16 +1047,22 @@ msgstr ""
 "Last-Translator: Wil Odoo, 2024\n"
 "Language-Team: Slovak (https://app.transifex.com/odoo/teams/41243/sk/)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2026-04-04 18:01+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Slovak <https://translate.odoo.com/projects/odoo-18/"
 "sales_team/sk/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n "
 ">= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
@@ -1325,10 +1342,16 @@ msgstr ""
 "n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
 "X-Generator: Weblate 5.16.2\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && "
+"n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_member_view_kanban
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_view_form
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1879,12 +1902,17 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "<i class=\"fa fa-envelope me-1\" role=\"img\" aria-label=\"Email\" "
 "title=\"Email\"/>"
 msgstr ""
 "<i class=\"fa fa-envelope me-1\" role=\"img\" aria-label=\"E-mail\" "
 "title=\"E-mail\"/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sales_team
@@ -2018,8 +2046,12 @@ msgstr "Pridať nového člena tímu"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Add members to automatically assign their documents to this sales team."
+=======
+msgid "Add members to automatically assign their documents to this sales team."
+>>>>>>> upstream/18.0
 =======
 msgid "Add members to automatically assign their documents to this sales team."
 >>>>>>> upstream/18.0
@@ -2394,7 +2426,11 @@ msgstr "Vytvorte tagy CRM"
 #: model_terms:ir.actions.act_window,help:sales_team.crm_team_action_config
 msgid "Create a Sales Team"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vytvoriť obchodný tím"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vytvoriť obchodný tím"
 >>>>>>> upstream/18.0
@@ -2403,7 +2439,11 @@ msgstr "Vytvoriť obchodný tím"
 #: model_terms:ir.actions.act_window,help:sales_team.mail_activity_type_action_config_sales
 msgid "Create an Activity Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vytvoriť typ aktivity"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vytvoriť typ aktivity"
 >>>>>>> upstream/18.0
@@ -2467,6 +2507,7 @@ msgstr "Obľúbení členovia"
 
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team__is_favorite
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2837,6 +2878,9 @@ msgid "Favorite teams to display them in the dashboard and access them easily."
 =======
 msgid "Favorite teams to display them in the dashboard and access them easily."
 >>>>>>> upstream/18.0
+=======
+msgid "Favorite teams to display them in the dashboard and access them easily."
+>>>>>>> upstream/18.0
 msgstr ""
 "Obľúbené tímy, aby ste ich zobrazili na riadiacom paneli a mali k nim "
 "jednoduchý prístup."
@@ -2884,6 +2928,11 @@ msgid ""
 "limited to a single sales team."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ak je hodnota True, užívatelia môžu patriť do viacerých predajných tímov. V "
+"opačnom prípade je členstvo obmedzené na jeden predajný tím."
+>>>>>>> upstream/18.0
 =======
 "Ak je hodnota True, užívatelia môžu patriť do viacerých predajných tímov. V "
 "opačnom prípade je členstvo obmedzené na jeden predajný tím."
@@ -2919,7 +2968,11 @@ msgstr "Obrázok"
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__image_128
 msgid "Image (128)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obrázok (128)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obrázok (128)"
 >>>>>>> upstream/18.0
@@ -2956,6 +3009,11 @@ msgid ""
 "invoicing or subscription."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Hlavný obchodný tím používateľov. Používa sa najmä pre pipeline alebo na "
+"nastavenie obchodného tímu vo fakturácii alebo predplatnom."
+>>>>>>> upstream/18.0
 =======
 "Hlavný obchodný tím používateľov. Používa sa najmä pre pipeline alebo na "
 "nastavenie obchodného tímu vo fakturácii alebo predplatnom."
@@ -2965,7 +3023,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__member_company_ids
 msgid "Member Company"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zahrnuté spoločnosti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zahrnuté spoločnosti"
 >>>>>>> upstream/18.0
@@ -2974,7 +3036,11 @@ msgstr "Zahrnuté spoločnosti"
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__member_warning
 msgid "Member Warning"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Upozornenie pre členov"
+>>>>>>> upstream/18.0
 =======
 msgstr "Upozornenie pre členov"
 >>>>>>> upstream/18.0
@@ -2988,7 +3054,11 @@ msgstr "Členovia"
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__member_warning
 msgid "Membership Issue Warning"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Upozornenie týkajúce sa členstva"
+>>>>>>> upstream/18.0
 =======
 msgstr "Upozornenie týkajúce sa členstva"
 >>>>>>> upstream/18.0
@@ -3015,7 +3085,11 @@ msgstr "Mobilný telefón"
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__is_membership_multi
 msgid "Multiple Memberships Allowed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Povolené viacnásobné členstvo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Povolené viacnásobné členstvo"
 >>>>>>> upstream/18.0
@@ -3068,7 +3142,11 @@ msgstr "Miesto predaja"
 #: model:crm.team,name:sales_team.crm_team_1
 msgid "Pre-Sales"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Predpredaj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Predpredaj"
 >>>>>>> upstream/18.0
@@ -3114,7 +3192,11 @@ msgstr "Obchodný tím"
 #: model:ir.model,name:sales_team.model_crm_team_member
 msgid "Sales Team Member"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Člen obchodného tímu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Člen obchodného tímu"
 >>>>>>> upstream/18.0
@@ -3124,7 +3206,11 @@ msgstr "Člen obchodného tímu"
 #: model:ir.model.fields,field_description:sales_team.field_res_users__crm_team_member_ids
 msgid "Sales Team Members"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Členovia obchodného tímu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Členovia obchodného tímu"
 >>>>>>> upstream/18.0
@@ -3133,7 +3219,11 @@ msgstr "Členovia obchodného tímu"
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__crm_team_member_all_ids
 msgid "Sales Team Members (incl. inactive)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Členovia obchodného tímu (vrátane neaktívnych)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Členovia obchodného tímu (vrátane neaktívnych)"
 >>>>>>> upstream/18.0
@@ -3207,7 +3297,11 @@ msgstr "Tagy"
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_view_form
 msgid "Team Details"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Podrobnosti o tíme"
+>>>>>>> upstream/18.0
 =======
 msgstr "Podrobnosti o tíme"
 >>>>>>> upstream/18.0
@@ -3227,7 +3321,11 @@ msgstr "Členovia tímu"
 #: model_terms:ir.actions.act_window,help:sales_team.crm_team_member_action
 msgid "Team Members are salespersons assigned to specific teams."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Členovia tímu sú predajcovia pridelení do konkrétnych tímov."
+>>>>>>> upstream/18.0
 =======
 msgstr "Členovia tímu sú predajcovia pridelení do konkrétnych tímov."
 >>>>>>> upstream/18.0
@@ -3340,7 +3438,10 @@ msgstr "Predvolená spoločnosť pre tohto používateľa."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3530,6 +3631,7 @@ msgid ""
 "Sales Team '%(team)s': %(users)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: sales_team
 <<<<<<< HEAD
@@ -3804,10 +3906,15 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "Nasledujúci členovia tímu nemajú povolený vstup do spoločnosti „%(company)s "
 "“ v rámci obchodného tímu „%(team)s “: %(users)s"
 
 #. module: sales_team
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.actions.act_window,help:sales_team.mail_activity_type_action_config_sales
 msgid ""
@@ -3815,6 +3922,11 @@ msgid ""
 "\"Call\" or \"Prepare meeting\")."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Tieto predstavujú rôzne kategórie úloh, ktoré musíte vykonať (napr. „Zavolať"
+"“ alebo „Pripraviť stretnutie“)."
+>>>>>>> upstream/18.0
 =======
 "Tieto predstavujú rôzne kategórie úloh, ktoré musíte vykonať (napr. „Zavolať"
 "“ alebo „Pripraviť stretnutie“)."
@@ -3831,6 +3943,11 @@ msgid ""
 "UX: Give users not to add in the currently chosen team to avoid duplicates"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"UX: Upozornite užívateľov, aby nepridávali aktuálne vybraný tím, aby sa "
+"zabránilo duplicitám"
+>>>>>>> upstream/18.0
 =======
 "UX: Upozornite užívateľov, aby nepridávali aktuálne vybraný tím, aby sa "
 "zabránilo duplicitám"
@@ -3842,6 +3959,10 @@ msgstr ""
 msgid "UX: Limit to team company or all if no company"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"UX: Obmedziť na spoločnosť tímu alebo všetko, ak nie je žiadna spoločnosť"
+>>>>>>> upstream/18.0
 =======
 "UX: Obmedziť na spoločnosť tímu alebo všetko, ak nie je žiadna spoločnosť"
 >>>>>>> upstream/18.0
@@ -3854,6 +3975,7 @@ msgstr "Nedefinovaný grafický model pre predajný tím: %s"
 
 #. module: sales_team
 #: model_terms:ir.actions.act_window,help:sales_team.crm_team_action_config
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4223,10 +4345,15 @@ msgid "Use Sales Teams to organize your sales departments and draw up reports."
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgid "Use Sales Teams to organize your sales departments and draw up reports."
 msgstr ""
 "Použite Sales Teams na organizáciu vašich predajných oddelení a vypracovanie "
 "správ."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sales_team
@@ -4237,6 +4364,11 @@ msgid ""
 "                Each team will work with a separate pipeline."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Použite predajné tímy na organizáciu vašich predajných oddelení.\n"
+"                Každý tím bude pracovať s osobitným procesom."
+>>>>>>> upstream/18.0
 =======
 "Použite predajné tímy na organizáciu vašich predajných oddelení.\n"
 "                Každý tím bude pracovať s osobitným procesom."
@@ -4249,6 +4381,11 @@ msgid ""
 "type, ...)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Používajte štítky na správu a sledovanie vašich príležitostí (štruktúra "
+"produktu, typ predaja...)"
+>>>>>>> upstream/18.0
 =======
 "Používajte štítky na správu a sledovanie vašich príležitostí (štruktúra "
 "produktu, typ predaja...)"
@@ -4352,7 +4489,10 @@ msgstr "Užívateľ"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4542,6 +4682,7 @@ msgid ""
 "Team '%(team)s'."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: sales_team
 <<<<<<< HEAD
@@ -4819,6 +4960,8 @@ msgstr ""
 msgid "User Company"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "Užívateľ „%(user)s “ nie je povolený v spoločnosti „%(company)s “ v rámci "
 "obchodného tímu „%(team)s “."
 
@@ -4826,13 +4969,20 @@ msgstr ""
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__user_company_ids
 msgid "User Company"
 msgstr "Spoločnosti užívateľa"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__user_in_teams_ids
 msgid "User In Teams"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Užívateľ v tímoch"
+>>>>>>> upstream/18.0
 =======
 msgstr "Užívateľ v tímoch"
 >>>>>>> upstream/18.0
@@ -4856,7 +5006,11 @@ msgstr "Užívateľ: len vlastné dokumenty"
 #: model:ir.model.fields,help:sales_team.field_crm_team__member_ids
 msgid "Users assigned to this team."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Užívatelia priradení k tomuto tímu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Užívatelia priradení k tomuto tímu."
 >>>>>>> upstream/18.0
@@ -4877,6 +5031,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/sales_team/models/crm_team_member.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5337,18 +5492,27 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "You are trying to create duplicate membership(s). We found that %"
 "(duplicates)s already exist(s)."
 msgstr ""
 "Snažíte sa vytvoriť duplicitné členstvo. Zistili sme, že %(duplicates)s už "
 "existuje."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_view_form
 msgid "e.g. North America"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "napr. Stredná Európa"
+>>>>>>> upstream/18.0
 =======
 msgstr "napr. Stredná Európa"
 >>>>>>> upstream/18.0
@@ -5357,7 +5521,11 @@ msgstr "napr. Stredná Európa"
 #: model_terms:ir.ui.view,arch_db:sales_team.sales_team_crm_tag_view_form
 msgid "e.g. Services"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "napr. Služby"
+>>>>>>> upstream/18.0
 =======
 msgstr "napr. Služby"
 >>>>>>> upstream/18.0
@@ -5460,8 +5628,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "užívateľ bude mať prístup ku všetkým záznamom o všetkých v aplikácii "
 "predaja."
+=======
+"užívateľ bude mať prístup ku všetkým záznamom o všetkých v aplikácii predaja."
+>>>>>>> upstream/18.0
 =======
 "užívateľ bude mať prístup ku všetkým záznamom o všetkých v aplikácii predaja."
 >>>>>>> upstream/18.0
@@ -5839,12 +6011,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "the user will have an access to the sales configuration as well as statistic"
 " reports."
 msgstr ""
 "užívateľ bude mať prísup k nastaveniam predaju ako aj k štatistickým "
 "výkazom."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6122,6 +6297,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -150,6 +150,10 @@ import warnings
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import base64
+>>>>>>> upstream/18.0
 =======
 import base64
 >>>>>>> upstream/18.0
@@ -813,7 +817,11 @@ from odoo.http import request
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools import email_normalize
+=======
+from odoo.tools import email_normalize, escape_psql
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import email_normalize, escape_psql
 >>>>>>> upstream/18.0
@@ -1925,11 +1933,14 @@ class WebsiteHrRecruitment(WebsiteForm):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'name': [('partner_name', '=ilike', value)],
             'email': [('email_normalized', '=', email_normalize(value))],
             'phone': [('partner_phone', '=', value)],
             'linkedin': [('linkedin_profile', '=ilike', value)],
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2552,6 +2563,9 @@ class WebsiteHrRecruitment(WebsiteForm):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3196,7 +3210,10 @@ class WebsiteHrRecruitment(WebsiteForm):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3659,6 +3676,9 @@ class WebsiteHrRecruitment(WebsiteForm):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

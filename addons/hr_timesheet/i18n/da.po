@@ -134,8 +134,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* hr_timesheet
 # 
+=======
+# * hr_timesheet
+#
+>>>>>>> upstream/18.0
 =======
 # * hr_timesheet
 #
@@ -680,6 +685,7 @@
 # Martin Trigaux, 2024
 # Wil Odoo, 2025
 # Sammi Iversen <sammi@vkdata.dk>, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1763,10 +1769,15 @@
 # Kira Petersen, 2025
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 >>>>>>> upstream/18.0
+=======
+# Kira Petersen, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2683,6 +2694,10 @@ msgstr ""
 "POT-Creation-Date: 2026-02-20 18:38+0000\n"
 "PO-Revision-Date: 2026-04-02 17:20+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2026-02-20 18:38+0000\n"
+"PO-Revision-Date: 2026-04-02 17:20+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Danish <https://translate.odoo.com/projects/odoo-18/"
 "hr_timesheet/da/>\n"
@@ -2691,6 +2706,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "X-Generator: Weblate 5.12.2\n"
 <<<<<<< HEAD
@@ -3093,6 +3109,9 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.16.2\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.portal_timesheet_table
@@ -3128,7 +3147,11 @@ msgstr "%(exceeding_hours)s %(uom_name)s (+%(exceeding_rate)s%%)"
 #: code:addons/hr_timesheet/static/src/components/time_hour_field/time_hour_field.js:0
 msgid "%(hours)sh"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(hours)s t."
+>>>>>>> upstream/18.0
 =======
 msgstr "%(hours)s t."
 >>>>>>> upstream/18.0
@@ -3138,7 +3161,11 @@ msgstr "%(hours)s t."
 #: code:addons/hr_timesheet/static/src/components/time_hour_field/time_hour_field.js:0
 msgid "%(hours)sh%(minutes)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(hours)st.%(minutes)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(hours)st.%(minutes)s"
 >>>>>>> upstream/18.0
@@ -3153,6 +3180,7 @@ msgstr "%(name)ss Timesedler"
 #. odoo-python
 #: code:addons/hr_timesheet/models/hr_timesheet.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3613,11 +3641,16 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "'%(missing_plan_names)s' analytic plan(s) required on the project '%"
 "(project_name)s' linked to the timesheet."
 msgstr ""
 "De analytiske kontoplaner '%(missing_plan_names)s' er påkrævet for projektet "
 "'%(project_name)s', som er tilknyttet tidsregistreringen."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_timesheet
@@ -3660,6 +3693,7 @@ msgstr "<b class=\"tip_title\">Tip: Registrér din timesedler hurtigere</b>"
 
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.view_kanban_account_analytic_line
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3937,6 +3971,8 @@ msgstr "<i class=\"fa fa-calendar me-1\" role=\"img\" aria-label=\"Date\" title=
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "<i class=\"fa fa-calendar me-1\" role=\"img\" aria-label=\"Date\" "
 "title=\"Date\"/>"
@@ -4034,6 +4070,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4233,7 +4272,11 @@ msgstr "<span class=\"o_stat_text\">Timesedler</span>"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.view_task_form2_inherited
 msgid "<span class=\"text-nowrap\">Time Spent on Sub-tasks:</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"text-nowrap\">Tid brugt på delopgaver:</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"text-nowrap\">Tid brugt på delopgaver:</span>"
 >>>>>>> upstream/18.0
@@ -4241,6 +4284,7 @@ msgstr "<span class=\"text-nowrap\">Tid brugt på delopgaver:</span>"
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.hr_employee_delete_wizard_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5234,6 +5278,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<span invisible=\"has_timesheet\">\n"
 "                        Are you sure you want to delete these employees?\n"
 "                    </span>"
@@ -5280,6 +5326,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5364,10 +5411,15 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "<span invisible=\"has_timesheet\">\n"
 "                        Er du sikker på, at du ønsker at slette disse "
 "medarbejdere?\n"
 "                    </span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_timesheet
@@ -5399,7 +5451,11 @@ msgstr "<span>Medarbejder</span>"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.timesheet_table
 msgid "<span>Time Spent</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Tidsforbrug</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Tidsforbrug</span>"
 >>>>>>> upstream/18.0
@@ -5413,7 +5469,11 @@ msgstr "<strong>Fremskridt:</strong>"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.portal_timesheet_table
 msgid "<strong>Time Remaining: </strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Resterende tid: </strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Resterende tid: </strong>"
 >>>>>>> upstream/18.0
@@ -5422,7 +5482,11 @@ msgstr "<strong>Resterende tid: </strong>"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.portal_timesheet_table
 msgid "<strong>Time recorded on sub-tasks: </strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Tid registreret på delopgaver: </strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Tid registreret på delopgaver: </strong>"
 >>>>>>> upstream/18.0
@@ -5431,7 +5495,11 @@ msgstr "<strong>Tid registreret på delopgaver: </strong>"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.portal_timesheet_table
 msgid "<strong>Total Days: </strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Dage i alt: </strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Dage i alt: </strong>"
 >>>>>>> upstream/18.0
@@ -5440,7 +5508,11 @@ msgstr "<strong>Dage i alt: </strong>"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.portal_timesheet_table
 msgid "<strong>Total Hours: </strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Timer i alt: </strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Timer i alt: </strong>"
 >>>>>>> upstream/18.0
@@ -5449,7 +5521,11 @@ msgstr "<strong>Timer i alt: </strong>"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.portal_timesheet_table
 msgid "<strong>Total Time Spent: </strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Tidsforbrug i alt: </strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Tidsforbrug i alt: </strong>"
 >>>>>>> upstream/18.0
@@ -5601,12 +5677,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Analyze the projects and tasks on which your employees spend their time.<br>\n"
 "                Evaluate which part is billable and what costs it represents."
 msgstr ""
 "Analyser de projekter og opgaver, som dine medarbejdere bruger deres tid på.<br>\n"
 "                Vurder, hvilken del der er fakturerbar, og hvilke omkostninger den repræsenterer."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5888,6 +5967,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6176,7 +6258,11 @@ msgstr "Dage / halve dage"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.project_sharing_inherit_project_task_view_form
 msgid "Days Remaining"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Resterende dage"
+>>>>>>> upstream/18.0
 =======
 msgstr "Resterende dage"
 >>>>>>> upstream/18.0
@@ -6217,6 +6303,11 @@ msgid ""
 "it to a sales order item."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Levér dine tjenester automatisk, når en milepæl nås, ved at knytte dem til "
+"en salgsordre."
+>>>>>>> upstream/18.0
 =======
 "Levér dine tjenester automatisk, når en milepæl nås, ved at knytte dem til "
 "en salgsordre."
@@ -6406,8 +6497,12 @@ msgstr "Ekstra tid"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Generate timesheets for validated time off requests and public holidays"
+=======
+msgid "Generate timesheets for validated time off requests and public holidays"
+>>>>>>> upstream/18.0
 =======
 msgid "Generate timesheets for validated time off requests and public holidays"
 >>>>>>> upstream/18.0
@@ -6932,7 +7027,11 @@ msgid "Has Department Manager Access"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Har adgang som afdelingsleder"
+>>>>>>> upstream/18.0
 =======
 msgstr "Har adgang som afdelingsleder"
 >>>>>>> upstream/18.0
@@ -7749,7 +7848,11 @@ msgstr "Menu"
 #: model:ir.model.fields,field_description:hr_timesheet.field_timesheets_analysis_report__message_partner_ids
 msgid "Message Partner"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Send besked til partner"
+>>>>>>> upstream/18.0
 =======
 msgstr "Send besked til partner"
 >>>>>>> upstream/18.0
@@ -7788,7 +7891,11 @@ msgstr "Nyeste"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.portal_my_timesheets
 msgid "No Parent Task"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ingen overordnet opgave"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ingen overordnet opgave"
 >>>>>>> upstream/18.0
@@ -7797,7 +7904,11 @@ msgstr "Ingen overordnet opgave"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.portal_my_timesheets
 msgid "No Task"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ingen opgave"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ingen opgave"
 >>>>>>> upstream/18.0
@@ -7896,6 +8007,7 @@ msgstr "Kontakt"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -8109,11 +8221,16 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.hr_employee_delete_wizard_form
 msgid "Please first delete all of their timesheets."
 msgstr "Slet venligst først alle deres tidsregistreringer."
 
 #. module: hr_timesheet
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model,name:hr_timesheet.model_uom_uom
 msgid "Product Unit of Measure"
@@ -8357,7 +8474,11 @@ msgid "Project Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Projektkonto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Projektkonto"
 >>>>>>> upstream/18.0
@@ -9066,7 +9187,11 @@ msgstr "Søg i Medarbejder"
 #: code:addons/hr_timesheet/controllers/portal.py:0
 msgid "Search in Parent Task"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Søg i overordnet opgave"
+>>>>>>> upstream/18.0
 =======
 msgstr "Søg i overordnet opgave"
 >>>>>>> upstream/18.0
@@ -9122,7 +9247,11 @@ msgstr "Opsætning"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.timesheet_report_subtask
 msgid "Sub-Task of '"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Delopgave af '"
+>>>>>>> upstream/18.0
 =======
 msgstr "Delopgave af '"
 >>>>>>> upstream/18.0
@@ -9132,7 +9261,11 @@ msgstr "Delopgave af '"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.view_task_form2_inherited
 msgid "Sub-tasks Time Spent"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tid brugt på delopgaver"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tid brugt på delopgaver"
 >>>>>>> upstream/18.0
@@ -9169,6 +9302,7 @@ msgstr "En virksomheds interne projekt skal være i den virksomhed."
 #. odoo-python
 #: code:addons/hr_timesheet/models/hr_timesheet.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9629,11 +9763,16 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "The project, the task and the analytic accounts of the timesheet must belong "
 "to the same company."
 msgstr ""
 "Projektet, opgaven og de analytiske kontoplaner for tidsregistreringen skal "
 "tilhøre den samme virksomhed."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_timesheet
@@ -9737,8 +9876,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "These projects have some timesheet entries referencing them. Before removing"
 " these projects, you have to remove these timesheet entries."
+=======
+"These projects have some timesheet entries referencing them. Before removing "
+"these projects, you have to remove these timesheet entries."
+>>>>>>> upstream/18.0
 =======
 "These projects have some timesheet entries referencing them. Before removing "
 "these projects, you have to remove these timesheet entries."
@@ -10248,8 +10392,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This project has some timesheet entries referencing it. Before removing this"
 " project, you have to remove these timesheet entries."
+=======
+"This project has some timesheet entries referencing it. Before removing this "
+"project, you have to remove these timesheet entries."
+>>>>>>> upstream/18.0
 =======
 "This project has some timesheet entries referencing it. Before removing this "
 "project, you have to remove these timesheet entries."
@@ -10720,8 +10869,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Denne opgave kan ikke være privat, fordi der er nogle timesedler knyttet til"
 " den."
+=======
+"Denne opgave kan ikke være privat, fordi der er nogle timesedler knyttet til "
+"den."
+>>>>>>> upstream/18.0
 =======
 "Denne opgave kan ikke være privat, fordi der er nogle timesedler knyttet til "
 "den."
@@ -11198,11 +11352,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If you use the timesheet linked to projects, don't forget to setup the right unit of measure in your employees."
 msgstr ""
 "Dette sætter måleenheden, der anvendes i projekter og opgaver.\n"
 "Hvis du bruger timesedler knyttet til projekter, skal du huske at angive den rigtige måleenhed på dine medarbejdere."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11482,6 +11639,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11818,7 +11978,11 @@ msgid "Time Remaining"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Resterende tid"
+>>>>>>> upstream/18.0
 =======
 msgstr "Resterende tid"
 >>>>>>> upstream/18.0
@@ -12226,7 +12390,11 @@ msgstr "Resterende tid"
 #: model:ir.model.fields,field_description:hr_timesheet.field_report_project_task_user__remaining_hours_percentage
 msgid "Time Remaining Percentage"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Procentsats for resterende tid"
+>>>>>>> upstream/18.0
 =======
 msgstr "Procentsats for resterende tid"
 >>>>>>> upstream/18.0
@@ -12368,7 +12536,11 @@ msgid "Time Remaining on SO"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Resterende tid på salgsordre"
+>>>>>>> upstream/18.0
 =======
 msgstr "Resterende tid på salgsordre"
 >>>>>>> upstream/18.0
@@ -12798,7 +12970,11 @@ msgstr "Tidsforbrug"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.view_task_tree2_inherited
 msgid "Time Spent on Sub-Tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tidsforbrug på delopgaver"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tidsforbrug på delopgaver"
 >>>>>>> upstream/18.0
@@ -12940,7 +13116,11 @@ msgid "Time Spent on Sub-tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tidsforbrug på delopgaver"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tidsforbrug på delopgaver"
 >>>>>>> upstream/18.0
@@ -13603,8 +13783,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Timesheets must be created with an active employee in the selected "
 "companies."
+=======
+"Timesheets must be created with an active employee in the selected companies."
+>>>>>>> upstream/18.0
 =======
 "Timesheets must be created with an active employee in the selected companies."
 >>>>>>> upstream/18.0
@@ -13892,6 +14076,11 @@ msgid ""
 "in the plan '%(plan_name)s'."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Tidsregistreringerne skal have mindst én aktiv analytisk kontoplan i planen "
+"'%(plan_name)s'."
+>>>>>>> upstream/18.0
 =======
 "Tidsregistreringerne skal have mindst én aktiv analytisk kontoplan i planen "
 "'%(plan_name)s'."
@@ -13917,6 +14106,12 @@ msgid ""
 "timesheets feature."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"For at bruge tidsregistreringsfunktionen skal du oprette en analytisk "
+"kontoplan til projektet. Opret en i planen '%(plan_name)s', eller deaktivér "
+"tidsregistreringsfunktionen."
+>>>>>>> upstream/18.0
 =======
 "For at bruge tidsregistreringsfunktionen skal du oprette en analytisk "
 "kontoplan til projektet. Opret en i planen '%(plan_name)s', eller deaktivér "
@@ -13947,7 +14142,11 @@ msgstr "Samlet Tildelt tid"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.project_sharing_inherit_project_task_view_form
 msgid "Total Days Spent"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samlet antal dage brugt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Samlet antal dage brugt"
 >>>>>>> upstream/18.0
@@ -14092,7 +14291,11 @@ msgid "Total Time Spent"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samlet tidsforbrug"
+>>>>>>> upstream/18.0
 =======
 msgstr "Samlet tidsforbrug"
 >>>>>>> upstream/18.0
@@ -14598,8 +14801,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Track your working hours by projects every day and invoice this time to your"
 " customers."
+=======
+"Track your working hours by projects every day and invoice this time to your "
+"customers."
+>>>>>>> upstream/18.0
 =======
 "Track your working hours by projects every day and invoice this time to your "
 "customers."
@@ -15080,7 +15288,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Make sure to use the right format and order e.g. Improve the configuration screen 5h #feature #v16 @Mitchell !"
+=======
+"        Make sure to use the right format and order e.g. Improve the "
+"configuration screen 5h #feature #v16 @Mitchell !"
+>>>>>>> upstream/18.0
 =======
 "        Make sure to use the right format and order e.g. Improve the "
 "configuration screen 5h #feature #v16 @Mitchell !"
@@ -15549,7 +15762,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Sørg for at bruge det rigtige format og bestile f.eks. Forbedre konfigurationsskærmen 5h #feature #v16 @Mitchell!"
+=======
+"Sørg for at bruge det rigtige format og bestile f.eks. Forbedre "
+"konfigurationsskærmen 5h #feature #v16 @Mitchell!"
+>>>>>>> upstream/18.0
 =======
 "Sørg for at bruge det rigtige format og bestile f.eks. Forbedre "
 "konfigurationsskærmen 5h #feature #v16 @Mitchell!"
@@ -16036,6 +16254,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    day. Every time spent on a project will become a cost and can be re-invoiced to\n"
 =======
 "                    day. Every time spent on a project will become a cost "
@@ -16404,6 +16623,8 @@ msgid ""
 "                    customers if required."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "                    day. Every time spent on a project will become a cost "
 "and can be re-invoiced to\n"
 "                    customers if required."
@@ -16412,6 +16633,9 @@ msgstr ""
 "                    dag. Den tid, der bruges på et projekt, registreres som "
 "en omkostning og kan om nødvendigt faktureres videre\n"
 "                    til kunden."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_timesheet
@@ -16427,6 +16651,7 @@ msgid "You cannot delete employees who have timesheets."
 msgstr "Du kan ikke slette medarbejdere, der har timesedler."
 
 #. module: hr_timesheet
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16705,6 +16930,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.hr_employee_delete_wizard_form
 msgid ""
 "You cannot delete employees who have timesheets.\n"
@@ -16759,6 +16986,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16939,6 +17169,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17122,17 +17353,23 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr ""
 "Du kan ikke registrere tid for dette projekt, da det er knyttet til en "
 "inaktiv analytisk kontoplan.<br/>\n"
 "                            Skift til en anden konto, eller genaktivér den "
 "aktuelle for at kunne registrere tid."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.view_task_form2_inherited
 msgid ""
 "You cannot log timesheets on this project since it is linked to an inactive "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17593,12 +17830,17 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "analytic account.<br/> Please change this account, or reactivate the current "
 "one to timesheet on the project."
 msgstr ""
 "Du kan ikke registrere tid for dette projekt, da det er knyttet til en "
 "inaktiv analytisk kontoplan.<br/>Ændr denne konto, eller genaktivér den "
 "aktuelle for at registrere tid."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_timesheet
@@ -17607,6 +17849,11 @@ msgstr ""
 msgid "You cannot set an archived employee on existing timesheets."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Du kan ikke tilknytte en arkiveret medarbejder til eksisterende "
+"tidsregistreringer."
+>>>>>>> upstream/18.0
 =======
 "Du kan ikke tilknytte en arkiveret medarbejder til eksisterende "
 "tidsregistreringer."
@@ -17626,6 +17873,7 @@ msgstr "for"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.view_task_form2_inherited
 msgid ""
 "on\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17905,6 +18153,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                            <span class=\"fw-bold text-dark\"> Sub-tasks</"
 "span>)"
 msgstr ""
@@ -18002,6 +18252,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18193,6 +18446,7 @@ msgid ""
 "                        <span class=\"fw-bold text-dark\"> Sub-tasks</span>)"
 msgstr ""
 "på\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18567,6 +18821,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        <span class=\"fw-bold text-dark\"> Underopgaver</"
 "span>)"
 
@@ -18644,6 +18900,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
