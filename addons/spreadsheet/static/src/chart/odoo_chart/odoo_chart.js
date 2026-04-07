@@ -323,10 +323,13 @@ export class OdooChart extends AbstractChart {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             // if a chart is cumulated, the first data point should take into
             // account past data, even if a domain on a specific period is applied
             cumulatedStart: definition.cumulative,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1168,6 +1171,9 @@ export class OdooChart extends AbstractChart {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

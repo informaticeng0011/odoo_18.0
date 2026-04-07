@@ -128,6 +128,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sale_pdf_quote_builder
 # 
 # Translators:
@@ -389,12 +390,15 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * sale_pdf_quote_builder
 #
 # Translators:
 # Wil Odoo, 2024
 # Tomáš Píšek, 2025
 #
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -815,10 +819,14 @@
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 >>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1398,6 +1406,10 @@ msgstr ""
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-03-29 12:15+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-03-29 12:15+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Slovak <https://translate.odoo.com/projects/odoo-18/"
 "sale_pdf_quote_builder/sk/>\n"
@@ -1405,6 +1417,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n "
@@ -1887,6 +1900,11 @@ msgstr ""
 "n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
 "X-Generator: Weblate 5.16.2\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && "
+"n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.actions.report,print_report_name:sale_pdf_quote_builder.action_report_saleorder_raw
@@ -1894,6 +1912,7 @@ msgid ""
 "(object.state in ('draft', 'sent') and 'Quotation - %s' % (object.name)) or "
 "'Order - %s' % (object.name)"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2361,13 +2380,21 @@ msgstr ""
 "(object.state in ('draft', 'sent') and 'Cenová ponuka - %s' % (object.name)) "
 "or 'Objednávka - %s' % (object.name)"
 >>>>>>> upstream/18.0
+=======
+"(object.state in ('draft', 'sent') and 'Cenová ponuka - %s' % (object.name)) "
+"or 'Objednávka - %s' % (object.name)"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_kanban
 msgid "<span class=\"pe-2\">Templates:</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"pe-2\">Šablóny:</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"pe-2\">Šablóny:</span>"
 >>>>>>> upstream/18.0
@@ -2380,7 +2407,11 @@ msgstr "<span class=\"pe-2\">Šablóny:</span>"
 msgid "<span>Document type:</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Typ dokumentu:</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Typ dokumentu:</span>"
 >>>>>>> upstream/18.0
@@ -2392,6 +2423,7 @@ msgstr "<span>Typ dokumentu:</span>"
 #. odoo-python
 #: code:addons/sale_pdf_quote_builder/models/sale_pdf_form_field.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2855,12 +2887,17 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "A form field set as used in product documents can't be linked to a quotation "
 "document."
 msgstr ""
 "Pole formulára nastavené ako použité v produktových dokumentoch sa nedá "
 "prepojiť s dokumentom ponuky."
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2869,6 +2906,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/sale_pdf_quote_builder/models/sale_pdf_form_field.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3332,12 +3370,17 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "A form field set as used in quotation documents can't be linked to a product "
 "document."
 msgstr ""
 "Pole formulára nastavené ako používané v ponukových dokumentoch nie je možné "
 "prepojiť s produktovým dokumentom."
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3460,6 +3503,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Leave it empty if you don't want to share this document with sales customer.\n"
 "On quote: the document will be sent to and accessible by customers at any time.\n"
 "e.g. this option can be useful to share Product description files.\n"
@@ -3467,6 +3511,8 @@ msgid ""
 "e.g. this option can be useful to share User Manual or digital content bought on ecommerce. \n"
 "Inside quote: The document will be included in the pdf of the quotation and sale order between the header pages and the quote table. "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3754,6 +3800,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3937,6 +3984,8 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgstr ""
@@ -3953,6 +4002,9 @@ msgstr ""
 "V ponuke: dokument bude zahrnutý v PDF súbore ponuky a predajnej objednávky "
 "medzi hlavičkou a tabuľkou ponuky. "
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3979,7 +4031,11 @@ msgstr "URL prílohy"
 msgid "Available Product Documents"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dostupné produktové dokumenty"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dostupné produktové dokumenty"
 >>>>>>> upstream/18.0
@@ -3998,7 +4054,11 @@ msgstr "Checksum/SHA1"
 msgid "Click to write content for the PDF quote..."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kliknite a napíšte text do PDF ponuky..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Kliknite a napíšte text do PDF ponuky..."
 >>>>>>> upstream/18.0
@@ -4017,7 +4077,11 @@ msgstr "Spoločnost"
 msgid "Configure dynamic fields"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Konfigurovať dynamické polia"
+>>>>>>> upstream/18.0
 =======
 msgstr "Konfigurovať dynamické polia"
 >>>>>>> upstream/18.0
@@ -4030,7 +4094,11 @@ msgstr "Konfigurovať dynamické polia"
 msgid "Configure the path to fill the form fields."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nastavte cestu pre vyplnenie polí formulára."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nastavte cestu pre vyplnenie polí formulára."
 >>>>>>> upstream/18.0
@@ -4186,7 +4254,11 @@ msgid "Customizable"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prispôsobiteľné"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prispôsobiteľné"
 >>>>>>> upstream/18.0
@@ -4577,7 +4649,11 @@ msgstr "Prispôsobiteľné"
 msgid "Customizable PDF Form Fields"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prispôsobiteľné polia formulára PDF"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prispôsobiteľné polia formulára PDF"
 >>>>>>> upstream/18.0
@@ -4612,7 +4688,11 @@ msgstr "Zobrazovaný Názov"
 msgid "Document Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Typ dokumentu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Typ dokumentu"
 >>>>>>> upstream/18.0
@@ -4625,7 +4705,11 @@ msgstr "Typ dokumentu"
 msgid "Document type"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Typ dokumentu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Typ dokumentu"
 >>>>>>> upstream/18.0
@@ -4678,7 +4762,11 @@ msgid "Download examples"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stiahnuť príklady"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stiahnuť príklady"
 >>>>>>> upstream/18.0
@@ -4823,7 +4911,11 @@ msgstr "Päta"
 msgid "Form Field Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Názov poľa formulára"
+>>>>>>> upstream/18.0
 =======
 msgstr "Názov poľa formulára"
 >>>>>>> upstream/18.0
@@ -4838,7 +4930,11 @@ msgstr "Názov poľa formulára"
 msgid "Form Fields"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Polia formulára"
+>>>>>>> upstream/18.0
 =======
 msgstr "Polia formulára"
 >>>>>>> upstream/18.0
@@ -4852,7 +4948,11 @@ msgstr "Polia formulára"
 msgid "Form Fields Included"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zahrnuté polia formulára"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zahrnuté polia formulára"
 >>>>>>> upstream/18.0
@@ -4865,7 +4965,11 @@ msgstr "Zahrnuté polia formulára"
 msgid "Form field name must be unique for a given document type."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Názov poľa formulára musí byť pre daný typ dokumentu jedinečný."
+>>>>>>> upstream/18.0
 =======
 msgstr "Názov poľa formulára musí byť pre daný typ dokumentu jedinečný."
 >>>>>>> upstream/18.0
@@ -4878,7 +4982,11 @@ msgstr "Názov poľa formulára musí byť pre daný typ dokumentu jedinečný."
 msgid "Form fields of inside quotation documents."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Polia formulára vo vkladaných dokumentov ponúk."
+>>>>>>> upstream/18.0
 =======
 msgstr "Polia formulára vo vkladaných dokumentov ponúk."
 >>>>>>> upstream/18.0
@@ -4903,7 +5011,11 @@ msgstr "Hlavička"
 msgid "Header/Footer"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Úvod/Záver"
+>>>>>>> upstream/18.0
 =======
 msgstr "Úvod/Záver"
 >>>>>>> upstream/18.0
@@ -4916,7 +5028,11 @@ msgstr "Úvod/Záver"
 msgid "Headers and footers"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Úvody a závery"
+>>>>>>> upstream/18.0
 =======
 msgstr "Úvody a závery"
 >>>>>>> upstream/18.0
@@ -4932,7 +5048,11 @@ msgstr "Úvody a závery"
 msgid "Headers/Footers"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Úvody/Závery"
+>>>>>>> upstream/18.0
 =======
 msgstr "Úvody/Závery"
 >>>>>>> upstream/18.0
@@ -4959,6 +5079,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ak túto možnosť nezatrhnete, budete môcť skryť úvod alebo záver bez toho, "
+"aby ste ich odstránili."
+>>>>>>> upstream/18.0
 =======
 "Ak túto možnosť nezatrhnete, budete môcť skryť úvod alebo záver bez toho, "
 "aby ste ich odstránili."
@@ -4993,7 +5118,11 @@ msgstr "Indexovaný obsah"
 msgid "Inside quote pdf"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PDF vložené do ponuky"
+>>>>>>> upstream/18.0
 =======
 msgstr "PDF vložené do ponuky"
 >>>>>>> upstream/18.0
@@ -5010,6 +5139,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nesprávny názov poľa formulára %(field_name)s. Názov poľa formulára v úvode "
+"alebo závere sa nesmie začínať predponou „sol_id_“."
+>>>>>>> upstream/18.0
 =======
 "Nesprávny názov poľa formulára %(field_name)s. Názov poľa formulára v úvode "
 "alebo závere sa nesmie začínať predponou „sol_id_“."
@@ -5028,6 +5162,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nesprávny názov poľa formulára %(field_name)s. Názov môže obsahovať iba "
+"písmená, číslice, pomlčky alebo podčiarknutia."
+>>>>>>> upstream/18.0
 =======
 "Nesprávny názov poľa formulára %(field_name)s. Názov môže obsahovať iba "
 "písmená, číslice, pomlčky alebo podčiarknutia."
@@ -5046,6 +5185,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Neplatná cesta %(path)s. Môže obsahovať iba alfanumerické znaky, pomlčky, "
+"podčiarknutia alebo bodky."
+>>>>>>> upstream/18.0
 =======
 "Neplatná cesta %(path)s. Môže obsahovať iba alfanumerické znaky, pomlčky, "
 "podčiarknutia alebo bodky."
@@ -5060,7 +5204,11 @@ msgstr ""
 msgid "Is Pdf Quote Builder Available"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Je dostupný Konfigurátor PDF ponuky"
+>>>>>>> upstream/18.0
 =======
 msgstr "Je dostupný Konfigurátor PDF ponuky"
 >>>>>>> upstream/18.0
@@ -5082,6 +5230,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Zdá sa, že tento súbor PDF nemôžeme spracovať do vnútra ponuky. Je buď "
+"šifrovaný, alebo uložený vo formáte, ktorý nepodporujeme."
+>>>>>>> upstream/18.0
 =======
 "Zdá sa, že tento súbor PDF nemôžeme spracovať do vnútra ponuky. Je buď "
 "šifrovaný, alebo uložený vo formáte, ktorý nepodporujeme."
@@ -5113,7 +5266,11 @@ msgstr "Naposledy upravované"
 msgid "Mark fields as safe to fill in the quote."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Označte polia ako bezpečné na vyplnenie v ponuke."
+>>>>>>> upstream/18.0
 =======
 msgstr "Označte polia ako bezpečné na vyplnenie v ponuke."
 >>>>>>> upstream/18.0
@@ -5143,7 +5300,11 @@ msgstr "Nie"
 msgid "Only PDF documents can be attached inside a quote."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Do ponuky je možné vložiť iba dokumenty vo formáte PDF."
+>>>>>>> upstream/18.0
 =======
 msgstr "Do ponuky je možné vložiť iba dokumenty vo formáte PDF."
 >>>>>>> upstream/18.0
@@ -5158,6 +5319,11 @@ msgid "Only PDF documents can be used as header or footer."
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ako úvodné alebo záverečné stránky je možné použiť iba dokumenty vo formáte "
+"PDF."
+>>>>>>> upstream/18.0
 =======
 "Ako úvodné alebo záverečné stránky je možné použiť iba dokumenty vo formáte "
 "PDF."
@@ -5186,6 +5352,12 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Prispôsobte si svoje cenové ponuky pomocou pútavých úvodov a záverov,\n"
+"                <br>\n"
+"                aby ste zvýšili svoj predaj."
+>>>>>>> upstream/18.0
 =======
 "Prispôsobte si svoje cenové ponuky pomocou pútavých úvodov a záverov,\n"
 "                <br>\n"
@@ -5203,7 +5375,11 @@ msgstr ""
 msgid "Please use only relational fields until the last value of your path."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Do poslednej hodnoty vašej cesty používajte prosím iba relačné polia."
+>>>>>>> upstream/18.0
 =======
 msgstr "Do poslednej hodnoty vašej cesty používajte prosím iba relačné polia."
 >>>>>>> upstream/18.0
@@ -5258,7 +5434,11 @@ msgid "Product Document"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produktový dokument"
+>>>>>>> upstream/18.0
 =======
 msgstr "Produktový dokument"
 >>>>>>> upstream/18.0
@@ -5377,7 +5557,11 @@ msgstr "Produktový dokument"
 msgid "Product Documents"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produktové dokumenty"
+>>>>>>> upstream/18.0
 =======
 msgstr "Produktové dokumenty"
 >>>>>>> upstream/18.0
@@ -5481,12 +5665,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Provide header pages and footer pages to compose an attractive quotation with more information\n"
 "                        about your company, your products and you services. <br/>\n"
 "                        The pdf of your quotes will be built by putting together header pages, product descriptions,\n"
 "                        details of the quote and then the footer pages. <br/>\n"
 "                        If empty, it will use those define in the company settings. <br/>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5773,6 +5960,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5956,6 +6144,8 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgstr ""
@@ -5970,6 +6160,9 @@ msgstr ""
 "                        Ak budú prázdne, použijú sa tie, ktoré sú definované "
 "v nastaveniach spoločnosti. <br/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5984,7 +6177,11 @@ msgstr "Cenová ponuka / objednávka"
 msgid "Quotation Document"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dokument ponuky"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dokument ponuky"
 >>>>>>> upstream/18.0
@@ -5997,7 +6194,11 @@ msgstr "Dokument ponuky"
 msgid "Quotation Documents"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dokumenty ponúk"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dokumenty ponúk"
 >>>>>>> upstream/18.0
@@ -6021,7 +6222,11 @@ msgstr "Šablóny cenovej ponuky"
 msgid "Quotation's Headers & Footers"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Úvodné a záverečné stránky ponúk"
+>>>>>>> upstream/18.0
 =======
 msgstr "Úvodné a záverečné stránky ponúk"
 >>>>>>> upstream/18.0
@@ -6035,7 +6240,11 @@ msgstr "Úvodné a záverečné stránky ponúk"
 msgid "Quote Builder"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Konfigurátor cenovej ponuky"
+>>>>>>> upstream/18.0
 =======
 msgstr "Konfigurátor cenovej ponuky"
 >>>>>>> upstream/18.0
@@ -6078,7 +6287,11 @@ msgstr "Meno zdroja"
 msgid "Sale : Visible at"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Predaj: Viditeľné na"
+>>>>>>> upstream/18.0
 =======
 msgstr "Predaj: Viditeľné na"
 >>>>>>> upstream/18.0
@@ -6092,6 +6305,11 @@ msgid "Sale Pdf Quote Builder: assign form fields to documents post upgrade"
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Konfigurátor cenovej ponuky predaja: priradenie polí formulára k dokumentom "
+"po aktualizácii"
+>>>>>>> upstream/18.0
 =======
 "Konfigurátor cenovej ponuky predaja: priradenie polí formulára k dokumentom "
 "po aktualizácii"
@@ -6127,7 +6345,11 @@ msgstr "Uložené meno súboru"
 msgid "The field %(field_name)s doesn't exist on model %(model_name)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pole %(field_name)s v modeli %(model_name)s neexistuje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pole %(field_name)s v modeli %(model_name)s neexistuje"
 >>>>>>> upstream/18.0
@@ -6140,7 +6362,11 @@ msgstr "Pole %(field_name)s v modeli %(model_name)s neexistuje"
 msgid "The form field name as written in the PDF."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Názov poľa formulára tak, ako je uvedený v súbore PDF."
+>>>>>>> upstream/18.0
 =======
 msgstr "Názov poľa formulára tak, ako je uvedený v súbore PDF."
 >>>>>>> upstream/18.0
@@ -6156,6 +6382,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Cesta, ktorú je potrebné použiť na dynamické vyplnenie poľa formulára.\n"
+"Nechajte prázdne, aby ste ho mohli prispôsobiť vo formulári ponuky."
+>>>>>>> upstream/18.0
 =======
 "Cesta, ktorú je potrebné použiť na dynamické vyplnenie poľa formulára.\n"
 "Nechajte prázdne, aby ste ho mohli prispôsobiť vo formulári ponuky."
@@ -6173,6 +6404,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Produktové dokumenty k tomuto riadku objednávky, ktoré budú vložené do PDF "
+"ponuky."
+>>>>>>> upstream/18.0
 =======
 "Produktové dokumenty k tomuto riadku objednávky, ktoré budú vložené do PDF "
 "ponuky."
@@ -6192,7 +6428,11 @@ msgstr "Šablóna motívu"
 msgid "This document"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tento dokument"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tento dokument"
 >>>>>>> upstream/18.0
@@ -6210,7 +6450,11 @@ msgstr "Typ"
 msgid "Upload quotation headers and footers"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nahrať úvody a závery ponúk"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nahrať úvody a závery ponúk"
 >>>>>>> upstream/18.0
@@ -6319,7 +6563,11 @@ msgid "Visible to all"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Viditeľné pre všetkých"
+>>>>>>> upstream/18.0
 =======
 msgstr "Viditeľné pre všetkých"
 >>>>>>> upstream/18.0
@@ -6616,7 +6864,11 @@ msgstr "Webstránka"
 msgid "When attached inside a quote, the document must be a file, not a URL."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ak je dokument vložený do ponuky, musí ísť o súbor, nie o URL adresu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ak je dokument vložený do ponuky, musí ísť o súbor, nie o URL adresu."
 >>>>>>> upstream/18.0

@@ -331,6 +331,10 @@ def MockRequest(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            force_website_id=website and website.id,
+>>>>>>> upstream/18.0
 =======
             force_website_id=website and website.id,
 >>>>>>> upstream/18.0
@@ -1339,7 +1343,12 @@ def add_form_signature(html_fragment, env_sudo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 and html_fragment.xpath('//span[@data-for="contactus_form"]'))):
+=======
+                and html_fragment.xpath('//span[@data-for="contactus_form"]')
+                and html_fragment.xpath('//form[@id="contactus_form"]'))):
+>>>>>>> upstream/18.0
 =======
                 and html_fragment.xpath('//span[@data-for="contactus_form"]')
                 and html_fragment.xpath('//form[@id="contactus_form"]'))):

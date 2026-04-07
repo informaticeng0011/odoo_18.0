@@ -20,6 +20,11 @@ MANIFEST_KEYS = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    # for odoo apps store
+    'price', 'currency', 'support', 'live_test_url'
+>>>>>>> upstream/18.0
 =======
     # for odoo apps store
     'price', 'currency', 'support', 'live_test_url'

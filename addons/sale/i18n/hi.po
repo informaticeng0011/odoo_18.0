@@ -135,8 +135,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sale
 # 
+=======
+# * sale
+#
+>>>>>>> upstream/18.0
 =======
 # * sale
 #
@@ -909,6 +914,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Ujjawal Pathak, 2025
 >>>>>>> upstream/18.0
@@ -1723,10 +1729,15 @@
 # Ujjawal Pathak, 2025
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 >>>>>>> upstream/18.0
+=======
+# Ujjawal Pathak, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2944,6 +2955,10 @@ msgstr ""
 "POT-Creation-Date: 2026-02-20 18:39+0000\n"
 "PO-Revision-Date: 2026-03-21 09:24+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2026-02-20 18:39+0000\n"
+"PO-Revision-Date: 2026-03-21 09:24+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Hindi <https://translate.odoo.com/projects/odoo-18/sale/hi/>\n"
 "Language: hi\n"
@@ -2951,6 +2966,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3469,6 +3485,9 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.16.2\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_payment_provider_onboarding_wizard___data_fetched
@@ -3640,7 +3659,11 @@ msgid "&amp;nbsp;"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "&amp;nbsp;"
+>>>>>>> upstream/18.0
 =======
 msgstr "&amp;nbsp;"
 >>>>>>> upstream/18.0
@@ -4293,7 +4316,11 @@ msgid "27.00"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "27.00"
+>>>>>>> upstream/18.0
 =======
 msgstr "27.00"
 >>>>>>> upstream/18.0
@@ -5202,7 +5229,11 @@ msgid "31.05"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "31.05"
+>>>>>>> upstream/18.0
 =======
 msgstr "31.05"
 >>>>>>> upstream/18.0
@@ -5987,6 +6018,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-set=\"transaction_sudo\" t-value=\"object.get_portal_last_transaction()\"/>\n"
 "        Hello,\n"
 "        <br/><br/>\n"
@@ -6001,6 +6033,8 @@ msgid ""
 "            <br/>\n"
 "            <t t-if=\"object.currency_id.compare_amounts(object.amount_paid + transaction_sudo.amount, object.amount_total) &gt;= 0 and object.state in ('draft', 'sent')\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6298,6 +6332,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6580,7 +6617,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount_total - object.amount_paid - transaction_sudo.amount, object.currency_id) or ''\">$ 10.00</span>\n"
+=======
+"                <span style=\"font-weight:bold;\" t-"
+"out=\"format_amount(object.amount_total - object.amount_paid - "
+"transaction_sudo.amount, object.currency_id) or ''\">$ 10.00</span>\n"
+>>>>>>> upstream/18.0
 =======
 "                <span style=\"font-weight:bold;\" t-"
 "out=\"format_amount(object.amount_total - object.amount_paid - "
@@ -7144,10 +7187,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <t t-if=\"object.currency_id.compare_amounts(object.amount_paid, object.amount_total) &lt; 0\">\n"
 "                <br/>\n"
 "                <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount_total - object.amount_paid, object.currency_id) or ''\">$ 10.00</span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7430,6 +7476,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7715,10 +7764,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8000,6 +8052,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8292,10 +8347,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-set=\"tx_sudo\" t-value=\"object.get_portal_last_transaction()\"/>\n"
 "        Your order <span style=\"font-weight:bold;\" t-out=\"object.name or ''\">S00049</span> amounting in <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount_total, object.currency_id) or ''\">$ 10.00</span>\n"
 "        <t t-if=\"object.state == 'sale' or (tx_sudo and tx_sudo.state in ('done', 'authorized'))\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8580,6 +8638,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8864,12 +8925,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                Your payment reference is <span style=\"font-weight:bold;\" t-out=\"object.reference or ''\"/>.\n"
 "            </t>\n"
 "        </t>\n"
 "        <br/>\n"
 "        <t t-set=\"documents\" t-value=\"object._get_product_documents()\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9153,6 +9217,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9442,7 +9509,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <a t-out=\"document.ir_attachment_id.name\" t-att-href=\"object.get_portal_url('/document/' + str(document.id))\" t-att-target=\"target\"/>\n"
+=======
+"                        <a t-out=\"document.ir_attachment_id.name\" t-att-"
+"href=\"object.get_portal_url('/document/' + str(document.id))\" t-att-"
+"target=\"target\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <a t-out=\"document.ir_attachment_id.name\" t-att-"
 "href=\"object.get_portal_url('/document/' + str(document.id))\" t-att-"
@@ -10007,10 +10080,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10292,6 +10368,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10575,6 +10654,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <table width=\"100%\" style=\"color: #454748; font-size: 12px; border-collapse: collapse; white-space: nowrap;\">\n"
 "            <tr style=\"border-bottom: 2px solid #dee2e6;\">\n"
 "                <td style=\"width: 150px;\"><span style=\"font-weight:bold;\">Products</span></td>\n"
@@ -10584,6 +10664,8 @@ msgid ""
 "                    <span style=\"font-weight:bold;\">\n"
 "                        <t t-if=\"object.website_id.show_line_subtotals_tax_selection == 'tax_excluded'\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10873,6 +10955,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11162,6 +11247,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <t t-set=\"line_subtotal\" t-value=\"                     line.price_subtotal                     if object.website_id.show_line_subtotals_tax_selection == 'tax_excluded'                     else line.price_total                 \"/>\n"
 "            <t t-set=\"current_subtotal\" t-value=\"current_subtotal + line_subtotal\"/>\n"
 "            <t t-if=\"(not hasattr(line, 'is_delivery') or not line.is_delivery) and (                     line.display_type in ['line_section', 'line_note']                     or line.product_type == 'combo'                 )\">\n"
@@ -11178,6 +11264,8 @@ msgid ""
 "                            <t t-elif=\"line.display_type == 'line_note'\">\n"
 "                                <i t-out=\"line.name or ''\">Taking care of Trees Course</i>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11486,6 +11574,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11769,6 +11860,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <t t-elif=\"(not hasattr(line, 'is_delivery') or not line.is_delivery)\">\n"
 "                <table width=\"100%\" style=\"color: #454748; font-size: 12px; border-collapse: collapse;\">\n"
 "                    <t t-set=\"loop_cycle_number\" t-value=\"loop_cycle_number or 0\"/>\n"
@@ -11786,6 +11878,8 @@ msgid ""
 "                        <t t-else=\"\">\n"
 "                            <t t-out=\"format_amount(line.price_reduce_taxinc, object.currency_id) or ''\">$ 10.00</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12094,6 +12188,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12377,6 +12474,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <t t-if=\"current_section and (                     line_last                     or object.order_line[line_index+1].display_type == 'line_section'                     or object.order_line[line_index+1].product_type == 'combo'                     or (                         line.combo_item_id                         and not object.order_line[line_index+1].combo_item_id                     )                 ) and not line.is_downpayment\">\n"
 "                <t t-set=\"current_section\" t-value=\"None\"/>\n"
 "                <table width=\"100%\" style=\"color: #454748; font-size: 12px; border-collapse: collapse;\">\n"
@@ -12387,6 +12485,8 @@ msgid ""
 "                            <span style=\"font-weight: bold;\">Subtotal:</span>\n"
 "                            <span t-out=\"format_amount(current_subtotal, object.currency_id) or ''\">$ 10.00</span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12686,6 +12786,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12970,6 +13073,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    <div style=\"margin: 0px; padding: 0px;\" t-if=\"hasattr(object, 'carrier_id') and object.carrier_id\">\n"
 "        <table width=\"100%\" style=\"color: #454748; font-size: 12px; border-spacing: 0px 4px; white-space: nowrap;\" align=\"right\">\n"
 "            <tr>\n"
@@ -12982,6 +13086,8 @@ msgid ""
 "                <td style=\"width: 30%;\" align=\"right\"><span style=\"font-weight:bold;\">Untaxed Amount:</span></td>\n"
 "                <td style=\"width: 10%;\" align=\"right\" t-out=\"format_amount(object.amount_untaxed, object.currency_id) or ''\">$ 10.00</td>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13277,6 +13383,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13559,12 +13668,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <table width=\"100%\" style=\"color: #454748; font-size: 12px; border-spacing: 0px 4px; white-space: nowrap;\" align=\"right\">\n"
 "            <tr>\n"
 "                <td style=\"width: 60%\"/>\n"
 "                <td style=\"width: 30%; border-top: 1px solid #dee2e6;\" align=\"right\"><span style=\"font-weight:bold;\">Untaxed Amount:</span></td>\n"
 "                <td style=\"width: 10%; border-top: 1px solid #dee2e6;\" align=\"right\" t-out=\"format_amount(object.amount_untaxed, object.currency_id) or ''\">$ 10.00</td>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13851,6 +13963,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14133,6 +14248,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <table width=\"100%\" style=\"color: #454748; font-size: 12px; border-spacing: 0px 4px; white-space: nowrap;\" align=\"right\">\n"
 "            <tr>\n"
 "                <td style=\"width: 60%\"/>\n"
@@ -14148,6 +14264,8 @@ msgid ""
 "    </div>\n"
 "    <div t-if=\"object.partner_invoice_id\" style=\"margin: 0px; padding: 0px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14446,6 +14564,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14728,12 +14849,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <t t-out=\"object.partner_invoice_id.street or ''\">1201 S Figueroa St</t>\n"
 "                    <t t-out=\"object.partner_invoice_id.city or ''\">Los Angeles</t>\n"
 "                    <t t-out=\"object.partner_invoice_id.state_id.name or ''\">California</t>\n"
 "                    <t t-out=\"object.partner_invoice_id.zip or ''\">90015</t>\n"
 "                    <t t-out=\"object.partner_invoice_id.country_id.name or ''\">United States</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15020,6 +15144,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15302,7 +15429,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <span style=\"font-weight:bold;\">Payment Method:</span>\n"
+=======
+"                    <span style=\"font-weight:bold;\">Payment Method:</"
+"span>\n"
+>>>>>>> upstream/18.0
 =======
 "                    <span style=\"font-weight:bold;\">Payment Method:</"
 "span>\n"
@@ -15772,10 +15904,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <t t-out=\"tx_sudo.provider_id.sudo().name or ''\"/>\n"
 "                    </t>\n"
 "                    (<t t-out=\"format_amount(tx_sudo.amount, object.currency_id) or ''\">$ 10.00</t>)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16057,6 +16192,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16339,7 +16477,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    <div t-if=\"object.partner_shipping_id and not object.only_services\" style=\"margin: 0px; padding: 0px;\">\n"
+=======
+"    <div t-if=\"object.partner_shipping_id and not object.only_services\" "
+"style=\"margin: 0px; padding: 0px;\">\n"
+>>>>>>> upstream/18.0
 =======
 "    <div t-if=\"object.partner_shipping_id and not object.only_services\" "
 "style=\"margin: 0px; padding: 0px;\">\n"
@@ -16810,6 +16953,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <t t-out=\"object.partner_shipping_id.street or ''\">1201 S Figueroa St</t>\n"
 "                    <t t-out=\"object.partner_shipping_id.city or ''\">Los Angeles</t>\n"
 "                    <t t-out=\"object.partner_shipping_id.state_id.name or ''\">California</t>\n"
@@ -16823,6 +16967,8 @@ msgid ""
 "                <td>\n"
 "                    <span style=\"font-weight:bold;\">Shipping Method:</span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17118,6 +17264,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17401,7 +17550,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        (<t t-out=\"format_amount(object.amount_delivery, object.currency_id) or ''\">$ 10.00</t>)\n"
+=======
+"                        (<t t-out=\"format_amount(object.amount_delivery, "
+"object.currency_id) or ''\">$ 10.00</t>)\n"
+>>>>>>> upstream/18.0
 =======
 "                        (<t t-out=\"format_amount(object.amount_delivery, "
 "object.currency_id) or ''\">$ 10.00</t>)\n"
@@ -17887,7 +18041,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-set=\"doc_name\" t-value=\"'quotation' if object.state in ('draft', 'sent') else 'order'\"/>\n"
+=======
+"        <t t-set=\"doc_name\" t-value=\"'quotation' if object.state in "
+"('draft', 'sent') else 'order'\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "        <t t-set=\"doc_name\" t-value=\"'quotation' if object.state in "
 "('draft', 'sent') else 'order'\"/>\n"
@@ -18357,6 +18516,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Pro forma invoice for <t t-out=\"doc_name or ''\">quotation</t> <span style=\"font-weight: bold;\" t-out=\"object.name or ''\">S00052</span>\n"
 "            <t t-if=\"object.origin\">\n"
 "                (with reference: <t t-out=\"object.origin or ''\"/> )\n"
@@ -18373,6 +18533,8 @@ msgid ""
 "        <br/>\n"
 "        <t t-set=\"documents\" t-value=\"object._get_product_documents()\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18673,6 +18835,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18962,7 +19127,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <a t-out=\"document.ir_attachment_id.name\" t-att-href=\"object.get_portal_url('/document/' + str(document.id))\" t-att-target=\"target\"/>\n"
+=======
+"                        <a t-out=\"document.ir_attachment_id.name\" t-att-"
+"href=\"object.get_portal_url('/document/' + str(document.id))\" t-att-"
+"target=\"target\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <a t-out=\"document.ir_attachment_id.name\" t-att-"
 "href=\"object.get_portal_url('/document/' + str(document.id))\" t-att-"
@@ -19527,10 +19698,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19812,6 +19986,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20106,6 +20283,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-out=\"doc_name or ''\">quotation</t> <strong t-out=\"object.name or ''\">S00052</strong>\n"
 "        <t t-if=\"object.origin\">\n"
 "            (with reference: <t t-out=\"object.origin or ''\">S00052</t> )\n"
@@ -20113,6 +20291,8 @@ msgid ""
 "        has been cancelled. Therefore, you should not be charged further for this order.\n"
 "        If any refund is necessary, this will be executed at best convenience.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20398,6 +20578,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20721,7 +20904,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-fw fa-money me-1\" aria-label=\"Quotations\" role=\"img\"/>"
+=======
+msgid ""
+"<i class=\"fa fa-fw fa-money me-1\" aria-label=\"Quotations\" role=\"img\"/>"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "<i class=\"fa fa-fw fa-money me-1\" aria-label=\"Quotations\" role=\"img\"/>"
@@ -21195,6 +21383,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid ""
 "<span class=\"fa fa-lg fa-building-o p-2\" title=\"Values set here are "
@@ -21202,6 +21391,8 @@ msgid ""
 msgstr ""
 
 #. module: sale
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21409,7 +21600,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span invisible=\"1\" class=\"oe_inline text-danger\" title=\"The Down Payment is greater than the amount remaining to be invoiced.\">\n"
+=======
+"<span invisible=\"1\" class=\"oe_inline text-danger\" title=\"The Down "
+"Payment is greater than the amount remaining to be invoiced.\">\n"
+>>>>>>> upstream/18.0
 =======
 "<span invisible=\"1\" class=\"oe_inline text-danger\" title=\"The Down "
 "Payment is greater than the amount remaining to be invoiced.\">\n"
@@ -21889,7 +22085,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span><b>Congratulations</b>, your first quotation is sent!<br>Check your email to validate the quote.\n"
+=======
+"<span><b>Congratulations</b>, your first quotation is sent!<br>Check your "
+"email to validate the quote.\n"
+>>>>>>> upstream/18.0
 =======
 "<span><b>Congratulations</b>, your first quotation is sent!<br>Check your "
 "email to validate the quote.\n"
@@ -22368,9 +22569,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <span id=\"display_invoice_alert\" invisible=\"not display_invoice_alert\">\n"
 "                            Draft invoices for this order will be cancelled. <br/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22651,6 +22855,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23069,7 +23276,11 @@ msgid "<span>Disc.%</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>छूट%</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>छूट%</span>"
 >>>>>>> upstream/18.0
@@ -23980,7 +24191,11 @@ msgid "<span>Taxes</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>टैक्स</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>टैक्स</span>"
 >>>>>>> upstream/18.0
@@ -24889,6 +25104,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -24910,6 +25126,8 @@ msgstr ""
 msgid "<strong class=\"mr16\">Subtotal</strong>"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25584,6 +25802,9 @@ msgstr "<strong class=\"mr16\">सबटोटल</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26273,11 +26494,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<strong>Shipping Address</strong>"
 msgstr ""
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26991,6 +27215,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "यह एक नोट है जो आम तौर पर अपने ठीक ऊपर बताए गए सेक्शन या प्रॉडक्ट से जुड़ी "
 "होती है."
@@ -27510,6 +27735,9 @@ msgstr ""
 =======
 "यह एक नोट है जो आम तौर पर अपने ठीक ऊपर बताए गए सेक्शन या प्रॉडक्ट से जुड़ी "
 "होती है."
+>>>>>>> upstream/18.0
+=======
+"यह एक नोट है जो आम तौर पर अपने ठीक ऊपर बताए गए सेक्शन या प्रॉडक्ट से जुड़ी होती है."
 >>>>>>> upstream/18.0
 =======
 "यह एक नोट है जो आम तौर पर अपने ठीक ऊपर बताए गए सेक्शन या प्रॉडक्ट से जुड़ी होती है."
@@ -28031,7 +28259,11 @@ msgid "A section title"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सेक्शन टाइटल"
+>>>>>>> upstream/18.0
 =======
 msgstr "सेक्शन टाइटल"
 >>>>>>> upstream/18.0
@@ -28799,8 +29031,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "invoicing,according to their invoicing policy (based on ordered or delivered"
 " quantity)."
+=======
+"invoicing,according to their invoicing policy (based on ordered or delivered "
+"quantity)."
+>>>>>>> upstream/18.0
 =======
 "invoicing,according to their invoicing policy (based on ordered or delivered "
 "quantity)."
@@ -29435,7 +29672,11 @@ msgid "Access warning"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐक्सेस वॉर्निंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐक्सेस वॉर्निंग"
 >>>>>>> upstream/18.0
@@ -30202,11 +30443,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "According to product configuration, the delivered quantity can be automatically computed by mechanism:\n"
 "  - Manual: the quantity is set manually on the line\n"
 "  - Analytic From expenses: the quantity is the quantity sum from posted expenses\n"
 "  - Timesheet: the quantity is the sum of hours recorded on tasks linked to this sale line\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -30490,6 +30734,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -30576,6 +30821,8 @@ msgid ""
 "  - Stock Moves: the quantity comes from confirmed pickings\n"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -30680,6 +30927,7 @@ msgstr ""
 msgstr ""
 "प्रॉडक्ट कॉन्फ़िगरेशन के अनुसार, डिलीवर की गई मात्रा को ऑटोमैटिक तरीके से कैलकुलेट करें:\n"
 "  - मैन्युअल: मात्रा को लाइन पर मैन्युअल रूप से सेट करें\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30833,6 +31081,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "  - एनालिटिक फ्रॉम एक्सपेंसेस: जितने खर्चे दर्ज किए गए हैं, उनकी कुल संख्या ही डिलीवरी "
 "मात्रा होगी\n"
 "  - टाइमशीट: मात्रा इस सेल लाइन से जुड़े टास्क पर दर्ज किए गए घंटों का योग है\n"
@@ -30880,6 +31130,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -31194,7 +31447,11 @@ msgid "Account Chart Template"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंट चार्ट टेंप्लेट"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंट चार्ट टेंप्लेट"
 >>>>>>> upstream/18.0
@@ -32091,7 +32348,11 @@ msgid "Account Number"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "खाते का नंबर"
+>>>>>>> upstream/18.0
 =======
 msgstr "खाते का नंबर"
 >>>>>>> upstream/18.0
@@ -32993,7 +33254,11 @@ msgid "Action Needed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कार्रवाई की ज़रूरत है"
+>>>>>>> upstream/18.0
 =======
 msgstr "कार्रवाई की ज़रूरत है"
 >>>>>>> upstream/18.0
@@ -33896,7 +34161,11 @@ msgid "Activity Exception Decoration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐक्टिविटी एक्सेप्शन डेकोरेशन"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐक्टिविटी एक्सेप्शन डेकोरेशन"
 >>>>>>> upstream/18.0
@@ -34705,7 +34974,11 @@ msgid "Activity Plans"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐक्टिविटी प्लान"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐक्टिविटी प्लान"
 >>>>>>> upstream/18.0
@@ -35338,7 +35611,11 @@ msgid "Activity State"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐक्टिविटी स्टेट"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐक्टिविटी स्टेट"
 >>>>>>> upstream/18.0
@@ -36235,7 +36512,11 @@ msgid "Activity Type Icon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐक्टिविटी टाइप आइकॉन"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐक्टिविटी टाइप आइकॉन"
 >>>>>>> upstream/18.0
@@ -37045,7 +37326,11 @@ msgid "Activity Types"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐक्टिविटी टाइप"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐक्टिविटी टाइप"
 >>>>>>> upstream/18.0
@@ -37549,7 +37834,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                (e.g. \"Delivery scheduling\", \"Order Payment Follow-up\", ...)"
+=======
+"                (e.g. \"Delivery scheduling\", \"Order Payment Follow-"
+"up\", ...)"
+>>>>>>> upstream/18.0
 =======
 "                (e.g. \"Delivery scheduling\", \"Order Payment Follow-"
 "up\", ...)"
@@ -38156,7 +38446,11 @@ msgid "Add a note"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नोट जोड़ें"
+>>>>>>> upstream/18.0
 =======
 msgstr "नोट जोड़ें"
 >>>>>>> upstream/18.0
@@ -39058,7 +39352,11 @@ msgid "Add a section"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सेक्शन जोड़ें"
+>>>>>>> upstream/18.0
 =======
 msgstr "सेक्शन जोड़ें"
 >>>>>>> upstream/18.0
@@ -39873,7 +40171,11 @@ msgid "Add one"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जोड़ें"
+>>>>>>> upstream/18.0
 =======
 msgstr "जोड़ें"
 >>>>>>> upstream/18.0
@@ -40408,6 +40710,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Leave it empty if you don't want to share this document with sales customer.\n"
 "On quote: the document will be sent to and accessible by customers at any time.\n"
 "e.g. this option can be useful to share Product description files.\n"
@@ -40415,6 +40718,8 @@ msgid ""
 "e.g. this option can be useful to share User Manual or digital content bought on ecommerce. \n"
 "Inside quote: The document will be included in the pdf of the quotation and sale order between the header pages and the quote table. "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -40702,6 +41007,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -41027,7 +41335,11 @@ msgid "Already Paid"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पेमेंट किया जा चुका है"
+>>>>>>> upstream/18.0
 =======
 msgstr "पेमेंट किया जा चुका है"
 >>>>>>> upstream/18.0
@@ -41564,7 +41876,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            ordered quantities, and the invoicing policy is based on ordered quantities."
+=======
+"            ordered quantities, and the invoicing policy is based on ordered "
+"quantities."
+>>>>>>> upstream/18.0
 =======
 "            ordered quantities, and the invoicing policy is based on ordered "
 "quantities."
@@ -42165,7 +42482,11 @@ msgid "Analytic Distribution"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एनालिटिक डिस्ट्रिब्यूशन"
+>>>>>>> upstream/18.0
 =======
 msgstr "एनालिटिक डिस्ट्रिब्यूशन"
 >>>>>>> upstream/18.0
@@ -43067,7 +43388,11 @@ msgid "Analytic Line"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एनालिटिक लाइन"
+>>>>>>> upstream/18.0
 =======
 msgstr "एनालिटिक लाइन"
 >>>>>>> upstream/18.0
@@ -43964,7 +44289,11 @@ msgid "Analytic Plan's Applicabilities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एनालिटिक प्लान की ऐप्लिकेबिलिटी"
+>>>>>>> upstream/18.0
 =======
 msgstr "एनालिटिक प्लान की ऐप्लिकेबिलिटी"
 >>>>>>> upstream/18.0
@@ -44861,7 +45190,11 @@ msgid "Analytic Precision"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एनालिटिक प्रीसीज़न"
+>>>>>>> upstream/18.0
 =======
 msgstr "एनालिटिक प्रीसीज़न"
 >>>>>>> upstream/18.0
@@ -45758,7 +46091,11 @@ msgid "Analytic lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एनालिटिक लाइन"
+>>>>>>> upstream/18.0
 =======
 msgstr "एनालिटिक लाइन"
 >>>>>>> upstream/18.0
@@ -46655,7 +46992,11 @@ msgid "Apply"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अप्लाई करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "अप्लाई करें"
 >>>>>>> upstream/18.0
@@ -47484,6 +47825,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"क्या आप वाकई मंज़ूर किए गए लेन-देन को रद्द करना चाहते हैं? इस कार्रवाई को वापस नहीं लिया "
+"जा सकता।"
+>>>>>>> upstream/18.0
 =======
 "क्या आप वाकई मंज़ूर किए गए लेन-देन को रद्द करना चाहते हैं? इस कार्रवाई को वापस नहीं लिया "
 "जा सकता।"
@@ -48263,7 +48609,11 @@ msgid "Attachment Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अटैचमेंट काउंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "अटैचमेंट काउंट"
 >>>>>>> upstream/18.0
@@ -48981,7 +49331,11 @@ msgid "Attribute Values"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एट्रिब्यूट वैल्यू"
+>>>>>>> upstream/18.0
 =======
 msgstr "एट्रिब्यूट वैल्यू"
 >>>>>>> upstream/18.0
@@ -49259,7 +49613,11 @@ msgid "Author"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लेखक"
+>>>>>>> upstream/18.0
 =======
 msgstr "लेखक"
 >>>>>>> upstream/18.0
@@ -49804,7 +50162,11 @@ msgid "Authorized Transactions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अधिकृत लेन-देन"
+>>>>>>> upstream/18.0
 =======
 msgstr "अधिकृत लेन-देन"
 >>>>>>> upstream/18.0
@@ -50312,7 +50674,11 @@ msgid "Average"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "औसत"
+>>>>>>> upstream/18.0
 =======
 msgstr "औसत"
 >>>>>>> upstream/18.0
@@ -50816,7 +51182,11 @@ msgid "Bacon Burger"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बेकन बर्गर"
+>>>>>>> upstream/18.0
 =======
 msgstr "बेकन बर्गर"
 >>>>>>> upstream/18.0
@@ -51728,7 +52098,11 @@ msgid "Body content is the same as the template"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बॉडी कॉन्टेंट बिलकुल टेंप्लेट की तरह है"
+>>>>>>> upstream/18.0
 =======
 msgstr "बॉडी कॉन्टेंट बिलकुल टेंप्लेट की तरह है"
 >>>>>>> upstream/18.0
@@ -52569,7 +52943,11 @@ msgid "Campaign"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कैंपेन"
+>>>>>>> upstream/18.0
 =======
 msgstr "कैंपेन"
 >>>>>>> upstream/18.0
@@ -53199,7 +53577,11 @@ msgid "Can Edit Body"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बॉडी में बदलाव किया जा सकता है"
+>>>>>>> upstream/18.0
 =======
 msgstr "बॉडी में बदलाव किया जा सकता है"
 >>>>>>> upstream/18.0
@@ -54005,6 +54387,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "   • For consumable or storable products, open the product, go to the 'General Information' tab and change the 'Invoicing Policy' from 'Delivered Quantities' to 'Ordered Quantities'.\n"
 "   • For services (and other products), change the 'Invoicing Policy' to 'Prepaid/Fixed Price'.\n"
 msgstr ""
@@ -54071,6 +54454,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -54353,6 +54738,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -54545,6 +54933,7 @@ msgstr ""
 "   • प्रॉडक्ट की इनवॉइसिंग नीति सही सेट है.\n"
 "\n"
 "अगर आप ऑर्डर की गई मात्राओं के आधार पर इनवॉइस बनाना चाहते हैं, तो:\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -54888,6 +55277,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "   • उपभोग्य या स्टोर किए जा सकने वाले प्रॉडक्ट के लिए, प्रॉडक्ट खोलें, 'सामान्य "
 "जानकारी' टैब पर जाएं और 'इनवॉइसिंग नीति' को 'डिलीवर की गई मात्रा' से 'ऑर्डर की गई "
 "मात्रा' में बदलें..\n"
@@ -54985,6 +55376,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -55309,7 +55703,11 @@ msgid "Capture Transaction"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ट्रांज़ैक्शन कैप्चर करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "ट्रांज़ैक्शन कैप्चर करें"
 >>>>>>> upstream/18.0
@@ -55939,7 +56337,11 @@ msgid "Catalog"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कैटलॉग"
+>>>>>>> upstream/18.0
 =======
 msgstr "कैटलॉग"
 >>>>>>> upstream/18.0
@@ -56791,7 +57193,11 @@ msgid "Commissions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कमीशन"
+>>>>>>> upstream/18.0
 =======
 msgstr "कमीशन"
 >>>>>>> upstream/18.0
@@ -57408,7 +57814,11 @@ msgid "Communication"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कम्यूनिकेशन "
+>>>>>>> upstream/18.0
 =======
 msgstr "कम्यूनिकेशन "
 >>>>>>> upstream/18.0
@@ -58254,7 +58664,11 @@ msgid "Communication history"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कम्यूनिकेशन का इतिहास"
+>>>>>>> upstream/18.0
 =======
 msgstr "कम्यूनिकेशन का इतिहास"
 >>>>>>> upstream/18.0
@@ -59142,7 +59556,11 @@ msgid "Companies"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कंपनियां"
+>>>>>>> upstream/18.0
 =======
 msgstr "कंपनियां"
 >>>>>>> upstream/18.0
@@ -60047,6 +60465,7 @@ msgid "Company Document Layout"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "कंपनी के दस्तावेज़ का लेआउ"
@@ -60503,12 +60922,15 @@ msgid "Compute shipping costs and ship with DHL"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "कंपनी के दस्तावेज़ का लेआउ"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid ""
 "Compute shipping costs and ship with DHL<br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -61318,6 +61740,10 @@ msgid ""
 "                                    <strong>(please go to Home&gt;Apps to "
 "install)</strong>"
 >>>>>>> upstream/18.0
+=======
+"                                    <strong>(please go to Home&gt;Apps to "
+"install)</strong>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sale
@@ -61327,6 +61753,7 @@ msgstr ""
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -62296,6 +62723,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Compute shipping costs and ship with FedEx<br/>\n"
 "                                    <strong>(please go to Home&gt;Apps to "
@@ -62392,6 +62821,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -62596,6 +63028,7 @@ msgstr ""
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -63565,6 +63998,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Compute shipping costs and ship with UPS<br/>\n"
 "                                    <strong>(please go to Home&gt;Apps to "
@@ -63661,6 +64096,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -63850,6 +64288,7 @@ msgstr ""
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -64819,6 +65258,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Compute shipping costs and ship with USPS<br/>\n"
 "                                    <strong>(please go to Home&gt;Apps to "
@@ -64915,6 +65356,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -65335,7 +65779,11 @@ msgid "Config Settings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कॉन्फ़िगरेशन सेटिंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "कॉन्फ़िगरेशन सेटिंग"
 >>>>>>> upstream/18.0
@@ -66154,7 +66602,11 @@ msgid "Confirmation Message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पुष्टि होने का मैसेज"
+>>>>>>> upstream/18.0
 =======
 msgstr "पुष्टि होने का मैसेज"
 >>>>>>> upstream/18.0
@@ -66799,7 +67251,11 @@ msgid "Contents"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कॉन्टेंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "कॉन्टेंट"
 >>>>>>> upstream/18.0
@@ -67616,7 +68072,11 @@ msgid "Create Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "तारीख बनाएं"
+>>>>>>> upstream/18.0
 =======
 msgstr "तारीख बनाएं"
 >>>>>>> upstream/18.0
@@ -68167,7 +68627,11 @@ msgid "Create Invoice"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इनवॉइस बनाएं"
+>>>>>>> upstream/18.0
 =======
 msgstr "इनवॉइस बनाएं"
 >>>>>>> upstream/18.0
@@ -68807,7 +69271,11 @@ msgid "Create a customer invoice"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ग्राहक का इनवॉइस बनाएं"
+>>>>>>> upstream/18.0
 =======
 msgstr "ग्राहक का इनवॉइस बनाएं"
 >>>>>>> upstream/18.0
@@ -69585,6 +70053,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -70220,6 +70689,9 @@ msgstr ""
 =======
 "इनवॉइस बनाएं, पेमेंट रजिस्टर करें और अपने ग्राहकों से हुई बातचीत का पूरा "
 "रिकॉर्ड रखें."
+>>>>>>> upstream/18.0
+=======
+msgstr "इनवॉइस बनाएं, पेमेंट रजिस्टर करें और अपने ग्राहकों से हुई बातचीत का पूरा रिकॉर्ड रखें."
 >>>>>>> upstream/18.0
 =======
 msgstr "इनवॉइस बनाएं, पेमेंट रजिस्टर करें और अपने ग्राहकों से हुई बातचीत का पूरा रिकॉर्ड रखें."
@@ -70752,7 +71224,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस तारीख को बनाया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इस तारीख को बनाया गया"
 >>>>>>> upstream/18.0
@@ -71663,7 +72139,11 @@ msgid "Currency"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "करेंसी"
+>>>>>>> upstream/18.0
 =======
 msgstr "करेंसी"
 >>>>>>> upstream/18.0
@@ -72557,7 +73037,11 @@ msgid "Currency Rate"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "करेंसी रेट"
+>>>>>>> upstream/18.0
 =======
 msgstr "करेंसी रेट"
 >>>>>>> upstream/18.0
@@ -73357,7 +73841,11 @@ msgid "Custom"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कस्टम"
+>>>>>>> upstream/18.0
 =======
 msgstr "कस्टम"
 >>>>>>> upstream/18.0
@@ -74025,7 +74513,11 @@ msgid "Customer Portal URL"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कस्टमर पोर्टल यूआरएल"
+>>>>>>> upstream/18.0
 =======
 msgstr "कस्टमर पोर्टल यूआरएल"
 >>>>>>> upstream/18.0
@@ -74910,7 +75402,11 @@ msgid "Customer Reference"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कस्टमर रेफ़रंस"
+>>>>>>> upstream/18.0
 =======
 msgstr "कस्टमर रेफ़रंस"
 >>>>>>> upstream/18.0
@@ -75694,7 +76190,11 @@ msgid "Customer State"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ग्राहक की स्थिति"
+>>>>>>> upstream/18.0
 =======
 msgstr "ग्राहक की स्थिति"
 >>>>>>> upstream/18.0
@@ -76264,7 +76764,10 @@ msgstr "साथी"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -76891,6 +77394,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -77538,7 +78044,11 @@ msgid "Date:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "तारीख:"
+>>>>>>> upstream/18.0
 =======
 msgstr "तारीख:"
 >>>>>>> upstream/18.0
@@ -78444,7 +78954,11 @@ msgid "Default Sales Price Include"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिफ़ॉल्ट सेल्स प्राइस शामिल है"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिफ़ॉल्ट सेल्स प्राइस शामिल है"
 >>>>>>> upstream/18.0
@@ -79333,6 +79847,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "डिफ़ॉल्ट सेटिंग जो यह तय करती है कि इस कंपनी के प्रॉडक्ट की सेल्स प्राइस और "
 "इनवॉइस में टैक्स शामिल है या नहीं."
@@ -79840,6 +80355,10 @@ msgstr ""
 =======
 "डिफ़ॉल्ट सेटिंग जो यह तय करती है कि इस कंपनी के प्रॉडक्ट की सेल्स प्राइस और "
 "इनवॉइस में टैक्स शामिल है या नहीं."
+>>>>>>> upstream/18.0
+=======
+"डिफ़ॉल्ट सेटिंग जो यह तय करती है कि इस कंपनी के प्रॉडक्ट की सेल्स प्राइस और इनवॉइस में टैक्स "
+"शामिल है या नहीं."
 >>>>>>> upstream/18.0
 =======
 "डिफ़ॉल्ट सेटिंग जो यह तय करती है कि इस कंपनी के प्रॉडक्ट की सेल्स प्राइस और इनवॉइस में टैक्स "
@@ -80299,7 +80818,11 @@ msgid "Delivered"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिलीवर किया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिलीवर किया गया"
 >>>>>>> upstream/18.0
@@ -80730,7 +81253,11 @@ msgid "Delivery Address"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिलीवरी का पता"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिलीवरी का पता"
 >>>>>>> upstream/18.0
@@ -81616,6 +82143,7 @@ msgid "Delivery Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "डिलीवरी की तारीख"
@@ -82083,6 +82611,8 @@ msgstr "डिलीवरी की तारीख"
 msgstr "डिलीवरी की तारीख"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -82281,6 +82811,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -82549,7 +83082,11 @@ msgid "Delivery Methods"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिलीवरी का तरीका"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिलीवरी का तरीका"
 >>>>>>> upstream/18.0
@@ -83184,7 +83721,11 @@ msgid "Deposit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिपोज़िट "
+>>>>>>> upstream/18.0
 =======
 msgstr "डिपोज़िट "
 >>>>>>> upstream/18.0
@@ -84049,7 +84590,11 @@ msgid "Disc.%"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "छूट%"
+>>>>>>> upstream/18.0
 =======
 msgstr "छूट%"
 >>>>>>> upstream/18.0
@@ -84936,7 +85481,11 @@ msgid "Discard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "खारिज करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "खारिज करें"
 >>>>>>> upstream/18.0
@@ -85825,7 +86374,11 @@ msgid "Discount"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "छूट"
+>>>>>>> upstream/18.0
 =======
 msgstr "छूट"
 >>>>>>> upstream/18.0
@@ -86710,7 +87263,11 @@ msgid "Discount %"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "छूट %"
+>>>>>>> upstream/18.0
 =======
 msgstr "छूट %"
 >>>>>>> upstream/18.0
@@ -87607,7 +88164,11 @@ msgid "Discount (%)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "छूट (%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "छूट (%)"
 >>>>>>> upstream/18.0
@@ -88492,7 +89053,11 @@ msgid "Discount Amount"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिस्काउंट अमाउंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिस्काउंट अमाउंट"
 >>>>>>> upstream/18.0
@@ -89250,7 +89815,11 @@ msgid "Discount Product"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिस्काउंट प्रॉडक्ट"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिस्काउंट प्रॉडक्ट"
 >>>>>>> upstream/18.0
@@ -89674,7 +90243,11 @@ msgid "Discount Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिस्काउंट विज़ार्ड"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिस्काउंट विज़ार्ड"
 >>>>>>> upstream/18.0
@@ -90235,7 +90808,11 @@ msgid "Discounts"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "छूट"
+>>>>>>> upstream/18.0
 =======
 msgstr "छूट"
 >>>>>>> upstream/18.0
@@ -90888,7 +91465,11 @@ msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिस्प्ले नाम"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिस्प्ले नाम"
 >>>>>>> upstream/18.0
@@ -91791,7 +92372,11 @@ msgid "Display Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिस्प्ले टाइप"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिस्प्ले टाइप"
 >>>>>>> upstream/18.0
@@ -92676,6 +93261,7 @@ msgid "Distribution Analytic Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "डिस्ट्रिब्यूशन एनालिटिक अकाउं"
@@ -92714,6 +93300,8 @@ msgstr "डिस्ट्रिब्यूशन एनालिटिक अ�
 msgstr "डिस्ट्रिब्यूशन एनालिटिक अकाउं"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -93268,6 +93856,7 @@ msgid "Documentation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -93485,6 +94074,9 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "दस्तावेज़"
 >>>>>>> upstream/18.0
 =======
 msgstr "दस्तावेज़"
@@ -94030,7 +94622,11 @@ msgid "Documents"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डॉक्यूमेंट्स"
+>>>>>>> upstream/18.0
 =======
 msgstr "डॉक्यूमेंट्स"
 >>>>>>> upstream/18.0
@@ -94660,7 +95256,11 @@ msgid "Domain"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डोमेन"
+>>>>>>> upstream/18.0
 =======
 msgstr "डोमेन"
 >>>>>>> upstream/18.0
@@ -95463,7 +96063,11 @@ msgid "Down Payment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डाउन पेमेंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "डाउन पेमेंट"
 >>>>>>> upstream/18.0
@@ -96164,7 +96768,11 @@ msgid "Draft Invoices"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ड्रॉफ़्ट इनवॉइस"
+>>>>>>> upstream/18.0
 =======
 msgstr "ड्रॉफ़्ट इनवॉइस"
 >>>>>>> upstream/18.0
@@ -97049,7 +97657,11 @@ msgid "Duplicated Documents"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डुप्लीकेट डॉक्यूमेंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "डुप्लीकेट डॉक्यूमेंट"
 >>>>>>> upstream/18.0
@@ -97964,6 +98576,7 @@ msgstr "ईमेल"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -98690,6 +99303,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:sale.model_mail_compose_message
 msgid "Email composition wizard"
 msgstr "ईमेल कंपोज़िशन विज़ार्ड"
@@ -98829,6 +99444,9 @@ msgstr "ईमेल कंपोज़िशन विज़ार्ड"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -99348,7 +99966,11 @@ msgid "Expense"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "खर्च"
+>>>>>>> upstream/18.0
 =======
 msgstr "खर्च"
 >>>>>>> upstream/18.0
@@ -100148,7 +100770,11 @@ msgid "Expiration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "समय सीमा समाप्ति"
+>>>>>>> upstream/18.0
 =======
 msgstr "समय सीमा समाप्ति"
 >>>>>>> upstream/18.0
@@ -100698,7 +101324,11 @@ msgid "Extended Filters"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ज़्यादा फ़िल्टर"
+>>>>>>> upstream/18.0
 =======
 msgstr "ज़्यादा फ़िल्टर"
 >>>>>>> upstream/18.0
@@ -101326,6 +101956,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -102176,7 +102810,11 @@ msgid "Fiscal Position"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वित्तीय स्थिति"
+>>>>>>> upstream/18.0
 =======
 msgstr "वित्तीय स्थिति"
 >>>>>>> upstream/18.0
@@ -102935,8 +103573,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "customers or sales orders/invoices.The default value comes from the "
 "customer."
+=======
+"customers or sales orders/invoices.The default value comes from the customer."
+>>>>>>> upstream/18.0
 =======
 "customers or sales orders/invoices.The default value comes from the customer."
 >>>>>>> upstream/18.0
@@ -103356,7 +103998,11 @@ msgid "Fixed Amount"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "तय कीमत"
+>>>>>>> upstream/18.0
 =======
 msgstr "तय कीमत"
 >>>>>>> upstream/18.0
@@ -103988,7 +104634,11 @@ msgid "Followers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़ॉलोवर"
+>>>>>>> upstream/18.0
 =======
 msgstr "फ़ॉलोवर"
 >>>>>>> upstream/18.0
@@ -104861,7 +105511,11 @@ msgid "Followers (Partners)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़ॉलोवर (पार्टनर)"
+>>>>>>> upstream/18.0
 =======
 msgstr "फ़ॉलोवर (पार्टनर)"
 >>>>>>> upstream/18.0
@@ -105734,7 +106388,11 @@ msgid "Font awesome icon e.g. fa-tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फॉन्ट के बेहतरीन आइकॉन जैसे, फा-टॉस्क"
+>>>>>>> upstream/18.0
 =======
 msgstr "फॉन्ट के बेहतरीन आइकॉन जैसे, फा-टॉस्क"
 >>>>>>> upstream/18.0
@@ -106505,7 +107163,11 @@ msgid "Fully Invoiced"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पूरी तरह से इनवॉइस किया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "पूरी तरह से इनवॉइस किया गया"
 >>>>>>> upstream/18.0
@@ -107006,7 +107668,11 @@ msgid "Future Activities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ्यूचर ऐक्टिविटी"
+>>>>>>> upstream/18.0
 =======
 msgstr "फ्यूचर ऐक्टिविटी"
 >>>>>>> upstream/18.0
@@ -107869,7 +108535,11 @@ msgid "Generate Sales Payment Link"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सेल्स पेमेंट लिंक जनरेट करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "सेल्स पेमेंट लिंक जनरेट करें"
 >>>>>>> upstream/18.0
@@ -108630,6 +109300,7 @@ msgid "Generate a Payment Link"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "पेमेंट लिंक जनरेट करें"
@@ -108947,6 +109618,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "पेमेंट लिंक जनरेट करें"
 
 #. module: sale
@@ -109044,6 +109717,9 @@ msgid "Generate the invoice automatically when the online payment is confirmed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -109380,7 +110056,11 @@ msgid "Global Discount"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ग्लोबल डिस्काउंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "ग्लोबल डिस्काउंट"
 >>>>>>> upstream/18.0
@@ -110032,7 +110712,11 @@ msgid "Group By"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इन्होंने ग्रुप किया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इन्होंने ग्रुप किया"
 >>>>>>> upstream/18.0
@@ -110920,7 +111604,11 @@ msgid "Has Fiscal Position Changed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वित्तीय स्थितियां बदल गई हैं"
+>>>>>>> upstream/18.0
 =======
 msgstr "वित्तीय स्थितियां बदल गई हैं"
 >>>>>>> upstream/18.0
@@ -111793,7 +112481,11 @@ msgid "Has Message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैसेज है"
+>>>>>>> upstream/18.0
 =======
 msgstr "मैसेज है"
 >>>>>>> upstream/18.0
@@ -112594,7 +113286,11 @@ msgid "Hidden"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "छिपाया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "छिपाया गया"
 >>>>>>> upstream/18.0
@@ -113237,7 +113933,11 @@ msgid "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आईडी"
+>>>>>>> upstream/18.0
 =======
 msgstr "आईडी"
 >>>>>>> upstream/18.0
@@ -114137,7 +114837,11 @@ msgid "Icon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आइकॉन"
+>>>>>>> upstream/18.0
 =======
 msgstr "आइकॉन"
 >>>>>>> upstream/18.0
@@ -115010,7 +115714,11 @@ msgid "Icon to indicate an exception activity."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एक छोटा निशान जो बताता है कि कुछ अलग या असामान्य हुआ है."
+>>>>>>> upstream/18.0
 =======
 msgstr "एक छोटा निशान जो बताता है कि कुछ अलग या असामान्य हुआ है."
 >>>>>>> upstream/18.0
@@ -115883,7 +116591,11 @@ msgid "If checked, new messages require your attention."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगर यह बॉक्स चेक है, तो नए मैसेज देखने ज़रूरी हैं."
+>>>>>>> upstream/18.0
 =======
 msgstr "अगर यह बॉक्स चेक है, तो नए मैसेज देखने ज़रूरी हैं."
 >>>>>>> upstream/18.0
@@ -116757,7 +117469,11 @@ msgid "If checked, some messages have a delivery error."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगर बॉक्स पर टिक है, तो कुछ मैसेज भेजने में गलती हुई है."
+>>>>>>> upstream/18.0
 =======
 msgstr "अगर बॉक्स पर टिक है, तो कुछ मैसेज भेजने में गलती हुई है."
 >>>>>>> upstream/18.0
@@ -117630,6 +118346,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "अगर कोई सेल्स का ऑर्डर लॉक कर दिया जाता है, तो आप उसमें कोई बदलाव नहीं कर "
 "सकते. लेकिन, आप अभी भी उसका बिल बना सकते हैं या सामान भेज सकते हैं."
@@ -118085,6 +118802,10 @@ msgstr ""
 =======
 "अगर कोई सेल्स का ऑर्डर लॉक कर दिया जाता है, तो आप उसमें कोई बदलाव नहीं कर "
 "सकते. लेकिन, आप अभी भी उसका बिल बना सकते हैं या सामान भेज सकते हैं."
+>>>>>>> upstream/18.0
+=======
+"अगर कोई सेल्स का ऑर्डर लॉक कर दिया जाता है, तो आप उसमें कोई बदलाव नहीं कर सकते. "
+"लेकिन, आप अभी भी उसका बिल बना सकते हैं या सामान भेज सकते हैं."
 >>>>>>> upstream/18.0
 =======
 "अगर कोई सेल्स का ऑर्डर लॉक कर दिया जाता है, तो आप उसमें कोई बदलाव नहीं कर सकते. "
@@ -118560,6 +119281,7 @@ msgid "If you change the pricelist, only newly added lines will be affected."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -118728,6 +119450,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "अगर आप प्राइसलिस्ट में बदलाव करते हैं, तो केवल उन लाइनों पर असर पड़ेगा जो नई हैं।"
+>>>>>>> upstream/18.0
+=======
+msgstr "अगर आप प्राइसलिस्ट में बदलाव करते हैं, तो केवल उन लाइनों पर असर पड़ेगा जो नई हैं।"
 >>>>>>> upstream/18.0
 =======
 msgstr "अगर आप प्राइसलिस्ट में बदलाव करते हैं, तो केवल उन लाइनों पर असर पड़ेगा जो नई हैं।"
@@ -119152,7 +119877,11 @@ msgid "Import Amazon orders and sync deliveries"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Amazon ऑर्डर इंपोर्ट करें और डिलीवरी के साथ सिंक करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "Amazon ऑर्डर इंपोर्ट करें और डिलीवरी के साथ सिंक करें"
 >>>>>>> upstream/18.0
@@ -119705,7 +120434,11 @@ msgid "Invalid signature data."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अमान्य हस्ताक्षर डेटा।"
+>>>>>>> upstream/18.0
 =======
 msgstr "अमान्य हस्ताक्षर डेटा।"
 >>>>>>> upstream/18.0
@@ -120193,7 +120926,11 @@ msgid "Invoice Address"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इनवॉइस के लिए पता"
+>>>>>>> upstream/18.0
 =======
 msgstr "इनवॉइस के लिए पता"
 >>>>>>> upstream/18.0
@@ -120830,7 +121567,11 @@ msgid "Invoice Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इनवॉइस काउंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "इनवॉइस काउंट"
 >>>>>>> upstream/18.0
@@ -121703,7 +122444,11 @@ msgid "Invoice Created"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इनवॉइस बनाया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इनवॉइस बनाया गया"
 >>>>>>> upstream/18.0
@@ -122581,7 +123326,11 @@ msgid "Invoice Lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इनवॉइस लाइन"
+>>>>>>> upstream/18.0
 =======
 msgstr "इनवॉइस लाइन"
 >>>>>>> upstream/18.0
@@ -123461,7 +124210,11 @@ msgid "Invoice Status"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इनवॉइस स्टेटस"
+>>>>>>> upstream/18.0
 =======
 msgstr "इनवॉइस स्टेटस"
 >>>>>>> upstream/18.0
@@ -124364,7 +125117,11 @@ msgid "Invoiced"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इनवॉइस किया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इनवॉइस किया गया"
 >>>>>>> upstream/18.0
@@ -125266,7 +126023,11 @@ msgid "Invoices"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इनवॉइस "
+>>>>>>> upstream/18.0
 =======
 msgstr "इनवॉइस "
 >>>>>>> upstream/18.0
@@ -126139,7 +126900,11 @@ msgid "Invoices Analysis"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इनवॉइस एनालिसिस"
+>>>>>>> upstream/18.0
 =======
 msgstr "इनवॉइस एनालिसिस"
 >>>>>>> upstream/18.0
@@ -127012,7 +127777,11 @@ msgid "Invoices Statistics"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इनवॉइस से जुड़ें आंकड़ें"
+>>>>>>> upstream/18.0
 =======
 msgstr "इनवॉइस से जुड़ें आंकड़ें"
 >>>>>>> upstream/18.0
@@ -127887,7 +128656,11 @@ msgid "Invoicing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इनवॉइसिंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "इनवॉइसिंग"
 >>>>>>> upstream/18.0
@@ -128691,7 +129464,11 @@ msgid "Invoicing Policy"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इनवॉइसिंग की नीति"
+>>>>>>> upstream/18.0
 =======
 msgstr "इनवॉइसिंग की नीति"
 >>>>>>> upstream/18.0
@@ -129334,7 +130111,11 @@ msgid "Is Editor"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एडिटर है"
+>>>>>>> upstream/18.0
 =======
 msgstr "एडिटर है"
 >>>>>>> upstream/18.0
@@ -130069,7 +130850,11 @@ msgid "Is Expired"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "समय सीमा खत्म हुआ"
+>>>>>>> upstream/18.0
 =======
 msgstr "समय सीमा खत्म हुआ"
 >>>>>>> upstream/18.0
@@ -130528,7 +131313,11 @@ msgid "Is Follower"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़ॉलोवर है"
+>>>>>>> upstream/18.0
 =======
 msgstr "फ़ॉलोवर है"
 >>>>>>> upstream/18.0
@@ -131296,8 +132085,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Is true if the sales order line comes from an expense or a vendor bills"
+=======
+msgid "Is true if the sales order line comes from an expense or a vendor bills"
+>>>>>>> upstream/18.0
 =======
 msgid "Is true if the sales order line comes from an expense or a vendor bills"
 >>>>>>> upstream/18.0
@@ -131821,7 +132614,11 @@ msgid "Journal Entry"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जर्नल एंट्री"
+>>>>>>> upstream/18.0
 =======
 msgstr "जर्नल एंट्री"
 >>>>>>> upstream/18.0
@@ -132730,7 +133527,11 @@ msgid "Journal Item"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जर्नल आइटम"
+>>>>>>> upstream/18.0
 =======
 msgstr "जर्नल आइटम"
 >>>>>>> upstream/18.0
@@ -133630,7 +134431,11 @@ msgid "Language"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "भाषा"
+>>>>>>> upstream/18.0
 =======
 msgstr "भाषा"
 >>>>>>> upstream/18.0
@@ -134514,7 +135319,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इन्होंने आखिरी बार अपडेट किया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इन्होंने आखिरी बार अपडेट किया"
 >>>>>>> upstream/18.0
@@ -135393,7 +136202,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आखिरी बार अपडेट हुआ"
+>>>>>>> upstream/18.0
 =======
 msgstr "आखिरी बार अपडेट हुआ"
 >>>>>>> upstream/18.0
@@ -136266,7 +137079,11 @@ msgid "Late Activities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लेट एक्टिविटी"
+>>>>>>> upstream/18.0
 =======
 msgstr "लेट एक्टिविटी"
 >>>>>>> upstream/18.0
@@ -136966,7 +137783,11 @@ msgid "Lead Time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लीड का समय"
+>>>>>>> upstream/18.0
 =======
 msgstr "लीड का समय"
 >>>>>>> upstream/18.0
@@ -137346,7 +138167,11 @@ msgid "Lock"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लॉक"
+>>>>>>> upstream/18.0
 =======
 msgstr "लॉक"
 >>>>>>> upstream/18.0
@@ -138143,7 +138968,11 @@ msgid "Locked"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लॉक हो गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "लॉक हो गया"
 >>>>>>> upstream/18.0
@@ -138775,7 +139604,11 @@ msgid "Mail Template"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेल टेंप्लेट"
+>>>>>>> upstream/18.0
 =======
 msgstr "मेल टेंप्लेट"
 >>>>>>> upstream/18.0
@@ -139665,7 +140498,11 @@ msgid "Manual"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैन्युअल"
+>>>>>>> upstream/18.0
 =======
 msgstr "मैन्युअल"
 >>>>>>> upstream/18.0
@@ -140538,7 +141375,11 @@ msgid "Manual Payment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैन्युअल पेमेंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "मैन्युअल पेमेंट"
 >>>>>>> upstream/18.0
@@ -141293,10 +142134,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Manually set quantities on order: Invoice based on the manually entered quantity, without creating an analytic account.\n"
 "Timesheets on contract: Invoice based on the tracked hours on the related timesheet.\n"
 "Create a task and track hours: Create a task on the sales order validation and track the work hours."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -141579,6 +142423,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -141734,6 +142579,8 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -141785,6 +142632,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -141965,7 +142815,11 @@ msgid "Marketing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मार्केटिंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "मार्केटिंग"
 >>>>>>> upstream/18.0
@@ -142513,7 +143367,11 @@ msgid "Medium"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मीडियम"
+>>>>>>> upstream/18.0
 =======
 msgstr "मीडियम"
 >>>>>>> upstream/18.0
@@ -143141,7 +143999,11 @@ msgid "Message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैसेज"
+>>>>>>> upstream/18.0
 =======
 msgstr "मैसेज"
 >>>>>>> upstream/18.0
@@ -144014,7 +144876,11 @@ msgid "Message Delivery error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैसेज डिलीवरी में गड़बड़ी"
+>>>>>>> upstream/18.0
 =======
 msgstr "मैसेज डिलीवरी में गड़बड़ी"
 >>>>>>> upstream/18.0
@@ -144904,7 +145770,11 @@ msgid "Method"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेथड"
+>>>>>>> upstream/18.0
 =======
 msgstr "मेथड"
 >>>>>>> upstream/18.0
@@ -145705,7 +146575,11 @@ msgid "Mitchell Admin"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मिचेल एडमिन"
+>>>>>>> upstream/18.0
 =======
 msgstr "मिचेल एडमिन"
 >>>>>>> upstream/18.0
@@ -146332,7 +147206,11 @@ msgid "My Activity Deadline"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेरी गतिविधि की डेडलाइन"
+>>>>>>> upstream/18.0
 =======
 msgstr "मेरी गतिविधि की डेडलाइन"
 >>>>>>> upstream/18.0
@@ -147067,7 +147945,11 @@ msgid "My Orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेरे ऑर्डर"
+>>>>>>> upstream/18.0
 =======
 msgstr "मेरे ऑर्डर"
 >>>>>>> upstream/18.0
@@ -147418,7 +148300,11 @@ msgid "New Quotation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नया कोटेशन"
+>>>>>>> upstream/18.0
 =======
 msgstr "नया कोटेशन"
 >>>>>>> upstream/18.0
@@ -147919,7 +148805,11 @@ msgid "Next Activity Calendar Event"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगली गतिविधि कैलेंडर इवेंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "अगली गतिविधि कैलेंडर इवेंट"
 >>>>>>> upstream/18.0
@@ -148792,7 +149682,11 @@ msgid "Next Activity Deadline"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगली गतिविधि की डेडलाइन"
+>>>>>>> upstream/18.0
 =======
 msgstr "अगली गतिविधि की डेडलाइन"
 >>>>>>> upstream/18.0
@@ -149665,7 +150559,11 @@ msgid "Next Activity Summary"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगली गतिविधी की जानकारी"
+>>>>>>> upstream/18.0
 =======
 msgstr "अगली गतिविधी की जानकारी"
 >>>>>>> upstream/18.0
@@ -150538,7 +151436,11 @@ msgid "Next Activity Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगली गतिविधि का प्रकार"
+>>>>>>> upstream/18.0
 =======
 msgstr "अगली गतिविधि का प्रकार"
 >>>>>>> upstream/18.0
@@ -151423,7 +152325,11 @@ msgid "No attachment was provided"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कोई अटैचमेंट प्रदान नहीं किया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "कोई अटैचमेंट प्रदान नहीं किया गया"
 >>>>>>> upstream/18.0
@@ -152317,7 +153223,11 @@ msgid "Note"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ध्यान दें"
+>>>>>>> upstream/18.0
 =======
 msgstr "ध्यान दें"
 >>>>>>> upstream/18.0
@@ -153069,7 +153979,11 @@ msgid "Nothing to Invoice"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इनवॉइस करने के लिए कुछ नहीं है"
+>>>>>>> upstream/18.0
 =======
 msgstr "इनवॉइस करने के लिए कुछ नहीं है"
 >>>>>>> upstream/18.0
@@ -153570,7 +154484,11 @@ msgid "Number"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "संख्या"
+>>>>>>> upstream/18.0
 =======
 msgstr "संख्या"
 >>>>>>> upstream/18.0
@@ -154443,7 +155361,11 @@ msgid "Number of Actions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कार्रवाई की संख्या"
+>>>>>>> upstream/18.0
 =======
 msgstr "कार्रवाई की संख्या"
 >>>>>>> upstream/18.0
@@ -155323,7 +156245,11 @@ msgid "Number of errors"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गलतियों की संख्या"
+>>>>>>> upstream/18.0
 =======
 msgstr "गलतियों की संख्या"
 >>>>>>> upstream/18.0
@@ -156196,7 +157122,11 @@ msgid "Number of messages requiring action"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐसे मैसेज की संख्या जिनपर कार्रवाई करना ज़रूरी है"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐसे मैसेज की संख्या जिनपर कार्रवाई करना ज़रूरी है"
 >>>>>>> upstream/18.0
@@ -157069,7 +157999,11 @@ msgid "Number of messages with delivery error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐसे मैसेज की संख्या जिनमें डिलीवरी की गड़बड़ी है"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐसे मैसेज की संख्या जिनमें डिलीवरी की गड़बड़ी है"
 >>>>>>> upstream/18.0
@@ -157875,7 +158809,11 @@ msgid "On All Order Lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सभी ऑर्डर लाइन पर"
+>>>>>>> upstream/18.0
 =======
 msgstr "सभी ऑर्डर लाइन पर"
 >>>>>>> upstream/18.0
@@ -158389,7 +159327,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Once a sales order is confirmed, you can't remove one of its lines (we need to track if something gets invoiced or delivered).\n"
+=======
+"Once a sales order is confirmed, you can't remove one of its lines (we need "
+"to track if something gets invoiced or delivered).\n"
+>>>>>>> upstream/18.0
 =======
 "Once a sales order is confirmed, you can't remove one of its lines (we need "
 "to track if something gets invoiced or delivered).\n"
@@ -158863,8 +159806,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Once the quotation is confirmed by the customer, it becomes a sales "
 "order.<br> You will be able to create an invoice and collect the payment."
+=======
+"Once the quotation is confirmed by the customer, it becomes a sales order."
+"<br> You will be able to create an invoice and collect the payment."
+>>>>>>> upstream/18.0
 =======
 "Once the quotation is confirmed by the customer, it becomes a sales order."
 "<br> You will be able to create an invoice and collect the payment."
@@ -159385,7 +160333,11 @@ msgid "Online Payment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑनलाइन पेमेंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऑनलाइन पेमेंट"
 >>>>>>> upstream/18.0
@@ -160012,7 +160964,11 @@ msgid "Online Payments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑनलाइन पेमेंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऑनलाइन पेमेंट"
 >>>>>>> upstream/18.0
@@ -160809,7 +161765,11 @@ msgid "Online payment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑनलाइन पेमेंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऑनलाइन पेमेंट"
 >>>>>>> upstream/18.0
@@ -161354,7 +162314,11 @@ msgid "Online signature"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑनलाइन सिग्नेचर"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऑनलाइन सिग्नेचर"
 >>>>>>> upstream/18.0
@@ -161989,7 +162953,11 @@ msgid "Operation not supported"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑपरेशन काम नहीं करता"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऑपरेशन काम नहीं करता"
 >>>>>>> upstream/18.0
@@ -162643,6 +163611,7 @@ msgstr ""
 msgid ""
 "Optional translation language (ISO code) to select when sending out an "
 "email. If not set, the english version will be used. This should usually be "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -163669,6 +164638,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "a placeholder expression that provides the appropriate language, e.g. "
 "{{ object.partner_id.lang }}."
 msgstr ""
@@ -163768,6 +164739,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -164096,7 +165070,11 @@ msgid "Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑर्डर"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऑर्डर"
 >>>>>>> upstream/18.0
@@ -164734,7 +165712,11 @@ msgid "Orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑर्डर"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऑर्डर"
 >>>>>>> upstream/18.0
@@ -165379,7 +166361,11 @@ msgid "Other Info"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अन्य जानकारी"
+>>>>>>> upstream/18.0
 =======
 msgstr "अन्य जानकारी"
 >>>>>>> upstream/18.0
@@ -166186,7 +167172,11 @@ msgid "Packaging"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पैकेजिंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "पैकेजिंग"
 >>>>>>> upstream/18.0
@@ -166818,7 +167808,11 @@ msgid "Partner Credit Warning"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पार्टनर क्रेडिट वॉर्निंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "पार्टनर क्रेडिट वॉर्निंग"
 >>>>>>> upstream/18.0
@@ -167609,7 +168603,11 @@ msgid "Pay Now"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अभी चुकाएं"
+>>>>>>> upstream/18.0
 =======
 msgstr "अभी चुकाएं"
 >>>>>>> upstream/18.0
@@ -168160,7 +169158,11 @@ msgid "PayPal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PayPal"
+>>>>>>> upstream/18.0
 =======
 msgstr "PayPal"
 >>>>>>> upstream/18.0
@@ -168787,7 +169789,11 @@ msgid "Payment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पेमेंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "पेमेंट"
 >>>>>>> upstream/18.0
@@ -169665,7 +170671,11 @@ msgid "Payment Method"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पेमेंट के तरीके"
+>>>>>>> upstream/18.0
 =======
 msgstr "पेमेंट के तरीके"
 >>>>>>> upstream/18.0
@@ -170538,7 +171548,11 @@ msgid "Payment Methods"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पेमेंट मेथड"
+>>>>>>> upstream/18.0
 =======
 msgstr "पेमेंट मेथड"
 >>>>>>> upstream/18.0
@@ -171329,7 +172343,11 @@ msgid "Payment Provider"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पेमेंट प्रोवाइडर"
+>>>>>>> upstream/18.0
 =======
 msgstr "पेमेंट प्रोवाइडर"
 >>>>>>> upstream/18.0
@@ -171875,7 +172893,11 @@ msgid "Payment Providers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पेमेंट प्रोवाइडर"
+>>>>>>> upstream/18.0
 =======
 msgstr "पेमेंट प्रोवाइडर"
 >>>>>>> upstream/18.0
@@ -172507,7 +173529,11 @@ msgid "Payment Terms"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पेमेंट की शर्तें"
+>>>>>>> upstream/18.0
 =======
 msgstr "पेमेंट की शर्तें"
 >>>>>>> upstream/18.0
@@ -173298,7 +174324,11 @@ msgid "Payment Tokens"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पेमेंट टोकन"
+>>>>>>> upstream/18.0
 =======
 msgstr "पेमेंट टोकन"
 >>>>>>> upstream/18.0
@@ -173843,7 +174873,11 @@ msgid "Payment Transaction"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पेमेंट ट्रांज़ैक्शन"
+>>>>>>> upstream/18.0
 =======
 msgstr "पेमेंट ट्रांज़ैक्शन"
 >>>>>>> upstream/18.0
@@ -174388,7 +175422,11 @@ msgid "Payment Transactions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पेमेंट ट्रांज़ैक्शन"
+>>>>>>> upstream/18.0
 =======
 msgstr "पेमेंट ट्रांज़ैक्शन"
 >>>>>>> upstream/18.0
@@ -175020,7 +176058,11 @@ msgid "Payment terms"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पेमेंट की शर्तें"
+>>>>>>> upstream/18.0
 =======
 msgstr "पेमेंट की शर्तें"
 >>>>>>> upstream/18.0
@@ -175893,7 +176935,11 @@ msgid "Percentage"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रतिशत"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्रतिशत"
 >>>>>>> upstream/18.0
@@ -176766,7 +177812,11 @@ msgid "Portal Access URL"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पोर्टल ऐक्सेस यूआरएल"
+>>>>>>> upstream/18.0
 =======
 msgstr "पोर्टल ऐक्सेस यूआरएल"
 >>>>>>> upstream/18.0
@@ -177653,7 +178703,11 @@ msgid "Preview"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रीव्यू"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्रीव्यू"
 >>>>>>> upstream/18.0
@@ -178527,7 +179581,11 @@ msgid "Price"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कीम"
+>>>>>>> upstream/18.0
 =======
 msgstr "कीम"
 >>>>>>> upstream/18.0
@@ -179340,7 +180398,11 @@ msgid "Pricelists"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कीमतों की सूची"
+>>>>>>> upstream/18.0
 =======
 msgstr "कीमतों की सूची"
 >>>>>>> upstream/18.0
@@ -179957,7 +181019,11 @@ msgid "Pricing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कीम"
+>>>>>>> upstream/18.0
 =======
 msgstr "कीम"
 >>>>>>> upstream/18.0
@@ -180844,7 +181910,11 @@ msgid "Product Categories"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रॉडक्ट कैटगरी"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्रॉडक्ट कैटगरी"
 >>>>>>> upstream/18.0
@@ -181551,7 +182621,11 @@ msgid "Product Document"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रॉडक्ट डॉक्यूमेंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्रॉडक्ट डॉक्यूमेंट"
 >>>>>>> upstream/18.0
@@ -181769,7 +182843,11 @@ msgid "Product Image"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रॉडक्ट इमेज"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्रॉडक्ट इमेज"
 >>>>>>> upstream/18.0
@@ -182151,7 +183229,11 @@ msgid "Product Tags"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रॉडक्ट टैग्स"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्रॉडक्ट टैग्स"
 >>>>>>> upstream/18.0
@@ -182719,7 +183801,11 @@ msgid "Product Variants"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रॉडक्ट के वेरिएंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्रॉडक्ट के वेरिएंट"
 >>>>>>> upstream/18.0
@@ -183369,7 +184455,11 @@ msgid "Products"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रॉडक्ट"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्रॉडक्ट"
 >>>>>>> upstream/18.0
@@ -184046,7 +185136,11 @@ msgid "Qty"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मात्रा"
+>>>>>>> upstream/18.0
 =======
 msgstr "मात्रा"
 >>>>>>> upstream/18.0
@@ -184361,7 +185455,11 @@ msgid "Quantity:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "क्वांटिटी:"
+>>>>>>> upstream/18.0
 =======
 msgstr "क्वांटिटी:"
 >>>>>>> upstream/18.0
@@ -185157,7 +186255,11 @@ msgid "Quotation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कोटेशन"
+>>>>>>> upstream/18.0
 =======
 msgstr "कोटेशन"
 >>>>>>> upstream/18.0
@@ -185666,7 +186768,11 @@ msgid "Quotation Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कोटेशन की संख्या"
+>>>>>>> upstream/18.0
 =======
 msgstr "कोटेशन की संख्या"
 >>>>>>> upstream/18.0
@@ -186093,7 +187199,11 @@ msgid "Quotation Sent"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कोटेशन भेजा गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "कोटेशन भेजा गया"
 >>>>>>> upstream/18.0
@@ -186679,7 +187789,11 @@ msgid "Quotations"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कोटेशन"
+>>>>>>> upstream/18.0
 =======
 msgstr "कोटेशन"
 >>>>>>> upstream/18.0
@@ -187326,7 +188440,11 @@ msgid "Ratings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रेटिंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "रेटिंग"
 >>>>>>> upstream/18.0
@@ -188201,7 +189319,11 @@ msgid "Recipients"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रसीद"
+>>>>>>> upstream/18.0
 =======
 msgstr "रसीद"
 >>>>>>> upstream/18.0
@@ -188999,7 +190121,11 @@ msgid "Remove one"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "हटाएं"
+>>>>>>> upstream/18.0
 =======
 msgstr "हटाएं"
 >>>>>>> upstream/18.0
@@ -189626,7 +190752,11 @@ msgid "Rendering Model"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रेंडरिंग मॉडल"
+>>>>>>> upstream/18.0
 =======
 msgstr "रेंडरिंग मॉडल"
 >>>>>>> upstream/18.0
@@ -190499,7 +191629,11 @@ msgid "Reporting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिपोर्टिंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "रिपोर्टिंग"
 >>>>>>> upstream/18.0
@@ -191402,7 +192536,11 @@ msgid "Responsible User"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जिम्मेदार उपयोगकर्ता"
+>>>>>>> upstream/18.0
 =======
 msgstr "जिम्मेदार उपयोगकर्ता"
 >>>>>>> upstream/18.0
@@ -192199,7 +193337,11 @@ msgid "Revenues"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रेवेन्यू"
+>>>>>>> upstream/18.0
 =======
 msgstr "रेवेन्यू"
 >>>>>>> upstream/18.0
@@ -192831,7 +193973,11 @@ msgid "SMS Delivery error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एसएमएस डिलीवरी में गड़बड़ी"
+>>>>>>> upstream/18.0
 =======
 msgstr "एसएमएस डिलीवरी में गड़बड़ी"
 >>>>>>> upstream/18.0
@@ -193710,7 +194856,11 @@ msgid "Sale"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सेल"
+>>>>>>> upstream/18.0
 =======
 msgstr "सेल"
 >>>>>>> upstream/18.0
@@ -194514,7 +195664,11 @@ msgid "Sale Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सेल ऑर्डर"
+>>>>>>> upstream/18.0
 =======
 msgstr "सेल ऑर्डर"
 >>>>>>> upstream/18.0
@@ -195062,7 +196216,11 @@ msgid "Sale Order Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सेल ऑर्डर की संख्या"
+>>>>>>> upstream/18.0
 =======
 msgstr "सेल ऑर्डर की संख्या"
 >>>>>>> upstream/18.0
@@ -195736,7 +196894,11 @@ msgid "Sales"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सेल्स"
+>>>>>>> upstream/18.0
 =======
 msgstr "सेल्स"
 >>>>>>> upstream/18.0
@@ -196527,7 +197689,11 @@ msgid "Sales Advance Payment Invoice"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सेल्स ऐडवांस पेमेंट इनवॉइस"
+>>>>>>> upstream/18.0
 =======
 msgstr "सेल्स ऐडवांस पेमेंट इनवॉइस"
 >>>>>>> upstream/18.0
@@ -197100,7 +198266,11 @@ msgid "Sales Analysis Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सेल्स एनालिसिस रिपोर्ट"
+>>>>>>> upstream/18.0
 =======
 msgstr "सेल्स एनालिसिस रिपोर्ट"
 >>>>>>> upstream/18.0
@@ -197751,7 +198921,11 @@ msgid "Sales Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सेल्स ऑर्डर"
+>>>>>>> upstream/18.0
 =======
 msgstr "सेल्स ऑर्डर"
 >>>>>>> upstream/18.0
@@ -198539,7 +199713,11 @@ msgid "Sales Order Item"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सेल्स ऑर्डर आइटम"
+>>>>>>> upstream/18.0
 =======
 msgstr "सेल्स ऑर्डर आइटम"
 >>>>>>> upstream/18.0
@@ -199003,7 +200181,11 @@ msgid "Sales Orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सेल्स ऑर्डर"
+>>>>>>> upstream/18.0
 =======
 msgstr "सेल्स ऑर्डर"
 >>>>>>> upstream/18.0
@@ -199557,7 +200739,11 @@ msgid "Sales Team"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सेल्स टीम"
+>>>>>>> upstream/18.0
 =======
 msgstr "सेल्स टीम"
 >>>>>>> upstream/18.0
@@ -200047,7 +201233,11 @@ msgid "Sales Teams"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सेल्स टीम"
+>>>>>>> upstream/18.0
 =======
 msgstr "सेल्स टीम"
 >>>>>>> upstream/18.0
@@ -200425,7 +201615,11 @@ msgid "Sales Warnings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सेल्स से जुड़ी सूचनाएं"
+>>>>>>> upstream/18.0
 =======
 msgstr "सेल्स से जुड़ी सूचनाएं"
 >>>>>>> upstream/18.0
@@ -201096,7 +202290,11 @@ msgid "Salesperson"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सेल्सपर्सन"
+>>>>>>> upstream/18.0
 =======
 msgstr "सेल्सपर्सन"
 >>>>>>> upstream/18.0
@@ -201845,6 +203043,7 @@ msgid "Salespersons"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: sale
@@ -202873,6 +204072,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -203073,6 +204274,9 @@ msgstr "शेड्यूल किया गया मैसेज"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -203433,7 +204637,11 @@ msgid "Section"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सेक्शन"
+>>>>>>> upstream/18.0
 =======
 msgstr "सेक्शन"
 >>>>>>> upstream/18.0
@@ -204311,7 +205519,11 @@ msgid "Security Token"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सिक्योरिटी टोकन"
+>>>>>>> upstream/18.0
 =======
 msgstr "सिक्योरिटी टोकन"
 >>>>>>> upstream/18.0
@@ -205149,7 +206361,11 @@ msgid "Send an email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ईमेल भेजें"
+>>>>>>> upstream/18.0
 =======
 msgstr "ईमेल भेजें"
 >>>>>>> upstream/18.0
@@ -205643,7 +206859,11 @@ msgid "Send by Email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ईमेल के ज़रिए भेजें"
+>>>>>>> upstream/18.0
 =======
 msgstr "ईमेल के ज़रिए भेजें"
 >>>>>>> upstream/18.0
@@ -206001,8 +207221,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Sent to customers when a payment is received but doesn't immediately confirm"
 " their order"
+=======
+"Sent to customers when a payment is received but doesn't immediately confirm "
+"their order"
+>>>>>>> upstream/18.0
 =======
 "Sent to customers when a payment is received but doesn't immediately confirm "
 "their order"
@@ -206618,7 +207843,11 @@ msgid "Share"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "शेयर करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "शेयर करें"
 >>>>>>> upstream/18.0
@@ -207410,7 +208639,11 @@ msgid "Shipping"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "शिपिंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "शिपिंग"
 >>>>>>> upstream/18.0
@@ -207960,7 +209193,11 @@ msgid "Shiprocket Connector"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Shiprocket कनेक्टर"
+>>>>>>> upstream/18.0
 =======
 msgstr "Shiprocket कनेक्टर"
 >>>>>>> upstream/18.0
@@ -208608,7 +209845,11 @@ msgid "Signature"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "हस्ताक्षर"
+>>>>>>> upstream/18.0
 =======
 msgstr "हस्ताक्षर"
 >>>>>>> upstream/18.0
@@ -209361,7 +210602,11 @@ msgid "Signature is missing."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "हस्ताक्षर मौजूद नहीं है।"
+>>>>>>> upstream/18.0
 =======
 msgstr "हस्ताक्षर मौजूद नहीं है।"
 >>>>>>> upstream/18.0
@@ -209822,7 +211067,11 @@ msgid "Signed By"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इन्होंने साइन किया है"
+>>>>>>> upstream/18.0
 =======
 msgstr "इन्होंने साइन किया है"
 >>>>>>> upstream/18.0
@@ -210310,7 +211559,11 @@ msgid "Sold"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बिक गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "बिक गया"
 >>>>>>> upstream/18.0
@@ -210877,7 +212130,11 @@ msgid "Source"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सोर्स"
+>>>>>>> upstream/18.0
 =======
 msgstr "सोर्स"
 >>>>>>> upstream/18.0
@@ -211504,7 +212761,11 @@ msgid "Source Document"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सोर्स डॉक्यूमेंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "सोर्स डॉक्यूमेंट"
 >>>>>>> upstream/18.0
@@ -212399,7 +213660,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -213052,6 +214316,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -213624,7 +214891,11 @@ msgid "Stripe"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stripe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stripe"
 >>>>>>> upstream/18.0
@@ -214202,7 +215473,11 @@ msgid "System Parameter"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सिस्टम पैरामीटर"
+>>>>>>> upstream/18.0
 =======
 msgstr "सिस्टम पैरामीटर"
 >>>>>>> upstream/18.0
@@ -214835,7 +216110,11 @@ msgid "Tax 15%"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टैक्स 15%"
+>>>>>>> upstream/18.0
 =======
 msgstr "टैक्स 15%"
 >>>>>>> upstream/18.0
@@ -215708,7 +216987,11 @@ msgid "Tax Calculation Rounding Method"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टैक्स कैलकुलेशन राउंडिंग मेथड"
+>>>>>>> upstream/18.0
 =======
 msgstr "टैक्स कैलकुलेशन राउंडिंग मेथड"
 >>>>>>> upstream/18.0
@@ -216582,7 +217865,11 @@ msgid "Tax Country"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टैक्स कंट्री"
+>>>>>>> upstream/18.0
 =======
 msgstr "टैक्स कंट्री"
 >>>>>>> upstream/18.0
@@ -217460,7 +218747,11 @@ msgid "Tax ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टैक्स आईडी"
+>>>>>>> upstream/18.0
 =======
 msgstr "टैक्स आईडी"
 >>>>>>> upstream/18.0
@@ -218348,7 +219639,11 @@ msgid "Tax calculation rounding method"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टैक्स कैलकुलेशन राउंडिंग मेथड"
+>>>>>>> upstream/18.0
 =======
 msgstr "टैक्स कैलकुलेशन राउंडिंग मेथड"
 >>>>>>> upstream/18.0
@@ -219224,7 +220519,11 @@ msgid "Taxes"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टैक्स "
+>>>>>>> upstream/18.0
 =======
 msgstr "टैक्स "
 >>>>>>> upstream/18.0
@@ -220122,7 +221421,11 @@ msgid "Terms & Conditions format"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नियम और शर्तें के लिए फ़ॉर्मैट"
+>>>>>>> upstream/18.0
 =======
 msgstr "नियम और शर्तें के लिए फ़ॉर्मैट"
 >>>>>>> upstream/18.0
@@ -220996,7 +222299,11 @@ msgid "Terms & Conditions: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नियम और शर्तें: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "नियम और शर्तें: %s"
 >>>>>>> upstream/18.0
@@ -221787,7 +223094,11 @@ msgid "Terms &amp; Conditions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नियम और शर्तें देखें"
+>>>>>>> upstream/18.0
 =======
 msgstr "नियम और शर्तें देखें"
 >>>>>>> upstream/18.0
@@ -222427,6 +223738,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"यह आईएसओ देश का दो अक्षर वाला कोड है. \n"
+"इसे आप जल्दी कुछ ढूंढने के लिए इस्तेमाल कर सकते हैं"
+>>>>>>> upstream/18.0
 =======
 "यह आईएसओ देश का दो अक्षर वाला कोड है. \n"
 "इसे आप जल्दी कुछ ढूंढने के लिए इस्तेमाल कर सकते हैं"
@@ -223393,8 +224709,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The Sales Order %(order)s to be reinvoiced is cancelled. You cannot register"
 " an expense on a cancelled Sales Order."
+=======
+"The Sales Order %(order)s to be reinvoiced is cancelled. You cannot register "
+"an expense on a cancelled Sales Order."
+>>>>>>> upstream/18.0
 =======
 "The Sales Order %(order)s to be reinvoiced is cancelled. You cannot register "
 "an expense on a cancelled Sales Order."
@@ -223924,7 +225245,11 @@ msgid "The access token is invalid."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐक्सेस टोकन अमान्य है।"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐक्सेस टोकन अमान्य है।"
 >>>>>>> upstream/18.0
@@ -224454,10 +225779,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The following products cannot be restricted to the company %(company)s because they have already been used in quotations or sales orders in another company:\n"
 "%(used_products)s\n"
 "You can archive these products and recreate them with your company restriction instead, or leave them as shared product."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -224740,6 +226068,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -225023,11 +226354,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The invoice is generated automatically and available in the customer portal when the transaction is confirmed by the payment provider.\n"
 "The invoice is marked as paid and the payment is registered in the payment journal defined in the configuration of the payment provider.\n"
 "This mode is advised if you issue the final invoice at the order and not after the delivery."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -225219,6 +226553,7 @@ msgstr ""
 "This mode is advised if you issue the final invoice at the order and not "
 "after the delivery."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -225500,6 +226835,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "जब पेमेंट प्रोवाइडर से लेन-देन की पुष्टि होती है, तो इनवॉइस अपने-आप बन जाता है और ग्राहक "
 "पोर्टल पर उपलब्ध होता है.\n"
 "इनवॉइस को 'भुगतान किया गया' के रूप में चिह्नित किया जाता है और पेमेंट प्रोवाइडर की सेटिंग "
@@ -225570,6 +226907,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -225796,8 +227136,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The margin is computed as the sum of product sales prices minus the cost set"
 " in their detail form."
+=======
+"The margin is computed as the sum of product sales prices minus the cost set "
+"in their detail form."
+>>>>>>> upstream/18.0
 =======
 "The margin is computed as the sum of product sales prices minus the cost set "
 "in their detail form."
@@ -226375,6 +227720,7 @@ msgid "The provided parameters are invalid."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "दिए गए पैरामीटर अमान्य हैं।"
@@ -226587,6 +227933,8 @@ msgstr "दिए गए पैरामीटर अमान्य हैं�
 msgstr "दिए गए पैरामीटर अमान्य हैं।"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -226787,6 +228135,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -226964,6 +228315,7 @@ msgstr ""
 #: model:ir.model.fields,help:sale.field_account_move__campaign_id
 #: model:ir.model.fields,help:sale.field_sale_order__campaign_id
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -227455,6 +228807,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "This is a name that helps you keep track of your different campaign efforts, "
 "e.g. Fall_Drive, Christmas_Special"
 msgstr ""
@@ -227552,6 +228906,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -227885,7 +229242,11 @@ msgid "This is the method of delivery, e.g. Postcard, Email, or Banner Ad"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यह डिलीवरी का तरीका है, जैसे, पोस्टकार्ड, ईमेल, या बैनर विज्ञापन"
+>>>>>>> upstream/18.0
 =======
 msgstr "यह डिलीवरी का तरीका है, जैसे, पोस्टकार्ड, ईमेल, या बैनर विज्ञापन"
 >>>>>>> upstream/18.0
@@ -228392,6 +229753,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -228560,6 +229922,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "यह लिंक का सोर्स है, जैसे- सर्च इंजन, कोई अन्य डोमेन, या ईमेल सूची का नाम"
+>>>>>>> upstream/18.0
+=======
+msgstr "यह लिंक का सोर्स है, जैसे- सर्च इंजन, कोई अन्य डोमेन, या ईमेल सूची का नाम"
 >>>>>>> upstream/18.0
 =======
 msgstr "यह लिंक का सोर्स है, जैसे- सर्च इंजन, कोई अन्य डोमेन, या ईमेल सूची का नाम"
@@ -228950,8 +230315,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This product is packaged by %(pack_size).2f %(pack_name)s. You should sell "
 "%(quantity).2f %(unit)s."
+=======
+"This product is packaged by %(pack_size).2f %(pack_name)s. You should sell %"
+"(quantity).2f %(unit)s."
+>>>>>>> upstream/18.0
 =======
 "This product is packaged by %(pack_size).2f %(pack_name)s. You should sell %"
 "(quantity).2f %(unit)s."
@@ -229426,6 +230796,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "check your sales revenues and sort it by different group criteria (salesman,"
 " partner, product, etc.) Use this report to perform analysis on sales not "
 "having invoiced yet. If you want to analyse your turnover, you should use "
@@ -229616,11 +230987,14 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "check your sales revenues and sort it by different group criteria (salesman, "
 "partner, product, etc.) Use this report to perform analysis on sales not "
 "having invoiced yet. If you want to analyse your turnover, you should use "
 "the Invoice Analysis report in the Accounting application."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -229901,6 +231275,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "यह रिपोर्ट आपके कोटेशन और सेल्स ऑर्डर का विश्लेषण करती है. यह सेल्स रेवेन्यू की जांच करती है "
 "और उसे विक्रेता, पार्टनर या प्रॉडक्ट जैसे ग्रुप में बांटती है. उन सेल्स का विश्लेषण करने के लिए "
 "इस रिपोर्ट का उपयोग करें जिनका अभी इनवॉइस नहीं बना है. टर्नओवर के विश्लेषण के लिए, "
@@ -229969,6 +231345,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -230108,6 +231487,7 @@ msgid ""
 "invoiced yet. If you want to analyse your turnover, you should use the "
 "Invoice Analysis report in the Accounting application."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -230471,6 +231851,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "यह रिपोर्ट आपके क्वोटेशन का विश्लेषण करती है. विश्लेषण आपके सेल्स रेवेन्यू की जांच करता है और "
 "उसे अलग-अलग ग्रुप मापदंडों (सेल्समैन, पार्टनर, प्रॉडक्ट, वगैरह) के अनुसार छाँटता है. उन सेल्स "
 "का विश्लेषण करने के लिए इस रिपोर्ट का इस्तेमाल करें जिनका अभी इनवॉइस नहीं बना है. अगर "
@@ -230540,6 +231922,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -230723,6 +232108,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"यह रिपोर्ट आपके सेल्स ऑर्डर्स का विश्लेषण करती है. यह सेल्स रेवेन्यू की जांच कर उसे सेल्समैन, पार्टनर या "
+"प्रॉडक्ट के अनुसार क्रमबद्ध करती है. बिना इनवॉइस वाली सेल्स के लिए इसका उपयोग करें. टर्नओवर देखने के लिए "
+"अकाउंटिंग में 'इनवॉइस एनालिसिस' रिपोर्ट देखें।"
+>>>>>>> upstream/18.0
 =======
 "यह रिपोर्ट आपके सेल्स ऑर्डर्स का विश्लेषण करती है. यह सेल्स रेवेन्यू की जांच कर उसे सेल्समैन, पार्टनर या "
 "प्रॉडक्ट के अनुसार क्रमबद्ध करती है. बिना इनवॉइस वाली सेल्स के लिए इसका उपयोग करें. टर्नओवर देखने के लिए "
@@ -231180,7 +232571,11 @@ msgid "To Invoice"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इनवॉइस के लिए"
+>>>>>>> upstream/18.0
 =======
 msgstr "इनवॉइस के लिए"
 >>>>>>> upstream/18.0
@@ -231962,7 +233357,11 @@ msgid "To Upsell"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अपसेल करने के लिए"
+>>>>>>> upstream/18.0
 =======
 msgstr "अपसेल करने के लिए"
 >>>>>>> upstream/18.0
@@ -232594,7 +233993,11 @@ msgid "Today Activities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आज की गतिविधियां"
+>>>>>>> upstream/18.0
 =======
 msgstr "आज की गतिविधियां"
 >>>>>>> upstream/18.0
@@ -233460,7 +234863,11 @@ msgid "Total"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कुल"
+>>>>>>> upstream/18.0
 =======
 msgstr "कुल"
 >>>>>>> upstream/18.0
@@ -234270,7 +235677,11 @@ msgid "Tracking"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ट्रैकिंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "ट्रैकिंग"
 >>>>>>> upstream/18.0
@@ -234894,6 +236305,7 @@ msgid "Transactions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: sale
@@ -234931,6 +236343,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "ट्रांज़ैक्शन"
+
+#. module: sale
 >>>>>>> upstream/18.0
 =======
 msgstr "ट्रांज़ैक्शन"
@@ -236232,6 +237649,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -236258,6 +237676,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale.field_sale_order__type_name
 msgid "Type Name"
 msgstr ""
+=======
+#: model:ir.model.fields,field_description:sale.field_sale_order__type_name
+msgid "Type Name"
+msgstr "नाम टाइप करें"
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:sale.field_sale_order__type_name
 msgid "Type Name"
@@ -237552,7 +238975,11 @@ msgid "Type of the exception activity on record."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिकॉर्ड में जो अलग तरह की गतिविधि हुई है, वह किस तरह की है."
+>>>>>>> upstream/18.0
 =======
 msgstr "रिकॉर्ड में जो अलग तरह की गतिविधि हुई है, वह किस तरह की है."
 >>>>>>> upstream/18.0
@@ -238416,6 +239843,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -239253,6 +240684,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -240011,7 +241446,11 @@ msgid "UTM Campaign"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यूटीएम कैंपेन"
+>>>>>>> upstream/18.0
 =======
 msgstr "यूटीएम कैंपेन"
 >>>>>>> upstream/18.0
@@ -240623,7 +242062,11 @@ msgid "Unit Price"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यूनिट प्राइस"
+>>>>>>> upstream/18.0
 =======
 msgstr "यूनिट प्राइस"
 >>>>>>> upstream/18.0
@@ -241484,7 +242927,11 @@ msgid "Unit Price:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यूनिट प्राइस:"
+>>>>>>> upstream/18.0
 =======
 msgstr "यूनिट प्राइस:"
 >>>>>>> upstream/18.0
@@ -242268,7 +243715,11 @@ msgid "Unit of Measure"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "माप की इकाई"
+>>>>>>> upstream/18.0
 =======
 msgstr "माप की इकाई"
 >>>>>>> upstream/18.0
@@ -242815,7 +244266,11 @@ msgid "Units of Measure"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "माप की इकाई"
+>>>>>>> upstream/18.0
 =======
 msgstr "माप की इकाई"
 >>>>>>> upstream/18.0
@@ -243365,7 +244820,11 @@ msgid "Unlock"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अनलॉक करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "अनलॉक करें"
 >>>>>>> upstream/18.0
@@ -243986,7 +245445,11 @@ msgid "Untaxed Amount"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बिना टैक्स वाली राशि"
+>>>>>>> upstream/18.0
 =======
 msgstr "बिना टैक्स वाली राशि"
 >>>>>>> upstream/18.0
@@ -244790,7 +246253,11 @@ msgid "Update Taxes"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टैक्स को अपडेट करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "टैक्स को अपडेट करें"
 >>>>>>> upstream/18.0
@@ -245302,7 +246769,11 @@ msgid "Upselling Opportunity"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अपसेलिंग का मौका"
+>>>>>>> upstream/18.0
 =======
 msgstr "अपसेलिंग का मौका"
 >>>>>>> upstream/18.0
@@ -245684,7 +247155,11 @@ msgid "Valid Until"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "तक मान्य है"
+>>>>>>> upstream/18.0
 =======
 msgstr "तक मान्य है"
 >>>>>>> upstream/18.0
@@ -246031,6 +247506,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Variant Grid Entry"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -246398,6 +247874,8 @@ msgstr "वेरिएंट ग्रिड एंट्री"
 msgstr "वेरिएंट ग्रिड एंट्री"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -246534,6 +248012,9 @@ msgstr "वेरिएंट ग्रिड एंट्री"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -246739,7 +248220,11 @@ msgid "View Details"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जानकारी देखें"
+>>>>>>> upstream/18.0
 =======
 msgstr "जानकारी देखें"
 >>>>>>> upstream/18.0
@@ -247086,6 +248571,7 @@ msgstr "जानकारी देखें"
 #. module: sale
 #. odoo-python
 #: code:addons/sale/models/sale_order.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -247770,6 +249256,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid "View Quotation"
 msgstr ""
 
@@ -247916,7 +249404,11 @@ msgid "Void Transaction"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ट्रांज़ैक्शन रद्द करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "ट्रांज़ैक्शन रद्द करें"
 >>>>>>> upstream/18.0
@@ -248552,7 +250044,11 @@ msgid "Warning"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चेतावनी"
+>>>>>>> upstream/18.0
 =======
 msgstr "चेतावनी"
 >>>>>>> upstream/18.0
@@ -249437,7 +250933,11 @@ msgid "Website Messages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वेबसाइट मैसेज"
+>>>>>>> upstream/18.0
 =======
 msgstr "वेबसाइट मैसेज"
 >>>>>>> upstream/18.0
@@ -250295,7 +251795,11 @@ msgid "Website communication history"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वेबसाइट कम्यूनिकेशन हिस्ट्री"
+>>>>>>> upstream/18.0
 =======
 msgstr "वेबसाइट कम्यूनिकेशन हिस्ट्री"
 >>>>>>> upstream/18.0
@@ -251047,8 +252551,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can set here the communication type that will appear on sales orders.The"
 " communication will be given to the customer when they choose the payment "
+=======
+"You can set here the communication type that will appear on sales orders.The "
+"communication will be given to the customer when they choose the payment "
+>>>>>>> upstream/18.0
 =======
 "You can set here the communication type that will appear on sales orders.The "
 "communication will be given to the customer when they choose the payment "
@@ -251581,6 +253090,7 @@ msgid "Your browser does not support iframe."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -251665,6 +253175,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "आपके ब्राउज़र में दूसरी वेबसाइट को दिखाने वाला आईफ्रेम फीचर काम नहीं कर रहा है।"
+>>>>>>> upstream/18.0
+=======
+msgstr "आपके ब्राउज़र में दूसरी वेबसाइट को दिखाने वाला आईफ्रेम फीचर काम नहीं कर रहा है।"
 >>>>>>> upstream/18.0
 =======
 msgstr "आपके ब्राउज़र में दूसरी वेबसाइट को दिखाने वाला आईफ्रेम फीचर काम नहीं कर रहा है।"
@@ -252068,9 +253581,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Your quotation contains products from company %(product_company)s whereas your quotation belongs to company %(quote_company)s. \n"
 " Please change the company of your quotation or remove the products from other companies (%(bad_products)s)."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -252351,6 +253867,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -252768,7 +254287,11 @@ msgid "close"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बंद करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "बंद करें"
 >>>>>>> upstream/18.0
@@ -253542,7 +255065,11 @@ msgid "days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "दिन"
+>>>>>>> upstream/18.0
 =======
 msgstr "दिन"
 >>>>>>> upstream/18.0
@@ -254066,7 +255593,11 @@ msgid "for the"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "के लिए"
+>>>>>>> upstream/18.0
 =======
 msgstr "के लिए"
 >>>>>>> upstream/18.0
@@ -254653,7 +256184,11 @@ msgid "units"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यूनिट"
+>>>>>>> upstream/18.0
 =======
 msgstr "यूनिट"
 >>>>>>> upstream/18.0
@@ -255391,8 +256926,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "== 'pending') and 'Pending Order' or 'Order' }} (Ref {{ object.name or 'n/a'"
 " }})"
+=======
+"== 'pending') and 'Pending Order' or 'Order' }} (Ref {{ object.name or 'n/"
+"a' }})"
+>>>>>>> upstream/18.0
 =======
 "== 'pending') and 'Pending Order' or 'Order' }} (Ref {{ object.name or 'n/"
 "a' }})"
@@ -255864,6 +257404,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "(ctx.get('proforma') and 'Proforma' or 'Quotation') or 'Order' }} (Ref {{ "
 "object.name or 'n/a' }})"
 =======
@@ -256136,10 +257677,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "(ctx.get('proforma') and 'Proforma' or 'Quotation') or 'Order' }} (Ref "
 "{{ object.name or 'n/a' }})"
 msgstr ""
 "{{ object.company_id.name }} {{ object.state in ('draft', 'sent') and "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -256204,6 +257748,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"(ctx.get('proforma') and 'Proforma' or 'Quotation') or 'Order' }} (रेफ़रेंस "
+"{{ object.name or 'n/a' }})"
 >>>>>>> upstream/18.0
 =======
 "(ctx.get('proforma') and 'Proforma' or 'Quotation') or 'Order' }} (रेफ़रेंस "
@@ -256478,8 +258026,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "{{ object.company_id.name }} {{ object.type_name }} Cancelled (Ref {{ "
 "object.name or 'n/a' }})"
+=======
+"{{ object.company_id.name }} {{ object.type_name }} Cancelled (Ref "
+"{{ object.name or 'n/a' }})"
+>>>>>>> upstream/18.0
 =======
 "{{ object.company_id.name }} {{ object.type_name }} Cancelled (Ref "
 "{{ object.name or 'n/a' }})"

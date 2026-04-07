@@ -427,7 +427,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <filter string="Departement" name="departement" context="{'group_by': 'department_id'}"/>
+=======
+                    <filter string="Department" name="departement" context="{'group_by': 'department_id'}"/>
+>>>>>>> upstream/18.0
 =======
                     <filter string="Department" name="departement" context="{'group_by': 'department_id'}"/>
 >>>>>>> upstream/18.0
@@ -1225,7 +1229,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "search_default_groupby_name" : 1,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1829,7 +1836,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <filter string="To Approve" name="to_approve" domain="[('overtime_status','=', 'to_approve'), ('overtime_hours', '!=', 0)]"/>
+=======
+                <filter string="To Approve" name="to_approve" domain="[('overtime_status','=', 'to_approve')]"/>
+>>>>>>> upstream/18.0
 =======
                 <filter string="To Approve" name="to_approve" domain="[('overtime_status','=', 'to_approve')]"/>
 >>>>>>> upstream/18.0

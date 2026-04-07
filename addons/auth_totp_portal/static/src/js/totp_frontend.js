@@ -28,10 +28,16 @@ import { markup } from "@odoo/owl";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { InputConfirmationDialog } from "@portal/js/components/input_confirmation_dialog/input_confirmation_dialog";
 import { handleCheckIdentity } from "@portal/js/portal_security";
 import publicWidget from "@web/legacy/js/public/public_widget";
 import { browser } from "@web/core/browser/browser";
+=======
+import { TotpConfirmationDialog } from "../components/totp_confirmation_dialog";
+import { handleCheckIdentity } from "@portal/js/portal_security";
+import publicWidget from "@web/legacy/js/public/public_widget";
+>>>>>>> upstream/18.0
 =======
 import { TotpConfirmationDialog } from "../components/totp_confirmation_dialog";
 import { handleCheckIdentity } from "@portal/js/portal_security";
@@ -230,6 +236,7 @@ function fromField(f, record) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         copyButton.onclick = async function(event) {
             event.preventDefault();
             $(copyButton).tooltip({title: _t("Copied!"), trigger: "manual", placement: "bottom"});
@@ -237,6 +244,8 @@ function fromField(f, record) {
             $(copyButton).tooltip('show');
             setTimeout(() => $(copyButton).tooltip("hide"), 800);
         };
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -422,7 +431,11 @@ publicWidget.registry.TOTPButton = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.call("dialog", "add", InputConfirmationDialog, {
+=======
+        this.call("dialog", "add", TotpConfirmationDialog, {
+>>>>>>> upstream/18.0
 =======
         this.call("dialog", "add", TotpConfirmationDialog, {
 >>>>>>> upstream/18.0

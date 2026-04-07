@@ -368,7 +368,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <t t-if="debug or google_maps_api_key" t-snippet="website.s_google_map" string="Map"
+=======
+                <t t-if="debug or google_maps_api_key" t-snippet="website.s_google_map" string="Google Map"
+>>>>>>> upstream/18.0
 =======
                 <t t-if="debug or google_maps_api_key" t-snippet="website.s_google_map" string="Google Map"
 >>>>>>> upstream/18.0
@@ -2313,7 +2317,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <we-row string="Theme">
+=======
+        <we-row string="Theme" groups="base.group_system">
+>>>>>>> upstream/18.0
 =======
         <we-row string="Theme" groups="base.group_system">
 >>>>>>> upstream/18.0

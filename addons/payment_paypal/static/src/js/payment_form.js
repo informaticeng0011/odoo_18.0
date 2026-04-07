@@ -188,7 +188,11 @@ paymentForm.include({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             await loadJS(paypalSDKURL);
+=======
+            await this._paypalLoadSDK(paypalSDKURL);
+>>>>>>> upstream/18.0
 =======
             await this._paypalLoadSDK(paypalSDKURL);
 >>>>>>> upstream/18.0
@@ -669,7 +673,11 @@ paymentForm.include({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             await loadJS(paypalSDKURL);
+=======
+            await this._paypalLoadSDK(paypalSDKURL);
+>>>>>>> upstream/18.0
 =======
             await this._paypalLoadSDK(paypalSDKURL);
 >>>>>>> upstream/18.0
@@ -1179,7 +1187,10 @@ paymentForm.include({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1541,6 +1552,9 @@ paymentForm.include({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -61,8 +61,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import http
 from odoo.http import request
+=======
+from odoo import http, _
+from odoo.http import request
+from odoo.exceptions import UserError
+>>>>>>> upstream/18.0
 =======
 from odoo import http, _
 from odoo.http import request
@@ -449,6 +455,12 @@ class DashboardShareRoute(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        download_url = ""
+        if request.env.user.has_group('base.group_allow_export'):
+            download_url = f"/dashboard/download/{share.id}/{token}"
+>>>>>>> upstream/18.0
 =======
         download_url = ""
         if request.env.user.has_group('base.group_allow_export'):
@@ -836,7 +848,11 @@ class DashboardShareRoute(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "downloadExcelUrl": f"/dashboard/download/{share.id}/{token}",
+=======
+                    "downloadExcelUrl": download_url,
+>>>>>>> upstream/18.0
 =======
                     "downloadExcelUrl": download_url,
 >>>>>>> upstream/18.0
@@ -1095,11 +1111,14 @@ class DashboardShareRoute(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 type='http', auth='public')
     def download(self, token=None, share_id=None):
         share = request.env["spreadsheet.dashboard.share"].sudo().browse(share_id)
         share._check_dashboard_access(token)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1292,6 +1311,9 @@ class DashboardShareRoute(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -253,7 +253,11 @@ describe("models with backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(category.product_ids.includes(product)).toBe(true);
+=======
+            expect(category.product_ids).toInclude(product);
+>>>>>>> upstream/18.0
 =======
             expect(category.product_ids).toInclude(product);
 >>>>>>> upstream/18.0
@@ -1195,8 +1199,13 @@ describe("models with backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(readC1.product_ids.includes(p1)).toBe(true);
             expect(readC1.product_ids.includes(p2)).toBe(true);
+=======
+            expect(readC1.product_ids).toInclude(p1);
+            expect(readC1.product_ids).toInclude(p2);
+>>>>>>> upstream/18.0
 =======
             expect(readC1.product_ids).toInclude(p1);
             expect(readC1.product_ids).toInclude(p2);
@@ -2375,8 +2384,13 @@ describe("models with backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(c1.product_ids.includes(p1)).toBe(true);
             expect(c1.product_ids.includes(p2)).toBe(false);
+=======
+            expect(c1.product_ids).toInclude(p1);
+            expect(c1.product_ids).not.toInclude(p2);
+>>>>>>> upstream/18.0
 =======
             expect(c1.product_ids).toInclude(p1);
             expect(c1.product_ids).not.toInclude(p2);
@@ -3541,8 +3555,13 @@ describe("models with backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(c1.product_ids.includes(p1)).toBe(true);
             expect(c1.product_ids.includes(p2)).toBe(true);
+=======
+            expect(c1.product_ids).toInclude(p1);
+            expect(c1.product_ids).toInclude(p2);
+>>>>>>> upstream/18.0
 =======
             expect(c1.product_ids).toInclude(p1);
             expect(c1.product_ids).toInclude(p2);
@@ -4710,7 +4729,11 @@ describe("models with backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(c1.product_ids.includes(p1)).toBe(false);
+=======
+            expect(c1.product_ids).not.toInclude(p1);
+>>>>>>> upstream/18.0
 =======
             expect(c1.product_ids).not.toInclude(p1);
 >>>>>>> upstream/18.0
@@ -5643,12 +5666,15 @@ describe("models with backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(c1.product_ids.includes(p1)).toBe(true);
             expect(p1.category_id).toBe(c1);
 
             c1.update({ product_ids: [["unlink", p1]] });
             expect(c1.product_ids.includes(p1)).toBe(false);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6344,6 +6370,9 @@ describe("models with backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7047,7 +7076,11 @@ describe("models with backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(updatedCategory.product_ids.length).toBe(0);
+=======
+            expect(updatedCategory.product_ids).toHaveLength(0);
+>>>>>>> upstream/18.0
 =======
             expect(updatedCategory.product_ids).toHaveLength(0);
 >>>>>>> upstream/18.0
@@ -7981,7 +8014,11 @@ describe("models with backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(updatedCategory.product_ids.length).toBe(0);
+=======
+            expect(updatedCategory.product_ids).toHaveLength(0);
+>>>>>>> upstream/18.0
 =======
             expect(updatedCategory.product_ids).toHaveLength(0);
 >>>>>>> upstream/18.0
@@ -8915,12 +8952,15 @@ describe("models with backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(c1.product_ids.includes(p1)).toBe(true);
 
             p1.delete();
             expect(models["product.product"].read(p1.id)).toBe(undefined);
             expect(c1.product_ids.includes(p1)).toBe(false);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9616,6 +9656,9 @@ describe("models with backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10316,7 +10359,11 @@ describe("models with backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(c1.product_ids.includes(p1)).toBe(true);
+=======
+            expect(c1.product_ids).toInclude(p1);
+>>>>>>> upstream/18.0
 =======
             expect(c1.product_ids).toInclude(p1);
 >>>>>>> upstream/18.0
@@ -11266,7 +11313,11 @@ describe("models with backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(c1.child_ids.includes(c2)).toBe(true);
+=======
+            expect(c1.child_ids).toInclude(c2);
+>>>>>>> upstream/18.0
 =======
             expect(c1.child_ids).toInclude(c2);
 >>>>>>> upstream/18.0
@@ -12217,8 +12268,13 @@ describe("models with backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(c2.child_ids.includes(c3)).toBe(true);
             expect(c1.child_ids.includes(c3)).toBe(false);
+=======
+            expect(c2.child_ids).toInclude(c3);
+            expect(c1.child_ids).not.toInclude(c3);
+>>>>>>> upstream/18.0
 =======
             expect(c2.child_ids).toInclude(c3);
             expect(c1.child_ids).not.toInclude(c3);
@@ -13383,7 +13439,11 @@ describe("models with backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(c1.child_ids.includes(c2)).toBe(true);
+=======
+            expect(c1.child_ids).toInclude(c2);
+>>>>>>> upstream/18.0
 =======
             expect(c1.child_ids).toInclude(c2);
 >>>>>>> upstream/18.0
@@ -14321,7 +14381,11 @@ describe("models with backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(c1.child_ids.includes(c2)).toBe(false);
+=======
+            expect(c1.child_ids).not.toInclude(c2);
+>>>>>>> upstream/18.0
 =======
             expect(c1.child_ids).not.toInclude(c2);
 >>>>>>> upstream/18.0
@@ -15253,11 +15317,14 @@ describe("models with backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(c1.child_ids.includes(c2)).toBe(true);
 
             c1.update({ child_ids: [["unlink", c2]] });
             expect(c1.child_ids.includes(c2)).toBe(false);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15952,6 +16019,9 @@ describe("models with backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16653,9 +16723,15 @@ describe("models with backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(category.child_ids.length).toBe(2);
             models["product.category"].update(category, { child_ids: [["clear"]] });
             expect(category.child_ids.length).toBe(0);
+=======
+            expect(category.child_ids).toHaveLength(2);
+            models["product.category"].update(category, { child_ids: [["clear"]] });
+            expect(category.child_ids).toHaveLength(0);
+>>>>>>> upstream/18.0
 =======
             expect(category.child_ids).toHaveLength(2);
             models["product.category"].update(category, { child_ids: [["clear"]] });
@@ -18049,9 +18125,15 @@ describe("models with backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(category.child_ids.includes(category1)).toBe(true);
             models["product.category"].update(category1, { parent_id: undefined });
             expect(category.child_ids.includes(category1)).toBe(false);
+=======
+            expect(category.child_ids).toInclude(category1);
+            models["product.category"].update(category1, { parent_id: undefined });
+            expect(category.child_ids).not.toInclude(category1);
+>>>>>>> upstream/18.0
 =======
             expect(category.child_ids).toInclude(category1);
             models["product.category"].update(category1, { parent_id: undefined });
@@ -19445,12 +19527,15 @@ describe("models with backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(c1.child_ids.includes(c2)).toBe(true);
 
             c2.delete();
             expect(models["product.category"].read(c2.id)).toBe(undefined);
             expect(c1.child_ids.includes(c2)).toBe(false);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20146,6 +20231,9 @@ describe("models with backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20845,7 +20933,11 @@ describe("models with backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(c1.child_ids.includes(c2)).toBe(true);
+=======
+            expect(c1.child_ids).toInclude(c2);
+>>>>>>> upstream/18.0
 =======
             expect(c1.child_ids).toInclude(c2);
 >>>>>>> upstream/18.0
@@ -21756,6 +21848,10 @@ describe("models with backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    random_ids: { type: "one2many", relation: "random.model" },
+>>>>>>> upstream/18.0
 =======
                     random_ids: { type: "one2many", relation: "random.model" },
 >>>>>>> upstream/18.0
@@ -22594,7 +22690,10 @@ describe("models with backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23214,6 +23313,9 @@ describe("models with backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23645,6 +23747,7 @@ describe("models with backlinks", () => {
                 name: "Smartphone",
                 tag_ids: [["link", tag1, tag2]],
             });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24389,6 +24492,8 @@ describe("models with backlinks", () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             expect(product.tag_ids).toInclude(tag1);
             expect(tag1.product_ids).toInclude(product);
         });
@@ -24641,6 +24746,9 @@ describe("models with backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25067,6 +25175,7 @@ describe("models with backlinks", () => {
             const readP1 = models["product.product"].read(p1.id);
             expect(readP1).toEqual(p1);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25764,6 +25873,8 @@ describe("models with backlinks", () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             expect(readT1.product_ids).toInclude(p1);
             expect(readT1.product_ids).toInclude(p2);
             expect(readT1.product_ids).toInclude(p3);
@@ -25999,6 +26110,9 @@ describe("models with backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26701,6 +26815,7 @@ describe("models with backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(p1.tag_ids.includes(t1)).toBe(false);
 
             p1.update({ tag_ids: [["link", t1]] });
@@ -26711,6 +26826,8 @@ describe("models with backlinks", () => {
             t1.update({ product_ids: [["link", p2]] });
             expect(t1.product_ids.includes(p2)).toBe(true);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -27410,6 +27527,9 @@ describe("models with backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -28110,6 +28230,7 @@ describe("models with backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(t1.product_ids.includes(p1)).toBe(true);
             expect(p1.tag_ids.includes(t1)).toBe(true);
 
@@ -28117,6 +28238,8 @@ describe("models with backlinks", () => {
             expect(t1.product_ids.includes(p1)).toBe(false);
             expect(p1.tag_ids.length).toBe(0);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -28813,6 +28936,9 @@ describe("models with backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -29513,11 +29639,14 @@ describe("models with backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(product.tag_ids.length).toBe(2);
 
             product.update({ tag_ids: [["clear"]] });
             expect(product.tag_ids.length).toBe(0);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -30212,6 +30341,9 @@ describe("models with backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -30913,12 +31045,15 @@ describe("models with backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(t1.product_ids.includes(p1)).toBe(true);
 
             p1.delete();
             expect(models["product.product"].read(p1.id)).toBe(undefined);
             expect(t1.product_ids.includes(p1)).toBe(false);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -31614,6 +31749,9 @@ describe("models with backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -32334,8 +32472,13 @@ describe("models with backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 expect(note.child_ids.includes(note1)).toBe(true);
                 expect(note1.parent_ids.includes(note)).toBe(true);
+=======
+                expect(note.child_ids).toInclude(note1);
+                expect(note1.parent_ids).toInclude(note);
+>>>>>>> upstream/18.0
 =======
                 expect(note.child_ids).toInclude(note1);
                 expect(note1.parent_ids).toInclude(note);
@@ -33520,6 +33663,7 @@ describe("models with backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 expect(n1.parent_ids.includes(n3)).toBe(true);
                 expect(n3.child_ids.includes(n1)).toBe(true);
 
@@ -33530,6 +33674,8 @@ describe("models with backlinks", () => {
                 expect(n3.parent_ids.includes(n2)).toBe(false);
                 expect(n2.child_ids.includes(n3)).toBe(false);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -34229,6 +34375,9 @@ describe("models with backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -34929,6 +35078,7 @@ describe("models with backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 expect(n2.parent_ids.includes(n1)).toBe(true);
                 expect(n1.child_ids.includes(n2)).toBe(true);
 
@@ -34936,6 +35086,8 @@ describe("models with backlinks", () => {
                 expect(n2.parent_ids.includes(n1)).toBe(false);
                 expect(n1.child_ids.length).toBe(0);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -35632,6 +35784,9 @@ describe("models with backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -36332,6 +36487,7 @@ describe("models with backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 expect(note3.parent_ids.length).toBe(2);
 
                 models["note.note"].update(note3, { parent_ids: [["clear"]] });
@@ -36339,6 +36495,8 @@ describe("models with backlinks", () => {
                 expect(note3.parent_ids.length).toBe(0);
                 expect(note.child_ids.length).toBe(0);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -37035,6 +37193,9 @@ describe("models with backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -37740,7 +37901,11 @@ describe("models with backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 expect(n3.parent_ids.includes(n1)).toBe(false);
+=======
+                expect(n3.parent_ids).not.toInclude(n1);
+>>>>>>> upstream/18.0
 =======
                 expect(n3.parent_ids).not.toInclude(n1);
 >>>>>>> upstream/18.0
@@ -38725,7 +38890,11 @@ describe("models without backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(c1["<-product.product.category_id"].length).toBe(0);
+=======
+            expect(c1["<-product.product.category_id"]).toHaveLength(0);
+>>>>>>> upstream/18.0
 =======
             expect(c1["<-product.product.category_id"]).toHaveLength(0);
 >>>>>>> upstream/18.0
@@ -39688,8 +39857,13 @@ describe("models without backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(product.tag_ids.includes(tag1)).toBe(true);
             expect(tag1["<-product.product.tag_ids"].includes(product)).toBe(true);
+=======
+            expect(product.tag_ids).toInclude(tag1);
+            expect(tag1["<-product.product.tag_ids"]).toInclude(product);
+>>>>>>> upstream/18.0
 =======
             expect(product.tag_ids).toInclude(tag1);
             expect(tag1["<-product.product.tag_ids"]).toInclude(product);
@@ -40877,6 +41051,7 @@ describe("models without backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(p1.tag_ids.includes(t1)).toBe(true);
             expect(t1["<-product.product.tag_ids"].includes(p1)).toBe(true);
             expect(t1["<-product.product.tag_ids"].includes(p2)).toBe(false);
@@ -40884,6 +41059,8 @@ describe("models without backlinks", () => {
             p2.update({ tag_ids: [["link", t1]] });
             expect(t1["<-product.product.tag_ids"].includes(p2)).toBe(true);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -41580,6 +41757,9 @@ describe("models without backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -42280,6 +42460,7 @@ describe("models without backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(t1["<-product.product.tag_ids"].includes(p1)).toBe(true);
             expect(p1.tag_ids.includes(t1)).toBe(true);
 
@@ -42287,6 +42468,8 @@ describe("models without backlinks", () => {
             expect(t1["<-product.product.tag_ids"].includes(p1)).toBe(false);
             expect(p1.tag_ids.length).toBe(0);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -42983,6 +43166,9 @@ describe("models without backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -43685,7 +43871,11 @@ describe("models without backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(updatedProduct.tag_ids.length).toBe(0);
+=======
+            expect(updatedProduct.tag_ids).toHaveLength(0);
+>>>>>>> upstream/18.0
 =======
             expect(updatedProduct.tag_ids).toHaveLength(0);
 >>>>>>> upstream/18.0
@@ -44615,7 +44805,11 @@ describe("models without backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(tag1["<-product.product.tag_ids"].includes(product)).toBe(false);
+=======
+            expect(tag1["<-product.product.tag_ids"]).not.toInclude(product);
+>>>>>>> upstream/18.0
 =======
             expect(tag1["<-product.product.tag_ids"]).not.toInclude(product);
 >>>>>>> upstream/18.0
@@ -45551,6 +45745,7 @@ describe("models without backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(t1["<-product.product.tag_ids"].includes(p1)).toBe(true);
 
             p1.delete();
@@ -45561,6 +45756,8 @@ describe("models without backlinks", () => {
             expect(models["product.tag"].read(t1.id)).toBe(undefined);
             expect(p1.tag_ids.length).toBe(0);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -46260,6 +46457,9 @@ describe("models without backlinks", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -47009,11 +47209,14 @@ describe("loadData function", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(product1.category_ids.includes(category1)).toBe(true);
 
         expect(product2.uuid).toBe("prod-456");
         expect(product2.category_ids.includes(category2)).toBe(true);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -47708,6 +47911,9 @@ describe("loadData function", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -48426,7 +48632,11 @@ describe("loadData function", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(updatedProduct.category_ids.includes(updatedCategory)).toBe(true);
+=======
+        expect(updatedProduct.category_ids).toInclude(updatedCategory);
+>>>>>>> upstream/18.0
 =======
         expect(updatedProduct.category_ids).toInclude(updatedCategory);
 >>>>>>> upstream/18.0
@@ -49380,8 +49590,13 @@ describe("loadData function", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(updatedProduct.category_ids.includes(updatedCategory)).toBe(true);
         expect(updatedProduct.category_ids.length).toBe(1);
+=======
+        expect(updatedProduct.category_ids).toInclude(updatedCategory);
+        expect(updatedProduct.category_ids).toHaveLength(1);
+>>>>>>> upstream/18.0
 =======
         expect(updatedProduct.category_ids).toInclude(updatedCategory);
         expect(updatedProduct.category_ids).toHaveLength(1);

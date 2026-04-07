@@ -13,7 +13,11 @@ from odoo.exceptions import UserError
 from odoo.tools import sql
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools.translate import quote, unquote, xml_translate, html_translate, TranslationImporter, TranslationModuleReader
+=======
+from odoo.tools.translate import _push, quote, unquote, xml_translate, html_translate, TranslationImporter, TranslationModuleReader, TranslationReader
+>>>>>>> upstream/18.0
 =======
 from odoo.tools.translate import _push, quote, unquote, xml_translate, html_translate, TranslationImporter, TranslationModuleReader, TranslationReader
 >>>>>>> upstream/18.0
@@ -213,7 +217,10 @@ class TranslationToolsTestCase(BaseCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -435,6 +442,9 @@ class TranslationToolsTestCase(BaseCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -716,7 +726,10 @@ class TranslationToolsTestCase(BaseCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_push_filters_no_letter_strings(self):
@@ -738,6 +751,9 @@ class TranslationToolsTestCase(BaseCase):
         self.assertEqual(terms, ['g'])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -774,7 +790,10 @@ class TestTranslationExport(TransactionCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_push_translation_filters_no_letter_strings(self):
@@ -795,6 +814,9 @@ class TestTranslationExport(TransactionCase):
         self.assertEqual(sources, ['g'])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1705,7 +1727,11 @@ class TestXMLTranslation(TransactionCase):
         self.assertEqual(view.with_context(lang='fr_FR').arch_db, archf % terms_fr)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0

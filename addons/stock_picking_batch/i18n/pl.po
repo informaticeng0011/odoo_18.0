@@ -172,6 +172,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* stock_picking_batch
 # 
 # Translators:
@@ -521,6 +522,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * stock_picking_batch
 #
 # Translators:
@@ -528,6 +531,7 @@
 # Marta Wacławek, 2025
 #
 # Harkot <kharkot@trilab.pl>, 2025.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 # "Marta (wacm)" <wacm@odoo.com>, 2025.
@@ -1045,10 +1049,14 @@
 =======
 # "Marta (wacm)" <wacm@odoo.com>, 2025, 2026.
 >>>>>>> upstream/18.0
+=======
+# "Marta (wacm)" <wacm@odoo.com>, 2025, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1669,6 +1677,10 @@ msgstr ""
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2026-03-31 12:22+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+"PO-Revision-Date: 2026-03-31 12:22+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
 "Language-Team: Polish <https://translate.odoo.com/projects/odoo-18/"
 "stock_picking_batch/pl/>\n"
@@ -1676,6 +1688,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2467,11 +2480,16 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
 "(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
 "n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 "X-Generator: Weblate 5.16.2\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2486,7 +2504,11 @@ msgstr "2023-08-20"
 msgid "<span class=\"col-6\">Waves</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"col-6\">Fale</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"col-6\">Fale</span>"
 >>>>>>> upstream/18.0
@@ -2502,6 +2524,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_form_label fw-bold\" invisible=\"not auto_batch\" "
+"style=\"white-space: nowrap;\">Grupowanie falowe</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_form_label fw-bold\" invisible=\"not auto_batch\" "
 "style=\"white-space: nowrap;\">Grupowanie falowe</span>"
@@ -2519,6 +2546,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_form_label fw-bold\" invisible=\"not auto_batch\">Grupowanie "
+"wsadowe</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_form_label fw-bold\" invisible=\"not auto_batch\">Grupowanie "
 "wsadowe</span>"
@@ -2563,7 +2595,11 @@ msgstr "<strong>DO</strong>"
 msgid "<strong>→</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<strong>→</strong> "
+=======
+msgstr "<strong>→</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>→</strong>"
 >>>>>>> upstream/18.0
@@ -2574,6 +2610,7 @@ msgstr "<strong>→</strong>"
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__batch_max_lines
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2856,10 +2893,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "A transfer will not be automatically added to batches that will exceed this "
 "number of lines if the transfer is added to it.\n"
 "Leave this value as '0' if no line limit."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "Przekaz nie zostanie automatycznie dodany do partii, które przekroczą tę "
@@ -3146,10 +3186,16 @@ msgstr ""
 "przekroczą tę liczbę pozycji.\n"
 "Pozostaw tę wartość jako \"0\", jeśli nie ma limitu pozycji."
 >>>>>>> upstream/18.0
+=======
+"Transfer nie zostanie automatycznie dodany do partii, które po jego dodaniu "
+"przekroczą tę liczbę pozycji.\n"
+"Pozostaw tę wartość jako \"0\", jeśli nie ma limitu pozycji."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__batch_max_pickings
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3432,10 +3478,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "A transfer will not be automatically added to batches that will exceed this "
 "number of transfers.\n"
 "Leave this value as '0' if no transfer limit."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "Przekaz nie zostanie automatycznie dodany do partii, które przekroczą tę "
@@ -3722,6 +3771,11 @@ msgstr ""
 "liczbę transferów.\n"
 "Pozostaw tę wartość jako \"0\", jeśli nie ma limitu transferów."
 >>>>>>> upstream/18.0
+=======
+"Transfer nie zostanie automatycznie dodany do partii, które przekroczą tę "
+"liczbę transferów.\n"
+"Pozostaw tę wartość jako \"0\", jeśli nie ma limitu transferów."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__message_needaction
@@ -3733,7 +3787,11 @@ msgstr "Wymagane działanie"
 msgid "Activities"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Czynności"
+=======
+msgstr "Aktywności"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aktywności"
 >>>>>>> upstream/18.0
@@ -3768,7 +3826,11 @@ msgstr "Dodaj operacje"
 msgid "Add pickings to"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dodaj pobranie do"
+=======
+msgstr "Dodaj kompletacje do"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodaj kompletacje do"
 >>>>>>> upstream/18.0
@@ -3810,7 +3872,11 @@ msgstr "Przydział"
 msgid "Allowed Picking"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dozwolone pobranie"
+=======
+msgstr "Dozwolona kompletacja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dozwolona kompletacja"
 >>>>>>> upstream/18.0
@@ -3864,6 +3930,7 @@ msgstr "Automatycznie grupuj partie według ich lokalizacji źródłowej."
 msgid ""
 "Automatically put pickings into batches as they are confirmed when possible."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4331,6 +4398,10 @@ msgstr ""
 "Automatycznie umieść kompletacje we wsadach w miarę ich potwierdzania, jeśli "
 "to możliwe."
 >>>>>>> upstream/18.0
+=======
+"Automatycznie umieść kompletacje we wsadach w miarę ich potwierdzania, jeśli "
+"to możliwe."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
@@ -4343,7 +4414,11 @@ msgstr "Kod kreskowy"
 msgid "Batch"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Lista płac"
+=======
+msgstr "Partia"
+>>>>>>> upstream/18.0
 =======
 msgstr "Partia"
 >>>>>>> upstream/18.0
@@ -4356,7 +4431,11 @@ msgstr "Partia"
 msgid "Batch & Wave Transfers"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transfery falowe i wsadowe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transfery falowe i wsadowe"
 >>>>>>> upstream/18.0
@@ -4374,7 +4453,11 @@ msgstr "Nazwa partii"
 msgid "Batch Properties"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Właściwości partii"
+>>>>>>> upstream/18.0
 =======
 msgstr "Właściwości partii"
 >>>>>>> upstream/18.0
@@ -4398,7 +4481,11 @@ msgstr "Właściwości partii"
 msgid "Batch Transfer"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Przekaz zbiorczy"
+=======
+msgstr "Tranfer wsadowy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tranfer wsadowy"
 >>>>>>> upstream/18.0
@@ -4411,7 +4498,11 @@ msgstr "Tranfer wsadowy"
 msgid "Batch Transfer Lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Linie przekazu partii"
+=======
+msgstr "Pozycje transferu wsadowego"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pozycje transferu wsadowego"
 >>>>>>> upstream/18.0
@@ -4425,7 +4516,11 @@ msgstr "Pozycje transferu wsadowego"
 msgid "Batch Transfers"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Transfery zbiorcze"
+=======
+msgstr "Transfery wsadowe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transfery wsadowe"
 >>>>>>> upstream/18.0
@@ -4438,7 +4533,11 @@ msgstr "Transfery wsadowe"
 msgid "Batch Transfers not finished"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Przekaz partii nie został zakończony"
+=======
+msgstr "Transfer wsadowy nie został zakończony"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transfer wsadowy nie został zakończony"
 >>>>>>> upstream/18.0
@@ -4458,7 +4557,11 @@ msgstr "Partia powiązana z tym transferem"
 msgid "Batch transfers"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transfery wsadowe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transfery wsadowe"
 >>>>>>> upstream/18.0
@@ -4494,7 +4597,11 @@ msgstr "Anulowano"
 msgid "Cannot create wave transfers"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nie można utworzyć przekazów falowych"
+=======
+msgstr "Nie można utworzyć transferów falowych"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nie można utworzyć transferów falowych"
 >>>>>>> upstream/18.0
@@ -4507,7 +4614,11 @@ msgstr "Nie można utworzyć transferów falowych"
 msgid "Categories to consider when grouping waves."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kategorie, które należy wziąć pod uwagę podczas grupowania falowego."
+>>>>>>> upstream/18.0
 =======
 msgstr "Kategorie, które należy wziąć pod uwagę podczas grupowania falowego."
 >>>>>>> upstream/18.0
@@ -4526,7 +4637,11 @@ msgstr "Sprawdź dostępność"
 msgid "Choose Labels Layout"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Wybierz Układ Etykiet"
+=======
+msgstr "Wybierz układ etykiet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Wybierz układ etykiet"
 >>>>>>> upstream/18.0
@@ -4546,7 +4661,11 @@ msgstr "Wybierz typ etykiet do wydrukowania"
 msgid "Cluster transfers"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transfery klastrów"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transfery klastrów"
 >>>>>>> upstream/18.0
@@ -4577,7 +4696,11 @@ msgstr "Kontakt"
 msgid "Count Picking Batch"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Liczenie partii do pobrania"
+=======
+msgstr "Liczba kompletacji wsadowych"
+>>>>>>> upstream/18.0
 =======
 msgstr "Liczba kompletacji wsadowych"
 >>>>>>> upstream/18.0
@@ -4590,7 +4713,11 @@ msgstr "Liczba kompletacji wsadowych"
 msgid "Count Picking Wave"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Fala pobrań"
+=======
+msgstr "Liczba kompletacji falowych"
+>>>>>>> upstream/18.0
 =======
 msgstr "Liczba kompletacji falowych"
 >>>>>>> upstream/18.0
@@ -4628,7 +4755,11 @@ msgstr "Kraj docelowy"
 msgid "Destination Location"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Strefa docelowa"
+=======
+msgstr "Lokacja docelowa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lokacja docelowa"
 >>>>>>> upstream/18.0
@@ -4654,7 +4785,11 @@ msgstr "Nazwa wyświetlana"
 msgid "Done"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Wykonano"
+=======
+msgstr "Gotowe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gotowe"
 >>>>>>> upstream/18.0
@@ -4669,7 +4804,11 @@ msgstr "Gotowe"
 msgid "Draft"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Projekt"
+=======
+msgstr "Wersja robocza"
+>>>>>>> upstream/18.0
 =======
 msgstr "Wersja robocza"
 >>>>>>> upstream/18.0
@@ -4682,7 +4821,11 @@ msgstr "Wersja robocza"
 msgid "Followers"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Obserwatorzy"
+=======
+msgstr "Obserwujący"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obserwujący"
 >>>>>>> upstream/18.0
@@ -4695,7 +4838,11 @@ msgstr "Obserwujący"
 msgid "Followers (Partners)"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Obserwatorzy (partnerzy)"
+=======
+msgstr "Obserwujący (partnerzy)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obserwujący (partnerzy)"
 >>>>>>> upstream/18.0
@@ -4713,7 +4860,11 @@ msgstr "Ikona Font awesome np. fa-tasks"
 msgid "Future Activities"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Przyszłe czynności"
+=======
+msgstr "Przyszłe aktywności"
+>>>>>>> upstream/18.0
 =======
 msgstr "Przyszłe aktywności"
 >>>>>>> upstream/18.0
@@ -4731,7 +4882,11 @@ msgstr "Grupuj wg"
 msgid "Group by Destination Location"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Grupuj według lokalizacji docelowej"
+>>>>>>> upstream/18.0
 =======
 msgstr "Grupuj według lokalizacji docelowej"
 >>>>>>> upstream/18.0
@@ -4744,7 +4899,11 @@ msgstr "Grupuj według lokalizacji docelowej"
 msgid "Group by Source Location"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Grupuj według lokalizacji źródłowej"
+>>>>>>> upstream/18.0
 =======
 msgstr "Grupuj według lokalizacji źródłowej"
 >>>>>>> upstream/18.0
@@ -4798,6 +4957,7 @@ msgid ""
 "If the Automatic Batches feature is enabled, at least one 'Group by' option "
 "must be selected."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5265,6 +5425,10 @@ msgstr ""
 "Jeśli funkcja automatycznych partii jest włączona, należy wybrać co najmniej "
 "jedną opcję \"Grupuj według\"."
 >>>>>>> upstream/18.0
+=======
+"Jeśli funkcja automatycznych partii jest włączona, należy wybrać co najmniej "
+"jedną opcję \"Grupuj według\"."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_filter
@@ -5284,6 +5448,7 @@ msgstr "Jest obserwatorem"
 #. module: stock_picking_batch
 #: model:ir.ui.menu,name:stock_picking_batch.menu_stock_jobs
 msgid "Jobs"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5973,6 +6138,9 @@ msgstr "Zadania"
 =======
 msgstr "Zadania"
 >>>>>>> upstream/18.0
+=======
+msgstr "Zadania"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
@@ -5986,7 +6154,11 @@ msgstr "Jan Kowalski"
 msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ostatnio aktualizowane przez"
+=======
+msgstr "Ostatnio zaktualizowane przez"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ostatnio zaktualizowane przez"
 >>>>>>> upstream/18.0
@@ -6006,7 +6178,11 @@ msgstr "Data ostatniej aktualizacji"
 msgid "Late Activities"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Czynności zaległe"
+=======
+msgstr "Zaległe aktywności"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zaległe aktywności"
 >>>>>>> upstream/18.0
@@ -6023,6 +6199,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Rozpocznij kompletację zamówień według alejki lub obszaru i przegrupuj je w "
+"strefie pakowania. Idealne rozwiązanie dla dużych magazynów."
+>>>>>>> upstream/18.0
 =======
 "Rozpocznij kompletację zamówień według alejki lub obszaru i przegrupuj je w "
 "strefie pakowania. Idealne rozwiązanie dla dużych magazynów."
@@ -6042,7 +6223,11 @@ msgstr "Pozycja"
 msgid "List of transfers associated to this batch"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Lista przekazów powiązanych z tą partią"
+=======
+msgstr "Lista transferów powiązanych z tą partią"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lista transferów powiązanych z tą partią"
 >>>>>>> upstream/18.0
@@ -6055,7 +6240,11 @@ msgstr "Lista transferów powiązanych z tą partią"
 msgid "Location"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Miejsce"
+=======
+msgstr "Lokacja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lokacja"
 >>>>>>> upstream/18.0
@@ -6068,7 +6257,11 @@ msgstr "Lokacja"
 msgid "Location From Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nazwa lokacji startowej"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nazwa lokacji startowej"
 >>>>>>> upstream/18.0
@@ -6081,7 +6274,11 @@ msgstr "Nazwa lokacji startowej"
 msgid "Location To Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nazwa lokacji docelowej"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nazwa lokacji docelowej"
 >>>>>>> upstream/18.0
@@ -6094,7 +6291,11 @@ msgstr "Nazwa lokacji docelowej"
 msgid "Locations to consider when grouping waves."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lokacje do rozważenia podczas grupowania falowego."
+>>>>>>> upstream/18.0
 =======
 msgstr "Lokacje do rozważenia podczas grupowania falowego."
 >>>>>>> upstream/18.0
@@ -6107,7 +6308,11 @@ msgstr "Lokacje do rozważenia podczas grupowania falowego."
 msgid "Lot Number"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Numer partii"
+>>>>>>> upstream/18.0
 =======
 msgstr "Numer partii"
 >>>>>>> upstream/18.0
@@ -6120,7 +6325,11 @@ msgstr "Numer partii"
 msgid "Maximum lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Maksymalna liczba pozycji"
+>>>>>>> upstream/18.0
 =======
 msgstr "Maksymalna liczba pozycji"
 >>>>>>> upstream/18.0
@@ -6133,7 +6342,11 @@ msgstr "Maksymalna liczba pozycji"
 msgid "Maximum transfers"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Maksymalna liczba transferów"
+>>>>>>> upstream/18.0
 =======
 msgstr "Maksymalna liczba transferów"
 >>>>>>> upstream/18.0
@@ -6167,7 +6380,11 @@ msgstr "Pozycje przesunięcia"
 msgid "My Activity Deadline"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ostateczny terminin moich aktywności"
+=======
+msgstr "Ostateczny termin moich aktywności"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ostateczny termin moich aktywności"
 >>>>>>> upstream/18.0
@@ -6185,7 +6402,11 @@ msgstr "Moje transfery"
 msgid "Next Activity Calendar Event"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Następna Czynność wydarzenia w kalendarzu"
+=======
+msgstr "Następna aktywność wydarzenia w kalendarzu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Następna aktywność wydarzenia w kalendarzu"
 >>>>>>> upstream/18.0
@@ -6198,7 +6419,11 @@ msgstr "Następna aktywność wydarzenia w kalendarzu"
 msgid "Next Activity Deadline"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Termin kolejnej czynności"
+=======
+msgstr "Termin kolejnej aktywności"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termin kolejnej aktywności"
 >>>>>>> upstream/18.0
@@ -6211,7 +6436,11 @@ msgstr "Termin kolejnej aktywności"
 msgid "Next Activity Summary"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Podsumowanie kolejnej czynności"
+=======
+msgstr "Podsumowanie kolejnej aktywności"
+>>>>>>> upstream/18.0
 =======
 msgstr "Podsumowanie kolejnej aktywności"
 >>>>>>> upstream/18.0
@@ -6224,7 +6453,11 @@ msgstr "Podsumowanie kolejnej aktywności"
 msgid "Next Activity Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Typ następnej czynności"
+=======
+msgstr "Typ następnej aktywności"
+>>>>>>> upstream/18.0
 =======
 msgstr "Typ następnej aktywności"
 >>>>>>> upstream/18.0
@@ -6267,7 +6500,11 @@ msgstr "Operacje"
 msgid "Package ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID paczki"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID paczki"
 >>>>>>> upstream/18.0
@@ -6284,6 +6521,12 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Skompletuj wiele zamówień na raz i przygotowuj zamówienia podczas "
+"kompletacji. Skraca to czas pakowania i jest idealnym rozwiązaniem w "
+"przypadku małych produktów."
+>>>>>>> upstream/18.0
 =======
 "Skompletuj wiele zamówień na raz i przygotowuj zamówienia podczas "
 "kompletacji. Skraca to czas pakowania i jest idealnym rozwiązaniem w "
@@ -6308,6 +6551,7 @@ msgstr "Typ pobrania"
 #. module: stock_picking_batch
 #. odoo-python
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6682,6 +6926,9 @@ msgid "Please add 'Done' quantities to the batch picking to create a new pack."
 =======
 msgid "Please add 'Done' quantities to the batch picking to create a new pack."
 >>>>>>> upstream/18.0
+=======
+msgid "Please add 'Done' quantities to the batch picking to create a new pack."
+>>>>>>> upstream/18.0
 msgstr ""
 "Aby utworzyć nowe opakowanie, należy dodać ilości \"Gotowe\" do pobrania "
 "partii."
@@ -6691,7 +6938,11 @@ msgstr ""
 msgid "Prepare Batch"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Przygotuj partię"
+>>>>>>> upstream/18.0
 =======
 msgstr "Przygotuj partię"
 >>>>>>> upstream/18.0
@@ -6708,7 +6959,11 @@ msgstr "Przygotuj partię"
 msgid "Prepare Wave"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Przygotuj falę"
+>>>>>>> upstream/18.0
 =======
 msgstr "Przygotuj falę"
 >>>>>>> upstream/18.0
@@ -6726,7 +6981,11 @@ msgstr "Drukuj"
 msgid "Print Labels"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Drukuj Etykiety"
+=======
+msgstr "Drukuj etykiety"
+>>>>>>> upstream/18.0
 =======
 msgstr "Drukuj etykiety"
 >>>>>>> upstream/18.0
@@ -6745,7 +7004,11 @@ msgstr "Produkt"
 msgid "Product Barcode"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kod kreskowy produktu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kod kreskowy produktu"
 >>>>>>> upstream/18.0
@@ -6778,7 +7041,11 @@ msgstr "Właściwości"
 msgid "Put in Pack"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Umieść w Paczce"
+=======
+msgstr "Umieść w paczce"
+>>>>>>> upstream/18.0
 =======
 msgstr "Umieść w paczce"
 >>>>>>> upstream/18.0
@@ -6796,7 +7063,11 @@ msgstr "Ilość"
 msgid "Quantity Done"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ilość wykonanych:"
+=======
+msgstr "Gotowa ilość"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gotowa ilość"
 >>>>>>> upstream/18.0
@@ -6813,6 +7084,7 @@ msgstr "Oceny"
 #: model_terms:ir.actions.act_window,help:stock_picking_batch.action_picking_tree_wave
 #: model_terms:ir.actions.act_window,help:stock_picking_batch.stock_picking_batch_action
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7185,11 +7457,16 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Regroup multiple orders into one picking and consolidate at the packing zone."
 msgstr ""
 "Przegrupuj wiele zamówień w ramach jednej kompletacji i skompletuj je w "
 "strefie pakowania."
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7212,7 +7489,11 @@ msgstr "Użytkownik odpowiedzialny"
 msgid "Result Package ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID pakietu wyniku"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID pakietu wyniku"
 >>>>>>> upstream/18.0
@@ -7235,6 +7516,7 @@ msgstr "Zaplanowana data"
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_batch__scheduled_date
 msgid ""
 "Scheduled date for the transfers to be processed.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7521,6 +7803,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "              - If manually set then scheduled date for all transfers in "
 "batch will automatically update to this date.\n"
 "              - If not manually changed and transfers are added/removed/"
@@ -7528,6 +7812,7 @@ msgstr ""
 "                but this scheduled date will not be set for all transfers in "
 "batch."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "Zaplanowana data przetworzenia przekazów.\n"
@@ -7811,6 +8096,8 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Zaplanowana data przetworzenia transferów.\n"
 "- Jeśli zostanie ustawiona ręcznie, zaplanowana data dla wszystkich "
 "przekazów w partii zostanie automatycznie zaktualizowana do tej daty.\n"
@@ -7819,6 +8106,9 @@ msgstr ""
 "ale ta zaplanowana data nie zostanie ustawiona dla wszystkich transferów w "
 "partii."
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7828,7 +8118,11 @@ msgstr ""
 msgid "Search Batch Transfer"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Wyszukiwanie przekazu partii"
+=======
+msgstr "Wyszukiwanie transferu wsadowego"
+>>>>>>> upstream/18.0
 =======
 msgstr "Wyszukiwanie transferu wsadowego"
 >>>>>>> upstream/18.0
@@ -7841,7 +8135,11 @@ msgstr "Wyszukiwanie transferu wsadowego"
 msgid "Select locations you want to group"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Wybierz lokalizacje, które chcesz zgrupować"
+>>>>>>> upstream/18.0
 =======
 msgstr "Wybierz lokalizacje, które chcesz zgrupować"
 >>>>>>> upstream/18.0
@@ -7854,7 +8152,11 @@ msgstr "Wybierz lokalizacje, które chcesz zgrupować"
 msgid "Select product categories you want to group"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Wybierz kategorie produktów, które chcesz pogrupować"
+>>>>>>> upstream/18.0
 =======
 msgstr "Wybierz kategorie produktów, które chcesz pogrupować"
 >>>>>>> upstream/18.0
@@ -7902,6 +8204,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Podziel transfery według zdefiniowanych lokalizacji, a następnie zgrupuj "
+"transfery o tej samej lokacji."
+>>>>>>> upstream/18.0
 =======
 "Podziel transfery według zdefiniowanych lokalizacji, a następnie zgrupuj "
 "transfery o tej samej lokacji."
@@ -7914,6 +8221,7 @@ msgstr ""
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__wave_group_by_category
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8377,12 +8685,17 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Split transfers by product category, then group transfers that have the same "
 "product category."
 msgstr ""
 "Podziel transfery według kategorii produktów, a następnie zgrupuj transfery, "
 "z tą samą kategorią produktów."
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8394,6 +8707,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Podziel transfery według produktu a następnie zgrupuj transfery, które mają "
+"ten sam produkt."
+>>>>>>> upstream/18.0
 =======
 "Podziel transfery według produktu a następnie zgrupuj transfery, które mają "
 "ten sam produkt."
@@ -8430,6 +8748,7 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Status na podstawie czynności\n"
 "Zaległe: Termin już minął\n"
 "Dzisiaj: Data czynności przypada na dzisiaj\n"
@@ -8437,11 +8756,16 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Status na podstawie aktywności\n"
 "Zaległe: Termin już minął\n"
 "Dzisiaj: Data aktywności przypada na dzisiaj\n"
 "Zaplanowane: Przyszłe aktywności."
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8452,7 +8776,11 @@ msgstr ""
 msgid "Stock Batch Transfer"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Przekaz partii zapasów"
+=======
+msgstr "Transfer wsadowy zapasów"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transfer wsadowy zapasów"
 >>>>>>> upstream/18.0
@@ -8465,7 +8793,11 @@ msgstr "Transfer wsadowy zapasów"
 msgid "Stock Move"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Przesunięcie"
+=======
+msgstr "Ruch magazynowy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ruch magazynowy"
 >>>>>>> upstream/18.0
@@ -8483,7 +8815,11 @@ msgstr "Miejsce przeznaczenia paczki zasobów"
 msgid "Stock move lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Linie ruchu zapasów"
+=======
+msgstr "Pozycje ruchu magazynowego"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pozycje ruchu magazynowego"
 >>>>>>> upstream/18.0
@@ -8496,7 +8832,11 @@ msgstr "Pozycje ruchu magazynowego"
 msgid "Stock moves"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ruchy zapasów"
+=======
+msgstr "Ruchy magazynowe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ruchy magazynowe"
 >>>>>>> upstream/18.0
@@ -8513,6 +8853,7 @@ msgstr "Podsumowanie:"
 #. odoo-python
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8977,6 +9318,8 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "The following transfers cannot be added to batch transfer %(batch)s. Please "
 "check their states and operation types.\n"
 "\n"
@@ -8987,6 +9330,9 @@ msgstr ""
 "\n"
 "Niezgodności: %(incompatible_transfers)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9003,7 +9349,11 @@ msgstr "Wybrane operacje powinny należeć do unikalnej firmy."
 msgid "The selected pickings should belong to an unique company."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Wybrane pobrania powinny należeć do unikalnej firmy."
+=======
+msgstr "Wybrane kompletacje powinny należeć do unikalnej firmy."
+>>>>>>> upstream/18.0
 =======
 msgstr "Wybrane kompletacje powinny należeć do unikalnej firmy."
 >>>>>>> upstream/18.0
@@ -9017,7 +9367,11 @@ msgstr "Wybrane kompletacje powinny należeć do unikalnej firmy."
 msgid "The selected transfers should belong to a unique company."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Wybrane przekazy powinny należeć do unikalnej firmy."
+=======
+msgstr "Wybrane transfery powinny należeć do unikalnej firmy."
+>>>>>>> upstream/18.0
 =======
 msgstr "Wybrane transfery powinny należeć do unikalnej firmy."
 >>>>>>> upstream/18.0
@@ -9031,7 +9385,11 @@ msgstr "Wybrane transfery powinny należeć do unikalnej firmy."
 msgid "The selected transfers should belong to the same operation type"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Wybrane przekazy powinny należeć do tego samego typu operacji"
+=======
+msgstr "Wybrane transfery powinny należeć do tego samego typu operacji"
+>>>>>>> upstream/18.0
 =======
 msgstr "Wybrane transfery powinny należeć do tego samego typu operacji"
 >>>>>>> upstream/18.0
@@ -9054,7 +9412,11 @@ msgstr "Do zrobienia"
 msgid "Today Activities"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dzisiejsze czynności"
+=======
+msgstr "Dzisiejsze aktywności"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dzisiejsze aktywności"
 >>>>>>> upstream/18.0
@@ -9068,7 +9430,11 @@ msgstr "Dzisiejsze aktywności"
 msgid "Transfer"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Przekaz"
+=======
+msgstr "Transfer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transfer"
 >>>>>>> upstream/18.0
@@ -9081,7 +9447,11 @@ msgstr "Transfer"
 msgid "Transfer Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nazwa wyświetlana transferu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nazwa wyświetlana transferu"
 >>>>>>> upstream/18.0
@@ -9100,7 +9470,11 @@ msgstr "Nazwa transferu"
 msgid "Transferred by"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pobrane przez"
+=======
+msgstr "Transferowane przez"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transferowane przez"
 >>>>>>> upstream/18.0
@@ -9114,7 +9488,11 @@ msgstr "Transferowane przez"
 msgid "Transfers"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Przekazy"
+=======
+msgstr "Transfery"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transfery"
 >>>>>>> upstream/18.0
@@ -9132,7 +9510,11 @@ msgstr "Typ operacji"
 msgid "Type of the exception activity on record."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Typ wyjątku działania na rekordzie."
+=======
+msgstr "Typ wyjątku aktywności na rekordzie."
+>>>>>>> upstream/18.0
 =======
 msgstr "Typ wyjątku aktywności na rekordzie."
 >>>>>>> upstream/18.0
@@ -9146,7 +9528,11 @@ msgstr "Typ wyjątku aktywności na rekordzie."
 msgid "Unassigned responsible from %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cofnięto przypisanie osoby odpowiedzialnej od %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cofnięto przypisanie osoby odpowiedzialnej od %s"
 >>>>>>> upstream/18.0
@@ -9159,7 +9545,11 @@ msgstr "Cofnięto przypisanie osoby odpowiedzialnej od %s"
 msgid "Unreserve"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Skasuj rezerwację"
+=======
+msgstr "Anuluj rezerwację"
+>>>>>>> upstream/18.0
 =======
 msgstr "Anuluj rezerwację"
 >>>>>>> upstream/18.0
@@ -9183,7 +9573,11 @@ msgstr "Magazyn"
 msgid "Wave Locations"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lokacje falowe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lokacje falowe"
 >>>>>>> upstream/18.0
@@ -9196,7 +9590,11 @@ msgstr "Lokacje falowe"
 msgid "Wave Product Categories"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kategorie produktów falowych"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kategorie produktów falowych"
 >>>>>>> upstream/18.0
@@ -9209,7 +9607,11 @@ msgstr "Kategorie produktów falowych"
 msgid "Wave Transfer"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Przekaz falowy"
+=======
+msgstr "Transfer falowy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transfer falowy"
 >>>>>>> upstream/18.0
@@ -9222,7 +9624,11 @@ msgstr "Transfer falowy"
 msgid "Wave Transfer Lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Linie przekazu falowego"
+=======
+msgstr "Pozycje transferu falowego"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pozycje transferu falowego"
 >>>>>>> upstream/18.0
@@ -9242,7 +9648,11 @@ msgstr "Transfery falowe"
 msgid "Wave transfers"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transfery falowe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transfery falowe"
 >>>>>>> upstream/18.0
@@ -9264,6 +9674,7 @@ msgstr "Historia komunikacji"
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_to_batch__is_create_draft
 msgid "When checked, create the batch in draft status"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9638,6 +10049,9 @@ msgstr ""
 =======
 "Zaznaczenie tej opcji spowoduje utworzenie partii w statusie wersji roboczej."
 >>>>>>> upstream/18.0
+=======
+"Zaznaczenie tej opcji spowoduje utworzenie partii w statusie wersji roboczej."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #. odoo-python
@@ -9645,7 +10059,11 @@ msgstr ""
 msgid "You cannot delete Done batch transfers."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nie można usunąć ukończonych przekazów partii."
+=======
+msgstr "Nie można usunąć ukończonych transferów partii."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nie można usunąć ukończonych transferów partii."
 >>>>>>> upstream/18.0
@@ -9659,7 +10077,11 @@ msgstr "Nie można usunąć ukończonych transferów partii."
 msgid "You have to set some pickings to batch."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Trzeba ustawić jakieś pobranie na partię."
+=======
+msgstr "Należy ustawić jakieś kompletację na partię."
+>>>>>>> upstream/18.0
 =======
 msgstr "Należy ustawić jakieś kompletację na partię."
 >>>>>>> upstream/18.0
@@ -9672,7 +10094,11 @@ msgstr "Należy ustawić jakieś kompletację na partię."
 msgid "a new batch transfer"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "nowy przekaz partii"
+=======
+msgstr "nowy transfer wsadowy"
+>>>>>>> upstream/18.0
 =======
 msgstr "nowy transfer wsadowy"
 >>>>>>> upstream/18.0
@@ -9685,7 +10111,11 @@ msgstr "nowy transfer wsadowy"
 msgid "a new wave transfer"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "przekaz nowej fali"
+=======
+msgstr "nowy transfer falowy"
+>>>>>>> upstream/18.0
 =======
 msgstr "nowy transfer falowy"
 >>>>>>> upstream/18.0
@@ -9698,7 +10128,11 @@ msgstr "nowy transfer falowy"
 msgid "an existing batch transfer"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "istniejący przekaz partii"
+=======
+msgstr "istniejący transfer wsadowy"
+>>>>>>> upstream/18.0
 =======
 msgstr "istniejący transfer wsadowy"
 >>>>>>> upstream/18.0
@@ -9711,7 +10145,11 @@ msgstr "istniejący transfer wsadowy"
 msgid "an existing wave transfer"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "istniejący przekaz falowy"
+=======
+msgstr "istniejący transfer falowy"
+>>>>>>> upstream/18.0
 =======
 msgstr "istniejący transfer falowy"
 >>>>>>> upstream/18.0
@@ -9724,7 +10162,11 @@ msgstr "istniejący transfer falowy"
 msgid "shipping_volume"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "shipping_volume"
+>>>>>>> upstream/18.0
 =======
 msgstr "shipping_volume"
 >>>>>>> upstream/18.0
@@ -9737,7 +10179,11 @@ msgstr "shipping_volume"
 msgid "shipping_weight"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "shipping_weight"
+>>>>>>> upstream/18.0
 =======
 msgstr "shipping_weight"
 >>>>>>> upstream/18.0

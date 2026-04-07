@@ -209,6 +209,10 @@ from . import card_card
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import ir_model
+>>>>>>> upstream/18.0
 =======
 from . import ir_model
 >>>>>>> upstream/18.0

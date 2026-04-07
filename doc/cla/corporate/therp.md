@@ -26,6 +26,10 @@ Updated:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    2025-10-07
+>>>>>>> upstream/18.0
 =======
     2025-10-07
 >>>>>>> upstream/18.0
@@ -123,12 +127,15 @@ List of contributors:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 *  George Daramouskas gdaramouskas@therp.nl https://github.com/daramousk
 *  Nikos Tsirintanis ntsirintanis@therp.nl https://github.com/ntsirintanis
 *  Jan Verbeek jverbeek@therp.nl https://github.com/janverb
 *  Danny de Jong ddejong@therp.nl https://github.com/ddejong-therp
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -194,6 +201,9 @@ List of contributors:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

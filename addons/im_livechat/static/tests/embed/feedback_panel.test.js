@@ -296,7 +296,11 @@ test("Feedback with rating and comment", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(args.reason.includes("Good job!")).toBe(true);
+=======
+            expect(args.reason).toInclude("Good job!");
+>>>>>>> upstream/18.0
 =======
             expect(args.reason).toInclude("Good job!");
 >>>>>>> upstream/18.0
@@ -1271,7 +1275,11 @@ test("Feedback with rating and comment", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await click(`img[data-alt="${RATING.GOOD}"]`);
+=======
+    await click(`img[alt="${RATING.GOOD}"]`);
+>>>>>>> upstream/18.0
 =======
     await click(`img[alt="${RATING.GOOD}"]`);
 >>>>>>> upstream/18.0
